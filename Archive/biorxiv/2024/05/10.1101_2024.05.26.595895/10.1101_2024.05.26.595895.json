@@ -1,0 +1,822 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.26.595895",
+  "title": "Interpretable Protein-DNA Interactions Captured by Structure-Sequence Optimization",
+  "doi": "10.1101/2024.05.26.595895",
+  "abstract": "Sequence-specific DNA recognition underlies essential processes in gene regulation, yet methods for simultaneous predictions of genomic DNA recognition sites and their binding affinity remain lacking. Here, we present the Interpretable protein-DNA Energy Associative (IDEA) model, a residue-level, interpretable biophysical model capable of predicting binding sites and affinities of DNA-binding proteins. By fusing structures and sequences of known protein-DNA complexes into an optimized energy model, IDEA enables direct interpretation of physicochemical interactions among individual amino acids and nucleotides. We demonstrate that this energy model can accurately predict DNA recognition sites and their binding strengths across various protein families. Additionally, the IDEA model is integrated into a coarse-grained simulation framework that quantitatively captures the absolute protein-DNA binding free energies. Overall, IDEA provides an integrated computational platform that alleviates experimental costs and biases in assessing DNA recognition and can be utilized for mechanistic studies of various DNA recognition processes.",
+  "authors": [
+    "Yafan Zhang",
+    "Irene Silvernail",
+    "Zhuyang Lin",
+    "Xingcheng Lin"
+  ],
+  "published_date": "2024-05-27",
+  "updated_date": "2024-05-28T00:25:23Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.26.595895",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.26.595895.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            5
+          ]
+        ],
+        "date-time": "2026-05-05T12:28:20Z",
+        "timestamp": 1777984100627,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            27
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 115,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                27
+              ]
+            ],
+            "date-time": "2024-05-27T00:00:00Z",
+            "timestamp": 1716768000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Sequence-specific DNA recognition underlies essential processes in gene regulation, yet methods for simultaneous predictions of genomic DNA recognition sites and their binding affinity remain lacking. Here, we present the Interpretable protein-DNA Energy Associative (IDEA) model, a residue-level, interpretable biophysical model capable of predicting binding sites and affinities of DNA-binding proteins. By fusing structures and sequences of known protein-DNA complexes into an optimized energy model, IDEA enables direct interpretation of physicochemical interactions among individual amino acids and nucleotides. We demonstrate that this energy model can accurately predict DNA recognition sites and their binding strengths across various protein families. Additionally, the IDEA model is integrated into a coarse-grained simulation framework that quantitatively captures the absolute protein-DNA binding free energies. Overall, IDEA provides an integrated computational platform that alleviates experimental costs and biases in assessing DNA recognition and can be utilized for mechanistic studies of various DNA recognition processes.</jats:p>",
+      "DOI": "10.1101/2024.05.26.595895",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2024-05-28T00:25:23Z",
+        "timestamp": 1716855923000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Interpretable Protein-DNA Interactions Captured by Structure-Sequence Optimization"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yafan",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Irene",
+          "family": "Silvernail",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhuyang",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9378-6174",
+          "authenticated-orcid": false,
+          "given": "Xingcheng",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.02.014"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(02)00655-4"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.290.5500.2306"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1089"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1357-2725(97)00085-X"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adg3053"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3005"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(88)90469-2"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2641"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/NPROT.2017.055"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1120"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1131007"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1675"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ogawa, N. ; Biggin, M. D . High-throughput SELEX determination of DNA sequences bound by transcription factors in vitro. Gene Regulatory Networks: Methods and Protocols 2012, 51–63.",
+          "DOI": "10.1007/978-1-61779-292-2_3"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4143"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3306"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.111163698"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.03.014"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2843-2"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/BAB.2244"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2486"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1422023112"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20167238"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rastogi, C. ; Rube, H. T. ; Kribelbauer, J. F. ; Crocker, J. ; Loker, R. E. ; Martini, G. D. ; Laptenko, O. ; Freed-Pastor, W. A. ; Prives, C. ; Stern, D. L. ; Mann, R. S. ; Bussemaker, H. J . Accurate and sensitive quantification of protein-DNA binding affinity. Proc. Natl. Acad. Sci. U.S.A. 2018, 115.",
+          "DOI": "10.1073/pnas.1714376115"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae039"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbad488"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3295-2"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01307-0"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1112"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae970"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab848"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02372-w"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.276606.122"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2205796120"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.84.21.7524"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.physchem.48.1.545"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ijch.201300145"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1361-6633/ac3800"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1077"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1206011109"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-04729-0"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2251503"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn332"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki408"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2238"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.5533506"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-14743-w"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.12.014"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4396"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00790-6"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1001163107"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp212541y"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D Bascom, G. ; Schlick, T. Nuclear Architecture and Dynamics; Elsevier, 2018; pp 123–147.",
+          "DOI": "10.1016/B978-0-12-803480-4.00005-3"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2005500117"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.3c00833"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.3693"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4897649"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0044150"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b02893"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acscentsci.6b00201"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5085663"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acscentsci.8b00836"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.90073"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-21377-z"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac725"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2018.03.025"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2003395117"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab441"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1004794"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2431804"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4822042"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.113.168101"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq984"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90121-8"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/JCC.540130812"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1473"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac469"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, S. ; Gomez-Alcala, P. ; Leemans, C. ; Glassford, W. J. ; Melo, L. A. N. ; Lu, X.-J. ; Mann, R. S. ; Bussemaker, H. J . Predicting the DNA binding specificity of transcription factor mutants using family-level biophysically interpretable machine learning. bioRxiv 2025, 2024.01.24.577115.",
+          "DOI": "10.1101/2024.01.24.577115"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "lqae068",
+          "DOI": "10.1093/nargab/lqae068",
+          "article-title": "Structure-based learning to predict and model protein–DNA interactions and transcription-factor co-operativity in cis –regulatory elements",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "NAR Genomics and Bioinformatics"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0903103106"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.02.032"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2626"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4115"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.88",
+          "unstructured": "Abramson, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 2024, 1–3."
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.89",
+          "unstructured": "Tunyasuvunakool, K. et al. Highly accurate protein structure prediction for the human proteome. Nature 2021,"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02086-5"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/npp.2012.112"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/47412"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2045"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1685"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2016.59"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.03.050"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-45191-5"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-021-00076-1"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adl0161"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.100",
+          "unstructured": "European Nucleotide Archive European Nucleotide Archive. 2024; https://www.ebi.ac.uk/ena."
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.101",
+          "unstructured": "Rastogi, C. ; Liu, D. ; Melo, L. ; Bussemaker, H. J. SELEX: Functions for analyzing SELEX-seq data; 2022."
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1079"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpbi.108"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad594"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.105",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lequieu, J. ; Schwartz, D. C. ; De Pablo, J. J . In silico evidence for sequence-dependent nucleosome sliding. Proc. Natl. Acad. Sci. U.S.A. 2017, 114.",
+          "DOI": "10.1073/pnas.1705685114"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2021.108171"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00785-X"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.08.035"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00050-0"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi051705m"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1126"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1106"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa789"
+        },
+        {
+          "key": "2025050202350949000_2024.05.26.595895v3.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0118432"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.05.26.595895",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:29:06Z",
+        "timestamp": 1768458546000
+      },
+      "score": 83.95821,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.05.26.595895"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            27
+          ]
+        ]
+      },
+      "references-count": 115,
+      "URL": "https://doi.org/10.1101/2024.05.26.595895",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105565",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105565.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105565.1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105565.2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

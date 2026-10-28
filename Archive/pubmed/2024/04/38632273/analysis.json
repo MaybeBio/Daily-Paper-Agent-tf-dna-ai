@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38632273",
+  "title": "T-cell commitment inheritance-an agent-based multi-scale model.",
+  "authors": "Andersson, Emil; Rothenberg, Ellen V; Peterson, Carsten; Olariu, Victor",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2024-04-18",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用基于智能体的多尺度模型模拟T细胞发育中的谱系定型，涉及转录开关与Bcl11b调控，但核心是细胞群体动态而非蛋白质-DNA互作建模，且无AI或物理模拟方法聚焦于TF-DNA结合。",
+  "abstract": "T-cell development provides an excellent model system for studying lineage commitment from a multipotent progenitor. The intrathymic development process has been thoroughly studied. The molecular circuitry controlling it has been dissected and the necessary steps like programmed shut off of progenitor genes and T-cell genes upregulation have been revealed. However, the exact timing between decision-making and commitment stage remains unexplored. To this end, we implemented an agent-based multi-scale model to investigate inheritance in early T-cell development. Treating each cell as an agent provides a powerful tool as it tracks each individual cell of a simulated T-cell colony, enabling the construction of lineage trees. Based on the lineage trees, we introduce the concept of the last common ancestors (LCA) of committed cells and analyse their relations, both at single-cell level and population level. In addition to simulating wild-type development, we also conduct knockdown analysis. Our simulations predicted that the commitment is a three-step process that occurs on average over several cell generations once a cell is first prepared by a transcriptional switch. This is followed by the loss of the Bcl11b-opposing function approximately two to three generations later. This is when our LCA analysis indicates that the decision to commit is taken even though in general another one to two generations elapse before the cell actually becomes committed by transitioning to the DN2b state. Our results showed that there is decision inheritance in the commitment mechanism.",
+  "abstract_zh": "T细胞发育为研究多能祖细胞的谱系定向提供了极佳的模型系统。胸腺内发育过程已被深入研究，控制该过程的分子回路已被解析，诸如祖细胞基因的程序性关闭和T细胞基因上调等必要步骤也已被揭示。然而，决策制定与定向阶段之间的精确时间关系仍未探索。为此，我们实施了一个基于代理的多尺度模型，以研究早期T细胞发育中的遗传性。将每个细胞视为代理提供了一个强大工具，因为它能追踪模拟T细胞集落中的每个个体细胞，从而构建谱系树。基于谱系树，我们引入了定向细胞最后共同祖先（LCA）的概念，并在单细胞水平和群体水平上分析它们的关系。除了模拟野生型发育外，我们还进行了敲低分析。我们的模拟预测，定向是一个三步过程，一旦细胞通过转录开关初步准备，该过程平均跨越数个细胞世代发生。随后，大约两到三代后，Bcl11b拮抗功能丧失。此时，我们的LCA分析表明，定向决策已作出，尽管通常还需一到两代细胞才通过过渡到DN2b状态实际定向。我们的结果表明，定向机制中存在决策遗传性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38632273/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38632273/",
+  "paper_page_path": "papers/pubmed/38632273/index.html"
+}

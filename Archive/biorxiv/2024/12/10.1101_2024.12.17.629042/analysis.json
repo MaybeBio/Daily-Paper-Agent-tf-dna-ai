@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.17.629042",
+  "title": "Predictive Modeling of Gene Expression and Localization of DNA Binding Site Using Deep Convolutional Neural Networks",
+  "authors": "Arman Karshenas; Tom Röschinger; Hernan G. Garcia",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度卷积神经网络DARSI从MPRA数据预测基因表达并定位转录因子结合位点，属TF-DNA结合位点预测的AI方法，但未涉及三维互作建模或动态机制，故评7分。",
+  "abstract": "Despite the sequencing revolution, large swaths of the genomes sequenced to date lack any information about the arrangement of transcription factor binding sites on regulatory DNA. Massively Parallel Reporter Assays (MPRAs) have the potential to dramatically accelerate our genomic annotations by making it possible to measure the gene expression levels driven by thousands of mutational variants of a regulatory region. However, the interpretation of such data often assumes that each base pair in a regulatory sequence contributes independently to gene expression. To enable the analysis of this data in a manner that accounts for possible correlations between distant bases along a regulatory sequence, we developed the Deep learning Adaptable Regulatory Sequence Identifier (DARSI). This convolutional neural network leverages MPRA data to predict gene expression levels directly from raw regulatory DNA sequences. By harnessing this predictive capacity, DARSI systematically identifies transcription factor binding sites within regulatory regions at single-base pair resolution. To validate its predictions, we benchmarked DARSI against curated databases, confirming its accuracy in predicting transcription factor binding sites. Additionally, DARSI predicted novel unmapped binding sites, paving the way for future experimental efforts to confirm the existence of these binding sites and to identify the transcription factors that target those sites. Thus, by automating and improving the annotation of regulatory regions, DARSI generates experimentally actionable predictions that can feed iterations of the theory-experiment cycle aimed at reaching a predictive understanding of transcriptional control.",
+  "abstract_zh": "尽管测序技术取得了革命性进展，但迄今为止已测序的基因组中，大部分区域缺乏关于调控DNA上转录因子结合位点排列的信息。大规模平行报告分析（MPRAs）通过能够测量调控区域数千个突变变异体驱动的基因表达水平，有望大幅加速我们的基因组注释。然而，对此类数据的解读往往假设调控序列中的每个碱基对独立地对基因表达做出贡献。为了在考虑调控序列中远距离碱基间可能存在的相关性这一前提下分析此类数据，我们开发了深度学习适应性调控序列识别器（DARSI）。这一卷积神经网络利用MPRA数据，直接从原始调控DNA序列预测基因表达水平。通过利用这一预测能力，DARSI在单碱基对分辨率下系统性地识别调控区域内的转录因子结合位点。为验证其预测，我们针对精选数据库对DARSI进行了基准测试，确认了其在预测转录因子结合位点方面的准确性。此外，DARSI预测了新的未映射结合位点，为未来实验工作确认这些结合位点的存在及识别靶向这些位点的转录因子铺平了道路。因此，通过自动化并改进调控区域的注释，DARSI生成了可实验操作的预测，这些预测可反馈到旨在实现对转录控制预测性理解的理论-实验循环迭代中。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.629042",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.17.629042",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.17.629042/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38806474",
+  "title": "A protein sequence-based deep transfer learning framework for identifying human proteome-wide deubiquitinase-substrate interactions.",
+  "authors": "Liu, Yuan; Li, Dianke; Zhang, Xin; Xia, Simin; Qu, Yingjie; Ling, Xinping; Li, Yang; Kong, Xiangren; Zhang, Lingqiang; Cui, Chun-Ping; Li, Dong",
+  "journal": "Nature communications",
+  "published_date": "2024-05-29",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用深度迁移学习预测去泛素化酶-底物相互作用，属于蛋白质-蛋白质互作而非蛋白质-DNA互作，且无结合建模或AI/物理模拟方法聚焦于核酸体系，与本课题关联度低。",
+  "abstract": "Protein ubiquitination regulates a wide range of cellular processes. The degree of protein ubiquitination is determined by the delicate balance between ubiquitin ligase (E3)-mediated ubiquitination and deubiquitinase (DUB)-mediated deubiquitination. In comparison to the E3-substrate interactions, the DUB-substrate interactions (DSIs) remain insufficiently investigated. To address this challenge, we introduce a protein sequence-based ab initio method, TransDSI, which transfers proteome-scale evolutionary information to predict unknown DSIs despite inadequate training datasets. An explainable module is integrated to suggest the critical protein regions for DSIs while predicting DSIs. TransDSI outperforms multiple machine learning strategies against both cross-validation and independent test. Two predicted DUBs (USP11 and USP20) for FOXP3 are validated by \"wet lab\" experiments, along with two predicted substrates (AR and p53) for USP22. TransDSI provides new functional perspective on proteins by identifying regulatory DSIs, and offers clues for potential tumor drug target discovery and precision drug application.",
+  "abstract_zh": "蛋白质泛素化调控着广泛的细胞过程。蛋白质泛素化的程度由泛素连接酶（E3）介导的泛素化与去泛素化酶（DUB）介导的去泛素化之间的精细平衡所决定。与E3-底物相互作用相比，DUB-底物相互作用（DSIs）的研究仍显不足。为应对这一挑战，我们提出了一种基于蛋白质序列的从头计算方法TransDSI，该方法转移蛋白质组规模的进化信息，以在训练数据集不足的情况下预测未知的DSIs。集成一个可解释模块，在预测DSIs的同时提示DSIs的关键蛋白质区域。TransDSI在交叉验证和独立测试中均优于多种机器学习策略。针对FOXP3预测的两个DUBs（USP11和USP20）已通过“湿实验”验证，同时针对USP22预测的两个底物（AR和p53）也得到验证。TransDSI通过识别调控性DSIs为蛋白质提供新的功能视角，并为潜在肿瘤药物靶点发现和精准药物应用提供线索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38806474/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38806474/",
+  "paper_page_path": "papers/pubmed/38806474/index.html"
+}

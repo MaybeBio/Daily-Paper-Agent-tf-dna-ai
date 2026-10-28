@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract text
+- **Shared manuscript claim summary** The authors propose scHyperLink, a hypergraph neural network framework for gene regulatory network reconstruction from single-cell RNA sequencing data. The method integrates experimentally derived interaction graphs with dynamically learned hyperedges to capture higher-order regulatory relationships. The authors claim superior accuracy over state-of-the-art methods on cell-type-specific benchmarks, particularly in sparse data regimes, and report biological relevance via interpretability analyses and scalability to tissue-level analyses.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, quantitative performance comparisons, dataset descriptions, implementation details, hyperparameter settings, and code availability verification.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually motivated approach to a relevant problem in single-cell genomics. The use of hypergraph neural networks to model higher-order regulatory interactions is a reasonable extension of existing graph-based methods. However, the abstract provides no quantitative evidence to support the central claims of improved accuracy, biological validity, or scalability. The methodological novelty relative to existing hypergraph-based approaches is not clearly articulated. The claims as stated cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell analysis method development, and graph-based machine learning applications in genomics. The work may also interest researchers developing hypergraph neural network architectures for biological applications.
+- **Major strengths** The problem motivation is clear and well-articulated. The limitation of pairwise GNNs for capturing higher-order regulatory dependencies is a legitimate concern in GRN inference. The proposed integration of experimentally derived graphs with learned hyperedges is a sensible design choice. The stated intention to share code and data supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "scHyperLink achieves higher accuracy than state-of-the-art on cell-type-specific benchmark datasets, particularly in sparse regimes with few known interactions"
+  - **Evidence pointer** Location not provided
+  - **Concern** The central performance claim is presented without any quantitative results. No accuracy metrics, benchmark dataset names, baseline methods, or statistical significance measures are reported in the abstract.
+  - **Why it matters** The primary contribution of the work is the claimed improvement over existing methods. Without numerical evidence, the reader cannot assess the magnitude of improvement, whether it is consistent across datasets, or whether it is statistically meaningful.
+  - **Resolution test** Provide quantitative comparisons with baseline methods on named benchmark datasets, including error bars or confidence intervals and statistical tests where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological novelty
+  - **Claim pointer** "we introduce scHyperLink, a hypergraph-based framework for GRN reconstruction"
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not specify how scHyperLink differs from existing hypergraph neural network approaches applied to GRN inference. The combination of static and learned hyperedges is mentioned, but the specific architectural innovations, training procedure, or problem formulation are not described.
+  - **Why it matters** Without a clear statement of novelty relative to prior hypergraph-based methods, the contribution may be incremental. Reviewers and readers need to understand what is genuinely new.
+  - **Resolution test** Clearly state the specific methodological contributions and contrast them with the closest existing hypergraph-based GRN inference methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** "we validate the biological relevance of scHyperLink via interpretability analyses on inferred hypergraphs and showcase its scalability to tissue-level analyses"
+  - **Evidence pointer** Location not provided
+  - **Concern** The biological validation and scalability claims are stated without any description of the analyses performed, the biological findings obtained, or the scale of tissue-level data used.
+  - **Why it matters** Biological relevance is a key differentiator for computational methods in genomics. Without details on what the interpretability analyses revealed or how scalability was demonstrated, these claims cannot be assessed.
+  - **Resolution test** Describe the interpretability analyses and their biological findings, and report the dataset sizes and computational resources used for the scalability demonstration.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "sparse regimes with few known interactions" is vague. It is unclear what constitutes "few" and how sparsity is quantified.
+  - **Required correction** Define the sparsity range or percentage of known interactions in the sparse regime.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Resource availability statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The statement "We share the analyzed datasets and source codes for reproducibility" does not specify where these resources are available or under what license.
+  - **Required correction** Provide a repository URL or accession number and specify the license.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "Prior work adopts Graph Neural Networks" but does not cite or name any specific prior methods, making it difficult to contextualize the claimed improvement.
+  - **Required correction** Name at least the most relevant prior GNN-based GRN inference methods in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, unclear methodological novelty, and lack of validation details collectively prevent the core claims from being established.
+- **Assessment against Nature-style criteria** Originality: The conceptual direction is reasonable but the abstract does not demonstrate sufficient novelty over existing hypergraph-based approaches. Scientific importance: GRN inference is an important problem, but the abstract does not show that the method addresses a previously unsolved challenge. Interdisciplinary readership: The work bridges machine learning and genomics, which has broad appeal, but the abstract is written primarily for a computational audience. Technical soundness: Cannot be assessed from the abstract alone. Readability for nonspecialists: The abstract is accessible to readers with background in both fields but uses jargon without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual motivation is sound, but the abstract lacks the quantitative and methodological detail necessary to evaluate the central claims. A full manuscript with results would be required for a substantive assessment.
+
+## Risk / unsupported claims
+- The claim of higher accuracy than state-of-the-art is unsupported by any quantitative data in the abstract.
+- The claim of biological relevance via interpretability analyses is unsupported by any description of the analyses or findings.
+- The claim of scalability to tissue-level analyses is unsupported by any reported scale or performance data.
+- The implicit claim of methodological novelty relative to existing hypergraph-based GRN methods is not established.

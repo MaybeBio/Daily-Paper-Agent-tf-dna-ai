@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41337156",
+    "doi": "10.1371/journal.pcbi.1012326",
+    "title": "Epigenetics is all you need: A transformer to decode chromatin structural compartments from the epigenome."
+  },
+  "content": {
+    "abstract": "Chromatin within the nucleus adopts complex three-dimensional structures that are crucial for gene regulation and cellular function. Recent studies have revealed the presence of distinct chromatin subcompartments beyond the traditional A/B compartments (eu- and hetero-chromatin), each exhibiting unique structural and functional properties. Here, we introduce TECSAS (Transformer of Epigenetics to Chromatin Structural AnnotationS), a deep learning model based on the Transformer architecture, designed to predict chromatin subcompartment annotations directly from epigenomic data. TECSAS leverages information from histone modifications, transcription factor binding profiles, and RNA-Seq data to decode the relationship between the biochemical composition of chromatin and its 3D structural behavior. TECSAS achieves high accuracy in predicting subcompartment annotations and reveals the influence of long-range epigenomic context on chromatin organization. Furthermore, we demonstrate the model's capability to predict the association of loci with nuclear bodies, such as the lamina, nucleoli, and speckles, providing insights into the role of these structures in shaping the 3D genome organization. This study highlights the potential of deep learning models for deciphering the complex interplay between epigenomic features and 3D genome organization, allowing us to better understand genome structure and function.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/genetics/chemistry/metabolism",
+      "*Epigenome/genetics",
+      "Humans",
+      "Deep Learning",
+      "*Epigenomics/methods",
+      "Computational Biology/methods",
+      "*Epigenesis, Genetic",
+      "Histone Code"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dodero-Rojas, Esteban",
+        "Mendieta, Angel",
+        "Fehlis, Yao",
+        "Mayala, Nicholas",
+        "Contessoto, Vinicius G",
+        "Onuchic, Jose N"
+      ],
+      "short_names": [
+        "Dodero-Rojas E",
+        "Mendieta A",
+        "Fehlis Y",
+        "Mayala N",
+        "Contessoto VG",
+        "Onuchic JN"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9054-9555",
+        "ORCID: 0000-0002-1891-9563"
+      ],
+      "affiliations": [
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+        "School of Physics, Universidad de Costa Rica, San Pedro de Montes de Oca, San Jose, Costa Rica.",
+        "Research and Advanced Development, Advanced Micro Devices, Austin, Texas, United States of America.",
+        "Research and Advanced Development, Advanced Micro Devices, Austin, Texas, United States of America.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+        "Department of Physics and Astronomy, Rice University, Houston, Texas, United States of America.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+        "Department of Physics and Astronomy, Rice University, Houston, Texas, United States of America.",
+        "Department of Chemistry, Rice University, Houston, Texas, United States of America.",
+        "Department of Biosciences, Rice University, Houston, Texas, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dodero-Rojas, Esteban",
+        "short_name": "Dodero-Rojas E",
+        "identifiers": [
+          "0000-0001-9054-9555"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mendieta, Angel",
+        "short_name": "Mendieta A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+          "School of Physics, Universidad de Costa Rica, San Pedro de Montes de Oca, San José, Costa Rica."
+        ]
+      },
+      {
+        "full_name": "Fehlis, Yao",
+        "short_name": "Fehlis Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Advanced Development, Advanced Micro Devices, Austin, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mayala, Nicholas",
+        "short_name": "Mayala N",
+        "identifiers": [],
+        "affiliations": [
+          "Research and Advanced Development, Advanced Micro Devices, Austin, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Contessoto, Vinícius G",
+        "short_name": "Contessoto VG",
+        "identifiers": [
+          "0000-0002-1891-9563"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+          "Department of Physics and Astronomy, Rice University, Houston, Texas, United States of America."
+        ]
+      },
+      {
+        "full_name": "Onuchic, José N",
+        "short_name": "Onuchic JN",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America.",
+          "Department of Physics and Astronomy, Rice University, Houston, Texas, United States of America.",
+          "Department of Chemistry, Rice University, Houston, Texas, United States of America.",
+          "Department of Biosciences, Rice University, Houston, Texas, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 19:14",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40759747",
+      "39541441",
+      "38646172",
+      "37302549",
+      "37280678",
+      "35839701",
+      "35501320",
+      "34319725",
+      "33972523",
+      "33355299",
+      "33160979",
+      "33047670",
+      "33021634",
+      "32822575",
+      "31713622",
+      "31699985",
+      "31197269",
+      "30154186",
+      "29087948",
+      "28905911",
+      "27688758",
+      "27467249",
+      "27079975",
+      "25693564",
+      "25497547",
+      "23875797",
+      "23410359",
+      "19815776",
+      "17033624",
+      "17033623",
+      "16954542",
+      "11847345",
+      "11283701"
+    ],
+    "similar": [
+      "41337156",
+      "42475469",
+      "34299232",
+      "40221401",
+      "37302549",
+      "39708837",
+      "41408042",
+      "39498488",
+      "42237102",
+      "42170760",
+      "29365171",
+      "37294468",
+      "28515787",
+      "41258946",
+      "32941995",
+      "31181064",
+      "41766646",
+      "41922764",
+      "39724385",
+      "39283464",
+      "41986002",
+      "30967126",
+      "40887344",
+      "42301918",
+      "31897514",
+      "39316943",
+      "41684299",
+      "39696471",
+      "33023833",
+      "42681530",
+      "42068378",
+      "38968127",
+      "33300042",
+      "30596637",
+      "36018799",
+      "39073831",
+      "27042992",
+      "39550354",
+      "42271487",
+      "40243368",
+      "40953615",
+      "27391817",
+      "31006511",
+      "41663926",
+      "40391535",
+      "40637236",
+      "30755246",
+      "40408515",
+      "38052424",
+      "41178434",
+      "37387176",
+      "36335101",
+      "39448614",
+      "42114117",
+      "28802249",
+      "39227991",
+      "39472026",
+      "40879746",
+      "39779955",
+      "35091256",
+      "26206277",
+      "28064247",
+      "29581440",
+      "30853548",
+      "30835229",
+      "27060148",
+      "42490430",
+      "31266464",
+      "39426590",
+      "40845158",
+      "41514301",
+      "28251962",
+      "35397520",
+      "39012589",
+      "31699985",
+      "32240773",
+      "42032266",
+      "35199155",
+      "40250193",
+      "31127980",
+      "32025693",
+      "42292961",
+      "32182345",
+      "40716224",
+      "39660643",
+      "34019291",
+      "27098512",
+      "41072791",
+      "40011786",
+      "36893485",
+      "40301621",
+      "29813054",
+      "31337722",
+      "40702585",
+      "42402925",
+      "24033539",
+      "30416708",
+      "32461553",
+      "26551295",
+      "32451505"
+    ],
+    "review": [
+      "41337156",
+      "34299232",
+      "39708837",
+      "42170760",
+      "37294468",
+      "41258946",
+      "32941995",
+      "39283464",
+      "41986002",
+      "40887344",
+      "31897514",
+      "33023833",
+      "40391535",
+      "38052424",
+      "41178434",
+      "39472026",
+      "40879746",
+      "39779955",
+      "35091256",
+      "39426590",
+      "28251962",
+      "32240773",
+      "35199155",
+      "31127980",
+      "40716224",
+      "27098512",
+      "36893485",
+      "42402925",
+      "24033539"
+    ],
+    "pmc": [
+      "12685209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012326",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41337156/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

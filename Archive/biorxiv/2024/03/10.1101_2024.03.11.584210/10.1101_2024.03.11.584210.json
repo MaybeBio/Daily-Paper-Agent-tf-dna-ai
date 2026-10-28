@@ -1,0 +1,407 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.11.584210",
+  "title": "Mutational Profiling of SARS-CoV-2 PLpro in human cells reveals requirements for function, structure, and drug escape",
+  "doi": "10.1101/2024.03.11.584210",
+  "abstract": "SARS-CoV-2, the causative agent of COVID-19, is responsible for the recent global pandemic and remains a major source of mortality. Papain-like protease (PLpro) is a target for SARS-CoV-2 inhibitor development, as it is not only essential for viral replication through cleavage of the viral poly-proteins pp1a and pp1ab, but also has de-ubiquitylation and de-ISGylation activities, which can affect innate immune responses. To understand the features of PLpro that dictate activity and anticipate how emerging PLpro variants will affect function, we employed Deep Mutational Scanning to evaluate the mutational effects on enzymatic activity and protein stability in mammalian cells. We confirm features of the active site and identify all mutations in neighboring residues that support or ablate activity. We characterize residues responsible for substrate binding and demonstrate that although the blocking loop is remarkably tolerant to nearly all mutations, its flexibility is important for enzymatic function. We additionally find a connected network of mutations affecting function but not structure that extends far from the active site. Using our DMS libraries we were able to identify drug-escape variants to a common PLpro inhibitor scaffold and predict that plasticity in both the S4 pocket and blocking loop sequence should be considered during the drug design process.",
+  "authors": [
+    "Wu X",
+    "Go M",
+    "Nguyen JV",
+    "Kuchel NW",
+    "Lu BG",
+    "Lowes KN",
+    "Calleja DJ",
+    "Mitchell JP",
+    "Lessene G",
+    "Komander D",
+    "Call ME",
+    "Call MJ"
+  ],
+  "published_date": "2024-03-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584210",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584210.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR819539",
+    "raw_record": {
+      "id": "PPR819539",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR819539"
+        ]
+      },
+      "doi": "10.1101/2024.03.11.584210",
+      "title": "Mutational Profiling of SARS-CoV-2 PLpro in human cells reveals requirements for function, structure, and drug escape",
+      "authorString": "Wu X, Go M, Nguyen JV, Kuchel NW, Lu BG, Lowes KN, Calleja DJ, Mitchell JP, Lessene G, Komander D, Call ME, Call MJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wu X",
+            "lastName": "Wu",
+            "firstName": "Xinyu",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9094-9951"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Go M",
+            "lastName": "Go",
+            "firstName": "Margareta",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen JV",
+            "lastName": "Nguyen",
+            "firstName": "Julie",
+            "initials": "JV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1855-1751"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuchel NW",
+            "lastName": "Kuchel",
+            "firstName": "Nathan",
+            "initials": "NW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu BG",
+            "lastName": "Lu",
+            "firstName": "Bernadine G.C.",
+            "initials": "BG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8044-9710"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lowes KN",
+            "lastName": "Lowes",
+            "firstName": "Kym",
+            "initials": "KN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3506-4218"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calleja DJ",
+            "lastName": "Calleja",
+            "firstName": "Dale",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8306-0900"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mitchell JP",
+            "lastName": "Mitchell",
+            "firstName": "Jeffrey",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lessene G",
+            "lastName": "Lessene",
+            "firstName": "Guillaume",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1193-8147"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Biochemistry and Pharmacology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Komander D",
+            "lastName": "Komander",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8092-4320"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Call ME",
+            "lastName": "Call",
+            "firstName": "Matthew",
+            "initials": "ME",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Call MJ",
+            "lastName": "Call",
+            "firstName": "Melissa",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia; Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                },
+                {
+                  "affiliation": "Department of Medical Biology, University of Melbourne, Parkville, Victoria, Australia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8044-9710"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1193-8147"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8092-4320"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8306-0900"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9094-9951"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1855-1751"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3506-4218"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "SARS-CoV-2, the causative agent of COVID-19, is responsible for the recent global pandemic and remains a major source of mortality. Papain-like protease (PLpro) is a target for SARS-CoV-2 inhibitor development, as it is not only essential for viral replication through cleavage of the viral poly-proteins pp1a and pp1ab, but also has de-ubiquitylation and de-ISGylation activities, which can affect innate immune responses. To understand the features of PLpro that dictate activity and anticipate how emerging PLpro variants will affect function, we employed Deep Mutational Scanning to evaluate the mutational effects on enzymatic activity and protein stability in mammalian cells. We confirm features of the active site and identify all mutations in neighboring residues that support or ablate activity. We characterize residues responsible for substrate binding and demonstrate that although the blocking loop is remarkably tolerant to nearly all mutations, its flexibility is important for enzymatic function. We additionally find a connected network of mutations affecting function but not structure that extends far from the active site. Using our DMS libraries we were able to identify drug-escape variants to a common PLpro inhibitor scaffold and predict that plasticity in both the S4 pocket and blocking loop sequence should be considered during the drug design process.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "222698/Z/21/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/12/2024.03.11.584210.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.11.584210"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR819539"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR819539&type=FILE&fileName=EMS194731-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39043718",
+            "reference": "Nature communications. 2024 Jul;15(1):6219",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194731",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-03-14",
+      "firstPublicationDate": "2024-03-12",
+      "firstIndexDate": "2024-03-14",
+      "fullTextReceivedDate": "2024-03-26",
+      "hasEvaluations": "Y"
+    }
+  }
+}

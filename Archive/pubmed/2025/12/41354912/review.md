@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) as provided
+- **Assessment boundary** Scientific soundness, methodological clarity, validation rigor, and support for claims based solely on the provided text
+- **Shared manuscript claim summary** The authors present DSSMReg, a deep structured semantic model that integrates single-cell RNA-seq expression data and transcription factor motif data to infer and prioritize cell-type-specific regulons. The model is claimed to outperform five existing gene regulatory network inference algorithms on benchmark datasets and to identify biologically relevant regulons in triple-negative breast cancer and hematopoietic stem cell differentiation.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1-6 and Supplementary Tables S1-S4; no actual figures, tables, or numerical data are visible in the provided material
+- **Missing materials affecting confidence** All figures, supplementary tables, and supplementary materials are referenced but not provided; no quantitative results (exact AUROC/AUPRC values, p-values, confidence intervals) are visible; no details on hyperparameter tuning, model selection, or reproducibility of training procedures beyond basic architecture
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in single-cell genomics: inferring cell-type-specific regulons from scRNA-seq data. The use of a DSSM-style two-tower architecture to jointly embed transcription factors and target genes is a reasonable and potentially useful adaptation. However, the current text does not provide sufficient quantitative evidence to evaluate the central claims. Key validation metrics are described qualitatively, figures are not visible, and several methodological details that would affect reproducibility and interpretation are missing. The biological application sections are descriptive rather than quantitatively supported. The core claim of superior performance over five baselines cannot be assessed from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics, and regulon analysis would be the primary audience. Researchers studying transcriptional regulation in cancer, particularly triple-negative breast cancer, and hematopoiesis may also find the application-oriented results relevant if the biological validations are substantiated with quantitative evidence.
+- **Major strengths** The problem is well-motivated and timely. The DSSM framework is a sensible choice for integrating heterogeneous data types (expression and motif information) into a shared embedding space. The authors address a practical limitation of many existing methods by incorporating motif data to reduce false positives from co-expression-based inference. The application to two distinct biological contexts (cancer and hematopoiesis) demonstrates potential generalizability. The manuscript is generally clearly written and the workflow is logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** "DSSMReg achieved the highest evaluation metrics for both AUROC and AUPRC" compared to five baselines
+  - **Evidence pointer** Figure 2; location not provided
+  - **Concern** The central performance claim is presented without any visible quantitative data. No exact AUROC or AUPRC values, no confidence intervals, no per-dataset breakdown, and no statistical test results are shown in the text. The figure is referenced but not available for inspection.
+  - **Why it matters** The primary contribution of the paper is a new method that is claimed to outperform existing approaches. Without visible numerical results, the reader cannot verify the magnitude of improvement, assess whether differences are meaningful or statistically significant, or determine whether the comparison was fair and consistent across datasets.
+  - **Resolution test** Provide the full quantitative results in the text or in a visible table, including per-dataset AUROC and AUPRC values for all methods, with standard deviations or confidence intervals and p-values from appropriate statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The model is trained on "cell-type-specific regulatory relationships validated by ChIP-seq experiments" and then used to infer regulons for each cell type.
+  - **Evidence pointer** Methods section, "Model training and regulon prediction"; location not provided
+  - **Concern** The training procedure is described at a high level but critical details are missing. Specifically: (1) how are positive training samples defined per cell type when ChIP-seq data are not cell-type-specific in the BEELINE benchmark? (2) How are negative samples selected beyond "randomly selected from genes that do not have regulatory relationships"? (3) How is the train/test split performed to avoid leakage between cell types or datasets? (4) What is the exact loss function weighting between positive and negative samples?
+  - **Why it matters** The validity of the supervised learning approach depends entirely on the quality and construction of the training labels. If the ChIP-seq ground truth is not cell-type-specific, the claim of learning cell-type-specific regulation is undermined. The negative sampling strategy directly affects the learned decision boundary and the reported performance metrics.
+  - **Resolution test** Provide a detailed description of how cell-type-specific training labels are derived from the ChIP-seq data, the exact negative sampling procedure, and the train/test split strategy. Clarify whether the same ChIP-seq ground truth is used for all cell types within a dataset.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation
+  - **Claim pointer** "Our results indicated that regulons with high AUCell scores possess significant biological relevance" in TNBC and hematopoietic stem cell contexts
+  - **Evidence pointer** Figures 4 and 5; location not provided
+  - **Concern** The biological validation is described in qualitative terms. For TNBC, the authors state that 12 of the top 20 regulons are associated with breast cancer, but no enrichment statistics, background expectations, or comparison to random regulons are provided. For hematopoiesis, the claim that key differentiation genes are identified is not supported by quantitative enrichment or comparison to known regulators.
+  - **Why it matters** The biological relevance claim is a key part of the paper's significance. Without statistical support, the observation that some known cancer genes appear in the top-ranked regulons could be due to chance, especially given the large number of genes and TFs considered.
+  - **Resolution test** Provide enrichment analyses (e.g., hypergeometric tests against known cancer gene lists or differentiation regulators) with p-values and effect sizes. Include a null model or permutation-based comparison to demonstrate that the identified regulons are significantly enriched for relevant biology beyond what would be expected by chance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Robustness and sensitivity analysis
+  - **Claim pointer** "DSSMReg demonstrates robustness to variations in cell number" based on downsampling experiments
+  - **Evidence pointer** Figure 3A; location not provided
+  - **Concern** The robustness claim is based on a single downsampling experiment on one dataset. No information is provided on the number of replicates, the variance across downsampling runs, or whether the observed trend is consistent across different cell types or datasets. The threshold of 50 cells is stated but not justified.
+  - **Why it matters** Robustness to cell number is an important practical property for a method intended for diverse scRNA-seq datasets. A single experiment without replicates or statistical assessment is insufficient to support this claim.
+  - **Resolution test** Perform multiple downsampling replicates at each cell count, report mean and variance of performance metrics, and test whether the observed pattern holds across multiple datasets and cell types.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Equation 1
+  - **Evidence pointer** Methods section, "The network structure of DSSMReg"
+  - **Issue** Equation 1 defines the cosine similarity between TF and TG hidden vectors, but the notation uses TF_i and TG_j in the cosine term while the text refers to hidden vectors. The equation appears to use the original feature vectors rather than the hidden vectors, which is inconsistent with the description.
+  - **Required correction** Clarify the notation in Equation 1 to explicitly indicate that the cosine similarity is computed on the hidden vectors produced by the two towers, not the raw input feature vectors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model training details
+  - **Evidence pointer** Methods section, "Model training and regulon prediction"; location not provided
+  - **Issue** The manuscript states that training used 200 epochs without early stopping, but does not report the learning rate schedule, batch size for the DSSM training, weight initialization, or any regularization techniques beyond dropout in the autoencoder.
+  - **Required correction** Provide the full set of hyperparameters used for the DSSM training, including learning rate, optimizer settings, batch size, and any regularization or early stopping criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance comparison
+  - **Evidence pointer** Figure 2; location not provided
+  - **Issue** The text mentions "paired t-test" for significance testing but does not report the actual p-values or specify which comparisons were tested. It is unclear whether all five baselines were compared individually or whether a multiple-testing correction was applied.
+  - **Required correction** Report the exact p-values for each pairwise comparison and state whether any multiple-testing correction was applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Code and data
+  - **Evidence pointer** Availability section; location not provided
+  - **Issue** The manuscript states that source code is available at a GitHub URL, but no information is provided about the availability of the processed data, trained models, or a reproducible pipeline with versioned dependencies.
+  - **Required correction** Provide a detailed description of the computational environment, including software versions, and consider depositing processed data and trained models in a public repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative performance data), R1-M2 (unclear training label construction), R1-M3 (lack of statistical support for biological relevance), R1-M4 (insufficient robustness analysis)
+- **Assessment against Nature-style criteria** Originality: The DSSM-based approach to regulon inference is a novel adaptation of an established architecture, though the underlying idea of combining expression and motif data is not entirely new. Scientific importance: The problem is important, and the method could be useful, but the current evidence does not establish a clear advance over existing tools. Interdisciplinary readership: The work bridges machine learning and genomics, which has broad appeal, but the presentation assumes familiarity with both fields. Technical soundness: The architecture is reasonable, but the validation is insufficiently rigorous and several methodological details are missing. Readability for nonspecialists: The manuscript is generally readable, but the methods section assumes significant background in deep learning and single-cell genomics.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the approach is plausible, but the central claims of superior performance and biological relevance cannot be evaluated without the missing quantitative data and methodological details. Major revisions are required to provide the necessary evidence.
+
+## Risk / unsupported claims
+- The claim that DSSMReg outperforms five baseline methods in AUROC and AUPRC is unsupported because no numerical results are visible in the provided text.
+- The claim that regulons with high AUCell scores have "significant biological relevance" is unsupported because no statistical enrichment analyses or quantitative comparisons are provided.
+- The claim that DSSMReg is "robust to variations in cell number" is unsupported because only a single downsampling experiment is described without replicates or statistical assessment.
+- The claim that the model captures "cell-type-specific" regulation is not fully supported because the training procedure for deriving cell-type-specific labels from non-cell-type-specific ChIP-seq data is not described in sufficient detail.
+- The statement that "the regulons recognized by DSSMReg have specific biological correlations" in TNBC is based on a list of 12 genes without enrichment statistics or comparison to a null expectation.

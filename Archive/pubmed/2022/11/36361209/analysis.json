@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36361209",
+  "title": "Computer-Assisted Annotation of Digital H&E/SOX10 Dual Stains Generates High-Performing Convolutional Neural Network for Calculating Tumor Burden in H&E-Stained Cutaneous Melanoma.",
+  "authors": "Nielsen, Patricia Switten; Georgsen, Jeanette Baehr; Vinding, Mads Sloth; Ostergaard, Lasse Riis; Steiniche, Torben",
+  "journal": "International journal of environmental research and public health",
+  "published_date": "2022-11-12",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用CNN分析H&E/SOX10双染图像计算黑色素瘤肿瘤负荷，属于纯组织病理图像分类，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Deep learning for the analysis of H&E stains requires a large annotated training set. This may form a labor-intensive task involving highly skilled pathologists. We aimed to optimize and evaluate computer-assisted annotation based on digital dual stains of the same tissue section. H&E stains of primary and metastatic melanoma (N = 77) were digitized, re-stained with SOX10, and re-scanned. Because images were aligned, annotations of SOX10 image analysis were directly transferred to H&E stains of the training set. Based on 1,221,367 annotated nuclei, a convolutional neural network for calculating tumor burden (CNN(TB)) was developed. For primary melanomas, precision of annotation was 100% (95%CI, 99% to 100%) for tumor cells and 99% (95%CI, 98% to 100%) for normal cells. Due to low or missing tumor-cell SOX10 positivity, precision for normal cells was markedly reduced in lymph-node and organ metastases compared with primary melanomas (p < 0.001). Compared with stereological counts within skin lesions, mean difference in tumor burden was 6% (95%CI, -1% to 13%, p = 0.10) for CNN(TB) and 16% (95%CI, 4% to 28%, p = 0.02) for pathologists. Conclusively, the technique produced a large annotated H&E training set with high quality within a reasonable timeframe for primary melanomas and subcutaneous metastases. For these lesion types, the training set generated a high-performing CNN(TB), which was superior to the routine assessments of pathologists.",
+  "abstract_zh": "深度学习分析H&E染色需要大量带注释的训练集。这可能构成一项劳动密集型任务，涉及高度专业的病理学家。我们旨在优化并评估基于同一组织切片数字双染色的计算机辅助注释。对原发性和转移性黑色素瘤（N = 77）的H&E染色进行数字化，重新进行SOX10染色，并重新扫描。由于图像已对齐，SOX10图像分析的注释直接转移到训练集的H&E染色上。基于1,221,367个注释核，开发了一个用于计算肿瘤负荷的卷积神经网络（CNN(TB)）。对于原发性黑色素瘤，肿瘤细胞的注释精确度为100%（95%CI，99%至100%），正常细胞为99%（95%CI，98%至100%）。由于肿瘤细胞SOX10阳性率低或缺失，与原发性黑色素瘤相比，淋巴结和器官转移中正常细胞的精确度显著降低（p < 0.001）。与皮肤病变内的体视学计数相比，CNN(TB)的肿瘤负荷平均差异为6%（95%CI，-1%至13%，p = 0.10），病理学家为16%（95%CI，4%至28%，p = 0.02）。总之，该技术在合理时间框架内为原发性黑色素瘤和皮下转移瘤生成了高质量的大型注释H&E训练集。对于这些病变类型，训练集生成了高性能的CNN(TB)，优于病理学家的常规评估。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36361209/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36361209/",
+  "paper_page_path": "papers/pubmed/36361209/index.html"
+}

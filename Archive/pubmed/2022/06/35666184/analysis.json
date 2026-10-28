@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35666184",
+  "title": "Predicting which genes will respond to transcription factor perturbations.",
+  "authors": "Kang, Yiming; Jung, Wooseok J; Brent, Michael R",
+  "journal": "G3 (Bethesda, Md.)",
+  "published_date": "2022-06-07",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习预测转录因子扰动后的基因响应，虽涉及TF-DNA结合位点数据但未聚焦三维互作建模，方法可迁移但深度有限。",
+  "abstract": "The ability to predict which genes will respond to the perturbation of a transcription factor serves as a benchmark for our systems-level understanding of transcriptional regulatory networks. In previous work, machine learning models have been trained to predict static gene expression levels in a biological sample by using data from the same or similar samples, including data on their transcription factor binding locations, histone marks, or DNA sequence. We report on a different challenge-training machine learning models to predict which genes will respond to the perturbation of a transcription factor without using any data from the perturbed cells. We find that existing transcription factor location data (ChIP-seq) from human cells have very little detectable utility for predicting which genes will respond to perturbation of a transcription factor. Features of genes, including their preperturbation expression level and expression variation, are very useful for predicting responses to perturbation of any transcription factor. This shows that some genes are poised to respond to transcription factor perturbations and others are resistant, shedding light on why it has been so difficult to predict responses from binding locations. Certain histone marks, including H3K4me1 and H3K4me3, have some predictive power when located downstream of the transcription start site. However, the predictive power of histone marks is much less than that of gene expression level and expression variation. Sequence-based or epigenetic properties of genes strongly influence their tendency to respond to direct transcription factor perturbations, partially explaining the oft-noted difficulty of predicting responsiveness from transcription factor binding location data. These molecular features are largely reflected in and summarized by the gene's expression level and expression variation. Code is available at https://github.com/BrentLab/TFPertRespExplainer.",
+  "abstract_zh": "预测哪些基因会对转录因子的扰动作出反应，是衡量我们对转录调控网络系统级理解的一个基准。在以往的研究中，机器学习模型已被训练用于通过使用来自相同或相似样本的数据（包括转录因子结合位点、组蛋白标记或DNA序列）来预测生物样本中的静态基因表达水平。我们报告了一个不同的挑战——训练机器学习模型，在不使用任何来自受扰动细胞数据的情况下，预测哪些基因会对转录因子的扰动作出反应。我们发现，来自人类细胞的现有转录因子位置数据（ChIP-seq）在预测哪些基因会对转录因子扰动作出反应方面，几乎没有可检测到的效用。基因的特征，包括其扰动前的表达水平和表达变异，对于预测任何转录因子扰动下的反应非常有用。这表明，某些基因已准备好对转录因子扰动作出反应，而其他基因则具有抗性，这揭示了为什么从结合位点预测反应一直如此困难。某些组蛋白标记，包括H3K4me1和H3K4me3，在位于转录起始位点下游时具有一定的预测能力。然而，组蛋白标记的预测能力远低于基因表达水平和表达变异。基于序列或表观遗传的基因特性强烈影响其对直接转录因子扰动的反应倾向，部分解释了常被注意到的从转录因子结合位置数据预测反应性的困难。这些分子特征在很大程度上反映并总结于基因的表达水平和表达变异中。代码可在 https://github.com/BrentLab/TFPertRespExplainer 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35666184/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35666184/",
+  "paper_page_path": "papers/pubmed/35666184/index.html"
+}

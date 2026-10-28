@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use Markov state models (MSMs) built on extensive all-atom molecular dynamics (MD) simulations to propose that the alkylated nucleobase N3-methyladenine (3MeA) is extruded from the DNA duplex through the major groove by human alkyladenine DNA glycosylase (AAG). They identify two AAG motifs, the intercalation motif and the E131-N146 motif, as active contributors to DNA backbone bending/pressing and minor groove widening during 3MeA eversion. They further report that residue Y162, within the intercalation motif, participates in buckling the target site early in the eversion process. Using a traveling-salesman based automated path searching algorithm, they find that a non-target normal adenine tends to be trapped in an exo site near the active site, whereas a target base 3MeA does not. The authors conclude that the combined MSM and path-searching approach is promising for studying complex biomolecular conformational changes and for dissecting target recognition by AAG.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, convergence criteria, validation metrics, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, force field details, system construction and equilibration protocols, MSM construction and validation (e.g., implied timescales, Chapman-Kolmogorov tests), path searching algorithm parameters, statistical uncertainties, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study of base flipping in AAG, with a mechanistic proposal that is internally coherent. However, the evidence base available for review is limited to the abstract, which lacks quantitative detail and validation. The central claims regarding the eversion pathway, the roles of specific motifs and residues, and the differential behavior of target versus non-target bases cannot be fully assessed from the supplied material. The work is likely of interest to computational biophysicists and enzymologists, but the strength of the conclusions depends on the rigor of the underlying simulations and analyses, which are not visible here.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying DNA repair enzymes and base-flipping mechanisms would be interested, as the study demonstrates a methodological combination (MSM with automated path searching) applied to a biologically important system. Enzymologists studying AAG and related glycosylases may also find the proposed roles of specific motifs and residues useful for designing mutagenesis or functional experiments. Methodologists developing path sampling or MSM approaches could be interested in the traveling-salesman based algorithm as a potential tool.
+- **Major strengths** The study addresses a mechanistically important and unresolved question, namely how AAG extrudes damaged bases and distinguishes them from normal bases. The combination of MSM and automated path searching is a sophisticated and potentially powerful approach for capturing rare conformational transitions. The identification of specific motifs and a specific residue (Y162) provides testable hypotheses for experimental follow-up.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that 3MeA everts through the DNA major groove and that the intercalation and E131-N146 motifs play active roles in bending/pressing the DNA backbone and widening the minor groove.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative evidence for the proposed pathway or for the mechanistic roles of the motifs. No free energy barriers, populations, fluxes, or statistical uncertainties are reported. Without such data, it is not possible to evaluate whether the major groove eversion pathway is statistically dominant over alternative pathways or whether the motif contributions are significant rather than incidental.  
+  - **Why it matters** The central mechanistic claims depend on the statistical robustness of the MSM and the path analysis. If the pathway assignment or the motif contributions are not well converged or validated, the conclusions could be artifacts of insufficient sampling or analysis choices.  
+  - **Resolution test** Provide free energy profiles or committor probabilities for the eversion pathway, show convergence of MSM estimates (e.g., implied timescales, Chapman-Kolmogorov tests), and report uncertainties for the motif-specific contributions (e.g., via bootstrapping or replicate simulations).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that a non-target normal adenine tends to be trapped in an exo site near the active site, whereas a target base 3MeA barely exists in that site.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not report the populations or free energies of the exo site for either base, nor the statistical significance of the difference. The claim of differential trapping is central to the proposed discrimination mechanism, but no quantitative comparison is provided.  
+  - **Why it matters** If the difference in exo site occupancy is small or within statistical error, the proposed discrimination mechanism would not be supported. The claim requires a clear quantitative basis.  
+  - **Resolution test** Report the free energy or population of the exo site for 3MeA and adenine with associated uncertainties, and demonstrate that the difference is statistically significant.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The claim that the Markov state model combined with traveling-salesman based automated path searching is a promising approach for studying complex conformational changes.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no details on the simulation length, number of replicas, force field, system size, or the parameters of the path searching algorithm. Without these, the reproducibility of the study cannot be assessed, and the generalizability of the methodological claim is unclear.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of methodological details prevents other researchers from repeating or building on the work.  
+  - **Resolution test** Provide full simulation and analysis parameters in the main text or supplementary materials, including force field versions, simulation lengths, number of independent runs, and algorithm settings.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "everts" is used without definition or context, which may be unclear to readers unfamiliar with base-flipping terminology.  
+  - **Required correction** Define "everts" or use a more standard phrase such as "is extruded" or "flips out" at first use.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of claims  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "bending/pressing the DNA backbone" is vague and could be interpreted in multiple ways.  
+  - **Required correction** Specify the nature of the deformation (e.g., local kinking, phosphate displacement) and provide a quantitative measure if available.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state the number of simulations or the total simulation time, which are standard descriptors for MD-based studies.  
+  - **Required correction** Include the aggregate simulation length and number of independent trajectories in the abstract or main text.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation and methodological detail means the central mechanistic and discrimination claims are not currently established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of MSM with a traveling-salesman based path searching algorithm is potentially novel, but the abstract does not clearly distinguish it from prior path sampling methods. The mechanistic question is important but not unprecedented.  
+  - Scientific importance: The question of how AAG discriminates damaged from normal bases is of high biological significance, and a well-supported mechanistic answer would be valuable. However, the importance of the specific findings cannot be fully judged without quantitative evidence.  
+  - Interdisciplinary readership: The work bridges computational chemistry, biophysics, and enzymology, and could appeal to a broad readership if presented accessibly. The abstract is largely accessible but uses some specialized terms without definition.  
+  - Technical soundness: Not assessable from the abstract. The lack of validation metrics and statistical uncertainties is a major gap.  
+  - Readability for nonspecialists: The abstract is generally readable but would benefit from clearer definitions of key terms and more explicit statements of what was computed and found.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the absence of quantitative results and methodological detail prevents a supportive recommendation. If the full manuscript provides robust validation and statistical support, the work could be of interest, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The claim that 3MeA everts through the major groove is unsupported without free energy or flux data.
+- The claim that the intercalation and E131-N146 motifs actively bend/press the DNA backbone and widen the minor groove is unsupported without quantitative deformation analyses.
+- The claim that Y162 is involved in buckling the target site is unsupported without structural or dynamical evidence.
+- The claim that a non-target adenine is trapped in an exo site while 3MeA is not is unsupported without population or free energy comparisons.
+- The claim that the combined MSM and path searching approach is promising is a methodological assertion that cannot be evaluated without details on algorithm performance and validation.

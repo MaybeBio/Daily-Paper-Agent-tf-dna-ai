@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "39993869",
+    "doi": "10.1016/j.compbiolchem.2025.108352",
+    "title": "Unveiling the molecular mechanisms of Haitang-Xiaoyin Mixture in psoriasis treatment based on bioinformatics, network pharmacology, machine learning, and molecular docking verification."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Psoriasis is a common clinical skin inflammatory disease. Haitang-Xiaoyin Mixture (HXM) represents a traditional Chinese medicine formulation utilized clinically for the management of psoriasis, which can reduce the psoriasis area and severity index (PASI) score, IL-23 and IL-23 levels in patients with psoriasis. However, the main active components and specific targets of HXM in the treatment of psoriasis and the relevant mechanisms of action are not clear. Therefore, in the study we aimed to elucidate the mechanistic basis of HXM's therapeutic action in psoriasis treatment through the application of bioinformatics, network pharmacology, machine learning and molecular docking methodologies. METHODS: The psoriasis-related genes were obtained from the Gene Expression Omnibus (GEO) dataset, which psoriasis-associated disease genes were identified utilizing the GeneCard and DisGeNEt databases. The active ingredients of HXM were retrieved from HERB and TCMSP databases. Protein-Protein Interactions (PPI), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were conducted to identify potential targets and signaling pathways. Psoriasis key targets were determined using LASSO, SVM-RFE, and Boruta algorithms, followed by Receiver Operating Characteristic (ROC) analysis. Key targets were GESA enriched and analyzed for transcription factors and immune cell infiltration. Finally molecular docking and molecular dynamics simulations were performed to validate the binding of active compounds to core targets, elucidating their mechanism of action. RESULTS: A total of 233 psoriasis-related targets and 290 drug targets were identified. After data set crossover, 37 pharmacodynamic targets were obtained. PPI network topology analysis revealed 12 core targets. GO and KEGG enrichment analysis suggested that HXM may regulate angiogenesis, chemokine receptor binding process, as well as IL-17 and TNF related signaling pathways. Machine algorithm screening identified two psoriasis characteristic genes: CXCL2 and CXCR4. Immune infiltration results demonstrated a significant positive correlation between the characteristic genes and M1 macrophages, along with identification of the top 20 transcription factors involved. Quercetin and triptolide were recognized as potential core components of HXM for treating psoriasis based on their molecular docking and molecular dynamics simulation results confirming strong binding abilities with CXCL2 and CXCR4 respectively. CONCLUSION: This study elucidates the active constituents, potential targets, and underlying pathways involved in the therapeutic effects of HXM for psoriasis. Specifically, CXCL2 and CXCR4 are identified as key targets, with quercetin and triptolide representing crucial compounds exerting their effects on these targets.",
+    "keywords": [
+      "Bioinformatics",
+      "Haitang-Xiaoyin mixture",
+      "Machine learning",
+      "Network pharmacology",
+      "Psoriasis"
+    ],
+    "mesh_terms": [
+      "*Psoriasis/drug therapy/metabolism",
+      "*Molecular Docking Simulation",
+      "*Drugs, Chinese Herbal/chemistry/pharmacology/therapeutic use",
+      "*Network Pharmacology",
+      "Humans",
+      "*Machine Learning",
+      "*Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhai, Manyin",
+        "Chen, Tongxiu",
+        "Shao, Mengqiu",
+        "Yang, Xuesong",
+        "Qi, Yan",
+        "Kong, Sai",
+        "Jiang, Lijuan",
+        "Yang, Enpin"
+      ],
+      "short_names": [
+        "Zhai M",
+        "Chen T",
+        "Shao M",
+        "Yang X",
+        "Qi Y",
+        "Kong S",
+        "Jiang L",
+        "Yang E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming 650500, China. Electronic address: zhaimanyin0847@163.com.",
+        "The First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming 650500, China. Electronic address: 2015979541@qq.com.",
+        "The First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming 650500, China. Electronic address: 415351834@qq.com.",
+        "Department of Dermatology, The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: 871889697@qq.com.",
+        "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: qiyankm@163.com.",
+        "The First Clinical Medical College, Nanjing University of Traditional Chinese Medicine, Nanjing 210023, China. Electronic address: sunflower14@163.com.",
+        "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: Jianglijuan825@163.com.",
+        "Department of Dermatology, The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: yep3395@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhai, Manyin",
+        "short_name": "Zhai M",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming 650500, China. Electronic address: zhaimanyin0847@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Tongxiu",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming 650500, China. Electronic address: 2015979541@qq.com."
+        ]
+      },
+      {
+        "full_name": "Shao, Mengqiu",
+        "short_name": "Shao M",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming 650500, China. Electronic address: 415351834@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Xuesong",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: 871889697@qq.com."
+        ]
+      },
+      {
+        "full_name": "Qi, Yan",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: qiyankm@163.com."
+        ]
+      },
+      {
+        "full_name": "Kong, Sai",
+        "short_name": "Kong S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Nanjing University of Traditional Chinese Medicine, Nanjing 210023, China. Electronic address: sunflower14@163.com."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lijuan",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: Jianglijuan825@163.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Enpin",
+        "short_name": "Yang E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Yunnan University of Chinese Medicine, Kunming 650021, China. Electronic address: yep3395@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/25 00:22",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42515724",
+      "42237586",
+      "42073523",
+      "42064079",
+      "41224812",
+      "40806422"
+    ],
+    "refs": [],
+    "similar": [
+      "39993869",
+      "38310567",
+      "40676786",
+      "39310787",
+      "40916281",
+      "37287284",
+      "40013962",
+      "42124362",
+      "40237055",
+      "35430443",
+      "38532341",
+      "41663811",
+      "40197419",
+      "38759074",
+      "38638040",
+      "37807411",
+      "37340752",
+      "40922365",
+      "35130311",
+      "40585331",
+      "39343107",
+      "40128047",
+      "38579905",
+      "41656835",
+      "37879505",
+      "39354758",
+      "39093467",
+      "41239601",
+      "40406126",
+      "39552028",
+      "39074420",
+      "35097126",
+      "36280016",
+      "41029129",
+      "41559994",
+      "39623712",
+      "38619514",
+      "40546661",
+      "35837376",
+      "40958307",
+      "39278295",
+      "39015338",
+      "39610125",
+      "41694764",
+      "41418734",
+      "42163610",
+      "40721767",
+      "38013385",
+      "35135448",
+      "41261616",
+      "40605076",
+      "38951468",
+      "37437794",
+      "41439108",
+      "39323640",
+      "39066538",
+      "35249866",
+      "38916485",
+      "36535207",
+      "41492010",
+      "40570565",
+      "35616676",
+      "39832077",
+      "34785888",
+      "39844421",
+      "39686413",
+      "39095732",
+      "39617073",
+      "40116198",
+      "37233418",
+      "40119331",
+      "39125368",
+      "40332792",
+      "41601160",
+      "37469733",
+      "41031039",
+      "35367781",
+      "39465738",
+      "37499457",
+      "40543694",
+      "39082169",
+      "39004032",
+      "38213248",
+      "38167125",
+      "35850844",
+      "34746316",
+      "39075002",
+      "39099827",
+      "40417754",
+      "39410900",
+      "33299870",
+      "41630343",
+      "40499803",
+      "41367024",
+      "37143282",
+      "40593998",
+      "34159207",
+      "41883461",
+      "38571354",
+      "40179089"
+    ],
+    "review": [
+      "39993869"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00012-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      }
+    ],
+    "text_mined": []
+  }
+}

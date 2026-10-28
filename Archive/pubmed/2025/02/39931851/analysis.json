@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39931851",
+  "title": "Identification of NR4A2 as a Potential Predictive Biomarker for Atherosclerosis.",
+  "authors": "Yuan, Lebin; Bai, Ruru; Han, Xinhao; Xiang, Jiajia",
+  "journal": "Combinatorial chemistry & high throughput screening",
+  "published_date": "2025-02-11",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过机器学习筛选动脉粥样硬化差异表达基因并验证NR4A2作为生物标志物，虽涉及转录因子但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "INTRODUCTION/OBJECTIVE: Atherosclerosis, a leading cause of death globally, is characterized by the buildup of immune cells and lipids in medium to large-sized arteries. However, its precise mechanism remains unclear. The purpose of this study is to explore innovative and reliable biomarkers as a viable approach for the identification and management of atherosclerosis. METHODS: The atherosclerosis-related datasets GSE100927 and GSE66360 were retrieved from the Gene Expression Omnibus (GEO) database. The Limma package in the R programming language was utilized, applying the criteria of |logFC| > 1 and P < 0.05. Subsequently, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were performed on the 127 identified DEGs using R. Machine learning techniques were then applied to these data to explore and pinpoint potential biomarkers. The diagnostic potential of these markers was assessed via Receiver Operating Characteristic (ROC) curve analysis. Finally, western blot, real-time quantitative PCR (qRT-PCR), and immunohistochemistry (IHC) were employed to confirm the key biomarkers. RESULTS: Our research indicated that a total of 127 DEGs linked to atherosclerosis were successfully identified. Through the application of machine learning methods, eight critical genes were highlighted. Among these, Nuclear Receptor Subfamily 4 Group A Member-2 (NR4A2) emerged as the most promising marker for further investigation. CIBERSORT analysis revealed that NR4A2 expression levels were significantly correlated with multiple immune cell types, including B cells, plasma cells, and macrophages. Additional validation experiments confirmed that NR4A2 expression was indeed elevated in atherosclerotic plaques, supporting its potential as a biomarker for atherosclerosis. CONCLUSION: Our study identified NR4A2 as a potential immune-related biomarker for the diagnosis and treatment of atherosclerosis.",
+  "abstract_zh": "引言/目的：动脉粥样硬化（atherosclerosis）是全球主要死亡原因之一，其特征是中型至大型动脉中免疫细胞和脂质的积聚。然而，其确切机制仍不清楚。本研究旨在探索创新且可靠的生物标志物，作为识别和管理动脉粥样硬化的可行方法。方法：从基因表达综合（Gene Expression Omnibus, GEO）数据库中获取动脉粥样硬化相关数据集GSE100927和GSE66360。利用R编程语言中的Limma包，应用|logFC| > 1且P < 0.05的标准。随后，对识别出的127个差异表达基因（DEGs）使用R进行基因本体论（Gene Ontology, GO）和京都基因与基因组百科全书（Kyoto Encyclopedia of Genes and Genomes, KEGG）通路富集分析。接着，将机器学习技术应用于这些数据，以探索和确定潜在生物标志物。通过受试者工作特征（Receiver Operating Characteristic, ROC）曲线分析评估这些标志物的诊断潜力。最后，采用蛋白质印迹（western blot）、实时定量PCR（qRT-PCR）和免疫组织化学（immunohistochemistry, IHC）来确认关键生物标志物。结果：我们的研究表明，成功识别出总共127个与动脉粥样硬化相关的DEGs。通过应用机器学习方法，突出了八个关键基因。其中，核受体亚家族4A组成员2（Nuclear Receptor Subfamily 4 Group A Member-2, NR4A2）成为最值得进一步研究的标志物。CIBERSORT分析显示，NR4A2表达水平与多种免疫细胞类型显著相关，包括B细胞、浆细胞和巨噬细胞。额外的验证实验证实，NR4A2在动脉粥样硬化斑块中确实表达升高，支持其作为动脉粥样硬化生物标志物的潜力。结论：我们的研究将NR4A2确定为动脉粥样硬化诊断和治疗的潜在免疫相关生物标志物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39931851/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39931851/",
+  "paper_page_path": "papers/pubmed/39931851/index.html"
+}

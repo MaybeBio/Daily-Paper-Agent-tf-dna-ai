@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2505.09883v1)
+- **Assessment boundary** Technical soundness, methodological clarity, evidence sufficiency, and claims-to-results alignment. No assessment of code functionality or reproducibility beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose DeepPlantCRE, a Transformer-CNN hybrid framework for plant gene expression prediction and cis-regulatory element (CRE) extraction. They claim superior performance over existing baselines (DeepCRE, PhytoExpr) across five plant species, improved cross-species generalization, and biological interpretability via motif discovery matching known transcription factor binding sites (TFBSs).
+- **Visible evidence base** Main text, Tables 1 and 2 (referenced), Figures 3, 4, and 6 (referenced), experimental settings, and methodological descriptions. No supplementary materials, code outputs, or dataset access details were provided.
+- **Missing materials affecting confidence** Actual tables and figures are not included in the supplied text. Exact dataset accession numbers, preprocessing scripts, hyperparameter grids, and full baseline comparison results are absent. The code link is anonymous and not verifiable from the manuscript alone.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in plant genomics, namely cross-species gene expression prediction from promoter-proximal DNA sequences. The hybrid Transformer-CNN architecture is a reasonable design choice, and the interpretability analysis is a valuable addition. However, the current manuscript has substantial gaps in experimental reporting, statistical rigor, and methodological detail. Several claims are not directly supported by the evidence presented, and the absence of actual tables and figures prevents full evaluation. The work is promising but not yet at the standard required for a high-impact venue.
+- **Who would be interested in the results, and why** Researchers in plant genomics, computational biology, and deep learning applied to regulatory genomics. The cross-species generalization aspect is particularly relevant for crop breeding and comparative genomics. The interpretability component may interest those working on model explainability in genomics.
+- **Major strengths** The problem is well-motivated and practically important. The hybrid architecture is a sensible combination of global and local feature extraction. The inclusion of cross-species validation and interpretability analysis strengthens the practical relevance. The authors report improvements over existing baselines, which is encouraging.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that DeepPlantCRE achieves "peak prediction accuracy of 92.3%" and outperforms baselines across multiple metrics.
+  - **Evidence pointer** Tables 1 and 2, Figure 3 (location not provided in the supplied text)
+  - **Concern** The actual tables and figures are not included in the supplied material. Without the numerical results, the performance claims cannot be verified. Moreover, the text does not report standard deviations, confidence intervals, or statistical significance tests for the reported improvements. The claim of superiority over baselines is therefore not statistically substantiated.
+  - **Why it matters** Performance claims are the central contribution of the paper. Without access to the actual results and appropriate statistical testing, the reader cannot assess whether the observed differences are meaningful or within noise.
+  - **Resolution test** Provide the full tables and figures with per-fold results, standard deviations, and significance tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing DeepPlantCRE against each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The model architecture is described as a "Transformer-CNN hybrid" with "hierarchical residual convolution modules" and a "classification head" with three dense layers.
+  - **Evidence pointer** Section 3 (Proposed Method), specifically Sections 3.2, 3.3, and 3.4
+  - **Concern** The description of the architecture is incomplete. The number of Transformer layers is stated as N=1, but the number of attention heads is listed as 1, which is unusually low. The embedding dimension is d=4, which is extremely small and may limit representational capacity. The exact dimensions of the dense layers, the flattening operation, and the interaction between the Transformer and CNN components are not fully specified. The loss function is mentioned as BCEWithLogitsLoss, but the target variable (binary classification vs. regression) is not clearly defined. The manuscript states "binary classification or probability regression" without specifying which is used in the reported experiments.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. The current level of detail is insufficient for another group to reimplement the model. The choice of embedding dimension and attention heads may also affect performance, and the authors do not justify these choices.
+  - **Resolution test** Provide a complete architectural specification, including layer sizes, activation functions, pooling strategies, and the exact output head configuration. Clarify whether the task is classification or regression and justify the choice of embedding dimension and number of attention heads.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data and preprocessing transparency
+  - **Claim pointer** The manuscript describes datasets from five species, including eight Gossypium species, Arabidopsis thaliana, Solanum lycopersicum, Sorghum bicolor, and Zea mays, with gene expression levels categorized into low, medium, and high groups.
+  - **Evidence pointer** Section 4.1 (Experiment Settings)
+  - **Concern** The data processing pipeline is described only at a high level. The exact thresholds for categorizing expression levels into low/medium/high are not given. The sequence length used as input is not specified. The source of expression data for the four non-Gossypium species is cited as a previous study, but no accession numbers or download identifiers are provided. The handling of the 'N' base in one-hot encoding is not described. The train/validation/test split strategy is not detailed beyond k-fold cross-validation.
+  - **Why it matters** Data preprocessing choices can have a major impact on model performance and comparability with existing benchmarks. Without precise details, the results cannot be reproduced or compared fairly with other methods.
+  - **Resolution test** Specify the exact thresholds for expression categorization, input sequence length, handling of ambiguous bases, and provide accession numbers or URLs for all datasets used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that motifs identified via TF-MoDISco "exhibit high concordance with known TFBSs" and that this validates the biological interpretability of the model.
+  - **Evidence pointer** Section 4.6 (Case Study), Figure 6 (location not provided)
+  - **Concern** Only one example motif is described in detail (matching Zm00001d052229 with p-value 9.61e-06 and e-value 1.83e-02). The text states that "most of them" match known TFBSs, but no quantitative summary is provided. The number of motifs identified, the fraction matching known TFBSs, and the background model used for significance testing are not reported. The biological relevance of the matched TFBSs is discussed only qualitatively.
+  - **Why it matters** The interpretability analysis is a key differentiator of this work. Without a systematic and quantitative evaluation, the claim of biological interpretability is not well supported.
+  - **Resolution test** Provide a comprehensive summary of motif discovery results, including the total number of motifs, the fraction matching known TFBSs, the significance thresholds used, and a comparison against a suitable background or control model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 1 (Introduction)
+  - **Evidence pointer** Paragraph 3
+  - **Issue** The introduction states that the model achieves "an accuracy of up to 92.30%" but does not specify on which species or under which condition this was achieved.
+  - **Required correction** Specify the species and experimental condition for the reported accuracy value.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 4.1 (Experiment Settings)
+  - **Evidence pointer** Data Processing paragraph
+  - **Issue** The text mentions "log-transformed transcript per million values (logMaxTPM)" for Gossypium but "transcripts per million (TPM)" for other species. It is unclear whether the same normalization was applied across all species.
+  - **Required correction** Clarify whether the same normalization and transformation were applied to all datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2 (Model Performance)
+  - **Evidence pointer** Table 1 (location not provided)
+  - **Issue** The text states that DeepPlantCRE outperforms DeepCRE on "every indicator" but does not report the magnitude of improvement for each species.
+  - **Required correction** Report the full results table with per-species metrics for all models.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.3 (Transfer Learning Study)
+  - **Evidence pointer** Figure 3 (location not provided)
+  - **Issue** The text states that "the model of Zea Mays has the best cross-species performance" but does not specify which target species were tested or how the accuracy was averaged.
+  - **Required correction** Describe the cross-species evaluation protocol in detail, including source-target pairs and averaging method.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 4.6 (Case Study)
+  - **Evidence pointer** Last paragraph
+  - **Issue** The phrase "help pepole do gene editing" contains a typo and is informal.
+  - **Required correction** Correct the typo and rephrase for formal scientific language.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.5 (Computational Complexity)
+  - **Evidence pointer** Entire section
+  - **Issue** The complexity formula is not fully derived, and the variables (e.g., L_j) are not clearly defined.
+  - **Required correction** Define all variables and provide a brief derivation of the complexity expression.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results and statistical testing), R1-M2 (incomplete architecture description), R1-M3 (insufficient data preprocessing details), R1-M4 (inadequate quantitative validation of interpretability).
+- **Assessment against Nature-style criteria** Originality: The hybrid architecture is not entirely novel, as Transformer-CNN combinations exist in other domains, but its application to plant gene expression with cross-species focus is a reasonable contribution. Scientific importance: The problem is important for crop breeding, but the incremental improvement over existing methods is not clearly established. Interdisciplinary readership: The work bridges deep learning and plant genomics, which could attract a broad audience if the results are solid. Technical soundness: The methodology is plausible but under-specified, and the lack of statistical rigor undermines confidence. Readability for nonspecialists: The manuscript is generally readable, but some sections (e.g., architecture description) assume familiarity with deep learning terminology without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the missing results, incomplete methodological details, and lack of statistical testing prevent a positive recommendation. The authors should address the major concerns and resubmit.
+
+## Risk / unsupported claims
+- The claim of "peak prediction accuracy of 92.3%" is unsupported because the corresponding table or figure is not provided.
+- The claim that DeepPlantCRE "outperforms" baselines is unsupported without statistical significance testing.
+- The claim that identified motifs "exhibit high concordance with known TFBSs" is only qualitatively supported with a single example.
+- The claim that the model "effectively suppresses overfitting" is not directly demonstrated with training/validation curves or comparison of overfitting behavior against baselines.
+- The claim of "practical agricultural application" is speculative and not supported by any downstream validation or field data.

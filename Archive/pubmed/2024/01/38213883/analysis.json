@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38213883",
+  "title": "Engineering an AI-based forward-reverse platform for the design of cross-ribosome binding sites of a transcription factor biosensor.",
+  "authors": "Ding, Nana; Zhang, Guangkun; Zhang, LinPei; Shen, Ziyun; Yin, Lianghong; Zhou, Shenghu; Deng, Yu",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-01-12",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用AI生成对抗网络设计转录因子生物传感器的交叉核糖体结合位点以调控动态范围，虽涉及转录因子但核心是RNA结合位点设计而非蛋白质-DNA互作，且无三维结构建模或结合机制研究，仅部分方法可借鉴。",
+  "abstract": "A cross-ribosome binding site (cRBS) adjusts the dynamic range of transcription factor-based biosensors (TFBs) by controlling protein expression and folding. The rational design of a cRBS with desired TFB dynamic range remains an important issue in TFB forward and reverse engineering. Here, we report a novel artificial intelligence (AI)-based forward-reverse engineering platform for TFB dynamic range prediction and de novo cRBS design with selected TFB dynamic ranges. The platform demonstrated superior in processing unbalanced minority-class datasets and was guided by sequence characteristics from trained cRBSs. The platform identified correlations between cRBSs and dynamic ranges to mimic bidirectional design between these factors based on Wasserstein generative adversarial network (GAN) with a gradient penalty (GP) (WGAN-GP) and balancing GAN with GP (BAGAN-GP). For forward and reverse engineering, the predictive accuracy was up to 98% and 82%, respectively. Collectively, we generated an AI-based method for the rational design of TFBs with desired dynamic ranges.",
+  "abstract_zh": "交叉核糖体结合位点（cRBS）通过控制蛋白质表达和折叠来调节基于转录因子的生物传感器（TFBs）的动态范围。具有所需TFB动态范围的cRBS的合理设计，在TFB正向和反向工程中仍是一个重要问题。在此，我们报告了一种基于人工智能（AI）的新型正向-反向工程平台，用于TFB动态范围预测和具有选定TFB动态范围的从头cRBS设计。该平台在处理不平衡的小类数据集方面表现出优越性，并受训练过的cRBS序列特征的指导。该平台识别了cRBS与动态范围之间的相关性，以基于带梯度惩罚（GP）的Wasserstein生成对抗网络（WGAN-GP）和带GP的平衡生成对抗网络（BAGAN-GP）模拟这些因素之间的双向设计。对于正向和反向工程，预测准确率分别高达98%和82%。总体而言，我们生成了一种基于AI的方法，用于合理设计具有所需动态范围的TFBs。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38213883/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38213883/",
+  "paper_page_path": "papers/pubmed/38213883/index.html"
+}

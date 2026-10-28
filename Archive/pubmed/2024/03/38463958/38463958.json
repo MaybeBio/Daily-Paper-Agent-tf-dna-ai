@@ -1,0 +1,674 @@
+{
+  "identity": {
+    "pmid": "38463958",
+    "doi": "10.1101/2024.02.24.581875",
+    "title": "Targeting high-risk multiple myeloma genotypes with optimized anti-CD70 CAR-T cells."
+  },
+  "content": {
+    "abstract": "Despite the success of BCMA-targeting CAR-Ts in multiple myeloma, patients with high-risk cytogenetic features still relapse most quickly and are in urgent need of additional therapeutic options. Here, we identify CD70, widely recognized as a favorable immunotherapy target in other cancers, as a specifically upregulated cell surface antigen in high risk myeloma tumors. We use a structure-guided design to define a CD27-based anti-CD70 CAR-T design that outperforms all tested scFv-based CARs, leading to >80-fold improved CAR-T expansion in vivo. Epigenetic analysis via machine learning predicts key transcription factors and transcriptional networks driving CD70 upregulation in high risk myeloma. Dual-targeting CAR-Ts against either CD70 or BCMA demonstrate a potential strategy to avoid antigen escape-mediated resistance. Together, these findings support the promise of targeting CD70 with optimized CAR-Ts in myeloma as well as future clinical translation of this approach.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kasap, Corynn",
+        "Izgutdina, Adila",
+        "Patino-Escobar, Bonell",
+        "Kang, Amrik",
+        "Chilakapati, Nikhil",
+        "Akagi, Naomi",
+        "Johnson, Haley",
+        "Rashid, Tasfia",
+        "Werner, Juwita",
+        "Barpanda, Abhilash",
+        "Geng, Huimin",
+        "Lin, Yu-Hsiu T",
+        "Rampersaud, Sham",
+        "Gil-Alos, Daniel",
+        "Sobh, Amin",
+        "Dupere-Richer, Daphne",
+        "Wicaksono, Gianina",
+        "Kawehi Kelii, K M",
+        "Dalal, Radhika",
+        "Ramos, Emilio",
+        "Vijayanarayanan, Anjanaa",
+        "Salangsang, Fernando",
+        "Phojanakong, Paul",
+        "Serrano, Juan Antonio Camara",
+        "Zakraoui, Ons",
+        "Tariq, Isa",
+        "Steri, Veronica",
+        "Shanmugam, Mala",
+        "Boise, Lawrence H",
+        "Kortemme, Tanja",
+        "Stieglitz, Elliot",
+        "Licht, Jonathan D",
+        "Karlon, William J",
+        "Barwick, Benjamin G",
+        "Wiita, Arun P"
+      ],
+      "short_names": [
+        "Kasap C",
+        "Izgutdina A",
+        "Patino-Escobar B",
+        "Kang A",
+        "Chilakapati N",
+        "Akagi N",
+        "Johnson H",
+        "Rashid T",
+        "Werner J",
+        "Barpanda A",
+        "Geng H",
+        "Lin YT",
+        "Rampersaud S",
+        "Gil-Alos D",
+        "Sobh A",
+        "Dupere-Richer D",
+        "Wicaksono G",
+        "Kawehi Kelii KM",
+        "Dalal R",
+        "Ramos E",
+        "Vijayanarayanan A",
+        "Salangsang F",
+        "Phojanakong P",
+        "Serrano JAC",
+        "Zakraoui O",
+        "Tariq I",
+        "Steri V",
+        "Shanmugam M",
+        "Boise LH",
+        "Kortemme T",
+        "Stieglitz E",
+        "Licht JD",
+        "Karlon WJ",
+        "Barwick BG",
+        "Wiita AP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3667-8097",
+        "ORCID: 0000-0002-7465-6964"
+      ],
+      "affiliations": [
+        "Dept. of Medicine, Division of Hematology/Oncology, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Medical Scientist Training Program, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Pediatrics, Division of Oncology, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept of Hematology, Hospital 12 de Octubre, Madrid, Spain.",
+        "University of Florida Health Cancer Center, The University of Florida Cancer and Genetics Research Complex, Gainesville, Florida.",
+        "Division of Hematology/Oncology, The University of Florida College of Medicine, Gainesville, Florida.",
+        "University of Florida Health Cancer Center, The University of Florida Cancer and Genetics Research Complex, Gainesville, Florida.",
+        "Division of Hematology/Oncology, The University of Florida College of Medicine, Gainesville, Florida.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Department of Hematology and Medical Oncology, Winship Cancer Institute, School of Medicine, Emory University, Atlanta, GA.",
+        "Department of Hematology and Medical Oncology, Winship Cancer Institute, School of Medicine, Emory University, Atlanta, GA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA.",
+        "Chan Zuckerberg Biohub San Francisco, San Francisco, CA.",
+        "Dept. of Pediatrics, Division of Oncology, University of California, San Francisco, CA.",
+        "University of Florida Health Cancer Center, The University of Florida Cancer and Genetics Research Complex, Gainesville, Florida.",
+        "Division of Hematology/Oncology, The University of Florida College of Medicine, Gainesville, Florida.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Department of Hematology and Medical Oncology, Winship Cancer Institute, School of Medicine, Emory University, Atlanta, GA.",
+        "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA.",
+        "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+        "Chan Zuckerberg Biohub San Francisco, San Francisco, CA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kasap, Corynn",
+        "short_name": "Kasap C",
+        "identifiers": [
+          "0000-0002-3667-8097"
+        ],
+        "affiliations": [
+          "Dept. of Medicine, Division of Hematology/Oncology, University of California, San Francisco, CA.",
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Izgutdina, Adila",
+        "short_name": "Izgutdina A",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Patiño-Escobar, Bonell",
+        "short_name": "Patiño-Escobar B",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Kang, Amrik",
+        "short_name": "Kang A",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+          "Medical Scientist Training Program, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Chilakapati, Nikhil",
+        "short_name": "Chilakapati N",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Akagi, Naomi",
+        "short_name": "Akagi N",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Haley",
+        "short_name": "Johnson H",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Rashid, Tasfia",
+        "short_name": "Rashid T",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Werner, Juwita",
+        "short_name": "Werner J",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Pediatrics, Division of Oncology, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Barpanda, Abhilash",
+        "short_name": "Barpanda A",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Geng, Huimin",
+        "short_name": "Geng H",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Lin, Yu-Hsiu T",
+        "short_name": "Lin YT",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Rampersaud, Sham",
+        "short_name": "Rampersaud S",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Gil-Alós, Daniel",
+        "short_name": "Gil-Alós D",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+          "Dept of Hematology, Hospital 12 de Octubre, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Sobh, Amin",
+        "short_name": "Sobh A",
+        "identifiers": [],
+        "affiliations": [
+          "University of Florida Health Cancer Center, The University of Florida Cancer and Genetics Research Complex, Gainesville, Florida.",
+          "Division of Hematology/Oncology, The University of Florida College of Medicine, Gainesville, Florida."
+        ]
+      },
+      {
+        "full_name": "Dupéré-Richer, Daphné",
+        "short_name": "Dupéré-Richer D",
+        "identifiers": [],
+        "affiliations": [
+          "University of Florida Health Cancer Center, The University of Florida Cancer and Genetics Research Complex, Gainesville, Florida.",
+          "Division of Hematology/Oncology, The University of Florida College of Medicine, Gainesville, Florida."
+        ]
+      },
+      {
+        "full_name": "Wicaksono, Gianina",
+        "short_name": "Wicaksono G",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Kawehi Kelii, K M",
+        "short_name": "Kawehi Kelii KM",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Dalal, Radhika",
+        "short_name": "Dalal R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Ramos, Emilio",
+        "short_name": "Ramos E",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Vijayanarayanan, Anjanaa",
+        "short_name": "Vijayanarayanan A",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Salangsang, Fernando",
+        "short_name": "Salangsang F",
+        "identifiers": [],
+        "affiliations": [
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Phojanakong, Paul",
+        "short_name": "Phojanakong P",
+        "identifiers": [],
+        "affiliations": [
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Serrano, Juan Antonio Camara",
+        "short_name": "Serrano JAC",
+        "identifiers": [],
+        "affiliations": [
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Zakraoui, Ons",
+        "short_name": "Zakraoui O",
+        "identifiers": [],
+        "affiliations": [
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Tariq, Isa",
+        "short_name": "Tariq I",
+        "identifiers": [],
+        "affiliations": [
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Steri, Veronica",
+        "short_name": "Steri V",
+        "identifiers": [],
+        "affiliations": [
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Shanmugam, Mala",
+        "short_name": "Shanmugam M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Medical Oncology, Winship Cancer Institute, School of Medicine, Emory University, Atlanta, GA."
+        ]
+      },
+      {
+        "full_name": "Boise, Lawrence H",
+        "short_name": "Boise LH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Medical Oncology, Winship Cancer Institute, School of Medicine, Emory University, Atlanta, GA."
+        ]
+      },
+      {
+        "full_name": "Kortemme, Tanja",
+        "short_name": "Kortemme T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA.",
+          "Chan Zuckerberg Biohub San Francisco, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Stieglitz, Elliot",
+        "short_name": "Stieglitz E",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Pediatrics, Division of Oncology, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Licht, Jonathan D",
+        "short_name": "Licht JD",
+        "identifiers": [],
+        "affiliations": [
+          "University of Florida Health Cancer Center, The University of Florida Cancer and Genetics Research Complex, Gainesville, Florida.",
+          "Division of Hematology/Oncology, The University of Florida College of Medicine, Gainesville, Florida."
+        ]
+      },
+      {
+        "full_name": "Karlon, William J",
+        "short_name": "Karlon WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Barwick, Benjamin G",
+        "short_name": "Barwick BG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Medical Oncology, Winship Cancer Institute, School of Medicine, Emory University, Atlanta, GA."
+        ]
+      },
+      {
+        "full_name": "Wiita, Arun P",
+        "short_name": "Wiita AP",
+        "identifiers": [
+          "0000-0002-7465-6964"
+        ],
+        "affiliations": [
+          "Dept. of Laboratory Medicine, University of California, San Francisco, CA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA.",
+          "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA.",
+          "Chan Zuckerberg Biohub San Francisco, San Francisco, CA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Feb 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/11 06:44",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38466264",
+      "38307865",
+      "38109209",
+      "38066841",
+      "38006053",
+      "37653344",
+      "37647647",
+      "37471687",
+      "37382633",
+      "36787696",
+      "36623248",
+      "36375118",
+      "36327160",
+      "36170501",
+      "35840578",
+      "35772041",
+      "35658469",
+      "35452603",
+      "35294525",
+      "35134130",
+      "34991665",
+      "34587230",
+      "34419446",
+      "34323938",
+      "33649772",
+      "33564394",
+      "33089218",
+      "32601337",
+      "32483333",
+      "31857451",
+      "31652572",
+      "30918115",
+      "30896447",
+      "30395178",
+      "30373828",
+      "29713085",
+      "29519805",
+      "29017060",
+      "27803044",
+      "27264969",
+      "26780180",
+      "26333935",
+      "26240224",
+      "26223302",
+      "26213107",
+      "25516281",
+      "25212991",
+      "25188243",
+      "21304103",
+      "19047103",
+      "17440452",
+      "16728703",
+      "8186199"
+    ],
+    "similar": [
+      "38463958",
+      "40359480",
+      "41144785",
+      "39571145",
+      "41775430",
+      "33089218",
+      "37844355",
+      "41239377",
+      "40592738",
+      "41297423",
+      "40821776",
+      "32685008",
+      "42485767",
+      "23344265",
+      "38630291",
+      "42659934",
+      "40619794",
+      "37980341",
+      "41439964",
+      "41416759",
+      "42134899",
+      "35294525",
+      "40022447",
+      "34627333",
+      "40885188",
+      "38637886",
+      "34434610",
+      "41802812",
+      "37527004",
+      "42374531",
+      "38683232",
+      "36845088",
+      "36323436",
+      "41965340",
+      "29641319",
+      "35017149",
+      "41072416",
+      "40894691",
+      "32385241",
+      "36874402",
+      "41376157",
+      "31005597",
+      "39059405",
+      "40057828",
+      "33499253",
+      "38354229",
+      "28928126",
+      "38579288",
+      "34920809",
+      "40372999",
+      "34680541",
+      "34323938",
+      "40474210",
+      "29284597",
+      "42747560",
+      "38289260",
+      "32435496",
+      "30208593",
+      "39891674",
+      "34556152",
+      "34048683",
+      "31775477",
+      "27803044",
+      "33781320",
+      "40576564",
+      "42364971",
+      "36119032",
+      "41419632",
+      "39763064",
+      "30988175",
+      "28951562",
+      "29812997",
+      "30185037",
+      "34072068",
+      "37399471",
+      "40569697",
+      "42106299",
+      "42662865",
+      "29899820",
+      "40146876",
+      "40701739",
+      "37339964",
+      "38800372",
+      "42675603",
+      "30348186",
+      "29496042",
+      "38242888",
+      "41104991",
+      "30147690",
+      "39502704",
+      "31698455",
+      "30918115",
+      "34582835",
+      "37924157",
+      "35844172",
+      "42733076",
+      "36618390",
+      "36932256",
+      "40388162",
+      "40547010"
+    ],
+    "review": [
+      "38463958",
+      "40619794",
+      "28928126",
+      "34920809",
+      "39891674",
+      "34048683",
+      "33781320",
+      "36119032",
+      "34072068",
+      "42106299",
+      "40701739",
+      "38800372",
+      "41104991",
+      "30147690",
+      "39502704",
+      "34582835",
+      "36618390",
+      "40388162"
+    ],
+    "pmc": [
+      "10925123"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38463958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38463958",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD27-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.02.24.581875",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

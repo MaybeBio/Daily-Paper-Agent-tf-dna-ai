@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36692138",
+  "title": "NetProphet 3: a machine learning framework for transcription factor network mapping and multi-omics integration.",
+  "authors": "Abid, Dhoha; Brent, Michael R",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2023-01-25",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习整合多组学数据预测转录因子靶基因网络，虽涉及TF-DNA结合位点数据，但核心是基因表达调控网络推断而非三维互作建模，方法可部分借鉴。",
+  "abstract": "MOTIVATION: Many methods have been proposed for mapping the targets of transcription factors (TFs) from gene expression data. It is known that combining outputs from multiple methods can improve performance. To date, outputs have been combined by using either simplistic formulae, such as geometric mean, or carefully hand-tuned formulae that may not generalize well to new inputs. Finally, the evaluation of accuracy has been challenging due to the lack of genome-scale, ground-truth networks. RESULTS: We developed NetProphet3, which combines scores from multiple analyses automatically, using a tree boosting algorithm trained on TF binding location data. We also developed three independent, genome-scale evaluation metrics. By these metrics, NetProphet3 is more accurate than other commonly used packages, including NetProphet 2.0, when gene expression data from direct TF perturbations are available. Furthermore, its integration mode can forge a consensus network from gene expression data and TF binding location data. AVAILABILITY AND IMPLEMENTATION: All data and code are available at https://zenodo.org/record/7504131#.Y7Wu3i-B2x8. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：已有许多方法被提出用于从基因表达数据中映射转录因子（TFs）的靶标。已知结合多种方法的输出可以提高性能。迄今为止，输出通常通过简单公式（如几何平均值）或经过精心手工调整的公式进行组合，这些公式可能无法很好地泛化到新输入。最后，由于缺乏基因组规模的、真实网络，准确性评估一直具有挑战性。结果：我们开发了NetProphet3，它使用基于TF结合位置数据训练的树提升算法，自动组合多种分析的分数。我们还开发了三个独立的、基因组规模的评估指标。通过这些指标，当直接TF扰动下的基因表达数据可用时，NetProphet3比其他常用软件包（包括NetProphet 2.0）更准确。此外，其整合模式可以从基因表达数据和TF结合位置数据中构建共识网络。可用性与实现：所有数据和代码可在https://zenodo.org/record/7504131#.Y7Wu3i-B2x8获取。补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36692138/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36692138/",
+  "paper_page_path": "papers/pubmed/36692138/index.html"
+}

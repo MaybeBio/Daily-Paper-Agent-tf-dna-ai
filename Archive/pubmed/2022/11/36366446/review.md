@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Computational predictions and experimental validation of ASFV p10 DNA-binding determinants
+- **Shared manuscript claim summary** The authors generated an ab initio model of ASFV p10, identified a helix-turn-helix motif and specific serine/lysine-rich regions mediating dsDNA binding via MD simulations, and validated the role of key residues through designed mutants and ELISA binding assays.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Figures 1-8 (referenced), Tables (referenced), Supplementary Figures S1-S5 (referenced)
+- **Missing materials affecting confidence** Raw MD trajectory data, structural coordinates of models, full ELISA dataset with replicates, statistical output details, sequence alignment data, PDB validation reports for models
+
+## Reviewer
+- **Overall assessment** This manuscript presents a combined computational-experimental study of the ASFV p10 nucleoprotein interaction with dsDNA. The work addresses a relevant gap in understanding ASFV structural protein function. The computational approach is reasonable, and the experimental validation adds value. However, several technical concerns regarding model quality, simulation methodology, and the strength of experimental evidence need to be addressed before the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers in ASFV biology, viral structural biology, and DNA-protein interaction fields. The identification of specific residues mediating DNA binding could inform vaccine development strategies and functional studies of ASFV replication. The methodological approach may also interest computational biologists studying DNA-binding proteins without known structures.
+- **Major strengths** The study combines multiple computational techniques (ab initio modeling, MD simulations, MM/PBSA calculations) with experimental validation, providing a multidisciplinary approach. The identification of specific residues and motifs involved in DNA binding is a useful contribution. The experimental validation using ELISA assays strengthens the computational predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The ab initio model of p10 generated using Robetta is presented as structurally reliable for subsequent simulation and interpretation.
+  - **Evidence pointer** Section 2.1, Section 3.1, Figure 1
+  - **Concern** The manuscript does not provide any model quality assessment metrics such as QMEAN, pLDDT scores, or Ramachandran plot statistics. The claim that the model is suitable for detailed molecular interaction studies requires validation of model confidence. Additionally, the decision to use the truncated 43-residue model over the full-length protein for subsequent simulations is not fully justified with structural or functional rationale.
+  - **Why it matters** The reliability of all downstream conclusions depends on the quality of the initial structural model. Without quality metrics, the reader cannot assess whether the observed interactions are biologically meaningful or artifacts of the modeling approach.
+  - **Resolution test** Provide model quality scores (e.g., QMEAN, pLDDT, MolProbity), Ramachandran statistics, and a structural superposition of the truncated model with the corresponding region in the full-length model to demonstrate structural equivalence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The MM/PBSA calculations provide reliable relative binding free energies that distinguish stabilizing from destabilizing mutations.
+  - **Evidence pointer** Section 2.3, Section 3.4, Figure 6
+  - **Concern** The MM/PBSA methodology is known to be highly sensitive to simulation length, convergence, and the choice of dielectric constant and atomic radii. The manuscript reports using 500 snapshots from the equilibrated portion (500-1000 ns) of 1-microsecond simulations, but no convergence analysis is shown. The use of a single trajectory approach, while acknowledged, introduces systematic errors that are not quantified. No error bars or standard deviations are provided for the calculated binding free energies.
+  - **Why it matters** The quantitative ranking of mutant binding affinities is central to the validation of the computational predictions. Without convergence assessment and error estimates, the reported differences between mutants and wild-type cannot be evaluated for statistical significance.
+  - **Resolution test** Provide per-replicate binding free energy values with standard deviations, convergence plots of the energy components over simulation time, and a sensitivity analysis for the dielectric constant and radii parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The ELISA assays confirm most computational predictions regarding the effect of mutations on DNA binding.
+  - **Evidence pointer** Section 2.7, Section 3.5, Figure 8
+  - **Concern** The ELISA data presentation is incomplete. The figure shows relative binding but lacks key experimental details: the number of independent experiments, the specific optical density values, the dynamic range of the assay, and the positive/negative controls. The statistical analysis is described as two-way ANOVA with Dunnett's test, but the specific comparisons, degrees of freedom, and effect sizes are not reported. The claim that M2 and M4 show increased binding compared to wild-type is based on p-values alone without reporting the magnitude of the effect.
+  - **Why it matters** The experimental validation is the key evidence supporting the computational predictions. Incomplete reporting of the ELISA methodology and results prevents the reader from assessing the robustness and biological significance of the observed differences.
+  - **Resolution test** Provide full ELISA methodology details, including the number of replicates, raw OD values, standard curves, and a complete statistical summary with effect sizes and confidence intervals for all comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The identified DNA-binding determinants of p10 may have implications for vaccine development and understanding ASFV replication.
+  - **Evidence pointer** Section 4, Discussion
+  - **Concern** The discussion speculates about the role of p10 in viral replication and vaccine development without direct experimental evidence. The connection between reduced DNA binding and viral attenuation is presented as a hypothesis without supporting data. The relevance of the in vitro DNA-binding results to the in vivo function of p10 during ASFV infection is not established.
+  - **Why it matters** The broader significance of the findings depends on the biological relevance of the identified interactions. Without functional validation in the context of viral infection, the translational implications remain speculative.
+  - **Resolution test** Acknowledge the speculative nature of these claims and clearly distinguish between established findings and hypotheses. If possible, include preliminary data on p10 function in viral replication or cite relevant studies that support the proposed implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The simulation setup lacks specific details on the number of water molecules, box dimensions, and ion concentration. The equilibration protocol is not fully described.
+  - **Required correction** Provide complete simulation setup parameters, including box size, number of water molecules, ion concentration, and the full equilibration protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Section 3.2
+  - **Evidence pointer** Section 3.2, Figure 2
+  - **Concern** The description of the four initial configurations of the p10-DNA complex is unclear. The criteria for selecting these configurations and how they differ from each other are not explicitly stated.
+  - **Required correction** Clearly describe the four initial configurations, including how they were generated and what distinguishes them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Section 3.4
+  - **Evidence pointer** Section 3.4, Figure 7
+  - **Concern** The representative structures shown in Figure 7 are described qualitatively. The structural differences between mutants and wild-type are not quantified.
+  - **Required correction** Provide quantitative measures of structural differences, such as RMSD values between mutant and wild-type structures, or highlight specific structural changes with labeled annotations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction could benefit from a more detailed discussion of the structural features of other ASFV DNA-binding proteins and how p10 compares to them.
+  - **Required correction** Expand the introduction to include a brief comparison with other known ASFV DNA-binding proteins and their structural characteristics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model quality assessment), R1-M2 (MM/PBSA convergence and error analysis), R1-M3 (ELISA data completeness and statistical reporting)
+- **Assessment against Nature-style criteria** Originality: The study is original in its specific focus on p10, though the general approach of combining MD simulations with experimental validation for DNA-binding proteins is well established. Scientific importance: Moderate. The findings contribute to understanding ASFV p10 function but do not fundamentally change the understanding of DNA-binding protein mechanisms. Interdisciplinary readership: Limited. The work will primarily interest ASFV researchers and computational biologists studying DNA-protein interactions. Technical soundness: Currently insufficient. The lack of model quality metrics, convergence analysis, and complete experimental reporting prevents full assessment of the technical rigor. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some computational details may be challenging for experimental readers.
+
+## Risk / unsupported claims
+- The claim that the helix-turn-helix motif is "crucial" for DNA binding is not directly tested; no mutant disrupting the motif itself was generated and tested.
+- The statement that the identified residues "may have implications for viral replication" is speculative and not supported by functional data.
+- The assertion that the computational predictions are "almost perfect agreement" with experimental results is overstated given the incomplete statistical reporting.
+- The claim that p10 deletion could provide a DIVA vaccine target is speculative and not supported by any experimental evidence in this study.
+- The statement that the truncated 43-residue model is representative of the full-length protein's DNA-binding function is not fully validated.

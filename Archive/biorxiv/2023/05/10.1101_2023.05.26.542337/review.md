@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure legends
+- **Assessment boundary** Scientific content, technical soundness, structural logic, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors report a cryo-EM structure of a type I-F CRISPR integration complex from Pseudomonas aeruginosa, showing that Cas1-2/3 and IHF fold host DNA into a U-shaped bend and loop that position foreign DNA and the first CRISPR repeat for site-specific integration. They propose that DNA folding, rather than sequence-specific repeat recognition, directs integration, supported by biochemical assays and a bioinformatic analysis of 24,940 CRISPRs showing conserved 5'-GT dinucleotides.
+- **Visible evidence base** Cryo-EM density maps and atomic model (EMDB EMD-29280, PDB 8FLJ), in vitro integration assays with mutant proteins and DNA substrates, sequence conservation analysis, and structural comparisons
+- **Missing materials affecting confidence** No electron density maps or validation statistics shown in the provided text, no raw gel images for integration assays, no statistical details for bioinformatic analysis, no coordinates for structural figures, no supplementary tables or extended data figures accessible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant structural advance in understanding CRISPR adaptation, specifically the role of DNA folding in site-specific integration. The cryo-EM structure at 3.48 Å resolution reveals a large conformational change in Cas3 and a complex DNA architecture involving IHF-induced bends. The biochemical validation and bioinformatic analysis strengthen the central claim that leader structure and a conserved 5'-GT dinucleotide, rather than sequence-specific repeat recognition, direct integration. However, several technical concerns regarding structural validation, quantitative support for key claims, and clarity of the mechanistic model need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers in CRISPR biology, particularly those studying adaptation and spacer acquisition, will find this structure highly relevant. The work also appeals to structural biologists interested in large multi-protein DNA remodeling complexes, and to those studying DNA bending proteins like IHF in other systems. The proposed model for how DNA folding regulates integration may inform engineering of CRISPR systems for genome editing and DNA recording applications.
+- **Major strengths** The manuscript provides the first structure of a type I-F integration complex, revealing a surprising and elegant mechanism where DNA shape, not sequence, is the primary determinant of integration site selection. The combination of structural, biochemical, and bioinformatic approaches is compelling. The comparison to the λ-phage excision complex is insightful and places the work in a broader context of DNA mobilization systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural model
+  - **Claim pointer** The manuscript claims a 3.48 Å resolution structure with a complete model of the integration complex, including all DNA and protein components.
+  - **Evidence pointer** Cryo-EM methods section, Extended Data Fig. 1g-k, Table 1
+  - **Concern** The resolution of 3.48 Å is reported, but no local resolution maps, FSC curves, or validation statistics (e.g., MolProbity scores, Ramachandran outliers, map-model correlation) are provided in the text. The authors state that some DNA regions were resolved at 4-8 Å, which is insufficient for confident base-pair assignment. The model completeness (90.7% of protein, 88.4% of DNA) is stated, but the missing regions are not described. Without these validation details, the accuracy of the structural model, particularly for the DNA conformation and protein-DNA contacts, cannot be assessed.
+  - **Why it matters** The central claims about DNA folding and specific protein-DNA interactions depend on the accuracy of the structural model. If the DNA path or protein side chain assignments are incorrect, the mechanistic conclusions would be weakened.
+  - **Resolution test** Provide local resolution maps, FSC curves, and standard validation metrics. Clearly describe which regions of the model are at lower resolution and how this affects interpretation of specific interactions. Show representative density for key interfaces, especially the Cas2-IR interactions and the Cas1 active site with the repeat DNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the allosteric activation model
+  - **Claim pointer** The authors propose that foreign DNA binding induces a 100-degree rotation of Cas3, which exposes DNA binding sites on Cas2 for leader recognition, and that this conformational change is required for integration.
+  - **Evidence pointer** Figure 2, Extended Data Fig. 2, Supplementary Video 1, in vitro integration assays
+  - **Concern** The claim that foreign DNA binding "constrains" the Cas2/3 linker and drives Cas3 rotation is based on a single structure of the complex with DNA. No structure of the apo or DNA-free Cas1-2/3 in the "closed" conformation is presented for comparison, despite the authors referencing a previous structure (ref 54). The biochemical data show that mutations in the linker or Cas3 affect integration, but do not directly demonstrate that foreign DNA binding causes the conformational change. The proposed allosteric mechanism is plausible but not directly tested.
+  - **Why it matters** The title and abstract emphasize "allosterically enhances" integration, implying a specific regulatory mechanism. If the conformational change is not directly demonstrated to be induced by foreign DNA, the claim is overstated.
+  - **Resolution test** Provide a structure or biophysical data (e.g., SAXS, FRET, HDX) comparing the apo and DNA-bound states of Cas1-2/3. Alternatively, temper the language to indicate that the structure reveals a conformational state that may be induced by DNA binding, and provide additional biochemical evidence that the linker dynamics are coupled to DNA binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for integration efficiency claims
+  - **Claim pointer** The authors state that integration efficiency is correlated with repeat length, that the 5'-GT dinucleotide is critical for integration, and that the A28C mutation increases spacer-side integration by ~2-fold.
+  - **Evidence pointer** Figure 4, Extended Data Fig. 7-9
+  - **Concern** The integration assays are described qualitatively in the text, but no quantitative data (e.g., percent integration, rates, error bars, statistical tests) are provided in the visible text. The claim of a ~2-fold increase for A28C is specific, but the data supporting it are not shown. The correlation with repeat length is stated but not quantified. Without these data, the strength of the biochemical conclusions cannot be evaluated.
+  - **Why it matters** The biochemical experiments are key to validating the structural model and the proposed mechanism. If the quantitative effects are small or variable, the conclusions about the importance of specific DNA features would be weakened.
+  - **Resolution test** Provide quantified data for all integration assays, including replicates, error bars, and statistical analysis. Show representative gels and the quantification method. For the repeat length correlation, provide a plot with a correlation coefficient and significance test.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the 5'-GT finding
+  - **Claim pointer** The authors claim that 5'-GT dinucleotides are broadly conserved across diverse CRISPR types and suggest a conserved role in integration.
+  - **Evidence pointer** Extended Data Fig. 4g, bioinformatic analysis
+  - **Concern** The bioinformatic analysis of 24,940 CRISPRs is described, but the results are only summarized in one extended data figure. It is unclear how the conservation was assessed (e.g., position weight matrix, information content), whether the 5'-GT is conserved at both ends of the repeat in all systems, and how the analysis accounts for the different repeat lengths and structures across CRISPR types. The claim of "broadly conserved" needs more detailed presentation.
+  - **Why it matters** The evolutionary implications of the work depend on the generality of the 5'-GT finding. If the conservation is limited to certain subtypes or is not statistically robust, the conclusions would be overstated.
+  - **Resolution test** Provide a more detailed description of the bioinformatic methods and results, including the number of repeats analyzed per subtype, the conservation scores, and a statistical test for enrichment of 5'-GT. Show the sequence logos for individual subtypes and discuss any exceptions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first paragraph of Introduction
+  - **Issue** The abstract is dense and uses specialized terminology without sufficient context for a general reader. The phrase "genome folding allosterically enhances" is not immediately clear. The Introduction could better explain why the type I-F system is particularly informative and what was previously unknown.
+  - **Required correction** Revise the abstract to briefly explain what "genome folding" means in this context and why it matters. In the Introduction, add a sentence clarifying the specific gap in knowledge that this structure addresses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1-4
+  - **Evidence pointer** Figure legends
+  - **Issue** The figure legends are not provided in the visible text, making it difficult to interpret the main text references to specific panels. Some panels are referenced without clear explanation of what is shown.
+  - **Required correction** Ensure all figure legends are included and that each panel is described in sufficient detail. Consider adding a schematic overview of the complex in Figure 1 to orient readers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Main text
+  - **Evidence pointer** Sections on Cas3 rotation and DNA bending
+  - **Issue** The terms "distal" and "proximal" for the IR sites are used without clear definition. The description of the DNA path is complex and could be simplified.
+  - **Required correction** Define "distal" and "proximal" in the text or a figure. Consider adding a schematic of the DNA path to help readers follow the structural description.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methods detail
+  - **Affected element** Bioinformatic analysis
+  - **Evidence pointer** Methods section on conservation analysis
+  - **Issue** The methods for the bioinformatic analysis are described briefly, but the criteria for classifying CRISPR subtypes and the parameters for the conservation analysis are not fully specified.
+  - **Required correction** Provide more detail on the bioinformatic pipeline, including the version of CRISPRDetect, the parameters used, and how the 5'-GT conservation was quantified.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural validation) and R1-M2 (allosteric mechanism) are the most critical. Without proper validation of the structural model and direct evidence for the conformational change, the central claims are not fully supported. R1-M3 (quantitative data) is also important for establishing the biochemical conclusions.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The structure of a type I-F integration complex is novel, and the proposed mechanism of DNA shape-based recognition is a new concept in CRISPR biology.
+  - **Scientific importance** High. Understanding how CRISPR systems select integration sites is fundamental to adaptive immunity and has practical implications for genome engineering.
+  - **Interdisciplinary readership** Moderate. The work will primarily interest CRISPR and structural biology communities, but the general principle of DNA folding regulating enzyme activity may appeal to a broader readership.
+  - **Technical soundness** Currently not fully established. The structural and biochemical evidence is promising, but the lack of validation details and quantitative data prevents a full assessment.
+  - **Readability for nonspecialists** Moderate. The abstract and introduction are dense, but the main text is generally clear for a specialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially important advance, but the structural validation and quantitative support for key claims need to be strengthened. The authors should provide additional data and clarify the mechanistic model before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that foreign DNA binding "induces" the Cas3 rotation is not directly supported by the data presented; the structure only shows the final state.
+- The claim that the 5'-GT dinucleotide is "broadly conserved" across diverse CRISPR types is not fully supported by the bioinformatic analysis as described.
+- The proposed mechanism that DNA folding, rather than sequence recognition, is the primary determinant of integration site selection is plausible but not definitively proven; the authors do not rule out contributions from other sequence-specific interactions.
+- The statement that the structure "may prevent disintegration" of the integration intermediate is speculative and not directly tested.

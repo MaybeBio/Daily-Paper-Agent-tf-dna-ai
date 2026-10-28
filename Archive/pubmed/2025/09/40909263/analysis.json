@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40909263",
+  "title": "Identification of sepsis biomarkers through glutamine metabolism-mediated immune regulation: a comprehensive analysis employing mendelian randomization, multi-omics integration, and machine learning.",
+  "authors": "Shi, Zhuang'e; Wang, Fuping; Yang, Lishun; Li, Couwen; Gong, Bing; Dai, Ruanxian; Chen, Guobing",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-09-05",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过孟德尔随机化、多组学整合和机器学习识别脓毒症生物标志物，聚焦谷氨酰胺代谢与免疫调控，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Sepsis is a global health challenge associated with high morbidity and mortality rates. Early diagnosis and treatment are challenging because of the limited understanding of its underlying mechanisms. This study aimed to identify biomarkers of sepsis through an integrated multi-method approach. METHODS: Mendelian randomization (MR) analysis was performed using data on 1400 plasma metabolites, 731 immune cell phenotypes, and sepsis genome-wide association studies. Single-cell RNA sequencing (scRNA-seq) data GSE167363 was used for cell annotation, differential expression analysis, Gene Set Enrichment Analysis (GSEA), transcription factor activity prediction, and cellular pseudotime analysis. The hub genes were identified via least absolute shrinkage and selection operator regression using GSE236713. The predictive models were constructed using the CatBoost, XGBoost, and NGBoost algorithms based on the data from GSE236713 and GSE28750. SHapley Additive ex Planations (SHAP) was used to filter the key molecules, and their expressions were confirmed via RT-qPCR of the peripheral blood mononuclear cells of the patients with sepsis and healthy controls. RESULTS: Two-step MR revealed that glutamine degradant mediated the causal relationship between SSC-A on HLA-DR + NK and sepsis. ScRNA-seq analysis revealed distinct variations in the composition of immune cell phenotypes in the control and sepsis groups. NK cells were associated with glutamine metabolism. GSEA illustrated the top 10 pathways positively and negatively correlated in NK cells with high vs. low glutamine metabolism. Transcription factor prediction revealed opposing transcription factor profiles for these NK cells subsets. NK cell cellular pseudotime plot and immune cell infiltration analysis results were displayed. The predictive models achieved AUCs of 0.95 (CatBoost), 0.80 (XGBoost), and 0.62 (NGBoost). SHAP analysis identified SRSF7, E2F2, RAB13, and S100A8 as key molecular of the model. RT-qPCR revealed decreased SRSF7 expression and increased RAB13, E2F2, and S100A8 expression in sepsis. CONCLUSION: SSC-A on HLA-DR + NK cells reduced the risk of sepsis by decreasing glutamine degradation. SRSF7, E2F2, RAB13, and S100A8 were identified as potential pathogenic biomarkers of sepsis.",
+  "abstract_zh": "背景：脓毒症是一项全球性健康挑战，与高发病率和死亡率相关。由于其潜在机制了解有限，早期诊断和治疗面临挑战。本研究旨在通过整合多种方法识别脓毒症的生物标志物。方法：使用1400种血浆代谢物、731种免疫细胞表型及脓毒症全基因组关联研究的数据进行孟德尔随机化 (Mendelian randomization, MR) 分析。使用单细胞RNA测序 (single-cell RNA sequencing, scRNA-seq) 数据GSE167363进行细胞注释、差异表达分析、基因集富集分析 (Gene Set Enrichment Analysis, GSEA)、转录因子活性预测和细胞拟时序分析。使用GSE236713通过最小绝对收缩和选择算子回归识别核心基因。基于GSE236713和GSE28750的数据，使用CatBoost、XGBoost和NGBoost算法构建预测模型。使用SHapley Additive exPlanations (SHAP) 筛选关键分子，并通过RT-qPCR确认其在脓毒症患者和健康对照外周血单核细胞中的表达。结果：两步MR显示，谷氨酰胺降解物介导了HLA-DR + NK细胞上SSC-A与脓毒症之间的因果关系。scRNA-seq分析显示对照组和脓毒症组免疫细胞表型组成存在显著差异。NK细胞与谷氨酰胺代谢相关。GSEA展示了高谷氨酰胺代谢与低谷氨酰胺代谢NK细胞中正相关和负相关的前10条通路。转录因子预测揭示了这些NK细胞亚群中相反的转录因子谱。展示了NK细胞拟时序图和免疫细胞浸润分析结果。预测模型在CatBoost、XGBoost和NGBoost中分别达到0.95、0.80和0.62的AUC值。SHAP分析识别出SRSF7、E2F2、RAB13和S100A8为模型的关键分子。RT-qPCR显示脓毒症中SRSF7表达降低，而RAB13、E2F2和S100A8表达升高。结论：HLA-DR + NK细胞上的SSC-A通过减少谷氨酰胺降解降低脓毒症风险。SRSF7、E2F2、RAB13和S100A8被识别为脓毒症的潜在致病生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40909263/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40909263/",
+  "paper_page_path": "papers/pubmed/40909263/index.html"
+}

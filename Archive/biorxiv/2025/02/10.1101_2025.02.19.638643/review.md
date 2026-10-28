@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors present C.La.P., a transformer-based model that integrates DNA sequence with ATAC-seq chromatin accessibility data to predict multiple ChIP-seq signals (CTCF, H3K27ac, H3K4me3) at nucleotide resolution. The model is pretrained with masked nucleotide prediction and fine-tuned on multi-biosample datasets. The authors claim that C.La.P. captures chromatin dynamics across contexts, detects CTCF binding sites with nucleotide precision, and identifies protein-DNA binding events not captured by ChIP-seq ground truth.
+- **Visible evidence base** Abstract, Introduction, Results (Training, CLaP captures chromatin dynamics, CLaP integrates both sequence and ATAC-seq, CLaP detects CTCF with nucleotide resolution), Discussion, Online Methods (Datasets, Input preparation, Training tasks, Model architecture, Training and evaluation, Self-Attention analyses, PWMs)
+- **Missing materials affecting confidence** Figure panels referenced (Fig. 1-5, Supp. Fig. 1-8) are not provided. Supplemental tables (Supplemental Table 1) and supplemental files (Supplemental CTCF examples pdf) are not provided. Quantitative performance metrics for baseline comparisons are partially reported but without confidence intervals or statistical tests. Details on the bd-clustered dataset construction and the theoretical sequence-only model are described but not formally validated.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically interesting approach to integrating chromatin accessibility data with sequence information for genomic signal prediction. The core idea of using ATAC-seq as a contextual input alongside DNA sequence is timely and potentially useful. However, the evidence provided is insufficient to fully establish the major claims. Key quantitative results are reported without error bars or statistical significance testing. The comparison against a "theoretical sequence-only model" is a useful conceptual benchmark but is not implemented empirically, weakening the claim that CLaP outperforms sequence-only approaches. The attention analysis is suggestive but the claim of nucleotide-level precision requires more rigorous evaluation. The claim that CLaP detects binding events not captured by ChIP-seq ground truth is intriguing but lacks orthogonal validation. The manuscript would benefit from additional benchmarking against existing sequence-only models (e.g., Enformer, Basenji) and from clearer reporting of evaluation methodology.
+- **Who would be interested in the results, and why** Computational biologists working on regulatory genomics, particularly those developing deep learning models for chromatin state prediction. Researchers studying CTCF binding mechanisms and chromatin accessibility patterns. The approach of integrating molecular assay data with sequence could be of interest to the broader genomics community, especially those working on context-aware regulatory predictions.
+- **Major strengths** The integration of ATAC-seq signal as a contextual input is a novel and sensible design choice that addresses a real limitation of sequence-only models. The pretraining-finetuning scheme leverages more abundant ATAC-seq data, which is a practical and scalable strategy. The attention analysis provides interpretability and suggests the model learns biologically meaningful features. The multi-biosample evaluation across 25 biosamples is a strength, and the analysis of context-dependent predictions (Fig. 3C) is conceptually valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CLaP achieves per-token F1 scores exceeding 0.8 for three target ChIP-seq assays in fine-tuning, and mean F1 scores of 0.88, 0.83, and 0.85 for CTCF, H3K27ac, and H3K4me3, respectively.
+  - **Evidence pointer** Results section "Training", Fig. 2B, Fig. 3B
+  - **Concern** The reported F1 scores are presented as point estimates without confidence intervals, standard deviations across biosamples, or statistical comparisons against baselines. It is unclear whether the differences between classes or between CLaP and any baseline are statistically significant. The evaluation methodology (e.g., how per-token F1 is computed, how class imbalance is handled, whether metrics are macro- or micro-averaged) is not fully specified.
+  - **Why it matters** Without measures of variability and significance, the reader cannot assess the reliability of the reported performance. The claim of "exceeding 0.8" is central to the paper's contribution, and the lack of statistical rigor undermines confidence in this result.
+  - **Resolution test** Provide per-biosample F1 scores with standard deviations or confidence intervals. Report statistical significance tests comparing CLaP against a sequence-only baseline (e.g., a model trained without ATAC-seq features) and against existing methods. Clearly specify the evaluation protocol, including how tokens are defined, how class imbalance is addressed, and how metrics are aggregated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CLaP captures chromatin dynamics across contexts and outperforms a "theoretical sequence-only model" that would classify regions as always active or always inactive.
+  - **Evidence pointer** Results section "CLaP captures chromatin dynamics", Fig. 3C
+  - **Concern** The comparison against a "theoretical sequence-only model" is not an empirical baseline. The authors describe a hypothetical model but do not implement or evaluate it. The claim that CLaP "effectively captures differential dynamics" is based on descriptive TP/FP/TN/FN counts, but no quantitative comparison against any actual sequence-only model is provided. It is unclear how CLaP's performance compares to existing sequence-only deep learning models (e.g., Enformer, Basenji) on the same tasks.
+  - **Why it matters** The central motivation of the paper is that sequence-only models are limited in context-awareness. To establish this, the authors must demonstrate empirically that CLaP outperforms a sequence-only model on the same evaluation tasks. A theoretical model is not a substitute for an actual comparison.
+  - **Resolution test** Implement a sequence-only version of CLaP (e.g., by removing ATAC-seq features) and compare performance on the same fine-tuning tasks. Additionally, benchmark against existing sequence-only models such as Enformer or Basenji on the same datasets. Report quantitative metrics with statistical significance testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CLaP detects CTCF binding sites with nucleotide-level precision by learning the sequence preference of CTCF and ATAC-seq footprints.
+  - **Evidence pointer** Results section "CLaP detects CTCF with nucleotide resolution", Fig. 5, Supp. Fig. 6-8
+  - **Concern** The evidence for nucleotide-level precision is indirect. The authors show that attention peaks overlap with CTCF PWM hits and that ATAC-seq signal around CLaP peaks shows characteristics of protein binding (central depletion, strand imbalance). However, no direct evaluation of binding site prediction accuracy is provided (e.g., comparison against ChIP-seq peak centers, motif footprint analysis). The claim of "nucleotide-level precision" requires a quantitative assessment of the distance between predicted sites and actual binding sites.
+  - **Why it matters** The claim of nucleotide-level precision is a strong and distinctive contribution. Without direct evaluation, the reader cannot determine whether CLaP genuinely identifies binding sites at single-nucleotide resolution or merely approximates PWM-based predictions.
+  - **Resolution test** Compare CLaP-predicted binding sites against ChIP-seq peak centers and compute the distribution of distances. Report the fraction of predictions within 10 bp, 25 bp, and 50 bp of true binding sites. Compare against PWM-based predictions and existing footprinting tools. Provide a quantitative assessment of precision and recall for binding site detection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that CLaP predicts protein-DNA binding events not captured by the ChIP-seq ground truth.
+  - **Evidence pointer** Results section "CLaP detects CTCF with nucleotide resolution", Fig. 5D
+  - **Concern** The claim that some CLaP predictions represent true binding events missed by ChIP-seq is based on the observation that these predictions exhibit non-zero ATAC-seq signal asymmetry. However, ATAC-seq asymmetry is a qualitative proxy and has not been validated as a reliable indicator of protein binding in this context. No orthogonal validation (e.g., independent protein binding assays, genetic perturbation) is provided.
+  - **Why it matters** This claim has significant implications for the utility of CLaP as a discovery tool. If CLaP can identify genuine binding events missed by ChIP-seq, this would be a major contribution. However, the current evidence is insufficient to support this claim.
+  - **Resolution test** Provide orthogonal validation for a subset of CLaP-specific predictions, such as electrophoretic mobility shift assays (EMSA), targeted re-ChIP, or comparison with independent protein binding datasets (e.g., from different assay types or laboratories). Alternatively, demonstrate that CLaP-specific predictions are enriched for known regulatory variants or functional elements.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that pretraining with masked nucleotide prediction is essential for the model's performance, and that models trained solely on fine-tuning tasks perform poorly.
+  - **Evidence pointer** Results section "Training", Discussion
+  - **Concern** The claim that pretraining is beneficial is mentioned in the Discussion but no ablation study is shown. The authors state that "models trained solely on fine-tuning tasks, without pretraining, perform poorly" but no data are presented to support this. The pretraining task uses a masking procedure with a specific selection bias toward SNPs and conserved regions, but the impact of this design choice is not evaluated.
+  - **Why it matters** The pretraining strategy is a key methodological contribution. Without an ablation study, the reader cannot determine whether the benefits come from pretraining per se, from the specific masking strategy, or from the model architecture.
+  - **Resolution test** Provide an ablation study comparing: (1) CLaP with pretraining, (2) CLaP without pretraining (trained from scratch on fine-tuning tasks), (3) CLaP with random masking instead of the biased masking strategy. Report performance on the same evaluation tasks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Methods section "Model architecture"
+  - **Issue** The description of the tokenizer and embedder is somewhat unclear. The authors state that convolutional layers produce an embedding vector for every nucleotide of the input sequence, but the relationship between the convolutional stride, kernel sizes, and the resulting token representation is not fully explained. The term "token" is used but the tokenization scheme is not explicitly defined.
+  - **Required correction** Clarify how the convolutional layers produce per-nucleotide embeddings and how these relate to the transformer's token representation. Define what constitutes a "token" in this architecture and how the receptive field of 23 nucleotides is achieved.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Methods section "Datasets"
+  - **Issue** The authors state that 75 ATAC-seq experiments were selected for pretraining, but the criteria for selection are not described. The number of biosamples for fine-tuning is mentioned as 25, but the distribution across tissues and the overlap between pretraining and fine-tuning datasets are not specified.
+  - **Required correction** Provide details on the selection criteria for ATAC-seq experiments, the tissue distribution of the 25 biosamples, and whether any biosamples appear in both pretraining and fine-tuning datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Evaluation metrics
+  - **Evidence pointer** Methods section "Training and evaluation"
+  - **Issue** The authors report accuracy, precision, recall, and F1-score but do not specify whether these are computed per-token, per-CLaP-peak, or per-CRE. The distinction between per-token and per-CRE F1 is mentioned in the Results but the exact computation for each is not defined.
+  - **Required correction** Clearly define how per-token and per-CRE metrics are computed, including how tokens are aggregated into CREs and how class imbalance is handled.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Not specified in the provided text
+  - **Issue** No statement is provided regarding code availability, model weights, or access to the processed datasets. This limits reproducibility.
+  - **Required correction** Include a data and code availability statement, specifying where the code, model weights, and processed data can be accessed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure references
+  - **Evidence pointer** Results section "CLaP integrates both sequence and ATAC-seq"
+  - **Issue** The text references Supp. Fig. 4 and Supp. Fig. 5 for the comparison of attention heads across samples with identical sequences but different ATAC-seq signals. The description of the "skew score" is not defined in the main text or methods.
+  - **Required correction** Define the skew score and explain how it is computed. Ensure all supplementary figure references are clearly described in the text.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of statistical significance testing and confidence intervals for all reported F1 scores. (2) No empirical comparison against a sequence-only baseline or existing models. (3) No ablation study for the pretraining component. (4) The claim of nucleotide-level precision is not directly evaluated. (5) The claim of detecting events missed by ChIP-seq lacks orthogonal validation. (6) The evaluation methodology is incompletely specified.
+- **Assessment against Nature-style criteria** Originality: The integration of ATAC-seq as a contextual input alongside sequence is a novel contribution, though the underlying transformer architecture is not new. Scientific importance: The potential to predict multiple chromatin marks from a single input with contextual awareness is significant for regulatory genomics, but the importance is not fully established without rigorous benchmarking. Interdisciplinary readership: The work bridges deep learning and genomics, and the interpretability analysis (attention heads) may appeal to a broad audience. Technical soundness: The methodology is reasonable but the evaluation is incomplete, lacking statistical rigor and baseline comparisons. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details (e.g., tokenization, attention rollout) could be clarified for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the current evidence is insufficient to fully establish the major claims. The authors should address the statistical rigor, provide empirical baseline comparisons, and directly evaluate the nucleotide-level precision claim.
+
+## Risk / unsupported claims
+- The claim that CLaP "captures chromatin dynamics" across contexts is not quantitatively supported by comparison against any empirical baseline.
+- The claim that CLaP detects binding events not captured by ChIP-seq ground truth is unsupported without orthogonal validation.
+- The claim of "nucleotide-level precision" is not directly evaluated and is therefore not established.
+- The claim that pretraining is essential for performance is not supported by ablation data.
+- The reported F1 scores are not accompanied by measures of variability or significance, making them unverifiable as stated.
+- The performance comparison between base and large models is described but not quantified in the provided text.

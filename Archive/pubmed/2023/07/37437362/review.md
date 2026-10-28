@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose BiCaps-DBP, a deep learning method combining bidirectional long short-term memory (Bi-LSTM) with a 1D-capsule network, for predicting DNA-binding proteins (DBPs) from primary sequences. They report accuracy improvements over an existing predictor on three independent test datasets (PDB2272, PDB186, PDB20000) of 1.05%, 5.79%, and 0.40%, respectively, and conclude the method is promising.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or dataset descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, model architecture details, hyperparameters, training procedures, dataset compositions and preprocessing steps, baseline predictor identity and configuration, statistical significance tests, and any comparison with additional state-of-the-art methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of established deep learning components to a well-recognized bioinformatics problem. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the performance claims, or the generalizability of the proposed method. The reported accuracy differences are small and lack statistical context. The contribution relative to existing literature is not clearly articulated.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein identification, and deep learning applications to biological sequence analysis. The topic has practical relevance for genome annotation and pharmaceutical research, so the results could interest a specialized but not broad interdisciplinary audience.
+- **Major strengths** The problem is well-motivated and practically important. The combination of Bi-LSTM with a 1D-capsule network is a reasonable architectural choice that may capture both sequential and hierarchical features. The use of three independent test datasets suggests an attempt to assess generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The proposed method improves DBP prediction performance by combining Bi-LSTM with a 1D-capsule network.
+  - **Evidence pointer** Abstract, "This study introduces BiCaps-DBP..." location not provided
+  - **Concern** The abstract provides no details on the model architecture, training procedure, hyperparameter selection, or how the Bi-LSTM and capsule components are integrated. Without this information, the technical soundness of the proposed method cannot be assessed.
+  - **Why it matters** Reproducibility and technical evaluation are fundamental to any computational method. The absence of architectural and training details prevents reviewers and readers from understanding what was actually implemented and whether the design choices are justified.
+  - **Resolution test** Provide a full methods section with architecture diagram, layer dimensions, activation functions, loss function, optimizer, learning rate, batch size, early stopping criteria, and code availability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** BiCaps-DBP achieved 1.05%, 5.79%, and 0.40% higher accuracies than an existing predictor for PDB2272, PDB186, and PDB20000, respectively.
+  - **Evidence pointer** Abstract, "Based on three independent datasets..." location not provided
+  - **Concern** The reported accuracy improvements are presented without any measure of variance, statistical significance, or confidence intervals. The identity of the "existing predictor" is not disclosed, and no comparison with other state-of-the-art methods is provided. The improvements, particularly 0.40% and 1.05%, may be within random variation.
+  - **Why it matters** Performance claims in computational biology require statistical rigor. Without significance testing and comparison against multiple baselines, the reported improvements cannot be distinguished from noise or from the choice of a weak comparator.
+  - **Resolution test** Report standard deviations or confidence intervals across multiple runs, perform statistical significance tests (e.g., paired tests), identify the baseline predictor explicitly, and include comparisons with at least two or three additional recent methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The study uses three training and independent datasets to evaluate the proposed model's generalizability and robustness.
+  - **Evidence pointer** Abstract, "This study uses three training and independent datasets..." location not provided
+  - **Concern** The abstract does not describe the composition, size, sequence similarity levels, or class balance of the datasets. It is unclear whether the training and test sets are properly separated to avoid redundancy, and whether the datasets represent diverse enough conditions to support claims of generalizability.
+  - **Why it matters** Dataset characteristics heavily influence model performance. If test sequences share high similarity with training sequences, reported accuracies may be inflated. Without dataset descriptions, the robustness claim is unsupported.
+  - **Resolution test** Provide detailed descriptions of each dataset, including sequence counts, positive-to-negative ratios, redundancy reduction procedures, and the relationship between training and test sets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, first two sentences, location not provided
+  - **Issue** The abstract states that DBPs are "essential in pharmaceutical research on various human cancers and autoimmune diseases" but does not explain how improved prediction would impact such research.
+  - **Required correction** Add one sentence clarifying the practical utility of DBP prediction in drug discovery or disease understanding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, "achieved 1.05%, 5.79% and 0.40% higher accuracies" location not provided
+  - **Issue** Only accuracy is reported. Other standard metrics such as sensitivity, specificity, Matthews correlation coefficient, and area under the ROC curve are not mentioned.
+  - **Required correction** Report additional performance metrics to provide a more complete evaluation, especially for imbalanced datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract, "an existing predictor" location not provided
+  - **Issue** The baseline predictor is not named, making it impossible to judge whether it is a strong or weak comparator.
+  - **Required correction** Name the baseline method and cite the corresponding publication.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (architecture and training details missing), R1-M2 (no statistical significance or baseline identification), R1-M3 (dataset descriptions absent)
+- **Assessment against Nature-style criteria** Originality: The combination of Bi-LSTM and 1D-capsule networks is not clearly novel, as both components are established; the abstract does not articulate a new conceptual insight. Scientific importance: The problem is important, but the abstract does not demonstrate a substantial advance over existing methods. Interdisciplinary readership: The topic is relevant to computational biology but the abstract is too technical and lacks context for a broad audience. Technical soundness: Cannot be assessed from the abstract due to missing methodological details. Readability for nonspecialists: The abstract is generally clear but assumes familiarity with deep learning terminology and does not explain the significance of the results in biological terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, statistical rigor, or comparative analysis to support the claims. A full manuscript with complete methods, dataset descriptions, and rigorous evaluation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that BiCaps-DBP "improves DBP prediction performance" is unsupported without statistical significance testing and comparison against multiple baselines.
+- The claim of "generalizability and robustness" is unsupported without dataset descriptions and evidence of independence between training and test sets.
+- The claim that the method is "promising" is a subjective assessment not backed by sufficient quantitative evidence in the abstract.
+- The identity and strength of the "existing predictor" used for comparison are not disclosed, making the relative improvement claims unverifiable.

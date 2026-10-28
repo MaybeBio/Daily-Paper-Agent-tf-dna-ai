@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report identification of 535 two-point and 185 three-point variant-variant-sex epistatic interactions involving transcription factor binding variants across 9 nuclear hormone receptors, among 768 UK Biobank traits, using Targeted Machine Learning and a Hotelling's T² test, with per-trait FDR below 0.05 and replication of nearly one third of two-point interactions.
+- **Visible evidence base** Abstract text only; no statistical details, replication criteria, or interaction effect sizes are provided
+- **Missing materials affecting confidence** Full methods, UK Biobank data processing details, variant selection criteria, FDR estimation procedure, replication definition and results, sensitivity analyses, and any validation against known epistatic loci
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to detecting epistasis by focusing on transcription factor binding variants, which is a biologically motivated strategy to reduce the multiple testing burden. However, the evidence provided is insufficient to evaluate the validity of the statistical framework, the robustness of the FDR control, or the biological plausibility of the claimed replication. The core claims are not established from the supplied material.
+- **Who would be interested in the results, and why** Genetic epidemiologists and statistical geneticists interested in epistasis detection methods; researchers studying nuclear hormone receptor biology and sex-biased genetic effects on complex traits; investigators using UK Biobank for gene-environment and gene-gene interaction studies.
+- **Major strengths** The biological targeting of transcription factor binding variants is a sensible and potentially powerful strategy to reduce the search space for epistasis. The inclusion of sex as a third interaction component addresses an understudied dimension of genetic architecture. The use of experimentally verified differential binding variants provides a mechanistic anchor that is often missing in purely statistical epistasis scans.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "Significance testing combined k allele-specific components into a Hotelling's T² test of Average Interaction Effect estimates at pairs/triples of loci (k ≤ 4 or k ≤ 8 for 2- or 3-point interactions, respectively)"
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not describe how the Hotelling's T² test accounts for linkage disequilibrium, population structure, or relatedness among UK Biobank participants. It is also unclear whether the allele-specific components are independent or correlated, and how the covariance matrix for the T² statistic was estimated. Without this information, the validity of the significance testing cannot be assessed.
+  - **Why it matters** Inflated test statistics due to unaccounted confounding or mis-specified covariance would lead to false positive interactions, undermining the FDR claim of less than 0.05 per trait.
+  - **Resolution test** Provide a detailed description of the covariance estimation, adjustment for confounders, and any simulation or calibration studies demonstrating type I error control under the null.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Replication validity
+  - **Claim pointer** "Nearly a third of 2-point interactions replicated, as they involved the same DNA-binding site and human trait but different trans-acting DNA variants"
+  - **Evidence pointer** Abstract, replication statement; location not provided
+  - **Concern** The replication definition is unusual. Replication typically requires the same variant pair to show a consistent interaction effect in an independent sample. Here, replication is claimed when the same DNA-binding site and trait are involved but the trans-acting variants differ. This is not a standard replication of a specific interaction, and it is unclear what statistical evidence supports this claim. The abstract does not state whether the replication sample was independent, how many interactions were tested for replication, or what threshold was used.
+  - **Why it matters** If replication is defined too loosely, the claim of replicability may be misleading and does not provide evidence for the robustness of specific epistatic signals.
+  - **Resolution test** Report the number of interactions tested for replication, the independence of the replication sample, the statistical criteria for replication, and the effect size consistency between discovery and replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Effect size and biological relevance
+  - **Claim pointer** "535 two-point DNA variant-variant and 185 three-point variant-variant-sex NHR interactions among 768 traits"
+  - **Evidence pointer** Abstract, results summary; location not provided
+  - **Concern** The abstract does not report the magnitude of the interaction effects, their direction, or the proportion of trait variance explained. Without effect sizes, it is impossible to judge whether these interactions are biologically meaningful or merely statistically detectable with very large sample sizes.
+  - **Why it matters** Epistatic effects in human complex traits are expected to be small, and the clinical or biological relevance of such effects is questionable if they explain negligible variance.
+  - **Resolution test** Provide effect size distributions, confidence intervals, and variance explained for representative interactions, and compare these to marginal effects at the same loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "differential binding variants"
+  - **Evidence pointer** Abstract, first sentence of methods description; location not provided
+  - **Issue** The abstract states that "experimentally verified differential binding variants" were used, but it is not clear whether these are variants that alter binding affinity in a specific cell type, across all tested conditions, or in response to ligand activation.
+  - **Required correction** Specify the experimental assay, cell type, and condition under which differential binding was verified, and state whether the same variant can act through multiple receptors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sex interaction component
+  - **Evidence pointer** Abstract, three-point interaction description; location not provided
+  - **Issue** The abstract mentions "three-point variant-variant-sex" interactions but does not describe how sex was coded, whether sex-specific effects were modeled as main effects or interactions, or whether sex chromosome variants were excluded.
+  - **Required correction** Clarify the sex variable coding, the inclusion of sex as a main effect, and any sensitivity analyses excluding sex chromosome loci.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Trait selection
+  - **Evidence pointer** Abstract, "768 traits in the UK Biobank"; location not provided
+  - **Issue** The abstract does not state how the 768 traits were selected, whether they include binary and continuous traits, or whether any traits were excluded due to low case numbers or non-normality.
+  - **Required correction** Describe the trait inclusion criteria and the distribution of trait types, and note any traits that were excluded post hoc.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the combination of transcription factor binding variants with Targeted Machine Learning for epistasis detection is not a standard approach. Scientific importance is potentially high if the interactions are robust and biologically meaningful, but the current evidence does not establish this. Interdisciplinary readership is plausible, given the intersection of statistical genetics, molecular biology, and clinical traits. Technical soundness cannot be assessed from the abstract alone, and the statistical details are insufficient. Readability for nonspecialists is adequate, though the abstract assumes familiarity with Hotelling's T² and FDR concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising, but the statistical validity, replication definition, and effect size reporting must be clarified before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim of FDR less than 0.05 per trait is unsupported without details on the FDR estimation procedure and correlation structure among tests.
+- The replication claim is unsupported because the replication definition is non-standard and the statistical evidence is not described.
+- The claim of "plausible molecular mechanisms of action" is not supported by any functional validation or mechanistic experiments in the abstract.
+- The generalizability of the findings beyond UK Biobank is not addressed and cannot be assessed.

@@ -1,0 +1,7 @@
+# Cefpiramide Restricts Mycobacterium
+tuberculosis Growth by Binding to the DNA-Binding
+Domain of an Essential Response Regulator, MtrA
+
+
+## Abstract
+  The rise in drug-resistant Mycobacterium tuberculosis (M.tb) necessitates new therapeutic strategies. Hypothesizing that a single compound targeting multiple M.tb proteins would make resistance less likely to evolve, we focused on identifying a single compound targeting multiple M.tb OmpR family two-component response regulators (RRs). We screened ∼8000 FDA-approved DrugBank compounds using computational tools (active-site prediction, receptor–ligand docking, and molecular dynamics simulations) to identify one compound acting on M.tb RRs: MtrA, PrrA, MprA, RegX3, and PhoP. Cefpiramide showed strong docking scores and favorable interactions with all five RRs. Experimental validations confirmed that cefpiramide binds MtrA and RegX3 with K b values of 109.69 ± 27.99 nM–1 and 113.49 ± 36.63 nM–1, respectively. Further, the disruption of transcription repressor function of MtrA is possibly by disruption of its DNA binding property, as mutant analysis indicated that cefpiramide targets the DNA-binding domain of MtrA. Cefpiramide inhibited M.tb H37Rv growth (MIC50 = 4 ± 2.38 μg/mL), warranting further investigation as a component of combinatorial tuberculosis therapy.

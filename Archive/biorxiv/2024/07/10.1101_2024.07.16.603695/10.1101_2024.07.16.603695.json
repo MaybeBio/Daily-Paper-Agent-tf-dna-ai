@@ -1,0 +1,382 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.16.603695",
+  "title": "Representing Transcription Factor Dimer Binding Sites Using Forked-Position Weight Matrices and Forked-Sequence Logos",
+  "doi": "10.1101/2024.07.16.603695",
+  "abstract": "Current position weight matrices and sequence logos may not be sufficient for accurately modeling transcription factor binding sites recognized by a mixture of homodimer and heterodimer complexes. To address this issue, we developed forkedTF , an R-library that allows the creation of Forked-Position Weight Matrices (FPWM) and Forked-Sequence Logos (F-Logos), which better capture the heterogeneity of TF binding affinities based on interactions and dimerization with other TFs. Furthermore, we have enhanced the standard PWM format by incorporating additional information on co-factor binding and DNA methylation. Precomputed FPWM and F-Logos are made available in the MethMotif 2024 database, thereby providing ready-to-use resources for analyzing TF binding dynamics. Finally, forkedTF is designed to support the TRANSFAC format, which is compatible with most third-party bioinformatics tools that utilize PWMs. The forkedTF R-library is open source and can be accessed on GitHub at https://github.com/benoukraflab/forkedTF .",
+  "authors": [
+    "Matthew Dyer",
+    "Roberto Tirado-Magallanes",
+    "Aida Ghayour-Khiavi",
+    "Xiao Xuan Lin Quy",
+    "Walter Santana",
+    "Hamid Usefi",
+    "Morgane Thomas-Chollier",
+    "Sudhakar Jha",
+    "Denis Thieffry",
+    "Touati Benoukraf"
+  ],
+  "published_date": "2024-07-19",
+  "updated_date": "2024-07-19T20:25:20Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603695",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603695.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:49:27Z",
+        "timestamp": 1768513767429,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 16,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Current position weight matrices and sequence logos may not be sufficient for accurately modeling transcription factor binding sites recognized by a mixture of homodimer and heterodimer complexes. To address this issue, we developed\n                  <jats:italic>forkedTF</jats:italic>\n                  , an R-library that allows the creation of Forked-Position Weight Matrices (FPWM) and Forked-Sequence Logos (F-Logos), which better capture the heterogeneity of TF binding affinities based on interactions and dimerization with other TFs. Furthermore, we have enhanced the standard PWM format by incorporating additional information on co-factor binding and DNA methylation. Precomputed FPWM and F-Logos are made available in the\n                  <jats:italic>MethMotif 2024</jats:italic>\n                  database, thereby providing ready-to-use resources for analyzing TF binding dynamics. Finally,\n                  <jats:italic>forkedTF</jats:italic>\n                  is designed to support the TRANSFAC format, which is compatible with most third-party bioinformatics tools that utilize PWMs. The\n                  <jats:italic>forkedTF</jats:italic>\n                  R-library is open source and can be accessed on GitHub at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/benoukraflab/forkedTF\">https://github.com/benoukraflab/forkedTF</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2024.07.16.603695",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ],
+        "date-time": "2024-07-19T20:25:20Z",
+        "timestamp": 1721420720000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Representing Transcription Factor Dimer Binding Sites Using Forked-Position Weight Matrices and Forked-Sequence Logos"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Matthew",
+          "family": "Dyer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Roberto",
+          "family": "Tirado-Magallanes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aida",
+          "family": "Ghayour-Khiavi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiao Xuan Lin",
+          "family": "Quy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Walter",
+          "family": "Santana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hamid",
+          "family": "Usefi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Morgane",
+          "family": "Thomas-Chollier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sudhakar",
+          "family": "Jha",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0271-1757",
+          "authenticated-orcid": false,
+          "given": "Denis",
+          "family": "Thieffry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4789-8028",
+          "authenticated-orcid": false,
+          "given": "Touati",
+          "family": "Benoukraf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1007/s10577-019-09619-9",
+          "article-title": "Genomic methods in profiling DNA accessibility and factor localization",
+          "volume": "28",
+          "year": "2020",
+          "journal-title": "Chromosome Res"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1088"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1005"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "D222",
+          "DOI": "10.1093/nar/gkad894",
+          "article-title": "MethMotif.Org 2024: a database integrating context-specific transcription factor-binding motifs with DNA methylation patterns",
+          "volume": "52",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw951"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003118"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr189"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "W670",
+          "DOI": "10.1093/nar/gkac312",
+          "article-title": "RSAT 2022: regulatory sequence analysis tools",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq710"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.8.1808"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18632/oncotarget.13562"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1043",
+          "DOI": "10.1016/j.omtn.2020.07.035",
+          "article-title": "Predicting Preference of Transcription Factors for Methylated DNA Using Sequence Information",
+          "volume": "22",
+          "year": "2020",
+          "journal-title": "Mol. Ther. Nucleic Acids"
+        },
+        {
+          "key": "2024072300400640000_2024.07.16.603695v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "317",
+          "DOI": "10.1186/s12859-022-04865-x",
+          "article-title": "SEMplMe: a tool for integrating DNA methylation effects in transcription factor binding affinity predictions",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "BMC Bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.16.603695",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:44:19Z",
+        "timestamp": 1768459459000
+      },
+      "score": 86.51877,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.16.603695"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "references-count": 16,
+      "URL": "https://doi.org/10.1101/2024.07.16.603695",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

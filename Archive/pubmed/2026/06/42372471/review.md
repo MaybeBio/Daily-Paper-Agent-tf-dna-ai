@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors analyze single-cell RNA-seq data from 42,535 colorectal cancer cells to characterize EMT states, stemness, and copy number variations. They identify 3,421 hybrid EMT-state cells with high stemness, use AI/ML models to prioritize transcription factors, and nominate RUNX1 as a druggable target. They perform virtual screening of 460,160 compounds and molecular dynamics simulations of 500 ns, identifying Z3687059578 and Z3133469179 as stable binders, with Z3133469179 proposed as a promising inhibitor.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical measures, validation data, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, validation datasets, and any statistical or computational details
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious integrative pipeline combining single-cell transcriptomics, machine learning, and computational drug screening. The conceptual framework is timely and potentially valuable. However, the abstract alone provides insufficient evidence to assess the validity of the core claims. Several logical gaps and unsupported assertions are apparent, particularly regarding the causal role of RUNX1, the specificity of the proposed inhibitors, and the claimed superiority of the integrative approach. The work may be of interest to the computational oncology community, but the case for RUNX1 as a therapeutic vulnerability is not established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on single-cell analysis and drug discovery pipelines would find the methodological integration of interest. Cancer biologists studying EMT and transcription factor dependencies in colorectal cancer may also be interested, provided the experimental validation is convincing. Researchers in precision oncology seeking novel druggable targets could find the framework relevant.
+- **Major strengths** The integration of multiple computational approaches (scRNA-seq, CytoTRACE2, GSVA, deep learning, GENIE3, PPI analysis, virtual screening, and molecular dynamics) is comprehensive and reflects a modern systems-level strategy. The focus on hybrid EMT states with high stemness is biologically meaningful, as these cells are often associated with therapy resistance and metastasis. The explicit consideration of druggability, including survival association and structural screening, is a practical strength that goes beyond typical transcriptomic target nomination.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal claim unsupported  
+  - **Claim pointer** "RUNX1 as a therapeutic vulnerability in colorectal cancer" and "RUNX1 as a novel druggable TF in EMT-driven CC"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract establishes correlative associations (differential expression, network centrality, survival association) but provides no functional evidence that RUNX1 drives EMT or tumor progression. No knockdown, overexpression, or pharmacological inhibition experiments in cell lines or animal models are described. The term "therapeutic vulnerability" implies a dependency that cannot be established from computational analysis alone.  
+  - **Why it matters** A therapeutic vulnerability requires demonstration that tumor cell survival or proliferation depends on the target. Without functional validation, the central claim of the paper is overreaching and could mislead readers into assuming a causal role that has not been tested.  
+  - **Resolution test** Provide experimental data showing that RUNX1 inhibition reduces cell viability, migration, or invasion in CC models, or that RUNX1 knockdown phenocopies the effects of the proposed inhibitors. Alternatively, rephrase the claim to "computationally predicted target" rather than "therapeutic vulnerability."
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Inhibitor specificity and efficacy unvalidated  
+  - **Claim pointer** "Z3133469179 emerging as a particularly promising inhibitor" and "propose the identified small molecule for further preclinical validation"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports virtual screening and 500 ns molecular dynamics simulations but provides no binding affinity values, no comparison with known RUNX1 inhibitors, no selectivity data against other transcription factors, and no cellular or biochemical activity assays. The claim that a compound is a "promising inhibitor" based solely on computational docking and simulation is premature.  
+  - **Why it matters** Virtual screening is known to produce high false-positive rates. Without experimental validation of binding and functional inhibition, the proposed compound cannot be considered a credible lead. The abstract does not even report quantitative metrics such as docking scores or binding free energies.  
+  - **Resolution test** Provide experimental binding data (e.g., surface plasmon resonance, isothermal titration calorimetry) and functional assays showing that Z3133469179 inhibits RUNX1 transcriptional activity or reduces CC cell viability. At minimum, report docking scores and binding free energies with appropriate controls.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Comparative claim lacks evidence  
+  - **Claim pointer** "Compared with conventional transcriptomic target-discovery approaches, our integrative single-cell and AI-guided framework simultaneously captures tumor heterogeneity, enabling more comprehensive therapeutic target prioritization"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts superiority over conventional approaches without presenting any comparative analysis. No benchmark against existing methods, no head-to-head comparison, and no quantitative metrics of performance (e.g., precision, recall, or validation rate) are provided.  
+  - **Why it matters** Claims of methodological superiority require direct comparison with established approaches. Without such evidence, the statement is an assertion rather than a demonstrated finding.  
+  - **Resolution test** Include a comparative analysis with standard differential expression or WGCNA-based approaches, showing improved target prioritization accuracy or validation rate. Alternatively, soften the claim to describe the framework as "complementary" rather than "more comprehensive."
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Reporting clarity  
+  - **Affected element** Compound library size  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states "4,60,160 compounds" which uses an unconventional comma placement. This is likely a typographical error for 460,160.  
+  - **Required correction** Correct the number formatting to "460,160" for clarity and consistency with standard scientific notation.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Methodological transparency  
+  - **Affected element** scRNA-seq data source  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the origin of the scRNA-seq data (e.g., patient samples, cell lines, public dataset). This information is essential for assessing data quality and generalizability.  
+  - **Required correction** State the data source, including whether it is from a public repository (e.g., GEO) or newly generated, and describe the sample characteristics.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Differential expression and survival analysis  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract reports numbers of differentially expressed genes and transcription factors but provides no statistical thresholds (e.g., adjusted p-value, fold change) or survival analysis metrics (e.g., hazard ratio, p-value).  
+  - **Required correction** Include key statistical parameters for the main analyses to allow readers to assess the robustness of the findings.
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology precision  
+  - **Affected element** "Hybrid EMT-state cells"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "hybrid EMT-state" is used without a clear operational definition. It is unclear whether this refers to cells co-expressing epithelial and mesenchymal markers, a specific computational classification, or a continuous score threshold.  
+  - **Required correction** Define the criteria used to classify cells as hybrid EMT-state, including the specific markers or scoring method employed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal claim unsupported), R1-M2 (inhibitor specificity and efficacy unvalidated), R1-M3 (comparative claim lacks evidence)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The integration of single-cell analysis, deep learning, and virtual screening in a single pipeline is moderately original, though each component is individually established. The specific focus on RUNX1 in EMT-driven CC is not novel per se, as RUNX1 has been studied in other cancer contexts.  
+  - **Scientific importance** The potential clinical relevance of identifying druggable targets in EMT-high CC cells is significant, but the importance is contingent on experimental validation that is not presented.  
+  - **Interdisciplinary readership** The work bridges computational biology, cancer biology, and drug discovery, which could appeal to a broad audience. However, the abstract assumes familiarity with multiple specialized methods, which may limit accessibility.  
+  - **Technical soundness** The computational workflow appears logically structured, but the abstract provides no details on data preprocessing, quality control, model validation, or simulation parameters. Technical soundness cannot be assessed from the provided material.  
+  - **Readability for nonspecialists** The abstract is dense with method names and numbers, making it difficult for nonspecialists to follow the logical flow. Key concepts such as "hybrid EMT-state" and "scVAEDer" are introduced without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting computational pipeline, but the central claims of therapeutic vulnerability and promising inhibitor are unsupported without experimental validation. The authors should either provide functional data or substantially temper their conclusions. A revised abstract with clearer statistical reporting and explicit acknowledgment of the computational-only nature of the findings would be a minimum requirement for reconsideration.
+
+## Risk / unsupported claims
+- "RUNX1 as a therapeutic vulnerability" is unsupported; no functional dependency data are provided.
+- "Z3133469179 emerging as a particularly promising inhibitor" is unsupported; no experimental binding or activity data are provided.
+- "More comprehensive therapeutic target prioritization" compared to conventional approaches is unsupported; no comparative analysis is presented.
+- The claim that "RUNX1 emerged as the superior druggable target due to SOX4's poor survival association" is not assessable; no survival analysis statistics are reported.
+- The identification of "3,421 hybrid EMT-state cells" and the numbers of differentially expressed genes and transcription factors are not assessable without statistical thresholds and validation details.

@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "37506477",
+    "doi": "10.1016/j.ejrad.2023.111003",
+    "title": "Evaluation of breast cancer malignancy, prognostic factors and molecular subtypes using a continuous-time random-walk MR diffusion model."
+  },
+  "content": {
+    "abstract": "PURPOSE: To assess the continuous-time random-walk (CTRW) model's diagnostic value in breast lesions and to explore the associations between the CTRW parameters and breast cancer pathologic factors. METHOD: This retrospective study included 85 patients (70 malignant and 18 benign lesions) who underwent 3.0T MRI examinations. Diffusion-weighted images (DWI) were acquired with 16b-values to fit the CTRW model. Three parameters (D(m), alpha, and beta) derived from CTRW and apparent diffusion coefficient (ADC) from DWI were compared among the benign/malignant lesions, molecular prognostic factors, and molecular subtypes by Mann-Whitney U test. Spearman correlation was used to evaluate the associations between the parameters and prognostic factors. The diagnostic performance was assessed by the area under the receiver operating characteristic curve (AUC) based on the diffusion parameters. RESULTS: All parameters, ADC, D(m), alpha, and beta were significantly lower in the malignant than benign lesions (P < 0.05). The combination of all the CTRW parameters (D(m), alpha, and beta) provided the highest AUC (0.833) and the best sensitivity (94.3%) in differentiating malignant status. And the positive status of estrogen receptor (ER) and progesterone receptor (PR) showed significantly lower beta compared with the negative counterparts (P < 0.05). The high Ki-67 expression produced significantly lower D(m) and ADC values (P < 0.05). Additionally, combining multiple CTRW parameters improved the performance of diagnosing molecular subtypes of breast cancer. Moreover, Spearman correlations analysis showed that beta produced significant correlations with ER, PR and Ki-67 expression (P < 0.05). CONCLUSIONS: The CTRW parameters could be used as non-invasive quantitative imaging markers to evaluate breast lesions.",
+    "keywords": [
+      "Breast cancer",
+      "Continuous-time random-walk",
+      "Diffusion magnetic resonance imaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/diagnostic imaging/pathology",
+      "Prognosis",
+      "Retrospective Studies",
+      "Ki-67 Antigen",
+      "Sensitivity and Specificity",
+      "Image Interpretation, Computer-Assisted/methods",
+      "Reproducibility of Results",
+      "Magnetic Resonance Imaging",
+      "Diffusion Magnetic Resonance Imaging/methods",
+      "Receptors, Estrogen",
+      "Breast/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Huan",
+        "Wang, Dawei",
+        "Li, Yuting",
+        "Xiang, Shaoxin",
+        "Yang, Yu Xin",
+        "Kong, Peng",
+        "Fang, Caiyun",
+        "Ming, Lei",
+        "Wang, Xiangqing",
+        "Zhang, Chuanyi",
+        "Jia, Wenjing",
+        "Yan, Qingqing",
+        "Liu, Xinhui",
+        "Zeng, Qingshi"
+      ],
+      "short_names": [
+        "Chang H",
+        "Wang D",
+        "Li Y",
+        "Xiang S",
+        "Yang YX",
+        "Kong P",
+        "Fang C",
+        "Ming L",
+        "Wang X",
+        "Zhang C",
+        "Jia W",
+        "Yan Q",
+        "Liu X",
+        "Zeng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Shandong Provincial Qianfoshan Hospital, Shandong University, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China.",
+        "Department of Radiology, The First College of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "MR Collaboration, United Imaging Research Institute of Intelligent Imaging, Beijing, China.",
+        "MR Collaboration, United Imaging Research Institute of Intelligent Imaging, Beijing, China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China.",
+        "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China. Electronic address: zengqingshi@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Huan",
+        "short_name": "Chang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Shandong Provincial Qianfoshan Hospital, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dawei",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuting",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First College of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Shaoxin",
+        "short_name": "Xiang S",
+        "identifiers": [],
+        "affiliations": [
+          "MR Collaboration, United Imaging Research Institute of Intelligent Imaging, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yu Xin",
+        "short_name": "Yang YX",
+        "identifiers": [],
+        "affiliations": [
+          "MR Collaboration, United Imaging Research Institute of Intelligent Imaging, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Peng",
+        "short_name": "Kong P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Caiyun",
+        "short_name": "Fang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Ming, Lei",
+        "short_name": "Ming L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiangqing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chuanyi",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Wenjing",
+        "short_name": "Jia W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Qingqing",
+        "short_name": "Yan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinhui",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Qingshi",
+        "short_name": "Zeng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China. Electronic address: zengqingshi@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of radiology"
+    ],
+    "journal_abbrev": [
+      "Eur J Radiol"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 06:41",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [
+      "42682456",
+      "42316062",
+      "42240643",
+      "41613558",
+      "41606519",
+      "41484857",
+      "41462129",
+      "41081881",
+      "40809035",
+      "40727362",
+      "40596898",
+      "40358858",
+      "40214515",
+      "40134597",
+      "39839005",
+      "39394171",
+      "39211555",
+      "39075336",
+      "38942456",
+      "38866951",
+      "38854720"
+    ],
+    "refs": [],
+    "similar": [
+      "37506477",
+      "36912198",
+      "36251468",
+      "37344324",
+      "30811717",
+      "36205354",
+      "38854720",
+      "30260589",
+      "38307375",
+      "28139036",
+      "29095673",
+      "31425816",
+      "24034833",
+      "29717790",
+      "26519663",
+      "36577184",
+      "38744701",
+      "29165847",
+      "25919239",
+      "26343918",
+      "37864025",
+      "27501902",
+      "24907855",
+      "31307642",
+      "34792837",
+      "34749223",
+      "34258262",
+      "29070476",
+      "27553252",
+      "24273096",
+      "27761401",
+      "24099642",
+      "39075336",
+      "25564776",
+      "33543512",
+      "39394171",
+      "30238533",
+      "36808921",
+      "32157892",
+      "34740800",
+      "25914178",
+      "27313102",
+      "38577177",
+      "29369183",
+      "25889380",
+      "36739225",
+      "37672055",
+      "26494124",
+      "35259708",
+      "26663655",
+      "21187691",
+      "34134856",
+      "20432344",
+      "30946181",
+      "30255258",
+      "22358015",
+      "38616751",
+      "29044896",
+      "30919518",
+      "26458106",
+      "36738118",
+      "20574085",
+      "31112086",
+      "27853053",
+      "22411304",
+      "23857151",
+      "23192501",
+      "28107084",
+      "33201788",
+      "28640538",
+      "24837698",
+      "27859961",
+      "31484577",
+      "26071495",
+      "31323316",
+      "25203132",
+      "27332719",
+      "36631781",
+      "27130054",
+      "24706105",
+      "22527371",
+      "24665089",
+      "28358833",
+      "22128125",
+      "27718592",
+      "39276193",
+      "29295753",
+      "26091745",
+      "35174093",
+      "30360604",
+      "28390558",
+      "37188173",
+      "34888990",
+      "32716710",
+      "25247945",
+      "33956041",
+      "26890904",
+      "38052920",
+      "30328211",
+      "27284961",
+      "30119158",
+      "22143926",
+      "25867657",
+      "31690273",
+      "24834475",
+      "31452808",
+      "34134527",
+      "31385429",
+      "39211555",
+      "38941821",
+      "38942456",
+      "37956960",
+      "39429562",
+      "38159522",
+      "36746720",
+      "38611660",
+      "37897958",
+      "23378670"
+    ],
+    "review": [
+      "37506477",
+      "38942456"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0720-048X(23)00317-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0720-048X(23)00317-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

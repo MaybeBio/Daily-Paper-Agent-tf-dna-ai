@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors combine epigenetic perturbations, base editing, and deep learning to dissect a ~170 base pair upstream enhancer regulating CD69 induction in stimulated Jurkat T cells. They identify individual cytosine to thymine base edits that reduce element accessibility, acetylation, and CD69 expression, with the most potent edits attributed to altered binding competition between GATA3 and BHLHE40. They further propose a general role for GATA and bHLH/Ebox motif interplay in rapid T cell transcriptional responses.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, model architectures, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, model training and evaluation details, and any statistical or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrative framework for dissecting regulatory elements at base resolution, combining complementary approaches in a disease-relevant immune locus. However, the claims as stated are broad and the evidence base is entirely inaccessible from the abstract alone. The central mechanistic conclusion regarding GATA3 and BHLHE40 competition rests on a limited set of base edits, and the generalization to a "general role" in T cell responses is not supported by the visible evidence. The work may be of interest to the gene regulation and immunology communities, but the current abstract does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, CRISPR base editing, and computational genomics would be interested in the methodological framework. Immunologists studying T cell activation and transcriptional control, particularly those focused on CD69 or immediate early genes, would find the mechanistic findings relevant. The deep learning component may attract those interested in predictive models of regulatory element function.
+- **Major strengths** The combination of three orthogonal approaches (epigenetic perturbations, base editing, deep learning) is a strong design that can provide convergent evidence. The focus on endogenous chromatin context is a meaningful advance over reporter-based assays. The identification of specific base edits with functional consequences offers a path toward mechanistic interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the complementary strategies converge on a ~170 base interval as critical for CD69 induction" and that individual base edits "markedly reduce element accessibility and acetylation, with corresponding reduction of CD69 expression."
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract does not provide any quantitative data, effect sizes, replicate numbers, or statistical significance for the claimed convergence or the effects of base edits. Without these details, it is impossible to assess whether the convergence is robust or whether the observed reductions are biologically meaningful.
+  - **Why it matters** The core claim of the paper is that base-level resolution is achieved and that specific edits have functional consequences. If the effects are small, variable, or not statistically robust, the central premise collapses.
+  - **Resolution test** Provide effect sizes, confidence intervals, replicate counts, and statistical tests for the base edit phenotypes and for the convergence of the three methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract states that "the most potent base edits may be explained by their effect on binding competition between the transcriptional activator GATA3 and the repressor BHLHE40."
+  - **Evidence pointer** Abstract only; no experimental or computational support provided
+  - **Concern** The mechanistic attribution to GATA3 and BHLHE40 competition is presented as a likely explanation, but no direct evidence is shown. It is unclear whether the authors performed binding assays, knockdown or overexpression experiments, or mutagenesis of the predicted motifs to test causality.
+  - **Why it matters** Without direct perturbation of GATA3 or BHLHE40, the claim that altered binding competition explains the base edit effects remains correlative. The abstract does not establish that these factors actually bind the enhancer in the relevant cellular state.
+  - **Resolution test** Show direct evidence of GATA3 and BHLHE40 binding at the enhancer, and demonstrate that their manipulation phenocopies or rescues the base edit effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that "systematic analysis of GATA and bHLH/Ebox motifs suggests that interplay between these factors plays a general role in rapid T cell transcriptional responses."
+  - **Evidence pointer** Abstract only; no systematic analysis described
+  - **Concern** The generalization from a single locus (CD69) to a "general role" in rapid T cell transcriptional responses is a substantial leap. The abstract does not describe the scope of the systematic analysis, the number of loci examined, or whether any validation was performed at additional loci.
+  - **Why it matters** The broad claim extends beyond the exemplar locus and, if unsupported, could mislead the field. The abstract does not provide evidence that the GATA3 and BHLHE40 interplay is a widespread mechanism.
+  - **Resolution test** Describe the systematic analysis in detail, including the number of loci, the criteria for defining "general," and provide validation at multiple independent loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, Summary section
+  - **Issue** The phrase "operative artificial variants" is vague and not defined in the abstract.
+  - **Required correction** Define what constitutes an "operative artificial variant" and clarify the intended meaning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Deep learning model description
+  - **Evidence pointer** Abstract, Summary section
+  - **Issue** The abstract mentions deep learning models but provides no information on model type, training data, or validation.
+  - **Required correction** Briefly describe the model architecture and how it was validated in the abstract or indicate where this is detailed in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** CD69 relevance
+  - **Evidence pointer** Abstract, Summary section
+  - **Issue** The abstract does not explain why CD69 is a relevant exemplar locus beyond being an immune gene.
+  - **Required correction** Add one sentence on the biological or disease relevance of CD69 to justify the choice of locus.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence, direct mechanistic support, or generalizability data to establish the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of base editing and deep learning for base-resolution dissection is a novel approach, though the abstract does not fully distinguish it from prior work.  
+  - Scientific importance: The potential to parse regulatory elements at base resolution in endogenous chromatin is important, but the significance is not fully demonstrated from the abstract alone.  
+  - Interdisciplinary readership: The work bridges genomics, immunology, and computational biology, which could attract a broad audience.  
+  - Technical soundness: Cannot be assessed from the abstract; no methodological details or validation data are visible.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "bHLH/Ebox motifs") without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the claims require substantial additional evidence to be convincing. I would be supportive if the full manuscript provides the missing quantitative data, mechanistic validation, and generalizability analysis.
+
+## Risk / unsupported claims
+- The claim that the three strategies "converge" on a ~170 base interval is unsupported without quantitative comparison data.
+- The claim that individual base edits "markedly reduce" accessibility, acetylation, and expression is unsupported without effect sizes and statistics.
+- The mechanistic claim regarding GATA3 and BHLHE40 competition is unsupported without direct binding or perturbation evidence.
+- The claim of a "general role" for GATA and bHLH/Ebox interplay in rapid T cell responses is unsupported and not assessable from the abstract.
+- The deep learning component is mentioned but entirely uncharacterized, making any related claims unassessable.

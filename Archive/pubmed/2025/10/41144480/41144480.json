@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "41144480",
+    "doi": "10.1371/journal.pone.0334688",
+    "title": "Weighted gene co-expression network analysis identifies functional modules related to bovine respiratory disease."
+  },
+  "content": {
+    "abstract": "Bovine respiratory disease (BRD) is a multifactorial disease of dairy and beef cattle that involves complex interactions with the host immune system. In the current study, a comprehensive meta-analysis was performed using a P-value combination approach. In the next step, the identified meta-genes were subjected to systems biology analysis using the weighted gene co-expression network analysis (WGCNA) method. Subsequently, the most functionally important modules and genes were validated using machine learning algorithms. Finally, the critical regulatory network associated with BRD was constructed. A total of 1,908 common meta-genes were identified through the combined analysis of differentially expressed genes (DEGs) using the Fisher and Invorm approaches. Co-expression network analysis confirmed six functional modules, among which the connectivity patterns of the blue, brown, green, and yellow modules were significantly altered in BRD-affected cattle compared with healthy controls. Functional enrichment analysis of the significant modules revealed that the 'Salmonella infection,' 'NOD-like receptor signaling pathway,' 'Necroptosis,' 'Toll-like receptor signaling pathway,' 'TNF signaling pathway,' 'IL-17 signaling pathway,' 'Apoptosis,' and 'Influenza A' pathways were the most significantly associated with BRD. The constructed regulatory network identified GABPA, TCF4, ELK1, NR2C2, and ARNT as key transcription factors (TFs), each playing a central role in regulating immune and inflammatory pathways implicated in BRD. Finally, the constructed model revealed that differential expression of the CFB gene is significantly associated with susceptibility to BRD. In cattle, CFB expression correlates with clinical signs of respiratory disease, supporting its potential as a biomarker. Moreover, the involvement of CFB in modulating pro-inflammatory cytokines (e.g., TNF) and its integration with other immune-related pathways (e.g., NF-kappaB signaling) further highlight its relevance as a biomarker. Overall, this integrative approach enhances our understanding of the molecular mechanisms underlying BRD and provides a foundation for developing diagnostic, therapeutic, and genetic selection strategies to improve cattle health and disease resistance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "*Gene Regulatory Networks",
+      "*Bovine Respiratory Disease Complex/genetics",
+      "Gene Expression Profiling",
+      "*Cattle Diseases/genetics",
+      "Systems Biology",
+      "Gene Expression Regulation",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghahramani, Nooshin",
+        "Hashemi, Ali",
+        "Panahi, Bahman"
+      ],
+      "short_names": [
+        "Ghahramani N",
+        "Hashemi A",
+        "Panahi B"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-3740-2996"
+      ],
+      "affiliations": [
+        "Department of Animal Science, Division of Animal Breeding and Genetics, Faculty of Agriculture, Urmia University, Urmia, Iran.",
+        "Department of Animal Science, Division of Animal Breeding and Genetics, Faculty of Agriculture, Urmia University, Urmia, Iran.",
+        "Department of Genomics, Northwest and West Branch, Agricultural Biotechnology Research Institute of Iran (ABRII), Agricultural Research, Education and Extension Organization (AREEO), Tabriz, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghahramani, Nooshin",
+        "short_name": "Ghahramani N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Science, Division of Animal Breeding and Genetics, Faculty of Agriculture, Urmia University, Urmia, Iran."
+        ]
+      },
+      {
+        "full_name": "Hashemi, Ali",
+        "short_name": "Hashemi A",
+        "identifiers": [
+          "0009-0006-3740-2996"
+        ],
+        "affiliations": [
+          "Department of Animal Science, Division of Animal Breeding and Genetics, Faculty of Agriculture, Urmia University, Urmia, Iran."
+        ]
+      },
+      {
+        "full_name": "Panahi, Bahman",
+        "short_name": "Panahi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genomics, Northwest and West Branch, Agricultural Biotechnology Research Institute of Iran (ABRII), Agricultural Research, Education and Extension Organization (AREEO), Tabriz, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/27 18:25",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [
+      "42197674"
+    ],
+    "refs": [
+      "40308770",
+      "40240358",
+      "40110435",
+      "39979427",
+      "39599867",
+      "39442823",
+      "39172989",
+      "38732144",
+      "38649840",
+      "37982437",
+      "37673576",
+      "36873940",
+      "36685920",
+      "36579334",
+      "35571056",
+      "35342354",
+      "35327392",
+      "34824337",
+      "34733317",
+      "34321318",
+      "34127774",
+      "33931718",
+      "33763112",
+      "33611312",
+      "33452393",
+      "33428592",
+      "33276803",
+      "33116641",
+      "33052230",
+      "32677123",
+      "32650099",
+      "32327252",
+      "32081117",
+      "31611566",
+      "31602652",
+      "31421890",
+      "31341269",
+      "31276055",
+      "31258753",
+      "30918994",
+      "30900418",
+      "30050559",
+      "29981701",
+      "29742137",
+      "29272447",
+      "29224803",
+      "29206855",
+      "29072702",
+      "28403906",
+      "28298903",
+      "27283888",
+      "26343745",
+      "25516281",
+      "25242142",
+      "24901321",
+      "24753418",
+      "24678608",
+      "23399697",
+      "23377018",
+      "23293024",
+      "21906105",
+      "21487488",
+      "20424185",
+      "20003649",
+      "19207020",
+      "19114008",
+      "17478515",
+      "14757430",
+      "12208105",
+      "11731265",
+      "8872474",
+      "8596958"
+    ],
+    "similar": [
+      "41144480",
+      "36327246",
+      "34733317",
+      "31929561",
+      "40110435",
+      "34824337",
+      "29301495",
+      "34975885",
+      "39346910",
+      "33901263",
+      "32650099",
+      "40507856",
+      "34508138",
+      "35197051",
+      "40117286",
+      "26121276",
+      "30229962",
+      "34691146",
+      "33261714",
+      "41120603",
+      "36532492",
+      "40315186",
+      "40362669",
+      "34215202",
+      "39363014",
+      "36579334",
+      "34902025",
+      "38732144",
+      "15890802",
+      "34338989",
+      "34856750",
+      "34903778",
+      "41100191",
+      "40250618",
+      "25740998",
+      "40977739",
+      "39172989",
+      "40725399",
+      "30630417",
+      "36068558",
+      "36316672",
+      "40467768",
+      "29415651",
+      "25384903",
+      "40901831",
+      "28718798",
+      "27808386",
+      "31696966",
+      "39143403",
+      "33099311",
+      "41029776",
+      "33407093",
+      "32959187",
+      "40216809",
+      "37740761",
+      "39541407",
+      "41052072",
+      "40574839",
+      "36999220",
+      "40313958",
+      "32200436",
+      "27482664",
+      "32408659",
+      "33504890",
+      "39919380",
+      "30558534",
+      "34409086",
+      "34861820",
+      "40588645",
+      "34663380",
+      "30592156",
+      "37291036",
+      "41013556",
+      "41189222",
+      "34919697",
+      "40406126",
+      "35091780",
+      "37605574",
+      "40522106",
+      "38755717",
+      "37410397",
+      "40093413",
+      "19966153",
+      "34937196",
+      "40055592",
+      "37875354",
+      "36193198",
+      "33741167",
+      "38659364",
+      "40629026",
+      "40967560",
+      "33010670",
+      "31118011",
+      "40328901",
+      "40421012",
+      "35351103",
+      "37620551",
+      "39072329",
+      "31444198",
+      "38790195"
+    ],
+    "review": [
+      "41144480",
+      "36068558",
+      "40467768",
+      "36999220",
+      "33504890",
+      "39919380"
+    ],
+    "pmc": [
+      "12558457"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0334688",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41144480/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1112",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

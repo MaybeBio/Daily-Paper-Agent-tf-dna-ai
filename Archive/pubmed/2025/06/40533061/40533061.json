@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "40533061",
+    "doi": "10.1016/j.jbc.2025.110368",
+    "title": "A kinetic model of copper homeostasis in Saccharomyces cerevisiae."
+  },
+  "content": {
+    "abstract": "Rather than inhibiting copper entry when grown on high Cu, yeast cells import excessive Cu while simultaneously increasing expression of metallothionein CUP1 which then sequesters excess Cu. An ordinary-differential-equations-based kinetic model was developed to investigate this unusual behavior. The assumed reaction network included 25 reactions and 10 components in the cytosol of yeast cells growing in media supplemented with a series of increasing nutrient COPPER concentrations. Published concentrations of copper proteins and coordination complexes that constitutes the low-molecular-mass (or labile) Cu pool were assumed. Other components included transcription factors MAC1 and ACE1, the MAC1-dependent copper importer CTR1, and other copper proteins considered collectively. A second MAC1-independent importer was required for sufficient Cu to enter the cell under Cu-excess conditions. The mathematical system was initially solved at steady state for each condition in the series. The null-space of the stoichiometric matrix was evaluated using the basic pathways approach. Steady-state rates and rate-constants were calculated for each reaction and each condition of the series. Twenty-one rate-constants remained relatively constant across the series, while 4 trended higher, indicating that cells regulate those latter reactions in ways that were not included in their assumed rate-law expressions. This behavior was simulated by augmenting those expressions with logistical functions that sensed labile Cu and/or nutrient COPPER. The resulting integrated dynamical system approximately generated observed component concentrations over the series and was stable to both intracellular and extracellular perturbations. The MAC1-independent importer is predicted to be FET4, a nonspecific importer of both Cu and Fe. Cells may tolerate excessive Cu import to import sufficient iron.",
+    "keywords": [
+      "FET4",
+      "basic pathways",
+      "computational systems biology",
+      "in silico cell models",
+      "labile metal pools",
+      "mathematical modeling",
+      "simulation",
+      "\"free\" copper"
+    ],
+    "mesh_terms": [
+      "*Copper/metabolism",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "Kinetics",
+      "*Homeostasis/physiology",
+      "Saccharomyces cerevisiae Proteins/metabolism/genetics",
+      "*Models, Biological",
+      "Metallothionein/metabolism/genetics",
+      "Cation Transport Proteins/metabolism/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Copper Transporter 1",
+      "Nuclear Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dulaney, Cade",
+        "Walton, Jay R",
+        "Lindahl, Paul A"
+      ],
+      "short_names": [
+        "Dulaney C",
+        "Walton JR",
+        "Lindahl PA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematics, Texas A & M University, College Station, Texas, USA.",
+        "Department of Mathematics, Texas A & M University, College Station, Texas, USA.",
+        "Department of Chemistry, Texas A & M University, College Station, Texas, USA; Department of Biochemistry and Biophysics, Texas A & M University, College Station, Texas, USA. Electronic address: lindahl@chem.tamu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dulaney, Cade",
+        "short_name": "Dulaney C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Texas A & M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Walton, Jay R",
+        "short_name": "Walton JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Texas A & M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Lindahl, Paul A",
+        "short_name": "Lindahl PA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Texas A & M University, College Station, Texas, USA; Department of Biochemistry and Biophysics, Texas A & M University, College Station, Texas, USA. Electronic address: lindahl@chem.tamu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/19 00:25",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38161422",
+      "38113197",
+      "37944620",
+      "36214417",
+      "33128172",
+      "32996528",
+      "32979421",
+      "29361465",
+      "29228768",
+      "28886682",
+      "28870773",
+      "27989128",
+      "25692243",
+      "23253189",
+      "22047049",
+      "21444780",
+      "21180717",
+      "20536189",
+      "20205585",
+      "19542232",
+      "17922568",
+      "16061820",
+      "15952898",
+      "15012137",
+      "12748182",
+      "12603727",
+      "12009910",
+      "11523804",
+      "11395420",
+      "11023834",
+      "10221913",
+      "9211922",
+      "8756349",
+      "8371122",
+      "8371121",
+      "8262047",
+      "2651899",
+      "2564391",
+      "2188974"
+    ],
+    "similar": [
+      "40533061",
+      "30689022",
+      "33257505",
+      "8262047",
+      "10922376",
+      "9599102",
+      "37944620",
+      "9211922",
+      "30131336",
+      "7929270",
+      "36456733",
+      "15012137",
+      "38113197",
+      "22304436",
+      "16278453",
+      "9308366",
+      "38709348",
+      "30791941",
+      "8702498",
+      "22365074",
+      "15501826",
+      "17163970",
+      "36503220",
+      "21180717",
+      "19088072",
+      "18977757",
+      "22683637",
+      "14993228",
+      "28869270",
+      "9736617",
+      "19749072",
+      "23576094",
+      "9161010",
+      "25423296",
+      "24056782",
+      "7814363",
+      "30760525",
+      "2188974",
+      "9726991",
+      "12051835",
+      "10480908",
+      "8668123",
+      "9726978",
+      "41387689",
+      "3043194",
+      "11023834",
+      "26063801",
+      "30959888",
+      "31784768",
+      "41372682",
+      "29089435",
+      "28515264",
+      "9159110",
+      "7969120",
+      "22445756",
+      "10506178",
+      "21163943",
+      "2664778",
+      "7929222",
+      "20670216",
+      "28215034",
+      "30485136",
+      "12777486",
+      "26306041",
+      "22387373",
+      "24703712",
+      "29477856",
+      "11707276",
+      "15239669",
+      "28803907",
+      "8509391",
+      "33128172",
+      "23835944",
+      "17553781",
+      "9430656",
+      "31896574",
+      "2674688",
+      "2682650",
+      "29604179",
+      "15256562",
+      "27094270",
+      "11391005",
+      "24697869",
+      "29043483",
+      "21510855",
+      "21409224",
+      "9083054",
+      "23019066",
+      "18304880",
+      "30700512",
+      "22790396",
+      "18972536",
+      "9894921",
+      "24895027",
+      "3283130",
+      "3284882",
+      "9153234",
+      "27623342",
+      "1986241",
+      "12011036"
+    ],
+    "review": [
+      "40533061",
+      "9308366",
+      "22387373",
+      "24703712",
+      "33128172"
+    ],
+    "pmc": [
+      "12309601"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)02218-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40533061/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SLC31A1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

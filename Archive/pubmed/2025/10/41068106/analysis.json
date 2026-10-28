@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41068106",
+  "title": "IceQream: Quantitative chromosome accessibility analysis using physical TF models.",
+  "authors": "Bercovich, Akhiad; Lifshitz, Aviezer; Eldar, Michal; Cheng, Saifeng; Stok Ranen, Roni; Stelzer, Yonatan; Tanay, Amos",
+  "journal": "Nature communications",
+  "published_date": "2025-10-10",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用物理TF结合模型定量解析染色体可及性，将序列与TF-DNA亲和力及浓度整合回归，虽非直接建模TF-DNA复合物结构，但核心聚焦TF结合调控机制且方法可迁移，高度契合课题。",
+  "abstract": "Single-cell mapping of chromosomal accessibility patterns has recently led to improved predictive modelling of epigenomic activity from sequence. However, quantitative models explaining the epigenome using directly interpretable components are still lacking. Here we develop IceQream (IQ), a modelling strategy and inference algorithm for regressing accessibility from sequences using physical models of transcription factor (TF) binding. IQ uses spatial integration of sequences over a range of TF-DNA affinities and localization relative to the target locus. It infers TF effective concentrations as latent variables that activate or repress regulatory elements in a non-linear fashion. These are supplemented with synergistic and antagonistic pairwise interactions between TFs. Analysis of both human and mouse data shows that IQ derives similar, and in some cases, better performance compared to state-of-the-art deep neural network models. IQ provides an essential mechanistic and explicable baseline for further developments toward understanding gene and genome regulation from sequence.",
+  "abstract_zh": "单细胞水平的染色体可及性图谱绘制近期已推动从序列预测表观基因组活性的模型性能提升。然而，利用直接可解释组件定量解释表观基因组的模型仍然缺乏。在此，我们开发了IceQream (IQ)，一种建模策略和推断算法，用于通过转录因子 (transcription factor, TF) 结合的物理模型从序列回归可及性。IQ采用序列在TF-DNA亲和力范围及相对于目标位点定位上的空间整合。它将TF有效浓度推断为潜在变量，以非线性方式激活或抑制调控元件，并辅以TF间的协同和拮抗成对相互作用。对人类和小鼠数据的分析表明，IQ在性能上与最先进的深度神经网络模型相当，在某些情况下甚至更优。IQ为从序列理解基因和基因组调控的进一步发展提供了关键的机制性和可解释性基线。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41068106/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41068106/",
+  "paper_page_path": "papers/pubmed/41068106/index.html"
+}

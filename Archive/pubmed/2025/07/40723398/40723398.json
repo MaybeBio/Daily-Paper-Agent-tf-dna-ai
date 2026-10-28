@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "40723398",
+    "doi": "10.3390/biology14070840",
+    "title": "Full-Length Transcriptome Sequencing and hsp Gene Family Analysis Provide New Insights into the Stress Response Mechanisms of Mystus guttatus."
+  },
+  "content": {
+    "abstract": "Mystus guttatus, a second-class protected species in China, has undergone severe population decline due to anthropogenic and environmental pressures, yet conservation efforts are hindered by limited genomic resources and a lack of mechanistic insights into its stress response systems. Here, the first full-length transcriptome of M. guttatus was generated via SMRT sequencing. A total of 32,647 full-length transcripts were obtained, with an average length of 1783 bp. After structure and function annotation of full-length transcripts, 30,977 genes, 1670 transcription factors (TF), 918 alternative splicing (AS), and 11,830 simple sequence repeats (SSR) were identified. In order to further explore the stress resistance of M. guttatus, 93 genes belonging to the heat shock protein (HSP) family were identified and categorized into HSP70 and HSP90 subgroups. After phylogenetic analysis and selective stress analysis, it was discovered that the hsp family has suffered purifying selection and gene loss, potentially contributing to a decrease in the stress resilience and population of M. guttatus. Using protein interaction network and molecular docking tools, we observed the intricate interplay among HSPs and discovered HSP70-HOP-HSP90 interaction, which is an essential stress response mechanism. Our study sequenced the first full-length transcriptome of M. guttatus to enhance its genomic resources for its conservation and breeding and provide new insights into the future study of stress response mechanisms on M. guttatus.",
+    "keywords": [
+      "Mystus guttatus",
+      "full-length transcriptome",
+      "heat shock protein",
+      "stress response mechanisms"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Lang",
+        "Zhang, Xueling",
+        "Li, Yusen",
+        "Shi, Jun",
+        "Li, Yu",
+        "Han, Yaoquan",
+        "Luo, Hui",
+        "Wang, Dapeng",
+        "Lin, Yong",
+        "Ye, Hua"
+      ],
+      "short_names": [
+        "Qin L",
+        "Zhang X",
+        "Li Y",
+        "Shi J",
+        "Li Y",
+        "Han Y",
+        "Luo H",
+        "Wang D",
+        "Lin Y",
+        "Ye H"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-0284-1264",
+        "ORCID: 0000-0003-3740-0633"
+      ],
+      "affiliations": [
+        "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+        "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+        "Yibin Academy of Southwest University, Yibin 644005, China.",
+        "Fisheries Research Institute, Sichuan Academy of Agricultural Sciences (Sichuan Fisheries Research Institute), Chengdu 611731, China.",
+        "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China.",
+        "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China.",
+        "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+        "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China.",
+        "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+        "Yibin Academy of Southwest University, Yibin 644005, China.",
+        "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China.",
+        "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China.",
+        "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+        "Yibin Academy of Southwest University, Yibin 644005, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Lang",
+        "short_name": "Qin L",
+        "identifiers": [
+          "0009-0008-0284-1264"
+        ],
+        "affiliations": [
+          "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xueling",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+          "Yibin Academy of Southwest University, Yibin 644005, China.",
+          "Fisheries Research Institute, Sichuan Academy of Agricultural Sciences (Sichuan Fisheries Research Institute), Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yusen",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jun",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yu",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0003-3740-0633"
+        ],
+        "affiliations": [
+          "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yaoquan",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hui",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+          "Yibin Academy of Southwest University, Yibin 644005, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dapeng",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yong",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory of Aquatic Genetic Breeding and Healthy Aquaculture, Guangxi Aquatic Breeding Base, Guangxi Academy of Fisheries Science, Nanning 530021, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Hua",
+        "short_name": "Ye H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Freshwater Fish Reproduction and Development, Ministry of Education, College of Fisheries, Southwest University, Chongqing 402460, China.",
+          "Yibin Academy of Southwest University, Yibin 644005, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:30",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "41739266"
+    ],
+    "refs": [
+      "38142023",
+      "37979951",
+      "37958154",
+      "37453331",
+      "36758653",
+      "36747354",
+      "36044083",
+      "35995372",
+      "35648784",
+      "34990125",
+      "34937942",
+      "34787764",
+      "34750572",
+      "34686336",
+      "34282049",
+      "33519908",
+      "32980468",
+      "32788667",
+      "32585190",
+      "32541658",
+      "32536962",
+      "32220641",
+      "31645766",
+      "31575043",
+      "31062021",
+      "30991145",
+      "30692167",
+      "30476243",
+      "30108524",
+      "29717040",
+      "29706537",
+      "29463764",
+      "29425735",
+      "29177117",
+      "28868132",
+      "28861277",
+      "28683139",
+      "27561112",
+      "27084950",
+      "26735846",
+      "26728391",
+      "26693666",
+      "26542840",
+      "26179515",
+      "26177194",
+      "25912611",
+      "25827625",
+      "25690854",
+      "24995670",
+      "24949977",
+      "24755649",
+      "24487278",
+      "24415765",
+      "23563090",
+      "23523170",
+      "22390928",
+      "17531802",
+      "17300223",
+      "16731699",
+      "16175177",
+      "15130550",
+      "15085123",
+      "12626338",
+      "12161444",
+      "10099689",
+      "9452498",
+      "8524040"
+    ],
+    "similar": [
+      "40723398",
+      "40902870",
+      "40106884",
+      "30110648",
+      "39467857",
+      "31601990",
+      "39578612",
+      "32125981",
+      "30134624",
+      "33888729",
+      "34880782",
+      "31781953",
+      "38304337",
+      "36536287",
+      "36499378",
+      "38664437",
+      "30542619",
+      "31948405",
+      "36229862",
+      "24244605",
+      "33238553",
+      "11907057",
+      "34739787",
+      "32854620",
+      "36613506",
+      "34358598",
+      "25527327",
+      "31395030",
+      "31664898",
+      "40139619",
+      "40840663",
+      "36309640",
+      "33333230",
+      "37504630",
+      "24164346",
+      "32509454",
+      "32457788",
+      "32976816",
+      "33065474",
+      "27639943",
+      "36083383",
+      "24278383",
+      "20821176",
+      "35439940",
+      "32799022",
+      "23792016",
+      "36758653",
+      "36325025",
+      "28495509",
+      "38891896",
+      "37960135",
+      "37163151",
+      "38158433",
+      "37298166",
+      "17519032",
+      "31864302",
+      "35338443",
+      "33516848",
+      "23127152",
+      "39180596",
+      "39596645",
+      "29396453",
+      "38877407",
+      "32551204",
+      "25826465",
+      "25765814",
+      "33423138",
+      "34742843",
+      "30076392",
+      "39578738",
+      "33193583",
+      "37020272",
+      "41410824",
+      "41463826",
+      "7494006",
+      "35300606",
+      "35464434",
+      "37340366",
+      "25663538",
+      "21766152",
+      "40000686",
+      "40003757",
+      "27125786",
+      "33066732",
+      "37414309",
+      "37864906",
+      "38124030",
+      "21842334",
+      "34432285",
+      "24704274",
+      "30891832",
+      "23573207",
+      "23379821",
+      "34551715",
+      "25072282",
+      "23938235",
+      "31239354",
+      "30600412",
+      "31892809",
+      "30003312"
+    ],
+    "review": [
+      "40723398",
+      "37864906"
+    ],
+    "pmc": [
+      "12292388"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology14070840",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40723398/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

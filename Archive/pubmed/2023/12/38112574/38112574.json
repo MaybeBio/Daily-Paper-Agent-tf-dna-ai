@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "38112574",
+    "doi": "10.18632/aging.205308",
+    "title": "Investigating the ID3/SLC22A4 as immune-related signatures in ischemic stroke."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic stroke (IS) is a fearful disease that can cause a variety of immune events. Nevertheless, precise immune-related mechanisms have yet to be systematically elucidated. This study aimed to identify immune-related signatures using machine learning and to validate them with animal experiments and single cell analysis. METHODS: In this study, we screened 24 differentially expressed genes (DEGs) while identifying immune-related signatures that may play a key role in IS development through a comprehensive strategy between least absolute shrinkage and selection operation (LASSO) regression, support vector machine (SVM) and immune-related genes. In addition, we explored immune infiltration using the CIBERSORT algorithm. Finally, we performed validation in mouse brain tissue and single cell analysis. RESULTS: We identified 24 DEGs for follow-up analysis. ID3 and SLC22A4 were finally identified as the better immune-related signatures through a comprehensive strategy among DEGs, LASSO, SVM and immune-related genes. RT-qPCR, western blot, and immunofluorescence revealed a significant decrease in ID3 and a significant increase in SLC22A4 in the middle cerebral artery occlusion group. Single cell analysis revealed that ID3 was mainly concentrated in endothelial_2 cells and SLC22A4 in astrocytes in the MCAO group. A CIBERSORT finds significantly altered levels of immune infiltration in IS patients. CONCLUSIONS: This study focused on immune-related signatures after stroke and ID3 and SLC22A4 may be new therapeutic targets to promote functional recovery after stroke. Furthermore, the association of ID3 and SLC22A4 with immune cells may be a new direction for post-stroke immunotherapy.",
+    "keywords": [
+      "ID3",
+      "SLC22A4",
+      "bioinformation",
+      "immune",
+      "ischemic stroke"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Algorithms",
+      "Astrocytes",
+      "Blotting, Western",
+      "*Inhibitor of Differentiation Proteins/immunology/metabolism",
+      "*Ischemic Stroke/genetics",
+      "Neoplasm Proteins",
+      "*Organic Cation Transport Proteins/immunology/metabolism",
+      "*Stroke/immunology/metabolism",
+      "*Symporters/immunology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Dading",
+        "Cai, Heng",
+        "Li, Yugang",
+        "Chang, Wenyuan",
+        "Liu, Xiu",
+        "Dai, Qiwei",
+        "Yu, Wanning",
+        "Chen, Wangli",
+        "Qiao, Guomin",
+        "Xie, Haojie",
+        "Xiao, Xiong",
+        "Li, Zhiqing"
+      ],
+      "short_names": [
+        "Lu D",
+        "Cai H",
+        "Li Y",
+        "Chang W",
+        "Liu X",
+        "Dai Q",
+        "Yu W",
+        "Chen W",
+        "Qiao G",
+        "Xie H",
+        "Xiao X",
+        "Li Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Stroke Center, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "Department of Neurology, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "Department of Neurosurgery, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Stroke Center, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "Department of Neurology, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "The First Clinical College, China Medical University, Shenbei, Shenyang, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China.",
+        "Department of Stroke Center, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "Department of Neurology, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+        "Department of Neurosurgery, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Dading",
+        "short_name": "Lu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stroke Center, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+          "Department of Neurology, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+          "Department of Neurosurgery, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Heng",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yugang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stroke Center, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Wenyuan",
+        "short_name": "Chang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiu",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, China Medical University, Shenbei, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Qiwei",
+        "short_name": "Dai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Wanning",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wangli",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Guomin",
+        "short_name": "Qiao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Haojie",
+        "short_name": "Xie H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xiong",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shengjing Hospital, Shenyang, China medical University, Heping, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhiqing",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stroke Center, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+          "Department of Neurology, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China.",
+          "Department of Neurosurgery, The First Hospital of China Medical University, Heping, Shenyang, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2023 Dec 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/19 19:53",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "41647255",
+      "40307317",
+      "40208940"
+    ],
+    "refs": [
+      "35962388",
+      "35746962",
+      "35656537",
+      "35341322",
+      "35250546",
+      "35219016",
+      "35140708",
+      "35036879",
+      "34861191",
+      "34858418",
+      "34857032",
+      "34809449",
+      "34785599",
+      "34496660",
+      "33924191",
+      "33676464",
+      "33204331",
+      "33125081",
+      "32958760",
+      "32898475",
+      "32653056",
+      "32391806",
+      "32174916",
+      "32051591",
+      "31813625",
+      "31779652",
+      "31601801",
+      "31430518",
+      "31291966",
+      "30971806",
+      "30782088",
+      "29695462",
+      "29507860",
+      "29263821",
+      "28785583",
+      "28724745",
+      "28314594",
+      "28258199",
+      "28166219",
+      "27730544",
+      "27340273",
+      "27023905",
+      "26347014",
+      "26303850",
+      "26171154",
+      "25822800",
+      "25314644",
+      "25129100",
+      "25124890",
+      "25063298",
+      "25036109",
+      "24599653",
+      "23936327",
+      "23543449",
+      "22455463",
+      "22453632",
+      "22257669",
+      "21738161",
+      "21587164",
+      "20837969",
+      "20808728",
+      "18709696",
+      "17142562",
+      "16736051",
+      "16437728",
+      "16199517",
+      "15795384",
+      "15107849",
+      "14608356",
+      "14597658",
+      "9426230",
+      "1628620"
+    ],
+    "similar": [
+      "38112574",
+      "35962388",
+      "38650649",
+      "35746962",
+      "38371524",
+      "35691413",
+      "38215553",
+      "38320734",
+      "37891634",
+      "38062810",
+      "37032832",
+      "38283345",
+      "37386280",
+      "35757721",
+      "38942324",
+      "37090698",
+      "37783761",
+      "33273801",
+      "37435058",
+      "34547407",
+      "20815983",
+      "23768125",
+      "38291374",
+      "35341274",
+      "35719392",
+      "36582228",
+      "36911415",
+      "35966794",
+      "38052584",
+      "32746852",
+      "36589450",
+      "26232435",
+      "36725810",
+      "34809449",
+      "34107850",
+      "36253715",
+      "26438726",
+      "32760207",
+      "35709926",
+      "35928610",
+      "22882857",
+      "38484626",
+      "36211422",
+      "36345357",
+      "38867322",
+      "32039486",
+      "25129100",
+      "37779906",
+      "20185798",
+      "32536579",
+      "25644253",
+      "11746449",
+      "35764238",
+      "38148887",
+      "37821869",
+      "38948311",
+      "24115031",
+      "36671424",
+      "32844295",
+      "36545400",
+      "21486943",
+      "38028617",
+      "23803189",
+      "36742332",
+      "37732314",
+      "21801865",
+      "31491724",
+      "38393419",
+      "37980550",
+      "36250071",
+      "25665868",
+      "34764646",
+      "34718742",
+      "37582718",
+      "24854879",
+      "34566862",
+      "38084289",
+      "20932862",
+      "15184985",
+      "34156153",
+      "30520117",
+      "25090023",
+      "35282063",
+      "32905646",
+      "38835051",
+      "22075252",
+      "37545529",
+      "28159972",
+      "34643246",
+      "20937129",
+      "36631012",
+      "35599595",
+      "34592230",
+      "20181926",
+      "21056086",
+      "23060149",
+      "38476236",
+      "29111308"
+    ],
+    "review": [
+      "38112574",
+      "15184985"
+    ],
+    "pmc": [
+      "10781493"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38112574/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.aging-us.com/full/205308",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38112574/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38112574",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

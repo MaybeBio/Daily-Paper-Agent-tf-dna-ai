@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.14665662.v1",
+  "title": "Expanded Ensemble Methods Can Be Used to Accurately Predict Protein-Ligand Relative Binding Free Energies",
+  "authors": "Si Zhang; David Hahn; Michael R. Shirts; Vincent Voelz",
+  "journal": "ChemRxiv",
+  "published_date": "2021-05-26",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用扩展系综方法预测蛋白-配体相对结合自由能，虽涉及结合自由能计算，但对象为蛋白-配体而非蛋白-DNA，方法可迁移性有限，仅部分相关。",
+  "abstract": "Alchemical free energy methods have become indispensable in computational drug discovery for their ability to calculate highly accurate estimates of protein-ligand affinities. Expanded ensemble (EE) methods, which involve single simulations visiting all of the alchemical intermediates, have some key advantages for alchemical free energy calculation. However, there have been relatively few examples published in the literature of using expanded ensemble simulations for free energies of protein-ligand binding. In this paper, as a test of expanded ensemble methods, we computed relative binding free energies using the Open Force Field Initiative force field (codename “Parsley”) for twenty-four pairs of Tyk2 inhibitors derived from a congeneric series of 16 compounds. The EE predictions agree well with the experimental values (RMSE of 0.94 ± 0.13 kcal mol −1 and MUE of 0.75 ± 0.12 kcal mol −1 ). We find that while increasing the number of alchemical intermediates can improve the phase space overlap, faster convergence can be obtained with fewer intermediates, as long as the acceptance rates are sufficient. We find that convergence can be improved using more aggressive updating of the biases, and that estimates can be improved by performing multiple independent EE calculations. This work demonstrates that EE is a viable option for alchemical free energy calculation. We discuss the implications of these findings for rational drug design, as well as future directions for improvement.",
+  "abstract_zh": "炼金术自由能方法因其能够计算高度准确的蛋白质-配体亲和力估计值，在计算药物发现中已成为不可或缺的工具。扩展系综（expanded ensemble, EE）方法涉及单一模拟访问所有炼金术中间态，在炼金术自由能计算中具有一些关键优势。然而，文献中关于使用扩展系综模拟计算蛋白质-配体结合自由能的例子相对较少。本文作为对扩展系综方法的测试，我们使用开放力场倡议力场（代号“Parsley”）计算了来自16个化合物同源系列的24对Tyk2抑制剂的相对结合自由能。EE预测与实验值吻合良好（RMSE为0.94 ± 0.13 kcal mol⁻¹，MUE为0.75 ± 0.12 kcal mol⁻¹）。我们发现，虽然增加炼金术中间态的数量可以改善相空间重叠，但只要接受率足够，使用较少的中间态可以获得更快的收敛。我们还发现，通过更积极地更新偏置可以改善收敛，并且通过进行多次独立的EE计算可以改进估计值。这项工作表明，EE是炼金术自由能计算的一个可行选择。我们讨论了这些发现对合理药物设计的影响，以及未来的改进方向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.14665662.v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.14665662.v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.14665662.v1/index.html"
+}

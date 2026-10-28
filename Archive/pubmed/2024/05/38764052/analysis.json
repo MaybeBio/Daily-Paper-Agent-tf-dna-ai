@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38764052",
+  "title": "Identification of co-expressed central genes and transcription factors in acute myocardial infarction and diabetic nephropathy.",
+  "authors": "Li, Bo; Zhao, Xu; Xie, Wanrun; Hong, Zhenzhen; Cao, Ye; Zhang, Yi; Ding, Yan",
+  "journal": "BMC medical genomics",
+  "published_date": "2024-05-20",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过GEO数据挖掘筛选急性心梗与糖尿病肾病共表达枢纽基因并预测转录因子，但仅做差异表达与富集分析，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题核心关联弱。",
+  "abstract": "BACKGROUND: Acute myocardial infarction (AMI) and diabetic nephropathy (DN) are common clinical co-morbidities, but they are challenging to manage and have poor prognoses. There is no research on the bioinformatics mechanisms of comorbidity, and this study aims to investigate such mechanisms. METHODS: We downloaded the AMI data (GSE66360) and DN datasets (GSE30528 and GSE30529) from the Gene Expression Omnibus (GEO) platform. The GSE66360 dataset was divided into two parts: the training set and the validation set, and GSE30529 was used as the training set and GSE30528 as the validation set. After identifying the common differentially expressed genes (DEGs) in AMI and DN in the training set, gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses and protein-protein interaction (PPI) network construction were performed. A sub-network graph was constructed by MCODE, and 15 hub genes were screened by the Cytohubba plugin. The screened hub genes were validated, and the 15 screened hub genes were subjected to GO, KEGG, Gene MANIA analysis, and transcription factor (TF) prediction. Finally, we performed TF differential analysis, enrichment analysis, and TF and gene regulatory network construction. RESULTS: A total of 46 genes (43 up-regulated and 3 down-regulated) were identified for subsequent analysis. GO functional analysis emphasized the presence of genes mainly in the vesicle membrane and secretory granule membrane involved in antigen processing and presentation, lipopeptide binding, NAD + nucleosidase activity, and Toll-like receptor binding. The KEGG pathways analyzed were mainly in the phagosome, neutrophil extracellular trap formation, natural killer cell-mediated cytotoxicity, apoptosis, Fc gamma R-mediated phagocytosis, and Toll-like receptor signaling pathways. Eight co-expressed hub genes were identified and validated, namely TLR2, FCER1G, CD163, CTSS, CLEC4A, IGSF6, NCF2, and MS4A6A. Three transcription factors were identified and validated in AMI, namely NFKB1, HIF1A, and SPI1. CONCLUSIONS: Our study reveals the common pathogenesis of AMI and DN. These common pathways and hub genes may provide new ideas for further mechanistic studies.",
+  "abstract_zh": "背景：急性心肌梗死（AMI）与糖尿病肾病（DN）是常见的临床共病，但管理困难且预后较差。目前尚无关于共病生物信息学机制的研究，本研究旨在探讨此类机制。方法：我们从基因表达综合（GEO）平台下载了AMI数据集（GSE66360）和DN数据集（GSE30528和GSE30529）。GSE66360数据集被分为两部分：训练集和验证集，GSE30529作为训练集，GSE30528作为验证集。在训练集中识别AMI和DN的共同差异表达基因（DEGs）后，进行了基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析以及蛋白质-蛋白质相互作用（PPI）网络构建。通过MCODE构建子网络图，并使用Cytohubba插件筛选出15个枢纽基因。对筛选出的枢纽基因进行验证，并对15个枢纽基因进行GO、KEGG、Gene MANIA分析和转录因子（TF）预测。最后，我们进行了TF差异分析、富集分析以及TF和基因调控网络构建。结果：共鉴定出46个基因（43个上调，3个下调）用于后续分析。GO功能分析强调，基因主要存在于囊泡膜和分泌颗粒膜中，参与抗原加工与呈递、脂肽结合、NAD+核苷酶活性和Toll样受体结合。分析的KEGG通路主要涉及吞噬体、中性粒细胞胞外陷阱形成、自然杀伤细胞介导的细胞毒性、凋亡、FcγR介导的吞噬作用以及Toll样受体信号通路。鉴定并验证了8个共表达枢纽基因，即TLR2、FCER1G、CD163、CTSS、CLEC4A、IGSF6、NCF2和MS4A6A。在AMI中鉴定并验证了3个转录因子，即NFKB1、HIF1A和SPI1。结论：我们的研究揭示了AMI和DN的共同发病机制。这些共同通路和枢纽基因可能为进一步的机制研究提供新思路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38764052/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38764052/",
+  "paper_page_path": "papers/pubmed/38764052/index.html"
+}

@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "42548765",
+    "doi": "10.3389/fimmu.2026.1867098",
+    "title": "CCR1-mediated monocyte chemotaxis in the immunopathology of primary Sjogren's syndrome: multi-omics integration analysis and computational target prioritization implicating Polygonatum odoratum."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Primary Sjogren's syndrome (pSS) is a chronic systemic autoimmune disease with no specific etiological treatment. Polygonatum odoratum, a traditional yin-nourishing herb, is used in treating pSS, but its molecular mechanism remains unclear. This study aimed to explore the potential association of CCR1 with pSS immunopathology and to computationally assess its candidacy as a predicted target of P. odoratum. METHODS: Transcriptomic datasets (GSE51092, GSE66795; validation: GSE84844) and single-cell RNA sequencing data (GSE253568) were obtained from GEO. Network pharmacology screened active component targets of P. odoratum, and a \"three-dimensional intersection\" strategy identified candidate therapeutic targets. Single-cell analyses including monocyte subtyping, pseudotime trajectory, SCENIC transcription factor network, and CellChat cell communication analyses were performed. Molecular docking predicted drug-target binding, and RT-qPCR validated findings in clinical samples (pSS n = 65, HC n = 48). RESULTS: CCR1 was the only candidate target simultaneously satisfying \"drug-targetable, disease-related, and differentially expressed\" conditions. CCR1 was significantly upregulated in pSS patients (AUC = 0.758, indicating moderate discriminatory capacity) and positively correlated with serum IgG levels (R = 0.49, P = 0.0057). Single-cell analysis demonstrated CCR1 was specifically highly expressed in classical monocytes (CD14++CD16-), with CCR1-positive monocytes significantly expanded in pSS (P = 0.0079). SCENIC analysis predicted STAT1 and EGR1 as candidate upstream transcription factors potentially associated with CCR1 expression. CellChat analysis predicted a potential \"T/NK cell-derived CCL5-CCR1-mediated monocyte chemotactic recruitment\" signaling axis. Moupinamide from P. odoratum showed predicted binding affinity with CCR1 (-8.1 kcal/mol). RT-qPCR confirmed elevated CCR1 expression in pSS PBMCs (P < 0.0001). CONCLUSIONS: This study provides exploratory multi-dimensional evidence consistent with a candidate role of CCR1 in pSS immunopathology. CCR1 is predominantly expressed in classical monocytes, predicted to be associated with STAT1/EGR1 regulatory activity, and computationally linked to monocyte recruitment through the CCL5-CCR1 chemotactic axis. Pseudotime analysis suggested a computational inference of monocyte differentiation trajectory differences associated with CCR1 expression dynamics, requiring experimental validation. Moupinamide from P. odoratum shows predicted binding affinity to CCR1, offering a computational hypothesis for the \"yin-nourishing and dryness-moistening\" therapeutic principle that warrants experimental validation.",
+    "keywords": [
+      "CCR1",
+      "Polygonatum odoratum",
+      "SCENIC",
+      "chemokines",
+      "monocytes",
+      "primary Sjogren's syndrome",
+      "pseudotime analysis",
+      "single-cell transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Receptors, CCR1/metabolism/genetics",
+      "Humans",
+      "*Monocytes/immunology/metabolism/drug effects",
+      "*Sjogren's Syndrome/immunology/drug therapy/metabolism",
+      "*Polygonatum/chemistry",
+      "Molecular Docking Simulation",
+      "STAT1 Transcription Factor/metabolism",
+      "Computational Biology/methods",
+      "*Chemotaxis/drug effects",
+      "*Chemotaxis, Leukocyte/drug effects",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jianbin",
+        "Gesang, Yuzhen",
+        "Tan, Ning",
+        "Li, Renhe",
+        "Liu, Wei"
+      ],
+      "short_names": [
+        "Li J",
+        "Gesang Y",
+        "Tan N",
+        "Li R",
+        "Liu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "National Clinical Research Center for Chinese Medicine, Tianjin, China.",
+        "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "National Clinical Research Center for Chinese Medicine, Tianjin, China.",
+        "Department of Rheumatism and Immunity, Shenzhen Nanshan People's Hospital, Shenzhen, China.",
+        "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "National Clinical Research Center for Chinese Medicine, Tianjin, China.",
+        "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "National Clinical Research Center for Chinese Medicine, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jianbin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+          "National Clinical Research Center for Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Gesang, Yuzhen",
+        "short_name": "Gesang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+          "National Clinical Research Center for Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Ning",
+        "short_name": "Tan N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatism and Immunity, Shenzhen Nanshan People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Renhe",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+          "National Clinical Research Center for Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+          "National Clinical Research Center for Chinese Medicine, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 12:30",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40335673",
+      "37970373",
+      "36361554",
+      "35956772",
+      "35510185",
+      "34594043",
+      "34557778",
+      "34062119",
+      "33597522",
+      "30332628",
+      "29914354",
+      "29649576",
+      "29514034",
+      "28991892",
+      "27965259",
+      "27785888",
+      "27431353",
+      "26525549",
+      "25822800",
+      "25605792",
+      "25316606",
+      "24938285",
+      "23857130",
+      "22700787",
+      "22257669",
+      "21653326",
+      "20628149",
+      "19499576",
+      "19079127",
+      "18936753",
+      "18711431",
+      "18551128",
+      "16632515",
+      "16467548",
+      "16199517",
+      "15864272",
+      "15032599",
+      "14502271",
+      "12871640",
+      "12782713",
+      "11910892",
+      "9714357",
+      "1522232"
+    ],
+    "similar": [
+      "42548765",
+      "41101222",
+      "41454184",
+      "40582566",
+      "34386009",
+      "42568110",
+      "42429909",
+      "25113744",
+      "41711656",
+      "41181153",
+      "38183912",
+      "34367157",
+      "41052072",
+      "34413853",
+      "29655283",
+      "42158857",
+      "39080525",
+      "40593998",
+      "33648502",
+      "38788537",
+      "39577129",
+      "39142001",
+      "41078717",
+      "41794809",
+      "37749409",
+      "41708714",
+      "41204409",
+      "38376769",
+      "38936146",
+      "41328587",
+      "41212370",
+      "41476962",
+      "41410587",
+      "32576236",
+      "40787453",
+      "38933282",
+      "41448264",
+      "38347480",
+      "27672125",
+      "42367820",
+      "23831963",
+      "40146445",
+      "41112290",
+      "27142093",
+      "22736090",
+      "40121969",
+      "41121643",
+      "40916281",
+      "31552042",
+      "33603736",
+      "29673738",
+      "41929488",
+      "38677173",
+      "41716413",
+      "42158856",
+      "37614232",
+      "32114510",
+      "38406824",
+      "40227387",
+      "40199818",
+      "39577221",
+      "31068931",
+      "42064060",
+      "38359008",
+      "40424931",
+      "36973184",
+      "39845969",
+      "41954819",
+      "42597971",
+      "41053875",
+      "33182021",
+      "34594326",
+      "35720379",
+      "25736842",
+      "33488608",
+      "37984252",
+      "38866992",
+      "36425764",
+      "40752678",
+      "24827637",
+      "31665501",
+      "25564309",
+      "36988140",
+      "37640538",
+      "40298889",
+      "41390439",
+      "37792570",
+      "38061117",
+      "32607949",
+      "40494434",
+      "29684636",
+      "41548166",
+      "26049028",
+      "35562622",
+      "30119881",
+      "32791244",
+      "29447268",
+      "39558620",
+      "42196413",
+      "26525549"
+    ],
+    "review": [
+      "42548765",
+      "41101222"
+    ],
+    "pmc": [
+      "13429757"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sjogrenssyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sjogren's Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42548765/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1867098",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

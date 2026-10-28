@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.04.621797",
+  "title": "G4-Attention: Deep Learning Model with Attention for predicting DNA G-Quadruplexes",
+  "authors": "Shrimon Mukherjee; Pulakesh Pramanik; Partha Basuchowdhuri; Santanu Bhattacharya",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-06",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN+Bi-LSTM+注意力深度学习模型预测DNA G-四链体形成序列，虽属核酸结构预测且方法可迁移，但非蛋白质-DNA互作或TF-DNA结合体系，故评分为5。",
+  "abstract": "G-quadruplexes (G4s) are the four-stranded non-canonical nucleic acid secondary structures, formed by the stacking arrangement of the guanine tetramers. They are involved in a wide range of biological roles because of their exceptionally unique and distinct structural characteristics. After the completion of the human genome sequencing project, a lot of bio-informatics algorithms were introduced to predict the active G4s regions in vitro based on the canonical G4 sequence elements, G- richness , and G- skewness , as well as the non-canonical sequence features. Recently, sequencing techniques like G4-seq and G4-ChIP-seq were developed to map the G4s in vitro , and in vivo respectively at a few hundred base resolution. Subsequently, several machine learning and deep learning approaches were developed for predicting the G4 regions using the existing databases. However, their prediction models were simplistic, and the prediction accuracy was notably poor. In response, here, we propose a novel convolutional neural network with Bi-LSTM and attention layers, named G4-Attention, to predict the G4 forming sequences with improved accuracy. G4-Attention achieves high accuracy and attains state-of-the-art results in the G4 propensity and mismatch score prediction task in comparison to other available benchmark models in the literature. Besides the balanced dataset, the developed model can predict the G4 regions accurately in the highly class-imbalanced datasets. Furthermore, the model achieves a significant improvement in the cell-type-specific G4 prediction task. In addition, G4-Attention trained on the human genome dataset can be applied to any non-human genomic DNA sequences to predict the G4 formation propensities accurately. We have also added interpretability analysis of our model to gain further insights. Author summary G-quadruplex, a non-canonical secondary nucleic acid structure, has emerged as a potential pharmacological target because of its significant implication in several human diseases including cancer, aging, neurological disorders, etc. Despite numerous computational algorithm developments, the prediction of G4 regions accurately in different organisms including humans still remains a challenging task. To address this, in this work, we have presented a novel advanced deep learning architecture called G4-Attention for predicting DNA G-quadruplexes in different organisms including humans. To the best of our knowledge, we are the first to incorporate Bi-LSTM and attention layers on top of a CNN architecture in a deep learning model (G4-Attention) for predicting G4-forming sequences. Our developed model outperforms existing algorithms and achieves current state-of-the-art (SOTA) results in G4 propensity and mismatch score prediction tasks. In addition, the developed model achieves superior results across non-human genomes, class-imbalanced datasets, and cell line-specific datasets. Lastly, G4-Attention can identify key features for understanding the G4 formation mechanism.",
+  "abstract_zh": "G-四链体（G-quadruplexes, G4s）是由鸟嘌呤四聚体堆叠排列形成的四链非经典核酸二级结构。由于其极其独特且显著的结构特征，它们参与多种生物学功能。人类基因组测序项目完成后，许多生物信息学算法被引入，基于经典G4序列元件、G富集性（G-richness）和G偏斜性（G-skewness）以及非经典序列特征，在体外预测活性G4区域。近年来，如G4-seq和G4-ChIP-seq等测序技术被开发出来，分别以数百碱基分辨率在体外和体内绘制G4图谱。随后，多种机器学习和深度学习方法被开发出来，利用现有数据库预测G4区域。然而，这些预测模型较为简单，预测准确性显著不足。为此，我们提出了一种新颖的卷积神经网络，结合Bi-LSTM和注意力层，命名为G4-Attention，以提高G4形成序列的预测准确性。与文献中其他可用基准模型相比，G4-Attention在G4倾向性和错配评分预测任务中实现了高准确性，并达到了当前最优结果。除了平衡数据集外，该模型还能在高度类别不平衡的数据集中准确预测G4区域。此外，该模型在细胞类型特异性G4预测任务中取得了显著改进。另外，基于人类基因组数据集训练的G4-Attention可应用于任何非人类基因组DNA序列，以准确预测G4形成倾向性。我们还对模型进行了可解释性分析，以获取进一步见解。\n\n作者摘要 G-四链体（G-quadruplex）是一种非经典核酸二级结构，因其在多种人类疾病（包括癌症、衰老、神经疾病等）中的重要意义，已成为潜在的药理学靶点。尽管已有众多计算算法的发展，但在包括人类在内的不同生物体中准确预测G4区域仍是一项挑战性任务。为解决此问题，在本工作中，我们提出了一种新颖的先进深度学习架构，称为G4-Attention，用于预测包括人类在内的不同生物体中的DNA G-四链体。据我们所知，我们是首个在深度学习模型（G4-Attention）中将Bi-LSTM和注意力层整合到CNN架构之上，用于预测G4形成序列的研究。我们开发的模型优于现有算法，并在G4倾向性和错配评分预测任务中达到了当前最优（SOTA）结果。此外，该模型在非人类基因组、类别不平衡数据集和细胞系特异性数据集上也取得了优越结果。最后，G4-Attention能够识别关键特征，以理解G4形成机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.04.621797",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.04.621797",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.04.621797/index.html"
+}

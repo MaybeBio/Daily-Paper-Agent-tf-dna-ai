@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41959628",
+    "doi": "10.3389/frai.2026.1763313",
+    "title": "PRIMED: predicting DNA binding residues by leveraging pre-trained protein language models."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Protein-DNA interactions are central to gene regulation, genome stability, and disease mechanisms. Identifying DNA-binding residues (DBRs) is critical for structural modeling, protein engineering, and therapeutic design. Although experimental approaches provide valuable insights, they remain low-throughput and resource-intensive. Computational methods offer scalable alternatives by leveraging protein sequential and structural information to predict DBRs. METHODS: We present PRIMED (Protein Residue Inference using Multilayer perceptron for Enhanced DNA-binding predictions), a machine learning framework that integrates protein representations of distinct biochemical and structural properties from three protein language models: ESM-2, ESM-3, and ESM-C. These representations are concatenated and processed by a multilayer perceptron to perform DBR predictions. RESULTS: PRIMED demonstrated strong performance across three benchmark datasets: Test-46 and Test-129 from a previous study, CLAPE-DB, and Test-10 K, which we curated from UniProtKB/Swiss-Prot. The model achieves an area under the Receiver Operating Characteristic curve (AUC) of 0.92 and a Matthews Correlation Coefficient (MCC) of 0.64 on Test-46, as well as an AUC of 0.93 and MCC of 0.45 on Test-129. On Test-10 K, PRIMED demonstrates generalizability across proteins with varying DBR percentages, maintaining competitive performance relative to the runner-up method, CLAPE-DB. DISCUSSION: These results highlight the effectiveness of integrating diverse protein language model representations for accurate, transferable DBR predictions.",
+    "keywords": [
+      "DNA-binding protein",
+      "DNA-binding residue",
+      "protein language model",
+      "supervised machine learning",
+      "transfer learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Luoshu",
+        "Li, Xin",
+        "Song, Ruocen",
+        "Song, Qianqian",
+        "Fan, Xiao"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Li X",
+        "Song R",
+        "Song Q",
+        "Fan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States.",
+        "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States.",
+        "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States.",
+        "Department of Health Outcomes and Biomedical Informatics, University of Florida, Gainesville, FL, United States.",
+        "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Luoshu",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States."
+        ]
+      },
+      {
+        "full_name": "Song, Ruocen",
+        "short_name": "Song R",
+        "identifiers": [],
+        "affiliations": [
+          "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States."
+        ]
+      },
+      {
+        "full_name": "Song, Qianqian",
+        "short_name": "Song Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Outcomes and Biomedical Informatics, University of Florida, Gainesville, FL, United States."
+        ]
+      },
+      {
+        "full_name": "Fan, Xiao",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "J. Crayton Pruitt Family Department of Biomedical Engineering, University of Florida, Gainesville, FL, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in artificial intelligence"
+    ],
+    "journal_abbrev": [
+      "Front Artif Intell"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/10 06:33",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39818825",
+      "39639802",
+      "39357703",
+      "38925317",
+      "38349057",
+      "38171929",
+      "37580175",
+      "37041415",
+      "36943033",
+      "36927031",
+      "36192636",
+      "35943134",
+      "33577689",
+      "33454744",
+      "32142788",
+      "32073717",
+      "30943723",
+      "30668479",
+      "30395287",
+      "30169574",
+      "29718463",
+      "29610332",
+      "29035372",
+      "28782043",
+      "28669847",
+      "28132027",
+      "27869118",
+      "27282833",
+      "26615024",
+      "25756377",
+      "25567374",
+      "25348405",
+      "23790211",
+      "23788679",
+      "23737141",
+      "23647843",
+      "23139410",
+      "22992218",
+      "22387025",
+      "21069866",
+      "20522253",
+      "20234357",
+      "19958487",
+      "18520774",
+      "18466918",
+      "17703195",
+      "17284455",
+      "17072327",
+      "15808743",
+      "15720719",
+      "15356290",
+      "14990443",
+      "14871141",
+      "11698483",
+      "10493868",
+      "8388124",
+      "6667333",
+      "6308768",
+      "3541892",
+      "3461465",
+      "3289117",
+      "2842864",
+      "1742275"
+    ],
+    "similar": [
+      "41959628",
+      "38171929",
+      "42475469",
+      "42100742",
+      "22574904",
+      "41172803",
+      "39506806",
+      "39214282",
+      "39576667",
+      "40119464",
+      "41292907",
+      "16712732",
+      "42119874",
+      "40418571",
+      "40143108",
+      "41257586",
+      "42012716",
+      "41977286",
+      "40027759",
+      "41133269",
+      "41677811",
+      "41168713",
+      "39332561",
+      "37824738",
+      "40439671",
+      "37604011",
+      "41284811",
+      "39795988",
+      "37733228",
+      "39788787",
+      "42046069",
+      "42405694",
+      "42458575",
+      "41959048",
+      "41634737",
+      "40957717",
+      "41045511",
+      "41310253",
+      "29028926",
+      "41902287",
+      "40854916",
+      "38062445",
+      "38462979",
+      "41438772",
+      "42491247",
+      "28851273",
+      "42412847",
+      "41686649",
+      "42365029",
+      "39639222",
+      "39713395",
+      "40465350",
+      "42223886",
+      "40594749",
+      "42048356",
+      "42517630",
+      "29408627",
+      "40811181",
+      "40209920",
+      "41431261",
+      "39858443",
+      "39572876",
+      "42157243",
+      "41596767",
+      "40397945",
+      "40772277",
+      "41256652",
+      "39121938",
+      "41399733",
+      "38349057",
+      "40359455",
+      "40675306",
+      "39587231",
+      "32938375",
+      "41578956",
+      "41232885",
+      "41319778",
+      "41278910",
+      "40601265",
+      "39447059",
+      "40975372",
+      "27730230",
+      "33986655",
+      "42324002",
+      "21268114",
+      "38064959",
+      "42598852",
+      "40859107",
+      "41617215",
+      "42013028",
+      "38248912",
+      "42350672",
+      "37039829",
+      "38990514",
+      "41697918",
+      "38943093",
+      "39605589",
+      "35649392",
+      "41397607",
+      "42173334"
+    ],
+    "review": [
+      "41959628",
+      "42491247"
+    ],
+    "pmc": [
+      "13056883"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41959628/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/frai.2026.1763313",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

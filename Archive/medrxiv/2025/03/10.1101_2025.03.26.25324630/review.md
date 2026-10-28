@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors state that integrating molecular and epigenomic annotations with a deep learning framework predicts cell-type-specific regulatory effects of PCOS risk variants, identifies transcription factor binding site disruptions including androgen-related factors, and demonstrates cross-tissue regulatory links using the IRX3-FTO locus as a case study
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, validation statistics, or dataset descriptions are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, model training and validation details, cohort descriptions, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of deep learning to regulatory genomics in PCOS, with a plausible mechanistic narrative linking risk variants to androgen signaling and cross-tissue effects. However, the evidence base available for review is limited to the abstract, which lacks the quantitative detail, validation metrics, and methodological transparency required to assess the robustness of the claims. The central conclusions regarding enhancer-disrupting activity, transcription factor targeting, and the IRX3-FTO case study cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in reproductive genetics, regulatory genomics, and computational biology would find the integration of deep learning with epigenomic annotations relevant. Clinicians and geneticists studying PCOS pathogenesis may also be interested in the proposed mechanistic links between risk variants and androgen signaling, though the translational relevance depends on the strength of the underlying evidence.
+- **Major strengths** The abstract addresses a significant gap in PCOS genetics by focusing on regulatory mechanisms rather than association alone. The proposed integration of cell-type-specific epigenomic data with deep learning is a modern and potentially powerful approach. The emphasis on androgen-related transcription factors provides a biologically coherent hypothesis connecting genetic risk to hyperandrogenemia, a core feature of PCOS.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The deep learning model showed strong concordance with reporter assay data and identified enhancer-disrupting activity in approximately 20% of risk variants
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the model showed strong concordance with reporter assay data, but no concordance metrics, validation dataset details, or statistical significance are reported. The 20% estimate for enhancer-disrupting variants lacks confidence intervals or comparison to a null expectation.
+  - **Why it matters** Without quantitative validation metrics, the reliability of the model predictions cannot be assessed. The 20% figure is central to the claim that risk variants frequently disrupt enhancer function, and if this estimate is not robust, downstream mechanistic interpretations are weakened.
+  - **Resolution test** Provide concordance statistics such as correlation coefficients, area under the receiver operating characteristic curve, or precision-recall values against reporter assay data, along with confidence intervals for the 20% estimate and a comparison to matched control variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Variants prioritized by the model were more pleiotropic and exerted stronger downregulatory effects on gene expression compared to other risk variants
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims that model-prioritized variants are more pleiotropic and have stronger downregulatory effects, but no effect sizes, statistical tests, or definitions of pleiotropy are provided. The comparison group is not clearly defined.
+  - **Why it matters** This claim is a key differentiator for the model utility. Without effect sizes and significance testing, the reader cannot determine whether the observed differences are meaningful or could arise by chance.
+  - **Resolution test** Report quantitative measures of pleiotropy and gene expression effects with appropriate statistical tests, including effect sizes, p-values, and multiple testing corrections, and clearly define the comparator set of variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The analysis revealed that these variants affect key transcription factor binding sites, including NR4A1/2, NHLH2, FOXA1, and WT1
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract lists specific transcription factors but provides no details on how these were identified, what significance thresholds were applied, or whether these findings are robust to model parameters or cell-type definitions.
+  - **Why it matters** Transcription factor identification is a central mechanistic claim. Without methodological detail, the specificity and reproducibility of these findings cannot be evaluated, and the list may reflect model artifacts rather than true biological signal.
+  - **Resolution test** Describe the transcription factor motif analysis or attribution method, report significance thresholds, and demonstrate robustness through sensitivity analyses or independent validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Using the IRX3-FTO locus as a case study, we demonstrate how regulatory disruptions in tissues such as the fetal brain, pancreas, adipocytes, and endothelial cells may link obesity-associated mechanisms to PCOS pathogenesis
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The case study is described in a single sentence without any supporting data, such as cell-type-specific regulatory effects, functional validation, or quantitative links to PCOS phenotypes.
+  - **Why it matters** The IRX3-FTO locus is a well-studied obesity locus, and the claim of a mechanistic link to PCOS is substantial. Without evidence, this remains speculative and does not advance the case for cross-tissue regulatory effects.
+  - **Resolution test** Provide detailed results for the case study, including cell-type-specific enhancer activity predictions, experimental validation if available, and a clear mechanistic model connecting the regulatory disruptions to PCOS-relevant phenotypes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of causal cell-types
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to proposed causal cell-types but does not specify which cell-types were included or how they were determined.
+  - **Required correction** List the cell-types analyzed and briefly describe the criteria for considering them causal.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The deep learning framework is not named or described in terms of architecture, input features, or training data.
+  - **Required correction** Provide the model name or architecture and summarize the input features and training approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Downregulatory effects
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of stronger downregulatory effects is presented without context on whether downregulation is expected to be pathogenic or protective in PCOS.
+  - **Required correction** Clarify the biological interpretation of downregulation in the context of PCOS risk.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative or methodological detail to establish the central claims of model validity, transcription factor targeting, variant prioritization utility, or the IRX3-FTO case study.
+- **Assessment against Nature-style criteria** Originality is moderate, as the integration of deep learning with regulatory genomics is not entirely new, though its application to PCOS may offer a fresh angle. Scientific importance is potentially high given the need for mechanistic understanding of PCOS genetics, but the current evidence does not support a definitive advance. Interdisciplinary readership could be broad, spanning computational biology and reproductive endocrinology, but the abstract lacks the detail needed for nonspecialists to evaluate the claims. Technical soundness cannot be assessed from the abstract alone, and the absence of validation metrics is a significant limitation. Readability for nonspecialists is acceptable, but the abstract assumes familiarity with deep learning and regulatory genomics concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework and interesting hypotheses, but the lack of quantitative results, methodological detail, and validation data prevents a supportive recommendation. A full manuscript with rigorous validation and transparent methods would be required to assess whether the claims hold.
+
+## Risk / unsupported claims
+- The claim of strong concordance with reporter assay data is unsupported, as no concordance metrics are provided.
+- The 20% estimate of enhancer-disrupting variants is unsupported, as no confidence intervals or null comparisons are given.
+- The claim that model-prioritized variants are more pleiotropic and exert stronger downregulatory effects is unsupported, as no effect sizes or statistical tests are reported.
+- The identification of specific transcription factors NR4A1/2, NHLH2, FOXA1, and WT1 is unsupported, as no methodological details or significance thresholds are provided.
+- The IRX3-FTO case study claim of linking obesity-associated mechanisms to PCOS pathogenesis is unsupported, as no data are presented.
+- The overall utility of the deep learning framework for uncovering disease-relevant variants is not assessable from the abstract alone.

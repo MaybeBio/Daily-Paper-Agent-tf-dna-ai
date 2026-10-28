@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Technical soundness, methodological novelty, experimental design, and validity of claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose TFBS-Finder, a deep learning model combining pre-trained DNABERT with CNN, a modified convolutional block attention module (MCBAM), and a multi-scale convolutions with attention (MSCA) module, to predict transcription factor binding sites. The model is trained and tested on 165 ENCODE ChIP-seq datasets, with ablation studies, cross-cell line validation, and comparisons against seven existing predictors. The authors report superior performance over all baselines.
+- **Visible evidence base** Main text including Introduction, Methods, Results, Discussion, Conclusion, and references. Tables I-III and Figures 1-6 are referenced but not fully visible in the provided text. Supplementary materials are mentioned but not provided.
+- **Missing materials affecting confidence** Full tables and figures, supplementary tables S1-S7, hyperparameter details, dataset preprocessing specifics, and code repository contents were not accessible for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics and proposes a plausible architecture combining DNABERT with attention-based convolutional modules. However, the current presentation has significant gaps in methodological detail, statistical rigor, and reproducibility that prevent full evaluation of the claims. The performance improvements over baselines, while reported as substantial, cannot be verified without access to the full results tables and detailed experimental protocols. The cross-cell line validation is a commendable addition but requires more careful analysis of potential data leakage and class imbalance issues.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding site prediction, regulatory genomics, and deep learning applications to genomics. The work may also interest researchers developing attention-based architectures for biological sequence analysis, given the combination of DNABERT with convolutional attention modules.
+- **Major strengths** The problem is well-motivated and practically relevant. The architecture combines established components (DNABERT, CNN, attention modules) in a reasonable manner. The inclusion of ablation studies and cross-cell line validation demonstrates awareness of model interpretability and generalizability concerns. The authors compare against a diverse set of seven baselines, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological completeness
+  - **Claim pointer** The model architecture and training procedure are described as sufficient for replication.
+  - **Evidence pointer** Section II-B, II-C; Figure 1; Supplementary Tables S2 and S3
+  - **Concern** The description of the model architecture is incomplete. Key hyperparameters such as the number of layers, filter sizes, kernel sizes, dilation rates for the multi-scale convolutions, and the exact configuration of the output module are not specified in the main text. The authors refer to supplementary tables, but these are not provided. Additionally, the training procedure lacks details on learning rate scheduling parameters, weight decay, and the specific early stopping criteria beyond "2 consecutive runs."
+  - **Why it matters** Without complete architectural and training details, the work cannot be reproduced or independently validated. This is a fundamental requirement for computational biology method papers.
+  - **Resolution test** Provide complete architectural specifications in the main text or ensure supplementary materials are accessible. Include all hyperparameters, layer configurations, and training details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity and comparison fairness
+  - **Claim pointer** "TFBS-Finder outperforms all other models" and "outperforms BERT-TFBS by 7.9%, 4.1% and 4.2%."
+  - **Evidence pointer** Section III-D, Table III, Figure 6
+  - **Concern** The comparison with baselines lacks statistical significance testing. The authors report average improvements but do not provide confidence intervals, standard deviations, or statistical tests (e.g., paired tests across datasets) to support the claim of superiority. Furthermore, it is unclear whether the baselines were retrained under identical conditions or if published results were used, which could introduce bias.
+  - **Why it matters** Reported improvements may be within variance. Without statistical rigor, the central claim of superiority is not established.
+  - **Resolution test** Perform and report statistical significance testing (e.g., Wilcoxon signed-rank test across the 165 datasets) and provide variance measures. Clarify whether baselines were retrained with the same data splits and preprocessing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data leakage and experimental design
+  - **Claim pointer** Cross-cell line validation demonstrates "generalisability and robustness."
+  - **Evidence pointer** Section III-C, Table II, Figure 5, Supplementary Table S5
+  - **Concern** The cross-cell line validation setup is described, but critical details are missing. It is unclear whether the negative sets for training and testing are disjoint across cell lines, whether the same TF binding events appear in multiple cell lines (which could cause leakage), and how the random selection of negatives was stratified. The authors note that YY1, CoREST, MYC, and HDAC are misclassified as CTCF, but no analysis is provided to explain whether this reflects biological similarity or a methodological artifact.
+  - **Why it matters** Data leakage would inflate performance estimates and undermine the generalizability claim. The misclassification analysis requires deeper investigation to be meaningful.
+  - **Resolution test** Provide detailed data splitting protocols, ensure no overlapping genomic regions between train and test sets, and perform a more rigorous analysis of misclassification patterns.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and contribution
+  - **Claim pointer** The model is described as "novel" and the combination of modules is implied to be a key contribution.
+  - **Evidence pointer** Section I, Section II-B
+  - **Concern** The novelty of the architecture is not clearly articulated. BERT-TFBS already uses DNABERT-2 with CNN and CBAM. The proposed modifications (spatial-before-channel attention in MCBAM, and the MSCA module) are incremental. The authors do not clearly explain what specific problem these modifications solve that prior architectures do not, nor do they provide a conceptual or theoretical justification for why these changes should improve performance.
+  - **Why it matters** For a methods paper, the novelty must be clearly established and justified. Without it, the contribution may be seen as incremental engineering rather than a substantive advance.
+  - **Resolution test** Clearly articulate the specific limitations of prior architectures that MCBAM and MSCA address, and provide intuition or theoretical reasoning for why the proposed modifications should work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section II-B, equations
+  - **Evidence pointer** Section II-B
+  - **Issue** The equations describing the attention mechanisms are incomplete or not fully rendered in the provided text. The notation is inconsistent (e.g., "𝒲" without subscripts).
+  - **Required correction** Provide complete, properly formatted equations with all variables defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, Section I
+  - **Issue** The GitHub link is mentioned, but it is unclear whether the code includes training scripts, data preprocessing pipelines, and model weights. The repository was not accessible for verification.
+  - **Required correction** Clarify the contents of the repository and ensure it includes all necessary components for replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental rigor
+  - **Affected element** Section III-A, k-mer selection
+  - **Evidence pointer** Section III-A
+  - **Issue** The choice of k=5 is stated as optimal, but no details are given on how this was determined or whether other values were systematically evaluated.
+  - **Required correction** Provide a brief description of the k-mer selection process or reference a supplementary figure/table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3, Figure 5, Figure 6
+  - **Evidence pointer** Section III-B, III-C, III-D
+  - **Issue** The figures are referenced but not described in sufficient detail in the text. The violin plots and distribution plots are mentioned, but the reader cannot interpret them without seeing the figures.
+  - **Required correction** Provide more detailed descriptions of the figures in the text, including what is plotted and what the key observations are.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Related work
+  - **Affected element** Section I
+  - **Evidence pointer** Section I
+  - **Issue** The related work section is brief and does not discuss recent transformer-based models for TFBS prediction beyond DNABERT, such as Enformer or other genomic foundation models.
+  - **Required correction** Expand the related work to include recent advances and clearly position TFBS-Finder relative to them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (reproducibility), R1-M2 (statistical validity), R1-M3 (data leakage)
+- **Assessment against Nature-style criteria** Originality: Moderate. The architecture is a combination of existing components with incremental modifications. The novelty claim is not strongly justified. Scientific importance: Moderate to high. TFBS prediction is an important problem, and improvements in accuracy are valuable. However, the practical impact depends on the robustness of the reported gains. Interdisciplinary readership: Moderate. The work will appeal primarily to computational biologists and machine learning researchers in genomics. The presentation is technical and may not be accessible to a broader biological audience. Technical soundness: Currently not fully established. Key methodological details are missing, and statistical validation is insufficient. Readability for nonspecialists: The introduction is accessible, but the methods section assumes significant familiarity with deep learning and genomics terminology. The manuscript would benefit from clearer explanations of the attention mechanisms and their biological relevance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the proposed architecture is plausible, but the lack of methodological detail, statistical rigor, and potential data leakage concerns prevent a positive recommendation. Major revisions are required to address these issues.
+
+## Risk / unsupported claims
+- The claim of "superiority" over baselines is unsupported without statistical significance testing and full results tables.
+- The cross-cell line generalizability claim is not fully supported due to potential data leakage and incomplete description of the experimental setup.
+- The novelty of the architecture is asserted but not convincingly demonstrated.
+- The performance improvements over BERT-TFBS (7.9%, 4.1%, 4.2%) cannot be verified without access to Table III and the underlying data.
+- The misclassification analysis (YY1, CoREST, MYC, HDAC) is presented as a finding but lacks quantitative support or biological interpretation.
+- The claim that k=5 is optimal is not substantiated with data.

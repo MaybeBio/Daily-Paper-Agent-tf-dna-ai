@@ -1,139 +1,102 @@
 ## Review setup
 - **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion. Figures and tables referenced but not provided. Supplementary material referenced but not provided.
-- **Assessment boundary** Scientific soundness, methodological clarity, validity of performance claims, reproducibility, and alignment with the stated scope of predicting single-stranded and double-stranded DNA-binding proteins.
-- **Shared manuscript claim summary** The authors propose BAN-SDBPred, a deep learning framework combining ESM2 and ProtT5 protein language model embeddings with RECM-HOG local structural features, fused via a bilinear attention network, and trained with an adaptive neighborhood-based sampling (ANBS) strategy to address class imbalance. They report improved performance over existing predictors on independent test data.
-- **Visible evidence base** Text descriptions of methods and results, including numerical performance values for several configurations. No figures, tables, or supplementary material were available for inspection.
-- **Missing materials affecting confidence** All figures and tables, including the main performance comparison table, ablation tables, UMAP visualizations, calibration curves, and all supplementary tables and notes. Without these, quantitative claims cannot be independently verified.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, reported results, and claims. No assessment of editorial quality or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors propose BAN-SDBPred, a deep learning framework combining ESM2 protein language model embeddings with RECM-HOG local structural features, fused via a bilinear attention network, with an adaptive neighborhood-based sampling (ANBS) strategy to address class imbalance. They claim state-of-the-art performance for predicting single-stranded and double-stranded DNA-binding proteins.
+- **Visible evidence base** Text descriptions of methods and results, including numerical performance metrics reported in the text. Tables and figures referenced but not visible. Supplementary tables and figures referenced but not provided.
+- **Missing materials affecting confidence** All tables and figures, including the main comparison tables (Tables 1-4), Figure 1-6, and all supplementary materials (Tables S1-S8, Figures S9-S10). Dataset details, hyperparameter configurations, and implementation code are not fully described in the visible text.
 
 ## Reviewer
-- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics, namely the classification of DNA-binding proteins into single-stranded and double-stranded binding types. The proposed architecture is a reasonable combination of established components, and the authors provide a thorough set of experiments across multiple feature extractors and model architectures. However, the absence of all figures, tables, and supplementary material prevents verification of the central quantitative claims. Several methodological details are also unclear or potentially inconsistent, particularly regarding the RECM-HOG feature dimensionality and the description of the ANBS algorithm. The reported improvements, while plausible, are modest and based on a single benchmark split, which limits the strength of the conclusions.
-- **Who would be interested in the results, and why** Researchers working on protein function prediction from sequence, particularly those interested in DNA-binding protein classification, protein language model embeddings, and class imbalance handling in bioinformatics. The work may also be of interest to developers of deep learning architectures for biological sequence analysis.
-- **Major strengths** The problem is well-motivated and practically relevant. The authors evaluate a wide range of feature extractors and model architectures, providing a systematic comparison. The use of protein language model embeddings is timely. The inclusion of calibration analysis and bootstrap confidence intervals is a positive methodological step. The authors also compare ANBS against SMOTE and perform hyperparameter sensitivity analysis, which strengthens the claims about the sampling strategy.
-- **Major Concerns** See detailed items below.
-- **Minor Comments** See detailed items below.
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5.
-- **Assessment against Nature-style criteria**  
-  - **Originality** Moderate. The combination of ESM2, RECM-HOG, bilinear attention, and ANBS is novel in this specific configuration, but each component is established. The conceptual advance is incremental rather than transformative.  
-  - **Scientific importance** Moderate. Accurate prediction of SSB versus DSB is useful, but the problem is narrow and the performance gains over existing methods are modest. The work does not open a new direction or resolve a long-standing bottleneck.  
-  - **Interdisciplinary readership** Limited. The manuscript is written for a specialist bioinformatics audience. Biologists without deep learning expertise would struggle with the methods section.  
-  - **Technical soundness** Not fully assessable from the provided material. Several methodological details are unclear or potentially inconsistent, and the absence of figures and tables prevents verification of results.  
-  - **Readability for nonspecialists** Below the standard expected for a general journal. The introduction is accessible, but the methods and results sections assume substantial prior knowledge of protein language models, bilinear attention, and sampling techniques.
-- **Recommendation posture** Currently not established from the provided evidence. The manuscript may become publishable after the authors provide the missing materials, clarify the methodological inconsistencies, and strengthen the evaluation with additional benchmarks and statistical rigor.
-
-### Major Concerns
-
-- **Concern ID** R1-M1
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Evidence integrity
-- **Claim pointer** The manuscript claims that BAN-SDBPred outperforms existing predictors on independent test data, with specific improvements in Acc, Pre, F1, MCC, and AUC.
-- **Evidence pointer** Results sections; Table 4; Figure 6 (both referenced but not provided)
-- **Concern** All figures and tables, including the primary performance comparison table and all ablation tables, are missing from the provided material. Without these, the central quantitative claims cannot be verified. The text provides some numbers, but these are insufficient to assess statistical significance, variance across folds, or the validity of the comparisons.
-- **Why it matters** The core contribution of the manuscript is a performance improvement. If the supporting data are not available for inspection, the claims are unverifiable and the scientific contribution cannot be assessed.
-- **Resolution test** Provide all figures and tables, including the full performance comparison, ablation results, and calibration curves. Ensure that all values reported in the text match the tables and figures.
-
-- **Concern ID** R1-M2
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Methodological clarity
-- **Claim pointer** The RECM-HOG feature is described as producing a fixed 81-dimensional vector, but the RECM matrix is defined as R ∈ R^(L×20), and the HOG transformation is applied to a 20×20 image.
-- **Evidence pointer** Methods section, "RECM-HOG Transformation" subsection
-- **Concern** The description of the RECM-HOG feature extraction is internally inconsistent. The RECM is defined as an L×20 matrix, but the HOG transformation is described as operating on a 20×20 image. The equations for gradient computation and the cell partitioning appear to assume a 20×20 input, which contradicts the L×20 definition. It is unclear how a variable-length sequence is converted into a fixed 20×20 matrix, and how the 81-dimensional output is derived from this.
-- **Why it matters** The RECM-HOG feature is a central component of the proposed method. If the feature extraction is not clearly and correctly described, the method cannot be reproduced or evaluated.
-- **Resolution test** Clarify the exact dimensions of the RECM matrix, the preprocessing steps that convert a variable-length sequence into a fixed-size input, and the precise steps of the HOG transformation. Provide a step-by-step example or pseudocode.
-
-- **Concern ID** R1-M3
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Methodological clarity
-- **Claim pointer** The ANBS algorithm is described as "adaptive neighborhood-based sampling" that "iteratively increases the minority class until a balanced configuration is achieved" and "removes majority samples close on both sides of the decision boundary."
-- **Evidence pointer** Methods section, "Adaptive Neighborhood-Based Sampling (ANBS) Algorithm" subsection; Algorithm 1
-- **Concern** The description of ANBS is vague and partially contradictory. The text states that the algorithm "increases the minority class" but also "removes majority samples." It is unclear whether ANBS performs oversampling, undersampling, or both. The relationship to ADASYN is mentioned, but the specific modifications are not described. The pseudocode is referenced but not provided. The parameters max_ratio and iter_max are given, but their roles are not fully explained.
-- **Why it matters** The ANBS strategy is claimed to be a key contribution of the work. Without a clear description of the algorithm, the method cannot be reproduced, and the claimed benefits of ANBS over standard methods cannot be evaluated.
-- **Resolution test** Provide a complete and precise description of the ANBS algorithm, including the pseudocode, the exact steps for selecting and synthesizing samples, the criteria for removing majority samples, and the roles of all parameters.
-
-- **Concern ID** R1-M4
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Statistical rigor
-- **Claim pointer** The manuscript reports performance improvements of BAN-SDBPred over existing predictors, including a 21% improvement in F1 and 20% in AUC over CNN-Pred on the independent test set.
-- **Evidence pointer** Results section, "Performance Analysis of BAN-SDBPred with Existing State-of-the-Art Predictors" subsection; Table 4
-- **Concern** The reported improvements are based on a single train-test split. No statistical significance testing is reported, and no confidence intervals are provided for the comparison with existing methods. The bootstrap analysis is mentioned for the final model, but it is not clear whether this was applied to the comparisons with other predictors. Given the small size of the independent test set (165 sequences), the reported differences may not be statistically robust.
-- **Why it matters** The claim of superiority over existing methods is a central conclusion. Without statistical evidence, the observed improvements could be due to chance or to the specific choice of test set.
-- **Resolution test** Report confidence intervals for all performance metrics on the independent test set, and perform statistical significance tests (e.g., McNemar's test) for the comparison with existing predictors. Consider reporting results across multiple random seeds or cross-validation schemes.
-
-- **Concern ID** R1-M5
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Reproducibility
-- **Claim pointer** The authors state that "All data and models are available at 10.5281/zenodo.18718092."
-- **Evidence pointer** Abstract; Data Availability statement (implied)
-- **Concern** The Zenodo link is provided, but the actual contents of the repository are not described. It is unclear whether the repository contains the training data, the test data, the trained model weights, the source code, or all of the above. Without a clear description of the repository contents and the exact versions of the software dependencies, the work cannot be reproduced.
-- **Why it matters** Reproducibility is a fundamental requirement for computational research. The authors should provide a clear and complete description of the code and data availability.
-- **Resolution test** Provide a detailed description of the Zenodo repository contents, including the directory structure, file formats, and software dependencies. Ensure that the code is well-documented and that the data are in a standard format.
-
-### Minor Comments
-
-- **Concern ID** R1-m1
-- **Severity** Minor
-- **Axis** Clarity
-- **Affected element** Abstract
-- **Evidence pointer** Abstract, last sentence
-- **Issue** The abstract states that BAN-SDBPred achieves improvements of "2%, 4.5%, 21%, 9%, and 20%" in Acc, Pre, F1, MCC, and AUC, respectively. These numbers are presented without context, and it is unclear whether these are absolute or relative improvements.
-- **Required correction** Clarify whether these are absolute or relative improvements, and specify the baseline model for each comparison.
-
-- **Concern ID** R1-m2
-- **Severity** Minor
-- **Axis** Terminology
-- **Affected element** Introduction and Methods
-- **Evidence pointer** Introduction, paragraph 1; Methods, "Benchmark Data Sets" subsection
-- **Issue** The terms "SSB" and "DSB" are used throughout, but the full forms "single-stranded DNA-binding protein" and "double-stranded DNA-binding protein" are not consistently used. The abstract uses "SSBs" and "DSBs" without defining them.
-- **Required correction** Define all abbreviations at first use in the abstract and in the main text.
-
-- **Concern ID** R1-m3
-- **Severity** Minor
-- **Axis** Completeness
-- **Affected element** Methods, "Benchmark Data Sets" subsection
-- **Evidence pointer** Methods, "Benchmark Data Sets" subsection
-- **Issue** The description of the dataset construction mentions that CD-HIT was used to remove redundancy at a 0.7 threshold, but the final class distribution is only given as a ratio (DSB:SSB ≈ 4.77:1). The exact number of sequences in each class for both training and test sets is not stated in the text.
-- **Required correction** Provide the exact number of sequences in each class for the training and test sets.
-
-- **Concern ID** R1-m4
-- **Severity** Minor
-- **Axis** Clarity
-- **Affected element** Methods, "Bilinear Attention Network for Feature Fusion" subsection
-- **Evidence pointer** Methods, "Bilinear Attention Network for Feature Fusion" subsection
-- **Issue** The description of the bilinear attention mechanism is brief. The equations for the interaction score and the pooling operation are provided, but the overall architecture, including the number of attention heads, the dimensions of the projection matrices, and the fusion with the fully connected layers, is not fully described.
-- **Required correction** Provide a more detailed description of the bilinear attention network architecture, including the number of heads, the dimensions of the projection matrices, and the structure of the classification head.
-
-- **Concern ID** R1-m5
-- **Severity** Minor
-- **Axis** Presentation
-- **Affected element** Results, "Performance Analysis of Single Features on 5-Fold-CV and Independent Testing (without ANBS)" subsection
-- **Evidence pointer** Results, first subsection
-- **Issue** The text states that "persistent models were unstable with handcrafted features" and gives the example of LSTM with CPSF obtaining 62.3 in Acc. The term "persistent models" is unclear.
-- **Required correction** Replace "persistent models" with a clearer term, such as "recurrent models" or "LSTM-based models."
-
-- **Concern ID** R1-m6
-- **Severity** Minor
-- **Axis** Completeness
-- **Affected element** Results, "Performance Analysis of BAN-SDBPred with Existing State-of-the-Art Predictors" subsection
-- **Evidence pointer** Results, final subsection
-- **Issue** The comparison with existing predictors is limited to four methods. The authors do not discuss why these specific methods were chosen or whether there are more recent methods that should be included.
-- **Required correction** Justify the choice of baseline methods and discuss whether any more recent predictors should be included in the comparison.
-
-- **Concern ID** R1-m7
-- **Severity** Minor
-- **Axis** Language
-- **Affected element** Throughout
-- **Evidence pointer** Multiple locations
-- **Issue** The manuscript contains several grammatical errors and awkward phrasings, e.g., "The BAN-SDBPs use the deep representation" in the Conclusion, and "as experimental techniques" at the end of a sentence in the Introduction.
-- **Required correction** The manuscript should be carefully proofread and edited for grammar and clarity.
+- **Overall assessment** The manuscript presents a technically plausible approach to an important bioinformatics problem. The combination of protein language model embeddings with handcrafted structural features and a bilinear attention mechanism is reasonable, and the class imbalance handling via ANBS is a thoughtful contribution. However, the evaluation is severely compromised by the absence of all tables and figures, making it impossible to verify the reported performance improvements. The reported gains over existing methods, particularly the 21% improvement in F1 and 20% in AUC over CNN-Pred, are substantial and require careful scrutiny. The manuscript would benefit from a more rigorous comparison protocol, including statistical significance testing and analysis of potential data leakage. The claims of biological interpretability are not sufficiently supported by the presented evidence.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-protein interactions, and deep learning applications in genomics. The method could also interest researchers developing imbalanced classification techniques for biological data. The practical utility for drug discovery and genome annotation makes it relevant to a broader computational biology audience.
+- **Major strengths** The problem is well-motivated and practically important. The methodological combination of PLM embeddings with local structural descriptors is sensible and addresses a known limitation of single-view approaches. The explicit handling of class imbalance through ANBS, with comparison to SMOTE, is a strength. The use of multiple evaluation metrics and both cross-validation and independent testing is appropriate. The authors acknowledge limitations regarding dataset age and generalization gaps.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that BAN-SDBPred outperforms existing predictors across all metrics, with specific improvements of 2% in Acc, 4.5% in Precision, 21% in F1, 9% in MCC, and 20% in AUC over CNN-Pred.
+  - **Evidence pointer** Results section, Table 4, Figure 6 (location not provided for specific values)
+  - **Concern** All performance comparison tables and figures are missing from the provided material. The reported numerical values cannot be verified against actual data. Furthermore, no statistical significance testing is reported, and it is unclear whether the performance differences are meaningful given potential variance across runs.
+  - **Why it matters** The central claim of the paper is superior predictive performance. Without access to the actual comparison tables, the reader cannot assess whether the improvements are consistent, whether they hold across all metrics, or whether they might be artifacts of a particular data split or random seed. The magnitude of improvement in F1 (21%) and AUC (20%) is unusually large and warrants careful examination.
+  - **Resolution test** Provide all comparison tables and figures. Report statistical significance tests (e.g., paired tests across multiple runs) and confidence intervals for all metrics. Clarify whether the reported improvements are consistent across different random seeds and data splits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the bilinear attention network effectively fuses global and local features to capture complementary information, and that this fusion is responsible for the performance gains.
+  - **Evidence pointer** Methods section "Bilinear Attention Network for Feature Fusion", Results section "Performance Analysis of Dual Features Fusion"
+  - **Concern** The ablation study is described but the actual results are not visible. It is unclear whether the performance gain from feature fusion is statistically significant compared to ESM2 alone. The manuscript does not report whether the bilinear attention mechanism outperforms simpler fusion methods such as concatenation or additive fusion. The choice of attention heads and the interpretability claims are not empirically validated.
+  - **Why it matters** The novelty of the method rests on the bilinear attention fusion. If simpler fusion methods achieve comparable performance, the contribution is incremental. The interpretability claims, which are a stated advantage, are not supported by any quantitative or qualitative analysis of the attention weights.
+  - **Resolution test** Provide the full ablation study results. Compare bilinear attention fusion against simpler baselines (e.g., concatenation, element-wise addition) with the same feature extractors. Provide analysis of attention weights to support interpretability claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that all code, trained models, and datasets are publicly available at the Zenodo repository (DOI 10.5281/zenodo.18718092).
+  - **Evidence pointer** Abstract, Data Availability statement (location not provided)
+  - **Concern** The manuscript does not provide sufficient detail on the model architecture, training procedure, hyperparameter search, or data preprocessing to enable independent reproduction. Key hyperparameters are mentioned (batch size 32, learning rate 0.001, hidden dimension 256, attention heads k=3, dropout 0.2) but the rationale for these choices and the search space explored are not described. The Zenodo repository is referenced but its contents cannot be verified from the provided material.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without detailed experimental protocols and verification of the repository contents, the method cannot be independently validated or built upon by other researchers.
+  - **Resolution test** Provide complete architecture details, training procedures, and hyperparameter search methodology. Verify that the Zenodo repository contains all necessary code, data, and trained models. Consider providing a Docker container or similar for easy reproduction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** The claim that the independent test set (PDB401) provides an unbiased evaluation of generalization performance.
+  - **Evidence pointer** Methods section "Benchmark Data Sets", Results section
+  - **Concern** The manuscript states that sequence similarity between training and test sets was limited to <30%, which is appropriate. However, the dataset sizes are not clearly reported in the visible text. The training set has 873 DSBs and 183 SSBs after redundancy reduction, and the test set has 124 DSBs and 41 SSBs. The small number of SSB test samples (41) raises concerns about the reliability of performance estimates, particularly for metrics like MCC and AUC that can be sensitive to small sample sizes. The confidence intervals reported in the bootstrap analysis partially address this, but the manuscript does not discuss the limitations of evaluating on such a small test set.
+  - **Why it matters** The reliability of the reported performance improvements depends on the statistical power of the evaluation. With only 41 SSB test samples, the confidence intervals are likely wide, and the reported improvements may not be robust.
+  - **Resolution test** Report the full dataset statistics, including sequence length distributions and family-level diversity. Discuss the limitations of the small test set and consider additional evaluation on larger, more diverse datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Adaptive Neighborhood-Based Sampling (ANBS) Algorithm"
+  - **Evidence pointer** Algorithm 1 (not visible)
+  - **Issue** The description of ANBS is somewhat unclear. The text states that the algorithm removes majority samples close to the decision boundary, which is an unusual approach for oversampling methods. The relationship between ANBS and ADASYN is mentioned but the specific modifications are not clearly delineated.
+  - **Required correction** Provide a clearer step-by-step description of the ANBS algorithm, including the exact criteria for selecting samples for removal and synthesis. Clarify the differences from ADASYN and the rationale for removing majority samples.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section, performance metrics
+  - **Evidence pointer** Tables 1-4 (not visible)
+  - **Issue** The manuscript reports many metrics (Acc, Pre, Sen, Spe, F1, MCC, AUC) but does not clearly indicate which metrics are most important for this problem. The discussion of results focuses primarily on Acc, F1, and MCC, but the reader is left to determine which differences are practically meaningful.
+  - **Required correction** Clearly state the primary evaluation metric(s) and justify this choice. Discuss the practical implications of the performance differences, particularly the trade-off between sensitivity and specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of biological interpretability is superficial. The manuscript claims that the bilinear attention mechanism provides interpretable insights but does not provide any concrete examples or analysis of what the model has learned.
+  - **Required correction** Provide specific examples of attention patterns or feature importance analyses that illustrate the biological insights gained from the model. If interpretability is a claimed advantage, it should be demonstrated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Protein Language Model-Based Evolutionary Features"
+  - **Evidence pointer** Equation 8
+  - **Issue** The manuscript states that ESM2-3B is used but does not specify the exact model variant (e.g., esm2_t36_3B_UR50D) or the tokenization scheme. The pooling strategy is described as mean pooling, but the handling of special tokens (e.g., start/end tokens) is not specified.
+  - **Required correction** Provide the exact model identifier and version, tokenization details, and the precise pooling strategy including handling of special tokens.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section, comparison with existing methods
+  - **Evidence pointer** Table 4 (not visible)
+  - **Issue** The comparison with existing methods appears to use previously published results rather than re-implementing and evaluating those methods under identical conditions. This can lead to unfair comparisons due to differences in data preprocessing, evaluation protocols, and hyperparameter tuning.
+  - **Required correction** Clarify whether existing methods were re-implemented and evaluated under the same conditions. If previously published results were used, discuss the potential biases in this approach and consider re-evaluating key baselines.
 
 ## Risk / unsupported claims
-- The claim that BAN-SDBPred outperforms existing predictors cannot be verified without the missing tables and figures.
-- The claim that ANBS improves performance over SMOTE is based on a single comparison and lacks statistical testing.
-- The claim that the bilinear attention network provides "biologically interpretable" insights is supported only by a qualitative statement and a reference to SHAP analysis, but no SHAP results are shown in the provided material.
-- The claim that the model captures "long-range sequence dependencies and local residue interactions simultaneously" is plausible but not directly demonstrated.
-- The claim that the method is "generalizable" is based on a single independent test set and lacks external validation on more recent or diverse datasets.
-- The statement that "the benchmark data sets used are relatively old" is acknowledged in the Conclusion, but the authors do not discuss the potential impact of this limitation on the validity of their results.
+- The claim of state-of-the-art performance with specific improvements over CNN-Pred (2% Acc, 4.5% Precision, 21% F1, 9% MCC, 20% AUC) is unsupported because the comparison tables are not visible.
+- The claim that the bilinear attention network provides biological interpretability is unsupported by any presented analysis.
+- The claim that ANBS improves generalization is partially supported by the text but the full comparison data is not visible.
+- The claim that the method will help predict large-scale novel SSBs and DSBs is speculative and not directly supported by the presented results.
+- The performance of the model on the independent test set, with an Acc of 84.2% and MCC of 0.571, is notably lower than the cross-validation performance (Acc 95.9%, MCC 0.862), suggesting a generalization gap that is not fully explained.
+- The reported improvement in AUC from 0.66 (CNN-Pred) to 0.862 (BAN-SDBPred) is substantial and requires verification, particularly given the small test set size.
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The combination of ESM2 embeddings with RECM-HOG features and bilinear attention is novel, but each component is established. The ANBS algorithm is a modification of existing oversampling techniques. The conceptual advance is incremental rather than transformative.
+- **Scientific importance** Moderate. Accurate prediction of SSB vs DSB is useful for genome annotation and drug discovery, but this is a narrow subproblem within the broader field of protein function prediction. The potential impact on the field is limited by the relatively small benchmark datasets and the incremental nature of the improvement.
+- **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and bioinformaticians. The methods are too specialized for a general biology audience, and the biological insights are not developed sufficiently to attract structural biologists or molecular biologists.
+- **Technical soundness** The approach is technically plausible, but the evaluation is incomplete. The absence of tables and figures prevents verification of the results. The lack of statistical significance testing and the small test set size are concerns. The comparison with existing methods may be biased if previously published results were used without re-implementation.
+- **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with deep learning and protein bioinformatics. The abstract is accessible, but the methods section would be challenging for nonspecialists. The biological motivation is clear, but the connection between the technical choices and biological function is not well explained.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents a reasonable approach to an important problem, but the core claims of superior performance cannot be verified without the missing tables and figures. The evaluation protocol needs strengthening with statistical significance testing and careful baseline comparisons. The interpretability claims need to be substantiated with concrete analysis. If the missing evidence is provided and the concerns are addressed, the manuscript could become a solid contribution to the field, but in its current form, the case is not made.

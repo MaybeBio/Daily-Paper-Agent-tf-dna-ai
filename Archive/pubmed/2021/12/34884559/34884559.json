@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "34884559",
+    "doi": "10.3390/ijms222312755",
+    "title": "Sparsely Connected Autoencoders: A Multi-Purpose Tool for Single Cell omics Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Biological processes are based on complex networks of cells and molecules. Single cell multi-omics is a new tool aiming to provide new incites in the complex network of events controlling the functionality of the cell. METHODS: Since single cell technologies provide many sample measurements, they are the ideal environment for the application of Deep Learning and Machine Learning approaches. An autoencoder is composed of an encoder and a decoder sub-model. An autoencoder is a very powerful tool in data compression and noise removal. However, the decoder model remains a black box from which is impossible to depict the contribution of the single input elements. We have recently developed a new class of autoencoders, called Sparsely Connected Autoencoders (SCA), which have the advantage of providing a controlled association among the input layer and the decoder module. This new architecture has the benefit that the decoder model is not a black box anymore and can be used to depict new biologically interesting features from single cell data. RESULTS: Here, we show that SCA hidden layer can grab new information usually hidden in single cell data, like providing clustering on meta-features difficult, i.e. transcription factors expression, or not technically not possible, i.e. miRNA expression, to depict in single cell RNAseq data. Furthermore, SCA representation of cell clusters has the advantage of simulating a conventional bulk RNAseq, which is a data transformation allowing the identification of similarity among independent experiments. CONCLUSIONS: In our opinion, SCA represents the bioinformatics version of a universal \"Swiss-knife\" for the extraction of hidden knowledgeable features from single cell omics data.",
+    "keywords": [
+      "gene regulatory network",
+      "miRNA",
+      "pseudo-bulk data",
+      "single cell ATACseq",
+      "single cell RNAseq",
+      "sparsely connected autoencoders",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Adenocarcinoma of Lung/genetics/*pathology",
+      "*Cluster Analysis",
+      "Computational Biology/*methods",
+      "Humans",
+      "Lung Neoplasms/genetics/*pathology",
+      "*Machine Learning",
+      "*Neural Networks, Computer",
+      "Single-Cell Analysis/*methods",
+      "Exome Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alessandri, Luca",
+        "Ratto, Maria Luisa",
+        "Contaldo, Sandro Gepiro",
+        "Beccuti, Marco",
+        "Cordero, Francesca",
+        "Arigoni, Maddalena",
+        "Calogero, Raffaele A"
+      ],
+      "short_names": [
+        "Alessandri L",
+        "Ratto ML",
+        "Contaldo SG",
+        "Beccuti M",
+        "Cordero F",
+        "Arigoni M",
+        "Calogero RA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2610-242X",
+        "ORCID: 0000-0002-3143-3330",
+        "ORCID: 0000-0002-2848-628X"
+      ],
+      "affiliations": [
+        "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy.",
+        "Department of Computer Science, University of Torino, 10149 Torino, Italy.",
+        "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy.",
+        "Department of Computer Science, University of Torino, 10149 Torino, Italy.",
+        "Department of Computer Science, University of Torino, 10149 Torino, Italy.",
+        "Department of Computer Science, University of Torino, 10149 Torino, Italy.",
+        "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy.",
+        "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alessandri, Luca",
+        "short_name": "Alessandri L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy.",
+          "Department of Computer Science, University of Torino, 10149 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Ratto, Maria Luisa",
+        "short_name": "Ratto ML",
+        "identifiers": [
+          "0000-0003-2610-242X"
+        ],
+        "affiliations": [
+          "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Contaldo, Sandro Gepiro",
+        "short_name": "Contaldo SG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Torino, 10149 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Beccuti, Marco",
+        "short_name": "Beccuti M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Torino, 10149 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Cordero, Francesca",
+        "short_name": "Cordero F",
+        "identifiers": [
+          "0000-0002-3143-3330"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Torino, 10149 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Arigoni, Maddalena",
+        "short_name": "Arigoni M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Calogero, Raffaele A",
+        "short_name": "Calogero RA",
+        "identifiers": [
+          "0000-0002-2848-628X"
+        ],
+        "affiliations": [
+          "Department of Molecular Biotechnology and Health Sciences, University of Torino, 10126 Torino, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Nov 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/11 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "42185901",
+      "42063727",
+      "41061151",
+      "41001552",
+      "40660220",
+      "38597610",
+      "37697330",
+      "37298393",
+      "35743052"
+    ],
+    "refs": [
+      "34715899",
+      "34623402",
+      "34553223",
+      "34417589",
+      "34139164",
+      "34062119",
+      "33850129",
+      "33665149",
+      "33589635",
+      "33587792",
+      "33581341",
+      "33414681",
+      "33402683",
+      "32534107",
+      "31948481",
+      "31657111",
+      "31494672",
+      "31133762",
+      "31028652",
+      "30963076",
+      "30963075",
+      "29941873",
+      "29878180",
+      "29727584",
+      "29608179",
+      "28759029",
+      "26527291",
+      "25516281",
+      "24743990",
+      "23193258",
+      "22460905",
+      "9132280"
+    ],
+    "similar": [
+      "34884559",
+      "33402683",
+      "30963076",
+      "31286861",
+      "36495453",
+      "32689932",
+      "32299344",
+      "36495455",
+      "39075536",
+      "35172334",
+      "33737557",
+      "38819254",
+      "33600320",
+      "35834966",
+      "34470267",
+      "38729996",
+      "31794242",
+      "33778850",
+      "38889275",
+      "30159833",
+      "37601262",
+      "34356114",
+      "35362511",
+      "33835449",
+      "33778867",
+      "35507271",
+      "33767197",
+      "39317764",
+      "36064320",
+      "30891794",
+      "32360590",
+      "34142101",
+      "37956172",
+      "34828101",
+      "35727351",
+      "32763377",
+      "34029470",
+      "33067397",
+      "34251624",
+      "31760935",
+      "34584103",
+      "38749321",
+      "34857857",
+      "36383167",
+      "35713780",
+      "34374760",
+      "35011647",
+      "39077754",
+      "32962626",
+      "31288636",
+      "28552509",
+      "33822877",
+      "33597551",
+      "32444875",
+      "26305796",
+      "22622264",
+      "26357333",
+      "39107690",
+      "38710700",
+      "35871101",
+      "27282356",
+      "39294367",
+      "32804365",
+      "36418696",
+      "29608985",
+      "33921709",
+      "30195659",
+      "31634852",
+      "32019413",
+      "38748882",
+      "34946821",
+      "32646413",
+      "32315932",
+      "34458864",
+      "33254083",
+      "30703089",
+      "31606610",
+      "39191787",
+      "28182121",
+      "33415333",
+      "34191792",
+      "32188871",
+      "33346087",
+      "31689204",
+      "32930120",
+      "28984190",
+      "31591579",
+      "35325038",
+      "28790336",
+      "35053212",
+      "34734491",
+      "31349729",
+      "38981682",
+      "36130281",
+      "32678894",
+      "35231851",
+      "32227074",
+      "31062311",
+      "33502995",
+      "34428155",
+      "39122952",
+      "34639231",
+      "38340976",
+      "36513729",
+      "35911770",
+      "36822143",
+      "34850940",
+      "38721585",
+      "38145512",
+      "36507780",
+      "38177601",
+      "37671013",
+      "38271483",
+      "38261851",
+      "38926531",
+      "36875765",
+      "32143444",
+      "34871454",
+      "38250505",
+      "37991466",
+      "36557249"
+    ],
+    "review": [
+      "34884559",
+      "38729996",
+      "38889275",
+      "34356114",
+      "33778867",
+      "38749321",
+      "32804365",
+      "36418696",
+      "32227074",
+      "39122952",
+      "34639231",
+      "38340976",
+      "36822143",
+      "38721585",
+      "38177601"
+    ],
+    "pmc": [
+      "8657975"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/2318/1829644",
+        "provider": "University of Turin Instituional Repository AperTO - Free full text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full Text from"
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms222312755",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34884559/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34884559",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "40080392",
+    "doi": "10.1089/rej.2024.0092",
+    "title": "Molecular Mechanisms of Dietary Bioactive Peptides in Treating Alzheimer's Disease and Mild Cognitive Impairment by Network Pharmacology and Molecular Docking Analysis."
+  },
+  "content": {
+    "abstract": "Emerging evidence suggests that bioactive peptides from various foods have therapeutic potentials in improving cognitive function in Alzheimer's disease (AD) and mild cognitive impairment (MCI). We aimed to explore the characteristics of these peptides and their mechanisms on AD/MCI using a network pharmacology approach. We compiled a dataset of cognition-enhancing peptides from literatures and identified shared targets between these peptides and AD/MCI using Swiss Target Predication, PharmMapper, OMIM, GeneCards, TTD, and Drugbank databases. We then performed functional enrichment analysis and constructed a gene-gene interaction network to identify key hub targets. Additionally, we investigated the transcription factors (TFs) and microRNAs (miRNAs) regulating these hub genes. Molecular docking and dynamic simulations were performed using AutoDock Vina and GROMACS. We identified 59 cognition-enhancing oligopeptides, typically short and rich in arginine. These peptides were predicted to interact with 222 potential targets relevant to AD/MCI, with functional pathways mainly involving neuroactive ligand-receptor interactions and inflammation. We identified 15 hub targets, regulated by 144 TFs and 95 miRNAs. Notably, peptides containing the \"Trp-Tyr\" sequence demonstrated strong binding affinities to many hub targets, especially matrix metalloproteinase-9. The findings provided valuable insights into the molecular mechanisms through which bioactive peptides may act against AD/MCI and highlight the potential of network pharmacology for future exploration of bioactive peptides from natural foods.",
+    "keywords": [
+      "Alzheimer's disease",
+      "bioactive peptides",
+      "mild cognition impairment",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/drug therapy/genetics/diet therapy",
+      "*Cognitive Dysfunction/drug therapy/genetics/diet therapy",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Network Pharmacology",
+      "*Peptides/therapeutic use/pharmacology/chemistry",
+      "Gene Regulatory Networks",
+      "MicroRNAs/metabolism/genetics",
+      "Transcription Factors/metabolism",
+      "Bioactive Peptides, Dietary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ruirui",
+        "Zi, Jing",
+        "Hu, Yifan",
+        "Li, Xinlong",
+        "Cao, Qianqian",
+        "Li, Yanliu",
+        "Wang, Xiaoyu",
+        "Xiong, Jingyuan",
+        "Cheng, Guo"
+      ],
+      "short_names": [
+        "Li R",
+        "Zi J",
+        "Hu Y",
+        "Li X",
+        "Cao Q",
+        "Li Y",
+        "Wang X",
+        "Xiong J",
+        "Cheng G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9354-862X"
+      ],
+      "affiliations": [
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Laboratory of Molecular Translational Medicine, Center for Translational Medicine, Key Laboratory of Birth Defects and Related Diseases of Women and Children, Ministry of Education, Maternal & Child Nutrition Center, West China Second University Hospital, Sichuan University, Chengdu, China.",
+        "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+        "Food Safety Monitoring and Risk Assessment Key Laboratory of Sichuan Province, Chengdu, China.",
+        "Laboratory of Molecular Translational Medicine, Center for Translational Medicine, Key Laboratory of Birth Defects and Related Diseases of Women and Children, Ministry of Education, Maternal & Child Nutrition Center, West China Second University Hospital, Sichuan University, Chengdu, China.",
+        "Children's Medicine Key Laboratory of Sichuan Province, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ruirui",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zi, Jing",
+        "short_name": "Zi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yifan",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinlong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Qianqian",
+        "short_name": "Cao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanliu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Translational Medicine, Center for Translational Medicine, Key Laboratory of Birth Defects and Related Diseases of Women and Children, Ministry of Education, Maternal & Child Nutrition Center, West China Second University Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jingyuan",
+        "short_name": "Xiong J",
+        "identifiers": [
+          "0000-0001-9354-862X"
+        ],
+        "affiliations": [
+          "Department of Nutrition and Food Safety, Healthy Food Evaluation Research Center, West China School of Public Health and West China Fourth Hospital, Sichuan University, Chengdu, China.",
+          "Food Safety Monitoring and Risk Assessment Key Laboratory of Sichuan Province, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Guo",
+        "short_name": "Cheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Translational Medicine, Center for Translational Medicine, Key Laboratory of Birth Defects and Related Diseases of Women and Children, Ministry of Education, Maternal & Child Nutrition Center, West China Second University Hospital, Sichuan University, Chengdu, China.",
+          "Children's Medicine Key Laboratory of Sichuan Province, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Rejuvenation research"
+    ],
+    "journal_abbrev": [
+      "Rejuvenation Res"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/14 11:24",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40080392",
+      "35616676",
+      "32389853",
+      "38920073",
+      "38828741",
+      "38167125",
+      "39392030",
+      "40055645",
+      "37556042",
+      "41207328",
+      "37807411",
+      "39503755",
+      "38608086",
+      "39556154",
+      "38287491",
+      "38850960",
+      "37009506",
+      "35851129",
+      "38492794",
+      "33574879",
+      "41082993",
+      "36474082",
+      "40541070",
+      "40973399",
+      "37005850",
+      "39009828",
+      "41106101",
+      "41496113",
+      "36652025",
+      "36394096",
+      "40745201",
+      "38995496",
+      "38645989",
+      "38822120",
+      "39969345",
+      "40712813",
+      "39576427",
+      "38701256",
+      "40760645",
+      "35255879",
+      "40192506",
+      "37691428",
+      "41029129",
+      "40403892",
+      "37563784",
+      "39442187",
+      "39192219",
+      "40277064",
+      "40759849",
+      "33541173",
+      "40816715",
+      "37999404",
+      "37904411",
+      "39914200",
+      "38367649",
+      "40671224",
+      "36620771",
+      "39356317",
+      "39125368",
+      "35701806",
+      "41150817",
+      "39684911",
+      "37780174",
+      "36576665",
+      "39910202",
+      "40924735",
+      "37948293",
+      "39410900",
+      "38086608",
+      "40913651",
+      "32737762",
+      "34941025",
+      "41009659",
+      "40922365",
+      "40543694",
+      "41261616",
+      "38195609",
+      "39960946",
+      "36200249",
+      "38931288",
+      "38822913",
+      "39465880",
+      "37347115",
+      "41051550",
+      "38964628",
+      "39584743",
+      "41460031",
+      "40958307",
+      "40838208",
+      "37818576",
+      "40508014",
+      "40684044",
+      "33509748",
+      "40721767",
+      "41360503",
+      "41367024",
+      "33172501",
+      "34467695",
+      "38840248",
+      "36576506"
+    ],
+    "review": [
+      "40080392",
+      "33172501"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1089/rej.2024.0092?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

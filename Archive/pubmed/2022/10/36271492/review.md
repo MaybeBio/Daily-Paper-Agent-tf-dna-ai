@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and data availability statement
+- **Assessment boundary** Scientific content, technical validity, and claims as presented in the manuscript; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors report the purification of human RNA polymerase I (hPol I) from a genetically modified HeLa cell line, its cryo-EM structure in the apo form at 4.09 Å resolution, the identification of a novel HMG-like "dock II" domain in the RPA1 subunit specific to metazoans, phylogenetic analysis of Pol I subunit evolution including the loss of the A14 stalk subunit in most lineages, functional assays showing reduced proofreading in human Pol I compared to yeast, and evidence for interaction between dock II and Top2a
+- **Visible evidence base** Abstract, full results text, materials and methods, figure legends referenced in text, supplementary figure/table references, data availability statement
+- **Missing materials affecting confidence** Actual figures and supplementary figures/tables not provided; cryo-EM density maps and model coordinates not accessible for independent verification; no electron density validation metrics (FSC curves, model vs map correlation) shown; no full statistical analysis of the biochemical assays; no sequence alignments or phylogenetic tree figures visible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable contribution to the structural biology of human RNA polymerase I, with the identification of a novel metazoan-specific HMG-like domain in RPA1 being the most significant finding. The work combines cryo-EM, evolutionary analysis, and functional assays to provide a multi-faceted characterization. However, the resolution of the cryo-EM structure (4.09 Å) is modest, and several claims regarding the functional significance of the dock II domain and its interaction with Top2a are supported by limited or indirect evidence. The phylogenetic analysis is interesting but the conclusions about A14 loss require more careful presentation given the known presence of A14 in some non-Saccharomycotina species. The reduced proofreading observation is intriguing but the mechanistic basis is not established. Overall, the study is technically sound in its core structural work but the broader functional claims need tempering or additional support.
+- **Who would be interested in the results, and why** Structural biologists studying RNA polymerases and transcription machinery; researchers interested in the evolution of eukaryotic transcription systems; scientists studying ribosome biogenesis and its dysregulation in human disease; those working on topoisomerase function in transcription; the cryo-EM community interested in challenging samples with orientation bias
+- **Major strengths** 1) The identification and characterization of a novel metazoan-specific HMG-like domain in RPA1 is a genuinely new finding that extends our understanding of Pol I structural evolution. 2) The combination of evolutionary biochemistry, cryo-EM, and functional assays provides a multi-pronged approach. 3) The phylogenetic analysis across a broad range of organisms is thorough and provides context for understanding Pol I evolution. 4) The purification strategy using CRISPR-tagged endogenous RPA1 is technically sound and provides a native sample. 5) The demonstration of reduced proofreading in human Pol I compared to yeast is a notable functional difference that had not been clearly established.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The manuscript claims to have determined the structure of human Pol I in its apo form at 4.09 Å resolution, with unambiguous placement of the dock II domain
+  - **Evidence pointer** Results section "Structure determination of hPol I in its apo form"; Table S1; Figure 2D
+  - **Concern** The cryo-EM reconstruction is reported at 4.09 Å overall resolution, which is relatively modest for making detailed structural claims about a novel domain. The authors state that the dock II domain was "unambiguously" fitted, but at this resolution, secondary structure elements are visible but side-chain information is limited. The manuscript does not provide local resolution estimates, FSC curves, or validation metrics such as model-to-map correlation or MolProbity scores. The authors also acknowledge severe orientation bias that required graphene oxide supports and still resulted in "poor Fourier completeness." This raises questions about the reliability of the density in the region of the novel domain, particularly if it is flexible or weakly ordered.
+  - **Why it matters** The central structural claim of a novel HMG-like domain in RPA1 depends on the quality and interpretability of the cryo-EM density in that specific region. Without proper validation metrics and local resolution assessment, the unambiguous placement of the dock II domain cannot be verified. If the density is ambiguous at this resolution, the entire premise of the paper is weakened.
+  - **Resolution test** Provide local resolution maps, FSC curves, and model validation statistics. Show the density for the dock II domain region at a contour level that demonstrates clear secondary structure features. If possible, provide a focused refinement of the dock II region to improve local resolution. Alternatively, provide orthogonal biochemical evidence (e.g., crosslinking, hydrogen-deuterium exchange) that confirms the domain position.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** The manuscript claims that dock II may serve as a transcription factor-binding platform, specifically for Top2a, and that this interaction is functionally relevant
+  - **Evidence pointer** Results sections "The HMG box-containing 'dock II' domain may serve as interface for Topoisomerase 2a" and "Molecular modelling identifies dock II as possible interaction site of Top2a"; Figures 5, S7, S8
+  - **Concern** The evidence for Top2a interaction with dock II is indirect and preliminary. The native PAGE shift with full-length dock II but not minimal dock II suggests the interaction may be mediated by regions outside the HMG domain itself. The mass spectrometry analysis of the shifted band is described but the results are not shown in sufficient detail to assess specificity. The in silico docking results are highly speculative and the manuscript acknowledges that "for all predicted structures that have no clashes between Top2a and hPol I the hPol I downstream DNA path is freely accessible" without providing a quantitative assessment of the docking scores or their significance. The ChIP-seq reanalysis shows Top2a distribution over the rDNA gene but does not establish a direct link to dock II. The claim that this domain "may serve as interface" is appropriately hedged, but the manuscript goes further in the discussion to suggest functional cooperation without direct evidence.
+  - **Why it matters** The functional significance of the novel domain is a key part of the paper's impact. If the Top2a interaction is not robustly demonstrated, the paper's broader claims about the role of dock II in human Pol I regulation are not supported. The current evidence is suggestive but not conclusive, and the manuscript should either provide stronger biochemical evidence or clearly frame these as hypotheses requiring future testing.
+  - **Resolution test** Provide quantitative binding data (e.g., ITC, SPR) for dock II-Top2a interaction with appropriate controls. Show that the interaction is specific to the HMG domain and not an artifact of the MBP tag or non-specific electrostatic interactions. Alternatively, perform mutagenesis of predicted interface residues and show loss of interaction. For the cellular relevance, perform co-immunoprecipitation of endogenous proteins or proximity ligation assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Phylogenetic analysis and evolutionary claims
+  - **Claim pointer** The manuscript claims that the A14 stalk subunit is only present in Saccharomycotina and that a single-subunit stalk is the predominant Pol I configuration, with dock II being specific to metazoans
+  - **Evidence pointer** Results section "Built-in transcription factors differ among organisms"; Figure 3; Figure S10
+  - **Concern** The phylogenetic analysis is based on sequence similarity searches using InterPro entries. The claim that A14 is absent in all non-Saccharomycotina species is a strong negative claim that depends on the completeness of the databases and the sensitivity of the search methods. The manuscript does not describe the search strategy in sufficient detail to assess whether A14 might be present but highly divergent in other lineages. Similarly, the claim that dock II is metazoan-specific depends on the taxonomic sampling and the ability to detect highly divergent HMG domains. The manuscript states that "the expander element is present in all analyzed organisms" but does not provide the full list of analyzed organisms or the alignment quality metrics.
+  - **Why it matters** The evolutionary narrative is a significant part of the paper's contribution. If the taxonomic sampling is biased or the search methods are insufficiently sensitive, the conclusions about the distribution of A14 and dock II could be incorrect. This would affect the interpretation of how Pol I evolved in different lineages.
+  - **Resolution test** Provide a more detailed description of the search strategy, including the databases used, the search parameters, and the criteria for positive identification. Include a supplementary table listing all species analyzed and the presence/absence calls for each feature. Consider using multiple search methods (e.g., HMMER, BLAST) and validating a subset of negative results by synteny analysis or targeted PCR.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of reduced proofreading
+  - **Claim pointer** The manuscript claims that human Pol I shows reduced proofreading compared to yeast Pol I, and that this may be related to increased flexibility of the clamp/stalk module
+  - **Evidence pointer** Results section "Human Pol I shows reduced proofreading in vitro"; Figure 2B; Figure S3
+  - **Concern** The in vitro assay shows that human Pol I generates transcripts with incorrectly incorporated NTPs under conditions where yeast Pol I does not. However, the manuscript does not provide a quantitative analysis of the error rates, nor does it test whether this difference is statistically significant across multiple replicates. The claim that this relates to clamp/stalk flexibility is speculative, as no direct correlation is established. The authors also note that the effect is not due to RPA49/34 sub-stoichiometry, but the possibility that other factors (e.g., post-translational modifications, buffer conditions) contribute to the observed difference is not excluded.
+  - **Why it matters** The reduced proofreading observation is potentially important for understanding the regulation of ribosomal RNA synthesis in humans, but the current evidence is preliminary. If the effect is not robust or is due to experimental conditions rather than intrinsic enzyme properties, the claim would be misleading.
+  - **Resolution test** Provide quantitative error rates with statistical analysis across multiple independent experiments. Test whether the effect is dependent on specific reaction conditions (e.g., NTP concentrations, divalent cations). If possible, perform single-molecule assays to directly measure nucleotide incorporation fidelity. Address whether the observed misincorporation is due to reduced proofreading or altered substrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the study reveals "a built-in structural domain that apparently serves as transcription factor-binding platform in metazoans" but does not mention the functional data on reduced proofreading or the phylogenetic analysis. The abstract could better summarize the full scope of the work.
+  - **Required correction** Revise the abstract to include the key functional finding (reduced proofreading) and the evolutionary analysis, while maintaining conciseness.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Cryo-EM methods
+  - **Evidence pointer** Materials and Methods "Cryo-EM image processing and model building"
+  - **Issue** The manuscript states that "this is the first example for the de novo reconstruction of a previously unknown, non-symmetric macromolecule obtained with a CryoARM 200 electron microscope" but does not provide sufficient detail on the microscope setup, data collection parameters, or the specific challenges and solutions related to this instrument.
+  - **Required correction** Provide more detail on the data collection and processing workflow, including any specific adaptations required for the CryoARM 200, and temper the claim about being "first" unless a thorough literature search has been conducted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5A
+  - **Evidence pointer** Results section "Physical interaction with UMF indicates functional cooperativity of Top2a and HMG box-containing proteins"
+  - **Issue** The ChIP-seq reanalysis is described in the text but the figure is not provided in the manuscript text. The description of the data is brief and does not include quantitative metrics (e.g., peak calling thresholds, statistical significance).
+  - **Required correction** Provide the figure and a more detailed description of the analysis, including the peak calling method, the significance thresholds, and the normalization approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion speculates about the function of dock II in human Pol I regulation, including possible roles in transcription initiation and elongation, but these speculations are not clearly distinguished from the experimental findings.
+  - **Required correction** Clearly separate experimentally supported conclusions from hypotheses and future directions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript uses the term "dock II" for the novel domain but does not provide a clear rationale for this name or explain what "dock I" might be. The relationship to other known Pol I domains is not clearly established.
+  - **Required correction** Provide a brief explanation for the naming and clarify the relationship to other Pol I structural features.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods "Purification of recombinant dock II domain"
+  - **Issue** The purification of the dock II domain is described but the yield, purity, and oligomeric state of the recombinant protein are not reported. This information is important for assessing the quality of the binding assays.
+  - **Required correction** Provide information on protein yield, purity (e.g., SDS-PAGE), and any characterization of the recombinant protein (e.g., size exclusion chromatography, circular dichroism).
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Figure 2B
+  - **Evidence pointer** Results section "Human Pol I shows reduced proofreading in vitro"
+  - **Issue** The in vitro transcription assays are described qualitatively. No statistical analysis is provided to support the claim that human Pol I generates more misincorporated transcripts than yeast Pol I.
+  - **Required correction** Provide quantitative data with error bars and statistical tests (e.g., t-test, ANOVA) for the transcription assays.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction mentions recent structural studies of hPol I (references 17, 18) but does not clearly state what new information the present study adds beyond those structures, particularly given the lower resolution of the present reconstruction.
+  - **Required correction** Clearly articulate the novel contributions of this study relative to the previously published hPol I structures, emphasizing the identification of dock II and the native (non-crosslinked) nature of the sample.
+
+## Risk / unsupported claims
+- The claim that dock II is a "transcription factor-binding platform" is not directly supported by functional experiments; the evidence is limited to in silico docking and a native PAGE shift with a recombinant fragment
+- The claim that Top2a interacts with dock II in cells is not directly demonstrated; the co-immunoprecipitation shows interaction with hPol I but does not map the interaction to dock II specifically
+- The claim that the absence of A14 in most lineages represents a loss event is based on sequence similarity searches and may be affected by database completeness and search sensitivity
+- The claim that reduced proofreading in hPol I is due to increased flexibility of the clamp/stalk module is speculative and not directly tested
+- The claim of being the "first example" of de novo reconstruction of a non-symmetric macromolecule with a CryoARM 200 is difficult to verify and may be overstated
+- The functional significance of the dock II domain for Pol I transcription in human cells is not experimentally tested; the manuscript only provides structural and in silico evidence

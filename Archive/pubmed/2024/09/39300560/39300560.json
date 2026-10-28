@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "39300560",
+    "doi": "10.1186/s13059-024-03391-8",
+    "title": "A dynamic regulome of shoot-apical-meristem-related homeobox transcription factors modulates plant architecture in maize."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The shoot apical meristem (SAM), from which all above-ground tissues of plants are derived, is critical to plant morphology and development. In maize (Zea mays), loss-of-function mutant studies have identified several SAM-related genes, most encoding homeobox transcription factors (TFs), located upstream of hierarchical networks of hundreds of genes. RESULTS: Here, we collect 46 transcriptome and 16 translatome datasets across 62 different tissues or stages from the maize inbred line B73. We construct a dynamic regulome for 27 members of three SAM-related homeobox subfamilies (KNOX, WOX, and ZF-HD) through machine-learning models for the detection of TF targets across different tissues and stages by combining tsCUT&Tag, ATAC-seq, and expression profiling. This dynamic regulome demonstrates the distinct binding specificity and co-factors for these homeobox subfamilies, indicative of functional divergence between and within them. Furthermore, we assemble a SAM dynamic regulome, illustrating potential functional mechanisms associated with plant architecture. Lastly, we generate a wox13a mutant that provides evidence that WOX13A directly regulates Gn1 expression to modulate plant height, validating the regulome of SAM-related homeobox genes. CONCLUSIONS: The SAM-related homeobox transcription-factor regulome presents an unprecedented opportunity to dissect the molecular mechanisms governing SAM maintenance and development, thereby advancing our understanding of maize growth and shoot architecture.",
+    "keywords": [
+      "Binding sites",
+      "Homeobox family",
+      "Maize",
+      "Plant height",
+      "Shoot architecture",
+      "Transcription factor",
+      "tsCUT&Tag"
+    ],
+    "mesh_terms": [
+      "*Zea mays/genetics/metabolism/growth & development",
+      "*Meristem/genetics/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "*Gene Expression Regulation, Plant",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "*Plant Proteins/genetics/metabolism",
+      "Regulon",
+      "Transcriptome",
+      "Plant Shoots/genetics/metabolism/growth & development"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Zi",
+        "Wu, Leiming",
+        "Miao, Xinxin",
+        "Zhang, Shuang",
+        "Wei, Ningning",
+        "Zhao, Shiya",
+        "Shang, Xiaoyang",
+        "Hu, Hongyan",
+        "Xue, Jiquan",
+        "Zhang, Tifu",
+        "Yang, Fang",
+        "Xu, Shutu",
+        "Li, Lin"
+      ],
+      "short_names": [
+        "Luo Z",
+        "Wu L",
+        "Miao X",
+        "Zhang S",
+        "Wei N",
+        "Zhao S",
+        "Shang X",
+        "Hu H",
+        "Xue J",
+        "Zhang T",
+        "Yang F",
+        "Xu S",
+        "Li L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8519-5833"
+      ],
+      "affiliations": [
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "The National Engineering Laboratory of Crop Resistance Breeding, School of Life Sciences, Anhui Agricultural University, Hefei, 230036, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China.",
+        "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China.",
+        "Jiangsu Provincial Key Laboratory of Agrobiology, Institute of Germplasm Resources and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, 210014, China.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China.",
+        "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China. shutuxu@nwafu.edu.cn.",
+        "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China. hzaulilin@mail.hzau.edu.cn.",
+        "Hubei Hongshan Laboratory, Wuhan, 430070, China. hzaulilin@mail.hzau.edu.cn.",
+        "Shenzhen Institute of Nutrition and Health, Huazhong Agricultural University, Wuhan, 430070, China. hzaulilin@mail.hzau.edu.cn.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory of the Ministry of Agriculture, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 518120, China. hzaulilin@mail.hzau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Zi",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Leiming",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "The National Engineering Laboratory of Crop Resistance Breeding, School of Life Sciences, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Xinxin",
+        "short_name": "Miao X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuang",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ningning",
+        "short_name": "Wei N",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shiya",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Xiaoyang",
+        "short_name": "Shang X",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hongyan",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Jiquan",
+        "short_name": "Xue J",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tifu",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Provincial Key Laboratory of Agrobiology, Institute of Germplasm Resources and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, 210014, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fang",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shutu",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Biology and Genetics Improvement of Maize in Arid Area of Northwest Region, Ministry of Agriculture, Northwest A&F University, Yangling, Shaanxi, 712199, China. shutuxu@nwafu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [
+          "0000-0002-8519-5833"
+        ],
+        "affiliations": [
+          "National Key Laboratory of Crop Genetic Improvement, Hubei Hongshan Laboratory, Huazhong Agricultural University, Wuhan, 430070, China. hzaulilin@mail.hzau.edu.cn.",
+          "Hubei Hongshan Laboratory, Wuhan, 430070, China. hzaulilin@mail.hzau.edu.cn.",
+          "Shenzhen Institute of Nutrition and Health, Huazhong Agricultural University, Wuhan, 430070, China. hzaulilin@mail.hzau.edu.cn.",
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Genome Analysis Laboratory of the Ministry of Agriculture, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, 518120, China. hzaulilin@mail.hzau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Sep 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/20 01:06",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "42696176",
+      "42086737",
+      "41843599",
+      "41526346",
+      "41312106",
+      "41280085",
+      "40586450",
+      "39943042"
+    ],
+    "refs": [
+      "36991439",
+      "36581701",
+      "36472157",
+      "36047457",
+      "34907313",
+      "34687251",
+      "34440430",
+      "34353948",
+      "33590861",
+      "33037196",
+      "32994171",
+      "32546248",
+      "32413318",
+      "31852823",
+      "31744902",
+      "31696605",
+      "31036827",
+      "30791939",
+      "30593858",
+      "30348817",
+      "29553800",
+      "29425488",
+      "29070508",
+      "28732548",
+      "28605751",
+      "28472432",
+      "27610578",
+      "27079975",
+      "25765347",
+      "25616871",
+      "25516281",
+      "25512525",
+      "25361952",
+      "25053252",
+      "24477691",
+      "24399301",
+      "24097267",
+      "24025774",
+      "23953112",
+      "23411664",
+      "23250214",
+      "22959076",
+      "22955991",
+      "22955619",
+      "22855831",
+      "22456606",
+      "22388286",
+      "22189413",
+      "21816040",
+      "21486936",
+      "21335375",
+      "21316593",
+      "20400678",
+      "20110278",
+      "19734295",
+      "19649178",
+      "19575588",
+      "19424435",
+      "18798982",
+      "18444901",
+      "18358816",
+      "17630826",
+      "17540862",
+      "17088606",
+      "16877025",
+      "16153702",
+      "16139211",
+      "15753038",
+      "15716347",
+      "15343339",
+      "15169755",
+      "14735121",
+      "12399584",
+      "11872831",
+      "11752327",
+      "11238378",
+      "10761929",
+      "10402426",
+      "9952462",
+      "8703079",
+      "8565856",
+      "8538741",
+      "8138166",
+      "6429549",
+      "1672445",
+      "1362381"
+    ],
+    "similar": [
+      "39300560",
+      "22911570",
+      "16243907",
+      "39630144",
+      "35462532",
+      "19567707",
+      "26584889",
+      "40761038",
+      "31984435",
+      "17571927",
+      "19424435",
+      "41851888",
+      "12372247",
+      "30758092",
+      "29778985",
+      "22207572",
+      "22855831",
+      "26121094",
+      "24218490",
+      "29879919",
+      "11842154",
+      "40446983",
+      "10862752",
+      "41607132",
+      "38338798",
+      "23762343",
+      "14500790",
+      "15980185",
+      "12581309",
+      "24855316",
+      "23573875",
+      "19706781",
+      "16798950",
+      "23292599",
+      "30272208",
+      "17764504",
+      "17768306",
+      "19321707",
+      "41526346",
+      "15169755",
+      "22232385",
+      "14617069",
+      "27710768",
+      "40265975",
+      "24076978",
+      "24750781",
+      "32025802",
+      "26808209",
+      "25060324",
+      "33906598",
+      "29437990",
+      "28816596",
+      "40253917",
+      "22727764",
+      "39747964",
+      "16158242",
+      "27208247",
+      "39215624",
+      "39766899",
+      "28493925",
+      "16987950",
+      "7866029",
+      "29884678",
+      "16139211",
+      "10102816",
+      "41009981",
+      "10102817",
+      "40811583",
+      "15034715",
+      "25616871",
+      "10488233",
+      "10504571",
+      "26990640",
+      "41578426",
+      "12199516",
+      "23415323",
+      "9684373",
+      "35151253",
+      "32041377",
+      "23578926",
+      "41486268",
+      "20971897",
+      "23341595",
+      "24638162",
+      "42195027",
+      "33301624",
+      "28204533",
+      "38674363",
+      "33218649",
+      "29934814",
+      "23411664",
+      "39928526",
+      "34417947",
+      "35362363",
+      "19153258",
+      "32676852",
+      "25616873",
+      "25363783",
+      "19453441",
+      "39431787"
+    ],
+    "review": [
+      "39300560",
+      "31984435",
+      "29778985",
+      "38338798",
+      "40253917",
+      "22727764",
+      "12199516"
+    ],
+    "pmc": [
+      "11411777"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03391-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39300560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

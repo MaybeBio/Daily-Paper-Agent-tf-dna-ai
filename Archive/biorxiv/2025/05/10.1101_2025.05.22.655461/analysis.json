@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.22.655461",
+  "title": "DrugForm-DTA: Towards real-world drug-target binding Affinity Model",
+  "authors": "Ivan Khokhlov; Anna Tashchilova; Nikolai Bugaev-Makarovskiy; Olga Glushkova; Vladimir Yudin; Anton Keskinov; Sergey Yudin; Dmitry Svetlichnyy; Veronika Skvortsova",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-27",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Transformer+ESM/Chemformer预测药物-靶标亲和力，虽涉及蛋白-配体互作但非DNA体系，且无三维互作建模，方法可迁移性有限。",
+  "abstract": "Drug-target affinity (DTA) prediction is a fundamental problem in drug discovery. Computational methods for predicting DTA can greatly assist drug design by decreasing the search space and reducing the number of protein-ligand complexes with low affinity. Currently DTA approaches often do not require protein three-dimensional (3D) structural information, which is often not accessible. In this study we present the DrugForm-DTA model, which uses only structure-less representations of ligand and protein. It is a Transformer-based neural network with protein encoding based on ESM, and small molecule ligand encoding obtained with Chemformer. We evaluated the model on standard benchmarks Davis and KIBA, and revealed superior performance of DrugForm-DTA with best result for KIBA (MSE=0.117). Moreover, we developed a ready-to-use model using BindingDB dataset that was subjected to high-quality filtering and transformation. Overall, our method predicts drug-target affinity values with a confidence level comparable to a single in-vitro experiment. Also, we compared DrugForm-DTA against molecular modeling methods and revealed higher efficacy of the developed model for drug-target affinity predictions. Our investigation provides a high accuracy neural network model with performance comparable to experimental measurements, filtered and reassessed BindingDB dataset for further usage, and demonstrates outstanding applicability of the proposed method for DTA prediction.",
+  "abstract_zh": "药物-靶标亲和力（DTA）预测是药物发现中的一个基本问题。用于预测DTA的计算方法可以通过缩小搜索空间并减少低亲和力的蛋白质-配体复合物数量，极大地辅助药物设计。目前，DTA方法通常不需要蛋白质三维（3D）结构信息，而这些信息往往难以获取。在本研究中，我们提出了DrugForm-DTA模型，该模型仅使用配体和蛋白质的无结构表示。它是一个基于Transformer的神经网络，蛋白质编码基于ESM，小分子配体编码通过Chemformer获得。我们在标准基准数据集Davis和KIBA上评估了该模型，并展示了DrugForm-DTA的优越性能，其中在KIBA上取得了最佳结果（MSE=0.117）。此外，我们利用经过高质量过滤和转换的BindingDB数据集开发了一个即用型模型。总体而言，我们的方法预测药物-靶标亲和力值的置信度可与单次体外实验相媲美。同时，我们将DrugForm-DTA与分子建模方法进行了比较，并揭示了所开发模型在药物-靶标亲和力预测方面具有更高的效能。我们的研究提供了一个高精度的神经网络模型，其性能可与实验测量相媲美，过滤并重新评估了BindingDB数据集以供进一步使用，并展示了所提方法在DTA预测中的卓越适用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.22.655461",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.22.655461",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.22.655461/index.html"
+}

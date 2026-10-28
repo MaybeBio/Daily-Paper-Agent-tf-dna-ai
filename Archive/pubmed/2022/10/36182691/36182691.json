@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "36182691",
+    "doi": "10.1016/j.molcel.2022.09.003",
+    "title": "Chromatin jets define the properties of cohesin-driven in vivo loop extrusion."
+  },
+  "content": {
+    "abstract": "Complex genomes show intricate organization in three-dimensional (3D) nuclear space. Current models posit that cohesin extrudes loops to form self-interacting domains delimited by the DNA binding protein CTCF. Here, we describe and quantitatively characterize cohesin-propelled, jet-like chromatin contacts as landmarks of loop extrusion in quiescent mammalian lymphocytes. Experimental observations and polymer simulations indicate that narrow origins of loop extrusion favor jet formation. Unless constrained by CTCF, jets propagate symmetrically for 1-2 Mb, providing an estimate for the range of in vivo loop extrusion. Asymmetric CTCF binding deflects the angle of jet propagation as experimental evidence that cohesin-mediated loop extrusion can switch from bi- to unidirectional and is controlled independently in both directions. These data offer new insights into the physiological behavior of in vivo cohesin-mediated loop extrusion and further our understanding of the principles that underlie genome organization.",
+    "keywords": [
+      "3D genome folding",
+      "CTCF",
+      "cohesin",
+      "loop extrusion"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Chromatin/genetics",
+      "CCCTC-Binding Factor/genetics/metabolism",
+      "*Chromosomal Proteins, Non-Histone/genetics/metabolism",
+      "Cell Cycle Proteins/genetics/metabolism",
+      "Polymers/metabolism",
+      "Mammals/metabolism",
+      "Cohesins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Ya",
+        "Al-Jibury, Ediem",
+        "Garcia-Millan, Rosalba",
+        "Ntagiantas, Konstantinos",
+        "King, James W D",
+        "Nash, Alex J",
+        "Galjart, Niels",
+        "Lenhard, Boris",
+        "Rueckert, Daniel",
+        "Fisher, Amanda G",
+        "Pruessner, Gunnar",
+        "Merkenschlager, Matthias"
+      ],
+      "short_names": [
+        "Guo Y",
+        "Al-Jibury E",
+        "Garcia-Millan R",
+        "Ntagiantas K",
+        "King JWD",
+        "Nash AJ",
+        "Galjart N",
+        "Lenhard B",
+        "Rueckert D",
+        "Fisher AG",
+        "Pruessner G",
+        "Merkenschlager M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK; Sheng Yushou Center of Cell Biology and Immunology, Joint International Research Laboratory of Metabolic and Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; WLA Laboratories, Shanghai 201203, China.",
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK; Department of Computing, Imperial College London, London SW7 2RH, UK.",
+        "Department of Mathematics, Imperial College London, London SW7 2RH, UK; Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge CB3 0WA, UK; St John's College, University of Cambridge, Cambridge CB2 1TP, UK.",
+        "Department of Mathematics, Imperial College London, London SW7 2RH, UK.",
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK.",
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK.",
+        "Department of Cell Biology, Erasmus University Medical Center, 3015 GD Rotterdam, the Netherlands.",
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK; Sars International Centre for Marine Molecular Biology, University of Bergen, 5008 Bergen, Norway.",
+        "Department of Computing, Imperial College London, London SW7 2RH, UK; Chair for AI in Healthcare and Medicine, Technical University of Munich, 81675 Munich, Germany.",
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK.",
+        "Department of Mathematics, Imperial College London, London SW7 2RH, UK. Electronic address: g.pruessner@imperial.ac.uk.",
+        "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK. Electronic address: matthias.merkenschlager@lms.mrc.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Ya",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK; Sheng Yushou Center of Cell Biology and Immunology, Joint International Research Laboratory of Metabolic and Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China; WLA Laboratories, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Al-Jibury, Ediem",
+        "short_name": "Al-Jibury E",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK; Department of Computing, Imperial College London, London SW7 2RH, UK."
+        ]
+      },
+      {
+        "full_name": "Garcia-Millan, Rosalba",
+        "short_name": "Garcia-Millan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Imperial College London, London SW7 2RH, UK; Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge CB3 0WA, UK; St John's College, University of Cambridge, Cambridge CB2 1TP, UK."
+        ]
+      },
+      {
+        "full_name": "Ntagiantas, Konstantinos",
+        "short_name": "Ntagiantas K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Imperial College London, London SW7 2RH, UK."
+        ]
+      },
+      {
+        "full_name": "King, James W D",
+        "short_name": "King JWD",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK."
+        ]
+      },
+      {
+        "full_name": "Nash, Alex J",
+        "short_name": "Nash AJ",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK."
+        ]
+      },
+      {
+        "full_name": "Galjart, Niels",
+        "short_name": "Galjart N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Erasmus University Medical Center, 3015 GD Rotterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lenhard, Boris",
+        "short_name": "Lenhard B",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK; Sars International Centre for Marine Molecular Biology, University of Bergen, 5008 Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Rueckert, Daniel",
+        "short_name": "Rueckert D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computing, Imperial College London, London SW7 2RH, UK; Chair for AI in Healthcare and Medicine, Technical University of Munich, 81675 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Fisher, Amanda G",
+        "short_name": "Fisher AG",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK."
+        ]
+      },
+      {
+        "full_name": "Pruessner, Gunnar",
+        "short_name": "Pruessner G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Imperial College London, London SW7 2RH, UK. Electronic address: g.pruessner@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Merkenschlager, Matthias",
+        "short_name": "Merkenschlager M",
+        "identifiers": [],
+        "affiliations": [
+          "MRC London Institute of Medical Sciences, Institute of Clinical Sciences, Faculty of Medicine, Imperial College London, London W12 0NN, UK. Electronic address: matthias.merkenschlager@lms.mrc.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2022 Oct 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/02 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42490476",
+      "42146630",
+      "42105235",
+      "42094547",
+      "41872526",
+      "41690937",
+      "41650249",
+      "41629529",
+      "41556344",
+      "41430292",
+      "41381614",
+      "41279365",
+      "41102415",
+      "40950200",
+      "40626041",
+      "40603633",
+      "40586309",
+      "40345853",
+      "40335694",
+      "40210441",
+      "40196612",
+      "40010352",
+      "39976773",
+      "39868195",
+      "39741350",
+      "39345451",
+      "39306948",
+      "39283448",
+      "39149482",
+      "38636335",
+      "38559812",
+      "38407438",
+      "38361032",
+      "37786717",
+      "37646128",
+      "37626945",
+      "37591842",
+      "37503128",
+      "37386027",
+      "37253009",
+      "37231112",
+      "37155885",
+      "37024496",
+      "36840746",
+      "36270244"
+    ],
+    "refs": [],
+    "similar": [
+      "36182691",
+      "40374602",
+      "39988079",
+      "37076620",
+      "29217591",
+      "32631111",
+      "39709822",
+      "39093600",
+      "34197738",
+      "35440598",
+      "29706548",
+      "39543681",
+      "28467304",
+      "36897969",
+      "36097291",
+      "32065581",
+      "31204999",
+      "39979259",
+      "29593713",
+      "35585235",
+      "38129077",
+      "33545664",
+      "31937660",
+      "39827577",
+      "40011778",
+      "29757144",
+      "29217590",
+      "38670416",
+      "31905366",
+      "28424523",
+      "37146570",
+      "40210441",
+      "35180428",
+      "31264253",
+      "35103965",
+      "39721581",
+      "40181539",
+      "38217027",
+      "38206813",
+      "37536339",
+      "32680543",
+      "26499245",
+      "40063813",
+      "39160275",
+      "36325618",
+      "36129789",
+      "35710842",
+      "27210764",
+      "39748119",
+      "34309513",
+      "38810546",
+      "30940740",
+      "35456389",
+      "33091336",
+      "35471149",
+      "40118039",
+      "27089971",
+      "31216471",
+      "31666380",
+      "23804403",
+      "37012454",
+      "34321070",
+      "38808662",
+      "36898992",
+      "30875678",
+      "38742641",
+      "22952237",
+      "27799150",
+      "39169755",
+      "35420890",
+      "36449519",
+      "18550811",
+      "39173638",
+      "37603403",
+      "31205001",
+      "33154377",
+      "28985562",
+      "31968256",
+      "30031214",
+      "38295892",
+      "39671497",
+      "29110030",
+      "29867216",
+      "28210885",
+      "40029160",
+      "39210046",
+      "24185899",
+      "26439501",
+      "40118069",
+      "27582050",
+      "37591243",
+      "23010778",
+      "38636335",
+      "32249389",
+      "33187878",
+      "32396063",
+      "33930311",
+      "28475897",
+      "31522987",
+      "32333838"
+    ],
+    "review": [
+      "36182691",
+      "32631111",
+      "39709822",
+      "33545664",
+      "39827577",
+      "31264253",
+      "38810546",
+      "30940740",
+      "35456389",
+      "40118039",
+      "27089971",
+      "30875678",
+      "22952237",
+      "39169755",
+      "37603403",
+      "30031214",
+      "29110030",
+      "28210885",
+      "40029160",
+      "26439501",
+      "38636335",
+      "32249389"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(22)00854-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/36182691",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse199059",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

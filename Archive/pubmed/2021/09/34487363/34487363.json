@@ -1,0 +1,467 @@
+{
+  "identity": {
+    "pmid": "34487363",
+    "doi": "10.15252/embj.2021107795",
+    "title": "CTCF binding modulates UV damage formation to promote mutation hot spots in melanoma."
+  },
+  "content": {
+    "abstract": "Somatic mutations in DNA-binding sites for CCCTC-binding factor (CTCF) are significantly elevated in many cancers. Prior analysis has suggested that elevated mutation rates at CTCF-binding sites in skin cancers are a consequence of the CTCF-cohesin complex inhibiting repair of UV damage. Here, we show that CTCF binding modulates the formation of UV damage to induce mutation hot spots. Analysis of genome-wide CPD-seq data in UV-irradiated human cells indicates that formation of UV-induced cyclobutane pyrimidine dimers (CPDs) is primarily suppressed by CTCF binding but elevated at specific locations within the CTCF motif. Locations of CPD hot spots in the CTCF-binding motif coincide with mutation hot spots in melanoma. A similar pattern of damage formation is observed at CTCF-binding sites in vitro, indicating that UV damage modulation is a direct consequence of CTCF binding. We show that CTCF interacts with binding sites containing UV damage and inhibits repair by a model repair enzyme in vitro. Structural analysis and molecular dynamic simulations reveal the molecular mechanism for how CTCF binding modulates CPD formation.",
+    "keywords": [
+      "CCCTC-binding factor",
+      "DNA damage",
+      "DNA repair",
+      "skin cancer",
+      "ultraviolet light"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Binding, Competitive",
+      "CCCTC-Binding Factor/*chemistry/genetics/metabolism",
+      "Cell Line, Tumor",
+      "DNA Damage",
+      "*DNA Repair",
+      "Gene Expression",
+      "Humans",
+      "Melanoma/*genetics/metabolism/pathology",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "Protein Binding",
+      "Protein Serine-Threonine Kinases/*chemistry/genetics/metabolism",
+      "Pyrimidine Dimers/biosynthesis/chemistry/*radiation effects",
+      "Skin Neoplasms/*genetics/metabolism/pathology",
+      "Ultraviolet Rays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sivapragasam, Smitha",
+        "Stark, Bastian",
+        "Albrecht, Amanda V",
+        "Bohm, Kaitlynne A",
+        "Mao, Peng",
+        "Emehiser, Raymond G",
+        "Roberts, Steven A",
+        "Hrdlicka, Patrick J",
+        "Poon, Gregory M K",
+        "Wyrick, John J"
+      ],
+      "short_names": [
+        "Sivapragasam S",
+        "Stark B",
+        "Albrecht AV",
+        "Bohm KA",
+        "Mao P",
+        "Emehiser RG",
+        "Roberts SA",
+        "Hrdlicka PJ",
+        "Poon GMK",
+        "Wyrick JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5599-9988",
+        "ORCID: 0000-0001-5107-9458",
+        "ORCID: 0000-0002-7911-3803"
+      ],
+      "affiliations": [
+        "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+        "Department of Internal Medicine, University of New Mexico Comprehensive Cancer Center, Albuquerque, NM, USA.",
+        "Department of Chemistry, University of Idaho, Moscow, ID, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+        "Department of Chemistry, University of Idaho, Moscow, ID, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+        "Center for Reproductive Biology, Washington State University, Pullman, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sivapragasam, Smitha",
+        "short_name": "Sivapragasam S",
+        "identifiers": [
+          "0000-0002-5599-9988"
+        ],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Stark, Bastian",
+        "short_name": "Stark B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Albrecht, Amanda V",
+        "short_name": "Albrecht AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Bohm, Kaitlynne A",
+        "short_name": "Bohm KA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Mao, Peng",
+        "short_name": "Mao P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+          "Department of Internal Medicine, University of New Mexico Comprehensive Cancer Center, Albuquerque, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Emehiser, Raymond G",
+        "short_name": "Emehiser RG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Idaho, Moscow, ID, USA."
+        ]
+      },
+      {
+        "full_name": "Roberts, Steven A",
+        "short_name": "Roberts SA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Hrdlicka, Patrick J",
+        "short_name": "Hrdlicka PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Idaho, Moscow, ID, USA."
+        ]
+      },
+      {
+        "full_name": "Poon, Gregory M K",
+        "short_name": "Poon GMK",
+        "identifiers": [
+          "0000-0001-5107-9458"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Wyrick, John J",
+        "short_name": "Wyrick JJ",
+        "identifiers": [
+          "0000-0002-7911-3803"
+        ],
+        "affiliations": [
+          "School of Molecular Biosciences, Washington State University, Pullman, WA, USA.",
+          "Center for Reproductive Biology, Washington State University, Pullman, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2021 Oct 18",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/07 06:00",
+    "fetched_at": "2026-09-27 23:22:47"
+  },
+  "links": {
+    "cites": [
+      "42500821",
+      "42431955",
+      "41707998",
+      "41631877",
+      "41510230",
+      "41353667",
+      "41338928",
+      "41099699",
+      "40818110",
+      "40498072",
+      "39933696",
+      "39417901",
+      "38918545",
+      "38902506",
+      "38884271",
+      "38658701",
+      "38241433",
+      "38109317",
+      "37554110",
+      "37439339",
+      "37169747",
+      "37036973",
+      "36888663",
+      "36853943",
+      "36704334",
+      "36212527",
+      "35509102",
+      "35419468",
+      "35005641"
+    ],
+    "refs": [
+      "33444353",
+      "33347579",
+      "33207206",
+      "32681485",
+      "32358516",
+      "32025015",
+      "31871068",
+      "31723047",
+      "31307926",
+      "31249028",
+      "31078526",
+      "30901533",
+      "30801747",
+      "30586386",
+      "29980679",
+      "29670109",
+      "29159284",
+      "29076501",
+      "28818973",
+      "28798238",
+      "28607063",
+      "28529057",
+      "28489852",
+      "28467829",
+      "28342451",
+      "27974201",
+      "27490693",
+      "27300587",
+      "27174533",
+      "27089971",
+      "27075101",
+      "27036006",
+      "26619011",
+      "26596171",
+      "26569599",
+      "26313479",
+      "26053496",
+      "25934506",
+      "25838463",
+      "25693563",
+      "25664840",
+      "25497547",
+      "25456125",
+      "24336318",
+      "24092746",
+      "23348506",
+      "23348503",
+      "22955616",
+      "22388286",
+      "21988470",
+      "21984974",
+      "18192364",
+      "18052367",
+      "17212484",
+      "16990803",
+      "15173120",
+      "15060168",
+      "14759373",
+      "12930962",
+      "10749146",
+      "9782776",
+      "9518483",
+      "9427764",
+      "8752675"
+    ],
+    "similar": [
+      "34487363",
+      "30586386",
+      "38241433",
+      "34333390",
+      "27974201",
+      "31723047",
+      "9383997",
+      "21804977",
+      "27457959",
+      "37169747",
+      "29980679",
+      "32681485",
+      "26263704",
+      "33562002",
+      "26354431",
+      "30485262",
+      "33347579",
+      "25207368",
+      "37554110",
+      "21613571",
+      "26837048",
+      "26823948",
+      "32652466",
+      "31733171",
+      "26511842",
+      "21044273",
+      "30801747",
+      "31905366",
+      "15668165",
+      "33154377",
+      "17127714",
+      "20047468",
+      "11062176",
+      "9457740",
+      "29464256",
+      "34657170",
+      "11920582",
+      "29593713",
+      "12948486",
+      "27262612",
+      "21251107",
+      "27431478",
+      "35419468",
+      "10838132",
+      "23253030",
+      "37327725",
+      "34391606",
+      "28973861",
+      "19586908",
+      "9889199",
+      "10749146",
+      "28607063",
+      "19150617",
+      "37899697",
+      "27058533",
+      "18348455",
+      "21436607",
+      "15913668",
+      "30065996",
+      "31937660",
+      "16033759",
+      "3473483",
+      "11809365",
+      "15811629",
+      "34330711",
+      "9354642",
+      "31395350",
+      "21388382",
+      "33411704",
+      "29702258",
+      "12771205",
+      "37207339",
+      "11139593",
+      "8409517",
+      "8867736",
+      "9813119",
+      "16236176",
+      "33731963",
+      "30676316",
+      "27021252",
+      "10380935",
+      "24595571",
+      "12462643",
+      "23349012",
+      "23303275",
+      "37047368",
+      "16223728",
+      "17509950",
+      "14712076",
+      "37169761",
+      "11140267",
+      "12944386",
+      "16827749",
+      "31666380",
+      "8128225",
+      "31871068",
+      "38950902",
+      "31522988",
+      "10946581",
+      "12198174",
+      "2367561",
+      "33673494",
+      "30096365",
+      "34381034",
+      "37939182",
+      "32643855",
+      "38397134",
+      "20016485"
+    ],
+    "review": [
+      "34487363",
+      "21804977",
+      "25207368",
+      "30801747",
+      "27262612",
+      "27058533",
+      "18348455",
+      "21436607",
+      "30065996",
+      "11809365",
+      "31395350",
+      "8867736",
+      "24595571",
+      "23303275",
+      "14712076",
+      "33673494"
+    ],
+    "pmc": [
+      "8521319"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://doi.org/10.15252/embj.2021107795",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34487363/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34487363",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse162125",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

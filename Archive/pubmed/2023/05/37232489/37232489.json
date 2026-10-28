@@ -1,0 +1,461 @@
+{
+  "identity": {
+    "pmid": "37232489",
+    "doi": "10.7554/eLife.84645",
+    "title": "The prolactin receptor scaffolds Janus kinase 2 via co-structure formation with phosphoinositide-4,5-bisphosphate."
+  },
+  "content": {
+    "abstract": "Class 1 cytokine receptors transmit signals through the membrane by a single transmembrane helix to an intrinsically disordered cytoplasmic domain that lacks kinase activity. While specific binding to phosphoinositides has been reported for the prolactin receptor (PRLR), the role of lipids in PRLR signaling is unclear. Using an integrative approach combining nuclear magnetic resonance spectroscopy, cellular signaling experiments, computational modeling, and simulation, we demonstrate co-structure formation of the disordered intracellular domain of the human PRLR, the membrane constituent phosphoinositide-4,5-bisphosphate (PI(4,5)P(2)) and the FERM-SH2 domain of the Janus kinase 2 (JAK2). We find that the complex leads to accumulation of PI(4,5)P(2) at the transmembrane helix interface and that the mutation of residues identified to interact specifically with PI(4,5)P(2) negatively affects PRLR-mediated activation of signal transducer and activator of transcription 5 (STAT5). Facilitated by co-structure formation, the membrane-proximal disordered region arranges into an extended structure. We suggest that the co-structure formed between PRLR, JAK2, and PI(4,5)P(2) locks the juxtamembrane disordered domain of the PRLR in an extended structure, enabling signal relay from the extracellular to the intracellular domain upon ligand binding. We find that the co-structure exists in different states which we speculate could be relevant for turning signaling on and off. Similar co-structures may be relevant for other non-receptor tyrosine kinases and their receptors.",
+    "keywords": [
+      "IDP",
+      "JAK2",
+      "NMR",
+      "human",
+      "integrative structural biology",
+      "molecular biophysics",
+      "simulation",
+      "single pass receptor",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Carrier Proteins/metabolism",
+      "*Janus Kinase 2/metabolism",
+      "Phosphorylation",
+      "Prolactin/metabolism",
+      "*Receptors, Prolactin/metabolism",
+      "Signal Transduction",
+      "STAT5 Transcription Factor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Araya-Secchi, Raul",
+        "Bugge, Katrine",
+        "Seiffert, Pernille",
+        "Petry, Amalie",
+        "Haxholm, Gitte W",
+        "Lindorff-Larsen, Kresten",
+        "Pedersen, Stine Falsig",
+        "Arleth, Lise",
+        "Kragelund, Birthe B"
+      ],
+      "short_names": [
+        "Araya-Secchi R",
+        "Bugge K",
+        "Seiffert P",
+        "Petry A",
+        "Haxholm GW",
+        "Lindorff-Larsen K",
+        "Pedersen SF",
+        "Arleth L",
+        "Kragelund BB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4872-3553",
+        "ORCID: 0000-0002-6286-6243",
+        "ORCID: 0000-0003-4213-5336",
+        "ORCID: 0000-0002-4750-6039",
+        "ORCID: 0000-0002-3044-7714",
+        "ORCID: 0000-0002-4694-4299",
+        "ORCID: 0000-0002-7454-1761"
+      ],
+      "affiliations": [
+        "Structural Biophysics, Section for Neutron and X-ray Science, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark.",
+        "Facultad de Ingenieria Arquitectura y Diseno, Universidad San Sebastian, Santiago, Chile.",
+        "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Section for Cell Biology and Physiology, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Section for Cell Biology and Physiology, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biophysics, Section for Neutron and X-ray Science, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Araya-Secchi, Raul",
+        "short_name": "Araya-Secchi R",
+        "identifiers": [
+          "0000-0002-4872-3553"
+        ],
+        "affiliations": [
+          "Structural Biophysics, Section for Neutron and X-ray Science, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark.",
+          "Facultad de Ingenieria Arquitectura y Diseño, Universidad San Sebastian, Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Bugge, Katrine",
+        "short_name": "Bugge K",
+        "identifiers": [
+          "0000-0002-6286-6243"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Seiffert, Pernille",
+        "short_name": "Seiffert P",
+        "identifiers": [
+          "0000-0003-4213-5336"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Petry, Amalie",
+        "short_name": "Petry A",
+        "identifiers": [],
+        "affiliations": [
+          "Section for Cell Biology and Physiology, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Haxholm, Gitte W",
+        "short_name": "Haxholm GW",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Pedersen, Stine Falsig",
+        "short_name": "Pedersen SF",
+        "identifiers": [
+          "0000-0002-3044-7714"
+        ],
+        "affiliations": [
+          "Section for Cell Biology and Physiology, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Arleth, Lise",
+        "short_name": "Arleth L",
+        "identifiers": [
+          "0000-0002-4694-4299"
+        ],
+        "affiliations": [
+          "Structural Biophysics, Section for Neutron and X-ray Science, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory (SBiNLab), Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2023 May 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/26 13:09",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "42644463",
+      "41959284",
+      "40812948",
+      "40806464",
+      "40037068",
+      "39909402",
+      "39793883",
+      "39528837",
+      "38396659",
+      "38206309",
+      "37694948",
+      "37398331"
+    ],
+    "refs": [
+      "37443299",
+      "37163374",
+      "36671389",
+      "36192506",
+      "35922139",
+      "35678383",
+      "35595957",
+      "35377637",
+      "35297484",
+      "35271300",
+      "34791371",
+      "34265844",
+      "34193419",
+      "33277361",
+      "32831102",
+      "32339173",
+      "32096995",
+      "32029621",
+      "30267440",
+      "30044226",
+      "29974066",
+      "29887500",
+      "29590584",
+      "29571748",
+      "29490249",
+      "28601983",
+      "28124908",
+      "27819658",
+      "27725180",
+      "27334919",
+      "27322406",
+      "27227461",
+      "27174498",
+      "27166375",
+      "27052731",
+      "26631602",
+      "26589065",
+      "26575938",
+      "26309151",
+      "26186725",
+      "25846210",
+      "25779975",
+      "25646084",
+      "25472541",
+      "25443960",
+      "25049397",
+      "24833397",
+      "24704786",
+      "24435565",
+      "24195502",
+      "23385814",
+      "22020284",
+      "21920222",
+      "21726627",
+      "21402777",
+      "21234644",
+      "21156831",
+      "20599685",
+      "20584982",
+      "20053995",
+      "18794886",
+      "18488018",
+      "18351591",
+      "17307904",
+      "17075131",
+      "16914055",
+      "16840534",
+      "16116438",
+      "15980475",
+      "15955874",
+      "15922587",
+      "15815974",
+      "15264254",
+      "14636581",
+      "12766187",
+      "11988466",
+      "11779507",
+      "11231127",
+      "10970839",
+      "9626554",
+      "9624169",
+      "9202403",
+      "8744570",
+      "8520220",
+      "7515493",
+      "7508935",
+      "2832068",
+      "2558570",
+      "1549776",
+      "1409577"
+    ],
+    "similar": [
+      "37232489",
+      "10630404",
+      "19892015",
+      "21310852",
+      "9516478",
+      "28258213",
+      "16269515",
+      "31786131",
+      "23192981",
+      "11713228",
+      "18653779",
+      "27129249",
+      "9544991",
+      "14551136",
+      "18252943",
+      "12819209",
+      "19519175",
+      "9202403",
+      "36238467",
+      "20639901",
+      "7537736",
+      "25193864",
+      "14522994",
+      "9099911",
+      "17550976",
+      "27003442",
+      "10600634",
+      "36445946",
+      "31100495",
+      "26526176",
+      "30445560",
+      "35772766",
+      "34343759",
+      "34424219",
+      "12761205",
+      "10887516",
+      "24265293",
+      "36187116",
+      "16407271",
+      "12351696",
+      "11117534",
+      "27998978",
+      "37232379",
+      "10991949",
+      "27176613",
+      "31545956",
+      "10187780",
+      "9883901",
+      "28423697",
+      "8813725",
+      "7537382",
+      "8721989",
+      "20962278",
+      "8034567",
+      "10377387",
+      "36714582",
+      "24735798",
+      "30376668",
+      "10455112",
+      "24195502",
+      "11495699",
+      "20826546",
+      "22392353",
+      "8598196",
+      "25211187",
+      "11145745",
+      "11682625",
+      "9175708",
+      "18779591",
+      "21239436",
+      "19494234",
+      "10388012",
+      "19535262",
+      "19273600",
+      "25784554",
+      "10935542",
+      "9212050",
+      "10993888",
+      "10514551",
+      "9544990",
+      "9661641",
+      "7925280",
+      "8650199",
+      "26159175",
+      "10585417",
+      "23064471",
+      "33000513",
+      "14676278",
+      "12668872",
+      "17412813",
+      "9212064",
+      "21816901",
+      "16840534",
+      "19056863",
+      "17519353",
+      "12865335",
+      "9626554",
+      "25087955",
+      "8013458"
+    ],
+    "review": [
+      "37232489",
+      "10887516",
+      "36187116",
+      "36714582",
+      "19535262"
+    ],
+    "pmc": [
+      "10260020"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/37232489/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37232489/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37232489",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37232489",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.84645",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

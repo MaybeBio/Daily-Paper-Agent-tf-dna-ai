@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "42306587",
+    "doi": "10.3389/fcvm.2026.1751022",
+    "title": "Identification and validation of STEAP3 as a ferroptosis-related biomarker in heart failure."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Heart failure (HF) is a major health threat, with aging and programmed cell death (PCD) playing key roles. However, the link between aging-related PCD (aging-PCD) genes and HF remains unclear. METHODS: We used ssGSEA and random forest to analyze PCD types in HF, identified aging-related PCDs via correlation analysis, and applied eight machine learning algorithms to develop a diagnostic model. SHAP and LIME were used to explain key features, and the relationship between the aging-PCD index and immune microenvironment was explored. Gene expression was verified by qRT-PCR, and the function of STEAP3 was further investigated in an H(2)O(2)-induced AC16 cell model. Ferroptosis-related changes were assessed by measuring reactive oxygen species (ROS), malondialdehyde (MDA), glutathione peroxidase (GSH-Px), and ferrous ion (Fe(2+)) levels. RESULTS: Ferroptosis, autophagy, and necroptosis were strongly correlated with aging in HF. Eighteen differentially expressed aging-related PCD genes were identified. The LASSO model showed the best diagnostic performance. Significant differences in the immune microenvironment were observed between the aging-PCD index-high and index-low groups. A regulatory network of 15 key genes and 19 transcription factors was constructed. The qRT-PCR results validated the bioinformatics analysis. Functional experiments further suggested that STEAP3 may participate in ferroptosis-related injury in cardiomyocytes, potentially through glutathione metabolism (GPX4/SLC7A11 axis) and iron homeostasis. CONCLUSION: We identified aging-related PCD signatures in HF that may provide candidate biomarkers for further clinical validation.",
+    "keywords": [
+      "aging",
+      "heart failure",
+      "machine learning",
+      "programmed cell death",
+      "steap3"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Huijuan",
+        "Xu, Lingqi"
+      ],
+      "short_names": [
+        "Chen H",
+        "Xu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The First Hospital of Changsha, Changsha, China.",
+        "School of Medicine, Yueyang Vocational Technical College, Yueyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Huijuan",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Hospital of Changsha, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lingqi",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Yueyang Vocational Technical College, Yueyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/17 06:31",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40057824",
+      "40056318",
+      "39995248",
+      "39991658",
+      "39912509",
+      "39575235",
+      "39574022",
+      "39396974",
+      "39337409",
+      "39239743",
+      "39112614",
+      "39060523",
+      "39044275",
+      "38597865",
+      "38040503",
+      "37793777",
+      "37469482",
+      "36344162",
+      "35986274",
+      "35803244",
+      "35367598",
+      "35363499",
+      "34771650",
+      "34447992",
+      "34363948",
+      "33456490",
+      "32749493",
+      "32524327",
+      "31196626",
+      "31184932",
+      "30704792",
+      "30692261",
+      "29862462",
+      "29398015",
+      "29332923",
+      "29068766",
+      "28461007",
+      "28004807",
+      "27206819",
+      "26205583",
+      "22592897",
+      "21617129",
+      "20934123",
+      "20148665",
+      "16228140",
+      "16227996",
+      "14715418",
+      "11053698"
+    ],
+    "similar": [
+      "42306587",
+      "40830558",
+      "41508240",
+      "40672390",
+      "42234716",
+      "37520121",
+      "40405297",
+      "39839184",
+      "41656832",
+      "37081490",
+      "41049291",
+      "41158409",
+      "40406620",
+      "41291841",
+      "41312366",
+      "39574022",
+      "37378675",
+      "37919056",
+      "40516745",
+      "41126838",
+      "41393260",
+      "42072050",
+      "39834939",
+      "38851464",
+      "40205951",
+      "42499036",
+      "40613298",
+      "39375405",
+      "42181687",
+      "41908043",
+      "35991562",
+      "42168991",
+      "41189222",
+      "40787447",
+      "40948782",
+      "39909592",
+      "38650009",
+      "42582956",
+      "39633111",
+      "42534680",
+      "41106221",
+      "41557688",
+      "42144210",
+      "41378206",
+      "41789108",
+      "40463372",
+      "40724917",
+      "42183173",
+      "38114118",
+      "40930912",
+      "37205113",
+      "40860289",
+      "38295662",
+      "37008314",
+      "39586719",
+      "40635214",
+      "42558367",
+      "42326009",
+      "40973872",
+      "38044747",
+      "39351221",
+      "41872163",
+      "39015570",
+      "42435052",
+      "42352882",
+      "38299230",
+      "40319145",
+      "39875436",
+      "36531699",
+      "41990693",
+      "36506045",
+      "41205031",
+      "40612574",
+      "38494848",
+      "41050653",
+      "38509983",
+      "40966021",
+      "40783519",
+      "42001335",
+      "38062883",
+      "40967560",
+      "39354361",
+      "39264392",
+      "42445428",
+      "40370590",
+      "42584803",
+      "39662639",
+      "42004467",
+      "41071315",
+      "41429385",
+      "36304554",
+      "41514260",
+      "34906147",
+      "41121022",
+      "42243611",
+      "40421419",
+      "42509823",
+      "42319651",
+      "39708487",
+      "39537233"
+    ],
+    "review": [
+      "42306587"
+    ],
+    "pmc": [
+      "13265469"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42306587/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LIME1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2026.1751022",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

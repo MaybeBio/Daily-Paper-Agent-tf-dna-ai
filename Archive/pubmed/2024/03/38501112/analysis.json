@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38501112",
+  "title": "Detecting subtle transcriptomic perturbations induced by lncRNAs knock-down in single-cell CRISPRi screening using a new sparse supervised autoencoder neural network.",
+  "authors": "Truchi, Marin; Lacoux, Caroline; Gille, Cyprien; Fassy, Julien; Magnone, Virginie; Lopes Goncalves, Rafael; Girard-Riboulleau, Cedric; Manosalva-Pena, Iris; Gautier-Isola, Marine; Lebrigand, Kevin; Barbry, Pascal; Spicuglia, Salvatore; Vassaux, Georges; Rezzonico, Roger; Barlaud, Michel; Mari, Bernard",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2024-03-19",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用稀疏监督自编码器分析单细胞CRISPRi筛选中的lncRNA敲低转录扰动，虽涉及转录因子HIF1A/HIF2A作为对照，但核心是转录组扰动检测，无蛋白质-DNA互作建模或AI/物理模拟方法用于结合机制研究，与本课题关联微弱。",
+  "abstract": "Single-cell CRISPR-based transcriptome screens are potent genetic tools for concomitantly assessing the expression profiles of cells targeted by a set of guides RNA (gRNA), and inferring target gene functions from the observed perturbations. However, due to various limitations, this approach lacks sensitivity in detecting weak perturbations and is essentially reliable when studying master regulators such as transcription factors. To overcome the challenge of detecting subtle gRNA induced transcriptomic perturbations and classifying the most responsive cells, we developed a new supervised autoencoder neural network method. Our Sparse supervised autoencoder (SSAE) neural network provides selection of both relevant features (genes) and actual perturbed cells. We applied this method on an in-house single-cell CRISPR-interference-based (CRISPRi) transcriptome screening (CROP-Seq) focusing on a subset of long non-coding RNAs (lncRNAs) regulated by hypoxia, a condition that promote tumor aggressiveness and drug resistance, in the context of lung adenocarcinoma (LUAD). The CROP-seq library of validated gRNA against a subset of lncRNAs and, as positive controls, HIF1A and HIF2A, the 2 main transcription factors of the hypoxic response, was transduced in A549 LUAD cells cultured in normoxia or exposed to hypoxic conditions during 3, 6 or 24 h. We first validated the SSAE approach on HIF1A and HIF2 by confirming the specific effect of their knock-down during the temporal switch of the hypoxic response. Next, the SSAE method was able to detect stable short hypoxia-dependent transcriptomic signatures induced by the knock-down of some lncRNAs candidates, outperforming previously published machine learning approaches. This proof of concept demonstrates the relevance of the SSAE approach for deciphering weak perturbations in single-cell transcriptomic data readout as part of CRISPR-based screening.",
+  "abstract_zh": "基于单细胞的CRISPR转录组筛选是一种强大的遗传工具，可同时评估由一组引导RNA（gRNA）靶向的细胞的表达谱，并从观察到的扰动中推断靶基因功能。然而，由于各种限制，该方法在检测微弱扰动方面缺乏敏感性，并且在研究主调控因子（如转录因子）时基本可靠。为克服检测细微gRNA诱导的转录组扰动及分类最响应细胞的挑战，我们开发了一种新的监督自编码器神经网络方法。我们的稀疏监督自编码器（SSAE）神经网络能够选择相关特征（基因）和实际受扰细胞。我们将该方法应用于内部基于单细胞CRISPR干扰（CRISPRi）的转录组筛选（CROP-Seq），聚焦于由缺氧调控的一组长链非编码RNA（lncRNAs）子集，缺氧是促进肿瘤侵袭性和药物耐药性的条件，在肺腺癌（LUAD）背景下进行。针对lncRNAs子集的验证gRNA的CROP-seq文库，以及作为阳性对照的HIF1A和HIF2A（缺氧反应的两个主要转录因子），被转导至在常氧条件下培养或暴露于缺氧条件3、6或24小时的A549 LUAD细胞中。我们首先在HIF1A和HIF2上验证了SSAE方法，通过确认其在缺氧反应时间转换期间敲低的具体效应。接下来，SSAE方法能够检测由某些lncRNA候选基因敲低诱导的稳定短期缺氧依赖性转录组特征，优于先前发表的机器学习方法。这一概念验证证明了SSAE方法在基于CRISPR筛选的单细胞转录组数据读出中解析微弱扰动的相关性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38501112/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38501112/",
+  "paper_page_path": "papers/pubmed/38501112/index.html"
+}

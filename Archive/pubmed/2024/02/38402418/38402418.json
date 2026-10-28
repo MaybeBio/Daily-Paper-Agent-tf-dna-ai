@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "38402418",
+    "doi": "10.1111/1756-185X.15077",
+    "title": "An integrated transcriptomics and network pharmacology approach to explore the mechanism of Wang-Bi tablet against SAPHO syndrome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: SAPHO syndrome is recognized as a rare entity with damage to skin and bones due to inflammation. Currently, the treatment for SAPHO syndrome is still a challenge in clinical practice. In this study, an integrated transcriptomics and network pharmacology approach was applied to explore the therapeutic effect and mechanism of Wang-Bi tablet (WBT) on SAPHO syndrome. METHODS: The main components of WBT and their targets, as well as the targets of SAPHO syndrome, were collected from databases. Network visualization was performed using Cytoscape software. The GO and KEGG enrichment analysis was executed by David dataset. Then, the molecular mechanism of WBT improving SAPHO syndrome was validated by transcriptomics of peripheral blood neutrophils in SAPHO syndrome. Finally, the above results were validated by molecular docking. RESULTS: The Network Pharmacology results showed there are 152 core targets for WBT treatment on SAPHO syndrome. RNA-seq data showed 442 differentially expressed genes (DEGs) in peripheral blood neutrophils of SAPHO patients. Intriguingly, NIK/NF-kappaB-, MyD88-dependent toll-like receptor-, and MAPK pathway were included in the enrichment results of network pharmacology and RNA-seq. Moreover, we verified that the core components of WBT have good affinity with the core targets of NIK/NF-kappaB-, MyD88-dependent toll-like receptor-, and MAPK pathway by molecular docking. CONCLUSIONS: This study illustrated that the possible mechanisms of WBT against SAPHO syndrome may be related to NIK/NF-kappaB-, MyD88-dependent toll-like receptor-, and MAPK pathway, and further experiments are needed to prove these predictions.",
+    "keywords": [
+      "SAPHO syndrome",
+      "Wang-Bi tablet",
+      "immunity",
+      "inflammation",
+      "molecular docking",
+      "network pharmacology",
+      "peripheral blood neutrophil",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Acquired Hyperostosis Syndrome/diagnosis/drug therapy/genetics",
+      "NF-kappa B",
+      "Molecular Docking Simulation",
+      "Myeloid Differentiation Factor 88",
+      "Network Pharmacology",
+      "Gene Expression Profiling",
+      "*Drugs, Chinese Herbal",
+      "Adaptor Proteins, Signal Transducing",
+      "Toll-Like Receptors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ting",
+        "Gong, Xun",
+        "Xia, Congmin",
+        "Kong, Weijia",
+        "Geng, Shaohui",
+        "Jiang, Haixu",
+        "Xiao, Enfan",
+        "Wang, Hesong",
+        "Yu, Yingcai",
+        "Li, Chen",
+        "Yuan, Kai"
+      ],
+      "short_names": [
+        "Wang T",
+        "Gong X",
+        "Xia C",
+        "Kong W",
+        "Geng S",
+        "Jiang H",
+        "Xiao E",
+        "Wang H",
+        "Yu Y",
+        "Li C",
+        "Yuan K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5073-2224",
+        "ORCID: 0000-0002-8527-1680"
+      ],
+      "affiliations": [
+        "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China.",
+        "Guang'an Men Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Guang'an Men Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School of Beijing University of Chinese Medicine, Beijing, China.",
+        "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China.",
+        "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China.",
+        "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China.",
+        "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Biochemistry, College of Life Sciences, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Rheumatology, Fangshan Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ting",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0001-5073-2224"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Xun",
+        "short_name": "Gong X",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'an Men Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Congmin",
+        "short_name": "Xia C",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'an Men Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Weijia",
+        "short_name": "Kong W",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Shaohui",
+        "short_name": "Geng S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Haixu",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Enfan",
+        "short_name": "Xiao E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hesong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yingcai",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Life Sciences, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen",
+        "short_name": "Li C",
+        "identifiers": [
+          "0000-0002-8527-1680"
+        ],
+        "affiliations": [
+          "Department of Rheumatology, Fangshan Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Kai",
+        "short_name": "Yuan K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of rheumatic diseases"
+    ],
+    "journal_abbrev": [
+      "Int J Rheum Dis"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/25 06:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38402418",
+      "36646160",
+      "36872242",
+      "35178456",
+      "37382018",
+      "38024534",
+      "36740793",
+      "34234411",
+      "34873575",
+      "37802827",
+      "37454749",
+      "31395074",
+      "36604925",
+      "37454750",
+      "34259096",
+      "36590763",
+      "37990309",
+      "36472041",
+      "36099655",
+      "38114219",
+      "34660782",
+      "35616676",
+      "37356743",
+      "38213248",
+      "36940736",
+      "37282941",
+      "37499457",
+      "36401375",
+      "37282910",
+      "36924863",
+      "35970314",
+      "34889224",
+      "34149422",
+      "35438554",
+      "36046907",
+      "35851129",
+      "38216101",
+      "36471978",
+      "38107658",
+      "33444721",
+      "35960090",
+      "35777015",
+      "34159207",
+      "38034481",
+      "38114126",
+      "35970313",
+      "37023836",
+      "36316904",
+      "36472042",
+      "35837376",
+      "34791846",
+      "37640538",
+      "37576085",
+      "34941025",
+      "37369159",
+      "37879505",
+      "36164882",
+      "34808299",
+      "37852337",
+      "38363944",
+      "37400007",
+      "36860812",
+      "35364310",
+      "34047081",
+      "38115276",
+      "33313323",
+      "35430443",
+      "36803762",
+      "37933032",
+      "35988839",
+      "36162550",
+      "37843333",
+      "37839004",
+      "35342751",
+      "37773840",
+      "33645090",
+      "34785888",
+      "36471963",
+      "36430769",
+      "37833363",
+      "36587875",
+      "35069454",
+      "36280016",
+      "38169205",
+      "34746302",
+      "34951223",
+      "38086608",
+      "37000102",
+      "34761652",
+      "35692141",
+      "37480968",
+      "37345246",
+      "37586441",
+      "35851128",
+      "37799727",
+      "35850814",
+      "39048440",
+      "39332955",
+      "38971170",
+      "38976310"
+    ],
+    "review": [
+      "38402418"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38402418.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/1756-185X.15077",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-866",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

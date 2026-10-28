@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2021.12.26.21268414",
+  "title": "Interpretable and Predictive Deep Modeling of the SARS-CoV-2 Spike Protein Sequence",
+  "authors": "Sokhansanj BA; Zhao Z; Rosen GL",
+  "journal": "medRxiv",
+  "published_date": "2021-12-27",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用Transformer模型分析SARS-CoV-2刺突蛋白序列并预测疾病严重性，对象为病毒蛋白而非蛋白质-DNA互作，无结合建模或TF-DNA机制研究，仅序列建模，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> As the COVID-19 pandemic continues, the SARS-CoV-2 virus continues to rapidly mutate and change in ways that impact virulence, transmissibility, and immune evasion. Genome sequencing is a critical tool, as other biological techniques can be more costly, time-consuming, and difficult. However, the rapid and complex evolution of SARS-CoV-2 challenges conventional sequence analysis methods like phylogenetic analysis. The virus picks up and loses mutations independently in multiple subclades, often in novel or unexpected combinations, and, as for the newly emerged Omicron variant, sometimes with long explained branches. We propose interpretable deep sequence models trained by machine learning to complement conventional methods. We apply Transformer-based neural network models developed for natural language processing to analyze protein sequences. We add network layers to generate sample embeddings and sequence-wide attention to interpret models and visualize multiscale patterns. We demonstrate and validate our framework by modeling SARS-CoV-2 and coronavirus taxonomy. We then develop an interpretable predictive model of disease severity that integrates SARS-CoV-2 spike protein sequence and patient demographic variables, using publicly available data from the GISAID database. We also apply our model to Omicron. Based on knowledge prior to the availability of empirical data for Omicron, we predict: 1) reduced neutralization antibody activity (15-50 fold) greater than any previously characterized variant, varying between Omicron sublineages, and 2) reduced risk of severe disease (by 35-40%) relative to Delta. Both predictions are in accord with recent epidemiological and experimental data.",
+  "abstract_zh": "<h4>摘要</h4> 随着COVID-19大流行的持续，SARS-CoV-2病毒继续快速突变和变化，影响其毒力、传播性和免疫逃逸能力。基因组测序是一个关键工具，因为其他生物学技术可能更昂贵、耗时且困难。然而，SARS-CoV-2的快速且复杂进化对传统序列分析方法（如系统发育分析）提出了挑战。该病毒在多个亚分支中独立获得和丢失突变，通常以新颖或意外的组合出现，并且对于新出现的Omicron变异株，有时伴随较长的解释分支。我们提出通过机器学习训练的可解释深度序列模型，以补充传统方法。我们应用为自然语言处理开发的基于Transformer的神经网络模型来分析蛋白质序列。我们添加网络层以生成样本嵌入和序列级注意力，从而解释模型并可视化多尺度模式。我们通过建模SARS-CoV-2和冠状病毒分类学来展示并验证我们的框架。随后，我们开发了一个可解释的疾病严重程度预测模型，该模型整合了SARS-CoV-2刺突蛋白序列和患者人口统计学变量，使用来自GISAID数据库的公开数据。我们还将我们的模型应用于Omicron。基于在Omicron经验数据可用之前的知识，我们预测：1）中和抗体活性降低（15-50倍），超过任何先前表征的变异株，且在Omicron亚系之间有所不同；2）与Delta相比，严重疾病风险降低（35-40%）。这两项预测均与近期流行病学和实验数据相符。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2021.12.26.21268414",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2021.12.26.21268414",
+  "paper_page_path": "papers/medrxiv/10.1101_2021.12.26.21268414/index.html"
+}

@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "38464746",
+    "doi": "10.7717/peerj.17025",
+    "title": "Unsupervised AI reveals insect species-specific genome signatures."
+  },
+  "content": {
+    "abstract": "Insects are a highly diverse phylogeny and possess a wide variety of traits, including the presence or absence of wings and metamorphosis. These diverse traits are of great interest for studying genome evolution, and numerous comparative genomic studies have examined a wide phylogenetic range of insects. Here, we analyzed 22 insects belonging to a wide phylogenetic range (Endopterygota, Paraneoptera, Polyneoptera, Palaeoptera, and other insects) by using a batch-learning self-organizing map (BLSOM) for oligonucleotide compositions in their genomic fragments (100-kb or 1-Mb sequences), which is an unsupervised machine learning algorithm that can extract species-specific characteristics of the oligonucleotide compositions (genome signatures). The genome signature is of particular interest in terms of the mechanisms and biological significance that have caused the species-specific difference, and can be used as a powerful search needle to explore the various roles of genome sequences other than protein coding, and can be used to unveil mysteries hidden in the genome sequence. Since BLSOM is an unsupervised clustering method, the clustering of sequences was performed based on the oligonucleotide composition alone, without providing information about the species from which each fragment sequence was derived. Therefore, not only the interspecies separation, but also the intraspecies separation can be achieved. Here, we have revealed the specific genomic regions with oligonucleotide compositions distinct from the usual sequences of each insect genome, e.g., Mb-level structures found for a grasshopper Schistocerca americana. One aim of this study was to compare the genome characteristics of insects with those of vertebrates, especially humans, which are phylogenetically distant from insects. Recently, humans seem to be the \"model organism\" for which a large amount of information has been accumulated using a variety of cutting-edge and high-throughput technologies. Therefore, it is reasonable to use the abundant information from humans to study insect lineages. The specific regions of Mb length with distinct oligonucleotide compositions have also been previously observed in the human genome. These regions were enriched by transcription factor binding motifs (TFBSs) and hypothesized to be involved in the three-dimensional arrangement of chromosomal DNA in interphase nuclei. The present study characterized the species-specific oligonucleotide compositions (i.e., genome signatures) in insect genomes and identified specific genomic regions with distinct oligonucleotide compositions.",
+    "keywords": [
+      "Chromatin",
+      "Genome signature",
+      "Insect genome",
+      "Oligonucleotide usage",
+      "Transcription factor binding motifs",
+      "Unsupervised machine learning"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Phylogeny",
+      "*Genome, Human",
+      "*Genome, Insect/genetics",
+      "Oligonucleotides/genetics",
+      "Artificial Intelligence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sawada, Yui",
+        "Minei, Ryuhei",
+        "Tabata, Hiromasa",
+        "Ikemura, Toshimichi",
+        "Wada, Kennosuke",
+        "Wada, Yoshiko",
+        "Nagata, Hiroshi",
+        "Iwasaki, Yuki"
+      ],
+      "short_names": [
+        "Sawada Y",
+        "Minei R",
+        "Tabata H",
+        "Ikemura T",
+        "Wada K",
+        "Wada Y",
+        "Nagata H",
+        "Iwasaki Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sawada, Yui",
+        "short_name": "Sawada Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Minei, Ryuhei",
+        "short_name": "Minei R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Tabata, Hiromasa",
+        "short_name": "Tabata H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikemura, Toshimichi",
+        "short_name": "Ikemura T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Wada, Kennosuke",
+        "short_name": "Wada K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Wada, Yoshiko",
+        "short_name": "Wada Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagata, Hiroshi",
+        "short_name": "Nagata H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwasaki, Yuki",
+        "short_name": "Iwasaki Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama-shi, Tamura-cho, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/11 06:43",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "41813684",
+      "41407743"
+    ],
+    "refs": [
+      "35804296",
+      "34565757",
+      "33712508",
+      "33070780",
+      "32161227",
+      "31120160",
+      "29722887",
+      "28938083",
+      "28406740",
+      "28025279",
+      "27899557",
+      "27510565",
+      "27259200",
+      "26119665",
+      "26085980",
+      "25879410",
+      "25378627",
+      "24800745",
+      "23896648",
+      "23230266",
+      "23180783",
+      "22955621",
+      "22495300",
+      "21497937",
+      "21295369",
+      "20513432",
+      "19506892",
+      "19468314",
+      "19234478",
+      "19166919",
+      "18334644",
+      "17646303",
+      "16769690",
+      "16381825",
+      "16364569",
+      "15131651",
+      "15071554",
+      "12671005",
+      "12433576",
+      "11850619",
+      "11591475",
+      "9928479",
+      "3916708",
+      "3547335"
+    ],
+    "similar": [
+      "38464746",
+      "35804296",
+      "32161227",
+      "34565757",
+      "24804244",
+      "24741568",
+      "35272618",
+      "23896648",
+      "12671005",
+      "26119665",
+      "16364569",
+      "28344190",
+      "33712508",
+      "14571370",
+      "24800745",
+      "27694768",
+      "22879905",
+      "18927605",
+      "36044525",
+      "15060613",
+      "26251035",
+      "32719664",
+      "28137743",
+      "22149269",
+      "25524298",
+      "21569260",
+      "25424044",
+      "25963452",
+      "15961467",
+      "23964903",
+      "19956556",
+      "25165766",
+      "25463441",
+      "26549428",
+      "21444341",
+      "34127782",
+      "23636946",
+      "20699111",
+      "18307761",
+      "31827584",
+      "24359442",
+      "22912801",
+      "21167949",
+      "29169832",
+      "19032778",
+      "33905491",
+      "27436549",
+      "12853136",
+      "26482678",
+      "26646568",
+      "17973996",
+      "21075208",
+      "19091056",
+      "23184988",
+      "26578584",
+      "33229316",
+      "25478792",
+      "32373067",
+      "16769690",
+      "24609470",
+      "26226651",
+      "23869209",
+      "29764946",
+      "19233962",
+      "25486452",
+      "22633877",
+      "30476205",
+      "27549194",
+      "34930241",
+      "14734306",
+      "17161505",
+      "35164570",
+      "22704986",
+      "34026271",
+      "23358734",
+      "22155036",
+      "24160435",
+      "31780743",
+      "31062850",
+      "34348652",
+      "31599108",
+      "18698431",
+      "33709555",
+      "17602168",
+      "12217906",
+      "28790205",
+      "17244361",
+      "17994088",
+      "36039293",
+      "23024607",
+      "36247520"
+    ],
+    "review": [
+      "38464746",
+      "34565757",
+      "27694768",
+      "22149269",
+      "25963452",
+      "27436549",
+      "33229316"
+    ],
+    "pmc": [
+      "10924456"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38464746/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38464746",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.17025",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

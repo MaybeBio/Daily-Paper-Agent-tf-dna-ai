@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.27.530329",
+  "title": "FREEDA: an automated computational pipeline guides experimental testing of protein innovation by detecting positive selection",
+  "authors": "Dudka D; Akins RB; Lampson MA",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-28",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发了检测正选择信号的自动化流程FREEDA，并映射到AlphaFold预测的蛋白结构上，但核心是进化选择分析而非蛋白质-DNA互作建模，与TF-DNA课题关联较弱。",
+  "abstract": "Cell biologists typically focus on conserved regions of a protein, overlooking innovations that can shape its function over evolutionary time. Computational analyses can reveal potential innovations by detecting statistical signatures of positive selection that leads to rapid accumulation of beneficial mutations. However, these approaches are not easily accessible to non-specialists, limiting their use in cell biology. Here, we present an automated computational pipeline FREEDA (Finder of Rapidly Evolving Exons in De novo Assemblies) that provides a simple graphical user interface requiring only a gene name, integrates widely used molecular evolution tools to detect positive selection, and maps results onto protein structures predicted by AlphaFold. Applying FREEDA to >100 mouse centromere proteins, we find evidence of positive selection in intrinsically disordered regions of ancient domains, suggesting innovation of essential functions. As a proof-of-principle experiment, we show innovation in centromere binding of CENP-O. Overall, we provide an accessible computational tool to guide cell biology research and apply it to experimentally demonstrate functional innovation.",
+  "abstract_zh": "细胞生物学家通常关注蛋白质的保守区域，而忽视了那些在进化时间尺度上可能塑造其功能的创新部分。计算分析可通过检测正向选择（positive selection）的统计特征来揭示潜在创新，这种选择导致有益突变的快速积累。然而，这些方法对非专业人士而言不易掌握，限制了它们在细胞生物学中的应用。在此，我们提出一个自动化计算流程FREEDA（Finder of Rapidly Evolving Exons in De novo Assemblies），它提供仅需基因名称的简单图形用户界面，整合广泛使用的分子进化工具以检测正向选择，并将结果映射到AlphaFold预测的蛋白质结构上。将FREEDA应用于超过100个小鼠着丝粒蛋白，我们在古老结构域的内在无序区域中发现了正向选择的证据，提示基本功能的创新。作为原理验证实验，我们展示了CENP-O着丝粒结合中的创新。总体而言，我们提供了一个易于使用的计算工具以指导细胞生物学研究，并将其应用于实验证明功能创新。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.27.530329",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.27.530329",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.27.530329/index.html"
+}

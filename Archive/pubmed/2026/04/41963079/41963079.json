@@ -1,0 +1,506 @@
+{
+  "identity": {
+    "pmid": "41963079",
+    "doi": "10.1136/jitc-2025-012980",
+    "title": "CD55-expressing myeloid-derived suppressor cells (MDSCs) drive cancer immunoevasion."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Myeloid-derived suppressor cells (MDSCs) play a pivotal role in shaping the immunosuppressive tumor microenvironment, thereby driving tumor progression and contributing to resistance to therapy. The surface molecules expressed on MDSCs serve not only as identification markers but also as critical regulators of their immunosuppressive functions. Identifying surface markers that are both widely expressed and functionally significant on MDSCs is essential for the development of effective immunomodulatory therapies. METHODS: A comprehensive analysis of publicly available single-cell RNA-seq datasets across eight cancer types was conducted to identify conserved surface markers on MDSCs. CD55 was identified as a promising candidate and subsequently validated in both human patient samples and murine tumor models. Mechanistic investigations employed CD55 knockout and myeloid-specific knockout mice, bone marrow transplantation, DNA pulldown assays, chromatin immunoprecipitation, luciferase reporter assays, co-immunoprecipitation, immunoblotting, immunoprecipitation-mass spectrometry, and RNA sequencing. To evaluate the therapeutic potential of targeting CD55, molecular docking analyses, small-molecule inhibitor screening, and surface plasmon resonance imaging-based competitive binding assays were conducted. RESULTS: CD55 was consistently overexpressed on MDSCs across multiple cancer types, with its expression correlating with poor patient prognosis. Genetic depletion of CD55 significantly inhibited tumor growth and enhanced antitumor immunity by reducing MDSCs infiltration and boosting CD8(+) T cell activity. Mechanistically, CD55 was found to promote the phosphorylation of glycogen phosphorylase (PYGL), thereby driving glycolysis and maintaining the immunosuppressive phenotype of MDSCs. Pharmacological inhibition of the CD55-PYGL axis with tomatidine effectively disrupted this interaction, alleviated MDSCs-mediated immunosuppression, and markedly improved the efficacy of anti-programmed cell death protein-1 immunotherapy. Furthermore, CD55 expression in MDSCs was found to be transcriptionally regulated by granulocyte-macrophage colony-stimulating factor and interleukin-6 through activation of the transcription factor C/EBPbeta. CONCLUSION: This study identified CD55 as a key regulator of MDSCs-mediated tumor immunosuppression via metabolic reprogramming. Targeting CD55 on MDSCs offers a promising therapeutic approach to overcoming immunosuppression and enhancing the efficacy of cancer immunotherapy.",
+    "keywords": [
+      "Myeloid-Derived Suppressor Cells",
+      "Tumor Microenvironment"
+    ],
+    "mesh_terms": [
+      "*Myeloid-Derived Suppressor Cells/metabolism/immunology",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Neoplasms/immunology/pathology",
+      "Tumor Microenvironment/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Xiaotao",
+        "Yan, Ning",
+        "Wu, Hui",
+        "Wang, Wei",
+        "Wang, Xianzhe",
+        "Chen, Jingming",
+        "Wu, Anzhou",
+        "An, Jinqi",
+        "Wang, Changlong",
+        "Lin, Jie",
+        "Li, Yingqian",
+        "Wen, Yi",
+        "Zhuang, Kunhai",
+        "Xie, Linling",
+        "Li, Peiwu",
+        "Liu, Fengbin",
+        "Liu, Yufeng"
+      ],
+      "short_names": [
+        "Jiang X",
+        "Yan N",
+        "Wu H",
+        "Wang W",
+        "Wang X",
+        "Chen J",
+        "Wu A",
+        "An J",
+        "Wang C",
+        "Lin J",
+        "Li Y",
+        "Wen Y",
+        "Zhuang K",
+        "Xie L",
+        "Li P",
+        "Liu F",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4519-4289"
+      ],
+      "affiliations": [
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+        "Baiyun Hospital of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Institute of Spleen and Stomach Diseases, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "The Third Gynecology Department, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+        "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+        "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+        "Baiyun Hospital of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Lingnan Institute of Spleen and Stomach Diseases, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+        "Second Affiliated Hospital of South China University of Technology, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+        "Liuzhou Hospital of Guangzhou Women and Children's Medical Center, Liuzhou, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Xiaotao",
+        "short_name": "Jiang X",
+        "identifiers": [
+          "0000-0002-4519-4289"
+        ],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Ning",
+        "short_name": "Yan N",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hui",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xianzhe",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jingming",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Anzhou",
+        "short_name": "Wu A",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "An, Jinqi",
+        "short_name": "An J",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Changlong",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jie",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yingqian",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yi",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Kunhai",
+        "short_name": "Zhuang K",
+        "identifiers": [],
+        "affiliations": [
+          "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+          "Baiyun Hospital of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Institute of Spleen and Stomach Diseases, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Linling",
+        "short_name": "Xie L",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Gynecology Department, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Peiwu",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Fengbin",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+          "Baiyun Hospital of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China.",
+          "Lingnan Institute of Spleen and Stomach Diseases, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yufeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Second Affiliated Hospital of South China University of Technology, Guangzhou, Guangdong, China eyyufengliu@scut.edu.cn 751778421@qq.com doctorlipw2@163.com liufengbin163@163.com sea-zhuang007@163.com.",
+          "Liuzhou Hospital of Guangzhou Women and Children's Medical Center, Liuzhou, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal for immunotherapy of cancer"
+    ],
+    "journal_abbrev": [
+      "J Immunother Cancer"
+    ],
+    "pub_date": "2026 Apr 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/11 00:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41624845",
+      "40638090",
+      "40570142",
+      "40494998",
+      "40316776",
+      "40140724",
+      "39990210",
+      "39905201",
+      "39865924",
+      "39847992",
+      "39525037",
+      "38974210",
+      "38853277",
+      "38626856",
+      "38406578",
+      "38244291",
+      "38217732",
+      "37763731",
+      "37063425",
+      "36816959",
+      "36717220",
+      "36271172",
+      "35320754",
+      "35090034",
+      "34879221",
+      "34620838",
+      "34031614",
+      "33526920",
+      "33519825",
+      "33430105",
+      "33322272",
+      "33177111",
+      "32920330",
+      "32917658",
+      "31417568",
+      "31417272",
+      "31217324",
+      "31164885",
+      "30288362",
+      "30001983",
+      "29927668",
+      "29895866",
+      "29503741",
+      "28987474",
+      "28838952",
+      "28657829",
+      "28417112",
+      "27683557",
+      "27521598",
+      "27051594",
+      "27043658",
+      "26858199",
+      "26519772",
+      "26205583",
+      "25596646",
+      "25341012",
+      "24778419",
+      "22658127",
+      "22248338",
+      "20605485",
+      "19197294",
+      "17121873",
+      "16831436",
+      "12440964",
+      "12213736",
+      "11139317",
+      "8579761",
+      "2667896",
+      "1824699"
+    ],
+    "similar": [
+      "41963079",
+      "40409102",
+      "41679176",
+      "41072779",
+      "38402237",
+      "40050048",
+      "42685565",
+      "33524739",
+      "36627143",
+      "42612021",
+      "36301341",
+      "39755583",
+      "40069590",
+      "40015948",
+      "39780248",
+      "36914206",
+      "42686375",
+      "41198058",
+      "41875310",
+      "40318724",
+      "39825997",
+      "28939663",
+      "41836430",
+      "41545307",
+      "30414862",
+      "38992688",
+      "41205773",
+      "40429821",
+      "39244897",
+      "42163390",
+      "40514067",
+      "40083936",
+      "40860137",
+      "34976216",
+      "41460024",
+      "34387870",
+      "39876004",
+      "41722836",
+      "41608565",
+      "40992270",
+      "40734480",
+      "41038145",
+      "42705697",
+      "28533357",
+      "41764441",
+      "39580997",
+      "40134427",
+      "40461158",
+      "42595355",
+      "40210238",
+      "41488655",
+      "27705910",
+      "38236200",
+      "31275326",
+      "41029721",
+      "42086514",
+      "40783744",
+      "42462537",
+      "33247701",
+      "32849585",
+      "39531476",
+      "42334497",
+      "39531934",
+      "40617338",
+      "39904774",
+      "38744443",
+      "33547170",
+      "42358823",
+      "42386072",
+      "39018692",
+      "41242273",
+      "41784638",
+      "35154134",
+      "34721430",
+      "39566403",
+      "37651197",
+      "29805099",
+      "39135889",
+      "41105572",
+      "34685679",
+      "42760508",
+      "29920188",
+      "41151304",
+      "32158627",
+      "29752311",
+      "30413826",
+      "35089465",
+      "27655678",
+      "34321274",
+      "38217732",
+      "38776753",
+      "41135953",
+      "39032414",
+      "37459919",
+      "34070449",
+      "33372059",
+      "31614930",
+      "31462297",
+      "34362833",
+      "39740506"
+    ],
+    "review": [
+      "41963079",
+      "39780248",
+      "41836430",
+      "31275326",
+      "32849585",
+      "35154134",
+      "34685679",
+      "30413826"
+    ],
+    "pmc": [
+      "13084899"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jitc.bmj.com/lookup/pmidlookup?view=long&pmid=41963079",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41963079/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3937",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

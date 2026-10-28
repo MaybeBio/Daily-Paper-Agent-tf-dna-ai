@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "40149454",
+    "doi": "10.3390/genes16030303",
+    "title": "Integrating Artificial Intelligence and Bioinformatics Methods to Identify Disruptive STAT1 Variants Impacting Protein Stability and Function."
+  },
+  "content": {
+    "abstract": "Background: The Signal Transducer and Activator of Transcription 1 (STAT1) gene is an essential component of the JAK-STAT signaling pathway. This pathway plays a pivotal role in the regulation of different cellular processes, including immune responses, cell growth, and apoptosis. Mutations in the STAT1 gene contribute to a variety of immune system dysfunctions. Objectives: We aim to identify disease-susceptible single-nucleotide polymorphisms (SNPs) in STAT1 gene and predict structural changes associated with the mutations that disrupt normal protein-protein interactions using different computational algorithms. Methods: Several in silico tools, such as SIFT, Polyphen v2, PROVEAN, SNAP2, PhD-SNP, SNPs&GO, Pmut, and PANTHER, were used to determine the deleterious nsSNPs of the STAT1. Further, we evaluated the potentially deleterious SNPs for their effect on protein stability using I-Mutant, MUpro, and DDMUT. Additionally, we predicted the functional and structural effects of the nsSNPs using MutPred. We used Alpha-Missense to predict missense variant pathogenicity. Moreover, we predicted the 3D structure of STAT1 using an artificial intelligence system, alphafold, and the visualization of the 3D structures of the wild-type amino acids and the mutant residues was performed using ChimeraX 1.9 software. Furthermore, we analyzed the structural and conformational variations that have resulted from SNPs using Project Hope, while changes in the biological interactions between wild type, mutant amino acids, and neighborhood residues was studied using DDMUT. Conservational analysis and surface accessibility prediction of STAT1 was performed using ConSurf. We predicted the protein-protein interaction using STRING database. Results: In the current study, we identified six deleterious nsSNPs (R602W, I648T, V642D, L600P, I578N, and W504C) and their effect on protein structure, function, and stability. Conclusions: These findings highlight the potential of approaches to pinpoint pathogenic SNPs, providing a time- and cost-effective alternative to experimental approaches. To the best of our knowledge, this is the first comprehensive study in which we analyze STAT1 gene variants using both bioinformatics and artificial-intelligence-based model tools.",
+    "keywords": [
+      "STAT1",
+      "autoimmunity",
+      "in silico",
+      "signaling pathway",
+      "single-nucleotide polymorphism"
+    ],
+    "mesh_terms": [
+      "*STAT1 Transcription Factor/genetics/chemistry/metabolism",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Polymorphism, Single Nucleotide",
+      "Protein Stability",
+      "*Artificial Intelligence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamal, Ebtihal",
+        "Kaddam, Lamis A",
+        "Ahmed, Mehad",
+        "Alabdulkarim, Abdulaziz"
+      ],
+      "short_names": [
+        "Kamal E",
+        "Kaddam LA",
+        "Ahmed M",
+        "Alabdulkarim A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al Kharj 16278, Saudi Arabia.",
+        "Department of Physiology, Faculty of Medicine, King Abdul-Aziz University, Rabigh 25724, Saudi Arabia.",
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al Kharj 16278, Saudi Arabia.",
+        "Plastic Surgery, Department of Surgery, College of Medicine, Prince Sattam bin Abdulaziz University, Al Kharj 16278, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamal, Ebtihal",
+        "short_name": "Kamal E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al Kharj 16278, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Kaddam, Lamis A",
+        "short_name": "Kaddam LA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Faculty of Medicine, King Abdul-Aziz University, Rabigh 25724, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Mehad",
+        "short_name": "Ahmed M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al Kharj 16278, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alabdulkarim, Abdulaziz",
+        "short_name": "Alabdulkarim A",
+        "identifiers": [],
+        "affiliations": [
+          "Plastic Surgery, Department of Surgery, College of Medicine, Prince Sattam bin Abdulaziz University, Al Kharj 16278, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Mar 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/28 06:25",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42166461",
+      "41595492",
+      "40981192",
+      "40847033",
+      "40407590"
+    ],
+    "refs": [
+      "38710647",
+      "38255152",
+      "38084635",
+      "37774136",
+      "37733863",
+      "37283042",
+      "36420581",
+      "36335528",
+      "35976469",
+      "35456913",
+      "34809691",
+      "34791371",
+      "34017579",
+      "33945048",
+      "33839590",
+      "33777053",
+      "33528939",
+      "33219223",
+      "33058752",
+      "32852681",
+      "31605750",
+      "31114772",
+      "30317461",
+      "28453649",
+      "28427548",
+      "27808400",
+      "27803128",
+      "25851949",
+      "24470978",
+      "23819482",
+      "23534974",
+      "23315928",
+      "23193289",
+      "22661580",
+      "22651901",
+      "22573496",
+      "21727188",
+      "21059217",
+      "21045058",
+      "20478830",
+      "19561590",
+      "18757876",
+      "16934001",
+      "16895930",
+      "16372356",
+      "16204125",
+      "16101503",
+      "15780933",
+      "15753310",
+      "15208187",
+      "14502555",
+      "12590259",
+      "12230031",
+      "10071751",
+      "9872978",
+      "7791765",
+      "1901265",
+      "1281555"
+    ],
+    "similar": [
+      "40149454",
+      "30676783",
+      "38858637",
+      "39021990",
+      "39854591",
+      "32867672",
+      "40370698",
+      "35776277",
+      "37860678",
+      "39590603",
+      "39715225",
+      "29524840",
+      "38994097",
+      "30884445",
+      "34793541",
+      "35727487",
+      "33945048",
+      "36598356",
+      "37278385",
+      "36812296",
+      "27478803",
+      "38623065",
+      "38630598",
+      "31272062",
+      "37801178",
+      "32801061",
+      "28734179",
+      "31935276",
+      "39296124",
+      "29520635",
+      "34187970",
+      "23056176",
+      "33635927",
+      "23561625",
+      "36764830",
+      "38762014",
+      "35706533",
+      "34455166",
+      "37901856",
+      "28388287",
+      "34092963",
+      "27294143",
+      "36995110",
+      "37296335",
+      "34971346",
+      "34234628",
+      "36518267",
+      "34466701",
+      "31398194",
+      "39167281",
+      "26824843",
+      "38656135",
+      "24904648",
+      "40129965",
+      "24578721",
+      "32693129",
+      "38283900",
+      "37238269",
+      "29062794",
+      "39819897",
+      "33884270",
+      "38132435",
+      "24378235",
+      "36813059",
+      "31871931",
+      "34827731",
+      "21412949",
+      "40149458",
+      "35477852",
+      "26306152",
+      "22843233",
+      "28612427",
+      "40207085",
+      "40074423",
+      "24817641",
+      "39589570",
+      "19389263",
+      "31592138",
+      "29664915",
+      "33438725",
+      "36443461",
+      "37200850",
+      "22423892",
+      "30768627",
+      "38062275",
+      "26236721",
+      "35888106",
+      "33058752",
+      "37754311",
+      "25967940",
+      "38673052",
+      "31364806",
+      "37753777",
+      "36430761",
+      "37173831",
+      "39744514",
+      "26377032",
+      "34837403",
+      "34921182",
+      "34692848"
+    ],
+    "review": [
+      "40149454"
+    ],
+    "pmc": [
+      "11942549"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16030303",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40149454/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

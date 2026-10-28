@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "41422938",
+    "doi": "10.1016/j.mce.2025.112721",
+    "title": "EGR1 promotes ferroptosis in endometriosis through transcriptional activation of HMOX1."
+  },
+  "content": {
+    "abstract": "Endometriosis (EM) affects approximately 10% of women of reproductive age and remains a prevalent estrogen-dependent gynecological disorder with limited therapeutic efficacy and high recurrence rates. Ferroptosis-an iron-dependent, non-apoptotic form of regulated cell death driven by lipid peroxidation-has recently been recognized to play a paradoxical role in EM pathogenesis. To explore ferroptosis-related mechanisms in EM, this study integrated transcriptomic profiling from five Gene Expression Omnibus datasets (GSE6364, GSE7305, GSE11691, GSE23339, GSE51981) with machine learning algorithms and functional validation. Bioinformatic analysis identified 19 ferroptosis-related differentially expressed genes, with hub genes prioritized through protein-protein interaction network analysis. LASSO regression, support vector machine, and random forest models collectively identified EGR1, HMOX1, TIMP1, and FABP4 as robust diagnostic biomarkers, with strong performance in receiver operating characteristic analysis. Clinical validation confirmed significant upregulation of EGR1 and HMOX1 in ectopic endometrial tissues. Functional assays in 12Z endometriotic cells showed that EGR1 silencing partially attenuated erastin-induced ferroptosis by restoring mitochondrial membrane potential, reducing lipid peroxidation, and modulating key ferroptosis markers. Mechanistically, JASPAR analysis predicted EGR1 binding to conserved motifs in the HMOX1 promoter, which was validated using chromatin immunoprecipitation quantitative PCR and dual-luciferase reporter assays. Together, these results identify the EGR1/HMOX1 axis as a novel regulatory hub in EM-associated ferroptosis, offering new insights into diagnostic biomarkers. Therefore, targeting this axis may disrupt iron-redox crosstalk, offering a promising therapeutic avenue to mitigate endometriosis progression.",
+    "keywords": [
+      "EGR1",
+      "Endometriosis",
+      "Ferroptosis",
+      "HMOX1",
+      "Oxidative stress",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/genetics",
+      "Female",
+      "*Endometriosis/genetics/pathology/metabolism",
+      "*Early Growth Response Protein 1/metabolism/genetics",
+      "*Heme Oxygenase-1/genetics/metabolism",
+      "*Transcriptional Activation/genetics",
+      "Promoter Regions, Genetic/genetics",
+      "Protein Interaction Maps/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Fan",
+        "Liu, Duo",
+        "Hu, Liuting",
+        "Tan, Hao",
+        "Wei, Yajing",
+        "Yang, Ruyu",
+        "Huang, Biqi",
+        "Zou, Qiuyu",
+        "Wu, Qiong",
+        "He, Yushi",
+        "Mai, Huaxi",
+        "Lan, Xi",
+        "Yan, Ying",
+        "Huang, Zixuan",
+        "Huang, Xinyan",
+        "Fu, Zhuangzhi",
+        "Deng, Zhiyun",
+        "Huang, Qinghua",
+        "Yao, Shuzhong",
+        "Liang, Yanchun"
+      ],
+      "short_names": [
+        "Yang F",
+        "Liu D",
+        "Hu L",
+        "Tan H",
+        "Wei Y",
+        "Yang R",
+        "Huang B",
+        "Zou Q",
+        "Wu Q",
+        "He Y",
+        "Mai H",
+        "Lan X",
+        "Yan Y",
+        "Huang Z",
+        "Huang X",
+        "Fu Z",
+        "Deng Z",
+        "Huang Q",
+        "Yao S",
+        "Liang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Neurology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China.",
+        "Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, Nanning, 530022, Guangxi, China.",
+        "Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, Nanning, 530022, Guangxi, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China.",
+        "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China. Electronic address: yaoshuzh@mail.sysu.edu.cn.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China; Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, Nanning, 530022, Guangxi, China. Electronic address: lyanchun@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Fan",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Duo",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Liuting",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Hao",
+        "short_name": "Tan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yajing",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ruyu",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Biqi",
+        "short_name": "Huang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Qiuyu",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qiong",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "He, Yushi",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Mai, Huaxi",
+        "short_name": "Mai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Xi",
+        "short_name": "Lan X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, Nanning, 530022, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Ying",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, Nanning, 530022, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zixuan",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xinyan",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Zhuangzhi",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Zhiyun",
+        "short_name": "Deng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qinghua",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan School of Medicine, Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Shuzhong",
+        "short_name": "Yao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China. Electronic address: yaoshuzh@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liang, Yanchun",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, 510080, Guangdong, China; Guangdong Provincial Clinical Research Center for Obstetrical and Gynecological Diseases, Guangzhou, 510080, Guangdong, China; Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, Nanning, 530022, Guangxi, China. Electronic address: lyanchun@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular and cellular endocrinology"
+    ],
+    "journal_abbrev": [
+      "Mol Cell Endocrinol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/22 00:28",
+    "fetched_at": "2026-10-01 09:46:16"
+  },
+  "links": {
+    "cites": [
+      "41897536"
+    ],
+    "refs": [],
+    "similar": [
+      "41422938",
+      "40957175",
+      "40939963",
+      "34508760",
+      "40261607",
+      "40492577",
+      "41432483",
+      "39798208",
+      "38739977",
+      "36300537",
+      "41486516",
+      "39006084",
+      "40882016",
+      "38660311",
+      "39129295",
+      "40414463",
+      "36532015",
+      "39923427",
+      "36339397",
+      "41424583",
+      "40464516",
+      "36011263",
+      "39872538",
+      "41310859",
+      "38166987",
+      "36524127",
+      "37415103",
+      "39072329",
+      "41508240",
+      "40895546",
+      "33800989",
+      "41146213",
+      "39715608",
+      "38098472",
+      "40973872",
+      "41021591",
+      "39306912",
+      "34388243",
+      "40432412",
+      "39075530",
+      "38549776",
+      "23427178",
+      "38113413",
+      "36193742",
+      "39706989",
+      "35498043",
+      "40359890",
+      "39991755",
+      "39586719",
+      "38650009",
+      "41168872",
+      "33378529",
+      "41444522",
+      "41137290",
+      "39067746",
+      "39800242",
+      "38574881",
+      "40165344",
+      "40370730",
+      "39501947",
+      "40638251",
+      "40235314",
+      "36008747",
+      "39255694",
+      "37821869",
+      "38943808",
+      "39792889",
+      "41286198",
+      "40461202",
+      "38503948",
+      "40714968",
+      "38821254",
+      "40527850",
+      "32439908",
+      "40046872",
+      "41312366",
+      "40948782",
+      "38496569",
+      "35127942",
+      "40345007",
+      "33453607",
+      "38802844",
+      "39629132",
+      "34522169",
+      "22431737",
+      "41084510",
+      "34421979",
+      "41106221",
+      "41218547",
+      "40924862",
+      "41272701",
+      "36506045",
+      "26134036",
+      "39966984",
+      "29982401",
+      "36660690",
+      "41389607",
+      "31013265",
+      "40145281",
+      "41405396"
+    ],
+    "review": [
+      "41422938",
+      "40145281"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0303-7207(25)00272-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-680",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

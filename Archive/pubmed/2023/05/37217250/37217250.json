@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "37217250",
+    "doi": "10.1101/gr.277677.123",
+    "title": "Unsupervised contrastive peak caller for ATAC-seq."
+  },
+  "content": {
+    "abstract": "The assay for transposase-accessible chromatin with sequencing (ATAC-seq) is a common assay to identify chromatin accessible regions by using a Tn5 transposase that can access, cut, and ligate adapters to DNA fragments for subsequent amplification and sequencing. These sequenced regions are quantified and tested for enrichment in a process referred to as \"peak calling.\" Most unsupervised peak calling methods are based on simple statistical models and suffer from elevated false positive rates. Newly developed supervised deep learning methods can be successful, but they rely on high quality labeled data for training, which can be difficult to obtain. Moreover, though biological replicates are recognized to be important, there are no established approaches for using replicates in the deep learning tools, and the approaches available for traditional methods either cannot be applied to ATAC-seq, where control samples may be unavailable, or are post hoc and do not capitalize on potentially complex, but reproducible signal in the read enrichment data. Here, we propose a novel peak caller that uses unsupervised contrastive learning to extract shared signals from multiple replicates. Raw coverage data are encoded to obtain low-dimensional embeddings and optimized to minimize a contrastive loss over biological replicates. These embeddings are passed to another contrastive loss for learning and predicting peaks and decoded to denoised data under an autoencoder loss. We compared our replicative contrastive learner (RCL) method with other existing methods on ATAC-seq data, using annotations from ChromHMM genomic labels and transcription factor ChIP-seq as noisy truth. RCL consistently achieved the best performance.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Sequence Analysis, DNA/methods",
+      "*High-Throughput Nucleotide Sequencing/methods",
+      "Chromatin/genetics",
+      "DNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vu, Ha T H",
+        "Zhang, Yudi",
+        "Tuteja, Geetu",
+        "Dorman, Karin S"
+      ],
+      "short_names": [
+        "Vu HTH",
+        "Zhang Y",
+        "Tuteja G",
+        "Dorman KS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4161-5952",
+        "ORCID: 0000-0001-8789-1165",
+        "ORCID: 0000-0002-8726-9955",
+        "ORCID: 0000-0003-3650-0018"
+      ],
+      "affiliations": [
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, USA.",
+        "Department of Genetics, Development and Cell Biology, Ames, Iowa 50011, USA.",
+        "Department of Statistics, Iowa State University, Ames, Iowa 50011, USA.",
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, USA.",
+        "Department of Genetics, Development and Cell Biology, Ames, Iowa 50011, USA.",
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, USA; kdorman@iastate.edu.",
+        "Department of Genetics, Development and Cell Biology, Ames, Iowa 50011, USA.",
+        "Department of Statistics, Iowa State University, Ames, Iowa 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vu, Ha T H",
+        "short_name": "Vu HTH",
+        "identifiers": [
+          "0000-0003-4161-5952"
+        ],
+        "affiliations": [
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, USA.",
+          "Department of Genetics, Development and Cell Biology, Ames, Iowa 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yudi",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0001-8789-1165"
+        ],
+        "affiliations": [
+          "Department of Statistics, Iowa State University, Ames, Iowa 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Tuteja, Geetu",
+        "short_name": "Tuteja G",
+        "identifiers": [
+          "0000-0002-8726-9955"
+        ],
+        "affiliations": [
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, USA.",
+          "Department of Genetics, Development and Cell Biology, Ames, Iowa 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Dorman, Karin S",
+        "short_name": "Dorman KS",
+        "identifiers": [
+          "0000-0003-3650-0018"
+        ],
+        "affiliations": [
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames, Iowa 50011, USA; kdorman@iastate.edu.",
+          "Department of Genetics, Development and Cell Biology, Ames, Iowa 50011, USA.",
+          "Department of Statistics, Iowa State University, Ames, Iowa 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/23 01:06",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "42168187",
+      "40569178",
+      "40452285",
+      "38948854"
+    ],
+    "refs": [
+      "36394265",
+      "36040971",
+      "35866989",
+      "35478247",
+      "34785717",
+      "33936141",
+      "33879052",
+      "33878366",
+      "33590861",
+      "33539878",
+      "32939066",
+      "32404971",
+      "32213349",
+      "32014034",
+      "31249361",
+      "31199868",
+      "30795793",
+      "30407521",
+      "30093682",
+      "29684098",
+      "29651053",
+      "29120462",
+      "27797775",
+      "27079975",
+      "26353135",
+      "26026074",
+      "25559105",
+      "25161254",
+      "24894502",
+      "24695404",
+      "24097267",
+      "22955616",
+      "22576172",
+      "22388286",
+      "21113027",
+      "20436461",
+      "20110278",
+      "19736561",
+      "18798982",
+      "15888575",
+      "14732253",
+      "12814941",
+      "6519667",
+      "6256660"
+    ],
+    "similar": [
+      "37217250",
+      "36712015",
+      "36062065",
+      "34284136",
+      "35848835",
+      "36173566",
+      "33878366",
+      "39255248",
+      "34273560",
+      "37811941",
+      "39017885",
+      "32213349",
+      "36807076",
+      "36656543",
+      "32543102",
+      "37211599",
+      "29052193",
+      "33606259",
+      "35411004",
+      "32251359",
+      "36719906",
+      "35195064",
+      "35255493",
+      "32312702",
+      "32822050",
+      "37249868",
+      "37218013",
+      "37118773",
+      "37751945",
+      "37989133",
+      "38515040",
+      "36807065",
+      "35809062",
+      "35486242",
+      "38012291",
+      "34875002",
+      "31199868",
+      "28075484",
+      "35997564",
+      "37249867",
+      "33188264",
+      "38329877",
+      "37590150",
+      "37990143",
+      "35866989",
+      "32312703",
+      "34870838",
+      "38589969",
+      "37010301",
+      "31427911",
+      "36807072",
+      "35296236",
+      "33172005",
+      "31164146",
+      "36995609",
+      "38735595",
+      "29155775",
+      "38049698",
+      "32321568",
+      "35867231",
+      "36124976",
+      "31160376",
+      "27634469",
+      "34647036",
+      "32014034",
+      "25559105",
+      "38643066",
+      "30824903",
+      "37980428",
+      "36452861",
+      "36698077",
+      "35604124",
+      "27832532",
+      "35037783",
+      "29961827",
+      "35325188",
+      "35673985",
+      "34382186",
+      "38049697",
+      "34898596",
+      "35695574",
+      "30587107",
+      "33074546",
+      "37500689",
+      "36807060",
+      "34235431",
+      "30064353",
+      "34488759",
+      "32321567",
+      "38426058",
+      "38236771",
+      "35103973",
+      "36792778",
+      "34313779",
+      "35584295",
+      "36723809",
+      "29030848",
+      "30416387",
+      "36807064",
+      "32336246",
+      "32353042",
+      "29684098",
+      "33555221",
+      "35227282",
+      "36807074",
+      "36582986",
+      "37146087",
+      "38581422",
+      "38841126",
+      "38536919",
+      "35874611",
+      "38019944",
+      "34126932",
+      "37323658",
+      "31300027",
+      "34273562",
+      "33655209",
+      "34465366",
+      "34635147",
+      "38915667",
+      "38730604"
+    ],
+    "review": [
+      "37217250",
+      "39255248",
+      "33606259",
+      "35255493",
+      "32312702",
+      "32312703",
+      "31427911",
+      "33172005",
+      "32014034"
+    ],
+    "pmc": [
+      "10538491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=37217250",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37217250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37217250",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

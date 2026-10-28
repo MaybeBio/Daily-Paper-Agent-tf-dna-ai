@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35858839",
+  "title": "Deep learning for de-convolution of Smad2 versus Smad3 binding sites.",
+  "authors": "Ng, Jeremy W K; Ong, Esther H Q; Tucker-Kellogg, Lisa; Tucker-Kellogg, Greg",
+  "journal": "BMC genomics",
+  "published_date": "2022-07-21",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用CNN-LSTM深度学习模型区分Smad2与Smad3的ChIP-seq结合位点，聚焦转录因子DNA结合特异性预测，虽未涉及三维结构或动态机制，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "BACKGROUND: The transforming growth factor beta-1 (TGF beta-1) cytokine exerts both pro-tumor and anti-tumor effects in carcinogenesis. An increasing body of literature suggests that TGF beta-1 signaling outcome is partially dependent on the regulatory targets of downstream receptor-regulated Smad (R-Smad) proteins Smad2 and Smad3. However, the lack of Smad-specific antibodies for ChIP-seq hinders convenient identification of Smad-specific binding sites. RESULTS: In this study, we use localization and affinity purification (LAP) tags to identify Smad-specific binding sites in a cancer cell line. Using ChIP-seq data obtained from LAP-tagged Smad proteins, we develop a convolutional neural network with long-short term memory (CNN-LSTM) as a deep learning approach to classify a pool of Smad-bound sites as being Smad2- or Smad3-bound. Our data showed that this approach is able to accurately classify Smad2- versus Smad3-bound sites. We use our model to dissect the role of each R-Smad in the progression of breast cancer using a previously published dataset. CONCLUSIONS: Our results suggests that deep learning approaches can be used to dissect binding site specificity of closely related transcription factors.",
+  "abstract_zh": "背景：转化生长因子β-1（TGF beta-1）细胞因子在致癌过程中兼具促肿瘤和抗肿瘤作用。越来越多的文献表明，TGF beta-1信号传导的结果部分依赖于下游受体调节型Smad（R-Smad）蛋白Smad2和Smad3的调控靶点。然而，缺乏用于ChIP-seq的Smad特异性抗体阻碍了Smad特异性结合位点的便捷识别。结果：在本研究中，我们使用定位和亲和纯化（LAP）标签来识别癌细胞系中的Smad特异性结合位点。利用从LAP标记的Smad蛋白获得的ChIP-seq数据，我们开发了一种具有长短期记忆的卷积神经网络（CNN-LSTM）作为深度学习方法，将Smad结合位点池分类为Smad2或Smad3结合位点。我们的数据表明，该方法能够准确分类Smad2与Smad3结合位点。我们使用该模型，通过先前发表的数据集，剖析每个R-Smad在乳腺癌进展中的作用。结论：我们的结果表明，深度学习方法可用于解析密切相关转录因子的结合位点特异性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35858839/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35858839/",
+  "paper_page_path": "papers/pubmed/35858839/index.html"
+}

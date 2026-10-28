@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "34865154",
+    "doi": "10.1093/plcell/koab287",
+    "title": "Modeling temporal and hormonal regulation of plant transcriptional response to wounding."
+  },
+  "content": {
+    "abstract": "Plants respond to wounding stress by changing gene expression patterns and inducing the production of hormones including jasmonic acid. This wounding transcriptional response activates specialized metabolism pathways such as the glucosinolate pathways in Arabidopsis thaliana. While the regulatory factors and sequences controlling a subset of wound-response genes are known, it remains unclear how wound response is regulated globally. Here, we how these responses are regulated by incorporating putative cis-regulatory elements, known transcription factor binding sites, in vitro DNA affinity purification sequencing, and DNase I hypersensitive sites to predict genes with different wound-response patterns using machine learning. We observed that regulatory sites and regions of open chromatin differed between genes upregulated at early and late wounding time-points as well as between genes induced by jasmonic acid and those not induced. Expanding on what we currently know, we identified cis-elements that improved model predictions of expression clusters over known binding sites. Using a combination of genome editing, in vitro DNA-binding assays, and transient expression assays using native and mutated cis-regulatory elements, we experimentally validated four of the predicted elements, three of which were not previously known to function in wound-response regulation. Our study provides a global model predictive of wound response and identifies new regulatory sequences important for wounding without requiring prior knowledge of the transcriptional regulators.",
+    "keywords": [],
+    "mesh_terms": [
+      "Arabidopsis/drug effects/genetics/*physiology",
+      "Cyclopentanes/pharmacology",
+      "*Gene Expression Regulation, Plant",
+      "Metabolic Networks and Pathways",
+      "Models, Biological",
+      "Oxylipins/pharmacology",
+      "Plant Growth Regulators/pharmacology/*physiology",
+      "Plants, Genetically Modified",
+      "Regulatory Sequences, Nucleic Acid",
+      "Reproducibility of Results",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moore, Bethany M",
+        "Lee, Yun Sun",
+        "Wang, Peipei",
+        "Azodi, Christina",
+        "Grotewold, Erich",
+        "Shiu, Shin-Han"
+      ],
+      "short_names": [
+        "Moore BM",
+        "Lee YS",
+        "Wang P",
+        "Azodi C",
+        "Grotewold E",
+        "Shiu SH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2104-7292",
+        "ORCID: 0000-0002-1474-564X",
+        "ORCID: 0000-0002-7580-9627",
+        "ORCID: 0000-0002-6097-606X",
+        "ORCID: 0000-0002-4720-7290",
+        "ORCID: 0000-0001-6470-235X"
+      ],
+      "affiliations": [
+        "Department of Botany, University of Wisconsin-Madison, Madison, Wisconsin 53706, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Ecology, Evolutionary Biology, and Behavior program, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "St. Vincent's Institute of Medical Research, Fitzroy 3065, Victoria, Australia.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Plant Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Ecology, Evolutionary Biology, and Behavior program, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan 48824, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moore, Bethany M",
+        "short_name": "Moore BM",
+        "identifiers": [
+          "0000-0002-2104-7292"
+        ],
+        "affiliations": [
+          "Department of Botany, University of Wisconsin-Madison, Madison, Wisconsin 53706, USA.",
+          "Department of Plant Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Ecology, Evolutionary Biology, and Behavior program, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Yun Sun",
+        "short_name": "Lee YS",
+        "identifiers": [
+          "0000-0002-1474-564X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Peipei",
+        "short_name": "Wang P",
+        "identifiers": [
+          "0000-0002-7580-9627"
+        ],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Azodi, Christina",
+        "short_name": "Azodi C",
+        "identifiers": [
+          "0000-0002-6097-606X"
+        ],
+        "affiliations": [
+          "St. Vincent's Institute of Medical Research, Fitzroy 3065, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Grotewold, Erich",
+        "short_name": "Grotewold E",
+        "identifiers": [
+          "0000-0002-4720-7290"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Shiu, Shin-Han",
+        "short_name": "Shiu SH",
+        "identifiers": [
+          "0000-0001-6470-235X"
+        ],
+        "affiliations": [
+          "Department of Plant Biology, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Ecology, Evolutionary Biology, and Behavior program, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant cell"
+    ],
+    "journal_abbrev": [
+      "Plant Cell"
+    ],
+    "pub_date": "2022 Feb 3",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/06 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "42337198",
+      "41470637",
+      "41010053",
+      "40924357",
+      "40546745",
+      "40546133",
+      "38774130",
+      "38712066",
+      "38475584",
+      "38352548",
+      "37528982",
+      "37525156",
+      "37330620",
+      "37309871",
+      "36760129",
+      "36559597",
+      "36299783",
+      "35348752",
+      "35325244",
+      "35231110"
+    ],
+    "refs": [
+      "33901489",
+      "33575601",
+      "31603924",
+      "30840209",
+      "29924303",
+      "29769331",
+      "29743197",
+      "28904073",
+      "28650429",
+      "28373393",
+      "27487458",
+      "27226176",
+      "27203113",
+      "27117388",
+      "26672615",
+      "26193878",
+      "26063739",
+      "25712739",
+      "25620770",
+      "25605792",
+      "25426131",
+      "25215497",
+      "25039701",
+      "25001451",
+      "23349138",
+      "22773751",
+      "22694750",
+      "22173100",
+      "22143240",
+      "21349196",
+      "21335373",
+      "21284757",
+      "20709829",
+      "20067590",
+      "19473329",
+      "19270186",
+      "18419781",
+      "18342629",
+      "18223147",
+      "18073770",
+      "18031220",
+      "17953483",
+      "17899172",
+      "17616737",
+      "17408486",
+      "17376166",
+      "15939667",
+      "15905282",
+      "15604673",
+      "14960456",
+      "12679534",
+      "12509529",
+      "12218065",
+      "11971132",
+      "11846873",
+      "11725945",
+      "11299350",
+      "11181708",
+      "10810145",
+      "10571873",
+      "9847208",
+      "9807831",
+      "9648747",
+      "8943205"
+    ],
+    "similar": [
+      "34865154",
+      "24430866",
+      "12068110",
+      "17786451",
+      "29344830",
+      "9342878",
+      "28904073",
+      "29196849",
+      "9680973",
+      "25224554",
+      "17214894",
+      "23624855",
+      "10594110",
+      "32107612",
+      "17291162",
+      "15604673",
+      "26974851",
+      "9648747",
+      "22921811",
+      "25039701",
+      "21911380",
+      "24157210",
+      "21036669",
+      "23719892",
+      "12857823",
+      "18643970",
+      "17616737",
+      "27837094",
+      "16258017",
+      "18194426",
+      "18216250",
+      "22377322",
+      "31991793",
+      "34576236",
+      "11910004",
+      "11725945",
+      "33805821",
+      "16478936",
+      "16021335",
+      "24774834",
+      "22289134",
+      "21078185",
+      "26063739",
+      "21489651",
+      "9484477",
+      "23620480",
+      "15141068",
+      "23852442",
+      "28126679",
+      "25290154",
+      "22325883",
+      "23979312",
+      "28827376",
+      "19832945",
+      "17675405",
+      "27844101",
+      "30544851",
+      "22543179",
+      "26672615",
+      "29666330",
+      "30529979",
+      "23933884",
+      "24805058",
+      "19825537",
+      "22452854",
+      "17521412",
+      "18247047",
+      "18552355",
+      "22773751",
+      "23673982",
+      "12820902",
+      "25716695",
+      "35302624",
+      "16021341",
+      "22883108",
+      "25311705",
+      "28373393",
+      "21693672",
+      "31437216",
+      "27451106",
+      "12509529",
+      "15988566",
+      "29960107",
+      "9501136",
+      "27848154",
+      "23480402",
+      "20950893",
+      "10889447",
+      "19277702",
+      "16113229",
+      "31551359",
+      "35231110",
+      "38712066",
+      "36100536"
+    ],
+    "review": [
+      "34865154"
+    ],
+    "pmc": [
+      "8824630"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34865154/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34865154",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plcell/article-lookup/doi/10.1093/plcell/koab287",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

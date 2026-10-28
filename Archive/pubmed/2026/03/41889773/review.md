@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, methods, and supplementary material references.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to the evidence presented, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations with enhanced sampling (REST3 and bias-exchange metadynamics) to show that multisite phosphorylation of the intrinsically disordered N-terminal domain (NTD) of p53, particularly at S46 and T55, modulates its structural ensemble and enhances its auto-inhibitory interaction with the DNA-binding domain (DBD). They propose a "dual-lock" mechanism where pT55 anchors the AD2 motif into the DNA-binding pocket via electrostatic and hydrophobic interactions, while pS46 reduces conformational entropy and provides secondary anchoring, collectively strengthening autoinhibition.
+- **Visible evidence base** Simulation results including free energy surfaces, contact probability maps, chemical shift comparisons with NMR data, and mutational analysis (R248A). Figures referenced include main text Figures A-D and supplementary Figures S1-S20.
+- **Missing materials affecting confidence** The manuscript does not provide the actual figures or figure legends, making it impossible to visually inspect the free energy surfaces, contact maps, or structural models. Experimental validation data (e.g., NMR or biophysical measurements performed by the authors) are not presented; comparisons rely entirely on previously published experimental results. Details on force field parameterization for phosphorylated residues are not fully described. The convergence criteria for the BE-MetaD simulations are described only in text, without quantitative convergence metrics for the 2D free energy surfaces.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question: how multisite phosphorylation regulates the structure and auto-inhibitory function of the intrinsically disordered N-terminal domain of p53. The authors employ state-of-the-art enhanced sampling simulations to provide a mechanistic model at atomic resolution. The work is potentially of high interest to the fields of intrinsically disordered proteins, post-translational modification biology, and cancer research. However, the current manuscript has several technical and presentational issues that must be addressed before the conclusions can be fully accepted. The central claims regarding the "dual-lock" mechanism and the distinct roles of pS46 and pT55 are plausible but require stronger quantitative support, particularly regarding the statistical significance of observed differences between phosphorylation states and the robustness of the free energy calculations.
+- **Who would be interested in the results, and why** Researchers studying p53 biology, particularly the regulation of its transcriptional activity and the role of post-translational modifications in cancer. The broader community investigating intrinsically disordered proteins and how phosphorylation modulates their conformational ensembles and interactions will also find this work relevant. Additionally, computational biophysicists interested in enhanced sampling methods applied to IDP systems will be interested in the methodological approach.
+- **Major strengths** The study addresses a biologically important question with a sophisticated computational approach. The use of REST3 for conformational sampling of the disordered NTD and BE-MetaD for binding free energy calculations is appropriate and represents a methodological advance over conventional MD. The comparison of simulated chemical shifts with experimental NMR data provides a valuable validation step. The proposed mechanistic model, including the "dual-lock" concept and the identification of specific residue-level interactions (e.g., pT55-R248, W53/F54 insertion), is testable and provides a clear framework for future experimental studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "dual phosphorylation at pS46 and pT55 further strengthens the NTD-DBD interaction" and that pS46 "amplifies the self-inhibitory ability of pT55 by reducing the dynamic conformational entropy of NTD."
+  - **Evidence pointer** Results section "Regulation of the Binding Ability between p53-NTD and DBD by Phosphorylation", Figures (not provided), Figure S2.
+  - **Concern** The quantitative evidence supporting the synergistic effect of dual phosphorylation over pT55 alone is not clearly presented. The manuscript states that dual phosphorylation "further strengthens" the interaction and "further lowers the free energy of the bound state," but no numerical free energy differences, binding affinities, or statistical error bars are provided for the different phosphorylation states. Without quantitative comparison of the free energy minima and their uncertainties, the claim of a synergistic "dual-lock" mechanism is not rigorously established. The R248A mutation simulation is mentioned but the resulting free energy changes are not quantified in the text.
+  - **Why it matters** The central conclusion of the paper is that multisite phosphorylation has a synergistic effect beyond single-site phosphorylation. If the free energy difference between pT55 and pS46pT55 states is within the error of the calculation, the "dual-lock" model is not supported. The authors must provide quantitative free energy values, error estimates, and a statistical comparison to substantiate this key claim.
+  - **Resolution test** Provide a table or figure with the free energy differences (e.g., binding free energy or population shift) between WT, pS46, pT55, and pS46pT55 states, including error bars. Perform a statistical test (e.g., bootstrap or block averaging) to demonstrate that the difference between pT55 and pS46pT55 is significant. Quantify the effect of the R248A mutation on the free energy of binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "phosphorylation not only affects the local structures near the phosphorylation sites but also increases the global extensibility and changes the long-range interactions" of the NTD.
+  - **Evidence pointer** Results section "Regulation of the p53 NTD Structural Ensemble by Phosphorylation", Figures A-D, Figure S1.
+  - **Concern** The analysis of the NTD structural ensemble relies on Rg distributions and contact frequency maps. While the authors state that phosphorylation increases Rg, the magnitude of this effect and its functional relevance are not quantified. More critically, the claim that "dual phosphorylation at S46 and T55 exhibits a mutually compensatory effect" is vague. What exactly is compensated? The contact maps in Figure S1 are described qualitatively, but no quantitative comparison (e.g., difference maps with statistical significance) is provided. The relationship between increased Rg and enhanced binding to DBD is not mechanistically explained.
+  - **Why it matters** The structural characterization of the NTD is the foundation for the subsequent binding studies. If the ensemble differences between phosphorylation states are not rigorously quantified, the link between structural changes and functional outcomes (binding, autoinhibition) remains speculative.
+  - **Resolution test** Provide quantitative measures of ensemble differences, such as the fraction of conformations with Rg > 2 nm for each state, with errors. Present difference contact maps (e.g., pT55 minus WT) with statistical thresholds. Discuss how the observed changes in Rg and contacts specifically facilitate the binding mechanism proposed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The authors state that "the simulation time of the four systems ranged from 500 to 1000 ns, depending on the convergence of the free energy surface."
+  - **Evidence pointer** Methods section "Bias-Exchange Metadynamics (BE-MetaD)".
+  - **Concern** The simulation times for the BE-MetaD runs are relatively short for binding free energy calculations involving a disordered region. The convergence criteria are described qualitatively ("depending on the convergence of the free energy surface"). The provided convergence test (Figure S20) reports an average deviation of less than 3 kJ/mol over the final 100 ns, but this is a global average and may not reflect convergence of specific metastable states. The number of replicas, exchange rates, and total sampling time per replica are not specified.
+  - **Why it matters** The reliability of the free energy surfaces and the resulting mechanistic conclusions depend critically on adequate sampling. If the simulations are not fully converged, the relative stabilities of different binding modes and the proposed "dual-lock" mechanism could be artifacts of insufficient sampling.
+  - **Resolution test** Provide detailed convergence analysis, including time evolution of free energy differences between key states, not just global averages. Specify the number of replicas, exchange frequency, and total simulation time per replica. Consider extending simulations or using additional orthogonal enhanced sampling methods to confirm the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Conclusions
+  - **Evidence pointer** Abstract, Conclusions
+  - **Issue** The abstract and conclusions use the term "dual-lock mechanism" without prior definition in the abstract. The term is introduced in the Discussion but should be defined at first use in the abstract for readers who do not read the full text.
+  - **Required correction** Define "dual-lock mechanism" in the abstract, e.g., "a mechanism we term 'dual-lock,' involving two distinct anchoring interactions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Simulation Setup"
+  - **Evidence pointer** Methods, "Simulation Setup"
+  - **Issue** The manuscript states that the initial NTD structure was "generated using PyMOL to construct a fully extended conformation." This is an unusual choice for an IDP, as fully extended conformations may bias the subsequent sampling. The authors should justify this choice and explain why a random coil or other initial conformation was not used.
+  - **Required correction** Provide a brief justification for the choice of initial conformation and discuss any potential bias it may introduce.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Methods section "Bias-Exchange Metadynamics (BE-MetaD)"
+  - **Evidence pointer** Methods, "Bias-Exchange Metadynamics (BE-MetaD)"
+  - **Issue** The Gaussian widths for CV1-CV6 are given, but the units are not specified. For contact number CVs, the width is presumably in units of contacts, but this should be stated explicitly.
+  - **Required correction** Specify the units for all Gaussian width parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section "Comparison with Experiments and Previous Computational Results"
+  - **Evidence pointer** Discussion, "Comparison with Experiments and Previous Computational Results"
+  - **Issue** The authors note a discrepancy in helical population between their simulations and NMR data (10% vs 30% for AD1). They attribute this to "significant uncertainty associated with helicity measurements in highly dynamic, intrinsically disordered regions." While this is plausible, the authors should also discuss whether the force field parameters (CHARMM36m) may contribute to this discrepancy, as force field inaccuracies in IDP secondary structure propensities are well documented.
+  - **Required correction** Add a brief discussion of potential force field limitations and how they might affect the helical population estimates.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of quantitative free energy comparisons and statistical analysis undermines the central claims of synergistic dual phosphorylation and the distinct roles of S46 and T55. The convergence of the BE-MetaD simulations (R1-M3) also needs to be more rigorously demonstrated.
+- **Assessment against Nature-style criteria** Originality: The study is original in its atomistic characterization of the p53 NTD-DBD autoinhibitory interaction and the proposed "dual-lock" mechanism. While previous experimental work has established the phenomenon, the molecular-level explanation is new. Scientific importance: The regulation of p53 by phosphorylation is a central question in cancer biology, and understanding the autoinhibitory mechanism has broad implications. The work is potentially important, but the strength of the conclusions is currently limited by the quantitative gaps described above. Interdisciplinary readership: The topic bridges structural biology, computational biophysics, and cancer biology, and should appeal to a broad audience. Technical soundness: The methodological approach is appropriate and state-of-the-art, but the analysis and reporting of results need to be more rigorous to fully support the claims. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., the description of CVs in the methods) are dense. The abstract effectively conveys the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question with an appropriate methodology, and the proposed mechanism is plausible and testable. However, the current lack of quantitative support for the central claims regarding synergistic phosphorylation and the "dual-lock" mechanism prevents full acceptance. The authors must provide a more rigorous quantitative analysis of their free energy calculations and demonstrate that the observed differences between phosphorylation states are statistically significant and robust to sampling limitations.
+
+## Risk / unsupported claims
+- The claim that pS46 "amplifies the self-inhibitory ability of pT55 by reducing the dynamic conformational entropy of NTD" is not quantitatively supported. No entropy calculations are presented.
+- The claim that dual phosphorylation "further strengthens" the NTD-DBD interaction compared to pT55 alone is not supported by numerical free energy comparisons.
+- The statement that "phosphorylation at T55 appears to play the dominant and driving role" is presented as a conclusion but is not quantitatively justified relative to the effect of pS46.
+- The proposed "dual-lock mechanism" is a conceptual model that is consistent with the simulations but is not directly proven. The authors should clarify that this is a proposed model rather than an established mechanism.
+- The functional significance of the observed changes in Rg and contact patterns is inferred but not directly demonstrated. The link between structural changes and functional outcomes (binding, autoinhibition) is correlative.

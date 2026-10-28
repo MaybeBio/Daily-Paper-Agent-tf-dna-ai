@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "34962260",
+    "doi": "10.1093/bib/bbab547",
+    "title": "SIGNET: single-cell RNA-seq-based gene regulatory network prediction using multiple-layer perceptron bagging."
+  },
+  "content": {
+    "abstract": "High-throughput single-cell RNA-seq data have provided unprecedented opportunities for deciphering the regulatory interactions among genes. However, such interactions are complex and often nonlinear or nonmonotonic, which makes their inference using linear models challenging. We present SIGNET, a deep learning-based framework for capturing complex regulatory relationships between genes under the assumption that the expression levels of transcription factors participating in gene regulation are strong predictors of the expression of their target genes. Evaluations based on a variety of real and simulated scRNA-seq datasets showed that SIGNET is more sensitive to ChIP-seq validated regulatory interactions in different types of cells, particularly rare cells. Therefore, this process is more effective for various downstream analyses, such as cell clustering and gene regulatory network inference. We demonstrated that SIGNET is a useful tool for identifying important regulatory modules driving various biological processes.",
+    "keywords": [
+      "cell clustering",
+      "deep learning",
+      "gene regulatory networks inference"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Cluster Analysis",
+      "Deep Learning",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Neural Networks, Computer",
+      "RNA-Seq",
+      "*Sequence Analysis, RNA",
+      "*Single-Cell Analysis",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Qinhuan",
+        "Yu, Yongzhen",
+        "Lan, Xun"
+      ],
+      "short_names": [
+        "Luo Q",
+        "Yu Y",
+        "Lan X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6523-046X"
+      ],
+      "affiliations": [
+        "School of Medicine, Tsinghua University, Beijing, China.",
+        "School of Medicine, Tsinghua University, Beijing, China.",
+        "School of Medicine,and the Tsinghua-Peking Center for Life science, MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Qinhuan",
+        "short_name": "Luo Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yongzhen",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Xun",
+        "short_name": "Lan X",
+        "identifiers": [
+          "0000-0002-6523-046X"
+        ],
+        "affiliations": [
+          "School of Medicine,and the Tsinghua-Peking Center for Life science, MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/29 06:00",
+    "fetched_at": "2026-09-28 03:32:24"
+  },
+  "links": {
+    "cites": [
+      "41043336",
+      "40626041",
+      "40116659",
+      "39661721",
+      "39502448",
+      "38980373",
+      "38169874",
+      "37079737",
+      "36629274",
+      "36461064",
+      "36434499",
+      "35967340"
+    ],
+    "refs": [
+      "38217125",
+      "34179690",
+      "33761997",
+      "33589425",
+      "33472635",
+      "33298893",
+      "32928797",
+      "32767996",
+      "32588900",
+      "32232558",
+      "32135093",
+      "32033573",
+      "31934116",
+      "31832020",
+      "31750299",
+      "31559796",
+      "31533351",
+      "31516386",
+      "31429766",
+      "31384058",
+      "31114875",
+      "30547796",
+      "30413482",
+      "30388455",
+      "30283141",
+      "30089906",
+      "29961579",
+      "29892301",
+      "29409532",
+      "29297370",
+      "29198524",
+      "29032836",
+      "29028984",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28891439",
+      "28584094",
+      "28566565",
+      "28379368",
+      "28120940",
+      "26722300",
+      "26264497",
+      "26235087",
+      "26072513",
+      "25867923",
+      "25753420",
+      "25700174",
+      "25539663",
+      "25154812",
+      "24735874",
+      "24651579",
+      "24243019",
+      "24124593",
+      "23563899",
+      "23557330",
+      "23334244",
+      "21602905",
+      "20927193",
+      "20139988",
+      "19114008",
+      "18539629",
+      "16723010",
+      "15896686",
+      "15832085",
+      "12662723",
+      "12032776",
+      "11684436",
+      "8393146",
+      "8393145",
+      "2408759",
+      "1993219",
+      "1949203"
+    ],
+    "similar": [
+      "34962260",
+      "35961023",
+      "38980373",
+      "38950180",
+      "37985457",
+      "36626328",
+      "31068142",
+      "36877552",
+      "33619563",
+      "35172334",
+      "34481921",
+      "35050715",
+      "34424948",
+      "33307360",
+      "34251625",
+      "38684946",
+      "33822877",
+      "37769630",
+      "33876191",
+      "39062480",
+      "31870278",
+      "35443717",
+      "38653489",
+      "35715748",
+      "31286861",
+      "36804214",
+      "37244909",
+      "32674393",
+      "37237310",
+      "35302164",
+      "33026066",
+      "34929734",
+      "37313714",
+      "38171931",
+      "37686146",
+      "39082647",
+      "34095314",
+      "34044773",
+      "37486829",
+      "38487851",
+      "33098418",
+      "37898127",
+      "36734596",
+      "29630593",
+      "28529066",
+      "35901457",
+      "36631401",
+      "32174324",
+      "32716923",
+      "31581101",
+      "34472585",
+      "35831808",
+      "37085776",
+      "33430769",
+      "38168839",
+      "33835452",
+      "34011578",
+      "38261340",
+      "34996927",
+      "30441472",
+      "33630737",
+      "31243426",
+      "35393428",
+      "38744843",
+      "31985403",
+      "32532794",
+      "34903266",
+      "37897702",
+      "36168811",
+      "35062026",
+      "35136924",
+      "33767197",
+      "37740953",
+      "37991248",
+      "35419595",
+      "35316190",
+      "34301623",
+      "33434139",
+      "34999761",
+      "28991892",
+      "36534702",
+      "36198490",
+      "35524494",
+      "36047285",
+      "32825786",
+      "30864667",
+      "34244616",
+      "35870203",
+      "32244427",
+      "36585783",
+      "34035047",
+      "37948464",
+      "38111007",
+      "34015329",
+      "36733262",
+      "35777719",
+      "37225419",
+      "28977434",
+      "36715275",
+      "31566233",
+      "38890415",
+      "32393754",
+      "37738895",
+      "38032470",
+      "32329779",
+      "39051682",
+      "37862243",
+      "39009595",
+      "38960404",
+      "32746932",
+      "38754419",
+      "39193852",
+      "29018868",
+      "38349062",
+      "30963076",
+      "39143494",
+      "37682833",
+      "32139671",
+      "36508663",
+      "38274364",
+      "37703293",
+      "38190633",
+      "38884259",
+      "38465983",
+      "37790443",
+      "39317764",
+      "37546848",
+      "37996959",
+      "38867109",
+      "37292801",
+      "35115012",
+      "36629274",
+      "34404460",
+      "38366243",
+      "37131803",
+      "37353848"
+    ],
+    "review": [
+      "34962260",
+      "31243426",
+      "38032470",
+      "29018868"
+    ],
+    "pmc": [
+      "8769917"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34962260.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34962260/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34962260",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab547",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41385176",
+  "title": "Network-based identification of regulatory hubs and therapeutic targets in multiple sclerosis: an integrated transcriptomic and molecular docking approach.",
+  "authors": "Abidi, Pouria; Ebrahimi, Sepideh; Mirtooni, Saeedeh Sadat; Pasdar, Alireza; Amerizadeh, Forouzan",
+  "journal": "Acta neurologica Belgica",
+  "published_date": "2025-12-12",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基于转录组和PPI网络识别多发性硬化症关键基因，并做启动子基序分析和分子对接，但核心是疾病靶点而非TF-DNA互作机制，方法上仅简单对接，与课题关联较弱。",
+  "abstract": "BACKGROUND: Multiple sclerosis (MS) is a chronic neurodegenerative disease marked by inflammation, demyelination, and neuronal loss. Despite research, the mechanisms remain unclear, requiring further investigation into pathways and therapeutic targets. METHODS: A bioinformatics-driven approach was employed to analyze gene expression data from the GEO database (GSE135511). Differentially expressed genes (DEGs) were identified and subjected to GO and KEGG enrichment analysis. A protein-protein interaction (PPI) network was constructed using STRING and Cytoscape with key hub genes detected via CytoHubba. Functional clustering was performed using ClusterONE and promoter motif analysis was conducted using MEME suite. Finally, DrugBank database was screened to identify potential drug-target interactions for hub proteins. Molecular docking was performed to evaluate binding affinities between identified drugs and target proteins. RESULTS: Functional enrichment analysis revealed involvement of oxidative phosphorylation, immune regulation, and neurodegenerative pathways in MS. The PPI network analysis identified SLC32A1, PVALB, GAD1, GAD2, SNAP25, NRXN1, CDC42 and CD44 as key hub proteins. Functional clustering highlighted distinct biological modules related to mitochondrial metabolism, immunity, and cytoskeletal remodeling. Promoter motif analysis identified transcription factor binding sites regulating neuronal survival and apoptosis. Drug-target interaction analysis, followed by molecular docking using PyRx, demonstrated strong binding affinities between hub proteins and endogenous or approved compounds: NRXN1 with calcium citrate (-7.4 kcal/mol), GAD1 with pyridoxal phosphate (-6.7 kcal/mol), CD44 with hyaluronic acid (-6.8 kcal/mol). These findings provide new insights into pivotal molecular mechanisms and druggable targets within MS pathology. CONCLUSION: This study presents a molecular landscape of MS, integrating gene expression, pathway enrichment, regulatory analysis, and pharmacotherapy strategies. The findings reveal novel MS pathogenesis insights and identify promising therapeutic targets for clinical validation.",
+  "abstract_zh": "背景：多发性硬化症（MS）是一种慢性神经退行性疾病，以炎症、脱髓鞘和神经元丢失为特征。尽管已有研究，其机制仍不明确，需进一步探究相关通路及治疗靶点。方法：采用生物信息学驱动方法分析GEO数据库（GSE135511）中的基因表达数据。鉴定差异表达基因（DEGs），并进行GO和KEGG富集分析。利用STRING和Cytoscape构建蛋白质-蛋白质相互作用（PPI）网络，通过CytoHubba检测关键枢纽基因。使用ClusterONE进行功能聚类，并利用MEME套件进行启动子基序分析。最后，筛选DrugBank数据库以识别枢纽蛋白的潜在药物-靶点相互作用。通过分子对接评估所鉴定药物与靶蛋白之间的结合亲和力。结果：功能富集分析揭示MS涉及氧化磷酸化、免疫调节和神经退行性通路。PPI网络分析鉴定出SLC32A1、PVALB、GAD1、GAD2、SNAP25、NRXN1、CDC42和CD44为关键枢纽蛋白。功能聚类突出显示了与线粒体代谢、免疫和细胞骨架重塑相关的不同生物学模块。启动子基序分析识别了调控神经元存活和凋亡的转录因子结合位点。药物-靶点相互作用分析，随后使用PyRx进行分子对接，显示枢纽蛋白与内源性或已批准化合物之间具有强结合亲和力：NRXN1与柠檬酸钙（-7.4 kcal/mol）、GAD1与磷酸吡哆醛（-6.7 kcal/mol）、CD44与透明质酸（-6.8 kcal/mol）。这些发现为MS病理中的关键分子机制和可药物靶点提供了新见解。结论：本研究呈现了MS的分子图谱，整合了基因表达、通路富集、调控分析和药物治疗策略。研究结果揭示了MS发病机制的新见解，并识别了有前景的治疗靶点以供临床验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41385176/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41385176/",
+  "paper_page_path": "papers/pubmed/41385176/index.html"
+}

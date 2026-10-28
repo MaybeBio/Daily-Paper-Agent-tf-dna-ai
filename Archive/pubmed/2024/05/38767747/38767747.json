@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "38767747",
+    "doi": "10.1007/s00432-024-05798-z",
+    "title": "Machine learning identifies the role of SMAD6 in the prognosis and drug susceptibility in bladder cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bladder cancer (BCa) is among the most prevalent malignant tumors affecting the urinary system. Due to its highly recurrent nature, standard treatments such as surgery often fail to significantly improve patient prognosis. Our research aims to predict prognosis and identify precise therapeutic targets for novel treatment interventions. METHODS: We collected and screened genes related to the TGF-beta signaling pathway and performed unsupervised clustering analysis on TCGA-BLCA samples based on these genes. Our analysis revealed two novel subtypes of bladder cancer with completely different biological characteristics, including immune microenvironment, drug sensitivity, and more. Using machine learning classifiers, we identified SMAD6 as a hub gene contributing to these differences and further investigated the role of SMAD6 in bladder cancer in the single-cell transcriptome data. Additionally, we analyzed the relationship between SMAD6 and immune checkpoint genes. Finally, we performed a series of in vitro assays to verify the function of SMAD6 in bladder cancer cell lines. RESULTS: We have revealed two novel subtypes of bladder cancer, among which C1 exhibits a worse prognosis, lower drug sensitivity, a more complex tumor microenvironment, and a 'colder' immune microenvironment compared to C2. We identified SMAD6 as a key gene responsible for the differences and further explored its impact on the molecular characteristics of bladder cancer. Through in vitro experiments, we found that SMAD6 promoted the prognosis of BCa patients by inhibiting the proliferation and migration of BCa cells. CONCLUSION: Our study reveals two novel subtypes of BCa and identifies SMAD6 as a highly promising therapeutic target.",
+    "keywords": [
+      "Bladder cancer",
+      "Drug sensitivity",
+      "Immunotherapy",
+      "Machine learning",
+      "Therapeutic target",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/genetics/pathology/drug therapy/metabolism",
+      "Prognosis",
+      "*Smad6 Protein/genetics/metabolism",
+      "*Machine Learning",
+      "*Tumor Microenvironment",
+      "Drug Resistance, Neoplasm/genetics",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ziang",
+        "Ou, Yuxi",
+        "Ye, Fangdie",
+        "Li, Weijian",
+        "Jiang, Haowen",
+        "Liu, Shenghua"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Ou Y",
+        "Ye F",
+        "Li W",
+        "Jiang H",
+        "Liu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China. urology_hs@163.com.",
+        "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China. urology_hs@163.com.",
+        "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China. urology_hs@163.com.",
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China. liushenghuafy@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ziang",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Yuxi",
+        "short_name": "Ou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Fangdie",
+        "short_name": "Ye F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weijian",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Haowen",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China. urology_hs@163.com.",
+          "Fudan Institute of Urology, Huashan Hospital, Fudan University, Shanghai, China. urology_hs@163.com.",
+          "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China. urology_hs@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Shenghua",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China. liushenghuafy@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cancer research and clinical oncology"
+    ],
+    "journal_abbrev": [
+      "J Cancer Res Clin Oncol"
+    ],
+    "pub_date": "2024 May 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/20 12:43",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "41476960",
+      "40471489",
+      "39995671",
+      "39741187",
+      "39633115",
+      "39575423",
+      "39238647"
+    ],
+    "refs": [
+      "38056687",
+      "37582769",
+      "37258666",
+      "36930329",
+      "36424360",
+      "35803704",
+      "35726067",
+      "35472437",
+      "35320001",
+      "35154117",
+      "35110501",
+      "34830879",
+      "34764492",
+      "34712379",
+      "34671117",
+      "34276676",
+      "34260682",
+      "34108441",
+      "34077643",
+      "34051177",
+      "33938174",
+      "33802033",
+      "33563300",
+      "33538338",
+      "33201207",
+      "33050144",
+      "33033240",
+      "32725342",
+      "32710082",
+      "32546182",
+      "32360052",
+      "32052578",
+      "31877271",
+      "31843138",
+      "31515518",
+      "31367041",
+      "31195692",
+      "30837276",
+      "30808818",
+      "30744595",
+      "30321449",
+      "30274701",
+      "30168025",
+      "29392336",
+      "29319160",
+      "27370177",
+      "26774024",
+      "25150938",
+      "25119341",
+      "23696246",
+      "23323831",
+      "20538542",
+      "20182602",
+      "18662538",
+      "16517421",
+      "16289860",
+      "14534577",
+      "7729958"
+    ],
+    "similar": [
+      "38767747",
+      "39238647",
+      "39234248",
+      "37790935",
+      "39075554",
+      "38759695",
+      "34776794",
+      "34112144",
+      "39112614",
+      "33204728",
+      "35758021",
+      "38991630",
+      "34975891",
+      "36902193",
+      "33830879",
+      "32570217",
+      "36555612",
+      "29602637",
+      "37000291",
+      "37325625",
+      "33259133",
+      "38299148",
+      "38824904",
+      "39310261",
+      "30417565",
+      "32786144",
+      "34484235",
+      "37980528",
+      "33537076",
+      "35768833",
+      "36747239",
+      "35909893",
+      "34154613",
+      "37960960",
+      "30404578",
+      "38064272",
+      "38383173",
+      "37152941",
+      "36973645",
+      "37543645",
+      "34836536",
+      "39400959",
+      "35154117",
+      "36420257",
+      "33960661",
+      "39139561",
+      "37578544",
+      "34708131",
+      "32149116",
+      "36721217",
+      "36003383",
+      "34530089",
+      "35418978",
+      "34926692",
+      "38336764",
+      "30548659",
+      "38518167",
+      "37691944",
+      "35567596",
+      "29445424",
+      "26733163",
+      "37564199",
+      "31794632",
+      "30426533",
+      "39192988",
+      "30033047",
+      "36211359",
+      "39315723",
+      "29351801",
+      "37063886",
+      "38694506",
+      "38632658",
+      "33127883",
+      "33356494",
+      "35103094",
+      "26305549",
+      "31216997",
+      "32522234",
+      "33334367",
+      "37601252",
+      "33936117",
+      "35741835",
+      "26268246",
+      "32047816",
+      "28600503",
+      "35860239",
+      "33048468",
+      "31222577",
+      "36509838",
+      "35898492",
+      "38980253",
+      "30414698",
+      "36689018",
+      "37647346",
+      "34579753",
+      "36973787",
+      "36091015",
+      "26717965",
+      "34702726",
+      "36090967",
+      "34175686",
+      "31093305",
+      "37965307",
+      "34059019",
+      "34980012",
+      "33962398",
+      "38847477",
+      "37041979",
+      "33924987",
+      "38878487",
+      "35450397",
+      "25973088",
+      "38429911",
+      "39333148",
+      "39115875",
+      "31534952",
+      "39375386",
+      "37105962",
+      "39079653",
+      "35127724",
+      "38840324",
+      "38867273",
+      "38221889",
+      "36313206",
+      "38809990"
+    ],
+    "review": [
+      "38767747"
+    ],
+    "pmc": [
+      "11106122"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38767747/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00432-024-05798-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38767747",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

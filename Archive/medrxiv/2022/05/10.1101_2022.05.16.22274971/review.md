@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors sequenced all coding exons of POT1 in 2,929 European-descent melanoma cases and 3,298 controls, identified 43 protein-changing variants, performed binding assays and molecular dynamics simulations, and concluded that POT1 pathogenic variants are a minor contributor to melanoma burden in the general population (about 0.5% of cases) but warrant screening in individuals with strong family history or multiple malignancies.
+- **Visible evidence base** Abstract text only; no numerical data, assay details, statistical analyses, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, variant lists, assay protocols, statistical methods, simulation details, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable population-based assessment of POT1 variant frequency and functional impact in melanoma. The study design is appropriate for estimating prevalence, and the combination of sequencing, binding assays, and molecular dynamics simulations is ambitious. However, the abstract provides insufficient quantitative detail to evaluate the robustness of the central claims. The 0.5% prevalence estimate and the screening recommendation require supporting statistical and clinical context that is not visible in the supplied material. The functional assay results and simulation outcomes are described only qualitatively, limiting the ability to assess technical soundness. The abstract is readable and the topic is of interest to melanoma genetics and clinical genetics communities, but the evidence base as presented is too thin to establish the case.
+- **Who would be interested in the results, and why** Clinical geneticists and genetic counselors involved in melanoma predisposition testing would be interested in the prevalence estimate and screening recommendation. Cancer genetics researchers studying telomere biology and POT1 function would value the functional characterization of variants. Dermatologists and oncology clinicians managing familial melanoma cases would find the screening guidance relevant. Population geneticists may be interested in the case-control frequency comparison.
+- **Major strengths** The study addresses a clinically relevant question with a population-based design, which is more informative than case-only reports. The integration of sequencing, functional binding assays, and molecular dynamics simulations provides a multi-layered approach to variant interpretation. The sample size of over 6,000 individuals is reasonable for prevalence estimation. The conclusion that POT1 is a minor contributor to general melanoma burden is potentially important for clinical practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** The abstract claims that about 0.5% of melanoma cases carry germline pathogenic variants in POT1.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The 0.5% prevalence estimate is presented without confidence intervals, the number of carriers, or the criteria used to define pathogenicity. It is unclear whether this estimate is based solely on the nine variants that impair binding or on a broader set of criteria. The abstract does not state how many of the 2,929 cases carried these variants, nor whether any controls carried them.
+  - **Why it matters** A prevalence estimate without uncertainty bounds or carrier counts cannot be evaluated for statistical reliability. The clinical recommendation to screen only high-risk individuals depends critically on the precision of this estimate and on the comparison between cases and controls. If the estimate is based on a small number of carriers, the confidence interval could be wide, undermining the conclusion.
+  - **Resolution test** Provide the number of carriers in cases and controls, the exact criteria for pathogenicity, and confidence intervals for the 0.5% estimate. A statistical test comparing case and control carrier frequencies should be reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional assay validity
+  - **Claim pointer** The abstract claims that nine variants impair or disrupt protein-telomere complex formation based on POT1-telomere binding assays.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not describe the assay design, the threshold for defining impairment, the number of replicates, or whether the assays were performed in a blinded manner. It is unclear whether the nine variants were tested against wild-type POT1 in the same experimental batch and whether the effect sizes were statistically significant.
+  - **Why it matters** Functional assays are central to classifying variants as pathogenic. Without details on assay reproducibility and statistical cutoffs, the classification of the nine variants cannot be independently assessed. Overinterpretation of binding assay results could lead to incorrect pathogenicity calls, affecting both the prevalence estimate and the clinical recommendation.
+  - **Resolution test** Describe the assay protocol, including protein expression, telomere substrate, binding measurement method, number of replicates, and statistical criteria for defining impaired binding. Provide effect sizes and significance values for each of the nine variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation validity
+  - **Claim pointer** The abstract claims that molecular dynamics simulations further define the role of variants in telomere length regulation and complex formation.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No details are given on the simulation methodology, force field, simulation length, system setup, or how the simulation results were correlated with experimental binding data. The abstract does not state whether the simulations were validated against known POT1 structures or whether the predictions were tested experimentally.
+  - **Why it matters** Molecular dynamics simulations can provide mechanistic insight, but their conclusions are only as reliable as the methodology and validation. Without these details, the contribution of the simulations to the variant classification is unverifiable. If the simulations are used to support pathogenicity claims, inadequate methodology could lead to false confidence in the functional results.
+  - **Resolution test** Provide simulation parameters, validation against experimental structures, and a clear description of how simulation outcomes were integrated with binding assay results. If simulations are only exploratory, state this explicitly and do not use them as primary evidence for pathogenicity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Study population description
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract states that cases and controls are of European descent but does not specify the source of the samples, matching criteria, or whether related individuals were excluded.
+  - **Required correction** Add a sentence describing the cohort source, matching strategy, and exclusion of related individuals to allow assessment of population structure effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Variant classification criteria
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract mentions 43 protein-changing variants but does not state how many were classified as pathogenic, likely benign, or of uncertain significance beyond the nine impairing variants.
+  - **Required correction** Provide a breakdown of variant classifications and the criteria used, such as ACMG guidelines or functional data integration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clinical relevance
+  - **Affected element** Screening recommendation
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The recommendation to screen individuals with strong family history or multiple malignancies is not supported by data in the abstract on the prevalence of POT1 variants in these subgroups.
+  - **Required correction** Either provide subgroup-specific carrier frequencies or temper the recommendation to reflect that it is based on general population data rather than direct evidence in high-risk groups.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The prevalence estimate lacks statistical support, the functional assay details are absent, and the simulation methodology is unverifiable. These three issues collectively prevent the case from being established from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The population-based approach to POT1 variant frequency in melanoma is a useful contribution, though not unprecedented given prior reports of POT1 in familial melanoma. Scientific importance: The finding that POT1 is a minor contributor to general melanoma burden has clinical relevance, but the impact is moderate and depends on the robustness of the prevalence estimate. Interdisciplinary readership: The work bridges clinical genetics, molecular biology, and computational biophysics, which could attract readers across these fields. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail for assays and simulations is a significant limitation. Readability for nonspecialists: The abstract is clear and accessible, with appropriate use of terms, though the clinical recommendation would benefit from more context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable study, but the absence of quantitative detail on prevalence, functional assays, and simulations prevents verification of the central claims. The authors should provide the full manuscript with complete methods and results for a proper evaluation.
+
+## Risk / unsupported claims
+- The 0.5% prevalence estimate is unsupported without carrier counts, confidence intervals, and pathogenicity criteria.
+- The claim that nine variants impair or disrupt protein-telomere complex formation is unsupported without assay details and statistical thresholds.
+- The claim that molecular dynamics simulations define the role of variants is unsupported without methodology and validation.
+- The screening recommendation for individuals with strong family history or multiple malignancies is unsupported by subgroup-specific data in the abstract.
+- The statement that POT1 variants are a minor contributor to melanoma burden in the general population is a reasonable inference but cannot be quantitatively verified from the supplied material.

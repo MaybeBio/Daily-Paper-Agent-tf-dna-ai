@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "37822561",
+    "doi": "10.1016/j.csbj.2023.09.017",
+    "title": "ASCARIS: Positional feature annotation and protein structure-based representation of single amino acid variations."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Genomic variations may cause deleterious effects on protein functionality and perturb biological processes. Elucidating the effects of variations is critical for developing novel treatment strategies for diseases of genetic origin. Computational approaches have been aiding the work in this field by modeling and analyzing the mutational landscape. However, new approaches are required, especially for accurate representation and data-centric analysis of sequence variations. METHOD: In this study, we propose ASCARIS (Annotation and StruCture-bAsed RepresentatIon of Single amino acid variations), a method for the featurization (i.e., quantitative representation) of single amino acid variations (SAVs), which could be used for a variety of purposes, such as predicting their functional effects or building multi-omics-based integrative models. ASCARIS utilizes the direct and spatial correspondence between the location of the SAV on the sequence/structure and 30 different types of positional feature annotations (e.g., active/lipidation/glycosylation sites; calcium/metal/DNA binding, inter/transmembrane regions, etc.), along with structural features and physicochemical properties. The main novelty of this method lies in constructing reusable numerical representations of SAVs via functional annotations. RESULTS: We statistically analyzed the relationship between these features and the consequences of variations and found that each carries information in this regard. To investigate potential applications of ASCARIS, we trained variant effect prediction models that utilize our SAV representations as input. We carried out an ablation study and a comparison against the state-of-the-art methods and observed that ASCARIS has a competing and complementary performance against widely-used predictors. ASCARIS can be used alone or in combination with other approaches to represent SAVs from a functional perspective. ASCARIS is available as a programmatic tool at https://github.com/HUBioDataLab/ASCARIS and as a web-service at https://huggingface.co/spaces/HUBioDataLab/ASCARIS.",
+    "keywords": [
+      "Bioinformatics tools/models",
+      "Biomolecular representations",
+      "Machine learning",
+      "Protein domains",
+      "Protein sequence annotations",
+      "Single amino acid variations",
+      "Variant effect prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cankara, Fatma",
+        "Dogan, Tunca"
+      ],
+      "short_names": [
+        "Cankara F",
+        "Dogan T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biological Data Science Laboratory, Dept. of Computer Engineering, Hacettepe University, Ankara, Turkey.",
+        "Department of Health Informatics, Graduate School of Informatics, METU, Ankara, Turkey.",
+        "Department of Computational Sciences and Engineering, Koc University, Istanbul, Turkey.",
+        "Biological Data Science Laboratory, Dept. of Computer Engineering, Hacettepe University, Ankara, Turkey.",
+        "Institute of Informatics, Hacettepe University, Ankara, Turkey.",
+        "Department of Bioinformatics, Graduate School of Health Sciences, Hacettepe University, Ankara, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cankara, Fatma",
+        "short_name": "Cankara F",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Data Science Laboratory, Dept. of Computer Engineering, Hacettepe University, Ankara, Turkey.",
+          "Department of Health Informatics, Graduate School of Informatics, METU, Ankara, Turkey.",
+          "Department of Computational Sciences and Engineering, Koc University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Doğan, Tunca",
+        "short_name": "Doğan T",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Data Science Laboratory, Dept. of Computer Engineering, Hacettepe University, Ankara, Turkey.",
+          "Institute of Informatics, Hacettepe University, Ankara, Turkey.",
+          "Department of Bioinformatics, Graduate School of Health Sciences, Hacettepe University, Ankara, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/12 06:43",
+    "fetched_at": "2026-09-29 08:36:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37563329",
+      "34967936",
+      "34843456",
+      "34490344",
+      "34265844",
+      "34181736",
+      "32735577",
+      "32627955",
+      "32413045",
+      "31693276",
+      "31527881",
+      "31350877",
+      "30995449",
+      "30840782",
+      "30548534",
+      "30398656",
+      "30395287",
+      "30371827",
+      "30083448",
+      "29967397",
+      "29788355",
+      "29355848",
+      "29165669",
+      "29098713",
+      "27492088",
+      "27468419",
+      "27378725",
+      "27318206",
+      "27153729",
+      "26973785",
+      "26781813",
+      "26432245",
+      "26236721",
+      "25994840",
+      "25957347",
+      "25851949",
+      "25768907",
+      "25684150",
+      "25592571",
+      "25363779",
+      "24681721",
+      "24630730",
+      "24281696",
+      "24271400",
+      "23819482",
+      "23799087",
+      "23315928",
+      "23064876",
+      "22550062",
+      "22128059",
+      "21878961",
+      "21593128",
+      "20354512",
+      "19654296",
+      "19514061",
+      "19474294",
+      "19306108",
+      "19129209",
+      "18951461",
+      "18759992",
+      "18757876",
+      "18451988",
+      "17537827",
+      "17526529",
+      "17458871",
+      "16412461",
+      "15965030",
+      "15197260",
+      "14751981",
+      "12824425",
+      "10592235",
+      "10391210",
+      "9847227",
+      "9051729",
+      "4843792",
+      "4354159"
+    ],
+    "similar": [
+      "37822561",
+      "35036922",
+      "32407886",
+      "33676930",
+      "36321557",
+      "34967936",
+      "38334115",
+      "29949999",
+      "30012419",
+      "22574904",
+      "34193921",
+      "29949957",
+      "17570145",
+      "27993784",
+      "33001599",
+      "34962874",
+      "34460382",
+      "33067636",
+      "37204950",
+      "22937107",
+      "39131267",
+      "23912807",
+      "37000857",
+      "36845202",
+      "35801913",
+      "26042330",
+      "26042329",
+      "30423104",
+      "38087198",
+      "31182027",
+      "36950221",
+      "30689722",
+      "26724853",
+      "36049552",
+      "35758229",
+      "33230427",
+      "31218344",
+      "22585139",
+      "30239616",
+      "15478601",
+      "30601942",
+      "32528639",
+      "30304483",
+      "34781160",
+      "7556139",
+      "36794913",
+      "26406767",
+      "26130574",
+      "33755048",
+      "30845684",
+      "33019302",
+      "17623861",
+      "23819482",
+      "32582654",
+      "33050876",
+      "18186470",
+      "35604077",
+      "17062145",
+      "33232970",
+      "36700112",
+      "34562334",
+      "31266447",
+      "32854699",
+      "31197318",
+      "32453718",
+      "25474679",
+      "36892166",
+      "30957840",
+      "35307006",
+      "29753757",
+      "30994882",
+      "36054653",
+      "33534534",
+      "33135053",
+      "23282098",
+      "34162922",
+      "33323113",
+      "30169569",
+      "34717189",
+      "33343224",
+      "37075830",
+      "38168172",
+      "38510168"
+    ],
+    "review": [
+      "37822561",
+      "36321557"
+    ],
+    "pmc": [
+      "10562615"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(23)00329-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37822561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37822561",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

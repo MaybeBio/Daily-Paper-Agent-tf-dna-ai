@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, Data availability)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and reproducibility as presented in the provided text. Figures, supplementary materials, and referenced datasets were not directly examined.
+- **Shared manuscript claim summary** The authors mine published R-loop binding protein (RLBP) datasets from IP-MS and Prox-MS studies, identify consensus protein sets, extract 10 enriched features plus amino acid composition, and train random forest classifiers to predict R-loop binding potential across the human proteome. They report two novel validated RLBPs, LIG1 and FXR1, using proximity ligation assay and DRIP-qPCR.
+- **Visible evidence base** Full text of manuscript including methods and results sections. Figures and supplementary tables are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-6, Supplementary Figures 1-3, Supplementary Tables 1-5, and the GitHub repository containing the machine learning scripts were not available for direct inspection. This limits verification of data quality, model performance metrics, and reproducibility.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a useful integrative bioinformatics resource for the R-loop field. The authors combine existing proteomic datasets with machine learning to generate a ranked list of candidate R-loop binding proteins, and provide experimental validation for two candidates. The work is generally well-organized and the writing is clear. However, several methodological details require clarification, and the experimental validation is limited in scope. The claim that the approach "predicts" R-loop binding proteins is partially supported, but the generalizability and biological significance of the predictions would be strengthened by additional validation and by addressing concerns about training data quality and feature selection.
+- **Who would be interested in the results, and why** Researchers studying R-loop biology, genome stability, transcription-replication conflicts, and epigenetics would find this resource valuable. The predicted RLBP list could serve as a hypothesis-generating tool for identifying new factors involved in R-loop metabolism. The machine learning approach may also be of interest to computational biologists working on protein function prediction.
+- **Major strengths** 1) The integration of multiple orthogonal proteomic datasets (IP-MS and Prox-MS) to define consensus RLBP sets is a thoughtful approach that addresses the limitations of individual studies. 2) The use of an easy-ensemble random forest approach with multiple shuffles is a reasonable strategy to handle class imbalance. 3) The authors provide a publicly available resource (GitHub scripts, figshare data) that will facilitate use by the community. 4) The experimental validation of LIG1 and FXR1, including PLA and DRIP-qPCR, provides functional evidence supporting the predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that they "distilled 10 features that were enriched in R-loop binding proteins compared with the rest of the proteome" and used these "along with their amino acid composition" to train the classifiers.
+  - **Evidence pointer** Materials and methods, "Protein features and data visualization"; Results, "Defining characteristics of consensus R-loop interacting proteins"; Results, "An RF classifier of R-loop binding properties in the human proteome"
+  - **Concern** The manuscript does not clearly specify which 10 features were selected as "enriched" and how this enrichment was determined. The methods describe calculating many features (length, GRAVY, aliphatic index, abundance, CamSol, disorder, LCR, PScore, nucleic acid binding, phosphosite, amino acid composition), but the feature selection process is not described in detail. The authors state that "feature selection was not used" after performing variable importance analysis, which is confusing. It is unclear whether the 10 features are a subset of the 30 total features or if all 30 were used.
+  - **Why it matters** The reproducibility of the machine learning approach depends on a clear description of the features used and the rationale for their inclusion. Without this information, other researchers cannot replicate or build upon the method. The ambiguity also makes it difficult to assess whether the model is overfit or whether the chosen features are biologically meaningful.
+  - **Resolution test** The authors should provide a clear list of the 10 enriched features, describe the statistical test used to determine enrichment, and clarify the relationship between these 10 features and the 30 features used in the model. A supplementary table listing all features and their importance scores would be helpful.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the IP-MS model predicts 236 of the 292 proteins used to train the model" and report significant enrichment for proteins from individual studies (P values from Fisher's exact test).
+  - **Evidence pointer** Results, "An RF classifier of R-loop binding properties in the human proteome"
+  - **Concern** The evaluation of model performance appears to be conducted on the training data itself. The authors report accuracy, F1 score, and MCC on the "test set," but it is unclear whether this test set is independent of the training set or derived from the same shuffling procedure. If the model is evaluated on data used for training, the reported performance metrics are likely optimistic and do not reflect generalizability.
+  - **Why it matters** The central claim of the paper is that the model can predict novel RLBPs. If the performance metrics are inflated due to data leakage, the reliability of the predictions for the rest of the proteome is questionable. A proper independent test set or cross-validation strategy is essential to support the predictive claims.
+  - **Resolution test** The authors should clarify the train-test split procedure. Ideally, they should use a held-out test set that was not used in any part of the training process, or perform nested cross-validation. Reporting performance on a truly independent test set would strengthen the claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "we validate 2 new R-loop binding proteins LIG1 and FXR1 in human cells."
+  - **Evidence pointer** Results, "Validation of novel candidate R-loop regulating proteins"; Figures 6 and Supplementary Figure 3
+  - **Concern** The experimental validation is limited to two proteins, and the functional evidence is indirect. The PLA assay demonstrates proximity between the candidate protein and S9.5-detected nucleic acid structures, but this does not prove direct R-loop binding. The DRIP-qPCR experiments show changes in R-loop levels at selected loci upon knockdown, but the effects are modest and only significant at some loci. The authors do not demonstrate direct binding of LIG1 or FXR1 to R-loop structures in vitro or in vivo.
+  - **Why it matters** The title and abstract emphasize the prediction of R-loop binding proteins. The validation of two candidates is a strength, but the evidence presented does not fully establish that these proteins are direct R-loop binders. Overstating the validation could mislead readers about the confidence of the predictions.
+  - **Resolution test** The authors should temper their language to "candidate R-loop binding proteins" or provide additional evidence for direct binding, such as recombinant protein binding assays with synthetic R-loops or domain-specific mutagenesis. Alternatively, they could acknowledge the limitations of the validation more explicitly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the RLBP dataset is a unique subset of cellular proteins with potential R-loop binding ability" based on comparison with "the remaining nucleic acid binding proteins."
+  - **Evidence pointer** Results, "An RF classifier of R-loop binding properties in the human proteome"; Supplementary Figure 2
+  - **Concern** The comparison between predicted RLBPs and "remaining nucleic acid binding proteins" is not well-defined. It is unclear which proteins are considered "nucleic acid binding" and how this set was constructed. The statement that "there is a significant enrichment for all remaining features" is vague without specifying which features and what statistical test was used.
+  - **Why it matters** This comparison is used to argue that the model captures features beyond simple nucleic acid binding, which is important for establishing the specificity of the predictions. Without a clear definition of the comparison groups and statistical methods, this claim is difficult to evaluate.
+  - **Resolution test** The authors should define the "nucleic acid binding" set, describe the statistical comparison, and provide the effect sizes for each feature. A supplementary figure with clear labels and statistical annotations would be helpful.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "easy-ensemble machine learning approach" without explaining what this means. Nonspecialist readers may not be familiar with this term.
+  - **Required correction** Briefly explain the approach in plain language, e.g., "an ensemble method that balances the number of positive and negative training examples."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, "RF classifier for R-loop binding prediction"
+  - **Evidence pointer** Materials and methods, "RF classifier for R-loop binding prediction"
+  - **Issue** The description of the random forest hyperparameters is incomplete. The authors mention tuning with 10-fold cross-validation but do not specify the number of trees, the maximum depth, or other relevant parameters.
+  - **Required correction** Provide the final hyperparameter values used in the model, or state that default values were used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Defining characteristics of consensus R-loop interacting proteins"
+  - **Evidence pointer** Results, "Defining characteristics of consensus R-loop interacting proteins"
+  - **Issue** The authors state that the intersection of three datasets yielded 49 high-confidence proteins, but the criteria for "high confidence" are not explicitly defined beyond being present in all three studies.
+  - **Required correction** Clarify the criteria for high confidence, e.g., "proteins identified in all three independent studies."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of LIG1's mechanism is speculative and could be streamlined for clarity.
+  - **Required correction** Consider condensing the mechanistic speculation and focusing on the most direct implications of the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (feature selection clarity) and R1-M2 (model evaluation strategy) are the most critical technical issues. Without clarification of the features and a proper independent test set, the predictive claims are not fully supported. R1-M3 (validation strength) also needs to be addressed by tempering language or providing additional evidence.
+
+## Risk / unsupported claims
+- The claim that the model "predicts the likelihood of a protein to bind to R-loops" for the entire human proteome is not fully supported without a proper independent test set.
+- The statement that LIG1 and FXR1 are "R-loop binding proteins" is not fully established by the experimental data, which show proximity and functional effects but not direct binding.
+- The claim that the RLBP dataset is a "unique subset" of proteins is not rigorously supported without a clear definition of the comparison groups.
+- The generalizability of the model to other cell types or conditions is not assessed and should not be implied.

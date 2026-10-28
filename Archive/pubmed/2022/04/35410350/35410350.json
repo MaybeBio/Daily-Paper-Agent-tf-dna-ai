@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "35410350",
+    "doi": "10.1186/s12967-022-03372-0",
+    "title": "Cisplatin resistance-related multi-omics differences and the establishment of machine learning models."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Platinum-based chemotherapies are currently the first-line treatment of non-small cell lung cancer. This study will improve our understanding of the causes of resistance to cisplatin, especially in lung adenocarcinoma (LUAD) and provide a reference for therapeutic decisions in clinical practice. METHODS: Cancer Cell Line Encyclopedia (CCLE), The Cancer Genome Atlas (TCGA) and Zhongshan hospital affiliated to Fudan University (zs-cohort) were used to identify the multi-omics differences related to platinum chemotherapy. Cisplatin-resistant mRNA and miRNA models were constructed by Logistic regression, classification and regression tree and C4.5 decision tree classification algorithm with previous feature selection performed via least absolute shrinkage and selection operator (LASSO). qRT-PCR and western-blotting of A549 and H358 cells, as well as single-cell Seq data of tumor samples were applied to verify the tendency of certain genes. RESULTS: 661 cell lines were divided into three groups according to the IC50 value of cisplatin, and the top 1/3 (220) with a small IC50 value were defined as the sensitive group while the last 1/3 (220) were enrolled in the insensitive group. TP53 was the most common mutation in the insensitive group, in contrast to TTN in the sensitive group. 1348 mRNA, 80 miRNA, and 15 metabolites were differentially expressed between 2 groups (P < 0.05). According to the LASSO penalized logistic modeling, 6 of the 1348 mRNAs, FOXA2, BATF3, SIX1, HOXA1, ZBTB38, IRF5, were selected as the associated features with cisplatin resistance and for the contribution of predictive mRNA model (all of adjusted P-values < 0.001). Three of 6 (BATF3, IRF5, ZBTB38) genes were finally verified in cell level and patients in zs-cohort. CONCLUSIONS: Somatic mutations, mRNA expressions, miRNA expressions, metabolites and methylation were related to the resistance of cisplatin. The models we created could help in the prediction of the reaction and prognosis of patients given platinum-based chemotherapies.",
+    "keywords": [
+      "Cisplatin",
+      "Drug resistance",
+      "IC50",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy",
+      "Cisplatin/pharmacology/therapeutic use",
+      "Homeodomain Proteins",
+      "Humans",
+      "Interferon Regulatory Factors",
+      "*Lung Neoplasms/drug therapy/genetics/pathology",
+      "Machine Learning",
+      "*MicroRNAs/genetics",
+      "RNA, Messenger/genetics/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sui, Qihai",
+        "Chen, Zhencong",
+        "Hu, Zhengyang",
+        "Huang, Yiwei",
+        "Liang, Jiaqi",
+        "Bi, Guoshu",
+        "Bian, Yunyi",
+        "Zhao, Mengnan",
+        "Zhan, Cheng",
+        "Lin, Zongwu",
+        "Wang, Qun",
+        "Tan, Lijie"
+      ],
+      "short_names": [
+        "Sui Q",
+        "Chen Z",
+        "Hu Z",
+        "Huang Y",
+        "Liang J",
+        "Bi G",
+        "Bian Y",
+        "Zhao M",
+        "Zhan C",
+        "Lin Z",
+        "Wang Q",
+        "Tan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8745-9276"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China. czhan10@fudan.edu.cn.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China. lin.zongwu@zs-hospital.sh.cn.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sui, Qihai",
+        "short_name": "Sui Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhencong",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhengyang",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yiwei",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jiaqi",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Guoshu",
+        "short_name": "Bi G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Yunyi",
+        "short_name": "Bian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Mengnan",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Cheng",
+        "short_name": "Zhan C",
+        "identifiers": [
+          "0000-0001-8745-9276"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China. czhan10@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Zongwu",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China. lin.zongwu@zs-hospital.sh.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Qun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Lijie",
+        "short_name": "Tan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, 180 Fenglin Road, Xuhui District, Shanghai, 200032, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2022 Apr 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/13 06:00",
+    "fetched_at": "2026-09-28 07:22:03"
+  },
+  "links": {
+    "cites": [
+      "42509781",
+      "42499433",
+      "41694644",
+      "41656813",
+      "40417661",
+      "40269930",
+      "40128644",
+      "39948531",
+      "39946728",
+      "39763611",
+      "39688780",
+      "39580462",
+      "39174928",
+      "38902470",
+      "38760774",
+      "38522008",
+      "38480770",
+      "38357943",
+      "38311789",
+      "38236062",
+      "38180753",
+      "38141865",
+      "38003016",
+      "37645562",
+      "37458325",
+      "37291676",
+      "36923501",
+      "36755971",
+      "36733702",
+      "36648057",
+      "36119466"
+    ],
+    "refs": [
+      "34303328",
+      "33783985",
+      "33780016",
+      "33676569",
+      "33674443",
+      "33316125",
+      "32807787",
+      "32774994",
+      "32365491",
+      "32140069",
+      "31696470",
+      "31003078",
+      "30713806",
+      "30569128",
+      "30480223",
+      "30355731",
+      "30310057",
+      "28534959",
+      "28350100",
+      "27646943",
+      "27083050",
+      "27073334",
+      "27010977",
+      "26946357",
+      "26735768",
+      "26703800",
+      "26519527",
+      "26156960",
+      "26054719",
+      "25058905",
+      "24615544",
+      "24462818",
+      "24007627",
+      "23821457",
+      "23787991",
+      "23008298",
+      "22992524",
+      "22659329",
+      "21892204",
+      "20981514",
+      "20808728",
+      "20703300",
+      "19920124",
+      "19765725",
+      "19008445",
+      "17762340",
+      "17625587",
+      "14576837",
+      "14287410",
+      "12124839",
+      "8286217"
+    ],
+    "similar": [
+      "35410350",
+      "39018587",
+      "26482648",
+      "28074905",
+      "32648688",
+      "26376998",
+      "31686523",
+      "27411790",
+      "32741804",
+      "26492332",
+      "30070323",
+      "25927928",
+      "31488089",
+      "31647948",
+      "31632022",
+      "25703099",
+      "31298375",
+      "27922681",
+      "27392028",
+      "24854555",
+      "31950990",
+      "33892654",
+      "27906433",
+      "30710758",
+      "32271431",
+      "25824776",
+      "28677094",
+      "32249461",
+      "20978195",
+      "23741487",
+      "30481109",
+      "32602212",
+      "33217443",
+      "11844606",
+      "24038379",
+      "32767026",
+      "22139542",
+      "32130794",
+      "30099826",
+      "34855841",
+      "24007627",
+      "31064846",
+      "33670440",
+      "32716023",
+      "29469087",
+      "26936095",
+      "26497680",
+      "30584903",
+      "25213670",
+      "30981205",
+      "32513387",
+      "30859368",
+      "22237007",
+      "24928469",
+      "27581532",
+      "30535450",
+      "28737828",
+      "34256754",
+      "30228154",
+      "28678321",
+      "29566065",
+      "16532342",
+      "31959735",
+      "29158814",
+      "31111480",
+      "23339090",
+      "33015788",
+      "30913346",
+      "23410825",
+      "34635074",
+      "17152483",
+      "27528390",
+      "22534668",
+      "31486493",
+      "33534964",
+      "33649818",
+      "27270317",
+      "30628719",
+      "25359574",
+      "30053382",
+      "27207836",
+      "30779077",
+      "32854746",
+      "33781830",
+      "24722426",
+      "33549049",
+      "30522099",
+      "37291676",
+      "32512487",
+      "39247585",
+      "37538171",
+      "37856446",
+      "32863893",
+      "33792207",
+      "36513728",
+      "32604779",
+      "32874774"
+    ],
+    "review": [
+      "35410350"
+    ],
+    "pmc": [
+      "9004122"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-022-03372-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35410350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35410350",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35410350",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

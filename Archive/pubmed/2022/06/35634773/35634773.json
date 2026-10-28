@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "35634773",
+    "doi": "10.1002/pro.4334",
+    "title": "Topological dynamics of an intrinsically disordered N-terminal domain of the human androgen receptor."
+  },
+  "content": {
+    "abstract": "Human androgen receptor contains a large N-terminal domain (AR-NTD) that is highly dynamic and this poses a major challenge for experimental and computational analysis to decipher its conformation. Misfolding of the AR-NTD is implicated in prostate cancer and Kennedy's disease, yet our knowledge of its structure is limited to primary sequence information of the chain and a few functionally important secondary structure motifs. Here, we employed an innovative combination of molecular dynamics simulations and circuit topology (CT) analysis to identify the tertiary structure of AR-NTD. We found that the AR-NTD adopts highly dynamic loopy conformations with two identifiable regions with distinct topological make-up and dynamics. This consists of a N-terminal region (NR, residues 1-224) and a C-terminal region (CR, residues 225-538), which carries a dense core. Topological mapping of the dynamics reveals a traceable time-scale dependent topological evolution. NR adopts different positioning with respect to the CR and forms a cleft that can partly enclose the hormone-bound ligand-binding domain (LBD) of the androgen receptor. Furthermore, our data suggest a model in which dynamic NR and CR compete for binding to the DNA-binding domain of the receptor, thereby regulating the accessibility of its DNA-binding site. Our approach allowed for the identification of a previously unknown regulatory binding site within the CR core, revealing the structural mechanisms of action of AR inhibitor EPI-001, and paving the way for other drug discovery applications.",
+    "keywords": [
+      "androgen receptor",
+      "circuit topology",
+      "conformational dynamics",
+      "intrachain contacts",
+      "nuclear hormone receptors"
+    ],
+    "mesh_terms": [
+      "Androgen Receptor Antagonists/chemistry/pharmacology",
+      "DNA",
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/metabolism",
+      "Protein Domains",
+      "*Receptors, Androgen/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sheikhhassani, Vahid",
+        "Scalvini, Barbara",
+        "Ng, Julian",
+        "Heling, Laurens W H J",
+        "Ayache, Yosri",
+        "Evers, Tom M J",
+        "Estebanez-Perpina, Eva",
+        "McEwan, Iain J",
+        "Mashaghi, Alireza"
+      ],
+      "short_names": [
+        "Sheikhhassani V",
+        "Scalvini B",
+        "Ng J",
+        "Heling LWHJ",
+        "Ayache Y",
+        "Evers TMJ",
+        "Estebanez-Perpina E",
+        "McEwan IJ",
+        "Mashaghi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2157-1211"
+      ],
+      "affiliations": [
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Department of Biochemistry and Molecular Biomedicine, Institute of Biomedicine (IBUB) of the University of Barcelona (UB), Barcelona, Spain.",
+        "Institute of Medical Sciences, School of Medicine, Medical Sciences and Nutrition, University of Aberdeen, Scotland, UK.",
+        "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sheikhhassani, Vahid",
+        "short_name": "Sheikhhassani V",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Scalvini, Barbara",
+        "short_name": "Scalvini B",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ng, Julian",
+        "short_name": "Ng J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Heling, Laurens W H J",
+        "short_name": "Heling LWHJ",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ayache, Yosri",
+        "short_name": "Ayache Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Evers, Tom M J",
+        "short_name": "Evers TMJ",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Estébanez-Perpiñá, Eva",
+        "short_name": "Estébanez-Perpiñá E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biomedicine, Institute of Biomedicine (IBUB) of the University of Barcelona (UB), Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "McEwan, Iain J",
+        "short_name": "McEwan IJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Sciences, School of Medicine, Medical Sciences and Nutrition, University of Aberdeen, Scotland, UK."
+        ]
+      },
+      {
+        "full_name": "Mashaghi, Alireza",
+        "short_name": "Mashaghi A",
+        "identifiers": [
+          "0000-0002-2157-1211"
+        ],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Leiden Academic Centre for Drug Research, Faculty of Science, Leiden University, Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, Leiden, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/01 06:00",
+    "fetched_at": "2026-09-28 09:12:56"
+  },
+  "links": {
+    "cites": [
+      "42620099",
+      "41163677",
+      "40859365",
+      "40790332",
+      "40682815",
+      "40514634",
+      "40371721",
+      "40051657",
+      "39665260",
+      "39451211",
+      "39359255",
+      "37998041",
+      "37511544",
+      "37264056",
+      "37026598",
+      "36921044",
+      "36768610",
+      "36277484",
+      "36187158"
+    ],
+    "refs": [
+      "34545868",
+      "34506104",
+      "34298700",
+      "34293799",
+      "33978290",
+      "32896769",
+      "32828470",
+      "32668201",
+      "32607431",
+      "32220959",
+      "32002708",
+      "31497825",
+      "31395886",
+      "31182755",
+      "31048691",
+      "31045356",
+      "30810317",
+      "30351148",
+      "30146169",
+      "29382046",
+      "29225078",
+      "28805849",
+      "28740166",
+      "28678226",
+      "28629183",
+      "28612216",
+      "28079879",
+      "27659606",
+      "27356095",
+      "27140928",
+      "26853059",
+      "26571108",
+      "26402567",
+      "26189822",
+      "26079926",
+      "25549265",
+      "25228051",
+      "25184630",
+      "25126961",
+      "24782522",
+      "23722902",
+      "23643489",
+      "22872761",
+      "22406839",
+      "22306404",
+      "22105789",
+      "21822504",
+      "21256920",
+      "21134891",
+      "20685853",
+      "20598937",
+      "19399780",
+      "18762554",
+      "18617596",
+      "18559499",
+      "18284209",
+      "18284208",
+      "17212484",
+      "17073759",
+      "17073757",
+      "16254242",
+      "15994236",
+      "15956332",
+      "15751111",
+      "15663988",
+      "15272157",
+      "15198988",
+      "12591938",
+      "10811210",
+      "9545386",
+      "9379925",
+      "8609636",
+      "2268628",
+      "2062380"
+    ],
+    "similar": [
+      "35634773",
+      "32100577",
+      "34506104",
+      "23722902",
+      "22653923",
+      "21822504",
+      "32734688",
+      "17073759",
+      "27212126",
+      "22151347",
+      "26732902",
+      "36720643",
+      "33801338",
+      "34354111",
+      "15994236",
+      "22360658",
+      "21285252",
+      "11501969",
+      "25268119",
+      "16449235",
+      "35333596",
+      "25086042",
+      "28851578",
+      "17942941",
+      "31092069",
+      "21664945",
+      "21664238",
+      "21712449",
+      "30345525",
+      "24099702",
+      "11350894",
+      "23023563",
+      "27560203",
+      "39359255",
+      "16595706",
+      "37193651",
+      "30828788",
+      "27246333",
+      "27765852",
+      "25008967",
+      "26442831",
+      "10607837",
+      "20030610",
+      "30410767",
+      "22924551",
+      "33756125",
+      "30639122",
+      "11043576",
+      "39111362",
+      "12923188",
+      "11155740",
+      "29993249",
+      "28165461",
+      "23859952",
+      "34809430",
+      "16081517",
+      "9717843",
+      "20541699",
+      "30009471",
+      "32668201",
+      "11818501",
+      "23270728",
+      "16455820",
+      "16627595",
+      "15956332",
+      "18619542",
+      "25203674",
+      "30165195",
+      "17636035",
+      "25646649",
+      "18617596",
+      "22645304",
+      "25062331",
+      "24053684",
+      "15027889",
+      "22798067",
+      "32002708",
+      "25454221",
+      "21322031",
+      "24909511",
+      "9368054",
+      "24936953",
+      "17911242",
+      "11751884",
+      "9719026",
+      "24867960",
+      "15178743",
+      "15563469",
+      "25535248",
+      "23443807",
+      "28978635",
+      "38661004",
+      "38604378",
+      "35053548",
+      "36107327",
+      "37998041",
+      "36388907",
+      "32259077"
+    ],
+    "review": [
+      "35634773",
+      "32100577",
+      "21822504",
+      "27212126",
+      "21285252",
+      "11501969",
+      "31092069",
+      "21664945",
+      "39359255",
+      "20030610",
+      "39111362",
+      "11155740",
+      "23859952",
+      "17636035",
+      "18617596",
+      "24909511",
+      "24936953"
+    ],
+    "pmc": [
+      "9134807"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/35634773.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35634773/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35634773",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4334",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

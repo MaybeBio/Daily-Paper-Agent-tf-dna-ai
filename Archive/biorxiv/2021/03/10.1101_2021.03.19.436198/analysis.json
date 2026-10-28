@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.19.436198",
+  "title": "ChromWave: Deciphering the DNA-encoded competition between transcription factors and nucleosomes with deep neural networks",
+  "authors": "Sera Aylin Cakiroglu; Sebastian Steinhauser; Jon Smith; Wei Xing; Nicholas M. Luscombe",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-20",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度学习模型ChromWave预测转录因子与核小体竞争DNA占位的序列偏好，核心聚焦TF-DNA结合与核小体动态互作，方法为深度神经网络，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) regulate gene expression by recognising and binding specific DNA sequences. At times, these regulatory elements may be occluded by nucleosomes, making them inaccessible for TF-binding. The competition for DNA occupancy between TFs and nucleosomes, and associated gene regulatory outputs, are important consequences of the cis-regulatory information encoded in the genome. However, these sequence patterns are subtle and remain difficult to interpret. Here, we introduce ChromWave, a deep-learning model that, for the first time, predicts the competing profiles for TF and nucleosomes occupancies with remarkable accuracy. Models trained using short- and long-fragment MNase-Seq data successfully learn the sequence preferences underlying TF and nucleosome occupancies across the entire yeast genome. They recapitulate nucleosome evictions from regions containing “strong” TF binding sites and knock-out simulations show nucleosomes gaining occupancy in the absence of these TFs, accompanied by lateral rearrangement of adjacent nucleosomes. At a local level, models anticipate with high accuracy the outcomes of detailed experimental analysis of partially unwrapped nucleosomes at the GAL4 UAS locus. Finally, we trained a ChromWave model that successfully predicts nucleosome positions at promoters in the human genome. We find that human promoters generally contain few sites at which simple sequence changes can alter nucleosome occupancies and that these positions align well with causal variants linked to DNase hypersensitivity.",
+  "abstract_zh": "转录因子（TFs）通过识别并结合特定DNA序列来调控基因表达。有时，这些调控元件可能被核小体遮蔽，使其无法被转录因子结合。转录因子与核小体之间对DNA占据的竞争，以及相关的基因调控输出，是基因组中编码的顺式调控信息的重要后果。然而，这些序列模式较为微妙，仍难以解读。在此，我们介绍了ChromWave，一种深度学习模型，首次以显著准确性预测了转录因子和核小体占据的竞争图谱。使用短片段和长片段MNase-Seq数据训练的模型，成功学习了整个酵母基因组中转录因子和核小体占据背后的序列偏好。它们重现了含有“强”转录因子结合位点区域的核小体驱逐现象，且敲除模拟显示，在这些转录因子缺失时，核小体占据增加，并伴随相邻核小体的侧向重排。在局部层面，模型高精度预测了GAL4 UAS位点部分解绕核小体详细实验分析的结果。最后，我们训练了一个ChromWave模型，成功预测了人类基因组启动子中的核小体位置。我们发现，人类启动子通常含有少数位点，在这些位点上简单的序列变化可改变核小体占据，且这些位置与DNase超敏相关的因果变异高度吻合。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436198",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436198",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.19.436198/index.html"
+}

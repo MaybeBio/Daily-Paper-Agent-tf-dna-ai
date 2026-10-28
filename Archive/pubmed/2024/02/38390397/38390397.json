@@ -1,0 +1,487 @@
+{
+  "identity": {
+    "pmid": "38390397",
+    "doi": "10.3389/fimmu.2023.1328757",
+    "title": "Integrative analysis of potential diagnostic markers and therapeutic targets for glomerulus-associated diabetic nephropathy based on cellular senescence."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Diabetic nephropathy (DN), distinguished by detrimental changes in the renal glomeruli, is regarded as the leading cause of death from end-stage renal disease among diabetics. Cellular senescence plays a paramount role, profoundly affecting the onset and progression of chronic kidney disease (CKD) and acute kidney injuries. This study was designed to delve deeply into the pathological mechanisms between glomerulus-associated DN and cellular senescence. METHODS: Glomerulus-associated DN datasets and cellular senescence-related genes were acquired from the Gene Expression Omnibus (GEO) and CellAge database respectively. By integrating bioinformatics and machine learning methodologies including the LASSO regression analysis and Random Forest, we screened out four signature genes. The receiver operating characteristic (ROC) curve was performed to evaluate the diagnostic performance of the selected genes. Rigorous experimental validations were subsequently conducted in the mouse model to corroborate the identification of three signature genes, namely LOX, FOXD1 and GJA1. Molecular docking with chlorogenic acids (CGA) was further established not only to validate LOX, FOXD1 and GJA1 as diagnostic markers but also reveal their potential therapeutic effects. RESULTS AND DISCUSSION: In conclusion, our findings pinpointed three diagnostic markers of glomerulus-associated DN on the basis of cellular senescence. These markers could not only predict an increased risk of DN progression but also present promising therapeutic targets, potentially ushering in innovative treatments for DN in the elderly population.",
+    "keywords": [
+      "cellular senescence",
+      "diabetic nephropathy",
+      "diagnostic marker",
+      "glomeruli",
+      "molecular docking",
+      "therapeutic targets"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Humans",
+      "Aged",
+      "*Diabetic Nephropathies/diagnosis/drug therapy/etiology",
+      "Molecular Docking Simulation",
+      "Kidney Glomerulus/pathology",
+      "*Renal Insufficiency, Chronic/pathology",
+      "Cellular Senescence/genetics",
+      "*Diabetes Mellitus/pathology",
+      "Forkhead Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Donglin",
+        "Wei, Shuqi",
+        "Wang, Dandan",
+        "Zeng, Min",
+        "Mo, Yihao",
+        "Li, Huafeng",
+        "Liang, Caixing",
+        "Li, Lu",
+        "Zhang, Jun Wei",
+        "Wang, Li"
+      ],
+      "short_names": [
+        "Sun D",
+        "Wei S",
+        "Wang D",
+        "Zeng M",
+        "Mo Y",
+        "Li H",
+        "Liang C",
+        "Li L",
+        "Zhang JW",
+        "Wang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Shenzhen Hospital, Southern Medical University, Shenzhen, China.",
+        "Center for Cancer and Immunology Research, State Key Laboratory of Respiratory Disease, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Nephrology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, Guangdong, China.",
+        "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China.",
+        "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China.",
+        "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China.",
+        "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China.",
+        "Publicity Department, The Second Affiliated Hospital of Southern University of Science and Technology, Shenzhen, China.",
+        "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China.",
+        "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Donglin",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Shenzhen Hospital, Southern Medical University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shuqi",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer and Immunology Research, State Key Laboratory of Respiratory Disease, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dandan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Min",
+        "short_name": "Zeng M",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Yihao",
+        "short_name": "Mo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huafeng",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Caixing",
+        "short_name": "Liang C",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Publicity Department, The Second Affiliated Hospital of Southern University of Science and Technology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun Wei",
+        "short_name": "Zhang JW",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Department, Affiliated Hospital of Southern Medical University: Shenzhen Longhua New District People's Hospital, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/23 06:43",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42627617",
+      "42606738",
+      "42566003",
+      "42518007",
+      "42469568",
+      "42319616",
+      "42288692",
+      "42283829",
+      "42249505",
+      "42223575",
+      "42152081",
+      "42087213",
+      "42045396",
+      "42032033",
+      "42020636",
+      "41998669",
+      "41968260",
+      "41942704",
+      "41928252",
+      "41910688",
+      "41879899",
+      "41838195",
+      "41817867",
+      "41814148",
+      "41782820",
+      "41770421",
+      "41731620",
+      "41654696",
+      "41645286",
+      "41639881",
+      "41634788",
+      "41622366",
+      "41593809",
+      "41553544",
+      "41533156",
+      "41519750",
+      "41455063",
+      "41428219",
+      "41419660",
+      "41396376",
+      "41353162",
+      "41316450",
+      "41288677",
+      "41249613",
+      "41222696",
+      "41137875",
+      "41082091",
+      "41023346",
+      "41021162",
+      "41003809",
+      "40974492",
+      "40973858",
+      "40949087",
+      "40948769",
+      "40858976",
+      "40858814",
+      "40762814",
+      "40748502",
+      "40713501",
+      "40615924",
+      "40549318",
+      "40538167",
+      "40516011",
+      "40407846",
+      "40319313",
+      "40295462",
+      "40281600",
+      "40268770",
+      "40138119",
+      "40120008",
+      "40067544",
+      "39976877",
+      "39948654",
+      "39913621",
+      "39901221",
+      "39806464",
+      "39725831",
+      "39630315",
+      "39607530",
+      "39494294",
+      "39395136",
+      "39190054",
+      "39167311",
+      "39158613",
+      "38995865",
+      "38739269",
+      "38678155",
+      "38368569"
+    ],
+    "refs": [
+      "37113991",
+      "36585925",
+      "36443325",
+      "35719376",
+      "35704698",
+      "34268481",
+      "34265844",
+      "33831367",
+      "32862712",
+      "32774664",
+      "32708046",
+      "32264951",
+      "32104259",
+      "31426587",
+      "30933975",
+      "30702162",
+      "30476243",
+      "29496507",
+      "29261010",
+      "29207131",
+      "29161661",
+      "28985345",
+      "28576298",
+      "28522654",
+      "28458139",
+      "28443208",
+      "28428687",
+      "27979255",
+      "27840317",
+      "27378235",
+      "27101740",
+      "26842629",
+      "26772152",
+      "26386740",
+      "26242486",
+      "25491534",
+      "25462566",
+      "25459543",
+      "24971753",
+      "24630390",
+      "24284212",
+      "23727278",
+      "23268595",
+      "22809028",
+      "22209001",
+      "21267711",
+      "20808728",
+      "20505038",
+      "20439574",
+      "20130277",
+      "20064576",
+      "20008127",
+      "19092119",
+      "17986697",
+      "17462721",
+      "15634693",
+      "15561957",
+      "14641647",
+      "14632445",
+      "11978659",
+      "11380812",
+      "10333951"
+    ],
+    "similar": [
+      "38390397",
+      "37957539",
+      "39029429",
+      "36280016",
+      "38292407",
+      "37396184",
+      "37250717",
+      "28356293",
+      "31409386",
+      "32853351",
+      "35663304",
+      "37622120",
+      "37554330",
+      "38013385",
+      "35909518",
+      "37745718",
+      "36064366",
+      "34932275",
+      "38332893",
+      "36960398",
+      "36627452",
+      "36911691",
+      "36385487",
+      "38162078",
+      "34518457",
+      "38645862",
+      "36919187",
+      "31981791",
+      "35119030",
+      "29633887",
+      "38174742",
+      "38027201",
+      "21179923",
+      "36154667",
+      "37235960",
+      "35846333",
+      "29444469",
+      "27416772",
+      "37234159",
+      "37739161",
+      "29861058",
+      "35845512",
+      "38053423",
+      "37553608",
+      "29642064",
+      "32954999",
+      "34237984",
+      "26990852",
+      "22903132",
+      "37986381",
+      "36482994",
+      "35427726",
+      "36627643",
+      "37312900",
+      "35923621",
+      "32031751",
+      "24645648",
+      "33571918",
+      "28752289",
+      "31722957",
+      "12085417",
+      "37191251",
+      "37480090",
+      "24244596",
+      "33883881",
+      "38020922",
+      "23089714",
+      "36329882",
+      "36251411",
+      "31678163",
+      "29338014",
+      "37768206",
+      "32062081",
+      "33634308",
+      "35711407",
+      "25662516",
+      "33963627",
+      "38394492",
+      "37760894",
+      "32600283",
+      "29340699",
+      "31687085",
+      "34249963",
+      "38483099",
+      "32682403",
+      "28596971",
+      "37143982",
+      "29367621",
+      "29158465",
+      "37737517",
+      "18806710",
+      "15067514",
+      "27165826",
+      "36891052",
+      "35651615",
+      "31256153",
+      "37522131",
+      "38809515",
+      "36659918"
+    ],
+    "review": [
+      "38390397",
+      "31981791",
+      "35119030",
+      "21179923",
+      "12085417",
+      "38394492",
+      "31687085",
+      "28596971",
+      "18806710",
+      "31256153"
+    ],
+    "pmc": [
+      "10881763"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38390397/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38390397",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHGA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1328757",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

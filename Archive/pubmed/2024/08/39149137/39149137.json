@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "39149137",
+    "doi": "10.1177/11769343241272413",
+    "title": "Single-cell RNA Sequencing Identifies Natural Kill Cell-Related Transcription Factors Associated With Age-Related Macular Degeneration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Age-related Macular Degeneration (AMD) poses a growing global health concern as the leading cause of central vision loss in elderly people. OBJECTION: This study focuses on unraveling the intricate involvement of Natural Killer (NK) cells in AMD, shedding light on their immune responses and cytokine regulatory roles. METHODS: Transcriptomic data from the Gene Expression Omnibus database were utilized, employing single-cell RNA-seq analysis. High-dimensional weighted gene co-expression network analysis (hdWGCNA) and single-cell regulatory network inference and clustering (SCENIC) analysis were applied to reveal the regulatory mechanisms of NK cells in early-stage AMD patients. Machine learning models, such as random forests and decision trees, were employed to screen hub genes and key transcription factors (TFs) associated with AMD. RESULTS: Distinct cell clusters were identified in the present study, especially the T/NK cluster, with a notable increase in NK cell abundance observed in AMD. Cell-cell communication analyses revealed altered interactions, particularly in NK cells, indicating their potential role in AMD pathogenesis. HdWGCNA highlighted the turquoise module, enriched in inflammation-related pathways, as significantly associated with AMD in NK cells. The SCENIC analysis identified key TFs in NK cell regulatory networks. The integration of hub genes and TFs identified CREM, FOXP1, IRF1, NFKB2, and USF2 as potential predictors for AMD through machine learning. CONCLUSION: This comprehensive approach enhances our understanding of NK cell dynamics, signaling alterations, and potential predictive models for AMD. The identified TFs provide new avenues for molecular interventions and highlight the intricate relationship between NK cells and AMD pathogenesis. Overall, this study contributes valuable insights for advancing our understanding and management of AMD.",
+    "keywords": [
+      "Age-related macular degeneration",
+      "NK cell",
+      "machine learning",
+      "single-cell RNA sequencing",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Yili",
+        "Liu, Jianpeng",
+        "Feng, Wangqiang",
+        "Lin, Da",
+        "Chen, Mengji",
+        "Zheng, Haihua"
+      ],
+      "short_names": [
+        "Luo Y",
+        "Liu J",
+        "Feng W",
+        "Lin D",
+        "Chen M",
+        "Zheng H"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2059-4305"
+      ],
+      "affiliations": [
+        "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Yili",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianpeng",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Wangqiang",
+        "short_name": "Feng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Da",
+        "short_name": "Lin D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Mengji",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Haihua",
+        "short_name": "Zheng H",
+        "identifiers": [
+          "0009-0009-2059-4305"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Evolutionary bioinformatics online"
+    ],
+    "journal_abbrev": [
+      "Evol Bioinform Online"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/16 06:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "39975064"
+    ],
+    "refs": [
+      "37426759",
+      "36837832",
+      "36550119",
+      "35248156",
+      "34204836",
+      "34062119",
+      "33848001",
+      "33848000",
+      "33751148",
+      "32421903",
+      "31350409",
+      "28991892",
+      "28114287",
+      "26662105",
+      "25964427",
+      "25516281",
+      "25104651",
+      "24166353",
+      "24105633",
+      "23650273",
+      "23029250",
+      "21045241",
+      "18596911",
+      "18585979",
+      "18515573",
+      "17909628",
+      "17659362",
+      "16500214",
+      "15650053",
+      "12370276",
+      "11581320",
+      "11433387",
+      "11297486",
+      "9973427",
+      "9186125"
+    ],
+    "similar": [
+      "39149137",
+      "41601671",
+      "42475469",
+      "42309401",
+      "40216809",
+      "40025106",
+      "41213067",
+      "40830492",
+      "39710756",
+      "37273909",
+      "34804058",
+      "40967560",
+      "38393419",
+      "42537985",
+      "42265520",
+      "41627545",
+      "42136960",
+      "41388523",
+      "39975064",
+      "35280389",
+      "41192724",
+      "40764361",
+      "37415944",
+      "42040898",
+      "38808722",
+      "42546082",
+      "39509434",
+      "42233387",
+      "39926598",
+      "38742956",
+      "41436831",
+      "41200169",
+      "42059276",
+      "39674047",
+      "41591671",
+      "39107525",
+      "39081806",
+      "41009952",
+      "41733593",
+      "41816342",
+      "39329213",
+      "42412240",
+      "40895573",
+      "41694220",
+      "42236612",
+      "42045413",
+      "42063773",
+      "22364233",
+      "28651595",
+      "40505755",
+      "40740189",
+      "40909263",
+      "39182484",
+      "38259505",
+      "38797830",
+      "38664790",
+      "39391879",
+      "31995762",
+      "41972591",
+      "42102824",
+      "40881439",
+      "39853176",
+      "40624201",
+      "39896809",
+      "40350654",
+      "42024670",
+      "42106542",
+      "41722793",
+      "41287009",
+      "35845067",
+      "37312900",
+      "42362198",
+      "40742465",
+      "39503329",
+      "42562173",
+      "42580240",
+      "41716413",
+      "40892227",
+      "39507529",
+      "41130334",
+      "40619423",
+      "42304501",
+      "41261231",
+      "41409278",
+      "34987704",
+      "42391245",
+      "40276515",
+      "40433417",
+      "34204836",
+      "40589764",
+      "42083957",
+      "40952055",
+      "41969483",
+      "40244418",
+      "40411685",
+      "40406620",
+      "42395345",
+      "39874886",
+      "42283098",
+      "42642681"
+    ],
+    "review": [
+      "39149137",
+      "41213067"
+    ],
+    "pmc": [
+      "11325330"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/11769343241272413?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39149137/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-721",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

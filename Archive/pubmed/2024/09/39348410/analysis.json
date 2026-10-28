@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39348410",
+  "title": "BootCellNet, a resampling-based procedure, promotes unsupervised identification of cell populations via robust inference of gene regulatory networks.",
+  "authors": "Kumagai, Yutaro",
+  "journal": "PLoS computational biology",
+  "published_date": "2024-09-30",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用重采样推断基因调控网络并识别细胞类型，虽涉及转录因子，但核心是细胞聚类而非蛋白质-DNA互作建模，且无AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Recent advances in measurement technologies, particularly single-cell RNA sequencing (scRNA-seq), have revolutionized our ability to acquire large amounts of omics-level data on cellular states. As measurement techniques evolve, there has been an increasing need for data analysis methodologies, especially those focused on cell-type identification and inference of gene regulatory networks (GRNs). We have developed a new method named BootCellNet, which employs smoothing and resampling to infer GRNs. Using the inferred GRNs, BootCellNet further infers the minimum dominating set (MDS), a set of genes that determines the dynamics of the entire network. We have demonstrated that BootCellNet robustly infers GRNs and their MDSs from scRNA-seq data and facilitates unsupervised identification of cell clusters using scRNA-seq datasets of peripheral blood mononuclear cells and hematopoiesis. It has also identified COVID-19 patient-specific cells and their potential regulatory transcription factors. BootCellNet not only identifies cell types in an unsupervised and explainable way but also provides insights into the characteristics of identified cell types through the inference of GRNs and MDS.",
+  "abstract_zh": "测量技术的最新进展，尤其是单细胞RNA测序（scRNA-seq），彻底改变了我们获取细胞状态大规模组学数据的能力。随着测量技术的演进，对数据分析方法的需求日益增长，特别是那些专注于细胞类型识别和基因调控网络（GRNs）推断的方法。我们开发了一种名为BootCellNet的新方法，该方法利用平滑和重采样技术来推断GRNs。基于推断出的GRNs，BootCellNet进一步推断最小支配集（MDS），即决定整个网络动态的一组基因。我们已证明，BootCellNet能从scRNA-seq数据中稳健地推断GRNs及其MDS，并利用外周血单核细胞和造血作用的scRNA-seq数据集促进细胞簇的无监督识别。它还识别了COVID-19患者特异性细胞及其潜在的调控转录因子。BootCellNet不仅以无监督且可解释的方式识别细胞类型，还通过推断GRNs和MDS为所识别细胞类型的特征提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39348410/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39348410/",
+  "paper_page_path": "papers/pubmed/39348410/index.html"
+}

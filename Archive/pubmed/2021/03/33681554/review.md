@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors report the binding mechanism of apigenin (APG) and two novel sulfamate derivatives (ADSAM, ATSAM) to double-stranded DNA, using spectroscopic, electrochemical, viscometric, and molecular docking methods. They conclude that all compounds bind via the minor groove, with hydrogen bonds and π–sulfur interactions contributing to complex stabilization, and that binding constants are consistent across techniques.
+- **Visible evidence base** Abstract, full methods, results and discussion sections, tables (Tables 1–5), figures referenced (Figures 1–10), supplementary tables referenced (Tables S1–S3)
+- **Missing materials affecting confidence** Raw spectra, full figure data, supplementary figures (Figure S1), detailed docking output files, error analysis for docking affinities, and complete experimental replicates are not available for independent verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in drug discovery, namely the DNA binding behavior of a natural flavonoid and its synthetic derivatives. The combination of multiple experimental techniques is commendable. However, several methodological weaknesses and inconsistencies in the interpretation of results undermine the strength of the conclusions. The claim that all compounds bind exclusively via the minor groove is not fully supported by the presented data, particularly given the fluorescence results for APG that suggest partial intercalation. The electrochemical experiments are performed at pH 4.8, which is not physiological and may not reflect the stated conditions of pH 7.4. The docking studies lack sufficient detail for reproducibility. The manuscript would benefit from a more critical analysis of the data and a clearer distinction between supported and speculative conclusions.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry, drug design, and nucleic acid chemistry would be interested in the comparative binding behavior of flavonoid derivatives. The study may also be relevant to those investigating the role of sulfamate modifications in modulating DNA affinity. The methodological combination could serve as a template for similar investigations.
+- **Major strengths** The use of multiple complementary techniques to study DNA binding is a strength. The synthesis and characterization of two novel apigenin derivatives adds value. The inclusion of molecular docking provides a structural perspective. The consistency of binding constants across methods, where reported, is encouraging.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that all three compounds bind to dsDNA via the minor groove, based on spectroscopic, electrochemical, viscometric, and docking results.
+  - **Evidence pointer** Results and Discussion, DNA Binding Studies, Absorption Spectra Measurements; Fluorescence Studies; Viscosity Measurements; Molecular Docking Results
+  - **Concern** The fluorescence data for APG show a significant reduction in EtBr–dsDNA emission intensity, which the authors interpret as evidence of intercalation. However, the viscosity measurements show no change in DNA length, which is inconsistent with intercalation. The authors acknowledge this contradiction but do not resolve it. The docking results for APG show partial orientation toward the DNA center, which is not clearly consistent with pure minor groove binding. The conclusion that all compounds bind via the minor groove is therefore not uniformly supported by the evidence.
+  - **Why it matters** The binding mode is the central claim of the manuscript. If the mode is not clearly established, the interpretation of binding constants and the proposed mechanism are compromised. This affects the validity of the conclusions and the potential implications for drug design.
+  - **Resolution test** The authors should provide a more detailed analysis of the fluorescence quenching data, including Stern–Volmer plots and quenching constants, and discuss whether the observed quenching is due to intercalation or other mechanisms. They should also reconcile the viscosity and fluorescence results, possibly by performing additional experiments such as circular dichroism or competitive binding assays with a known minor groove binder. The docking results should be presented with more detail, including the specific interactions and the criteria used to assign binding modes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that experiments were conducted under physiological conditions (pH 7.4), but the electrochemical experiments were performed at pH 4.8.
+  - **Evidence pointer** Materials and Methods, Electrochemical Methods; Results and Discussion, Electrochemical Interaction Studies
+  - **Concern** The electrochemical experiments are conducted in acetate buffer at pH 4.8, which is not physiological. The authors do not explain why this pH was chosen or how the results relate to the stated physiological conditions. This discrepancy is not addressed in the manuscript.
+  - **Why it matters** The binding affinity and mode can be pH-dependent. If the electrochemical data are obtained at a different pH than the spectroscopic data, the comparison of binding constants across techniques may not be valid. This undermines the claim that the binding constants are in harmony across all methods.
+  - **Resolution test** The authors should either repeat the electrochemical experiments at pH 7.4 or provide a clear justification for the use of pH 4.8 and discuss the potential impact on the results. They should also clarify which pH is used for each technique and ensure consistency in the interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report binding constants from electrochemical data that are in agreement with those from other methods.
+  - **Evidence pointer** Results and Discussion, Electrochemical Interaction Studies, Table 4
+  - **Concern** The equation used to calculate binding constants from electrochemical data (equation 10) is not fully explained. The terms are defined, but the derivation and assumptions are not provided. It is unclear how the binding constant is extracted from the current signal changes.
+  - **Why it matters** Without a clear explanation of the method, the reported binding constants cannot be independently evaluated. This affects the reliability of the comparison across techniques.
+  - **Resolution test** The authors should provide a more detailed derivation of equation 10, including the assumptions and limitations. They should also show representative data and fits to demonstrate how the binding constants are obtained.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "the binding of a compound to dsDNA in the minor groove is critical in drug discovery" without providing context or justification. This is an oversimplification and may mislead readers.
+  - **Required correction** Revise the sentence to acknowledge that minor groove binding is one of several modes of DNA interaction and that the relevance depends on the therapeutic target.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Molecular Docking Studies
+  - **Evidence pointer** Materials and Methods, Molecular Docking Studies
+  - **Issue** The docking protocol is described briefly. The search space, exhaustiveness, and number of runs are not specified. This limits reproducibility.
+  - **Required correction** Provide full docking parameters, including grid box dimensions, exhaustiveness, and the number of independent runs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Thermal Denaturation Studies
+  - **Evidence pointer** Results and Discussion, Thermal Denaturation Studies, Table 2
+  - **Issue** The thermal denaturation data are presented in a table, but the experimental conditions (e.g., DNA concentration, buffer composition) are not fully described in the text.
+  - **Required correction** Add a brief description of the experimental conditions for thermal denaturation experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Viscosity Measurements
+  - **Evidence pointer** Results and Discussion, Viscosity Measurements
+  - **Issue** The viscosity data are described qualitatively. The figure (Figure 5) is referenced, but the trends are not clearly explained in the text.
+  - **Required correction** Provide a more detailed description of the viscosity results, including the specific changes observed and their implications for the binding mode.
+- **Technical failings that need to be addressed before the case is established** The inconsistency between fluorescence and viscosity data for APG must be resolved. The pH discrepancy between electrochemical and other experiments must be addressed. The docking methodology must be described in sufficient detail for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is not highly original, as DNA binding of flavonoids has been reported previously. The novelty lies in the sulfamate derivatives, but the incremental advance is modest.
+  - Scientific importance: The findings are of moderate importance to the field of medicinal chemistry, but the conclusions are not definitive due to the inconsistencies noted.
+  - Interdisciplinary readership: The topic may appeal to chemists, biologists, and pharmacologists, but the presentation is not sufficiently accessible for a broad audience.
+  - Technical soundness: The use of multiple techniques is a strength, but the methodological issues and unresolved contradictions reduce the overall technical soundness.
+  - Readability for nonspecialists: The manuscript is generally readable, but some sections are dense and would benefit from clearer explanations.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claim regarding the binding mode is not consistently supported. The authors should address the major concerns before the case is considered established.
+
+## Risk / unsupported claims
+- The claim that all compounds bind exclusively via the minor groove is not fully supported, given the fluorescence data for APG suggesting partial intercalation.
+- The claim that binding constants are in harmony across all techniques is weakened by the pH discrepancy in electrochemical experiments.
+- The statement that π–sulfur interactions contribute to stabilization is based solely on docking results and is not experimentally verified.
+- The conclusion that these compounds "can be used in the medical field for further in vivo studies" is speculative and not supported by the data presented.

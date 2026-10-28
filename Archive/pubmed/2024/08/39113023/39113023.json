@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39113023",
+    "doi": "10.1186/s12920-024-01975-8",
+    "title": "Biomarkers related to m6A and succinic acid metabolism in papillary thyroid carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Studies have shown that m6A modification is related to the occurrence and development of papillary thyroid carcinoma (PTC). The disorder of succinic acid metabolism is associated with the occurrence and development of various tumors. However, there are few studies based on m6A and succinate metabolism-related genes (SMRGs) in PTC. METHODS: The TCGA-Thyroid carcinoma (THCA), GSE33630, 1159 SMRGs, and 23 m6A regulatory factors were collected from the online databases. Subsequently, the differentially expressed genes (DEGs) were selected between PTC (Tumor) and Normal samples. The overlapping genes among the DEGs, m6A, and SMRGs were applied to screen the biomarkers. Using the 3 machine-learning algorithms, the biomarkers were determined based on the overlapping genes. Next, the biomarkers were evaluated by the ROC curve and expression analysis in TCGA-THCA and GSE33630. Then, the overall survival (OS) differences were compared between the high-and low-expression biomarkers. Finally, immune infiltration analysis, molecular regulatory network, and drug prediction were performed based on the biomarkers. RESULTS: In TCGA-THCA, there were 2800 DEGs between and Normal samples, and then 7 overlapping genes were obtained. Importantly, ADK, TNFRSF10B, CYP7B1, FGFR2, and CPQ were determined as biomarkers with excellent diagnostic efficiency (AUC > 0.7). In PTC samples, ADK and TNFRSF10B were high-expressed while CYP7B1, FGFR2, and CPQ were low-expressed. Especially, the high-expression groups of ADK had a better prognosis, while the high-expression groups of CYP7B1, FGFR2, and CPQ had a worse prognosis. Afterward, immune infiltration analysis found that 16 immune cells had infiltration differences between the Tumor and Normal samples. Finally, transcription factor SP1 could regulate CYP7B1 and TNFRSF10B. Moreover, Navitoclax was a potential drug for PTC patients. CONCLUSION: Overall, we described 5 biomarkers associated with adverse prognosis of PTC, including ADK, TNFRSF10B, CYP7B1, FGFR2, and CPQ. All these biomarkers were involved in succinate metabolism and m6A modification of RNA. This set of biomarkers should be explored further for their diagnostic value in PTC. Investigations into the mechanistic role of alteration of succinate metabolism and m6A modification of RNA pathways in the pathophysiology of PTC are warranted.",
+    "keywords": [
+      "Bioinformatics",
+      "Papillary thyroid carcinoma",
+      "Succinic acid metabolism",
+      "m6A"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Thyroid Cancer, Papillary/genetics/metabolism/pathology",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Succinic Acid/metabolism",
+      "*Thyroid Neoplasms/genetics/metabolism/pathology",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Adenosine/analogs & derivatives"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Minyu",
+        "Fu, Xiaodan",
+        "Zhou, Tianhan",
+        "Han, Hui"
+      ],
+      "short_names": [
+        "Li M",
+        "Fu X",
+        "Zhou T",
+        "Han H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhejiang Chinese Medical University, Hangzhou, Zhejiang, China.",
+        "Department of Endocrinology, Affiliated Hangzhou First People's Hospital, School of medicine, Westlake University, Hangzhou, Zhejiang, China.",
+        "The Department of General Surgery, Hangzhou Hospital of Traditional Chinese Medicine Hangzhou TCM Hospital, Affiliated to Zhejiang Chinese Medical University, Hangzhou, Zhejiang, China.",
+        "Department of Endocrinology, Affiliated Hangzhou First People's Hospital, School of medicine, Westlake University, Hangzhou, Zhejiang, China. hohoho1986@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Minyu",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Chinese Medical University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xiaodan",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Affiliated Hangzhou First People's Hospital, School of medicine, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tianhan",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of General Surgery, Hangzhou Hospital of Traditional Chinese Medicine Hangzhou TCM Hospital, Affiliated to Zhejiang Chinese Medical University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Han, Hui",
+        "short_name": "Han H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Affiliated Hangzhou First People's Hospital, School of medicine, Westlake University, Hangzhou, Zhejiang, China. hohoho1986@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2024 Aug 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/08 00:42",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42450552",
+      "41057823"
+    ],
+    "refs": [
+      "36930113",
+      "36344992",
+      "35678022",
+      "35090515",
+      "34790166",
+      "34557778",
+      "34019567",
+      "33916314",
+      "33724691",
+      "33484966",
+      "33414407",
+      "33062639",
+      "33025563",
+      "32824922",
+      "31735641",
+      "31666694",
+      "31311983",
+      "30931815",
+      "30869573",
+      "30207593",
+      "30062093",
+      "30037119",
+      "29917195",
+      "29789545",
+      "29587823",
+      "29546654",
+      "29449614",
+      "29371332",
+      "28281539",
+      "28061458",
+      "27602518",
+      "27481132",
+      "27313037",
+      "26971832",
+      "26321680",
+      "24895135",
+      "24210818",
+      "24132163",
+      "24075674",
+      "23724937",
+      "23721357",
+      "23612073",
+      "23592612",
+      "22738343",
+      "22608085",
+      "22399513",
+      "21785142",
+      "21771581",
+      "21572254",
+      "20207826",
+      "19910308",
+      "19629071",
+      "18451170",
+      "18031613",
+      "16892081",
+      "15284899",
+      "11470525",
+      "7977430"
+    ],
+    "similar": [
+      "39113023",
+      "39738081",
+      "31842912",
+      "34245428",
+      "33155892",
+      "34315405",
+      "34248843",
+      "34693452",
+      "29968931",
+      "32766727",
+      "41957879",
+      "36635603",
+      "36445679",
+      "39623910",
+      "38678617",
+      "41271882",
+      "40418400",
+      "34756116",
+      "38971817",
+      "41646983",
+      "33554894",
+      "34115774",
+      "39021178",
+      "34624650",
+      "41789084",
+      "40084144",
+      "39400774",
+      "39273308",
+      "38146045",
+      "38865751",
+      "38862457",
+      "29625265",
+      "36120433",
+      "41851690",
+      "40753315",
+      "38676768",
+      "32425887",
+      "40454923",
+      "39103463",
+      "41807576",
+      "36438899",
+      "42700077",
+      "38289368",
+      "39510033",
+      "39067172",
+      "30872410",
+      "30539831",
+      "41465972",
+      "35359404",
+      "37324256",
+      "35185791",
+      "40650680",
+      "38485895",
+      "41656803",
+      "39136331",
+      "35483340",
+      "41554923",
+      "32596748",
+      "33620716",
+      "33405394",
+      "34735975",
+      "36974635",
+      "39789120",
+      "34522174",
+      "30576338",
+      "30965127",
+      "40593102",
+      "27779685",
+      "30414611",
+      "36928327",
+      "33454555",
+      "39910191",
+      "38839646",
+      "29767230",
+      "39453570",
+      "30942873",
+      "37859510",
+      "35068400",
+      "31965517",
+      "38836761",
+      "40702045",
+      "31099134",
+      "38316654",
+      "38884688",
+      "41083825",
+      "34122331",
+      "33345267",
+      "33193087",
+      "30614796",
+      "31692033",
+      "32849296",
+      "34102210",
+      "34054840",
+      "31332712",
+      "40965626",
+      "31161615",
+      "41310383",
+      "28469731",
+      "36791151",
+      "40468332"
+    ],
+    "review": [
+      "39113023",
+      "37859510"
+    ],
+    "pmc": [
+      "11304613"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-024-01975-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39113023/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

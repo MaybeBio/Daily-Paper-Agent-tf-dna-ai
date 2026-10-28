@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "39169157",
+    "doi": "10.1038/s41598-024-70541-0",
+    "title": "Transcriptome profiling of pediatric extracranial solid tumors and lymphomas enables rapid low-cost diagnostic classification."
+  },
+  "content": {
+    "abstract": "Approximately 80% of pediatric tumors occur in low- and middle-income countries (LMIC), where diagnostic tools essential for treatment decisions are often unavailable or incomplete. Development of cost-effective molecular diagnostics will help bridge the cancer diagnostic gap and ultimately improve pediatric cancer outcomes in LMIC settings. We investigated the feasibility of using nanopore whole transcriptome sequencing on formalin-fixed paraffin embedded (FFPE)-derived RNA and a composite machine learning model for pediatric solid tumor diagnosis. Transcriptome cDNA sequencing was performed on a heterogenous set of 221 FFPE and 32 fresh frozen pediatric solid tumor and lymphoma specimens on Oxford Nanopore Technologies' sequencing platforms. A composite machine learning model was then used to classify transcriptional profiles into clinically actionable tumor types and subtypes. In total, 95.6% and 89.7% of pediatric solid tumors and lymphoma specimens were correctly classified, respectively. 71.5% of pediatric solid tumors had prediction probabilities > 0.8 and were classified with 100% accuracy. Similarly, for lymphomas, 72.4% of samples that had prediction probabilities > 0.6 were classified with 97.6% accuracy. Additionally, FOXO1 fusion status was predicted accurately for 97.4% of rhabdomyosarcomas and MYCN amplification was predicted with 88% accuracy in neuroblastoma. Whole transcriptome sequencing from FFPE-derived pediatric solid tumor and lymphoma samples has the potential to provide clinical classification of both tissue lineage and core genomic classification. Further expansion, refinement, and validation of this approach is necessary to explore whether this technology could be part of the solution of addressing the diagnostic limitations in LMIC.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Child",
+      "*Lymphoma/genetics/diagnosis/classification",
+      "*Gene Expression Profiling/methods",
+      "Transcriptome",
+      "Machine Learning",
+      "Neoplasms/genetics/diagnosis/classification",
+      "Child, Preschool",
+      "Male",
+      "Female",
+      "Forkhead Box Protein O1/genetics",
+      "Rhabdomyosarcoma/genetics/diagnosis/classification",
+      "Biomarkers, Tumor/genetics",
+      "Adolescent",
+      "Infant"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Opoku, Kofi B",
+        "Santiago, Teresa",
+        "Kumar, Priya",
+        "Roush, Sophia M",
+        "Fedoriw, Yuri",
+        "Tomoka, Tamiwe",
+        "Leventaki, Vasiliki",
+        "Furtado, Larissa V",
+        "Bhakta, Nickhill",
+        "Alexander, Thomas B",
+        "Wang, Jeremy R"
+      ],
+      "short_names": [
+        "Opoku KB",
+        "Santiago T",
+        "Kumar P",
+        "Roush SM",
+        "Fedoriw Y",
+        "Tomoka T",
+        "Leventaki V",
+        "Furtado LV",
+        "Bhakta N",
+        "Alexander TB",
+        "Wang JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0673-9418"
+      ],
+      "affiliations": [
+        "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, USA.",
+        "Department of Pathology, St. Jude Children's Research Hospital, Memphis, USA.",
+        "Department of Pathology, St. Jude Children's Research Hospital, Memphis, USA.",
+        "Department of Pathology and Laboratory Medicine, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, USA.",
+        "Department of Pathology and Laboratory Medicine, Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, USA.",
+        "University of Malawi College of Medicine, Blantyre, Malawi.",
+        "University of North Carolina at Chapel Hill, Chapel Hill, USA.",
+        "UNC Project Malawi, Lilongwe, Malawi.",
+        "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, USA.",
+        "Department of Pathology, St. Jude Children's Research Hospital, Memphis, USA.",
+        "Department of Global Pediatric Medicine, St. Jude Children's Research Hospital, Memphis, USA.",
+        "Department of Pediatrics, Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, USA.",
+        "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, USA. jeremy_wang@med.unc.edu.",
+        "Department of Pathology and Laboratory Medicine, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, USA. jeremy_wang@med.unc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Opoku, Kofi B",
+        "short_name": "Opoku KB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, USA."
+        ]
+      },
+      {
+        "full_name": "Santiago, Teresa",
+        "short_name": "Santiago T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, St. Jude Children's Research Hospital, Memphis, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Priya",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, St. Jude Children's Research Hospital, Memphis, USA."
+        ]
+      },
+      {
+        "full_name": "Roush, Sophia M",
+        "short_name": "Roush SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, USA."
+        ]
+      },
+      {
+        "full_name": "Fedoriw, Yuri",
+        "short_name": "Fedoriw Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, USA."
+        ]
+      },
+      {
+        "full_name": "Tomoka, Tamiwe",
+        "short_name": "Tomoka T",
+        "identifiers": [],
+        "affiliations": [
+          "University of Malawi College of Medicine, Blantyre, Malawi.",
+          "University of North Carolina at Chapel Hill, Chapel Hill, USA.",
+          "UNC Project Malawi, Lilongwe, Malawi."
+        ]
+      },
+      {
+        "full_name": "Leventaki, Vasiliki",
+        "short_name": "Leventaki V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, USA."
+        ]
+      },
+      {
+        "full_name": "Furtado, Larissa V",
+        "short_name": "Furtado LV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, St. Jude Children's Research Hospital, Memphis, USA."
+        ]
+      },
+      {
+        "full_name": "Bhakta, Nickhill",
+        "short_name": "Bhakta N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Global Pediatric Medicine, St. Jude Children's Research Hospital, Memphis, USA."
+        ]
+      },
+      {
+        "full_name": "Alexander, Thomas B",
+        "short_name": "Alexander TB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Jeremy R",
+        "short_name": "Wang JR",
+        "identifiers": [
+          "0000-0002-0673-9418"
+        ],
+        "affiliations": [
+          "Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, USA. jeremy_wang@med.unc.edu.",
+          "Department of Pathology and Laboratory Medicine, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, USA. jeremy_wang@med.unc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Aug 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/22 00:42",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36565986",
+      "36480778",
+      "35801252",
+      "35700919",
+      "35442720",
+      "33216382",
+      "32056193",
+      "31924557",
+      "30614477",
+      "30241273",
+      "29750242",
+      "29367707",
+      "29265354",
+      "24274147",
+      "23178448",
+      "22907398",
+      "16051962"
+    ],
+    "similar": [
+      "39169157",
+      "40571676",
+      "31543384",
+      "32187044",
+      "29580035",
+      "35185794",
+      "34358677",
+      "28036264",
+      "23472067",
+      "35442720",
+      "31493794",
+      "34958505",
+      "32601356",
+      "33147323",
+      "41360693",
+      "12651714",
+      "30033047",
+      "33541297",
+      "31747416",
+      "34818552",
+      "19147825",
+      "21370019",
+      "25495041",
+      "40362431",
+      "28376728",
+      "38296742",
+      "34647650",
+      "40149301",
+      "21679412",
+      "31026023",
+      "39694930",
+      "11385503",
+      "40320243",
+      "29339835",
+      "23307059",
+      "33509261",
+      "39444262",
+      "23913937",
+      "28069802",
+      "15536621",
+      "41077189",
+      "35502835",
+      "26531060",
+      "22454413",
+      "40923514",
+      "27799565",
+      "36759549",
+      "40804002",
+      "38302875",
+      "28624625",
+      "26208990",
+      "35013752",
+      "39781573",
+      "29848287",
+      "24727804",
+      "40784724",
+      "41240117",
+      "24498002",
+      "40596693",
+      "26716838",
+      "33493304",
+      "37270477",
+      "32332866",
+      "20124188",
+      "38769169",
+      "26990976",
+      "29797665",
+      "39433989",
+      "31456361",
+      "36368127",
+      "38783731",
+      "32791542",
+      "37026693",
+      "41180011",
+      "28122052",
+      "32650833",
+      "18303411",
+      "34166060",
+      "35266879",
+      "25937617",
+      "27542606",
+      "41166699",
+      "36989279",
+      "33109741",
+      "24878701",
+      "14506694",
+      "33087128",
+      "18542043",
+      "33077815",
+      "29679021",
+      "26361796",
+      "34340673",
+      "23458726",
+      "40392980",
+      "21227394",
+      "34610968",
+      "27841802",
+      "38905450",
+      "29860427",
+      "29173061"
+    ],
+    "review": [
+      "39169157",
+      "34958505",
+      "39694930",
+      "22454413",
+      "18542043"
+    ],
+    "pmc": [
+      "11339337"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

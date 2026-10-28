@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41038084",
+    "doi": "10.1016/j.breast.2025.104588",
+    "title": "Investigating the prognostic role of citrullination-related genes in breast cancer by combining transcriptomics, single-cell analysis and verification."
+  },
+  "content": {
+    "abstract": "Citrullination, a process linked to autoimmune diseases, has been implicated in cancer, but its role in breast cancer (BRCA) remains unclear. This study aimed to identify citrullination-related genes (CRGs) associated with prognosis in BRCA. We utilized datasets from The Cancer Genome Atlas (TCGA-BRCA) and Gene Expression Omnibus (GEO), pinpointing candidate genes by intersecting differentially expressed genes (DEGs) from TCGA-BRCA with known CRGs. Prognostic CRGs were selected using univariate Cox regression and Lasso regression analyses, and a predictive nomogram was created based on independent prognostic factors identified through multivariate Cox regression. Our findings revealed that SEZ6, S100B, SPIB, and TFF1 were key CRGs used to construct a risk model. High-risk BRCA patients exhibited immune-suppressive tumor microenvironments (TMEs) with low CD8(+) T cell mutation and enrichment in C1/C4 immune subtypes. In contrast, low-risk patients displayed high immune infiltration and enrichment in C2/C3/C6 subtypes. High expression of S100B, SPIB, and TFF1 was associated with increased immune infiltration by NK cells and T cells, while high SEZ6 expression was linked to neutrophil mutations, PD-L1 upregulation, and low CD8(+) T cell infiltration. Molecular docking studies explored the interactions of these CRGs with entinostat. In conclusion, SEZ6, S100B, SPIB, and TFF1 were identified as significant prognostic genes in BRCA, providing insights into BRCA pathogenesis and potential personalized treatment strategies.",
+    "keywords": [
+      "Breast cancer",
+      "Citrullination",
+      "Molecular docking",
+      "Nomogram",
+      "Risk model",
+      "Single cell RNA sequencing analysis"
+    ],
+    "mesh_terms": [
+      "*Breast Neoplasms/genetics/immunology/mortality/pathology",
+      "*Citrullination/genetics/immunology",
+      "Regression Analysis",
+      "Nerve Tissue Proteins/genetics",
+      "*Biomarkers, Tumor/genetics",
+      "*Nomograms",
+      "S100 Calcium Binding Protein beta Subunit/genetics",
+      "DNA-Binding Proteins/genetics",
+      "Transcription Factors/genetics",
+      "Trefoil Factor-1/genetics",
+      "Gene Expression Regulation, Neoplastic/immunology",
+      "Datasets as Topic",
+      "Tumor Microenvironment/genetics/immunology",
+      "Single-Cell Gene Expression Analysis",
+      "Kaplan-Meier Estimate",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Female"
+    ],
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Weijie",
+        "Fan, Shanji",
+        "Luo, Yongmei",
+        "Yi, Xinyu",
+        "Liu, Yingjie",
+        "He, Guicheng",
+        "Li, Zhimin",
+        "Li, Yuehua"
+      ],
+      "short_names": [
+        "He W",
+        "Fan S",
+        "Luo Y",
+        "Yi X",
+        "Liu Y",
+        "He G",
+        "Li Z",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiation Oncology, Affiliated Tumor Hospital of Guangxi Medical University, Nanning, China; Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China; State Key Laboratory of Targeting Oncology, National Center for International Research of Biotargeting Theranostics, Guangxi Medical University, Nanning, Guangxi, 530021, China.",
+        "Department of Breast and Thyroid surgery, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China.",
+        "Department of Breast and Thyroid surgery, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China. Electronic address: 313397526@qq.com.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China. Electronic address: 993522951@qq.com.",
+        "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China. Electronic address: liyuehua2020@stu.usc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Weijie",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Affiliated Tumor Hospital of Guangxi Medical University, Nanning, China; Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China; State Key Laboratory of Targeting Oncology, National Center for International Research of Biotargeting Theranostics, Guangxi Medical University, Nanning, Guangxi, 530021, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Shanji",
+        "short_name": "Fan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid surgery, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yongmei",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Xinyu",
+        "short_name": "Yi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yingjie",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid surgery, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China."
+        ]
+      },
+      {
+        "full_name": "He, Guicheng",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China. Electronic address: 313397526@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Zhimin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China. Electronic address: 993522951@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yuehua",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, the First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, 421001, China. Electronic address: liyuehua2020@stu.usc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast (Edinburgh, Scotland)"
+    ],
+    "journal_abbrev": [
+      "Breast"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 00:29",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42703336"
+    ],
+    "refs": [
+      "40078091",
+      "39903533",
+      "39348153",
+      "39315735",
+      "38878638",
+      "38849813",
+      "38728549",
+      "38680483",
+      "38634804",
+      "38489266",
+      "37965309",
+      "37950731",
+      "37778382",
+      "37635362",
+      "37620307",
+      "37355519",
+      "37315720",
+      "37276690",
+      "37140445",
+      "36859354",
+      "36842860",
+      "36671463",
+      "36594618",
+      "36369329",
+      "36091646",
+      "36077333",
+      "36057754",
+      "35772376",
+      "35715860",
+      "35577141",
+      "35514975",
+      "35284124",
+      "35248624",
+      "35158945",
+      "35115765",
+      "35016033",
+      "35011166",
+      "34997230",
+      "34914499",
+      "34862480",
+      "34557778",
+      "34461944",
+      "34453909",
+      "34452909",
+      "34409029",
+      "34112737",
+      "33936031",
+      "33538338",
+      "33428453",
+      "32679172",
+      "32361569",
+      "32259783",
+      "32129936",
+      "31961997",
+      "31912902",
+      "31813459",
+      "31548545",
+      "31041421",
+      "30894374",
+      "30655324",
+      "30143015",
+      "29764272",
+      "29083417",
+      "27745970",
+      "27145231",
+      "27132038",
+      "26771115",
+      "25613900",
+      "25516281",
+      "24812208",
+      "23323831",
+      "22101401",
+      "13298683"
+    ],
+    "similar": [
+      "41038084",
+      "38213151",
+      "36479114",
+      "40317384",
+      "39730892",
+      "33146847",
+      "40764403",
+      "40963625",
+      "40985028",
+      "36581948",
+      "41877589",
+      "41398776",
+      "41547876",
+      "33936088",
+      "33993869",
+      "40880013",
+      "41461391",
+      "41182569",
+      "33688372",
+      "39507529",
+      "40496857",
+      "39519383",
+      "33390791",
+      "38912044",
+      "39524444",
+      "39185402",
+      "34704810",
+      "40746552",
+      "41350692",
+      "41430351",
+      "39340434",
+      "33204321",
+      "34059009",
+      "39431237",
+      "33727952",
+      "39119106",
+      "41813383",
+      "39300389",
+      "40895068",
+      "38828693",
+      "41233852",
+      "39251967",
+      "35443644",
+      "37904416",
+      "36438201",
+      "40230854",
+      "33179733",
+      "39020010",
+      "38725284",
+      "39847423",
+      "38708353",
+      "39966377",
+      "34382341",
+      "41234865",
+      "41413822",
+      "38546403",
+      "40898538",
+      "32572951",
+      "38836761",
+      "41601635",
+      "41357242",
+      "39445019",
+      "39107713",
+      "38643462",
+      "41193924",
+      "33526991",
+      "41551463",
+      "31969776",
+      "39604874",
+      "34675301",
+      "38491801",
+      "40411577",
+      "41031266",
+      "40442365",
+      "34763648",
+      "39221762",
+      "40594370",
+      "41972161",
+      "40247837",
+      "34175739",
+      "41360513",
+      "39353384",
+      "39624133",
+      "39115042",
+      "37178414",
+      "37807645",
+      "34112092",
+      "40496561",
+      "40760614",
+      "41208974",
+      "40597935",
+      "39810215",
+      "34054840",
+      "34059019",
+      "33612391",
+      "33378744",
+      "38890248",
+      "34212052",
+      "37333810",
+      "37098532"
+    ],
+    "review": [
+      "41038084"
+    ],
+    "pmc": [
+      "12514356"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-9776(25)00605-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41038084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0960-9776(25)00605-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

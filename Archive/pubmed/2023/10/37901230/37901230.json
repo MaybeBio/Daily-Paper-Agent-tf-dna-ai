@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "37901230",
+    "doi": "10.3389/fimmu.2023.1126103",
+    "title": "Identification of MARK2, CCDC71, GATA2, and KLRC3 as candidate diagnostic genes and potential therapeutic targets for repeated implantation failure with antiphospholipid syndrome by integrated bioinformatics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Antiphospholipid syndrome (APS) is a group of clinical syndromes of thrombosis or adverse pregnancy outcomes caused by antiphospholipid antibodies, which increase the incidence of in vitro fertilization failure in patients with infertility. However, the common mechanism of repeated implantation failure (RIF) with APS is unclear. This study aimed to search for potential diagnostic genes and potential therapeutic targets for RIF with APS. METHODS: To obtain differentially expressed genes (DEGs), we downloaded the APS and RIF datasets separately from the public Gene Expression Omnibus database and performed differential expression analysis. We then identified the common DEGs of APS and RIF. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses were performed, and we then generated protein-protein interaction. Furthermore, immune infiltration was investigated by using the CIBERSORT algorithm on the APS and RIF datasets. LASSO regression analysis was used to screen for candidate diagnostic genes. To evaluate the diagnostic value, we developed a nomogram and validated it with receiver operating characteristic curves, then analyzed these genes in the Comparative Toxicogenomics Database. Finally, the Drug Gene Interaction Database was searched for potential therapeutic drugs, and the interactions between drugs, genes, and immune cells were depicted with a Sankey diagram. RESULTS: There were 11 common DEGs identified: four downregulated and seven upregulated. The common DEG analysis suggested that an imbalance of immune system-related cells and molecules may be a common feature in the pathophysiology of APS and RIF. Following validation, MARK2, CCDC71, GATA2, and KLRC3 were identified as candidate diagnostic genes. Finally, Acetaminophen and Fasudil were predicted as two candidate drugs. CONCLUSION: Four immune-associated candidate diagnostic genes (MARK2, CCDC71, GATA2, and KLRC3) were identified, and a nomogram for RIF with APS diagnosis was developed. Our findings may aid in the investigation of potential biological mechanisms linking APS and RIF, as well as potential targets for diagnosis and treatment.",
+    "keywords": [
+      "anti-phospholipid syndrome",
+      "bioinformatics analyses",
+      "immune infiltration",
+      "machine learning",
+      "nomogram",
+      "repeated implantation failure"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Pregnancy",
+      "Humans",
+      "*Antiphospholipid Syndrome/diagnosis/drug therapy/genetics",
+      "Antibodies, Antiphospholipid",
+      "Machine Learning",
+      "Acetaminophen",
+      "Computational Biology",
+      "Protein Serine-Threonine Kinases",
+      "GATA2 Transcription Factor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Manli",
+        "Ge, Ting",
+        "Zhang, Yunian",
+        "La, Xiaolin"
+      ],
+      "short_names": [
+        "Zhang M",
+        "Ge T",
+        "Zhang Y",
+        "La X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+        "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+        "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+        "Basic Medical College of Xinjiang Medical University, Urumqi, China.",
+        "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+        "State Key Laboratory of Pathogenesis, Prevention, and Treatment of High Incidence Diseases in Central Asia, Xinjiang Medical University, Urumqi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Manli",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Ting",
+        "short_name": "Ge T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunian",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+          "Basic Medical College of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "La, Xiaolin",
+        "short_name": "La X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Reproductive Medicine, First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+          "State Key Laboratory of Pathogenesis, Prevention, and Treatment of High Incidence Diseases in Central Asia, Xinjiang Medical University, Urumqi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/30 06:46",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "41381766",
+      "40312440"
+    ],
+    "refs": [
+      "36389763",
+      "35958546",
+      "35929523",
+      "35862146",
+      "35758607",
+      "35662192",
+      "35654248",
+      "35452853",
+      "34149999",
+      "33796523",
+      "33779714",
+      "33639933",
+      "33632509",
+      "33237278",
+      "33151290",
+      "33068428",
+      "32977580",
+      "32950746",
+      "32892443",
+      "32741616",
+      "32335672",
+      "32190685",
+      "32120158",
+      "31921619",
+      "30963715",
+      "30779332",
+      "30635356",
+      "30476243",
+      "30458798",
+      "30395331",
+      "30309273",
+      "30081718",
+      "29912392",
+      "29894515",
+      "29785960",
+      "29269216",
+      "28931754",
+      "28804584",
+      "28476486",
+      "28396819",
+      "28193831",
+      "28179282",
+      "27865124",
+      "27780851",
+      "27641066",
+      "27395067",
+      "26254283",
+      "25907033",
+      "25822800",
+      "25613900",
+      "25605792",
+      "24964397",
+      "24618261",
+      "24603652",
+      "24269084",
+      "23193258",
+      "22476030",
+      "22455463",
+      "22221012",
+      "22025212",
+      "21414208",
+      "19469047",
+      "19114008",
+      "17894010",
+      "17372192",
+      "17156189",
+      "16543408",
+      "14597658",
+      "11287624",
+      "11021798",
+      "10592173",
+      "10491259"
+    ],
+    "similar": [
+      "37901230",
+      "36776897",
+      "36131919",
+      "38867322",
+      "35865542",
+      "35719392",
+      "38544384",
+      "36699469",
+      "35812749",
+      "37732314",
+      "35278479",
+      "36241659",
+      "39400935",
+      "38371524",
+      "35280428",
+      "37361541",
+      "38428097",
+      "36704339",
+      "39074893",
+      "35911963",
+      "36685898",
+      "36823662",
+      "38034382",
+      "37261354",
+      "35929523",
+      "37359526",
+      "35958412",
+      "37138862",
+      "36341343",
+      "37264340",
+      "35197930",
+      "35958546",
+      "38291374",
+      "37322958",
+      "36860851",
+      "37878219",
+      "29355608",
+      "33664765",
+      "38028617",
+      "33397492",
+      "36911409",
+      "35713363",
+      "33437215",
+      "28028299",
+      "30217394",
+      "36470144",
+      "38645867",
+      "38333413",
+      "39058876",
+      "35341274",
+      "37582718",
+      "36860337",
+      "37008314",
+      "31673979",
+      "36225941",
+      "25253571",
+      "34452895",
+      "37465678",
+      "37259023",
+      "38571624",
+      "35690246",
+      "39345724",
+      "29845250",
+      "37090698",
+      "37974210",
+      "36671424",
+      "33598484",
+      "38169604",
+      "37325631",
+      "36589450",
+      "29257295",
+      "38645487",
+      "34233597",
+      "37075605",
+      "38274270",
+      "37351719",
+      "37122726",
+      "31040845",
+      "38509535",
+      "29067844",
+      "36524127",
+      "26637701",
+      "37971162",
+      "37635936",
+      "38020614",
+      "25318976",
+      "37860165",
+      "37335681",
+      "37622114",
+      "38510272",
+      "38303405",
+      "36928879",
+      "37250717",
+      "34218797",
+      "35996248",
+      "36506310",
+      "33333988",
+      "37822923",
+      "35147192",
+      "39225907",
+      "38655308",
+      "39221860",
+      "38268925"
+    ],
+    "review": [
+      "37901230",
+      "29355608",
+      "28028299",
+      "30217394",
+      "35690246",
+      "31040845",
+      "26637701",
+      "36928879"
+    ],
+    "pmc": [
+      "10603295"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37901230/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37901230",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1296",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1126103",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

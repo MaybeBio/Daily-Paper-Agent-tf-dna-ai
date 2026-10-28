@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "41877244",
+    "doi": "10.1186/s13148-026-02105-0",
+    "title": "The 12 o'clock assay: an optimized dodecaplex droplet digital PCR assay for robust DNA methylation quantification and epigenetic clock-based age-predictions."
+  },
+  "content": {
+    "abstract": "DNA methylation quantification in age-prediction models relies on only a few techniques with inherent limitations and biases, reducing the accuracy and reproducibility. We developed a new droplet digital PCR assay format for accurate DNA methylation quantification, based on three LNA-containing hydrolysis probes to detect methylated and unmethylated alleles. Using a 12-plex assay we simultaneously quantified methylation at six CpGs (ASPA, C1orf132, CCDC102B, EDARADD, ELOVL2, FHL2) in 351 blood samples (age range: 0-95 years), showing strong correlations with age (|r|> 0.83). Several age-prediction models were developed, achieving high performance on testing sets (R(2): 0.933-0.973, MAE: 3.18-5.18, RMSE: 4.71-7.27).",
+    "keywords": [
+      "Age-prediction model",
+      "Biological age",
+      "DNA methylation",
+      "Epigenetic clock",
+      "Machine-learning",
+      "ddPCR"
+    ],
+    "mesh_terms": [
+      "*DNA Methylation/genetics",
+      "Humans",
+      "CpG Islands",
+      "Epigenesis, Genetic",
+      "*Polymerase Chain Reaction/methods",
+      "Reproducibility of Results",
+      "*Aging/genetics",
+      "Fatty Acid Elongases",
+      "Infant",
+      "LIM-Homeodomain Proteins/genetics",
+      "Amidohydrolases",
+      "Muscle Proteins",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hchaichi, Ilef",
+        "Garali, Imene",
+        "Popa, Alina-Madalina",
+        "Daunay, Antoine",
+        "Tessier, Nicolas P",
+        "Sahbatou, Mourad",
+        "Hardy, Lise M",
+        "Rampanou, Aurore",
+        "Blanche, Helene",
+        "Zagury, Jean-Francois",
+        "Touvier, Mathilde",
+        "Le Buanec, Helene",
+        "Renault, Shufang",
+        "Girerd, Nicolas",
+        "Deleuze, Jean-Francois",
+        "How-Kit, Alexandre"
+      ],
+      "short_names": [
+        "Hchaichi I",
+        "Garali I",
+        "Popa AM",
+        "Daunay A",
+        "Tessier NP",
+        "Sahbatou M",
+        "Hardy LM",
+        "Rampanou A",
+        "Blanche H",
+        "Zagury JF",
+        "Touvier M",
+        "Le Buanec H",
+        "Renault S",
+        "Girerd N",
+        "Deleuze JF",
+        "How-Kit A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+        "PSE-SANTE/SERAMED/LRAcc, Autorite de Surete Nucleaire et de Radioprotection (ASNR), 92260, Fontenay-Aux-Roses, France.",
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+        "Laboratory for Bioinformatics, Foundation Jean Dausset - CEPH, Paris, France.",
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+        "Circulating Tumor Biomarkers Laboratory, Inserm CIC-BT 1428, Department of Translational Research, Institut Curie, Paris, France.",
+        "CEPH-Biobank, Foundation Jean Dausset - CEPH, Paris, France.",
+        "Equipe Genomique, Bioinformatique et Chimie Moleculaire (EA 7528), Conservatoire National des Arts et Metiers, Paris, France.",
+        "INSERM, INRAE, CNAM, Centre for Research in Epidemiology and StatisticS (CRESS), Nutritional Epidemiology Research Team (EREN), Universite Sorbonne Paris Nord and Universite Paris Cite, 93017, Bobigny, France.",
+        "INSERM U976 - HIPI Unit, Saint-Louis Research Institute, University of Paris, Paris, France.",
+        "Circulating Tumor Biomarkers Laboratory, Inserm CIC-BT 1428, Department of Translational Research, Institut Curie, Paris, France.",
+        "Centre d'Investigation Clinique Plurithematique 1433 and Inserm U1116, CHRU Nancy, F-CRIN INI-CRCT (Cardiovascular and Renal Clinical Trialists), Universite de Lorraine, Nancy, France.",
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+        "Laboratory for Bioinformatics, Foundation Jean Dausset - CEPH, Paris, France.",
+        "CEPH-Biobank, Foundation Jean Dausset - CEPH, Paris, France.",
+        "Centre National de Recherche en Genomique Humaine, CEA, Institut Francois Jacob, Evry, France.",
+        "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France. ahowkit@cephb.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hchaichi, Ilef",
+        "short_name": "Hchaichi I",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Garali, Imène",
+        "short_name": "Garali I",
+        "identifiers": [],
+        "affiliations": [
+          "PSE-SANTE/SERAMED/LRAcc, Autorité de Sûreté Nucléaire et de Radioprotection (ASNR), 92260, Fontenay-Aux-Roses, France."
+        ]
+      },
+      {
+        "full_name": "Popa, Alina-Madalina",
+        "short_name": "Popa AM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Daunay, Antoine",
+        "short_name": "Daunay A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Tessier, Nicolas P",
+        "short_name": "Tessier NP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sahbatou, Mourad",
+        "short_name": "Sahbatou M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Bioinformatics, Foundation Jean Dausset - CEPH, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Hardy, Lise M",
+        "short_name": "Hardy LM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Rampanou, Aurore",
+        "short_name": "Rampanou A",
+        "identifiers": [],
+        "affiliations": [
+          "Circulating Tumor Biomarkers Laboratory, Inserm CIC-BT 1428, Department of Translational Research, Institut Curie, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Blanché, Hélène",
+        "short_name": "Blanché H",
+        "identifiers": [],
+        "affiliations": [
+          "CEPH-Biobank, Foundation Jean Dausset - CEPH, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Zagury, Jean-François",
+        "short_name": "Zagury JF",
+        "identifiers": [],
+        "affiliations": [
+          "Équipe Génomique, Bioinformatique et Chimie Moléculaire (EA 7528), Conservatoire National des Arts et Métiers, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Touvier, Mathilde",
+        "short_name": "Touvier M",
+        "identifiers": [],
+        "affiliations": [
+          "INSERM, INRAE, CNAM, Centre for Research in Epidemiology and StatisticS (CRESS), Nutritional Epidemiology Research Team (EREN), Université Sorbonne Paris Nord and Université Paris Cité, 93017, Bobigny, France."
+        ]
+      },
+      {
+        "full_name": "Le Buanec, Hélène",
+        "short_name": "Le Buanec H",
+        "identifiers": [],
+        "affiliations": [
+          "INSERM U976 - HIPI Unit, Saint-Louis Research Institute, University of Paris, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Renault, Shufang",
+        "short_name": "Renault S",
+        "identifiers": [],
+        "affiliations": [
+          "Circulating Tumor Biomarkers Laboratory, Inserm CIC-BT 1428, Department of Translational Research, Institut Curie, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Girerd, Nicolas",
+        "short_name": "Girerd N",
+        "identifiers": [],
+        "affiliations": [
+          "Centre d'Investigation Clinique Plurithématique 1433 and Inserm U1116, CHRU Nancy, F-CRIN INI-CRCT (Cardiovascular and Renal Clinical Trialists), Université de Lorraine, Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Deleuze, Jean-François",
+        "short_name": "Deleuze JF",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France.",
+          "Laboratory for Bioinformatics, Foundation Jean Dausset - CEPH, Paris, France.",
+          "CEPH-Biobank, Foundation Jean Dausset - CEPH, Paris, France.",
+          "Centre National de Recherche en Génomique Humaine, CEA, Institut François Jacob, Evry, France."
+        ]
+      },
+      {
+        "full_name": "How-Kit, Alexandre",
+        "short_name": "How-Kit A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Genomics, Foundation Jean Dausset - CEPH, 75010, Paris, France. ahowkit@cephb.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2026 Mar 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/25 07:09",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [
+      "42634044"
+    ],
+    "refs": [
+      "39806006",
+      "39023350",
+      "38459475",
+      "38301433",
+      "38181558",
+      "36202132",
+      "35131731",
+      "35029144",
+      "32973877",
+      "32973211",
+      "32580727",
+      "32055939",
+      "31222117",
+      "30243148",
+      "29643443",
+      "29484034",
+      "28946940",
+      "28448765",
+      "25437051",
+      "21398359"
+    ],
+    "similar": [
+      "41877244",
+      "38308398",
+      "41963974",
+      "39983295",
+      "41289662",
+      "32325350",
+      "32721866",
+      "33707346",
+      "40085291",
+      "30300865",
+      "38301433",
+      "32453457",
+      "28725932",
+      "31490551",
+      "39693839",
+      "28511095",
+      "40799162",
+      "35819508",
+      "32087494",
+      "37783021",
+      "32574993",
+      "39763091",
+      "35777225",
+      "35131731",
+      "38181558",
+      "26280308",
+      "39266801",
+      "32006895",
+      "32580727",
+      "27672102",
+      "31648151",
+      "36108573",
+      "42132297",
+      "39243524",
+      "33978960",
+      "41564517",
+      "33978258",
+      "33279766",
+      "32055939",
+      "40665390",
+      "34245337",
+      "23061750",
+      "28691915",
+      "42415175",
+      "32973211",
+      "29933125",
+      "39402823",
+      "36867979",
+      "37857127",
+      "28254385",
+      "33384442",
+      "39256256",
+      "36552808",
+      "42252362",
+      "35255733",
+      "37563670",
+      "41067661",
+      "30243148",
+      "38275209",
+      "40099741",
+      "39499149",
+      "36768576",
+      "28854399",
+      "38160598",
+      "24490752",
+      "27337627",
+      "37454509",
+      "28058013",
+      "34814096",
+      "40244262",
+      "35551445",
+      "40382887",
+      "28841467",
+      "34243735",
+      "20167086",
+      "30270726",
+      "37598451",
+      "28499412",
+      "26861258",
+      "27835646",
+      "26186366",
+      "36057238",
+      "41351063",
+      "15353561",
+      "37690595",
+      "29848354",
+      "33826720",
+      "30142075",
+      "35489615",
+      "42090007",
+      "29172065",
+      "31409373",
+      "33933877",
+      "41874164",
+      "31156022",
+      "37116245",
+      "31897670",
+      "38674360",
+      "32219758",
+      "35141217"
+    ],
+    "review": [
+      "41877244",
+      "28691915",
+      "36768576"
+    ],
+    "pmc": [
+      "13134083"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-026-02105-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41877244/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

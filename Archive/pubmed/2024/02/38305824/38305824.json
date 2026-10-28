@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "38305824",
+    "doi": "10.1080/07391102.2024.2308772",
+    "title": "Computational exploration of FOXM1 inhibitors for glioblastoma: an integrated virtual screening and molecular dynamics simulation study."
+  },
+  "content": {
+    "abstract": "In this study, a comprehensive investigation of a set of phytochemicals to identify potential inhibitors for the Forkhead box protein M1 (FOXM1) was conducted. FOXM1 is overexpressed in glioblastoma (GBM) cells and plays a crucial role in cell cycle progression, proliferation, and invasion. FOXM1 inhibitors have shown promising results in preclinical studies, and ongoing clinical trials are assessing their efficacy in GBM patients. However, there are limited studies on the identification of novel compounds against this attractive therapeutic target. To address this, the NPACT database containing 1,574 phytochemicals was used, employing a hierarchical multistep docking approach, followed by an estimation of relative binding free energy. By fixing user-defined XP-dock and MM-GBSA cut-off scores of -6.096 and -37.881 kcal/mol, the chemical space was further narrowed. Through exhaustive analysis of molecular binding interactions and various pharmacokinetics profiles, we identified four compounds, namely NPACT00002, NPACT01454, NPACT00856, and NPACT01417, as potential FOXM1 inhibitors. To assess the stability of protein-ligand binding in dynamic conditions, 100 ns Molecular dynamics (MD) simulations studies were performed. Furthermore, Molecular mechanics with generalized Born and surface area solvation (MM-GBSA) based binding free energy estimations of the entire simulation trajectories revealed a strong binding affinity of all identified compounds towards FOXM1, surpassing that of the control drug Troglitazone. Based on extensively studied multistep docking approaches, we propose that these molecules hold promise as FOXM1 inhibitors for potential therapeutic applications in GBM. However, experimental validation will be necessary to confirm their efficacy as targeted therapies.",
+    "keywords": [
+      "FOXM1",
+      "GBM",
+      "MD simulation",
+      "MM-GBSA analysis",
+      "docking"
+    ],
+    "mesh_terms": [
+      "*Forkhead Box Protein M1/antagonists & inhibitors/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Glioblastoma/drug therapy/metabolism",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "Ligands",
+      "Thermodynamics",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Swati, Kumari",
+        "Varma, Sudhir Rama",
+        "Parameswari, R P",
+        "Panda, Siva Prasad",
+        "Agrawal, Mohit",
+        "Prakash, Anand",
+        "Kumar, Dhruv",
+        "Agarwal, Prasoon"
+      ],
+      "short_names": [
+        "Swati K",
+        "Varma SR",
+        "Parameswari RP",
+        "Panda SP",
+        "Agrawal M",
+        "Prakash A",
+        "Kumar D",
+        "Agarwal P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, School of Life Science, Mahatma Gandhi Central University, Motihari, Bihar, India.",
+        "Department of clinical sciences, Centre for Medical and Bioallied Health Sciences Research, Ajman university, Ajman, UAE.",
+        "Center for Global Health Research, Saveetha Medical College and Hospitals, Saveetha Institute of Medical and Technical Sciences, Saveetha University, Chennai, India.",
+        "Institute of Pharmaceutical Research, GLA University, Mathura, Uttar Pradesh, India.",
+        "School of Medical & Allied Sciences, K.R. Mangalam University, Gurugram, Haryana, India.",
+        "Department of Biotechnology, School of Life Science, Mahatma Gandhi Central University, Motihari, Bihar, India.",
+        "School of Health Sciences and Technology, UPES, Dehradun, Uttrakhand, India.",
+        "National Bioinformatics Infrastructure Sweden (NBIS), Science for Life Laboratory, Division of Occupational and Environmental Medicine, Department of Laboratory Medicine, Lund University, Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Swati, Kumari",
+        "short_name": "Swati K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Life Science, Mahatma Gandhi Central University, Motihari, Bihar, India."
+        ]
+      },
+      {
+        "full_name": "Varma, Sudhir Rama",
+        "short_name": "Varma SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of clinical sciences, Centre for Medical and Bioallied Health Sciences Research, Ajman university, Ajman, UAE."
+        ]
+      },
+      {
+        "full_name": "Parameswari, R P",
+        "short_name": "Parameswari RP",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Global Health Research, Saveetha Medical College and Hospitals, Saveetha Institute of Medical and Technical Sciences, Saveetha University, Chennai, India."
+        ]
+      },
+      {
+        "full_name": "Panda, Siva Prasad",
+        "short_name": "Panda SP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Research, GLA University, Mathura, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Agrawal, Mohit",
+        "short_name": "Agrawal M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical & Allied Sciences, K.R. Mangalam University, Gurugram, Haryana, India."
+        ]
+      },
+      {
+        "full_name": "Prakash, Anand",
+        "short_name": "Prakash A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Life Science, Mahatma Gandhi Central University, Motihari, Bihar, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Dhruv",
+        "short_name": "Kumar D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Health Sciences and Technology, UPES, Dehradun, Uttrakhand, India."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Prasoon",
+        "short_name": "Agarwal P",
+        "identifiers": [],
+        "affiliations": [
+          "National Bioinformatics Infrastructure Sweden (NBIS), Science for Life Laboratory, Division of Occupational and Environmental Medicine, Department of Laboratory Medicine, Lund University, Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/02 12:42",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "42488190",
+      "41923217",
+      "39974370"
+    ],
+    "refs": [],
+    "similar": [
+      "38305824",
+      "33844135",
+      "34809496",
+      "39318080",
+      "38918225",
+      "40412223",
+      "41084624",
+      "38756075",
+      "39868843",
+      "37120484",
+      "41187366",
+      "29414039",
+      "38084766",
+      "39636243",
+      "37904331",
+      "28524659",
+      "37394802",
+      "40973684",
+      "40114577",
+      "40117728",
+      "37897189",
+      "29064326",
+      "27764801",
+      "39115579",
+      "40659725",
+      "38498355",
+      "40725039",
+      "30557817",
+      "39755244",
+      "40307235",
+      "38501198",
+      "27923917",
+      "29182053",
+      "40737296",
+      "30928871",
+      "29334340",
+      "39560899",
+      "39075025",
+      "30052133",
+      "38356145",
+      "37747672",
+      "40865153",
+      "33402049",
+      "37975405",
+      "39443392",
+      "39455591",
+      "39262267",
+      "37695635",
+      "40616975",
+      "38109128",
+      "22977194",
+      "41034330",
+      "36990409",
+      "38165647",
+      "31322278",
+      "39698883",
+      "33871770",
+      "41337159",
+      "41045314",
+      "40033499",
+      "40593894",
+      "40505324",
+      "39639531",
+      "37715109",
+      "37811742",
+      "39368576",
+      "41066396",
+      "35978012",
+      "41226144",
+      "36695102",
+      "39653633",
+      "40007185",
+      "40939396",
+      "39101505",
+      "39613993",
+      "40229331",
+      "30504089",
+      "37061929",
+      "33069434",
+      "40239488",
+      "38064307",
+      "41097339",
+      "41120520",
+      "28852971",
+      "39298437",
+      "39488933",
+      "34592225",
+      "27881238",
+      "35758564",
+      "32060998",
+      "34602556",
+      "39277626",
+      "28899970",
+      "41001798",
+      "36944292",
+      "39488559",
+      "34509862",
+      "35032738",
+      "31656981",
+      "40032774"
+    ],
+    "review": [
+      "38305824"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2308772?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2308772",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

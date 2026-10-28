@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "35687995",
+    "doi": "10.1016/j.cmpb.2022.106934",
+    "title": "Considering population variability of electrophysiological models improves the in silico assessment of drug-induced torsadogenic risk."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: In silico tools are known to aid in drug cardiotoxicity assessment. However, computational models do not usually consider electrophysiological variability, which may be crucial when predicting rare adverse events such as drug-induced Torsade de Pointes (TdP). In addition, classification tools are usually binary and are not validated using an external data set. Here we analyze the role of incorporating electrophysiological variability in the prediction of drug-induced arrhythmogenic-risk, using a ternary classification and two external validation datasets. METHODS: The effects of the 12 training CiPA drugs were simulated at three different concentrations using a single baseline model and an electrophysiologically calibrated population of models. 9 biomarkers related with action potential (AP), calcium dynamics and net charge were measured for each simulated concentration. These biomarkers were used to build ternary classifiers based on Support Vector Machines (SVM) methodology. Classifiers were validated using two external drug sets: the 16 validation CiPA drugs and 81 drugs from CredibleMeds database. RESULTS: Population of models allowed to obtain different AP responses under the same pharmacological intervention and improve the prediction of drug-induced TdP with respect to the baseline model. The classification tools based on population of models achieve an accuracy higher than 0.8 and a mean classification error (MCE) lower than 0.3 for both validation drug sets and for the two electrophysiological action potential models studied (Tomek et al. 2020 and a modified version of O'Hara et al. 2011). In addition, simulations with population of models allowed the identification of individuals with lower conductances of I(Kr), I(Ks), and I(NaK) and higher conductances of I(CaL), I(NaL), and I(NCX), which are more prone to develop TdP. CONCLUSIONS: The methodology presented here provides new opportunities to assess drug-induced TdP-risk, taking into account electrophysiological variability and may be helpful to improve current cardiac safety screening methods.",
+    "keywords": [
+      "Cardiac safety",
+      "In-silico",
+      "Population of models",
+      "Proarrhythmic-risk",
+      "Torsade de Pointes"
+    ],
+    "mesh_terms": [
+      "Arrhythmias, Cardiac/chemically induced",
+      "Biomarkers",
+      "DNA-Binding Proteins",
+      "Electrophysiological Phenomena",
+      "Humans",
+      "Risk Assessment",
+      "*Torsades de Pointes/chemically induced"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Llopis-Lorente, Jordi",
+        "Trenor, Beatriz",
+        "Saiz, Javier"
+      ],
+      "short_names": [
+        "Llopis-Lorente J",
+        "Trenor B",
+        "Saiz J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, Valencia 46022, Spain.",
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, Valencia 46022, Spain.",
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, Valencia 46022, Spain. Electronic address: jsaiz@ci2b.upv.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Llopis-Lorente, Jordi",
+        "short_name": "Llopis-Lorente J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, Valencia 46022, Spain."
+        ]
+      },
+      {
+        "full_name": "Trenor, Beatriz",
+        "short_name": "Trenor B",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, Valencia 46022, Spain."
+        ]
+      },
+      {
+        "full_name": "Saiz, Javier",
+        "short_name": "Saiz J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, Valencia 46022, Spain. Electronic address: jsaiz@ci2b.upv.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computer methods and programs in biomedicine"
+    ],
+    "journal_abbrev": [
+      "Comput Methods Programs Biomed"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/11 06:00",
+    "fetched_at": "2026-09-28 09:30:15"
+  },
+  "links": {
+    "cites": [
+      "41971947",
+      "41953861",
+      "40831223",
+      "40608827",
+      "40405016",
+      "40166463",
+      "37528229",
+      "36589462",
+      "36354539",
+      "36278026"
+    ],
+    "refs": [],
+    "similar": [
+      "35687995",
+      "32786710",
+      "37844488",
+      "30580044",
+      "35150662",
+      "28202629",
+      "29297274",
+      "36277213",
+      "33772748",
+      "28878692",
+      "23337247",
+      "36589462",
+      "31730936",
+      "15975832",
+      "20005885",
+      "32768644",
+      "29209226",
+      "39402077",
+      "37860622",
+      "36807374",
+      "33283267",
+      "38974343",
+      "28756335",
+      "38638275",
+      "28928044",
+      "31764978",
+      "23537164",
+      "37649890",
+      "27956204",
+      "35579100",
+      "30912807",
+      "15778734",
+      "20329805",
+      "27524478",
+      "31398384",
+      "18516075",
+      "11166738",
+      "18423604",
+      "26950176",
+      "18552873",
+      "15655517",
+      "15544470",
+      "28408211",
+      "24887684",
+      "12667944",
+      "29547274",
+      "31636019",
+      "37078300",
+      "15172013",
+      "36588805",
+      "23696033",
+      "29184497",
+      "28955244",
+      "27813448",
+      "16979017",
+      "39185761",
+      "20451633",
+      "27282640",
+      "28868038",
+      "17965747",
+      "14976348",
+      "32055576",
+      "12197602",
+      "30415824",
+      "20462510",
+      "28202194",
+      "14654302",
+      "15534790",
+      "26930604",
+      "11723026",
+      "29541956",
+      "18648775",
+      "24118558",
+      "11916532",
+      "28335691",
+      "29555184",
+      "23103500",
+      "8067651",
+      "20698854",
+      "30826123",
+      "27184445",
+      "33141610",
+      "17125188",
+      "18635251",
+      "31079148",
+      "12235254",
+      "24399724",
+      "27060526",
+      "26117837",
+      "35771997",
+      "26091641",
+      "15720777",
+      "29720397",
+      "32082155",
+      "11336111",
+      "31319140",
+      "27701120",
+      "26170255",
+      "16289936",
+      "32360993",
+      "16253927",
+      "27282641",
+      "36156439",
+      "29995258",
+      "28213055",
+      "16714061",
+      "7727055",
+      "33544870",
+      "31271649",
+      "29354071",
+      "32548538",
+      "39332120",
+      "36830942",
+      "31680938",
+      "37528229",
+      "36689808",
+      "38888177",
+      "31709525",
+      "29423349"
+    ],
+    "review": [
+      "35687995",
+      "37844488",
+      "15975832",
+      "20005885",
+      "20329805",
+      "18516075",
+      "18423604",
+      "18552873",
+      "15544470",
+      "28408211",
+      "12667944",
+      "15172013",
+      "32055576",
+      "30415824",
+      "20462510",
+      "14654302",
+      "15534790",
+      "11916532",
+      "8067651",
+      "18635251",
+      "15720777",
+      "26170255",
+      "16289936",
+      "16253927",
+      "16714061",
+      "7727055"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169-2607(22)00316-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://riunet.upv.es/handle/10251/192412",
+        "provider": "RiuNet Universitat Politecnica de Valencia",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-910",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0169-2607(22)00316-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "39016438",
+    "doi": "10.1111/acel.14275",
+    "title": "Macrophage iron dyshomeostasis promotes aging-related renal fibrosis."
+  },
+  "content": {
+    "abstract": "Renal aging, marked by the accumulation of senescent cells and chronic low-grade inflammation, leads to renal interstitial fibrosis and impaired function. In this study, we investigate the role of macrophages, a key regulator of inflammation, in renal aging by analyzing kidney single-cell RNA sequencing data of C57BL/6J mice from 8 weeks to 24 months. Our findings elucidate the dynamic changes in the proportion of kidney cell types during renal aging and reveal that increased macrophage infiltration contributes to chronic low-grade inflammation, with these macrophages exhibiting senescence and activation of ferroptosis signaling. CellChat analysis indicates enhanced communications between macrophages and tubular cells during aging. Suppressing ferroptosis alleviates macrophage-mediated tubular partial epithelial-mesenchymal transition in vitro, thereby mitigating the expression of fibrosis-related genes. Using SCENIC analysis, we infer Stat1 as a key age-related transcription factor promoting iron dyshomeostasis and ferroptosis in macrophages by regulating the expression of Pcbp1, an iron chaperone protein that inhibits ferroptosis. Furthermore, through virtual screening and molecular docking from a library of anti-aging compounds, we construct a docking model targeting Pcbp1, which indicates that the natural small molecule compound Rutin can suppress macrophage senescence and ferroptosis by preserving Pcbp1. In summary, our study underscores the crucial role of macrophage iron dyshomeostasis and ferroptosis in renal aging. Our results also suggest Pcbp1 as an intervention target in aging-related renal fibrosis and highlight Rutin as a potential therapeutic agent in mitigating age-related renal chronic low-grade inflammation and fibrosis.",
+    "keywords": [
+      "aging-related renal fibrosis",
+      "ferroptosis",
+      "iron dyshomeostasis",
+      "macrophage",
+      "pcbp1",
+      "rutin",
+      "single-cell RNA sequencing data",
+      "stat1"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Macrophages/metabolism",
+      "*Fibrosis/metabolism",
+      "Mice",
+      "*Aging/metabolism",
+      "*Mice, Inbred C57BL",
+      "*Iron/metabolism",
+      "Male",
+      "Kidney/metabolism/pathology",
+      "Ferroptosis/drug effects",
+      "Homeostasis",
+      "Kidney Diseases/metabolism/pathology",
+      "Humans",
+      "Cellular Senescence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Lingzhi",
+        "Lin, Hongchun",
+        "Li, Shaomin",
+        "Huang, Yuebo",
+        "Sun, Yuxiang",
+        "Shu, Shuangshuang",
+        "Luo, Ting",
+        "Liang, Tiantian",
+        "Lai, Weiyan",
+        "Rao, Jialing",
+        "Hu, Zhaoyong",
+        "Peng, Hui"
+      ],
+      "short_names": [
+        "Wu L",
+        "Lin H",
+        "Li S",
+        "Huang Y",
+        "Sun Y",
+        "Shu S",
+        "Luo T",
+        "Liang T",
+        "Lai W",
+        "Rao J",
+        "Hu Z",
+        "Peng H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0219-2056",
+        "ORCID: 0000-0002-0220-3616"
+      ],
+      "affiliations": [
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Nephrology Division, Department of Medicine, Baylor College of Medicine, Houston, TX, USA.",
+        "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "NHC Key Laboratory of Clinical Nephrology (Sun Yat-sen University) and Guangdong Provincial Key Laboratory of Nephrology, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Lingzhi",
+        "short_name": "Wu L",
+        "identifiers": [
+          "0000-0002-0219-2056"
+        ],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Hongchun",
+        "short_name": "Lin H",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shaomin",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuebo",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuxiang",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Shuangshuang",
+        "short_name": "Shu S",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ting",
+        "short_name": "Luo T",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Tiantian",
+        "short_name": "Liang T",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Weiyan",
+        "short_name": "Lai W",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Rao, Jialing",
+        "short_name": "Rao J",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhaoyong",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Peng, Hui",
+        "short_name": "Peng H",
+        "identifiers": [
+          "0000-0002-0220-3616"
+        ],
+        "affiliations": [
+          "Nephrology Division, Department of Medicine, the Third Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+          "NHC Key Laboratory of Clinical Nephrology (Sun Yat-sen University) and Guangdong Provincial Key Laboratory of Nephrology, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging cell"
+    ],
+    "journal_abbrev": [
+      "Aging Cell"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/17 12:44",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42663285",
+      "42500891",
+      "42386771",
+      "42193904",
+      "42175992",
+      "42159442",
+      "42072674",
+      "41890735",
+      "41878162",
+      "41869015",
+      "41799958",
+      "41789675",
+      "41683973",
+      "41603194",
+      "41480525",
+      "41459510",
+      "41394809",
+      "41311841",
+      "41190935",
+      "41098076",
+      "41087554",
+      "41063988",
+      "41050663",
+      "41039585",
+      "40903939",
+      "40718783",
+      "40593989",
+      "40509402",
+      "40144669",
+      "40092979",
+      "40001138",
+      "39781471",
+      "39769044",
+      "39327570"
+    ],
+    "refs": [
+      "38378001",
+      "38097808",
+      "37777550",
+      "37681451",
+      "37532932",
+      "37291105",
+      "37286044",
+      "37282615",
+      "37058900",
+      "37056921",
+      "36774842",
+      "36719185",
+      "36329217",
+      "35929025",
+      "35449370",
+      "35281989",
+      "35166234",
+      "35159168",
+      "34767974",
+      "34736120",
+      "34677723",
+      "34414658",
+      "33762572",
+      "33555034",
+      "33473210",
+      "33058407",
+      "32835891",
+      "32438524",
+      "32275865",
+      "31477915",
+      "30626541",
+      "30321701",
+      "30283141",
+      "29989329",
+      "29440280",
+      "28729036",
+      "28721272",
+      "27568549",
+      "26804783",
+      "26236989",
+      "25552600",
+      "23000098",
+      "21317534",
+      "20665377",
+      "18511687",
+      "14645718",
+      "9275217"
+    ],
+    "similar": [
+      "39016438",
+      "40036248",
+      "41652029",
+      "41425591",
+      "40233506",
+      "41148161",
+      "36334846",
+      "39183565",
+      "38487990",
+      "40769945",
+      "30403164",
+      "40541121",
+      "40348745",
+      "40744957",
+      "38776855",
+      "39893308",
+      "32209589",
+      "39975560",
+      "40967566",
+      "40016517",
+      "39764683",
+      "38789496",
+      "39934851",
+      "29644573",
+      "38687090",
+      "41619559",
+      "40322965",
+      "40754121",
+      "41359112",
+      "41065914",
+      "40013149",
+      "40059694",
+      "39488871",
+      "39794717",
+      "40885212",
+      "39909592",
+      "40311989",
+      "28099916",
+      "23358111",
+      "38987851",
+      "39947365",
+      "40983151",
+      "40789503",
+      "34511597",
+      "40412608",
+      "34318888",
+      "40329437",
+      "39878685",
+      "38662165",
+      "41390419",
+      "40066086",
+      "41490187",
+      "36586573",
+      "34512669",
+      "31281526",
+      "39151883",
+      "41269672",
+      "39575578",
+      "38086848",
+      "39532264",
+      "39340991",
+      "39167848",
+      "39053876",
+      "35182235",
+      "39547099",
+      "41387185",
+      "39549542",
+      "41454590",
+      "41265624",
+      "38812032",
+      "40305351",
+      "38660893",
+      "40097066",
+      "37696989",
+      "39781471",
+      "40080642",
+      "39437857",
+      "40908548",
+      "30993884",
+      "39975561",
+      "40907328",
+      "39661589",
+      "40359755",
+      "28209809",
+      "41534778",
+      "37236026",
+      "31846625",
+      "40424084",
+      "29440280",
+      "41878126",
+      "22257277",
+      "25820160",
+      "37891461",
+      "41564845",
+      "35290903",
+      "40293508",
+      "41448263",
+      "36432138",
+      "39067165",
+      "39349116"
+    ],
+    "review": [
+      "39016438",
+      "41425591",
+      "40329437",
+      "41454590",
+      "39781471"
+    ],
+    "pmc": [
+      "11561705"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/iron.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Iron"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39016438/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.14275",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

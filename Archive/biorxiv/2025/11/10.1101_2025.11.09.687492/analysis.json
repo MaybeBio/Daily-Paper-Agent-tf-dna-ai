@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.09.687492",
+  "title": "Clustering of Direct and Indirect DNA Binding Motifs of Human and Mouse Transcription Factors: X-TFBS Compendium from ChIP-seq",
+  "authors": "Alexei A. Sharov",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-11",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过ChIP-seq数据聚类人类和小鼠转录因子的直接与间接DNA结合基序，构建X-TFBS数据库，虽聚焦TF-DNA结合位点但主要基于序列统计聚类，缺乏三维互作建模或AI/物理模拟方法，属于广义TF-DNA基序分析，对本课题有参考价值但深度不足。",
+  "abstract": "Uncovering networks of gene expression regulation requires knowledge of specific DNA-binding motifs of transcription factors (TFs). Most TFs have multiple DNA motifs enriched in its ChIP-seq peak regions because of protein interaction and spatial correlation between TFs and cofactors. To capture both direct binding and indirect association of TFs with specific DNA locations, all-against-all relations are identified here between TFs and DNA-binding motifs by the reanalysis of 8027 human and 2820 mouse ChIP-seq experiments from GEO. DNA motifs were analyzed with CisFinder and then clustered using the new k-mean algorithm tailored for this kind of data. Additional clusters of motifs were found by filtering ChIP-seq peaks based on their location in promoters, enhancers, and repeat-depleted regions. The new X-TFBS compendium, which includes 1157 human and 536 mouse clusters bound by 459 orthologous human-mouse pairs of TFs, 1038 human-only, and 165 mouse-only TFs, is the largest among existing databases. Most orthologous TFs in human and mouse have nearly identical DNA-binding motifs. Clustering helps to annotate TF-binding motifs and evaluate interactions between TFs that are associated with the same motif. Visual comparison of large sets of DNA motifs is simplified by using sequence script instead of sequence logo.",
+  "abstract_zh": "解析基因表达调控网络需要了解转录因子（transcription factors, TFs）的特异性DNA结合基序。大多数TF在其ChIP-seq峰区域中富集多个DNA基序，这是由于TF与辅因子之间的蛋白质相互作用和空间相关性所致。为捕获TF与特定DNA位点的直接结合和间接关联，本研究通过对GEO中8027个人类和2820个小鼠ChIP-seq实验的重新分析，鉴定了TF与DNA结合基序之间的全对全关系。DNA基序使用CisFinder进行分析，然后使用针对此类数据定制的新k均值算法进行聚类。通过根据ChIP-seq峰在启动子、增强子和重复序列缺失区域中的位置进行过滤，发现了额外的基序聚类。新的X-TFBS数据库包含1157个人类和536个小鼠聚类，由459个直系同源人-鼠TF对、1038个仅人类TF和165个仅小鼠TF结合，是现有数据库中最大的。人类和小鼠中大多数直系同源TF具有几乎相同的DNA结合基序。聚类有助于注释TF结合基序并评估与同一基序相关的TF之间的相互作用。通过使用序列脚本而非序列标志，简化了对大型DNA基序集合的可视化比较。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.09.687492",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.09.687492",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.09.687492/index.html"
+}

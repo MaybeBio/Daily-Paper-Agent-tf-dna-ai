@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "42358997",
+    "doi": "10.3389/fimmu.2026.1711588",
+    "title": "Identification of potential biomarkers related to mannose metabolism in keloids: analysis of integrated bulk RNA-seq and scRNA-seq."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Keloid (KD) is a benign cutaneous fibrotic disorder characterized by excessive proliferation of dermal fibroblasts. Mannose plays a key role in cellular metabolism, yet its specific mechanism associated with KD remains unclear. Therefore, identifying mannose metabolism-related potential biomarkers and their regulatory mechanisms in KD is crucial. METHODS: Differentially expressed genes (DEGs) were identified between KD and control samples, and their intersection with mannose metabolism-related genes (MMRGs) was obtained to determine candidate genes. Feature genes underwent machine learning-based screening to identify characteristic genes, while potential biomarkers were determined through integrated analysis of gene expression profiles and Receiver Operating Characteristic (ROC) curve assessment. Subsequently, reverse transcription-quantitative polymerase chain reaction (RT-qPCR) methodology was employed to validate the expression patterns of these identified potential biomarkers. Subsequently, nomogram construction and enrichment analysis were conducted. Finally, key cells were identified through single-cell analysis, followed by performing cell communication, pseudotime, and transcription factor regulation analyses. RESULTS: A total of 1,372 DEGs were identified, from which two mannose metabolism-related potential biomarkers (MANBA and TMTC2) in KD were further screened out. RT-qPCR results confirmed that these two potential biomarkers were significantly upregulated in the KD group. The nomogram prediction model developed utilizing these potential biomarkers demonstrated favourable clinical prognostic capabilities. Pathway enrichment analysis revealed that both identified potential biomarkers exhibited significant co-enrichment patterns across various biological pathways, including cellular cycle regulation processes. Single-cell analysis results indicated that fibroblasts and keratinocytes played key roles in the progression of KD, and dynamic expression changes of MANBA and TMTC2 were observed during the differentiation of these two cell types. In fibroblast subtypes, the expression levels of transcription factors such as JUNB (+) were relatively high, while in keratinocyte subtypes, the expression level of FOSL1 (+) was relatively high. CONCLUSION: This study successfully identified two potential biomarkers (MANBA and TMTC2) and two key cell types (fibroblasts and keratinocytes), providing new insights into potential therapeutic strategies for KD.",
+    "keywords": [
+      "biomarkers",
+      "fibroblasts",
+      "keloid",
+      "keratinocytes",
+      "mannose metabolism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Keloid/metabolism/genetics",
+      "Biomarkers/metabolism",
+      "*Mannose/metabolism",
+      "Fibroblasts/metabolism",
+      "RNA-Seq",
+      "Gene Expression Profiling",
+      "Single-Cell Gene Expression Analysis",
+      "Transcriptome",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jiaoquan",
+        "Xiong, Xiaoyu",
+        "Liang, Bihua",
+        "Gong, Yeqing",
+        "Ma, Shaoyin",
+        "Zhou, Xin",
+        "Zhu, Huilan",
+        "Lin, Ling",
+        "Lin, Rihua"
+      ],
+      "short_names": [
+        "Chen J",
+        "Xiong X",
+        "Liang B",
+        "Gong Y",
+        "Ma S",
+        "Zhou X",
+        "Zhu H",
+        "Lin L",
+        "Lin R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China.",
+        "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jiaoquan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Xiaoyu",
+        "short_name": "Xiong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Bihua",
+        "short_name": "Liang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Yeqing",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Shaoyin",
+        "short_name": "Ma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xin",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Huilan",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Ling",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Rihua",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangzhou Dermatology Hospital, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 16:10",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40697649",
+      "40074706",
+      "39519131",
+      "38902737",
+      "38855330",
+      "38725059",
+      "38302728",
+      "37986676",
+      "37895153",
+      "37657682",
+      "37638981",
+      "37539055",
+      "37443338",
+      "37359526",
+      "37033989",
+      "37017425",
+      "36899815",
+      "36737104",
+      "36426870",
+      "36411063",
+      "36327873",
+      "36052657",
+      "35990663",
+      "35939698",
+      "35897697",
+      "35875070",
+      "35625564",
+      "35617912",
+      "35003102",
+      "34870556",
+      "34140509",
+      "33597522",
+      "33436046",
+      "33343575",
+      "33311467",
+      "32907876",
+      "32905614",
+      "32844039",
+      "32327715",
+      "31930613",
+      "30886116",
+      "30637588",
+      "29809274",
+      "28824171",
+      "28785263",
+      "28114287",
+      "28067426",
+      "27484727",
+      "27207943",
+      "27207585",
+      "25658916",
+      "25605792",
+      "24931670",
+      "24764305",
+      "24484194",
+      "24132163",
+      "24115022",
+      "23937229",
+      "23143333",
+      "23054143",
+      "22278288",
+      "21475822",
+      "21414208",
+      "17403195",
+      "15840658",
+      "15453837",
+      "15045512",
+      "10859528",
+      "4135963"
+    ],
+    "similar": [
+      "42358997",
+      "41685329",
+      "39923303",
+      "39014455",
+      "42263482",
+      "41780417",
+      "42292364",
+      "41905994",
+      "40276515",
+      "42391245",
+      "42024670",
+      "42059276",
+      "42579704",
+      "42025819",
+      "39647286",
+      "40629565",
+      "41706425",
+      "41766871",
+      "40598145",
+      "40532306",
+      "40124361",
+      "40589764",
+      "41031145",
+      "41459503",
+      "41388523",
+      "41297235",
+      "40153321",
+      "42568110",
+      "41436831",
+      "42471019",
+      "42254657",
+      "39896809",
+      "39874886",
+      "39317554",
+      "35709926",
+      "42106542",
+      "41221285",
+      "42530245",
+      "41601671",
+      "40370461",
+      "42223029",
+      "41986576",
+      "42469385",
+      "39917297",
+      "42412240",
+      "40914702",
+      "39364414",
+      "40972794",
+      "36439178",
+      "38664790",
+      "42516376",
+      "41088263",
+      "40102920",
+      "39704340",
+      "41291841",
+      "39762897",
+      "42327749",
+      "40742465",
+      "41035938",
+      "42416066",
+      "42112332",
+      "41350692",
+      "40211281",
+      "39555084",
+      "41065575",
+      "41913032",
+      "42136960",
+      "40630963",
+      "41663976",
+      "39216827",
+      "41246299",
+      "41857701",
+      "41591671",
+      "40745616",
+      "41098724",
+      "42040898",
+      "40205350",
+      "40764361",
+      "41588193",
+      "41345972",
+      "42220482",
+      "42487278",
+      "41739808",
+      "41619156",
+      "42387880",
+      "40374840",
+      "36479114",
+      "40330470",
+      "42502801",
+      "40362233",
+      "41201701",
+      "41019085",
+      "39182484",
+      "42475469",
+      "40918148",
+      "38515748",
+      "40097519",
+      "41957428",
+      "37650991",
+      "42565562"
+    ],
+    "review": [
+      "42358997"
+    ],
+    "pmc": [
+      "13290920"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42358997/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1711588",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

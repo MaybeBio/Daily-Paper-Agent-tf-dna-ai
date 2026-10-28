@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40251476",
+  "title": "GRLGRN: graph representation-based learning to infer gene regulatory networks from single-cell RNA-seq data.",
+  "authors": "Wang, Kai; Li, Yulong; Liu, Fei; Luan, Xiaoli; Wang, Xinglong; Zhou, Jingwen",
+  "journal": "BMC bioinformatics",
+  "published_date": "2025-04-19",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图Transformer从单细胞RNA-seq数据推断基因调控网络，虽涉及TF-靶基因关系，但主要基于表达数据做GRN推断，缺乏三维结构或结合机制建模，方法可迁移至TF-DNA互作预测。",
+  "abstract": "BACKGROUND: A gene regulatory network (GRN) is a graph-level representation that describes the regulatory relationships between transcription factors and target genes in cells. The reconstruction of GRNs can help investigate cellular dynamics, drug design, and metabolic systems, and the rapid development of single-cell RNA sequencing (scRNA-seq) technology provides important opportunities while posing significant challenges for reconstructing GRNs. A number of methods for inferring GRNs have been proposed in recent years based on traditional machine learning and deep learning algorithms. However, inferring the GRN from scRNA-seq data remains challenging owing to cellular heterogeneity, measurement noise, and data dropout. RESULTS: In this study, we propose a deep learning model called graph representational learning GRN (GRLGRN) to infer the latent regulatory dependencies between genes based on a prior GRN and data on the profiles of single-cell gene expressions. GRLGRN uses a graph transformer network to extract implicit links from the prior GRN, and encodes the features of genes by using both an adjacency matrix of implicit links and a matrix of the profile of gene expression. Moreover, it uses attention mechanisms to improve feature extraction, and feeds the refined gene embeddings into an output module to infer gene regulatory relationships. To evaluate the performance of GRLGRN, we compared it with prevalent models and performed ablation experiments on seven cell-line datasets with three ground-truth networks. The results showed that GRLGRN achieved the best predictions in AUROC and AUPRC on 78.6% and 80.9% of the datasets, and achieved an average improvement of 7.3% in AUROC and 30.7% in AUPRC. The interpretation discussion and the network visualization were conducted. CONCLUSIONS: The experimental results and case studies illustrate the considerable performance of GRLGRN in predicting gene interactions and provide interpretability for the prediction tasks, such as identifying hub genes in the network and uncovering implicit links.",
+  "abstract_zh": "背景：基因调控网络（GRN）是一种图级表示，描述了细胞中转录因子与靶基因之间的调控关系。重建GRN有助于研究细胞动态、药物设计和代谢系统，而单细胞RNA测序（scRNA-seq）技术的快速发展为重建GRN提供了重要机遇，同时也带来了重大挑战。近年来，基于传统机器学习和深度学习算法，已提出了多种推断GRN的方法。然而，由于细胞异质性、测量噪声和数据缺失，从scRNA-seq数据推断GRN仍然具有挑战性。结果：在本研究中，我们提出了一种名为图表示学习GRN（GRLGRN）的深度学习模型，基于先验GRN和单细胞基因表达谱数据，推断基因之间的潜在调控依赖关系。GRLGRN使用图变换器网络从先验GRN中提取隐式链接，并通过使用隐式链接的邻接矩阵和基因表达谱矩阵来编码基因特征。此外，它利用注意力机制改进特征提取，并将精炼后的基因嵌入输入到输出模块中，以推断基因调控关系。为评估GRLGRN的性能，我们将其与主流模型进行了比较，并在七个细胞系数据集上使用三个真实网络进行了消融实验。结果表明，GRLGRN在78.6%和80.9%的数据集上分别实现了AUROC和AUPRC的最佳预测，并在AUROC和AUPRC上平均提升了7.3%和30.7%。我们还进行了解释性讨论和网络可视化。结论：实验结果和案例研究展示了GRLGRN在预测基因相互作用方面的显著性能，并为预测任务提供了可解释性，例如识别网络中的枢纽基因和揭示隐式链接。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40251476/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40251476/",
+  "paper_page_path": "papers/pubmed/40251476/index.html"
+}

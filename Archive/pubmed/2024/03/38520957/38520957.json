@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "38520957",
+    "doi": "10.1016/j.saa.2024.124173",
+    "title": "Raman spectroscopy can recognize the KMT2A rearrangement as a distinct subtype of leukemia."
+  },
+  "content": {
+    "abstract": "Acute lymphoblastic leukemia (ALL) and acute myeloid leukemia (AML) are the two most common hematologic malignancies, challenging to treat and associated with high recurrence and mortality rates. This work aims to identify specific Raman biomarkers of ALL cells with the KMT2A gene rearrangement (KMT2A-r), representing a highly aggressive subtype of childhood leukemia with a poor prognosis. The proposed approach combines the sensitivity and specificity of Raman spectroscopy with machine learning and allows us to distinguish not only myelo- and lymphoblasts but also discriminate B-cell precursor (BCP) ALL with KMT2A-r from other blasts of BCP-ALL. We have found that KMT2A-r ALL cells fixed with 0.5% glutaraldehyde exhibit a unique spectroscopic profile that enables us to identify this subtype from other leukemias and normal cells. Therefore, a rapid and label-free method was developed to identify ALL blasts with KMT2A-r based on the ratio of the two Raman bands assigned to phenylalanine - 1040 and 1008 cm(-1). This is the first time that a particular group of leukemic cells has been identified in a label-free way. The identified biomarker can be used as a screening method in diagnostic laboratories or non-reference medical centers.",
+    "keywords": [
+      "Acute lymphoblastic leukemia",
+      "Chemometrics",
+      "Diagnostics",
+      "KMT2A",
+      "Raman imaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Myeloid-Lymphoid Leukemia Protein/genetics",
+      "Spectrum Analysis, Raman",
+      "*Leukemia, Myeloid, Acute/diagnosis/genetics/pathology",
+      "Biomarkers",
+      "Hematopoietic Stem Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leszczenko, Patrycja",
+        "Nowakowska, Anna M",
+        "Jakubowska, Justyna",
+        "Pastorczak, Agata",
+        "Zabczynska, Marta",
+        "Mlynarski, Wojciech",
+        "Baranska, Malgorzata",
+        "Ostrowska, Kinga",
+        "Majzner, Katarzyna"
+      ],
+      "short_names": [
+        "Leszczenko P",
+        "Nowakowska AM",
+        "Jakubowska J",
+        "Pastorczak A",
+        "Zabczynska M",
+        "Mlynarski W",
+        "Baranska M",
+        "Ostrowska K",
+        "Majzner K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland; Jagiellonian University, Doctoral School of Exact and Natural Sciences, Lojasiewicza 11, 30-348 Krakow, Poland. Electronic address: patrycja.leszczenko@doctoral.uj.edu.pl.",
+        "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland. Electronic address: anna.maria.nowakowska@uj.edu.pl.",
+        "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: justyna.magdalena.jakubowska@umed.lodz.pl.",
+        "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: agata.pastorczak@umed.lodz.pl.",
+        "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: marta.zabczynska@umed.lodz.pl.",
+        "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: wojciech.mlynarski@umed.lodz.pl.",
+        "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland; Jagiellonian University, Jagiellonian Centre for Experimental Therapeutics (JCET), Bobrzynskiego 14, 30-348 Krakow, Poland. Electronic address: m.baranska@uj.edu.pl.",
+        "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: kinga.ostrowska@umed.lodz.pl.",
+        "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland. Electronic address: katarzyna.b.majzner@uj.edu.pl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leszczenko, Patrycja",
+        "short_name": "Leszczenko P",
+        "identifiers": [],
+        "affiliations": [
+          "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland; Jagiellonian University, Doctoral School of Exact and Natural Sciences, Lojasiewicza 11, 30-348 Krakow, Poland. Electronic address: patrycja.leszczenko@doctoral.uj.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Nowakowska, Anna M",
+        "short_name": "Nowakowska AM",
+        "identifiers": [],
+        "affiliations": [
+          "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland. Electronic address: anna.maria.nowakowska@uj.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Jakubowska, Justyna",
+        "short_name": "Jakubowska J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: justyna.magdalena.jakubowska@umed.lodz.pl."
+        ]
+      },
+      {
+        "full_name": "Pastorczak, Agata",
+        "short_name": "Pastorczak A",
+        "identifiers": [],
+        "affiliations": [
+          "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: agata.pastorczak@umed.lodz.pl."
+        ]
+      },
+      {
+        "full_name": "Zabczynska, Marta",
+        "short_name": "Zabczynska M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: marta.zabczynska@umed.lodz.pl."
+        ]
+      },
+      {
+        "full_name": "Mlynarski, Wojciech",
+        "short_name": "Mlynarski W",
+        "identifiers": [],
+        "affiliations": [
+          "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: wojciech.mlynarski@umed.lodz.pl."
+        ]
+      },
+      {
+        "full_name": "Baranska, Malgorzata",
+        "short_name": "Baranska M",
+        "identifiers": [],
+        "affiliations": [
+          "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland; Jagiellonian University, Jagiellonian Centre for Experimental Therapeutics (JCET), Bobrzynskiego 14, 30-348 Krakow, Poland. Electronic address: m.baranska@uj.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Ostrowska, Kinga",
+        "short_name": "Ostrowska K",
+        "identifiers": [],
+        "affiliations": [
+          "Medical University of Lodz, Department of Pediatrics, Oncology, and Hematology, Sporna 36/50, 91-738 Lodz, Poland. Electronic address: kinga.ostrowska@umed.lodz.pl."
+        ]
+      },
+      {
+        "full_name": "Majzner, Katarzyna",
+        "short_name": "Majzner K",
+        "identifiers": [],
+        "affiliations": [
+          "Jagiellonian University, Faculty of Chemistry, Department of Chemical Physics, Gronostajowa 2, 30-387 Krakow, Poland. Electronic address: katarzyna.b.majzner@uj.edu.pl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy"
+    ],
+    "journal_abbrev": [
+      "Spectrochim Acta A Mol Biomol Spectrosc"
+    ],
+    "pub_date": "2024 Jun 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/24 00:42",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41650349",
+      "41246237",
+      "40340365",
+      "39386448"
+    ],
+    "refs": [],
+    "similar": [
+      "38520957",
+      "30143999",
+      "34864916",
+      "30707474",
+      "31707119",
+      "38775354",
+      "34048275",
+      "32196814",
+      "29567781",
+      "31867596",
+      "33419897",
+      "38099606",
+      "35288693",
+      "29155023",
+      "34384895",
+      "30624859",
+      "30869817",
+      "33712867",
+      "27282883",
+      "31698332",
+      "33749383",
+      "36715125",
+      "31515871",
+      "37891368",
+      "31425921",
+      "31894899",
+      "33469688",
+      "38270130",
+      "35688861",
+      "33020282",
+      "30974445",
+      "31919567",
+      "36358022",
+      "32992102",
+      "34551411",
+      "33542481",
+      "35467057",
+      "28332262",
+      "34383244",
+      "32437908",
+      "33135273",
+      "33555272",
+      "28535805",
+      "34966090",
+      "25892123",
+      "34500465",
+      "37019990",
+      "37595275",
+      "28595195",
+      "30203571",
+      "28871137",
+      "35044058",
+      "31558671",
+      "31161857",
+      "30616415",
+      "34964255",
+      "33078871",
+      "37807295",
+      "36892949",
+      "31671855",
+      "37478796",
+      "36525029",
+      "37266435",
+      "33847065",
+      "32006151",
+      "35301220",
+      "36441356",
+      "34995897",
+      "31241561",
+      "36774707",
+      "34237703",
+      "34324764",
+      "37494611",
+      "28108543",
+      "29720585",
+      "29605894",
+      "26556690",
+      "30107050",
+      "34236108",
+      "38049829",
+      "37221837",
+      "35356416",
+      "34148065",
+      "33216970",
+      "28476187",
+      "35734412",
+      "30701458",
+      "32134839",
+      "21176334",
+      "37100882",
+      "34349066",
+      "36309561",
+      "38823327",
+      "39390798",
+      "39207558",
+      "36894563"
+    ],
+    "review": [
+      "38520957",
+      "38775354",
+      "35288693",
+      "34383244",
+      "30616415",
+      "31671855",
+      "36441356",
+      "34324764"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1386-1425(24)00339-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      }
+    ],
+    "text_mined": []
+  }
+}

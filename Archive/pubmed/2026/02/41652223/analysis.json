@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41652223",
+  "title": "Single-round evolution of RNA aptamers with GRAPE-LM.",
+  "authors": "Zhang, Jun; Zhang, Ju; Tang, Shaoxuan; Liu, Chuancheng; Cai, Yushan; Zeng, Hao; Meng, Xiangjie; Liu, Bei; Zhang, Yang; Wang, Yu",
+  "journal": "Nature biotechnology",
+  "published_date": "2026-02-07",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用语言模型生成RNA适配体，虽涉及转录因子c-Myc靶标，但核心是RNA适配体进化而非TF-DNA互作建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "The directed evolution of biomolecules is an iterative process. Although advancements in language models have expedited protein evolution, effectively evolving RNA remains a challenge. RNA aptamers, selected for their binding properties, provide an ideal system to address this challenge, yet traditional aptamer discovery still relies on labor-intensive, multi-round screening. Here we introduce GRAPE-LM (generator of RNA aptamers powered by activity-guided evolution and language model), a generative artificial intelligence framework designed for the one-round evolution of RNA aptamers. GRAPE-LM integrates a transformer-based conditional autoencoder with nucleic acid language models and is guided by CRISPR-Cas-based aptamer screening data derived from intracellular environments. We validate GRAPE-LM on three disparate targets: the human T cell receptor CD3epsilon, the receptor-binding domain of the SARS-CoV-2 spike protein and the human oncogenic transcription factor c-Myc (an intracellular disordered protein). GRAPE-LM, informed with only a single round of CRISPR-Cas-based screening, successfully obtains RNA aptamers that outperform those driven from multiple rounds of human selection and optimization.",
+  "abstract_zh": "生物分子的定向进化是一个迭代过程。尽管语言模型的进步加速了蛋白质进化，但有效进化RNA仍是一个挑战。RNA适配体，因其结合特性而被筛选，为应对这一挑战提供了理想系统，然而传统适配体发现仍依赖于劳动密集型的多轮筛选。在此，我们介绍GRAPE-LM（由活性引导进化和语言模型驱动的RNA适配体生成器），这是一种专为RNA适配体单轮进化设计的生成式人工智能框架。GRAPE-LM整合了基于Transformer的条件自编码器与核酸语言模型，并由源自细胞内环境的CRISPR-Cas适配体筛选数据引导。我们在三个不同靶标上验证了GRAPE-LM：人T细胞受体CD3epsilon、SARS-CoV-2刺突蛋白的受体结合域以及人致癌转录因子c-Myc（一种细胞内无序蛋白）。仅凭单轮CRISPR-Cas筛选信息，GRAPE-LM成功获得了优于多轮人工筛选和优化所得适配体的RNA适配体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41652223/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41652223/",
+  "paper_page_path": "papers/pubmed/41652223/index.html"
+}

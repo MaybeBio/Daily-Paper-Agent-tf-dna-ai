@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "41088757",
+    "doi": "10.1016/j.bpj.2025.10.018",
+    "title": "Multiscale simulations of folded and intrinsically disordered region-containing protein condensates."
+  },
+  "content": {
+    "abstract": "We present a multiscale simulation framework that integrates all-atom (AA) structure modeling, coarse-grained (CG) Martini 3 simulations, and AA backmapping to investigate supramolecular assembly behaviors of proteins implicated in misfolding diseases. As representative systems, we modeled the C-terminal domain of human TDP-43 (residues 274-414) and a broad region of white-tailed deer prion protein (PrP) (residues 24-233), both associated with misfolding-related pathologies and exhibiting distinct structural features. This AA-CG-AA framework enables the construction and analysis of large multiunit assemblies using two Martini 3-based CG parameter sets that differ in their treatment of nonbonded interactions, including electrostatic cutoffs and the scaling of interactions involving Na(+) and Cl(-) ions present in solution. The framework successfully captured key mesoscale features of early supramolecular condensation and revealed pronounced condition-dependent differences in both condensate morphology and chain dynamics. Parameter sets with longer cutoffs and rescaled ion interactions promoted more interconnected, network-like assemblies-particularly for PrP-whereas standard cutoffs yielded more dispersed systems with higher translational mobility. Mean-square displacement analysis and diffusivity estimates reflected clear differences in translational mobility consistent with varying degrees of local association. Further analysis of low-mean-square-displacement chains revealed the emergence of condensate-like subpopulations, especially in PrP, where percolation-like networks formed. Solvent-accessible surface area analyses confirmed that protein chains remained solvent exposed throughout, consistent with known fluid-like phase-condensation behavior. Follow-up AA analysis revealed persistent interchain dynamical coupling even in the absence of direct chain contacts, suggesting solvent-mediated interactions. Notably, analyses revealed an inverse relationship between protein translational mobility and Na(+) and Cl(-) ion contact counts, suggesting that ion association contributes to early-stage condensation. These findings demonstrate the potential of integrated CG-AA simulation strategies to probe supramolecular condensation in structurally heterogeneous protein systems and support their continued development for studying misfolding-driven assembly processes at mesoscopic scales.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Protein Folding",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Prion Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dorosh, Lyudmyla",
+        "Wille, Holger",
+        "Stepanova, Maria"
+      ],
+      "short_names": [
+        "Dorosh L",
+        "Wille H",
+        "Stepanova M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, Alberta, Canada.",
+        "Centre for Prions and Protein Folding Diseases & Department of Biochemistry, University of Alberta, Edmonton, Alberta, Canada.",
+        "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, Alberta, Canada. Electronic address: ms1@ualberta.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dorosh, Lyudmyla",
+        "short_name": "Dorosh L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Wille, Holger",
+        "short_name": "Wille H",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Prions and Protein Folding Diseases & Department of Biochemistry, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Stepanova, Maria",
+        "short_name": "Stepanova M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, Alberta, Canada. Electronic address: ms1@ualberta.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jan 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/15 06:30",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "41939353",
+      "41708792"
+    ],
+    "refs": [
+      "39572454",
+      "39412378",
+      "39189419",
+      "39160094",
+      "39134696",
+      "39103332",
+      "38670324",
+      "38657863",
+      "38424082",
+      "38378578",
+      "38160320",
+      "38156656",
+      "37957331",
+      "37853696",
+      "37788237",
+      "37758888",
+      "37735186",
+      "37684425",
+      "37604044",
+      "37468629",
+      "37331570",
+      "37267850",
+      "37171907",
+      "36550041",
+      "36350034",
+      "35868932",
+      "35465121",
+      "35413197",
+      "35377637",
+      "35271850",
+      "35179885",
+      "33782607",
+      "33711010",
+      "33545172",
+      "33510441",
+      "33446423",
+      "33411518",
+      "33307683",
+      "33302617",
+      "33220582",
+      "33125658",
+      "33004511",
+      "32802734",
+      "31942072",
+      "31928730",
+      "31653829",
+      "30973229",
+      "30810317",
+      "30514078",
+      "30250260",
+      "29735687",
+      "29602697",
+      "29413001",
+      "29364893",
+      "29303563",
+      "28663553",
+      "27844078",
+      "27838525",
+      "27545621",
+      "27333362",
+      "26621095",
+      "26616630",
+      "26580045",
+      "26575407",
+      "26562397",
+      "26320075",
+      "25764013",
+      "25400522",
+      "22742737",
+      "22570416",
+      "22545654",
+      "22488640",
+      "22463145",
+      "19548767",
+      "19178154",
+      "18554899",
+      "18233698",
+      "18054235",
+      "15264254",
+      "14617779",
+      "11910019",
+      "10550212",
+      "8744570"
+    ],
+    "similar": [
+      "41088757",
+      "42475469",
+      "23912807",
+      "38160320",
+      "37853696",
+      "39908323",
+      "39983547",
+      "34102212",
+      "41169547",
+      "40389455",
+      "29511089",
+      "40848932",
+      "41210784",
+      "35866871",
+      "41481439",
+      "40962313",
+      "32654182",
+      "40588121",
+      "42035258",
+      "29279008",
+      "25313042",
+      "41851975",
+      "26575522",
+      "32323533",
+      "25099811",
+      "29990433",
+      "40128232",
+      "31070897",
+      "40278867",
+      "34509724",
+      "30304819",
+      "23406326",
+      "39499823",
+      "42507931",
+      "38546977",
+      "42376920",
+      "26910732",
+      "36272811",
+      "42427316",
+      "40954121",
+      "26735936",
+      "33139563",
+      "34845619",
+      "34737343",
+      "40009520",
+      "37407505",
+      "42370432",
+      "24278008",
+      "42216919",
+      "42466811",
+      "26742101",
+      "41652163",
+      "38112495",
+      "37043540",
+      "30813315",
+      "26301845",
+      "30514761",
+      "39486437",
+      "25387963",
+      "28102071",
+      "32393642",
+      "41609052",
+      "34656326",
+      "33307683",
+      "33909430",
+      "40339149",
+      "40766493",
+      "38902525",
+      "42350353",
+      "41933903",
+      "42286058",
+      "27558720",
+      "10529232",
+      "37961424",
+      "29734867",
+      "27933736",
+      "29304275",
+      "40748104",
+      "34598583",
+      "34029402",
+      "30908042",
+      "34680048",
+      "33930467",
+      "42220108",
+      "39319382",
+      "42002168",
+      "41097365",
+      "38739602",
+      "19817406",
+      "26043781",
+      "39980393",
+      "35381009",
+      "41991555",
+      "36083825",
+      "37006777",
+      "31999378",
+      "38641239",
+      "33302617",
+      "39342654",
+      "29716994"
+    ],
+    "review": [
+      "41088757",
+      "26575522",
+      "30304819",
+      "41652163",
+      "34680048"
+    ],
+    "pmc": [
+      "12969029"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)00669-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41088757/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PRDX2-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

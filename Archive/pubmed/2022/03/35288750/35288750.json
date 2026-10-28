@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "35288750",
+    "doi": "10.1093/nar/gkac162",
+    "title": "DNAcycP: a deep learning tool for DNA cyclizability prediction."
+  },
+  "content": {
+    "abstract": "DNA mechanical properties play a critical role in every aspect of DNA-dependent biological processes. Recently a high throughput assay named loop-seq has been developed to quantify the intrinsic bendability of a massive number of DNA fragments simultaneously. Using the loop-seq data, we develop a software tool, DNAcycP, based on a deep-learning approach for intrinsic DNA cyclizability prediction. We demonstrate DNAcycP predicts intrinsic DNA cyclizability with high fidelity compared to the experimental data. Using an independent dataset from in vitro selection for enrichment of loopable sequences, we further verified the predicted cyclizability score, termed C-score, can well distinguish DNA fragments with different loopability. We applied DNAcycP to multiple species and compared the C-scores with available high-resolution chemical nucleosome maps. Our analyses showed that both yeast and mouse genomes share a conserved feature of high DNA bendability spanning nucleosome dyads. Additionally, we extended our analysis to transcription factor binding sites and surprisingly found that the cyclizability is substantially elevated at CTCF binding sites in the mouse genome. We further demonstrate this distinct mechanical property is conserved across mammalian species and is inherent to CTCF binding DNA motif.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Binding Sites",
+      "Chromatin",
+      "Cyclization",
+      "DNA/*chemistry",
+      "*Deep Learning",
+      "Mammals/genetics",
+      "Mice",
+      "Nucleosomes",
+      "Saccharomyces cerevisiae/genetics",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Keren",
+        "Carroll, Matthew",
+        "Vafabakhsh, Reza",
+        "Wang, Xiaozhong A",
+        "Wang, Ji-Ping"
+      ],
+      "short_names": [
+        "Li K",
+        "Carroll M",
+        "Vafabakhsh R",
+        "Wang XA",
+        "Wang JP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8398-939X"
+      ],
+      "affiliations": [
+        "Department of Statistics, Northwestern University, 633 Clark Street, Evanston, IL 60208, USA.",
+        "NSF-Simons Center for Quantitative Biology, Northwestern University, Evanston, IL 60208, USA.",
+        "Weinberg College IT Solutions (WITS), Northwestern University, 633 Clark Street, Evanston, IL 60208, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60208, USA.",
+        "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60208, USA.",
+        "NSF-Simons Center for Quantitative Biology, Northwestern University, Evanston, IL 60208, USA.",
+        "Department of Statistics, Northwestern University, 633 Clark Street, Evanston, IL 60208, USA.",
+        "NSF-Simons Center for Quantitative Biology, Northwestern University, Evanston, IL 60208, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Keren",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Northwestern University, 633 Clark Street, Evanston, IL 60208, USA.",
+          "NSF-Simons Center for Quantitative Biology, Northwestern University, Evanston, IL 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Carroll, Matthew",
+        "short_name": "Carroll M",
+        "identifiers": [],
+        "affiliations": [
+          "Weinberg College IT Solutions (WITS), Northwestern University, 633 Clark Street, Evanston, IL 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Vafabakhsh, Reza",
+        "short_name": "Vafabakhsh R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaozhong A",
+        "short_name": "Wang XA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, Northwestern University, Evanston, IL 60208, USA.",
+          "NSF-Simons Center for Quantitative Biology, Northwestern University, Evanston, IL 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Ji-Ping",
+        "short_name": "Wang JP",
+        "identifiers": [
+          "0000-0002-8398-939X"
+        ],
+        "affiliations": [
+          "Department of Statistics, Northwestern University, 633 Clark Street, Evanston, IL 60208, USA.",
+          "NSF-Simons Center for Quantitative Biology, Northwestern University, Evanston, IL 60208, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Apr 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/16 06:00",
+    "fetched_at": "2026-09-28 06:19:09"
+  },
+  "links": {
+    "cites": [
+      "42255020",
+      "42087784",
+      "42015185",
+      "41629637",
+      "41335467",
+      "41292707",
+      "40855132",
+      "40613712",
+      "40491964",
+      "40412388",
+      "40071933",
+      "39972130",
+      "39763889",
+      "39463949",
+      "39071851",
+      "39036965",
+      "38745107",
+      "38658614",
+      "38375921",
+      "38082253",
+      "37954573",
+      "37860239",
+      "37705829",
+      "37697433",
+      "37639434",
+      "36971110",
+      "36866046",
+      "36711572",
+      "36430966"
+    ],
+    "refs": [
+      "34718725",
+      "33767413",
+      "33751027",
+      "33539885",
+      "33355297",
+      "33328628",
+      "33302459",
+      "32886547",
+      "32615513",
+      "32558887",
+      "31636414",
+      "31521330",
+      "31283336",
+      "30971806",
+      "30922998",
+      "30598079",
+      "30453896",
+      "30368746",
+      "29617928",
+      "29588361",
+      "29329398",
+      "29219068",
+      "28029797",
+      "27889238",
+      "27084946",
+      "25620396",
+      "25122748",
+      "23758892",
+      "22936778",
+      "22824278",
+      "22722846",
+      "22718983",
+      "22244452",
+      "22156372",
+      "21917856",
+      "21775342",
+      "20702767",
+      "19596482",
+      "19487242",
+      "19479049",
+      "19282451",
+      "18555785",
+      "17103419",
+      "16862119",
+      "16178266",
+      "15809441",
+      "15125838",
+      "12736678",
+      "12496111",
+      "10438619",
+      "9736707",
+      "9514715",
+      "9356501",
+      "9305837",
+      "8466473",
+      "8404817",
+      "8290258",
+      "7854460",
+      "7610037",
+      "6315955",
+      "6272277",
+      "3960133",
+      "3713816",
+      "3456570",
+      "1645411"
+    ],
+    "similar": [
+      "35288750",
+      "38375921",
+      "34120589",
+      "24124207",
+      "27623011",
+      "33232622",
+      "37697433",
+      "19959498",
+      "34776217",
+      "31216031",
+      "16862119",
+      "20232931",
+      "22737086",
+      "30453896",
+      "18487627",
+      "23805837",
+      "23958656",
+      "18515262",
+      "27889238",
+      "25182328",
+      "19598227",
+      "24706846",
+      "19092803",
+      "23990766",
+      "20824081",
+      "31694866",
+      "12527297",
+      "22955985",
+      "31015380",
+      "21839161",
+      "25244936",
+      "26291518",
+      "26314830",
+      "19846608",
+      "29027175",
+      "18989395",
+      "22419157",
+      "22354995",
+      "21914852",
+      "22965129",
+      "17418911",
+      "26818008",
+      "25529773",
+      "22499697",
+      "18654629",
+      "15961632",
+      "28196481",
+      "24277842",
+      "20047965",
+      "16606615",
+      "19587895",
+      "29514105",
+      "33372147",
+      "25494698",
+      "19934265",
+      "31199868",
+      "12596908",
+      "22908247",
+      "17997593",
+      "27526722",
+      "20886052",
+      "20628623",
+      "25063528",
+      "27053067",
+      "20637845",
+      "21627806",
+      "22559821",
+      "23247720",
+      "17053089",
+      "31285261",
+      "20078849",
+      "22233711",
+      "28413449",
+      "21508315",
+      "28157509",
+      "20003404",
+      "32392318",
+      "37569400",
+      "27903656",
+      "19620965",
+      "30620587",
+      "29329398",
+      "35290214",
+      "18351804",
+      "28212748",
+      "33174727",
+      "20106816",
+      "29514976",
+      "9488435",
+      "8264586",
+      "16845070",
+      "22449207",
+      "37954573",
+      "36866046"
+    ],
+    "review": [
+      "35288750",
+      "31015380",
+      "17418911",
+      "25529773",
+      "12596908"
+    ],
+    "pmc": [
+      "8989542"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35288750/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35288750",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35288750",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac162",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

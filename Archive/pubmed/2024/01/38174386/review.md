@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report in vitro binding studies of an erbium(III) complex containing 1,10-phenanthroline with CT-DNA and BSA using fluorescence quenching, supported by molecular docking. They report groove binding to DNA minor grooves with binding constants in the 10^4 M^-1 range, moderate BSA binding, and selective cytotoxicity against HeLa and MCF-7 cancer cell lines relative to a normal human fibroblast cell line, as assessed by MTT assay.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, docking scores, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, figures, tables, supplementary information, statistical details, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting study of a lanthanide complex with biological relevance, combining experimental binding studies, computational docking, and cytotoxicity evaluation. However, the abstract alone provides insufficient quantitative detail to assess the rigor of the methods, the validity of the conclusions, or the significance of the findings. Several claims are made without supporting numerical data, and the selectivity claim for cytotoxicity is not substantiated with specific values or statistical context. The work may be of interest to the bioinorganic and medicinal chemistry communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, medicinal inorganic chemistry, and drug design would be interested in this work because it addresses the interaction of a lanthanide complex with biomacromolecules and evaluates its anticancer potential. The combination of experimental binding studies with molecular docking is a common and useful approach in this field, and the selective cytotoxicity finding, if robust, could have implications for the development of metal-based therapeutic agents.
+- **Major strengths** The study integrates multiple complementary techniques, namely fluorescence quenching, molecular docking, and MTT cytotoxicity assays, which is a reasonable strategy for characterizing the biological behavior of a metal complex. The inclusion of a normal cell line in the cytotoxicity evaluation is a positive feature that allows for an assessment of selectivity, which is important for potential therapeutic applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The complex interacts with DNA via groove binding into the minor grooves, with binding constants in the 10^4 M^-1 range.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that groove binding was determined, but no experimental evidence is presented to distinguish groove binding from intercalation or electrostatic binding. Fluorescence quenching alone, as mentioned, is not sufficient to establish the binding mode. Furthermore, the binding constant range is stated without specific values, errors, or the conditions under which they were measured.
+  - **Why it matters** The binding mode is a central claim of the study and is critical for interpreting the biological relevance of the interaction. Without supporting evidence such as ionic strength dependence, viscosity measurements, or competitive displacement assays, the conclusion is not adequately supported. The lack of quantitative data prevents assessment of the reliability and reproducibility of the measurements.
+  - **Resolution test** Provide specific binding constants with standard deviations, describe the experimental conditions, and include additional evidence for groove binding, such as competitive binding with a known minor groove binder or salt-dependent studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The Er-complex displayed a selective inhibitory effect on the proliferation of different cancer cells.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of selective inhibition is made without any quantitative data, such as IC50 values for each cell line, or a statistical comparison between cancer and normal cell lines. The term "selective" implies a differential effect, but no evidence is provided to support this.
+  - **Why it matters** Selectivity is a key finding that would support the therapeutic potential of the complex. Without numerical data and statistical analysis, the claim cannot be evaluated, and the significance of the result is unclear.
+  - **Resolution test** Provide IC50 values with confidence intervals for HeLa, MCF-7, and the normal fibroblast cell line, along with statistical tests comparing the responses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Molecular docking results supported that of the experimental research.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that docking results support the experimental findings, but no docking scores, binding energies, or structural details are provided. The nature of the support is unclear, and it is not possible to assess whether the docking was performed with appropriate methodology or whether the results are statistically meaningful.
+  - **Why it matters** The docking is presented as corroborating evidence, but without quantitative results, the claim is unverifiable. The scientific importance of the study depends on the reliability of the computational support.
+  - **Resolution test** Provide docking scores, binding poses, and a description of the docking protocol, including the software used and the validation of the docking procedure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms such as "CT-DNA" and "BSA" without defining them in the abstract, which may reduce accessibility for readers outside the immediate field.
+  - **Required correction** Define CT-DNA and BSA at first mention in the abstract, for example, "calf thymus DNA (CT-DNA)" and "bovine serum albumin (BSA)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Thermodynamic characteristics claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions that thermodynamic characteristics were obtained from fluorescence quenching at different temperatures, but no thermodynamic parameters, such as enthalpy or entropy changes, are reported.
+  - **Required Correction** Include the calculated thermodynamic parameters, or state that they are reported in the full manuscript with appropriate values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Binding constant range for BSA
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that BSA binding was "moderate" but does not provide the binding constant range, making it difficult to compare with the DNA binding data.
+  - **Required Correction** Provide the binding constant range for BSA interaction, with units and conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The study of erbium complexes with phenanthroline ligands is not novel in itself, but the specific combination of DNA and protein binding with cytotoxicity evaluation may offer some incremental originality. Scientific importance: The potential selective anticancer activity is of interest, but the lack of quantitative data limits the assessment of importance. Interdisciplinary readership: The work may appeal to chemists and biologists, but the abstract is too technical and lacks context for a broad audience. Technical soundness: The methods described are standard, but the absence of data prevents verification of the claims. Readability for nonspecialists: The abstract is concise but uses jargon without definition, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable study outline, but the lack of quantitative data and supporting evidence for key claims, particularly the binding mode and selective cytotoxicity, means that the case is not yet convincing. The authors should provide the full data set and address the concerns raised before the work can be considered for publication.
+
+## Risk / unsupported claims
+- The claim of groove binding to DNA minor grooves is unsupported without additional experimental evidence beyond fluorescence quenching.
+- The claim of selective cytotoxicity is unsupported without IC50 values and statistical comparison.
+- The claim that molecular docking supports the experimental results is unverifiable without docking scores or structural details.
+- The thermodynamic characteristics of the interaction are mentioned but not quantified, making the claim unassessable.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34962260",
+  "title": "SIGNET: single-cell RNA-seq-based gene regulatory network prediction using multiple-layer perceptron bagging.",
+  "authors": "Luo, Qinhuan; Yu, Yongzhen; Lan, Xun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-12-29",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多层感知机集成从单细胞RNA-seq推断基因调控网络，虽涉及转录因子-靶基因关系，但基于表达统计而非三维结构互作建模，方法可迁移但非TF-DNA结合机制研究。",
+  "abstract": "High-throughput single-cell RNA-seq data have provided unprecedented opportunities for deciphering the regulatory interactions among genes. However, such interactions are complex and often nonlinear or nonmonotonic, which makes their inference using linear models challenging. We present SIGNET, a deep learning-based framework for capturing complex regulatory relationships between genes under the assumption that the expression levels of transcription factors participating in gene regulation are strong predictors of the expression of their target genes. Evaluations based on a variety of real and simulated scRNA-seq datasets showed that SIGNET is more sensitive to ChIP-seq validated regulatory interactions in different types of cells, particularly rare cells. Therefore, this process is more effective for various downstream analyses, such as cell clustering and gene regulatory network inference. We demonstrated that SIGNET is a useful tool for identifying important regulatory modules driving various biological processes.",
+  "abstract_zh": "高通量单细胞RNA-seq数据为解析基因间的调控相互作用提供了前所未有的机会。然而，这些相互作用复杂且往往是非线性或非单调的，这使得使用线性模型进行推断颇具挑战。我们提出了SIGNET，一个基于深度学习的框架，用于在假设参与基因调控的转录因子表达水平是其靶基因表达的强预测因子的前提下，捕捉基因之间的复杂调控关系。基于多种真实和模拟的scRNA-seq数据集的评估显示，SIGNET对不同类型细胞中经ChIP-seq验证的调控相互作用更为敏感，尤其是稀有细胞。因此，这一过程对多种下游分析更为有效，如细胞聚类和基因调控网络推断。我们证明了SIGNET是识别驱动各种生物过程的重要调控模块的有用工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34962260/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34962260/",
+  "paper_page_path": "papers/pubmed/34962260/index.html"
+}

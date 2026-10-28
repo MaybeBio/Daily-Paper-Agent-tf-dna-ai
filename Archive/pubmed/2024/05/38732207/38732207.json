@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "38732207",
+    "doi": "10.3390/ijms25094990",
+    "title": "Predicting Transcription Factor Binding Sites with Deep Learning."
+  },
+  "content": {
+    "abstract": "Prediction of binding sites for transcription factors is important to understand how the latter regulate gene expression and how this regulation can be modulated for therapeutic purposes. A consistent number of references address this issue with different approaches, Machine Learning being one of the most successful. Nevertheless, we note that many such approaches fail to propose a robust and meaningful method to embed the genetic data under analysis. We try to overcome this problem by proposing a bidirectional transformer-based encoder, empowered by bidirectional long-short term memory layers and with a capsule layer responsible for the final prediction. To evaluate the efficiency of the proposed approach, we use benchmark ChIP-seq datasets of five cell lines available in the ENCODE repository (A549, GM12878, Hep-G2, H1-hESC, and Hela). The results show that the proposed method can predict TFBS within the five different cell lines very well; moreover, cross-cell predictions provide satisfactory results as well. Experiments conducted across cell lines are reinforced by the analysis of five additional lines used only to test the model trained using the others. The results confirm that prediction across cell lines remains very high, allowing an extensive cross-transcription factor analysis to be performed from which several indications of interest for molecular biology may be drawn.",
+    "keywords": [
+      "DNA sequences",
+      "capsule network",
+      "deep learning",
+      "transcription factor binding sites (TFBSs)"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "Binding Sites",
+      "Computational Biology/methods",
+      "HeLa Cells",
+      "Protein Binding",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghosh, Nimisha",
+        "Santoni, Daniele",
+        "Saha, Indrajit",
+        "Felici, Giovanni"
+      ],
+      "short_names": [
+        "Ghosh N",
+        "Santoni D",
+        "Saha I",
+        "Felici G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0697-6368",
+        "ORCID: 0000-0003-1898-5285",
+        "ORCID: 0000-0001-9513-9707"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Information Technology, Institute of Technical Education and Research, Siksha 'O' Anusandhan (Deemed to be University), Bhubaneswar 751030, India.",
+        "Institute for System Analysis and Computer Science \"Antonio Ruberti\", National Research Council of Italy, 00185 Rome, Italy.",
+        "Department of Computer Science and Engineering, National Institute of Technical Teachers' Training and Research, Kolkata 700106, India.",
+        "Institute for System Analysis and Computer Science \"Antonio Ruberti\", National Research Council of Italy, 00185 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghosh, Nimisha",
+        "short_name": "Ghosh N",
+        "identifiers": [
+          "0000-0002-0697-6368"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Information Technology, Institute of Technical Education and Research, Siksha 'O' Anusandhan (Deemed to be University), Bhubaneswar 751030, India."
+        ]
+      },
+      {
+        "full_name": "Santoni, Daniele",
+        "short_name": "Santoni D",
+        "identifiers": [
+          "0000-0003-1898-5285"
+        ],
+        "affiliations": [
+          "Institute for System Analysis and Computer Science \"Antonio Ruberti\", National Research Council of Italy, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Saha, Indrajit",
+        "short_name": "Saha I",
+        "identifiers": [
+          "0000-0001-9513-9707"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, National Institute of Technical Teachers' Training and Research, Kolkata 700106, India."
+        ]
+      },
+      {
+        "full_name": "Felici, Giovanni",
+        "short_name": "Felici G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for System Analysis and Computer Science \"Antonio Ruberti\", National Research Council of Italy, 00185 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 May 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/11 19:44",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "41634097",
+      "41601205",
+      "41574495",
+      "40265190",
+      "40213269",
+      "39623329",
+      "39473198"
+    ],
+    "refs": [
+      "35719916",
+      "35462009",
+      "34037796",
+      "34003870",
+      "33767912",
+      "33538820",
+      "33537753",
+      "33522898",
+      "32960766",
+      "32551184",
+      "31701148",
+      "31372637",
+      "31091308",
+      "30425802",
+      "29757349",
+      "29425488",
+      "29073372",
+      "28715997",
+      "28234893",
+      "27307608",
+      "27084946",
+      "26794315",
+      "26301843",
+      "26213851",
+      "25033408",
+      "23814189",
+      "22955616",
+      "20019064",
+      "16381825",
+      "15637633",
+      "11507185",
+      "9570129",
+      "2128034"
+    ],
+    "similar": [
+      "38732207",
+      "38701417",
+      "39350338",
+      "34073774",
+      "34929739",
+      "37328639",
+      "30835229",
+      "34272562",
+      "36902216",
+      "32960766",
+      "33372147",
+      "39227799",
+      "28234893",
+      "36484687",
+      "34174819",
+      "36094959",
+      "32133533",
+      "33975951",
+      "38733561",
+      "32946398",
+      "24927817",
+      "37598467",
+      "24564277",
+      "35462009",
+      "22955984",
+      "33498086",
+      "38798191",
+      "35719916",
+      "31372637",
+      "35263332",
+      "35652477",
+      "34292930",
+      "19586888",
+      "33522898",
+      "35471887",
+      "31336830",
+      "27845669",
+      "39107889",
+      "32976105",
+      "24042128",
+      "20360861",
+      "34312058",
+      "25957350",
+      "27503086",
+      "23282203",
+      "38644393",
+      "34613923",
+      "37440599",
+      "24472686",
+      "29757349",
+      "23427986",
+      "29848263",
+      "30395277",
+      "36719906",
+      "27490187",
+      "29617876",
+      "20158869",
+      "31960370",
+      "30447332",
+      "35681170",
+      "21912677",
+      "28750606",
+      "30183639",
+      "27567672",
+      "33326109",
+      "17914226",
+      "24386279",
+      "34534646",
+      "32770026",
+      "38643066",
+      "31138617",
+      "22941648",
+      "30922998",
+      "27899623",
+      "33232622",
+      "34607350",
+      "27106869",
+      "27209209",
+      "22863112",
+      "31750523",
+      "31483836",
+      "21533218",
+      "31634140",
+      "33837387",
+      "30445619",
+      "32822050",
+      "34664074",
+      "18546507",
+      "36057196",
+      "36631751",
+      "22784574",
+      "30380113",
+      "22504445",
+      "21059262",
+      "34571539",
+      "25179504",
+      "38291225",
+      "22973536",
+      "26703974",
+      "22348285",
+      "29993783",
+      "27131787",
+      "34255854",
+      "20838582",
+      "38049725"
+    ],
+    "review": [
+      "38732207",
+      "35652477",
+      "19586888",
+      "29848263",
+      "30447332"
+    ],
+    "pmc": [
+      "11084193"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25094990",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38732207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38732207",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38732207",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

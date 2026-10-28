@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "41411922",
+    "doi": "10.1016/j.tranon.2025.102639",
+    "title": "The stem cell atlas of lung adenocarcinoma: A stemness blueprint for prognosis and immunotherapy success."
+  },
+  "content": {
+    "abstract": "Cancer stem cells (CSCs) are involved in tumor initiation, metastasis, therapeutic resistance, and heterogeneity of aggressive lung adenocarcinomas (LUADs). Although identification of CSCs through cell surface markers expression defines the CSC compartment, it provides little information on molecular mechanisms underlying the biological behaviors of CSCs. The CSC-driving tumor evolution path is also largely unknown due to technical difficulties. This study aimed to comprehensively depict the landscape of LUAD CSCs at the single-cell and molecular levels. Through flow cytometry and lineage tracing, we reconstructed LUAD CSCs trajectories with patient-derived samples and identified a persistent stem-like population with distinct molecular signatures through all tumor stages. CSC-related pathways, transcription factors (TFs) and metabolic characteristics were differentially expressed along LUAD progression, which revealed that developmental trajectory and tumor heterogeneity were driven by multistep transcriptional reprogramming of CSCs. Moreover, CSCs might promote LUAD progression through the S100A9-pNF-kappaB axis. We discovered a specific stemness signature with genetic profiles along the tumor progression and significantly correlated with clinical outcomes. Notably, by integrating bulk tumor data from TCGA, molecular clustering based on the CSC stemness signature well-distinguished clinical features and genomic or immune alterations, with the high stemness index group exhibiting reduced immune activity and a tendency towards cold tumors. Overall, our results provided unique perspectives into previously unappreciated molecular dynamics of CSC subpopulations driving LUAD evolution. The stemness signature tailored personalized risk assessment and immunotherapy strategies for individual LUAD patients.",
+    "keywords": [
+      "Biomarker",
+      "Cancer stem cells (CSCs)",
+      "Lung adenocarcinoma",
+      "Multi-omics",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Jiacheng",
+        "Jin, Xing",
+        "Hu, Zhengyang",
+        "Yang, Huiqiang",
+        "Huo, Shuhua",
+        "Sun, Fenghao",
+        "Jiang, Wei",
+        "Wang, Qun",
+        "Sui, Qihai",
+        "Shi, Yu",
+        "Chen, Zhencong"
+      ],
+      "short_names": [
+        "Yin J",
+        "Jin X",
+        "Hu Z",
+        "Yang H",
+        "Huo S",
+        "Sun F",
+        "Jiang W",
+        "Wang Q",
+        "Sui Q",
+        "Shi Y",
+        "Chen Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, The First Affiliated Hospital of Xinxiang Medical University, Henan 453100, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China. Electronic address: qhsui16@fudan.edu.cn.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China. Electronic address: shi.yu@zs-hospital.sh.cn.",
+        "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China. Electronic address: chen.zhencong@zs-hospital.sh.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Jiacheng",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Xing",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhengyang",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huiqiang",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Shuhua",
+        "short_name": "Huo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First Affiliated Hospital of Xinxiang Medical University, Henan 453100, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Fenghao",
+        "short_name": "Sun F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Wei",
+        "short_name": "Jiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Sui, Qihai",
+        "short_name": "Sui Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China. Electronic address: qhsui16@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shi, Yu",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China. Electronic address: shi.yu@zs-hospital.sh.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhencong",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China. Electronic address: chen.zhencong@zs-hospital.sh.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational oncology"
+    ],
+    "journal_abbrev": [
+      "Transl Oncol"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 01:45",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "41782144"
+    ],
+    "refs": [
+      "39539817",
+      "38751442",
+      "38605399",
+      "38204441",
+      "35356974",
+      "35352671",
+      "34115987",
+      "33523865",
+      "33517296",
+      "33208946",
+      "33083004",
+      "32707078",
+      "32080185",
+      "31980621",
+      "31792354",
+      "31434891",
+      "30587589",
+      "30293704",
+      "30158168",
+      "29988129",
+      "29942094",
+      "29625051",
+      "29364287",
+      "29091775",
+      "28991892",
+      "28967919",
+      "28830450",
+      "28825705",
+      "28476825",
+      "28263961",
+      "27920206",
+      "27885254",
+      "27207943",
+      "26000488",
+      "25993956",
+      "25921687",
+      "25867923",
+      "25614008",
+      "24925914",
+      "24346092",
+      "24053356",
+      "24008862",
+      "23878161",
+      "23323831",
+      "23252868",
+      "23236537",
+      "23104886",
+      "22825470",
+      "22387005",
+      "22225612",
+      "21546393",
+      "21411810",
+      "21118965",
+      "21103958",
+      "20531299",
+      "19910308",
+      "19509181",
+      "19385971",
+      "19276181",
+      "18049477",
+      "17122771",
+      "2337669"
+    ],
+    "similar": [
+      "41411922",
+      "37287976",
+      "34745015",
+      "39987127",
+      "37605423",
+      "40474806",
+      "38355636",
+      "34741449",
+      "32121037",
+      "39046884",
+      "32221746",
+      "39516442",
+      "37455453",
+      "41341805",
+      "38841624",
+      "40761262",
+      "40547013",
+      "35495113",
+      "35480140",
+      "40804837",
+      "32810627",
+      "38016436",
+      "41143636",
+      "41436608",
+      "38616208",
+      "33312407",
+      "36936815",
+      "40170009",
+      "32194819",
+      "35681225",
+      "38265702",
+      "38694506",
+      "40936758",
+      "39367493",
+      "31001473",
+      "37726816",
+      "34172935",
+      "32849491",
+      "36040667",
+      "40787454",
+      "38885819",
+      "37553698",
+      "36139554",
+      "38186574",
+      "41373021",
+      "38601554",
+      "40316986",
+      "33193623",
+      "41029019",
+      "40719993",
+      "40034678",
+      "36902193",
+      "23255137",
+      "39215581",
+      "41383634",
+      "35364458",
+      "39950944",
+      "39478862",
+      "36721217",
+      "39780110",
+      "36870548",
+      "41487058",
+      "39267056",
+      "40352269",
+      "37662825",
+      "41514669",
+      "35833114",
+      "39935429",
+      "39187946",
+      "32754274",
+      "39735553",
+      "37325647",
+      "39669580",
+      "41536497",
+      "37378675",
+      "38151328",
+      "39455097",
+      "37942473",
+      "27451127",
+      "36699466",
+      "35975322",
+      "39953119",
+      "32781084",
+      "40242316",
+      "37492563",
+      "35048799",
+      "34485716",
+      "37622118",
+      "39991096",
+      "41164195",
+      "41234843",
+      "39369095",
+      "37583701",
+      "35794546",
+      "23828569",
+      "40008390",
+      "40486872",
+      "36246622",
+      "39981232",
+      "36293184"
+    ],
+    "review": [
+      "41411922",
+      "40804837",
+      "32849491",
+      "32754274",
+      "27451127",
+      "39981232"
+    ],
+    "pmc": [
+      "12813225"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1936-5233(25)00370-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41411922/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1155",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1936-5233(25)00370-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

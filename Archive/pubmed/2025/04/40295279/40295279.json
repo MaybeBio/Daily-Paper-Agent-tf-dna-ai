@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "40295279",
+    "doi": "10.1097/MD.0000000000042032",
+    "title": "The role of the TARDBP gene in osteonecrosis of the femoral head: Bioinformatics analysis and mechanistic exploration."
+  },
+  "content": {
+    "abstract": "Osteonecrosis of the femoral head (ONFH) is a condition caused by venous stasis, impaired arterial blood flow, or destruction of the femoral head, often resulting in the localized death of bone cells and bone marrow components, leading to joint collapse. Although the pathogenesis of ONFH is complex, recent attention has focused on the role of the TAR DNA-binding protein (TARDBP) gene and its encoded protein, TDP-43, in the disease process. TDP-43, which plays a role in neurodegenerative diseases, may also regulate apoptosis, oxidative stress, and immune responses in ONFH. This study utilized the GSE74089 and GSE123568 datasets from the gene expression omnibus database to analyze differentially expressed genes between ONFH and normal samples. Through batch effect correction, gene enrichment analysis (gene ontology, Kyoto Encyclopedia of Genes and Genomes, and gene set enrichment analysis), protein-protein interaction network construction, and weighted gene co-expression network analysis, key genes in ONFH were identified. Additionally, immune infiltration was analyzed using CIBERSORT, and a neural network model was developed to assess the importance of these genes in ONFH. The analysis revealed that TARDBP expression was significantly elevated in ONFH samples and correlated with the infiltration of monocytes and M1 macrophages. Gene ontology and Kyoto Encyclopedia of Genes and Genomes analyses suggested that TARDBP may regulate bone metabolism and repair via the Wnt/beta-catenin signaling pathway. Protein-protein interaction network analysis identified 9 core genes, with TARDBP scoring the highest in the neural network model, indicating its pivotal role in ONFH regulation. TARDBP is highly expressed in ONFH, and its possible role by regulating apoptosis, oxidative stress, and immune response provide new ideas for the study of the molecular mechanism of ONFH.",
+    "keywords": [
+      "TARDBP",
+      "bioinformatics",
+      "differentially expressed genes",
+      "immune infiltration",
+      "osteonecrosis of the femoral head"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Computational Biology",
+      "*Femur Head Necrosis/genetics",
+      "*DNA-Binding Proteins/genetics",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Sheng",
+        "Wang, Jingjing",
+        "Ren, Guangxu",
+        "Qi, Jian",
+        "Bu, Rongqiang",
+        "Zhang, Yi",
+        "Zang, Lei"
+      ],
+      "short_names": [
+        "Sun S",
+        "Wang J",
+        "Ren G",
+        "Qi J",
+        "Bu R",
+        "Zhang Y",
+        "Zang L"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1483-6288"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Beijing Chaoyang Hospital, Capital Medical University, Shijingshan District, Beijing, China.",
+        "Department of Orthopedics, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Institute of Food and Nutrition Development, Ministry of Agriculture and Rural Affairs of the Reople's Republic of China, Haidian District, Beijing, China.",
+        "Department of Orthopedics, 960th of PLA, Jinan, China.",
+        "Department of Orthopedics, Beijing Aiyuhua Hospital, Beijing, China.",
+        "Department of Sports Medicine, Peking University Third Hospital, Institute of Sports Medicine of Peking University, Haidian, Beijing, China.",
+        "Department of Orthopedics, Beijing Chaoyang Hospital, Capital Medical University, Shijingshan District, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Sheng",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Chaoyang Hospital, Capital Medical University, Shijingshan District, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingjing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Ditan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Guangxu",
+        "short_name": "Ren G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Food and Nutrition Development, Ministry of Agriculture and Rural Affairs of the Reople's Republic of China, Haidian District, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Jian",
+        "short_name": "Qi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, 960th of PLA, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Rongqiang",
+        "short_name": "Bu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Aiyuhua Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Peking University Third Hospital, Institute of Sports Medicine of Peking University, Haidian, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zang, Lei",
+        "short_name": "Zang L",
+        "identifiers": [
+          "0009-0000-1483-6288"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Chaoyang Hospital, Capital Medical University, Shijingshan District, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Apr 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/29 00:28",
+    "fetched_at": "2026-09-30 16:53:16"
+  },
+  "links": {
+    "cites": [
+      "41894382"
+    ],
+    "refs": [
+      "39205463",
+      "39056808",
+      "38300714",
+      "38046945",
+      "36902271",
+      "35885636",
+      "35784575",
+      "35742595",
+      "35511598",
+      "35227277",
+      "34202897",
+      "33918437",
+      "33802550",
+      "33446423",
+      "32927921",
+      "32309135",
+      "32285404",
+      "32243832",
+      "31147356",
+      "30993010",
+      "30850073",
+      "30348552",
+      "30189209",
+      "29067959",
+      "28321234",
+      "28229366",
+      "26667621",
+      "26142896",
+      "25597514",
+      "23389802",
+      "23243507",
+      "21796335",
+      "21087905",
+      "19959528",
+      "17981595",
+      "17084815",
+      "17023659",
+      "13724595"
+    ],
+    "similar": [
+      "40295279",
+      "38384969",
+      "34016144",
+      "38758521",
+      "38283345",
+      "35151359",
+      "37335681",
+      "33749138",
+      "39789578",
+      "31692295",
+      "39284931",
+      "39253583",
+      "40969769",
+      "34557547",
+      "29382571",
+      "40582670",
+      "33185492",
+      "39708930",
+      "38169408",
+      "39586719",
+      "38491545",
+      "39405776",
+      "25612520",
+      "35118903",
+      "34422080",
+      "38204239",
+      "40713221",
+      "37491198",
+      "29205600",
+      "36193326",
+      "31233934",
+      "38115279",
+      "41107894",
+      "39069636",
+      "36856107",
+      "34233597",
+      "32089067",
+      "40841396",
+      "31951022",
+      "31518413",
+      "37080444",
+      "38212150",
+      "37904445",
+      "38225851",
+      "41180304",
+      "32901839",
+      "38309414",
+      "27045355",
+      "20215856",
+      "38538713",
+      "34912214",
+      "25073278",
+      "24510055",
+      "41094572",
+      "33892138",
+      "36837498",
+      "37488209",
+      "26241528",
+      "21846946",
+      "37481850",
+      "34331982",
+      "31922208",
+      "37868703",
+      "38296807",
+      "39438865",
+      "30964699",
+      "25863178",
+      "31930139",
+      "41303381",
+      "39953769",
+      "31387936",
+      "38736878",
+      "35577160",
+      "32219128",
+      "28653889",
+      "41190611",
+      "40597456",
+      "39972407",
+      "36671556",
+      "39182249",
+      "40241169",
+      "40339781",
+      "35016690",
+      "28476574",
+      "34020076",
+      "37537614",
+      "41189173",
+      "29704023",
+      "35002378",
+      "40200031",
+      "30129310",
+      "35979793",
+      "39393751",
+      "28683795",
+      "40245021",
+      "36382463",
+      "39172048",
+      "35538460",
+      "34850884",
+      "39342093"
+    ],
+    "review": [
+      "40295279",
+      "37080444",
+      "31930139",
+      "32219128",
+      "40339781"
+    ],
+    "pmc": [
+      "12040066"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40295279.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40295279/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000042032",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

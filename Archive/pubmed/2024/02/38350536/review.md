@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that Bisphenol A (BPA) and its analogs bind to human estrogen-related receptor gamma (ERRgamma) with higher affinity than estradiol, based on molecular docking, physicochemical and toxicological analyses, and 500 ns molecular dynamics simulations with MM-PBSA binding energy calculations. They further claim that these compounds are toxic, orally bioavailable, and that the identified key interacting residues can inform competitive inhibitor design.
+- **Visible evidence base** Abstract text only; no numerical data, structural figures, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, docking scores, simulation convergence criteria, MM-PBSA energy values, toxicity prediction outputs, physicochemical property tables, residue interaction maps, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract addresses a relevant environmental health topic, namely the molecular interaction of BPA and its analogs with ERRgamma, and proposes a structure-based rationale for inhibitor design. However, the claims are presented without quantitative support, and the abstract does not provide sufficient methodological detail to assess the robustness of the docking, simulation, or binding energy calculations. The conclusion that BPA analogs bind with "much higher" affinity than estradiol is not verifiable from the supplied material. The study is potentially useful as a computational screening exercise, but the current evidence base is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, endocrine disruption, and computational structural biology would be interested. The work may inform studies on BPA replacement chemicals and provide a starting point for designing ERRgamma antagonists. Public health scientists concerned with endocrine-disrupting chemical exposure may also find the physicochemical and toxicological predictions relevant.
+- **Major strengths** The topic is of clear environmental and public health importance. The use of multiple computational approaches, including docking, molecular dynamics, and MM-PBSA, is appropriate for a preliminary structural investigation. The focus on identifying key interacting residues is a practical step toward inhibitor design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the binding affinity of BPA and its analogs was much higher than that of estradiol."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative binding affinity values, docking scores, or MM-PBSA energies are reported. The claim of "much higher" affinity is presented without any numerical comparison or statistical measure.
+  - **Why it matters** Without quantitative data, the central conclusion of the study cannot be evaluated. The magnitude of the difference from estradiol is critical for assessing biological relevance and for any claim of competitive inhibition potential.
+  - **Resolution test** Provide docking scores, MM-PBSA binding free energies with standard deviations, and a statistical comparison between BPA compounds and estradiol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that molecular dynamics simulations were performed over 500 ns and that binding energies were calculated using the MM-PBSA method.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation parameters are given, including force field, water model, temperature and pressure coupling, equilibration protocol, or convergence assessment. MM-PBSA results are highly sensitive to these choices, and without them the reliability of the reported energies is unknown.
+  - **Why it matters** Reproducibility and validity of computational results depend on detailed methodological reporting. The absence of these details prevents independent verification and undermines confidence in the binding energy claims.
+  - **Resolution test** Include full simulation setup in the methods, and show convergence plots or RMSD trajectories to demonstrate that 500 ns was sufficient for stable binding energy estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that BPA compounds "can be easily absorbed in our body as their physicochemical properties are similar to those of oral medicines."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No physicochemical property values, such as LogP, solubility, or permeability, are reported. The comparison to oral medicines is qualitative and lacks a defined reference set or criteria.
+  - **Why it matters** The absorption claim is a key translational statement with public health implications. Without quantitative property data and a clear comparator, the claim is unsupported.
+  - **Resolution test** Provide a table of computed physicochemical properties for each compound, with reference values for known oral drugs, and state the specific criteria used for the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation
+  - **Claim pointer** The authors state that the study "provides information about the key amino acid residues of ERRgamma that interact with BPA compounds."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The key residues are not listed, and no experimental or literature-based validation is mentioned. The interaction data are derived solely from computational predictions.
+  - **Why it matters** Predicted interaction residues require validation, either through mutagenesis, co-crystallography, or comparison with known structural data. Without such support, the utility of these residues for inhibitor design is uncertain.
+  - **Resolution test** List the identified residues and compare them with published ERRgamma structures or experimental binding data. If available, include mutagenesis or binding assay results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "BPA compounds" is used ambiguously, as it is unclear whether it refers to BPA itself, its analogs, or both.
+  - **Required correction** Define the term explicitly, for example "BPA and its analogs" or "the tested BPA-related compounds."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Toxicological claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the compounds are "toxic" but does not specify the toxicity endpoint, the prediction tool used, or the confidence of the prediction.
+  - **Required correction** Specify the toxicity assessment method and the particular toxicological endpoints evaluated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Inhibitor design claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that the findings "can be helpful to design competitive inhibitors" is speculative and not supported by any inhibitor design or testing data.
+  - **Required correction** Soften the claim to indicate that the identified residues may serve as a starting point for future inhibitor design studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, simulation parameters, and physicochemical property values means the core claims are not verifiable from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The topic is not novel, as BPA-ERRgamma interactions have been previously reported, but the specific focus on analogs and long-timescale simulations may offer incremental value. Scientific importance: The work addresses a relevant environmental health issue, but the importance is limited by the lack of experimental validation and the purely computational nature of the study. Interdisciplinary readership: The findings could appeal to environmental toxicologists and computational chemists, but the abstract does not provide enough detail to engage a broader audience. Technical soundness: Cannot be assessed from the abstract alone; the missing methodological details prevent evaluation of the computational rigor. Readability for nonspecialists: The abstract is generally readable, but the lack of quantitative context and undefined terms reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible computational work, but the absence of quantitative data and methodological detail means the central claims cannot be evaluated. A revised manuscript with full methods, numerical results, and validation would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim that BPA and analogs bind with "much higher" affinity than estradiol is unsupported without numerical binding data.
+- The claim that the compounds are "easily absorbed" based on similarity to oral medicines is unsupported without physicochemical property values and a defined comparator.
+- The claim that the compounds are "toxic" is unsupported without specifying the toxicity endpoint or prediction method.
+- The claim that key interacting residues can inform competitive inhibitor design is speculative and not supported by any design or testing data.
+- The overall conclusion that the study facilitates understanding of the structure-activity relationship is not verifiable from the abstract alone.

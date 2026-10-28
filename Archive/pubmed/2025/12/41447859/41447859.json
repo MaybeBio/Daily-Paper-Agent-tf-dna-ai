@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "41447859",
+    "doi": "10.1016/j.colsurfb.2025.115395",
+    "title": "Integrated analysis of single-cell and bulk RNA-seq data identifies NR4A1-associated macrophages in immunoglobulin A nephropathy."
+  },
+  "content": {
+    "abstract": "Immunoglobulin A nephropathy (IgAN), the most prevalent primary glomerulonephritis worldwide, is characterized by chronic renal inflammation and progressive decline toward end-stage renal disease. In this study, we integrated single-cell and bulk RNA sequencing approaches to systematically elucidate the role of macrophages in IgAN pathogenesis. Single-cell transcriptomic analysis identified 171 macrophage-associated differentially expressed genes and revealed two distinct molecular subtypes with divergent immune and metabolic signatures. Using machine learning algorithms, we constructed a diagnostic model based on eight macrophage-related markers, including NR4A1, which demonstrated robust predictive accuracy (Area Under the Curve > 0.9) across multiple independent validation cohorts. Functional experiments further established NR4A1 as a protective factor in IgAN. Overexpression of NR4A1 in an IgAN mouse model markedly reduced renal fibrosis, macrophage infiltration, and glomerular injury, whereas NR4A1 knockout exacerbated these pathological features. Mechanistically, the transcription factor ZBTB7A, which is upregulated in IgAN, directly suppresses NR4A1 expression through protein interaction. Rescue experiments demonstrated that NR4A1 overexpression mitigates ZBTB7A-induced renal damage. Collectively, these findings identify the ZBTB7A-NR4A1 regulatory axis as a critical mechanism driving IgAN progression and highlight NR4A1 as a potential diagnostic biomarker and therapeutic target for disease prevention.",
+    "keywords": [
+      "IgA nephropathy",
+      "Macrophage",
+      "NR4A1",
+      "ZBTB7"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Nuclear Receptor Subfamily 4, Group A, Member 1/genetics/metabolism",
+      "*Macrophages/metabolism/pathology",
+      "*Glomerulonephritis, IGA/genetics/pathology/metabolism",
+      "Mice",
+      "*Single-Cell Analysis",
+      "Humans",
+      "RNA-Seq",
+      "Transcription Factors/metabolism/genetics",
+      "Mice, Inbred C57BL",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xueqin",
+        "Chao, Peng",
+        "Zhang, Lei",
+        "Zhao, Yang",
+        "Li, Hui",
+        "Zhou, Yipeng",
+        "Song, Xue",
+        "Yang, Shufen",
+        "Muhetaer, Gulimire",
+        "Jiang, Hong",
+        "Lu, Chen"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Chao P",
+        "Zhang L",
+        "Zhao Y",
+        "Li H",
+        "Zhou Y",
+        "Song X",
+        "Yang S",
+        "Muhetaer G",
+        "Jiang H",
+        "Lu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China. Electronic address: 407998578@qq.com.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China. Electronic address: jiangh-yt@163.com.",
+        "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China. Electronic address: luchen706812@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xueqin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Chao, Peng",
+        "short_name": "Chao P",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yang",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yipeng",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xue",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shufen",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Muhetaer, Gulimire",
+        "short_name": "Muhetaer G",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China. Electronic address: 407998578@qq.com."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hong",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China. Electronic address: jiangh-yt@163.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Chen",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, Xinjiang Uygur Autonomous Region, China. Electronic address: luchen706812@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Colloids and surfaces. B, Biointerfaces"
+    ],
+    "journal_abbrev": [
+      "Colloids Surf B Biointerfaces"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/26 00:32",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41447859",
+      "40592877",
+      "39493754",
+      "40498423",
+      "41376641",
+      "35484716",
+      "40336063",
+      "40824462",
+      "39106714",
+      "41155346",
+      "39616852",
+      "40702134",
+      "36948405",
+      "30077998",
+      "41220146",
+      "40466801",
+      "39985585",
+      "41262236",
+      "31796125",
+      "39644367",
+      "34968552",
+      "38716725",
+      "35601837",
+      "41104687",
+      "27519267",
+      "28713898",
+      "32830258",
+      "38511222",
+      "40263537",
+      "40001494",
+      "24204969",
+      "41223038",
+      "40521981",
+      "40784024",
+      "34823491",
+      "37820669",
+      "40569148",
+      "32954852",
+      "41494917",
+      "32611589",
+      "40442892",
+      "39084257",
+      "30565708",
+      "38787831",
+      "33936064",
+      "23567192",
+      "38291238",
+      "38679486",
+      "38395835",
+      "36059518",
+      "39696012",
+      "40036990",
+      "41476974",
+      "31465766",
+      "35757735",
+      "39848509",
+      "39612439",
+      "33754492",
+      "39890853",
+      "41242266",
+      "30010903",
+      "35528619",
+      "40329456",
+      "37024444",
+      "41240162",
+      "25542908",
+      "41202667",
+      "41299485",
+      "25821307",
+      "41194398",
+      "12969143",
+      "40549784",
+      "40727923",
+      "41056297",
+      "27127888",
+      "40618935",
+      "39945225",
+      "41153430",
+      "31894556",
+      "24722447",
+      "41131607",
+      "35418061",
+      "33942481",
+      "41601657",
+      "39736520",
+      "39494325",
+      "40852352",
+      "22892911",
+      "39142522",
+      "25410408",
+      "41613128",
+      "38777369",
+      "39433882",
+      "38278877",
+      "40898987",
+      "21109611",
+      "40114913",
+      "32699192",
+      "33951240",
+      "38605605"
+    ],
+    "review": [
+      "41447859",
+      "41155346",
+      "40001494",
+      "40329456"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(25)00902-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1178",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

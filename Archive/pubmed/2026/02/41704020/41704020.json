@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "41704020",
+    "doi": "10.1002/prca.70041",
+    "title": "A Network-Based Association of IBD and Colorectal Cancer Using Proteomics Data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is a major cause of morbidity and mortality, with chronic inflammation from inflammatory bowel disease (IBD) representing a well-established risk factor. Clarifying shared molecular mechanisms may facilitate early detection and prevention strategies. METHODS: Proteomic data from the UK Biobank were analysed using the Olink proximity extension assay for seven CRC-associated proteins (TFF3, TFF1, AHCY, RETN, LCN2, SELE and CEACAM5) previously identified via machine learning. Expression levels in CRC and IBD cases were compared with controls. Multilayer interaction networks, incorporating protein-protein, protein-metabolite and transcription factor-protein interactions, were generated using OmicsNet. Findings were validated in the Colonomics transcriptomic dataset. RESULTS: All seven proteins were significantly upregulated in CRC; six (excluding CEACAM5) were also elevated in IBD. Network analysis identified AHCY and LCN2 as central hubs linking inflammatory and metabolic pathways. NF-kappaB and GATA2 emerged as recurrent transcriptional regulators. Colonomics validation confirmed upregulation of AHCY, LCN2 and SELE in CRC tissues. CONCLUSIONS: This multi-omics network analysis reveals a shared molecular framework between IBD and CRC, with inflammation as a key driver of colorectal carcinogenesis.",
+    "keywords": [
+      "IBD",
+      "UK-Biobank",
+      "colon cancer",
+      "network analysis",
+      "omics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/metabolism/genetics/pathology",
+      "*Proteomics/methods",
+      "*Inflammatory Bowel Diseases/metabolism/genetics/pathology",
+      "Protein Interaction Maps",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dhami, Jaiya",
+        "Radhakrishnan, Swarnima Kollampallath",
+        "Russ, Dominic",
+        "Mondal, Sudip",
+        "Alzarooni, Abdulrahman",
+        "Merodio, Laura Bravo",
+        "Duggal, Niharika A",
+        "Gupta, Ruchi",
+        "Acharjee, Animesh"
+      ],
+      "short_names": [
+        "Dhami J",
+        "Radhakrishnan SK",
+        "Russ D",
+        "Mondal S",
+        "Alzarooni A",
+        "Merodio LB",
+        "Duggal NA",
+        "Gupta R",
+        "Acharjee A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6456-8007",
+        "ORCID: 0000-0003-2735-7010"
+      ],
+      "affiliations": [
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+        "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK.",
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+        "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK.",
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+        "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK.",
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+        "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK.",
+        "MRC-Versus Arthritis Centre For Musculoskeletal Ageing Research, Birmingham, UK.",
+        "Institute of Inflammation and Ageing, University of Birmingham, Birmingham, UK.",
+        "School of Chemistry, University of Birmingham, Birmingham, UK.",
+        "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+        "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+        "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dhami, Jaiya",
+        "short_name": "Dhami J",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Radhakrishnan, Swarnima Kollampallath",
+        "short_name": "Radhakrishnan SK",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Russ, Dominic",
+        "short_name": "Russ D",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+          "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+          "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Mondal, Sudip",
+        "short_name": "Mondal S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+          "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+          "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Alzarooni, Abdulrahman",
+        "short_name": "Alzarooni A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+          "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+          "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Merodio, Laura Bravo",
+        "short_name": "Merodio LB",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+          "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+          "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Duggal, Niharika A",
+        "short_name": "Duggal NA",
+        "identifiers": [],
+        "affiliations": [
+          "MRC-Versus Arthritis Centre For Musculoskeletal Ageing Research, Birmingham, UK.",
+          "Institute of Inflammation and Ageing, University of Birmingham, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Gupta, Ruchi",
+        "short_name": "Gupta R",
+        "identifiers": [
+          "0000-0001-6456-8007"
+        ],
+        "affiliations": [
+          "School of Chemistry, University of Birmingham, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Acharjee, Animesh",
+        "short_name": "Acharjee A",
+        "identifiers": [
+          "0000-0003-2735-7010"
+        ],
+        "affiliations": [
+          "Cancer and Genomic Sciences, School of Medical Sciences, College of Medicine and Health, University of, Birmingham, UK.",
+          "Centre For Health Data Research, University of Birmingham, Birmingham, UK.",
+          "Institute of Translational Medicine, University Hospitals Birmingham NHS, Foundation Trust, Birmingham, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteomics. Clinical applications"
+    ],
+    "journal_abbrev": [
+      "Proteomics Clin Appl"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/18 10:07",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42614810"
+    ],
+    "refs": [
+      "40003565",
+      "39839775",
+      "39026393",
+      "38844113",
+      "38836911",
+      "38572751",
+      "38486190",
+      "38484941",
+      "38056887",
+      "37942534",
+      "37499126",
+      "37370812",
+      "36977543",
+      "36921601",
+      "36370105",
+      "36345721",
+      "36182938",
+      "36139637",
+      "35936748",
+      "35927991",
+      "35922478",
+      "35639733",
+      "35470375",
+      "35361331",
+      "35116904",
+      "35111677",
+      "35022204",
+      "34850907",
+      "34111282",
+      "33869213",
+      "33425761",
+      "32728248",
+      "32296183",
+      "32001714",
+      "31622622",
+      "31616522",
+      "31495339",
+      "31432157",
+      "31378807",
+      "31283063",
+      "31114921",
+      "31105047",
+      "30993317",
+      "30376922",
+      "29934436",
+      "29457794",
+      "29402939",
+      "29087512",
+      "28628361",
+      "28476144",
+      "28367284",
+      "28347985",
+      "28104986",
+      "27899662",
+      "26818619",
+      "26457759",
+      "25826379",
+      "24722538",
+      "24234451",
+      "23448792",
+      "23423786",
+      "23236300",
+      "23180781",
+      "21307158",
+      "20420948",
+      "20331631",
+      "16014704",
+      "8039614",
+      "7828978"
+    ],
+    "similar": [
+      "41704020",
+      "42001187",
+      "41621766",
+      "42123319",
+      "30186819",
+      "32390702",
+      "39325241",
+      "30679085",
+      "36983040",
+      "23799036",
+      "41096771",
+      "41577732",
+      "32424999",
+      "42193998",
+      "41382302",
+      "20815042",
+      "41191606",
+      "30615124",
+      "40481569",
+      "32535071",
+      "41043201",
+      "23745025",
+      "39085299",
+      "39425913",
+      "41766899",
+      "28852270",
+      "42295138",
+      "42265813",
+      "22993030",
+      "33063223",
+      "23169309",
+      "38529274",
+      "39242821",
+      "37428395",
+      "39957036",
+      "42055631",
+      "41405822",
+      "27499265",
+      "25684939",
+      "42400994",
+      "20406101",
+      "40855282",
+      "41436831",
+      "42470494",
+      "31397080",
+      "39839775",
+      "38103512",
+      "41352234",
+      "35416564",
+      "28077799",
+      "41957709",
+      "42024141",
+      "19317276",
+      "33930428",
+      "41342434",
+      "31767275",
+      "36760205",
+      "40224486",
+      "22627504",
+      "40842027",
+      "30955196",
+      "39699012",
+      "39409185",
+      "41559659",
+      "41407026",
+      "29078383",
+      "40127075",
+      "40380167",
+      "25569743",
+      "34326693",
+      "32940190",
+      "38446216",
+      "39451248",
+      "15516846",
+      "28089726",
+      "41886598",
+      "33738265",
+      "41177255",
+      "25766683",
+      "25531497",
+      "31066449",
+      "25041864",
+      "40990012",
+      "36049413",
+      "21830278",
+      "18433468",
+      "30989570",
+      "28922695",
+      "18609187",
+      "25840920",
+      "32023884",
+      "40421012",
+      "24657851",
+      "22919240",
+      "33332369",
+      "34347074",
+      "28193514",
+      "41074150",
+      "22876036",
+      "40597828"
+    ],
+    "review": [
+      "41704020",
+      "41096771",
+      "42193998",
+      "41043201",
+      "28852270",
+      "23169309",
+      "35416564",
+      "28077799",
+      "19317276",
+      "34326693",
+      "32940190",
+      "15516846",
+      "28089726",
+      "41177255",
+      "25531497",
+      "28922695",
+      "25840920"
+    ],
+    "pmc": [
+      "12914161"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41704020/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prca.70041",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-681",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

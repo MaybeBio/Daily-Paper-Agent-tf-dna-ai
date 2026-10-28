@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure legends referenced but not provided in full)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. Figures, tables, and supplementary materials are referenced but not fully available for direct inspection.
+- **Shared manuscript claim summary** The authors report that the E. coli XPD/Rad3-like helicase YoaA-χ functionally interacts with single-stranded DNA binding protein (SSB). They show that SSB has a substrate-specific effect on YoaA-χ helicase activity, inhibiting unwinding on forked DNA but not on overhang DNA. Using ensemble and single-molecule assays, they propose that SSB binds behind YoaA-χ relative to the DNA duplex/single-strand junction and is translocated along ssDNA by the helicase, a phenomenon they describe as a mechanoenzyme pulling SSB.
+- **Visible evidence base** Abstract, Introduction, Results (narrative descriptions of Figures 1–7, Supplementary Figures 1–4, Table S4), Discussion, Materials and Methods (buffers, mutagenesis, protein expression, FRET assay, gel assay, fluorescein quench assay, EMSA, single-molecule assay, structure prediction), Data Availability, Author Contributions, Ethics Declaration, Acknowledgments.
+- **Missing materials affecting confidence** Actual figures and figure legends, supplementary figures and tables, raw data, statistical analysis details, single-molecule trajectory data, AlphaFold model coordinates, and full methods for single-molecule data analysis.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially significant observation: that the YoaA-χ helicase complex can translocate SSB along ssDNA, a finding that, if robust, would extend our understanding of helicase-SSB coordination in DNA damage tolerance. The combination of ensemble biochemical assays and single-molecule approaches is commendable. However, several technical concerns and interpretive ambiguities need to be addressed before the central claims are fully established. The substrate-specific effect of SSB on helicase activity is clear, but the mechanistic interpretation, particularly the "caboose" model, relies on indirect measurements and small effect sizes. The single-molecule data, while suggestive, require more rigorous analysis and controls to support the claim of directed translocation.
+- **Who would be interested in the results, and why** Researchers studying DNA replication, repair, and damage tolerance in bacteria; investigators interested in helicase mechanisms and protein-protein interactions at replication forks; those working on SSB and SSB-interacting proteins; and the broader DNA metabolism community interested in how motor proteins coordinate with ssDNA-binding proteins.
+- **Major strengths** 1) The study addresses an important and understudied question: how YoaA-χ, a helicase involved in AZT tolerance, interacts with SSB at stalled replication forks. 2) The combination of ensemble FRET-based helicase assays, EMSAs, fluorescein quenching, and single-molecule imaging provides multiple lines of evidence. 3) The comparison with the paralog DinG adds a useful dimension. 4) The use of mutants (χ R128A, SSB ΔC1) to probe the role of the physical SSB-χ interaction is well designed. 5) The single-molecule observation of SSB moving with YoaA-χ is potentially groundbreaking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors claim that "SSB translocates along ssDNA with YoaA-χ" and that this is "the first demonstration of a mechanoenzyme pulling SSB along ssDNA."
+  - **Evidence pointer** Figure 6, single-molecule assay section in Methods
+  - **Concern** The single-molecule data interpretation is not fully supported by the described analysis. The authors report that in the presence of YoaA-χ, SSB tracks were longer and sloped in a consistent direction, but the analysis appears to rely on manual slope calculation from kymographs. The number of long tracks (>4 s) in the YoaA-χ condition (115) versus the SSB-only condition (8) is reported, but no statistical comparison, track-length distributions, or velocity distributions are provided. The claim of directed translocation requires demonstration that the slope is significantly different from zero and from the SSB-only diffusive behavior, and that the direction is consistent with YoaA-χ 5'-to-3' movement. Additionally, the authors do not report whether YoaA-χ itself was labeled or tracked in these experiments, which is critical to correlate SSB movement with helicase translocation.
+  - **Why it matters** The central novel claim of the paper rests on this single-molecule observation. Without rigorous quantitative analysis, the conclusion that YoaA-χ actively pulls SSB rather than SSB diffusing or being passively displaced cannot be distinguished. This is the key advance over previous work and must be robustly supported.
+  - **Resolution test** Provide full kymograph analysis with automated tracking, velocity distributions for SSB in the presence and absence of YoaA-χ, statistical tests comparing slopes to zero and between conditions, and, ideally, dual-color experiments where both YoaA-χ and SSB are labeled to demonstrate co-migration. Show that the direction of SSB movement is consistent with YoaA-χ translocation direction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors state that "SSB confers a substrate-specific effect on the helicase activity of YoaA-χ, barely affecting YoaA-χ on an overhang DNA substrate but inhibiting YoaA-χ on forked DNA."
+  - **Evidence pointer** Figure 1, Supplementary Figures 1 and 2
+  - **Concern** The FRET-based helicase assay data are described qualitatively. The authors report that SSB "barely affected" unwinding on overhang DNA and "inhibited" unwinding on forked DNA, but no quantitative values (e.g., initial rates, amplitudes, or extents of unwinding) or statistical analyses are provided in the text. The concentration dependence of the inhibition is not described. It is unclear whether the inhibition is due to SSB blocking helicase access, competing for binding, or a direct effect of the SSB-χ interaction. The authors also do not report whether SSB alone can unwind DNA (they state it cannot, but no data are shown).
+  - **Why it matters** The substrate-specific effect is a foundational observation for the paper. Without quantitative data and appropriate controls, the reader cannot assess the magnitude or significance of the effect, nor can they evaluate whether the proposed mechanism (SSB binding behind the helicase) is the most parsimonious explanation.
+  - **Resolution test** Provide quantitative unwinding curves with error bars, initial rates or endpoint values, statistical comparisons (e.g., with and without SSB, for each substrate), and a titration of SSB concentration. Include controls showing SSB alone does not unwind DNA and that the effect is dependent on the SSB-χ interaction (e.g., using χ R128A or SSB ΔC1 in the same assay).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors propose, based on fluorescein quenching data, that "SSB binds behind YoaA-χ relative to the DNA ds/ss junction" and that this arrangement differs for DinG.
+  - **Evidence pointer** Figure 5, Table S4, Supplementary Figure 4
+  - **Concern** The fluorescein quenching assay is used to infer the relative position of SSB and the helicase on DNA. However, the differences in fluorescence intensity with and without SSB are described as "small but consistent." The interpretation that a larger quench by YoaA-χ in the presence of SSB indicates SSB is behind the helicase relies on assumptions about the distance-dependence of quenching and the stoichiometry of the protein-DNA complexes that are not fully validated. The authors do not provide a calibration of the quenching efficiency as a function of distance in this system, nor do they rule out alternative explanations such as SSB-induced conformational changes in the helicase or changes in DNA structure.
+  - **Why it matters** The proposed spatial arrangement is a key part of the mechanistic model. If the interpretation is incorrect, the "caboose" model is weakened. The small effect sizes and indirect nature of the measurement make this a fragile pillar of the argument.
+  - **Resolution test** Provide a more rigorous calibration of the quenching assay, including control experiments with fluorophores at defined positions, and consider alternative techniques (e.g., FRET between labeled SSB and helicase, or protein footprinting) to directly assess the relative positions of SSB and YoaA-χ on DNA.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors state that "YoaA-χ and SSB have a functional interaction" and that the physical interaction is necessary for unwinding SSB-bound DNA.
+  - **Evidence pointer** Figures 2–4, EMSA data
+  - **Concern** The EMSA data are described but not shown in the provided text. The authors state that YoaA-χ binds SSB-bound DNA with lower affinity when the SSB-χ interaction is disrupted (χ R128A or SSB ΔC1), but the quantitative binding affinities or shifts are not reported. The functional necessity of the interaction is inferred from the helicase assays, but the authors do not demonstrate that the interaction is direct (e.g., via pull-down or co-immunoprecipitation) in the context of the helicase complex.
+  - **Why it matters** The claim of a functional interaction is central to the paper. Without direct evidence of binding and quantitative data, the reader cannot distinguish between a specific SSB-χ interaction and a general effect of SSB on DNA accessibility.
+  - **Resolution test** Provide EMSA gels with quantification, binding curves, and dissociation constants where possible. Include a direct binding assay (e.g., fluorescence anisotropy or pull-down) between YoaA-χ and SSB to demonstrate a physical interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states "we discovered YoaA-χ and SSB have a functional interaction" but does not specify the nature of the interaction or the key finding of SSB translocation. The abstract could be more informative about the single-molecule result.
+  - **Required correction** Revise the abstract to include a brief statement about the single-molecule observation of SSB movement with YoaA-χ.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, single-molecule assay
+  - **Evidence pointer** Methods section
+  - **Issue** The single-molecule assay description lacks details on data acquisition parameters (e.g., frame rate, total observation time, number of molecules analyzed, criteria for including/excluding molecules).
+  - **Required correction** Provide these details to allow reproducibility and assessment of data quality.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 5
+  - **Evidence pointer** Figure 5, Table S4
+  - **Issue** The fluorescein quenching data are presented as relative fluorescence intensities, but the raw data and normalization procedures are not described in the text.
+  - **Required correction** Describe the normalization and analysis procedure for the fluorescein quenching data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the discrepancy with Cheng et al. regarding DinG stimulation by SSB is brief and does not fully explore possible experimental differences.
+  - **Required correction** Expand this discussion to consider additional factors (e.g., salt conditions, protein concentrations, substrate design) that might explain the discrepancy.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The AlphaFold 3 model is described as supporting the "caboose" model, but the limitations of predicted structures are not acknowledged.
+  - **Required correction** Add a caveat that the model is predictive and requires experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (single-molecule analysis), R1-M2 (quantitative helicase data), R1-M3 (fluorescein quenching interpretation), R1-M4 (direct interaction evidence).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The claim of a mechanoenzyme pulling SSB along ssDNA is novel and, if substantiated, would represent a new paradigm for helicase-SSB coordination. The study is original in its combination of approaches and its focus on YoaA-χ, a relatively uncharacterized helicase.
+  - **Scientific importance** The work addresses a fundamental question in DNA damage tolerance and replication fork dynamics. Understanding how helicases and SSB cooperate is of broad significance to DNA metabolism. The potential implications for AZT resistance mechanisms in E. coli add translational relevance.
+  - **Interdisciplinary readership** The topic is of interest to molecular biologists, biochemists, biophysicists, and those studying DNA repair. The single-molecule component may attract a biophysics audience. However, the specialized nature of the system (E. coli helicase) may limit broader appeal.
+  - **Technical soundness** The experimental design is generally sound, but the quantitative rigor is insufficient in key areas (single-molecule analysis, helicase assay quantification, fluorescein quenching interpretation). The lack of statistical analysis and raw data presentation weakens the technical foundation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, with clear explanations of the biological context. However, the results section relies heavily on narrative descriptions of figures without quantitative details, which may make it difficult for nonspecialists to evaluate the strength of the evidence.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central observation is potentially important, but the current evidence base is insufficient to fully establish the claim of SSM translocation by YoaA-χ. The authors should be encouraged to provide quantitative data, additional controls, and more rigorous single-molecule analysis.
+
+## Risk / unsupported claims
+- The claim that "SSB translocates along ssDNA with YoaA-χ" is not fully supported by the described single-molecule analysis; the data are presented qualitatively and lack statistical rigor.
+- The claim that "SSB binds behind YoaA-χ relative to the DNA ds/ss junction" is based on indirect fluorescein quenching data with small effect sizes and unvalidated assumptions.
+- The statement that this is "the first demonstration of a mechanoenzyme pulling SSB along ssDNA" is a strong claim that requires the single-molecule data to be unequivocal.
+- The functional necessity of the SSB-χ interaction for unwinding SSB-bound DNA is inferred from mutant studies but not directly demonstrated.
+- The discrepancy with Cheng et al. regarding DinG stimulation by SSB is noted but not resolved.

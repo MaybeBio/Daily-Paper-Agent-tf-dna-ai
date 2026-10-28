@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37986676",
+  "title": "Machine learning and single-cell transcriptome profiling reveal regulation of fibroblast activation through THBS2/TGFbeta1/P-Smad2/3 signalling pathway in hypertrophic scar.",
+  "authors": "Song, Binyu; Zhu, Yuhan; Zhao, Ying; Wang, Kai; Peng, Yixuan; Chen, Lin; Yu, Zhou; Song, Baoqiang",
+  "journal": "International wound journal",
+  "published_date": "2023-11-21",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用机器学习与单细胞转录组分析瘢痕疙瘩中成纤维细胞活化及THBS2/TGFbeta1通路，虽涉及机器学习但核心为基因表达与信号通路，无蛋白质-DNA互作或TF-DNA结合建模，与本课题关联微弱。",
+  "abstract": "Hypertrophic scar (HS) is a chronic inflammatory skin disorder characterized by excessive deposition of extracellular matrix, and the mechanisms underlying their formation remain poorly understood. We analysed scRNA-seq data from samples of normal skin and HS. Using the hdWGCNA method, key gene modules of fibroblasts in HS were identified. Non-negative matrix factorization was employed to perform subtype analysis of HS patients using these gene modules. Multiple machine learning algorithms were applied to screen and validate accurate gene signatures for identifying and predicting HS, and a convolutional neural network (CNN) based on deep learning was established and validated. Quantitative reverse transcription-polymerase chain reaction and western blotting were performed to measure mRNA and protein expression. Immunofluorescence was used for gene localization analysis, and biological features were assessed through CCK8 and wound healing assay. Single-cell sequencing revealed distinct subpopulations of fibroblasts in HS. HdWGCNA identified key gene characteristics of this population, and pseudotime analysis was conducted to investigate gene variation during fibroblast differentiation. By employing various machine learning algorithms, the gene range was narrowed down to three key genes. A CNN was trained using the expression of these key genes and immune cell infiltration, enabling diagnosis and prediction of HS. Functional experiments demonstrated that THBS2 is associated with fibroblast proliferation and migration in HS and affects the formation and development of HS through the TGFbeta1/P-Smad2/3 pathway. Our study identifies unique fibroblast subpopulations closely associated with HS and provides biomarkers for the diagnosis and treatment of HS.",
+  "abstract_zh": "增生性瘢痕（hypertrophic scar, HS）是一种以细胞外基质过度沉积为特征的慢性炎症性皮肤病，其形成机制仍知之甚少。我们分析了正常皮肤和HS样本的scRNA-seq数据。利用hdWGCNA方法，鉴定了HS中成纤维细胞的关键基因模块。采用非负矩阵分解，利用这些基因模块对HS患者进行亚型分析。应用多种机器学习算法筛选并验证用于识别和预测HS的准确基因特征，并建立和验证了基于深度学习的卷积神经网络（convolutional neural network, CNN）。采用定量逆转录聚合酶链反应和蛋白质印迹法检测mRNA和蛋白质表达。免疫荧光用于基因定位分析，并通过CCK8和伤口愈合实验评估生物学特性。单细胞测序揭示了HS中成纤维细胞的独特亚群。HdWGCNA鉴定了该群体的关键基因特征，并进行了伪时间分析以研究成纤维细胞分化过程中的基因变异。通过采用多种机器学习算法，基因范围缩小至三个关键基因。利用这些关键基因的表达和免疫细胞浸润训练了CNN，实现了对HS的诊断和预测。功能实验表明，THBS2与HS中成纤维细胞的增殖和迁移相关，并通过TGFbeta1/P-Smad2/3通路影响HS的形成和发展。我们的研究识别了与HS密切相关的独特成纤维细胞亚群，并为HS的诊断和治疗提供了生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37986676/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37986676/",
+  "paper_page_path": "papers/pubmed/37986676/index.html"
+}

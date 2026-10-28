@@ -1,0 +1,554 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.14.557719",
+  "title": "EquiPNAS: improved protein-nucleic acid binding site prediction using protein-language-model-informed equivariant deep graph neural networks",
+  "doi": "10.1101/2023.09.14.557719",
+  "abstract": "Protein language models (pLMs) trained on a large corpus of protein sequences have shown unprecedented scalability and broad generalizability in a wide range of predictive modeling tasks, but their power has not yet been harnessed for predicting protein-nucleic acid binding sites, critical for characterizing the interactions between proteins and nucleic acids. Here we present EquiPNAS, a new pLM-informed E(3) equivariant deep graph neural network framework for improved protein-nucleic acid binding site prediction. By combining the strengths of pLM and symmetry-aware deep graph learning, EquiPNAS consistently outperforms the state-of-the-art methods for both protein-DNA and protein-RNA binding site prediction on multiple datasets across a diverse set of predictive modeling scenarios ranging from using experimental input to AlphaFold2 predictions. Our ablation study reveals that the pLM embeddings used in EquiPNAS are sufficiently powerful to dramatically reduce the dependence on the availability of evolutionary information without compromising on accuracy, and that the symmetry-aware nature of the E(3) equivariant graph-based neural architecture offers remarkable robustness and performance resilience. EquiPNAS is freely available at https://github.com/Bhattacharya-Lab/EquiPNAS .",
+  "authors": [
+    "Rahmatullah Roche",
+    "Bernard Moussad",
+    "Md Hossain Shuvo",
+    "Sumit Tarafder",
+    "Debswapna Bhattacharya"
+  ],
+  "published_date": "2023-09-16",
+  "updated_date": "2023-09-17T02:10:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.14.557719",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.14.557719.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:11:15Z",
+        "timestamp": 1768507875891,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Protein language models (pLMs) trained on a large corpus of protein sequences have shown unprecedented scalability and broad generalizability in a wide range of predictive modeling tasks, but their power has not yet been harnessed for predicting protein-nucleic acid binding sites, critical for characterizing the interactions between proteins and nucleic acids. Here we present EquiPNAS, a new pLM-informed E(3) equivariant deep graph neural network framework for improved protein-nucleic acid binding site prediction. By combining the strengths of pLM and symmetry-aware deep graph learning, EquiPNAS consistently outperforms the state-of-the-art methods for both protein-DNA and protein-RNA binding site prediction on multiple datasets across a diverse set of predictive modeling scenarios ranging from using experimental input to AlphaFold2 predictions. Our ablation study reveals that the pLM embeddings used in EquiPNAS are sufficiently powerful to dramatically reduce the dependence on the availability of evolutionary information without compromising on accuracy, and that the symmetry-aware nature of the E(3) equivariant graph-based neural architecture offers remarkable robustness and performance resilience. EquiPNAS is freely available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Bhattacharya-Lab/EquiPNAS\">https://github.com/Bhattacharya-Lab/EquiPNAS</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.09.14.557719",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2023-09-17T02:10:13Z",
+        "timestamp": 1694916613000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "EquiPNAS: improved protein-nucleic acid binding site prediction using protein-language-model-informed equivariant deep graph neural networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Rahmatullah",
+          "family": "Roche",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bernard",
+          "family": "Moussad",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md Hossain",
+          "family": "Shuvo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sumit",
+          "family": "Tarafder",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9630-0141",
+          "authenticated-orcid": false,
+          "given": "Debswapna",
+          "family": "Bhattacharya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07348"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq617"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz324"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq295"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003341",
+          "DOI": "10.1371/journal.pcbi.1003341",
+          "article-title": "Structure-based function prediction of uncharacterized protein using binding sites comparison",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.6",
+          "first-page": "5858",
+          "article-title": "Understanding and predicting druggability",
+          "volume": "53",
+          "year": "2010",
+          "journal-title": "A high-throughput method for detection of drug binding sites. Journal of medicinal chemistry"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "930",
+          "DOI": "10.1093/bioinformatics/bty756",
+          "article-title": "Improving the prediction of protein–nucleic acids binding residues via multiple sequence profiles and the consensus of complementary methods",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbaa397",
+          "DOI": "10.1093/bib/bbaa397",
+          "article-title": "NCBRPred: predicting nucleic acid binding residues in proteins based on multilabel learning",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00749"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab336"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0097725"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4474"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.13",
+          "first-page": "1389",
+          "article-title": "Predicting protein-DNA binding residues by weightedly combining sequence-based features and boosting multiple SVMs",
+          "volume": "14",
+          "year": "2016",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "994",
+          "DOI": "10.1109/TCBB.2013.104",
+          "article-title": "Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky439"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1885",
+          "DOI": "10.1002/prot.24330",
+          "article-title": "DNABind: A hybrid algorithm for structure-based prediction of DNA-binding residues by combining machine learning-and template-based approaches",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "PROTEINS: structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku681"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "4941",
+          "DOI": "10.1038/s41467-019-12920-0",
+          "article-title": "A deep learning framework to predict binding preference of RNA constituents on protein surface",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "e51",
+          "DOI": "10.1093/nar/gkab044",
+          "article-title": "GraphBind: protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleicacid-binding residues",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab564",
+          "DOI": "10.1093/bib/bbab564",
+          "article-title": "AlphaFold2-aware protein–DNA binding site prediction using graph transformer",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "223",
+          "DOI": "10.1038/newbio233223b0",
+          "article-title": "Protein data bank",
+          "volume": "233",
+          "year": "1971",
+          "journal-title": "Nature New Biol"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.25",
+          "article-title": "ProtTrans: Towards cracking the language of Life’s code through selfsupervised deep learning and high performance computing",
+          "year": "2007",
+          "journal-title": "arXiv 2020. arXiv preprint"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "2102",
+          "DOI": "10.1093/bioinformatics/btac020",
+          "article-title": "ProteinBERT: a universal deep-learning model of protein sequence and function",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "4348",
+          "DOI": "10.1038/s41467-022-32007-7",
+          "article-title": "ProtGPT2 is a deep unsupervised language model for protein design",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1617",
+          "DOI": "10.1038/s41587-022-01432-w",
+          "article-title": "Single-sequence protein structure prediction using a language model and deep learning",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.31",
+          "unstructured": "Vaswani, A. et al. Attention is all you need. Advances in neural information processing systems 30 (2017)."
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Madani, A. et al. Large language models generate functional protein sequences across diverse families. Nature Biotechnology, 1–8 (2023).",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.iecr.1c04943"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.34",
+          "first-page": "9323",
+          "volume-title": "in Proceedings of the 38th International Conference on Machine Learning",
+          "volume": "139",
+          "year": "2021"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1011435",
+          "DOI": "10.1371/journal.pcbi.1011435",
+          "article-title": "E (3) equivariant graph neural networks for robust and accurate protein-protein interaction site prediction",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2303499120"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hie, B. L. et al. Efficient evolution of human antibodies from general protein language models. Nature Biotechnology (2023).",
+          "DOI": "10.1038/s41587-023-01763-2"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "876",
+          "DOI": "10.1038/s42003-023-05133-1",
+          "article-title": "Integration of pre-trained protein language models into geometric deep learning networks",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Communications Biology"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01488-1"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.42",
+          "year": "2020",
+          "journal-title": "Learning from Protein Structure with Geometric Vector Perceptrons"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.43",
+          "year": "2019",
+          "journal-title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.44",
+          "year": "2019",
+          "journal-title": "Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.45",
+          "year": "2016",
+          "journal-title": "SGDR: Stochastic Gradient Descent with Warm Restarts"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.46",
+          "year": "2014",
+          "journal-title": "Adam: A Method for Stochastic Optimization"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks966"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq003"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.4.404"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2023092012000584000_2023.09.14.557719v1.51",
+          "year": "2014",
+          "journal-title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.14.557719",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:14:23Z",
+        "timestamp": 1768454063000
+      },
+      "score": 165.90894,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.14.557719"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            16
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2023.09.14.557719",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/nar/gkae039",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36327857",
+  "title": "A multitask classification framework based on vision transformer for predicting molecular expressions of glioma.",
+  "authors": "Xu, Qian; Xu, Qian Qian; Shi, Nian; Dong, Li Na; Zhu, Hong; Xu, Kai",
+  "journal": "European journal of radiology",
+  "published_date": "2022-11-04",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用Vision Transformer基于MRI预测胶质瘤分子表达，属医学影像分类，与蛋白质-DNA互作及TF-DNA结合建模完全无关。",
+  "abstract": "PURPOSE: The purpose of this study is to develop a Vision Transformer model with multitask classification framework that is appropriate for predicting four molecular expressions of glioma simultaneously based on MR imaging. MATERIALS AND METHODS: A total of 188 glioma (grades II-IV) patients with an immunohistochemical diagnosis of IDH, MGMT, Ki67 and P53 expression were enrolled in our study. A Vision Transformer (ViT) model, including three independent networks based on T2WI, T1CWI and T2 + T1CWI (T2-net, T1C-net and TU-net), was developed for the prediction of four glioma molecular expressions simultaneously. To evaluate the model performance, the accuracy rate, recall, precision, F1-score, and area under the receiver operating characteristic curve (AUC) were calculated. RESULTS: The proposed ViT model achieved high accuracy in predicting IDH, MGMT, Ki67 and P53 expression in gliomas. Among the three networks using the ViT model, TU-net achieved the best results with the highest values of accuracy (range, 0.937-0.969), precision (range, 0.949-0.972), recall (range, 0.873-0.991), F1-score (range, 0.910-0.981) and AUC (range, 0.976-0.984). Comparisons were also made between our ViT model and convolutional neural network (CNN)-based models, and the proposed ViT model outperformed the existing CNN-based models. CONCLUSION: Vision Transformer is a reliable approach for the prediction of glioma molecular biomarkers and can be a viable alternative to CNNs.",
+  "abstract_zh": "目的：本研究旨在开发一种适用于基于MR成像同时预测胶质瘤四种分子表达的视觉Transformer多任务分类框架模型。材料与方法：共纳入188例经免疫组织化学确诊IDH、MGMT、Ki67和P53表达的胶质瘤（II-IV级）患者。开发了一种视觉Transformer（Vision Transformer, ViT）模型，包括基于T2WI、T1CWI和T2 + T1CWI的三个独立网络（T2-net、T1C-net和TU-net），用于同时预测四种胶质瘤分子表达。为评估模型性能，计算了准确率、召回率、精确率、F1分数和受试者工作特征曲线下面积（AUC）。结果：所提出的ViT模型在预测胶质瘤IDH、MGMT、Ki67和P53表达方面取得了高准确率。在使用ViT模型的三个网络中，TU-net取得了最佳结果，其准确率（范围，0.937-0.969）、精确率（范围，0.949-0.972）、召回率（范围，0.873-0.991）、F1分数（范围，0.910-0.981）和AUC（范围，0.976-0.984）值最高。此外，还将我们的ViT模型与基于卷积神经网络（convolutional neural network, CNN）的模型进行了比较，所提出的ViT模型优于现有的基于CNN的模型。结论：视觉Transformer是预测胶质瘤分子生物标志物的可靠方法，可作为CNN的可行替代方案。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36327857/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36327857/",
+  "paper_page_path": "papers/pubmed/36327857/index.html"
+}

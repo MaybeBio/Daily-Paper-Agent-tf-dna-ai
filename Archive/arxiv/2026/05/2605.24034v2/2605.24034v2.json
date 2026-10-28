@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2605.24034v2",
+  "title": "WTKO-CNN: Deep Learning Reveals Sequence Motifs Distinguishing Wild-Type and Knockout ATAC-seq Peaks",
+  "doi": "",
+  "abstract": "Chromatin regulators can alter transcriptional programs by modifying the accessibility of regulatory DNA elements. Understanding how regulatory sequences differ between wild-type (WT) and knockout (KO) conditions is crucial for deciphering transcriptional control. Here, we applied a convolutional neural network, \\textbf{WTKO-CNN} with an attention mechanism to classify DNA sequences as WT or KO, achieving high predictive performance. To interpret the model, we generated saliency maps to identify nucleotide positions most influential for the classification decision. From these high-saliency regions, we extracted and clustered k-mers, enabling de novo motif discovery. Sequence logos and consensus motifs derived from the CNN filters revealed biologically meaningful patterns, which are further validated using MEME, TOMTOM, and HOMER against known transcription factor binding sites. Our analysis identified motifs associated with transcription factor families that discriminate WT from KO sequences, demonstrating that CNN-guided saliency mapping is a powerful approach for uncovering functional sequence features.",
+  "authors": [
+    "Lopamudra Dey"
+  ],
+  "published_date": "2026-05-21T07:46:50Z",
+  "updated_date": "2026-09-30T08:01:29Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.AI",
+  "landing_url": "https://arxiv.org/abs/2605.24034v2",
+  "pdf_url": "https://arxiv.org/pdf/2605.24034v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.GN",
+    "cs.AI"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2605.24034v2",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.AI"
+    ],
+    "journal_ref": ""
+  }
+}

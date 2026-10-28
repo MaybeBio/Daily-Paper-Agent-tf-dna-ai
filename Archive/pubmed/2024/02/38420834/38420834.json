@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "38420834",
+    "doi": "10.31083/j.fbl2902075",
+    "title": "Deep-Learning Uncovers certain CCM Isoforms as Transcription Factors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cerebral Cavernous Malformations (CCMs) are brain vascular abnormalities associated with an increased risk of hemorrhagic strokes. Familial CCMs result from autosomal dominant inheritance involving three genes: KRIT1 (CCM1), MGC4607 (CCM2), and PDCD10 (CCM3). CCM1 and CCM3 form the CCM Signal Complex (CSC) by binding to CCM2. Both CCM1 and CCM2 exhibit cellular heterogeneity through multiple alternative spliced isoforms, where exons from the same gene combine in diverse ways, leading to varied mRNA transcripts. Additionally, both demonstrate nucleocytoplasmic shuttling between the nucleus and cytoplasm, suggesting their potential role in gene expression regulation as transcription factors (TFs). Due to the accumulated data indicating the cellular localization of CSC proteins in the nucleus and their interaction with progesterone receptors, which serve dual roles as both cellular signaling components and TFs, a question has arisen regarding whether CCMs could also function in both capacities like progesterone receptors. METHODS: To investigate this potential, we employed our proprietary deep-learning (DL)-based algorithm, specifically utilizing a biased-Support Vector Machine (SVM) model, to explore the plausible cellular function of any of the CSC proteins, particularly focusing on CCM gene isoforms with nucleocytoplasmic shuttling, acting as TFs in gene expression regulation. RESULTS: Through a comparative DL-based predictive analysis, we have effectively discerned a collective of 11 isoforms across all CCM proteins (CCM1-3). Additionally, we have substantiated the TF functionality of 8 isoforms derived from CCM1 and CCM2 proteins, marking the inaugural identification of CCM isoforms in the role of TFs. CONCLUSIONS: This groundbreaking discovery directly challenges the prevailing paradigm, which predominantly emphasizes the involvement of CSC solely in endothelial cellular functions amid various potential cellular signal cascades during angiogenesis.",
+    "keywords": [
+      "Biased SVM model",
+      "CCM2 isoforms",
+      "Evolutionary Scale Modeling",
+      "Large Language Model",
+      "Support Vector Machine",
+      "cerebral cavernous malformations",
+      "deep-learning",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Hemangioma, Cavernous, Central Nervous System/genetics",
+      "Proto-Oncogene Proteins/genetics/metabolism",
+      "Transcription Factors/metabolism",
+      "*Deep Learning",
+      "Receptors, Progesterone/metabolism",
+      "Carrier Proteins/metabolism",
+      "Protein Isoforms/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Croft, Jacob",
+        "Gao, Liyuan",
+        "Sheng, Victor",
+        "Zhang, Jun"
+      ],
+      "short_names": [
+        "Croft J",
+        "Gao L",
+        "Sheng V",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular & Translational Medicine (MTM), Texas Tech University Health Science Center El Paso (TTUHSCEP), El Paso, TX 79905, USA.",
+        "Department of Computer Sciences, Texas Tech University, Lubbock, TX 79409, USA.",
+        "Department of Computer Sciences, Texas Tech University, Lubbock, TX 79409, USA.",
+        "Department of Molecular & Translational Medicine (MTM), Texas Tech University Health Science Center El Paso (TTUHSCEP), El Paso, TX 79905, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Croft, Jacob",
+        "short_name": "Croft J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular & Translational Medicine (MTM), Texas Tech University Health Science Center El Paso (TTUHSCEP), El Paso, TX 79905, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Liyuan",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Sciences, Texas Tech University, Lubbock, TX 79409, USA."
+        ]
+      },
+      {
+        "full_name": "Sheng, Victor",
+        "short_name": "Sheng V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Sciences, Texas Tech University, Lubbock, TX 79409, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular & Translational Medicine (MTM), Texas Tech University Health Science Center El Paso (TTUHSCEP), El Paso, TX 79905, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioscience (Landmark edition)"
+    ],
+    "journal_abbrev": [
+      "Front Biosci (Landmark Ed)"
+    ],
+    "pub_date": "2024 Feb 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/29 06:42",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38420834",
+      "20809750",
+      "32186778",
+      "39181174",
+      "18300272",
+      "17160895",
+      "28645800",
+      "20419355",
+      "33810005",
+      "16329096",
+      "23485406",
+      "20940147",
+      "40478324",
+      "20308363",
+      "19088124",
+      "19088123",
+      "31676827",
+      "23506982",
+      "32524560",
+      "32615293",
+      "21029238",
+      "16571644",
+      "16037064",
+      "27737651",
+      "31872111",
+      "25525273",
+      "20096038",
+      "33122157",
+      "17562932",
+      "40401429",
+      "25354366",
+      "28870584",
+      "24058906",
+      "22182521",
+      "28000143",
+      "31937560",
+      "24007869",
+      "28160210",
+      "26417067",
+      "36285625",
+      "17277691",
+      "27561926",
+      "30622508",
+      "17657516",
+      "23748444",
+      "24251678",
+      "39272679",
+      "26304651",
+      "24287896",
+      "22378217",
+      "32922933",
+      "24481819",
+      "30161288",
+      "36077089",
+      "17187287",
+      "32524540",
+      "31338212",
+      "26612856",
+      "24643410",
+      "27548575",
+      "35563390",
+      "16529293",
+      "25869611",
+      "17440989",
+      "35667709",
+      "19688696",
+      "18060436",
+      "24401931",
+      "23722637",
+      "24466005",
+      "28255959",
+      "20592472",
+      "38293758",
+      "23000020",
+      "32502201",
+      "28745674",
+      "32524570",
+      "31360916",
+      "27649701",
+      "37019926",
+      "19184323",
+      "16373645",
+      "30701383",
+      "33495460",
+      "32702807",
+      "11741838",
+      "27027284",
+      "19069160",
+      "17345049",
+      "36892712",
+      "19370760",
+      "19454328",
+      "39402138",
+      "25825518",
+      "34357553",
+      "27639680",
+      "36723700",
+      "32640906",
+      "33071727",
+      "31776290"
+    ],
+    "review": [
+      "38420834",
+      "33810005",
+      "23506982",
+      "16571644",
+      "20096038",
+      "26304651",
+      "24287896",
+      "24481819",
+      "32524540",
+      "31338212",
+      "35563390",
+      "35667709",
+      "19069160"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.imrpress.com/journal/FBL/29/2/10.31083/j.fbl2902075",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.20.517239",
+  "title": "Decoding protein binding landscape on circular RNAs with base-resolution Transformer models",
+  "authors": "Hehe Wu; Yi Fang; Yang Yang; Xiaoyong Pan; Hong-Bin Shen",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-20",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN和Transformer预测环状RNA上RNA结合蛋白结合位点，虽为蛋白质-RNA互作且方法可迁移，但对象非蛋白质-DNA，与TF-DNA课题关联有限。",
+  "abstract": "Circular RNAs (circRNAs) interact with RNA-binding proteins (RBPs) to modulate gene expression. To date, most computational methods for predicting RBP binding sites on circRNAs focus on circRNA fragments instead of circRNAs. These methods detect whether a circRNA fragment contains binding sites, but cannot determine where are the binding sites and how many binding sites are on the circRNA transcript. We report a hybrid deep learning-based tool, CircSite, to predict RBP binding sites at single-nucleotide resolution and detect key contributed nucleotides on circRNA transcripts. CircSite takes advantage of convolutional neural networks (CNNs) and Transformer for learning local and global representations of circRNAs binding to RBPs, respectively. We construct 37 datasets of RBP-binding circRNAs for benchmarking and the experimental results show that CircSite offers accurate predictions of RBP binding nucleotides and detects key subsequences aligning well with known binding motifs.",
+  "abstract_zh": "环状RNA（circRNAs）与RNA结合蛋白（RBPs）相互作用以调节基因表达。迄今为止，大多数用于预测circRNAs上RBP结合位点的计算方法主要关注circRNA片段而非完整circRNA。这些方法能检测circRNA片段是否含有结合位点，但无法确定结合位点的具体位置及circRNA转录本上结合位点的数量。我们报告了一种基于混合深度学习的工具CircSite，用于在单核苷酸分辨率下预测RBP结合位点，并检测circRNA转录本上关键贡献核苷酸。CircSite利用卷积神经网络（CNNs）和Transformer分别学习circRNAs与RBPs结合的局部和全局表示。我们构建了37个RBP结合circRNAs数据集用于基准测试，实验结果表明，CircSite能准确预测RBP结合核苷酸，并检测出与已知结合基序高度一致的关键子序列。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.20.517239",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.20.517239",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.20.517239/index.html"
+}

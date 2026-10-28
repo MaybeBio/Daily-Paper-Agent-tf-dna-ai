@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, acknowledgements, footnotes)
+- **Assessment boundary** Scientific content and technical soundness of the evolutionary analyses and conclusions presented; no assessment of formatting or editorial style
+- **Shared manuscript claim summary** The authors test the hypothesis that transcription factors evolved from non-specific DNA binding proteins by analyzing the IHF/HU family. They report that HUβ was present at the bacterial root, IHF subunits emerged later in Proteobacteria, HUα arose via transfer events in Gammaproteobacteria, and that IHFα and IHFβ acquired DNA binding residues through distinct evolutionary trajectories.
+- **Visible evidence base** Abstract, Introduction, Methods (dataset curation, phylogenetic reconstruction, ancestral state reconstruction, PSSM calculations), Results (PCA, NJ trees, ancestral state reconstruction, PSSM scoring), Discussion, Data Availability, Supplementary figure references
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; no figures or tables embedded in the manuscript text; no alignment files or tree files provided for independent verification; no statistical details for Robinson-Fould tests or Mantel test beyond reported values; no details on the structure-based alignment procedure beyond reference to MAFFT-DASH
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important evolutionary question with a well-chosen model system. The authors present a plausible narrative supported by multiple complementary analyses. However, the absence of key methodological details and the lack of access to supplementary materials limit the ability to fully evaluate the robustness of the conclusions. The central claims regarding the ancestral state of the family and the distinct trajectories of IHFα and IHFβ are supported by the presented evidence, but several technical aspects require clarification.
+- **Who would be interested in the results, and why** Evolutionary biologists studying the origins of transcriptional regulation, microbiologists interested in nucleoid-associated proteins and their functional diversification, and computational biologists developing phylogenetic methods for protein family analysis would find these results relevant. The work also speaks to broader questions about how specificity evolves from promiscuous or non-specific binding.
+- **Major strengths** The study uses a well-defined protein family with clear functional contrast between specific (IHF) and non-specific (HU) DNA binding. The combination of ancestral state reconstruction on species trees with ancestral sequence reconstruction on a rooted gene tree provides complementary evidence. The use of an outgroup from the same superfamily for rooting is a thoughtful approach. The authors acknowledge limitations of their approach, including the single outgroup constraint and the possibility of horizontal gene transfer confounding inferences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of phylogenetic rooting
+  - **Claim pointer** The gene tree was rooted using TraM as the only outgroup, and this rooting is used to infer the ancestral state of the IHF/HU family.
+  - **Evidence pointer** Methods, Results (Figure 3A), Supplementary Figures S5-S7
+  - **Concern** The rooting of the gene tree relies on a single outgroup sequence from a single family (TraM). The authors report inconsistent results with midpoint rooting and phylogenetic reconciliation, and only the outgroup-based approach yielded consistent results. However, with a single outgroup, the placement of the root is highly sensitive to the position of that outgroup and to model misspecification. The authors do not report any sensitivity analyses, such as alternative outgroup choices, removal of long branches, or testing with different substitution models.
+  - **Why it matters** The central conclusion that the family ancestor was HU-like depends critically on the root placement. If the root were placed elsewhere, the inferred ancestral state could differ substantially. The authors' own admission that other rooting methods gave inconsistent results underscores this concern.
+  - **Resolution test** Provide sensitivity analyses demonstrating that the root placement is robust to alternative outgroup choices (if any exist), to removal of the outgroup and use of alternative rooting methods, and to different model specifications. Alternatively, provide evidence that the TraM outgroup is not on an excessively long branch that could attract the root.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of ancestral state reconstruction
+  - **Claim pointer** Ancestral state reconstruction on the species tree was used to infer that HUβ was present at the bacterial root and that IHF subunits emerged later in Proteobacteria.
+  - **Evidence pointer** Methods, Results (Figure 2, Supplementary Figures S3-S4)
+  - **Concern** The ancestral state reconstruction was performed using the ace function with marginal reconstruction. The authors do not report the model used for character evolution (e.g., equal rates, symmetrical, or all-rates-different), nor do they report confidence intervals or posterior probabilities for the ancestral states. Given that the presence/absence patterns of the four subunits are likely correlated (e.g., IHFα and IHFβ often co-occur), a model that treats each character independently may be inappropriate.
+  - **Why it matters** The inference that HUβ was present at the bacterial root and that IHF emerged later is a key claim. Without information on model choice and uncertainty, the robustness of this inference cannot be assessed. Correlated evolution of subunits could bias inferences if characters are treated independently.
+  - **Resolution test** Report the model of character evolution used, provide ancestral state probabilities or confidence intervals for key nodes, and test whether results are robust to alternative models. Consider testing for correlated evolution between subunits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence for distinct evolutionary trajectories of IHFα and IHFβ
+  - **Claim pointer** IHFα co-opted residues from HU, while IHFβ evolved its DNA binding residues independently.
+  - **Evidence pointer** Results (Figure 4, Supplementary Figures S9-S10), Discussion
+  - **Concern** The PSSM analysis shows that IHFα residues are conserved in early HU clades, while IHFβ residues are not. However, the interpretation that this reflects co-option versus independent evolution is one of several possible explanations. Alternative scenarios include differential selective pressures, differences in the age of the residues, or differences in the functional constraints on the two subunits. The authors do not discuss alternative interpretations or test them explicitly.
+  - **Why it matters** The claim of distinct evolutionary trajectories is a central conclusion of the paper. If the pattern can be explained by other mechanisms, the conclusion would be weakened.
+  - **Resolution test** Provide additional analyses or discussion that address alternative explanations. For example, test whether the residues in question are under different selective pressures in the two lineages, or whether the pattern holds when controlling for phylogenetic relatedness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** PSSM calculation
+  - **Evidence pointer** Methods
+  - **Issue** The description of the PSSM calculation is incomplete. The formula for the log odds ratio is mentioned but not fully written out, and the pseudocount calculation is described but the rationale is not explained.
+  - **Required correction** Provide the complete formula and a brief explanation of why the pseudocount value was chosen.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of results
+  - **Affected element** Species tree comparison
+  - **Evidence pointer** Results
+  - **Issue** The Mantel test and Robinson-Fould values are reported without context. It is unclear what constitutes a "reasonable" congruence for these tests in this context.
+  - **Required correction** Provide a brief interpretation of these values, possibly with reference to typical ranges or thresholds used in the literature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** IHFα-like subset
+  - **Evidence pointer** Results, Supplementary Figure S2
+  - **Issue** The IHFα-like subset is described as having intermediate properties, but the number of sequences in this subset is not reported, nor is the basis for the "IHF-like on molecular weight but HU-like on hydrophobicity" classification described.
+  - **Required correction** Report the number of sequences in this subset and describe the criteria used for classification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Horizontal gene transfer inference
+  - **Evidence pointer** Discussion
+  - **Issue** The authors report 1415 within-subunit transfer events but do not provide context for whether this number is unusually high or expected for a protein family of this size and distribution.
+  - **Required correction** Provide context for this number, possibly by comparing to transfer rates in other protein families or by discussing the expected rate under the null model.
+- **Technical failings that need to be addressed before the case is established** The rooting sensitivity analysis (R1-M1) and the model specification for ancestral state reconstruction (R1-M2) are the primary technical issues that need to be resolved. Without these, the central claims about the ancestral state of the family and the timing of IHF emergence cannot be fully evaluated.
+- **Assessment against Nature-style criteria** Originality: The work addresses a long-standing hypothesis with a systematic approach, which is valuable. Scientific importance: The question of how transcription factors evolve is of broad interest. Interdisciplinary readership: The work bridges microbiology, evolutionary biology, and computational biology, which could attract readers from multiple fields. Technical soundness: The analyses are generally appropriate, but the rooting and ancestral state reconstruction concerns need to be addressed. Readability for nonspecialists: The manuscript is generally well-written, but some methodological sections assume familiarity with phylogenetic terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core narrative is compelling and the model system is well chosen, but the rooting sensitivity and ancestral state reconstruction model specification need to be addressed before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that IHFα co-opted residues from HU while IHFβ evolved independently is supported by the PSSM analysis but alternative explanations are not ruled out.
+- The inference of horizontal gene transfer events (1415 pairs) is reported without context or validation.
+- The claim that the IHF/HU family ancestor was HU-like depends critically on the gene tree rooting, which is based on a single outgroup.
+- The statement that HUα arose via transfer events rather than duplication is presented as a conclusion but the evidence is indirect.
+- The assertion that the Acidobacterial IHFβ retains more HU-like properties is based on a small number of sequences (N=34) and should be interpreted cautiously.

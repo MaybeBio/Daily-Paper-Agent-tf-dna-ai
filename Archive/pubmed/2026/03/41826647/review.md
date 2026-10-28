@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, Supplementary information references)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text. No access to figures, supplementary tables, or raw data beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose that NRIP1 is upregulated in Sjögren's disease (SjD) salivary glands, forms a complex with estrogen receptor α (ERα), and acts as a competitive inhibitor of estradiol (E2) signaling. The NRIP1–ERα complex is claimed to bind estrogen response elements (EREs) on the AQP5 promoter to suppress AQP5 expression and on the MYC promoter to upregulate MYC expression, leading to reduced saliva secretion, epithelial cell apoptosis, and immune/metabolic dysregulation. Nrip1 knockout in ovariectomized mice is reported to reverse the SjD phenotype. Molecular dynamics simulations are used to support competitive binding between NRIP1 and E2 at the ERα ligand-binding domain.
+- **Visible evidence base** RNA-seq, ChIP-seq, scRNA-seq (public dataset HRA003613), microarray data (GEO), RT–qPCR, Western blot, Co-IP, ChIP assay, dual-luciferase reporter assay, immunofluorescence, immunohistochemistry, mouse models (ICR, NOD, OVX, Nrip1-KO/OVX), molecular docking (AlphaFold, AutoDock). Sample sizes are stated for some experiments (n = 3 or n = 5) but not all.
+- **Missing materials affecting confidence** Figures and supplementary figures/tables are referenced but not provided. Raw sequencing data, statistical details (exact P values, error bars, replicates for all experiments), antibody validation information, and full details of the Nrip1-KO mouse generation and validation are not available. The clinical cohort is small (n = 5) and limited to one center.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant and under-explored question: the molecular mechanism linking estrogen signaling decline to salivary gland dysfunction in Sjögren's disease. The identification of NRIP1 as a potential mediator is interesting and could have translational relevance. However, the manuscript as presented has several technical and conceptual gaps that prevent the conclusions from being fully established. The central claim of competitive binding between NRIP1 and E2 at ERα is supported only by computational modeling, not by direct biochemical or biophysical evidence. The mechanistic link between NRIP1–ERα binding to EREs and transcriptional outcomes (suppression of AQP5, activation of MYC) is correlative, and the direction of regulation (repression vs. activation) by the same complex at different promoters is not mechanistically explained. The in vivo rescue experiment is promising but lacks key controls and mechanistic depth. Overall, the work is potentially interesting but currently does not provide sufficient evidence to firmly establish the proposed model.
+- **Who would be interested in the results, and why** Researchers in Sjögren's disease pathogenesis, salivary gland biology, estrogen signaling, and nuclear receptor coregulators. Clinicians managing SjD, particularly those interested in novel biomarkers or therapeutic targets, may also find the work relevant. The potential link between NRIP1 and MYC in an autoimmune context could interest cancer biologists studying MYC regulation, though this connection is speculative at present.
+- **Major strengths** 1) The clinical relevance is clear, and the use of multiple model systems (mouse models, cell lines, patient samples, public datasets) is commendable. 2) The identification of NRIP1 as a candidate regulator through unbiased transcriptomic screening is a reasonable approach. 3) The inclusion of Nrip1-KO/OVX mice provides a direct test of the proposed pathogenic role. 4) The study addresses a plausible and important gap: how estrogen deficiency and inflammation converge on salivary gland dysfunction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "NRIP1 competitively bound to ERα and masked the E2 binding site, providing structural insights into the disruption of hormonal signal."
+  - **Evidence pointer** Results section "Computational simulations suggest that NRIP1 competitively inhibits the E2–ERα signal"; Figure 9
+  - **Concern** The central mechanistic claim of competitive inhibition is based solely on molecular docking simulations (AlphaFold3, AutoDock). No biochemical experiments (e.g., competitive binding assays, surface plasmon resonance, isothermal titration calorimetry, or mutagenesis) are presented to validate the predicted interaction or the competition with E2. The binding free energy differences (−7.30 vs −5.10 kcal/mol for E2; −13.10 vs −5.00 kcal/mol for NRIP1) are presented as evidence, but these are computational predictions and do not constitute experimental proof of competitive binding in a cellular context.
+  - **Why it matters** The entire model hinges on NRIP1 disrupting E2–ERα signaling through direct competition. If this is not experimentally validated, the proposed mechanism remains speculative, and alternative explanations (e.g., NRIP1 acting as a corepressor independent of E2 competition) are equally plausible.
+  - **Resolution test** Provide direct biochemical evidence of NRIP1–ERα interaction and competition with E2, such as competitive binding assays with purified proteins, or cellular assays showing that NRIP1 overexpression displaces E2 binding to ERα. Alternatively, demonstrate that a mutant NRIP1 lacking the ERα-interacting domain fails to reproduce the phenotype.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Transcriptional mechanism
+  - **Claim pointer** "The NRIP1–ERα complex bound to the estrogen response elements of the AQP5 promoter, leading to the downregulation of AQP5 expression... Conversely, the NRIP1–ERα complex bound to the estrogen response elements of the MYC promoter, resulting in the upregulation of MYC expression."
+  - **Evidence pointer** Results sections "The NRIP1–ERα complex correlates negatively with AQP5 and positively with MYC" and "NRIP1–ERα complex binds to ERE sites on the AQP5 promoter and inhibits AQP5 expression and water secretion"; Figures 4–7
+  - **Concern** The manuscript claims that the same NRIP1–ERα complex represses AQP5 but activates MYC, both via ERE binding. However, no mechanistic explanation is provided for how the same complex exerts opposite transcriptional effects at different promoters. The ChIP data show ERα binding to AQP5 and MYC promoters, but the functional consequence (repression vs. activation) is not dissected. The dual-luciferase assays demonstrate promoter activity changes, but the role of NRIP1 in recruiting corepressors vs. coactivators, or in altering ERα conformation, is not addressed. Additionally, the claim that NRIP1 is a "transcriptional coregulator" is not reconciled with its proposed role as a competitive inhibitor of E2 binding.
+  - **Why it matters** The dual regulatory role is a key part of the proposed model. Without understanding the molecular basis for promoter-specific opposite effects, the model is incomplete and the causal link between NRIP1–ERα binding and transcriptional outcomes is not established.
+  - **Resolution test** Perform mechanistic studies to determine how NRIP1–ERα differentially regulates AQP5 and MYC. This could include testing whether NRIP1 recruits different coregulator complexes at each promoter, whether chromatin context (e.g., histone modifications, pioneer factors) dictates the outcome, or whether the ERE sequence context determines the direction of regulation. Mutational analysis of the EREs and NRIP1 domains would strengthen the causal claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo causality
+  - **Claim pointer** "Nrip1-knockout/ovariectomized mice did not develop the SjD phenotypes, confirming the role of NRIP1 in the pathophysiology of SjD."
+  - **Evidence pointer** Results section "Nrip1-KO/OVX mice fail to develop SjD phenotype"; Figure 3
+  - **Concern** The in vivo experiment is a key piece of evidence, but the description is insufficient to evaluate causality. The manuscript states that Nrip1-KO/OVX mice "did not develop the SjD phenotypes" but does not specify which phenotypes were assessed, the time course, the number of animals per group, or whether the rescue was complete or partial. The comparison is made to OVX mice, but the appropriate control (Nrip1-KO without OVX) is not described. Furthermore, the mechanism by which NRIP1 knockout restores salivary function is not explored at the molecular level in vivo (e.g., AQP5 and MYC expression in the KO mice is mentioned but not shown in detail).
+  - **Why it matters** The claim that NRIP1 is required for SjD pathogenesis rests on this experiment. If the phenotypic rescue is incomplete or the assessment is limited, the conclusion is overstated. The lack of mechanistic detail in vivo weakens the translational relevance.
+  - **Resolution test** Provide a detailed description of the in vivo experiment, including sample sizes, time course, and the full panel of phenotypes assessed (e.g., saliva secretion, histology, immune infiltration, autoantibody levels). Show that AQP5 and MYC expression are restored to normal levels in the KO mice. Include appropriate controls (e.g., Nrip1-KO without OVX, and ideally a rescue experiment with NRIP1 re-expression).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** "NRIP1 was significantly upregulated in both the NOD and OVX models compared with their respective control groups" and "ROC analysis revealed that the area under the curve... 0.806 and 0.889"
+  - **Evidence pointer** Results section "NRIP1 expression is elevated in SjD SGs"; Figure 1
+  - **Concern** The manuscript reports statistical significance (P < 0.05) but does not provide effect sizes, confidence intervals, or details on the statistical tests used for each comparison. The ROC analysis is presented for mouse models, but the clinical diagnostic value is claimed without a corresponding ROC analysis on patient samples. The sample sizes for the clinical immunohistochemistry (n = 5) are small, and it is unclear whether these are independent patients or repeated measures.
+  - **Why it matters** The diagnostic claim and the central observation of NRIP1 upregulation need to be supported by robust statistical analysis. Without this, the reader cannot assess the reliability or generalizability of the findings.
+  - **Resolution test** Provide full statistical details for all comparisons, including test names, effect sizes, and confidence intervals. Add ROC analysis for patient samples. Increase the clinical sample size or justify the current sample size with a power calculation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "Sjögren's disease" is used, but the more common term in the field is "Sjögren's syndrome" (SjS). The authors should justify the terminology change or use the conventional term to avoid confusion.
+  - **Required correction** Clarify the terminology choice or use "Sjögren's syndrome" throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Cell culture models
+  - **Evidence pointer** Materials and methods, "Cell culture and transfection"
+  - **Issue** The A253 cell line is used as a model for salivary gland epithelial cells. The relevance of this cell line to primary salivary gland epithelial cells should be discussed, and the authors should acknowledge its limitations (e.g., it is a submandibular gland epidermoid carcinoma cell line).
+  - **Required correction** Add a brief justification for the use of A253 cells and discuss potential limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Sequencing data
+  - **Evidence pointer** Materials and methods, "RNA-seq, scRNA-seq and microarray data"
+  - **Issue** The manuscript does not state where the RNA-seq and ChIP-seq data generated in this study have been deposited. Public data availability is essential for reproducibility.
+  - **Required correction** Provide accession numbers for all sequencing data generated in this study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 9
+  - **Evidence pointer** Results section "Computational simulations suggest that NRIP1 competitively inhibits the E2–ERα signal"
+  - **Issue** The molecular docking figures are described but not shown. The quality and interpretability of these figures are critical for evaluating the computational claims.
+  - **Required correction** Ensure that the docking figures clearly show the binding interfaces, the E2 binding pocket, and the predicted NRIP1 interaction surface. Consider providing a quantitative comparison of docking scores across multiple conformations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion does not adequately address the limitations of the study, particularly the reliance on computational modeling for the central mechanistic claim and the small clinical sample size.
+  - **Required correction** Add a limitations paragraph acknowledging these issues and suggesting future experiments to address them.
+
+## Risk / unsupported claims
+- The claim that NRIP1 "competitively bound to ERα and masked the E2 binding site" is unsupported by experimental evidence; it is based solely on computational docking simulations.
+- The claim that the NRIP1–ERα complex directly binds to EREs on the AQP5 and MYC promoters to cause transcriptional changes is only partially supported. ChIP data show binding, but the causal link to transcriptional regulation is not fully established.
+- The claim that "Nrip1-knockout/OVX mice did not develop the SjD phenotypes" is not fully supported by the data presented, as the phenotypic assessment is not described in sufficient detail.
+- The diagnostic value of NRIP1 for SjD is claimed based on ROC analysis in mouse models, but no ROC analysis is presented for patient samples.
+- The statement that "elevated MYC levels promoted apoptosis and altered immune regulation and cell metabolism" is correlative; the direct causal role of MYC in these processes is not experimentally demonstrated.
+- The proposed mechanism for NRIP1 upregulation in SjD (involving IFN-γ/JAK-STAT or estrogen deficiency) is speculative and presented without direct experimental testing.

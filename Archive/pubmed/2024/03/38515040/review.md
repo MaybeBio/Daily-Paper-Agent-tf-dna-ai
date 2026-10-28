@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Methods, Results, Discussion, Conclusions) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the proposed GNNMF model, its methodological soundness, experimental validation, and claims of improved performance for ATAC-seq motif finding.
+- **Shared manuscript claim summary** The authors propose GNNMF, a multi-view graph neural network that builds a heterogeneous graph with four edge types and two node types, uses a background coexisting probability derived from negative sequences, and an iterloss function, to predict transcription factor binding sites (TFBSs) and find ATAC-seq motifs of varying lengths. They claim improved performance over existing models (FactorNet, scFAN, DeepATAC, MMGraph, MMGraph+jac) across nine metrics on 200 human and 80 mouse ATAC-seq datasets.
+- **Visible evidence base** The provided text includes the full methods, results summaries, and discussion. Specific numerical results are cited in the text (e.g., AEMR improvements, metric values, motif counts) but the actual figures, tables, and supplementary materials referenced (Fig. 1-4, Supplementary Tables S1-S4, Supplementary Figures S1-S2) are not included in the provided material.
+- **Missing materials affecting confidence** The absence of all figures, tables, and supplementary data is a major limitation. This includes the detailed experimental results (Fig. 3, Supplementary Figure S1, Supplementary Table S3), the motif count table (Table 1, Supplementary Table S4), the p-value distributions (Fig. 4), the hyperparameter search ranges (Supplementary Table S2), and the list of datasets (Supplementary Table S1). Without these, the quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially useful extension of graph neural network methods to the problem of ATAC-seq motif discovery. The core idea of using multiple edge types to capture different relationships between k-mers and sequences, and the introduction of a data-driven background threshold, are reasonable. However, the current manuscript has significant weaknesses in its experimental validation and presentation. The lack of crucial details on the baseline models, the statistical significance of improvements, and the biological validation of found motifs prevents a full assessment of the claims. The writing is also unclear in several places, and there are apparent errors in the metric definitions. The work is of interest to a specialized computational biology audience but requires substantial revision to establish its claims rigorously.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, specifically those working on regulatory genomics, transcription factor binding site prediction, motif discovery, and the application of deep learning and graph neural networks to biological sequence data. The method could be of interest to developers of new computational tools for analyzing ATAC-seq data.
+- **Major strengths**
+    1.  The problem is relevant and timely, as ATAC-seq data is widely used and improved computational methods for motif discovery are needed.
+    2.  The proposed architecture, using a multi-view graph with four distinct edge types, is a reasonable and potentially powerful way to model complex relationships in sequence data, going beyond simple co-occurrence.
+    3.  The introduction of a background coexisting probability derived from negative sequences is a sensible approach to set a data-driven threshold, potentially improving over a fixed threshold.
+    4.  The evaluation is conducted on a large number of datasets (200 human, 80 mouse), which is a strength if the results are robust and clearly presented.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Experimental Rigor
+        - **Claim pointer** The claim that GNNMF "improved the area of eight metrics radar scores of 4.92% and 6.81% respectively" and achieved the "highest scores for all eight metrics" on human datasets.
+        - **Evidence pointer** Results section, Fig. 3, Supplementary Figure S1, Supplementary Table S3.
+        - **Concern** The primary evidence for the superiority of GNNMF is the reported improvement in AEMR and other metrics. However, the actual data supporting these claims (figures and tables) is not provided in the manuscript text. More critically, there is no description of the statistical significance of these improvements. Are the reported differences in AEMR, precision, recall, etc., statistically significant across the 200 or 80 datasets? Without error bars, confidence intervals, or statistical tests (e.g., paired t-test, Wilcoxon signed-rank test), the improvements could be due to random variation.
+        - **Why it matters** A core claim of the paper is that GNNMF is better than existing methods. This claim is not convincing without evidence that the observed improvements are not just noise. The lack of statistical rigor undermines the central conclusion of the paper.
+        - **Resolution test** Provide the full results in the main figures or supplementary tables. Include measures of variance (e.g., standard deviation, confidence intervals) for all metrics across all datasets. Perform and report appropriate statistical tests comparing GNNMF's performance to each baseline for each metric.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical Soundness
+        - **Claim pointer** The definition of the Recall metric in Formula 21: `Recall = TP / (TP + TN)`.
+        - **Evidence pointer** Methods, Evaluation metrics section, Formula 21.
+        - **Concern** The formula for Recall is incorrect. Recall (also known as Sensitivity or True Positive Rate) is defined as TP / (TP + FN). The formula as written, TP / (TP + TN), is not a standard metric and is likely a typographical error. This error casts doubt on the correctness of the reported results, as all metrics are calculated based on these formulas.
+        - **Why it matters** If the formula is wrong, the reported Recall values are meaningless. This could affect the calculation of the F1-score and the AEMR, potentially invalidating the main performance comparison. It is a fundamental error in the methodology.
+        - **Resolution test** Correct the formula for Recall to `TP / (TP + FN)`. Re-run all experiments and re-calculate all metrics to ensure the reported results are based on the correct definitions. Verify the formulas for all other metrics as well.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Experimental Rigor
+        - **Claim pointer** The claim that GNNMF "found more motifs than did the existing models" and that these motifs are of "higher quality".
+        - **Evidence pointer** Results, Finding multiple ATAC-seq motifs section, Table 1, Supplementary Table S4, Fig. 4.
+        - **Concern** The evaluation of motif finding is superficial. The manuscript only reports the number of motifs found and the p-value of the match to known motifs. It does not provide a comparison of the found motifs to the actual TF binding sites or a biological validation. Key questions remain: How many of the found motifs are true positives? How does the motif quality compare to known motifs for the specific cell types or conditions? Is the p-value from TOMTOM the only metric used for quality? A more robust evaluation would include benchmarking against known motifs (e.g., from JASPAR) and comparing the genomic locations of the found motifs to ChIP-seq peaks for the same TFs.
+        - **Why it matters** The biological utility of a motif finder is its ability to identify real, functional motifs. Simply finding more motifs, even with a lower p-value, does not guarantee they are correct or biologically relevant. The current analysis is insufficient to support the claim of finding "higher quality" motifs.
+        - **Resolution test** Provide a more detailed analysis of the found motifs. This could include: (1) a comparison of the found motifs to known motifs in a comprehensive database like JASPAR, (2) an analysis of the genomic distribution of the motifs, (3) a validation of the motifs against independent ChIP-seq data for the relevant TFs, and (4) a comparison of the motif quality (e.g., information content) against motifs found by other methods.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical Soundness
+        - **Claim pointer** The description of the GNNMF model architecture and training procedure is incomplete, making it difficult to assess its novelty and reproducibility.
+        - **Evidence pointer** Methods, GNNMF overview and Experiment settings sections.
+        - **Concern** The manuscript lacks critical details about the model. For example: What is the exact architecture of the graph neural network layers (e.g., Graph Convolutional Network, Graph Attention Network)? What is the message-passing scheme? How are the initial node features for k-mers and sequences defined? What is the size of the hidden layers? What is the total number of parameters? How is the graph constructed for a given dataset (e.g., how many k-mers per sequence, how are edges thresholded)? The description of the iterloss is also vague; it is not clear how it differs from a standard loss function with a regularization term. Without these details, the work is not reproducible.
+        - **Why it matters** Reproducibility is a cornerstone of scientific research. The lack of architectural and training details prevents other researchers from implementing and building upon this work. It also makes it difficult to judge whether the novelty is in the architecture, the loss function, or the application.
+        - **Resolution test** Provide a complete and detailed description of the model architecture, including a diagram, layer-by-layer specifications, and hyperparameter values. Provide a clear and formal definition of the iterloss function. Make the source code and trained models publicly available.
+    - **R1-M5**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Experimental Rigor
+        - **Claim pointer** The claim that the improvements are due to the specific components of GNNMF (Jaccard edge, background probability, iterloss).
+        - **Evidence pointer** Results, Discussion sections.
+        - **Concern** The manuscript does not include an ablation study. It is unclear which of the three proposed improvements (Jaccard edge, background probability, iterloss) contributes most to the performance gains. The comparison with "MMGraph+jac" only isolates the effect of the iterloss and background probability, but not the individual contribution of each. Without an ablation study, the authors cannot claim that all three components are necessary or that they are the reason for the improvement.
+        - **Why it matters** Understanding the contribution of each component is important for both scientific understanding and practical application. It helps users know which parts of the model are essential and which are optional. It also strengthens the paper's contribution by providing a clear analysis of the method's design.
+        - **Resolution test** Perform an ablation study where you remove one component at a time (e.g., GNNMF without Jaccard edge, GNNMF without iterloss, GNNMF without background probability) and report the performance of each variant. This will clearly demonstrate the contribution of each proposed component.
+
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and Presentation
+        - **Affected element** Background section, first sentence.
+        - **Evidence pointer** Background, paragraph 1.
+        - **Issue** The phrase "probe open chromatic" should be "probe open chromatin".
+        - **Required correction** Correct the typo to "probe open chromatin".
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Clarity and Presentation
+        - **Affected element** Results, TFBS prediction section.
+        - **Evidence pointer** Results, TFBS prediction section.
+        - **Issue** The text states "On 88 mouse datasets" in the Discussion, but the Methods and Results sections consistently refer to "80 mouse ATAC-seq datasets". This is an inconsistency.
+        - **Required correction** Correct the number of mouse datasets to 80 in the Discussion section.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Clarity and Presentation
+        - **Affected element** Methods, Evaluation metrics section.
+        - **Evidence pointer** Methods, Evaluation metrics section, Formula 20.
+        - **Concern** The formula for Precision is given as `TP / (TP + FN)`. This is the formula for Recall, not Precision. Precision is defined as TP / (TP + FP).
+        - **Required correction** Correct the formula for Precision to `TP / (TP + FP)`.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Clarity and Presentation
+        - **Affected element** Methods, Building the multi-view heterogeneous graph section.
+        - **Evidence pointer** Methods, Building the multi-view heterogeneous graph section.
+        - **Issue** The description of the graph construction is unclear. It is not specified how the "coexisting, similarity, Jaccard, and inclusive" edges are exactly defined and how their weights are normalized. A reader cannot follow the methodology without this information.
+        - **Required correction** Provide a clear and formal definition of each edge type, including the exact formulas for their weights and any normalization steps.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity and Presentation
+        - **Affected element** Results, Finding multiple ATAC-seq motifs section.
+        - **Evidence pointer** Results, Finding multiple ATAC-seq motifs section.
+        - **Issue** The text states "The p-value less than 0.05 indicated that the found motifs are significant." It is not clear if this is a multiple-testing corrected p-value. Given that many motifs are tested, a correction (e.g., Bonferroni, FDR) is typically necessary.
+        - **Required correction** Clarify whether the p-values were corrected for multiple testing and, if so, which method was used.
+
+## Risk / unsupported claims
+- The claim of "higher quality" motifs is not supported by the provided evidence, as the analysis is limited to a p-value from a database match and does not include biological validation.
+- The claim that the "iterloss has an advantage over BCEloss" is not directly supported by a controlled experiment, as the comparison with MMGraph+jac involves multiple changes.
+- The claim that GNNMF is a "potential tool for studying the cooperation among different TFs" is speculative and not directly supported by the results presented.
+- The overall performance improvements are not verifiable without the actual data in the figures and tables, which are missing from the provided material.
+- The statistical significance of the reported improvements is not established.

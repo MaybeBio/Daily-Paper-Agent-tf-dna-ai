@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Editorial or stylistic issues noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that phosphorylation of a buried tyrosine (Y42) in the FF1 domain of human p190A RhoGAP occurs via a conformational selection mechanism, wherein equilibrium fluctuations in the native ensemble transiently expose the residue. They identify a single charged residue, K53, as a "gatekeeper" that modulates these fluctuations through unfavorable charge–charge interactions. A charge-reversal (K53E) or charge-neutralizing (K53Q) mutation reduces fluctuations, compacts the native ensemble, and proportionally decreases phosphorylation extent.
+- **Visible evidence base** Far- and near-UV circular dichroism, differential scanning calorimetry, fluorescence spectroscopy (emission maxima and lifetimes), Wako–Saitô–Muñoz–Eaton statistical mechanical modeling, replica exchange Monte Carlo simulations with the ABSINTH implicit solvent model, Tanford–Kirkwood electrostatic calculations, and in vitro phosphorylation assays.
+- **Missing materials affecting confidence** Supplementary figures (S1–S11) and detailed methods for site-directed mutagenesis and WSME model parameterization are referenced but not provided. Raw data for CD, DSC, fluorescence, and phosphorylation quantifications are not available. Simulation convergence criteria and force-field validation details are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and multi-pronged investigation into the structural–energetic determinants of phosphorylation in a protein native ensemble. The combination of experimental biophysics, statistical mechanical modeling, and atomistic simulations is ambitious and largely successful in building a coherent narrative. The identification of K53 as a gatekeeper residue that controls fluctuations and thus phosphorylation is a novel and potentially generalizable insight. However, several technical concerns must be addressed before the central claims can be considered fully established. These include the indirect nature of some experimental probes, the lack of direct evidence for the proposed phosphorylation-competent state, and the incomplete reporting of simulation and modeling details.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, allostery, post-translational modification, and conformational dynamics would find this work of high interest. The concept of electrostatic frustration as a tunable regulator of native ensemble fluctuations and enzyme accessibility has broad implications for understanding and engineering protein function. The methodological integration of experiment, theory, and simulation also provides a template for similar studies on other systems.
+- **Major strengths** The study is methodologically diverse, combining multiple orthogonal probes to characterize the native ensemble. The use of a single-residue mutation to systematically perturb electrostatic frustration and observe correlated changes in stability, fluctuations, and phosphorylation is elegant. The WSME model and REMC simulations provide a mechanistic framework that is consistent with experimental observations. The identification of a specific "gatekeeper" residue with a clear physicochemical rationale is a significant conceptual advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for proposed mechanism
+  - **Claim pointer** The authors claim that "some conformations in the native ensemble are phosphorylation-competent" and that K53 acts as a gatekeeper by modulating solvent exposure of Y42.
+  - **Evidence pointer** Figures 3H, 5D–F, and associated text; location not provided for specific data points.
+  - **Concern** The existence of a discrete "phosphorylation-competent state" is inferred from simulations and indirect spectroscopic probes, but no direct experimental observation of Y42 exposure is presented. The fluorescence lifetime data are suggestive of conformational heterogeneity but do not directly report on Y42 solvent accessibility. The REMC simulations show increased Y42 exposure in the WT, but the population of such states and their relevance under physiological conditions are not quantified. The claim that K53 controls this process is based on correlation between mutation effects and phosphorylation extent, but a causal link is not definitively established.
+  - **Why it matters** The central thesis of the manuscript rests on the existence of a pre-equilibrium between phosphorylation-competent and incompetent states. Without direct evidence for this state, the conformational selection mechanism remains a plausible hypothesis rather than an established finding.
+  - **Resolution test** Provide direct experimental evidence for Y42 exposure, such as NMR spectroscopy under conditions where the phosphorylation-competent state is populated, or use of a cysteine-labeling or other accessibility probe. Alternatively, perform mutations that specifically stabilize or destabilize the proposed competent state and show corresponding changes in phosphorylation kinetics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of phosphorylation assays
+  - **Claim pointer** The authors state that K53E is "consistently less phosphorylated than the WT by <50%" and that K53Q shows "proportionately higher phosphorylation extents" compared to K53E.
+  - **Evidence pointer** Figure 6A and B, Figure S9F; location not provided for specific quantification details.
+  - **Concern** The phosphorylation assays are described only briefly. The number of replicates, the statistical analysis, and the method of quantification (e.g., phosphorimager densitometry) are not fully detailed. The statement "p < 0.02" is mentioned but the test used and the sample size are not specified. The use of "proportionately higher" for K53Q is vague and lacks a quantitative comparison to the WT.
+  - **Why it matters** The quantitative relationship between mutation-induced changes in ensemble properties and phosphorylation extent is a key pillar of the argument. Without rigorous statistical treatment and clear reporting, the strength of this correlation cannot be assessed.
+  - **Resolution test** Provide full details of the phosphorylation assay protocol, including replicate numbers, statistical tests, and error bars. Present the data as mean ± standard deviation or standard error with individual data points shown. Perform a dose-response or time-course experiment to strengthen the quantitative comparison.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation and parameterization
+  - **Claim pointer** The WSME model is used to predict free-energy landscapes and identify the phosphorylation-competent state.
+  - **Evidence pointer** Methods section "Wako–Saitô–Muñoz–Eaton (WSME) Model"; location not provided for specific parameters.
+  - **Concern** The WSME model parameters (contact energies, entropy penalties, heat capacity changes) are stated but the fitting procedure to DSC data is not described in sufficient detail. The number of fitted parameters, the uncertainty in these parameters, and the sensitivity of the predicted landscapes to parameter variation are not discussed. The model's ability to reproduce the experimental DSC curves is shown (Figure 3A) but the quality of the fit is not quantified.
+  - **Why it matters** The model predictions are used to support the existence of the phosphorylation-competent state and to interpret the effects of the K53E mutation. If the model is not robustly parameterized or if the predictions are sensitive to parameter choices, the conclusions drawn from it are weakened.
+  - **Resolution test** Provide a detailed description of the fitting procedure, including the objective function, optimization algorithm, and error analysis. Perform a sensitivity analysis by varying key parameters and showing that the qualitative features of the landscape (e.g., the presence of the competent state) are robust.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation convergence and sampling
+  - **Claim pointer** REMC simulations are used to demonstrate enhanced conformational flexibility in the WT and reduced Y42 exposure in K53E.
+  - **Evidence pointer** Methods section "Replica Exchange Monte Carlo (REMC) Simulations"; location not provided for convergence metrics.
+  - **Concern** The REMC simulations are described as running for 60 million steps with 22 replicas, but no convergence metrics are provided. The equilibration period, the number of independent samples, and the statistical uncertainty in the calculated properties (e.g., Y42 solvent accessibility) are not reported. The choice of the ABSINTH model and its validation for this system are not discussed.
+  - **Why it matters** The simulation results are used to support the mechanistic interpretation. Without evidence of adequate sampling and convergence, the observed differences between WT and K53E could be artifacts of insufficient simulation length or poor replica exchange.
+  - **Resolution test** Provide convergence plots (e.g., potential energy, radius of gyration, Y42 solvent accessibility as a function of simulation time). Report the effective sample size and the statistical error in the calculated observables. Discuss the validation of the ABSINTH model for this protein system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Use of "WT" for the W13F pseudo-wild-type
+  - **Evidence pointer** Methods section "Purification of RhoGAP FF1 and Mutants"; location not provided.
+  - **Issue** The authors label the W13F variant as "WT" for simplicity. This is potentially confusing, as the original FF1 construct (with two tryptophans) is also discussed. The distinction between the original construct and the W13F pseudo-WT should be made clearer throughout the text.
+  - **Required correction** Use a distinct label for the W13F variant, such as "pseudo-WT" or "W13F", at least at first mention in each section, to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fluorescence lifetime data
+  - **Evidence pointer** Figure 4E–H; location not provided for error analysis.
+  - **Issue** The fluorescence lifetime data are presented as mean values, but the number of independent measurements and the error bars are not clearly indicated in the figures or text.
+  - **Required correction** Add error bars to the lifetime and amplitude plots and state the number of replicates in the figure legend or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of supplementary information
+  - **Affected element** Supplementary figures and methods
+  - **Evidence pointer** References to Figures S1–S11 throughout the text; location not provided.
+  - **Issue** The manuscript relies heavily on supplementary figures and methods, but these are not provided for review. Key data, such as the sequence alignment in Figure S2 and the full WSME model details, are essential for evaluating the claims.
+  - **Required correction** Ensure that all supplementary materials are complete and self-contained, with full experimental details and raw data where appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative mechanisms
+  - **Affected element** Conclusions section
+  - **Evidence pointer** Conclusions; location not provided.
+  - **Issue** The authors conclude that a conformational selection mechanism is operative, but they do not discuss alternative explanations, such as an induced-fit mechanism or a purely thermodynamic effect of the mutation on the ground state.
+  - **Required correction** Add a brief discussion of alternative interpretations and why the data favor conformational selection over other possibilities.
+
+## Risk / unsupported claims
+- The claim that a discrete "phosphorylation-competent state" exists is not directly supported by experimental evidence; it is inferred from simulations and indirect probes.
+- The quantitative relationship between mutation-induced changes in ensemble properties and phosphorylation extent is not rigorously established due to incomplete statistical reporting.
+- The WSME model predictions are presented as supportive evidence, but the robustness of the model to parameter variation is not demonstrated.
+- The REMC simulation results are used to support mechanistic conclusions, but convergence and sampling adequacy are not established.
+- The generalizability of the "gatekeeper" concept to other proteins is speculative and not directly tested in this work.

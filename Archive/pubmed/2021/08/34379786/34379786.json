@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "34379786",
+    "doi": "10.1093/nar/gkab676",
+    "title": "Epitome: predicting epigenetic events in novel cell types with multi-cell deep ensemble learning."
+  },
+  "content": {
+    "abstract": "The accumulation of large epigenomics data consortiums provides us with the opportunity to extrapolate existing knowledge to new cell types and conditions. We propose Epitome, a deep neural network that learns similarities of chromatin accessibility between well characterized reference cell types and a query cellular context, and copies over signal of transcription factor binding and modification of histones from reference cell types when chromatin profiles are similar to the query. Epitome achieves state-of-the-art accuracy when predicting transcription factor binding sites on novel cellular contexts and can further improve predictions as more epigenetic signals are collected from both reference cell types and the query cellular context of interest.",
+    "keywords": [],
+    "mesh_terms": [
+      "Atlases as Topic",
+      "Binding Sites",
+      "Cell Communication",
+      "Cell Lineage/*genetics",
+      "Chromatin/chemistry/*metabolism",
+      "Chromatin Immunoprecipitation",
+      "*Epigenesis, Genetic",
+      "Eukaryotic Cells/classification/cytology/*metabolism",
+      "Genome, Human",
+      "Histones/*genetics/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Neural Networks, Computer",
+      "Protein Binding",
+      "Software",
+      "Transcription Factors/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morrow, Alyssa Kramer",
+        "Hughes, John Weston",
+        "Singh, Jahnavi",
+        "Joseph, Anthony Douglas",
+        "Yosef, Nir"
+      ],
+      "short_names": [
+        "Morrow AK",
+        "Hughes JW",
+        "Singh J",
+        "Joseph AD",
+        "Yosef N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5102-8156",
+        "ORCID: 0000-0002-7042-4031",
+        "ORCID: 0000-0002-6798-9664",
+        "ORCID: 0000-0001-9004-1225"
+      ],
+      "affiliations": [
+        "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+        "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+        "Computer Science Department, Stanford University, 353 Serra Mall, Stanford, CA 94305, USA.",
+        "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+        "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+        "Center for Computational Biology, University of California-Berkeley 108 Stanley Hall, Berkeley, CA 94720-3220, USA.",
+        "Unite Genomics, Inc., 1301 Marina Village Pkwy, Suite 320, Alameda, CA 94501, USA.",
+        "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+        "Center for Computational Biology, University of California-Berkeley 108 Stanley Hall, Berkeley, CA 94720-3220, USA.",
+        "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology, and Harvard University, Boston, MA, 02139, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, CA, 94158, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morrow, Alyssa Kramer",
+        "short_name": "Morrow AK",
+        "identifiers": [
+          "0000-0002-5102-8156"
+        ],
+        "affiliations": [
+          "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA."
+        ]
+      },
+      {
+        "full_name": "Hughes, John Weston",
+        "short_name": "Hughes JW",
+        "identifiers": [
+          "0000-0002-7042-4031"
+        ],
+        "affiliations": [
+          "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+          "Computer Science Department, Stanford University, 353 Serra Mall, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Jahnavi",
+        "short_name": "Singh J",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Anthony Douglas",
+        "short_name": "Joseph AD",
+        "identifiers": [
+          "0000-0002-6798-9664"
+        ],
+        "affiliations": [
+          "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+          "Center for Computational Biology, University of California-Berkeley 108 Stanley Hall, Berkeley, CA 94720-3220, USA.",
+          "Unite Genomics, Inc., 1301 Marina Village Pkwy, Suite 320, Alameda, CA 94501, USA."
+        ]
+      },
+      {
+        "full_name": "Yosef, Nir",
+        "short_name": "Yosef N",
+        "identifiers": [
+          "0000-0001-9004-1225"
+        ],
+        "affiliations": [
+          "Electrical Engineering and Computer Science Department, University of California-Berkeley 465 Soda Hall, Berkeley, CA 94720-1776, USA.",
+          "Center for Computational Biology, University of California-Berkeley 108 Stanley Hall, Berkeley, CA 94720-3220, USA.",
+          "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology, and Harvard University, Boston, MA, 02139, USA.",
+          "Chan Zuckerberg Biohub, San Francisco, CA, 94158, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Nov 8",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/12 06:00",
+    "fetched_at": "2026-09-27 22:06:12"
+  },
+  "links": {
+    "cites": [
+      "39550354",
+      "39544937"
+    ],
+    "refs": [
+      "33213499",
+      "32728250",
+      "32728249",
+      "32728217",
+      "32228704",
+      "32101712",
+      "31631012",
+      "31605096",
+      "31406384",
+      "31373614",
+      "31138913",
+      "30967126",
+      "30630522",
+      "30567711",
+      "30413482",
+      "29772251",
+      "29643364",
+      "28079019",
+      "27993786",
+      "26914205",
+      "26406244",
+      "26301843",
+      "26213851",
+      "26016777",
+      "25957350",
+      "25693563",
+      "25690853",
+      "25215497",
+      "24995982",
+      "24335146",
+      "24097267",
+      "23508757",
+      "22955618",
+      "22955617",
+      "22955616",
+      "22721266",
+      "22009675",
+      "21685456",
+      "21330290",
+      "20583098",
+      "20436461",
+      "20110278",
+      "18798982",
+      "18243105",
+      "17522673",
+      "17320508",
+      "16381938",
+      "15499007",
+      "11562345",
+      "11498575",
+      "2668680"
+    ],
+    "similar": [
+      "34379786",
+      "26818008",
+      "26590261",
+      "29030827",
+      "25670626",
+      "24583555",
+      "28973456",
+      "25650801",
+      "28064247",
+      "33947861",
+      "31965979",
+      "30065231",
+      "23696364",
+      "27631795",
+      "29348483",
+      "27091612",
+      "22424423",
+      "22863112",
+      "24525102",
+      "27899623",
+      "24747175",
+      "29643364",
+      "29336845",
+      "28334916",
+      "32689977",
+      "25693565",
+      "22115494",
+      "25391375",
+      "25693562",
+      "28750606",
+      "23511541",
+      "25682954",
+      "24704208",
+      "21035574",
+      "27730588",
+      "22723401",
+      "35293310",
+      "24747177",
+      "27434579",
+      "25693563",
+      "33126080",
+      "28234893",
+      "28410996",
+      "30967126",
+      "30922998",
+      "34036737",
+      "25303116",
+      "24236298",
+      "22675074",
+      "23945931",
+      "29855969",
+      "32058623",
+      "24059348",
+      "29698677",
+      "38773546",
+      "21931356",
+      "27867036",
+      "20675111",
+      "12648673",
+      "28973448",
+      "27060148",
+      "23510235",
+      "24472558",
+      "21106904",
+      "24283883",
+      "23527292",
+      "31006511",
+      "16568946",
+      "12628181",
+      "21030644",
+      "21074721",
+      "28515787",
+      "29605856",
+      "30835229",
+      "25486472",
+      "22844240",
+      "22537144",
+      "28879853",
+      "27582178",
+      "38644393",
+      "16117651",
+      "27423866",
+      "32807906",
+      "28180283",
+      "29706549",
+      "16767079",
+      "32857383",
+      "25103404",
+      "23463313",
+      "33413545",
+      "33522898",
+      "22130894",
+      "34020542",
+      "23526891",
+      "22955984",
+      "27881878",
+      "24136359",
+      "32197056",
+      "28169463",
+      "22838191"
+    ],
+    "review": [
+      "34379786",
+      "25670626",
+      "24583555",
+      "25650801",
+      "30065231",
+      "27631795",
+      "24525102",
+      "24747175",
+      "29336845",
+      "24704208",
+      "27730588",
+      "24747177",
+      "33126080",
+      "34036737",
+      "25303116",
+      "21931356",
+      "20675111",
+      "12648673",
+      "24283883",
+      "16568946",
+      "12628181",
+      "21030644",
+      "25486472",
+      "28879853",
+      "23463313",
+      "34020542",
+      "32197056",
+      "28169463"
+    ],
+    "pmc": [
+      "8565335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34379786/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34379786",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab676",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

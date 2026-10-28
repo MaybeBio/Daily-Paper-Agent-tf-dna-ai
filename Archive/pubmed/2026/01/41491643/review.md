@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, supporting information description)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report the synthesis-adjacent characterization (via prior work) of four phenoxazine-based donor–acceptor dyes (PO1, PO2, PO4, PO5) and investigate their photophysical properties and DNA-binding behavior using UV–Vis spectroscopy, DFT/TD-DFT calculations, ESP mapping, molecular docking, and in silico ADMET profiling. They claim intercalative binding to calf thymus DNA, with PO5 showing the highest binding affinity, and propose these dyes as promising candidates for bioimaging and therapeutic applications.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion (DNA interaction studies, computational analysis, pharmacokinetic/bioactivity/docking sections), Conclusion, Supporting Information description. Figures 1–8 and Tables 1–4 are referenced but not visible in the provided material. Supporting Table S1 is referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–8 (including all spectra, FMO plots, ESP maps, docking visualizations), Tables 1–4 (including HOMO–LUMO energies, ADMET data, bioactivity scores), Supporting Table S1 (docking binding affinities), experimental methods section, synthesis details, and raw titration data. The absence of these materials prevents independent verification of most quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in the intersection of organic chromophore design and DNA-binding applications. The combination of experimental spectroscopy with computational methods is appropriate in principle. However, the presented text contains several internal inconsistencies, unsupported generalizations, and methodological ambiguities that substantially weaken the current claims. The central conclusion that these dyes bind DNA via intercalation is plausible but not rigorously established from the evidence described. The claim that PO5 is a promising lead candidate for therapeutic development is premature given the absence of any biological activity data. The manuscript requires major revisions and additional experimental/computational detail before the case is convincing.
+- **Who would be interested in the results, and why** Researchers in organic photophysics, DNA-targeting small molecules, and computational chemistry would find the structure–property relationships of phenoxazine push–pull dyes of interest. The work may also appeal to those developing fluorescent probes for nucleic acid detection. However, the current level of validation limits its impact for therapeutic applications.
+- **Major strengths** 1) The systematic variation of acceptor units in a phenoxazine core is a sensible design strategy for probing structure–activity relationships. 2) The combination of multiple computational tools (DFT, TD-DFT, ESP, docking, ADMET) with experimental UV–Vis spectroscopy provides a broad characterization approach. 3) The explicit consideration of pharmacokinetic properties early in the design process is commendable for a materials-oriented study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "UV–Vis absorption titration confirmed intercalative binding with CT-DNA and enabled the determination of binding constants."
+  - **Evidence pointer** Results and Discussion, DNA Interaction Studies via UV–Visible Spectroscopy; Figure 2 (not visible)
+  - **Concern** The text describes hypochromism and redshift as indicators of intercalation, but the quantitative analysis is incomplete. The intrinsic binding constants (Kb) are reported as single values without error estimates, and the method used to calculate them (e.g., Benesi-Hildebrand, Scatchard, McGhee-von Hippel) is not specified. The wavelength at which measurements were taken (330, 412, 487, 326 nm) does not correspond to the absorption maxima described in the computational section (λmax ~300–450 nm), and no explanation is given for these specific choices. Furthermore, the text states "five compounds" but only four are listed, and the Kb values span more than an order of magnitude (1.16 × 10^4 to 4.22 × 10^5 M^-1) without discussion of the structural basis for this variation.
+  - **Why it matters** The central experimental claim of the paper is that these dyes bind DNA via intercalation. Without a clear description of the analytical method, error analysis, and a consistent narrative linking structure to binding affinity, this claim is not quantitatively supported. The discrepancy in compound count suggests a potential error in the manuscript.
+  - **Resolution test** Provide the full titration data, specify the binding constant calculation method, include error estimates from replicate measurements, and reconcile the "five compounds" statement with the four dyes studied. Show that the spectral changes are consistent with intercalation (e.g., isosbestic points, comparison with a known intercalator).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "The simulated absorption spectra (Figure 5) show strong transitions in the UV–visible region (λmax ∼ 300–450 nm), with PO5 exhibiting the highest oscillator strength (up to 1.3), consistent with its stronger ICT nature."
+  - **Evidence pointer** Results and Discussion, Computational Analysis; Figure 5 (not visible); Table 1 (not visible)
+  - **Concern** The computational methodology is described with insufficient detail. The text states B3LYP/def-TZVP was used for geometry optimization and CAM-B3LYP/def-TZVP for TD-DFT, but no information is provided on solvation models (implicit vs. explicit), whether the experimental spectra were measured in chloroform (as stated) and whether the calculations included solvent effects. The comparison between simulated and experimental spectra is qualitative ("align well") without quantitative metrics (e.g., peak position error, spectral overlap). The claim that PO5 has the "highest oscillator strength" is presented without the actual values in the visible text. Additionally, the text contains a duplicated sentence: "The choice of the basis set in TD-DFT calculations continues to be the most significant issue in determining the level of accuracy of results."
+  - **Why it matters** The computational results are used to support the interpretation of experimental spectra and to rationalize DNA-binding differences. Without a reproducible computational protocol and quantitative comparison, the validity of these supporting claims cannot be assessed. The duplicated sentence indicates a lack of careful proofreading that undermines confidence in the manuscript's rigor.
+  - **Resolution test** Specify the solvation model, provide a table of computed excitation energies, oscillator strengths, and orbital contributions, and include a quantitative comparison (e.g., difference in λmax) between simulated and experimental spectra. Remove the duplicated sentence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-support alignment
+  - **Claim pointer** "Molecular docking studies revealed strong binding energies for all four dyads, with PO5 exhibiting the highest affinity (−10.7 kcal/mol), attributed to its strong electron-withdrawing malononitrile acceptor and extended π-conjugation."
+  - **Evidence pointer** Results and Discussion, Molecular Docking Analysis; Figure 8 (not visible); Supporting Table S1 (not provided)
+  - **Concern** The docking results are presented as binding energies, but the target structure (DNA sequence, PDB ID) is not specified. The text mentions "CT-DNA A–B" without identifying the structural model used. The grid box parameters are given, but the docking protocol (e.g., exhaustiveness, number of runs, scoring function version) is incomplete. The claim that PO5's higher affinity is due to its "strong electron-withdrawing malononitrile acceptor" is speculative without a systematic analysis of the binding pose or energy decomposition. The relationship between the docking score and the experimentally determined Kb values is not discussed, which is a missed opportunity to validate the computational model.
+  - **Why it matters** Docking results are used to support the conclusion that PO5 is the best binder and to propose a structural rationale. Without a defined target, reproducible protocol, and connection to experimental binding constants, these claims are not verifiable. The attribution of binding affinity to electronic effects alone ignores the role of shape complementarity, solvation, and conformational flexibility.
+  - **Resolution test** Specify the DNA structure used (PDB ID or sequence), provide the full docking protocol, include a table of all docking scores with standard deviations from multiple runs, and discuss the correlation (or lack thereof) between docking scores and experimental Kb values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope justification
+  - **Claim pointer** "The integrated evidence from UV–Vis titration, molecular docking, frontier molecular orbital analysis, and ESP mapping suggests that PO5 possesses an optimal electronic structure and molecular topology conducive to DNA intercalation."
+  - **Evidence pointer** Conclusion; Results and Discussion (all sections)
+  - **Concern** The manuscript claims that these dyes could be "promising for use in biological imaging and therapeutic applications," but no data on cytotoxicity, cellular uptake, fluorescence quantum yield in biological media, or selectivity for DNA over RNA or proteins are presented. The ADMET predictions are in silico only and are not validated experimentally. The connection between the photophysical properties (e.g., fluorescence) and DNA binding is not explored, which is surprising given the stated interest in bioimaging applications.
+  - **Why it matters** The stated application potential is a key motivation for the work. Without any biological validation or discussion of the photophysical properties relevant to imaging (e.g., brightness, photostability in aqueous media), the claims of applicability are overstated and not supported by the presented evidence.
+  - **Resolution test** Either add experimental data on fluorescence properties in the presence of DNA, cytotoxicity assays, or cellular imaging, or temper the claims to reflect that the work is a computational-spectroscopic characterization of DNA-binding properties without demonstrated biological applicability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** DNA interaction section
+  - **Evidence pointer** Results and Discussion, DNA Interaction Studies via UV–Visible Spectroscopy
+  - **Issue** The text states "the resulting intrinsic binding constants (Kb) were then calculated for the five compounds" but only four compounds (PO1, PO2, PO4, PO5) are listed throughout the manuscript. This is either a typo or a missing compound.
+  - **Required correction** Correct the count to "four compounds" or clarify if a fifth compound was studied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** DNA concentration and buffer conditions
+  - **Evidence pointer** Results and Discussion, DNA Interaction Studies via UV–Visible Spectroscopy
+  - **Issue** The text mentions "Tris–HCl buffer (10 mM, pH 7.45)" in one sentence and "pH of 7.2" in the next. The pH discrepancy is not explained.
+  - **Required correction** Reconcile the pH values or specify if different conditions were used for different experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dye concentration
+  - **Evidence pointer** Results and Discussion, DNA Interaction Studies via UV–Visible Spectroscopy
+  - **Issue** The dye concentration is stated as "0.5 mM" in the text, but this is unusually high for UV–Vis titration experiments (typically µM range). If this is correct, it should be justified; if a typo, it should be corrected.
+  - **Required correction** Verify and correct the dye concentration, and specify the concentration range used in titrations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Computational analysis
+  - **Evidence pointer** Results and Discussion, Computational Analysis; Table 1 (not visible)
+  - **Issue** The text states "The HOMO is delocalized over the phenoxazine core, while the LUMO is primarily located on the acceptor moieties" but this is a qualitative description. The actual FMO plots (Figures 3 and 4) are not visible, and no quantitative measure of charge transfer (e.g., transferred charge, dipole moment change) is provided.
+  - **Required correction** Provide quantitative metrics for charge transfer or reference the figures more explicitly with a description of what is shown.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The claim that "phenoxazine derivatives often exhibit superior aqueous solubility, reduced photobleaching, and enhanced redox behavior" compared to other heterocycles is presented without citation or comparative data.
+  - **Required correction** Add appropriate references or temper the claim to reflect the specific compounds studied.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Computational Analysis
+  - **Evidence pointer** Results and Discussion, Computational Analysis
+  - **Issue** The text states "the N,N-dimethyl barbituric acid, N,N-diethyl thiobarbituric acid, 3-ethylrhodanine, and (3,5,5-trimethylcyclohex-2-enylidene)malononitrile incorporated at the C(3) position of the phenoxazine core" but the acceptor units are not consistently named throughout. For example, "N,N-dimethyl barbituric acid" is typically referred to as "1,3-dimethylbarbituric acid" in the literature.
+  - **Required correction** Use consistent and standard nomenclature for the acceptor units.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supporting Information
+  - **Evidence pointer** Supporting Information section
+  - **Issue** The Supporting Information is described as containing only Table S1 (binding affinities). Given the extensive computational and experimental data referenced, additional supporting data (e.g., titration curves, FMO coordinates, docking poses) would be expected.
+  - **Required correction** Expand the Supporting Information to include raw data and additional computational details, or clarify what is included.
+
+## Risk / unsupported claims
+- The claim that "UV–Vis absorption titration confirmed intercalative binding" is not fully supported without a detailed description of the spectral changes (e.g., isosbestic points, comparison with known intercalators) and a rigorous binding constant analysis with error estimates.
+- The claim that "PO5 possesses an optimal electronic structure and molecular topology conducive to DNA intercalation" is an overinterpretation of the presented data, as no direct structural evidence of the DNA-dye complex is provided.
+- The statement that "pharmacokinetic modeling and in silico bioactivity profiling of PO5 reveal a favorable interaction landscape" is unsupported without the actual ADMET data (Table 4, Figure 7) being visible or discussed in detail.
+- The claim that these dyes are "promising for use in biological imaging and therapeutic applications" is not supported by any experimental biological data.
+- The relationship between computational predictions (HOMO-LUMO gaps, ESP maps) and experimental DNA-binding affinities is asserted but not quantitatively demonstrated.
+- The statement that "the structural configuration of nucleic acids significantly influences the binding interactions" is a general conclusion from docking that is not backed by a systematic comparison of different DNA structures.

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, figure legends, and supplementary material descriptions.
+- **Assessment boundary** Scientific validity, technical rigor, and support of claims based solely on the provided manuscript content. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The authors propose that the Drosophila transcription factor CLAMP, which binds both DNA and RNA, regulates sex-specific co-transcriptional splicing by directly tethering target RNAs to chromatin and by modulating the dynamics of the hnRNPA2/B1 ortholog Hrp38 through its prion-like domain (PrLD).
+- **Visible evidence base** iCLIP data for RNA binding in male and female cell lines; CUT&RUN data for DNA binding; RNA-seq from mutant larvae; NMR spectroscopy; RNA electrophoretic mobility shift assays (EMSAs); in vitro phase separation assays; in vivo imaging including FRAP and live tracking; colocalization analysis.
+- **Missing materials affecting confidence** The manuscript does not include the actual figures, tables, or supplementary data referenced in the text. Statistical details, exact p-values, effect sizes, and raw data are not provided. The time2splice pipeline output and the full list of differentially spliced genes are not shown. No information on replicates for several key experiments (e.g., NMR, phase separation) is given. The methods for the "Bindcompare" tool are referenced but not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting model in which a transcription factor with dual nucleic acid binding capacity coordinates co-transcriptional splicing by bridging DNA and RNA and by altering the biophysical properties of a splicing regulator. The combination of genomics, biochemistry, and live imaging is ambitious and could be of broad interest. However, the current version of the manuscript, as provided, does not contain sufficient data or detail to fully evaluate the claims. Several key conclusions rest on indirect evidence or on experiments where the controls and quantifications are not fully described. The link between CLAMP-RNA binding, Hrp38 dynamics, and specific splicing outcomes is correlative rather than causal. The manuscript would benefit from a clearer presentation of the data and a more rigorous demonstration of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, alternative splicing, RNA biology, and intrinsically disordered proteins would find this work relevant. The idea that a transcription factor can directly link DNA and RNA to coordinate splicing is conceptually novel and could have implications for understanding how splicing is targeted in a cell-type-specific manner. The potential connection to disease, via cryptic splicing, broadens the appeal to translational researchers.
+- **Major strengths**
+    - The central hypothesis is clear and addresses a fundamental gap in understanding how co-transcriptional splicing is targeted.
+    - The use of multiple complementary approaches (genomics, biochemistry, biophysics, and imaging) is a significant strength.
+    - The identification of a specific RNA region and protein domain involved in the interaction is a valuable step forward.
+    - The sex-specific aspect of the regulation adds an important layer of biological context.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence supports claim
+        - **Claim pointer** The authors claim that CLAMP directly links DNA and RNA at a subset of target genes to regulate co-transcriptional splicing.
+        - **Evidence pointer** Results section "CLAMP binds RNA on chromatin"; Figures 1C-E; Tables 1b, 1c.
+        - **Concern** The claim that CLAMP links DNA and RNA is based on the spatial correlation of CLAMP DNA and RNA binding peaks. While the authors show that many RNA peaks are near DNA peaks, this does not demonstrate a functional or physical link. The "Bindcompare" analysis is not described in sufficient detail to assess its statistical rigor. The authors do not show that the DNA and RNA binding events occur on the same chromatin template or that they are functionally coupled. The data are correlative and do not exclude the possibility that CLAMP binds DNA and RNA independently at nearby but distinct sites.
+        - **Why it matters** This is the central mechanistic claim of the paper. Without direct evidence of a physical or functional link between the DNA and RNA binding events, the proposed model of "tethering" is not established.
+        - **Resolution test** The authors should provide direct evidence of a functional link, for example, by showing that mutations in the CLAMP DNA binding domain that abolish DNA binding also affect RNA-mediated splicing regulation, or by using a proximity ligation assay or a chromatin RNA pull-down to demonstrate that CLAMP, DNA, and RNA are in the same complex. A more detailed description of the Bindcompare statistical model and its controls is also required.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence supports claim
+        - **Claim pointer** The authors claim that the CLAMP PrLD is essential for CLAMP-RNA interaction and that this interaction is important for sex-specific splicing.
+        - **Evidence pointer** Results section "The CLAMP prion-like domain (PrLD) is essential for CLAMP-RNA interaction"; Figures 2A-F, S2; Results section "The CLAMP PrLD domain is important for CLAMP-dependent sex-specific splicing"; Figures 3A-H.
+        - **Concern** The in vitro EMSA data show that deletion of the PrLD reduces RNA binding, but the effect is not quantified. The claim that the stem-loop is important is based on a single mutant that deletes both the stem-loop and the CLAMP binding region, which is not a clean test. The in vivo splicing data are based on trans-heterozygous mutants that retain a partial PrLD, and the authors do not show that the observed splicing changes are a direct consequence of loss of CLAMP-RNA binding versus other functions of the PrLD (e.g., protein-protein interactions). The link between the in vitro RNA binding data and the in vivo splicing phenotype is not made explicitly.
+        - **Why it matters** The paper proposes a specific molecular mechanism. The current data do not clearly distinguish between a direct role for CLAMP-RNA binding in splicing and a more general role for the PrLD in protein interactions or phase separation that indirectly affects splicing.
+        - **Resolution test** The authors should perform quantitative EMSA or isothermal titration calorimetry to measure binding affinities. They should generate a mutant that specifically disrupts RNA binding without affecting the PrLD's ability to phase separate or interact with other proteins. They should also test whether the splicing changes observed in the trans-heterozygous mutants can be rescued by expressing a wild-type PrLD.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence supports claim
+        - **Claim pointer** The authors claim that CLAMP modulates the dynamics of Hrp38, and that this modulation is linked to its function in splicing.
+        - **Evidence pointer** Results section "CLAMP regulates the nuclear dynamics of the alternative splicing regulator hnRNPA2/B1 orthologue Hrp38"; Figures 4A-J.
+        - **Concern** The FRAP and live imaging data show that Hrp38 dynamics are altered in the CLAMP PrLD mutants. However, the authors do not demonstrate that this change in dynamics is causally linked to the observed splicing changes. The colocalization data are correlative. The authors propose a model where CLAMP prevents Hrp38 from forming large, non-functional aggregates, but they do not directly test this. The in vitro phase separation data are not shown in the provided text, only referenced.
+        - **Why it matters** The claim that CLAMP regulates splicing by modulating Hrp38 dynamics is a key part of the proposed model. Without a direct test of causality, this remains a hypothesis.
+        - **Resolution test** The authors could use a chemical biology approach to either stabilize or destabilize Hrp38 condensates and test the effect on splicing. They could also generate a CLAMP mutant that can bind Hrp38 but cannot phase separate, or vice versa, to dissect the contributions of these activities.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and reproducibility
+        - **Affected element** Methods section "CUT&RUN in cell lines"
+        - **Evidence pointer** Methods section, location not provided.
+        - **Issue** The description of the CUT&RUN method is brief. The number of replicates is mentioned (three for males, two for females), but the analysis pipeline is not fully described. The statement "one female sample was dropped" is not explained.
+        - **Required correction** Provide a more detailed description of the CUT&RUN protocol, including the number of cells used, the antibody concentration, and the bioinformatics pipeline. Explain why the female sample was dropped.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Clarity and reproducibility
+        - **Affected element** Methods section "iCLIP"
+        - **Evidence pointer** Methods section, location not provided.
+        - **Issue** The iCLIP method description is also brief. The number of biological replicates is not stated. The description of the "Bindcompare" tool is missing.
+        - **Required correction** Specify the number of replicates for each iCLIP experiment. Provide a full description of the Bindcompare algorithm, including how it normalizes for background and how it defines the categories of overlap.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Data presentation
+        - **Affected element** Results section "CLAMP regulates the nuclear dynamics of the alternative splicing regulator hnRNPA2/B1 orthologue Hrp38"
+        - **Evidence pointer** Figure 4, location not provided.
+        - **Issue** The text refers to "Figure 4A-J" but the figure itself is not provided. The description of the phase separation assay is incomplete.
+        - **Required correction** Include the figure and a full description of the phase separation assay, including the protein concentrations, buffer conditions, and how the images were quantified.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Statistical rigor
+        - **Affected element** Results section "CLAMP regulates the nuclear dynamics of the alternative splicing regulator hnRNPA2/B1 orthologue Hrp38"
+        - **Evidence pointer** Figure 4F, location not provided.
+        - **Issue** The text states that "median speckle size in males slightly higher than in females" but does not provide statistical analysis for this comparison.
+        - **Required correction** Provide the statistical test used and the p-value for this comparison.
+- **Technical failings that need to be addressed before the case is established**
+    - The lack of quantitative data for the EMSA experiments (R1-M2).
+    - The lack of a clean mutant to separate RNA binding from other PrLD functions (R1-M2).
+    - The lack of a direct test of causality between Hrp38 dynamics and splicing (R1-M3).
+    - The incomplete description of the Bindcompare tool (R1-m2).
+- **Assessment against Nature-style criteria**
+    - **Originality** The concept of a transcription factor directly bridging DNA and RNA to regulate co-transcriptional splicing is novel and conceptually interesting. The idea that a PrLD can modulate the dynamics of a splicing factor adds a new dimension to the field.
+    - **Scientific importance** If the proposed mechanism is fully validated, it would represent a significant advance in our understanding of how splicing is targeted in a cell-type-specific manner. The potential link to cryptic splicing and disease makes it broadly relevant.
+    - **Interdisciplinary readership** The work integrates genomics, biochemistry, biophysics, and cell biology, which would appeal to a broad audience. The findings are relevant to researchers in transcription, RNA processing, and chromatin biology.
+    - **Technical soundness** The technical approaches are generally appropriate, but the current presentation has significant gaps. The lack of quantitative data, the use of a non-specific mutant, and the correlative nature of the key experiments prevent a full assessment of technical soundness.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, the heavy reliance on specialized techniques (e.g., iCLIP, FRAP) without sufficient explanation may make it challenging for a non-specialist to fully appreciate the data.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a compelling hypothesis and a promising set of tools, but the key claims are not yet supported by the data as presented. The authors need to provide a more rigorous and quantitative demonstration of the proposed mechanism, including direct evidence of a functional link between DNA and RNA binding, a cleaner dissection of the PrLD's role, and a causal link between Hrp38 dynamics and splicing outcomes.
+
+## Risk / unsupported claims
+- The claim that CLAMP "targets distinct RNA molecules in male and female cells" is supported by the iCLIP data, but the functional significance of these distinct targets is not demonstrated.
+- The claim that CLAMP "directly links DNA binding sites to RNA targets" is not supported by the data, which only show spatial correlation.
+- The claim that the CLAMP PrLD "regulates sex-specific splicing by modulating the dynamics of an hnRNPA2/B1 family protein" is a hypothesis that is not directly tested.
+- The claim that the loss of the PrLD leads to "new cryptic splicing events" is based on RNA-seq data, but the functional consequences of these events are not explored.
+- The claim that "the presence of the CLAMP PrLD domain reduces the size and increases the dynamics of the Hrp38 speckles" is supported by imaging data, but the link to splicing function is not established.

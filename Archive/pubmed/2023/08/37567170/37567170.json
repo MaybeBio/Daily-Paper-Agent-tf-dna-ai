@@ -1,0 +1,1402 @@
+{
+  "identity": {
+    "pmid": "37567170",
+    "doi": "10.1016/j.ccell.2023.07.007",
+    "title": "Proteogenomic insights suggest druggable pathways in endometrial carcinoma."
+  },
+  "content": {
+    "abstract": "We characterized a prospective endometrial carcinoma (EC) cohort containing 138 tumors and 20 enriched normal tissues using 10 different omics platforms. Targeted quantitation of two peptides can predict antigen processing and presentation machinery activity, and may inform patient selection for immunotherapy. Association analysis between MYC activity and metformin treatment in both patients and cell lines suggests a potential role for metformin treatment in non-diabetic patients with elevated MYC activity. PIK3R1 in-frame indels are associated with elevated AKT phosphorylation and increased sensitivity to AKT inhibitors. CTNNB1 hotspot mutations are concentrated near phosphorylation sites mediating pS45-induced degradation of beta-catenin, which may render Wnt-FZD antagonists ineffective. Deep learning accurately predicts EC subtypes and mutations from histopathology images, which may be useful for rapid diagnosis. Overall, this study identified molecular and imaging markers that can be further investigated to guide patient stratification for more precise treatment of EC.",
+    "keywords": [
+      "CPTAC",
+      "CTNNB1",
+      "PIK3R1",
+      "deep learning",
+      "endometrial cancer",
+      "metformin",
+      "proteogenomics",
+      "target assays"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Proto-Oncogene Proteins c-akt/genetics",
+      "Prospective Studies",
+      "*Proteogenomics",
+      "*Endometrial Neoplasms/drug therapy/genetics/metabolism",
+      "beta Catenin/genetics/metabolism",
+      "*Metformin/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dou, Yongchao",
+        "Katsnelson, Lizabeth",
+        "Gritsenko, Marina A",
+        "Hu, Yingwei",
+        "Reva, Boris",
+        "Hong, Runyu",
+        "Wang, Yi-Ting",
+        "Kolodziejczak, Iga",
+        "Lu, Rita Jui-Hsien",
+        "Tsai, Chia-Feng",
+        "Bu, Wen",
+        "Liu, Wenke",
+        "Guo, Xiaofang",
+        "An, Eunkyung",
+        "Arend, Rebecca C",
+        "Bavarva, Jasmin",
+        "Chen, Lijun",
+        "Chu, Rosalie K",
+        "Czekanski, Andrzej",
+        "Davoli, Teresa",
+        "Demicco, Elizabeth G",
+        "DeLair, Deborah",
+        "Devereaux, Kelly",
+        "Dhanasekaran, Saravana M",
+        "Dottino, Peter",
+        "Dover, Bailee",
+        "Fillmore, Thomas L",
+        "Foxall, McKenzie",
+        "Hermann, Catherine E",
+        "Hiltke, Tara",
+        "Hostetter, Galen",
+        "Jedryka, Marcin",
+        "Jewell, Scott D",
+        "Johnson, Isabelle",
+        "Kahn, Andrea G",
+        "Ku, Amy T",
+        "Kumar-Sinha, Chandan",
+        "Kurzawa, Pawel",
+        "Lazar, Alexander J",
+        "Lazcano, Rossana",
+        "Lei, Jonathan T",
+        "Li, Yi",
+        "Liao, Yuxing",
+        "Lih, Tung-Shing M",
+        "Lin, Tai-Tu",
+        "Martignetti, John A",
+        "Masand, Ramya P",
+        "Matkowski, Rafal",
+        "McKerrow, Wilson",
+        "Mesri, Mehdi",
+        "Monroe, Matthew E",
+        "Moon, Jamie",
+        "Moore, Ronald J",
+        "Nestor, Michael D",
+        "Newton, Chelsea",
+        "Omelchenko, Tatiana",
+        "Omenn, Gilbert S",
+        "Payne, Samuel H",
+        "Petyuk, Vladislav A",
+        "Robles, Ana I",
+        "Rodriguez, Henry",
+        "Ruggles, Kelly V",
+        "Rykunov, Dmitry",
+        "Savage, Sara R",
+        "Schepmoes, Athena A",
+        "Shi, Tujin",
+        "Shi, Zhiao",
+        "Tan, Jimin",
+        "Taylor, Mason",
+        "Thiagarajan, Mathangi",
+        "Wang, Joshua M",
+        "Weitz, Karl K",
+        "Wen, Bo",
+        "Williams, C M",
+        "Wu, Yige",
+        "Wyczalkowski, Matthew A",
+        "Yi, Xinpei",
+        "Zhang, Xu",
+        "Zhao, Rui",
+        "Mutch, David",
+        "Chinnaiyan, Arul M",
+        "Smith, Richard D",
+        "Nesvizhskii, Alexey I",
+        "Wang, Pei",
+        "Wiznerowicz, Maciej",
+        "Ding, Li",
+        "Mani, D R",
+        "Zhang, Hui",
+        "Anderson, Matthew L",
+        "Rodland, Karin D",
+        "Zhang, Bing",
+        "Liu, Tao",
+        "Fenyo, David"
+      ],
+      "short_names": [
+        "Dou Y",
+        "Katsnelson L",
+        "Gritsenko MA",
+        "Hu Y",
+        "Reva B",
+        "Hong R",
+        "Wang YT",
+        "Kolodziejczak I",
+        "Lu RJ",
+        "Tsai CF",
+        "Bu W",
+        "Liu W",
+        "Guo X",
+        "An E",
+        "Arend RC",
+        "Bavarva J",
+        "Chen L",
+        "Chu RK",
+        "Czekanski A",
+        "Davoli T",
+        "Demicco EG",
+        "DeLair D",
+        "Devereaux K",
+        "Dhanasekaran SM",
+        "Dottino P",
+        "Dover B",
+        "Fillmore TL",
+        "Foxall M",
+        "Hermann CE",
+        "Hiltke T",
+        "Hostetter G",
+        "Jedryka M",
+        "Jewell SD",
+        "Johnson I",
+        "Kahn AG",
+        "Ku AT",
+        "Kumar-Sinha C",
+        "Kurzawa P",
+        "Lazar AJ",
+        "Lazcano R",
+        "Lei JT",
+        "Li Y",
+        "Liao Y",
+        "Lih TM",
+        "Lin TT",
+        "Martignetti JA",
+        "Masand RP",
+        "Matkowski R",
+        "McKerrow W",
+        "Mesri M",
+        "Monroe ME",
+        "Moon J",
+        "Moore RJ",
+        "Nestor MD",
+        "Newton C",
+        "Omelchenko T",
+        "Omenn GS",
+        "Payne SH",
+        "Petyuk VA",
+        "Robles AI",
+        "Rodriguez H",
+        "Ruggles KV",
+        "Rykunov D",
+        "Savage SR",
+        "Schepmoes AA",
+        "Shi T",
+        "Shi Z",
+        "Tan J",
+        "Taylor M",
+        "Thiagarajan M",
+        "Wang JM",
+        "Weitz KK",
+        "Wen B",
+        "Williams CM",
+        "Wu Y",
+        "Wyczalkowski MA",
+        "Yi X",
+        "Zhang X",
+        "Zhao R",
+        "Mutch D",
+        "Chinnaiyan AM",
+        "Smith RD",
+        "Nesvizhskii AI",
+        "Wang P",
+        "Wiznerowicz M",
+        "Ding L",
+        "Mani DR",
+        "Zhang H",
+        "Anderson ML",
+        "Rodland KD",
+        "Zhang B",
+        "Liu T",
+        "Fenyo D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA.",
+        "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "International Institute for Molecular Oncology, 20-203 Poznan, Poland; Postgraduate School of Molecular Medicine, Medical University of Warsaw, 02-091 Warsaw, Poland.",
+        "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Medicine, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Division of Gynecologic Oncology, University of South Florida Morsani College of Medicine and Tampa General Hospital Cancer Institute, Tampa, FL 33606, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Department of Obstetrics and Gynecology, Division of Gynecologic Oncology, University of Alabama at Birmingham, Birmingham, AL 35249, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA.",
+        "Environmental Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Wroclaw Medical University and Lower Silesian Oncology, Pulmonology and Hematology Center (DCOPIH), Wroclaw, Poland.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Department of Pathology and Laboratory Medicine, Mount Sinai Hospital and Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5G 1X5, Canada.",
+        "Department of Pathology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Department of Pathology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Obstetrics, Gynecology and Reproductive Science, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Department of Obstetrics and Gynecology, Division of Gynecologic Oncology, University of Alabama at Birmingham, Birmingham, AL 35249, USA.",
+        "Environmental Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Department of Obstetrics and Gynecology, Division of Gynecologic Oncology, University of Alabama at Birmingham, Birmingham, AL 35249, USA.",
+        "Division of Gynecologic Oncology, Department of Obstetrics and Gynecology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Van Andel Research Institute, Grand Rapids, MI 49503, USA.",
+        "Wroclaw Medical University and Lower Silesian Oncology, Pulmonology and Hematology Center (DCOPIH), Wroclaw, Poland.",
+        "Van Andel Research Institute, Grand Rapids, MI 49503, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Department of Pathology, University of Alabama at Birmingham, Birmingham, AL 35249, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Heliodor Swiecicki Clinical Hospital in Poznan ul. Przybyszewskiego 49, 60-355 Poznan, Poland; Poznan University of Medical Sciences, 61-701 Poznan, Poland.",
+        "Department of Genomic Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA; Department of Pathology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Department of Pathology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Department of Pathology & Immunology, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Wroclaw Medical University and Lower Silesian Oncology, Pulmonology and Hematology Center (DCOPIH), Wroclaw, Poland.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Van Andel Research Institute, Grand Rapids, MI 49503, USA.",
+        "The Rockefeller University, New York, NY 10065, USA.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA; Department of Internal Medicine, University of Michigan, Ann Arbor, MI 48109, USA; Department of Human Genetics, University of Michigan, Ann Arbor, MI 48109, USA; School of Public Health, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Biology, Brigham Young University, Provo, UT 84602, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Division of Precision Medicine, Department of Medicine, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Department of Biology, Brigham Young University, Provo, UT 84602, USA.",
+        "Leidos Biomedical Research Inc., Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142, USA.",
+        "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA.",
+        "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA.",
+        "Environmental Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Washington University School of Medicine, Saint Louis, MO 63110, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "International Institute for Molecular Oncology, 60-203 Poznan, Poland; Heliodor Swiecicki Clinical Hospital in Poznan ul. Przybyszewskiego 49, 60-355 Poznan, Poland; Poznan University of Medical Sciences, 61-701 Poznan, Poland.",
+        "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA.",
+        "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142, USA.",
+        "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA.",
+        "Division of Gynecologic Oncology, University of South Florida Morsani College of Medicine and Tampa General Hospital Cancer Institute, Tampa, FL 33606, USA. Electronic address: mlander5@usf.edu.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA; Department of Cell, Developmental, and Cancer Biology, Oregon Health & Science University, Portland, OR 97221, USA. Electronic address: rodland@ohsu.edu.",
+        "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA. Electronic address: bing.zhang@bcm.edu.",
+        "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA. Electronic address: tao.liu@pnnl.gov.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA. Electronic address: david@fenyolab.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dou, Yongchao",
+        "short_name": "Dou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Katsnelson, Lizabeth",
+        "short_name": "Katsnelson L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Gritsenko, Marina A",
+        "short_name": "Gritsenko MA",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Yingwei",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA."
+        ]
+      },
+      {
+        "full_name": "Reva, Boris",
+        "short_name": "Reva B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Runyu",
+        "short_name": "Hong R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi-Ting",
+        "short_name": "Wang YT",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Kolodziejczak, Iga",
+        "short_name": "Kolodziejczak I",
+        "identifiers": [],
+        "affiliations": [
+          "International Institute for Molecular Oncology, 20-203 Poznań, Poland; Postgraduate School of Molecular Medicine, Medical University of Warsaw, 02-091 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Lu, Rita Jui-Hsien",
+        "short_name": "Lu RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA."
+        ]
+      },
+      {
+        "full_name": "Tsai, Chia-Feng",
+        "short_name": "Tsai CF",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Bu, Wen",
+        "short_name": "Bu W",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Medicine, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenke",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaofang",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gynecologic Oncology, University of South Florida Morsani College of Medicine and Tampa General Hospital Cancer Institute, Tampa, FL 33606, USA."
+        ]
+      },
+      {
+        "full_name": "An, Eunkyung",
+        "short_name": "An E",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Arend, Rebecca C",
+        "short_name": "Arend RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Division of Gynecologic Oncology, University of Alabama at Birmingham, Birmingham, AL 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Bavarva, Jasmin",
+        "short_name": "Bavarva J",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Lijun",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA."
+        ]
+      },
+      {
+        "full_name": "Chu, Rosalie K",
+        "short_name": "Chu RK",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Czekański, Andrzej",
+        "short_name": "Czekański A",
+        "identifiers": [],
+        "affiliations": [
+          "Wroclaw Medical University and Lower Silesian Oncology, Pulmonology and Hematology Center (DCOPIH), Wrocław, Poland."
+        ]
+      },
+      {
+        "full_name": "Davoli, Teresa",
+        "short_name": "Davoli T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Demicco, Elizabeth G",
+        "short_name": "Demicco EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Mount Sinai Hospital and Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON M5G 1X5, Canada."
+        ]
+      },
+      {
+        "full_name": "DeLair, Deborah",
+        "short_name": "DeLair D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Devereaux, Kelly",
+        "short_name": "Devereaux K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Dhanasekaran, Saravana M",
+        "short_name": "Dhanasekaran SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Dottino, Peter",
+        "short_name": "Dottino P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology and Reproductive Science, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Dover, Bailee",
+        "short_name": "Dover B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Division of Gynecologic Oncology, University of Alabama at Birmingham, Birmingham, AL 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Fillmore, Thomas L",
+        "short_name": "Fillmore TL",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Foxall, McKenzie",
+        "short_name": "Foxall M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Division of Gynecologic Oncology, University of Alabama at Birmingham, Birmingham, AL 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Hermann, Catherine E",
+        "short_name": "Hermann CE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gynecologic Oncology, Department of Obstetrics and Gynecology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Hiltke, Tara",
+        "short_name": "Hiltke T",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Hostetter, Galen",
+        "short_name": "Hostetter G",
+        "identifiers": [],
+        "affiliations": [
+          "Van Andel Research Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Jędryka, Marcin",
+        "short_name": "Jędryka M",
+        "identifiers": [],
+        "affiliations": [
+          "Wroclaw Medical University and Lower Silesian Oncology, Pulmonology and Hematology Center (DCOPIH), Wrocław, Poland."
+        ]
+      },
+      {
+        "full_name": "Jewell, Scott D",
+        "short_name": "Jewell SD",
+        "identifiers": [],
+        "affiliations": [
+          "Van Andel Research Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Isabelle",
+        "short_name": "Johnson I",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Kahn, Andrea G",
+        "short_name": "Kahn AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Alabama at Birmingham, Birmingham, AL 35249, USA."
+        ]
+      },
+      {
+        "full_name": "Ku, Amy T",
+        "short_name": "Ku AT",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar-Sinha, Chandan",
+        "short_name": "Kumar-Sinha C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Kurzawa, Paweł",
+        "short_name": "Kurzawa P",
+        "identifiers": [],
+        "affiliations": [
+          "Heliodor Swiecicki Clinical Hospital in Poznan ul. Przybyszewskiego 49, 60-355 Poznań, Poland; Poznań University of Medical Sciences, 61-701 Poznań, Poland."
+        ]
+      },
+      {
+        "full_name": "Lazar, Alexander J",
+        "short_name": "Lazar AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genomic Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA; Department of Pathology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Lazcano, Rossana",
+        "short_name": "Lazcano R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Lei, Jonathan T",
+        "short_name": "Lei JT",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Liao, Yuxing",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Lih, Tung-Shing M",
+        "short_name": "Lih TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Tai-Tu",
+        "short_name": "Lin TT",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Martignetti, John A",
+        "short_name": "Martignetti JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Masand, Ramya P",
+        "short_name": "Masand RP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology & Immunology, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Matkowski, Rafał",
+        "short_name": "Matkowski R",
+        "identifiers": [],
+        "affiliations": [
+          "Wroclaw Medical University and Lower Silesian Oncology, Pulmonology and Hematology Center (DCOPIH), Wrocław, Poland."
+        ]
+      },
+      {
+        "full_name": "McKerrow, Wilson",
+        "short_name": "McKerrow W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Mesri, Mehdi",
+        "short_name": "Mesri M",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Monroe, Matthew E",
+        "short_name": "Monroe ME",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Moon, Jamie",
+        "short_name": "Moon J",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Ronald J",
+        "short_name": "Moore RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Nestor, Michael D",
+        "short_name": "Nestor MD",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Newton, Chelsea",
+        "short_name": "Newton C",
+        "identifiers": [],
+        "affiliations": [
+          "Van Andel Research Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Omelchenko, Tatiana",
+        "short_name": "Omelchenko T",
+        "identifiers": [],
+        "affiliations": [
+          "The Rockefeller University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Omenn, Gilbert S",
+        "short_name": "Omenn GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA; Department of Internal Medicine, University of Michigan, Ann Arbor, MI 48109, USA; Department of Human Genetics, University of Michigan, Ann Arbor, MI 48109, USA; School of Public Health, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Payne, Samuel H",
+        "short_name": "Payne SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Brigham Young University, Provo, UT 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Petyuk, Vladislav A",
+        "short_name": "Petyuk VA",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Robles, Ana I",
+        "short_name": "Robles AI",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Henry",
+        "short_name": "Rodriguez H",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Ruggles, Kelly V",
+        "short_name": "Ruggles KV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Division of Precision Medicine, Department of Medicine, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Rykunov, Dmitry",
+        "short_name": "Rykunov D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Savage, Sara R",
+        "short_name": "Savage SR",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Schepmoes, Athena A",
+        "short_name": "Schepmoes AA",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Tujin",
+        "short_name": "Shi T",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Zhiao",
+        "short_name": "Shi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Jimin",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor, Mason",
+        "short_name": "Taylor M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Brigham Young University, Provo, UT 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Thiagarajan, Mathangi",
+        "short_name": "Thiagarajan M",
+        "identifiers": [],
+        "affiliations": [
+          "Leidos Biomedical Research Inc., Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Joshua M",
+        "short_name": "Wang JM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Weitz, Karl K",
+        "short_name": "Weitz KK",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Bo",
+        "short_name": "Wen B",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, C M",
+        "short_name": "Williams CM",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Yige",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA."
+        ]
+      },
+      {
+        "full_name": "Wyczalkowski, Matthew A",
+        "short_name": "Wyczalkowski MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA."
+        ]
+      },
+      {
+        "full_name": "Yi, Xinpei",
+        "short_name": "Yi X",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Office of Cancer Clinical Proteomics Research, National Cancer Institute, Rockville, MD 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Rui",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Molecular Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Mutch, David",
+        "short_name": "Mutch D",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University School of Medicine, Saint Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Chinnaiyan, Arul M",
+        "short_name": "Chinnaiyan AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Richard D",
+        "short_name": "Smith RD",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Nesvizhskii, Alexey I",
+        "short_name": "Nesvizhskii AI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Michigan Center for Translational Pathology, University of Michigan, Ann Arbor, MI 48109, USA; Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Pei",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Wiznerowicz, Maciej",
+        "short_name": "Wiznerowicz M",
+        "identifiers": [],
+        "affiliations": [
+          "International Institute for Molecular Oncology, 60-203 Poznań, Poland; Heliodor Swiecicki Clinical Hospital in Poznan ul. Przybyszewskiego 49, 60-355 Poznań, Poland; Poznań University of Medical Sciences, 61-701 Poznań, Poland."
+        ]
+      },
+      {
+        "full_name": "Ding, Li",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Genetics, Siteman Cancer Center, Washington University in St. Louis, St. Louis, MO 63110, USA; McDonnell Genome Institute, Washington University in St. Louis, St. Louis, MO 63108, USA."
+        ]
+      },
+      {
+        "full_name": "Mani, D R",
+        "short_name": "Mani DR",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Oncology, Johns Hopkins University, Baltimore, MD 21231, USA."
+        ]
+      },
+      {
+        "full_name": "Anderson, Matthew L",
+        "short_name": "Anderson ML",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Gynecologic Oncology, University of South Florida Morsani College of Medicine and Tampa General Hospital Cancer Institute, Tampa, FL 33606, USA. Electronic address: mlander5@usf.edu."
+        ]
+      },
+      {
+        "full_name": "Rodland, Karin D",
+        "short_name": "Rodland KD",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA; Department of Cell, Developmental, and Cancer Biology, Oregon Health & Science University, Portland, OR 97221, USA. Electronic address: rodland@ohsu.edu."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bing",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Lester and Sue Smith Breast Center, Baylor College of Medicine, Houston, TX 77030, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA; Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA. Electronic address: bing.zhang@bcm.edu."
+        ]
+      },
+      {
+        "full_name": "Liu, Tao",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA. Electronic address: tao.liu@pnnl.gov."
+        ]
+      },
+      {
+        "full_name": "Fenyö, David",
+        "short_name": "Fenyö D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY 10016, USA; Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY 10016, USA. Electronic address: david@fenyolab.org."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell"
+    ],
+    "pub_date": "2023 Sep 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/12 10:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "42601646",
+      "42366266",
+      "42251145",
+      "42249089",
+      "42146380",
+      "42140194",
+      "42059203",
+      "42013851",
+      "42008080",
+      "42005384",
+      "41980961",
+      "41550727",
+      "41181115",
+      "41093273",
+      "41024277",
+      "40966993",
+      "40873541",
+      "40859022",
+      "40668290",
+      "40540226",
+      "40507291",
+      "40426963",
+      "40419771",
+      "40410883",
+      "40322912",
+      "39962197",
+      "39894887",
+      "39821024",
+      "39730425",
+      "39725169",
+      "39680126",
+      "39671142",
+      "39578447",
+      "39402594",
+      "39368483",
+      "39319326",
+      "39194522",
+      "39052221",
+      "38926357",
+      "38711526",
+      "38024019"
+    ],
+    "refs": [
+      "36343340",
+      "35549404",
+      "35511145",
+      "35397864",
+      "35064011",
+      "34628449",
+      "34622237",
+      "34534465",
+      "34165986",
+      "34040252",
+      "33995085",
+      "33763651",
+      "33560848",
+      "33417831",
+      "33211851",
+      "33207095",
+      "33086064",
+      "33046573",
+      "32613204",
+      "32313104",
+      "32059776",
+      "31921687",
+      "31767055",
+      "31714586",
+      "31691815",
+      "31675502",
+      "31659324",
+      "31628143",
+      "31319067",
+      "31151429",
+      "31133849",
+      "30980132",
+      "30808672",
+      "30754729",
+      "30643254",
+      "30610011",
+      "30395287",
+      "30341162",
+      "30224110",
+      "30013048",
+      "29765039",
+      "29625053",
+      "29625050",
+      "29622463",
+      "29497884",
+      "29487113",
+      "29457866",
+      "29435196",
+      "29319049",
+      "29295995",
+      "29141660",
+      "29140435",
+      "29136207",
+      "29017115",
+      "28835386",
+      "28760367",
+      "28700544",
+      "28676700",
+      "28334396",
+      "28327092",
+      "28281553",
+      "28114390",
+      "28104840",
+      "28052254",
+      "27951441",
+      "27899662",
+      "27653561",
+      "27587659",
+      "27374120",
+      "27260798",
+      "27098033",
+      "26771021",
+      "26631509",
+      "26588235",
+      "26556708",
+      "26553804",
+      "26289314",
+      "26243018",
+      "25945896",
+      "25873244",
+      "25583365",
+      "25474301",
+      "25417601",
+      "25358478",
+      "25143287",
+      "24952365",
+      "24371154",
+      "24297256",
+      "23812989",
+      "23681989",
+      "23636398",
+      "23396013",
+      "23323831",
+      "23093608",
+      "22949669",
+      "22759861",
+      "22581179",
+      "22388286",
+      "22300766",
+      "21816040",
+      "21478295",
+      "20147306",
+      "20080505",
+      "19948758",
+      "19847166",
+      "19561018",
+      "19522537",
+      "18854821",
+      "18794884",
+      "18597511",
+      "18440872",
+      "17676885",
+      "17476474",
+      "17008526",
+      "16964243",
+      "16632515",
+      "15378020",
+      "11955436",
+      "9050879"
+    ],
+    "similar": [
+      "37567170",
+      "34038589",
+      "25640355",
+      "36150916",
+      "38565644",
+      "31967350",
+      "29795437",
+      "32059776",
+      "30452118",
+      "27745917",
+      "23295859",
+      "23135473",
+      "38698330",
+      "33690729",
+      "27643646",
+      "29182407",
+      "26794276",
+      "27016228",
+      "27910068",
+      "33946426",
+      "38967825",
+      "31541681",
+      "39780463",
+      "30840303",
+      "26050920",
+      "24966918",
+      "21478295",
+      "31892849",
+      "33220169",
+      "35531470",
+      "22609107",
+      "25214561",
+      "27636742",
+      "18165946",
+      "34480403",
+      "28222438",
+      "31082618",
+      "23943160",
+      "22955108",
+      "39990660",
+      "34463000",
+      "30448219",
+      "29257334",
+      "24077915",
+      "36454672",
+      "23463670",
+      "19822355",
+      "11385321",
+      "35508466",
+      "34368370",
+      "34420090",
+      "35269569",
+      "21168492",
+      "26923859",
+      "21849527",
+      "31865530",
+      "37054536",
+      "34831139",
+      "38053378",
+      "21984976",
+      "20457218",
+      "37287079",
+      "36695555",
+      "37171945",
+      "22383975",
+      "27572308",
+      "19898427",
+      "32376735",
+      "30289582",
+      "26734994",
+      "39414985",
+      "37186152",
+      "25144715",
+      "31562818",
+      "30702464",
+      "35820883",
+      "10671680",
+      "28751540",
+      "10416591",
+      "31585088",
+      "25757764",
+      "36614043",
+      "34257616",
+      "26922329",
+      "26917264",
+      "25195947",
+      "12708483",
+      "29963728",
+      "31081718",
+      "24735369",
+      "36731035",
+      "32631394",
+      "11497285",
+      "35052471",
+      "30715091",
+      "19056846",
+      "35953603",
+      "19329935",
+      "17219201",
+      "38508587"
+    ],
+    "review": [
+      "37567170",
+      "27910068",
+      "35531470",
+      "35508466",
+      "26922329",
+      "24735369"
+    ],
+    "pmc": [
+      "10631452"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1535-6108(23)00247-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37567170/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1539",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

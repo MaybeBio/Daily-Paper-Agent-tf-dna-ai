@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a systematic parameter study of Elastic Network Models (ENMs) for protein dynamics, varying spatial cut-off, modal cut-off, and backbone stiffness, applied to three proteins (CAP, GST, SARS-CoV-2 Mpro). They propose a near-universal optimal distance cut-off of 8.5 Å, characterize the modal range affected by backbone-enhanced ENM (BENM), and report that BENM does not generally improve fluctuation-allostery predictions.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, parameter sweep details, comparison metrics, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful parameter optimisation study for a widely used class of coarse-grained models. The claims are specific and testable, and the choice of three diverse proteins is reasonable. However, the abstract alone provides insufficient evidence to evaluate the robustness of the proposed optimal cut-off, the generality of the modal findings, or the negative result on BENM and allostery. The central claim of a "near-universal" optimal value requires substantially more support than can be assessed from this material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists who use ENMs for protein dynamics, allostery prediction, or functional interpretation of conformational ensembles. Method developers in coarse-grained modelling would also be interested in the parameter guidance and the specific claims about BENM behaviour.
+- **Major strengths** The study addresses a practical and recurring problem in the field, namely parameter choice in ENMs. The abstract clearly states four distinct findings, which is helpful for evaluating scope. The inclusion of a medically relevant protein (SARS-CoV-2 Mpro) alongside two well-studied systems adds potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "a near-universal optimal value of 8.5 angstroms is advisable for ENMs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a "near-universal" optimal cut-off is presented without any quantitative comparison across proteins, metrics, or conditions. It is unclear how the optimum was defined, whether it was derived from a single metric or a combined score, and how sensitive the result is to the choice of proteins or to the specific experimental references used.
+  - **Why it matters** A universal parameter recommendation is only useful if it is robust across diverse systems and metrics. Without evidence of the spread of optimal values, the uncertainty in the 8.5 Å value, or the criteria for "balancing" B-factor and dispersion-relation predictions, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide a table or figure showing the optimal cut-off for each protein and each metric, with a clear definition of the optimisation criterion, and a statement of the range or variance across systems. If the claim is retained, the abstract should report the spread and the sensitivity of the conclusion to the choice of proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "inhomogeneity in elasticity brings the first mode containing spatial structure not well-resolved by the ENM typically within the first 20"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not define what is meant by "spatial structure not well-resolved", nor how this was quantified. The claim that this mode falls "typically within the first 20" is presented without any measure of variability, the number of modes considered, or the criterion for "not well-resolved".
+  - **Why it matters** This is a specific and potentially useful diagnostic claim, but without a clear definition of the metric and the distribution of results across the three proteins, it is not possible to assess whether the finding is robust or an artefact of the chosen systems or parameters.
+  - **Resolution test** Define the resolution metric explicitly, report the mode index for each protein, and state the range or standard deviation. If the claim is meant to be general, provide a rationale for why these three proteins are representative.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "BENM does not typically affect fluctuation-allostery, which also requires careful treatment of the effector binding to the host protein to capture"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The negative result on BENM and allostery is stated without any quantitative support. The additional statement that allostery "requires careful treatment of the effector binding" is a methodological opinion that is not substantiated in the abstract.
+  - **Why it matters** Negative results are valuable, but they require the same level of evidence as positive ones. Without a description of the allostery metric, the comparison protocol, or the range of conditions tested, the claim is not falsifiable from the provided material.
+  - **Resolution test** Report the allostery metric used, the comparison between ENM and BENM for each protein, and the effect of including or excluding effector binding. If the claim is retained, the abstract should state the conditions under which BENM does or does not affect allostery.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dispersion-relation predictions" is used without definition. It is unclear whether this refers to the dispersion of normal mode frequencies, a comparison with experimental phonon-like data, or a specific computational metric.
+  - **Required correction** Define the term at first use, or replace with a more explicit description of the comparison being made.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Protein selection rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain why these three proteins were chosen, nor whether they are intended to represent different structural classes, sizes, or dynamic behaviours.
+  - **Required correction** Add one sentence stating the rationale for protein selection and the expected diversity in dynamic behaviour.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Quantitative reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The value "8.5 angstroms" is given without a unit symbol or uncertainty. The phrase "near-universal" is vague and could be interpreted as applying to all proteins or all metrics.
+  - **Required correction** Use "8.5 Å" and specify the range of optimal values observed across the three proteins and the metrics used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking because the central claims of the abstract cannot be evaluated without quantitative evidence and methodological definitions. The abstract as provided does not establish the case for a universal cut-off, a modal diagnostic, or a negative result on BENM and allostery.
+- **Assessment against Nature-style criteria** Originality: the parameter optimisation question is not new, but the specific combination of spatial and modal cut-offs with backbone stiffness may offer a useful synthesis. Scientific importance: potentially moderate, as improved ENM parameterisation would benefit a broad user community, but the abstract does not demonstrate a significant advance over existing guidance. Interdisciplinary readership: the topic is specialised and would primarily interest computational biophysicists; the abstract does not frame the work for a broader structural biology audience. Technical soundness: cannot be assessed from the abstract alone; the absence of any quantitative results or methodological detail prevents evaluation. Readability for nonspecialists: the abstract is reasonably clear for a specialist audience, but terms such as "dispersion-relation predictions" and "fluctuation-allostery" are not defined for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible and potentially useful findings, but the absence of quantitative support and methodological transparency means the claims cannot be assessed. A revised abstract with explicit metrics, ranges, and definitions, or access to the full manuscript, would be required to move toward a supportive position.
+
+## Risk / unsupported claims
+- The claim of a "near-universal optimal value of 8.5 angstroms" is unsupported by any quantitative data in the abstract.
+- The claim that the first poorly resolved mode falls "typically within the first 20" is unsupported by any distribution or metric definition.
+- The claim that BENM "does not typically affect fluctuation-allostery" is unsupported by any comparative data.
+- The statement that allostery "requires careful treatment of the effector binding" is presented as a conclusion but is not substantiated in the abstract.

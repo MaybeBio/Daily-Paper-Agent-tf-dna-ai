@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of claims, and alignment with the stated integrative approach. Assessment is limited to the provided text; supplementary files, appendices, and source data referenced but not included are not directly evaluated.
+- **Shared manuscript claim summary** The authors present an integrative drug screening approach combining computational methods (pharmacophore screening, molecular docking, molecular dynamics simulations, absolute binding free energy calculations) with experimental validation (NMR spectroscopy, a cell-based microtubule bench assay) to identify small-molecule inhibitors of the RNA:protein interaction involving YBX1 (YB-1). They report 22 computational hits, 15 confirmed to bind YB-1 in vitro by NMR, and 11 shown to interfere with YB-1 mRNA binding in cells. One lead, P1 (an FDA-approved PARP inhibitor), is characterized in detail, including binding affinity (Kd ~6 µM), selectivity, and preliminary cellular effects.
+- **Visible evidence base** Abstract, Introduction, Results (including figure references), Discussion, Materials and Methods (computational and experimental), and selected figure legends. Referenced supplementary figures, appendices, and source data are not provided in the submitted material.
+- **Missing materials affecting confidence** Supplementary figures (e.g., Figure 1—figure supplement 1, Figure 3—figure supplement 2.3, Figure 7—figure supplement 1), appendices (Appendix 1–5), source data files, and full figure panels are not available. These are critical for verifying quantitative claims, statistical analyses, and detailed methodological parameters.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable integrative framework for targeting RNA:protein interactions, with a credible combination of computational screening and experimental validation. The identification of a known drug (P1) as a YB-1 binder with moderate affinity is interesting and may have translational relevance. However, the strength of the conclusions is limited by the absence of key supporting data (appendices, supplementary figures, source data) and by several methodological and interpretive gaps that need clarification. The claim of a validated "integrative approach" is only partially supported by the evidence presented in the main text.
+- **Who would be interested in the results, and why** Researchers in chemical biology, drug discovery, and RNA biology, particularly those interested in RNA:protein interactions as therapeutic targets. The work may also appeal to computational chemists developing screening pipelines and to cancer biologists studying YB-1 as a potential target. The repurposing angle (P1 as a PARP inhibitor with a secondary YB-1 target) could interest translational researchers.
+- **Major strengths** 1) The integrative strategy combining multiple computational and experimental techniques is conceptually strong and addresses a real gap in the field. 2) The adaptation of the microtubule bench assay for high-content screening of RNA:protein interactions is a novel and potentially useful methodological contribution. 3) The identification of a specific, druggable pocket on the YB-1 cold-shock domain is supported by structural and simulation data. 4) The inclusion of negative controls and specificity tests against other RBPs strengthens the claims of selectivity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that 11 of 22 computational hits "significantly interfere with the binding of mRNA to YB-1 in cells" and that this validates the integrative approach.
+  - **Evidence pointer** Results section "MT bench assays measure RBP-specific interactions with mRNAs in cells" and "In vitro validation of targeting the Quercetin-pocket"; Figure 4; Figure 4—source data 1 (not provided).
+  - **Concern** The quantitative basis for the "significant decrease" in mRNA enrichment is not presented in the main text. No statistical thresholds, effect sizes, or variability measures are reported. The claim of 11 hits relies on data in supplementary files that are not available for review. Without these, the central validation claim cannot be assessed.
+  - **Why it matters** The core conclusion that the approach successfully identifies potent inhibitors depends on the robustness of the cellular assay data. If the statistical analysis is inadequate or the effect sizes are small, the claim of "potent" inhibitors is not supported.
+  - **Resolution test** Provide the full statistical analysis of the microtubule bench assay data, including dose-response curves, IC50 values, confidence intervals, and a clear definition of the threshold for a "significant" decrease. This should be available in the main text or a directly accessible supplement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that P1 binds YB-1(CSD) with a Kd of ~6 µM, determined by ITC and supported by ABFE simulations.
+  - **Evidence pointer** Results section "FDA-approved P1 binds YB-1(CSD) with a Kd of 6 µM in silico and in vitro"; Figure 6; Appendix 5—tables 1 and 2 (not provided).
+  - **Concern** The ITC data are referenced but not shown. The agreement between ITC and ABFE is stated, but the error bars on the computed values are not given in the main text. The claim that the "driving force is enthalpic" is made without presenting the thermodynamic parameters (ΔH, ΔS, TΔS). The F85A mutant experiment is described but the data are not shown.
+  - **Why it matters** The binding affinity and thermodynamic characterization are central to the claim that P1 is a bona fide YB-1 inhibitor. Without the raw data and fitting parameters, the reliability of the Kd value and the mechanistic interpretation cannot be verified.
+  - **Resolution test** Include the ITC thermograms, fitted binding isotherms, and a table of thermodynamic parameters (ΔG, ΔH, ΔS) with standard errors. Show the ABFE results with uncertainties and a direct comparison to the experimental values. Present the F85A mutant binding data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript describes a "large-scale computational approach" that screened "more than 7 million molecules" and used a "statistical mechanics-based filter" to select 22 hits.
+  - **Evidence pointer** Results section "Prediction of potent inhibitors of mRNA:YB-1 interactions using a large scale computational approach"; Materials and methods "Virtual screening" and "Statistical mechanics-based filter"; Appendix 2 (not provided).
+  - **Concern** The details of the pharmacophore construction, the scoring function (Equation 1), and the selection criteria are only briefly described. The weighting factors (w_c = 4, w_ΔΔH = -1) are stated without justification. The criteria for "positive S" and the treatment of statistical errors are not fully explained. The ABFE protocol is described but the convergence criteria and the number of replicates are not stated.
+  - **Why it matters** The reproducibility of the computational pipeline is essential for the "integrative approach" to be useful to others. The current description is insufficient for a reader to implement or evaluate the method.
+  - **Resolution test** Provide a detailed description of the pharmacophore generation, the scoring function, the selection thresholds, and the ABFE setup (including simulation length, number of replicates, and convergence checks). This could be in the main text or a comprehensive methods supplement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The manuscript suggests that the appearance of YB-1-rich granules and the inhibition of mRNA translation in HeLa cells are "consistent with P1 interfering with mRNA:YB-1 interactions."
+  - **Evidence pointer** Results section "May P1 affect YB-1 cellular functions related to mRNAs?"; Figure 8 and associated supplements (not provided).
+  - **Concern** The functional assays are presented as preliminary and the link to YB-1-specific inhibition is correlative. The formation of granules could be a general stress response, and the authors acknowledge this. The translation assay is described but the data are not shown in the main text. The specificity of the effect (i.e., dependence on YB-1 levels) is only partially addressed.
+  - **Why it matters** The functional relevance of the identified inhibitors is a key part of the translational claim. If the effects are non-specific or not clearly YB-1-dependent, the significance of the findings is diminished.
+  - **Resolution test** Present the granule formation and translation data with appropriate controls (e.g., a non-targeting compound, a YB-1-independent stressor). Show that the effects are reduced in YB-1 knockdown cells. Quantify the proportion of cells with granules and the magnitude of translation inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "RNA-protein interactions (RPIs) are promising targets" is vague; the abstract would benefit from specifying the type of interaction (e.g., mRNA binding) and the disease context more explicitly.
+  - **Required correction** Revise to "RNA-protein interactions (RPIs) involved in mRNA metabolism are promising therapeutic targets, particularly in cancer where dysregulation of RNA-binding proteins contributes to disease progression."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Results section "A druggable pocket found in YB-1 CSD, a conserved RNA-binding domain"
+  - **Evidence pointer** First paragraph
+  - **Issue** The term "Quercetin-pocket" is introduced based on a single compound (quercetin) and may be misleading, as the pocket is a structural feature of YB-1, not a quercetin-specific site.
+  - **Required correction** Consider renaming to "YB-1 CSD pocket" or "conserved hydrophobic pocket" and mention quercetin as the initial probe.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 and associated source data
+  - **Issue** The figure legend mentions "classification and chemical structures" but the criteria for classification (e.g., hit vs. non-hit) are not defined in the legend.
+  - **Required correction** Add a clear definition of the classification criteria in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "MT bench assays measure RBP-specific interactions with mRNAs in cells"
+  - **Evidence pointer** Figure 3c
+  - **Issue** The SSMD value of 8.1 is reported, but the number of replicates and the variability across experiments are not stated.
+  - **Required correction** Report the number of independent experiments and the standard deviation or confidence interval for the SSMD value.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and methods, "NMR spectroscopy"
+  - **Evidence pointer** Section on "Chemical shift perturbation analysis and titration"
+  - **Issue** The NMR data analysis is described as using "data mining techniques" (PCA, clustering), but the specific software and parameters are not mentioned.
+  - **Required correction** Specify the software (e.g., NMRPipe, Sparky, CcpNmr) and the parameters used for PCA and clustering.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical support for cellular hits), R1-M2 (ITC and ABFE data not shown), R1-M3 (computational pipeline details insufficient). These are blocking because the central claims of the manuscript depend on them.
+
+## Risk / unsupported claims
+- The claim that 11 compounds "significantly interfere" with mRNA:YB-1 binding in cells is unsupported without the underlying statistical data.
+- The claim that P1 binds YB-1 with a Kd of ~6 µM is not verifiable without the ITC data and ABFE results.
+- The claim that the "integrative approach" is validated is premature given the missing data.
+- The functional relevance of P1 (granule formation, translation inhibition) is presented as suggestive but is not rigorously established as YB-1-specific.
+- The statement that the computational approach "allowed the identification of 22 potential hits from ~7 million molecule candidates" is a process description, not a validated outcome, and should be framed as such.

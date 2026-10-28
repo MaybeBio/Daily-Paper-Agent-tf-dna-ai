@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "34761179",
+    "doi": "10.1016/j.isci.2021.103218",
+    "title": "TRIMER: Transcription Regulation Integrated with Metabolic Regulation."
+  },
+  "content": {
+    "abstract": "There has been extensive research in predictive modeling of genome-scale metabolic reaction networks. Living systems involve complex stochastic processes arising from interactions among different biomolecules. For more accurate and robust prediction of target metabolic behavior under different conditions, not only metabolic reactions but also the genetic regulatory relationships involving transcription factors (TFs) affecting these metabolic reactions should be modeled. We have developed a modeling and simulation pipeline enabling the analysis of Transcription Regulation Integrated with Metabolic Regulation: TRIMER. TRIMER utilizes a Bayesian network (BN) inferred from transcriptomes to model the transcription factor regulatory network. TRIMER then infers the probabilities of the gene states relevant to the metabolism of interest, and predicts the metabolic fluxes and their changes that result from the deletion of one or more transcription factors at the genome scale. We demonstrate TRIMER's applicability to both simulated and experimental data and provide performance comparison with other existing approaches.",
+    "keywords": [
+      "Bioinformatics",
+      "Metabolomics",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niu, Puhua",
+        "Soto, Maria J",
+        "Yoon, Byung-Jun",
+        "Dougherty, Edward R",
+        "Alexander, Francis J",
+        "Blaby, Ian",
+        "Qian, Xiaoning"
+      ],
+      "short_names": [
+        "Niu P",
+        "Soto MJ",
+        "Yoon BJ",
+        "Dougherty ER",
+        "Alexander FJ",
+        "Blaby I",
+        "Qian X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA.",
+        "US Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA.",
+        "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA.",
+        "Brookhaven National Laboratory, Computational Science Initiative, Upton, NY, 11973, USA.",
+        "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA.",
+        "Brookhaven National Laboratory, Computational Science Initiative, Upton, NY, 11973, USA.",
+        "US Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA.",
+        "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA.",
+        "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA.",
+        "Brookhaven National Laboratory, Computational Science Initiative, Upton, NY, 11973, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niu, Puhua",
+        "short_name": "Niu P",
+        "identifiers": [],
+        "affiliations": [
+          "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Soto, Maria J",
+        "short_name": "Soto MJ",
+        "identifiers": [],
+        "affiliations": [
+          "US Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Yoon, Byung-Jun",
+        "short_name": "Yoon BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA.",
+          "Brookhaven National Laboratory, Computational Science Initiative, Upton, NY, 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Dougherty, Edward R",
+        "short_name": "Dougherty ER",
+        "identifiers": [],
+        "affiliations": [
+          "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Alexander, Francis J",
+        "short_name": "Alexander FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Brookhaven National Laboratory, Computational Science Initiative, Upton, NY, 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Blaby, Ian",
+        "short_name": "Blaby I",
+        "identifiers": [],
+        "affiliations": [
+          "US Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA.",
+          "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Qian, Xiaoning",
+        "short_name": "Qian X",
+        "identifiers": [],
+        "affiliations": [
+          "Texas A&M University, Department of Electrical and Computer Engineering, College Station, TX, 77843, USA.",
+          "Brookhaven National Laboratory, Computational Science Initiative, Upton, NY, 11973, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2021 Nov 19",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/12 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "40575010",
+      "39143982",
+      "38765607",
+      "35797415",
+      "35243375"
+    ],
+    "refs": [
+      "31291905",
+      "30849073",
+      "30787451",
+      "30395280",
+      "29979655",
+      "28984191",
+      "28520713",
+      "28065897",
+      "25873626",
+      "25028489",
+      "24987114",
+      "24762745",
+      "24348226",
+      "23395009",
+      "23368729",
+      "23173819",
+      "21943338",
+      "21119627",
+      "20927193",
+      "20876091",
+      "20664636",
+      "18711341",
+      "18621757",
+      "17437026",
+      "17163976",
+      "16934450",
+      "16738554",
+      "16686963",
+      "15897462",
+      "15129285",
+      "14642354",
+      "14595777",
+      "12642111",
+      "12415116",
+      "10805808",
+      "7986045",
+      "4568763",
+      "894009"
+    ],
+    "similar": [
+      "34761179",
+      "35243375",
+      "36961389",
+      "20876091",
+      "30421239",
+      "30788794",
+      "24348226",
+      "22447363",
+      "23497388",
+      "28951888",
+      "16606697",
+      "22784627",
+      "25741348",
+      "26618656",
+      "23422247",
+      "31062316",
+      "24559271",
+      "23574698",
+      "26481968",
+      "21116043",
+      "33563821",
+      "19194908",
+      "28217746",
+      "25708381",
+      "31291905",
+      "18426580",
+      "26377923",
+      "24175918",
+      "28072816",
+      "30844478",
+      "21481254",
+      "22166063",
+      "26424082",
+      "26457579",
+      "18483615",
+      "26010949",
+      "26358840",
+      "28598965",
+      "32079178",
+      "22849367",
+      "23631471",
+      "23398941",
+      "29246163",
+      "31285465",
+      "19346491",
+      "21172055",
+      "12230551",
+      "29322933",
+      "20529914",
+      "21943338",
+      "26269925",
+      "26611531",
+      "30294889",
+      "24564939",
+      "23694699",
+      "21993642",
+      "25999934",
+      "18687109",
+      "17003135",
+      "23912807",
+      "25294834",
+      "22583770",
+      "24222422",
+      "18621757",
+      "22647244",
+      "33499002",
+      "27287878",
+      "20605915",
+      "23838962",
+      "16020466",
+      "30459786"
+    ],
+    "review": [
+      "34761179",
+      "25741348",
+      "21116043",
+      "25999934"
+    ],
+    "pmc": [
+      "8567008"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(21)01186-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34761179/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34761179",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.26.600843",
+  "title": "MetaLATTE: Metal Binding Prediction via Multi-Task Learning on Protein Language Model Latents",
+  "authors": "Yinuo Zhang; Phil He; Ashley Hsu; Pranam Chatterjee",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-29",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用蛋白语言模型预测金属结合蛋白，对象为蛋白-金属离子互作而非蛋白-DNA互作，且无结合位点或界面建模，与本课题仅方法上弱相关。",
+  "abstract": "The bioremediation of environments contaminated with heavy metals is an important challenge in environmental biotechnology, which may benefit from the identification of proteins that bind and neutralize these metals. Here, we introduce a novel predictive algorithm that conducts Metal binding prediction via LA nguage model la T en T E mbeddings using a multi-task learning approach to accurately classify the metal-binding properties of input protein sequences. Our MetaLATTE model utilizes the state-of-the-art ESM-2 protein language model (pLM) embeddings and a position-sensitive attention mechanism to predict the likelihood of binding to specific metals, such as zinc, lead, and mercury. Importantly, our approach addresses the challenges posed by proteins from understudied organisms, which are often absent in traditional metal-binding databases, without the requirement of an input structure. By providing a probability distribution over potential binding metals, our classifier elucidates specific interactions of proteins with diverse metal ions. We envision that MetaLATTE will serve as a powerful tool for rapidly screening and identifying new metal-binding proteins, from metagenomic discovery or de novo design efforts, which can later be employed in targeted bioremediation campaigns.",
+  "abstract_zh": "重金属污染环境的生物修复是环境生物技术中的一个重要挑战，识别能够结合并中和这些金属的蛋白质可能对此有所助益。在此，我们介绍一种新颖的预测算法，该算法通过多任务学习方法利用语言模型潜在嵌入进行金属结合预测，以准确分类输入蛋白质序列的金属结合特性。我们的MetaLATTE模型采用最先进的ESM-2蛋白质语言模型（pLM）嵌入和位置敏感注意力机制，预测与特定金属（如锌、铅和汞）结合的可能性。重要的是，我们的方法解决了来自研究不足生物的蛋白质所面临的挑战，这些蛋白质通常在传统金属结合数据库中缺失，且无需输入结构。通过提供潜在结合金属的概率分布，我们的分类器阐明了蛋白质与多种金属离子的特定相互作用。我们设想MetaLATTE将成为快速筛选和识别新型金属结合蛋白的强大工具，这些蛋白可源自宏基因组发现或从头设计工作，并随后应用于靶向生物修复活动。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600843",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600843",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.26.600843/index.html"
+}

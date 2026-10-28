@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion. Figures and tables are referenced but not fully visible. Supplementary materials are mentioned but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, data interpretation, and alignment with the journal's stated scope. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report the design and biological evaluation of peptide disruptors targeting the YAP1-TEAD interaction for oral cancer. They claim that computational design and iterative optimization yielded peptides with binding affinities up to 10-fold higher than wild-type YAP1, and that these disruptors inhibit migration and invasion of oral squamous cell carcinoma (OSCC) cells with limited effects on proliferation.
+- **Visible evidence base** TCGA bioinformatics analysis (Fig. 2), computational residue scanning (Table 1), SPR binding data (Tables 2-4, Figs. 3-4), MD simulation results (Fig. 5, Table 5), and cell-based assays (Fig. 6, Fig. S18). Supplementary figures are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures (S1-S18) and detailed methods for protein expression, purification, SPR, MD simulations, and cell-based assays are not provided. Raw data for TCGA analysis, statistical outputs, and full experimental protocols are absent. This limits independent verification of several key claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic in oral cancer research, namely the development of direct YAP1-TEAD interaction disruptors. The computational design strategy is rational and the iterative optimization approach is commendable. However, several technical concerns and missing details prevent full confidence in the conclusions as presented. The biological relevance of the findings is promising but not fully established, particularly given the limited effects on proliferation and the lack of mechanistic depth in the cell-based assays.
+- **Who would be interested in the results, and why** Researchers in the fields of oral cancer biology, Hippo signaling, and peptide-based therapeutics would find these results of interest. The study provides a potential new tool for dissecting YAP1-TEAD function in OSCC and suggests a therapeutic avenue that could complement existing strategies. Clinicians and translational scientists focused on targeted therapies for head and neck cancers may also be interested.
+- **Major strengths** 1. The study addresses a clear gap: no direct YAP1-TEAD disruptors have been evaluated in oral cancer. 2. The computational design and iterative optimization approach is systematic and well-structured. 3. The combination of computational predictions with in vitro validation (SPR) and cell-based assays provides a multi-layered evidence base. 4. The finding that YAP1-TEAD disruption primarily affects migration and invasion rather than proliferation is an interesting and potentially important observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the designed peptide disruptors achieve binding affinities "10 times more than that of the wildtype YAP1" based on SPR assays.
+  - **Evidence pointer** Tables 2 and 4, Figs. 3g and 4f
+  - **Concern** The SPR data are presented as steady-state affinity (KD) values, but the methodology for these measurements is not fully described. Key details such as the concentration range of the analyte, the immobilization level of TEAD, the fitting model used, and whether the measurements were performed in replicates are missing. Without this information, the reliability and reproducibility of the reported KD values cannot be assessed. Furthermore, the claim of "10 times" higher affinity is based on a comparison with a single wild-type control, and the statistical significance of this difference is not reported.
+  - **Why it matters** The central premise of the manuscript rests on the enhanced binding affinity of the designed peptides. If the SPR measurements are not rigorously performed and analyzed, the entire design and optimization strategy is called into question.
+  - **Resolution test** Provide a detailed SPR methodology, including experimental setup, analyte concentrations, fitting models, and replicate numbers. Report the KD values with appropriate error bars and statistical comparisons between the wild-type and mutant peptides. Ideally, include a positive control (e.g., a known YAP1-TEAD inhibitor) to validate the assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the disruptors exhibited a limited effect on cell proliferation, but they were able to inhibit the abilities of migration and invasion effectively."
+  - **Evidence pointer** Fig. 6, Fig. S18
+  - **Concern** The cell-based assays are described only briefly. For the proliferation assay, the concentration range tested and the time points are not specified. For the migration and invasion assays, the specific methods (e.g., wound healing vs. Boyden chamber) and quantification approaches are not detailed. The statement that cells treated with disruptors exhibited a "round-shaped morphology" is qualitative and not supported by quantitative data. Additionally, the concentrations used in the cell-based assays (up to 200 µM) are far above the measured KD values, raising questions about specificity and potential off-target effects at these high concentrations.
+  - **Why it matters** The biological conclusions regarding the functional role of YAP1-TEAD in OSCC are based on these assays. Without rigorous methodology and appropriate controls, the conclusions are not fully supported.
+  - **Resolution test** Provide detailed protocols for all cell-based assays, including cell lines, culture conditions, concentrations tested, time points, and quantification methods. Include appropriate controls (e.g., a scrambled peptide or a known inhibitor) to demonstrate specificity. Quantify the morphological changes and provide statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "direct disruption of the YAP1-TEAD primarily affects the migration and invasion ability of oral cancer."
+  - **Evidence pointer** Fig. 6, Discussion
+  - **Concern** The conclusion that YAP1-TEAD primarily affects migration and invasion is based on a limited set of assays in only two cell lines. The authors do not provide evidence for the mechanism by which YAP1-TEAD regulates these processes. For example, they do not examine downstream transcriptional targets in the treated cells, nor do they assess whether the effects are dependent on TEAD binding specifically. The possibility that the observed effects are due to off-target interactions of the peptides at high concentrations is not addressed.
+  - **Why it matters** The broader significance of the study depends on the specificity and mechanistic relevance of the observed effects. Without mechanistic data, the conclusion remains correlative rather than causal.
+  - **Resolution test** Perform gene expression analysis (e.g., qPCR or RNA-seq) of known YAP1-TEAD targets in treated cells. Use a control peptide with a disrupted binding motif to demonstrate specificity. Consider knockdown or overexpression experiments to confirm the on-target effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the expression levels of YAP1 and TEADs were significantly higher in OSCC tissues compared to their paired normal tissues."
+  - **Evidence pointer** Fig. 2a
+  - **Concern** The TCGA analysis is described briefly. The number of OSCC samples included, the specific criteria for defining OSCC (e.g., anatomical site), and the statistical methods used are not fully described. The selection of downstream target genes (AREG, AURKA, BUB1, DKK1) appears arbitrary, and the rationale for choosing these specific genes is not provided. The survival analysis (Fig. 2c) is mentioned but not described in terms of the statistical test used or the number of patients at risk.
+  - **Why it matters** The bioinformatics analysis provides the rationale for targeting YAP1-TEAD in OSCC. If the analysis is not robust or the gene selection is biased, the foundation of the study is weakened.
+  - **Resolution test** Provide a detailed description of the TCGA data processing, sample selection, and statistical analysis. Justify the selection of downstream target genes. Include details of the survival analysis, including the log-rank test and hazard ratios.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction assumes familiarity with the Hippo pathway and YAP1-TEAD biology. A brief explanation of the pathway's role in cancer, particularly in oral cancer, would improve accessibility for a broader readership.
+  - **Required correction** Add a brief overview of the Hippo pathway and its relevance to cancer, with specific reference to oral cancer.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Statistical analysis" section
+  - **Evidence pointer** Methods
+  - **Issue** The statistical analysis section is very brief. It does not specify which tests were used for which comparisons, nor does it state the number of independent experiments or replicates.
+  - **Required correction** Expand the statistical analysis section to include specific tests used, the number of replicates, and the criteria for significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Binding modes and dynamic analysis" section
+  - **Evidence pointer** Fig. 5, Table 5
+  - **Concern** The MD simulation results are presented, but the convergence of the simulations is not discussed. The authors state that the iRMSD remained below 3 Å, but it is unclear if this was stable over the entire simulation or if there were fluctuations.
+  - **Required correction** Provide a plot of iRMSD over time and discuss the convergence of the simulations. Also, specify the number of replicates for the MD simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, limitations paragraph
+  - **Evidence pointer** Discussion
+  - **Issue** The limitations paragraph is somewhat generic. It mentions poor membrane permeability but does not discuss other potential limitations, such as the lack of in vivo data or the specificity of the peptides.
+  - **Required correction** Expand the limitations section to include a more comprehensive discussion of the study's limitations, including the lack of in vivo validation and the potential for off-target effects.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SPR methodology and statistical rigor), R1-M2 (cell-based assay methodology and specificity), R1-M4 (TCGA analysis details). These are considered blocking because they directly affect the validity of the core claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study is original in its application of computational peptide design to the YAP1-TEAD interface specifically in oral cancer. However, the approach itself is not novel, as similar strategies have been used for other protein-protein interactions.  
+  - **Scientific importance** The findings are of moderate importance. They provide a new tool for studying YAP1-TEAD function in OSCC and suggest a potential therapeutic avenue. However, the limited effects on proliferation and the lack of mechanistic depth reduce the potential impact.  
+  - **Interdisciplinary readership** The study will appeal to researchers in cancer biology, structural biology, and drug discovery. The computational and experimental combination broadens its appeal, but the specialized nature of the topic may limit readership to those with specific interests.  
+  - **Technical soundness** The technical soundness is currently insufficient due to the missing methodological details and lack of statistical rigor in key experiments. The computational predictions are supported by SPR data, but the reliability of these data is not fully established.  
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with the Hippo pathway. The methods and results sections are dense and may be challenging for nonspecialists to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and presents a rational design strategy, but the technical concerns, particularly regarding SPR methodology and cell-based assay rigor, must be resolved before the conclusions can be fully supported. The authors are encouraged to provide detailed methods, additional controls, and statistical analyses to strengthen their case.
+
+## Risk / unsupported claims
+- The claim that the designed peptides achieve "10 times" higher affinity than wild-type YAP1 is not statistically supported, as no error bars or significance tests are reported for the SPR data.
+- The conclusion that YAP1-TEAD primarily affects migration and invasion rather than proliferation is based on limited assays and lacks mechanistic evidence.
+- The statement that the peptides are "off-target-free" is not supported by any direct evidence, such as proteomic or transcriptomic profiling.
+- The bioinformatics analysis is not fully described, and the selection of downstream target genes appears arbitrary without justification.
+- The morphological change from spindle-shaped to round-shaped cells is qualitative and not quantified, making it difficult to assess its significance.

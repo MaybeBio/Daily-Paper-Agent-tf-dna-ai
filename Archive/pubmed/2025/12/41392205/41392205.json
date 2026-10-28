@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "41392205",
+    "doi": "10.1038/s41467-025-67147-z",
+    "title": "In silico docking yields small molecule negative allosteric modulators targeting the core of Frizzled 7."
+  },
+  "content": {
+    "abstract": "Targeting the Frizzled family (FZD(1-10)) of WNT receptors pharmacologically has, despite substantial therapeutic potential, proven difficult. Given an almost complete lack of validated, effective small molecules targeting FZDs, no putative ligand binding site has so far been identified. In order to target FZD(7), a potential target for the treatment of intestinal tumors, we combine an approach of adapted docking setups and large molecular library docking screens, identifying compound C407. Applying pharmacological assays, genetically-encoded biosensors, site-directed mutagenesis, cryo-electron microscopy and molecular dynamics simulations, the compound binding site in the core of the seven transmembrane bundle is validated and C407 is confirmed as a negative allosteric modulator of WNT-induced and FZD-mediated WNT/beta-catenin signaling. In summary, we provide here the proof-of-principle that targeting FZDs with small molecule compounds is possible and effective. Future hit optimization and functional validation in disease-relevant in vitro and in vivo models will pave the way towards clinical exploration.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Frizzled Receptors/metabolism/genetics/chemistry/antagonists & inhibitors",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "Allosteric Regulation/drug effects",
+      "Molecular Dynamics Simulation",
+      "Wnt Signaling Pathway/drug effects",
+      "Binding Sites",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "Cryoelectron Microscopy",
+      "Mutagenesis, Site-Directed",
+      "HEK293 Cells",
+      "beta Catenin/metabolism",
+      "Ligands"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Scharf, Magdalena M",
+        "Kinsolving, Julia",
+        "Gratz, Lukas",
+        "Voss, Jan Hendrik",
+        "Carrasco-Busturia, David",
+        "Forsberg, Bjorn",
+        "Kolb, Peter",
+        "Schulte, Gunnar"
+      ],
+      "short_names": [
+        "Scharf MM",
+        "Kinsolving J",
+        "Gratz L",
+        "Voss JH",
+        "Carrasco-Busturia D",
+        "Forsberg B",
+        "Kolb P",
+        "Schulte G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3305-3956",
+        "ORCID: 0000-0002-0431-8222",
+        "ORCID: 0000-0003-0595-4607",
+        "ORCID: 0000-0003-1588-338X",
+        "ORCID: 0000-0002-6247-4063",
+        "ORCID: 0000-0003-4089-614X",
+        "ORCID: 0000-0002-2700-7013"
+      ],
+      "affiliations": [
+        "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden.",
+        "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden.",
+        "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden.",
+        "Molecular, Cellular and Pharmacobiology Section, Institute of Pharmaceutical Biology, University of Bonn, Bonn, Germany.",
+        "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden.",
+        "Division of Theoretical Chemistry and Biology, School of Engineering Sciences in Chemistry, Biotechnology and Health, KTH Royal Institute of Technology, Stockholm, Sweden.",
+        "Department of Physics, Chemistry and Biology, SciLifeLab, Linkoping University, Linkoping, Sweden.",
+        "Philipps-Universitat Marburg, Institute of Pharmaceutical Chemistry, Marburg, Germany.",
+        "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden. gunnar.schulte@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Scharf, Magdalena M",
+        "short_name": "Scharf MM",
+        "identifiers": [
+          "0000-0002-3305-3956"
+        ],
+        "affiliations": [
+          "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Kinsolving, Julia",
+        "short_name": "Kinsolving J",
+        "identifiers": [
+          "0000-0002-0431-8222"
+        ],
+        "affiliations": [
+          "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Grätz, Lukas",
+        "short_name": "Grätz L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden.",
+          "Molecular, Cellular and Pharmacobiology Section, Institute of Pharmaceutical Biology, University of Bonn, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "Voss, Jan Hendrik",
+        "short_name": "Voss JH",
+        "identifiers": [
+          "0000-0003-0595-4607"
+        ],
+        "affiliations": [
+          "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Carrasco-Busturia, David",
+        "short_name": "Carrasco-Busturia D",
+        "identifiers": [
+          "0000-0003-1588-338X"
+        ],
+        "affiliations": [
+          "Division of Theoretical Chemistry and Biology, School of Engineering Sciences in Chemistry, Biotechnology and Health, KTH Royal Institute of Technology, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Forsberg, Björn",
+        "short_name": "Forsberg B",
+        "identifiers": [
+          "0000-0002-6247-4063"
+        ],
+        "affiliations": [
+          "Department of Physics, Chemistry and Biology, SciLifeLab, Linköping University, Linköping, Sweden."
+        ]
+      },
+      {
+        "full_name": "Kolb, Peter",
+        "short_name": "Kolb P",
+        "identifiers": [
+          "0000-0003-4089-614X"
+        ],
+        "affiliations": [
+          "Philipps-Universität Marburg, Institute of Pharmaceutical Chemistry, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schulte, Gunnar",
+        "short_name": "Schulte G",
+        "identifiers": [
+          "0000-0002-2700-7013"
+        ],
+        "affiliations": [
+          "Department of Physiology & Pharmacology, Sec Receptor Biology & Signaling, Biomedicum, Karolinska Institute, Stockholm, Sweden. gunnar.schulte@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Dec 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/15 00:28",
+    "fetched_at": "2026-10-01 09:09:05"
+  },
+  "links": {
+    "cites": [
+      "42368579",
+      "41956205"
+    ],
+    "refs": [
+      "40992662",
+      "40033110",
+      "39856369",
+      "39698282",
+      "39670643",
+      "39223191",
+      "39213612",
+      "39198452",
+      "38955509",
+      "38698773",
+      "38594145",
+      "38308843",
+      "37516754",
+      "37014927",
+      "35113553",
+      "34915171",
+      "34791371",
+      "34265844",
+      "34239071",
+      "34168128",
+      "33263321",
+      "32962378",
+      "32929279",
+      "32661425",
+      "31964872",
+      "31714766",
+      "31591260",
+      "31429553",
+      "30737406",
+      "30622113",
+      "29632413",
+      "28710774",
+      "28575679",
+      "27680706",
+      "27622975",
+      "27437577",
+      "26583988",
+      "26479676",
+      "25541108",
+      "25008467",
+      "24525480",
+      "24474766",
+      "24098414",
+      "22824207",
+      "22653731",
+      "22179044",
+      "21890895",
+      "21645855",
+      "19580743",
+      "18351591",
+      "16458552",
+      "16211538",
+      "15264254",
+      "15116359"
+    ],
+    "similar": [
+      "41392205",
+      "40992662",
+      "39670643",
+      "39198452",
+      "26504084",
+      "37811743",
+      "37669317",
+      "31964872",
+      "38632318",
+      "30361437",
+      "38936522",
+      "29293331",
+      "23152409",
+      "31647315",
+      "39223191",
+      "32220333",
+      "22182510",
+      "28733458",
+      "26003275",
+      "32998794",
+      "38594145",
+      "40413190",
+      "24269653",
+      "29789460",
+      "29207657",
+      "34168128",
+      "28377511",
+      "31758355",
+      "30142536",
+      "30622113",
+      "33486136",
+      "33822624",
+      "29559846",
+      "32049522",
+      "38095360",
+      "31431458",
+      "30135577",
+      "24080158",
+      "38913211",
+      "33436039",
+      "30096373",
+      "39213612",
+      "25605717",
+      "40230079",
+      "30237173",
+      "33902288",
+      "38969364",
+      "38744670",
+      "39542206",
+      "39174501",
+      "24897117",
+      "27680706",
+      "39733096",
+      "24873871",
+      "39298584",
+      "28245136",
+      "30297426",
+      "31419987",
+      "40281310",
+      "26778749",
+      "28467818",
+      "27758766",
+      "29632413",
+      "36149353",
+      "39812521",
+      "23209147",
+      "32015160",
+      "28668722",
+      "30635359",
+      "21864196",
+      "30841855",
+      "30014891",
+      "19421142",
+      "26744382",
+      "23453073",
+      "28570708",
+      "22753465",
+      "31235524",
+      "30183492",
+      "27021209",
+      "22833265",
+      "28546512",
+      "40624078",
+      "22303445",
+      "29757429",
+      "16368566",
+      "32415084",
+      "21340743",
+      "27526031",
+      "39824186",
+      "35056767",
+      "31429553",
+      "34015309",
+      "18929644",
+      "36994853",
+      "31733054",
+      "34463848",
+      "25032869",
+      "29071717",
+      "24032637"
+    ],
+    "review": [
+      "41392205",
+      "38632318",
+      "38936522",
+      "22182510",
+      "26003275",
+      "32998794",
+      "38594145",
+      "29789460",
+      "31431458",
+      "38744670",
+      "23209147",
+      "22833265",
+      "16368566"
+    ],
+    "pmc": [
+      "12705740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67147-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41392205/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://liu.diva-portal.org/smash/get/diva2:2029168/FULLTEXT01.pdf",
+        "provider": "Linkoping University Electronic Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

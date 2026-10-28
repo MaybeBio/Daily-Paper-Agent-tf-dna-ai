@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "41729651",
+    "doi": "10.1109/TCBBIO.2026.3666856",
+    "title": "A Spectral Clustering-Based Approach for Balancing Data in TF-Target Gene Interaction Prediction Using Heterogeneous Network Embedding."
+  },
+  "content": {
+    "abstract": "Identifying transcription factors (TFs) interacting with target genes plays a crucial role in regulating gene expression, providing deep insights into the molecular mechanisms involved in biological processes and diseases, while also opening new opportunities for research and treatment, particularly in precision medicine. However, challenges arise from the high cost of experiments and biological complexity. Recent machine learning models show promise for predicting TF-target gene interactions but struggle with data imbalance, as the number of known interactions is much smaller than unknown ones, reducing prediction performance. To address this challenge, we propose an approach that integrates sample selection from potential unknown interactions with spectral clustering to balance the dataset. We construct an adjacency matrix from known interactions, apply spectral clustering to partition the data, and select unknown interactions farthest from the cluster center for diversity. A deep learning method combining random walk sampling and skip-gram embeddings is used to learn representations of biological networks. Experimental results, evaluated via five-fold cross-validation, show an average AUC of 0.9575 +/- 0.0044, outperforming existing methods. These findings validate our approach's efficacy in improving prediction accuracy and resolving data imbalance, offering a robust framework for discovering novel TF-target gene interactions in molecular biology and biomedical research.",
+    "keywords": [],
+    "mesh_terms": [
+      "Clustering Algorithms",
+      "*Transcription Factors/genetics/metabolism",
+      "*Computational Biology/methods",
+      "Deep Learning",
+      "*Gene Regulatory Networks/genetics",
+      "Humans",
+      "Cluster Analysis",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dang, Quoc Huy",
+        "Le, Thanh Tuoi",
+        "Vu, Thi Thu Hien",
+        "Le, Thi Tu Kien",
+        "Dang, Xuan Tho"
+      ],
+      "short_names": [
+        "Dang QH",
+        "Le TT",
+        "Vu TTH",
+        "Le TTK",
+        "Dang XT"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Dang, Quoc Huy",
+        "short_name": "Dang QH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Le, Thanh Tuoi",
+        "short_name": "Le TT",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Vu, Thi Thu Hien",
+        "short_name": "Vu TTH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Le, Thi Tu Kien",
+        "short_name": "Le TTK",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dang, Xuan Tho",
+        "short_name": "Dang XT",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2026 May-Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/23 18:52",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41729651",
+      "41643219",
+      "35266510",
+      "38451769",
+      "40012937",
+      "42059479",
+      "23497388",
+      "41662352",
+      "32054475",
+      "41782896",
+      "29187152",
+      "40853813",
+      "35511108",
+      "21496241",
+      "41050338",
+      "41288963",
+      "40251476",
+      "21750739",
+      "41042660",
+      "32497603",
+      "40513466",
+      "41642902",
+      "41450215",
+      "24564939",
+      "41896196",
+      "41881288",
+      "38950180",
+      "32241274",
+      "30953525",
+      "39679439",
+      "41386265",
+      "40662821",
+      "30337070",
+      "40914877",
+      "18426580",
+      "31660848",
+      "21342576",
+      "40461636",
+      "20704747",
+      "41310253",
+      "31995498",
+      "39256197",
+      "39804102",
+      "38354497",
+      "41206950",
+      "40399818",
+      "38062833",
+      "41924282",
+      "30547796",
+      "22647244",
+      "32936825",
+      "33631799",
+      "22456606",
+      "38995438",
+      "21282061",
+      "37161255",
+      "38342857",
+      "30528728",
+      "26611531",
+      "40359678",
+      "28155697",
+      "20085649",
+      "20942926",
+      "33482713",
+      "39062464",
+      "32770026",
+      "38848239",
+      "21548810",
+      "40098114",
+      "31527870",
+      "40633682",
+      "29870337",
+      "41257586",
+      "39020316",
+      "41861881",
+      "32174324",
+      "20840729",
+      "41350235",
+      "24968068",
+      "14555624",
+      "25707768",
+      "28254369",
+      "19961622",
+      "24565265",
+      "40920524",
+      "41006883",
+      "40220943",
+      "39488042",
+      "38980373",
+      "22538619",
+      "41564724",
+      "39259623",
+      "39563226",
+      "24228871",
+      "41033661",
+      "42112589",
+      "24565025",
+      "41052072",
+      "31336830",
+      "29675796"
+    ],
+    "review": [
+      "41729651",
+      "39804102",
+      "20840729"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

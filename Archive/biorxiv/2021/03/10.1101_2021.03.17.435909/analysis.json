@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.17.435909",
+  "title": "High throughput genome-wide single cell protein:DNA binding site mapping by targeted insertion of promoters (TIP-seq)",
+  "authors": "Daniel A. Bartlett; Vishnu Dileep; Steve Henikoff; David M. Gilbert",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-19",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了基于Tn5转座酶和T7扩增的高通量单细胞蛋白-DNA结合位点测序方法TIP-seq，虽涉及CTCF等TF-DNA结合位点检测，但核心是实验技术而非AI或物理模拟建模，方法上不匹配本课题。",
+  "abstract": "Assessing cell to cell, and importantly, chromosome to chromosome, heterogeneity in cellular phenotypes is a central goal of modern cell biology. However, chromatin profiling in single cells has been extremely challenging, and single chromosome profiling has not been achieved. In cases where single cell methods have shown promise, success has been mainly limited to histone proteins and/or require highly specialized equipment or cell type specific protocols and are relatively low throughput. Here, we have combined the advantages of tagmentation, linear amplification and combinatorial indexing to produce a high throughput single cell DNA binding site mapping method that does not require specialized equipment and is capable of multiplexing several samples/ target proteins in one experiment. Targeted Insertion of Promoters (TIP-seq) uses Tn5 fused to protein A (as with CUT&Tag) to insert a T7 RNA polymerase promoter into sites adjacent to an antibody bound to a chromatin protein of interest, followed by linear amplification of flanking DNA with T7 polymerase, cDNA preparation and PCR indexing. Tip-seq provides ∼10-fold higher unique reads and thus higher coverage per single cell compared to state-of-the-art methods. We apply TIP-seq to map histone modifications, RNA PolII and CTCF binding sites in single human and mouse cells. TIP-seq will also be adaptable for other platforms, such as 10X genomics and ICELL8. In summary, TIP-seq provides a high-throughput, low-cost method for single cell protein mapping, that yields substantially higher coverage per cell and signal to noise than existing methods.",
+  "abstract_zh": "评估细胞间，以及更重要的是，染色体间的细胞表型异质性，是现代细胞生物学的核心目标。然而，单细胞中的染色质分析极具挑战性，且单染色体分析尚未实现。在单细胞方法显示出潜力的案例中，成功主要局限于组蛋白，和/或需要高度专业化的设备或细胞类型特异性方案，且通量相对较低。在此，我们结合了标签化（tagmentation）、线性扩增和组合索引的优势，开发出一种高通量的单细胞DNA结合位点映射方法，该方法无需专业设备，并能在一次实验中多重处理多个样本/目标蛋白。靶向启动子插入（Targeted Insertion of Promoters, TIP-seq）利用与蛋白A融合的Tn5（如CUT&Tag中所述），将T7 RNA聚合酶启动子插入到与目标染色质蛋白结合的抗体邻近位点，随后通过T7聚合酶对侧翼DNA进行线性扩增、cDNA制备和PCR索引。与最先进的方法相比，TIP-seq每个单细胞提供约10倍更高的唯一读数，从而获得更高的覆盖率。我们将TIP-seq应用于映射人类和小鼠单细胞中的组蛋白修饰、RNA PolII和CTCF结合位点。TIP-seq也将适用于其他平台，如10X Genomics和ICELL8。总之，TIP-seq提供了一种高通量、低成本的单细胞蛋白映射方法，与现有方法相比，每个细胞的覆盖率和信噪比显著提高。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.17.435909",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.17.435909",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.17.435909/index.html"
+}

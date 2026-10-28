@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use in-silico methods (RNA secondary/tertiary structure prediction, molecular docking, and molecular dynamics simulations) to compare the interaction of the SARS-CoV-2 5' UTR wild-type sequence and the C241T variant with host factors MADP1 and hnRNP1. They report weaker binding of both host factors to the mutant RNA, reduced stability of the mutant complexes, and correlate these findings with global epidemiological trends of increased recovery and decreased death rates.
+- **Visible evidence base** Abstract, Introduction, Material and methods, Results and discussion, Conclusion, Availability, Accession numbers, Abbreviations, Declaration of competing interest, Funding, Supplementary data, Acknowledgement
+- **Missing materials affecting confidence** Supplementary figures, tables, and videos referenced in the text (e.g., Supplementary Figures S1-S11, Supplementary Tables S1-S3, Supplementary Videos S1-S3) were not provided. Specific parameter values for docking and simulation protocols are partially described but some details (e.g., exact HADDOCK settings beyond defaults, specific Gromacs parameters) are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic: the functional impact of a highly prevalent 5' UTR mutation in SARS-CoV-2 on host factor binding and potential replication efficiency. The use of multiple computational approaches (structure prediction, docking, MD simulation with multiple force fields, binding energy calculations, and PCA) is commendable. However, the manuscript has significant methodological weaknesses and overinterprets computational results. The correlation with epidemiological data is speculative and not rigorously established. The writing contains numerous typographical errors, unclear statements, and inconsistencies that detract from the scientific message. The central claim of "lower transcription efficiency" is not directly measured; the study assesses binding affinity and complex stability, which are indirect proxies. The manuscript requires major revisions to clarify methodology, strengthen the analysis, and temper conclusions to match the evidence level.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 molecular evolution, specifically those interested in the functional significance of mutations in non-coding regions. Computational biologists working on RNA-protein interactions and MD simulations of nucleic acid complexes may also find the methodological approach of interest. The potential link between a prevalent variant and reduced replication could be of interest to virologists and epidemiologists tracking variant dynamics, though the speculative nature of the correlation limits its immediate utility.
+- **Major strengths** 1) The study addresses a gap in the literature by focusing on a highly frequent 5' UTR variant (C241T) rather than the more commonly studied missense mutations. 2) The use of multiple computational tools and force fields (OPLS4 and AMBER) for cross-validation of MD results is a strength. 3) The inclusion of binding energy calculations (MMGBSA and MMPBSA) and PCA provides a multi-faceted view of complex stability and dynamics. 4) The authors acknowledge the need for experimental validation, which is appropriate given the in-silico nature of the work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and abstract claim "lower transcription efficiency" of the C241T variant. The conclusion states the variant "shows a decrease in efficiency of the virus to replicate in a host."
+  - **Evidence pointer** Abstract; Title; Conclusion
+  - **Concern** The study measures binding affinity and complex stability between RNA and host proteins via docking and MD simulations. It does not measure transcription efficiency, replication efficiency, or viral fitness directly. "Transcription efficiency" is a specific biochemical process that is not assessed by the methods used. The leap from weaker in-silico binding to reduced viral replication and then to population-level outcomes is not supported by the presented data.
+  - **Why it matters** The central claim of the manuscript is not supported by the evidence. Overstating conclusions based on indirect computational proxies undermines the scientific validity of the work and could mislead readers.
+  - **Resolution test** Revise the title, abstract, and conclusion to accurately reflect that the study assesses in-silico binding affinity and complex stability. Remove or substantially soften claims about transcription efficiency, replication efficiency, and direct links to epidemiological outcomes. Alternatively, provide a clear and explicit chain of reasoning with appropriate caveats explaining why reduced host factor binding is expected to impact replication, supported by literature.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Epidemiological correlation validity
+  - **Claim pointer** "The results are also correlated with increased recovery rates and decreased death rates of global SARS-CoV-2 cases." and "Results were correlated with the epidemiological data which is also showing an increased recovery rate all over the world."
+  - **Evidence pointer** Abstract; Results and discussion - Epidemiological data; Supplementary Figure S11
+  - **Concern** The correlation between the in-silico findings and global epidemiological trends is presented without any statistical analysis, consideration of confounding factors, or temporal alignment. The C241T variant reached high frequency early in the pandemic, and global recovery/death rates have changed for numerous reasons including improved treatments, vaccination, changes in testing, and demographic shifts. Attributing these trends to a single mutation's effect on host factor binding is a post-hoc ecological fallacy.
+  - **Why it matters** This correlation is used as supporting evidence for the biological significance of the findings. Without rigorous analysis, it is misleading and detracts from the computational results.
+  - **Resolution test** Remove the epidemiological correlation section entirely, or reframe it as a highly speculative observation with explicit acknowledgment of the many confounders. If retained, provide a clear disclaimer that no causal or even correlational statistical link is being claimed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor and reproducibility
+  - **Claim pointer** The methods section describes RNA structure prediction, docking, and MD simulation protocols.
+  - **Evidence pointer** Material and methods
+  - **Concern** Several methodological details are missing or unclear. (1) The RNA sequence used is described as "around 300 base pairs" from Rfam RF03117, but the exact length and coordinates relative to the SARS-CoV-2 genome are not specified. (2) The generation of the mutant RNA structure is not clearly described; it is unclear whether the mutation was introduced before or after structure prediction and how this was done. (3) The docking protocol in HADDOCK is described but the specific definition of "active" and "passive" residues for the RNA and proteins is not provided. (4) The statement "Over all 10 complexes were simulated for 100 ns?" ends with a question mark, indicating uncertainty. (5) The number of replicates for each simulation is not stated. (6) The convergence of simulations is not demonstrated (e.g., block averaging, multiple runs).
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. The lack of critical methodological details prevents other researchers from replicating the study and assessing the validity of the results.
+  - **Resolution test** Provide a complete and unambiguous description of all methods, including exact sequence lengths and coordinates, mutation introduction protocol, docking definitions, simulation replicates, and convergence criteria. Correct typographical errors and remove uncertain statements.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of MD results
+  - **Claim pointer** "RMSD, RMSF, H-Bonds and binding energy in form of MMGBSA indicated weak interaction of mutant protein-RNA complex than wild-type."
+  - **Evidence pointer** Results and discussion - Change in host factors affinity; Figures 3-5; Supplementary Table S3
+  - **Concern** The interpretation of RMSD and RMSF differences as evidence of "weaker interaction" is not straightforward. Higher RMSD in the mutant complex could indicate greater flexibility, but it could also reflect different but equally stable binding modes. The claim that the mutant complex dissociates at 98-99 ns is based on visual inspection of trajectories (Supplementary Videos) and is not quantitatively supported. The difference in hydrogen bond counts (17 vs 14 for MADB1; 25 vs 34 stated elsewhere in the text) is presented inconsistently and without statistical significance testing.
+  - **Why it matters** The conclusions about differential stability and binding affinity rest on these MD analyses. If the interpretation is flawed or the metrics are not robust, the central findings are weakened.
+  - **Resolution test** Provide quantitative analysis of trajectory data, including time-averaged values with standard deviations, statistical tests for differences between wild-type and mutant complexes, and a more nuanced interpretation of RMSD/RMSF data. Clarify the hydrogen bond count discrepancy and provide per-frame analysis.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** hnRNP1 binding site justification
+  - **Claim pointer** "hnRNP1 is known to bind at TLR-S sequence of 5′ UTR" and "it was hypothesized that hnRNP1 might also bind to TLR-S of SARS-CoV-2 for viral proliferation."
+  - **Evidence pointer** Introduction; Results and discussion
+  - **Concern** The authors state that no experimental data is available for hnRNP1 interaction with SARS-CoV-2, yet they proceed to dock hnRNP1 to the TLR-S sequence based on homology with other coronaviruses. The justification for choosing the TLR-S sequence as the binding site for hnRNP1 in SARS-CoV-2 is not well-supported. The sequence context and structural presentation of TLR-S in SARS-CoV-2 may differ from other coronaviruses.
+  - **Why it matters** If the docking site is incorrect, the results for hnRNP1 are meaningless. The study's conclusions about hnRNP1 binding are contingent on this assumption.
+  - **Resolution test** Provide a stronger justification for the hnRNP1 binding site, such as sequence alignment with known binding sites in other coronaviruses, or clearly label the hnRNP1 results as purely speculative and exploratory.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and accuracy of writing
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Multiple sections
+  - **Issue** The manuscript contains numerous typographical errors, grammatical mistakes, and unclear phrasing. Examples include "In-Silico" in the title (should be "In silico"), "MADP1 Zinc finger CCHC-type and RNA-binding motif 1 (hnRNP1)" in the abstract (incorrectly equates MADP1 with hnRNP1), "Unstranslated Regions" in the Abbreviations section, "kcaal/mole" in the results, and the question mark at the end of a sentence in the methods. The sentence "In Fig. 1, Fig. 4b (also 2a and 2b) showed red arrows and showing high RMSF values. While 1b and 1d in mutant and 2b and 2d in wild-type are showing (blue) low atomic displacements covering low RMSF values" is confusing and difficult to follow.
+  - **Required correction** Thorough proofreading and editing for language, grammar, and clarity. Ensure technical terms are used correctly and consistently.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure and supplementary material referencing
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Figures 1-8; Supplementary Figures S1-S11; Supplementary Tables S1-S3; Supplementary Videos S1-S3
+  - **Issue** The text references supplementary materials extensively, but these were not provided for review. Some in-text references to figures are ambiguous (e.g., "Figure: 3 A" vs "Fig. 3A"). The description of Figure 1 is overly complex and combines multiple panels with different types of information.
+  - **Required correction** Ensure all figure references are consistent and clear. Provide the supplementary materials for review. Consider splitting Figure 1 into multiple panels with clearer labels and descriptions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Figures 3-5; Tables 3-4
+  - **Issue** No statistical analysis is presented for any of the quantitative comparisons between wild-type and mutant complexes (e.g., RMSD, RMSF, hydrogen bond counts, binding energies). The differences are described qualitatively.
+  - **Required correction** Provide appropriate statistical tests (e.g., t-tests, ANOVA) with p-values or confidence intervals for the key comparisons, or explicitly state that the results are descriptive and not statistically tested.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction; Discussion
+  - **Evidence pointer** Introduction; Results and discussion
+  - **Issue** The introduction and discussion provide limited context on the functional significance of 5' UTR structures in coronaviruses and the specific roles of MADP1 and hnRNP1. The discussion of epidemiological trends is not placed in the context of other factors known to influence COVID-19 outcomes.
+  - **Required correction** Expand the introduction to better justify the study rationale. In the discussion, place the findings in the broader context of SARS-CoV-2 evolution and the known functions of the studied host factors.
+
+## Risk / unsupported claims
+- The claim of "lower transcription efficiency" in the title and abstract is not supported by the data, which only assesses in-silico binding affinity and complex stability.
+- The correlation between in-silico findings and global epidemiological trends (increased recovery, decreased death rates) is presented without statistical analysis and ignores numerous confounding factors.
+- The statement that the mutant complex shows "early dissociation" at 98-99 ns is based on visual inspection of trajectories and is not quantitatively supported.
+- The hypothesis that hnRNP1 binds to the TLR-S sequence in SARS-CoV-2 is speculative and not experimentally validated.
+- The claim that "wild-type complex seems to be more stable compared to mutant (C241T) complex with respect to both proteins" is based on qualitative interpretation of MD data without statistical testing.
+- The statement "In a majority of Coronaviridae family viruses, hnRNP1 is known to bind at TLR-S sequence" is presented without specific citations.
+- The conclusion that "C241T changes the SL4, which overall changes the folding of RNA" is based on computational predictions and is not experimentally verified.

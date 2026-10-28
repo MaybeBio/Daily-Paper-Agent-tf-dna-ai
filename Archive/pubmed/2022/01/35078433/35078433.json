@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "35078433",
+    "doi": "10.1186/s12885-022-09216-w",
+    "title": "The role of SPI1-TYROBP-FCER1G network in oncogenesis and prognosis of osteosarcoma, and its association with immune infiltration."
+  },
+  "content": {
+    "abstract": "Osteosarcoma is an aggressive malignant bone sarcoma worldwide. A causal gene network with specific functions underlying both the development and progression of OS was still unclear. Here we firstly identified the differentially expressed genes (DEGs) between control and OS samples, and then defined the hub genes and top clusters in the protein-protein interaction (PPI) network of these DEGs. By focusing on the hub gene TYROBP in the top 1 cluster, a conserved TYROBP co-expression network was identified. Then the effect of the network on OS overall survival was analyzed. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses and Gene Set Enrichment Analysis (GSEA) were used to explore the functions of the network. XCell platform and ssGSEA algorithm were conducted to estimate the status of immune infiltration. ChEA3 platform, GSEA enrichment analysis, and Drug Pair Seeker (DPS) were used to predict the key transcription factor and its upstream signal. We identified the downregulated SPI1-TYROBP-FCER1G network in OS, which were significantly enriched in immune-related functions. We also defined a two-gene signature (SPI1/FCER1G) that can predict poorer OS overall survival and the attenuated immune infiltration when downregulated. The SPI1-TYROBP-FCER1G network were potentially initiated by transcription factor SPI1 and would lead to the upregulated CD86, MHC-II, CCL4/CXCL10/CX3CL1 and hence increased immune infiltrations. With this study, we could better explore the mechanism of OS oncogenesis and metastasis for developing new therapies.",
+    "keywords": [
+      "Immune Infiltration",
+      "Osteosarcoma",
+      "TYROBP"
+    ],
+    "mesh_terms": [
+      "Adaptor Proteins, Signal Transducing/*genetics",
+      "Biomarkers, Tumor/genetics",
+      "Bone Neoplasms/*genetics",
+      "Carcinogenesis/genetics",
+      "Gene Ontology",
+      "Gene Regulatory Networks/genetics",
+      "Humans",
+      "Membrane Proteins/*genetics",
+      "Osteosarcoma/*genetics",
+      "Prognosis",
+      "Protein Interaction Maps/genetics",
+      "Proto-Oncogene Proteins/*genetics",
+      "Receptors, Fc/*genetics",
+      "Signal Transduction/genetics",
+      "Trans-Activators/*genetics",
+      "Proto-Oncogene Protein Spi-1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiahua",
+        "Shi, Hui",
+        "Yuan, Zhanyuan",
+        "Wu, Zhiheng",
+        "Li, Haohao",
+        "Liu, Yuelong",
+        "Lu, Ming",
+        "Lu, Ming"
+      ],
+      "short_names": [
+        "Li J",
+        "Shi H",
+        "Yuan Z",
+        "Wu Z",
+        "Li H",
+        "Liu Y",
+        "Lu M",
+        "Lu M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Hefei BOE Hospital, Hefei, Anhui, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China.",
+        "Department of Orthopedics, the First Affiliated Hospital of Anhui Medical University, No.218 Ji Xi Road, Hefei, 230032, Anhui, China. Tcluming1@163.com.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China. luming@ahmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiahua",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Hefei BOE Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Hui",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Zhanyuan",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhiheng",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haohao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuelong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Ming",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, the First Affiliated Hospital of Anhui Medical University, No.218 Ji Xi Road, Hefei, 230032, Anhui, China. Tcluming1@163.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Ming",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, No.81Mei Shan Road, Hefei, 230032, Anhui, China. luming@ahmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2022 Jan 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/27 06:00",
+    "fetched_at": "2026-09-28 04:33:33"
+  },
+  "links": {
+    "cites": [
+      "41994604",
+      "40636695",
+      "40626122",
+      "40027231",
+      "39796763",
+      "39777260",
+      "39062086",
+      "38549127",
+      "38468942",
+      "37834179",
+      "36477668",
+      "36376702"
+    ],
+    "refs": [
+      "34588497",
+      "34261456",
+      "34258887",
+      "34162355",
+      "34123594",
+      "33786672",
+      "33707956",
+      "33653371",
+      "33391453",
+      "33162186",
+      "33104706",
+      "33015999",
+      "33014868",
+      "32974202",
+      "32665038",
+      "32322218",
+      "32251854",
+      "32162720",
+      "32060843",
+      "32060841",
+      "31884799",
+      "31747929",
+      "31636098",
+      "31440272",
+      "31114921",
+      "31114875",
+      "30792221",
+      "30476243",
+      "30365098",
+      "30215968",
+      "29743593",
+      "29163499",
+      "29141660",
+      "29126249",
+      "28671022",
+      "28469954",
+      "28398314",
+      "27529817",
+      "27499459",
+      "27239089",
+      "27065756",
+      "25605792",
+      "25521941",
+      "25273088",
+      "23810293",
+      "23323831",
+      "22455463",
+      "22226204",
+      "21725055",
+      "21563968",
+      "21501595",
+      "21414208",
+      "21221095",
+      "20513432",
+      "20213386",
+      "19909355",
+      "19544560",
+      "18563507",
+      "17496320",
+      "16199517",
+      "14597658",
+      "12525261",
+      "10802651",
+      "10592173",
+      "7822804"
+    ],
+    "similar": [
+      "35078433",
+      "33786672",
+      "34162355",
+      "37721628",
+      "36181123",
+      "38847690",
+      "35075370",
+      "34588497",
+      "30569116",
+      "33176597",
+      "37272097",
+      "39324133",
+      "32105410",
+      "32665038",
+      "37031292",
+      "39108264",
+      "30132538",
+      "32922167",
+      "32509861",
+      "33371790",
+      "34252359",
+      "31122179",
+      "35711523",
+      "25023069",
+      "29620143",
+      "30982140",
+      "38747739",
+      "24330838",
+      "31987036",
+      "39062086",
+      "31233342",
+      "29115427",
+      "34016144",
+      "30720085",
+      "34916564",
+      "25605179",
+      "36238494",
+      "38980440",
+      "27314445",
+      "30935420",
+      "28901446",
+      "33754909",
+      "26427513",
+      "31536386",
+      "34814367",
+      "37964329",
+      "28944885",
+      "34506683",
+      "38521928",
+      "36376702",
+      "33376723",
+      "33657763",
+      "28759958",
+      "28944822",
+      "32558494",
+      "26679756",
+      "34225733",
+      "29121993",
+      "32974202",
+      "36189307",
+      "33582701",
+      "32811479",
+      "31794546",
+      "27888627",
+      "25434727",
+      "34553293",
+      "29850522",
+      "32598242",
+      "38050320",
+      "37986331",
+      "34233597",
+      "34383385",
+      "30825595",
+      "32180586",
+      "30920023",
+      "35300772",
+      "37877147",
+      "31211595",
+      "36988561",
+      "31989994",
+      "34922489",
+      "38549127",
+      "31090103",
+      "32147961",
+      "29339716",
+      "29209141",
+      "32853947",
+      "28225867",
+      "32496505",
+      "31822116",
+      "34337056",
+      "32567431",
+      "31950035",
+      "28229297",
+      "33437215",
+      "30411296",
+      "34162161",
+      "32627011",
+      "33361747",
+      "33015999",
+      "31181055",
+      "32304567",
+      "29328361",
+      "33015161",
+      "32855654",
+      "27706618",
+      "30825232",
+      "32556504",
+      "32862606",
+      "32190007",
+      "29901575",
+      "37861500",
+      "38181271",
+      "38059138",
+      "38180104",
+      "34925641",
+      "32033398",
+      "37603193",
+      "36460097",
+      "37581517",
+      "38863043",
+      "35607269",
+      "38941398",
+      "38371978",
+      "36003792",
+      "37170758",
+      "36830696",
+      "35576501",
+      "36630752",
+      "35065610",
+      "38431660",
+      "35568866",
+      "38957810",
+      "32791489",
+      "37460861",
+      "37488941",
+      "37207157",
+      "35729678",
+      "36345453",
+      "37880378",
+      "35322804",
+      "29921292",
+      "38052344",
+      "36759884",
+      "36388032",
+      "33313172",
+      "39319462",
+      "32581649",
+      "35183915",
+      "37786556",
+      "36054819",
+      "35000593",
+      "37150900",
+      "34294785",
+      "36270229",
+      "35127947",
+      "38256356",
+      "36714021",
+      "33937273",
+      "29113282",
+      "33407928",
+      "39215129",
+      "36814925",
+      "35463956",
+      "35236797",
+      "36105405",
+      "38428404",
+      "35690832",
+      "35720360",
+      "36686663",
+      "37796192",
+      "37655535",
+      "32193367",
+      "28443230",
+      "39263122",
+      "37214958"
+    ],
+    "review": [
+      "35078433",
+      "25023069",
+      "33657763",
+      "35720360"
+    ],
+    "pmc": [
+      "8790913"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-022-09216-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/35078433/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35078433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35078433",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1168",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

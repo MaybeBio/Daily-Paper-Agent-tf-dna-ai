@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "40624807",
+    "doi": "10.1002/cnr2.70262",
+    "title": "Comparison of Random Survival Forest Based-Overall Survival With Deep Learning and Cox Proportional Hazard Models in HER-2-Positive HR-Negative Breast Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Traditional CoxPH models are limited in handling real-world data complexities. While machine learning models like RSF and DeepSurv show promise, their application and comparative evaluation in the HER2-positive/HR-negative breast cancer subtype require further validation. AIMS: This study aims to build a survival prediction model for breast cancer patients based on different methods. The optimal model will provide more accurate survival predictions for clinical decision-making of HER2 positive and HR negative cancer patients. METHODS AND RESULTS: This study analyzed 8,119 HER2-positive HR-negative breast cancer patients from the SEER database, randomly allocated to training/validation/test cohorts (7:1:2 ratio). Predictive models were developed using five feature sets and three algorithms (Cox PH, RSF, DeepSurv), with feature selection optimized via Concordance index (C-index). Evaluation revealed: The C-index of the DeepSurv models constructed using the training set is greater than 0.8, performing better than both the RSF and CoxPH models. However, CoxPH outperforms DeepSurv in terms of C-index when testset. The Brier scores for all models were below 0.25. Which indicates that the models predicted with high accuracy. Based on the training set, the Deepsurv model predicted the highest ROC-AUCs of 0.91, 0.863, and 0.855 for 1-, 3-, and 5-year overall survival (OS), respectively. The RSF model achieved the highest AUCs, specifically 0.876, 0.861, and 0.845, for 1-, 3-, and 5-year overall survival in the test group. The calibration graphs indicate that of the three models forecasting overall survival at 1, 3, and 5 years, the RSF model demonstrated the greatest level of agreement between predictions and actual observations, trailed by the DeepSurv model. There was poor agreement between CoxPH model predictions and observed data. Optimal Clinical Net Benefits at 1, 3, and 5 Years for DCA of the Deepsurv Model in the Training Set Data. However, in the test set, compared to other models, RSF showed better Optimal Clinical Net Benefits. CONCLUSIONS: In conclusion, compared to conventional prognostic models, the Random Survival Forest (RSF) model serves as a reliable tool for predicting long-term survival in breast cancer patients, demonstrating consistent performance across diverse datasets. Furthermore, the feature set selected via RSF-Variable Importance (VIMP) (compared with LASSO regression and Cox regression) significantly enhances the performance of prognostic models. Our findings may offer practical guidance for future development of long-term prognostic models tailored to breast cancer subtypes.",
+    "keywords": [
+      "CoxPH",
+      "Deepsurv",
+      "RSF",
+      "RSF-VIMP",
+      "breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/mortality/pathology/metabolism/therapy",
+      "*Deep Learning",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/analysis",
+      "Middle Aged",
+      "Proportional Hazards Models",
+      "SEER Program/statistics & numerical data",
+      "Prognosis",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism",
+      "Aged",
+      "Adult",
+      "Survival Rate"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Wenqi",
+        "Qi, Yan",
+        "Zheng, Linhui",
+        "Wu, Huachao",
+        "Yang, Chunqian",
+        "Zhang, Runze",
+        "Wu, Chaoyan",
+        "Yu, Haijun"
+      ],
+      "short_names": [
+        "Cai W",
+        "Qi Y",
+        "Zheng L",
+        "Wu H",
+        "Yang C",
+        "Zhang R",
+        "Wu C",
+        "Yu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8460-7333",
+        "ORCID: 0000-0002-5346-7830"
+      ],
+      "affiliations": [
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Xinzhou Traditional Chinese Medicine Hospital, Zhongnan Hospital of Wuhan University (Xinzhou), Wuhan, Hubei, China.",
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Integrated Traditional Chinese Medicine and Western Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+        "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Wenqi",
+        "short_name": "Cai W",
+        "identifiers": [
+          "0000-0001-8460-7333"
+        ],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China.",
+          "Xinzhou Traditional Chinese Medicine Hospital, Zhongnan Hospital of Wuhan University (Xinzhou), Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yan",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Linhui",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huachao",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chunqian",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Runze",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chaoyan",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese Medicine and Western Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Haijun",
+        "short_name": "Yu H",
+        "identifiers": [
+          "0000-0002-5346-7830"
+        ],
+        "affiliations": [
+          "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer reports (Hoboken, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Cancer Rep (Hoboken)"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 06:26",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [
+      "42666480",
+      "42196845",
+      "41828066"
+    ],
+    "refs": [
+      "39744488",
+      "39682219",
+      "39614188",
+      "39333608",
+      "39145224",
+      "38726282",
+      "37277578",
+      "36921556",
+      "36230593",
+      "35316964",
+      "35116010",
+      "34392135",
+      "33194609",
+      "30667505",
+      "29482517",
+      "22088987",
+      "18296421",
+      "8001000",
+      "3798106"
+    ],
+    "similar": [
+      "40624807",
+      "38853169",
+      "42105007",
+      "39341114",
+      "37007095",
+      "40262081",
+      "37428248",
+      "39722042",
+      "41271251",
+      "42180905",
+      "40198909",
+      "41723213",
+      "41862804",
+      "36959782",
+      "36072795",
+      "40545536",
+      "41405264",
+      "41656804",
+      "35179504",
+      "41234858",
+      "38504089",
+      "40624131",
+      "39331900",
+      "41761925",
+      "38628668",
+      "29330212",
+      "41502591",
+      "38996803",
+      "37165971",
+      "41907363",
+      "41003843",
+      "38847519",
+      "38914641",
+      "40051730",
+      "40184873",
+      "37960763",
+      "39107765",
+      "41213110",
+      "41980703",
+      "37644818",
+      "40530015",
+      "41269322",
+      "40702542",
+      "41557941",
+      "38098850",
+      "37883174",
+      "41322408",
+      "41697581",
+      "42218459",
+      "40812753",
+      "40961041",
+      "42041053",
+      "41637793",
+      "38030951",
+      "39051924",
+      "40850977",
+      "41429009",
+      "37660044",
+      "41510112",
+      "36897699",
+      "39116570",
+      "40119324",
+      "42159834",
+      "37684259",
+      "34857429",
+      "41945948",
+      "33187507",
+      "40037171",
+      "41056069",
+      "42026521",
+      "38750370",
+      "40428130",
+      "35216571",
+      "37051218",
+      "38558373",
+      "27743431",
+      "41584582",
+      "41101278",
+      "33152285",
+      "41629910",
+      "41987244",
+      "40106382",
+      "38375194",
+      "39052087",
+      "34003477",
+      "39836261",
+      "41407826",
+      "40288025",
+      "39156899",
+      "37277578",
+      "38726282",
+      "39545625",
+      "41234696",
+      "41158637",
+      "31166208",
+      "33676449",
+      "40456121",
+      "42054649",
+      "39614188",
+      "32278642"
+    ],
+    "review": [
+      "40624807"
+    ],
+    "pmc": [
+      "12234386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40624807.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40624807/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cnr2.70262",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

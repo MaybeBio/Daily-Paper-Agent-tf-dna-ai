@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "36069777",
+    "doi": "10.7554/eLife.77242",
+    "title": "Fuzzy supertertiary interactions within PSD-95 enable ligand binding."
+  },
+  "content": {
+    "abstract": "The scaffold protein PSD-95 links postsynaptic receptors to sites of presynaptic neurotransmitter release. Flexible linkers between folded domains in PSD-95 enable a dynamic supertertiary structure. Interdomain interactions within the PSG supramodule, formed by PDZ3, SH3, and Guanylate Kinase domains, regulate PSD-95 activity. Here we combined discrete molecular dynamics and single molecule Forster resonance energy transfer (FRET) to characterize the PSG supramodule, with time resolution spanning picoseconds to seconds. We used a FRET network to measure distances in full-length PSD-95 and model the conformational ensemble. We found that PDZ3 samples two conformational basins, which we confirmed with disulfide mapping. To understand effects on activity, we measured binding of the synaptic adhesion protein neuroligin. We found that PSD-95 bound neuroligin well at physiological pH while truncated PDZ3 bound poorly. Our hybrid structural models reveal how the supertertiary context of PDZ3 enables recognition of this critical synaptic ligand.",
+    "keywords": [
+      "E. coli",
+      "FRET",
+      "discrete molecular dynamics simulations",
+      "molecular biophysics",
+      "neuroscience",
+      "postsynaptic density",
+      "protein dynamics",
+      "single molecule fluorescence",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Ligands",
+      "Disks Large Homolog 4 Protein/chemistry",
+      "Guanylate Kinases",
+      "*Transcription Factors",
+      "*Disulfides",
+      "Neurotransmitter Agents",
+      "Protein Binding",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hamilton, George L",
+        "Saikia, Nabanita",
+        "Basak, Sujit",
+        "Welcome, Franceine S",
+        "Wu, Fang",
+        "Kubiak, Jakub",
+        "Zhang, Changcheng",
+        "Hao, Yan",
+        "Seidel, Claus A M",
+        "Ding, Feng",
+        "Sanabria, Hugo",
+        "Bowen, Mark E"
+      ],
+      "short_names": [
+        "Hamilton GL",
+        "Saikia N",
+        "Basak S",
+        "Welcome FS",
+        "Wu F",
+        "Kubiak J",
+        "Zhang C",
+        "Hao Y",
+        "Seidel CAM",
+        "Ding F",
+        "Sanabria H",
+        "Bowen ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2519-3641",
+        "ORCID: 0000-0002-5171-149X",
+        "ORCID: 0000-0003-1850-6336",
+        "ORCID: 0000-0001-7068-6827",
+        "ORCID: 0000-0002-9525-6986"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Clemson University, Clemson, United States.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, United States.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States.",
+        "Molecular Physical Chemistry, Heinrich Heine University, Dusseldorf, Germany.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States.",
+        "Molecular Physical Chemistry, Heinrich Heine University, Dusseldorf, Germany.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, United States.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, United States.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hamilton, George L",
+        "short_name": "Hamilton GL",
+        "identifiers": [
+          "0000-0002-2519-3641"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, United States."
+        ]
+      },
+      {
+        "full_name": "Saikia, Nabanita",
+        "short_name": "Saikia N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, United States."
+        ]
+      },
+      {
+        "full_name": "Basak, Sujit",
+        "short_name": "Basak S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+        ]
+      },
+      {
+        "full_name": "Welcome, Franceine S",
+        "short_name": "Welcome FS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+        ]
+      },
+      {
+        "full_name": "Wu, Fang",
+        "short_name": "Wu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+        ]
+      },
+      {
+        "full_name": "Kubiak, Jakub",
+        "short_name": "Kubiak J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Physical Chemistry, Heinrich Heine University, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhang, Changcheng",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+        ]
+      },
+      {
+        "full_name": "Hao, Yan",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+        ]
+      },
+      {
+        "full_name": "Seidel, Claus A M",
+        "short_name": "Seidel CAM",
+        "identifiers": [
+          "0000-0002-5171-149X"
+        ],
+        "affiliations": [
+          "Molecular Physical Chemistry, Heinrich Heine University, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, United States."
+        ]
+      },
+      {
+        "full_name": "Sanabria, Hugo",
+        "short_name": "Sanabria H",
+        "identifiers": [
+          "0000-0001-7068-6827"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, United States."
+        ]
+      },
+      {
+        "full_name": "Bowen, Mark E",
+        "short_name": "Bowen ME",
+        "identifiers": [
+          "0000-0002-9525-6986"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 Sep 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/08 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "42022033",
+      "41562278",
+      "41386615",
+      "41063208",
+      "40971460",
+      "40853068",
+      "40509809",
+      "40241306",
+      "40167418",
+      "40035576",
+      "39856215",
+      "39806155",
+      "39429212",
+      "39226847",
+      "38699162",
+      "38585429",
+      "38164981",
+      "37964757",
+      "37782573",
+      "37651616",
+      "37585091",
+      "37314846",
+      "37253119",
+      "37184020",
+      "36693159",
+      "36671509",
+      "36671389",
+      "36456917",
+      "36260068"
+    ],
+    "refs": [
+      "35868918",
+      "35428384",
+      "33246199",
+      "31831623",
+      "31659043",
+      "30864948",
+      "30214057",
+      "28917202",
+      "28570518",
+      "28510178",
+      "28236779",
+      "27939973",
+      "25220472",
+      "24028161",
+      "23973190",
+      "23395180",
+      "23142871",
+      "23019361",
+      "22710296",
+      "22710157",
+      "22407544",
+      "22383292",
+      "22082966",
+      "22030391",
+      "21645852",
+      "20682275",
+      "20360767",
+      "19455133",
+      "17676789",
+      "17609126",
+      "17474715",
+      "17356578",
+      "17096593",
+      "16982606",
+      "16602695",
+      "15952887",
+      "15808866",
+      "15099834",
+      "12930820",
+      "12482754",
+      "11779506",
+      "11779504",
+      "11428892",
+      "11354494",
+      "9389655",
+      "9278515",
+      "9024696",
+      "7867790"
+    ],
+    "similar": [
+      "36069777",
+      "31831623",
+      "23019361",
+      "30214057",
+      "36157580",
+      "29138001",
+      "30864948",
+      "33388290",
+      "31562775",
+      "23395180",
+      "16421296",
+      "21965656",
+      "28790172",
+      "27194325",
+      "33172212",
+      "23268962",
+      "12482754",
+      "32652058",
+      "10197530",
+      "33631929",
+      "36260068",
+      "9115257",
+      "23946397",
+      "33794133",
+      "34245784",
+      "33331776",
+      "35563349",
+      "11723117",
+      "34538002",
+      "23951139",
+      "11779506",
+      "25164819",
+      "11779504",
+      "9694864",
+      "20861378",
+      "16870733",
+      "9581762",
+      "21940442",
+      "20016093",
+      "17096593",
+      "10364172",
+      "17220895",
+      "28701415",
+      "9182804",
+      "15255944",
+      "11309840",
+      "31753031",
+      "31923461",
+      "16855097",
+      "22375001",
+      "34093851",
+      "26941280",
+      "17474715",
+      "25734361",
+      "10844022",
+      "16332687",
+      "28950050",
+      "24587199",
+      "9927700",
+      "15857683",
+      "29281827",
+      "25658767",
+      "18400955",
+      "22753014",
+      "12713445",
+      "25407949",
+      "28974728",
+      "18082335",
+      "34637756",
+      "21965684",
+      "37904289",
+      "10804199",
+      "14749431",
+      "20554866",
+      "27307232",
+      "9286858",
+      "11134026",
+      "34371146",
+      "15555927",
+      "26679993",
+      "8601796",
+      "20720115",
+      "23178474",
+      "11312293",
+      "15723836",
+      "15496675",
+      "10595517",
+      "31492534",
+      "25654436",
+      "23424281",
+      "23719161",
+      "26884267",
+      "29118000",
+      "10521485",
+      "24845085",
+      "17369255",
+      "8625413",
+      "18723686",
+      "32341099"
+    ],
+    "review": [
+      "36069777",
+      "26884267"
+    ],
+    "pmc": [
+      "9581536"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36069777/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36069777",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.77242",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in silico investigation of cancer-associated TRF1 mutations and their potential effects on TRF1-PARP1 interaction dynamics. They identify four candidate variants from COSMIC and dbSNP, prioritize W424L for detailed analysis, and conclude that this mutation biases PARP1 toward a more conformationally constrained interaction state without altering primary interface geometry. They propose that TRF1 variant profiling may inform tumor sensitivity to PARP-targeted therapies.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, structural coordinates, simulation parameters, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for pathogenicity prediction, structural modeling, docking, and molecular dynamics simulations, simulation convergence criteria, statistical analyses, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis-generating in silico study with a clear conceptual framework linking TRF1 mutations to altered PARP1 interaction dynamics. However, the evidence base available for review is limited to the abstract, which precludes independent assessment of methodological rigor, result validity, and the strength of the conclusions. The central claim that W424L biases PARP1 toward a constrained interaction state is stated without quantitative support. The translational implications regarding PARP inhibitor sensitivity are speculative and not substantiated by the presented data.
+- **Who would be interested in the results, and why** Researchers in telomere biology, DNA repair mechanisms, and cancer genomics would find this work relevant. Clinicians and translational scientists interested in biomarkers for PARP inhibitor response may also be interested, given the proposed link between TRF1 variants and PARP1 dependency. The study could inform future experimental designs in these areas.
+- **Major strengths** The study addresses a timely and biologically meaningful question connecting telomere maintenance to therapeutic response. The integrative in silico approach is appropriate for hypothesis generation. The authors appropriately acknowledge the need for experimental validation and frame the work as hypothesis-generating rather than definitive.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that W424L biases PARP1 toward a more conformationally constrained interaction state without altering primary interface geometry.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data supporting this claim. No metrics such as binding free energies, contact number changes, root-mean-square deviation or fluctuation values, or interaction energy differences are reported. The phrase "more conformationally constrained" is not operationally defined.
+  - **Why it matters** Without quantitative evidence, the central mechanistic conclusion cannot be evaluated. The claim is the foundation for the entire translational hypothesis, and its validity cannot be assessed from the supplied material.
+  - **Resolution test** Provide specific numerical results from molecular dynamics simulations, including comparative metrics between wild-type and W424L systems, with appropriate error estimates and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that an integrative in silico pipeline combining pathogenicity prediction, structural modeling, protein-protein docking, and molecular dynamics simulations was employed.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are provided on the specific tools, databases, scoring functions, force fields, simulation lengths, or validation approaches used. The criteria for selecting the four candidate variants from COSMIC and dbSNP are not described. The prioritization of W424L over the other three variants is not justified.
+  - **Why it matters** Reproducibility and assessment of technical soundness are impossible without methodological detail. The selection and prioritization steps are critical for determining whether the results are robust or an artifact of particular tool choices.
+  - **Resolution test** Provide a complete methods section detailing all software, parameters, thresholds, and selection criteria. Include justification for the prioritization of W424L.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The authors suggest that TRF1 variant profiling may help identify tumors with altered PARP1 dependency and differential sensitivity to PARP-targeted therapies.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This translational claim extends far beyond the presented in silico data. No experimental evidence links TRF1 mutations to PARP inhibitor response in any cellular or clinical context. The conceptual analogy to PARP trapping is speculative and not tested.
+  - **Why it matters** Overstating clinical implications from computational predictions alone could mislead readers and potentially influence research priorities. The claim requires either experimental support or substantially more cautious framing.
+  - **Resolution test** Either provide experimental validation data linking TRF1 variants to PARP inhibitor sensitivity, or revise the claim to explicitly state that this is a purely speculative hypothesis requiring extensive experimental testing.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "monkey-bar" transfer mechanism is informal and may not be universally understood by readers outside the immediate field.
+  - **Required correction** Provide a brief mechanistic explanation or use standard terminology such as "alternating domain engagement" with a citation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Variant selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that four variants emerged as candidates but only W424L is discussed. The fate of D422G, R425G, and M427K is unclear.
+  - **Required correction** Briefly state why these three variants were not prioritized or include them in the analysis summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Conclusion framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "may reprogram PARP1 interaction dynamics" is vague and could be interpreted as a stronger claim than the data support.
+  - **Required correction** Specify the nature of the proposed reprogramming, such as altered binding affinity, conformational sampling, or residence time, based on the simulation results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanistic claim lacks quantitative support, and the methodology is not described in sufficient detail for evaluation. R1-M3 requires reframing or additional evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual link between TRF1 mutations and PARP1 interaction dynamics is novel and potentially interesting, though the abstract does not establish how this advances beyond existing knowledge of PARP1 regulation.
+  - Scientific importance: The question is relevant to cancer biology and therapeutic response, but the current evidence is insufficient to establish significance beyond hypothesis generation.
+  - Interdisciplinary readership: The topic bridges structural biology, cancer genomics, and therapeutics, which could appeal to a broad audience if the evidence were more complete.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of the computational approach.
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terms without sufficient context, such as "monkey-bar" mechanism and "Myb-domain variant."
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative and methodological detail necessary to evaluate the central claims. Supportive if technical concerns are resolved through provision of full methods, numerical results, and appropriately cautious framing of translational implications.
+
+## Risk / unsupported claims
+- The claim that W424L biases PARP1 toward a more conformationally constrained interaction state is unsupported by quantitative evidence in the abstract.
+- The claim that TRF1 variant profiling may identify tumors with altered PARP1 dependency and differential sensitivity to PARP-targeted therapies is unsupported by any experimental or clinical data.
+- The conceptual analogy between TRF1 mutation effects and PARP trapping is speculative and not tested.
+- The selection of four candidate variants and the prioritization of W424L cannot be evaluated without methodological details.
+- The overall conclusion that specific TRF1 mutations may reprogram PARP1 interaction dynamics is not verifiable from the abstract alone.

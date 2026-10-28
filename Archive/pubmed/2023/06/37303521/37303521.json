@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "37303521",
+    "doi": "10.1016/j.heliyon.2023.e16722",
+    "title": "Unearths IFNB1 immune infiltrates in SOP-related ossification of ligamentum flavum pathogenesis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ossification of ligamentum flavum (OLF) is a hidden, indolent disease condition with variable unexplained etiology and pathology. Growing evidences show a correlation between senile osteoporosis (SOP) and OLF, but the fundamental relationship between SOP and OLF remains unclear. Therefore, the purpose of this work is to investigate unique SOP-related genes and their potential functions in OLF. METHODS: Gene Expression Omnibus (GEO) database was utilized to gather the mRNA expression data (GSE106253) and then analyzed by R software. A variety of methods, including ssGSEA, machine learning (LASSO and SVM-RFE), GO and KEGG enrichment, PPI network, transcription factor enrichment analysis (TFEA), GSEA and xCells were employed to verified the critical genes and signaling pathways. Furthermore, ligamentum flavum cells were cultured and used in vitro to identify the expression of the core genes. RESULTS: The preliminary identification of 236 SODEGs revealed their involvement in BP pathways associated with ossification, inflammation, and immune response, including the TNF signaling pathway, PI3K/AKT signaling pathway and osteoclast differentiation. Four down-regulated genes (SERPINE1, SOCS3, AKT1, CCL2) and one up-regulated gene (IFNB1) were among the five hub SODEGs that were validated. Additionally, they were performed by ssGSEA and xCell to show the relationship of immune cells infiltrating in OLF. The most fundamental gene, IFNB1, which was only found in the classical ossification- and inflammation-related pathways, suggested that it may affect OLF via regulating the inflammatory response. In vitro experiment, we found that IFNB1 expression was dramatically higher in cells cocultured with osteogenic induction than in controls. CONCLUSION: As far as we are concerned, this is the first observation using transcriptome data mining to reveal distinct SOP-related gene profiles between OLF and normal controls. Five hub SODEGs were ultimately found using bioinformatics algorithms and experimental verification. These genes may mediate intricate inflammatory/immune responses or signaling pathways in the pathogenesis of OLF, according to the thorough functional annotations. Since IFNB1 was discovered to be a key gene and was connected to numerous immune infiltrates in OLF, it is possible that IFNB1 expression has a substantial impact on the pathogenesis of OLF. Our research will give rise to new possibilities for potential therapeutics that target SOP reverent genes and immune-associated pathways in OLF.",
+    "keywords": [
+      "IFBN1",
+      "Immune infiltration",
+      "Inflammatory/immune response",
+      "Ossification of ligamentum flavum",
+      "Senile osteoporosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, You",
+        "Huang, Hongwei",
+        "Chen, Honglin",
+        "Zhang, Peng",
+        "Liu, Yu",
+        "Gan, Yanchi",
+        "Yan, Xianwei",
+        "Xie, Bin",
+        "Liu, Hao",
+        "He, Bowen",
+        "Tang, Jingjing",
+        "Shen, Gengyang",
+        "Jiang, Xiaobing",
+        "Hui Ren"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Huang H",
+        "Chen H",
+        "Zhang P",
+        "Liu Y",
+        "Gan Y",
+        "Yan X",
+        "Xie B",
+        "Liu H",
+        "He B",
+        "Tang J",
+        "Shen G",
+        "Jiang X",
+        "Hui Ren"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "People's Hospital of Yang Jiang, Yang Jiang 529500, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, You",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hongwei",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "People's Hospital of Yang Jiang, Yang Jiang 529500, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Honglin",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Yanchi",
+        "short_name": "Gan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xianwei",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Bin",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hao",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "He, Bowen",
+        "short_name": "He B",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jingjing",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Gengyang",
+        "short_name": "Shen G",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiaobing",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Hui Ren",
+        "short_name": "Hui Ren",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/12 06:42",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "41458498"
+    ],
+    "refs": [
+      "36362274",
+      "36143033",
+      "35712246",
+      "35513391",
+      "35413915",
+      "35298441",
+      "34950135",
+      "33847569",
+      "33819580",
+      "33663242",
+      "33173955",
+      "32457115",
+      "31915578",
+      "31086734",
+      "30381822",
+      "29865998",
+      "29230039",
+      "29046115",
+      "28662823",
+      "28575129",
+      "28455229",
+      "28259914",
+      "28132833",
+      "27712986",
+      "24092631",
+      "23726874",
+      "23221969",
+      "23104450",
+      "22983651",
+      "22832553",
+      "22081934",
+      "21611966",
+      "21599541",
+      "20187155",
+      "19664281",
+      "18246005",
+      "17400654",
+      "17311298",
+      "17202317",
+      "9639781",
+      "9213004"
+    ],
+    "similar": [
+      "37303521",
+      "35712246",
+      "38757696",
+      "37384872",
+      "39011365",
+      "31897529",
+      "34354364",
+      "39071860",
+      "27208800",
+      "36276940",
+      "21914169",
+      "31257472",
+      "32626952",
+      "33912216",
+      "22158061",
+      "24093055",
+      "33416124",
+      "34384088",
+      "19568599",
+      "30161026",
+      "39351864",
+      "38622696",
+      "32559389",
+      "18246005",
+      "37104881",
+      "19910768",
+      "23053758",
+      "27241243",
+      "36635323",
+      "28939168",
+      "24949905",
+      "27957826",
+      "20042956",
+      "27556448",
+      "36057125",
+      "36275675",
+      "35855184",
+      "39144971",
+      "27998902",
+      "36628248",
+      "30191306",
+      "29601800",
+      "23726874",
+      "35298441",
+      "23266147",
+      "36036007",
+      "9213004",
+      "36620130",
+      "27183890",
+      "23219457",
+      "28455229",
+      "33397347",
+      "15175776",
+      "14563141",
+      "1902988",
+      "12956457",
+      "23602378",
+      "30276070",
+      "32599183",
+      "27959285",
+      "36412365",
+      "35680809",
+      "30557327",
+      "32445802",
+      "28575129",
+      "31154703",
+      "28760654",
+      "23541451",
+      "36585473",
+      "28944874",
+      "37234868",
+      "35846967",
+      "28460412",
+      "17641578",
+      "16572617",
+      "9934562",
+      "19844616",
+      "26361526",
+      "30692148",
+      "22139388",
+      "28840353",
+      "17825384",
+      "37122694",
+      "36087693",
+      "26223744",
+      "21361753",
+      "33321989",
+      "21275554",
+      "35713363",
+      "36699262",
+      "35624356",
+      "25012488",
+      "28365857",
+      "25523379",
+      "33936985",
+      "29173437",
+      "25556507",
+      "16025016",
+      "20802389",
+      "33079907",
+      "24326241",
+      "36601380",
+      "37956134",
+      "39382604",
+      "38226354",
+      "37461161"
+    ],
+    "review": [
+      "37303521",
+      "33912216",
+      "24093055",
+      "23266147",
+      "28840353",
+      "36087693",
+      "28365857"
+    ],
+    "pmc": [
+      "10248278"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(23)03929-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37303521/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37303521",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

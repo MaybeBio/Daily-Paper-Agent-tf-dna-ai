@@ -1,0 +1,730 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.11.693820",
+  "title": "DNA binding and lesion recognition by the bacterial interstrand DNA crosslink glycosylase AlkX",
+  "doi": "10.64898/2025.12.11.693820",
+  "abstract": "Interstrand DNA crosslinks (ICLs) are a highly toxic form of DNA damage. ICL repair in both eukaryotes and bacteria involves unhooking of the two strands by specialized DNA glycosylases. We recently established that the human pathogen Acinetobacter baumannii contains an ICL glycosylase (AlkX) that facilitates pathogenesis and protects the bacteria from DNA damage and acid stress. However, the physical basis for glycosylase-catalyzed ICL unhooking is unknown. Here, we describe a crystal structure of AlkX bound to DNA representing a product of the ICL unhooking reaction. Mutational analysis of ICL unhooking in vitro and A. baumannii sensitivity to the crosslinking agent mechlorethamine enabled identification of several AlkX motifs critical for ICL repair. We also found that a genetic variant from an antibiotic-resistant strain of the human pathogen Salmonella enterica significantly reduced AlkX activity in vitro and increased A. baumannii sensitivity to DNA crosslinking. This work provides a structural basis for how bacterial ICL glycosylases recognize and repair DNA adducts and contributes additional evidence that ICL repair is important for fitness of human pathogens.",
+  "authors": [
+    "Yujuan Cai",
+    "Dillon E. Kunkle",
+    "Marcel D. Edinbugh",
+    "Eric P. Skaar",
+    "Brandt F. Eichman"
+  ],
+  "published_date": "2025-12-13",
+  "updated_date": "2025-12-14T03:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693820",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693820.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T06:04:32Z",
+        "timestamp": 1782281072450,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            13
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 71,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                13
+              ]
+            ],
+            "date-time": "2025-12-13T00:00:00Z",
+            "timestamp": 1765584000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "MCB-1928918"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MCB-1928918"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01AI101171"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01AI101171"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01AI150701"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01AI150701"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Interstrand DNA crosslinks (ICLs) are a highly toxic form of DNA damage. ICL repair in both eukaryotes and bacteria involves unhooking of the two strands by specialized DNA glycosylases. We recently established that the human pathogen\n                  <jats:italic>Acinetobacter baumannii</jats:italic>\n                  contains an ICL glycosylase (AlkX) that facilitates pathogenesis and protects the bacteria from DNA damage and acid stress. However, the physical basis for glycosylase-catalyzed ICL unhooking is unknown. Here, we describe a crystal structure of AlkX bound to DNA representing a product of the ICL unhooking reaction. Mutational analysis of ICL unhooking\n                  <jats:italic>in vitro</jats:italic>\n                  and\n                  <jats:italic>A. baumannii</jats:italic>\n                  sensitivity to the crosslinking agent mechlorethamine enabled identification of several AlkX motifs critical for ICL repair. We also found that a genetic variant from an antibiotic-resistant strain of the human pathogen\n                  <jats:italic>Salmonella enterica</jats:italic>\n                  significantly reduced AlkX activity\n                  <jats:italic>in vitro</jats:italic>\n                  and increased\n                  <jats:italic>A. baumannii</jats:italic>\n                  sensitivity to DNA crosslinking. This work provides a structural basis for how bacterial ICL glycosylases recognize and repair DNA adducts and contributes additional evidence that ICL repair is important for fitness of human pathogens.\n                </jats:p>",
+      "DOI": "10.64898/2025.12.11.693820",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            14
+          ]
+        ],
+        "date-time": "2025-12-14T03:55:13Z",
+        "timestamp": 1765684513000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DNA binding and lesion recognition by the bacterial interstrand DNA crosslink glycosylase AlkX"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1372-5727",
+          "authenticated-orcid": false,
+          "given": "Yujuan",
+          "family": "Cai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7579-4165",
+          "authenticated-orcid": false,
+          "given": "Dillon E.",
+          "family": "Kunkle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marcel D.",
+          "family": "Edinbugh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5094-8105",
+          "authenticated-orcid": false,
+          "given": "Eric P.",
+          "family": "Skaar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0965-2297",
+          "authenticated-orcid": false,
+          "given": "Brandt F.",
+          "family": "Eichman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909052925"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2020.102903"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.3",
+          "first-page": "617884",
+          "article-title": "Role of Base Excision Repair Pathway in the Processing of Complex DNA Damage Generated by Oxidative Stress and Anticancer Drugs",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "Front Cell Dev Biol"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "103739",
+          "DOI": "10.1016/j.dnarep.2024.103739",
+          "article-title": "Repair of genomic interstrand crosslinks",
+          "volume": "141",
+          "year": "2024",
+          "journal-title": "DNA Repair"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Billmyre RB , Clancey SA , Heitman J (2017) Natural mismatch repair mutations mediate phenotypic diversity and drug resistance in Cryptococcus deuterogattii. Elife 6",
+          "DOI": "10.7554/eLife.28802"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bittrich S , Segura J , Duarte JM , Burley SK , Rose Y (2024) RCSB protein Data Bank: exploring protein 3D similarities via comprehensive structural alignments. Bioinformatics 40",
+          "DOI": "10.1093/bioinformatics/btae370"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Boyce KJ (2022) Mutators Enhance Adaptive Micro-Evolution in Pathogenic Microbes. Microorganisms 10",
+          "DOI": "10.3390/microorganisms10020442"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Boyce KJ , Wang Y , Verma S , Shakya VPS , Xue C , Idnurm A (2017) Mismatch Repair of DNA Replication Errors Contributes to Microevolution in the Pathogenic Fungus Cryptococcus neoformans. mBio 8",
+          "DOI": "10.1128/mBio.00595-17"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mbio.03297-21"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa346"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac085"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen X , Pan HX , Tang GL (2022b) Newly Discovered Mechanisms of Antibiotic Self-Resistance with Multiple Enzymes Acting at Different Locations and Stages. Antibiotics (Basel) 12",
+          "DOI": "10.3390/antibiotics12010035"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a012732"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0140-6736(24)01867-1"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm216"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja067294u"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910007493"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.00015-13"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c0np00049c"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gates KS (1999) 7.14 -Covalent Modification of DNA by Natural Products. In: Comprehensive Natural Products Chemistry, Barton S.D. , Nakanishi K. , Meth-Cohn O. (eds.) pp. 491–552. Pergamon: Oxford",
+          "DOI": "10.1016/B978-0-08-091283-7.00074-6"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/tx049965c"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gohil D , Sarker AH , Roy R (2023) Base Excision Repair: Mechanisms and Impact in Biology, Disease, and Medicine. Int J Mol Sci 24",
+          "DOI": "10.3390/ijms241814186"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/tx00008a001"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2059-5"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "103029",
+          "DOI": "10.1016/j.dnarep.2020.103029",
+          "article-title": "Formation and repair of unavoidable, endogenous interstrand cross-links in cellular DNA",
+          "volume": "98",
+          "year": "2021",
+          "journal-title": "DNA Repair (Amst)"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac793"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2019.102752"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.28",
+          "first-page": "1130",
+          "article-title": "Salmonella Enteritidis Isolate Harboring Multiple Efflux Pumps and Pathogenicity Factors, Shows Absence of O Antigen Polymerase Gene",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Front Microbiol"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mrfmmm.2012.11.007"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a012583"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2402422121",
+          "DOI": "10.1073/pnas.2402422121",
+          "article-title": "An interstrand DNA crosslink glycosylase aids Acinetobacter baumannii pathogenesis",
+          "volume": "121",
+          "year": "2024",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa038"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2022.111600"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2012.12.008"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/em.20551"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7601649"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.10.055"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.01456"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morris FC , Short F , Kostoulias X , Nethercott C , Fu Y , Jiang Y , Smallman T , Yu Y , Paulsen IT , Boyce JD et al (2025) Gene dependence during mammalian Acinetobacter baumannii pneumonia and septicaemia infections. Microb Genom 11",
+          "DOI": "10.1099/mgen.0.001556"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2019.04.006"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "50",
+          "DOI": "10.1016/j.dnarep.2013.10.009",
+          "article-title": "The substrate binding interface of alkylpurine DNA glycosylase AlkD",
+          "volume": "13",
+          "year": "2014",
+          "journal-title": "DNA Repair (Amst)"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.2439"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15728"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1703066114"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M212549200"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040478b"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.288.5469.1251"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "e187",
+          "DOI": "10.1038/cddis.2011.70",
+          "article-title": "Mechanism of cell death resulting from DNA interstrand cross-linking in mammalian cells",
+          "volume": "2",
+          "year": "2011",
+          "journal-title": "Cell Death & Disease"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "103680",
+          "DOI": "10.1016/j.dnarep.2024.103680",
+          "article-title": "NEIL3: A unique DNA glycosylase involved in interstrand DNA crosslink repair",
+          "volume": "139",
+          "year": "2024",
+          "journal-title": "DNA Repair (Amst)"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr9800199"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.116.037499"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.015541"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coph.2018.04.004"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "1033",
+          "DOI": "10.1016/S1473-3099(25)00118-5",
+          "article-title": "The WHO Bacterial Priority Pathogens List 2024: a prioritisation study to guide research, development, and public health strategies against antimicrobial resistance",
+          "volume": "25",
+          "year": "2025",
+          "journal-title": "Lancet Infect Dis"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.200400287"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00764-0"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-080320-112510"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.09.008"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "660",
+          "DOI": "10.1038/s41598-018-37239-6",
+          "article-title": "Acetaldehyde forms covalent GG intrastrand crosslinks in DNA",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.3000255"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AAC.02620-13"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0255-5"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2020.102866"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444911007773"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "A360",
+          "DOI": "10.1107/S010876731809640X",
+          "article-title": "Advances in automated data analysis and processing within autoPROC, combined with improved characterisation, mitigation and visualisation of the anisotropy of diffraction limits using STARANISO",
+          "volume": "74",
+          "year": "2018",
+          "journal-title": "Acta Crystallogr A"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mrfmmm.2011.03.006"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv949"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1002-0"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.201204109"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1038/s44259-025-00107-1",
+          "article-title": "Genome wide analyses reveal the role of mutator phenotypes in Mycobacterium tuberculosis drug resistance emergence",
+          "volume": "3",
+          "year": "2025",
+          "journal-title": "npj Antimicrobials and Resistance"
+        },
+        {
+          "key": "2025121613300608000_2025.12.11.693820v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1003711"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.11.693820",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:15:17Z",
+        "timestamp": 1782278117000
+      },
+      "score": 140.41261,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.11.693820"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            13
+          ]
+        ]
+      },
+      "references-count": 71,
+      "URL": "https://doi.org/10.64898/2025.12.11.693820",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s44319-026-00785-6",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "39281275",
+    "doi": "10.3389/fphar.2024.1404874",
+    "title": "Generation of a medicine food homology formula and its likely mechanism in treatment of microvascular angina."
+  },
+  "content": {
+    "abstract": "Microvascular angina (MVA) is the most common cause of cardiac ischemic chest pain in patients without obstructive coronary artery disease (CAD) and lacks of effective treatment means. Medicine food homology (MFH) involves substances with both nutritional and medicinal qualities that have the potential to improve MVA symptoms as medicines, dietary supplements. However, research on MFH formula (MFHF) for MVA is not available. The study aims to generate a core MFHF for MVA through data mining and offer scientific backing for the utilization of edible medications in the prevention and alleviation of MVA. 11 databases were utilized to construct a database of MFH drugs, and the MFHF was generated through frequency analysis, association rule analysis, and clustering analysis. The composition of the formula is Codonopsis Radix, Astragali Radix, Platycodonis Radix, Persicae Semen, Glycyrrhizae Radix Et Rhizoma, Angelicae Sinensis Radix, and Allii Macrostemonis Bulbus. Through network pharmacology and molecular docking, we identified five major active components of MFHF: Adenosine, Nonanoic Acid, Lauric Acid, Caprylic Acid, and Enanthic Acid, along with nine core targets (NFKB1, ALB, AKT1, ACTB, TNF, IL6, ESR1, CASP3, and PTGS) for the improvement of MVA. These 5 active components have various biological activities, such as reducing oxidative stress, anti-inflammation, analgesia effect, inhibiting platelet aggregation, vasodilatation, vascular endothelial protection, and cardio-protection. GO and KEGG enrichment analyses revealed that MFHF mainly acted on the response to xenobiotic stimulus, integrative component of the plasma membrane, RNA polymerase II transcription factor activity, ligand-activated sequence-specific DNA binding, pathways in cancer, lipid and atherosclerosis, human cytomegalovirus infection, and the PI3K-Akt signaling pathway, which are the main pathogenesis of MVA.",
+    "keywords": [
+      "coronary artery disease",
+      "coronary microvascular disease",
+      "data mining",
+      "east asian traditional medicine",
+      "medicine food homology",
+      "microvascular angina",
+      "molecular docking",
+      "network pharmacology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Zhidie",
+        "Liu, Mingwang",
+        "Xie, Beili",
+        "Wen, Wei",
+        "Yan, Yuxin",
+        "Zhang, Yangfang",
+        "Li, Haohao",
+        "Shen, ZhengYu",
+        "Jiang, Lulian",
+        "Gao, Mengjie",
+        "Chen, Keji",
+        "Zhao, Fuhai"
+      ],
+      "short_names": [
+        "Jin Z",
+        "Liu M",
+        "Xie B",
+        "Wen W",
+        "Yan Y",
+        "Zhang Y",
+        "Li H",
+        "Shen Z",
+        "Jiang L",
+        "Gao M",
+        "Chen K",
+        "Zhao F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School of Beijing University of Chinese Medicine, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School of Beijing University of Chinese Medicine, Beijing, China.",
+        "Affiliated Hospital of Shanxi University of Traditional Chinese Medicine, Shanxi University of Traditional Chinese Medicine, Taiyuan, China.",
+        "Graduate School of Beijing University of Chinese Medicine, Beijing, China.",
+        "Graduate School of Beijing University of Chinese Medicine, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Zhidie",
+        "short_name": "Jin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mingwang",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Beili",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Wei",
+        "short_name": "Wen W",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yuxin",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yangfang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haohao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shen, ZhengYu",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Shanxi University of Traditional Chinese Medicine, Shanxi University of Traditional Chinese Medicine, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lulian",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Mengjie",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Keji",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Fuhai",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:46",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "42510689",
+      "42428610",
+      "41657775"
+    ],
+    "refs": [
+      "38260109",
+      "37972909",
+      "37674109",
+      "37424781",
+      "37396128",
+      "37244150",
+      "37089919",
+      "37064440",
+      "36985457",
+      "36423427",
+      "36382021",
+      "36297089",
+      "36200679",
+      "36029188",
+      "36003524",
+      "35934191",
+      "35672569",
+      "35192927",
+      "35114917",
+      "35104756",
+      "34997010",
+      "34950242",
+      "34683106",
+      "33978865",
+      "33809714",
+      "33766352",
+      "33677526",
+      "33464616",
+      "33046314",
+      "32867101",
+      "32619593",
+      "32612698",
+      "32375806",
+      "32330511",
+      "32089240",
+      "32066489",
+      "31327802",
+      "30935055",
+      "30833219",
+      "30371178",
+      "30365030",
+      "29129515",
+      "28413113",
+      "28181104",
+      "27507199",
+      "26169959",
+      "24345498",
+      "24100549",
+      "23935243",
+      "23789231",
+      "23643286",
+      "22340720",
+      "21754991",
+      "17002901",
+      "15630285",
+      "14641792",
+      "12576693",
+      "11601831",
+      "10077511",
+      "8790026"
+    ],
+    "similar": [
+      "39281275",
+      "35178960",
+      "34047084",
+      "33164379",
+      "36267750",
+      "36164884",
+      "38798220",
+      "38114159",
+      "34047082",
+      "33164395",
+      "38404557",
+      "33645090",
+      "30453719",
+      "37390241",
+      "37499457",
+      "37802851",
+      "29218951",
+      "36472040",
+      "37883761",
+      "35178925",
+      "38007574",
+      "38114219",
+      "39072163",
+      "34047086",
+      "36581572",
+      "36872279",
+      "34733670",
+      "36435778",
+      "39074420",
+      "34149863",
+      "32495559",
+      "37970593",
+      "37799727",
+      "38812133",
+      "34955857",
+      "35178961",
+      "38110130",
+      "39099351",
+      "37190808",
+      "38403324",
+      "37879505",
+      "37442185",
+      "34889224",
+      "38798219",
+      "34659385",
+      "32726005",
+      "37391801",
+      "37438903",
+      "35069454",
+      "35534265",
+      "35718494",
+      "37741472",
+      "33866197",
+      "36563889",
+      "37690812",
+      "37832514",
+      "35430443",
+      "37211841",
+      "38759074",
+      "38951468",
+      "33025599",
+      "35442463",
+      "38295661",
+      "38608086",
+      "32436824",
+      "38822913",
+      "38788908",
+      "38584551",
+      "36819991",
+      "38007798",
+      "20226145",
+      "36472041",
+      "36117498",
+      "36452059",
+      "35859316",
+      "36157206",
+      "35285206",
+      "39066538",
+      "36482557",
+      "31090301",
+      "33164393",
+      "36820318",
+      "36865745",
+      "37109624",
+      "36386135",
+      "32281332",
+      "36321557",
+      "33191068",
+      "36267846",
+      "37802871",
+      "35872979",
+      "38335401",
+      "34474187",
+      "38880400",
+      "36451386",
+      "38114126",
+      "37802785",
+      "39177391"
+    ],
+    "review": [
+      "39281275",
+      "36321557"
+    ],
+    "pmc": [
+      "11401076"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39281275/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3542",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2024.1404874",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

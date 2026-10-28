@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "39968099",
+    "doi": "10.2147/JIR.S500214",
+    "title": "Identifying Therapeutic Targets and Potential Drugs for Diabetic Retinopathy: Focus on Oxidative Stress and Immune Infiltration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic retinopathy (DR), a microvascular disorder linked to diabetes, is on the rise globally. Oxidative stress and immune cell infiltration are linked to illness initiation and progression, according to recent study. This study investigated biomarkers connected to DR and oxidative stress and their connection with immune cell infiltration using bioinformatics analysis and found possible therapeutic medications. METHODS: The Gene Expression Omnibus (GEO) database was used to obtain the gene expression data for DR. Differentially expressed genes (DEGs) and oxidative stress (OS)-related genes were intersected. The Enrichment analyses concentrate on OS-related differentially expressed genes (DEOSGs). Analysis of protein-protein interaction (PPI) networks and machine learning algorithms were used to identify hub genes. Single-gene Gene Set Enrichment Analysis (GSEA) identified biological functions, while nomograms and ROC curves assessed diagnostic potential. Immune infiltration analysis and regulatory networks were constructed. Drug prediction was validated through molecular docking, and hub gene expression was confirmed in dataset and animal models. RESULTS: Compared to the control group, 91 DEOSGs were found. Enrichment analyses showed that these DEOSGs were largely connected to oxidative stress response, PI3K/Akt pathway, inflammatory pathways, and immunological activation. Four hub genes were found via PPI networks and machine learning. These hub genes were diagnostically promising according to nomogram and ROC analysis. Analysis of immune cell infiltration highlighted the role of immune cells. Gene regulatory networks for transcription factor (TF) and miRNA were created. Using structural data, molecular docking shows potential drugs and hub genes have high binding affinity. Dataset analysis, Real-Time Quantitative Polymerase Chain Reaction (RT-qPCR) and Western Blot (WB) confirmed the CCL4 expression difference between DR and controls. CONCLUSION: CCL4 was identified as potential oxidative stress-related biomarker in DR, providing new insights for DR diagnosis and treatment.",
+    "keywords": [
+      "diabetic retinopathy",
+      "hub genes",
+      "immune infiltration",
+      "molecular docking",
+      "oxidative stress"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Hongsong",
+        "Hu, Qiang",
+        "Zhang, Xue",
+        "Huang, Jiayang",
+        "Luo, Shan",
+        "Zhang, Yiming",
+        "Jiang, Bo",
+        "Sun, Dawei"
+      ],
+      "short_names": [
+        "Peng H",
+        "Hu Q",
+        "Zhang X",
+        "Huang J",
+        "Luo S",
+        "Zhang Y",
+        "Jiang B",
+        "Sun D"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7807-6214",
+        "ORCID: 0009-0000-4219-6281",
+        "ORCID: 0000-0002-9717-0190"
+      ],
+      "affiliations": [
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+        "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Hongsong",
+        "short_name": "Peng H",
+        "identifiers": [
+          "0009-0000-7807-6214"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+          "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Qiang",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+          "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+          "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiayang",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0009-0000-4219-6281"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+          "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Shan",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China.",
+          "Future Medical Laboratory, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiming",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Bo",
+        "short_name": "Jiang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Dawei",
+        "short_name": "Sun D",
+        "identifiers": [
+          "0000-0002-9717-0190"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, The second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/19 06:21",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42324483",
+      "41898639",
+      "41897428",
+      "41473675",
+      "41064354"
+    ],
+    "refs": [
+      "39512689",
+      "38649840",
+      "38609020",
+      "38504075",
+      "38401574",
+      "38314895",
+      "38307238",
+      "38289614",
+      "37978169",
+      "37627644",
+      "37605532",
+      "37585914",
+      "36713541",
+      "36672234",
+      "36582230",
+      "36209107",
+      "36170234",
+      "35963953",
+      "34903661",
+      "34324139",
+      "34281628",
+      "34276700",
+      "34051364",
+      "33950214",
+      "33940045",
+      "33429059",
+      "33406579",
+      "33248932",
+      "33240260",
+      "32965482",
+      "32818885",
+      "32545552",
+      "32464330",
+      "32315738",
+      "32274301",
+      "31993051",
+      "31701148",
+      "31681337",
+      "31593688",
+      "31076079",
+      "30931480",
+      "30513451",
+      "30257328",
+      "29987448",
+      "29925789",
+      "29587244",
+      "29437855",
+      "29301251",
+      "29133831",
+      "29044876",
+      "28963474",
+      "28942458",
+      "28551354",
+      "28291526",
+      "27885039",
+      "27525838",
+      "26716602",
+      "26683154",
+      "26481537",
+      "26297071",
+      "26191063",
+      "26190495",
+      "25990557",
+      "25964631",
+      "25751065",
+      "25401103",
+      "22455463",
+      "22455417",
+      "21912378",
+      "21147843",
+      "20580421",
+      "20429413",
+      "20385827",
+      "19399780",
+      "19328808",
+      "17237765",
+      "17167474",
+      "16923535",
+      "16127466",
+      "15203102",
+      "12813023",
+      "12570799",
+      "10741859",
+      "9886241",
+      "8552190",
+      "2161885"
+    ],
+    "similar": [
+      "39968099",
+      "37033969",
+      "39697326",
+      "37773794",
+      "38310446",
+      "39096939",
+      "36506045",
+      "39165378",
+      "36035208",
+      "36635346",
+      "39375405",
+      "40046940",
+      "35651615",
+      "38815767",
+      "35154512",
+      "40151199",
+      "37522124",
+      "38476236",
+      "37760894",
+      "36189314",
+      "39704112",
+      "40293350",
+      "34536521",
+      "38637124",
+      "39512836",
+      "36699262",
+      "39391879",
+      "40216809",
+      "39172048",
+      "39403102",
+      "39284931",
+      "37752199",
+      "37250717",
+      "37100862",
+      "35937822",
+      "39713769",
+      "39556279",
+      "35958412",
+      "40196107",
+      "39182249",
+      "38268224",
+      "37609434",
+      "38044432",
+      "38987688",
+      "40294937",
+      "35814228",
+      "40162084",
+      "38774257",
+      "39402134",
+      "39080525",
+      "39962573",
+      "39609849",
+      "36506310",
+      "36755923",
+      "36689408",
+      "38510807",
+      "38260098",
+      "40024299",
+      "35278479",
+      "37113991",
+      "38274270",
+      "38291374",
+      "39634176",
+      "37325483",
+      "40186271",
+      "40248935",
+      "38691241",
+      "35313524",
+      "35713363",
+      "36879254",
+      "36148059",
+      "39139563",
+      "40308566",
+      "38863714",
+      "40055592",
+      "38690269",
+      "40331545",
+      "40091022",
+      "39156775",
+      "40263537",
+      "40043935",
+      "35473522",
+      "39870856",
+      "36627660",
+      "36225941",
+      "35957838",
+      "39344316",
+      "39022342",
+      "38028617",
+      "39586719",
+      "38371524",
+      "37359529",
+      "38987624",
+      "38509535",
+      "38443950",
+      "39319258",
+      "35273637",
+      "39754246",
+      "39876591",
+      "38601640"
+    ],
+    "review": [
+      "39968099",
+      "39165378"
+    ],
+    "pmc": [
+      "11834741"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39968099/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S500214",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

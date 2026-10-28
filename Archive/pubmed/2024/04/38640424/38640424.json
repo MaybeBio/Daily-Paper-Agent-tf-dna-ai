@@ -1,0 +1,576 @@
+{
+  "identity": {
+    "pmid": "38640424",
+    "doi": "10.1080/15384101.2024.2340859",
+    "title": "Discovery of common molecular signatures and drug repurposing for COVID-19/Asthma comorbidity: ACE2 and multi-partite networks."
+  },
+  "content": {
+    "abstract": "Angiotensin-converting enzyme 2 (ACE2) is identified as the functional receptor for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the causative agent of the ongoing global coronavirus disease-2019 (COVID-19) pandemic. This study aimed to elucidate potential therapeutic avenues by scrutinizing approved drugs through the identification of the genetic signature associated with SARS-CoV-2 infection in individuals with asthma. This exploration was conducted through an integrated analysis, encompassing interaction networks between the ACE2 receptor and common host (co-host) factors implicated in COVID-19/asthma comorbidity. The comprehensive analysis involved the identification of common differentially expressed genes (cDEGs) and hub-cDEGs, functional annotations, interaction networks, gene set variation analysis (GSVA), gene set enrichment analysis (GSEA), and module construction. Interaction networks were used to identify overlapping disease modules and potential drug targets. Computational biology and molecular docking analyzes were utilized to discern functional drug modules. Subsequently, the impact of the identified drugs on the expression of hub-cDEGs was experimentally validated using a mouse model. A total of 153 cDEGs or co-host factors associated with ACE2 were identified in the COVID-19 and asthma comorbidity. Among these, seven significant cDEGs and proteins - namely, HRAS, IFNG, JUN, CDH1, TLR4, ICAM1, and SCD-were recognized as pivotal host factors linked to ACE2. Regulatory network analysis of hub-cDEGs revealed eight top-ranked transcription factors (TFs) proteins and nine microRNAs as key regulatory factors operating at the transcriptional and post-transcriptional levels, respectively. Molecular docking simulations led to the proposal of 10 top-ranked repurposable drug molecules (Rapamycin, Ivermectin, Everolimus, Quercetin, Estradiol, Entrectinib, Nilotinib, Conivaptan, Radotinib, and Venetoclax) as potential treatment options for COVID-19 in individuals with comorbid asthma. Validation analysis demonstrated that Rapamycin effectively inhibited ICAM1 expression in the HDM-stimulated mice group (p < 0.01). This study unveils the common pathogenesis and genetic signature underlying asthma and SARS-CoV-2 infection, delineated by the interaction networks of ACE2-related host factors. These findings provide valuable insights for the design and discovery of drugs aimed at more effective therapeutics within the context of lung disease comorbidities.",
+    "keywords": [
+      "ACE2",
+      "SARS-CoV-2",
+      "asthma",
+      "comorbidities",
+      "drug repurposing",
+      "hub-cDEGs"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Angiotensin-Converting Enzyme 2/genetics/metabolism",
+      "*Asthma/drug therapy/genetics",
+      "Comorbidity",
+      "Computational Biology/methods",
+      "*COVID-19/genetics/virology",
+      "*COVID-19 Drug Treatment",
+      "*Drug Repositioning",
+      "Gene Regulatory Networks/drug effects",
+      "MicroRNAs/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "SARS-CoV-2/drug effects/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jiajun",
+        "Abdulsalam Khaleel, Raghad",
+        "Zaidan, Haider Kamil",
+        "Faisal Mutee, Ahmed",
+        "Fahmi Fawy, Khaled",
+        "Gehlot, Anita",
+        "Abbas, Alaa Hashim",
+        "Arias Gonzales, Jose Luis",
+        "Amin, Ali H",
+        "Ruiz-Balvin, Maribel Carmen",
+        "Imannezhad, Shima",
+        "Bahrami, Abolfazl",
+        "Akhavan-Sigari, Reza"
+      ],
+      "short_names": [
+        "Xu J",
+        "Abdulsalam Khaleel R",
+        "Zaidan HK",
+        "Faisal Mutee A",
+        "Fahmi Fawy K",
+        "Gehlot A",
+        "Abbas AH",
+        "Arias Gonzales JL",
+        "Amin AH",
+        "Ruiz-Balvin MC",
+        "Imannezhad S",
+        "Bahrami A",
+        "Akhavan-Sigari R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Veterinary & Life Sciences, the University of Glasgow, Glasgow, UK.",
+        "College of Medicine, University of Al-Iraqia, Baghdad, Iraq.",
+        "Nursing College, Al-Mustaqbal University, Hillah, Babylon, Iraq.",
+        "Department of Pharmacy, Al-Noor University College, Nineveh, Iraq.",
+        "Department of Chemistry, Faculty of Science, King Khalid University, Abha, Saudi Arabia.",
+        "Uttaranchal Institute of Technology, Uttaranchal University, Dehradun, India.",
+        "College of Dentistry, Al-Mustaqbal University, Babylon, Iraq.",
+        "Department of Social Sciences, Faculty of Social Studies, University of British Columbia, Vancouver, Canada.",
+        "Zoology Department, Faculty of Science, Mansoura University, Mansoura, Egypt.",
+        "Universidad Peruana los Andes, Huancayo, Peru.",
+        "Department of Pediatrics, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Biomedical Center for Systems Biology Science Munich, Ludwig-Maximilians-University, Munich, Germany.",
+        "Department of Animal Science, College of Agriculture and Natural Resources, University of Tehran, Karaj, Iran.",
+        "Department of Neurosurgery, University Medical Center Tuebingen, Tuebingen, Germany.",
+        "Department of Health Care Management and Clinical Research, Collegium Humanum, Warsaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jiajun",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Veterinary & Life Sciences, the University of Glasgow, Glasgow, UK."
+        ]
+      },
+      {
+        "full_name": "Abdulsalam Khaleel, Raghad",
+        "short_name": "Abdulsalam Khaleel R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medicine, University of Al-Iraqia, Baghdad, Iraq."
+        ]
+      },
+      {
+        "full_name": "Zaidan, Haider Kamil",
+        "short_name": "Zaidan HK",
+        "identifiers": [],
+        "affiliations": [
+          "Nursing College, Al-Mustaqbal University, Hillah, Babylon, Iraq."
+        ]
+      },
+      {
+        "full_name": "Faisal Mutee, Ahmed",
+        "short_name": "Faisal Mutee A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Al-Noor University College, Nineveh, Iraq."
+        ]
+      },
+      {
+        "full_name": "Fahmi Fawy, Khaled",
+        "short_name": "Fahmi Fawy K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, King Khalid University, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Gehlot, Anita",
+        "short_name": "Gehlot A",
+        "identifiers": [],
+        "affiliations": [
+          "Uttaranchal Institute of Technology, Uttaranchal University, Dehradun, India."
+        ]
+      },
+      {
+        "full_name": "Abbas, Alaa Hashim",
+        "short_name": "Abbas AH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Dentistry, Al-Mustaqbal University, Babylon, Iraq."
+        ]
+      },
+      {
+        "full_name": "Arias Gonzáles, José Luis",
+        "short_name": "Arias Gonzáles JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Social Sciences, Faculty of Social Studies, University of British Columbia, Vancouver, Canada."
+        ]
+      },
+      {
+        "full_name": "Amin, Ali H",
+        "short_name": "Amin AH",
+        "identifiers": [],
+        "affiliations": [
+          "Zoology Department, Faculty of Science, Mansoura University, Mansoura, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Balvin, Maribel Carmen",
+        "short_name": "Ruiz-Balvin MC",
+        "identifiers": [],
+        "affiliations": [
+          "Universidad Peruana los Andes, Huancayo, Peru."
+        ]
+      },
+      {
+        "full_name": "Imannezhad, Shima",
+        "short_name": "Imannezhad S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Bahrami, Abolfazl",
+        "short_name": "Bahrami A",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Center for Systems Biology Science Munich, Ludwig-Maximilians-University, Munich, Germany.",
+          "Department of Animal Science, College of Agriculture and Natural Resources, University of Tehran, Karaj, Iran."
+        ]
+      },
+      {
+        "full_name": "Akhavan-Sigari, Reza",
+        "short_name": "Akhavan-Sigari R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, University Medical Center Tuebingen, Tuebingen, Germany.",
+          "Department of Health Care Management and Clinical Research, Collegium Humanum, Warsaw, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell cycle (Georgetown, Tex.)"
+    ],
+    "journal_abbrev": [
+      "Cell Cycle"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/19 18:43",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42547580",
+      "40909999"
+    ],
+    "refs": [
+      "37391844",
+      "37315523",
+      "36685827",
+      "36160003",
+      "35906450",
+      "35741053",
+      "35715592",
+      "35654851",
+      "35503759",
+      "35390032",
+      "35204689",
+      "35102208",
+      "35062685",
+      "35045126",
+      "35034979",
+      "34981034",
+      "34948451",
+      "34948390",
+      "34942624",
+      "34867015",
+      "34866574",
+      "34864885",
+      "34826456",
+      "34768906",
+      "34675342",
+      "34638886",
+      "34592585",
+      "34484188",
+      "34458863",
+      "34376036",
+      "34335703",
+      "34252878",
+      "34226505",
+      "34058750",
+      "34018907",
+      "33963333",
+      "33857397",
+      "33847347",
+      "33839760",
+      "33807743",
+      "33780170",
+      "33767183",
+      "33712574",
+      "33649077",
+      "33635829",
+      "33611340",
+      "33585567",
+      "33505220",
+      "33429418",
+      "33429317",
+      "33237311",
+      "33179911",
+      "33178221",
+      "33154029",
+      "33151290",
+      "33134968",
+      "33122306",
+      "33096026",
+      "33070389",
+      "33038418",
+      "33031791",
+      "32987008",
+      "32983259",
+      "32978309",
+      "32972435",
+      "32913075",
+      "32898168",
+      "32837497",
+      "32835132",
+      "32834612",
+      "32834556",
+      "32673711",
+      "32642005",
+      "32640463",
+      "32615072",
+      "32554082",
+      "32416070",
+      "32413319",
+      "32410266",
+      "32376402",
+      "32373461",
+      "32372051",
+      "32334502",
+      "32333929",
+      "32333836",
+      "32322397",
+      "32289115",
+      "32280433",
+      "32278811",
+      "32267833",
+      "32251768",
+      "32251717",
+      "32244852",
+      "32234529",
+      "32232218",
+      "32229706",
+      "32182390",
+      "32116752",
+      "32112977",
+      "32077115",
+      "32014637",
+      "32003251",
+      "31838015",
+      "31838007",
+      "31701148",
+      "31691823",
+      "31680165",
+      "31645879",
+      "31161938",
+      "31061481",
+      "31023846",
+      "30969139",
+      "30720061",
+      "30547682",
+      "30476243",
+      "30371825",
+      "30250078",
+      "30021797",
+      "29912392",
+      "29788355",
+      "29535629",
+      "29438985",
+      "29273246",
+      "29156001",
+      "29127384",
+      "29126136",
+      "29019276",
+      "28972395",
+      "28878864",
+      "28646236",
+      "28397284",
+      "27933521",
+      "27826094",
+      "27322403",
+      "26999194",
+      "26659836",
+      "26639348",
+      "26499045",
+      "26439298",
+      "26098370",
+      "25950236",
+      "25897122",
+      "25762619",
+      "25618350",
+      "25521941",
+      "25516281",
+      "25428349",
+      "25355515",
+      "25286153",
+      "25217476",
+      "25202042",
+      "25116401",
+      "24818579",
+      "24516119",
+      "23276646",
+      "23193258",
+      "23132118",
+      "22954349",
+      "22821884",
+      "22455463",
+      "22401931",
+      "21546393",
+      "21540309",
+      "21414208",
+      "20576703",
+      "19499576",
+      "16797888",
+      "16339739",
+      "16211538",
+      "16199517",
+      "15863630",
+      "15610069",
+      "15549175",
+      "15304500",
+      "14597658",
+      "12525261",
+      "12209087",
+      "11349148",
+      "11031250",
+      "10592235",
+      "10068907",
+      "7511681"
+    ],
+    "similar": [
+      "38640424",
+      "39024368",
+      "35390032",
+      "35277538",
+      "34975885",
+      "36949176",
+      "37534820",
+      "34535131",
+      "32971089",
+      "33785634",
+      "39474132",
+      "35751199",
+      "38259479",
+      "37777104",
+      "33831468",
+      "32916258",
+      "40408617",
+      "33914685",
+      "33218024",
+      "39358491",
+      "33707363",
+      "33607284",
+      "36913345",
+      "39093763",
+      "33422520",
+      "34895312",
+      "35727093",
+      "36211429",
+      "33186186",
+      "33513419",
+      "34072087",
+      "34550770",
+      "36059456",
+      "33993223",
+      "34750486",
+      "34954105",
+      "34169390",
+      "35249180",
+      "33711981",
+      "33737804",
+      "33727353",
+      "32807895",
+      "37579743",
+      "32754161",
+      "36575422",
+      "34105996",
+      "32496587",
+      "32418199",
+      "33738989",
+      "33038424",
+      "33544720",
+      "36786134",
+      "34900223",
+      "33883027",
+      "39170609",
+      "41066424",
+      "32679150",
+      "33233425",
+      "37804012",
+      "39965087",
+      "33396184",
+      "35749386",
+      "32531372",
+      "38601162",
+      "38651897",
+      "37040729",
+      "34826456",
+      "33315853",
+      "36189314",
+      "35142268",
+      "33430924",
+      "36992350",
+      "33497607",
+      "39294414",
+      "37026010",
+      "32455629",
+      "35069542",
+      "33156843",
+      "34623536",
+      "33207533",
+      "39756517",
+      "33029696",
+      "40406126",
+      "33851732",
+      "38648205",
+      "40091022",
+      "36768914",
+      "33310043",
+      "33049061",
+      "37047484",
+      "33635533",
+      "33600934",
+      "32624257",
+      "34127431",
+      "33891554",
+      "34339582",
+      "41288681",
+      "34204705",
+      "33191068",
+      "40272151"
+    ],
+    "review": [
+      "38640424",
+      "33707363",
+      "33607284",
+      "33186186",
+      "32418199",
+      "32679150",
+      "33396184",
+      "34623536",
+      "33029696",
+      "33851732",
+      "33635533",
+      "33600934"
+    ],
+    "pmc": [
+      "11529202"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15384101.2024.2340859?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38640424/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HRAS-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1551",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/15384101.2024.2340859",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

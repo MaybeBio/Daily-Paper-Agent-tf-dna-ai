@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "36719781",
+    "doi": "10.1021/acs.jcim.2c00943",
+    "title": "Improving DNA-Binding Protein Prediction Using Three-Part Sequence-Order Feature Extraction and a Deep Neural Network Algorithm."
+  },
+  "content": {
+    "abstract": "Identification of the DNA-binding protein (DBP) helps dig out information embedded in the DNA-protein interaction, which is significant to understanding the mechanisms of DNA replication, transcription, and repair. Although existing computational methods for predicting the DBPs based on protein sequences have obtained great success, there is still room for improvement since the sequence-order information is not fully mined in these methods. In this study, a new three-part sequence-order feature extraction (called TPSO) strategy is developed to extract more discriminative information from protein sequences for predicting the DBPs. For each query protein, TPSO first divides its primary sequence features into N- and C-terminal fragments and then extracts the numerical pseudo features of three parts including the full sequence and these two fragments, respectively. Based on TPSO, a novel deep learning-based method, called TPSO-DBP, is proposed, which employs the sequence-based single-view features, the bidirectional long short-term memory (BiLSTM) and fully connected (FC) neural networks to learn the DBP prediction model. Empirical outcomes reveal that TPSO-DBP can achieve an accuracy of 87.01%, covering 85.30% of all DBPs, while achieving a Matthew's correlation coefficient value (0.741) that is significantly higher than most existing state-of-the-art DBP prediction methods. Detailed data analyses have indicated that the advantages of TPSO-DBP lie in the utilization of TPSO, which helps extract more concealed prominent patterns, and the deep neural network framework composed of BiLSTM and FC that learns the nonlinear relationships between input features and DBPs. The standalone package and web server of TPSO-DBP are freely available at https://jun-csbio.github.io/TPSO-DBP/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/metabolism",
+      "*Neural Networks, Computer",
+      "Algorithms",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Jun",
+        "Zeng, Wen-Wu",
+        "Jia, Ning-Xin",
+        "Arif, Muhammad",
+        "Yu, Dong-Jun",
+        "Zhang, Gui-Jun"
+      ],
+      "short_names": [
+        "Hu J",
+        "Zeng WW",
+        "Jia NX",
+        "Arif M",
+        "Yu DJ",
+        "Zhang GJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9202-7515",
+        "ORCID: 0000-0002-6786-8053"
+      ],
+      "affiliations": [
+        "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China.",
+        "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China.",
+        "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China.",
+        "School of Systems and Technology, Department of Informatics and Systems, University of Management and Technology, Lahore54770, Pakistan.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing210094, China.",
+        "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Jun",
+        "short_name": "Hu J",
+        "identifiers": [
+          "0000-0001-9202-7515"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Wen-Wu",
+        "short_name": "Zeng WW",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ning-Xin",
+        "short_name": "Jia NX",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China."
+        ]
+      },
+      {
+        "full_name": "Arif, Muhammad",
+        "short_name": "Arif M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Systems and Technology, Department of Informatics and Systems, University of Management and Technology, Lahore54770, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [
+          "0000-0002-6786-8053"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, 200 Xiaolingwei, Nanjing210094, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Gui-Jun",
+        "short_name": "Zhang GJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Zhejiang University of Technology, Hangzhou310023, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Feb 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/01 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "42100742",
+      "41162940",
+      "40275540",
+      "39563239",
+      "39244557",
+      "39043738",
+      "38955920",
+      "38747369",
+      "38250405",
+      "38048333"
+    ],
+    "refs": [],
+    "similar": [
+      "36719781",
+      "34478704",
+      "33971164",
+      "35378437",
+      "38316843",
+      "38127815",
+      "32920048",
+      "31725778",
+      "37437362",
+      "38679191",
+      "33410688",
+      "36997014",
+      "30071670",
+      "35801442",
+      "35325031",
+      "30668479",
+      "32808039",
+      "38903752",
+      "34714748",
+      "37402073",
+      "31208331",
+      "34320631",
+      "34571539",
+      "37562328",
+      "30808287",
+      "38856168",
+      "35693256",
+      "37603823",
+      "37328639",
+      "38097937",
+      "35605495",
+      "31722485",
+      "33436981",
+      "37651627",
+      "33334313",
+      "38986796",
+      "36049552",
+      "31228283",
+      "34236625",
+      "36642410",
+      "33986992",
+      "36403092",
+      "27565741",
+      "36567619",
+      "36399979",
+      "32503424",
+      "32689927",
+      "39121938",
+      "36768540",
+      "29287069",
+      "37258453",
+      "29151135",
+      "36650799",
+      "36982795",
+      "34176069",
+      "34731411",
+      "34498677",
+      "31070716",
+      "24151525",
+      "31593229",
+      "19008251",
+      "30462171",
+      "35264081",
+      "34291709",
+      "32501689",
+      "35947255",
+      "36116322",
+      "35487269",
+      "22868682",
+      "33238837",
+      "30866736",
+      "31123959",
+      "39020005",
+      "36699417",
+      "30423062",
+      "28245811",
+      "31714956",
+      "35488159",
+      "36847334",
+      "35731758",
+      "35334314",
+      "34718416",
+      "35092586",
+      "33537753",
+      "36067103",
+      "28961795",
+      "34364858",
+      "34812044",
+      "31918654",
+      "31298436",
+      "30040656",
+      "34073774",
+      "34379594",
+      "36416116",
+      "30351403",
+      "37920025",
+      "30419785",
+      "35676633",
+      "35048955",
+      "34297278",
+      "35922751",
+      "32356769",
+      "34330253",
+      "35945157",
+      "35652477",
+      "36328750",
+      "33078303",
+      "39140146",
+      "32249297",
+      "28430949",
+      "35150255",
+      "31472418",
+      "34962264",
+      "37167658",
+      "37639434",
+      "37004267",
+      "36564866",
+      "36701965",
+      "35389869",
+      "39276905",
+      "30180164",
+      "38236675",
+      "35594218",
+      "39244557",
+      "37426272",
+      "35148267",
+      "34750626",
+      "38460308",
+      "31212665",
+      "38596312",
+      "38347788",
+      "37845681",
+      "38510021",
+      "38124610",
+      "37957563",
+      "37396369",
+      "35834447",
+      "37790440",
+      "38317055",
+      "36474806"
+    ],
+    "review": [
+      "36719781",
+      "31714956"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00943",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "36212030",
+    "doi": "10.1016/j.xgen.2022.100170",
+    "title": "A regulatory network of Sox and Six transcription factors initiate a cell fate transformation during hearing regeneration in adult zebrafish."
+  },
+  "content": {
+    "abstract": "Using adult zebrafish inner ears as a model for sensorineural regeneration, we ablated the mechanosensory receptors and characterized the single-cell epigenome and transcriptome at consecutive time points during hair cell regeneration. We utilized deep learning on the regeneration-induced open chromatin sequences and identified cell-specific transcription factor (TF) motif patterns. Enhancer activity correlated with gene expression and identified potential gene regulatory networks. A pattern of overlapping Sox- and Six-family TF gene expression and binding motifs was detected, suggesting a combinatorial program of TFs driving regeneration and cell identity. Pseudotime analysis of single-cell transcriptomic data suggested that support cells within the sensory epithelium changed cell identity to a \"progenitor\" cell population that could differentiate into hair cells. We identified a 2.6 kb DNA enhancer upstream of the sox2 promoter that, when deleted, showed a dominant phenotype that resulted in a hair-cell-regeneration-specific deficit in both the lateral line and adult inner ear.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jimenez, Erin",
+        "Slevin, Claire C",
+        "Song, Wei",
+        "Chen, Zelin",
+        "Frederickson, Stephen C",
+        "Gildea, Derek",
+        "Wu, Weiwei",
+        "Elkahloun, Abdel G",
+        "Ovcharenko, Ivan",
+        "Burgess, Shawn M"
+      ],
+      "short_names": [
+        "Jimenez E",
+        "Slevin CC",
+        "Song W",
+        "Chen Z",
+        "Frederickson SC",
+        "Gildea D",
+        "Wu W",
+        "Elkahloun AG",
+        "Ovcharenko I",
+        "Burgess SM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+        "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+        "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA.",
+        "CAS Key Laboratory of Tropical Marine Bio-Resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, China.",
+        "Southern Marine Science and Engineering Guangdong Laboratory, Guangzhou, China.",
+        "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+        "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+        "Vaccine Immunology Program, Vaccine Research Center, National Institute of Allergy and Infectious Diseases, Bethesda, MD, USA.",
+        "Cancer Genetics and Comparative Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+        "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA.",
+        "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jimenez, Erin",
+        "short_name": "Jimenez E",
+        "identifiers": [],
+        "affiliations": [
+          "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Slevin, Claire C",
+        "short_name": "Slevin CC",
+        "identifiers": [],
+        "affiliations": [
+          "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Wei",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Zelin",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "CAS Key Laboratory of Tropical Marine Bio-Resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, China.",
+          "Southern Marine Science and Engineering Guangdong Laboratory, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Frederickson, Stephen C",
+        "short_name": "Frederickson SC",
+        "identifiers": [],
+        "affiliations": [
+          "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Gildea, Derek",
+        "short_name": "Gildea D",
+        "identifiers": [],
+        "affiliations": [
+          "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Weiwei",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Vaccine Immunology Program, Vaccine Research Center, National Institute of Allergy and Infectious Diseases, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Elkahloun, Abdel G",
+        "short_name": "Elkahloun AG",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Genetics and Comparative Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ovcharenko, Ivan",
+        "short_name": "Ovcharenko I",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA."
+        ]
+      },
+      {
+        "full_name": "Burgess, Shawn M",
+        "short_name": "Burgess SM",
+        "identifiers": [],
+        "affiliations": [
+          "Translational and Functional Genomics Branch, National Human Genome Research Institute, Bethesda, MD, USA.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2022 Sep 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/11 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "42715336",
+      "42378398",
+      "42245482",
+      "41592563",
+      "41508995",
+      "41280100",
+      "41219473",
+      "40980064",
+      "40973229",
+      "40938325",
+      "40890104",
+      "40825768",
+      "40659618",
+      "40655009",
+      "40501783",
+      "40215762",
+      "39809530",
+      "39671177",
+      "39542648",
+      "39484411",
+      "39301848",
+      "39163854",
+      "39045613",
+      "38645220",
+      "38290519",
+      "38205258",
+      "38015350",
+      "37892216",
+      "37529920",
+      "37143895",
+      "36778669",
+      "36598134",
+      "36462664"
+    ],
+    "refs": [
+      "35789323",
+      "35316618",
+      "34489643",
+      "33854418",
+      "33653438",
+      "33290552",
+      "33246928",
+      "32883834",
+      "32665240",
+      "32395844",
+      "32106888",
+      "32096563",
+      "31883312",
+      "31808313",
+      "31295059",
+      "31249862",
+      "31227770",
+      "31178118",
+      "31160092",
+      "30953740",
+      "30787437",
+      "30681411",
+      "30620726",
+      "30620332",
+      "30616715",
+      "30531897",
+      "30459214",
+      "30364607",
+      "29872546",
+      "29608179",
+      "29406519",
+      "29161433",
+      "28892484",
+      "28825705",
+      "28723572",
+      "28245924",
+      "27809318",
+      "27425195",
+      "27049946",
+      "26988140",
+      "26840050",
+      "26515322",
+      "26294014",
+      "25199790",
+      "24658644",
+      "24496624",
+      "23814184",
+      "23724999",
+      "22855815",
+      "22743772",
+      "22537494",
+      "22143240",
+      "20513432",
+      "20110278",
+      "19488023",
+      "19033274",
+      "18305259",
+      "17947148",
+      "17478497",
+      "17171473",
+      "17093407",
+      "16386394",
+      "16024819",
+      "12949502",
+      "12874121",
+      "12162367",
+      "11932250",
+      "11921341",
+      "11846609",
+      "10802651",
+      "9742150",
+      "8780871",
+      "2606802"
+    ],
+    "similar": [
+      "36212030",
+      "26609166",
+      "20025865",
+      "36598134",
+      "35316618",
+      "39671177",
+      "39301848",
+      "30605626",
+      "25045019",
+      "22855815",
+      "19381250",
+      "38659824",
+      "27266973",
+      "17443814",
+      "32106888",
+      "34489643",
+      "38509148",
+      "21888654",
+      "27121005",
+      "31727854",
+      "38205258",
+      "39045613",
+      "37546780",
+      "15846349",
+      "21084119",
+      "39848037",
+      "32352377",
+      "17035528",
+      "24706895",
+      "22292066",
+      "38645220",
+      "18157569",
+      "9581394",
+      "29929553",
+      "12761041",
+      "20203184",
+      "20192852",
+      "21801718",
+      "24115534",
+      "34331868",
+      "25954154",
+      "22340499",
+      "30915698",
+      "37714280",
+      "36334348",
+      "29719206",
+      "39326643",
+      "24599453",
+      "21430154",
+      "32602462",
+      "33854418",
+      "21209840",
+      "36293251",
+      "27351484",
+      "27626680",
+      "26265007",
+      "36912880",
+      "31883312",
+      "19445109",
+      "29406519",
+      "30834891",
+      "39481376",
+      "31140835",
+      "35246011",
+      "31997540",
+      "25556122",
+      "18682805",
+      "34588543",
+      "24706903",
+      "25556989",
+      "24045267",
+      "22140580",
+      "33194440",
+      "30021715",
+      "22947103",
+      "18212062",
+      "25328289",
+      "33614633",
+      "32619460",
+      "9927597",
+      "30359306",
+      "38237592",
+      "23152625",
+      "21810458",
+      "17534940",
+      "23071561",
+      "32685006",
+      "21653840",
+      "19427409",
+      "19617827",
+      "30681411",
+      "18340569",
+      "18985389",
+      "23483451",
+      "23124808",
+      "25497456",
+      "23184988",
+      "18305259",
+      "23571216",
+      "28705044"
+    ],
+    "review": [
+      "36212030",
+      "30605626",
+      "25045019",
+      "27266973",
+      "9581394",
+      "20192852",
+      "25954154",
+      "30915698",
+      "36293251",
+      "30021715",
+      "33614633",
+      "19617827",
+      "18340569"
+    ],
+    "pmc": [
+      "9540346"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/100170",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36212030/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36212030",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=36212030",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=100170",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse192947",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

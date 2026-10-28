@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "33774905",
+    "doi": "10.1111/febs.15838",
+    "title": "Model-based robustness and bistability analysis for methylation-based, epigenetic memory systems."
+  },
+  "content": {
+    "abstract": "In recent years, epigenetic memory systems have been developed based on DNA methylation and positive feedback systems. Achieving a robust design for these systems is generally a challenging and multifactorial task. We developed and validated a novel mathematical model to describe methylation-based epigenetic memory systems that capture switching dynamics of methylation levels and methyltransferase amounts induced by different inputs. A bifurcation analysis shows that the system operates in the bistable range, but in its current setup is not robust to changes in parameters. An expansion of the model captures heterogeneity of cell populations by accounting for distributed cell division rates. Simulations predict that the system is highly sensitive to variations in temperature, which affects cell division and the efficiency of the zinc finger repressor. A moderate decrease in temperature leads to a highly heterogeneous response to input signals and bistability on a single-cell level. The predictions of our model were confirmed by flow cytometry experiments conducted in this study. Overall, the results of our study give insights into the functional mechanisms of methylation-based memory systems and demonstrate that the switching dynamics can be highly sensitive to experimental conditions.",
+    "keywords": [
+      "bifurcation analysis",
+      "bistability",
+      "epigenetic memory systems",
+      "positive feedback",
+      "quasi-bistability"
+    ],
+    "mesh_terms": [
+      "Cell Division/*genetics",
+      "DNA Methylation/*genetics",
+      "Epigenesis, Genetic/*genetics",
+      "Feedback, Physiological",
+      "Flow Cytometry",
+      "*Models, Biological",
+      "Single-Cell Analysis",
+      "Systems Biology/trends",
+      "Zinc Fingers/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Klingel, Viviane",
+        "Kirch, Jakob",
+        "Ullrich, Timo",
+        "Weirich, Sara",
+        "Jeltsch, Albert",
+        "Radde, Nicole E"
+      ],
+      "short_names": [
+        "Klingel V",
+        "Kirch J",
+        "Ullrich T",
+        "Weirich S",
+        "Jeltsch A",
+        "Radde NE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5145-0058"
+      ],
+      "affiliations": [
+        "Institute for Systems Theory and Automatic Control, University of Stuttgart, Germany.",
+        "Institute for Systems Theory and Automatic Control, University of Stuttgart, Germany.",
+        "Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany.",
+        "Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany.",
+        "Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany.",
+        "Institute for Systems Theory and Automatic Control, University of Stuttgart, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Klingel, Viviane",
+        "short_name": "Klingel V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Theory and Automatic Control, University of Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Kirch, Jakob",
+        "short_name": "Kirch J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Theory and Automatic Control, University of Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Ullrich, Timo",
+        "short_name": "Ullrich T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Weirich, Sara",
+        "short_name": "Weirich S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Jeltsch, Albert",
+        "short_name": "Jeltsch A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Technical Biochemistry, University of Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Radde, Nicole E",
+        "short_name": "Radde NE",
+        "identifiers": [
+          "0000-0002-5145-0058"
+        ],
+        "affiliations": [
+          "Institute for Systems Theory and Automatic Control, University of Stuttgart, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/29 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "41054543",
+      "36350505",
+      "35749318"
+    ],
+    "refs": [],
+    "similar": [
+      "33774905",
+      "28537256",
+      "29369799",
+      "35749318",
+      "32088885",
+      "20680847",
+      "17512413",
+      "36416580",
+      "32613387",
+      "23592777",
+      "25684141",
+      "19490874",
+      "25576597",
+      "30155813",
+      "20727353",
+      "32794033",
+      "28246663",
+      "30447224",
+      "30953488",
+      "32396015",
+      "26923344",
+      "31015721",
+      "25830651",
+      "25902052",
+      "17850924",
+      "28292535",
+      "20919827",
+      "32487258",
+      "19658729",
+      "26432525",
+      "30999858",
+      "25913071",
+      "32356021",
+      "21266713",
+      "27835646",
+      "18930050",
+      "31132851",
+      "32690947",
+      "26455892",
+      "28651214",
+      "29167521",
+      "23920043",
+      "28873953",
+      "25568447",
+      "28986802",
+      "33754077",
+      "26308610",
+      "27427949",
+      "21803863",
+      "32088888",
+      "29964050",
+      "31531859",
+      "33921911",
+      "23509238",
+      "26135290",
+      "33493084",
+      "28523547",
+      "31577127",
+      "28134382",
+      "19588088",
+      "27918981",
+      "32899254",
+      "26248552",
+      "20385621",
+      "27325708",
+      "24632203",
+      "31374565",
+      "33188932",
+      "29703886",
+      "32891645",
+      "37024783",
+      "34870767",
+      "37085994",
+      "34021761",
+      "35595758",
+      "38225285",
+      "23667927",
+      "37243648"
+    ],
+    "review": [
+      "33774905",
+      "29369799",
+      "32088885",
+      "23592777",
+      "30155813",
+      "20727353",
+      "32794033",
+      "17850924",
+      "20919827",
+      "26432525",
+      "25913071",
+      "32356021",
+      "28651214",
+      "23920043",
+      "25568447",
+      "33754077",
+      "21803863",
+      "31531859",
+      "33921911",
+      "23509238",
+      "26135290",
+      "28523547",
+      "31577127",
+      "19588088",
+      "27325708",
+      "31374565"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33774905.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/febs.15838",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33774905",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

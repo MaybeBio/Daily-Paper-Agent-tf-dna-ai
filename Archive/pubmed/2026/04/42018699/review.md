@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that aromatic metabolites (methyl benzoate, paeonol, salicylic acid, p-coumaric acid) reduce prodigiosin production in *Serratia marcescens* by binding to the transcriptional regulator SlyA, altering its DNA-binding activity, and thereby modulating expression of the prodigiosin biosynthetic gene *pigA*. A model is advanced in which SlyA acts as an allosterically regulated sensor for aromatic carbonyl compounds.
+- **Visible evidence base** Abstract statements only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full text, all figures and tables, experimental protocols, strain and plasmid details, statistical methods, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting regulatory model, but the evidence base visible in the abstract is insufficient to evaluate the technical soundness or robustness of the conclusions. Several key claims are stated without supporting quantitative or methodological detail. The work may be of interest to microbiologists studying secondary metabolism and regulatory networks, but the case for the proposed allosteric mechanism is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying bacterial secondary metabolite regulation, MarR-family transcriptional regulators, and the ecological or biotechnological roles of prodigiosin. The proposed link between aromatic metabolites and regulation of a bioactive pigment could also interest those investigating chemical signaling in microbial communities.
+- **Major strengths** The abstract identifies a potentially novel regulatory input (aromatic metabolites) into prodigiosin biosynthesis. The combination of computational modeling, molecular docking, molecular dynamics, and in vitro DNA-binding assays is a reasonable multi-pronged approach. The use of a transcriptional reporter (*pigA-gfp*) to test the effect in vivo is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that aromatic metabolites reduce prodigiosin production and that this effect is mediated through SlyA binding and allosteric regulation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that four aromatic metabolites reduce pigment production and that SlyA binding to the prodigiosin promoter is altered in their presence, but no quantitative data, dose-response information, or statistical significance are reported. The causal link between metabolite binding to SlyA and reduced *pigA* transcription is asserted without direct evidence that the effect is SlyA-dependent in a loss-of-function or gain-of-function context.
+  - **Why it matters** Without quantitative and controlled data, the reader cannot assess whether the observed reductions are biologically meaningful, specific, or reproducible. The central claim of allosteric regulation requires demonstration that the effect on transcription is dependent on SlyA and not on indirect or off-target effects.
+  - **Resolution test** Provide dose-response curves for each metabolite on prodigiosin production and *pigA-gfp* expression, with statistical comparisons. Include a *slyA* deletion or knockdown strain to show that the metabolite effect is abolished or reduced. Show that SlyA binding to the promoter is altered in a concentration-dependent manner consistent with the in vivo effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The claim that molecular docking and dynamics identify methyl benzoate as the most stable ligand and that this supports a specific binding mode within the SlyA homodimer cavities.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports docking and dynamics results but provides no scoring metrics, binding free energies, or comparison with negative controls. The statement that methyl benzoate is the "most stable ligand" is not supported by any numerical or comparative data. The functional relevance of the predicted binding site is not experimentally validated, for example by mutagenesis of predicted contact residues.
+  - **Why it matters** Computational predictions are only as strong as their experimental validation. Without evidence that the predicted binding site is functionally important, the allosteric model remains speculative.
+  - **Resolution test** Report docking scores and binding free energies for all four metabolites and at least one negative control compound. Mutate key residues in the predicted binding cavity and show that the metabolite effect on SlyA DNA binding and *pigA* transcription is lost or reduced.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The claim that SlyA functions as an allosterically regulated sensor coupling perception of aromatic carbonyl compounds to prodigiosin biosynthesis.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not address whether the observed effects are specific to SlyA or whether other regulators in the prodigiosin network might mediate the metabolite response. The enhanced effect upon multicopy *slyA* expression is suggestive but does not exclude indirect effects or metabolic perturbations caused by the metabolites.
+  - **Why it matters** The proposed model requires that SlyA is the direct and primary sensor. If other regulators or metabolic effects contribute, the model is incomplete or incorrect.
+  - **Resolution test** Test the metabolite effect in a *slyA* null background and in a strain overexpressing an unrelated regulator. Measure intracellular metabolite concentrations to rule out general metabolic stress. Show that SlyA binds the metabolites directly with measurable affinity, for example by isothermal titration calorimetry or surface plasmon resonance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "aromatic carbonyl compounds" is used in the final model statement, but the four tested metabolites include salicylic acid and p-coumaric acid, which are not carbonyl compounds in the strict sense. This terminology may overgeneralize the findings.
+  - **Required correction** Revise the model statement to refer to "aromatic metabolites" or specify the chemical classes tested, and avoid implying a broader chemical range than supported.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the concentrations of metabolites used, the growth conditions, or the time points for the assays. This limits the reader's ability to interpret the results.
+  - **Required correction** Include key experimental parameters in the abstract or ensure they are clearly presented in the full text with appropriate detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Data presentation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No statistical measures or replication information are mentioned for the in vitro or in vivo assays.
+  - **Required correction** State the number of biological and technical replicates and the statistical tests used, and report effect sizes with confidence intervals or p-values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient quantitative or controlled evidence to support the central claims of metabolite-mediated regulation through SlyA allostery. The computational predictions require experimental validation, and the in vivo effects require demonstration of SlyA dependence.
+- **Assessment against Nature-style criteria**  
+  - *Originality*: The idea that aromatic metabolites allosterically regulate SlyA to control prodigiosin production is moderately original and could extend understanding of MarR-family regulation. However, the concept of small-molecule allosteric regulation of MarR proteins is established, so the novelty is incremental.  
+  - *Scientific importance*: The findings could be relevant to bacterial secondary metabolism and chemical ecology, but the broader significance is not clearly articulated in the abstract. The clinical or biotechnological implications of prodigiosin regulation are mentioned but not developed.  
+  - *Interdisciplinary readership*: The topic is primarily of interest to microbiologists and molecular biologists. The abstract does not frame the work for a broader audience, such as chemists or ecologists.  
+  - *Technical soundness*: Not assessable from the abstract alone. The absence of quantitative data and methodological detail prevents evaluation of the robustness of the results.  
+  - *Readability for nonspecialists*: The abstract is reasonably clear but uses specialized terms (e.g., MarR-family, homodimeric model) without sufficient context for a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible experimental approach, but the lack of quantitative data, controls, and validation of the computational model means the case for the proposed mechanism is not yet convincing. I would be supportive if the technical concerns are resolved with full experimental detail and rigorous controls.
+
+## Risk / unsupported claims
+- The claim that the four aromatic metabolites reduce prodigiosin production is unsupported by any quantitative data in the abstract.
+- The claim that methyl benzoate is the most stable ligand from molecular dynamics is unsupported by any reported metrics.
+- The claim that SlyA functions as an allosterically regulated sensor is not directly tested; the evidence is indirect and incomplete.
+- The claim that the effect on *pigA-gfp* transcription is specifically due to SlyA is not established, as no loss-of-function or control experiments are described.
+- The general model of "aromatic carbonyl compounds" as the sensed class is not supported by the chemical nature of all tested metabolites.

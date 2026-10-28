@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure/table legends.
+- **Assessment boundary** The review is confined to the scientific content, methodological rigor, validity of claims, and presentation quality of the provided manuscript. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The manuscript reports an in-silico characterization of the plant transcription factor SOG1, including phylogenetic analysis of 103 orthologs, prediction of physicochemical properties, secondary and tertiary structure modeling, and DNA-protein and protein-protein docking to propose binding mechanisms with target DNA motifs and interacting proteins (NAC103, BRCA1).
+- **Visible evidence base** All results, figures, tables, and supplementary data descriptions as presented in the manuscript text. No raw data files, sequence alignments, or docking output files were provided for independent verification.
+- **Missing materials affecting confidence** The supplementary data files (Supplementary Tables 1-5, Supplementary Information with sequences) were not available for review. No experimental validation data are included. The specific software versions and parameters for some analyses (e.g., FTSite, iLoops) are not fully detailed.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational analysis of the SOG1 transcription factor, a key regulator of the DNA damage response in plants. The study is descriptive and largely confirmatory, applying standard bioinformatics tools to a well-known protein. While the work is technically competent in its execution of individual tools, the overall scientific advance is limited. The claims of "molecular mechanism" are overstated given the inherent limitations of docking studies without experimental validation. The manuscript would benefit from a more focused hypothesis, deeper analysis of the functional significance of the findings, and a clearer articulation of what is genuinely novel beyond a routine application of available software.
+- **Who would be interested in the results, and why** Researchers in the field of plant DNA damage response and repair, specifically those studying the SOG1 signaling pathway. The predicted interaction between SOG1 and NAC103/BRCA1, if experimentally validated, could be of interest to this community. Additionally, researchers applying computational methods to study transcription factor structure-function relationships might find the methodological pipeline of some interest, though the tools used are standard.
+- **Major strengths**
+  - The study addresses a relevant and important protein (SOG1) for which structural and interaction data are limited.
+  - The use of multiple, complementary in-silico tools for structure prediction and validation (I-TASSER, SWISS-MODEL, PROCHECK, ERRAT, ProSA) is a reasonable approach.
+  - The inclusion of mutation and sequence-alteration controls in the docking studies is a good practice to test the specificity of the predicted interactions.
+  - The manuscript is generally clearly written and logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Overstated Conclusions
+  - **Claim pointer** The abstract and discussion claim that the study reveals the "molecular mechanism of SOG1's binding" and that SOG1 "physically interacts and forms a thermodynamically stable complex" with NAC103 and BRCA1.
+  - **Evidence pointer** Abstract; Results sections "Molecular docking analysis..." and "Analysis of the possible physical interaction network..."; Discussion.
+  - **Concern** The conclusions are significantly overstated. The study is based entirely on computational predictions. Docking scores and binding free energies from in-silico methods are estimates and do not prove a "physical interaction" or a "molecular mechanism" in a biological sense. The term "thermodynamically stable complex" is a strong claim that cannot be substantiated by the computational methods used (e.g., MM-PBSA is an approximation). The manuscript itself acknowledges the lack of experimental validation, yet the language used in the abstract and key sections does not reflect this limitation.
+  - **Why it matters** Overstated claims can mislead readers and are not appropriate for the level of evidence provided. The scientific record must accurately reflect the difference between a prediction and a validated finding. This is a core issue that affects the fundamental validity of the paper's main message.
+  - **Resolution test** The authors must temper their language throughout the manuscript, particularly in the abstract and conclusion. Claims of "physical interaction" and "molecular mechanism" should be replaced with "predicted interaction" and "proposed binding mode." The discussion should explicitly frame all findings as hypotheses requiring experimental testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Lack of Methodological Detail and Validation
+  - **Claim pointer** The methods section describes the use of various servers and tools but lacks critical details necessary for reproducibility and for assessing the validity of the results.
+  - **Evidence pointer** Methods sections "Prediction of DNA and protein binding sites of SOG1", "Study of Protein-DNA and Protein-Protein interaction", "Analysis and validation of the three-dimensional structure of SOG1-orthologues".
+  - **Concern** The manuscript does not provide sufficient details on the parameters used for key analyses. For example, the specific settings for FTSite and iLoops are not described. For HADDOCK, the definition of "active" and "passive" residues is mentioned but the specific residues used for each docking run are not listed in the main text (they may be in the unavailable supplementary tables). The criteria for selecting the "best" cluster are not fully explained. Furthermore, the manuscript states that the SOG1 model from SWISS-MODEL was used for docking, but the quality of this specific model (e.g., GMQE, QMEAN) is not reported in the context of the docking, only for the model building step. The source of the NAC103 and BRCA1 structures used for docking is not stated (were they also modeled? If so, how?).
+  - **Why it matters** Without these details, the experiments cannot be reproduced, and the reliability of the docking results cannot be adequately assessed. This is a fundamental requirement for a methods-driven computational paper.
+  - **Resolution test** The authors must provide a detailed description of all parameters and settings for each software tool. They must clearly state the structures used for all docking partners, including their source and quality metrics. The specific active and passive residues for each docking run should be listed, either in the main text or in a properly referenced supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Limited Scientific Novelty and Insight
+  - **Claim pointer** The introduction and discussion imply that this study provides new and significant insights into SOG1 structure and function.
+  - **Evidence pointer** Introduction; Discussion.
+  - **Concern** The study is largely a descriptive application of standard bioinformatics tools. The phylogenetic analysis confirms known evolutionary relationships. The structure prediction, while useful, does not reveal any unexpected features. The docking studies provide predictions, but these are not deeply analyzed in a biological context. For example, the discussion does not explain how the predicted SOG1-NAC103 interaction might affect the DNA binding specificity or transcriptional activity of either protein. The potential functional consequences of the SOG1-BRCA1 interaction are not explored beyond a general statement. The paper reads as a report of a pipeline, not a hypothesis-driven investigation.
+  - **Why it matters** For a journal with a broad audience, the work needs to offer more than a routine computational analysis. It must provide new biological insights or a significant methodological advance. In its current form, the paper does not clearly demonstrate what is fundamentally new about our understanding of SOG1.
+  - **Resolution test** The authors should reframe the manuscript to focus on a specific, testable hypothesis. For instance, they could focus on the predicted SOG1-NAC103 interaction and use their modeling data to propose a detailed model of how this heterodimer might recognize different DNA targets. They should discuss the specific amino acid residues involved in the interaction and how these might be mutated in future experimental studies to dissect the function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and Presentation
+  - **Affected element** Figure 1 and Figure 2
+  - **Evidence pointer** Results section "SOG1 protein is widely distributed in the plant kingdom".
+  - **Issue** The figures are not referenced in the text in a way that guides the reader. For example, the text mentions the phylogenetic tree (Fig. 1A) but does not describe the key clades or support the claim of "three groups" with specific bootstrap values or node labels. Similarly, the motif analysis (Fig. 2) is described, but the figure is complex and the specific differences between species are not clearly highlighted in the text.
+  - **Required correction** The authors should explicitly describe the major findings from each figure in the text. For the phylogenetic tree, they should mention the support for the major clades. For the motif analysis, they should clearly state which motifs are present or absent in which species, referring to the figure panels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical Accuracy
+  - **Affected element** Results section "Molecular docking analysis..."
+  - **Evidence pointer** The text describing the HADDOCK results.
+  - **Issue** The manuscript states "The lower the energy value is more the stability of the complex". While generally true for binding free energy, the HADDOCK score is a specific scoring function, and a more negative score indicates a better fit according to that function. The phrasing is a bit imprecise.
+  - **Required correction** Rephrase to be more precise, e.g., "A more negative HADDOCK score indicates a more favorable predicted binding interface according to the HADDOCK scoring function."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of Reporting
+  - **Affected element** Methods section "Computer system"
+  - **Evidence pointer** Methods section.
+  - **Issue** The description of the computer system is not relevant to the scientific content and is unnecessary.
+  - **Required correction** Remove this section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data Presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Results section "Molecular docking analysis..."
+  - **Issue** Table 2 is very dense and difficult to interpret. The column headers are not fully descriptive (e.g., "Pre-simulated" and "Post-simulated" are not defined in the table legend). The meaning of the residue numbers and chain identifiers is not explained.
+  - **Required correction** The table should be reformatted for clarity. The legend should explain what "Pre-simulated" and "Post-simulated" mean. The residue numbering should be clearly defined (e.g., "Residue numbers correspond to the SOG1 sequence from Arabidopsis thaliana").
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and Grammar
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Various sections.
+  - **Issue** There are several instances of awkward phrasing and grammatical errors. For example, in the Introduction: "Because of their sessile lifestyle plants are inescapably exposed to various kinds of environmental stresses throughout their lifetime." The sentence structure is a bit clunky. In the Results: "In-silico analysis of ∼ 1 kb promoter fragment..." should be "In-silico analysis of a ∼1 kb promoter fragment...".
+  - **Required correction** The manuscript should be carefully edited for grammar and style to improve readability.
+
+## Risk / unsupported claims
+- The claim that SOG1 "physically interacts" with NAC103 and BRCA1 is unsupported by the evidence, which is purely computational. This is a prediction, not a demonstrated interaction.
+- The claim that the study reveals the "molecular mechanism" of SOG1 binding to DNA is overstated. The docking studies provide a static, predicted model, not a mechanism.
+- The statement that the predicted complexes are "thermodynamically stable" is an over-interpretation of the MM-PBSA results, which are approximate and dependent on the force field and parameters used.
+- The claim that the SOG1 protein has become "more stable" over evolution, based on the instability index and secondary structure predictions, is speculative and not directly supported by the data presented. The instability index is a sequence-based prediction, not a direct measure of protein stability.
+- The functional significance of the predicted SOG1-NAC103 and SOG1-BRCA1 interactions is not established. The manuscript speculates on their role but provides no evidence to support these speculations.

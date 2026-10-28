@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38345234",
+  "title": "Computational Prediction of Amino Acid Preferences of Potentially Multispecific Peptide-Binding Domains Involved in Protein-Protein Interactions.",
+  "authors": "Cruz, Hector; Llanes, Alejandro; Fernandez, Patricia L",
+  "journal": "Journal of visualized experiments : JoVE",
+  "published_date": "2024-02-12",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Rosetta Pepspec预测肽结合域氨基酸偏好，虽聚焦蛋白-肽互作而非TF-DNA，但柔性骨架对接与PWM方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Many protein-protein interactions involve the binding of short protein segments to peptide-binding domains. Usually, such interactions require the recognition of linear motifs with variable conservation. The combination of highly conserved and more variable regions in the same ligands often contributes to the multispecificity of binding, a common property of enzymes and cell signaling proteins. Characterization of amino acid preferences of peptide-binding domains is important for the design of mediators of protein-protein interactions (PPIs). Computational methods are an efficient alternative to the often costly and cumbersome experimental techniques, enabling the design of potential mediators that can be later validated in downstream experiments. Here, we described a methodology using the Pepspec application of the Rosetta molecular modeling package to predict the amino acid preferences of peptide-binding domains. This methodology is useful when the structure of the receptor protein and the nature of the peptide ligand are both known or can be inferred. The methodology starts with a well-characterized anchor from the ligand, which is extended by randomly adding amino acid residues. The binding affinity of peptides generated this way is then evaluated by flexible-backbone peptide docking in order to select the peptides with the best predicted binding scores. These peptides are then used to calculate amino acid preferences and to optionally compute a position-weight matrix (PWM) that can be used in further studies. To illustrate the application of this methodology, we used the interaction between subunits of human interferon regulatory factor 5 (IRF5), previously known to be multispecific but globally guided by a short conserved motif called pLxIS. The estimated amino acid preferences were consistent with previous knowledge about the IRF5 binding surface. Positions occupied by phosphorylatable serine residues exhibited a high frequency of aspartate and glutamate, likely because their negatively charged side chains are similar to phosphoserine.",
+  "abstract_zh": "许多蛋白质-蛋白质相互作用涉及短蛋白片段与肽结合域的结合。通常，这类相互作用需要识别保守性可变的线性基序。同一配体中高度保守区域与可变性较强区域的组合，常促成结合的多特异性，这是酶和细胞信号蛋白的常见特性。表征肽结合域的氨基酸偏好对于设计蛋白质-蛋白质相互作用（PPIs）的介导因子至关重要。计算方法是对通常昂贵且繁琐的实验技术的有效替代，能够设计潜在的介导因子，这些因子可在后续实验中得到验证。在此，我们描述了一种方法，利用Rosetta分子建模包中的Pepspec应用程序来预测肽结合域的氨基酸偏好。当受体蛋白的结构和肽配体的性质均已知或可推断时，该方法尤为有用。该方法从配体中一个特征明确的锚点开始，通过随机添加氨基酸残基进行延伸。随后，通过柔性主链肽对接评估以这种方式生成的肽的结合亲和力，以选择预测结合评分最佳的肽。这些肽随后用于计算氨基酸偏好，并可选择性地计算位置权重矩阵（PWM），以供进一步研究使用。为说明该方法的应用，我们使用了人干扰素调节因子5（IRF5）亚基之间的相互作用，该相互作用此前已知具有多特异性，但整体上由称为pLxIS的短保守基序引导。估计的氨基酸偏好与关于IRF5结合表面的先前知识一致。由可磷酸化丝氨酸残基占据的位置显示出天冬氨酸和谷氨酸的高频率，这可能是因为其带负电荷的侧链与磷酸丝氨酸相似。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38345234/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38345234/",
+  "paper_page_path": "papers/pubmed/38345234/index.html"
+}

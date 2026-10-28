@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. Figures and tables are referenced but not fully visible in the provided material.
+- **Assessment boundary** Assessment is limited to the scientific content, methodological rigor, and validity of claims as presented in the manuscript text. Figure and table contents are only partially assessable based on captions and in-text descriptions.
+- **Shared manuscript claim summary** The authors claim to identify four potential shared biomarkers (ETS1, YY1, CREB5, GTF2H1) between Chronic Obstructive Pulmonary Disease (COPD) and Rheumatoid Arthritis (RA) using integrated bioinformatics and machine learning approaches, with validation via ROC curve and nomogram analyses, and to suggest candidate transcription factors, miRNAs, and drugs.
+- **Visible evidence base** Differential expression analysis results (numbers of DEGs), volcano plots (Fig. 2A, 2B), Venn diagram (Fig. 2C), GSEA results (Fig. 3), PPI network (Fig. 4), hub gene results from five topological algorithms (Figs. 5, 6), ML model accuracies (Table 3), ElasticNet selected genes (Fig. 7), intersection results (Fig. 8), expression plots (Fig. 9), ROC curves (Fig. 10), nomogram (Fig. 11), TF-miRNA network (Fig. 12A), drug predictions (Fig. 12B, Table 4).
+- **Missing materials affecting confidence** Raw data files, detailed code scripts, complete figure contents, supplementary tables (e.g., full lists of DEGs, GO terms, pathways, hub gene scores, ML feature importance scores), dataset preprocessing details, and exact parameters for all analyses are not provided. This limits full verification of the analytical pipeline.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study aiming to identify shared biomarkers between COPD and RA using publicly available gene expression datasets. The topic is of potential interest given the clinical association between these diseases. However, the study is largely a standard bioinformatics pipeline applied to existing data, with limited methodological novelty. Several technical concerns, including dataset selection, validation strategy, and interpretation of results, need to be addressed. The core claim of identifying four robust biomarkers is not fully established from the evidence provided.
+- **Who would be interested in the results, and why** Researchers in respiratory medicine, rheumatology, and bioinformatics may find the results of interest. The identification of shared molecular pathways and potential biomarkers could inform future studies on the comorbidity of COPD and RA, and the suggested drugs and regulatory molecules might be of interest for drug repurposing studies. However, the interest is likely to be moderate given the preliminary, computational nature of the findings.
+- **Major strengths**
+  - The study addresses a clinically relevant question regarding the shared molecular basis of two common diseases.
+  - The analytical pipeline is comprehensive, combining multiple bioinformatics and machine learning approaches.
+  - The use of R programming throughout enhances reproducibility compared to online tool-based analyses.
+  - The inclusion of validation steps (ROC, nomogram) and prediction of regulatory molecules and drugs adds value.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim to have identified four potential biomarkers (ETS1, YY1, CREB5, GTF2H1) shared between RA and COPD.
+    - **Evidence pointer** Results section, Figs. 5-8, Table 3
+    - **Concern** The selection of the final four biomarkers relies on the intersection of hub genes from PPI analysis and genes selected by the ElasticNet model. However, the manuscript does not provide sufficient detail on the stability and robustness of these selections. The ElasticNet model's feature selection can be highly variable depending on the data split and regularization parameters. The manuscript does not report cross-validation stability of the selected features, nor does it compare the performance of the final four-gene signature against the full ElasticNet gene set or other model outputs. The claim that these four genes are the "key potential biomarkers" is therefore not strongly supported.
+    - **Why it matters** Biomarker identification must be robust and reproducible. Without evidence of feature selection stability and a clear demonstration that the four-gene signature performs comparably to or better than other candidate sets, the central conclusion of the paper is not reliable.
+    - **Resolution test** The authors should provide: (1) cross-validation results showing the frequency with which each of the four genes is selected across multiple data splits; (2) a comparison of the classification performance (e.g., AUC) of the four-gene signature versus the full ElasticNet model and other ML models; (3) an independent validation of the four-gene signature in an external cohort, if available.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that the ROC curve and expression analyses show "robust discriminatory efficacy" for all four genes.
+    - **Evidence pointer** Results section, Figs. 9, 10
+    - **Concern** The ROC analysis is performed on the same training datasets used to identify the genes, which can lead to optimistic bias. The manuscript does not clearly state whether the ROC analysis was performed on the training data, test data, or both. If the ROC curves are derived from the training data, they do not provide valid evidence of generalizable discriminatory power. Furthermore, the expression plots (Fig. 9) appear to show inconsistent directions of expression change across training and validation datasets for some genes (e.g., GTF2H1 shows increased expression in training but not in validation), which is not adequately discussed.
+    - **Why it matters** Validation of biomarkers requires testing on independent data. Using training data for validation inflates performance estimates and does not demonstrate clinical utility. The inconsistent expression patterns across datasets raise questions about the robustness of the biomarkers.
+    - **Resolution test** The authors should clearly specify which datasets were used for ROC analysis. They should perform ROC analysis on the independent test datasets (GSE118468, GSE294225) and report AUC values for each gene separately for training and test sets. They should also discuss and explain any discrepancies in expression patterns between training and validation datasets.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors claim that the identified molecular mechanisms and biomarkers "could potentially improve our understanding of the molecular mechanisms behind COPD and RA."
+    - **Evidence pointer** Discussion section
+    - **Concern** The GSEA analysis identified GO terms and pathways, but the manuscript does not provide a deep biological interpretation of these findings in the context of COPD-RA comorbidity. The discussion largely describes the known functions of the identified genes (ETS1, YY1, CREB5, GTF2H1) in general terms, without a specific, testable hypothesis linking them to the shared pathophysiology of the two diseases. The novelty of the biological insight is therefore limited.
+    - **Why it matters** For a study of this type, the biological interpretation is a key component of its contribution. A descriptive listing of gene functions does not advance mechanistic understanding. The authors need to provide a more integrated and hypothesis-generating discussion.
+    - **Resolution test** The authors should expand the discussion to propose specific, testable mechanisms by which the identified genes and pathways could link COPD and RA, potentially referencing known inflammatory or autoimmune pathways common to both diseases.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that "ElasticNet outperforms with the highest accuracy of 91.52%."
+    - **Evidence pointer** Results section, Table 3
+    - **Concern** The manuscript reports only accuracy for comparing ML models. Accuracy is not a robust metric for imbalanced datasets, which is common in case-control studies. Other metrics such as sensitivity, specificity, F1-score, and AUC should be reported. Additionally, the manuscript does not describe the hyperparameter tuning process for each model, nor does it report the use of cross-validation for model selection. Without this information, the claim of "outperforms" is not fully substantiated.
+    - **Why it matters** Model comparison based on a single, potentially misleading metric, without details on tuning and validation, does not provide a solid basis for selecting the ElasticNet model.
+    - **Resolution test** The authors should report a comprehensive set of performance metrics (sensitivity, specificity, F1, AUC) for all models, describe the hyperparameter tuning procedure, and clarify whether cross-validation was used for model selection.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction
+    - **Evidence pointer** Introduction section
+    - **Issue** The introduction begins with a broad discussion of biomedical research advances and 3D cell culture models, which is not directly relevant to the study's focus on bioinformatics analysis of COPD and RA. This distracts from the main topic.
+    - **Required correction** The introduction should be revised to focus directly on the clinical and molecular relationship between COPD and RA, and the rationale for using bioinformatics and machine learning to identify shared biomarkers.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Dataset description
+    - **Evidence pointer** Dataset description section
+    - **Issue** The description of the test dataset GSE294225 is inconsistent. The text states "the GSE294225 (testing) dataset of COPD includes a total of 24 samples, with 9 RA and 15 healthy samples." This appears to be a typo, as it should likely say "9 RA and 15 healthy samples" or "9 COPD and 15 healthy samples." The context suggests it is an RA test dataset.
+    - **Required correction** The authors should correct this typo to accurately describe the GSE294225 dataset.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results, Identification of common DEGs
+    - **Evidence pointer** Results section
+    - **Issue** The manuscript reports 618 DEGs in GSE76925 (564 down, 54 up) and 1812 DEGs in GSE93777 (720 down, 1092 up). The sum of down and up regulated genes for GSE76925 is 618, which is correct. However, for GSE93777, 720 + 1092 = 1812, which is also correct. The numbers are internally consistent.
+    - **Required correction** No correction needed, but the authors should ensure the volcano plots (Fig. 2A, 2B) clearly show these numbers.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion of individual genes (ETS1, YY1, CREB5, GTF2H1) is dense and assumes significant background knowledge. A brief explanation of the relevance of these genes in the context of inflammation or autoimmunity would improve accessibility.
+    - **Required correction** Add a sentence or two for each gene explaining its general function and potential relevance to inflammatory or autoimmune diseases.
+- **Technical failings that need to be addressed before the case is established**
+  - Lack of external validation of the four-gene signature in independent cohorts.
+  - ROC analysis appears to be performed on training data, leading to potentially inflated performance estimates.
+  - Insufficient detail on ML model hyperparameter tuning and cross-validation methodology.
+  - No assessment of the stability of feature selection across different data splits.
+  - Inconsistent description of the GSE294225 dataset.
+- **Assessment against Nature-style criteria**
+  - **Originality** Low to moderate. The application of a standard bioinformatics and ML pipeline to identify shared biomarkers between COPD and RA is not conceptually novel. Similar approaches have been used for many disease pairs. The specific combination of diseases may be of interest, but the methodological approach is well-established.
+  - **Scientific importance** Moderate. The clinical association between COPD and RA is well-documented, and identifying shared molecular mechanisms could have clinical relevance. However, the study is purely computational and does not provide functional validation, limiting its immediate impact.
+  - **Interdisciplinary readership** Moderate. The study bridges respiratory medicine, rheumatology, and computational biology. However, the presentation is likely to be most accessible to bioinformaticians, while clinicians may find the lack of experimental validation a limitation.
+  - **Technical soundness** The core pipeline is standard, but several technical aspects are under-reported (ML tuning, validation strategy, feature stability). The validation approach is a significant weakness.
+  - **Readability for nonspecialists** The manuscript is generally readable but includes sections (e.g., introduction) that are not focused, and the discussion of gene functions is dense. The methods section assumes familiarity with R and bioinformatics tools.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a relevant question and uses a reasonable approach, but the central claim of identifying robust shared biomarkers is not sufficiently supported due to concerns about validation methodology, feature selection stability, and lack of external validation. The manuscript would require major revisions to address these technical concerns before the case for these biomarkers is established.
+
+## Risk / unsupported claims
+- The claim that the four genes (ETS1, YY1, CREB5, GTF2H1) are "key potential biomarkers" is not fully supported due to the lack of robust validation and feature selection stability analysis.
+- The claim that ElasticNet "outperforms" other models is based solely on accuracy, which is insufficient.
+- The claim that the ROC and expression analyses show "robust discriminatory efficacy" is potentially misleading if the analyses were performed on training data.
+- The clinical or therapeutic significance of the suggested drugs, TFs, and miRNAs is speculative and not supported by experimental evidence.
+- The statement that this is the first study to screen for shared biomarkers between RA and COPD is not verifiable from the provided material and may be an overstatement.

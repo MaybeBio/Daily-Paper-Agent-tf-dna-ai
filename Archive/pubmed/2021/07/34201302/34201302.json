@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "34201302",
+    "doi": "10.3390/ncrna7020033",
+    "title": "A Survey of Current Resources to Study lncRNA-Protein Interactions."
+  },
+  "content": {
+    "abstract": "Phenotypes are driven by regulated gene expression, which in turn are mediated by complex interactions between diverse biological molecules. Protein-DNA interactions such as histone and transcription factor binding are well studied, along with RNA-RNA interactions in short RNA silencing of genes. In contrast, lncRNA-protein interaction (LPI) mechanisms are comparatively unknown, likely directed by the difficulties in studying LPI. However, LPI are emerging as key interactions in epigenetic mechanisms, playing a role in development and disease. Their importance is further highlighted by their conservation across kingdoms. Hence, interest in LPI research is increasing. We therefore review the current state of the art in lncRNA-protein interactions. We specifically surveyed recent computational methods and databases which researchers can exploit for LPI investigation. We discovered that algorithm development is heavily reliant on a few generic databases containing curated LPI information. Additionally, these databases house information at gene-level as opposed to transcript-level annotations. We show that early methods predict LPI using molecular docking, have limited scope and are slow, creating a data processing bottleneck. Recently, machine learning has become the strategy of choice in LPI prediction, likely due to the rapid growth in machine learning infrastructure and expertise. While many of these methods have notable limitations, machine learning is expected to be the basis of modern LPI prediction algorithms.",
+    "keywords": [
+      "LPI",
+      "databases",
+      "deep learning",
+      "lncRNA",
+      "machine learning",
+      "molecular docking",
+      "ncRNA",
+      "protein",
+      "transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Philip, Melcy",
+        "Chen, Tyrone",
+        "Tyagi, Sonika"
+      ],
+      "short_names": [
+        "Philip M",
+        "Chen T",
+        "Tyagi S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0827-866X",
+        "ORCID: 0000-0002-9207-0385",
+        "ORCID: 0000-0003-0181-6258"
+      ],
+      "affiliations": [
+        "School of Biological Sciences, Monash University, 25 Rainforest Walk, Clayton, VIC 3800, Australia.",
+        "School of Biological Sciences, Monash University, 25 Rainforest Walk, Clayton, VIC 3800, Australia.",
+        "School of Biological Sciences, Monash University, 25 Rainforest Walk, Clayton, VIC 3800, Australia.",
+        "Monash eResearch Centre, Monash University, Clayton, VIC 3800, Australia.",
+        "Department of Infectious Disease, Monash University (Alfred Campus), 85 Commercial Road, Melbourne, VIC 3004, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Philip, Melcy",
+        "short_name": "Philip M",
+        "identifiers": [
+          "0000-0002-0827-866X"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Monash University, 25 Rainforest Walk, Clayton, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Chen, Tyrone",
+        "short_name": "Chen T",
+        "identifiers": [
+          "0000-0002-9207-0385"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Monash University, 25 Rainforest Walk, Clayton, VIC 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Tyagi, Sonika",
+        "short_name": "Tyagi S",
+        "identifiers": [
+          "0000-0003-0181-6258"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Monash University, 25 Rainforest Walk, Clayton, VIC 3800, Australia.",
+          "Monash eResearch Centre, Monash University, Clayton, VIC 3800, Australia.",
+          "Department of Infectious Disease, Monash University (Alfred Campus), 85 Commercial Road, Melbourne, VIC 3004, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Non-coding RNA"
+    ],
+    "journal_abbrev": [
+      "Noncoding RNA"
+    ],
+    "pub_date": "2021 Jun 8",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "41968857",
+      "40677224",
+      "40563521",
+      "40520600",
+      "39732642",
+      "38679911",
+      "37754274",
+      "37754243",
+      "37218990",
+      "36674656",
+      "36352219",
+      "35639511",
+      "35389828",
+      "34836494"
+    ],
+    "refs": [
+      "33688586",
+      "33461501",
+      "33362868",
+      "33280525",
+      "33278865",
+      "33224264",
+      "33126123",
+      "33106848",
+      "32543653",
+      "32454029",
+      "32409904",
+      "32285620",
+      "32269383",
+      "32185172",
+      "32160522",
+      "32038709",
+      "32033158",
+      "31906603",
+      "31831555",
+      "31824563",
+      "31724725",
+      "31724722",
+      "31713618",
+      "31670377",
+      "31519929",
+      "31519807",
+      "31173056",
+      "31147700",
+      "31086984",
+      "31057602",
+      "30804549",
+      "30697228",
+      "30533006",
+      "30498193",
+      "30388620",
+      "30023002",
+      "29902563",
+      "29749606",
+      "29583068",
+      "29400715",
+      "29292750",
+      "29262614",
+      "29186336",
+      "29130217",
+      "28623317",
+      "28545146",
+      "28412742",
+      "28077569",
+      "28053162",
+      "27746303",
+      "27742911",
+      "27055826",
+      "27040499",
+      "26883671",
+      "26410586",
+      "26213851",
+      "25977296",
+      "25759022",
+      "25605792",
+      "25441720",
+      "25158899",
+      "25150170",
+      "25073154",
+      "24297251",
+      "24123156",
+      "24063787",
+      "23975767",
+      "23405074",
+      "23201690",
+      "22143764",
+      "21963238",
+      "21534921",
+      "21285413",
+      "21062823",
+      "17598144",
+      "17406325",
+      "14615540",
+      "1380673",
+      "561661"
+    ],
+    "similar": [
+      "34201302",
+      "30533006",
+      "34607567",
+      "30697228",
+      "34587091",
+      "32082358",
+      "32454029",
+      "38591194",
+      "33985444",
+      "33362868",
+      "34861891",
+      "31890140",
+      "31654509",
+      "38706631",
+      "28702594",
+      "33006667",
+      "31057602",
+      "33120126",
+      "29262614",
+      "30388620",
+      "32409904",
+      "27345524",
+      "29583068",
+      "25724101",
+      "31383477",
+      "36275618",
+      "31797622",
+      "33841755",
+      "31649723",
+      "25048083",
+      "30309340",
+      "30156155",
+      "30598114",
+      "31215361",
+      "31538879",
+      "33001599",
+      "31811618",
+      "30875752",
+      "30247501",
+      "31323239",
+      "23973358",
+      "18840280",
+      "30084867",
+      "32849764",
+      "32070279",
+      "31893451",
+      "30284403",
+      "28623317",
+      "33334307",
+      "27378654",
+      "28245811",
+      "26042329",
+      "29764394",
+      "29720103",
+      "33845763",
+      "22020791",
+      "33407069",
+      "33740884",
+      "30182833",
+      "32718000",
+      "33794766",
+      "31639442",
+      "27134008",
+      "26921280",
+      "31698606",
+      "31824563",
+      "31067608",
+      "32847102",
+      "29697742",
+      "31568653",
+      "33334320",
+      "30635896",
+      "26839884",
+      "30029596",
+      "31052598",
+      "29495575",
+      "27431577",
+      "31484726",
+      "31323206"
+    ],
+    "review": [
+      "34201302",
+      "32082358",
+      "31654509",
+      "33006667",
+      "33120126",
+      "27345524",
+      "31383477",
+      "36275618",
+      "33841755",
+      "30156155",
+      "31215361",
+      "31538879",
+      "30247501",
+      "30084867",
+      "31067608",
+      "30635896"
+    ],
+    "pmc": [
+      "8293367"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ncrna7020033",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34201302/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34201302",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

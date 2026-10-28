@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36090034",
+  "title": "In-silico probing of AML related RUNX1 cancer-associated missense mutations: Predicted relationships to DNA binding and drug interactions.",
+  "authors": "Ullah, Hanif; Zhang, Baoyun; Sharma, Narendra Kumar; McCrea, Pierre D; Srivastava, Yogesh",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-09-13",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过分子对接和计算模拟研究AML相关RUNX1错义突变对DNA结合及药物互作的影响，聚焦TF-DNA结合界面突变的功能后果，方法为计算建模，虽非AI/MD但属结构模拟，与TF-DNA互作机制高度相关。",
+  "abstract": "The molecular consequences of cancer associated mutations in Acute myeloid leukemia (AML) linked factors are not very well understood. Here, we interrogated the COSMIC database for missense mutations associated with the RUNX1 protein, that is frequently mis-regulated in AML, where we sought to identify recurrently mutated positions at the DNA-interacting interface. Indeed, six of the mutated residues, out of a total 417 residues examined within the DNA binding domain, evidenced reduced DNA association in in silico predictions. Further, given the prominence of RUNX1's compromised function in AML, we asked the question if the mutations themselves might alter RUNX1's interaction (off-target) with known FDA-approved drug molecules, including three currently used in treating AML. We identified several AML-associated mutations in RUNX1 that were calculated to enhance RUNX1's interaction with specific drugs. Specifically, we retrieved data from the COSMIC database for cancer-associated mutations of RUNX1 by using R package \"data.table\" and \"ggplot2\" modules. In the presence of DNA and/or drug, we used docking scores and energetics of the complexes as tools to evaluate predicted interaction strengths with RUNX1. For example, we performed predictions of drug binding pockets involving Enasidenib, Giltertinib, and Midostaurin (AML associated), as well as ten different published cancer associated drug compounds. Docking of wild type RUNX1 with these 13 different cancer-associated drugs indicates that wild-type RUNX1 has a lower efficiency of binding while RUNX1 mutants R142K, D171N, R174Q, P176H, and R177Q suggested higher affinity of drug association. Literature evidence support our prediction and suggests the mutation R174Q affects RUNX1 DNA binding and could lead to compromised function. We conclude that specific RUNX1 mutations that lessen DNA binding facilitate the binding of a number of tested drug molecules. Further, we propose that molecular modeling and docking studies for RUNX1 in the presence of DNA and/or drugs enables evaluation of the potential impact of RUNX1 cancer associated mutations in AML.",
+  "abstract_zh": "急性髓系白血病（AML）相关因子中癌症相关突变的分子后果尚未得到充分理解。在此，我们查询了COSMIC数据库中与RUNX1蛋白相关的错义突变，该蛋白在AML中经常失调，旨在识别DNA相互作用界面上反复突变的位点。确实，在DNA结合域内检查的总共417个残基中，有六个突变残基在计算机模拟预测中显示出DNA结合能力降低。此外，鉴于RUNX1功能受损在AML中的突出性，我们提出问题：这些突变本身是否可能改变RUNX1与已知FDA批准药物分子（包括目前用于治疗AML的三种药物）的相互作用（脱靶效应）。我们识别了RUNX1中的几个AML相关突变，这些突变被计算预测可增强RUNX1与特定药物的相互作用。具体而言，我们通过使用R包“data.table”和“ggplot2”模块，从COSMIC数据库中检索了RUNX1的癌症相关突变数据。在存在DNA和/或药物的情况下，我们使用对接评分和复合物能量学作为工具，评估与RUNX1的预测相互作用强度。例如，我们进行了涉及Enasidenib、Giltertinib和Midostaurin（与AML相关）以及十种不同已发表癌症相关药物化合物的药物结合口袋预测。将野生型RUNX1与这13种不同癌症相关药物进行对接表明，野生型RUNX1具有较低的结合效率，而RUNX1突变体R142K、D171N、R174Q、P176H和R177Q则显示出更高的药物结合亲和力。文献证据支持我们的预测，并表明R174Q突变影响RUNX1 DNA结合，可能导致功能受损。我们得出结论，特定减少DNA结合的RUNX1突变促进了多种测试药物分子的结合。此外，我们提出，在存在DNA和/或药物的情况下，对RUNX1进行分子建模和对接研究，能够评估RUNX1癌症相关突变在AML中的潜在影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36090034/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36090034/",
+  "paper_page_path": "papers/pubmed/36090034/index.html"
+}

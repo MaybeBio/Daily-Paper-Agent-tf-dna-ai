@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability of claims, and reproducibility based solely on the supplied text
+- **Shared manuscript claim summary** The authors present mIDEA, a structure-aware residue-level biophysical model that extends their prior IDEA framework to account for 5-methylcytosine in protein–DNA interactions. The model is claimed to predict methylation-dependent binding sensitivity across transcription factors with distinct CpG preferences, provide mechanistic interpretations via a learned energy matrix, and improve in vivo binding-site prediction when integrated with whole-genome methylation data.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Sections 2.1, 2.2), Results (Sections 3.1–3.4), Discussion, and references to supplementary figures (S1–S8) and external data sources
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S8) are referenced but not provided; quantitative performance metrics for model training and validation are not fully reported; details of the EpiSELEX-seq and methyl-HT-SELEX data processing pipelines are incomplete; the full 20×5 energy matrix is not shown; code repository is cited but not reviewed
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting extension of a previously published structure-based energy model to incorporate DNA methylation. The core idea, treating 5mC as a distinct nucleotide type within a residue-level contact energy framework, is sensible and potentially useful. However, the evidence provided in the text is insufficient to fully evaluate the model's predictive accuracy, generalizability, and the robustness of the mechanistic interpretations offered. Several claims, particularly regarding in vivo prediction improvements and mechanistic novelty, are not adequately supported by the data presented in the main text. The manuscript would benefit from clearer reporting of quantitative results, more rigorous validation, and a more careful discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying transcription factor binding specificity, epigenetic regulation, and computational models of protein–DNA interactions. The model's interpretability and low data requirements may appeal to those working on systems where high-throughput binding data are scarce. The potential integration with molecular dynamics simulations could interest computational biophysicists.
+- **Major strengths** The conceptual framing of treating methylation as a fifth nucleotide within a physically motivated energy model is clear and potentially powerful. The emphasis on interpretability, via a residue-level energy matrix, is a valuable feature that distinguishes this approach from purely sequence-based deep learning methods. The demonstration that the model can capture position-specific effects, at least qualitatively, using a structure-based training strategy is encouraging. The authors are transparent about limitations, such as the assumption of a shared structural interface between methylated and unmethylated complexes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "accurately recapitulates both 'methyl-plus' and 'methyl-minus' effects" and "captures position-specific methylation effects" when trained with quantitative data.
+  - **Evidence pointer** Results Sections 3.1, 3.2, 3.3; Supplementary Figures S1–S7
+  - **Concern** The main text reports qualitative outcomes (e.g., "consistent upward energy shift", "model successfully captured") but does not provide quantitative metrics for model accuracy, such as correlation coefficients between predicted and measured binding affinities, or error bars on predicted energy shifts. The supplementary figures are referenced but not available for review. Without these data, the claim of "accurate" recapitulation cannot be assessed.
+  - **Why it matters** The central claim of the manuscript is that mIDEA provides accurate predictions. If the accuracy is not quantified and compared against baselines or alternative methods, the scientific contribution cannot be evaluated. The reader cannot determine whether the model's performance is sufficient for practical use.
+  - **Resolution test** Provide quantitative performance metrics (e.g., Pearson/Spearman correlation, RMSE) for predicted versus experimental binding affinities or enrichment ratios for each TF tested, including error estimates. Show these metrics in the main text or in a clearly referenced supplementary table. Compare performance against a suitable baseline (e.g., a model trained without methylation information, or a sequence-only model).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The data-enhanced training strategy (Section 2.1.3) "substantially improved model performance" for ATF4, enabling the model to "correctly distinguished between methylation at different flanking regions."
+  - **Evidence pointer** Section 2.1.3, Section 3.3, Figure 3B, Figure S7
+  - **Concern** The description of the data-enhanced training strategy is incomplete. The text states that EpiSELEX-seq data are integrated, but the exact procedure for converting enrichment profiles into training labels, the handling of multiple sequence alignments, and the specific form of the regularization are not fully specified. The claim of "substantially improved" is not backed by a quantitative comparison of model performance with and without the data-enhanced step.
+  - **Why it matters** Reproducibility is a core requirement for computational models. If the training procedure is not fully specified, other researchers cannot implement or validate the method. The claimed improvement from data integration is a key selling point and must be demonstrated quantitatively.
+  - **Resolution test** Provide a step-by-step description of the data-enhanced training algorithm, including the exact objective function, the conversion of enrichment data to energies, and the cross-validation scheme. Show a quantitative comparison (e.g., correlation, error) between the structure-only and data-enhanced models for ATF4, ideally in a figure or table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** "When integrated with whole-genome methylation profiles, the model enhances in vivo binding-site prediction by reducing false positives while preserving sensitivity compared to models trained on unmethylated sequences."
+  - **Evidence pointer** Section 3.4, Figure 4B and 4C
+  - **Concern** The in vivo prediction analysis is presented for a single 1 Mb region in one cell line (GM12878) for MAX, and a separate region for HOXB13. The claim of general enhancement is based on this limited test. The improvement in AUC (0.84) and PRAUC (0.83) is reported, but the baseline for comparison (the "model trained on unmethylated sequences") is not clearly defined in terms of its own AUC/PRAUC values. The text states "improvement over both the sequence-specific unmethylated model and the model assuming universal CpG methylation" but does not give the baseline numbers.
+  - **Why it matters** The claim of general utility for in vivo prediction is a significant extension of the model's scope. A single-region, single-cell-type analysis is insufficient to support a general claim. Without baseline numbers, the magnitude of the improvement cannot be assessed.
+  - **Resolution test** Provide the AUC and PRAUC values for the baseline models (unmethylated and fully methylated assumptions) alongside the mIDEA results. Extend the analysis to additional cell types, TFs, and genomic regions, or clearly state the analysis as a preliminary case study and temper the claim accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of mechanistic claims
+  - **Claim pointer** The learned energy matrix provides "mechanistic explanations" for methylation-dependent binding, such as the ARG–5mC interaction for C/EBPβ and the LYS–5mC interaction for ATF4.
+  - **Evidence pointer** Sections 3.1, 3.3, Figures 2C, 2F, 3C
+  - **Concern** The manuscript identifies specific residue–nucleotide interactions as "mechanistic" explanations. However, the text does not demonstrate that these interactions are statistically robust across model training runs, nor does it compare the learned energy values against independent biophysical measurements or mutagenesis data. The interpretation that a favorable energy value for ARG–5mC directly explains the methyl-plus phenotype is plausible but not rigorously tested.
+  - **Why it matters** The interpretability of the model is a stated key advantage. If the mechanistic interpretations are not validated, they remain speculative and could mislead subsequent experimental work.
+  - **Resolution test** Show stability of the learned energy values across multiple training runs (e.g., with different random seeds or bootstrap resampling). Where possible, compare the learned interaction energies against known structural or biochemical data. Discuss the limitations of inferring mechanism from a coarse-grained energy model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Equation 1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The definition of the smooth contact function is incomplete. The text states "where the smooth contact function Θ i,j ( r i,j ) is given by" but the actual equation is not shown in the provided text. The parameters r min and r max are defined, but the full functional form is missing.
+  - **Required correction** Provide the complete equation for the smooth contact function. Ensure all variables are defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1.2, training data construction
+  - **Evidence pointer** Section 2.1.2
+  - **Issue** The description of the training data construction for the structure-only strategy is vague. The text mentions "synthetic sequence decoys" and "prior knowledge" but does not specify how decoys are generated beyond "scrambled variants" and how prior knowledge is encoded as weights.
+  - **Required correction** Provide a more detailed description of the decoy generation procedure and the exact weighting scheme used to encode prior knowledge.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1, HOXB13 analysis
+  - **Evidence pointer** Section 3.1, Figure S2
+  - **Issue** The analysis of HOXB13 SELEX data is described qualitatively. The text mentions "1–10 times more abundant" and "variable effects" but does not report statistical significance or confidence intervals for these observations.
+  - **Required correction** Report statistical measures (e.g., p-values, confidence intervals) for the enrichment and affinity comparisons, or state that the analysis is descriptive.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4, HOXB13 in vivo analysis
+  - **Evidence pointer** Section 3.4, Figure S8
+  - **Issue** The HOXB13 in vivo analysis is mentioned in one sentence, stating that incorporating methylation information does not improve prediction. No details on the analysis region, cell type, or metrics are given in the main text.
+  - **Required correction** Provide at least a brief summary of the HOXB13 in vivo analysis, including the genomic region, cell type, and the metrics used to assess performance, or move this result to a supplementary section with a clear reference.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2.1, methylation classification thresholds
+  - **Evidence pointer** Section 2.2.1
+  - **Issue** The thresholds for classifying CpG sites as unmethylated (≤30%), intermediate (30–70%), or methylated (≥70%) are stated, but the rationale for these specific cutoffs is not provided.
+  - **Required correction** Briefly justify the chosen thresholds or cite relevant literature supporting these cutoffs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative validation missing), R1-M2 (incomplete methodological description for data-enhanced training), R1-M3 (limited in vivo validation and missing baseline comparisons)
+
+## Risk / unsupported claims
+- The claim of "accurate" recapitulation of methyl-plus and methyl-minus effects is unsupported without quantitative metrics.
+- The claim of "substantially improved" performance from data-enhanced training is unsupported without a quantitative comparison.
+- The claim of general enhancement of in vivo binding-site prediction is unsupported by the limited single-region, single-cell-type analysis.
+- The mechanistic interpretations (e.g., ARG–5mC, LYS–5mC) are presented as explanatory but are not validated against independent data or tested for robustness.
+- The statement that mIDEA "provides a principled framework for elucidating the molecular mechanisms" is a reasonable aspiration but is not fully demonstrated by the evidence presented.

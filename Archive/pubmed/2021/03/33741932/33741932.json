@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "33741932",
+    "doi": "10.1038/s41467-021-21994-8",
+    "title": "Multiplexed histology analyses for the phenotypic and spatial characterization of human innate lymphoid cells."
+  },
+  "content": {
+    "abstract": "Innate lymphoid cells (ILCs) emerge in the last few years as important regulators of immune responses and biological processes. Although ILCs are mainly known as tissue-resident cells, their precise localization and interactions with the microenvironment are still unclear. Here we combine a multiplexed immunofluorescence technique and a customized computational, open-source analysis pipeline to unambiguously identify CD127(+) ILCs in situ and characterize these cells and their microenvironments. Moreover, we reveal the transcription factor IRF4 as a marker for tonsillar ILC3, and identify conserved stromal landmarks characteristic for ILC localization. We also show that CD127(+) ILCs share tissue niches with plasma cells in the tonsil. Our works thus provide a platform for multiparametric histological analysis of ILCs to improve our understanding of ILC biology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Cluster Analysis",
+      "Connective Tissue/diagnostic imaging/pathology",
+      "Humans",
+      "Image Processing, Computer-Assisted",
+      "Immunity, Innate",
+      "Interferon Regulatory Factors/metabolism",
+      "Interleukin-7 Receptor alpha Subunit/metabolism",
+      "Lymphocytes/*immunology/*pathology",
+      "Machine Learning",
+      "Palatine Tonsil/diagnostic imaging/pathology",
+      "*Phenotype",
+      "*Spatial Analysis",
+      "Interferon Regulatory Factor-4"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pascual-Reguant, Anna",
+        "Kohler, Ralf",
+        "Mothes, Ronja",
+        "Bauherr, Sandy",
+        "Hernandez, Daniela C",
+        "Uecker, Ralf",
+        "Holzwarth, Karolin",
+        "Kotsch, Katja",
+        "Seidl, Maximilian",
+        "Philipsen, Lars",
+        "Muller, Werner",
+        "Romagnani, Chiara",
+        "Niesner, Raluca",
+        "Hauser, Anja E"
+      ],
+      "short_names": [
+        "Pascual-Reguant A",
+        "Kohler R",
+        "Mothes R",
+        "Bauherr S",
+        "Hernandez DC",
+        "Uecker R",
+        "Holzwarth K",
+        "Kotsch K",
+        "Seidl M",
+        "Philipsen L",
+        "Muller W",
+        "Romagnani C",
+        "Niesner R",
+        "Hauser AE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5042-3699",
+        "ORCID: 0000-0002-3736-3361",
+        "ORCID: 0000-0001-5960-160X",
+        "ORCID: 0000-0002-5559-4980",
+        "ORCID: 0000-0001-5112-495X",
+        "ORCID: 0000-0002-5167-7463",
+        "ORCID: 0000-0001-8969-5432",
+        "ORCID: 0000-0002-7725-9526"
+      ],
+      "affiliations": [
+        "Charite - Universitatsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Innate Immunity, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Department for General, Visceral and Vascular Surgery, Berlin, Germany.",
+        "Institute for Surgical Pathology, Medical Center-University of Freiburg, Freiburg, Germany.",
+        "Institute of Pathology, Heinrich-Heine University and University Hospital of Dusseldorf, Dusseldorf, Germany.",
+        "Institute of Molecular and Clinical Immunology, Medical Center, Otto-von-Guericke University Magdeburg, Magdeburg, Germany.",
+        "Miltenyi Biotec B.V. & Co. KG, Bergisch Gladbach, Germany.",
+        "Innate Immunity, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Department of Gastroenterology, Infectiology and Rheumatology, Berlin, Germany.",
+        "Biophysical Analysis, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Berlin, Germany.",
+        "Dynamic and Functional in vivo Imaging, Veterinary Medicine, Freie Universitat Berlin, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany. anja.hauser-hankeln@charite.de.",
+        "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Chariteplatz 1, 10117, Berlin, Germany. anja.hauser-hankeln@charite.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pascual-Reguant, Anna",
+        "short_name": "Pascual-Reguant A",
+        "identifiers": [
+          "0000-0002-5042-3699"
+        ],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany.",
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Köhler, Ralf",
+        "short_name": "Köhler R",
+        "identifiers": [],
+        "affiliations": [
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Mothes, Ronja",
+        "short_name": "Mothes R",
+        "identifiers": [],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany.",
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Bauherr, Sandy",
+        "short_name": "Bauherr S",
+        "identifiers": [
+          "0000-0002-3736-3361"
+        ],
+        "affiliations": [
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Hernández, Daniela C",
+        "short_name": "Hernández DC",
+        "identifiers": [
+          "0000-0001-5960-160X"
+        ],
+        "affiliations": [
+          "Innate Immunity, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Uecker, Ralf",
+        "short_name": "Uecker R",
+        "identifiers": [],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany.",
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Holzwarth, Karolin",
+        "short_name": "Holzwarth K",
+        "identifiers": [],
+        "affiliations": [
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Kotsch, Katja",
+        "short_name": "Kotsch K",
+        "identifiers": [],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, Department for General, Visceral and Vascular Surgery, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Seidl, Maximilian",
+        "short_name": "Seidl M",
+        "identifiers": [
+          "0000-0002-5559-4980"
+        ],
+        "affiliations": [
+          "Institute for Surgical Pathology, Medical Center-University of Freiburg, Freiburg, Germany.",
+          "Institute of Pathology, Heinrich-Heine University and University Hospital of Düsseldorf, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Philipsen, Lars",
+        "short_name": "Philipsen L",
+        "identifiers": [
+          "0000-0001-5112-495X"
+        ],
+        "affiliations": [
+          "Institute of Molecular and Clinical Immunology, Medical Center, Otto-von-Guericke University Magdeburg, Magdeburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Müller, Werner",
+        "short_name": "Müller W",
+        "identifiers": [],
+        "affiliations": [
+          "Miltenyi Biotec B.V. & Co. KG, Bergisch Gladbach, Germany."
+        ]
+      },
+      {
+        "full_name": "Romagnani, Chiara",
+        "short_name": "Romagnani C",
+        "identifiers": [
+          "0000-0002-5167-7463"
+        ],
+        "affiliations": [
+          "Innate Immunity, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Berlin, Germany.",
+          "Charité - Universitätsmedizin Berlin, Department of Gastroenterology, Infectiology and Rheumatology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Niesner, Raluca",
+        "short_name": "Niesner R",
+        "identifiers": [
+          "0000-0001-8969-5432"
+        ],
+        "affiliations": [
+          "Biophysical Analysis, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Berlin, Germany.",
+          "Dynamic and Functional in vivo Imaging, Veterinary Medicine, Freie Universität Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Hauser, Anja E",
+        "short_name": "Hauser AE",
+        "identifiers": [
+          "0000-0002-7725-9526"
+        ],
+        "affiliations": [
+          "Charité - Universitätsmedizin Berlin, Department of Rheumatology and Clinical Immunology, 10117, Berlin, Germany. anja.hauser-hankeln@charite.de.",
+          "Immune Dynamics, Deutsches Rheuma-Forschungszentrum (DRFZ), a Leibniz Institute, Charitéplatz 1, 10117, Berlin, Germany. anja.hauser-hankeln@charite.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Mar 19",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/21 06:00",
+    "fetched_at": "2026-09-27 14:44:41"
+  },
+  "links": {
+    "cites": [
+      "42660942",
+      "42307017",
+      "42183228",
+      "42013192",
+      "41518352",
+      "40983704",
+      "40374674",
+      "40303843",
+      "40280932",
+      "40128460",
+      "40117520",
+      "40027731",
+      "39695888",
+      "39687623",
+      "39678490",
+      "38301653",
+      "37915588",
+      "37018018",
+      "36866120",
+      "36774347",
+      "36385560",
+      "36362194",
+      "36302986",
+      "35992810",
+      "35545666",
+      "35412048",
+      "35176675",
+      "34914922",
+      "34205072"
+    ],
+    "refs": [
+      "32147785",
+      "31736961",
+      "31633216",
+      "31570887",
+      "31329162",
+      "31248899",
+      "31072818",
+      "30824323",
+      "30350853",
+      "30142344",
+      "30107096",
+      "30078711",
+      "29993362",
+      "29549115",
+      "29511064",
+      "29158347",
+      "29158346",
+      "29140572",
+      "28783155",
+      "27986455",
+      "27749818",
+      "27545347",
+      "27341319",
+      "27328006",
+      "26878113",
+      "26779600",
+      "26472762",
+      "26399630",
+      "25575242",
+      "25500367",
+      "24584193",
+      "24562309",
+      "23348417",
+      "23334791",
+      "23221820",
+      "23084914",
+      "22855716",
+      "22033227",
+      "21469096",
+      "21113163",
+      "17827343",
+      "17690187",
+      "17299094",
+      "17076895",
+      "17013374",
+      "11877292",
+      "8551226"
+    ],
+    "similar": [
+      "33741932",
+      "26878113",
+      "37742461",
+      "32147785",
+      "33965092",
+      "30454038",
+      "33536623",
+      "27749818",
+      "30828332",
+      "33475258",
+      "31507605",
+      "32147781",
+      "27986455",
+      "32403291",
+      "30193847",
+      "30373848",
+      "38918571",
+      "27456756",
+      "35787549",
+      "37591714",
+      "24778151",
+      "30055825",
+      "34641843",
+      "32655549",
+      "30459204",
+      "28939410",
+      "35058143",
+      "34745084",
+      "31921158",
+      "32140157",
+      "28794449",
+      "32032632",
+      "33300130",
+      "31522287",
+      "34512639",
+      "34607908",
+      "21055975",
+      "26429626",
+      "28505204",
+      "35720280",
+      "31286412",
+      "21909091",
+      "31522419",
+      "37809100",
+      "30142344",
+      "34615883",
+      "31201208",
+      "28474861",
+      "26187413",
+      "29924976",
+      "33980982",
+      "29244250",
+      "25710455",
+      "36708139",
+      "31825814",
+      "27645534",
+      "31948555",
+      "27328006",
+      "33420427",
+      "32024050",
+      "27215784",
+      "29511064",
+      "30871769",
+      "22578693",
+      "29467768",
+      "36960063",
+      "25052762",
+      "24352038",
+      "34445953",
+      "29454785",
+      "33633728",
+      "24821261",
+      "29924974",
+      "23791642",
+      "28644604",
+      "29882149",
+      "25081911",
+      "29928824",
+      "28283063",
+      "24991784",
+      "24594491",
+      "31321245",
+      "25950701",
+      "32147794",
+      "34381457",
+      "33427206",
+      "30258450",
+      "27156452",
+      "32063901",
+      "28534222",
+      "27664878",
+      "31771906",
+      "22865043",
+      "27545347",
+      "38040516",
+      "32320656"
+    ],
+    "review": [
+      "33741932",
+      "33965092",
+      "31507605",
+      "32147781",
+      "32403291",
+      "35787549",
+      "37591714",
+      "24778151",
+      "32655549",
+      "31921158",
+      "34607908",
+      "26429626",
+      "35720280",
+      "31286412",
+      "37809100",
+      "30142344",
+      "29924976",
+      "29244250",
+      "36708139",
+      "31825814",
+      "27645534",
+      "27328006",
+      "32024050",
+      "30871769",
+      "22578693",
+      "29467768",
+      "29454785",
+      "29924974",
+      "28644604",
+      "25081911",
+      "24594491",
+      "32063901",
+      "31771906"
+    ],
+    "pmc": [
+      "7979823"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-21994-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33741932/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33741932",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse63197",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33741932",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

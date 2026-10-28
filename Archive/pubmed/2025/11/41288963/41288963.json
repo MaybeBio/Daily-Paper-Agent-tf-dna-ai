@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "41288963",
+    "doi": "10.1093/bioinformatics/btaf638",
+    "title": "scRegulate: single-cell regulatory-embedded variational inference of transcription factor activity from gene expression."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Accurately inferring transcription factor (TF) activity from single-cell RNA sequencing (scRNA-seq) data remains a fundamental challenge in computational biology. While existing methods rely on statistical models, motif enrichment, or prior-based inference, they often depend on deterministic assumptions about regulatory relationships and rely on static regulatory databases. Few approaches effectively integrate prior biological knowledge with data-driven inference to capture novel, dynamic, and context-specific regulatory interactions. RESULTS: To address these limitations, we develop scRegulate, a generative deep-learning framework leveraging variational inference to estimate TF activities guided by experimental TF-target gene relationships and progressively adapted based on the input scRNA-seq data. By integrating structured biological constraints with a probabilistic latent space model, scRegulate offers a scalable and biologically grounded estimation of TF activity and gene regulatory network (GRN). Comprehensively benchmarking on public experimental and synthetic datasets demonstrates scRegulate's superior ability. Further, scRegulate accurately recapitulates experimentally validated TF knockdown effects on a Perturb-seq dataset for key TFs. Applied to experimental human PBMC scRNA-seq data, scRegulate infers cell-type-specific GRNs and identifies differentially active TFs aligned with known regulatory pathways. scRegulate's TF activity representations capture transcriptional heterogeneity, enabling accurate clustering of cell types. scRegulate is highly efficient, frequently an order of magnitude faster than common baselines. Collectively, our results establish scRegulate as a powerful, interpretable, and scalable framework for inferring TF activities and GRNs from single-cell transcriptomics. AVAILABILITY AND IMPLEMENTATION: Results and scripts available at github.com/YDaiLab/scRegulate.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Transcription Factors/metabolism/genetics",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Computational Biology/methods",
+      "Deep Learning",
+      "Sequence Analysis, RNA",
+      "*Software",
+      "Gene Expression Regulation",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zandigohar, Mehrdad",
+        "Rehman, Jalees",
+        "Dai, Yang"
+      ],
+      "short_names": [
+        "Zandigohar M",
+        "Rehman J",
+        "Dai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3772-2683",
+        "ORCID: 0000-0002-7638-849X"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, United States.",
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, United States.",
+        "Department of Biochemistry and Molecular Genetics, University of Illinois College of Medicine, Chicago, IL 60607, United States.",
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zandigohar, Mehrdad",
+        "short_name": "Zandigohar M",
+        "identifiers": [
+          "0000-0003-3772-2683"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, United States."
+        ]
+      },
+      {
+        "full_name": "Rehman, Jalees",
+        "short_name": "Rehman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, United States.",
+          "Department of Biochemistry and Molecular Genetics, University of Illinois College of Medicine, Chicago, IL 60607, United States."
+        ]
+      },
+      {
+        "full_name": "Dai, Yang",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0000-0002-7638-849X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 13:56",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40269969",
+      "40205063",
+      "39833103",
+      "39547208",
+      "38940624",
+      "38744843",
+      "38564635",
+      "38262408",
+      "37843125",
+      "37706624",
+      "37443338",
+      "36755098",
+      "36699385",
+      "36626328",
+      "35891778",
+      "35188184",
+      "35132262",
+      "34193535",
+      "32975352",
+      "32176273",
+      "31594952",
+      "30283141",
+      "29425488",
+      "29409532",
+      "28991892",
+      "27984732",
+      "24342920",
+      "23684984",
+      "22261438",
+      "21970955",
+      "20513432",
+      "19664942",
+      "19578362"
+    ],
+    "similar": [
+      "41288963",
+      "40654959",
+      "38980373",
+      "41883144",
+      "41043336",
+      "40062616",
+      "38653489",
+      "42059479",
+      "38950180",
+      "40662821",
+      "42475469",
+      "41067887",
+      "35961023",
+      "39062480",
+      "37004161",
+      "41896196",
+      "42378449",
+      "39960893",
+      "42332576",
+      "34251625",
+      "37085776",
+      "28961802",
+      "41518505",
+      "40251476",
+      "39939367",
+      "42560939",
+      "41871930",
+      "41093852",
+      "42225598",
+      "37985457",
+      "36626328",
+      "39605181",
+      "38744843",
+      "41451540",
+      "30547796",
+      "40591481",
+      "38806476",
+      "41786602",
+      "38342857",
+      "41300707",
+      "39535258",
+      "38940155",
+      "38589899",
+      "40116659",
+      "41317402",
+      "37244909",
+      "36168811",
+      "40220759",
+      "34424948",
+      "32174324",
+      "39082647",
+      "39311699",
+      "42653305",
+      "39934680",
+      "41354912",
+      "39679439",
+      "41257571",
+      "41329984",
+      "42636032",
+      "40699953",
+      "40708222",
+      "18426580",
+      "41527853",
+      "40633682",
+      "40956752",
+      "40662784",
+      "42265576",
+      "39376034",
+      "42032017",
+      "39833103",
+      "41191474",
+      "41826830",
+      "39975293",
+      "32054475",
+      "41139927",
+      "41052197",
+      "39417321",
+      "39800872",
+      "41269283",
+      "36734596",
+      "31068142",
+      "41489955",
+      "41498638",
+      "35050715",
+      "24228871",
+      "41984780",
+      "32019417",
+      "38810116",
+      "38684178",
+      "42710863",
+      "42614561",
+      "41452988",
+      "34962260",
+      "42044093",
+      "36418514",
+      "39684451",
+      "40094454",
+      "42086551",
+      "42599963",
+      "41544912"
+    ],
+    "review": [
+      "41288963",
+      "39939367"
+    ],
+    "pmc": [
+      "12701802"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41288963.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41288963/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf638",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

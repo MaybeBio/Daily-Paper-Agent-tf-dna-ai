@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "35521556",
+    "doi": "10.1016/j.csbj.2022.04.029",
+    "title": "DeepMC-iNABP: Deep learning for multiclass identification and classification of nucleic acid-binding proteins."
+  },
+  "content": {
+    "abstract": "Nucleic acid-binding proteins (NABPs), including DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs), play vital roles in gene expression. Accurate identification of these proteins is crucial. However, there are two existing challenges: one is the problem of ignoring DNA- and RNA-binding proteins (DRBPs), and the other is a cross-predicting problem referring to DBP predictors predicting DBPs as RBPs, and vice versa. In this study, we proposed a computational predictor, called DeepMC-iNABP, with the goal of solving these difficulties by utilizing a multiclass classification strategy and deep learning approaches. DBPs, RBPs, DRBPs and non-NABPs as separate classes of data were used for training the DeepMC-iNABP model. The results on test data collected in this study and two independent test datasets showed that DeepMC-iNABP has a strong advantage in identifying the DRBPs and has the ability to alleviate the cross-prediction problem to a certain extent. The web-server of DeepMC-iNABP is freely available at http://www.deepmc-inabp.net/. The datasets used in this research can also be downloaded from the website.",
+    "keywords": [
+      "DNA-binding protein",
+      "Deep learning",
+      "Multiclass classification",
+      "Nucleic acid-binding protein",
+      "RNA-binding protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Feifei",
+        "Li, Shuang",
+        "Zhang, Zilong",
+        "Sui, Miaomiao",
+        "Cao, Chen",
+        "El-Latif Hesham, Abd",
+        "Zou, Quan"
+      ],
+      "short_names": [
+        "Cui F",
+        "Li S",
+        "Zhang Z",
+        "Sui M",
+        "Cao C",
+        "El-Latif Hesham A",
+        "Zou Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Technology, Hainan University, Haikou 570228, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, China.",
+        "Beidahuang Industry Group General Hospital, Harbin 150001, China.",
+        "School of Computer Science and Technology, Hainan University, Haikou 570228, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, China.",
+        "Graduate School Agricultural and Life Science, The University of Tokyo, Tokyo 1138657, Japan.",
+        "School of Biomedical Engineering and Informatics, Nanjing Medical University, Nanjing 211166, China.",
+        "Genetics Department, Faculty of Agriculture, Beni-Suef University, Beni-Suef 62511, Egypt.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Feifei",
+        "short_name": "Cui F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Hainan University, Haikou 570228, China.",
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuang",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Beidahuang Industry Group General Hospital, Harbin 150001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zilong",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Hainan University, Haikou 570228, China.",
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, China."
+        ]
+      },
+      {
+        "full_name": "Sui, Miaomiao",
+        "short_name": "Sui M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School Agricultural and Life Science, The University of Tokyo, Tokyo 1138657, Japan."
+        ]
+      },
+      {
+        "full_name": "Cao, Chen",
+        "short_name": "Cao C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering and Informatics, Nanjing Medical University, Nanjing 211166, China."
+        ]
+      },
+      {
+        "full_name": "El-Latif Hesham, Abd",
+        "short_name": "El-Latif Hesham A",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Department, Faculty of Agriculture, Beni-Suef University, Beni-Suef 62511, Egypt."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou 324000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/07 06:00",
+    "fetched_at": "2026-09-28 08:05:38"
+  },
+  "links": {
+    "cites": [
+      "42441082",
+      "42289050",
+      "42011233",
+      "40524427",
+      "39498484",
+      "39418179",
+      "39406523",
+      "39033257",
+      "39000158",
+      "38491248",
+      "37446031",
+      "37153002",
+      "37048319",
+      "36850816"
+    ],
+    "refs": [
+      "35112474",
+      "34978146",
+      "34706730",
+      "34656864",
+      "34447459",
+      "34343887",
+      "33915479",
+      "33834199",
+      "33822873",
+      "33774270",
+      "33684688",
+      "33667812",
+      "33527980",
+      "33461566",
+      "33349665",
+      "33316046",
+      "33313647",
+      "33227577",
+      "33200776",
+      "33175954",
+      "33090794",
+      "32920048",
+      "32818637",
+      "32793956",
+      "32352519",
+      "31722485",
+      "31666519",
+      "29272359",
+      "29228193",
+      "28473536",
+      "28132027",
+      "27869118",
+      "27197215",
+      "27091704",
+      "27084946",
+      "26519399",
+      "26213851",
+      "25935161",
+      "25269475",
+      "25104457",
+      "21822212",
+      "16845079"
+    ],
+    "similar": [
+      "35521556",
+      "32920048",
+      "33780341",
+      "31722485",
+      "38856168",
+      "34932484",
+      "36044786",
+      "35378437",
+      "33454744",
+      "34780180",
+      "33685590",
+      "35148267",
+      "37562328",
+      "35451938",
+      "36416116",
+      "35176130",
+      "37437362",
+      "28245811",
+      "30476229",
+      "31714956",
+      "32808039",
+      "37405873",
+      "34571539",
+      "34002774",
+      "31657645",
+      "17932917",
+      "23788679",
+      "30323214",
+      "35389869",
+      "20677174",
+      "27565741",
+      "24658593",
+      "34297803",
+      "31513916",
+      "32352006",
+      "35325031",
+      "30455357",
+      "35334314",
+      "25730499",
+      "33410688",
+      "32191896",
+      "27198220",
+      "34242708",
+      "21935457",
+      "29931156",
+      "35765653",
+      "26540053",
+      "35189638",
+      "31123959",
+      "31824574",
+      "34905768",
+      "35768792",
+      "32300371",
+      "34291710",
+      "21284850",
+      "33552144",
+      "25843215",
+      "29722257",
+      "39304985",
+      "33685397",
+      "34694603",
+      "30668479",
+      "33732286",
+      "30866736",
+      "29281004",
+      "35676633",
+      "25184541",
+      "35511057",
+      "31267738",
+      "34291709",
+      "34176069",
+      "25977296",
+      "29281985",
+      "20478832",
+      "19508202",
+      "34569713",
+      "30943723",
+      "28575488",
+      "30800250",
+      "30957840",
+      "19088122",
+      "32658726",
+      "26482832",
+      "32840562",
+      "34018932",
+      "33577689",
+      "26571099",
+      "24829458",
+      "26671809"
+    ],
+    "review": [
+      "35521556",
+      "31714956",
+      "30455357",
+      "26540053"
+    ],
+    "pmc": [
+      "9065708"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00146-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35521556/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35521556",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

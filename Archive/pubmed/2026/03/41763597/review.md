@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that SMG5 licenses SMG6 endonuclease activity in nonsense-mediated mRNA decay by forming a composite active site, where a conserved SMG5 aspartate (D893) completes the canonical catalytic tetrad of the SMG6 PIN domain, enhancing SMG6's weak endonucleolytic activity approximately 10-fold in vitro
+- **Visible evidence base** AlphaFold structural predictions, in vitro endonuclease assays, mutational analyses (all described in abstract only)
+- **Missing materials affecting confidence** Full manuscript, experimental methods, structural model confidence metrics, raw activity data, statistical analyses, negative controls, and any in vivo or cellular validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting and potentially significant hypothesis that SMG5 contributes a catalytic residue to complete the SMG6 PIN domain active site. The combination of structural prediction and biochemical validation is appropriate for the claim. However, the evidence base is limited to an abstract, and several critical aspects cannot be evaluated, including the robustness of the AlphaFold interface prediction, the specificity of the mutational effects, the quantitative basis of the 10-fold enhancement, and whether the composite active site operates in a cellular context. The claim that SMG5 is "catalytically inert" yet contributes a catalytic residue is internally coherent but requires careful experimental support to exclude alternative explanations such as allosteric activation.
+- **Who would be interested in the results, and why** Researchers in mRNA surveillance and decay pathways, structural biologists studying PIN-domain nucleases, and biochemists interested in enzyme active site assembly and protein-protein interactions. The work could also interest those studying the evolution of catalytic function in protein families.
+- **Major strengths** The hypothesis is novel and mechanistically specific, proposing a concrete structural basis for SMG5-dependent SMG6 licensing. The use of AlphaFold to generate a testable prediction followed by biochemical validation is a strong approach. The identification of a composite active site with a conserved aspartate from SMG5 is a clear and falsifiable claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Structural models predict a high-confidence interface between SMG5 and SMG6 PIN domains that forms a composite active site"
+  - **Evidence pointer** Abstract, structural prediction section (location not provided)
+  - **Concern** The abstract states the interface is "high-confidence" but provides no details on AlphaFold confidence metrics (e.g., pLDDT, PAE, interface scores) or whether the prediction was validated by independent methods such as cross-linking, mutagenesis mapping, or co-crystallization. The term "high-confidence" is a strong claim that cannot be assessed from the abstract alone.
+  - **Why it matters** If the predicted interface is not robust, the entire composite active site model collapses. The claim of a "composite active site" depends critically on the accuracy of the structural prediction, and overstating confidence without supporting metrics undermines the mechanistic conclusion.
+  - **Resolution test** Provide AlphaFold confidence scores for the interface residues, show that the predicted interface is consistent with mutagenesis data (e.g., mutations at the interface disrupt binding or activity), and ideally include an independent structural or biophysical validation such as size-exclusion chromatography with multi-angle light scattering, cross-linking mass spectrometry, or a co-crystal structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In vitro, SMG6 alone exhibits weak endonucleolytic activity, which is enhanced approximately 10-fold by the SMG5 PIN domain"
+  - **Evidence pointer** Abstract, biochemical assays section (location not provided)
+  - **Concern** The abstract reports a 10-fold enhancement but provides no information on the assay conditions, substrate, enzyme concentrations, reaction time courses, or whether the enhancement is saturable and specific to the SMG5-SMG6 interaction. Without these details, the magnitude of the effect cannot be interpreted, and the possibility of a non-specific stabilization or crowding effect cannot be excluded.
+  - **Why it matters** The quantitative claim of a 10-fold enhancement is central to the licensing mechanism. If the effect is not robust across conditions or is not specific to the proposed composite active site, the conclusion that SMG5 completes the catalytic tetrad is weakened.
+  - **Resolution test** Provide full dose-response curves, show that the enhancement requires the SMG5 D893 residue and the SMG6 acidic triad, include a negative control with a catalytically dead SMG6 mutant, and demonstrate that the effect is not reproduced by an unrelated protein or a SMG5 mutant lacking the PIN domain.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "This work provides mechanistic insight into the SMG5-dependent licencing step and uncovers a composite PIN nuclease architecture at the heart of the metazoan NMD effector phase"
+  - **Evidence pointer** Abstract, conclusion section (location not provided)
+  - **Concern** The abstract claims a central role for the composite PIN architecture in the NMD effector phase, but all evidence is from in vitro biochemical assays with purified domains. No data are presented to show that the composite active site is required for NMD in cells, such as rescue experiments with SMG5 D893 mutants in SMG5-depleted cells or effects on PTC-containing reporter transcripts.
+  - **Why it matters** The physiological relevance of the proposed mechanism is unsubstantiated. Without cellular validation, the claim that this architecture is "at the heart of the metazoan NMD effector phase" is an extrapolation beyond the presented evidence.
+  - **Resolution test** Perform complementation assays in SMG5-knockout or knockdown cells with wild-type SMG5 versus SMG5 D893A mutants, measuring NMD efficiency on a reporter transcript. Alternatively, show that SMG6 activity in cell extracts depends on SMG5 D893.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, first two sentences (location not provided)
+  - **Issue** The abstract assumes familiarity with NMD terminology (e.g., UPF1, PIN domain, premature termination codons) without a brief functional definition of the pathway's relevance. A general reader may struggle to understand why this mechanism matters.
+  - **Required correction** Add one sentence briefly explaining the biological significance of NMD (e.g., its role in preventing truncated protein accumulation) and define PIN domain as a nuclease domain.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mutational analysis description
+  - **Evidence pointer** Abstract, mutational analyses sentence (location not provided)
+  - **Issue** The abstract states that "conserved residues from both proteins are essential" but does not specify which residues were mutated beyond SMG5 D893, nor whether the SMG6 acidic triad residues were individually tested.
+  - **Required correction** List the specific mutations tested and clarify whether each residue was required for the enhancement or for basal SMG6 activity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract, background and discussion (location not provided)
+  - **Issue** The abstract mentions that SMG5 was "recently proposed to licence SMG6 activity" but does not cite or briefly describe the prior proposal, making it difficult to assess the novelty of the current mechanistic insight.
+  - **Required correction** Include a brief statement of what the prior proposal suggested and how the current work extends or corrects it.
+
+## Risk / unsupported claims
+- The claim that the SMG5-SMG6 interface is "high-confidence" is unsupported without AlphaFold confidence metrics or independent validation.
+- The claim that SMG5 D893 "complements" the SMG6 acidic triad to "reinstate the canonical tetrad" is a structural inference not directly demonstrated by the abstract's biochemical data.
+- The claim that the composite PIN architecture is "at the heart of the metazoan NMD effector phase" is unsupported by any cellular or in vivo evidence.
+- The quantitative claim of "approximately 10-fold" enhancement is unverifiable without assay details and statistical analysis.
+- The statement that SMG5 was "previously considered catalytically inert" is presented as fact but no citation or evidence is provided in the abstract.

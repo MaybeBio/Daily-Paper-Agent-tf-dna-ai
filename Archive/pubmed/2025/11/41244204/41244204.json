@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "41244204",
+    "doi": "10.7717/peerj.20270",
+    "title": "TSCytoPred: a deep learning framework for inferring cytokine expression trajectories from irregular longitudinal gene expression data to enhance multi-omics analyses."
+  },
+  "content": {
+    "abstract": "Cytokines play a crucial role in immune system regulation, mediating responses from pathogen defense to tissue-damaging inflammation. Excessive cytokine production is implicated in severe conditions such as cancer progression, hemophagocytic lymphohistiocytosis, and severe cases of Coronavirus disease-2019 (COVID-19). Studies have shown that cytokine expression profiles serve as biomarkers for disease severity and mortality prediction, with machine learning (ML) methods increasingly employed for predictive analysis. To improve patient outcome predictions, treatment adaptation, and survival rates, longitudinal analysis of cytokine profiles is essential. Time-series cytokine profiling has been linked to tumor response, overall survival in various cancers, and acute encephalopathy. Similarly, COVID-19 severity and patient outcomes correlate with cytokine expression dynamics over time. However, challenges remain due to the limited availability of time-series cytokine data, restricting broader experimental applications and robust predictive modeling. Recent advancements indicate that cytokine expression can be computationally inferred using gene expression data and transcription factor interactions. Inferring cytokine levels from existing gene expression datasets could enhance early disease detection and treatment response predictions while reducing profiling costs. This work proposes TSCytoPred, a deep learning-based model trained on time-series gene expression data to infer cytokine expression trajectories. TSCytoPred identifies genes relevant for predicting target cytokines through interaction relationships and high correlation. These identified genes are subsequently utilized in a neural network incorporating an interpolation block to estimate cytokine expression trajectories between observed time points. Performance evaluations using a COVID-19 dataset demonstrate that TSCytoPred significantly outperforms baseline regression methods, achieving the highest coefficient of determinataion (R(2)) and the lowest mean absolute error (MAE). Furthermore, cytokine data inferred by TSCytoPred enhances COVID-19 patient severity risk predictions, demonstrating the model's clinical utility. TSCytoPred can be effectively applied to datasets with limited time points and accommodates longitudinal datasets containing irregular temporal gaps, thereby enhancing disease outcome analysis such as in COVID-19 cases and expanding the applicability of multi-omics datasets in rare disease contexts with missing multi-omics samples. TSCytoPred is publicly available at https://github.com/joungmin-choi/TSCytoPred.",
+    "keywords": [
+      "Cytokine expression",
+      "Deep learning",
+      "Gene expression",
+      "Time-series inference"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*COVID-19/genetics",
+      "*Cytokines/genetics/metabolism",
+      "SARS-CoV-2",
+      "*Gene Expression Profiling",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Joung Min",
+        "Chae, Heejoon"
+      ],
+      "short_names": [
+        "Choi JM",
+        "Chae H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Virginia Polytechnic Institute and State University (Virginia Tech), Blacksburg, VA, United States of America.",
+        "Division of Computer Science, Sookmyung Women's University, Seoul, Republic of South Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Joung Min",
+        "short_name": "Choi JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Polytechnic Institute and State University (Virginia Tech), Blacksburg, VA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chae, Heejoon",
+        "short_name": "Chae H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computer Science, Sookmyung Women's University, Seoul, Republic of South Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/17 17:30",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [
+      "41568100"
+    ],
+    "refs": [
+      "40082687",
+      "39433797",
+      "39408907",
+      "38525188",
+      "38344273",
+      "38238427",
+      "37185833",
+      "37099704",
+      "37015978",
+      "36766961",
+      "36609211",
+      "36427875",
+      "36370105",
+      "36238287",
+      "35996834",
+      "35819695",
+      "35325185",
+      "35193439",
+      "35004126",
+      "34675240",
+      "34594031",
+      "33391686",
+      "33341598",
+      "33179750",
+      "33038939",
+      "32939066",
+      "32839624",
+      "32462717",
+      "31966047",
+      "30184180",
+      "24892271",
+      "12072446"
+    ],
+    "similar": [
+      "41244204",
+      "42475469",
+      "36321557",
+      "42508236",
+      "41112249",
+      "36532040",
+      "41345436",
+      "40429886",
+      "42173633",
+      "40973044",
+      "41310253",
+      "40340571",
+      "41976154",
+      "41957161",
+      "37866305",
+      "37530887",
+      "42702836",
+      "30547796",
+      "35835712",
+      "42381014",
+      "35060145",
+      "38048895",
+      "36239699",
+      "41423668",
+      "41290867",
+      "36864611",
+      "41716413",
+      "33362771",
+      "38426141",
+      "40615624",
+      "34221854",
+      "42645652",
+      "41099090",
+      "41751534",
+      "42305536",
+      "41596454",
+      "42631563",
+      "35202626",
+      "41715092",
+      "38878325",
+      "41798945",
+      "42233387",
+      "40887575",
+      "41424060",
+      "40730661",
+      "40252941",
+      "40133706",
+      "41106766",
+      "41230137",
+      "38259479",
+      "40196114",
+      "40916281",
+      "40330458",
+      "38869635",
+      "41074150",
+      "41613087",
+      "34449401",
+      "41566378",
+      "40384976",
+      "37099704",
+      "38980373",
+      "39350407",
+      "40821793",
+      "42277915",
+      "42046740",
+      "42334640",
+      "37673824",
+      "39563482",
+      "41387796",
+      "41611834",
+      "41554048",
+      "33900932",
+      "42470694",
+      "42309480",
+      "42123445",
+      "41436831",
+      "39814561",
+      "39921901",
+      "40200221",
+      "39669580",
+      "42195052",
+      "33557818",
+      "41080564",
+      "39631112",
+      "41583455",
+      "38950180",
+      "41939867",
+      "41846929",
+      "41699549",
+      "38656671",
+      "35062026",
+      "41789070",
+      "36734721",
+      "38462979",
+      "40532694",
+      "42487139",
+      "42558367",
+      "41635814",
+      "40216809",
+      "39888730"
+    ],
+    "review": [
+      "41244204",
+      "36321557",
+      "42173633",
+      "35060145",
+      "41596454"
+    ],
+    "pmc": [
+      "12614104"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41244204/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.20270",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

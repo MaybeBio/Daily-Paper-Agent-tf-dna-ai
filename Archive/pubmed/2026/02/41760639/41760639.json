@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "41760639",
+    "doi": "10.1038/s41540-025-00622-x",
+    "title": "Network modeling of sporadic colorectal cancer reveals the importance of off-target effects of Cyclooxygenase inhibitors."
+  },
+  "content": {
+    "abstract": "Cyclooxygenase (COX) inhibitors (COXIBs) have shown preventive and therapeutic potential for colorectal cancer (CRC). In addition to inhibiting COX, approved COXIBs also target COX-independent pathways, including NF-kappaB and AKT. We evaluated how inhibition of various COXIB targets affects cell proliferation and apoptosis using a Boolean model incorporating the effect of several genetic mutations linked to CRC. The mutations activate two positive feedback loops and cause increased cell proliferation and survival. When simulating loss of function of APC, proliferation and apoptosis can be restored to healthy rates by inhibiting COX2. In simulations reflecting other genetic mutations, none of the investigated targets restore apoptosis and proliferation is reduced by inhibiting AKT or NF-kappaB, but not by any of the other COX targets tested. These results show that the off-target effects of COXIBs are crucial for their efficacy in the treatment of sporadic CRC.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/drug therapy/genetics/metabolism",
+      "Humans",
+      "*Cyclooxygenase Inhibitors/pharmacology/therapeutic use",
+      "Apoptosis/drug effects",
+      "Cell Proliferation/drug effects",
+      "NF-kappa B/metabolism",
+      "*Models, Biological",
+      "Signal Transduction/drug effects",
+      "Mutation",
+      "Cyclooxygenase 2/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Cyclooxygenase 2 Inhibitors/pharmacology",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gebhart, Anthony R",
+        "Berns, Manon M M",
+        "Snoeys, Jan",
+        "Elassaiss-Schaap, Jeroen",
+        "de Lange, Elizabeth C M"
+      ],
+      "short_names": [
+        "Gebhart AR",
+        "Berns MMM",
+        "Snoeys J",
+        "Elassaiss-Schaap J",
+        "de Lange ECM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research Division of Systems Pharmacology and Pharmacy, LACDR, Leiden University, Leiden, The Netherlands.",
+        "PD-value B.V., Utrecht, The Netherlands.",
+        "Translational Pharmacokinetics Pharmacodynamics and Investigative Toxicology, Johnson & Johnson, Beerse, Belgium.",
+        "Research Division of Systems Pharmacology and Pharmacy, LACDR, Leiden University, Leiden, The Netherlands. jeroen@pd-value.com.",
+        "PD-value B.V., Utrecht, The Netherlands. jeroen@pd-value.com.",
+        "Research Division of Systems Pharmacology and Pharmacy, LACDR, Leiden University, Leiden, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gebhart, Anthony R",
+        "short_name": "Gebhart AR",
+        "identifiers": [],
+        "affiliations": [
+          "Research Division of Systems Pharmacology and Pharmacy, LACDR, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Berns, Manon M M",
+        "short_name": "Berns MMM",
+        "identifiers": [],
+        "affiliations": [
+          "PD-value B.V., Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Snoeys, Jan",
+        "short_name": "Snoeys J",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Pharmacokinetics Pharmacodynamics and Investigative Toxicology, Johnson & Johnson, Beerse, Belgium."
+        ]
+      },
+      {
+        "full_name": "Elassaiss-Schaap, Jeroen",
+        "short_name": "Elassaiss-Schaap J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Division of Systems Pharmacology and Pharmacy, LACDR, Leiden University, Leiden, The Netherlands. jeroen@pd-value.com.",
+          "PD-value B.V., Utrecht, The Netherlands. jeroen@pd-value.com."
+        ]
+      },
+      {
+        "full_name": "de Lange, Elizabeth C M",
+        "short_name": "de Lange ECM",
+        "identifiers": [],
+        "affiliations": [
+          "Research Division of Systems Pharmacology and Pharmacy, LACDR, Leiden University, Leiden, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2026 Feb 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/28 00:41",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39230704",
+      "38892375",
+      "38542151",
+      "35163356",
+      "35022282",
+      "34916492",
+      "34606846",
+      "34301194",
+      "33836681",
+      "33821899",
+      "33591350",
+      "33538338",
+      "33348311",
+      "32410839",
+      "31622622",
+      "31545552",
+      "30948431",
+      "30666154",
+      "29779891",
+      "28611038",
+      "28348483",
+      "28073755",
+      "26918045",
+      "26446703",
+      "26146082",
+      "25952548",
+      "25931827",
+      "25288756",
+      "25127143",
+      "24384683",
+      "24178897",
+      "23136553",
+      "22682247",
+      "22393942",
+      "22158121",
+      "21672235",
+      "20876730",
+      "20348951",
+      "19637179",
+      "19185845",
+      "19075230",
+      "18163459",
+      "17552439",
+      "16943401",
+      "16943400",
+      "16397018",
+      "16258275",
+      "15786541",
+      "15573119",
+      "15265936",
+      "14973075",
+      "14699067",
+      "14693742",
+      "12566320",
+      "12481159",
+      "12000750",
+      "11714700",
+      "11429049",
+      "10874062",
+      "10480951",
+      "10416599",
+      "10318916",
+      "9458081",
+      "8945508",
+      "7882354",
+      "2188735",
+      "1389533"
+    ],
+    "similar": [
+      "41760639",
+      "15188000",
+      "26672764",
+      "40886867",
+      "24285354",
+      "26159723",
+      "29339153",
+      "29942116",
+      "20213764",
+      "18320325",
+      "23013454",
+      "42050204",
+      "34732120",
+      "24845412",
+      "26739353",
+      "41498663",
+      "31118579",
+      "14520472",
+      "20803081",
+      "39701786",
+      "20397022",
+      "19037088",
+      "28259895",
+      "30119635",
+      "32088816",
+      "26915975",
+      "32135457",
+      "27322737",
+      "25322760",
+      "30365050",
+      "38743809",
+      "29689497",
+      "15671526",
+      "31881122",
+      "39307810",
+      "26895469",
+      "22159752",
+      "26261008",
+      "23900560",
+      "30359168",
+      "25997834",
+      "16688727",
+      "15265936",
+      "28701209",
+      "40751690",
+      "32502841",
+      "27729020",
+      "32000660",
+      "39888044",
+      "34392440",
+      "41207100",
+      "25674239",
+      "38797813",
+      "19904749",
+      "40746878",
+      "15197583",
+      "26033966",
+      "23737956",
+      "34560542",
+      "41482360",
+      "24260338",
+      "32967672",
+      "29023018",
+      "41646966",
+      "38478147",
+      "39842746",
+      "16169610",
+      "27551764",
+      "41177014",
+      "28666869",
+      "15016316",
+      "32945376",
+      "24838344",
+      "20883815",
+      "23670240",
+      "32203206",
+      "32429376",
+      "24675684",
+      "33419805",
+      "25000190",
+      "22086675",
+      "12297835",
+      "17913854",
+      "28002807",
+      "23786838",
+      "39353381",
+      "39282961",
+      "19621391",
+      "29367109",
+      "25815878",
+      "39938766",
+      "40247422",
+      "26935715",
+      "15238462",
+      "17131340",
+      "21724378",
+      "23383209",
+      "18058818",
+      "29439531",
+      "30740911"
+    ],
+    "review": [
+      "41760639",
+      "16688727"
+    ],
+    "pmc": [
+      "13066020"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41540-025-00622-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41760639/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

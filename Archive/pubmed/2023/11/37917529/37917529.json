@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "37917529",
+    "doi": "10.1021/acs.jcim.3c01337",
+    "title": "Computational Prediction of Cyclic Peptide Structural Ensembles and Application to the Design of Keap1 Binders."
+  },
+  "content": {
+    "abstract": "The Nrf2 transcription factor is a master regulator of the cellular response to oxidative stress, and Keap1 is its primary negative regulator. Activating Nrf2 by inhibiting the Nrf2-Keap1 protein-protein interaction has shown promise for treating cancer and inflammatory diseases. A loop derived from Nrf2 has been shown to inhibit Keap1 selectively, especially when cyclized, but there are no reliable design methods for predicting an optimal macrocyclization strategy. In this work, we employed all-atom, explicit-solvent molecular dynamics simulations with enhanced sampling methods to predict the relative degree of preorganization for a series of peptides cyclized with a set of bis-thioether \"staples\". We then correlated these predictions to experimentally measured binding affinities for Keap1 and crystal structures of the cyclic peptides bound to Keap1. This work showcases a computational method for designing cyclic peptides by simulating and comparing their entire solution-phase ensembles, providing key insights into designing cyclic peptides as selective inhibitors of protein-protein interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides, Cyclic/pharmacology/metabolism",
+      "Kelch-Like ECH-Associated Protein 1/chemistry/metabolism",
+      "Protein Binding",
+      "*NF-E2-Related Factor 2/metabolism",
+      "Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fonseca Lopez, Francini",
+        "Miao, Jiayuan",
+        "Damjanovic, Jovan",
+        "Bischof, Luca",
+        "Braun, Michael B",
+        "Ling, Yingjie",
+        "Hartmann, Marcus D",
+        "Lin, Yu-Shan",
+        "Kritzer, Joshua A"
+      ],
+      "short_names": [
+        "Fonseca Lopez F",
+        "Miao J",
+        "Damjanovic J",
+        "Bischof L",
+        "Braun MB",
+        "Ling Y",
+        "Hartmann MD",
+        "Lin YS",
+        "Kritzer JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1112-1927",
+        "ORCID: 0000-0002-6019-4738",
+        "ORCID: 0000-0001-6937-5677",
+        "ORCID: 0000-0001-6460-2877",
+        "ORCID: 0000-0003-2878-6781"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States.",
+        "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States.",
+        "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States.",
+        "Department of Protein Evolution, Max Planck Institute for Biology, 72076 Tubingen, Germany.",
+        "Interfaculty Institute of Biochemistry, Tubingen University, 72076 Tubingen, Germany.",
+        "Department of Protein Evolution, Max Planck Institute for Biology, 72076 Tubingen, Germany.",
+        "Interfaculty Institute of Biochemistry, Tubingen University, 72076 Tubingen, Germany.",
+        "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States.",
+        "Department of Protein Evolution, Max Planck Institute for Biology, 72076 Tubingen, Germany.",
+        "Interfaculty Institute of Biochemistry, Tubingen University, 72076 Tubingen, Germany.",
+        "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States.",
+        "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fonseca Lopez, Francini",
+        "short_name": "Fonseca Lopez F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+        ]
+      },
+      {
+        "full_name": "Miao, Jiayuan",
+        "short_name": "Miao J",
+        "identifiers": [
+          "0000-0003-1112-1927"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+        ]
+      },
+      {
+        "full_name": "Damjanovic, Jovan",
+        "short_name": "Damjanovic J",
+        "identifiers": [
+          "0000-0002-6019-4738"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+        ]
+      },
+      {
+        "full_name": "Bischof, Luca",
+        "short_name": "Bischof L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology, 72076 Tübingen, Germany.",
+          "Interfaculty Institute of Biochemistry, Tübingen University, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Braun, Michael B",
+        "short_name": "Braun MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology, 72076 Tübingen, Germany.",
+          "Interfaculty Institute of Biochemistry, Tübingen University, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ling, Yingjie",
+        "short_name": "Ling Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+        ]
+      },
+      {
+        "full_name": "Hartmann, Marcus D",
+        "short_name": "Hartmann MD",
+        "identifiers": [
+          "0000-0001-6937-5677"
+        ],
+        "affiliations": [
+          "Department of Protein Evolution, Max Planck Institute for Biology, 72076 Tübingen, Germany.",
+          "Interfaculty Institute of Biochemistry, Tübingen University, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Lin, Yu-Shan",
+        "short_name": "Lin YS",
+        "identifiers": [
+          "0000-0001-6460-2877"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+        ]
+      },
+      {
+        "full_name": "Kritzer, Joshua A",
+        "short_name": "Kritzer JA",
+        "identifiers": [
+          "0000-0003-2878-6781"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Tufts University, Medford, Massachusetts 02155, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Nov 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/02 18:42",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "42450332",
+      "41645422",
+      "41266028",
+      "41003655",
+      "40317592",
+      "39682718",
+      "39540650",
+      "38926825",
+      "38785765"
+    ],
+    "refs": [
+      "36086898",
+      "36041435",
+      "36007391",
+      "35964840",
+      "35917476",
+      "35721561",
+      "35108001",
+      "34820109",
+      "33683866",
+      "33426882",
+      "32668381",
+      "32406996",
+      "31851823",
+      "31599007",
+      "30882208",
+      "30661666",
+      "30118219",
+      "30057410",
+      "29927029",
+      "29534931",
+      "29528114",
+      "29507103",
+      "29242347",
+      "29126136",
+      "29117896",
+      "28992407",
+      "28414223",
+      "28249193",
+      "28236243",
+      "28091629",
+      "27611902",
+      "27586339",
+      "27031286",
+      "26620784",
+      "26583424",
+      "25859949",
+      "25566700",
+      "25560066",
+      "25483262",
+      "25358113",
+      "25038791",
+      "25005281",
+      "24970081",
+      "24613163",
+      "24512214",
+      "23615671",
+      "23560559",
+      "22998171",
+      "21920027",
+      "21773579",
+      "21187238",
+      "20163137",
+      "20061377",
+      "19483697",
+      "19001094",
+      "17419610",
+      "17284038",
+      "16888629",
+      "15812852",
+      "15521057",
+      "15264254",
+      "15116359",
+      "14517554",
+      "9580799",
+      "9240432",
+      "1749773"
+    ],
+    "similar": [
+      "37917529",
+      "33683866",
+      "38485922",
+      "26935067",
+      "33065433",
+      "32668381",
+      "29117896",
+      "29745220",
+      "38837798",
+      "32672401",
+      "27031670",
+      "28801166",
+      "39523109",
+      "31609620",
+      "38241649",
+      "32233486",
+      "29255090",
+      "28746889",
+      "30973731",
+      "32120017",
+      "31851823",
+      "30793592",
+      "30465941",
+      "28842501",
+      "29534931",
+      "32564647",
+      "35549469",
+      "34229009",
+      "37852355",
+      "31726716",
+      "31279986",
+      "27312421",
+      "27474998",
+      "29233294",
+      "28515152",
+      "28638054",
+      "37499433",
+      "31283229",
+      "34252790",
+      "36634873",
+      "32866756",
+      "34299054",
+      "38159482",
+      "31412289",
+      "36994473",
+      "32902980",
+      "27690435",
+      "34626892",
+      "36086898",
+      "26721592",
+      "20452972",
+      "32156661",
+      "31511020",
+      "22156223",
+      "27086966",
+      "27497696",
+      "29750408",
+      "24130096",
+      "27192495",
+      "37441735",
+      "31411465",
+      "24512214",
+      "26878775",
+      "34119834",
+      "31509940",
+      "32161178",
+      "33774182",
+      "35216082",
+      "31599006",
+      "31179771",
+      "34012501",
+      "32422540",
+      "35687391",
+      "30108253",
+      "25827424",
+      "34526248",
+      "27756327",
+      "27799074",
+      "23986495",
+      "30122040",
+      "33922165",
+      "33895141",
+      "34882773",
+      "37935317",
+      "30473361",
+      "30746804",
+      "26551711",
+      "29927029",
+      "32786061",
+      "35462166",
+      "30576774",
+      "32219872",
+      "26653613",
+      "32234331",
+      "34732330",
+      "30042301",
+      "32032607",
+      "34600335",
+      "24533814",
+      "36525840"
+    ],
+    "review": [
+      "37917529",
+      "32668381",
+      "28801166",
+      "32233486",
+      "32120017",
+      "28842501",
+      "37852355",
+      "29233294",
+      "36994473",
+      "27690435",
+      "36086898",
+      "31511020",
+      "27497696",
+      "27192495",
+      "37441735",
+      "31509940",
+      "33774182",
+      "34012501",
+      "33922165",
+      "26551711",
+      "32234331",
+      "34732330"
+    ],
+    "pmc": [
+      "10807374"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37917529/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-317",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c01337",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34938355",
+  "title": "Recognition of the Possible miRNA-mRNA Controlling Network in Stroke by Bioinformatics Examination.",
+  "authors": "Li, Wei; Li, Jian; Yang, Yong",
+  "journal": "Computational and mathematical methods in medicine",
+  "published_date": "2021-12-24",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过生物信息学分析构建卒中miRNA-mRNA调控网络，虽涉及上游转录因子预测，但无蛋白质-DNA互作建模或AI/物理模拟方法，属于纯表达网络分析，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Based on the latest research of WHO, it has been revealed that more than 15 million people suffer from stroke every year worldwide. Of these 15 million people, 6 million succumb to death, and 5 million get permanently disabled. This is the prime reason for the substantial economic burden on all parts of the world. METHODS: These data have been obtained from the GEO database, and the GEO2R tool was used to find out the differentially expressed miRNAs (DEMs) between the stroke and normal patients' blood. FunRich and miRNet were considered to find potential upstream transcription factors and downstream target genes of candidate EMRs. Next, we use GO annotation and KEGG pathway enrichment. Target genes were analyzed with the help of the R software. Then, the STRING database and Cytoscape software were used to conduct PPI and DEM-hub gene networks. Finally, GSE58294 was used to estimate the hub gene expressions. RESULTS: Six DEMs in total were selected out from GSE95204 and GSE117064 datasets. 663 DEMs' target genes were predicted, and NRF1, EGR1, MYC, YY1, E2F1, SP4, and SP1 were predicted as an upstream transcription factor for DEMs' target genes. Target genes of DEMs were primarily augmented in the PI3K-Akt signaling pathway and p53 signaling pathway. The network construction of DEM hygiene is potentially modulated by hsa-miR-3591-5p, hsa-miR-548as-3p, hsa-miR-206, and hsa-miR-4503 hub genes which were found among the top 10 of the hub genes. Among the top 10 hub genes, justification of CTNNB1, PTEN, ESR1, CCND1, KRAS, AKT1, CCND2, CDKN1B, and MYCN was constant with that in the GSE58294 dataset. CONCLUSION: In summary, our research first constructs the miRNA-mRNA network in stroke, which probably renders an awakening purview into the pathogenesis and cure of stroke.",
+  "abstract_zh": "背景：根据世界卫生组织的最新研究，全球每年有超过1500万人遭受中风。在这1500万人中，600万人死亡，500万人永久残疾。这是导致全球各地重大经济负担的主要原因。方法：这些数据来自GEO数据库，并使用GEO2R工具来找出中风患者与正常患者血液中差异表达的miRNAs（DEMs）。考虑使用FunRich和miRNet来寻找候选EMRs的潜在上游转录因子和下游靶基因。接下来，我们使用GO注释和KEGG通路富集分析。使用R软件分析靶基因。然后，使用STRING数据库和Cytoscape软件进行PPI和DEM-hub基因网络构建。最后，使用GSE58294数据集评估hub基因表达。结果：从GSE95204和GSE117064数据集中共选出6个DEMs。预测了663个DEMs的靶基因，并预测NRF1、EGR1、MYC、YY1、E2F1、SP4和SP1作为DEMs靶基因的上游转录因子。DEMs的靶基因主要富集在PI3K-Akt信号通路和p53信号通路中。DEM卫生的网络构建可能受hsa-miR-3591-5p、hsa-miR-548as-3p、hsa-miR-206和hsa-miR-4503 hub基因的调控，这些基因在hub基因前10名中被发现。在前10名hub基因中，CTNNB1、PTEN、ESR1、CCND1、KRAS、AKT1、CCND2、CDKN1B和MYCN的验证与GSE58294数据集中的结果一致。结论：总之，我们的研究首次构建了中风中的miRNA-mRNA网络，这可能为中风发病机制和治疗提供新的视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34938355/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34938355/",
+  "paper_page_path": "papers/pubmed/34938355/index.html"
+}

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, sections on NAP definition, benders/wrappers, bridgers, AlphaFold use, biochemical assays, discussion, and supporting statements)
+- **Assessment boundary** Scientific content, internal consistency, support for claims from provided evidence, and alignment with Nature-style criteria. No external literature verification or data reanalysis performed.
+- **Shared manuscript claim summary** The authors argue that prokaryotic nucleoid-associated proteins (NAPs) are diverse across bacteria, archaea, and viruses; that they can be classified by their architectural effect on DNA (bending, wrapping, bridging, filament formation); that simple in vitro biochemical assays can unambiguously classify novel NAPs; and that AlphaFold predictions provide useful initial structural hypotheses for uncharacterized NAPs, exemplified by SymE.
+- **Visible evidence base** Text descriptions of published studies, structural descriptions of specific NAPs (HU, Bd0055/HBb, p6, MJ1647, aDCP1/Sul12a, SymE), references to figures (Figure 1a–d, 2a–d, S1–S9), and methodological recommendations. No primary experimental data, quantitative results, or figure images were provided.
+- **Missing materials affecting confidence** Figures and supplementary figures (S1–S9) were not available for inspection. No raw data, structural coordinates, or experimental protocols were provided. The manuscript is a mini-review, so primary evidence is cited rather than presented; this limits independent verification of specific claims.
+
+## Reviewer
+- **Overall assessment** This is a well-written and conceptually clear mini-review that synthesizes recent findings on NAP diversity across prokaryotes and viruses, and offers practical guidance for classifying novel NAPs. The authors make a reasonable case for a functional classification scheme based on architectural effects on DNA, and their advocacy for simple biochemical assays and AlphaFold-based hypothesis generation is timely and useful. However, several claims are presented with limited critical evaluation, and the distinction between established findings and speculative interpretations is not always explicit. The manuscript would benefit from a more rigorous treatment of conflicting evidence and a clearer articulation of the limitations of the proposed classification framework.
+- **Who would be interested in the results, and why** Researchers in bacterial and archaeal chromatin biology, DNA replication and transcription regulation, and microbial genomics. The practical assay recommendations and AlphaFold workflow will appeal to laboratories studying newly discovered NAPs from metagenomic datasets. The review also provides a useful conceptual framework for teaching and for interdisciplinary readers interested in genome organization mechanisms.
+- **Major strengths**
+  - Clear and logical organization, moving from definition to specific examples to practical recommendations.
+  - Broad taxonomic coverage (bacteria, archaea, viruses) that highlights underappreciated diversity.
+  - Thoughtful discussion of the blurry boundary between NAPs and transcription factors, with concrete examples.
+  - Practical, accessible guidance on biochemical assays and AlphaFold use, which increases the utility of the review for experimentalists.
+  - The use of SymE as a worked example of AlphaFold-based hypothesis generation is instructive and well-illustrated in the text.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that "in vitro experiments, we know that NAPs can compact or decompact DNA, bend or wrap DNA, bridge DNA, and form protein filaments on the DNA" and later recommend a set of assays that "give unambiguous insights into the architectural properties of NAPs."
+  - **Evidence pointer** Section "SIMPLE BIOCHEMICAL METHODS FOR CLASSIFICATION"; location not provided
+  - **Concern** The claim that the recommended assays provide "unambiguous" classification is overstated. The authors themselves note that EMSA results can be affected by gel artifacts and that MNase assays are not hard evidence. The circularization assay is described as qualitative, and the bridging assay has sensitivity limitations. The word "unambiguous" is not supported by the evidence presented within the manuscript.
+  - **Why it matters** Overstating the reliability of these methods could mislead readers, especially those new to the field, into overinterpreting results from a single assay. This undermines the practical value of the recommendations.
+  - **Resolution test** Revise the claim to acknowledge the complementary nature of the assays and the need for multiple lines of evidence. Alternatively, provide explicit criteria for when a classification can be considered unambiguous.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** The authors state that "AlphaFold also confidently predicts a homotetramer structure for SymE" and use this to propose that SymE can potentially bind two separate DNA duplexes, making it a DNA-bridging NAP.
+  - **Evidence pointer** Section "USING ALPHAFOLD TO HELP CLASSIFY NOVEL NAPs"; Figures 2d, S6, S7; location not provided
+  - **Concern** The manuscript does not provide any experimental validation for the AlphaFold-predicted SymE tetramer or its DNA-binding mode. The authors acknowledge that the architectural properties of SymE are "still unknown," yet the text leans heavily on AlphaFold predictions to propose a bridging function. The distinction between hypothesis and established fact is not always clear.
+  - **Why it matters** AlphaFold predictions are valuable for generating hypotheses, but they are not substitutes for experimental evidence. Readers may mistake the proposed bridging mechanism for a demonstrated property, which could propagate in the literature.
+  - **Resolution test** Clearly label the SymE bridging model as a hypothesis and explicitly state that experimental validation is required. Consider adding a sentence on the limitations of AlphaFold predictions for dynamic or multi-conformational states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The authors propose classifying NAPs into four categories (bending, wrapping, bridging, filament formation) and state that "classifying NAPs based on how they structure DNA is both practical and insightful."
+  - **Evidence pointer** Section "WHAT DEFINES A NAP?"; location not provided
+  - **Concern** The classification framework is presented as self-evidently useful, but the manuscript does not address potential overlaps or ambiguities. For example, a protein that bends DNA at low concentrations and forms filaments at high concentrations (as noted for HU) does not fit neatly into a single category. The authors do not discuss how such cases should be handled.
+  - **Why it matters** A classification system that cannot accommodate known behaviors of well-studied NAPs will be of limited practical use and may create more confusion than clarity for researchers attempting to classify novel proteins.
+  - **Resolution test** Add a discussion of edge cases and propose criteria for assigning a NAP to a primary category when multiple behaviors are observed. Alternatively, acknowledge that the categories are not mutually exclusive and suggest a hierarchical or context-dependent classification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of NAPs
+  - **Evidence pointer** Section "WHAT DEFINES A NAP?"; location not provided
+  - **Issue** The authors state that "we follow the definition as stated by the term NAP itself: any protein that is associated with the nucleoid." This is extremely broad and would include many proteins not typically considered NAPs, such as transcription factors and DNA repair enzymes that transiently associate with the nucleoid.
+  - **Required correction** Provide a more operational definition, or explicitly acknowledge the breadth of the definition and explain why it is appropriate for the scope of the review.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of phase separation
+  - **Evidence pointer** Section "BRIDGERS"; location not provided
+  - **Issue** The authors mention that aDCP1 induces phase separation in vitro but do not discuss whether this is a general property of bridging NAPs or specific to aDCP1. The relationship between bridging and phase separation is left unexplored.
+  - **Required correction** Add a brief comment on whether phase separation is a common feature of bridging NAPs or a unique property of aDCP1, and what implications this has for the classification framework.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Bridging assay description
+  - **Evidence pointer** Section "SIMPLE BIOCHEMICAL METHODS FOR CLASSIFICATION"; location not provided
+  - **Issue** The description of the bridging assay is brief and does not specify how to distinguish true bridging from non-specific aggregation or precipitation of the protein-DNA mixture.
+  - **Required correction** Add a sentence on control experiments or criteria for interpreting a positive bridging result.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Terminology for Bd0055/HBb
+  - **Evidence pointer** Section "BENDERS AND WRAPPERS"; location not provided
+  - **Issue** The protein is referred to as "Bd0055/HBb" throughout, but the text does not explain the relationship between the two names or whether they are synonymous.
+  - **Required correction** Clarify the nomenclature, e.g., "Bd0055, also known as HBb."
+- **Technical failings that need to be addressed before the case is established** No fundamental technical failings were identified. The manuscript is a review, and the claims are appropriately framed as summaries of published work. The main issues are interpretive and relate to the strength of certain claims relative to the evidence presented.
+- **Assessment against Nature-style criteria**
+  - **Originality** The review is not highly original in its core content, as it synthesizes existing literature, but it offers a useful practical angle by combining assay recommendations with AlphaFold-based hypothesis generation. This integrative approach has some novelty.
+  - **Scientific importance** The topic is important for understanding genome organization across prokaryotes, and the practical guidance is valuable for a growing community analyzing metagenomic data. However, the review does not present new data or resolve major open questions.
+  - **Interdisciplinary readership** The review is accessible to microbiologists, biochemists, and computational biologists. The practical assay and AlphaFold sections broaden its appeal beyond specialists in chromatin biology.
+  - **Technical soundness** The technical content is sound, but the overstatement of assay reliability and the heavy reliance on AlphaFold predictions without explicit caveats are weaknesses.
+  - **Readability for nonspecialists** The writing is clear and well-structured, with helpful examples. Some sections assume familiarity with structural biology terminology, but overall the review is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript is a competent and useful review, but the authors should temper claims about assay reliability, clearly distinguish hypotheses from established findings in the SymE example, and address the limitations of the classification framework. These revisions would strengthen the manuscript without requiring new experiments.
+
+## Risk / unsupported claims
+- The claim that the recommended assays give "unambiguous insights" into NAP architectural properties is not supported by the evidence presented, as the authors themselves note limitations of each method.
+- The proposal that SymE is a DNA-bridging NAP based on AlphaFold predictions is presented with insufficient caveats; no experimental evidence is provided to support this classification.
+- The statement that "NAPs are special in that they can organize the genome at multiple length scales" is presented as established fact, but the manuscript does not provide direct evidence for this claim beyond citing general literature.
+- The assertion that "the contribution of specific NAPs to genome organization is likely dependent on other NAPs that are present in the cell" is speculative and not supported by specific data in the manuscript.
+- The claim that "in vitro data is difficult to translate to in vivo behavior of NAPs" is presented as a general statement without specific examples or evidence.

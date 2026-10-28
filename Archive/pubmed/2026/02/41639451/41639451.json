@@ -1,0 +1,595 @@
+{
+  "identity": {
+    "pmid": "41639451",
+    "doi": "10.1038/s41586-025-10093-z",
+    "title": "Regulatory grammar in human promoters uncovered by MPRA-based deep learning."
+  },
+  "content": {
+    "abstract": "Promoters are the core regulatory elements of all genes. Their activity ensures the correct transcription level of each individual gene, which is essential for cellular homeostasis and responses to a wide range of signals. One of the major challenges in genomics is to build computational models that accurately predict genome-wide gene expression from the sequences of regulatory elements(1). Here we present promoter activity regulatory model (PARM), a cell-type-specific deep-learning model trained on specially designed massively parallel reporter assays (MPRAs) that query human promoter sequences. PARM is experimentally and computationally lightweight so that cell-type-specific and condition-specific models can be generated that reliably predict autonomous promoter activity across the genome from the DNA sequence alone. PARM can also design purely synthetic strong promoters. We leveraged PARM to systematically identify binding sites of transcription factors that probably contribute to the activity of each natural human promoter and to detect the rewiring of these regulatory interactions after various stimuli to the cells. We also uncovered and experimentally confirmed substantial positional preferences of transcription factors that differ between activating and repressive regulatory functions and a complex grammar of motif-motif interactions. Our approach provides a highly economic strategy towards a deeper understanding of the dynamic regulation of human promoters by transcription factors.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Binding Sites",
+      "*Deep Learning",
+      "Gene Expression Regulation",
+      "Genes, Reporter",
+      "Genome, Human",
+      "*Models, Genetic",
+      "Nucleotide Motifs",
+      "*Promoter Regions, Genetic",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barbadilla-Martinez, Lucia",
+        "Klaassen, Noud",
+        "Franceschini-Santos, Vinicius H",
+        "Breda, Jeremie",
+        "Yucel, Hatice",
+        "Hernandez-Quiles, Miguel",
+        "van Lieshout, Tijs",
+        "Urzua Traslavina, Carlos G",
+        "Boi, Minh Chau Luong",
+        "Akbarzadeh, Maryam",
+        "Hermana-Garcia-Agullo, Celia",
+        "Gregoricchio, Sebastian",
+        "de Haas, Marcel",
+        "Straver, Roy",
+        "Derks, Sarah",
+        "Zwart, Wilbert",
+        "Voest, Emile",
+        "Franke, Lude",
+        "Vermeulen, Michiel",
+        "de Ridder, Jeroen",
+        "van Steensel, Bas"
+      ],
+      "short_names": [
+        "Barbadilla-Martinez L",
+        "Klaassen N",
+        "Franceschini-Santos VH",
+        "Breda J",
+        "Yucel H",
+        "Hernandez-Quiles M",
+        "van Lieshout T",
+        "Urzua Traslavina CG",
+        "Boi MCL",
+        "Akbarzadeh M",
+        "Hermana-Garcia-Agullo C",
+        "Gregoricchio S",
+        "de Haas M",
+        "Straver R",
+        "Derks S",
+        "Zwart W",
+        "Voest E",
+        "Franke L",
+        "Vermeulen M",
+        "de Ridder J",
+        "van Steensel B"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4904-0654",
+        "ORCID: 0000-0001-9276-0370",
+        "ORCID: 0000-0003-0441-0309",
+        "ORCID: 0000-0003-1146-1630",
+        "ORCID: 0000-0001-9209-5403",
+        "ORCID: 0000-0002-8031-1735",
+        "ORCID: 0000-0002-9823-7289",
+        "ORCID: 0000-0001-8249-9586",
+        "ORCID: 0000-0002-5159-8802",
+        "ORCID: 0000-0002-0828-3477",
+        "ORCID: 0000-0002-0284-0404"
+      ],
+      "affiliations": [
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Center for Molecular Medicine, UMC Utrecht, Utrecht, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Genetics, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Genetics, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Oncology and Immunology, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Medical Oncology, Amsterdam UMC Location VUmc, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Oncogenomics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Center for Molecular Medicine, UMC Utrecht, Utrecht, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Medical Oncology, Amsterdam UMC Location VUmc, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Oncogenomics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Oncology and Immunology, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Department of Genetics, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Radboud University Nijmegen, Nijmegen, The Netherlands.",
+        "Oncode Institute, Utrecht, The Netherlands. J.deRidder-4@umcutrecht.nl.",
+        "Center for Molecular Medicine, UMC Utrecht, Utrecht, The Netherlands. J.deRidder-4@umcutrecht.nl.",
+        "Oncode Institute, Utrecht, The Netherlands. b.v.steensel@nki.nl.",
+        "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands. b.v.steensel@nki.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barbadilla-Martínez, Lucía",
+        "short_name": "Barbadilla-Martínez L",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Center for Molecular Medicine, UMC Utrecht, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Klaassen, Noud",
+        "short_name": "Klaassen N",
+        "identifiers": [
+          "0009-0006-4904-0654"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Franceschini-Santos, Vinícius H",
+        "short_name": "Franceschini-Santos VH",
+        "identifiers": [
+          "0000-0001-9276-0370"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Breda, Jérémie",
+        "short_name": "Breda J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Yücel, Hatice",
+        "short_name": "Yücel H",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hernández-Quiles, Miguel",
+        "short_name": "Hernández-Quiles M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Lieshout, Tijs",
+        "short_name": "van Lieshout T",
+        "identifiers": [
+          "0000-0003-0441-0309"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Department of Genetics, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Urzua Traslaviña, Carlos G",
+        "short_name": "Urzua Traslaviña CG",
+        "identifiers": [
+          "0000-0003-1146-1630"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Department of Genetics, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Boi, Minh Chau Luong",
+        "short_name": "Boi MCL",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Oncology and Immunology, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Akbarzadeh, Maryam",
+        "short_name": "Akbarzadeh M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Department of Medical Oncology, Amsterdam UMC Location VUmc, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hermana-Garcia-Agullo, Celia",
+        "short_name": "Hermana-Garcia-Agullo C",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gregoricchio, Sebastian",
+        "short_name": "Gregoricchio S",
+        "identifiers": [
+          "0000-0001-9209-5403"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Oncogenomics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Haas, Marcel",
+        "short_name": "de Haas M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Straver, Roy",
+        "short_name": "Straver R",
+        "identifiers": [
+          "0000-0002-8031-1735"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Center for Molecular Medicine, UMC Utrecht, Utrecht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Derks, Sarah",
+        "short_name": "Derks S",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Department of Medical Oncology, Amsterdam UMC Location VUmc, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Zwart, Wilbert",
+        "short_name": "Zwart W",
+        "identifiers": [
+          "0000-0002-9823-7289"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Oncogenomics, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Voest, Emile",
+        "short_name": "Voest E",
+        "identifiers": [
+          "0000-0001-8249-9586"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Oncology and Immunology, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Franke, Lude",
+        "short_name": "Franke L",
+        "identifiers": [
+          "0000-0002-5159-8802"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Department of Genetics, University Medical Center Groningen, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vermeulen, Michiel",
+        "short_name": "Vermeulen M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+          "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Radboud University Nijmegen, Nijmegen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Ridder, Jeroen",
+        "short_name": "de Ridder J",
+        "identifiers": [
+          "0000-0002-0828-3477"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands. J.deRidder-4@umcutrecht.nl.",
+          "Center for Molecular Medicine, UMC Utrecht, Utrecht, The Netherlands. J.deRidder-4@umcutrecht.nl."
+        ]
+      },
+      {
+        "full_name": "van Steensel, Bas",
+        "short_name": "van Steensel B",
+        "identifiers": [
+          "0000-0002-0284-0404"
+        ],
+        "affiliations": [
+          "Oncode Institute, Utrecht, The Netherlands. b.v.steensel@nki.nl.",
+          "Division of Molecular Genetics, Netherlands Cancer Institute, Amsterdam, The Netherlands. b.v.steensel@nki.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/05 00:30",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [
+      "42642514",
+      "42475681",
+      "42448854",
+      "42413033",
+      "42146669",
+      "42082677",
+      "42056104",
+      "41912885"
+    ],
+    "refs": [
+      "40608935",
+      "40360798",
+      "39814889",
+      "39779956",
+      "39779852",
+      "39443793",
+      "39020164",
+      "38662817",
+      "38594933",
+      "37962376",
+      "37650627",
+      "37620540",
+      "37466164",
+      "37220626",
+      "37087538",
+      "37013986",
+      "36995326",
+      "36973806",
+      "36192604",
+      "35817977",
+      "35687139",
+      "35551305",
+      "35368031",
+      "35264797",
+      "35190730",
+      "34961747",
+      "34608324",
+      "34099641",
+      "33603233",
+      "33046894",
+      "32939066",
+      "32728250",
+      "32728244",
+      "32687525",
+      "32660958",
+      "32433972",
+      "31988385",
+      "31857188",
+      "31853056",
+      "31823818",
+      "31649059",
+      "31477927",
+      "31253979",
+      "31206543",
+      "30982597",
+      "30971806",
+      "30877282",
+      "30100188",
+      "29946135",
+      "29588361",
+      "29140464",
+      "28818916",
+      "28566565",
+      "28135248",
+      "28024146",
+      "28018142",
+      "27197224",
+      "26553150",
+      "26334867",
+      "26301843",
+      "26300124",
+      "25723102",
+      "25383968",
+      "25106871",
+      "24644260",
+      "23887589",
+      "22955987",
+      "22951020",
+      "22392219",
+      "21866103",
+      "21453775",
+      "21330290",
+      "20959618",
+      "19011757",
+      "18078513",
+      "17703201",
+      "17567998",
+      "16617148",
+      "11715049",
+      "10637317",
+      "9461615",
+      "9121442",
+      "8917435",
+      "2231712"
+    ],
+    "similar": [
+      "41639451",
+      "41952336",
+      "42475469",
+      "37889080",
+      "28204611",
+      "32043966",
+      "31206543",
+      "41920894",
+      "23512712",
+      "30622120",
+      "24042128",
+      "16817975",
+      "37873175",
+      "28865451",
+      "22955983",
+      "27576892",
+      "42234579",
+      "40360798",
+      "31131957",
+      "35190730",
+      "41285795",
+      "42140663",
+      "41801512",
+      "34486522",
+      "31228310",
+      "39814889",
+      "34491989",
+      "21826217",
+      "31792407",
+      "28539359",
+      "28531296",
+      "32616518",
+      "23525463",
+      "40983924",
+      "41279449",
+      "39020164",
+      "41768065",
+      "30709337",
+      "20019798",
+      "9414299",
+      "17174484",
+      "8555489",
+      "8455611",
+      "33137083",
+      "19838305",
+      "26072433",
+      "15980501",
+      "42244857",
+      "29363433",
+      "37087538",
+      "29855387",
+      "30683753",
+      "18256240",
+      "41030057",
+      "22534400",
+      "33978759",
+      "33036380",
+      "42413033",
+      "15506990",
+      "24615264",
+      "17123746",
+      "15790569",
+      "39724021",
+      "15723697",
+      "26082173",
+      "21347314",
+      "34383743",
+      "36350674",
+      "16580849",
+      "22683808",
+      "24156763",
+      "29233921",
+      "27701403",
+      "12748179",
+      "30261835",
+      "35594906",
+      "25752748",
+      "19029883",
+      "24244184",
+      "41617689",
+      "17726537",
+      "31106481",
+      "8369280",
+      "17953763",
+      "15899964",
+      "12082130",
+      "12805274",
+      "40994322",
+      "28801904",
+      "34898596",
+      "23303791",
+      "11923423",
+      "37403796",
+      "20363979",
+      "9927623",
+      "41951735",
+      "25428367",
+      "20065321",
+      "12444921",
+      "33879525"
+    ],
+    "review": [
+      "41639451",
+      "40360798",
+      "31131957",
+      "41768065",
+      "26072433"
+    ],
+    "pmc": [
+      "13017510"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-025-10093-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41639451/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

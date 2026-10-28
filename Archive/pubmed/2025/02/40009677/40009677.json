@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "40009677",
+    "doi": "10.1126/sciadv.adq4187",
+    "title": "DET1 dynamics underlie cooperative ubiquitination by CRL4(DET1-COP1) complexes."
+  },
+  "content": {
+    "abstract": "Transcription factor ubiquitination is a decisive regulator of growth and development. The DET1-DDB1-DDA1 (DDD) complex associates with the Cullin-4 ubiquitin ligase (CRL4) and a second ubiquitin ligase, COP1, to control ubiquitination of transcription factors involved in neurological, metabolic, and immune cell development. Here, we report the structure of the human DDD complex, revealing a specific segment of DET1 that can recruit ubiquitin-conjugating (E2) enzymes. Structural variability analysis, mass spectrometry, and mutagenesis based on AlphaFold predictions suggest that dynamic closure of DET1, stabilized by DDA1, underlies coordinated recruitment of E2 enzymes and COP1. Biochemical assays suggest that the E2 acts as a recruitment factor to bring COP1 to DET1 for more effective substrate ubiquitination, which parallels a catalytically inactive E2 enzyme (COP10) in plant DDD complexes. This work provides a clear architecture for regulation and cooperative CRL4(DET1-COP1) complex assembly, which can affect degradation of diverse targets by COP1 complexes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Ubiquitination",
+      "*Ubiquitin-Protein Ligases/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Nuclear Proteins/metabolism/chemistry/genetics",
+      "Ubiquitin-Conjugating Enzymes/metabolism",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Burgess, Abigail E",
+        "Loughran, Tarren A",
+        "Turk, Liam S",
+        "Nyvall, Hunter G",
+        "Dunlop, Jessica L",
+        "Jamieson, Sam A",
+        "Curry, Jack R",
+        "Burke, John E",
+        "Filipcik, Pavel",
+        "Brown, Simon H J",
+        "Mace, Peter D"
+      ],
+      "short_names": [
+        "Burgess AE",
+        "Loughran TA",
+        "Turk LS",
+        "Nyvall HG",
+        "Dunlop JL",
+        "Jamieson SA",
+        "Curry JR",
+        "Burke JE",
+        "Filipcik P",
+        "Brown SHJ",
+        "Mace PD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3522-6347",
+        "ORCID: 0009-0004-6250-0382",
+        "ORCID: 0000-0002-9820-652X",
+        "ORCID: 0009-0006-0098-0688",
+        "ORCID: 0000-0003-0120-4737",
+        "ORCID: 0000-0001-7904-9859",
+        "ORCID: 0000-0003-1958-0458",
+        "ORCID: 0000-0003-3997-4614",
+        "ORCID: 0000-0003-2175-9537"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada.",
+        "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand.",
+        "School of Chemistry and Molecular Bioscience, Molecular Horizons, and Australian Research Council Centre for Cryo-electron Microscopy of Membrane Proteins, University of Wollongong, Wollongong, NSW, Australia.",
+        "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Burgess, Abigail E",
+        "short_name": "Burgess AE",
+        "identifiers": [
+          "0000-0002-3522-6347"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Loughran, Tarren A",
+        "short_name": "Loughran TA",
+        "identifiers": [
+          "0009-0004-6250-0382"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Turk, Liam S",
+        "short_name": "Turk LS",
+        "identifiers": [
+          "0000-0002-9820-652X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Nyvall, Hunter G",
+        "short_name": "Nyvall HG",
+        "identifiers": [
+          "0009-0006-0098-0688"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Dunlop, Jessica L",
+        "short_name": "Dunlop JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Jamieson, Sam A",
+        "short_name": "Jamieson SA",
+        "identifiers": [
+          "0000-0003-0120-4737"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Curry, Jack R",
+        "short_name": "Curry JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Burke, John E",
+        "short_name": "Burke JE",
+        "identifiers": [
+          "0000-0001-7904-9859"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Microbiology, University of Victoria, Victoria, BC, Canada.",
+          "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Filipcik, Pavel",
+        "short_name": "Filipcik P",
+        "identifiers": [
+          "0000-0003-1958-0458"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Brown, Simon H J",
+        "short_name": "Brown SHJ",
+        "identifiers": [
+          "0000-0003-3997-4614"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Bioscience, Molecular Horizons, and Australian Research Council Centre for Cryo-electron Microscopy of Membrane Proteins, University of Wollongong, Wollongong, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Mace, Peter D",
+        "short_name": "Mace PD",
+        "identifiers": [
+          "0000-0003-2175-9537"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, School of Biomedical Sciences, University of Otago, Dunedin, New Zealand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/26 18:17",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42351183",
+      "41979917",
+      "41540009",
+      "40643496"
+    ],
+    "refs": [
+      "39367171",
+      "39075252",
+      "39052676",
+      "38718835",
+      "38383787",
+      "38382526",
+      "36378961",
+      "36108635",
+      "35316660",
+      "35246518",
+      "35042991",
+      "34723319",
+      "34595758",
+      "34582788",
+      "34267316",
+      "34265844",
+      "33877613",
+      "33536622",
+      "33160249",
+      "32869988",
+      "32795415",
+      "32669682",
+      "32416094",
+      "32051583",
+      "31973889",
+      "31819272",
+      "31693911",
+      "31608079",
+      "31249422",
+      "31155351",
+      "30412051",
+      "30322923",
+      "30254053",
+      "29360641",
+      "28770632",
+      "28671674",
+      "28433946",
+      "28394336",
+      "28351980",
+      "28165473",
+      "27908682",
+      "27114506",
+      "27041596",
+      "27029275",
+      "27012465",
+      "27002219",
+      "26627735",
+      "26348894",
+      "25960396",
+      "25801170",
+      "25514926",
+      "24901938",
+      "24040512",
+      "23884631",
+      "23871895",
+      "22705257",
+      "22673153",
+      "21572435",
+      "20410507",
+      "20041285",
+      "19966799",
+      "19109893",
+      "17873885",
+      "17452440",
+      "16964240",
+      "16543155",
+      "15688063",
+      "15342494",
+      "14739464",
+      "14570571",
+      "11877375",
+      "8234246"
+    ],
+    "similar": [
+      "40009677",
+      "17452440",
+      "15342494",
+      "23450167",
+      "22705257",
+      "18552200",
+      "33711490",
+      "31155351",
+      "27547879",
+      "24563205",
+      "39937864",
+      "26871468",
+      "39075067",
+      "34595758",
+      "21628527",
+      "28087699",
+      "26352615",
+      "39739800",
+      "16339850",
+      "29079575",
+      "16964240",
+      "21772249",
+      "39365702",
+      "33911083",
+      "22842904",
+      "12028569",
+      "30042095",
+      "35938868",
+      "20062082",
+      "29360641",
+      "19818708",
+      "18485199",
+      "20061554",
+      "15705947",
+      "14739464",
+      "11877375",
+      "19061479",
+      "16844902",
+      "25575996",
+      "16931761",
+      "20599732",
+      "27333051",
+      "30322923",
+      "21549715",
+      "23671280",
+      "22081612",
+      "35084653",
+      "25043012",
+      "20146531",
+      "21572435",
+      "27128446",
+      "33650289",
+      "30242702",
+      "19805145",
+      "37993255",
+      "22433864",
+      "39533056",
+      "21422291",
+      "24486490",
+      "22118460",
+      "15988568",
+      "34771091",
+      "27316462",
+      "30352855",
+      "18042044",
+      "38354782",
+      "32265326",
+      "30185618",
+      "26789245",
+      "27909234",
+      "26475854",
+      "24067658",
+      "22589545",
+      "30405104",
+      "29414787",
+      "16061177",
+      "22576094",
+      "22149024",
+      "36413307",
+      "39580855",
+      "18815134",
+      "12466024",
+      "26148049",
+      "36688959",
+      "27658392",
+      "23747565",
+      "21093457",
+      "27325702",
+      "20041285",
+      "26010904",
+      "34251884",
+      "25327252",
+      "32051583",
+      "39207167",
+      "22496338",
+      "21226479",
+      "25960396",
+      "16337426",
+      "30192741",
+      "25224329"
+    ],
+    "review": [
+      "40009677",
+      "22705257",
+      "34771091",
+      "27316462"
+    ],
+    "pmc": [
+      "11864197"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adq4187?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40009677.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40009677/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

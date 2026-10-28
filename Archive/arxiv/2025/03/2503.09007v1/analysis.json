@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2503.09007v1",
+  "title": "Reconstructing Noisy Gene Regulation Dynamics Using Extrinsic-Noise-Driven Neural Stochastic Differential Equations",
+  "authors": "Jiancheng Zhang; Xiangting Li; Xiaolu Guo; Zhaoyi You; Lucas Böttcher; Alex Mogilner; Alexander Hoffman; Tom Chou; Mingtao Xia",
+  "journal": "PLoS Comput. Biol. 21(9), e1013462 (2025)",
+  "published_date": "2025-03-12",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用外噪声驱动的神经随机微分方程重建基因调控与RPA-DNA结合等噪声动力学，虽涉及蛋白-DNA互作体系但非聚焦TF-DNA结合机制，方法可迁移至互作动态建模。",
+  "abstract": "Proper regulation of cell signaling and gene expression is crucial for maintaining cellular function, development, and adaptation to environmental changes. Reaction dynamics in cell populations is often noisy because of (i) inherent stochasticity of intracellular biochemical reactions (``intrinsic noise'') and (ii) heterogeneity of cellular states across different cells that are influenced by external factors (``extrinsic noise''). In this work, we introduce an extrinsic-noise-driven neural stochastic differential equation (END-nSDE) framework that utilizes the Wasserstein distance to accurately reconstruct SDEs from trajectory data from a heterogeneous population of cells (extrinsic noise). We demonstrate the effectiveness of our approach using both simulated and experimental data from three different systems in cell biology: (i) circadian rhythms, (ii) RPA-DNA binding dynamics, and (iii) NF$κ$B signaling process. Our END-nSDE reconstruction method can model how cellular heterogeneity (extrinsic noise) modulates reaction dynamics in the presence of intrinsic noise. It also outperforms existing time-series analysis methods such as recurrent neural networks (RNNs) and long short-term memory networks (LSTMs). By inferring cellular heterogeneities from data, our END-nSDE reconstruction method can reproduce noisy dynamics observed in experiments. In summary, the reconstruction method we propose offers a useful surrogate modeling approach for complex biophysical processes, where high-fidelity mechanistic models may be impractical.",
+  "abstract_zh": "细胞信号传导和基因表达的适当调控对于维持细胞功能、发育以及对环境变化的适应至关重要。细胞群体中的反应动力学通常具有噪声性，原因包括（i）细胞内生化反应的固有随机性（“内在噪声”）和（ii）受外部因素影响的跨细胞状态异质性（“外在噪声”）。在本工作中，我们引入了一种由外在噪声驱动的神经随机微分方程（END-nSDE）框架，利用Wasserstein距离从异质性细胞群体（外在噪声）的轨迹数据中精确重建SDE。我们使用来自细胞生物学中三个不同系统的模拟和实验数据证明了我们方法的有效性：（i）昼夜节律，（ii）RPA-DNA结合动力学，以及（iii）NF$κ$B信号传导过程。我们的END-nSDE重建方法能够模拟在存在内在噪声的情况下，细胞异质性（外在噪声）如何调节反应动力学。它还优于现有的时间序列分析方法，如循环神经网络（RNNs）和长短期记忆网络（LSTMs）。通过从数据中推断细胞异质性，我们的END-nSDE重建方法能够重现实验中观察到的噪声动力学。总之，我们提出的重建方法为复杂的生物物理过程提供了一种有用的替代建模方法，在这些过程中，高保真机制模型可能不切实际。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2503.09007v1",
+  "source_url": "https://arxiv.org/abs/2503.09007v1",
+  "paper_page_path": "papers/arxiv/2503.09007v1/index.html"
+}

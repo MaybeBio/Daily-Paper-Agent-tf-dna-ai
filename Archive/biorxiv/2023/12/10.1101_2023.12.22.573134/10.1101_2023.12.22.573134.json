@@ -1,0 +1,226 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.22.573134",
+  "title": "Decoding the Epigenetics and Chromatin Loop Dynamics of Androgen Receptor-Mediated Transcription",
+  "doi": "10.1101/2023.12.22.573134",
+  "abstract": "<h4>ABSTRACT</h4> Androgen receptor (AR)-mediated transcription plays a critical role in normal prostate development and prostate cancer growth. AR drives gene expression by binding to thousands of cis-regulatory elements (CRE) that loop to hundreds of target promoters. With multiple CREs interacting with a single promoter, it remains unclear how individual AR bound CREs contribute to gene expression. To characterize the involvement of these CREs, we investigated the AR-driven epigenetic and chromosomal chromatin looping changes. We collected a kinetic multiomic dataset comprised of steady-state mRNA, chromatin accessibility, transcription factor binding, histone modifications, chromatin looping, and nascent RNA. Using an integrated regulatory network, we found that AR binding induces sequential changes in the epigenetic features at CREs, independent of gene expression. Further, we showed that binding of AR does not result in a substantial rewiring of chromatin loops, but instead increases the contact frequency of pre-existing loops to target promoters. Our results show that gene expression strongly correlates to the changes in contact frequency. We then proposed and experimentally validated an unbalanced multi-enhancer model where the impact on gene expression of AR-bound enhancers is heterogeneous, and is proportional to their contact frequency with target gene promoters. Overall, these findings provide new insight into AR-mediated gene expression upon acute androgen simulation and develop a mechanistic framework to investigate nuclear receptor mediated perturbations.",
+  "authors": [
+    "Altıntaş UB",
+    "Seo J",
+    "Giambartolomei C",
+    "Ozturan D",
+    "Fortunato BJ",
+    "Nelson GM",
+    "Goldman SR",
+    "Adelman K",
+    "Hach F",
+    "Freedman ML",
+    "Lack NA"
+  ],
+  "published_date": "2023-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573134",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573134.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR778599",
+    "raw_record": {
+      "id": "PPR778599",
+      "source": "PPR",
+      "doi": "10.1101/2023.12.22.573134",
+      "title": "Decoding the Epigenetics and Chromatin Loop Dynamics of Androgen Receptor-Mediated Transcription",
+      "authorString": "Altıntaş UB, Seo J, Giambartolomei C, Ozturan D, Fortunato BJ, Nelson GM, Goldman SR, Adelman K, Hach F, Freedman ML, Lack NA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Altıntaş UB",
+            "lastName": "Altıntaş",
+            "firstName": "Umut Berkay",
+            "initials": "UB"
+          },
+          {
+            "fullName": "Seo J",
+            "lastName": "Seo",
+            "firstName": "Ji-Heui",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7280-3334"
+            }
+          },
+          {
+            "fullName": "Giambartolomei C",
+            "lastName": "Giambartolomei",
+            "firstName": "Claudia",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2786-1225"
+            }
+          },
+          {
+            "fullName": "Ozturan D",
+            "lastName": "Ozturan",
+            "firstName": "Dogancan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Fortunato BJ",
+            "lastName": "Fortunato",
+            "firstName": "Brad",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Nelson GM",
+            "lastName": "Nelson",
+            "firstName": "Geoffrey",
+            "initials": "GM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9825-4241"
+            }
+          },
+          {
+            "fullName": "Goldman SR",
+            "lastName": "Goldman",
+            "firstName": "Seth Raphael",
+            "initials": "SR"
+          },
+          {
+            "fullName": "Adelman K",
+            "lastName": "Adelman",
+            "firstName": "Karen",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5364-334X"
+            }
+          },
+          {
+            "fullName": "Hach F",
+            "lastName": "Hach",
+            "firstName": "Faraz",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1143-0172"
+            }
+          },
+          {
+            "fullName": "Freedman ML",
+            "lastName": "Freedman",
+            "firstName": "Matthew",
+            "initials": "ML"
+          },
+          {
+            "fullName": "Lack NA",
+            "lastName": "Lack",
+            "firstName": "Nathan",
+            "initials": "NA"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5364-334X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9825-4241"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0861-5013"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7280-3334"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1143-0172"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2786-1225"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Androgen receptor (AR)-mediated transcription plays a critical role in normal prostate development and prostate cancer growth. AR drives gene expression by binding to thousands of cis-regulatory elements (CRE) that loop to hundreds of target promoters. With multiple CREs interacting with a single promoter, it remains unclear how individual AR bound CREs contribute to gene expression. To characterize the involvement of these CREs, we investigated the AR-driven epigenetic and chromosomal chromatin looping changes. We collected a kinetic multiomic dataset comprised of steady-state mRNA, chromatin accessibility, transcription factor binding, histone modifications, chromatin looping, and nascent RNA. Using an integrated regulatory network, we found that AR binding induces sequential changes in the epigenetic features at CREs, independent of gene expression. Further, we showed that binding of AR does not result in a substantial rewiring of chromatin loops, but instead increases the contact frequency of pre-existing loops to target promoters. Our results show that gene expression strongly correlates to the changes in contact frequency. We then proposed and experimentally validated an unbalanced multi-enhancer model where the impact on gene expression of AR-bound enhancers is heterogeneous, and is proportional to their contact frequency with target gene promoters. Overall, these findings provide new insight into AR-mediated gene expression upon acute androgen simulation and develop a mechanistic framework to investigate nuclear receptor mediated perturbations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/23/2023.12.22.573134.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.22.573134"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39489778",
+            "reference": "Nature communications. 2024 Nov;15(1):9494",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-12-25",
+      "firstPublicationDate": "2023-12-23",
+      "firstIndexDate": "2023-12-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors apply mtscATAC-seq and scRNA-seq to characterize AML cells, construct a single-cell hematopoiesis reference, identify AML-associated chromatin accessibility changes at cis-regulatory elements, develop the cisGRN algorithm, link WT1 zinc finger mutations to decreased target gene accessibility and expression, validate five WT1 mutations functionally, identify a CRE mutation creating a CEBPB binding motif that activates GATA4 expression and promotes AML proliferation, and use mtDNA tracing with machine learning to identify relapse-associated LSC-like clones with predictive marker genes.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, algorithm description and validation, statistical analyses, raw data, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious and potentially impactful integrative approach combining mitochondrial single-cell ATAC-seq, scRNA-seq, lineage tracing, and gene regulatory network analysis to study AML. The findings span multiple levels from chromatin accessibility to functional validation and clinical prediction. However, the abstract alone provides insufficient detail to evaluate the rigor of the computational methods, the statistical robustness of the findings, or the validity of the causal claims. Several claims are made without visible supporting evidence, and the relationship between the different analytical components is not fully clarified. The work addresses important questions in AML biology and treatment resistance, but the current evidence base does not allow verification of the central conclusions.
+- **Who would be interested in the results, and why** Researchers in hematopoiesis and leukemia biology, particularly those studying AML pathogenesis, clonal evolution, and drug resistance. Investigators working on single-cell epigenomics and gene regulatory network inference would also find the cisGRN algorithm and the integrative mtscATAC-seq approach of interest. Clinically oriented researchers focused on prognostic biomarkers and relapse prediction in AML would be attracted to the reported relapse-associated clone markers.
+- **Major strengths** The study combines multiple cutting-edge single-cell modalities in a single framework, which is methodologically novel. The integration of mitochondrial mutations for lineage tracing with chromatin accessibility profiling addresses a real need in tracking clonal dynamics. The identification of specific WT1 mutations with functional validation and the discovery of a CRE mutation with mechanistic characterization through luciferase and prime editing experiments suggest a thorough experimental approach. The translational component linking clone identity to drug resistance and relapse prediction adds clinical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cisGRN algorithm was used to analyze CRE dynamics and discovered that WT1 zinc finger mutations are associated with decreased chromatin accessibility and hypermethylation at target gene regulatory regions, leading to gene downregulation.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states that an in-house developed algorithm called cisGRN was used to analyze CRE dynamics and link WT1 mutations to downstream regulatory changes. No information is provided about the algorithm's design, validation, performance benchmarks, or statistical framework. The causal chain from WT1 mutation to decreased accessibility to hypermethylation to gene downregulation is asserted without visible evidence of how these relationships were established or controlled for confounding factors.
+  - **Why it matters** The central mechanistic claim of the paper depends on the reliability of the cisGRN algorithm and the statistical rigor of the association analysis. Without details on how the algorithm handles the sparsity and noise inherent in single-cell ATAC-seq data, how it distinguishes direct from indirect regulatory effects, and how it accounts for cell type composition differences, the conclusions cannot be evaluated. The claim of causality from mutation to epigenetic change to expression change requires experimental perturbation or at minimum careful statistical mediation analysis.
+  - **Resolution test** Provide details on cisGRN algorithm architecture, validation against known regulatory interactions, benchmarking against existing GRN inference methods, and statistical controls. Show that the WT1 mutation-associated accessibility and methylation changes are specific rather than reflecting global epigenetic dysregulation. Demonstrate causality through perturbation experiments or provide evidence that the observed associations are robust to confounders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Functional validation confirmed the pathogenic effects of five WT1 zinc finger mutations: R467Q, R467L, R467W, H470Y, and H470R.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states that functional validation confirmed pathogenic effects for five specific WT1 mutations, but no details are given about the experimental systems used, the phenotypic readouts, the magnitude of effects, or the statistical significance. It is unclear whether these mutations were tested in cell lines, primary cells, or animal models, and whether the validation assessed differentiation, proliferation, apoptosis, or other relevant phenotypes.
+  - **Why it matters** The claim that these five mutations are pathogenic is a strong statement with potential clinical implications. Without knowing the experimental context and the rigor of the validation, it is impossible to assess whether the effects are specific to these mutations, whether they are consistent across assays, and whether they translate to human disease biology. Overinterpretation of in vitro effects as pathogenic without appropriate context is a common issue in the field.
+  - **Resolution test** Describe the experimental systems and assays used for functional validation, including appropriate controls. Provide quantitative data with statistical analysis showing the effects of each mutation relative to wild-type WT1. If possible, show that the effects are specific to the zinc finger domain mutations and not general protein destabilization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Using mitochondria DNA tracing and machine learning modeling, we identified relapse-associated clones resembling leukemia stem cells (LSCs) and uncovered marker genes in the clones that more accurately predict drug resistance and relapse risk.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract claims that mtDNA tracing combined with machine learning identified relapse-associated LSC-like clones and that marker genes from these clones predict drug resistance and relapse risk more accurately. No information is provided about the machine learning approach, the training and validation cohorts, the performance metrics, the comparison against existing predictors, or the statistical significance of the improvement.
+  - **Why it matters** The clinical prediction claim is potentially the most impactful aspect of the study, but also the most prone to overfitting and bias. Without details on cross-validation, independent validation, and comparison to established clinical and molecular predictors, the claim of improved accuracy cannot be assessed. The identification of LSC-like clones based on mtDNA tracing also requires careful validation that the inferred clonal relationships are accurate.
+  - **Resolution test** Provide details on the machine learning model, feature selection, training and test set construction, and performance metrics with confidence intervals. Show that the predictive improvement is significant in independent validation cohorts and that the results are robust to different analytical choices. Validate the LSC-like identity of the relapse-associated clones using orthogonal markers or functional assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** We identified a CRE mutation that emerges early in hematopoiesis, introducing a new binding motif for CEBPB, which facilitates its binding to the enhancer, activating enhancer activity and GATA4 expression, thereby promoting AML proliferation.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract describes a CRE mutation that creates a CEBPB binding motif, leading to enhancer activation and GATA4 expression. The claim that this mutation emerges early in hematopoiesis is made, but the evidence for the timing of emergence is not described. The functional validation through luciferase assays and prime editing is mentioned, but the details of these experiments and the magnitude of the effects are not provided.
+  - **Why it matters** The temporal claim about when the mutation emerges is important for understanding AML evolution, but it requires careful phylogenetic analysis of the mtDNA or nuclear mutations. The mechanistic claim that a single CRE mutation can drive enhancer activation and gene expression leading to proliferation is strong and requires demonstration that the effect is specific to the mutation and not a general feature of the locus.
+  - **Resolution test** Provide the evidence for the early emergence of the mutation, including the phylogenetic or clonal analysis used. Show the luciferase and prime editing data with appropriate controls, and demonstrate that the CEBPB binding and enhancer activation are dependent on the specific mutation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "mitochondrial single-cell assay for transposase-accessible chromatin with sequencing mitochondria single-cell ATAC-seq (mtscATAC-seq)" is redundant and confusing. The parenthetical abbreviation is introduced after a phrase that already contains the full name.
+  - **Required correction** Simplify the terminology, for example "mitochondrial single-cell ATAC-seq (mtscATAC-seq)" and define it clearly at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sample description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state how many AML patients or samples were analyzed, nor whether the findings were validated in independent cohorts.
+  - **Required correction** Include the number of patients and samples, and specify whether validation was performed in independent cohorts.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Effect sizes
+  - **Evidence pointer** Abstract
+  - **Issue** No effect sizes or confidence intervals are reported for any of the key findings, including the WT1 mutation effects, the CRE mutation effects, or the predictive performance.
+  - **Required correction** Report effect sizes with confidence intervals for key comparisons and performance metrics for predictive models.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing work
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not contextualize the findings against existing knowledge of WT1 mutations in AML, known CRE mutations, or established prognostic markers.
+  - **Required correction** Briefly state how these findings extend or differ from prior work in the field.
+
+## Risk / unsupported claims
+- The claim that cisGRN analysis revealed WT1 mutation-associated regulatory changes is unsupported without algorithm details and validation.
+- The claim that five specific WT1 mutations are pathogenic is unsupported without experimental details.
+- The claim that marker genes from relapse-associated clones predict drug resistance and relapse risk more accurately is unsupported without model details and validation.
+- The claim that a CRE mutation emerges early in hematopoiesis is unsupported without phylogenetic or clonal timing evidence.
+- The claim that the CRE mutation promotes AML proliferation through CEBPB binding and GATA4 activation is partially supported by mention of luciferase and prime editing experiments, but the details and effect sizes are not provided.
+- The overall utility claim of combining mtscATAC-seq, lineage tracing, and GRN analysis is reasonable as a framework but cannot be evaluated for effectiveness from the abstract alone.

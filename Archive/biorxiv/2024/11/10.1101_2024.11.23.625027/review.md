@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusions, data availability, author contributions, supporting information captions, footnotes)
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and presentation quality as presented in the supplied manuscript text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors used three deep learning-based structure prediction platforms (AlphaFold 3, RoseTTAFold2NA, Chai-1) and one traditional docking tool (HADDOCK) to model the interaction between the competence protein ComP and its cognate DNA uptake sequences (DUS) across seven Neisseriaceae species. They report six predicted binding modes, of which two, named Epsilon and Gamma, were robustly predicted across platforms. They further report platform-specific differences in confidence metrics and modeling propensities, and discuss implications for understanding DUS-specific versus non-specific DNA binding.
+- **Visible evidence base** Manuscript text including abstract, introduction, methods summary, results narrative, discussion, conclusions, supporting information captions, and a GitHub repository link. Figures and tables are referenced but not fully visible in the supplied text. Statistical outputs are referenced as Code Outputs S1-S3 but not provided in full.
+- **Missing materials affecting confidence** Full figures (Fig 1-6), tables (Table 1-4), supplementary figures (Fig S1-S7), supplementary tables (Table S1-S2), and Code Outputs S1-S3 are not visible in the supplied material. Detailed methods for HADDOCK docking parameters, MSA generation specifics, and exact statistical test configurations are not fully described. The GitHub repository contents were not assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant and timely question in the field of bacterial transformation: the molecular basis of DUS recognition by the competence protein ComP. The systematic application of multiple state-of-the-art structure prediction tools is a commendable approach, and the identification of two robustly predicted binding modes (Epsilon and Gamma) provides a useful framework for future experimental work. However, the manuscript has several significant weaknesses. The central conclusion that two distinct binding modes exist is based entirely on computational predictions without experimental validation, and the authors themselves note inconsistencies in mode distribution across platforms that are not fully resolved. The treatment of confidence metrics, particularly the comparison of PAE across platforms with fundamentally different scoring schemes, is problematic. The discussion of DUS specificity is speculative and not well supported by the presented data. The manuscript would benefit from a more critical assessment of the limitations of the computational approach and a clearer articulation of testable hypotheses arising from the predictions.
+- **Who would be interested in the results, and why** Researchers studying natural transformation in Neisseriaceae, particularly those interested in the molecular mechanisms of DNA uptake and DUS recognition. The work may also be of interest to structural biologists and computational biologists evaluating the performance of deep learning-based structure prediction tools for protein-nucleic acid complexes. The comparative benchmarking aspect of the study could inform tool selection for similar modeling tasks.
+- **Major strengths** The systematic and multi-platform approach to modeling an unresolved protein-DNA complex is a strength. The inclusion of seven orthologous ComP proteins and their cognate DUS dialects provides a broad sampling of the interaction space. The authors are transparent about the limitations of their approach, including the challenges of interpreting PAE across platforms and the difficulties in assigning binding modes in HADDOCK outputs with distorted DNA. The identification of two robustly predicted modes, Epsilon and Gamma, provides a clear and testable hypothesis for future experimental work. The discussion of platform-specific behaviors and the potential for conformational changes in DNA during binding is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of central claim
+  - **Claim pointer** The manuscript claims that two binding modes, Epsilon and Gamma, were "robustly modeled across platforms" and represent the most likely modes of ComP-DUS interaction.
+  - **Evidence pointer** Results section, Table 3, Figures 3-5
+  - **Concern** The claim of robustness is not fully supported by the data presented. The authors report that Epsilon was the dominant mode in AF3 and Chai-1, while Gamma was dominant in RF2NA. For several ComP orthologs (e.g., E. cor nat, N. men nat), the mode assignments were ambiguous or inconsistent across platforms. The authors also note that HADDOCK re-docking produced different distributions than the deep learning tools. The definition of "robust" is not clearly operationalized. If robustness means that a mode is predicted with high confidence by all platforms, then neither Epsilon nor Gamma meets this criterion for all seven ComP orthologs. If robustness means that a mode is the most frequently predicted across platforms, the criterion is not clearly stated or consistently applied.
+  - **Why it matters** The central conclusion of the manuscript rests on the claim that Epsilon and Gamma are robustly predicted binding modes. If this claim is not well supported, the entire premise of the study is weakened. The authors need to provide a clear, quantitative definition of robustness and demonstrate that Epsilon and Gamma meet this definition across the majority of ComP orthologs and platforms.
+  - **Resolution test** Provide a clear definition of "robust" (e.g., predicted in at least X% of models across at least Y platforms for at least Z of the 7 ComP orthologs). Apply this definition to the data and show that Epsilon and Gamma meet the criteria. Alternatively, soften the claim to reflect the actual data, e.g., "Epsilon and Gamma were the two most frequently predicted modes, but their relative prevalence varied by platform and ComP ortholog."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of cross-platform comparisons
+  - **Claim pointer** The manuscript compares confidence metrics (PAE, pLDDT, ipTM, CPPM) across AF3, RF2NA, and Chai-1 to assess model quality and draw conclusions about platform performance.
+  - **Evidence pointer** Results section, Figures 4-5, Code Outputs S1-S3
+  - **Concern** The comparison of confidence metrics across platforms is methodologically problematic. PAE, pLDDT, ipTM, and CPPM are not directly comparable across different tools because they are computed using different algorithms, training data, and scoring functions. The authors acknowledge this to some extent ("PAE, by not representing a universal metric were therefore very cautiously considered") but then proceed to make quantitative comparisons and draw conclusions based on these metrics. For example, the statement that "RF2NA predicted less robust models than AF3 and Chai-1" is based on PAE comparisons, but the PAE distributions from RF2NA are systematically higher (8-10) than those from AF3 and Chai-1 (2.5-6), which may reflect differences in how PAE is calculated rather than actual differences in model quality. The use of Wilcoxon rank-sum tests on these non-comparable metrics is statistically questionable.
+  - **Why it matters** The conclusions about platform performance and model quality are central to the manuscript's narrative. If the cross-platform comparisons are not valid, the conclusions about which platforms are more reliable for protein-DNA complex prediction are not supported.
+  - **Resolution test** Either (a) provide evidence that the confidence metrics are comparable across platforms (e.g., by benchmarking on a set of known protein-DNA complexes with experimentally determined structures), or (b) limit the analysis to within-platform comparisons and avoid direct cross-platform claims about model quality. If cross-platform comparisons are essential, use a common metric that is computed consistently across all tools, such as DockQ scores against a reference structure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for DUS-specificity claims
+  - **Claim pointer** The manuscript discusses DUS-specific versus non-specific DNA binding and suggests that the two modes, Epsilon and Gamma, may represent different binding specificities. The scrambled DUS experiments are used to support this discussion.
+  - **Evidence pointer** Results section, Figure 6, Table 4, Discussion
+  - **Concern** The scrambled DUS experiments are used to draw conclusions about DUS specificity, but the analysis is incomplete. The authors report that for some ComP orthologs, native DUS yielded higher ipTM and CPPM than scrambled DUS, while for others (notably AT-DUS), scrambled DUS yielded better scores. The interpretation of these results is not clear. If the native DUS should be preferred by the model, then the fact that scrambled DUS sometimes yields better scores suggests that the models are not capturing DUS specificity. The authors suggest that this may be due to the models reflecting initial, non-specific contacts, but this is speculative. The statistical analysis (Wilcoxon rank-sum tests) is mentioned but the results are not fully presented in the visible text. The authors also note that the two AT-DUS binding ComPs (N. men and N. cin) were difficult to model, which is a significant caveat given that these are the two human pathogens of primary clinical interest.
+  - **Why it matters** The manuscript aims to provide insights into the molecular basis of DUS recognition. If the models do not reliably distinguish native from scrambled DUS, the relevance of the predicted binding modes to DUS-specific recognition is questionable.
+  - **Resolution test** Provide a more complete analysis of the scrambled DUS experiments, including full statistical results. Discuss the implications of the finding that scrambled DUS sometimes yields better scores than native DUS. If the models are not capturing DUS specificity, acknowledge this limitation more explicitly and discuss what the models can and cannot tell us about DUS recognition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The manuscript describes a systematic modeling approach using AF3, RF2NA, Chai-1, and HADDOCK, and provides a GitHub repository for scripts and data.
+  - **Evidence pointer** Materials and Methods, Data Availability
+  - **Concern** The methods section is not fully detailed in the visible text. Key parameters for each tool are not specified (e.g., number of recycles in AF3, number of seeds in RF2NA and Chai-1, specific HADDOCK settings, definition of "top-ranking" models). The criteria for assigning binding modes are described in Table 2, but the exact procedure for classifying models into modes is not fully described. The GitHub repository is mentioned but its contents were not assessed. For a study that relies heavily on computational predictions, the level of methodological detail is insufficient for reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for scientific manuscripts. Without detailed methods, other researchers cannot replicate the study or apply the same approach to their own systems.
+  - **Resolution test** Expand the methods section to include all relevant parameters for each tool. Provide a detailed step-by-step protocol for the modeling pipeline, including how models were selected for analysis, how binding modes were assigned, and how statistical tests were performed. Ensure that the GitHub repository contains all necessary scripts, input files, and output files to reproduce the analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms (e.g., "ipTM", "CPPM") without explanation. The key finding, that two binding modes were robustly predicted, is stated but the significance of this finding for a general audience is not clear.
+  - **Required correction** Briefly explain the significance of the predicted binding modes for understanding natural transformation. Consider defining or avoiding technical acronyms in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 3-5
+  - **Evidence pointer** Figures 3-5 (referenced in text)
+  - **Issue** The figures are not visible in the supplied text, but based on the descriptions, they appear to be complex overlays of many models. It may be difficult for readers to discern the key differences between binding modes from such overlays.
+  - **Required correction** Consider providing simplified schematic representations of the binding modes in addition to the overlays, to aid reader comprehension.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The term "robust" is used frequently but not defined. The authors also use "consensus" and "convergence" in ways that are not always clearly distinguished.
+  - **Required correction** Define these terms early in the manuscript and use them consistently.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction provides a brief overview of natural transformation and ComP but does not fully contextualize the study within the broader literature on protein-DNA interaction prediction and benchmarking of structure prediction tools.
+  - **Required correction** Add a brief discussion of previous computational studies of protein-DNA complexes and how this study advances the field.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Code Outputs S1-S3
+  - **Evidence pointer** Results section, Code Outputs S1-S3
+  - **Issue** The statistical tests are mentioned but the results are not fully presented in the visible text. The authors report significant differences but do not provide effect sizes or confidence intervals.
+  - **Required correction** Include key statistical results in the main text or supplement, including test statistics, p-values, and effect sizes where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validity of central claim), R1-M2 (cross-platform comparability of confidence metrics), R1-M3 (support for DUS-specificity claims), R1-M4 (reproducibility and methodological detail)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of multiple deep learning tools to a specific biological question is not entirely novel, but the systematic comparison across platforms and the focus on ComP-DUS interactions is a useful contribution.
+  - **Scientific importance** Moderate. Understanding the molecular basis of DUS recognition is relevant for understanding natural transformation and potentially for developing interventions. However, the study is purely computational and the biological significance of the predicted binding modes remains to be experimentally validated.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to researchers in bacterial genetics, structural biology, and computational biology. The technical nature of the content may limit its appeal to a broader readership.
+  - **Technical soundness** The technical approach is generally sound, but the cross-platform comparisons of confidence metrics are problematic (R1-M2). The lack of experimental validation is a significant limitation.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with structure prediction tools and confidence metrics. The abstract and introduction could be made more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the systematic approach is commendable, but the central claim of two robustly predicted binding modes is not fully supported by the data as presented. The cross-platform comparisons of confidence metrics are methodologically problematic, and the lack of experimental validation limits the significance of the findings. The manuscript would benefit from a more critical assessment of the limitations of the computational approach and a clearer articulation of testable hypotheses. I would be supportive of the manuscript if the major concerns are addressed, particularly the definition and demonstration of robustness, the treatment of cross-platform metrics, and the addition of sufficient methodological detail for reproducibility.
+
+## Risk / unsupported claims
+- The claim that Epsilon and Gamma are "robustly modeled across platforms" is not fully supported by the data presented, given the inconsistencies in mode distribution across platforms and ComP orthologs.
+- The claim that "RF2NA predicted less robust models than AF3 and Chai-1" is based on cross-platform comparisons of PAE, which may not be directly comparable.
+- The suggestion that the two binding modes may correspond to DUS-specific versus non-specific binding is speculative and not directly supported by the data.
+- The interpretation of scrambled DUS experiments as evidence for or against DUS specificity is incomplete and requires more detailed statistical analysis.
+- The claim that the Epsilon mode has "some previous docking support" from Berry et al. (2016) and Hughes-Games (2020) is based on the authors' interpretation of previously published figures, which is not verifiable from the supplied material.

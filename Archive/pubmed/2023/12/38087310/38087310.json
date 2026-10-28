@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "38087310",
+    "doi": "10.1186/s12967-023-04682-7",
+    "title": "Cirsiliol induces autophagy and mitochondrial apoptosis through the AKT/FOXO1 axis and influences methotrexate resistance in osteosarcoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma (OS) is the most common primary malignant bone tumor in children and adolescents, with poor outcomes for patients with metastatic disease or chemotherapy resistance. Cirsiliol is a recently found flavonoid with anti-tumor effects in various tumors. However, the effects of cirsiliol in the regulation of aggressive behaviors of OS remain unknown. METHODS: The effect of cirsiliol on the proliferation of OS cells was detected using a cell counting kit-8 (CCK-8) assay and 5-ethynyl-2'-deoxyuridine (EdU) staining, while cell apoptosis was detected using flow cytometry. Immunofluorescence was applied to visualize the expression level of the mitochondria, lysosomes and microtubule-associated protein light chain 3 (LC3). A computational molecular docking technique was used to predict the interaction between cirsiliol and the AKT protein. The impact of cirsiliol on resistance was investigated by comparing it between a methotrexate (MTX)-sensitive OS cell line, U2OS, and a MTX-resistant OS cell line, U2OS/MTX. Finally, in situ xenogeneic tumor models were used to validate the anti-tumor effect of cirsiliol in OS. RESULTS: Cirsiliol inhibited cell proliferation and induced apoptosis in both U2OS and U2OS/MTX300 OS cells. In addition, treatment with cirsiliol resulted in G2 phase arrest in U2OS/MTX300 and U2OS cells. Cell fluorescence probe staining results showed impaired mitochondria and increased autophagy in OS cells after treatment with cirsiliol. Mechanistically, it was found that cirsiliol targeted AKT by reducing the phosphorylation of AKT, which further activated the transcriptional activity of forkhead Box O transcription factor 1 (FOXO1), ultimately affecting the function of OS cells. Moreover, in situ tumorigenesis experiments showed that cirsiliol inhibited the tumorigenesis and progression of OS in vivo. CONCLUSIONS: Cirsiliol inhibits OS cell growth and induces cell apoptosis by reducing AKT phosphorylation and further promotes FOXO1 expression. These phenomena indicate that cirsiliol is a promising treatment option for OS.",
+    "keywords": [
+      "Autophagy",
+      "Chemoresistance",
+      "Cirsiliol",
+      "Mitochondrial apoptosis",
+      "Osteosarcoma"
+    ],
+    "mesh_terms": [
+      "Child",
+      "Humans",
+      "Adolescent",
+      "Methotrexate/pharmacology/therapeutic use",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "*Osteosarcoma/drug therapy/pathology",
+      "Apoptosis",
+      "Cell Proliferation",
+      "*Bone Neoplasms/drug therapy/metabolism",
+      "Carcinogenesis",
+      "Autophagy",
+      "Mitochondria/metabolism",
+      "Forkhead Box Protein O1",
+      "Flavones"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Mengliang",
+        "Su, Zexin",
+        "Gao, Haotian",
+        "Tan, Jianye",
+        "Liao, Rongdong",
+        "Yang, Jiancheng",
+        "Lin, Lijun"
+      ],
+      "short_names": [
+        "Luo M",
+        "Su Z",
+        "Gao H",
+        "Tan J",
+        "Liao R",
+        "Yang J",
+        "Lin L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China.",
+        "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China.",
+        "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, China.",
+        "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China.",
+        "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China. yangchen_05@163.com.",
+        "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China. gost1@smu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Mengliang",
+        "short_name": "Luo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China."
+        ]
+      },
+      {
+        "full_name": "Su, Zexin",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Haotian",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jianye",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Rongdong",
+        "short_name": "Liao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiancheng",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China. yangchen_05@163.com."
+        ]
+      },
+      {
+        "full_name": "Lin, Lijun",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint and Orthopedics, Zhujiang Hospital, Southern Medical University, Guangzhou, 510282, China. gost1@smu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2023 Dec 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/13 06:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "42665766",
+      "42394985",
+      "42197562",
+      "41458598",
+      "41381837",
+      "41146710",
+      "40674632",
+      "40629068",
+      "40331192",
+      "40226041",
+      "39990817",
+      "39655055",
+      "38903011"
+    ],
+    "refs": [
+      "36680986",
+      "36632211",
+      "36611218",
+      "36481668",
+      "36231131",
+      "36207761",
+      "36190328",
+      "34508254",
+      "34131316",
+      "34027095",
+      "33870211",
+      "33731185",
+      "33558476",
+      "32887645",
+      "32005981",
+      "31911550",
+      "31903129",
+      "31900833",
+      "31892847",
+      "31585519",
+      "31327761",
+      "31174569",
+      "31060888",
+      "30808672",
+      "30708951",
+      "30617293",
+      "30014903",
+      "29516089",
+      "29358307",
+      "29270406",
+      "29198441",
+      "29127189",
+      "28656003",
+      "27951449",
+      "27531281",
+      "27383545",
+      "26304877",
+      "26062553",
+      "25919885",
+      "24166473",
+      "23902763",
+      "22665540",
+      "20208562",
+      "18454852",
+      "17588771",
+      "17311537",
+      "11357141",
+      "10932094",
+      "10102273",
+      "6432877"
+    ],
+    "similar": [
+      "38087310",
+      "21617882",
+      "26045752",
+      "32323781",
+      "33372687",
+      "30442873",
+      "30518744",
+      "35431285",
+      "22693904",
+      "30132953",
+      "26505795",
+      "32726125",
+      "29257319",
+      "29669353",
+      "39086352",
+      "24967384",
+      "31001861",
+      "34681897",
+      "21440986",
+      "33000186",
+      "33154629",
+      "30657552",
+      "25792811",
+      "30864717",
+      "34257801",
+      "33724400",
+      "35575588",
+      "25371071",
+      "28038429",
+      "21627865",
+      "32914567",
+      "37052456",
+      "29197865",
+      "23091618",
+      "30520540",
+      "31413213",
+      "29807230",
+      "38191316",
+      "30153855",
+      "31695327",
+      "27176794",
+      "30704503",
+      "32302291",
+      "33435987",
+      "32088353",
+      "35032258",
+      "29936511",
+      "32757663",
+      "32197645",
+      "27716441",
+      "34080667",
+      "29462818",
+      "24566468",
+      "35130734",
+      "21163061",
+      "38343056",
+      "30691497",
+      "35029287",
+      "31739642",
+      "35385884",
+      "26017117",
+      "22583777",
+      "38228583",
+      "32955002",
+      "31746363",
+      "36300343",
+      "32861171",
+      "30182951",
+      "28623712",
+      "30003744",
+      "24163085",
+      "29393336",
+      "34706747",
+      "36183058",
+      "30106429",
+      "23563171",
+      "26797271",
+      "30840262",
+      "32390359",
+      "29620168",
+      "28770967",
+      "37527738",
+      "34019097",
+      "24639013",
+      "37789274",
+      "33577022",
+      "33448097",
+      "30587459",
+      "37272097",
+      "32969555",
+      "23066961",
+      "29441873",
+      "38769124",
+      "29807229",
+      "33217539",
+      "32456526",
+      "32113150",
+      "35385883",
+      "32312946",
+      "26924291",
+      "39196519",
+      "38319715",
+      "39318019",
+      "32970611",
+      "39216834"
+    ],
+    "review": [
+      "38087310",
+      "37854721"
+    ],
+    "pmc": [
+      "10714637"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-04682-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38087310/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38087310",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

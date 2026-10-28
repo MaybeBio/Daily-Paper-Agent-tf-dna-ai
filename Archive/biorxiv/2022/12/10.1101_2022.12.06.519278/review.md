@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary information list)
+- **Assessment boundary** Scientific content and technical soundness only. No assessment of formatting, grammar, or editorial style beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors report the identification and characterization of 11 CBP60 family members in tomato, including phylogenetic, structural, and expression analyses under biotic and abiotic stress. They propose SlCBP60_1, 8, and 11 as candidate functional orthologs of Arabidopsis CBP60g and SARD1 based on sequence and structural similarity, and report that five SlCBP60 genes are pathogen-responsive and temperature-sensitive.
+- **Visible evidence base** Main figures 1-5 (described in text), Supplementary Tables 1-4, Supplementary Data 1. No raw data files, no statistical analysis details, no figure files, no supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** Figure files (all), supplementary tables (all), supplementary data (all), raw qPCR data, statistical analysis outputs, promoter sequence alignments, AlphaFold confidence metrics (pLDDT, PAE), and any code or analysis scripts. The manuscript text alone is insufficient to verify several key claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive bioinformatics and gene expression study of the CBP60 transcription factor family in tomato. The work is potentially useful as a foundation for future functional studies, but the current evidence base is largely computational and descriptive. The central claims regarding orthology, structural similarity, and stress regulation are plausible but not fully established from the provided material. The lack of statistical detail, raw data, and functional validation limits the strength of the conclusions. The manuscript would benefit from clearer presentation of methods and results, and from tempering claims that exceed the evidence.
+- **Who would be interested in the results, and why** Researchers studying plant immunity, calcium signalling, and transcription factor families in crop species. The identification of candidate orthologs of Arabidopsis immune regulators in tomato could inform translational research on disease resistance in Solanaceae. The structural predictions may also interest computational biologists working on transcription factor structure-function relationships.
+- **Major strengths** The study addresses an important gap by extending knowledge of the CBP60 family from Arabidopsis to a major crop species. The combination of phylogenetic, structural, and expression analyses provides a multi-layered approach. The use of AlphaFold for structural prediction is timely and appropriate. The identification of specific candidate orthologs (SlCBP60_1, 8, 11) gives clear direction for future functional work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Protein sequence analyses revealed that three CBP60 homologs have the closest amino acid identity to Arabidopsis CBP60g and SARD1" and "AlphaFold deep learning-assisted prediction of protein structures highlighted close structural similarity between these tomato and Arabidopsis CBP60 homologs."
+  - **Evidence pointer** Figure 1A, Figure 2B, Supplementary Table 3, location not provided
+  - **Concern** The manuscript reports sequence identity and structural similarity but does not provide quantitative values, statistical support, or clear thresholds for what constitutes "closest" or "close" similarity. The phylogenetic tree (Figure 1A) and TM-score clustering (Figure 2B) are described but the actual data are not available for inspection. TM-score interpretation requires context (e.g., what scores are considered significant for structural homology), and this is not provided.
+  - **Why it matters** The identification of candidate orthologs is a central claim of the paper. Without quantitative support and clear criteria, the assignment of SlCBP60_1, 8, and 11 as the closest homologs cannot be independently verified. This weakens the foundation for all subsequent interpretations.
+  - **Resolution test** Provide the full phylogenetic tree with bootstrap support values, the complete TM-score matrix, and explicit thresholds for sequence identity and structural similarity. Include AlphaFold confidence metrics (pLDDT, PAE) to support the reliability of predicted structures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "five tomato CBP60 genes were pathogen-responsive and temperature-sensitive" and "SlCBP60-2, 6, 8, 9 and 11 genes were induced after pathogen infection"
+  - **Evidence pointer** Figure 3, Figure 4, location not provided
+  - **Concern** The gene expression results are described qualitatively. No statistical analysis is reported (e.g., fold-change thresholds, p-values, error bars, number of biological replicates beyond "four independent plants"). The distinction between "pathogen-responsive" and "temperature-sensitive" is not operationally defined. The claim that some genes were "temperature-resilient" is also not supported by statistical evidence.
+  - **Why it matters** The expression data are the only experimental evidence in the manuscript. Without proper statistical reporting, the conclusions about differential regulation under biotic and abiotic stress cannot be evaluated. This is a fundamental issue for a study that claims to characterize stress regulation.
+  - **Resolution test** Provide full statistical analysis of qPCR data, including mean values, standard errors, p-values or confidence intervals, and clear criteria for defining induction, suppression, and temperature sensitivity. Include raw data as supplementary material.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "we provide evidence on their regulation and potential function as Ca2+-sensing transcriptional regulators"
+  - **Evidence pointer** Figure 1B, location not provided
+  - **Concern** The claim of "potential function as Ca2+-sensing transcriptional regulators" is based solely on the presence of predicted CAM-binding domains and DNA-binding domains. No functional assays, binding experiments, or calcium-dependence studies are presented. The presence of a domain is weak evidence for function, especially when the domains are predicted in silico.
+  - **Why it matters** The title and abstract emphasize "stress regulation" and "plant immunity-associated" functions. The current evidence does not establish any functional role. Overstating the implications of domain predictions could mislead readers and overstate the significance of the work.
+  - **Resolution test** Either temper the language to clearly indicate that function is speculative, or add experimental evidence such as calcium-binding assays, transcriptional activation assays, or mutant analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Conserved domain analyses revealed that they possess CAM-binding domains and DNA-binding domains"
+  - **Evidence pointer** Figure 1B, location not provided
+  - **Concern** The methods for domain prediction are described only as "Pfam" and "DP-Bind" without specifying parameters, thresholds, or versions. The overlap between predicted CAM-binding and DNA-binding domains is noted but not discussed in terms of functional implications. The reliability of these predictions is not assessed.
+  - **Why it matters** Domain predictions are a key part of the structural characterization. Without methodological detail, the results cannot be reproduced or evaluated. The unusual finding of overlapping CAM-binding and DNA-binding domains warrants discussion.
+  - **Resolution test** Provide detailed methods for domain prediction, including software versions, thresholds, and any manual curation. Discuss the implications of overlapping domains.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction assume familiarity with plant immunity terminology (e.g., pattern-triggered immunity, effector-triggered immunity, systemic acquired resistance) without brief explanations. This may limit accessibility for readers outside the plant immunity field.
+  - **Required correction** Add brief definitions or context for key terms, or provide a short background paragraph in the Introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Gene expression analyses
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The methods for gene expression analysis are described only in the Results section and lack detail. The reference gene for normalization (SlACT2) is mentioned, but no validation of its stability under the experimental conditions is provided.
+  - **Required correction** Move the gene expression methods to the Methods section and include details on RNA extraction, cDNA synthesis, qPCR conditions, and validation of the reference gene.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The Discussion speculates about future directions (e.g., phosphorylation, chromatin architecture) without clearly distinguishing between what the data support and what is speculative.
+  - **Required correction** Clearly separate findings from speculation, and avoid over-interpreting the current results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Promoter analyses
+  - **Evidence pointer** Figure 5, location not provided
+  - **Issue** The promoter analysis is described as a "similarity clustering" but the methods for alignment and tree construction are not specified. The relationship between promoter similarity and transcription factor binding is discussed but not quantitatively assessed.
+  - **Required correction** Provide details on promoter sequence alignment and tree construction methods. Consider adding a quantitative comparison between promoter similarity and shared transcription factors.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for orthology claims), R1-M2 (statistical analysis of expression data), R1-M4 (methodological detail for domain predictions). These are the primary technical issues that prevent the current evidence from fully supporting the manuscript's claims.
+- **Assessment against Nature-style criteria** Originality: Moderate. The study is the first to characterize the CBP60 family in tomato, but the approach is largely descriptive and follows established patterns from Arabidopsis studies. Scientific importance: Moderate. The work identifies candidate orthologs that could be important for crop immunity, but functional validation is lacking, limiting immediate impact. Interdisciplinary readership: Limited. The study is primarily of interest to plant molecular biologists and pathologists. Technical soundness: Weak. The lack of statistical detail and methodological transparency undermines confidence in the results. Readability for nonspecialists: Adequate but could be improved with better context for key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential value as a descriptive resource, but the central claims require substantial additional support, particularly quantitative data and methodological detail. I would be supportive if the technical concerns are resolved and the claims are appropriately tempered.
+
+## Risk / unsupported claims
+- The claim that SlCBP60_1, 8, and 11 are the closest homologs to AtCBP60g and AtSARD1 is unsupported without quantitative sequence identity and structural similarity data.
+- The claim that five SlCBP60 genes are "pathogen-responsive and temperature-sensitive" is unsupported without statistical analysis of expression data.
+- The claim of "potential function as Ca2+-sensing transcriptional regulators" is speculative and not supported by functional evidence.
+- The claim that "none of the SlCBP60 genes exhibited statistically significant systemic induction" is unverifiable without statistical details.
+- The statement that "SlCBP60_1, 8 and 11 may be the functional tomato orthologs" is presented as a conclusion but is explicitly acknowledged as requiring "further genetic confirmation," making it a hypothesis rather than an established finding.
+- The promoter analysis claims about shared transcription factors are descriptive and not supported by statistical or functional validation.

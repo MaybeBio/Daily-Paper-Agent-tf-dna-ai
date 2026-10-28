@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41292756",
+  "title": "Characterizing spatial functional microniches with SpaceTravLR.",
+  "authors": "Ramjattun, Koushul; Wang, Alyson; Lee, Hannah; Giri, Shilpi; Chen, Yijia; MacDonald, William A; Lord, Nathan D; Poholek, Amanda C; Lee, Youjin; Das, Jishnu",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-26",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出SpaceTravLR，用可解释机器学习从空间组学数据推断转录因子等扰动对组织微环境的影响，虽涉及TF但无蛋白-DNA结合建模或AI/物理模拟方法，仅间接相关。",
+  "abstract": "The advent of spatial omics has revolutionized our understanding of tissue biology; however, these technologies remain largely descriptive and do not capture how changes in gene regulation propagate across spatial neighborhoods. While in-silico perturbation methods and foundation models aim to model the impact of genetic perturbations, these methods are limited to single-cell approaches that lack spatial resolution. Other studies can delineate morphological domains based on transcriptional similarity, but not spatial functional microniches. We address this major unmet need by developing SpaceTravLR (Spatially perturbing Transcription factors, Ligands and Receptors), a novel interpretable machine learning approach that generalizes across tissues and species, uncovering spatial features linked to functional outcomes, thereby capturing functional microniches with spatial resolution. SpaceTravLR infers how single or combinatorial genetic perturbations rewire signals across the tissue neighborhood, by propagating effects through underlying spatially resolved molecular networks, thereby modeling how perturbations can reshape both the targeted cell and its surrounding neighborhood. SpaceTravLR defines novel spatial microniches across a range of tissues at different scales of organization (niches, neighborhoods and tissues), disease and developmental contexts. SpaceTravLR's perturbation predictions are made solely from spatial omics data and closely align with experimental validation or known outcomes based on mechanistic studies. Critically, our approach enables the generation of mechanistic hypotheses underlying identified niches. We show SpaceTravLR discovered a novel mechanism for Ccr4 that drives the spatial location of a pathogenic population of allergen-specific T helper 2 (Th2) cells as they develop in the lymph node, which was experimentally validated in a murine model. Overall, SpaceTravLR provides a novel interpretable and experimentally validated framework for uncovering how genes act individually and combinatorially through cell-intrinsic and cell-extrinsic circuits to shape spatial tissue organization and function.",
+  "abstract_zh": "空间组学（spatial omics）的出现彻底改变了我们对组织生物学的理解；然而，这些技术在很大程度上仍停留在描述性层面，并未捕捉基因调控变化如何在空间邻域间传播。尽管计算机模拟扰动方法和基础模型旨在模拟遗传扰动的影响，但这些方法局限于缺乏空间分辨率的单细胞方法。其他研究可基于转录相似性描绘形态学区域，但无法识别空间功能性微生态位（functional microniches）。我们通过开发SpaceTravLR（空间扰动转录因子、配体和受体，Spatially perturbing Transcription factors, Ligands and Receptors）来解决这一重大未满足需求，这是一种新颖的可解释机器学习方法，可跨组织和物种泛化，揭示与功能结果相关的空间特征，从而以空间分辨率捕捉功能性微生态位。SpaceTravLR通过将效应传播至潜在的空间解析分子网络，推断单一或组合遗传扰动如何重塑组织邻域内的信号，从而模拟扰动如何重塑靶细胞及其周围邻域。SpaceTravLR在不同组织尺度（微生态位、邻域和组织）、疾病及发育背景下定义了新颖的空间微生态位。SpaceTravLR的扰动预测仅基于空间组学数据生成，并与实验验证或基于机制研究的已知结果紧密吻合。关键的是，我们的方法能够生成所识别微生态位背后的机制假设。我们展示了SpaceTravLR发现了Ccr4的一种新机制，该机制驱动过敏原特异性T辅助2型（Th2）细胞在淋巴结中发育时致病群体的空间定位，并在小鼠模型中得到了实验验证。总体而言，SpaceTravLR提供了一个新颖、可解释且经实验验证的框架，用于揭示基因如何通过细胞内在和细胞外在回路单独及组合地作用，以塑造空间组织结构和功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41292756/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41292756/",
+  "paper_page_path": "papers/pubmed/41292756/index.html"
+}

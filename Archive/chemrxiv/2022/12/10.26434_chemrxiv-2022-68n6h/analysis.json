@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2022-68n6h",
+  "title": "Enhancing Semiempirical Quantum Mechanical Scoring with Machine Learning: a new scoring function that accounts for both the enthalpic and entropic contributions to the ligand binding free energy",
+  "authors": "Thomas Evangelidis; Ilektra-Chara Giassa,; Mario Lovrić",
+  "journal": "ChemRxiv",
+  "published_date": "2022-12-23",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习增强半经验量子力学打分函数，聚焦蛋白-配体结合自由能，虽涉及分子互作建模，但对象为小分子配体而非蛋白质-DNA，方法可迁移性有限。",
+  "abstract": "Identifying hit compounds is a principal step in early-stage drug discovery. While many machine learning (ML) approaches have been proposed, in the absence of binding data, molecular docking is the most widely used option to predict binding modes and score hundreds of thousands of compounds for binding affinity to the target protein. Docking's effectiveness is critically dependent on the protein-ligand (P-L) scoring function (SF), thus re-scoring with more rigorous SFs is a common practice. In this pilot study, we scrutinize the PM6-D3H4X/COSMO semi-empirical quantum mechanical (SQM) method as a docking pose re-scoring tool on 17 diverse receptors and ligand decoy sets, totaling 1.5 million P-L complexes. We investigate the effect of explicitly computed ligand conformational entropy and ligand deformation energy on SQM P-L scoring in a virtual screening (VS) setting, as well as molecular mechanics (MM) versus hybrid SQM/MM structure optimization prior to re-scoring. Our results proclaim that there is no obvious benefit from computing ligand conformational entropies or deformation energies and that optimizing only the ligand's geometry on the SQM level is sufficient to achieve the best possible scores. Instead, we leverage machine learning (ML) to include implicitly the missing entropy terms to the SQM score using ligand topology, physicochemical, and P-L interaction descriptors. Our new hybrid scoring function, named SQM-ML, is transparent and explainable, and achieves in average 9\\% higher AUC-ROC than PM6-D3H4X/COSMO and 3\\% higher than Glide SP, but with consistent and predictable performance across all test sets, unlike the former two SFs, whose performance is considerably target-dependent and sometimes resembles that of a random classifier. The code to prepare and train SQM-ML models is available at \\url{https://github.com/tevang/sqm-ml.git} and we believe that will pave the way for a new generation of hybrid SQM/ML protein-ligand scoring functions.",
+  "abstract_zh": "识别命中化合物是早期药物发现中的关键步骤。尽管已提出许多机器学习（ML）方法，但在缺乏结合数据的情况下，分子对接（molecular docking）是预测结合模式并对数十万化合物针对靶蛋白的结合亲和力进行评分的最广泛使用选项。对接的有效性关键依赖于蛋白质-配体（P-L）评分函数（SF），因此使用更严格的SF进行重新评分是常见做法。在本初步研究中，我们审查了PM6-D3H4X/COSMO半经验量子力学（SQM）方法作为对接姿态重新评分工具，应用于17个多样化的受体和配体诱饵集，总计150万个P-L复合物。我们研究了在虚拟筛选（VS）环境中，显式计算配体构象熵和配体变形能对SQM P-L评分的影响，以及在重新评分前采用分子力学（MM）与混合SQM/MM结构优化的效果。我们的结果表明，计算配体构象熵或变形能没有明显益处，仅在SQM水平上优化配体几何结构足以获得最佳可能评分。相反，我们利用机器学习（ML）通过配体拓扑、物理化学和P-L相互作用描述符，将缺失的熵项隐式纳入SQM评分。我们新的混合评分函数，命名为SQM-ML，透明且可解释，平均AUC-ROC比PM6-D3H4X/COSMO高9%，比Glide SP高3%，但在所有测试集上表现一致且可预测，与前两种SF不同，后者的性能显著依赖靶标，有时类似于随机分类器。用于准备和训练SQM-ML模型的代码可在\\url{https://github.com/tevang/sqm-ml.git}获取，我们相信这将为新一代混合SQM/ML蛋白质-配体评分函数铺平道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2022-68n6h",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2022-68n6h",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2022-68n6h/index.html"
+}

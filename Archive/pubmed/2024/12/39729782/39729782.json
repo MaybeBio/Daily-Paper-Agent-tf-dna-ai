@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "39729782",
+    "doi": "10.1016/j.phymed.2024.156337",
+    "title": "Sanguinarine suppresses oral squamous cell carcinoma progression by targeting the PKM2/TFEB aix to inhibit autophagic flux."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Oral squamous cell carcinoma (OSCC) is one of the most common malignancies. However, there is no effective treatment for OSCC. PURPOSE: This study aimed to identify a natural compound with significant efficacy against OSCC and elucidate its primary mechanism of action. METHODS: An FDA-approved drug library and an MCE autophagy-related molecular compound library were screened through high-throughput screening to identify an effective natural compound against OSCC. The IC50 value of sanguinarine (Sang) in OSCC cells was determined using a CCK8 assay. Immunoblotting and immunofluorescence staining were used to assess the effect of Sang on autophagic flux in OSCC cells. Changes in the acidic lysosomal environment were evaluated using RFP-GFP-LC3B and LysoSensor Green DND-189. Furthermore, limited proteolysis-coupled mass spectrometry (LiP-MS) and virtual screening techniques were utilized to identify direct binding targets of Sang, which were subsequently validated by surface plasmon resonance (SPR) and microscale thermophoresis (MST). Molecular docking combined with molecular dynamics analysis identified the binding site between the target protein and Sang. In vitro and in vivo investigations with mutant plasmids confirmed this finding. RESULTS: Screening led to the identification of the naturally occurring autophagy modulator Sang as a potent inhibitor of OSCC progression. Moreover, Sang impaired lysosomal function through reducing lysosomal-associated membrane proteins, inhibiting lysosomal proteolysis, and altering the lysosomal pH. These effects contributed to defects in autophagic clearance and subsequently suppressed OSCC progression. Notably, Sang bound the phenylalanine 26 (F26) residue in pyruvate kinase M2 (PKM2) and inhibited PKM2 enzymatic activity, subsequently suppressing transcription factor EB (TFEB) expression to inhibit lysosomal function and blocking autophagic flux in OSCC cells. CONCLUSION: Our results demonstrate for the first time that Sang can suppress the PKM2/TFEB axis, and influence lysosomal function, thereby blocking autophagy and inhibiting the progression of OSCC, making it a promising therapeutic option for the treatment of OSCC.",
+    "keywords": [
+      "Autophagy",
+      "Oral squamous cell carcinoma (OSCC)",
+      "Sanguinarine (Sang)",
+      "Transcription factor EB (TFEB)",
+      "pyruvate kinase M2 (PKM2)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autophagy/drug effects",
+      "*Mouth Neoplasms/drug therapy/pathology/metabolism",
+      "*Benzophenanthridines/pharmacology",
+      "*Isoquinolines/pharmacology",
+      "Cell Line, Tumor",
+      "Thyroid Hormone-Binding Proteins",
+      "*Carrier Proteins/metabolism",
+      "*Carcinoma, Squamous Cell/drug therapy/pathology/metabolism",
+      "Molecular Docking Simulation",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/metabolism",
+      "*Membrane Proteins/metabolism",
+      "*Thyroid Hormones/metabolism",
+      "Animals",
+      "Mice",
+      "Mice, Nude",
+      "Disease Progression"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Yong-Chun",
+        "He, Zhi-Jing",
+        "Yin, Lun-Cai",
+        "Pi, Hui-Feng",
+        "Jiang, Yi",
+        "Li, Ke-Yan",
+        "Tian, Li",
+        "Xie, Jia",
+        "Zhang, Jian-Bo",
+        "Li, Chen-Yao",
+        "Feng, Guan-Ying",
+        "Wang, Kai",
+        "Zhou, Ding-Zhou",
+        "Xie, Xiao-Wei",
+        "Zhang, Zhi-Yuan",
+        "Fan, Teng-Fei"
+      ],
+      "short_names": [
+        "Peng YC",
+        "He ZJ",
+        "Yin LC",
+        "Pi HF",
+        "Jiang Y",
+        "Li KY",
+        "Tian L",
+        "Xie J",
+        "Zhang JB",
+        "Li CY",
+        "Feng GY",
+        "Wang K",
+        "Zhou DZ",
+        "Xie XW",
+        "Zhang ZY",
+        "Fan TF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China.",
+        "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China.",
+        "Department of Oncology, Affiliated Dazu Hospital of Chongqing Medical University, Chongqing 402360, China.",
+        "Department of Occupational Health (Key Laboratory of Electromagnetic Radiation Protection, Ministry of Education), Army Medical University (Third Military Medical University), Chongqing 400038, China. State Key Laboratory of Trauma and Chemical Poisoning, Army Medical University, Chongqing 400038, China.",
+        "Department of Pathology, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China.",
+        "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China.",
+        "Department of Occupational Health (Key Laboratory of Electromagnetic Radiation Protection, Ministry of Education), Army Medical University (Third Military Medical University), Chongqing 400038, China. State Key Laboratory of Trauma and Chemical Poisoning, Army Medical University, Chongqing 400038, China.",
+        "Department of Occupational Health (Key Laboratory of Electromagnetic Radiation Protection, Ministry of Education), Army Medical University (Third Military Medical University), Chongqing 400038, China. State Key Laboratory of Trauma and Chemical Poisoning, Army Medical University, Chongqing 400038, China.",
+        "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China.",
+        "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China.",
+        "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China.",
+        "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China.",
+        "Department of Neurosurgery, Hunan Provincial People's Hospital (The First-Affiliated Hospital of Hunan Normal University), Changsha, Hunan 410005, China.",
+        "Clinical Nursing Teaching and Research Section, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China.",
+        "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China; Department of Oral and Maxillofacial Surgery, Zhang Zhiyuan Academician Workstation, Hainan Western Central Hospital, Shanghai Ninth People's Hospital, Danzhou, Hainan 571700, China. Electronic address: zhzhy@sjtu.edu.cn.",
+        "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China; Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China. Electronic address: tengfeifan@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Yong-Chun",
+        "short_name": "Peng YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "He, Zhi-Jing",
+        "short_name": "He ZJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Lun-Cai",
+        "short_name": "Yin LC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Affiliated Dazu Hospital of Chongqing Medical University, Chongqing 402360, China."
+        ]
+      },
+      {
+        "full_name": "Pi, Hui-Feng",
+        "short_name": "Pi HF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health (Key Laboratory of Electromagnetic Radiation Protection, Ministry of Education), Army Medical University (Third Military Medical University), Chongqing 400038, China. State Key Laboratory of Trauma and Chemical Poisoning, Army Medical University, Chongqing 400038, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yi",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke-Yan",
+        "short_name": "Li KY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Li",
+        "short_name": "Tian L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health (Key Laboratory of Electromagnetic Radiation Protection, Ministry of Education), Army Medical University (Third Military Medical University), Chongqing 400038, China. State Key Laboratory of Trauma and Chemical Poisoning, Army Medical University, Chongqing 400038, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jia",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health (Key Laboratory of Electromagnetic Radiation Protection, Ministry of Education), Army Medical University (Third Military Medical University), Chongqing 400038, China. State Key Laboratory of Trauma and Chemical Poisoning, Army Medical University, Chongqing 400038, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian-Bo",
+        "short_name": "Zhang JB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen-Yao",
+        "short_name": "Li CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Guan-Ying",
+        "short_name": "Feng GY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ding-Zhou",
+        "short_name": "Zhou DZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hunan Provincial People's Hospital (The First-Affiliated Hospital of Hunan Normal University), Changsha, Hunan 410005, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Xiao-Wei",
+        "short_name": "Xie XW",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Nursing Teaching and Research Section, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhi-Yuan",
+        "short_name": "Zhang ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China; Department of Oral and Maxillofacial Surgery, Zhang Zhiyuan Academician Workstation, Hainan Western Central Hospital, Shanghai Ninth People's Hospital, Danzhou, Hainan 571700, China. Electronic address: zhzhy@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fan, Teng-Fei",
+        "short_name": "Fan TF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Second Xiangya Hospital of Central South University, Changsha, Hunan 410011, China; Department of Oral and Maxillofacial-Head Neck Oncology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine; College of Stomatology, Shanghai Jiao Tong University; National Center for Stomatology; National Clinical Research Center for Oral Diseases; Shanghai Key Laboratory of Stomatology; Research Unit of Oral and Maxillofacial Regenerative Medicine, Chinese Academy of Medical Sciences, Shanghai 200011, China. Electronic address: tengfeifan@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/28 11:43",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42689019",
+      "42650205",
+      "42435254",
+      "42253922",
+      "42230450",
+      "41975649",
+      "41900849",
+      "41806079",
+      "41668813",
+      "41433248",
+      "41399321",
+      "41286896",
+      "41255604",
+      "41139458",
+      "41003973",
+      "40242453"
+    ],
+    "refs": [],
+    "similar": [
+      "39729782",
+      "28240313",
+      "38877863",
+      "31071178",
+      "25970228",
+      "35462576",
+      "29363886",
+      "30335591",
+      "28075474",
+      "40017157",
+      "34751932",
+      "32512069",
+      "37164279",
+      "38513840",
+      "30894069",
+      "36868108",
+      "29570219",
+      "27487838",
+      "33212146",
+      "36284386",
+      "21868527",
+      "28987793",
+      "38390831",
+      "32587255",
+      "27396692",
+      "39609491",
+      "38838401",
+      "23151022",
+      "32597296",
+      "39663580",
+      "32086839",
+      "39155514",
+      "31319114",
+      "29916308",
+      "39289945",
+      "32764647",
+      "27620487",
+      "39921531",
+      "29316035",
+      "39321706",
+      "35716542",
+      "40335588",
+      "38615740",
+      "29316373",
+      "38788395",
+      "26205068",
+      "30599913",
+      "29170033",
+      "35880728",
+      "34328195",
+      "31690173",
+      "31237760",
+      "30414849",
+      "33166766",
+      "40072093",
+      "27689333",
+      "30654731",
+      "38719825",
+      "28085115",
+      "39675125",
+      "39178722",
+      "28569774",
+      "39107736",
+      "37172712",
+      "39832686",
+      "29176314",
+      "30059277",
+      "29172997",
+      "39694118",
+      "30706760",
+      "30154423",
+      "39623433",
+      "38583418",
+      "32398958",
+      "29524554",
+      "34743185",
+      "30054909",
+      "31746368",
+      "25212667",
+      "28710602",
+      "30205384",
+      "27417236",
+      "29307831",
+      "26968950",
+      "29795139",
+      "38139347",
+      "30257458",
+      "37043160",
+      "29703234",
+      "26115765",
+      "32702505",
+      "36719671",
+      "36615502",
+      "34403298",
+      "29125238",
+      "25808097",
+      "30333555",
+      "39438678",
+      "38488668",
+      "38579904"
+    ],
+    "review": [
+      "39729782",
+      "39178722"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00992-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/oralcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Oral Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3588",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

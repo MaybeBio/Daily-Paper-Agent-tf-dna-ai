@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "40723924",
+    "doi": "10.3390/biom15071053",
+    "title": "Cullin-3 and Regulatory Biomolecules Profiling in Vitiligo: Integrated Docking, Clinical, and In Silico Insights."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Vitiligo, a chronic depigmentation disorder driven by oxidative stress and immune dysregulation, remains poorly understood mechanistically. The Keap1/NRF2/ARE pathway is critical for melanocyte protection against oxidative damage; however, the role of Cullin-3 (CUL3), a scaffold for E3 ubiquitin ligases that regulate NRF2 degradation, and its interplay with inflammatory mediators in vitiligo pathogenesis are underexplored. This study investigates CUL3, NRF2, and the associated regulatory networks in vitiligo, integrating clinical profiling and computational docking to identify therapeutic targets. METHODS: A case-control study compared non-segmental vitiligo patients with age-/sex-matched controls. Lesional skin biopsies were analyzed by qRT-PCR for the expression of CUL3, NRF2, miRNA-146a, FOXP3, NF-kappaB, IL-6, TNF-alpha, and P53. Molecular docking was used to evaluate vitexin's binding affinity to Keap1, validated by root mean square deviation (RMSD) calculations. RESULTS: Patients with vitiligo exhibited significant downregulation of CUL3 (0.27 +/- 0.03 vs. 1 +/- 0.58; p = 0.013), NRF2 (0.37 +/- 0.26 vs. 1 +/- 0.8; p = 0.001), and FOXP3 (0.09 +/- 0.2 vs. 1 +/- 0.3; p = 0.001), alongside the upregulation of miRNA-146a (4.7 +/- 1.9 vs. 1 +/- 0.8; p = 0.001), NF-kappaB (4.7 +/- 1.9 vs. 1 +/- 0.5; p = 0.001), IL-6 (2.8 +/- 1.5 vs. 1 +/- 0.4; p = 0.001), and TNF-alpha (2.2 +/- 1.1 vs. 1 +/- 0.3; p = 0.001). P53 showed no differential expression (p > 0.05). Docking revealed a strong binding of vitexin to Keap1 (RMSD: 0.23 A), mirroring the binding of the control ligand CDDO-Im. CONCLUSIONS: Dysregulation of the CUL3/Keap1/NRF2 axis and elevated miRNA-146a levels correlate with vitiligo progression, suggesting a role for oxidative stress and immune imbalance. Vitexin's high-affinity docking to Keap1 positions it as a potential modulator of the NRF2 pathway, offering novel therapeutic avenues. This study highlights the translational potential of targeting the ubiquitin-proteasome and antioxidant pathways in the management of vitiligo.",
+    "keywords": [
+      "E3 ubiquitin ligase",
+      "cullin-3 (CUL3)",
+      "keap1",
+      "microRNA-146a (miR-146a)",
+      "nuclear factor erythroid 2-related factor 2 (NRF2)",
+      "oxidative stress",
+      "vitexin",
+      "vitiligo",
+      "vitiligo index of disease activity (VIDA) score"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Vitiligo/metabolism/genetics/pathology",
+      "*Cullin Proteins/metabolism/genetics/chemistry",
+      "Molecular Docking Simulation",
+      "Female",
+      "Male",
+      "NF-E2-Related Factor 2/metabolism/genetics",
+      "Adult",
+      "Kelch-Like ECH-Associated Protein 1/metabolism/genetics/chemistry",
+      "MicroRNAs/genetics/metabolism",
+      "Case-Control Studies",
+      "Middle Aged",
+      "Forkhead Transcription Factors/genetics/metabolism",
+      "NF-kappa B/metabolism/genetics",
+      "Tumor Necrosis Factor-alpha/genetics/metabolism",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abdellatif, Hidi A A",
+        "Azab, Mohamed",
+        "El-Sayed, Eman Hassan",
+        "Halim, Rwan M M M",
+        "Milebary, Ahmad J",
+        "Alenizi, Dhaifallah A",
+        "Fawzy, Manal S",
+        "Abd El-Fadeal, Noha M"
+      ],
+      "short_names": [
+        "Abdellatif HAA",
+        "Azab M",
+        "El-Sayed EH",
+        "Halim RMMM",
+        "Milebary AJ",
+        "Alenizi DA",
+        "Fawzy MS",
+        "Abd El-Fadeal NM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5346-8956",
+        "ORCID: 0000-0001-8571-2231",
+        "ORCID: 0000-0003-1252-8403",
+        "ORCID: 0000-0003-1852-4374"
+      ],
+      "affiliations": [
+        "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+        "Oncology Diagnostic Unit, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+        "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, King Salman International University, Tur Sinai 46618, Egypt.",
+        "Dermatology, Venereology and Andrology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+        "Clinical Pathology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+        "Faculty of Medicine, Alexandria University, Alexandria 21526, Egypt.",
+        "Department of Medical Laboratory, King Fahad Armed Forces Hospital, Jeddah 23311, Saudi Arabia.",
+        "Department of Medicine, Faculty of Medicine, Northern Border University, Arar 91431, Saudi Arabia.",
+        "Center for Health Research, Northern Border University, Arar 73213, Saudi Arabia.",
+        "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+        "Oncology Diagnostic Unit, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+        "Biochemistry Department, Ibn Sina National College for Medical Studies, Jeddah 22421, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abdellatif, Hidi A A",
+        "short_name": "Abdellatif HAA",
+        "identifiers": [
+          "0000-0002-5346-8956"
+        ],
+        "affiliations": [
+          "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+          "Oncology Diagnostic Unit, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+          "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, King Salman International University, Tur Sinai 46618, Egypt."
+        ]
+      },
+      {
+        "full_name": "Azab, Mohamed",
+        "short_name": "Azab M",
+        "identifiers": [],
+        "affiliations": [
+          "Dermatology, Venereology and Andrology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt."
+        ]
+      },
+      {
+        "full_name": "El-Sayed, Eman Hassan",
+        "short_name": "El-Sayed EH",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Pathology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt."
+        ]
+      },
+      {
+        "full_name": "Halim, Rwan M M M",
+        "short_name": "Halim RMMM",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Alexandria University, Alexandria 21526, Egypt."
+        ]
+      },
+      {
+        "full_name": "Milebary, Ahmad J",
+        "short_name": "Milebary AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, King Fahad Armed Forces Hospital, Jeddah 23311, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alenizi, Dhaifallah A",
+        "short_name": "Alenizi DA",
+        "identifiers": [
+          "0000-0001-8571-2231"
+        ],
+        "affiliations": [
+          "Department of Medicine, Faculty of Medicine, Northern Border University, Arar 91431, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Fawzy, Manal S",
+        "short_name": "Fawzy MS",
+        "identifiers": [
+          "0000-0003-1252-8403"
+        ],
+        "affiliations": [
+          "Center for Health Research, Northern Border University, Arar 73213, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abd El-Fadeal, Noha M",
+        "short_name": "Abd El-Fadeal NM",
+        "identifiers": [
+          "0000-0003-1852-4374"
+        ],
+        "affiliations": [
+          "Medical Biochemistry and Molecular Biology Department, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+          "Oncology Diagnostic Unit, Faculty of Medicine, Suez Canal University, Ismailia 41522, Egypt.",
+          "Biochemistry Department, Ibn Sina National College for Medical Studies, Jeddah 22421, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Jul 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:30",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42170107"
+    ],
+    "refs": [
+      "40466982",
+      "40430113",
+      "39860439",
+      "39320694",
+      "38534198",
+      "37891461",
+      "37151246",
+      "36980512",
+      "36980277",
+      "36704875",
+      "36582445",
+      "36552553",
+      "36439174",
+      "36101400",
+      "35884944",
+      "35625530",
+      "35288099",
+      "34804349",
+      "34780118",
+      "34198907",
+      "33977871",
+      "33238435",
+      "33200838",
+      "33186606",
+      "33045867",
+      "32566174",
+      "32463851",
+      "32284348",
+      "31905036",
+      "30931480",
+      "30723188",
+      "30651813",
+      "30610225",
+      "30484529",
+      "29867484",
+      "29694408",
+      "29504235",
+      "29499228",
+      "29182456",
+      "29165376",
+      "28685247",
+      "28524065",
+      "28370349",
+      "28256516",
+      "28247923",
+      "27222660",
+      "26941046",
+      "25495156",
+      "25484882",
+      "25396094",
+      "25376752",
+      "25308528",
+      "25211541",
+      "25029322",
+      "24662764",
+      "23470042",
+      "22470201",
+      "21985183",
+      "21534921",
+      "20850013",
+      "20664557",
+      "19246619",
+      "18852851",
+      "18438844",
+      "17900609",
+      "15264254",
+      "15210457",
+      "11936274",
+      "11846609"
+    ],
+    "similar": [
+      "40723924",
+      "37156295",
+      "29306329",
+      "15282312",
+      "15601839",
+      "20486766",
+      "41092551",
+      "27697860",
+      "31898230",
+      "41489533",
+      "23454126",
+      "25114896",
+      "30261176",
+      "15572695",
+      "40714402",
+      "24138990",
+      "35531720",
+      "28115426",
+      "35487311",
+      "36007890",
+      "33895141",
+      "36994473",
+      "38630726",
+      "32120017",
+      "31220575",
+      "31178131",
+      "30383469",
+      "16449638",
+      "15983046",
+      "32161178",
+      "22448038",
+      "39699825",
+      "40107017",
+      "30338917",
+      "20421418",
+      "18757741",
+      "26878775",
+      "32574549",
+      "38479223",
+      "19489739",
+      "37328017",
+      "30273379",
+      "28333129",
+      "24596130",
+      "38876457",
+      "33045867",
+      "28453520",
+      "31446056",
+      "19638449",
+      "39581695",
+      "27621311",
+      "33096251",
+      "33186606",
+      "15367669",
+      "21795997",
+      "40058266",
+      "28842501",
+      "25049078",
+      "19818716",
+      "31059771",
+      "36930785",
+      "21793854",
+      "41115069",
+      "34617407",
+      "29255090",
+      "30576774",
+      "20027226",
+      "36268033",
+      "26238671",
+      "37660919",
+      "40738354",
+      "37714439",
+      "29920381",
+      "32672401",
+      "23727018",
+      "39308109",
+      "21385624",
+      "27045103",
+      "38865000",
+      "29565500",
+      "31017694",
+      "41206404",
+      "28746889",
+      "40333848",
+      "40782127",
+      "16785233",
+      "33647480",
+      "32787104",
+      "17636022",
+      "16790436",
+      "31763849",
+      "19279002",
+      "38270324",
+      "28502971",
+      "34237577",
+      "32031966",
+      "37573837",
+      "19786557",
+      "28061435",
+      "41790277"
+    ],
+    "review": [
+      "40723924",
+      "20486766",
+      "31898230",
+      "40714402",
+      "36994473",
+      "32120017",
+      "40107017",
+      "32574549",
+      "33186606",
+      "28842501",
+      "36930785",
+      "21793854",
+      "41206404",
+      "38270324"
+    ],
+    "pmc": [
+      "12294106"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15071053",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/vitiligo.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Vitiligo"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40723924/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

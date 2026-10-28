@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39131360",
+  "title": "moPPIt: De Novo Generation of Motif-Specific Binders with Protein Language Models.",
+  "authors": "Chen, Tong; Zhang, Yinuo; Chatterjee, Pranam",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-08-12",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用蛋白语言模型和Transformer生成靶向特定基序的肽段结合物，虽聚焦蛋白-肽互作而非TF-DNA，但其基于序列的互作位点预测与生成方法可迁移至TF-DNA结合建模。",
+  "abstract": "The ability to precisely target specific motifs on disease-related proteins, whether conserved epitopes on viral proteins, intrinsically disordered regions within transcription factors, or breakpoint junctions in fusion oncoproteins, is essential for modulating their function while minimizing off-target effects. Current methods struggle to achieve this specificity without reliable structural information. In this work, we introduce a motif-specific PPI targeting algorithm, moPPIt, for de novo generation of motif-specific peptide binders from the target protein sequence alone. At the core of moPPIt is BindEvaluator, a transformer-based model that interpolates protein language model embeddings of two proteins via a series of multi-headed self-attention blocks, with a key focus on local motif features. Trained on over 510,000 annotated PPIs, BindEvaluator accurately predicts target binding sites given protein-protein sequence pairs with a test AUC > 0.94, improving to AUC > 0.96 when fine-tuned on peptide-protein pairs. By combining BindEvaluator with our PepMLM peptide generator and genetic algorithm-based optimization, moPPIt generates peptides that bind specifically to user-defined residues on target proteins. We demonstrate moPPIt's efficacy in computationally designing binders to specific motifs, first on targets with known binding peptides and then extending to structured and disordered targets with no known binders. In total, moPPIt serves as a powerful tool for developing highly specific peptide therapeutics without relying on target structure or structure-dependent latent spaces.",
+  "abstract_zh": "精确靶向疾病相关蛋白上的特定基序——无论是病毒蛋白上的保守表位、转录因子内的固有无序区域，还是融合癌蛋白中的断点连接——对于调节其功能同时最小化脱靶效应至关重要。当前方法在缺乏可靠结构信息的情况下难以实现这种特异性。在本工作中，我们引入了一种基序特异性PPI靶向算法moPPIt，用于仅从目标蛋白序列从头生成基序特异性肽结合物。moPPIt的核心是BindEvaluator，一种基于transformer的模型，通过一系列多头自注意力块插值两种蛋白质的蛋白质语言模型嵌入，重点关注局部基序特征。BindEvaluator在超过510,000个注释PPI上训练，在给定蛋白质-蛋白质序列对时准确预测靶结合位点，测试AUC > 0.94，在肽-蛋白质对上微调后提升至AUC > 0.96。通过将BindEvaluator与我们的PepMLM肽生成器和基于遗传算法的优化相结合，moPPIt生成特异性结合目标蛋白上用户定义残基的肽。我们展示了moPPIt在计算设计针对特定基序的结合物方面的有效性，首先针对已知结合肽的目标，然后扩展到无已知结合物的有序和无序目标。总体而言，moPPIt作为开发高特异性肽治疗药物的强大工具，无需依赖目标结构或结构依赖性潜在空间。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39131360/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39131360/",
+  "paper_page_path": "papers/pubmed/39131360/index.html"
+}

@@ -1,0 +1,507 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.26.630389",
+  "title": "MethylQUEEN: A Methylation Encoded DNA Foundation Model",
+  "doi": "10.1101/2024.12.26.630389",
+  "abstract": "DNA 5-methylcytosine (5mC) modification plays a pivotal role in many biological processes, yet 5mC information and pattern hidden behind remains to be explored. Here, we develop Methyl ation Language Model based on Qu intupl e Bidir e ctional Tra n sformer (MethylQUEEN), a novel pre-trained DNA methylation foundation model capable of sensing methylation states and covering the genome-wide methylation landscape. Through tailored methylation-prone pre-training, MethylQUEEN effectively captured epigenetics information hidden within the DNA sequences: it accurately traces DNA’s tissue-of-origin, and successfully recovers the expression profile through methylation states. Integrative analysis on MethylQUEEN’s attention scores also enables us to reveal the unique methylation status of a tissue for precise disease detection, and identifying key regulatory 5mC sites for disease intervention. As a result, MethylQUEEN signifies a new paradigm in methylation analysis for various biological problems. Besides, our study demonstrates the effectiveness of directly integrating methylation information into pre-training, offering new perspectives and methodologies for a range of methylation-related biological processes. It serves as an initial exploration for the development of more comprehensive epigenomic models.",
+  "authors": [
+    "Mingyang Li",
+    "Ruichu Gu",
+    "Shiyu Fan",
+    "Yu Fan",
+    "Bo He",
+    "Jinmin Yang",
+    "Yuting Chen",
+    "Mengling Xin",
+    "Han Wen",
+    "Chengqi Yi"
+  ],
+  "published_date": "2024-12-26",
+  "updated_date": "2024-12-26T14:05:14Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.26.630389",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.26.630389.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            7
+          ]
+        ],
+        "date-time": "2026-02-07T00:25:07Z",
+        "timestamp": 1770423907135,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            26
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                26
+              ]
+            ],
+            "date-time": "2024-12-26T00:00:00Z",
+            "timestamp": 1735171200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA 5-methylcytosine (5mC) modification plays a pivotal role in many biological processes, yet 5mC information and pattern hidden behind remains to be explored. Here, we develop\n                  <jats:bold>\n                    <jats:underline>Methyl</jats:underline>\n                  </jats:bold>\n                  ation Language Model based on\n                  <jats:bold>\n                    <jats:underline>Qu</jats:underline>\n                  </jats:bold>\n                  intupl\n                  <jats:bold>\n                    <jats:underline>e</jats:underline>\n                  </jats:bold>\n                  Bidir\n                  <jats:bold>\n                    <jats:underline>e</jats:underline>\n                  </jats:bold>\n                  ctional Tra\n                  <jats:bold>\n                    <jats:underline>n</jats:underline>\n                  </jats:bold>\n                  sformer (MethylQUEEN), a novel pre-trained DNA methylation foundation model capable of sensing methylation states and covering the genome-wide methylation landscape. Through tailored methylation-prone pre-training, MethylQUEEN effectively captured epigenetics information hidden within the DNA sequences: it accurately traces DNA’s tissue-of-origin, and successfully recovers the expression profile through methylation states. Integrative analysis on MethylQUEEN’s attention scores also enables us to reveal the unique methylation status of a tissue for precise disease detection, and identifying key regulatory 5mC sites for disease intervention. As a result, MethylQUEEN signifies a new paradigm in methylation analysis for various biological problems. Besides, our study demonstrates the effectiveness of directly integrating methylation information into pre-training, offering new perspectives and methodologies for a range of methylation-related biological processes. It serves as an initial exploration for the development of more comprehensive epigenomic models.\n                </jats:p>",
+      "DOI": "10.1101/2024.12.26.630389",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            26
+          ]
+        ],
+        "date-time": "2024-12-26T14:05:14Z",
+        "timestamp": 1735221914000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "MethylQUEEN: A Methylation Encoded DNA Foundation Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-0078-8389",
+          "authenticated-orcid": false,
+          "given": "Mingyang",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ruichu",
+          "family": "Gu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shiyu",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bo",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jinmin",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuting",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mengling",
+          "family": "Xin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Han",
+          "family": "Wen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chengqi",
+          "family": "Yi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3772"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14192"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3354"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1685"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2005"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/JCO.2004.07.151"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nbt.2008.12.009"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1706.03762"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1810.04805"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.02.27.582234"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.07.11.548588"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2403.00043"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.10.29.564590"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.24.619766"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.30.621013"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.17",
+          "unstructured": "Portes, J. , et al. MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining."
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1010-1045"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2108.12409"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2205.14135"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0205537"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3758"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(80)90237-8"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/acel.12349"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.08.056"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07087-8"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2653"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00401-019-01994-1"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-11-0044"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02201-0"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20209620"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0229-21"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2002.05202"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2106.09685"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab250"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2003.06505"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-02059-3"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-05580-6"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb2879"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.211854.116"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-21-1982"
+        },
+        {
+          "key": "2024122919481691000_2024.12.26.630389v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2111920118"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.26.630389",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:44:35Z",
+        "timestamp": 1768463075000
+      },
+      "score": 73.27236,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.26.630389"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            26
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2024.12.26.630389",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

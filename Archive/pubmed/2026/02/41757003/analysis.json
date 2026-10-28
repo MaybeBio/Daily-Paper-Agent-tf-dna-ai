@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41757003",
+  "title": "Multi-modal tissue-aware graph neural network for in silico genetic discovery.",
+  "authors": "Aggarwal, Anusha; Sokolova, Ksenia; Troyanskaya, Olga G",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出多模态组织感知图神经网络Mahi，整合染色质可及性、TF结合、组蛋白修饰和蛋白结构特征预测基因必需性，虽涉及TF结合但非聚焦TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Understanding how perturbations influence gene function in a tissue-specific manner is key to uncovering novel drug targets. However, current computational approaches emphasize global network or sequence-derived features over context-driven dependencies. We introduce Mahi, a scalable and interpretable graph neural network framework that learns gene representations by integrating chromatin accessibility, transcription factor binding, histone modifications, and protein structure features in tissue-specific contexts. Through pretraining on tissue-specific network topologies followed by multi-modal feature integration, Mahi learns context-aware gene embeddings across 290 tissues and cell-types. Mahi outperforms sequence-based models in predicting gene essentiality across 1,183 cancer cell lines, demonstrating the advantage of integrating molecular context and functional connectivity. The learned embedding space reveals tissue-specific functional organization, with genes forming distinct clusters reflecting their context-dependent roles. In silico gene knockout perturbations demonstrate Mahi's ability to model intricate perturbation responses, identifying disease-relevant pathways and therapeutic targets. Together, these results demonstrate Mahi as a foundation for modeling tissue-specific gene function and perturbation responses, enabling applications in precision medicine, therapeutic target discovery, and prediction of context-dependent genetic vulnerabilities. All embeddings and the framework are publicly available to facilitate use by the scientific community.",
+  "abstract_zh": "理解扰动如何以组织特异性方式影响基因功能，是发现新药物靶点的关键。然而，当前计算方法侧重于全局网络或序列衍生特征，而非情境驱动依赖性。我们引入Mahi，一种可扩展且可解释的图神经网络框架，通过整合染色质可及性、转录因子结合、组蛋白修饰和蛋白质结构特征，在组织特异性情境中学习基因表示。通过在组织特异性网络拓扑上进行预训练，随后进行多模态特征整合，Mahi在290个组织和细胞类型中学习到情境感知的基因嵌入。Mahi在预测1,183个癌细胞系中的基因必需性方面优于基于序列的模型，展示了整合分子情境和功能连接性的优势。学习到的嵌入空间揭示了组织特异性的功能组织，基因形成反映其情境依赖角色的不同聚类。计算机模拟基因敲除扰动展示了Mahi建模复杂扰动响应的能力，识别出疾病相关通路和治疗靶点。综合这些结果，Mahi作为建模组织特异性基因功能和扰动响应的基础，支持精准医学、治疗靶点发现以及预测情境依赖性遗传脆弱性等应用。所有嵌入和框架均公开可用，以促进科学社区的使用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41757003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41757003/",
+  "paper_page_path": "papers/pubmed/41757003/index.html"
+}

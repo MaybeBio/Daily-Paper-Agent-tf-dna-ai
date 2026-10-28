@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41499168",
+    "doi": "10.1530/ETJ-25-0198",
+    "title": "Network toxicology and Mendelian randomization reveal pathogenic factors of monoethyl phthalate-induced thyroid cancer."
+  },
+  "content": {
+    "abstract": "Monoethyl phthalate, a major metabolite of phthalate esters, is commonly found in the environment and has been linked to an increased risk of thyroid cancer. This study uses network toxicology to predict molecular initiators involved in monoethyl phthalate-induced thyroid cancer and to explore causal relationships and biological mechanisms. We identified 72 common candidate genes of monoethyl phthalate and thyroid cancer from PubChem, CTD, STITCH, GeneCards, and OMIM databases and selected 48 genes for Mendelian randomization (MR) analysis. Using the IEU database and employing expression quantitative trait loci (eQTLs) as instrumental variables, we executed MR analysis to identify 10 monoethyl phthalate-related targets with potential causal relationship to thyroid cancer. Gene ontology and the Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses highlighted that the biological processes primarily involve intracellular receptor signaling, response to estradiol, nuclear receptor activity, ligand-activated transcription factor activity, and cancer-related signaling pathways, such as the cell cycle and tryptophan metabolism. A protein-protein interaction (PPI) network identified interactions between seven of these genes, revealing five core genes (ESR1, SKP2, CASP8, ARNT, and CDKN1B) as key candidate mediators in monoethyl phthalate-induced thyroid cancer. Molecular docking simulations suggested potential direct interactions between monoethyl phthalate and its protein products. Our findings propose 10 genes as potential mediators of monoethyl phthalate-induced thyroid cancer, with ESR1, SKP2, CASP8, ARNT, and CDKN1B highlighted as core factors potentially involved in thyroid cancer pathogenesis.",
+    "keywords": [
+      "Mendelian randomization",
+      "molecular docking",
+      "monoethyl phthalate",
+      "network toxicology",
+      "thyroid cancer"
+    ],
+    "mesh_terms": [
+      "*Phthalic Acids/toxicity",
+      "Humans",
+      "*Thyroid Neoplasms/genetics/chemically induced",
+      "Mendelian Randomization Analysis",
+      "Protein Interaction Maps",
+      "Quantitative Trait Loci",
+      "Estrogen Receptor alpha/genetics",
+      "S-Phase Kinase-Associated Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiao",
+        "Chen, Dandan",
+        "Zhang, Junping",
+        "Han, Xiudan",
+        "Xu, Jixiong",
+        "Liu, Ying"
+      ],
+      "short_names": [
+        "Wang J",
+        "Chen D",
+        "Zhang J",
+        "Han X",
+        "Xu J",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9356-5622"
+      ],
+      "affiliations": [
+        "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+        "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+          "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dandan",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+          "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junping",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+          "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiudan",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+          "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jixiong",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+          "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ying",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0001-9356-5622"
+        ],
+        "affiliations": [
+          "Department of Endocrine and Metabolism, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Clinical Research Center for Endocrine and Metabolic Disease, Nanchang, Jiangxi, China.",
+          "Jiangxi Branch of National Clinical Research Center for Metabolic Disease, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European thyroid journal"
+    ],
+    "journal_abbrev": [
+      "Eur Thyroid J"
+    ],
+    "pub_date": "2026 Feb 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/07 13:17",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40130383",
+      "40009226",
+      "39974412",
+      "39550874",
+      "39499724",
+      "39453570",
+      "38964723",
+      "38962683",
+      "38830480",
+      "38671149",
+      "38297317",
+      "38150316",
+      "38007574",
+      "37858827",
+      "37724677",
+      "37697373",
+      "37696456",
+      "37446892",
+      "37080529",
+      "37023783",
+      "36958664",
+      "36864689",
+      "36768991",
+      "36694914",
+      "36370105",
+      "36350656",
+      "36231010",
+      "36213288",
+      "35953132",
+      "35940406",
+      "35810816",
+      "35563021",
+      "35440136",
+      "35392562",
+      "35301297",
+      "34562612",
+      "34562484",
+      "34520948",
+      "33140857",
+      "32528402",
+      "32442541",
+      "32102189",
+      "32081544",
+      "31541958",
+      "31477170",
+      "31333723",
+      "30588877",
+      "29865233",
+      "28124274",
+      "27338034",
+      "27240885",
+      "23329180",
+      "20124451",
+      "17639054",
+      "15817693"
+    ],
+    "similar": [
+      "41499168",
+      "41088691",
+      "41191606",
+      "42466619",
+      "40958307",
+      "40696610",
+      "40653100",
+      "42421348",
+      "42152365",
+      "41701740",
+      "41984189",
+      "42173079",
+      "41548183",
+      "41780179",
+      "41492010",
+      "41183465",
+      "41650055",
+      "42332356",
+      "39178760",
+      "39780215",
+      "40924735",
+      "41790626",
+      "41814225",
+      "40108295",
+      "41574553",
+      "40345629",
+      "40715557",
+      "42548293",
+      "41667778",
+      "41239476",
+      "40943141",
+      "38896366",
+      "41303381",
+      "40239776",
+      "37287284",
+      "41656572",
+      "41641566",
+      "42495626",
+      "41448363",
+      "41239930",
+      "38759074",
+      "40605076",
+      "37469733",
+      "41309766",
+      "41616832",
+      "41083578",
+      "41630051",
+      "42499056",
+      "39055656",
+      "40916281",
+      "42260878",
+      "40073855",
+      "38670393",
+      "42103034",
+      "41601048",
+      "41630303",
+      "40354873",
+      "40752663",
+      "42375743",
+      "41986576",
+      "42283552",
+      "38968061",
+      "42592322",
+      "33358854",
+      "40625361",
+      "41367007",
+      "41310176",
+      "42093283",
+      "40359556",
+      "40223054",
+      "40760645",
+      "39185308",
+      "39960968",
+      "41989152",
+      "39992538",
+      "40653482",
+      "41316712",
+      "39401154",
+      "41134653",
+      "41832938",
+      "40676786",
+      "40790309",
+      "40512387",
+      "42349175",
+      "41496077",
+      "41064833",
+      "41574914",
+      "41096726",
+      "40780689",
+      "40379931",
+      "42004723",
+      "41711838",
+      "38822913",
+      "40586299",
+      "41673191",
+      "41843163",
+      "37879505",
+      "40728954",
+      "39823480",
+      "40319252"
+    ],
+    "review": [
+      "41499168",
+      "33358854"
+    ],
+    "pmc": [
+      "13138598"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1530/ETJ-25-0198",
+        "provider": "S. Karger AG, Basel, Switzerland",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41499168/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1237",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.bioscientifica.com/ETJ/article-lookup/doi/10.1530/ETJ-25-0198",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

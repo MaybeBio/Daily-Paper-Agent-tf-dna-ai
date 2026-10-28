@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "42501686",
+    "doi": "10.1016/j.ecoenv.2026.120551",
+    "title": "Integrated multi-omics analysis suggests a potential mechanism of DEHP-induced monocyte infiltration in MASH via the FOS-CCL3/4 axis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Di-(2-ethylhexyl) phthalate (DEHP) is a widespread environmental obesogen; however, its immune-proinflammatory mechanisms in the progression of metabolic dysfunction-associated steatohepatitis (MASH) remain incompletely elucidated. This study aims to comprehensively characterize the core targets and molecular mechanisms by which DEHP disrupts the hepatic microenvironment and drives disease progression through multi-omics integration and experimental analysis. METHODS: Real-world clinical transcriptomic cohorts were integrated and combined with LASSO and SVM-RFE machine learning algorithms to screen for core pathogenic genes intersecting MASH and DEHP exposure. Single-cell RNA sequencing (scRNA-seq) and virtual knockout (scTenifoldKnk) technologies were utilized to decipher the cell-type-specific expression of target genes and their downstream regulatory networks. The binding mode between the small molecule and the protein was evaluated using CB-Dock2. Furthermore, siRNA interference, Western blotting, real-time quantitative PCR, and Transwell assays were comprehensively applied in HepG2 and THP-1 cell models to systematically verify the biological functions of the \"DEHP-target gene-chemokine\" regulatory cascade. RESULTS: Machine learning algorithms accurately identified the transcription factor FOS as the core hub gene for DEHP-mediated MASH regulation, which showed promising diagnostic potential. Following resampling validation in a small independent cohort, FOS yielded an adjusted AUC of 0.964, though future validation in larger populations is warranted. Single-cell mapping revealed a significant downregulation of FOS expression within the MASH hepatic immune microenvironment, particularly in monocyte and NK cell subpopulations; systematic virtual knockout simulation predicted that FOS suppression potentially leads to substantial activation of chemokine signaling pathways. In vitro cellular experiments corroborated that DEHP induces hepatic lipid accumulation and biochemical injury in a dose-dependent manner, while targeted FOS knockdown further exacerbates this lipotoxic phenotype. Molecular docking studies suggested that DEHP potentially interacts with the binding pocket of the FOS protein through a multiple-hydrogen-bond network, thereby suppressing its transcription and translation. The suppression of FOS expression abolishes its physiological negative regulation of downstream chemokines, resulting in the high-level release of CCL3 and CCL4, which subsequently drives the transmembrane chemotaxis and infiltration of peripheral monocytes into the liver. CONCLUSIONS: This study suggests a potential mechanism by which DEHP exposure may promote monocyte infiltration and exacerbate MASH pathogenesis, potentially by interacting with and inhibiting the core regulatory protein FOS, thereby relieving its suppressive effect on CCL3/CCL4. These findings deepen our understanding of the \"multiple-hit\" mechanism by which environmental endocrine disruptors participate in liver diseases, highlighting FOS as a potential biomarker for environment-related metabolic diseases that warrants further thorough in vivo validation before considering it as a clinical intervention target.",
+    "keywords": [
+      "Chemokines",
+      "Di-(2-ethylhexyl) phthalate",
+      "FOS",
+      "Metabolic dysfunction-associated steatohepatitis",
+      "Monocyte infiltration",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diethylhexyl Phthalate/toxicity",
+      "*Monocytes/drug effects",
+      "*Fatty Liver/chemically induced/genetics/metabolism",
+      "Multiomics",
+      "*Proto-Oncogene Proteins c-fos/metabolism/genetics",
+      "Hep G2 Cells",
+      "THP-1 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Chaojie",
+        "Zhang, Zhihao",
+        "Huang, Yuqing",
+        "Shi, Yandan",
+        "Lei, Peng"
+      ],
+      "short_names": [
+        "Wang C",
+        "Zhang Z",
+        "Huang Y",
+        "Shi Y",
+        "Lei P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Southern University of Science and Technology, Shenzhen 518000, China. Electronic address: bio0671@163.com.",
+        "Department of Radiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise 533000, China; Youjiang Medical University for Nationalities, Baise 533000, China. Electronic address: zzh20382@163.com.",
+        "College of Basic Medical Sciences, Inner Mongolia Medical University, Hohhot 010000, China. Electronic address: immu1999@163.com.",
+        "Department of Radiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise 533000, China. Electronic address: 15078188059@ymun.edu.cn.",
+        "Department of Radiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise 533000, China; Guangxi Key Laboratory of Artificial Intelligence for Genetic Diseases of Long-dwelling Nationalities, Guangxi 533000, China. Electronic address: leibio1996@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Chaojie",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southern University of Science and Technology, Shenzhen 518000, China. Electronic address: bio0671@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhihao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise 533000, China; Youjiang Medical University for Nationalities, Baise 533000, China. Electronic address: zzh20382@163.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuqing",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Inner Mongolia Medical University, Hohhot 010000, China. Electronic address: immu1999@163.com."
+        ]
+      },
+      {
+        "full_name": "Shi, Yandan",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise 533000, China. Electronic address: 15078188059@ymun.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lei, Peng",
+        "short_name": "Lei P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise 533000, China; Guangxi Key Laboratory of Artificial Intelligence for Genetic Diseases of Long-dwelling Nationalities, Guangxi 533000, China. Electronic address: leibio1996@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/26 00:42",
+    "fetched_at": "2026-10-02 02:16:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42501686",
+      "41459671",
+      "42032347",
+      "40916281",
+      "41794809",
+      "41895505",
+      "41436831",
+      "42269260",
+      "41716413",
+      "42158856",
+      "41310859",
+      "42088521",
+      "41373010",
+      "40360670",
+      "41831735",
+      "42558367",
+      "42107160",
+      "41737848",
+      "42486346",
+      "41651080",
+      "42123445",
+      "42233387",
+      "41303381",
+      "41591671",
+      "41469761",
+      "41124907",
+      "42256313",
+      "41038150",
+      "42461936",
+      "42263871",
+      "41371106",
+      "42236612",
+      "41611834",
+      "41763175",
+      "42377012",
+      "42178099",
+      "42494595",
+      "41111909",
+      "41650055",
+      "41832498",
+      "40764361",
+      "42520089",
+      "41254784",
+      "41388523",
+      "41616689",
+      "40406118",
+      "38199361",
+      "42015036",
+      "41826854",
+      "42317364",
+      "42269982",
+      "42051095",
+      "42475469",
+      "41630051",
+      "42241798",
+      "41939867",
+      "41847139",
+      "39522884",
+      "41656838",
+      "41185013",
+      "42082057",
+      "41967175",
+      "42249649",
+      "42435052",
+      "41601671",
+      "41771476",
+      "41132349",
+      "42070532",
+      "42416832",
+      "40317014",
+      "42543068",
+      "42113191",
+      "41342434",
+      "41673191",
+      "41722245",
+      "42309401",
+      "41288681",
+      "42305536",
+      "41107929",
+      "42276391",
+      "40840619",
+      "40834611",
+      "42510881",
+      "42074514",
+      "42197164",
+      "42024670",
+      "42421348",
+      "41795680",
+      "41200169",
+      "38882600",
+      "41764790",
+      "41099090",
+      "40220593",
+      "42228706",
+      "42304923",
+      "39923572",
+      "42429909",
+      "41344438",
+      "33754040",
+      "41935542"
+    ],
+    "review": [
+      "42501686",
+      "40220593"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00881-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-964",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

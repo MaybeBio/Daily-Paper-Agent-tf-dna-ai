@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.03.569768",
+  "title": "DeePNAP: A deep learning method to predict protein-nucleic acids binding affinity from sequence",
+  "authors": "Uddeshya Pandey; Sasi M. Behara; Siddhant Sharma; Rachit S. Patil; Souparnika Nambiar; Debasish Koner; Hussain Bhukya",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-05",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 7,
+  "one_liner_zh": "提出基于序列的深度学习模型DeePNAP，预测蛋白质-核酸结合亲和力及突变自由能变化，虽非聚焦TF-DNA但属于广义蛋白-DNA互作且方法可迁移。",
+  "abstract": "Predicting the protein-nucleic acid (PNA) binding affinity solely from their sequences is of paramount importance for the experimental design and analysis of PNA interactions (PNAIs). A large number of currently developed models for binding affinity prediction are limited to specific PNAIs, while also relying on both sequence and structural information of the PNA complexes for both train/test and also as inputs. As PNA complex structures available are scarce, this significantly limits the diversity and generalizability due to a small training dataset. Additionally, a majority of the tools predict a single parameter such as binding affinity or free energy changes upon mutations, rendering a model less versatile for usage. Hence, we propose DeePNAP, a machine learning-based model trained on a vast and heterogeneous dataset with 14,401 entries (from both eukaryotes and prokaryotes) of ProNAB database, consisting of wild-type and mutant PNA complex binding parameters. Our model precisely predicts the binding affinity and free energy changes due to the mutation(s) of PNAIs exclusively from the sequences. While other similar tools extract features from both sequence and structure information, DeePNAP employs sequence-based features to yield high correlation coefficients between the predicted and experimental values with low root mean squared errors for PNA complexes in predicting the K D and ΔΔG implying the generalizability of DeePNAP. Additionally, we have also developed a web interface hosting DeePNAP that can serve as a powerful tool to rapidly predict binding affinities for a myriad of PNAIs with high precision toward developing a deeper understanding of their implications in various biological systems. Web interface: http://14.139.174.41:8080/",
+  "abstract_zh": "仅从序列预测蛋白质-核酸（PNA）结合亲和力，对于PNA相互作用（PNAIs）的实验设计和分析至关重要。目前开发的许多结合亲和力预测模型仅限于特定的PNAIs，同时依赖PNA复合物的序列和结构信息进行训练/测试及作为输入。由于可用的PNA复合物结构稀缺，这显著限制了数据集的多样性和泛化能力，因为训练数据集较小。此外，大多数工具预测单一参数，如结合亲和力或突变后的自由能变化，使得模型在应用上不够灵活。因此，我们提出DeePNAP，一种基于机器学习的模型，在包含14,401条记录（来自真核生物和原核生物）的ProNAB数据库的庞大且异质的数据集上训练，涵盖野生型和突变型PNA复合物结合参数。我们的模型仅从序列中精确预测PNAIs的结合亲和力及由突变引起的自由能变化。虽然其他类似工具从序列和结构信息中提取特征，DeePNAP采用基于序列的特征，在预测PNA复合物的K D 和ΔΔG时，预测值与实验值之间产生高相关系数和低均方根误差，表明DeePNAP的泛化能力。此外，我们还开发了一个托管DeePNAP的Web界面，可作为快速预测多种PNAIs结合亲和力的强大工具，具有高精度，有助于深入理解其在各种生物系统中的意义。Web界面：http://14.139.174.41:8080/",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.03.569768",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.03.569768",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.03.569768/index.html"
+}

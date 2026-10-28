@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "pmid": "38335853",
+    "doi": "10.1016/j.compbiolchem.2024.108026",
+    "title": "Feature engineering from meta-data for prediction of differentially expressed genes: An investigation of Mus musculus exposed to space-conditions."
+  },
+  "content": {
+    "abstract": "Transcription profiling is a key process that can reveal those biological mechanisms driving the response to various exposure conditions or gene perturbations. In this work, we investigate the prediction of differentially expressed genes (DEGs) when exposed to conditions in space from a set of diverse engineered features. To do this, we collected DEGs and non-differentially expressed genes (NDEGs) of Mus musculus-based experiments on the GeneLab database. We engineered a diverse set of features from factors reported in the literature to affect gene expression. An extreme gradient boosting (XGBoost) model was trained to predict if a given gene would be differentially expressed at various levels of differential expression. The test results on a separate holdout dataset showed an area under the receiver operating characteristics curves (AUCs) of 0.90+/-0.07, averaged across the five selected percentages of the most and least differentially expressed genes. Subsequently, we investigated the impact of selection of features, both individually with a correlation-based feature-selection procedure and in groups with a combination procedure, on the prediction performance. The feature selection confirmed some known drivers of adaptation to radiation and highlighted some new transcription factors and micro RNAs (miRNAs). Finally, gene ontology (GO) analysis revealed biological processes that tend to have expression patterns most suitable for this approach. This work highlights the potential of detection of differentially expressed genes using a machine learning (ML) approach, and provides some evidence of gene expression changes being captured by a diverse feature set not related to the condition under study.",
+    "keywords": [
+      "Differentially expressed genes",
+      "Extreme gradient boosting",
+      "Feature engineering",
+      "Machine learning",
+      "Radiation-exposure adaptation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Databases, Factual",
+      "Gene Ontology",
+      "*Machine Learning",
+      "*MicroRNAs/genetics",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Okwori, Michael",
+        "Eslami, Ali"
+      ],
+      "short_names": [
+        "Okwori M",
+        "Eslami A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical, Computer and Biomedical Engineering, Union College, Schenectady, 12308, NY, United States of America. Electronic address: okworim@union.edu.",
+        "Department of Electrical and Computer Engineering, Wichita State University, Wichita, 67260, KS, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Okwori, Michael",
+        "short_name": "Okwori M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical, Computer and Biomedical Engineering, Union College, Schenectady, 12308, NY, United States of America. Electronic address: okworim@union.edu."
+        ]
+      },
+      {
+        "full_name": "Eslami, Ali",
+        "short_name": "Eslami A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Wichita State University, Wichita, 67260, KS, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/10 13:18",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38335853",
+      "32282466",
+      "36915125",
+      "30029596",
+      "34991439",
+      "36018512",
+      "30891794",
+      "33509101",
+      "30302816",
+      "34555591",
+      "36465614",
+      "37645416",
+      "32859206",
+      "33842944",
+      "32489524",
+      "36591215",
+      "34145869",
+      "35428201",
+      "38468184",
+      "37178007",
+      "38384969",
+      "25406666",
+      "35634481",
+      "32806782",
+      "34152274",
+      "34107850",
+      "37980550",
+      "31150762",
+      "32236623",
+      "35455666",
+      "36306583",
+      "38054380",
+      "32031163",
+      "38245687",
+      "37986345",
+      "31416885",
+      "36704339",
+      "38459615",
+      "28454467",
+      "37659596",
+      "35818227",
+      "29417867",
+      "38173311",
+      "38320103",
+      "33027032",
+      "27075472",
+      "29394946",
+      "35958412",
+      "34469062",
+      "31694707",
+      "37361541",
+      "37250717",
+      "30250210",
+      "34814332",
+      "27322257",
+      "31553078",
+      "35163534",
+      "34536521",
+      "23892294",
+      "33280594",
+      "35150335",
+      "38064496",
+      "36575422",
+      "36582740",
+      "34390411",
+      "31138194",
+      "27213359",
+      "33647600",
+      "37359526",
+      "29156228",
+      "29305594",
+      "36875704",
+      "38069266",
+      "32736589",
+      "38028617",
+      "30610792",
+      "34847740",
+      "36140731",
+      "26936111",
+      "37920093",
+      "33828178",
+      "35680715",
+      "37185598",
+      "33547553",
+      "34622712",
+      "34865392",
+      "33819703",
+      "38385960",
+      "38137330",
+      "38671027",
+      "38993634"
+    ],
+    "review": [
+      "38335853",
+      "33509101",
+      "33842944",
+      "38173311",
+      "27213359"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00014-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "38570624",
+    "doi": "10.1038/s41598-024-58492-y",
+    "title": "Phylogeny and structural modeling of the transcription factor CsqR (YihW) from Escherichia coli."
+  },
+  "content": {
+    "abstract": "CsqR (YihW) is a local transcription factor that controls expression of yih genes involved in degradation of sulfoquinovose in Escherichia coli. We recently showed that expression of the respective gene cassette might be regulated by lactose. Here, we explore the phylogenetic and functional traits of CsqR. Phylogenetic analysis revealed that CsqR had a conserved Met25. Western blot demonstrated that CsqR was synthesized in the bacterial cell as two protein forms, 28.5 (CsqR-l) and 26 kDa (CsqR-s), the latter corresponding to start of translation at Met25. CsqR-s was dramatically activated during growth with sulfoquinovose as a sole carbon source, and displaced CsqR-l in the stationary phase during growth on rich medium. Molecular dynamic simulations revealed two possible states of the CsqR-s structure, with the interdomain linker being represented by either a disordered loop or an a-helix. This helix allowed the hinge-like motion of the N-terminal domain resulting in a switch of CsqR-s between two conformational states, \"open\" and \"compact\". We then modeled the interaction of both CsqR forms with putative effectors sulfoquinovose, sulforhamnose, sulfoquinovosyl glycerol, and lactose, and revealed that they all preferred the same pocket in CsqR-l, while in CsqR-s there were two possible options dependent on the linker structure.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Escherichia coli/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Phylogeny",
+      "Lactose/metabolism",
+      "*Escherichia coli Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rybina, Anna A",
+        "Glushak, Roman A",
+        "Bessonova, Tatiana A",
+        "Dakhnovets, Artemiy I",
+        "Rudenko, Alexander Yu",
+        "Ozhiganov, Ratislav M",
+        "Kaznadzey, Anna D",
+        "Tutukina, Maria N",
+        "Gelfand, Mikhail S"
+      ],
+      "short_names": [
+        "Rybina AA",
+        "Glushak RA",
+        "Bessonova TA",
+        "Dakhnovets AI",
+        "Rudenko AY",
+        "Ozhiganov RM",
+        "Kaznadzey AD",
+        "Tutukina MN",
+        "Gelfand MS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205. rybinaann@gmail.com.",
+        "Faculty of Biology, Lomonosov Moscow State University, Moscow, Russia, 119234.",
+        "Institute of Cell Biophysics RAS (Federal Research Center \"Pushchino Scientific Center for Biological Research RAS\"), Pushchino, Russia, 142290.",
+        "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205.",
+        "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Moscow, Russia, 119991.",
+        "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Moscow, Russia, 119991.",
+        "Institute for Information Transmission Problems RAS, Moscow, Russia, 127051.",
+        "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205.",
+        "Institute of Cell Biophysics RAS (Federal Research Center \"Pushchino Scientific Center for Biological Research RAS\"), Pushchino, Russia, 142290.",
+        "Institute for Information Transmission Problems RAS, Moscow, Russia, 127051.",
+        "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205.",
+        "Institute for Information Transmission Problems RAS, Moscow, Russia, 127051."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rybina, Anna A",
+        "short_name": "Rybina AA",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205. rybinaann@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Glushak, Roman A",
+        "short_name": "Glushak RA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology, Lomonosov Moscow State University, Moscow, Russia, 119234."
+        ]
+      },
+      {
+        "full_name": "Bessonova, Tatiana A",
+        "short_name": "Bessonova TA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cell Biophysics RAS (Federal Research Center \"Pushchino Scientific Center for Biological Research RAS\"), Pushchino, Russia, 142290."
+        ]
+      },
+      {
+        "full_name": "Dakhnovets, Artemiy I",
+        "short_name": "Dakhnovets AI",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205."
+        ]
+      },
+      {
+        "full_name": "Rudenko, Alexander Yu",
+        "short_name": "Rudenko AY",
+        "identifiers": [],
+        "affiliations": [
+          "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Moscow, Russia, 119991."
+        ]
+      },
+      {
+        "full_name": "Ozhiganov, Ratislav M",
+        "short_name": "Ozhiganov RM",
+        "identifiers": [],
+        "affiliations": [
+          "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Moscow, Russia, 119991."
+        ]
+      },
+      {
+        "full_name": "Kaznadzey, Anna D",
+        "short_name": "Kaznadzey AD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Information Transmission Problems RAS, Moscow, Russia, 127051."
+        ]
+      },
+      {
+        "full_name": "Tutukina, Maria N",
+        "short_name": "Tutukina MN",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205.",
+          "Institute of Cell Biophysics RAS (Federal Research Center \"Pushchino Scientific Center for Biological Research RAS\"), Pushchino, Russia, 142290.",
+          "Institute for Information Transmission Problems RAS, Moscow, Russia, 127051."
+        ]
+      },
+      {
+        "full_name": "Gelfand, Mikhail S",
+        "short_name": "Gelfand MS",
+        "identifiers": [],
+        "affiliations": [
+          "Skolkovo Institute of Science and Technology, Moscow, Russia, 121205.",
+          "Institute for Information Transmission Problems RAS, Moscow, Russia, 127051."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Apr 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/04 00:42",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "41226389"
+    ],
+    "refs": [
+      "38100472",
+      "37838169",
+      "36408920",
+      "36305812",
+      "35880217",
+      "35671504",
+      "35610055",
+      "35412617",
+      "35201431",
+      "34293799",
+      "34278794",
+      "34265844",
+      "34001434",
+      "33791429",
+      "33125078",
+      "32716185",
+      "32469061",
+      "31894821",
+      "31892694",
+      "31054315",
+      "30775965",
+      "30372406",
+      "29535276",
+      "29453395",
+      "29035372",
+      "28836357",
+      "27834204",
+      "27153714",
+      "26878550",
+      "26631602",
+      "26553804",
+      "26488642",
+      "24463506",
+      "23407358",
+      "22889332",
+      "22210308",
+      "22150877",
+      "21593126",
+      "20461071",
+      "20360767",
+      "20047956",
+      "20003185",
+      "19528070",
+      "19486540",
+      "19399780",
+      "19377059",
+      "19304878",
+      "18844374",
+      "18554327",
+      "17919280",
+      "16451192",
+      "16376935",
+      "15808743",
+      "14731281",
+      "14573864",
+      "13718526",
+      "12136088",
+      "10734204",
+      "10559180",
+      "10419969",
+      "9565758",
+      "9367758",
+      "9278503",
+      "9103202",
+      "8855656",
+      "8757792",
+      "8638105",
+      "8475045",
+      "8374950",
+      "6667333",
+      "5432063",
+      "5151529",
+      "2653814",
+      "2199796",
+      "1646077"
+    ],
+    "similar": [
+      "38570624",
+      "30372406",
+      "29453395",
+      "8253679",
+      "21345171",
+      "26307095",
+      "32576674",
+      "1953301",
+      "33001250",
+      "28851853",
+      "15223314",
+      "16600914",
+      "20036541",
+      "8025113",
+      "35138139",
+      "23938950",
+      "17068078",
+      "18263722",
+      "23658223",
+      "32316259",
+      "8720133",
+      "15489429",
+      "27174929",
+      "8639659",
+      "15659676",
+      "31199118",
+      "29330542",
+      "14663078",
+      "34724814",
+      "27435271",
+      "20138895",
+      "22161353",
+      "25979249",
+      "32409946",
+      "25749694",
+      "35682733",
+      "15313602",
+      "15255893",
+      "12628255",
+      "27166036",
+      "2407853",
+      "11771965",
+      "35099812",
+      "18067539",
+      "20696931",
+      "32535996",
+      "8611521",
+      "29263430",
+      "15313253",
+      "26193630",
+      "16862137",
+      "23378572",
+      "15733913",
+      "9973351",
+      "6295442",
+      "30806877",
+      "10923791",
+      "16677314",
+      "20521041",
+      "29150441",
+      "8841135",
+      "19765651",
+      "15522304",
+      "21840981",
+      "36728421",
+      "7868601",
+      "27297882",
+      "7756986",
+      "21631920",
+      "8885260",
+      "31199144",
+      "2824484",
+      "29148366",
+      "26820469",
+      "28494968",
+      "25368414",
+      "35508583",
+      "15109732",
+      "16237004",
+      "27551019",
+      "11109500",
+      "14996819",
+      "23301696",
+      "31040281",
+      "21482798",
+      "27899597",
+      "23241389",
+      "1746953",
+      "20466769",
+      "9829928",
+      "12046920",
+      "16469698",
+      "22465792",
+      "11812130",
+      "29722984",
+      "11544231",
+      "14503872"
+    ],
+    "review": [
+      "38570624",
+      "19765651",
+      "8885260"
+    ],
+    "pmc": [
+      "10991401"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG11849",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "csqR"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-58492-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38570624/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38570624",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/5133",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Serratia fonticola BD-ID 5133"
+      }
+    ],
+    "text_mined": []
+  }
+}

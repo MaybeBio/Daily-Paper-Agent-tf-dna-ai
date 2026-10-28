@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "42341853",
+    "doi": "10.1016/j.jep.2026.122109",
+    "title": "Targeting HDAC2 with bruceine D epigenetically restores SMAD3 expression via H4K16ac enrichment to suppress malignant progression in EGFR-TKI-resistant lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) are a cornerstone therapy for lung adenocarcinoma (LUAD), but their efficacy is often limited by primary or acquired resistance. Natural bioactive compounds such as bruceine D (BD) may offer alternative strategies for patients with EGFR-TKI resistance; however, the mechanism underlying BD's effects in resistant LUAD remains unclear. AIM OF THE STUDY: This study aimed to determine whether BD suppresses malignant phenotypes of primary and acquired EGFR-TKI-resistant LUAD cells and to elucidate the shared molecular mechanisms. MATERIALS AND METHODS: Using H1975 (primary resistant) and PC-9/OR (acquired resistant) cells, cytotoxicity assays determined optimal BD concentration. Antitumor effects were evaluated in vitro via functional assays and in vivo using a xenograft mouse model. Integrative approaches including network pharmacology, Mendelian randomization, molecular docking, and dynamics simulations identified potential targets, with functional rescue experiments. CPTAC, Western blot, mRNA-seq, and CUT&Tag explored epigenetic mechanisms, validated by rescue. RESULTS: BD suppressed proliferation, migration, invasion, and induced intrinsic apoptosis in both resistant cells in vitro and in vivo. HDAC2 was identified as a direct binding target. BD binding to HDAC2 increased H4K16ac enrichment at the SMAD3 promoter, upregulating SMAD3. Rescue experiments confirmed that the HDAC2/H4K16ac/SMAD3 axis mediates the antitumor effects of BD. Clinical samples and database analyses suggested diagnostic, prognostic, and therapeutic potential for H4K16ac, HDAC2, and SMAD3. CONCLUSION: This study reveals for the first time a common mechanism by which the BD/HDAC2/H4K16ac/SMAD3 axis regulates malignant phenotypes in EGFR-TKI-resistant LUAD, offering a novel natural compound-based therapy.",
+    "keywords": [
+      "Bruceine D",
+      "EGFR-TKI-Resistance",
+      "H4K16ac",
+      "HDAC2",
+      "Lung adenocarcinoma",
+      "SMAD3"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Smad3 Protein/genetics/metabolism",
+      "Animals",
+      "*Lung Neoplasms/drug therapy/genetics/pathology",
+      "ErbB Receptors/antagonists & inhibitors",
+      "*Adenocarcinoma of Lung/drug therapy/genetics/pathology",
+      "*Histone Deacetylase 2/metabolism/genetics/antagonists & inhibitors",
+      "Epigenesis, Genetic/drug effects",
+      "Drug Resistance, Neoplasm/drug effects",
+      "Cell Line, Tumor",
+      "Mice, Nude",
+      "Protein Kinase Inhibitors/pharmacology",
+      "*Quassins/pharmacology/therapeutic use",
+      "Mice",
+      "Xenograft Model Antitumor Assays",
+      "Cell Proliferation/drug effects",
+      "Apoptosis/drug effects",
+      "Male",
+      "*Antineoplastic Agents/pharmacology",
+      "Mice, Inbred BALB C",
+      "Female",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Cell Movement/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Kai",
+        "Wu, Zuokun",
+        "Lu, Bingbing",
+        "Tao, Xuanlin",
+        "Chen, Peng",
+        "Lu, Tao",
+        "Gao, Manjun",
+        "Zhang, Hang",
+        "Song, Yongxiang",
+        "Ke, Xixian"
+      ],
+      "short_names": [
+        "Wang K",
+        "Wu Z",
+        "Lu B",
+        "Tao X",
+        "Chen P",
+        "Lu T",
+        "Gao M",
+        "Zhang H",
+        "Song Y",
+        "Ke X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Health Management, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China. Electronic address: songtang2004@163.com.",
+        "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China; The Public Experimental Center of Medicine, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China. Electronic address: kexixian@zmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zuokun",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Bingbing",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Xuanlin",
+        "short_name": "Tao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Peng",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Tao",
+        "short_name": "Lu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Manjun",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Management, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China."
+        ]
+      },
+      {
+        "full_name": "Song, Yongxiang",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China. Electronic address: songtang2004@163.com."
+        ]
+      },
+      {
+        "full_name": "Ke, Xixian",
+        "short_name": "Ke X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China; The Public Experimental Center of Medicine, Affiliated Hospital of Zunyi Medical University, 149 Dalian Road, Zunyi, Guizhou, 563000, China. Electronic address: kexixian@zmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2026 Dec 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/25 00:34",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42341853",
+      "40713600",
+      "30382076",
+      "40618443",
+      "41865688",
+      "40499802",
+      "32561477",
+      "37990309",
+      "40303499",
+      "39809840",
+      "39658649",
+      "30830869",
+      "41895783",
+      "34367462",
+      "33276757",
+      "41450535",
+      "41121207",
+      "25925741",
+      "33568630",
+      "41033606",
+      "42094614",
+      "32552717",
+      "31228625",
+      "28749535",
+      "39090096",
+      "40685347",
+      "38697281",
+      "33486901",
+      "41949384",
+      "21712475",
+      "31801598",
+      "42213229",
+      "40054177",
+      "39231972",
+      "29321482",
+      "38609654",
+      "33391507",
+      "30993382",
+      "38764025",
+      "26583948",
+      "41499386",
+      "24331411",
+      "39198847",
+      "41350725",
+      "41791429",
+      "29374157",
+      "39528815",
+      "27612490",
+      "42087187",
+      "41777062",
+      "39704929",
+      "41611070",
+      "23916913",
+      "40578034",
+      "31331328",
+      "42106683",
+      "41126368",
+      "26517520",
+      "38761523",
+      "31131047",
+      "24644001",
+      "29717264",
+      "32272148",
+      "27825114",
+      "39587349",
+      "35144642",
+      "40594106",
+      "27178741",
+      "32552611",
+      "42325398",
+      "40635549",
+      "32433828",
+      "26744526",
+      "32896579",
+      "31791326",
+      "42191053",
+      "39080187",
+      "39999922",
+      "41975505",
+      "31821539",
+      "41026825",
+      "28416737",
+      "41193668",
+      "32395869",
+      "24919575",
+      "42080737",
+      "22174910",
+      "40720248",
+      "40815992",
+      "40856433",
+      "23359111",
+      "27362807",
+      "28289161",
+      "33537094",
+      "33314735",
+      "39511658",
+      "31043587",
+      "41382187",
+      "28822888",
+      "33287873"
+    ],
+    "review": [
+      "42341853",
+      "32896579"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(26)00963-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://proteomics.cancer.gov/programs/cptac",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

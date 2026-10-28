@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "42332537",
+    "doi": "10.1097/MD.0000000000049470",
+    "title": "Study on diagnostic genes and immune microenvironment disorder in comorbid atherosclerosis and Alzheimer disease."
+  },
+  "content": {
+    "abstract": "Atherosclerosis (AS) and Alzheimer disease (AD) are globally prevalent chronic diseases with challenges of difficult early diagnosis and a lack of effective combined therapies. This study explored their shared molecular mechanisms, potential diagnostic biomarkers, and immune microenvironment disorders. Using AS dataset GSE100927 and AD dataset GSE97760, key differentially expressed genes (key DEGs) were identified via bioinformatics (differential expression analysis, protein-protein interaction network, machine learning). A risk prediction model was built and validated with receiver operating characteristic/area under the curve. Immune infiltration was compared between patient and control groups; miRNA-transcription factor-mRNA and key DEGs-chemical networks were predicted, and key DEGs-AS/AD causal relationships verified by Mendelian randomization. Venn analysis found 89 common DEGs (enriched in lipid metabolism, Wnt pathway, etc). Four key DEGs (early growth response 2 [EGR2], leukocyte-specific transcript 1 [LST1], membrane-spanning 4-domains subfamily A member 7 [MS4A7], and 2'-5'-oligoadenylate synthetase like [OASL]) were confirmed. The model had high accuracy (C-index = 0.982, area under the curve > 0.9). Mendelian randomization showed EGR2 was an AS risk/AD protective factor; LST1 an AS risk factor; MS4A7 an AD risk factor; no clear OASL-AD causality. EGR2, LST1, MS4A7, and OASL are novel diagnostic biomarkers and potential therapeutic targets for comorbid AS and AD.",
+    "keywords": [
+      "Alzheimer disease",
+      "Mendelian randomization",
+      "atherosclerosis",
+      "diagnostic genes",
+      "immune microenvironment",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/genetics/immunology/diagnosis/epidemiology",
+      "*Atherosclerosis/genetics/immunology/diagnosis/epidemiology",
+      "Biomarkers",
+      "Mendelian Randomization Analysis",
+      "Early Growth Response Protein 2/genetics",
+      "Machine Learning",
+      "Protein Interaction Maps/genetics",
+      "MicroRNAs/genetics",
+      "Computational Biology",
+      "Gene Expression Profiling",
+      "Membrane Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ni, Pengyun",
+        "Zhao, Bingbing",
+        "Xv, Hao"
+      ],
+      "short_names": [
+        "Ni P",
+        "Zhao B",
+        "Xv H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7334-1162"
+      ],
+      "affiliations": [
+        "Department of Science and Education, Baoji Traditional Chinese Medicine Hospital, Baoji, China.",
+        "Emergency Department, Baoji Traditional Chinese Medicine Hospital, Baoji, China.",
+        "Department of Neurology, 987 Hospital PLA Joint Logistic Support Force, Baoji, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ni, Pengyun",
+        "short_name": "Ni P",
+        "identifiers": [
+          "0000-0001-7334-1162"
+        ],
+        "affiliations": [
+          "Department of Science and Education, Baoji Traditional Chinese Medicine Hospital, Baoji, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bingbing",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency Department, Baoji Traditional Chinese Medicine Hospital, Baoji, China."
+        ]
+      },
+      {
+        "full_name": "Xv, Hao",
+        "short_name": "Xv H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, 987 Hospital PLA Joint Logistic Support Force, Baoji, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Jun 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/23 11:35",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40794782",
+      "40681225",
+      "40637922",
+      "40522023",
+      "40242752",
+      "40187613",
+      "40174790",
+      "40095198",
+      "40072762",
+      "39976515",
+      "39954254",
+      "39930879",
+      "39734765",
+      "39574318",
+      "39537608",
+      "39286389",
+      "39286258",
+      "39188714",
+      "39030941",
+      "38975335",
+      "38925924",
+      "38603810",
+      "38355687",
+      "38024184",
+      "37956336",
+      "37943830",
+      "37729908",
+      "37486259",
+      "36685865",
+      "36645688",
+      "36562454",
+      "36399495",
+      "36370105",
+      "36368623",
+      "36350656",
+      "36187340",
+      "36150909",
+      "36110430",
+      "35942822",
+      "35872901",
+      "35809652",
+      "35658903",
+      "35636382",
+      "35504280",
+      "35203654",
+      "34864868",
+      "34850941",
+      "34666031",
+      "34454596",
+      "34384709",
+      "34338426",
+      "33986741",
+      "33535967",
+      "33475022",
+      "33441155",
+      "32989444",
+      "32567195",
+      "32479194",
+      "32155866",
+      "31878229",
+      "31855809",
+      "31655958",
+      "31504780",
+      "31356910",
+      "31061481",
+      "30453885",
+      "30335862",
+      "30137226",
+      "29500419",
+      "29202771",
+      "28810593",
+      "28783817",
+      "25079797",
+      "24297251",
+      "24138885",
+      "23273601",
+      "22548575",
+      "22388324",
+      "22222422",
+      "21142819",
+      "21029849",
+      "18711159",
+      "17496320",
+      "11092454",
+      "8025427"
+    ],
+    "similar": [
+      "42332537",
+      "39375405",
+      "40374866",
+      "39507054",
+      "41424060",
+      "41824857",
+      "38587531",
+      "39188714",
+      "41854441",
+      "42313235",
+      "41731716",
+      "42123756",
+      "41316541",
+      "41291841",
+      "41432807",
+      "40070840",
+      "39396400",
+      "39346628",
+      "41044520",
+      "40421012",
+      "40196107",
+      "41197132",
+      "40453984",
+      "36195955",
+      "41703488",
+      "39875572",
+      "39145311",
+      "42009747",
+      "39905093",
+      "39730451",
+      "41115648",
+      "40340571",
+      "34243818",
+      "42236612",
+      "39586719",
+      "41665627",
+      "39419187",
+      "38987624",
+      "40335993",
+      "41006883",
+      "40328901",
+      "41066424",
+      "37100862",
+      "40419934",
+      "40207815",
+      "40884580",
+      "41816328",
+      "40540223",
+      "41883400",
+      "42266688",
+      "40642087",
+      "41583468",
+      "42216384",
+      "40406126",
+      "39341952",
+      "34536521",
+      "40588645",
+      "42616740",
+      "38899746",
+      "41052072",
+      "38660311",
+      "42510870",
+      "38863714",
+      "40628511",
+      "40355226",
+      "41706814",
+      "41196851",
+      "41836872",
+      "42509698",
+      "41262249",
+      "33407587",
+      "42474555",
+      "41080564",
+      "40374840",
+      "41465914",
+      "40216309",
+      "40078458",
+      "42537010",
+      "40997906",
+      "41340073",
+      "41630303",
+      "34367470",
+      "39176085",
+      "39920860",
+      "31989994",
+      "41188996",
+      "40210656",
+      "38274270",
+      "36437991",
+      "40093012",
+      "36532015",
+      "42348043",
+      "31984950",
+      "41081092",
+      "40286923",
+      "36635346",
+      "41517672",
+      "33687622",
+      "38867322",
+      "41291978"
+    ],
+    "review": [
+      "42332537",
+      "41665627"
+    ],
+    "pmc": [
+      "13286548"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=105&issue=25&spage=e49470&aulast=Ni",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42332537/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000049470",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

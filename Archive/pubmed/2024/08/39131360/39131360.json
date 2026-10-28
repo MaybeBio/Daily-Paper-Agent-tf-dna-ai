@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "39131360",
+    "doi": "10.1101/2024.07.31.606098",
+    "title": "moPPIt: De Novo Generation of Motif-Specific Binders with Protein Language Models."
+  },
+  "content": {
+    "abstract": "The ability to precisely target specific motifs on disease-related proteins, whether conserved epitopes on viral proteins, intrinsically disordered regions within transcription factors, or breakpoint junctions in fusion oncoproteins, is essential for modulating their function while minimizing off-target effects. Current methods struggle to achieve this specificity without reliable structural information. In this work, we introduce a motif-specific PPI targeting algorithm, moPPIt, for de novo generation of motif-specific peptide binders from the target protein sequence alone. At the core of moPPIt is BindEvaluator, a transformer-based model that interpolates protein language model embeddings of two proteins via a series of multi-headed self-attention blocks, with a key focus on local motif features. Trained on over 510,000 annotated PPIs, BindEvaluator accurately predicts target binding sites given protein-protein sequence pairs with a test AUC > 0.94, improving to AUC > 0.96 when fine-tuned on peptide-protein pairs. By combining BindEvaluator with our PepMLM peptide generator and genetic algorithm-based optimization, moPPIt generates peptides that bind specifically to user-defined residues on target proteins. We demonstrate moPPIt's efficacy in computationally designing binders to specific motifs, first on targets with known binding peptides and then extending to structured and disordered targets with no known binders. In total, moPPIt serves as a powerful tool for developing highly specific peptide therapeutics without relying on target structure or structure-dependent latent spaces.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Tong",
+        "Zhang, Yinuo",
+        "Chatterjee, Pranam"
+      ],
+      "short_names": [
+        "Chen T",
+        "Zhang Y",
+        "Chatterjee P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3957-8478"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Biostatistics and Bioinformatics, Duke University.",
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Biostatistics and Bioinformatics, Duke University.",
+        "Department of Computer Science, Duke University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Tong",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yinuo",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Bioinformatics, Duke University."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Pranam",
+        "short_name": "Chatterjee P",
+        "identifiers": [
+          "0000-0003-3957-8478"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University.",
+          "Department of Biostatistics and Bioinformatics, Duke University.",
+          "Department of Computer Science, Duke University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/12 12:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40739343",
+      "40211004",
+      "39920196",
+      "39841846",
+      "39818825",
+      "38718835",
+      "37880344",
+      "37875551",
+      "37627054",
+      "37522378",
+      "37433327",
+      "37047169",
+      "36927031",
+      "36841805",
+      "35637307",
+      "35618814",
+      "34265844",
+      "34232869",
+      "33299109",
+      "32968059",
+      "31175300",
+      "29125602",
+      "27141963",
+      "18457914",
+      "11698669"
+    ],
+    "similar": [
+      "39131360",
+      "37873004",
+      "40804173",
+      "39091799",
+      "37875551",
+      "39148280",
+      "40223692",
+      "41332746",
+      "39266056",
+      "35634780",
+      "39841846",
+      "22079048",
+      "27218803",
+      "28002650",
+      "38895377",
+      "7690794",
+      "41256494",
+      "34901479",
+      "39364612",
+      "38109936",
+      "40029731",
+      "40739343",
+      "39071356",
+      "23912807",
+      "39071267",
+      "33432013",
+      "35974206",
+      "39975017",
+      "20122242",
+      "26216991",
+      "19881200",
+      "24726865",
+      "41257586",
+      "34406761",
+      "39121938",
+      "39803556",
+      "20502673",
+      "34464102",
+      "30773399",
+      "40694144",
+      "41346856",
+      "41337470",
+      "40674483",
+      "39143121",
+      "40824037",
+      "23427988",
+      "24729132",
+      "27636831",
+      "38867692",
+      "29214605",
+      "38069818",
+      "37668974",
+      "37450999",
+      "35998543",
+      "22977176",
+      "38846390",
+      "37034763",
+      "7504010",
+      "38014268",
+      "39920196",
+      "33829791",
+      "41218076",
+      "41193805",
+      "34730945",
+      "34262938",
+      "20532195",
+      "30731167",
+      "16446784",
+      "31207240",
+      "29621972",
+      "40054153",
+      "30660610",
+      "35405427",
+      "7885338",
+      "15382264",
+      "39605685",
+      "40099876",
+      "7511661",
+      "41333850",
+      "41030196",
+      "40686280",
+      "40083048",
+      "35012986",
+      "24019881",
+      "40229275",
+      "26552868",
+      "39108486",
+      "31768230",
+      "39677777",
+      "9746540",
+      "2837512",
+      "23121732",
+      "36349499",
+      "39352899",
+      "40765481",
+      "35593869",
+      "15882053",
+      "18031584",
+      "38562682",
+      "40371895"
+    ],
+    "review": [
+      "39131360",
+      "19881200",
+      "40694144",
+      "27636831",
+      "29214605"
+    ],
+    "pmc": [
+      "11312608"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39131360/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.07.31.606098",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

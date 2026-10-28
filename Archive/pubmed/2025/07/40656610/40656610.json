@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "40656610",
+    "doi": "10.3748/wjg.v31.i25.107893",
+    "title": "Leucine-rich repeat-containing protein 19 suppresses colorectal cancer by targeting cyclin-dependent kinase 6/E2F1 and remodeling the immune microenvironment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is a leading cause of cancer-related mortality worldwide, primarily due to tumor heterogeneity and treatment resistance. The leucine-rich repeat-containing protein 19 (LRRC19) has been linked to immune regulation and tumor suppression, yet its specific role in CRC remains poorly understood. AIM: To investigate the tumor-suppressive role of LRRC19 in CRC, focusing on cell cycle, immune microenvironment, and chemotherapy response. METHODS: Bioinformatics analyses of Gene Expression Omnibus and The Cancer Genome Atlas databases identified differentially expressed genes in CRC. LRRC19 expression was validated in CRC tissues and cell lines by quantitative PCR, immunohistochemistry, and Western blotting. Functional assays, including proliferation, soft agar colony formation, flow cytometry, and xenograft models, assessed biological effects. Mechanistic studies with dual-luciferase reporter assays, molecular docking, and drug sensitivity testing explored LRRC19's interaction with the cyclin-dependent kinase 6 (CDK6)/E2F1 axis and oxaliplatin (OXA) response. Single-cell sequencing and immune infiltration analyses assessed its impact on the immune microenvironment. RESULTS: LRRC19 expression was significantly downregulated in CRC and associated with poor prognosis. Overexpression of LRRC19 inhibited CRC cell proliferation, induced G0/G1 phase arrest, and suppressed tumor growth in vivo. Mechanistically, LRRC19 suppressed CDK6 transcription by downregulating E2F1, leading to cell cycle arrest. Additionally, LRRC19 promoted immune cell infiltration, particularly B cells and CD4+ T cells, while decreasing immunosuppressive cells. LRRC19 also sensitized CRC cells to OXA, enhancing chemotherapy efficacy. CONCLUSION: LRRC19 suppresses CRC by targeting the CDK6/E2F1 axis, modulating the immune microenvironment, and enhancing chemotherapy sensitivity, making it a promising therapeutic target for precision medicine in CRC.",
+    "keywords": [
+      "Cell cycle arrest",
+      "Chemotherapy sensitivity",
+      "Colorectal cancer",
+      "Cyclin-dependent kinase 6/E2F1 axis",
+      "Immune infiltration",
+      "Immune microenvironment",
+      "Leucine-rich repeat-containing protein 19",
+      "Oxaliplatin response",
+      "Precision medicine",
+      "Tumor suppressor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/immunology/genetics/pathology/mortality/drug therapy",
+      "*Tumor Microenvironment/immunology/genetics/drug effects",
+      "Animals",
+      "*Cyclin-Dependent Kinase 6/metabolism",
+      "Cell Proliferation/drug effects",
+      "*E2F1 Transcription Factor/metabolism",
+      "Gene Expression Regulation, Neoplastic/immunology",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "Mice",
+      "Oxaliplatin/pharmacology/therapeutic use",
+      "Drug Resistance, Neoplasm/genetics",
+      "Prognosis",
+      "Female",
+      "Down-Regulation",
+      "Antineoplastic Agents/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "Male",
+      "Signal Transduction/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Si-Si",
+        "Chen, Wei",
+        "Vaishnani, Deep K",
+        "Huang, Li-Juan",
+        "Li, Ji-Zhen",
+        "Huang, Shi-Rui",
+        "Li, Yan-Zhen",
+        "Xie, Qi-Peng"
+      ],
+      "short_names": [
+        "Huang SS",
+        "Chen W",
+        "Vaishnani DK",
+        "Huang LJ",
+        "Li JZ",
+        "Huang SR",
+        "Li YZ",
+        "Xie QP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "School of General Practice, Renji College of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "School of International Studies, Wenzhou Medical University, Wenzhou 325035, Zhejiang Province, China.",
+        "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "School of General Practice, Renji College of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+        "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China. xieqipeng@wmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Si-Si",
+        "short_name": "Huang SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China.",
+          "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "School of General Practice, Renji College of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Vaishnani, Deep K",
+        "short_name": "Vaishnani DK",
+        "identifiers": [],
+        "affiliations": [
+          "School of International Studies, Wenzhou Medical University, Wenzhou 325035, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Li-Juan",
+        "short_name": "Huang LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ji-Zhen",
+        "short_name": "Li JZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shi-Rui",
+        "short_name": "Huang SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan-Zhen",
+        "short_name": "Li YZ",
+        "identifiers": [],
+        "affiliations": [
+          "School of General Practice, Renji College of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Qi-Peng",
+        "short_name": "Xie QP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou 325000, Zhejiang Province, China. xieqipeng@wmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World journal of gastroenterology"
+    ],
+    "journal_abbrev": [
+      "World J Gastroenterol"
+    ],
+    "pub_date": "2025 Jul 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:28",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [
+      "42351678",
+      "42279366",
+      "42073632",
+      "42072228",
+      "41976355"
+    ],
+    "refs": [
+      "40311353",
+      "39718561",
+      "39060944",
+      "38862642",
+      "38740018",
+      "38599163",
+      "38572751",
+      "38552607",
+      "38172943",
+      "38105184",
+      "37880793",
+      "37347496",
+      "37277745",
+      "37190048",
+      "37046001",
+      "36923082",
+      "36866529",
+      "36841868",
+      "36791751",
+      "36370105",
+      "35794979",
+      "35689245",
+      "35609983",
+      "35355007",
+      "35304604",
+      "35260053",
+      "35078134",
+      "35026294",
+      "35025636",
+      "34914499",
+      "34568836",
+      "34563640",
+      "34344870",
+      "34202482",
+      "34174849",
+      "33879449",
+      "33676803",
+      "33665206",
+      "33604191",
+      "33226984",
+      "33151290",
+      "32753728",
+      "32442275",
+      "32406095",
+      "32404014",
+      "32264877",
+      "32185712",
+      "32138313",
+      "31980749",
+      "31601994",
+      "29461900",
+      "27079802",
+      "21606681",
+      "19509160"
+    ],
+    "similar": [
+      "40656610",
+      "41425720",
+      "41297528",
+      "29203250",
+      "33359068",
+      "40522623",
+      "39038387",
+      "28634044",
+      "31631038",
+      "40124268",
+      "30890168",
+      "31088567",
+      "39536859",
+      "33292133",
+      "39494327",
+      "30226575",
+      "40473764",
+      "34802869",
+      "40435908",
+      "40678705",
+      "41125417",
+      "40735324",
+      "40069750",
+      "34974791",
+      "41328352",
+      "22185819",
+      "25933218",
+      "40810004",
+      "36525936",
+      "40097547",
+      "40619020",
+      "34140641",
+      "39853769",
+      "34688609",
+      "39513580",
+      "38386232",
+      "38521111",
+      "38163859",
+      "34599680",
+      "39851228",
+      "37067981",
+      "28356150",
+      "40269151",
+      "39043103",
+      "35784334",
+      "41038145",
+      "41286470",
+      "40618979",
+      "38855188",
+      "41257608",
+      "32270866",
+      "32584787",
+      "31477839",
+      "28427191",
+      "27683111",
+      "26695693",
+      "41293954",
+      "40780387",
+      "41246306",
+      "35241106",
+      "28833099",
+      "26674205",
+      "35577506",
+      "40706744",
+      "33831429",
+      "39718561",
+      "39877588",
+      "30429233",
+      "40382757",
+      "38310229",
+      "40656609",
+      "41129851",
+      "28498807",
+      "34453920",
+      "39806333",
+      "32104496",
+      "38779664",
+      "38657754",
+      "40514583",
+      "41161080",
+      "31477841",
+      "40842994",
+      "33666372",
+      "40376989",
+      "40683418",
+      "34335633",
+      "32945376",
+      "40523762",
+      "40023971",
+      "30897301",
+      "41005453",
+      "40475762",
+      "41133455",
+      "39018005",
+      "39789474",
+      "31381140",
+      "31492160",
+      "28537875",
+      "29133897",
+      "38910244"
+    ],
+    "review": [
+      "40656610"
+    ],
+    "pmc": [
+      "12243924"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.wjgnet.com/1007-9327/full/v31/i25/107893.htm",
+        "provider": "Baishideng Publishing Group Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40656610/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

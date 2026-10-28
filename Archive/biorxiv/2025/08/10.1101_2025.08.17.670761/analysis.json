@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.17.670761",
+  "title": "Decoding the gene regulatory landscape through multimodal learning of protein-DNA interactions",
+  "authors": "Jimin Tan; Xi Fu; Xinyu Ling; Shentong Mo; Jiangshan Bai; Raúl Rabadán; David Fenyö; Jef D. Boeke; Aristotelis Tsirigos; Bo Xia",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-17",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出多模态基础模型Chromnitron，整合蛋白序列、DNA序列与染色质状态预测蛋白-DNA结合景观，核心聚焦转录因子等调控蛋白与DNA的互作建模，方法为AI多模态学习，高度匹配本课题。",
+  "abstract": "The identity of a cell is governed by regulatory proteins binding to the genome to control gene expression. Mapping these genome-wide binding events across thousands of proteins and cell types is essential for understanding development and disease at scale, yet has remained a major experimental and computational barrier. Here we present Chromnitron, a multimodal foundation model that learns the rules of protein-DNA binding from protein sequence, DNA sequence, and context-specific chromatin states. Unlike prior single-task and multi-task learning approaches, Chromnitron implements a multimodal learning framework that accurately predicts the binding landscape for proteins and cell types not seen during training. Using Chromnitron, we discovered and experimentally validated new protein regulators of T cell exhaustion. Chromnitron also uncovered previously uncharacterized dynamic shifts in the binding landscape of regulatory proteins during neurogenesis. This marks a critical step toward a predictive model of interpretable gene regulatory programs across cell types, enabling rapid discovery of regulatory circuits and identification of new therapeutic targets.",
+  "abstract_zh": "细胞的身份由调控蛋白与基因组结合以控制基因表达所决定。在数千种蛋白质和细胞类型中绘制这些全基因组结合事件，对于大规模理解发育和疾病至关重要，但至今仍是实验和计算上的重大障碍。在此，我们提出Chromnitron，一种多模态基础模型，它从蛋白质序列、DNA序列和上下文特异性染色质状态中学习蛋白质-DNA结合的规则。与先前的单任务和多任务学习方法不同，Chromnitron实现了一种多模态学习框架，能够准确预测训练中未见过的蛋白质和细胞类型的结合景观。利用Chromnitron，我们发现了并实验验证了T细胞耗竭的新蛋白质调控因子。Chromnitron还揭示了神经发生过程中调控蛋白结合景观中先前未表征的动态变化。这标志着向跨细胞类型可解释基因调控程序的预测模型迈出了关键一步，从而能够快速发现调控回路并识别新的治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.17.670761",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.17.670761",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.17.670761/index.html"
+}

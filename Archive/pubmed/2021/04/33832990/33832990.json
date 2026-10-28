@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "33832990",
+    "doi": "10.1101/gr.260851.120",
+    "title": "Interpretation of allele-specific chromatin accessibility using cell state-aware deep learning."
+  },
+  "content": {
+    "abstract": "Genomic sequence variation within enhancers and promoters can have a significant impact on the cellular state and phenotype. However, sifting through the millions of candidate variants in a personal genome or a cancer genome, to identify those that impact cis-regulatory function, remains a major challenge. Interpretation of noncoding genome variation benefits from explainable artificial intelligence to predict and interpret the impact of a mutation on gene regulation. Here we generate phased whole genomes with matched chromatin accessibility, histone modifications, and gene expression for 10 melanoma cell lines. We find that training a specialized deep learning model, called DeepMEL2, on melanoma chromatin accessibility data can capture the various regulatory programs of the melanocytic and mesenchymal-like melanoma cell states. This model outperforms motif-based variant scoring, as well as more generic deep learning models. We detect hundreds to thousands of allele-specific chromatin accessibility variants (ASCAVs) in each melanoma genome, of which 15%-20% can be explained by gains or losses of transcription factor binding sites. A considerable fraction of ASCAVs are caused by changes in AP-1 binding, as confirmed by matched ChIP-seq data to identify allele-specific binding of JUN and FOSL1. Finally, by augmenting the DeepMEL2 model with ChIP-seq data for GABPA, the TERT promoter mutation, as well as additional ETS motif gains, can be identified with high confidence. In conclusion, we present a new integrative genomics approach and a deep learning model to identify and interpret functional enhancer mutations with allelic imbalance of chromatin accessibility and gene expression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Alleles",
+      "Artificial Intelligence",
+      "*Chromatin/genetics",
+      "*Deep Learning",
+      "Promoter Regions, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Atak, Zeynep Kalender",
+        "Taskiran, Ibrahim Ihsan",
+        "Demeulemeester, Jonas",
+        "Flerin, Christopher",
+        "Mauduit, David",
+        "Minnoye, Liesbeth",
+        "Hulselmans, Gert",
+        "Christiaens, Valerie",
+        "Ghanem, Ghanem-Elias",
+        "Wouters, Jasper",
+        "Aerts, Stein"
+      ],
+      "short_names": [
+        "Atak ZK",
+        "Taskiran II",
+        "Demeulemeester J",
+        "Flerin C",
+        "Mauduit D",
+        "Minnoye L",
+        "Hulselmans G",
+        "Christiaens V",
+        "Ghanem GE",
+        "Wouters J",
+        "Aerts S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4761-8169",
+        "ORCID: 0000-0002-5077-5264",
+        "ORCID: 0000-0002-2660-2478",
+        "ORCID: 0000-0002-8006-0315"
+      ],
+      "affiliations": [
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "Cancer Genomics Laboratory, The Francis Crick Institute, London NW1 1AT, United Kingdom.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "Institut Jules Bordet, Universite Libre de Bruxelles, 1000 Brussels, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Atak, Zeynep Kalender",
+        "short_name": "Atak ZK",
+        "identifiers": [
+          "0000-0003-4761-8169"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Taskiran, Ibrahim Ihsan",
+        "short_name": "Taskiran II",
+        "identifiers": [
+          "0000-0002-5077-5264"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Demeulemeester, Jonas",
+        "short_name": "Demeulemeester J",
+        "identifiers": [
+          "0000-0002-2660-2478"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium.",
+          "Cancer Genomics Laboratory, The Francis Crick Institute, London NW1 1AT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Flerin, Christopher",
+        "short_name": "Flerin C",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mauduit, David",
+        "short_name": "Mauduit D",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Minnoye, Liesbeth",
+        "short_name": "Minnoye L",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hulselmans, Gert",
+        "short_name": "Hulselmans G",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Christiaens, Valerie",
+        "short_name": "Christiaens V",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ghanem, Ghanem-Elias",
+        "short_name": "Ghanem GE",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Jules Bordet, Université Libre de Bruxelles, 1000 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wouters, Jasper",
+        "short_name": "Wouters J",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [
+          "0000-0002-8006-0315"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain and Disease Research, 3000 Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, 3000 Leuven, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2021 Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/10 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "42125447",
+      "42056104",
+      "41973074",
+      "41437153",
+      "41332515",
+      "41278958",
+      "41256364",
+      "40359938",
+      "39966391",
+      "39778579",
+      "39402215",
+      "38182825",
+      "38177592",
+      "38086419",
+      "37662358",
+      "37557175",
+      "37324054",
+      "37205975",
+      "37173718",
+      "36949544",
+      "36902467",
+      "36474914",
+      "36466610",
+      "36081985",
+      "36068241",
+      "35576187",
+      "35052043",
+      "34987221",
+      "34874265",
+      "34502060"
+    ],
+    "refs": [
+      "33831375",
+      "33603233",
+      "32910905",
+      "32753671",
+      "32732264",
+      "32025018",
+      "32025013",
+      "31988385",
+      "31954095",
+      "31701148",
+      "31544924",
+      "31395865",
+      "31375813",
+      "31138913",
+      "31133750",
+      "30962623",
+      "30922998",
+      "30661756",
+      "30650056",
+      "30361341",
+      "29867222",
+      "29625053",
+      "29610481",
+      "29208628",
+      "29069282",
+      "28846090",
+      "28629478",
+      "28481342",
+      "28359978",
+      "28235418",
+      "27547532",
+      "27471964",
+      "27197224",
+      "27153584",
+      "27089393",
+      "26656845",
+      "26562774",
+      "26502339",
+      "26381377",
+      "26301843",
+      "26300124",
+      "26213851",
+      "26053494",
+      "25977370",
+      "25954001",
+      "25865119",
+      "25765347",
+      "25315065",
+      "25273974",
+      "25058159",
+      "25033408",
+      "24786518",
+      "24769727",
+      "24136359",
+      "24136355",
+      "24092746",
+      "24075834",
+      "23919664",
+      "23887589",
+      "23348506",
+      "23348503",
+      "22955828",
+      "22955616",
+      "22820643",
+      "22388286",
+      "22307276",
+      "22293038",
+      "21811232",
+      "21726817",
+      "20837533",
+      "20110278",
+      "19541911",
+      "19505943",
+      "19474294",
+      "18798982",
+      "18188004",
+      "17508028",
+      "15131651",
+      "10490660",
+      "10359772"
+    ],
+    "similar": [
+      "33832990",
+      "32732264",
+      "39090688",
+      "26082173",
+      "27055116",
+      "27490187",
+      "18927605",
+      "33516170",
+      "25055051",
+      "30967126",
+      "19094206",
+      "29855387",
+      "32689977",
+      "22537144",
+      "31228310",
+      "36495179",
+      "22897152",
+      "33196774",
+      "31544924",
+      "33626337",
+      "33028202",
+      "25762337",
+      "26605532",
+      "25944915",
+      "34255822",
+      "37569400",
+      "34037796",
+      "31776829",
+      "21430782",
+      "27008018",
+      "31114856",
+      "34541447",
+      "29141961",
+      "30429326",
+      "33232622",
+      "39026761",
+      "32744316",
+      "32907840",
+      "37598467",
+      "24170599",
+      "36807077",
+      "20122241",
+      "32619460",
+      "29069282",
+      "28515787",
+      "27456004",
+      "30835229",
+      "25849986",
+      "22115494",
+      "28957321",
+      "23402308",
+      "34488759",
+      "30461303",
+      "32142172",
+      "32611439",
+      "37370113",
+      "32058623",
+      "28796844",
+      "26814189",
+      "23134707",
+      "26515115",
+      "38979263",
+      "25008978",
+      "24185200",
+      "31399133",
+      "36892770",
+      "37425760",
+      "33963077",
+      "38036790",
+      "36466610",
+      "33310749",
+      "34113473",
+      "37224527",
+      "35416406",
+      "36563664",
+      "31563852",
+      "37402191",
+      "34107341",
+      "36999047",
+      "37007588",
+      "36640453",
+      "36993652",
+      "39091739",
+      "35783292"
+    ],
+    "review": [
+      "33832990",
+      "32142172",
+      "36466610",
+      "34107341"
+    ],
+    "pmc": [
+      "8168584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=33832990",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33832990/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33832990",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse159965",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33832990",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

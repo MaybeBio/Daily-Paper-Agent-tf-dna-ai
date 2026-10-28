@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41629866",
+    "doi": "10.1186/s12883-026-04638-6",
+    "title": "Identification and verification of hub genes related to mitochondrial dysfunction in epilepsy based on bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Epilepsy is a neurological disorder characterized by recurrent seizures, and understanding its underlying molecular mechanisms remains a significant challenge. The objective of this study was to investigate the role of mitochondrial energy metabolism-related differentially expressed genes (MRDEGs) in epilepsy and explore diagnostic models based on these genes. METHODS: Datasets were obtained from the Gene Expression Omnibus (GEO) database. A differential expression analysis was conducted to identify MRDEGs. Diagnostic models were developed using logistic regression, support vector machine (SVM), and random forest (RF) algorithms. LASSO regression was employed to mitigate overfitting. The diagnostic value of the models was assessed using receiver operating characteristic (ROC) curves. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed on the hub genes. Protein‒protein interaction (PPI) networks were constructed and visualized using Cytoscape software. Additionally, mRNA‒miRNA and mRNA‒transcription factor (TF) interaction networks were constructed. RESULTS: In the GSE143272 dataset, logistic regression analysis revealed 26 statistically significant MRDEGs. The SVM model achieved the highest accuracy, with 22 MRDEGs. The RF algorithm identified 11 important MRDEGs for which IncNodePurity > 0.80. LASSO regression yielded a diagnostic model comprising five hub genes: ACAA1, ALDH3B1, DLST, GCDH, and NDUFB9. The ROC curves showed high accuracy for DLST (AUC > 0.9). GO and KEGG analyses revealed significant enrichment in processes such as mitochondrial ATP synthesis coupled with electron transport. PPI networks illustrated the interactions between hub genes. CONCLUSIONS: In conclusion, we elucidated the critical role of MRDEGs in the pathogenesis of epilepsy and developed a robust diagnostic model with potential clinical applications.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Diagnostic model",
+      "Epilepsy",
+      "Mitochondrial energy metabolism pathways",
+      "Mitochondrial energy metabolism-related genes"
+    ],
+    "mesh_terms": [
+      "*Epilepsy/genetics/metabolism/diagnosis",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Mitochondria/genetics/metabolism",
+      "Protein Interaction Maps/genetics",
+      "Support Vector Machine",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Yunyun",
+        "Zhang, Yanyan",
+        "Li, Faqiang",
+        "Chen, Feng",
+        "Wang, Shuaishuai",
+        "Zhao, Ziguang"
+      ],
+      "short_names": [
+        "Lu Y",
+        "Zhang Y",
+        "Li F",
+        "Chen F",
+        "Wang S",
+        "Zhao Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China. lyy_doctor@163.com.",
+        "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China.",
+        "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China.",
+        "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China.",
+        "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China.",
+        "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Yunyun",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China. lyy_doctor@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanyan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China."
+        ]
+      },
+      {
+        "full_name": "Li, Faqiang",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Feng",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuaishuai",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ziguang",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Xuzhou Cancer Hospital, Huancheng Road 131, Xuzhou, 221005, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC neurology"
+    ],
+    "journal_abbrev": [
+      "BMC Neurol"
+    ],
+    "pub_date": "2026 Feb 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 07:40",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38905914",
+      "38480879",
+      "38039807",
+      "37777370",
+      "37470054",
+      "37181029",
+      "36706124",
+      "36518035",
+      "36362003",
+      "36197310",
+      "35767389",
+      "35547834",
+      "35361967",
+      "35244921",
+      "34970420",
+      "34717959",
+      "34555062",
+      "34177782",
+      "33954995",
+      "33384961",
+      "33368582",
+      "33096746",
+      "32811895",
+      "32568404",
+      "31746386",
+      "31680801",
+      "31504780",
+      "31443682",
+      "31263255",
+      "30826443",
+      "30773428",
+      "30476243",
+      "30453885",
+      "30241973",
+      "30034909",
+      "29764485",
+      "29705726",
+      "29445957",
+      "29370910",
+      "29044647",
+      "27924033",
+      "26792336",
+      "26641458",
+      "25822800",
+      "25605792",
+      "25214427",
+      "25049407",
+      "24239435",
+      "23418513",
+      "22954895",
+      "22938966",
+      "22455463",
+      "21546393",
+      "21542839",
+      "20977934",
+      "20736804",
+      "19968706",
+      "17382292",
+      "16616334",
+      "15894293",
+      "15030907",
+      "14597658",
+      "10672230",
+      "9192388",
+      "7142217",
+      "2882519",
+      "2166974"
+    ],
+    "similar": [
+      "41629866",
+      "40790764",
+      "41044520",
+      "41006883",
+      "39609718",
+      "38020614",
+      "40697415",
+      "39586719",
+      "42327749",
+      "39341981",
+      "41146237",
+      "40628511",
+      "40360670",
+      "39853851",
+      "41197132",
+      "40245021",
+      "42509823",
+      "40374840",
+      "41940395",
+      "41544137",
+      "36195955",
+      "38260098",
+      "39556279",
+      "40821971",
+      "42164373",
+      "39713769",
+      "40500570",
+      "40331545",
+      "41316541",
+      "40369105",
+      "38384969",
+      "34814332",
+      "39375405",
+      "39263286",
+      "40997906",
+      "37179305",
+      "35313524",
+      "42345426",
+      "40241169",
+      "38993198",
+      "41508240",
+      "39142001",
+      "41104127",
+      "40659785",
+      "41781900",
+      "41790636",
+      "39351239",
+      "38904678",
+      "39139563",
+      "38291374",
+      "39396400",
+      "42348043",
+      "42589294",
+      "40977739",
+      "39671358",
+      "40836320",
+      "41164826",
+      "31416885",
+      "41533020",
+      "40901474",
+      "41415264",
+      "39387979",
+      "41184495",
+      "38292759",
+      "41196851",
+      "38509535",
+      "41291978",
+      "39855613",
+      "39870856",
+      "35996248",
+      "40918403",
+      "40561071",
+      "40901831",
+      "39230867",
+      "39125762",
+      "42568355",
+      "36438903",
+      "41479901",
+      "40313958",
+      "36660690",
+      "39103773",
+      "38736878",
+      "38347799",
+      "38601640",
+      "41120378",
+      "37498421",
+      "37250717",
+      "35151359",
+      "40091022",
+      "40496861",
+      "40766309",
+      "40672380",
+      "38718074",
+      "41468478",
+      "39337585",
+      "40406620",
+      "39754246",
+      "41909133",
+      "41189173",
+      "33280594"
+    ],
+    "review": [
+      "41629866",
+      "39387979"
+    ],
+    "pmc": [
+      "12955235"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcneurol.biomedcentral.com/articles/10.1186/s12883-026-04638-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41629866/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      }
+    ],
+    "text_mined": []
+  }
+}

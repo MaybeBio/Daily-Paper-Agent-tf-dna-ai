@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "35997565",
+    "doi": "10.1093/bioinformatics/btac575",
+    "title": "CLNN-loop: a deep learning model to predict CTCF-mediated chromatin loops in the different cell lines and CTCF-binding sites (CBS) pair types."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Three-dimensional (3D) genome organization is of vital importance in gene regulation and disease mechanisms. Previous studies have shown that CTCF-mediated chromatin loops are crucial to studying the 3D structure of cells. Although various experimental techniques have been developed to detect chromatin loops, they have been found to be time-consuming and costly. Nowadays, various sequence-based computational methods can capture significant features of 3D genome organization and help predict chromatin loops. However, these methods have low performance and poor generalization ability in predicting chromatin loops. RESULTS: Here, we propose a novel deep learning model, called CLNN-loop, to predict chromatin loops in different cell lines and CTCF-binding sites (CBS) pair types by fusing multiple sequence-based features. The analysis of a series of examinations based on the datasets in the previous study shows that CLNN-loop has satisfactory performance and is superior to the existing methods in terms of predicting chromatin loops. In addition, we apply the SHAP framework to interpret the predictions of different models, and find that CTCF motif and sequence conservation are important signs of chromatin loops in different cell lines and CBS pair types. AVAILABILITY AND IMPLEMENTATION: The source code of CLNN-loop is freely available at https://github.com/HaoWuLab-Bioinformatics/CLNN-loop and the webserver of CLNN-loop is freely available at http://hwclnn.sdu.edu.cn. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin",
+      "CCCTC-Binding Factor/metabolism",
+      "*Deep Learning",
+      "Binding Sites",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Pengyu",
+        "Wu, Yingfu",
+        "Zhou, Haoru",
+        "Zhou, Bing",
+        "Zhang, Hongming",
+        "Wu, Hao"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Wu Y",
+        "Zhou H",
+        "Zhou B",
+        "Zhang H",
+        "Wu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8696-4983",
+        "ORCID: 0000-0002-8142-6999",
+        "ORCID: 0000-0003-1524-0093",
+        "ORCID: 0000-0002-5872-8358",
+        "ORCID: 0000-0003-4605-8577",
+        "ORCID: 0000-0003-2340-9258"
+      ],
+      "affiliations": [
+        "School of Software, Shandong University, Jinan, Shandong 250101, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China.",
+        "School of Software, Shandong University, Jinan, Shandong 250101, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Pengyu",
+        "short_name": "Zhang P",
+        "identifiers": [
+          "0000-0001-8696-4983"
+        ],
+        "affiliations": [
+          "School of Software, Shandong University, Jinan, Shandong 250101, China.",
+          "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yingfu",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0000-0002-8142-6999"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Haoru",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0003-1524-0093"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bing",
+        "short_name": "Zhou B",
+        "identifiers": [
+          "0000-0002-5872-8358"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongming",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0003-4605-8577"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0003-2340-9258"
+        ],
+        "affiliations": [
+          "School of Software, Shandong University, Jinan, Shandong 250101, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Sep 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/24 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "42657918",
+      "42289051",
+      "42238817",
+      "42114117",
+      "41684299",
+      "41555433",
+      "41359035",
+      "41075287",
+      "40820286",
+      "40804738",
+      "40731363",
+      "40708222",
+      "40536817",
+      "40522017",
+      "40458850",
+      "40302186",
+      "40270467",
+      "40241181",
+      "40188358",
+      "40170155",
+      "40119615",
+      "40117178",
+      "39671349",
+      "39661307",
+      "39556608",
+      "39283464",
+      "39186807",
+      "39085477",
+      "38972032",
+      "38753877",
+      "38701419",
+      "38495565",
+      "38489147",
+      "38485768",
+      "38457108",
+      "38413547",
+      "38168839",
+      "38127089",
+      "37889077",
+      "37840067",
+      "37789848",
+      "37440599",
+      "37215759",
+      "36622018"
+    ],
+    "refs": [],
+    "similar": [
+      "35997565",
+      "29949986",
+      "33634313",
+      "33232622",
+      "34289010",
+      "34413016",
+      "37602215",
+      "30310060",
+      "28137913",
+      "37077544",
+      "31653198",
+      "35181793",
+      "29593713",
+      "37552993",
+      "35640981",
+      "30296942",
+      "32216817",
+      "33594051",
+      "37133976",
+      "34856126",
+      "38561336",
+      "31522988",
+      "38770419",
+      "38758956",
+      "30120652",
+      "32885250",
+      "32631111",
+      "27004515",
+      "31905366",
+      "26499245",
+      "29217591",
+      "28536180",
+      "31491387",
+      "30060743",
+      "31911579",
+      "38950902",
+      "35274099",
+      "30031214",
+      "36206320",
+      "34769020",
+      "35768498",
+      "29199022",
+      "30655336",
+      "32294452",
+      "29437926",
+      "20133600",
+      "38397134",
+      "34741515",
+      "31605131",
+      "26527277",
+      "33545664",
+      "37266407",
+      "33154377",
+      "38555493",
+      "36495179",
+      "30717603",
+      "36484687",
+      "37745336",
+      "33279983",
+      "22347474",
+      "33113374",
+      "29137603",
+      "29976663",
+      "35817979",
+      "35410161",
+      "31285261",
+      "31937660",
+      "21829357",
+      "34735550",
+      "31973766",
+      "30940740",
+      "35234910",
+      "32398790",
+      "23650640",
+      "30738580",
+      "34197738",
+      "27067545",
+      "35456427",
+      "34702695",
+      "27880914",
+      "35977522",
+      "38940142",
+      "32807777",
+      "33187878",
+      "31177910",
+      "34006570",
+      "27083996",
+      "12878173",
+      "33575587",
+      "34255822",
+      "37699658",
+      "36567710",
+      "34601568",
+      "35150250",
+      "32127418",
+      "36699364",
+      "38254945",
+      "37402191",
+      "31742318",
+      "36458923",
+      "37790243",
+      "37868032",
+      "38168841",
+      "32647330",
+      "35860407",
+      "38422958",
+      "30753588",
+      "33471069",
+      "35788263",
+      "38463168",
+      "35799358",
+      "38023330",
+      "39085477",
+      "36882016",
+      "36243984",
+      "37816141",
+      "31510655",
+      "35809058",
+      "36355469",
+      "37397353",
+      "32003791",
+      "31566664",
+      "38405883",
+      "35561158",
+      "35685374",
+      "37387176",
+      "38515011",
+      "37573342",
+      "35832620",
+      "37961712",
+      "36993250",
+      "38691895",
+      "33796819",
+      "38746164",
+      "37248282",
+      "35036922",
+      "33620423",
+      "39318505",
+      "37139553",
+      "37066361",
+      "38949344",
+      "39188986"
+    ],
+    "review": [
+      "35997565",
+      "32631111",
+      "30031214",
+      "33545664",
+      "30940740",
+      "23650640",
+      "33187878",
+      "27083996",
+      "36882016"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35997565.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac575",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

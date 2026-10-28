@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "40412057",
+    "doi": "10.1016/j.phymed.2025.156840",
+    "title": "Picropodophyllin induces ferroptosis via blockage of AKT/NRF2/SLC7A11 and AKT/NRF2/SLC40A1 axes in hepatocellular carcinoma as a natural IGF1R inhibitor."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ferroptosis represents a distinct form of regulated cell death characterized by intracellular iron overload and extensive lipid peroxidation. Targeting ferroptosis-related signaling pathways and inducing ferroptosis have emerged as promising therapeutic strategies for hepatocellular carcinoma (HCC). Recent studies have highlighted the involvement of insulin-like growth factor 1 receptor (IGF1R) signaling in cancer progression and antioxidant defense mechanisms. Picropodophyllin (PPP), a natural IGF1R inhibitor isolated from Dysosma versipellis, exhibits anticancer effects against several solid tumors. However, the impact of PPP on ferroptosis in HCC and the underlying molecular mechanisms remain unclear. PURPOSE: The current study aims to evaluate the anti-tumor effects of PPP on HCC progression in vitro and in vivo, and to investigate the actions and mechanisms of PPP as a novel ferroptosis inducer. METHODS: Clinical sample from HCC patients were applied to analyze the correlation of IGF1R with malignancy of HCC. Docking simulations, molecular dynamics simulation and cellular thermal shift assay were performed to verify the interaction between PPP and IGF1R. CCK-8 cell viability assay, colony formation, Calcein-AM/PI staining, wound healing and transwell assays were conducted to determine the effects of PPP on cell viability, proliferation, migration and invasion. Intracellular Fe(2+), GSH, MDA and lipid ROS levels were measured to evaluate the degree of ferroptosis induced by PPP. GO functional annotation and KEGG enrichment analysis, quantitative real-time PCR, western blot and immunofluorescence (IF) assay were performed to investigate the mechanisms underlying the action of PPP. Nude mice xenograft model and immunohistochemistry (IHC) assay were utilized to observe the impact of PPP on tumor growth in vivo. RESULTS: Upregulation of IGF1R were confirmed to positively correlated with malignant progression of HCC and PPP were verified to act as a specific inhibitor of IGF1R in HCC. PPP exhibited dose-dependent anti-proliferative and anti-metastasis effects on HCC cells, and inhibited HCC growth in a subcutaneous xenograft murine model. Meanwhile, PPP remarkably increased intracellular Fe(2+), lipid ROS and MDA levels, but decreased ROS scavenger GSH content and glutathione peroxidase 4 (GPX4) activity significantly, which suggested that PPP stimulated ferroptosis relying on iron-dependent lipid peroxidation. The ferroptosis inhibitor deferoxamine mesylate (DFO) nearly abolished the anti-cancer and ferroptosis-inducing effects of PPP both in vitro and in vivo. Mechanistically, PPP inhibited the phosphorylation of IGF1R, PI3K and AKT, thus suppressed the protein stability of NRF2 by facilitating ubiquitination, and consequently decreased expression of its target gene SLC7A11 and SLC40A1. CONCLUSION: The natural IGF1R inhibitor PPP induced ferroptosis through blockage of PI3K/AKT/NRF2 signaling pathway and subsequent inhibition of downstream gene expression of SLC7A11 and SLC40A1 in hepatocellular carcinoma. Consequently, our findings provide a novel action and mechanism of PPP, as well as offer innovative and promising ferroptosis-inducing agents for the clinical treatment of HCC.",
+    "keywords": [
+      "Ferroptosis",
+      "Hepatocellular carcinoma",
+      "IGF1R",
+      "PI3K/AKT/NRF2",
+      "Picropodophyllin",
+      "SLC40A1",
+      "SLC7A11"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "Humans",
+      "*Carcinoma, Hepatocellular/drug therapy/metabolism/pathology",
+      "Animals",
+      "*Liver Neoplasms/drug therapy/metabolism/pathology",
+      "Receptor, IGF Type 1/antagonists & inhibitors/metabolism",
+      "NF-E2-Related Factor 2/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "*Podophyllotoxin/analogs & derivatives/pharmacology",
+      "Mice",
+      "Signal Transduction/drug effects",
+      "Mice, Nude",
+      "Amino Acid Transport System y+/metabolism",
+      "Cell Line, Tumor",
+      "Male",
+      "Mice, Inbred BALB C",
+      "Xenograft Model Antitumor Assays",
+      "Receptors, Somatomedin/antagonists & inhibitors",
+      "Molecular Docking Simulation",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Jiahui",
+        "Liu, Yixin",
+        "Zhu, Fengchi",
+        "Liu, Sha",
+        "Cai, Zhuo",
+        "Liu, Mengting",
+        "An, Xiangping",
+        "Yao, Yan",
+        "Chen, Nana",
+        "Guo, Dan"
+      ],
+      "short_names": [
+        "Zheng J",
+        "Liu Y",
+        "Zhu F",
+        "Liu S",
+        "Cai Z",
+        "Liu M",
+        "An X",
+        "Yao Y",
+        "Chen N",
+        "Guo D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China.",
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China.",
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China.",
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China.",
+        "NHC Key Laboratory of Male Reproduction and Genetics, Guangdong Provincial Reproductive Science Institute (Guangdong Provincial Fertility Hospital), Guangzhou 510600, China.",
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China.",
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China.",
+        "Department of Anaesthesiology, Nanfang Hospital, Southern Medical University, Guangzhou 510515, China. Electronic address: 865212857@qq.com.",
+        "Laboratory of Anti-inflammatory and Immunomodulatory Pharmacology, School of Pharmaceutical Sciences, Southern Medical University, Guangdong Provincial Key Laboratory of New Drug Screening, Guangzhou, 510515, China. Electronic address: yxbyjs@smu.edu.cn.",
+        "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China. Electronic address: nfyyyxb@smu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Jiahui",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yixin",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Fengchi",
+        "short_name": "Zhu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sha",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Zhuo",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Male Reproduction and Genetics, Guangdong Provincial Reproductive Science Institute (Guangdong Provincial Fertility Hospital), Guangzhou 510600, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mengting",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "An, Xiangping",
+        "short_name": "An X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yan",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anaesthesiology, Nanfang Hospital, Southern Medical University, Guangzhou 510515, China. Electronic address: 865212857@qq.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Nana",
+        "short_name": "Chen N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Anti-inflammatory and Immunomodulatory Pharmacology, School of Pharmaceutical Sciences, Southern Medical University, Guangdong Provincial Key Laboratory of New Drug Screening, Guangzhou, 510515, China. Electronic address: yxbyjs@smu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Dan",
+        "short_name": "Guo D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Nanfang Hospital, Southern Medical University, No. 1838, Guangzhou Boulevard (North), Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Guangzhou 510515, China. Electronic address: nfyyyxb@smu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Jul 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/25 20:35",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42666523",
+      "42621384",
+      "42455421",
+      "42311507",
+      "42199338",
+      "42193241",
+      "42169121",
+      "42094736",
+      "41840422",
+      "41832339",
+      "41776105",
+      "41676444",
+      "41089855",
+      "41044642",
+      "40875107",
+      "40750601"
+    ],
+    "refs": [],
+    "similar": [
+      "40412057",
+      "37856990",
+      "40274347",
+      "40543691",
+      "40316156",
+      "40402956",
+      "38418695",
+      "39276458",
+      "39894307",
+      "40456202",
+      "39805761",
+      "39674355",
+      "41187650",
+      "40439491",
+      "40109469",
+      "40066086",
+      "38862254",
+      "38165425",
+      "40344847",
+      "38652216",
+      "39214275",
+      "40592077",
+      "41130376",
+      "39393329",
+      "39923427",
+      "38621980",
+      "39595583",
+      "23973483",
+      "39127118",
+      "40382941",
+      "34696683",
+      "40010556",
+      "24406046",
+      "38426342",
+      "40007539",
+      "30355923",
+      "39311951",
+      "41138574",
+      "39511054",
+      "41175589",
+      "36657316",
+      "40359890",
+      "40702694",
+      "39012393",
+      "39652303",
+      "38884168",
+      "40806353",
+      "41451920",
+      "40222690",
+      "39805792",
+      "40154588",
+      "39631720",
+      "38811968",
+      "24182354",
+      "40618168",
+      "39763283",
+      "41101075",
+      "35091012",
+      "38429602",
+      "40876907",
+      "38837315",
+      "39353360",
+      "39090392",
+      "40959275",
+      "40865655",
+      "39922329",
+      "41231318",
+      "41121022",
+      "40846041",
+      "38873643",
+      "35169857",
+      "40615733",
+      "34338398",
+      "41344272",
+      "26323364",
+      "32407961",
+      "40613296",
+      "40621626",
+      "40403934",
+      "40615101",
+      "28793874",
+      "37554285",
+      "39198815",
+      "39032284",
+      "39698827",
+      "37714424",
+      "40825957",
+      "38663476",
+      "40494017",
+      "39167283",
+      "40819642",
+      "39521147",
+      "32531676",
+      "39051078",
+      "40216263",
+      "40081544",
+      "39301883",
+      "40664345",
+      "27614046",
+      "40882016"
+    ],
+    "review": [
+      "40412057"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00478-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

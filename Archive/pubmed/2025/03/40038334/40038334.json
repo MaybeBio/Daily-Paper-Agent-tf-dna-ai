@@ -1,0 +1,567 @@
+{
+  "identity": {
+    "pmid": "40038334",
+    "doi": "10.1038/s41467-025-57293-9",
+    "title": "Determinants of response and molecular dynamics in HER2+ER+ breast cancers from the NA-PHER2 trial receiving HER2-targeted and endocrine therapies."
+  },
+  "content": {
+    "abstract": "Improved outcomes in HER2+ female breast cancer have resulted from chemotherapy and anti-HER2 therapies. However, HER2+ER+ cancers exhibit lower response rates. The phase 2 NA-PHER2 trial (NCT02530424) investigated chemo-free preoperative HER2 blockade (trastuzumab + pertuzumab) and CDK4/6 inhibition (palbociclib) with or without endocrine therapy (fulvestrant) in HER2+ER+ breast cancer. Clinical endpoints (i.e. Ki67 dynamics and pathological complete response) were previously reported. Here we report on the biomarker analysis, secondary objective of the study. Through RNA sequencing and tumour infiltrating lymphocytes (TIL) assessment in serial biopsies, we identified biomarkers predictive of pCR or Day14 Ki67 response and unveiled treatment-induced molecular changes. High immune infiltration and low ER signalling correlated with pCR, while TP53 mutations associated with high Day14 Ki67. Stratification based on Ki67 at Day14 and at surgery defined three response groups (Ki67 HighHigh, LowHigh, LowLow), with divergent tumour and stroma expression dynamics. The HighHigh group showed dysfunctional immune infiltration and overexpression of therapeutic targets like PAK4 at baseline. The LowLow group exhibited a Luminal A phenotype by the end of treatment. This study expands our understanding of drivers and dynamics of HER2+ER+ tumour response, towards treatment tailoring.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/drug therapy/genetics/metabolism/pathology",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/antagonists & inhibitors/genetics",
+      "Ki-67 Antigen/metabolism/genetics",
+      "Antibodies, Monoclonal, Humanized/therapeutic use/administration & dosage",
+      "Receptors, Estrogen/metabolism/genetics",
+      "Trastuzumab/therapeutic use/administration & dosage",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Lymphocytes, Tumor-Infiltrating/metabolism/immunology/drug effects",
+      "Pyridines/therapeutic use/administration & dosage",
+      "*Antineoplastic Combined Chemotherapy Protocols/therapeutic use",
+      "Tumor Suppressor Protein p53/genetics",
+      "Treatment Outcome",
+      "Middle Aged",
+      "Antineoplastic Agents, Hormonal/therapeutic use",
+      "Piperazines"
+    ],
+    "pub_types": [
+      "Clinical Trial, Phase II",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Callari, Maurizio",
+        "Dugo, Matteo",
+        "Barreca, Marco",
+        "Gyorffy, Balazs",
+        "Galbardi, Barbara",
+        "Vigano, Lucia",
+        "Locatelli, Alberta",
+        "Dall'Ara, Chiara",
+        "Ferrarini, Marina",
+        "Bisagni, Giancarlo",
+        "Colleoni, Marco",
+        "Mansutti, Mauro",
+        "Zamagni, Claudio",
+        "Del Mastro, Lucia",
+        "Zambelli, Stefania",
+        "Frassoldati, Antonio",
+        "Biasi, Olivia",
+        "Pusztai, Lajos",
+        "Valagussa, Pinuccia",
+        "Viale, Giuseppe",
+        "Gianni, Luca",
+        "Bianchini, Giampaolo"
+      ],
+      "short_names": [
+        "Callari M",
+        "Dugo M",
+        "Barreca M",
+        "Gyorffy B",
+        "Galbardi B",
+        "Vigano L",
+        "Locatelli A",
+        "Dall'Ara C",
+        "Ferrarini M",
+        "Bisagni G",
+        "Colleoni M",
+        "Mansutti M",
+        "Zamagni C",
+        "Del Mastro L",
+        "Zambelli S",
+        "Frassoldati A",
+        "Biasi O",
+        "Pusztai L",
+        "Valagussa P",
+        "Viale G",
+        "Gianni L",
+        "Bianchini G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5239-0918",
+        "ORCID: 0000-0001-9786-2763",
+        "ORCID: 0000-0002-9152-236X",
+        "ORCID: 0000-0003-4538-4354",
+        "ORCID: 0000-0003-0251-6433",
+        "ORCID: 0009-0004-8934-9053",
+        "ORCID: 0000-0002-9546-5841",
+        "ORCID: 0000-0001-9632-6686",
+        "ORCID: 0000-0003-3590-7916",
+        "ORCID: 0000-0002-6790-6267"
+      ],
+      "affiliations": [
+        "Fondazione Michelangelo, Milan, Italy.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "Fondazione Michelangelo, Milan, Italy.",
+        "Department of Biotechnology and Biosciences, University of Milano-Bicocca, Milan, Italy.",
+        "Dept. of Bioinformatics, Semmelweis University, Budapest, Hungary.",
+        "Dept. of Biophysics, Medical School, University of Pecs, Pecs, Hungary.",
+        "Cancer Biomarker Research Group, Institute of Molecular Life Sciences, Research Centre for Natural Sciences, Budapest, Hungary.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "AUSL - IRCCS, Reggio Emilia, Italy.",
+        "IEO, European Institute of Oncology, IRCCS, Milan, Italy.",
+        "Udine Academic Hospital, Udine, Italy.",
+        "IRCCS Azienda Ospedaliero Universitaria, Bologna, Italy.",
+        "Department of Internal Medicine and Medical Specialties (DiMI), School of Medicine, Universita di Genova, Genoa, Italy.",
+        "Department of Medical Oncology, UO Clinica di Oncologia Medica, IRCCS Ospedale Policlinico San Martino, Genoa, Italy.",
+        "IRCCS San Raffaele Hospital, Milan, Italy.",
+        "Azienda Ospedaliera Universitaria S. Anna, Ferrara, Italy.",
+        "IEO, European Institute of Oncology, IRCCS, Milan, Italy.",
+        "Department of Internal Medicine, Section of Medical Oncology, Yale School of Medicine, New Haven, CT, USA.",
+        "Fondazione Michelangelo, Milan, Italy.",
+        "Fondazione Michelangelo, Milan, Italy.",
+        "IEO, European Institute of Oncology, IRCCS, Milan, Italy.",
+        "Fondazione Michelangelo, Milan, Italy. luca.gianni@fondazionemichelangelo.org.",
+        "IRCCS San Raffaele Hospital, Milan, Italy. bianchini.giampaolo@hsr.it.",
+        "UniSR San Raffaele University, Milan, Italy. bianchini.giampaolo@hsr.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Callari, Maurizio",
+        "short_name": "Callari M",
+        "identifiers": [
+          "0000-0001-5239-0918"
+        ],
+        "affiliations": [
+          "Fondazione Michelangelo, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Dugo, Matteo",
+        "short_name": "Dugo M",
+        "identifiers": [
+          "0000-0001-9786-2763"
+        ],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Barreca, Marco",
+        "short_name": "Barreca M",
+        "identifiers": [
+          "0000-0002-9152-236X"
+        ],
+        "affiliations": [
+          "Fondazione Michelangelo, Milan, Italy.",
+          "Department of Biotechnology and Biosciences, University of Milano-Bicocca, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Győrffy, Balázs",
+        "short_name": "Győrffy B",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Bioinformatics, Semmelweis University, Budapest, Hungary.",
+          "Dept. of Biophysics, Medical School, University of Pecs, Pecs, Hungary.",
+          "Cancer Biomarker Research Group, Institute of Molecular Life Sciences, Research Centre for Natural Sciences, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Galbardi, Barbara",
+        "short_name": "Galbardi B",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Vigano, Lucia",
+        "short_name": "Vigano L",
+        "identifiers": [
+          "0000-0003-4538-4354"
+        ],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Locatelli, Alberta",
+        "short_name": "Locatelli A",
+        "identifiers": [
+          "0000-0003-0251-6433"
+        ],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Dall'Ara, Chiara",
+        "short_name": "Dall'Ara C",
+        "identifiers": [
+          "0009-0004-8934-9053"
+        ],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferrarini, Marina",
+        "short_name": "Ferrarini M",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bisagni, Giancarlo",
+        "short_name": "Bisagni G",
+        "identifiers": [],
+        "affiliations": [
+          "AUSL - IRCCS, Reggio Emilia, Italy."
+        ]
+      },
+      {
+        "full_name": "Colleoni, Marco",
+        "short_name": "Colleoni M",
+        "identifiers": [],
+        "affiliations": [
+          "IEO, European Institute of Oncology, IRCCS, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Mansutti, Mauro",
+        "short_name": "Mansutti M",
+        "identifiers": [],
+        "affiliations": [
+          "Udine Academic Hospital, Udine, Italy."
+        ]
+      },
+      {
+        "full_name": "Zamagni, Claudio",
+        "short_name": "Zamagni C",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS Azienda Ospedaliero Universitaria, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Mastro, Lucia",
+        "short_name": "Del Mastro L",
+        "identifiers": [
+          "0000-0002-9546-5841"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine and Medical Specialties (DiMI), School of Medicine, Università di Genova, Genoa, Italy.",
+          "Department of Medical Oncology, UO Clinica di Oncologia Medica, IRCCS Ospedale Policlinico San Martino, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Zambelli, Stefania",
+        "short_name": "Zambelli S",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Frassoldati, Antonio",
+        "short_name": "Frassoldati A",
+        "identifiers": [],
+        "affiliations": [
+          "Azienda Ospedaliera Universitaria S. Anna, Ferrara, Italy."
+        ]
+      },
+      {
+        "full_name": "Biasi, Olivia",
+        "short_name": "Biasi O",
+        "identifiers": [],
+        "affiliations": [
+          "IEO, European Institute of Oncology, IRCCS, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Pusztai, Lajos",
+        "short_name": "Pusztai L",
+        "identifiers": [
+          "0000-0001-9632-6686"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine, Section of Medical Oncology, Yale School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Valagussa, Pinuccia",
+        "short_name": "Valagussa P",
+        "identifiers": [
+          "0000-0003-3590-7916"
+        ],
+        "affiliations": [
+          "Fondazione Michelangelo, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Viale, Giuseppe",
+        "short_name": "Viale G",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Michelangelo, Milan, Italy.",
+          "IEO, European Institute of Oncology, IRCCS, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Gianni, Luca",
+        "short_name": "Gianni L",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione Michelangelo, Milan, Italy. luca.gianni@fondazionemichelangelo.org."
+        ]
+      },
+      {
+        "full_name": "Bianchini, Giampaolo",
+        "short_name": "Bianchini G",
+        "identifiers": [
+          "0000-0002-6790-6267"
+        ],
+        "affiliations": [
+          "IRCCS San Raffaele Hospital, Milan, Italy. bianchini.giampaolo@hsr.it.",
+          "UniSR San Raffaele University, Milan, Italy. bianchini.giampaolo@hsr.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Clinical Trial, Phase II",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/05 00:22",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "41674994",
+      "40940886"
+    ],
+    "refs": [
+      "39448787",
+      "37316719",
+      "37075276",
+      "37041409",
+      "36718521",
+      "36509363",
+      "35798086",
+      "35523804",
+      "35254385",
+      "35224665",
+      "35025636",
+      "35013314",
+      "34779146",
+      "34649957",
+      "34493872",
+      "34368780",
+      "33961924",
+      "33668097",
+      "33662161",
+      "33268821",
+      "33152284",
+      "32914010",
+      "32353342",
+      "32046997",
+      "31959756",
+      "31861356",
+      "31667643",
+      "31641033",
+      "31468733",
+      "30591559",
+      "30516102",
+      "30228933",
+      "29625045",
+      "29592813",
+      "29326029",
+      "28813415",
+      "28777142",
+      "28487444",
+      "27939064",
+      "27484801",
+      "27224909",
+      "27179402",
+      "26954716",
+      "26725324",
+      "26527775",
+      "26387142",
+      "24657003",
+      "24529560",
+      "24480556",
+      "24443618",
+      "23704196",
+      "22987966",
+      "22153890",
+      "21111561",
+      "20427518",
+      "19204204",
+      "12019145"
+    ],
+    "similar": [
+      "40038334",
+      "29326029",
+      "28923573",
+      "35254385",
+      "38789924",
+      "30778520",
+      "27964843",
+      "38861871",
+      "26345461",
+      "28183321",
+      "31098866",
+      "26181252",
+      "36374768",
+      "29175149",
+      "23645542",
+      "28945833",
+      "22123186",
+      "29573739",
+      "24118529",
+      "35985932",
+      "39317942",
+      "23749689",
+      "40179327",
+      "31953696",
+      "25186065",
+      "30903140",
+      "30274983",
+      "31307414",
+      "32638235",
+      "35013314",
+      "31662535",
+      "38368871",
+      "24080156",
+      "29599351",
+      "28478451",
+      "29045543",
+      "31653641",
+      "40318646",
+      "28525810",
+      "34213778",
+      "31494037",
+      "23569315",
+      "32938620",
+      "25200445",
+      "34019819",
+      "40271640",
+      "29615076",
+      "38995291",
+      "25034441",
+      "33152285",
+      "31892336",
+      "28289852",
+      "26354331",
+      "31410192",
+      "24675287",
+      "23679233",
+      "38456970",
+      "29233559",
+      "28447218",
+      "33357420",
+      "33662161",
+      "39617646",
+      "33181670",
+      "27611952",
+      "28493933",
+      "32445323",
+      "39576843",
+      "38582092",
+      "27510014",
+      "24095300",
+      "31146717",
+      "25082658",
+      "22644656",
+      "28585619",
+      "40049115",
+      "29788230",
+      "39375745",
+      "40205245",
+      "33302999",
+      "26704052",
+      "40114292",
+      "40214840",
+      "38766488",
+      "31519449",
+      "26178788",
+      "38538968",
+      "29445928",
+      "38788968",
+      "18607391",
+      "31806448",
+      "38770648",
+      "28750640",
+      "29778787",
+      "28982879",
+      "35241469",
+      "35405088",
+      "28750133",
+      "22153890",
+      "32353342",
+      "21373875"
+    ],
+    "review": [
+      "40038334",
+      "24080156",
+      "28525810",
+      "31494037",
+      "33662161",
+      "28585619"
+    ],
+    "pmc": [
+      "11880565"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-57293-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40038334/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

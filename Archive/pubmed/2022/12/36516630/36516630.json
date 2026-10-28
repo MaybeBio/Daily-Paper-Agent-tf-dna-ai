@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "36516630",
+    "doi": "10.1016/j.bios.2022.115004",
+    "title": "Directed evolution of linker helix as an efficient strategy for engineering LysR-type transcriptional regulators as whole-cell biosensors."
+  },
+  "content": {
+    "abstract": "Whole-cell biosensors based on transcriptional regulators are powerful tools for rapid measurement, high-throughput screening, dynamic metabolic regulation, etc. To optimize the biosensing performance of transcriptional regulator, its effector-binding domain is commonly engineered. However, this strategy is encumbered by the limitation of diversifying such a large domain and the risk of affecting effector specificity. Molecular dynamics simulation of effector binding of LysG (an LysR-type transcriptional regulator, LTTR) suggests the crucial role of the short linker helix (LH) connecting effector- and DNA-binding domains in protein conformational change. Directed evolution of LH efficiently produced LysG variants with extended operational range and unaltered effector specificity. The whole-cell biosensor based on the best LysG(E58V) variant outperformed the wild-type LysG in enzyme high-throughput screening and dynamic regulation of l-lysine biosynthetic pathway. LH mutations are suggested to affect DNA binding and facilitate transcriptional activation upon effector binding. LH engineering was also successfully applied to optimize another LTTR BenM for biosensing. Since LTTRs represent the largest family of prokaryotic transcriptional regulators with highly conserved structures, LH engineering is an efficient and universal strategy for development and optimization of whole-cell biosensors.",
+    "keywords": [
+      "Dynamic regulation",
+      "High-throughput screening",
+      "Linker helix",
+      "LysG",
+      "LysR-type transcriptional regulator",
+      "Whole-cell biosensor"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/chemistry",
+      "Bacterial Proteins/genetics",
+      "*Biosensing Techniques",
+      "Protein Domains",
+      "DNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pu, Wei",
+        "Chen, Jiuzhou",
+        "Liu, Pi",
+        "Shen, Jie",
+        "Cai, Ningyun",
+        "Liu, Baoyan",
+        "Lei, Yu",
+        "Wang, Lixian",
+        "Ni, Xiaomeng",
+        "Zhang, Jie",
+        "Liu, Jiao",
+        "Zhou, Yingyu",
+        "Zhou, Wenjuan",
+        "Ma, Hongwu",
+        "Wang, Yu",
+        "Zheng, Ping",
+        "Sun, Jibin"
+      ],
+      "short_names": [
+        "Pu W",
+        "Chen J",
+        "Liu P",
+        "Shen J",
+        "Cai N",
+        "Liu B",
+        "Lei Y",
+        "Wang L",
+        "Ni X",
+        "Zhang J",
+        "Liu J",
+        "Zhou Y",
+        "Zhou W",
+        "Ma H",
+        "Wang Y",
+        "Zheng P",
+        "Sun J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; BioDesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 300457, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; BioDesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 300457, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China; BioDesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; Haihe Laboratory of Synthetic Biology, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China. Electronic address: wang_y@tib.cas.cn.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China. Electronic address: zheng_p@tib.cas.cn.",
+        "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pu, Wei",
+        "short_name": "Pu W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiuzhou",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Pi",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; BioDesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Jie",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Ningyun",
+        "short_name": "Cai N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 300457, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Baoyan",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; BioDesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Yu",
+        "short_name": "Lei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lixian",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Xiaomeng",
+        "short_name": "Ni X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jie",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yingyu",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 300457, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wenjuan",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Hongwu",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China; BioDesign Center, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; Haihe Laboratory of Synthetic Biology, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China. Electronic address: wang_y@tib.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Ping",
+        "short_name": "Zheng P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China. Electronic address: zheng_p@tib.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Sun, Jibin",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Microbial Biotechnology, Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences, Tianjin, 300308, China; National Technology Innovation Center of Synthetic Biology, Tianjin, 300308, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biosensors & bioelectronics"
+    ],
+    "journal_abbrev": [
+      "Biosens Bioelectron"
+    ],
+    "pub_date": "2023 Feb 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/15 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "42185913",
+      "42119980",
+      "41982388",
+      "41655251",
+      "41333561",
+      "41050204",
+      "39827424",
+      "39451669",
+      "39306765",
+      "38789612"
+    ],
+    "refs": [],
+    "similar": [
+      "36516630",
+      "24100318",
+      "39306765",
+      "19047729",
+      "17291527",
+      "31159259",
+      "29323785",
+      "20932977",
+      "27642864",
+      "19400783",
+      "12595552",
+      "37285554",
+      "31777933",
+      "29170965",
+      "30389770",
+      "29688705",
+      "23695583",
+      "32690010",
+      "32978386",
+      "35717889",
+      "37449325",
+      "34597502",
+      "31375931",
+      "30168204",
+      "14684899",
+      "31184713",
+      "17565172",
+      "21187915",
+      "33576566",
+      "22235937",
+      "35594503",
+      "20036253",
+      "30658983",
+      "36087402",
+      "35921946",
+      "8257110",
+      "31433622",
+      "29087704",
+      "22904281",
+      "22526031",
+      "32843554",
+      "30563319",
+      "21884597",
+      "37635411",
+      "30039521",
+      "31825601",
+      "21692874",
+      "34985281",
+      "16359854",
+      "20059681",
+      "34936841",
+      "21245528",
+      "29146251",
+      "24659766",
+      "28927195",
+      "28936918",
+      "33397697",
+      "32179628",
+      "27744683",
+      "33046561",
+      "31268296",
+      "16517618",
+      "23274217",
+      "30921678",
+      "33666081",
+      "27208139",
+      "34572489",
+      "30204430",
+      "29136175",
+      "37918525",
+      "11016850",
+      "27567672",
+      "29385546",
+      "12706716",
+      "19474343",
+      "34767976",
+      "23457252",
+      "37499217",
+      "18765907",
+      "34369151",
+      "30707564",
+      "35443683",
+      "38759406",
+      "27837353",
+      "12675791",
+      "27919791",
+      "37188288",
+      "31335131",
+      "34347108",
+      "9573203",
+      "28950701",
+      "26026720",
+      "33493842",
+      "23651250",
+      "30095229",
+      "9748437",
+      "29532902",
+      "8423802",
+      "33509775",
+      "35853551",
+      "23382903",
+      "33579686",
+      "34431656",
+      "38817964",
+      "37701016",
+      "35727451",
+      "26191047",
+      "36178800",
+      "35799063",
+      "35918219"
+    ],
+    "review": [
+      "36516630",
+      "39306765",
+      "19047729",
+      "37285554",
+      "35717889",
+      "37449325",
+      "8257110",
+      "37635411",
+      "16359854",
+      "23274217",
+      "30921678",
+      "37918525",
+      "27837353",
+      "12675791",
+      "34347108",
+      "33493842",
+      "33509775",
+      "35853551",
+      "26191047"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0956-5663(22)01044-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

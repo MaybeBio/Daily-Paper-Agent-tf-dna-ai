@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors propose that Taohong Siwu Decoction (THSWD) protects endothelial cells from cerebral ischemia-reperfusion injury by downregulating NR4A1, which in turn reduces Mff-mediated mitochondrial fission and apoptosis. They report in vitro and in vivo evidence, including a proposed direct binding of NR4A1 to the Mff promoter and identification of quercetin and kaempferol as putative NR4A1-binding active ingredients.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, statistical outputs, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analysis details, raw data, compound characterization data, and any supplementary information. The abstract alone is insufficient to verify the mechanistic claims, experimental rigor, or reproducibility.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between a traditional Chinese medicine formula and mitochondrial dynamics in cerebral ischemia-reperfusion injury. However, the evidence as summarized is insufficient to establish the central claims. Several key assertions, particularly the direct NR4A1-Mff promoter interaction and the specificity of THSWD active ingredients, require substantially more experimental detail and validation than the abstract provides. The work may be of interest to researchers in stroke biology, mitochondrial dynamics, and natural product pharmacology, but the current presentation does not yet support the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying cerebral ischemia-reperfusion injury and endothelial cell biology would be interested in the potential protective mechanism of THSWD. Those working on mitochondrial fission and the NR4A1-Mff axis would find the proposed regulatory relationship relevant. Investigators in natural product pharmacology and traditional medicine mechanistic studies would also be interested in the identification of quercetin and kaempferol as putative active components. The work could bridge traditional medicine research and modern molecular mechanisms, appealing to a cross-disciplinary audience.
+- **Major strengths** The study addresses a clinically relevant question with a well-established in vivo model (MCAO) and complementary in vitro model (OGD/R). The proposed mechanism is mechanistically coherent, linking NR4A1 to Mff and mitochondrial fission. The use of multiple techniques, including ChIP, luciferase reporter assays, molecular docking, and molecular dynamics simulations, suggests a comprehensive approach. The inclusion of both mRNA and protein level analyses for key targets strengthens the internal consistency of the reported findings.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic claim  
+  - **Claim pointer** The authors claim that NR4A1 binds specifically to the R2 region of the Mff gene promoter and enhances its transcriptional activity, and that THSWD-containing serum inhibits this activation.  
+  - **Evidence pointer** Results section, abstract only. Location not provided.  
+  - **Concern** The abstract states that NR4A1 binds to the R2 region of the Mff promoter and enhances transcriptional activity, but no quantitative data are provided. The magnitude of binding, the specificity relative to other promoter regions, the functional relevance of the observed enhancement, and the degree of inhibition by THSWD-containing serum are all unreported.  
+  - **Why it matters** This is the central mechanistic claim linking THSWD to the proposed downstream pathway. Without quantitative evidence and appropriate controls, the claim that NR4A1 directly regulates Mff transcription is not established.  
+  - **Resolution test** Provide ChIP-qPCR data with enrichment values relative to control regions, luciferase reporter activity with statistical comparisons across promoter constructs, and dose-response data for THSWD-containing serum inhibition. Include appropriate negative controls such as mutant promoter constructs or NR4A1 knockdown.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** The authors conclude that THSWD protects vascular endothelial cells by inhibiting NR4A1, reducing excessive mitochondrial fission, and suppressing apoptosis.  
+  - **Evidence pointer** Results and Conclusion sections, abstract only. Location not provided.  
+  - **Concern** The abstract reports correlations between THSWD treatment and reduced NR4A1, Mff, Drp1, and apoptosis markers, but no loss-of-function or gain-of-function experiments are described. The causal role of NR4A1 in mediating THSWD effects is asserted rather than demonstrated.  
+  - **Why it matters** Without genetic or pharmacological manipulation of NR4A1, the claim that THSWD acts specifically through NR4A1 is not supported. Alternative mechanisms could explain the observed effects.  
+  - **Resolution test** Include experiments with NR4A1 overexpression or knockdown in the OGD/R model, and test whether THSWD effects are attenuated or abolished under these conditions. Rescue experiments would further strengthen causality.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Compound specificity  
+  - **Claim pointer** The authors state that quercetin and kaempferol have strong binding capacity to NR4A1 and that the complexes remain stable during molecular dynamics simulations.  
+  - **Evidence pointer** Results section, abstract only. Location not provided.  
+  - **Concern** The abstract does not report binding affinities, simulation parameters, or comparison with other THSWD components. The claim of strong binding is qualitative and not supported by numerical data.  
+  - **Why it matters** The identification of specific active ingredients is important for the pharmacological relevance of the study. Without quantitative binding data and functional validation, the relevance of quercetin and kaempferol to the observed effects is speculative.  
+  - **Resolution test** Report docking scores, binding free energies, and simulation stability metrics. Validate functional activity of quercetin and kaempferol in the OGD/R model, including effects on NR4A1 expression and mitochondrial fission.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Model relevance  
+  - **Claim pointer** The authors use human BMECs for the OGD/R model and rat MCAO for in vivo studies.  
+  - **Evidence pointer** Methods section, abstract only. Location not provided.  
+  - **Concern** The abstract does not specify whether the human BMEC findings were validated in the rat model or whether species differences in NR4A1-Mff regulation were considered. The translational relevance of the in vitro findings to the in vivo model is unclear.  
+  - **Why it matters** Species differences in gene regulation and drug responses could affect the interpretation of the combined results. The abstract does not clarify how the in vitro and in vivo findings are integrated.  
+  - **Resolution test** Provide comparative analysis of NR4A1 and Mff expression changes in both models, and discuss any species-specific differences. Clarify whether the promoter binding data were obtained in human or rat cells.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Reporting clarity  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Methods section, abstract only. Location not provided.  
+  - **Issue** The abstract lists many techniques but does not specify key parameters such as drug dosage, treatment duration, or the concentration of THSWD-containing serum.  
+  - **Required correction** Include essential experimental parameters in the full manuscript and summarize them clearly in the abstract if space permits.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Results  
+  - **Evidence pointer** Results section, abstract only. Location not provided.  
+  - **Issue** No statistical measures, sample sizes, or significance thresholds are reported in the abstract.  
+  - **Required correction** Provide statistical details in the full manuscript, including exact p-values, effect sizes, and number of replicates for each experiment.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology precision  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Conclusion section, abstract only. Location not provided.  
+  - **Issue** The phrase "THSWD can protect vascular ECs by inhibiting NR4A1" implies a direct causal mechanism that is not fully supported by the abstract data.  
+  - **Required correction** Use more cautious language such as "is associated with" or "may act through" until causal evidence is presented.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Data availability  
+  - **Affected element** Public database analysis  
+  - **Evidence pointer** Methods section, abstract only. Location not provided.  
+  - **Issue** The abstract mentions public database data analysis but does not specify which databases were used or what analyses were performed.  
+  - **Required correction** Provide database names, accession numbers, and analysis methods in the full manuscript.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking concerns. The direct NR4A1-Mff promoter interaction requires quantitative validation. The causal role of NR4A1 in mediating THSWD effects requires loss-of-function and gain-of-function experiments. The identification of quercetin and kaempferol as active ingredients requires quantitative binding data and functional validation. Without these, the central mechanistic claims are not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed link between NR4A1, Mff, and THSWD in cerebral ischemia-reperfusion injury is somewhat novel, but the abstract does not clearly position this against existing literature on NR4A1 in stroke or mitochondrial dynamics.  
+  - Scientific importance: The topic is clinically relevant, but the abstract does not demonstrate that the findings would change current understanding or practice. The mechanistic depth is promising but not yet convincing.  
+  - Interdisciplinary readership: The work could appeal to stroke researchers, mitochondrial biologists, and natural product pharmacologists. However, the abstract is written in a way that assumes familiarity with all these fields, which may limit broader accessibility.  
+  - Technical soundness: The range of techniques is impressive, but the abstract does not provide enough detail to assess the quality of the experiments, controls, or data analysis.  
+  - Readability for nonspecialists: The abstract is dense and uses specialized terminology without sufficient context. It would benefit from clearer explanations of the key concepts and their significance.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting mechanism, but the lack of quantitative data, causal experiments, and methodological detail prevents a supportive recommendation. The authors should address the blocking concerns with additional experiments and provide a more complete presentation of their data before the case can be considered established.
+
+## Risk / unsupported claims
+- The direct binding of NR4A1 to the R2 region of the Mff promoter is asserted without quantitative evidence.  
+- The claim that THSWD acts specifically through NR4A1 is unsupported without loss-of-function or gain-of-function experiments.  
+- The identification of quercetin and kaempferol as the active ingredients responsible for the observed effects is speculative without functional validation.  
+- The causal relationship between reduced mitochondrial fission and reduced apoptosis is implied but not directly demonstrated.  
+- The translational relevance of the human BMEC findings to the rat MCAO model is not established.  
+- The overall conclusion that THSWD protects endothelial cells by inhibiting NR4A1 is not supported by the abstract-level evidence.

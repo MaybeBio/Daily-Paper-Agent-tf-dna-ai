@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41125957",
+  "title": "ResNet50 and Single-Cell Multi-Omics analysis identify key cellular and molecular features in pediatric acute lymphoblastic leukemia.",
+  "authors": "Suo, Taoli; Zhang, Jing; Chen, Yanli; Shi, Hongyu; Lu, Haiyan",
+  "journal": "Annals of hematology",
+  "published_date": "2025-10-23",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用ResNet50对白血病单细胞图像分类并结合单细胞多组学分析，核心是肿瘤细胞分型与免疫微环境，不涉及蛋白质-DNA互作或TF-DNA结合建模，仅方法上深度学习可借鉴但对象与互作轴均不匹配。",
+  "abstract": "Acute lymphoblastic leukemia (ALL) is the most common hematologic malignancy in children, posing challenges for early diagnosis, relapse prediction, and individualized treatment due to its high cellular and immune heterogeneity. This study addresses these challenges by integrating deep learning-based imaging analysis with single-cell transcriptomics and T-cell receptor sequencing (TCR-seq). A ResNet50-based deep learning model was developed to classify leukemia single-cell images, achieving an accuracy of ~ 85% and an AUC of 0.86. Gradient-weighted Class Activation Mapping (Grad-CAM) indicated that nuclear morphology was the key feature for cell identification. Concurrently, Louvain clustering of single-cell RNA sequencing data revealed 18 distinct cellular subpopulations, with Cluster 4 exhibiting strong immune activity and pronounced TCRbeta rearrangement. Functional analyses highlighted the roles of UBE2C and HMGB2 in leukemogenesis. Integration with TCR-seq further uncovered immune microenvironment alterations and potential relapse biomarkers. These results demonstrate that combining deep learning with single-cell multi-omics is a powerful strategy for elucidating disease mechanisms, improving early diagnosis, and informing personalized therapies for pediatric ALL.",
+  "abstract_zh": "急性淋巴细胞白血病（ALL）是儿童中最常见的血液系统恶性肿瘤，因其高度的细胞和免疫异质性，对早期诊断、复发预测及个体化治疗构成挑战。本研究通过整合基于深度学习的影像分析与单细胞转录组学及T细胞受体测序（TCR-seq），应对这些挑战。开发了一种基于ResNet50的深度学习模型，用于对白血病单细胞图像进行分类，准确率约为85%，AUC为0.86。梯度加权类激活映射（Grad-CAM）表明，核形态是细胞识别的关键特征。同时，对单细胞RNA测序数据进行Louvain聚类，揭示了18个不同的细胞亚群，其中Cluster 4表现出强烈的免疫活性和显著的TCRbeta重排。功能分析强调了UBE2C和HMGB2在白血病发生中的作用。与TCR-seq的整合进一步揭示了免疫微环境的改变及潜在的复发生物标志物。这些结果表明，将深度学习与单细胞多组学相结合，是阐明疾病机制、改善早期诊断及指导儿童ALL个体化治疗的有力策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41125957/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41125957/",
+  "paper_page_path": "papers/pubmed/41125957/index.html"
+}

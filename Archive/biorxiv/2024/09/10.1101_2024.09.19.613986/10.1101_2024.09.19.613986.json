@@ -1,0 +1,425 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.19.613986",
+  "title": "BTFBS: binding-prediction of bacterial transcription factors and binding sites based on deep learning",
+  "doi": "10.1101/2024.09.19.613986",
+  "abstract": "Background The binding of transcription factors (TFs) to TF-binding sites plays a vital role in the process of regulating gene expression and evolution. With the development of machine learning and deep learning, some successes have been achieved in predicting transcription factors and binding sites. Then a natural question arises: for a given transcription factor and a binding site, do they bind? This is the main motivation of this work. Results In this paper, we develop a model BTFBS, which predicts whether the bacterial transcription factors and binding sites combine or not. The model takes both the amino acid sequences of bacterial transcription factors and the nucleotide sequences of binding sites as inputs, and extracts features through convolutional neural network and MultiheadAttention. For the model inputs, we use two negative sample sampling methods: RS and EE. On the test dataset of RS, the accuracy, sensitivity, specificity, F1-score and MCC of BTFBS are 0.91446, 0.89746, 0.93134, 0.91264 and 0.82946, respectively. And on the test dataset of EE, the accuracy, sensitivity, specificity, F1-score and MCC of BTFBS are 0.87868, 0.89354, 0.86394, 0.87996 and 0.75796, respectively. Meanwhile, our findings indicate that the optimal approach for obtaining negative samples in the context of bacterial research is to utilize the whole genome sequences of the corresponding bacteria, as opposed to the shuffling method. Conclusions The above results on the test dataset have shown that the proposed BTFBS model has a good performance in predicting the combination of bacterial transcription factors and their binding sites and provides an experimental guide. BTFBS is publicly available at https://github.com/Vceternal/BTFBS .",
+  "authors": [
+    "Bingbing Jin",
+    "Song Liang",
+    "Xiaoqian Liu",
+    "Rui Zhang",
+    "Yun Zhu",
+    "Yuanyuan Chen",
+    "Guangjin Liu",
+    "Tao Yang"
+  ],
+  "published_date": "2024-09-22",
+  "updated_date": "2024-09-23T01:10:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613986",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613986.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:42:13Z",
+        "timestamp": 1768516933427,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            22
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 24,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                22
+              ]
+            ],
+            "date-time": "2024-09-22T00:00:00Z",
+            "timestamp": 1726963200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The binding of transcription factors (TFs) to TF-binding sites plays a vital role in the process of regulating gene expression and evolution. With the development of machine learning and deep learning, some successes have been achieved in predicting transcription factors and binding sites. Then a natural question arises: for a given transcription factor and a binding site, do they bind? This is the main motivation of this work.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In this paper, we develop a model BTFBS, which predicts whether the bacterial transcription factors and binding sites combine or not. The model takes both the amino acid sequences of bacterial transcription factors and the nucleotide sequences of binding sites as inputs, and extracts features through convolutional neural network and MultiheadAttention.</jats:p>\n                  <jats:p>For the model inputs, we use two negative sample sampling methods: RS and EE. On the test dataset of RS, the accuracy, sensitivity, specificity, F1-score and MCC of BTFBS are 0.91446, 0.89746, 0.93134, 0.91264 and 0.82946, respectively. And on the test dataset of EE, the accuracy, sensitivity, specificity, F1-score and MCC of BTFBS are 0.87868, 0.89354, 0.86394, 0.87996 and 0.75796, respectively. Meanwhile, our findings indicate that the optimal approach for obtaining negative samples in the context of bacterial research is to utilize the whole genome sequences of the corresponding bacteria, as opposed to the shuffling method.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    The above results on the test dataset have shown that the proposed BTFBS model has a good performance in predicting the combination of bacterial transcription factors and their binding sites and provides an experimental guide. BTFBS is publicly available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Vceternal/BTFBS\">https://github.com/Vceternal/BTFBS</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2024.09.19.613986",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2024-09-23T01:10:14Z",
+        "timestamp": 1727053814000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "BTFBS: binding-prediction of bacterial transcription factors and binding sites based on deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Bingbing",
+          "family": "Jin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Song",
+          "family": "Liang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoqian",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yun",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuanyuan",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Guangjin",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tao",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tim.2004.12.006"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gupta A , Rush AM . b>Dilated convolutions for modeling long distance genomic dependencies. bioRxiv, 2017;200857.",
+          "DOI": "10.1101/200857"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shen Z , Bao W , Huang D-S : Recurrent Neural Network for Predicting Transcription Factor Binding Sites. Scientific Reports 2018, 8(1).",
+          "DOI": "10.1038/s41598-018-33321-1"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Han K , Shen L-C , Zhu Y-H , Xu J , Song J , Yu D-J : MAResNet: predicting transcription factor binding sites by combining multi-scale bottom-up and top-down attention and residual network. Briefings in Bioinformatics 2022, 23(1).",
+          "DOI": "10.1093/bib/bbab445"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kim GB , Gao Y , Palsson BO , Lee SY : DeepTFactor: A deep learning-based tool for the prediction of transcription factors. Proceedings of the National Academy of Sciences 2020, 118(2).",
+          "DOI": "10.1073/pnas.2021171118"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oliveira Monteiro LM , Saraiva JP , Brizola Toscan R , Stadler PF , Silva-Rocha R , Nunes da Rocha U : PredicTF: prediction of bacterial transcription factors in complex microbial communities using deep learning. Environmental Microbiome 2022, 17(1).",
+          "DOI": "10.1186/s40793-021-00394-x"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuan Q , Chen K , Yu Y , Le NQK , Chua MCH : Prediction of anticancer peptides based on an ensemble model of deep learning and machine learning using ordinal positional encoding. Briefings in Bioinformatics 2023, 24(1).",
+          "DOI": "10.1093/bib/bbac630"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1123"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1110"
+        },
+        {
+          "issue": "1",
+          "key": "2024092603000562000_2024.09.19.613986v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "582",
+          "DOI": "10.1016/j.ygeno.2020.09.054",
+          "article-title": "i6mA-stack: A stacking ensemble-based computational prediction of DNA N6-methyladenine (6mA) sites in the Rosaceae genome",
+          "volume": "113",
+          "year": "2021",
+          "journal-title": "Genomics"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tang W , Dai R , Yan W , Zhang W , Bin Y , Xia E , Xia J : Identifying multi-functional bioactive peptide functions using multi-label deep learning. Briefings in Bioinformatics 2022, 23(1).",
+          "DOI": "10.1093/bib/bbab414"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bian J , Zhang X , Zhang X , Xu D , Wang G : MCANet: shared-weight-based MultiheadCrossAttention network for drug–target interaction prediction. Briefings in Bioinformatics 2023, 24(2).",
+          "DOI": "10.1093/bib/bbad082"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Y , Hamada M : DeepM6ASeq: prediction and characterization of m6A-containing sequences using deep learning. BMC Bioinformatics 2018, 19(S19).",
+          "DOI": "10.1186/s12859-018-2516-4"
+        },
+        {
+          "issue": "5",
+          "key": "2024092603000562000_2024.09.19.613986v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1093/bfgp/elac009",
+          "article-title": "A survey on protein–DNA-binding sites in computational biology",
+          "volume": "21",
+          "year": "2022",
+          "journal-title": "Briefings in Functional Genomics"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zou Q , Dong H , Zhu L , Cronan JE : The Enterococcus faecalis FabT Transcription Factor Regulates Fatty Acid Biosynthesis in Response to Exogeneous Fatty Acids. Frontiers in Microbiology 2022, 13.",
+          "DOI": "10.3389/fmicb.2022.877582"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang Z-Q , Yang Y , Zhang J-Y , Zeng X , Zhang C-C : Global translational control by the transcriptional repressor TrcR in the filamentous cyanobacterium Anabaena sp. PCC 7120. Communications Biology 2023, 6(1).",
+          "DOI": "10.1038/s42003-023-05012-9"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang H , Huang X , Zhang X , Zhang X , Xu X , She F , Wen Y : AI-2 Induces Urease Expression Through Downregulation of Orphan Response Regulator HP1021 in Helicobacter pylori. Frontiers in Medicine 2022, 9.",
+          "DOI": "10.3389/fmed.2022.790994"
+        },
+        {
+          "issue": "3",
+          "key": "2024092603000562000_2024.09.19.613986v1.21",
+          "first-page": "2049",
+          "article-title": "Heterologous expression of quorum sensing transcriptional regulator LitR and its function in virulence-related gene regulation in foodborne pathogen Aeromonas hydrophila",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Molecular Biology Reports"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang D Y , Kim A , Kim J N : CcpA and CodY Regulate CRISPR-Cas System of Streptococcus mutans.Microbiology Spectrum, 2023, 11(4).",
+          "DOI": "10.1128/spectrum.01826-23"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Y , Liang S , Zhang S , Bai Q , Dai L , Wang J , Yao H , Zhang W , Liu G : Streptococcal arginine deiminase system defences macrophage bactericidal effect mediated by XRE family protein XtrSs. Virulence 2024, 15(1).",
+          "DOI": "10.1080/21505594.2024.2306719"
+        },
+        {
+          "key": "2024092603000562000_2024.09.19.613986v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang X , Wei L , Ye X , Zhang K , Teng S , Li Z , Jin J , Kim MJ , Sakurai T , Cui L et al: SiameseCPP: a sequence-based Siamese network to predict cell-penetrating peptides by contrastive learning. Briefings in Bioinformatics 2023, 24(1).",
+          "DOI": "10.1093/bib/bbac545"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.19.613986",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:06:14Z",
+        "timestamp": 1768460774000
+      },
+      "score": 119.035355,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.19.613986"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            22
+          ]
+        ]
+      },
+      "references-count": 24,
+      "URL": "https://doi.org/10.1101/2024.09.19.613986",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.3390/math13040589",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

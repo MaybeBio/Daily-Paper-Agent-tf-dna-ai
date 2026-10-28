@@ -1,0 +1,122 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.27.525971",
+  "title": "ChromDL: A Next-Generation Regulatory DNA Classifier",
+  "doi": "10.1101/2023.01.27.525971",
+  "abstract": "<h4>Motivation</h4> Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. <h4>Results</h4> Using a comparative analysis of the performance of thousands of Deep Learning (DL) architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units (BiGRU), convolutional neural networks (CNNs), and bidirectional long short-term memory units (BiLSTM), which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site (TFBS), histone modification (HM), and DNase-I hypersensitive site (DHS) detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor (TF) binding with higher accuracy as compared to previously developed methods and has the potential to accurately delineate TF binding motif specificities. <h4>Availability</h4> The ChromDL source code can be found at https://github.com/chrishil1/ChromDL .",
+  "authors": [
+    "Hill C",
+    "Hudaiberdiev S",
+    "Ovcharenko I"
+  ],
+  "published_date": "2023-01-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.27.525971",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.27.525971.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR609575",
+    "raw_record": {
+      "id": "PPR609575",
+      "source": "PPR",
+      "doi": "10.1101/2023.01.27.525971",
+      "title": "ChromDL: A Next-Generation Regulatory DNA Classifier",
+      "authorString": "Hill C, Hudaiberdiev S, Ovcharenko I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hill C",
+            "lastName": "Hill",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2873-2583"
+            }
+          },
+          {
+            "fullName": "Hudaiberdiev S",
+            "lastName": "Hudaiberdiev",
+            "firstName": "Sanjarbek",
+            "initials": "S"
+          },
+          {
+            "fullName": "Ovcharenko I",
+            "lastName": "Ovcharenko",
+            "firstName": "Ivan",
+            "initials": "I"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2873-2583"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Motivation</h4>  Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. <h4>Results</h4>  Using a comparative analysis of the performance of thousands of Deep Learning (DL) architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units (BiGRU), convolutional neural networks (CNNs), and bidirectional long short-term memory units (BiLSTM), which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site (TFBS), histone modification (HM), and DNase-I hypersensitive site (DHS) detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor (TF) binding with higher accuracy as compared to previously developed methods and has the potential to accurately delineate TF binding motif specificities. <h4>Availability</h4>  The ChromDL source code can be found at  https://github.com/chrishil1/ChromDL .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.27.525971"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37387183",
+            "reference": "Bioinformatics (Oxford, England). 2023 Jun;39(39 Suppl 1):i377-i385",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-01-31",
+      "firstPublicationDate": "2023-01-29",
+      "firstIndexDate": "2023-01-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

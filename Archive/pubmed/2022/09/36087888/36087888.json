@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "36087888",
+    "doi": "10.1016/j.ymeth.2022.08.015",
+    "title": "Identification of DNA-binding proteins via Multi-view LSSVM with independence criterion."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins actively participate in life activities such as DNA replication, recombination, gene expression and regulation and play a prominent role in these processes. As DNA-binding proteins continue to be discovered and increase, it is imperative to design an efficient and accurate identification tool. Considering the time-consuming and expensive traditional experimental technology and the insufficient number of samples in the biological computing method based on structural information, we proposed a machine learning algorithm based on sequence information to identify DNA binding proteins, named multi-view Least Squares Support Vector Machine via Hilbert-Schmidt Independence Criterion (multi-view LSSVM via HSIC). This method took 6 feature sets as multi-view input and trains a single view through the LSSVM algorithm. Then, we integrated HSIC into LSSVM as a regular term to reduce the dependence between views and explored the complementary information of multiple views. Subsequently, we trained and coordinated the submodels and finally combined the submodels in the form of weights to obtain the final prediction model. On training set PDB1075, the prediction results of our model were better than those of most existing methods. Independent tests are conducted on the datasets PDB186 and PDB2272. The accuracy of the prediction results was 85.5% and 79.36%, respectively. This result exceeded the current state-of-the-art methods, which showed that the multi-view LSSVM via HSIC can be used as an efficient predictor.",
+    "keywords": [
+      "DNA-binding proteins",
+      "Hilbert-Schmidt independence criterion",
+      "Least squares support vector machine",
+      "Multi-view learning"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry",
+      "*Support Vector Machine",
+      "Least-Squares Analysis",
+      "Machine Learning",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Shulin",
+        "Zhang, Yu",
+        "Ding, Yijie",
+        "Zou, Quan",
+        "Tang, Lijia",
+        "Liu, Qing",
+        "Zhang, Ying"
+      ],
+      "short_names": [
+        "Zhao S",
+        "Zhang Y",
+        "Ding Y",
+        "Zou Q",
+        "Tang L",
+        "Liu Q",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China; Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China.",
+        "Department of Neurosurgery, Heilongjiang Province Land Reclamation Headquarters General Hospital, Harbin, China.",
+        "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China; Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China.",
+        "Southwest Medical University, Luzhou, China.",
+        "Department of Anesthesiology, Hospital (T.C.M) Affiliated To Southwest Medical University, Luzhou, China.",
+        "Department of Anesthesiology, Hospital (T.C.M) Affiliated To Southwest Medical University, Luzhou, China. Electronic address: zhangying021210@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Shulin",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China; Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Heilongjiang Province Land Reclamation Headquarters General Hospital, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China; Yangtze Delta Region Institute (Quzhou), University of Electronic Science and Technology of China, Quzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Lijia",
+        "short_name": "Tang L",
+        "identifiers": [],
+        "affiliations": [
+          "Southwest Medical University, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qing",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Hospital (T.C.M) Affiliated To Southwest Medical University, Luzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Hospital (T.C.M) Affiliated To Southwest Medical University, Luzhou, China. Electronic address: zhangying021210@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/11 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36087888",
+      "37060772",
+      "35731758",
+      "37437677",
+      "34041601",
+      "35816458",
+      "38217976",
+      "34936313",
+      "35845893",
+      "32144887",
+      "34058979",
+      "37679132",
+      "31045525",
+      "36002470",
+      "30668479",
+      "35126500",
+      "34743286",
+      "31123959",
+      "34432632",
+      "35334314",
+      "36536046",
+      "21421446",
+      "29567483",
+      "26771615",
+      "36560192",
+      "31454964",
+      "38793872",
+      "37877733",
+      "31488246",
+      "30293153",
+      "33476047",
+      "35062384",
+      "29322925",
+      "30943723",
+      "28961273",
+      "33970943",
+      "33537726",
+      "32427830",
+      "30957840",
+      "35885150",
+      "31267738",
+      "35102463",
+      "26197589",
+      "29097781",
+      "27384248",
+      "32808039",
+      "30598073",
+      "31226779",
+      "29753757",
+      "36707680",
+      "32352006",
+      "34445663",
+      "24475169",
+      "28841194",
+      "30048781",
+      "34604386",
+      "38486135",
+      "27323378",
+      "32300371",
+      "32775434",
+      "28937647",
+      "30071697",
+      "31693872",
+      "33460880",
+      "35964719",
+      "24111117",
+      "35494795",
+      "35646077",
+      "20529363",
+      "32987564",
+      "35286461",
+      "34571539",
+      "27270206",
+      "24151525",
+      "16853662",
+      "37541164",
+      "33763416",
+      "35808305",
+      "26773824",
+      "34884927",
+      "30316822",
+      "33265203",
+      "30805384",
+      "31982655",
+      "35104213",
+      "25966482",
+      "27988447",
+      "34455627",
+      "38745112",
+      "38004950",
+      "37501482",
+      "26079845",
+      "32601791",
+      "27197054",
+      "22574904",
+      "34940982",
+      "38248912",
+      "31137256",
+      "35604598",
+      "32958296",
+      "20736137",
+      "34291709",
+      "26482832",
+      "36044786",
+      "33477866",
+      "31888057",
+      "31515091",
+      "31514144",
+      "32380557",
+      "36981314",
+      "34097605",
+      "38107947",
+      "38136477",
+      "36522522",
+      "37437362",
+      "38052631",
+      "37093657",
+      "37030781",
+      "36590676"
+    ],
+    "review": [
+      "36087888"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(22)00198-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

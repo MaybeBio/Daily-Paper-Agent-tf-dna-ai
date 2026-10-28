@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, conclusions, acknowledgements) as provided on bioRxiv. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and technical soundness as presented in the supplied text. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that the PAS-B domain of steroid receptor coactivator 1 (SRC1) can bind certain prostaglandins (PGs) via two distinct mechanisms: non-covalent binding to a surface overlapping the transcription factor binding site, and covalent modification of a conserved cysteine (C347) adjacent to a solvent-accessible hydrophobic pocket. They further suggest this binding could modulate transcriptional activator-coactivator interactions.
+- **Visible evidence base** Computational docking (RosettaLigand, Glide Covalent Docking), solution NMR chemical shift perturbation (CSP) titrations, LC-ESI-MS for covalent modification detection, and 250 ns molecular dynamics (MD) simulations. Figures 1-3 and Supplementary Figures S1-S3 are referenced but not available for direct inspection.
+- **Missing materials affecting confidence** All figures and supplementary materials (Supplementary Figures S1-S3, Supplementary Tables S1) are referenced but not provided. Experimental details for NMR titrations (e.g., concentration ranges, fitting procedures) are incomplete. No raw data or statistical analyses are shown. The full methods for the in silico screen are not described in the visible text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially interesting hypothesis that SRC1 PAS-B may bind prostaglandins, with evidence from multiple biophysical and computational approaches. However, the strength of the conclusions is limited by the absence of key data (figures, supplementary materials), the weak affinities reported for non-covalent binding, and the lack of functional validation. The covalent modification claim is the most technically supported, but its biological relevance remains speculative. The manuscript is technically sound in its execution of the described experiments, but the case for biological significance is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor signaling, transcriptional coactivator biology, and PAS domain structure-function. The potential link between prostaglandins and SRC1-mediated transcription could interest those studying inflammation, neuroprotection, and Parkinson's disease, given the established roles of Nurr1 and PGs in these contexts. Structural biologists studying ligand binding to PAS domains may also find the docking and MD results of interest.
+- **Major strengths** 1. The study addresses a relatively unexplored area, namely small-molecule ligand binding to SRC PAS domains, which is a novel angle in coactivator biology. 2. The combination of computational docking, NMR, mass spectrometry, and MD simulations provides a multi-pronged approach. 3. The identification of a specific, conserved cysteine (C347) as a covalent modification site is a concrete and testable finding. 4. The authors are appropriately cautious in their conclusions, acknowledging the need for further biological studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The manuscript claims that PGE1 and PGB1 bind non-covalently to the PAS-B domain with affinities in the low millimolar and ~300 µM range, respectively, and that 15d-PGJ2 binds to a surface pocket.
+  - **Evidence pointer** Results section, Figures 2a-2e, Table 1, Supplementary Figure S2. Location not provided for specific data points.
+  - **Concern** The reported binding affinities for non-covalent interactions are very weak (low millimolar to ~300 µM). These values are at the upper limit of what is typically considered specific binding in a biological context. The CSPs described as "significant" are not quantified in the text, and the figures that would show the magnitude and saturation of these shifts are not provided. Without titration curves showing saturation or a clear binding isotherm, it is difficult to distinguish specific binding from non-specific, weak interactions common with amphiphilic molecules like prostaglandins at high concentrations.
+  - **Why it matters** The central claim of the manuscript is that PGs are candidate ligands for PAS-B. If the non-covalent binding is non-specific or too weak to be physiologically relevant, the significance of the finding is substantially diminished. The authors themselves note that the initial hits (indole, phenylethylamine) were in the high millimolar range and "too weak to be biologically relevant," yet they do not apply the same standard to the PG interactions.
+  - **Resolution test** Provide full titration data showing dose-dependent CSP saturation for PGE1, PGB1, and 15d-PGJ2. Report quantitative dissociation constants (Kd) with error estimates from fits to a 1:1 binding model. Include competition experiments with a known binding partner (e.g., STAT6 TAD or Nurr1 AF1) to demonstrate functional relevance of the binding site overlap.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The manuscript claims that 15d-PGJ2 covalently modifies C347 specifically, based on LC-ESI-MS showing a single +317 Da adduct and lack of modification in a C347S mutant.
+  - **Evidence pointer** Results section, Supplementary Figure S3a and S3b. Location not provided.
+  - **Concern** The mass spectrometry data are only presented in supplementary figures that are not provided. The text states that the wild-type protein was "singly modified" and the C347S mutant was "not," but no quantitative details are given. For example, what fraction of the protein was modified? Was the modification time-dependent and dose-dependent? Was the +317 Da adduct confirmed by tandem MS to be covalently attached via the expected Michael addition product? The text also does not address whether the modification is reversible or stable under physiological conditions.
+  - **Why it matters** The covalent modification claim is the most specific and potentially novel finding. If it is not rigorously established, the manuscript loses its strongest experimental result. The stoichiometry and specificity of modification are critical for assessing whether this could occur in a cellular context.
+  - **Resolution test** Provide the full mass spectra for wild-type and C347S mutant, with quantification of the modified fraction. Include a time-course and dose-response for modification. Perform tandem MS (MS/MS) to confirm the site of modification and the adduct structure. Test whether other cysteines (C295, C344) can be modified under more forcing conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The manuscript suggests that PG binding to PAS-B could modulate transcriptional activator-coactivator interactions, potentially relevant to Nurr1-dependent transcription and Parkinson's disease.
+  - **Evidence pointer** Conclusions and biological implications section. No experimental evidence provided.
+  - **Concern** The functional implications are entirely speculative. No cellular or in vivo experiments are presented to test whether PG binding affects SRC1-Nurr1 interactions, Nurr1 transcriptional activity, or any downstream biological process. The concentrations required for binding in vitro (µM to mM) are far above typical physiological PG concentrations, which are in the nanomolar range. The authors do not address this discrepancy.
+  - **Why it matters** The title and framing of the manuscript suggest a biological role for PG binding. Without any functional data, the physiological relevance of the observed interactions is unsubstantiated. The manuscript would be stronger if it either provided such data or explicitly limited its claims to a structural/biophysical observation.
+  - **Resolution test** Perform cellular assays (e.g., reporter gene assays with Nurr1 and SRC1 in the presence of PGs) or at least demonstrate that PG treatment affects SRC1-PAS-B interaction with Nurr1 in a pull-down or co-immunoprecipitation assay. Measure intracellular PG concentrations in relevant cell types to assess whether the in vitro affinities are achievable.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that MD simulations support a model where 15d-PGJ2 ligated via C13 is stably accommodated on the PAS-B surface, engaging the hydrophobic pocket.
+  - **Evidence pointer** Results section, Figure 3a and 3b. Location not provided.
+  - **Concern** The MD simulations are described in limited detail. The text states that the C13-ligated adduct showed RMSDs "mostly below 4 Å" while the C9-ligated adduct showed RMSDs "consistently around 8 Å or above," but no convergence criteria, replicate simulations, or free energy calculations are described. A single 250 ns simulation per system is generally insufficient to draw robust conclusions about conformational stability, especially for a surface-exposed ligand. The choice of starting structures from docking and the force field parameters for the covalent adduct are not described.
+  - **Why it matters** The MD simulations are used to support the preferred site of covalent attachment (C13 vs C9). If the simulations are not converged or are biased by the starting conditions, this conclusion is weakened. The difference in RMSD could reflect sampling of different local minima rather than a genuine difference in stability.
+  - **Resolution test** Provide details on force field parameters for the adduct, number of replicates, and convergence metrics. Consider running longer simulations or multiple independent runs. Perform free energy perturbation or umbrella sampling to compare the relative stability of the C9 and C13 adducts. Show representative snapshots and interaction occupancy plots.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, NMR titrations
+  - **Evidence pointer** Materials and Methods, "NMR spectroscopy and small molecule titrations". Location not provided.
+  - **Issue** The methods for NMR titrations are incomplete. The text does not specify the concentration range of ligands used, the number of titration points, the method for calculating Kd, or how the "background CSPs caused by DMSO" were subtracted. The CSP formula is given but the threshold for a "significant" CSP is not defined.
+  - **Required correction** Provide a detailed description of the titration protocol, including ligand concentration ranges, DMSO controls, and the criteria for defining a binding event. State the estimated Kd values with errors and the fitting method used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** In silico screen
+  - **Evidence pointer** Results section, "PAS-B can bind to fatty acids". Location not provided.
+  - **Issue** The in silico screen using RosettaLigand is mentioned but not described. The text states "over 1600 compounds were screened virtually" but does not provide details on the scoring function, the selection criteria for "top scoring candidates," or how many were tested experimentally. The list of compounds tested is in Supplementary Table 1, which is not provided.
+  - **Required correction** Describe the virtual screening protocol in the Methods, including the scoring function, the number of top hits selected, and the criteria for experimental testing. Ensure Supplementary Table 1 is available to reviewers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** CSP mapping for 15d-PGJ2
+  - **Evidence pointer** Results section, Figure 2d and 2e. Location not provided.
+  - **Issue** The text states that CSP mapping for 15d-PGJ2 suggests binding "exclusively" to the shallow hydrophobic pocket, but also notes that C344 and C347 are "strongly affected." Since C347 is the covalent modification site, it is unclear whether the CSPs for these residues are due to non-covalent binding, covalent modification, or both. The distinction is important for interpreting the binding mode.
+  - **Required correction** Clarify whether the CSPs for C344 and C347 are observed in the absence of covalent modification (e.g., using a reducing agent or a non-reactive analog). If covalent modification occurs during the titration, the CSP data should be interpreted accordingly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Abstract and title
+  - **Evidence pointer** Abstract, title. Location not provided.
+  - **Issue** The title states "Prostaglandins as Candidate Ligands," which is appropriate given the speculative nature. However, the abstract states "we show that the SRC1 PAS-B domain can bind to certain prostaglandins," which is stronger than the evidence supports given the weak affinities and lack of functional data. The abstract also does not mention the weak binding affinities or the speculative nature of the biological implications.
+  - **Required correction** Soften the language in the abstract to match the strength of the evidence. For example, "we provide evidence that..." or "our data suggest that...". Consider mentioning the weak affinities and the need for further validation.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative binding data (Kd values with errors) for non-covalent PG interactions. 2. Incomplete mass spectrometry data for covalent modification, including stoichiometry and site confirmation. 3. Insufficient detail on MD simulation setup and convergence. 4. No functional or cellular experiments to support biological relevance. 5. Missing figures and supplementary materials that are essential for evaluating the claims.
+
+## Risk / unsupported claims
+- The claim that PG binding to PAS-B could modulate transcriptional activator-coactivator interactions is unsupported by any direct experimental evidence.
+- The claim that 15d-PGJ2 binds "exclusively" to the shallow hydrophobic pocket is not fully supported, as the CSP data also implicate residues in the internal pocket.
+- The biological relevance of the observed interactions is not established, given the weak in vitro affinities and lack of in vivo data.
+- The statement that the PAS-B domain "can bind to small-molecule compounds with an apparent preference for certain fatty acids" is based on a limited screen and weak binding data, and is therefore not robustly supported.
+- The relevance of the findings to Parkinson's disease is speculative and not supported by any data in this manuscript.

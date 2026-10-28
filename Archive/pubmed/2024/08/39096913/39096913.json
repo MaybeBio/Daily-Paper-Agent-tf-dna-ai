@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "39096913",
+    "doi": "10.1016/j.xgen.2024.100627",
+    "title": "ERCC2 mutations alter the genomic distribution pattern of somatic mutations and are independently prognostic in bladder cancer."
+  },
+  "content": {
+    "abstract": "Excision repair cross-complementation group 2 (ERCC2) encodes the DNA helicase xeroderma pigmentosum group D, which functions in transcription and nucleotide excision repair. Point mutations in ERCC2 are putative drivers in around 10% of bladder cancers (BLCAs) and a potential positive biomarker for cisplatin therapy response. Nevertheless, the prognostic significance directly attributed to ERCC2 mutations and its pathogenic role in genome instability remain poorly understood. We first demonstrated that mutant ERCC2 is an independent predictor of prognosis in BLCA. We then examined its impact on the somatic mutational landscape using a cohort of ERCC2 wild-type (n = 343) and mutant (n = 39) BLCA whole genomes. The genome-wide distribution of somatic mutations is significantly altered in ERCC2 mutants, including T[C>T]N enrichment, altered replication time correlations, and CTCF-cohesin binding site mutation hotspots. We leverage these alterations to develop a machine learning model for predicting pathogenic ERCC2 mutations, which may be useful to inform treatment of patients with BLCA.",
+    "keywords": [
+      "APOBEC",
+      "CTCF-cohesin binding site",
+      "ERCC2",
+      "XPD",
+      "bladder cancer",
+      "somatic mutations",
+      "uracil"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/genetics",
+      "*Xeroderma Pigmentosum Group D Protein/genetics",
+      "Prognosis",
+      "*Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barbour, Jayne A",
+        "Ou, Tong",
+        "Yang, Haocheng",
+        "Fang, Hu",
+        "Yue, Noel C",
+        "Zhu, Xiaoqiang",
+        "Wong-Brown, Michelle W",
+        "Wong, Yuen T",
+        "Bowden, Nikola A",
+        "Wu, Song",
+        "Wong, Jason W H"
+      ],
+      "short_names": [
+        "Barbour JA",
+        "Ou T",
+        "Yang H",
+        "Fang H",
+        "Yue NC",
+        "Zhu X",
+        "Wong-Brown MW",
+        "Wong YT",
+        "Bowden NA",
+        "Wu S",
+        "Wong JWH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Urology Institute of Shenzhen University, The Third Affiliated Hospital of Shenzhen University, Shenzhen University, Shenzhen, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China; Institute of Biomedical Data, South China Hospital, Medical School, Shenzhen University, Shenzhen, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Centre for Drug Repurposing and Medicines Research, University of Newcastle, Newcastle, NSW, Australia; Hunter Medical Research Institute, Newcastle, NSW, Australia.",
+        "Adult Cancer Program, Lowy Cancer Research Centre, UNSW, Sydney, NSW, Australia.",
+        "Centre for Drug Repurposing and Medicines Research, University of Newcastle, Newcastle, NSW, Australia; Hunter Medical Research Institute, Newcastle, NSW, Australia.",
+        "Urology Institute of Shenzhen University, The Third Affiliated Hospital of Shenzhen University, Shenzhen University, Shenzhen, China; Department of Urology, South China Hospital, Medical School, Shenzhen University, Shenzhen, China. Electronic address: wusong@szu.edu.cn.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China; Centre for Oncology and Immunology, Hong Kong Science Park, Hong Kong SAR, China; Centre for PanorOmic Sciences, The University of Hong Kong, Pokfulam, Hong Kong SAR, China. Electronic address: jwhwong@hku.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barbour, Jayne A",
+        "short_name": "Barbour JA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Tong",
+        "short_name": "Ou T",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Institute of Shenzhen University, The Third Affiliated Hospital of Shenzhen University, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haocheng",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Hu",
+        "short_name": "Fang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China; Institute of Biomedical Data, South China Hospital, Medical School, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Noel C",
+        "short_name": "Yue NC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaoqiang",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wong-Brown, Michelle W",
+        "short_name": "Wong-Brown MW",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Drug Repurposing and Medicines Research, University of Newcastle, Newcastle, NSW, Australia; Hunter Medical Research Institute, Newcastle, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Wong, Yuen T",
+        "short_name": "Wong YT",
+        "identifiers": [],
+        "affiliations": [
+          "Adult Cancer Program, Lowy Cancer Research Centre, UNSW, Sydney, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Bowden, Nikola A",
+        "short_name": "Bowden NA",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Drug Repurposing and Medicines Research, University of Newcastle, Newcastle, NSW, Australia; Hunter Medical Research Institute, Newcastle, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Wu, Song",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Urology Institute of Shenzhen University, The Third Affiliated Hospital of Shenzhen University, Shenzhen University, Shenzhen, China; Department of Urology, South China Hospital, Medical School, Shenzhen University, Shenzhen, China. Electronic address: wusong@szu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wong, Jason W H",
+        "short_name": "Wong JWH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China; Centre for Oncology and Immunology, Hong Kong Science Park, Hong Kong SAR, China; Centre for PanorOmic Sciences, The University of Hong Kong, Pokfulam, Hong Kong SAR, China. Electronic address: jwhwong@hku.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2024 Aug 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/04 13:44",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "41925913",
+      "40994809",
+      "40471489",
+      "39146802"
+    ],
+    "refs": [
+      "38890488",
+      "36543146",
+      "35859169",
+      "35037455",
+      "34966786",
+      "33208343",
+      "33028213",
+      "32025007",
+      "31594944",
+      "31110295",
+      "30755618",
+      "30016327",
+      "29980530",
+      "29670109",
+      "29535424",
+      "29126249",
+      "29106418",
+      "28531315",
+      "28368372",
+      "28288110",
+      "27974201",
+      "27688757",
+      "27490693",
+      "27310333",
+      "27111033",
+      "27075101",
+      "27075100",
+      "26957554",
+      "26899170",
+      "26578602",
+      "26316348",
+      "26053496",
+      "25941824",
+      "25707793",
+      "25620205",
+      "25096233",
+      "24799436",
+      "24609361",
+      "24476821",
+      "24336318",
+      "23852170",
+      "23271983",
+      "22820252",
+      "20111033",
+      "20110278",
+      "19451168",
+      "19448611",
+      "15902269",
+      "12161446"
+    ],
+    "similar": [
+      "39096913",
+      "29980530",
+      "27111033",
+      "32868381",
+      "25096233",
+      "27479538",
+      "37870965",
+      "40829180",
+      "39146802",
+      "19242824",
+      "30290956",
+      "31455402",
+      "7585650",
+      "8033104",
+      "24504678",
+      "24833529",
+      "33733458",
+      "35965206",
+      "18470933",
+      "7849702",
+      "28027876",
+      "30455203",
+      "39192988",
+      "9238033",
+      "39551027",
+      "32047639",
+      "28707579",
+      "25316812",
+      "34874360",
+      "8968100",
+      "33879103",
+      "39003201",
+      "16707649",
+      "26993158",
+      "37578814",
+      "26001533",
+      "18635523",
+      "33208343",
+      "31348825",
+      "15598761",
+      "27504877",
+      "35662501",
+      "16880786",
+      "9372848",
+      "22617342",
+      "36653279",
+      "27139774",
+      "41344137",
+      "23232694",
+      "18630471",
+      "20514470",
+      "28803404",
+      "42627456",
+      "25951169",
+      "33369099",
+      "32397974",
+      "39055713",
+      "26659720",
+      "8055625",
+      "41897370",
+      "11746743",
+      "33199492",
+      "18637129",
+      "16341770",
+      "41757092",
+      "25274682",
+      "39499893",
+      "18817897",
+      "16875933",
+      "27004399",
+      "30366635",
+      "36818471",
+      "18534129",
+      "8413672",
+      "8571952",
+      "22608006",
+      "27974201",
+      "41878440",
+      "25500814",
+      "29980176",
+      "19406934",
+      "29169765",
+      "25596702",
+      "32349929",
+      "34338007",
+      "27310333",
+      "15182505",
+      "24564106",
+      "28088319",
+      "17374967",
+      "10660593",
+      "7563073",
+      "26996949",
+      "10198066",
+      "25002996",
+      "33849962",
+      "35483790",
+      "25835182",
+      "11709541",
+      "15140544"
+    ],
+    "review": [
+      "39096913",
+      "24504678",
+      "24833529",
+      "16707649",
+      "26659720"
+    ],
+    "pmc": [
+      "11406173"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(24)00231-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/39096913/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39096913/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(24)00231-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41818416",
+  "title": "Epigenetic Alterations Beyond CpG Islands in Periodontitis: In Silico Study of DNA Methylation Data.",
+  "authors": "Yoshida, Koki; Sivaramakrishnan, Gowri; Asa'ad, Farah",
+  "journal": "Clinical and experimental dental research",
+  "published_date": "2026-03-12",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于GEO甲基化芯片数据对牙周炎差异甲基化CpG位点进行统计与GO富集分析，属于纯表观遗传学测序数据挖掘，无蛋白质-DNA互作建模、无AI或物理模拟方法，与本课题仅间接相关。",
+  "abstract": "OBJECTIVES: To classify differentially methylated CpG sites in periodontitis based on methylation shift direction and location relative to CpG islands. MATERIAL AND METHODS: We integrated DNA methylation data from 65 gingival samples (31 periodontitis, 34 healthy) from three GEO datasets. Preprocessing included normalization using R pipelines. Differential DNA methylation analysis was performed with the limma package. CpG sites (adjusted p < 0.05) were further evaluated using an exploratory threshold-crossing framework based on group-mean beta-values (cutoff = 0.5) identifying Control low --> Periodontitis high and Control high --> Periodontitis low shifts, annotated with Illumina 450k references. Top 20 CpG-associated genes were selected by absolute logFC. Gene Ontology (GO) enrichment was conducted using clusterProfiler. RESULTS: We identified 164,400 differentially methylated CpG sites, including CpGs exhibiting Control low --> Periodontitis high and Control high --> Periodontitis low shifts, and mapped to gene features. Nearly half of methylation alterations (47.77%) were in OpenSea regions, with additional signals in CpG islands and promoter-proximal regions. GO enrichment analysis revealed that differentially methylated genes in periodontitis were associated with epithelial and organ morphogenesis, including epithelial tube morphogenesis, epithelial cell proliferation, and cell fate commitment. Enriched cellular components were membrane- and vesicle-associated structures, while molecular functions were transmembrane transporter activity, ion channel activity, and DNA-binding transcription factor-related functions. These findings suggest that DNA methylation alterations in periodontitis are linked to epigenetic regulation of epithelial structure and tissue remodeling, with implications for immune-related cellular processes. Among the top 20 genes exhibiting beta-threshold-based directionality changes, 13 were significantly enriched in GO terms: 8 in the Control low --> Periodontitis high group (DGKA, CHMP6, RUNX2, CDKL1, SLC6A3, CFTR, HLA-C, LRIG1), 5 in the Control high --> Periodontitis low group (AP2A2, PARD3, PADI2, FOXK1, RGS1). CONCLUSIONS: This study provides an exploratory, direction-aware summary framework of DNA methylation in periodontitis, highlighting functional changes beyond CpG islands and identifying candidate genes for further functional validation.",
+  "abstract_zh": "目的：根据甲基化偏移方向及相对于CpG岛的位置，对牙周炎中差异甲基化CpG位点进行分类。材料与方法：我们整合了来自三个GEO数据集的65份牙龈样本（31份牙周炎，34份健康）的DNA甲基化数据。预处理包括使用R管道进行标准化。差异DNA甲基化分析使用limma包进行。CpG位点（校正后p < 0.05）进一步通过基于组平均β值（阈值 = 0.5）的探索性阈值跨越框架评估，识别对照组低表达→牙周炎组高表达和对照组高表达→牙周炎组低表达的偏移，并使用Illumina 450k参考进行注释。按绝对logFC选择前20个CpG相关基因。使用clusterProfiler进行基因本体（GO）富集分析。结果：我们识别出164,400个差异甲基化CpG位点，包括表现出对照组低表达→牙周炎组高表达和对照组高表达→牙周炎组低表达偏移的CpG，并映射到基因特征。近一半的甲基化改变（47.77%）位于OpenSea区域，另有信号出现在CpG岛和启动子近端区域。GO富集分析显示，牙周炎中差异甲基化基因与上皮和器官形态发生相关，包括上皮管形态发生、上皮细胞增殖和细胞命运决定。富集的细胞组分是膜和囊泡相关结构，而分子功能涉及跨膜转运蛋白活性、离子通道活性和DNA结合转录因子相关功能。这些发现表明，牙周炎中的DNA甲基化改变与上皮结构和组织重塑的表观遗传调控相关，并对免疫相关细胞过程具有潜在影响。在表现出基于β阈值方向性变化的前20个基因中，13个显著富集于GO术语：8个在对照组低表达→牙周炎组高表达组（DGKA、CHMP6、RUNX2、CDKL1、SLC6A3、CFTR、HLA-C、LRIG1），5个在对照组高表达→牙周炎组低表达组（AP2A2、PARD3、PADI2、FOXK1、RGS1）。结论：本研究提供了牙周炎DNA甲基化的探索性、方向感知总结框架，强调了CpG岛之外的功能变化，并识别了用于进一步功能验证的候选基因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41818416/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41818416/",
+  "paper_page_path": "papers/pubmed/41818416/index.html"
+}

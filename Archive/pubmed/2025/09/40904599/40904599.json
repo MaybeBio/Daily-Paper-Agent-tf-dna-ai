@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "40904599",
+    "doi": "10.3892/ol.2025.15240",
+    "title": "Machine learning-based model identifies a novel cuproptosis-related mitochondrial gene signature with a key role in the prognosis and treatment of lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Lung adenocarcinoma (LUAD) remains one of the most prevalent and lethal cancers globally, making it critical to understand the mechanisms driving its progression and improve prognosis. Moreover, cuproptosis and mitochondrial dysfunction may be involved in lung cancer. Therefore, the present study aimed to identify mitochondrial genes associated with cuproptosis to develop a prognostic model for patients with LUAD, with the potential to predict survival outcomes and responses to treatment. Bulk RNA-sequencing data was utilized from The Cancer Genome Atlas and the Gene Expression Omnibus (GEO), and Pearson correlation analysis was employed to identify mitochondrial genes associated with cuproptosis. A prognostic model was constructed using univariate Cox regression combined with least absolute shrinkage and selection operator analysis, and a nomogram was developed to predict survival with clinical relevance. The accuracy of the model was evaluated using two independent GEO datasets. Additionally, the clinical value of the risk score model was assessed using immune infiltration analysis, tumor mutational burden and drug sensitivity predictions. Furthermore, the effects of superoxide dismutase 2 (SOD2) gene knockdown on tumor metastasis and proliferation were experimentally evaluated. A set of 22 mitochondrial genes associated with cuproptosis were identified: Metabolism of cobalamin associated D, SOD2, human immunodeficiency virus-1 Tat interactive protein 2, cytochrome C somatic, mitochondrial pyruvate carrier 1, adenylate kinase 2, mitochondrial ribosomal protein L44, transforming growth factor beta regulator 4, mitochondrial transcription factor A, tetratricopeptide repeat domain 19, coiled-coil-helix-coiled-coil-helix domain containing 4, sideroflexin 1, ATP binding cassette subfamily D member 1, NADH:ubiquinone oxidoreductase complex assembly factor 7, NOP2/Sun RNA methyltransferase 4, NME/NM23 nucleoside diphosphate kinase 6, X-Prolyl aminopeptidase 3, lipoyltransferase 1, mitochondrial methionyl aminopeptidase type 1D, carbonic anhydrase 5B, kynurenine 3-monooxygenase and alcohol dehydrogenase iron containing 1. The model was validated as an independent predictor of overall survival, dividing patients into high- and low-risk groups. Immune infiltration analysis revealed that tumors in the low-risk group displayed more active immune responses and improved immune function. Drug sensitivity analysis suggested that high-risk patients may be more responsive to specific drug treatments. Finally, knockdown of the SOD2 gene suppressed tumor cell metabolism, proliferation and metastasis. In conclusion, the present study successfully established a prognostic model based on cuproptosis-related mitochondrial genes and developed a nomogram to predict LUAD prognosis with high accuracy, thereby providing improved tools for treatment decision-making and enhancing patient outcomes.",
+    "keywords": [
+      "cuproptosis",
+      "immune infiltration",
+      "lung adenocarcinoma",
+      "machine learning",
+      "mitochondrial",
+      "prognostic model",
+      "superoxide dismutase 2"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yi-Hao",
+        "Zhao, Wen-Hao",
+        "Zhao, Ze-Xia",
+        "Duan, Zhi-Xuan",
+        "Huang, Hua",
+        "Ding, Cheng",
+        "Liu, Ming-Hui",
+        "Zhang, Hong-Bing",
+        "Li, Yong-Wen",
+        "Wang, Min",
+        "Chen, Jun",
+        "Zhao, Hong-Lin"
+      ],
+      "short_names": [
+        "Liu YH",
+        "Zhao WH",
+        "Zhao ZX",
+        "Duan ZX",
+        "Huang H",
+        "Ding C",
+        "Liu MH",
+        "Zhang HB",
+        "Li YW",
+        "Wang M",
+        "Chen J",
+        "Zhao HL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yi-Hao",
+        "short_name": "Liu YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wen-Hao",
+        "short_name": "Zhao WH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ze-Xia",
+        "short_name": "Zhao ZX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Duan, Zhi-Xuan",
+        "short_name": "Duan ZX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hua",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ding, Cheng",
+        "short_name": "Ding C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ming-Hui",
+        "short_name": "Liu MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong-Bing",
+        "short_name": "Zhang HB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Yong-Wen",
+        "short_name": "Li YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Min",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hong-Lin",
+        "short_name": "Zhao HL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin 300052, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oncology letters"
+    ],
+    "journal_abbrev": [
+      "Oncol Lett"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/04 06:37",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "41008627"
+    ],
+    "refs": [
+      "40352269",
+      "40341098",
+      "40328371",
+      "40159631",
+      "40056247",
+      "40008552",
+      "39972012",
+      "39959305",
+      "39896979",
+      "39848344",
+      "39794414",
+      "39488588",
+      "39329635",
+      "39251710",
+      "39111630",
+      "39006078",
+      "39000269",
+      "38798269",
+      "38751329",
+      "38519636",
+      "38370379",
+      "38186308",
+      "38097666",
+      "38082189",
+      "37945610",
+      "37940410",
+      "37839787",
+      "37837979",
+      "37725627",
+      "37657358",
+      "37622116",
+      "37584654",
+      "37480450",
+      "37287976",
+      "37277863",
+      "37239150",
+      "37053033",
+      "36967927",
+      "36724072",
+      "36717588",
+      "36620594",
+      "36482419",
+      "36414625",
+      "36089608",
+      "35923704",
+      "35604085",
+      "35311148",
+      "35309510",
+      "35298263",
+      "35252165",
+      "35012593",
+      "34764459",
+      "34373902",
+      "34181356",
+      "34083181",
+      "33194731",
+      "33121495",
+      "32563984",
+      "32064162",
+      "32049010",
+      "31937613",
+      "31793439",
+      "31378236",
+      "31133756",
+      "30594216",
+      "30566157",
+      "30127393",
+      "29141660",
+      "28985563",
+      "27542268",
+      "26477306",
+      "25822800",
+      "25736473",
+      "24113773",
+      "22590557",
+      "22525041",
+      "22080568",
+      "21212740",
+      "19460998",
+      "19405048",
+      "11846609"
+    ],
+    "similar": [
+      "40904599",
+      "36353226",
+      "37287976",
+      "36386454",
+      "36895935",
+      "36050740",
+      "37622116",
+      "36479114",
+      "37670938",
+      "37378675",
+      "36879187",
+      "36620594",
+      "36967927",
+      "37197625",
+      "37007546",
+      "36707046",
+      "38012210",
+      "37482612",
+      "37060773",
+      "38839842",
+      "40211224",
+      "38558328",
+      "37752539",
+      "36911392",
+      "37898914",
+      "38854940",
+      "38973963",
+      "37333810",
+      "41220401",
+      "37776237",
+      "37521466",
+      "40170009",
+      "36845390",
+      "39911153",
+      "36248822",
+      "35965536",
+      "37762710",
+      "38988926",
+      "36496537",
+      "36844874",
+      "39519383",
+      "39516442",
+      "39624133",
+      "36774418",
+      "36313439",
+      "37600770",
+      "40411678",
+      "39830760",
+      "40034693",
+      "36213162",
+      "37124062",
+      "36276092",
+      "39696439",
+      "38952778",
+      "36186452",
+      "39338406",
+      "41282991",
+      "36717792",
+      "36313444",
+      "40950687",
+      "36699466",
+      "36135086",
+      "37076991",
+      "38617510",
+      "35958325",
+      "36506302",
+      "38859698",
+      "37007124",
+      "39268091",
+      "36451815",
+      "36505872",
+      "36310708",
+      "37005878",
+      "41430351",
+      "35645555",
+      "38696071",
+      "36438201",
+      "38310466",
+      "41383634",
+      "36620545",
+      "35941550",
+      "40161374",
+      "38431620",
+      "40761262",
+      "39735553",
+      "37434691",
+      "36674979",
+      "36195876",
+      "35938003",
+      "40313958",
+      "36106123",
+      "38013279",
+      "37942473",
+      "36640225",
+      "37037146",
+      "36400857",
+      "40460484",
+      "36712848",
+      "36699089",
+      "36452343"
+    ],
+    "review": [
+      "40904599"
+    ],
+    "pmc": [
+      "12402859"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40904599.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40904599/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-XPNPEP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.05.728896",
+  "title": "OGG1-Binding to Oxidized Guanine Base in Viral DNA Overcomes Epstein–Barr Virus Latency",
+  "doi": "10.64898/2026.06.05.728896",
+  "abstract": "Epstein–Barr virus (EBV) establishes lifelong latency in human cells and can periodically reactivate, contributing to several cancers. However, the molecular mechanisms that disrupt EBV latency, particularly those driven by oxidative stress, require further investigation. In this study, we provide evidence that oxidative DNA damage, particularly the formation of 8-oxoguanine and its repair enzyme OGG1, is involved in EBV reactivation. We demonstrated that OGG1 is recruited to EBV regulatory regions under oxidative stress conditions and is associated with the transcriptional activation of immediate-early and early lytic genes. Further experiments showed that pharmacological inhibition of OGG1 DNA binding significantly suppressed EBV lytic gene expression, supporting a functional role for OGG1 in viral reactivation. Mechanistically, our findings suggest that OGG1 may contribute to EBV lytic activation through a noncanonical mechanism independent of its glycosylase activity. These findings provide insight into how EBV may exploit host oxidative DNA damage responses to facilitate latency disruption and suggest that targeting OGG1 may offer a potential strategy to limit EBV reactivation and EBV-associated diseases. Graphical Abstract The model illustrates how oxidative DNA damage promotes Epstein–Barr virus (EBV) lytic reactivation through host base excision repair machinery Reactive oxygen species (ROS) may induce oxidative modification of guanine to 8-oxoguanine (8-oxoGua) in latent EBV genomes, potentially contributing to OGG1 recruitment to viral regulatory regions. OGG1 binding facilitates the transcriptional activation of immediate-early and early lytic genes, likely through transcription factor recruitment, thereby contributing to the transition from latency to lytic replication. Pharmacological inhibition of OGG1-DNA interaction suppresses this process, highlighting OGG1 as a potential therapeutic target. 8-oxoGua, 7,8-dihydro-8-oxoguanine; OGG1, 8-oxoguanine DNA glycosylase-1. Significance Statement identifies a potential mechanism by which ROS-induced oxidative DNA base damage and OGG1 recruitment within the EBV genome may contribute to viral reactivation from latency. suggests that oxidative DNA repair intermediates may serve as regulatory platforms for viral gene expression. provides pharmacological evidence supporting OGG1 as a potential therapeutic target for suppressing EBV reactivation.",
+  "authors": [
+    "Wenjing Hao",
+    "Xiaoqi Wang",
+    "Jiabo Li",
+    "Gang Liu",
+    "Lang Pan",
+    "Xueqing Ba",
+    "Istvan Boldogh",
+    "Ziyuan Duan"
+  ],
+  "published_date": "2026-06-06",
+  "updated_date": "2026-06-07T06:30:12Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.05.728896",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.05.728896.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2026-06-09T17:04:22Z",
+        "timestamp": 1781024662504,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 59,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                6
+              ]
+            ],
+            "date-time": "2026-06-06T00:00:00Z",
+            "timestamp": 1780704000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "32000546"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "32000546"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "32070158"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "32070158"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002858",
+          "name": "China Postdoctoral Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2020M670517"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2020M670517"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002858",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "China National Postdoctoral Program for Innovative Talents",
+          "award": [
+            "BX20200362"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BX20200362"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "High Innovation Plan",
+          "award": [
+            "G202532288"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "G202532288"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capacity Enhancement Plan for BRP-CAS",
+          "award": [
+            "E429A401X1T09"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "E429A401X1T09"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "US National Institute of Allergic and Infectious Diseases",
+          "award": [
+            "AI062885"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "AI062885"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Epstein–Barr virus (EBV) establishes lifelong latency in human cells and can periodically reactivate, contributing to several cancers. However, the molecular mechanisms that disrupt EBV latency, particularly those driven by oxidative stress, require further investigation. In this study, we provide evidence that oxidative DNA damage, particularly the formation of 8-oxoguanine and its repair enzyme OGG1, is involved in EBV reactivation. We demonstrated that OGG1 is recruited to EBV regulatory regions under oxidative stress conditions and is associated with the transcriptional activation of immediate-early and early lytic genes. Further experiments showed that pharmacological inhibition of OGG1 DNA binding significantly suppressed EBV lytic gene expression, supporting a functional role for OGG1 in viral reactivation. Mechanistically, our findings suggest that OGG1 may contribute to EBV lytic activation through a noncanonical mechanism independent of its glycosylase activity. These findings provide insight into how EBV may exploit host oxidative DNA damage responses to facilitate latency disruption and suggest that targeting OGG1 may offer a potential strategy to limit EBV reactivation and EBV-associated diseases.</jats:p>\n                <jats:sec>\n                  <jats:title>Graphical Abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" orientation=\"portrait\" fig-type=\"figure\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"728896v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>The model illustrates how oxidative DNA damage promotes Epstein–Barr virus (EBV) lytic reactivation through host base excision repair machinery</jats:title>\n                  <jats:p>Reactive oxygen species (ROS) may induce oxidative modification of guanine to 8-oxoguanine (8-oxoGua) in latent EBV genomes, potentially contributing to OGG1 recruitment to viral regulatory regions. OGG1 binding facilitates the transcriptional activation of immediate-early and early lytic genes, likely through transcription factor recruitment, thereby contributing to the transition from latency to lytic replication. Pharmacological inhibition of OGG1-DNA interaction suppresses this process, highlighting OGG1 as a potential therapeutic target. 8-oxoGua, 7,8-dihydro-8-oxoguanine; OGG1, 8-oxoguanine DNA glycosylase-1.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Significance Statement</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>identifies a potential mechanism by which ROS-induced oxidative DNA base damage and OGG1 recruitment within the EBV genome may contribute to viral reactivation from latency.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>suggests that oxidative DNA repair intermediates may serve as regulatory platforms for viral gene expression.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>provides pharmacological evidence supporting OGG1 as a potential therapeutic target for suppressing EBV reactivation.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.64898/2026.06.05.728896",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            7
+          ]
+        ],
+        "date-time": "2026-06-07T06:30:12Z",
+        "timestamp": 1780813812000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "OGG1-Binding to Oxidized Guanine Base in Viral DNA Overcomes Epstein–Barr Virus Latency"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Wenjing",
+          "family": "Hao",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoqi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiabo",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gang",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Infectious Diseases, Key Laboratory of Major Diseases in Children, Beijing Children’s Hospital, Ministry of Education, Capital Medical University, National Center for Children’s Health, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lang",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NHC Key Laboratory of Radiobiology, School of Public Health, Jilin University, Changchun, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xueqing",
+          "family": "Ba",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Key Laboratory of Molecular Epigenetics of the Ministry of Education, School of Life Science, Northeast Normal University, Changchun, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Istvan",
+          "family": "Boldogh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Microbiology and Immunology, University of Texas Medical Branch at Galveston, Galveston, Texas, US"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ziyuan",
+          "family": "Duan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "3",
+          "key": "2026060909551443000_2026.06.05.728896v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "714",
+          "DOI": "10.3390/v15030714",
+          "article-title": "Epstein-Barr Virus History and Pathogenesis",
+          "volume": "15",
+          "year": "2023",
+          "journal-title": "Viruses"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-019-0249-7"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc.2016.92"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/rmv.1780"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v13122344"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2024.1505191"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12011-009-8555-y"
+        },
+        {
+          "issue": "6C",
+          "key": "2026060909551443000_2026.06.05.728896v1.8",
+          "first-page": "4065",
+          "article-title": "Induction of Epstein-Barr virus (EBV) reactivation in Raji cells by doxorubicin and cisplatin",
+          "volume": "22",
+          "year": "2002",
+          "journal-title": "Anticancer Res"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "ftae002",
+          "DOI": "10.1093/femspd/ftae002",
+          "article-title": "Awakening the sleeping giant: Epstein-Barr virus reactivation by biological agents",
+          "volume": "82",
+          "year": "2024",
+          "journal-title": "Pathog Dis"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v9110341"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mrfmmm.2003.09.001"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/carcin/21.3.361"
+        },
+        {
+          "issue": "3",
+          "key": "2026060909551443000_2026.06.05.728896v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "603",
+          "DOI": "10.1038/s41388-019-1003-3",
+          "article-title": "The Epstein-Barr virus nuclear antigen-1 upregulates the cellular antioxidant defense to enable B-cell growth transformation and immortalization",
+          "volume": "39",
+          "year": "2020",
+          "journal-title": "Oncogene"
+        },
+        {
+          "issue": "4",
+          "key": "2026060909551443000_2026.06.05.728896v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1486",
+          "DOI": "10.1007/s12015-020-10112-8",
+          "article-title": "Latent Membrane Protein 1 Promotes Tumorigenesis Through Upregulation of PGC1beta Signaling Pathway",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "Stem Cell Rev Rep"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/em.1070"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1401625"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms150916975"
+        },
+        {
+          "issue": "6",
+          "key": "2026060909551443000_2026.06.05.728896v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "7427",
+          "DOI": "10.1096/fj.201902243R",
+          "article-title": "Enzymatically inactive OGG1 binds to DNA and steers base excision repair toward gene transcription",
+          "volume": "34",
+          "year": "2020",
+          "journal-title": "FASEB J"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "669",
+          "DOI": "10.1016/j.redox.2017.11.008",
+          "article-title": "8-Oxoguanine DNA glycosylase 1: Beyond repair of the oxidatively modified base lesions",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "Redox Biol"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.20",
+          "first-page": "2019",
+          "article-title": "Targeting inducible epigenetic reprogramming pathways in chronic airway remodeling",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Drugs Context"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2023.1186369"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.redox.2018.06.002",
+          "article-title": "Effects of the stimuli-dependent enrichment of 8-oxoguanine DNA glycosylase1 on chromatinized DNA",
+          "volume": "18",
+          "year": "2018",
+          "journal-title": "Redox Biol"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1200416"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1161160",
+          "DOI": "10.3389/fimmu.2023.1161160",
+          "article-title": "Epigenetic control of type III interferon expression by 8-oxoguanine and its reader 8-oxoguanine DNA glycosylase1",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Front Immunol"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0084919"
+        },
+        {
+          "issue": "26",
+          "key": "2026060909551443000_2026.06.05.728896v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "11921",
+          "DOI": "10.7150/thno.46006",
+          "article-title": "Targeting Epstein-Barr virus oncoprotein LMP1-mediated high oxidative stress suppresses EBV lytic reactivation and sensitizes tumors to radiation therapy",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Theranostics"
+        },
+        {
+          "issue": "9",
+          "key": "2026060909551443000_2026.06.05.728896v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1380",
+          "DOI": "10.3390/biom11091380",
+          "article-title": "Stress-Induced Epstein-Barr Virus Reactivation",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0215(19990924)83:1<121::AID-IJC21>3.0.CO;2-F"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0042-6822(88)90496-5"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00571929"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0921-8777(00)00042-2"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2011-04-347112"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aar8048"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.7b09316"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.5b00452"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbamcr.2015.03.011"
+        },
+        {
+          "issue": "8",
+          "key": "2026060909551443000_2026.06.05.728896v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "2142",
+          "DOI": "10.3390/cancers12082142",
+          "article-title": "Lytic Induction Therapy against Epstein-Barr Virus-Associated Malignancies: Past",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Present, and Future. Cancers (Basel"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.75.11.5240-5251.2001"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.015685"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/jclinpath-2019-205822"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1010990"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M116.751453"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jmv.70501"
+        },
+        {
+          "issue": "8",
+          "key": "2026060909551443000_2026.06.05.728896v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1788",
+          "DOI": "10.1021/acs.biochem.4c00419",
+          "article-title": "Inhibition by 4-(4-Bromo-2-oxo-3H-benzimidazol-1-yl)-N-(4-iodophenyl)piperidine-1-carboxamide (TH5487) of the Activity of Human 8-Oxoguanine DNA Glycosylase-1 (OGG1) for the Excision of 2,6-Diamino-4-hydroxy-5-formamidopyrimidine, 4,6-Diamino-5-formamidopyrimidine, and 8-Oxoguanine from Oxidatively Damaged DNA",
+          "volume": "64",
+          "year": "2025",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "75",
+          "DOI": "10.1016/j.dnarep.2017.06.009",
+          "article-title": "8-Oxo-7,8-dihydroguanine, friend and foe: Epigenetic-like regulator versus initiator of mutagenesis",
+          "volume": "56",
+          "year": "2017",
+          "journal-title": "DNA Repair (Amst"
+        },
+        {
+          "issue": "6",
+          "key": "2026060909551443000_2026.06.05.728896v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "593",
+          "DOI": "10.1159/000524186",
+          "article-title": "Innate Immune Responses to RSV Infection Facilitated by OGG1, an Enzyme Repairing Oxidatively Modified DNA Base Lesions",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "J Innate Immun"
+        },
+        {
+          "issue": "30",
+          "key": "2026060909551443000_2026.06.05.728896v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2424733122",
+          "DOI": "10.1073/pnas.2424733122",
+          "article-title": "OGG1 augments the transcriptional activation of Foxp3 to promote iTreg differentiation for IBD alleviation",
+          "volume": "122",
+          "year": "2025",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35002510"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1348-0421.12155"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coviro.2013.03.005"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "43297",
+          "DOI": "10.1038/srep43297",
+          "article-title": "OGG1-DNA interactions facilitate NF-kappaB binding to DNA targets",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "issue": "3",
+          "key": "2026060909551443000_2026.06.05.728896v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "1087",
+          "DOI": "10.1093/nar/gkac1241",
+          "article-title": "8-Oxoguanine targeted by 8-oxoguanine DNA glycosylase 1 (OGG1) is central to fibrogenic gene activation upon lung injury",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12929-024-01093-8"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7150/ijbs.16564"
+        },
+        {
+          "issue": "1",
+          "key": "2026060909551443000_2026.06.05.728896v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.3390/cancers16010148",
+          "article-title": "OGG1 as an Epigenetic Reader Affects NFkappaB: What This Means for Cancer",
+          "volume": "16",
+          "year": "2023",
+          "journal-title": "Cancers (Basel"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "695093",
+          "DOI": "10.3389/fcimb.2021.695093",
+          "article-title": "Could Changing the DNA Methylation Landscape Promote the Destruction of Epstein-Barr Virus-Associated Cancers?",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Front Cell Infect Microbiol"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.1016/j.freeradbiomed.2023.11.005",
+          "article-title": ". Epigenetic and “redoxogenetic” adaptation to physical exercise",
+          "volume": "210",
+          "year": "2024",
+          "journal-title": "Free Radic Biol Med"
+        },
+        {
+          "issue": "1",
+          "key": "2026060909551443000_2026.06.05.728896v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1093/toxsci/kfac003",
+          "article-title": "DNA Damage and Repair and Epigenetic Modification in the Role of Oxoguanine Glycosylase 1 in Brain Development",
+          "volume": "187",
+          "year": "2022",
+          "journal-title": "Toxicol Sci"
+        },
+        {
+          "key": "2026060909551443000_2026.06.05.728896v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.C111.284620"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.05.728896",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2026-06-09T16:55:26Z",
+        "timestamp": 1781024126000
+      },
+      "score": 117.70599,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.05.728896"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ]
+      },
+      "references-count": 59,
+      "URL": "https://doi.org/10.64898/2026.06.05.728896",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "37030103",
+    "doi": "10.1016/j.compbiolchem.2023.107867",
+    "title": "Peripheral blood mononuclear cell derived biomarker detection using eXplainable Artificial Intelligence (XAI) provides better diagnosis of breast cancer."
+  },
+  "content": {
+    "abstract": "The incidence and mortality rate of breast cancer increases yearly by an average of 1.44 % and 0.23 %, respectively. Till 2021, there were 7.8 million women who had been diagnosed with breast cancer within 5 years. Biopsies of tumors are often expensive and invasive and raise the risk of serious complications like infection, excessive bleeding, and puncture damage to nearby tissues and organs. Early detection biomarkers are often variably expressed in different patients and may even be below the detection level at an early stage. Hence PBMC that shows alteration in gene profile as a result of interaction with tumor antigens may serve as a better early detection biomarker. Also, such alterations in immune gene profile in PBMCs are more prone to detection despite variability in different breast cancer mutants.This study aimed to identify potential diagnostic biomarkers for breast cancer using eXplainable Artificial Intelligence (XAI) on XGBoost machine learning (ML) models trained on a binary classification dataset containing the expression data of PBMCs from 252 breast cancer patients and 194 healthy women.After effectively adding SHAP values further into the XGBoost model, ten important genes related to breast cancer development were discovered to be effective potential biomarkers. Our studies showed that SVIP, BEND3, MDGA2, LEF1-AS1, PRM1, TEX14, MZB1, TMIGD2, KIT, and FKBP7 are key genes that impact model prediction. These genes may serve as early, non-invasive diagnostic and prognostic biomarkers for breast cancer patients.",
+    "keywords": [
+      "Biomarker",
+      "Breast cancer",
+      "EXplainable Artificial Intelligence",
+      "Peripheral blood mononuclear cells",
+      "XGBoost"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/diagnosis/genetics",
+      "Leukocytes, Mononuclear",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Biomarkers",
+      "Transcription Factors",
+      "Calcium-Binding Proteins",
+      "Tacrolimus Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Sunil",
+        "Das, Asmita"
+      ],
+      "short_names": [
+        "Kumar S",
+        "Das A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Delhi Technological University, India.",
+        "Department of Biotechnology, Delhi Technological University, India. Electronic address: asmita1710@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Sunil",
+        "short_name": "Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Delhi Technological University, India."
+        ]
+      },
+      {
+        "full_name": "Das, Asmita",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Delhi Technological University, India. Electronic address: asmita1710@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/09 06:00",
+    "fetched_at": "2026-09-28 22:39:13"
+  },
+  "links": {
+    "cites": [
+      "42640452",
+      "41869442",
+      "41497890",
+      "41491308",
+      "41450733",
+      "41159202",
+      "40941703",
+      "40593180",
+      "40506516",
+      "40360639",
+      "40321723",
+      "39994035",
+      "39430216",
+      "39335143",
+      "39188605",
+      "37509346"
+    ],
+    "refs": [],
+    "similar": [
+      "37030103",
+      "35477047",
+      "36738712",
+      "38307616",
+      "38894711",
+      "39402077",
+      "36080795",
+      "35398119",
+      "35430037",
+      "39274215",
+      "20005686",
+      "37062419",
+      "36879192",
+      "37173910",
+      "34715520",
+      "35204328",
+      "34298668",
+      "36228495",
+      "37184779",
+      "36965300",
+      "30055304",
+      "21129172",
+      "30317464",
+      "36499713",
+      "35612031",
+      "36049396",
+      "33847850",
+      "36306578",
+      "35390650",
+      "34884024",
+      "34916529",
+      "34740064",
+      "38774048",
+      "36809524",
+      "32541594",
+      "36498000",
+      "35213360",
+      "39027625",
+      "35801239",
+      "35746184",
+      "36501938",
+      "34839075",
+      "36110986",
+      "31348505",
+      "34109184",
+      "34969514",
+      "38076789",
+      "35544962",
+      "32914206",
+      "36560227",
+      "35576821",
+      "36388027",
+      "36119721",
+      "34229736",
+      "32505418",
+      "32044304",
+      "34791536",
+      "31905037",
+      "35884506",
+      "38245638",
+      "37156169",
+      "36969684",
+      "36863192",
+      "33765601",
+      "32763293",
+      "27827952",
+      "35957890",
+      "36817766",
+      "36650782",
+      "21781289",
+      "34117103",
+      "33396463",
+      "33915362",
+      "35660327",
+      "36731409",
+      "32410355",
+      "33590486",
+      "30871682",
+      "34122000",
+      "35188865",
+      "34053998",
+      "36826109",
+      "36078307",
+      "37083759",
+      "32148141",
+      "32828461",
+      "37782668",
+      "38673057",
+      "37546729",
+      "37918101",
+      "37467834",
+      "39049366",
+      "34460546",
+      "38915763",
+      "38566430",
+      "38092866",
+      "39061139",
+      "29082372",
+      "37394890",
+      "39144659"
+    ],
+    "review": [
+      "37030103",
+      "38307616",
+      "35430037",
+      "35204328",
+      "36228495",
+      "36499713",
+      "35390650",
+      "34884024",
+      "32541594",
+      "35213360",
+      "34969514",
+      "35576821",
+      "36388027",
+      "32044304",
+      "34791536",
+      "37156169",
+      "36863192",
+      "33765601",
+      "34117103",
+      "36731409",
+      "36078307",
+      "37918101",
+      "34460546"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(23)00058-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

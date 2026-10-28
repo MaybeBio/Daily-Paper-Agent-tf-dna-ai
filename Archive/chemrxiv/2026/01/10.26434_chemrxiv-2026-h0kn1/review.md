@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose AIQM-PBSA, a hybrid endpoint binding free energy method that integrates the ONIOM scheme with PBSA, using the AIQM3 machine learning interatomic potential to refine the molecular mechanics energy term and PBSA for solvation. They report improved correlation with experimental binding affinities over classical MMPBSA and other MLIPs, with a representative benchmark showing up to 31% higher Pearson correlation than MMPBSA and 16% higher than ANI-2x, and note that entropic contributions provide modest, target-dependent improvements.
+- **Visible evidence base** Abstract text only; no methodological details, benchmark descriptions, system lists, or numerical results beyond the stated correlation improvements
+- **Missing materials affecting confidence** Full manuscript, benchmark dataset composition, system identities, computational protocols, error bars or statistical significance tests, comparison details, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting integration of a machine learning interatomic potential with an endpoint free energy method, which could address known limitations of classical force fields in MMPBSA. However, the evidence provided is insufficient to evaluate the validity, robustness, or generalizability of the claimed improvements. Key methodological details and benchmark characteristics are absent, and the reported performance gains are presented without statistical context. The work may be of interest to computational chemists, but the current abstract does not establish the case for its reliability or transferability.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on binding free energy prediction, drug discovery researchers seeking more accurate endpoint methods, and developers of machine learning potentials for biomolecular applications would be interested. The promise of QM-level accuracy at MM-level cost is directly relevant to improving virtual screening and lead optimization workflows.
+- **Major strengths** The proposed framework addresses a recognized limitation of MMPBSA, namely force field accuracy, by leveraging a Δ-learning QM model. The integration of ONIOM with PBSA is a plausible design choice. The reported improvements over both classical MMPBSA and ANI-2x suggest potential added value, if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "AIQM-PBSA significantly improves the correlation with experimental binding affinities compared to MMPBSA based on classical force fields and other MLIPs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single representative benchmark with up to 31% higher Pearson correlation than MMPBSA and 16% higher than ANI-2x, but provides no details on the number of systems, protein families, ligand diversity, or the range of correlation values. Without this context, the significance and generalizability of the improvement cannot be assessed.
+  - **Why it matters** A single benchmark with unspecified composition cannot support a claim of broad transferability. The magnitude of improvement may be system-specific, and the absence of error bars or statistical tests leaves the reported gains potentially within noise.
+  - **Resolution test** Provide full benchmark details, including system count and diversity, per-system correlation values, and statistical significance testing (e.g., bootstrap or paired tests) comparing AIQM-PBSA to baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "the AIQM3 machine learning interatomic potential is employed to refine the molecular mechanics energy term"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how AIQM3 is integrated within the ONIOM scheme, which regions are treated at which level, how the MM and QM energies are combined, or how the PBSA solvation terms are coupled to the QM-derived energies. The computational cost and convergence behavior are also unstated.
+  - **Why it matters** Reproducibility and assessment of the claimed "MM level efficiency" require a clear description of the hybrid protocol. Without this, the method cannot be evaluated or compared fairly against existing approaches.
+  - **Resolution test** Include a detailed methods section describing the ONIOM layering, the energy expression, the treatment of electrostatic and van der Waals terms, and the computational cost relative to standard MMPBSA.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "incorporating entropic contributions can further provide modest, target-dependent improvements"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that entropy improves results in a target-dependent manner, but provides no data on which targets benefit, the magnitude of improvement, or how entropy was computed. This claim is currently unverifiable.
+  - **Why it matters** Entropy is often a critical and computationally expensive component in binding free energy calculations. A vague claim without supporting data does not inform the reader of its practical value or limitations.
+  - **Resolution test** Provide per-target results with and without entropy, including the method used for entropy estimation and the computational overhead.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "AIQM3" is introduced without definition or citation, and the relationship between AIQM3 and the broader class of MLIPs is unclear.
+  - **Required correction** Define AIQM3 and cite the original development paper, and clarify how it differs from other MLIPs used in the comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "diverse protein–ligand systems" is vague and does not convey the scope of validation.
+  - **Required correction** Specify the number of systems, protein classes, and ligand types, and state whether the benchmark is publicly available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Only Pearson correlation is mentioned; no other metrics such as RMSE, Spearman rank, or prediction accuracy are reported.
+  - **Required correction** Report additional error metrics and, if possible, classification accuracy for ranking or potency binning.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate, as the combination of MLIPs with endpoint methods is a natural extension of existing work, though the specific AIQM3-PBSA integration may be novel. Scientific importance is potentially high if the method proves robust, but the current evidence is insufficient to establish this. Interdisciplinary readership is plausible, spanning machine learning and biophysical chemistry, but the abstract lacks sufficient detail for nonspecialists to assess the method's validity. Technical soundness cannot be evaluated from the abstract alone, as key methodological and statistical details are missing. Readability for nonspecialists is acceptable but would benefit from clearer definitions and contextualization of the performance gains.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the lack of methodological detail, benchmark context, and statistical validation prevents a supportive recommendation. Full manuscript review would be required to assess whether the claims hold.
+
+## Risk / unsupported claims
+- The claim of "significant" improvement in correlation is unsupported without statistical testing or benchmark context.
+- The claim of "robust and transferable framework" is unsupported given the single representative benchmark mentioned.
+- The claim of "MM level efficiency" is unverifiable without computational cost data.
+- The claim of "target-dependent" entropy improvements is unverifiable without per-target results.
+- The generalizability of the method to diverse protein–ligand systems is not assessable from the abstract.

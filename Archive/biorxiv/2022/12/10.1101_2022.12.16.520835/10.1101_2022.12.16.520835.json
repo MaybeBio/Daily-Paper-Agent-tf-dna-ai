@@ -1,0 +1,287 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.16.520835",
+  "title": "High-Throughput Discovery and Characterization of Viral Transcriptional Effectors in Human Cells",
+  "doi": "10.1101/2022.12.16.520835",
+  "abstract": "<h4>Summary</h4> Viruses encode transcriptional regulatory proteins critical for controlling viral and host gene expression. Given their multifunctional nature and high sequence divergence, it is unclear which viral proteins can affect transcription and which specific sequences contribute to this function. Using a high-throughput assay, we measured the transcriptional regulatory potential of over 60,000 protein tiles across ∼1,500 proteins from 11 coronaviruses and all nine human herpesviruses. We discovered hundreds of new transcriptional effector domains, including a conserved repression domain in all coronavirus Spike homologs, dual activation-repression domains in VIRFs, and an activation domain in six herpesvirus homologs of the single-stranded DNA-binding protein that we show is important for viral replication and late gene expression in KSHV. For the effector domains we identified, we investigated their mechanisms via high-throughput sequence and chemical perturbations, pinpointing sequence motifs essential for function. This work massively expands viral protein annotations, serving as a springboard for studying their biological and health implications and providing new candidates for compact gene regulation tools.",
+  "authors": [
+    "Ludwig CH",
+    "Thurm AR",
+    "Morgens DW",
+    "Yang KJ",
+    "Tycko J",
+    "Bassik MC",
+    "Glaunsinger BA",
+    "Bintu L"
+  ],
+  "published_date": "2022-12-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.16.520835",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.16.520835.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR586200",
+    "raw_record": {
+      "id": "PPR586200",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR586200"
+        ]
+      },
+      "doi": "10.1101/2022.12.16.520835",
+      "title": "High-Throughput Discovery and Characterization of Viral Transcriptional Effectors in Human Cells",
+      "authorString": "Ludwig CH, Thurm AR, Morgens DW, Yang KJ, Tycko J, Bassik MC, Glaunsinger BA, Bintu L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ludwig CH",
+            "lastName": "Ludwig",
+            "firstName": "Connor",
+            "initials": "CH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9159-7628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioengineering Department, Stanford University, Stanford, CA 94305, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thurm AR",
+            "lastName": "Thurm",
+            "firstName": "Abby",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1819-3192"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biophysics Graduate Program, Stanford University, Stanford, CA 94305, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morgens DW",
+            "lastName": "Morgens",
+            "firstName": "David",
+            "initials": "DW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5005-0669"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, UC Berkeley, Berkeley, CA 94720, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang KJ",
+            "lastName": "Yang",
+            "firstName": "Kevin",
+            "initials": "KJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, UC Berkeley, Berkeley, CA 94720, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tycko J",
+            "lastName": "Tycko",
+            "firstName": "Josh",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford University, Stanford, CA 94305, USA"
+                },
+                {
+                  "affiliation": "Department of Neurobiology, Harvard Medical School, Boston, MA 02115, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bassik MC",
+            "lastName": "Bassik",
+            "firstName": "Michael",
+            "initials": "MC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5185-8427"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford University, Stanford, CA 94305, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glaunsinger BA",
+            "lastName": "Glaunsinger",
+            "firstName": "Britt",
+            "initials": "BA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, UC Berkeley, Berkeley, CA 94720, USA"
+                },
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, UC Berkeley, Berkeley, CA 94720, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, UC Berkeley, Berkeley, CA 94720, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bintu L",
+            "lastName": "Bintu",
+            "firstName": "Lacramioara",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioengineering Department, Stanford University, Stanford, CA 94305, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5185-8427"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1819-3192"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5005-0669"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9159-7628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Summary</h4>  Viruses encode transcriptional regulatory proteins critical for controlling viral and host gene expression. Given their multifunctional nature and high sequence divergence, it is unclear which viral proteins can affect transcription and which specific sequences contribute to this function. Using a high-throughput assay, we measured the transcriptional regulatory potential of over 60,000 protein tiles across ∼1,500 proteins from 11 coronaviruses and all nine human herpesviruses. We discovered hundreds of new transcriptional effector domains, including a conserved repression domain in all coronavirus Spike homologs, dual activation-repression domains in VIRFs, and an activation domain in six herpesvirus homologs of the single-stranded DNA-binding protein that we show is important for viral replication and late gene expression in KSHV. For the effector domains we identified, we investigated their mechanisms via high-throughput sequence and chemical perturbations, pinpointing sequence motifs essential for function. This work massively expands viral protein annotations, serving as a springboard for studying their biological and health implications and providing new candidates for compact gene regulation tools.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/19/2022.12.16.520835.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.16.520835"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR586200"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR586200&type=FILE&fileName=EMS163003-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37348463",
+            "reference": "Cell systems. 2023 Jun;14(6):482-500.e8",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS163003",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-12-20",
+      "firstPublicationDate": "2022-12-19",
+      "firstIndexDate": "2022-12-20",
+      "fullTextReceivedDate": "2023-02-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

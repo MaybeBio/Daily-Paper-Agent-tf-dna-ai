@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, references list, supplementary materials list) provided as a single text block. Figures, tables, and supplementary files are referenced but not provided.
+- **Assessment boundary** The review is limited to the claims and evidence as presented in the provided text. No external data, figures, or supplementary materials were available for direct inspection.
+- **Shared manuscript claim summary** The authors present a genome-scale analysis of binding preferences among 35 pairs of whole-genome duplication (WGD)-retained transcription factors (TFs) in budding yeast. Using ChEC-seq, they report that ~60% of paralog pairs diverged in binding preferences, primarily through variations outside DNA-binding domains (DBDs). They propose a model of biased sub/neo-functionalization, supported by comparisons with non-WGD orthologs, and describe roles for cooperative and competitive interactions in shaping binding divergence.
+- **Visible evidence base** The text includes descriptions of experimental methods (ChEC-seq, DBD swapping, ortholog expression), statistical thresholds (Pearson's r), and references to figures (Fig. 1-6) and supplementary items (figs. S1-S6, tables S1-S4). No actual data, images, or numerical results are visible in the provided material.
+- **Missing materials affecting confidence** All figures, tables, supplementary data, and detailed methods are absent. The manuscript text alone is insufficient to verify the quantitative claims, statistical analyses, or experimental controls.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a fundamental question in evolutionary biology: how duplicated transcription factors diverge in their DNA-binding preferences. The authors leverage a well-defined set of WGD-retained TF paralogs in budding yeast, a system with clear evolutionary context. The central claim that divergence is largely driven by variations outside DBDs, with a bias toward sub/neo-functionalization, is interesting and potentially significant. However, the provided text lacks the necessary data, figures, and methodological detail to evaluate the robustness of these conclusions. The evidence base is entirely descriptive in the text, and the key quantitative results are only referenced, not shown. The manuscript is well-written and the conceptual framework is clear, but the scientific case cannot be fully assessed from the supplied material.
+- **Who would be interested in the results, and why** Evolutionary biologists studying gene duplication and functional divergence, particularly those focused on transcriptional regulation. Researchers in systems biology and gene regulatory network evolution would also find the genome-scale perspective valuable. The findings on the relative roles of DBD versus non-DBD variations and the proposed model of biased sub/neo-functionalization have broad implications for understanding how regulatory networks evolve.
+- **Major strengths** The study addresses a long-standing question with a comprehensive, genome-scale dataset. The use of a single evolutionary event (WGD) provides a controlled framework. The combination of experimental binding profiling, sequence analysis, and ortholog comparisons is a powerful approach. The manuscript is clearly structured and the conceptual distinction between DBD-dependent and DBD-independent divergence is a useful framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ~60% of WGD TF paralogs evolved differential binding preferences, and that this divergence is primarily due to variations outside DBDs.
+  - **Evidence pointer** Figures 1C, 1D, 2D, 2E; location not provided
+  - **Concern** The central quantitative claims are not verifiable from the text. The Pearson's r thresholds for "conserved" vs. "diverged" binding preferences are stated, but the actual distributions, the number of pairs in each category, and the statistical significance of the differences are not shown. Similarly, the DBD-swapping experiments are described qualitatively, but the data demonstrating the extent of binding perturbation or lack thereof are not presented. Without these data, the core conclusion that non-DBD variations dominate cannot be evaluated.
+  - **Why it matters** The entire manuscript hinges on the quantitative classification of paralog pairs as conserved or diverged, and on the interpretation of DBD-swapping results. If the thresholds are arbitrary or the swapping results are noisy, the conclusions would be substantially weakened.
+  - **Resolution test** Provide the full dataset of binding correlations for all 30 pairs, with clear definitions of conserved vs. diverged. Show the complete DBD-swapping results for all tested TFs, including quantitative measures of binding change and appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use non-WGD orthologs (K. lactis TFs) as proxies for ancestral binding preferences to distinguish sub- from neo-functionalization.
+  - **Evidence pointer** Figure 4C-E; location not provided
+  - **Concern** The validity of using K. lactis orthologs as ancestral proxies is not adequately justified. The text states that this was "the case in pairs with clear expectations," but the criteria for validating the proxy are not described. The evolutionary distance between S. cerevisiae and K. lactis is significant, and the binding preferences of the ortholog may not accurately reflect the ancestral state. The analysis of 11 diverging pairs is mentioned, but the data for each pair are not shown.
+  - **Why it matters** The classification of sub- vs. neo-functionalization depends entirely on the reliability of the ancestral proxy. If the proxy is inaccurate, the proposed model of biased sub/neo-functionalization would be unsupported.
+  - **Resolution test** Provide a clear validation of the ortholog proxy, such as demonstrating that the K. lactis orthologs of non-diverging pairs bind similarly to both S. cerevisiae paralogs. Show the full binding data for all 11 diverging pairs and the corresponding orthologs, with quantitative measures of similarity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors describe cooperative and competitive interactions between paralogs, including "one-sided dependency" and "low-magnitude DNA-binding competition."
+  - **Evidence pointer** Figure 3B-D; location not provided
+  - **Concern** The experimental evidence for these interactions is not presented. The text mentions that two TFs lost binding upon paralog deletion and that other effects were "generally minor," but the actual binding data, the magnitude of the effects, and the statistical significance are not shown. The distinction between "cooperative" and "competitive" interactions is not operationally defined.
+  - **Why it matters** These interaction types are presented as important mechanisms shaping divergence, but without data, their prevalence and functional relevance cannot be assessed.
+  - **Resolution test** Show the binding data for all TFs upon paralog deletion, with clear definitions of cooperative, competitive, and independent behavior. Provide quantitative measures of the effects and statistical tests.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "biased sub/neo-functionalization" without a brief definition. While specialists will understand, a short explanatory phrase would improve accessibility.
+  - **Required correction** Add a brief parenthetical explanation, e.g., "biased sub/neo-functionalization (where one duplicate retains more ancestral functions while the other acquires new ones)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Supplementary Materials; location not provided
+  - **Issue** The text refers to "Materials and Methods" in the supplementary materials, but no details are provided in the main text. The ChEC-seq method, DBD-swapping approach, and ortholog expression system are not described.
+  - **Required correction** Provide a brief summary of key methods in the main text or ensure the supplementary methods are complete and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Originality
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion of "distributed specificity" is introduced without a clear explanation of the concept or its relevance to the findings.
+  - **Required correction** Briefly define "distributed specificity" and explain how the current results support or refine this model.
+- **Technical failings that need to be addressed before the case is established** The absence of all primary data (figures, tables, supplementary files) is a critical failing. The manuscript text alone cannot support the quantitative claims. Specifically, the classification of binding divergence, the DBD-swapping results, the ortholog proxy validation, and the interaction analyses all require direct data inspection.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question is not entirely new, but the genome-scale approach and the specific focus on WGD paralogs in yeast provide a fresh perspective. The claim that non-DBD variations dominate is a potentially original contribution.
+  - Scientific importance: The findings have implications for understanding gene regulatory network evolution, a topic of broad interest. The proposed model of biased sub/neo-functionalization could influence future studies.
+  - Interdisciplinary readership: The topic is relevant to evolutionary biology, molecular biology, and systems biology. The writing is generally accessible, but the lack of data limits its appeal to a broad audience.
+  - Technical soundness: Not assessable from the provided text. The methods are referenced but not described, and the data are not shown.
+  - Readability for nonspecialists: The text is well-written and the logical flow is clear. However, the lack of figures and data makes it difficult for any reader to follow the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the scientific case cannot be evaluated without the full data, figures, and methods. The manuscript may be suitable for a high-impact journal if the data are robust and the analyses are rigorous, but this cannot be determined from the supplied material.
+
+## Risk / unsupported claims
+- The claim that ~60% of WGD TF paralogs evolved differential binding preferences is unsupported without the underlying correlation data.
+- The claim that divergence is primarily due to variations outside DBDs is unsupported without the DBD-swapping data.
+- The claim that non-WGD orthologs serve as valid ancestral proxies is unsupported without validation data.
+- The claim that cooperative and competitive interactions are prevalent and functionally relevant is unsupported without the paralog deletion data.
+- The claim that biased sub/neo-functionalization is the prevalent evolutionary route is unsupported without the full ortholog comparison dataset.

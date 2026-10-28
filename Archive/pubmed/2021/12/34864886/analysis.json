@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34864886",
+  "title": "A deep learning model to identify gene expression level using cobinding transcription factor signals.",
+  "authors": "Zhang, Lirong; Yang, Yanchao; Chai, Lu; Li, Qianzhong; Liu, Junjie; Lin, Hao; Liu, Li",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-12-06",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN基于共结合TF信号预测基因表达水平，虽涉及TF-DNA结合信号，但核心是表达预测而非TF-DNA互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Gene expression is directly controlled by transcription factors (TFs) in a complex combination manner. It remains a challenging task to systematically infer how the cooperative binding of TFs drives gene activity. Here, we quantitatively analyzed the correlation between TFs and surveyed the TF interaction networks associated with gene expression in GM12878 and K562 cell lines. We identified six TF modules associated with gene expression in each cell line. Furthermore, according to the enrichment characteristics of TFs in these TF modules around a target gene, a convolutional neural network model, called TFCNN, was constructed to identify gene expression level. Results showed that the TFCNN model achieved a good prediction performance for gene expression. The average of the area under receiver operating characteristics curve (AUC) can reach up to 0.975 and 0.976, respectively in GM12878 and K562 cell lines. By comparison, we found that the TFCNN model outperformed the prediction models based on SVM and LDA. This is due to the TFCNN model could better extract the combinatorial interaction among TFs. Further analysis indicated that the abundant binding of regulatory TFs dominates expression of target genes, while the cooperative interaction between TFs has a subtle regulatory effects. And gene expression could be regulated by different TF combinations in a nonlinear way. These results are helpful for deciphering the mechanism of TF combination regulating gene expression.",
+  "abstract_zh": "基因表达直接受转录因子（TFs）以复杂组合方式控制。系统推断转录因子协同结合如何驱动基因活性仍是一项挑战性任务。在此，我们定量分析了转录因子之间的相关性，并调查了与GM12878和K562细胞系中基因表达相关的转录因子相互作用网络。我们在每个细胞系中识别出六个与基因表达相关的转录因子模块。此外，根据这些转录因子模块在目标基因周围的富集特征，构建了一个名为TFCNN的卷积神经网络模型，以识别基因表达水平。结果表明，TFCNN模型在基因表达预测方面取得了良好的性能。在GM12878和K562细胞系中，接收者操作特征曲线下面积（AUC）的平均值分别可达0.975和0.976。通过比较，我们发现TFCNN模型优于基于SVM和LDA的预测模型。这是因为TFCNN模型能更好地提取转录因子之间的组合相互作用。进一步分析表明，调控性转录因子的丰富结合主导了目标基因的表达，而转录因子之间的协同相互作用具有微妙的调控效应。基因表达可能以非线性方式受不同转录因子组合的调控。这些结果有助于解析转录因子组合调控基因表达的机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34864886/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34864886/",
+  "paper_page_path": "papers/pubmed/34864886/index.html"
+}

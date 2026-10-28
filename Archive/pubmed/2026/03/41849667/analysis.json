@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41849667",
+  "title": "D-MBIS Nonbonded Force Field Parameters Improve Specificity and Selectivity Prediction in Bromodomains.",
+  "authors": "Macaya, Luis; Vohringer-Martinez, Esteban",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文评估D-MBIS非键力场参数在溴结构域配体结合自由能预测中的表现，虽涉及蛋白-配体互作建模，但对象为溴结构域-小分子而非蛋白质-DNA，且无TF-DNA结合机制研究，仅方法上对互作建模有间接参考价值。",
+  "abstract": "Computer simulations are increasingly significant in drug discovery, especially for predicting ligand affinities through free energy calculations. Absolute alchemical free energy calculations are vital for assessing ligand specificity and selectivity, aiding in differentiating between on-target efficacy and off-target effects. The main challenges in these calculations involve capturing conformational changes in proteins and ligands, predicting binding poses correctly, and modeling molecular interactions using well-parametrized force fields. Here, we evaluate how ab initio derived nonbonded force field parameters predict the specificity among nine BRD4 inhibitors and the selectivity of bromosporine across 22 bromodomains. We replaced nonbonded Open Force Field Sage 2.0.0 parameters with atomic charges, van der Waals radii, and dispersion coefficients obtained from Minimal Basis Iterative Stockholder (D-MBIS) atom partitioning of the polarized electron density, along with incorporating ligand polarization energies. Our ligand force field parameters demonstrated a mean unsigned error of 0.48 kcal/mol in predicting absolute binding free energy for nine BRD4 inhibitors, showing a strong correlation with experimental results. In the bromosporine selectivity set, predictive errors resulted mainly from docking-derived binding poses. By focusing solely on experimentally resolved apo- and holo structures, we accurately replicated experimental selectivity rankings for seven out of eight receptors, identifying those with the highest and lowest binding affinities.",
+  "abstract_zh": "计算机模拟在药物发现中日益重要，尤其是在通过自由能计算预测配体亲和力方面。绝对炼金术自由能计算对于评估配体特异性和选择性至关重要，有助于区分靶向疗效与非靶向效应。这些计算中的主要挑战涉及捕捉蛋白质和配体的构象变化、正确预测结合姿态，以及使用参数化良好的力场模拟分子相互作用。在此，我们评估了从头算导出的非键合力场参数如何预测九种BRD4抑制剂之间的特异性，以及溴孢素（bromosporine）在22个溴结构域中的选择性。我们用从极化电子密度的最小基组迭代Stockholder（D-MBIS）原子划分中获得的原子电荷、范德华半径和色散系数替换了非键合Open Force Field Sage 2.0.0参数，并纳入了配体极化能。我们的配体力场参数在预测九种BRD4抑制剂的绝对结合自由能时，平均无符号误差为0.48 kcal/mol，与实验结果显示出强相关性。在溴孢素选择性集合中，预测误差主要源于对接衍生的结合姿态。通过仅关注实验解析的apo和holo结构，我们准确复现了八个受体中七个的实验选择性排名，识别出具有最高和最低结合亲和力的受体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41849667/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41849667/",
+  "paper_page_path": "papers/pubmed/41849667/index.html"
+}

@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and evidence presented in the manuscript
+- **Shared manuscript claim summary** The authors apply a structure-based computational method (RPMDS) to classify 340 TP53 missense VUS variants as deleterious or undefined, based on predicted impact on TP53 structural stability. They report 193 VUS as deleterious, claim higher specificity than other in silico tools, and validate against a small set of ClinVar reclassifications.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Materials and Methods. No supplementary files, figures, or tables were provided for inspection.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data referenced in the text (Figures 1–6, Tables 1, S1–S5) were not available. This limits verification of quantitative claims, statistical analyses, and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant problem, the classification of TP53 missense VUS, using a protein structure-based computational approach. The core idea, using Ramachandran plot density deviations from molecular dynamics simulations as a deleteriousness metric, is conceptually interesting and distinct from sequence-based predictors. However, the evidence presented in the text alone is insufficient to establish the validity, robustness, and generalizability of the method. Key methodological details, validation metrics, and comparative analyses are referenced but not shown. The claim of higher specificity relative to other in silico methods is not supported by the visible evidence. The manuscript has potential but requires substantial additional data and analysis before the case is convincing.
+- **Who would be interested in the results, and why** Researchers and clinicians working on TP53 variant interpretation, cancer genetics, and clinical genomics. The work is also relevant to method developers in computational variant effect prediction, particularly those interested in structure-based approaches. The potential to reduce over-prediction of deleteriousness in VUS classification would be of broad interest to the human genetics community.
+- **Major strengths** The problem addressed is important and timely. The RPMDS approach is conceptually novel, using dynamic structural information rather than static features or evolutionary conservation. The authors explicitly aim to address the known limitation of low specificity in existing in silico tools. The use of known pathogenic and benign variants as training data within the same gene is a sensible design. The comparison with ClinVar reclassifications, although limited, is a useful external check.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that RPMDS provides a quantitative measurement for the impact of missense variants on TP53 structural stability and uses this to identify deleterious variants.
+  - **Evidence pointer** Section 2.2, Figure 1, Figure 2, Materials and Methods 4.2 and 4.3
+  - **Concern** The statistical basis for the classification cutoff is not adequately described. The text states that a deviation of ≥3.158 was set as the cutoff, derived from the lower 95% boundary of the mean deviation of pathogenic variants. However, the distribution fitting, the choice of normal versus lognormal, and the justification for using the lower boundary rather than another threshold are not explained. The Mann-Whitney test result (Z=2.27, p=0.0223) is reported but the effect size and the overlap between pathogenic and benign distributions are not shown. Without these details, the robustness of the classification threshold is unclear.
+  - **Why it matters** The entire classification of 193 VUS as deleterious rests on this threshold. If the cutoff is not statistically justified or is sensitive to the training set composition, the core results are not reliable.
+  - **Resolution test** Provide the full distribution plots for pathogenic, benign, and VUS variants, the fitting parameters, and a sensitivity analysis showing how the number of classified deleterious VUS changes with the cutoff value. Report the overlap between pathogenic and benign distributions and justify the chosen threshold with reference to clinical sensitivity and specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that RPMDS shows higher specificity in classifying TP53 missense VUS compared to other in silico methods.
+  - **Evidence pointer** Section 2.4, Table 1B, Supplementary Table S4
+  - **Concern** The comparison with 10 other in silico methods is presented only as a summary statement. The actual data, including the number of VUS classified as deleterious by each method, the concordance rates, and the statistical significance of the differences, are not shown. The claim of "highest restriction" (lowest deleterious rate of 56.8%) is presented without context. A lower deleterious rate could indicate higher specificity, but it could also indicate lower sensitivity. Without a reference standard (e.g., experimentally validated variants), the specificity claim cannot be evaluated.
+  - **Why it matters** The central selling point of the method is its improved specificity. If this is not rigorously demonstrated, the advantage over existing tools is not established.
+  - **Resolution test** Provide the full comparison table with per-method classification counts, concordance between methods, and a formal statistical comparison. If possible, validate against a set of variants with experimental functional data to compute sensitivity and specificity directly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that the constructed mutant structures show high reliability based on 99.48% identity with experimentally determined structures for three variants.
+  - **Evidence pointer** Section 2.1
+  - **Concern** The validation of the structure construction method is based on only three variants (G245S, R273C, R273H). This is a very small sample. The choice of these specific variants is not justified, and it is unclear whether they represent the range of structural perturbations expected across all 443 variants. The 99.48% identity metric is also not defined; it is unclear whether this refers to backbone atom RMSD, side-chain placement, or something else.
+  - **Why it matters** The reliability of all downstream structural analyses depends on the quality of the constructed mutant structures. A three-variant validation is insufficient to establish confidence across the full variant set.
+  - **Resolution test** Validate the construction method on a larger, diverse set of TP53 variants with known experimental structures. Report the RMSD values and other relevant metrics for the full validation set. Justify the choice of validation variants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The RPMDS method is described as previously developed, and the current study applies it to all TP53 missense VUS.
+  - **Evidence pointer** Materials and Methods 4.2 and 4.3, reference [13]
+  - **Concern** The Materials and Methods section provides a high-level description of the simulation and analysis protocol, but many parameters are missing. These include the number of independent simulations per variant, the convergence criteria for the 40 ns production run, the specific parameters for the Kernel density estimation (bandwidth, kernel type), and the criteria for defining "significant" density deviation. The manuscript relies heavily on a previous publication for details, but the current study should be self-contained enough for replication.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full parameter disclosure, other groups cannot apply or test the method.
+  - **Resolution test** Provide a complete protocol with all simulation and analysis parameters, either in the main text or as a detailed supplementary methods section. Include information on software versions, force field parameters, and any convergence checks.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that RPMDS addresses a long-standing challenge in classifying TP53 missense VUS.
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The clinical or biological significance of the 193 VUS classified as deleterious is not discussed. Are these variants associated with cancer risk in any patient cohorts? Do they cluster in specific functional regions of the protein? How does this classification compare with the current ClinVar interpretations for these variants? The manuscript does not provide any external validation beyond the 3 reclassified variants.
+  - **Why it matters** For the results to be clinically useful, the classification must be placed in a broader context. Without any external validation or functional correlation, the practical value of the findings is unclear.
+  - **Resolution test** Discuss the 193 deleterious VUS in the context of known TP53 functional domains, cancer association studies, and any available functional data. If possible, compare the RPMDS classification with ClinVar interpretations for a larger set of variants that have been reclassified since the data freeze.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we observed deleterious evidence for 193 VUS" but does not mention the 147 VUS classified as undefined. This could be misleading.
+  - **Required correction** State both numbers explicitly, e.g., "193 of 340 VUS were classified as deleterious, while 147 were classified as undefined."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text mentions a cutoff of 3.158 in one place and 3.312 in another. The relationship between these two values is not explained.
+  - **Required correction** Clarify which value is the final cutoff and how the other is derived or used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The section on "Impact on TP53 local structure" describes five examples but does not provide a systematic analysis of how many VUS cause local versus global structural changes.
+  - **Required correction** Provide a quantitative summary of the types of structural changes observed across all 193 deleterious VUS.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The comparison with other in silico methods is described only in terms of the proportion classified as deleterious. It is unclear whether the other methods were run locally or if published scores were used.
+  - **Required correction** Specify the source of the predictions for the 10 other methods (e.g., dbNSFP, direct submission) and the version/date of the data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2
+  - **Issue** The description of the simulation setup is dense and could benefit from a summary table of key parameters.
+  - **Required correction** Add a table listing force field, water model, simulation time, temperature, pressure coupling, and other key parameters.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cutoff justification), R1-M2 (specificity claim), R1-M3 (structure validation), R1-M4 (reproducibility). These are blocking because the core claims of the manuscript depend on them.
+- **Assessment against Nature-style criteria** Originality: The RPMDS approach is a novel combination of Ramachandran plot analysis and molecular dynamics simulation for variant classification. This is a genuine methodological contribution. Scientific importance: The problem of VUS classification in TP53 is clinically significant. However, the importance of the specific findings is not yet demonstrated due to lack of external validation. Interdisciplinary readership: The work bridges structural biology, computational biology, and clinical genetics. It could appeal to readers in all three fields, but the presentation is currently too specialized for a broad audience. Technical soundness: The technical approach is plausible, but the evidence provided is insufficient to assess its validity. Key statistical and validation details are missing. Readability for nonspecialists: The manuscript is written for a specialist audience. The abstract is accessible, but the results and methods sections assume significant background knowledge. Overall, the manuscript does not currently meet the bar for a high-impact general journal, but it could be suitable for a specialized journal after major revisions.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising concept, but the core claims are not verifiable from the text alone. Major revisions with full data presentation and additional validation are required before the case is convincing.
+
+## Risk / unsupported claims
+- The claim of higher specificity of RPMDS compared to other in silico methods is unsupported without the full comparison data.
+- The claim that 193 VUS are deleterious is based on a cutoff whose statistical justification is not fully described.
+- The validation of mutant structure construction using only three variants is insufficient to support the general reliability claim.
+- The statement that RPMDS "provides a promising new means for missense VUS variant classification" is an extrapolation beyond the evidence presented.
+- The clinical relevance of the findings is not established, as no patient data or functional validation is provided.

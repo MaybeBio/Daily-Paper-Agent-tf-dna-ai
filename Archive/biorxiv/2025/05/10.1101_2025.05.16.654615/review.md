@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures or supplementary materials
+- **Assessment boundary** Scientific claims, experimental logic, methodological adequacy, and interpretation as presented in the text; figure content not directly assessable
+- **Shared manuscript claim summary** The authors propose that transcription factor (TF) chromatin binding and specificity in vivo arise from collective, weak, IDR-mediated interactions scaffolded by transient DBD-DNA contacts, rather than solely from DBD sequence preferences. Using proximity-assisted photoactivation (PAPA), they report that Sp1 and Klf1 IDRs drive self-association and chromatin binding dependent on aromatic and basic residue content, that isolated DBDs bind chromatin poorly, and that heterologous DBD fusions restore interactions.
+- **Visible evidence base** Results text describing PAPA experiments, mutagenesis variants, domain swaps, FRAP, and controls; methods for cell line generation, microscopy, and data analysis
+- **Missing materials affecting confidence** Figures and supplementary figures (referenced as Fig. 1-6, S1-S3) are not provided; numerical data, statistical details, and raw trajectory information are absent; no quantification of chromatin binding or proximity indices beyond qualitative descriptions
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question about the role of IDRs in TF chromatin binding, and the PAPA technique represents a potentially valuable methodological advance. The central observation that isolated DBDs bind chromatin poorly while IDR-DBD fusions restore binding is intriguing and could challenge prevailing models. However, the evidence as presented in text alone is insufficient to fully establish the claims. Key quantitative data, control experiments, and mechanistic details are referenced but not visible, and several logical gaps remain regarding how IDR-mediated interactions translate to genomic specificity. The manuscript is well-written and the conceptual framework is compelling, but the case would be substantially strengthened by direct presentation of the data supporting each major claim.
+- **Who would be interested in the results, and why** Researchers studying transcription factor biology, gene regulation, chromatin structure, and intrinsically disordered proteins. The PAPA methodology will interest biophysicists and cell biologists developing single-molecule approaches. The proposed "emergent specificity" model has broad implications for understanding TF occupancy, developmental gene regulation, and disease mechanisms involving TF mutations.
+- **Major strengths** The study addresses a fundamental paradox in TF biology with a novel technical approach. The PAPA method, if validated, offers a way to measure weak, transient interactions in living cells that have been inaccessible to conventional techniques. The experimental design using endogenous knock-in tags and controlled expression levels is thoughtful. The inclusion of disease-associated mutants and heterologous DBD swaps provides a compelling logic for testing the model's generality.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The isolated DBD of Sp1 binds chromatin very weakly and non-specifically" and "the core Sp1 DBD is insufficient for chromatin binding"
+  - **Evidence pointer** Results section "The Core Sp1 DBD is Insufficient for Chromatin Binding", Fig. 4A-C
+  - **Concern** The central claim that the isolated DBD binds chromatin weakly is presented without visible quantitative data. The text states "very low chromatin association" and "negligible PAPA signal" but no numerical values, effect sizes, or statistical comparisons are provided. The comparison to histone H2B as a negative control is mentioned but the actual data are not shown. Without these data, it is impossible to assess whether the observed signal is truly above background or whether the PAPA assay is sensitive enough to detect weak but biologically relevant DBD-DNA interactions.
+  - **Why it matters** This claim is foundational to the paper's thesis that DBDs are insufficient for chromatin binding. If the isolated DBD actually retains some binding capacity that is below the PAPA detection threshold, the interpretation would shift from "insufficient" to "below detection limit," which has different mechanistic implications.
+  - **Resolution test** Provide the proximity index values, confidence intervals, and statistical tests for isolated DBD versus full-length Sp1 and versus negative controls. Include a sensitivity analysis demonstrating the minimum interaction strength detectable by PAPA under these conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "Weak DBD-DNA contacts concentrate IDRs along chromatin, permitting interactions that otherwise occur infrequently in solution" and "chromatin binding can expose latent interaction potential between IDRs"
+  - **Evidence pointer** Results sections "Weak DNA Binding Concentrates IDRs Along Chromatin" and "Chromatin Binding Facilitates Unstructured Interactions with Heterologous TFs", Fig. 4E, 5D-F
+  - **Concern** The proposed mechanism by which weak DNA binding concentrates IDRs and thereby enables IDR-IDR interactions is plausible but not directly tested. The data show correlations between chromatin binding and IDR interactions, but the causal relationship is inferred. Alternative explanations, such as DNA-induced conformational changes in the IDR or direct IDR-DNA interactions, are not excluded. The claim that "even minimal DNA-binding capacity" enhances IDR interactions is based on a single disease mutant, and the text does not describe how "minimal" binding was quantified or compared across variants.
+  - **Why it matters** The paper proposes a specific mechanistic model, but the evidence supports a correlative rather than causal relationship. Without direct manipulation of the proposed concentrating effect (e.g., tethering IDRs to chromatin independently of DBD-DNA interactions), the model remains speculative.
+  - **Resolution test** Include experiments that decouple DNA binding from IDR concentration, such as tethering IDRs to chromatin via a non-DNA-binding anchor, or varying DNA binding affinity while holding IDR sequence constant. Provide quantitative measurements of local IDR concentration at chromatin versus nucleoplasm.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "IDRs participate in widespread cooperative associations scaffolded by transient DBD-DNA contacts" and "a broad repertoire of unstructured interactions collectively shapes TF occupancy across the genome"
+  - **Evidence pointer** Results section "Chromatin Binding Facilitates Unstructured Interactions with Heterologous TFs", Fig. 6A-B
+  - **Concern** The claim of widespread, genome-scale relevance is based on interactions between Sp1 and six other TFs, plus three RNA-binding protein IDRs. This is a limited sample, and the text does not describe how these TFs were selected or whether they represent a diverse range of IDR properties. The observation that "a range of interactions above background" was detected is vague without quantitative thresholds or a systematic survey.
+  - **Why it matters** The paper's broader implications for TF biology depend on the generality of the phenomenon. If the observed interactions are specific to Sp1 or a subset of TFs, the model's scope would be considerably narrower.
+  - **Resolution test** Expand the panel of TFs tested, include negative controls with IDRs predicted to lack interaction capacity, and provide a quantitative framework for classifying interaction strength. Consider testing TFs with divergent IDR compositions to map the sequence determinants of heterotypic interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** "PAPA is uniquely suited to capture low-affinity, transient interactions that have evaded conventional methods"
+  - **Evidence pointer** Results section "PAPA Detects Weak Unstructured Interactions in Living Cells", Fig. 1A-F
+  - **Concern** The PAPA method is central to the study, but the text does not provide sufficient validation that it specifically reports proximity-dependent interactions rather than artifacts of overexpression, dye behavior, or changes in local concentration. The proximity index normalization to a nuclear SNAPf control is described, but the dynamic range, specificity, and reproducibility of the assay are not quantified. The text mentions "state array analysis" and "slow mobility" but does not explain how these relate to bona fide protein-protein interactions.
+  - **Why it matters** If PAPA reports proximity due to shared chromatin localization rather than direct molecular interactions, the interpretation of "IDR-IDR interactions" would need revision. The distinction between co-localization and interaction is critical for the model.
+  - **Resolution test** Include control experiments with known interacting and non-interacting protein pairs to calibrate the assay. Provide evidence that PAPA signal requires molecular proximity (e.g., distance-dependent controls, competition experiments) and that it is not simply a proxy for chromatin density or local concentration.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "chromatin-bound" population
+  - **Evidence pointer** Results section "PAPA Detects Weak Unstructured Interactions in Living Cells", Fig. 1F
+  - **Issue** The text refers to "the slow mobility characteristic of chromatin-bound proteins" and states "we refer to this population as 'chromatin-bound' for brevity, although we discuss potential caveats to this interpretation in the Discussion." However, the Discussion does not appear to address these caveats in the provided text.
+  - **Required correction** Either add the promised caveat discussion to the Discussion section or remove the reference to it in the Results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Methods section "PAPA-SMT data analysis"
+  - **Issue** The methods describe bootstrap resampling for confidence intervals but do not specify the number of cells, replicates, or how biological versus technical variability was handled. The text states "100 replicates per condition" for bootstrap but does not clarify whether this refers to resampling iterations or independent experiments.
+  - **Required correction** Clarify the experimental design, including number of independent biological replicates, number of cells per condition, and how bootstrap resampling was implemented.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Disease relevance
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of disease-associated mutants (Sp1 and Klf1) is speculative and does not connect the observed co-localization retention to specific disease mechanisms or phenotypes. The statement that "IDR-IDR interactions remain significant and may play a role in their pathology" is not supported by functional data.
+  - **Required correction** Either temper the disease claims or add references to known functional consequences of these mutations that would support the interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Introduction and Discussion
+  - **Issue** The manuscript cites prior studies on IDR-mediated TF behavior but does not clearly articulate how the present findings differ from or extend previous models, particularly those based on in vitro phase separation or synthetic systems.
+  - **Required correction** Add a brief comparison to key prior models and explicitly state what new information the PAPA measurements provide.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for DBD insufficiency), R1-M2 (causal mechanism for IDR concentration), R1-M4 (PAPA validation for interaction specificity)
+- **Assessment against Nature-style criteria** Originality: High. The concept of emergent specificity arising from collective IDR interactions is a novel and potentially field-changing idea. Scientific importance: High. The question of how TFs achieve specificity in vivo is fundamental to gene regulation. Interdisciplinary readership: Moderate. The work bridges biophysics, cell biology, and genomics, but the technical focus on PAPA may limit accessibility. Technical soundness: Currently unassessable from text alone; the methods are described but key validation data are not visible. Readability for nonspecialists: Good. The writing is clear and the conceptual framework is accessible, though some technical terms (e.g., "state array analysis") could benefit from brief explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling and the PAPA approach is potentially transformative, but the current evidence as presented in text is insufficient to fully establish the central claims. The authors should provide quantitative data, additional validation of the method, and direct tests of the proposed mechanism before the case is fully convincing.
+
+## Risk / unsupported claims
+- The claim that "the isolated DBD of Sp1 binds chromatin very weakly and non-specifically" is not supported by visible quantitative data.
+- The claim that "weak DBD-DNA contacts concentrate IDRs along chromatin" is presented as a mechanism but is not directly tested.
+- The claim that "chromatin binding can expose latent interaction potential between IDRs" is inferred from correlative data.
+- The claim that "IDRs participate in widespread cooperative associations" is based on a limited panel of TFs and lacks systematic evidence.
+- The claim that PAPA "is uniquely suited to capture low-affinity, transient interactions" is not validated with control experiments demonstrating specificity.
+- The disease relevance claims for Sp1 and Klf1 mutants are speculative and not supported by functional data.

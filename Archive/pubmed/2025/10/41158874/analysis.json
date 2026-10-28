@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41158874",
+  "title": "Role of intercellular interactions on single cell and population level responses: considerations for multicellular bioreporter design.",
+  "authors": "Lin, Douglas; Martin, Michael",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2025-10-29",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究多细胞生物报告器的细胞间通讯模拟，未涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "INTRODUCTION: Bioreporters are genetically engineered cells that produce detectable responses in the presence of specific analytes, providing a cheap, mass-producible, and accurate method of analyte detection. Most research focuses on the single cell-level, where all engineering is concentrated on the interactions within a single cell. However, intercellular communication is a well-known natural phenomenon that has been associated with sensitive responses to certain chemical stimuli, yet incorporation of intercellular communication into bioreporter design is exceedingly rare and the effect of intercellular signaling on single-cellular and population level responses has not been explicitly characterized before. METHODS: In this work, a multicellular simulator implementing the Gillespie algorithm and compatible with Virtual Cell-designed networks is created and used to demonstrate nuances to multicellular stochastic simulations. The algorithm was used to simulate multiple cells in a reaction network in which a self-promoting and membrane permeable transcription factor also induces production of a cell-bound reporter protein. A proof-of-concept bioreporter that responded to an environmental analyte while leveraging intercellular interactions for signal production was also designed and simulated for 50 s of simulation time. Simulated systems with multiple cells were compared to single-cellular simulations. RESULTS: Simulations for 20 s of simulated time show that while final reporter protein count per cell decreased as cell count increased, aggregate final reporter protein number across all cells significantly increased. Interestingly, 50 s simulations show final reporter protein count per cell significantly increasing as the number of cells increases. Greater number of bioreporter cells resulted in significantly greater amounts of signal protein produced in response to the same amount of starting analyte both on the population level and on the individual cellular level. DISCUSSION: The results show significant differences between the results of multicellular and single cellular simulations, which demonstrates the importance of simulating multiple cells to obtain nuanced results. The amplification of signal protein produced by an increasing number of simulated bioreporter cells indicates great potential for multicellular bioreporter designs to amplify response magnitude and sensitivity on the individual cellular level. These results warrant further research into the application of different simulation algorithms and multicellular bioreporter design and modeling.",
+  "abstract_zh": "引言：生物报告器（bioreporters）是经过基因工程改造的细胞，在特定分析物存在时能产生可检测的响应，提供了一种廉价、可大规模生产且准确的分析物检测方法。大多数研究集中于单细胞水平，所有工程改造都聚焦于单个细胞内的相互作用。然而，细胞间通讯是一种众所周知的自然现象，与对某些化学刺激的敏感响应相关，但将细胞间通讯纳入生物报告器设计极为罕见，且细胞间信号传导对单细胞和群体水平响应的影响此前尚未被明确表征。方法：在本工作中，创建了一个实现Gillespie算法并与Virtual Cell设计的网络兼容的多细胞模拟器，用于展示多细胞随机模拟的细微差别。该算法用于模拟反应网络中的多个细胞，其中一种自我促进且膜通透性的转录因子也诱导细胞结合报告蛋白的产生。还设计了一个概念验证型生物报告器，该报告器响应环境分析物，同时利用细胞间相互作用进行信号产生，并模拟了50秒的模拟时间。将多细胞模拟系统与单细胞模拟进行了比较。结果：20秒模拟时间的结果显示，虽然每个细胞的最终报告蛋白数量随细胞数量增加而减少，但所有细胞中报告蛋白的总体最终数量显著增加。有趣的是，50秒模拟显示，每个细胞的最终报告蛋白数量随细胞数量增加而显著增加。生物报告器细胞数量越多，在相同起始分析物量下，群体水平和单个细胞水平上产生的信号蛋白量均显著增加。讨论：结果表明，多细胞与单细胞模拟结果之间存在显著差异，这凸显了模拟多个细胞以获得细微结果的重要性。由模拟生物报告器细胞数量增加所导致的信号蛋白扩增，表明多细胞生物报告器设计在个体细胞水平上放大响应幅度和灵敏度方面具有巨大潜力。这些结果支持进一步研究不同模拟算法的应用以及多细胞生物报告器的设计与建模。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41158874/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41158874/",
+  "paper_page_path": "papers/pubmed/41158874/index.html"
+}

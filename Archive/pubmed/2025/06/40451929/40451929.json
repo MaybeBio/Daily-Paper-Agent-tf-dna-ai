@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "40451929",
+    "doi": "10.1038/s41598-025-03622-3",
+    "title": "Identification and validation of inflammatory response genes linking chronic kidney disease with coronary artery disease based on bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "Coronary artery disease (CAD) commonly occurs and elevates the risk of cardiovascular events and mortality in chronic kidney disease (CKD) patients. The underlying pathogenesis of CKD-related CAD is believed to be closely linked to inflammatory responses. Here, we explored inflammation-related markers for early diagnosis and management of CAD in CKD patients. Through comprehensive bioinformatics analysis and machine learning techniques, glutamate cysteine ligase modifier subunit (GCLM), nuclear protein 1 (NUPR1), and prostaglandin E receptor 1 (PTGER1) were selected as hub biomarkers. Furthermore, GCLM and NUPR1 were demonstrated significantly upregulated in the two validation cohorts of CKD patients with or without hemodialysis, while the change in PTGER1 was not prominent. Additionally, GCLM and NUPR1 were identified as promising indicators to predict CAD in CKD patients. Our study deciphered the higher predictive genes for CAD associated with CKD that is related to inflammation, which provides novel insights into the diagnosis and therapeutic options.",
+    "keywords": [
+      "Chronic kidney disease",
+      "Coronary artery disease",
+      "Diagnostic markers",
+      "Gene expression",
+      "Inflammation response"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Renal Insufficiency, Chronic/genetics/complications",
+      "*Machine Learning",
+      "*Coronary Artery Disease/genetics/complications",
+      "*Computational Biology/methods",
+      "*Inflammation/genetics",
+      "Male",
+      "Female",
+      "Biomarkers/metabolism",
+      "Middle Aged",
+      "Basic Helix-Loop-Helix Proteins/genetics",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Binhong",
+        "Yang, Xinyue",
+        "Sun, Haoqi",
+        "Cheng, Meijuan",
+        "Jin, Jingjing",
+        "Wu, Yunhui",
+        "An, Qi",
+        "Yan, Kaixing",
+        "Zhang, Shenglei",
+        "Bai, Yaling",
+        "Xu, Jinsheng"
+      ],
+      "short_names": [
+        "Yang B",
+        "Yang X",
+        "Sun H",
+        "Cheng M",
+        "Jin J",
+        "Wu Y",
+        "An Q",
+        "Yan K",
+        "Zhang S",
+        "Bai Y",
+        "Xu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China.",
+        "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China. 46400262@hebmu.edu.cn.",
+        "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China. 46400262@hebmu.edu.cn.",
+        "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China. 46400262@hebmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Binhong",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xinyue",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Haoqi",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Meijuan",
+        "short_name": "Cheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jin, Jingjing",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yunhui",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "An, Qi",
+        "short_name": "An Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Kaixing",
+        "short_name": "Yan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shenglei",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yaling",
+        "short_name": "Bai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jinsheng",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China. 46400262@hebmu.edu.cn.",
+          "Hebei Clinical Research Center for Chronic Kidney Disease, Shijiazhuang, People's Republic of China. 46400262@hebmu.edu.cn.",
+          "Hebei Key Laboratory of Vascular Calcification in Kidney Disease, Shijiazhuang, People's Republic of China. 46400262@hebmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jun 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 03:18",
+    "fetched_at": "2026-09-30 19:19:27"
+  },
+  "links": {
+    "cites": [
+      "41419687",
+      "41309776"
+    ],
+    "refs": [
+      "39959641",
+      "39486671",
+      "39289568",
+      "38242225",
+      "38199392",
+      "37531930",
+      "37264340",
+      "37053284",
+      "36893777",
+      "36300620",
+      "36104509",
+      "35602948",
+      "35447412",
+      "35337344",
+      "33736830",
+      "33720773",
+      "33510144",
+      "32865380",
+      "32835767",
+      "32472526",
+      "31806905",
+      "31582143",
+      "31441146",
+      "31264265",
+      "30846875",
+      "30536907",
+      "29880500",
+      "29855050",
+      "28845751",
+      "26065856",
+      "25697396",
+      "24665821",
+      "23338722",
+      "23024164",
+      "22995213",
+      "22085531",
+      "17600463",
+      "17538953",
+      "17322176",
+      "16424787",
+      "14871424",
+      "10654821",
+      "10592173",
+      "7554196"
+    ],
+    "similar": [
+      "40451929",
+      "39875572",
+      "39427047",
+      "39959641",
+      "24527682",
+      "22806318",
+      "36653875",
+      "39229915",
+      "36923221",
+      "38451044",
+      "25757535",
+      "39953122",
+      "33135066",
+      "39090590",
+      "40383719",
+      "34036426",
+      "20643244",
+      "39827515",
+      "38555242",
+      "29961069",
+      "35934844",
+      "33538236",
+      "39406802",
+      "39957043",
+      "37264340",
+      "35048713",
+      "19962469",
+      "38629070",
+      "19697695",
+      "38618725",
+      "39501130",
+      "38097358",
+      "26557729",
+      "31324360",
+      "37443048",
+      "36280852",
+      "39837280",
+      "40176090",
+      "23338722",
+      "28093874",
+      "30518771",
+      "38863928",
+      "27039166",
+      "26107676",
+      "32727495",
+      "36908149",
+      "38807036",
+      "31655801",
+      "30326477",
+      "32828780",
+      "23208015",
+      "28668952",
+      "34431970",
+      "22460182",
+      "39080630",
+      "38411154",
+      "31792571",
+      "29617004",
+      "30607540",
+      "30830548",
+      "40089748",
+      "24011740",
+      "32069163",
+      "33353159",
+      "26859890",
+      "32182690",
+      "22335251",
+      "37075605",
+      "25749988",
+      "38573982",
+      "39825440",
+      "31036397",
+      "28526542",
+      "29665812",
+      "19939822",
+      "39311944",
+      "29743680",
+      "29191630",
+      "28938241",
+      "29642064",
+      "39694530",
+      "23453439",
+      "31582143",
+      "35757995",
+      "40230189",
+      "28478459",
+      "39818975",
+      "25572020",
+      "36860851",
+      "38037012",
+      "24016493",
+      "32340064",
+      "32870172",
+      "39701045",
+      "24703800",
+      "39799755",
+      "34243599",
+      "35151267",
+      "27406080",
+      "39058890"
+    ],
+    "review": [
+      "40451929",
+      "24527682",
+      "23338722",
+      "28093874",
+      "32828780",
+      "30830548",
+      "29191630",
+      "31582143"
+    ],
+    "pmc": [
+      "12127440"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/chronickidneydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Kidney Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-03622-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40451929/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that erianin (ERI) reverses sorafenib (SOR) resistance in hepatocellular carcinoma (HCC) by targeting STAT3, based on network pharmacology, molecular docking, molecular dynamics simulations, and in vitro experiments in SOR-resistant Huh7(R) cells.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, GEO dataset analysis details, docking scores, simulation parameters, cell viability data, Western blot images, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis that ERI overcomes SOR resistance in HCC via STAT3 inhibition. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the computational and experimental approaches. The claim of STAT3 as the key mediator rests on a chain of bioinformatic prioritization and in vitro correlation, but causal evidence is not demonstrated. The work may be of interest to researchers in HCC therapeutics and natural product pharmacology, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying drug resistance mechanisms in HCC, particularly those focused on kinase inhibitor resistance and STAT3 signaling. Investigators interested in natural product-derived anticancer agents and their repurposing or combination strategies would also find the topic relevant. The network pharmacology approach may appeal to computational biologists working on drug-target prediction.
+- **Major strengths** The study integrates multiple complementary approaches, from database mining to molecular simulations and in vitro validation, which is a reasonable strategy for hypothesis generation. The focus on a clinically relevant problem, SOR resistance in HCC, gives the work translational significance. The identification of a specific molecular candidate, STAT3, provides a clear mechanistic focus.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The abstract claims that STAT3 is the key mediator of ERI's SOR resistance reversal effect and that p-STAT3 inhibition is a potential mechanism for overcoming SOR resistance.
+  - **Evidence pointer** Abstract text, in vitro assays section; location not provided
+  - **Concern** The abstract reports that ERI downregulates the p-STAT3/STAT3 ratio and inhibits proliferation of SOR-resistant cells, but this is correlative evidence. No experiments are described that directly test whether STAT3 inhibition is necessary or sufficient for the observed reversal of resistance, such as STAT3 overexpression, knockdown, or rescue experiments.
+  - **Why it matters** Without causal manipulation of STAT3, the claim that STAT3 is the key mediator is not established. Alternative targets identified in the network pharmacology analysis could equally contribute to the observed effects. The abstract's conclusion overreaches the evidence presented.
+  - **Resolution test** Provide data from experiments where STAT3 is genetically or pharmacologically manipulated in Huh7(R) cells, showing that ERI's effects on proliferation and SOR sensitivity are abrogated or mimicked accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The abstract states that molecular docking and molecular dynamics simulations confirmed strong binding affinity and stability between ERI and STAT3.
+  - **Evidence pointer** Abstract text, molecular docking and dynamics section; location not provided
+  - **Concern** No quantitative results are reported, such as binding free energies, RMSD values, or comparison to a positive control. The term "confirmed" is too strong without numerical data or statistical assessment of simulation stability.
+  - **Why it matters** Binding affinity and stability are quantitative claims. Without specific values and appropriate controls, the reader cannot assess whether the interaction is meaningful or merely a computational artifact. This is particularly important given that network pharmacology predictions often yield many candidate targets.
+  - **Resolution test** Report docking scores, binding free energies from simulations, and stability metrics, with comparison to a known STAT3 inhibitor or a negative control compound.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor
+  - **Claim pointer** The abstract claims that ERI significantly inhibited proliferation of SOR-resistant Huh7(R) cells and synergistically enhanced SOR efficacy.
+  - **Evidence pointer** Abstract text, in vitro assays section; location not provided
+  - **Concern** The abstract does not specify the concentration range of ERI, the assay used, the number of replicates, or the statistical method. The term "synergistically" implies a formal synergy analysis, but no combination index or isobologram data are mentioned.
+  - **Why it matters** Reproducibility and interpretation depend on knowing the experimental conditions and the rigor of the synergy assessment. Without these details, the strength of the in vitro claim cannot be evaluated.
+  - **Resolution test** Provide full experimental details, including dose-response curves, combination index values, and statistical analysis in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Network pharmacology target selection
+  - **Evidence pointer** Abstract text, database section; location not provided
+  - **Issue** The abstract lists three databases for target prediction but does not specify the criteria for selecting intersection genes or the thresholds used for hub gene identification.
+  - **Required correction** Specify the selection criteria and thresholds in the methods section of the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data integration
+  - **Affected element** GEO dataset cross-referencing
+  - **Evidence pointer** Abstract text, GSE94550 mention; location not provided
+  - **Issue** The abstract states that hub genes were cross-referenced with GSE94550 to prioritize STAT3, but the nature of this cross-referencing is unclear, such as whether it involved differential expression analysis or correlation with resistance status.
+  - **Required Correction** Clarify the analytical steps used to integrate the GEO data and how this led to STAT3 prioritization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Cell line relevance
+  - **Affected element** Huh7(R) cell model
+  - **Evidence pointer** Abstract text, in vitro assays section; location not provided
+  - **Issue** The abstract does not describe how SOR resistance was established in Huh7(R) cells or whether resistance was validated, such as through IC50 measurements.
+  - **Required Correction** Describe the resistance induction protocol and provide evidence of resistance in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the causal role of STAT3 and the quantitative validity of the binding claims are not established from the abstract. R1-M3 is important but not blocking if the full manuscript provides adequate experimental detail.
+- **Assessment against Nature-style criteria** Originality: moderate, as the combination of network pharmacology and experimental validation for ERI in SOR-resistant HCC is not entirely novel but may offer a new compound-target pairing. Scientific importance: moderate, as SOR resistance is a real clinical problem, but the abstract does not demonstrate a significant advance over existing knowledge. Interdisciplinary readership: limited, as the work is primarily relevant to HCC researchers and computational pharmacologists. Technical soundness: not assessable from the abstract due to missing quantitative and methodological details. Readability for nonspecialists: the abstract is clear and well-structured, but the lack of specific results reduces its accessibility to a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is reasonable, but the abstract does not provide sufficient evidence to support the causal claim regarding STAT3 or the quantitative validity of the computational findings. A revised manuscript with full experimental details and causal experiments could change this assessment.
+
+## Risk / unsupported claims
+- The claim that STAT3 is the key mediator of ERI's SOR resistance reversal effect is unsupported without causal experiments.
+- The claim that molecular docking and dynamics simulations confirmed strong binding affinity and stability is unsupported without quantitative data.
+- The claim of synergistic enhancement of SOR efficacy by ERI is unsupported without formal synergy analysis.
+- The general statement that ERI is a promising anticancer phytochemical for overcoming SOR resistance is an overreach given the limited in vitro evidence presented.

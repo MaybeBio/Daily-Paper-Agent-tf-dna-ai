@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report selection of a novel cyclic peptide 9R-CP29L from a phage display library, with claimed binding to FOXM1-DBD (Kd 1.25 µM), inhibition of HCCLM3 and MDA-MB-231 cells (IC50 9.0 and 11.1 µM at 24 h), induction of apoptosis and cell cycle arrest, inhibition of proliferation and migration, modulation of related gene expression, and reduction of tumor growth in a xenograft model.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, all experimental figures and tables, statistical analysis details, peptide characterization data, docking parameters, CETSA and ITC raw data, flow cytometry gating, qRT-PCR primer sequences, immunoblot images, and in vivo study design and sample sizes
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting peptide candidate targeting FOXM1, but the evidence as summarized is insufficient to establish the core claims. Several key assertions lack quantitative context, controls, and methodological detail. The work may have therapeutic relevance, but the current abstract does not provide enough information to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in targeted cancer therapy, peptide drug discovery, and FOXM1 biology would be interested. The peptide could serve as a tool compound for studying FOXM1 function and as a lead for anticancer development, appealing to both academic and translational groups.
+- **Major strengths** The abstract addresses a relevant target (FOXM1) with a clear therapeutic rationale. The use of multiple orthogonal assays (docking, CETSA, ITC, immunoblot, flow cytometry, qRT-PCR, in vivo) suggests a comprehensive approach. The reported Kd and IC50 values provide initial quantitative anchors.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity of peptide binding
+  - **Claim pointer** The abstract claims that 9R-CP29L "can potentially specifically bind to FOXM1-DBD" with a Kd of 1.25 µM.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of specific binding is based on docking, CETSA, ITC, and immunoblot, but no data are shown for selectivity against other DBD-containing proteins or unrelated targets. The Kd value alone does not establish specificity.
+  - **Why it matters** Without selectivity data, the peptide could exert effects through off-target interactions, undermining the mechanistic link to FOXM1 and the therapeutic rationale.
+  - **Resolution test** Provide binding assays against a panel of related and unrelated proteins, competitive binding experiments, and a negative control peptide with similar physicochemical properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional causality between FOXM1 binding and observed cellular effects
+  - **Claim pointer** The abstract states that 9R-CP29L reduced FOXM1 expression and induced apoptosis, cell cycle arrest, and inhibition of proliferation and migration in HCCLM3 cells.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not demonstrate that the cellular effects are directly caused by FOXM1 inhibition. No rescue experiments, knockdown or overexpression controls, or FOXM1-specific downstream reporter assays are described.
+  - **Why it matters** Without causal evidence, the observed effects could be due to off-target activities or general cytotoxicity, not FOXM1 targeting.
+  - **Resolution test** Include FOXM1 overexpression or knockdown rescue experiments, measure FOXM1 transcriptional activity directly, and show that a non-binding control peptide lacks these effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and toxicity
+  - **Claim pointer** The abstract claims that 9R-CP29 significantly reduced tumor growth and downregulated FOXM1 in HCCLM3 xenograft nude mouse models.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are provided on dosing regimen, route of administration, number of animals, tumor growth kinetics, body weight changes, or toxicity. The abstract also does not specify whether the peptide reached tumors or whether the effect was FOXM1-dependent.
+  - **Why it matters** In vivo claims require rigorous experimental design and reporting to rule out nonspecific effects and to assess translational potential.
+  - **Resolution test** Provide full in vivo methods, including sample sizes, statistical tests, pharmacokinetic data, histopathology, and a control peptide group.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Peptide characterization and stability
+  - **Claim pointer** The abstract describes 9R-CP29L as a novel peptide selected from a phage display library.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is given on peptide purity, solubility, serum stability, or whether the cyclic structure is maintained under assay conditions. The abstract also does not clarify the role of the 9R modification.
+  - **Why it matters** Peptide stability and structural integrity are critical for interpreting in vitro and in vivo results and for any therapeutic application.
+  - **Resolution test** Provide HPLC and mass spectrometry characterization, serum stability assays, and a discussion of the 9R modification rationale.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** IC50 values
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The IC50 values are reported for 24 h only, and the abstract does not state whether these are from a single experiment or replicates.
+  - **Required correction** Report IC50 values with confidence intervals and specify the number of independent experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Cell line nomenclature
+  - **Affected element** MDA-MB-231 cell line
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract spells the cell line as "MD-MBA-231," which is incorrect.
+  - **Required correction** Correct to "MDA-MB-231."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Gene expression data
+  - **Affected element** qRT-PCR and immunoblot results
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists genes (CMYC, CDC25B, BAX, CASPASE3, MMP2) but does not specify the direction of change or which are upregulated versus downregulated.
+  - **Required correction** Provide a clear summary of expression changes for each gene and link them to the proposed mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** No statistical methods or significance thresholds are mentioned.
+  - **Required correction** Include statistical details in the abstract or refer to the full methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Peptide targeting of FOXM1 is not entirely new, but the specific peptide sequence and cyclic design may offer novelty. The abstract does not clearly differentiate from prior FOXM1 inhibitors.
+  - Scientific importance: Potentially high if FOXM1 is a validated target, but the abstract does not provide evidence of clinical relevance or superiority over existing approaches.
+  - Interdisciplinary readership: The topic bridges oncology, pharmacology, and peptide chemistry, but the abstract is too specialized and lacks broader context for nonspecialists.
+  - Technical soundness: Not assessable from the abstract alone. Key controls, statistical details, and raw data are missing.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with phage display, CETSA, and FOXM1 biology. It is not accessible to a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a promising direction, but the core claims of specific binding, functional causality, and in vivo efficacy require substantial additional data and controls. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- Specific binding to FOXM1-DBD is not supported without selectivity data.
+- Functional causality between FOXM1 binding and cellular effects is not established.
+- In vivo efficacy is not assessable without experimental details.
+- The claim of "potent" anticancer activity is not supported by comparative data or mechanistic depth.
+- The novelty of the peptide is not verifiable without sequence comparison to known FOXM1 inhibitors.

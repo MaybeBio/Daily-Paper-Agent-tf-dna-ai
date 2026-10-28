@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42358976",
+  "title": "Identification of G4-regulated immune-related drug targets for prostate cancer based on G4 screen and machine learning.",
+  "authors": "Ge, Liu; Hou, Yue; Huang, Xuan; Zhang, Jiawei; Yao, Lin; Chen, Saisai; Mao, Likai; Ning, Wei; Liang, Han; Shi, Nini; Yang, ChangBin; Jiang, Dongfang; Shen, Yuanji; Zheng, Bing; Shu, Chuanjun; Zhang, Minhao",
+  "journal": "Frontiers in immunology",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过BG4 ChIP-seq和机器学习识别前列腺癌中G4调控的免疫相关靶基因IKBKB，并涉及转录因子AR/ERG与启动子G4的调控关系，但核心是表观遗传与肿瘤免疫，而非TF-DNA结合机制建模，方法上仅用机器学习筛选和AI辅助肽设计，缺乏三维互作建模或MD模拟。",
+  "abstract": "BACKGROUND: G-quadruplex (G4) structures are important epigenetic regulators and potential therapeutic targets in cancer. However, their role in prostate cancer, particularly in relation to the immune microenvironment, remains poorly understood. METHODS: We performed BG4 ChIP-seq to map genome-wide G4 structures in the prostate cancer cell line C4-2. Bioinformatics analyses integrated G4-associated genes with immune pathway enrichment and machine learning algorithms (LASSO, SVM-RFE, GBM, Naive Bayes, and GLM) to identify hub genes in prostate cancer progression. Clinical data from GTEx, TCGA, and HPA were analyzed for expression and survival. Functional validation included qPCR, CCK-8, colony formation, and wound-healing assays. Druggability was assessed using DrugnomeAI, and AI-assisted peptide design was performed with RFdiffusion and ProteinMPNN. RESULTS: We identified 1,289 prostate cancer-specific G4 structures, predominantly in promoter regions. Machine learning and immune enrichment analysis pinpointed IKBKB as a key hub gene in prostate cancer progression. IKBKB was overexpressed in prostate cancer tissues, correlated with advanced stage and poor prognosis, and was regulated by promoter G4 structures via transcription factors AR and ERG. IKBKB promoted genome instability, tumor stemness, and immune microenvironment remodeling. G4 stabilization increased IKBKB expression and activated the NF-kappaB pathway, enhancing cancer cell viability, proliferation, and migration. Computational screening confirmed IKBKB's druggability and identified potential inhibitors (e.g., Auranofin). AI-assisted design generated peptide inhibitors targeting IKBKB and a CRISPR-dCas9 strategy for G4 disruption. CONCLUSIONS: IKBKB is a G4-regulated, immune-related driver of prostate cancer progression. Its overexpression is linked to NF-kappaB activation, genomic instability, and immune microenvironment alterations. The study proposes two novel therapeutic strategies: G4 disruption at the IKBKB promoter and AI-designed peptide inhibitors. These findings provide a framework for combining epigenetic targeting with immunotherapy in prostate cancer.",
+  "abstract_zh": "背景：G-四链体（G-quadruplex, G4）结构是重要的表观遗传调控因子，也是癌症中的潜在治疗靶点。然而，它们在前列腺癌中的作用，特别是与免疫微环境的关系，仍知之甚少。方法：我们进行了BG4 ChIP-seq，以绘制前列腺癌细胞系C4-2中全基因组的G4结构图谱。生物信息学分析将G4相关基因与免疫通路富集及机器学习算法（LASSO、SVM-RFE、GBM、Naive Bayes和GLM）相结合，以识别前列腺癌进展中的核心基因。来自GTEx、TCGA和HPA的临床数据用于表达和生存分析。功能验证包括qPCR、CCK-8、集落形成和伤口愈合实验。药物可及性通过DrugnomeAI评估，AI辅助肽设计使用RFdiffusion和ProteinMPNN进行。结果：我们识别了1,289个前列腺癌特异性G4结构，主要位于启动子区域。机器学习和免疫富集分析确定IKBKB为前列腺癌进展中的关键核心基因。IKBKB在前列腺癌组织中过表达，与晚期和不良预后相关，并通过转录因子AR和ERG受启动子G4结构调控。IKBKB促进基因组不稳定性、肿瘤干性和免疫微环境重塑。G4稳定化增加IKBKB表达并激活NF-kappaB通路，增强癌细胞活力、增殖和迁移。计算筛选确认了IKBKB的药物可及性，并识别了潜在抑制剂（如Auranofin）。AI辅助设计生成了靶向IKBKB的肽抑制剂，以及用于G4破坏的CRISPR-dCas9策略。结论：IKBKB是G4调控的、免疫相关的前列腺癌进展驱动因子。其过表达与NF-kappaB激活、基因组不稳定性和免疫微环境改变相关。该研究提出了两种新型治疗策略：IKBKB启动子处的G4破坏和AI设计的肽抑制剂。这些发现为前列腺癌中表观遗传靶向与免疫治疗相结合提供了框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42358976/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42358976/",
+  "paper_page_path": "papers/pubmed/42358976/index.html"
+}

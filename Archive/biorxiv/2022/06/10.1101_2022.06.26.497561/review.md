@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a curated dataset of 627,013 unique MHC-II ligands from mass spectrometry, define binding motifs for 88 MHC-II alleles across four species, use X-ray crystallography to reveal a widespread reverse binding mode, develop a machine learning framework for predicting MHC-II binding specificities and ligands, and apply this tool to discover viral and bacterial epitopes using the reverse binding mode.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or data files provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, dataset details, crystallographic coordinates, model architecture and validation metrics, epitope discovery experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially impactful contribution to MHC-II epitope prediction, with a large dataset and a novel biological finding of a reverse binding mode. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the machine learning framework, the statistical robustness of the binding motif analysis, or the experimental validation of the crystallographic and epitope discovery claims. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Immunologists studying T-cell recognition and antigen presentation, computational biologists developing epitope prediction tools, vaccine and immunotherapeutic developers targeting CD4+ T-cell responses, and researchers working on MHC polymorphism across species. The reverse binding mode finding could interest structural biologists and those studying MHC-II peptide presentation mechanisms.
+- **Major strengths** The dataset size (627,013 ligands) is substantial and could enable high-resolution motif characterization. The cross-species scope (human, mouse, cattle, chicken) broadens applicability. The combination of computational prediction with crystallographic validation and functional epitope discovery is a strong integrative approach. The claim of a widespread reverse binding mode, if confirmed, would be a notable advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The machine learning framework "accurately predict[s] binding specificities and ligands of any MHC-II allele."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no details on the model architecture, training and validation data splits, performance metrics (e.g., AUC, precision-recall), or comparison to existing tools. The claim of prediction for "any" allele is particularly strong and requires evidence of generalization to alleles not in the training set, including those with sparse or no ligand data.
+  - **Why it matters** Without demonstrated accuracy and generalization, the central utility of the tool for epitope prediction is unsubstantiated. Overclaiming "any allele" could mislead users if the model fails on unseen alleles.
+  - **Resolution test** Provide in the full manuscript a clear description of the model, cross-validated performance metrics on held-out alleles, and benchmarking against state-of-the-art predictors (e.g., NetMHCIIpan, MixMHC2pred). Show performance stratified by allele data availability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Analysis of these binding specificities combined with X-ray crystallography refined our understanding of the molecular determinants of MHC-II motifs and revealed a widespread reverse binding mode in MHC-II ligands."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states a "widespread" reverse binding mode but provides no quantitative definition of "widespread" (e.g., fraction of ligands, number of alleles) and no crystallographic details (e.g., which alleles, peptide lengths, resolution). The claim of a reverse binding mode is biologically significant and requires structural evidence that is not described.
+  - **Why it matters** A reverse binding mode would challenge conventional models of MHC-II peptide orientation. If the claim is overstated or based on limited structural data, it could misdirect subsequent research. The term "widespread" is ambiguous without supporting statistics.
+  - **Resolution test** In the full manuscript, specify the number and identity of crystallographic structures, the criteria for defining reverse binding, and the frequency of this mode across the ligand dataset. Provide structural figures and statistical analyses supporting the "widespread" claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "We collected and curated a dataset of 627,013 unique MHC-II ligands identified by mass spectrometry."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the data sources, filtering criteria, or how "unique" was defined (e.g., by sequence, by allele, by length). No information is given on quality control, such as false discovery rate thresholds for mass spectrometry identifications or handling of redundant peptides.
+  - **Why it matters** The dataset is the foundation for all downstream analyses. Without clear curation standards, the reliability of binding motifs and model training is uncertain, and reproducibility is compromised.
+  - **Resolution test** Provide a detailed methods section describing data sources (e.g., public databases, in-house experiments), curation steps, and quality metrics. Make the dataset and code publicly available with clear documentation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "precisely determine the binding motifs" is vague; "precisely" is not quantified.
+  - **Required correction** Specify the resolution of motif determination, such as position-specific scoring matrix information content or statistical confidence intervals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Epitope discovery claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "discover and characterize several viral and bacterial epitopes" but does not indicate the number of epitopes, the organisms, or the validation method (e.g., T-cell assays).
+  - **Required correction** Provide counts and validation details in the abstract or indicate where they are presented in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Alternative binding mode"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "alternative" is not defined relative to what is considered the standard binding mode.
+  - **Required correction** Clarify the canonical binding mode and how the reverse mode differs, ideally with a schematic in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model accuracy and generalization), R1-M2 (structural evidence for reverse binding mode), R1-M3 (dataset curation and reproducibility). These are blocking because the abstract's core claims cannot be assessed without the missing details.
+- **Assessment against Nature-style criteria** Originality: The reverse binding mode claim is potentially novel, but its novelty cannot be confirmed without structural details. Scientific importance: High, given the relevance to CD4+ T-cell epitope prediction and cross-species immunology. Interdisciplinary readership: The work bridges immunology, structural biology, and machine learning, which fits a broad audience. Technical soundness: Not assessable from the abstract; the lack of model details and validation metrics is a major gap. Readability for nonspecialists: The abstract is clear and accessible, but the technical claims require more context for non-experts to evaluate.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising, but the blocking concerns on model validation, structural evidence, and dataset curation must be resolved in the full manuscript. I would be supportive if the technical concerns are addressed with rigorous data and methods.
+
+## Risk / unsupported claims
+- The claim of accurate prediction for "any MHC-II allele" is unsupported without evidence of generalization to unseen alleles.
+- The "widespread" reverse binding mode is unsupported without quantitative frequency data and crystallographic details.
+- The dataset of 627,013 unique ligands is unverifiable without curation and quality control descriptions.
+- The discovery of viral and bacterial epitopes is unverifiable without counts, organism identities, and validation methods.

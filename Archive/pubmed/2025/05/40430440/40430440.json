@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "40430440",
+    "doi": "10.3390/ph18050618",
+    "title": "Exploring Therapeutic Potential of Bi-Qi Capsules in Treatment of Gout by Discovering Crucial Drug Targets."
+  },
+  "content": {
+    "abstract": "Objectives: This research aims to explore the therapeutic potential of Bi-Qi capsules in the treatment of gout by identifying crucial drug targets through a multidimensional data analysis strategy. Methods: Bi-Qi capsule drug targets and differentially expressed genes (DEGs) of gout were derived from public databases, such as Swiss Target Prediction, STITCH, and the GEO database. Subsequently, the overlapped targets were analyzed to elucidate the potential therapeutic mechanism and to identify candidate targets of Bi-Qi capsules against gout. Next, Mendelian randomization (MR) analysis was employed to screen and explore the causal relationship between candidate targets and gout. Finally, single-cell RNA sequencing (scRNA-seq), gene set enrichment analysis (GSEA), transcription factor and ceRNA regulatory networks, and molecular docking were performed to validate the role of the crucial targets of Bi-Qi capsules in the treatment of gout. Results: A total of 46 candidate targets were identified, in which KCNA5, PTGS2, and TNF exhibited significant causal relationships with gout (p < 0.05) and were regarded as the crucial targets. Through scRNA-seq and gene labeling, crucial targets were found to be expressed in eighteen cell clusters and eight cell types, which are closely associated with carbohydrate metabolism, nerve conduction, and the innate immunity process. Bi-Qi capsule active compounds such as tanshinone IIA, strychnine, tanshinaldehyde, cryptotanshinone, tumulosic acid, and glycyrrhetic acid exhibit a better binding ability to crucial targets. Conclusions: The results not only elucidate the anti-gout mechanism of Bi-Qi capsules but also provide an insight into multi-target natural medication for metabolic disease treatment, which contributes to guiding the clinical application of Bi-Qi capsules in the future.",
+    "keywords": [
+      "Bi-Qi capsule",
+      "Mendelian randomization",
+      "gout",
+      "network pharmacology",
+      "traditional Chinese medicine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Jing",
+        "Zhang, Yu",
+        "Ren, Rong",
+        "Bu, Ruizhen",
+        "Chen, Liying",
+        "Hou, Juezhuo",
+        "Shang, Dandan",
+        "Liu, Yadong",
+        "Wang, Dan",
+        "Wang, Tao",
+        "Zhou, Hong"
+      ],
+      "short_names": [
+        "Xie J",
+        "Zhang Y",
+        "Ren R",
+        "Bu R",
+        "Chen L",
+        "Hou J",
+        "Shang D",
+        "Liu Y",
+        "Wang D",
+        "Wang T",
+        "Zhou H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Darentang Jingwanhong Pharmaceutical Co., Ltd., 20 Daming Road, Xiqing District, Tianjin 300112, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., Traditional Chinese Pharmacy Research Institute, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+        "Department of Pharmacology, Academy of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, 10 Poyang Lake Road, Jinghai District, Tianjin 301617, China.",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+        "Department of Pharmacology, Academy of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, 10 Poyang Lake Road, Jinghai District, Tianjin 301617, China.",
+        "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+        "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Jing",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Rong",
+        "short_name": "Ren R",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Ruizhen",
+        "short_name": "Bu R",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Darentang Jingwanhong Pharmaceutical Co., Ltd., 20 Daming Road, Xiqing District, Tianjin 300112, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Liying",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China.",
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., Traditional Chinese Pharmacy Research Institute, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Juezhuo",
+        "short_name": "Hou J",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Dandan",
+        "short_name": "Shang D",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yadong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+          "Department of Pharmacology, Academy of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, 10 Poyang Lake Road, Jinghai District, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+          "Department of Pharmacology, Academy of Traditional Chinese Medicine, Tianjin University of Traditional Chinese Medicine, 10 Poyang Lake Road, Jinghai District, Tianjin 301617, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hong",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Pharmaceutical Da Ren Tang Group Co., Ltd., 17 Baidi Road, Nankai District, Tianjin 300193, China.",
+          "Tianjin Key Laboratory of Quality Control in Chinese Medicine, 21 10th Street, Binhai New Area, Tianjin 300457, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2025 Apr 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 06:27",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39284427",
+      "38996590",
+      "38971324",
+      "38707281",
+      "38654576",
+      "38306017",
+      "38029250",
+      "37697373",
+      "37492568",
+      "37325194",
+      "37051231",
+      "36864689",
+      "36787845",
+      "36503361",
+      "36380021",
+      "35916846",
+      "35116032",
+      "35025664",
+      "34907116",
+      "34426474",
+      "33879680",
+      "33862459",
+      "33847919",
+      "33760368",
+      "33737984",
+      "33688928",
+      "33678313",
+      "33150696",
+      "32673967",
+      "32541923",
+      "32437045",
+      "32201015",
+      "31737070",
+      "31582630",
+      "31169353",
+      "30929152",
+      "30755793",
+      "30569602",
+      "30415748",
+      "29904406",
+      "29247151",
+      "29164242",
+      "28939645",
+      "27623350",
+      "27486138",
+      "27112094",
+      "23390957",
+      "20921214",
+      "20872630",
+      "20558268",
+      "20194223",
+      "17660393",
+      "15855049",
+      "15140747",
+      "10891884",
+      "9597150",
+      "9562348",
+      "9473245",
+      "9106433",
+      "1986382"
+    ],
+    "similar": [
+      "40430440",
+      "24161431",
+      "36451451",
+      "38579905",
+      "39654220",
+      "38249960",
+      "37340752",
+      "39284427",
+      "38310567",
+      "37793334",
+      "37852337",
+      "35524416",
+      "36291136",
+      "38151834",
+      "35577160",
+      "39552028",
+      "33243703",
+      "38701256",
+      "39734218",
+      "39925939",
+      "33149752",
+      "34174759",
+      "37990309",
+      "36188543",
+      "25614106",
+      "35672755",
+      "32024508",
+      "38332893",
+      "38114126",
+      "39445158",
+      "35378210",
+      "38027201",
+      "38831441",
+      "35227068",
+      "38770346",
+      "20558268",
+      "37505183",
+      "34675488",
+      "37096878",
+      "38047625",
+      "40347726",
+      "36123941",
+      "40086050",
+      "39780215",
+      "37559532",
+      "38322942",
+      "39874886",
+      "39544234",
+      "40350654",
+      "34955857",
+      "39385934",
+      "37391801",
+      "38984575",
+      "39467906",
+      "34414237",
+      "39765037",
+      "32565312",
+      "36595750",
+      "29540195",
+      "35372072",
+      "40419156",
+      "38448745",
+      "34159207",
+      "32620113",
+      "37666859",
+      "39215202",
+      "36591458",
+      "35347944",
+      "33831468",
+      "40148470",
+      "33645014",
+      "35670824",
+      "37286117",
+      "35813414",
+      "36634726",
+      "33358854",
+      "37802787",
+      "37287284",
+      "36386135",
+      "32082411",
+      "35546462",
+      "39974420",
+      "39067546",
+      "37855355",
+      "32327726",
+      "36267750",
+      "34560213",
+      "39323640",
+      "35295951",
+      "37475086",
+      "39346628",
+      "37469744",
+      "39524998",
+      "37469733",
+      "36604919",
+      "38013385",
+      "35343164",
+      "40255473",
+      "39823480",
+      "39027467"
+    ],
+    "review": [
+      "40430440",
+      "33243703",
+      "33149752",
+      "35347944",
+      "33358854"
+    ],
+    "pmc": [
+      "12114690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph18050618",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40430440/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

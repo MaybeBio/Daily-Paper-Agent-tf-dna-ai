@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "33837387",
+    "doi": "10.1093/bib/bbab101",
+    "title": "SAResNet: self-attention residual network for predicting DNA-protein binding."
+  },
+  "content": {
+    "abstract": "Knowledge of the specificity of DNA-protein binding is crucial for understanding the mechanisms of gene expression, regulation and gene therapy. In recent years, deep-learning-based methods for predicting DNA-protein binding from sequence data have achieved significant success. Nevertheless, the current state-of-the-art computational methods have some drawbacks associated with the use of limited datasets with insufficient experimental data. To address this, we propose a novel transfer learning-based method, termed SAResNet, which combines the self-attention mechanism and residual network structure. More specifically, the attention-driven module captures the position information of the sequence, while the residual network structure guarantees that the high-level features of the binding site can be extracted. Meanwhile, the pre-training strategy used by SAResNet improves the learning ability of the network and accelerates the convergence speed of the network during transfer learning. The performance of SAResNet is extensively tested on 690 datasets from the ChIP-seq experiments with an average AUC of 92.0%, which is 4.4% higher than that of the best state-of-the-art method currently available. When tested on smaller datasets, the predictive performance is more clearly improved. Overall, we demonstrate that the superior performance of DNA-protein binding prediction on DNA sequences can be achieved by combining the attention mechanism and residual structure, and a novel pipeline is accordingly developed. The proposed methodology is generally applicable and can be used to address any other sequence classification problems.",
+    "keywords": [
+      "DNA-protein binding",
+      "bioinformatics",
+      "deep residual network",
+      "self-attention mechanism",
+      "sequence analysis",
+      "transfer learning"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Binding Sites/genetics",
+      "Computational Biology/*methods",
+      "DNA/genetics/*metabolism",
+      "DNA-Binding Proteins/*metabolism",
+      "*Deep Learning",
+      "Humans",
+      "Internet",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "Reproducibility of Results"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Long-Chen",
+        "Liu, Yan",
+        "Song, Jiangning",
+        "Yu, Dong-Jun"
+      ],
+      "short_names": [
+        "Shen LC",
+        "Liu Y",
+        "Song J",
+        "Yu DJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, China.",
+        "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Australia.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Long-Chen",
+        "short_name": "Shen LC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jiangning",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Yu, Dong-Jun",
+        "short_name": "Yu DJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2021 Sep 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/11 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "41634097",
+      "41459449",
+      "41152175",
+      "40365011",
+      "39995900",
+      "39893325",
+      "39757606",
+      "39107889",
+      "39013383",
+      "38830995",
+      "38752857",
+      "38747369",
+      "38701422",
+      "38701417",
+      "38347788",
+      "37508462",
+      "36360189",
+      "36078053",
+      "35649392",
+      "34664074"
+    ],
+    "refs": [
+      "31860715",
+      "31661923",
+      "31598637",
+      "31510640",
+      "31504150",
+      "31146255",
+      "30624619",
+      "30425802",
+      "30323198",
+      "29993783",
+      "29616000",
+      "29425488",
+      "29416743",
+      "29360500",
+      "28427142",
+      "28113908",
+      "28092692",
+      "27307608",
+      "27295650",
+      "27244717",
+      "27153639",
+      "26794315",
+      "26301843",
+      "26213851",
+      "25953851",
+      "25708928",
+      "25033408",
+      "23814189",
+      "23790211",
+      "23788679",
+      "23332764",
+      "23090257",
+      "22955616",
+      "22730465",
+      "19561604",
+      "18042272",
+      "17932917",
+      "15637633",
+      "15131651"
+    ],
+    "similar": [
+      "33837387",
+      "34664074",
+      "38701417",
+      "32960766",
+      "31186519",
+      "34073774",
+      "34929739",
+      "36049552",
+      "36935548",
+      "35652477",
+      "29993783",
+      "38871095",
+      "38733561",
+      "39125714",
+      "39350338",
+      "34226918",
+      "38975896",
+      "38316843",
+      "32936825",
+      "30106688",
+      "30075707",
+      "32770026",
+      "34272562",
+      "28245811",
+      "31634140",
+      "37723425",
+      "29970003",
+      "35055158",
+      "38830995",
+      "34073705",
+      "36748992",
+      "31372637",
+      "34297803",
+      "34534646",
+      "32920048",
+      "35189635",
+      "33822856",
+      "31483777",
+      "36067103",
+      "31262537",
+      "33372147",
+      "29617928",
+      "39304807",
+      "35313247",
+      "34550967",
+      "30808287",
+      "37328639",
+      "29404850",
+      "38097937",
+      "39103447",
+      "38990514",
+      "33952199",
+      "34159204",
+      "34571539",
+      "30866736",
+      "31323239",
+      "33522898",
+      "12101404",
+      "34478704",
+      "33007112",
+      "24448651",
+      "29990046",
+      "33272122",
+      "38705502",
+      "32649756",
+      "34905768",
+      "34533455",
+      "37254080",
+      "32608476",
+      "31513916",
+      "15720719",
+      "37866117",
+      "30442086",
+      "35378437",
+      "30866734",
+      "37750465",
+      "38236675",
+      "32191896",
+      "22312425",
+      "36088549",
+      "30209998",
+      "31714956",
+      "33371891",
+      "38181611",
+      "30405137",
+      "30835229",
+      "31725778",
+      "22461885",
+      "35801442",
+      "38782224",
+      "31847308",
+      "26527718",
+      "31787089",
+      "34962264",
+      "28155662",
+      "33538038",
+      "30323198",
+      "33137083",
+      "18922190",
+      "32344155",
+      "15725347",
+      "31521253",
+      "30598073",
+      "34828296",
+      "33522829",
+      "37459792",
+      "20691397",
+      "32946398",
+      "34459479",
+      "32808039",
+      "35709747",
+      "38460308",
+      "31510705",
+      "38489147",
+      "30577794",
+      "38683331",
+      "38674339",
+      "38713679",
+      "39244557",
+      "39076052",
+      "39407104",
+      "38927611",
+      "35181656",
+      "38732207",
+      "38349057",
+      "38625412",
+      "38683133",
+      "39097179",
+      "38375921",
+      "38928078",
+      "38630609",
+      "32689927",
+      "36251904",
+      "39285318",
+      "36653447",
+      "38886381",
+      "35618814",
+      "38754407",
+      "38796529",
+      "27497616"
+    ],
+    "review": [
+      "33837387",
+      "35652477"
+    ],
+    "pmc": [
+      "8579196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33837387.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33837387/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33837387",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33837387",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab101",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

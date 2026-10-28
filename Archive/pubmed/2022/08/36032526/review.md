@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, methods summary, results, discussion, and conclusions. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with claims. No assessment of language polish or formatting beyond scientific clarity.
+- **Shared manuscript claim summary** The authors use a combination of classical MD, SMD, SOMs, and TRFDA to characterize the dissociation pathways of the p300 Taz2-p53 TAD2 complex. They report two distinct unbinding pathways with different probabilities, identify key residues and non-native interactions that modulate dissociation, and propose that the binding mode is governed primarily by the Taz2 binding site based on a comparative analysis of eight Taz2-containing complexes.
+- **Visible evidence base** Main text figures (Figures 1–6), tables referenced (Table S1), and methods summary. Supplementary figures and detailed methods are not available for review.
+- **Missing materials affecting confidence** Supplementary Information (detailed simulation parameters, convergence checks, SOM training details, TRFDA methodology, all supplementary figures including Figures S1–S16, Table S1), force field validation data, and raw trajectory analysis outputs. These are essential for verifying technical soundness and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a biologically relevant and technically challenging question: the atomistic dissociation mechanisms of a complex involving an intrinsically disordered protein. The combination of SMD with SOMs and TRFDA is a sophisticated and appropriate approach to extract pathways and key residues from a large ensemble of nonequilibrium trajectories. The identification of two dominant dissociation pathways and the residue-level analysis of their differences are potentially valuable contributions. However, the current evidence base is insufficient to fully establish the robustness of the pathway classification, the statistical significance of the residue-level claims, and the generality of the proposed binding principle. Several technical details, particularly regarding SMD protocol, force calibration, sampling convergence, and the comparative structural analysis, require clarification or additional data before the central claims can be considered fully supported.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those studying protein-protein interactions involving intrinsically disordered proteins, will find the methodological pipeline and pathway analysis of interest. The study also speaks to the experimental community working on p53-p300/CBP regulation, as it provides mechanistic hypotheses about dissociation that could be tested by single-molecule force spectroscopy or mutagenesis. The proposed common binding principle for Taz2-containing complexes may attract those studying transcriptional coactivator specificity.
+- **Major strengths**
+  1. The use of a multi-method computational pipeline (MD, SMD, SOM, TRFDA) is well-suited to the problem and represents a methodological advance over simpler analyses.
+  2. The identification of two distinct dissociation pathways with different probabilities is a clear and testable finding.
+  3. The residue-level analysis linking high-force states to specific electrostatic and hydrophobic interactions provides mechanistic detail that goes beyond previous work.
+  4. The comparative analysis of eight Taz2 complexes is a useful step toward generalizing the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that two distinct dissociation pathways were identified with different probabilities (36 events in pathway 2, 14 in pathway 1).
+  - **Evidence pointer** Results section "Dissociation can Start at Either the N- or C- Terminus of p53 TAD2", Figures 1 and 2, Supplementary Figures S2–S5
+  - **Concern** The classification of 50 SMD trajectories into two discrete pathways relies on the SOM clustering of Cβ-Cβ distance vectors. The manuscript does not provide sufficient detail on how the SOM was trained, how the number of clusters (10) was determined, how the assignment of trajectories to pathways was performed, or how robust this assignment is to SOM initialization and training parameters. The claim of two distinct pathways with a specific probability ratio (36:14) requires a demonstration that this is not an artifact of the clustering method or of the specific pulling protocol. Without convergence analysis or a sensitivity analysis of the clustering, the pathway classification is not fully established.
+  - **Why it matters** The central claim of the paper is the existence of two distinct dissociation pathways. If the classification is not robust, the subsequent residue-level analysis and the comparison between pathways lose their foundation.
+  - **Resolution test** Provide a detailed description of the SOM training and clustering procedure, including the number of training cycles, the learning rate schedule, and the method for determining the number of clusters. Show that the pathway assignment is stable across multiple SOM initializations and across different choices of input features (e.g., different residue subsets or distance metrics). Report the silhouette score or similar cluster validity metrics. If possible, show that the two pathways are also distinguishable by other order parameters (e.g., contact maps, hydrogen bond patterns) independent of the SOM.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TRFDA results reveal key residues that play critical roles in each pathway, including specific pairwise interactions such as K1760-D57 in pathway 1 and H1795-Q38 in pathway 2.
+  - **Evidence pointer** Results section "Critical Residues and Interactions along the Two Pathways", Figures 4 and 5, Table S1, Supplementary Figures S12–S14
+  - **Concern** The TRFDA methodology is described only briefly, and the manuscript does not provide the necessary details to assess the statistical significance of the reported residue-level stresses. Specifically, it is unclear how the punctual stress is averaged over the 50 trajectories, how the variability across trajectories is quantified, and whether the differences in stress between residues or between pathways are statistically significant. The claim that certain residues "play critical roles" requires a threshold or statistical test to distinguish genuine signals from noise. Additionally, the selection of residues for per-residue TRFDA (Table S1) appears to be based on the same data used to identify them, which introduces a circularity that needs to be addressed.
+  - **Why it matters** The residue-level claims are the mechanistic core of the paper. If the TRFDA analysis does not have a well-defined statistical basis, the specific interactions highlighted may not be reproducible or may not be specific to the proposed pathways.
+  - **Resolution test** Provide a detailed description of the TRFDA methodology, including how punctual stress is calculated, how it is averaged, and how significance is assessed. Report the standard deviation or confidence intervals for the stress values shown in Figure 4. Use a holdout or cross-validation approach to demonstrate that the key residues identified in one subset of trajectories are also identified in an independent subset. Provide a statistical comparison of stress values between pathways for the same residue.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the binding of the Taz2-TAD2 complex is mainly governed by the binding site of Taz2, based on a comparison of eight Taz2-containing complexes.
+  - **Evidence pointer** Results section "Binding Mode of Complexes Involving Taz2", Figure 6, Supplementary Figure S15
+  - **Concern** The comparative analysis of eight complexes is presented as evidence for a common binding principle. However, the manuscript does not provide the contact map analysis details, such as the distance cutoff used, the residue selection criteria, or how the "three main regions" of Taz2 were defined. The claim that the binding is "mainly governed" by Taz2 is a strong statement that requires a quantitative comparison of the contact patterns across the eight complexes, including a measure of similarity or variability. The authors also do not discuss how differences in TAD sequence length, phosphorylation state, or binding affinity across the eight complexes might affect the comparison.
+  - **Why it matters** The generality of the proposed binding principle is a key conclusion of the paper. If the comparative analysis is not rigorous, the claim that Taz2 determines the binding mode is not well supported.
+  - **Resolution test** Provide the full contact map analysis methodology, including the distance cutoff, the residue selection, and the definition of the three binding regions. Show a quantitative comparison of the contact maps across the eight complexes, such as a similarity matrix or a statistical test for common contacts. Discuss how the variability in TAD sequences and post-translational modifications across the complexes is accounted for in the analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the unfolding of the TAD2 α-helix and the unbinding of the complex occur simultaneously, and that non-native contacts formed during dissociation partially compensate for the energy loss from breaking native contacts.
+  - **Evidence pointer** Results section "Unbinding Process was Accompanied by the Unfolding of the p53 TAD2 α-Helix", Figure 3, Supplementary Figures S9–S11
+  - **Concern** The claim of simultaneity between helix unfolding and unbinding is based on correlating RMSD, SASA, and helical fraction along the pulling coordinate. However, the manuscript does not provide a quantitative measure of the temporal relationship between these events. The claim that non-native contacts "partially compensate" for energy loss is not supported by any energetic analysis, such as per-residue interaction energies or free energy decomposition. These are qualitative statements that need quantitative backing.
+  - **Why it matters** These claims are presented as mechanistic insights, but without quantitative support they remain speculative. The energy compensation claim, in particular, is important for understanding the dissociation mechanism and requires an energetic analysis to be credible.
+  - **Resolution test** Provide a quantitative analysis of the temporal ordering of helix unfolding and unbinding, such as a time-lagged correlation or a transition state analysis. Perform an energetic decomposition of the interaction energies between Taz2 and TAD2 along the dissociation pathways to quantify the contribution of non-native contacts to the overall energy balance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, "Classical all-atom molecular dynamics (MD) simulations were carried out for two systems..."
+  - **Issue** The methods section states that the combined simulation time is 18 μs, but it is not clear how this time is distributed between the two systems (isolated TAD2 and the complex). Additionally, the number of replicas for the classical MD simulations is not stated.
+  - **Required correction** Specify the number of replicas and the simulation time for each system separately. Provide the total simulation time for the classical MD and SMD simulations separately.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, "SMD simulations were carried out to investigate the unbinding behavior..."
+  - **Issue** The SMD protocol is described only briefly. The pulling velocity, spring constant, and the atoms or groups to which the force was applied are not specified in the main text.
+  - **Required correction** Provide the SMD parameters in the main text or refer explicitly to the Supporting Information section where these details are given.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Critical Residues and Interactions along the Two Pathways"
+  - **Evidence pointer** Figure 4 and associated text
+  - **Issue** The color scale and units for the punctual stress in Figure 4 are not described in the figure legend or the text. It is unclear what the numerical values represent.
+  - **Required correction** Add a clear description of the color scale, units, and the physical meaning of the punctual stress values in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Binding Mode of Complexes Involving Taz2"
+  - **Evidence pointer** Figure 6 and associated text
+  - **Issue** The figure legend for Figure 6 does not specify which complex is shown in each panel (C–J). The text refers to eight complexes but does not list them explicitly in the main text.
+  - **Required correction** List the eight complexes and their PDB IDs in the main text or figure legend. Ensure each panel in Figure 6 is clearly labeled with the corresponding complex.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, "The experimental structures of eight complexes involving Taz2 and TAD from different proteins..."
+  - **Issue** The contact map analysis is described in one sentence. The distance cutoff, the residue selection, and the normalization procedure are not specified.
+  - **Required correction** Provide the contact map analysis parameters in the main text or refer explicitly to the Supporting Information.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of robustness analysis for SOM-based pathway classification.
+  - R1-M2: Lack of statistical significance testing for TRFDA residue-level claims.
+  - R1-M3: Insufficient methodological detail for the comparative contact map analysis.
+  - R1-M4: Quantitative support missing for the simultaneity and energy compensation claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of TRFDA to SMD trajectories of an IDP-containing complex is a novel methodological combination. The identification of two distinct dissociation pathways with residue-level detail is a new contribution to the understanding of p300-p53 interactions. However, the conceptual framework of IDP binding plasticity is well established, and the originality lies primarily in the specific system and the methodological integration.
+  - **Scientific importance** The p300-p53 interaction is of significant biological and clinical relevance. Understanding the dissociation mechanisms at atomic resolution could inform drug design and provide general principles for IDP interactions. The potential importance is high, but it is contingent on the robustness of the findings.
+  - **Interdisciplinary readership** The work bridges computational biophysics, structural biology, and cancer biology. The methods are of interest to the biophysics community, and the biological implications are relevant to the signaling and cancer fields. The manuscript is written in a way that is largely accessible to these communities, though some methodological details are dense.
+  - **Technical soundness** The technical approach is appropriate and sophisticated, but the current evidence base is insufficient to fully assess its soundness. Key methodological details are missing, and the statistical robustness of the central claims is not demonstrated. This is the primary weakness of the manuscript.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results section is more technical and may be challenging for nonspecialists, but the figures and the summary statements help. The discussion does a good job of contextualizing the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a sophisticated approach, and the findings are potentially valuable. However, the central claims of pathway identification and residue-level mechanisms are not fully established from the provided evidence. The authors must provide the missing methodological details, robustness analyses, and statistical support to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that two distinct dissociation pathways exist with a specific probability ratio (36:14) is not fully supported without a robustness analysis of the SOM-based classification.
+- The claim that specific residues "play critical roles" in each pathway is not supported without statistical significance testing of the TRFDA results.
+- The claim that non-native contacts "partially compensate" for the energy loss from breaking native contacts is unsupported by any energetic analysis.
+- The claim that the binding of the Taz2-TAD2 complex is "mainly governed" by the Taz2 binding site is not quantitatively supported by the comparative contact map analysis.
+- The claim that the unfolding of the TAD2 α-helix and the unbinding of the complex occur simultaneously is not quantitatively established.

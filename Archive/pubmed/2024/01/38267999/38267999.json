@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "38267999",
+    "doi": "10.1186/s13014-024-02405-w",
+    "title": "Monte Carlo simulation of the Varian TrueBeam flattened-filtered beams using a surrogate geometry in PRIMO."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Monte Carlo simulation of radiation transport for medical linear accelerators (linacs) requires accurate knowledge of the geometrical description of the linac head. Since the geometry of Varian TrueBeam machines has not been disclosed, the manufacturer distributes phase-space files of the linac patient-independent part to allow researchers to compute absorbed dose distributions using the Monte Carlo method. This approach limits the possibility of achieving an arbitrarily small statistical uncertainty. This work investigates the use of the geometry of the Varian Clinac 2100, which is included in the Monte Carlo system PRIMO, as a surrogate. METHODS: Energy, radial and angular distributions extracted from the TrueBeam phase space files published by the manufacturer and from phase spaces tallied with PRIMO for the Clinac 2100 were compared for the 6, 8, 10 and 15 MV flattened-filtered beams. Dose distributions in water computed for the two sets of PSFs were compared with the Varian Representative Beam Data (RBD) for square fields with sides ranging from 3 to 30 cm. Output factors were calculated for square fields with sides ranging from 2 to 40 cm. RESULTS: Excellent agreement with the RBD was obtained for the simulations that employed the phase spaces distributed by Varian as well as for those that used the surrogate geometry, reaching in both cases Gamma ([Formula: see text], 2 mm) pass rates larger than [Formula: see text], except for the 15 MV surrogate. This result supports previous investigations that suggest a change in the material composition of the TrueBeam 15 MV flattening filter. In order to get the said agreement, PRIMO simulations were run using enlarged transport parameters to compensate the discrepancies between the actual and surrogate geometries. CONCLUSIONS: This work sustains the claim that the simulation of the 6, 8 and 10 MV flattening-filtered beams of the TrueBeam linac can be performed using the Clinac 2100 model of PRIMO without significant loss of accuracy.",
+    "keywords": [
+      "Linear accelerator",
+      "Monte Carlo",
+      "PRIMO",
+      "Phase space"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Monte Carlo Method",
+      "Computer Simulation",
+      "Gamma Rays",
+      "*Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rodriguez, Miguel",
+        "Sempau, Josep",
+        "Brualla, Lorenzo"
+      ],
+      "short_names": [
+        "Rodriguez M",
+        "Sempau J",
+        "Brualla L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hospital Paitilla, Calle 53 y ave Balboa, Panama, Panama.",
+        "Instituto de Investigaciones Cientificas y Servicios de Alta Tecnologia-AIP (INDICASAT-AIP), Ciudad del Saber, Edificio 219, Panama, Panama.",
+        "Department of Physics, Universitat Politecnica de Catalunya, Diagonal 647, 08028, Barcelona, Spain.",
+        "Institut de Tecniques Energetiques, Universitat Politecnica de Catalunya, Diagonal 647, 08028, Barcelona, Spain.",
+        "Centros de Investigacion Biomedica en Red en Bioingenieria, Biomateriales y Nanomedicina (CIBER-BBN), Diagonal 647, 28029, Madrid, Spain.",
+        "Westdeutsches Protonentherapiezentrum Essen (WPE), Hufelandstrasse 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de.",
+        "West German Cancer Center (WTZ), Hufelandstrasse 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de.",
+        "Medizinische Fakultat, Universitat Duisburg-Essen, Hufelandstrasse 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de.",
+        "German Cancer Consortium DKTK, Hufelandstrasse 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rodriguez, Miguel",
+        "short_name": "Rodriguez M",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital Paitilla, Calle 53 y ave Balboa, Panamá, Panama.",
+          "Instituto de Investigaciones Científicas y Servicios de Alta Tecnología-AIP (INDICASAT-AIP), Ciudad del Saber, Edificio 219, Panamá, Panama."
+        ]
+      },
+      {
+        "full_name": "Sempau, Josep",
+        "short_name": "Sempau J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Universitat Politècnica de Catalunya, Diagonal 647, 08028, Barcelona, Spain.",
+          "Institut de Tècniques Energètiques, Universitat Politècnica de Catalunya, Diagonal 647, 08028, Barcelona, Spain.",
+          "Centros de Investigación Biomédica en Red en Bioingeniería, Biomateriales y Nanomedicina (CIBER-BBN), Diagonal 647, 28029, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Brualla, Lorenzo",
+        "short_name": "Brualla L",
+        "identifiers": [],
+        "affiliations": [
+          "Westdeutsches Protonentherapiezentrum Essen (WPE), Hufelandstraße 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de.",
+          "West German Cancer Center (WTZ), Hufelandstraße 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de.",
+          "Medizinische Fakultät, Universität Duisburg-Essen, Hufelandstraße 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de.",
+          "German Cancer Consortium DKTK, Hufelandstraße 55, 45147, Essen, Germany. lorenzo.brualla@uni-duisburg-essen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Radiation oncology (London, England)"
+    ],
+    "journal_abbrev": [
+      "Radiat Oncol"
+    ],
+    "pub_date": "2024 Jan 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/25 00:42",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "31014356",
+      "30591056",
+      "26127040",
+      "25984796",
+      "24005581",
+      "23318395",
+      "22538321",
+      "21858999",
+      "20348609",
+      "16825747",
+      "11324958",
+      "10958194",
+      "9608475"
+    ],
+    "similar": [
+      "38267999",
+      "25984796",
+      "30086767",
+      "24784373",
+      "36037748",
+      "28517461",
+      "31920464",
+      "31906977",
+      "30368838",
+      "28261817",
+      "26921246",
+      "26632043",
+      "23387730",
+      "24892341",
+      "24005581",
+      "21858999",
+      "33715167",
+      "25979034",
+      "30634994",
+      "29553478",
+      "24487824",
+      "24694131",
+      "31791355",
+      "35875147",
+      "24506610",
+      "29205177",
+      "29772081",
+      "16696460",
+      "35986907",
+      "24662096",
+      "37795225",
+      "28517489",
+      "29996873",
+      "32175615",
+      "27167266",
+      "32324289",
+      "27277038",
+      "12945965",
+      "33134221",
+      "30591056",
+      "34187495",
+      "22047353",
+      "28300376",
+      "19141879",
+      "30521073",
+      "28517442",
+      "17500452",
+      "31014356",
+      "14703163",
+      "31515039",
+      "35138686",
+      "9869026",
+      "23318395",
+      "26219015",
+      "33813187",
+      "22559616",
+      "11996053",
+      "25295381",
+      "28517518",
+      "32355432",
+      "24506605",
+      "30207987",
+      "21361187",
+      "17616465",
+      "32235369",
+      "12722809",
+      "30589941",
+      "21776771",
+      "16675869",
+      "37122235",
+      "28517474",
+      "31995531",
+      "37469244",
+      "36384637",
+      "10535630",
+      "26625800",
+      "24621422",
+      "20601775",
+      "29896876",
+      "36604950",
+      "22225273",
+      "9119676",
+      "35699201",
+      "23127092",
+      "23039685",
+      "36758237",
+      "29413849",
+      "29764449",
+      "11439490",
+      "31576064",
+      "21233098",
+      "28393372",
+      "26127040",
+      "36657172",
+      "19190359",
+      "10659756",
+      "31544350",
+      "28269538",
+      "22755709",
+      "18716583"
+    ],
+    "review": [
+      "38267999"
+    ],
+    "pmc": [
+      "10809682"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ro-journal.biomedcentral.com/articles/10.1186/s13014-024-02405-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38267999/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38267999",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

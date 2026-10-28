@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors report that human BRCA1 protein binds two distinct human telomeric G-quadruplex (hTeloG4) conformations, a (3+1) hybrid and a basket-type antiparallel form, with approximately 2-fold higher affinity for the hybrid form. They further report that oxidative stress, modeled by guanine oxidation, reduces BRCA1 binding to both conformations. Molecular modeling and docking are used to propose conformation-selective interaction interfaces. The authors suggest a mechanistic link between BRCA1-mediated telomere regulation and conformation-guided G4 recognition.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methods are available for inspection
+- **Missing materials affecting confidence** Full methods, experimental binding data (e.g., dissociation constants, error bars, replicates), oxidative stress conditions and controls, molecular modeling parameters, docking scores, validation of the modeled interfaces, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that BRCA1 discriminates between two hTeloG4 conformations in a stability-dependent manner, with implications for telomere biology under oxidative stress. However, the evidence base is limited to the abstract, and several claims cannot be evaluated without the underlying data. The central claim of conformation-dependent recognition is plausible but not established from the supplied material. The oxidative stress result is intriguing but lacks mechanistic detail. The modeling and docking analyses are described only superficially, and their reliability cannot be assessed. The manuscript may be of interest to researchers in DNA structure recognition, G-quadruplex biology, and BRCA1 function, but the current evidence is insufficient to support the broader mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers studying G-quadruplex biology, DNA damage repair, telomere maintenance, and BRCA1 function would find these results relevant. The proposed conformation-selective recognition of telomeric G4s by BRCA1 could inform models of BRCA1's role in genome stability and telomere regulation, and the oxidative stress component may interest those investigating redox-dependent DNA-protein interactions.
+- **Major strengths** The study addresses a specific and under-explored question, namely how BRCA1 distinguishes between different G4 conformations. The use of two well-defined hTeloG4 conformations is a reasonable approach. The inclusion of oxidative stress as a variable adds a physiologically relevant dimension. The combination of binding assays with molecular modeling is a sensible strategy to link affinity differences to structural interfaces.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "BRCA1 protein exhibited nearly 2-fold higher affinity for the hybrid hTeloG4 than the antiparallel conformation, indicating conformation-dependent recognition guided by G4 stability."
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The claim of a 2-fold affinity difference is presented without any quantitative data, such as binding constants, error estimates, or replicate numbers. The phrase "guided by G4 stability" implies a causal relationship between thermodynamic stability of the G4 conformations and BRCA1 binding, but no stability measurements are reported in the abstract.
+  - **Why it matters** Without quantitative binding data and stability measurements, the reader cannot assess whether the 2-fold difference is statistically significant or biologically meaningful. The causal link to G4 stability is an interpretation that requires direct evidence, such as comparative stability assays under the same conditions.
+  - **Resolution test** Provide binding affinities with standard errors and replicate counts for both conformations, and include stability measurements (e.g., melting temperatures or free energy values) for the two G4 structures under identical buffer conditions. Demonstrate a statistically significant correlation between stability and binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "under oxidative stress, which compromises G4 integrity due to guanine oxidation, BRCA1's binding affinity for both conformations reduced significantly."
+  - **Evidence pointer** Abstract only; oxidative stress conditions not described
+  - **Concern** The abstract states that oxidative stress reduces binding affinity but does not specify how oxidative stress was induced, which guanine residues were oxidized, or whether the G4 structures remained intact under these conditions. The phrase "compromises G4 integrity" is assumed rather than demonstrated.
+  - **Why it matters** Oxidative damage to G4s can lead to structural disruption or unfolding, which would trivially reduce protein binding. Without evidence that the G4 conformations are preserved but altered in a specific way, the result may reflect nonspecific destabilization rather than a targeted effect on BRCA1 recognition.
+  - **Resolution test** Describe the oxidation protocol, characterize the oxidized G4 species (e.g., by CD or NMR), and show that the conformations remain folded under the oxidative conditions used. Provide binding data with appropriate controls, such as a non-oxidizable G4 variant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular modeling and docking analyses highlighted distinct conformation-selective interaction interfaces between BRCA1 and hTeloG4."
+  - **Evidence pointer** Abstract only; no modeling details or docking scores provided
+  - **Concern** The modeling and docking results are described in a single sentence without any methodological detail. It is unclear what structural models were used, whether the BRCA1 domain was full-length or a fragment, how the G4 structures were generated, and what scoring functions or validation steps were applied.
+  - **Why it matters** Docking studies are highly sensitive to input structures and scoring methods. Without details on the modeling protocol and validation, the proposed interaction interfaces cannot be evaluated for reliability or biological relevance.
+  - **Resolution test** Provide a full description of the modeling workflow, including starting structures, force fields, docking software, scoring metrics, and any validation against experimental data. Show that the proposed interfaces are consistent with the binding affinity differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "recognizes noncanonical DNA structures orchestrating DNA damage repair" is ambiguous; it is unclear whether BRCA1 orchestrates repair or the structures do.
+  - **Required correction** Rephrase to clarify the subject, for example, "BRCA1 recognizes noncanonical DNA structures and orchestrates DNA damage repair."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mechanistic interpretation
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The suggested "mechanistic link between BRCA1-mediated telomere regulation" is not elaborated. The abstract does not explain how conformation-selective binding would translate to telomere regulation.
+  - **Required correction** Add a sentence specifying the proposed mechanism, such as how differential binding might affect telomere capping, repair recruitment, or replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract, binding experiments
+  - **Issue** The buffer conditions, temperature, and protein construct used for binding assays are not stated.
+  - **Required correction** Include key experimental conditions in the abstract or refer to methods for full details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of conformation-dependent affinity, oxidative stress effects, and distinct interaction interfaces all require quantitative data and methodological detail that are not present in the abstract.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of conformation-selective G4 recognition by BRCA1 is a reasonable extension of existing work on BRCA1-G4 interactions, but the abstract does not demonstrate a conceptual advance beyond prior studies.  
+  - Scientific importance: If fully supported, the findings could contribute to understanding BRCA1's role in telomere maintenance and oxidative stress responses, which is of moderate importance to the field.  
+  - Interdisciplinary readership: The topic bridges structural biology, DNA repair, and telomere biology, which could attract a broad readership, but the abstract is too brief to convey the interdisciplinary significance.  
+  - Technical soundness: Not assessable from the abstract; the lack of methodological detail prevents evaluation of the binding assays and modeling.  
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "(3+1) hybrid" and "basket-type antiparallel" may be opaque to nonspecialists without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and preliminary results, but the absence of quantitative data, experimental details, and modeling validation means the claims cannot be verified. The manuscript may become supportive if the full data address the concerns raised.
+
+## Risk / unsupported claims
+- The 2-fold affinity difference between hybrid and antiparallel hTeloG4 is unsupported without quantitative binding data.
+- The claim that recognition is "guided by G4 stability" is unsupported without stability measurements.
+- The reduction in binding under oxidative stress is unsupported without details on the oxidation protocol and evidence that G4 integrity is specifically compromised.
+- The distinct interaction interfaces from modeling and docking are unsupported without methodological details and validation.
+- The suggested mechanistic link to BRCA1-mediated telomere regulation is speculative and not supported by the abstract.

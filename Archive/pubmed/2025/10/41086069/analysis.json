@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41086069",
+  "title": "EAP-LSTM: A Bi-LSTM-Based Deep Learning Framework for Quantitatively Predicting Enhancer Activity in Drosophila and Human Cell Lines.",
+  "authors": "Zhang, Yao; Dai, Lichang; Dou, Yu; Li, Xin; Lu, Chang; Wu, Hao",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2025-10-14",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Bi-LSTM预测增强子活性，虽涉及TFBS基序分析，但核心是增强子活性定量预测而非TF-DNA结合互作建模，方法可迁移但对象和互作轴偏弱。",
+  "abstract": "Enhancer activity plays a critical role in gene regulation, influencing various biological processes such as development and disease progression. Accurate prediction of enhancer activity is essential for understanding the mechanisms underlying gene regulation and enhancer function. This study introduces a novel deep learning framework, EAP-LSTM (Enhancer Activity Prediction based on Bi-LSTM), to quantitatively predict enhancer activity across different species and cell lines. The model integrates multiple feature modules, including Word2Vec-based representations of DNA sequences, reverse complement k-mer, mismatch k-mer features, and epigenomic data. Evaluated on six cell lines, including five human cell lines (A549, HCT116, HepG2, K562, and MCF-7) and one Drosophila cell line (S2), EAP-LSTM consistently outperforms state-of-the-art models, such as DeepSTARR and HEAP, in all datasets. For example, on the K562 dataset, EAP-LSTM achieves a Pearson correlation coefficient (PCC) of 0.7944, outperforming DeepSTARR and HEAP by 13.65% and 2.73%, respectively. In addition, EAP-LSTM demonstrates strong performance in small-sample learning scenarios, showing clear improvements compared with baseline models. Furthermore, the study investigates the role of transcription factor binding sites (TFBSs) within enhancer regions, identifying critical motifs associated with enhancer activity. These findings not only improve enhancer prediction accuracy but also provide valuable insights into the molecular mechanisms underlying enhancer function.",
+  "abstract_zh": "增强子活性在基因调控中发挥关键作用，影响发育和疾病进展等多种生物过程。准确预测增强子活性对于理解基因调控机制及增强子功能至关重要。本研究引入了一种新颖的深度学习框架EAP-LSTM（基于Bi-LSTM的增强子活性预测），用于跨不同物种和细胞系定量预测增强子活性。该模型整合了多个特征模块，包括基于Word2Vec的DNA序列表示、反向互补k-mer、错配k-mer特征以及表观基因组数据。在六个细胞系上评估，包括五个人类细胞系（A549、HCT116、HepG2、K562和MCF-7）和一个果蝇细胞系（S2），EAP-LSTM在所有数据集上均持续优于最先进模型，如DeepSTARR和HEAP。例如，在K562数据集上，EAP-LSTM实现了0.7944的皮尔逊相关系数（PCC），分别比DeepSTARR和HEAP高出13.65%和2.73%。此外，EAP-LSTM在小样本学习场景中表现出强劲性能，与基线模型相比显示出明显改进。进一步地，本研究探讨了增强子区域内转录因子结合位点（TFBSs）的作用，识别出与增强子活性相关的关键基序。这些发现不仅提高了增强子预测准确性，还为理解增强子功能的分子机制提供了宝贵见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41086069/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41086069/",
+  "paper_page_path": "papers/pubmed/41086069/index.html"
+}

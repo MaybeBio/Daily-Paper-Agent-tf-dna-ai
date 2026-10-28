@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.29.462455",
+  "title": "PEAK2VEC ENABLES INFERRENCE OF TRANSCRIPTIONAL REGULATION FROM ATAC-SEQ",
+  "authors": "Liang L; Lu X; Lu S",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-01",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用卷积神经网络将ATAC-seq序列嵌入向量空间以推断TF结合特异性，虽未直接建模三维互作，但聚焦TF-DNA结合位点预测且方法可迁移至本课题。",
+  "abstract": "<h4>ABSTRACT</h4> Transcription factor (TF) binding sites in ATAC-seq are typically determined by footprint analysis. However, the performance of footprint analysis remains unsatisfying and most TFs do not exhibit footprint patterns. In this study, we modified the convolutional neural network to project sequences into an embedding space. Sequences with similar nucleotide patterns will stay close together in the embedding. The dimensionality of this embedding space represents binding specificities of various TFs. In the simulation experiment, peak2vec accurately distinguished the three TFs in the embedding space while conventional deep learning cannot. When applied to the ATAC-seq profiles of hepatitis carcinoma, peak2vec recovered multiple motifs curated in database, while significant portion of sequences corresponding to the TF are located at the promoter region of its regulated genes.",
+  "abstract_zh": "<h4>摘要</h4> 在ATAC-seq中，转录因子（TF）结合位点通常通过足迹分析来确定。然而，足迹分析的性能仍不尽如人意，且大多数转录因子并未表现出足迹模式。在本研究中，我们改进了卷积神经网络，将序列投影到一个嵌入空间中。具有相似核苷酸模式的序列将在该嵌入中保持接近。此嵌入空间的维度代表了各种转录因子的结合特异性。在模拟实验中，peak2vec在嵌入空间中准确区分了三种转录因子，而传统深度学习无法做到。当应用于肝炎癌的ATAC-seq图谱时，peak2vec恢复了数据库中多个已整理的基序，而与转录因子对应的大部分序列位于其调控基因的启动子区域。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462455",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462455",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.29.462455/index.html"
+}

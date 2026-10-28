@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38485768",
+    "doi": "10.1093/bib/bbae083",
+    "title": "Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers."
+  },
+  "content": {
+    "abstract": "Enhancers, noncoding DNA fragments, play a pivotal role in gene regulation, facilitating gene transcription. Identifying enhancers is crucial for understanding genomic regulatory mechanisms, pinpointing key elements and investigating networks governing gene expression and disease-related mechanisms. Existing enhancer identification methods exhibit limitations, prompting the development of our novel multi-input deep learning framework, termed Enhancer-MDLF. Experimental results illustrate that Enhancer-MDLF outperforms the previous method, Enhancer-IF, across eight distinct human cell lines and exhibits superior performance on generic enhancer datasets and enhancer-promoter datasets, affirming the robustness of Enhancer-MDLF. Additionally, we introduce transfer learning to provide an effective and potential solution to address the prediction challenges posed by enhancer specificity. Furthermore, we utilize model interpretation to identify transcription factor binding site motifs that may be associated with enhancer regions, with important implications for facilitating the study of enhancer regulatory mechanisms. The source code is openly accessible at https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF.",
+    "keywords": [
+      "DNA sequence",
+      "cell-specific enhancers",
+      "deep learning",
+      "transfer learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Enhancer Elements, Genetic",
+      "*Deep Learning",
+      "Genomics/methods",
+      "Gene Expression Regulation",
+      "Promoter Regions, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yao",
+        "Zhang, Pengyu",
+        "Wu, Hao"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Zhang P",
+        "Wu H"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-4698-7786",
+        "ORCID: 0000-0001-8696-4983",
+        "ORCID: 0000-0003-2340-9258"
+      ],
+      "affiliations": [
+        "School of Software, Shandong University, Jinan, 250100, Shandong, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China.",
+        "School of Software, Shandong University, Jinan, 250100, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yao",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0007-4698-7786"
+        ],
+        "affiliations": [
+          "School of Software, Shandong University, Jinan, 250100, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengyu",
+        "short_name": "Zhang P",
+        "identifiers": [
+          "0000-0001-8696-4983"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0003-2340-9258"
+        ],
+        "affiliations": [
+          "School of Software, Shandong University, Jinan, 250100, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Jan 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/15 06:44",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "42244857",
+      "41359035",
+      "40820328",
+      "40778316",
+      "40708222",
+      "40536817",
+      "40534867",
+      "40203028",
+      "39661307",
+      "39556608",
+      "39186807"
+    ],
+    "refs": [
+      "37843994",
+      "37402191",
+      "37216267",
+      "36411359",
+      "36161334",
+      "35997565",
+      "34986601",
+      "34585247",
+      "34226917",
+      "33833783",
+      "33751027",
+      "33539511",
+      "33119044",
+      "32728249",
+      "31874637",
+      "31740966",
+      "31665430",
+      "31045209",
+      "30863524",
+      "30649185",
+      "29878118",
+      "29224777",
+      "29140464",
+      "27941893",
+      "27570183",
+      "27515742",
+      "27455346",
+      "27064255",
+      "26476782",
+      "26414678",
+      "25650801",
+      "25473424",
+      "24670763",
+      "24097267",
+      "23503198",
+      "22491032",
+      "21765417",
+      "21358745",
+      "21143913",
+      "19923429",
+      "19212405",
+      "18555785",
+      "17277777",
+      "17179217",
+      "17086198",
+      "15782197",
+      "15630479",
+      "12356737",
+      "9570129",
+      "9361007"
+    ],
+    "similar": [
+      "38485768",
+      "36715222",
+      "40036975",
+      "28334114",
+      "37539835",
+      "33581335",
+      "37348298",
+      "36520922",
+      "35015646",
+      "37294799",
+      "38890584",
+      "31318408",
+      "33741075",
+      "38870532",
+      "36030022",
+      "39577030",
+      "29855387",
+      "39519295",
+      "37982748",
+      "34226917",
+      "38946113",
+      "27490187",
+      "39420601",
+      "25378307",
+      "40203028",
+      "34473626",
+      "32732264",
+      "40251827",
+      "28589862",
+      "31228310",
+      "36043696",
+      "24967590",
+      "34573367",
+      "28193886",
+      "36071071",
+      "33096548",
+      "39533395",
+      "28881991",
+      "29219068",
+      "33137083",
+      "34252960",
+      "27986453",
+      "40335860",
+      "30578915",
+      "28716036",
+      "29072144",
+      "30917778",
+      "37021559",
+      "36376800",
+      "38086419",
+      "24714811",
+      "32249388",
+      "31565573",
+      "35417351",
+      "32065070",
+      "26634919",
+      "37760334",
+      "31514731",
+      "36161334",
+      "36671456",
+      "30709337",
+      "37021401",
+      "35190950",
+      "39131276",
+      "27833659",
+      "34244796",
+      "32689977",
+      "31874637",
+      "35062021",
+      "33808317",
+      "30589856",
+      "31665135",
+      "31340596",
+      "32197056",
+      "18441229",
+      "33973014",
+      "39819837",
+      "36740001",
+      "36063523",
+      "33320871",
+      "33509077",
+      "38385876",
+      "26338778",
+      "26099324",
+      "34149720",
+      "35605495",
+      "30139328",
+      "36495179",
+      "26912062",
+      "25517091",
+      "27256877",
+      "26298065",
+      "32193341",
+      "30286077",
+      "38101409",
+      "36222139",
+      "27662874",
+      "25450156",
+      "39922842",
+      "31905774"
+    ],
+    "review": [
+      "38485768",
+      "39533395",
+      "26634919",
+      "37021401",
+      "32197056",
+      "34149720",
+      "26298065"
+    ],
+    "pmc": [
+      "10938904"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38485768.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38485768/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38485768",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae083",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

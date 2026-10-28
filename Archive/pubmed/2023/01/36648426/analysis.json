@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36648426",
+  "title": "Predicting brain-regional gene regulatory networks from multi-omics for Alzheimer's disease phenotypes and Covid-19 severity.",
+  "authors": "Khullar, Saniya; Wang, Daifeng",
+  "journal": "Human molecular genetics",
+  "published_date": "2023-01-18",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过多组学整合预测脑区基因调控网络，将转录因子与TF结合位点及靶基因关联，并用于AD和Covid-19表型分析，虽涉及TF-DNA结合位点预测，但缺乏三维互作建模与AI/物理模拟方法，属于广义蛋白-DNA互作的应用性研究。",
+  "abstract": "Neuroinflammation and immune dysregulation play a key role in Alzheimer's disease (AD) and are also associated with severe Covid-19 and neurological symptoms. Also, genome-wide association studies found many risk single nucleotide polymorphisms (SNPs) for AD and Covid-19. However, our understanding of underlying gene regulatory mechanisms from risk SNPs to AD, Covid-19 and phenotypes is still limited. To this end, we performed an integrative multi-omics analysis to predict gene regulatory networks for major brain regions from population data in AD. Our networks linked transcription factors (TFs) to TF binding sites (TFBSs) on regulatory elements to target genes. Comparative network analyses revealed cross-region-conserved and region-specific regulatory networks, in which many immunological genes are present. Furthermore, we identified a list of AD-Covid genes using our networks involving known and Covid-19 genes. Our machine learning analysis prioritized 36 AD-Covid candidate genes for predicting Covid severity. Our independent validation analyses found that these genes outperform known genes for classifying Covid-19 severity and AD. Finally, we mapped genome-wide association study SNPs of AD and severe Covid that interrupt TFBSs on our regulatory networks, revealing potential mechanistic insights of those disease risk variants. Our analyses and results are open-source available, providing an AD-Covid functional genomic resource at the brain region level.",
+  "abstract_zh": "神经炎症和免疫失调在阿尔茨海默病（AD）中发挥关键作用，并且也与重症新冠肺炎（Covid-19）及其神经系统症状相关。此外，全基因组关联研究发现许多与AD和Covid-19相关的风险单核苷酸多态性（SNPs）。然而，我们对从风险SNPs到AD、Covid-19及表型的潜在基因调控机制的理解仍然有限。为此，我们进行了整合性多组学分析，以从AD的人群数据中预测主要脑区的基因调控网络。我们的网络将转录因子（TFs）连接到调控元件上的TF结合位点（TFBSs），进而关联到靶基因。比较网络分析揭示了跨区域保守和区域特异性的调控网络，其中包含许多免疫相关基因。此外，我们利用这些网络识别了一组涉及已知基因和Covid-19基因的AD-Covid基因。我们的机器学习分析优先排序了36个AD-Covid候选基因，用于预测Covid-19严重程度。独立验证分析发现，这些基因在分类Covid-19严重程度和AD方面优于已知基因。最后，我们绘制了AD和重症Covid的全基因组关联研究SNPs，这些SNPs干扰我们调控网络中的TFBSs，从而揭示这些疾病风险变异的潜在机制性见解。我们的分析和结果以开源形式提供，为脑区水平上的AD-Covid功能基因组资源做出贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36648426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36648426/",
+  "paper_page_path": "papers/pubmed/36648426/index.html"
+}

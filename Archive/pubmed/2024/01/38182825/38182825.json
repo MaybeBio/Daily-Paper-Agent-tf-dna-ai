@@ -1,0 +1,597 @@
+{
+  "identity": {
+    "pmid": "38182825",
+    "doi": "10.1038/s41556-023-01316-4",
+    "title": "Single-cell spatial multi-omics and deep learning dissect enhancer-driven gene regulatory networks in liver zonation."
+  },
+  "content": {
+    "abstract": "In the mammalian liver, hepatocytes exhibit diverse metabolic and functional profiles based on their location within the liver lobule. However, it is unclear whether this spatial variation, called zonation, is governed by a well-defined gene regulatory code. Here, using a combination of single-cell multiomics, spatial omics, massively parallel reporter assays and deep learning, we mapped enhancer-gene regulatory networks across mouse liver cell types. We found that zonation affects gene expression and chromatin accessibility in hepatocytes, among other cell types. These states are driven by the repressors TCF7L1 and TBX3, alongside other core hepatocyte transcription factors, such as HNF4A, CEBPA, FOXA1 and ONECUT1. To examine the architecture of the enhancers driving these cell states, we trained a hierarchical deep learning model called DeepLiver. Our study provides a multimodal understanding of the regulatory code underlying hepatocyte identity and their zonation state that can be used to engineer enhancers with specific activity levels and zonation patterns.",
+    "keywords": [],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Multiomics",
+      "Gene Regulatory Networks",
+      "*Deep Learning",
+      "Liver/metabolism",
+      "Hepatocytes",
+      "Mammals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bravo Gonzalez-Blas, Carmen",
+        "Matetovici, Irina",
+        "Hillen, Hanne",
+        "Taskiran, Ibrahim Ihsan",
+        "Vandepoel, Roel",
+        "Christiaens, Valerie",
+        "Sansores-Garcia, Leticia",
+        "Verboven, Elisabeth",
+        "Hulselmans, Gert",
+        "Poovathingal, Suresh",
+        "Demeulemeester, Jonas",
+        "Psatha, Nikoleta",
+        "Mauduit, David",
+        "Halder, Georg",
+        "Aerts, Stein"
+      ],
+      "short_names": [
+        "Bravo Gonzalez-Blas C",
+        "Matetovici I",
+        "Hillen H",
+        "Taskiran II",
+        "Vandepoel R",
+        "Christiaens V",
+        "Sansores-Garcia L",
+        "Verboven E",
+        "Hulselmans G",
+        "Poovathingal S",
+        "Demeulemeester J",
+        "Psatha N",
+        "Mauduit D",
+        "Halder G",
+        "Aerts S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0973-9410",
+        "ORCID: 0000-0002-4873-0040",
+        "ORCID: 0000-0002-0876-2179",
+        "ORCID: 0000-0003-2510-225X",
+        "ORCID: 0000-0003-1432-2791",
+        "ORCID: 0000-0002-2660-2478",
+        "ORCID: 0000-0002-2045-227X",
+        "ORCID: 0000-0002-8006-0315"
+      ],
+      "affiliations": [
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+        "VIB Tech Watch, VIB Headquarters, Ghent, Belgium.",
+        "VIB Center for Cancer Biology, Leuven, Belgium.",
+        "Department of Oncology, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+        "VIB Center for Cancer Biology, Leuven, Belgium.",
+        "Department of Oncology, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Cancer Biology, Leuven, Belgium.",
+        "Department of Oncology, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+        "VIB Center for Cancer Biology, Leuven, Belgium.",
+        "Department of Oncology, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium. stein.aerts@kuleuven.be.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium. stein.aerts@kuleuven.be.",
+        "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium. stein.aerts@kuleuven.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bravo González-Blas, Carmen",
+        "short_name": "Bravo González-Blas C",
+        "identifiers": [
+          "0000-0003-0973-9410"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Matetovici, Irina",
+        "short_name": "Matetovici I",
+        "identifiers": [
+          "0000-0002-4873-0040"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium.",
+          "VIB Tech Watch, VIB Headquarters, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hillen, Hanne",
+        "short_name": "Hillen H",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Cancer Biology, Leuven, Belgium.",
+          "Department of Oncology, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Taskiran, Ibrahim Ihsan",
+        "short_name": "Taskiran II",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vandepoel, Roel",
+        "short_name": "Vandepoel R",
+        "identifiers": [
+          "0000-0002-0876-2179"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Christiaens, Valerie",
+        "short_name": "Christiaens V",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sansores-García, Leticia",
+        "short_name": "Sansores-García L",
+        "identifiers": [
+          "0000-0003-2510-225X"
+        ],
+        "affiliations": [
+          "VIB Center for Cancer Biology, Leuven, Belgium.",
+          "Department of Oncology, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Verboven, Elisabeth",
+        "short_name": "Verboven E",
+        "identifiers": [
+          "0000-0003-1432-2791"
+        ],
+        "affiliations": [
+          "VIB Center for Cancer Biology, Leuven, Belgium.",
+          "Department of Oncology, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hulselmans, Gert",
+        "short_name": "Hulselmans G",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Poovathingal, Suresh",
+        "short_name": "Poovathingal S",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Demeulemeester, Jonas",
+        "short_name": "Demeulemeester J",
+        "identifiers": [
+          "0000-0002-2660-2478"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Psatha, Nikoleta",
+        "short_name": "Psatha N",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mauduit, David",
+        "short_name": "Mauduit D",
+        "identifiers": [
+          "0000-0002-2045-227X"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Halder, Georg",
+        "short_name": "Halder G",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Cancer Biology, Leuven, Belgium.",
+          "Department of Oncology, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [
+          "0000-0002-8006-0315"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium. stein.aerts@kuleuven.be.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium. stein.aerts@kuleuven.be.",
+          "VIB Center for AI and Computational Biology (VIB.AI), Leuven, Belgium. stein.aerts@kuleuven.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature cell biology"
+    ],
+    "journal_abbrev": [
+      "Nat Cell Biol"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/06 10:42",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42666651",
+      "42642514",
+      "42608577",
+      "42555733",
+      "42491502",
+      "42474448",
+      "42429613",
+      "42386773",
+      "42359002",
+      "42303986",
+      "42268900",
+      "42230553",
+      "42162964",
+      "42138208",
+      "42100854",
+      "42053692",
+      "42014628",
+      "42010880",
+      "41978384",
+      "41951681",
+      "41927920",
+      "41904943",
+      "41883439",
+      "41816345",
+      "41738314",
+      "41721134",
+      "41545235",
+      "41511298",
+      "41499513",
+      "41497587",
+      "41385584",
+      "41292905",
+      "41286030",
+      "41082401",
+      "41040798",
+      "41033443",
+      "41026875",
+      "40890320",
+      "40675550",
+      "40626041",
+      "40461700",
+      "40436799",
+      "40403730",
+      "40385416",
+      "40360798",
+      "40210847",
+      "40203079",
+      "40099268",
+      "39878507",
+      "39778579",
+      "39747812",
+      "39747019",
+      "39716078",
+      "39566559",
+      "39474575",
+      "39412985",
+      "39362779",
+      "39229027"
+    ],
+    "refs": [
+      "37073532",
+      "36204155",
+      "35914621",
+      "35868277",
+      "35551305",
+      "35512247",
+      "35021063",
+      "34987221",
+      "34774128",
+      "34725479",
+      "34129813",
+      "34062119",
+      "34038707",
+      "33846645",
+      "33832990",
+      "33574817",
+      "33452395",
+      "33432202",
+      "33340713",
+      "33046894",
+      "32997994",
+      "32808927",
+      "32561888",
+      "32431014",
+      "32405060",
+      "32116021",
+      "31801079",
+      "31740819",
+      "31722201",
+      "31669645",
+      "31535084",
+      "31395865",
+      "31034658",
+      "30962623",
+      "30954476",
+      "30936469",
+      "30423086",
+      "30361341",
+      "30357393",
+      "30297808",
+      "29867222",
+      "29750242",
+      "29409532",
+      "29300726",
+      "29295731",
+      "29203879",
+      "29175243",
+      "29069475",
+      "28846090",
+      "28645739",
+      "28166538",
+      "27706213",
+      "27701403",
+      "27197205",
+      "27058788",
+      "26668002",
+      "26584623",
+      "26033091",
+      "25732821",
+      "25516281",
+      "25495062",
+      "25279814",
+      "25035418",
+      "24799436",
+      "24575371",
+      "24097267",
+      "23892608",
+      "23810553",
+      "23558742",
+      "23457262",
+      "22967502",
+      "22388286",
+      "22371081",
+      "21464514",
+      "21217122",
+      "20436461",
+      "19505943",
+      "19393271",
+      "18798982",
+      "18515842",
+      "16912278",
+      "16738562",
+      "12808453",
+      "11914032",
+      "11864602"
+    ],
+    "similar": [
+      "38182825",
+      "39376034",
+      "36464486",
+      "39878507",
+      "28467181",
+      "31535084",
+      "37443338",
+      "39810466",
+      "30638865",
+      "35512247",
+      "30936469",
+      "38064779",
+      "25220251",
+      "19914393",
+      "39285512",
+      "37644755",
+      "32732264",
+      "35175659",
+      "37172768",
+      "37651607",
+      "35410163",
+      "38583492",
+      "19454287",
+      "40063068",
+      "19129217",
+      "39395983",
+      "38428673",
+      "37453365",
+      "33137083",
+      "38844976",
+      "37114830",
+      "37734628",
+      "37557173",
+      "36571404",
+      "19140222",
+      "31629814",
+      "37682480",
+      "34129813",
+      "35932276",
+      "36711947",
+      "37507114",
+      "32154783",
+      "36723605",
+      "39888834",
+      "36936935",
+      "38012720",
+      "27490187",
+      "38056211",
+      "38485768",
+      "38297077",
+      "36018801",
+      "35114417",
+      "32431014",
+      "30797519",
+      "39581871",
+      "39364668",
+      "27301446",
+      "40188417",
+      "30933372",
+      "38092913",
+      "30286077",
+      "34566696",
+      "39742806",
+      "38092918",
+      "38653489",
+      "37015806",
+      "38956662",
+      "38499523",
+      "34898596",
+      "31845961",
+      "36513636",
+      "25024605",
+      "28126520",
+      "37946043",
+      "36693201",
+      "34486522",
+      "35202885",
+      "39567490",
+      "33452735",
+      "39904740",
+      "29555772",
+      "31537830",
+      "37879938",
+      "38670157",
+      "26072436",
+      "23512712",
+      "39255657",
+      "40105178",
+      "33741075",
+      "34253736",
+      "32192535",
+      "39247824",
+      "36162197",
+      "37489287",
+      "38534018",
+      "23792151",
+      "38359832",
+      "39833103",
+      "39716078",
+      "39984714"
+    ],
+    "review": [
+      "38182825",
+      "28467181",
+      "30936469",
+      "38064779",
+      "19914393",
+      "35175659",
+      "37651607",
+      "30797519",
+      "39364668",
+      "34566696",
+      "25024605",
+      "28126520",
+      "36693201",
+      "38534018"
+    ],
+    "pmc": [
+      "10791584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/38182825",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41556-023-01316-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38182825/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38182825",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38182825",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

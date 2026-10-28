@@ -1,0 +1,154 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.01.640955",
+  "title": "Bridging Prediction and Reality: Comprehensive Analysis of Experimental and AlphaFold 2 Full-Length Nuclear Receptor Structures",
+  "doi": "10.1101/2025.03.01.640955",
+  "abstract": "<h4>ABSTRACT</h4> AlphaFold 2 has revolutionized protein structure prediction, yet systematic evaluations of its performance against experimental structures for specific protein families remain limited. Here we present the first comprehensive analysis comparing AlphaFold 2-predicted and experimental nuclear receptor structures, examining root-mean-square deviations, secondary structure elements, domain organization, and ligand-binding pocket geometry. While AlphaFold2 achieves high accuracy in predicting stable conformations with proper stereochemistry, it shows limitations in capturing the full spectrum of biologically relevant states, particularly in flexible regions and ligand-binding pockets. Statistical analysis reveals significant domain-specific variations, with ligand-binding domains showing higher structural variability (CV = 29.3%) compared to DNA-binding domains (CV = 17.7%). Notably, Alphafold 2 systematically underestimates ligand-binding pocket volumes and captures only single conformational states in homodimeric receptors where experimental structures show functionally important asymmetry. These findings provide critical insights for structure-based drug design targeting nuclear receptors and establish a framework for evaluating Alphafold 2 predictions across other protein families.",
+  "authors": [
+    "Mazhibiyeva A",
+    "Pham TT",
+    "Pats K",
+    "Lukac M",
+    "Molnár F"
+  ],
+  "published_date": "2025-03-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.01.640955",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.01.640955.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR987878",
+    "raw_record": {
+      "id": "PPR987878",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.01.640955",
+      "title": "Bridging Prediction and Reality: Comprehensive Analysis of Experimental and AlphaFold 2 Full-Length Nuclear Receptor Structures",
+      "authorString": "Mazhibiyeva A, Pham TT, Pats K, Lukac M, Molnár F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mazhibiyeva A",
+            "lastName": "Mazhibiyeva",
+            "firstName": "Akerke",
+            "initials": "A"
+          },
+          {
+            "fullName": "Pham TT",
+            "lastName": "Pham",
+            "firstName": "Tri",
+            "initials": "TT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1026-2146"
+            }
+          },
+          {
+            "fullName": "Pats K",
+            "lastName": "Pats",
+            "firstName": "Karina",
+            "initials": "K"
+          },
+          {
+            "fullName": "Lukac M",
+            "lastName": "Lukac",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8754-0701"
+            }
+          },
+          {
+            "fullName": "Molnár F",
+            "lastName": "Molnár",
+            "firstName": "Ferdinand",
+            "initials": "F"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8754-0701"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9008-4233"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1026-2146"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  AlphaFold 2 has revolutionized protein structure prediction, yet systematic evaluations of its performance against experimental structures for specific protein families remain limited. Here we present the first comprehensive analysis comparing AlphaFold 2-predicted and experimental nuclear receptor structures, examining root-mean-square deviations, secondary structure elements, domain organization, and ligand-binding pocket geometry. While AlphaFold2 achieves high accuracy in predicting stable conformations with proper stereochemistry, it shows limitations in capturing the full spectrum of biologically relevant states, particularly in flexible regions and ligand-binding pockets. Statistical analysis reveals significant domain-specific variations, with ligand-binding domains showing higher structural variability (CV = 29.3%) compared to DNA-binding domains (CV = 17.7%). Notably, Alphafold 2 systematically underestimates ligand-binding pocket volumes and captures only single conformational states in homodimeric receptors where experimental structures show functionally important asymmetry. These findings provide critical insights for structure-based drug design targeting nuclear receptors and establish a framework for evaluating Alphafold 2 predictions across other protein families.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.01.640955"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40496892",
+            "reference": "Computational and structural biotechnology journal. 2025 ;27:1998-2013",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-14",
+      "firstPublicationDate": "2025-03-11",
+      "firstIndexDate": "2025-03-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

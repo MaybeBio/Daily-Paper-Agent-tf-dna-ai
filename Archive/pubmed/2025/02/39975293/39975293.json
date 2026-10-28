@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "39975293",
+    "doi": "10.1101/2024.12.16.628715",
+    "title": "Prediction of Gene Regulatory Connections with Joint Single-Cell Foundation Models and Graph-Based Learning."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Single-cell RNA sequencing (scRNA-seq) data offers unprecedented opportunities to infer gene regulatory networks (GRNs) at a fine-grained resolution, shedding light on cellular phenotypes at the molecular level. However, the high sparsity, noise, and dropout events inherent in scRNA-seq data pose significant challenges for accurate and reliable GRN inference. The rapid growth in experimentally validated transcription factor-DNA binding data (e.g., ChIP-seq) has enabled supervised machine learning methods, which rely on known gene regulatory interactions to learn patterns, and achieve high accuracy in GRN inference by framing it as a gene regulatory link prediction task. This study addresses the gene regulatory link prediction problem by learning informative vectorized representations at the gene level to predict missing regulatory interactions. However, a higher performance of supervised learning methods requires a large amount of known TF-DNA binding data, which is often experimentally expensive and therefore limited in amount. Advances in large-scale pre-training and transfer learning provide a transformative opportunity to address this challenge. In this study, we leverage large-scale pre-trained models, trained on extensive scRNA-seq datasets and known as single-cell foundation models (scFMs). These models are combined with joint graph-based learning to establish a robust foundation for gene regulatory link prediction. RESULTS: We propose scRegNet, a novel and effective framework that leverages scFMs with joint graph-based learning for gene regulatory link prediction. scRegNet achieves state-of-the-art results in comparison with nine baseline methods on seven scRNA-seq benchmark datasets. In addition, scRegNet is more robust than the baseline methods on noisy training data. AVAILABILITY: The source code is available at https://github.com/sindhura-cs/scRegNet.",
+    "keywords": [
+      "Gene Regulatory Networks",
+      "Graph Neural Networks",
+      "Single-Cell Foundation Models",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kommu, Sindhura",
+        "Wang, Yizhi",
+        "Wang, Yue",
+        "Wang, Xuan"
+      ],
+      "short_names": [
+        "Kommu S",
+        "Wang Y",
+        "Wang Y",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-3841-0202",
+        "ORCID: 0000-0001-9456-0743",
+        "ORCID: 0000-0002-1788-1102",
+        "ORCID: 0000-0002-1381-8958"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Virginia Tech, Blacksburg, 24061, Virginia, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, 22203, Virginia, USA.",
+        "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, 22203, Virginia, USA.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, 24061, Virginia, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kommu, Sindhura",
+        "short_name": "Kommu S",
+        "identifiers": [
+          "0009-0005-3841-0202"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, 24061, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yizhi",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-9456-0743"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, 22203, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-1788-1102"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, 22203, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuan",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-1381-8958"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, 24061, Virginia, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jan 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/20 06:22",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38844628",
+      "38409223",
+      "37985457",
+      "37258680",
+      "36070863",
+      "35961023",
+      "35352511",
+      "34424948",
+      "32362720",
+      "31907445",
+      "31822622",
+      "31462772",
+      "30953525",
+      "30712510",
+      "30445495",
+      "30413482",
+      "26403471",
+      "26278974",
+      "24836921",
+      "22955616",
+      "20927193",
+      "17510665"
+    ],
+    "similar": [
+      "39975293",
+      "40662821",
+      "37985457",
+      "35961023",
+      "39960893",
+      "39487083",
+      "40251476",
+      "42265576",
+      "38261340",
+      "42653305",
+      "38950180",
+      "38980373",
+      "42475469",
+      "41534143",
+      "40062616",
+      "39062480",
+      "41288963",
+      "41871930",
+      "40654959",
+      "41206950",
+      "40708222",
+      "37004161",
+      "39417321",
+      "42614561",
+      "40956752",
+      "41052197",
+      "41883144",
+      "38896510",
+      "41554051",
+      "37531858",
+      "42337558",
+      "41191474",
+      "37085776",
+      "33294129",
+      "37897702",
+      "40826008",
+      "42308421",
+      "39934680",
+      "34424948",
+      "41317402",
+      "40116659",
+      "41896196",
+      "36825817",
+      "41409156",
+      "41329984",
+      "41489955",
+      "37686146",
+      "40571903",
+      "42464099",
+      "40315689",
+      "40713495",
+      "40426257",
+      "35050715",
+      "41917934",
+      "41981652",
+      "38810116",
+      "39708840",
+      "42225598",
+      "33026066",
+      "39939367",
+      "41775092",
+      "37233193",
+      "42721176",
+      "36734596",
+      "36070863",
+      "37991248",
+      "42056283",
+      "40983951",
+      "35062026",
+      "31243426",
+      "35172334",
+      "35692809",
+      "30547796",
+      "38342857",
+      "42059479",
+      "39944798",
+      "40838782",
+      "37313714",
+      "38390963",
+      "39401117",
+      "40511990",
+      "41033661",
+      "39694856",
+      "38128706",
+      "34850828",
+      "35511108",
+      "38892162",
+      "32174324",
+      "33033579",
+      "40069807",
+      "40966644",
+      "40037709",
+      "38317054",
+      "42560939",
+      "39508444",
+      "37751336",
+      "37015582",
+      "37244909",
+      "35451460",
+      "36568390"
+    ],
+    "review": [
+      "39975293",
+      "39939367"
+    ],
+    "pmc": [
+      "11838224"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39975293/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.16.628715",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

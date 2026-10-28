@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42196424",
+    "doi": "10.3390/ijms27104448",
+    "title": "NFE2L2-Associated Ferroptosis Resistance Reshapes the Tumor Immune Microenvironment and Guides Therapeutic Strategies in Prostate Cancer."
+  },
+  "content": {
+    "abstract": "Prostate adenocarcinoma (PRAD) poses a significant challenge due to therapy resistance and an immunosuppressive tumor microenvironment (TME). Ferroptosis has emerged as a therapeutic vulnerability, yet its immunomodulatory role in PRAD remains elusive. Here, we employed a multi-omics approach-integrating bulk RNA-seq (498 tumors), single-cell RNA-seq (68,322 cells), and spatial transcriptomics (19,483 spots)-to decode the ferroptosis-immune landscape. We derived a robust 16-gene ferroptosis signature that predicted biochemical recurrence (C-index = 0.76) and validated it in two independent cohorts. Crucially, high-risk tumors exhibited a \"cold\" immunosuppressive TME enriched in regulatory T cells and M2 macrophages, alongside elevated immune checkpoints (HAVCR2, CTLA4, PDCD1). Single-cell and virtual knockout analyses revealed that cancer epithelial cells evade ferroptosis via NFE2L2-associated antioxidant defenses, which strongly correlates with immune exclusion. Spatial transcriptomics further demonstrated spatially organized vulnerabilities, with ferroptosis-resistant tumor cores and immune-infiltrated invasive margins. To identify therapeutic interventions, we utilized drug response modeling and molecular docking, prioritizing RSL3, Atovaquone (targeting NOX4 (NADPH oxidase 4)/DHODH), and Sorafenib (targeting TrxR1 (thioredoxin reductase 1, encoded by TXNRD1)) as potent agents with potential ferroptosis-modulatory activity. Collectively, our findings demonstrate that NFE2L2-associated ferroptosis resistance shapes immune evasion in PRAD. Targeting ferroptosis regulators provides a compelling therapeutic rationale to remodel the TME and synergize with immune checkpoint blockade.",
+    "keywords": [
+      "LASSO-Cox",
+      "ferroptosis",
+      "molecular docking",
+      "prognostic signature",
+      "prostate cancer",
+      "single-cell RNA-seq",
+      "spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics/drug effects",
+      "*Prostatic Neoplasms/immunology/genetics/pathology/metabolism/drug therapy",
+      "Humans",
+      "*Tumor Microenvironment/immunology/genetics",
+      "Male",
+      "*NF-E2-Related Factor 2/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Adenocarcinoma/immunology/genetics/pathology/drug therapy",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Yihan",
+        "Yu, Haojie",
+        "Wang, Ying",
+        "Wang, Chengze"
+      ],
+      "short_names": [
+        "Lin Y",
+        "Yu H",
+        "Wang Y",
+        "Wang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2349-6427"
+      ],
+      "affiliations": [
+        "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China.",
+        "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China.",
+        "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China.",
+        "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Yihan",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Haojie",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chengze",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0003-2349-6427"
+        ],
+        "affiliations": [
+          "Stomatology Hospital, School of Stomatology, Zhejiang University School of Medicine, Clinical Research Center for Oral Diseases of Zhejiang Province, Key Laboratory of Oral Biomedical Research of Zhejiang Province, Cancer Center of Zhejiang University, Hangzhou 310006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 06:34",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [
+      "42622024"
+    ],
+    "refs": [
+      "41763496",
+      "41369379",
+      "40260246",
+      "39920771",
+      "39859516",
+      "38636790",
+      "38541029",
+      "38349553",
+      "36633525",
+      "35338310",
+      "35102346",
+      "34260682",
+      "33981038",
+      "33597522",
+      "33495651",
+      "33483372",
+      "33425905",
+      "33330074",
+      "33231677",
+      "33172724",
+      "33115468",
+      "32577235",
+      "32427840",
+      "32219413",
+      "31634899",
+      "30691365",
+      "29409532",
+      "28985560",
+      "28052254",
+      "27842070",
+      "27842066",
+      "27565726",
+      "26771021",
+      "26563462",
+      "26403645",
+      "26166707",
+      "25965523",
+      "25799988",
+      "25516281",
+      "25465337",
+      "24439385",
+      "24113773",
+      "23826159",
+      "23770138",
+      "23323831",
+      "22632970",
+      "21251164",
+      "20808728",
+      "17222629",
+      "16046649",
+      "15591335",
+      "15466206",
+      "11587223",
+      "9749478"
+    ],
+    "similar": [
+      "42196424",
+      "42087896",
+      "42284685",
+      "41710887",
+      "41425595",
+      "35603206",
+      "41350704",
+      "40688093",
+      "41799193",
+      "41020944",
+      "42023218",
+      "41383634",
+      "41716413",
+      "40355680",
+      "41035636",
+      "40821828",
+      "41743703",
+      "40534868",
+      "40064955",
+      "41566241",
+      "40396179",
+      "39238647",
+      "39712016",
+      "41339231",
+      "40191200",
+      "40616092",
+      "40286882",
+      "41785601",
+      "41474172",
+      "38818762",
+      "41436831",
+      "40763838",
+      "41006377",
+      "32385899",
+      "42240917",
+      "40630945",
+      "40568593",
+      "41622291",
+      "38546403",
+      "42249833",
+      "42478154",
+      "42440056",
+      "40308606",
+      "42500577",
+      "35832625",
+      "40421217",
+      "41530714",
+      "42321379",
+      "39351232",
+      "41836446",
+      "40119682",
+      "39221762",
+      "40698080",
+      "42089585",
+      "38221616",
+      "41485251",
+      "40638251",
+      "41398365",
+      "41929495",
+      "41420004",
+      "41006689",
+      "40475762",
+      "42106773",
+      "38886907",
+      "40289088",
+      "41658456",
+      "41942785",
+      "42206269",
+      "40607387",
+      "41747446",
+      "41361444",
+      "42534860",
+      "40831393",
+      "42143353",
+      "42305453",
+      "40330458",
+      "41275140",
+      "41121066",
+      "40443671",
+      "42359574",
+      "38663915",
+      "42112375",
+      "39759507",
+      "39550375",
+      "42421957",
+      "41632930",
+      "39097198",
+      "41152153",
+      "41972735",
+      "42500560",
+      "42445556",
+      "41953398",
+      "42140356",
+      "40777041",
+      "40642093",
+      "41246350",
+      "41567189",
+      "42328119",
+      "42349108",
+      "34255349"
+    ],
+    "review": [
+      "42196424",
+      "41747446"
+    ],
+    "pmc": [
+      "13207672"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27104448",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42196424/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HAVCR2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "39174927",
+    "doi": "10.1186/s12859-024-05852-0",
+    "title": "TIANA: transcription factors cooperativity inference analysis with neural attention."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Growing evidence suggests that distal regulatory elements are essential for cellular function and states. The sequences within these distal elements, especially motifs for transcription factor binding, provide critical information about the underlying regulatory programs. However, cooperativities between transcription factors that recognize these motifs are nonlinear and multiplexed, rendering traditional modeling methods insufficient to capture the underlying mechanisms. Recent development of attention mechanism, which exhibit superior performance in capturing dependencies across input sequences, makes them well-suited to uncover and decipher intricate dependencies between regulatory elements. RESULT: We present Transcription factors cooperativity Inference Analysis with Neural Attention (TIANA), a deep learning framework that focuses on interpretability. In this study, we demonstrated that TIANA could discover biologically relevant insights into co-occurring pairs of transcription factor motifs. Compared with existing tools, TIANA showed superior interpretability and robust performance in identifying putative transcription factor cooperativities from co-occurring motifs. CONCLUSION: Our results suggest that TIANA can be an effective tool to decipher transcription factor cooperativities from distal sequence data. TIANA can be accessed through: https://github.com/rzzli/TIANA .",
+    "keywords": [
+      "Bioinformatics",
+      "Deep Learning",
+      "Integrated gradients",
+      "Self-attention",
+      "Transcription Factors"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "Deep Learning",
+      "Computational Biology/methods",
+      "Humans",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Rick Z",
+        "Han, Claudia Z",
+        "Glass, Christopher K"
+      ],
+      "short_names": [
+        "Li RZ",
+        "Han CZ",
+        "Glass CK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, 92093, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, 92093, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, 92093, USA. ckg@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Rick Z",
+        "short_name": "Li RZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Claudia Z",
+        "short_name": "Han CZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Glass, Christopher K",
+        "short_name": "Glass CK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, 92093, USA. ckg@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2024 Aug 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/23 00:43",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "41503157"
+    ],
+    "refs": [
+      "37962376",
+      "37889068",
+      "37580560",
+      "35049498",
+      "34608324",
+      "33950192",
+      "33705711",
+      "32657363",
+      "31701148",
+      "31375664",
+      "30984185",
+      "30679424",
+      "30423062",
+      "29786094",
+      "29779944",
+      "29140464",
+      "27915232",
+      "27346641",
+      "27084946",
+      "26503782",
+      "26301843",
+      "25953851",
+      "25650801",
+      "25126959",
+      "24813947",
+      "23932714",
+      "23474895",
+      "22513408",
+      "22388286",
+      "21343618",
+      "20513432",
+      "15843800",
+      "9847207"
+    ],
+    "similar": [
+      "39174927",
+      "34272562",
+      "32770026",
+      "39107889",
+      "35293310",
+      "33522898",
+      "38701417",
+      "38950180",
+      "31372637",
+      "38643066",
+      "34073774",
+      "38397134",
+      "39234953",
+      "38940155",
+      "30835229",
+      "39096613",
+      "28961802",
+      "23272209",
+      "33538038",
+      "31750523",
+      "34929739",
+      "28881989",
+      "33950192",
+      "30423062",
+      "37723425",
+      "18533028",
+      "38980373",
+      "19607663",
+      "37100167",
+      "30261835",
+      "26552868",
+      "26679776",
+      "27288497",
+      "27567672",
+      "28035026",
+      "28753602",
+      "36458923",
+      "33372147",
+      "18005433",
+      "35652477",
+      "36748992",
+      "33137083",
+      "33232622",
+      "38830995",
+      "38485768",
+      "34524404",
+      "34033108",
+      "33603233",
+      "19835596",
+      "15865625",
+      "21297945",
+      "20827582",
+      "34849591",
+      "36155619",
+      "29970003",
+      "34571539",
+      "25788622",
+      "39062480",
+      "19583839",
+      "34244796",
+      "36161334",
+      "33834200",
+      "34664074",
+      "28391205",
+      "21059262",
+      "25041923",
+      "22950945",
+      "15760844",
+      "23181585",
+      "25179504",
+      "20106815",
+      "21106904",
+      "38109668",
+      "31742324",
+      "22456606",
+      "29244011",
+      "27322759",
+      "34550967",
+      "39131276",
+      "30475725",
+      "19426448",
+      "37328639",
+      "17953763",
+      "38940172",
+      "19956545",
+      "35176756",
+      "31856220",
+      "31022451",
+      "34219140",
+      "27992540",
+      "38644393",
+      "20074339",
+      "33577560",
+      "38216534",
+      "38942594",
+      "25171961",
+      "30953525",
+      "12760745",
+      "25268582"
+    ],
+    "review": [
+      "39174927",
+      "35652477",
+      "20827582"
+    ],
+    "pmc": [
+      "11342676"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

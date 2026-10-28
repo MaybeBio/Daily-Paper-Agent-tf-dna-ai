@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "34117331",
+    "doi": "10.1038/s41598-021-91997-4",
+    "title": "Design of a multi-epitope vaccine against cervical cancer using immunoinformatics approaches."
+  },
+  "content": {
+    "abstract": "Cervical cancer, caused by human papillomavirus (HPV), is the fourth most common type of cancer among women worldwide. While HPV prophylactic vaccines are available, they have no therapeutic effects and do not clear up existing infections. This study aims to design a therapeutic vaccine against cervical cancer using reverse vaccinology. In this study, the E6 and E7 oncoproteins from HPV16 were chosen as the target antigens for epitope prediction. Cytotoxic T lymphocytes (CTL) and helper T lymphocytes (HTL) epitopes were predicted, and the best epitopes were selected based on antigenicity, allergenicity, and toxicity. The final vaccine construct was composed of the selected epitopes, along with the appropriate adjuvant and linkers. The multi-epitope vaccine was evaluated in terms of physicochemical properties, antigenicity, and allergenicity. The tertiary structure of the vaccine construct was predicted. Furthermore, several analyses were also carried out, including molecular docking, molecular dynamics (MD) simulation, and in silico cloning of the vaccine construct. The results showed that the final proposed vaccine could be considered an effective therapeutic vaccine for HPV; however, in vitro and in vivo experiments are required to validate the efficacy of this vaccine candidate.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cancer Vaccines/chemistry/*immunology",
+      "Computational Biology",
+      "Epitopes/chemistry/*immunology",
+      "Female",
+      "Humans",
+      "Immunogenicity, Vaccine",
+      "Molecular Docking Simulation",
+      "Oncogene Proteins, Viral/chemistry/immunology",
+      "Papillomavirus E7 Proteins/chemistry/immunology",
+      "Papillomavirus Vaccines/chemistry/*immunology",
+      "Repressor Proteins/chemistry/immunology",
+      "T-Lymphocytes, Cytotoxic/immunology",
+      "T-Lymphocytes, Helper-Inducer/immunology",
+      "Uterine Cervical Neoplasms/immunology/*prevention & control/virology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanami, Samira",
+        "Azadegan-Dehkordi, Fatemeh",
+        "Rafieian-Kopaei, Mahmoud",
+        "Salehi, Majid",
+        "Ghasemi-Dehnoo, Maryam",
+        "Mahooti, Mehran",
+        "Alizadeh, Morteza",
+        "Bagheri, Nader"
+      ],
+      "short_names": [
+        "Sanami S",
+        "Azadegan-Dehkordi F",
+        "Rafieian-Kopaei M",
+        "Salehi M",
+        "Ghasemi-Dehnoo M",
+        "Mahooti M",
+        "Alizadeh M",
+        "Bagheri N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Biotechnology, School of Advanced Technologies, Shahrekord University of Medical Sciences, Shahrekord, Iran.",
+        "Cellular and Molecular Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran.",
+        "Medical Plants Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran.",
+        "Department of Tissue Engineering, School of Medicine, Shahroud University of Medical Sciences, Shahroud, Iran.",
+        "Medical Plants Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran.",
+        "Department of Biotechnology, Iranian Research Organization for Science and Technology, Tehran, Iran.",
+        "Department of Tissue Engineering, School of Medicine, Shahroud University of Medical Sciences, Shahroud, Iran. mor1361@gmail.com.",
+        "Cellular and Molecular Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran. n.bagheri1985@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sanami, Samira",
+        "short_name": "Sanami S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, School of Advanced Technologies, Shahrekord University of Medical Sciences, Shahrekord, Iran."
+        ]
+      },
+      {
+        "full_name": "Azadegan-Dehkordi, Fatemeh",
+        "short_name": "Azadegan-Dehkordi F",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran."
+        ]
+      },
+      {
+        "full_name": "Rafieian-Kopaei, Mahmoud",
+        "short_name": "Rafieian-Kopaei M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Plants Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran."
+        ]
+      },
+      {
+        "full_name": "Salehi, Majid",
+        "short_name": "Salehi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tissue Engineering, School of Medicine, Shahroud University of Medical Sciences, Shahroud, Iran."
+        ]
+      },
+      {
+        "full_name": "Ghasemi-Dehnoo, Maryam",
+        "short_name": "Ghasemi-Dehnoo M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Plants Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran."
+        ]
+      },
+      {
+        "full_name": "Mahooti, Mehran",
+        "short_name": "Mahooti M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Iranian Research Organization for Science and Technology, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Alizadeh, Morteza",
+        "short_name": "Alizadeh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tissue Engineering, School of Medicine, Shahroud University of Medical Sciences, Shahroud, Iran. mor1361@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Bagheri, Nader",
+        "short_name": "Bagheri N",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Research Center, Basic Health Sciences Institute, Shahrekord University of Medical Sciences, Shahrekord, Iran. n.bagheri1985@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Jun 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/13 06:00",
+    "fetched_at": "2026-09-27 19:01:59"
+  },
+  "links": {
+    "cites": [
+      "41857073",
+      "41112949",
+      "41054971",
+      "40747216",
+      "40698087",
+      "40688509",
+      "40653561",
+      "40626008",
+      "40581703",
+      "40453095",
+      "40390500",
+      "40341420",
+      "40290636",
+      "40216819",
+      "39873886",
+      "39833186",
+      "39651594",
+      "39455641",
+      "39296802",
+      "39190054",
+      "39091165",
+      "39039819",
+      "38780076",
+      "38424208",
+      "38130691",
+      "37897003",
+      "37513965",
+      "36829109",
+      "36823384",
+      "36733393",
+      "36553554",
+      "36459183",
+      "36366472",
+      "36366359",
+      "36366294",
+      "36214961",
+      "36175808",
+      "36059030",
+      "36016127",
+      "35737079",
+      "35681036",
+      "35371033",
+      "34406518"
+    ],
+    "refs": [
+      "33848597",
+      "33624357",
+      "33468698",
+      "33400987",
+      "33082015",
+      "33004978",
+      "32731461",
+      "32649857",
+      "32621883",
+      "32521680",
+      "32427224",
+      "32247566",
+      "31974431",
+      "31962160",
+      "31915962",
+      "31812696",
+      "31812369",
+      "31709929",
+      "31527719",
+      "31409021",
+      "31279880",
+      "30064936",
+      "29920369",
+      "29438321",
+      "29377223",
+      "29315598",
+      "29253673",
+      "28835708",
+      "28811600",
+      "28780192",
+      "28389098",
+      "28194462",
+      "28079879",
+      "27936493",
+      "27932207",
+      "27131371",
+      "27107181",
+      "26984239",
+      "26945626",
+      "26193301",
+      "25752814",
+      "25549265",
+      "25102300",
+      "24878803",
+      "24878539",
+      "24559112",
+      "24489573",
+      "24304645",
+      "24058508",
+      "23996272",
+      "23894517",
+      "23407358",
+      "23382822",
+      "23199966",
+      "23144616",
+      "22927229",
+      "22514107",
+      "20934990",
+      "20360767",
+      "19642274",
+      "19350698",
+      "19156753",
+      "19055730",
+      "18496882",
+      "18215316",
+      "17973982",
+      "17699008",
+      "17645777",
+      "17597569",
+      "17517781",
+      "17252308",
+      "17207271",
+      "17045707",
+      "15980527",
+      "15863899",
+      "15264254",
+      "15183049",
+      "12801798",
+      "12571259",
+      "12195562",
+      "12023344",
+      "11579220",
+      "11050440",
+      "10027275",
+      "9315485",
+      "9008363",
+      "8743705",
+      "8108378",
+      "7630882",
+      "7462208",
+      "2552162"
+    ],
+    "similar": [
+      "34117331",
+      "38780076",
+      "30619353",
+      "25575128",
+      "35918631",
+      "23499609",
+      "28780192",
+      "20878127",
+      "32114254",
+      "24174302",
+      "26390407",
+      "31645650",
+      "34308516",
+      "10630789",
+      "20539319",
+      "27693214",
+      "19386711",
+      "10999722",
+      "19651174",
+      "34425197",
+      "22971245",
+      "11267969",
+      "27889616",
+      "19901562",
+      "30743204",
+      "29159802",
+      "10746552",
+      "24142729",
+      "31394292",
+      "24512916",
+      "18172268",
+      "25756550",
+      "18473731",
+      "12905010",
+      "22032938",
+      "20603135",
+      "17291642",
+      "28196735",
+      "18172269",
+      "17202676",
+      "17096336",
+      "24824905",
+      "35681036",
+      "33651712",
+      "28389098",
+      "34326355",
+      "8564975",
+      "22684521",
+      "24058440",
+      "29029939",
+      "17310816",
+      "10684306",
+      "27515281",
+      "19799841",
+      "30634893",
+      "24761845",
+      "29253673",
+      "24885328",
+      "33599191",
+      "27640170",
+      "7544248",
+      "15535411",
+      "32554612",
+      "32581060",
+      "19126233",
+      "37146081",
+      "26386540",
+      "31170937",
+      "11673561",
+      "32856858",
+      "31962160",
+      "22486305",
+      "23615841",
+      "26212000",
+      "23027427",
+      "30593739",
+      "23211628",
+      "19740332",
+      "36376215",
+      "32547541",
+      "12473576",
+      "31522782",
+      "32316826",
+      "19555999",
+      "29314780",
+      "25269453",
+      "38314087",
+      "17241713",
+      "31138240",
+      "16808432",
+      "18785210",
+      "15589586",
+      "38905717",
+      "38617694",
+      "39039819",
+      "38675774",
+      "37584493",
+      "39091165",
+      "39290119",
+      "38397105",
+      "32347457",
+      "38248954",
+      "38371523",
+      "38494264",
+      "36371806",
+      "34696187",
+      "38522058",
+      "39296802"
+    ],
+    "review": [
+      "34117331",
+      "27889616"
+    ],
+    "pmc": [
+      "8196015"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-91997-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34117331/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34117331",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

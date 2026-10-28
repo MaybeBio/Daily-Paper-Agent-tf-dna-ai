@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered inter-domain and inter-subdomain linkers in bacterial GntR-family transcription factors can act as sensors for carbohydrate metabolites. Using molecular dynamics simulations and sequential flexible docking, they report that these linkers bind carbohydrates with affinities comparable to nonspecific interactions, form multimolecular clusters in the UxuR monomer, and exhibit distinct binding modes across six studied transcription factors. They conclude that such linker-carbohydrate interactions may represent a general mechanism for metabolic signal integration in bacteria.
+- **Visible evidence base** Results sections 2.1–2.2, Figures 1–10 (referenced but not provided), Supplementary Figure S1 (referenced but not provided), Materials and Methods sections 4.1–4.5
+- **Missing materials affecting confidence** All figures and supplementary materials are referenced but not included in the provided text. Experimental validation data, if any, are absent. Statistical details beyond those described in Methods are not available. The docking scoring function parameters and MD simulation convergence criteria are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question about the role of intrinsically disordered regions in bacterial transcription factor regulation. The computational approach combining MD simulations with sequential docking is reasonable as an exploratory strategy. However, the central claims are supported only by in silico predictions with no experimental validation, and several methodological details raise concerns about the robustness of the conclusions. The statistical framework for distinguishing specific from nonspecific binding is described but the application appears inconsistent across different protein systems. The manuscript would benefit from clearer articulation of the biological significance and from acknowledgment of the speculative nature of the proposed regulatory model.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcription regulation, particularly those interested in GntR-family regulators and metabolic sensing. The work may also appeal to computational biologists developing methods for studying protein-carbohydrate interactions and intrinsically disordered proteins. The proposed concept of disordered linkers as metabolite sensors could be of interest to the broader IDP community, though the lack of experimental validation limits immediate impact.
+- **Major strengths** The study addresses a novel and potentially important question about the functional role of disordered regions in bacterial transcription factors. The use of multiple protein systems provides some comparative power. The authors acknowledge limitations of computational approaches and attempt to control for nonspecific binding through statistical thresholds. The sequential docking protocol is an interesting methodological choice that may capture cooperative or clustering effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "our results establish flexible linkers as pivotal metabolic sensors that directly integrate nutritional cues to alter gene expression in bacteria."
+  - **Evidence pointer** Abstract, Discussion section
+  - **Concern** The central conclusion is stated with strong causal language ("establish... pivotal metabolic sensors... directly integrate") but is based entirely on computational docking predictions. No experimental evidence is provided to demonstrate that carbohydrate binding to these linkers actually occurs in vivo, that it affects transcription factor function, or that it alters gene expression. The docking results show binding affinities that the authors themselves describe as "comparable to nonspecific interactions" for most cases, which does not support the strong claim of functional significance.
+  - **Why it matters** The title and abstract promise a mechanistic understanding of carbohydrate sensing by disordered regions. The evidence presented cannot distinguish between biologically meaningful binding and computational artifacts of the docking protocol. Overstating conclusions from in silico data without experimental support undermines the scientific credibility of the work.
+  - **Resolution test** The authors should either substantially temper the language to reflect the speculative nature of the findings, or provide experimental validation (e.g., NMR, ITC, mutagenesis coupled with reporter assays) demonstrating that linker-carbohydrate interactions occur and have functional consequences in cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "the highest binding affinity, which was statistically significant against the background, was observed for ligands bound to the linker region of the 50 ns model in the first round of docking" and use a threshold of 3 standard deviations above the mean of nonspecific binding to identify significant interactions.
+  - **Evidence pointer** Section 2.1.1, Section 4.5
+  - **Concern** The statistical framework for identifying specific binding is problematic. The authors pool binding affinities from different time points and different protein regions to establish a "background" level, but the number of data points contributing to this background is not clearly stated. More critically, the threshold of 3 standard deviations is applied inconsistently: for UxuR, most linker interactions are described as not exceeding this threshold, yet the authors still claim "clear preferential occupancy." For other proteins, the same threshold appears to be used differently. The statistical treatment does not account for multiple comparisons across the many docking poses and protein conformations tested.
+  - **Why it matters** The distinction between specific and nonspecific binding is central to the paper's thesis. If the statistical framework is not robust, the claims about which interactions are meaningful cannot be evaluated. The inconsistent application of the stated criteria undermines confidence in the reported results.
+  - **Resolution test** Provide a clear description of how background binding was calculated, how many data points were used, and how the 3-standard-deviation threshold was applied uniformly across all proteins and time points. Consider using multiple-testing corrections or alternative statistical approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The authors state that "the mere presence of an unstructured region in the polypeptide chain is an insufficient criterion to predict or exclude its capacity for ligand binding" and that "protein chain flexibility alone is insufficient to ensure carbohydrate binding."
+  - **Evidence pointer** Discussion section, Sections 2.2.1–2.2.3
+  - **Concern** This conclusion is presented as a key finding, but the data do not clearly support it. The authors studied only six proteins, all from the GntR family, and used only D-glucose for five of them. The observation that AraR showed low binding to linkers outside its main pocket while GntR showed higher binding could reflect differences in the specific amino acid sequences of the linkers rather than a general principle about flexibility. The claim that flexibility is insufficient is not directly tested, as no comparison was made between flexible and rigid linkers of similar composition.
+  - **Why it matters** The paper appears to be making a general claim about the relationship between disorder and ligand binding, but the experimental design cannot support such a general conclusion. The limited protein set and ligand set do not provide sufficient comparative power.
+  - **Resolution test** Either expand the analysis to include a broader range of proteins and ligands, or explicitly frame the findings as case studies rather than general principles. If the claim is about flexibility specifically, design a comparison that varies flexibility while controlling for other factors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors used homology modeling for UxuR and AlphaFold models for other proteins, then subjected these to MD simulations and docking.
+  - **Evidence pointer** Sections 4.2–4.4
+  - **Concern** The manuscript does not report validation of the modeled structures. For UxuR, the template (PDB 6AZ6) is from Streptococcus agalactiae, and the sequence identity is not stated. For the AlphaFold models, no confidence metrics (pLDDT scores) are reported. The MD simulations used the Amber96 force field, which is outdated compared to current options, and the "accurate water" model is not a standard explicit water model name. The docking protocol treats all ligand bonds as flexible but does not describe how protein flexibility was handled beyond using multiple conformers.
+  - **Why it matters** The reliability of the entire computational pipeline depends on the quality of the starting structures and the appropriateness of the simulation parameters. Without validation metrics, readers cannot assess whether the observed binding modes are meaningful or artifacts of poor models or outdated force fields.
+  - **Resolution test** Report sequence identity for homology models, pLDDT confidence scores for AlphaFold models, and justify the choice of force field and water model. Consider validating the docking protocol against known ligand-bound structures (e.g., NagR with its natural effectors).
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors propose that "unstructured linkers in UxuR may function as sensors of intracellular concentrations of substrates and intermediates from central metabolic pathways" and that D-glucose binding to linkers could mediate catabolite repression.
+  - **Evidence pointer** Discussion section, Section 2.1.1
+  - **Concern** The physiological relevance of the proposed mechanism is not established. The concentrations of carbohydrates used in docking are not reported, and no attempt was made to relate docking affinities to intracellular metabolite concentrations. For UxuR, the natural effectors are D-fructuronate and D-glucuronate, yet the authors also tested D-glucose and D-galacturonate without clear justification. The claim that D-glucose could compete with natural effectors for the effector site is speculative and not supported by the data presented.
+  - **Why it matters** For the proposed regulatory mechanism to be biologically meaningful, the binding must occur at physiologically relevant concentrations and must have a demonstrated effect on transcription factor function. The manuscript does not provide this context.
+  - **Resolution test** Report the docking concentrations or relate calculated binding affinities to known intracellular metabolite concentrations. Discuss whether the proposed competition between D-glucose and natural effectors is plausible given their relative abundances in E. coli and B. subtilis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2.2, Figure 8
+  - **Evidence pointer** Section 2.2.2
+  - **Issue** The description of the NagR high-affinity site states that it corresponds to the X-ray-established effector-binding pocket, but the text does not specify which crystal structure was used for this comparison or how the correspondence was determined.
+  - **Required correction** Provide the PDB identifier for the ligand-bound NagR structure and describe the structural alignment method used to establish correspondence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The MD simulation section states that 78 structural models were collected but does not specify how many were from each protein or time point. The sampling interval is described as 10 ns but the total simulation length for each protein is not clearly stated.
+  - **Required correction** Provide a table or clear description of simulation lengths and number of conformers extracted for each protein system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 4.4
+  - **Evidence pointer** Section 4.4
+  - **Issue** The text states that docking was performed using "the explicit solvent model 'accurate water'" but this is not a standard term in molecular docking. It is unclear whether this refers to a specific solvation treatment in AutoDock Vina or a custom protocol.
+  - **Required correction** Clarify what "accurate water" refers to and how it was implemented in the docking protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 4.5
+  - **Evidence pointer** Section 4.5
+  - **Issue** The statistical section mentions the Shapiro-Wilk test and Mann-Whitney U test but does not report the actual p-values or effect sizes for the comparisons described in the Results.
+  - **Required correction** Include statistical results (test statistics, p-values) in the Results section where comparisons are discussed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 2.2.1
+  - **Evidence pointer** Section 2.2.1
+  - **Issue** The text states that "the E. coli GntR itself represents another example of a rare modular structure" but does not cite previous examples of such modular structures in GntR-family proteins.
+  - **Required correction** Add appropriate references to support this claim or soften the language if this is a novel observation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1–10
+  - **Evidence pointer** Referenced throughout Results
+  - **Issue** The figures are not provided in the manuscript text, making it impossible to assess the quality of the structural representations, the clarity of the binding site illustrations, or the validity of the clustering visualizations.
+  - **Required correction** Ensure figures are included in the submission and that they clearly show the described features (e.g., hydrogen bonds, cluster arrangements, structural alignments).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (overstated conclusions without experimental support), R1-M2 (inconsistent statistical framework), R1-M4 (lack of model validation and outdated force field)
+
+## Risk / unsupported claims
+- The claim that flexible linkers are "pivotal metabolic sensors that directly integrate nutritional cues to alter gene expression" is not supported by the computational evidence presented.
+- The proposal that D-glucose could compete with natural effectors for the UxuR effector site and thereby mediate catabolite repression is speculative and not tested.
+- The conclusion that "protein chain flexibility alone is insufficient to ensure carbohydrate binding" is presented as a general principle but is based on a limited set of six related proteins and one ligand for five of them.
+- The biological relevance of the observed binding affinities is not established, as no comparison to physiological metabolite concentrations is provided.
+- The claim that multimolecular clustering of carbohydrates on linkers has functional significance is not supported by any experimental or theoretical framework beyond the docking observations themselves.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39521268",
+  "title": "Exploring the spatial effects influencing the EGFR/ERK pathway dynamics with machine learning surrogate models.",
+  "authors": "Garcia, Juan A; Bouchnita, Anass",
+  "journal": "Bio Systems",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习代理模型探索EGFR/ERK通路中空间因素对转录因子激活的影响，虽涉及转录因子激活但核心是细胞内信号通路动态，非蛋白质-DNA互作或结合建模，方法为ML但对象与互作轴均不匹配。",
+  "abstract": "The fate of cells is regulated by biochemical reactions taking place inside of them, known as intracellular pathways. Cells display a variety of characteristics related to their shape, structure and contained fluid, which influences the diffusion of proteins and their interactions. To gain insights into the spatial effects shaping intracellular regulation, we apply machine learning (ML) to explore a previously developed spatial model of the epidermal growth factor receptor (EGFR) signaling. The model describes the reactions between molecular species inside of cells following the transient activation of EGF receptors. To train our ML models, we conduct 10,000 numerical simulations in parallel where we calculate the cumulative activation of molecules and transcription factors under various conditions such as different diffusion speeds, inactivation rates, and cell structures. We take advantage of the low computational cost of ML algorithms to investigate the effects of cell and nucleus sizes, the diffusion speed of proteins, and the inactivation rate of the Ras molecules on the activation strength of transcription factors. Our results suggest that the predictions by both neural networks and random forests yielded minimal mean square error (MSEs), while linear generalized models displayed a significantly larger MSE. The exploration of the surrogate models has shown that smaller cell and nucleus radii as well, larger diffusion coefficients, and reduced inactivation rates increase the activation of transcription factors. These results are confirmed by numerical simulations. Our ML algorithms can be readily incorporated within multiscale models of tumor growth to embed the spatial effects regulating intracellular pathways, enabling the use of complex cell models within multiscale models while reducing the computational cost.",
+  "abstract_zh": "细胞的命运由其内部发生的生化反应所调控，这些反应被称为细胞内信号通路。细胞展现出与其形态、结构及所含液体相关的多种特性，这些特性影响蛋白质的扩散及其相互作用。为了深入了解塑造细胞内调控的空间效应，我们应用机器学习（machine learning, ML）探索先前开发的一个表皮生长因子受体（epidermal growth factor receptor, EGFR）信号传导空间模型。该模型描述了EGF受体瞬时激活后细胞内分子种类间的反应。为训练我们的ML模型，我们并行进行了10,000次数值模拟，计算了在不同扩散速度、失活速率和细胞结构等条件下分子及转录因子的累积激活情况。我们利用ML算法计算成本低的优势，研究了细胞和细胞核大小、蛋白质扩散速度以及Ras分子失活速率对转录因子激活强度的影响。我们的结果表明，神经网络和随机森林的预测均产生了最小的均方误差（mean square error, MSEs），而线性广义模型的MSE显著较大。对替代模型的探索显示，较小的细胞和细胞核半径、较大的扩散系数以及降低的失活速率会增加转录因子的激活。这些结果通过数值模拟得到证实。我们的ML算法可轻松整合到肿瘤生长的多尺度模型中，以嵌入调控细胞内信号通路的空间效应，从而在多尺度模型中使用复杂细胞模型的同时降低计算成本。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39521268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39521268/",
+  "paper_page_path": "papers/pubmed/39521268/index.html"
+}

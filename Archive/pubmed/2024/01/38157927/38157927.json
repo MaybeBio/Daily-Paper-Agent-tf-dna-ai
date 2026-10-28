@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "38157927",
+    "doi": "10.1016/j.neulet.2023.137609",
+    "title": "A multiclass extreme gradient boosting model for evaluation of transcriptomic biomarkers in Alzheimer's disease prediction."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Patients with young-onset Alzheimer's disease (AD) (before the age of 50 years old) often lack obvious imaging changes and amyloid protein deposition, which can lead to misdiagnosis with other cognitive impairments. Considering the association between immunological dysfunction and progression of neurodegenerative disease, recent research has focused on identifying blood transcriptomic signatures for precise prediction of AD. METHODS: In this study, we extracted blood biomarkers from large-scale transcriptomics to construct multiclass eXtreme Gradient Boosting models (XGBoost), and evaluated their performance in distinguishing AD from cognitive normal (CN) and mild cognitive impairment (MCI). RESULTS: Independent testing with external dataset revealed that the combination of blood transcriptomic signatures achieved an area under the receiver operating characteristic curve (AUC of ROC) of 0.81 for multiclass classification (sensitivity = 0.81; specificity = 0.63), 0.83 for classification of AD vs. CN (sensitivity = 0.72; specificity = 0.73), and 0.85 for classification of AD vs. MCI (sensitivity = 0.77; specificity = 0.73). These candidate signatures were significantly enriched in 62 chromosome regions, such as Chr.19p12-19p13.3, Chr.1p22.1-1p31.1, and Chr.1q21.2-1p23.1 (adjusted p < 0.05), and significantly overrepresented by 26 transcription factors, including E2F2, FOXO3, and GATA1 (adjusted p < 0.05). Biological analysis of these signatures pointed to systemic dysregulation of immune responses, hematopoiesis, exocytosis, and neuronal support in neurodegenerative disease (adjusted p < 0.05). CONCLUSIONS: Blood transcriptomic biomarkers hold great promise in clinical use for the accurate assessment and prediction of AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Blood transcriptomic biomarkers",
+      "EXtreme Gradient Boosting",
+      "Machine learning",
+      "Multiclass classification"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Middle Aged",
+      "*Alzheimer Disease/diagnosis/genetics",
+      "Transcriptome",
+      "*Neurodegenerative Diseases",
+      "Sensitivity and Specificity",
+      "*Cognitive Dysfunction/diagnosis/genetics",
+      "Biomarkers",
+      "Gene Expression Profiling",
+      "Magnetic Resonance Imaging/methods",
+      "Disease Progression"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yi",
+        "Shen, Shasha",
+        "Li, Xiaokai",
+        "Wang, Songlin",
+        "Xiao, Zongni",
+        "Cheng, Jun",
+        "Li, Ruifeng"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Shen S",
+        "Li X",
+        "Wang S",
+        "Xiao Z",
+        "Cheng J",
+        "Li R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China. Electronic address: zhangyi@pzhu.edu.cn.",
+        "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China.",
+        "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China.",
+        "Medical College, Panzhihua University, Panzhihua 617000, China.",
+        "Medical College, Panzhihua University, Panzhihua 617000, China.",
+        "Medical College, Panzhihua University, Panzhihua 617000, China.",
+        "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China. Electronic address: zhangyi@pzhu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Shasha",
+        "short_name": "Shen S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaokai",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Songlin",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Panzhihua University, Panzhihua 617000, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Zongni",
+        "short_name": "Xiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Panzhihua University, Panzhihua 617000, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jun",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Panzhihua University, Panzhihua 617000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruifeng",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroscience, Panzhihua University, Panzhihua 617000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuroscience letters"
+    ],
+    "journal_abbrev": [
+      "Neurosci Lett"
+    ],
+    "pub_date": "2024 Jan 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/02 11:42",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42661952",
+      "41596003",
+      "41358069",
+      "39949950",
+      "38940180"
+    ],
+    "refs": [],
+    "similar": [
+      "38157927",
+      "25844314",
+      "34864679",
+      "37491248",
+      "25194437",
+      "24634832",
+      "30654174",
+      "37833700",
+      "29017593",
+      "31078129",
+      "27046891",
+      "26599054",
+      "22485168",
+      "35457705",
+      "36736612",
+      "28527215",
+      "29174020",
+      "36938735",
+      "33884402",
+      "37801265",
+      "35311706",
+      "34628897",
+      "34000523",
+      "37405620",
+      "33586518",
+      "34958014",
+      "21718788",
+      "27383395",
+      "30561868",
+      "28259165",
+      "23478308",
+      "29242123",
+      "29054536",
+      "26318777",
+      "35563628",
+      "32643852",
+      "37120537",
+      "31347192",
+      "33646166",
+      "34118592",
+      "32119112",
+      "22927119",
+      "33172501",
+      "26298855",
+      "31063846",
+      "32604706",
+      "28328043",
+      "34328531",
+      "32677993",
+      "36922858",
+      "19416949",
+      "27183116",
+      "21814561",
+      "37170031",
+      "33569571",
+      "31837471",
+      "33544703",
+      "36765411",
+      "32333900",
+      "26003861",
+      "24338729",
+      "22579080",
+      "33843686",
+      "31683478",
+      "37423666",
+      "32829290",
+      "26868820",
+      "27523508",
+      "30115118",
+      "31350262",
+      "34657885",
+      "25052054",
+      "26444768",
+      "28534796",
+      "33016906",
+      "31985461",
+      "33164929",
+      "32241275",
+      "34492068",
+      "38007662",
+      "37834458",
+      "34260593",
+      "39210372",
+      "37334737",
+      "32065794",
+      "36624143",
+      "25127241",
+      "35601611",
+      "38427202",
+      "32962113",
+      "38796425",
+      "36463283",
+      "38089583",
+      "39309755"
+    ],
+    "review": [
+      "38157927",
+      "37801265",
+      "32119112",
+      "33172501",
+      "28328043",
+      "32677993",
+      "22579080",
+      "25052054"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3940(23)00568-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

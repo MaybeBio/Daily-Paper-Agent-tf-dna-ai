@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "38656803",
+    "doi": "10.1091/mbc.E24-01-0046",
+    "title": "Interplay of condensation and chromatin binding underlies BRD4 targeting."
+  },
+  "content": {
+    "abstract": "Nuclear compartments form via biomolecular phase separation, mediated through multivalent properties of biomolecules concentrated within condensates. Certain compartments are associated with specific chromatin regions, including transcriptional initiation condensates, which are composed of transcription factors and transcriptional machinery, and form at acetylated regions including enhancer and promoter loci. While protein self-interactions, especially within low-complexity and intrinsically disordered regions, are known to mediate condensation, the role of substrate-binding interactions in regulating the formation and function of biomolecular condensates is underexplored. Here, utilizing live-cell experiments in parallel with coarse-grained simulations, we investigate how chromatin interaction of the transcriptional activator BRD4 modulates its condensate formation. We find that both kinetic and thermodynamic properties of BRD4 condensation are affected by chromatin binding: nucleation rate is sensitive to BRD4-chromatin interactions, providing an explanation for the selective formation of BRD4 condensates at acetylated chromatin regions, and thermodynamically, multivalent acetylated chromatin sites provide a platform for BRD4 clustering below the concentration required for off-chromatin condensation. This provides a molecular and physical explanation of the relationship between nuclear condensates and epigenetically modified chromatin that results in their mutual spatiotemporal regulation, suggesting that epigenetic modulation is an important mechanism by which the cell targets transcriptional condensates to specific chromatin loci.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Acetylation",
+      "*Bromodomain Containing Proteins",
+      "*Cell Cycle Proteins/metabolism",
+      "Cell Nucleus/metabolism",
+      "*Chromatin/metabolism",
+      "*Nuclear Proteins/metabolism",
+      "Protein Binding",
+      "Thermodynamics",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Strom, Amy R",
+        "Eeftens, Jorine M",
+        "Polyachenko, Yury",
+        "Weaver, Claire J",
+        "Watanabe, Hans-Frederick",
+        "Bracha, Dan",
+        "Orlovsky, Natalia D",
+        "Jumper, Chanelle C",
+        "Jacobs, William M",
+        "Brangwynne, Clifford P"
+      ],
+      "short_names": [
+        "Strom AR",
+        "Eeftens JM",
+        "Polyachenko Y",
+        "Weaver CJ",
+        "Watanabe HF",
+        "Bracha D",
+        "Orlovsky ND",
+        "Jumper CC",
+        "Jacobs WM",
+        "Brangwynne CP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Radboud Institute for Molecular Life Sciences, Radboud University, 6525 XZ Nijmegen, Netherlands.",
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Department of Molecular and Cellular Biology, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Department of Biotechnology and Food Engineering, Technion, Haifa 3200, Israel.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Biological and Biomedical Sciences Program, Harvard University, Boston, MA 02115.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Nereid Therapeutics, Boston, MA.",
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544.",
+        "Howard Hughes Medical Institute, Chevy Chase, MD 20815."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Strom, Amy R",
+        "short_name": "Strom AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Eeftens, Jorine M",
+        "short_name": "Eeftens JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+          "Radboud Institute for Molecular Life Sciences, Radboud University, 6525 XZ Nijmegen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Polyachenko, Yury",
+        "short_name": "Polyachenko Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Weaver, Claire J",
+        "short_name": "Weaver CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+          "Department of Molecular and Cellular Biology, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Hans-Frederick",
+        "short_name": "Watanabe HF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Bracha, Dan",
+        "short_name": "Bracha D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+          "Department of Biotechnology and Food Engineering, Technion, Haifa 3200, Israel."
+        ]
+      },
+      {
+        "full_name": "Orlovsky, Natalia D",
+        "short_name": "Orlovsky ND",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+          "Biological and Biomedical Sciences Program, Harvard University, Boston, MA 02115."
+        ]
+      },
+      {
+        "full_name": "Jumper, Chanelle C",
+        "short_name": "Jumper CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+          "Nereid Therapeutics, Boston, MA."
+        ]
+      },
+      {
+        "full_name": "Jacobs, William M",
+        "short_name": "Jacobs WM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Brangwynne, Clifford P",
+        "short_name": "Brangwynne CP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544.",
+          "Howard Hughes Medical Institute, Chevy Chase, MD 20815."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology of the cell"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Cell"
+    ],
+    "pub_date": "2024 Jun 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/24 19:06",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42631548",
+      "42577824",
+      "42417395",
+      "42395540",
+      "42376709",
+      "42358499",
+      "42244740",
+      "42244706",
+      "42018247",
+      "41957181",
+      "41797539",
+      "41659683",
+      "41650233",
+      "41597193",
+      "40848932",
+      "40838526",
+      "40744496",
+      "40699931",
+      "40680734",
+      "40645941",
+      "40537661",
+      "40501777",
+      "40474478",
+      "40149571",
+      "39976773",
+      "39557835",
+      "38798655",
+      "38745698",
+      "38659757"
+    ],
+    "refs": [
+      "37788668",
+      "37705995",
+      "37684240",
+      "37454159",
+      "37073403",
+      "36603581",
+      "36594499",
+      "36400992",
+      "35740532",
+      "35710139",
+      "35149762",
+      "34966005",
+      "34949716",
+      "34697817",
+      "34552246",
+      "34326347",
+      "34303933",
+      "34001530",
+      "33651988",
+      "33462181",
+      "33414013",
+      "33048111",
+      "32929202",
+      "32805219",
+      "32499403",
+      "32302570",
+      "32203489",
+      "31922235",
+      "31630970",
+      "31065677",
+      "30633909",
+      "30500535",
+      "30471685",
+      "30466442",
+      "30449618",
+      "30428346",
+      "30339413",
+      "30049863",
+      "29930091",
+      "29650702",
+      "29628210",
+      "29364893",
+      "28935776",
+      "28484033",
+      "28225081",
+      "28115706",
+      "27443262",
+      "26776729",
+      "25755260",
+      "25288112",
+      "24927534",
+      "24860166",
+      "23995731",
+      "23582323",
+      "22743772",
+      "21555454",
+      "20871596",
+      "18844395",
+      "18809724",
+      "17519961",
+      "17452520",
+      "17286489",
+      "17155440",
+      "16407115",
+      "14617810",
+      "12840145",
+      "12543779",
+      "12192049",
+      "11911891",
+      "10978097",
+      "8557734",
+      "8446901"
+    ],
+    "similar": [
+      "38656803",
+      "39136995",
+      "31543265",
+      "30076409",
+      "21890894",
+      "36732631",
+      "23317504",
+      "24497639",
+      "24939842",
+      "37488172",
+      "17329240",
+      "22334664",
+      "31266503",
+      "30514760",
+      "23086925",
+      "12840145",
+      "38564841",
+      "24189064",
+      "30428346",
+      "34931241",
+      "19812244",
+      "32203489",
+      "36690674",
+      "34271007",
+      "24448221",
+      "37156794",
+      "19129460",
+      "25512383",
+      "16921027",
+      "32487073",
+      "19103749",
+      "37442129",
+      "36907648",
+      "38675678",
+      "23728299",
+      "37000871",
+      "30518851",
+      "19038968",
+      "22120039",
+      "32669118",
+      "27007123",
+      "27159561",
+      "32482868",
+      "38977508",
+      "25941994",
+      "37214845",
+      "30786900",
+      "29483155",
+      "29463681",
+      "28262505",
+      "34311273",
+      "36412795",
+      "31133746",
+      "18500820",
+      "27425608",
+      "28525743",
+      "20495683",
+      "38316778",
+      "34611363",
+      "37924814",
+      "33431820",
+      "34326347",
+      "25691659",
+      "35881789",
+      "37986225",
+      "38601157",
+      "31409188",
+      "20676058",
+      "32650006",
+      "25788266",
+      "36841551",
+      "27450555",
+      "30970245",
+      "26858406",
+      "24100334",
+      "37846578",
+      "29662175",
+      "35687908",
+      "26847871",
+      "33672806",
+      "35410381",
+      "28681984",
+      "35293386",
+      "25383670",
+      "32149490",
+      "19846528",
+      "25140737",
+      "38606512",
+      "27494802",
+      "32405004",
+      "34039605",
+      "35904816",
+      "23144621",
+      "32243828",
+      "21814200",
+      "26989780",
+      "16339075",
+      "24403256",
+      "36758221",
+      "32684431",
+      "36522330",
+      "36272410",
+      "39282413",
+      "37738977",
+      "37992275",
+      "38181073",
+      "39300145",
+      "38766065",
+      "37349246",
+      "39082979",
+      "35887384",
+      "39131356",
+      "38076908",
+      "37218279",
+      "37486948",
+      "36819870",
+      "39413416",
+      "39418394",
+      "36320904"
+    ],
+    "review": [
+      "38656803",
+      "17329240",
+      "38564841",
+      "34271007",
+      "34311273",
+      "27450555",
+      "37846578",
+      "32684431",
+      "37349246",
+      "39082979",
+      "35887384"
+    ],
+    "pmc": [
+      "11238092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.molbiolcell.org/doi/10.1091/mbc.E24-01-0046?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38656803/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38656803/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38656803",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

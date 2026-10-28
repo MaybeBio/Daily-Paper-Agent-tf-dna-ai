@@ -1,0 +1,467 @@
+{
+  "identity": {
+    "pmid": "42549977",
+    "doi": "10.1002/ejp.70343",
+    "title": "SARS-CoV-2 Spike Peptides Trigger Nociceptive Responses Through Spinal TLR4 Pathways."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pain is a common neurological manifestation of COVID-19, yet the mechanisms by which SARS-CoV-2 spike protein fragments contribute to nociceptive processing remain poorly understood. We investigated whether spike-derived peptides directly activate spinal neuroimmune pathways involved in pain signalling. METHODS: Male C57BL/6 mice received intrathecal administration of three synthetic SARS-CoV-2 spike-derived peptides (PSPD2001, PSPD2002 or PSPD2003) or saline. Mechanical nociception was assessed using the von Frey test. The involvement of spinal Toll-like receptor 4 (TLR4), microglia and p38 MAPK/NF-kappaB signalling was investigated using pharmacological antagonists, TLR4 knockout mice, RT-qPCR, ELISA, immunofluorescence, CX3CR1(GFP/+) mice, human C20 microglial cells and molecular dynamics simulations. RESULTS: All spike-derived peptides induced mechanical nociception, with PSPD2003 producing the most pronounced response. PSPD2003 increased spinal TLR4 expression, elevated TNF-alpha and IL-6 levels and promoted activation of dorsal horn microglia, demonstrated by increased TMEM119- and CX3CR1-positive cells. These nociceptive and neuroinflammatory effects were abolished by pharmacological inhibition of TLR4, microglia, p38 MAPK and NF-kappaB signalling, as well as in TLR4(-/-) mice, demonstrating that TLR4 signalling is essential for PSPD2003-induced pain. PSPD2003 also induced a hypertrophic phenotype in human microglial cells, while molecular dynamics simulations supported a stable interaction with the TLR4/MD-2 complex. CONCLUSIONS: These findings identify a previously unrecognized neuroimmune mechanism whereby a SARS-CoV-2 spike-derived peptide triggers spinal nociception through TLR4-dependent microglial activation and downstream p38 MAPK/NF-kappaB signalling, highlighting the spinal TLR4-microglia axis as a potential therapeutic target for COVID-19-associated and post-viral pain. SIGNIFICANCE STATEMENT: This study provides the first evidence that SARS-CoV-2 spike-derived peptides directly activate a spinal TLR4-dependent neuroimmune pathway to induce nociception. By integrating behavioural, pharmacological, genetic, cellular and computational approaches, it identifies microglial activation and p38 MAPK/NF-kappaB signalling as key mechanisms linking viral peptides to pain, providing a mechanistic framework for COVID-19- and post-viral pain and supporting TLR4 as a potential therapeutic target.",
+    "keywords": [
+      "cytokines",
+      "microglia",
+      "pain",
+      "spike protein",
+      "toll-like 4 receptors"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Toll-Like Receptor 4/metabolism/genetics",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Signal Transduction/drug effects",
+      "Microglia/metabolism/drug effects",
+      "*Spike Glycoprotein, Coronavirus/pharmacology/metabolism",
+      "Mice, Knockout",
+      "Humans",
+      "*Spinal Cord/metabolism/drug effects",
+      "*Nociception/drug effects/physiology",
+      "*COVID-19/complications/metabolism",
+      "NF-kappa B/metabolism",
+      "SARS-CoV-2",
+      "p38 Mitogen-Activated Protein Kinases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Silva, Bruno Eduardo",
+        "Cardoso, Rayner Ribeiro",
+        "Rosario, Livia Maria Ribeiro",
+        "Prado, Joao Paulo",
+        "Dos Santos, Rafaela Silva",
+        "Veras, Flavio Protasio",
+        "de Souza, Mylena",
+        "Cilli, Eduardo Maffud",
+        "Olivier, Danilo",
+        "de Andrade Belo, Marco Antonio",
+        "Charlie-Silva, Ives",
+        "Caixeta, Ester Siqueira",
+        "Barchuk, Angel Roberto",
+        "Nunes-Silva, Albena",
+        "Romero, Thiago Roberto Lima",
+        "Galdino, Giovane"
+      ],
+      "short_names": [
+        "Silva BE",
+        "Cardoso RR",
+        "Rosario LMR",
+        "Prado JP",
+        "Dos Santos RS",
+        "Veras FP",
+        "de Souza M",
+        "Cilli EM",
+        "Olivier D",
+        "de Andrade Belo MA",
+        "Charlie-Silva I",
+        "Caixeta ES",
+        "Barchuk AR",
+        "Nunes-Silva A",
+        "Romero TRL",
+        "Galdino G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1898-1973"
+      ],
+      "affiliations": [
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Unesp - Institute of Chemistry - Araraquara Campus, Sao Paulo, Brazil.",
+        "Department of Physics and Interdisciplinary Technologies, Federal University of Northern Tocantins, Araguaina, Brazil.",
+        "Brasil University, Descalvado, Sao Paulo, Brazil.",
+        "Unesp - Institute of Chemistry - Araraquara Campus, Sao Paulo, Brazil.",
+        "Department of Cellular and Developmental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Insect Molecular Biology Laboratory, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil.",
+        "Inflammation and Exercise Immunology Laboratory, Federal University of Ouro Preto, Physical Education School, Ouro Preto, Minas Gerais, Brazil.",
+        "Laboratory of Pain and Analgesia, Pharmacology Department, Federal University of Minas Gerais, Belo Horizonte, Minas Gerais, Brazil.",
+        "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Silva, Bruno Eduardo",
+        "short_name": "Silva BE",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Cardoso, Rayner Ribeiro",
+        "short_name": "Cardoso RR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Rosário, Lívia Maria Ribeiro",
+        "short_name": "Rosário LMR",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Prado, João Paulo",
+        "short_name": "Prado JP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Dos Santos, Rafaela Silva",
+        "short_name": "Dos Santos RS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Veras, Flávio Protasio",
+        "short_name": "Veras FP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Souza, Mylena",
+        "short_name": "de Souza M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Cilli, Eduardo Maffud",
+        "short_name": "Cilli EM",
+        "identifiers": [],
+        "affiliations": [
+          "Unesp - Institute of Chemistry - Araraquara Campus, Sao Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Olivier, Danilo",
+        "short_name": "Olivier D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Interdisciplinary Technologies, Federal University of Northern Tocantins, Araguaína, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Andrade Belo, Marco Antonio",
+        "short_name": "de Andrade Belo MA",
+        "identifiers": [],
+        "affiliations": [
+          "Brasil University, Descalvado, Sao Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Charlie-Silva, Ives",
+        "short_name": "Charlie-Silva I",
+        "identifiers": [],
+        "affiliations": [
+          "Unesp - Institute of Chemistry - Araraquara Campus, Sao Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Caixeta, Ester Siqueira",
+        "short_name": "Caixeta ES",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Developmental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Barchuk, Angel Roberto",
+        "short_name": "Barchuk AR",
+        "identifiers": [],
+        "affiliations": [
+          "Insect Molecular Biology Laboratory, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Nunes-Silva, Albená",
+        "short_name": "Nunes-Silva A",
+        "identifiers": [],
+        "affiliations": [
+          "Inflammation and Exercise Immunology Laboratory, Federal University of Ouro Preto, Physical Education School, Ouro Preto, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Romero, Thiago Roberto Lima",
+        "short_name": "Romero TRL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pain and Analgesia, Pharmacology Department, Federal University of Minas Gerais, Belo Horizonte, Minas Gerais, Brazil."
+        ]
+      },
+      {
+        "full_name": "Galdino, Giovane",
+        "short_name": "Galdino G",
+        "identifiers": [
+          "0000-0002-1898-1973"
+        ],
+        "affiliations": [
+          "Laboratory of Neuroimmunobiology of Pain, Center for Experimental Biology, Federal University of Alfenas, Alfenas, Minas Gerais, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pain (London, England)"
+    ],
+    "journal_abbrev": [
+      "Eur J Pain"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 12:46",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42243476",
+      "39438166",
+      "38287815",
+      "37626838",
+      "37477768",
+      "37198208",
+      "36662582",
+      "36602945",
+      "36198765",
+      "35987639",
+      "35510852",
+      "35176442",
+      "35069187",
+      "34915155",
+      "34801852",
+      "34709564",
+      "34671606",
+      "34281186",
+      "33922372",
+      "33537521",
+      "33505220",
+      "33089477",
+      "33039603",
+      "32939611",
+      "32805734",
+      "32574292",
+      "32574246",
+      "32505227",
+      "32387617",
+      "32383269",
+      "32376634",
+      "32362314",
+      "32325167",
+      "32173863",
+      "32142651",
+      "32134681",
+      "32123347",
+      "32094589",
+      "32087334",
+      "32052514",
+      "32022370",
+      "32020836",
+      "32007145",
+      "31987001",
+      "31969159",
+      "31714766",
+      "30760929",
+      "30626502",
+      "29358565",
+      "28987324",
+      "28930663",
+      "28585113",
+      "28541408",
+      "27854291",
+      "27281131",
+      "26935699",
+      "26884166",
+      "26785684",
+      "26583988",
+      "26457222",
+      "26250788",
+      "25788871",
+      "25720466",
+      "17275323",
+      "17026985",
+      "16200636",
+      "15980491",
+      "15229469",
+      "12618301",
+      "11328886",
+      "9353718",
+      "6893963",
+      "6877845"
+    ],
+    "similar": [
+      "42549977",
+      "34709564",
+      "38384464",
+      "40449268",
+      "31898581",
+      "41508081",
+      "28668500",
+      "24751148",
+      "41643872",
+      "32393298",
+      "39216684",
+      "36316366",
+      "34915155",
+      "32171293",
+      "41981193",
+      "24984884",
+      "39276055",
+      "41972683",
+      "31987711",
+      "42580642",
+      "33418303",
+      "39331354",
+      "23386616",
+      "38552431",
+      "23900131",
+      "41555584",
+      "20071520",
+      "22394415",
+      "21955045",
+      "30778044",
+      "22330023",
+      "32460188",
+      "21449918",
+      "41880679",
+      "38504301",
+      "34416296",
+      "39322089",
+      "29763588",
+      "34517275",
+      "32645395",
+      "19776284",
+      "26838598",
+      "18237405",
+      "25400125",
+      "33730389",
+      "39195221",
+      "42596619",
+      "35131015",
+      "38621907",
+      "37244377",
+      "31867739",
+      "40549076",
+      "15467214",
+      "31590042",
+      "42418294",
+      "39359733",
+      "41192110",
+      "42015637",
+      "33505220",
+      "28957799",
+      "33607128",
+      "29656686",
+      "29128611",
+      "36243579",
+      "26472019",
+      "23234315",
+      "38636801",
+      "39970710",
+      "23973554",
+      "41723296",
+      "31236964",
+      "24686047",
+      "25130721",
+      "42406171",
+      "18006062",
+      "25695672",
+      "20524966",
+      "40830888",
+      "31182996",
+      "31319868",
+      "27737814",
+      "39147173",
+      "20610553",
+      "32964428",
+      "23489833",
+      "35180397",
+      "33936086",
+      "28677369",
+      "42511647",
+      "24756886",
+      "20609517",
+      "39267167",
+      "28778443",
+      "42595760",
+      "34645689",
+      "34780863",
+      "32173863",
+      "39549469",
+      "23680572",
+      "38800857"
+    ],
+    "review": [
+      "42549977",
+      "33505220"
+    ],
+    "pmc": [
+      "13435826"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42549977/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ejp.70343",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

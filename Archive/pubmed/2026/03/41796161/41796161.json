@@ -1,0 +1,425 @@
+{
+  "identity": {
+    "pmid": "41796161",
+    "doi": "10.1038/s41598-026-41592-2",
+    "title": "Network toxicology study and key target validation of chlorpyrifos-induced nonalcoholic fatty liver disease."
+  },
+  "content": {
+    "abstract": "Chlorpyrifos (CPF) is a widely used insecticide known for its extended persistence in soil and water. It can induce non-alcoholic fatty liver disease (NAFLD) in mice. However, the specific molecular mechanisms responsible for CPF-induced NAFLD remain partially understood. Utilizing network toxicology analysis, we have identified TP53, HSP90AA1, AKT1, and JUN as pivotal driver genes orchestrating NAFLD progression triggered by CPF. A predictive nomogram constructed on these core genes demonstrates promising translational prospects for NAFLD. Gene-set enrichment analysis (GSEA) underscores the significance of the tricarboxylic acid (TCA) cycle and histidine metabolism as critical pathways associated with CPF-induced NAFLD. Evaluation of immune infiltration patterns reveals notable changes in the immunological milieu and accelerated disease advancement in CPF-induced NAFLD. Molecular docking and dynamic simulations provide support for the formation of stable complexes between CPF and proteins encoded by the identified core genes. Ultimately, biomedical experiments confirmed that CPF exacerbates the pathological progression of NAFLD by stabilizing HSP90AA1 protein and promoting the phosphorylation of TP53 and JUN. This study elucidates the molecular mechanisms underpinning CPF-induced NAFLD, providing a theoretical foundation for comprehending its pathogenesis.",
+    "keywords": [
+      "Chlorpyrifos",
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Network toxicology",
+      "Non-alcoholic fatty liver disease"
+    ],
+    "mesh_terms": [
+      "*Non-alcoholic Fatty Liver Disease/chemically induced/pathology/metabolism/genetics",
+      "*Chlorpyrifos/toxicity",
+      "Animals",
+      "Molecular Docking Simulation",
+      "*Insecticides/toxicity",
+      "Mice",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "HSP90 Heat-Shock Proteins/metabolism/genetics",
+      "Male",
+      "Liver/pathology/drug effects/metabolism",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yapeng",
+        "Zhang, Zhengwei",
+        "Li, Hongji",
+        "Zhang, Guixin",
+        "Ren, Junting",
+        "Gong, Manyu",
+        "Li, Haodong",
+        "Sun, Shibo",
+        "Zhang, Ying",
+        "Li, Na",
+        "Chen, Xiaoning"
+      ],
+      "short_names": [
+        "Li Y",
+        "Zhang Z",
+        "Li H",
+        "Zhang G",
+        "Ren J",
+        "Gong M",
+        "Li H",
+        "Sun S",
+        "Zhang Y",
+        "Li N",
+        "Chen X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China.",
+        "Qingdao Cardiovascular Hospital, Qingdao, 266000, China.",
+        "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China.",
+        "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China.",
+        "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China. shibosun8@hrbmu.edu.cn.",
+        "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China. 101153@hrbmu.edu.cn.",
+        "Public Health Institute of Harbin Medical University, Harbin, 150081, China. 490235647@qq.com.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China. wfqcxn@hrbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yapeng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhengwei",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongji",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guixin",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Cardiovascular Hospital, Qingdao, 266000, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Junting",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Manyu",
+        "short_name": "Gong M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haodong",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Shibo",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China. shibosun8@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (National Key Laboratory of Frigid Zone Cardiovascular Diseases, the State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, 150081, China. 101153@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Na",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "Public Health Institute of Harbin Medical University, Harbin, 150081, China. 490235647@qq.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaoning",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, 150081, China. wfqcxn@hrbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Mar 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/09 07:42",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40360368",
+      "40311720",
+      "40281607",
+      "40113187",
+      "39951946",
+      "39894865",
+      "39821400",
+      "39461344",
+      "39417505",
+      "39368758",
+      "39360667",
+      "39277582",
+      "39153206",
+      "39126794",
+      "38777049",
+      "38552389",
+      "38494025",
+      "38486191",
+      "38430593",
+      "38191266",
+      "37788552",
+      "37703754",
+      "37634732",
+      "37633951",
+      "37606291",
+      "37240431",
+      "36918564",
+      "36759837",
+      "36738973",
+      "36715540",
+      "36493610",
+      "36334331",
+      "36012565",
+      "35836570",
+      "35772841",
+      "35693550",
+      "34949345",
+      "34890795",
+      "34850865",
+      "34808393",
+      "34659125",
+      "34568346",
+      "34453052",
+      "34278794",
+      "33613981",
+      "33485193",
+      "33310018",
+      "33045195",
+      "32768820",
+      "32712221",
+      "32576198",
+      "31686003",
+      "31441146",
+      "31155494",
+      "31013265",
+      "30931480",
+      "30744700",
+      "30551393",
+      "30476243",
+      "29344893",
+      "29266399",
+      "28791702",
+      "28717418",
+      "28645738",
+      "28373059",
+      "28190264",
+      "27247223",
+      "26728044",
+      "26574453",
+      "25183267",
+      "24556010",
+      "24492282",
+      "23407358",
+      "22257669",
+      "22152305",
+      "21525818",
+      "21414208",
+      "21269502",
+      "20956972",
+      "20045153",
+      "16250043",
+      "15604409",
+      "15116359",
+      "14985341",
+      "14597658",
+      "12787779",
+      "11123888",
+      "10592173"
+    ],
+    "similar": [
+      "41796161",
+      "40615099",
+      "42313742",
+      "42476233",
+      "38906030",
+      "42297765",
+      "36451177",
+      "41731716",
+      "39730994",
+      "41731169",
+      "42554914",
+      "37023836",
+      "36389420",
+      "39510336",
+      "39490432",
+      "41496238",
+      "38038388",
+      "38994616",
+      "37863399",
+      "41547913",
+      "37317908",
+      "41933745",
+      "40294666",
+      "30343673",
+      "41539557",
+      "40553824",
+      "42176029",
+      "41470792",
+      "41814740",
+      "32184169",
+      "41022594",
+      "37506783",
+      "30473026",
+      "36040357",
+      "24927728",
+      "42051095",
+      "40074804",
+      "39778783",
+      "41286425",
+      "33771638",
+      "32623384",
+      "41378206",
+      "39186724",
+      "40354830",
+      "39351239",
+      "39752966",
+      "40220422",
+      "41044206",
+      "42162172",
+      "37440274",
+      "41175590",
+      "41271048",
+      "36610145",
+      "38763008",
+      "39264080",
+      "33415161",
+      "39120856",
+      "38941818",
+      "39820544",
+      "32208163",
+      "34894722",
+      "41240264",
+      "39496918",
+      "40907406",
+      "39481627",
+      "40873177",
+      "30466110",
+      "41763618",
+      "42508109",
+      "42588199",
+      "32535386",
+      "33548387",
+      "30536914",
+      "42565569",
+      "42609119",
+      "40961596",
+      "31974594",
+      "32955216",
+      "41198811",
+      "37562090",
+      "29466788",
+      "35538760",
+      "39978254",
+      "40617307",
+      "39299533",
+      "42123354",
+      "27318147",
+      "41628143",
+      "40349961",
+      "30327349",
+      "41297725",
+      "39127115",
+      "41806388",
+      "40570552",
+      "38630029",
+      "40759079",
+      "40539070",
+      "37822923",
+      "36121703",
+      "32554245"
+    ],
+    "review": [
+      "41796161",
+      "30473026"
+    ],
+    "pmc": [
+      "13087151"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-41592-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41796161/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

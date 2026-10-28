@@ -1,0 +1,102 @@
+## Review setup
+
+- **Input scope** Full manuscript text (preprint version, arXiv:2107.08931v1), including Introduction, Results, Discussion, and Materials and Methods sections. No figures or tables were provided, only the text describing them.
+- **Assessment boundary** The scientific claims, methodological soundness, and internal consistency of the computational study as presented in the supplied text. No assessment of the published version in Biomolecules is made.
+- **Shared manuscript claim summary** The authors propose a computational pipeline combining molecular dynamics (MD) simulations and Zernike polynomial-based shape complementarity analysis to identify putative binding regions on TDP-43 C-terminal fragments (CTFs), specifically the RRM2 domain fragments, that may mediate aggregation in Amyotrophic Lateral Sclerosis (ALS). They report equilibrium conformations for the whole RRM2 and two fragments (A and B) and propose specific residue-level binding and beta-strand regions.
+- **Visible evidence base** Text descriptions of MD simulation protocols, clustering analyses, Zernike descriptor methodology, and a table listing proposed binding and beta-strand regions per conformation. References to figures (Figure 1, 2, 3, 4) and Table 1 are made but the actual figures and table are not included in the provided material.
+- **Missing materials affecting confidence** All figures and Table 1 are referenced but not provided. This includes the structural representations, PCA/clustering results, binding propensity maps, and the complete list of proposed regions. Without these, the quantitative results and visual evidence cannot be independently evaluated.
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a potentially useful computational framework for identifying candidate interaction interfaces on TDP-43 CTFs, a topic of relevance to ALS research. The combination of long-timescale MD simulations with a geometric shape complementarity approach is reasonable and the authors are transparent about the exploratory nature of the work. However, the current evidence base is insufficient to fully evaluate the validity of the proposed binding regions. Key quantitative results, validation against known experimental data, and a clear demonstration that the method distinguishes true interactors from decoys in this specific system are not presented in the supplied text. The manuscript reads more as a methodological proposal with preliminary findings than a fully established case for specific aggregation-driving interfaces.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 proteinopathy, particularly those focused on the molecular mechanisms of TDP-43 aggregation in ALS and frontotemporal dementia. Computational biophysicists interested in protein-protein interaction prediction methods based on shape complementarity would also find the approach relevant. Additionally, groups working on rational design of aggregation inhibitors or RNA aptamers targeting TDP-43 could use the proposed regions as a starting point for experimental validation.
+- **Major strengths** The study addresses a biologically important and timely question regarding TDP-43 CTF aggregation. The use of 10 microsecond MD simulations for each system is computationally substantial and appropriate for exploring conformational ensembles of relatively small fragments. The Zernike polynomial method is a sophisticated and efficient approach for quantifying surface shape complementarity, and the authors correctly note that shape complementarity is a necessary but not sufficient condition for binding. The authors are appropriately cautious in framing the results as proposals for future experimental testing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims to identify specific binding regions on TDP-43 CTF fragments that could drive aggregation, with results summarized in Table 1.
+  - **Evidence pointer** Table 1, Figures 2 and 3, Section II.3
+  - **Concern** The central results of the paper, namely the proposed binding and beta-strand regions listed in Table 1, cannot be evaluated because Table 1 and the associated figures are not included in the provided material. The text alone does not provide sufficient quantitative detail, such as the numerical binding propensity values, the criteria for threshold selection, or the statistical significance of the identified regions over random surface patches. Without this information, the claim that these specific residues constitute high-confidence interaction interfaces is not verifiable.
+  - **Why it matters** The proposed binding regions are the primary output of the study and the basis for future experimental work. If the selection criteria are not transparent or the regions are not robustly distinguished from non-interacting surface patches, the utility of the findings is substantially diminished.
+  - **Resolution test** Provide Table 1 and Figures 2 and 3 with full quantitative detail, including binding propensity distributions, a comparison against a decoy set or randomized surfaces, and a clear statement of the threshold used to define a "binding region."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and benchmarking
+  - **Claim pointer** The authors state that the Zernike method has been previously shown to recognize interacting surface portions from non-interacting patches, citing Milanetti et al. 2021, and apply it here to predict CTF-CTF interactions.
+  - **Evidence pointer** Section II.2, references to Milanetti et al. 2021
+  - **Concern** No validation is presented within this manuscript demonstrating that the Zernike complementarity approach performs well specifically for intrinsically disordered or partially folded protein fragments such as the TDP-43 CTFs. The cited prior work may have been validated on globular protein complexes, and the transferability to partially disordered systems is not trivial. Additionally, there is no benchmarking against known TDP-43 aggregation data, experimental structures of aggregates, or alternative computational predictions.
+  - **Why it matters** The predictive power of the method in this specific context is unknown. If the method has high false-positive rates for disordered fragments, the proposed regions may not be biologically meaningful.
+  - **Resolution test** Include a validation section where the method is tested on a set of known protein-protein complexes involving disordered regions, or compare predictions against experimentally mapped TDP-43 aggregation interfaces from the literature.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance and mechanistic insight
+  - **Claim pointer** The authors propose that the identified beta-strand regions could form steric zippers at the core of amyloid fibril formation, following the cross-beta model.
+  - **Evidence pointer** Section I, Section II.3, Figure 1
+  - **Concern** The connection between the identified shape-complementary regions and the actual amyloid aggregation mechanism is speculative. The cross-beta spine model requires specific interdigitation of side chains, which is not directly assessed by the Zernike shape complementarity analysis. The authors do not demonstrate that the proposed beta-strand regions are capable of forming the required steric zipper geometry, nor do they discuss whether the conformational ensembles sampled in the MD simulations are compatible with amyloidogenic states.
+  - **Why it matters** The biological interpretation of the results depends on the relevance of the identified regions to the aggregation mechanism. If the regions are merely shape-complementary but not capable of supporting amyloid-like interactions, the significance of the findings for ALS pathology is unclear.
+  - **Resolution test** Perform additional analysis, such as evaluating the propensity of the proposed beta-strand regions to form steric zippers using established prediction tools, or discuss how the identified regions relate to known amyloidogenic segments in TDP-43.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors state that the whole RRM2 and fragments A and B were simulated for 10 microseconds each, and that clustering on the first two principal components was used to identify representative conformations.
+  - **Evidence pointer** Section II.1, Section IV.2
+  - **Concern** The text does not specify how many independent MD simulations were performed, whether the simulations were replicated, or how convergence was assessed. A single 10 microsecond trajectory per system may not be sufficient to sample the conformational space of even a small fragment, particularly if the fragment is partially disordered. The choice of using only the first two principal components for clustering is also not justified, as this may discard relevant conformational heterogeneity.
+  - **Why it matters** The reliability of the equilibrium conformations used for surface analysis depends on adequate sampling. If the conformations are not representative of the true ensemble, the subsequent binding region predictions may be based on non-representative structures.
+  - **Resolution test** Provide details on simulation replicates, convergence metrics (e.g., RMSD plateau, PCA eigenvalue analysis), and a justification for the number of principal components used in clustering.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Section IV.2, MD simulation parameters
+  - **Evidence pointer** Section IV.2
+  - **Issue** The text states that the systems were minimized with a certain number of steps and a force limit, but the energy minimization algorithm is not specified beyond "steepest descent." The thermalization and pressurization steps are described as 0.1 ns each, but the equilibration protocol is not fully detailed.
+  - **Required correction** Specify the full equilibration protocol, including the number of steps, the thermostat and barostat coupling constants, and whether any positional restraints were applied during equilibration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section IV.2, force field and water model
+  - **Evidence pointer** Section IV.2
+  - **Issue** The CHARMM-27 force field is used with TIP3P water, which is a common combination, but the text also mentions the SPC/E water model when discussing density values. This is confusing and may be an error.
+  - **Required correction** Clarify which water model was used for the simulations and correct any inconsistency in the density comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section II.3, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table listing binding and beta-strand regions is presented in the text in a compact format that is difficult to parse. The distinction between "binding region" and "beta-strand region" is not always clear, and the criteria for assigning residues to one category or the other are not stated.
+  - **Required correction** Present Table 1 in a clearer format with column headers, and add a legend explaining the criteria for classifying residues as binding or beta-strand regions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Section I, Introduction
+  - **Evidence pointer** Section I
+  - **Issue** The phrase "t Zuo et al. 2021" appears to be a typographical error, likely intended as "see Zuo et al. 2021."
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Section IV.4, Zernike method parameters
+  - **Evidence pointer** Section IV.4
+  - **Issue** The maximum expansion order n for the Zernike polynomials is not specified. This parameter affects the resolution of the shape descriptors and should be stated.
+  - **Required correction** Specify the maximum expansion order used in the Zernike decomposition.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results and selection criteria), R1-M2 (lack of validation for the specific system), R1-M4 (insufficient detail on MD sampling and convergence). These are the primary technical issues that prevent the current evidence from fully supporting the claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of Zernike-based shape complementarity to TDP-43 CTF aggregation is a novel combination of existing methods, but the individual components (MD simulation, shape complementarity analysis) are well-established. The originality lies in the specific application, not in the development of new methodology.
+  - **Scientific importance** Moderate to high. Understanding TDP-43 aggregation is important for ALS and related neurodegenerative diseases. However, the study is exploratory and does not yet provide definitive mechanistic insights or experimentally validated predictions.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biophysicists and TDP-43 researchers. The methods and presentation are unlikely to attract a broad interdisciplinary audience without stronger biological validation or a more accessible framing of the significance.
+  - **Technical soundness** The MD simulation protocols are standard and appear reasonable, though details on convergence and replicates are missing. The Zernike method is mathematically sound, but its application to this system lacks validation. The overall pipeline is plausible but not yet proven.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with MD simulations, protein structure, and biophysical methods. The introduction provides some context, but the results and methods sections would be challenging for a nonspecialist. The lack of figures in the provided material further reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational framework and preliminary findings, but the central claims regarding specific binding regions cannot be evaluated without the missing figures and table. Additionally, the lack of validation and insufficient methodological detail on MD sampling prevent a full assessment of technical soundness. The authors should be encouraged to resubmit a revised version that includes all quantitative results, validation against known data, and a more detailed description of the simulation and analysis protocols.
+
+## Risk / unsupported claims
+
+- The specific binding and beta-strand regions listed in Table 1 cannot be evaluated or verified from the supplied text, as the table and associated figures are missing.
+- The claim that the identified regions could serve as targets for future aptamer design is speculative and not supported by any binding affinity calculations or experimental evidence.
+- The assertion that the identified beta-strand regions could form steric zippers is not supported by any structural analysis or prediction in the provided text.
+- The statement that the equilibrium configurations obtained from clustering are representative of the biologically relevant states is not supported by convergence analysis or comparison with experimental data.
+- The claim that shape complementarity is a useful filter for identifying aggregation-relevant interfaces in this system is not benchmarked against known TDP-43 aggregation data.

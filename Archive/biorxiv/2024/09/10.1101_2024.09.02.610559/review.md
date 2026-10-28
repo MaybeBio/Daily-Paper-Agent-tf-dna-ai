@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure legends not provided, supplementary information not provided)
+- **Assessment boundary** Assessment is limited to the provided text. Figures, tables, extended data, and supplementary information are referenced but not available for review.
+- **Shared manuscript claim summary** The authors developed PIONEAR-seq, a high-throughput biochemical assay to study transcription factor (TF) binding to nucleosomes. They characterized binding of 7 human pioneer TFs to nucleosomes assembled on the Widom 601 sequence versus three genomic sequences. They report that TF positional preferences (dyad, periodic, end binding) are influenced by the broader nucleosomal DNA sequence context, and propose that DNA flexibility and rigidity regulate where pioneers bind within nucleosomes. They support this with computational cyclizability analyses of published NCAP-SELEX data and in vivo ChIP-seq/MNase-seq analyses in K562 cells.
+- **Visible evidence base** Abstract, main text narrative, in-text references to figures (Fig. 1a-g, 2a-e, 3a-f, 4a-f, 5a-c), extended data (Extended Data Fig. 1-9), supplementary tables (Supplementary Tables 1-9), and supplementary information sections. No actual data, figures, or numerical results are visible.
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary tables, and supplementary information sections are referenced but not provided. No numerical data, statistical details, assay validation data, or methodological protocols are visible. This severely limits the ability to assess technical soundness and the strength of the evidence.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in gene regulation: what determines where pioneer transcription factors bind within nucleosomes. The development of PIONEAR-seq represents a potentially valuable methodological contribution. The central claim, that nucleosomal DNA sequence context and flexibility regulate TF positional preferences, is conceptually interesting and would be of broad interest. However, the provided text alone does not allow verification of the key experimental results, statistical analyses, or controls. The narrative is plausible but the evidence base is not visible. Several claims, particularly those involving structural modeling and in vivo extrapolation, require careful scrutiny of the actual data. The manuscript is likely to be of interest to the chromatin and transcription fields, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Chromatin biologists, transcription factor researchers, and investigators studying gene regulation and epigenetic mechanisms would be interested. The work challenges the notion that pioneer factor binding position is an intrinsic property of the TF, and instead proposes that DNA sequence-encoded flexibility of the nucleosome itself is a regulatory layer. This has implications for understanding cell fate decisions, interpreting noncoding variants, and predicting functional TF binding sites. Methodologists developing high-throughput biochemical assays for protein-DNA interactions would also be interested in PIONEAR-seq.
+- **Major strengths** The question is important and timely. The development of a new high-throughput assay (PIONEAR-seq) is a significant methodological contribution. The use of multiple orthogonal approaches (biochemical assay, structural modeling with AlphaFold3 and Rosetta3, EMSA validation, computational analysis of published datasets, and in vivo ChIP-seq/MNase-seq analysis) is commendable. The finding that W601-based nucleosomes may not be representative of genomic nucleosomes is an important cautionary insight for the field. The proposal that DNA flexibility is a cis-regulatory layer is conceptually novel and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and evidence availability
+  - **Claim pointer** The authors claim that PIONEAR-seq enables "highly parallel analysis of the nucleosomal DNA binding preferences of TFs" and that they "characterized the pioneer binding of 7 human pioneer TFs."
+  - **Evidence pointer** Fig. 1a-g, Extended Data Fig. 2, Supplementary Tables 1-5 (location not provided)
+  - **Concern** The core experimental results are not visible. No data are shown for the PIONEAR-seq assay validation, the number of replicates, the depth of sequencing, the specificity of the selection, or the statistical significance of the enrichment calls. The claim that 7 TFs exhibit "significant sequence-specific binding to NCP libraries" cannot be evaluated without seeing the enrichment data, the negative control comparisons, and the reproducibility metrics. The assay is the foundation of the entire manuscript, and its technical validation is not assessable from the provided text.
+  - **Why it matters** Without visible evidence of assay performance, reproducibility, and appropriate controls, the central experimental claims are unverifiable. The conclusion that TF binding to nucleosomes is influenced by sequence context rests entirely on the quality of this assay.
+  - **Resolution test** Provide the actual PIONEAR-seq data, including enrichment scores, replicate correlations, negative control comparisons, and statistical tests. Show that the assay can distinguish known binders from non-binders and that the results are reproducible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the DNA flexibility model
+  - **Claim pointer** The authors propose "a model where the flexibility and rigidity within nucleosomal DNA regulate where pioneers bind within nucleosomes" and state that "the preferred positions for TF pioneer binding tended to occur at the less cyclizable side."
+  - **Evidence pointer** Fig. 3a-f, Fig. 4a-f, Extended Data Fig. 6, 9 (location not provided)
+  - **Concern** The link between predicted cyclizability and observed TF binding positions is a central claim, but the quantitative relationship is not shown. The text states a tendency, but no correlation coefficients, effect sizes, or statistical significance values are provided for the relationship between cyclizability and binding position. The analysis of NCAP-SELEX data for 135 TFs is mentioned, but the classification of end binders versus non-end binders and the cyclizability slope analysis are not visible. The in vivo analysis in K562 cells is described but the data are not shown.
+  - **Why it matters** The DNA flexibility model is the main conceptual advance of the manuscript. If the quantitative support is weak or the effect is small, the model would not be compelling. The claim that this is a general mechanism requires robust statistical evidence across many TFs and genomic loci.
+  - **Resolution test** Show the quantitative relationship between cyclizability and TF binding position, including correlation coefficients and p-values. Provide the classification of end binders and the cyclizability slope distributions. Show the in vivo data with appropriate statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural modeling claims
+  - **Claim pointer** The authors state that AlphaFold3 and Rosetta3 modeling "support the preferential position CEBPB may need to recognize its cognate sequence near the dyad" and that "even a 3-bp shift of this motif may disrupt this binding mode."
+  - **Evidence pointer** Fig. 2c,d, Extended Data Fig. 4, Supplementary Table 6 (location not provided)
+  - **Concern** The structural modeling results are described qualitatively. No model confidence metrics, comparison to experimental structures, or quantitative measures of the predicted binding mode are provided. The claim that a 3-bp shift disrupts binding is based on modeling, but the text does not describe how this was assessed or what the confidence in the models is.
+  - **Why it matters** Structural models, especially from deep learning methods, can be prone to errors. The claim that CEBPB can bind near the dyad in a specific orientation is important for the mechanistic model. Without seeing the models and their validation, this claim is not established.
+  - **Resolution test** Provide the structural models with confidence metrics (e.g., pLDDT, PAE), show the predicted interface, and compare the modeled binding mode to any available experimental data. Show the effect of the 3-bp shift on the model predictions quantitatively.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors state that "the broader physical properties of nucleosomal DNA represent another layer of cis-regulatory information read out by TFs in eukaryotic genomes."
+  - **Evidence pointer** Fig. 5a,b, Discussion (location not provided)
+  - **Concern** The in vivo analysis is limited to CEBPB in K562 cells. The claim that DNA flexibility is a general layer of cis-regulatory information across the genome and across TFs is a strong extrapolation from a single TF in a single cell type. The text does not discuss potential confounding factors in the in vivo analysis, such as chromatin state, TF concentration, or cooperative binding.
+  - **Why it matters** The generalizability of the model is a key part of the significance of the work. If the effect is only seen for CEBPB in one cell type, the broader claim is not supported.
+  - **Resolution test** Provide additional in vivo evidence from multiple TFs and cell types, or temper the generalizability claim. Discuss and ideally control for confounding factors in the in vivo analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** PIONEAR-seq assay description
+  - **Evidence pointer** "PIONEAR-seq assay design" section, Supplementary Information (location not provided)
+  - **Issue** The description of the PIONEAR-seq library design and selection procedure is brief. The number of rounds of selection, the amount of input DNA, the washing conditions, and the PCR amplification details are not described in the main text.
+  - **Required correction** Provide a more detailed description of the assay in the main text or ensure the supplementary methods are complete and accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of negative results
+  - **Affected element** TFs that did not bind nucleosomes
+  - **Evidence pointer** Results section, Fig. 1b (location not provided)
+  - **Concern** The text states that 4 of 11 TFs did not exhibit significant binding to NCP libraries. The authors interpret this as consistent with their non-pioneer status, but this interpretation is not discussed in detail.
+  - **Required correction** Briefly discuss whether the lack of binding could be due to assay limitations (e.g., TF stability, DNA binding domain requirements) rather than an inherent inability to bind nucleosomes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison to prior work
+  - **Affected element** Discussion of prior studies
+  - **Evidence pointer** Introduction, Discussion (location not provided)
+  - **Issue** The manuscript mentions discrepancies with prior work (e.g., the Zhu et al. NCAP-SELEX survey) but does not provide a detailed comparison of the results or a discussion of why discrepancies might arise.
+  - **Required correction** Expand the discussion of how the PIONEAR-seq results compare to prior studies, including potential reasons for differences (e.g., assay design, TF constructs, nucleosome sequences).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures referenced throughout (location not provided)
+  - **Issue** The figures are not provided, making it impossible to assess the quality of the data presentation.
+  - **Required correction** Ensure figures are clear, well-labeled, and include appropriate statistical annotations.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible data. The manuscript cannot be evaluated for technical soundness without the figures, tables, and supplementary information. Specific technical aspects that need scrutiny include: (1) the validation of the PIONEAR-seq assay, including the efficiency of nucleosome assembly, the specificity of TF pulldown, and the reproducibility of the selections; (2) the statistical methods used to call enriched k-mers and to compare binding between libraries; (3) the cyclizability predictions and their validation; (4) the structural modeling and its validation; and (5) the in vivo analysis, including the definition of bound nucleosomes and the statistical comparison.
+- **Assessment against Nature-style criteria** Originality: The concept that nucleosomal DNA flexibility, rather than TF identity alone, determines binding position is a novel and potentially important contribution. The development of PIONEAR-seq is also original. Scientific importance: The question of what controls pioneer factor binding is central to understanding gene regulation and cell fate. The work has the potential to shift thinking in the field. Interdisciplinary readership: The work bridges biochemistry, biophysics, computational biology, and genomics, and would appeal to a broad readership. Technical soundness: Cannot be assessed from the provided text. The lack of visible data is a major limitation. Readability for nonspecialists: The text is generally well-written and accessible, but the heavy reliance on specialized terminology and the lack of figure context may make it challenging for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the methodological approach is promising, but the absence of the actual data prevents a proper evaluation of the claims. The manuscript could become suitable for publication if the data are made available and the technical concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that PIONEAR-seq provides "highly parallel analysis" of TF binding to nucleosomes is unsupported without assay validation data.
+- The claim that 7 TFs exhibit "significant sequence-specific binding to NCP libraries" is unsupported without statistical details.
+- The claim that "the preferred positions for TF pioneer binding tended to occur at the less cyclizable side" is unsupported without quantitative data.
+- The claim that AlphaFold3 and Rosetta3 models support a specific CEBPB binding mode near the dyad is unsupported without model confidence metrics.
+- The claim that DNA flexibility is "another layer of cis-regulatory information" in vivo is a strong extrapolation from a single TF in a single cell type and is not fully supported by the described evidence.
+- The claim that results from W601-based nucleosomes may not generalize to genomic nucleosomes is interesting but is not quantitatively supported in the text.

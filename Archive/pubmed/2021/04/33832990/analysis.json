@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33832990",
+  "title": "Interpretation of allele-specific chromatin accessibility using cell state-aware deep learning.",
+  "authors": "Atak, Zeynep Kalender; Taskiran, Ibrahim Ihsan; Demeulemeester, Jonas; Flerin, Christopher; Mauduit, David; Minnoye, Liesbeth; Hulselmans, Gert; Christiaens, Valerie; Ghanem, Ghanem-Elias; Wouters, Jasper; Aerts, Stein",
+  "journal": "Genome research",
+  "published_date": "2021-04-10",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用细胞状态感知的深度学习模型DeepMEL2解释等位基因特异的染色质可及性变异，识别并解读影响转录因子结合的调控突变，属于蛋白质-DNA互作（TF结合位点）的AI建模应用，但侧重变异解读而非TF-DNA结合机制建模。",
+  "abstract": "Genomic sequence variation within enhancers and promoters can have a significant impact on the cellular state and phenotype. However, sifting through the millions of candidate variants in a personal genome or a cancer genome, to identify those that impact cis-regulatory function, remains a major challenge. Interpretation of noncoding genome variation benefits from explainable artificial intelligence to predict and interpret the impact of a mutation on gene regulation. Here we generate phased whole genomes with matched chromatin accessibility, histone modifications, and gene expression for 10 melanoma cell lines. We find that training a specialized deep learning model, called DeepMEL2, on melanoma chromatin accessibility data can capture the various regulatory programs of the melanocytic and mesenchymal-like melanoma cell states. This model outperforms motif-based variant scoring, as well as more generic deep learning models. We detect hundreds to thousands of allele-specific chromatin accessibility variants (ASCAVs) in each melanoma genome, of which 15%-20% can be explained by gains or losses of transcription factor binding sites. A considerable fraction of ASCAVs are caused by changes in AP-1 binding, as confirmed by matched ChIP-seq data to identify allele-specific binding of JUN and FOSL1. Finally, by augmenting the DeepMEL2 model with ChIP-seq data for GABPA, the TERT promoter mutation, as well as additional ETS motif gains, can be identified with high confidence. In conclusion, we present a new integrative genomics approach and a deep learning model to identify and interpret functional enhancer mutations with allelic imbalance of chromatin accessibility and gene expression.",
+  "abstract_zh": "增强子和启动子内的基因组序列变异可对细胞状态和表型产生显著影响。然而，在个人基因组或癌症基因组的数百万个候选变异中筛选出影响顺式调控功能的变异，仍是一项重大挑战。非编码基因组变异的解读受益于可解释的人工智能，以预测和解释突变对基因调控的影响。在此，我们生成了10个黑色素瘤细胞系的定相全基因组，并匹配了染色质可及性、组蛋白修饰和基因表达数据。我们发现，在黑色素瘤染色质可及性数据上训练一个名为DeepMEL2的专门深度学习模型，能够捕获黑色素细胞样和间充质样黑色素瘤细胞状态的各种调控程序。该模型优于基于基序的变异评分以及更通用的深度学习模型。我们在每个黑色素瘤基因组中检测到数百至数千个等位基因特异性染色质可及性变异（ASCAVs），其中15%-20%可由转录因子结合位点的获得或丢失解释。相当比例的ASCAVs由AP-1结合变化引起，这通过匹配的ChIP-seq数据确认了JUN和FOSL1的等位基因特异性结合。最后，通过将GABPA的ChIP-seq数据增强到DeepMEL2模型中，TERT启动子突变以及额外的ETS基序获得可被高置信度识别。总之，我们提出了一种新的整合基因组学方法和一个深度学习模型，用于识别和解释具有染色质可及性和基因表达等位基因失衡的功能性增强子突变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33832990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33832990/",
+  "paper_page_path": "papers/pubmed/33832990/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.28.555203",
+  "title": "Building explainable graph neural network by sparse learning for the drug-protein binding prediction",
+  "authors": "Yang Wang; Zanyu Shi; Timothy Richardson; Kun Huang; Pathum Weerawarna; Yijie Wang",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-29",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用稀疏学习增强可解释GNN预测药物-蛋白结合，虽非TF-DNA体系，但蛋白-配体互作建模与可解释图神经网络方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Explainable Graph Neural Networks (GNNs) have been developed and applied to drug-protein binding prediction to identify the key chemical structures in a drug that have active interactions with the target proteins. However, the key structures identified by the current explainable GNN models are typically chemically invalid. Furthermore, a threshold needs to be manually selected to pinpoint the key structures from the rest. To overcome the limitations of the current explainable GNN models, we propose our SLGNN, which stands for using Sparse Learning to Graph Neural Networks. Our SLGNN relies on using a chemical-substructure-based graph (where nodes are chemical substructures) to represent a drug molecule. Furthermore, SLGNN incorporates generalized fussed lasso with message-passing algorithms to identify connected subgraphs that are critical for the drug-protein binding prediction. Due to the use of the chemical-substructure-based graph, it is guaranteed that any subgraphs in a drug identified by our SLGNN are chemically valid structures. These structures can be further interpreted as the key chemical structures for the drug to bind to the target protein. We demonstrate the explanatory power of our SLGNN by first showing all the key structures identified by our SLGNN are chemically valid. In addition, we illustrate that the key structures identified by our SLGNN have more predictive power than the key structures identified by the competing methods. At last, we use known drug-protein binding data to show the key structures identified by our SLGNN contain most of the binding sites. CCS CONCEPTS • Computing methodologies → Neural networks ; Supervised learning by classification ; Neural networks . ACM Reference Format Yang Wang, Zanyu Shi, Timothy Richardson, Kun Huang, Pathum Weerawarna, and Yijie Wang. 2023. Building explainable graph neural network by sparse learning for the drug-protein binding prediction. In Proceedings of Make sure to enter the correct conference title from your rights confirmation email (CNB MAC 2023) . ACM, New York, NY, USA, 10 pages. https://doi.org/XXXXXXX.XXXXXXX",
+  "abstract_zh": "可解释图神经网络（Explainable Graph Neural Networks, GNNs）已被开发并应用于药物-蛋白质结合预测，以识别药物中与靶蛋白具有活性相互作用的关键化学结构。然而，当前可解释GNN模型识别的关键结构通常化学上无效。此外，需要手动选择阈值以从其余结构中精确定位关键结构。为克服当前可解释GNN模型的局限性，我们提出了SLGNN，即使用稀疏学习（Sparse Learning）于图神经网络。我们的SLGNN依赖于使用基于化学亚结构的图（其中节点为化学亚结构）来表示药物分子。此外，SLGNN将广义融合套索（generalized fussed lasso）与消息传递算法相结合，以识别对药物-蛋白质结合预测至关重要的连通子图。由于使用基于化学亚结构的图，我们SLGNN识别的药物中任何子图均保证为化学有效结构。这些结构可进一步解释为药物与靶蛋白结合的关键化学结构。我们通过首先展示SLGNN识别的所有关键结构均化学有效，来证明其解释能力。此外，我们说明SLGNN识别的关键结构比竞争方法识别的关键结构具有更强的预测能力。最后，我们使用已知药物-蛋白质结合数据来展示SLGNN识别的关键结构包含大多数结合位点。CCS概念：• 计算方法学 → 神经网络；监督学习分类；神经网络。ACM参考格式：Yang Wang, Zanyu Shi, Timothy Richardson, Kun Huang, Pathum Weerawarna, and Yijie Wang. 2023. 通过稀疏学习构建可解释图神经网络用于药物-蛋白质结合预测。在《请从权利确认邮件中输入正确会议标题》（CNB MAC 2023）会议录中。ACM，纽约，NY，美国，10页。https://doi.org/XXXXXXX.XXXXXXX",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.28.555203",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.28.555203",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.28.555203/index.html"
+}

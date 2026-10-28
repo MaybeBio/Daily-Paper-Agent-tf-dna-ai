@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and support for claims. Editorial and stylistic issues are noted only where they affect clarity or scientific validity.
+- **Shared manuscript claim summary** The authors propose that macrophage ATF6, activated during corticotomy-assisted orthodontic tooth movement, promotes a pro-inflammatory macrophage phenotype and accelerates tooth movement by directly binding to the Tnfα promoter and enhancing its transcription. They support this with lineage tracing, conditional knockout and overexpression studies, in vitro assays, RNA-seq, CUT&Tag, ChIP, and luciferase reporter experiments.
+- **Visible evidence base** Main text figures 1–10, supplementary figures S1–S11, supplementary tables I–V, and referenced GEO datasets (GSE246048, GSE245975).
+- **Missing materials affecting confidence** Raw data files, uncropped western blots, full gating strategies for flow cytometry, statistical source data, and details of the CUT&Tag and ChIP quality control metrics were not provided. The manuscript does not include a detailed description of the corticotomy surgical procedure or the orthodontic force application protocol, which limits reproducibility assessment.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant question and identifies a potentially novel mechanism linking the unfolded protein response to macrophage-driven bone remodeling during corticotomy. The combination of in vivo lineage tracing, genetic loss- and gain-of-function models, and molecular assays is commendable. However, several technical and interpretive issues need to be resolved. The claim that ATF6 directly binds to a non-ERSE site in the Tnfα promoter is not fully established by the data presented. The specificity of the CX3CR1CreERT2 system for monocyte-derived macrophages, the functional significance of the proposed binding site, and the quantitative contribution of the ATF6-TNFα axis relative to other inflammatory pathways require further clarification. The manuscript would be strengthened by additional mechanistic depth and more rigorous controls.
+- **Who would be interested in the results, and why** Researchers in orthodontics, bone biology, and osteoimmunology would find these results relevant. The study provides a molecular rationale for the clinical phenomenon of regional acceleratory phenomenon and suggests a potential therapeutic target for non-invasive accelerated tooth movement. The broader implication for inflammatory bone remodeling in conditions such as periodontitis or arthritis may also attract interest from the musculoskeletal research community.
+- **Major strengths** The study combines a clinically relevant model with a clear mechanistic hypothesis. The use of lineage tracing to distinguish monocyte-derived from resident macrophages is a strength. The genetic loss- and gain-of-function experiments in vivo provide complementary evidence. The multi-omics approach (RNA-seq, CUT&Tag) and validation with ChIP and luciferase assays are appropriate. The rescue experiment with TNFα strengthens the causal link.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of genetic model
+  - **Claim pointer** The authors claim that CX3CR1CreERT2; R26GFP lineage tracing identifies monocyte-derived macrophages as the dominant pro-inflammatory population in corticotomy.
+  - **Evidence pointer** Results section "Monocyte-derived macrophages in favor of pro-inflammatory phenotype in corticotomy", Figure 1b–e
+  - **Concern** CX3CR1 is expressed by multiple myeloid populations, including some tissue-resident macrophages and dendritic cells. The manuscript does not provide a detailed characterization of the GFP+ and GFP− populations beyond surface markers CD45, F4/80, CD11b, Ly6C, and CD206. It is unclear whether the GFP− population truly represents monocyte-derived cells or whether the GFP+ population includes resident macrophages that also express CX3CR1. The gating strategy and the validation of the lineage tracing model are not fully described.
+  - **Why it matters** The central conclusion that monocyte-derived macrophages are the key drivers depends on the fidelity of this lineage tracing system. If the GFP− population includes other myeloid subsets, the interpretation of the functional experiments is compromised.
+  - **Resolution test** Provide a detailed gating strategy and a comprehensive immunophenotypic characterization of GFP+ and GFP− macrophages, including markers for resident macrophages (e.g., Tim4, F4/80hi) and monocyte-derived cells (e.g., CCR2, Ly6C). Include a control experiment demonstrating that tamoxifen treatment alone does not alter macrophage polarization or tooth movement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct binding evidence
+  - **Claim pointer** The authors claim that ATF6 directly binds to the Tnfα promoter at a site outside the traditional ERSE and augments its transcription.
+  - **Evidence pointer** Results section "ATF6 promotes macrophage-mediated OTM through activating Tnfα transcription", Figures 7f–h, 8
+  - **Concern** The CUT&Tag data show ATF6 enrichment at the Tnfα promoter, and ChIP confirms binding. However, the specific binding site is not clearly defined. The luciferase reporter assay uses a 2000 bp promoter fragment, and the mutations are introduced in a region predicted by molecular docking. The authors do not demonstrate that the mutated region is the actual binding site, nor do they show that ATF6 binding to this region is required for transcriptional activation in a native chromatin context. The molecular docking simulation is predictive and requires experimental validation.
+  - **Why it matters** The claim of a novel, non-ERSE binding site is a key mechanistic finding. Without a clear demonstration that ATF6 binds to this specific site and that this binding is functionally relevant, the mechanism remains speculative.
+  - **Resolution test** Perform an electrophoretic mobility shift assay (EMSA) with recombinant ATF6 and the proposed DNA sequence. Use a reporter construct with a minimal promoter and the specific binding site to demonstrate direct transcriptional activation. Alternatively, use a chromatin context assay (e.g., ectopic integration of the Tnfα promoter with and without the proposed site) to show that the site is required for ATF6-dependent activation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative contribution of ATF6-TNFα axis
+  - **Claim pointer** The authors suggest that ATF6 promotes tooth movement primarily through TNFα, and that TNFα is the key downstream effector.
+  - **Evidence pointer** Results section "TNFα rescues OTM inhibition induced by macrophage ATF6 knockout", Figure 9
+  - **Concern** The rescue experiment with TNFα restores tooth movement and osteoclast activity, but the extent of rescue is not quantified relative to the ATF6f/f control. It is unclear whether TNFα fully rescues the phenotype or only partially. Additionally, the authors do not rule out the contribution of other ATF6 target genes. RNA-seq data show changes in multiple inflammatory genes, and the KEGG analysis implicates NF-κB and TNF signaling, but the relative contribution of TNFα versus other pathways is not addressed.
+  - **Why it matters** The therapeutic implication is that targeting ATF6 or TNFα could be effective. If TNFα is only one of several downstream effectors, targeting it alone may be insufficient.
+  - **Resolution test** Quantify the rescue effect statistically (e.g., compare tooth movement distance in TNFα-treated ATF6cKO mice to ATF6f/f controls). Perform a loss-of-function experiment for TNFα in the context of ATF6 overexpression to confirm that TNFα is necessary for the ATF6 effect. Consider a broader analysis of ATF6-regulated secretome to identify other potential mediators.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vitro model relevance
+  - **Claim pointer** The authors use BMDMs stimulated with alveolar bone lysates to model the in vivo microenvironment.
+  - **Evidence pointer** Materials and methods "Isolation, culture, and treatment of bone marrow-derived macrophages", Results section "ATF6 is required for macrophage pro-inflammatory signals in vitro", Figure 6
+  - **Concern** The use of tissue lysates is a complex and poorly defined stimulus. The composition of the lysates, including the presence of damage-associated molecular patterns, cytokines, and other factors, is not characterized. The authors do not demonstrate that the response of BMDMs to these lysates recapitulates the in vivo macrophage phenotype. The concentration and preparation of the lysates are not described in sufficient detail for replication.
+  - **Why it matters** The in vitro experiments are used to support the mechanistic claims. If the in vitro model does not faithfully represent the in vivo situation, the conclusions drawn from these experiments are weakened.
+  - **Resolution test** Provide a detailed characterization of the lysates (e.g., protein concentration, endotoxin levels, cytokine profile). Validate the in vitro model by comparing the transcriptomic profile of stimulated BMDMs to that of macrophages isolated from the in vivo model. Include a control stimulus, such as LPS or a defined cytokine cocktail, to benchmark the response.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends and results text
+  - **Evidence pointer** All figures
+  - **Issue** The statistical methods are described in the Materials and methods, but the specific tests used for each figure are not consistently indicated in the figure legends. Some figures report "P < 0.05" without specifying the test or the number of independent experiments.
+  - **Required correction** Add a statistical section to each figure legend specifying the test used, the number of independent biological replicates, and the exact P values or confidence intervals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Materials and methods, Data availability section
+  - **Evidence pointer** Not applicable
+  - **Issue** The RNA-seq and CUT&Tag data are deposited in GEO, but the accession numbers are only mentioned in the Materials and methods. A dedicated Data Availability statement is missing.
+  - **Required correction** Add a Data Availability section listing the GEO accession codes and any other relevant data repositories.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Western blot quantification
+  - **Affected element** Figures 2b, 2e, 3b
+  - **Evidence pointer** Results section "Corticotomy triggers ATF6 branch of the UPR in macrophages during OTM"
+  - **Issue** The western blot panels are shown, but the quantification method is not described in detail. It is unclear whether the bands were normalized to total protein or to a loading control, and whether the quantification was performed on the same blot or on separate blots.
+  - **Required correction** Describe the quantification method in the Materials and methods, including the software used, the normalization strategy, and the number of independent blots quantified.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure resolution
+  - **Affected element** Figures 1, 3, 5, 9
+  - **Evidence pointer** Not applicable
+  - **Issue** Some figure panels, particularly immunofluorescence images, appear to be of low resolution, which makes it difficult to assess co-localization and staining quality.
+  - **Required correction** Provide higher-resolution images or indicate the original magnification and scale bars more clearly.
+- **Technical failings that need to be addressed before the case is established** The specificity of the CX3CR1CreERT2 model for monocyte-derived macrophages needs to be validated with additional markers. The direct binding of ATF6 to the proposed Tnfα promoter site requires experimental confirmation beyond CUT&Tag and ChIP, such as EMSA or a reporter assay with a minimal promoter. The in vitro model using tissue lysates needs to be better characterized and validated. The quantitative contribution of TNFα relative to other ATF6 targets needs to be established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its focus on ATF6 as a regulator of macrophage function in the context of corticotomy. The identification of a potential non-ERSE binding site for ATF6 is novel, though not fully validated.
+  - **Scientific importance** The findings have potential clinical relevance for orthodontics and may contribute to the broader understanding of inflammatory bone remodeling. The mechanistic insight into how the UPR links to macrophage polarization is valuable.
+  - **Interdisciplinary readership** The topic is likely to appeal to researchers in orthodontics, bone biology, immunology, and cell biology. The clinical context of corticotomy provides a clear translational hook.
+  - **Technical soundness** The experimental design is generally sound, but the concerns raised above regarding model specificity, binding validation, and quantitative analysis need to be addressed. The multi-omics approach is appropriate, but the interpretation of the CUT&Tag data requires more rigorous validation.
+  - **Readability for nonspecialists** The manuscript is clearly written and the figures are well-organized. The abstract and introduction effectively convey the clinical problem and the hypothesis. The discussion is accessible, though some sections assume familiarity with bone biology and immunology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the experimental approach is largely appropriate. However, the specificity of the genetic model, the validation of the direct binding site, and the quantitative contribution of the proposed mechanism need to be clarified before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that ATF6 binds to a non-ERSE site in the Tnfα promoter is not fully supported. The CUT&Tag and ChIP data show enrichment, but the specific binding site is not defined, and the functional relevance of the proposed site is not demonstrated.
+- The claim that monocyte-derived macrophages are the dominant pro-inflammatory population relies on the specificity of the CX3CR1CreERT2 lineage tracing system, which is not fully validated.
+- The claim that TNFα is the key downstream effector of ATF6 is supported by the rescue experiment, but the extent of rescue and the contribution of other ATF6 targets are not quantified.
+- The in vitro model using alveolar bone lysates is not well characterized, and its relevance to the in vivo situation is not demonstrated.

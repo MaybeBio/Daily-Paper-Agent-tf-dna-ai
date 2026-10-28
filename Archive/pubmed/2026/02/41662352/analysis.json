@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41662352",
+  "title": "Exploring potential transcription factors and their regulatory relationships based on asymmetric covariance natural vector encoding method and machine learning algorithms.",
+  "authors": "Hu, Guoqing; Sang, Mengmeng; Wang, Hao; Ge, Jia; Xu, Lin; Yau, Stephen S-T",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-02-09",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用非对称协方差自然向量编码和机器学习预测转录因子及其靶基因调控关系，虽涉及TF-DNA调控但缺乏三维互作建模，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Transcription factors (TFs) orchestrate cellular programs by activating or repressing gene expression in response to diverse stimuli. Although advances in experimental and computational biology have expanded our understanding of TFs, existing prediction methods still struggle to accurately capture TF-target regulatory relationships and determine their directionality (activation versus inhibition). Here, we propose ACNVE-K, an integrative framework combining k-mer decomposition with asymmetric covariance natural vector encoding to convert amino acid sequences into multidimensional feature vectors. Using Leveraging eXtreme Gradient Boosting (XGBoost), Gradient Boosting (GB), and Random Forest (RF) algorithms, we constructed five predictive models for TF identification, target gene inference, and regulatory direction classification. Benchmarking analyses demonstrated that XGBoost achieved the highest predictive performance across human and mouse genomes, particularly with updated genome annotations. The 5-mer configuration provided an optimal balance between feature richness and computational efficiency. Collectively, ACNVE-K offers a robust and interpretable framework for decoding transcriptional regulation, facilitating advances in precision medicine, regulatory genomics, and machine-learning-based gene network reconstruction.",
+  "abstract_zh": "转录因子（Transcription factors, TFs）通过响应多样刺激激活或抑制基因表达，从而协调细胞程序。尽管实验和计算生物学的进展扩展了我们对转录因子的理解，现有预测方法仍难以准确捕捉转录因子-靶标调控关系并确定其方向性（激活与抑制）。在此，我们提出ACNVE-K，一种整合k-mer分解与非对称协方差自然向量编码的集成框架，将氨基酸序列转换为多维特征向量。利用极端梯度提升（eXtreme Gradient Boosting, XGBoost）、梯度提升（Gradient Boosting, GB）和随机森林（Random Forest, RF）算法，我们构建了五个预测模型，用于转录因子识别、靶基因推断和调控方向分类。基准分析表明，XGBoost在人类和小鼠基因组中实现了最高预测性能，尤其是在更新后的基因组注释下。5-mer配置在特征丰富性和计算效率之间提供了最佳平衡。总体而言，ACNVE-K为解码转录调控提供了一个稳健且可解释的框架，促进了精准医学、调控基因组学和基于机器学习的基因网络重建的进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41662352/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41662352/",
+  "paper_page_path": "papers/pubmed/41662352/index.html"
+}

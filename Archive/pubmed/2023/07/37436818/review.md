@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, model description, and data availability statement.
+- **Assessment boundary** Scientific content, technical soundness, clarity of presentation, and alignment of claims with evidence. Editorial or stylistic preferences are not considered.
+- **Shared manuscript claim summary** The authors propose that chromatin behaves as a multiblock copolymer with active and inactive regions, and that binding of protein complexes (e.g., RNA polymerase II) to active regions regulates solvent quality, leading to swelling of active chromatin and consequent changes in the size and number of inactive chromatin cores in a microphase-separated, core-shell organization.
+- **Visible evidence base** Experimental imaging data (Figure 1, described in text), analytical theory (free energy model, scaling relations), Brownian dynamics simulations (Figure 5), and a data availability statement with a Zenodo link.
+- **Missing materials affecting confidence** Figures 2, 3, 4, and 6 are referenced but not provided. Appendix sections 1, 4, and 5 are referenced but not provided. Simulation parameters and full derivations are not fully visible. Experimental methods for imaging are not described in the provided text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and timely model linking protein binding to chromatin microphase separation, with a plausible mechanism supported by analytical theory and simulations. However, the evidence base is incomplete: key figures and appendices are missing, and the experimental observation is limited to a single representative image. The theoretical model relies on several simplifying assumptions that are not fully justified, and the connection between the model and the experimental observation remains qualitative. The work is likely to interest researchers in chromatin biophysics and polymer physics, but the current manuscript does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in chromatin organization, biophysics of gene regulation, and polymer physics. The model offers a minimal framework for how protein binding can modulate chromatin phase behavior, which is relevant to understanding transcriptional regulation and nuclear architecture. The use of polymer brush theory and simulations may appeal to theorists in soft matter and biological physics.
+- **Major strengths** The manuscript addresses a significant and current question in chromatin biology with a physically motivated model. The combination of experimental observation, analytical theory, and simulation is commendable. The model is minimal and generic, which could facilitate broader application. The prediction that protein binding to active regions can control the size and number of inactive cores is testable and novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims experimental evidence of core-shell organization of chromatin and RNAP, and that this motivates the model.
+  - **Evidence pointer** Figure 1, described in text; location not provided for image details.
+  - **Concern** The experimental evidence is presented as a single representative confocal image. No quantification, replicates, controls, or statistical analysis are provided. The imaging methods are not described. This is insufficient to establish the claimed core-shell organization as a robust phenomenon.
+  - **Why it matters** The entire theoretical framework is motivated by this observation. If the experimental claim is not robust, the relevance of the model to biological reality is weakened.
+  - **Resolution test** Provide quantitative analysis of multiple images (e.g., radial intensity profiles, colocalization statistics), details of sample preparation and imaging parameters, and appropriate controls (e.g., cells without RNAP labeling).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of theory
+  - **Claim pointer** The model predicts that protein binding tunes solvent quality, leading to swelling of active regions and reduction in core size, with specific scaling relations.
+  - **Evidence pointer** Equations 18-33, Appendix 4 and 5; location not provided.
+  - **Concern** The analytical derivations are not fully visible. The key approximations (e.g., dilute protein limit, strong segregation) are stated but not justified in the main text. The derivation of the effective virial coefficients and the transition between regimes is not shown. Without these details, the scaling relations cannot be verified.
+  - **Why it matters** The scaling relations are a central result. If the derivations contain errors or unjustified assumptions, the conclusions may not hold.
+  - **Resolution test** Provide full derivations in the main text or appendices, with clear statements of all assumptions and their validity regimes. Show that the approximations are consistent with the parameter ranges used in simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation-evidence link
+  - **Claim pointer** The simulations confirm the analytical predictions and show that increased binding leads to more, smaller cores.
+  - **Evidence pointer** Figure 5, described in text; location not provided.
+  - **Concern** The simulation results are summarized in text but the figure is not provided. Key details are missing: how are "cores" defined and counted? What is the range of K values explored? Are the simulations at steady state? How do the simulation parameters map to the analytical model (e.g., η, v, σ)? Without this information, the agreement between simulations and theory cannot be assessed.
+  - **Why it matters** The simulations are presented as validation of the theory. If the comparison is not rigorous, the claim of confirmation is unsupported.
+  - **Resolution test** Provide the figure with clear definitions of measured quantities, error bars, and a direct comparison to theoretical predictions (e.g., scaling exponents). State simulation parameters and how they relate to the model variables.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model-biology link
+  - **Claim pointer** The model is presented as relevant to understanding chromatin organization in living cells, with implications for transcriptional regulation.
+  - **Evidence pointer** Discussion section; location not provided.
+  - **Concern** The model is highly simplified (e.g., uniform block sizes, no sequence specificity, no consideration of 3D genome architecture beyond micelles). The connection to real chromatin, which has heterogeneous epigenetic states and complex folding, is not critically discussed. The experimental observation is from Drosophila muscle, but the model is generic; the authors do not discuss how specific biological parameters (e.g., protein concentrations, binding affinities) would map to their η.
+  - **Why it matters** The biological relevance of the model depends on whether its assumptions are reasonable for the system it aims to describe. Without this discussion, the model may be seen as an abstract exercise.
+  - **Resolution test** Add a section discussing the biological plausibility of the model parameters, the expected range of η in cells, and how the model's predictions could be tested experimentally (e.g., by manipulating RNAP levels or binding affinities).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "active" and "inactive" chromatin
+  - **Evidence pointer** Introduction, paragraph 2; location not provided.
+  - **Issue** The terms "active" and "inactive" are defined operationally (active = lower density, associated with transcription), but the relationship to specific epigenetic marks (e.g., H3K9ac) is mentioned only briefly. The distinction between "active" as in transcriptionally active and "active" as in non-equilibrium is noted, but the terminology could still confuse readers.
+  - **Required correction** Clarify the definitions early, perhaps with a table or figure, and consistently use "active" and "inactive" in quotes or with a clear operational definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Model section, Equations 38-43; location not provided.
+  - **Issue** The simulation parameters (e.g., number of runs, initial conditions, equilibration time, system size) are not fully specified. The choice of n=500 blocks and N=100,000 beads is stated, but other parameters (e.g., LJ strengths, spring constants) are given in reduced units without clear mapping to physical values.
+  - **Required correction** Provide a table of all simulation parameters, including the range of K values, the number of independent runs, and the criteria for steady state.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 2, 3, 4, 6; location not provided.
+  - **Issue** These figures are referenced but not provided in the manuscript text. It is impossible to assess the clarity of the model schematic, the geometry, or the conceptual summary.
+  - **Required correction** Ensure all figures are included in the submission and are self-explanatory with clear labels and captions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental evidence), R1-M2 (theory derivations), R1-M3 (simulation details and comparison).
+- **Assessment against Nature-style criteria** Originality: The model is original in its specific combination of polymer brush theory with protein binding to regulate microphase separation. Scientific importance: The question of how protein binding regulates chromatin phase behavior is important, but the current evidence is insufficient to establish biological relevance. Interdisciplinary readership: The work bridges polymer physics and chromatin biology, which could appeal to a broad audience, but the presentation may be too technical for nonspecialists without more context. Technical soundness: The theoretical framework is plausible, but the missing derivations and simulation details prevent full assessment. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with polymer physics concepts; a brief primer or more intuitive explanations would help.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the manuscript in its current form does not fully establish the case due to incomplete evidence and missing details.
+
+## Risk / unsupported claims
+- The claim of experimental evidence for core-shell organization is unsupported without quantitative data and methods.
+- The scaling relations (Equations 31-33) are unverifiable without full derivations.
+- The agreement between simulations and theory is unverifiable without figure and detailed comparison.
+- The biological relevance of the model parameters (η, v, σ) to real cellular conditions is not established.
+- The claim that the model provides a "complementary interpretation" of previous experiments (Hilbert et al., 2021) is plausible but not rigorously argued.

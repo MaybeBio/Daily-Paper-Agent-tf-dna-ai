@@ -1,0 +1,424 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.22.550030",
+  "title": "hnRNPUL1 ensures efficient Integrator-mediated cleavage of snRNAs and is mutated in amyotrophic lateral sclerosis",
+  "doi": "10.1101/2023.07.22.550030",
+  "abstract": "Integrator cleaves nascent RNA, triggering RNA polymerase II transcription termination, but how cleavage is regulated is poorly understood. Here we show hnRNPUL1 ensures efficient Integrator-mediated cleavage of nascent RNA downstream of snRNA genes and, in the case of U2 snRNA, binds a terminal stem-loop involved in this process. In the nucleoplasm, hnRNPUL1 binds U4 snRNA and SART3 and enables efficient reformation of the U4:U6 di-snRNP for further rounds of pre-mRNA splicing. Sustained hnRNPUL1 loss leads to reduced levels of snRNAs, defects in histone mRNA 3′ end processing and loss of Cajal bodies. hnRNPUL1 binds RNA through multiple domains, including a globular central domain comprising tightly juxtaposed SPRY and dead polynucleotide kinase folds. This latter fold allows binding to 5′-monophosphorylated RNAs in a mutually exclusive manner with ATP binding and functions as an XRN2 antagonist when overexpressed. We identify a cohort of amyotrophic lateral sclerosis patients harbouring disruptive mutations in hnRNPUL1. SMN loss in spinal muscular atrophy and hnRNPUL1 loss both disrupt snRNP biogenesis, leading to motor neuron death, suggesting a common aetiology.",
+  "authors": [
+    "Yonchev ID",
+    "Apostol CV",
+    "Griffith L",
+    "Li A",
+    "Butler L",
+    "Patrick H",
+    "Aguilar-Martinez E",
+    "Whelan AGR",
+    "Evans C",
+    "Dickman MJ",
+    "Cooper-Knock J",
+    "Shaw PJ",
+    "West S",
+    "Barbaric I",
+    "Sudbery IM",
+    "Wilson SA"
+  ],
+  "published_date": "2023-07-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.22.550030",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.22.550030.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR695923",
+    "raw_record": {
+      "id": "PPR695923",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR695923"
+        ]
+      },
+      "doi": "10.1101/2023.07.22.550030",
+      "title": "hnRNPUL1 ensures efficient Integrator-mediated cleavage of snRNAs and is mutated in amyotrophic lateral sclerosis",
+      "authorString": "Yonchev ID, Apostol CV, Griffith L, Li A, Butler L, Patrick H, Aguilar-Martinez E, Whelan AGR, Evans C, Dickman MJ, Cooper-Knock J, Shaw PJ, West S, Barbaric I, Sudbery IM, Wilson SA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yonchev ID",
+            "lastName": "Yonchev",
+            "firstName": "Ivaylo",
+            "initials": "ID",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8486-7362"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Apostol CV",
+            "lastName": "Apostol",
+            "firstName": "Carmen",
+            "initials": "CV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2309-7285"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Griffith L",
+            "lastName": "Griffith",
+            "firstName": "Llywelyn",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-0223-8895"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li A",
+            "lastName": "Li",
+            "firstName": "Ang",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Butler L",
+            "lastName": "Butler",
+            "firstName": "Larissa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Stem Cell Biology, School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patrick H",
+            "lastName": "Patrick",
+            "firstName": "Helen",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aguilar-Martinez E",
+            "lastName": "Aguilar-Martinez",
+            "firstName": "Elisa",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Whelan AGR",
+            "lastName": "Whelan",
+            "firstName": "Ashleigh",
+            "initials": "AGR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evans C",
+            "lastName": "Evans",
+            "firstName": "Caroline",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4356-9216"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biological Engineering, The University of Sheffield, Sheffield, S1 4LZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dickman MJ",
+            "lastName": "Dickman",
+            "firstName": "Mark",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9236-0788"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biological Engineering, The University of Sheffield, Sheffield, S1 4LZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cooper-Knock J",
+            "lastName": "Cooper-Knock",
+            "firstName": "Johnathan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0873-8689"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, The University of Sheffield, Sheffield, S10 2HQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shaw PJ",
+            "lastName": "Shaw",
+            "firstName": "Pamela",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, The University of Sheffield, Sheffield, S10 2HQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "West S",
+            "lastName": "West",
+            "firstName": "Steven",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Living Systems Institute, University of Exeter, Exeter, EX4 4QD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbaric I",
+            "lastName": "Barbaric",
+            "firstName": "Ivana",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Stem Cell Biology, School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sudbery IM",
+            "lastName": "Sudbery",
+            "firstName": "Ian",
+            "initials": "IM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilson SA",
+            "lastName": "Wilson",
+            "firstName": "Stuart",
+            "initials": "SA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute For Nucleic Acids (SInFoNiA) and School of Biosciences, The University of Sheffield, Sheffield, S10 2TN, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8486-7362"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0873-8689"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2309-7285"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9236-0788"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4356-9216"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-0223-8895"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Integrator cleaves nascent RNA, triggering RNA polymerase II transcription termination, but how cleavage is regulated is poorly understood. Here we show hnRNPUL1 ensures efficient Integrator-mediated cleavage of nascent RNA downstream of snRNA genes and, in the case of U2 snRNA, binds a terminal stem-loop involved in this process. In the nucleoplasm, hnRNPUL1 binds U4 snRNA and SART3 and enables efficient reformation of the U4:U6 di-snRNP for further rounds of pre-mRNA splicing. Sustained hnRNPUL1 loss leads to reduced levels of snRNAs, defects in histone mRNA 3′ end processing and loss of Cajal bodies. hnRNPUL1 binds RNA through multiple domains, including a globular central domain comprising tightly juxtaposed SPRY and dead polynucleotide kinase folds. This latter fold allows binding to 5′-monophosphorylated RNAs in a mutually exclusive manner with ATP binding and functions as an XRN2 antagonist when overexpressed. We identify a cohort of amyotrophic lateral sclerosis patients harbouring disruptive mutations in hnRNPUL1. SMN loss in spinal muscular atrophy and hnRNPUL1 loss both disrupt snRNP biogenesis, leading to motor neuron death, suggesting a common aetiology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/M012166/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/R007268/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W000172/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/N014839/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/N005430/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/22/2023.07.22.550030.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.22.550030"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR695923"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR695923&type=FILE&fileName=EMS181807-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS181807",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-07-25",
+      "firstPublicationDate": "2023-07-22",
+      "firstIndexDate": "2023-07-25",
+      "fullTextReceivedDate": "2023-09-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

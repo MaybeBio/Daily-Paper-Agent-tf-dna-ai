@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-tbmtf",
+  "title": "PBCNet：Computing Relative Binding Affinity of Ligands to a Receptor Based on a Pairwise Binding Comparison Network for Lead Optimization",
+  "authors": "Jie Yu; Zhaojun Li; Geng Chen; Xiangtai Kong; Jie Hu; Dingyan Wang; Duanhua Cao; Yanbei Li; Xiaohong Liu; Gang Wang; Hualiang Jiang; Xutong Li; Xiaomin Luo; Mingyue Zheng",
+  "journal": "ChemRxiv",
+  "published_date": "2023-04-24",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于物理信息图注意力网络的PBCNet，用于配体-受体相对结合亲和力排序，虽涉及分子结合建模且方法可迁移，但对象为小分子-蛋白质而非蛋白质-DNA互作，与TF-DNA课题关联较远。",
+  "abstract": "Structure-based lead optimization is an open challenge in drug discovery, which is still largely driven by hypotheses and depends on the experience of medicinal chemists. We here propose a pairwise binding comparison network (PBCNet) based on physics-informed graph attention mechanism, specifically tailored for ranking relative binding affinity among congeneric ligands. Benchmarking on two held-out sets (provided by Schrödinger, Inc. and Merck KGaA) containing over 460 ligands and 16 targets, PBCNet demonstrated significant advantages in terms of both prediction accuracy and computational efficiency. Equipped with a fine-tuning operation, the performance of PBCNet reaches that of Schrödinger's FEP+, which is much more computationally intensive and requires significant expert intervention. A further simulation-based experiment showed that active learning-optimized PBCNet may accelerate lead optimization campaigns by 30%. Finally, for the convenience of users, a web service (https://pbcnet.alphama.com.cn/index) for PBCNet is established to facilitate complex relative binding affinity prediction through an easy-to-operate graphical interface.",
+  "abstract_zh": "基于结构的先导化合物优化是药物发现中的一个开放挑战，目前仍主要依赖假设驱动，并取决于药物化学家的经验。我们在此提出一种基于物理信息图注意力机制的成对结合比较网络（PBCNet），专门用于对同类配体间的相对结合亲和力进行排序。在两个独立测试集（由Schrödinger, Inc.和Merck KGaA提供）上，包含超过460个配体和16个靶标，PBCNet在预测准确性和计算效率方面均展现出显著优势。通过微调操作，PBCNet的性能达到了Schrödinger的FEP+水平，而后者计算强度大得多且需要大量专家干预。进一步的基于模拟的实验表明，采用主动学习优化的PBCNet可将先导化合物优化活动加速30%。最后，为方便用户，我们建立了PBCNet的Web服务（https://pbcnet.alphama.com.cn/index），通过易于操作的图形界面促进复杂相对结合亲和力的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-tbmtf",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-tbmtf",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-tbmtf/index.html"
+}

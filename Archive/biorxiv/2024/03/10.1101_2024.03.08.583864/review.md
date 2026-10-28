@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, figures and tables legends, methods, and supplementary table descriptions
+- **Assessment boundary** Scientific claims, experimental design, data analysis, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors generated a ZFP143 degron mouse embryonic stem cell line to study the direct consequences of ZNF143/ZFP143 loss. They report that acute ZFP143 depletion has no effect on chromatin looping, that a commonly used anti-ZNF143 antibody cross-reacts with CTCF leading to spurious association of ZNF143 with chromatin loops, and that ZFP143 specifically regulates nuclear-encoded mitochondrial genes, with its loss causing mitochondrial dysfunction, reduced proliferation, and developmental defects in an in vitro embryo model.
+- **Visible evidence base** ChIP-seq, Hi-C, 4C-seq, TT-seq, RNA-seq, mass spectrometry, flow cytometry, microscopy, and ATAC-seq data as described in the text and methods
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; exact statistical parameters, sample sizes, and reproducibility metrics for several experiments are not fully described; details of the degron system validation (e.g., knockout efficiency, off-target effects) are not fully provided
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the role of ZNF143 in chromatin looping and transcriptional regulation. The authors present a well-designed degron system to achieve acute protein depletion, which is a significant methodological improvement over previous non-acute knockdown approaches. The finding that ZNF143 is not required for chromatin looping, and that prior associations were likely due to antibody cross-reactivity with CTCF, is potentially field-changing. The identification of ZNF143 as a regulator of nuclear-encoded mitochondrial genes is novel and provides a plausible mechanism for its essential role in development. However, the manuscript as presented has several technical concerns that need to be addressed, particularly regarding the validation of the degron system, the robustness of the antibody cross-reactivity claim, and the causal link between mitochondrial dysfunction and developmental defects. The evidence is generally strong but not fully conclusive in all aspects.
+- **Who would be interested in the results, and why** This work will be of high interest to researchers in the fields of transcriptional regulation, chromatin architecture, mitochondrial biology, and developmental biology. The finding that ZNF143 is not a looping factor challenges existing paradigms and will prompt re-evaluation of previous studies. The identification of ZNF143 as a key regulator of nuclear-encoded mitochondrial genes provides a new entry point for understanding mitochondrial-nuclear crosstalk. The developmental phenotype in gastruloids will interest those studying early mammalian development. The methodological caution regarding antibody cross-reactivity is broadly relevant to the genomics community.
+- **Major strengths** 1) The use of an acute degron system is a rigorous approach to study direct versus indirect effects of protein depletion. 2) The systematic re-analysis of public datasets with attention to antibody specificity is a valuable contribution. 3) The multi-omics approach (ChIP-seq, Hi-C, 4C-seq, TT-seq, proteomics) provides a comprehensive view. 4) The identification of a specific biological function (mitochondrial gene regulation) for ZNF143 is a significant advance. 5) The gastruloid model provides physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that the ZFP143 degron system achieves rapid and efficient depletion, enabling the study of direct effects.
+  - **Evidence pointer** Figure 1B, 1C, 1D; "Establishment of ZFP143 degron cell line" section
+  - **Concern** The manuscript does not provide sufficient details on the validation of the degron system. Specifically, the efficiency of the CRISPR knock-in (homozygous vs. heterozygous), the specificity of the degron tag (potential disruption of ZFP143 function by the tag itself), and the kinetics of degradation are not fully described. The western blot in Figure 1B shows depletion but quantification and statistical analysis across replicates are not provided. Furthermore, the potential for off-target effects of dTAG-V1 treatment or the VHL E3 ligase recruitment is not addressed.
+  - **Why it matters** The entire study relies on the assumption that the degron system specifically and completely depletes ZFP143 without perturbing other cellular processes. If the depletion is incomplete or has off-target effects, the conclusions regarding the lack of effect on looping and the specific transcriptional changes could be compromised.
+  - **Resolution test** Provide a detailed characterization of the degron cell line, including genotyping data, quantification of protein depletion across multiple replicates with statistical analysis, and a control experiment showing that dTAG-V1 treatment of parental (untagged) cells does not recapitulate the observed phenotypes. Additionally, rescue experiments with a degradation-resistant ZFP143 construct would strengthen the specificity claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that a commonly used anti-ZNF143 antibody (Proteintech 16618-1-AP) cross-reacts with CTCF, leading to incorrect association of ZNF143 with chromatin loops.
+  - **Evidence pointer** Figure 3A-F; "Antibody cross-reactivity led to discovery of ZNF143 colocalization with CTCF and subsequent role in chromatin looping" section
+  - **Concern** The evidence for antibody cross-reactivity is based on indirect comparisons of peak overlap and motif enrichment. The authors do not provide direct biochemical evidence (e.g., immunoprecipitation followed by mass spectrometry, or western blot against recombinant CTCF) demonstrating that the Proteintech antibody recognizes CTCF. The possibility that the observed overlap is due to genuine co-binding of ZNF143 and CTCF at a subset of sites, or due to chromatin context, is not fully excluded. The analysis of the ZNF143 ChIP-nexus data from Zhang et al. is suggestive but relies on the same antibody.
+  - **Why it matters** This is a central claim of the manuscript and has broad implications for the field. If the cross-reactivity claim is not rigorously proven, the conclusion that ZNF143 is not a looping factor could be challenged. The claim also has implications for the interpretation of many published datasets.
+  - **Resolution test** Perform direct biochemical experiments to test cross-reactivity, such as immunoprecipitation with the Proteintech antibody followed by mass spectrometry to identify CTCF as an interactor, or western blot analysis using recombinant CTCF protein. Additionally, perform a spike-in experiment where tagged ZNF143 and CTCF are expressed and ChIP-seq is performed with both antibodies to definitively separate the signals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that ZFP143 loss leads to mitochondrial dysfunction, which in turn causes reduced proliferation and developmental defects.
+  - **Evidence pointer** Figure 4, 5; "ZFP143 regulates nuclear genes encoding mitochondrial proteins" and "Prolonged ZFP143 loss leads to decreased cell proliferation and mitochondrial dysfunction" sections
+  - **Concern** While the data show that ZFP143 depletion leads to downregulation of mitochondrial genes, mitochondrial dysfunction (reduced membrane potential, morphological changes), and reduced proliferation, the causal link between these events is not firmly established. The authors do not demonstrate that the mitochondrial dysfunction is the direct cause of the proliferation defect or the gastruloid phenotype. Other downstream effects of ZFP143 loss could contribute.
+  - **Why it matters** The manuscript proposes a specific mechanism (mitochondrial regulation) to explain ZFP143's essential role. Without direct evidence for causality, the mechanistic model remains correlative.
+  - **Resolution test** Perform rescue experiments where mitochondrial function is restored in ZFP143-depleted cells (e.g., by expressing a mitochondrial-targeted protein or providing metabolic substrates) and assess whether proliferation and gastruloid development are rescued. Alternatively, knock down a specific ZFP143 target gene (e.g., a key OXPHOS subunit) to see if it phenocopies the mitochondrial and proliferation defects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data completeness
+  - **Claim pointer** The authors claim that ZFP143 depletion has no effect on chromatin looping based on Hi-C and 4C-seq experiments.
+  - **Evidence pointer** Figure 2A-C, S2A-D; "Acute loss of ZFP143 is not consistent with a role in 3D genome organisation" section
+  - **Concern** The manuscript states that Hi-C was performed at 6 hours post-depletion, but the resolution and depth of the Hi-C data are not described. The pile-up analysis of loops is a global average and may not be sensitive enough to detect changes in a subset of loops. The 4C-seq analysis was performed at a few selected loci, which may not be representative. The statistical power to detect subtle changes in looping is not discussed.
+  - **Why it matters** The conclusion that ZFP143 is not involved in looping is a key negative result. If the analysis is underpowered, the conclusion could be a false negative.
+  - **Resolution test** Provide details on Hi-C sequencing depth, mapping statistics, and the number of loops detected. Perform a power analysis to determine the minimum effect size that could be detected. Consider analyzing loops specifically anchored at ZFP143 binding sites with high confidence. If possible, include Micro-C data as a higher-resolution complement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The schematic of the knock-in construct is not described in the text. It is unclear what the P2A peptide does and whether the GFP is fused to ZFP143 or expressed separately.
+  - **Required correction** Add a description of the construct design in the text or figure legend, clarifying the function of each element (FKBP, 2xHA, P2A, eGFP).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Differential expression analyses
+  - **Evidence pointer** Figure 4A, Table S5
+  - **Issue** The thresholds for differential expression are mentioned (FDR < 0.05, absolute log2-fold-change > 0.5), but the number of biological replicates and the dispersion of the data are not described.
+  - **Required correction** Provide details on the number of replicates, the statistical model used, and how the dispersion was estimated. Consider adding a supplementary figure showing the reproducibility between replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Gastruloid phenotype
+  - **Evidence pointer** Figure 6A, 6B
+  - **Issue** The morphological analysis of gastruloids is described as "dramatically impaired" but the quantification is not shown. It is unclear if the effect is on size, elongation, or cell viability.
+  - **Required correction** Provide quantitative measurements of gastruloid size, elongation, and viability over time, with statistical analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of ZFP143-bound but not regulated genes
+  - **Evidence pointer** "Discussion" section
+  - **Issue** The authors note that many ZFP143-bound genes are not downregulated upon depletion, but do not discuss potential reasons for this (e.g., redundancy, non-essential binding, or regulation by other factors).
+  - **Required correction** Add a brief discussion of this observation and its implications for understanding ZFP143 function.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (degron validation), R1-M2 (antibody cross-reactivity evidence)
+- **Assessment against Nature-style criteria** Originality: High. The manuscript challenges a prevailing view in the field and provides a new perspective on ZNF143 function. Scientific importance: High. The findings have implications for understanding transcriptional regulation, chromatin architecture, and mitochondrial biology. Interdisciplinary readership: Moderate to high. The work bridges genomics, biochemistry, and developmental biology. Technical soundness: Moderate. The experimental design is generally sound, but key validations are missing, and some conclusions rely on indirect evidence. Readability for nonspecialists: Good. The manuscript is well-written and the logic is clear, though some sections (e.g., the antibody re-analysis) may be dense for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the manuscript requires additional validation and clarification before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the Proteintech anti-ZNF143 antibody cross-reacts with CTCF is not directly proven and relies on indirect evidence.
+- The causal link between ZFP143-mediated mitochondrial gene regulation and the observed developmental defects in gastruloids is not established.
+- The claim that ZFP143 depletion has no effect on chromatin looping is based on analyses that may lack statistical power to detect subtle changes.
+- The general statement that ZFP143 is a "conserved transcriptional regulator" is supported by data from mouse cells and gastruloids, but conservation across species is inferred from sequence analysis and public data re-analysis, not directly tested.

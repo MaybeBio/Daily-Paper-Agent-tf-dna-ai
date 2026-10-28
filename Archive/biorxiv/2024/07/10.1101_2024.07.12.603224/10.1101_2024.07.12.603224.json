@@ -1,0 +1,493 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.12.603224",
+  "title": "NanoTag - an IgG-free method for mapping DNA-protein interactions",
+  "doi": "10.1101/2024.07.12.603224",
+  "abstract": "Genome-wide profiling of DNA-protein interactions in cells can provide important information about mechanisms of gene regulation. Most current methods for genome-wide profiling of DNA-bound proteins, such as ChIP-seq and CUT&Tag, use conventional IgG antibodies to bind target protein(s), which limits their applicability to targets for which high affinity and high specificity antibodies are available. Here we describe NanoTag, a novel method derived from CUT&Tag that is IgG-free and uses a nanobody to profile DNA-protein interactions. NanoTag is based on an anti-GFP nanobody-Tn5 transposase fusion that allows mapping GFP-tagged proteins associated with chromatin in a fast and cost-effective manner. We demonstrate the utility of NanoTag by profiling the histone mark H3K4me3 via its binding partner TATA box-binding protein-associated factor 3 (TAF3) and the transcription factors Nanog and CTCF in mouse embryonic stem cells expressing GFP-tagged targets. For the targets examined, NanoTag data shows high correlation to CUT&Tag data and displays a similarly high signal-to-noise ratio. Overall, NanoTag provides a flexible, IgG-free and cost-effective method to generate high resolution DNA-binding profiles in cells or tissues.",
+  "authors": [
+    "Maria A. Dimitriu",
+    "Rodrigo G. Arzate-Mejía",
+    "Leonard C. Steg",
+    "Pierre-Luc Germain",
+    "Isabelle M. Mansuy"
+  ],
+  "published_date": "2024-07-12",
+  "updated_date": "2024-07-13T01:25:16Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603224",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603224.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2026-01-24T11:50:00Z",
+        "timestamp": 1769255400469,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Genome-wide profiling of DNA-protein interactions in cells can provide important information about mechanisms of gene regulation. Most current methods for genome-wide profiling of DNA-bound proteins, such as ChIP-seq and CUT&amp;Tag, use conventional IgG antibodies to bind target protein(s), which limits their applicability to targets for which high affinity and high specificity antibodies are available. Here we describe NanoTag, a novel method derived from CUT&amp;Tag that is IgG-free and uses a nanobody to profile DNA-protein interactions. NanoTag is based on an anti-GFP nanobody-Tn5 transposase fusion that allows mapping GFP-tagged proteins associated with chromatin in a fast and cost-effective manner. We demonstrate the utility of NanoTag by profiling the histone mark H3K4me3 via its binding partner TATA box-binding protein-associated factor 3 (TAF3) and the transcription factors Nanog and CTCF in mouse embryonic stem cells expressing GFP-tagged targets. For the targets examined, NanoTag data shows high correlation to CUT&amp;Tag data and displays a similarly high signal-to-noise ratio. Overall, NanoTag provides a flexible, IgG-free and cost-effective method to generate high resolution DNA-binding profiles in cells or tissues.</jats:p>",
+      "DOI": "10.1101/2024.07.12.603224",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            13
+          ]
+        ],
+        "date-time": "2024-07-13T01:25:16Z",
+        "timestamp": 1720833916000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "NanoTag - an IgG-free method for mapping DNA-protein interactions"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6587-3342",
+          "authenticated-orcid": false,
+          "given": "Maria A.",
+          "family": "Dimitriu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6019-8624",
+          "authenticated-orcid": false,
+          "given": "Rodrigo G.",
+          "family": "Arzate-Mejía",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5308-6595",
+          "authenticated-orcid": false,
+          "given": "Leonard C.",
+          "family": "Steg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3418-4218",
+          "authenticated-orcid": false,
+          "given": "Pierre-Luc",
+          "family": "Germain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7785-5371",
+          "authenticated-orcid": false,
+          "given": "Isabelle M.",
+          "family": "Mansuy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1007/s10577-019-09619-9",
+          "article-title": "Genomic methods in profiling DNA accessibility and factor localization",
+          "volume": "28",
+          "year": "2020",
+          "journal-title": "Chromosome Res"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09982-5"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-11559-1"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.07.015"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202103078",
+          "DOI": "10.1083/jcb.202103078",
+          "article-title": "High-throughput single-cell epigenomic profiling by targeted insertion of promoters (Tip-seq)",
+          "volume": "220",
+          "year": "2021",
+          "journal-title": "J Cell Biol"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.09.019"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "708",
+          "DOI": "10.1038/s41587-022-01522-9",
+          "article-title": "Multifactorial profiling of epigenetic landscapes at single-cell resolution using MulTI-Tag",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.8",
+          "first-page": "794",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Multimodal chromatin profiling using nanobody-based single-cell CUT&Tag"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "806",
+          "DOI": "10.1038/s41587-022-01588-5",
+          "article-title": "Nanobody-tethered transposition enables multifactorial chromatin profiling at single-cell resolution",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1038/s41596-023-00905-9",
+          "article-title": "Scalable single-cell profiling of chromatin modifications with sciCUT&Tag",
+          "volume": "19",
+          "year": "2024",
+          "journal-title": "Nat Protoc"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "12879",
+          "DOI": "10.3390/ijms241612879",
+          "article-title": "Unnatural amino acid crosslinking for increased spatiotemporal resolution of chromatin dynamics",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Int J Mol Sci"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bcmd.2023.102745"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201600028"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms24065994"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2008.04.015"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.02.041"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.01.001"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang M , Zhang Y. Tn5 transposase-based epigenomic profiling methods are prone to open chromatin bias. 2021 Jul. bioRxiv 2021.07.09.451758.",
+          "DOI": "10.1101/2021.07.09.451758"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb3237"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.05.004"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.21",
+          "first-page": "7",
+          "article-title": "Exhaustive identification of genome-wide binding events of transcriptional regulators",
+          "volume": "52",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu D , Abbasova L , Schilder BM , Nott A , Skene NG , Marzi SJ . CUT&Tag recovers up to half of ENCODE ChIP-seq peaks. bioRxiv preprint. 2022.03.30.486382.",
+          "DOI": "10.1101/2022.03.30.486382"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a025783"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Monteiro CJ , Heery DM , Whitchurch JB . Modern approaches to mouse genome editing using the CRISPR-Cas toolbox and their applications in functional genomics and translational research. In: Passos GA , editor. Genome Ed Biomed Sci 2023:13–40.",
+          "DOI": "10.1007/978-3-031-33325-5_2"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-020-0434-2"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku571"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr343"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "3317",
+          "DOI": "10.3390/cancers13133317",
+          "article-title": "A Novel Nanobody Precisely Visualizes Phosphorylated Histone H2AX in Living Cancer Cells under Drug-Induced Replication Stress",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Cancers"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1342"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.168740"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpmo.30"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S Kaya-Okur H. Bench top CUT&Tag v3. protocols.io. 2020. https://www.protocols.io/view/bench-top-cut-amp-tag-bcuhiwt6.",
+          "DOI": "10.17504/protocols.io.bcuhiwt6"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1518",
+          "DOI": "10.1038/s41596-022-00692-9",
+          "article-title": "Chromatin accessibility profiling by ATAC-seq",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "Nat Protoc"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.MOLCEL.2023.07.009"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-31938-5"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng Y , Ahmad K , Henikoff S. CUT&Tag data processing and analysis tutorial v1. Github. 2020. https://yezhengstat.github.io/CUTTag_tutorial/.",
+          "DOI": "10.17504/protocols.io.bjk2kkye"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.5127899"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giab008"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv145"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "btac745",
+          "DOI": "10.1093/bioinformatics/btac745",
+          "article-title": "rGREAT: an R/bioconductor package for functional enrichment on genomic regions",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024071604000547000_2024.07.12.603224v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1064",
+          "DOI": "10.1038/s41588-021-00863-6",
+          "article-title": "CTCF mediates dosage– and sequence-context-dependent transcriptional insulation by forming local chromatin domains",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nat Genet"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.12.603224",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:42:22Z",
+        "timestamp": 1768459342000
+      },
+      "score": 77.64722,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.12.603224"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2024.07.12.603224",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

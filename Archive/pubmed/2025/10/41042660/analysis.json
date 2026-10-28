@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41042660",
+  "title": "Enhancing Transcription Factor Prediction via Domain Knowledge Integration With Logic Tensor Networks.",
+  "authors": "Gao, Liyuan; Sun, Linpeng; Sheng, Victor S",
+  "journal": "IEEE transactions on computational biology and bioinformatics",
+  "published_date": "2025-10-03",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用逻辑张量网络整合蛋白语言模型与TF基序逻辑规则预测转录因子，属于TF蛋白分类而非TF-DNA结合位点或互作机制建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Transcription factors (TFs) play a pivotal role in regulating gene expression, making accurate TF prediction critical for elucidating gene regulatory mechanisms. However, existing approaches face two key limitations: (1) traditional methods struggle with low accuracy, and (2) deep learning models require large datasets yet often lack interpretability, especially when domain-specific biological knowledge is underutilized. To address these challenges, we present LTN-TFpredict, a neurosymbolic framework that integrates Logic Tensor Networks (LTNs) with deep learning to simultaneously enhance accuracy and interpretability. Our model leverages pre-trained protein language models for high-dimensional sequence embeddings and incorporates logical constraints derived from five key TF-related motifs: zinc fingers, leucine zippers, basic helix-loop-helix, forkhead, and winged helix-turn-helix, to guide learning with biologically meaningful rules. This integration enforces consistency with known TF characteristics, improving both predictive performance and biological validity. Experimental results demonstrate that LTN-TFpredict consistently outperforms traditional classifiers (TFpredict, XGBoost), CNN-based models (DeepTFactor, ProtCNN), transformer-based architectures (ESM-TFpredict, ProtT5), and two alternative strategies: multi-loss optimization and motif-based data augmentation, achieving state-of-the-art accuracy while preserving strict logical compliance with domain knowledge. By bridging deep learning and symbolic reasoning, LTN-TFpredict offers a robust, interpretable, and biologically grounded solution for TF prediction, advancing the application of neurosymbolic AI in computational biology.",
+  "abstract_zh": "转录因子（TFs）在调控基因表达中发挥关键作用，因此准确的TF预测对于阐明基因调控机制至关重要。然而，现有方法面临两个主要限制：（1）传统方法准确率较低，（2）深度学习模型需要大规模数据集，但往往缺乏可解释性，尤其是在领域特定生物学知识未被充分利用的情况下。为应对这些挑战，我们提出了LTN-TFpredict，一种将逻辑张量网络（Logic Tensor Networks, LTNs）与深度学习相结合的神经常识框架，以同时提升准确性和可解释性。我们的模型利用预训练蛋白质语言模型进行高维序列嵌入，并整合源自五种关键TF相关基序的逻辑约束：锌指（zinc fingers）、亮氨酸拉链（leucine zippers）、碱性螺旋-环-螺旋（basic helix-loop-helix）、叉头（forkhead）以及翼状螺旋-转角-螺旋（winged helix-turn-helix），以生物学有意义的规则指导学习。这种整合确保与已知TF特征的一致性，从而提升预测性能和生物学有效性。实验结果表明，LTN-TFpredict在准确率上持续优于传统分类器（TFpredict、XGBoost）、基于CNN的模型（DeepTFactor、ProtCNN）、基于Transformer的架构（ESM-TFpredict、ProtT5），以及两种替代策略：多损失优化和基于基序的数据增强，在实现最先进准确率的同时，保持对领域知识的严格逻辑合规性。通过弥合深度学习与符号推理之间的鸿沟，LTN-TFpredict为TF预测提供了一种稳健、可解释且具有生物学基础的解决方案，推动了神经常识人工智能在计算生物学中的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41042660/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41042660/",
+  "paper_page_path": "papers/pubmed/41042660/index.html"
+}

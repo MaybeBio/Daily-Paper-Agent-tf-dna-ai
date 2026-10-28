@@ -1,0 +1,210 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2021-013gn-v2",
+  "title": "BiRDS - Binding Residue Detection from Protein Sequences using Deep ResNets",
+  "doi": "10.26434/chemrxiv-2021-013gn-v2",
+  "abstract": "Protein-drug interactions play important roles in many biological processes and therapeutics. Prediction of the active binding site of a protein helps discover and optimise these interactions leading to the design of better ligand molecules. The tertiary structure of a protein determines the binding sites available to the drug molecule. A quick and accurate prediction of the binding site from sequence alone without utilising the three-dimensional structure is challenging. Deep Learning has been used in a variety of biochemical tasks and has been hugely successful. In this paper, a Residual Neural Network (leveraging skip connections) is implemented to predict a protein's most active binding site. An Annotated Database of Druggable Binding Sites from the Protein DataBank, sc-PDB, is used for training the network. Features extracted from the Multiple Sequence Alignments (MSAs) of the protein generated using DeepMSA, such as Position-Specific Scoring Matrix (PSSM), Secondary Structure (SS3), and Relative Solvent Accessibility (RSA), are provided as input to the network. A weighted binary cross-entropy loss function is used to counter the substantial imbalance in the two classes of binding and non-binding residues. The network performs very well on single-chain proteins, providing a pocket that has good interactions with a ligand.",
+  "authors": [
+    "Vineeth Chelur",
+    "U. Deva Priyakumar"
+  ],
+  "published_date": "2021-12-06",
+  "updated_date": "2022-01-25T07:21:39Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2021-013gn-v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-013gn-v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:25:48Z",
+        "timestamp": 1785414348279,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            6
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                6
+              ]
+            ],
+            "date-time": "2021-12-06T00:00:00Z",
+            "timestamp": 1638748800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein-drug interactions play important roles in many biological processes and therapeutics. Prediction of the active binding site of a protein helps discover and optimise these interactions leading to the design of better ligand molecules. The tertiary structure of a protein determines the binding sites available to the drug molecule. A quick and accurate prediction of the binding site from sequence alone without utilising the three-dimensional structure is challenging. Deep Learning has been used in a variety of biochemical tasks and has been hugely successful. In this paper, a Residual Neural Network (leveraging skip connections) is implemented to predict a protein's most active binding site. An Annotated Database of Druggable Binding Sites from the Protein DataBank, sc-PDB, is used for training the network. Features extracted from the Multiple Sequence Alignments (MSAs) of the protein generated using DeepMSA, such as Position-Specific Scoring Matrix (PSSM), Secondary Structure (SS3), and Relative Solvent Accessibility (RSA), are provided as input to the network. A weighted binary cross-entropy loss function is used to counter the substantial imbalance in the two classes of binding and non-binding residues. The network performs very well on single-chain proteins, providing a pocket that has good interactions with a ligand.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2021-013gn-v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2022-01-25T07:21:39Z",
+        "timestamp": 1643095299000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "BiRDS - Binding Residue Detection from Protein Sequences using Deep ResNets"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Vineeth",
+          "family": "Chelur",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05f11g639",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "International Institute of Information Technology, Hyderabad",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7114-3955",
+          "authenticated-orcid": false,
+          "given": "U. Deva",
+          "family": "Priyakumar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05f11g639",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "International Institute of Information Technology, Hyderabad",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-013gn-v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:44:36Z",
+        "timestamp": 1778751876000
+      },
+      "score": 114.230804,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2021-013gn-v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            6
+          ]
+        ]
+      },
+      "references-count": 0,
+      "aliases": [
+        "10.33774/chemrxiv-2021-013gn-v2"
+      ],
+      "URL": "https://doi.org/10.26434/chemrxiv-2021-013gn-v2",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.1c00972",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

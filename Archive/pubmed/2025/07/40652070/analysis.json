@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40652070",
+  "title": "Identification of diagnostic biomarkers and dissecting immune microenvironment with crosstalk genes in the POAG and COVID-19 nexus.",
+  "authors": "Peng, Changfan; Hu, Long; Su, Wanwen; Hu, Xin",
+  "journal": "Scientific reports",
+  "published_date": "2025-07-13",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过流行病学与转录组分析探究POAG与COVID-19关联，虽构建TF-miRNA调控网络，但核心是疾病诊断标志物与免疫微环境，非蛋白质-DNA互作建模，方法上仅用机器学习筛选基因，缺乏AI/物理模拟的互作机制研究。",
+  "abstract": "An underlying association between primary open-angle glaucoma (POAG) and COVID-19 has been hypothesized, but the causal link and shared mechanisms remain unclear. This study integrates epidemiological and bioinformatics approaches to investigate their relationship, aiming to identify common molecular pathways and validate clinical correlations. Epidemiological data from 3,015 participants in the CHARLS database were analyzed using multivariate logistic regression and Cox proportional hazards models to assess the association between COVID-19 and POAG, with stratification by gender, smoking status, and alcohol consumption. Concurrently, gene expression datasets from GEO (POAG: GSE27276; COVID-19: GSE171110, GSE152418) were used to identify 57 crosstalk genes (CGs) via differential expression analysis. Machine learning algorithms (LASSO, SVM-RFE, Random Forest) were applied to screen POAG diagnostic biomarkers from CGs, followed by construction of transcription factor (TF)-microRNA (miRNA)-protein-compound regulatory networks and consensus clustering to characterize COVID-19 immune microenvironment subtypes. Epidemiological analyses revealed that COVID-19 was an independent risk factor for POAG, with adjusted odds ratios (ORs) of 12.775-15.688 and hazard ratios (HRs) of 4.893-5.060 (all P < 0.001), with stronger associations in males (OR = 15.054, HR = 5.645) and smokers (OR = 29.828, HR = 9.323). HDL levels were significantly higher in POAG patients (P = 0.028), while vb001_s1 positivity was negatively associated with POAG (P < 0.001). Bioinformatics identified CGs enriched in inflammatory response, oxidative stress, and hypoxia pathways. Five potential biomarkers (CA12, ECRG4, CEBPD, HBB, HBA2) showed high diagnostic efficacy (AUC > 0.9) but limited specificity (expressed in uveitis and diabetic retinopathy). COVID-19 patients were stratified into three clusters, with Cluster B exhibiting hyperactive immune microenvironments characterized by elevated HLA class I/II and immune checkpoint genes (CTLA4, PDCD1LG2) in antigen-presenting cells and T cells. This study provides epidemiological and molecular evidence linking POAG to COVID-19, highlighting inflammation and immune dysregulation as shared mechanisms. Gender and smoking modify this association, warranting targeted POAG screening in male COVID-19 survivors and smokers. While identified biomarkers require specificity improvement, findings underscore the need for mechanistic studies (e.g., ACE2-mediated ocular injury, T-cell neuroinflammation) to validate causality and inform clinical management.",
+  "abstract_zh": "原发性开角型青光眼（primary open-angle glaucoma, POAG）与COVID-19之间的潜在关联已被假设，但因果联系及共享机制仍不明确。本研究整合流行病学与生物信息学方法探讨二者关系，旨在识别共同分子通路并验证临床相关性。利用CHARLS数据库中3,015名参与者的流行病学数据，采用多变量逻辑回归和Cox比例风险模型评估COVID-19与POAG的关联，并按性别、吸烟状况和饮酒情况进行分层分析。同时，利用GEO中的基因表达数据集（POAG：GSE27276；COVID-19：GSE171110, GSE152418），通过差异表达分析识别出57个串扰基因（crosstalk genes, CGs）。应用机器学习算法（LASSO、SVM-RFE、随机森林）从CGs中筛选POAG诊断生物标志物，随后构建转录因子（transcription factor, TF）-微小RNA（microRNA, miRNA）-蛋白质-化合物调控网络，并通过共识聚类表征COVID-19免疫微环境亚型。流行病学分析显示，COVID-19是POAG的独立危险因素，调整后的比值比（odds ratios, ORs）为12.775-15.688，风险比（hazard ratios, HRs）为4.893-5.060（均P < 0.001），其中男性（OR = 15.054, HR = 5.645）和吸烟者（OR = 29.828, HR = 9.323）的关联更强。POAG患者中HDL水平显著升高（P = 0.028），而vb001_s1阳性与POAG呈负相关（P < 0.001）。生物信息学分析识别出CGs富集于炎症反应、氧化应激和缺氧通路。五个潜在生物标志物（CA12、ECRG4、CEBPD、HBB、HBA2）显示出高诊断效能（AUC > 0.9），但特异性有限（在葡萄膜炎和糖尿病视网膜病变中亦有表达）。COVID-19患者被分为三个聚类，其中聚类B表现出过度活跃的免疫微环境，其特征为抗原呈递细胞和T细胞中HLA I/II类及免疫检查点基因（CTLA4、PDCD1LG2）表达升高。本研究提供了将POAG与COVID-19关联起来的流行病学和分子证据，强调炎症和免疫失调为共享机制。性别和吸烟状况可修饰此关联，提示需对男性COVID-19幸存者和吸烟者进行针对性POAG筛查。尽管所识别的生物标志物需提高特异性，但研究结果强调了开展机制研究（如ACE2介导的眼部损伤、T细胞神经炎症）以验证因果关系并指导临床管理的必要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40652070/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40652070/",
+  "paper_page_path": "papers/pubmed/40652070/index.html"
+}

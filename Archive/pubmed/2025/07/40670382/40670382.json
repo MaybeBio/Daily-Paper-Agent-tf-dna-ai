@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "40670382",
+    "doi": "10.1038/s41514-025-00258-5",
+    "title": "Interpretable deep learning framework for understanding molecular changes in human brains with Alzheimer's disease: implications for microglia activation and sex differences."
+  },
+  "content": {
+    "abstract": "The utilization of artificial intelligence in studying the dysregulation of gene expression in Alzheimer's disease (AD) affected brain tissues remains underexplored, particularly in delineating common and specific transcriptomic signatures across different brain regions implicated in AD-related cellular and molecular processes, which could help illuminate novel disease biology for biomarker and target discovery. Herein we developed a deep learning framework, which consisted of multi-layer perceptron (MLP) models to classify neuropathologically confirmed AD versus controls, using bulk tissue RNA-seq data from the RNAseq Harmonization Study of the Accelerating Medicines Project for Alzheimer's Disease (AMP-AD) consortium. The models were trained based on data from three distinct brain regions, including dorsolateral prefrontal cortex (DLPFC), posterior cingulate cortex (PCC), and head of the caudate nucleus (HCN), obtained from the Religious Orders Study/Memory and Aging Project (ROSMAP). Subsequently, we inferred a disease progression trajectory for each brain region by applying unsupervised dimensionality transformation to the distribution of the subjects' expression profiles. To interpret the MLP models, we employed an interpretable method for deep neural network models, obtaining SHapley Additive exPlanations (SHAP) values and identified the most significantly AD-implicated genes for gene co-expression network analysis. Our models demonstrated robust performance in classification and prediction across two other external datasets from the Mayo RNA-seq (MAYO) cohort and the Mount Sinai Brain Bank (MSBB) cohort of AMP-AD. By interpreting the models both mechanistically and biologically, our study elucidated subtle molecular alterations in various brain regions, uncovering shared transcriptomic signatures activated in microglia and sex-specific modules in neurons relevant to AD. Notably, we identified, for the first time, a sex-linked transcription factor pair (ZFX/ZFY) associated with more pronounced neuronal loss in AD females, shedding light on a novel mechanism for sex dimorphism in AD. This study lays the groundwork for leveraging artificial intelligence methodologies to investigate AD at the molecular level, which is not readily achievable from conventional analysis approaches such as differential gene expression (DGE) analysis. The transcription factor implicated in sex difference also underpins a new molecular mechanistic basis of women's greater neurodegeneration in AD warranting further study.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Trivedi, Maitry Ronakbhai",
+        "Joshi, Amogh Manoj",
+        "Shah, Jay",
+        "Readhead, Benjamin P",
+        "Wilson, Melissa A",
+        "Su, Yi",
+        "Reiman, Eric M",
+        "Wu, Teresa",
+        "Wang, Qi"
+      ],
+      "short_names": [
+        "Trivedi MR",
+        "Joshi AM",
+        "Shah J",
+        "Readhead BP",
+        "Wilson MA",
+        "Su Y",
+        "Reiman EM",
+        "Wu T",
+        "Wang Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3617-2395"
+      ],
+      "affiliations": [
+        "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+        "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA.",
+        "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+        "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA.",
+        "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+        "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA.",
+        "ASU-Banner Neurodegenerative Disease Research Center, Arizona State University, Tempe, AZ, USA.",
+        "School of Life Sciences, Arizona State University, Tempe, AZ, USA.",
+        "Center for Evolution and Medicine, Arizona State University, Tempe, USA.",
+        "The Biodesign Center for Mechanisms of Evolution, Arizona State University, Tempe, AZ, USA.",
+        "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA.",
+        "Banner Alzheimer's Institute, Phoenix, AZ, USA.",
+        "Banner Alzheimer's Institute, Phoenix, AZ, USA.",
+        "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+        "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA.",
+        "ASU-Banner Neurodegenerative Disease Research Center, Arizona State University, Tempe, AZ, USA. Qi.Wang.10@asu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Trivedi, Maitry Ronakbhai",
+        "short_name": "Trivedi MR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+          "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Joshi, Amogh Manoj",
+        "short_name": "Joshi AM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+          "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Shah, Jay",
+        "short_name": "Shah J",
+        "identifiers": [
+          "0000-0002-3617-2395"
+        ],
+        "affiliations": [
+          "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+          "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Readhead, Benjamin P",
+        "short_name": "Readhead BP",
+        "identifiers": [],
+        "affiliations": [
+          "ASU-Banner Neurodegenerative Disease Research Center, Arizona State University, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Wilson, Melissa A",
+        "short_name": "Wilson MA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Arizona State University, Tempe, AZ, USA.",
+          "Center for Evolution and Medicine, Arizona State University, Tempe, USA.",
+          "The Biodesign Center for Mechanisms of Evolution, Arizona State University, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Su, Yi",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA.",
+          "Banner Alzheimer's Institute, Phoenix, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Reiman, Eric M",
+        "short_name": "Reiman EM",
+        "identifiers": [],
+        "affiliations": [
+          "Banner Alzheimer's Institute, Phoenix, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Teresa",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing and Augmented Intelligence, Arizona State University, Tempe, AZ, USA.",
+          "ASU-Mayo Center for Innovative Imaging, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "ASU-Banner Neurodegenerative Disease Research Center, Arizona State University, Tempe, AZ, USA. Qi.Wang.10@asu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "npj aging"
+    ],
+    "journal_abbrev": [
+      "NPJ Aging"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 04:42",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42699651",
+      "41516048",
+      "41343028"
+    ],
+    "refs": [
+      "38190107",
+      "37774678",
+      "37774677",
+      "37592813",
+      "37340466",
+      "37329982",
+      "37317973",
+      "36819663",
+      "36703235",
+      "36564824",
+      "36411364",
+      "36306735",
+      "36300620",
+      "36257314",
+      "36002854",
+      "35922410",
+      "35595537",
+      "35379992",
+      "35248124",
+      "34993477",
+      "34981115",
+      "34788843",
+      "34600516",
+      "34531807",
+      "34508095",
+      "33560670",
+      "33085189",
+      "33057419",
+      "32461223",
+      "31701148",
+      "30944313",
+      "30832569",
+      "30820047",
+      "30415998",
+      "30349450",
+      "30204156",
+      "29959263",
+      "29914354",
+      "29865057",
+      "29140464",
+      "29022598",
+      "28793924",
+      "28602351",
+      "28325905",
+      "27799057",
+      "27727239",
+      "26853544",
+      "26771021",
+      "26618778",
+      "23869106",
+      "22471867",
+      "22471860",
+      "22285995",
+      "22257669",
+      "16632515",
+      "16143493",
+      "2500252"
+    ],
+    "similar": [
+      "40670382",
+      "34993477",
+      "40631452",
+      "41113932",
+      "38187539",
+      "40740481",
+      "35143967",
+      "39985481",
+      "37340466",
+      "39975342",
+      "39253457",
+      "39606364",
+      "39868232",
+      "39605544",
+      "41189021",
+      "41035073",
+      "38909241",
+      "33398016",
+      "41022229",
+      "34953465",
+      "37491248",
+      "40790613",
+      "39554066",
+      "35180881",
+      "29784049",
+      "41472708",
+      "40585142",
+      "31878951",
+      "41723778",
+      "37985399",
+      "39730451",
+      "39920001",
+      "41729360",
+      "40297324",
+      "39262221",
+      "40475406",
+      "34658838",
+      "41473305",
+      "27799057",
+      "34589742",
+      "40136454",
+      "39497354",
+      "31214167",
+      "38297404",
+      "39841296",
+      "36966244",
+      "33514817",
+      "40181382",
+      "40860594",
+      "41667529",
+      "40515808",
+      "38826275",
+      "39543008",
+      "34669146",
+      "41726956",
+      "31736866",
+      "38559218",
+      "41313603",
+      "37833700",
+      "39657969",
+      "37587511",
+      "41146678",
+      "35806110",
+      "35295737",
+      "36254161",
+      "38913039",
+      "37891690",
+      "31247206",
+      "33140241",
+      "37333458",
+      "40250147",
+      "38453894",
+      "32660529",
+      "35711243",
+      "41747574",
+      "36928034",
+      "38260600",
+      "41757211",
+      "41327391",
+      "37358952",
+      "40196631",
+      "40093264",
+      "40267236",
+      "40336141",
+      "38195609",
+      "32618510",
+      "34043628",
+      "36873924",
+      "37961387",
+      "41024255",
+      "40585083",
+      "35563596",
+      "39009097",
+      "30189875",
+      "38741048",
+      "36228382",
+      "38082372",
+      "38971545",
+      "38916996",
+      "33631273"
+    ],
+    "review": [
+      "40670382",
+      "38297404"
+    ],
+    "pmc": [
+      "12267417"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41514-025-00258-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40670382/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

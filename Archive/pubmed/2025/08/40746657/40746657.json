@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "40746657",
+    "doi": "10.3389/fbinf.2025.1573744",
+    "title": "NfkappaBin: a machine learning based method for screening TNF-alpha induced NF-kappaB inhibitors."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Nuclear Factor kappa B (NF-kappaB) is a transcription factor whose upregulation is associated in chronic inflammatory diseases, including rheumatoid arthritis, inflammatory bowel disease, and asthma. In order to develop therapeutic strategies targeting NF-kappaB-related diseases, we developed a computational approach to predict drugs capable of inhibiting TNF-alpha induced NF-kappaB signaling pathways. METHOD: We utilized a dataset comprising 1,149 inhibitors and 1,332 non-inhibitors retrieved from PubChem. Chemical descriptors were computed using the PaDEL software, and relevant features were selected using advanced feature selection techniques. RESULT: Initially, machine learning models were constructed using 2D descriptors, 3D descriptors, and molecular fingerprints, achieving maximum AUC values of 0.66, 0.56, and 0.66, respectively. To improve feature selection, we applied univariate analysis and SVC-L1 regularization to identify features that can effectively differentiate inhibitors from non-inhibitors. Using these selected features, we developed machine learning models, our support vector classifier achieved a highest AUC of 0.75 on the validation dataset. DISCUSSION: Finally, this best-performing model was employed to screen FDA-approved drugs for potential NF-kappaB inhibitors. Notably, most of the predicted inhibitors corresponded to drugs previously identified as inhibitors in experimental studies, underscoring the model's predictive reliability. Our best-performing models have been integrated into a standalone software and web server, NfkappaBin. (https://webs.iiitd.edu.in/raghava/nfkbin/).",
+    "keywords": [
+      "NF-kappaB",
+      "chemical descriptors",
+      "high-throughput screening",
+      "inhibitor prediction tool",
+      "machine learning",
+      "nuclear factor kappa B"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jain, Shipra",
+        "Tomer, Ritu",
+        "Patiyal, Sumeet",
+        "Raghava, Gajendra P S"
+      ],
+      "short_names": [
+        "Jain S",
+        "Tomer R",
+        "Patiyal S",
+        "Raghava GPS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.",
+        "Cancer and Data Science Laboratory (CDSL), National Cancer Institute, National Institutes of Health, Bethesda, MD, United States.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jain, Shipra",
+        "short_name": "Jain S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Tomer, Ritu",
+        "short_name": "Tomer R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Patiyal, Sumeet",
+        "short_name": "Patiyal S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Data Science Laboratory (CDSL), National Cancer Institute, National Institutes of Health, Bethesda, MD, United States."
+        ]
+      },
+      {
+        "full_name": "Raghava, Gajendra P S",
+        "short_name": "Raghava GPS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/01 11:33",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39003845",
+      "38528548",
+      "37886003",
+      "37054525",
+      "36845136",
+      "36789516",
+      "36113834",
+      "35809376",
+      "35595541",
+      "35409325",
+      "35152041",
+      "34936986",
+      "34450382",
+      "34388468",
+      "34248142",
+      "33997176",
+      "32750649",
+      "31487001",
+      "31215501",
+      "30605855",
+      "30415122",
+      "29158945",
+      "28530838",
+      "28386055",
+      "26788210",
+      "26689771",
+      "25880749",
+      "24992720",
+      "24958609",
+      "24188205",
+      "23915189",
+      "23294515",
+      "23284045",
+      "22214865",
+      "22140110",
+      "21425294",
+      "20457564",
+      "20087353",
+      "20074673",
+      "19116625",
+      "19109745",
+      "18596077",
+      "18267068",
+      "17611291",
+      "16724054",
+      "15371334",
+      "15329734",
+      "15145317",
+      "12394161",
+      "12360211",
+      "11160126",
+      "11134171",
+      "10822156",
+      "8717528",
+      "8710491",
+      "8530143"
+    ],
+    "similar": [
+      "40746657",
+      "34388468",
+      "32153395",
+      "34450382",
+      "39038391",
+      "40959057",
+      "38268970",
+      "39386877",
+      "39770535",
+      "29706944",
+      "35152041",
+      "40670434",
+      "39501025",
+      "38257744",
+      "40830133",
+      "39305039",
+      "27771457",
+      "36466363",
+      "40825424",
+      "36742312",
+      "29856745",
+      "38803012",
+      "40671320",
+      "30416494",
+      "38104877",
+      "33034338",
+      "34880873",
+      "39617708",
+      "33444723",
+      "31905145",
+      "36540414",
+      "36516298",
+      "37058758",
+      "40684492",
+      "34857774",
+      "36269563",
+      "36344934",
+      "37075579",
+      "37836625",
+      "37126926",
+      "33000578",
+      "40369176",
+      "36318663",
+      "40955790",
+      "40154899",
+      "39244174",
+      "38439097",
+      "20067776",
+      "29763967",
+      "40761758",
+      "26619903",
+      "39433152",
+      "38637465",
+      "30415122",
+      "37395839",
+      "40781625",
+      "31486019",
+      "38914662",
+      "40065741",
+      "23294515",
+      "40945215",
+      "35595541",
+      "28986307",
+      "24512737",
+      "33201237",
+      "40369550",
+      "19628795",
+      "38169205",
+      "24135236",
+      "39247292",
+      "40575395",
+      "35943134",
+      "37957952",
+      "15464079",
+      "41231651",
+      "38127429",
+      "41249564",
+      "9521814",
+      "12871131",
+      "34868905",
+      "30591403",
+      "21344384",
+      "29927820",
+      "40491847",
+      "37525341",
+      "33067876",
+      "36753375",
+      "30914676",
+      "41430621",
+      "38418571",
+      "10843709",
+      "11067959",
+      "26376206",
+      "39701316",
+      "41346979",
+      "19729328",
+      "40405163",
+      "32795901",
+      "40360040",
+      "25595974"
+    ],
+    "review": [
+      "40746657",
+      "12871131"
+    ],
+    "pmc": [
+      "12310657"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40746657/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1573744",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

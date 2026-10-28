@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "39173401",
+    "doi": "10.1016/j.intimp.2024.112905",
+    "title": "Explore key genes of Crohn's disease based on glycerophospholipid metabolism: A comprehensive analysis Utilizing Mendelian Randomization, Multi-Omics integration, Machine Learning, and SHAP methodology."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Crohn's disease (CD) is a chronic, complex inflammatory condition with increasing incidence and prevalence worldwide. However, the causes of CD remain incompletely understood. We identified CD-related metabolites, inflammatory factors, and key genes by Mendelian randomization (MR), multi-omics integration, machine learning (ML), and SHAP. METHODS: We first performed a mediation MR analysis on 1400 serum metabolites, 91 inflammatory factors, and CD. We found that certain phospholipids are causally related to CD. In the scRNA-seq data, monocytes were categorized into high and low metabolism groups based on their glycerophospholipid metabolism scores. The differentially expressed genes of these two groups of cells were extracted, and transcription factor prediction, cell communication analysis, and GSEA analysis were performed. After further screening of differentially expressed genes (FDR<0.05, log2FC>1), least absolute shrinkage and selection operator (LASSO) regression was performed to obtain hub genes. Models for hub genes were built using the Catboost, XGboost, and NGboost methods. Further, we used the SHAP method to interpret the models and obtain the gene with the highest contribution to each model. Finally, qRT-PCR was used to verify the expression of these genes in the peripheral blood mononuclear cells (PBMC) of CD patients and healthy subjects. RESULT: MR results showed 1-palmitoyl-2-stearoyl-gpc (16:0/18:0) levels, 1-stearoyl-2-arachidonoyl-GPI (18:0/20:4) levels, 1-arachidonoyl-gpc (20:4n6) levels, 1-palmitoyl-2-arachidonoyl-gpc (16:0/20:4n6) levels, and 1-arachidonoyl-GPE (20:4n6) levels were significantly associated with CD risk reduction (FDR<0.05), with CXCL9 acting as a mediation between these phospholipids and CD. The analysis identified 19 hub genes, with Catboost, XGboost, and NGboost achieving AUC of 0.91, 0.88, and 0.85, respectively. The SHAP methodology obtained the three genes with the highest model contribution: G0S2, S100A8, and PLAUR. The qRT-PCR results showed that the expression levels of S100A8 (p = 0.0003), G0S2 (p < 0.0001), and PLAUR (p = 0.0141) in the PBMC of CD patients were higher than healthy subjects. CONCLUSION: MR findings suggest that certain phospholipids may lower CD risk. G0S2, S100A8, and PLAUR may be potential pathogenic genes in CD. These phospholipids and genes could serve as novel diagnostic and therapeutic targets for CD.",
+    "keywords": [
+      "Crohn's disease",
+      "Machine Learning",
+      "Mendelian Randomization",
+      "Multi-Omics",
+      "SHAP"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Crohn Disease/genetics",
+      "*Machine Learning",
+      "*Glycerophospholipids/metabolism/blood",
+      "*Mendelian Randomization Analysis",
+      "Genetic Predisposition to Disease",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Changan",
+        "Quan, Juanhua",
+        "Chen, Xintian",
+        "Yang, Tingmei",
+        "Yu, Caiyuan",
+        "Ye, Shicai",
+        "Yang, Yuping",
+        "Wu, Xiu",
+        "Jiang, Danxian",
+        "Weng, Yijie"
+      ],
+      "short_names": [
+        "Chen C",
+        "Quan J",
+        "Chen X",
+        "Yang T",
+        "Yu C",
+        "Ye S",
+        "Yang Y",
+        "Wu X",
+        "Jiang D",
+        "Weng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China.",
+        "Department of Medical Oncology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China. Electronic address: fyjiangdanxian@163.com.",
+        "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China. Electronic address: Jane_weng123@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Changan",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Quan, Juanhua",
+        "short_name": "Quan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xintian",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tingmei",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Yu, Caiyuan",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Ye, Shicai",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuping",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiu",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Danxian",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China. Electronic address: fyjiangdanxian@163.com."
+        ]
+      },
+      {
+        "full_name": "Weng, Yijie",
+        "short_name": "Weng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Affiliated Hospital of Guangdong Medical University, Zhanjiang, Guangdong, PR China. Electronic address: Jane_weng123@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/23 00:43",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42100434",
+      "41993982",
+      "41492772",
+      "40918404",
+      "40909263",
+      "40562379",
+      "40198459"
+    ],
+    "refs": [],
+    "similar": [
+      "39173401",
+      "37170220",
+      "39087774",
+      "38773751",
+      "39261800",
+      "38778086",
+      "36792688",
+      "39215321",
+      "38536561",
+      "38179058",
+      "38103512",
+      "39367121",
+      "35860271",
+      "38707907",
+      "37742034",
+      "39072277",
+      "35795659",
+      "34469062",
+      "38848323",
+      "37496049",
+      "38408068",
+      "38433839",
+      "38343536",
+      "37622114",
+      "38649912",
+      "39030236",
+      "37860672",
+      "38846949",
+      "39152174",
+      "39081143",
+      "39280009",
+      "38962008",
+      "35861879",
+      "38022582",
+      "36685511",
+      "35306380",
+      "36466876",
+      "36255487",
+      "32425988",
+      "39014047",
+      "38319411",
+      "39044827",
+      "35757704",
+      "38102690",
+      "23624108",
+      "36645152",
+      "36904201",
+      "35988261",
+      "38735018",
+      "36479126",
+      "38660310",
+      "38933282",
+      "38030696",
+      "39026663",
+      "38660517",
+      "39018587",
+      "38905376",
+      "32252817",
+      "38638444",
+      "29335008",
+      "38464525",
+      "33167994",
+      "38948518",
+      "37426324",
+      "39062507",
+      "32628751",
+      "34098982",
+      "37171693",
+      "38867275",
+      "39009667",
+      "37481583",
+      "38505024",
+      "39214372",
+      "39426956",
+      "36248794",
+      "38947325",
+      "37275908",
+      "39175573",
+      "38518057",
+      "38427067",
+      "37465669",
+      "35647843",
+      "39126578",
+      "38720886",
+      "38288119",
+      "38840917",
+      "39039470",
+      "39126463",
+      "38680491",
+      "35110611",
+      "38012665",
+      "39044191",
+      "38528540",
+      "38529201",
+      "38703189",
+      "38429331",
+      "38869635",
+      "37817217",
+      "37828486",
+      "39381207",
+      "38896366",
+      "39351493"
+    ],
+    "review": [
+      "39173401",
+      "37170220",
+      "38848323",
+      "38030696",
+      "38905376",
+      "38720886",
+      "38429331"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

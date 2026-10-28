@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15000109/v1",
+  "title": "MillerBind: A Harmonic Framework for Protein-Ligand Binding Affinity Prediction with State-of-the-Art Performance on CASF-2016",
+  "authors": "William Miller",
+  "journal": "ChemRxiv",
+  "published_date": "2026-02-16",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于Miller Harmonic Mathematics的蛋白-配体结合亲和力预测框架，虽涉及蛋白-配体互作建模，但对象为小分子配体而非蛋白质-DNA，且未涉及TF-DNA结合或核酸互作，仅方法上对分子互作建模有间接启发。",
+  "abstract": "Accurate prediction of protein-ligand binding affinity remains a central challenge in computational drug discovery. We present MillerBind, a novel scoring function based on a proprietary mathematical framework-Miller Harmonic Mathematics (MHM)-that encodes atomic and amino acid interactions using periodic harmonic classification and compatibility scoring. Evaluated on the CASF-2016 benchmark (285 held-out complexes), MillerBind achieves a Pearson correlation of R = 0.890 and mean absolute error of MAE = 0.78 pKd units, surpassing established methods including RF-Score (R = 0.80), OnionNet-2 (R = 0.82), PIGNet (R = 0.83), IGN (R = 0.85), and DeepDTA (R = 0.88). The model uses an ensemble of gradient-boosted and bagged decision trees with 487 interpretable features, requires no GPU, and predicts in under 1 millisecond per complex. We further demonstrate that the framework extends to protein-protein interactions (PPI), achieving MAE = 0.985 kcal/mol on 15 historically \"undruggable\" PPI targets-outperforming PCANN (1.27), BindPPI (1.40), and PRODIGY (1.4). Applied to microtubule pharmacology, the framework classifies all 24 tested microtubule-targeting agents as stabilizers or destabilizers with 100% accuracy. Finally, we show that MHM principles applied as reasoning middleware to a 7B-parameter large language model improve TruthfulQA accuracy by +4.94 percentage points without model retraining. These results establish Miller Harmonic Mathematics as a unified framework for molecular interaction modeling with demonstrated applications across drug discovery, structural biology, and artificial intelligence.",
+  "abstract_zh": "蛋白-配体结合亲和力的准确预测仍是计算药物发现中的核心挑战。我们提出了MillerBind，一种基于专有数学框架——米勒调和数学（Miller Harmonic Mathematics, MHM）的新型评分函数，该框架利用周期调和分类和兼容性评分来编码原子及氨基酸相互作用。在CASF-2016基准（285个留出复合物）上评估时，MillerBind实现了皮尔逊相关系数R = 0.890和平均绝对误差MAE = 0.78 pKd单位，超越了包括RF-Score（R = 0.80）、OnionNet-2（R = 0.82）、PIGNet（R = 0.83）、IGN（R = 0.85）和DeepDTA（R = 0.88）在内的既有方法。该模型采用梯度提升和装袋决策树的集成，包含487个可解释特征，无需GPU，每个复合物的预测时间低于1毫秒。我们进一步证明该框架可扩展至蛋白-蛋白相互作用（protein-protein interactions, PPI），在15个历史上“不可成药”的PPI靶标上实现了MAE = 0.985 kcal/mol，优于PCANN（1.27）、BindPPI（1.40）和PRODIGY（1.4）。应用于微管药理学时，该框架以100%的准确率将所有24种测试的微管靶向剂分类为稳定剂或去稳定剂。最后，我们展示了将MHM原理作为推理中间件应用于7B参数大语言模型，在不进行模型重训练的情况下，将TruthfulQA准确率提升了+4.94个百分点。这些结果确立了米勒调和数学作为分子相互作用建模的统一框架，并在药物发现、结构生物学和人工智能领域展示了实际应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15000109/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15000109/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15000109_v1/index.html"
+}

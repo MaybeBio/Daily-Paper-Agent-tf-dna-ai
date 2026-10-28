@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40796919",
+  "title": "Causality-aware graph neural networks for functional stratification and phenotype prediction at scale.",
+  "authors": "Triantafyllidis, Charalampos P; Aguas, Ricardo",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2025-08-13",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用GNN对基因调控网络（含TP53 regulon）进行功能分类和表型预测，虽涉及基因调控网络但非蛋白质-DNA互作建模，且无TF-DNA结合位点或互作机制研究，方法上仅图分类无三维结构建模。",
+  "abstract": "We employ a computational framework that integrates mathematical programming and Graph Neural Networks (GNNs) to elucidate functional phenotypic heterogeneity in disease by classifying entire pathways under various conditions of interest. Our approach combines two distinct, yet seamlessly integrated, modeling schemes. First, we leverage Prior Knowledge Networks (PKNs) to reconstruct gene networks from genomic and transcriptomic data. We demonstrate how this can be achieved through mathematical programming optimization and provide examples using comprehensive, established databases. We then tailor GNNs to classify each network as a single data point at graph-level, using various node embeddings and edge attributes. These networks may vary in their biological or molecular annotations, which serve as a labeling scheme for their supervised classification. We apply the framework to the human DNA damage and repair pathway using the TP53 regulon in a pancancer study across cell lines and tumor samples to classify Gene Regulatory Networks (GRNs) across different TP53 mutation types. This approach allows us to identify mutations with distinguishable functional profiles that can be related to specific phenotypes, thus providing a data-driven pipeline for genotype-to-phenotype translation. This scalable approach enables the classification of diverse conditions within the multi-factorial nature of diseases and disentangles their polygenic complexity by revealing new functional patterns through a causal representation.",
+  "abstract_zh": "我们采用一个整合数学规划与图神经网络（GNNs）的计算框架，通过在不同感兴趣条件下对完整通路进行分类，来阐明疾病中的功能性表型异质性。我们的方法结合了两种不同但无缝集成的建模方案。首先，我们利用先验知识网络（PKNs）从基因组和转录组数据中重建基因网络。我们展示了如何通过数学规划优化实现这一点，并提供了使用全面、成熟数据库的示例。随后，我们定制GNNs，在图形级别将每个网络作为单一数据点进行分类，利用各种节点嵌入和边属性。这些网络可能在生物学或分子注释上有所不同，这些注释作为其监督分类的标签方案。我们将该框架应用于人类DNA损伤与修复通路，使用TP53调控子，在跨细胞系和肿瘤样本的泛癌研究中，对不同TP53突变类型的基因调控网络（GRNs）进行分类。这种方法使我们能够识别具有可区分功能谱的突变，这些突变可与特定表型相关联，从而为基因型到表型的转化提供数据驱动的流程。这一可扩展的方法能够在疾病的多因素特性中对多样条件进行分类，并通过因果表示揭示新的功能模式，从而解开其多基因复杂性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40796919/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40796919/",
+  "paper_page_path": "papers/pubmed/40796919/index.html"
+}

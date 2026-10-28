@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental logic, and internal consistency based solely on the provided text; structural biology and transcriptomic results are described but their underlying data are not visible
+- **Shared manuscript claim summary** The authors identify a 15-amino-acid motif (FR) downstream of the RWP-RK domain in Lotus japonicus NIN that broadens DNA-binding specificity by stabilizing the RWP-RK dimer interface. They propose that this motif is essential for NIN's role in root nodule symbiosis, that Arabidopsis NLP2 shares this feature, and that the NIN-type FR originated in gymnosperms before RNS emerged.
+- **Visible evidence base** Text descriptions of EMSA, SEC, Blue-Native-PAGE, crosslinking, AlphaFold2/3 predictions, MD simulations, CRISPR-generated mutants, hairy root overexpression, RT-qPCR, transcriptome analysis, and complementation tests. No actual figures, numerical data, statistical analyses, or methodological details are provided.
+- **Missing materials affecting confidence** All figures (Fig. 1-4, fig. S1-S23), supplementary tables (S1-S6), full methods, statistical details, sequence alignments, structural models, and raw transcriptomic data. Without these, quantitative assessment of experimental rigor is not possible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question in plant developmental evolution: how NIN acquired its RNS-specific regulatory functions from the ancestral NLP family. The identification of a conserved motif that broadens DNA-binding specificity without altering core sequence preference is conceptually interesting and potentially impactful. The experimental strategy is logical, progressing from chimeric protein analysis to structural prediction and in planta validation. However, the provided text alone does not allow verification of the central claims. Key quantitative data, statistical analyses, and methodological details are absent. The evolutionary inference regarding gymnosperm origin rests on a phylogenetic sampling that is described but not shown. The claim that AtNLP2 can partially substitute for NIN function is intriguing but the text indicates incomplete phenotypic rescue, which requires careful interpretation. The manuscript is likely to be of interest to plant biologists, symbiosis researchers, and those studying transcription factor evolution, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists studying root nodule symbiosis and nitrogen fixation; evolutionary developmental biologists interested in how new gene functions arise from ancestral paralogs; researchers studying transcription factor DNA-binding specificity and dimerization mechanisms; potentially agricultural scientists interested in engineering nitrogen-fixing capacity in non-legume crops.
+- **Major strengths** The study addresses a fundamental open question in RNS biology with a clear hypothesis-driven approach. The identification of a discrete, conserved motif that modulates DNA-binding specificity is a conceptually clean finding. The combination of biochemical, structural prediction, and in planta genetic validation is methodologically ambitious. The evolutionary analysis linking motif origin to gymnosperm ancestry provides a testable framework for understanding RNS evolution. The use of multiple complementary approaches (chimeras, deletions, crosslinking, MD simulations, CRISPR mutants) strengthens the overall argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that FR NIN is "critical for the broad DNA-binding specificity of NIN" based on EMSA results with chimeric proteins.
+  - **Evidence pointer** Results section "Identification of the motif determining the broad DNA-binding specificity of NIN"; Fig. 1, D-G; fig. S2, S3
+  - **Concern** The central claim that FR NIN is critical for broad DNA-binding specificity rests entirely on EMSA band intensity interpretations described in text. No quantitative binding affinity measurements (e.g., Kd values), no replicates, no statistical comparisons, and no actual gel images are provided. The text states that LjNIN (FR LjNLP4 ) had "significantly reduced binding" but no statistical test is described. The distinction between "reduced" and "abolished" binding is crucial for interpreting whether FR modulates affinity or specificity.
+  - **Why it matters** The entire mechanistic model depends on this claim. If FR only modestly affects binding affinity rather than conferring qualitatively broader specificity, the evolutionary and functional conclusions would need substantial revision. Without quantitative binding data, the reader cannot assess the magnitude of the effect or its biological significance.
+  - **Resolution test** Provide quantitative EMSA data with at least three independent replicates, calculated dissociation constants or relative binding affinities with error bars and statistical tests, and show representative gels for all probes tested. Demonstrate that the effect is specific to unpreferred cis-elements and not a general reduction in DNA binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The authors claim that "FR NIN is predicted to reinforce the RWP-RK dimerization interface" and that this "stabilizes a dimeric state that is optimal for recognizing the cis-elements harboring two core-sites."
+  - **Evidence pointer** Results section "FR NIN is predicted to reinforce the RWP-RK dimerization interface for broad DNA-binding specificity"; Fig. 2, G-M; fig. S7-S9
+  - **Concern** The structural model relies entirely on AlphaFold2 predictions without experimental validation. The text acknowledges that "biochemical approaches left the mechanism by which FR NIN broadens DNA-binding specificity elusive," which is a significant admission. The MD simulations are described qualitatively ("LjNIN maintained a stable dimeric structure suitable for DNA binding, whereas LjNLP4 lost this conformation") without quantitative metrics such as RMSD, interaction energies, or free energy calculations. The AlphaFold3 DNA complex predictions are described as "structurally reliable" but no confidence metrics or comparison to experimental structures are provided.
+  - **Why it matters** The proposed mechanism of FR-mediated dimer interface stabilization is the core mechanistic claim of the paper. Computational predictions, however sophisticated, cannot substitute for experimental structural validation. The lack of any experimental structural data (e.g., mutagenesis of predicted interface residues, crosslinking distance constraints, or crystal/cryo-EM structures) leaves the mechanism speculative.
+  - **Resolution test** Provide experimental validation of the predicted dimer interface, such as site-directed mutagenesis of the predicted interface residues followed by functional assays, hydrogen-deuterium exchange, or crosslinking mass spectrometry. Alternatively, provide quantitative MD simulation metrics with error analysis and demonstrate that the predicted interface is evolutionarily conserved and functionally validated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic evidence
+  - **Claim pointer** The authors claim that "FR NIN has an essential role in NIN to regulate RNS" based on the ΔFR nin mutant phenotype.
+  - **Evidence pointer** Results section "FR NIN has an essential role in NIN to regulate RNS"; Fig. 3; fig. S11-S17
+  - **Concern** The ΔFR nin mutant retains nodule formation but produces non-functional white nodules. The text states that target genes are "induced... albeit with delayed and/or reduced expression compared to WT." This is a partial loss-of-function phenotype, not a complete abolition of NIN function. The authors acknowledge that "some RNS processes, including nodule initiation, are still maintained." The distinction between "essential" and "important for full function" is critical. The transcriptome analysis is described but no differential expression statistics, no volcano plots, no gene ontology enrichment, and no validation of RNA-seq data beyond RT-qPCR are shown.
+  - **Why it matters** The claim of essentiality is stronger than the described phenotype supports. A mutant that still forms nodules and induces target genes, albeit suboptimally, demonstrates that FR contributes to but is not absolutely required for NIN function. This has implications for the evolutionary narrative: if FR is not essential, the selective pressure for its acquisition and retention may be more nuanced than presented.
+  - **Resolution test** Provide quantitative phenotypic data with statistical comparisons (nodule number, nitrogenase activity, plant growth parameters) across multiple independent mutant lines. Show that the residual nodule formation is not due to incomplete deletion or off-target effects. Clarify whether the phenotype represents a hypomorphic allele or a genuine separation-of-function.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary inference
+  - **Claim pointer** The authors claim that "the NIN-type FR likely originated as early as gymnosperms, suggesting that the molecular feature of NIN for RNS regulation was inherited from ancestral NLPs before RNS emerged."
+  - **Evidence pointer** Results section "FR provides clues to the process by which NIN was derived from NLPs"; fig. S23
+  - **Concern** The evolutionary conclusion is based on a phylogenetic analysis that is not shown in the provided text. The functional test involves replacing FR NIN with FRs from various species and assessing nodule formation. The text states that "Full length LjNIN with these FRs, except for FR MpNLP , induced ITs and functional mature pink nodule formation, although with varying efficiency." The "varying efficiency" is not quantified. The gymnosperm inference depends on the phylogenetic placement of the sampled species and the ancestral state reconstruction, neither of which can be evaluated from the text.
+  - **Why it matters** The evolutionary narrative is a major selling point of the paper. If the phylogenetic sampling is sparse or the ancestral state reconstruction is ambiguous, the conclusion that FR predates RNS would be premature. The functional data showing that gymnosperm FRs can substitute for NIN FR is suggestive but does not prove that the ancestral NLP had this function.
+  - **Resolution test** Provide the full phylogenetic tree with support values, clearly show the species sampling and the distribution of FR types, and perform ancestral state reconstruction with statistical confidence intervals. Quantify the efficiency of nodule formation for each chimeric construct with statistical comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Motif naming
+  - **Evidence pointer** Results section "Identification of the motif determining the broad DNA-binding specificity of NIN"
+  - **Issue** The term "FR" (Motif following RWP-RK) is generic and could be confused with other motifs in the literature. The authors should consider a more distinctive name, especially given the proposed evolutionary significance.
+  - **Required correction** Consider a more specific name that reflects the functional or structural characteristics, or at minimum clearly define the boundaries and consensus sequence of the motif in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** EMSA methodology
+  - **Evidence pointer** Results section "Identification of the motif determining the broad DNA-binding specificity of NIN"; Fig. 1, D-G
+  - **Issue** The text does not specify protein concentrations, DNA probe concentrations, binding buffer conditions, or whether competition assays were performed. This limits reproducibility.
+  - **Required correction** Provide full EMSA methods including protein concentration ranges, probe sequences, and binding conditions in the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Transcriptome analysis
+  - **Evidence pointer** Results section "FR NIN has an essential role in NIN to regulate RNS"; fig. S15
+  - **Issue** The transcriptome analysis is described with gene counts but no statistical thresholds, no false discovery rate controls, and no validation of the RNA-seq data quality are mentioned.
+  - **Required correction** Specify the differential expression criteria, multiple testing correction method, and provide quality metrics for the RNA-seq data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model figure
+  - **Evidence pointer** Results section "FR NIN is predicted to reinforce the RWP-RK dimerization interface for broad DNA-binding specificity"; Fig. 2, N and O
+  - **Issue** The proposed model distinguishing NIN and NLP4 binding modes is described only in text. A clear schematic would help readers understand the proposed mechanistic difference.
+  - **Required correction** Ensure the model figure clearly illustrates the proposed difference in dimer stability and DNA binding between NIN and NLP4, and between FR-containing and FR-lacking states.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Evolutionary interpretation
+  - **Affected element** AtNLP2 functional data
+  - **Evidence pointer** Results section "FR provides clues to the process by which NIN was derived from NLPs"; Fig. 4
+  - **Issue** The text states that AtNLP2-induced nodules were "imperfect in terms of accommodating rhizobia in nodules." This partial complementation is interesting but the interpretation is underdeveloped. Does this reflect incomplete functional conservation or a fundamental difference in NLP versus NIN function?
+  - **Required correction** Expand the discussion of what the partial complementation means for the evolutionary model, and consider whether additional NLP-specific features beyond FR are required for full NIN function.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding data), R1-M2 (experimental validation of structural model), R1-M3 (quantitative phenotypic characterization of the mutant)
+## Risk / unsupported claims
+- The claim that FR NIN "broadens DNA-binding specificity" is supported only by qualitative EMSA descriptions; quantitative binding data are not provided.
+- The claim that FR NIN "stabilizes the RWP-RK dimer interface" is based solely on computational predictions without experimental structural validation.
+- The claim that FR NIN is "essential" for RNS regulation is stronger than the described partial loss-of-function phenotype supports.
+- The evolutionary claim that NIN-type FR originated in gymnosperms cannot be evaluated without the phylogenetic analysis and ancestral state reconstruction.
+- The transcriptome analysis is described but no differential expression statistics or quality metrics are provided.
+- The statement that AtNLP2 "shares key features with NIN" is based on partial functional complementation that is not fully quantified.
+- The claim that "the molecular feature of NIN for RNS regulation was inherited from ancestral NLPs before RNS emerged" is an inference that extends beyond the presented data.

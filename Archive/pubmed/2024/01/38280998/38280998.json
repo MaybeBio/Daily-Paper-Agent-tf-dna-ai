@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "38280998",
+    "doi": "10.1186/s12859-024-05667-z",
+    "title": "MIWE: detecting the critical states of complex biological systems by the mutual information weighted entropy."
+  },
+  "content": {
+    "abstract": "Complex biological systems often undergo sudden qualitative changes during their dynamic evolution. These critical transitions are typically characterized by a catastrophic progression of the system. Identifying the critical point is critical to uncovering the underlying mechanisms of complex biological systems. However, the system may exhibit minimal changes in its state until the critical point is reached, and in the face of high throughput and strong noise data, traditional biomarkers may not be effective in distinguishing the critical state. In this study, we propose a novel approach, mutual information weighted entropy (MIWE), which uses mutual information between genes to build networks and identifies critical states by quantifying molecular dynamic differences at each stage through weighted differential entropy. The method is applied to one numerical simulation dataset and four real datasets, including bulk and single-cell expression datasets. The critical states of the system can be recognized and the robustness of MIWE method is verified by numerical simulation under the influence of different noises. Moreover, we identify two key transcription factors (TFs), CREB1 and CREB3, that regulate downstream signaling genes to coordinate cell fate commitment. The dark genes in the single-cell expression datasets are mined to reveal the potential pathway regulation mechanism.",
+    "keywords": [
+      "Critical state",
+      "Differential entropy",
+      "Dynamic network biomarker (DNB)",
+      "Mutual information"
+    ],
+    "mesh_terms": [
+      "*Entropy",
+      "Biomarkers",
+      "Cell Differentiation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Yuke",
+        "Peng, Xueqing",
+        "Li, Peiluan"
+      ],
+      "short_names": [
+        "Xie Y",
+        "Peng X",
+        "Li P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China.",
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China.",
+        "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China. 15038522015@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Yuke",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, 310024, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xueqing",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peiluan",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Henan University of Science and Technology, Luoyang, 471000, China. 15038522015@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2024 Jan 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/28 07:44",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "41704237",
+      "41274904",
+      "40376429",
+      "39890881",
+      "38879513",
+      "38752639"
+    ],
+    "refs": [
+      "36762637",
+      "36059163",
+      "35982994",
+      "35777504",
+      "35626686",
+      "35598334",
+      "35277460",
+      "34954425",
+      "34635182",
+      "34421533",
+      "34408811",
+      "34270860",
+      "34150649",
+      "34009234",
+      "33996538",
+      "33604081",
+      "33435549",
+      "33317149",
+      "33214692",
+      "31847675",
+      "31598632",
+      "30305727",
+      "30158430",
+      "29357116",
+      "29061959",
+      "28461154",
+      "28167799",
+      "27658710",
+      "27317679",
+      "27281220",
+      "27035868",
+      "24180270",
+      "23878131",
+      "23775602",
+      "22977234",
+      "22484490",
+      "22461973",
+      "21720200",
+      "20431070",
+      "7264916"
+    ],
+    "similar": [
+      "38280998",
+      "38879513",
+      "36705581",
+      "38512768",
+      "38576021",
+      "35580862",
+      "38960408",
+      "37833841",
+      "37520244",
+      "35668489",
+      "36141135",
+      "34954425",
+      "30547796",
+      "23620135",
+      "35234401",
+      "30961611",
+      "37164125",
+      "36282843",
+      "36342190",
+      "36069893",
+      "32766227",
+      "34150649",
+      "28027290",
+      "31992202",
+      "37952704",
+      "29073904",
+      "35598334",
+      "29763705",
+      "38716473",
+      "27058315",
+      "38189541",
+      "32530095",
+      "33195248",
+      "29027943",
+      "36088546",
+      "34025035",
+      "31598632",
+      "28678795",
+      "39295027",
+      "31783659",
+      "35696651",
+      "39335669",
+      "33214150",
+      "35317238",
+      "39232802",
+      "23496460",
+      "34147483",
+      "36141068",
+      "36659203",
+      "32329283",
+      "20805891",
+      "23679370",
+      "34211385",
+      "18293293",
+      "23230504",
+      "24519381",
+      "33285984",
+      "26269925",
+      "31019526",
+      "37235796",
+      "37544659",
+      "28375712",
+      "21545720",
+      "25075525",
+      "27832153",
+      "34781450",
+      "26284108",
+      "33265352",
+      "30763245",
+      "30616516",
+      "33286125",
+      "34153948",
+      "36689655",
+      "33285827",
+      "23300518",
+      "31861938",
+      "24415927",
+      "38691188",
+      "28894105",
+      "30598116",
+      "34691933",
+      "23150773",
+      "21992556",
+      "19148299",
+      "24391925",
+      "36632190",
+      "27490400",
+      "32118436",
+      "28200026",
+      "32416092",
+      "27635654",
+      "39026169",
+      "20673354",
+      "35446844",
+      "34441210",
+      "24154593",
+      "25887857",
+      "39237886",
+      "15790388",
+      "24564939"
+    ],
+    "review": [
+      "38280998",
+      "27058315",
+      "35317238"
+    ],
+    "pmc": [
+      "10822190"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05667-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38280998/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38280998",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

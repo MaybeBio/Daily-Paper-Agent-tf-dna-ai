@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40658875",
+    "doi": "10.1021/acs.jcim.4c01652",
+    "title": "Network-Driven Methods Using Gene Expression Signatures to Find Therapeutic Targets in Breast Cancer Validated via Molecular Dynamics Studies."
+  },
+  "content": {
+    "abstract": "Breast cancer (BC) is the second most common cause of cancer in women and the most common kind of cancer diagnosed with a high mortality rate. This heterogeneous disease is classified into multiple subtypes based on the expression of key biomarkers, including human epidermal growth factor receptor 2 (HER2), estrogen receptor (ER), and progesterone receptor (PR). These biomarkers have significantly transformed breast cancer treatment and played a crucial role in improving the patient prognosis. Given the complexity of BC, there is a pressing need to develop additional therapeutic agents and pharmacological targets. To address this, network-based gene expression profiling has emerged as a valuable method for identifying potential therapeutic targets, as it considers various factors such as disease conditions, gene expression levels, and protein-protein interactions We began our analysis by employing statistical methods, including p-values and false discovery rates (FDR), to identify differentially expressed genes (DEGs) as potential biomarkers in breast cancer (BC). A total of 123 DEGs were identified, with 101 genes showing downregulation and 11 genes exhibiting upregulation. Survival and expression analyses indicated that each hub gene plays a crucial role in the initiation and progression of BC. An enrichment analysis revealed that most of these genes are integral components of various signaling networks. Additionally, we identified key kinases and transcription factors that regulate the proteins involved in protein-protein interactions (PPIs) associated with the DEGs. From this analysis, we also deduced potential pharmaceuticals that could interact with these hub genes. Notably, HMOX1 (Heme Oxygenase 1) emerged as a particularly promising hub gene based on our computational analysis. Promising novel compounds were investigated, resulting in high potency of binding affinities through docking and simulation investigation. The molecular dynamics simulation demonstrated significant stability of the anticipated compounds, especially the top2 complex system at the docked site. The significant binding affinity between the chemical and the binding pockets of HMOX1 complexes was confirmed by the calculation of binding free energies using MMPBSA and MMGBSA followed by hydrogen bond analysis. Hence, these findings significantly enhance our understanding of critical biomarkers in breast cancer.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/drug therapy/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Gene Expression Profiling",
+      "*Gene Expression Regulation, Neoplastic/drug effects",
+      "Female",
+      "*Molecular Targeted Therapy",
+      "Protein Interaction Maps",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ayaz, Hassan",
+        "Nawaz, Asia",
+        "Ahmad, Sajjad",
+        "Ahmad, Faisal",
+        "Tariq, Anisa",
+        "Ahmad Khan, Hanbal",
+        "Ahmed, Iftikhar",
+        "Rahman, Sidra",
+        "Suleman, Muhammad",
+        "Ozsahin, Dilber Uzun",
+        "Ozsahin, Ilker",
+        "Waheed, Yasir"
+      ],
+      "short_names": [
+        "Ayaz H",
+        "Nawaz A",
+        "Ahmad S",
+        "Ahmad F",
+        "Tariq A",
+        "Ahmad Khan H",
+        "Ahmed I",
+        "Rahman S",
+        "Suleman M",
+        "Ozsahin DU",
+        "Ozsahin I",
+        "Waheed Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0621-0805"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan.",
+        "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan.",
+        "Department of Health and Biological Sciences, Abasyn University, Peshawar 25000, Pakistan.",
+        "National Institute of Health, Islamabad 44000, Pakistan.",
+        "World Health Organization, Park Road, Chak Shahzad, Islamabad 44000, Pakistan.",
+        "Department of Bioinformatics and Biosciences, Capital University of Science and Technology, Islamabad 44000, Pakistan.",
+        "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan.",
+        "Centre for Biotechnology and Microbiology, University of Swat, Charbagh 01923, Pakistan.",
+        "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan.",
+        "Centre for Biotechnology and Microbiology, University of Swat, Charbagh 01923, Pakistan.",
+        "Laboratory of Animal Research Center (LARC), Qatar University, Doha 00000, Qatar.",
+        "Medical Diagnostic Imaging Department, College of Health Sciences, University of Sharjah, 27272 Sharjah, United Arab Emirates.",
+        "Research Institute for Medical and Health Sciences, University of Sharjah, 27272 Sharjah, United Arab Emirates.",
+        "Near East University, Operational Research Center in Healthcare, TRNC Mersin 10, Nicosia 99138, Turkey.",
+        "Near East University, Operational Research Center in Healthcare, TRNC Mersin 10, Nicosia 99138, Turkey.",
+        "Near East University, Operational Research Center in Healthcare, TRNC Mersin 10, Nicosia 99138, Turkey.",
+        "NUST School of Health Sciences, National University of Sciences and Technology (NUST), H-12 Sector, Islamabad 44000, Pakistan.",
+        "Department of Biomedical Engineering, College of Health Science, Korea University, Seoul 02841, Republic of Korea.",
+        "Advanced Research Centre, European University of Lefke, Lefke, Northern Cyprus, TR-10, Mersin 99800, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ayaz, Hassan",
+        "short_name": "Ayaz H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Nawaz, Asia",
+        "short_name": "Nawaz A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Sajjad",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health and Biological Sciences, Abasyn University, Peshawar 25000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Faisal",
+        "short_name": "Ahmad F",
+        "identifiers": [
+          "0000-0002-0621-0805"
+        ],
+        "affiliations": [
+          "National Institute of Health, Islamabad 44000, Pakistan.",
+          "World Health Organization, Park Road, Chak Shahzad, Islamabad 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Tariq, Anisa",
+        "short_name": "Tariq A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biosciences, Capital University of Science and Technology, Islamabad 44000, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmad Khan, Hanbal",
+        "short_name": "Ahmad Khan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Iftikhar",
+        "short_name": "Ahmed I",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Biotechnology and Microbiology, University of Swat, Charbagh 01923, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rahman, Sidra",
+        "short_name": "Rahman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-I-Azam University, Islamabad 45320, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Suleman, Muhammad",
+        "short_name": "Suleman M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Biotechnology and Microbiology, University of Swat, Charbagh 01923, Pakistan.",
+          "Laboratory of Animal Research Center (LARC), Qatar University, Doha 00000, Qatar."
+        ]
+      },
+      {
+        "full_name": "Ozsahin, Dilber Uzun",
+        "short_name": "Ozsahin DU",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Diagnostic Imaging Department, College of Health Sciences, University of Sharjah, 27272 Sharjah, United Arab Emirates.",
+          "Research Institute for Medical and Health Sciences, University of Sharjah, 27272 Sharjah, United Arab Emirates.",
+          "Near East University, Operational Research Center in Healthcare, TRNC Mersin 10, Nicosia 99138, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ozsahin, Ilker",
+        "short_name": "Ozsahin I",
+        "identifiers": [],
+        "affiliations": [
+          "Near East University, Operational Research Center in Healthcare, TRNC Mersin 10, Nicosia 99138, Turkey."
+        ]
+      },
+      {
+        "full_name": "Waheed, Yasir",
+        "short_name": "Waheed Y",
+        "identifiers": [],
+        "affiliations": [
+          "Near East University, Operational Research Center in Healthcare, TRNC Mersin 10, Nicosia 99138, Turkey.",
+          "NUST School of Health Sciences, National University of Sciences and Technology (NUST), H-12 Sector, Islamabad 44000, Pakistan.",
+          "Department of Biomedical Engineering, College of Health Science, Korea University, Seoul 02841, Republic of Korea.",
+          "Advanced Research Centre, European University of Lefke, Lefke, Northern Cyprus, TR-10, Mersin 99800, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jul 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 18:27",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [
+      "41456067"
+    ],
+    "refs": [],
+    "similar": [
+      "40658875",
+      "31733575",
+      "40604083",
+      "40898538",
+      "32056139",
+      "40627944",
+      "29081411",
+      "38717954",
+      "37556419",
+      "41189173",
+      "39184354",
+      "38809637",
+      "39988630",
+      "39107655",
+      "34406386",
+      "40473526",
+      "39242688",
+      "39707785",
+      "25756514",
+      "36096037",
+      "39048164",
+      "31987036",
+      "28416776",
+      "41415282",
+      "34172056",
+      "31037764",
+      "29693125",
+      "41005317",
+      "39118438",
+      "34895070",
+      "40603423",
+      "30128822",
+      "37029310",
+      "31081184",
+      "35020130",
+      "29139094",
+      "30975489",
+      "40597935",
+      "32775256",
+      "37776011",
+      "31178227",
+      "39567714",
+      "41357242",
+      "39075939",
+      "31197620",
+      "39124881",
+      "41158841",
+      "40666524",
+      "32456464",
+      "32616754",
+      "37948293",
+      "34867821",
+      "35617355",
+      "41105990",
+      "30506958",
+      "39434198",
+      "29566741",
+      "33439992",
+      "40826700",
+      "34541602",
+      "39611484",
+      "40355485",
+      "35181505",
+      "37893423",
+      "40117797",
+      "40593011",
+      "23098454",
+      "34600457",
+      "41300841",
+      "34655723",
+      "37180578",
+      "34055036",
+      "40860264",
+      "35686034",
+      "40936892",
+      "32922167",
+      "40843941",
+      "30569120",
+      "30358191",
+      "35037412",
+      "37244150",
+      "33499770",
+      "34384030",
+      "38145425",
+      "27771839",
+      "39115587",
+      "37306420",
+      "37534476",
+      "29063236",
+      "31285741",
+      "38809653",
+      "39191884",
+      "40496857",
+      "40209785",
+      "30089167",
+      "31506496",
+      "34218797",
+      "30320391",
+      "31180245",
+      "37231064"
+    ],
+    "review": [
+      "40658875",
+      "35181505",
+      "30569120",
+      "39115587"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c01652",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

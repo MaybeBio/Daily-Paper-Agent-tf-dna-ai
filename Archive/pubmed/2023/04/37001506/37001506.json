@@ -1,0 +1,1598 @@
+{
+  "identity": {
+    "pmid": "37001506",
+    "doi": "10.1016/j.cell.2023.02.018",
+    "title": "The EN-TEx resource of multi-tissue personal epigenomes & variant-impact models."
+  },
+  "content": {
+    "abstract": "Understanding how genetic variants impact molecular phenotypes is a key goal of functional genomics, currently hindered by reliance on a single haploid reference genome. Here, we present the EN-TEx resource of 1,635 open-access datasets from four donors ( approximately 30 tissues x  approximately 15 assays). The datasets are mapped to matched, diploid genomes with long-read phasing and structural variants, instantiating a catalog of >1 million allele-specific loci. These loci exhibit coordinated activity along haplotypes and are less conserved than corresponding, non-allele-specific ones. Surprisingly, a deep-learning transformer model can predict the allele-specific activity based only on local nucleotide-sequence context, highlighting the importance of transcription-factor-binding motifs particularly sensitive to variants. Furthermore, combining EN-TEx with existing genome annotations reveals strong associations between allele-specific and GWAS loci. It also enables models for transferring known eQTLs to difficult-to-profile tissues (e.g., from skin to heart). Overall, EN-TEx provides rich data and generalizable models for more accurate personal functional genomics.",
+    "keywords": [
+      "ENCODE",
+      "GTEx",
+      "allele-specific activity",
+      "eQTLs",
+      "functional epigenomes",
+      "functional genomics",
+      "genome annotations",
+      "personal genome",
+      "predictive models",
+      "structural variants",
+      "tissue specificity",
+      "transformer model"
+    ],
+    "mesh_terms": [
+      "*Epigenome",
+      "*Quantitative Trait Loci",
+      "Genome-Wide Association Study",
+      "Genomics",
+      "Phenotype",
+      "Polymorphism, Single Nucleotide"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rozowsky, Joel",
+        "Gao, Jiahao",
+        "Borsari, Beatrice",
+        "Yang, Yucheng T",
+        "Galeev, Timur",
+        "Gursoy, Gamze",
+        "Epstein, Charles B",
+        "Xiong, Kun",
+        "Xu, Jinrui",
+        "Li, Tianxiao",
+        "Liu, Jason",
+        "Yu, Keyang",
+        "Berthel, Ana",
+        "Chen, Zhanlin",
+        "Navarro, Fabio",
+        "Sun, Maxwell S",
+        "Wright, James",
+        "Chang, Justin",
+        "Cameron, Christopher J F",
+        "Shoresh, Noam",
+        "Gaskell, Elizabeth",
+        "Drenkow, Jorg",
+        "Adrian, Jessika",
+        "Aganezov, Sergey",
+        "Aguet, Francois",
+        "Balderrama-Gutierrez, Gabriela",
+        "Banskota, Samridhi",
+        "Corona, Guillermo Barreto",
+        "Chee, Sora",
+        "Chhetri, Surya B",
+        "Cortez Martins, Gabriel Conte",
+        "Danyko, Cassidy",
+        "Davis, Carrie A",
+        "Farid, Daniel",
+        "Farrell, Nina P",
+        "Gabdank, Idan",
+        "Gofin, Yoel",
+        "Gorkin, David U",
+        "Gu, Mengting",
+        "Hecht, Vivian",
+        "Hitz, Benjamin C",
+        "Issner, Robbyn",
+        "Jiang, Yunzhe",
+        "Kirsche, Melanie",
+        "Kong, Xiangmeng",
+        "Lam, Bonita R",
+        "Li, Shantao",
+        "Li, Bian",
+        "Li, Xiqi",
+        "Lin, Khine Zin",
+        "Luo, Ruibang",
+        "Mackiewicz, Mark",
+        "Meng, Ran",
+        "Moore, Jill E",
+        "Mudge, Jonathan",
+        "Nelson, Nicholas",
+        "Nusbaum, Chad",
+        "Popov, Ioann",
+        "Pratt, Henry E",
+        "Qiu, Yunjiang",
+        "Ramakrishnan, Srividya",
+        "Raymond, Joe",
+        "Salichos, Leonidas",
+        "Scavelli, Alexandra",
+        "Schreiber, Jacob M",
+        "Sedlazeck, Fritz J",
+        "See, Lei Hoon",
+        "Sherman, Rachel M",
+        "Shi, Xu",
+        "Shi, Minyi",
+        "Sloan, Cricket Alicia",
+        "Strattan, J Seth",
+        "Tan, Zhen",
+        "Tanaka, Forrest Y",
+        "Vlasova, Anna",
+        "Wang, Jun",
+        "Werner, Jonathan",
+        "Williams, Brian",
+        "Xu, Min",
+        "Yan, Chengfei",
+        "Yu, Lu",
+        "Zaleski, Christopher",
+        "Zhang, Jing",
+        "Ardlie, Kristin",
+        "Cherry, J Michael",
+        "Mendenhall, Eric M",
+        "Noble, William S",
+        "Weng, Zhiping",
+        "Levine, Morgan E",
+        "Dobin, Alexander",
+        "Wold, Barbara",
+        "Mortazavi, Ali",
+        "Ren, Bing",
+        "Gillis, Jesse",
+        "Myers, Richard M",
+        "Snyder, Michael P",
+        "Choudhary, Jyoti",
+        "Milosavljevic, Aleksandar",
+        "Schatz, Michael C",
+        "Bernstein, Bradley E",
+        "Guigo, Roderic",
+        "Gingeras, Thomas R",
+        "Gerstein, Mark"
+      ],
+      "short_names": [
+        "Rozowsky J",
+        "Gao J",
+        "Borsari B",
+        "Yang YT",
+        "Galeev T",
+        "Gursoy G",
+        "Epstein CB",
+        "Xiong K",
+        "Xu J",
+        "Li T",
+        "Liu J",
+        "Yu K",
+        "Berthel A",
+        "Chen Z",
+        "Navarro F",
+        "Sun MS",
+        "Wright J",
+        "Chang J",
+        "Cameron CJF",
+        "Shoresh N",
+        "Gaskell E",
+        "Drenkow J",
+        "Adrian J",
+        "Aganezov S",
+        "Aguet F",
+        "Balderrama-Gutierrez G",
+        "Banskota S",
+        "Corona GB",
+        "Chee S",
+        "Chhetri SB",
+        "Cortez Martins GC",
+        "Danyko C",
+        "Davis CA",
+        "Farid D",
+        "Farrell NP",
+        "Gabdank I",
+        "Gofin Y",
+        "Gorkin DU",
+        "Gu M",
+        "Hecht V",
+        "Hitz BC",
+        "Issner R",
+        "Jiang Y",
+        "Kirsche M",
+        "Kong X",
+        "Lam BR",
+        "Li S",
+        "Li B",
+        "Li X",
+        "Lin KZ",
+        "Luo R",
+        "Mackiewicz M",
+        "Meng R",
+        "Moore JE",
+        "Mudge J",
+        "Nelson N",
+        "Nusbaum C",
+        "Popov I",
+        "Pratt HE",
+        "Qiu Y",
+        "Ramakrishnan S",
+        "Raymond J",
+        "Salichos L",
+        "Scavelli A",
+        "Schreiber JM",
+        "Sedlazeck FJ",
+        "See LH",
+        "Sherman RM",
+        "Shi X",
+        "Shi M",
+        "Sloan CA",
+        "Strattan JS",
+        "Tan Z",
+        "Tanaka FY",
+        "Vlasova A",
+        "Wang J",
+        "Werner J",
+        "Williams B",
+        "Xu M",
+        "Yan C",
+        "Yu L",
+        "Zaleski C",
+        "Zhang J",
+        "Ardlie K",
+        "Cherry JM",
+        "Mendenhall EM",
+        "Noble WS",
+        "Weng Z",
+        "Levine ME",
+        "Dobin A",
+        "Wold B",
+        "Mortazavi A",
+        "Ren B",
+        "Gillis J",
+        "Myers RM",
+        "Snyder MP",
+        "Choudhary J",
+        "Milosavljevic A",
+        "Schatz MC",
+        "Bernstein BE",
+        "Guigo R",
+        "Gingeras TR",
+        "Gerstein M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Section on Biomedical Informatics and Data Science, Yale University, New Haven, CT, USA; Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA; Centre for Genomic Regulation, The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain.",
+        "Institute of Science and Technology for Brain-Inspired Intelligence; MOE Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence; MOE Frontiers Center for Brain Science, Fudan University, Shanghai 200433, China; Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Department of Statistics and Data Science, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Institute of Cancer Research, London, UK.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA.",
+        "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Department of Computer Science, The University of Hong Kong, Hong Kong, CHN.",
+        "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, MA, USA.",
+        "European Bioinformatics Institute, Cambridge, Cambridgeshire, GB.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, MA, USA.",
+        "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA.",
+        "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA; Department of Biological and Chemical Sciences, New York Institute of Technology, Old Westbury, NY, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA; Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA; Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Centre for Genomic Regulation, The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain; Comparative Genomics Group, Life Science Programme, Barcelona Supercomputing Centre, Barcelona, Spain; Institute of Research in Biomedicine, Barcelona, Spain.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA.",
+        "Institute of Cancer Research, London, UK.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Department of Computer Science, University of California, Irvine, Irvine, CA, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, MA, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Pathology, Yale University School of Medicine, New Haven, CT, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA.",
+        "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA.",
+        "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA.",
+        "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA; Department of Physiology, University of Toronto, Toronto, ON, Canada.",
+        "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA.",
+        "Institute of Cancer Research, London, UK.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA; Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. Electronic address: mschatz@cs.jhu.edu.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA; Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA. Electronic address: Bradley_Bernstein@dfci.harvard.edu.",
+        "Centre for Genomic Regulation, The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain; Universitat Pompeu Fabra, Barcelona, Catalonia, Spain. Electronic address: roderic.guigo@crg.eu.",
+        "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. Electronic address: gingeras@cshl.edu.",
+        "Section on Biomedical Informatics and Data Science, Yale University, New Haven, CT, USA; Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA; Department of Statistics and Data Science, Yale University, New Haven, CT, USA; Department of Computer Science, Yale University, New Haven, CT, USA. Electronic address: mark@gersteinlab.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rozowsky, Joel",
+        "short_name": "Rozowsky J",
+        "identifiers": [],
+        "affiliations": [
+          "Section on Biomedical Informatics and Data Science, Yale University, New Haven, CT, USA; Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Jiahao",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Borsari, Beatrice",
+        "short_name": "Borsari B",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA; Centre for Genomic Regulation, The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Yang, Yucheng T",
+        "short_name": "Yang YT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence; MOE Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence; MOE Frontiers Center for Brain Science, Fudan University, Shanghai 200433, China; Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Galeev, Timur",
+        "short_name": "Galeev T",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Gürsoy, Gamze",
+        "short_name": "Gürsoy G",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Epstein, Charles B",
+        "short_name": "Epstein CB",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Xiong, Kun",
+        "short_name": "Xiong K",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Jinrui",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Tianxiao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Jason",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Keyang",
+        "short_name": "Yu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Berthel, Ana",
+        "short_name": "Berthel A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhanlin",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics and Data Science, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Navarro, Fabio",
+        "short_name": "Navarro F",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Maxwell S",
+        "short_name": "Sun MS",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Wright, James",
+        "short_name": "Wright J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Chang, Justin",
+        "short_name": "Chang J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Cameron, Christopher J F",
+        "short_name": "Cameron CJF",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Shoresh, Noam",
+        "short_name": "Shoresh N",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gaskell, Elizabeth",
+        "short_name": "Gaskell E",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Drenkow, Jorg",
+        "short_name": "Drenkow J",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Adrian, Jessika",
+        "short_name": "Adrian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Aganezov, Sergey",
+        "short_name": "Aganezov S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Aguet, François",
+        "short_name": "Aguet F",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Balderrama-Gutierrez, Gabriela",
+        "short_name": "Balderrama-Gutierrez G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Banskota, Samridhi",
+        "short_name": "Banskota S",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Corona, Guillermo Barreto",
+        "short_name": "Corona GB",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Chee, Sora",
+        "short_name": "Chee S",
+        "identifiers": [],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chhetri, Surya B",
+        "short_name": "Chhetri SB",
+        "identifiers": [],
+        "affiliations": [
+          "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Cortez Martins, Gabriel Conte",
+        "short_name": "Cortez Martins GC",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Danyko, Cassidy",
+        "short_name": "Danyko C",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Davis, Carrie A",
+        "short_name": "Davis CA",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Farid, Daniel",
+        "short_name": "Farid D",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Farrell, Nina P",
+        "short_name": "Farrell NP",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gabdank, Idan",
+        "short_name": "Gabdank I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gofin, Yoel",
+        "short_name": "Gofin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Gorkin, David U",
+        "short_name": "Gorkin DU",
+        "identifiers": [],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gu, Mengting",
+        "short_name": "Gu M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Hecht, Vivian",
+        "short_name": "Hecht V",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hitz, Benjamin C",
+        "short_name": "Hitz BC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Issner, Robbyn",
+        "short_name": "Issner R",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yunzhe",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Kirsche, Melanie",
+        "short_name": "Kirsche M",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Kong, Xiangmeng",
+        "short_name": "Kong X",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Bonita R",
+        "short_name": "Lam BR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Shantao",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Bian",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xiqi",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Khine Zin",
+        "short_name": "Lin KZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Ruibang",
+        "short_name": "Luo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, The University of Hong Kong, Hong Kong, CHN."
+        ]
+      },
+      {
+        "full_name": "Mackiewicz, Mark",
+        "short_name": "Mackiewicz M",
+        "identifiers": [],
+        "affiliations": [
+          "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Meng, Ran",
+        "short_name": "Meng R",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Jill E",
+        "short_name": "Moore JE",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mudge, Jonathan",
+        "short_name": "Mudge J",
+        "identifiers": [],
+        "affiliations": [
+          "European Bioinformatics Institute, Cambridge, Cambridgeshire, GB."
+        ]
+      },
+      {
+        "full_name": "Nelson, Nicholas",
+        "short_name": "Nelson N",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Nusbaum, Chad",
+        "short_name": "Nusbaum C",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Popov, Ioann",
+        "short_name": "Popov I",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Pratt, Henry E",
+        "short_name": "Pratt HE",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yunjiang",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ramakrishnan, Srividya",
+        "short_name": "Ramakrishnan S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Raymond, Joe",
+        "short_name": "Raymond J",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Salichos, Leonidas",
+        "short_name": "Salichos L",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA; Department of Biological and Chemical Sciences, New York Institute of Technology, Old Westbury, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Scavelli, Alexandra",
+        "short_name": "Scavelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schreiber, Jacob M",
+        "short_name": "Schreiber JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Sedlazeck, Fritz J",
+        "short_name": "Sedlazeck FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA; Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA; Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "See, Lei Hoon",
+        "short_name": "See LH",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sherman, Rachel M",
+        "short_name": "Sherman RM",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Xu",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Minyi",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sloan, Cricket Alicia",
+        "short_name": "Sloan CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Strattan, J Seth",
+        "short_name": "Strattan JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Zhen",
+        "short_name": "Tan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Forrest Y",
+        "short_name": "Tanaka FY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vlasova, Anna",
+        "short_name": "Vlasova A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation, The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain; Comparative Genomics Group, Life Science Programme, Barcelona Supercomputing Centre, Barcelona, Spain; Institute of Research in Biomedicine, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Werner, Jonathan",
+        "short_name": "Werner J",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Brian",
+        "short_name": "Williams B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Min",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Chengfei",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Lu",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Zaleski, Christopher",
+        "short_name": "Zaleski C",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ardlie, Kristin",
+        "short_name": "Ardlie K",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Cherry, J Michael",
+        "short_name": "Cherry JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mendenhall, Eric M",
+        "short_name": "Mendenhall EM",
+        "identifiers": [],
+        "affiliations": [
+          "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Noble, William S",
+        "short_name": "Noble WS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Weng, Zhiping",
+        "short_name": "Weng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Levine, Morgan E",
+        "short_name": "Levine ME",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Pathology, Yale University School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Dobin, Alexander",
+        "short_name": "Dobin A",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wold, Barbara",
+        "short_name": "Wold B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mortazavi, Ali",
+        "short_name": "Mortazavi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ren, Bing",
+        "short_name": "Ren B",
+        "identifiers": [],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gillis, Jesse",
+        "short_name": "Gillis J",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA; Department of Physiology, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Myers, Richard M",
+        "short_name": "Myers RM",
+        "identifiers": [],
+        "affiliations": [
+          "HudsonAlpha Institute for Biotechnology, Huntsville, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Snyder, Michael P",
+        "short_name": "Snyder MP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Choudhary, Jyoti",
+        "short_name": "Choudhary J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Milosavljevic, Aleksandar",
+        "short_name": "Milosavljevic A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Schatz, Michael C",
+        "short_name": "Schatz MC",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computer Science and Biology, Johns Hopkins University, Baltimore, MD, USA; Simons Center for Quantitative Biology, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. Electronic address: mschatz@cs.jhu.edu."
+        ]
+      },
+      {
+        "full_name": "Bernstein, Bradley E",
+        "short_name": "Bernstein BE",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA; Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA. Electronic address: Bradley_Bernstein@dfci.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Guigó, Roderic",
+        "short_name": "Guigó R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation, The Barcelona Institute of Science and Technology, Barcelona, Catalonia, Spain; Universitat Pompeu Fabra, Barcelona, Catalonia, Spain. Electronic address: roderic.guigo@crg.eu."
+        ]
+      },
+      {
+        "full_name": "Gingeras, Thomas R",
+        "short_name": "Gingeras TR",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. Electronic address: gingeras@cshl.edu."
+        ]
+      },
+      {
+        "full_name": "Gerstein, Mark",
+        "short_name": "Gerstein M",
+        "identifiers": [],
+        "affiliations": [
+          "Section on Biomedical Informatics and Data Science, Yale University, New Haven, CT, USA; Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA; Department of Statistics and Data Science, Yale University, New Haven, CT, USA; Department of Computer Science, Yale University, New Haven, CT, USA. Electronic address: mark@gersteinlab.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2023 Mar 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/01 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "42665668",
+      "42553517",
+      "42520801",
+      "42490476",
+      "42465479",
+      "42431967",
+      "42134306",
+      "42056104",
+      "42051295",
+      "41985991",
+      "41875896",
+      "41557842",
+      "41424765",
+      "41277691",
+      "41249656",
+      "41223854",
+      "40957943",
+      "40926263",
+      "40858101",
+      "40775300",
+      "40502148",
+      "40462903",
+      "40341583",
+      "40228902",
+      "40224297",
+      "40196612",
+      "40195537",
+      "40187355",
+      "40179105",
+      "40027628",
+      "39986281",
+      "39966391",
+      "39926072",
+      "39868538",
+      "39708837",
+      "39706190",
+      "39638559",
+      "39554180",
+      "39488654",
+      "39455800",
+      "39420003",
+      "39383060",
+      "39149455",
+      "39007649",
+      "38871816",
+      "38781369",
+      "38639992",
+      "38602535",
+      "38562822",
+      "38517697",
+      "38452764",
+      "38260545",
+      "38176712",
+      "37945903",
+      "37904929",
+      "37873117",
+      "37550323",
+      "37055612"
+    ],
+    "refs": [
+      "36658279",
+      "35914524",
+      "35450748",
+      "35357919",
+      "35175196",
+      "35016614",
+      "34493866",
+      "34475573",
+      "34465174",
+      "33632895",
+      "33590861",
+      "33538820",
+      "33526779",
+      "33383480",
+      "32916130",
+      "32913098",
+      "32912332",
+      "32887686",
+      "32741549",
+      "32737473",
+      "32728249",
+      "32728065",
+      "32663312",
+      "32594908",
+      "32553272",
+      "32528959",
+      "32489650",
+      "32461654",
+      "32117605",
+      "31980751",
+      "31937349",
+      "31856913",
+      "31796933",
+      "31751002",
+      "31634529",
+      "31540910",
+      "31537640",
+      "31403472",
+      "31333395",
+      "31249361",
+      "31103921",
+      "31088900",
+      "30944313",
+      "30777892",
+      "30661756",
+      "30617125",
+      "30538721",
+      "30445434",
+      "30395289",
+      "30357393",
+      "30311374",
+      "30169659",
+      "30139913",
+      "29954844",
+      "29884191",
+      "29750242",
+      "29713083",
+      "29692413",
+      "29629248",
+      "29490333",
+      "29401301",
+      "29326266",
+      "29272703",
+      "29165669",
+      "29138516",
+      "29109544",
+      "29058714",
+      "29022597",
+      "28878825",
+      "28877740",
+      "28721980",
+      "28697763",
+      "28381613",
+      "28369037",
+      "28117401",
+      "28100585",
+      "27940952",
+      "27903644",
+      "27847391",
+      "27786492",
+      "27749838",
+      "27694351",
+      "27535533",
+      "27467249",
+      "27418748",
+      "27318204",
+      "27250503",
+      "27142790",
+      "27089393",
+      "27037489",
+      "26917056",
+      "26891983",
+      "26704975",
+      "26675384",
+      "26579194",
+      "26553804",
+      "26502339",
+      "26484571",
+      "26432246",
+      "26432245",
+      "26414678",
+      "26381377",
+      "26366987",
+      "26296162",
+      "26160499",
+      "26152199",
+      "26151137",
+      "25954002",
+      "25954001",
+      "25953952",
+      "25819081",
+      "25810811",
+      "25788984",
+      "25693566",
+      "25693563",
+      "25609793",
+      "25564734",
+      "25516281",
+      "25497547",
+      "25473428",
+      "25457167",
+      "25273974",
+      "25268989",
+      "25215497",
+      "24970206",
+      "24501021",
+      "24463510",
+      "24296534",
+      "24224437",
+      "24092746",
+      "23715323",
+      "23104886",
+      "22955619",
+      "22955616",
+      "22908213",
+      "22424236",
+      "21850042",
+      "21811232",
+      "21330290",
+      "21221095",
+      "20639541",
+      "20601685",
+      "20442734",
+      "20110278",
+      "20080505",
+      "19910308",
+      "19815776",
+      "19808877",
+      "19474294",
+      "19385687",
+      "19131956",
+      "19033363",
+      "18854152",
+      "18596250",
+      "18463664",
+      "17571346",
+      "17522673",
+      "16381938",
+      "16024819",
+      "14759262",
+      "14562106",
+      "12952525",
+      "12695777",
+      "11181995",
+      "11125122"
+    ],
+    "similar": [
+      "37001506",
+      "29378629",
+      "38639992",
+      "36063453",
+      "36271868",
+      "33300042",
+      "35192625",
+      "29161273",
+      "33515242",
+      "28567521",
+      "24770875",
+      "40653482",
+      "32529949",
+      "26474488",
+      "41096905",
+      "34529725",
+      "35451781",
+      "40205616",
+      "27407109",
+      "27005890",
+      "33980847",
+      "30335480",
+      "31130283",
+      "34711957",
+      "34629083",
+      "33371893",
+      "35705896",
+      "30864331",
+      "29101457",
+      "32363570",
+      "28283040",
+      "26800306",
+      "40421528",
+      "26111110",
+      "32103259",
+      "20369022",
+      "29771388",
+      "28302177",
+      "31296926",
+      "39107801",
+      "38956486",
+      "24886216",
+      "41570977",
+      "28166722",
+      "32895400",
+      "32833970",
+      "26102239",
+      "32817564",
+      "40577937",
+      "37965371",
+      "35168626",
+      "29942083",
+      "31504167",
+      "41888146",
+      "29727691",
+      "38824563",
+      "30079747",
+      "31891614",
+      "24997396",
+      "27199446",
+      "27236919",
+      "38369936",
+      "26966274",
+      "27980060",
+      "32330225",
+      "40143549",
+      "31931702",
+      "36204489",
+      "23935528",
+      "27132591",
+      "29128211",
+      "39986281",
+      "30113658",
+      "19654370",
+      "39388235",
+      "41755740",
+      "41153440",
+      "38689208",
+      "31931710",
+      "37910504",
+      "24973796",
+      "34489471",
+      "22665440",
+      "32765587",
+      "21085640",
+      "35064145",
+      "23189034",
+      "40158163",
+      "39858631",
+      "34644572",
+      "41535759",
+      "37038103",
+      "36423637",
+      "39550354",
+      "28388432",
+      "41284851",
+      "40840451",
+      "32171239",
+      "33626337",
+      "41774747"
+    ],
+    "review": [
+      "37001506",
+      "24770875",
+      "26474488",
+      "31891614",
+      "34644572"
+    ],
+    "pmc": [
+      "10074325"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(23)00161-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37001506/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37001506",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/9xg116dt",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/37001506",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd022787",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41799016",
+    "doi": "10.1093/nargab/lqag027",
+    "title": "Sequence-based modeling of low-affinity transcription factor-DNA binding through deep learning."
+  },
+  "content": {
+    "abstract": "Multiple layers of molecular determinants and mechanisms affect binding specificity between transcription factors (TFs) and DNA. DNA sequence-based deep learning models using convolutional neural networks (CNNs) and self-attention (SA) transformers have improved modeling accuracy and advanced our understanding of TF-DNA binding specificity through network interpretation. However, the systematic evaluation of various strategies for handling DNA sequence orientations in deep learning models-and their interpretation-remains underexplored, especially in the context of learning low-affinity binding site specificity. Using SELEX-seq data for eight Exd-Hox heterodimers in Drosophila, we compared canonical models with data augmentation and reverse-complement weight-sharing models. We found that reverse-complement weight-sharing CNN models and SA models trained with augmented data with reverse complements outperformed other approaches in modeling binding specificity. In this work, we evaluated several interpretation methods, including Gradient*input, DeconvNet, DeepLIFT, and in silico mutagenesis (ISM). Compared to other interpretation methods, ISM was less sensitive to model hyperparameter settings. In this work, we identified Exd-Ubx binding at low-affinity sites and suggested possible biophysical mechanisms. The findings of this study will be relevant for studying the functional role of low-affinity TF binding in gene regulatory mechanisms with possible implications on TF-DNA binding specificity guided protein design.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "*Deep Learning",
+      "Animals",
+      "*DNA/metabolism/chemistry/genetics",
+      "Drosophila Proteins/metabolism/genetics",
+      "Binding Sites",
+      "Protein Binding",
+      "Homeodomain Proteins/metabolism/genetics",
+      "Convolutional Neural Networks",
+      "Drosophila/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yingfei",
+        "Li, Jinsen",
+        "Chiu, Tsu-Pei",
+        "Xin, Beibei",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Li J",
+        "Chiu TP",
+        "Xin B",
+        "Rohs R"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0712-023X",
+        "ORCID: 0000-0002-1015-5263",
+        "ORCID: 0000-0002-2472-6557",
+        "ORCID: 0000-0003-0448-2417",
+        "ORCID: 0000-0003-1752-1884"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States.",
+        "State Key Laboratory of Maize Bio-Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, China.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States.",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA 90089, United States.",
+        "Department of Physics & Astronomy, University of Southern California, Los Angeles, CA 90089, United States.",
+        "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA 90089, United States.",
+        "Division of Medical Oncology, Department of Medicine, University of Southern California, Los Angeles, CA 90033, United States.",
+        "Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, CA 90089, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yingfei",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0004-0712-023X"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Jinsen",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-1015-5263"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Chiu, Tsu-Pei",
+        "short_name": "Chiu TP",
+        "identifiers": [
+          "0000-0002-2472-6557"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Xin, Beibei",
+        "short_name": "Xin B",
+        "identifiers": [
+          "0000-0003-0448-2417"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [
+          "0000-0003-1752-1884"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, United States.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA 90089, United States.",
+          "Department of Physics & Astronomy, University of Southern California, Los Angeles, CA 90089, United States.",
+          "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA 90089, United States.",
+          "Division of Medical Oncology, Department of Medicine, University of Southern California, Los Angeles, CA 90033, United States.",
+          "Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, CA 90089, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/09 17:37",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39891349",
+      "39862604",
+      "39103447",
+      "38336958",
+      "38236675",
+      "37328639",
+      "36656856",
+      "36179084",
+      "36071116",
+      "34929739",
+      "34272562",
+      "33796819",
+      "33538820",
+      "31283382",
+      "29610332",
+      "29409522",
+      "29326300",
+      "29196557",
+      "29165643",
+      "28591841",
+      "28379348",
+      "27155014",
+      "27084946",
+      "26883003",
+      "26550823",
+      "26472909",
+      "26301843",
+      "26213851",
+      "26099425",
+      "25843630",
+      "25775564",
+      "25557079",
+      "25129887",
+      "25045190",
+      "24097267",
+      "23756045",
+      "23498934",
+      "23354101",
+      "23333102",
+      "23332764",
+      "22955990",
+      "22868264",
+      "22638583",
+      "22505627",
+      "22153072",
+      "20501695",
+      "20334529",
+      "18725950",
+      "18271625",
+      "18243105",
+      "17981120",
+      "17540862",
+      "17512414",
+      "16809671",
+      "16449200",
+      "16341070",
+      "15173120",
+      "11823633",
+      "8478917"
+    ],
+    "similar": [
+      "41799016",
+      "34534646",
+      "32053778",
+      "19956545",
+      "25557079",
+      "25775564",
+      "38130056",
+      "37214836",
+      "41920894",
+      "19481089",
+      "40613713",
+      "15039447",
+      "39644990",
+      "40102719",
+      "42099803",
+      "27058369",
+      "29610332",
+      "40234030",
+      "31589607",
+      "42134988",
+      "23922708",
+      "40914877",
+      "22153072",
+      "8657149",
+      "8105373",
+      "9826764",
+      "8657138",
+      "21821017",
+      "30468713",
+      "34931250",
+      "12419257",
+      "35696584",
+      "9878063",
+      "12070087",
+      "24078250",
+      "22781127",
+      "15753213",
+      "22399320",
+      "18508761",
+      "34073774",
+      "42475469",
+      "32770026",
+      "38701417",
+      "38049725",
+      "28978476",
+      "31974574",
+      "25286318",
+      "15870192",
+      "15753212",
+      "29617928",
+      "9155029",
+      "24218631",
+      "17785540",
+      "31372637",
+      "12408801",
+      "22160705",
+      "20838582",
+      "20158869",
+      "40848288",
+      "25843630",
+      "38517697",
+      "41634097",
+      "38397134",
+      "29588420",
+      "18229706",
+      "22296846",
+      "23812975",
+      "34075638",
+      "10067897",
+      "21821154",
+      "22537495",
+      "22189060",
+      "8563624",
+      "33372147",
+      "33571101",
+      "1347746",
+      "40335485",
+      "30835229",
+      "41294241",
+      "7915199",
+      "40314147",
+      "8643557",
+      "20176964",
+      "35652477",
+      "35978548",
+      "31992709",
+      "39482734",
+      "40874594",
+      "38733561",
+      "18422304",
+      "10529430",
+      "9169847",
+      "26285121",
+      "8097276",
+      "39214282",
+      "39271116",
+      "37341745",
+      "8665855",
+      "38902964",
+      "16996052"
+    ],
+    "review": [
+      "41799016",
+      "39644990",
+      "22399320"
+    ],
+    "pmc": [
+      "12961433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41799016",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41799016/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqag027",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

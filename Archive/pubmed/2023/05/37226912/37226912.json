@@ -1,0 +1,488 @@
+{
+  "identity": {
+    "pmid": "37226912",
+    "doi": "10.1093/gigascience/giad038",
+    "title": "Developmental dynamics of chromatin accessibility during post-implantation development of monkey embryos."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Early post-implantation development, especially gastrulation in primates, is accompanied by extensive drastic chromatin reorganization, which remains largely elusive. RESULTS: To delineate the global chromatin landscape and understand the molecular dynamics during this period, a single-cell assay for transposase accessible chromatin sequencing (scATAC-seq) was applied to in vitro cultured cynomolgus monkey (Macaca fascicularis, hereafter referred to as monkey) embryos to investigate the chromatin status. First, we delineated the cis-regulatory interactions and identified the regulatory networks and critical transcription factors involved in the epiblast (EPI), hypoblast, and trophectoderm/trophoblast (TE) lineage specification. Second, we observed that the chromatin opening of some genome regions preceded the gene expression during EPI and trophoblast specification. Third, we identified the opposing roles of FGF and BMP signaling in pluripotency regulation during EPI specification. Finally, we revealed the similarity between EPI and TE in gene expression profiles and demonstrated that PATZ1 and NR2F2 were involved in EPI and trophoblast specification during monkey post-implantation development. CONCLUSIONS: Our findings provide a useful resource and insights into dissecting the transcriptional regulatory machinery during primate post-implantation development.",
+    "keywords": [
+      "chromatin dynamics",
+      "cynomolgus monkey",
+      "ex vivo",
+      "gastrulation",
+      "scATAC-seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Chromatin/genetics",
+      "Macaca fascicularis",
+      "*Transcription Factors",
+      "Transposases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Xi",
+        "Shao, Honglian",
+        "Sun, Nianqin",
+        "Ci, Baiquan",
+        "Wu, Jun",
+        "Liu, Chuanyu",
+        "Wu, Liang",
+        "Yuan, Yue",
+        "Wei, Xiaoyu",
+        "Yang, Huanming",
+        "Liu, Longqi",
+        "Ji, Weizhi",
+        "Bai, Bing",
+        "Shang, Zhouchun",
+        "Tan, Tao"
+      ],
+      "short_names": [
+        "Dai X",
+        "Shao H",
+        "Sun N",
+        "Ci B",
+        "Wu J",
+        "Liu C",
+        "Wu L",
+        "Yuan Y",
+        "Wei X",
+        "Yang H",
+        "Liu L",
+        "Ji W",
+        "Bai B",
+        "Shang Z",
+        "Tan T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8240-5487",
+        "ORCID: 0000-0002-8758-1834",
+        "ORCID: 0000-0001-9461-3307",
+        "ORCID: 0000-0001-8269-8032",
+        "ORCID: 0000-0001-9863-1668",
+        "ORCID: 0000-0003-2258-0897",
+        "ORCID: 0000-0002-6784-0181",
+        "ORCID: 0000-0001-9592-3083",
+        "ORCID: 0000-0002-0858-3410",
+        "ORCID: 0000-0002-5828-5542",
+        "ORCID: 0000-0003-2550-4224",
+        "ORCID: 0000-0002-1740-7961",
+        "ORCID: 0000-0001-8650-0388"
+      ],
+      "affiliations": [
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+        "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China.",
+        "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+        "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China.",
+        "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+        "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China.",
+        "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "James D. Watson Institute of Genome Sciences, Hangzhou 310013, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+        "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China.",
+        "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+        "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "BGI-Shenzhen, Shenzhen 518083, China.",
+        "James D. Watson Institute of Genome Sciences, Hangzhou 310013, China.",
+        "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+        "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Xi",
+        "short_name": "Dai X",
+        "identifiers": [
+          "0000-0002-8240-5487"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "BGI-Shenzhen, Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Honglian",
+        "short_name": "Shao H",
+        "identifiers": [
+          "0000-0002-8758-1834"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+          "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Nianqin",
+        "short_name": "Sun N",
+        "identifiers": [
+          "0000-0001-9461-3307"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+          "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+        ]
+      },
+      {
+        "full_name": "Ci, Baiquan",
+        "short_name": "Ci B",
+        "identifiers": [
+          "0000-0001-8269-8032"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+          "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jun",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0001-9863-1668"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Chuanyu",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0003-2258-0897"
+        ],
+        "affiliations": [
+          "BGI-Shenzhen, Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Liang",
+        "short_name": "Wu L",
+        "identifiers": [
+          "0000-0002-6784-0181"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yue",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "BGI-Shenzhen, Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xiaoyu",
+        "short_name": "Wei X",
+        "identifiers": [
+          "0000-0001-9592-3083"
+        ],
+        "affiliations": [
+          "BGI-Shenzhen, Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huanming",
+        "short_name": "Yang H",
+        "identifiers": [
+          "0000-0002-0858-3410"
+        ],
+        "affiliations": [
+          "BGI-Shenzhen, Shenzhen 518083, China.",
+          "James D. Watson Institute of Genome Sciences, Hangzhou 310013, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Longqi",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0002-5828-5542"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "BGI-Shenzhen, Shenzhen 518083, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Weizhi",
+        "short_name": "Ji W",
+        "identifiers": [
+          "0000-0003-2550-4224"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+          "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Bing",
+        "short_name": "Bai B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+          "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Zhouchun",
+        "short_name": "Shang Z",
+        "identifiers": [
+          "0000-0002-1740-7961"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "BGI-Shenzhen, Shenzhen 518083, China.",
+          "James D. Watson Institute of Genome Sciences, Hangzhou 310013, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Tao",
+        "short_name": "Tan T",
+        "identifiers": [
+          "0000-0001-8650-0388"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, Yunnan 650500, China.",
+          "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, Yunnan 650500, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "GigaScience"
+    ],
+    "journal_abbrev": [
+      "Gigascience"
+    ],
+    "pub_date": "2022 Dec 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/25 13:07",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36204155",
+      "35077679",
+      "34856602",
+      "34725479",
+      "34489415",
+      "34417090",
+      "34004179",
+      "33991488",
+      "33831366",
+      "33831365",
+      "33731926",
+      "33731924",
+      "33649217",
+      "33352111",
+      "33098772",
+      "32048992",
+      "31959285",
+      "31844322",
+      "31830756",
+      "31827285",
+      "31792411",
+      "31740819",
+      "31672918",
+      "31672917",
+      "31591447",
+      "31178118",
+      "30787436",
+      "30673604",
+      "30231982",
+      "30038253",
+      "29914354",
+      "29686265",
+      "29249463",
+      "28825706",
+      "28825705",
+      "28709003",
+      "28251461",
+      "28114287",
+      "27635762",
+      "27556940",
+      "27207943",
+      "27179027",
+      "27144686",
+      "27144363",
+      "25697820",
+      "25349451",
+      "23631809",
+      "23104886",
+      "22455463",
+      "22388286",
+      "21816040",
+      "19733166",
+      "19219068",
+      "18798982",
+      "15788452",
+      "9431800"
+    ],
+    "similar": [
+      "37226912",
+      "31672917",
+      "34685690",
+      "31672918",
+      "27309802",
+      "38338756",
+      "37295962",
+      "33717140",
+      "27556940",
+      "32663300",
+      "29720659",
+      "37172563",
+      "26740066",
+      "33449399",
+      "36044859",
+      "36855961",
+      "30154223",
+      "29539636",
+      "37553620",
+      "26083756",
+      "38224493",
+      "33191916",
+      "38741085",
+      "36881507",
+      "29558892",
+      "38956385",
+      "22278923",
+      "32312702",
+      "35858748",
+      "37531300",
+      "37096870",
+      "28607482",
+      "35133623",
+      "31110271",
+      "38977847",
+      "35700449",
+      "37525156",
+      "36777038",
+      "30948010",
+      "32663104",
+      "36902216",
+      "38643480",
+      "33581341",
+      "38664790",
+      "33861963",
+      "31844322",
+      "35732129",
+      "34879708",
+      "31427911",
+      "35947334",
+      "37172562",
+      "39501301",
+      "38600256",
+      "36549922",
+      "38884167",
+      "38493346",
+      "36161934",
+      "36546093",
+      "38374540",
+      "34635836",
+      "36232500",
+      "37537502",
+      "36347848",
+      "34509499",
+      "35831300",
+      "27443938",
+      "37563143",
+      "37780395",
+      "24445281",
+      "36173566",
+      "33926839",
+      "37244909",
+      "27626379",
+      "36482454",
+      "26977395",
+      "18083014",
+      "25559105",
+      "29605854",
+      "35549704",
+      "37417811",
+      "36995609",
+      "27832532",
+      "38474039",
+      "31830756",
+      "36109677",
+      "30559361",
+      "30361341",
+      "30821321",
+      "33532736",
+      "37440917",
+      "33623021",
+      "29229750",
+      "39091858",
+      "30664750",
+      "34488759",
+      "12683931",
+      "15236655",
+      "37884859",
+      "33352111",
+      "34569650"
+    ],
+    "review": [
+      "37226912",
+      "38338756",
+      "32312702",
+      "35133623",
+      "30948010",
+      "33581341",
+      "31427911",
+      "36549922",
+      "38374540"
+    ],
+    "pmc": [
+      "10209733"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37226912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37226912",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gigascience/article-lookup/doi/10.1093/gigascience/giad038",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

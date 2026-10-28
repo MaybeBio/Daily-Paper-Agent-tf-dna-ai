@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "40885455",
+    "doi": "10.1016/j.freeradbiomed.2025.08.036",
+    "title": "Targeting KEAP1/NRF2 interaction with oleuropein ameliorates atherosclerosis by inhibiting macrophage ferroptosis."
+  },
+  "content": {
+    "abstract": "Atherosclerosis (AS) is a chronic inflammatory arterial disease. Oleuropein (OL), extracted from olive leaves, has demonstrated broad cardioprotective properties. However, the effects of OL on AS remain to be fully elucidated. ox-LDL incubated macrophages were used to imitate macrophage damage within plaques in vitro. Recombinant adeno-associated virus serotype 9 (AAV9) encoding a short hairpin RNA targeting NRF2 (AAV9-shNRF2) and AAV-KEAP1-R451S were administered to OL-treated ApoE(-/-) mice. The molecular mechanisms were explored through immunoprecipitation and Chip-qPCR, seahorse assays, and proteomics analysis. OL administration significantly attenuated the progression of AS and enhanced plaque stability, as evidenced by reduced plaque area and lipid deposition, along with increased collagen content. Proteomics revealed that OL suppressed ferroptosis by upregulating GPX4/xCT level, improving mitochondrial function, alleviating oxidative stress and suppressing lipid peroxidation in macrophages treated by ox-LDL and atherosclerotic plaques. Moreover, OL enhanced NRF2 activation and nuclear translocation, while NRF2 inhibition or knockdown abolished the protective effect of OL on AS and macrophage ferroptosis. Mechanistically, molecular dynamics analysis suggested that OL may bind to the Arg415 site of KEAP1 competitively, promoting the separation and nuclear translocation of NRF2 from KEAP1. Additionally, transfection with the Arg415 mutant plasmid (KEAP1-R415S) abolished the antioxidative and anti-ferroptosis effects of OL in macrophages induced by ox-LDL. Moreover, the protective effects of OL against atherosclerosis and macrophage ferroptosis were significantly attenuated in AAV-KEAP1-R415S mutant ApoE(-/-) mice. OL attenuated AS progression and macrophage ferroptosis by facilitating NRF2 nuclear translocation and activation via binding to the Arg415 residue of KEAP1 competitively. These findings identified a novel insight into potential therapeutic strategies for the treatment of AS.",
+    "keywords": [
+      "Atherosclerosis",
+      "Ferroptosis",
+      "Macrophage",
+      "NRF2/KEAP1 complex",
+      "Oleuropein"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-E2-Related Factor 2/metabolism/genetics",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism/genetics",
+      "Mice",
+      "*Iridoid Glucosides/pharmacology",
+      "*Atherosclerosis/metabolism/pathology/drug therapy/genetics",
+      "*Macrophages/metabolism/drug effects/pathology",
+      "*Ferroptosis/drug effects",
+      "Lipoproteins, LDL",
+      "Humans",
+      "Male",
+      "*Iridoids/pharmacology",
+      "Mice, Inbred C57BL",
+      "Oxidative Stress/drug effects",
+      "Plaque, Atherosclerotic/pathology/drug therapy/metabolism",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xinxin",
+        "Chen, Yuwu",
+        "Xu, Biyi",
+        "Mou, Junke",
+        "Wang, Mengyang",
+        "Gu, Qishuo",
+        "Sun, Qianhui",
+        "Li, Man",
+        "Zhao, Chen",
+        "Zeng, Ming",
+        "Lv, Ying",
+        "Zhang, Shan",
+        "Bai, Xiaoxuan",
+        "Du, Jie",
+        "Yu, Hang",
+        "Liu, Minghao",
+        "Luo, Xing",
+        "Li, Ji",
+        "Hu, Sining",
+        "Jia, Haibo",
+        "Yu, Bo"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Chen Y",
+        "Xu B",
+        "Mou J",
+        "Wang M",
+        "Gu Q",
+        "Sun Q",
+        "Li M",
+        "Zhao C",
+        "Zeng M",
+        "Lv Y",
+        "Zhang S",
+        "Bai X",
+        "Du J",
+        "Yu H",
+        "Liu M",
+        "Luo X",
+        "Li J",
+        "Hu S",
+        "Jia H",
+        "Yu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, 150001, China.",
+        "Department of Pharmacy at the Second Affiliated Hospital, and Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin, 150081, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China. Electronic address: jhb101180@163.com.",
+        "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xinxin",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuwu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Biyi",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Mou, Junke",
+        "short_name": "Mou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengyang",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Qishuo",
+        "short_name": "Gu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qianhui",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Man",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chen",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Ming",
+        "short_name": "Zeng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Ying",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xiaoxuan",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jie",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hang",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy at the Second Affiliated Hospital, and Department of Pharmacology (State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD)), College of Pharmacy, Harbin Medical University, Harbin, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Minghao",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xing",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ji",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Sining",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Haibo",
+        "short_name": "Jia H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China. Electronic address: jhb101180@163.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Bo",
+        "short_name": "Yu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Second Affiliated Hospital of Harbin Medical University, State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), No. 246 Xuefu Road, Nangang District, Harbin, 150001, China; The Key Laboratory of Myocardial Ischemia, Chinese Ministry of Education, Harbin, 150001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Free radical biology & medicine"
+    ],
+    "journal_abbrev": [
+      "Free Radic Biol Med"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/31 04:47",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42504696",
+      "41488425",
+      "41300518",
+      "41103299"
+    ],
+    "refs": [],
+    "similar": [
+      "40885455",
+      "38100883",
+      "41026310",
+      "41063334",
+      "38780199",
+      "39442188",
+      "40706741",
+      "41196445",
+      "40779351",
+      "41205774",
+      "36274522",
+      "39228119",
+      "27335232",
+      "39848420",
+      "40886948",
+      "41167534",
+      "39251858",
+      "40038689",
+      "36163178",
+      "41297346",
+      "38815774",
+      "38350505",
+      "40089199",
+      "26117323",
+      "40917063",
+      "39016055",
+      "40280228",
+      "40368273",
+      "40609383",
+      "41130579",
+      "32219872",
+      "39657533",
+      "34761008",
+      "40972263",
+      "38507850",
+      "38178661",
+      "40204709",
+      "40029381",
+      "40781716",
+      "41223380",
+      "40543691",
+      "40595901",
+      "38926825",
+      "40849045",
+      "41319414",
+      "40885093",
+      "39041134",
+      "39322309",
+      "40350883",
+      "40468416",
+      "39694117",
+      "39167283",
+      "23051009",
+      "40240160",
+      "31386895",
+      "39304097",
+      "35776077",
+      "40743903",
+      "41463394",
+      "40962721",
+      "37206550",
+      "40225574",
+      "40838446",
+      "28468003",
+      "34388345",
+      "40382941",
+      "37298147",
+      "40907328",
+      "26878775",
+      "39671057",
+      "38149556",
+      "41014504",
+      "38762209",
+      "37187359",
+      "40021790",
+      "39934342",
+      "40152386",
+      "40617459",
+      "41202966",
+      "37891461",
+      "41308856",
+      "39209138",
+      "39874130",
+      "40844245",
+      "40934008",
+      "30339884",
+      "40795589",
+      "38359744",
+      "40972223",
+      "30064139",
+      "40754121",
+      "40882016",
+      "38104880",
+      "32161178",
+      "40294852",
+      "40272768",
+      "39428183",
+      "41352097",
+      "37219513",
+      "39978445"
+    ],
+    "review": [
+      "40885455"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0891-5849(25)00923-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://www.ovid.com/40885455.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

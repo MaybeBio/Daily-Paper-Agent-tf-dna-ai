@@ -1,0 +1,134 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2023)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No supplementary figures, tables, or extended data were available for direct inspection beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors present ChIP-ISO, a high-throughput assay to measure FOXA1 binding to thousands of synthetic DNA sequences integrated at a fixed genomic locus. They report that FOXA1 binding is strongly influenced by co-binding TFs, particularly AP-1 and CEBPB; that FOXA1 and AP-1 exhibit cooperative binding in vitro and in vivo; that local sequence features dominate over chromatin context in determining FOXA1 binding; and that AP-1 contributes to cell-type-specific FOXA1 binding.
+- **Visible evidence base** Main text figures 1–7 (referenced), extended data figures 2–10 (referenced), methods section, supplementary tables S1–S3 (referenced). Actual figure panels, numerical values, and statistical details were not fully available in the provided text.
+- **Missing materials affecting confidence** Full figure panels with numerical data, statistical test details, exact sample sizes, replicate numbers, control experiment results, and the complete supplementary tables. The neural network performance metrics are only partially reported. The ChIP-ISO signal distributions and thresholds for defining "bound" vs "unbound" are not fully specified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in transcription factor biology: how pioneer factors achieve binding specificity despite widespread motif occurrence. The ChIP-ISO approach is conceptually innovative and well-suited to systematically dissect sequence features. The finding that AP-1 is a major determinant of FOXA1 binding specificity, with evidence for cooperative binding, is potentially significant. However, several technical aspects require clarification and additional validation before the conclusions can be fully accepted. The claim that chromatin context plays a minor role is provocative but may be overstated given the experimental design. The manuscript is well-written and the logic is generally clear, but some conclusions extend beyond what the presented evidence can support.
+- **Who would be interested in the results, and why** Researchers studying pioneer factors, transcription factor cooperativity, enhancer biology, and cell-type-specific gene regulation. The methodological advance (ChIP-ISO) will be of interest to those developing high-throughput approaches to study TF-DNA interactions in chromatin. The finding of FOXA1-AP-1 synergy has implications for understanding context-dependent pioneer factor function in development and disease.
+- **Major strengths** 1) The ChIP-ISO assay is a novel and powerful approach that combines synthetic library screening with genomic integration, allowing systematic dissection of sequence features in a controlled chromatin environment. 2) The combination of in vivo (ChIP-ISO), in vitro (EMSA-seq), and in silico (neural network) approaches provides complementary evidence. 3) The finding that AP-1 is a dominant co-factor for FOXA1 binding is well-supported by multiple lines of evidence. 4) The demonstration of mutual dependency between FOXA1 and AP-1 binding, including evidence for tethering without direct DNA binding, is mechanistically interesting. 5) The manuscript is clearly written and the experimental logic is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / data interpretation
+  - **Claim pointer** The authors claim that "FOXA1 binding is strongly affected by co-binding TFs AP-1 and CEBPB" and that AP-1 is a "crucial co-factor that potentiates FOXA1 binding."
+  - **Evidence pointer** Figure 2c–h, Figure 3c–e, Extended Data Figure 3d
+  - **Concern** The ChIP-ISO signal is measured as a ratio of ChIP to input read counts. The authors do not clearly specify how the threshold for "binding" vs "no binding" was determined, nor do they report the dynamic range of the assay. The bimodal distribution shown in Figure 1c suggests a threshold exists, but the criteria for calling a sequence "bound" are not stated. This is critical because the conclusions about which mutations reduce binding depend entirely on this threshold. Additionally, the authors report that mutating AP-1 motifs reduces FOXA1 binding "close to background," but the background level is not explicitly defined or quantified.
+  - **Why it matters** Without a clear definition of the binding threshold and background, it is difficult to assess whether the reported effects of AP-1 and CEBPB mutations are quantitatively robust or whether they reflect artifacts of the threshold choice. This affects the central claim of the paper.
+  - **Resolution test** The authors should provide: (1) a clear description of how the ChIP-ISO signal threshold was determined, (2) the distribution of signals for negative control sequences (e.g., scrambled motifs), (3) the signal-to-noise ratio of the assay, and (4) a sensitivity analysis showing that the conclusions are robust to reasonable variations in the threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / experimental design
+  - **Claim pointer** The authors claim that "FOXA1 binding is mostly determined by the local sequence, not the chromatin context," and that heterochromatin marks (H3K9me3, H3K27me3) play a "minor role" in FOXA1 binding.
+  - **Evidence pointer** Figure 6a–g, Extended Data Figure 8a–d
+  - **Concern** The conclusion that chromatin context plays a minor role is based on comparing FOXA1 binding at the native locus versus the AAVS1 integration site. However, the AAVS1 locus is itself a euchromatic, accessible region. The authors selected sequences from H3K9me3-marked regions and moved them to AAVS1, but this does not test whether the presence of H3K9me3 at the native locus affects FOXA1 binding. The KRAB-dCas9 experiment (Figure 6i–j) is a more direct test, but it was performed at a single locus (CCND1e) and only for H3K9me3, not H3K27me3. The neural network analysis (Figure 6h) shows that adding H3K9me3 does not improve prediction, but this is an indirect test. The conclusion that chromatin context is unimportant may be an overgeneralization from a limited set of experiments.
+  - **Why it matters** The role of chromatin context in pioneer factor binding is a central question in the field. If the conclusion is overstated, it could mislead future research directions. The experimental design does not fully exclude the possibility that heterochromatin has effects at other loci or under different conditions.
+  - **Resolution test** The authors should: (1) test FOXA1 binding at additional loci with H3K9me3 or H3K27me3 marks using the KRAB-dCas9 system, (2) perform ChIP-ISO with sequences integrated into a heterochromatic locus (if feasible), or (3) temper the conclusion to state that chromatin context plays a minor role at the loci tested, rather than making a general claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / data interpretation
+  - **Claim pointer** The authors claim that "AP-1 is partially responsible for differential binding of FOXA1 in different cell types."
+  - **Evidence pointer** Figure 7a–e, Extended Data Figure 9a–b
+  - **Concern** The evidence for this claim is correlative. The authors show that AP-1 expression is higher in A549 cells and that A549-specific FOXA1 peaks are enriched for AP-1 motifs. However, they do not directly test whether manipulating AP-1 levels in HepG2 or MCF-7 cells would alter FOXA1 binding. The A-FOS experiment was performed in A549 cells, which have high AP-1 expression, and it is not clear whether the results would generalize to other cell types. The neural network analysis (Figure 7e) is also correlative.
+  - **Why it matters** The claim that AP-1 contributes to cell-type-specific FOXA1 binding is interesting but requires direct experimental support. Without it, the conclusion remains speculative.
+  - **Resolution test** The authors should: (1) overexpress AP-1 in HepG2 or MCF-7 cells and test whether FOXA1 binding increases at AP-1-containing sites, or (2) knock down AP-1 in A549 cells and test whether FOXA1 binding decreases at AP-1-containing sites (the A-FOS experiment partially addresses this, but it is not linked to cell-type specificity).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / data interpretation
+  - **Claim pointer** The authors claim that "FOXA1 and AP-1 show binding cooperativity in vitro" and that this cooperativity can occur "even in the absence of one factor's motif."
+  - **Evidence pointer** Figure 5f–i
+  - **Concern** The EMSA experiments show that AP-1 enhances FOXA1 binding and vice versa, but the quantification is based on band intensities from a small number of gels. The authors do not report the number of independent replicates or the statistical significance of the observed enhancement. The claim that cooperativity occurs "even in the absence of one factor's motif" is based on experiments where the motif is mutated, but the authors do not rule out the possibility that the mutated sequence still retains partial binding affinity or that the observed effect is due to non-specific protein-DNA interactions.
+  - **Why it matters** The in vitro cooperativity is a key mechanistic finding. If the quantification is not robust, the conclusion is weakened.
+  - **Resolution test** The authors should provide: (1) the number of independent replicates for each EMSA condition, (2) statistical analysis of the band intensity differences, and (3) control experiments with a non-specific DNA-binding protein to rule out non-specific effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods, ChIP-ISO data analysis
+  - **Evidence pointer** Methods section, "Sequencing Data Analysis for ChIP-ISO"
+  - **Issue** The description of the ChIP-ISO data analysis pipeline is incomplete. The authors state that reads were filtered, aligned, and counted, but they do not specify the exact parameters used for read filtering (e.g., quality thresholds), the alignment settings, or how multi-mapping reads were handled. The normalization procedure is described as dividing by total reads, but it is unclear whether this was done per sample or per library.
+  - **Required correction** Provide a more detailed description of the bioinformatics pipeline, including software versions, parameters, and any filtering thresholds. This is essential for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 2f
+  - **Evidence pointer** Figure 2f
+  - **Issue** The correlation analysis between ChIP-ISO signal and motif score is presented, but the correlation coefficient and p-value are not reported in the text. The reader cannot assess the strength of the relationship.
+  - **Required correction** Report the correlation coefficient and p-value in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 3b
+  - **Evidence pointer** Figure 3b
+  - **Issue** The classification of FOXA1 binding sites into "strong" and "weak" motif score categories is not clearly defined. The thresholds for these categories are not stated.
+  - **Required correction** Define the motif score thresholds used to classify sites into strong and weak categories.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 4j
+  - **Evidence pointer** Figure 4j
+  - **Issue** The RNA-seq analysis shows that genes near lost peaks are downregulated, but the statistical significance of this enrichment is not reported. The number of genes in each category is also not stated.
+  - **Required correction** Report the statistical test used and the p-value for the enrichment analysis, as well as the number of genes in each category.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 6h
+  - **Evidence pointer** Figure 6h
+  - **Issue** The Bichrom neural network performance is shown, but the metric used (AUPRC or AUROC) is not specified. The improvement from adding ATAC-seq is stated but not quantified.
+  - **Required correction** Specify the performance metric and report the numerical values for each model.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 7e
+  - **Evidence pointer** Figure 7e
+  - **Issue** The TF-MoDISco motif analysis is described, but the significance of the identified motifs is not reported. The reader cannot assess whether the motifs are statistically enriched.
+  - **Required correction** Report the significance scores for the identified motifs.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Methods, "Cell Type-Specific FOXA1 and AP-1 Motifs, Binding, and Expression"
+  - **Evidence pointer** Methods section
+  - **Issue** The edgeR analysis for differential binding is described, but the exact model formula and the threshold for significance are not stated.
+  - **Required correction** Provide the edgeR model formula and the significance threshold used.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 5b
+  - **Evidence pointer** Figure 5b
+  - **Issue** The Hill equation fit is described, but the goodness of fit (R²) is not reported. The reader cannot assess how well the model fits the data.
+  - **Required correction** Report the R² values for the Hill equation fits.
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 1c
+  - **Evidence pointer** Figure 1c
+  - **Issue** The bimodal distribution of ChIP-ISO signals is shown, but the separation between the two modes is not quantified. The authors state that 56.3% of sequences are in the lower peak, but the threshold separating the peaks is not defined.
+  - **Required correction** Define the threshold used to separate the two modes and report the proportion of sequences in each mode.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Clarity / data presentation
+  - **Affected element** Figure 2g
+  - **Evidence pointer** Figure 2g
+  - **Issue** The distance-dependence experiment is described, but the exact distances tested and the number of sequences at each distance are not reported.
+  - **Required correction** Report the distances tested and the number of sequences at each distance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (threshold definition), R1-M2 (chromatin context conclusion), R1-M3 (cell-type specificity claim), R1-M4 (in vitro cooperativity quantification). These are the primary technical issues that must be resolved.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The ChIP-ISO approach is novel and represents a methodological advance. The finding of FOXA1-AP-1 cooperativity is not entirely unexpected given prior literature, but the systematic dissection is original.
+  - **Scientific importance** High. Understanding pioneer factor binding specificity is a fundamental question in gene regulation. The potential role of AP-1 in directing FOXA1 binding has implications for many biological contexts.
+  - **Interdisciplinary readership** Moderate. The work will primarily appeal to molecular biologists, genomicists, and computational biologists. The methodological aspects may attract a broader audience.
+  - **Technical soundness** Moderate. The core assay is well-designed, but several technical details (thresholds, quantification, statistical reporting) are incomplete. The chromatin context conclusion is not fully supported by the experimental design.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written and the logic is easy to follow. The figures are well-referenced in the text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the manuscript requires substantial revisions to address the technical concerns outlined above. The authors should provide clearer definitions of thresholds, more robust statistical reporting, and additional experiments to support the chromatin context and cell-type specificity claims.
+
+## Risk / unsupported claims
+- The claim that "FOXA1 binding is mostly determined by the local sequence, not the chromatin context" is not fully supported by the experimental design, as the AAVS1 integration site is euchromatic and the KRAB-dCas9 experiment was performed at a single locus.
+- The claim that "AP-1 is partially responsible for differential binding of FOXA1 in different cell types" is correlative and lacks direct experimental manipulation in the relevant cell types.
+- The claim that FOXA1 and AP-1 show "binding cooperativity in vitro" is based on limited quantification without reported statistical significance.
+- The statement that "AP-1 and CEBPB are the main co-factors" is based on the limited set of TFs tested in the mutational analysis; other untested TFs may also contribute.
+- The neural network analysis is described as supporting the findings, but the performance metrics and feature attribution results are not fully reported, making it difficult to assess the strength of this support.

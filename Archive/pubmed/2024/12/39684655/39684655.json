@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "39684655",
+    "doi": "10.3390/ijms252312944",
+    "title": "Advanced PROTAC and Quantitative Proteomics Strategy Reveals Bax Inhibitor-1 as a Critical Target of Icaritin in Burkitt Lymphoma."
+  },
+  "content": {
+    "abstract": "Understanding the molecular targets of natural products is crucial for elucidating their mechanisms of action, mitigating toxicity, and uncovering potential therapeutic pathways. Icaritin (ICT), a bioactive flavonoid, demonstrates significant anti-tumor activity but lacks defined molecular targets. This study employs an advanced strategy integrating proteolysis targeting chimera (PROTAC) technology with quantitative proteomics to identify ICT's key targets. A library of 22 ICT-based PROTAC derivatives were synthesized, among which LJ-41 exhibited a superior IC50 of 5.52 muM against Burkitt lymphoma (CA-46) cells. Then, differential proteomic analysis identified Bax inhibitor-1 (BI-1) as a potential target. Target validation techniques, including cellular thermal shift assay (CETSA), drug affinity responsive target stability (DARTS) assay, surface plasmon resonance (SPR) assay, and molecular docking, confirmed LJ-41's high specificity for BI-1. Mechanistic investigations revealed that LJ-41 induces apoptosis through BI-1 degradation, triggering endoplasmic reticulum stress and activating inositol-requiring enzyme 1 alpha (IRE1alpha), activating transcription factor 6 (ATF6), and nuclear factor erythroid 2-related factor transcription factor heme oxygenase 1 (NRF2-HO-1) signaling pathways. This study establishes a refined methodological framework for natural product target discovery and highlights ICT-PROTAC derivatives' potential for clinical application in Burkitt lymphoma treatment.",
+    "keywords": [
+      "PROTACs",
+      "anti-tumor",
+      "icaritin",
+      "mechanism of action",
+      "quantitative proteomics",
+      "target identification"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Burkitt Lymphoma/drug therapy/metabolism/pathology",
+      "*Proteomics/methods",
+      "*Flavonoids/pharmacology/chemistry",
+      "Cell Line, Tumor",
+      "*Proteolysis/drug effects",
+      "*Apoptosis/drug effects",
+      "Molecular Docking Simulation",
+      "Apoptosis Regulatory Proteins/metabolism",
+      "Membrane Proteins/metabolism",
+      "Endoplasmic Reticulum Stress/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Peixi",
+        "Zhang, Ziqing",
+        "Li, Jie",
+        "Xu, Meng",
+        "Lu, Weiming",
+        "Chen, Ming",
+        "Shi, Jiaqi",
+        "Wang, Qiaolai",
+        "Zhang, Hengyuan",
+        "Huang, Shi",
+        "Lian, Chenlei",
+        "Liu, Jia",
+        "Ma, Junjie",
+        "Liu, Jieqing"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Zhang Z",
+        "Li J",
+        "Xu M",
+        "Lu W",
+        "Chen M",
+        "Shi J",
+        "Wang Q",
+        "Zhang H",
+        "Huang S",
+        "Lian C",
+        "Liu J",
+        "Ma J",
+        "Liu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5844-9984"
+      ],
+      "affiliations": [
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China.",
+        "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Peixi",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziqing",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jie",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Meng",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Weiming",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ming",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jiaqi",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiaolai",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hengyuan",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shi",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Chenlei",
+        "short_name": "Lian C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jia",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Junjie",
+        "short_name": "Ma J",
+        "identifiers": [
+          "0000-0001-5844-9984"
+        ],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jieqing",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Huaqiao University, Quanzhou 362021, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Dec 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/17 11:48",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "42505382",
+      "41481115",
+      "41462623"
+    ],
+    "refs": [
+      "38079237",
+      "37670499",
+      "37552639",
+      "36386476",
+      "36075213",
+      "35530162",
+      "35519875",
+      "34540000",
+      "33838681",
+      "33805302",
+      "33765973",
+      "33717093",
+      "33510482",
+      "33046976",
+      "32714426",
+      "32382339",
+      "32256768",
+      "32196590",
+      "32188241",
+      "31813613",
+      "31505198",
+      "31032347",
+      "30990042",
+      "30203425",
+      "29625382",
+      "29129718",
+      "29129717",
+      "28529129",
+      "28260001",
+      "27576594",
+      "26900761",
+      "26364662",
+      "25973025",
+      "22952579",
+      "22230367",
+      "21545297",
+      "21262377",
+      "20689760",
+      "20560114",
+      "20380707",
+      "19996103",
+      "19579059",
+      "19339548",
+      "19328063",
+      "18299329",
+      "17526500",
+      "16953201",
+      "16353209",
+      "16353131",
+      "12875974"
+    ],
+    "similar": [
+      "39684655",
+      "24895574",
+      "37913903",
+      "39265205",
+      "32654377",
+      "32403276",
+      "29457838",
+      "39427519",
+      "40333582",
+      "39126925",
+      "27473774",
+      "30119230",
+      "28619753",
+      "27059255",
+      "40188374",
+      "34768836",
+      "25155625",
+      "23850759",
+      "29684682",
+      "39094275",
+      "29901626",
+      "17526500",
+      "26493719",
+      "34048672",
+      "32432943",
+      "39591691",
+      "22131152",
+      "40012358",
+      "27785700",
+      "38377822",
+      "31936679",
+      "25573101",
+      "38994620",
+      "28663582",
+      "40308579",
+      "40339473",
+      "37903331",
+      "31472681",
+      "25984893",
+      "32013807",
+      "38955003",
+      "35597499",
+      "27224241",
+      "34589395",
+      "37924709",
+      "38818648",
+      "39953061",
+      "38581732",
+      "39423771",
+      "33773286",
+      "40037026",
+      "39041158",
+      "40072647",
+      "38664976",
+      "23525267",
+      "29381485",
+      "32404196",
+      "29802332",
+      "40118821",
+      "36745506",
+      "30422313",
+      "38104880",
+      "32437694",
+      "28672279",
+      "39863224",
+      "36734633",
+      "23620411",
+      "37067261",
+      "24724981",
+      "34624079",
+      "34644502",
+      "21445457",
+      "27894666",
+      "23533616",
+      "28628644",
+      "37393376",
+      "32106370",
+      "38759458",
+      "26636537",
+      "36628851",
+      "37846690",
+      "33038355",
+      "26018731",
+      "12881711",
+      "22607709",
+      "29407771",
+      "39978737",
+      "33214335",
+      "38913763",
+      "24180212",
+      "39989026",
+      "21726622",
+      "39423479",
+      "28181380",
+      "25609920",
+      "35184563",
+      "25908644",
+      "33670716",
+      "40223615",
+      "39914223"
+    ],
+    "review": [
+      "39684655",
+      "40188374",
+      "23850759",
+      "39591691",
+      "34589395",
+      "37924709",
+      "32404196"
+    ],
+    "pmc": [
+      "11641208"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms252312944",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39684655/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

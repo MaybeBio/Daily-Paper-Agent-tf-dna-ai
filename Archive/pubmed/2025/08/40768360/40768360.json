@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "40768360",
+    "doi": "10.1073/pnas.2511012122",
+    "title": "Structural insights into proteolysis-dependent and -independent suppression of the master regulator DELLA by the gibberellin receptor."
+  },
+  "content": {
+    "abstract": "The perception of the phytohormone gibberellin (GA) by its nuclear receptor GIBBERELLIN INSENSITIVE DWARF1 (GID1) triggers polyubiquitination and proteasomal degradation of master growth regulators-DELLA proteins-mediated by the SCF(SLY1/GID2) E3 ubiquitin ligase complex. DELLA-encoding genes are known as 'Green Revolution' genes, as their dominant mutations lead to semidwarf cereal varieties with significantly higher yields due to reduced GA response. DELLAs function as central signaling hubs, coordinating diverse physiological responses by interacting with key transcription factors across multiple cellular pathways. While the DELLA domain mediates GA-GID1 binding, the mechanism of SCF(SLY1/GID2) recruitment remained unknown. Additionally, GA-GID1 binding can inhibit DELLA protein activity independently of its proteolysis, although the underlying mechanism was unclear. Here, we present the cryo-EM structures of GA(3)-GID1A complexed with a full-length DELLA protein in Arabidopsis, RGA (REPRESSOR OF ga1-3), and the GA(3)-GID1A-RGA-SLY1-ASK1 complex. We show that the DELLA domain of RGA functions as a molecular bridge to enhance its GRAS domain binding to GID1A through direct interactions with both the GRAS domain and GID1A. Disrupting either intramolecular (DELLA-GRAS) or intermolecular (GRAS-GID1A) interactions weakens RGA-GID1 binding. Contrary to prior models, SLY1 binds the GRAS domain's concave surface without inducing conformational changes. Combining AlphaFold modeling and yeast three-hybrid assays, we demonstrate that GID1 binding to the RGA GRAS domain blocks its interactions with INDETERMINATE DOMAIN (IDD) transcription factors, explaining how GA-GID1 relieves growth suppression independently of DELLA degradation.",
+    "keywords": [
+      "DELLA",
+      "gibberellin receptor",
+      "gibberellin signaling"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis Proteins/metabolism/chemistry/genetics",
+      "Proteolysis",
+      "*Gibberellins/metabolism",
+      "*Arabidopsis/metabolism/genetics",
+      "Protein Binding",
+      "Cryoelectron Microscopy",
+      "*Receptors, Cell Surface/metabolism/chemistry/genetics",
+      "Plant Growth Regulators/metabolism",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dahal, Pawan",
+        "Wang, Yan",
+        "Hu, Jianhong",
+        "Park, Jeongmoo",
+        "Forker, Karly",
+        "Zhang, Zhong-Lin",
+        "Sharma, Kedar",
+        "Borgnia, Mario J",
+        "Sun, Tai-Ping",
+        "Zhou, Pei"
+      ],
+      "short_names": [
+        "Dahal P",
+        "Wang Y",
+        "Hu J",
+        "Park J",
+        "Forker K",
+        "Zhang ZL",
+        "Sharma K",
+        "Borgnia MJ",
+        "Sun TP",
+        "Zhou P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3262-9930",
+        "ORCID: 0000-0001-9159-1413",
+        "ORCID: 0000-0002-7823-3416"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, NC 27709.",
+        "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, NC 27709.",
+        "Department of Biology, Duke University, Durham, NC 27708.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dahal, Pawan",
+        "short_name": "Dahal P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710.",
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0003-3262-9930"
+        ],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Hu, Jianhong",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Park, Jeongmoo",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Forker, Karly",
+        "short_name": "Forker K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhong-Lin",
+        "short_name": "Zhang ZL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Sharma, Kedar",
+        "short_name": "Sharma K",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, NC 27709."
+        ]
+      },
+      {
+        "full_name": "Borgnia, Mario J",
+        "short_name": "Borgnia MJ",
+        "identifiers": [
+          "0000-0001-9159-1413"
+        ],
+        "affiliations": [
+          "Genome Integrity and Structural Biology Laboratory, National Institute of Environmental Health Sciences, Research Triangle Park, NC 27709."
+        ]
+      },
+      {
+        "full_name": "Sun, Tai-Ping",
+        "short_name": "Sun TP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC 27708."
+        ]
+      },
+      {
+        "full_name": "Zhou, Pei",
+        "short_name": "Zhou P",
+        "identifiers": [
+          "0000-0002-7823-3416"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Aug 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/06 18:29",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42673446",
+      "42393083",
+      "42346381",
+      "42329538",
+      "42282619",
+      "42197586",
+      "42197580",
+      "42010839",
+      "41721881",
+      "41629528",
+      "40892932"
+    ],
+    "refs": [
+      "40542507",
+      "39966013",
+      "39621537",
+      "38718835",
+      "38290048",
+      "37903985",
+      "36941311",
+      "35545668",
+      "34267316",
+      "32060178",
+      "31591578",
+      "31075826",
+      "30008445",
+      "29872004",
+      "28843766",
+      "28211915",
+      "28165473",
+      "27081181",
+      "26773002",
+      "25035403",
+      "24821766",
+      "20716699",
+      "19717618",
+      "19363495",
+      "19037316",
+      "19037309",
+      "18827182",
+      "18827181",
+      "18310462",
+      "18216857",
+      "18216856",
+      "17933900",
+      "17644730",
+      "17521411",
+      "17472566",
+      "17416730",
+      "17194763",
+      "16193045",
+      "15734906",
+      "15572765",
+      "15161962",
+      "15155881",
+      "12724538",
+      "12649483",
+      "12297643",
+      "12169662",
+      "11449051",
+      "11099048",
+      "10341448",
+      "9490740",
+      "9389651"
+    ],
+    "similar": [
+      "40768360",
+      "40542507",
+      "18827182",
+      "17194763",
+      "15155881",
+      "23818171",
+      "21163960",
+      "24521922",
+      "19037309",
+      "24961590",
+      "26237582",
+      "33474657",
+      "23893173",
+      "21323638",
+      "29042542",
+      "20716699",
+      "17416730",
+      "22523240",
+      "15308775",
+      "17965273",
+      "24434138",
+      "26136598",
+      "34046684",
+      "37537399",
+      "39227587",
+      "25761145",
+      "25763707",
+      "17472566",
+      "17627823",
+      "18337155",
+      "15173565",
+      "21549956",
+      "21098733",
+      "26773002",
+      "28628628",
+      "26008766",
+      "23064323",
+      "18703407",
+      "34778751",
+      "23765254",
+      "30668817",
+      "20103592",
+      "25056926",
+      "21778177",
+      "23482857",
+      "29192140",
+      "17644730",
+      "12724538",
+      "32471952",
+      "22429711",
+      "23525744",
+      "42673446",
+      "21245327",
+      "25104541",
+      "36199245",
+      "31076539",
+      "28093630",
+      "36149293",
+      "11826301",
+      "41615756",
+      "33971366",
+      "27899534",
+      "12492836",
+      "41578857",
+      "18077204",
+      "24322346",
+      "25511432",
+      "38315261",
+      "19470587",
+      "30531945",
+      "23033541",
+      "35172001",
+      "37047773",
+      "22529386",
+      "28076366",
+      "26927225",
+      "24821766",
+      "41108080",
+      "32498388",
+      "17142481",
+      "18502975",
+      "20851040",
+      "15161962",
+      "18936962",
+      "20844019",
+      "11449051",
+      "20083325",
+      "21933120",
+      "37403377",
+      "22010107",
+      "17933900",
+      "25035403",
+      "25010794",
+      "37873288",
+      "17932308",
+      "19228341",
+      "18827181",
+      "16709201",
+      "38928464",
+      "17384169"
+    ],
+    "review": [
+      "40768360",
+      "25763707",
+      "17472566",
+      "18337155",
+      "21549956",
+      "18703407",
+      "23525744",
+      "18077204",
+      "24322346",
+      "19470587",
+      "26927225",
+      "20851040",
+      "18936962"
+    ],
+    "pmc": [
+      "12358861"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2511012122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40768360/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-849",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

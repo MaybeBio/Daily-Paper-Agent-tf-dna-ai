@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the discovery of a novel small molecule, Cpd39, identified through docking-based virtual screening targeting the androgen receptor DNA binding domain. They claim Cpd39 blocks AR DBD binding to DNA, inhibits AR transcriptional activity, suppresses proliferation of multiple prostate cancer cell lines, reduces expression of AR and AR-V7 regulated genes, and exhibits safety, positioning it as a starting point for castration-resistant prostate cancer therapeutics.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological specifics provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, compound characterization data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to targeting the AR DBD as a strategy to overcome resistance to LBD-directed antagonists. The identification of a new chemical scaffold is noteworthy given the stated limitation of existing hits. However, the abstract provides insufficient experimental detail to evaluate the robustness of the claims. Key quantitative outcomes, assay conditions, selectivity data, and mechanistic evidence are absent. The claim that Cpd39 is "safe" is particularly unsupported without in vivo or comprehensive toxicity data. The work may be of interest to the prostate cancer and drug discovery communities, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in prostate cancer biology and therapeutics, medicinal chemists focused on nuclear receptor targeting, and investigators studying AR splice variants and resistance mechanisms. The potential for a new scaffold targeting the DBD could interest those seeking alternatives to LBD antagonists.
+- **Major strengths** The strategic rationale is clear and clinically relevant, addressing a known gap in AR-targeted therapy. The use of structure-based virtual screening is appropriate for the goal. The inclusion of AR-V7 activity is a strength, as this variant is clinically important in resistance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Cpd39 was competent to block the binding of AR DBD to DNA and showed decent potency against AR transcriptional activity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as IC50 values, binding affinities, or assay endpoints, to support the claims of blocking and potency. The term "decent potency" is vague and non-quantitative.
+  - **Why it matters** Without numerical data, the reader cannot assess whether the potency is meaningful compared to existing compounds or whether the effect is specific. This is central to the paper's contribution.
+  - **Resolution test** Provide specific IC50 or EC50 values, with confidence intervals, for DBD-DNA binding inhibition and AR transcriptional activity, along with appropriate positive and negative controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Selectivity and specificity
+  - **Claim pointer** "Cpd39 was safe and capable of effectively inhibiting the proliferation of PCa cell lines (i.e., LNCaP, PC3, DU145, and 22RV1)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims safety and efficacy across four cell lines but provides no data on selectivity against non-cancerous cells, no dose-response information, and no statistical comparisons. The mechanism of proliferation inhibition is not established, and off-target effects are not addressed.
+  - **Why it matters** Safety claims require rigorous toxicological assessment. Efficacy in cell lines without selectivity data does not support a therapeutic starting point. The absence of mechanistic linkage between DBD blockade and anti-proliferative effects weakens the central hypothesis.
+  - **Resolution test** Include cytotoxicity data on non-malignant cell lines, dose-response curves with IC50 values for each PCa line, and experiments linking AR DBD inhibition to the observed phenotypic effects, such as rescue experiments or AR knockdown controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** "reducing the expression of the genes regulated by not only the full-length AR but also the splice variant AR-V7"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that Cpd39 reduces expression of AR-regulated genes, including those regulated by AR-V7, but provides no gene names, no expression data, and no experimental context. The mechanism by which a DBD binder would affect AR-V7, which lacks the LBD, is not explained.
+  - **Why it matters** This is a key differentiator from existing therapies. Without specific gene targets and validation of AR-V7 selectivity, the claim is unsubstantiated and the novelty is not established.
+  - **Resolution test** Provide a list of genes assayed, with fold changes and statistical significance, and demonstrate that the effect is dependent on AR DBD binding, for example through mutagenesis or competition experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound naming
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The compound is referred to as "2-(2-butyl-1,3-dioxoisoindoline-5-carboxamido)−4,5-dimethoxybenzoicacid (Cpd39)" but the chemical name is not formatted consistently and the abbreviation is introduced without a structural figure reference.
+  - **Required correction** Provide a clear chemical structure in the main text or supplementary, and ensure the name is formatted according to standard chemical nomenclature conventions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Virtual screening details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "integrated docking-based virtual screening" but does not describe the docking software, scoring functions, or the size and diversity of the screened library.
+  - **Required correction** Include brief methodological details in the abstract or refer to a methods section that specifies these parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Safe" claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "safe" is used without defining the context, such as in vitro cytotoxicity thresholds or in vivo tolerability.
+  - **Required correction** Replace "safe" with a specific statement about the assays performed, such as "showed no significant cytotoxicity in non-tumorigenic cells up to X concentration."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, selectivity evidence, and mechanistic validation means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The targeting of AR DBD is not entirely new, but the identification of a new scaffold is a modest advance. The abstract does not demonstrate sufficient novelty beyond this.
+  - Scientific importance: The clinical relevance is high, but the evidence presented is too preliminary to establish importance.
+  - Interdisciplinary readership: The topic bridges cancer biology and medicinal chemistry, but the abstract lacks the detail needed to engage a broad audience.
+  - Technical soundness: Cannot be assessed from the abstract alone; the lack of methods and data is a major limitation.
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon without explanation, and the significance of the findings is not made accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests potential, but the lack of quantitative and mechanistic data prevents a supportive recommendation. The authors should provide the full manuscript with detailed experimental results for a proper evaluation.
+
+## Risk / unsupported claims
+- The claim that Cpd39 is "safe" is unsupported without toxicity data.
+- The claim of "decent potency" is unsupported without numerical values.
+- The claim of reducing AR-V7 regulated gene expression is unsupported without specific gene data.
+- The claim that Cpd39 "could serve as a starting point" is speculative without in vivo or pharmacokinetic data.
+- The overall efficacy across four cell lines is unquantified and lacks statistical context.

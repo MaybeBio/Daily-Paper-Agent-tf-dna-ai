@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or supplementary figures were available for inspection
+- **Shared manuscript claim summary** The authors report that the catalytic domain of mammalian TET enzymes exhibits pronounced sequence specificity, favoring CG dinucleotides embedded within bHLH and bZIP transcription factor binding sites (up to 250-fold preference in vitro). They provide structural and computational evidence for the mechanistic basis of this preference and demonstrate its physiological relevance in cell culture and in vivo datasets.
+- **Visible evidence base** In vitro activity assays with methylated DNA libraries; LC-MS validation; X-ray crystallography of hTET2 with favorable and unfavorable substrates; MD simulations; cell culture experiments with inducible TET3 catalytic domain expression in TET-triple-knockout mESCs; ACE-seq and WGBS analyses; reanalysis of published datasets
+- **Missing materials affecting confidence** Supplementary figures (figs. S1–S8), supplementary tables (tables S1–S2), crystallographic data and refinement statistics, raw sequencing data, and code were not available for review. Statistical details for several comparisons (e.g., correlation analyses in Fig. 6) are not fully described in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially important finding: the TET catalytic domain itself, rather than only auxiliary targeting domains, contributes to sequence-selective DNA demethylation. The combination of biochemical, structural, computational, and cellular approaches is commendable and generally well integrated. The claim of up to 250-fold sequence preference is striking and, if fully supported, would represent a significant advance in understanding TET biology. However, several technical concerns and gaps in the presented evidence limit the strength of the conclusions as currently stated. The structural basis for the observed preference is described qualitatively, and the link between in vitro preferences and in vivo demethylation patterns, while correlative, requires more rigorous statistical treatment and consideration of confounding factors.
+- **Who would be interested in the results, and why** Epigeneticists studying DNA methylation dynamics, particularly those focused on active demethylation mechanisms; researchers investigating TET enzyme function in development, pluripotency, and cancer; structural biologists interested in DNA sequence recognition by enzymes; and computational biologists modeling transcription factor binding and methylation dynamics. The proposed connection between TET sequence preferences and immediate-early transcription factor binding sites has broad implications for understanding how demethylation is coordinated with transcriptional responses.
+- **Major strengths** 1) The identification of a pronounced sequence preference for the TET catalytic domain is novel and challenges the prevailing view of TETs as relatively sequence-agnostic enzymes. 2) The multi-technique approach (biochemistry, crystallography, MD simulations, cell culture, and bioinformatics) provides convergent evidence. 3) The demonstration that sequence preferences are conserved across TET paralogs and detectable in multiple in vivo contexts strengthens the physiological relevance. 4) The proposed model linking TET preferences to methylation-sensitive transcription factor binding sites is conceptually appealing and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The authors state that "sequence preference is caused by intrasubstrate interactions and CG flanking sequence indirectly affecting enzyme conformation" and provide crystal structures of hTET2 with favorable and unfavorable substrates.
+  - **Evidence pointer** Results section "Structural basis of TET sequence preference"; figs. S3 and S4; Fig. 3
+  - **Concern** The structural analysis is described only qualitatively in the text. No crystallographic statistics (resolution, R-factors, B-factors, data completeness) are provided in the main text, and the supplementary tables containing this information were not available for review. The claim that the two structures differ in a way that explains the sequence preference requires quantitative comparison (e.g., of local conformational changes, hydrogen bonding patterns, or water-mediated contacts). Furthermore, the authors state that recognition is "indirect, not because of direct discriminating amino acid contacts," which is an unusual mechanism that requires particularly careful structural validation. The MD simulations are mentioned as supporting the crystallographic findings, but no details on simulation length, convergence, or analysis methods are given.
+  - **Why it matters** The structural mechanism is a central pillar of the paper's claim. Without rigorous crystallographic and computational evidence, the mechanistic explanation remains speculative. If the structural interpretation is incorrect or overstated, the overall conclusion about how sequence preference arises would be weakened.
+  - **Resolution test** Provide full crystallographic data and refinement statistics in the main text or supplementary materials. Include a quantitative comparison of the two structures (e.g., RMSD calculations per residue, analysis of conformational differences in the active site and DNA-binding interface). Describe MD simulation parameters, convergence criteria, and how simulations support the structural interpretation. If possible, include mutagenesis experiments that test the proposed mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of in vivo correlations
+  - **Claim pointer** The authors claim that TET sequence preferences "explain the rates of DNA demethylation in TET-rescue experiments in culture and in vivo within the zygote and germ line" and report significant correlations with published datasets.
+  - **Evidence pointer** Results section "TET sequence specificity in culture and in vivo"; Fig. 6, D–F and H–J; fig. S7
+  - **Concern** The correlation analyses between in vitro demethylation velocities and in vivo demethylation rates are reported with r² and P values, but the text does not specify which statistical test was used, whether the data were transformed appropriately, or how multiple testing was handled. More critically, the authors do not appear to have controlled for potential confounding variables such as local chromatin state, nucleosome positioning, transcription factor occupancy, or DNA methylation levels at baseline. The comparison with TET3-KO data (Fig. 6D) is potentially the most informative, but the analysis is not described in sufficient detail to assess its validity. The claim that "all three datasets recapitulated preference for A at −1 and A or T at +1 positions" is based on a qualitative assessment (IMPP) that is not formally tested for statistical significance.
+  - **Why it matters** The physiological relevance of the in vitro findings rests on these correlations. If the statistical approach is flawed or confounding factors are not addressed, the conclusion that TET sequence preference guides cellular function would be overstated.
+  - **Resolution test** Clearly describe the statistical methods used for correlation analyses, including data transformation, multiple testing correction, and sensitivity analyses. Perform analyses that control for potential confounders (e.g., partial correlations adjusting for chromatin state or baseline methylation). Provide formal statistical tests for the IMPP comparisons rather than qualitative descriptions. Consider using permutation-based approaches to assess whether the observed correlations are stronger than expected by chance given the underlying sequence composition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of sequence preference across TET paralogs
+  - **Claim pointer** The authors state that "the mTET1, mTET2, and mTET3 sequence preferences are similar (MCGW), suggesting that the TET sequence preferences may be shared among paralogs."
+  - **Evidence pointer** Results section "Specificity of the TET catalytic domain in vitro"; Fig. 2
+  - **Concern** The data shown in Fig. 2 suggest that mTET2 has a somewhat different preference profile, including activity on 5mCC sites at approximately 50% efficiency, which is not observed for mTET1 or mTET3. The text acknowledges this but does not fully explore its implications. If mTET2 has a broader substrate specificity, the claim of a "shared" preference may be an oversimplification. Additionally, the quantitative comparison between paralogs is based on a limited set of sequences, and the statistical significance of any differences is not reported.
+  - **Why it matters** The degree of conservation of sequence preference among TET paralogs has implications for their distinct biological functions. If mTET2 differs substantially, this could indicate paralog-specific targeting mechanisms that are not captured by the MCGW consensus.
+  - **Resolution test** Perform a more comprehensive comparison of the three TET paralogs using a larger panel of sequences. Report statistical tests for differences in preference profiles. Discuss the functional implications of any paralog-specific differences, particularly for mTET2's activity on non-CG sites.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of in vitro substrate conditions
+  - **Claim pointer** The authors use fully methylated DNA substrates (all cytosines methylated) in their initial screen and then validate with substrates methylated only at CG sites.
+  - **Evidence pointer** Results section "Specificity of the TET catalytic domain in vitro"; Fig. 1; fig. S1
+  - **Concern** The initial screen used fully methylated DNA, which is not a natural substrate for TET enzymes. While the authors address this by showing similar preferences with CG-only methylated substrates (r² = 0.74), the correlation is not perfect, and the text does not discuss which sequences differ between the two conditions. Additionally, the physiological relevance of the in vitro conditions (e.g., salt concentration, pH, presence of cofactors) is not discussed. The authors do not test whether the presence of 5hmC or other oxidized derivatives affects subsequent oxidation events, which could be relevant for processive oxidation.
+  - **Why it matters** The in vitro conditions may not faithfully recapitulate the cellular environment, and the use of non-physiological substrates could introduce artifacts. Understanding the limitations of the in vitro system is important for interpreting the physiological relevance of the findings.
+  - **Resolution test** Discuss the differences between fully methylated and CG-only methylated substrates in more detail. If possible, test the effect of pre-existing oxidized derivatives on TET activity. Consider whether the in vitro conditions are representative of the nuclear environment and discuss any potential limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure descriptions
+  - **Affected element** Fig. 1 and associated text
+  - **Evidence pointer** Results section "Specificity of the TET catalytic domain in vitro"
+  - **Issue** The description of the in vitro screen is somewhat brief. It is not entirely clear how the "250-fold dynamic range" is calculated or how the ranking of sequences was performed. The text mentions "in vitro oxidation velocity" but does not define the units or the time point used for rate calculation.
+  - **Required correction** Provide a more detailed description of the screening methodology, including how oxidation velocities were calculated, how the dynamic range was determined, and how many independent replicates were performed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Sequence motif nomenclature
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The authors use the term "MCGW" to describe the preferred sequence context but do not explicitly define the notation in the main text. The use of "M" and "W" as IUPAC nucleotide codes is standard, but this should be stated for clarity.
+  - **Required correction** Define the IUPAC nucleotide codes used in the manuscript at first mention.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative interpretations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors propose a model where TET sequence preferences are linked to immediate-early transcription factor binding sites, but they do not discuss alternative explanations for the observed correlations. For example, the correlation between TET preference and demethylation rates could be influenced by the base composition of the genome or by the activity of other DNA demethylation pathways.
+  - **Required correction** Add a brief discussion of alternative interpretations and potential confounding factors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data and materials availability section
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The statement lists multiple repositories (GitHub, GEO, Harvard Dataverse) but does not specify which data are available at each location. This makes it difficult for readers to locate specific datasets.
+  - **Required correction** Provide a clear breakdown of which data and code are available at each repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural evidence), R1-M2 (statistical rigor of in vivo correlations). These are the primary technical issues that must be resolved. R1-M3 and R1-M4 are important but less critical.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The finding that TET catalytic domains have intrinsic sequence preference is novel and challenges existing assumptions. The connection to transcription factor binding sites is an original conceptual contribution.
+  - **Scientific importance** High. If confirmed, these findings would significantly advance understanding of how DNA demethylation is targeted and regulated, with implications for development, cellular reprogramming, and cancer biology.
+  - **Interdisciplinary readership** Moderate to high. The work bridges biochemistry, structural biology, epigenetics, and developmental biology. The conceptual framework should be accessible to a broad readership, though some technical aspects may be challenging for non-specialists.
+  - **Technical soundness** Currently not fully established. The biochemical and cell-based experiments appear well designed, but the structural evidence is presented without sufficient quantitative detail, and the statistical treatment of the in vivo correlations is incomplete.
+  - **Readability for nonspecialists** Generally good. The abstract and introduction are clear and accessible. The results section is dense but logically organized. Some figures and statistical analyses would benefit from more explicit explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially important and the multi-technique approach is appropriate. However, the structural mechanism and the statistical basis for the in vivo relevance need to be substantially strengthened before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that sequence preference is "caused by intrasubstrate interactions and CG flanking sequence indirectly affecting enzyme conformation" is not fully supported by the evidence presented, as the structural analysis is described only qualitatively and crystallographic statistics were not available.
+- The claim that TET sequence preferences "explain" demethylation rates in vivo is based on correlative analyses whose statistical rigor could not be fully assessed from the provided text.
+- The statement that "most and least favorable TET motifs represent DNA sites that are bound by methylation-sensitive immediate-early transcription factors and OCT4, respectively" is presented as a functional conclusion, but the evidence is primarily correlative and does not establish causation.
+- The generalizability of the MCGW preference to all TET paralogs is stated as a conclusion, but the data suggest mTET2 may have a broader specificity, and the statistical significance of differences between paralogs is not reported.

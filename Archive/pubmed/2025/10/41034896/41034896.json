@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "41034896",
+    "doi": "10.1186/s12967-025-07042-9",
+    "title": "Unraveling the role of MAG, PTEN, and NOTCH1 in axonal regeneration: a network analysis and molecular dynamics study of siRNA/drugs/nanocarriers interactions."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Axonal regeneration remains a critical yet challenging process in spinal cord injury (SCI) recovery, primarily due to the limited regenerative capacity of adult central nervous system (CNS) axons. Identifying key molecular targets and optimizing therapeutic delivery systems are promising strategies to enhance axonal regeneration. METHODS: In this study, we investigated the roles of three critical proteins-MAG, PTEN, and NOTCH1-in axonal regeneration through an integrative approach combining network analysis and molecular dynamics (MD) simulations. We compiled 361 regeneration-associated genes from the REGene database and a targeted PubMed literature review. Gene ontology enrichment analysis via DAVID identified key genes linked to axonal regeneration and oligodendrocyte differentiation. A protein-protein interaction (PPI) network was constructed to pinpoint hub genes, with Cytoscape used to assess degree, betweenness, and closeness centrality. The top-ranking genes across at least two centrality metrics were selected, and GeneMANIA validated their functional relevance, confirming MAG, PTEN, and NOTCH1 as negative regulators of regeneration. Using siDirect and siRNA Wizard, we designed siRNA molecules targeting these genes, while DGIdb and literature mining identified small-molecule drugs (e.g., GT1b for MAG, enzalutamide for PTEN). MD simulations explored their interactions with polymeric nanocarriers-PLGA, PEI, chitosan, and PEI-PEG-revealing distinct binding patterns. RESULTS: All proteins exhibited favorable binding with their respective drugs, with MAG-GT1b demonstrating the strongest affinity ( -146.07 +/- 61.63 kJ/mol). Free energy landscape (FEL) analysis of the MAG/GT1b complex revealed a pronounced global energy minimum at 20.6 kJ/mol, reflecting high-affinity binding. Among nanocarriers, chitosan showed strong siRNA interactions, whereas PLGA and PEI exhibited superior drug-binding properties, particularly for GT1b, as evidenced by lower solvent-accessible surface area (SASA) values, indicating tighter encapsulation. Notably, PLGA-based systems displayed a broader radius of gyration (Rg) distribution, attributed to their amphiphilic nature, which promotes rapid self-assembly into multiple dispersed nanocarriers rather than consolidated structures. Additionally, PLGA chains exhibited reduced average SASA values (40-90 nm(2)) compared to other polymers. CONCLUSIONS: The strongest siRNA interactions occurred between PTEN siRNA-enzalutamide and PLGA ( -107.31 kJ/mol) or PEI ( -87.15 kJ/mol), primarily driven by van der Waals forces. While these in silico findings are promising, preclinical validation is essential for clinical translation. This study highlights the potential of combining network analysis and MD simulations to decipher complex interactions among proteins, siRNA, drugs, and polymers, offering novel insights into therapeutic strategies for SCI.",
+    "keywords": [
+      "Drug delivery",
+      "Nanocarriers",
+      "Nervous system regeneration",
+      "Spinal cord injury recovery",
+      "siRNA delivery"
+    ],
+    "mesh_terms": [
+      "*PTEN Phosphohydrolase/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Receptor, Notch1/metabolism",
+      "*RNA, Small Interfering/metabolism/genetics",
+      "*Axons/metabolism/physiology/drug effects",
+      "Humans",
+      "*Nerve Regeneration/drug effects",
+      "Protein Interaction Maps/genetics",
+      "*Drug Carriers/chemistry/metabolism",
+      "*Nanoparticles/chemistry",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Salimi, Alireza",
+        "Moeinafshar, Aysan",
+        "Rezvantalab, Sima",
+        "Dabiri, Mohammad",
+        "Rezaei, Nima",
+        "Beheshtizadeh, Nima"
+      ],
+      "short_names": [
+        "Salimi A",
+        "Moeinafshar A",
+        "Rezvantalab S",
+        "Dabiri M",
+        "Rezaei N",
+        "Beheshtizadeh N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2621-570X"
+      ],
+      "affiliations": [
+        "Roy J. and Lucille A. Carver College of Medicine, University of Iowa, Iowa City, IA, 52242, USA.",
+        "School of medicine, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Regenerative Medicine Group (REMED), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Chemical Engineering Department, Urmia University of Technology, 57166‑419, Urmia, Iran. s.rezvantalab@uut.ac.ir.",
+        "Department of Molecular Biology, Faculty of Natural Sciences, Comenius University in Bratislava, Ilkovicova 6, 841 04, Bratislava, Slovak Republic.",
+        "Department of Immunology, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Department of Tissue Engineering, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran. n.beheshtizadeh@tbzmed.ac.ir.",
+        "Stem Cell Research Center, Tabriz University of Medical Sciences, Tabriz, Iran. n.beheshtizadeh@tbzmed.ac.ir.",
+        "Tabriz USERN Office, Universal Scientific Education and Research Network (USERN), Tabriz, Iran. n.beheshtizadeh@tbzmed.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Salimi, Alireza",
+        "short_name": "Salimi A",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J. and Lucille A. Carver College of Medicine, University of Iowa, Iowa City, IA, 52242, USA."
+        ]
+      },
+      {
+        "full_name": "Moeinafshar, Aysan",
+        "short_name": "Moeinafshar A",
+        "identifiers": [],
+        "affiliations": [
+          "School of medicine, Tehran University of Medical Sciences, Tehran, Iran.",
+          "Regenerative Medicine Group (REMED), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Rezvantalab, Sima",
+        "short_name": "Rezvantalab S",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Engineering Department, Urmia University of Technology, 57166‑419, Urmia, Iran. s.rezvantalab@uut.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Dabiri, Mohammad",
+        "short_name": "Dabiri M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Faculty of Natural Sciences, Comenius University in Bratislava, Ilkovičova 6, 841 04, Bratislava, Slovak Republic."
+        ]
+      },
+      {
+        "full_name": "Rezaei, Nima",
+        "short_name": "Rezaei N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran.",
+          "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran.",
+          "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Beheshtizadeh, Nima",
+        "short_name": "Beheshtizadeh N",
+        "identifiers": [
+          "0000-0002-2621-570X"
+        ],
+        "affiliations": [
+          "Department of Tissue Engineering, Faculty of Advanced Medical Sciences, Tabriz University of Medical Sciences, Tabriz, Iran. n.beheshtizadeh@tbzmed.ac.ir.",
+          "Stem Cell Research Center, Tabriz University of Medical Sciences, Tabriz, Iran. n.beheshtizadeh@tbzmed.ac.ir.",
+          "Tabriz USERN Office, Universal Scientific Education and Research Network (USERN), Tabriz, Iran. n.beheshtizadeh@tbzmed.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Oct 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 06:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40387620",
+      "40161944",
+      "39910324",
+      "39798472",
+      "38520883",
+      "38291705",
+      "38133064",
+      "37875547",
+      "37850742",
+      "37615316",
+      "37449592",
+      "37437848",
+      "37291669",
+      "36974372",
+      "36841206",
+      "36824656",
+      "36824309",
+      "36030234",
+      "35883679",
+      "35857624",
+      "35705814",
+      "35546109",
+      "35281834",
+      "35023931",
+      "34766160",
+      "34532385",
+      "34472493",
+      "34012965",
+      "33797913",
+      "33584737",
+      "33143194",
+      "33107983",
+      "33066029",
+      "33054757",
+      "32902152",
+      "32889668",
+      "32768564",
+      "32478058",
+      "32399202",
+      "32254952",
+      "32042099",
+      "31881890",
+      "31461324",
+      "31339573",
+      "31158405",
+      "31102606",
+      "30657608",
+      "30145641",
+      "29864281",
+      "29693160",
+      "29616505",
+      "29584585",
+      "29432988",
+      "29171434",
+      "28693322",
+      "28397188",
+      "28259986",
+      "28218913",
+      "27922006",
+      "27713574",
+      "27665601",
+      "27651754",
+      "27375427",
+      "27365453",
+      "27141961",
+      "27092793",
+      "26996961",
+      "26975833",
+      "26896833",
+      "26735861",
+      "26695117",
+      "26678621",
+      "26604800",
+      "26441514",
+      "26391497",
+      "25922572",
+      "25818596",
+      "25344316",
+      "24850022",
+      "24582904",
+      "24582777",
+      "24568455",
+      "24254565",
+      "22326375",
+      "22284182",
+      "20853437",
+      "20576703",
+      "20043028",
+      "19822144",
+      "19264523",
+      "18956012",
+      "18820405",
+      "18599144",
+      "18424795",
+      "18082964",
+      "18001140",
+      "17640868",
+      "17576678",
+      "17432960",
+      "15962507",
+      "12833127",
+      "12734009",
+      "12186854",
+      "12074538",
+      "11807030",
+      "11279053",
+      "10221902",
+      "8744570",
+      "2435742"
+    ],
+    "similar": [
+      "41034896",
+      "42475469",
+      "38919088",
+      "42421348",
+      "37291669",
+      "41711373",
+      "40114577",
+      "40424842",
+      "41318584",
+      "42011130",
+      "41629408",
+      "39251712",
+      "40676786",
+      "36321557",
+      "41331168",
+      "41533020",
+      "41673684",
+      "42118388",
+      "33367790",
+      "40810465",
+      "24068802",
+      "41330962",
+      "40659785",
+      "37507810",
+      "41034905",
+      "25134537",
+      "23912807",
+      "40245961",
+      "40364633",
+      "42332524",
+      "41326554",
+      "28088077",
+      "41579555",
+      "33621609",
+      "41009706",
+      "40216309",
+      "38108042",
+      "42135335",
+      "40543694",
+      "39769245",
+      "41511918",
+      "41324736",
+      "42008967",
+      "41713229",
+      "18940242",
+      "38524085",
+      "39775383",
+      "37948293",
+      "39393663",
+      "41361311",
+      "42070473",
+      "40706551",
+      "34975885",
+      "34759029",
+      "42152976",
+      "40985943",
+      "31325155",
+      "36043390",
+      "41029129",
+      "41630051",
+      "24578546",
+      "41385176",
+      "41483318",
+      "40916281",
+      "25057197",
+      "12815233",
+      "40253433",
+      "41780347",
+      "42205867",
+      "20610765",
+      "41005317",
+      "39914729",
+      "42528928",
+      "41545576",
+      "25981963",
+      "41134838",
+      "41552640",
+      "41044520",
+      "26609164",
+      "24630093",
+      "40231535",
+      "37691428",
+      "41274246",
+      "38904678",
+      "40627944",
+      "36764478",
+      "41557214",
+      "39150631",
+      "39277132",
+      "26873365",
+      "39849508",
+      "42163737",
+      "39310787",
+      "32758133",
+      "37875547",
+      "29468945",
+      "40125411",
+      "41644963",
+      "24816452",
+      "41630303"
+    ],
+    "review": [
+      "41034896",
+      "36321557",
+      "12815233"
+    ],
+    "pmc": [
+      "12487255"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07042-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41034896/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

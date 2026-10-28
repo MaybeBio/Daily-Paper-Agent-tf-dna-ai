@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends referenced but not provided in full)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and structural evidence as presented in the provided text; figures and supplementary materials referenced but not directly examined
+- **Shared manuscript claim summary** The manuscript reports that BCL11B contains a bipartite DNA binding domain comprising two C2H2 zinc finger arrays (ZF2-3 and ZF4-6) that recognize similar six-nucleotide motifs, TG(n)CC(c/t/a), with the two arrays capable of binding DNA in variable orientations, spacings, and positions due to a long flexible linker. The authors present crystal structures of BCL11B ZF2-3 bound to DNA in two opposite orientations, characterize the behavior of disease-associated missense variants, and propose that multivalent binding by clustered motifs enhances regulatory specificity.
+- **Visible evidence base** Text descriptions of X-ray crystallographic structures (six deposited PDB entries), fluorescence polarization binding data, EMSA results, sequence analysis of ENCODE ChIP-seq data, and structural comparisons with BCL11A
+- **Missing materials affecting confidence** Actual figures, supplementary figures, crystallographic tables, and detailed structural coordinates were not provided; quantitative binding parameters (K_D values) are reported in text but without error estimates or replicate information in the visible portion
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally grounded analysis of the DNA binding properties of BCL11B, a transcription factor of considerable biological importance in T-cell development and neurodevelopment. The work extends prior structural studies on BCL11A to BCL11B, revealing that the low-affinity ZF2-3 array can bind DNA in two opposite orientations, and provides a plausible framework for understanding how clustered motifs may be recognized by multivalent binding. The functional relevance of disease-associated variants is addressed through structural reasoning and binding assays. However, the manuscript would benefit from clearer presentation of quantitative binding data, a more direct test of the multivalent binding hypothesis, and a more cautious interpretation of the ChIP-seq motif analysis given the heterologous overexpression system used in the source dataset.
+- **Who would be interested in the results, and why** Structural biologists studying zinc finger DNA recognition; researchers in transcriptional regulation, particularly those studying BCL11 family proteins; clinicians and geneticists interested in the mechanistic basis of BCL11B-associated neurodevelopmental disorders; and investigators working on T-cell development and malignancies where BCL11B plays critical roles.
+- **Major strengths** The manuscript provides novel structural information on BCL11B ZF2-3, a domain previously undercharacterized relative to the high-affinity ZF4-6 array. The observation that the two-finger array can bind in opposite orientations is structurally interesting and potentially relevant to understanding how clustered motifs are engaged. The analysis of disease-associated variants is thoughtful, categorizing mutations by their likely structural and functional consequences. The authors appropriately acknowledge limitations of the ChIP-seq dataset used for motif analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript proposes that "cooperative DNA binding by the ZF tandem arrays of homodimers, or BCL11B-BCL11A heterodimers, may extend the length of the recognized DNA sequence, thereby enhancing the specificity and/or sensitivity of transcriptional regulation."
+  - **Evidence pointer** Results section "BCL11B binds regulatory elements of SHANK3"; Discussion section "Orientation, spacing and positioning of a bipartite DNA binding domain"
+  - **Concern** The central hypothesis of cooperative or multivalent binding by the two ZF arrays is not directly tested. The structural data show that ZF2-3 alone can bind DNA in two orientations, and the EMSA data with the linked construct (ZF2-3-linker-ZF4-6) show a single shifted band on the two-site oligo, which is interpreted as simultaneous binding. However, no quantitative comparison is provided between the linked construct and the individual arrays in terms of affinity, cooperativity, or stoichiometry. The crystallographic evidence for two ZF2-3 molecules on a two-site oligo is presented, but this does not demonstrate that the natural bidentate arrangement occurs with the full-length protein.
+  - **Why it matters** The title and abstract emphasize the bipartite nature of the DNA binding domain and the recognition of clustered motifs. If the two arrays function independently rather than cooperatively, the conceptual advance is more modest. The manuscript currently presents a plausible model without providing decisive experimental evidence for cooperative binding.
+  - **Resolution test** Provide quantitative binding data (e.g., ITC, AUC, or carefully designed EMSA with varying protein:DNA ratios) comparing the linked construct to the individual arrays on both single-site and multi-site DNA substrates. Demonstrate that the linked construct binds multi-site substrates with higher affinity than expected from the sum of individual array affinities, or provide structural evidence of a defined bidentate complex with the natural linker.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of binding data
+  - **Claim pointer** The manuscript reports K_D values for BCL11A and BCL11B ZF arrays (e.g., "ZF4-6 binds with high affinity (K_D = 0.03-0.16 μM), whereas ZF2-3 shows an order of magnitude lower affinity (K_D = 1-3 μM)")
+  - **Evidence pointer** Results section "BCL11B binds the same DNA substrates as BCL11A in vitro"; Figure 2
+  - **Concern** The K_D values are reported as ranges without associated errors, replicate numbers, or information about the fitting model beyond a one-site binding equation. The FP assay is described as unsuitable for the ZF2-3 mutants due to low affinity and aggregation, yet EMSA is used without quantitative analysis. This limits the ability to assess the statistical significance of differences between wild-type and mutant proteins, or between BCL11A and BCL11B.
+  - **Why it matters** The manuscript makes specific claims about relative affinities and the effects of disease-associated mutations. Without error estimates and replicate information, these claims cannot be properly evaluated. The distinction between "reduced binding" and "no change" for specific mutants is central to the interpretation of variant effects.
+  - **Resolution test** Provide K_D values with standard errors from at least three independent experiments, report the number of replicates, and clearly state the statistical tests used to compare conditions. For EMSA data, provide quantitative densitometry with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of ChIP-seq motif analysis
+  - **Claim pointer** The manuscript states that "multiple copies of these homotypic motifs are frequently present within BCL11B binding sites" based on analysis of ENCODE ChIP-seq data from HEK293 cells expressing eGFP-BCL11B.
+  - **Evidence pointer** Results section "BCL11B binds regulatory elements of SHANK3"; Figure 5H
+  - **Concern** The ChIP-seq dataset used (ENCSR770PQN) is from HEK293 cells with ectopic eGFP-BCL11B expression, which the authors acknowledge does not reflect endogenous expression in a physiologically relevant cell type. The motif enrichment analysis identifies clustered TG(n)CC(c/t) motifs, but the statistical framework for assessing clustering (as opposed to individual motif enrichment) is not described in the visible text. The biological relevance of binding sites identified in a heterologous system is unclear.
+  - **Why it matters** The clustered motif observation is used to support the multivalent binding model. If the clustering is not statistically significant relative to genomic background, or if the binding sites are not relevant to endogenous BCL11B function, this support is weakened.
+  - **Resolution test** Provide a clear description of the statistical test used to assess motif clustering, including the background model and significance thresholds. Ideally, validate the clustered motif observation in a more physiologically relevant cell type or with endogenous BCL11B ChIP-seq data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural evidence for the "bipartite" model
+  - **Claim pointer** The manuscript describes the DNA binding domain as "bipartite" and emphasizes the long linker between ZF2-3 and ZF4-6 as providing flexibility for variable engagement.
+  - **Evidence pointer** Results section "BCL11B ZF2-3 in complex with DNA in two opposite orientations"; Figure 3
+  - **Concern** The structural work presented is limited to the ZF2-3 array alone. No structure of the full bipartite domain (ZF2-6) bound to DNA is presented, nor is there structural information on the linker region. The claim that the linker provides flexibility is inferred from sequence composition and the absence of structural data, not demonstrated directly.
+  - **Why it matters** The bipartite nature of the DNA binding domain is central to the manuscript's conceptual framework. Without structural or biophysical evidence on how the two arrays are arranged relative to each other when bound to DNA, the model remains speculative.
+  - **Resolution test** Provide small-angle X-ray scattering (SAXS) data on the full ZF2-6 construct with and without DNA, or a cryo-EM structure of a larger BCL11B fragment bound to a clustered motif DNA, to directly visualize the arrangement of the two arrays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1E (construct schematic)
+  - **Evidence pointer** Methods section "BCL11A and BCL11B plasmid constructs"
+  - **Issue** The construct schematic is referenced but the figure itself was not available for review. The text describes constructs with GST tags and protease cleavage sites, but the domain boundaries and residue numbers for each construct are not stated in the visible text.
+  - **Required correction** Provide a table listing construct names, residue ranges, and tags, either in the main text or as a supplementary table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 4 (mutant binding data)
+  - **Evidence pointer** Results section "Behavior of Missense Variants"
+  - **Issue** The text reports fold-changes in affinity for mutants relative to wild-type (e.g., "N807K showed a ∼2.5X reduction in affinity") but does not state whether these differences are statistically significant or provide confidence intervals.
+  - **Required correction** Add statistical significance indicators to Figure 4 and report confidence intervals or p-values in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of variant analysis
+  - **Affected element** Discussion of disease-associated variants
+  - **Evidence pointer** Results section "Behavior of Missense Variants"; Figure S1
+  - **Issue** The manuscript groups variants into four categories but only experimentally tests a subset (five mutants in ZF2-3 and ZF4-6). The category 1 variants (disrupting zinc-coordinating residues) are not experimentally tested, and the category 2 variants (near the DNA backbone) are mentioned but not included in the experimental analysis.
+  - **Required correction** Clarify which variants were experimentally tested and which were only analyzed structurally. If category 1 and 2 variants were not tested, state this explicitly and discuss the rationale.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion of BCL11A/BCL11B functional differences
+  - **Evidence pointer** Introduction; Discussion
+  - **Issue** The manuscript notes that BCL11A and BCL11B have distinct biological roles despite high sequence similarity in their DNA binding domains, but does not discuss how the observed binding properties might explain functional differences.
+  - **Required correction** Add a brief discussion of how the observed DNA binding characteristics might relate to the distinct biological functions of BCL11A and BCL11B, or explicitly state that the binding properties do not explain the functional divergence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** EMSA conditions
+  - **Evidence pointer** Methods section "Electrophoretic mobility shift assay (EMSA)"
+  - **Issue** The EMSA methods are described in a single sentence without buffer composition, gel percentage, running conditions, or protein:DNA ratios.
+  - **Required correction** Provide complete EMSA conditions including buffer, gel type and percentage, voltage, temperature, and incubation conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cooperative binding not directly tested) is the primary blocking issue. The central claim of the manuscript, as reflected in the title and abstract, is that the bipartite DNA binding domain recognizes clustered motifs. The current evidence supports that individual arrays bind DNA and that a linked construct can occupy two nearby sites, but does not demonstrate cooperativity or a defined bidentate interaction. R1-M2 (quantitative rigor) is also important, as the binding data lack error estimates and statistical analysis.
+
+## Risk / unsupported claims
+- The claim that cooperative binding by the two ZF arrays enhances specificity and/or sensitivity is presented as a proposal but is not experimentally supported by the data shown.
+- The claim that the long linker "provides flexibility" in how the arrays engage DNA is inferred from sequence composition and the absence of structural data, not directly demonstrated.
+- The statement that "seven of the eight DNA base-contacting residues are conserved between" ZF2-3 and ZF4-6 is presented without a sequence alignment figure or explicit residue numbering to allow verification.
+- The biological relevance of the SHANK3 regulatory element binding is suggested but not functionally validated (e.g., no reporter assays or endogenous gene expression analysis).
+- The claim that specific phosphorylation events "may fine-tune Bcl11b activity in a context-dependent manner" is speculative and not directly addressed by experimental data in this study.

@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "42050553",
+    "doi": "10.1186/s12974-026-03806-2",
+    "title": "Glioblastoma radiomics can delineate systemic immune activity states like blood abundance of T cell populations or transcription factors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma, the most frequent and most malign brain cancer, not only cultivates a local immunosuppressive milieu but also causes systemic immunological dynamics. Radiomics is an advanced, automated imaging analysis approach that harnesses data point patterns not readily visible for the human eye. It has been shown that radiomics can differentiate glioblastoma from other tumors, that it can recognize molecular features and that it can identify local immune infiltration in the tumor. However, whether radiomics can also indicate systemic, i.e. peripheral blood, immune states has not been investigated so far. METHODS: Therefore, we retrospectively analyzed magnetic resonance images of a comprehensively immunophenotyped clinical cohort (n = 34) and performed radiomics feature extraction from three morphological segments of the tumor: the necrotic core, the contrast-enhancing margin and the T2/FLAIR hyperintensive peritumoral zone. 321 radiomics dimensions were then integrated with 67 peripheral blood immunology markers (from flow cytometry and PCR). Via machine learning methods like t-SNE dimensionality reduction and hierarchical clustering, as well as regression modelling, we integrated the highly multidimensional data. RESULTS: A radiomics variable of the T2 hyperintensity zone seemed to predict T helper 17 blood levels. Radiomics variables of the necrotic core were apparently correlated with blood immune cell RORgammaT levels and CD15 + myeloid cell abundance. Major immune activation parameters like the number of naive and activated CD8 + T cells, early-differentiated CD8 + T cells, CD56 + natural killer cells or levels of the T helper 1-polarizing transcription factor T-bet could be delineated by integrated multivariable modelling of radiomics features. CONCLUSIONS: In an exploratory study on a modestly-sized but immunologically well-characterized glioblastoma cohort we provide first hypothesis-generating evidence that data-driven radiomics approaches could delineate systemic immune states. In the future, non-invasive, radiomics-based blood immunology prediction could e.g. be helpful for patient stratification or immunotherapy research. Before that, however, additional confirmatory studies are needed given the inherent limitations of this work.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Radiomics",
+      "*Glioblastoma/immunology/diagnostic imaging/blood/pathology",
+      "*Brain Neoplasms/immunology/diagnostic imaging/blood/pathology",
+      "Female",
+      "Male",
+      "Magnetic Resonance Imaging/methods",
+      "Retrospective Studies",
+      "*Transcription Factors/blood",
+      "Middle Aged",
+      "Aged",
+      "*T-Lymphocytes/immunology/metabolism",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heugenhauser, Johanna",
+        "Visus, Carmen",
+        "Buchroithner, Johanna",
+        "Marosi, Christine",
+        "Rossler, Karl",
+        "Felzmann, Thomas",
+        "Widhalm, Georg",
+        "Iglseder, Sarah",
+        "Nowosielski, Martha",
+        "Erhart, Friedrich"
+      ],
+      "short_names": [
+        "Heugenhauser J",
+        "Visus C",
+        "Buchroithner J",
+        "Marosi C",
+        "Rossler K",
+        "Felzmann T",
+        "Widhalm G",
+        "Iglseder S",
+        "Nowosielski M",
+        "Erhart F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Medical University of Innsbruck, Innsbruck, Austria.",
+        "AOP Orphan Pharmaceuticals GmbH, Vienna, Austria.",
+        "University Clinic for Neurosurgery, Kepler University Hospital, Johannes Kepler University, Linz, Austria.",
+        "Clinical Division of Medical Oncology, Department for Internal Medicine I, Medical University of Vienna, Vienna, Austria.",
+        "Department of Neurosurgery, Medical University of Vienna, Vienna, Austria.",
+        ", Vienna, Austria.",
+        "Department of Neurosurgery, Medical University of Vienna, Vienna, Austria.",
+        "Department of Neurology, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Department of Neurology, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Department of Neurosurgery, Medical University of Vienna, Vienna, Austria. friedrich.erhart@meduniwien.ac.at."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heugenhauser, Johanna",
+        "short_name": "Heugenhauser J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Visus, Carmen",
+        "short_name": "Visus C",
+        "identifiers": [],
+        "affiliations": [
+          "AOP Orphan Pharmaceuticals GmbH, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Buchroithner, Johanna",
+        "short_name": "Buchroithner J",
+        "identifiers": [],
+        "affiliations": [
+          "University Clinic for Neurosurgery, Kepler University Hospital, Johannes Kepler University, Linz, Austria."
+        ]
+      },
+      {
+        "full_name": "Marosi, Christine",
+        "short_name": "Marosi C",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Division of Medical Oncology, Department for Internal Medicine I, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Rössler, Karl",
+        "short_name": "Rössler K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Felzmann, Thomas",
+        "short_name": "Felzmann T",
+        "identifiers": [],
+        "affiliations": [
+          ", Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Widhalm, Georg",
+        "short_name": "Widhalm G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Iglseder, Sarah",
+        "short_name": "Iglseder S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Nowosielski, Martha",
+        "short_name": "Nowosielski M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Erhart, Friedrich",
+        "short_name": "Erhart F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Medical University of Vienna, Vienna, Austria. friedrich.erhart@meduniwien.ac.at."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neuroinflammation"
+    ],
+    "journal_abbrev": [
+      "J Neuroinflammation"
+    ],
+    "pub_date": "2026 Apr 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/29 06:34",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40159380",
+      "39955600",
+      "39605095",
+      "39570554",
+      "39481415",
+      "39481414",
+      "39465401",
+      "39406966",
+      "39269469",
+      "39249499",
+      "38992201",
+      "38937115",
+      "38610968",
+      "38360292",
+      "38279111",
+      "37951483",
+      "37865602",
+      "37827087",
+      "37697867",
+      "37689596",
+      "37660885",
+      "36874083",
+      "36774352",
+      "36263203",
+      "36010891",
+      "35910005",
+      "35881182",
+      "35611269",
+      "35483906",
+      "35326730",
+      "35020109",
+      "34694564",
+      "34591980",
+      "34231927",
+      "34092362",
+      "34041034",
+      "33913492",
+      "33890149",
+      "33253355",
+      "33086550",
+      "32417712",
+      "32144360",
+      "32071302",
+      "31594994",
+      "30518425",
+      "30301187",
+      "29092951",
+      "28791027",
+      "28757603",
+      "28436425",
+      "27803067",
+      "26021566",
+      "25379412",
+      "21979382",
+      "20378467",
+      "19059349",
+      "16616471",
+      "16545965",
+      "16033848",
+      "15847797",
+      "15501092",
+      "12377157",
+      "11516708",
+      "10761931",
+      "9617910"
+    ],
+    "similar": [
+      "42050553",
+      "39605095",
+      "30232517",
+      "41655941",
+      "42288065",
+      "30518425",
+      "40391963",
+      "41402363",
+      "30165233",
+      "42475469",
+      "36453877",
+      "30120041",
+      "37955154",
+      "38485749",
+      "41146428",
+      "31546124",
+      "37495706",
+      "41331644",
+      "39254002",
+      "40244521",
+      "41612348",
+      "42149212",
+      "39733718",
+      "41714223",
+      "41791182",
+      "37985291",
+      "39269469",
+      "32457755",
+      "41239115",
+      "9815731",
+      "33314398",
+      "30847586",
+      "28914549",
+      "40362575",
+      "39179298",
+      "42045591",
+      "40577371",
+      "27778090",
+      "38458887",
+      "32025804",
+      "35177622",
+      "31289886",
+      "33868245",
+      "41044660",
+      "39214103",
+      "40636126",
+      "36896953",
+      "32417712",
+      "30635952",
+      "38896238",
+      "32921406",
+      "41233664",
+      "40280830",
+      "36577183",
+      "30660472",
+      "41233931",
+      "38689115",
+      "31505292",
+      "40436711",
+      "41067858",
+      "32546790",
+      "40596920",
+      "29626238",
+      "21636707",
+      "33535988",
+      "41188258",
+      "39888372",
+      "42138733",
+      "41120521",
+      "36321557",
+      "39150724",
+      "34766380",
+      "21663411",
+      "42495635",
+      "41826987",
+      "38481999",
+      "34103370",
+      "36463703",
+      "39781627",
+      "32171051",
+      "37665391",
+      "38683350",
+      "41619575",
+      "42048772",
+      "36243806",
+      "40890604",
+      "34269536",
+      "41741374",
+      "27942839",
+      "33140187",
+      "34091114",
+      "41135313",
+      "26180083",
+      "39249499",
+      "29564594",
+      "33193316",
+      "41995469",
+      "31053876",
+      "41343123",
+      "9236911"
+    ],
+    "review": [
+      "42050553",
+      "36321557",
+      "39150724"
+    ],
+    "pmc": [
+      "13267358"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jneuroinflammation.biomedcentral.com/articles/10.1186/s12974-026-03806-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42050553/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

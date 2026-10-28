@@ -1,0 +1,481 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.06.692736",
+  "title": "Generative design and construction of functional plasmids with a DNA language model",
+  "doi": "10.64898/2025.12.06.692736",
+  "abstract": "DNA language models offer a new paradigm for sequence design, yet their ability to generate functional genomic sequences remains underexplored. Plasmids act as a good testbed for evaluating DNA language model generation potential due to their simplicity and ease of construction. Here, we develop an end-to-end pipeline for generative design of Escherichia coli plasmid backbones, from large-scale data curation through fine-tuning, sampling, bioinformatic assessment, and candidate selection. A curated plasmid library was assembled from PlasmidScope and Addgene, and PlasmidGPT, a GPT-2-style DNA model, was fine-tuned on these corpora using circular-aware batching and random crops. Generations (1,000 per model) were produced under two prompting strategies: a minimal ATG seed to expose default tendencies, and a GFP cassette to enforce functional context. From 1000 generated synthetic plasmids, 16 candidates survived strict filtering and these were prioritised for wet-lab validation. Three shortlisted plasmids were synthesised and found to be functional, supporting growth, antibiotic resistance, and GFP expression in E. coli . These represent, to our knowledge, the first full AI-generated plasmids to be synthesised and validated in vivo . This work demonstrates that curated fine-tuning and prompt-aware generation enable DNA language models to progress from raw sequence sampling to experimentally testable plasmid designs. The approach offers a foundation for extending DNA design optimisation beyond E. coli , toward broader applications across engineering biology.",
+  "authors": [
+    "Angus G. Cunningham",
+    "Linda Dekker",
+    "Anastasiia Shcherbakova",
+    "Chris P. Barnes"
+  ],
+  "published_date": "2025-12-07",
+  "updated_date": "2025-12-08T12:32:02Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692736",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692736.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2026-08-23T16:31:03Z",
+        "timestamp": 1787502663361,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                7
+              ]
+            ],
+            "date-time": "2025-12-07T00:00:00Z",
+            "timestamp": 1765065600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA language models offer a new paradigm for sequence design, yet their ability to generate functional genomic sequences remains underexplored. Plasmids act as a good testbed for evaluating DNA language model generation potential due to their simplicity and ease of construction. Here, we develop an end-to-end pipeline for generative design of\n                  <jats:italic>Escherichia coli</jats:italic>\n                  plasmid backbones, from large-scale data curation through fine-tuning, sampling, bioinformatic assessment, and candidate selection. A curated plasmid library was assembled from PlasmidScope and Addgene, and PlasmidGPT, a GPT-2-style DNA model, was fine-tuned on these corpora using circular-aware batching and random crops. Generations (1,000 per model) were produced under two prompting strategies: a minimal ATG seed to expose default tendencies, and a GFP cassette to enforce functional context. From 1000 generated synthetic plasmids, 16 candidates survived strict filtering and these were prioritised for wet-lab validation. Three shortlisted plasmids were synthesised and found to be functional, supporting growth, antibiotic resistance, and GFP expression in\n                  <jats:italic>E. coli</jats:italic>\n                  . These represent, to our knowledge, the first full AI-generated plasmids to be synthesised and validated\n                  <jats:italic>in vivo</jats:italic>\n                  . This work demonstrates that curated fine-tuning and prompt-aware generation enable DNA language models to progress from raw sequence sampling to experimentally testable plasmid designs. The approach offers a foundation for extending DNA design optimisation beyond\n                  <jats:italic>E. coli</jats:italic>\n                  , toward broader applications across engineering biology.\n                </jats:p>",
+      "DOI": "10.64898/2025.12.06.692736",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            8
+          ]
+        ],
+        "date-time": "2025-12-08T12:32:02Z",
+        "timestamp": 1765197122000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Generative design and construction of functional plasmids with a DNA language model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Angus G.",
+          "family": "Cunningham",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Linda",
+          "family": "Dekker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anastasiia",
+          "family": "Shcherbakova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9459-1395",
+          "authenticated-orcid": false,
+          "given": "Chris P.",
+          "family": "Barnes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.00020-10"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.62.2.434-464.1998"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku893"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab374"
+        },
+        {
+          "issue": "8",
+          "key": "2025121103150804000_2025.12.06.692736v1.5",
+          "first-page": "e000206",
+          "article-title": "MOB-suite: Software tools for clustering, reconstruction and typing of plasmids from draft assemblies",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "Microbial genomics"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.6",
+          "unstructured": "G. B. LLC, “SnapGene | Software for everyday molecular biology.” https://www.snapgene.com/."
+        },
+        {
+          "issue": "2",
+          "key": "2025121103150804000_2025.12.06.692736v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "682",
+          "DOI": "10.1021/acssynbio.7b00403",
+          "article-title": "SynBioHub: A standards-enabled design repository for synthetic biology",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "ACS synthetic biology"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0904061106"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0016765"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.10",
+          "first-page": "469",
+          "article-title": "“The Standard European Vector Architecture (SEVA) plasmid toolkit,” Methods in Molecular Biology (Clifton",
+          "volume": "1149",
+          "year": "2014",
+          "journal-title": "N.J"
+        },
+        {
+          "issue": "5",
+          "key": "2025121103150804000_2025.12.06.692736v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "649",
+          "DOI": "10.1038/s41396-023-01373-5",
+          "article-title": "Multilayer networks of plasmid genetic similarity reveal potential pathways of gene transmission",
+          "volume": "17",
+          "year": "2023",
+          "journal-title": "The ISME Journal"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.12",
+          "unstructured": "A. Vaswani , N. Shazeer , N. Parmar , J. Uszkoreit , L. Jones , A. N. Gomez , L. Kaiser , and I. Polosukhin , “Attention is all you need,” 2023."
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "“DNABERT: Pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome | Bioinformatics | Oxford Academic.” https://academic.oup.com/bioinformatics/article/37/15/2112/6128680.",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.14",
+          "unstructured": "Z. Zhou , Y. Ji , W. Li , P. Dutta , R. Davuluri , and H. Liu , “DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome,” Mar. 2024."
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.15",
+          "unstructured": "“Nucleotide Transformer: Building and evaluating robust foundation models for human genomics | Nature Methods.” https://www.nature.com/articles/s41592-024-02523-z."
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Zhang , W. Zhang , Y. Zhao , J. Zhang , B. He , C. Qin , and J. Yao , “DNAGPT: A Generalized Pre-trained Tool for Versatile DNA Sequence Analysis Tasks,” Aug. 2023.",
+          "DOI": "10.1101/2023.07.11.548628"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Shao and J. Yan , “A long-context language model for deciphering and generating bacteriophage genomes,” Nature Communications, vol. 15, no. 1, p. 9392, 2024.",
+          "DOI": "10.1038/s41467-024-53759-4"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ado9336"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. Brixi , M. G. Durrant , J. Ku , M. Poli , G. Brockman , D. Chang , G. A. Gonzalez , S. H. King , D. B. Li , and A. T. Merchant , “Genome modeling and design across all domains of life with Evo 2,” bioRxiv, pp. 2025–02, 2025.",
+          "DOI": "10.1101/2025.02.18.638918"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.20",
+          "first-page": "43177",
+          "article-title": "Hyenadna: Long-range genomic sequence modeling at single nucleotide resolution",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. H. King , C. L. Driscoll , D. B. Li , D. Guo , A. T. Merchant , G. Brixi , M. E. Wilkinson , and B. L. Hie , “Generative design of novel bacteriophages with genome language models,” bioRxiv, 2025.",
+          "DOI": "10.1101/2025.09.12.675911"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Shao , “PlasmidGPT: A generative framework for plasmid design and annotation,” bioRxiv, pp. 2024–09, 2024.",
+          "DOI": "10.1101/2024.09.30.615762"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Irvine , J. Arora , J. N. Martinson , J. R. Patel , S. I. Hasham , B. F. Cress , and B. E. Rubin , “Generating functional plasmid origins with OriGen,” bioRxiv, pp. 2025–02, 2025.",
+          "DOI": "10.1101/2025.02.03.636306"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae930"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Hyatt , G.-L. Chen , P. F. LoCascio , M. L. Land , F. W. Larimer , and L. J. Hauser , “Prodigal: Prokaryotic gene recognition and translation initiation site identification,” BMC bioinformatics, vol. 11, no. 1, p. 119, 2010.",
+          "DOI": "10.1186/1471-2105-11-119"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "12728",
+          "DOI": "10.1038/s41598-021-91456-0",
+          "article-title": "AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial resistance, stress response, and virulence",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2009.09.002"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1195"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1189"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1050"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad964"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.1.27"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "483",
+          "DOI": "10.3389/fmicb.2020.00483",
+          "article-title": "Analysis of COMPASS, a new comprehensive plasmid database revealed prevalence of multireplicon and extensive diversity of IncF plasmids",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in microbiology"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. E. Wood , J. Lu , and B. Langmead , “Improved metagenomic analysis with Kraken 2,” Genome biology, vol. 20, no. 1, p. 257, 2019.",
+          "DOI": "10.1186/s13059-019-1891-0"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.277.5331.1453"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.transproceed.2017.12.043"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. G. Kuijpers , D. Solis-Escalante , L. Bosman , M. van den Broek , J. T. Pronk , J.-M. Daran , and P. DaranLapujade , “A versatile, efficient strategy for assembly of multi-fragment expression vectors in Saccharomyces cerevisiae using 60 bp synthetic recombination sequences,” Microbial Cell Factories, vol. 12, p. 47, May 2013.",
+          "DOI": "10.1186/1475-2859-12-47"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.39",
+          "first-page": "001362",
+          "article-title": "A mathematician’s guide to plasmids: An introduction to plasmid biology for modellers",
+          "volume": "169",
+          "year": "2023",
+          "journal-title": "Microbiology"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.plasmid.2008.06.004"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12033-008-9082-3"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1021/acssynbio.5b00124",
+          "article-title": "CIDAR MoClo: Improved MoClo Assembly Standard and New E. coli Part Library Enable Rapid Combinatorial Design for Synthetic and Traditional Biology",
+          "volume": "5",
+          "year": "2016",
+          "journal-title": "ACS Synthetic Biology"
+        },
+        {
+          "key": "2025121103150804000_2025.12.06.692736v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "2258",
+          "DOI": "10.1021/acssynbio.0c00296",
+          "article-title": "FlopR: An Open Source Software Package for Calibration and Normalization of Plate Reader and Flow Cytometry Data",
+          "volume": "9",
+          "year": "2020",
+          "journal-title": "ACS Synthetic Biology"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.06.692736",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            11
+          ]
+        ],
+        "date-time": "2025-12-11T11:15:18Z",
+        "timestamp": 1765451718000
+      },
+      "score": 83.20198,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.06.692736"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.64898/2025.12.06.692736",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

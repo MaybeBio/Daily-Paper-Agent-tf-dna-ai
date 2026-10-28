@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41780474",
+  "title": "Benzo[a]pyrene promotes gastric cancer progression via activation of the Correa cascade through modulation of the STAT3-TP53-MMP9 molecular axis.",
+  "authors": "Tong, Jiajia; Liu, ShiYu; Du, Tingting; Liu, Wangting; Jin, Ziyi; Si, Wenqing; Zhang, Bingqian; Chen, Guangxia",
+  "journal": "Ecotoxicology and environmental safety",
+  "published_date": "2026-03-05",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用网络毒理学、机器学习和MD模拟研究苯并芘经STAT3-TP53-MMP9轴促进胃癌进展，虽含蛋白-DNA相关转录因子STAT3/TP53及分子对接，但核心是蛋白-蛋白互作与疾病机制，非TF-DNA结合建模，方法可迁移性有限。",
+  "abstract": "To investigate the role of Benzo[a]pyrene (BaP) in driving the Correa cascade during gastric cancer development, we employed an integrated strategy combining network toxicology, machine learning, and molecular dynamics (MD) simulations. We identified 301 co-expressed genes spanning the Correa sequence, from chronic inflammation to invasive carcinoma. A protein-protein interaction network was constructed using STRING, and CytoHubba analysis highlighted five hub genes: TNF, IL6, IFNG, IL1B, and STAT3. Using CHEMBL and SUPER-PRED, we predicted 846 potential BaP targets. Intersection with disease-related genes revealed 62 common targets. Among eight candidate hub genes, an integrated Stepglm[both] and Random Forest model identified STAT3, TP53, and MMP9 as core targets. Receiver operating characteristic analysis confirmed their strong diagnostic potential (AUC > 0.78), while SHAP analysis ranked STAT3 as the most influential factor (SHAP = 0.241). Notably, these genes exhibited synergistic expression patterns in tumors (STAT3-TP53: rho = 0.175; STAT3-MMP9: rho = 0.261; TP53-MMP9: rho = 0.216; all P < 0.01) and showed a dose-dependent association with disease progression. Genomic profiling revealed frequent mutations and amplifications in STAT3, TP53, and MMP9, with TP53 exhibiting the highest mutation rate. Analysis using UALCAN demonstrated significant upregulation of their mRNA levels in tumor tissues compared to normal tissues (P < 0.05). Clinically, high STAT3 and TP53 expression correlated with poorer survival, whereas elevated MMP9 levels were associated with improved outcomes. Mechanistic studies, including molecular docking and dynamics simulations, confirmed stable BaP-target interactions (e.g., STAT3 binding energy = -8.285 kcal/mol) mediated by non-covalent interactions, which disrupt the bidirectional STAT3-TP53 regulatory axis (STAT3 --> MDM2  dash, vertical TP53; TP53 --> PIAS3  dash, vertical STAT3). In summary, this study identifies STAT3, TP53, and MMP9 as central mediators of BaP-induced progression along the Correa cascade via a synergistic regulatory network. These findings provide new insights into environmental gastric carcinogenesis and highlight potential therapeutic strategies, including dual STAT3/MDM2 inhibition or MMP9 blockade.",
+  "abstract_zh": "为探究苯并[a]芘（Benzo[a]pyrene, BaP）在胃癌发展过程中驱动Correa级联反应的作用，我们采用了一种整合策略，结合网络毒理学、机器学习和分子动力学（molecular dynamics, MD）模拟。我们识别出301个跨越Correa序列（从慢性炎症到浸润性癌）的共表达基因。利用STRING构建了蛋白质-蛋白质相互作用网络，CytoHubba分析突出了五个枢纽基因：TNF、IL6、IFNG、IL1B和STAT3。通过CHEMBL和SUPER-PRED，我们预测了846个潜在的BaP靶点。与疾病相关基因的交集揭示了62个共同靶点。在八个候选枢纽基因中，整合的Stepglm[both]和随机森林模型确定STAT3、TP53和MMP9为核心靶点。受试者工作特征曲线分析确认了它们强大的诊断潜力（AUC > 0.78），而SHAP分析将STAT3列为最具影响力的因素（SHAP = 0.241）。值得注意的是，这些基因在肿瘤中表现出协同表达模式（STAT3-TP53: rho = 0.175；STAT3-MMP9: rho = 0.261；TP53-MMP9: rho = 0.216；所有P < 0.01），并显示出与疾病进展的剂量依赖性关联。基因组分析揭示了STAT3、TP53和MMP9中的频繁突变和扩增，其中TP53表现出最高的突变率。使用UALCAN的分析显示，与正常组织相比，肿瘤组织中它们的mRNA水平显著上调（P < 0.05）。临床上，高STAT3和TP53表达与较差的生存率相关，而升高的MMP9水平与较好的预后相关。机制研究，包括分子对接和动力学模拟，确认了稳定的BaP-靶点相互作用（例如，STAT3结合能 = -8.285 kcal/mol），由非共价相互作用介导，这些相互作用破坏了双向STAT3-TP53调控轴（STAT3 --> MDM2 虚线，垂直TP53；TP53 --> PIAS3 虚线，垂直STAT3）。总之，本研究确定STAT3、TP53和MMP9为BaP诱导的Correa级联进展的核心介质，通过协同调控网络发挥作用。这些发现为环境性胃癌发生提供了新见解，并强调了潜在的治疗策略，包括双重STAT3/MDM2抑制或MMP9阻断。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41780474/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41780474/",
+  "paper_page_path": "papers/pubmed/41780474/index.html"
+}

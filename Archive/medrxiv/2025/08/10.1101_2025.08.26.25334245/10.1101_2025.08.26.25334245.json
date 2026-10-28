@@ -1,0 +1,393 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.08.26.25334245",
+  "title": "Refining the genetic landscape of anophthalmia and microphthalmia: a comprehensive framework with deep learning and updated gene panels",
+  "doi": "10.1101/2025.08.26.25334245",
+  "abstract": "<h4>Importance</h4> Anophthalmia and microphthalmia (A/M) are rare congenital eye disorders with a low molecular diagnosis rate, which limits clinical management and genetic counselling. Improved detection and interpretation of pathogenic variants is essential for advancing diagnosis and care in affected individuals. <h4>Objective</h4> To improve the molecular diagnostic yield in A/M patients by refining the methodology of variant investigation and association using an updated rigorously curated gene panel, and a refined bioinformatic pipeline incorporating structural variant detection, in silico Artificial Intelligence assisted predictive tools, and molecular dynamics simulations. <h4>Methodology</h4> We curated an updated A/M gene panel through a systematic literature review and screened for rare variants in these genes using data from the UK’s 100,000 Genomes Project, a national whole-genome sequencing initiative conducted by Genomics England. The cohort comprised 306 individuals recruited to the Rare Disease programme with a clinical diagnosis of anophthalmia or microphthalmia, recorded either as the primary phenotype or within HPO, SNOMED, or ICD-10 terms. Variants, including loss-of-function, missense, RNA splicing, and structural variants, were annotated with deep learning tools (AlphaMissense, SpliceAI), and missense variants were further assessed using REVEL, Missense3D, and molecular dynamics simulations. <h4>Results</h4> We identified pathogenic or likely pathogenic variants in 37 (12.1%) individuals, with an additional 23 (7.5%) harbouring strong candidate variants of uncertain significance. Our literature review identified the biggest contributors to A/M phenotypes to be MFRP , OTX2 , PRSS56 and SOX2 , each with over 100 patients reported in the literature, with a total number of 124 genes found be associated to A/M. Variants from our screen were most often found in genes with high A/M association, but also included novel findings within genes with a weaker association to A/M such as ACTG1 , HDAC6 , RERE and SIX3; adding support to their disease relevance. <h4>Conclusions and Relevance</h4> This study increased the diagnostic yield in A/M patients recruited to the 100KGP, and provides further evidence of genotype-phenotype associations within the aetiology of A/M. We also provide an updated framework for enhancing clinical genetic diagnosis in A/M that may inform broader strategies for other complex congenital disorders. However, as molecular diagnosis of A/M remains low, further research in understanding the genetic aetiology of A/M is necessary.",
+  "authors": [
+    "Maftei MI",
+    "Spink LG",
+    "Carmona OG",
+    "Mrstakova SM",
+    "Abahreh L",
+    "Hayes R",
+    "Bañon A",
+    "Cuevas ME",
+    "Cid K",
+    "Araya-Secchi R",
+    "Fraternali F",
+    "Yu J",
+    "Arno G",
+    "Young RM"
+  ],
+  "published_date": "2025-08-28",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.08.26.25334245",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.08.26.25334245.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1074023",
+    "raw_record": {
+      "id": "PPR1074023",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1074023"
+        ]
+      },
+      "doi": "10.1101/2025.08.26.25334245",
+      "title": "Refining the genetic landscape of anophthalmia and microphthalmia: a comprehensive framework with deep learning and updated gene panels",
+      "authorString": "Maftei MI, Spink LG, Carmona OG, Mrstakova SM, Abahreh L, Hayes R, Bañon A, Cuevas ME, Cid K, Araya-Secchi R, Fraternali F, Yu J, Arno G, Young RM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Maftei MI",
+            "lastName": "Maftei",
+            "firstName": "Mara",
+            "initials": "MI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-4370-759X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spink LG",
+            "lastName": "Spink",
+            "firstName": "Lucas G.N.",
+            "initials": "LG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-3579-0724"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carmona OG",
+            "lastName": "Carmona",
+            "firstName": "Oriol Gracia",
+            "initials": "OG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Structural and Molecular Biology, Division of Biosciences, ,"
+                },
+                {
+                  "affiliation": "Randall Centre for Cell & Molecular Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mrstakova SM",
+            "lastName": "Mrstakova",
+            "firstName": "Simona Mikula",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abahreh L",
+            "lastName": "Abahreh",
+            "firstName": "Lean",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-2917-9677"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hayes R",
+            "lastName": "Hayes",
+            "firstName": "Robin",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bañon A",
+            "lastName": "Bañon",
+            "firstName": "Aitor",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cuevas ME",
+            "lastName": "Cuevas",
+            "firstName": "María Elisa",
+            "initials": "ME",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-5856-1289"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cid K",
+            "lastName": "Cid",
+            "firstName": "Katherine",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Araya-Secchi R",
+            "lastName": "Araya-Secchi",
+            "firstName": "Raul",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4872-3553"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Facultad de Ingenieria, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fraternali F",
+            "lastName": "Fraternali",
+            "firstName": "Franca",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Structural and Molecular Biology, Division of Biosciences, ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, Birkbeck, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu J",
+            "lastName": "Yu",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Research Centre Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arno G",
+            "lastName": "Arno",
+            "firstName": "Gavin",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Young RM",
+            "lastName": "Young",
+            "firstName": "Rodrigo",
+            "initials": "RM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5765-197X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Ophthalmology, , ,"
+                },
+                {
+                  "affiliation": "Center for Integrative Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5765-197X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6560-9106"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9062-6557"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4872-3553"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-4370-759X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-7691-6483"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-3579-0724"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-5856-1289"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-2917-9677"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Importance</h4>  Anophthalmia and microphthalmia (A/M) are rare congenital eye disorders with a low molecular diagnosis rate, which limits clinical management and genetic counselling. Improved detection and interpretation of pathogenic variants is essential for advancing diagnosis and care in affected individuals. <h4>Objective</h4>  To improve the molecular diagnostic yield in A/M patients by refining the methodology of variant investigation and association using an updated rigorously curated gene panel, and a refined bioinformatic pipeline incorporating structural variant detection,  in silico Artificial Intelligence assisted predictive tools, and molecular dynamics simulations.  <h4>Methodology</h4>  We curated an updated A/M gene panel through a systematic literature review and screened for rare variants in these genes using data from the UK’s 100,000 Genomes Project, a national whole-genome sequencing initiative conducted by Genomics England. The cohort comprised 306 individuals recruited to the Rare Disease programme with a clinical diagnosis of anophthalmia or microphthalmia, recorded either as the primary phenotype or within HPO, SNOMED, or ICD-10 terms. Variants, including loss-of-function, missense, RNA splicing, and structural variants, were annotated with deep learning tools (AlphaMissense, SpliceAI), and missense variants were further assessed using REVEL, Missense3D, and molecular dynamics simulations. <h4>Results</h4>  We identified pathogenic or likely pathogenic variants in 37 (12.1%) individuals, with an additional 23 (7.5%) harbouring strong candidate variants of uncertain significance. Our literature review identified the biggest contributors to A/M phenotypes to be  MFRP ,  OTX2 ,  PRSS56 and  SOX2 , each with over 100 patients reported in the literature, with a total number of 124 genes found be associated to A/M. Variants from our screen were most often found in genes with high A/M association, but also included novel findings within genes with a weaker association to A/M such as  ACTG1 ,  HDAC6 ,  RERE and  SIX3; adding support to their disease relevance.  <h4>Conclusions and Relevance</h4>  This study increased the diagnostic yield in A/M patients recruited to the 100KGP, and provides further evidence of genotype-phenotype associations within the aetiology of A/M. We also provide an updated framework for enhancing clinical genetic diagnosis in A/M that may inform broader strategies for other complex congenital disorders. However, as molecular diagnosis of A/M remains low, further research in understanding the genetic aetiology of A/M is necessary.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T002212/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.26.25334245"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1074023"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1074023&type=FILE&fileName=EMS208367-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208367",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-02",
+      "firstPublicationDate": "2025-08-28",
+      "firstIndexDate": "2025-09-02",
+      "fullTextReceivedDate": "2025-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

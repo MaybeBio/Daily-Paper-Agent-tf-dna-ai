@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "41850140",
+    "doi": "10.1016/j.bmc.2026.118634",
+    "title": "Employing an integrated computational simulation strategy to identify high-affinity ligands for TDP-43 amyloid proteins."
+  },
+  "content": {
+    "abstract": "Developing high-affinity ligands targeting TDP-43 amyloid species is a potential therapeutic approach for amyotrophic lateral sclerosis (ALS). Here, we propose an integrated computational simulation strategy, which integrates multiple virtual screening methods, molecular dynamics simulations and binding free energy evaluations. Using this strategy, we successfully identified TDPL1, a high-affinity ligand for TDP-43 amyloid proteins. In vitro affinity assays confirmed the computational predictions. Based on the MD simulation results, we further investigated the binding mode between TDPL1 and TDP-43 amyloid proteins. Additionally, steered molecular dynamics simulations were employed to assess the impact of TDPL1 on the stability of beta-sheet interactions within the TDP-43 amyloid structure. Our data demonstrate that TDPL1 not only binds effectively to TDP-43 amyloid proteins but also possesses the potential to disrupt the stability of amyloid aggregates. These findings provide a molecular foundation for the future development of diagnostic agents or targeted therapeutics for ALS and related diseases.",
+    "keywords": [
+      "ALS",
+      "MD simulations",
+      "Steered molecular dynamics simulation",
+      "TDP-43 amyloid proteins",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "Ligands",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*DNA-Binding Proteins/metabolism/chemistry/antagonists & inhibitors",
+      "Protein Binding",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Yunqing",
+        "Sun, Zhenghao",
+        "Wei, Qiumei",
+        "She, Chenyuan",
+        "Wang, Yafeng",
+        "Chen, Jingyun",
+        "Wang, Mengxuan",
+        "Gui, Xinrui",
+        "Xia, Xue",
+        "Liu, Yang",
+        "Wang, Xin"
+      ],
+      "short_names": [
+        "Gao Y",
+        "Sun Z",
+        "Wei Q",
+        "She C",
+        "Wang Y",
+        "Chen J",
+        "Wang M",
+        "Gui X",
+        "Xia X",
+        "Liu Y",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China. Electronic address: wx@henu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Yunqing",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhenghao",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Qiumei",
+        "short_name": "Wei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "She, Chenyuan",
+        "short_name": "She C",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yafeng",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jingyun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Mengxuan",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Gui, Xinrui",
+        "short_name": "Gui X",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Xue",
+        "short_name": "Xia X",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory of Brain Targeted Bio-nanomedicine, Henan-Macquarie University Joint Centre for Biomedical Innovation, School of Life Sciences, Henan University, Kaifeng 475004, China. Electronic address: wx@henu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic & medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Med Chem"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 01:32",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41850140",
+      "29279008",
+      "38466778",
+      "39380150",
+      "41558795",
+      "38615537",
+      "38126188",
+      "31917988",
+      "34944548",
+      "36841957",
+      "39548508",
+      "39073874",
+      "41905172",
+      "34109652",
+      "26266742",
+      "27545621",
+      "40404809",
+      "40901879",
+      "31241884",
+      "42118388",
+      "40311013",
+      "39292611",
+      "37853696",
+      "36258099",
+      "37961353",
+      "26883171",
+      "40157686",
+      "25229694",
+      "38305824",
+      "35751132",
+      "39426615",
+      "40167418",
+      "28754988",
+      "27771988",
+      "36495262",
+      "41253052",
+      "34880495",
+      "37975411",
+      "39535182",
+      "33621087",
+      "34388383",
+      "39488559",
+      "30315897",
+      "37175868",
+      "37114423",
+      "28793209",
+      "41084624",
+      "41704643",
+      "31430111",
+      "26735904",
+      "29866003",
+      "30520297",
+      "41780347",
+      "33164832",
+      "39731748",
+      "38160320",
+      "42043606",
+      "23558684",
+      "41138359",
+      "39014286",
+      "41880983",
+      "41298366",
+      "27796788",
+      "35652285",
+      "31162715",
+      "38050862",
+      "41254784",
+      "41483315",
+      "31888078",
+      "32898834",
+      "25669125",
+      "38084877",
+      "33771571",
+      "42141160",
+      "33441818",
+      "41056674",
+      "39354713",
+      "29857500",
+      "37776002",
+      "39455591",
+      "41539507",
+      "19112176",
+      "40616975",
+      "26245696",
+      "42278315",
+      "24138393",
+      "39530145",
+      "40992974",
+      "32786707",
+      "40973684",
+      "23382875",
+      "37697727",
+      "38373093",
+      "38901510",
+      "36350600",
+      "37728805",
+      "33139113",
+      "40737296",
+      "29726604",
+      "38029395"
+    ],
+    "review": [
+      "41850140",
+      "34388383",
+      "27796788",
+      "24138393"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0896(26)00090-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

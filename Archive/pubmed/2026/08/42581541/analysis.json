@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42581541",
+  "title": "Decoding genetic basis of nitrogen-use efficiency in maize using AI-generated deep phenotypes.",
+  "authors": "Yang, Haoyan; Zeng, Lingju; Gou, Xiangjian; Shao, Yang; Song, Xianlong; Zhang, Shuang; Qian, Xiaoyan; Zhang, Zhenwei; Wang, Xiao; Li, Haitao; Peng, Bo; Anyanwu, Juliet Nkiruka; Zheng, Zihao; Han, Linqian; Zhou, Ling; Bulut, Mustafa; Song, Peng; Yang, Wanneng; Xiao, Yingjie; Li, Wenqiang; Dai, Mingqiu; Qiu, Fazhan; Zhang, Jian; Wang, Baobao; Fernie, Alisdair R; Wang, Haiyang; Zhao, Han; Li, Xianran; Yan, Jianbing; Guo, Tingting",
+  "journal": "Molecular plant",
+  "published_date": "2026-08-12",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用CNN从玉米图像生成深度表型并定位氮利用效率相关位点，虽涉及转录因子LG2但核心是表型-基因关联，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关系微弱。",
+  "abstract": "Improving nitrogen-use efficiency (NUE) is essential for sustainable agriculture, yet conventionally measured plant characteristics have limited value as NUE proxies. Here, we show that artificial intelligence (AI) can uncover previously unrecognized phenotypic variation associated with NUE, showing genetic variation that is largely missed by conventional phenotypes. We trained a convolutional neural network (CNN) on 25,080 maize images to learn features that distinguish how plants respond to low- and high-nitrogen (N) conditions, achieving 96.7% accuracy. The learned features were defined as deep phenotypes. Compared with conventional phenotypes, deep phenotypes showed greater phenotypic variation and higher heritability, enabling the identification of 523 significant loci compared with 21 for conventional phenotypes. We next investigated candidate genes underlying these loci and used these findings to interpret the learned features. Lower CNN layers largely reflected visual patterns overlapping with conventional phenotypes, whereas deeper layers encoded additional features associated with N-responsive genetic variation. To validate candidate genes identified by the AI framework, we functionally characterized Liguleless2 (LG2), a basic-leucine zipper transcription factor, and demonstrated that lg2 mutants exhibit enhanced root architecture and increased N-uptake efficiency. Field trials of 200 hybrids across diverse N environments further supported the AI findings, with each beneficial allele increasing ear weight by an average of 18 g per plot under low-N conditions. These results show how integrating AI and biology can uncover biologically relevant variation underlying complex traits such as NUE and enhance the interpretability of AI models.",
+  "abstract_zh": "提高氮利用效率（NUE）对可持续农业至关重要，然而传统测量的植物性状作为NUE代理指标的价值有限。在此，我们表明人工智能（AI）能够发现先前未被识别的与NUE相关的表型变异，显示出传统表型在很大程度上遗漏的遗传变异。我们在25,080张玉米图像上训练了一个卷积神经网络（CNN），以学习区分植物对低氮和高氮（N）条件响应的特征，达到了96.7%的准确率。学习到的特征被定义为深度表型。与传统表型相比，深度表型表现出更大的表型变异和更高的遗传力，从而能够识别523个显著位点，而传统表型仅识别出21个。接下来，我们研究了这些位点下的候选基因，并利用这些发现来解释学习到的特征。较浅的CNN层主要反映与传统表型重叠的视觉模式，而较深的层则编码了与N响应遗传变异相关的额外特征。为了验证AI框架识别的候选基因，我们对Liguleless2（LG2）——一种碱性亮氨酸拉链转录因子——进行了功能表征，并证明lg2突变体表现出增强的根系结构和提高的N吸收效率。在多样N环境下对200个杂交种的田间试验进一步支持了AI发现，每个有利等位基因在低N条件下平均使每小区穗重增加18克。这些结果表明，整合AI和生物学如何能够揭示NUE等复杂性状背后的生物学相关变异，并增强AI模型的可解释性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42581541/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42581541/",
+  "paper_page_path": "papers/pubmed/42581541/index.html"
+}

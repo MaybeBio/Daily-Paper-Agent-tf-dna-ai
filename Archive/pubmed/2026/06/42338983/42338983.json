@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "42338983",
+    "doi": "10.3389/fgene.2026.1853818",
+    "title": "LPIN3 emerges as a diagnostic biomarker in Moyamoya disease revealing immune-lipid metabolic crosstalk."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Moyamoya disease (MMD) is a progressive cerebrovascular disorder characterized by stenosis or occlusion of the terminal portions of the internal carotid arteries and their proximal branches, accompanied by the formation of abnormal collateral vessel networks. It represents a leading cause of ischemic and hemorrhagic stroke in both pediatric and adult populations. However, a comprehensive understanding of the molecular drivers underlying the hallmark vascular pathology of MMD remains elusive. Emerging evidence indicates that dysregulated lipid metabolism significantly contributes to MMD susceptibility and disease severity; nevertheless, its precise mechanistic roles in MMD pathogenesis have not been thoroughly investigated. METHODS: We integrated three publicly available gene expression datasets comprising MMD patients and non-MMD controls (GSE189993, GSE157628, and GSE141024). Following rigorous batch-effect correction, differential expression analysis was performed to identify differentially expressed genes (DEGs). Gene set enrichment analysis (GSEA), weighted gene co-expression network analysis (WGCNA), and machine learning approaches were then integrated to prioritize hub genes. Immune cell infiltration analysis was conducted for the identified hub genes. Subsequently, functional enrichment analysis, immune infiltration profiling, and protein-protein interaction (PPI) network construction were further performed. Validation was carried out using an independent external dataset (GSE249254) as well as in vitro experiments-including hypoxia-treated human endothelial cells and patient-derived tissue samples-to assess mRNA and protein expression levels. Finally, a Transcription Factor (TF)-miRNA-mRNA regulatory network was constructed, and potential therapeutic compounds targeting MMD were predicted via computational screening. RESULTS: A total of 2,288 DEGs were identified. GSEA revealed significant enrichment of pathways related to lipid metabolism and immune responses. WGCNA identified MMD-associated co-expression modules, and integrative machine learning prioritized four hub genes: LPIN3, PPT2, ACSS1, and INPPL1. A diagnostic nomogram built upon these four genes demonstrated robust predictive performance, with an area under the curve (AUC) of 0.91. Immune infiltration analysis revealed that the abundance of B cells in the MMD patient group was significantly lower than that in the control group, with statistical significance. Notably, LPIN3 expression was significantly upregulated in MMD. It was the only hub gene whose upregulation at the mRNA level was consistently validated in both the external validation set (GSE249254) and in vitro models. Subsequent immunohistochemical (IHC) experiments further corroborated this finding at the protein level, highlighting its potential as an independent biomarker. Furthermore, leveraging the hub gene network, seven candidate compounds with potential therapeutic relevance to MMD were predicted. CONCLUSION: This study delineates the immune-lipid metabolic transcriptomic characteristics of MMD, identifies novel molecular determinants of disease pathogenesis, and validates LPIN3 as a promising diagnostic biomarker. Collectively, these findings provide critical mechanistic insights into MMD etiology and offer a foundation for developing improved diagnostic strategies and targeted therapeutic interventions.",
+    "keywords": [
+      "Moyamoya disease",
+      "WGCNA",
+      "immune infiltration",
+      "lipid metabolism",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Zhenwei",
+        "Qiu, Xiansheng",
+        "Zhou, Liwei",
+        "Li, Xiaodong",
+        "Lu, Hanwen",
+        "Wang, Shuo",
+        "Chen, Junfu",
+        "Bian, Lifei",
+        "Lin, Jianbin",
+        "Zhao, Wenpeng",
+        "Zhao, Wujie",
+        "Gao, Xin",
+        "Zhang, Jinsen",
+        "Chen, Sifang",
+        "Li, Zhangyu",
+        "Wang, Zhanxiang"
+      ],
+      "short_names": [
+        "Lu Z",
+        "Qiu X",
+        "Zhou L",
+        "Li X",
+        "Lu H",
+        "Wang S",
+        "Chen J",
+        "Bian L",
+        "Lin J",
+        "Zhao W",
+        "Zhao W",
+        "Gao X",
+        "Zhang J",
+        "Chen S",
+        "Li Z",
+        "Wang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "Fujian Key Laboratory of Brain Tumors Diagnosis and Precision Treatment, Xiamen Key Laboratory of Brain Center, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China.",
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "Fujian Key Laboratory of Brain Tumors Diagnosis and Precision Treatment, Xiamen Key Laboratory of Brain Center, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China.",
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "School of Life Science, Xiamen University, Xiamen, China.",
+        "School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "Department of Pain Medicine, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China.",
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+        "Fujian Key Laboratory of Brain Tumors Diagnosis and Precision Treatment, Xiamen Key Laboratory of Brain Center, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Zhenwei",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China.",
+          "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+          "Fujian Key Laboratory of Brain Tumors Diagnosis and Precision Treatment, Xiamen Key Laboratory of Brain Center, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xiansheng",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Liwei",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaodong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hanwen",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+          "Fujian Key Laboratory of Brain Tumors Diagnosis and Precision Treatment, Xiamen Key Laboratory of Brain Center, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junfu",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Lifei",
+        "short_name": "Bian L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jianbin",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wenpeng",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wujie",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xin",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinsen",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pain Medicine, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Sifang",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhangyu",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhanxiang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China.",
+          "Department of Neurosurgery and Department of Neuroscience, The First Affiliated Hospital of Xiamen University, School of Medicine, Xiamen University, Xiamen, Fujian, China.",
+          "Fujian Key Laboratory of Brain Tumors Diagnosis and Precision Treatment, Xiamen Key Laboratory of Brain Center, The First Affiliated Hospital of Xiamen University, Xiamen, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/24 06:38",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [
+      "42639067"
+    ],
+    "refs": [
+      "41355354",
+      "40959093",
+      "40913267",
+      "40474194",
+      "40365738",
+      "40268337",
+      "40105149",
+      "40042548",
+      "39822761",
+      "39578692",
+      "39352103",
+      "38608825",
+      "38573771",
+      "38566524",
+      "38494486",
+      "38254149",
+      "37886851",
+      "37399508",
+      "36912514",
+      "36725846",
+      "36115805",
+      "35959391",
+      "35605621",
+      "35040437",
+      "35024660",
+      "34529262",
+      "34469870",
+      "34276676",
+      "34206421",
+      "32640948",
+      "30931480",
+      "30513409",
+      "29911252",
+      "29343587",
+      "29130882",
+      "26066708",
+      "25605792",
+      "24949311",
+      "24634820",
+      "19297575",
+      "16632515",
+      "12808457"
+    ],
+    "similar": [
+      "42338983",
+      "42123445",
+      "40462179",
+      "40012919",
+      "36605987",
+      "42292668",
+      "41480156",
+      "39134827",
+      "40105149",
+      "35197088",
+      "42471019",
+      "41044520",
+      "42327749",
+      "42475469",
+      "41432483",
+      "41052072",
+      "42015036",
+      "40151199",
+      "42233387",
+      "41716413",
+      "42537010",
+      "40574839",
+      "42326009",
+      "40406126",
+      "41858783",
+      "41895505",
+      "42158856",
+      "40977739",
+      "40532306",
+      "41388523",
+      "41970276",
+      "41013556",
+      "38402855",
+      "41826854",
+      "41316378",
+      "40340571",
+      "41424060",
+      "39833772",
+      "36777638",
+      "38987624",
+      "39559355",
+      "41822387",
+      "41288681",
+      "39290707",
+      "39507054",
+      "41415264",
+      "42236612",
+      "39375405",
+      "40564394",
+      "41146237",
+      "40636523",
+      "40540134",
+      "42092981",
+      "41716396",
+      "39713769",
+      "40416061",
+      "42164373",
+      "36316672",
+      "42172296",
+      "42565562",
+      "39403102",
+      "42083957",
+      "41013727",
+      "40869277",
+      "35911963",
+      "41878449",
+      "40665394",
+      "40374840",
+      "41872824",
+      "38291374",
+      "41120603",
+      "41502897",
+      "32617116",
+      "42582057",
+      "41436831",
+      "36699262",
+      "39080525",
+      "42558367",
+      "41299729",
+      "40093012",
+      "40948644",
+      "42348043",
+      "37605574",
+      "36506310",
+      "40596265",
+      "41847139",
+      "42265520",
+      "40821971",
+      "42564306",
+      "41291841",
+      "36148059",
+      "39139563",
+      "42274933",
+      "39512836",
+      "40722175",
+      "42247642",
+      "41816328",
+      "40328901",
+      "41036271",
+      "41191606"
+    ],
+    "review": [
+      "42338983"
+    ],
+    "pmc": [
+      "13286443"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42338983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2026.1853818",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

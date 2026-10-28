@@ -1,0 +1,761 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.06.548054",
+  "title": "The canonical single-stranded DNA binding protein SSB is not an essential replication protein but an RNA chaperon in the hyperthermophilic archaeon <i>Saccharolobus islandicus</i> REY15A",
+  "doi": "10.1101/2023.07.06.548054",
+  "abstract": "Single-stranded DNA binding proteins (SSBs) have been regarded as indispensable factors in all three domains of life since they play vital roles in DNA replication. Herein, we report that genes coding for the canonical SSB (SisSSB) and the non-canonical SSB (SisDBP) in the hyperthermophilic archaeon Saccharolobus islandicus REY15A can both be deleted. The growth is not affected, and the cell cycle progression and genome stability of the deletion strains is not impaired, suggesting that SisSSB and SisDBP are not essential for cell viability. Interestingly, at a lower temperature (55°C), the protein level of SisSSB increases ∼1.8 fold in the wild type and the growth of Δ Sisssb and Δ Sisssb Δ Sisdbp is retarded. SisSSB exhibits melting activity on dsRNA and DNA/RNA hybrid in vitro and unwinding RNA hairpin in Escherichia coli . Furthermore, the core SisSSB domain is able to complement the absence of the cold shock proteins CspABGE in E. coli , suggesting that SisSSB functions as RNA chaperon. We show that a two-fold overexpression of SisSSB is beneficial to the cell growth at lower temperature, but it has detrimental effect on the cell growth and cell cycle progression at normal growth temperature, which differs from bacterial Csp proteins. Importantly, these in vitro and in vivo activities are conserved in SSB subtype SSB-1 in Crenarchaeota species that lack bacterial Csp homologs. Overall, we have clarified the function of the archaeal canonical SSB which does not function as a DNA processing factor, but plays a role in processes requiring dsRNA or DNA/RNA hybrid unwinding.",
+  "authors": [
+    "Yuanxi Xiao",
+    "Zhichao Jiang",
+    "Mengqi Zhang",
+    "Xuemei Zhang",
+    "Qi Gan",
+    "Yunfeng Yang",
+    "Pengju Wu",
+    "Xu Feng",
+    "Jinfeng Ni",
+    "Xiuzhu Dong",
+    "Qunxin She",
+    "Qihong Huang",
+    "Yulong Shen"
+  ],
+  "published_date": "2023-07-07",
+  "updated_date": "2023-07-07T16:00:23Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.06.548054",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.06.548054.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:52:57Z",
+        "timestamp": 1768506777695,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 70,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Single-stranded DNA binding proteins (SSBs) have been regarded as indispensable factors in all three domains of life since they play vital roles in DNA replication. Herein, we report that genes coding for the canonical SSB (SisSSB) and the non-canonical SSB (SisDBP) in the hyperthermophilic archaeon\n                  <jats:italic>Saccharolobus islandicus</jats:italic>\n                  REY15A can both be deleted. The growth is not affected, and the cell cycle progression and genome stability of the deletion strains is not impaired, suggesting that SisSSB and SisDBP are not essential for cell viability. Interestingly, at a lower temperature (55°C), the protein level of SisSSB increases ∼1.8 fold in the wild type and the growth of Δ\n                  <jats:italic>Sisssb</jats:italic>\n                  and Δ\n                  <jats:italic>Sisssb</jats:italic>\n                  Δ\n                  <jats:italic>Sisdbp</jats:italic>\n                  is retarded. SisSSB exhibits melting activity on dsRNA and DNA/RNA hybrid\n                  <jats:italic>in vitro</jats:italic>\n                  and unwinding RNA hairpin in\n                  <jats:italic>Escherichia coli</jats:italic>\n                  . Furthermore, the core SisSSB domain is able to complement the absence of the cold shock proteins CspABGE in\n                  <jats:italic>E. coli</jats:italic>\n                  , suggesting that SisSSB functions as RNA chaperon. We show that a two-fold overexpression of SisSSB is beneficial to the cell growth at lower temperature, but it has detrimental effect on the cell growth and cell cycle progression at normal growth temperature, which differs from bacterial Csp proteins. Importantly, these\n                  <jats:italic>in vitro</jats:italic>\n                  and\n                  <jats:italic>in vivo</jats:italic>\n                  activities are conserved in SSB subtype SSB-1 in Crenarchaeota species that lack bacterial Csp homologs. Overall, we have clarified the function of the archaeal canonical SSB which does not function as a DNA processing factor, but plays a role in processes requiring dsRNA or DNA/RNA hybrid unwinding.\n                </jats:p>",
+      "DOI": "10.1101/2023.07.06.548054",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ],
+        "date-time": "2023-07-07T16:00:23Z",
+        "timestamp": 1688745623000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "The canonical single-stranded DNA binding protein SSB is not an essential replication protein but an RNA chaperon in the hyperthermophilic archaeon\n                  <i>Saccharolobus islandicus</i>\n                  REY15A"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yuanxi",
+          "family": "Xiao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhichao",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mengqi",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xuemei",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Qi",
+          "family": "Gan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yunfeng",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pengju",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xu",
+          "family": "Feng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jinfeng",
+          "family": "Ni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6926-5459",
+          "authenticated-orcid": false,
+          "given": "Xiuzhu",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4448-6669",
+          "authenticated-orcid": false,
+          "given": "Qunxin",
+          "family": "She",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5269-840X",
+          "authenticated-orcid": false,
+          "given": "Qihong",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yulong",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.66.1.61"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.54.4.342-380.1990"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/978-1-62703-032-8_1",
+          "article-title": "Functions of single-strand DNA-binding proteins in DNA replication, recombination, and repair",
+          "volume": "922",
+          "year": "2012",
+          "journal-title": "Methods in molecular biology"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1993.tb05726.x"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/385176a0"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/369207a0"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80968-X"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1757",
+          "DOI": "10.1002/pro.4140",
+          "article-title": "The mechanism of action of the SSB interactome reveals it is the first OB-fold family of genome guardians in prokaryotes",
+          "volume": "30",
+          "year": "2021",
+          "journal-title": "Protein science: a publication of the Protein Society"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10409230802341296"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2014.147"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10409239991209255"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-94-007-4572-8_10"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "700",
+          "DOI": "10.1002/pro.3115",
+          "article-title": "The intrinsically disordered linker of E. coli SSB is critical for the release from single-stranded DNA",
+          "volume": "26",
+          "year": "2017",
+          "journal-title": "Protein science: a publication of the Protein Society"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr838"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M102423200"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdg272"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1113277108"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.01487-10"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku259"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, C. , Phillips, A.P.R. , Wipfler, R.L. , Olsen, G.J. and Whitaker, R.J . (2018) The essential genome of the crenarchaeal model Sulfolobus islandicus. Nature Communications, 9.",
+          "DOI": "10.1038/s41467-018-07379-4"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Suzuki, S. and Kurosawa, N . (2019) Robust growth of archaeal cells lacking a canonical single-stranded DNA-binding protein. FEMS microbiology letters, 366.",
+          "DOI": "10.1093/femsle/fnz124"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "369",
+          "DOI": "10.1007/s00792-016-0910-2",
+          "article-title": "High-affinity RNA binding by a hyperthermophilic single-stranded DNA-binding protein",
+          "volume": "21",
+          "year": "2017",
+          "journal-title": "Extremophiles"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2011.305"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.149.4.799"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1044"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "2892",
+          "DOI": "10.1038/s41396-021-00984-0",
+          "article-title": "Archaeal extracellular vesicles are produced in an ESCRT-dependent manner and promote gene transfer and nutrient cycling in extreme environments",
+          "volume": "15",
+          "year": "2021",
+          "journal-title": "Isme J"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Symington, L.S . (2014) End resection at double-strand breaks: mechanism and regulation. Cold Spring Harbor perspectives in biology, 6.",
+          "DOI": "10.1101/cshperspect.a016436"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1550307"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.12.2.563"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky487"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky527"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(83)90075-X"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(75)80012-X"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.12.7.3050"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/PL00012513"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.272.1.196"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "394",
+          "DOI": "10.4161/rna.8.3.14823",
+          "article-title": "Unwinding activity of cold shock proteins and RNA metabolism",
+          "volume": "8",
+          "year": "2011",
+          "journal-title": "RNA biology"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.2001.02372.x"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, B. , Yue, L. , Zhou, L.G. , Qi, L. , Li, J. and Dong, X.Z . (2017) Conserved TRAM Domain Functions as an Archaeal Cold Shock Protein via RNA Chaperone Activity. Front Microbiol, 8.",
+          "DOI": "10.3389/fmicb.2017.01597"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "9273",
+          "DOI": "10.1093/nar/gkaa656",
+          "article-title": "The Sac10b homolog from Sulfolobus islandicus is an RNA chaperone",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.4.9.1623"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00407a002"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "4111",
+          "DOI": "10.1093/nar/gkz090",
+          "article-title": "Recycling of single-stranded DNA-binding protein by the bacterial replisome",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg498"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt107"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1585",
+          "DOI": "10.3389/fmicb.2020.01585",
+          "article-title": "A Unique B-Family DNA Polymerase Facilitating Error-Prone DNA Damage Tolerance in Crenarchaeota",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in microbiology"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Feng, X. , Zhang, B.C. , Gao, Z. , Xu, R.Y. , Liu, X.T. , Ishino, S. , Feng, M.X. , Shen, Y.L. , Ishino, Y. and She, Q.X . (2022) A Well-Conserved Archaeal B-Family Polymerase Functions as an Extender in Translesion Synthesis. Mbio, 13.",
+          "DOI": "10.1128/mbio.02659-21"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.48",
+          "first-page": "354",
+          "article-title": "Evolution of replicative DNA polymerases in archaea and their contributions to the eukaryotic replication machinery",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Frontiers in microbiology"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang, C. , Liu, X. , Chen, Y. , Zhou, J. , Li, W. , Ding, N. , Huang, L. , Chen, J. and Zhang, Z . (2022) A Novel Family of Winged-Helix Single-Stranded DNA-Binding Proteins from Archaea. International journal of molecular sciences, 23.",
+          "DOI": "10.3390/ijms23073455"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.01.004"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, S.Q. , Xu, Z.Y. , Xu, J.W. , Zuo, L.Y. , Yu, C.H. , Zheng, P. , Gan, H.Y. , Wang, X.Z. , Li, L.T. , Sharma, S. et al. (2018) Rtt105 functions as a chaperone for replication protein A to preserve genome stability. Embo J, 37.",
+          "DOI": "10.15252/embj.201899154"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, X.J. , Dong, Y. , Zhao, X.C. , Li, J.B. , Lee, J. , Yan, Z.X. , Yang, S.S. , Wu, W.Q. , Hou, X.M. , Liu, G.X. et al. (2021) Rtt105 promotes high-fidelity DNA replication and repair by regulating the single-stranded DNA-binding factor RPA. P Natl Acad Sci USA, 118.",
+          "DOI": "10.1073/pnas.2106393118"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2009.11.033"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "3409",
+          "DOI": "10.1093/nar/gkab117",
+          "article-title": "RNA thermoswitches modulate Staphylococcus aureus adaptation to ambient temperatures",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.2003.03793.x"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh259"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "377",
+          "DOI": "10.1146/annurev-genet-071819-031654",
+          "article-title": "Cold Shock Response in Bacteria",
+          "volume": "55",
+          "year": "2021",
+          "journal-title": "Annu Rev Genet"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06883"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "2010",
+          "DOI": "10.1016/j.celrep.2017.08.016",
+          "article-title": "UV-Induced RPA1 Acetylation Promotes Nucleotide Excision Repair",
+          "volume": "20",
+          "year": "2017",
+          "journal-title": "Cell reports"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "932",
+          "DOI": "10.1038/s41594-022-00827-2",
+          "article-title": "Compartmentalization of the replication fork by single-stranded DNA-binding protein regulates translesion synthesis",
+          "volume": "29",
+          "year": "2022",
+          "journal-title": "Nature structural & molecular biology"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Suzuki, S. and Kurosawa, N . (2023) The Impact of Single-Stranded DNA-Binding Protein SSB and Putative SSB-Interacting Proteins on Genome Integrity in the Thermophilic Crenarchaeon Sulfolobus acidocaldarius. International journal of molecular sciences, 24.",
+          "DOI": "10.3390/ijms24054558"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tarrason Risa, G. , Hurtig, F. , Bray, S. , Hafner, A.E. , Harker-Kirschneck, L. , Faull, P. , Davis, C. , Papatziamou, D. , Mutavchiev, D.R. , Fan , C., et al. (2020) The proteasome controls ESCRT-III-mediated cell division in an archaeon. Science, 369.",
+          "DOI": "10.1126/science.aaz2532"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.ade5224"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.R500029200"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a012963"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "4220",
+          "DOI": "10.1093/nar/gkab142",
+          "article-title": "Single-molecule insight into stalled replication fork rescue in Escherichia coli",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M200091200"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12915-020-00800-9"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "607431",
+          "DOI": "10.3389/fmicb.2020.607431",
+          "article-title": "Functional Analysis of the NucS/EndoMS of the Hyperthermophilic Archaeon Sulfolobus islandicus REY15A",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in microbiology"
+        },
+        {
+          "key": "2023071111250796000_2023.07.06.548054v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1707",
+          "DOI": "10.1093/nar/gkad006",
+          "article-title": "A novel RHH family transcription factor aCcr1 and its viral homologs dictate cell cycle progression in archaea",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic acids research"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.06.548054",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:53:39Z",
+        "timestamp": 1768452819000
+      },
+      "score": 114.71905,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.06.548054"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "references-count": 70,
+      "URL": "https://doi.org/10.1101/2023.07.06.548054",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

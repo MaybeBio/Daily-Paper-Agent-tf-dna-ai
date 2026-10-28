@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40083352",
+  "title": "Validation of machine learning application for the identification of lipid metabolism-associated diagnostic model in ischemic stroke.",
+  "authors": "Meng, Xiangtian; Xu, Runping; Wang, Haoheng; Zhu, Junle; Ye, Jingliang; Luo, Chun",
+  "journal": "International journal of clinical and experimental pathology",
+  "published_date": "2025-03-14",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习构建缺血性卒中脂代谢相关诊断模型，仅涉及基因表达与免疫关联，无蛋白质-DNA互作体系或结合建模，与本课题无关。",
+  "abstract": "INTRODUCTION: Ischemic Stroke (IS) is characterized by complex molecular alterations involving disruptions in lipid metabolism and immune interactions. However, the roles of lipid metabolism-associated genes in the pathogenesis of IS through immune regulation interaction are rarely explored. In this study, we aimed to explore the intricate correlation between lipid metabolism-associated immune changes and IS through a machine-learning algorithm. MATERIALS AND METHODS: We downloaded the GSE16561, GSE22255, and GSE37587 datasets from NCBI. Using the GSE16561 dataset, we analyzed differential gene expression profiles related to lipid metabolism with the \"Limma\" R package. We constructed a diagnostic model employing techniques such as Least Absolute Shrinkage and Selection Operator (LASSO) Cox regression and Random Forest (RF), which was further validated using the independent GSE22255 and GSE37587 datasets. Correlations between model genes and immune cell percentages were examined by Spearman analysis. We further validated the diagnostic value of these model genes in 28 clinical samples using RT-qPCR. RESULTS: We identified 26 lipid metabolism genes with significant expression disparities between normal and diseased groups, closely linked to immune cell populations. Seven signature genes (ACSS1, ADSL, CYP27A1, MTF1, SOAT1, STAT3, and SUMF2) were identified using LASSO and RF algorithms for a potential diagnostic model, effectively distinguishing healthy and IS samples in both training and validation (AUC = 0.725) datasets. The mRNA expression levels of these model genes were further validated as a blood biomarker for IS patients in our clinical samples. Single-cell analysis further revealed high expression of Cyp27a1 in dendritic cells and macrophages, and decreasing expression of Soat in progenitor cells as the disease progressed. The expression of Stat3 in most immune cells was upregulated in progenitor cells as the disease progressed. Additionally, a regulatory network identified transcription factors regulating genes such as STAT3. CONCLUSION: This study identified novel lipid metabolism biomarkers for IS, enhancing our understanding of IS by shedding light on lipid metabolism and immune interactions. This may facilitate innovative diagnostic approaches to IS.",
+  "abstract_zh": "引言：缺血性卒中（Ischemic Stroke, IS）以涉及脂质代谢和免疫相互作用紊乱的复杂分子改变为特征。然而，脂质代谢相关基因通过免疫调节相互作用在IS发病机制中的作用鲜有探讨。在本研究中，我们旨在通过机器学习算法探索脂质代谢相关免疫变化与IS之间的复杂关联。材料与方法：我们从NCBI下载了GSE16561、GSE22255和GSE37587数据集。利用GSE16561数据集，我们使用“Limma”R包分析了与脂质代谢相关的差异基因表达谱。我们采用最小绝对收缩和选择算子（LASSO）Cox回归及随机森林（RF）等技术构建了诊断模型，并使用独立的GSE22255和GSE37587数据集进行了进一步验证。通过Spearman分析检验了模型基因与免疫细胞百分比之间的相关性。我们进一步使用RT-qPCR在28个临床样本中验证了这些模型基因的诊断价值。结果：我们鉴定了26个在正常组和疾病组之间表达差异显著的脂质代谢基因，这些基因与免疫细胞群体密切相关。使用LASSO和RF算法识别出七个特征基因（ACSS1、ADSL、CYP27A1、MTF1、SOAT1、STAT3和SUMF2），用于构建潜在诊断模型，该模型在训练和验证（AUC = 0.725）数据集中均能有效区分健康样本和IS样本。这些模型基因的mRNA表达水平在我们的临床样本中进一步被验证为IS患者的血液生物标志物。单细胞分析进一步揭示了Cyp27a1在树突状细胞和巨噬细胞中的高表达，以及随着疾病进展，Soat在祖细胞中的表达下降。随着疾病进展，大多数免疫细胞中Stat3的表达在祖细胞中上调。此外，一个调控网络识别了调控STAT3等基因的转录因子。结论：本研究鉴定了IS的新型脂质代谢生物标志物，通过揭示脂质代谢与免疫相互作用，增进了我们对IS的理解。这可能促进IS的创新诊断方法的发展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40083352/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40083352/",
+  "paper_page_path": "papers/pubmed/40083352/index.html"
+}

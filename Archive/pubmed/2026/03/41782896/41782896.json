@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41782896",
+    "doi": "10.1093/nargab/lqag022",
+    "title": "Mixing features of transcription factors and genes enable accurate prediction of gene regulation relationships for unknown transcription factors."
+  },
+  "content": {
+    "abstract": "Identifying regulatory relationships between transcription factors (TFs) and genes is essential to understand diverse biological phenomena related to gene expression. Recently, deep learning-based models to predict TFs that bind to genes from nucleotide sequences of the target genes have been developed, yet these models are trained to predict known TFs only. Here, we developed a deep learning model, GReNIMJA (Gene Regulatory Network Inference by Mixing and Jointing features of Amino acid and nucleotide sequences), to predict gene regulation even by unknown TFs. Our model is designed to mix the features of the TF amino acid sequences and nucleotide sequences of the target genes using a 2D Long Short-Term Memory architecture and to perform binary classification with the aim of determining the presence or absence of a regulatory relationship. By explicitly modeling interactions between TFs and genes, our model can predict gene regulation for unknown TFs. The accuracy of our model in predicting regulatory relationships was 84.4% for known TFs (higher than those of conventional models) and 68.5% for unknown TFs; the latter is an unsolved task for conventional deep learning-based models. We expect our model to advance identification of unknown gene regulatory networks and contribute to the understanding of diverse biological phenomena.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism/chemistry",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Regulation",
+      "*Deep Learning",
+      "Prediction Algorithms",
+      "Predictive Learning Models",
+      "Computational Biology/methods",
+      "Amino Acid Sequence",
+      "Long Short Term Memory"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Okubo, Risa",
+        "Morikura, Takashi",
+        "Hiki, Yusuke",
+        "Tokuoka, Yuta",
+        "Kobayashi, Tetsuya J",
+        "Yamada, Takahiro G",
+        "Funahashi, Akira"
+      ],
+      "short_names": [
+        "Okubo R",
+        "Morikura T",
+        "Hiki Y",
+        "Tokuoka Y",
+        "Kobayashi TJ",
+        "Yamada TG",
+        "Funahashi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1287-8809",
+        "ORCID: 0000-0001-6955-3867",
+        "ORCID: 0000-0001-7035-6588",
+        "ORCID: 0000-0001-8474-7942",
+        "ORCID: 0000-0002-1665-1778",
+        "ORCID: 0000-0003-0605-239X"
+      ],
+      "affiliations": [
+        "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+        "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+        "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+        "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+        "Institute of Industrial Science, The University of Tokyo, 4-6-1 Komaba Meguro-ku, 153-8505 Tokyo, Japan.",
+        "Department of Biosciences and Informatics, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+        "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+        "Department of Biosciences and Informatics, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Okubo, Risa",
+        "short_name": "Okubo R",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Morikura, Takashi",
+        "short_name": "Morikura T",
+        "identifiers": [
+          "0000-0003-1287-8809"
+        ],
+        "affiliations": [
+          "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Hiki, Yusuke",
+        "short_name": "Hiki Y",
+        "identifiers": [
+          "0000-0001-6955-3867"
+        ],
+        "affiliations": [
+          "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Tokuoka, Yuta",
+        "short_name": "Tokuoka Y",
+        "identifiers": [
+          "0000-0001-7035-6588"
+        ],
+        "affiliations": [
+          "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Kobayashi, Tetsuya J",
+        "short_name": "Kobayashi TJ",
+        "identifiers": [
+          "0000-0001-8474-7942"
+        ],
+        "affiliations": [
+          "Institute of Industrial Science, The University of Tokyo, 4-6-1 Komaba Meguro-ku, 153-8505 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamada, Takahiro G",
+        "short_name": "Yamada TG",
+        "identifiers": [
+          "0000-0002-1665-1778"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Informatics, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Funahashi, Akira",
+        "short_name": "Funahashi A",
+        "identifiers": [
+          "0000-0003-0605-239X"
+        ],
+        "affiliations": [
+          "Graduate School of Fundamental Science and Technology, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan.",
+          "Department of Biosciences and Informatics, Keio University, 3-14-1 Hiyoshi Kohoku-ku Yokohama, 223-8522 Kanagawa, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/05 07:09",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40102719",
+      "39914051",
+      "39789329",
+      "39413793",
+      "39271116",
+      "38072046",
+      "37696706",
+      "37257205",
+      "36938874",
+      "35182480",
+      "34863368",
+      "34850907",
+      "33957125",
+      "32770026",
+      "32750884",
+      "32286315",
+      "32191739",
+      "31588505",
+      "31510640",
+      "31340985",
+      "31114922",
+      "30323198",
+      "29977601",
+      "29514181",
+      "29425488",
+      "28881991",
+      "26590407",
+      "26555596",
+      "26301843",
+      "26213851",
+      "26160164",
+      "25533953",
+      "24653213",
+      "24281694",
+      "24214955",
+      "23161676",
+      "23090257",
+      "22153072",
+      "21576262",
+      "21526222",
+      "20032975",
+      "19468054",
+      "19106141",
+      "18436575",
+      "17540862",
+      "17512414",
+      "17324271",
+      "17230196",
+      "17053092",
+      "16227977",
+      "15590696",
+      "14595011",
+      "10074941",
+      "9357143",
+      "2231712",
+      "1944532"
+    ],
+    "similar": [
+      "41782896",
+      "41662352",
+      "32054475",
+      "39679439",
+      "22456606",
+      "18426580",
+      "32770026",
+      "42475469",
+      "38980373",
+      "22784627",
+      "33372147",
+      "34864886",
+      "22165960",
+      "41288963",
+      "32174324",
+      "38701417",
+      "32207875",
+      "22849367",
+      "41729651",
+      "42059479",
+      "19426448",
+      "34251621",
+      "26291518",
+      "41920894",
+      "24565025",
+      "38451769",
+      "22647244",
+      "24349230",
+      "24228871",
+      "30709337",
+      "19657679",
+      "42099803",
+      "38354497",
+      "31372637",
+      "23497388",
+      "21496241",
+      "21729923",
+      "38886500",
+      "39589130",
+      "21172055",
+      "20942926",
+      "20704747",
+      "23246694",
+      "42413033",
+      "41643219",
+      "41314178",
+      "33137083",
+      "38653489",
+      "40914877",
+      "25707768",
+      "21282061",
+      "29051499",
+      "34272562",
+      "27567672",
+      "19061501",
+      "37085776",
+      "37803123",
+      "24172660",
+      "42140663",
+      "25428367",
+      "36155619",
+      "41386265",
+      "38342857",
+      "34962264",
+      "40141153",
+      "20085649",
+      "18586698",
+      "39964163",
+      "18513408",
+      "41489955",
+      "36693565",
+      "33631799",
+      "40662784",
+      "29879919",
+      "20840729",
+      "29325558",
+      "33662629",
+      "34534646",
+      "38490467",
+      "34486522",
+      "41093852",
+      "41545085",
+      "40566792",
+      "27556418",
+      "33974299",
+      "41450215",
+      "17319944",
+      "21690103",
+      "21375730",
+      "33842944",
+      "40216929",
+      "22952919",
+      "34837938",
+      "22369687",
+      "41042660",
+      "32181581",
+      "34292930",
+      "33874910",
+      "41288984",
+      "29272447"
+    ],
+    "review": [
+      "41782896",
+      "20840729",
+      "40566792"
+    ],
+    "pmc": [
+      "12954442"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41782896/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqag022",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41158511",
+    "doi": "10.3389/fgene.2025.1653163",
+    "title": "Transcriptomic profiling reveals macrophage gene signatures associated with lactylation-related pathways in chronic obstructive pulmonary disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Macrophages contribute to the immune dysregulation observed in chronic obstructive pulmonary disease (COPD). Additionally, lactylation exerts an indirect influence on COPD pathogenesis. However, the specific biomarkers linked to macrophage activation in COPD and the underlying molecular mechanisms remain poorly understood. This study aimed to identify these biomarkers and elucidate the associated molecular pathways. METHODS: Data were retrieved from public databases. A comprehensive analysis was conducted using weighted gene co-expression network analysis (WGCNA), immune infiltration analysis, differential expression analysis, correlation studies, machine learning, receiver operating characteristic (ROC) analysis, and expression level validation to identify macrophage lactylation-related biomarkers in COPD. The nomogram model, Gene Set Enrichment Analysis (GSEA), molecular regulatory networks, compound predictions, and molecular docking were employed to further explore the roles of these biomarkers in COPD. Clinical samples were used to validate the expression levels of the identified biomarkers. RESULTS: Three key biomarkers-ALDH2, ASGR2, and CYP1B1-were identified. The nomogram model based on these biomarkers accurately predicted the mortality of patients with COPD. GSEA suggested that the biomarkers are likely involved in metabolic pathways and B-cell receptor signaling. Five transcription factors (TFs), including STAT3, were associated with all identified biomarkers. Eight compounds, including bisphenol A, were linked to multiple biomarkers, with CYP1B1 exhibiting the strongest binding affinity to benzo(a)pyrene. In vitro experiments confirmed the validity of the bioinformatics findings. CONCLUSION: This study identified three biomarkers, offering new perspectives on potential therapeutic targets for COPD.",
+    "keywords": [
+      "biomarkers",
+      "chronic obstructive pulmonary disease",
+      "experimental verification",
+      "lactylation",
+      "macrophage"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Hui",
+        "Sun, Weilin",
+        "Zhao, Fang",
+        "Yu, Yang",
+        "Zhao, Xiaoyun",
+        "Sun, Daqiang"
+      ],
+      "short_names": [
+        "Guo H",
+        "Sun W",
+        "Zhao F",
+        "Yu Y",
+        "Zhao X",
+        "Sun D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital National Clinical Research Center for Cancer, Tianjin, China.",
+        "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China.",
+        "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China.",
+        "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China.",
+        "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Hui",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Weilin",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Medical University Cancer Institute & Hospital National Clinical Research Center for Cancer, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Fang",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yang",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoyun",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Daqiang",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 06:27",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [
+      "42593569",
+      "41898489"
+    ],
+    "refs": [
+      "40688081",
+      "40258727",
+      "40244222",
+      "40233623",
+      "39827671",
+      "39737891",
+      "39662177",
+      "39095691",
+      "38891820",
+      "38855107",
+      "38528143",
+      "38458067",
+      "38196537",
+      "38167340",
+      "38034468",
+      "37981453",
+      "37885715",
+      "37489241",
+      "37400102",
+      "37348121",
+      "37264332",
+      "37243592",
+      "37242427",
+      "37059712",
+      "36936815",
+      "36610610",
+      "36539833",
+      "36446798",
+      "36439872",
+      "36299582",
+      "36233246",
+      "36215678",
+      "35896191",
+      "35837069",
+      "35751589",
+      "35734174",
+      "35547772",
+      "35488927",
+      "35319068",
+      "35002516",
+      "34864868",
+      "34618614",
+      "34557778",
+      "34409028",
+      "34221859",
+      "34177945",
+      "33919784",
+      "33767380",
+      "33726814",
+      "33567514",
+      "33502902",
+      "33493091",
+      "33199625",
+      "33074715",
+      "33069326",
+      "32140062",
+      "32021149",
+      "31767537",
+      "31645732",
+      "31299954",
+      "29422903",
+      "29141660",
+      "29042607",
+      "28431562",
+      "28322972",
+      "27247223",
+      "27178410",
+      "26979628",
+      "26755942",
+      "25775429",
+      "25605792",
+      "25007795",
+      "24557852",
+      "23601688",
+      "23256714",
+      "22544865",
+      "21958412",
+      "21414208",
+      "20816169",
+      "20705694",
+      "19114008",
+      "14597658"
+    ],
+    "similar": [
+      "41158511",
+      "40332792",
+      "41340627",
+      "40453984",
+      "40868258",
+      "39962573",
+      "41132649",
+      "40617086",
+      "40927188",
+      "40093012",
+      "34250093",
+      "37057099",
+      "39346628",
+      "40406126",
+      "39845878",
+      "40596702",
+      "41181152",
+      "39349929",
+      "41030501",
+      "39691970",
+      "40274954",
+      "41497534",
+      "40914702",
+      "39893187",
+      "41137279",
+      "41221285",
+      "40672388",
+      "40329965",
+      "40161396",
+      "37251077",
+      "40655182",
+      "39139563",
+      "41378121",
+      "41386886",
+      "41479901",
+      "40655111",
+      "39315143",
+      "40787468",
+      "41052072",
+      "40532306",
+      "39950319",
+      "40374840",
+      "41393259",
+      "40842856",
+      "41320661",
+      "41013556",
+      "40630963",
+      "41246341",
+      "36969832",
+      "41299729",
+      "40913866",
+      "40425742",
+      "38873611",
+      "41384025",
+      "40140846",
+      "41200172",
+      "39396400",
+      "40873619",
+      "41432483",
+      "41504052",
+      "41442003",
+      "40927289",
+      "40362543",
+      "41053199",
+      "38342020",
+      "38537674",
+      "40782934",
+      "40747360",
+      "41310117",
+      "39142001",
+      "40045538",
+      "40273141",
+      "39780155",
+      "38987624",
+      "40244418",
+      "41044520",
+      "41291841",
+      "35350787",
+      "41239605",
+      "41125916",
+      "40124361",
+      "37662825",
+      "37878760",
+      "39072329",
+      "38448858",
+      "41070131",
+      "39707377",
+      "39344484",
+      "39391879",
+      "40540134",
+      "40361222",
+      "34764646",
+      "40078927",
+      "39066538",
+      "40764361",
+      "41424060",
+      "40362669",
+      "40442788",
+      "32957957",
+      "40169651"
+    ],
+    "review": [
+      "41158511"
+    ],
+    "pmc": [
+      "12554970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41158511/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-12",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1653163",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

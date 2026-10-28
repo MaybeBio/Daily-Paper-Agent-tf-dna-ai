@@ -1,0 +1,611 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.23.521831",
+  "title": "A DNA damage-induced phosphorylation circuit enhances Mec1 <sup>ATR</sup> -Ddc2 <sup>ATRIP</sup> recruitment to Replication Protein A",
+  "doi": "10.1101/2022.12.23.521831",
+  "abstract": "The cell cycle checkpoint kinase Mec1 ATR and its integral partner Ddc2 ATRIP are vital for the DNA damage and replication stress response. Mec1-Ddc2 ‘senses’ single-stranded DNA (ssDNA) by being recruited to the ssDNA binding Replication Protein A (RPA) via Ddc2. In this study, we show that a DNA-damage induced phosphorylation circuit modulates checkpoint recruitment and function. We demonstrate that Ddc2-RPA interactions modulate the association between RPA and ssDNA and that Rfa1-phosphorylation aids in the further recruitment of Mec1-Ddc2. We also uncover an underappreciated role for Ddc2 phosphorylation that enhances its recruitment to RPA-ssDNA that is important for the DNA damage checkpoint in yeast. The crystal structure of a phosphorylated Ddc2 peptide in complex with its RPA interaction domain provides molecular details of how checkpoint recruitment is enhanced, which involves Zn 2+ . Using electron microscopy and structural modelling approaches, we propose that Mec1-Ddc2 complexes can form higher order assemblies with RPA when Ddc2 is phosphorylated. Together, our results provide insight into Mec1 recruitment and suggest that formation of supramolecular complexes of RPA and Mec1-Ddc2, modulated by phosphorylation, would allow for rapid clustering of damage foci to promote checkpoint signalling. Graphical Abstract Highlights Rfa1-S178 phosphorylation promotes Ddc2 recruitment and Ddc2-RPA complexes modulate RPA-ssDNA behaviour. Ddc2 phosphorylation enhances Mec1-Ddc2 recruitment and is important for the DNA damage checkpoint in yeast. Structure of a Ddc2:RPA complex shows phosphorylation-dependent higher order assemblies stabilised by Zn 2+ . We propose a Mec1-Ddc2 recruitment strategy that allows fast accumulation of Mec1-Ddc2 through DNA damage-induced phosphorylation and promotes autophosphorylation.",
+  "authors": [
+    "Luke A. Yates",
+    "Elias A. Tannous",
+    "R. Marc Morgan",
+    "Peter M. Burgers",
+    "Xiaodong Zhang"
+  ],
+  "published_date": "2022-12-23",
+  "updated_date": "2022-12-24T00:40:23Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.23.521831",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.23.521831.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:31:41Z",
+        "timestamp": 1768505501012,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 64,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The cell cycle checkpoint kinase Mec1\n                  <jats:sup>ATR</jats:sup>\n                  and its integral partner Ddc2\n                  <jats:sup>ATRIP</jats:sup>\n                  are vital for the DNA damage and replication stress response. Mec1-Ddc2 ‘senses’ single-stranded DNA (ssDNA) by being recruited to the ssDNA binding Replication Protein A (RPA) via Ddc2. In this study, we show that a DNA-damage induced phosphorylation circuit modulates checkpoint recruitment and function. We demonstrate that Ddc2-RPA interactions modulate the association between RPA and ssDNA and that Rfa1-phosphorylation aids in the further recruitment of Mec1-Ddc2. We also uncover an underappreciated role for Ddc2 phosphorylation that enhances its recruitment to RPA-ssDNA that is important for the DNA damage checkpoint in yeast. The crystal structure of a phosphorylated Ddc2 peptide in complex with its RPA interaction domain provides molecular details of how checkpoint recruitment is enhanced, which involves Zn\n                  <jats:sup>2+</jats:sup>\n                  . Using electron microscopy and structural modelling approaches, we propose that Mec1-Ddc2 complexes can form higher order assemblies with RPA when Ddc2 is phosphorylated. Together, our results provide insight into Mec1 recruitment and suggest that formation of supramolecular complexes of RPA and Mec1-Ddc2, modulated by phosphorylation, would allow for rapid clustering of damage foci to promote checkpoint signalling.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Graphical Abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"521831v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Rfa1-S178 phosphorylation promotes Ddc2 recruitment and Ddc2-RPA complexes modulate RPA-ssDNA behaviour.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Ddc2 phosphorylation enhances Mec1-Ddc2 recruitment and is important for the DNA damage checkpoint in yeast.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        Structure of a Ddc2:RPA complex shows phosphorylation-dependent higher order assemblies stabilised by Zn\n                        <jats:sup>2+</jats:sup>\n                        .\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We propose a Mec1-Ddc2 recruitment strategy that allows fast accumulation of Mec1-Ddc2 through DNA damage-induced phosphorylation and promotes autophosphorylation.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2022.12.23.521831",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            24
+          ]
+        ],
+        "date-time": "2022-12-24T00:40:23Z",
+        "timestamp": 1671842423000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A DNA damage-induced phosphorylation circuit enhances Mec1\n                  <sup>ATR</sup>\n                  -Ddc2\n                  <sup>ATRIP</sup>\n                  recruitment to Replication Protein A"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5023-0803",
+          "authenticated-orcid": false,
+          "given": "Luke A.",
+          "family": "Yates",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8073-1599",
+          "authenticated-orcid": false,
+          "given": "Elias A.",
+          "family": "Tannous",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9760-3638",
+          "authenticated-orcid": false,
+          "given": "R. Marc",
+          "family": "Morgan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3530-7235",
+          "authenticated-orcid": false,
+          "given": "Peter M.",
+          "family": "Burgers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9786-7038",
+          "authenticated-orcid": false,
+          "given": "Xiaodong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909052925"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/mcp.M700468-MCP200"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.02238-06"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-08889-5"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.01.043"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2008.03.023"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2015.04.008"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.14.4.397"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.07.029"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.R800062200"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(02)01113-3"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "294",
+          "DOI": "10.1038/s41586-021-03458-7",
+          "article-title": "Structural basis of long-range to short-range synaptic transition in NHEJ",
+          "volume": "593",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-015-9969-9"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1007856107"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.09.019"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2004.08.051"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dhingra, N. , Kuppa, S. , Wei, L. , Pokhrel, N. , Baburyan, S. , Meng, X. , Antony, E. , and Zhao, X. (2021). The Srs2 helicase dampens DNA damage checkpoint by recycling RPA from chromatin. Proc. Natl. Acad. Sci. USA 118.",
+          "DOI": "10.1073/pnas.2020185118"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "8859",
+          "DOI": "10.1093/nar/gkx571",
+          "article-title": "A phosphorylation-and-ubiquitylation circuitry driving ATR activation and homologous recombination",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.018366"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444904019158"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.270.43.25905"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M800881200"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1172867"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "e108439",
+          "DOI": "10.15252/embj.2021108439",
+          "article-title": "A regulatory phosphorylation site on Mec1 controls chromatin occupancy of RNA polymerases during replication stress",
+          "volume": "40",
+          "year": "2021",
+          "journal-title": "EMBO J"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.11.016"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01362-6"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/22.15.3104"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2003.07.004"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1016/j.tibs.2020.08.011",
+          "article-title": "Galvanization of Protein-Protein Interactions in a Dynamic Zinc Interactome",
+          "volume": "46",
+          "year": "2021",
+          "journal-title": "Trends Biochem. Sci"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2007.05.022"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ic401072d"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embr.202051121"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.016457"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "e108290",
+          "DOI": "10.15252/embj.2021108290",
+          "article-title": "Metabolic remodeling maintains a reducing environment for rapid activation of the yeast DNA replication checkpoint",
+          "volume": "41",
+          "year": "2022",
+          "journal-title": "EMBO J"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798319011471"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.14.12.1448"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "5375",
+          "DOI": "10.1016/j.cell.2021.09.002",
+          "article-title": "Structural basis and regulation of the reductive stress response",
+          "volume": "184",
+          "year": "2021",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2013.11.002"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1090",
+          "DOI": "10.1016/j.celrep.2019.06.068",
+          "article-title": "Mec1atr autophosphorylation and ddc2atrip phosphorylation regulates DNA damage checkpoint signaling",
+          "volume": "28",
+          "year": "2019",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-07798-3"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Miller, A. , Matera-Witkiewicz, A. , Mikołajczyk, A. , Wątły, J. , Wilcox, D. , Witkowska, D. , and Rowińska-Żyrek, M. (2021). Zn-Enhanced Asp-Rich Antimicrobial Peptides: N-Terminal Coordination by Zn(II) and Cu(II), Which Distinguishes Cu(II) Binding to Different Peptides. Int. J. Mol. Sci. 22.",
+          "DOI": "10.3390/ijms22136971"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1038/s41592-022-01488-1",
+          "article-title": "ColabFold: making protein folding accessible to all",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.004955"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "883",
+          "DOI": "10.2741/3652",
+          "article-title": "Replication protein A: directing traffic at the intersection of replication and repair",
+          "volume": "15",
+          "year": "2010",
+          "journal-title": "Front. Biosci. (Landmark Ed)"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1129"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.14.16.2046"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(02)00507-5"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "e104566",
+          "DOI": "10.15252/embj.2020104566",
+          "article-title": "Phosphoproteomics reveals a distinctive Mec1/ATR signaling response upon DNA end hyper-resection",
+          "volume": "40",
+          "year": "2021",
+          "journal-title": "EMBO J"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M115.708263"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/EC.00077-07"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.1080/10409238.2021.1925218",
+          "article-title": "Novel insights into the mechanism of cell cycle kinases Mec1(ATR) and Tel1(ATM)",
+          "volume": "56",
+          "year": "2021",
+          "journal-title": "Crit Rev Biochem Mol Biol"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "50",
+          "DOI": "10.1038/s41594-020-00522-0",
+          "article-title": "Mechanism of auto-inhibition and activation of Mec1ATR checkpoint kinase",
+          "volume": "28",
+          "year": "2021",
+          "journal-title": "Nat. Struct. Mol. Biol"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aan8414"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.8.6.652"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910045749"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4224"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.66.1.61"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "2248",
+          "DOI": "10.1038/s41467-022-29937-7",
+          "article-title": "Bloom helicase mediates formation of large single-stranded DNA loops during DNA end processing",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-07883-7"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "4243",
+          "DOI": "10.1016/j.molcel.2021.08.009",
+          "article-title": "A basal-level activity of ATR links replication fork surveillance and stress response",
+          "volume": "81",
+          "year": "2021",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798317001061"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1602827113"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zivanov, J. , Nakane, T. , Forsberg, B.O. , Kimanius, D. , Hagen, W.J. , Lindahl, E. , and Scheres, S.H. (2018). New tools for automated high-resolution cryo-EM structure determination in RELION-3. Elife 7.",
+          "DOI": "10.7554/eLife.42166"
+        },
+        {
+          "key": "2022122705550505000_2022.12.23.521831v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1083430"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.23.521831",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:03:23Z",
+        "timestamp": 1768449803000
+      },
+      "score": 67.084496,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.12.23.521831"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "references-count": 64,
+      "URL": "https://doi.org/10.1101/2022.12.23.521831",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

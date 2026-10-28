@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and alignment with Nature-style criteria based solely on the provided text
+- **Shared manuscript claim summary** The authors present a computational method integrating ChIP-seq, MNase-seq, and DNase-seq data to predict cell-type-specific pioneer transcription factor (PTF) activity among 225 human TFs across five cell lines, and cluster PTF binding motifs on nucleosomal DNA into six distinct interaction modes
+- **Visible evidence base** Methods section (computational workflow, data processing, statistical tests), Results section (enrichment analysis, correlation analysis, clustering), Supplementary table/figure references (Tables 1-13, Figures 1-4, Supplementary Figures 1-9)
+- **Missing materials affecting confidence** All figures, all supplementary tables and figures, exact parameter values for clustering and motif scanning, detailed statistical outputs, and the complete list of predicted PTFs
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: identifying pioneer transcription factors that can bind nucleosomal DNA in a cell-type-specific manner. The proposed computational framework is conceptually reasonable and integrates publicly available datasets in a sensible way. However, the provided text alone does not allow verification of several key claims, particularly regarding classification performance, the validity of the positive/negative sets, and the biological significance of the predicted PTFs. The clustering analysis is descriptive and its novelty relative to existing structural data is not fully established. The manuscript would benefit from clearer presentation of validation metrics, explicit handling of potential confounders, and a more rigorous discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying chromatin biology, transcription factor regulation, and cell fate determination would find this work relevant. The computational prediction of new PTFs could provide candidates for experimental validation, and the clustering of binding modes may inform structural studies of TF-nucleosome interactions. The method could also be of interest to computational biologists developing integrative approaches for epigenomic data analysis.
+- **Major strengths** The study addresses a significant gap in the field by attempting systematic prediction of PTFs rather than relying on individual experimental characterizations. The integration of multiple epigenomic data types (ChIP-seq, MNase-seq, DNase-seq) is appropriate and leverages publicly available resources. The use of multiple validation strategies, including known PTF sets and comparison with independent experimental data, strengthens the credibility of the approach. The analysis of binding modes via clustering is a useful descriptive contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method can discriminate pioneer from canonical transcription factors with reported AUC values of 0.69-0.92 depending on the test set and definition of differentially open regions.
+  - **Evidence pointer** Results section "Transcription factor binding motif enrichment analysis can identify pioneer transcription factors"; Supplementary Tables 5, 10, 11; Figure 2
+  - **Concern** The classification performance is reported as AUC values, but the text does not specify how the negative set was constructed beyond "other transcription factors." If the negative set contains unknown PTFs, as the authors acknowledge, the reported AUC values are lower-bound estimates. However, the magnitude of this effect is unclear. More critically, the text does not describe how the enrichment score threshold for classification was chosen, whether cross-validation was performed, or how the Mann-Whitney U test was applied to enrichment scores in a classification context. The reported p-values and AUC values are not sufficient to assess whether the method would generalize to unseen cell types or TFs.
+  - **Why it matters** Without a clear description of the classification procedure and validation scheme, the central claim that the method can reliably identify PTFs is not fully supported. The reader cannot assess whether the reported performance is robust or an artifact of the specific dataset split or threshold selection.
+  - **Resolution test** Provide a detailed description of the classification procedure, including how the enrichment score threshold was determined, whether leave-one-out or other cross-validation schemes were used, and the composition of the negative set. Report confidence intervals for AUC values and show a precision-recall curve with baseline performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The correlation analysis between TF binding motif profiles and nucleosome occupancy identifies 37 TFs with statistically significant positive correlations, including known PTFs.
+  - **Evidence pointer** Results section "Association between binding motif profiles and nucleosome occupancy for pioneer transcription factors"; Supplementary Table 13; Figure 3
+  - **Concern** The text reports Pearson correlation coefficients (PCC) between binding motif profiles and nucleosome occupancy values, but does not specify how statistical significance was assessed. Given that adjacent genomic positions are highly autocorrelated, standard significance tests assuming independence are likely invalid. The text also does not state whether multiple testing correction was applied when identifying 37 significant TFs out of 225. The threshold for "significant" correlation is not defined.
+  - **Why it matters** The identification of 37 potential nucleosome binders is a key result. If the significance testing is flawed, the list of predicted PTFs may contain many false positives, undermining the utility of the method for experimental follow-up.
+  - **Resolution test** Describe the statistical test used to assess significance of PCC values, including how autocorrelation was handled. State whether multiple testing correction was applied and report adjusted p-values. Provide the full distribution of PCC values for all 225 TFs to allow assessment of the significance threshold.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim** The clustering analysis reveals six distinct groups of PTF binding sites on nucleosomal DNA, representing different interaction modes.
+  - **Evidence pointer** Results section "Clustering reveals several groups of pioneer transcription factor binding sites"; Figure 4; Supplementary Figure 9
+  - **Concern** The clustering analysis is presented as a novel finding, but the text does not explain how the six clusters differ from previously described binding modes (end binding, dyad binding, gyre binding, periodic binding) identified by NCAP-SELEX. The authors reference this prior work but do not clearly articulate what new information their clustering provides. The choice of k=6 is justified only by a reference to a supplementary figure, and the stability of the clustering solution is not assessed.
+  - **Why it matters** If the clusters simply recapitulate known binding modes, the novelty of this analysis is limited. The reader needs to understand what new biological insight the clustering provides beyond existing classifications.
+  - **Resolution test** Explicitly compare the six clusters to the previously described binding modes and state which clusters correspond to known modes and which are novel. Provide a stability analysis of the clustering (e.g., bootstrap or subsampling) and justify the choice of k.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The method predicts 20-25 new potential PTFs in each cell line that are highly expressed and have literature support.
+  - **Evidence pointer** Results section "Transcription factor binding motif enrichment analysis can identify pioneer transcription factors"; Supplementary Tables 7, 9, 12
+  - **Concern** The text states that literature searches confirmed some predictions, but the criteria for "confirmation" are not defined. For example, RFX5 is cited as having the ability to displace nucleosomes, but it is unclear whether this constitutes evidence of pioneer activity in the same sense as the known PTFs used for validation. The text also does not specify how many of the 20-25 predictions per cell line were confirmed, leaving the reader unable to estimate the false discovery rate.
+  - **Why it matters** The practical value of the method depends on the reliability of new predictions. Without a clear definition of what constitutes validation, the claim that the method identifies new PTFs is not quantitatively supported.
+  - **Resolution test** Provide a table listing all predicted PTFs with the type of evidence supporting each prediction (e.g., experimental, literature, none). Define the criteria for considering a prediction "confirmed" and report the confirmation rate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The phrase "pioneer transcription factors" is introduced without a clear definition for readers who may not be familiar with the term. The distinction between pioneer and canonical TFs is implied but not explicitly stated until later in the text.
+  - **Required correction** Provide a brief definition of pioneer transcription factors in the introduction, e.g., "transcription factors that can bind to nucleosomal DNA and initiate chromatin opening."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Genome-wide mapping of nucleosome dyads and footprint regions"
+  - **Evidence pointer** Methods section, paragraph 1
+  - **Issue** The text states that reads with fragment sizes from 146 to 148 base pairs were selected for dyad mapping, but the minimum and maximum insert sizes for filtering mononucleosomal reads were set to 120 and 180 base pairs. The rationale for this narrower selection is not explained.
+  - **Required correction** Clarify why only 146-148 bp fragments were used for dyad mapping and whether this selection affects the generalizability of the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Transcription factor motif enrichment analysis"
+  - **Evidence pointer** Methods section, paragraph 4
+  - **Issue** The text does not specify how the "highly expressed" threshold (RPKM >= 10) was chosen, nor does it explain whether expression data from all cell lines were used consistently.
+  - **Required correction** Justify the expression threshold and state whether the same threshold was applied across all cell lines.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Clustering reveals several groups of pioneer transcription factor binding sites"
+  - **Evidence pointer** Results section, paragraph 4
+  - **Issue** The description of clusters (e.g., "cluster 3 and 5 preferentially occupy SHL +/- 1 to SHL +/- 2.5") assumes familiarity with superhelical location (SHL) nomenclature, which may not be accessible to all readers.
+  - **Required correction** Briefly explain SHL nomenclature or provide a schematic reference in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Clustering of transcription factor binding motif profiles"
+  - **Evidence pointer** Methods section, paragraph 5
+  - **Issue** The text states that t-SNE was used for dimensionality reduction followed by k-medoids clustering, but does not specify the perplexity parameter for t-SNE or the distance metric for k-medoids.
+  - **Required correction** Report the parameters used for t-SNE and k-medoids to ensure reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (classification validation), R1-M2 (statistical significance of correlations), R1-M3 (novelty of clustering relative to known binding modes)
+- **Assessment against Nature-style criteria**
+  - Originality: Moderate. The integration of multiple data types for PTF prediction is a reasonable extension of existing approaches, but the conceptual framework is not fundamentally new. The clustering analysis may offer descriptive value but its novelty relative to NCAP-SELEX findings is not clearly established.
+  - Scientific importance: Moderate to high. Identifying new PTFs and understanding their binding modes has implications for chromatin biology and cell reprogramming. However, the practical impact depends on the reliability of predictions, which is not fully demonstrated in the provided text.
+  - Interdisciplinary readership: Moderate. The work bridges computational biology, epigenomics, and transcription factor biology. It may appeal to researchers in these fields, but the presentation assumes familiarity with epigenomic data types and nucleosome structure.
+  - Technical soundness: Needs improvement. The statistical methods for assessing correlation significance and classification performance are not described in sufficient detail to evaluate their validity. The clustering analysis lacks stability assessment.
+  - Readability for nonspecialists: Adequate but improvable. The text is generally clear, but key terms (pioneer transcription factors, superhelical locations) are not defined for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the integration of public data is sensible, but the current manuscript does not provide sufficient methodological detail to verify the central claims. Addressing the statistical concerns and clarifying the novelty of the clustering analysis would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that the method can discriminate pioneer from canonical TFs with AUC up to 0.92 is not fully supported without details on the classification procedure and validation scheme.
+- The identification of 37 TFs with significant positive correlations between binding motif profiles and nucleosome occupancy is not verifiable without specification of the statistical test and multiple testing correction.
+- The claim that six clusters represent distinct interaction modes is descriptive and not quantitatively validated; the novelty relative to NCAP-SELEX binding modes is not established.
+- The statement that "many of the predicted PTFs... were confirmed by a recent study" is vague; the number and identity of confirmed predictions are not provided.
+- The biological significance of the predicted PTFs is asserted but not demonstrated with functional validation or downstream analysis.

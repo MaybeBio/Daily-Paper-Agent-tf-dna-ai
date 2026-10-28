@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report integration of whole-genome sequencing and single-cell RNA-seq data from 230,000 PBMCs across 30 individuals, identifying 1,233,644 cis-eQTLs across 18 cell types. They claim validation via conservation analysis, showing that significant eQTLs reside in less conserved regions and regulatory areas of divergent genes, and further characterization using deep learning-based cis-regulatory models to reveal cell-type-specific variant activity, including effects on immune-related genes (NKG7, HLA, MIF, MS4A1) and transcription factor binding disruption.
+- **Visible evidence base** Abstract text only; no numerical results beyond the headline eQTL count, no statistical metrics, no methodological details, no figures or tables
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, quality control metrics, eQTL mapping procedures, conservation analysis details, deep learning model specifications, validation statistics, and any sensitivity or replication analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integration of single-cell eQTL mapping with conservation and deep learning analyses in the context of COVID-19. However, the scope of the claims substantially exceeds what can be evaluated from the abstract alone. The headline numbers are stated without supporting statistical context, the disease-specific framing is not evident from the abstract content, and the deep learning component is described only superficially. The work may be of interest to the immunogenomics community, but the current evidence base is insufficient to assess technical soundness or the validity of the biological conclusions.
+- **Who would be interested in the results, and why** Researchers in functional genomics, immunogenomics, and statistical genetics would be interested in the cell-type-specific cis-eQTL catalog for PBMCs. Those working on regulatory variant interpretation and deep learning applications in genomics may also find the approach relevant. Given the COVID-19 framing, investigators studying host genetic determinants of immune response to SARS-CoV-2 could be interested, though the abstract does not make this connection explicit.
+- **Major strengths** The integration of paired whole-genome and single-cell RNA-seq data across multiple cell types is a technically ambitious and potentially valuable design. The combination of conservation analysis with deep learning-based regulatory modeling represents a multi-layered approach to eQTL interpretation. The focus on immune-related genes with known relevance to infection and immunity is biologically meaningful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity and reproducibility
+  - **Claim pointer** The authors claim identification of 1,233,644 cis-eQTLs across 18 cell types from 30 individuals
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no statistical thresholds, multiple testing correction procedures, or effect size distributions for the reported eQTL count. With only 30 individuals, the power to detect cis-eQTLs, particularly in rare or minor cell types, is a substantial concern. The number of eQTLs reported is very large and without false discovery rate metrics or replication evidence, the reliability of this catalog cannot be assessed.
+  - **Why it matters** eQTL discovery is highly sensitive to sample size, cell type abundance, and statistical thresholds. If the reported eQTLs are not robustly filtered, the downstream conservation and deep learning analyses may be built on a noisy foundation, undermining all subsequent biological interpretations.
+  - **Resolution test** Provide the full eQTL mapping methodology including the significance threshold, multiple testing correction approach, number of variants tested per cell type, and ideally replication in an independent cohort or at least permutation-based empirical null distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Disease-specific framing
+  - **Claim pointer** The title frames the work as "Disease-Specific Cis-eQTLs analysis of COVID-19" and the abstract mentions COVID-19 in the title context
+  - **Evidence pointer** Title and abstract; location not provided
+  - **Concern** The abstract does not describe any COVID-19-specific design elements. There is no mention of case-control status, infection status of the 30 individuals, or any comparison between COVID-19 patients and healthy controls. The analysis appears to be conducted on PBMCs without explicit disease stratification.
+  - **Why it matters** The title makes a specific claim about disease specificity that is not supported by the abstract content. If the samples are not stratified by COVID-19 status, the "disease-specific" framing is misleading and the scientific contribution relative to existing PBMC eQTL resources is unclear.
+  - **Resolution test** Clarify the cohort composition with respect to COVID-19 status and describe any disease-stratified analyses. If no disease comparison was performed, revise the title and framing accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of deep learning analysis
+  - **Claim pointer** The authors claim that deep learning-based cis-regulatory models revealed cell-type-specific context of variant activity and identified transcription factors whose binding sites are disrupted by genomic variants
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information about which deep learning model was used, how it was trained or validated, what genomic features were input, or how the cell-type-specific predictions were benchmarked against experimental data. The claim that transcription factor binding disruption was identified requires experimental or at least orthogonal validation.
+  - **Why it matters** Deep learning predictions in regulatory genomics are only as credible as their validation. Without details on model architecture, training data, performance metrics, and validation against independent chromatin or binding data, the transcription factor disruption claims remain speculative.
+  - **Resolution test** Describe the deep learning model, its training and validation strategy, and provide evidence that predicted transcription factor binding disruptions are supported by independent data such as ChIP-seq, ATAC-seq, or electrophoretic mobility shift assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of cohort description
+  - **Affected element** Sample description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states 230,000 PBMCs across 30 individuals but does not specify sex, age, ancestry, or any relevant clinical characteristics. The phrase "population-specific genomic variants" in the introduction suggests population diversity, but this is not described.
+  - **Required correction** Provide demographic and ancestry information for the 30 individuals, and clarify whether the cohort is designed to capture population diversity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Gene selection rationale
+  - **Affected element** Highlighted genes
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract highlights NKG7, HLA, MIF, and MS4A1 as key immune-related genes but does not explain why these specific genes were selected for emphasis over the thousands of other eQTL-associated genes.
+  - **Required correction** Justify the selection of these genes, either through statistical significance, known biological relevance, or disease association.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Conservation analysis interpretation
+  - **Affected element** Evolutionary claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that significant eQTLs are associated with less conserved regions and concentrated in regulatory areas of more divergent genes is presented without any quantitative measure of conservation or statistical comparison.
+  - **Required correction** Provide the conservation metric used, the statistical test applied, and effect sizes to support the evolutionary interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical thresholds and replication for eQTL discovery), R1-M2 (disease-specific design not described), R1-M3 (deep learning validation absent)
+- **Assessment against Nature-style criteria** Originality: The combination of single-cell eQTL mapping with conservation and deep learning interpretation is not entirely novel but represents a reasonable integrative approach. Scientific importance: A well-validated cell-type-specific eQTL resource for PBMCs would be valuable, but the abstract does not demonstrate that this resource surpasses existing efforts. Interdisciplinary readership: The work bridges genomics, immunology, and computational biology, which could attract broad interest if properly validated. Technical soundness: Cannot be assessed from the abstract; the absence of statistical detail and validation is a major limitation. Readability for nonspecialists: The abstract is generally readable but uses specialized terminology without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful resource, but the absence of statistical detail, disease-specific design, and deep learning validation prevents assessment of whether the central claims are supported. A revised manuscript with full methodological transparency and validation would be required to evaluate the work fairly.
+
+## Risk / unsupported claims
+- The claim of 1,233,644 cis-eQTLs is unsupported without statistical thresholds and quality control metrics.
+- The "disease-specific" framing for COVID-19 is unsupported as no disease comparison is described in the abstract.
+- The claim that deep learning models revealed cell-type-specific variant activity and transcription factor binding disruption is unsupported without model details and validation.
+- The conservation analysis conclusion is unsupported without quantitative metrics.
+- The relevance of the highlighted genes (NKG7, HLA, MIF, MS4A1) to the study's conclusions is not established.

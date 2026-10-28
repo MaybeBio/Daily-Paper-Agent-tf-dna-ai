@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.20.465087",
+  "title": "A Network-based Deep Learning Framework Catalyzes GWAS and Multi-Omics Findings to Biology and Drug Repurposing for Alzheimer’s Disease",
+  "doi": "10.1101/2021.10.20.465087",
+  "abstract": "Human genome sequencing studies have identified numerous loci associated with complex diseases, including Alzheimer’s disease (AD). Translating human genetic findings (i.e., genome-wide association studies [GWAS]) to pathobiology and therapeutic discovery, however, remains a major challenge. To address this critical problem, we present a net work t opology-based deep learning framework to identify disease- a ssociated g enes (NETTAG). NETTAG is capable of integrating multigenomics data along with the protein-protein interactome to infer putative risk genes and drug targets impacted by GWAS loci. Specifically, we leverage non-coding GWAS loci effects on expression quantitative trait loci (eQTLs), histone-QTLs, and transcription factor binding-QTLs, enhancers and CpG islands, promoter regions, open chromatin, and promoter flanking regions. The key premises of NETTAG are that the disease risk genes exhibit distinct functional characteristics compared to non-risk genes and therefore can be distinguished by their aggregated genomic features under the human protein interactome. Applying NETTAG to the latest AD GWAS data, we identified 156 putative AD-risk genes (i.e., APOE , BIN1 , GSK3B , MARK4 , and PICALM ). We showed that predicted risk genes are: 1) significantly enriched in AD-related pathobiological pathways, 2) more likely to be differentially expressed regarding transcriptome and proteome of AD brains, and 3) enriched in druggable targets with approved medicines (i.e., choline and ibudilast). In summary, our findings suggest that understanding of human pathobiology and therapeutic development could benefit from a network-based deep learning methodology that utilizes GWAS findings under the multimodal genomic analyses.",
+  "authors": [
+    "Xu J",
+    "Hou Y",
+    "Zhou Y",
+    "Hu M",
+    "Cheng F"
+  ],
+  "published_date": "2021-10-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465087",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465087.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR409560",
+    "raw_record": {
+      "id": "PPR409560",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.20.465087",
+      "title": "A Network-based Deep Learning Framework Catalyzes GWAS and Multi-Omics Findings to Biology and Drug Repurposing for Alzheimer’s Disease",
+      "authorString": "Xu J, Hou Y, Zhou Y, Hu M, Cheng F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Xu J",
+            "lastName": "Xu",
+            "firstName": "Jielin",
+            "initials": "J"
+          },
+          {
+            "fullName": "Hou Y",
+            "lastName": "Hou",
+            "firstName": "Yuan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Zhou Y",
+            "lastName": "Zhou",
+            "firstName": "Yadi",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Hu M",
+            "lastName": "Hu",
+            "firstName": "Ming",
+            "initials": "M"
+          },
+          {
+            "fullName": "Cheng F",
+            "lastName": "Cheng",
+            "firstName": "Feixiong",
+            "initials": "F"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Human genome sequencing studies have identified numerous loci associated with complex diseases, including Alzheimer’s disease (AD). Translating human genetic findings (i.e., genome-wide association studies [GWAS]) to pathobiology and therapeutic discovery, however, remains a major challenge. To address this critical problem, we present a  net work  t opology-based deep learning framework to identify disease-  a ssociated  g enes (NETTAG). NETTAG is capable of integrating multigenomics data along with the protein-protein interactome to infer putative risk genes and drug targets impacted by GWAS loci. Specifically, we leverage non-coding GWAS loci effects on expression quantitative trait loci (eQTLs), histone-QTLs, and transcription factor binding-QTLs, enhancers and CpG islands, promoter regions, open chromatin, and promoter flanking regions. The key premises of NETTAG are that the disease risk genes exhibit distinct functional characteristics compared to non-risk genes and therefore can be distinguished by their aggregated genomic features under the human protein interactome. Applying NETTAG to the latest AD GWAS data, we identified 156 putative AD-risk genes (i.e.,  APOE ,  BIN1 ,  GSK3B ,  MARK4 , and  PICALM ). We showed that predicted risk genes are: 1) significantly enriched in AD-related pathobiological pathways, 2) more likely to be differentially expressed regarding transcriptome and proteome of AD brains, and 3) enriched in druggable targets with approved medicines (i.e., choline and ibudilast). In summary, our findings suggest that understanding of human pathobiology and therapeutic development could benefit from a network-based deep learning methodology that utilizes GWAS findings under the multimodal genomic analyses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/21/2021.10.20.465087.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.20.465087"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-22",
+      "firstPublicationDate": "2021-10-21",
+      "firstIndexDate": "2021-10-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

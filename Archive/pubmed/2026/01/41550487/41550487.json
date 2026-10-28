@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "41550487",
+    "doi": "10.1007/s13205-025-04685-9",
+    "title": "Identification of COL8A2, MICAL2, and TNFSF10 as potential biomarkers associated with both exercise response and osteoarthritis: a multi-omics integration study."
+  },
+  "content": {
+    "abstract": "To identify molecular biomarkers associated with both osteoarthritis (OA) pathology and exercise response through multi-omics integration. Bulk RNA-seq, exercise transcriptomics, and single-cell RNA-seq datasets were integrated. Machine learning algorithms, Mendelian randomization, and molecular docking were employed to identify and validate key genes. Single-cell analysis revealed regulatory chondrocytes (RegC) were significantly enriched in OA tissues with enhanced intercellular communication activity. Integration of OA-related genes, exercise-responsive genes, and RegC markers identified 86 overlapping candidates. Machine learning algorithms converged on three key genes: COL8A2, MICAL2, and TNFSF10, all showing significant upregulation in OA across multiple datasets with good diagnostic performance. These genes were specifically expressed in RegC cells and enriched in mechanosensitive pathways including MAPK, TNF, and FoxO signaling. They displayed distinct immune cell correlation patterns and were regulated through complex networks involving competing endogenous RNAs and transcription factors. Mendelian randomization confirmed causal associations between all three genes and OA risk. Molecular docking identified multiple potential therapeutic compounds targeting these genes. Expression upregulation was validated in human OA cartilage samples. Through multi-omics integration analysis, this study identifies COL8A2, MICAL2, and TNFSF10 as genes that are differentially expressed in both OA progression and exercise response. These genes may represent potential molecular links between exercise and OA, warranting further investigation of their regulatory mechanisms. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13205-025-04685-9.",
+    "keywords": [
+      "CeRNA network",
+      "Exercise behavior",
+      "Machine learning",
+      "Mendelian randomization",
+      "Osteoarthritis",
+      "Single-cell sequencing",
+      "WGCNA"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hongyuan",
+        "Lu, Huaimin",
+        "Zhou, Xun",
+        "Tian, Ye",
+        "Dan, Jing",
+        "Li, Yan",
+        "Li, Xiaodong",
+        "Wang, Jiahao",
+        "Li, Lengtao"
+      ],
+      "short_names": [
+        "Wang H",
+        "Lu H",
+        "Zhou X",
+        "Tian Y",
+        "Dan J",
+        "Li Y",
+        "Li X",
+        "Wang J",
+        "Li L"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-9556-7308"
+      ],
+      "affiliations": [
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "No. 123, Guixi East Road, High-Tech Zone, Chengdu, 610000 Sichuan China.",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867",
+        "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China. ROR: https://ror.org/05580ht21. GRID: grid.443344.0. ISNI: 0000 0001 0492 8867"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hongyuan",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0009-0003-9556-7308"
+        ],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Lu, Huaimin",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China.",
+          "No. 123, Guixi East Road, High-Tech Zone, Chengdu, 610000 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xun",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Tian, Ye",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Dan, Jing",
+        "short_name": "Dan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaodong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiahao",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      },
+      {
+        "full_name": "Li, Lengtao",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine and Rehabilitation, Affiliated Sport Hospital of Chengdu Sport University, No. 251,Wuhouci Street, Wuhou District, Chengdu, 610041 Sichuan China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "3 Biotech"
+    ],
+    "journal_abbrev": [
+      "3 Biotech"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/19 12:50",
+    "fetched_at": "2026-10-05 05:16:26"
+  },
+  "links": {
+    "cites": [
+      "42614570"
+    ],
+    "refs": [],
+    "similar": [
+      "41550487",
+      "40771586",
+      "41017094",
+      "41450747",
+      "40216809",
+      "38444758",
+      "40589764",
+      "39640258",
+      "39026663",
+      "40859561",
+      "39849508",
+      "41502501",
+      "38680491",
+      "40628511",
+      "41080564",
+      "35783271",
+      "40916281",
+      "39717623",
+      "35651940",
+      "41112282",
+      "38463824",
+      "40172742",
+      "38767974",
+      "41327360",
+      "41358199",
+      "41031145",
+      "41388523",
+      "31297857",
+      "40784333",
+      "39935469",
+      "40646535",
+      "40362669",
+      "40967560",
+      "39839184",
+      "39695788",
+      "41261566",
+      "41465092",
+      "36685513",
+      "41316378",
+      "38997894",
+      "41099090",
+      "40828304",
+      "40745068",
+      "41146237",
+      "39779817",
+      "41371106",
+      "41341599",
+      "41340073",
+      "39086489",
+      "41170378",
+      "41219826",
+      "41088691",
+      "41111909",
+      "40247403",
+      "41276708",
+      "40853611",
+      "39054551",
+      "39733138",
+      "41109923",
+      "40909263",
+      "41395227",
+      "40765736",
+      "38868774",
+      "41546107",
+      "40442788",
+      "41232761",
+      "39438957",
+      "28827734",
+      "37933335",
+      "38994346",
+      "41209382",
+      "39286216",
+      "40594157",
+      "41049439",
+      "41192724",
+      "30081074",
+      "41316541",
+      "32435461",
+      "39359474",
+      "40458850",
+      "40842856",
+      "41083787",
+      "41162187",
+      "40767016",
+      "38918843",
+      "31960487",
+      "36760992",
+      "41484731",
+      "37805587",
+      "41186507",
+      "38897129",
+      "39857674",
+      "41112249",
+      "40804350",
+      "41381790",
+      "41296172",
+      "37138862",
+      "40484863",
+      "40702735",
+      "37844826"
+    ],
+    "review": [
+      "41550487"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s13205-025-04685-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

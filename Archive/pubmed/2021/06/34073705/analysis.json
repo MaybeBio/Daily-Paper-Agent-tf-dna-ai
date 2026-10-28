@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34073705",
+  "title": "DeepDISE: DNA Binding Site Prediction Using a Deep Learning Method.",
+  "authors": "Hendrix, Samuel Godfrey; Chang, Kuan Y; Ryu, Zeezoo; Xie, Zhong-Ru",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-06-03",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用蛋白质表面3D坐标和原子类型作为输入，通过深度学习模型预测蛋白质表面的DNA结合位点，属于广义蛋白质-DNA互作结合位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性结合机制。",
+  "abstract": "It is essential for future research to develop a new, reliable prediction method of DNA binding sites because DNA binding sites on DNA-binding proteins provide critical clues about protein function and drug discovery. However, the current prediction methods of DNA binding sites have relatively poor accuracy. Using 3D coordinates and the atom-type of surface protein atom as the input, we trained and tested a deep learning model to predict how likely a voxel on the protein surface is to be a DNA-binding site. Based on three different evaluation datasets, the results show that our model not only outperforms several previous methods on two commonly used datasets, but also demonstrates its robust performance to be consistent among the three datasets. The visualized prediction outcomes show that the binding sites are also mostly located in correct regions. We successfully built a deep learning model to predict the DNA binding sites on target proteins. It demonstrates that 3D protein structures plus atom-type information on protein surfaces can be used to predict the potential binding sites on a protein. This approach should be further extended to develop the binding sites of other important biological molecules.",
+  "abstract_zh": "未来的研究必须开发一种新的、可靠的DNA结合位点预测方法，因为DNA结合蛋白上的DNA结合位点为蛋白质功能和药物发现提供了关键线索。然而，目前DNA结合位点的预测方法准确性相对较低。我们以蛋白质表面原子的三维坐标和原子类型作为输入，训练并测试了一个深度学习模型，以预测蛋白质表面体素成为DNA结合位点的可能性。基于三个不同的评估数据集，结果表明，我们的模型不仅在两个常用数据集上优于先前多种方法，而且展示了其在三个数据集间表现一致的稳健性。可视化预测结果显示，结合位点大多也位于正确区域。我们成功构建了一个深度学习模型来预测目标蛋白上的DNA结合位点。这表明，三维蛋白质结构加上蛋白质表面的原子类型信息可用于预测蛋白质上的潜在结合位点。该方法应进一步扩展，以开发其他重要生物分子的结合位点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34073705/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34073705/",
+  "paper_page_path": "papers/pubmed/34073705/index.html"
+}

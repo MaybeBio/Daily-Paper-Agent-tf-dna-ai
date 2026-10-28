@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41970276",
+    "doi": "10.2147/JAA.S577209",
+    "title": "Integrated Bioinformatics and Experimental Validation of Inflammatory Cytokine-Related Hub Genes in Pediatric Asthma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although pediatric asthma is closely associated with dysregulated inflammatory cytokines, integrated analyses of inflammatory cytokine-related genes and their potential diagnostic biomarkers remain limited. METHODS: Gene expression datasets GSE106230 and GSE117038, containing peripheral blood samples from pediatric asthma patients and healthy pediatric controls, were used as training sets, and GSE195599 served as the validation set. Differentially expressed genes (DEGs) were identified between pediatric asthma and healthy pediatric control samples. Weighted gene co-expression network analysis (WGCNA) was performed to identify asthma-related module genes. Characteristic genes were obtained by intersecting DEGs, module genes, and inflammatory cytokine-related genes. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were conducted. Candidate hub genes were identified through protein-protein interaction (PPI) network analysis. Gene Set Enrichment Analysis (GSEA) and immune cell infiltration analysis were further performed to explore potential mechanisms involved in asthma. RESULTS: A total of 12 characteristic genes were identified by intersecting 213 DEGs, 1,058 WGCNA module genes, and 2,001 inflammatory cytokine-related genes, with significant enrichment in the respiratory burst pathway. Among these, CD19, RELB, IL12RB1, and RETN were prioritized as candidate hub genes. GSEA suggested enrichment of herpes simplex virus 1 infection-related gene sets, although these signals likely reflect shared host-response pathways rather than evidence of actual HSV-1 infection. A nomogram based on these four genes showed favorable predictive performance for asthma, with an area under the curve (AUC) exceeding 0.8. Transcription factor (TF)-mRNA network analysis indicated that IL12RB1 was potentially regulated by the largest number of TFs, including REST. In silico compound screening and molecular docking analysis suggested potential interactions between CD19 and bisphenol A, RELB and tetrachlorodibenzodioxin, IL12RB1 and benzo(a)pyrene, and RETN and tretinoin. Additionally, three differential immune cell subtypes were identified. Significant correlations were observed between CD19 and activated B cells, as well as between CD19 and type 1 T helper cells, in both pediatric asthma and healthy control samples. In validation analyses, CD19, RELB, and IL12RB1 showed increased expression in asthma, whereas RETN showed less consistent results. CONCLUSION: This study identified four candidate inflammatory cytokine-related genes associated with pediatric asthma and provided an integrated transcriptomic framework for their prioritization. These findings provide preliminary insights into asthma-related immune dysregulation and warrant further validation in larger pediatric cohorts and functional studies.",
+    "keywords": [
+      "asthma",
+      "gene",
+      "herpes simplex virus 1",
+      "immune",
+      "inflammatory cytokine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Mi Mi",
+        "Wang, Xue",
+        "Yin, Li",
+        "Wei, Xiao Ying",
+        "Li, Fang"
+      ],
+      "short_names": [
+        "Gao MM",
+        "Wang X",
+        "Yin L",
+        "Wei XY",
+        "Li F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China.",
+        "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China.",
+        "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China.",
+        "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China.",
+        "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Mi Mi",
+        "short_name": "Gao MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Li",
+        "short_name": "Yin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xiao Ying",
+        "short_name": "Wei XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Fang",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, the Second Hospital of Hebei Medical University, Shijiazhuang, Hebei, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of asthma and allergy"
+    ],
+    "journal_abbrev": [
+      "J Asthma Allergy"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 18:17",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34572466",
+      "34557778",
+      "34217320",
+      "33774068",
+      "33396976",
+      "33249168",
+      "33226625",
+      "31476634",
+      "31381928",
+      "30622536",
+      "30170798",
+      "30065773",
+      "29665127",
+      "29420850",
+      "29273246",
+      "28960101",
+      "28052254",
+      "27826959",
+      "27548519",
+      "26539191",
+      "26194936",
+      "25822800",
+      "24066855",
+      "23918590",
+      "23541324",
+      "23427243",
+      "22561835",
+      "22429515",
+      "22325360",
+      "19483109",
+      "19114008",
+      "17662651",
+      "15375268",
+      "14597658"
+    ],
+    "similar": [
+      "41970276",
+      "39713769",
+      "41502897",
+      "42597971",
+      "41044520",
+      "36148059",
+      "41120603",
+      "36777638",
+      "35278479",
+      "42338983",
+      "34553293",
+      "42292668",
+      "35911963",
+      "41384025",
+      "36575422",
+      "40821971",
+      "42348043",
+      "34536521",
+      "41822387",
+      "37359526",
+      "36506310",
+      "39263286",
+      "38951833",
+      "39403102",
+      "38384969",
+      "42449128",
+      "41858783",
+      "41146237",
+      "40370730",
+      "41288681",
+      "40977739",
+      "39284931",
+      "42327749",
+      "40628511",
+      "36225941",
+      "40216809",
+      "40659785",
+      "41479901",
+      "36438903",
+      "38571624",
+      "40406126",
+      "41703488",
+      "40078458",
+      "40836320",
+      "36186997",
+      "42278407",
+      "36992583",
+      "42326009",
+      "42265520",
+      "41847139",
+      "39586719",
+      "41324863",
+      "35711934",
+      "41716396",
+      "40872306",
+      "40406620",
+      "42445139",
+      "35495609",
+      "36276976",
+      "35558576",
+      "36699262",
+      "35721731",
+      "35111390",
+      "41415264",
+      "41162503",
+      "42475371",
+      "42421348",
+      "38957433",
+      "42257259",
+      "35392084",
+      "40024299",
+      "41388523",
+      "39766817",
+      "38384585",
+      "35958412",
+      "37250717",
+      "39744064",
+      "37008314",
+      "40948644",
+      "37152983",
+      "41940395",
+      "33468161",
+      "37409245",
+      "39544368",
+      "36660690",
+      "37743309",
+      "35381314",
+      "42039143",
+      "41052072",
+      "40918403",
+      "36635346",
+      "37033969",
+      "38259479",
+      "39741751",
+      "40110435",
+      "35757392",
+      "42164373",
+      "37837870",
+      "35709926",
+      "41094572"
+    ],
+    "review": [
+      "41970276"
+    ],
+    "pmc": [
+      "13069966"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41970276/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JAA.S577209",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

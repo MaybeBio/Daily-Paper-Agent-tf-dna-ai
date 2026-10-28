@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "39845928",
+    "doi": "10.1007/s13205-024-04202-4",
+    "title": "NF-kappaB signaling is the major inflammatory pathway for inducing insulin resistance."
+  },
+  "content": {
+    "abstract": "Insulin resistance is major factor in the development of metabolic syndrome and type 2 diabetes (T2D). We extracted 430 genes from literature associated with both insulin resistance and inflammation. The highly significant pathways were Toll-like receptor signaling, PI3K-Akt signaling, cytokine-cytokine receptor interaction, pathways in cancer, TNF signaling, and NF-kappa B signaling. Among the 297 common genes in all datasets of various T2D patients' tissues including blood, muscle, liver, pancreas, and adipose tissues, 71% and 60% of these genes were differentially expressed in pancreas (GSE25724) and liver (GSE15653), respectively. A total of 169 genes contain highly conserved motifs for various transcription factors involved in immune response, thereby suggesting coordinated expression. Through co-expression analysis, we obtained three modules. The respective modules had 78, 158, and 55 genes, and TRAF2, HMGA1, and RGS5 as hub genes. Further, we used the BioNSi pathways simulation tool and identified the following five KEGG pathways perturbed in four or more tissues, namely Toll-like receptor signaling pathway, RIG-1-like receptor signaling pathway, pathways in cancer, NF-kappa B signaling pathway, and insulin resistance pathway. The genes NFKBIA and IKBKB are common to all these five pathways. In addition, using the NF-kappaB computational activation model, we identified that the reversal of NF-kappaB constitutive activation through overexpression of NFKB1 (P50 homodimer), PPARG, PIAS3 could reduce insulin resistance by almost half of its original value. To conclude, co-expression studies, gene expression network simulation, and NF-kappaB computational modeling substantiate the causal role of NF-kappaB pathway in insulin resistance. These results taken together with other published evidence suggests that the TNF-TRAF2-IKBKB-NF-kappaB axis could be explored as a potential target in combination with available metabolic targets in the management of insulin resistance. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13205-024-04202-4.",
+    "keywords": [
+      "Co-expression",
+      "Inflammation",
+      "Literature mining",
+      "Metabolic disorders",
+      "Network simulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mobeen, Ahmed",
+        "Joshi, Sweta",
+        "Fatima, Firdaus",
+        "Bhargav, Anasuya",
+        "Arif, Yusra",
+        "Faruq, Mohammed",
+        "Ramachandran, Srinivasan"
+      ],
+      "short_names": [
+        "Mobeen A",
+        "Joshi S",
+        "Fatima F",
+        "Bhargav A",
+        "Arif Y",
+        "Faruq M",
+        "Ramachandran S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2218-6120",
+        "ORCID: 0000-0002-9860-6881",
+        "ORCID: 0009-0001-7394-4542",
+        "ORCID: 0000-0001-8278-8396",
+        "ORCID: 0000-0002-9679-7178"
+      ],
+      "affiliations": [
+        "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India. ROR: https://ror.org/05ef28661. GRID: grid.417639.e",
+        "Department of Food Technology, SIST, Jamia Hamdard, New Delhi, 110062 India.",
+        "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India. ROR: https://ror.org/05ef28661. GRID: grid.417639.e",
+        "Academy of Scientific & Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002 India. ROR: https://ror.org/053rcsq61. GRID: grid.469887.c. ISNI: 0000 0004 7744 2771",
+        "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India. ROR: https://ror.org/05ef28661. GRID: grid.417639.e",
+        "Centre of Bioinformatics, Institute of Inter Disciplinary Studies, Allahabad University, Allahabad, Uttar Pradesh 211002 India. ROR: https://ror.org/03vrx7m55. GRID: grid.411343.0. ISNI: 0000 0001 0213 924X",
+        "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India. ROR: https://ror.org/05ef28661. GRID: grid.417639.e",
+        "Academy of Scientific & Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002 India. ROR: https://ror.org/053rcsq61. GRID: grid.469887.c. ISNI: 0000 0004 7744 2771",
+        "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India. ROR: https://ror.org/05ef28661. GRID: grid.417639.e",
+        "Manav Rachna International Institute of Research and Studies, Sector 43, Delhi-Surajkund Road, Faridabad, Haryana 121004 India. ROR: https://ror.org/02kf4r633. GRID: grid.449068.7. ISNI: 0000 0004 1774 4313"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mobeen, Ahmed",
+        "short_name": "Mobeen A",
+        "identifiers": [
+          "0000-0002-2218-6120"
+        ],
+        "affiliations": [
+          "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India."
+        ]
+      },
+      {
+        "full_name": "Joshi, Sweta",
+        "short_name": "Joshi S",
+        "identifiers": [
+          "0000-0002-9860-6881"
+        ],
+        "affiliations": [
+          "Department of Food Technology, SIST, Jamia Hamdard, New Delhi, 110062 India."
+        ]
+      },
+      {
+        "full_name": "Fatima, Firdaus",
+        "short_name": "Fatima F",
+        "identifiers": [
+          "0009-0001-7394-4542"
+        ],
+        "affiliations": [
+          "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India.",
+          "Academy of Scientific & Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002 India."
+        ]
+      },
+      {
+        "full_name": "Bhargav, Anasuya",
+        "short_name": "Bhargav A",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India."
+        ]
+      },
+      {
+        "full_name": "Arif, Yusra",
+        "short_name": "Arif Y",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Bioinformatics, Institute of Inter Disciplinary Studies, Allahabad University, Allahabad, Uttar Pradesh 211002 India."
+        ]
+      },
+      {
+        "full_name": "Faruq, Mohammed",
+        "short_name": "Faruq M",
+        "identifiers": [
+          "0000-0001-8278-8396"
+        ],
+        "affiliations": [
+          "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India.",
+          "Academy of Scientific & Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002 India."
+        ]
+      },
+      {
+        "full_name": "Ramachandran, Srinivasan",
+        "short_name": "Ramachandran S",
+        "identifiers": [
+          "0000-0002-9679-7178"
+        ],
+        "affiliations": [
+          "CSIR Institute of Genomics & Integrative Biology, Sukhdev Vihar, New Delhi, 110025 India.",
+          "Manav Rachna International Institute of Research and Studies, Sector 43, Delhi-Surajkund Road, Faridabad, Haryana 121004 India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "3 Biotech"
+    ],
+    "journal_abbrev": [
+      "3 Biotech"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/23 11:21",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "42591408",
+      "42510933",
+      "42460096",
+      "42450538",
+      "42351151",
+      "42249096",
+      "42183921",
+      "42123329",
+      "41716685",
+      "41683662",
+      "41376626",
+      "41209114",
+      "41094389",
+      "40855784",
+      "40703925",
+      "40521254",
+      "40063629"
+    ],
+    "refs": [
+      "39080260",
+      "38860604",
+      "38433280",
+      "38278412",
+      "38242271",
+      "38082192",
+      "38043870",
+      "37986113",
+      "37781234",
+      "37586220",
+      "37478963",
+      "37415241",
+      "37146833",
+      "37088348",
+      "37056675",
+      "36982915",
+      "36936906",
+      "36705364",
+      "36688873",
+      "36647881",
+      "36470235",
+      "36076600",
+      "35960095",
+      "35620856",
+      "34876704",
+      "34551300",
+      "33821668",
+      "33780170",
+      "33104784",
+      "33044128",
+      "32437299",
+      "32063863",
+      "31871019",
+      "30140268",
+      "30067154",
+      "30034366",
+      "29946422",
+      "29528335",
+      "29241449",
+      "29037210",
+      "28934479",
+      "28060188",
+      "27799471",
+      "27629641",
+      "27445976",
+      "27354160",
+      "27340831",
+      "27322403",
+      "27207557",
+      "26990581",
+      "26580649",
+      "26564970",
+      "25001414",
+      "23586463",
+      "23462193",
+      "23323762",
+      "23285279",
+      "23180781",
+      "22845817",
+      "22842477",
+      "22560214",
+      "22442298",
+      "22315325",
+      "22272317",
+      "22265677",
+      "21984069",
+      "21546393",
+      "21364139",
+      "21195345",
+      "20600580",
+      "20466550",
+      "20148674",
+      "19876380",
+      "19564336",
+      "19223596",
+      "19114008",
+      "19029988",
+      "18988733",
+      "18268011",
+      "18227495",
+      "18096622",
+      "17947979",
+      "17576678",
+      "17400752",
+      "17072321",
+      "16956601",
+      "16829571",
+      "16646834",
+      "16199517",
+      "15652150",
+      "15287978",
+      "15105418",
+      "15094015",
+      "14704745",
+      "14597658",
+      "12512042",
+      "12351658",
+      "12120503",
+      "12097249",
+      "11867749",
+      "11810281",
+      "11752295",
+      "11684411",
+      "11421545",
+      "11402342",
+      "11262391",
+      "10516792",
+      "9889134",
+      "8770859",
+      "8607437",
+      "8397339",
+      "7933827",
+      "7796813",
+      "7544915",
+      "6376081",
+      "3056758",
+      "2666428",
+      "1439783"
+    ],
+    "similar": [
+      "39845928",
+      "32846191",
+      "31673979",
+      "38798254",
+      "36872359",
+      "35764517",
+      "10521443",
+      "39759101",
+      "35620856",
+      "31095939",
+      "26867315",
+      "31013288",
+      "30462534",
+      "11262403",
+      "16953224",
+      "16009713",
+      "41255750",
+      "33539010",
+      "34581054",
+      "41265260",
+      "38710115",
+      "39241520",
+      "40553825",
+      "30362547",
+      "31396538",
+      "23868181",
+      "35288193",
+      "40994020",
+      "40119934",
+      "35965124",
+      "40986260",
+      "19723087",
+      "32380477",
+      "27665434",
+      "34951223",
+      "41294286",
+      "29907126",
+      "30807577",
+      "11978627",
+      "41311552",
+      "38972238",
+      "31872639",
+      "23554896",
+      "41443915",
+      "36653304",
+      "34153741",
+      "41189252",
+      "32299536",
+      "9882303",
+      "24459141",
+      "39287856",
+      "27315566",
+      "40273561",
+      "34966805",
+      "24855642",
+      "32871523",
+      "28115850",
+      "34722158",
+      "39081324",
+      "38081397",
+      "38621947",
+      "25882704",
+      "40345270",
+      "37652195",
+      "41155329",
+      "19342510",
+      "29326885",
+      "37382018",
+      "37406747",
+      "20529327",
+      "40350875",
+      "25674239",
+      "15708970",
+      "31134075",
+      "18990758",
+      "26433127",
+      "36046875",
+      "18029440",
+      "38914662",
+      "24378531",
+      "40248690",
+      "37196867",
+      "15140884",
+      "33917607",
+      "27923915",
+      "18292749",
+      "40378943",
+      "41208975",
+      "24137239",
+      "32100506",
+      "36661241",
+      "11438700",
+      "30473791",
+      "26189548",
+      "31990656",
+      "37725175",
+      "41006806",
+      "39103711",
+      "15657077",
+      "41121618"
+    ],
+    "review": [
+      "39845928",
+      "40986260",
+      "41294286",
+      "29907126",
+      "39287856",
+      "40378943"
+    ],
+    "pmc": [
+      "11747027"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39845928/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s13205-024-04202-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

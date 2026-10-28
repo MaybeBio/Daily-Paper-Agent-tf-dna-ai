@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "40229275",
+    "doi": "10.1038/s41467-025-58872-6",
+    "title": "Programmable protein stabilization with language model-derived peptide guides."
+  },
+  "content": {
+    "abstract": "Dysregulated protein degradation via the ubiquitin-proteasomal pathway can induce numerous disease phenotypes, including cancer, neurodegeneration, and diabetes. While small molecule-based targeted protein degradation (TPD) and targeted protein stabilization (TPS) platforms can address this dysregulation, they rely on structured and stable binding pockets, which do not exist to classically \"undruggable\" targets. Here, we expand the TPS target space by engineering \"deubiquibodies\" (duAbs) via fusion of computationally-designed peptide binders to the catalytic domain of the potent OTUB1 deubiquitinase. In human cells, duAbs effectively stabilize exogenous and endogenous proteins in a DUB-dependent manner. Using protein language models to generate target-binding peptides, we engineer duAbs to conformationally diverse target proteins, including key tumor suppressor proteins p53 and WEE1, and heavily-disordered fusion oncoproteins, such as PAX3::FOXO1. We further encapsulate p53-targeting duAbs as mRNA in lipid nanoparticles and demonstrate effective intracellular delivery, p53 stabilization, and apoptosis activation, motivating further in vivo translation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Tumor Suppressor Protein p53/metabolism/genetics/chemistry",
+      "*Peptides/chemistry/metabolism",
+      "Protein Stability",
+      "Proteolysis",
+      "Cell Cycle Proteins/metabolism",
+      "Deubiquitinating Enzymes/metabolism/genetics",
+      "Nanoparticles/chemistry",
+      "Protein Engineering/methods",
+      "Apoptosis",
+      "Forkhead Box Protein O1/metabolism/genetics",
+      "Protein-Tyrosine Kinases/metabolism",
+      "Catalytic Domain"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Lauren",
+        "Ye, Tianzheng",
+        "Wang, Tian Z",
+        "Srijay, Divya",
+        "Liu, Howard",
+        "Zhao, Lin",
+        "Watson, Rio",
+        "Vincoff, Sophia",
+        "Chen, Tianlai",
+        "Kholina, Kseniia",
+        "Goel, Shrey",
+        "DeLisa, Matthew P",
+        "Chatterjee, Pranam"
+      ],
+      "short_names": [
+        "Hong L",
+        "Ye T",
+        "Wang TZ",
+        "Srijay D",
+        "Liu H",
+        "Zhao L",
+        "Watson R",
+        "Vincoff S",
+        "Chen T",
+        "Kholina K",
+        "Goel S",
+        "DeLisa MP",
+        "Chatterjee P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1675-4806",
+        "ORCID: 0000-0001-6678-7115",
+        "ORCID: 0000-0002-1678-7763",
+        "ORCID: 0000-0003-0706-5731",
+        "ORCID: 0000-0003-3957-8478"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA.",
+        "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Cornell Institute of Biotechnology, Cornell University, Ithaca, NY, USA.",
+        "Department of Biomedical Engineering, Duke University, Durham, NC, USA. pranam.chatterjee@duke.edu.",
+        "Department of Computer Science, Duke University, Durham, NC, USA. pranam.chatterjee@duke.edu.",
+        "Department of Biostatistics and Bioinformatics, Duke University, Durham, NC, USA. pranam.chatterjee@duke.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Lauren",
+        "short_name": "Hong L",
+        "identifiers": [
+          "0000-0002-1675-4806"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Ye, Tianzheng",
+        "short_name": "Ye T",
+        "identifiers": [
+          "0000-0001-6678-7115"
+        ],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Tian Z",
+        "short_name": "Wang TZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Srijay, Divya",
+        "short_name": "Srijay D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Howard",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lin",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0002-1678-7763"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Watson, Rio",
+        "short_name": "Watson R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Vincoff, Sophia",
+        "short_name": "Vincoff S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Tianlai",
+        "short_name": "Chen T",
+        "identifiers": [
+          "0000-0003-0706-5731"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Kholina, Kseniia",
+        "short_name": "Kholina K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Goel, Shrey",
+        "short_name": "Goel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "DeLisa, Matthew P",
+        "short_name": "DeLisa MP",
+        "identifiers": [],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA.",
+          "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+          "Cornell Institute of Biotechnology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Pranam",
+        "short_name": "Chatterjee P",
+        "identifiers": [
+          "0000-0003-3957-8478"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University, Durham, NC, USA. pranam.chatterjee@duke.edu.",
+          "Department of Computer Science, Duke University, Durham, NC, USA. pranam.chatterjee@duke.edu.",
+          "Department of Biostatistics and Bioinformatics, Duke University, Durham, NC, USA. pranam.chatterjee@duke.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Apr 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/15 00:25",
+    "fetched_at": "2026-09-30 15:57:52"
+  },
+  "links": {
+    "cites": [
+      "42370288",
+      "40804173",
+      "40211004"
+    ],
+    "refs": [
+      "40211004",
+      "39920196",
+      "39841846",
+      "38987546",
+      "38509365",
+      "38175757",
+      "37875551",
+      "37770423",
+      "37515040",
+      "37143582",
+      "36408920",
+      "35927303",
+      "35713468",
+      "35379777",
+      "35210618",
+      "35197279",
+      "35033428",
+      "34769137",
+      "34580451",
+      "34577547",
+      "34394960",
+      "34329586",
+      "33640455",
+      "33523869",
+      "33230174",
+      "33169015",
+      "33168626",
+      "32958072",
+      "32251383",
+      "30761219",
+      "29069740",
+      "29035510",
+      "28948977",
+      "28886379",
+      "27515257",
+      "26085205",
+      "24712863",
+      "24474696",
+      "23827681",
+      "22318865",
+      "20980462",
+      "18691969",
+      "18457914",
+      "17289006",
+      "16873067",
+      "16601750",
+      "16537382",
+      "12669309",
+      "12209989",
+      "7553863"
+    ],
+    "similar": [
+      "40229275",
+      "39108486",
+      "40070163",
+      "38462165",
+      "32181542",
+      "42586475",
+      "30861422",
+      "39990225",
+      "41250821",
+      "24403071",
+      "24927813",
+      "34093856",
+      "41365927",
+      "41914757",
+      "34878887",
+      "26294215",
+      "38519029",
+      "35210618",
+      "36082810",
+      "21423613",
+      "39091799",
+      "21731648",
+      "30385614",
+      "30146256",
+      "36272615",
+      "28801249",
+      "40135978",
+      "27261335",
+      "30768246",
+      "40767969",
+      "17339337",
+      "12612087",
+      "22510564",
+      "41713656",
+      "34212455",
+      "19500427",
+      "26540344",
+      "11429698",
+      "24342622",
+      "27077811",
+      "24143256",
+      "28710679",
+      "24003224",
+      "10822382",
+      "15337767",
+      "25313037",
+      "38509365",
+      "24278348",
+      "15713654",
+      "23645752",
+      "18097482",
+      "28749203",
+      "41179301",
+      "23251530",
+      "31390185",
+      "39111630",
+      "23852422",
+      "20931139",
+      "24107448",
+      "34534740",
+      "24336073",
+      "16678111",
+      "15950904",
+      "25305590",
+      "11043848",
+      "9879995",
+      "31886284",
+      "29326975",
+      "41457602",
+      "21361779",
+      "41543905",
+      "40804173",
+      "32819562",
+      "20978130",
+      "15001357",
+      "39841846",
+      "40455648",
+      "10574967",
+      "24377575",
+      "25773675",
+      "12606722",
+      "37516418",
+      "42560601",
+      "29277758",
+      "27013495",
+      "16061648",
+      "34152408",
+      "42083385",
+      "32075226",
+      "11359905",
+      "38216684",
+      "26431163",
+      "20020415",
+      "35931280",
+      "29891515",
+      "40614626",
+      "22484480",
+      "40739602",
+      "19808975",
+      "12232053"
+    ],
+    "review": [
+      "40229275",
+      "42586475",
+      "28801249",
+      "40135978",
+      "41713656",
+      "41457602"
+    ],
+    "pmc": [
+      "11997201"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58872-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40229275/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40229275",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-244",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

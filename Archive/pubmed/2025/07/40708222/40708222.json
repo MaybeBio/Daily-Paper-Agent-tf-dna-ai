@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40708222",
+    "doi": "10.1093/bib/bbaf349",
+    "title": "GRANet: a graph residual attention network for gene regulatory network inference."
+  },
+  "content": {
+    "abstract": "The reconstruction of gene regulatory networks (GRNs) is crucial for uncovering regulatory relationships between genes and understanding the mechanisms of gene expression within cells. With advancements in single-cell RNA sequencing (scRNA-seq) technology, researchers have sought to infer GRNs at the single-cell level. However, existing methods primarily construct global models encompassing entire gene networks. While these approaches aim to capture genome-wide interactions, they frequently suffer from decreased accuracy due to challenges such as network scale, noise interference, and data sparsity. This study proposes GRANet (Graph Residual Attention Network), a novel deep learning framework for inferring GRNs. GRANet leverages residual attention mechanisms to adaptively learn complex gene regulatory relationships while integrating multi-dimensional biological features for a more comprehensive inference process. We evaluated GRANet across multiple datasets, benchmarking its performance against state-of-the-art methods. The experimental results demonstrate that GRANet consistently outperforms existing methods in GRN inference tasks. In addition, in our case study on EGR1, CBFB, and ELF1, GRANet achieved high prediction accuracy, effectively identifying both known and novel regulatory interactions. These findings highlight GRANet's potential to advance research in gene regulation and disease mechanisms.",
+    "keywords": [
+      "deep learning frameworks",
+      "gene regulatory networks",
+      "graph attention mechanism",
+      "multi-dimensional features",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "*Deep Learning",
+      "Single-Cell Analysis",
+      "Early Growth Response Protein 1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Junliang",
+        "Gong, Ningji",
+        "Hu, Yanjun",
+        "Yu, Hong",
+        "Wang, Guoyin",
+        "Wu, Hao"
+      ],
+      "short_names": [
+        "Zhou J",
+        "Gong N",
+        "Hu Y",
+        "Yu H",
+        "Wang G",
+        "Wu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2340-9258"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China.",
+        "Department of Emergency, The Second Hospital, Cheeloo College of Medicine, Shandong University, No. 247 Beiyuan Street, Tianqiao District, Jinan 250033, Shandong, China.",
+        "Library, Shandong Normal University, No. 1 University Road, University Science Park, Changqing District, Jinan 250100, Shandong, China.",
+        "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China.",
+        "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China.",
+        "National Center for Applied Mathematics in Chongqing, Chongqing Normal University, No. 37, Daxuecheng Middle Road, Shapingba District, Chongqing 401331, China.",
+        "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China.",
+        "School of Software, Shandong University, No. 1500, Shunhua Road, High tech Zone, Jinan 250100, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Junliang",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Ningji",
+        "short_name": "Gong N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Hospital, Cheeloo College of Medicine, Shandong University, No. 247 Beiyuan Street, Tianqiao District, Jinan 250033, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yanjun",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Library, Shandong Normal University, No. 1 University Road, University Science Park, Changqing District, Jinan 250100, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hong",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guoyin",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China.",
+          "National Center for Applied Mathematics in Chongqing, Chongqing Normal University, No. 37, Daxuecheng Middle Road, Shapingba District, Chongqing 401331, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0003-2340-9258"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, No. 2 Chongwen Road, Nan'an District, Chongqing 400065, China.",
+          "School of Software, Shandong University, No. 1500, Shunhua Road, High tech Zone, Jinan 250100, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/25 06:38",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "42653305",
+      "42265576",
+      "42093817",
+      "42059479",
+      "41317402"
+    ],
+    "refs": [
+      "39085477",
+      "38867109",
+      "38614305",
+      "38513390",
+      "38485768",
+      "38261340",
+      "38217125",
+      "37843994",
+      "37703293",
+      "37402191",
+      "37085776",
+      "37079737",
+      "37078865",
+      "36764042",
+      "36168811",
+      "36161334",
+      "36144868",
+      "35997565",
+      "35961023",
+      "35181793",
+      "34553746",
+      "32728249",
+      "32386141",
+      "32217482",
+      "31907445",
+      "31822622",
+      "31443612",
+      "31340985",
+      "30953525",
+      "30476243",
+      "30413482",
+      "29087512",
+      "28968704",
+      "28787399",
+      "28476144",
+      "28379368",
+      "27184599",
+      "26424082",
+      "23794736",
+      "21548782",
+      "20927193",
+      "19960022",
+      "17510665",
+      "14735121",
+      "12690187",
+      "12384981",
+      "12239155"
+    ],
+    "similar": [
+      "40708222",
+      "40251476",
+      "40062616",
+      "39934680",
+      "39417321",
+      "30547796",
+      "41554051",
+      "42653305",
+      "37985457",
+      "41206950",
+      "38950180",
+      "41317402",
+      "42265576",
+      "40956752",
+      "39960893",
+      "40116659",
+      "40662821",
+      "40702704",
+      "40699953",
+      "38980373",
+      "37085776",
+      "41544912",
+      "42475469",
+      "39939367",
+      "41300707",
+      "39605181",
+      "37897702",
+      "41288963",
+      "36585783",
+      "42059479",
+      "42061403",
+      "42632029",
+      "41883144",
+      "39578307",
+      "41052197",
+      "41329984",
+      "40983951",
+      "35062026",
+      "38879931",
+      "42614561",
+      "38778003",
+      "38342857",
+      "35050715",
+      "39082651",
+      "35961023",
+      "39708840",
+      "42316003",
+      "39975293",
+      "40853813",
+      "41067887",
+      "38896510",
+      "27479082",
+      "37686146",
+      "42681526",
+      "41043336",
+      "39401117",
+      "38810116",
+      "41267133",
+      "41774282",
+      "42752548",
+      "38261340",
+      "40409400",
+      "40654959",
+      "42560939",
+      "38996550",
+      "42308421",
+      "41871930",
+      "39800872",
+      "41896196",
+      "39679439",
+      "35692809",
+      "42093817",
+      "39311699",
+      "41191474",
+      "38581416",
+      "40670912",
+      "41132794",
+      "39266676",
+      "36626328",
+      "42225598",
+      "37939200",
+      "40415678",
+      "40591481",
+      "40037709",
+      "41489955",
+      "39585902",
+      "40966655",
+      "39062480",
+      "38032470",
+      "39684451",
+      "29914350",
+      "42335450",
+      "42185831",
+      "31068142",
+      "39944798",
+      "40220759",
+      "37016281",
+      "39694856",
+      "33939795",
+      "38892162"
+    ],
+    "review": [
+      "40708222",
+      "39939367",
+      "42632029",
+      "42681526",
+      "40966655"
+    ],
+    "pmc": [
+      "12289554"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40708222/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf349",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

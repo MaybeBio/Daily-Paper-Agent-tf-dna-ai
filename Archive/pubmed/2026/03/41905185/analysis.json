@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41905185",
+  "title": "Artificial intelligence-assisted FTIR spectroscopy for hormone receptor subtyping in formalin-fixed breast Cancer tissues.",
+  "authors": "George, Renee; Serrano, Cherry Anne; Garong, Jasmine Thea; Magsanay, Kathryn; Maguigad, Aleezah Claire; De Castro, Maxene Alexandra; Navarro, Andrea Noelle; Mandac, Gabrielle Ricci; Ramos, Kenaiah; Isais, Maura; Abanador, Peter Guillen; Gil, Norely; Lenon, Maria Sarah; Trinidad, Marie Celestine; Baldomar, Angeline Acryl; Tomas, Rock Christian; Albano, Pia Marie",
+  "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+  "published_date": "2026-03-30",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用AI辅助FTIR光谱对乳腺癌组织进行激素受体分型，属于临床诊断应用，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Determination of estrogen receptor (ER) and progesterone receptor (PR) status is critical for breast cancer subtyping and guiding endocrine therapy. Although immunohistochemistry (IHC) remains the diagnostic gold standard, it is costly, labor-intensive, and prone to interobserver variability. These limitations are particularly restrictive in low-resource settings where access to standardized receptor testing is limited. OBJECTIVE: This study presents a proof-of-concept evaluation of attenuated total reflectance-Fourier transform infrared (ATR-FTIR) spectroscopy combined with artificial intelligence (AI) for label-free classification of ER and PR status in formalin-fixed paraffin-embedded (FFPE) breast cancer tissues. METHODS: A total of 72 samples (33 ER-positive, 39 ER-negative) were analyzed for ER classification, and 74 samples for PR classification (20 PR-positive, 54 PR-negative), generating 2328 and 1804 spectra, respectively. Spectra were acquired from pathologist-annotated tumor regions exhibiting definitive nuclear staining (positive) or absence thereof (negative) using a grid-based mapping strategy. Preprocessing included baseline correction (rubber-band algorithm) and z-score normalization. Seven AI models - logistic regression, support vector machine (SVM), decision tree, XGBoost, feedforward neural network (FNN), recurrent neural network (RNN), and convolutional neural network (CNN) - were trained and optimized using a genetic algorithm. Model performance was assessed via repeated cross-validation using AUC-ROC, accuracy, sensitivity, specificity, PPV, NPV, and F1 score. RESULTS: CNN achieved the highest classification performance for both ER (AUC = 95.93% +/- 6.64%, accuracy = 90.06% +/- 4.85%) and PR (AUC = 97.46% +/- 0.64%, accuracy = 91.51% +/- 3.28%). FNN, RNN, and XGBoost also demonstrated strong performance, whereas SVM yielded the lowest accuracy and F1 scores. Statistically significant spectral differences between receptor-positive and -negative tumor regions were observed across biochemical bands corresponding to proteins, lipids, nucleic acids, and phosphorylated biomolecules. CONCLUSION: AI-enhanced ATR-FTIR spectroscopy demonstrates high diagnostic potential for hormone receptor subtyping in FFPE tissues. As a label-free, scalable platform, it offers a promising alternative to IHC, particularly in resource-constrained environments. These findings establish the technical feasibility of this approach and warrant further validation in multicenter clinical cohorts.",
+  "abstract_zh": "背景：雌激素受体（ER）和孕激素受体（PR）状态的测定对于乳腺癌分型及指导内分泌治疗至关重要。尽管免疫组织化学（IHC）仍是诊断的金标准，但其成本高昂、劳动密集，且易受观察者间差异影响。这些局限性在资源匮乏环境中尤为突出，因为标准化受体检测的可及性有限。目的：本研究提出了一项概念验证评估，将衰减全反射-傅里叶变换红外（ATR-FTIR）光谱与人工智能（AI）相结合，用于福尔马林固定石蜡包埋（FFPE）乳腺癌组织中ER和PR状态的无标记分类。方法：共分析72个样本（33个ER阳性，39个ER阴性）用于ER分类，74个样本用于PR分类（20个PR阳性，54个PR阴性），分别生成2328和1804个光谱。光谱采集自病理学家标注的肿瘤区域，这些区域表现出明确的核染色（阳性）或缺乏染色（阴性），采用基于网格的映射策略。预处理包括基线校正（橡胶带算法）和z-score归一化。七种AI模型——逻辑回归、支持向量机（SVM）、决策树、XGBoost、前馈神经网络（FNN）、循环神经网络（RNN）和卷积神经网络（CNN）——通过遗传算法进行训练和优化。模型性能通过重复交叉验证评估，使用AUC-ROC、准确率、敏感性、特异性、PPV、NPV和F1分数。结果：CNN在ER（AUC = 95.93% ± 6.64%，准确率 = 90.06% ± 4.85%）和PR（AUC = 97.46% ± 0.64%，准确率 = 91.51% ± 3.28%）分类中均达到最高性能。FNN、RNN和XGBoost也表现出强劲性能，而SVM的准确率和F1分数最低。在受体阳性和阴性肿瘤区域之间，观察到对应蛋白质、脂质、核酸和磷酸化生物分子的生化谱带存在统计学显著差异。结论：AI增强的ATR-FTIR光谱在FFPE组织中的激素受体分型方面展现出高诊断潜力。作为一种无标记、可扩展的平台，它为IHC提供了一种有前景的替代方案，尤其在资源受限的环境中。这些发现确立了该技术的可行性，并需要在多中心临床队列中进一步验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41905185/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41905185/",
+  "paper_page_path": "papers/pubmed/41905185/index.html"
+}

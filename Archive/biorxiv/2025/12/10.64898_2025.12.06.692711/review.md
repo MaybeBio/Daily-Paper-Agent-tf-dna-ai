@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and support of claims based solely on the provided manuscript text. No external data, figures, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors characterize the archaeal histone HTkC from Thermococcus kodakarensis, showing it forms a toroidal tetramer, wraps DNA, and produces highly compact nucleoprotein complexes approximately twice as compact as hypernucleosomes. They also report that htkC is highly expressed and its deletion impairs growth.
+- **Visible evidence base** SEC-MALS, CD spectroscopy, EMSA, ligase-mediated circularization assay, TPM, MNase digestion, X-ray crystallography, MD simulations, RNA-seq, and growth curve measurements, as described in the text.
+- **Missing materials affecting confidence** Figures, supplementary figures, supplementary tables, and raw data files were not provided. This limits verification of quantitative results, structural details, and statistical analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a functional characterization of an archaeal FtF histone, HTkC, and provides evidence for a novel mode of DNA compaction distinct from canonical nucleosomal histones. The combination of in vitro biochemistry, structural biology, MD simulations, and in vivo genetics is commendable. However, several technical concerns, particularly regarding the interpretation of the crystal structure, the quantitative claims of compaction, and the limited in vivo analysis, need to be addressed before the central conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of archaeal biology, chromatin structure, histone evolution, and DNA-protein interactions. The work is also relevant to those interested in the diversity of nucleoprotein complex architectures and the evolutionary origins of eukaryotic chromatin.
+- **Major strengths** The study addresses a relatively unexplored group of histones and provides a multi-faceted approach. The identification of a unique DNA-binding residue (R51) and the proposed structural basis for hypercompaction are interesting. The use of TPM to quantify compaction at the single-molecule level is a strong methodological choice.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The crystal structure is interpreted as showing DNA encircling half of each HTkC tetramer, and MD simulations are used to propose a full wrap.
+    - **Evidence pointer** Results, "DNA encircles around the HTkC tetramer"; Methods, "Crystallization, data collection, and structure determination"
+    - **Concern** The authors state that the electron density for DNA was continuous but did not allow unambiguous base assignment, and that the modeled 29-nt DNA sequence resulted in imperfect base pairing and discontinuities. This suggests the DNA model is not fully reliable. The claim that the structure shows DNA wrapping around the tetramer is based on a model with significant ambiguities. The MD simulations start from this potentially flawed model, and the observed "unwrapping" event in simulation #2 due to steric clash raises questions about the stability and physiological relevance of the proposed fully wrapped state.
+    - **Why it matters** The proposed architecture of the HTkC-DNA complex is a central finding. If the structural model is not robust, the subsequent interpretations about the mechanism of DNA wrapping and hypercompaction are weakened.
+    - **Resolution test** Provide a more detailed validation of the DNA model, such as simulated annealing omit maps, B-factor analysis, or alternative approaches to model the DNA. If the DNA sequence cannot be assigned, the authors should clearly state the limitations and avoid over-interpreting the trajectory of the DNA. The MD results should be discussed in the context of the model's limitations.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Support for claims
+    - **Claim pointer** The authors claim that HTkC achieves a level of compaction approximately twice that of hypernucleosomes.
+    - **Evidence pointer** Results, "HTkC wraps and (hyper)compacts DNA in vitro"; Figure 4c
+    - **Concern** The TPM data show two distinct compaction regimes. The claim of "twice the compaction" is based on the end-to-end distance at the highest measurable concentration (3000 nM), where the system is not saturated. The authors admit they cannot reach saturation. This makes the "two-fold" claim a lower estimate at best and potentially not representative of the full compaction capacity of HTkC. The comparison to hypernucleosomes is also not directly shown in the provided text, only referenced.
+    - **Why it matters** The degree of compaction is a key quantitative claim that distinguishes HTkC from other histones. An unsupported or incomplete quantitative comparison undermines the novelty of the finding.
+    - **Resolution test** Provide a direct, quantitative comparison of HTkC-mediated compaction with that of hypernucleosomes under identical experimental conditions. If saturation cannot be reached, the claim should be rephrased to reflect that HTkC can achieve at least a two-fold reduction in end-to-end distance, and the biological relevance of the observed regime should be discussed.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Support for claims
+    - **Claim pointer** The authors state that the reduced growth of the ΔhtkC strain may be partly due to the 35-fold decrease in TK0170 expression.
+    - **Evidence pointer** Results, "HTkC is highly expressed and affects growth"; Figure 6
+    - **Concern** The causal link between htkC deletion, TK0170 downregulation, and the observed growth phenotype is speculative. The authors do not provide any experimental evidence to support this link, such as complementation studies or analysis of DNA damage levels. The growth defect could be due to a variety of other factors, including global chromatin structure changes.
+    - **Why it matters** The in vivo data are used to support the physiological relevance of HTkC. Over-interpreting the mechanism of the growth defect without direct evidence weakens this aspect of the study.
+    - **Resolution test** Perform complementation experiments or measure a phenotype directly related to TK0170 function (e.g., DNA damage sensitivity) in the ΔhtkC strain. Alternatively, temper the claim to state that the growth defect correlates with changes in expression of DNA repair genes, without asserting causation.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract and Discussion
+    - **Evidence pointer** Abstract; Discussion
+    - **Issue** The abstract states that HTkC "hypercompacts DNA" and the discussion refers to "hypercompaction." This term is not clearly defined in the text and could be confused with the term "hypernucleosome."
+    - **Required correction** Define "hypercompaction" explicitly in the introduction or results, and clarify how it differs from the compaction seen in hypernucleosomes.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, "Molecular dynamics (MD) simulations"
+    - **Evidence pointer** Methods, "Molecular dynamics (MD) simulations"
+    - **Issue** The methods state that energy minimization was performed for "5000,000 steps." This is likely a typo and should be 5,000,000 or 500,000.
+    - **Required Correction** Correct the number of steps in the energy minimization protocol.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results, "DNA encircles around the HTkC tetramer"
+    - **Evidence pointer** Results, "DNA encircles around the HTkC tetramer"
+    - **Issue** The description of the crystal lattice as having "seemingly endless dsDNA" is confusing. The authors should clarify whether the DNA is a continuous helix through the crystal or a series of discrete, stacked fragments.
+    - **Required Correction** Clarify the nature of the DNA in the crystal lattice and the basis for the "continuous" model.
+- **Technical failings that need to be addressed before the case is established** The structural model of the HTkC-DNA complex (R1-M1) and the quantitative claim of two-fold compaction (R1-M2) are the primary technical issues. The causal link for the growth phenotype (R1-M3) is a significant over-interpretation.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The work is original in its focus on a non-canonical histone type and its proposed mechanism of DNA compaction. The finding of a potential unique DNA-binding residue adds to its novelty.
+    - **Scientific importance** The study is important for understanding the diversity of chromatin organization strategies in archaea and the evolution of histone function. It challenges the view that nucleosomal histones are the sole major organizers of archaeal chromatin.
+    - **Interdisciplinary readership** The topic is of interest to molecular biologists, biochemists, structural biologists, and evolutionary biologists. The use of multiple techniques broadens its appeal.
+    - **Technical soundness** The experimental design is generally sound, but the concerns about the structural model and the quantitative claims need to be resolved. The in vivo analysis is currently too superficial to strongly support the physiological claims.
+    - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the discussion of the structural model and the definition of "hypercompaction" could be clearer for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the current evidence base, particularly regarding the structure and the quantitative compaction claim, is not fully convincing. The in vivo data require more careful interpretation.
+
+## Risk / unsupported claims
+- The claim that HTkC forms nucleoprotein complexes that are "approximately twice" as compact as hypernucleosomes is not fully supported, as the system was not saturated in the TPM assay and a direct comparison was not shown.
+- The claim that the reduced growth of the ΔhtkC strain is "partly due to" the downregulation of TK0170 is unsupported by direct experimental evidence.
+- The proposed fully wrapped DNA state around the HTkC tetramer, based on MD simulations, is not robustly supported due to the ambiguities in the crystal structure and the observed instability in one simulation.
+- The statement that FtH histones are "important organizers of archaeal chromatin alongside classical histones" is a broad generalization based on data from a single organism and a single FtH histone.

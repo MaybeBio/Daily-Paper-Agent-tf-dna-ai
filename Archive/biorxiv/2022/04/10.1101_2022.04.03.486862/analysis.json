@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.03.486862",
+  "title": "Motifizer: a tool for parsing high-throughput sequencing datasets and quantitative comparative analyses of transcription factor-binding sites",
+  "authors": "Soumen Khan; Abhik Bhattacharjee; Pranav Badhe; Chinmay Dongaonkar; Yash Gaglani",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-05",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍Motifizer工具，整合ChIP-seq和RNA-seq流程进行转录因子结合位点解析与比较，但缺乏AI或物理模拟方法，且未涉及三维互作建模，属于广义TF-DNA位点分析工具，对本课题有间接参考价值。",
+  "abstract": "Background Comparative analysis of Chromatin immunoprecipitation followed by massively parallel sequencing (ChIP-seq), combined with transcriptomics data (RNA-seq), can provide critical insights into gene regulatory networks controlled by transcription factors in a given biological context. While multiple programs exist, which need to be individually installed and executed to generate such information, a user-friendly tool with low system requirements which combines the various computational processes into one package, using a docker container, is lacking. Results In this study, we present a user-interactive, infrastructure-independent computational pipeline, called Motifizer, which uses open source tools for processing ChIP-Seq and RNA-seq datasets. Motifizer performs extensive analysis of raw input data, performing peak calling, de-novo motif analysis and differential gene expression analysis on ChIP and RNA-seq datasets. Additionally, Motifizer can be used for analysis and quantitative comparison of transcription factor binding sites in user defined genomic regions. Motifizer also allows easy addition and/or changes of parameters, thereby adding to the versatility of the tool. Conclusion The Motifizer tool is an easy to use tool which uses a docker container system to install and execute ChIP-seq and RNA-seq data parsing. The Analysis module of Motifizer can be employed to identify putative targets involved in gene regulatory networks. Motifizer can be accessed by a large user base and does not require programming skill by the user. Motifizer can be locally installed from the repository ( https://github.com/abhikbhattacharjee/Motifizer )",
+  "abstract_zh": "背景 染色质免疫沉淀后大规模并行测序（ChIP-seq）与转录组学数据（RNA-seq）的比较分析，可为特定生物学背景下转录因子调控的基因调控网络提供关键见解。尽管存在多种程序，需单独安装和执行以生成此类信息，但缺乏一种用户友好、系统要求低、通过docker容器将各种计算过程整合为一个包的工具。结果 在本研究中，我们提出了一种用户交互式、基础设施无关的计算流程，称为Motifizer，它使用开源工具处理ChIP-Seq和RNA-seq数据集。Motifizer对原始输入数据进行广泛分析，在ChIP和RNA-seq数据集上执行峰值调用、从头基序分析和差异基因表达分析。此外，Motifizer可用于用户定义基因组区域中转录因子结合位点的分析和定量比较。Motifizer还允许轻松添加和/或更改参数，从而增加工具的通用性。结论 Motifizer工具是一款易于使用的工具，利用docker容器系统安装和执行ChIP-seq和RNA-seq数据解析。Motifizer的分析模块可用于识别基因调控网络中涉及的推定靶标。Motifizer可供广大用户访问，且不需要用户具备编程技能。Motifizer可从存储库（https://github.com/abhikbhattacharjee/Motifizer）本地安装。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.03.486862",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.03.486862",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.03.486862/index.html"
+}

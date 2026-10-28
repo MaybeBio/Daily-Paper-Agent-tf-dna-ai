@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, structural biology methodology, interpretation of cryo-EM data, and consistency of claims with presented evidence. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors present cryo-EM structures of the human CCAN complex bound to DNA and CENP-A nucleosomes reconstituted on α-satellite repeat sequences, showing that CCAN engages 65-70 bp of DNA in a loop configuration wrapping the CENP-TWSX module. They further propose models for higher-order assembly of CCAN on α-satellite arrays, including mono-CCAN:CENP-A Nuc, di-CCAN:CENP-A Nuc, and CCAN:di-CENP-A Nuc architectures.
+- **Visible evidence base** Cryo-EM reconstructions at 3.5 Å (CCAN:DNA), 4.5 Å (CCAN:CENP-A Nuc), 9.5 Å (CCAN:3' CENP-A Nuc), and 15.5 Å (CCAN:5' CENP-A Nuc); SEC and mass photometry data; CENP-B displacement assays; deposited PDB and EMDB entries.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not fully provided in the submitted text; specific validation statistics (FSC curves, model-to-map correlation, Ramachandran statistics) not included in the visible text; details of the AlphaFold3-guided model building not fully described; the unpublished comparative data from Musacchio and colleagues are mentioned but not accessible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial structural biology advance, providing the first high-resolution views of how the human CCAN complex engages extended DNA beyond the CENP-A nucleosome, including the previously uncharacterized interaction of DNA with the CENP-SX subunits of the CENP-TWSX module. The finding that CCAN wraps DNA around CENP-TWSX in a manner analogous to histone tetramer DNA wrapping is conceptually important and will be of broad interest to the chromosome segregation and chromatin fields. However, the manuscript's central claims regarding higher-order assembly models rest on limited particle numbers and low-resolution reconstructions for the di-nucleosome complexes, and the authors themselves acknowledge inconsistencies between their structural observations and prior functional data. The distinction between well-supported structural observations and more speculative architectural models needs to be sharpened.
+- **Who would be interested in the results, and why** Researchers studying kinetochore assembly, centromere biology, chromatin structure, and chromosome segregation. The structural comparison between CENP-TWSX and histone tetramers will interest chromatin biologists. The proposed models for CCAN organization on α-satellite arrays will be relevant to those studying repetitive genome architecture and epigenetic specification of centromeres.
+- **Major strengths** 1) High-quality cryo-EM structure of CCAN:DNA at 3.5 Å revealing a complete picture of DNA wrapping around the entire CENP-TWSX module, filling a gap from prior work. 2) The structural analogy between CENP-TWSX and H3:H4 tetramer DNA wrapping is compelling and well-illustrated. 3) The use of native α-satellite sequences and the systematic comparison of different DNA lengths provides a logical progression. 4) The authors are appropriately cautious in discussing the implications of their di-nucleosome structures, acknowledging inconsistencies with prior functional data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the CCAN:di-CENP-A Nuc complex structure reveals CCAN bound to DNA linking two CENP-A nucleosomes, with the upstream nucleosome unwrapped by 20-25 bp and DNA dissociated from CENP-SX.
+  - **Evidence pointer** Results section "CCAN binds a dimeric α-satellite repeat with two CENP-A nucleosomes"; Supplementary Figs 8 and 9; Figure 4
+  - **Concern** The di-nucleosome reconstructions are at 9.5 Å and 15.5 Å resolution, derived from only 9,661 and 5,396 particles respectively. At these resolutions, the assignment of specific protein domains, the extent of DNA unwrapping, and the precise positioning of the CENP-A nucleosomes relative to CCAN cannot be reliably determined. The authors state that the composite map was generated from these low-resolution reconstructions, yet they draw specific conclusions about DNA unwrapping amounts (20-25 bp) and the dissociation of DNA from CENP-SX. These are molecular-level interpretations from maps that cannot support such detail.
+  - **Why it matters** The central architectural conclusion of the paper, that CCAN cannot be accommodated between two fully wrapped CENP-A nucleosomes without unwrapping and CENP-SX dissociation, depends critically on the interpretation of these low-resolution maps. If the interpretation is incorrect, the proposed models for higher-order assembly would need substantial revision.
+  - **Resolution test** The authors should either provide higher-resolution reconstructions of the di-nucleosome complexes (ideally better than 7 Å) that unambiguously show the positions of CENP-A nucleosomes and the path of DNA, or substantially temper the molecular-level claims derived from these maps. Alternatively, complementary biochemical validation (e.g., nuclease footprinting of the CCAN:di-nucleosome complex, or cross-linking mass spectrometry to confirm specific contacts) would strengthen the interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Interpretation
+  - **Claim pointer** The authors propose three models of CCAN:CENP-A Nuc assembly: (i) 1xCCAN:1xCENP-A Nuc:1xCENP-C dimer, (ii) 1xCCAN:2xCENP-A Nuc:1xCENP-C dimer, and (iii) 2xCCAN:1xCENP-A Nuc:1xCENP-C dimer, and suggest these are consistent with published protein copy numbers and centromere footprint sizes.
+  - **Evidence pointer** Discussion section; Figures 3-5
+  - **Concern** The consistency argument relies on approximate copy number estimates (e.g., 72 copies of CENP-T, 215 copies of CENP-C) and footprint sizes (250-300 bp) that carry substantial uncertainty. The authors acknowledge that model (i) and (ii) would occupy two α-satellite repeats and model (iii) three repeats, but the arithmetic relating these models to the observed copy numbers is not presented quantitatively. For example, if there are 200 CENP-A nucleosomes and 72 CENP-T copies, model (iii) would require 144 CENP-T copies for full occupancy, which exceeds the measured number. The authors do not address this discrepancy.
+  - **Why it matters** The claim that the models are "consistent with published numbers" is a key part of the paper's significance argument. If the models are not quantitatively consistent, the discussion of higher-order architecture is weakened.
+  - **Resolution test** Provide a quantitative table showing how each model maps onto the published copy numbers of CENP-A, CENP-C, and CENP-T, including assumptions about occupancy and stoichiometry. Address the apparent mismatch between model (iii) and CENP-T copy numbers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "CCAN engages 65-70 bp of DNA comprising 30-35 bp of an upstream α-satellite repeat" and that this DNA interacts with the histone-fold domain subunits of CENP-TWSX in a manner resembling DNA wrapping in nucleosomes.
+  - **Evidence pointer** Results section "CCAN binds 70 bp of DNA in a loop configuration that wraps the CENP-TWSX module"; Figure 1; Supplementary Figs 1 and 2
+  - **Concern** The structural analogy to nucleosomal DNA wrapping is based on the path of the DNA backbone and the registration of major groove contacts relative to the tetramer dyad. However, the authors note that base-specific contacts are not observed and that the DNA sequence is not specifically recognized. The claim of "identical register" with H3:H4 tetramer wrapping (Figure 2a, b) needs to be quantified. What is the RMSD of the DNA path compared to a canonical nucleosome? What is the buried surface area? Without quantitative comparison, the "resemblance" claim is subjective.
+  - **Why it matters** The paper's conceptual contribution includes the idea that CENP-TWSX mimics histone tetramer DNA wrapping. This claim should be supported by quantitative structural comparison, not just visual similarity.
+  - **Resolution test** Provide a quantitative comparison of DNA path curvature, minor groove contacts, and electrostatic surface complementarity between CENP-TWSX and H3:H4 tetramer. Report RMSD values for DNA phosphate backbone superposition and buried surface area calculations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "Human kinetochores assemble onto centromeric DNA defined by tandem copies of thousands of the 171 bp α-satellite repeat sequence." This is somewhat imprecise, as centromeric DNA also contains other repeat types and the organization is more complex than simple tandem arrays.
+  - **Required correction** Rephrase to acknowledge the complexity of centromeric DNA organization, e.g., "defined largely by tandem arrays of the 171 bp α-satellite repeat."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, DNA cloning section
+  - **Evidence pointer** Methods section "DNA cloning"
+  - **Issue** The description of the ASW14 construct states that "91 base pairs centred on their dyad positions replaced with Widom601 sequence aligned at the dyad base." It is unclear whether the Widom601 sequence is a direct replacement or whether flanking sequences were retained. Additionally, the statement that "Six ASW14 fragments flanked by GATATC (EcoRV recognition site) were assembled into the pMK-RQ plasmid" is ambiguous regarding the final arrangement of the six fragments.
+  - **Required correction** Clarify the exact sequence arrangement, including the number of α-satellite repeats in the final construct and the position of the B-box relative to the nucleosome dyad.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on CENP-B displacement
+  - **Issue** The authors state that "CCAN displaced CENP-B from the array, showing that CCAN and CENP-B engagement of linker DNA is mutually exclusive." However, the SEC data shown in Supplementary Fig 6d, e demonstrate that CCAN can bind the di-nucleosome in the absence of CENP-B, and that CENP-B binding is reduced in the presence of CCAN. This is consistent with mutual exclusion but does not directly demonstrate displacement. The experiment appears to be a competition binding assay rather than a displacement assay.
+  - **Required correction** Rephrase to "CCAN and CENP-B compete for binding to the linker DNA" or "CENP-B binding is reduced in the presence of CCAN," unless a true displacement experiment was performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "CCAN binds a dimeric α-satellite repeat with two CENP-A nucleosomes"
+  - **Evidence pointer** Results section; Supplementary Fig 5
+  - **Issue** The mass photometry data are described as showing a "major 1,054 kDa complex" and a "445 kDa component." The expected mass of the CCAN:di-nucleosome complex is stated as 1,282 kDa, and the authors attribute the discrepancy to the DNA component scattering less than globular proteins. This calibration issue should be discussed more explicitly, and the authors should state whether the 1,054 kDa peak is consistent with a single CCAN bound to one or two nucleosomes given the calibration uncertainty.
+  - **Required correction** Provide a more detailed discussion of the mass photometry calibration limitations and how the assignment of the 1,054 kDa species to CCAN:di-nucleosome was made.
+- **Technical failings that need to be addressed before the case is established** The low-resolution di-nucleosome reconstructions (9.5 Å and 15.5 Å) are used to draw molecular-level conclusions about DNA unwrapping and CENP-SX dissociation. This is the primary technical failing. Additionally, the quantitative basis for the "resemblance" between CENP-TWSX and histone tetramer DNA wrapping is not provided.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The structures presented are novel and address a significant gap in understanding CCAN-DNA interactions beyond the nucleosome. The comparison to histone tetramer wrapping is conceptually original.
+  - **Scientific importance** High for the kinetochore and chromatin fields. The work provides a framework for understanding how CCAN assembles on repetitive centromeric DNA, which is fundamental to chromosome segregation.
+  - **Interdisciplinary readership** Moderate. The work will primarily interest structural biologists, cell biologists studying mitosis, and chromatin researchers. The broader chromosome biology community will find the models relevant, but the technical detail may limit accessibility.
+  - **Technical soundness** The high-resolution structures (3.5 Å CCAN:DNA) appear technically sound. The low-resolution di-nucleosome structures are a concern as described above. The biochemical validation (CENP-B competition) is appropriate but limited.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the figures are described clearly. However, the discussion of architectural models assumes familiarity with kinetochore terminology. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The high-resolution CCAN:DNA structure is a solid contribution. However, the claims regarding di-nucleosome architecture and the higher-order models need to be either supported by higher-resolution data or substantially tempered. The quantitative comparison to histone tetramer wrapping should also be strengthened.
+
+## Risk / unsupported claims
+- The claim that CCAN engages 65-70 bp of DNA in the di-nucleosome context with specific unwrapping amounts (20-25 bp) from the upstream nucleosome is not supported by the resolution of the available reconstructions.
+- The claim that the proposed models are "consistent with published numbers" of CENP-A, CENP-C, and CENP-T is not quantitatively demonstrated.
+- The statement that CCAN and CENP-B binding is "mutually exclusive" is supported by competition data but the term "displacement" is not directly demonstrated.
+- The assignment of the 1,054 kDa mass photometry species to a specific CCAN:di-nucleosome stoichiometry is uncertain given the acknowledged calibration issues.
+- The claim that DNA wraps around CENP-TWSX with "identical register" to histone tetramer wrapping is not quantitatively supported.

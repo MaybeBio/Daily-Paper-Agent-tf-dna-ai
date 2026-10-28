@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41290918",
+    "doi": "10.1038/s41598-025-25943-z",
+    "title": "Exploring the effect and mechanism of baicalin on sepsis-induced acute lung injury based on network pharmacology and experimental verification."
+  },
+  "content": {
+    "abstract": "Baicalin (BA) is an active component of the natural plant Scutellaria baicalensis, which has been used over many years to treat inflammation and respiratory infections. In this study, the sepsis-induced acute lung injury (ALI) mouse model, network pharmacology and molecular docking were used to predict and explore the potential targets and signaling pathways of BA against ALI. The results showed that BA inhibited the major characteristics of ALI, including pathological changes, alveolar-capillary barrier dysfunction, increased inflammatory response and M1 macrophage polarization. Based on network pharmacology and molecular docking analyses, the PI3K/AKT/NF-kappaB pathway might be an important mechanism by which BA mitigated sepsis-induced ALI. Moreover, BA attenuated the phosphorylation of PI3K, AKT, IkappaB and NF-kappaB in the lung tissues of the ALI mice. In conclusion, this study demonstrated that BA ameliorated lung injury in mice, and depressed M1 macrophage polarization through inhibition of the PI3K/AKT/NF-kappaB pathway.",
+    "keywords": [
+      "Acute lung injury",
+      "Baicalin",
+      "Macrophage polarization",
+      "Molecular docking",
+      "Network pharmacology",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "*Flavonoids/pharmacology/therapeutic use",
+      "*Sepsis/complications/drug therapy/immunology",
+      "*Acute Lung Injury/diagnosis/drug therapy/immunology/pathology",
+      "Network Pharmacology",
+      "Scutellaria baicalensis/chemistry",
+      "Molecular Docking Simulation",
+      "Signal Transduction/drug effects/immunology",
+      "Macrophages/drug effects/immunology/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "NF-kappa B/metabolism",
+      "Disease Models, Animal",
+      "Pulmonary Alveoli/blood supply/drug effects/metabolism/pathology",
+      "Capillaries/drug effects/metabolism/pathology",
+      "Mice, Inbred C57BL",
+      "Male",
+      "Animals",
+      "Mice",
+      "Bronchoalveolar Lavage",
+      "Bronchoalveolar Lavage Fluid"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Pengwei",
+        "Zhang, Ru",
+        "Liu, Miaomiao",
+        "Gao, Jianlian",
+        "Zhang, Yongheng",
+        "Liu, Xiaohong",
+        "Li, Caixia",
+        "Zhao, Yuanyuan",
+        "Zhu, Tiantian",
+        "Zhao, Xinghua",
+        "Deng, Zhijian"
+      ],
+      "short_names": [
+        "Wang P",
+        "Zhang R",
+        "Liu M",
+        "Gao J",
+        "Zhang Y",
+        "Liu X",
+        "Li C",
+        "Zhao Y",
+        "Zhu T",
+        "Zhao X",
+        "Deng Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Clinical Pharmacy, Henan Province Key subjects of Medicine, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Life Science Research Center, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Xinxiang Key Laboratory for Individualized Drug Use Research for Immune Diseases, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+        "College of Pharmacy, Xinxiang Medical University, Xinxiang, 453003, Henan, China. zhutt@xxmu.edu.cn.",
+        "Basic Medical College, Xinxiang Medical University, Xinxiang, 453003, Henan, China. zphx1985@163.com.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China. deng710402@163.com.",
+        "Xinxiang Key Laboratory for Individualized Drug Use Research for Immune Diseases, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China. deng710402@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Pengwei",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+          "Clinical Pharmacy, Henan Province Key subjects of Medicine, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ru",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+          "Life Science Research Center, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Miaomiao",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jianlian",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China.",
+          "Xinxiang Key Laboratory for Individualized Drug Use Research for Immune Diseases, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongheng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaohong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Caixia",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuanyuan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Tiantian",
+        "short_name": "Zhu T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Xinxiang Medical University, Xinxiang, 453003, Henan, China. zhutt@xxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xinghua",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Medical College, Xinxiang Medical University, Xinxiang, 453003, Henan, China. zphx1985@163.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Zhijian",
+        "short_name": "Deng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Xinxiang Medical University, No. 88 Jiankang Road, Weihui, 453100, Henan, China. deng710402@163.com.",
+          "Xinxiang Key Laboratory for Individualized Drug Use Research for Immune Diseases, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, Henan, China. deng710402@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 00:27",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42216074",
+      "42133065",
+      "42074197"
+    ],
+    "refs": [
+      "39417505",
+      "39056808",
+      "38823539",
+      "38799799",
+      "38631145",
+      "38508433",
+      "38445620",
+      "38428662",
+      "38421448",
+      "38396786",
+      "38348045",
+      "38310155",
+      "38292253",
+      "38211803",
+      "38100537",
+      "38062859",
+      "37857120",
+      "37783230",
+      "37725153",
+      "37704044",
+      "37658121",
+      "37612209",
+      "37566293",
+      "37234960",
+      "37209607",
+      "37193771",
+      "37168996",
+      "36838858",
+      "36493546",
+      "36411615",
+      "35965153",
+      "35911168",
+      "34217425",
+      "34186115",
+      "33730981",
+      "33223957",
+      "32647933",
+      "31596045",
+      "31273392",
+      "29691495",
+      "29335159",
+      "29207058",
+      "29039541",
+      "27730005",
+      "27028604",
+      "26903338",
+      "25833846",
+      "24157331",
+      "22527445",
+      "15744129",
+      "15659942"
+    ],
+    "similar": [
+      "41290918",
+      "40784326",
+      "34212053",
+      "39922147",
+      "40499803",
+      "40216045",
+      "40133026",
+      "36882272",
+      "40902813",
+      "33744777",
+      "31506998",
+      "38445620",
+      "40089200",
+      "34602563",
+      "41314044",
+      "38692075",
+      "31146107",
+      "40139580",
+      "40912485",
+      "40133025",
+      "39374881",
+      "34464887",
+      "40652647",
+      "40865655",
+      "39914692",
+      "40850661",
+      "39879705",
+      "38342157",
+      "39042216",
+      "39272057",
+      "36583372",
+      "40805991",
+      "40840143",
+      "36610129",
+      "37977206",
+      "39825692",
+      "41124707",
+      "34737012",
+      "39307770",
+      "32845434",
+      "41311552",
+      "39839500",
+      "40490233",
+      "32200026",
+      "40220405",
+      "37139806",
+      "38924251",
+      "37820748",
+      "37566293",
+      "26782291",
+      "33577850",
+      "40403505",
+      "41496195",
+      "30138892",
+      "38043934",
+      "39278295",
+      "41482772",
+      "40466880",
+      "41519458",
+      "41478537",
+      "40553825",
+      "38723525",
+      "38759522",
+      "38643862",
+      "34951223",
+      "34305926",
+      "40228571",
+      "31242025",
+      "33223957",
+      "39358228",
+      "40347881",
+      "22458687",
+      "28368327",
+      "37175637",
+      "41046083",
+      "30647760",
+      "39490433",
+      "24534526",
+      "38688144",
+      "41728646",
+      "39742727",
+      "41017810",
+      "37586441",
+      "40737847",
+      "32636835",
+      "40265200",
+      "40389853",
+      "31466050",
+      "39032470",
+      "35926779",
+      "35063904",
+      "38972239",
+      "38739343",
+      "37812891",
+      "40609811",
+      "27470389",
+      "40554052",
+      "40946659",
+      "31035089",
+      "41480318"
+    ],
+    "review": [
+      "41290918"
+    ],
+    "pmc": [
+      "12647782"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-25943-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41290918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

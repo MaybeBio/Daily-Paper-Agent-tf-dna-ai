@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40848067",
+  "title": "Identification of Leaf Rust-Related Gene Signature in Wheat (Triticum Aestivum L.) Using High-Throughput Sequencing, Network Analysis, and Machine Learning Algorithms.",
+  "authors": "Farhan, Muhammad; Ikram, Muhammad; Sun, Jing-E; Yang, San-Wei; Wang, Yong",
+  "journal": "Rice (New York, N.Y.)",
+  "published_date": "2025-08-26",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究利用RNA-seq、WGCNA和机器学习识别小麦叶锈病相关基因，虽涉及转录因子但未聚焦蛋白-DNA互作或结合机制，方法为基因表达分析而非AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "Wheat provides staple food and industrial raw material for humans and animals, but its production decreased due to leaf rust (Lr) disease caused by Puccinia triticina by up to 15%. It is challenging to identify Lr-associated genes due to the limited sample size and large genome, which hinders the breeding efforts for Lr disease. This study integrated RNA-seq data to mine the candidate genes using meta-analysis, WGCNA, and machine-learning approaches. As a result, 2153 upregulated and 1579 downregulated meta-differentially expressed genes (meta-DEGs) were identified, with four known genes (Lr13 and Lr67/Yr46/Sr55). The meta-DEGs were significantly enriched in antifungal innate immune response, glutathione metabolism, detoxification, phenylalanine, and flavonoid biosynthesis. Among these, 124 resistance (R) genes (~ 85.48% upregulated) were expressed differentially, and ~ 80% belonged to plant pattern recognition receptors (PPRs) that triggered immunity. Likewise, 162 transcription factors (TFs), including WRKY (43), ERF (30), and MYB (33), were associated with Lr disease, and 81 candidate hub genes were co-expressed for Lr. Finally, nine potential candidate genes, including TraesCS7A03G0388400 (BSP), TraesCS1A03G0869900 (PR4), TraesCS6B03G1228800 (AP2/ERF), TraesCS3B03G0088700 (MYB62), TraesCS5A03G1198800 (CYP96A10), and TraesCSU03G0129300 (LTP4), were mined via attribute weighting and machine learning model (XGBoost AUC = 0.97 and accuracy = 0.90) and validated via single-gene model, linear regression, and t-test at p </= 0.05. The relative expressions calculated via RT-qPCR assay of nine genes were significantly higher at different time points under Lr infection. Thus, this study reported genes under Lr infection using advanced bioinformatics and supervised machine-learning models, which provide fundamental insight and a solid foundation for understanding the molecular mechanisms of Lr resistance and offer an advanced pipeline for future breeding programs to develop superior cultivars with durable resistance.",
+  "abstract_zh": "小麦为人类和动物提供主食和工业原料，但其产量因由小麦叶锈菌（Puccinia triticina）引起的叶锈病（Lr）而减少高达15%。由于样本量有限且基因组庞大，识别与Lr相关的基因具有挑战性，这阻碍了针对Lr病害的育种工作。本研究整合RNA-seq数据，采用荟萃分析、WGCNA和机器学习方法挖掘候选基因。结果鉴定出2153个上调表达和1579个下调表达的荟萃差异表达基因（meta-DEGs），其中包括四个已知基因（Lr13和Lr67/Yr46/Sr55）。meta-DEGs显著富集于抗真菌先天免疫反应、谷胱甘肽代谢、解毒、苯丙氨酸和类黄酮生物合成途径。其中，124个抗性（R）基因（约85.48%上调）差异表达，约80%属于触发免疫的植物模式识别受体（PPRs）。同样，162个转录因子（TFs），包括WRKY（43个）、ERF（30个）和MYB（33个），与Lr病害相关，81个候选枢纽基因与Lr共表达。最终，通过属性加权和机器学习模型（XGBoost AUC = 0.97，准确率 = 0.90）挖掘出九个潜在候选基因，包括TraesCS7A03G0388400（BSP）、TraesCS1A03G0869900（PR4）、TraesCS6B03G1228800（AP2/ERF）、TraesCS3B03G0088700（MYB62）、TraesCS5A03G1198800（CYP96A10）和TraesCSU03G0129300（LTP4），并通过单基因模型、线性回归和t检验（p ≤ 0.05）进行验证。通过RT-qPCR检测的九个基因在Lr感染下不同时间点的相对表达量显著升高。因此，本研究利用先进的生物信息学和监督机器学习模型报告了Lr感染下的基因，为理解Lr抗性的分子机制提供了基础见解和坚实基础，并为未来育种计划开发具有持久抗性的优良品种提供了先进流程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40848067/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40848067/",
+  "paper_page_path": "papers/pubmed/40848067/index.html"
+}

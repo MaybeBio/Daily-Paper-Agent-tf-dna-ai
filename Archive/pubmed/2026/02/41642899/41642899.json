@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41642899",
+    "doi": "10.1371/journal.pone.0342269",
+    "title": "SIRT7 as a context-dependent biomarker and therapeutic target: Insights from a pan-cancer study."
+  },
+  "content": {
+    "abstract": "SIRT7 is a member of the sirtuin family and has emerged as a crucial player in cancer biology, with a multifaceted role in both tumor-promoting and tumor-suppressing activities. Despite its importance in connecting NAD+ metabolism with transcriptional regulation, a systematic analysis across multiple cancer types remains underexplored, thereby limiting our understanding of its prognostic value, mutational impact, immune associations, and therapeutic potential. Therefore, this study aims to evaluate the pan-cancer significance of SIRT7 through integrated computational approaches. We employed protein structure modeling, deep neural network-guided protein interaction analysis, cancer hallmark association, gene expression profiling, survival analysis, mutational landscape, immune infiltration assessment, and structure-based drug discovery, combining molecular docking and dynamics simulations. Our deep neural network analyses revealed SIRT7 as a central hub connecting NAD+ metabolism with transcriptional regulation in its sub-network (R2: 0.9839). SIRT7 exhibited differential expression across 17 cancer types, with high expression associated with poor survival in six cancer types; however, it surprisingly correlated with better outcomes in sarcoma. Cancer-specific mutations significantly reduced patient survival and altered the expression of network components. We identified regulatory mechanisms involving five miRNAs and three transcription factors. Therapeutic intervention identified two promising SIRT7 inhibitors (ZINC000150487575 and ZINC000150641215) with superior binding properties compared to the reference inhibitor. This comprehensive pan-cancer analysis of SIRT7 provides a framework for understanding its role in cancer biology and identifies potential therapeutic opportunities for personalized interventions. Our findings have immediate implications for clinical oncology, enabling SIRT7 as a biomarker for patient stratification and a therapeutic target for novel inhibitor development. Targeting SIRT7 may offer new therapeutic strategies for various cancers, particularly those with high SIRT7 expression, as SIRT7 functions in a context-dependent manner in cancer regulation. Further studies are necessary to validate the efficacy of SIRT7 inhibitors and explore their role in therapeutic resistance and disease recurrence.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Sirtuins/genetics/metabolism/chemistry/antagonists & inhibitors",
+      "Humans",
+      "*Neoplasms/genetics/metabolism/drug therapy/pathology",
+      "*Biomarkers, Tumor/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Molecular Docking Simulation",
+      "Mutation",
+      "MicroRNAs/genetics/metabolism",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Islam, K M Tanjida",
+        "Mahmud, Shahin"
+      ],
+      "short_names": [
+        "Islam KMT",
+        "Mahmud S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5113-2527"
+      ],
+      "affiliations": [
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Islam, K M Tanjida",
+        "short_name": "Islam KMT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mahmud, Shahin",
+        "short_name": "Mahmud S",
+        "identifiers": [
+          "0000-0002-5113-2527"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Mawlana Bhashani Science and Technology University, Tangail, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/05 19:05",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [
+      "42467120"
+    ],
+    "refs": [
+      "40961826",
+      "40889653",
+      "40496069",
+      "40446548",
+      "40332289",
+      "40165597",
+      "39908918",
+      "39866430",
+      "39578692",
+      "39479446",
+      "39218192",
+      "39210256",
+      "38718835",
+      "38647086",
+      "38452583",
+      "38383727",
+      "38360598",
+      "38201252",
+      "37915858",
+      "37805934",
+      "37691108",
+      "37676263",
+      "37409952",
+      "37111115",
+      "37056924",
+      "36918544",
+      "36581622",
+      "36370105",
+      "36169237",
+      "35585284",
+      "35174171",
+      "35077385",
+      "35022204",
+      "34967848",
+      "34788843",
+      "34573343",
+      "34520990",
+      "34321199",
+      "34129782",
+      "33146890",
+      "33085945",
+      "33070389",
+      "32832656",
+      "32705247",
+      "32567489",
+      "32184731",
+      "31999456",
+      "31851420",
+      "31843644",
+      "31817470",
+      "31614060",
+      "31326235",
+      "31251117",
+      "31114875",
+      "31060260",
+      "30931480",
+      "30578034",
+      "30342425",
+      "30207593",
+      "30167510",
+      "29912392",
+      "29110597",
+      "29092952",
+      "28979804",
+      "28818916",
+      "28495876",
+      "27899662",
+      "27313501",
+      "26481357",
+      "25949949",
+      "25613900",
+      "24771643",
+      "24536059",
+      "24113281",
+      "23550210",
+      "22722849",
+      "18853439",
+      "18613948",
+      "18596735",
+      "17932912",
+      "17517781",
+      "16784462",
+      "15608232",
+      "15116359",
+      "9164814",
+      "8401235",
+      "1853201"
+    ],
+    "similar": [
+      "41642899",
+      "42345158",
+      "41439701",
+      "39154046",
+      "40165597",
+      "41436831",
+      "40120182",
+      "40777041",
+      "39865831",
+      "41188771",
+      "37287091",
+      "40004479",
+      "41151853",
+      "40548474",
+      "41630479",
+      "41700140",
+      "23079745",
+      "40842984",
+      "42337485",
+      "41204520",
+      "41202314",
+      "40655141",
+      "40529377",
+      "41872824",
+      "40961826",
+      "41796171",
+      "40191190",
+      "39747410",
+      "40333905",
+      "37275857",
+      "39863609",
+      "41342434",
+      "40075453",
+      "40410718",
+      "38383727",
+      "41098715",
+      "40853611",
+      "40771813",
+      "41613136",
+      "31074374",
+      "24536059",
+      "39340957",
+      "41836446",
+      "40214853",
+      "41918119",
+      "40625743",
+      "33094914",
+      "39737177",
+      "41578372",
+      "41617445",
+      "39896800",
+      "39205642",
+      "39934677",
+      "39753728",
+      "39923580",
+      "41153357",
+      "39352450",
+      "40424765",
+      "36040642",
+      "40237399",
+      "39184354",
+      "40804073",
+      "38064138",
+      "41274898",
+      "41371106",
+      "41136949",
+      "40898538",
+      "39540210",
+      "40165405",
+      "39181686",
+      "39567714",
+      "42053674",
+      "41618209",
+      "40729863",
+      "31678303",
+      "40155834",
+      "41740484",
+      "40129060",
+      "40993621",
+      "41957579",
+      "40936932",
+      "42112349",
+      "40775249",
+      "41993135",
+      "41303609",
+      "41731765",
+      "40853971",
+      "39546161",
+      "40138336",
+      "41405767",
+      "41931575",
+      "41828401",
+      "33326690",
+      "40332418",
+      "39820192",
+      "38900401",
+      "42244292",
+      "40898185",
+      "41882633",
+      "40229676"
+    ],
+    "review": [
+      "41642899",
+      "40165597",
+      "41188771",
+      "38383727",
+      "38064138",
+      "39540210"
+    ],
+    "pmc": [
+      "12875470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0342269",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41642899/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

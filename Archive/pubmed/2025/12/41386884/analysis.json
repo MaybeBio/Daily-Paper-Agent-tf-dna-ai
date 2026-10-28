@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41386884",
+  "title": "DeepBovC2H2-ZF: deep learning-guided prediction and molecular dynamics validation of C2H2 zinc finger transcription factors in Bovidae.",
+  "authors": "Pandey, Bharati; Singh, Manbir",
+  "journal": "Journal, genetic engineering & biotechnology",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习预测牛科C2H2锌指转录因子，并通过分子对接和MD模拟验证KLF4与DNA结合稳定性，聚焦TF-DNA互作但预测基于序列而非结合位点，方法可迁移至本课题。",
+  "abstract": "C2H2 zinc finger (ZF) transcription factors (TFs) are among the most abundant and versatile regulatory proteins, playing critical roles in development, differentiation, apoptosis, stress response, and immune regulation. In livestock, especially within the Bovidae family, these TFs regulate gene expression linked to economically important traits such as growth, reproduction, milk production, and disease resistance. However, genome-wide identification of C2H2-ZF TFs in Bovidae remains limited due to the lack of specialized computational tools. To address this, we developed DeepBovC2H2-ZF, a deep learning-based framework for predicting C2H2-ZF TFs using only protein sequence information. The model was trained on a curated dataset of validated C2H2-ZF and non-C2H2-ZF TFs, utilizing sequence-derived features that capture the unique domain signatures. DeepBovC2H2-ZF achieved high prediction accuracy, sensitivity, and specificity, outperforming traditional machine learning models. A correctly predicted C2H2-ZF protein, Kruppel-like factor 4 (KLF4), was further validated through molecular docking and three independent molecular dynamics (MD) simulations of both the protein and its DNA-bound complex. The simulations confirmed structural stability and strong DNA-binding affinity, supporting the reliability of DeepBovC2H2-ZF for functional genomics studies in Bovidae.",
+  "abstract_zh": "C2H2锌指（ZF）转录因子（TFs）是最丰富且功能多样的调控蛋白之一，在发育、分化、凋亡、应激反应和免疫调控中发挥关键作用。在牲畜中，尤其是在牛科（Bovidae）家族内，这些转录因子调控与经济增长相关性状（如生长、繁殖、产奶量和抗病性）相关的基因表达。然而，由于缺乏专门的计算工具，牛科中C2H2-ZF转录因子的全基因组鉴定仍然有限。为解决这一问题，我们开发了DeepBovC2H2-ZF，一种基于深度学习的框架，仅利用蛋白质序列信息预测C2H2-ZF转录因子。该模型在精选的已验证C2H2-ZF和非C2H2-ZF转录因子数据集上训练，利用捕获独特结构域特征的序列衍生特征。DeepBovC2H2-ZF实现了高预测准确性、敏感性和特异性，优于传统机器学习模型。一个正确预测的C2H2-ZF蛋白，即Kruppel样因子4（KLF4），通过分子对接和三次独立的分子动力学（MD）模拟（包括蛋白质及其DNA结合复合物）进一步验证。模拟结果确认了结构稳定性和强DNA结合亲和力，支持了DeepBovC2H2-ZF在牛科功能基因组学研究中的可靠性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41386884/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41386884/",
+  "paper_page_path": "papers/pubmed/41386884/index.html"
+}

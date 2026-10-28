@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.03.458869",
+  "title": "Protein embeddings and deep learning predict binding residues for various ligand classes",
+  "authors": "Maria Littmann; Michael Heinzinger; Christian Dallago; Konstantin Weissenow; Burkhard Rost",
+  "journal": "bioRxiv",
+  "published_date": "2021-09-05",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用蛋白质语言模型Prot5嵌入和深度学习预测包括核酸在内的各类配体结合残基，虽非聚焦TF-DNA特异性互作，但方法可迁移至TF-DNA结合位点预测，属广义蛋白-DNA互作且AI方法匹配。",
+  "abstract": "One important aspect of protein function is the binding of proteins to ligands, including small molecules, metal ions, and macromolecules such as DNA or RNA. Despite decades of experimental progress many binding sites remain obscure. Here, we proposed bindEmbed21 , a method predicting whether a protein residue binds to metal ions, nucleic acids, or small molecules. The Artificial Intelligence (AI)-based method exclusively uses embeddings from the Transformer-based protein Language Model (pLM) ProtT5 as input. Using only single sequences without creating multiple sequence alignments (MSAs), bindEmbed21DL outperformed MSA-based predictions. Combination with homology-based inference increased performance to F1=48±3% (95% CI) and MCC=0.46±0.04 when merging all three ligand classes into one. All results were confirmed by three independent data sets. Focusing on very reliably predicted residues could complement experimental evidence: For the 25% most strongly predicted binding residues, at least 73% were correctly predicted even when ignoring the problem of missing experimental annotations. The new method bindEmbed21 is fast, simple, and broadly applicable - neither using structure nor MSAs. Thereby, it found binding residues in over 42% of all human proteins not otherwise implied in binding and predicted about 6% of all residues as binding to metal ions, nucleic acids, or small molecules.",
+  "abstract_zh": "蛋白质功能的一个重要方面是蛋白质与配体的结合，包括小分子、金属离子以及DNA或RNA等大分子。尽管经过数十年的实验进展，许多结合位点仍然不明确。在此，我们提出了bindEmbed21，一种预测蛋白质残基是否与金属离子、核酸或小分子结合的方法。该基于人工智能（AI）的方法仅使用基于Transformer的蛋白质语言模型（pLM）ProtT5的嵌入作为输入。仅使用单一序列而不生成多序列比对（MSAs），bindEmbed21DL的性能优于基于MSA的预测。与基于同源性的推断相结合，当将三类配体合并为一类时，性能提升至F1=48±3%（95%置信区间）和MCC=0.46±0.04。所有结果均通过三个独立数据集得到验证。聚焦于高度可靠预测的残基可补充实验证据：对于预测最强的25%结合残基，即使忽略缺失实验注释的问题，至少73%的预测是正确的。新方法bindEmbed21快速、简单且广泛适用——既不使用结构也不使用MSAs。因此，它在超过42%的人类蛋白质中发现了结合残基，这些蛋白质此前未被暗示参与结合，并预测约6%的所有残基与金属离子、核酸或小分子结合。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.03.458869",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.03.458869",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.03.458869/index.html"
+}

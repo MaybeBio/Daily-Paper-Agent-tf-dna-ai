@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.13.642984",
+  "title": "Prevalence of loss-of-function, gain-of-function and dominant-negative mechanisms across genetic disease phenotypes",
+  "authors": "Badonyi M; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-15",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于蛋白结构预测错义突变的致病机制（LOF/GOF/DN），虽涉及蛋白结构但非蛋白质-DNA互作体系，且无AI/物理模拟方法用于结合建模，与本课题关联微弱。",
+  "abstract": "Molecular disease mechanisms caused by mutations in protein-coding regions are diverse, but they can be broadly categorised into loss-of-function (LOF), gain-of-function (GOF), and dominant-negative (DN) effects. Accurately predicting these mechanisms is a pressing clinical need, as therapeutic strategies must align with the underlying disease mechanism. Moreover, computational predictors tend to perform less well at the identification of pathogenic GOF and DN variants. Here, we develop a protein structure-based missense LOF (mLOF) likelihood score that can separate recessive LOF and dominant LOF from alternative disease mechanisms. Using mLOF scores, we estimated the prevalence of molecular mechanisms across 2,837 phenotypes in 1,979 Mendelian disease genes, finding that DN and GOF mechanisms account for 48% of phenotypes in dominant genes. Applying mLOF scores to genes with multiple phenotypes revealed widespread intragenic mechanistic heterogeneity, with 43% of dominant and 49% of mixed-inheritance genes harbouring both LOF and non-LOF mechanisms. Furthermore, we show that combining mLOF scores with phenotype semantic similarity enables the prioritisation of DN mechanisms in mixed-inheritance genes. Our structure-based approach, accessible via a Google Colab notebook, offers a scalable tool for predicting disease mechanisms and advancing personalised medicine.",
+  "abstract_zh": "由蛋白编码区突变引起的分子疾病机制多种多样，但可大致分为功能丧失（loss-of-function, LOF）、功能获得（gain-of-function, GOF）和显性负效应（dominant-negative, DN）三类。准确预测这些机制是迫切的临床需求，因为治疗策略必须与潜在的疾病机制相匹配。此外，计算预测器在识别致病性GOF和DN变异方面往往表现不佳。在此，我们开发了一种基于蛋白质结构的错义LOF（mLOF）可能性评分，能够将隐性LOF和显性LOF与其他疾病机制区分开来。利用mLOF评分，我们估算了1,979个孟德尔疾病基因中2,837种表型的分子机制流行率，发现DN和GOF机制占显性基因表型的48%。将mLOF评分应用于具有多种表型的基因，揭示了广泛的基因内机制异质性，其中43%的显性基因和49%的混合遗传基因同时包含LOF和非LOF机制。此外，我们表明，将mLOF评分与表型语义相似性相结合，能够优先识别混合遗传基因中的DN机制。我们的基于结构的方法，可通过Google Colab笔记本访问，为预测疾病机制和推进个性化医疗提供了可扩展的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.13.642984",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.13.642984",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.13.642984/index.html"
+}

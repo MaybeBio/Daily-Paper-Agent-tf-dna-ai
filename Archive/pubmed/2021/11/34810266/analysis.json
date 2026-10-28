@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34810266",
+  "title": "Scaling concepts in 'omics: Nuclear lamin-B scales with tumor growth and often predicts poor prognosis, unlike fibrosis.",
+  "authors": "Vashisth, Manasvita; Cho, Sangkyun; Irianto, Jerome; Xia, Yuntao; Wang, Mai; Hayes, Brandon; Wieland, Daniel; Wells, Rebecca; Jafarpour, Farshid; Liu, Andrea; Discher, Dennis E",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2021-11-24",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用组学数据研究核纤层蛋白LMNB1与转录因子FOXM1的基因表达缩放关系并预测预后，虽涉及TF-DNA调控但无结合位点预测或互作建模，方法为统计与机器学习而非AI/物理模拟，与课题关联较弱。",
+  "abstract": "Physicochemical principles such as stoichiometry and fractal assembly can give rise to characteristic scaling between components that potentially include coexpressed transcripts. For key structural factors within the nucleus and extracellular matrix, we discover specific gene-gene scaling exponents across many of the 32 tumor types in The Cancer Genome Atlas, and we demonstrate utility in predicting patient survival as well as scaling-informed machine learning (SIML). All tumors with adjacent tissue data show cancer-elevated proliferation genes, with some genes scaling with the nuclear filament LMNB1, including the transcription factor FOXM1 that we show directly regulates LMNB1 SIML shows that such regulated cancers cluster together with longer overall survival than dysregulated cancers, but high LMNB1 and FOXM1 in half of regulated cancers surprisingly predict poor survival, including for liver cancer. COL1A1 is also studied because it too increases in tumors, and a pan-cancer set of fibrosis genes shows substoichiometric scaling with COL1A1 but predicts patient outcome only for liver cancer-unexpectedly being prosurvival. Single-cell RNA-seq data show nontrivial scaling consistent with power laws from bulk RNA and protein analyses, and SIML segregates synthetic from contractile cancer fibroblasts. Our scaling approach thus yields fundamentals-based power laws relatable to survival, gene function, and experiments.",
+  "abstract_zh": "化学计量学和分形组装等物理化学原理可以在组分之间产生特征性的标度关系，这些组分可能包括共表达的转录本。针对细胞核和细胞外基质中的关键结构因子，我们在癌症基因组图谱（The Cancer Genome Atlas）的32种肿瘤类型中的许多类型中发现了特定的基因-基因标度指数，并展示了其在预测患者生存率以及标度信息机器学习（scaling-informed machine learning, SIML）方面的实用性。所有具有邻近组织数据的肿瘤均显示癌症升高的增殖基因，其中一些基因与核丝蛋白LMNB1存在标度关系，包括我们证明直接调控LMNB1的转录因子FOXM1。SIML显示，这类受调控的癌症聚集在一起，其总生存期长于失调的癌症，但受调控癌症中一半的高LMNB1和FOXM1表达意外地预测了较差的生存率，包括肝癌。COL1A1也因其在肿瘤中升高而被研究，一组泛癌症纤维化基因显示与COL1A1存在亚化学计量标度关系，但仅对肝癌预测患者结局——意外地表现为促生存效应。单细胞RNA-seq数据显示与批量RNA和蛋白质分析中的幂律一致的非平凡标度，且SIML将合成型与收缩型癌症成纤维细胞区分开来。因此，我们的标度方法产生了基于基本原理的幂律，这些幂律与生存率、基因功能和实验相关联。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34810266/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34810266/",
+  "paper_page_path": "papers/pubmed/34810266/index.html"
+}

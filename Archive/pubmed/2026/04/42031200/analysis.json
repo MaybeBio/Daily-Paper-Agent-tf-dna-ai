@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42031200",
+  "title": "Integration of AHRR methylation, heavy metals, and clinical characteristics for urothelial carcinoma risk stratification: An explainable artificial intelligence approach.",
+  "authors": "Chung, Chia-Min; Chang, Chao-Hsiang; Chang, Chin-Huai; Chang, Wen-Chi; Chang, Yi-Huei; Hsiao, Po-Jen; Lien, Chi-Shun; Chang, Han; Chung, Mu-Chi; Chung, Chi-Jung",
+  "journal": "Environmental pollution (Barking, Essex : 1987)",
+  "published_date": "2026-04-25",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用可解释机器学习整合AHRR甲基化、重金属和临床特征进行尿路上皮癌风险分层，属于纯临床表观遗传与疾病风险预测，无蛋白质-DNA互作体系、无结合建模，亦无AI/物理模拟方法用于分子互作研究，与本课题无关。",
+  "abstract": "The short metabolic half-life of conventional tobacco biomarkers often limits their ability to reflect cumulative toxicological damage, which may complicate risk stratification for urothelial carcinoma (UC). This study explored an explainable artificial intelligence (XAI) framework to integrate epigenetic, environmental, and clinical factors for more refined UC risk assessment. We conducted a medical center-based case-control study of 351 UC cases and 373 controls. Data on demographics, comorbidities, and biomarkers including AHRR (cg05575921) DNA methylation, urinary cotinine, 8-OHdG, and urinary heavy metals were collected and analyzed. We used LASSO regression to manage multicollinearity of metals. Eight ML models, including XGBoost, were trained and evaluated using 5-fold cross-validation. SHAP (SHapley Additive exPlanations) and mediation analyses were employed to interpret feature importance and biological pathways. Logistic regression confirmed associations between UC risk and urinary cotinine, several metals (Cr, Co, Ni, Pb), and lower AHRR methylation (all p < 0.05). Eight supervised learning algorithms were compared, with XGBoost providing the highest discriminative performance (AUC = 0.752). SHAP analysis identified chronic kidney disease and age as primary determinants, while AHRR methylation and selected metals (Ni, Cr) contributed significant independent discriminative value. Mediation analysis suggested that AHRR methylation mediated 43.74% of the effect of long-term smoking history, whereas the influence of urinary cotinine on risk was primarily mediated through increased urinary 8-OHdG. Decision tree analysis further identified a high-risk subgroup of former smokers with persistent AHRR hypomethylation despite low cotinine levels. In conclusion, by combining clinical factors with epigenetic and environmental biomarkers, our explainable machine learning framework offers robust UC risk stratification. AHRR methylation, selected metals, and CKD status provide critical information beyond standard risk factors, supporting more effective targeted surveillance for high-risk individuals.",
+  "abstract_zh": "传统烟草生物标志物的短代谢半衰期往往限制其反映累积毒性损伤的能力，这可能使尿路上皮癌（UC）的风险分层复杂化。本研究探索了一种可解释人工智能（XAI）框架，整合表观遗传、环境和临床因素，以实现更精细的UC风险评估。我们开展了一项基于医疗中心的病例对照研究，包括351例UC病例和373例对照。收集并分析了人口统计学、合并症及生物标志物数据，包括AHRR（cg05575921）DNA甲基化、尿可替宁、8-OHdG和尿重金属。我们使用LASSO回归处理金属的多重共线性。训练了八种机器学习模型，包括XGBoost，并通过5折交叉验证进行评估。采用SHAP（SHapley Additive exPlanations）和中介分析来解释特征重要性和生物学通路。逻辑回归确认了UC风险与尿可替宁、几种金属（Cr、Co、Ni、Pb）及较低的AHRR甲基化之间的关联（所有p < 0.05）。比较了八种监督学习算法，其中XGBoost提供了最高的判别性能（AUC = 0.752）。SHAP分析确定慢性肾病和年龄为主要决定因素，而AHRR甲基化和选定金属（Ni、Cr）贡献了显著的独立判别价值。中介分析提示，AHRR甲基化介导了长期吸烟史效应的43.74%，而尿可替宁对风险的影响主要通过增加尿8-OHdG来介导。决策树分析进一步识别出一个高风险亚组，即尽管可替宁水平低，但AHRR持续低甲基化的既往吸烟者。总之，通过将临床因素与表观遗传和环境生物标志物相结合，我们的可解释机器学习框架提供了稳健的UC风险分层。AHRR甲基化、选定金属和CKD状态提供了超出标准风险因素的关键信息，支持对高风险个体进行更有效的靶向监测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42031200/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42031200/",
+  "paper_page_path": "papers/pubmed/42031200/index.html"
+}

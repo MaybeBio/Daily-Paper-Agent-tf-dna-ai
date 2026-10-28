@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and support for claims based solely on the supplied material. No external validation or access to supplementary data beyond what is described.
+- **Shared manuscript claim summary** The authors report the first cryoEM structure of a picornaviral 2C AAA+ ATPase hexamer bound to single-stranded RNA, propose a novel RNA-binding modality involving a conserved triad (A188, L190, K193) and a pore-loop histidine (H147), and argue that 2C is structurally more similar to AAA+ protein translocases than to SF3 helicases. They support this with in vitro RNA-binding assays and viral replication assays in FMDV and CVB3 systems, plus a structural phylogenomic search.
+- **Visible evidence base** Abstract, main text sections (holoenzyme complex, interprotomer interface, RNA binding, conservation, translocase comparison), Materials and Methods, and references to figures and extended figures. No raw data, supplementary tables, or validation files were provided.
+- **Missing materials affecting confidence** Electron density maps, model validation metrics (FSC curves, model vs map Q-scores), atomic coordinates, full sequence alignments, phylogenetic tree files, raw EMSA gel images, and detailed statistical analysis of replication assays. These are referenced but not included in the supplied material.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant structural advance for the picornavirus field, with the first hexameric 2C:RNA complex and a plausible RNA-binding mechanism. The structural work appears carefully executed based on the described methods, and the functional validation is a strength. However, the case for a novel AAA+ RNA-binding mode and the translocase-like classification rests on limited comparative analysis and indirect functional evidence. Several claims, particularly regarding conservation and mechanistic interpretation, are not fully supported by the data as presented. The manuscript is technically sound in its core structural determination but requires additional validation and clearer presentation of evidence to fully establish the broader conclusions.
+- **Who would be interested in the results, and why** Virologists studying picornavirus replication and antiviral development, structural biologists interested in AAA+ ATPase mechanisms, and researchers working on RNA-protein interactions. The structure provides a template for rational drug design against 2C, a validated antiviral target, and offers a new example of how AAA+ modules can be adapted for RNA substrates, which is of general interest to the ATPase and helicase communities.
+- **Major strengths** 1) First structure of a 2C hexamer bound to RNA, filling a clear gap in the field. 2) Combination of structural, biochemical, and virological data to link RNA binding to function. 3) Clear identification of a potential RNA-specificity determinant (A188 carbonyl interaction with 2'-OH). 4) Phylogenetic analysis extends relevance beyond Picornaviridae. 5) Well-written and logically organized, with methods that appear reproducible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural interpretation
+  - **Claim pointer** "We were able to resolve a ssRNA bound directly in its pore which, according to our knowledge, is the first observed structure of any AAA+ protein bound to RNA" and "each protomer spans ∼8 nucleotides of ssRNA"
+  - **Evidence pointer** Figure 2, Extended Figures 5 and 6, location not provided
+  - **Concern** The resolution of the RNA density is described as 2.5-3.0 Å, but the manuscript does not provide validation metrics for the RNA model, such as real-space correlation coefficients, B-factors, or a map-model FSC for the RNA alone. The claim of "first AAA+ protein bound to RNA" requires unambiguous assignment of the density as RNA versus other potential ligands (e.g., nucleotide or buffer components). The statement that each protomer spans 8 nucleotides is a strong quantitative claim that needs supporting density maps and model building details.
+  - **Why it matters** If the RNA assignment is incorrect or the model is over-interpreted, the central novelty of the paper collapses. The 8-nucleotide span is used to infer a translocation mechanism, so it must be robustly supported.
+  - **Resolution test** Provide map-model FSC curves, real-space correlation per residue for the RNA, and a clear description of how the RNA sequence was assigned. Show density for the RNA in at least two orthogonal views with the model overlaid. If possible, include a control with a different RNA sequence or length to confirm specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** "Mutations to these residues reduced binding of 2C to ssRNA in-vitro and inhibited replication in FMDV and coxsackie virus B3 (CVB3) systems" and "H147A fully inhibited viral replication in both systems"
+  - **Evidence pointer** Figure 3, Figure 4, Extended Figure 9, location not provided
+  - **Concern** The EMSA data are described qualitatively ("comparable to WT", "decreased binding") without quantitative binding constants or statistical comparisons. The replication assays are presented as "fully inhibited" or "no difference" without showing dose-response curves, time courses, or statistical analysis. The discrepancy between FMDV and CVB3 for the K169A/K185A mutant is noted but not mechanistically explained.
+  - **Why it matters** The functional data are used to validate the structural model and to argue for broad conservation of the binding mechanism. Without quantitative rigor, the reader cannot assess the strength of the correlation between RNA binding and replication inhibition, nor the significance of the cross-species differences.
+  - **Resolution test** Provide EC50 or Kd values for each mutant from EMSA with error bars and replicates. For replication assays, show full time courses with mean and standard deviation, and perform appropriate statistical tests (e.g., ANOVA with multiple comparison correction). Clarify whether the K169A/K185A difference is reproducible and discuss potential explanations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative structural analysis
+  - **Claim pointer** "2C is reminiscent of a AAA+ protein translocase rather than an SF3 helicase" and "2C may be considered to occupy its own, novel AAA+ clade as an RNA-binding AAA+ protein"
+  - **Evidence pointer** Figure 5, Extended Figure 7, location not provided
+  - **Concern** The structural comparison relies on a single cryoEM structure of 2C and a limited set of comparators (Hsp100, SV40 T-antigen). The phylogenetic analysis is based on predicted models (ColabFold) and a FoldMason alignment, but the tree is not shown with support values or a clear outgroup. The claim of a "novel clade" is a strong evolutionary statement that requires a robust phylogenetic framework.
+  - **Why it matters** The classification of 2C as translocase-like rather than helicase-like has implications for its mechanism and for drug design. If the comparison is based on superficial features (e.g., presence of a pore loop) rather than quantitative structural similarity, the conclusion may be overstated.
+  - **Resolution test** Show the phylogenetic tree with branch support values and a clear outgroup. Perform a quantitative structural comparison (e.g., DALI or TM-align scores) between 2C and representative translocases and helicases. Discuss whether the "novel clade" claim is supported by the tree topology or is an interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** CryoEM data processing
+  - **Evidence pointer** Extended Figure 3, location not provided
+  - **Issue** The processing workflow is described as a "combined workflow of Relion 5 and Cryosparc 4" but the specific steps (particle picking, 2D classification, 3D refinement, CTF refinement, etc.) are not detailed. The final resolution of 3.05 Å is stated without a gold-standard FSC curve.
+  - **Required correction** Provide a step-by-step processing pipeline in the methods or a supplementary table, and include the FSC curve in the extended figures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Replication assays
+  - **Evidence pointer** Figure 4, location not provided
+  - **Issue** The number of biological replicates is stated as three, but the figure does not show individual data points or error bars. The y-axis label is not described.
+  - **Required correction** Show individual data points with mean and standard deviation, and clearly label axes and units.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Conservation analysis
+  - **Affected element** Extended Figure 8
+  - **Evidence pointer** Extended Figure 8, location not provided
+  - **Issue** The alignment figures are referenced but not described in the text. It is unclear how the "conserved" positions were defined (e.g., percentage identity threshold).
+  - **Required correction** Describe the alignment generation and conservation scoring in the methods, and annotate the figures with the relevant positions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Holoenzyme" terminology
+  - **Evidence pointer** Title and abstract
+  - **Issue** The term "holoenzyme" typically implies a complete, catalytically active complex. The authors do not demonstrate ATPase activity of the complex in the presence of RNA, so the term may be misleading.
+  - **Required correction** Either provide ATPase activity data for the complex or use a more neutral term such as "2C:RNA complex."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural assignment of RNA and the quantitative support for the functional claims are essential to the paper's conclusions. Without these, the novelty and the mechanistic interpretation are not established.
+- **Assessment against Nature-style criteria** Originality: High. The first structure of a 2C:RNA complex is a clear advance. Scientific importance: High for virology and antiviral development, moderate for the broader AAA+ field. Interdisciplinary readership: Moderate. The paper will appeal to structural biologists and virologists, but the broader ATPase community may find the translocase comparison underdeveloped. Technical soundness: The cryoEM work appears sound, but the lack of validation metrics and quantitative functional data weakens the overall case. Readability for nonspecialists: The abstract is accessible, but the main text assumes familiarity with AAA+ and helicase terminology. The paper would benefit from a schematic of the proposed mechanism.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural finding is likely to be of interest, but the manuscript must provide robust validation of the RNA model and quantitative functional data to support the mechanistic and evolutionary claims.
+
+## Risk / unsupported claims
+- "First observed structure of any AAA+ protein bound to RNA" is not fully verifiable from the provided material, as the RNA density assignment lacks validation metrics.
+- "Each protomer spans ∼8 nucleotides of ssRNA" is a quantitative claim without supporting model statistics.
+- "H147A fully inhibited viral replication" is stated without showing the data or statistical analysis.
+- "2C may be considered to occupy its own, novel AAA+ clade" is an evolutionary claim that requires a more robust phylogenetic analysis than what is described.
+- The claim that A188 carbonyl oxygen provides a "proofreading" mechanism is speculative and not directly tested (e.g., no experiments with DNA substrates or 2'-modified RNA).

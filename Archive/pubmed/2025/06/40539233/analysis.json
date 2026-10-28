@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40539233",
+  "title": "DeepTFtyper: an interpretable morphology-aware graph neural network for translating histopathology images into molecular subtypes in small cell lung cancer.",
+  "authors": "Li, Xin; Yang, Fan; Zhang, Yibo; Yang, Zijian; Chen, Ruanqi; Zhou, Meng; Yang, Lin",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-06-20",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用图神经网络从病理图像预测SCLC转录因子分子亚型，虽涉及转录因子但无蛋白质-DNA互作建模，方法也不针对结合机制，与本课题关联微弱。",
+  "abstract": "Small cell lung cancer (SCLC) is a highly aggressive high-grade neuroendocrine carcinoma with a poor prognosis. Molecular subtyping of transcription factors (SCLC-A, -N, -P, and -Y) shows great potential for guiding treatment decisions. However, its clinical application are limited by insufficient samples and the complexity of molecular testing. In this study, we developed DeepTFtyper, a graph neural network-based deep learning model for automatically classifying SCLC molecular subtypes from hematoxylin and eosin-stained whole-slide images. DeepTFtyper was trained and tested on the Cancer Hospital, Chinese Academy of Medical Science cohort (n = 389) with 4-fold cross-validation, and achieved high performance with an area under the receiver operating characteristic curve above 0.70 for all four molecular subtypes identified by immunohistochemistry (IHC). Furthermore, the digital H-scores predicted by DeepTFtyper showed a significant correlation with IHC-based H-scores. Patch-level visualization and morphological analysis revealed that DeepTFtyper identifies interpretable and generalizable features corresponding to areas of relevant transcription factor expression as revealed by IHC staining and correlates well with morphological features. This study represents the first deep learning framework for predicting SCLC molecular subtypes from hematoxylin and eosin-stained histology slides, providing a scalable, accurate, and clinically relevant tool to improve patient management and guide personalized treatment decisions.",
+  "abstract_zh": "小细胞肺癌（SCLC）是一种高度侵袭性的高级别神经内分泌癌，预后较差。基于转录因子的分子分型（SCLC-A、-N、-P和-Y）在指导治疗决策方面显示出巨大潜力。然而，其临床应用受到样本不足和分子检测复杂性的限制。在本研究中，我们开发了DeepTFtyper，一种基于图神经网络的深度学习模型，用于从苏木精-伊红染色的全切片图像中自动分类SCLC分子亚型。DeepTFtyper在中国医学科学院肿瘤医院队列（n = 389）上进行了训练和测试，采用4折交叉验证，并在免疫组织化学（IHC）鉴定的所有四种分子亚型中实现了高性能，受试者工作特征曲线下面积均超过0.70。此外，DeepTFtyper预测的数字H评分与基于IHC的H评分显示出显著相关性。斑块级可视化和形态学分析揭示，DeepTFtyper识别出与IHC染色显示的相应转录因子表达区域相对应的可解释且泛化的特征，并与形态学特征良好相关。本研究首次提出了从苏木精-伊红染色的组织学切片预测SCLC分子亚型的深度学习框架，提供了一种可扩展、准确且临床相关的工具，以改善患者管理并指导个性化治疗决策。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40539233/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40539233/",
+  "paper_page_path": "papers/pubmed/40539233/index.html"
+}

@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "37467320",
+    "doi": "10.1126/sciadv.adh3858",
+    "title": "The opening dynamics of the lateral gate regulates the activity of rhomboid proteases."
+  },
+  "content": {
+    "abstract": "Rhomboid proteases hydrolyze substrate helices within the lipid bilayer to release soluble domains from the membrane. Here, we investigate the mechanism of activity regulation for this unique but wide-spread protein family. In the model rhomboid GlpG, a lateral gate formed by transmembrane helices TM2 and TM5 was previously proposed to allow access of the hydrophobic substrate to the shielded hydrophilic active site. In our study, we modified the gate region and either immobilized the gate by introducing a maleimide-maleimide (M2M) crosslink or weakened the TM2/TM5 interaction network through mutations. We used solid-state nuclear magnetic resonance (NMR), molecular dynamics (MD) simulations, and molecular docking to investigate the resulting effects on structure and dynamics on the atomic level. We find that variants with increased dynamics at TM5 also exhibit enhanced activity, whereas introduction of a crosslink close to the active site strongly reduces activity. Our study therefore establishes a strong link between the opening dynamics of the lateral gate in rhomboid proteases and their enzymatic activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptide Hydrolases/chemistry",
+      "*Escherichia coli Proteins/chemistry",
+      "Escherichia coli/metabolism",
+      "Molecular Docking Simulation",
+      "Membrane Proteins/metabolism",
+      "Endopeptidases/genetics/metabolism",
+      "DNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bohg, Claudia",
+        "Oster, Carl",
+        "Turkaydin, Berke",
+        "Lisurek, Michael",
+        "Sanchez-Carranza, Pascal",
+        "Lange, Sascha",
+        "Utesch, Tillmann",
+        "Sun, Han",
+        "Lange, Adam"
+      ],
+      "short_names": [
+        "Bohg C",
+        "Oster C",
+        "Turkaydin B",
+        "Lisurek M",
+        "Sanchez-Carranza P",
+        "Lange S",
+        "Utesch T",
+        "Sun H",
+        "Lange A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0793-3199",
+        "ORCID: 0000-0002-8723-4533",
+        "ORCID: 0000-0003-1699-0312",
+        "ORCID: 0009-0003-6941-4981",
+        "ORCID: 0000-0002-3617-2002",
+        "ORCID: 0000-0002-1655-0838",
+        "ORCID: 0000-0002-7534-5973"
+      ],
+      "affiliations": [
+        "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Institute of Chemistry, Technical University of Berlin, Strasse des 17. Juni 135, 10623 Berlin, Germany.",
+        "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany.",
+        "Institut fur Biologie, Humboldt-Universitat zu Berlin, Invalidenstrasse 42, 10115 Berlin, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bohg, Claudia",
+        "short_name": "Bohg C",
+        "identifiers": [
+          "0000-0003-0793-3199"
+        ],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Öster, Carl",
+        "short_name": "Öster C",
+        "identifiers": [
+          "0000-0002-8723-4533"
+        ],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Türkaydin, Berke",
+        "short_name": "Türkaydin B",
+        "identifiers": [
+          "0000-0003-1699-0312"
+        ],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Lisurek, Michael",
+        "short_name": "Lisurek M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Sanchez-Carranza, Pascal",
+        "short_name": "Sanchez-Carranza P",
+        "identifiers": [],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Lange, Sascha",
+        "short_name": "Lange S",
+        "identifiers": [
+          "0009-0003-6941-4981"
+        ],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Utesch, Tillmann",
+        "short_name": "Utesch T",
+        "identifiers": [
+          "0000-0002-3617-2002"
+        ],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Sun, Han",
+        "short_name": "Sun H",
+        "identifiers": [
+          "0000-0002-1655-0838"
+        ],
+        "affiliations": [
+          "Research Unit Structural Chemistry & Computational Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany.",
+          "Institute of Chemistry, Technical University of Berlin, Straße des 17. Juni 135, 10623 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Lange, Adam",
+        "short_name": "Lange A",
+        "identifiers": [
+          "0000-0002-7534-5973"
+        ],
+        "affiliations": [
+          "Research Unit Molecular Biophysics, Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Robert-Rössle-Straße 10, 13125 Berlin, Germany.",
+          "Institut für Biologie, Humboldt-Universität zu Berlin, Invalidenstraße 42, 10115 Berlin, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2023 Jul 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/19 19:08",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "41607018",
+      "40946738",
+      "40601723",
+      "40056010",
+      "39922490",
+      "39841396",
+      "39415989",
+      "39324639",
+      "39215029",
+      "38856103"
+    ],
+    "refs": [
+      "36149963",
+      "35922513",
+      "35712982",
+      "35164499",
+      "34791371",
+      "34703562",
+      "34265844",
+      "34133158",
+      "33420032",
+      "33210155",
+      "32881101",
+      "32337752",
+      "31603315",
+      "31570873",
+      "30705155",
+      "29107700",
+      "28884847",
+      "28710774",
+      "28065274",
+      "28065265",
+      "27663422",
+      "27563067",
+      "26716760",
+      "25389060",
+      "25309012",
+      "25216680",
+      "23665170",
+      "23609444",
+      "23150798",
+      "22963263",
+      "22331404",
+      "21920222",
+      "21538743",
+      "21355049",
+      "21256137",
+      "20890268",
+      "20444421",
+      "20408171",
+      "20336801",
+      "20121194",
+      "19278654",
+      "18979634",
+      "18593145",
+      "17976648",
+      "17463085",
+      "17277078",
+      "17215357",
+      "17212484",
+      "17099694",
+      "17051161",
+      "17040128",
+      "16458552",
+      "15116359",
+      "12784371",
+      "11948782",
+      "9129804",
+      "8520220"
+    ],
+    "similar": [
+      "37467320",
+      "17463085",
+      "19278654",
+      "31603315",
+      "23609444",
+      "18979634",
+      "21256137",
+      "22963263",
+      "31059259",
+      "25307614",
+      "28884847",
+      "22705210",
+      "25216680",
+      "30420443",
+      "22770371",
+      "24099005",
+      "17051161",
+      "17501925",
+      "23585569",
+      "17099694",
+      "16216077",
+      "31480836",
+      "17494772",
+      "22921757",
+      "28065272",
+      "19919105",
+      "20070259",
+      "26621464",
+      "17493126",
+      "17976648",
+      "31570873",
+      "17190827",
+      "23353827",
+      "20890268",
+      "23359682",
+      "21455272",
+      "30175657",
+      "17277078",
+      "26858402",
+      "28065266",
+      "19761755",
+      "23150798",
+      "24315097",
+      "29463448",
+      "22035660",
+      "30044760",
+      "26805573",
+      "17714936",
+      "23991088",
+      "22130671",
+      "33210155",
+      "23518036",
+      "16621838",
+      "22515733",
+      "39215029",
+      "26166068",
+      "23146938",
+      "21295583",
+      "23665170",
+      "26056273",
+      "12820957",
+      "25162988",
+      "19366685",
+      "23609445",
+      "19717451",
+      "26811996",
+      "26605622",
+      "24362024",
+      "17981908",
+      "26233760",
+      "26716760",
+      "28065274",
+      "29506958",
+      "17223071",
+      "29049865",
+      "32848056",
+      "24706332",
+      "36149963",
+      "18158892",
+      "32337752",
+      "32795403",
+      "28065260",
+      "25445668",
+      "25009246",
+      "23774522",
+      "28844748",
+      "20208543",
+      "15684070",
+      "22173057",
+      "28373355",
+      "34162707",
+      "36715097",
+      "30087180",
+      "20017540",
+      "16461399",
+      "27870912"
+    ],
+    "review": [
+      "37467320",
+      "24099005",
+      "23585569",
+      "20070259",
+      "26621464",
+      "22035660",
+      "17714936",
+      "33210155",
+      "23518036",
+      "26166068",
+      "26811996",
+      "26716760",
+      "28065274",
+      "18158892",
+      "28065260",
+      "22173057"
+    ],
+    "pmc": [
+      "10355837"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adh3858?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10397",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "glpG"
+      },
+      {
+        "url": "https://www.ovid.com/37467320.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37467320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37467320",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

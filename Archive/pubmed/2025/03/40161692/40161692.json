@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "40161692",
+    "doi": "10.1101/2025.03.07.641884",
+    "title": "Predictions from Deep Learning Propose Substantial Protein-Carbohydrate Interplay."
+  },
+  "content": {
+    "abstract": "It is a grand challenge to identify all the protein - carbohydrate interactions in an organism. Direct experiments would require extensive libraries of glycans to definitively distinguish binding from non-binding proteins. Computational screening of proteins for carbohydrate-binding provides an attractive and ultimately testable alternative. Recent computational techniques have focused primarily on which protein residues interact with carbohydrates or which carbohydrate species a protein binds to. Current estimates label 1.5 to 5% of proteins as carbohydrate-binding proteins; however, 50-70% of proteins are known to be glycosylated, suggesting a potential wealth of proteins that bind to carbohydrates. We therefore developed a novel dataset and neural network architecture, named Protein interaction of Carbohydrates Predictor (PiCAP), to predict whether a protein non-covalently binds to a carbohydrate. We trained PiCAP on a dataset of known carbohydrate binders, and we selected proteins that we identified as likely not to bind carbohydrates, including DNA-binding transcription factors, cytoskeletal components, selected antibodies, and selected small-molecule-binding proteins. PiCAP achieves a 90% balanced accuracy on protein-level predictions of carbohydrate binding/non-binding. Using the same dataset, we developed a model named Carbohydrate Protein Site Identifier 2 (CAPSIF2) to predict protein residues that interact non-covalently with carbohydrates. CAPSIF2 achieves a Dice coefficient of 0.57 on residue-level predictions on our independent test dataset, outcompeting all previous models for this task. To demonstrate the biological applicability of PiCAP and CAPSIF2, we investigated cell surface proteins of human neural cells and further predicted the likelihood of three proteomes, notably E. coli, M. musculus, and H. sapiens, to bind to carbohydrates. PiCAP predicts that approximately 35-40% of proteins in these proteomes bind carbohydrates, indicating a substantial interplay of protein-carbohydrate interactions for cellular functionality.",
+    "keywords": [
+      "Glycan",
+      "carbohydrate",
+      "glycome",
+      "interactome",
+      "lectome",
+      "proteome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Canner, Samuel W",
+        "Schnaar, Ronald L",
+        "Gray, Jeffrey J"
+      ],
+      "short_names": [
+        "Canner SW",
+        "Schnaar RL",
+        "Gray JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8678-0639",
+        "ORCID: 0000-0002-7701-5484",
+        "ORCID: 0000-0001-6380-2324"
+      ],
+      "affiliations": [
+        "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD, United States.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States.",
+        "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States.",
+        "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD, United States.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Canner, Samuel W",
+        "short_name": "Canner SW",
+        "identifiers": [
+          "0000-0002-8678-0639"
+        ],
+        "affiliations": [
+          "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD, United States."
+        ]
+      },
+      {
+        "full_name": "Schnaar, Ronald L",
+        "short_name": "Schnaar RL",
+        "identifiers": [
+          "0000-0002-7701-5484"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States.",
+          "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States."
+        ]
+      },
+      {
+        "full_name": "Gray, Jeffrey J",
+        "short_name": "Gray JJ",
+        "identifiers": [
+          "0000-0001-6380-2324"
+        ],
+        "affiliations": [
+          "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD, United States.",
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Mar 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/31 21:16",
+    "fetched_at": "2026-09-30 14:53:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41930484",
+      "39712664",
+      "39454580",
+      "39436020",
+      "39281096",
+      "38982902",
+      "38887845",
+      "38886381",
+      "38718835",
+      "38705088",
+      "38602504",
+      "38526729",
+      "38452047",
+      "38291232",
+      "38224120",
+      "37933859",
+      "37409346",
+      "37072397",
+      "36927031",
+      "36782012",
+      "36702895",
+      "36608681",
+      "36408920",
+      "35756507",
+      "35637307",
+      "34862760",
+      "34826352",
+      "34812629",
+      "34381046",
+      "34366717",
+      "34265844",
+      "34133179",
+      "33397651",
+      "33174598",
+      "32924932",
+      "29558958",
+      "29363575",
+      "28182403",
+      "26918822",
+      "26743509",
+      "24214988",
+      "23921808",
+      "21240259",
+      "20482798",
+      "20061306",
+      "10592235",
+      "1747104"
+    ],
+    "similar": [
+      "40161692",
+      "42150072",
+      "37409346",
+      "36993750",
+      "22848404",
+      "17201922",
+      "27524389",
+      "31510679",
+      "34415020",
+      "34637380",
+      "34905768",
+      "23912807",
+      "38886381",
+      "29473490",
+      "40086131",
+      "41608988",
+      "23971886",
+      "41679684",
+      "40950156",
+      "22587966",
+      "34817219",
+      "39401628",
+      "28644385",
+      "20939902",
+      "36576775",
+      "23784792",
+      "32142788",
+      "21388220",
+      "19762259",
+      "27623166",
+      "11560933",
+      "31683069",
+      "26060077",
+      "27998268",
+      "23365681",
+      "27873199",
+      "19432560",
+      "17316627",
+      "20678238",
+      "35653954",
+      "29028926",
+      "21112338",
+      "26561965",
+      "33313775",
+      "25220682",
+      "15003456",
+      "23056230",
+      "30106511",
+      "20564023",
+      "36343278",
+      "41257586",
+      "11457139",
+      "34781902",
+      "8053552",
+      "16545112",
+      "21635751",
+      "30808287",
+      "35043942",
+      "40133785",
+      "39695955",
+      "16001416",
+      "41930484",
+      "32208534",
+      "36630168",
+      "32614943",
+      "32808039",
+      "39478454",
+      "15379628",
+      "14705935",
+      "35150250",
+      "19892602",
+      "16712732",
+      "32820806",
+      "36621533",
+      "28132027",
+      "40438170",
+      "38871095",
+      "39433833",
+      "34714748",
+      "27406561",
+      "39576667",
+      "28245811",
+      "35536812",
+      "25209582",
+      "42246097",
+      "22369691",
+      "24368301",
+      "41310253",
+      "20032467",
+      "37254800",
+      "30086239",
+      "23431393",
+      "40944448",
+      "27928010",
+      "34073705",
+      "36564866",
+      "28713027",
+      "38405499",
+      "30177739",
+      "33545173"
+    ],
+    "review": [
+      "40161692",
+      "28644385",
+      "35653954",
+      "30106511",
+      "15379628"
+    ],
+    "pmc": [
+      "11952328"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40161692/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.07.641884",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

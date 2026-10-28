@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.11.479844",
+  "title": "Improved Predictions of MHC-Peptide Binding using Protein Language Models",
+  "authors": "Nasser Hashemi; Boran Hao; Mikhail Ignatov; Ioannis Paschalidis; Pirooz Vakili; Sandor Vajda; Dima Kozakov",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-12",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用蛋白语言模型预测MHC-肽结合，属于蛋白质-肽互作而非蛋白质-DNA互作，且无TF-DNA结合建模，与本课题关联较弱。",
+  "abstract": "A bstract Major histocompatibility complex (MHC) molecules bind to peptides from exogenous antigens, and present them on the surface of cells, allowing the immune system (T cells) to detect them. Elucidating the process of this presentation is essential for regulation and potential manipulation of the cellular immune system [1]. Predicting whether a given peptide will bind to the MHC is an important step in the above process, motivating the introduction of many computational approaches. NetMHCPan [2], a pan-specific model predicting binding of peptides to any MHC molecule, is one of the most widely used methods which focuses on solving this binary classification problem using a shallow neural network. The successful results of AI methods, especially Natural Language Processing (NLP-based) pretrained models in various applications including protein structure determination, motivated us to explore their use in this problem as well. Specifically, we considered fine-tuning these large deep learning models using as dataset the peptide-MHC sequences. Using standard metrics in this area, and the same training and test sets, we show that our model outperforms NetMHCpan4.1 which has been shown to outperform all other earlier methods [2].",
+  "abstract_zh": "主要组织相容性复合体（MHC）分子与外来抗原的肽段结合，并将其呈递至细胞表面，使免疫系统（T细胞）能够识别它们。阐明这一呈递过程对于调控及潜在操纵细胞免疫系统至关重要[1]。预测给定肽段是否会与MHC结合是上述过程中的重要步骤，这促使了许多计算方法的发展。NetMHCPan [2]是一种泛特异性模型，用于预测肽段与任何MHC分子的结合，是解决这一二分类问题最广泛使用的方法之一，其采用浅层神经网络。AI方法，尤其是基于自然语言处理（NLP）的预训练模型在包括蛋白质结构测定在内的多种应用中取得的成功结果，激励我们也探索其在解决此问题中的应用。具体而言，我们考虑使用肽-MHC序列作为数据集对这些大型深度学习模型进行微调。利用该领域的标准指标以及相同的训练和测试集，我们展示了我们的模型优于NetMHCpan4.1，后者已被证明优于所有其他早期方法[2]。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.11.479844",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.11.479844",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.11.479844/index.html"
+}

@@ -1,0 +1,282 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-b7l81-v2",
+  "title": "Combining Bayesian optimization with sequence- or structure-based strategies for optimization of protein-peptide binding",
+  "doi": "10.26434/chemrxiv-2023-b7l81-v2",
+  "abstract": "This study introduces a novel Bayesian Optimization (BO) method to support the design and optimization of bioactive peptide sequences in the context of a fully automated closed-loop Design-Make-Test (DMT) pipeline. Using the major histocompatibility complex class I receptor system as test case, we showed that BO is capable to efficiently navigate vast sequence spaces. Starting from a single peptide-lead sequence in the $\\mu$M IC50 range, the method is able to optimize a peptide sequence to its optimal binding affinity in less than 5 DMT cycles, with 96 peptide sequences per batch. We extensively evaluated its performance, in various conditions and with different parameters, providing valuable insights for peptide optimization tasks in future closed-loop DMT environments. Different sequence- and structure-based initialization strategies were also tested, to generate the initial batch of peptide sequences, as well as different molecular fingerprints and protein language models. Additionally, the method developed here can natively handle various peptide sequence lengths and scaffolds (e.g. macrocycles) and support any arbitrary non-standard amino acids or residue modifications. The source code of our method, Mobius, is publicly available under the Apache license at https://git.scicore.unibas.ch/schwede/mobius.",
+  "authors": [
+    "Jérôme Eberhardt",
+    "Aidan Lees",
+    "Markus Lill",
+    "Torsten Schwede"
+  ],
+  "published_date": "2024-04-16",
+  "updated_date": "2024-04-17T02:00:48Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-b7l81-v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-b7l81-v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            31
+          ]
+        ],
+        "date-time": "2026-08-31T18:22:01Z",
+        "timestamp": 1788200521524,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            16
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                16
+              ]
+            ],
+            "date-time": "2024-04-16T00:00:00Z",
+            "timestamp": 1713225600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>This study introduces a novel Bayesian Optimization (BO) method to support  the design and optimization of bioactive peptide sequences in the context of a  fully automated closed-loop Design-Make-Test (DMT) pipeline. Using the major  histocompatibility complex class I receptor system as test case, we showed that BO is capable to efficiently navigate vast sequence spaces. Starting  from a single peptide-lead sequence in the $\\mu$M IC50 range, the method is able  to optimize a peptide sequence to its optimal binding affinity in less than 5  DMT cycles, with 96 peptide sequences per batch. We extensively evaluated its  performance, in various conditions and with different parameters, providing  valuable insights for peptide optimization tasks in future closed-loop DMT  environments. Different sequence- and structure-based initialization strategies  were also tested, to generate the initial batch of peptide sequences, as well  as different molecular fingerprints and protein language models.  Additionally,  the method developed here can natively handle various peptide sequence lengths  and scaffolds (e.g. macrocycles) and support any arbitrary non-standard amino  acids or residue modifications. The source code of our method, Mobius, is  publicly available under the Apache license at  https://git.scicore.unibas.ch/schwede/mobius.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-b7l81-v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2024-04-17T02:00:48Z",
+        "timestamp": 1713319248000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Combining Bayesian optimization with sequence- or structure-based strategies for optimization of protein-peptide binding"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2974-7541",
+          "authenticated-orcid": false,
+          "given": "Jérôme",
+          "family": "Eberhardt",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02s6k3f65",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Basel",
+              "place": [
+                "Switzerland"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/002n09z45",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "SIB Swiss Institute of Bioinformatics",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-5961-0881",
+          "authenticated-orcid": false,
+          "given": "Aidan",
+          "family": "Lees",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02s6k3f65",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Basel",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Lill",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02s6k3f65",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Basel",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2715-335X",
+          "authenticated-orcid": false,
+          "given": "Torsten",
+          "family": "Schwede",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02s6k3f65",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Basel",
+              "place": [
+                "Switzerland"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/002n09z45",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "SIB Swiss Institute of Bioinformatics",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-b7l81-v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:37:52Z",
+        "timestamp": 1778755072000
+      },
+      "score": 95.74532,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-b7l81-v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            16
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-b7l81-v2",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

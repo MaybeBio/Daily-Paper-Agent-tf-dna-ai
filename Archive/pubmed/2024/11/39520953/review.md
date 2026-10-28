@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Oleanolic acid (OA) inhibits colorectal cancer (CRC) aggressiveness by binding to Nur77 and promoting its ubiquitin-dependent degradation, with PPARgamma acting as a ubiquitination activator. The findings are supported by in vitro assays, organoid culture, molecular docking and dynamics simulations, transcriptomic pathway analyses, and in vivo xenograft and orthotopic models.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, figure legends, or methodological specifics are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, raw data, docking and MD simulation parameters, antibody validation details, animal model information, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking a natural product to Nur77 degradation in CRC. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the experimental design, the robustness of the data, or the validity of the mechanistic conclusions. Several claims are made without supporting quantitative information, and the relationship between PPARgamma-mediated ubiquitination and Nur77 degradation requires more detailed biochemical validation than the abstract can convey.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying nuclear receptor signaling, ubiquitin-proteasome pathways, and natural product pharmacology. Clinicians and translational scientists interested in CRC therapeutics may also find the potential of OA as a Nur77-targeting agent relevant.
+- **Major strengths** The study addresses a clinically relevant question in CRC. The combination of in vitro functional assays, organoid culture, molecular modeling, and in vivo models suggests a comprehensive approach. The identification of PPARgamma as a ubiquitination activator for Nur77 is a novel mechanistic angle that could have broader implications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "OA directly bind to Nur77 and facilitated the ubiquitin degradation of Nur77"
+  - **Evidence pointer** Methods section, molecular docking and MD simulation; Results section, ubiquitination assays
+  - **Concern** The claim of direct binding between OA and Nur77 is based on molecular docking and MD simulation, but no experimental binding validation (e.g., surface plasmon resonance, isothermal titration calorimetry, or cellular thermal shift assay) is mentioned in the abstract. The functional consequence of this binding on ubiquitination is asserted without presenting quantitative ubiquitination data or controls.
+  - **Why it matters** Direct binding is a central mechanistic claim. If the interaction is not experimentally validated, the proposed model of OA-induced Nur77 degradation lacks a solid foundation. Ubiquitination assays require careful controls (e.g., ubiquitin mutants, proteasome inhibition) to distinguish direct effects from indirect consequences.
+  - **Resolution test** Provide experimental binding data (e.g., ITC or MST) and detailed ubiquitination assays with appropriate controls, including quantification and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PPARgamma acted as the ubiquitination activator via interacting with Nur77"
+  - **Evidence pointer** Methods section, Co-IP and ubiquitination assays; Results section, mechanistic studies
+  - **Concern** The abstract states that PPARgamma interacts with Nur77 and acts as a ubiquitination activator, but the evidence for this is not described in sufficient detail. It is unclear whether PPARgamma is an E3 ligase, a cofactor, or an adaptor. The functional requirement of PPARgamma for OA-induced Nur77 degradation is not demonstrated with loss-of-function or gain-of-function experiments.
+  - **Why it matters** The proposed mechanism hinges on PPARgamma's role. Without functional perturbation experiments, the causal relationship between PPARgamma and Nur77 ubiquitination remains correlative.
+  - **Resolution test** Include PPARgamma knockdown or overexpression experiments and assess Nur77 ubiquitination and degradation under these conditions. Clarify the molecular role of PPARgamma in the ubiquitination process.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** "OA exhibited significant anti-tumor effect together with Nur77 inhibition" in both subcutaneous and orthotopic CRC models
+  - **Evidence pointer** Results section, in vivo models
+  - **Concern** No quantitative data on tumor growth, tumor weight, metastasis incidence, or Nur77 expression levels in vivo are provided in the abstract. The statistical significance and effect sizes are not reported.
+  - **Why it matters** In vivo efficacy is a key translational claim. Without quantitative outcomes and statistical analysis, the strength of the anti-tumor effect cannot be assessed.
+  - **Resolution test** Provide tumor growth curves, endpoint tumor measurements, survival data, and quantitative immunohistochemistry or Western blot data for Nur77 in tumor tissues, with appropriate statistical tests.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, "would healing" assay
+  - **Issue** The term "would healing" appears to be a typographical error for "wound healing." This should be corrected for clarity.
+  - **Required correction** Change "would healing" to "wound healing."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, "Molecular Dynamics stimulation"
+  - **Issue** The term "stimulation" is likely a typographical error for "simulation." This should be corrected.
+  - **Required correction** Change "stimulation" to "simulation."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Background section
+  - **Evidence pointer** Background section, "Our previously study showed"
+  - **Issue** The phrase "Our previously study" is grammatically incorrect. It should be "Our previous study."
+  - **Required correction** Change "previously" to "previous."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, "For the first time, we found the effect of OA on ubiquitination degradation"
+  - **Issue** The claim of novelty ("For the first time") is not substantiated with a comparison to prior literature. This phrasing is subjective and should be supported or tempered.
+  - **Required correction** Provide a brief context of prior work on OA and ubiquitination, or rephrase to avoid an unsupported novelty claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed mechanism of OA-induced Nur77 degradation via PPARgamma is potentially novel, but the abstract does not provide sufficient evidence to distinguish it from previously described Nur77 ligands or degradation pathways.
+  - **Scientific importance** CRC is a major health burden, and identifying new therapeutic targets is important. However, the clinical relevance of Nur77 as a target in CRC and the translational potential of OA require stronger validation.
+  - **Interdisciplinary readership** The topic bridges natural product chemistry, nuclear receptor biology, and cancer biology, which could attract a broad audience. However, the abstract is written in a specialized manner that may limit accessibility.
+  - **Technical soundness** The experimental design appears comprehensive, but the lack of quantitative data and detailed methods in the abstract prevents a full assessment of technical rigor.
+  - **Readability for nonspecialists** The abstract is dense with specialized terminology and abbreviations, which may hinder comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of quantitative data, detailed methods, and functional validation for key mechanistic claims means that the case is not yet convincing. Supportive if the technical concerns are resolved with full experimental evidence.
+
+## Risk / unsupported claims
+- The claim of direct binding between OA and Nur77 is unsupported without experimental binding data.
+- The role of PPARgamma as a "ubiquitination activator" is not substantiated with functional experiments.
+- The in vivo anti-tumor efficacy is not quantifiable from the abstract.
+- The novelty claim ("For the first time") is not verifiable from the abstract alone.
+- The statement that Nur77 has a "CRC promoting effect" from prior work is referenced but not detailed, making it difficult to assess the foundation of the study.

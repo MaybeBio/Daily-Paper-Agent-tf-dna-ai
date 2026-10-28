@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "42252398",
+    "doi": "10.1186/s43897-026-00230-1",
+    "title": "Integrative machine learning and gene regulatory network analysis identifies novel genes for leafy head formation in Brassica rapa and B. oleracea."
+  },
+  "content": {
+    "abstract": "Leafy head formation is a crucial developmental process in Brassica crops. Here, an integrative approach combining machine learning and gene regulatory network analysis was employed to identify novel genes involved in leafy head formation in Chinese cabbage (Brassica rapa) and cabbage (Brassica oleracea). Random Forest models, trained with 47 known leafy head-related genes, demonstrated robust performance with mean AUC values of 0.87 and 0.85 for B. rapa and B. oleracea, respectively. By filtering the model predictions, we identified 11 genes predicted with high confidence which were shared between both species. To further reveal the regulatory mechanisms, we constructed gene regulatory networks for genes in both species. By integrating ML predictions with these networks, we identified key regulatory clusters specifically related to leafy head formation. Network centrality analysis revealed many core genes in key clusters, including important transcription factors such as ANT, GRF2, GRF3, and TCX3, suggesting crucial roles in leafy head formation across the two species. The parallel detection of the same genes and similar network structures in the two species supports the validity of our findings. Our integrative approach provides novel insights into the genetic regulation of leafy head formation and sets the stage for future functional studies of Brassica species.",
+    "keywords": [
+      "Brassica oleracea",
+      "Brassica rapa",
+      "Gene regulatory network",
+      "Leafy head",
+      "Machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Wei",
+        "Wu, Jian",
+        "Cai, Xu",
+        "Chen, Yue",
+        "van Dijk, Aalt D J",
+        "Wang, Xiaowu",
+        "Bonnema, Guusje"
+      ],
+      "short_names": [
+        "Sun W",
+        "Wu J",
+        "Cai X",
+        "Chen Y",
+        "van Dijk ADJ",
+        "Wang X",
+        "Bonnema G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2298-6849"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China.",
+        "Plant Breeding, Wageningen University and Research, 6708 PB, Wageningen, The Netherlands.",
+        "Bioinformatics Group, Wageningen University and Research, 6708 PB, Wageningen, The Netherlands.",
+        "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China.",
+        "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China.",
+        "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China.",
+        "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, 1090 GE, Amsterdam, The Netherlands. a.d.j.vandijk@uva.nl.",
+        "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China. wangxiaowu@caas.cn.",
+        "Plant Breeding, Wageningen University and Research, 6708 PB, Wageningen, The Netherlands. guusje.bonnema@wur.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Wei",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China.",
+          "Plant Breeding, Wageningen University and Research, 6708 PB, Wageningen, The Netherlands.",
+          "Bioinformatics Group, Wageningen University and Research, 6708 PB, Wageningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xu",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yue",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China."
+        ]
+      },
+      {
+        "full_name": "van Dijk, Aalt D J",
+        "short_name": "van Dijk ADJ",
+        "identifiers": [],
+        "affiliations": [
+          "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, 1090 GE, Amsterdam, The Netherlands. a.d.j.vandijk@uva.nl."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vegetable Biobreeding, Institute of Vegetables and Flowers, Chinese Academy of Agricultural Sciences, Beijing, 100081, China. wangxiaowu@caas.cn."
+        ]
+      },
+      {
+        "full_name": "Bonnema, Guusje",
+        "short_name": "Bonnema G",
+        "identifiers": [
+          "0000-0002-2298-6849"
+        ],
+        "affiliations": [
+          "Plant Breeding, Wageningen University and Research, 6708 PB, Wageningen, The Netherlands. guusje.bonnema@wur.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular horticulture"
+    ],
+    "journal_abbrev": [
+      "Mol Hortic"
+    ],
+    "pub_date": "2026 Jun 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/08 00:36",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38975781",
+      "38903438",
+      "38475502",
+      "38445102",
+      "38167709",
+      "37435353",
+      "37089651",
+      "36991439",
+      "36581701",
+      "36581197",
+      "36575796",
+      "36247617",
+      "36039389",
+      "35521542",
+      "35371168",
+      "35318449",
+      "35273626",
+      "35154213",
+      "35118736",
+      "35069646",
+      "34447397",
+      "33952264",
+      "33790228",
+      "33730150",
+      "33572601",
+      "33283404",
+      "33193497",
+      "32935297",
+      "32772134",
+      "31377174",
+      "30809236",
+      "30665887",
+      "30194309",
+      "29312432",
+      "28169368",
+      "28161901",
+      "27924042",
+      "27526322",
+      "26904064",
+      "26589551",
+      "26108442",
+      "25451770",
+      "24695404",
+      "24520154",
+      "24351684",
+      "24227677",
+      "23104886",
+      "22969786",
+      "22455463",
+      "20927193",
+      "19910308",
+      "16096348",
+      "14284290",
+      "10896176",
+      "10639184",
+      "8742707"
+    ],
+    "similar": [
+      "42252398",
+      "42475469",
+      "37420138",
+      "40247941",
+      "24289287",
+      "27216644",
+      "32093614",
+      "24383931",
+      "29900559",
+      "30618014",
+      "30258345",
+      "33176678",
+      "28645261",
+      "35726066",
+      "30581669",
+      "25790283",
+      "31814983",
+      "23972083",
+      "35118736",
+      "32996462",
+      "24226454",
+      "24351684",
+      "29538304",
+      "30025926",
+      "24888752",
+      "33850662",
+      "26904064",
+      "33905008",
+      "28169368",
+      "32467731",
+      "34638707",
+      "31114598",
+      "25904922",
+      "27038155",
+      "26599708",
+      "35755702",
+      "24237584",
+      "40847703",
+      "37578545",
+      "29096605",
+      "27526322",
+      "31651238",
+      "36057748",
+      "40328901",
+      "41300757",
+      "41577141",
+      "31936856",
+      "31137879",
+      "25686795",
+      "20380715",
+      "40889357",
+      "33952264",
+      "19426481",
+      "30012965",
+      "30696401",
+      "36581197",
+      "15546355",
+      "20069415",
+      "42277637",
+      "27996963",
+      "33823810",
+      "31059545",
+      "35903226",
+      "32152363",
+      "25481634",
+      "24684742",
+      "39683099",
+      "29467771",
+      "31776846",
+      "28647368",
+      "35812899",
+      "24098974",
+      "36835496",
+      "25445291",
+      "30761170",
+      "23163954",
+      "24204591",
+      "26955874",
+      "24747717",
+      "33283404",
+      "38168637",
+      "25149146",
+      "38649805",
+      "38421062",
+      "42415222",
+      "29499648",
+      "37229207",
+      "35331150",
+      "25222144",
+      "31717469",
+      "30116946",
+      "24394778",
+      "30285607",
+      "31810369",
+      "37314587",
+      "35205328",
+      "24388963",
+      "37204504",
+      "27746810",
+      "36559667"
+    ],
+    "review": [
+      "42252398",
+      "36581197"
+    ],
+    "pmc": [
+      "13244942"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42252398/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

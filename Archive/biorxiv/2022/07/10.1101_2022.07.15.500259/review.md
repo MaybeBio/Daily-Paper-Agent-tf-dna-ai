@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a deep learning method, SigTFB, to detect and quantify cell type specificity in transcription factor (TF) DNA binding signatures. They apply it to 194 TFs across multiple cell types, report cell type specificity in approximately 30% of TFs, validate consistency across antibodies, and use motif enrichment analysis to link alternate motifs with higher specificity and consistent motifs with lack of specificity. They also note cancer cell type specific signatures and correlations with gene expression.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, figures, tables, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods description, validation details, numerical results, motif enrichment analysis details, antibody information, cell type list, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely application of deep learning to a biologically relevant question, namely cell type specific TF binding. However, the current evidence base is insufficient to evaluate the validity, robustness, or novelty of the claims. The method is described only at a high level, and no quantitative results or validation details are provided. The claims of approximately 30% specificity, antibody consistency, and motif correlations are unsupported in the abstract. The work may be of interest to computational biologists and epigenetics researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and researchers in gene regulation and epigenetics would be interested. The method could provide a new tool for analyzing TF binding variability across cell types, which is relevant to understanding cell identity and disease states, including cancer. The motif enrichment findings may also interest those studying TF binding mechanisms.
+- **Major strengths** The abstract addresses a significant biological question with potential methodological novelty. The scale of the investigation, covering 194 TFs, is ambitious. The inclusion of antibody stratification to address technical artifacts is a thoughtful design element. The focus on cancer cell types adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method SigTFB can detect and quantify cell type specificity in TF DNA binding signatures.
+  - **Evidence pointer** Abstract, methods description not provided
+  - **Concern** The abstract provides no details on the deep learning architecture, training data, input features, or how cell type specificity is defined and quantified. Without this information, the method cannot be assessed for validity, reproducibility, or potential biases.
+  - **Why it matters** A deep learning method's utility depends critically on its design, data handling, and evaluation. The lack of methodological detail prevents any assessment of whether the reported findings are reliable or generalizable.
+  - **Resolution test** Provide a detailed methods section, including model architecture, training and test data, feature representation, specificity metric definition, and validation against known benchmarks or ground truth.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Approximately 30% of TFs show cell type specificity.
+  - **Evidence pointer** Abstract, quantitative results not provided
+  - **Concern** The abstract states a percentage but provides no statistical measures, confidence intervals, or criteria for defining specificity. It is unclear how this threshold was set and whether it is robust.
+  - **Why it matters** The central quantitative claim is unverifiable without supporting data. The reader cannot judge the significance or reliability of the finding.
+  - **Resolution test** Report the number of TFs classified as specific, the statistical thresholds used, and measures of uncertainty or validation (e.g., cross-validation, permutation tests).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Cell type specificity estimates are largely consistent when the same TF is assayed with different antibodies.
+  - **Evidence pointer** Abstract, antibody analysis details not provided
+  - **Concern** The abstract claims consistency across antibodies but does not describe how this was measured or what "largely consistent" means quantitatively. Potential confounding factors, such as antibody batch effects or differences in binding affinity, are not addressed.
+  - **Why it matters** This claim is used to rule out technical artifacts, but without a clear comparison metric and statistical test, the conclusion is not supported.
+  - **Resolution test** Provide a quantitative comparison of specificity estimates across antibodies, including correlation coefficients or agreement metrics, and discuss potential limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Presence of alternate motifs correlates with higher cell type specificity, while consistent motifs are associated with lack of specificity.
+  - **Evidence pointer** Abstract, motif enrichment analysis details not provided
+  - **Concern** The abstract reports correlations but provides no effect sizes, statistical significance, or examples beyond ATF7 and CTCF. The direction of causality is not discussed.
+  - **Why it matters** This is a key biological finding, but it is presented without quantitative support. The reader cannot assess the strength or generality of the correlation.
+  - **Resolution test** Report correlation coefficients, p-values, and the number of TFs supporting the pattern. Provide a more detailed analysis of motif variability and its relationship to specificity.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Several important TFs show distinct DNA binding signatures in different cancer cell types, which may point to important differences in modes of action.
+  - **Evidence pointer** Abstract, cancer cell type analysis details not provided
+  - **Concern** The abstract mentions cancer-specific findings but does not specify which TFs, which cancer types, or how these signatures differ. The claim is vague and unverifiable.
+  - **Why it matters** The potential translational relevance is a highlight, but without specifics, the claim cannot be evaluated or built upon.
+  - **Resolution test** List the specific TFs and cancer cell types, describe the distinct signatures, and provide supporting data or examples.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "DNA signature" is used without a clear definition, which may confuse readers unfamiliar with the concept.
+  - **Required correction** Define "DNA signature" early in the abstract, for example, as a pattern of differential binding across cell types.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "approximately 30%" is imprecise; the exact number of TFs is not given.
+  - **Required correction** Report the exact count of TFs showing specificity, e.g., "58 of 194 TFs."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions gene expression correlations but does not specify the direction or strength of the correlation.
+  - **Required correction** Provide a brief summary of the correlation findings, including direction and magnitude.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The abstract lacks sufficient methodological and quantitative detail to support the central claims. Without full methods and results, the case is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using deep learning to quantify cell type specific TF binding signatures appears novel, but the abstract does not provide enough context to distinguish it from existing methods. Not fully assessable.
+  - Scientific importance: The question of cell type specific TF binding is important for understanding gene regulation and disease. However, the significance of the findings is not demonstrated without quantitative evidence.
+  - Interdisciplinary readership: The topic bridges computational biology and molecular biology, which could appeal to a broad audience. The abstract is accessible but lacks depth.
+  - Technical soundness: Not assessable from the abstract. The method and validation are not described.
+  - Readability for nonspecialists: The abstract is generally clear but uses undefined terms like "DNA signature" and "motif enrichment," which may hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the lack of methodological and quantitative detail prevents a supportive recommendation. The authors should provide the full manuscript with detailed methods, results, and validation to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that approximately 30% of TFs show cell type specificity is unsupported without quantitative data.
+- The claim of consistency across antibodies is unsupported without a defined comparison metric.
+- The correlation between alternate motifs and cell type specificity is unsupported without statistical measures.
+- The claim of distinct cancer cell type signatures is unsupported without specific examples.
+- The overall utility and validity of the SigTFB method is unassessable from the abstract.

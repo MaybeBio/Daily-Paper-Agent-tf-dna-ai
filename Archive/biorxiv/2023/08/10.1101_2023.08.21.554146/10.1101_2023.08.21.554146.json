@@ -1,0 +1,159 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.21.554146",
+  "title": "Active learning of enhancer and silencer regulatory grammar in photoreceptors",
+  "doi": "10.1101/2023.08.21.554146",
+  "abstract": "<h4>ABSTRACT</h4> Cis -regulatory elements (CREs) direct gene expression in health and disease, and models that can accurately predict their activities from DNA sequences are crucial for biomedicine. Deep learning represents one emerging strategy to model the regulatory grammar that relates CRE sequence to function. However, these models require training data on a scale that exceeds the number of CREs in the genome. We address this problem using active machine learning to iteratively train models on multiple rounds of synthetic DNA sequences assayed in live mammalian retinas. During each round of training the model actively selects sequence perturbations to assay, thereby efficiently generating informative training data. We iteratively trained a model that predicts the activities of sequences containing binding motifs for the photoreceptor transcription factor Cone-rod homeobox (CRX) using an order of magnitude less training data than current approaches. The model’s internal confidence estimates of its predictions are reliable guides for designing sequences with high activity. The model correctly identified critical sequence differences between active and inactive sequences with nearly identical transcription factor binding sites, and revealed order and spacing preferences for combinations of motifs. Our results establish active learning as an effective method to train accurate deep learning models of cis -regulatory function after exhausting naturally occurring training examples in the genome.",
+  "authors": [
+    "Friedman RZ",
+    "Ramu A",
+    "Lichtarge S",
+    "Myers CA",
+    "Granas DM",
+    "Gause M",
+    "Corbo JC",
+    "Cohen BA",
+    "White MA"
+  ],
+  "published_date": "2023-08-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.21.554146",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.21.554146.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR704764",
+    "raw_record": {
+      "id": "PPR704764",
+      "source": "PPR",
+      "doi": "10.1101/2023.08.21.554146",
+      "title": "Active learning of enhancer and silencer regulatory grammar in photoreceptors",
+      "authorString": "Friedman RZ, Ramu A, Lichtarge S, Myers CA, Granas DM, Gause M, Corbo JC, Cohen BA, White MA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Friedman RZ",
+            "lastName": "Friedman",
+            "firstName": "Ryan",
+            "initials": "RZ"
+          },
+          {
+            "fullName": "Ramu A",
+            "lastName": "Ramu",
+            "firstName": "Avinash",
+            "initials": "A"
+          },
+          {
+            "fullName": "Lichtarge S",
+            "lastName": "Lichtarge",
+            "firstName": "Sara",
+            "initials": "S"
+          },
+          {
+            "fullName": "Myers CA",
+            "lastName": "Myers",
+            "firstName": "Connie",
+            "initials": "CA"
+          },
+          {
+            "fullName": "Granas DM",
+            "lastName": "Granas",
+            "firstName": "David",
+            "initials": "DM"
+          },
+          {
+            "fullName": "Gause M",
+            "lastName": "Gause",
+            "firstName": "Maria",
+            "initials": "M"
+          },
+          {
+            "fullName": "Corbo JC",
+            "lastName": "Corbo",
+            "firstName": "Joseph",
+            "initials": "JC"
+          },
+          {
+            "fullName": "Cohen BA",
+            "lastName": "Cohen",
+            "firstName": "Barak",
+            "initials": "BA"
+          },
+          {
+            "fullName": "White MA",
+            "lastName": "White",
+            "firstName": "Michael",
+            "initials": "MA"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Cis -regulatory elements (CREs) direct gene expression in health and disease, and models that can accurately predict their activities from DNA sequences are crucial for biomedicine. Deep learning represents one emerging strategy to model the regulatory grammar that relates CRE sequence to function. However, these models require training data on a scale that exceeds the number of CREs in the genome. We address this problem using active machine learning to iteratively train models on multiple rounds of synthetic DNA sequences assayed in live mammalian retinas. During each round of training the model actively selects sequence perturbations to assay, thereby efficiently generating informative training data. We iteratively trained a model that predicts the activities of sequences containing binding motifs for the photoreceptor transcription factor Cone-rod homeobox (CRX) using an order of magnitude less training data than current approaches. The model’s internal confidence estimates of its predictions are reliable guides for designing sequences with high activity. The model correctly identified critical sequence differences between active and inactive sequences with nearly identical transcription factor binding sites, and revealed order and spacing preferences for combinations of motifs. Our results establish active learning as an effective method to train accurate deep learning models of  cis -regulatory function after exhausting naturally occurring training examples in the genome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/22/2023.08.21.554146.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.21.554146"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39778579",
+            "reference": "Cell systems. 2025 Jan;16(1):101163",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-22",
+      "firstIndexDate": "2023-08-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

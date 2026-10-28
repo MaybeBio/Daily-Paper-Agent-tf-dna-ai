@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "40703513",
+    "doi": "10.3389/fimmu.2025.1608262",
+    "title": "Integrative multi-omics analysis reveals the interaction mechanisms between gut microbiota metabolites and ferroptosis in rheumatoid arthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is an autoimmune disease characterized by chronic synovitis and joint destruction. To systematically investigate the regulatory relationship between key ferroptosis genes and gut metabolites in RA, this study employed an integrative multi-omics approach combined with machine learning algorithms and single-cell transcriptomic data, identifying and validating GPX3 and MYC as potential critical ferroptosis regulators in RA. METHODS AND RESULTS: First, 16 candidate genes were obtained by intersecting WGCNA, differential expression analysis results, and targets related to ferroptosis and gut microbiota. Following cross-validation with machine learning approaches including LASSO, SVM, and RFE-RF, GPX3 and MYC were ultimately identified as crucial genes. GSVA and GSEA analyses revealed that high expression of GPX3 and MYC was enriched in interferon response and TNFA signaling pathways, while their low expression was associated with fatty acid metabolism and oxidative phosphorylation pathways. Further single-cell RNA sequencing analysis demonstrated that MYC was expressed in multiple immune cell types, particularly in CD4+ T cells and NK cells. Ferroptosis scoring for CD8+ T cells and subsequent cell communication analysis revealed stronger interactions between CD8+ T cells with higher ferroptosis scores and other immune cells through IFN-II and CCL signaling, further intensifying the activation of the inflammatory microenvironment. Additionally, molecular docking analysis of GPX3 and MYC with the gut metabolites Diosgenin and Differentiation-inducing factor 3 (DIF-3) respectively showed that the GPX3-Diosgenin complex had the lowest binding energy, and a 100 ns molecular dynamics simulation was performed on this complex. Results showed good stability of the complex across indicators such as RMSD, RMSF, SASA, and radius of gyration, suggesting that Diosgenin may intervene in ferroptosis and inflammatory injury in RA by binding to and modulating GPX3 function. CONCLUSION: This study elucidated the multifaceted mechanisms of GPX3 and MYC in RA pathogenesis and preliminarily validated the potential role of gut metabolites in mediating ferroptosis regulation, offering novel theoretical foundations and potential strategies for diagnostic biomarker screening and targeted therapy in RA.",
+    "keywords": [
+      "GPX3",
+      "MYC",
+      "ferroptosis",
+      "gut microbiota",
+      "gutMGene database",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics/immunology",
+      "Humans",
+      "*Gastrointestinal Microbiome/immunology",
+      "*Arthritis, Rheumatoid/metabolism/immunology/genetics/microbiology",
+      "Proto-Oncogene Proteins c-myc/genetics/metabolism",
+      "Phospholipid Hydroperoxide Glutathione Peroxidase/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Multiomics",
+      "Glutathione Peroxidase"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Lifang",
+        "Liang, Huaguo",
+        "He, Min",
+        "Zhang, Huiling",
+        "Ke, Peifeng"
+      ],
+      "short_names": [
+        "Liang L",
+        "Liang H",
+        "He M",
+        "Zhang H",
+        "Ke P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+        "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, China.",
+        "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+        "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+        "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+        "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Lifang",
+        "short_name": "Liang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+          "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Huaguo",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Min",
+        "short_name": "He M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+          "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huiling",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+          "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ke, Peifeng",
+        "short_name": "Ke P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Department of Laboratory Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China.",
+          "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/24 06:29",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "42614415",
+      "42491529",
+      "42358954",
+      "42137061",
+      "42079670",
+      "41368259"
+    ],
+    "refs": [
+      "39991656",
+      "39798470",
+      "39661331",
+      "39608616",
+      "39561902",
+      "39475181",
+      "39029270",
+      "38927092",
+      "38867408",
+      "38411194",
+      "38240831",
+      "38233032",
+      "37928554",
+      "37713784",
+      "37633909",
+      "37498390",
+      "37344156",
+      "37227653",
+      "37087463",
+      "36890785",
+      "36845072",
+      "36797236",
+      "36279671",
+      "36108504",
+      "35945217",
+      "35680389",
+      "35185879",
+      "34976302",
+      "34682072",
+      "34670873",
+      "34435471",
+      "31794869",
+      "30402834",
+      "30357805",
+      "29323347",
+      "29275361",
+      "29228301",
+      "28612747",
+      "24812285",
+      "23828891",
+      "23661628",
+      "19034425"
+    ],
+    "similar": [
+      "40703513",
+      "41021591",
+      "40636124",
+      "39955590",
+      "39608616",
+      "39509434",
+      "39561902",
+      "37138305",
+      "40544212",
+      "41192021",
+      "38774759",
+      "39736250",
+      "30744546",
+      "39805176",
+      "39221753",
+      "40787457",
+      "40692793",
+      "37328529",
+      "38656728",
+      "39139563",
+      "41151658",
+      "39466354",
+      "37492576",
+      "36717858",
+      "41116042",
+      "38711508",
+      "38469726",
+      "40397030",
+      "40787440",
+      "41493085",
+      "40475761",
+      "40948782",
+      "38218985",
+      "40975040",
+      "38102690",
+      "41459480",
+      "41071246",
+      "39482717",
+      "40825448",
+      "41425595",
+      "41029156",
+      "39029270",
+      "40370449",
+      "41088461",
+      "36736942",
+      "34670873",
+      "41488645",
+      "40586985",
+      "40085199",
+      "38273392",
+      "39170142",
+      "40578750",
+      "40362543",
+      "41212891",
+      "39953769",
+      "41185125",
+      "41074451",
+      "41019075",
+      "37108505",
+      "39447763",
+      "40991993",
+      "41235232",
+      "40238799",
+      "40777023",
+      "40681713",
+      "40801343",
+      "40644421",
+      "40358793",
+      "37170220",
+      "40636121",
+      "38199197",
+      "41204223",
+      "41131607",
+      "39091931",
+      "40181974",
+      "39766360",
+      "41204303",
+      "41378206",
+      "40625749",
+      "40578039",
+      "38720175",
+      "32963490",
+      "39080453",
+      "40879288",
+      "41321261",
+      "40296690",
+      "39845946",
+      "39873731",
+      "37315652",
+      "40220414",
+      "37633909",
+      "39987603",
+      "40596265",
+      "37087463",
+      "39656402",
+      "33779497",
+      "39983663",
+      "41287581",
+      "34975326",
+      "40592131"
+    ],
+    "review": [
+      "40703513",
+      "40544212",
+      "39805176",
+      "40692793",
+      "38469726",
+      "40825448",
+      "40370449",
+      "41019075",
+      "37170220",
+      "40181974",
+      "39766360",
+      "32963490",
+      "40879288"
+    ],
+    "pmc": [
+      "12283288"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40703513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3540",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1608262",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

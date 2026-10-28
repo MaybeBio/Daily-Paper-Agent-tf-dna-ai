@@ -1,0 +1,665 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.04.596709",
+  "title": "Cross-species modeling of plant genomes at single nucleotide resolution using a pre-trained DNA language model",
+  "doi": "10.1101/2024.06.04.596709",
+  "abstract": "Interpreting function and fitness effects in diverse plant genomes requires transferable models. Language models (LMs) pre-trained on large-scale biological sequences can learn evolutionary conservation and offer cross-species prediction better than supervised models through fine-tuning limited labeled data. We introduce PlantCaduceus, a plant DNA LM based on the Caduceus and Mamba architectures, pre-trained on a curated dataset of 16 Angiosperm genomes. Fine-tuning PlantCaduceus on limited labeled Arabidopsis data for four tasks, including predicting translation initiation/termination sites and splice donor and acceptor sites, demonstrated high transferability to 160 million year diverged maize, outperforming the best existing DNA LM by 1.45 to 7.23-fold. PlantCaduceus is competitive to state-of-the-art protein LMs in terms of deleterious mutation identification, and is threefold better than PhyloP. Additionally, PlantCaduceus successfully identifies well-known causal variants in both Arabidopsis and maize. Overall, PlantCaduceus is a versatile DNA LM that can accelerate plant genomics and crop breeding applications.",
+  "authors": [
+    "Jingjing Zhai",
+    "Aaron Gokaslan",
+    "Yair Schiff",
+    "Ana Berthel",
+    "Zong-Yan Liu",
+    "Wei-Yun Lai",
+    "Zachary R Miller",
+    "Armin Scheben",
+    "Michelle C Stitzer",
+    "Cinta Romay",
+    "Edward S. Buckler",
+    "Volodymyr Kuleshov"
+  ],
+  "published_date": "2024-06-05",
+  "updated_date": "2024-06-06T00:10:28Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.04.596709",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.04.596709.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2026-09-16T02:18:08Z",
+        "timestamp": 1789525088543,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                5
+              ]
+            ],
+            "date-time": "2024-06-05T00:00:00Z",
+            "timestamp": 1717545600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Interpreting function and fitness effects in diverse plant genomes requires transferable models. Language models (LMs) pre-trained on large-scale biological sequences can learn evolutionary conservation and offer cross-species prediction better than supervised models through fine-tuning limited labeled data. We introduce PlantCaduceus, a plant DNA LM based on the Caduceus and Mamba architectures, pre-trained on a curated dataset of 16 Angiosperm genomes. Fine-tuning PlantCaduceus on limited labeled Arabidopsis data for four tasks, including predicting translation initiation/termination sites and splice donor and acceptor sites, demonstrated high transferability to 160 million year diverged maize, outperforming the best existing DNA LM by 1.45 to 7.23-fold. PlantCaduceus is competitive to state-of-the-art protein LMs in terms of deleterious mutation identification, and is threefold better than PhyloP. Additionally, PlantCaduceus successfully identifies well-known causal variants in both Arabidopsis and maize. Overall, PlantCaduceus is a versatile DNA LM that can accelerate plant genomics and crop breeding applications.</jats:p>",
+      "DOI": "10.1101/2024.06.04.596709",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2024-06-06T00:10:28Z",
+        "timestamp": 1717632628000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 18,
+      "title": [
+        "Cross-species modeling of plant genomes at single nucleotide resolution using a pre-trained DNA language model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1535-3103",
+          "authenticated-orcid": false,
+          "given": "Jingjing",
+          "family": "Zhai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3575-2961",
+          "authenticated-orcid": false,
+          "given": "Aaron",
+          "family": "Gokaslan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0748-3706",
+          "authenticated-orcid": false,
+          "given": "Yair",
+          "family": "Schiff",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6849-982X",
+          "authenticated-orcid": false,
+          "given": "Ana",
+          "family": "Berthel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9039-7843",
+          "authenticated-orcid": false,
+          "given": "Zong-Yan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5101-8695",
+          "authenticated-orcid": false,
+          "given": "Wei-Yun",
+          "family": "Lai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5454-4527",
+          "authenticated-orcid": false,
+          "given": "Zachary R",
+          "family": "Miller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2230-2013",
+          "authenticated-orcid": false,
+          "given": "Armin",
+          "family": "Scheben",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4140-3765",
+          "authenticated-orcid": false,
+          "given": "Michelle C",
+          "family": "Stitzer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9309-1586",
+          "authenticated-orcid": false,
+          "given": "Cinta",
+          "family": "Romay",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3100-371X",
+          "authenticated-orcid": false,
+          "given": "Edward S.",
+          "family": "Buckler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5150-3308",
+          "authenticated-orcid": false,
+          "given": "Volodymyr",
+          "family": "Kuleshov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1038/s41586-019-1693-2",
+          "article-title": "One thousand plant transcriptomes and the phylogenomics of green plants",
+          "volume": "574",
+          "author": "One Thousand Plant Transcriptomes Initiative",
+          "year": "2019",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adj0116"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2018.12.015"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2493-4"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1512",
+          "DOI": "10.1038/s41588-023-01465-0",
+          "article-title": "Genome-wide prediction of disease variant effects with a deep protein language model",
+          "volume": "55",
+          "year": "2023",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1099",
+          "DOI": "10.1038/s41587-022-01618-2",
+          "article-title": "Large language models generate functional protein sequences across diverse families",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "200",
+          "DOI": "10.1038/s41587-024-02123-4",
+          "article-title": "Designing proteins with language models",
+          "volume": "42",
+          "year": "2024",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "eadg7492",
+          "DOI": "10.1126/science.adg7492",
+          "article-title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+          "volume": "381",
+          "year": "2023",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.08.08.551183"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "516",
+          "DOI": "10.1038/s41576-023-00598-6",
+          "article-title": "Interpreting non-coding disease-associated human variants using single-cell epigenomics",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Nat. Rev. Genet"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2160",
+          "DOI": "10.1038/s41588-023-01561-1",
+          "article-title": "Noncoding mutations cause super-enhancer retargeting resulting in protein synthesis dysregulation during B cell lymphoma progression",
+          "volume": "55",
+          "year": "2023",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1325",
+          "DOI": "10.1038/s41477-020-00785-x",
+          "article-title": "Repeat-sequence turnover shifts fundamentally in species with large genomes",
+          "volume": "6",
+          "year": "2020",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2311219120",
+          "DOI": "10.1073/pnas.2311219120",
+          "article-title": "DNA language models are powerful predictors of genome-wide variant effects",
+          "volume": "120",
+          "year": "2023",
+          "journal-title": "Proc. Natl. Acad. Sci. U. S. A"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.17",
+          "first-page": "1",
+          "volume-title": "in Proceedings of the 16th Machine Learning in Computational Biology meeting",
+          "volume": "165",
+          "year": "2022"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.10.24.563624"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.20",
+          "unstructured": "Nguyen, E. et al. HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution. arXiv [cs.LG] (2023)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.02.27.582234"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.22",
+          "unstructured": "Schiff, Y. et al. Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling. arXiv [q-bio.GN] (2024)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.23",
+          "unstructured": "Gu, A. & Dao, T. Mamba: Linear-Time Sequence Modeling with Selective State Spaces. arXiv [cs.LG] (2023)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbq072"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McInnes, L. , Healy, J. & Melville, J. UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. arXiv [stat.ML] (2018).",
+          "DOI": "10.21105/joss.00861"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35048692"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1093/bioinformatics/btab083",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.28",
+          "unstructured": "Zhou, Z. et al. DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genomes. (2023)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.07.11.548628"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1003",
+          "DOI": "10.1111/jse.12691",
+          "article-title": "Phylogenomics enables biogeographic analysis and a new subtribal classification of Andropogoneae (Poaceae—Panicoideae)",
+          "volume": "58",
+          "year": "2020",
+          "journal-title": "J. Syst. Evol"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "183",
+          "DOI": "10.1186/s13059-022-02747-2",
+          "article-title": "Prediction of evolutionary constraint by genomic annotations improves functional prioritization of genomic variants in maize",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1038/s41477-020-00834-5",
+          "article-title": "Comparative evolutionary genetics of deleterious load in sorghum and maize",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "Nature Plants"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/gix120"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.05.063"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "923",
+          "DOI": "10.1093/genetics/148.3.923",
+          "article-title": "90 years ago: the beginning of hybrid maize",
+          "volume": "148",
+          "year": "1998",
+          "journal-title": "Genetics"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.113.008870"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lye, Z. , Choi, J. Y. & Purugganan, M. D. Deleterious Mutations and the Rare Allele Burden on Rice Gene Expression. Mol. Biol. Evol. 39, (2022).",
+          "DOI": "10.1093/molbev/msac193"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Song, B. et al. AnchorWave: Sensitive alignment of genomes with high sequence diversity, extensive structural polymorphism, and whole-genome duplication. Proc. Natl. Acad. Sci. U. S. A. 119, (2022).",
+          "DOI": "10.1073/pnas.2113075119"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1016/j.tplants.2023.08.013",
+          "article-title": "New whole-genome alignment tools are needed for tapping into plant diversity",
+          "volume": "29",
+          "year": "2024",
+          "journal-title": "Trends Plant Sci"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1905-y"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.43",
+          "unstructured": "Loshchilov, I. & Hutter, F. Decoupled Weight Decay Regularization. arXiv [cs.LG] (2017)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.44",
+          "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. & Toutanova, K. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv [cs.CL] (2018)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.13415"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv351"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.123356.111"
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.48",
+          "unstructured": "Vaswani, A. et al. Attention Is All You Need. arXiv [cs.CL] (2017)."
+        },
+        {
+          "key": "2024061304050490000_2024.06.04.596709v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "e20249",
+          "DOI": "10.1002/tpg2.20249",
+          "article-title": "Modeling chromatin state from sequence across angiosperms using recurrent convolutional neural networks",
+          "volume": "15",
+          "year": "2022",
+          "journal-title": "Plant Genome"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.04.596709",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:31:35Z",
+        "timestamp": 1768458695000
+      },
+      "score": 57.08188,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.04.596709"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            5
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2024.06.04.596709",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

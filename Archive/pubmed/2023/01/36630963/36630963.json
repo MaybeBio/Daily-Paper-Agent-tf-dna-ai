@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "36630963",
+    "doi": "10.1016/j.chembiol.2022.12.004",
+    "title": "Capturing the conversion of the pathogenic alpha-1-antitrypsin fold by ATF6 enhanced proteostasis."
+  },
+  "content": {
+    "abstract": "Genetic variation in alpha-1 antitrypsin (AAT) causes AAT deficiency (AATD) through liver aggregation-associated gain-of-toxic pathology and/or insufficient AAT activity in the lung manifesting as chronic obstructive pulmonary disease (COPD). Here, we utilize 71 AATD-associated variants as input through Gaussian process (GP)-based machine learning to study the correction of AAT folding and function at a residue-by-residue level by pharmacological activation of the ATF6 arm of the unfolded protein response (UPR). We show that ATF6 activators increase AAT neutrophil elastase (NE) inhibitory activity, while reducing polymer accumulation for the majority of AATD variants, including the prominent Z variant. GP-based profiling of the residue-by-residue response to ATF6 activators captures an unexpected role of the \"gate\" area in managing AAT-specific activity. Our work establishes a new spatial covariant (SCV) understanding of the convertible state of the protein fold in response to genetic perturbation and active environmental management by proteostasis enhancement for precision medicine.",
+    "keywords": [
+      "Gaussian process",
+      "activating transcription factor 6 (ATF6)",
+      "alpha-1 antitrypsin",
+      "alpha-1 antitrypsin deficiency",
+      "chaperones",
+      "genetic variation",
+      "machine learning",
+      "pharmacological ATF6 activators",
+      "precision medicine",
+      "protein aggregation",
+      "protein folding",
+      "protein misfolding disease",
+      "proteostasis",
+      "unfolded protein response (UPR)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Proteostasis",
+      "*alpha 1-Antitrypsin Deficiency/genetics/complications/metabolism",
+      "*Pulmonary Disease, Chronic Obstructive/complications/genetics",
+      "Activating Transcription Factor 6/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Shuhong",
+        "Wang, Chao",
+        "Zhao, Pei",
+        "Kline, Gabe M",
+        "Grandjean, Julia M D",
+        "Jiang, Xin",
+        "Labaudiniere, Richard",
+        "Wiseman, R Luke",
+        "Kelly, Jeffery W",
+        "Balch, William E"
+      ],
+      "short_names": [
+        "Sun S",
+        "Wang C",
+        "Zhao P",
+        "Kline GM",
+        "Grandjean JMD",
+        "Jiang X",
+        "Labaudiniere R",
+        "Wiseman RL",
+        "Kelly JW",
+        "Balch WE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Protego Biopharma, 10945 Vista Sorrento Parkway, San Diego, CA, USA.",
+        "Protego Biopharma, 10945 Vista Sorrento Parkway, San Diego, CA, USA.",
+        "Protego Biopharma, 10945 Vista Sorrento Parkway, San Diego, CA, USA.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Chemistry, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA. Electronic address: webalch@scripps.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Shuhong",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Pei",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kline, Gabe M",
+        "short_name": "Kline GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Grandjean, Julia M D",
+        "short_name": "Grandjean JMD",
+        "identifiers": [],
+        "affiliations": [
+          "Protego Biopharma, 10945 Vista Sorrento Parkway, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xin",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Protego Biopharma, 10945 Vista Sorrento Parkway, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Labaudiniere, Richard",
+        "short_name": "Labaudiniere R",
+        "identifiers": [],
+        "affiliations": [
+          "Protego Biopharma, 10945 Vista Sorrento Parkway, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wiseman, R Luke",
+        "short_name": "Wiseman RL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kelly, Jeffery W",
+        "short_name": "Kelly JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Balch, William E",
+        "short_name": "Balch WE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, The Scripps Research Institute, La Jolla, CA, USA. Electronic address: webalch@scripps.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell chemical biology"
+    ],
+    "journal_abbrev": [
+      "Cell Chem Biol"
+    ],
+    "pub_date": "2023 Jan 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/12 06:00",
+    "fetched_at": "2026-10-04 21:32:11"
+  },
+  "links": {
+    "cites": [
+      "41952152",
+      "41586813",
+      "40467970",
+      "39809267",
+      "39353438",
+      "38698045",
+      "38637533",
+      "37602209",
+      "37523656",
+      "36712115"
+    ],
+    "refs": [
+      "35714602",
+      "35626697",
+      "35621045",
+      "35477478",
+      "35452616",
+      "35418593",
+      "35394846",
+      "35355837",
+      "35327571",
+      "35269582",
+      "35191945",
+      "35104244",
+      "34944741",
+      "34906617",
+      "34780988",
+      "34702991",
+      "34654604",
+      "34563965",
+      "34526035",
+      "34408833",
+      "34391802",
+      "34009983",
+      "33824927",
+      "33790624",
+      "33753261",
+      "33691137",
+      "33599742",
+      "33512066",
+      "33509650",
+      "33311470",
+      "33087346",
+      "33058391",
+      "32887796",
+      "32844464",
+      "32803268",
+      "32800189",
+      "32726074",
+      "32699193",
+      "32619491",
+      "32584597",
+      "32461654",
+      "32457508",
+      "32412081",
+      "32343597",
+      "32297213",
+      "32297211",
+      "32268028",
+      "32098273",
+      "32017918",
+      "31817705",
+      "31699992",
+      "31509197",
+      "31121167",
+      "31105062",
+      "31088828",
+      "31078432",
+      "30962274",
+      "30936118",
+      "30833457",
+      "30833329",
+      "30733602",
+      "30643122",
+      "30409908",
+      "30138687",
+      "30134164",
+      "30084354",
+      "30067827",
+      "29882371",
+      "29538751",
+      "29446109",
+      "29127110",
+      "28752458",
+      "28752455",
+      "28647092",
+      "28504839",
+      "28419579",
+      "28400444",
+      "28213437",
+      "28193770",
+      "27916480",
+      "27465791",
+      "27435962",
+      "27435961",
+      "27435960",
+      "27248356",
+      "27102560",
+      "26846838",
+      "26542570",
+      "26156798",
+      "26026936",
+      "26011795",
+      "25784053",
+      "25442121",
+      "25361606",
+      "24374162",
+      "24338605",
+      "24274755",
+      "24107777",
+      "23647985",
+      "23583182",
+      "23527623",
+      "23463216",
+      "22995909",
+      "22723858",
+      "22251901",
+      "22116877",
+      "21976666",
+      "21909074",
+      "21421910",
+      "21030517",
+      "20583215",
+      "20522742",
+      "19232354",
+      "18276881",
+      "17918823",
+      "15342247",
+      "12807889",
+      "12782636",
+      "12475206",
+      "11773044",
+      "11057674",
+      "11052993",
+      "10092640",
+      "9335576",
+      "9007980",
+      "4429553",
+      "1083485"
+    ],
+    "similar": [
+      "36630963",
+      "32098273",
+      "38637533",
+      "24969923",
+      "28927525",
+      "33668611",
+      "25027067",
+      "35621045",
+      "33311976",
+      "36068572",
+      "28929906",
+      "38046982",
+      "29206641",
+      "31179525",
+      "25003824",
+      "29763589",
+      "24299514",
+      "28752458",
+      "10588615",
+      "20955965",
+      "37143026",
+      "33494436",
+      "25800328",
+      "22697349",
+      "27492524",
+      "34151245",
+      "26634397",
+      "35730566",
+      "26386628",
+      "28558837",
+      "32030868",
+      "38383302",
+      "22621770",
+      "26653189",
+      "33757485",
+      "28504839",
+      "32862719",
+      "25217166",
+      "36549279",
+      "21367592",
+      "25412116",
+      "32060059",
+      "37470509",
+      "38087060",
+      "21591598",
+      "32138230",
+      "29572094",
+      "33304809",
+      "29538751",
+      "34441020",
+      "18515255",
+      "33329539",
+      "38388492",
+      "31307431",
+      "37569847",
+      "27564664",
+      "27254961",
+      "20228200",
+      "30138687",
+      "35596100",
+      "30929319",
+      "27812629",
+      "17972336",
+      "34073489",
+      "23771682",
+      "29769092",
+      "23527997",
+      "35346640",
+      "31467115",
+      "27771979",
+      "18931508",
+      "37119738",
+      "16778290",
+      "37716616",
+      "34830348",
+      "31889566",
+      "26371243",
+      "28234047",
+      "30965011",
+      "33192056",
+      "26141072",
+      "7820538",
+      "28449136",
+      "28362108",
+      "21575917",
+      "24798601",
+      "32051168",
+      "24328305",
+      "35477478",
+      "37451388",
+      "24713750",
+      "35124356",
+      "30643122"
+    ],
+    "review": [
+      "36630963",
+      "32098273",
+      "28927525",
+      "33668611",
+      "33311976",
+      "28929906",
+      "31179525",
+      "20955965",
+      "33494436",
+      "22697349",
+      "27492524",
+      "26634397",
+      "26386628",
+      "28558837",
+      "32030868",
+      "33757485",
+      "21367592",
+      "37470509",
+      "32138230",
+      "38388492",
+      "27564664",
+      "27254961",
+      "35596100",
+      "30929319",
+      "23771682",
+      "23527997",
+      "27771979",
+      "37119738",
+      "34830348",
+      "28234047",
+      "7820538",
+      "24798601"
+    ],
+    "pmc": [
+      "9930901"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2451-9456(22)00454-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alpha1antitrypsindeficiency.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alpha-1 Antitrypsin Deficiency"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36630963/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36630963",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

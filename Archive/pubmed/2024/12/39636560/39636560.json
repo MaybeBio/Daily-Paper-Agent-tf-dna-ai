@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "39636560",
+    "doi": "10.1007/s12033-024-01330-3",
+    "title": "Identification of Oxidative Stress-Related Genes in Hyperlipidemia Based on Bioinformatic Analysis."
+  },
+  "content": {
+    "abstract": "Oxidative stress (OS) is thought to mediate the processes of glycolipid disorders of a number of metabolic diseases and recent data suggest that OS may be involved in the pathophysiology of hyperlipidemia. The gene expression profiles of hyperlipidemia samples were downloaded from the Gene Expression Omnibus (GEO) database. Oxidative stress-related genes (ORGs) was the intersection of all valid data of discovery dataset and the ORGs in Genecards. The Differentially expressed genes (DEGs) between hyperlipidemia and control samples were obtained via \"limma\" R package, and differentially expressed oxidative stress-related genes (DEORGs) associated with hyperlipidemia were screened via OS gene sets. Gene Ontology (GO) and Kyoto encyclopaedia of Genes and Genomes (KEGG) enrichment analyses were performed to study the biological function of DEORGs, and protein-protein interaction (PPI) network analysis was conducted to screen hub genes. Then we constructed microRNA (miRNA), transcription factor (TF) and drug component targets network to explain the regulatory mechanism of ORGs in hyperlipidemia. After screening and evaluating we took GSE1010 as the discovery dataset and the GSE13985 as the validation set. There were 395 ORGs and 14 DEORGs retained from the hyperlipidemia. GO and KEGG results showed that DEORGs were mostly related to OS and lipid metabolism. Then, we used miRNA, TF, and drug component targets network to reveal the regulatory mechanism of hub genes. Finally, we verified expression of DEGs and hub gene in validation set. Our study has further confirmed the relationships between OS and hyperlipidemia, providing oxidative stress-related hub genes with possible function analysis and pathways summarized. These molecules might play a crucial role in the progression of hyperlipidemia and serve as potential biomarkers and therapeutic targets, giving us additional insight into the genes and the mechanism linking the OS system and metabolic disorders. We have not only proved hyperlipidemia is associated with OS but also gave foundation and reference for future researches.",
+    "keywords": [
+      "Biomarkers",
+      "Enrichment analysis",
+      "Hyperlipidemia",
+      "Oxidative stress",
+      "RNA-Seq"
+    ],
+    "mesh_terms": [
+      "*Hyperlipidemias/genetics/metabolism",
+      "*Oxidative Stress/genetics",
+      "*Computational Biology/methods",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Databases, Genetic",
+      "MicroRNAs/genetics",
+      "Gene Ontology",
+      "Transcription Factors/genetics/metabolism",
+      "Lipid Metabolism/genetics",
+      "Gene Expression Regulation",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Rongyanqi",
+        "Hao, Wenzhi",
+        "Sun, Yanqiu",
+        "Liang, Bin",
+        "Xue, Feifei"
+      ],
+      "short_names": [
+        "Wang R",
+        "Hao W",
+        "Sun Y",
+        "Liang B",
+        "Xue F"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-6618-0728"
+      ],
+      "affiliations": [
+        "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China. feixue1977@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Rongyanqi",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China.",
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Wenzhi",
+        "short_name": "Hao W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yanqiu",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0009-0007-6618-0728"
+        ],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Bin",
+        "short_name": "Liang B",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Feifei",
+        "short_name": "Xue F",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Key Laboratory of Formula-Pattern of Traditional Chinese Medicine, Jinan University, Guangzhou, China. feixue1977@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/05 17:31",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "41901239",
+      "40549330"
+    ],
+    "refs": [
+      "39060932",
+      "39044748",
+      "39032283",
+      "38979023",
+      "38916845",
+      "38370005",
+      "37628623",
+      "36889281",
+      "36873173",
+      "36580204",
+      "36187088",
+      "35990322",
+      "35674773",
+      "34509492",
+      "34173093",
+      "33793335",
+      "33443084",
+      "33401976",
+      "33305711",
+      "33058914",
+      "32824248",
+      "32737252",
+      "26851532",
+      "25737164",
+      "20393588"
+    ],
+    "similar": [
+      "39636560",
+      "38701300",
+      "39556279",
+      "40245021",
+      "38062833",
+      "39172048",
+      "31987036",
+      "33640831",
+      "40505773",
+      "39673621",
+      "40574839",
+      "39586719",
+      "40186271",
+      "40821971",
+      "41044520",
+      "38764052",
+      "41196851",
+      "38073349",
+      "40790764",
+      "32756534",
+      "41120603",
+      "35313524",
+      "40091022",
+      "40241169",
+      "38957433",
+      "40289127",
+      "40804350",
+      "39292413",
+      "32147961",
+      "34218797",
+      "40603423",
+      "38847690",
+      "40628511",
+      "32481304",
+      "30825595",
+      "33941565",
+      "31875420",
+      "32598242",
+      "35757392",
+      "35397550",
+      "29620143",
+      "38519735",
+      "33083497",
+      "30045016",
+      "39182249",
+      "37776011",
+      "38904678",
+      "32626989",
+      "39506588",
+      "31277149",
+      "31424286",
+      "26936111",
+      "39284931",
+      "41444522",
+      "39125762",
+      "38319987",
+      "32435051",
+      "39876591",
+      "32938406",
+      "32853947",
+      "40595862",
+      "36198577",
+      "30602391",
+      "40597456",
+      "34734085",
+      "37632659",
+      "36104591",
+      "39387979",
+      "34358255",
+      "38229237",
+      "34722763",
+      "31747387",
+      "40320470",
+      "39192657",
+      "37924392",
+      "36575422",
+      "40074718",
+      "40561071",
+      "28952134",
+      "33816621",
+      "33204705",
+      "40161396",
+      "38863714",
+      "32945465",
+      "37100862",
+      "31545495",
+      "39875572",
+      "31703725",
+      "38736878",
+      "38142454",
+      "38749785",
+      "32811479",
+      "35562622",
+      "38852219",
+      "35620387",
+      "34553293",
+      "36291136",
+      "33407587",
+      "41006883",
+      "30132538"
+    ],
+    "review": [
+      "39636560",
+      "32481304"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-024-01330-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

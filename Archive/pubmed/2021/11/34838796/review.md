@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and acknowledgements.
+- **Assessment boundary** Evaluation is limited to the scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data, supplementary materials, or unpublished information were considered.
+- **Shared manuscript claim summary** The manuscript identifies the C. elegans protein T08D10.1/NFYA-1 as a novel substrate of ERK MAP kinase, demonstrates that ERK-mediated phosphorylation reduces its DNA-binding activity in vitro, and provides genetic evidence that nfya-1 inhibits vulval development downstream or in parallel to let-60/ras.
+- **Visible evidence base** In vitro kinase assays (Km values), electrophoretic mobility shift assays, reporter gene assays in NIH/3T3 cells, and phenotypic analyses of nfya-1(ok1174) mutants and RNAi knockdowns in various genetic backgrounds.
+- **Missing materials affecting confidence** No figures or supplementary data were provided. Statistical details for phenotypic analyses (e.g., sample sizes, replicates, full statistical methods) are incomplete. Western blot or phospho-specific detection of NFYA-1 phosphorylation is not described. In vivo phosphorylation evidence is absent.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in C. elegans vulval development, namely the identification of additional ERK MAP kinase substrates beyond LIN-1. The biochemical data supporting NFYA-1 as an in vitro substrate are reasonably convincing, and the genetic data suggesting an inhibitory role for nfya-1 in vulval development are interesting. However, the manuscript has several significant weaknesses. The connection between ERK-mediated phosphorylation of NFYA-1 and its proposed biological function is not directly established. The in vitro DNA-binding assay shows a single experiment without quantification or controls for phosphorylation specificity. The genetic data are largely based on RNAi in sensitized backgrounds, and the effects are modest. The transactivation assays are difficult to interpret due to minimal effects and lack of clear positive controls. Overall, the evidence is suggestive but not yet conclusive for the central claim that NFYA-1 functions as a physiologically relevant ERK substrate during vulval development.
+- **Who would be interested in the results, and why** Researchers studying MAP kinase signaling, C. elegans vulval development, transcriptional regulation, and NF-Y transcription factor biology. The potential link between Ras/ERK signaling and the NF-Y complex, which is broadly involved in cell cycle control and cancer, could interest a wider cell biology and oncology audience.
+- **Major strengths** 1. Identification of a novel putative ERK substrate with a clear biochemical demonstration of high-affinity in vitro phosphorylation. 2. Use of multiple approaches (biochemistry, cell culture, genetics) to address the question. 3. The genetic data, while modest, are consistent with an inhibitory role for nfya-1 in vulval development. 4. The manuscript is generally clearly written and places the work in appropriate context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for in vivo relevance
+  - **Claim pointer** The manuscript claims that NFYA-1 functions as a substrate of ERK-MAP kinase during vulval development, implying physiological relevance.
+  - **Evidence pointer** Results sections "NFYA-1 acts as an in vitro substrate for ERK MAP kinase" and "Loss of nfya-1 activity promotes vulval cell divisions"; location not provided
+  - **Concern** The manuscript demonstrates in vitro phosphorylation of NFYA-1 by ERK and shows genetic interactions, but no direct evidence links ERK-mediated phosphorylation of NFYA-1 to its function in vivo. No phospho-specific antibodies, mass spectrometry, or mutant alleles of the putative phosphorylation sites are used to show that phosphorylation is required for the observed biological effects.
+  - **Why it matters** Without direct evidence that phosphorylation of NFYA-1 by ERK occurs in vivo and is functionally relevant, the central claim of the manuscript remains correlative. The genetic data could be explained by phosphorylation-independent functions of NFYA-1 or by indirect effects.
+  - **Resolution test** Provide evidence of in vivo phosphorylation (e.g., phospho-specific antibodies, mass spectrometry on endogenous NFYA-1) or show that a non-phosphorylatable mutant of NFYA-1 fails to rescue the nfya-1(ok1174) phenotype while wild-type rescues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of DNA-binding assay
+  - **Claim pointer** The manuscript claims that ERK phosphorylation reduces the DNA-binding activity of NFYA-1.
+  - **Evidence pointer** Results section "ERK MAP kinase activity reduces the DNA-binding activity of NFYA-1", Figure 5; location not provided
+  - **Concern** The EMSA result is presented as a single gel image with no quantification, no replicates, and no statistical analysis. It is unclear whether the observed loss of binding is due to phosphorylation of NFYA-1 specifically or to non-specific effects of the kinase preparation or buffer conditions. No control with a kinase-dead ERK or with a non-phosphorylatable NFYA-1 mutant is shown.
+  - **Why it matters** This is a key biochemical claim supporting the mechanism. Without quantitative and controlled data, the conclusion that phosphorylation inhibits DNA binding is not robustly supported.
+  - **Resolution test** Provide quantified EMSA data from at least three independent experiments, including controls with kinase-dead ERK, heat-inactivated ERK, and a NFYA-1 mutant lacking the putative phosphorylation sites.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Genetic evidence strength
+  - **Claim pointer** The manuscript claims that nfya-1 acts to inhibit vulval development and functions downstream or in parallel to let-60/ras.
+  - **Evidence pointer** Results section "Loss of nfya-1 activity promotes vulval cell divisions", Figure 6; location not provided
+  - **Concern** The genetic evidence is based on a low-penetrance phenotype in the deletion mutant (14-35% Pvl) and modest enhancements of Muv phenotypes in sensitized backgrounds. The RNAi experiments show small effect sizes, and the statistical analysis is not fully described. The enhancement in the lin-12(n137) background is from 88% to 100%, which is a small absolute change. The lack of a phenotype with RNAi in wild-type animals is not discussed in detail.
+  - **Why it matters** The genetic data are used to support the biological relevance of NFYA-1 in vulval development. Weak or incompletely described genetic effects weaken the case that NFYA-1 is a significant regulator of this process.
+  - **Resolution test** Provide full statistical details, including sample sizes, replicates, and effect sizes. Consider additional genetic approaches, such as a rescuing transgene or a stronger loss-of-function allele, to confirm the phenotype.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Transactivation assay interpretation
+  - **Claim pointer** The manuscript claims that ERK signaling has minimal effect on the transactivation potential of NFYA-1.
+  - **Evidence pointer** Results section "ERK MAP kinase activity does not significantly alter the transactivation potential of NFYA-1", Figure 4; location not provided
+  - **Concern** The transactivation assay shows minimal effects, and the interpretation is ambiguous. The manuscript states that NFYA-1 may act as a repressor, but the data are not conclusive. The assay uses a GAL4 fusion construct in a heterologous mammalian system, which may not accurately reflect C. elegans biology. The effects of FGF stimulation are small and not clearly statistically significant.
+  - **Why it matters** The manuscript's conclusion that NFYA-1's role is primarily through DNA-binding inhibition rather than transactivation changes is based on this assay. If the assay is not well-controlled or sensitive, this conclusion is not well-supported.
+  - **Resolution test** Provide statistical analysis of the reporter assays, include a known ERK-responsive transcription factor as a positive control, and consider testing NFYA-1 in a more relevant C. elegans-based assay.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure legends
+  - **Affected element** Figures 2-6
+  - **Evidence pointer** Results sections; location not provided
+  - **Issue** Figure legends are not provided in the text, making it difficult to fully interpret the data presented.
+  - **Required correction** Include complete figure legends with detailed descriptions of experimental conditions, sample sizes, and statistical tests.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Phenotypic analyses
+  - **Evidence pointer** Results section "Loss of nfya-1 activity promotes vulval cell divisions"; location not provided
+  - **Issue** The statistical methods for phenotypic analyses are not fully described. It is unclear which tests were used and whether multiple comparisons were accounted for.
+  - **Required correction** Provide a detailed description of statistical methods, including tests used, sample sizes, and how significance was determined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion and Conclusions; location not provided
+  - **Issue** The discussion does not adequately address the limitations of the study, such as the lack of in vivo phosphorylation data and the modest genetic effects.
+  - **Required correction** Add a paragraph discussing the limitations of the current study and what additional experiments would be needed to strengthen the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Title, abstract, and text; location not provided
+  - **Issue** The gene name is written as "Nfya-1" in the title but "nfya-1" in the text. C. elegans nomenclature conventions should be followed consistently.
+  - **Required correction** Use "nfya-1" for the gene and "NFYA-1" for the protein throughout, following standard C. elegans nomenclature.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of in vivo phosphorylation evidence (R1-M1). 2. Insufficient quantitative and controlled EMSA data (R1-M2). 3. Incomplete statistical reporting for genetic experiments (R1-M3). 4. Ambiguous transactivation assay interpretation (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The identification of NFYA-1 as a potential ERK substrate is novel, but the concept of ERK regulating transcription factors during vulval development is not new. Scientific importance: The potential link between Ras/ERK and NF-Y complexes is interesting, but the current evidence does not establish a clear biological role. Interdisciplinary readership: The work is primarily of interest to C. elegans developmental biologists and MAP kinase researchers. Technical soundness: The biochemical assays are generally sound but lack key controls and quantification. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with C. elegans vulval development and MAP kinase signaling.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents interesting preliminary data but lacks the direct evidence needed to support the central claim that NFYA-1 functions as a physiologically relevant ERK substrate during vulval development. Major revisions addressing the concerns above are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that NFYA-1 is a physiological substrate of ERK during vulval development is unsupported, as no in vivo phosphorylation data are provided.
+- The claim that ERK phosphorylation reduces DNA-binding activity is based on a single unquantified EMSA experiment without appropriate controls.
+- The claim that nfya-1 functions downstream or in parallel to let-60/ras is weakly supported by modest genetic effects in sensitized backgrounds.
+- The conclusion that NFYA-1's role is primarily through DNA-binding inhibition rather than transactivation is not well-supported due to ambiguous reporter assay results.

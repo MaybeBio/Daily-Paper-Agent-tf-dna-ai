@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "41557834",
+    "doi": "10.1093/bioinformatics/btag024",
+    "title": "Learning a pairwise epigenomic and transcription factor binding association score across the human genome."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Identifying pairwise associations between genomic loci is an important challenge for which large and diverse collections of epigenomic and transcription factor (TF) binding data can potentially be informative. RESULTS: We developed Learning Evidence of Pairwise Association from Epigenomic and TF binding data (LEPAE). LEPAE uses neural networks to quantify evidence of association for pairs of genomic windows from large-scale epigenomic and TF binding data along with distance information. We applied LEPAE using thousands of human datasets. We show using additional data that LEPAE captures biologically meaningful pairwise relationships between genomic loci, and we expect LEPAE scores to be a resource. AVAILABILITY AND IMPLEMENTATION: The LEPAE scores and the software are available at https://github.com/ernstlab/LEPAE.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism",
+      "*Genome, Human",
+      "*Epigenomics/methods",
+      "Software",
+      "Protein Binding",
+      "Binding Sites",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kwon, Soo Bin",
+        "Ernst, Jason"
+      ],
+      "short_names": [
+        "Kwon SB",
+        "Ernst J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8670-0993",
+        "ORCID: 0000-0003-4026-7853"
+      ],
+      "affiliations": [
+        "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA 90095, United States.",
+        "Department of Biological Chemistry, University of California, Los Angeles, CA 90095, United States.",
+        "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA 90095, United States.",
+        "Department of Biological Chemistry, University of California, Los Angeles, CA 90095, United States.",
+        "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, University of California, Los Angeles, CA 90095, United States.",
+        "Computer Science Department, University of California, Los Angeles, CA 90095, United States.",
+        "Computational Medicine Department, University of California, Los Angeles, CA 90095, United States.",
+        "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, CA 90095, United States.",
+        "Molecular Biology Institute, University of California, Los Angeles, CA 90095, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kwon, Soo Bin",
+        "short_name": "Kwon SB",
+        "identifiers": [
+          "0000-0002-8670-0993"
+        ],
+        "affiliations": [
+          "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA 90095, United States.",
+          "Department of Biological Chemistry, University of California, Los Angeles, CA 90095, United States."
+        ]
+      },
+      {
+        "full_name": "Ernst, Jason",
+        "short_name": "Ernst J",
+        "identifiers": [
+          "0000-0003-4026-7853"
+        ],
+        "affiliations": [
+          "Bioinformatics Interdepartmental Program, University of California, Los Angeles, CA 90095, United States.",
+          "Department of Biological Chemistry, University of California, Los Angeles, CA 90095, United States.",
+          "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, University of California, Los Angeles, CA 90095, United States.",
+          "Computer Science Department, University of California, Los Angeles, CA 90095, United States.",
+          "Computational Medicine Department, University of California, Los Angeles, CA 90095, United States.",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles, CA 90095, United States.",
+          "Molecular Biology Institute, University of California, Los Angeles, CA 90095, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Feb 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 19:20",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38411627",
+      "37868039",
+      "37220626",
+      "36643910",
+      "35668300",
+      "35501320",
+      "34991667",
+      "33941776",
+      "33270111",
+      "30407534",
+      "29058599",
+      "27467250",
+      "26773131",
+      "25938943",
+      "25693563",
+      "25690853",
+      "25497547",
+      "24821768",
+      "24196873",
+      "22955617",
+      "22955616",
+      "22373907",
+      "21441907",
+      "19815776",
+      "16381938"
+    ],
+    "similar": [
+      "41557834",
+      "28541490",
+      "30304373",
+      "38940155",
+      "33941776",
+      "24339764",
+      "40102719",
+      "23272209",
+      "24997396",
+      "33522898",
+      "25957350",
+      "38354497",
+      "29028263",
+      "29360936",
+      "38832465",
+      "27993786",
+      "37140548",
+      "36708003",
+      "11673231",
+      "30922998",
+      "20158869",
+      "41527854",
+      "26092860",
+      "27153574",
+      "18005433",
+      "40845158",
+      "30423062",
+      "33681991",
+      "28105912",
+      "40598892",
+      "38449289",
+      "30052804",
+      "28605501",
+      "42099803",
+      "30567711",
+      "34570769",
+      "41450215",
+      "20838582",
+      "28961686",
+      "29907088",
+      "29757349",
+      "32404971",
+      "32657363",
+      "31905774",
+      "35997560",
+      "41068106",
+      "26130577",
+      "30541050",
+      "28334916",
+      "35293310",
+      "42109173",
+      "42475469",
+      "41022541",
+      "27082112",
+      "31006511",
+      "34398217",
+      "39498488",
+      "27780826",
+      "39520544",
+      "40250421",
+      "19959498",
+      "33300042",
+      "32858223",
+      "25559499",
+      "34486522",
+      "30352610",
+      "29155928",
+      "35927613",
+      "28541376",
+      "39868536",
+      "34996354",
+      "25319995",
+      "41325984",
+      "31723409",
+      "41063341",
+      "39073878",
+      "29028265",
+      "36063453",
+      "40240358",
+      "31362726",
+      "35659235",
+      "29608647",
+      "31373606",
+      "19956545",
+      "35266510",
+      "38844976",
+      "26627005",
+      "32573679",
+      "27153645",
+      "34586379",
+      "42178345",
+      "31336830",
+      "38366935",
+      "20663846",
+      "35410161",
+      "28849563",
+      "25927199",
+      "33413545",
+      "31742318",
+      "27587683"
+    ],
+    "review": [
+      "41557834"
+    ],
+    "pmc": [
+      "12910503"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41557834.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41557834/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag024",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

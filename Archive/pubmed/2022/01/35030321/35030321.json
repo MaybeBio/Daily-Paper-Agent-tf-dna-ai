@@ -1,0 +1,520 @@
+{
+  "identity": {
+    "pmid": "35030321",
+    "doi": "10.1016/j.stemcr.2021.12.008",
+    "title": "Inducing human retinal pigment epithelium-like cells from somatic tissue."
+  },
+  "content": {
+    "abstract": "Regenerative medicine relies on basic research outcomes that are only practical when cost effective. The human eyeball requires the retinal pigment epithelium (RPE) to interface the neural retina and the choroid at large. Millions of people suffer from age-related macular degeneration (AMD), a blinding multifactor genetic disease among RPE degradation pathologies. Recently, autologous pluripotent stem-cell-derived RPE cells were prohibitively expensive due to time; therefore, we developed a faster reprogramming system. We stably induced RPE-like cells (iRPE) from human fibroblasts (Fibs) by conditional overexpression of both broad plasticity and lineage-specific transcription factors (TFs). iRPE cells displayed critical RPE benchmarks and significant in vivo integration in transplanted retinas. Herein, we detail the iRPE system with comprehensive single-cell RNA sequencing (scRNA-seq) profiling to interpret and characterize its best cells. We anticipate that our system may enable robust retinal cell induction for basic research and affordable autologous human RPE tissue for regenerative cell therapy.",
+    "keywords": [
+      "cell biology",
+      "cell plasticity",
+      "regenerative medicine",
+      "reprogramming",
+      "retina",
+      "scRNA-seq",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Cellular Reprogramming/drug effects",
+      "Disulfides/pharmacology",
+      "Fibroblasts/cytology/*metabolism",
+      "Gene Expression Regulation",
+      "Humans",
+      "Indole Alkaloids/pharmacology",
+      "Machine Learning",
+      "Niacinamide/pharmacology",
+      "Rats",
+      "Retina/cytology/metabolism/pathology",
+      "Retinal Pigment Epithelium/cytology/*metabolism/transplantation",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Woogeng, Ivo Ngundu",
+        "Kaczkowski, Bogumil",
+        "Abugessaisa, Imad",
+        "Hu, Haiming",
+        "Tachibana, Akihiro",
+        "Sahara, Yoshiki",
+        "Hon, Chung-Chau",
+        "Hasegawa, Akira",
+        "Sakai, Noriko",
+        "Nishida, Mitsuhiro",
+        "Sanyal, Hashimita",
+        "Sho, Junki",
+        "Kajita, Keisuke",
+        "Kasukawa, Takeya",
+        "Takasato, Minoru",
+        "Carninci, Piero",
+        "Maeda, Akiko",
+        "Mandai, Michiko",
+        "Arner, Erik",
+        "Takahashi, Masayo",
+        "Kime, Cody"
+      ],
+      "short_names": [
+        "Woogeng IN",
+        "Kaczkowski B",
+        "Abugessaisa I",
+        "Hu H",
+        "Tachibana A",
+        "Sahara Y",
+        "Hon CC",
+        "Hasegawa A",
+        "Sakai N",
+        "Nishida M",
+        "Sanyal H",
+        "Sho J",
+        "Kajita K",
+        "Kasukawa T",
+        "Takasato M",
+        "Carninci P",
+        "Maeda A",
+        "Mandai M",
+        "Arner E",
+        "Takahashi M",
+        "Kime C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan; Laboratory of Molecular Cell Biology and Development, Department of Animal Development and Physiology, Graduate School of Biostudies, Kyoto University, Kyoto 606-8501, Japan; Department of Renal and Cardiovascular Research, New Drug Research Division, Otsuka Pharmaceutical Co. Ltd., Tokushima 771-0192, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan; Laboratory of Molecular Cell Biology and Development, Department of Animal Development and Physiology, Graduate School of Biostudies, Kyoto University, Kyoto 606-8501, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan; Human Technopole, Via Rita Levi Montalcini 1, Milan, Italy.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan. Electronic address: cody.kime@a.riken.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Woogeng, Ivo Ngundu",
+        "short_name": "Woogeng IN",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Kaczkowski, Bogumil",
+        "short_name": "Kaczkowski B",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Abugessaisa, Imad",
+        "short_name": "Abugessaisa I",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Hu, Haiming",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Tachibana, Akihiro",
+        "short_name": "Tachibana A",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Sahara, Yoshiki",
+        "short_name": "Sahara Y",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan; Laboratory of Molecular Cell Biology and Development, Department of Animal Development and Physiology, Graduate School of Biostudies, Kyoto University, Kyoto 606-8501, Japan; Department of Renal and Cardiovascular Research, New Drug Research Division, Otsuka Pharmaceutical Co. Ltd., Tokushima 771-0192, Japan."
+        ]
+      },
+      {
+        "full_name": "Hon, Chung-Chau",
+        "short_name": "Hon CC",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Hasegawa, Akira",
+        "short_name": "Hasegawa A",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakai, Noriko",
+        "short_name": "Sakai N",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishida, Mitsuhiro",
+        "short_name": "Nishida M",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Sanyal, Hashimita",
+        "short_name": "Sanyal H",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Sho, Junki",
+        "short_name": "Sho J",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Kajita, Keisuke",
+        "short_name": "Kajita K",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Kasukawa, Takeya",
+        "short_name": "Kasukawa T",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Takasato, Minoru",
+        "short_name": "Takasato M",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan; Laboratory of Molecular Cell Biology and Development, Department of Animal Development and Physiology, Graduate School of Biostudies, Kyoto University, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Carninci, Piero",
+        "short_name": "Carninci P",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan; Human Technopole, Via Rita Levi Montalcini 1, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Maeda, Akiko",
+        "short_name": "Maeda A",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Mandai, Michiko",
+        "short_name": "Mandai M",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Arner, Erik",
+        "short_name": "Arner E",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Masayo",
+        "short_name": "Takahashi M",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Kime, Cody",
+        "short_name": "Kime C",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Japan. Electronic address: cody.kime@a.riken.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell reports"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Reports"
+    ],
+    "pub_date": "2022 Feb 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/15 06:00",
+    "fetched_at": "2026-09-28 04:00:31"
+  },
+  "links": {
+    "cites": [
+      "42030962",
+      "41366246",
+      "40722628",
+      "39620144",
+      "39559312",
+      "37807418",
+      "37339216",
+      "33891866"
+    ],
+    "refs": [
+      "35146392",
+      "33307245",
+      "32231223",
+      "31217225",
+      "31178118",
+      "30502055",
+      "30089906",
+      "29921301",
+      "29903975",
+      "29608179",
+      "29597005",
+      "29186120",
+      "28991892",
+      "28296613",
+      "27385038",
+      "26780608",
+      "26686652",
+      "26603904",
+      "26269569",
+      "26004781",
+      "25892221",
+      "25555917",
+      "25512556",
+      "25467916",
+      "25013174",
+      "24905168",
+      "24742279",
+      "24658644",
+      "24527394",
+      "24474194",
+      "24129572",
+      "23603987",
+      "23584611",
+      "23159369",
+      "22792072",
+      "22632979",
+      "22615985",
+      "22523078",
+      "21617644",
+      "21460823",
+      "20709808",
+      "20621051",
+      "20621050",
+      "20530484",
+      "19668189",
+      "18849347",
+      "18035408",
+      "16965267",
+      "16712695",
+      "15221858",
+      "15215314",
+      "14985325",
+      "14982938",
+      "11297486",
+      "11062461",
+      "9662395",
+      "9390562",
+      "9326941",
+      "1630784"
+    ],
+    "similar": [
+      "35030321",
+      "32635833",
+      "35933105",
+      "24474194",
+      "28730556",
+      "21480547",
+      "30865653",
+      "24742279",
+      "33708872",
+      "28969679",
+      "32873827",
+      "34638840",
+      "23256869",
+      "29896658",
+      "31982829",
+      "19489100",
+      "31840941",
+      "20601659",
+      "31269016",
+      "36096985",
+      "19997644",
+      "31564644",
+      "21738400",
+      "26113213",
+      "26589197",
+      "33182490",
+      "31914900",
+      "23599499",
+      "30738336",
+      "31080113",
+      "23575949",
+      "28664762",
+      "28296613",
+      "33743349",
+      "33895162",
+      "34502527",
+      "30736904",
+      "34072522",
+      "23385820",
+      "22532929",
+      "31854278",
+      "28223209",
+      "31248784",
+      "18848316",
+      "23585288",
+      "24873859",
+      "27418134",
+      "25651341",
+      "31712411",
+      "24558195",
+      "31271759",
+      "32376945",
+      "28334846",
+      "30476582",
+      "26517551",
+      "29443034",
+      "28480968",
+      "25983185",
+      "20528097",
+      "30634448",
+      "19733830",
+      "33468244",
+      "32278708",
+      "38069262",
+      "24825111",
+      "22895806",
+      "36185374",
+      "19093008",
+      "19151392",
+      "31777296",
+      "30074740",
+      "23663427",
+      "28191760",
+      "29986868",
+      "23833067",
+      "34202702",
+      "19628733",
+      "24454843",
+      "26933039",
+      "21738388",
+      "28951331",
+      "31984806",
+      "19347139",
+      "23761884",
+      "31654385",
+      "26603904",
+      "26606685",
+      "39120084",
+      "37554187",
+      "38334673",
+      "35517508"
+    ],
+    "review": [
+      "35030321",
+      "20601659",
+      "26113213",
+      "31914900",
+      "28664762",
+      "20528097",
+      "32278708",
+      "31777296",
+      "30074740",
+      "23663427",
+      "19347139",
+      "31654385"
+    ],
+    "pmc": [
+      "8828536"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-6711(21)00647-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35030321/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35030321",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35030321",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse166935",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

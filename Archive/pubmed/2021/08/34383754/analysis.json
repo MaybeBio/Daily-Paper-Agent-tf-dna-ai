@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34383754",
+  "title": "DeepG4: A deep learning approach to predict cell-type specific active G-quadruplex regions.",
+  "authors": "Rocher, Vincent; Genais, Matthieu; Nassereddine, Elissar; Mourad, Raphael",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-08-13",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测细胞类型特异的活性G-四链体区域，虽涉及DNA结构预测并识别转录因子基序，但核心对象是G4而非TF-DNA结合互作，方法可迁移但非直接聚焦。",
+  "abstract": "DNA is a complex molecule carrying the instructions an organism needs to develop, live and reproduce. In 1953, Watson and Crick discovered that DNA is composed of two chains forming a double-helix. Later on, other structures of DNA were discovered and shown to play important roles in the cell, in particular G-quadruplex (G4). Following genome sequencing, several bioinformatic algorithms were developed to map G4s in vitro based on a canonical sequence motif, G-richness and G-skewness or alternatively sequence features including k-mers, and more recently machine/deep learning. Recently, new sequencing techniques were developed to map G4s in vitro (G4-seq) and G4s in vivo (G4 ChIP-seq) at few hundred base resolution. Here, we propose a novel convolutional neural network (DeepG4) to map cell-type specific active G4 regions (e.g. regions within which G4s form both in vitro and in vivo). DeepG4 is very accurate to predict active G4 regions in different cell types. Moreover, DeepG4 identifies key DNA motifs that are predictive of G4 region activity. We found that such motifs do not follow a very flexible sequence pattern as current algorithms seek for. Instead, active G4 regions are determined by numerous specific motifs. Moreover, among those motifs, we identified known transcription factors (TFs) which could play important roles in G4 activity by contributing either directly to G4 structures themselves or indirectly by participating in G4 formation in the vicinity. In addition, we used DeepG4 to predict active G4 regions in a large number of tissues and cancers, thereby providing a comprehensive resource for researchers. Availability: https://github.com/morphos30/DeepG4.",
+  "abstract_zh": "DNA是一种复杂的分子，携带生物体发育、生存和繁殖所需的指令。1953年，Watson和Crick发现DNA由两条链组成，形成双螺旋结构。随后，其他DNA结构被发现并在细胞中显示出重要作用，特别是G-四链体 (G-quadruplex, G4)。在基因组测序之后，基于规范序列基序、G富集性和G偏斜性，或替代地包括k-mer的序列特征，以及更近期的机器/深度学习，开发了多种生物信息学算法来在体外绘制G4图谱。最近，新的测序技术被开发出来，以数百碱基分辨率在体外（G4-seq）和体内（G4 ChIP-seq）绘制G4图谱。在此，我们提出一种新颖的卷积神经网络 (convolutional neural network, DeepG4)，用于绘制细胞类型特异性的活性G4区域（例如，在体外和体内均形成G4的区域）。DeepG4在不同细胞类型中预测活性G4区域非常准确。此外，DeepG4识别出预测G4区域活性的关键DNA基序。我们发现这些基序并不遵循当前算法所寻求的非常灵活的序列模式。相反，活性G4区域由众多特定基序决定。而且，在这些基序中，我们识别出已知的转录因子 (transcription factors, TFs)，它们可能通过直接贡献于G4结构本身或间接参与邻近G4形成，在G4活性中发挥重要作用。此外，我们使用DeepG4预测了大量组织和癌症中的活性G4区域，从而为研究人员提供了全面的资源。可用性：https://github.com/morphos30/DeepG4。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34383754/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34383754/",
+  "paper_page_path": "papers/pubmed/34383754/index.html"
+}

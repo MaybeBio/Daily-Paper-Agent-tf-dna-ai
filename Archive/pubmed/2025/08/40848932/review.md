@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and conclusions as presented in the provided text. No external data or supplementary figures were available for direct inspection.
+- **Shared manuscript claim summary** The authors propose that chromatin binding by a DNA-binding domain (DBD) fused to a prion-like domain (PLD) regulates the phase behavior, morphology, and dynamics of condensates formed by the PLD. Using live-cell imaging and coarse-grained simulations, they show that fusion of the SS18 PLD to the FOXA1 forkhead (FKH) DBD converts spherical, chromatin-excluded condensates into aspherical, chromatin-wetting "protein clouds." Mutations that weaken DBD-chromatin interactions partially restore spherical morphology. Simulations recapitulate these observations and suggest a balance between PLD-PLD and DBD-DNA interactions governs condensate structure and dynamics.
+- **Visible evidence base** Text descriptions of experimental results (Figures 1-2, S1-S13), methods for cell culture, imaging, image analysis, FRAP, and two types of coarse-grained simulations. Quantitative values for eccentricity, condensate area, number density, FRAP recovery times, and simulation-derived power-law exponents are reported in the text.
+- **Missing materials affecting confidence** Actual figures and supplementary figures were not provided. Detailed statistical analyses (e.g., p-values, sample sizes, number of cells/experiments) are not fully reported. The custom image analysis platform is described but not validated or benchmarked. Simulation parameters and convergence criteria are only partially described. The relationship between simulated salt concentration and experimental conditions is not fully justified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how chromatin interactions modulate the phase behavior of transcription factor condensates. The combination of live-cell imaging with sequence-resolved and mesoscale simulations is a strong approach. The central finding, that DBD-chromatin interactions can convert spherical condensates into aspherical, chromatin-wetting states, is plausible and potentially significant. However, the evidence as presented has several gaps. The quantitative imaging data lack statistical depth, the FRAP analysis is limited, and the connection between simulation parameters and cellular conditions is not fully established. The manuscript would be strengthened by more rigorous quantitative analysis, additional controls, and clearer presentation of the simulation-to-experiment correspondence. The conclusions are directionally supported but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, transcription factor dynamics, chromatin organization, and phase separation in gene regulation. The work bridges biophysics and cell biology and would appeal to those interested in how multivalent interactions with chromatin shape nuclear organization. The simulation framework may be of interest to computational biologists studying condensate formation in complex environments.
+- **Major strengths** 1) The study addresses a key gap in the field: why transcription factor condensates in cells often appear as irregular, nanoscale assemblies rather than large spherical droplets. 2) The use of a well-defined engineered system (SS18 PLD with and without FKH DBD) allows systematic dissection of the role of chromatin binding. 3) The combination of live-cell imaging and two levels of coarse-grained simulation provides complementary perspectives. 4) The inclusion of DBD mutants with graded chromatin affinity is a thoughtful design. 5) The observation that condensate number and size are inversely related with chromatin affinity is a potentially generalizable principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of imaging data
+  - **Claim pointer** The authors claim quantitative differences in eccentricity, area, and number density between SS18PLD, SS18PLD-FKH, and SS18PLD-FKHNHRR condensates (Figure 1D-F).
+  - **Evidence pointer** Figure 1D-F; Methods: Image analysis
+  - **Concern** The reported values (e.g., eccentricity 0.67 ± 0.21 vs 0.4 ± 0.2) are presented as means with standard deviations, but no information is provided on the number of cells analyzed, number of independent experiments, or statistical tests used to compare groups. The overlap in standard deviations for eccentricity between SS18PLD-FKH and SS18PLD-FKHNHRR (0.67 ± 0.21 vs 0.63 ± 0.21) raises questions about whether these are statistically distinguishable. Similarly, the claim that condensate area and number differ between groups lacks error bars or confidence intervals in the text description.
+  - **Why it matters** The central conclusion that chromatin binding alters condensate morphology and coarsening rests on these quantitative comparisons. Without proper statistical reporting, the reader cannot assess the robustness of the observed differences. This is particularly important given the high variability inherent in overexpression-based assays.
+  - **Resolution test** Provide the number of cells/experiments, statistical tests used, and effect sizes with confidence intervals for all quantitative comparisons in Figure 1D-G and Figure 2B. Ideally, show individual data points or distributions rather than only means ± SD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** FRAP interpretation
+  - **Claim pointer** The authors state that SS18PLD-FKH exhibits substantially slower recovery (τ1/2 = 7.88 ± 4.39) compared to SS18PLD (τ1/2 = 2.92 ± 1.004), and interpret this as evidence of chromatin binding restricting diffusion (Figure 2C).
+  - **Evidence pointer** Figure 2C; Figure S7; Methods: FRAP
+  - **Concern** The FRAP data are presented with very large standard deviations (e.g., 7.88 ± 4.39 for SS18PLD-FKH), which suggests high variability or possibly small sample sizes. The recovery curves are fitted with a single exponential, but the authors do not report the mobile fraction or whether the recovery reached a plateau within the 30-second imaging window. The comparison between SS18PLD-FKH and SS18PLD-FKHNHRR (τ1/2 = 3.12 ± 0.67) is used to support the role of chromatin binding, but the large spread in the SS18PLD-FKH data makes this comparison uncertain. Additionally, the FKH domain alone shows rapid recovery (τ1/2 = 0.57 ± 0.27), but it is unclear whether this represents a soluble protein or whether it also forms condensates.
+  - **Why it matters** The FRAP data are used to support the claim that chromatin binding restricts the mobility of condensate components. If the variability is too high or the fitting is inadequate, the conclusion is weakened. The interpretation of τ1/2 as a measure of binding strength requires that the recovery is dominated by exchange with a mobile pool, which is not demonstrated.
+  - **Resolution test** Report the number of cells/bleach events, the full recovery curves with confidence bands, the mobile fractions, and the goodness of fit. Consider using a two-component or stretched exponential model if a single exponential is insufficient. Show that the recovery reaches a plateau and that the immobile fraction is consistent with the chromatin-bound population.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-to-experiment correspondence
+  - **Claim pointer** The authors claim that coarse-grained simulations recapitulate experimental observations, specifically that FKH-chromatin interactions lead to aspherical, chromatin-wetting condensates and suppressed coarsening (Figures 3-4).
+  - **Evidence pointer** Figures 3-4; Methods: Sequence-resolved and mesoscale simulations
+  - **Concern** The simulations use a salt concentration of 0.25 M to match experimental conditions, but the justification for this choice is not provided. The experimental system is in live cells where the ionic environment is complex and not simply represented by a single salt concentration. The mesoscale model uses a simplified representation of the FKH domain as a patchy particle with three binding sites, and the chromatin as a dense polymer mesh. The mapping between these model parameters and the real system is not quantitatively established. The authors report that SS18PLD-FKH forms "protein clouds" in simulations, but the quantitative metrics used to define this state (e.g., aspect ratio, contact density) are not clearly defined or compared to experimental measurements.
+  - **Why it matters** The simulations are presented as supporting evidence for the experimental conclusions. If the simulation parameters are not well-justified or the output metrics are not directly comparable to experiments, the strength of this support is unclear. The claim of "recapitulate" requires a more explicit quantitative comparison.
+  - **Resolution test** Provide a sensitivity analysis of simulation results to salt concentration and interaction strengths. Define quantitative order parameters for condensate morphology (e.g., aspect ratio, shape anisotropy) and compare them directly to experimental measurements. Show that the simulation results are robust to reasonable variations in model parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Alternative explanations
+  - **Claim pointer** The authors conclude that chromatin binding through the FKH domain is the key regulator of condensate morphology and coarsening, based on comparisons between SS18PLD, SS18PLD-FKH, and SS18PLD-FKHNHRR.
+  - **Evidence pointer** Figures 1-2; Discussion
+  - **Concern** The FKH domain may have effects beyond DNA binding, such as protein-protein interactions or changes in net charge/hydrophobicity that could alter phase behavior independently of chromatin binding. The NHRR mutations may affect protein stability or folding. The authors acknowledge that RNA binding or microphase separation could contribute, but these are not experimentally tested. The observation that SS18PLD-FKHNHRR still shows some chromatin colocalization (PCC = 0.16 ± 0.26) suggests residual binding, but the authors do not quantify how much residual binding is needed to observe the morphological changes.
+  - **Why it matters** The conclusion that chromatin binding affinity is the key parameter rests on the assumption that the only difference between the constructs is DNA binding affinity. If the FKH domain has other effects, the interpretation is confounded. The authors should rule out or account for these alternative explanations.
+  - **Resolution test** Include a control with a DBD that binds DNA weakly but has similar structural/chemical properties, or use a point mutation that abolishes DNA binding without affecting folding. Measure the expression levels and nuclear distribution of all constructs to ensure differences are not due to expression artifacts. Test whether the NHRR mutations affect FKH domain folding or stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure descriptions
+  - **Affected element** Figure 1A-B
+  - **Evidence pointer** Figure 1A-B
+  - **Issue** The text describes "irregular blob-like structures" and "protein clouds" but does not provide a clear definition or scale bar information in the text. The reader cannot assess the morphology from the text alone.
+  - **Required correction** Provide representative images with scale bars and a clear description of the morphological categories used for classification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Concentration measurements
+  - **Affected element** Figure S4
+  - **Evidence pointer** Figure S4; Methods: Fluorescence imaging
+  - **Issue** The authors report nuclear concentrations up to ~20 μM based on a GFP calibration curve, but the calibration is described only briefly. It is unclear whether the calibration accounts for the nuclear environment, photobleaching, or the maturation state of GFP.
+  - **Required correction** Provide details of the calibration, including the range of concentrations tested, the linearity of the response, and any corrections applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 1D-G, Figure 2B
+  - **Evidence pointer** Figure 1D-G; Figure 2B
+  - **Issue** No statistical tests are mentioned for any of the quantitative comparisons. The reader cannot determine whether the observed differences are significant.
+  - **Required correction** Add statistical tests (e.g., t-test, ANOVA, or non-parametric equivalents) with p-values or confidence intervals for all comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Simulation details
+  - **Affected element** Methods: Sequence-resolved simulations
+  - **Evidence pointer** Methods: Sequence-resolved simulations
+  - **Issue** The simulation temperature is set to 360 K for single-DNA simulations and 340 K for multi-DNA simulations, but the rationale for these temperatures is not provided. The relationship between simulation temperature and experimental temperature (37 °C) is unclear.
+  - **Required correction** Justify the choice of simulation temperatures and discuss how temperature affects the phase behavior in the model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The term "chromatin wetting" is used to describe the condensate morphology, but it is not formally defined. The reader may not be familiar with this concept in the context of condensates.
+  - **Required correction** Define "chromatin wetting" in the introduction or results, and explain how it is measured or identified in the experiments and simulations.
+
+## Risk / unsupported claims
+- The claim that "chromatin binding is a critical modulator of transcriptional condensate behavior in vivo" is supported by the data but is based on an overexpression system with engineered fusion proteins. The relevance to endogenous transcription factors is inferred, not directly demonstrated.
+- The statement that "SS18PLD-FKH condensates extensively wet the chromatin" is based on colocalization with H2B and simulation snapshots, but the text does not provide a quantitative measure of "wetting" (e.g., contact angle, spreading coefficient).
+- The claim that "the balance between PLD-PLD and FKH-DNA interactions governs condensate morphology" is supported by simulations but the experimental data do not directly measure these interaction strengths.
+- The assertion that "SS18PLD-FKHNHRR has residual DNA binding affinity contributed by SW residues" is based on prior literature (cited as Cirillo and Zaret 2007; Sekiya et al. 2009) but is not directly tested in this study.
+- The relationship between the salt concentration used in simulations (0.25 M) and the intracellular ionic environment is not established, making the quantitative correspondence between simulation and experiment uncertain.
+- The claim that "condensation propensity of SS18PLD, SS18PLD-FKH, and SS18PLD-FKHNHRR is likely similar" is inferred from the product of area and number density being similar, but this is an indirect measure and may not capture differences in protein concentration or partitioning.
+
+## Assessment against Nature-style criteria
+- **Originality** The study addresses a question of growing interest, and the specific finding that DBD-chromatin interactions can switch condensate morphology from spherical to aspherical, chromatin-wetting states is a novel contribution. The use of engineered fusion proteins to systematically vary DBD affinity is a creative approach. However, the concept that chromatin acts as a scaffold or regulator of condensate formation has been proposed before, and the novelty lies in the systematic demonstration and the simulation framework.
+- **Scientific importance** The results have implications for understanding how transcription factor condensates form and function in the nucleus. The finding that chromatin binding can suppress coarsening and maintain a dispersed, microdroplet state could be relevant to how transcriptional condensates remain dynamic and responsive to cellular signals. The study also provides a framework for thinking about how the balance of homotypic and heterotypic interactions shapes condensate properties. This is likely to be of interest to a broad community.
+- **Interdisciplinary readership** The work bridges cell biology, biophysics, and computational modeling. The experimental and simulation approaches are complementary, and the findings are presented in a way that should be accessible to researchers in these fields. However, the manuscript assumes familiarity with concepts such as phase separation, coarse-grained simulations, and FRAP, which may limit accessibility to a general scientific audience.
+- **Technical soundness** The experimental design is generally sound, with appropriate controls (e.g., FKH mutants). The imaging and image analysis methods are described, but the lack of detailed statistical reporting is a concern. The simulations are sophisticated, but the parameter choices and their relationship to experimental conditions need more justification. The overall technical quality is good, but the quantitative rigor could be improved.
+- **Readability for nonspecialists** The abstract and introduction are clear and set up the problem well. The results section is dense and may be challenging for nonspecialists, particularly the simulation sections. The use of terms like "chromatin wetting" and "coarse-grained simulations" without full explanation may hinder readability. The manuscript would benefit from a more accessible summary of the simulation approach and its relevance to the experimental findings.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The central hypothesis is interesting and the combination of experiments and simulations is compelling. However, the quantitative imaging data need more rigorous statistical analysis, the FRAP interpretation requires more careful treatment, and the simulation-to-experiment correspondence needs to be more clearly established. If these issues are addressed, the manuscript would make a valuable contribution to the field.

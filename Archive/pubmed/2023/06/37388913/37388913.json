@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "37388913",
+    "doi": "10.1016/j.xgen.2023.100318",
+    "title": "Integrative dissection of gene regulatory elements at base resolution."
+  },
+  "content": {
+    "abstract": "Although vast numbers of putative gene regulatory elements have been cataloged, the sequence motifs and individual bases that underlie their functions remain largely unknown. Here, we combine epigenetic perturbations, base editing, and deep learning to dissect regulatory sequences within the exemplar immune locus encoding CD69. We converge on a  approximately 170 base interval within a differentially accessible and acetylated enhancer critical for CD69 induction in stimulated Jurkat T cells. Individual C-to-T base edits within the interval markedly reduce element accessibility and acetylation, with corresponding reduction of CD69 expression. The most potent base edits may be explained by their effect on regulatory interactions between the transcriptional activators GATA3 and TAL1 and the repressor BHLHE40. Systematic analysis suggests that the interplay between GATA3 and BHLHE40 plays a general role in rapid T cell transcriptional responses. Our study provides a framework for parsing regulatory elements in their endogenous chromatin contexts and identifying operative artificial variants.",
+    "keywords": [
+      "CRISPRi",
+      "base editing",
+      "immune response",
+      "regulatory elements",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zeyu",
+        "Javed, Nauman",
+        "Moore, Molly",
+        "Wu, Jingyi",
+        "Sun, Gary",
+        "Vinyard, Michael",
+        "Collins, Alejandro",
+        "Pinello, Luca",
+        "Najm, Fadi J",
+        "Bernstein, Bradley E"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Javed N",
+        "Moore M",
+        "Wu J",
+        "Sun G",
+        "Vinyard M",
+        "Collins A",
+        "Pinello L",
+        "Najm FJ",
+        "Bernstein BE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Pathology, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA.",
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Pathology, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+        "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zeyu",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+          "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Javed, Nauman",
+        "short_name": "Javed N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+          "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Molly",
+        "short_name": "Moore M",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Jingyi",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+          "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Gary",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Vinyard, Michael",
+        "short_name": "Vinyard M",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+          "Department of Pathology, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA.",
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Collins, Alejandro",
+        "short_name": "Collins A",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Pinello, Luca",
+        "short_name": "Pinello L",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+          "Department of Pathology, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Najm, Fadi J",
+        "short_name": "Najm FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bernstein, Bradley E",
+        "short_name": "Bernstein BE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Gene Regulation Observatory, Broad Institute, Cambridge, MA, USA.",
+          "Department of Cell Biology and Pathology, Harvard Medical School, Boston, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2023 Jun 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/30 13:11",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "41413256",
+      "40626041",
+      "40245860",
+      "40011771",
+      "39905017",
+      "39884279",
+      "39825430",
+      "39388570",
+      "38889719",
+      "38766054",
+      "38187584",
+      "38093011",
+      "37961527",
+      "37497775"
+    ],
+    "refs": [
+      "34791404",
+      "34608324",
+      "34475573",
+      "33828297",
+      "33606978",
+      "33606977",
+      "33270111",
+      "33046894",
+      "33039338",
+      "32728249",
+      "32217751",
+      "31634902",
+      "31605096",
+      "30809026",
+      "30451991",
+      "30423086",
+      "29160308",
+      "29149608",
+      "29140464",
+      "28945252",
+      "28904128",
+      "28475283",
+      "28417999",
+      "28333914",
+      "28263959",
+      "28191901",
+      "28179281",
+      "27984737",
+      "27708104",
+      "27708057",
+      "27207943",
+      "27096365",
+      "27079975",
+      "26807528",
+      "26795250",
+      "26780180",
+      "26751173",
+      "26670017",
+      "26578583",
+      "26391953",
+      "26375006",
+      "25953851",
+      "25801305",
+      "25319994",
+      "24670764",
+      "23849981",
+      "23512712",
+      "23260195",
+      "23104886",
+      "22388286",
+      "22371084",
+      "21867929",
+      "20979621",
+      "20110278",
+      "19773334",
+      "19505943",
+      "19151747",
+      "18798982",
+      "16024819",
+      "15475959",
+      "12397359",
+      "11880636",
+      "9846495"
+    ],
+    "similar": [
+      "37388913",
+      "23512712",
+      "19841192",
+      "25801305",
+      "36990085",
+      "38948875",
+      "20140202",
+      "23698277",
+      "22456278",
+      "1871134",
+      "17848139",
+      "40211453",
+      "34215580",
+      "39487555",
+      "17135569",
+      "18779319",
+      "18653526",
+      "40245860",
+      "33193627",
+      "33717140",
+      "40053568",
+      "39326643",
+      "31466317",
+      "35373735",
+      "7665567",
+      "29351903",
+      "2144610",
+      "25363779",
+      "9819382",
+      "15564493",
+      "14607827",
+      "8280373",
+      "31980609",
+      "27091612",
+      "19559773",
+      "32376693",
+      "38308274",
+      "32086528",
+      "37789374",
+      "18719603",
+      "38619295",
+      "19106099",
+      "39149372",
+      "8223876",
+      "35293310",
+      "36245280",
+      "21750106",
+      "32193341",
+      "28317936",
+      "30598689",
+      "8411351",
+      "25394790",
+      "20472817",
+      "37855064",
+      "26161748",
+      "26361334",
+      "38614090",
+      "23172872",
+      "1501284",
+      "9670956",
+      "34395436",
+      "27067007",
+      "38859587",
+      "30568279",
+      "33926839",
+      "35858748",
+      "10787437",
+      "37938195",
+      "32690000",
+      "12205084",
+      "24200685",
+      "29326336",
+      "39829783",
+      "38760566",
+      "28137873",
+      "24714811",
+      "37557175",
+      "10794526",
+      "9796921",
+      "36495874",
+      "37551428",
+      "16621969",
+      "31631012",
+      "35864475",
+      "37781594",
+      "20855530",
+      "9481623",
+      "38889719",
+      "22456606",
+      "2788889",
+      "30078726",
+      "36544209",
+      "12379120",
+      "30518654",
+      "22683808",
+      "12055236",
+      "24013198",
+      "11893738",
+      "37449212",
+      "24298014"
+    ],
+    "review": [
+      "37388913"
+    ],
+    "pmc": [
+      "10300548"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(23)00086-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37388913/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37388913",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37388913",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37388913",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse206374",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

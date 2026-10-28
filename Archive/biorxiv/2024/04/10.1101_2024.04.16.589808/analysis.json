@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.16.589808",
+  "title": "Bond strength between receptor binding domain of spike protein and human angiotensin converting enzyme-2 using machine learning",
+  "authors": "Abdulmateen Adebiyi; Puja Adhikari; Praveen Rao; Wai-Yim Ching",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-18",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测SARS-CoV-2刺突蛋白RBD与ACE2的原子间键强度，虽涉及蛋白-蛋白互作而非蛋白-DNA，且无三维结合建模或TF-DNA体系，方法可迁移性有限。",
+  "abstract": "The spike protein (S-protein) of SARS-CoV-2 plays an important role in binding, fusion, and host entry. In this study, we have predicted interatomic bond strength between receptor binding domain (RBD) and angiotensin converting enzyme-2 (ACE2) using machine learning (ML), that matches with expensive ab initio calculation result. We collected bond order result from ab initio calculations. We selected a total of 18 variables such as bond type, bond length, elements and their coordinates, and others, to train ML models. We then trained five well-known regression models, namely, Decision Tree regression, KNN Regression, XGBoost, Lasso Regression, and Ridge Regression. We tested these models on two different datasets, namely, Wild type (WT) and Omicron variant (OV). In the first setting, we used 90% of each dataset for training and 10% for testing to predict the bond order. XGBoost model outperformed all the other models in the prediction of the WT dataset. It achieved an R2 Score of 0.997. XGBoost also outperformed all the other models with an R2 score of 0.9998 in the prediction of the OV dataset. In the second setting, we trained all the models on the WT (or OV) dataset and predicted the bond order on the OV (or WT) dataset. Interestingly, Decision Tree outperformed all the other models in both cases. It achieved an R2 score of 0.997.",
+  "abstract_zh": "SARS-CoV-2的刺突蛋白（S蛋白）在结合、融合及宿主进入中发挥重要作用。在本研究中，我们利用机器学习（machine learning, ML）预测了受体结合域（receptor binding domain, RBD）与血管紧张素转换酶2（angiotensin converting enzyme-2, ACE2）之间的原子间键强度，该预测结果与昂贵的从头计算（ab initio calculation）结果相匹配。我们收集了从头计算得到的键序结果。我们选取了共18个变量，如键类型、键长、元素及其坐标等，用于训练ML模型。随后，我们训练了五种著名的回归模型，即决策树回归（Decision Tree regression）、KNN回归（KNN Regression）、XGBoost、Lasso回归（Lasso Regression）和岭回归（Ridge Regression）。我们在两个不同的数据集上测试了这些模型，即野生型（Wild type, WT）和奥密克戎变异株（Omicron variant, OV）。在第一种设置中，我们使用每个数据集的90%进行训练，10%进行测试，以预测键序。XGBoost模型在预测WT数据集时优于所有其他模型，其R2分数达到0.997。XGBoost在预测OV数据集时也优于所有其他模型，R2分数为0.9998。在第二种设置中，我们在WT（或OV）数据集上训练所有模型，并在OV（或WT）数据集上预测键序。有趣的是，决策树在两种情况下均优于所有其他模型，其R2分数达到0.997。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.16.589808",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.16.589808",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.16.589808/index.html"
+}

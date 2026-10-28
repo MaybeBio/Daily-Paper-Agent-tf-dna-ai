@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "40854632",
+    "doi": "10.1016/j.jgeb.2025.100513",
+    "title": "Integrative bioinformatics analysis unveils hub transcription factors and their interacting drugs in immunoglobulin A nephropathy: Implications for pathogenesis and treatments."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Several studies identified genetic factors and key cellular signaling associated with developing immunoglobulin A nephropathy (IgAN). However, there is still a lack of understanding regarding the relationship between hub-transcription factors (TFs) encoding genes and changes in immunogenic activity. Our objective was to identify hub-TF encoding genes associated with immune cell infiltrations, immunogenic pathway activity, and potential drug candidates in IgAN through bioinformatics techniques. METHODS: We utilized GSE104948, GSE93798, GSE115857, GSE37460, and GSE35487 to identify key significant DEGs and validation in IgAN relative to the control. Next, we employed various bioinformatics approaches to investigate the key genes and their relationship with immunity in IgAN. Finally, we identitified enriched drugs and elcudate their molecular interactions with TFs via molecular docking approaches. RESULTS: We identified 1,123 differentially expressed genes (DEGs) between IgAN and control samples, comprising 342 upregulated genes and 780 downregulated genes. The upregulated genes are linked to immune-related biological processes and KEGG pathways, while the downregulated genes are associated with metabolic processes. Five significant clusters were identified, enriched in several KEGG pathways. We explored 26 hub-TF encoding genes, including GATA2, HDAC1, TSC22D3, SOX9, RARA, RORA, KLF5, KMT2A, FOSB, and FOSL1, which were consistently dysregulated in IgAN patients. Immunogenic analysis revealed increased levels of Th1 cells, pDCs, monocytes, M2 macrophages, fibroblasts, endothelial cells, and activated dendritic cells in IgAN. The activity of various immunological pathways was also elevated. The expression of hub-TFs like GATA2, HDAC1, TSC22D3, SOX9, RARA, RORA, KLF5, KMT2A, FOSB, and FOSL1 correlated with immune signatures and pathways in IgAN. Additionally, these hub-TFs were linked to diagnostic efficacy and drug interactions. Molecular docking identified key drug candidates for inhibiting HDAC1 and modulating RARA, suggesting their potential for IgAN treatment. CONCLUSIONS: We identified key hub-TFs and their association with immune infiltration and immune pathways linked to IgAN initiation and progression. These findings provide important insights into the immunological mechanisms driving IgAN and propose potential treatment approaches. Molecular docking further revealed key drug candidates for inhibiting and modulating these targets, highlighting their therapeutic potential for IgAN.",
+    "keywords": [
+      "Diagnostic efficacy",
+      "Drug candidates",
+      "Hub-transcription factors",
+      "Immune signatures",
+      "Immunoglobulin A nephropathy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, YiRui",
+        "Yu, Yang",
+        "Zaker, Rexidan"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Yu Y",
+        "Zaker R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, China.",
+        "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, China.",
+        "Department of Nephrology, First Affiliated Hospital of Xinjiang Medical University, China. Electronic address: rxd0311@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, YiRui",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yang",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, China."
+        ]
+      },
+      {
+        "full_name": "Zaker, Rexidan",
+        "short_name": "Zaker R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Affiliated Hospital of Xinjiang Medical University, China. Electronic address: rxd0311@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal, genetic engineering & biotechnology"
+    ],
+    "journal_abbrev": [
+      "J Genet Eng Biotechnol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/28 04:48",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39674633",
+      "37953380",
+      "37669923",
+      "37616260",
+      "36147486",
+      "35910761",
+      "34674036",
+      "34616096",
+      "34466069",
+      "34272854",
+      "34194427",
+      "34006959",
+      "33874912",
+      "33523554",
+      "33488671",
+      "33422520",
+      "33357427",
+      "33291755",
+      "32894197",
+      "32792854",
+      "32791747",
+      "32370650",
+      "32266276",
+      "32161487",
+      "31796001",
+      "31392215",
+      "31316619",
+      "30809144",
+      "30476243",
+      "30356407",
+      "30275179",
+      "29724730",
+      "29413765",
+      "29403161",
+      "29141660",
+      "29128444",
+      "28713898",
+      "28646076",
+      "28104840",
+      "28077973",
+      "27536663",
+      "27124452",
+      "27044423",
+      "26775659",
+      "26678048",
+      "25950236",
+      "25770168",
+      "25651181",
+      "25521941",
+      "25433307",
+      "25152896",
+      "24892706",
+      "24652774",
+      "24636993",
+      "23791785",
+      "23586463",
+      "23498934",
+      "23323831",
+      "22723521",
+      "22303460",
+      "21414208",
+      "21152046",
+      "20976140",
+      "20957306",
+      "19155534",
+      "17495863",
+      "17035610",
+      "16932735",
+      "16687629",
+      "16632515",
+      "16199517",
+      "14597658",
+      "12830459",
+      "12525261",
+      "11158222",
+      "10392256",
+      "3880853"
+    ],
+    "similar": [
+      "40854632",
+      "40263537",
+      "39696012",
+      "32894197",
+      "36899621",
+      "40671964",
+      "31316619",
+      "36978098",
+      "41155038",
+      "34823491",
+      "36948405",
+      "35910761",
+      "38824914",
+      "34466069",
+      "39612439",
+      "37305534",
+      "35601837",
+      "35464092",
+      "40073855",
+      "40336063",
+      "35836957",
+      "35351150",
+      "38126195",
+      "38787831",
+      "40216809",
+      "39540382",
+      "36506310",
+      "36642989",
+      "38777778",
+      "34861820",
+      "41044520",
+      "35978028",
+      "41332907",
+      "41202667",
+      "36379189",
+      "39171207",
+      "31355054",
+      "40852352",
+      "37740761",
+      "39874886",
+      "36147486",
+      "33488671",
+      "35647843",
+      "38319987",
+      "38301615",
+      "41300749",
+      "35601494",
+      "37033969",
+      "40977739",
+      "38847168",
+      "41479901",
+      "36059518",
+      "40078458",
+      "36793719",
+      "40549784",
+      "28713898",
+      "40496861",
+      "39839184",
+      "34234459",
+      "40374840",
+      "37113991",
+      "35637927",
+      "36627660",
+      "36189314",
+      "37760894",
+      "37250717",
+      "36329405",
+      "38800594",
+      "33344076",
+      "41006883",
+      "40630623",
+      "38062833",
+      "41480182",
+      "36860851",
+      "40911183",
+      "32971089",
+      "39403102",
+      "31392215",
+      "38552291",
+      "37040729",
+      "38291374",
+      "37153000",
+      "34190177",
+      "37492576",
+      "40836955",
+      "31987036",
+      "39848509",
+      "37325483",
+      "34977095",
+      "34517544",
+      "38268224",
+      "34122109",
+      "38835051",
+      "39341952",
+      "39265357",
+      "39616852",
+      "38899746",
+      "29921304",
+      "35632527",
+      "41143005"
+    ],
+    "review": [
+      "40854632",
+      "34517544"
+    ],
+    "pmc": [
+      "12166899"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1687-157X(25)00057-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40854632/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "pmid": "40889326",
+    "doi": "10.1109/JBHI.2025.3604625",
+    "title": "A Novel Dual-Attention Deep Neural Network With Multi-Scale Fusion Feature Processing for Predicting Transcription Factor Binding Sites."
+  },
+  "content": {
+    "abstract": "Transcription functions as a pivotal biological process in cell biology, which is required to complete the binding of transcription factors (TFs) to transcription factor binding sites (TFBSs) on the DNA. Accurate prediction of TFBSs can provide great potential to regulate the expression of interested genes, which can facilitate exploration of new drugs and treatment for diseases. Although many deep learning-based models have been proposed for predicting TFBSs, existing models still have problems, including the use of convolutional processing of DNA sequences that loses information about the DNA double helix structure and fails to adequately account for the stereoscopic structure of DNA shape data in three dimensions. In this paper, we propose a novel model called DeepCTMS, in which both sequence features and shape features of DNA slices are effectively fused to derive high-quality representations for the task of TFBS prediction. A sequence feature processing module is first used to extract the DNA double helix structure features of DNA slices. The three-dimensional features of DNA shape data are extracted by employing a convolutional triple attention (CTA) module for the shape data of a DNA slice. Finally, a multi-scale fusion feature processing (MSFFP) module is used to fuse sequence features and shape features to obtain representations with significantly aligned semantics of both features. Ablation experiments, t-SNE visual analysis, and cross-cell line validation results demonstrate that DeepCTMS consistently outperforms benchmark models on prediction performance and generalization ability on 165 ChIP-seq datasets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "Humans",
+      "DNA/chemistry/genetics/metabolism",
+      "*Deep Learning",
+      "*Neural Networks, Computer",
+      "*Computational Biology/methods",
+      "Sequence Analysis, DNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Yuechuan",
+        "Shen, Xianjun",
+        "Zhao, Weizhong",
+        "Hu, Xiaohua"
+      ],
+      "short_names": [
+        "Dai Y",
+        "Shen X",
+        "Zhao W",
+        "Hu X"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Yuechuan",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shen, Xianjun",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhao, Weizhong",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hu, Xiaohua",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/01 20:44",
+    "fetched_at": "2026-10-01 01:04:25"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40889326",
+      "38701417",
+      "34929739",
+      "41634097",
+      "37328639",
+      "40914877",
+      "31634140",
+      "40102719",
+      "39701486",
+      "39350338",
+      "38733561",
+      "36748992",
+      "40334196",
+      "34882561",
+      "34073774",
+      "34613923",
+      "32960766",
+      "34752400",
+      "34272562",
+      "21059262",
+      "39107889",
+      "33837387",
+      "38236675",
+      "30835229",
+      "29993783",
+      "38975896",
+      "31372637",
+      "34664074",
+      "33767912",
+      "36057196",
+      "41257586",
+      "31336830",
+      "36155619",
+      "27567672",
+      "39714563",
+      "33498086",
+      "41527854",
+      "41257600",
+      "38798191",
+      "33372147",
+      "40977268",
+      "17914226",
+      "40646507",
+      "41645436",
+      "40411397",
+      "32770026",
+      "38732207",
+      "34571539",
+      "36094959",
+      "38599417",
+      "29617928",
+      "32946398",
+      "39900285",
+      "25775564",
+      "37723425",
+      "30106688",
+      "34534646",
+      "39519295",
+      "37598467",
+      "29617876",
+      "20158869",
+      "31856220",
+      "33522898",
+      "38848239",
+      "40702706",
+      "27871221",
+      "39227799",
+      "23522376",
+      "32936825",
+      "33522829",
+      "39270533",
+      "39214282",
+      "39270885",
+      "40065237",
+      "36049552",
+      "38782224",
+      "38643080",
+      "26130577",
+      "39550226",
+      "27845669",
+      "35652477",
+      "40684093",
+      "27546793",
+      "31513916",
+      "24564277",
+      "31665425",
+      "39076052",
+      "41399733",
+      "35872410",
+      "39573831",
+      "28849563",
+      "39510345",
+      "40030699",
+      "40613943",
+      "39312678",
+      "41290782",
+      "35066812",
+      "27896980",
+      "38701593",
+      "40598008"
+    ],
+    "review": [
+      "40889326",
+      "36057196"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1109/JBHI.2025.3604625",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

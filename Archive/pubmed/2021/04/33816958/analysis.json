@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33816958",
+  "title": "A machine learning framework for the prediction of chromatin folding in Drosophila using epigenetic features.",
+  "authors": "Rozenwald, Michal B; Galitsyna, Aleksandra A; Sapunov, Grigory V; Khrameeva, Ekaterina E; Gelfand, Mikhail S",
+  "journal": "PeerJ. Computer science",
+  "published_date": "2021-04-06",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习预测果蝇染色质折叠（TADs），涉及DNA结合蛋白特征，但核心是染色质结构而非TF-DNA特异性互作建模，方法可迁移但对象和互作轴匹配度中等。",
+  "abstract": "Technological advances have lead to the creation of large epigenetic datasets, including information about DNA binding proteins and DNA spatial structure. Hi-C experiments have revealed that chromosomes are subdivided into sets of self-interacting domains called Topologically Associating Domains (TADs). TADs are involved in the regulation of gene expression activity, but the mechanisms of their formation are not yet fully understood. Here, we focus on machine learning methods to characterize DNA folding patterns in Drosophila based on chromatin marks across three cell lines. We present linear regression models with four types of regularization, gradient boosting, and recurrent neural networks (RNN) as tools to study chromatin folding characteristics associated with TADs given epigenetic chromatin immunoprecipitation data. The bidirectional long short-term memory RNN architecture produced the best prediction scores and identified biologically relevant features. Distribution of protein Chriz (Chromator) and histone modification H3K4me3 were selected as the most informative features for the prediction of TADs characteristics. This approach may be adapted to any similar biological dataset of chromatin features across various cell lines and species. The code for the implemented pipeline, Hi-ChiP-ML, is publicly available: https://github.com/MichalRozenwald/Hi-ChIP-ML.",
+  "abstract_zh": "技术进步促成了大规模表观遗传数据集的产生，包括关于DNA结合蛋白和DNA空间结构的信息。Hi-C实验揭示，染色体被细分为一系列自我相互作用的域，称为拓扑关联域（Topologically Associating Domains, TADs）。TADs参与基因表达活性的调控，但其形成机制尚未完全明了。在此，我们聚焦于机器学习方法，基于三种细胞系中的染色质标记来表征果蝇的DNA折叠模式。我们提出了带有四种正则化类型的线性回归模型、梯度提升和循环神经网络（recurrent neural networks, RNN），作为利用表观遗传染色质免疫沉淀数据研究TADs相关染色质折叠特征的工具。双向长短期记忆RNN架构取得了最佳的预测分数，并识别出生物学相关的特征。蛋白质Chriz（Chromator）的分布和组蛋白修饰H3K4me3被选为预测TADs特征最具信息量的特征。该方法可适用于任何类似的、跨不同细胞系和物种的染色质特征生物数据集。所实现流程Hi-ChiP-ML的代码公开可用：https://github.com/MichalRozenwald/Hi-ChIP-ML。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33816958/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33816958/",
+  "paper_page_path": "papers/pubmed/33816958/index.html"
+}

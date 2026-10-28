@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42064781",
+  "title": "Differential gene regulatory network analysis reveals transcriptional disruption in opioid.",
+  "authors": "Ren, Jianlan; Wang, Xu; Luan, Feiyang; Chen, Yeqing; Gao, Le; Ho, Wenzhe; Wei, Zhi",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2026-05-01",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发统计方法比较单细胞数据推断的TF级调控网络，但未涉及TF-DNA三维互作建模或AI/物理模拟方法，仅间接关联转录调控。",
+  "abstract": "Gene regulatory networks (GRNs) inferred from single-cell data offer a powerful lens for dissecting transcriptional regulation across biological conditions. Yet, statistical methods for comparing TF-level binary regulatory matrices-where edges represent the presence or absence of regulation-remain underdeveloped. Here, we introduce and benchmark five complementary statistical tests for group-level comparison of TF-level binary regulatory matrices. These include three global methods-a U-statistic-based dissimilarity test (Global_U), a distance-based pseudo-[Formula: see text] test (Global_F), and a PCA-based test-as well as two feature-level approaches: a per-feature U-test (Local_U) and Fisher's exact test. Through extensive simulations spanning sparse, coordinated, balanced, and noisy signal structures, we show that global methods consistently outperform in detecting distributed regulatory shifts, particularly under correlation or noise. Applying this framework to single-nucleus RNA-seq data from human brain donors, we uncover astrocyte-specific regulatory alterations linked to opioid exposure. While each method captures distinct signal types, our results underscore the value of combining global and local tests to enhance sensitivity and interpretability. This unified framework provides a robust statistical foundation for GRN-based comparisons in single-cell studies.",
+  "abstract_zh": "从单细胞数据推断出的基因调控网络（GRNs）为解析不同生物学条件下的转录调控提供了有力视角。然而，用于比较转录因子（TF）水平二元调控矩阵（其中边表示调控的存在或缺失）的统计方法仍不成熟。在此，我们引入并基准测试了五种互补的统计检验方法，用于TF水平二元调控矩阵的组间比较。这些方法包括三种全局方法——基于U统计量的相异性检验（Global_U）、基于距离的伪[公式：见原文]检验（Global_F）和基于主成分分析（PCA）的检验——以及两种特征级方法：逐特征U检验（Local_U）和Fisher精确检验。通过涵盖稀疏、协调、平衡和噪声信号结构的广泛模拟，我们表明全局方法在检测分布式调控变化方面始终表现更优，尤其是在相关性或噪声条件下。将该框架应用于来自人类脑供体的单核RNA-seq数据，我们发现了与阿片类药物暴露相关的星形胶质细胞特异性调控改变。尽管每种方法捕获不同的信号类型，我们的结果强调了结合全局和局部检验以增强敏感性和可解释性的价值。这一统一框架为单细胞研究中的GRN比较提供了稳健的统计基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42064781/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42064781/",
+  "paper_page_path": "papers/pubmed/42064781/index.html"
+}

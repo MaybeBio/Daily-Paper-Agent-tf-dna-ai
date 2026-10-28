@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41187650",
+    "doi": "10.1016/j.phymed.2025.157470",
+    "title": "Andrographolide induces ferroptosis in colorectal cancer via P53-mediated downregulation of the SLC7A11/GPX4 signaling pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is the second leading cause of cancer-related deaths. Those with advanced CRC continue to face a poor prognosis. Ferroptosis, a form of regulated cell death marked by iron accumulation, reactive oxygen species (ROS) elevation, and lipid peroxidation which represents a potential therapeutic strategy, particularly given the high iron and ROS levels often found in CRC cells. Andrographolide (AP), a diterpene lactone derived from Andrographis paniculata, has emerged as a potential anticancer agent. However, its ability to induce ferroptosis in CRC cells and the underlying mechanisms remain to be elucidated. PURPOSE: This study aims to investigate whether AP can induce ferroptosis in colorectal cancer cells and to elucidate the underlying molecular mechanisms, both in vitro and in vivo. METHODS: The effects and mechanisms of AP were examined in LoVo and HCT8 cells using various assays, including the CCK8 assay. The levels of mRNA in AP-treated cells were detected by transcriptome sequencing and verified by RT-qPCR as well as Westernblot. Network pharmacology and molecular docking techniques were employed to identify the drug's targets, alongside knockdown and overexpression experiments in cells to validate these targets. And in vivo patient-derived xenograft (PDX) model was constructed to assess the anti-tumor effects of AP in vivo and to validate the conclusions drawn from the in vitro experiments. RESULTS: AP effectively inhibited the proliferation and migration of LoVo and HCT8 cells and promoted their apoptosis. Transcriptome sequencing indicated that AP's inhibition of CRC was associated with ferroptosis. Subsequent experiments confirmed this prediction. The ferroptosis inhibitor Fer-1 attenuated the cytotoxic effects of AP on LoVo and HCT8 cells. AP treatment also resulted in AP treatment also resulted in mitochondrial dysfunction in both cell lines. Additionally, the expression levels of intracellular Solute Larrier Camily 7 Member 11 (SLC7A11) and Glutathione Peroxidase 4 (GPX4) were significantly reduced, while Glutathione/Oxidized glutathione (GSH/GSSG) levels decreased and the concentrations of Malondialdehyde (MDA) and free iron increased significantly. These effects were enhanced by Erastin and mitigated by Ferrostatin-1 (Fer-1). Network pharmacology and molecular docking predicted P53 as one of the core targets of AP for in CRC teratment. Knockdown and overexpression of P53 in LoVo and HCT8 cells lead to changes in downstream signaling pathways. Futhermore, in vivo studies using the PDX nude mouse model demonstrated that AP inhibited tumor growth, an effect that was reduced by Fer-1. The expression levels of SLC7A11 and GPX4, alongside the changes in GSH/GSSG, MDA, and free iron content, were consistent with the in vitro findings. CONCLUSION: Our data demonstrate that AP can induce ferroptosis in colorectal cancer by downregulating the SLC7A11/GPX4 signaling pathway, with P53 potentially serving as its target.",
+    "keywords": [
+      "Andrographolide",
+      "Ferroptosis",
+      "GPX4",
+      "GSH",
+      "SLC7A11"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "Humans",
+      "*Colorectal Neoplasms/drug therapy/metabolism",
+      "*Diterpenes/pharmacology",
+      "*Amino Acid Transport System y+/metabolism",
+      "Signal Transduction/drug effects",
+      "Animals",
+      "*Phospholipid Hydroperoxide Glutathione Peroxidase/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "Down-Regulation",
+      "Cell Line, Tumor",
+      "Mice",
+      "Reactive Oxygen Species/metabolism",
+      "Mice, Nude",
+      "Xenograft Model Antitumor Assays",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "Mice, Inbred BALB C"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Wanting",
+        "Yan, Suying",
+        "Ma, Mingqian",
+        "Chen, Tianyi",
+        "Liu, Chang",
+        "Liang, Weizheng",
+        "Zhao, Xinzhu",
+        "Zhao, Kailong",
+        "Xue, Jun",
+        "Yu, Haiyang",
+        "Niu, Kaijun",
+        "Su, Xiaomin",
+        "Zhang, Chunze"
+      ],
+      "short_names": [
+        "Wang W",
+        "Yan S",
+        "Ma M",
+        "Chen T",
+        "Liu C",
+        "Liang W",
+        "Zhao X",
+        "Zhao K",
+        "Xue J",
+        "Yu H",
+        "Niu K",
+        "Su X",
+        "Zhang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China.",
+        "School of Medicine, Nankai University, Tianjin, China.",
+        "Central Laboratory, The First Affiliated Hospital of Hebei North University, Zhangjiakou, Hebei, China.",
+        "School of Medicine, Nankai University, Tianjin, China.",
+        "School of Medicine, Nankai University, Tianjin, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Hebei North University, Zhangjiakou, China.",
+        "Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "School of Public Health, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: nkj0809@gmail.com.",
+        "Department of Immunology, Nankai University School of Medicine, Nankai University, Tianjin, China. Electronic address: xiaominsu@nankai.edu.cn.",
+        "Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China; Tianjin Institute of Coloproctology, Tianjin, China. Electronic address: chunze.zhang@nankai.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Wanting",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Suying",
+        "short_name": "Yan S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Mingqian",
+        "short_name": "Ma M",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tianyi",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chang",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Weizheng",
+        "short_name": "Liang W",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, The First Affiliated Hospital of Hebei North University, Zhangjiakou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xinzhu",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Kailong",
+        "short_name": "Zhao K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Jun",
+        "short_name": "Xue J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Hebei North University, Zhangjiakou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Haiyang",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Kaijun",
+        "short_name": "Niu K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: nkj0809@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Su, Xiaomin",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Nankai University School of Medicine, Nankai University, Tianjin, China. Electronic address: xiaominsu@nankai.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chunze",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Tianjin Union Medical Center, Tianjin, China; Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China; Tianjin Institute of Coloproctology, Tianjin, China. Electronic address: chunze.zhang@nankai.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 00:28",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42301498",
+      "42122232",
+      "42105037",
+      "41989643",
+      "41750638",
+      "41736076",
+      "41510378"
+    ],
+    "refs": [],
+    "similar": [
+      "41187650",
+      "38837315",
+      "40456202",
+      "40359890",
+      "40876907",
+      "41202375",
+      "40673298",
+      "39393329",
+      "39072683",
+      "38679154",
+      "41451920",
+      "40819642",
+      "40724917",
+      "40119400",
+      "38652227",
+      "40153970",
+      "40806353",
+      "40412057",
+      "40274347",
+      "40437575",
+      "41354015",
+      "41443917",
+      "41341590",
+      "40825694",
+      "39012393",
+      "39427521",
+      "41235254",
+      "39805792",
+      "41292183",
+      "40540898",
+      "40882016",
+      "39026029",
+      "38930897",
+      "39642461",
+      "38636375",
+      "40066086",
+      "39210414",
+      "39722125",
+      "39788329",
+      "40018815",
+      "40812220",
+      "32776119",
+      "40592077",
+      "40618168",
+      "38877424",
+      "34707773",
+      "39354361",
+      "40825957",
+      "39978746",
+      "41369886",
+      "40513923",
+      "41062622",
+      "40186304",
+      "39307744",
+      "40232565",
+      "38852649",
+      "40691523",
+      "38850659",
+      "40359393",
+      "39600281",
+      "31961485",
+      "40288885",
+      "40374372",
+      "33351681",
+      "33609745",
+      "38987730",
+      "40460255",
+      "39938177",
+      "31490283",
+      "39528192",
+      "40846041",
+      "38884168",
+      "39708098",
+      "40887997",
+      "41231318",
+      "40930912",
+      "41166024",
+      "32308771",
+      "36503029",
+      "41054261",
+      "39961466",
+      "39513605",
+      "38684798",
+      "40594119",
+      "39307047",
+      "39437660",
+      "40219018",
+      "38733821",
+      "39595583",
+      "40664345",
+      "41121022",
+      "39276458",
+      "40320855",
+      "38862446",
+      "38583347",
+      "39334526",
+      "39151312",
+      "39032284",
+      "33737050",
+      "39167283"
+    ],
+    "review": [
+      "41187650"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01107-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

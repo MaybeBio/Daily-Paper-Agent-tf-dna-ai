@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "37671028",
+    "doi": "10.1016/j.crmeth.2023.100563",
+    "title": "Single-cell multi-omics topic embedding reveals cell-type-specific and COVID-19 severity-related immune signatures."
+  },
+  "content": {
+    "abstract": "The advent of single-cell multi-omics sequencing technology makes it possible for researchers to leverage multiple modalities for individual cells and explore cell heterogeneity. However, the high-dimensional, discrete, and sparse nature of the data make the downstream analysis particularly challenging. Here, we propose an interpretable deep learning method called moETM to perform integrative analysis of high-dimensional single-cell multimodal data. moETM integrates multiple omics data via a product-of-experts in the encoder and employs multiple linear decoders to learn the multi-omics signatures. moETM demonstrates superior performance compared with six state-of-the-art methods on seven publicly available datasets. By applying moETM to the scRNA + scATAC data, we identified sequence motifs corresponding to the transcription factors regulating immune gene signatures. Applying moETM to CITE-seq data from the COVID-19 patients revealed not only known immune cell-type-specific signatures but also composite multi-omics biomarkers of critical conditions due to COVID-19, thus providing insights from both biological and clinical perspectives.",
+    "keywords": [
+      "DL",
+      "ETM",
+      "SM",
+      "VAE",
+      "deep learning",
+      "embedding topipc model",
+      "single-cell multiomics",
+      "variational autoencoder"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19",
+      "Multiomics",
+      "*RNA, Small Cytoplasmic",
+      "Research Personnel"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Manqi",
+        "Zhang, Hao",
+        "Bai, Zilong",
+        "Mann-Krzisnik, Dylan",
+        "Wang, Fei",
+        "Li, Yue"
+      ],
+      "short_names": [
+        "Zhou M",
+        "Zhang H",
+        "Bai Z",
+        "Mann-Krzisnik D",
+        "Wang F",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology, Cornell University, Ithaca, NY 14853, USA.",
+        "Institute of Artificial Intelligence for Digital Health, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Institute of Artificial Intelligence for Digital Health, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Quantitative Life Science, McGill University, Montreal, QC H3A 0G4, Canada.",
+        "Institute of Artificial Intelligence for Digital Health, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Quantitative Life Science, McGill University, Montreal, QC H3A 0G4, Canada.",
+        "School of Computer Science, McGill University, Montreal, QC H3A 0G4, Canada.",
+        "Mila - Quebec AI Institute, Montreal, QC H2S 3H1, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Manqi",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Cornell University, Ithaca, NY 14853, USA.",
+          "Institute of Artificial Intelligence for Digital Health, Weill Cornell Medicine, New York, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Bai, Zilong",
+        "short_name": "Bai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Artificial Intelligence for Digital Health, Weill Cornell Medicine, New York, NY 10021, USA.",
+          "Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Mann-Krzisnik, Dylan",
+        "short_name": "Mann-Krzisnik D",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Life Science, McGill University, Montréal, QC H3A 0G4, Canada."
+        ]
+      },
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Artificial Intelligence for Digital Health, Weill Cornell Medicine, New York, NY 10021, USA.",
+          "Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yue",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Life Science, McGill University, Montréal, QC H3A 0G4, Canada.",
+          "School of Computer Science, McGill University, Montréal, QC H3A 0G4, Canada.",
+          "Mila - Quebec AI Institute, Montréal, QC H2S 3H1, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports methods"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Methods"
+    ],
+    "pub_date": "2023 Aug 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/06 06:42",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "42184107",
+      "41975483",
+      "41151585",
+      "41083898",
+      "40903792",
+      "40038818",
+      "39293804",
+      "38395871",
+      "38068923",
+      "37596691"
+    ],
+    "refs": [
+      "37386189",
+      "36068320",
+      "35501393",
+      "35474667",
+      "34963480",
+      "34949812",
+      "34909405",
+      "34623402",
+      "34489404",
+      "34062119",
+      "34003838",
+      "33941931",
+      "33879890",
+      "33850327",
+      "33827925",
+      "33781216",
+      "33767197",
+      "33760053",
+      "33589839",
+      "33414677",
+      "33343572",
+      "33264411",
+      "33098772",
+      "32989127",
+      "32807934",
+      "32572163",
+      "32393329",
+      "32033589",
+      "32028068",
+      "31402918",
+      "31159473",
+      "30728384",
+      "30573817",
+      "30559489",
+      "30289549",
+      "30166440",
+      "29942307",
+      "29409532",
+      "29308313",
+      "29140464",
+      "28759029",
+      "28696254",
+      "27646002",
+      "27104977",
+      "26993806",
+      "26795250",
+      "26771021",
+      "26553804",
+      "26083756",
+      "26053859",
+      "25953851",
+      "25759842",
+      "25497737",
+      "23950696",
+      "22820658",
+      "22642380",
+      "21743478",
+      "21546393",
+      "21526222",
+      "19124732",
+      "18461186",
+      "18275831",
+      "16199517",
+      "15905333",
+      "15789058",
+      "15499007",
+      "12808457"
+    ],
+    "similar": [
+      "37671028",
+      "36778483",
+      "38748882",
+      "39376034",
+      "37030268",
+      "36600199",
+      "36383176",
+      "37725723",
+      "38796884",
+      "37651607",
+      "37770437",
+      "37308820",
+      "38603606",
+      "36047285",
+      "37586201",
+      "37114830",
+      "39107690",
+      "36873621",
+      "37507114",
+      "36162197",
+      "38493343",
+      "35474667",
+      "38001063",
+      "36157595",
+      "34276676",
+      "39404795",
+      "36513636",
+      "36975610",
+      "38493339",
+      "37293552",
+      "37682480",
+      "38295477",
+      "33737557",
+      "34028557",
+      "38707902",
+      "36130281",
+      "36253379",
+      "37239321",
+      "37930027",
+      "37898127",
+      "37406589",
+      "36739624",
+      "37147619",
+      "38018908",
+      "36933628",
+      "34044773",
+      "35043143",
+      "35925427",
+      "38641842",
+      "36631401",
+      "38146838",
+      "36902216",
+      "36072672",
+      "36642414",
+      "36747790",
+      "37334314",
+      "38612651",
+      "34278374",
+      "36814845",
+      "34398192",
+      "37301826",
+      "37660567",
+      "35302164",
+      "32085701",
+      "37153569",
+      "34849583",
+      "37336028",
+      "38749321",
+      "38124589",
+      "37359367",
+      "37590102",
+      "35058621",
+      "36788531",
+      "35172334",
+      "37314966",
+      "36929841",
+      "36929930",
+      "36734596",
+      "32070336",
+      "37255323",
+      "37382572",
+      "34472585",
+      "37740295",
+      "35910046",
+      "36865385",
+      "37307177",
+      "37022218",
+      "36864611",
+      "37232375",
+      "37088976",
+      "36912104",
+      "37490833",
+      "34077420",
+      "38271483",
+      "33281870",
+      "37948464",
+      "37439331",
+      "38361616",
+      "37313714",
+      "33039573",
+      "36973282",
+      "36387277",
+      "39373483",
+      "38395871",
+      "38582890",
+      "39315707",
+      "39027641",
+      "36720931",
+      "38611028",
+      "39416887",
+      "34815984",
+      "37986828",
+      "35756895",
+      "36967340",
+      "38895417",
+      "36824286",
+      "38412832"
+    ],
+    "review": [
+      "37671028",
+      "37651607",
+      "38749321",
+      "33039573",
+      "36387277"
+    ],
+    "pmc": [
+      "10475851"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667-2375(23)00207-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37671028/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37671028",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37671028",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

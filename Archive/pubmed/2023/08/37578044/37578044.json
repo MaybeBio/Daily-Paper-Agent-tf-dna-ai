@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "37578044",
+    "doi": "10.1080/07391102.2023.2245483",
+    "title": "Computational-based drug design of novel small molecules targeting p53-MDMX interaction."
+  },
+  "content": {
+    "abstract": "The regulation of the p53 tumor suppressor pathway is critically dependent on the activity of Murine Double Minute 2 (MDM2) and Murine Double Minute X (MDMX) proteins. In certain types of cancer cells, excessive amount of MDMX can poly-ubiquitinate p53, which can result in its degradation, leading to a subsequent reduction in the levels of this protein. Therefore, the design of small-molecule inhibitors targeting the MDMX-p53 interaction has emerged as a promising strategy for cancer therapy. In this study, we employed computational techniques including pharmacophore modeling and molecular docking to identify three potential small molecule inhibitors (CID_25094615, CID_137634453, and CID_25094344) of the MDMX-p53 interaction from a PubChem database. Molecular dynamics of 100000 ps were conducted to assess the stability of the MDMX-inhibitor complexes. Our results showed that all three compounds exhibit stable binding with MDMX, with significantly lower root mean square deviation (RMSD) and fluctuation (RMSF) values than the control ligand, indicating superior stability. Additionally, the three compounds exhibit stronger intermolecular hydrogen bond (HBOND) interactions compared to the control, suggesting stronger stability. Overall, our findings highlight the potential of these compounds as lead candidates for the development of novel anticancer agents that target the MDMX-p53 interaction.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "cancer therapy",
+      "drug discovery",
+      "molecular docking",
+      "molecular dynamics",
+      "p53-MDMX"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Binding Sites",
+      "Cell Cycle Proteins/antagonists & inhibitors/chemistry",
+      "*Drug Design",
+      "Hydrogen Bonding",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Proto-Oncogene Proteins",
+      "Proto-Oncogene Proteins c-mdm2/antagonists & inhibitors/chemistry",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "*Tumor Suppressor Protein p53/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Egbemhenghe, Abel Ujaigbe",
+        "Aderemi, Olajide Enoch",
+        "Omotara, Bamidele Samson",
+        "Akhimien, Faith Iyayi",
+        "Osabuohien, Faith Osaretin",
+        "Adedapo, Habeebulah Ajibola",
+        "Temionu, Oluwakemi Rita",
+        "Egejuru, Winner Amaka",
+        "Ajala, Chinedum Favour",
+        "Ihunanya, Meejay Francis",
+        "Oluwafemi, Oluwatosin Oluwafunmilola",
+        "Onu, Chinyere Felicia Duncan",
+        "Ajibare, Abosede Christiana",
+        "Ddamulira, Christopher",
+        "Abalum, Justin Onyekachukwu",
+        "Afolayan, Olanrewaju Michael"
+      ],
+      "short_names": [
+        "Egbemhenghe AU",
+        "Aderemi OE",
+        "Omotara BS",
+        "Akhimien FI",
+        "Osabuohien FO",
+        "Adedapo HA",
+        "Temionu OR",
+        "Egejuru WA",
+        "Ajala CF",
+        "Ihunanya MF",
+        "Oluwafemi OO",
+        "Onu CFD",
+        "Ajibare AC",
+        "Ddamulira C",
+        "Abalum JO",
+        "Afolayan OM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Texas Technology University, Lubbock, TX, USA.",
+        "Department of Chemistry and Chemical Engineering, University of New Haven, West Haven, CT, USA.",
+        "Department of Chemistry and Chemical Engineering, University of New Haven, West Haven, CT, USA.",
+        "Department of Public Health, University of New Haven, West Haven, CT, USA.",
+        "Department of Chemistry and Chemical Engineering, University of New Haven, West Haven, CT, USA.",
+        "Department of Physiology, Ladoke Akintola University of Technology, Ogbomosho, Nigeria.",
+        "Department of Medical Laboratory Technology, Lagos State College of Health Technology, Lagos, Nigeria.",
+        "Department of Public Health, University of New Haven, West Haven, CT, USA.",
+        "Department of Public Health, University of New Haven, West Haven, CT, USA.",
+        "Department of Public Health, University of New Haven, West Haven, CT, USA.",
+        "Department of Public Health, University of New Haven, West Haven, CT, USA.",
+        "Department of Health Administration, University of New Haven, West Haven, CT, USA.",
+        "Department of Biochemistry, University of Lagos, Lagos, Nigeria.",
+        "Department of Biomedical Engineering, University of New Haven, West Haven, CT, USA.",
+        "Department of Mechanical and Industrial Engineering, University of New Haven, West Haven, CT, USA.",
+        "Department of Computer Science, University of New Haven, West Haven, CT, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Egbemhenghe, Abel Ujaigbe",
+        "short_name": "Egbemhenghe AU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Texas Technology University, Lubbock, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Aderemi, Olajide Enoch",
+        "short_name": "Aderemi OE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Engineering, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Omotara, Bamidele Samson",
+        "short_name": "Omotara BS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Engineering, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Akhimien, Faith Iyayi",
+        "short_name": "Akhimien FI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Osabuohien, Faith Osaretin",
+        "short_name": "Osabuohien FO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Engineering, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Adedapo, Habeebulah Ajibola",
+        "short_name": "Adedapo HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Ladoke Akintola University of Technology, Ogbomosho, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Temionu, Oluwakemi Rita",
+        "short_name": "Temionu OR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Technology, Lagos State College of Health Technology, Lagos, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Egejuru, Winner Amaka",
+        "short_name": "Egejuru WA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Ajala, Chinedum Favour",
+        "short_name": "Ajala CF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Ihunanya, Meejay Francis",
+        "short_name": "Ihunanya MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Oluwafemi, Oluwatosin Oluwafunmilola",
+        "short_name": "Oluwafemi OO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Onu, Chinyere Felicia Duncan",
+        "short_name": "Onu CFD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Administration, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Ajibare, Abosede Christiana",
+        "short_name": "Ajibare AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Lagos, Lagos, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ddamulira, Christopher",
+        "short_name": "Ddamulira C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Abalum, Justin Onyekachukwu",
+        "short_name": "Abalum JO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Industrial Engineering, University of New Haven, West Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Afolayan, Olanrewaju Michael",
+        "short_name": "Afolayan OM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of New Haven, West Haven, CT, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/14 12:43",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37578044",
+      "31473433",
+      "26746660",
+      "31755361",
+      "35228542",
+      "33988074",
+      "27302609",
+      "25388787",
+      "41918157",
+      "26720344",
+      "22745160",
+      "25377899",
+      "28296148",
+      "20056466",
+      "35536362",
+      "26676832",
+      "37029281",
+      "32448094",
+      "23324352",
+      "40576645",
+      "33952867",
+      "24126697",
+      "26812210",
+      "20226197",
+      "21425995",
+      "35775962",
+      "22408446",
+      "25814188",
+      "23726030",
+      "19255450",
+      "40427535",
+      "19910468",
+      "17875722",
+      "36989812",
+      "24858256",
+      "25453499",
+      "26616018",
+      "18826207",
+      "38810774",
+      "38204258",
+      "24050442",
+      "18520179",
+      "21820342",
+      "38059334",
+      "41053158",
+      "32359398",
+      "24554192",
+      "30549062",
+      "27943171",
+      "31781989",
+      "28425639",
+      "40277907",
+      "20237429",
+      "17938582",
+      "37661778",
+      "28673313",
+      "19507240",
+      "41937321",
+      "26148237",
+      "26032728",
+      "20080970",
+      "35018225",
+      "22120712",
+      "20726601",
+      "28581721",
+      "21750655",
+      "31677002",
+      "40986276",
+      "41385030",
+      "41850457",
+      "34716260",
+      "27777309",
+      "35822492",
+      "27709883",
+      "29866007",
+      "20190571",
+      "38147404",
+      "31100649",
+      "41045314",
+      "22731511",
+      "32691963",
+      "20666726",
+      "16905541",
+      "40396628",
+      "22989451",
+      "31847417",
+      "42102694",
+      "30513790",
+      "39300610",
+      "38991490",
+      "19580521",
+      "24797588",
+      "26265252",
+      "41230869",
+      "38111168",
+      "39185935",
+      "26513747",
+      "28482147",
+      "22410433",
+      "18673221"
+    ],
+    "review": [
+      "37578044",
+      "27302609",
+      "26676832",
+      "21425995",
+      "40427535",
+      "27943171",
+      "40277907",
+      "28673313",
+      "35018225",
+      "29866007",
+      "31100649",
+      "20666726",
+      "39185935",
+      "22410433"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2245483?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2245483",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

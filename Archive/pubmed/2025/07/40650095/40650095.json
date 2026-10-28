@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "40650095",
+    "doi": "10.3390/ijms26136318",
+    "title": "NsrR Represses sigma(E)-Dependent Small RNAs and Interacts with RpoE via a Noncanonical Mechanism in Escherichia coli."
+  },
+  "content": {
+    "abstract": "The envelope stress response in Escherichia coli is primarily governed by the sigma factor RpoE (sigma(E)), which activates protective genes upon membrane perturbation. Under non-stress conditions, sigma(E) is sequestered by its anti-sigma factor RseA. In this study, we identify an unexpected role for the nitric-oxide-sensing repressor NsrR in dampening sigma(E) activity and repressing sigma(E)-dependent small RNAs, including rybB, micA, and micL. Overexpression of nsrR represses transcription from sigma(E)-dependent promoters and phenocopies sigma(E) inactivation, resulting in filamentous morphology and growth defects. Conversely, DeltansrR de-represses sigma(E) targets, with additive effects in rseA mutants-supporting an RseA-independent regulatory role. Time-course analysis shows NsrR represses sigma(E) activity, with kinetics comparable to those of RseA. While in vitro assays failed to detect robust NsrR binding to sigma(E) target promoters, NsrR directly interacts with sigma(E) in bacterial two-hybrid assays. Structural modeling using AlphaFold3 supports a plausible NsrR-RpoE interaction interface. These findings suggest that NsrR functions as a noncanonical anti-sigma-like modulator of sigma(E), integrating redox and envelope stress signals to maintain membrane homeostasis.",
+    "keywords": [
+      "RpoE",
+      "envelope stress",
+      "nitric oxide",
+      "small RNA"
+    ],
+    "mesh_terms": [
+      "*Sigma Factor/metabolism/genetics",
+      "*Escherichia coli/genetics/metabolism",
+      "*Escherichia coli Proteins/metabolism/genetics/chemistry",
+      "Gene Expression Regulation, Bacterial",
+      "Promoter Regions, Genetic",
+      "Protein Binding",
+      "*RNA, Small Untranslated/genetics/metabolism",
+      "*RNA, Bacterial/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aubee, Joseph I",
+        "Nurse, Jalisa",
+        "Lewis, Dale",
+        "Tai, Chin-Hsien",
+        "Thompson, Karl M"
+      ],
+      "short_names": [
+        "Aubee JI",
+        "Nurse J",
+        "Lewis D",
+        "Tai CH",
+        "Thompson KM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4766-0535",
+        "ORCID: 0000-0001-6182-9507"
+      ],
+      "affiliations": [
+        "Department of Microbiology, College of Medicine, Howard University, Washington, DC 20059, USA.",
+        "Department of Biology, Howard University, Washington, DC 20059, USA.",
+        "Laboratory of Molecular Biology, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Molecular Biology, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Department of Microbiology, College of Medicine, Howard University, Washington, DC 20059, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aubee, Joseph I",
+        "short_name": "Aubee JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, College of Medicine, Howard University, Washington, DC 20059, USA."
+        ]
+      },
+      {
+        "full_name": "Nurse, Jalisa",
+        "short_name": "Nurse J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Howard University, Washington, DC 20059, USA."
+        ]
+      },
+      {
+        "full_name": "Lewis, Dale",
+        "short_name": "Lewis D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Tai, Chin-Hsien",
+        "short_name": "Tai CH",
+        "identifiers": [
+          "0000-0003-4766-0535"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Biology, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Thompson, Karl M",
+        "short_name": "Thompson KM",
+        "identifiers": [
+          "0000-0001-6182-9507"
+        ],
+        "affiliations": [
+          "Department of Microbiology, College of Medicine, Howard University, Washington, DC 20059, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Jun 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/13 03:32",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "37774136",
+      "31131408",
+      "28408482",
+      "28373273",
+      "26618164",
+      "25030700",
+      "24946009",
+      "24722986",
+      "22841567",
+      "21768388",
+      "20345657",
+      "19656291",
+      "19201800",
+      "19180090",
+      "18989365",
+      "18924111",
+      "18619465",
+      "18433631",
+      "18265391",
+      "18253509",
+      "18086212",
+      "18035607",
+      "17449618",
+      "17427289",
+      "17416652",
+      "17267407",
+      "17055775",
+      "17007876",
+      "16951250",
+      "16818608",
+      "16428390",
+      "16359331",
+      "16336047",
+      "16204185",
+      "15038156",
+      "14557065",
+      "12718891",
+      "12679035",
+      "12183369",
+      "12183368",
+      "11445539",
+      "11274153",
+      "10811905",
+      "10500101",
+      "9159523",
+      "9159522",
+      "8276244",
+      "7889935",
+      "7635808",
+      "7608087",
+      "2691330"
+    ],
+    "similar": [
+      "40650095",
+      "17416652",
+      "22439016",
+      "25030700",
+      "9159522",
+      "18619465",
+      "19549168",
+      "21768388",
+      "28373273",
+      "16999834",
+      "29061665",
+      "15101969",
+      "17449618",
+      "30084765",
+      "28924029",
+      "23804244",
+      "27698081",
+      "15465042",
+      "23016873",
+      "20595001",
+      "33573428",
+      "7768826",
+      "17267407",
+      "22021036",
+      "19656291",
+      "28408482",
+      "20971899",
+      "9159523",
+      "7889935",
+      "20497332",
+      "27629414",
+      "12016219",
+      "29992897",
+      "15520285",
+      "21396442",
+      "34787538",
+      "23479440",
+      "22251246",
+      "19103591",
+      "21195716",
+      "26609136",
+      "12183368",
+      "19843219",
+      "25998262",
+      "31248592",
+      "11274153",
+      "26365052",
+      "32341074",
+      "26992034",
+      "24223139",
+      "15262935",
+      "34805264",
+      "30858298",
+      "30858299",
+      "7889934",
+      "24946009",
+      "18658270",
+      "20735480",
+      "17210793",
+      "28851853",
+      "17351046",
+      "20965974",
+      "38770591",
+      "19054112",
+      "19538446",
+      "14553927",
+      "7559357",
+      "12446650",
+      "22465792",
+      "24935982",
+      "23594456",
+      "18208528",
+      "19538447",
+      "28470798",
+      "30321408",
+      "12718891",
+      "12670975",
+      "19246758",
+      "16545925",
+      "17098905",
+      "9512707",
+      "21233159",
+      "40823832",
+      "31085808",
+      "15761057",
+      "7751307",
+      "10500101",
+      "29088115",
+      "11311395",
+      "23821542",
+      "12477716",
+      "17921304",
+      "15063853",
+      "24415940",
+      "24865554",
+      "12900013",
+      "25917909",
+      "11777003",
+      "11442831",
+      "12183369"
+    ],
+    "review": [
+      "40650095",
+      "15101969",
+      "28408482",
+      "29992897",
+      "23479440"
+    ],
+    "pmc": [
+      "12249550"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26136318",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40650095/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "42321379",
+    "doi": "10.1007/s10142-026-01918-9",
+    "title": "Integrative multi-omics analysis and machine learning identify M2 macrophage-induced ferroptosis resistance in glioblastoma."
+  },
+  "content": {
+    "abstract": "Glioblastoma (GBM) is characterized by profound intratumoral heterogeneity and an immunosuppressive microenvironment that drive therapeutic resistance and poor prognosis. While both tumor-associated macrophages (TAMs) and ferroptosis have been implicated in glioma progression, their functional interplay remains elusive. Integrating multi-omics data (bulk/single-cell RNA-seq and spatial transcriptomics) from public cohorts, we identified ferroptosis-related genes correlated with monocyte/macrophage infiltration and established a machine learning‑derived 28‑gene prognostic signature with robust predictive performance. Single‑cell analysis revealed elevated expression of ferroptosis-related genes in glioma‑infiltrating monocytes/macrophages. Mechanistically, M2‑polarized macrophages conferred ferroptosis resistance to GBM cells by suppressing NCOA4 and enhancing FTH1 expression, thereby reducing labile iron release. In vivo, co‑implantation of M2 macrophages abrogated the tumor‑suppressive effect of the ferroptosis inducer erastin. Collectively, these findings uncover a previously unrecognized axis of ferroptosis resistance in GBM mediated by the NCOA4-FTH1 pathway and M2 macrophage polarization, highlighting a critical crosstalk between the immune microenvironment and programmed cell death, and offering a potential therapeutic strategy for GBM.",
+    "keywords": [
+      "Ferroptosis",
+      "Glioblastoma",
+      "Machine Learning",
+      "Prognostic Signature",
+      "Tumor-Associated Macrophages"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "*Glioblastoma/genetics/pathology/metabolism/immunology",
+      "Humans",
+      "Machine Learning",
+      "Animals",
+      "Nuclear Receptor Coactivators/genetics/metabolism",
+      "*Brain Neoplasms/genetics/pathology/metabolism",
+      "*Macrophages/metabolism",
+      "Tumor-Associated Macrophages/metabolism",
+      "Oxidoreductases/genetics/metabolism",
+      "Tumor Microenvironment",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Multiomics",
+      "Ferritins/genetics/metabolism",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Fangzhou",
+        "Deng, Teng",
+        "Yan, Jun",
+        "Mo, Yong",
+        "Huang, Qianrong",
+        "Jiang, Qian",
+        "Mo, Ligen",
+        "Ning, Shipeng",
+        "Li, Chao"
+      ],
+      "short_names": [
+        "Guo F",
+        "Deng T",
+        "Yan J",
+        "Mo Y",
+        "Huang Q",
+        "Jiang Q",
+        "Mo L",
+        "Ning S",
+        "Li C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China.",
+        "Research Center of Nanomedicine Technology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. nspdoctor@sr.gxmu.edu.cn.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530221, China. ChaoLi@sr.gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Fangzhou",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Teng",
+        "short_name": "Deng T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jun",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Yong",
+        "short_name": "Mo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qianrong",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Qian",
+        "short_name": "Jiang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Ligen",
+        "short_name": "Mo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, 530200, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Shipeng",
+        "short_name": "Ning S",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Nanomedicine Technology, The Second Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530007, China. nspdoctor@sr.gxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Chao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530221, China. ChaoLi@sr.gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2026 Jun 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/20 00:39",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42004951",
+      "41311809",
+      "41291342",
+      "41267067",
+      "41256852",
+      "39748378",
+      "39700692",
+      "39537239",
+      "39470721",
+      "38876751",
+      "38704789",
+      "38703775",
+      "38520025",
+      "37864733",
+      "37791883",
+      "37738997",
+      "37730879",
+      "37441589",
+      "37425043",
+      "36613601",
+      "35771492",
+      "35760796",
+      "35700707",
+      "35413115",
+      "35351131",
+      "35216678",
+      "35122055",
+      "35026155",
+      "34625564",
+      "34413521",
+      "34260682",
+      "33932034",
+      "33846242",
+      "33662628",
+      "33293629",
+      "33271119",
+      "33188036",
+      "33110073",
+      "29092952",
+      "29083409",
+      "28407145",
+      "28052254",
+      "27765066",
+      "25824823",
+      "23323831"
+    ],
+    "similar": [
+      "42321379",
+      "41038302",
+      "41694346",
+      "41601657",
+      "39383786",
+      "38994023",
+      "40544321",
+      "40473799",
+      "41208987",
+      "41794238",
+      "41139792",
+      "41766892",
+      "40286882",
+      "41394801",
+      "40810678",
+      "42074335",
+      "41892299",
+      "41275140",
+      "39143438",
+      "41953398",
+      "41318472",
+      "40619390",
+      "38997808",
+      "33420375",
+      "41504052",
+      "41756290",
+      "33618763",
+      "34108959",
+      "40084746",
+      "41861940",
+      "40373963",
+      "41515934",
+      "40057744",
+      "41431173",
+      "38719174",
+      "41929516",
+      "38686653",
+      "39851494",
+      "42056558",
+      "41740686",
+      "40127797",
+      "40583858",
+      "31427735",
+      "32847614",
+      "36542317",
+      "38479552",
+      "41425595",
+      "39136841",
+      "40787449",
+      "41628726",
+      "40421217",
+      "39470579",
+      "41275921",
+      "42211756",
+      "40821828",
+      "41696943",
+      "40642071",
+      "41267067",
+      "41350704",
+      "41704537",
+      "40842996",
+      "39141257",
+      "40193323",
+      "42111497",
+      "38651817",
+      "42201601",
+      "38685521",
+      "41161436",
+      "41932066",
+      "40719841",
+      "39629136",
+      "40878339",
+      "42046521",
+      "42112375",
+      "39368999",
+      "40596220",
+      "41353343",
+      "37441589",
+      "41121066",
+      "33177572",
+      "40917066",
+      "41716413",
+      "39431006",
+      "42196424",
+      "32765489",
+      "34354698",
+      "42067796",
+      "41957358",
+      "38685674",
+      "41772197",
+      "40569145",
+      "41080536",
+      "41656832",
+      "40239334",
+      "41309249",
+      "34667077",
+      "39428479",
+      "40857405",
+      "39073416",
+      "40500284"
+    ],
+    "review": [
+      "42321379",
+      "41161436"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-026-01918-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3809",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

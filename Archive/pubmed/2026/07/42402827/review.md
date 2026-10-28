@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors used molecular dynamics simulations and bioinformatic analysis to propose a mechanistic model in which the LXCXE motif of the SV40 Large T antigen binds pRb through an ordered-disordered transition, with N-terminal flanking residues initiating recognition via alpha-helical conformation and C-terminal residues engaging later, a feature suggested to be conserved across polyomavirus Large T antigens
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or statistical measures provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, convergence criteria, free energy calculations, structural models, bioinformatic alignment data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanistic hypothesis for LXCXE-mediated pRb recognition by LTSV40, with a claim of evolutionary conservation. However, the absence of any quantitative results, methodological details, or validation metrics in the provided material prevents assessment of the technical soundness of the simulations or the robustness of the conclusions. The central mechanistic claims are stated without supporting numerical evidence, and the conservation claim cannot be evaluated without alignment data and statistical testing.
+- **Who would be interested in the results, and why** Researchers studying protein-protein interactions involving intrinsically disordered regions, computational biophysicists interested in molecular recognition mechanisms, and virologists focused on oncoprotein-mediated cell cycle dysregulation. The proposed ordered-disordered transition mechanism could inform broader understanding of how short linear motifs function within disordered contexts.
+- **Major strengths** The abstract addresses a biologically important interaction with clear relevance to cancer biology. The proposed mechanism integrates local structural propensity, flanking sequence context, and intrinsic disorder into a coherent model. The claim of evolutionary conservation across polyomaviruses, if well supported, would substantially increase the generalizability and impact of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "the isolated LXCXE motif has low affinity for pRb, that flanking residues enhance binding asymmetrically, and that the full-length protein binds more strongly than peptide fragments"
+  - **Evidence pointer** Location not provided
+  - **Concern** No quantitative affinity values, free energy estimates, or statistical comparisons are reported in the abstract. The claim of differential binding strength between constructs is presented as a definitive result, but no numerical data or error estimates are visible.
+  - **Why it matters** Binding affinity comparisons are central to the mechanistic model. Without quantitative support, the relative ordering of binding strengths cannot be assessed, and the claim that full-length protein binds more strongly than fragments is not verifiable from the provided material.
+  - **Resolution test** Provide binding free energies or dissociation constants for each construct with associated uncertainties, and specify the method used to compute them (for example, MM-PBSA, umbrella sampling, or experimental validation).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "residues N-terminal to the LXCXE motif drive initial recognition by adopting an alpha-helical conformation, while C-terminal residues engage at later stages"
+  - **Evidence pointer** Location not provided
+  - **Concern** The temporal ordering of binding events is a strong mechanistic claim. No time-resolved data, transition analysis, or pathway sampling evidence is presented in the abstract. The claim that N-terminal residues adopt alpha-helical conformation during initial recognition requires structural and kinetic evidence that is not visible.
+  - **Why it matters** The ordered-disordered transition mechanism rests on this temporal sequence. If the evidence is based on equilibrium simulations alone, the claim of temporal ordering may be overinterpreted. The distinction between conformational preference and kinetic pathway is critical for the validity of the proposed mechanism.
+  - **Resolution test** Provide time-resolved simulation data, such as contact maps over simulation time, committor analysis, or transition path sampling, that demonstrates the sequential engagement of N-terminal then C-terminal residues. Alternatively, reframe the claim as a conformational preference rather than a kinetic sequence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The abstract claims that "this feature is conserved across polyomavirus Large T antigens, suggesting a general strategy for efficient pRb targeting"
+  - **Evidence pointer** Location not provided
+  - **Concern** The conservation claim is presented as a bioinformatic finding, but no details of the analysis are provided. No sequence alignment information, conservation scores, statistical significance, or number of species examined is reported.
+  - **Why it matters** Evolutionary conservation claims require rigorous phylogenetic analysis and statistical testing. Without visible evidence, the claim cannot be distinguished from anecdotal sequence similarity. The generalizability of the proposed mechanism depends entirely on this analysis.
+  - **Resolution test** Provide the bioinformatic methodology, including sequence dataset, alignment method, conservation metric, and statistical significance thresholds. Show that the ordered-disordered architecture is significantly enriched in polyomavirus Large T antigens relative to appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "ordered-motif-disordered architecture"
+  - **Issue** The phrase "ordered-motif-disordered architecture" is ambiguous. It is unclear whether this refers to a single region containing both ordered and disordered segments, or to a dynamic equilibrium between ordered and disordered states of the same region.
+  - **Required correction** Define the term explicitly when first used, specifying whether the architecture is static (mixed ordered and disordered segments) or dynamic (interconverting states).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation validation
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract does not mention any validation of the simulation models against experimental data, such as known mutation effects or binding assays.
+  - **Required correction** State whether the models were validated against existing experimental data and, if so, which data were used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Location not provided
+  - **Issue** No simulation timescale, force field, or system size information is provided in the abstract.
+  - **Required correction** Include key simulation parameters in the abstract or indicate where they are described in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, time-resolved mechanistic evidence, and conservation analysis details means the core claims of the abstract are currently unsupported by the visible material.
+- **Assessment against Nature-style criteria** Originality: the proposed ordered-disordered transition mechanism is potentially novel, but similar concepts have been discussed in the context of short linear motif recognition, so the novelty depends on the specific evidence presented. Scientific importance: the pRb-LTSV40 interaction is biologically significant, and a generalizable mechanism for LXCXE recognition would be valuable. Interdisciplinary readership: the topic bridges virology, biophysics, and computational biology, which could attract broad interest if the evidence is compelling. Technical soundness: cannot be assessed from the abstract alone; the absence of methodological detail and quantitative results is a major limitation. Readability for nonspecialists: the abstract is clearly written and accessible, with appropriate context for the biological significance.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic claims are interesting and potentially significant, but the abstract alone does not provide sufficient quantitative or methodological support. A supportive recommendation would require the full manuscript to demonstrate robust simulation methodology, quantitative binding comparisons, and rigorous conservation analysis.
+
+## Risk / unsupported claims
+- The claim that the isolated LXCXE motif has low affinity for pRb relative to longer constructs is unsupported by visible quantitative data.
+- The claim of asymmetric enhancement by flanking residues is unsupported without per-residue or per-segment energetic contributions.
+- The temporal ordering of N-terminal then C-terminal engagement is unsupported without time-resolved or kinetic evidence.
+- The conservation claim across polyomavirus Large T antigens is unsupported without alignment data and statistical testing.
+- The general strategy for efficient pRb targeting cannot be evaluated without comparative analysis against non-conserved or divergent sequences.

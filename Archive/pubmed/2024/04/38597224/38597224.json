@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "38597224",
+    "doi": "10.1002/prot.26690",
+    "title": "Insight into the autoproteolysis mechanism of the RsgI9 anti-sigma factor from Clostridium thermocellum."
+  },
+  "content": {
+    "abstract": "Clostridium thermocellum is a potential microbial platform to convert abundant plant biomass to biofuels and other renewable chemicals. It efficiently degrades lignocellulosic biomass using a surface displayed cellulosome, a megadalton sized multienzyme containing complex. The enzymatic composition and architecture of the cellulosome is controlled by several transmembrane biomass-sensing RsgI-type anti-sigma factors. Recent studies suggest that these factors transduce signals from the cell surface via a conserved RsgI extracellular (CRE) domain (also called a periplasmic domain) that undergoes autoproteolysis through an incompletely understood mechanism. Here we report the structure of the autoproteolyzed CRE domain from the C. thermocellum RsgI9 anti-sigma factor, revealing that the cleaved fragments forming this domain associate to form a stable alpha/beta/alpha sandwich fold. Based on AlphaFold2 modeling, molecular dynamics simulations, and tandem mass spectrometry, we propose that a conserved Asn-Pro bond in RsgI9 autoproteolyzes via a succinimide intermediate whose formation is promoted by a conserved hydrogen bond network holding the scissile peptide bond in a strained conformation. As other RsgI anti-sigma factors share sequence homology to RsgI9, they likely autoproteolyze through a similar mechanism.",
+    "keywords": [
+      "Clostridium thermocellum",
+      "RsgI",
+      "anti-sigma factor",
+      "autoproteolysis",
+      "cellulosome",
+      "conserved RsgI extracellular domain",
+      "periplasmic domain"
+    ],
+    "mesh_terms": [
+      "*Acetivibrio thermocellus/metabolism/chemistry",
+      "*Bacterial Proteins/chemistry/metabolism/genetics",
+      "*Molecular Dynamics Simulation",
+      "*Proteolysis",
+      "Sigma Factor/chemistry/metabolism/genetics",
+      "Amino Acid Sequence",
+      "Protein Conformation, alpha-Helical",
+      "Protein Conformation, beta-Strand",
+      "Cellulosomes/metabolism/chemistry",
+      "Crystallography, X-Ray",
+      "Tandem Mass Spectrometry",
+      "Protein Binding",
+      "Protein Domains",
+      "Recombinant Proteins/chemistry/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takayesu, Allen",
+        "Mahoney, Brendan J",
+        "Goring, Andrew K",
+        "Jessup, Tobie",
+        "Ogorzalek Loo, Rachel R",
+        "Loo, Joseph A",
+        "Clubb, Robert T"
+      ],
+      "short_names": [
+        "Takayesu A",
+        "Mahoney BJ",
+        "Goring AK",
+        "Jessup T",
+        "Ogorzalek Loo RR",
+        "Loo JA",
+        "Clubb RT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5718-3985"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+        "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+        "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+        "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+        "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+        "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+        "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+        "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takayesu, Allen",
+        "short_name": "Takayesu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+          "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Mahoney, Brendan J",
+        "short_name": "Mahoney BJ",
+        "identifiers": [],
+        "affiliations": [
+          "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+          "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Goring, Andrew K",
+        "short_name": "Goring AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+          "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Jessup, Tobie",
+        "short_name": "Jessup T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Ogorzalek Loo, Rachel R",
+        "short_name": "Ogorzalek Loo RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+          "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+          "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Loo, Joseph A",
+        "short_name": "Loo JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+          "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+          "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Clubb, Robert T",
+        "short_name": "Clubb RT",
+        "identifiers": [
+          "0000-0001-5718-3985"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, California, USA.",
+          "UCLA-DOE Institute of Genomics and Proteomics, University of California, Los Angeles, Los Angeles, California, USA.",
+          "Molecular Biology Institute, University of California, Los Angeles, Los Angeles, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/10 12:42",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "42239438",
+      "40192064",
+      "39470320"
+    ],
+    "refs": [
+      "37756332",
+      "37418529",
+      "37271458",
+      "36265902",
+      "35412617",
+      "35408957",
+      "35194841",
+      "34778679",
+      "34418833",
+      "34265844",
+      "33309672",
+      "33252735",
+      "33148530",
+      "32290726",
+      "31748843",
+      "31724275",
+      "31162722",
+      "30638531",
+      "29784790",
+      "29343670",
+      "29156585",
+      "28766807",
+      "28390861",
+      "27941816",
+      "27292587",
+      "26731480",
+      "26463164",
+      "26320414",
+      "25991683",
+      "25809487",
+      "25505092",
+      "23832629",
+      "23728592",
+      "22646801",
+      "22333914",
+      "20937888",
+      "20820855",
+      "20487018",
+      "20057044",
+      "19548092",
+      "19534521",
+      "17703201",
+      "17060624",
+      "16346009",
+      "16246842",
+      "15788388",
+      "15274640",
+      "14632927",
+      "14526000",
+      "12565051",
+      "12051947",
+      "11158575",
+      "9667864",
+      "9098047",
+      "9008363",
+      "8744573",
+      "8744570",
+      "8576176",
+      "8520220",
+      "3805008",
+      "3198609",
+      "2690953"
+    ],
+    "similar": [
+      "38597224",
+      "35194841",
+      "24531486",
+      "31162722",
+      "40192064",
+      "37418529",
+      "28159788",
+      "20937888",
+      "27924829",
+      "31106374",
+      "25682099",
+      "20487018",
+      "9083107",
+      "39470320",
+      "29229758",
+      "20682763",
+      "26320414",
+      "20820855",
+      "28193899",
+      "26731480",
+      "29526435",
+      "23832198",
+      "41545192",
+      "30429330",
+      "40554013",
+      "15913653",
+      "9402065",
+      "37425962",
+      "22646801",
+      "16384918",
+      "28539362",
+      "12381317",
+      "19758121",
+      "28934483",
+      "28929533",
+      "31527113",
+      "29905823",
+      "29615492",
+      "15118324",
+      "10864495",
+      "33068756",
+      "20070943",
+      "23314154",
+      "14688277",
+      "35168167",
+      "29367338",
+      "30136170",
+      "26057813",
+      "15697243",
+      "15068809",
+      "29276038",
+      "19384422",
+      "28720495",
+      "10671457",
+      "33497605",
+      "20840763",
+      "39566124",
+      "28758665",
+      "28010772",
+      "37756332",
+      "22707718",
+      "25855788",
+      "19384997",
+      "17145760",
+      "40785600",
+      "20735776",
+      "15375114",
+      "31047989",
+      "32255260",
+      "27710940",
+      "27487929",
+      "27551088",
+      "31293000",
+      "15276828",
+      "17075066",
+      "26249679",
+      "32316259",
+      "11955433",
+      "27974389",
+      "23241215",
+      "28844748",
+      "23457513",
+      "29870811",
+      "28710792",
+      "39352555",
+      "30279318",
+      "41784359",
+      "28054744",
+      "27875311",
+      "17803943",
+      "15808849",
+      "32067260",
+      "39454004",
+      "27802572",
+      "29643377",
+      "20676709",
+      "31953261",
+      "29694705",
+      "28932263",
+      "16049010"
+    ],
+    "review": [
+      "38597224"
+    ],
+    "pmc": [
+      "11222046"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38597224/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26690",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt07r1j11r",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

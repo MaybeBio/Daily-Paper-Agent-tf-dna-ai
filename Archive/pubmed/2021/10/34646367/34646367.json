@@ -1,0 +1,695 @@
+{
+  "identity": {
+    "pmid": "34646367",
+    "doi": "10.7150/thno.60679",
+    "title": "Tryptophan metabolism is inversely regulated in the tumor and blood of patients with glioblastoma."
+  },
+  "content": {
+    "abstract": "Tryptophan (Trp)-catabolic enzymes (TCEs) produce metabolites that activate the aryl hydrocarbon receptor (AHR) and promote tumor progression and immunosuppression in glioblastoma. As therapies targeting TCEs or AHR become available, a better understanding of Trp metabolism is required. Methods: The combination of LC-MS/MS with chemical isobaric labeling enabled the simultaneous quantitative comparison of Trp and its amino group-bearing metabolites in multiple samples. We applied this method to the sera of a cohort of 43 recurrent glioblastoma patients and 43 age- and sex-matched healthy controls. Tumor volumes were measured in MRI data using an artificial neural network-based approach. MALDI MSI visualized Trp and its direct metabolite N-formylkynurenine (FK) in glioblastoma tissue. Analysis of scRNA-seq data was used to detect the presence of Trp metabolism and AHR activity in different cell types in glioblastoma. Results: Compared to healthy controls, glioblastoma patients showed decreased serum Trp levels. Surprisingly, the levels of Trp metabolites were also reduced. The decrease became smaller with more enzymatic steps between Trp and its metabolites, suggesting that Trp availability controls the levels of its systemic metabolites. High tumor volume associated with low systemic metabolite levels and low systemic kynurenine levels associated with worse overall survival. MALDI MSI demonstrated heterogeneity of Trp catabolism across glioblastoma tissues. Analysis of scRNA-seq data revealed that genes involved in Trp metabolism were expressed in almost all the cell types in glioblastoma and that most cell types, in particular macrophages and T cells, exhibited AHR activation. Moreover, high AHR activity associated with reduced overall survival in the glioblastoma TCGA dataset. Conclusion: The novel techniques we developed could support the identification of patients that may benefit from therapies targeting TCEs or AHR activation.",
+    "keywords": [
+      "AHR",
+      "Glioblastoma",
+      "MALDI MSI",
+      "mass spectrometry",
+      "tryptophan"
+    ],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "Chromatography, Liquid/methods",
+      "Cohort Studies",
+      "Databases, Genetic",
+      "Female",
+      "Glioblastoma/blood/genetics/*metabolism",
+      "Humans",
+      "Immunotherapy",
+      "Male",
+      "Middle Aged",
+      "Receptors, Aryl Hydrocarbon/genetics/*metabolism",
+      "Tandem Mass Spectrometry/methods",
+      "Tryptophan/blood/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Panitz, Verena",
+        "Koncarevic, Sasa",
+        "Sadik, Ahmed",
+        "Friedel, Dennis",
+        "Bausbacher, Tobias",
+        "Trump, Saskia",
+        "Farztdinov, Vadim",
+        "Schulz, Sandra",
+        "Sievers, Philipp",
+        "Schmidt, Stefan",
+        "Jurgenson, Ina",
+        "Jung, Stephan",
+        "Kuhn, Karsten",
+        "Pfluger, Irada",
+        "Sharma, Suraj",
+        "Wick, Antje",
+        "Pfander, Pauline",
+        "Selzer, Stefan",
+        "Vollmuth, Philipp",
+        "Sahm, Felix",
+        "von Deimling, Andreas",
+        "Heiland, Ines",
+        "Hopf, Carsten",
+        "Schulz-Knappe, Peter",
+        "Pike, Ian",
+        "Platten, Michael",
+        "Wick, Wolfgang",
+        "Opitz, Christiane A"
+      ],
+      "short_names": [
+        "Panitz V",
+        "Koncarevic S",
+        "Sadik A",
+        "Friedel D",
+        "Bausbacher T",
+        "Trump S",
+        "Farztdinov V",
+        "Schulz S",
+        "Sievers P",
+        "Schmidt S",
+        "Jurgenson I",
+        "Jung S",
+        "Kuhn K",
+        "Pfluger I",
+        "Sharma S",
+        "Wick A",
+        "Pfander P",
+        "Selzer S",
+        "Vollmuth P",
+        "Sahm F",
+        "von Deimling A",
+        "Heiland I",
+        "Hopf C",
+        "Schulz-Knappe P",
+        "Pike I",
+        "Platten M",
+        "Wick W",
+        "Opitz CA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Proteome Sciences R&D GmbH & Co. KG, Altenhoferallee 3, 60438 Frankfurt/Main, Germany.",
+        "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany.",
+        "Molecular Epidemiology Unit, Berlin Institute of Health at Charite - Universitatsmedizin Berlin, 10117 Berlin, Germany.",
+        "Proteome Sciences R&D GmbH & Co. KG, Altenhoferallee 3, 60438 Frankfurt/Main, Germany.",
+        "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany.",
+        "Department of Neuropathology, Institute of Pathology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Clinical Cooperation Unit Neuropathology, German Consortium for Translational Cancer Research (DKTK), German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany.",
+        "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Proteome Sciences R&D GmbH & Co. KG, Altenhoferallee 3, 60438 Frankfurt/Main, Germany.",
+        "Proteome Sciences R&D GmbH & Co. KG, Altenhoferallee 3, 60438 Frankfurt/Main, Germany.",
+        "Department of Neuroradiology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Department of Arctic and Marine Biology, UiT, The Arctic University of Norway, 9037 Tromso, Norway.",
+        "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "Proteome Sciences R&D GmbH & Co. KG, Altenhoferallee 3, 60438 Frankfurt/Main, Germany.",
+        "Department of Neuroradiology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Department of Neuropathology, Institute of Pathology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Clinical Cooperation Unit Neuropathology, German Consortium for Translational Cancer Research (DKTK), German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Department of Neuropathology, Institute of Pathology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Clinical Cooperation Unit Neuropathology, German Consortium for Translational Cancer Research (DKTK), German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Department of Arctic and Marine Biology, UiT, The Arctic University of Norway, 9037 Tromso, Norway.",
+        "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany.",
+        "Proteome Sciences R&D GmbH & Co. KG, Altenhoferallee 3, 60438 Frankfurt/Main, Germany.",
+        "Proteome Sciences plc, 5 Dashwood Lang Road, Bourne Business Park, Addlestone, Surrey KT15 2HJ, United Kingdom.",
+        "Department of Neurology, Medical Faculty Mannheim, University of Heidelberg, 68167 Mannheim, Germany.",
+        "DKTK Clinical Cooperation Unit Neuroimmunology and Brain Tumor Immunology, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+        "Clinical Cooperation Unit Neurooncology, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Panitz, Verena",
+        "short_name": "Panitz V",
+        "identifiers": [],
+        "affiliations": [
+          "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+          "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Končarević, Saša",
+        "short_name": "Končarević S",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences R&D GmbH & Co. KG, Altenhöferallee 3, 60438 Frankfurt/Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Sadik, Ahmed",
+        "short_name": "Sadik A",
+        "identifiers": [],
+        "affiliations": [
+          "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Friedel, Dennis",
+        "short_name": "Friedel D",
+        "identifiers": [],
+        "affiliations": [
+          "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bausbacher, Tobias",
+        "short_name": "Bausbacher T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany."
+        ]
+      },
+      {
+        "full_name": "Trump, Saskia",
+        "short_name": "Trump S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Epidemiology Unit, Berlin Institute of Health at Charité - Universitätsmedizin Berlin, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Farztdinov, Vadim",
+        "short_name": "Farztdinov V",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences R&D GmbH & Co. KG, Altenhöferallee 3, 60438 Frankfurt/Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Schulz, Sandra",
+        "short_name": "Schulz S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany."
+        ]
+      },
+      {
+        "full_name": "Sievers, Philipp",
+        "short_name": "Sievers P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Institute of Pathology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+          "Clinical Cooperation Unit Neuropathology, German Consortium for Translational Cancer Research (DKTK), German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Stefan",
+        "short_name": "Schmidt S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany."
+        ]
+      },
+      {
+        "full_name": "Jürgenson, Ina",
+        "short_name": "Jürgenson I",
+        "identifiers": [],
+        "affiliations": [
+          "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+          "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jung, Stephan",
+        "short_name": "Jung S",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences R&D GmbH & Co. KG, Altenhöferallee 3, 60438 Frankfurt/Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Kuhn, Karsten",
+        "short_name": "Kuhn K",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences R&D GmbH & Co. KG, Altenhöferallee 3, 60438 Frankfurt/Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Pflüger, Irada",
+        "short_name": "Pflüger I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroradiology, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sharma, Suraj",
+        "short_name": "Sharma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Arctic and Marine Biology, UiT, The Arctic University of Norway, 9037 Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Wick, Antje",
+        "short_name": "Wick A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Pfänder, Pauline",
+        "short_name": "Pfänder P",
+        "identifiers": [],
+        "affiliations": [
+          "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Selzer, Stefan",
+        "short_name": "Selzer S",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences R&D GmbH & Co. KG, Altenhöferallee 3, 60438 Frankfurt/Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Vollmuth, Philipp",
+        "short_name": "Vollmuth P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroradiology, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sahm, Felix",
+        "short_name": "Sahm F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Institute of Pathology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+          "Clinical Cooperation Unit Neuropathology, German Consortium for Translational Cancer Research (DKTK), German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "von Deimling, Andreas",
+        "short_name": "von Deimling A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Institute of Pathology, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+          "Clinical Cooperation Unit Neuropathology, German Consortium for Translational Cancer Research (DKTK), German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Heiland, Ines",
+        "short_name": "Heiland I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Arctic and Marine Biology, UiT, The Arctic University of Norway, 9037 Tromsø, Norway."
+        ]
+      },
+      {
+        "full_name": "Hopf, Carsten",
+        "short_name": "Hopf C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Mass Spectrometry and Optical Spectroscopy (CeMOS), Mannheim University of Applied Sciences, 68163 Mannheim, Germany."
+        ]
+      },
+      {
+        "full_name": "Schulz-Knappe, Peter",
+        "short_name": "Schulz-Knappe P",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences R&D GmbH & Co. KG, Altenhöferallee 3, 60438 Frankfurt/Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Pike, Ian",
+        "short_name": "Pike I",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Sciences plc, 5 Dashwood Lang Road, Bourne Business Park, Addlestone, Surrey KT15 2HJ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Platten, Michael",
+        "short_name": "Platten M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Medical Faculty Mannheim, University of Heidelberg, 68167 Mannheim, Germany.",
+          "DKTK Clinical Cooperation Unit Neuroimmunology and Brain Tumor Immunology, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Wick, Wolfgang",
+        "short_name": "Wick W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany.",
+          "Clinical Cooperation Unit Neurooncology, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Opitz, Christiane A",
+        "short_name": "Opitz CA",
+        "identifiers": [],
+        "affiliations": [
+          "DKTK Brain Cancer Metabolism Group, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+          "Department of Neurology and National Center for Tumor Diseases, Heidelberg University Hospital, 69120 Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theranostics"
+    ],
+    "journal_abbrev": [
+      "Theranostics"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/15 06:00",
+    "fetched_at": "2026-09-28 00:48:48"
+  },
+  "links": {
+    "cites": [
+      "42488641",
+      "42328445",
+      "42165446",
+      "41893336",
+      "41699710",
+      "41221633",
+      "40775789",
+      "40444491",
+      "40274950",
+      "40082966",
+      "40071723",
+      "40040508",
+      "39959303",
+      "39859381",
+      "39707545",
+      "39594997",
+      "39538250",
+      "39162538",
+      "39132147",
+      "39057693",
+      "38473776",
+      "38034059",
+      "37907506",
+      "37755265",
+      "37277776",
+      "37005414",
+      "36982624",
+      "35806160",
+      "35624002"
+    ],
+    "refs": [
+      "34087162",
+      "33919732",
+      "33900084",
+      "33813026",
+      "33374253",
+      "33293629",
+      "33214553",
+      "33123732",
+      "33050543",
+      "32818467",
+      "32731514",
+      "32488114",
+      "32477324",
+      "32470396",
+      "32436060",
+      "32391020",
+      "32300059",
+      "32296044",
+      "32253714",
+      "31866995",
+      "31819194",
+      "31806639",
+      "31806638",
+      "31792435",
+      "31653878",
+      "31554815",
+      "31431462",
+      "31327527",
+      "31171720",
+      "31128300",
+      "31119318",
+      "30962630",
+      "30952559",
+      "30890159",
+      "30760888",
+      "30718831",
+      "30531897",
+      "30083233",
+      "29691296",
+      "29667084",
+      "29643471",
+      "29533786",
+      "29409532",
+      "29343438",
+      "29262845",
+      "29203879",
+      "29091775",
+      "28697342",
+      "28691345",
+      "28646877",
+      "28590049",
+      "28367255",
+      "27524289",
+      "27322546",
+      "27145382",
+      "26973881",
+      "26713745",
+      "26704973",
+      "26279502",
+      "26095251",
+      "25867923",
+      "25853692",
+      "25822800",
+      "25605792",
+      "25415278",
+      "25011475",
+      "24925914",
+      "24611633",
+      "24485249",
+      "24129579",
+      "24121470",
+      "23802083",
+      "23412337",
+      "22937035",
+      "22308364",
+      "21976023",
+      "21816040",
+      "21546393",
+      "21376230",
+      "20196867",
+      "20129251",
+      "19910308",
+      "19199463",
+      "17032683",
+      "16545965",
+      "16526949",
+      "14502282",
+      "12713048",
+      "10592173",
+      "385809"
+    ],
+    "similar": [
+      "34646367",
+      "34657603",
+      "31848275",
+      "39344334",
+      "32957545",
+      "31171720",
+      "38283348",
+      "26279502",
+      "27282934",
+      "29667084",
+      "35139353",
+      "30836315",
+      "39227948",
+      "26818237",
+      "35702760",
+      "17020875",
+      "29679555",
+      "32783770",
+      "32117235",
+      "28318896",
+      "27573671",
+      "24397465",
+      "38542428",
+      "30924357",
+      "31997472",
+      "9708986",
+      "29193181",
+      "32907554",
+      "31586884",
+      "37113297",
+      "32401136",
+      "38474162",
+      "38019127",
+      "35692003",
+      "30962630",
+      "24498387",
+      "36834576",
+      "32818467",
+      "32782249",
+      "38509264",
+      "28415022",
+      "31481962",
+      "33924971",
+      "26500056",
+      "29320557",
+      "30453653",
+      "25450809",
+      "28710517",
+      "25402742",
+      "31416966",
+      "33004548",
+      "30443985",
+      "26936918",
+      "34058506",
+      "34532729",
+      "33382356",
+      "33562472",
+      "21976023",
+      "33236682",
+      "26416282",
+      "31288191",
+      "29327354",
+      "32970636",
+      "29279331",
+      "23742309",
+      "37441265",
+      "19487045",
+      "21883026",
+      "34867973",
+      "30130131",
+      "20187853",
+      "28366444",
+      "23568529",
+      "34280211",
+      "35278289",
+      "15788723",
+      "31337401",
+      "33348604",
+      "15501436",
+      "33499346",
+      "33082071",
+      "38308645",
+      "24563545",
+      "26910189",
+      "32604820",
+      "32611766",
+      "25256754",
+      "33735338",
+      "21722628",
+      "29266750",
+      "33964185",
+      "31786316",
+      "27000870",
+      "35812057",
+      "29787958",
+      "32360814",
+      "26879452",
+      "31866995",
+      "34624509",
+      "36747842",
+      "19860415",
+      "32283770",
+      "37394584",
+      "36505324",
+      "36009010",
+      "28737706",
+      "35296014",
+      "38462620",
+      "36159806",
+      "37719171",
+      "30349856",
+      "35469990",
+      "37670034",
+      "36466649",
+      "17611712",
+      "36843643",
+      "37388276",
+      "34222022",
+      "38104209",
+      "22458381"
+    ],
+    "review": [
+      "34646367",
+      "32957545",
+      "28318896",
+      "30924357",
+      "32401136",
+      "38474162",
+      "33924971",
+      "33382356",
+      "33562472",
+      "21883026",
+      "33348604",
+      "33499346",
+      "25256754",
+      "31786316",
+      "34624509",
+      "37394584",
+      "28737706",
+      "38462620",
+      "36159806",
+      "37719171",
+      "17611712"
+    ],
+    "pmc": [
+      "8490504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34646367/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34646367",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thno.org/v11p9217.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

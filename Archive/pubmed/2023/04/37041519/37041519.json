@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "37041519",
+    "doi": "10.1186/s12863-023-01121-w",
+    "title": "Identification of immune-related molecular markers in intracranial aneurysm (IA) based on machine learning and cytoscape-cytohubba plug-in."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intracranial aneurysm (IA) is a common cerebrovascular disease. The immune mechanism of IA is more complicated, and it is unclear so far. Therefore, it is necessary to continue to explore the immune related molecular mechanism of IA. METHODS: All data were downloaded from the public database. Limma package and ssGSEA algorithm was used to identify differentially expressed mRNAs (DEmRNAs) and analyze immune cell infiltration, respectively. Machine learning and cytoscape-cytohubba plug-in was used to identify key immune types and multicentric DEmRNAs of IA, respectively. Multicentric DEmRNAs related to key immune cells were screened out as key DEmRNAs by Spearman correlation analysis. Diagnostic models, competing endogenous RNA (ceRNA) regulatory network and transcription factor regulatory network were constructed based on key DEmRNAs. Meanwhile, drugs related to key DEmRNAs were screened out based on DGIdb database. The expression of key DEmRNAs was also verified by real time-PCR. RESULTS: In this study, 7 key DEmRNAs (NRXN1, GRIA2, SLC1A2, SLC17A7, IL6, VEGFA and SYP) associated with key differential immune cell infiltration (CD56bright natural killer cell, Immature B cell and Type 1 T helper cell) were identified. Functional enrichment analysis showed that VEGFA and IL6 may be involved in the regulation of the PI3K-Akt signaling pathway. Moreover, IL6 was also found to be enriched in cytokine-cytokine receptor interaction signaling pathway. In the ceRNA regulatory network, a large number of miRNAs and lncRNAs were found. In the transcription factor regulatory network, the transcription factor SP1 was correlated with VEGFA, SYP and IL6. It is also predicted that drugs related to key DEmRNAs such as CARBOPLATIN, FENTANYL and CILOSTAZOL may contribute to the treatment of IA. In addition, it was also found that SVM and RF models based on key DEmRNAs may be potential markers for diagnosing IA and unruptured intracranial aneurysm (UIA), respectively. The expression trend of key DEmRNAs verified by real-time PCR was consistent with the bioinformatics analysis results. CONCLUSION: The identification of molecules and pathways in this study provides a theoretical basis for understanding the immune related molecular mechanism of IA. Meanwhile, the drug prediction and diagnosis model construction may also be helpful for clinical diagnosis and management.",
+    "keywords": [
+      "Diagnose",
+      "Differentially expressed mRNAs",
+      "Immune cell infiltration",
+      "Intracranial aneurysm",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intracranial Aneurysm",
+      "Interleukin-6",
+      "Phosphatidylinositol 3-Kinases",
+      "Biomarkers",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Zhengfei",
+        "Zhong, Ping",
+        "Yue, Peidong",
+        "Sun, Zhongwu"
+      ],
+      "short_names": [
+        "Ma Z",
+        "Zhong P",
+        "Yue P",
+        "Sun Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, The First Affiliated Hospital of Anhui Medical University, Anhui Province, No. 299, Bianhe Zhong Lu District, Suzhou City, Hefei, 234000, China.",
+        "Department of Neurology, Suzhou Hospital of Anhui Medical University, Suzhou, China.",
+        "Department of Neurology, Suzhou Hospital of Anhui Medical University, Suzhou, China.",
+        "Department of Neurosurgery, Suzhou Hospital of Anhui Medical University, Suzhou, China.",
+        "Department of Neurology, The First Affiliated Hospital of Anhui Medical University, Anhui Province, No. 299, Bianhe Zhong Lu District, Suzhou City, Hefei, 234000, China. 44451038@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Zhengfei",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Anhui Medical University, Anhui Province, No. 299, Bianhe Zhong Lu District, Suzhou City, Hefei, 234000, China.",
+          "Department of Neurology, Suzhou Hospital of Anhui Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Ping",
+        "short_name": "Zhong P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Suzhou Hospital of Anhui Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Peidong",
+        "short_name": "Yue P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Suzhou Hospital of Anhui Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhongwu",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Anhui Medical University, Anhui Province, No. 299, Bianhe Zhong Lu District, Suzhou City, Hefei, 234000, China. 44451038@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomic data"
+    ],
+    "journal_abbrev": [
+      "BMC Genom Data"
+    ],
+    "pub_date": "2023 Apr 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/12 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "42688810",
+      "42181623",
+      "41752070",
+      "41725222",
+      "41132347",
+      "40858849",
+      "40635218",
+      "39976849",
+      "39741751",
+      "39551662",
+      "39456747",
+      "39318012",
+      "39111872"
+    ],
+    "refs": [
+      "36313616",
+      "36300620",
+      "35918429",
+      "35734498",
+      "35711443",
+      "34899870",
+      "34647716",
+      "34504438",
+      "34400144",
+      "34310040",
+      "34185228",
+      "34145948",
+      "34109173",
+      "34035170",
+      "34003424",
+      "33990177",
+      "33729740",
+      "33607478",
+      "33453428",
+      "33249033",
+      "33062195",
+      "32956770",
+      "32942984",
+      "32602008",
+      "32413698",
+      "32326881",
+      "31634620",
+      "31441146",
+      "31264696",
+      "31138894",
+      "30366277",
+      "30102808",
+      "30101479",
+      "29328431",
+      "28052254",
+      "27443382",
+      "27070952",
+      "26667180",
+      "26572668",
+      "26176774",
+      "25521941",
+      "25406999",
+      "24603973",
+      "23193258",
+      "22781330",
+      "21394644",
+      "21079182",
+      "17065918",
+      "11846609",
+      "10592173"
+    ],
+    "similar": [
+      "37041519",
+      "38664915",
+      "35034029",
+      "39206894",
+      "36248807",
+      "36457745",
+      "35949853",
+      "33750300",
+      "35909518",
+      "36522691",
+      "32912111",
+      "36457754",
+      "34128858",
+      "36600215",
+      "35990982",
+      "35422846",
+      "35711443",
+      "34938111",
+      "33986769",
+      "36451838",
+      "36341343",
+      "35378210",
+      "33990177",
+      "29760555",
+      "36817268",
+      "32738676",
+      "35757392",
+      "32987562",
+      "34956196",
+      "36313616",
+      "37597661",
+      "33557733",
+      "34093635",
+      "32589050",
+      "31815689",
+      "32673063",
+      "32422009",
+      "33861762",
+      "37465552",
+      "32695216",
+      "37752552",
+      "34337826",
+      "35713363",
+      "33222929",
+      "35672672",
+      "36685910",
+      "36223608",
+      "34734036",
+      "33719338",
+      "35045818",
+      "36506097",
+      "33079247",
+      "36171401",
+      "31127661",
+      "34536521",
+      "35785353",
+      "33867914",
+      "34777635",
+      "35873466",
+      "33676464",
+      "33511207",
+      "34538870",
+      "34068010",
+      "34487338",
+      "27751926",
+      "31572452",
+      "36185995",
+      "34354366",
+      "36061211",
+      "33424913",
+      "35719385",
+      "31056798",
+      "34692847",
+      "36057911",
+      "31322220",
+      "38528539",
+      "35645614",
+      "35798291",
+      "35331104",
+      "36300102",
+      "36524127",
+      "29552131",
+      "32756097",
+      "35924235",
+      "33593435",
+      "32994866",
+      "30588106",
+      "36339005",
+      "35413978",
+      "36330394",
+      "35151325",
+      "36405929",
+      "34733935",
+      "37059863",
+      "37275334",
+      "37410216",
+      "37644376",
+      "39278904",
+      "37334926",
+      "39215680",
+      "38763504",
+      "38518032",
+      "38073713",
+      "38332649",
+      "38214030",
+      "37525094",
+      "38481992",
+      "39309795",
+      "37159621",
+      "38397416",
+      "37564653",
+      "39085562",
+      "38154101",
+      "38331723",
+      "37357148",
+      "34203780",
+      "38107530",
+      "34466490"
+    ],
+    "review": [
+      "37041519",
+      "32422009"
+    ],
+    "pmc": [
+      "10088219"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/brainaneurysm.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Aneurysm"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37041519/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37041519",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

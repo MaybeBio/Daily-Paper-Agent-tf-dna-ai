@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "35909285",
+    "doi": "10.2174/1381612828666220728120523",
+    "title": "Machine Learning-based Virtual Screening for STAT3 Anticancer Drug Target."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Signal transducers and activators of the transcription (STAT) family is composed of seven structurally similar and highly conserved members, including STAT1, STAT2, STAT3, STAT4, STAT5a, STAT5b, and STAT6. The STAT3 signaling cascade is activated by upstream kinase signals and undergoes phosphorylation, homo-dimerization, nuclear translocation, and DNA binding, resulting in the expression of target genes involved in tumor cell proliferation, metastasis, angiogenesis, and immune editing. STAT3 hyperactivation has been documented in a number of tumors, including head and neck, breast, lung, liver, kidney, prostate, pancreas cancer, multiple myeloma, and acute myeloid leukemia. Drug discovery is a timeconsuming and costly process; it may take ten to fifteen years to bring a single drug to the market. Machine learning algorithms are very fast and effective and commonly used in the field, such as drug discovery. These algorithms are ideal for the virtual screening of large compound libraries to classify molecules as active or inactive. OBJECTIVE: The present work aims to perform machine learning-based virtual screening for the STAT3 drug target. METHODS: Machine learning models, such as k-nearest neighbor, support vector machine, Gaussian naive Bayes, and random forest for classifying the active and inactive inhibitors against a STAT3 drug target, were developed. Ten-fold cross-validation was used for model validation. Then the test dataset prepared from the zinc database was screened using the random forest model. A total of 20 compounds with 88% accuracy was predicted as active against STAT3. Furthermore, these twenty compounds were docked into the active site of STAT3. The two complexes with good docking scores as well as the reference compound were subjected to MD simulation. A total of 100ns MD simulation was performed. RESULTS: Compared to all other models, the random forest model revealed better results. Compared to the standard reference compound, the top two hits revealed greater stability and compactness. CONCLUSION: In conclusion, our predicted hits have the ability to inhibit STAT3 overexpression to combat STAT3-associated diseases.",
+    "keywords": [
+      "MD simulation",
+      "Machine learning",
+      "STAT3",
+      "docking",
+      "drug target",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "Bayes Theorem",
+      "*STAT3 Transcription Factor/genetics/metabolism",
+      "Machine Learning",
+      "*Antineoplastic Agents/pharmacology",
+      "Drug Discovery",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wadood, Abdul",
+        "Ajmal, Amar",
+        "Junaid, Muhammad",
+        "Rehman, Ashfaq Ur",
+        "Uddin, Reaz",
+        "Azam, Syed Sikander",
+        "Khan, Alam Zeb",
+        "Ali, Asad"
+      ],
+      "short_names": [
+        "Wadood A",
+        "Ajmal A",
+        "Junaid M",
+        "Rehman AU",
+        "Uddin R",
+        "Azam SS",
+        "Khan AZ",
+        "Ali A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Abdul Wali Khan University Mardan, Mardan 23200, Pakistan.",
+        "Department of Biochemistry, Abdul Wali Khan University Mardan, Mardan 23200, Pakistan.",
+        "National Institute of Health and Medical Sciences (INSERM), 13009 Marseille, France.",
+        "Department of Biochemistry and Molecular Biology, University of California, Irvine, CA, USA.",
+        "HEJ Research Institute of Chemistry, University of Karachi, Karachi, Pakistan.",
+        "Department of Bioinformatics, Quaid-e-Azam University, Islamabad, Pakistan.",
+        "Department of Pediatrics, Yale School of Medicine Yale University, New Haven, CT, 06511, USA.",
+        "Department of Chemistry, Abdul Wali Khan University Mardan, Mardan 23200, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wadood, Abdul",
+        "short_name": "Wadood A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Abdul Wali Khan University Mardan, Mardan 23200, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ajmal, Amar",
+        "short_name": "Ajmal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Abdul Wali Khan University Mardan, Mardan 23200, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Junaid, Muhammad",
+        "short_name": "Junaid M",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Health and Medical Sciences (INSERM), 13009 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Rehman, Ashfaq Ur",
+        "short_name": "Rehman AU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of California, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Uddin, Reaz",
+        "short_name": "Uddin R",
+        "identifiers": [],
+        "affiliations": [
+          "HEJ Research Institute of Chemistry, University of Karachi, Karachi, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Azam, Syed Sikander",
+        "short_name": "Azam SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, Quaid-e-Azam University, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Alam Zeb",
+        "short_name": "Khan AZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Yale School of Medicine Yale University, New Haven, CT, 06511, USA."
+        ]
+      },
+      {
+        "full_name": "Ali, Asad",
+        "short_name": "Ali A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Abdul Wali Khan University Mardan, Mardan 23200, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current pharmaceutical design"
+    ],
+    "journal_abbrev": [
+      "Curr Pharm Des"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/02 06:00",
+    "fetched_at": "2026-10-04 20:43:48"
+  },
+  "links": {
+    "cites": [
+      "42654074",
+      "40881283",
+      "40573222",
+      "40360829",
+      "39225885",
+      "39170440",
+      "38849372",
+      "38794122",
+      "38528576",
+      "38304837",
+      "37978263",
+      "37900685",
+      "37649663",
+      "37631039",
+      "37313340",
+      "37077177",
+      "36959979",
+      "36777558",
+      "36675202"
+    ],
+    "refs": [],
+    "similar": [
+      "35909285",
+      "37232453",
+      "37626747",
+      "38794122",
+      "38528576",
+      "37631039",
+      "25710482",
+      "19274102",
+      "24922077",
+      "32401384",
+      "39170440",
+      "38379294",
+      "37468720",
+      "34861473",
+      "22121102",
+      "34110578",
+      "30688405",
+      "38554168",
+      "31167452",
+      "35807344",
+      "36430841",
+      "17121906",
+      "31167344",
+      "34399578",
+      "15469392",
+      "10720694",
+      "33325717",
+      "37965486",
+      "23287056",
+      "31373651",
+      "29683269",
+      "30360705",
+      "32840738",
+      "24211327",
+      "26066505",
+      "23376248",
+      "36105464",
+      "37906702",
+      "36760267",
+      "36230984",
+      "31336592",
+      "38842417",
+      "34768977",
+      "29879881",
+      "36762704",
+      "33932608",
+      "39145469",
+      "30091413",
+      "33721736",
+      "34770274",
+      "28397855",
+      "30779585",
+      "28685785",
+      "34000483",
+      "28601761",
+      "22500887",
+      "35268740",
+      "38954070",
+      "26308397",
+      "26730496",
+      "36257282",
+      "29306979",
+      "26998671",
+      "38442000",
+      "25134459",
+      "28006676",
+      "33891263",
+      "17675586",
+      "27727126",
+      "32767944",
+      "36995235",
+      "27486309",
+      "23279849",
+      "35408133",
+      "24661007",
+      "32211144",
+      "37175889",
+      "36012627",
+      "26138573",
+      "22194600",
+      "30430945",
+      "16648019",
+      "23207637",
+      "23704931",
+      "31323143",
+      "29992392",
+      "25320076",
+      "10342556",
+      "25724101",
+      "25817923",
+      "32320841",
+      "28711499",
+      "29914167",
+      "28636670",
+      "25986171",
+      "34592057",
+      "34934067",
+      "11426647",
+      "19424608",
+      "17908954",
+      "22555804",
+      "32068215",
+      "8626752",
+      "27531676",
+      "24097101",
+      "28536310",
+      "34272637",
+      "18154267",
+      "31847229",
+      "35566372",
+      "36970406",
+      "37625010",
+      "37340494",
+      "39417979",
+      "37116265",
+      "29601530",
+      "37511165",
+      "39286329",
+      "38023173",
+      "36929511",
+      "37036491",
+      "38217308",
+      "38299408",
+      "38313551",
+      "38807196",
+      "23173901",
+      "36994428",
+      "36574054",
+      "39369611",
+      "38831341",
+      "23561266",
+      "38280715",
+      "31824919",
+      "28690382",
+      "37728008",
+      "39303708",
+      "34659706",
+      "37671878",
+      "30155037",
+      "36545137",
+      "37182134",
+      "37296454",
+      "37441272",
+      "37742003",
+      "30556417",
+      "36165338",
+      "36829107",
+      "37382813",
+      "38988211",
+      "38988219"
+    ],
+    "review": [
+      "35909285",
+      "15469392",
+      "36230984",
+      "38842417",
+      "29879881",
+      "30091413",
+      "26730496",
+      "32767944",
+      "10342556",
+      "25817923",
+      "29914167",
+      "11426647",
+      "17908954"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=28&issue=36&spage=3023&aulast=Wadood",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/207064/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

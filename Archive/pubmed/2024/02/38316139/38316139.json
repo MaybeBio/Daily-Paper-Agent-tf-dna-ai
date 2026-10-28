@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "38316139",
+    "doi": "10.1021/acssynbio.3c00446",
+    "title": "The SARS-CoV-2 M(pro) Dimer-Based Screening System: A Synthetic Biology Tool for Identifying Compounds with Dimerization Inhibitory Potential."
+  },
+  "content": {
+    "abstract": "The COVID-19 endemic remains a global concern. The search for effective antiviral candidates is still needed to reduce disease risk. However, the availability of high biosafety level laboratory facilities for drug screening is limited in number. To address this issue, a screening system that could be utilized at lower biosafety levels remains essential. This study aimed to develop a novel SARS-CoV-2 main protease (M(pro)) dimer-based screening system (DBSS) utilizing synthetic biology in Escherichia coli BL21(DE3). We linked the SARS-CoV-2 M(pro) with the DNA-binding domain of AraC regulatory protein, which regulates the reporter gene expression. Protein modeling and molecular docking showed that saquinavir could bind to AraC-M(pro) both in its monomer and dimer forms. The constructed DBSS assay indicated the screening system could detect saquinavir inhibitory activity at a concentration range of 4-10 mug/mL compared to the untreated control (P </= 0.05). The Vero E6 cell assay validated the DBSS result that saquinavir at 4-10 mug/mL exhibited antiviral activity against SARS-CoV-2. Our DBSS could be used for preliminary screening of numerous drug candidates that possess a dimerization inhibitor activity of SARS-CoV-2 M(pro) and also minimize the use of a high biosafety level laboratory.",
+    "keywords": [
+      "COVID-19",
+      "antivirus",
+      "dimer-based screening system",
+      "drug discovery",
+      "main protease",
+      "protease inhibitor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*SARS-CoV-2",
+      "*COVID-19",
+      "Saquinavir/pharmacology",
+      "Molecular Docking Simulation",
+      "Dimerization",
+      "Antiviral Agents/pharmacology/chemistry",
+      "Protease Inhibitors/pharmacology/chemistry/metabolism",
+      "Synthetic Biology",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Giri-Rachman, Ernawati Arifin",
+        "Effendy, Vergio V",
+        "Azmi, Muhammad H S",
+        "Yamahoki, Nicholas",
+        "Stephanie, Rebecca",
+        "Agustiyanti, Dian F",
+        "Wisnuwardhani, Popi H",
+        "Angelina, Marissa",
+        "Rubiyana, Yana",
+        "Aditama, Reza",
+        "Ningrum, Ratih A",
+        "Wardiana, Andri",
+        "Fibriani, Azzania"
+      ],
+      "short_names": [
+        "Giri-Rachman EA",
+        "Effendy VV",
+        "Azmi MHS",
+        "Yamahoki N",
+        "Stephanie R",
+        "Agustiyanti DF",
+        "Wisnuwardhani PH",
+        "Angelina M",
+        "Rubiyana Y",
+        "Aditama R",
+        "Ningrum RA",
+        "Wardiana A",
+        "Fibriani A"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2325-5763"
+      ],
+      "affiliations": [
+        "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia.",
+        "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia.",
+        "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia.",
+        "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia.",
+        "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia.",
+        "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia.",
+        "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia.",
+        "Research Center for Pharmaceutical Ingredients and Traditional Medicine, Indonesian National Research and Innovation Agency (BRIN), Serpong 15314, Indonesia.",
+        "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia.",
+        "Biochemistry Research Group, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, Bandung 40132, Indonesia.",
+        "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia.",
+        "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia.",
+        "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Giri-Rachman, Ernawati Arifin",
+        "short_name": "Giri-Rachman EA",
+        "identifiers": [
+          "0009-0009-2325-5763"
+        ],
+        "affiliations": [
+          "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Effendy, Vergio V",
+        "short_name": "Effendy VV",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Azmi, Muhammad H S",
+        "short_name": "Azmi MHS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Yamahoki, Nicholas",
+        "short_name": "Yamahoki N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Stephanie, Rebecca",
+        "short_name": "Stephanie R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Agustiyanti, Dian F",
+        "short_name": "Agustiyanti DF",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Wisnuwardhani, Popi H",
+        "short_name": "Wisnuwardhani PH",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Angelina, Marissa",
+        "short_name": "Angelina M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Pharmaceutical Ingredients and Traditional Medicine, Indonesian National Research and Innovation Agency (BRIN), Serpong 15314, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Rubiyana, Yana",
+        "short_name": "Rubiyana Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Aditama, Reza",
+        "short_name": "Aditama R",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry Research Group, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Ningrum, Ratih A",
+        "short_name": "Ningrum RA",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Wardiana, Andri",
+        "short_name": "Wardiana A",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Genetic Engineering, Indonesian National Research and Innovation Agency (BRIN), Cibinong 16911, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Fibriani, Azzania",
+        "short_name": "Fibriani A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Technology, Institut Teknologi Bandung, Bandung 40132, Indonesia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2024 Feb 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/06 00:42",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [
+      "42312174",
+      "42158109"
+    ],
+    "refs": [
+      "36986786",
+      "36293096",
+      "35883499",
+      "35798732",
+      "35720615",
+      "35554918",
+      "35217718",
+      "34518806",
+      "34516349",
+      "34372557",
+      "34319150",
+      "34282049",
+      "33889562",
+      "33847241",
+      "33749986",
+      "33430659",
+      "33243253",
+      "33184722",
+      "33102688",
+      "33062953",
+      "33028810",
+      "32889701",
+      "32737681",
+      "32678588",
+      "32581217",
+      "32402186",
+      "32198291",
+      "32087114",
+      "31399732",
+      "31114880",
+      "30976793",
+      "30560214",
+      "29860391",
+      "29788129",
+      "29166892",
+      "26410586",
+      "24860555",
+      "23633583",
+      "20814932",
+      "20420403",
+      "19846440",
+      "19559054",
+      "19399780",
+      "18305031",
+      "17628150",
+      "17154528",
+      "16478476",
+      "15980527",
+      "15980494",
+      "15814260",
+      "15811319",
+      "4980332",
+      "3568126"
+    ],
+    "similar": [
+      "38316139",
+      "33184722",
+      "32717346",
+      "33927258",
+      "35427739",
+      "34509862",
+      "33251983",
+      "34279924",
+      "32859008",
+      "33970798",
+      "32663708",
+      "33172092",
+      "37435731",
+      "33022567",
+      "33844135",
+      "34569411",
+      "34684780",
+      "33094680",
+      "32843534",
+      "32561274",
+      "37255416",
+      "35876061",
+      "37513194",
+      "34445763",
+      "37544112",
+      "33200681",
+      "33759690",
+      "36740573",
+      "34984963",
+      "36560787",
+      "37114441",
+      "37947293",
+      "36952618",
+      "32272481",
+      "36144858",
+      "33867348",
+      "34208928",
+      "36726755",
+      "34472424",
+      "37861105",
+      "32340389",
+      "37227780",
+      "32669265",
+      "36740128",
+      "37375160",
+      "35777088",
+      "34555629",
+      "35261325",
+      "34438124",
+      "34480682",
+      "33823185",
+      "37244162",
+      "35546368",
+      "36293094",
+      "33131721",
+      "33682642",
+      "36752937",
+      "33504301",
+      "34431452",
+      "35960688",
+      "32450166",
+      "35051855",
+      "32873185",
+      "34424151",
+      "38070810",
+      "37121686",
+      "32602074",
+      "34205704",
+      "37944867",
+      "38044142",
+      "32662333",
+      "37028502",
+      "36694326",
+      "34806382",
+      "33623995",
+      "36014537",
+      "33556646",
+      "38462102",
+      "32741312",
+      "35726889",
+      "34419736",
+      "36597267",
+      "37257212",
+      "32798373",
+      "33669738",
+      "37176082"
+    ],
+    "review": [
+      "38316139",
+      "37544112",
+      "37244162"
+    ],
+    "pmc": [
+      "10877612"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38316139/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38316139",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.3c00446",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

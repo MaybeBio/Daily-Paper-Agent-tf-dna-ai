@@ -1,0 +1,155 @@
+# Molecular mechanisms of Biyu decoction as treatment for psoriasis: A network pharmacology and molecular docking study
+
+
+## BACKGROUND
+  The therapeutic effects of a combination of Chinese medicines called Biyu decoction have been clinically verified, although its molecular targets in psoriasis remain unknown.
+
+
+## AIM
+  To explore the molecular mechanisms of Biyu decoction for psoriasis treatment.
+
+
+## METHODS
+  In this network pharmacology and molecular docking study, the Traditional Chinese Medicine Systems Pharmacology database was searched for Biyu decoction active ingredients. GeneCards, Online Mendelian Inheritance in Man, PharmGkb, Therapeutic Target Database, and DrugBank databases were searched for psoriasis-related genes. The genes targeted by the decoction’s active ingredient and disease genes were intersected to obtain predictive targets of the drug during psoriasis treatment. Cytoscape 3.8.0 was used to construct a drug component/ target disease network. The The functional protein association networks database and Cytoscape were used to construct a protein-protein interaction network and streamline the core network. The Gene Ontology and Kyoto Encyclopedia of Genes and Genomes were used for pathway enrichment analysis. Molecular docking technology was used to verify the drug component/target disease network.
+
+
+## RESULTS
+  We screened 117 major active ingredients, including quercetin, kaempferol, naringenin, and acetyl-shikonin, and identified 213 gene targets, such as MAPK3, JUN, FOS, MYC, MAPK8, STAT3, and NFKBIA. Using a molecular docking analysis, the main active ingredients demonstrated good binding to the core targets. The Gene Ontology analysis showed that these ingredients were significantly associated with biological activities, such as transcription factor DNA binding, RNA polymerase II-specific DNA binding of transcription factors, and cytokine receptor binding; responses to lipopolysaccharides, molecules of bacterial origin, and oxidative stress; and were mainly distributed in membrane rafts, microdomains, and regions. The Kyoto Encyclopedia of Genes and Genomes analysis showed that decoction ingredients act on Th17 cell differentiation, tumor necrosis factor and mitogen-activated protein signaling pathways, the interleukin-17 signaling pathway, and the PI3K-Akt signaling pathway.
+
+
+## CONCLUSION
+  Biyu decoction may be effective against psoriasis through multi-component, multi-target, and multi-channel synergy.
+
+
+## INTRODUCTION
+  Psoriasis (PSO) is an immune-mediated chronic and recurrent inflammatory disease that affects the skin or joints. The global incidence of PSO is approximately 2%[1]. It also affects approximately 0.47% of the Chinese population[2]. Although gender does not have a clear effect on the incidence of PSO, genetic susceptibility and increasing age are known to increase its incidence[3].Because of the disfigurement and teratogenicity associated with this disease that seriously affect the quality of life, PSO confers a marked psychological burden[4]. The physiological burden is related to recurrent episodes of itching and several accompanying diseases[5]. Plaque PSO (PSO vulgaris) accounts for more than 90% of cases. The clinical manifestations are well-defined erythema and silvery scaly skin, which can occur anywhere on the body[6].
+
+  Conventional treatment for PSO includes topical glucocorticoids, vitamin D derivatives, calcineurin inhibitors, corticosteroids, phototherapy, and systemic therapy[7]. Practicability (the time required to apply treatment), convenience, and adverse reactions (e.g., skin irritation) limit the use of topical drugs, whereas drug interactions and accumulated organ toxicity limit systemic treatment. PSO is mediated by dendritic and T cells in a complex feedback loop involving antigen-presenting cells, neutrophils, keratinocytes, vascular endothelial cells, and the skin’s nervous system. Tumor necrosis factor (TNF)-α, interferon (IFN)-γ, interleukin (IL)-1, and other cytokines mediate innate and adaptive immune responses, and resident immune cell interaction disorder in the skin is the main PSO pathogenesis[8]. Therefore, targeted therapy blocking the PSO-related immune pathway is effective; however, the cost of biological agents is high and thus difficult to popularize.
+
+  In the current medical environment in China, traditional Chinese medicine (TCM) has a high penetration rate among psoriasis patients due to various advantages, such as less adverse reactions, long-term use, discontinuation at any time, and low long-term recurrence rate[9]. According to Chinese medicine, "blood-heat" runs through psoriasis from beginning to end[10]. "Blood heat" is mainly characterized by bleeding and fiery heat. "Heat" stagnates blood collaterals, and erythema is seen on the skin. "Heat" forces blood to rush out of the veins, and causes spot-like bleeding. These correspond to the bright red patches, bleeding spots of a psoriatic rash. Biyu decoction (BYT) is a combination of Chinese medicines with significant effects on PSO; its selection is based on Xiaoyinjiedu granules[10] by Professor Jin Qifeng (National TCM Doctor of Dongzhimen Hospital, Beijing University of Chinese Medicine) and our preliminary research results. BYT comprises Zicao[11,12] (Lithospermum Erythrorhizon), Diyu[13] (Radix Sanguisorbae), Cebaiye[14] (Platycladi Cacumen), and Gancao[15] (licorice), which are Chinese herbal medicines with cooling blood effect, and in vitro and in vivo studies have revealed their therapeutic effects on immunity and inflammation. The therapeutic effects of BYT on PSO have been verified clinically. However, the BYT molecular targets of PSO remain unknown. To improve PSO treatment, we investigated whether BYT ingredients target molecules and signaling pathways related to PSO pathogenesis.
+
+
+## MATERIALS AND METHODS
+
+### Drug and gene data
+  Drug data were obtained from the Traditional Chinese Medicine Systems Pharmacology (TCMSP) database (http: //tcmspw.com/tcmsp.php). Gene data were obtained from the Human Gene Database (GeneCards; https://www.genecards.org), Online Mendelian Inheritance in Man (OMIM; https://omim.org), Pharmacogenetics and Pharmacogenomics Knowledge Base (PharmGKB; https://www.pharmgkb.org), Therapeutic Target Database (TTD; http://db.idrblab.net/ttd), and Drugbank database (Drugbank; https://www.drugbank.ca). The functional protein association networks database (STRING; https://string-db.org) was used to construct the protein-protein interaction (PPI) network. The molecular structure data of the receptors and ligands required for molecular docking were obtained from PubChem (PubChem; https://pubchem.ncbi.nlm.nih.gov) and Protein Data Bank (PDB; http://www.rcsb.org). The above data were obtained in May 2021. In addition, we conducted a relevant search by Reference Citation Analysis (https://www.referencecitationanalysis.com).
+
+
+### Screening of traditional Chinese medicine ingredients and target prediction
+  We searched the TCMSP database for active components of BYT, namely, the chemical components of Zicao, Diyu, Cebaiye, and Gancao. After performing screen filtering by oral bioavailability (OB; > 30%) and drug-like properties (DL; > 0.18) and removing duplicate components, we obtained effective drug components. The TCMSP database was searched to obtain the molecular targets of each active ingredient and identify molecular targets corresponding to all the active ingredients of BYT.
+
+
+### PSO-related genes targeted by BYT
+  Genes related to PSO were identified by searching the following five databases: GeneCards, OMIM, PharmGKB, TTD, and Drugbank. After removing the duplicate and false-positive targets, genes related to PSO were identified. The intersection of the retrieved molecular targets of the BYT active ingredients and these PSO-related genes were identified to retrieve PSO-related target genes of BYT.
+
+
+### Drug target-PSO network construction
+  We used Cytoscape (version 3.8.0) software to establish the drug-disease network based on the BYT components targeting PSO-related genes obtained from TCMSP and the PSO-related drug targets of BYT obtained from the gene database. The network comprised drug nodes, target nodes, and related events. The larger the number of associated events, the larger the corresponding target node. The attributes of different traditional Chinese medicine sources in the drug nodes were represented by different colors; however, the drug nodes could show multiple colors because they were derived from multiple drugs.
+
+
+### Construction of the PPI network and screening of core proteins
+  A PPI network was established based on the selected BYT target genes in PSO. The lines between gene nodes defined the interaction between proteins. After filtering out free gene nodes, a large PPI network was obtained. Using the CytoNCA plug-in of the Cytoscape software, a topology analysis was performed to filter out the central network. We analyzed the following six indicators: Betweenness centrality (BC), closeness centrality (CC), degree centrality (DC), eigenvector centrality (EC), local average connectivity (LAC), and network centrality (NC); these provide a standard for the in-depth analysis of the attributes of each node. A higher quantitative value for each index indicated that the node was more important in the network and allowed identification of the core network.
+
+
+### Molecular docking
+  The PDB database was searched for core genes to perform molecular docking experiments. The structures of the corresponding proteins were downloaded. PyMOL (version 2.4.0) software was used to remove water molecules and small ligand molecules from these receptor macromolecular structures. AutoDockTools (version 1.5.6) software was used to add polar hydrogen ions and set the grid box to determine the search range of the active pockets of the proteins, which were unknown. To include as many receptor structures as possible, the size of the active pocket had to be increased appropriately to improve the docking results. According to the core genes identified, the drug components that interacted with the core genes were sought in the constructed drug-disease network. The two-dimensional structures of these small ligand molecules were downloaded from the PubChem database, and the MM2 calculation tool in ChemBio3D (version 14.0) software was used to optimize the three-dimensional structure of the small ligand molecule with the smallest free energy. Vina (version 1.1.2) software was used to perform the docking work, and the optimal model of molecular docking was calculated.
+
+
+### Gene ontology and kyoto encyclopedia of genes and genomes
+  We used R (version 4.0.3) software to perform a Gene Ontology (GO) biological functional enrichment analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) metabolic pathway enrichment analysis of the intersection genes. These were filtered using P < 0.05 (with the q-value for correction if they were not in compliance). GO term enrichment was performed for biological processes (BP), CC, and molecular function (MF), and the GO term most likely to be related to the target gene was identified. We explored which functions in PSO were regulated by BYT and determined the connections between functional units and their potential significance in biological system networks. We also selected PSO-related pathways during the KEGG enrichment analysis and drew pathway diagrams.
+
+
+## RESULTS
+
+### Screening of BYT active ingredients and target prediction
+  According to the TCMSP database, BYT contained a total of 458 ingredients (Zicao, 51; Diyu, 41; Cebaiye, 86; and Gancao, 280). After screening, based on OB and DL values, 124 active ingredients were obtained (Zicao, 12; Diyu, 13; Cebaiye, 7; and Gancao, 92). After deleting the compounds with no action targets and duplicated components, 117 active ingredients were obtained (Table 1). Based on these ingredients, 2410 pairs of ingredient-predicted target combinations were identified (Zicao, 83 pairs; Diyu, 269 pairs; Cebaiye, 289 pairs; and Gancao, 1769 pairs). After removing duplicate targets, 213 targets of BYT Chinese medicine were obtained.
+
+
+### PSO disease gene screening
+  We used “Psoriasis” as a keyword to search GeneCards, OMIM, PharmGkb, TTD, and DrugBank databases. With a relevance score > 1.0, genes from the GeneCards database were filtered. Overall, 1700 PSO-related genes were retrieved (GeneCards, 1497; OMIM, 13; PharmGkb, 12; TTD, 100; and DrugBank, 78). After deduplication of the retrieved genes, a Venn diagram of the identified genes was drawn (Figure 1A), yielding 1585 PSO gene targets.
+
+
+### BYT-PSO intersection genes
+  The intersection of 1585 PSO-related genes and the 213 predicted BYT targets yielded a total of 110 BYT-PSO genes, and a Venn diagram was drawn (Figure 1B). MAPK8, NFKBIA, STAT3, TNFAIP6, IFNG, ICAM1, IL1A, IL2RA, IL10RA, VCAM1, EGFR, VEGFA, MMP2, and other genes associated with PSO were included in this intersection. The target gene mapping rate for BYT in PSO was 51.6%, indicating some specificity (Figure 2).
+
+
+### BYTPSO network construction
+  Cytoscape software was used to construct a BYT active ingredient/PSO gene target network (Figure 2). The network comprised 110 potential target genes and 104 active ingredients. The larger the metric value of the target, the more the target and drug components constituted the events, implying a greater role in the network. The same ingredient could be derived from multiple drugs simultaneously. Each potential target gene interacted with multiple active ingredients, which indicated that BYT has effects on PSO via multiple pathways, multiple components, and multiple targets.
+
+
+### Construction of the PPI network of BYT-PSO intersection genes
+  We imported the 110 BYT-PSO intersection genes into the STRING database (species: Homo sapiens; filter: Highest confidence, 0.900) and removed free nodes to obtain the BYT-PSO PPI network (Figure 3A). The network comprised 101 nodes and 399 edges, with lines of different colors representing different ways of proving the protein interaction relationship between nodes.
+
+
+### Screening of core genes
+  We imported the obtained PPI network diagram into Cytoscape software (Figure 3B) and used the CytoNCA plug-in to score nodes for BC, CC, DC, EC, LAC, and NC. The nodes for which all values exceeded the median were retained in the PPI network diagram (Figure 3C). The filter conditions were as follows: BC > 55.53, CC > 0.21, DC > 6, EC > 0.05, LAC > 2.55, and NC > 3.5. This secondary PPI network contained 29 nodes and 157 edges. The calculation was repeated with the following filter conditions: BC > 7.18, CC > 0.58, DC > 9, EC > 0.15, LAC > 5.45, and NC > 7.18. The obtained core PPI network comprised 11 nodes and 47 edges (Figure 3D), with an average degree of 8.55. Based on the degree value, the order of the targets that have a major role in BYT treatment of PSO was as follows: MAPK3, JUN, MAPK1, FOS, MAPK14, MYC, MAPK8, TP53, RELA, STAT3, and NFKBIA (Table 2).
+
+
+### Molecular docking simulation of active ingredients and target genes
+  We searched the literature for PSO gene research and selected two core targets from the PPI core network: MAPK8 and STAT3. MAPK8 and STAT3 proteins (3ELJ and 6NJS, respectively) were retrieved from the PDB database. We pretreated the receptor protein macromolecules by removing water molecules and small ligand molecules and adding polar hydrogen; then, we set the active pocket search range. Based on the BYT active ingredient/PSO gene target network, the active ingredients kaempferol (for MAPK8) and licochalcone A (for STAT3) were selected.
+
+  Vina software was used to verify molecular docking between the receptor macromolecule and Chinese medicine small molecule component. The 20 main interaction methods were identified by calculating binding energies from small to large (Table 3). The model with the smallest binding energy was selected, and PyMOL software was used for visualization (Figure 4). The smaller the binding energy, the stronger the bond between the ligand and receptor. When affinity is less than -4.25 kcal/mol, the ligand shows certain binding to the receptor. Affinity less than -5.0 kcal/mol indicates good binding activity, and affinity less than -7.0 kcal/mol indicates strong binding activity. The energy of the binding of BYT core targets in PSO treatment with active ingredients was between -5.0 kcal/mol and -8.7 kcal/mol, indicating that the main active ingredients of BYT demonstrate good binding activity with the core gene targets of the disease with relatively reliable prediction.
+
+
+### GO enrichment analysis
+  GO enrichment of the BYT-PSO intersection genes indicated 2083 types of BP, 42 types of CC, and 150 types of MF. We selected the first 30 with significant enrichment to draw images (Figure 5A). In terms of BP, these target genes were mainly involved in biological reactions, such as the response to lipopolysaccharides, response to molecules of bacterial origin, and response to oxidative stress. In terms of CC, target genes were mainly distributed in cell parts, such as membrane rafts, membrane microdomains, and membrane regions. In terms of MF, the target genes were significantly associated with DNA binding of transcription factors, RNA polymerase II-specific DNA binding of transcription factors, and cytokine receptor binding.
+
+
+### KEGG enrichment analysis
+  Overall, 170 signal pathways were obtained by KEGG pathway enrichment analysis. The first 30 signal pathways were screened out by statistical significance (P < 0.05; if not, then the q-value correction was used) for visual analysis (Figure 5B). The target genes had a role in multiple classic PSO-related pathways, such as the IL-17 signaling pathway, Th17 cell differentiation, TNF signaling pathway, T-cell receptor signaling pathway, mitogen-activated protein kinase (MAPK) signaling pathway, and PI3K-Akt signaling pathway. Therefore, BYT acts synergistically on PSO through multiple pathways. The more relevant Th17 cell differentiation and TNF signaling pathways were selected to draw a pathway diagram (Figure 6).
+
+
+## DISCUSSION
+  In this study, we explored the mechanism of BYT in PSO treatment using a network pharmacology and molecular docking study. We screened 117 major active ingredients, including quercetin, kaempferol, naringenin, and acetyl-shikonin, and identified 213 gene targets, including MAPK3, JUN, FOS, MYC, MAPK8, STAT3, and NFKBIA. Molecular docking analysis revealed that the main active ingredients demonstrated good binding to the core targets. The GO analysis showed that these ingredients were significantly associated with biological activities, such as DNA binding of transcription factors and cytokine receptor binding, whereas the KEGG analysis showed that the decoction ingredients act on Th17 cell differentiation and the TNF, MAPK, and other important PSO signaling pathways.
+
+  PSO pathogenesis has not been fully elucidated[16]. Excessive activation of the adaptive immune system is considered to be at the core of PSO[17]. Early during PSO, various cell types secrete cytokines to activate myeloid dendritic cells. When activated, these cells secrete IL-12 and IL-23[18] . IL-23-mediated activation of the Th17 pathway is considered the main pathway that guides the transcription of key inflammatory mediators via the Tyk2-Jak2 and STAT3 pathways[19]. These cytokines cause abnormal proliferation of downstream keratinocytes, increase the expression of vascular endothelial growth factor (VEGF) and vascular cell adhesion molecules, and cause immune cells to continue to infiltrate the affected skin[20].
+
+  Because of limited therapeutic effects or unavoidable side effects, the long-term use of modern medical traditional therapies for PSO remains a challenge. Complementary and alternative therapies, such as traditional Chinese medicine (TCM), are widely used in East Asia. TCM formulations are complex drug systems. The complex interactions between their multiple components and multiple targets can lead to the regulation of various pathways and biological processes, thus providing treatment for numerous complex diseases. TCM treatment of PSO has a therapeutic effect that is not inferior to the therapeutic effects of modern conventional medical therapies[21]; furthermore, it could possibly strengthen the therapeutic effects of modern conventional medical therapies[22]. Because of the unique theory regarding their clinical use and successful application as PSO treatment agents, we believe that the development of new small-molecule drugs based on TCM will be a promising strategy to provide safe, effective, and less costly treatment for patients with PSO. Therefore, we used a network pharmacology research method to explore the mechanism by which BYT can treat PSO from the perspective of active ingredients, target genes, and signaling pathways.
+
+  Most of the BYT ingredients have good oral bioavailability and drug-like properties. The 124 active ingredients screened out during this study have affinity for 213 cell targets, thus providing a pharmacodynamic basis for the diversity and effectiveness of TCM formulations. In the BYTPSO network, there were 104 active ingredients of BYT. Among them, quercetin, kaempferol, beta-sitosterol, naringenin, acetyl-shikonin, and other compounds have affinity for multiple gene targets. Quercetin is a polyflavonoid compound in the human diet that has biological activity. It regulates many intracellular and extracellular signaling pathways related to disease progression. It is considered a promising natural compound for the prevention and treatment of diseases[23]. The anti-psoriatic mechanism of quercetin may be related to its antioxidant and anti-inflammatory effects, inhibition of nuclear factor (NF)-κB signaling pathway activation, and downregulation of miR-155, which is highly expressed in PSO[24,25]. Kaempferol is a natural flavanol found in many plants that has powerful anti-inflammatory, antioxidant, and anticancer properties. Kaempferol can protect mice from PSO-like skin damage caused by topical imiquimod[26]. It can also improve imiquimod-induced psoriatic lesions, mainly by reducing CD3+ T cell infiltration and the expression of proinflammatory cytokine genes (including IL-6, IL-17A, and TNF-α) in psoriatic lesions, downregulating NF-κB signal transduction in the skin, and reducing the percentage of IL-17A+ CD4+ T cells in the spleen and lymph nodes of the PSO mice model. Kaempferol can also inhibit T cell proliferation and mTOR signal transduction, which is associated with PSO, in vitro. Naringenin is a citrus flavonoid with various pharmacological properties. It demonstrates anti-inflammatory activity by inhibiting TNF-α and IL-1β[27]. Hepatotoxicity is an adverse side effect of methotrexate, which is used for the treatment of malignant tumors, PSO, and rheumatoid arthritis. Naringenin may inhibit methotrexate-related hepatotoxicity by scavenging active free radicals and exerting anti-inflammatory effects[28]. Naringenin significantly improved the changes in methotrexate-related biochemical markers and liver histopathology. Shikonin is the main active compound of Zicao and has been widely proven to inhibit PSO-like inflammation. Shikonin can reduce the overexpression of IL-17-related VEGF and K17 proteins by blocking the JAK2/STAT3 pathway. Additionally, shikonin can significantly inhibit the proliferation of HaCaT cells and induce apoptosis. However, the relationship of acetyl-shikonin in Zicao with PSO requires further research[29,30].
+
+  During this study, 11 target genes that are closely related to PSO, such as MAPK3, JUN, FOS, MYC, MAPK8, STAT3, and NFKBIA, were obtained through the PPI core network diagram. With PSO and related inflammatory skin diseases, innate and/or adaptive immune cells are activated and recruited to the site of inflammation, thus promoting further inflammation[31]. Continuous recruitment and activation of immune cells are regulated by a combination of cytokines and chemokines, which is, in turn, regulated by transcription factors, such as AP-1 (FOS/JUN), NF-κB, STATs, and MAPK[32]. MYC—a proto-oncogene involved in a variety of cellular processes, including cell growth, proliferation, and apoptosis—can play an important role in angiogenesis through a VEGF-dependent mechanism[33], is often amplified with skin cancer[34], and can stimulate the abnormal proliferation of normal keratinocytes. These effects of MYC are consistent with the pathological characteristics of abnormal proliferation and incomplete differentiation of psoriatic epithelial cells and abnormal dermal vascular proliferation. These core genes require further study to clarify their mechanisms of action and to provide new insights into the prevention and treatment of PSO.
+
+  We obtained low binding energies (-8.7 kcal/mol and -6.6 kcal/mol, respectively) for the molecular docking of MAPK8 with Kaempferol and STAT3 with licochalcone A, which show that the selected drug molecule-gene target combinations have a good binding activity. These results suggest that these drug molecules may directly bind to the corresponding core targets with high and stable affinity and provide evidence for the key role of these drug components in psoriasis treatment. The docking results confirm the accuracy of the PPI network analysis in identifying the core targets.
+
+  Based on the KEGG pathway enrichment analysis, BYT has a wide range of effects on the IL-17 signaling pathway, Th17 cell differentiation, TNF signaling pathway, PI3K-Akt signaling pathway, T cell receptor signaling pathway, MAPK signaling pathway, and other signaling pathways directly related to the pathological mechanism of PSO. The TNFα/IL-23/Th17 inflammatory pathway is a characteristic pathway of PSO. To date, clinically relevant signaling pathways in PSO have mainly been shown to be mediated by IL-17, which leads to the activation of a series of intracellular kinases (such as extracellular signal-regulated kinase, p38 MAPK, transforming growth factor-β-activated kinase 1, and others)[31]. These internal kinases enhance signaling pathways, such as the NF-κB pathway, thus promoting the expression of proinflammatory cytokines, chemokines, and antimicrobial peptides. Cytokines produced by Th1 and Th2 have a role through the JAK-STAT signaling pathway, whereas NF-κB can mediate the Th17 response[6]. Fluid shear stress and atherosclerosis affect hemodynamics by regulating the expression of genes and proteins in endothelial cells and changing the differentiation, morphology, and permeability of blood vessel walls of vascular endothelial cells[35]. It is inferred that this pathway may be related to the proliferation and expansion of blood vessels in the dermis, leading to persistent abnormalities in local skin function. Signaling pathways related to PSO comorbidities, such as the advanced glycation end products (AGEs)/receptor of AGE (RAGE) signaling pathway in diabetic complications, have been identified as well. AGEs and their receptors in the AGE-RAGE signal transduction pathway have been a focus of research recently. This pathway activates the NF-κB pathway and induces oxidative and inflammatory reactions by expressing and releasing VEGF, transforming growth factor-β1, nicotinamide adenine dinucleotide phosphate, and other factors, which ultimately cause cell and tissue damage[36,37].
+
+  TCM network pharmacology is the network biology basis for understanding complex diseases, TCM syndromes, and TCM treatment, reflecting the new trend of combining computation, experimentation, and clinical practices[38]. In this study, we used network pharmacology to establish drug target pathways and networks and predicted the possible protein targets of BYT in the treatment of psoriasis and the main interactions between these targets and drugs. Nonetheless, this study has some limitations. First, all data were from public databases and public data, and multi-faceted analysis was performed using bioinformatics. The management of public databases is heterogeneous and beyond our control; thus, the possibility of selection bias cannot be ruled out. Second, considering the multiple components, proteins, genes, and pathways involved in TCM, greater algorithm support is needed for a deeper understanding of the correlation between different data to reveal the internal biological network regulation mechanisms of TCM. Finally, this study lacks experimental validation, but it provides a possible direction for further in vitro and in vivo experimental studies to explore the detailed mechanism between BYT and psoriasis.
+
+
+## CONCLUSION
+  Using a network pharmacology approach, this study combined bioinformatics technology with TCM theory to analyze the chemical components, effective active ingredients, and targets of BYT compounds as TCM and the target genes in PSO. Relevant software was used to analyze and construct the target network and cell pathways targeted by BYT. The main active ingredients identified include quercetin, kaempferol, beta-sitosterol, naringenin, and acetyl-shikonin. Target genes include MAPK3, JUN, FOS, MYC, MAPK8, STAT3, and NFKBIA, which can regulate the inflammatory state mediated by PSO immune cells and mediate the expression of factors that adjust local skin inflammation. Our results confirm that BYT can work on PSO through multi-component, multi-target, and multi-channel synergy and provide a basis for further in-depth clinical research of BYT treatment for PSO.
+
+
+## ARTICLE HIGHLIGHTS
+
+### Research background
+  Psoriasis (PSO) is a major public health challenge, causing great physical, psychological and economic burden. Biyu Decoction (BYT) has clear clinical efficiency in treating PSO.
+
+
+### Research motivation
+  The molecular mechanism of BYT treatment for PSO is still unclear.
+
+
+### Research objectives
+  To identify the targets and pathways through which BYT interferes with PSO.
+
+
+### Research methods
+  Therapeutic targets for BYT were predicted by network pharmacology and validated by molecular docking.
+
+
+### Research results
+  A total of 213 gene targets corresponding to 117 active components of BYT can intervene in PSO through a variety of biological pathways highly related to PSO, such as Th17 cell differentiation and TNF signaling Pathway. The stability of these biological reactions was verified by molecular docking.
+
+
+### Research conclusions
+  BYT can the pathogenesis of PSO with multiple targets.
+
+
+### Research perspectives
+  The results of this study could serve as a fundamental basis for the further exploration in the in vitro and in vivo experiments for clinical promotions.
+
+
+## Data sharing statement
+  Technical appendix, statistical code, and dataset available from the manuscript.

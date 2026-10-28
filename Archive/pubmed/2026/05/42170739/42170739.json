@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "42170739",
+    "doi": "10.1161/CIRCULATIONAHA.125.077533",
+    "title": "Sam68 Exacerbates Pathologic Cardiac Hypertrophy by Suppressing Cardiomyocyte Glucose Oxidation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic remodeling, marked by maladaptive shifts in substrate use and energy production, is a hallmark of pathologic cardiac hypertrophy. Yet the mechanisms linking stress signaling to impaired myocardial glucose oxidation remain incompletely defined. Sam68 (Src-associated in mitosis, 68 kDa; also known as KHDRBS1 [KH domain-containing, RNA-binding, signal transduction-associated protein 1]), a STAR (signal transduction and activation of RNA) family RNA-binding protein, has not previously been implicated in cardiac metabolic control. METHODS: SAM68 expression was examined in failing human hearts and transcriptomic data sets. Cardiomyocyte-specific Sam68 knockout mice (Sam68cKO) and AAV9 (adeno-associated virus serotype 9)-cTnT (cardiac troponin T)-mediated cardiomyocyte Sam68 overexpression (Sam68OE) were studied in transverse aortic constriction and angiotensin II models. Mechanistic studies included RNA sequencing, targeted metabolomics, in vivo [U-(13)C]-glucose tracing, coimmunoprecipitation, and protein-protein docking. Therapeutic relevance was tested with a PDK4 (pyruvate dehydrogenase kinase 4) inhibitor and the Sam68-Src interface blocker YB-0158, including pharmacokinetics, target engagement, and validation in Sam68cKO mice. RESULTS: Sam68 was increased in failing human cardiomyocytes and in murine hypertrophic hearts. Sam68cKO markedly attenuated angiotensin II- and transverse aortic constriction-induced hypertrophy, whereas Sam68OE aggravated remodeling and dysfunction. In vivo [U-(13)C]-glucose flux analysis showed that transverse aortic constriction caused sustained uncoupling of glycolysis from glucose oxidation, with increased glycolytic labeling but reduced (13)C incorporation into tricarboxylic acid cycle intermediates at 3 days and 4 weeks. Sam68 deletion restored glucose-derived carbon entry into the tricarboxylic acid cycle, enhanced PDH (pyruvate dehydrogenase)-dependent M+2 labeling, and improved oxidative-anaplerotic balance during pressure overload. Mechanistically, Sam68 served as a stress-activated scaffold that promoted Src-dependent STAT3 (signal transducer and activator of transcription 3) Tyr705 phosphorylation, nuclear accumulation, and transcriptional induction of PDK4, leading to PDH Ser293 phosphorylation and suppression of PDH activity. The PDK4 inhibitor blunted Sam68OE-driven remodeling while preserving PDH activity and mitochondrial respiratory programs. YB-0158 achieved cardiac exposure, disrupted Sam68-Src engagement in vivo, suppressed STAT3-PDK4-PDH signaling, and improved transverse aortic constriction remodeling; these effects were lost in Sam68cKO mice, supporting on-target dependence. In failing human hearts, the Src-SAM68-STAT3-PDK4 axis was activated, and SAM68 abundance increased in parallel with PDK4 and reduced left ventricular ejection fraction. CONCLUSIONS: Sam68 is a stress-activated cardiomyocyte scaffold that drives pathologic hypertrophy through a Src-STAT3-PDK4 program that inhibits PDH and suppresses glucose oxidation. Genetic or pharmacologic disruption of this axis restores PDH-dependent pyruvate oxidation and limits pressure-overload remodeling, identifying Sam68 as a druggable metabolic control node in heart failure.",
+    "keywords": [
+      "cardiomegaly",
+      "heart failure",
+      "pyruvate dehydrogenase kinase 4",
+      "ventricular remodeling"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Myocytes, Cardiac/metabolism/pathology",
+      "*Glucose/metabolism",
+      "*Cardiomegaly/metabolism/pathology/genetics",
+      "*Adaptor Proteins, Signal Transducing/metabolism/genetics",
+      "*RNA-Binding Proteins/metabolism/genetics",
+      "Mice, Knockout",
+      "Mice",
+      "Oxidation-Reduction",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "An, Junqing",
+        "Han, Chaoshan",
+        "Jiang, Ying",
+        "Shi, Jiawei",
+        "Li, Huadong",
+        "Wang, Chenqi",
+        "Huang, Jianrong",
+        "Xu, Shiyue",
+        "Ni, Jie",
+        "Cao, Yangpo",
+        "Feng, Yuliang",
+        "Lyu, Qing",
+        "Dong, Nianguo",
+        "Qin, Gangjian"
+      ],
+      "short_names": [
+        "An J",
+        "Han C",
+        "Jiang Y",
+        "Shi J",
+        "Li H",
+        "Wang C",
+        "Huang J",
+        "Xu S",
+        "Ni J",
+        "Cao Y",
+        "Feng Y",
+        "Lyu Q",
+        "Dong N",
+        "Qin G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6495-4602",
+        "ORCID: 0000-0002-5306-4759",
+        "ORCID: 0000-0001-7386-8247",
+        "ORCID: 0000-0002-7997-163X",
+        "ORCID: 0000-0002-1325-6828",
+        "ORCID: 0000-0001-5437-599X",
+        "ORCID: 0000-0002-3135-7307"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Departments of Cardiology (Y.J.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+        "Cardiovascular Surgery (J.S., H.L., N.D.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+        "Cardiovascular Surgery (J.S., H.L., N.D.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Department of Hypertension and Vascular Disease, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China (S.X.).",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.).",
+        "Medical Research Center, Chongqing General Hospital, Chongqing University, China (Q.L.).",
+        "Cardiovascular Surgery (J.S., H.L., N.D.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
+        "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "An, Junqing",
+        "short_name": "An J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Han, Chaoshan",
+        "short_name": "Han C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ying",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Cardiology (Y.J.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jiawei",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery (J.S., H.L., N.D.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huadong",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Surgery (J.S., H.L., N.D.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenqi",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Huang, Jianrong",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Xu, Shiyue",
+        "short_name": "Xu S",
+        "identifiers": [
+          "0000-0001-6495-4602"
+        ],
+        "affiliations": [
+          "Department of Hypertension and Vascular Disease, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China (S.X.)."
+        ]
+      },
+      {
+        "full_name": "Ni, Jie",
+        "short_name": "Ni J",
+        "identifiers": [
+          "0000-0002-5306-4759"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Cao, Yangpo",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0001-7386-8247"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Feng, Yuliang",
+        "short_name": "Feng Y",
+        "identifiers": [
+          "0000-0002-7997-163X"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      },
+      {
+        "full_name": "Lyu, Qing",
+        "short_name": "Lyu Q",
+        "identifiers": [
+          "0000-0002-1325-6828"
+        ],
+        "affiliations": [
+          "Medical Research Center, Chongqing General Hospital, Chongqing University, China (Q.L.)."
+        ]
+      },
+      {
+        "full_name": "Dong, Nianguo",
+        "short_name": "Dong N",
+        "identifiers": [
+          "0000-0001-5437-599X"
+        ],
+        "affiliations": [
+          "Cardiovascular Surgery (J.S., H.L., N.D.), Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Gangjian",
+        "short_name": "Qin G",
+        "identifiers": [
+          "0000-0002-3135-7307"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Homeostatic Medicine Institute, School of Medicine, Southern University of Science and Technology, Shenzhen, Guangdong, China (J.A., C.H., C.W., J.H., J.N., Y.C., Y.F., G.Q.)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Circulation"
+    ],
+    "journal_abbrev": [
+      "Circulation"
+    ],
+    "pub_date": "2026 Jun 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 06:37",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40728184",
+      "40489543",
+      "40408476",
+      "40190276",
+      "39955281",
+      "39746855",
+      "38599256",
+      "38500969",
+      "38351330",
+      "37792222",
+      "37237146",
+      "36344846",
+      "35235343",
+      "34877499",
+      "34642818",
+      "34252225",
+      "34102853",
+      "34099657",
+      "33983836",
+      "33663226",
+      "33558530",
+      "33537092",
+      "33106688",
+      "32396615",
+      "32323921",
+      "32286306",
+      "31455181",
+      "30419824",
+      "29915254",
+      "29674714",
+      "28822962",
+      "28497127",
+      "28030809",
+      "27059137",
+      "26758068",
+      "26628621",
+      "25762000",
+      "24302476",
+      "24214243",
+      "23396452",
+      "23271731",
+      "22705769",
+      "22424772",
+      "22196734",
+      "21067583",
+      "19949938",
+      "19213957",
+      "18083902",
+      "17921325",
+      "16952980",
+      "15374829",
+      "12147544",
+      "9853180"
+    ],
+    "similar": [
+      "42170739",
+      "42003465",
+      "38717638",
+      "41890065",
+      "28687587",
+      "34102853",
+      "41376590",
+      "36370010",
+      "41738082",
+      "33106688",
+      "40728184",
+      "42013958",
+      "40948130",
+      "23396452",
+      "42153297",
+      "41064864",
+      "42299666",
+      "30621510",
+      "39462342",
+      "33070627",
+      "30362822",
+      "34098726",
+      "40948188",
+      "27821723",
+      "42273734",
+      "34139860",
+      "35235343",
+      "40709461",
+      "41274546",
+      "29554241",
+      "24812305",
+      "40940503",
+      "22705769",
+      "37806546",
+      "22884543",
+      "29386187",
+      "26884059",
+      "38414132",
+      "42019832",
+      "41448259",
+      "41220146",
+      "29931050",
+      "33719499",
+      "40849623",
+      "39950300",
+      "35656980",
+      "40071326",
+      "41268652",
+      "23247844",
+      "39306883",
+      "30053525",
+      "27698061",
+      "29127200",
+      "42142820",
+      "26170457",
+      "30371330",
+      "40610735",
+      "25385233",
+      "41487100",
+      "28611091",
+      "25605649",
+      "35730615",
+      "31958467",
+      "41922343",
+      "40583756",
+      "27458801",
+      "30024790",
+      "25089522",
+      "26077624",
+      "38718121",
+      "27146447",
+      "23581564",
+      "40192103",
+      "40037428",
+      "25369805",
+      "30407523",
+      "28799247",
+      "30582455",
+      "35437018",
+      "29555642",
+      "22730442",
+      "29902536",
+      "26573712",
+      "30387679",
+      "42015218",
+      "31564129",
+      "41695487",
+      "22705886",
+      "39921516",
+      "42498204",
+      "26333362",
+      "39373232",
+      "42009955",
+      "39688818",
+      "41145234",
+      "41631390",
+      "32264695",
+      "36974751",
+      "41732856",
+      "30582446"
+    ],
+    "review": [
+      "42170739"
+    ],
+    "pmc": [
+      "13286121"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.125.077533?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42170739/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

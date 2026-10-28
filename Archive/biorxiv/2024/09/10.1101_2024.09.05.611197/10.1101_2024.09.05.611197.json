@@ -1,0 +1,359 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.05.611197",
+  "title": "Application of barcode sequencing to increase the throughput and complexity of Plasmodium falciparum genetic screening",
+  "doi": "10.1101/2024.09.05.611197",
+  "abstract": "<h4>Summary</h4> All the pathology and symptoms associated with malaria are caused by the growth of Plasmodium parasites inside human red blood cells. This process, which in the case of the major human malaria pathogen Plasmodium falciparum takes place over a 48-hour period, involves multiple tightly regulated developmental transitions. Understanding the P. falciparum genes that regulate these key processes could lead to the identification of targets for new drugs. However, while large-scale sequencing efforts have led to a good understanding of the P. falciparum genome and how it evolves over time and space, a disconnect remains between the amount of genome sequence data available and the amount of data describing what exactly the genes contained within it do – the phenotype. We have generated a panel of 66 P. falciparum lines carrying individual gene knockouts tagged with unique DNA barcodes. We then used these lines in a series of assays that combine flow cytometry, cell sorting and DNA barcode quantification using next generation sequencing (Barcode Sequencing or BarSeq) to phenotype key aspects of the parasite life cycle such as growth, replication capacity and cell cycle progression. This approach both yields new data about individual gene function, and outlines a new approach where barcoded P. falciparum lines are used in pooled BarSeq-based assays to generate more precise phenotype data at scale.",
+  "authors": [
+    "Muhwezi A",
+    "Ghorbal M",
+    "Sanderson T",
+    "Ivanova M",
+    "Ansari R",
+    "Harper S",
+    "Wong W",
+    "Schulte R",
+    "Girling G",
+    "Schwach F",
+    "Bushell E",
+    "Beaver C",
+    "Billker O",
+    "Rayner JC"
+  ],
+  "published_date": "2024-09-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.05.611197",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.05.611197.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR906876",
+    "raw_record": {
+      "id": "PPR906876",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR906876"
+        ]
+      },
+      "doi": "10.1101/2024.09.05.611197",
+      "title": "Application of barcode sequencing to increase the throughput and complexity of  <i>Plasmodium falciparum</i>  genetic screening",
+      "authorString": "Muhwezi A, Ghorbal M, Sanderson T, Ivanova M, Ansari R, Harper S, Wong W, Schulte R, Girling G, Schwach F, Bushell E, Beaver C, Billker O, Rayner JC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Muhwezi A",
+            "lastName": "Muhwezi",
+            "firstName": "Allan",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghorbal M",
+            "lastName": "Ghorbal",
+            "firstName": "Mehdi",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanderson T",
+            "lastName": "Sanderson",
+            "firstName": "Theo",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivanova M",
+            "lastName": "Ivanova",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ansari R",
+            "lastName": "Ansari",
+            "firstName": "Rizwan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6820-6393"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harper S",
+            "lastName": "Harper",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wong W",
+            "lastName": "Wong",
+            "firstName": "Wesley",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5664-7143"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harvard T.H. Chan School of Public Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schulte R",
+            "lastName": "Schulte",
+            "firstName": "Reiner",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4928-2857"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Girling G",
+            "lastName": "Girling",
+            "firstName": "Gareth",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8031-1903"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schwach F",
+            "lastName": "Schwach",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5495-7535"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bushell E",
+            "lastName": "Bushell",
+            "firstName": "Ellen",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beaver C",
+            "lastName": "Beaver",
+            "firstName": "Charlotte",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Billker O",
+            "lastName": "Billker",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1716-168X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rayner JC",
+            "lastName": "Rayner",
+            "firstName": "Julian",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5495-7535"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5664-7143"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6820-6393"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8031-1903"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1716-168X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4928-2857"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  All the pathology and symptoms associated with malaria are caused by the growth of  Plasmodium parasites inside human red blood cells. This process, which in the case of the major human malaria pathogen  Plasmodium falciparum takes place over a 48-hour period, involves multiple tightly regulated developmental transitions. Understanding the  P. falciparum genes that regulate these key processes could lead to the identification of targets for new drugs. However, while large-scale sequencing efforts have led to a good understanding of the  P. falciparum genome and how it evolves over time and space, a disconnect remains between the amount of genome sequence data available and the amount of data describing what exactly the genes contained within it do – the phenotype. We have generated a panel of 66  P. falciparum lines carrying individual gene knockouts tagged with unique DNA barcodes. We then used these lines in a series of assays that combine flow cytometry, cell sorting and DNA barcode quantification using next generation sequencing (Barcode Sequencing or BarSeq) to phenotype key aspects of the parasite life cycle such as growth, replication capacity and cell cycle progression. This approach both yields new data about individual gene function, and outlines a new approach where barcoded  P. falciparum lines are used in pooled BarSeq-based assays to generate more precise phenotype data at scale.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.09.05.611197"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.05.611197"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR906876"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR906876&type=FILE&fileName=EMS198958-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198958",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-09-08",
+      "firstPublicationDate": "2024-09-05",
+      "firstIndexDate": "2024-09-08",
+      "fullTextReceivedDate": "2024-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

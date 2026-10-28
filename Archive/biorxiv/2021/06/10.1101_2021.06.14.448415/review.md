@@ -1,0 +1,59 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce seqgra, a deep learning pipeline that combines rule-based simulation of biological sequence data with model training and evaluation, intended to identify neural network architectures that can recover the rules of a hypothesized model of genome regulation, and to analyze predictive performance as a function of training set size, noise level, and rule complexity.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or implementation details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, code availability, and any empirical validation data; without these, the core claims of architecture selection and rule recovery cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually useful tool for linking simulated regulatory rules to neural network interpretability in genomics. However, the claims are broad and the evidence base is limited to a description of intended functionality. No empirical results, benchmarks, or validation of the "principled selection" process are provided, so the central assertions remain unsubstantiated from the supplied material.
+- **Who would be interested in the results, and why** Researchers developing or applying deep learning models to regulatory genomics, particularly those concerned with model interpretability and systematic architecture selection. The tool could also interest computational biologists working on simulation-based benchmarking of sequence models.
+- **Major strengths** The motivation is clear and relevant, addressing a recognized gap between predictive accuracy and mechanistic interpretability in genomics deep learning. The proposed pipeline structure, linking simulation to architecture selection, is a sensible and potentially valuable framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that seqgra can "identify neural network architectures capable of recovering the rules" of a hypothesized model and "analyze a model's predictive performance as a function of training set size, noise level, and the complexity of the rules."
+  - **Evidence pointer** Abstract only; no results section, figures, or tables provided
+  - **Concern** The abstract asserts the capability of the pipeline to perform architecture selection and performance analysis, but no empirical data, case studies, or comparative benchmarks are presented to demonstrate that these functions work as described or produce meaningful outcomes.
+  - **Why it matters** Without validation, the claim of "principled selection" is unsupported. The utility of the tool depends on demonstrated success in recovering known simulation rules across varied conditions, which is not shown.
+  - **Resolution test** Provide results from at least one simulation experiment showing that the selected architecture recovers the ground-truth rules with measurable accuracy, and that performance trends across training set size, noise, and rule complexity are systematically characterized.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract implies that the pipeline integrates simulation, training, and evaluation in a way that "mirror[s] the rules from the simulation process."
+  - **Evidence pointer** Abstract only; no methods or implementation details provided
+  - **Concern** The mechanism by which decision boundaries are made to "mirror" simulation rules is not described. It is unclear whether this is achieved through architecture design, training objectives, or post-hoc analysis, and whether this mirroring is quantitatively assessed.
+  - **Why it matters** The core novelty appears to be the alignment between simulated rules and model behavior. Without a clear technical description and validation of this alignment, the approach cannot be evaluated or reproduced.
+  - **Resolution test** Specify the algorithmic steps that ensure rule recovery, and provide a metric or test that quantifies the fidelity between model decisions and the underlying simulation rules.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "their contributions to a mechanistic understanding of the biology of regulatory elements is often hindered" contains a subject-verb agreement error ("contributions" is plural, "is" is singular).
+  - **Required correction** Change "is" to "are" for grammatical correctness.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope specification
+  - **Affected element** Abstract, list of uses
+  - **Evidence pointer** Abstract, items (1) to (3)
+  - **Issue** The three listed uses are broad and do not specify the types of neural network architectures considered, the range of simulation rules supported, or the evaluation metrics used.
+  - **Required correction** Add brief specification of architecture families (e.g., CNNs, RNNs, transformers) and at least one example of a rule type and a performance metric.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of any empirical validation or technical detail prevents the core claims from being assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of linking rule-based simulation to architecture selection is not entirely new, but the specific integration in a genomics-focused pipeline may offer a novel contribution. However, originality cannot be fully judged without seeing the implementation.
+  - Scientific importance: If validated, the tool could address a real need for interpretable and systematically selected models in regulatory genomics. The importance is plausible but not demonstrated.
+  - Interdisciplinary readership: The topic bridges machine learning and genomics, which could attract a broad audience, but the abstract does not clearly articulate the interdisciplinary novelty or impact.
+  - Technical soundness: Not assessable from the abstract; no methods or results are provided.
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "decision boundaries," "rule-based simulation") without sufficient context for a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising framework, but the absence of empirical results and technical detail means the claims cannot be supported. I would be supportive if the full manuscript provides rigorous validation and clear methodological description.
+
+## Risk / unsupported claims
+- The claim that seqgra can "identify neural network architectures capable of recovering the rules" is unsupported without experimental demonstration.
+- The claim that the pipeline "mirror[s] the rules from the simulation process" is unsupported without a described and validated mechanism.
+- The claim of "principled selection" is unsupported as no selection criteria or comparative results are provided.
+- The general utility of the tool for analyzing performance as a function of training set size, noise, and rule complexity is unverified.

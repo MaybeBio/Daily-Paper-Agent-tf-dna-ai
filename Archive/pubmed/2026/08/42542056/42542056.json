@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "42542056",
+    "doi": "10.1016/j.phymed.2026.158661",
+    "title": "Ubiquitin-proteasome-dependent degradation of HIF-1alpha by cannabidiol disrupts pro-angiogenic synoviocyte-endothelial crosstalk in rheumatoid arthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cannabidiol (CBD), a major non-psychoactive phytocannabinoid derived from Cannabis sativa L., has shown therapeutic potential in rheumatoid arthritis (RA). However, the mechanisms by which CBD modulates synovial angiogenesis remain unclear. PURPOSE: This study aimed to investigate whether CBD attenuates RA progression by suppressing synovial angiogenesis and to elucidate the underlying molecular mechanisms. METHODS: An adjuvant-induced arthritis (AIA) rat model was established to evaluate the therapeutic effects of CBD in vivo using arthritis scoring, micro-CT, and histopathological, immunohistochemical, and immunofluorescence analyses. In vitro, cytotoxicity was determined using the CCK-8 assay, followed by evaluations of CBD's direct effects on the proliferation, migration, invasion, and inflammatory responses of RA fibroblast-like synoviocytes (RA-FLS) were evaluated, alongside Cell Counting Kit-8 (CCK-8) for cytotoxicity screening. Furthermore, the paracrine regulation of angiogenesis was assessed using a conditioned medium (CM) transfer system from hypoxia-stimulated RA-FLS applied to human umbilical vein endothelial cells (HUVECs). Molecular mechanisms were analyzed via Western blotting, RT-qPCR, ELISA, co-immunoprecipitation (Co-IP), molecular docking, and targeted proteasome inhibition (MG132). RESULTS: In vivo, CBD (5 and 10 mg/kg) treatment markedly alleviated joint inflammation, synovial angiogenesis, and structural bone destruction in AIA rats. In vitro, non-cytotoxic concentrations of CBD (2.4-4.8 muM) significantly suppressed aberrant RA-FLS proliferation, migration, invasion, and pro-inflammatory cytokine secretion. Mechanistically, CBD abrogated the hypoxia-induced accumulation of hypoxia-inducible factor-1alpha (HIF-1alpha) protein in RA-FLS without significantly altering HIF1A mRNA expression. This reduction was effectively reversed by MG132. Co-IP and molecular docking analyses revealed that CBD directly enhances the polyubiquitination of HIF-1alpha through stable structural interactions, driving a ubiquitin-proteasome-dependent degradation mechanism. Consequently, CBD dose-dependently decreased the extracellular secretion of vascular endothelial growth factor A (VEGFA) and angiopoietin-2 (ANG-2) from RA-FLS. Functionally, CM from CBD-treated RA-FLS disrupted the pro-angiogenic paracrine crosstalk-independent of direct CBD carryover-significantly impairing HUVEC migration, capillary-like tube formation, and downstream VEGFR2 (Tyr1175) phosphorylation. CONCLUSION: CBD attenuates RA pathogenesis not only by directly suppressing RA-FLS hyperactivity but also by severing the pro-angiogenic paracrine crosstalk between RA-FLS and endothelial cells. These effects are driven by the ubiquitin-proteasome-dependent degradation of HIF-1alpha in RA-FLS via direct structural engagement, which depletes VEGFA/ANG-2 production and subsequent endothelial VEGFR2 activation. These findings highlight CBD as a promising disease-modifying anti-angiogenic therapeutic agent for RA.",
+    "keywords": [
+      "Cannabidiol",
+      "Hypoxia-inducible factor-1alpha (HIF-1alpha)",
+      "Paracrine crosstalk",
+      "Polyubiquitination",
+      "Rheumatoid arthritis fibroblast-like synoviocytes",
+      "Synovial angiogenesis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Cannabidiol/pharmacology",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Synoviocytes/drug effects/metabolism",
+      "*Arthritis, Rheumatoid/drug therapy/metabolism/pathology",
+      "*Proteasome Endopeptidase Complex/metabolism",
+      "Neovascularization, Pathologic/drug therapy",
+      "Rats",
+      "Humans",
+      "*Ubiquitin/metabolism",
+      "Rats, Sprague-Dawley",
+      "Male",
+      "Cell Movement/drug effects",
+      "Arthritis, Experimental/drug therapy",
+      "Cell Proliferation/drug effects",
+      "Human Umbilical Vein Endothelial Cells",
+      "Cannabis/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jing",
+        "Li, Gejing",
+        "Zhao, Fang",
+        "Zhang, Ye",
+        "Mu, Qingrui",
+        "Zhang, Junlan",
+        "Cai, Xiong",
+        "Tang, Yuanyuan"
+      ],
+      "short_names": [
+        "Chen J",
+        "Li G",
+        "Zhao F",
+        "Zhang Y",
+        "Mu Q",
+        "Zhang J",
+        "Cai X",
+        "Tang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China; School of Acumoxology, Tuina and Rehabilitation, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China. Electronic address: caixiong@hnucm.edu.cn.",
+        "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China; School of Acumoxology, Tuina and Rehabilitation, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China. Electronic address: tangyy@hnucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Li, Gejing",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China; School of Acumoxology, Tuina and Rehabilitation, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Fang",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ye",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Qingrui",
+        "short_name": "Mu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junlan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xiong",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China. Electronic address: caixiong@hnucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Yuanyuan",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Innovation and Applied Research in Chinese Medicine, School of Integrated Chinese and Western Medicine, and Department of Rheumatology of First Hospital, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China; School of Acumoxology, Tuina and Rehabilitation, Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China. Electronic address: tangyy@hnucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/02 00:50",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42542056",
+      "39978272",
+      "40020629",
+      "41456528",
+      "38614265",
+      "34781187",
+      "39302595",
+      "42119867",
+      "41644791",
+      "40830133",
+      "42074103",
+      "40359885",
+      "40457476",
+      "41634491",
+      "19859713",
+      "29717129",
+      "32497675",
+      "31234900",
+      "40412131",
+      "37480451",
+      "23872253",
+      "40339966",
+      "37163904",
+      "39750043",
+      "36109396",
+      "37715217",
+      "41630356",
+      "38479157",
+      "41493486",
+      "15623602",
+      "22170561",
+      "40955790",
+      "40081512",
+      "39774992",
+      "24144813",
+      "19111632",
+      "26141990",
+      "35132350",
+      "31396207",
+      "42624615",
+      "39892307",
+      "38838922",
+      "34101073",
+      "27456070",
+      "38449057",
+      "42384747",
+      "22866899",
+      "42389538",
+      "30100905",
+      "40829205",
+      "38460357",
+      "42568831",
+      "37390648",
+      "41482061",
+      "34358861",
+      "35952969",
+      "41616419",
+      "24204851",
+      "25545169",
+      "40085199",
+      "40140527",
+      "40571227",
+      "38722467",
+      "37501360",
+      "37975481",
+      "39970857",
+      "41963573",
+      "42525168",
+      "22488178",
+      "41357175",
+      "41172921",
+      "40963902",
+      "19538463",
+      "41887707",
+      "29481307",
+      "32730833",
+      "39083495",
+      "24309559",
+      "34646130",
+      "26548348",
+      "39390367",
+      "33511203",
+      "35660352",
+      "32044269",
+      "35918412",
+      "41736035",
+      "23001847",
+      "41338150",
+      "35997647",
+      "42214222",
+      "42435918",
+      "37346290",
+      "30871871",
+      "39838477",
+      "41978200",
+      "34933161",
+      "38959553",
+      "32762747",
+      "39672225",
+      "38064612"
+    ],
+    "review": [
+      "42542056"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00892-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3960",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.05.04.23289023",
+  "title": "Opportunities and limitations of genomics for diagnosing bedaquiline-resistant tuberculosis: an individual isolate meta-analysis",
+  "doi": "10.1101/2023.05.04.23289023",
+  "abstract": "<h4>Background</h4> Clinical bedaquiline resistance predominantly involves mutations in mmpR5 ( Rv0678 ). However, mmpR5 resistance-associated variants (RAVs) have a variable relationship with phenotypic M. tuberculosis resistance. We performed a systematic review to (1) assess the maximal sensitivity of sequencing bedaquiline resistance-associated genes and (2) evaluate the association between RAVs and phenotypic resistance, using traditional and machine-based learning techniques. <h4>Methods</h4> We screened public databases for articles published until October 2022. Eligible studies performed sequencing of at least mmpR5 and atpE on clinically-sourced M. tuberculosis isolates and measured bedaquiline minimum inhibitory concentrations (MICs). We performed genetic analysis for identification of phenotypic resistance and determined the association of RAVs with resistance. Machine-based learning methods were employed to define test characteristics of optimised sets of RAVs, and mmpR5 mutations were mapped to the protein structure to highlight mechanisms of resistance. <h4>Results</h4> Eighteen eligible studies were identified, comprising 975 M. tuberculosis isolates containing ≥1 potential RAV (mutation in mmpR5, atpE, atpB or pepQ ), with 201 (20.6%) demonstrating phenotypic bedaquiline resistance. 84/285 (29.5%) resistant isolates had no candidate gene mutation. Sensitivity and positive predictive value of taking an ‘any mutation’ approach was 69% and 14% respectively. Thirteen mutations, all in mmpR5 , had a significant association with a resistant MIC (adjusted p<0.05). Gradient-boosted machine classifier models for predicting intermediate/resistant and resistant phenotypes both had receiver operator characteristic c-statistics of 0.73. Frameshift mutations clustered in the alpha 1 helix DNA binding domain, and substitutions in the alpha 2 and 3 helix hinge region and in the alpha 4 helix binding domain. <h4>Discussion</h4> Sequencing candidate genes is insufficiently sensitive to diagnose clinical bedaquiline resistance, but where identified a limited number of mutations should be assumed to be associated with resistance. Genomic tools are most likely to be effective in combination with rapid phenotypic diagnostics.",
+  "authors": [
+    "Nimmo C",
+    "Bionghi N",
+    "Cummings MJ",
+    "Perumal R",
+    "Hopson M",
+    "Al Jubaer S",
+    "Wolf A",
+    "Mathema B",
+    "Larsen MH",
+    "O’Donnell M"
+  ],
+  "published_date": "2023-05-05",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.05.04.23289023",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.05.04.23289023.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR655543",
+    "raw_record": {
+      "id": "PPR655543",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR655543"
+        ]
+      },
+      "doi": "10.1101/2023.05.04.23289023",
+      "title": "Opportunities and limitations of genomics for diagnosing bedaquiline-resistant tuberculosis: an individual isolate meta-analysis",
+      "authorString": "Nimmo C, Bionghi N, Cummings MJ, Perumal R, Hopson M, Al Jubaer S, Wolf A, Mathema B, Larsen MH, O’Donnell M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nimmo C",
+            "lastName": "Nimmo",
+            "firstName": "Camus",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7355-4651"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Francis Crick Institute, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bionghi N",
+            "lastName": "Bionghi",
+            "firstName": "Neda",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Columbia University Irving Medical Center and New York-Presbyterian Hospital, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cummings MJ",
+            "lastName": "Cummings",
+            "firstName": "Matthew",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine, Columbia University Irving Medical Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perumal R",
+            "lastName": "Perumal",
+            "firstName": "Rubeshan",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CAPRISA-MRC HIV-TB Pathogenesis and Treatment Research Unit, Durban, South Africa"
+                },
+                {
+                  "affiliation": "Division of Pulmonology and Critical Care, Department of Medicine, Inkosi Albert Luthuli Central Hospital, University of KwaZulu-Natal, Durban, South Africa"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hopson M",
+            "lastName": "Hopson",
+            "firstName": "Madeleine",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Columbia University Irving Medical Center and New York-Presbyterian Hospital, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Al Jubaer S",
+            "lastName": "Al Jubaer",
+            "firstName": "Shamim",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Immunology, Albert Einstein College of Medicine, Bronx, NY"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wolf A",
+            "lastName": "Wolf",
+            "firstName": "Allison",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine, Columbia University Irving Medical Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mathema B",
+            "lastName": "Mathema",
+            "firstName": "Barun",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2772-479X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology, Mailman School of Public Health, Columbia University Irving Medical Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Larsen MH",
+            "lastName": "Larsen",
+            "firstName": "Michelle",
+            "initials": "MH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Immunology, Albert Einstein College of Medicine, Bronx, NY"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Donnell M",
+            "lastName": "O’Donnell",
+            "firstName": "Max",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine, Columbia University Irving Medical Center, New York, NY, USA"
+                },
+                {
+                  "affiliation": "CAPRISA-MRC HIV-TB Pathogenesis and Treatment Research Unit, Durban, South Africa"
+                },
+                {
+                  "affiliation": "Division of Pulmonology and Critical Care, Department of Medicine, Inkosi Albert Luthuli Central Hospital, University of KwaZulu-Natal, Durban, South Africa"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7355-4651"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2772-479X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Background</h4> Clinical bedaquiline resistance predominantly involves mutations in mmpR5 ( Rv0678 ). However, mmpR5 resistance-associated variants (RAVs) have a variable relationship with phenotypic M. tuberculosis resistance. We performed a systematic review to (1) assess the maximal sensitivity of sequencing bedaquiline resistance-associated genes and (2) evaluate the association between RAVs and phenotypic resistance, using traditional and machine-based learning techniques. <h4>Methods</h4> We screened public databases for articles published until October 2022. Eligible studies performed sequencing of at least mmpR5 and atpE on clinically-sourced M. tuberculosis isolates and measured bedaquiline minimum inhibitory concentrations (MICs). We performed genetic analysis for identification of phenotypic resistance and determined the association of RAVs with resistance. Machine-based learning methods were employed to define test characteristics of optimised sets of RAVs, and mmpR5 mutations were mapped to the protein structure to highlight mechanisms of resistance. <h4>Results</h4> Eighteen eligible studies were identified, comprising 975 M. tuberculosis isolates containing ≥1 potential RAV (mutation in mmpR5, atpE, atpB or pepQ ), with 201 (20.6%) demonstrating phenotypic bedaquiline resistance. 84/285 (29.5%) resistant isolates had no candidate gene mutation. Sensitivity and positive predictive value of taking an ‘any mutation’ approach was 69% and 14% respectively. Thirteen mutations, all in mmpR5 , had a significant association with a resistant MIC (adjusted p<0.05). Gradient-boosted machine classifier models for predicting intermediate/resistant and resistant phenotypes both had receiver operator characteristic c-statistics of 0.73. Frameshift mutations clustered in the alpha 1 helix DNA binding domain, and substitutions in the alpha 2 and 3 helix hinge region and in the alpha 4 helix binding domain. <h4>Discussion</h4> Sequencing candidate genes is insufficiently sensitive to diagnose clinical bedaquiline resistance, but where identified a limited number of mutations should be assumed to be associated with resistance. Genomic tools are most likely to be effective in combination with rapid phenotypic diagnostics.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Academy of Medical Sciences",
+            "grantId": "SGL027\\1072",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.04.23289023"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR655543"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR655543&type=FILE&fileName=EMS175385-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS175385",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-05-07",
+      "firstPublicationDate": "2023-05-05",
+      "firstIndexDate": "2023-05-07",
+      "fullTextReceivedDate": "2023-06-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

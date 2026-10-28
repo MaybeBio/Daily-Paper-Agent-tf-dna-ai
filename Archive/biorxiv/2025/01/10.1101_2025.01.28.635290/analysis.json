@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.28.635290",
+  "title": "ShapeME: A tool and web front-end for de novo discovery of structural motifs underpinning protein-DNA interactions",
+  "authors": "Jeremy W. Schroeder; Michael B. Wolfe; Lydia Freddolino",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-31",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发ShapeME工具，利用DNAshapeR和信息论方法从头发现DNA结构基序（如小沟宽度）以解释蛋白-DNA结合偏好，虽非直接TF-DNA建模，但聚焦蛋白-DNA互作的结构决定因素，方法可迁移至TF-DNA研究。",
+  "abstract": "Determining where transcriptional regulators bind within a genome is paramount to understanding how gene expression is regulated. Historically, position weight matrices (PWMs) have been used to define the binding preferences of DNA binding proteins 1 . However, PWMs treat the identity of each base in a sequence as an independent and additive measure of binding preference, which can limit their utility 2 . Models that consider higher order interactions between nearby bases yield greater success in predicting proteins’ binding to DNA, but for many proteins there is still substantial room for improvement in predicting and understanding the determinants of proteins’ binding to DNA 3 . In addition to DNA sequence motifs, structural motifs (e.g., a narrow minor groove width) are important determinants of binding for some DNA-binding proteins 4 . Despite the initial success of algorithms using structural features of DNA to predict binding properties of proteins from either ChIP-seq or SELEX data 5–8 , there remains a need for a de novo structural motif discovery framework which can be applied to data from a variety of experimental designs. Here, we present a unified workflow, capable of utilizing virtually any type of data representing sequence coverage or enrichment (e.g. ChIP-seq, RNA-seq, SELEX, etc.), to discover short structural motifs with explanatory power for a protein’s DNA binding preference. We couple the DNAshapeR algorithm 9 with our own information-theoretic approach to de novo motif discovery, and wrap shape and sequence motif inference and model selection into a single tool called ShapeME. Application of our structural motif discovery algorithm to proteins with ChIP-seq data in ENCODE datasets reveals a subset of proteins where short structural motifs outperform the best PWM for that protein as determined from the JASPAR database, or as identified by the sequence motif elicitation tool STREME. Our approach offers a powerful and versatile framework for inferring structural DNA binding motifs, and will complement current sequence-based motif elicitation tools in discovery of protein-DNA interaction principles. A web-based interface to ShapeME is available at https://seq2fun.dcmb.med.umich.edu/shapeme , with full source code available at https://github.com/freddolino-lab/ShapeME .",
+  "abstract_zh": "确定转录调控因子在基因组中的结合位置，对于理解基因表达如何被调控至关重要。历史上，位置权重矩阵（position weight matrices, PWMs）被用于定义DNA结合蛋白的结合偏好¹。然而，PWM将序列中每个碱基的身份视为独立且加性的结合偏好度量，这可能限制其效用²。考虑邻近碱基之间高阶相互作用的模型在预测蛋白质与DNA结合方面取得了更大成功，但对于许多蛋白质，在预测和理解其与DNA结合的决定因素方面仍有显著改进空间³。除了DNA序列基序外，结构基序（例如，窄的小沟宽度）对某些DNA结合蛋白的结合也是重要决定因素⁴。尽管使用DNA结构特征的算法在从ChIP-seq或SELEX数据预测蛋白质结合特性方面取得了初步成功⁵⁻⁸，但仍需一种可应用于多种实验设计数据的从头结构基序发现框架。在此，我们提出一个统一的工作流程，能够利用几乎任何类型的表示序列覆盖度或富集度的数据（例如，ChIP-seq、RNA-seq、SELEX等），来发现对蛋白质DNA结合偏好具有解释力的短结构基序。我们将DNAshapeR算法⁹与我们自己的信息论方法相结合，用于从头基序发现，并将形状和序列基序推断及模型选择整合到一个名为ShapeME的单一工具中。将我们的结构基序发现算法应用于ENCODE数据集中具有ChIP-seq数据的蛋白质，揭示了一组蛋白质，其中短结构基序优于从JASPAR数据库确定或通过序列基序提取工具STREME识别的该蛋白质的最佳PWM。我们的方法为推断结构性DNA结合基序提供了一个强大且多功能的框架，并将补充当前基于序列的基序提取工具，以发现蛋白质-DNA相互作用原理。ShapeME的基于网络的界面可在https://seq2fun.dcmb.med.umich.edu/shapeme 获取，完整源代码可在https://github.com/freddolino-lab/ShapeME 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.28.635290",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.28.635290",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.28.635290/index.html"
+}

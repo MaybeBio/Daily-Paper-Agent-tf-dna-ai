@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, data availability)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and suitability for a Nature-series journal
+- **Shared manuscript claim summary** The authors propose that human moonlighting DNA-binding proteins (mDBPs) can be distinguished from other DNA-binding proteins (oDBPs) using first-principles features (sequence, predicted structure, evolutionary profiles, PPI network properties, gene expression), and that a machine learning model trained on these features can predict mDBPs with 74% AUC of ROC. They further claim that several high-scoring false positives have literature support for moonlighting and are proposed as novel candidates.
+- **Visible evidence base** Main text figures (Figure 1, 2, 3A–F), Table 1, supplementary tables referenced (ST1–ST4), supplementary figures referenced (SF1, SF2)
+- **Missing materials affecting confidence** Supplementary tables ST1–ST4 and supplementary figures SF1–SF2 were not provided for review. Feature lists, exact model hyperparameters, cross-validation details, and the full candidate list in Table 2 were not fully visible. The Zenodo/GitHub repository contents were not inspected.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuinely interesting and under-explored problem: whether moonlighting function can be predicted within a single functional class of proteins (DNA-binding proteins) in a single organism (human), using features computable from sequence and public databases. The authors have assembled a carefully curated dataset and applied a reasonable machine learning pipeline. However, the central claim of predictive utility at 74% AUC is modest and the evidence base is incomplete in several respects. The comparison with existing methods is limited, the analysis of feature importance is largely descriptive, and the proposed candidate list is not validated experimentally or through independent functional annotation. The manuscript is technically sound in its general approach but does not yet establish a strong case for broad significance or methodological novelty beyond the specific dataset. The writing is generally clear but some sections are repetitive and the mechanistic interpretation of features is speculative.
+- **Who would be interested in the results, and why** Researchers working on protein multifunctionality, moonlighting proteins, and function annotation would be the primary audience. The work may also interest those developing machine learning approaches for protein function prediction, particularly where class labels are sparse and feature sets are heterogeneous. The candidate list of novel mDBPs could be of interest to experimentalists studying specific proteins (e.g., CDK9, IMPDH2, SOD2) for potential alternative functions.
+- **Major strengths** 1) The problem is well-framed and the focus on a single functional class in a single organism is a sensible design choice that avoids some of the confounding issues in general moonlighting prediction. 2) The dataset curation is careful, with explicit filtering steps (sequence redundancy, domain exclusion, direct DNA-binding annotation). 3) The use of diverse feature types (sequence, evolution, structure, PPI, expression) is appropriate and the ensemble approach is reasonable. 4) The authors are appropriately cautious in interpreting their results and acknowledge limitations of existing methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims that mDBPs can be predicted from oDBPs with 74% AUC of ROC using first-principles features.
+  - **Evidence pointer** Table 1, Results section "Classification model for mDBP versus oDBPs"
+  - **Concern** The reported 74% AUC is the primary quantitative evidence for the central claim. However, the details of how this performance was achieved are incomplete. The manuscript states that Catboost was selected as the best model after comparing five algorithms, but the comparison results are only described as "data not shown." The final ensemble approach (running Catboost 10 times and averaging) is described, but the variance across runs, the stability of the AUC estimate, and the specific feature combinations used in the final model are not reported. Without these details, it is not possible to assess whether the 74% AUC is robust or an artifact of the specific cross-validation procedure.
+  - **Why it matters** The central claim of the paper rests on this performance estimate. If the estimate is not stable or the methodology is not fully transparent, the claim of predictive utility is not established. The comparison with existing methods (MPFit, MEL-ME) is also based on this estimate, so any uncertainty propagates to the comparative claims.
+  - **Resolution test** Provide the full comparison of the five algorithms, report the mean and standard deviation of AUC across multiple cross-validation runs, and specify the exact feature sets used in the final ensemble model. If possible, provide a permutation test or similar to show that the 74% AUC is significantly better than chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of candidate predictions
+  - **Claim pointer** The manuscript claims that 10 out of 53 top-scoring false positives have literature support for moonlighting and are proposed as novel candidates.
+  - **Evidence pointer** Table 2, Results section "Candidate novel moonlight DBPs"
+  - **Concern** The validation of candidate mDBPs is based on literature search by the authors. The criteria for what constitutes "literature support" are not defined. It is unclear whether the authors systematically searched for evidence of alternative functions, whether the search was blinded to the prediction status, and whether the 10/53 hit rate is significantly better than what would be expected by chance for any set of 53 DBPs. The examples given (CDK9, IMPDH2, FOS, NRF-1, SOD2) are plausible but the evidence for moonlighting is circumstantial in some cases (e.g., SOD2's prooxidant role is not clearly a distinct function). Without a systematic and transparent validation protocol, the claim that these are "novel" candidates is not well supported.
+  - **Why it matters** The candidate list is a key output of the work and is presented as evidence that the model can identify biologically meaningful predictions. If the validation is not rigorous, the practical utility of the model is questionable.
+  - **Resolution test** Define explicit criteria for moonlighting evidence (e.g., experimental demonstration of a second function, distinct from the primary function, in a different cellular context). Describe the literature search protocol, including databases searched, search terms, and inclusion/exclusion criteria. Provide a control analysis showing that a random set of 53 DBPs would not yield a similar hit rate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The manuscript claims that existing general moonlighting prediction methods (MPFit, MEL-ME) only reach 62% AUC in predicting mDBPs from oDBPs, making the novel method important.
+  - **Evidence pointer** Table 1, Results section "Classification model for mDBP versus oDBPs"
+  - **Concern** The comparison with MPFit and MEL-ME is limited to two methods, and the details of how these methods were applied are not fully described. It is unclear whether these methods were retrained on the authors' dataset or used as-is with their default parameters. The feature sets used by these methods may not be directly comparable to the authors' first-principles features. The claim that the novel method is "important" because it outperforms these methods is weakened by the limited scope of the comparison.
+  - **Why it matters** The comparative claim is used to justify the need for a new method. If the comparison is not fair or comprehensive, the novelty and utility of the proposed approach are not clearly established.
+  - **Resolution test** Provide details on how MPFit and MEL-ME were applied (retrained or used as-is, parameter settings, feature preprocessing). Consider comparing against additional general moonlighting prediction methods if available. Report performance metrics beyond AUC (e.g., precision-recall) for all methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation of features
+  - **Claim pointer** The manuscript interprets specific features (e.g., serine/valine composition, PPI network properties, predicted strand content) as mechanistically linked to moonlighting.
+  - **Evidence pointer** Results section "Discriminatory features of moonlighting function in DBPs", Figure 3A–F
+  - **Concern** The interpretation of feature differences between mDBPs and oDBPs is largely speculative. For example, the claim that higher strand content in mDBPs "may be an indication of moonlighting function" is not supported by any structural or functional analysis. The observation that serine and valine composition differs is not mechanistically explained. The authors acknowledge some of these limitations, but the interpretive sections go beyond what the data can support.
+  - **Why it matters** The manuscript aims to provide insights into the mechanistic basis of moonlighting. If the feature interpretations are not well grounded, this aspect of the work is weakened.
+  - **Resolution test** Either temper the mechanistic claims to be explicitly hypothesis-generating, or provide additional analyses (e.g., structural modeling, functional enrichment, comparison with known moonlighting mechanisms) to support the interpretations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The manuscript states that code and data are available at two URLs (GitHub and Zenodo), but the specific contents of these repositories are not described. It is unclear whether the exact dataset (including the 29 mDBPs and 643 oDBPs with all feature values) and the full pipeline (including feature extraction scripts) are included.
+  - **Required correction** Provide a detailed description of the repository contents, including file formats, and ensure that all data and code needed to reproduce the results are included.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The manuscript reports AUC values but does not report confidence intervals or significance tests for the differences between feature sets or between the proposed method and existing methods.
+  - **Required correction** Report confidence intervals for AUC estimates and, where relevant, statistical tests for differences between models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3A–F
+  - **Issue** The figure panels are described in the text but the specific statistical tests used to generate the p-values shown are not described in the figure legend or methods. It is unclear whether these are t-tests, Mann-Whitney U tests, or something else.
+  - **Required correction** Specify the statistical test used for each panel in the figure legend or methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction, Results
+  - **Evidence pointer** Introduction, Results section "Candidate novel moonlight DBPs"
+  - **Issue** The term "first principles" is used to describe features that are computed from sequence and predicted structure. This term is somewhat misleading, as these features are not derived from fundamental physical principles but rather from bioinformatics predictions and databases.
+  - **Required correction** Consider using a more precise term such as "sequence-derived and predicted structural features" or "computable features."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete reporting of model selection and performance stability) and R1-M2 (lack of a rigorous validation protocol for candidate predictions) are the primary technical failings. Without addressing these, the central claims of predictive utility and biological discovery are not fully established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on a single functional class (DBPs) in a single organism (human) is a reasonable and somewhat novel angle, but the general approach of using machine learning on sequence-derived features for function prediction is well established. The originality is moderate.
+  - Scientific importance: The problem of predicting moonlighting function is of interest to a specialized community, but the broader importance is limited by the modest predictive performance and the lack of experimental validation. The work does not address a fundamental question in biology.
+  - Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The methods and results are unlikely to attract a broad interdisciplinary audience.
+  - Technical soundness: The general methodology is sound, but the incomplete reporting of model selection and validation details (R1-M1) and the lack of a rigorous candidate validation protocol (R1-M2) are significant weaknesses.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, but some sections (e.g., feature descriptions) are dense and may be challenging for nonspecialists. The mechanistic interpretations are speculative and could be confusing.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting problem and the dataset is a useful resource, but the central claims of predictive utility and candidate discovery are not fully supported by the evidence presented. The incomplete reporting of model selection and validation, and the lack of a rigorous candidate validation protocol, are significant issues that need to be addressed. I would be supportive of reconsideration if these concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that mDBPs can be predicted with 74% AUC is not fully supported due to incomplete reporting of model selection and performance stability (R1-M1).
+- The claim that 10 out of 53 top-scoring false positives have literature support for moonlighting is not supported by a defined validation protocol (R1-M2).
+- The claim that the proposed method outperforms existing methods is weakened by the limited comparison (R1-M3).
+- The mechanistic interpretations of feature differences (e.g., strand content, amino acid composition) are speculative and not supported by direct evidence (R1-M4).
+- The claim that the work "will help in deciphering and annotating novel moonlighting DBPs" is a forward-looking statement that is not directly supported by the results presented.

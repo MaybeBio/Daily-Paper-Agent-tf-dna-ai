@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "41512179",
+    "doi": "10.1021/acs.jproteome.5c00826",
+    "title": "FGA Serves as a Potential Diagnostic Marker and Therapeutic Target for Elderly Acute Kidney Injury."
+  },
+  "content": {
+    "abstract": "To identify potential biomarkers and explore the underlying mechanisms of elderly acute kidney injury (e-AKI), we performed integrative plasma proteomics analysis on samples from 20 e-AKI patients and 20 age-matched non-AKI controls. Differential expression gene analysis, GSEA, WGCNA, random forest, and LASSO models were employed to identify hub genes, coupled with immune cell infiltration and clinicopathological correlation analyses. A renal ischemia-reperfusion injury mouse model validated key genes at protein and mRNA levels, while in vitro experiments explored the pathway involvement. We identified 229 e-AKI-associated genes enriched in immune, inflammatory, and coagulation pathways. Machine learning combined with the Nephroseq database yielded three hub genes; in vivo and in vitro experiments confirmed fibrinogen alpha chain (FGA) as the most relevant gene, which may regulate e-AKI progression via the cAMP/PKA/CREB pathway. Collectively, FGA holds promise as a diagnostic biomarker and therapeutic target for e-AKI, laying the theoretical foundation for its mechanistic research.",
+    "keywords": [
+      "FGA",
+      "biomarker",
+      "e-AKI",
+      "proteomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Biomarkers/blood",
+      "Animals",
+      "*Acute Kidney Injury/diagnosis/genetics/blood",
+      "*Fibrinogen/genetics/metabolism",
+      "Mice",
+      "Proteomics/methods",
+      "Aged",
+      "Male",
+      "Reperfusion Injury/genetics/blood",
+      "Female",
+      "Kidney/pathology",
+      "Disease Models, Animal",
+      "Cyclic AMP Response Element-Binding Protein/metabolism/genetics",
+      "Cyclic AMP-Dependent Protein Kinases/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Hong",
+        "Dai, Jiacen",
+        "Deng, Shuping",
+        "Xu, Lingwen",
+        "Kuang, Qihui",
+        "Wei, Xiao",
+        "Yuan, Yuan",
+        "Dong, Fang",
+        "Wang, Xiong",
+        "Luo, Pengcheng"
+      ],
+      "short_names": [
+        "Yu H",
+        "Dai J",
+        "Deng S",
+        "Xu L",
+        "Kuang Q",
+        "Wei X",
+        "Yuan Y",
+        "Dong F",
+        "Wang X",
+        "Luo P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0922-7792"
+      ],
+      "affiliations": [
+        "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Urology, School of Medicine, Wuhan Third Hospital, Wuhan University of Science and Technology, Wuhan 430060, China.",
+        "Department of Intensive Care Unit, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Intensive Care Unit, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Urology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou 511400, China.",
+        "Department of Intensive Care Unit, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of pharmacy, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China.",
+        "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Hong",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Jiacen",
+        "short_name": "Dai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, School of Medicine, Wuhan Third Hospital, Wuhan University of Science and Technology, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Shuping",
+        "short_name": "Deng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lingwen",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Qihui",
+        "short_name": "Kuang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xiao",
+        "short_name": "Wei X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yuan",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Panyu Central Hospital, Guangzhou Medical University, Guangzhou 511400, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Fang",
+        "short_name": "Dong F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of pharmacy, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Pengcheng",
+        "short_name": "Luo P",
+        "identifiers": [
+          "0000-0002-0922-7792"
+        ],
+        "affiliations": [
+          "Department of Urology, Wuhan Third Hospital and Tongren Hospital of Wuhan University, Wuhan 430060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of proteome research"
+    ],
+    "journal_abbrev": [
+      "J Proteome Res"
+    ],
+    "pub_date": "2026 Feb 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 18:31",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40216046",
+      "39934788",
+      "39191768",
+      "38820434",
+      "38814420",
+      "38749845",
+      "38679120",
+      "38633262",
+      "38091407",
+      "38069234",
+      "37923734",
+      "37832029",
+      "37533395",
+      "37511062",
+      "37209816",
+      "36995007",
+      "36972781",
+      "36910111",
+      "36746359",
+      "36700506",
+      "36609502",
+      "36512724",
+      "36509342",
+      "36499760",
+      "36442540",
+      "36423650",
+      "36371256",
+      "35821993",
+      "35584927",
+      "35508946",
+      "35381071",
+      "35309079",
+      "35257941",
+      "34853151",
+      "34757121",
+      "33813065",
+      "33411069",
+      "33292604",
+      "33191852",
+      "32784471",
+      "32699280",
+      "32413402",
+      "32349578",
+      "32303282",
+      "32156793",
+      "32086277",
+      "31777389",
+      "31776635",
+      "31751527",
+      "31415242",
+      "31295712",
+      "30742783",
+      "30385480",
+      "30147352",
+      "30135570",
+      "29935950",
+      "29497527",
+      "29291763",
+      "26150607",
+      "25822800",
+      "25770168",
+      "25007874",
+      "24889604",
+      "23950145",
+      "23515053",
+      "20125094",
+      "15385600"
+    ],
+    "similar": [
+      "41512179",
+      "40216046",
+      "40155864",
+      "38815767",
+      "40103812",
+      "42315974",
+      "42392719",
+      "35658960",
+      "39356055",
+      "37789227",
+      "34545331",
+      "40891136",
+      "41504784",
+      "36125921",
+      "33401265",
+      "40864881",
+      "39600181",
+      "41587732",
+      "40116046",
+      "37033969",
+      "30066587",
+      "38472598",
+      "36793712",
+      "39583859",
+      "42473685",
+      "40208026",
+      "39112648",
+      "34724064",
+      "41905213",
+      "38428147",
+      "42433268",
+      "39308866",
+      "39920300",
+      "40783104",
+      "37063876",
+      "41707742",
+      "38506705",
+      "41837645",
+      "20181666",
+      "40374840",
+      "42576380",
+      "37952529",
+      "41205031",
+      "40931477",
+      "35910788",
+      "39934788",
+      "41241671",
+      "38690269",
+      "34871811",
+      "41422302",
+      "39313116",
+      "40754871",
+      "38851159",
+      "41747788",
+      "40262199",
+      "40312502",
+      "40845179",
+      "41146542",
+      "32967729",
+      "32414157",
+      "35055195",
+      "38951833",
+      "42305536",
+      "40519909",
+      "39096939",
+      "30675758",
+      "42121010",
+      "39442187",
+      "36313991",
+      "41137350",
+      "40068024",
+      "30968541",
+      "41186507",
+      "37704087",
+      "41166509",
+      "33982674",
+      "40258914",
+      "32759272",
+      "41656809",
+      "36449688",
+      "41139230",
+      "41666605",
+      "31802235",
+      "38526145",
+      "41151411",
+      "39820927",
+      "41299729",
+      "28704336",
+      "39362583",
+      "42033502",
+      "30205407",
+      "40107353",
+      "41269672",
+      "39833975",
+      "21147844",
+      "24206243",
+      "26061546",
+      "37083129",
+      "40595246",
+      "32492657"
+    ],
+    "review": [
+      "41512179"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1117",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jprobs/article-lookup/doi/10.1021/acs.jproteome.5c00826",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

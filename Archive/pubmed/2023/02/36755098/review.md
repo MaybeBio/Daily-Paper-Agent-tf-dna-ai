@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, figure legends, and supplementary information descriptions.
+- **Assessment boundary** Scientific and technical evaluation of the presented method, its validation, and the claims made. No assessment of formatting, grammar, or editorial fit.
+- **Shared manuscript claim summary** The authors present CellOracle, a computational method that infers cell-type-specific gene regulatory networks (GRNs) from single-cell multi-omics data and performs in silico transcription factor (TF) perturbation to simulate changes in cell identity. The method is validated against known TF roles in mouse and human haematopoiesis and zebrafish embryogenesis. Novel predictions in zebrafish axial mesoderm development, including a role for lhx1a, are experimentally validated.
+- **Visible evidence base** Abstract, full main text, methods section, figure legends (Figs. 1–5), extended data figure legends, supplementary figure/table legends, and references cited within the text.
+- **Missing materials affecting confidence** Actual figures and extended data figures are not provided; only legends are visible. Supplementary figures, tables, and videos are referenced but not provided. Specific numerical results, statistical details, and parameter settings are not fully visible. Code and data availability are stated but not independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a conceptually appealing and technically sophisticated approach to interrogate cell identity through GRN inference and in silico perturbation. The method is clearly described and the authors demonstrate its utility across multiple well-characterized systems. The validation strategy, combining known biological benchmarks with novel experimental validation, is commendable. However, the current evidence base, as visible, leaves several technical and conceptual concerns unaddressed, particularly regarding the interpretability of the perturbation simulations, the robustness of the GRN inference, and the strength of the experimental validation. The work is potentially significant, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists developing and applying network inference methods; developmental biologists studying cell fate decisions, particularly in haematopoiesis and zebrafish; researchers interested in the regulatory logic of cell identity and differentiation. The method offers a scalable and interpretable framework that could be broadly applicable.
+- **Major strengths**
+    1.  The core concept of using GRN models for in silico perturbation is timely and addresses a clear gap in the field, moving beyond static network analysis.
+    2.  The method is designed to be interpretable, using linear models and a clear vector-based output, which is a significant advantage over black-box deep learning approaches.
+    3.  The validation strategy is strong, benchmarking against known biology in multiple systems and including experimental validation of novel predictions.
+    4.  The authors are transparent about the method's limitations and provide practical guidance on parameter choices.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that CellOracle can "correctly model reported changes in phenotype that occur as a result of transcription factor perturbation" and that the in silico perturbation simulations are a faithful representation of biological perturbation.
+    - **Evidence pointer** Methods: "Cell identity following perturbation of regulatory genes"; Fig. 1d-f; Extended Data Fig. 4
+    - **Concern** The simulation methodology relies on a linear GRN model and propagates a "shift" in TF expression through the network. The biological validity of this approach is not fully established. The manuscript does not adequately address how the magnitude of the simulated shift is calibrated, how the linear approximation handles known non-linear regulatory logic (e.g., cooperative binding, repression thresholds), and whether the resulting vector field is sensitive to the choice of shift magnitude. The validation against known phenotypes is qualitative (visual inspection of vector fields) and lacks a quantitative metric to assess the accuracy of the simulation beyond the perturbation score.
+    - **Why it matters** The core claim of the paper is that this simulation can predict biological outcomes. If the simulation is not a robust and accurate representation of biological perturbation, the predictive power of the method is questionable. The lack of a clear calibration and sensitivity analysis undermines confidence in the method's general applicability.
+    - **Resolution test** The authors should provide a detailed sensitivity analysis of the simulation to the magnitude of the TF shift. They should also demonstrate, using a quantitative metric, that the simulated vector fields accurately predict the direction of cell identity change in a held-out set of known TF perturbations. A comparison of the linear model's predictions to a non-linear model on a test case would strengthen the argument for the linear approximation.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the GRN inference method is accurate and captures "cell-type- or cell-state-specific GRN configurations" that are biologically meaningful.
+    - **Evidence pointer** Methods: "Base GRN construction using scATAC-seq data", "GRN inference using scRNA-seq data"; Extended Data Fig. 2
+    - **Concern** The benchmarking of the GRN inference is performed against a ground truth derived from ChIP-seq data. While this is a reasonable approach, the ground truth itself is limited by the availability and quality of ChIP-seq data, and the benchmark only assesses the ability to recover known binding events, not necessarily functional regulatory relationships. The performance metrics (AUROC, EPR) are reported, but the practical implications of these scores for the downstream simulation are not discussed. The sensitivity of the GRN inference to the choice of clustering resolution, the number of genes included, and the regularization parameters is not fully explored.
+    - **Why it matters** The GRN is the foundation of the entire simulation. If the inferred GRN is noisy or contains many false positives/negatives, the simulation results will be unreliable. The authors need to demonstrate that their GRN inference is robust and that the downstream simulation is not overly sensitive to the specific GRN configuration used.
+    - **Resolution test** The authors should perform a robustness analysis of the GRN inference, e.g., by subsampling cells, varying the number of clusters, and assessing the stability of the inferred network and the resulting simulation outcomes. They should also discuss the potential impact of false positive/negative edges on the simulation results.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The claim that the method can "provide mechanistic insights into development and differentiation" and that the identified regulators, such as lhx1a, are novel and important.
+    - **Evidence pointer** Fig. 5; Methods: "CRISPR–Cas9-based mutagenesis of F0 embryos"
+    - **Concern** The experimental validation of lhx1a is presented as a key result. However, the validation is limited to a single time point (10 hpf) and relies on cell-type composition and marker expression changes. The manuscript does not provide a deep mechanistic analysis of how lhx1a exerts its function, nor does it fully explore the downstream consequences of its loss. The claim that this is a "previously unreported phenotype" is strong and requires a more thorough demonstration that the phenotype is specific and not a secondary effect of general developmental delay or toxicity.
+    - **Why it matters** The novelty and importance of the biological findings are a key part of the paper's significance. A more detailed and mechanistic validation would significantly strengthen the claim that CellOracle can uncover new biology.
+    - **Resolution test** The authors should provide a more detailed characterization of the lhx1a phenotype, including analysis of additional time points, examination of specific molecular markers, and ideally, rescue experiments or identification of downstream targets. A more nuanced discussion of the specificity of the phenotype would also be helpful.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract; Main text: Introduction
+    - **Issue** The abstract and introduction are dense and assume significant prior knowledge of GRN inference and single-cell computational methods. The core concept of "in silico perturbation" could be explained more clearly for a broader audience.
+    - **Required correction** Consider adding a sentence in the abstract and introduction that explains the concept of in silico perturbation in more accessible terms, perhaps with a simple analogy.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods: "Calculation of pseudotime gradient vector field and inner-product score"
+    - **Evidence pointer** Methods: "Calculation of pseudotime gradient vector field and inner-product score to generate a perturbation score"
+    - **Issue** The description of the perturbation score calculation is somewhat brief. The choice of the inner product as a metric and the interpretation of its magnitude and sign could be explained more thoroughly.
+    - **Required correction** Expand the methods section to provide a more detailed explanation of the perturbation score, including its mathematical properties and how it should be interpreted in different biological contexts.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods: "Base GRN construction using scATAC-seq data"
+    - **Evidence pointer** Methods: "Base GRN construction using scATAC-seq data"
+    - **Issue** The description of the base GRN construction from scATAC-seq data is clear but could benefit from a more explicit statement about the limitations of using motif scanning to define potential regulatory interactions, as this can generate many false positives.
+    - **Required correction** Add a sentence acknowledging the limitations of motif-based approaches and how the subsequent scRNA-seq-based model fitting helps to mitigate these issues.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of sensitivity analysis and quantitative validation of the simulation methodology.
+    - R1-M2: Insufficient robustness analysis of the GRN inference and its impact on simulation outcomes.
+- **Assessment against Nature-style criteria**
+    - **Originality** High. The concept of using GRN models for in silico perturbation to simulate cell identity changes is a novel and creative contribution.
+    - **Scientific importance** Potentially high. If the method is robust, it could provide a powerful tool for predicting TF function and understanding cell fate decisions. The experimental validation of lhx1a adds to the potential importance.
+    - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational and developmental biologists. The methods and concepts may be less accessible to a broader biological audience.
+    - **Technical soundness** Currently not fully established. The core simulation and inference methods require further validation and robustness analysis to be considered technically sound.
+    - **Readability for nonspecialists** The manuscript is well-written but technically dense. The core concepts could be explained more clearly for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the validation strategy is thoughtful. However, the technical concerns regarding the simulation methodology and GRN robustness are significant and must be addressed before the case is fully established.

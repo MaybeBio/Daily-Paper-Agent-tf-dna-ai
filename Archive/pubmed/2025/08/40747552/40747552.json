@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "40747552",
+    "doi": "10.1002/cam4.71063",
+    "title": "Predicting p53 Status in IDH-Mutant Gliomas Using MRI-Based Radiomic Model."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Accurate and noninvasive detection of p53 status in isocitrate dehydrogenase mutant (IDH-mt) glioma is clinically meaningful for molecular stratification of glioma, yet it remains challenging. We aimed to investigate the diagnostic efficacy of radiomics utilizing pre-surgery contrast-enhanced T1-weighted imaging (CE-T1WI) for predicting p53 status in IDH-mt gliomas. METHODS: A total of seventy-eight patients with pathologically confirmed IDH-mutant glioma were admitted to our institution between January 2011 and October 2018. For each patient, three types of volumes of interest (VOIs) were segmented: (i) VOI(T): the entire tumor (including the necrotic area within the tumor); (ii) VOI(PE): the peritumoral edema; (iii) VOI(T + PE): the entire tumor and peritumoral edema. A total of 962 radiomic features were extracted for each VOI, followed by feature selection and modeling (Rad_VOI(T), Rad_VOI(PE), and Rad_VOI(T + PE) models) using machine learning algorithms. A nomogram was developed to integrate significant clinical factors and radiomic predictors for p53 status prediction. Akaike Information Criterion (AIC) was leveraged as the stopping rule. The predictive performance of the models was evaluated using receiver operating characteristic (ROC) curve analysis. RESULTS: The VOI(PE) model, which included the eight best-performing features, demonstrated the highest predictive performance among the three VOI-based models, with AUCs of 0.811 (95% CI: 0.782-0.840) and 0.810 (95% CI: 0.786-0.834) in the training and validation cohorts, respectively. Age was identified as the only significant clinical factor and was combined with the Rad-scores from VOI(T), VOI(PE), and VOI(T + PE) to construct a clinical-radiomics nomogram with the most notable discriminative ability for p53 status (AIC = -120.19). The AUCs for this nomogram were 0.969 (95% CI: 0.942-0.996) in the training cohort and 0.929 (95% CI: 0.898-0.960) in the validation cohort. CONCLUSION: The CE-T1WI-based radiomic model can noninvasively predict p53 mutation status in IDH-mt gliomas. The textural differences of peritumoral edema may more accurately reflect the underlying tumor heterogeneity associated with p53 status.",
+    "keywords": [
+      "IDH-mutant",
+      "contrast-enhanced T1WI",
+      "glioma",
+      "p53 status",
+      "radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioma/genetics/diagnostic imaging/pathology",
+      "*Isocitrate Dehydrogenase/genetics",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Magnetic Resonance Imaging/methods",
+      "*Mutation",
+      "Adult",
+      "*Brain Neoplasms/genetics/diagnostic imaging/pathology",
+      "Aged",
+      "Nomograms",
+      "Machine Learning",
+      "Retrospective Studies",
+      "Young Adult",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiamin",
+        "Lan, Zhihong",
+        "Zhang, Xiao",
+        "Liang, Xiaoyun",
+        "Chen, Hanwei",
+        "Yu, Xiangrong"
+      ],
+      "short_names": [
+        "Li J",
+        "Lan Z",
+        "Zhang X",
+        "Liang X",
+        "Chen H",
+        "Yu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2656-9847"
+      ],
+      "affiliations": [
+        "Department of Radiology, Zhuhai People's Hospital, Zhuhai Hospital Affiliated With Jinan University, Zhuhai, China.",
+        "Department of Radiology, Guangzhou Panyu Health Management Center (Guangzhou Panyu Rehabilitation Hospital), Guangzhou, China.",
+        "Department of Radiology, Zhuhai People's Hospital, Zhuhai Hospital Affiliated With Jinan University, Zhuhai, China.",
+        "Medical AI Lab, The First Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Hebei Provincial Engineering Research Center for AI-Based Cancer Treatment Decision-Making, The First Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of Oncology, The First Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Institute of Research and Clinical Innovations, Neusoft Medical Systems Co. Ltd, Guangzhou, China.",
+        "Department of Radiology, Guangzhou Panyu Health Management Center (Guangzhou Panyu Rehabilitation Hospital), Guangzhou, China.",
+        "Department of Radiology, Zhuhai People's Hospital, Zhuhai Hospital Affiliated With Jinan University, Zhuhai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiamin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Zhuhai People's Hospital, Zhuhai Hospital Affiliated With Jinan University, Zhuhai, China.",
+          "Department of Radiology, Guangzhou Panyu Health Management Center (Guangzhou Panyu Rehabilitation Hospital), Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Zhihong",
+        "short_name": "Lan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Zhuhai People's Hospital, Zhuhai Hospital Affiliated With Jinan University, Zhuhai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiao",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Medical AI Lab, The First Hospital of Hebei Medical University, Shijiazhuang, China.",
+          "Hebei Provincial Engineering Research Center for AI-Based Cancer Treatment Decision-Making, The First Hospital of Hebei Medical University, Shijiazhuang, China.",
+          "Department of Oncology, The First Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Xiaoyun",
+        "short_name": "Liang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Research and Clinical Innovations, Neusoft Medical Systems Co. Ltd, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hanwei",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangzhou Panyu Health Management Center (Guangzhou Panyu Rehabilitation Hospital), Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiangrong",
+        "short_name": "Yu X",
+        "identifiers": [
+          "0000-0003-2656-9847"
+        ],
+        "affiliations": [
+          "Department of Radiology, Zhuhai People's Hospital, Zhuhai Hospital Affiliated With Jinan University, Zhuhai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/01 06:28",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "41583907"
+    ],
+    "refs": [
+      "37760146",
+      "37301862",
+      "34875674",
+      "34185076",
+      "33179832",
+      "32819307",
+      "32431205",
+      "32002804",
+      "31953409",
+      "31857632",
+      "30927935",
+      "30696801",
+      "29582169",
+      "29573085",
+      "29527478",
+      "29394005",
+      "29092951",
+      "28390900",
+      "28031556",
+      "27157931",
+      "26753647",
+      "26530262",
+      "25258367",
+      "24842956",
+      "24590827",
+      "24421847",
+      "23202049",
+      "22397650",
+      "21339352",
+      "20975057",
+      "19565930",
+      "17441839",
+      "15758009",
+      "14734474"
+    ],
+    "similar": [
+      "40747552",
+      "31828414",
+      "33179832",
+      "37778708",
+      "39875517",
+      "38134061",
+      "38815636",
+      "40155892",
+      "40391963",
+      "38110710",
+      "40749226",
+      "40660102",
+      "38858272",
+      "30661193",
+      "29394005",
+      "37672053",
+      "38702613",
+      "38360515",
+      "38775670",
+      "35984514",
+      "32162004",
+      "33475317",
+      "39704530",
+      "39708927",
+      "36853347",
+      "32239241",
+      "39523101",
+      "38803534",
+      "31820065",
+      "32315266",
+      "33243896",
+      "33819703",
+      "35133485",
+      "39556508",
+      "31606714",
+      "40860684",
+      "40560010",
+      "39523433",
+      "38396261",
+      "30972543",
+      "33121211",
+      "32740813",
+      "39285364",
+      "38944632",
+      "29527478",
+      "38381384",
+      "37331987",
+      "33414227",
+      "27353503",
+      "30194745",
+      "40157017",
+      "40420017",
+      "36727433",
+      "33163535",
+      "30719536",
+      "39251442",
+      "30260592",
+      "39367752",
+      "33553421",
+      "32193643",
+      "34016731",
+      "38402087",
+      "38713025",
+      "39380365",
+      "31127834",
+      "33299387",
+      "33685792",
+      "40299088",
+      "38943156",
+      "35488516",
+      "28714279",
+      "38874235",
+      "40197845",
+      "41085784",
+      "37855851",
+      "28004160",
+      "38600452",
+      "39569528",
+      "39923105",
+      "36176070",
+      "38964985",
+      "40050456",
+      "28298040",
+      "35929909",
+      "40993831",
+      "41209246",
+      "40494626",
+      "34490493",
+      "40319042",
+      "29770897",
+      "41120521",
+      "34869011",
+      "37064376",
+      "33393131",
+      "38672080",
+      "31786548",
+      "34146841",
+      "39736623",
+      "40184682",
+      "39322536"
+    ],
+    "review": [
+      "40747552",
+      "33243896",
+      "32193643"
+    ],
+    "pmc": [
+      "12314547"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40747552/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.71063",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.03.527007",
+  "title": "Correspondence between functional scores from deep mutational scans and predicted effects on protein stability",
+  "authors": "Gerasimavicius L; Livesey BJ; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-04",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文比较稳定性预测工具与深度突变扫描功能分数的相关性，虽涉及蛋白质稳定性与互作，但非蛋白质-DNA互作体系，且无AI/物理模拟方法创新，仅评估现有工具，故评分较低。",
+  "abstract": "Many methodologically diverse computational methods have been applied to the growing challenge of predicting and interpreting the effects of protein variants. As many pathogenic mutations have a perturbing effect on protein stability or intermolecular interactions, one highly interpretable approach is to use protein structural information to model the physical impacts of variants and predict their likely effects on protein stability and interactions. Previous efforts have assessed the accuracy of stability predictors in reproducing thermodynamically accurate values and evaluated their ability to distinguish between known pathogenic and benign mutations. Here, we take an alternate approach, and explore how well stability predictor scores correlate with functional impacts derived from deep mutational scanning (DMS) experiments. In this work, we compare the predictions of 9 protein stability-based tools against mutant protein fitness values from 45 independent DMS datasets, covering 161,441 unique single amino acid variants. We find that FoldX and Rosetta show the strongest correlations with DMS-based functional scores, similar to their previous top performance in distinguishing between pathogenic and benign variants. For both methods, performance is considerably improved when considering intermolecular interactions from protein complex structures, when available. Finally, we also highlight that predicted stability effects show consistently higher correlations with certain DMS experimental phenotypes, particularly those based upon protein abundance, and, in certain cases, can be competitive with other sequence-based variant effect prediction methodologies for predicting functional scores from DMS experiments.",
+  "abstract_zh": "许多方法学上多样化的计算方法已被应用于预测和解释蛋白质变异效应的日益增长的挑战中。由于许多致病突变对蛋白质稳定性或分子间相互作用具有扰动效应，一种高度可解释的方法是使用蛋白质结构信息来模拟变异的物理影响，并预测其对蛋白质稳定性和相互作用的可能效应。以往的研究评估了稳定性预测器在重现热力学精确值方面的准确性，并评价了它们区分已知致病突变与良性突变的能力。在此，我们采取另一种方法，探讨稳定性预测器评分与从深度突变扫描（DMS）实验中得出的功能影响之间的相关性程度。在本工作中，我们将9种基于蛋白质稳定性的工具预测结果与来自45个独立DMS数据集（涵盖161,441个独特单氨基酸变异）的突变蛋白适应度值进行比较。我们发现FoldX和Rosetta与基于DMS的功能评分显示出最强的相关性，类似于它们之前在区分致病与良性变异方面的最佳表现。对于这两种方法，当考虑来自蛋白质复合物结构的分子间相互作用时（若可用），性能显著提升。最后，我们还强调，预测的稳定性效应与某些DMS实验表型（特别是基于蛋白质丰度的表型）显示出持续较高的相关性，并且在某些情况下，这些预测方法在预测DMS实验功能评分方面可与基于序列的变异效应预测方法相竞争。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527007",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527007",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.03.527007/index.html"
+}

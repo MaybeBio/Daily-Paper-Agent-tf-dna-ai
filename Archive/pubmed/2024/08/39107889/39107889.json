@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "39107889",
+    "doi": "10.1093/bioinformatics/btae461",
+    "title": "BertSNR: an interpretable deep learning framework for single-nucleotide resolution identification of transcription factor binding sites based on DNA language model."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Transcription factors are pivotal in the regulation of gene expression, and accurate identification of transcription factor binding sites (TFBSs) at high resolution is crucial for understanding the mechanisms underlying gene regulation. The task of identifying TFBSs from DNA sequences is a significant challenge in the field of computational biology today. To address this challenge, a variety of computational approaches have been developed. However, these methods face limitations in their ability to achieve high-resolution identification and often lack interpretability. RESULTS: We propose BertSNR, an interpretable deep learning framework for identifying TFBSs at single-nucleotide resolution. BertSNR integrates sequence-level and token-level information by multi-task learning based on pre-trained DNA language models. Benchmarking comparisons show that our BertSNR outperforms the existing state-of-the-art methods in TFBS predictions. Importantly, we enhanced the interpretability of the model through attentional weight visualization and motif analysis, and discovered the subtle relationship between attention weight and motif. Moreover, BertSNR effectively identifies TFBSs in promoter regions, facilitating the study of intricate gene regulation. AVAILABILITY AND IMPLEMENTATION: The BertSNR source code can be found at https://github.com/lhy0322/BertSNR.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "Computational Biology/methods",
+      "DNA/metabolism/chemistry",
+      "Sequence Analysis, DNA/methods",
+      "Software",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Hanyu",
+        "Tang, Li",
+        "Zeng, Min",
+        "Yin, Rui",
+        "Ding, Pingjian",
+        "Luo, Lingyun",
+        "Li, Min"
+      ],
+      "short_names": [
+        "Luo H",
+        "Tang L",
+        "Zeng M",
+        "Yin R",
+        "Ding P",
+        "Luo L",
+        "Li M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1726-0955",
+        "ORCID: 0000-0002-2613-2496",
+        "ORCID: 0000-0002-0188-1394"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China.",
+        "School of Computer Science, University of South China, Hengyang, Hunan 421001, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China.",
+        "Department of Health Outcome and Biomedical Informatics, University of Florida, Gainesville, FL 32611, United States.",
+        "Center for Artificial Intelligence in Drug Discovery, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, United States.",
+        "School of Computer Science, University of South China, Hengyang, Hunan 421001, China.",
+        "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Hanyu",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China.",
+          "School of Computer Science, University of South China, Hengyang, Hunan 421001, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Li",
+        "short_name": "Tang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Min",
+        "short_name": "Zeng M",
+        "identifiers": [
+          "0000-0002-1726-0955"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Rui",
+        "short_name": "Yin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Outcome and Biomedical Informatics, University of Florida, Gainesville, FL 32611, United States."
+        ]
+      },
+      {
+        "full_name": "Ding, Pingjian",
+        "short_name": "Ding P",
+        "identifiers": [
+          "0000-0002-2613-2496"
+        ],
+        "affiliations": [
+          "Center for Artificial Intelligence in Drug Discovery, School of Medicine, Case Western Reserve University, Cleveland, OH 44106, United States."
+        ]
+      },
+      {
+        "full_name": "Luo, Lingyun",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University of South China, Hengyang, Hunan 421001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0002-0188-1394"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Central South University, Changsha, Hunan 410083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2024 Aug 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/07 00:42",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42574449",
+      "42007520",
+      "41325984"
+    ],
+    "refs": [
+      "36845200",
+      "36420891",
+      "36136096",
+      "34929739",
+      "34850907",
+      "34608324",
+      "34272562",
+      "33837387",
+      "33538820",
+      "33005921",
+      "31605096",
+      "31588505",
+      "31399076",
+      "31161194",
+      "29757349",
+      "29507103",
+      "29440223",
+      "29425488",
+      "28852220",
+      "28566949",
+      "27924024",
+      "27899657",
+      "27863263",
+      "26478441",
+      "26399828",
+      "26213851",
+      "25879771",
+      "25591928",
+      "25215497",
+      "24971534",
+      "24614317",
+      "23090257",
+      "20056654",
+      "19458158",
+      "18405375",
+      "16845028",
+      "15988017",
+      "15131651",
+      "14709165",
+      "12824369",
+      "10812473",
+      "8631266",
+      "2172928"
+    ],
+    "similar": [
+      "39107889",
+      "38701417",
+      "39350338",
+      "29757349",
+      "34272562",
+      "34929739",
+      "21059262",
+      "27567672",
+      "39096613",
+      "34073774",
+      "38733561",
+      "17914226",
+      "19478006",
+      "34613923",
+      "37328639",
+      "15266008",
+      "26130577",
+      "24386279",
+      "30447332",
+      "15166027",
+      "19811641",
+      "32770026",
+      "27503086",
+      "35809058",
+      "15799782",
+      "27106869",
+      "37140548",
+      "22672438",
+      "38942594",
+      "18627598",
+      "31372637",
+      "21124986",
+      "16362908",
+      "30835229",
+      "24926895",
+      "24927817",
+      "28961686",
+      "36155619",
+      "36458923",
+      "19091030",
+      "27052996",
+      "38798191",
+      "19586888",
+      "39227799",
+      "38830995",
+      "18535663",
+      "26721389",
+      "15980509",
+      "19615102",
+      "29617876",
+      "20529874",
+      "33232622",
+      "38216534",
+      "28334268",
+      "35652477",
+      "30281475",
+      "31634140",
+      "21193520",
+      "37100167",
+      "38732207",
+      "36161334",
+      "21778525",
+      "25957350",
+      "39174927",
+      "28881989",
+      "35015646",
+      "22072382",
+      "33416862",
+      "28472433",
+      "27871221",
+      "35799358",
+      "32155318",
+      "35263332",
+      "38940155",
+      "28334224",
+      "28623591",
+      "16362907",
+      "22504445",
+      "19730699",
+      "20360861",
+      "39254573",
+      "30423062",
+      "23282203",
+      "31714956",
+      "35471889",
+      "33538038",
+      "30133315",
+      "29993783",
+      "34669947",
+      "16284194",
+      "35927613",
+      "38485768",
+      "27045826",
+      "23522376",
+      "20838582",
+      "35293310",
+      "18546507",
+      "28035026",
+      "35997560",
+      "27117388",
+      "35604077",
+      "32960766",
+      "24091402",
+      "39133151",
+      "39272021",
+      "38889275",
+      "37387183",
+      "39076052",
+      "39331576",
+      "39120878",
+      "39103447",
+      "39205391",
+      "38984742",
+      "38099262",
+      "36747873",
+      "39357703"
+    ],
+    "review": [
+      "39107889",
+      "30447332",
+      "19586888",
+      "28334268",
+      "35652477",
+      "31714956"
+    ],
+    "pmc": [
+      "11310455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39107889.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39107889/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btae461",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

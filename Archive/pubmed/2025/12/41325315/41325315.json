@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "41325315",
+    "doi": "10.1371/journal.pone.0337546",
+    "title": "Integrated multi-omics analysis reveals necroptosis-related biomarker BIRC3 for early diagnosis and therapeutic targeting in preeclampsia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Preeclampsia (PE) is a life-threatening pregnancy disorder lacking reliable early biomarkers. While apoptosis is implicated in PE pathogenesis, the role of regulated necrotic cell death (necroptosis) remains poorly understood. This study aimed to identify necroptosis-related biomarkers, and further provide the potential natural compounds for PE with virtual screening. METHODS: Public datasets (GSE66273 for training set; GSE44711 for validation set; GSE173193 for single-cell RNA-seq) were analyzed. Differentially expressed genes (DEGs) were screened using limma (|log2FC| > 1, P < 0.05). Necroptosis-related genes overlapped with DEGs to identify key candidates. Subsequent analyses included machine learning, protein-protein interaction (PPI) network construction, and immune infiltration profiling. Single-cell RNA sequencing data (GSE173193) was utilized to localize BIRC3 expression at the cellular level. Transcription factors, microRNAs, and RNA-binding proteins associated with BIRC3 are also identified. Finally, Molecular docking predicted therapeutic drugs targeting hub genes. RESULTS: The analysis of the GSE66273 dataset identified 367 DEGs. Intersection with necroptosis-related genes revealed 3 necroptosis-related DEGs (NRDEGs), from which BIRC3 was prioritized as hub gene through PPI networks and machine learning (random forest). BIRC3 demonstrated significant diagnostic potential in the discovery cohort (AUC = 0.933) and maintained strong performance in the independent validation cohort (AUC = 0.844). Single-cell analysis revealed BIRC3 was predominantly expressed in immune lineages, particularly NK/T cells, with a significantly higher proportion of BIRC3-positive cells in PE placentas (p < 0.05). Immune microenvironment further analysis demonstrated significant dysregulation in PE. Finally, based on the BIRC3 structure, Withanolide D (-11.0 kcal/mol), Baicalin (-9.0 kcal/mol) and Mangostin (-8.3 kcal/mol) were screened. CONCLUSION: This comprehensive analysis implicates necroptosis in PE pathogenesis. BIRC3 is proposed as a novel diagnostic biomarker and therapeutic target, with multi-omics validation underscoring its role in immune dysregulation and placental dysfunction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Pre-Eclampsia/diagnosis/genetics/metabolism/drug therapy",
+      "Female",
+      "Pregnancy",
+      "*Necroptosis/genetics",
+      "*Baculoviral IAP Repeat-Containing 3 Protein/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "Protein Interaction Maps",
+      "Molecular Docking Simulation",
+      "Early Diagnosis",
+      "Single-Cell Analysis",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "Gene Regulatory Networks",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Qingxia",
+        "Huang, Peifeng",
+        "Kang, Youhong",
+        "Lu, Yanfeng",
+        "Shi, Guili"
+      ],
+      "short_names": [
+        "Lin Q",
+        "Huang P",
+        "Kang Y",
+        "Lu Y",
+        "Shi G"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-4263-4872"
+      ],
+      "affiliations": [
+        "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China.",
+        "The Second Affiliated Hospital of Fujian Medical University, Quanzhou, China.",
+        "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China.",
+        "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China.",
+        "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Qingxia",
+        "short_name": "Lin Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Peifeng",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Fujian Medical University, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Youhong",
+        "short_name": "Kang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yanfeng",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Guili",
+        "short_name": "Shi G",
+        "identifiers": [
+          "0009-0002-4263-4872"
+        ],
+        "affiliations": [
+          "Department of Obstetrics, Quanzhou Women and Children's Hospital, Quanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/01 18:51",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [
+      "42403533"
+    ],
+    "refs": [
+      "39410864",
+      "39301019",
+      "38569496",
+      "37897080",
+      "37872600",
+      "37870216",
+      "36703228",
+      "35536515",
+      "34917606",
+      "34366896",
+      "34090907",
+      "32858128",
+      "32310729",
+      "32068238",
+      "32056548",
+      "31641174",
+      "30948788",
+      "30792480",
+      "29357674",
+      "29153683",
+      "29141660",
+      "28985560",
+      "28292463",
+      "28126382",
+      "27322403",
+      "27141961",
+      "25991373",
+      "25613900",
+      "25365966",
+      "24166749",
+      "23857305",
+      "21756405",
+      "20455873",
+      "15928030",
+      "15743856",
+      "15143321",
+      "14597658",
+      "12849862",
+      "12519996",
+      "11286566"
+    ],
+    "similar": [
+      "41325315",
+      "41044520",
+      "40552285",
+      "40374866",
+      "41496071",
+      "39270557",
+      "38130918",
+      "39709373",
+      "39806277",
+      "40669683",
+      "39544937",
+      "39675129",
+      "33640831",
+      "31416885",
+      "37403014",
+      "39934690",
+      "41145553",
+      "41136639",
+      "40887492",
+      "39853851",
+      "41291841",
+      "41034826",
+      "40808948",
+      "39815029",
+      "39067546",
+      "41237469",
+      "40151199",
+      "39696012",
+      "35480868",
+      "41401161",
+      "40558824",
+      "41424060",
+      "40406126",
+      "40746540",
+      "35880174",
+      "39707003",
+      "36258174",
+      "40861438",
+      "41479901",
+      "39743646",
+      "25717061",
+      "41046974",
+      "41088263",
+      "40347801",
+      "40016711",
+      "40592741",
+      "38718074",
+      "39984919",
+      "39923303",
+      "40776827",
+      "41107929",
+      "39650656",
+      "39044829",
+      "39058876",
+      "40970657",
+      "33784242",
+      "38987624",
+      "40777016",
+      "40969769",
+      "40977739",
+      "37773866",
+      "37571880",
+      "41316541",
+      "38166707",
+      "40328901",
+      "37153569",
+      "33744280",
+      "37962871",
+      "41190071",
+      "40340571",
+      "36627660",
+      "41328587",
+      "32497025",
+      "41052072",
+      "40929101",
+      "40589764",
+      "40949910",
+      "37576963",
+      "38863714",
+      "41080564",
+      "41200169",
+      "40207223",
+      "41461777",
+      "40532551",
+      "38259479",
+      "40861493",
+      "41442003",
+      "39883963",
+      "38362844",
+      "40532306",
+      "39139563",
+      "39559355",
+      "41005317",
+      "39350187",
+      "41300749",
+      "41099090",
+      "39375405",
+      "38788026",
+      "38941397",
+      "40122115"
+    ],
+    "review": [
+      "41325315"
+    ],
+    "pmc": [
+      "12668491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0337546",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41325315/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

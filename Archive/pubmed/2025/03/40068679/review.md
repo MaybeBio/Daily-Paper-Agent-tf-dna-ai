@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (Summary, Introduction, Results, Discussion, Limitations, Resource Availability) as provided by the user. No figures, tables, supplementary materials, or methods section were included in the supplied material.
+- **Assessment boundary** The assessment is limited to the scientific claims, experimental logic, and internal consistency of the provided text. Experimental details, raw data, statistical analyses, and methodological descriptions could not be independently verified due to missing materials.
+- **Shared manuscript claim summary** The authors propose that the nuclear export factor Crm1/Xpo1 functions as an adaptor that links transcription factors (TFs) to the nuclear pore complex (NPC), thereby mediating chromatin docking at the nuclear periphery and promoting transcription. This function is proposed to be distinct from Crm1's canonical role in nuclear export.
+- **Visible evidence base** The manuscript presents: (1) genetic and cell-biological assays showing that a separation-of-function mutation in Gcn4 (PDGCN4) disrupts peripheral localization of target genes; (2) quantitative proteomics identifying Crm1 as a PDGCN4-dependent interactor; (3) ChEC-seq mapping of Crm1 and Nup binding across the genome; (4) live-cell single-molecule tracking of Crm1 diffusion; (5) depletion/inhibition experiments (LMB, auxin-inducible degron) showing loss of Nup2 association and peripheral localization; (6) SLAM-seq showing nascent transcription defects; (7) in vitro binding assays with recombinant proteins; (8) electrophoretic mobility shift assays showing stimulation of Gcn4 DNA binding by Crm1 and Ran-GTP; (9) affinity purification-mass spectrometry of Crm1 interactors.
+- **Missing materials affecting confidence** Figures, tables, supplementary materials, methods section, statistical details, raw data, and strain/plasmid descriptions were not provided. The manuscript references figures (e.g., Figure 1A–F, 2A–F, 3A–E, 4A–D, 5A–E, 6A–F, 7A–F, S1–S6) and tables (S1–S5) that could not be examined. The absence of these materials limits verification of quantitative claims, controls, and reproducibility.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant model in which Crm1/Xpo1 acts as a molecular adaptor linking transcription factors to the NPC, with functional consequences for transcription. The combination of genetics, genomics, live-cell imaging, and biochemistry is ambitious and, if fully supported by the data, would represent an important conceptual advance. However, the provided text alone does not allow verification of key quantitative claims, controls, or experimental rigor. Several logical gaps and alternative interpretations remain, particularly regarding the specificity of Crm1's role versus general nuclear export defects, the mechanistic distinction between Crm1-Nup2 and Crm1-TF interactions, and the causal relationship between chromatin docking and transcriptional stimulation. The manuscript would benefit from clearer articulation of controls, quantitative effect sizes, and direct tests of the proposed adaptor model.
+- **Who would be interested in the results, and why** Researchers studying nuclear pore complex functions beyond transport, chromatin organization and gene regulation, transcription factor biology, and the interplay between nuclear architecture and gene expression. The work also has potential relevance to understanding how nuclear export factors may have evolved multifunctional roles, and to diseases where Crm1 is dysregulated (e.g., leukemias). The proposed mechanism could interest cell biologists, chromatin biologists, and transcription researchers.
+- **Major strengths** (1) The study addresses a fundamental and poorly understood question: how TFs recruit chromatin to the NPC. (2) The use of a separation-of-function mutation in Gcn4 is a powerful approach to dissect a specific function. (3) The combination of in vivo, in vitro, genomic, and imaging approaches is comprehensive. (4) The identification of Crm1 as a candidate adaptor is novel and testable. (5) The proposed model is conceptually clear and has broad implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal logic and alternative explanations
+  - **Claim pointer** The authors claim that Crm1 functions as an adaptor for TF-mediated docking of chromatin at the NPC, and that this function is distinct from its role in nuclear export.
+  - **Evidence pointer** Results sections "Crm1/Xpo1 is required for localization of genes at the nuclear periphery" and "Crm1 functions upstream of Nup2"; Discussion.
+  - **Concern** The central claim that Crm1's role in chromatin docking is independent of its nuclear export function is not fully established. LMB treatment inhibits nuclear export globally, and the authors show that LMB causes Crm1 mislocalization. While they argue that the Gcn4-Crm1 interaction is Ran-GTP independent and unaffected by LMB in vitro, the in vivo effects of LMB on chromatin docking could be an indirect consequence of general export inhibition or Crm1 mislocalization. The separation-of-function logic is applied to Gcn4 but not to Crm1 itself. The authors acknowledge this limitation, but the current evidence does not exclude the possibility that the observed effects on transcription and chromatin localization are secondary to export defects.
+  - **Why it matters** The proposed model hinges on a distinct, non-export function of Crm1. Without a Crm1 separation-of-function allele that specifically disrupts adaptor function while preserving export, the causal role of Crm1 in chromatin docking remains correlative.
+  - **Resolution test** Provide a Crm1 mutant that separates export from chromatin-docking functions, or show that a Crm1 mutant defective in export but competent for TF/Nup2 binding still supports peripheral localization and transcription. Alternatively, demonstrate that the effects of LMB on chromatin are independent of its effects on export by using a Crm1 allele that is LMB-resistant but still supports docking.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence and effect sizes
+  - **Claim pointer** The authors claim that Crm1 inhibition or depletion leads to "rapid loss of peripheral localization and Nup-association genome-wide" and "strong, global decrease in nascent transcription."
+  - **Evidence pointer** Results sections "Crm1/Xpo1 is required for localization of genes at the nuclear periphery" and "Crm1 and Nup2 promote transcription"; Figures 1D–F, 3C–E, 5B–C.
+  - **Concern** The text describes qualitative outcomes (e.g., "loss of peripheral localization," "strong decreases") without providing quantitative metrics, statistical tests, or effect sizes. For a genome-wide claim, the magnitude of the effect, the number of loci affected, and the statistical significance thresholds are essential. Similarly, the SLAM-seq results are described as showing "strong decreases" but the degree of change, the number of genes, and the overlap with Crm1/Nup2-bound genes are not stated. Without these details, the strength of the claimed phenotype cannot be evaluated.
+  - **Why it matters** The conclusion that Crm1 and Nup2 promote transcription of "hundreds of genes" requires quantitative support. The field needs to know the effect size to judge biological significance.
+  - **Resolution test** Provide effect sizes, confidence intervals, and statistical comparisons for the localization and transcription assays. For ChEC-seq, report the number of significant peaks, the fold-enrichment thresholds, and the overlap between Crm1 and Nup peaks. For SLAM-seq, report the distribution of fold-changes and the number of genes meeting significance thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity of the adaptor model
+  - **Claim pointer** The authors propose that Crm1 bridges TF-chromatin interactions with the NPC, and that this is mediated by direct binding of Crm1 to both Gcn4 and Nup2.
+  - **Evidence pointer** Results section "Crm1 interacts directly with Gcn4 and Nup2"; Figure 7B–E.
+  - **Concern** The in vitro binding data are described qualitatively. The KD of ~100 nM for the Gcn4-Crm1 interaction is reported, but the stoichiometry, specificity, and competition with other Crm1 interactors (e.g., NES-containing cargoes) are not addressed. The authors show that Nup2C binding is Ran-GTP stimulated, but the affinity and specificity relative to other FG-repeat Nups are not reported. The claim that Crm1 binds both Gcn4 and Nup2 simultaneously (as an adaptor) requires demonstration of a ternary complex, which is not shown.
+  - **Why it matters** The adaptor model requires that Crm1 can simultaneously engage a TF and a Nup. If the interactions are mutually exclusive or if Nup2 competes with Gcn4 for Crm1 binding, the model would need revision.
+  - **Resolution test** Perform a three-component binding assay (e.g., pull-down or surface plasmon resonance) with Crm1, Gcn4, and Nup2 to demonstrate ternary complex formation. Test whether Nup2 and Gcn4 compete for Crm1 binding. Report affinities for Nup2-Crm1 interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the mechanism
+  - **Claim pointer** The authors suggest that Crm1 may serve as a general adaptor for many TFs, stating "other TFs should also have positioning domains."
+  - **Evidence pointer** Discussion.
+  - **Concern** The evidence for Crm1-mediated docking is presented for Gcn4 and a few other loci. The claim that this is a general mechanism is speculative. The authors note that they have not identified analogous positioning domains in other TFs. The overlap between Crm1-bound genes and TF-bound genes is shown for a small set of TFs (Abf1, Reb1, Rap1), but direct evidence that these TFs require Crm1 for docking is not provided.
+  - **Why it matters** The broader significance of the work depends on whether Crm1-mediated docking is a general phenomenon or specific to a subset of TFs.
+  - **Resolution test** Test whether depletion of Crm1 affects peripheral localization of genes bound by Abf1, Reb1, or Rap1. Identify and mutate putative positioning domains in one or more of these TFs to test sufficiency and necessity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of reporting
+  - **Affected element** ChEC-seq methodology and controls
+  - **Evidence pointer** Results section "Crm1 and Nups bind upstream of hundreds of genes"; Figure 2.
+  - **Issue** The text states that ChEC-seq was performed but does not describe the biological replicates, the number of cells used, the sequencing depth, or the peak-calling criteria. The negative control (sMNase) is mentioned, but the statistical framework for identifying "high-confidence" sites is not described.
+  - **Required correction** Provide a summary of the ChEC-seq data processing pipeline, including replicate numbers, peak-calling thresholds, and how the sMNase control was used to define significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of single-molecule tracking
+  - **Affected element** Figure 1G–J
+  - **Evidence pointer** Results section "Crm1/Xpo1 is required for localization of genes at the nuclear periphery."
+  - **Issue** The single-molecule tracking data are used to infer that ~12% of Crm1 is chromatin-bound. The text does not explain how the chromatin-bound state was distinguished from other slow-diffusing states (e.g., binding to large protein complexes or nuclear bodies). The assignment of the slowest diffusing population to chromatin is plausible but not directly validated.
+  - **Required correction** Clarify the criteria used to assign the slow-diffusing population to chromatin binding, and discuss alternative interpretations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 1.
+  - **Issue** The phrase "The affinity of The Crm1-Gcn4 interaction" contains a grammatical error ("The" repeated). This is a minor typographical issue but should be corrected.
+  - **Required correction** Proofread the manuscript for typographical errors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Location not provided.
+  - **Issue** The manuscript references previous work on Nup-chromatin interactions and Crm1 but does not provide a comprehensive citation list in the provided text. Some statements, such as "consistent with a previous study7," are vague.
+  - **Required correction** Ensure all claims are properly cited and that the reference list is complete and accurate.
+- **Technical failings that need to be addressed before the case is established** (1) The lack of a Crm1 separation-of-function mutant that distinguishes export from chromatin-docking functions (R1-M1). (2) The absence of quantitative data and statistical analyses for the genome-wide and transcription claims (R1-M2). (3) The lack of a demonstrated ternary complex between Crm1, TF, and Nup (R1-M3). (4) The absence of direct evidence that the proposed mechanism generalizes beyond Gcn4 (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed adaptor function for Crm1 in chromatin docking is conceptually novel and extends the known functions of nuclear export factors. The idea that a transport factor can moonlight as a chromatin-organizing adaptor is original and would be of broad interest.
+  - **Scientific importance** If fully substantiated, the work would establish a new mechanism for how TFs recruit chromatin to the NPC and how this contributes to transcriptional regulation. This has implications for understanding nuclear organization, gene regulation, and potentially disease states where Crm1 is dysregulated.
+  - **Interdisciplinary readership** The topic bridges nuclear transport, chromatin biology, and transcription. The findings would appeal to cell biologists, molecular biologists, and biochemists. The conceptual framework is accessible, though some specialized techniques (ChEC-seq, single-molecule tracking) may require explanation for a general audience.
+  - **Technical soundness** The experimental approach is sophisticated and appropriate for the question. However, the provided text lacks sufficient detail to assess technical rigor fully. Key controls, replicates, and statistical analyses are not described. The in vitro binding data are presented without quantitative rigor. The reliance on LMB as a tool is concerning given its broad effects.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections assume familiarity with yeast genetics and chromatin biology. The abstract and summary are accessible, but the results section may be challenging for readers outside the field. The figures (not provided) would likely aid comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the preliminary data are suggestive, but the current evidence does not fully establish the proposed adaptor mechanism. The manuscript would be suitable for publication in a high-impact journal if the authors can provide a Crm1 separation-of-function allele, quantitative genome-wide and transcription data with appropriate statistics, and direct biochemical evidence for a ternary complex. The current version, based on the provided text, is not fully established.
+
+## Risk / unsupported claims
+- The claim that Crm1 functions as a general adaptor for TF-mediated chromatin docking is not supported by direct evidence for multiple TFs.
+- The claim that the effect of LMB on chromatin docking is independent of its effect on nuclear export is not established.
+- The claim that Crm1 and Nup2 promote transcription of "hundreds of genes" is not quantitatively supported in the provided text.
+- The claim that the PDGCN4-Crm1 interaction is functionally relevant in vivo is inferred from mutant phenotypes but not directly demonstrated (e.g., by rescue experiments with Crm1 mutants that cannot bind Gcn4).
+- The in vitro KD of ~100 nM for the Crm1-Gcn4 interaction is reported without statistical uncertainty or replicate information.
+- The conclusion that Crm1 interacts "stably" with the NPC is based on co-purification data that are not shown or quantified.
+- The statement that "Crm1 can interact with chromatin in the nucleoplasm" is inferred from imaging data but not directly tested.

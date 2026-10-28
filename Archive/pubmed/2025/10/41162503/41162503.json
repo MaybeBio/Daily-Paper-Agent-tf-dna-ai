@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "41162503",
+    "doi": "10.1038/s41598-025-21641-y",
+    "title": "Integrated bulk and single-cell transcriptomics identify RELB, S100A9, and SOCS1 as key autophagy-endoplasmic reticulum stress genes linking T2DM with MAFLD."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes mellitus (T2DM) and metabolism-associated fatty liver disease (MAFLD) are prevalent metabolic disorders with shared pathophysiological mechanisms. A comprehensive understanding of the molecular pathways involved in their onset and progression may facilitate the development of effective therapeutic interventions. We analyzed four datasets from the Gene Expression Omnibus (GEO) to identify the common differentially expressed genes (DEGs) between type 2 diabetes mellitus (T2DM) and Metabolic dysfunction-associated fatty liver disease (MAFLD). By integrating protein-protein interaction (PPI) network analysis, machine learning, and weighted gene co-expression network analysis (WGCNA), we identified key genes. We focused on autophagy and endoplasmic reticulum stress-related genes associated with T2DM and MAFLD. Enrichment analysis was used to screen out relevant biological processes and pathways, and CIBERSORT was employed to assess immune cell infiltration. Additionally, single-cell analysis clarified the interrelationships, communication, differentiation, and developmental trajectories among related cell populations. To further validate our findings, we established a rat model of T2DM with MAFLD, and conducted biochemical tests, pathological staining, qRT-PCR and IHC detection. We identified 161 DEGs shared between T2DM and MAFLD. Combined PPI analysis, machine learning, and WGCNA led to the identification of four significant genes related to autophagy and endoplasmic reticulum stress: CDKN1A, RELB, S100A9, and SOCS1. These genes are involved in the IL-17 signaling pathway, toll-like receptor cascade, JAK-STAT signaling pathway, and MAPK signaling pathway. Single-cell transcriptomic analyses revealed significant intergroup differences in the expression of RELB and S100A9 in T cells, as well as SOCS1 in macrophages and dendritic cells. Pseudotime analysis indicated that S100A9 influences the developmental trajectory of macrophages by enhancing the IL-17 signaling pathway. We confirmed the differential expression of these four genes in liver tissues of the T2DM with MAFLD rat model. Real-time fluorescence quantitative PCR demonstrated significantly elevated mRNA expression levels of S100A9, SOCS1, and RELB in liver tissues of rats in the T2DM with MAFLD group compared to controls. Quantitative immunohistochemical analysis further confirmed that protein expression levels of S100A9, SOCS1, and RELB in the liver tissues of the T2DM with MAFLD group were significantly higher than those in the control group (P < 0.05). Our study elucidates common molecular mechanisms linking T2DM with MAFLD through integrated bioinformatics and experimental validation. The identified hub genes and pathways represent potential therapeutic targets and may offer novel avenues for the early diagnosis and treatment of these metabolic disorders.",
+    "keywords": [
+      "Autophagy",
+      "Bioinformatics",
+      "Endoplasmic reticulum stress",
+      "Metabolic Dysfunction-Associated fatty liver disease",
+      "Type 2 diabetes mellitus"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Diabetes Mellitus, Type 2/genetics/metabolism/pathology",
+      "Rats",
+      "*Endoplasmic Reticulum Stress/genetics",
+      "*Autophagy/genetics",
+      "*Suppressor of Cytokine Signaling 1 Protein/genetics/metabolism",
+      "*Transcription Factor RelB/genetics/metabolism",
+      "Male",
+      "Protein Interaction Maps",
+      "*Transcriptome",
+      "Gene Expression Profiling",
+      "Single-Cell Analysis",
+      "Gene Regulatory Networks",
+      "Humans",
+      "*Non-alcoholic Fatty Liver Disease/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Qin",
+        "Yang, Ye",
+        "Li, Xiaoqi",
+        "Wang, Jinyang",
+        "Wang, Xinling"
+      ],
+      "short_names": [
+        "Wang Q",
+        "Yang Y",
+        "Li X",
+        "Wang J",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatric Integrative, The Second Affliated Hospital of Xinjiang Medical University, Urumqi, Xinjiang, People's Republic of China.",
+        "Department of Geriatric Integrative, The Second Affliated Hospital of Xinjiang Medical University, Urumqi, Xinjiang, People's Republic of China.",
+        "The Second Affiliated Hospital of Xinjiang Medical University (The Second Clinical Medical College), Xinjiang Medical University, Urumqi, Xinjiang, People's Republic of China.",
+        "The Second Affiliated Hospital of Xinjiang Medical University (The Second Clinical Medical College), Xinjiang Medical University, Urumqi, Xinjiang, People's Republic of China.",
+        "Endocrinology and Metabolic Diseases Department, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, People's Republic of China. xjwangxinling@vip.163.com.",
+        "Xinjiang Clinical Research Center for Diabetes, Urumqi, People's Republic of China. xjwangxinling@vip.163.com.",
+        "Xinjiang Endocrinology Diabetes Institute, Urumqi, People's Republic of China. xjwangxinling@vip.163.com.",
+        "Xinjiang Key Laboratory of Cardiovascular Homeostasis and Regeneration Research, Urumqi, People's Republic of China. xjwangxinling@vip.163.com.",
+        "Department of Endocrinology, People's Hospital of Xinjiang Uygur Autonomous Region, Xinjiang Clinical Research Center for Diabetes, Urumqi, China. xjwangxinling@vip.163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Qin",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Integrative, The Second Affliated Hospital of Xinjiang Medical University, Ürümqi, Xinjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ye",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Integrative, The Second Affliated Hospital of Xinjiang Medical University, Ürümqi, Xinjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoqi",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Xinjiang Medical University (The Second Clinical Medical College), Xinjiang Medical University, Ürümqi, Xinjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinyang",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Xinjiang Medical University (The Second Clinical Medical College), Xinjiang Medical University, Ürümqi, Xinjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinling",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrinology and Metabolic Diseases Department, People's Hospital of Xinjiang Uygur Autonomous Region, Ürümqi, People's Republic of China. xjwangxinling@vip.163.com.",
+          "Xinjiang Clinical Research Center for Diabetes, Ürümqi, People's Republic of China. xjwangxinling@vip.163.com.",
+          "Xinjiang Endocrinology Diabetes Institute, Ürümqi, People's Republic of China. xjwangxinling@vip.163.com.",
+          "Xinjiang Key Laboratory of Cardiovascular Homeostasis and Regeneration Research, Ürümqi, People's Republic of China. xjwangxinling@vip.163.com.",
+          "Department of Endocrinology, People's Hospital of Xinjiang Uygur Autonomous Region, Xinjiang Clinical Research Center for Diabetes, Ürümqi, China. xjwangxinling@vip.163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/30 06:29",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40544497",
+      "40458826",
+      "39182602",
+      "39157587",
+      "38871070",
+      "38869512",
+      "38750677",
+      "38599383",
+      "38588614",
+      "38476236",
+      "38390317",
+      "38203265",
+      "38169083",
+      "38113689",
+      "38110349",
+      "38104515",
+      "38028994",
+      "37963021",
+      "37697333",
+      "37396184",
+      "37274336",
+      "36338988",
+      "36327065",
+      "36300620",
+      "36182031",
+      "36152415",
+      "35845045",
+      "35757697",
+      "35726067",
+      "35559253",
+      "35499342",
+      "35301333",
+      "35184420",
+      "35080136",
+      "35037653",
+      "34926668",
+      "34663816",
+      "34616724",
+      "34605806",
+      "34390865",
+      "34321322",
+      "33897616",
+      "33894145",
+      "33850259",
+      "33795715",
+      "33597522",
+      "33315085",
+      "33306802",
+      "33237311",
+      "32802885",
+      "32597296",
+      "32219413",
+      "32149275",
+      "31748416",
+      "31740819",
+      "31722201",
+      "31597160",
+      "31451060",
+      "31441146",
+      "31349670",
+      "31178118",
+      "30592156",
+      "30482910",
+      "30454647",
+      "30089409",
+      "29967350",
+      "29942307",
+      "29379212",
+      "28940700",
+      "28930295",
+      "28518156",
+      "28316374",
+      "28114287",
+      "28092085",
+      "27925343",
+      "27609616",
+      "27207943",
+      "27124102",
+      "27000993",
+      "26565953",
+      "26492375",
+      "26273651",
+      "26039325",
+      "25964631",
+      "25822800",
+      "25818883",
+      "25521941",
+      "25260252",
+      "25132496",
+      "24966052",
+      "24438608",
+      "22970906",
+      "22455463",
+      "21813474",
+      "21738950",
+      "21637797",
+      "21566255",
+      "21414208",
+      "21293511",
+      "21149340",
+      "20386866",
+      "19114008",
+      "19033363",
+      "17496320",
+      "17469109",
+      "10592173"
+    ],
+    "similar": [
+      "41162503",
+      "40918148",
+      "39936105",
+      "41424060",
+      "41081092",
+      "41120603",
+      "41079183",
+      "41132669",
+      "39107295",
+      "38886539",
+      "40093012",
+      "40263537",
+      "39893187",
+      "41071219",
+      "40597456",
+      "39375405",
+      "39671358",
+      "40977739",
+      "39284931",
+      "39351239",
+      "31013265",
+      "41022810",
+      "39793853",
+      "33329383",
+      "39145311",
+      "41107929",
+      "41188339",
+      "39875572",
+      "41103643",
+      "35187175",
+      "40877393",
+      "38734758",
+      "39496918",
+      "34553293",
+      "40918403",
+      "35790963",
+      "37657050",
+      "40406126",
+      "40045538",
+      "32781959",
+      "40539070",
+      "40787468",
+      "40313012",
+      "40628511",
+      "40539266",
+      "33915220",
+      "36203606",
+      "37223013",
+      "36405745",
+      "38319987",
+      "39340293",
+      "41291978",
+      "35490371",
+      "40532306",
+      "38789967",
+      "36157062",
+      "40414463",
+      "38703871",
+      "39341952",
+      "40195661",
+      "41044520",
+      "39501130",
+      "41113402",
+      "40406118",
+      "40849369",
+      "40374744",
+      "35081898",
+      "40216809",
+      "39292564",
+      "40967560",
+      "39261952",
+      "40202151",
+      "33771638",
+      "40574839",
+      "41094572",
+      "32705173",
+      "41327289",
+      "37047411",
+      "40884939",
+      "40722708",
+      "40158428",
+      "38387274",
+      "39749331",
+      "41125618",
+      "40360670",
+      "39588003",
+      "41316541",
+      "39829117",
+      "38476236",
+      "37194229",
+      "34758532",
+      "40950408",
+      "40216908",
+      "38863714",
+      "38690269",
+      "39433858",
+      "28432618",
+      "40764361",
+      "41110296",
+      "39733138"
+    ],
+    "review": [
+      "41162503",
+      "35490371"
+    ],
+    "pmc": [
+      "12572281"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-21641-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41162503/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1155",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

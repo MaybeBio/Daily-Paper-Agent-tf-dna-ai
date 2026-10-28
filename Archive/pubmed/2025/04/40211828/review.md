@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that molecular dynamics simulations of the XRCC1 R399Q mutation show preserved interaction with DNA ligase IIIalpha but significantly destabilized binding to DNA polymerase beta, with reduced binding affinity by free energy calculations, implying impaired base excision repair efficiency and reconciliation of conflicting experimental observations.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, system size, simulation length, replica details, free energy calculation methodology, error estimates, structural figures, trajectory analyses, and comparison datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a clinically relevant mutation in a DNA repair protein. However, the supplied material is insufficient to evaluate the technical rigor of the simulations, the statistical significance of the reported differences, or the validity of the claim that these findings reconcile conflicting experimental data. The central conclusion regarding impaired polymerase beta binding rests on free energy calculations whose methodology and uncertainties are not described. The abstract also contains an internal tension between claims of novelty and the statement that the data resemble empirical findings.
+- **Who would be interested in the results, and why** Researchers in DNA repair mechanisms, cancer genetics, and computational structural biology would find these results relevant. Clinicians or geneticists studying XRCC1 polymorphisms in cancer susceptibility may also be interested, provided the computational predictions are validated against experimental binding data.
+- **Major strengths** The study addresses a biologically important question with potential translational relevance. The use of dynamic simulations rather than static structures is appropriate for studying protein-protein interaction stability. The comparative analysis of two binding partners within the same system provides a useful internal control.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that free energy calculations confirm a substantial reduction in binding affinity between the mutant protein and DNA polymerase beta.
+  - **Evidence pointer** Abstract, free energy calculations section; location not provided
+  - **Concern** No methodological details are given for the free energy calculations. It is unclear whether the authors used MM-PBSA, MM-GBSA, thermodynamic integration, or umbrella sampling. No error bars, convergence metrics, or replicate information are reported. Without this information, the claim of a substantial reduction in binding affinity cannot be evaluated.
+  - **Why it matters** Free energy estimates from molecular dynamics are highly sensitive to method choice, force field parameters, simulation length, and sampling quality. A claim of impaired binding affinity is the quantitative cornerstone of the paper's central conclusion. If the free energy difference is within statistical noise, the entire argument for impaired repair efficiency collapses.
+  - **Resolution test** Provide the specific free energy method, simulation length, number of replicates, standard deviations, and convergence plots. Show that the difference between wild-type and mutant binding free energies exceeds the combined uncertainty by a statistically meaningful margin.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that these findings reconcile conflicting experimental observations regarding XRCC1's interactions with BER enzymes.
+  - **Evidence pointer** Abstract, final paragraphs; location not provided
+  - **Concern** The abstract does not identify which experimental observations are conflicting, what the nature of the conflict is, or how the simulation results specifically resolve it. The statement that the data resemble empirical findings appears to contradict the earlier claim of novelty over previous studies.
+  - **Why it matters** Reconciliation of conflicting data is a strong claim that requires explicit mapping between computational predictions and specific experimental results. Without identifying the conflicting studies and showing how the simulations adjudicate between them, this claim is unsupported and potentially overstated.
+  - **Resolution test** Name the specific experimental studies with conflicting outcomes, describe the nature of the conflict, and show quantitatively how the simulation results align with one set of observations while explaining the other.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that key residues such as Gly 511, Glu 538, Arg 564, Thr 567 and Ala 568 exhibit subtle rearrangements in the mutant protein when bound to DNA ligase IIIalpha.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The term subtle rearrangements is not defined quantitatively. No metrics such as root-mean-square deviation, root-mean-square fluctuation, hydrogen bond occupancy, or contact distance changes are provided. It is unclear whether these rearrangements are statistically significant or within thermal fluctuation.
+  - **Why it matters** The claim that the ligase IIIalpha interaction is retained relies on the interpretation that these rearrangements are functionally inconsequential. Without quantitative thresholds, this interpretation is subjective and cannot be independently assessed.
+  - **Resolution test** Provide numerical values for structural metrics comparing wild-type and mutant trajectories, with statistical tests showing that the rearrangements are small relative to the wild-type fluctuation envelope.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, background section
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The abstract assumes familiarity with the base excision repair pathway and the specific roles of XRCC1, DNA ligase IIIalpha, and DNA polymerase beta without providing context for a general reader.
+  - **Required correction** Add one sentence explaining the functional role of XRCC1 as a scaffold protein in base excision repair and why its interaction with polymerase beta is critical for repair completion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, large-scale molecular dynamics simulations; location not provided
+  - **Issue** The term large-scale is not defined. No system size, simulation timescale, or number of atoms is given.
+  - **Required correction** Specify the system dimensions and total simulation time per condition to substantiate the large-scale descriptor.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, concluding statement
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The phrase potentially leading to defects in the DNA repair pathway is speculative and does not follow directly from binding affinity changes, since cellular repair outcomes depend on many additional factors.
+  - **Required correction** Soften the causal language to indicate that reduced binding affinity may impair repair efficiency under conditions where polymerase beta recruitment is rate-limiting.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The free energy methodology and statistical rigor must be documented, and the reconciliation claim must be substantiated with explicit references to conflicting experimental data.
+- **Assessment against Nature-style criteria** Originality: moderate. The application of molecular dynamics to this specific mutation appears novel, but the general approach of simulating disease-associated mutations in DNA repair proteins is well established. Scientific importance: potentially high if the reconciliation claim is substantiated, but currently unproven. Interdisciplinary readership: the topic bridges structural biology, cancer genetics, and computational biology, which could attract broad interest. Technical soundness: not assessable from the abstract alone; the absence of methodological detail is a critical gap. Readability for nonspecialists: the abstract is accessible but assumes background knowledge of the repair pathway.
+- **Recommendation posture** Currently not established from the provided evidence. The central quantitative claim and the reconciliation claim cannot be evaluated without full methodological details. A supportive recommendation would require the full manuscript to demonstrate statistical rigor in the free energy calculations and explicit mapping to experimental data.
+
+## Risk / unsupported claims
+- The claim of substantial reduction in binding affinity is unsupported without free energy methodology and error estimates.
+- The claim of reconciling conflicting experimental observations is unsupported because the conflicting studies are not identified.
+- The claim that the data resemble empirical findings is vague and potentially contradictory to the stated novelty.
+- The claim of impaired repair efficiency is speculative and extends beyond the simulation data.
+- The biological relevance over biologically relevant timescales is not substantiated without specifying simulation lengths.

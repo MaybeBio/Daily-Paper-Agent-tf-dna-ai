@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.20.576374",
+  "title": "Sifting Through the Noise: A Computational Pipeline for Accurate Prioritization of Protein-Protein Binding Candidates in High-Throughput Protein Libraries",
+  "authors": "Arup Mondal; Bhumika Singh; Roland H. Felkner; Anna De Falco; GVT Swapna; Gaetano T. Montelione; Monica J. Roth; Alberto Perez",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-23",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于AlphaFold2竞争实验的计算流程，用于从高通量蛋白库中优先筛选蛋白-蛋白结合候选物并预测结合表位，虽非TF-DNA体系，但蛋白-蛋白互作建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Identifying the interactome for a protein of interest is challenging due to the large number of possible binders. High-throughput experimental approaches narrow down possible binding partners, but often include false positives. Furthermore, they provide no information about what the binding region is (e.g. the binding epitope). We introduce a novel computational pipeline based on an AlphaFold2 (AF) Competition Assay (AF-CBA) to identify proteins that bind a target of interest from a pull-down experiment, along with the binding epitope. Our focus is on proteins that bind the Extraterminal (ET) domain of Bromo and Extraterminal domain (BET) proteins, but we also introduce nine additional systems to show transferability to other peptide-protein systems. We describe a series of limitations to the methodology based on intrinsic deficiencies to AF and AF-CBA, to help users identify scenarios where the approach will be most useful. Given the speed and accuracy of the methodology, we expect it to be generally applicable to facilitate target selection for experimental verification starting from high-throughput protein libraries. Table of Contents",
+  "abstract_zh": "识别目标蛋白的相互作用组因存在大量潜在结合蛋白而颇具挑战。高通量实验方法可缩小潜在结合伙伴的范围，但常包含假阳性结果。此外，这些方法无法提供结合区域（如结合表位）的信息。我们提出了一种基于AlphaFold2（AF）竞争性测定（AF-CBA）的新型计算流程，用于从pull-down实验中识别与目标蛋白结合的蛋白质，并确定结合表位。我们的重点在于结合溴结构域和末端外结构域（BET）蛋白的末端外（ET）结构域的蛋白质，同时引入九个额外系统以展示该方法在其他肽-蛋白质系统中的可转移性。我们描述了基于AF和AF-CBA固有缺陷的一系列方法局限性，以帮助用户识别该方法最适用的场景。鉴于该方法的速度和准确性，我们预期其可普遍应用于从高通量蛋白质文库出发，为实验验证选择目标蛋白。目录",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.20.576374",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.20.576374",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.20.576374/index.html"
+}

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and methods, Results, Discussion, Conclusion) as provided by the user. No supplementary files, figures, or tables were accessible for direct inspection.
+- **Assessment boundary** The review is limited to the evidence described in the text and figure legends. No raw data, statistical outputs, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors propose that KPNA2 is upregulated in lung adenocarcinoma, promotes proliferation, is directly transcriptionally regulated by FOXM1, and that KPNA2 in turn positively regulates FOXM1 expression, forming a positive feedback loop that drives lung adenocarcinoma proliferation. The proposed mechanism involves KPNA2 facilitating CHEK2 nuclear entry, CHEK2 stabilizing FOXM1, and FOXM1 directly activating KPNA2 transcription.
+- **Visible evidence base** TCGA expression and survival analyses (Fig. 1); siRNA knockdown of KPNA2 with qRT-PCR, western blot, CCK-8, and EdU assays (Fig. 2); bioinformatic identification of transcription factors correlated with KPNA2 (Fig. 3); FOXM1 knockdown with qRT-PCR, western blot, CCK-8, and EdU assays (Fig. 4); ChIP analysis of FOXM1 binding to the KPNA2 promoter (Fig. 5); KPNA2 knockdown effects on FOXM1 mRNA and protein (Fig. 6); AlphaFold3 predicted binding sites and Co-IP for KPNA2-CHEK2 and CHEK2-FOXM1 interactions (Fig. 7).
+- **Missing materials affecting confidence** All figures and supplementary materials were not accessible. Statistical methods, exact n values, and full data for each experiment were not provided in the text. The ChIP-seq data from external databases (Cistrome) were referenced but not shown. No information on cell line authentication beyond STR was provided. No in vivo data were presented.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward molecular biology study examining the relationship between KPNA2 and FOXM1 in lung adenocarcinoma. The core observations, that KPNA2 is overexpressed in tumors, that its knockdown reduces proliferation, and that FOXM1 binds the KPNA2 promoter, are plausible and consistent with prior literature. However, the central claim of a "positive feedback loop" is not experimentally established. The authors show that FOXM1 knockdown reduces KPNA2 and that KPNA2 knockdown reduces FOXM1, but they do not demonstrate the mechanistic link (CHEK2) within their own system, nor do they perform rescue experiments, time-course analyses, or direct tests of feedback dynamics. The AlphaFold3 predictions and Co-IP data are preliminary and do not establish functional relevance. The manuscript would benefit from a more rigorous experimental design and a more cautious interpretation of the data.
+- **Who would be interested in the results, and why** Researchers studying nuclear transport proteins in cancer, particularly those interested in KPNA2 as a prognostic marker or therapeutic target in lung adenocarcinoma. The potential connection to FOXM1, a well-studied proliferation-associated transcription factor, may also attract investigators working on transcriptional networks in cancer. Clinicians with an interest in biomarkers for lung adenocarcinoma prognosis might find the survival data relevant.
+- **Major strengths** The study addresses a potentially important regulatory axis in a common cancer. The use of two independent cell lines and two siRNAs for KPNA2 knockdown strengthens the proliferation data. The combination of bioinformatic analysis with experimental validation (ChIP) for FOXM1 binding to the KPNA2 promoter is a reasonable approach. The manuscript is clearly written and the figures, as described in the legends, appear to follow a logical sequence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for the central claim
+  - **Claim pointer** The manuscript claims a "positive feedback loop between KPNA2 and FOXM1" that "promotes the proliferation of lung adenocarcinoma."
+  - **Evidence pointer** Figures 4, 5, 6, 7; Discussion section
+  - **Concern** The central claim of a positive feedback loop is not experimentally demonstrated. A feedback loop requires evidence of a complete, functional circuit. The authors show that FOXM1 knockdown reduces KPNA2 (Fig. 4) and that KPNA2 knockdown reduces FOXM1 (Fig. 6). However, they do not show that the effect of KPNA2 on FOXM1 is mediated by CHEK2 in their system. The Co-IP data (Fig. 7C, D) show physical interactions but do not demonstrate that these interactions are required for the observed regulation. No rescue experiments (e.g., overexpression of FOXM1 in KPNA2-knockdown cells or vice versa) were performed. No time-course experiments were shown to establish the dynamics of a feedback loop. The proposed mechanism involving CHEK2 is entirely based on prior literature and AlphaFold3 predictions, not on direct experimental evidence in the lung adenocarcinoma cells used here.
+  - **Why it matters** The title and conclusion of the manuscript rest on the existence of a positive feedback loop. Without functional evidence for the complete circuit, the data only support a bidirectional regulatory relationship, which is a weaker and less novel claim. Overstating the findings as a "feedback loop" could mislead readers and overstate the mechanistic insight.
+  - **Resolution test** The authors should perform rescue experiments (e.g., overexpress FOXM1 in KPNA2-knockdown cells and assess whether proliferation and KPNA2 levels are restored). They should also directly test the role of CHEK2 by knocking down CHEK2 and assessing whether the KPNA2-FOXM1 regulatory relationship is disrupted. A time-course experiment showing the sequence of changes in KPNA2 and FOXM1 expression following perturbation would strengthen the feedback loop claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of the proposed interaction
+  - **Claim pointer** The manuscript implies that the KPNA2-FOXM1 interaction is functionally important for proliferation, as stated in the title and conclusion.
+  - **Evidence pointer** Figures 2, 4, 6; Discussion section
+  - **Concern** The manuscript does not establish that the effect of KPNA2 knockdown on proliferation is mediated by FOXM1, or vice versa. The proliferation assays (CCK-8 and EdU) were performed after knockdown of KPNA2 (Fig. 2) or FOXM1 (Fig. 4), but no experiment was performed to determine whether the effects are interdependent. For example, does overexpression of FOXM1 rescue the proliferation defect caused by KPNA2 knockdown? Without such experiments, the claim that the feedback loop "promotes proliferation" is not directly supported. The observed effects on proliferation could be independent effects of KPNA2 and FOXM1.
+  - **Why it matters** The title makes a causal claim about the feedback loop promoting proliferation. If the two proteins act independently on proliferation, the proposed feedback loop may be an epiphenomenon rather than a driver. This distinction is critical for the scientific message and for any potential therapeutic implications.
+  - **Resolution test** Perform a rescue experiment: knock down KPNA2 and overexpress FOXM1 (or a constitutively active FOXM1) and assess whether proliferation is restored. Conversely, knock down FOXM1 and overexpress KPMA2 and assess the effect. This would establish whether the two proteins act in a common pathway.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence for direct transcriptional regulation
+  - **Claim pointer** The manuscript claims that "expression of KPNA2 is directly controlled by FOXM1" based on ChIP data.
+  - **Evidence pointer** Figure 5; Results section "FOXM1 directly regulates the expression of KPNA2"
+  - **Concern** The ChIP experiment shows that FOXM1 binds to the KPNA2 promoter region, but the manuscript does not provide evidence that this binding is functional. No luciferase reporter assay was performed to demonstrate that FOXM1 activates transcription from the KPNA2 promoter. The ChIP data alone do not distinguish between a functional enhancer/promoter interaction and a non-productive binding event. Additionally, the ChIP experiment was performed in A549 cells, but the authors do not state whether the identified binding site is conserved or whether the primers used were validated for specificity.
+  - **Why it matters** The claim of direct regulation is a key part of the proposed mechanism. Without a functional readout (e.g., reporter assay, mutagenesis of the binding site), the ChIP data are suggestive but not conclusive. This weakens the mechanistic model.
+  - **Resolution test** Perform a luciferase reporter assay with the KPNA2 promoter region containing the FOXM1 binding site, with and without FOXM1 overexpression or knockdown. Mutate the predicted FOXM1 binding site and show loss of responsiveness.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical and data presentation rigor
+  - **Claim pointer** The manuscript reports significant differences in expression, survival, and proliferation assays.
+  - **Evidence pointer** Figures 1, 2, 4, 6; Figure legends
+  - **Concern** The figure legends report significance levels (e.g., "**** P < 0.0001, ** P < 0.01") but do not specify the statistical test used, the number of biological replicates, or whether the data meet the assumptions of the test. For the TCGA analysis, the number of normal and tumor samples is not stated. For the survival analysis, the method for determining the high/low expression cutoff is not described. For the proliferation assays, the number of independent experiments is stated as "at least three" but the exact n is not given. The western blot images are described but not shown to the reviewer, so the quality of the data cannot be assessed.
+  - **Why it matters** Transparent and rigorous statistical reporting is essential for reproducibility and for readers to assess the reliability of the conclusions. The current level of detail is insufficient for a reader to evaluate the strength of the evidence.
+  - **Resolution test** Provide full statistical details in the figure legends or methods: test name, n, dispersion measures, and cutoff criteria. For TCGA analyses, state sample sizes. For survival analysis, describe the cutoff method (e.g., median, optimal cutpoint).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and accuracy of writing
+  - **Affected element** Results section, subsection "FOXM1 directly regulates the expression of KPNA2" (appears twice)
+  - **Evidence pointer** Results section, two consecutive subsections with identical titles
+  - **Issue** The Results section contains two subsections with the same title, "FOXM1 directly regulates the expression of KPNA2." This is confusing and likely an editorial error.
+  - **Required correction** Rename the second subsection to reflect its content, e.g., "FOXM1 binds to the KPNA2 promoter" or "ChIP analysis of FOXM1 binding to the KPNA2 promoter."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and methods, "Protein docking" section
+  - **Evidence pointer** Materials and methods, "Protein docking" subsection
+  - **Issue** The methods section describes AlphaFold3 predictions but does not provide any parameters, confidence scores, or criteria for selecting the predicted binding sites. The significance of the specific hydrogen bonds mentioned (e.g., KPNA2 GLU 466 to CHEK2 ARG 95) is unclear without additional context.
+  - **Required correction** Provide details on the AlphaFold3 run (e.g., version, default settings) and include confidence metrics (e.g., pLDDT, PAE) for the predicted interfaces. State whether the predicted interactions were used to guide any experimental work or are purely speculative.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of figure legends
+  - **Affected element** Figure 3 legend
+  - **Evidence pointer** Figure 3 legend
+  - **Issue** The legend for Figure 3 does not describe panels A and B clearly. The text says "A, B On the basis of a screen of TCGA data, seven transcription factors were identified among the top 200 genes associated with KPNA2 expression in lung adenocarcinoma." It is unclear what distinguishes panel A from panel B.
+  - **Required correction** Clarify what each panel shows (e.g., A: list of transcription factors, B: heatmap or correlation plot). Provide a clear description of the data presented in each panel.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing and context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, first paragraph; Discussion, first paragraph
+  - **Issue** The introduction cites reference [1] for the prevalence of lung adenocarcinoma but does not provide a broader epidemiological context. The discussion cites many examples of feedback loops in cancer but does not critically compare the proposed KPNA2-FOXM1 loop with these examples in terms of mechanistic depth or therapeutic potential.
+  - **Required correction** Add a brief statement on the global burden of lung adenocarcinoma. In the discussion, explicitly state how the proposed mechanism differs from or extends the cited examples.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section, Figure 1B
+  - **Evidence pointer** Figure 1B legend
+  - **Issue** The legend for Figure 1B states "Cnncl_mt_n_KRAS_EGFR_ALK_RET_ROS1_BRAF_ERBB2_HRAS_NRAS_AKT1_MAP2 mutated group is lower than that of wild type." The term "Cnncl_mt_n" is unclear and appears to be a typo or an undefined abbreviation.
+  - **Required correction** Define the abbreviation or correct the typo. Clarify which genes were included in the mutation panel and how the "mutated" group was defined.
+- **Technical failings that need to be addressed before the case is established** The central claim of a positive feedback loop is not supported by the experimental data. The manuscript lacks rescue experiments, direct tests of the proposed CHEK2-mediated mechanism, and functional validation of the FOXM1 binding site. The statistical reporting is incomplete. The manuscript also contains a duplicated subsection title and unclear figure legends, which need correction.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a KPNA2-FOXM1 feedback loop is not entirely novel, as both proteins are well-studied in cancer. The specific combination and the proposed CHEK2 link have some novelty, but the experimental evidence does not yet distinguish this from prior work on KPNA2 or FOXM1 individually. The originality is moderate at best.
+  - **Scientific importance** If the feedback loop were rigorously established, it could have implications for understanding lung adenocarcinoma proliferation and for identifying new therapeutic targets. However, the current evidence is too preliminary to assess the true importance. The clinical relevance is speculative.
+  - **Interdisciplinary readership** The topic is of interest primarily to cancer biologists and molecular oncologists. The potential connection to nuclear transport and transcription regulation may attract a slightly broader audience, but the study is unlikely to appeal to a wide interdisciplinary readership.
+  - **Technical soundness** The basic techniques (siRNA knockdown, qRT-PCR, western blot, CCK-8, EdU, ChIP, Co-IP) are appropriate and generally well-executed as described. However, the lack of functional validation for the ChIP data and the absence of rescue experiments are significant technical gaps. The AlphaFold3 predictions are not experimentally validated.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. However, the duplicated subsection title and unclear figure legends detract from readability. The discussion is overly long and includes many tangential examples that do not directly advance the argument.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents some interesting observations, but the central claim of a positive feedback loop is not experimentally supported. Major revisions, including rescue experiments, functional validation of the proposed mechanism, and improved statistical reporting, would be required before the case is established.
+
+## Risk / unsupported claims
+- The claim of a "positive feedback loop" is unsupported. The data show bidirectional regulation but do not demonstrate a functional loop.
+- The claim that the feedback loop "promotes proliferation" is unsupported. No experiment links the proposed loop to the observed proliferation effects.
+- The proposed mechanism involving CHEK2 is speculative. The Co-IP data show interactions but do not establish that these interactions are functionally relevant in the proposed loop.
+- The AlphaFold3 predictions are presented without confidence metrics and are not experimentally validated.
+- The survival analysis claims are based on external databases, but the specific methods (cutoff selection, covariates) are not described, making the results difficult to evaluate.
+- The statement that "KPNA2 is upregulated during cancer development" is based on TCGA data, but the comparison groups and statistical methods are not fully described.

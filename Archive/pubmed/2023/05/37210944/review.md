@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to show that glycerol and DMSO alter the essential dynamics, conformational free energy landscape, and hydration of the EcoRI endonuclease, particularly in the DNA-binding arm region. They report osmolyte-specific differences in enzyme hydration and interfacial water dynamics, with slowed water rotational motion and hydrogen bond relaxation, and propose that these changes contribute to altered EcoRI specificity in the presence of osmolytes.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, statistical analyses, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, simulation setup and force field parameters, system construction details, convergence criteria, free energy calculation methods, error estimates, comparison with experimental data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis linking osmolyte-induced changes in water dynamics to altered EcoRI dynamics and specificity. However, the current evidence base is insufficient to evaluate the technical soundness of the simulations, the robustness of the free energy and entropy analyses, or the statistical significance of the reported differences. The claims are qualitatively stated without quantitative support, and several key methodological details are absent. The work has potential interest for the biophysics and molecular recognition communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying protein-DNA recognition, restriction enzyme mechanisms, osmolyte effects on macromolecular function, and the role of hydration in biomolecular dynamics. The work also speaks to the broader community interested in how solvent composition modulates protein conformational ensembles and molecular specificity, with potential relevance to cellular osmoregulation and biotechnology applications involving engineered enzymes.
+- **Major strengths** The study addresses a mechanistically important question, namely how osmolytes alter protein function through water-mediated effects. The focus on the arm region of EcoRI, which is directly involved in DNA binding, provides a targeted and biologically meaningful lens. The use of multiple complementary analyses, including essential dynamics, conformational free energy, hydration patterns, rotational autocorrelation, and entropy, suggests a comprehensive approach. The proposal that osmolyte-specific hydration differences imply distinct mechanisms of action is a thoughtful and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that osmolytes alter the essential dynamics of EcoRI, particularly in the arm region involved in DNA binding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative metrics for essential dynamics, such as eigenvalues, overlap values, or root-mean-square fluctuations, and no statistical comparison between the three systems (apo, glycerol, DMSO). Without these, the claim of significant alteration cannot be assessed.
+  - **Why it matters** Essential dynamics analyses are sensitive to simulation length, convergence, and the choice of atoms or residues included. A qualitative statement of alteration is insufficient to establish that the observed differences are robust and not artifacts of insufficient sampling.
+  - **Resolution test** Provide quantitative essential dynamics results with error estimates, convergence checks, and statistical tests comparing the apo and osmolyte systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that conformational free energy analyses reveal a change in the landscape similar to that of EcoRI bound to cognate DNA.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details are given on the free energy calculation method, the reaction coordinates used, the convergence of the free energy surfaces, or the quantitative similarity to the DNA-bound state. The claim of similarity to the cognate DNA-bound landscape is a strong statement that requires direct comparison with a simulation of the EcoRI-DNA complex.
+  - **Why it matters** Free energy landscapes are highly dependent on the chosen collective variables and sampling quality. Without a reference simulation of the DNA-bound state and quantitative measures of landscape similarity, this claim is unsupported.
+  - **Resolution test** Provide free energy surfaces for apo, glycerol, DMSO, and DNA-bound EcoRI using identical methods, with convergence metrics and a quantitative similarity measure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that hydration of the enzyme differs for each osmolyte, indicating different mechanisms of action.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which hydration properties were measured, how they were computed, or whether the differences are statistically significant. The claim of different mechanisms is inferred from hydration differences, but no direct mechanistic evidence is presented.
+  - **Why it matters** Hydration analyses can be defined in multiple ways, such as water density maps, residence times, or coordination numbers. Without clear definitions and statistical testing, the observed differences could be within noise or an artifact of the analysis method.
+  - **Resolution test** Specify the hydration metrics used, provide distributions with error bars, and perform statistical tests comparing the three systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that osmolytes contribute to the slowing of the angular motion of water molecules, as revealed by rotational autocorrelation analysis, and that entropy analysis corroborates this finding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No correlation times, entropy values, or comparison with bulk water are provided. The claim of corroboration between two analyses is not verifiable without quantitative results from both.
+  - **Why it matters** Rotational autocorrelation functions and entropy calculations are sensitive to simulation length and system size. Without quantitative values and uncertainties, the reader cannot judge whether the reported slowing is meaningful or within expected fluctuations.
+  - **Resolution test** Provide rotational correlation times and entropy differences with error estimates, and show that the two analyses are consistent within their respective uncertainties.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that slowed rotational motion of interfacial waters contributes to slowed relaxation of hydrogen bonds between interfacial waters and functionally important residues.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The causal link between water rotational motion and hydrogen bond relaxation is asserted without direct evidence. No hydrogen bond lifetimes, relaxation times, or identification of the functionally important residues are provided.
+  - **Why it matters** Establishing a causal relationship requires showing that the two quantities are correlated and that the proposed mechanism is consistent with the data. Without these, the claim remains speculative.
+  - **Resolution test** Provide hydrogen bond lifetime distributions and relaxation times for specific residues, and demonstrate a quantitative correlation with water rotational dynamics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the simulation software, force field, water model, or osmolyte parameterization. These details are essential for reproducibility.
+  - **Required correction** Include simulation software, force field versions, water model, and osmolyte parameter sources in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "essential dynamics" is used without defining the method, such as principal component analysis of the covariance matrix. Nonspecialist readers may not be familiar with this terminology.
+  - **Required correction** Define essential dynamics and briefly describe the method in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that EcoRI specificity is altered in the presence of osmolytes but does not cite or describe the experimental observations that motivate this study.
+  - **Required correction** Provide a brief summary of the experimental evidence for altered specificity in the introduction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The final statement that altered water dynamics "may contribute" to altered specificity is appropriately cautious, but the preceding claims are stated more definitively. The abstract should maintain consistent hedging throughout.
+  - **Required correction** Adjust the language of earlier claims to match the cautious tone of the final conclusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. All five major concerns relate to the absence of quantitative evidence and methodological details necessary to evaluate the core claims. Without these, the case for osmolyte-induced changes in EcoRI dynamics and hydration is not established.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that osmolytes act through water dynamics to alter protein-DNA recognition is not entirely new, but the specific application to EcoRI and the combination of analyses is a reasonable contribution. Scientific importance: The work addresses a fundamental question in molecular recognition and osmoregulation, but the significance is moderate and depends on the robustness of the findings. Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and enzymology, and could appeal to a broad audience if clearly presented. Technical soundness: Not assessable from the abstract due to missing methodological and quantitative details. Readability for nonspecialists: The abstract is generally clear but uses technical terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is potentially sound, but the abstract lacks the quantitative and methodological detail needed to support the claims. A revised manuscript with full methods, statistical analyses, and direct comparisons to the DNA-bound state could make the case compelling.

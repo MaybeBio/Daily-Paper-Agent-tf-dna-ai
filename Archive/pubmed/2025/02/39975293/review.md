@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific and technical evaluation of the presented method, experiments, and claims, based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose scRegNet, a framework combining single-cell foundation models (scBERT, Geneformer, scFoundation) with graph neural networks (GCN) for gene regulatory link prediction. They claim state-of-the-art performance over nine baselines across seven BEELINE benchmark datasets, with improved robustness to noisy training data.
+- **Visible evidence base** Main text including Methods, Experimental Setup, Results, and Conclusions sections. Tables 1-3 and Figures 1-3 are referenced but not provided in the submitted material. Supplementary tables and sections are referenced but not provided.
+- **Missing materials affecting confidence** Tables 1-3, Figures 1-3, all Supplementary Material (Tables S1-S3, Sections S1-S4), and the referenced code repository were not included. Statistical significance testing, error bars, and detailed hyperparameter settings are not visible. The full experimental results cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in gene regulatory network inference by proposing a hybrid approach that leverages pre-trained single-cell foundation models and graph-based learning. The motivation is clear and the methodological framing is sensible. However, the provided evidence is insufficient to fully evaluate the claims. Key results tables and figures are missing, and several methodological details require clarification. The core idea has merit, but the current submission does not provide enough verifiable evidence to establish the stated state-of-the-art performance.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics analysis, and graph-based machine learning applications in genomics. The work may also interest researchers developing foundation models for biological data and those studying transfer learning in regulatory genomics.
+- **Major strengths** The problem is well-motivated and timely. The combination of foundation model embeddings with graph-based learning is a reasonable and potentially impactful idea. The authors evaluate across multiple cell types and species, and include an ablation study and robustness analysis, which are appropriate experimental designs. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim state-of-the-art performance across all seven benchmark datasets in both AUROC and AUPRC.
+  - **Evidence pointer** Tables 2 and 3, location not provided
+  - **Concern** The primary results tables are not included in the submitted material. Without the actual numerical results, the central claim of state-of-the-art performance cannot be assessed. The text provides some aggregate improvement percentages, but these are insufficient to evaluate per-dataset performance, variance, or statistical significance.
+  - **Why it matters** The core contribution of the manuscript is the empirical demonstration of improved performance. Without the data, the claim is unverifiable.
+  - **Resolution test** Provide Tables 2 and 3 with full numerical results, including per-dataset AUROC and AUPRC values, standard deviations or confidence intervals, and statistical significance tests against baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors state that the data splitting strategy prevents data leakage by ensuring that the same gene does not appear in both training and test sets for the same TF.
+  - **Evidence pointer** Section "Datasets and data pre-processing", location not provided
+  - **Concern** The described splitting strategy is per-TF, meaning that for each TF, its target genes are split into train and test. However, it is unclear whether a gene that is a target of one TF in the training set could appear as a target of a different TF in the test set. If so, the model could see the same gene in both sets, potentially leading to information leakage. The authors need to clarify whether the split is performed globally across all TFs or independently per TF.
+  - **Why it matters** Data leakage would inflate performance estimates and undermine the validity of the reported results.
+  - **Resolution test** Clarify the exact splitting procedure. If the split is per-TF, demonstrate that no gene appears in both training and test sets across all TFs, or describe a global split strategy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the parameters of the GNN layers are updated while the parameters of the scFM remain frozen during training.
+  - **Evidence pointer** Section "Model training", location not provided
+  - **Concern** The manuscript does not specify how the frozen scFM embeddings are obtained for genes that are not present in the scFM's vocabulary or for genes with zero expression across all cells in a given dataset. The mean pooling operation in Equation 3 averages over cells, but if a gene is not expressed in any cell, its embedding would be zero or undefined. The handling of such cases is not described.
+  - **Why it matters** Gene regulatory networks often include genes with low or zero expression in specific cell types. The behavior of the model in these cases could affect performance and generalizability.
+  - **Resolution test** Describe how zero-expression or out-of-vocabulary genes are handled in the embedding extraction and pooling steps.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor
+  - **Claim pointer** The authors claim that scRegNet is more robust than baselines on noisy training data.
+  - **Evidence pointer** Section "Robustness Study", Figure 3, location not provided
+  - **Concern** The robustness study introduces label noise at levels of 1-4%. It is unclear whether these noise levels are realistic compared to the actual error rates in ChIP-seq datasets. Additionally, the comparison is only made against GENELink, not against all baselines. The choice of noise levels and the single comparator limit the strength of the robustness claim.
+  - **Why it matters** Robustness to realistic noise levels is important for practical applicability. A limited comparison weakens the generalizability of the robustness conclusion.
+  - **Resolution test** Justify the chosen noise levels with reference to known error rates in ChIP-seq data. Include additional baselines in the robustness comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 4
+  - **Evidence pointer** Section "Graph-based learning with GNNs", location not provided
+  - **Issue** The notation in Equation 4 is unclear. The message passing function M is described as parameterized by θ_l, but the specific form of M for the GCN used in the experiments is not given. The equation also uses a calligraphic M that may be confused with the number of cells N.
+  - **Required correction** Provide the explicit GCN update rule and clarify the notation to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Hyperparameter settings
+  - **Evidence pointer** Section "Parameter Settings", Supplementary Table S2, location not provided
+  - **Issue** The manuscript states that Optuna was used for hyperparameter optimization but does not provide the search space, the number of trials, or the final hyperparameter values in the main text.
+  - **Required correction** Summarize the key hyperparameters in the main text or ensure Supplementary Table S2 is complete and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline descriptions
+  - **Evidence pointer** Section "Baseline models and evaluation metrics", location not provided
+  - **Issue** The nine baselines are listed but not described. The reader cannot assess whether the baselines are appropriate or whether their implementations are fair.
+  - **Required correction** Provide brief descriptions of each baseline and cite the original implementations or specify the versions used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section "Method", Figure 1, location not provided
+  - **Issue** Figure 1 is referenced but not provided. The architecture diagram would help the reader understand the flow of data through the framework.
+  - **Required correction** Ensure Figure 1 is included and clearly labeled.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results tables), R1-M2 (potential data leakage), R1-M3 (handling of zero-expression genes), R1-M4 (limited robustness comparison).
+
+## Risk / unsupported claims
+- The claim of state-of-the-art performance across all seven datasets is unsupported because Tables 2 and 3 are not provided.
+- The claim of robustness to noisy training data is only partially supported, as the comparison is limited to one baseline and the noise levels are not justified.
+- The claim that the data splitting prevents data leakage is not fully substantiated without clarification of the splitting procedure.
+- The claim that scRegNet is "novel" is plausible but not fully established, as the related work section does not discuss recent hybrid foundation model plus graph approaches in detail.
+- The generalizability of the method to new cell types without ground-truth ChIP-seq data is discussed as future work, but the current evaluation does not test this scenario.

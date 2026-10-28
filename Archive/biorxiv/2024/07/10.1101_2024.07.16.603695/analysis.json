@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.16.603695",
+  "title": "Representing Transcription Factor Dimer Binding Sites Using Forked-Position Weight Matrices and Forked-Sequence Logos",
+  "authors": "Matthew Dyer; Roberto Tirado-Magallanes; Aida Ghayour-Khiavi; Xiao Xuan Lin Quy; Walter Santana; Hamid Usefi; Morgane Thomas-Chollier; Sudhakar Jha; Denis Thieffry; Touati Benoukraf",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了R库forkedTF，用分叉位置权重矩阵和序列标识符改进转录因子二聚体结合位点建模，虽涉及TF-DNA结合位点表示，但缺乏AI或物理模拟方法，且未深入三维互作机制，属于方法可借鉴但深度不足的工程工具。",
+  "abstract": "Current position weight matrices and sequence logos may not be sufficient for accurately modeling transcription factor binding sites recognized by a mixture of homodimer and heterodimer complexes. To address this issue, we developed forkedTF , an R-library that allows the creation of Forked-Position Weight Matrices (FPWM) and Forked-Sequence Logos (F-Logos), which better capture the heterogeneity of TF binding affinities based on interactions and dimerization with other TFs. Furthermore, we have enhanced the standard PWM format by incorporating additional information on co-factor binding and DNA methylation. Precomputed FPWM and F-Logos are made available in the MethMotif 2024 database, thereby providing ready-to-use resources for analyzing TF binding dynamics. Finally, forkedTF is designed to support the TRANSFAC format, which is compatible with most third-party bioinformatics tools that utilize PWMs. The forkedTF R-library is open source and can be accessed on GitHub at https://github.com/benoukraflab/forkedTF .",
+  "abstract_zh": "当前位置权重矩阵和序列标识可能不足以精确建模由同源二聚体和异源二聚体复合物混合物识别的转录因子结合位点。为解决此问题，我们开发了forkedTF，一个R库，允许创建分叉位置权重矩阵（FPWM）和分叉序列标识（F-Logos），这些能更好地捕捉基于与其他转录因子相互作用及二聚化的转录因子结合亲和力异质性。此外，我们通过纳入辅因子结合和DNA甲基化的额外信息，增强了标准PWM格式。预计算的FPWM和F-Logos已在MethMotif 2024数据库中提供，从而为分析转录因子结合动态提供了即用资源。最后，forkedTF设计支持TRANSFAC格式，该格式与大多数使用PWM的第三方生物信息学工具兼容。forkedTF R库为开源，可在GitHub上访问：https://github.com/benoukraflab/forkedTF。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603695",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603695",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.16.603695/index.html"
+}

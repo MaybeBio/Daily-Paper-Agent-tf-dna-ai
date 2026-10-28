@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and methods sections
+- **Assessment boundary** Scientific claims, structural biology methods, biochemical validation, and fragment screening results as presented in the provided text
+- **Shared manuscript claim summary** The authors report crystal structures of human brachyury in complex with DNA (WT and G177D variant), DNA-free forms used for fragment screening, identification of small molecule binders via crystallographic fragment screening, and structure-guided optimization to low micromolar binders intended as starting points for PROTAC development in cancer therapy
+- **Visible evidence base** Structural coordinates deposited in PDB, crystallographic statistics summarized in Table 1, EMSA and SPR binding data, DSF stability measurements, fragment screening results across WT and G177D crystal forms
+- **Missing materials affecting confidence** Figures and supplementary tables referenced but not provided, full compound characterization data, detailed crystallographic refinement statistics for fragment-bound structures, raw SPR sensorgrams, and complete methods for compound synthesis
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically sound structural study of human brachyury, a transcription factor of established relevance to chordoma. The crystallographic work appears carefully executed, and the fragment screening approach is appropriate for the target class. However, the central claim that identified binders can serve as starting points for degraders is supported only by binding affinity data, with no demonstration of cellular activity, degradation efficacy, or functional consequences. The structural insights into DNA recognition are incremental given prior Xenopus brachyury structures, and the G177D comparison, while useful, does not resolve the mechanistic basis for the variant's association with chordoma risk. The manuscript is of interest to a specialized audience in structural biology and drug discovery but does not yet establish a compelling case for broad significance.
+- **Who would be interested in the results, and why** Structural biologists studying T-box transcription factors, researchers investigating chordoma biology and therapeutics, and medicinal chemists working on transcription factor targeting or PROTAC development would find the structural data and fragment screening results relevant. The demonstration that a ligandless transcription factor can be targeted by fragment-based methods may interest the broader drug discovery community.
+- **Major strengths** The crystallographic work is of high quality with good resolution for the DNA complexes. The fragment screening approach is rigorous and provides a clear demonstration of ligandability for a target class traditionally considered challenging. The inclusion of both WT and G177D variant structures and binding analyses addresses a clinically relevant question. The authors are appropriately cautious in stating that compounds are binders, not inhibitors, and acknowledge the potential for event-driven pharmacology via PROTACs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract and discussion state that identified compounds "can serve as starting point for further medicinal chemistry efforts" and "could lead to chemical probes of brachyury functions or be further developed into warheads for protein degradation"
+  - **Evidence pointer** Results section on structure-guided optimization, Table 2, SPR data in Table S2
+  - **Concern** The manuscript reports low micromolar binders identified by SPR but provides no evidence that these compounds engage brachyury in cells, affect brachyury function, or can be converted into functional degraders. The claim that these are viable starting points for PROTAC development is speculative without demonstration of cellular permeability, target engagement in a biological context, or any degradation activity.
+  - **Why it matters** The therapeutic relevance of the identified compounds depends on their ability to function in cellular contexts. Binding affinity alone, measured on isolated protein, does not establish utility for PROTAC development, which requires additional properties such as appropriate vector placement for ternary complex formation and cellular uptake.
+  - **Resolution test** Provide cellular target engagement data, demonstrate brachyury degradation in a relevant cell line using a PROTAC conjugate, or clearly reframe claims to state that these are preliminary biophysical binders requiring substantial further validation before therapeutic relevance can be assessed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The manuscript claims that structural comparison of WT and G177D brachyrium provides "insights into DNA recognition" and that the G177D variant does not substantially change DNA binding
+  - **Evidence pointer** Results sections on crystal structures and G177D binding assays, Figures 2 and 3
+  - **Concern** The structural analysis of the G177D variant is largely descriptive, noting local conformational changes and a new salt bridge, but does not provide a mechanistic explanation for why this variant is strongly associated with chordoma risk. The conclusion that the variant does not affect DNA binding in vitro is useful but leaves the functional significance unresolved, and the manuscript does not offer alternative hypotheses or experiments to address this gap.
+  - **Why it matters** The clinical relevance of the G177D variant is a key motivation for the study. Without a mechanistic link between the structural observations and chordoma pathogenesis, the significance of the variant analysis is limited to ruling out one potential mechanism.
+  - **Resolution test** Discuss alternative mechanisms by which G177D could contribute to chordoma risk, such as effects on protein-protein interactions, post-translational modifications, or transcriptional regulation beyond direct DNA binding, or present additional experimental data addressing these possibilities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript reports a crystallographic fragment screen identifying 30 hits in WT and 17 hits in G177D crystals across multiple pockets
+  - **Evidence pointer** Results section on fragment screening, Supplementary Tables I and II, Figure 4
+  - **Concern** The manuscript states that very little overlap was observed between WT and G177D fragment hits and attributes this to crystal form differences. However, the analysis of pocket conservation and the implications for ligandability of the variant are not presented in sufficient detail. The functional relevance of the identified pockets, particularly whether compound binding at these sites could modulate brachyrium activity, is not addressed.
+  - **Why it matters** The fragment screening results are central to the claim that brachyury is ligandable. Without a clearer analysis of which pockets are conserved, which are variant-specific, and whether any are functionally relevant, the significance of the screening data for therapeutic development is unclear.
+  - **Resolution test** Provide a more detailed comparison of pocket structures between WT and G177D, discuss the functional implications of each binding site, and clarify which pockets are considered most promising for further development and why.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on G177D variant
+  - **Evidence pointer** Abstract, Results section on G177D structures
+  - **Issue** The abstract states the structures provide "insights into DNA recognition" but the specific new insights beyond prior Xenopus structures are not clearly articulated in the text
+  - **Required correction** Clearly state what novel mechanistic insights into DNA recognition are provided by the human brachyury structures compared to previously published T-box family structures
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Fragment screening occupancy and validation
+  - **Evidence pointer** Methods section on X-ray fragment screening
+  - **Issue** The manuscript does not describe how fragment hits were validated beyond visual inspection of electron density, and occupancy refinement details are not provided
+  - **Required correction** Describe the criteria for hit validation, including occupancy refinement, B-factor analysis, and any independent biophysical validation of fragment binding
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** SPR binding data for optimized compounds
+  - **Evidence pointer** Table 2, Table S2
+  - **Issue** The manuscript reports apparent dissociation constants but does not provide representative sensorgrams or describe the binding model used for fitting in the main text
+  - **Required correction** Include representative SPR sensorgrams and clearly describe the fitting model and any limitations of the affinity measurements
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Biological context
+  - **Affected element** Discussion of therapeutic implications
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of therapeutic potential does not address the challenges of targeting a transcription factor in cells, such as nuclear localization, competition with DNA binding, or the need for cell-penetrating properties
+  - **Required correction** Add a brief discussion of the challenges and considerations for translating these binders into cellular tools or therapeutic leads
+- **Technical failings that need to be addressed before the case is established** The primary technical gap is the absence of any cellular or functional validation of the identified compounds. The manuscript establishes that compounds bind to brachyury in vitro but does not demonstrate that this binding has any biological consequence or that the compounds possess properties compatible with cellular activity. Additionally, the lack of detailed comparison between WT and G177D pocket structures limits the interpretation of the fragment screening results.
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of crystallographic fragment screening to brachyury, but the structural findings are largely confirmatory of prior T-box family studies. Scientific importance: The demonstration of ligandability for brachyury is of interest for chordoma drug discovery, but the therapeutic relevance is not yet established. Interdisciplinary readership: The manuscript will primarily appeal to structural biologists and drug discovery researchers; the broader cancer biology community may find the G177D analysis of interest but the unresolved mechanism limits impact. Technical soundness: The crystallographic and biophysical methods appear sound, though the lack of cellular validation is a significant limitation. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with structural biology and drug discovery concepts; the significance for cancer therapy is not made accessible to a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural and biophysical data are of good quality and represent a useful contribution to the field. However, the claims regarding therapeutic potential and starting points for degraders require additional validation, and the mechanistic insights into G177D function need to be more clearly articulated. The manuscript would be strengthened by cellular target engagement data, a more detailed analysis of pocket conservation and functional relevance, and a more cautious framing of the therapeutic implications.
+
+## Risk / unsupported claims
+- The claim that identified compounds "can serve as starting point for further medicinal chemistry efforts" for PROTAC development is unsupported without cellular or in vivo validation
+- The statement that the G177D variant does not substantially change DNA binding is supported by in vitro data but the extrapolation to chordoma pathogenesis is not established
+- The suggestion that pocket D may have a role in downstream signaling based on P300 interaction dependence is speculative and not directly tested
+- The claim that fragment screening demonstrates brachyury is "ligandable" is supported by crystallographic data but the functional relevance of the identified binding sites is not demonstrated
+- The assertion that compounds could be developed into "warheads for protein degradation" is speculative without demonstration of degradation activity or ternary complex formation

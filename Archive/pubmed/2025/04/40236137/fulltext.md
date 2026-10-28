@@ -1,0 +1,5 @@
+# Macrophages maintain signaling fidelity in response to ligand mixtures
+
+
+## Significance (≤120)
+  Macrophages sense diverse pathogens within complex environments and respond appropriately. Experimental studies have found that the NFκB pathway responds with stimulus-specific dynamics when macrophages are exposed to single ligand stimuli. However, it remains unclear complex contexts might erode this stimulus-specificity. Here we systematically studies NFκB responses using a mathematical model that provides simulations of the heterogeneous population of single cell responses. We show that although the model is parameterized to single ligand data it can predict the responses to multi-ligand mixtures. Indeed, model validation uncovered signaling antagonism between two ligands and the underlying mechanism. Importantly, we found that NFκB signaling dynamics distinguish ligands within multi-ligand mixtures indicating a robustness of the NFκB temporal code that was not previously appreciated.

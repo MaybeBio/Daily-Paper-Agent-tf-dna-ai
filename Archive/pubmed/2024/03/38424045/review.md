@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims by the presented evidence. No assessment of formatting, grammar, or editorial scope.
+- **Shared manuscript claim summary** The authors identify a conformational switch in the c-MYC transactivation domain (residues 101-150, termed coreMYC) using probe-based MD simulations. They show that EGCG binding induces compaction of this region, and that this compaction inhibits interactions with TRRAP and TBP, both in vitro and in cells. They propose this as a druggable feature for targeting c-MYC.
+- **Visible evidence base** MD simulations (Fig. 1b, d; Supplementary Figs. 3, 5-7, 9-11), native MS and IM-MS (Fig. 2b, c; Supplementary Fig. 8), AF2 modeling (Fig. 3a, b; Supplementary Figs. 13, 14, 16, 18), in situ PLA (Fig. 4a-d; Supplementary Fig. 21), Western blot (Fig. 4e; Supplementary Fig. 21d), RT-qPCR (Supplementary Fig. 21e), cell viability assays (Supplementary Fig. 20).
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Supplementary Figs. 1-21, Supplementary Tables 1-3) were not provided. Details of the machine learning approach mentioned in the abstract are not described in the main text. NMR data mentioned in the results are stated as not included. Statistical details for some comparisons are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially important approach to targeting the intrinsically disordered c-MYC protein. The combination of MD simulations with biophysical and cellular assays is commendable. However, the central claim of a specific "conformational switch" that is druggable is only partially supported by the data presented. The evidence for EGCG-induced compaction is largely indirect, and the mechanistic link between this compaction and the observed inhibition of protein-protein interactions in cells requires further substantiation. The lack of key supplementary data limits a full assessment of the methodology and results.
+- **Who would be interested in the results, and why** Researchers in the fields of drug discovery, particularly those focused on intrinsically disordered proteins and transcription factors. The work is also relevant to the c-MYC biology community and those interested in novel therapeutic strategies for cancer. The proposed methodology for identifying and targeting conformational switches in IDPs could be of broad interest.
+- **Major strengths**
+    1.  The study addresses a highly challenging and important target (c-MYC) with a novel conceptual approach.
+    2.  The combination of computational (MD, AF2) and experimental (MS, cellular) methods is powerful and appropriate for studying IDPs.
+    3.  The identification of a specific region (coreMYC) that is susceptible to ligand-induced conformational change is a valuable finding.
+    4.  The cellular data showing disruption of c-MYC interactions with TBP and TRRAP, but not MAX, provides a degree of specificity that is intriguing.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence supports claim
+    - **Claim pointer** "Using probe-based Molecular Dynamics (MD) simulations and machine learning, we identify a conformational switch in the c-MYC amino-terminal transactivation domain (termed coreMYC) that cycles between a closed, inactive, and an open, active conformation."
+    - **Evidence pointer** Fig. 1b, d; Methods section "Modeling c-MYC peptide derivatives and system setup for MD simulations"
+    - **Concern** The identification of a "conformational switch" is based on MD simulations of isolated 50-residue peptides. The claim that this region "cycles" between two discrete states is not directly demonstrated. The Rg distributions show a shift towards compact states in the presence of benzene, but this does not establish a pre-existing equilibrium between defined "open" and "closed" states in the absence of ligand. The machine learning aspect is mentioned in the abstract but not described in the methods or results, making this part of the claim unverifiable.
+    - **Why it matters** The entire premise of the paper rests on the existence of this switch. If the evidence only shows that a hydrophobic peptide can be collapsed by a hydrophobic probe, the significance is substantially diminished. The lack of description of the machine learning method is a significant omission.
+    - **Resolution test** The authors must provide a clear description of the machine learning method used. They should also provide more direct evidence for a pre-existing equilibrium between defined conformational states, for example through enhanced sampling MD simulations or analysis of the apo-state ensemble that demonstrates two distinct, populated basins.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence supports claim
+    - **Claim pointer** "Using probe-based Molecular Dynamics (MD) simulations and machine learning, we identify a conformational switch... Using the polyphenol epigallocatechin gallate (EGCG) to modulate the conformational landscape of coreMYC, we show through biophysical and cellular assays that the induction of a closed conformation impedes its interactions with the TRRAP and the TATA-box binding protein (TBP)..."
+    - **Evidence pointer** Fig. 2b, c; Fig. 3c, f; Methods section "Native and ion mobility-mass spectrometry"
+    - **Concern** The biophysical evidence for EGCG-induced compaction is based on IM-MS. While a shift in drift time is shown, the authors state that EGCG binding is non-specific and does not saturate. The claim that this non-specific binding induces a specific "closed conformation" is a strong interpretation. The IM-MS data shows a population shift, but it is not clear if this represents a specific conformational change or a general collapse due to non-specific hydrophobic interactions. Furthermore, the NMR experiments that could have provided more detailed structural information were not included due to "potential titration artefacts".
+    - **Why it matters** The mechanism of action is central to the paper's therapeutic claims. If EGCG acts via non-specific hydrophobic collapse, it is not a "druggable conformational switch" but rather a non-specific aggregator. The distinction is critical for the future development of specific inhibitors.
+    - **Resolution test** The authors need to provide more compelling evidence that the compaction is a specific, ligand-induced conformational change rather than a non-specific effect. This could be achieved with a negative control using a similar hydrophobic molecule that does not affect c-MYC function, or by using a more specific biophysical technique that can resolve distinct conformational states.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence supports claim
+    - **Claim pointer** "we show through biophysical and cellular assays that the induction of a closed conformation impedes its interactions with the TRRAP and the TATA-box binding protein (TBP) which are essential for the transcriptional and oncogenic activities of c-MYC."
+    - **Evidence pointer** Fig. 3c, f; Fig. 4a-d; Methods section "In situ proximity ligation assay"
+    - **Concern** The cellular assays (PLA) show a reduction in c-MYC:TBP and c-MYC:TRRAP interactions upon EGCG treatment. However, the link between this observation and the proposed mechanism (conformational switch in coreMYC) is not directly established. EGCG is a known pleiotropic agent that can affect many cellular pathways. The authors do not rule out indirect effects, such as changes in protein levels (although they show total levels are unchanged), post-translational modifications, or competition with other EGCG-binding proteins. The claim that the effect is due specifically to the conformational change in coreMYC is an extrapolation.
+    - **Why it matters** The paper aims to establish a new paradigm for targeting c-MYC. To do so, it must be shown that the cellular effects are a direct consequence of the proposed mechanism. Without this, the data only show that EGCG can disrupt these interactions, which is a much weaker claim.
+    - **Resolution test** The authors could use a mutant of coreMYC that is locked in the open or closed conformation (e.g., via disulfide trapping or proline mutations) and show that EGCG has no effect on the interaction of this mutant with TRRAP/TBP. Alternatively, they could use a cellular system where the proposed mechanism is the only variable.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and reproducibility
+    - **Affected element** Methods section "Modeling with AlphaFold2"
+    - **Evidence pointer** Methods section "Modeling with AlphaFold2"
+    - **Issue** The description of the AF2 modeling is brief. The authors state that they used Colabfold with specific settings, but the criteria for selecting the "highest ranked model" and the confidence metrics (e.g., pLDDT, PAE) are not reported.
+    - **Required correction** Provide more details on the AF2 model selection and the confidence of the predicted models, particularly for the coreMYC:TRRAP and coreMYC:TBP complexes.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Fig. 3a
+    - **Evidence pointer** Fig. 3a
+    - **Issue** The Rg values from AF2 models are plotted as single points against the MD distribution. It is unclear how many AF2 models were generated and whether the Rg values are from the top-ranked model or an ensemble.
+    - **Required Correction** Clarify the number of models generated and the distribution of Rg values across the top-ranked models.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion section
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion speculates on the generality of this approach for other IDPs. While interesting, this is not directly supported by the data.
+    - **Required Correction** Soften the language or provide a brief justification for why this approach might be generalizable.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Fig. 2c
+    - **Evidence pointer** Fig. 2c
+    - **Issue** The arrival time distributions are shown for the 4+ charge state. It is unclear if similar shifts are observed for other charge states, which would strengthen the interpretation.
+    - **Required Correction** Show data for other charge states or state that the 4+ state is representative.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods section "In situ proximity ligation assay"
+    - **Evidence pointer** Methods section "In situ proximity ligation assay"
+    - **Issue** The PLA quantification method is described, but the number of cells analyzed and the criteria for selecting fields are not fully detailed.
+    - **Required Correction** Provide more details on the image analysis and the number of cells counted per condition.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of description of the machine learning method.
+    - R1-M2: The non-specific nature of EGCG binding and the lack of direct evidence for a specific conformational change.
+    - R1-M3: The lack of a direct mechanistic link between the proposed conformational switch and the cellular effects of EGCG.
+- **Assessment against Nature-style criteria**
+    - **Originality** The concept of targeting a conformational switch in an IDP is original and timely. The specific application to c-MYC is novel.
+    - **Scientific importance** If the claims are fully substantiated, this work could have a significant impact on the field of drug discovery for challenging targets like c-MYC. The potential to generalize this approach to other IDPs is important.
+    - **Interdisciplinary readership** The work bridges computational chemistry, biophysics, and cell biology. It would be of interest to a broad readership across these disciplines.
+    - **Technical soundness** The technical approach is sound in principle, but the execution and interpretation have significant gaps. The lack of key supplementary data and the indirect nature of the central evidence are major weaknesses.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. The figures are informative, but the main text could benefit from a more explicit description of the proposed model.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a creative approach, but the central claims are not sufficiently supported by the data as presented. The authors must address the major concerns, particularly the lack of a described machine learning method, the indirect evidence for the conformational switch, and the weak mechanistic link to the cellular data, before the case is established.
+
+## Risk / unsupported claims
+- The claim that a "conformational switch" exists and "cycles" between open and closed states is not directly supported by the data.
+- The claim that EGCG induces a specific "closed conformation" is an interpretation that is not fully supported, given the acknowledged non-specific binding.
+- The claim that the cellular effects of EGCG are due to the proposed mechanism of coreMYC compaction is an extrapolation that is not directly tested.
+- The role of machine learning in identifying the switch is mentioned but not described, making this part of the claim unverifiable.
+- The statement that NMR data was excluded due to "potential titration artefacts" is concerning and prevents an independent assessment of the binding interaction.

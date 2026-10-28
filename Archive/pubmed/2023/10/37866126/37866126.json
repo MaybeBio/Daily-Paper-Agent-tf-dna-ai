@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "37866126",
+    "doi": "10.1016/j.cmpb.2023.107864",
+    "title": "Enlightening the path to NSCLC biomarkers: Utilizing the power of XAI-guided deep learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: The early diagnosis of Non-small cell lung cancer (NSCLC) is of prime importance to improve the patient's survivability and quality of life. Being a heterogeneous disease at the molecular and cellular level, the biomarkers responsible for the heterogeneity aid in distinguishing NSCLC into its prominent subtypes-adenocarcinoma and squamous cell carcinoma. Moreover, if identified, these biomarkers could pave the path to targeted therapy. Through this work, a novel explainable AI (XAI)-guided deep learning framework is proposed that assists in discovering a set of significant NSCLC-relevant biomarkers using methylation data. METHODS: The proposed framework is divided into two blocks- the first block combines an autoencoder and a neural network to classify NSCLC instances. The second block utilizes various eXplainable AI (XAI) methods, namely IntegratedGradients, GradientSHAP, and DeepLIFT, to discover a set of seven significant biomarkers. RESULTS: The classification performance of the biomarkers discovered using the proposed framework is evaluated by employing multiple machine learning algorithms, among which the Multilayer Perceptron (MLP) algorithm-based model outperforms others, yielding a 10-fold cross-validation accuracy of 91.53%. An improved accuracy of 96.37% is achieved by integrating RNA-Seq, CNV, and methylation data. On performing statistical analysis using the Friedman and Nemenyi tests, the MLP model is found to be significantly better than other machine learning-based models. Further, the clinical efficacy of the resultant biomarkers is established based on their potential druggability, the likelihood of predicting NSCLC patients' survival, gene-disease association, and biological pathways targeted by them. While the biomarkers C18orf18, CCNT2, THOP1, and TNPO2, are found potentially druggable, the biomarkers CCDC15, SNORA9, THOP1, and TNPO2 are found prognostically relevant. On further analysis, some of the discovered biomarkers are found to be associated with around 104 diseases. Moreover, five KEGG, ten Reactome, and three Wiki pathways are found to be triggered by the biomarkers discovered. CONCLUSION: In summary, the proposed framework uncovers a set of clinically effective biomarkers that accurately classify NSCLC. As a future course of work, efforts would be made to combine a variety of omics data with histopathological data to unveil more precise biomarkers for devising personalized therapy.",
+    "keywords": [
+      "Biomarkers",
+      "Classification",
+      "DNA methylation",
+      "Druggability",
+      "Explainable AI",
+      "Non-small cell lung cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung",
+      "*Lung Neoplasms/diagnosis",
+      "*Deep Learning",
+      "Quality of Life",
+      "Biomarkers, Tumor",
+      "Cyclin T"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dwivedi, Kountay",
+        "Rajpal, Ankit",
+        "Rajpal, Sheetal",
+        "Kumar, Virendra",
+        "Agarwal, Manoj",
+        "Kumar, Naveen"
+      ],
+      "short_names": [
+        "Dwivedi K",
+        "Rajpal A",
+        "Rajpal S",
+        "Kumar V",
+        "Agarwal M",
+        "Kumar N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, University of Delhi, Delhi, India. Electronic address: kountaydwivedi@gmail.com.",
+        "Department of Computer Science, University of Delhi, Delhi, India. Electronic address: arajpal@cs.du.ac.in.",
+        "Department of Computer Science, Dyal Singh College, Delhi, India. Electronic address: sheetal.rajpal.09@gmail.com.",
+        "Department of Nuclear Magnetic Resonance, All India Institute of Medical Sciences, New Delhi, India. Electronic address: virendrakumar@aiims.edu.",
+        "Department of Computer Science, Hans Raj College, University of Delhi, Delhi, India. Electronic address: agar.manoj@gmail.com.",
+        "Department of Computer Science, University of Delhi, Delhi, India. Electronic address: nk.cs.du@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dwivedi, Kountay",
+        "short_name": "Dwivedi K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Delhi, Delhi, India. Electronic address: kountaydwivedi@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Rajpal, Ankit",
+        "short_name": "Rajpal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Delhi, Delhi, India. Electronic address: arajpal@cs.du.ac.in."
+        ]
+      },
+      {
+        "full_name": "Rajpal, Sheetal",
+        "short_name": "Rajpal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Dyal Singh College, Delhi, India. Electronic address: sheetal.rajpal.09@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Kumar, Virendra",
+        "short_name": "Kumar V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Magnetic Resonance, All India Institute of Medical Sciences, New Delhi, India. Electronic address: virendrakumar@aiims.edu."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Manoj",
+        "short_name": "Agarwal M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hans Raj College, University of Delhi, Delhi, India. Electronic address: agar.manoj@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Kumar, Naveen",
+        "short_name": "Kumar N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Delhi, Delhi, India. Electronic address: nk.cs.du@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computer methods and programs in biomedicine"
+    ],
+    "journal_abbrev": [
+      "Comput Methods Programs Biomed"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/23 00:43",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "42254588",
+      "42169010",
+      "39845172",
+      "39843617",
+      "39763611",
+      "39139718",
+      "38981245",
+      "38870229",
+      "38404336"
+    ],
+    "refs": [],
+    "similar": [
+      "37866126",
+      "38000327",
+      "36652866",
+      "36551266",
+      "38909399",
+      "32170141",
+      "25240495",
+      "30891794",
+      "31101024",
+      "33549049",
+      "26391246",
+      "38981473",
+      "38008573",
+      "31002395",
+      "32806782",
+      "36682051",
+      "31994346",
+      "32492161",
+      "37599160",
+      "35962452",
+      "36113183",
+      "35491970",
+      "36522766",
+      "37897989",
+      "28687838",
+      "24743794",
+      "31658045",
+      "30029672",
+      "30147015",
+      "31360113",
+      "36563341",
+      "32776232",
+      "32145537",
+      "25512221",
+      "26092859",
+      "33346087",
+      "32723974",
+      "36717988",
+      "35360550",
+      "34698568",
+      "34787462",
+      "36084812",
+      "34750410",
+      "31660856",
+      "36395737",
+      "34844602",
+      "27579312",
+      "38028548",
+      "31521253",
+      "33086649",
+      "36969684",
+      "31297509",
+      "32185618",
+      "34032344",
+      "36461127",
+      "34695809",
+      "31010833",
+      "36755856",
+      "23369236",
+      "21116241",
+      "37039688",
+      "37754941",
+      "36991884",
+      "29851970",
+      "35576821",
+      "27775076",
+      "32795325",
+      "36965182",
+      "34374301",
+      "25180910",
+      "37217594",
+      "26311306",
+      "25421010",
+      "37813920",
+      "36944673",
+      "36310111",
+      "27777637",
+      "37833839",
+      "37605514",
+      "37149222",
+      "35119589",
+      "32604042",
+      "34729658",
+      "32444802",
+      "33331920",
+      "30195659",
+      "30100403",
+      "32015683",
+      "37113644",
+      "34209169",
+      "26200270",
+      "35294929",
+      "31319968",
+      "23524404",
+      "38749322",
+      "36259657",
+      "36850744",
+      "39118043",
+      "38225268",
+      "39318700",
+      "38148837",
+      "33801002",
+      "37546729",
+      "38076789",
+      "38377194",
+      "36775056"
+    ],
+    "review": [
+      "37866126",
+      "26391246",
+      "30147015",
+      "35576821",
+      "36259657"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169-2607(23)00530-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0169-2607(23)00530-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

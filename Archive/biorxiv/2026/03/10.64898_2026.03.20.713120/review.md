@@ -1,0 +1,125 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, discussion, conclusion, declarations)
+- **Assessment boundary** Scientific and technical evaluation of the reported method, experimental design, results, and claims as presented in the provided manuscript text. No external data or code verification performed.
+- **Shared manuscript claim summary** The authors present MHCBind, a deep learning framework combining graph attention networks on predicted contact maps and 1D CNNs on sequence embeddings for both MHC and peptide, with a cross-attention fusion module, to predict class I MHC-peptide binding affinity. They claim superior performance over NetMHCpan, MHCFlurry, and MHCnuggets in allele-specific tasks (RMSE 0.1485, PCC 0.7231) and strong ranking ability in pan-allele tasks (SCC 0.7102).
+- **Visible evidence base** Abstract, Introduction, Methodology sections 2.1-2.4, Results sections 3.1-3.4, Conclusion, Declarations. Tables 1-4 and Figures 1-5 are referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Tables 1-4 and Figures 1-5 are referenced but not included. Dataset construction details are incomplete (exact filtering criteria, allele selection rationale, train/test splits). Hyperparameter settings, training details, and computational resources are not described. No comparison of statistical significance between methods. No ablation studies. No external validation on independent benchmarks.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational immunology and proposes a reasonable architectural innovation by combining structural and sequence views with cross-attention. However, the evidence presented is insufficient to support the strong claims of superiority. Key results are referenced but not shown, dataset details are incomplete, and no statistical rigor is demonstrated. The work is potentially interesting but currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational immunologists, bioinformaticians developing epitope prediction tools, and researchers in vaccine design and neoantigen discovery would be interested. The dual-view architecture with explicit interaction modeling could be of methodological interest to those working on protein-peptide interaction prediction beyond MHC.
+- **Major strengths** The architectural design is thoughtful and biologically motivated, combining complementary information sources. The cross-fusion attention mechanism is a sensible approach to explicitly model molecular interactions. The focus on both allele-specific and pan-allele scenarios addresses practical needs. The imputation strategy for censored data is a practical contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MHCBind demonstrates superior performance, achieving a significantly lower average prediction error (RMSE: 0.1485) and a higher correlation (PCC: 0.7231) in allele-specific contexts" and "For pan-allele tasks, it excels at correctly ranking peptides with a superior Spearman's Correlation (SCC: 0.7102)"
+  - **Evidence pointer** Tables 1-4, Figures 2-5 (location not provided in text)
+  - **Concern** All quantitative results supporting the central claims are contained in tables and figures that are not included in the submitted manuscript text. The reader cannot verify any of the reported performance numbers, compare methods, or assess variability across folds or alleles.
+  - **Why it matters** The core contribution of the paper is the claimed performance improvement. Without the actual data, the claims are unverifiable and the scientific case is not established.
+  - **Resolution test** Provide all referenced tables and figures with full numerical values, including per-fold results, per-allele breakdowns, and comparison metrics for all baseline methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** "MHCBind consistently outperforms current conventional methods, including NetMHCpan 4.0, MHCflurry 2.0, and MHCnuggets"
+  - **Evidence pointer** Section 3.4, Tables 3-4, Figures 3-5 (location not provided)
+  - **Concern** No statistical significance testing is reported. Differences in RMSE, MAE, PCC, or SCC between methods could be within noise, especially for allele-specific models with limited data. The claim of "consistently outperforms" requires statistical validation.
+  - **Why it matters** Without significance testing, apparent improvements may not be reproducible or meaningful. The claim of superiority is a central selling point and must be rigorously supported.
+  - **Resolution test** Report confidence intervals, p-values, or bootstrap analyses for all metric comparisons. Specify the number of test samples per allele and per fold.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset transparency
+  - **Claim pointer** "A unique, high-quality dataset is curated and tailored to the specific goals of the present work" and "A comprehensive dataset of MHC Class I peptides was utilized, sourced from the IEDB. The final curated dataset used for our experiments consists of 1,85,985 unique peptide-MHC interactions"
+  - **Evidence pointer** Section 3.1 (location not provided)
+  - **Concern** The dataset curation process is described only at a high level. Exact filtering criteria, inclusion and exclusion rules, handling of duplicate and conflicting measurements, and the specific composition of the allele-specific training sets are not detailed. The number of unique peptides, alleles, and the distribution of binding affinity values are not reported.
+  - **Why it matters** Reproducibility is a fundamental requirement. Without precise dataset details, other researchers cannot replicate the training data or assess potential biases. The allele-specific models for 26 alleles with more than 4,000 examples each require clear description of how these thresholds were chosen.
+  - **Resolution test** Provide a detailed data curation protocol, including exact IEDB query parameters, filtering steps, and final dataset statistics. Describe the allele-specific dataset composition and the rationale for the 4,000-example threshold.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** "MHCBind's architecture employs a dual-view feature extraction strategy" and "These four distinct feature sets are then integrated in a cross-fusion module"
+  - **Evidence pointer** Sections 2.2-2.4 (location not provided)
+  - **Concern** The methodology section contains incomplete equations and missing details. The attention coefficient formula, aggregation step, and convolution operation are presented with missing mathematical expressions. Hyperparameters (number of layers, hidden dimensions, learning rate, batch size, epochs, optimizer) are not reported. The contact map generation process using ESM-1b is not described in sufficient detail.
+  - **Why it matters** The method cannot be reproduced or fully understood without complete mathematical formulations and training details. The architectural choices and their justification are not fully transparent.
+  - **Resolution test** Provide complete equations, all hyperparameters, training procedures, and a clear description of the contact map generation and graph construction process.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation scope
+  - **Claim pointer** "The framework's design is inherently flexible, excelling in both allele-specific and pan-allele prediction tasks"
+  - **Evidence pointer** Section 3.3-3.4 (location not provided)
+  - **Concern** No external validation on independent benchmark datasets is reported. The comparison is limited to a single curated dataset, and no cross-dataset evaluation is performed. The claim of generalizability to unseen alleles in pan-allele mode is not tested with held-out alleles.
+  - **Why it matters** Performance on a single dataset may not generalize. Independent benchmarks are standard practice in this field and are necessary to establish real-world utility.
+  - **Resolution test** Evaluate on established benchmarks such as IEDB benchmark datasets, or perform leave-one-allele-out validation to test true pan-allele generalization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states "MHC-Bind" in one place and "MHCBind" elsewhere. The name should be consistent throughout.
+  - **Required correction** Use a single consistent name, preferably "MHCBind" as used in the title.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2 (location not provided)
+  - **Issue** The equations for attention coefficient, aggregation, and convolution are incomplete with missing mathematical expressions. The text states "Where LeakyReLU is the activation function..." but the actual formula is not shown.
+  - **Required correction** Provide the complete equations for all mathematical formulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3 (location not provided)
+  - **Issue** The text states "The MHCBind is benchmarked against MHCflurry 2.0" but the abstract and Section 3.4 mention comparisons with NetMHCpan and MHCnuggets as well. The comparison scope is unclear.
+  - **Required correction** Clarify which baselines are used for which experiments and ensure consistency across sections.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4 (location not provided)
+  - **Issue** The phrase "MHC-Bind" is used in Section 3.4 while "MHCBind" is used elsewhere. Also, the sentence "The results, summarized in Tables 3 and 4, show that MHC-Bind consistently outperforms current conventional methods" is a strong claim that needs the actual data to be visible.
+  - **Required correction** Use consistent naming and ensure the referenced tables are included.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1 (location not provided)
+  - **Issue** The description of the architecture references Figure 1, but the figure is not provided. The text describes the components but does not give sufficient detail on tensor shapes, dimensions, or data flow.
+  - **Required correction** Provide Figure 1 and add a clear description of the data flow with tensor dimensions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1 (location not provided)
+  - **Issue** The dataset description mentions "a thorough data curation process (2022)" but does not specify what happened in 2022 or why this year is significant.
+  - **Required correction** Clarify the timeline and the specific curation steps performed.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4 (location not provided)
+  - **Issue** The text states "The results from both the average and weighted average analyses consistently highlight the superior predictive accuracy of the MHCBind model" but the actual values are not shown in the text.
+  - **Required correction** Include the numerical results in the text or ensure the tables are provided.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4 (location not provided)
+  - **Issue** The conclusion mentions "better prediction accuracy directly reduces experimental work" but no cost-benefit analysis or practical workflow demonstration is provided.
+  - **Required correction** Consider adding a brief discussion of practical implications or a case study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results data), R1-M2 (no statistical testing), R1-M3 (incomplete dataset description), R1-M4 (incomplete methodology)
+- **Assessment against Nature-style criteria** Originality: The dual-view architecture with cross-attention is a reasonable combination of existing ideas but does not represent a fundamentally new concept. The novelty is incremental rather than transformative. Scientific importance: The problem is important, and improved prediction accuracy would be valuable, but the claimed improvements are not yet demonstrated. Interdisciplinary readership: The work would appeal to computational biologists and immunologists, but the presentation assumes significant domain expertise. Technical soundness: The approach is plausible, but incomplete methodological details and missing results prevent assessment of technical rigor. Readability for nonspecialists: The manuscript is written for a specialist audience and would be challenging for nonspecialists to follow, particularly given the incomplete equations and missing figures.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential merit, but the central claims cannot be evaluated without the referenced tables and figures, statistical validation, and complete methodological details. The authors should be invited to resubmit with full results and a more rigorous evaluation.
+
+## Risk / unsupported claims
+- The claim of "superior performance" over existing methods is unsupported because the comparison data are not provided in the manuscript text.
+- The claim that MHCBind "consistently outperforms" baselines across alleles is unsupported without per-allele results and statistical testing.
+- The claim that the model has "learned more generalizable, underlying biophysical principles" is speculative and not directly tested.
+- The claim that the imputation method is "principled" and statistically valid is not supported by any validation of the imputation approach.
+- The claim that the architecture "provides a modelable solution to other biomolecular interaction challenges" is an extrapolation beyond the presented evidence.
+- The statement that the findings are "immense and groundbreaking" is overstated relative to the evidence presented.

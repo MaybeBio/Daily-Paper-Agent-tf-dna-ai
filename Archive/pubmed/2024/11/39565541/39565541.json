@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "39565541",
+    "doi": "10.1007/s12033-024-01311-6",
+    "title": "Integrative Investigation of Flavonoids Targeting YBX1 Protein-Protein Interaction Network in Breast Cancer: From Computational Analysis to Experimental Validation."
+  },
+  "content": {
+    "abstract": "Y-box-binding protein 1 (YBX1) is a multifunctional oncoprotein with its nuclear localization contributing to chemo-resistance in breast cancer. Through its interactions with various proteins and lncRNAs, YBX1 promotes cancer cell migration, invasion, and metastasis. Despite its significant role in cancer progression, studies on YBX1's protein-protein interactions (PPIs) remain limited. Flavonoids are natural compounds with anticancer properties that inhibit metastasis, modulate immunity, and induce apoptosis, with minimal systemic toxicity, making them strong candidates for cancer therapy. Targeting PPIs offers a promising approach for cancer therapy and flavonoids, with their anticancer properties, may modulate these interactions. Our study focused on the YBX1 PPI network, specifically targeting HSPA1A, IGF2BP1, MECP2, G3BP1, EWSR1, PURA, and SYNCRIP. We selected four flavonoids Quercetin, Fisetin, Rutin, and Myricitrin based on literature and conducted 26 docking sessions. Further ADMET analysis indicated Quercetin and Fisetin as more favorable for drug-likeness parameters than Rutin and Myricitrin, which was underscored by MD simulation data. In vitro studies showed that Quercetin and Fisetin downregulated YBX1 expression in a dose-dependent manner (50 muM to 150 muM) in MCF-7 cells. Our study provides a preliminary understanding of YBX1 PPI and the potential of flavonoids to disrupt these interactions. This study investigates the potential of flavonoids to target YBX1 PPIs, providing insights into novel therapeutic strategies for YBX1-driven cancers.",
+    "keywords": [
+      "Fisetin",
+      "Myricitrin",
+      "PPI",
+      "Quercetin",
+      "Rutin",
+      "YBX1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Y-Box-Binding Protein 1/metabolism/chemistry/genetics",
+      "*Breast Neoplasms/metabolism/drug therapy",
+      "*Flavonoids/pharmacology/chemistry",
+      "Female",
+      "*Protein Interaction Maps/drug effects",
+      "Molecular Docking Simulation",
+      "Quercetin/pharmacology/chemistry",
+      "Flavonols",
+      "MCF-7 Cells",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Molecular Dynamics Simulation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sreelekshmi, Presanna Kumar",
+        "Pooja, Suresh Kumar",
+        "Vidya, Niranjan",
+        "Sinosh, Skariyachan",
+        "Thejaswini, Venkatesh"
+      ],
+      "short_names": [
+        "Sreelekshmi PK",
+        "Pooja SK",
+        "Vidya N",
+        "Sinosh S",
+        "Thejaswini V"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-9399-3038",
+        "ORCID: 0000-0001-9187-7753",
+        "ORCID: 0000-0003-0950-7513",
+        "ORCID: 0000-0002-5831-9255"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Central University of Kerala, Periye, Kasargod, Kerala, 671320, India.",
+        "Department of Biotechnology, RV College of Engineering 560059, Affiliated to Visvesvaraya Technological University, Belagavi, 590018, Karnataka, India.",
+        "Department of Biotechnology, RV College of Engineering 560059, Affiliated to Visvesvaraya Technological University, Belagavi, 590018, Karnataka, India.",
+        "Department of Microbiology, St. Pius X College, Rajapuram, Kasargod, Kerala, India.",
+        "Department of Biochemistry and Molecular Biology, Central University of Kerala, Periye, Kasargod, Kerala, 671320, India. thejaswinivenkatesh@cukerala.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sreelekshmi, Presanna Kumar",
+        "short_name": "Sreelekshmi PK",
+        "identifiers": [
+          "0009-0007-9399-3038"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Central University of Kerala, Periye, Kasargod, Kerala, 671320, India."
+        ]
+      },
+      {
+        "full_name": "Pooja, Suresh Kumar",
+        "short_name": "Pooja SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering 560059, Affiliated to Visvesvaraya Technological University, Belagavi, 590018, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Vidya, Niranjan",
+        "short_name": "Vidya N",
+        "identifiers": [
+          "0000-0001-9187-7753"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering 560059, Affiliated to Visvesvaraya Technological University, Belagavi, 590018, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Sinosh, Skariyachan",
+        "short_name": "Sinosh S",
+        "identifiers": [
+          "0000-0003-0950-7513"
+        ],
+        "affiliations": [
+          "Department of Microbiology, St. Pius X College, Rajapuram, Kasargod, Kerala, India."
+        ]
+      },
+      {
+        "full_name": "Thejaswini, Venkatesh",
+        "short_name": "Thejaswini V",
+        "identifiers": [
+          "0000-0002-5831-9255"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Central University of Kerala, Periye, Kasargod, Kerala, 671320, India. thejaswinivenkatesh@cukerala.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/20 12:25",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "42662718",
+      "40299336"
+    ],
+    "refs": [
+      "39108714",
+      "38079467",
+      "37762460",
+      "37634766",
+      "37339496",
+      "37259344",
+      "36765857",
+      "36754932",
+      "36518123",
+      "36367168",
+      "36234683",
+      "36130926",
+      "35406781",
+      "35273154",
+      "34944485",
+      "34832851",
+      "34515749",
+      "34349502",
+      "34224843",
+      "33893803",
+      "33713600",
+      "33628636",
+      "33361392",
+      "33311439",
+      "33102211",
+      "33095415",
+      "32710623",
+      "32337383",
+      "32216017",
+      "31889129",
+      "31888685",
+      "31879363",
+      "31087338",
+      "30903644",
+      "30356079",
+      "30050147",
+      "29788355",
+      "29635751",
+      "29495431",
+      "29192287",
+      "29180470",
+      "28796949",
+      "28620474",
+      "28397808",
+      "28277581",
+      "27879270",
+      "27645381",
+      "27154268",
+      "27059089",
+      "27035516",
+      "26858935",
+      "26676832",
+      "26596171",
+      "26584231",
+      "26015455",
+      "25800057",
+      "25544376",
+      "25058147",
+      "24770864",
+      "24324649",
+      "24239008",
+      "24163786",
+      "24062525",
+      "23303345",
+      "22772059",
+      "22471710",
+      "21999342",
+      "21480639",
+      "21466612",
+      "21216935",
+      "21048526",
+      "20844753",
+      "20080952",
+      "19439666",
+      "19399780",
+      "19029303",
+      "18636327",
+      "16341064",
+      "14704432",
+      "14530494",
+      "12154352",
+      "11851341",
+      "10592235",
+      "9497311",
+      "9083109"
+    ],
+    "similar": [
+      "39565541",
+      "31879363",
+      "40816411",
+      "30903644",
+      "31481087",
+      "28302118",
+      "39147995",
+      "34218256",
+      "41204108",
+      "38623839",
+      "41456261",
+      "39216548",
+      "36754932",
+      "32985589",
+      "38967349",
+      "31064104",
+      "32929382",
+      "34440660",
+      "32216017",
+      "39988708",
+      "38773015",
+      "40707993",
+      "39992538",
+      "39168971",
+      "27338298",
+      "40743988",
+      "41086646",
+      "34991621",
+      "40855961",
+      "38255791",
+      "40707772",
+      "38149857",
+      "40834829",
+      "40289350",
+      "40627944",
+      "38364962",
+      "35410432",
+      "40633696",
+      "30426615",
+      "39396715",
+      "39638981",
+      "38676365",
+      "38468538",
+      "39289424",
+      "24727463",
+      "38279484",
+      "29180470",
+      "38844963",
+      "34709966",
+      "41346602",
+      "28107702",
+      "38538658",
+      "38692507",
+      "36576700",
+      "38014451",
+      "28428004",
+      "38214357",
+      "40251390",
+      "29113949",
+      "38880223",
+      "34082012",
+      "37370092",
+      "29749427",
+      "36273436",
+      "39364538",
+      "40798865",
+      "38145425",
+      "28400280",
+      "39966335",
+      "41330962",
+      "28004315",
+      "41359154",
+      "39075939",
+      "29024700",
+      "38344942",
+      "30101248",
+      "27216424",
+      "28752532",
+      "33122058",
+      "35387975",
+      "39976088",
+      "30356079",
+      "38246397",
+      "38566431",
+      "40900132",
+      "39038813",
+      "27489195",
+      "38178682",
+      "39984921",
+      "40045484",
+      "37611648",
+      "36028903",
+      "37948293",
+      "40319271",
+      "40945531",
+      "37447264",
+      "40451693",
+      "39833432",
+      "27384875",
+      "22211101"
+    ],
+    "review": [
+      "39565541",
+      "30903644",
+      "31064104",
+      "38255791",
+      "41346602"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-024-01311-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-374",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

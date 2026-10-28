@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data access, competing interests, acknowledgements)
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated evidence; no assessment of code functionality or reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors present rCLAMPS, a probabilistic framework that jointly infers protein-DNA contact mappings and a recognition code for a transcription factor family from DNA-binding specificities (PWMs) and structural data. Applied to homeodomains, it achieves state-of-the-art de novo prediction accuracy and enables improved prediction of mutant TF specificities via a hybrid transfer approach.
+- **Visible evidence base** Abstract, introduction, methods (sections 2.1-2.11), results (section 3), discussion, data access statement; no figures, tables, or supplementary materials were provided
+- **Missing materials affecting confidence** Figures 1-4, all tables, supplementary data, and code repository contents are not available; quantitative results (e.g., PCC values, comparison details) are referenced but not shown; detailed hyperparameter settings and convergence diagnostics for Gibbs sampling are not described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually novel and potentially impactful approach for inferring protein-DNA recognition codes from large-scale specificity data without requiring a priori contact information. The methodological framework is well-motivated and the application to homeodomains is appropriate. However, the absence of all figures, tables, and quantitative results severely limits the ability to evaluate the strength of the claims. The methods section is detailed but lacks critical implementation specifics (e.g., convergence criteria, prior choices, computational cost). The comparison to existing methods is described narratively but cannot be verified without the underlying data. The hybrid transfer approach for mutants is a valuable contribution, but its validation is incomplete in the provided text. Overall, the work is promising but the current evidence base is insufficient to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, computational biology, and protein-DNA interaction fields would be interested. The approach addresses a long-standing challenge of linking TF sequence to DNA-binding specificity, with potential applications in predicting effects of disease-associated mutations, annotating uncharacterized TFs, and understanding evolutionary dynamics of TF-DNA interactions. The methodological advance could also interest machine learning researchers working on structured prediction problems.
+- **Major Strengths** The conceptual novelty of jointly inferring contact mappings and recognition codes is a clear strength. The method is generalizable to any structural family with conserved interfaces, which broadens its impact. The use of a linear model enhances interpretability, a valuable feature for biological applications. The hybrid approach for mutant prediction is practically relevant and addresses a gap in existing methods. The validation strategy using held-out proteins and comparison to established methods is appropriate in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The claim that rCLAMPS achieves "excellent performance" and "state-of-the-art" accuracy in de novo prediction cannot be evaluated.
+  - **Evidence pointer** Results section, "Accurate de novo prediction" and "Linear approach is competitive" subsections; figures 2 and 3 are referenced but not provided
+  - **Concern** All quantitative results, including PCC distributions, per-position accuracies, and comparisons to rf_extant and rf_joint, are described only in text. Without the actual figures and tables, the magnitude and statistical significance of the reported improvements cannot be assessed. The claim of "91% agreement" and "5% more than rf_extant" are unverifiable.
+  - **Why it matters** The core contribution of the paper is the demonstrated performance of the method. Without the evidence, the scientific case is not established.
+  - **Resolution test** Provide all figures and tables with clear axis labels, error bars, and statistical tests. Include raw data or access to the code to reproduce the results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological reproducibility
+  - **Claim pointer** The Gibbs sampling procedure is described but lacks critical details for replication.
+  - **Evidence pointer** Methods section 2.7
+  - **Concern** The description of Gibbs sampling omits several essential implementation details: the number of iterations, burn-in period, thinning, convergence diagnostics (beyond a vague "bound in a small range"), prior distributions for energy parameters, and the specific form of the proposal distribution for mapping updates. The block sampling strategy is mentioned but not formalized. The seeding procedure is described but not justified.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without these details, other researchers cannot implement or validate the approach.
+  - **Resolution test** Provide a complete algorithmic specification, including pseudocode, hyperparameter values, and convergence assessment. Consider releasing the code with documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation rigor
+  - **Claim pointer** The hybrid transfer approach for mutant TFs is claimed to improve accuracy, but the validation is incomplete.
+  - **Evidence pointer** Results section, "Learning structural mappings" subsection; figure 3 referenced but not provided
+  - **Concern** The comparison of hybrid versus de novo predictions for mutants is described, but the number of mutants, the diversity of mutations, and the statistical significance of the improvement are not reported. The comparison to rf_joint is limited to 19 proteins with only 8 distinct residue combinations, which is acknowledged but not addressed as a limitation.
+  - **Why it matters** The practical utility of the method for clinical or research applications depends on robust validation across diverse mutation types.
+  - **Resolution test** Provide detailed results for the mutant prediction analysis, including per-mutation accuracy, confidence intervals, and a discussion of limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validation
+  - **Claim pointer** The claim that the inferred contact mappings are "extremely accurate" is based on a single comparison to a fly dataset.
+  - **Evidence pointer** Results section, "Accurate and automated mapping" subsection; figure 4 referenced but not provided
+  - **Concern** The external validation uses only one experimental dataset (fly homeodomains). The generalizability of the mapping accuracy to other families or species is not demonstrated. The comparison to STAMP is described but the "best possible results" for STAMP may not reflect typical usage.
+  - **Why it matters** The method's utility depends on its accuracy across diverse TF families and experimental conditions.
+  - **Resolution test** Include additional validation datasets or discuss the limitations of the current validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section 2.2
+  - **Evidence pointer** "Deriving a contact map representation" subsection
+  - **Issue** The description of the contact map construction is dense and could benefit from a clearer explanation of the structural alignment procedure and the choice of thresholds (t_d, t_e = 0.05).
+  - **Required correction** Provide a step-by-step description of the contact map derivation, including how structural alignments are performed and how thresholds are justified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section 2.10
+  - **Evidence pointer** "Homeodomain PWM and protein dataset" subsection
+  - **Issue** The dataset description mentions 623 wildtype, 151 synthetic, and 30 mutant homeodomains, but the filtering criteria (e.g., "missing DNA-contacting HMM match states") are not detailed.
+  - **Required correction** Specify the exact filtering steps and the number of proteins removed at each stage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Paragraph on nonlinear models
+  - **Issue** The discussion of preliminary nonlinear models is vague and does not provide any quantitative or qualitative results.
+  - **Required correction** Either remove this speculation or provide preliminary data to support the claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Data Access section
+  - **Evidence pointer** GitHub link
+  - **Issue** The code repository is mentioned but no version, license, or usage instructions are provided.
+  - **Required correction** Include a brief description of the repository contents and a license.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing evidence), R1-M2 (incomplete methodological details), R1-M3 (incomplete validation of mutant predictions)
+- **Assessment against Nature-style criteria** Originality: High. The joint inference of contact mappings and recognition codes is a novel contribution. Scientific importance: Potentially high, given the broad applicability to TF families and disease-related mutations. Interdisciplinary readership: Moderate to high, appealing to computational biologists, molecular biologists, and clinical geneticists. Technical soundness: Cannot be fully assessed due to missing details and evidence. Readability for nonspecialists: The abstract and introduction are accessible, but the methods section is highly technical and may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the application is relevant, but the current manuscript lacks the necessary evidence and methodological detail to establish the claims. Provision of all figures, tables, and code, along with expanded methodological descriptions, would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art" de novo prediction accuracy is unsupported without the comparison data.
+- The claim of "extremely accurate" contact mappings is based on a single dataset and cannot be generalized.
+- The claim that the hybrid approach improves mutant prediction is not statistically substantiated.
+- The discussion of nonlinear models is speculative and unsupported.
+- The generalizability of the method to other TF families is asserted but not demonstrated.

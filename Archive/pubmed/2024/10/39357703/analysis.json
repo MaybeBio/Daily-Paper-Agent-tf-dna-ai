@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39357703",
+  "title": "PDNAPred: Interpretable prediction of protein-DNA binding sites based on pre-trained protein language models.",
+  "authors": "Zhang, Lingrong; Liu, Taigang",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文基于预训练蛋白语言模型和CNN-GRU网络预测蛋白-DNA结合位点，属于广义蛋白-DNA互作且方法可迁移至TF-DNA研究，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "Protein-DNA interactions play critical roles in various biological processes and are essential for drug discovery. However, traditional experimental methods are labor-intensive and unable to keep pace with the increasing volume of protein sequences, leading to a substantial number of proteins lacking DNA-binding annotations. Therefore, developing an efficient computational method to identify protein-DNA binding sites is crucial. Unfortunately, most existing computational methods rely on manually selected features or protein structure information, making these methods inapplicable to large-scale prediction tasks. In this study, we introduced PDNAPred, a sequence-based method that combines two pre-trained protein language models with a designed CNN-GRU network to identify DNA-binding sites. Additionally, to tackle the issue of imbalanced dataset samples, we employed focal loss. Our comprehensive experiments demonstrated that PDNAPred significantly improved the accuracy of DNA-binding site prediction, outperforming existing state-of-the-art sequence-based methods. Remarkably, PDNAPred also achieved results comparable to advanced structure-based methods. The designed CNN-GRU network enhances its capability to detect DNA-binding sites accurately. Furthermore, we validated the versatility of PDNAPred by training it on RNA-binding site datasets, showing its potential as a general framework for amino acid binding site prediction. Finally, we conducted model interpretability analysis to elucidate the reasons behind PDNAPred's outstanding performance.",
+  "abstract_zh": "蛋白质-DNA相互作用在多种生物过程中扮演关键角色，对药物发现至关重要。然而，传统的实验方法劳动密集且难以跟上蛋白质序列数量增长的步伐，导致大量蛋白质缺乏DNA结合注释。因此，开发一种高效的计算方法来识别蛋白质-DNA结合位点至关重要。遗憾的是，大多数现有计算方法依赖于人工选择的特征或蛋白质结构信息，使得这些方法不适用于大规模预测任务。在本研究中，我们引入了PDNAPred，这是一种基于序列的方法，结合了两个预训练的蛋白质语言模型与设计的CNN-GRU网络来识别DNA结合位点。此外，为解决数据集样本不平衡的问题，我们采用了焦点损失（focal loss）。我们的综合实验表明，PDNAPred显著提高了DNA结合位点预测的准确性，超越了现有最先进的基于序列的方法。值得注意的是，PDNAPred还取得了与先进基于结构的方法相当的结果。设计的CNN-GRU网络增强了其准确检测DNA结合位点的能力。进一步地，我们通过在RNA结合位点数据集上训练PDNAPred验证了其多功能性，展示了其作为氨基酸结合位点预测通用框架的潜力。最后，我们进行了模型可解释性分析，以阐明PDNAPred卓越性能背后的原因。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39357703/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39357703/",
+  "paper_page_path": "papers/pubmed/39357703/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-9k6z7",
+  "title": "Robust Protein-Ligand Interaction Modeling Integrating Physical Laws and Geometric Knowledge for Absolute Binding Free Energy Calculation",
+  "authors": "Qun Su; Jike Wang; Qiaolin Gou; Renling Hu; Hui Zhang; Linlong Jiang; Tianyue Wang; Yifei Liu; Chao Shen; Yu Kang; Chang-Yu Hsieh; Tingjun Hou",
+  "journal": "ChemRxiv",
+  "published_date": "2024-11-14",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 5,
+  "one_liner_zh": "提出LumiNet框架，用几何神经网络和子图Transformer建模蛋白-配体相互作用并计算绝对结合自由能，虽非TF-DNA体系，但其物理约束与几何建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Accurate estimation of protein-ligand (PL) binding free energies is a crucial task in medicinal chemistry and a critical measure of PL interaction modeling effectiveness. However, traditional computational methods are often computationally expensive and prone to errors. Recently, deep learning (DL)-based approaches for predicting PL interactions have gained enormous attention, but their accuracy and generalizability are hindered by data scarcity. In this study, we propose LumiNet, a versatile PL interaction modeling framework that bridges the gap between physics-based models and black-box algorithms. LumiNet utilizes subgraph transformer to extract multiscale information from molecular graphs and employs geometric neural networks to integrate PL information, mapping atomic pair structures into key physical parameters of non-bonded interactions in classical force fields, thereby enhancing accurate absolute binding free energy (ABFE) calculations. LumiNet is designed to be highly interpretable, offering detailed insights into atomic interactions within protein-ligand complexes, pinpointing relatively important atom pairs or groups. Our semi-supervised learning strategy enables LumiNet to adapt to new targets with fewer data points than other data-driven methods, making it more relevant for real-world drug discovery. Benchmarks show that LumiNet outperforms the current state-of-the-art model by 18.5% on the PDE10A dataset, and rivals the FEP+ method in some tests with a speed improvement of several orders of magnitude. We applied LumiNet in the scaffold hopping process, which accurately guided the discovery of the optimal ligands. furthermore, we provide a web service for the research community to test LumiNet. The visualization of predicted inter-molecular energy contributions is expected to provide practical values in drug discovery projects.",
+  "abstract_zh": "蛋白-配体（PL）结合自由能的准确估计是药物化学中的关键任务，也是衡量PL相互作用建模有效性的重要指标。然而，传统计算方法通常计算成本高昂且易出错。近年来，基于深度学习（DL）的PL相互作用预测方法受到广泛关注，但其准确性和泛化能力受限于数据稀缺性。在本研究中，我们提出LumiNet，一种多功能的PL相互作用建模框架，弥合了基于物理模型与黑箱算法之间的差距。LumiNet利用子图变换器从分子图中提取多尺度信息，并采用几何神经网络整合PL信息，将原子对结构映射为经典力场中非键相互作用的关键物理参数，从而增强准确的绝对结合自由能（ABFE）计算。LumiNet设计为高度可解释，提供蛋白-配体复合物内原子相互作用的详细见解，并识别相对重要的原子对或基团。我们的半监督学习策略使LumiNet能够以比其它数据驱动方法更少的数据点适应新靶标，使其更贴近实际药物发现场景。基准测试显示，LumiNet在PDE10A数据集上比当前最先进模型提升18.5%，并在某些测试中与FEP+方法相媲美，同时速度提升数个数量级。我们将LumiNet应用于骨架跃迁过程，准确指导了最优配体的发现。此外，我们为研究社区提供网络服务以测试LumiNet。预测的分子间能量贡献可视化预计将在药物发现项目中提供实用价值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-9k6z7",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-9k6z7",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-9k6z7/index.html"
+}

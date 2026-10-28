@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.06.579067",
+  "title": "Improving the generalization of protein expression models with mechanistic sequence information",
+  "authors": "Shen Y; Kudla G; Oyarzún DA",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-07",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习整合机制性序列特征预测蛋白表达水平，虽涉及DNA序列特征但非蛋白质-DNA互作建模，且无TF-DNA结合或三维互作机制研究，仅边缘相关。",
+  "abstract": "The growing demand for biological products drives many efforts to maximize expression of heterologous proteins. Advances in high-throughput sequencing can produce data suitable for building sequence-to-expression models with machine learning. The most accurate models have been trained on one-hot encodings, a mechanism-agnostic representation of nucleotide sequences. Moreover, studies have consistently shown that training on mechanistic sequence features leads to much poorer predictions, even with features that are known to correlate with expression, such as DNA sequence motifs, codon usage or mRNA secondary structures. However, despite their excellent local accuracy, current sequence-to-expression models can fail to generalize predictions far away from the training data. Through a comparative study across datasets in Escherichia coli and Saccharomyces cerevisiae , here we show that mechanistic sequence features can provide gains on model generalization, and thus improving their utility for predictive sequence design. We explore several strategies to integrate one-hot encodings and mechanistic features into a single predictive model, including feature stacking, ensemble model stacking, and geometric stacking, a novel architecture based on graph convolutional neural networks. Our work casts new light on mechanistic sequence features, underscoring the importance of domain-knowledge and feature engineering for accurate prediction of protein expression levels.",
+  "abstract_zh": "对生物制品需求的日益增长，推动了众多旨在最大化异源蛋白表达的努力。高通量测序的进展能够产生适合用机器学习构建序列到表达模型的数据。最准确的模型已在单热编码（one-hot encodings）上训练，这是一种对核苷酸序列机制无关的表示。此外，研究一致表明，基于机制性序列特征的训练会导致预测效果显著较差，即使使用已知与表达相关的特征，如DNA序列基序、密码子使用或mRNA二级结构。然而，尽管当前序列到表达模型在局部准确性上表现出色，它们可能在远离训练数据时无法泛化预测。通过对大肠杆菌（Escherichia coli）和酿酒酵母（Saccharomyces cerevisiae）数据集的比较研究，我们在此展示机制性序列特征能提升模型泛化能力，从而增强其在预测性序列设计中的实用性。我们探索了多种策略，将单热编码和机制性特征整合到单一预测模型中，包括特征堆叠（feature stacking）、集成模型堆叠（ensemble model stacking）以及几何堆叠（geometric stacking），这是一种基于图卷积神经网络的新架构。我们的工作为机制性序列特征提供了新视角，强调了领域知识和特征工程在准确预测蛋白表达水平中的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.06.579067",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.06.579067",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.06.579067/index.html"
+}

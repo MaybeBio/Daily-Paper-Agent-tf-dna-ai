@@ -1,0 +1,523 @@
+{
+  "identity": {
+    "pmid": "38212795",
+    "doi": "10.1186/s12967-023-04819-8",
+    "title": "ANGPTL4 accelerates ovarian serous cystadenocarcinoma carcinogenesis and angiogenesis in the tumor microenvironment by activating the JAK2/STAT3 pathway and interacting with ESM1."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian cancer (OC) is a malignant neoplasm that displays increased vascularization. Angiopoietin-like 4 (ANGPTL4) is a secreted glycoprotein that functions as a regulator of cell metabolism and angiogenesis and plays a critical role in tumorigenesis. However, the precise role of ANGPTL4 in the OC microenvironment, particularly its involvement in angiogenesis, has not been fully elucidated. METHODS: The expression of ANGPTL4 was confirmed by bioinformatics and IHC in OC. The potential molecular mechanism of ANGPTL4 was measured by RNA-sequence. We used a series of molecular biological experiments to measure the ANGPTL4-JAK2-STAT3 and ANGPTL4-ESM1 axis in OC progression, including MTT, EdU, wound healing, transwell, xenograft model, oil red O staining, chick chorioallantoic membrane assay and zebrafish model. Moreover, the molecular mechanisms were confirmed by Western blot, Co-IP and molecular docking. RESULTS: Our study demonstrates a significant upregulation of ANGPTL4 in OC specimens and its strong association with unfavorable prognosis. RNA-seq analysis affirms that ANGPTL4 facilitates OC development by driving JAK2-STAT3 signaling pathway activation. The interaction between ANGPTL4 and ESM1 promotes ANGPTL4 binding to lipoprotein lipase (LPL), thereby resulting in reprogrammed lipid metabolism and the promotion of OC cell proliferation, migration, and invasion. In the OC microenvironment, ESM1 may interfere with the binding of ANGPTL4 to integrin and vascular-endothelial cadherin (VE-Cad), which leads to stabilization of vascular integrity and ultimately promotes angiogenesis. CONCLUSION: Our findings underscore that ANGPTL4 promotes OC development via JAK signaling and induces angiogenesis in the tumor microenvironment through its interaction with ESM1.",
+    "keywords": [
+      "ANGPTL4",
+      "Angiogenesis",
+      "ESM1",
+      "JAK2/STAT3 pathway",
+      "Ovarian cancer"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Humans",
+      "Tumor Microenvironment",
+      "Molecular Docking Simulation",
+      "Angiogenesis",
+      "*Cystadenocarcinoma, Serous",
+      "Zebrafish/metabolism",
+      "Carcinogenesis",
+      "Cell Proliferation",
+      "Carcinoma, Ovarian Epithelial",
+      "*Ovarian Neoplasms/genetics",
+      "Cell Line, Tumor",
+      "Angiopoietin-Like Protein 4/genetics",
+      "Neoplasm Proteins",
+      "Proteoglycans",
+      "*STAT3 Transcription Factor",
+      "*Janus Kinase 2"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yu-Kun",
+        "Gao, An-Bo",
+        "Zeng, Tian",
+        "Liu, Dan",
+        "Zhang, Qun-Feng",
+        "Ran, Xiao-Min",
+        "Tang, Zhen-Zi",
+        "Li, Yan",
+        "Liu, Jue",
+        "Zhang, Ting",
+        "Shi, Gang-Qing",
+        "Zhou, Wen-Chao",
+        "Zou, Wen-da",
+        "Peng, Juan",
+        "Zhang, Juan",
+        "Li, Hui",
+        "Zou, Juan"
+      ],
+      "short_names": [
+        "Li YK",
+        "Gao AB",
+        "Zeng T",
+        "Liu D",
+        "Zhang QF",
+        "Ran XM",
+        "Tang ZZ",
+        "Li Y",
+        "Liu J",
+        "Zhang T",
+        "Shi GQ",
+        "Zhou WC",
+        "Zou WD",
+        "Peng J",
+        "Zhang J",
+        "Li H",
+        "Zou J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "Clinical Research Institute, The Second Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "Department of Gynecologic Oncology, School of Medicine, Hunan Cancer Hospital, The Affiliated Cancer Hospital of Xiangya, Central South University, Changsha, Hunan, China.",
+        "Department of Gynecologic Oncology, School of Medicine, Hunan Cancer Hospital, The Affiliated Cancer Hospital of Xiangya, Central South University, Changsha, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China. 765500072@qq.com.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China. lihui_1973@126.com.",
+        "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China. zoujuanusc@usc.edu.cn.",
+        "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China. zoujuanusc@usc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yu-Kun",
+        "short_name": "Li YK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, An-Bo",
+        "short_name": "Gao AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+          "Clinical Research Institute, The Second Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Tian",
+        "short_name": "Zeng T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China.",
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qun-Feng",
+        "short_name": "Zhang QF",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Ran, Xiao-Min",
+        "short_name": "Ran XM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, School of Medicine, Hunan Cancer Hospital, The Affiliated Cancer Hospital of Xiangya, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Zhen-Zi",
+        "short_name": "Tang ZZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, School of Medicine, Hunan Cancer Hospital, The Affiliated Cancer Hospital of Xiangya, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jue",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Gang-Qing",
+        "short_name": "Shi GQ",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wen-Chao",
+        "short_name": "Zhou WC",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Wen-da",
+        "short_name": "Zou WD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Juan",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Juan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China. 765500072@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China. lihui_1973@126.com."
+        ]
+      },
+      {
+        "full_name": "Zou, Juan",
+        "short_name": "Zou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Assisted Reproductive Centre, Zhuzhou Central Hospital, Xiangya Hospital Zhuzhou Central South University, Central South University, Zhuzhou, Hunan, China. zoujuanusc@usc.edu.cn.",
+          "The Second Affiliated Hospital, Department of Gynecology, Hunan Province Key Laboratory of Tumor Cellular & Molecular Pathology, Cancer Research Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China. zoujuanusc@usc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2024 Jan 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/12 00:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "42637892",
+      "42540400",
+      "42487020",
+      "42486827",
+      "42344584",
+      "42231975",
+      "41981530",
+      "41930148",
+      "41886374",
+      "41864037",
+      "41708586",
+      "41617928",
+      "41555342",
+      "41366275",
+      "40988062",
+      "40687583",
+      "40616161",
+      "40606512",
+      "40510161",
+      "40320451",
+      "40251641",
+      "40240362",
+      "40089962",
+      "39929852",
+      "39763589",
+      "39704206",
+      "39635847",
+      "39494721",
+      "39464635",
+      "39369030",
+      "39281564",
+      "39252946",
+      "39252623",
+      "39044455",
+      "38912330",
+      "38720298"
+    ],
+    "refs": [
+      "36795484",
+      "36594088",
+      "36549921",
+      "36276071",
+      "36012230",
+      "35911520",
+      "35633555",
+      "35042959",
+      "34801488",
+      "34645607",
+      "34336854",
+      "34311032",
+      "33726754",
+      "33347625",
+      "31717924",
+      "31641008",
+      "31602400",
+      "31557193",
+      "31358545",
+      "31235370",
+      "30814490",
+      "30591589",
+      "29987226",
+      "29398710",
+      "29339381",
+      "28894280",
+      "28818916",
+      "28817103",
+      "27888420",
+      "27734523",
+      "25691825",
+      "24903577",
+      "23942301",
+      "23686315",
+      "22661548",
+      "22204725",
+      "21841165",
+      "21308352",
+      "20664963",
+      "19775995",
+      "18604199",
+      "18340008",
+      "17088546",
+      "15333633",
+      "14583458",
+      "12808457",
+      "12734009",
+      "235763"
+    ],
+    "similar": [
+      "38212795",
+      "38720298",
+      "36517864",
+      "36594088",
+      "32951601",
+      "39369030",
+      "32004989",
+      "38311733",
+      "33726754",
+      "39281564",
+      "37713785",
+      "38897128",
+      "36994700",
+      "30453302",
+      "38415977",
+      "37172479",
+      "37863123",
+      "30229899",
+      "23857432",
+      "35813296",
+      "26795301",
+      "25646015",
+      "23617883",
+      "38090745",
+      "21418908",
+      "34997858",
+      "37100467",
+      "30599913",
+      "26750614",
+      "36670423",
+      "34275119",
+      "34724866",
+      "18930836",
+      "36607250",
+      "34614446",
+      "38365849",
+      "30285793",
+      "29739381",
+      "38185347",
+      "32552789",
+      "31878941",
+      "32641093",
+      "35710311",
+      "29737581",
+      "27235707",
+      "37563971",
+      "31129149",
+      "34495766",
+      "38518635",
+      "35166984",
+      "35937390",
+      "32516133",
+      "29035390",
+      "33760192",
+      "31736008",
+      "37958803",
+      "30431125",
+      "36448712",
+      "37027968",
+      "36795484",
+      "38546908",
+      "38273757",
+      "38128180",
+      "24886434",
+      "35513871",
+      "34399777",
+      "38086791",
+      "29215754",
+      "38006726",
+      "39044455",
+      "34414590",
+      "24903577",
+      "29791864",
+      "38214360",
+      "34148288",
+      "32205586",
+      "33416144",
+      "38844957",
+      "32039453",
+      "37244634",
+      "30378152",
+      "35732325",
+      "29504606",
+      "32278762",
+      "31766099",
+      "37876143",
+      "34736492",
+      "38317200",
+      "27456942",
+      "37777026",
+      "32941808",
+      "34895038",
+      "33778841",
+      "30305729",
+      "38958445",
+      "34983607",
+      "35616130",
+      "25194819",
+      "36255068",
+      "33000231",
+      "35593388",
+      "31409905",
+      "39210397",
+      "39252623",
+      "37001618",
+      "39104719",
+      "39247606",
+      "38582960",
+      "39314468"
+    ],
+    "review": [
+      "38212795",
+      "39044455",
+      "32205586",
+      "39252623"
+    ],
+    "pmc": [
+      "10785435"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-04819-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38212795/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38212795",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=38212795",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-466",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.12.698323",
+  "title": "caRBP-Pred: Deep Learning-based Prediction of Chromatin-Associated RNA-Binding Proteins Using Short Peptide Sequences",
+  "doi": "10.64898/2026.01.12.698323",
+  "abstract": "RNA-binding proteins (RBPs) are pivotal in cellular processes ranging from RNA metabolism to 3D genome organization. A distinct subset, chromatin-associated RBPs (caRBPs), binds directly to chromatin to function as transcriptional regulators. However, identifying caRBPs via traditional methods like Chromatin Immunoprecipitation Sequencing (ChIP-seq) and Mass Spectrometry (MS) is labor-intensive and costly. While computational tools for DNA- and RNA-binding protein (DRBP) prediction exist, they often rely on outdated Gene Ontology annotations and fail to capture the unique characteristics of chromatin association. Here, we introduce caRBP-Pred, a novel deep learning approach combining Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory networks (BiLSTM). Unlike previous methods utilizing full-length sequences, our model is trained on chromatin-contact peptides derived from mouse embryonic stem cells (mESCs). caRBP-Pred achieves a superior Area Under the Curve (AUC) of 0.81 using peptide sequence information alone, significantly outperforming existing DRBP predictors which exhibit low recall for caRBPs. We further predicted 52 potential caRBPs in mice. Notably, validation against human homologs confirmed that our model accurately predicts candidates with experimentally verified chromatin-binding capabilities. Collectively, caRBP-Pred is the first tool specifically designed to predict caRBPs based on chromatin-contact peptides, offering a valuable resource for investigating regulatory roles of caRBPs on transcription.",
+  "authors": [
+    "Qiang Sun",
+    "Feng Yang",
+    "Hao Sun",
+    "Xiaona Chen",
+    "Huating Wang"
+  ],
+  "published_date": "2026-01-13",
+  "updated_date": "2026-01-13T22:40:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698323",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698323.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T21:58:02Z",
+        "timestamp": 1770328682959,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 31,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                13
+              ]
+            ],
+            "date-time": "2026-01-13T00:00:00Z",
+            "timestamp": 1768262400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "82172436 to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "82172436 to H.W."
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Key R&D Program of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2022YFA0806003 to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022YFA0806003 to H.W."
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "General Research Fund (GRF) from the Research Grants Council (RGC) of the Hong Kong Special Administrative Region, China",
+          "award": [
+            "14103522, 14105123, and 14120420 to H.S."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "14103522, 14105123, and 14120420 to H.S."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General Research Fund (GRF) from the Research Grants Council (RGC) of the Hong Kong Special Administrative Region, China",
+          "award": [
+            "14100620, 14105823, 14106521, and 14115319 to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "14100620, 14105823, 14106521, and 14115319 to H.W."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Theme-based Research Scheme (TRS) from RGC",
+          "award": [
+            "T13-602/21-N to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T13-602/21-N to H.W."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strategic Topics Grant (STG) from RGC",
+          "award": [
+            "STG1/E-403/24-N to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "STG1/E-403/24-N to H.W."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Area of Excellence Scheme (AoE) from RGC",
+          "award": [
+            "AoE/M-402/20 to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "AoE/M-402/20 to H.W."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Health and Medical Research Fund (HMRF) from Health Bureau of the Hong Kong Special Administrative Region, China",
+          "award": [
+            "10210906 and 08190626 to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "10210906 and 08190626 to H.W."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "the research funds from Health@InnoHK program launched by Innovation Technology Commission, the Government of the Hong Kong SAR, China",
+          "award": [
+            "to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "to H.W."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chinese University of Hong Kong (CUHK) Strategic Seed Funding for Collaborative Research Scheme",
+          "award": [
+            "to H.W."
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "to H.W."
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>RNA-binding proteins (RBPs) are pivotal in cellular processes ranging from RNA metabolism to 3D genome organization. A distinct subset, chromatin-associated RBPs (caRBPs), binds directly to chromatin to function as transcriptional regulators. However, identifying caRBPs via traditional methods like Chromatin Immunoprecipitation Sequencing (ChIP-seq) and Mass Spectrometry (MS) is labor-intensive and costly. While computational tools for DNA- and RNA-binding protein (DRBP) prediction exist, they often rely on outdated Gene Ontology annotations and fail to capture the unique characteristics of chromatin association. Here, we introduce caRBP-Pred, a novel deep learning approach combining Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory networks (BiLSTM). Unlike previous methods utilizing full-length sequences, our model is trained on chromatin-contact peptides derived from mouse embryonic stem cells (mESCs). caRBP-Pred achieves a superior Area Under the Curve (AUC) of 0.81 using peptide sequence information alone, significantly outperforming existing DRBP predictors which exhibit low recall for caRBPs. We further predicted 52 potential caRBPs in mice. Notably, validation against human homologs confirmed that our model accurately predicts candidates with experimentally verified chromatin-binding capabilities. Collectively, caRBP-Pred is the first tool specifically designed to predict caRBPs based on chromatin-contact peptides, offering a valuable resource for investigating regulatory roles of caRBPs on transcription.</jats:p>",
+      "DOI": "10.64898/2026.01.12.698323",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ],
+        "date-time": "2026-01-13T22:40:12Z",
+        "timestamp": 1768344012000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "caRBP-Pred: Deep Learning-based Prediction of Chromatin-Associated RNA-Binding Proteins Using Short Peptide Sequences"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Qiang",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China"
+            },
+            {
+              "name": "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong Science Park, Hong Kong SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Feng",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China"
+            },
+            {
+              "name": "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong Science Park, Hong Kong SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hao",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Warshel Institute for Computational Biology, Faculty of Medicine, Chinese University of Hong Kong, Shenzhen, Guangdong, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaona",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China"
+            },
+            {
+              "name": "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong Science Park, Hong Kong SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Huating",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China"
+            },
+            {
+              "name": "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong Science Park, Hong Kong SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37494-w"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2077-3"
+        },
+        {
+          "issue": "119",
+          "key": "2026020501051980000_2026.01.12.698323v1.3",
+          "first-page": "171",
+          "article-title": "Integrated analysis of RNA-binding protein complexes using in vitro selection and high-throughput sequencing and sequence specificity landscapes (SEQRS)",
+          "volume": "118",
+          "year": "2017",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.3310"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "331",
+          "DOI": "10.1007/978-1-0716-0970-5_26",
+          "article-title": "Identification of RNA-Binding Protein Landscapes Across Zebrafish Embryonic Transcriptome via iCLIP Approach",
+          "volume": "2218",
+          "year": "2021",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.05.007"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.06.001"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "446",
+          "DOI": "10.1016/j.cels.2019.09.005",
+          "article-title": "Nuclear AGO1 Regulates Gene Expression by Affecting Chromatin Architecture in Human Cells",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.224576.117"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.10.001"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "625",
+          "DOI": "10.1016/j.tcb.2023.05.006",
+          "article-title": "Chromatin-interacting RNA-binding proteins regulate transcription",
+          "volume": "33",
+          "year": "2023",
+          "journal-title": "Trends Cell Biol"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "290",
+          "DOI": "10.1186/s13059-021-02508-7",
+          "article-title": "A global screening identifies chromatin-enriched RNA-binding proteins and the transcriptional regulatory activity of QKI5 during monocytic differentiation",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1007/978-1-0716-0680-3_8",
+          "article-title": "Proteomics-Based Systematic Identification of Nuclear Proteins Anchored to Chromatin via RNA",
+          "volume": "2161",
+          "year": "2020",
+          "journal-title": "Rna-Chromatin Interactions"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1180"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yu, Z.W. , Wang, Q. , Zhang, Q.C. , Tian, Y.W. , Yan, G. , Zhu, J.D. , Zhu, G.Y. and Zhang, Y . (2024) Decoding the genomic landscape of chromatin-associated biomolecular condensates. Nature Communications, 15.",
+          "DOI": "10.1038/s41467-024-51426-2"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw730"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1166",
+          "DOI": "10.1021/acs.jcim.4c01765",
+          "article-title": "NesT-NABind: a Nested Transformer for Nucleic Acid-Binding Site Prediction on Protein Surface",
+          "volume": "65",
+          "year": "2025",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-33654-x"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "3668",
+          "DOI": "10.1109/JBHI.2021.3069259",
+          "article-title": "rBPDL:Predicting RNA-Binding Proteins Using Deep Learning",
+          "volume": "25",
+          "year": "2021",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.09.008"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1451",
+          "DOI": "10.1109/TCBB.2019.2952338",
+          "article-title": "DeepDRBP-2L: A New Genome Annotation Predictor for Identifying DNA-Binding Proteins and RNA-Binding Proteins Using Convolutional Neural Network and Long Short-Term Memory",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "IEEE/ACM Trans Comput Biol Bioinform"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2022.04.029"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1040"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2144/btn-2023-0024"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1058"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu074"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp631"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "150929",
+          "DOI": "10.1109/ACCESS.2020.3014996",
+          "article-title": "A Review About RNA-Protein-Binding Sites Prediction Based on Deep Learning",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "Ieee Access"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Peng, X.X. , Wang, X.Y. , Guo, Y.M. , Ge, Z.Y. , Li, F.Y. , Gao, X. and Song, J.N . (2022) RBP-TSTL is a two-stage transfer learning framework for genome-scale prediction of RNA-binding proteins. Brief Bioinform, 23.",
+          "DOI": "10.1093/bib/bbac215"
+        },
+        {
+          "key": "2026020501051980000_2026.01.12.698323v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arican, O.C. and Gumus, O . (2023) PredDRBP-MLP: Prediction of DNA-binding proteins and RNA-binding proteins by multilayer perceptron. Comput Biol Med, 164.",
+          "DOI": "10.1016/j.compbiomed.2023.107317"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.12.698323",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T09:05:30Z",
+        "timestamp": 1770282330000
+      },
+      "score": 84.72337,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.12.698323"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "references-count": 31,
+      "URL": "https://doi.org/10.64898/2026.01.12.698323",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

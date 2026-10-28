@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, tables, and figure legends) as provided
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors report a novel homozygous LIG1 mutation (A624T) in a patient with severe combined immunodeficiency (SCID), and provide clinical, cellular, and biochemical evidence that this mutation reduces catalytic activity while increasing ligation fidelity, with proposed structural mechanisms via molecular dynamics simulations
+- **Visible evidence base** Clinical case description, immunological phenotyping, cellular assays (proliferation, viability, radiation sensitivity), immunoblotting, in vitro ligation assays, and molecular dynamics simulations
+- **Missing materials affecting confidence** Full methods section (stated to be in supplementary material, not provided), raw data files, statistical analysis details, and supplementary figures (Fig. S1, S2) referenced but not available
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable addition to the limited literature on LIG1 deficiency, describing a novel homozygous mutation with detailed clinical and mechanistic characterization. The combination of clinical phenotyping, cellular assays, and biochemical studies is commendable. However, the absence of the methods section and supplementary data limits the ability to fully evaluate the rigor of the experimental approaches. The mechanistic claims, particularly regarding fidelity changes and allosteric effects, require careful scrutiny given the relatively small effect sizes and the indirect nature of some evidence.
+- **Who would be interested in the results, and why** Clinicians and researchers in the fields of primary immunodeficiency, DNA repair disorders, and hematology would find this case report valuable. The biochemical characterization of a disease-associated LIG1 mutant with altered fidelity has implications for understanding the balance between ligation efficiency and accuracy in genome maintenance. The clinical outcome data following HSCT without conditioning adds to the management literature for this rare condition.
+- **Major strengths** The manuscript addresses a very rare condition with only eight reported cases, making each well-characterized case valuable. The authors combine clinical, cellular, and biochemical approaches, providing a multi-level characterization. The identification of a homozygous mutation in a consanguineous family is methodologically sound. The biochemical assays directly test both catalytic activity and fidelity, going beyond simple genotype reporting. The molecular dynamics simulations provide a plausible structural explanation for the observed functional changes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that A624T exhibits "reduced catalytic activity but increased ligation fidelity" is central to the manuscript's mechanistic narrative
+  - **Evidence pointer** Figure 5, Results section "A624T Displays Reduced Catalytic Activity" and "A624T Leads to Enhanced Ligation Fidelity"
+  - **Concern** The quantitative difference in catalytic activity between WT and A624T on the cognate substrate is reported as approximately 1.5-fold. This is a modest effect, and the statistical significance and reproducibility of this difference are not fully documented in the provided text. More critically, the fidelity claim rests primarily on the differential processing of the oxoG substrate, where the mutant shows near-complete ablation of ligation. However, the authors acknowledge that the dU substrate difference (1.5-fold) "may not reflect a true difference in fidelity" because it is within the range of the catalytic activity difference. This raises the question of whether the oxoG result is a genuine fidelity enhancement or simply a more severe catalytic defect on a challenging substrate. The manuscript does not adequately distinguish between these interpretations.
+  - **Why it matters** The central mechanistic claim of the paper is that this mutation causes disease through a combination of reduced activity and increased fidelity. If the fidelity effect is not robustly distinguished from a general reduction in catalytic competence on difficult substrates, the mechanistic narrative is substantially weakened. This distinction is critical for understanding how a single mutation can produce such a severe clinical phenotype.
+  - **Resolution test** The authors should provide a more rigorous quantitative analysis, including dose-response curves across a range of enzyme concentrations and time points, to demonstrate that the fidelity difference is not simply a consequence of reduced activity. Additionally, testing additional damaged substrates and performing competition assays between cognate and damaged substrates would strengthen the fidelity claim. Statistical comparison of the fidelity ratios (cognate vs. damaged substrate processing) between WT and mutant, rather than individual substrate comparisons, would be more informative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that molecular dynamics simulations reveal "allosteric effects" linking the A624T mutation to disruption of the high-fidelity Mg2+ binding site
+  - **Evidence pointer** Figures 6 and 7, Results section "Molecular Dynamic Simulation Reveals Allosteric Effects in the Mutant Protein"
+  - **Concern** The molecular dynamics simulations are described as using a "coarse-grained force field," which is unusual for studying subtle allosteric effects in a protein-DNA complex. Coarse-grained models typically lack the atomic resolution needed to draw conclusions about specific side-chain interactions, hydrogen bonding networks, and π-π stacking interactions, which are precisely the types of interactions the authors claim to have identified. The manuscript does not specify which coarse-grained force field was used, the simulation length, the number of replicates, or how convergence was assessed. The transition from coarse-grained simulations to atomic-level claims about specific residue interactions (e.g., F587-H577 π-π interactions, E573 hydrogen bonding) appears inconsistent with the methodology described.
+  - **Why it matters** The structural mechanism proposed is a key part of the paper's contribution. If the simulation methodology cannot support the atomic-level claims, the mechanistic explanation becomes speculative. This is particularly important because the authors use the simulations to connect the biochemical observations to specific structural changes, and this connection is central to the paper's narrative.
+  - **Resolution test** The authors should either provide details demonstrating that their coarse-grained approach can resolve the specific interactions claimed, or repeat the simulations with an all-atom force field. They should report simulation parameters, convergence metrics, and replicate information. Ideally, they would also validate key predictions experimentally, for example by testing additional mutations at the predicted interaction sites.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the patient's clinical phenotype is attributable to the LIG1 A624T mutation
+  - **Evidence pointer** Figure 1, Results sections "Clinical History" and "Identification of a Novel LIG1 Mutation"
+  - **Concern** The genetic evidence linking the mutation to the phenotype is incomplete. The authors identified two candidate variants after filtering, one in INTS11 and one in LIG1. They excluded INTS11 based on in silico prediction tools (SIFT and Polyphen-2), which is a weak basis for exclusion. The manuscript does not report whether the INTS11 variant was further investigated, such as through expression analysis or functional studies. Additionally, no functional complementation studies (e.g., rescue of the cellular phenotype with wild-type LIG1) are presented. The cellular assays were performed on patient fibroblasts, but no experiments demonstrate that the observed defects are specifically due to the LIG1 mutation rather than other genetic or environmental factors.
+  - **Why it matters** Establishing causality is essential for a case report of a novel mutation. Without functional complementation or other definitive evidence, the link between genotype and phenotype remains correlative. This is particularly important given that the patient's clinical presentation is severe and the biochemical defects are relatively modest.
+  - **Resolution test** The authors should perform complementation experiments, expressing wild-type LIG1 in patient fibroblasts and demonstrating rescue of the proliferation, viability, and DNA damage phenotypes. Alternatively, they could use CRISPR-mediated correction of the mutation in patient cells or introduce the mutation into a control cell line to recapitulate the phenotype. At minimum, they should provide additional evidence that the INTS11 variant is not contributing to the phenotype.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the patient's cells show "significantly slower growth rate" and "significantly higher percentage of apoptotic cells" compared to controls
+  - **Evidence pointer** Figure 3, Results section "Patient Cells Reveal Reduced Proliferation and Viability, and Increased Radiosensitivity"
+  - **Concern** The manuscript states that "a total of 3 control cell lines were utilized" but does not specify whether these were age-matched, passage-matched, or derived from healthy individuals. The number of independent experiments is stated (three for proliferation and viability, four for survival), but the number of technical replicates per experiment is not reported. The statistical tests used are mentioned (unpaired Student's t-test) but the manuscript does not clarify whether multiple comparisons were corrected for. The variability between the three control lines is not shown, making it difficult to assess whether the patient's values fall within the normal range of inter-individual variation.
+  - **Why it matters** The cellular phenotype is a key piece of evidence linking the mutation to clinical disease. If the control group is not adequately matched or the statistical analysis is not robust, the reported differences may not be reliable. This is particularly relevant given the modest effect sizes reported.
+  - **Resolution test** The authors should provide detailed information about the control cell lines, including age, sex, and passage number. They should show individual data points for all replicates and controls, and report effect sizes with confidence intervals. If multiple comparisons were performed, appropriate corrections should be applied and described.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table is dense and difficult to interpret. Some entries are unclear, such as "↓" without numerical values, and the column for "P8" appears to have missing data for several parameters. The reference list at the bottom is not clearly separated from the data.
+  - **Required correction** Consider reformatting the table to improve readability, providing numerical values where available, and clearly indicating missing data. Separate the reference list from the data table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** "All methods are provided in the supplementary section of this article"
+  - **Issue** The main text contains no methods section, and the supplementary material was not provided for review. This makes it impossible to evaluate key experimental details, including the ligation assay conditions, antibody information, flow cytometry gating strategies, and simulation parameters.
+  - **Required correction** The methods should be available for review. If the journal permits, key methods should be summarized in the main text, or the supplementary material should be provided to reviewers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of genotype-phenotype correlation
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors discuss the lack of genotype-phenotype correlation but the comparison is based on a very small number of cases with different mutations, different zygosities, and potentially different genetic backgrounds. The discussion would benefit from a more cautious interpretation.
+  - **Required correction** Soften the claims about genotype-phenotype correlation and acknowledge more explicitly the limitations of comparing across such a small and heterogeneous patient group.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5C and 5E
+  - **Issue** The bar chart in panel C shows p-values "reported to the most significant digit" but the actual p-values are not stated in the text or figure legend. The Hill equation fitting in panel E is described but the fitted parameters are not reported.
+  - **Required correction** Report the actual p-values in the figure or legend, and provide the fitted Hill equation parameters (e.g., EC50, Hill coefficient, maximum activity) for both WT and mutant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Clinical description
+  - **Evidence pointer** Results section "Clinical History"
+  - **Issue** The clinical description mentions "localized BCGitis" and later "indurated BCG site with multiple discoloration of the skin," but the relationship between these findings and the immunological phenotype is not discussed in detail.
+  - **Required correction** Briefly explain the significance of the BCG findings in the context of SCID and the patient's immune status.
+
+## Risk / unsupported claims
+- The claim of "increased ligation fidelity" as a disease mechanism is not fully supported, as the authors do not adequately distinguish between enhanced fidelity and reduced catalytic activity on challenging substrates
+- The molecular dynamics simulation results are presented with insufficient methodological detail to assess their validity, and the use of a coarse-grained force field appears inconsistent with the atomic-level claims made
+- The causal link between the LIG1 A624T mutation and the patient's clinical phenotype is not definitively established, as no complementation or gene correction experiments are presented
+- The claim that the INTS11 variant is non-pathogenic is based solely on in silico prediction tools and is not experimentally validated
+- The comparison of the patient's cellular phenotypes to controls lacks sufficient detail on control matching and statistical rigor to fully assess the reliability of the reported differences
+- The statement that "all reported LIG1 patients have at least one hypomorphic allele that preserves some residual function, suggesting that full loss of function may be incompatible with life" is presented as a general conclusion but is based on a very small number of cases
+- The clinical significance of the patient's improved status post-HSCT without conditioning is reported but not discussed in the context of potential confounders or long-term outcomes

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that EGCG alleviates oxidative-redox imbalance in skeletal muscle of heat-stressed pigs through two mechanisms: the Keap1/Nrf2 antioxidant enzyme pathway and PINK1/Parkin-mediated mitophagy. They further claim to identify PGAM5 as a novel EGCG-modulated protein under heat stress, show that PGAM5 inhibition attenuates EGCG-induced mitophagy, and propose through molecular docking and dynamics simulations that EGCG binds Keap1, disrupts the Keap1-PGAM5 interaction, releases PGAM5, and activates mitophagy.
+- **Visible evidence base** Abstract text only; no experimental data, statistical details, or methodological descriptions are available
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, experimental replicates, animal handling details, dosing regimen, tissue sampling details, and validation data for molecular docking and dynamics simulations
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically ambitious study linking a dietary polyphenol to mitophagy regulation in a livestock model. The proposed pathway, involving a direct Keap1-PGAM5 interaction disrupted by EGCG, is novel and could have translational relevance for heat stress management in swine production. However, the abstract alone provides insufficient evidence to evaluate the robustness of the experimental design, the validity of the mechanistic claims, or the statistical support for the conclusions. Several claims, particularly the direct binding of EGCG to Keap1 and the functional significance of the Keap1-PGAM5 interaction, require substantially more evidence than is presented here.
+- **Who would be interested in the results, and why** Researchers in animal nutrition, swine production, oxidative stress biology, and natural product pharmacology would find these results relevant. The work also speaks to the broader field of mitophagy regulation and could interest investigators studying polyphenol mechanisms beyond simple antioxidant scavenging. The potential application of EGCG as a feed additive for heat-stressed livestock would appeal to applied animal scientists and industry stakeholders.
+- **Major strengths** The study addresses a practical agricultural problem with a mechanistically oriented approach. The identification of PGAM5 as a potential mediator of EGCG effects is novel and moves beyond the well-studied Keap1/Nrf2 axis. The combination of in vivo observations with molecular docking and dynamics simulations suggests an attempt to bridge physiological outcomes with molecular-level mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that EGCG mitigates oxidative-redox imbalance in porcine skeletal muscle under heat stress via the Keap1/Nrf2 pathway and PINK1/Parkin-mediated mitophagy.
+  - **Evidence pointer** Abstract text; no figures or tables provided
+  - **Concern** The abstract states these findings as established results but provides no quantitative data, no statistical comparisons, no sample sizes, and no description of the experimental design. It is impossible to assess whether the observed effects are robust, dose-dependent, or specific to EGCG treatment.
+  - **Why it matters** The central physiological claim of the paper, that EGCG alleviates oxidative damage in heat-stressed pigs, cannot be evaluated without access to the underlying data. The magnitude of the effect, its reproducibility, and its biological significance remain unknown.
+  - **Resolution test** Provide the full dataset including oxidative stress markers, antioxidant enzyme activities, and mitophagy indicators with appropriate statistical analyses and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The abstract claims that PGAM5 is a key protein modulated by EGCG under heat stress and that inhibition of PGAM5 significantly attenuated EGCG-induced mitophagy.
+  - **Evidence pointer** Abstract text; no experimental details provided
+  - **Concern** The claim that PGAM5 inhibition attenuates EGCG-induced mitophagy is presented as a key mechanistic finding, but the abstract does not specify how PGAM5 was inhibited, in what system, at what efficiency, or with what controls. The specificity of the inhibition and the possibility of off-target effects cannot be assessed.
+  - **Why it matters** This experiment appears to be the primary evidence linking PGAM5 to the proposed mechanism. Without details on the inhibition strategy, the validity of the conclusion is uncertain.
+  - **Resolution test** Describe the inhibition method, provide validation of knockdown or inhibition efficiency, and show that the effect on mitophagy is specific to PGAM5 loss.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational evidence
+  - **Claim pointer** The abstract claims that molecular docking and dynamics simulations suggest EGCG directly binds to Keap1, disrupting the Keap1-PGAM5 interaction and promoting PGAM5 release.
+  - **Evidence pointer** Abstract text; no computational details provided
+  - **Concern** Molecular docking and dynamics simulations are predictive tools, not direct evidence of binding. The abstract does not report binding affinities, simulation timescales, force fields, or experimental validation of the predicted interaction. The claim that EGCG disrupts the Keap1-PGAM5 interaction is presented as a conclusion rather than a hypothesis requiring experimental confirmation.
+  - **Why it matters** The proposed mechanism depends critically on this direct interaction. Computational predictions alone are insufficient to establish a physical interaction, especially in a complex cellular context.
+  - **Resolution test** Provide experimental validation of the EGCG-Keap1 interaction, such as surface plasmon resonance, isothermal titration calorimetry, or cellular thermal shift assay, and demonstrate that EGCG disrupts the Keap1-PGAM5 complex in cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal ordering
+  - **Claim pointer** The abstract implies a causal sequence in which EGCG binds Keap1, releases PGAM5, and thereby activates mitophagy, which in turn alleviates oxidative damage.
+  - **Evidence pointer** Abstract text; no temporal or epistasis data provided
+  - **Concern** The abstract does not establish the temporal or causal ordering of the proposed events. It is unclear whether mitophagy activation is a direct consequence of PGAM5 release or a secondary effect of reduced oxidative stress. The relationship between the Keap1/Nrf2 pathway and the mitophagy pathway is not addressed.
+  - **Why it matters** The proposed model implies a specific sequence of molecular events. Without epistasis experiments or time-course data, alternative explanations remain plausible.
+  - **Resolution test** Perform time-course experiments and genetic or pharmacological interventions to establish the order of events and the dependence of mitophagy on PGAM5 release.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "phosphate mutase 5"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "phosphate mutase 5" is used, but the standard nomenclature for PGAM5 is phosphoglycerate mutase family member 5. The abstract should use the correct full name.
+  - **Required correction** Replace "phosphate mutase 5" with "phosphoglycerate mutase family member 5" or the standard abbreviation PGAM5.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Mechanistic clarity
+  - **Affected element** Relationship between Keap1/Nrf2 and PINK1/Parkin pathways
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions both the Keap1/Nrf2 antioxidant pathway and the PINK1/Parkin mitophagy pathway but does not clarify whether these are independent, parallel, or interconnected mechanisms.
+  - **Required Correction** Briefly state whether the two pathways are proposed to act independently or in a coordinated manner.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model relevance
+  - **Affected element** Translational claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract concludes that EGCG "serves as a potential functional supplement for regulating the antioxidant capacity in pigs," but no information is provided on dose, route of administration, bioavailability, or safety.
+  - **Required Correction** Either temper the translational claim or provide relevant dosing and safety information.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The physiological effect, the PGAM5 dependence, and the direct binding mechanism all require substantially more evidence than the abstract provides.
+- **Assessment against Nature-style criteria** Originality: The proposed Keap1-PGAM5-EGCG axis is novel and not previously described in the literature to my knowledge. Scientific importance: The work addresses a relevant agricultural problem and could inform both livestock management and fundamental understanding of polyphenol mechanisms. Interdisciplinary readership: The topic bridges nutrition, redox biology, and animal science, which could attract a broad audience if the mechanistic claims are well supported. Technical soundness: Cannot be assessed from the abstract alone; the absence of methodological detail and quantitative results prevents evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary findings, but the evidence base is insufficient to support the mechanistic claims. I would be supportive if the full manuscript provides robust experimental validation of the PGAM5 dependence and the direct EGCG-Keap1 interaction.
+
+## Risk / unsupported claims
+- The claim that EGCG directly binds to Keap1 and disrupts the Keap1-PGAM5 interaction is unsupported without experimental binding data.
+- The claim that PGAM5 inhibition attenuates EGCG-induced mitophagy is unverifiable without details on the inhibition method and controls.
+- The claim that EGCG alleviates oxidative-redox imbalance in heat-stressed pigs is unverifiable without quantitative data and statistical analyses.
+- The translational claim that EGCG serves as a functional supplement for pigs is premature without dosing, bioavailability, and safety data.
+- The causal ordering of the proposed pathway is not established.

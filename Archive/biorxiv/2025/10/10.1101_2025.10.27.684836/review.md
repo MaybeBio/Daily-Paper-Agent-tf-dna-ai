@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that SALL1 and SALL4 form homo- and heterotetramers via a conserved glutamine-rich region, that tetramerisation is required for DNA binding, that a patient-derived mutation abolishing SALL4 multimerisation causes gene misregulation and embryonic lethality in mice, and that a common SALL1 truncation sequesters SALL4 into DNA-binding-defective heterotetramers, explaining dominant-negative effects in Townes-Brocks syndrome.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, all figures and tables, statistical analyses, mouse strain and breeding details, cell lines, biochemical assays, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important advance in understanding SALL protein function, with a clear mechanistic model linking tetramerisation to DNA binding and developmental phenotypes. The claims are coherent and the proposed dominant-negative mechanism for Townes-Brocks syndrome is intellectually appealing. However, the evidence base available for this review is limited to the abstract, and several key claims cannot be evaluated for technical rigour. The central novelty, that tetramerisation is a prerequisite for SALL function, is plausible but requires substantial experimental support that is not visible here.
+- **Who would be interested in the results, and why** Developmental biologists studying transcriptional regulation during embryogenesis, geneticists working on congenital malformation syndromes, and biochemists interested in transcription factor oligomerisation and its functional consequences. The proposed mechanism for dominant-negative disease mutations would also be of interest to clinical geneticists and researchers studying gene regulation in development and disease.
+- **Major strengths** The abstract identifies a conserved glutamine-rich region as a tetramerisation domain, which is a concrete and testable molecular finding. The use of a patient-derived mutation to probe function in vivo is a strong translational approach. The proposed dominant-negative mechanism for Townes-Brocks syndrome provides a unifying explanation for a class of mutations and is a conceptually significant contribution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that tetramerisation is indispensable for DNA binding.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that complex formation is indispensable for DNA binding, but no experimental detail is provided. It is unclear whether this was shown by electrophoretic mobility shift assays, chromatin immunoprecipitation, reporter assays, or structural studies. The claim is absolute and would require demonstration that all DNA-binding activity is lost upon disruption of tetramerisation, across multiple binding sites and conditions.  
+  - **Why it matters** This is the central mechanistic claim of the manuscript. If tetramerisation is not strictly required for DNA binding under all tested conditions, the conclusion would need to be qualified. The strength of the claim as stated exceeds what can be assessed from the abstract.  
+  - **Resolution test** Provide representative DNA-binding assays comparing wild-type and tetramerisation-deficient proteins, including quantitative binding curves and a demonstration that the effect is not due to protein misfolding or degradation.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that a patient mutation abolishing SALL4 multimerisation leads to embryonic lethality in mice, phenocopying a complete Sall4 knockout.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports embryonic lethality but provides no information on the timing of lethality, the number of embryos analysed, the genetic strategy used, or whether the mutation was introduced by knock-in or transgenesis. Phenocopying a complete knockout is a strong claim that requires careful comparison of phenotypic severity, penetrance, and developmental stage of arrest.  
+  - **Why it matters** The in vivo relevance of tetramerisation is a key pillar of the manuscript. Without details on the mouse model and phenotypic characterisation, the claim cannot be evaluated.  
+  - **Resolution test** Provide a detailed description of the mouse model, including targeting strategy, breeding scheme, litter analysis, and a systematic comparison of the mutant phenotype with Sall4 null embryos at multiple developmental stages.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that a common SALL1 truncation sequesters SALL4 into heterotetramers that are defective in DNA binding, providing a mechanistic explanation for dominant-negative effects.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The sequestration model requires evidence that the truncated SALL1 protein forms stable heterotetramers with SALL4 in cells, that these complexes are stoichiometrically significant, and that they are indeed defective in DNA binding. The abstract does not indicate whether this was shown in vitro, in cultured cells, or in patient-derived material.  
+  - **Why it matters** This is the most clinically relevant claim and the proposed mechanism for Townes-Brocks syndrome. If the sequestration model is not quantitatively supported, the explanation for dominant-negative effects remains speculative.  
+  - **Resolution test** Provide co-immunoprecipitation or native gel data showing heterotetramer formation, quantitative DNA-binding assays on the mixed complexes, and ideally evidence from patient cells or a relevant cell model that endogenous SALL4 is sequestered.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "glutamine-rich region" is used without indicating its approximate size or position within the protein.  
+  - **Required correction** Specify the domain boundaries or provide a brief description of its location relative to the zinc-finger domains.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state whether the tetramerisation domain is conserved across all SALL family members or only SALL1 and SALL4.  
+  - **Required correction** Clarify the scope of conservation, as this affects the generalisability of the model.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "gene misregulation" but does not indicate the scale or direction of the effect.  
+  - **Required correction** Provide a brief indication of the number of misregulated genes and whether the effect is predominantly activation or repression.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims regarding DNA-binding dependence, in vivo phenocopy, and dominant-negative sequestration all require experimental detail that is not visible in the abstract.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept that tetramerisation is a prerequisite for SALL function is novel and not widely anticipated in the literature. The dominant-negative sequestration model for Townes-Brocks syndrome is a fresh mechanistic proposal.  
+  - Scientific importance: The findings have potential significance for understanding developmental gene regulation and the molecular basis of congenital syndromes. The in vivo data, if robust, would elevate the importance considerably.  
+  - Interdisciplinary readership: The work bridges developmental biology, transcriptional regulation, and clinical genetics, which would appeal to a broad audience.  
+  - Technical soundness: Cannot be assessed from the abstract. The claims are strong and would require rigorous biochemical, cellular, and in vivo validation.  
+  - Readability for nonspecialists: The abstract is clearly written and the logic is easy to follow, though some domain-specific terms could be briefly explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is attractive and the clinical relevance is clear, but the evidence base provided is insufficient to establish the central claims. A full manuscript with detailed methods and data would be required to assess technical soundness.
+
+## Risk / unsupported claims
+- The claim that tetramerisation is indispensable for DNA binding is unsupported in the abstract and cannot be evaluated without experimental data.
+- The claim that a patient mutation phenocopies a complete Sall4 knockout is unsupported without details of the mouse model and phenotypic analysis.
+- The sequestration model for dominant-negative effects of SALL1 truncations is plausible but unsupported without biochemical or cellular evidence.
+- The generalisability of the tetramerisation requirement to all SALL family members is not stated and cannot be inferred.

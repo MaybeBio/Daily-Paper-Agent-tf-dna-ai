@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35812327",
+  "title": "ESRRG, ATP4A, and ATP4B as Diagnostic Biomarkers for Gastric Cancer: A Bioinformatic Analysis Based on Machine Learning.",
+  "authors": "Chen, Qiu; Wang, Yu; Liu, Yongjun; Xi, Bin",
+  "journal": "Frontiers in physiology",
+  "published_date": "2022-07-12",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于机器学习挖掘胃癌诊断生物标志物，虽涉及转录因子ESRRG但核心是基因表达诊断而非蛋白质-DNA互作建模，方法为传统ML分类，与本课题无关。",
+  "abstract": "Based on multiple bioinformatics methods and machine learning techniques, this study was designed to explore potential hub genes of gastric cancer with a diagnostic value. The novel biomarkers were detected through multiple databases of gastric cancer-related genes. The NCBI Gene Expression Omnibus (GEO) database was used to obtain gene expression files. Three hub genes (ESRRG, ATP4A, and ATP4B) were detected through a combination of weighted gene co-expression network analysis (WGCNA), gene-gene interaction network analysis, and supervised feature selection method. GEPIA2 was used to verify the differences in the expression levels of the hub genes in normal and cancer tissues in the RNA-seq levels of Genotype-Tissue Expression (GTEx) and The Cancer Genome Atlas (TCGA) databases. The objectivity of potential hub genes was also verified by immunohistochemistry in the Human Protein Atlas (HPA) database and transcription factor-hub gene regulatory network. Machine learning (ML) methods including data pre-processing, model selection and cross-validation, and performance evaluation were examined on the hub-gene expression profiles in five Gene Expression Omnibus datasets and verified on a GEO external validation (EV) dataset. Six supervised learning models (support vector machine, random forest, k-nearest neighbors, neural network, decision tree, and eXtreme Gradient Boosting) and one semi-supervised learning model (label spreading) were established to evaluate the diagnostic value of biomarkers. Among the six supervised models, the support vector machine (SVM) algorithm was the most effective one according to calculated performance metrics, including 0.93 and 0.99 area under the curve (AUC) scores on the test and external validation datasets, respectively. Furthermore, the semi-supervised model could also successfully learn and predict sample types, achieving a 0.986 AUC score on the EV dataset, even when 10% samples in the five GEO datasets were labeled. In conclusion, three hub genes (ATP4A, ATP4B, and ESRRG) closely related to gastric cancer were mined, based on which the ML diagnostic model of gastric cancer was conducted.",
+  "abstract_zh": "基于多种生物信息学方法和机器学习技术，本研究旨在探索具有诊断价值的胃癌潜在核心基因。通过多个胃癌相关基因数据库检测新型生物标志物。使用NCBI基因表达综合（GEO）数据库获取基因表达文件。通过加权基因共表达网络分析（WGCNA）、基因-基因相互作用网络分析和监督特征选择方法的组合，检测到三个核心基因（ESRRG、ATP4A和ATP4B）。利用GEPIA2验证了核心基因在正常组织和癌组织中的表达水平差异，基于基因型-组织表达（GTEx）和癌症基因组图谱（TCGA）数据库的RNA-seq水平。潜在核心基因的客观性还通过人类蛋白质图谱（HPA）数据库中的免疫组织化学和转录因子-核心基因调控网络进行了验证。机器学习（ML）方法，包括数据预处理、模型选择和交叉验证以及性能评估，在五个基因表达综合数据集上的核心基因表达谱中进行了检验，并在一个GEO外部验证（EV）数据集上进行了验证。建立了六种监督学习模型（支持向量机、随机森林、k近邻、神经网络、决策树和极端梯度提升）以及一种半监督学习模型（标签传播），以评估生物标志物的诊断价值。在六种监督模型中，根据计算性能指标，支持向量机（SVM）算法最为有效，在测试和外部验证数据集上的曲线下面积（AUC）得分分别为0.93和0.99。此外，半监督模型也能成功学习和预测样本类型，在EV数据集上实现了0.986的AUC得分，即使在五个GEO数据集中仅有10%的样本被标记。总之，挖掘了与胃癌密切相关的三个核心基因（ATP4A、ATP4B和ESRRG），并基于此构建了胃癌的机器学习诊断模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35812327/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35812327/",
+  "paper_page_path": "papers/pubmed/35812327/index.html"
+}

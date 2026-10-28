@@ -1,0 +1,340 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.23.568466",
+  "title": "Single-cell imaging of protein dynamics of paralogs reveals mechanisms of gene retention",
+  "doi": "10.1101/2023.11.23.568466",
+  "abstract": "Gene duplication is common across the tree of life, including yeast and humans, and contributes to genomic robustness. In this study, we examined changes in the subcellular localization and abundance of proteins in response to the deletion of their paralogs originating from the whole-genome duplication event, which is a largely unexplored mechanism of functional divergence. We performed a systematic single-cell imaging analysis of protein dynamics and screened subcellular redistribution of proteins, capturing their localization and abundance changes, providing insight into forces determining paralog retention. Paralogs showed dependency, whereby proteins required their paralog to maintain their native abundance or localization, more often than compensation. Network feature analysis suggested the importance of functional redundancy and rewiring of protein and genetic interactions underlying redistribution response of paralogs. Translation of non-canonical protein isoform emerged as a novel compensatory mechanism. This study provides new insights into paralog retention and evolutionary forces that shape genomes.",
+  "authors": [
+    "Dandage R",
+    "Papkov M",
+    "Greco BM",
+    "Fishman D",
+    "Friesen H",
+    "Wang K",
+    "Styles E",
+    "Kraus O",
+    "Grys B",
+    "Boone C",
+    "Andrews B",
+    "Parts L",
+    "Kuzmin E"
+  ],
+  "published_date": "2023-11-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.23.568466",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.23.568466.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR763638",
+    "raw_record": {
+      "id": "PPR763638",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR763638"
+        ]
+      },
+      "doi": "10.1101/2023.11.23.568466",
+      "title": "Single-cell imaging of protein dynamics of paralogs reveals mechanisms of gene retention",
+      "authorString": "Dandage R, Papkov M, Greco BM, Fishman D, Friesen H, Wang K, Styles E, Kraus O, Grys B, Boone C, Andrews B, Parts L, Kuzmin E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dandage R",
+            "lastName": "Dandage",
+            "firstName": "Rohan",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Concordia University, Montreal, Canada"
+                },
+                {
+                  "affiliation": "Centre for Applied Synthetic Biology, Centre for Structural and Functional Genomics, Concordia University, Montreal, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papkov M",
+            "lastName": "Papkov",
+            "firstName": "Mikhail",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University of Tartu, Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greco BM",
+            "lastName": "Greco",
+            "firstName": "Brittany",
+            "initials": "BM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Concordia University, Montreal, Canada"
+                },
+                {
+                  "affiliation": "Centre for Applied Synthetic Biology, Centre for Structural and Functional Genomics, Concordia University, Montreal, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fishman D",
+            "lastName": "Fishman",
+            "firstName": "Dmytro",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University of Tartu, Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Friesen H",
+            "lastName": "Friesen",
+            "firstName": "Helena",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang K",
+            "lastName": "Wang",
+            "firstName": "Kyle",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                },
+                {
+                  "affiliation": "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Styles E",
+            "lastName": "Styles",
+            "firstName": "Erin",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                },
+                {
+                  "affiliation": "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kraus O",
+            "lastName": "Kraus",
+            "firstName": "Oren",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                },
+                {
+                  "affiliation": "Department of Electrical and Computer Engineering, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grys B",
+            "lastName": "Grys",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                },
+                {
+                  "affiliation": "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boone C",
+            "lastName": "Boone",
+            "firstName": "Charles",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                },
+                {
+                  "affiliation": "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andrews B",
+            "lastName": "Andrews",
+            "firstName": "Brenda",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Donnelly Centre, University of Toronto, Toronto, Canada"
+                },
+                {
+                  "affiliation": "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parts L",
+            "lastName": "Parts",
+            "firstName": "Leopold",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, University of Tartu, Tartu, Estonia"
+                },
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuzmin E",
+            "lastName": "Kuzmin",
+            "firstName": "Elena",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Concordia University, Montreal, Canada"
+                },
+                {
+                  "affiliation": "Centre for Applied Synthetic Biology, Centre for Structural and Functional Genomics, Concordia University, Montreal, Canada"
+                },
+                {
+                  "affiliation": "Department of Human Genetics, Rosalind & Morris Goodman Cancer Institute, McGill University, Montreal, Canada"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Gene duplication is common across the tree of life, including yeast and humans, and contributes to genomic robustness. In this study, we examined changes in the subcellular localization and abundance of proteins in response to the deletion of their paralogs originating from the whole-genome duplication event, which is a largely unexplored mechanism of functional divergence. We performed a systematic single-cell imaging analysis of protein dynamics and screened subcellular redistribution of proteins, capturing their localization and abundance changes, providing insight into forces determining paralog retention. Paralogs showed dependency, whereby proteins required their paralog to maintain their native abundance or localization, more often than compensation. Network feature analysis suggested the importance of functional redundancy and rewiring of protein and genetic interactions underlying redistribution response of paralogs. Translation of non-canonical protein isoform emerged as a novel compensatory mechanism. This study provides new insights into paralog retention and evolutionary forces that shape genomes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220540/Z/20/A",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/23/2023.11.23.568466.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.23.568466"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR763638"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR763638&type=FILE&fileName=EMS191523-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS191523",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-11-24",
+      "firstPublicationDate": "2023-11-23",
+      "firstIndexDate": "2023-11-24",
+      "fullTextReceivedDate": "2023-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

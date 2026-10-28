@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36136096",
+  "title": "Improving language model of human genome for DNA-protein binding prediction based on task-specific pre-training.",
+  "authors": "Luo, Hanyu; Shan, Wenyu; Chen, Cheng; Ding, Pingjian; Luo, Lingyun",
+  "journal": "Interdisciplinary sciences, computational life sciences",
+  "published_date": "2022-09-23",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于任务特异性预训练的TFBert模型，利用大规模ChIP-seq数据预训练BERT以预测DNA-蛋白结合，核心聚焦TF-DNA结合位点预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "The DNA-protein binding plays a pivotal role in regulating gene expression and evolution, and computational identification of DNA-protein has drawn more and more attention in bioinformatics. Recently, variants of BERT are also used to capture the semantic information of DNA sequences for predicting DNA-protein bindings. In this study, we leverage a task-specific pre-training strategy on BERT using large-scale multi-source DNA-protein binding data and present TFBert. TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words. It can effectively extract upstream and downstream nucleotide context information by pre-training the 690 unlabeled ChIP-seq datasets. Experiments show that the pre-trained model can achieve promising performance on every single dataset in the 690 ChIP-seq datasets after simple fine tuning, especially on small datasets. The average AUC is 94.7%, outperforming existing popular methods. In conclusion, this study provides a variant of BERT based on pre-training and achieved state-of-the-art results in predicting DNA-protein bindings. We believe that TFBert can provide insights into other biological sequence classification problems.",
+  "abstract_zh": "DNA-蛋白质结合在调控基因表达和进化中扮演着关键角色，而DNA-蛋白质的计算识别在生物信息学中日益受到关注。近年来，BERT的变体也被用于捕捉DNA序列的语义信息以预测DNA-蛋白质结合。在本研究中，我们利用大规模多源DNA-蛋白质结合数据，在BERT上采用任务特定的预训练策略，并提出了TFBert。TFBert将DNA序列视为自然语句，将k-mer核苷酸视为单词。通过预训练690个未标记的ChIP-seq数据集，它能有效提取上下游核苷酸上下文信息。实验表明，经过简单微调后，该预训练模型在690个ChIP-seq数据集中的每个单独数据集上均能取得令人满意的性能，尤其是在小数据集上。平均AUC为94.7%，优于现有流行方法。总之，本研究提供了一种基于预训练的BERT变体，并在预测DNA-蛋白质结合方面取得了最先进的结果。我们相信TFBert能为其他生物序列分类问题提供见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36136096/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36136096/",
+  "paper_page_path": "papers/pubmed/36136096/index.html"
+}

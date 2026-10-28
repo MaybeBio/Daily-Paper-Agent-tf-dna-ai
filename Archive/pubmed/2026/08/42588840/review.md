@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, structure, coherence, and claims as presented in the provided text; no external literature verification performed
+- **Shared manuscript claim summary** The manuscript reviews fruit-specific promoters (FSPs), proposing a four-category classification based on spatiotemporal expression patterns, summarizing regulatory mechanisms (cis-elements, transcription factors, epigenetics), and discussing applications in crop improvement, plant bioreactors, and basic research, with future directions emphasizing AI-assisted design and precision genome editing.
+- **Visible evidence base** Abstract; Sections 1–6 including Introduction, Biological Basis of Promoters, Classification of FSPs, Regulatory Mechanisms, Research Methods, Applications, and Conclusions; Tables 1–2 referenced; Figures 1–6 referenced but not provided
+- **Missing materials affecting confidence** Figures 1–6; Tables 1–2; full reference list; any supplementary data or appendices
+
+## Reviewer
+- **Overall assessment** This is a well-structured and comprehensive review of fruit-specific promoters, covering classification, regulatory mechanisms, methodologies, and applications. The proposed four-category classification is a useful conceptual framework. The manuscript is generally well-written and logically organized. However, several concerns limit the strength of the review: (1) the classification system, while practical, may oversimplify the diversity of FSP expression patterns; (2) some claims regarding regulatory mechanisms and applications lack sufficient critical depth or are presented without adequate caveats; (3) the discussion of epigenetic regulation, while present, is somewhat superficial given its importance; (4) the review would benefit from a more critical assessment of the limitations of current methodologies, particularly regarding the transferability of promoter function across species. These issues, while not fatal, should be addressed to strengthen the manuscript's contribution.
+- **Who would be interested in the results, and why** Plant molecular biologists, genetic engineers, and biotechnologists working on fruit crop improvement, particularly those interested in tissue-specific gene expression, promoter engineering, and synthetic biology approaches. The review provides a useful synthesis of current knowledge and identifies gaps, making it valuable for researchers designing expression constructs for fruit-specific traits, as well as for those studying transcriptional regulation during fruit development and ripening.
+- **Major strengths** (1) Comprehensive and systematic coverage of FSPs, from classification to applications; (2) the proposed four-category classification provides a practical framework for promoter selection; (3) good integration of recent advances, including MPRA, CRISPR/Cas9, and AI-assisted design; (4) clear discussion of regulatory mechanisms involving multiple TF families; (5) well-articulated future directions that connect basic research with translational applications.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Conceptual framework / classification
+    - **Claim pointer** The manuscript proposes a four-category classification of FSPs (green fruit-specific, ripening-specific, whole-development, dual-stage) as a practical framework.
+    - **Evidence pointer** Section 2.2; Table 1 (not provided)
+    - **Concern** The classification, while useful, may be overly rigid. The authors acknowledge that some promoters (e.g., SlAdh2) show continuous activity, yet they are placed in a specific category. The manuscript would benefit from a more explicit discussion of the boundaries between categories and the potential for promoters to exhibit context-dependent behavior that defies simple categorization. The classification should be presented as a heuristic tool rather than a strict taxonomy.
+    - **Why it matters** A rigid classification could mislead researchers in promoter selection, especially if real-world expression patterns are more nuanced. The review's practical value depends on the accuracy and flexibility of its organizing framework.
+    - **Resolution test** Add a paragraph in Section 2.2 explicitly discussing the limitations of the classification, including examples of promoters that show intermediate or context-dependent patterns, and clarify that categories are not mutually exclusive.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Depth of mechanistic discussion
+    - **Claim pointer** Section 3.3 discusses epigenetic regulation of FSP activity, including DNA methylation and histone modifications.
+    - **Evidence pointer** Section 3.3; Figure 3 (not provided)
+    - **Concern** The discussion of epigenetic regulation is relatively brief and descriptive. Given the importance of epigenetics in fruit ripening (e.g., DNA demethylation in tomato), the review would benefit from a deeper mechanistic discussion, including how epigenetic marks are established, maintained, and read, and how they interact with transcription factor networks. The current treatment is somewhat superficial.
+    - **Why it matters** Epigenetic regulation is a key layer of control for FSP activity, and a deeper discussion would enhance the review's value as a reference for researchers seeking to understand or manipulate FSPs.
+    - **Resolution test** Expand Section 3.3 to include specific examples of epigenetic regulatory mechanisms (e.g., DML2-mediated demethylation in tomato), discuss the interplay between DNA methylation and histone modifications, and address how epigenetic states are inherited or reset during development.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Critical assessment of cross-species applicability
+    - **Claim pointer** The manuscript discusses the potential of FSPs for cross-species applications, particularly in the context of synthetic promoters and plant bioreactors.
+    - **Evidence pointer** Sections 5.2, 5.3, 6.2
+    - **Concern** The review is somewhat optimistic about the transferability of FSPs across species. While examples like the use of tomato promoters in strawberry are mentioned, the manuscript does not critically discuss the known limitations of cross-species promoter function, such as differences in transcription factor repertoires, cis-element recognition, and epigenetic contexts. A more balanced discussion would strengthen the review.
+    - **Why it matters** Overstating cross-species applicability could lead to failed experiments and wasted resources. A critical assessment would help researchers anticipate challenges and design better experiments.
+    - **Resolution test** Add a subsection in Section 5 or 6 discussing known cases of FSP transfer failure or reduced activity across species, and analyze the likely causes (e.g., missing TFs, altered chromatin context). Provide recommendations for testing cross-species function.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Methodological rigor in promoter validation
+    - **Claim pointer** The manuscript describes various methods for validating FSP activity, including reporter gene assays, transient expression, and stable transformation.
+    - **Evidence pointer** Section 4.2; Figure 4 (not provided)
+    - **Concern** The review does not adequately address the limitations and potential artifacts of different validation methods. For example, transient expression assays may not accurately reflect stable expression patterns due to differences in chromatin context and silencing. The manuscript would benefit from a critical comparison of these methods and their suitability for different research questions.
+    - **Why it matters** Methodological choices significantly impact the interpretation of FSP activity. A critical discussion would help researchers select appropriate validation strategies and interpret results correctly.
+    - **Resolution test** Add a paragraph in Section 4.2 comparing the strengths and weaknesses of transient vs. stable expression assays, discussing potential artifacts (e.g., position effects, silencing), and providing guidance on when each method is most appropriate.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity of terminology
+    - **Affected element** Section 2.2, classification terms
+    - **Evidence pointer** Section 2.2
+    - **Issue** The term "green fruit-specific" is used, but "immature fruit-specific" is also mentioned in the abstract. Inconsistent terminology may confuse readers.
+    - **Required correction** Standardize terminology throughout the manuscript. Choose one term (e.g., "immature fruit-specific") and use it consistently.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness of figure references
+    - **Affected element** Figures 1–6
+    - **Evidence pointer** Sections 2.1, 2.2, 3, 4, 5, 6
+    - **Issue** Figures are referenced but not provided. It is unclear if they adequately support the text.
+    - **Required correction** Ensure all figures are provided and that they clearly illustrate the key concepts discussed in the text. Add detailed legends.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Reference accuracy
+    - **Affected element** Reference list
+    - **Evidence pointer** Throughout
+    - **Issue** Some references appear to be cited in a format inconsistent with the journal's style (e.g., "[1]", "[2]").
+    - **Required correction** Verify all citations follow the journal's reference format.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Redundancy
+    - **Affected element** Sections 6.1.3 and 6.1.4
+    - **Evidence pointer** Sections 6.1.3, 6.1.4
+    - **Issue** Sections 6.1.3 (Limitations of Native FSPs) and 6.1.4 (Biases of Heterologous Systems) overlap significantly with content in Section 5 and earlier parts of Section 6.1.
+    - **Required correction** Consolidate these sections to avoid redundancy and improve flow.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Missing discussion of economic/regulatory aspects
+    - **Affected element** Section 6.2.4
+    - **Evidence pointer** Section 6.2.4
+    - **Issue** The section on industrialization and standardization mentions regulatory frameworks but does not discuss economic considerations or intellectual property issues related to promoter use.
+    - **Required correction** Add a brief discussion of economic factors and IP considerations in the context of commercialization.
+- **Technical failings that need to be addressed before the case is established** None identified that would fundamentally undermine the review's conclusions. The concerns raised are primarily about depth and critical perspective rather than factual errors.
+- **Assessment against Nature-style criteria**
+    - **Originality** The review offers a new classification framework for FSPs, which is a useful contribution. However, much of the content synthesizes existing knowledge. The originality is moderate.
+    - **Scientific importance** FSPs are important tools in plant biotechnology, and a comprehensive, up-to-date review is valuable. The manuscript addresses a topic of significant interest to the plant science community.
+    - **Interdisciplinary readership** The topic is relevant to molecular biology, genetics, plant breeding, and biotechnology. The manuscript is accessible to a broad audience, though some sections are quite specialized.
+    - **Technical soundness** The technical content is generally accurate, but the review would benefit from a more critical and nuanced discussion of methodologies and cross-species applicability, as noted in the major concerns.
+    - **Readability for nonspecialists** The manuscript is well-written and logically structured. However, some sections (e.g., detailed TF families) may be challenging for nonspecialists. The abstract and introduction are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript provides a valuable and timely review of FSPs. Addressing the major concerns regarding classification flexibility, depth of mechanistic discussion, and critical assessment of cross-species applicability would significantly strengthen the manuscript. The minor comments should also be addressed to improve clarity and completeness.
+
+## Risk / unsupported claims
+- The claim that the proposed four-category classification is comprehensive and practical is not fully supported, as the boundaries between categories are not clearly defined and some promoters may not fit neatly into any single category.
+- The statement that synthetic promoters can be designed with "predefined expression profiles" (Section 6.2.1) is optimistic and not fully supported by current evidence, as predictive design remains challenging.
+- The claim that the CROCS strategy "resulted in a 33% increase in yield" (Sections 5.1, 6.2.3) is presented without critical discussion of the experimental context or potential limitations.
+- The assertion that "epigenetic regulation ensures that ripening-associated genes are activated only at the appropriate developmental stage" (Section 3.3.2) is an oversimplification; the relationship between epigenetic marks and gene activation is correlative in many cases, not strictly causal.
+- The review's claim that "single-cell resolution approaches will provide new insights into cell-type-specific regulatory mechanisms" (Section 6.2.1) is forward-looking but not yet supported by substantial published evidence in the context of FSPs.

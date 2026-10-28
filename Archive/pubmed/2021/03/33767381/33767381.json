@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "33767381",
+    "doi": "10.1038/s41401-021-00632-5",
+    "title": "Discovery of novel antagonists targeting the DNA binding domain of androgen receptor by integrated docking-based virtual screening and bioassays."
+  },
+  "content": {
+    "abstract": "Androgen receptor (AR), a ligand-activated transcription factor, is a master regulator in the development and progress of prostate cancer (PCa). A major challenge for the clinically used AR antagonists is the rapid emergence of resistance induced by the mutations at AR ligand binding domain (LBD), and therefore the discovery of novel anti-AR therapeutics that can combat mutation-induced resistance is quite demanding. Therein, blocking the interaction between AR and DNA represents an innovative strategy. However, the hits confirmed targeting on it so far are all structurally based on a sole chemical scaffold. In this study, an integrated docking-based virtual screening (VS) strategy based on the crystal structure of the DNA binding domain (DBD) of AR was conducted to search for novel AR antagonists with new scaffolds and 2-(2-butyl-1,3-dioxoisoindoline-5-carboxamido)-4,5-dimethoxybenzoicacid (Cpd39) was identified as a potential hit, which was competent to block the binding of AR DBD to DNA and showed decent potency against AR transcriptional activity. Furthermore, Cpd39 was safe and capable of effectively inhibiting the proliferation of PCa cell lines (i.e., LNCaP, PC3, DU145, and 22RV1) and reducing the expression of the genes regulated by not only the full-length AR but also the splice variant AR-V7. The novel AR DBD-ARE blocker Cpd39 could serve as a starting point for the development of new therapeutics for castration-resistant PCa.",
+    "keywords": [
+      "DNA binding domain",
+      "androgen receptor",
+      "antagonist",
+      "molecular docking",
+      "prostate cancer",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "Androgen Receptor Antagonists/chemistry/*pharmacology",
+      "Binding Sites/drug effects",
+      "DNA/*antagonists & inhibitors/chemistry",
+      "Dose-Response Relationship, Drug",
+      "*Drug Discovery",
+      "Drug Evaluation, Preclinical",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "Molecular Structure",
+      "Receptors, Androgen/chemistry/*metabolism",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pang, Jin-Ping",
+        "Shen, Chao",
+        "Zhou, Wen-Fang",
+        "Wang, Yun-Xia",
+        "Shan, Lu-Hu",
+        "Chai, Xin",
+        "Shao, Ying",
+        "Hu, Xue-Ping",
+        "Zhu, Feng",
+        "Zhu, Dan-Yan",
+        "Xiao, Li",
+        "Xu, Lei",
+        "Xu, Xiao-Hong",
+        "Li, Dan",
+        "Hou, Ting-Jun"
+      ],
+      "short_names": [
+        "Pang JP",
+        "Shen C",
+        "Zhou WF",
+        "Wang YX",
+        "Shan LH",
+        "Chai X",
+        "Shao Y",
+        "Hu XP",
+        "Zhu F",
+        "Zhu DY",
+        "Xiao L",
+        "Xu L",
+        "Xu XH",
+        "Li D",
+        "Hou TJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Institute of Cancer Research and Basic Medical Sciences of Chinese Academy of Sciences, Cancer Hospital of University of Chinese Academy of Sciences, Zhejiang Cancer Hospital, Hangzhou, 310022, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China.",
+        "School of Life Science, Huzhou University, Huzhou, 313000, China.",
+        "Institute of Bioinformatics and Medical Engineering, School of Electrical and Information Engineering, Jiangsu University of Technology, Changzhou, 213001, China.",
+        "Institute of Cancer Research and Basic Medical Sciences of Chinese Academy of Sciences, Cancer Hospital of University of Chinese Academy of Sciences, Zhejiang Cancer Hospital, Hangzhou, 310022, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. lidancps@zju.edu.cn.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. tingjunhou@zju.edu.cn.",
+        "State Key Lab of CAD & CG, Zhejiang University, Hangzhou, 310058, China. tingjunhou@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pang, Jin-Ping",
+        "short_name": "Pang JP",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Chao",
+        "short_name": "Shen C",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wen-Fang",
+        "short_name": "Zhou WF",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yun-Xia",
+        "short_name": "Wang YX",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Lu-Hu",
+        "short_name": "Shan LH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cancer Research and Basic Medical Sciences of Chinese Academy of Sciences, Cancer Hospital of University of Chinese Academy of Sciences, Zhejiang Cancer Hospital, Hangzhou, 310022, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Xin",
+        "short_name": "Chai X",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Ying",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xue-Ping",
+        "short_name": "Hu XP",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Feng",
+        "short_name": "Zhu F",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Dan-Yan",
+        "short_name": "Zhu DY",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Li",
+        "short_name": "Xiao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Huzhou University, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, School of Electrical and Information Engineering, Jiangsu University of Technology, Changzhou, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiao-Hong",
+        "short_name": "Xu XH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cancer Research and Basic Medical Sciences of Chinese Academy of Sciences, Cancer Hospital of University of Chinese Academy of Sciences, Zhejiang Cancer Hospital, Hangzhou, 310022, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. lidancps@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hou, Ting-Jun",
+        "short_name": "Hou TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, China. tingjunhou@zju.edu.cn.",
+          "State Key Lab of CAD & CG, Zhejiang University, Hangzhou, 310058, China. tingjunhou@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/27 06:00",
+    "fetched_at": "2026-09-27 15:00:49"
+  },
+  "links": {
+    "cites": [
+      "42686980",
+      "39767614",
+      "38779468",
+      "38481034",
+      "36845922",
+      "36555602",
+      "35110698"
+    ],
+    "refs": [
+      "31150574",
+      "30763142",
+      "30639122",
+      "30569509",
+      "30165195",
+      "29460925",
+      "29119376",
+      "28441481",
+      "26712685",
+      "26596171",
+      "26563462",
+      "25751142",
+      "25748911",
+      "25690850",
+      "25459660",
+      "25086042",
+      "25062331",
+      "25025737",
+      "24909511",
+      "24354286",
+      "24141628",
+      "23859952",
+      "23779130",
+      "23579614",
+      "23456430",
+      "23337756",
+      "23117885",
+      "23020876",
+      "22280402",
+      "21982300",
+      "21715386",
+      "21575859",
+      "21552559",
+      "20890287",
+      "20845529",
+      "20131845",
+      "19571010",
+      "19499576",
+      "19465456",
+      "19244107",
+      "19033363",
+      "18593950",
+      "17899391",
+      "17219378",
+      "16211539",
+      "16210365",
+      "15833816",
+      "15037741",
+      "15027865",
+      "14702632",
+      "12669025",
+      "12185249",
+      "11752248",
+      "11406412",
+      "11259830",
+      "10756480",
+      "10462204",
+      "9126849"
+    ],
+    "similar": [
+      "33767381",
+      "25062331",
+      "23278403",
+      "25086042",
+      "30639122",
+      "31755396",
+      "32114360",
+      "31437779",
+      "38481034",
+      "37193651",
+      "29914135",
+      "33756125",
+      "33801338",
+      "25933245",
+      "34809430",
+      "35077161",
+      "30030299",
+      "37139712",
+      "30482547",
+      "23436650",
+      "28757136",
+      "32734688",
+      "38626524",
+      "28851578",
+      "30165195",
+      "22924551",
+      "22151347",
+      "31493989",
+      "30193215",
+      "30925341",
+      "28667662",
+      "27140928",
+      "31502857",
+      "22798067",
+      "33741738",
+      "27765852",
+      "24565564",
+      "23270728",
+      "23939374",
+      "33391515",
+      "30711833",
+      "23023563",
+      "39053630",
+      "30228001",
+      "30629437",
+      "35058329",
+      "33470049",
+      "31804827",
+      "25646649",
+      "33676083",
+      "37375297",
+      "25008967",
+      "26780832",
+      "21712449",
+      "38750073",
+      "36587421",
+      "36479717",
+      "36639570",
+      "23611768",
+      "36720643",
+      "36139361",
+      "28978635",
+      "26957440",
+      "22496481",
+      "29993249",
+      "33672769",
+      "30109944",
+      "31469015",
+      "36154033",
+      "29903411",
+      "29733509",
+      "31092069",
+      "27179779",
+      "20030610",
+      "37545197",
+      "31805186",
+      "28528814",
+      "31928160",
+      "23722902",
+      "20823238",
+      "27246333",
+      "30410767",
+      "22645304",
+      "34506104",
+      "32560058",
+      "24726305",
+      "39340456",
+      "26295173",
+      "36577061",
+      "30615932",
+      "30318752",
+      "28024400",
+      "30565725",
+      "36031018",
+      "37209451",
+      "30828788",
+      "32169785",
+      "32100577",
+      "24909511",
+      "34354111",
+      "38991995",
+      "28512306",
+      "37493402",
+      "37806336",
+      "38537338",
+      "39111362",
+      "33938068",
+      "21149443",
+      "22047606",
+      "38604378",
+      "37365786",
+      "38661004",
+      "33124806",
+      "38831575",
+      "24900588",
+      "29867496",
+      "38206742",
+      "25111804",
+      "37929144"
+    ],
+    "review": [
+      "33767381",
+      "39053630",
+      "36587421",
+      "33672769",
+      "29733509",
+      "31092069",
+      "20030610",
+      "30565725",
+      "32100577",
+      "24909511",
+      "39111362",
+      "21149443"
+    ],
+    "pmc": [
+      "8724294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41401-021-00632-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33767381/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33767381",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/33767381",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33767381",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33767381",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

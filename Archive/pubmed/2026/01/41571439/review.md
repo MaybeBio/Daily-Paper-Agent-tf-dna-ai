@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that blocky proline/glutamine (P/Q) patterns within the intrinsically disordered region (IDR) of SFPQ, conserved from humans to zebrafish, are required for segregating paraspeckles from nuclear speckles, and that this property is distinct from the conventional phase separation-promoting function of IDRs. They further suggest that BRD4 IDR, sharing sequence similarity with SFPQ IDR, exhibits comparable segregation activity, and that molecular dynamics simulation indicates the PQ-blocky patterns do not correlate with IDR characteristics necessary for self-assembly.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, experimental details for paraspeckle segregation analyses, mutant construction and validation, sequence conservation analysis, molecular dynamics simulation parameters and results, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding a sequence-level feature, blocky P/Q patterns, as a determinant of membraneless organelle independence. However, the evidence base is limited to a summary of findings without access to the underlying data. The central claims, particularly the mechanistic distinction from conventional phase separation and the functional equivalence of BRD4 IDR, cannot be adequately evaluated from the supplied material. The work may be of interest to the phase separation and nuclear body communities, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying membraneless organelles, phase separation, intrinsically disordered proteins, nuclear body organization, and RNA-binding proteins such as SFPQ and NEAT1_2. The proposed role of sequence patterning in organelle identity could inform broader understanding of IDR function beyond simple composition.
+- **Major strengths** The study addresses a timely and important question regarding how MLOs maintain spatial independence. The focus on sequence patterning, rather than mere amino acid composition, is a conceptually valuable angle. The use of cross-species conservation and a candidate comparison with BRD4 adds potential generalizability.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that P/Q residues within the SFPQ IDR are crucial for segregation activity and that blocky patterns are required for segregation from nuclear speckles.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that "paraspeckle segregation analyses" using SFPQ mutants revealed the importance of P/Q residues and blocky patterns, but no experimental details, quantification, or statistical support are provided. It is unclear how segregation was measured, what controls were used, or how mutant phenotypes were distinguished from wild-type activity.  
+  - **Why it matters** Without access to the experimental design and quantitative results, the central functional claim cannot be verified. The distinction between composition and patterning effects requires rigorous mutant series and appropriate controls, which are not visible here.  
+  - **Resolution test** Provide full methods and results for the segregation assays, including mutant constructs, quantification of paraspeckle versus nuclear speckle localization, statistical comparisons, and demonstration that effects are specific to patterning rather than overall composition.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The authors claim that molecular dynamics simulation suggests PQ-blocky patterns do not correlate with IDR characteristics necessary for self-assembly, implying a mechanism distinct from conventional phase separation.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The simulation result is described in a single sentence without details on the simulation system, force field, order parameters, or how "IDR characteristics necessary for self-assembly" were defined and assessed. The negative correlation claim is central to the proposed mechanistic novelty but is not substantiated.  
+  - **Why it matters** The claim of a distinct mechanism is a key contribution of the study. If the simulation evidence is weak or the metrics are not well aligned with phase separation behavior, the conclusion would be unsupported.  
+  - **Resolution test** Provide simulation methods, definitions of self-assembly-related characteristics, and quantitative comparisons between PQ-blocky and non-blocky IDR variants. Show that the simulation approach is validated against known phase separation behavior.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors claim that BRD4 IDR shows strong sequence similarity to SFPQ IDR and exhibits comparable segregation activity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The basis for "strong sequence similarity" and "comparable segregation activity" is not described. It is unclear whether this is a single example or part of a broader survey, and whether the comparison is quantitative or qualitative.  
+  - **Why it matters** The generalizability of the PQ-block pattern as a determinant of MLO independence depends on demonstrating that the feature is predictive across multiple IDRs. A single example, without clear criteria, limits the strength of the claim.  
+  - **Resolution test** Provide sequence alignment or similarity scores, define the criteria for "comparable" activity, and ideally include additional IDR examples to support the general claim.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "blocky patterns"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "blocky patterns" is used without a precise operational definition. It is unclear how blockiness is quantified or distinguished from other sequence features.  
+  - **Required correction** Define blockiness explicitly, for example, by describing the size, spacing, and repetition of P/Q-rich blocks, and how this was computationally or experimentally determined.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Conservation analysis  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The claim that P/Q residues are conserved from humans to zebrafish is stated but not supported with alignment data or statistical significance.  
+  - **Required correction** Provide sequence alignment or conservation scores, and specify the species compared and the method used to assess conservation.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "distinct membraneless organelle"  
+  - **Evidence pointer** Title and abstract; location not provided  
+  - **Issue** The title emphasizes paraspeckles as a "distinct membraneless organelle," but the abstract does not clarify how this distinctness is defined beyond segregation from nuclear speckles.  
+  - **Required correction** Clarify the criteria for organelle distinctness and whether the study addresses broader organelle identity or only spatial segregation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core functional and mechanistic claims are not evaluable from the abstract alone. R1-M3 is non-blocking but requires additional evidence to support generalizability.
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on sequence patterning, specifically blocky P/Q arrangements, as a determinant of organelle independence is a novel angle that could offer new insights into IDR function. However, the conceptual advance is not fully established without mechanistic detail.  
+  - Scientific importance: The question of how MLOs maintain identity and avoid fusion is of broad significance in cell biology. If substantiated, the findings could inform models of organelle organization. The current evidence is insufficient to assess the magnitude of the contribution.  
+  - Interdisciplinary readership: The topic bridges cell biology, biophysics, and computational biology, and could appeal to a broad audience. The abstract is written in a way that is accessible to nonspecialists, though technical terms such as "PQ-blocky patterns" require clearer definition.  
+  - Technical soundness: Not assessable from the abstract. The lack of methods and quantitative results prevents evaluation of experimental rigor, simulation validity, and statistical support.  
+  - Readability for nonspecialists: The abstract is generally clear and logically structured, but the mechanistic distinction and the significance of blocky patterns would benefit from more explicit explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and potentially significant, but the abstract alone does not provide sufficient detail to validate the central claims. A supportive stance would require access to the full manuscript, particularly the experimental and simulation methods and results.
+
+## Risk / unsupported claims
+- The claim that P/Q residues are crucial for segregation activity is unsupported without experimental details and quantification.
+- The claim that blocky patterns, rather than composition, are required for segregation is unsupported without a clear mutant series and statistical analysis.
+- The claim that BRD4 IDR exhibits comparable segregation activity is unsupported without defined comparison criteria.
+- The claim that PQ-blocky patterns do not correlate with self-assembly characteristics is unsupported without simulation details and validation.
+- The claim of a mechanism distinct from conventional phase separation is not established from the provided evidence.

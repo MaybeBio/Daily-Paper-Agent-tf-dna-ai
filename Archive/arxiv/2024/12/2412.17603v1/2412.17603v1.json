@@ -1,0 +1,45 @@
+{
+  "source": "arxiv",
+  "source_id": "2412.17603v1",
+  "title": "EasyTime: Time Series Forecasting Made Easy",
+  "doi": "",
+  "abstract": "Time series forecasting has important applications across diverse domains. EasyTime, the system we demonstrate, facilitates easy use of time-series forecasting methods by researchers and practitioners alike. First, EasyTime enables one-click evaluation, enabling researchers to evaluate new forecasting methods using the suite of diverse time series datasets collected in the preexisting time series forecasting benchmark (TFB). This is achieved by leveraging TFB's flexible and consistent evaluation pipeline. Second, when practitioners must perform forecasting on a new dataset, a nontrivial first step is often to find an appropriate forecasting method. EasyTime provides an Automated Ensemble module that combines the promising forecasting methods to yield superior forecasting accuracy compared to individual methods. Third, EasyTime offers a natural language Q&A module leveraging large language models. Given a question like \"Which method is best for long term forecasting on time series with strong seasonality?\", EasyTime converts the question into SQL queries on the database of results obtained by TFB and then returns an answer in natural language and charts. By demonstrating EasyTime, we intend to show how it is possible to simplify the use of time series forecasting and to offer better support for the development of new generations of time series forecasting methods.",
+  "authors": [
+    "Xiangfei Qiu",
+    "Xiuwen Li",
+    "Ruiyang Pang",
+    "Zhicheng Pan",
+    "Xingjian Wu",
+    "Liu Yang",
+    "Jilin Hu",
+    "Yang Shu",
+    "Xuesong Lu",
+    "Chengcheng Yang",
+    "Chenjuan Guo",
+    "Aoying Zhou",
+    "Christian S. Jensen",
+    "Bin Yang"
+  ],
+  "published_date": "2024-12-23T14:22:02Z",
+  "updated_date": "2024-12-23T14:22:02Z",
+  "journal": "",
+  "category": "cs.LG, stat.ML",
+  "landing_url": "https://arxiv.org/abs/2412.17603v1",
+  "pdf_url": "https://arxiv.org/pdf/2412.17603v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2412.17603v1",
+    "raw_categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "journal_ref": ""
+  }
+}

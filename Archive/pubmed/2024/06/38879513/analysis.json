@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38879513",
+  "title": "CPMI: comprehensive neighborhood-based perturbed mutual information for identifying critical states of complex biological processes.",
+  "authors": "Ren, Jing; Li, Peiluan; Yan, Jinling",
+  "journal": "BMC bioinformatics",
+  "published_date": "2024-06-16",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 3,
+  "one_liner_zh": "提出基于邻域扰动互信息的临界状态检测方法，虽涉及转录因子调控但核心是基因表达动态网络，非蛋白质-DNA互作建模，且无AI/物理模拟方法。",
+  "abstract": "BACKGROUND: There exists a critical transition or tipping point during the complex biological process. Such critical transition is usually accompanied by the catastrophic consequences. Therefore, hunting for the tipping point or critical state is of significant importance to prevent or delay the occurrence of catastrophic consequences. However, predicting critical state based on the high-dimensional small sample data is a difficult problem, especially for single-cell expression data. RESULTS: In this study, we propose the comprehensive neighbourhood-based perturbed mutual information (CPMI) method to detect the critical states of complex biological processes. The CPMI method takes into account the relationship between genes and neighbours, so as to reduce the noise and enhance the robustness. This method is applied to a simulated dataset and six real datasets, including an influenza dataset, two single-cell expression datasets and three bulk datasets. The method can not only successfully detect the tipping points, but also identify their dynamic network biomarkers (DNBs). In addition, the discovery of transcription factors (TFs) which can regulate DNB genes and nondifferential 'dark genes' validates the effectiveness of our method. The numerical simulation verifies that the CPMI method is robust under different noise strengths and is superior to the existing methods on identifying the critical states. CONCLUSIONS: In conclusion, we propose a robust computational method, i.e., CPMI, which is applicable in both the bulk and single cell datasets. The CPMI method holds great potential in providing the early warning signals for complex biological processes and enabling early disease diagnosis.",
+  "abstract_zh": "背景：在复杂的生物过程中存在一个临界转变或临界点。这种临界转变通常伴随着灾难性后果。因此，寻找临界点或临界状态对于预防或延迟灾难性后果的发生具有重要意义。然而，基于高维小样本数据预测临界状态是一个难题，尤其是对于单细胞表达数据。结果：在本研究中，我们提出了基于综合邻域的扰动互信息（CPMI）方法来检测复杂生物过程的临界状态。CPMI方法考虑了基因与邻域之间的关系，从而减少噪声并增强鲁棒性。该方法应用于一个模拟数据集和六个真实数据集，包括一个流感数据集、两个单细胞表达数据集和三个批量数据集。该方法不仅能成功检测临界点，还能识别其动态网络生物标志物（DNBs）。此外，发现能够调控DNB基因和非差异“暗基因”的转录因子（TFs）验证了我们方法的有效性。数值模拟证实，CPMI方法在不同噪声强度下具有鲁棒性，并且在识别临界状态方面优于现有方法。结论：总之，我们提出了一种鲁棒的计算方法，即CPMI，适用于批量数据集和单细胞数据集。CPMI方法在为复杂生物过程提供早期预警信号和实现早期疾病诊断方面具有巨大潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38879513/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38879513/",
+  "paper_page_path": "papers/pubmed/38879513/index.html"
+}

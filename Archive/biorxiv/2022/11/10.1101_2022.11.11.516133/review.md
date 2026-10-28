@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or data are available for verification
+- **Shared manuscript claim summary** The authors introduce Pioneer-seq, a method to quantify transcription factor (TF) binding to nucleosomes containing thousands of DNA sequences with TF binding sites in all possible orientations. They apply it to OCT4, SOX2, KLF4, and c-MYC, and report that KLF4 and SOX2 can bind near the nucleosome dyad, with nucleosome sequence being the major factor regulating TF binding across all studied TFs.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods details, experimental replicates, statistical analyses, raw data, and validation experiments are absent. The abstract provides no quantitative results, controls, or comparative benchmarks.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological advance in studying TF-nucleosome interactions, but the evidence base is too limited to evaluate the validity, robustness, or novelty of the claims. The central findings, particularly the dyad-binding behavior of KLF4 and SOX2 and the dominant role of nucleosome sequence, are stated without supporting data. The manuscript may be of interest to chromatin biology and gene regulation researchers, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying transcription factor binding in chromatin contexts, nucleosome dynamics, and gene regulation. The method could appeal to those investigating pioneer factors and chromatin accessibility, as it offers a high-throughput approach to assess TF binding across nucleosome orientations and sequences.
+- **Major strengths** The proposed method addresses a relevant gap in studying TF binding within nucleosomal contexts, which is technically challenging. The design of a nucleosome library with all possible orientations is conceptually sound and could provide systematic insights. The choice of four well-studied TFs, including known pioneer factors, is appropriate for demonstration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that Pioneer-seq can comprehensively examine TF nucleosome binding and that results demonstrate specific binding behaviors.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No methodological details are provided to assess the validity of Pioneer-seq. Key parameters such as nucleosome reconstitution efficiency, binding specificity controls, quantification methods, and normalization are absent. Without these, the reliability of the binding measurements cannot be evaluated.
+  - **Why it matters** The core claim of the method depends on accurate and specific detection of TF-nucleosome complexes. If the method cannot distinguish specific from nonspecific binding or if nucleosome positioning is not controlled, the results would be uninterpretable.
+  - **Resolution test** Provide a detailed methods section including nucleosome library construction, TF binding conditions, isolation and quantification steps, and appropriate negative controls. Include validation experiments showing that the method recovers known TF binding preferences and that nucleosome integrity is maintained.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that KLF4 and SOX2 can bind close to the nucleosome dyad and that nucleosome sequence is the major factor regulating TF binding across all studied TFs.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The findings are stated as conclusions but no quantitative data, statistical comparisons, or effect sizes are presented. The claim that nucleosome sequence is the "major factor" requires a comparative analysis of sequence versus other variables, such as TF identity or binding site position, which is not shown.
+  - **Why it matters** These are the primary biological conclusions of the study. Without supporting data, the claims are unsupported and cannot be assessed for significance or novelty. The relative importance of sequence versus other factors is a key question that requires rigorous quantification.
+  - **Resolution test** Present data showing binding affinities or enrichment scores for each TF across nucleosome positions and sequences, with statistical tests comparing the influence of sequence, position, and TF identity. Provide effect sizes and confidence intervals to support the "major factor" claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The abstract implies that Pioneer-seq is a novel method for comprehensive TF nucleosome binding analysis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not compare Pioneer-seq to existing methods, such as nucleosome affinity purification or high-throughput sequencing approaches for TF-nucleosome interactions. Without a comparative context, the novelty and advantage of the method are unclear.
+  - **Why it matters** For a methods paper, establishing novelty relative to prior work is essential. If similar approaches exist, the contribution may be incremental rather than original.
+  - **Resolution test** Include a discussion of prior methods and demonstrate specific advantages of Pioneer-seq, such as throughput, resolution, or applicability to diverse TFs. Provide a direct comparison with an existing method using the same TFs or sequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "all possible nucleosome orientations" is vague and could be misinterpreted. It is unclear whether this refers to rotational positioning, translational positioning, or both.
+  - **Required correction** Define "orientation" explicitly in the abstract or methods, specifying the range of positions and rotational settings tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that the protein-nucleosome complex is "isolated and quantified" but does not specify the quantification method, such as sequencing or mass spectrometry.
+  - **Required correction** Specify the quantification approach in the abstract or methods to allow assessment of data type and resolution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract focuses on four TFs but does not state whether the findings are expected to generalize to other TFs or whether these TFs were chosen for specific reasons.
+  - **Required correction** Clarify the selection criteria for the TFs and discuss potential generalizability or limitations in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, quantitative results, and comparative context prevents evaluation of the method's validity and the biological claims.
+- **Assessment against Nature-style criteria** Originality: The concept of a systematic nucleosome library for TF binding is potentially original, but this cannot be confirmed without comparison to prior work. Scientific importance: The question of TF binding to nucleosomes is significant, but the claims are not substantiated. Interdisciplinary readership: The topic may appeal to molecular biology, genomics, and chromatin researchers, but the abstract is too brief to engage a broad audience. Technical soundness: Not assessable from the abstract alone; critical details are missing. Readability for nonspecialists: The abstract is concise but uses jargon without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising method and interesting hypotheses, but the lack of data and methodological detail means the claims cannot be verified. A full manuscript with rigorous validation and quantitative analysis would be required to assess the contribution.
+
+## Risk / unsupported claims
+- The claim that KLF4 and SOX2 can bind close to the nucleosome dyad is unsupported without quantitative binding data.
+- The claim that nucleosome sequence is the major factor regulating TF binding across all studied TFs is unsupported without comparative statistical analysis.
+- The novelty and utility of Pioneer-seq as a method are unassessable without comparison to existing techniques or validation data.

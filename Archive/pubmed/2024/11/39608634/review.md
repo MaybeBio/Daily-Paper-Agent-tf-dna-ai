@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that a screen of 50,000 compounds identified 93 novel agonists of the Drosophila juvenile hormone receptor (JHR) components GCE/MET, that 26% of these compounds also modulated human aryl hydrocarbon receptor (AHR) signaling, and that molecular dynamics modeling plus site-directed mutagenesis revealed ligand-specific and conserved interactions in the ligand-binding cavities of AHR and GCE. The authors conclude that synthetic insect juvenile hormone agonists might interfere with AHR signaling in human cells.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, chemical structures of hit compounds, assay protocols, statistical methods, mutagenesis details, molecular dynamics parameters, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting cross-species pharmacological observation with relevance to endocrine disruption and insecticide safety. The finding that a subset of JHR agonists also modulate AHR signaling is novel and could have practical implications. However, the abstract provides insufficient methodological detail to evaluate the robustness of the screen, the specificity of the reporter assays, the criteria for defining "agonists," or the quality of the molecular dynamics and mutagenesis data. The central claim of overlap between JHR and AHR agonist repertoires is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in insect endocrinology and insecticide toxicology would be interested in the identification of novel JHR agonists. Environmental health scientists and toxicologists studying endocrine disruptors and AHR signaling would be interested in the potential cross-reactivity of insect growth regulators with human AHR. The work may also attract those studying bHLH-PAS family receptor evolution and ligand-binding mechanisms.
+- **Major strengths** The question of whether JHR agonists can affect human AHR signaling is timely and under-explored. The use of a large chemical library screen (50,000 compounds) is a reasonable approach for identifying novel agonists. The combination of reporter assays, molecular dynamics, and mutagenesis provides a multi-pronged strategy to address both pharmacological and structural aspects.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that 93 novel JHR agonists were identified and that 26% of these modulated AHR signaling.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the criteria used to define an "agonist" in either the Drosophila JHR or human AHR reporter assays. No information is given on dose-response relationships, potency thresholds, efficacy cutoffs, or whether the AHR modulation was agonistic, antagonistic, or both. The term "modulated" is ambiguous and could encompass suppression or potentiation rather than direct activation.
+  - **Why it matters** Without clear and consistent definitions of agonist activity across the two assays, the reported 26% overlap cannot be interpreted. If the AHR response was measured at a single concentration or with a weak effect size, the biological significance of the overlap would be questionable. The central conclusion of the paper depends on this quantitative comparison.
+  - **Resolution test** The authors should provide explicit criteria for hit identification in both screens, including concentration used, fold-induction threshold, statistical significance, and whether AHR modulation was confirmed as agonism through dose-response and specificity controls (for example, using AHR antagonists or AHR-null cells).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics modeling revealed ligand-specific and conserved side chains within the ligand-binding cavities of AHR and GCE, and that site-directed mutagenesis supported the significance of predicted interactions.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are provided on the molecular dynamics methodology, including force fields, simulation times, system setup, or how ligand-binding cavities were defined. The mutagenesis data are described only as "supporting" the predictions, but no information is given on which residues were mutated, what functional readouts were used, or how the mutant phenotypes correlated with the modeling predictions.
+  - **Why it matters** Molecular dynamics predictions are only as reliable as their validation. Without specifics on the simulation parameters and the mutagenesis strategy, the reader cannot assess whether the structural conclusions are robust or whether the mutagenesis results are consistent with the model. This is critical for the claim that the two receptors share conserved activation mechanisms.
+  - **Resolution test** The authors should provide details of the simulation protocols, the selection criteria for residues targeted by mutagenesis, the functional assays used to test mutant receptors, and a quantitative comparison between predicted and observed effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract concludes that synthetic insect juvenile hormone agonists might interfere with AHR signaling in human cells.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify which of the 93 JHR agonists were tested in the AHR assay, whether the active compounds represent a chemically diverse set or a single scaffold, or whether the effective concentrations for AHR modulation are within a range relevant to human exposure from insecticide use.
+  - **Why it matters** The public health implication of the conclusion depends on whether the AHR-active compounds are representative of commercial insecticides or are only laboratory curiosities. If the active compounds are not used in practice or require unrealistically high concentrations, the practical relevance is limited.
+  - **Resolution test** The authors should list the chemical classes of the AHR-modulating compounds, compare their potencies to known AHR ligands, and discuss whether any are used as commercial insecticides or are structurally related to such compounds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract assumes familiarity with the bHLH-PAS family and the roles of GCE and MET without briefly explaining why these proteins are relevant beyond Drosophila.
+  - **Required correction** Add one sentence clarifying that GCE and MET are functional homologs of the JHR in Drosophila and that JHR is the insect counterpart of nuclear hormone receptors in vertebrates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Screen description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that 93 agonists were identified from 50,000 compounds but does not indicate the hit rate relative to known JHR agonists or whether any known agonists were included as positive controls.
+  - **Required correction** Mention whether known JHR agonists were used as controls and whether the hit rate is consistent with previous screens.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "might interfere" is appropriately cautious but the abstract does not discuss whether the observed AHR modulation is likely to be toxicologically meaningful in vivo.
+  - **Required correction** Add a brief statement on the potential physiological relevance, such as whether the effective concentrations are achievable in human tissues or whether the compounds are known to bioaccumulate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of agonist overlap and structural conservation cannot be evaluated without methodological detail. R1-M3 is important for contextualizing the significance but is not strictly blocking.
+- **Assessment against Nature-style criteria** 
+  - Originality: The cross-species comparison of JHR and AHR agonist repertoires is a novel angle, though the underlying concept of ligand-binding promiscuity in bHLH-PAS receptors is not entirely new.
+  - Scientific importance: Potentially high for insecticide safety and endocrine disruption research, but the current abstract does not establish the practical relevance.
+  - Interdisciplinary readership: The topic bridges insect toxicology, human toxicology, and structural biology, which could attract a broad audience if the evidence is compelling.
+  - Technical soundness: Not assessable from the abstract; the lack of methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but could benefit from a brief explanation of the biological context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the lack of experimental detail prevents verification of the central claims. I would be supportive if the technical concerns regarding assay definitions, molecular dynamics methodology, and mutagenesis validation are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that 26% of JHR agonists modulate AHR signaling is unsupported without defined activity criteria and dose-response data.
+- The claim that molecular dynamics and mutagenesis revealed conserved activation mechanisms is unsupported without simulation parameters and mutagenesis details.
+- The conclusion that synthetic JHR agonists might interfere with AHR signaling in human cells is speculative without concentration relevance or chemical identity of the active compounds.
+- The novelty of the 93 JHR agonists cannot be assessed without comparison to known JHR agonist scaffolds.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41053815",
+  "title": "Cisformer: a scalable cross-modality generation framework for decoding transcriptional regulation at single-cell resolution.",
+  "authors": "Ji, Luzhang; Zou, Qihang; Tang, Ke; Wang, Chenfei",
+  "journal": "Genome biology",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于交叉注意力的生成模型Cisformer，在单细胞分辨率下实现基因表达与染色质可及性跨模态生成，并利用可解释性关联顺式调控元件与靶基因、识别功能转录因子，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Single-cell multiomic technologies enable the joint analysis of different modalities, but face challenges due to experimental complexity. Current computational methods for single-cell cross-modality translation lack biological interpretability. Here, we present Cisformer, a cross-attention-based generative model tailored for cross-modality generation between gene expression and chromatin accessibility at single-cell resolution. Systematic benchmarking demonstrates the superior accuracy and generalization of Cisformer against existing methods. Cisformer leverages its inherent interpretability to precisely link cis-regulatory elements to target genes, facilitating the identification of functional transcription factors associated with tumorigenesis and aging. Overall, Cisformer is a powerful tool for single-cell multiomic data analysis.",
+  "abstract_zh": "单细胞多组学技术能够实现对不同模态的联合分析，但面临实验复杂性带来的挑战。当前用于单细胞跨模态翻译的计算方法缺乏生物学可解释性。在此，我们介绍了Cisformer，一种基于交叉注意力的生成模型，专门用于在单细胞分辨率下实现基因表达与染色质可及性之间的跨模态生成。系统性基准测试表明，Cisformer在准确性和泛化能力上优于现有方法。Cisformer利用其固有的可解释性，精确地将顺式调控元件与靶基因联系起来，有助于识别与肿瘤发生和衰老相关的功能性转录因子。总体而言，Cisformer是单细胞多组学数据分析的强大工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41053815/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41053815/",
+  "paper_page_path": "papers/pubmed/41053815/index.html"
+}

@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "39141804",
+    "doi": "10.1021/acs.jctc.4c00541",
+    "title": "Deciphering the Mystery in p300 Taz2-p53 TAD2 Recognition."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) engage in various fundamental biological activities, and their behavior is of particular importance for a better understanding of the verbose but well-organized signal transduction in cells. IDPs exhibit uniquely paradoxical features with low affinity but simultaneously high specificity in recognizing their binding targets. The transcription factor p53 plays a crucial role in cancer suppression, carrying out some of its biological functions using its disordered regions, such as N-terminal transactivation domain 2 (TAD2). Exploration of the binding and unbinding processes between proteins is challenging, and the inherently disordered properties of these regions further complicate the issue. Computer simulations are a powerful tool to complement the experiments to fill gaps to explore the binding/unbinding processes between proteins. Here, we investigated the binding mechanism between p300 Taz2 and p53 TAD2 through extensive molecular dynamics (MD) simulations using the physics-based UNited RESidue (UNRES) force field with additional Go̅-like potentials. Distance restraints extracted from the NMR-resolved structures were imposed on intermolecular residue pairs to accelerate binding simulations, in which Taz2 was immobilized in a native-like conformation and disordered TAD2 was fully free. Starting from six structures with TAD2 placed at different positions around Taz2, we observed a metastable intermediate state in which the middle helical segment of TAD2 is anchored in the binding pocket, highlighting the significance of the TAD2 helix in directing protein recognition. Physics-based binding simulations show that successful binding is achieved after a series of stages, including (1) protein collisions to initiate the formation of encounter complexes, (2) partial attachment of TAD2, and finally (3) full attachment of TAD2 to the correct binding pocket of Taz2. Furthermore, machine-learning-based PathDetect-SOM was used to identify two binding pathways, the encounter complexes, and the intermediate states.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tongtong",
+        "Motta, Stefano",
+        "He, Yi"
+      ],
+      "short_names": [
+        "Li T",
+        "Motta S",
+        "He Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-9724-7418",
+        "ORCID: 0000-0002-0812-6834",
+        "ORCID: 0000-0002-6884-5312"
+      ],
+      "affiliations": [
+        "Department of Chemistry & Chemical Biology, The University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+        "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan 20126, Italy.",
+        "Department of Chemistry & Chemical Biology, The University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+        "Translational Informatics Division, Department of Internal Medicine, The University of New Mexico, Albuquerque, New Mexico 87131, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tongtong",
+        "short_name": "Li T",
+        "identifiers": [
+          "0009-0001-9724-7418"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Chemical Biology, The University of New Mexico, Albuquerque, New Mexico 87131, United States."
+        ]
+      },
+      {
+        "full_name": "Motta, Stefano",
+        "short_name": "Motta S",
+        "identifiers": [
+          "0000-0002-0812-6834"
+        ],
+        "affiliations": [
+          "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan 20126, Italy."
+        ]
+      },
+      {
+        "full_name": "He, Yi",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0002-6884-5312"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Chemical Biology, The University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+          "Translational Informatics Division, Department of Internal Medicine, The University of New Mexico, Albuquerque, New Mexico 87131, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Aug 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/14 22:51",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39141804",
+      "36032526",
+      "25753752",
+      "26742101",
+      "32592801",
+      "25216154",
+      "22807444",
+      "32098872",
+      "23912807",
+      "19166313",
+      "29537020",
+      "26976603",
+      "31248328",
+      "25451029",
+      "22280219",
+      "21541066",
+      "19217391",
+      "23300815",
+      "19966416",
+      "37353163",
+      "25004968",
+      "25207671",
+      "32323533",
+      "17438265",
+      "19651603",
+      "31241933",
+      "36827446",
+      "23796514",
+      "34905914",
+      "22253588",
+      "38916177",
+      "21766125",
+      "35856925",
+      "31797597",
+      "34787057",
+      "36358908",
+      "35146445",
+      "11023789",
+      "32925900",
+      "15641773",
+      "36084124",
+      "19220000",
+      "29990433",
+      "18391200",
+      "37752231",
+      "24589355",
+      "32859072",
+      "36380579",
+      "33984364",
+      "30420502",
+      "26195786",
+      "21278418",
+      "33382616",
+      "19819244",
+      "23313430",
+      "19357310",
+      "28448138",
+      "34845619",
+      "24043820",
+      "25591003",
+      "31521329",
+      "19747922",
+      "30250773",
+      "35749260",
+      "18160537",
+      "21450828",
+      "19216110",
+      "30988205",
+      "36963539",
+      "28554553",
+      "27699893",
+      "37607621",
+      "29907037",
+      "30840442",
+      "36083825",
+      "36690674",
+      "29105754",
+      "33598107",
+      "30865832",
+      "33078950",
+      "38275091",
+      "32053358",
+      "35310482",
+      "36164647",
+      "30528464",
+      "19214187",
+      "38294935",
+      "20962272",
+      "28355271",
+      "26153298",
+      "16852728",
+      "17201450",
+      "28597880",
+      "30514761",
+      "31441158",
+      "20166738",
+      "24211251"
+    ],
+    "review": [
+      "39141804",
+      "28554553",
+      "30840442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/10281/520024",
+        "provider": "Bicocca Open Archive UniMiB(BOA) - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c00541",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

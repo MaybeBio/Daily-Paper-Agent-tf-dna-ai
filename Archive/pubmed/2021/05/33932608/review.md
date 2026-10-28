@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion. No supplementary figures or tables were provided for review.
+- **Assessment boundary** The review assesses the scientific claims, methodological soundness, and evidence quality presented in the manuscript. It does not assess the editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors report the identification of novel small-molecule inhibitors of STAT3 using structure-based virtual ligand screening (SB-VLS) that incorporates SH2 domain flexibility via molecular dynamics (MD) simulations. They claim that this approach, using an averaged MD-derived receptor structure, identified compounds with favorable drug-like properties and potency in cellular assays, and that these compounds are uncharged, unlike previously identified STAT3 inhibitors.
+- **Visible evidence base** The manuscript text includes descriptions of docking studies, MD simulations, virtual screening of 110,000 compounds, in vitro assays (SPR, Luminex, cell growth), and chemical reactivity assays. Results are presented in Figures 1-5 and Supplemental Tables 1-6, but none of these figures or tables were provided in the submitted material.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are missing. This includes the chemical structures of the hit compounds, dose-response curves, SPR sensorgrams, MD simulation data, and the detailed docking poses. Without these, the quantitative results and the structural basis of the claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting approach to STAT3 inhibitor discovery by incorporating SH2 domain flexibility into virtual screening. The concept is sound and the workflow is logical. However, the evidence provided in the text alone is insufficient to fully evaluate the validity of the claims. The key data, including the chemical structures, quantitative assay results, and structural analyses, are all in the missing figures and tables. The claims of novelty and the proposed advantage of the "induced-active site" strategy are plausible but not fully substantiated from the provided material. The manuscript would benefit from a clearer presentation of the hit compounds' structures and a more direct comparison with previously identified inhibitors.
+- **Who would be interested in the results, and why** Researchers in the fields of cancer biology, drug discovery, and medicinal chemistry would be interested. Specifically, those working on STAT3 signaling, transcription factor inhibitors, and structure-based drug design would find the approach and the identified compounds relevant. The potential for new, uncharged inhibitors of a challenging target like STAT3 is of broad interest to the drug development community.
+- **Major strengths**
+  - The study addresses a significant problem: the difficulty in developing drug-like inhibitors of the STAT3 SH2 domain.
+  - The methodological approach of using MD-averaged structures to account for protein flexibility in virtual screening is a rational and potentially valuable strategy.
+  - The authors have performed a comprehensive in vitro validation cascade, from biochemical binding (SPR) to cellular pathway inhibition and phenotypic assays.
+  - The identification of uncharged inhibitors is a potentially important advance, as charged compounds often have poor cell permeability.
+  - The authors have taken steps to rule out a non-specific mechanism of action (Michael acceptor alkylation) for their lead compounds.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim to have identified "two lead hits with good activity and favorable drug-like properties" and that these compounds are "uncharged."
+  - **Evidence pointer** Table 1, Figure 3, Supplemental Figure 2, Supplemental Table 4 (location not provided)
+  - **Concern** The core claim of identifying potent, drug-like inhibitors rests entirely on data presented in figures and tables that were not provided. The chemical structures of the lead compounds (SPEC-29 and SPEC-8) are not shown in the text. The IC50 values for inhibition of pY-STAT3 and cell growth are only mentioned in the text (e.g., 2.7-34.5 μM) but the dose-response curves and statistical analysis are not visible. The assessment of "drug-like properties" based on Lipinski's rules is mentioned but the actual property calculations are not shown.
+  - **Why it matters** Without the structures and the primary data, it is impossible to assess the chemical novelty of the compounds, the accuracy of the reported potencies, or the validity of the claim that they are drug-like. The entire premise of the paper, which is the discovery of these specific compounds, cannot be evaluated.
+  - **Resolution test** The authors must provide the chemical structures of all hit compounds, the full dose-response curves for the key assays (pY-STAT3 inhibition, cell growth), and the calculated physicochemical properties for the lead compounds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the central methodological claim
+  - **Claim pointer** The authors claim that using an MD-averaged structure ("induced-active site") for virtual screening is superior to using a static crystal structure, as it accounts for SH2 domain flexibility and identifies novel inhibitors.
+  - **Evidence pointer** Figure 1, Figure 2, Supplemental Figure 1, Supplemental Table 5 (location not provided)
+  - **Concern** The central hypothesis is that the MD-derived structure is a better receptor model. However, the evidence for this is indirect. The authors show that the ranking of compounds changes between the crystal structure and the MD-averaged structure (Supplemental Table 5), but they do not provide a direct comparison of the hit rates or the potencies of compounds identified by each method. The claim that the MD approach is superior is inferred from the fact that they found active compounds, but this does not prove that a static structure screen would not have found the same or better compounds.
+  - **Why it matters** The novelty of the paper hinges on the value of the "induced-active site" strategy. If the same hits could have been found with a standard approach, the significance of the work is diminished. A direct comparison is needed to support the claim.
+  - **Resolution test** The authors should perform a comparative virtual screen using the static crystal structure and the MD-averaged structure, and compare the hit rates and potencies of the identified compounds. At minimum, they should show that the MD-derived structure identifies compounds that are not identified or are poorly ranked in the static structure screen, and that these compounds are validated experimentally.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity and mechanism of action
+  - **Claim pointer** The authors claim that the compounds are "selective STAT3 inhibitors" and that their ability to inhibit cell growth depends on their ability to inhibit STAT3 activity.
+  - **Evidence pointer** Figure 3D, Figure 3F, Figure 4, Figure 5, Supplemental Figure 4 (location not provided)
+  - **Concern** The evidence for selectivity is limited. The authors show that SPEC-29 does not inhibit pY-STAT1 at 16 hours, but it does at 48 hours. The data on STAT5 and STAT6 is mentioned but not shown. The correlation between pY-STAT3 inhibition and cell growth inhibition is presented, but the experiments with STAT3-negative cells (Figure 5) are the only direct test of on-target activity. The results for the STAT3 mutants are mentioned but not shown.
+  - **Why it matters** A key claim is that the compounds are selective for STAT3. The data presented in the text is suggestive but not conclusive. The lack of selectivity data for other STAT family members and the delayed effect on STAT1 raise questions about the mechanism of action.
+  - **Resolution test** The authors should provide the full data for the selectivity panel (STAT1, STAT2, STAT5, STAT6) at relevant time points and concentrations. The data from the STAT3 mutant experiments should be shown to confirm that the compounds' effects are dependent on STAT3.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Methods section, "Molecular dynamics simulation"
+  - **Evidence pointer** Methods section (location not provided)
+  - **Issue** The description of the MD simulation is brief. Details such as the force field parameters for the ligand, the equilibration protocol, and the number of replicates are not fully described.
+  - **Required correction** Provide a more detailed description of the MD simulation parameters, including the ligand parameterization method, the equilibration and production run conditions, and the criteria for convergence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, "In silico screening and STAT3 inhibitory properties of the hits"
+  - **Evidence pointer** Table 1, Figure 3 (location not provided)
+  - **Issue** The text states that "Twenty-four compounds inhibited G-CSF-induced pY-STAT3 by more than 50% at a concentration of 10 μM with 9 compounds at this concentration inhibiting pY-STAT3 by more than 99%." The full list of these compounds and their activities is not provided in the text.
+  - **Required correction** Include a supplementary table listing all 24 compounds with their percent inhibition values and, if available, their IC50 values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion section, paragraph on "drug-like features"
+  - **Evidence pointer** Discussion section (location not provided)
+  - **Issue** The statement "Most hit compounds comply with three or more of the four rules" is vague. It is unclear how many compounds are in the "most" category and what the specific violations are.
+  - **Required correction** Provide a clear table (Supplemental Table 4) that lists each compound and its compliance with each of the four Lipinski rules.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 (location not provided)
+  - **Issue** The text refers to "Figure 2E, F" for the averaged structure, but the specific features being highlighted (e.g., the movement of the alpha-A helix) are not clearly indicated in the text description.
+  - **Required correction** In the figure legend, clearly label the alpha-A helix, K591, and the pY+0 pocket in panels E and F to guide the reader.
+
+## Risk / unsupported claims
+- The claim that the identified compounds are "novel" cannot be verified without their chemical structures.
+- The claim that the "induced-active site" strategy is superior to static-structure-based screening is not directly supported by the provided evidence.
+- The claim that the compounds are "selective STAT3 inhibitors" is not fully supported by the data described in the text.
+- The claim that the compounds are "uncharged" and therefore likely to have better cell permeability is based on the structures, which were not provided.
+- The conclusion that the compounds' mechanism of action is not primarily due to alkylation is supported by the described experiments, but the data is not shown.
+- The overall significance of the work, in terms of providing new leads for cancer therapy, is plausible but cannot be fully assessed without the missing data.

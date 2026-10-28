@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of claims, and support for conclusions based solely on the provided manuscript content. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present Deep DNAshape, a deep learning method that predicts DNA shape features and shape fluctuations for any DNA sequence while accounting for the influence of extended flanking regions beyond the 2-bp limit of the previous pentamer-based DNAshape method. The method is claimed to be high-throughput, accurate, and broadly applicable, with demonstrated improvements in TF-DNA binding specificity prediction and new insights into flanking-region effects on core DNA structure.
+- **Visible evidence base** Main text figures (Figs. 1-5), supplementary figure and table references, methods section, and discussion. Specific numerical results, model architecture details, and full benchmark statistics are partially provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (Supplementary Figs. 1-19, Supplementary Tables 1-4), source data, code availability, and detailed hyperparameter search results are referenced but not provided. This limits full verification of model performance, statistical significance, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in computational biology: improving high-throughput prediction of DNA structural features by moving beyond fixed k-mer windows. The proposed deep learning architecture is conceptually sound and the application to TF-DNA binding data is compelling. However, several technical aspects require clarification and additional validation before the central claims can be fully accepted. The lack of access to supplementary materials and code limits the depth of this review, and some claims appear stronger than the visible evidence supports.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, computational genomics, and structural biology would find this work valuable. The method offers a practical tool for generating DNA shape features at scale, which is relevant for studying protein-DNA recognition, predicting binding specificity, and interpreting genomic variation. The general framework for sequence-to-feature prediction may also interest the broader deep learning community.
+- **Major strengths**
+  - The problem is well motivated and the limitations of the existing pentamer-based approach are clearly articulated.
+  - The deep learning architecture is designed to address a specific, well-defined limitation (flanking-region influence) and is not a generic application of an off-the-shelf model.
+  - The application to TF-DNA binding data, including bHLH and Hox families, demonstrates practical utility and generates testable biological hypotheses.
+  - The inclusion of shape fluctuation prediction is a valuable extension beyond static features.
+  - The manuscript is generally well written and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Deep DNAshape "fundamentally changes the current k-mer based high-throughput prediction of DNA shape features by accurately accounting for the influence of extended flanking regions."
+  - **Evidence pointer** Methods section, Fig. 1, Supplementary Figs. 2-3
+  - **Concern** The manuscript does not provide sufficient quantitative evidence to support the claim of "accurate" accounting for extended flanking regions. While training and validation loss curves are referenced in supplementary figures, no explicit error metrics (e.g., RMSE, MAE, R²) comparing Deep DNAshape predictions to held-out simulation data or experimental structures are presented in the main text. The claim of accuracy requires direct numerical comparison against ground truth, not just qualitative agreement.
+  - **Why it matters** The central premise of the paper is that the method improves prediction accuracy by considering longer flanking regions. Without quantitative validation, the reader cannot assess whether the improvement is real, marginal, or dependent on specific sequence contexts.
+  - **Resolution test** Provide explicit error metrics (e.g., MAE, RMSE, R²) for Deep DNAshape predictions versus MC simulation ground truth across all shape features, with comparisons to the pentamer-based method at matched flanking-region lengths. Include confidence intervals and, ideally, external validation on experimental structures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that Deep DNAshape is a "versatile and powerful tool" and that it "can be used for predicting DNA shape features from any given sequence."
+  - **Evidence pointer** Methods section, Discussion
+  - **Concern** No code, model weights, or detailed architecture specifications (e.g., number of parameters, layer dimensions, training time) are provided in the main text. The methods section describes the architecture conceptually but lacks the level of detail required for independent reimplementation. The claim of broad utility cannot be evaluated without access to the actual implementation.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without code or detailed specifications, the method cannot be independently verified, compared, or applied by other researchers, undermining the claimed impact.
+  - **Resolution test** Provide a public repository with code, trained model weights, and a clear usage example. Include a detailed architecture table with layer sizes, activation functions, and training hyperparameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that "the features generated by Deep DNAshape improve the model prediction accuracy" in TF-DNA binding specificity models (Fig. 5).
+  - **Evidence pointer** Fig. 5b-d, Supplementary Fig. 17
+  - **Concern** The improvement in R² is presented without statistical significance testing. It is unclear whether the observed differences between Deep DNAshape and pentamer-based DNAshape features are significant across the multiple datasets and TFs tested. The number of datasets, the variance across folds, and the effect sizes are not reported.
+  - **Why it matters** The claim of improved prediction accuracy is a key selling point. Without significance testing, the improvement could be within noise, especially given the relatively small number of TFs and datasets.
+  - **Resolution test** Report mean and standard deviation of R² across cross-validation folds, and perform paired statistical tests (e.g., Wilcoxon signed-rank test) comparing models with Deep DNAshape versus pentamer-based features across all datasets. Report effect sizes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors state that "DNA shape readout mechanisms of a core target are quantitatively affected by flanking regions, including extended flanking regions."
+  - **Evidence pointer** Fig. 3, Fig. 4, Supplementary Fig. 14
+  - **Concern** The biological significance of the flanking-region effects is inferred from visual inspection of heatmaps and line plots. No quantitative measure of effect size (e.g., magnitude of MGW change in Angstroms) or biological relevance (e.g., relationship to binding affinity differences) is provided. The claim that these effects are "quantitatively" important is not supported by explicit numbers.
+  - **Why it matters** The paper aims to provide insights into protein-DNA binding mechanisms. Without quantifying the magnitude of flanking effects and relating them to functional outcomes, the biological conclusions remain speculative.
+  - **Resolution test** Provide quantitative summaries of flanking-region effects, such as the range of MGW variation attributable to flanking sequences, and correlate predicted shape changes with binding affinity differences where possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "fundamentally changes the current k-mer based high-throughput prediction" is promotional and not fully supported by the evidence presented. It overstates the novelty relative to incremental improvements.
+  - **Required correction** Rephrase to a more neutral statement, such as "extends the current k-mer based approach by accounting for longer-range flanking influences."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, DNA shape layer definition
+  - **Evidence pointer** Methods section, Eq. 2-3
+  - **Issue** The description of the shape layer is abstract and the role of the GRU cell is not fully explained. It is unclear how the GRU processes the sequence and how the "bonds" between nodes are represented in the computation.
+  - **Required correction** Provide a more explicit mathematical formulation or a pseudocode description of the forward pass through the shape layers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, TF-DNA binding section
+  - **Evidence pointer** Fig. 5
+  - **Issue** The number of TFs and datasets used in the binding specificity comparison is not stated in the main text. This information is essential for assessing the generalizability of the results.
+  - **Required correction** State the number of TFs, datasets, and total sequences used in the comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of future applications is somewhat speculative and could be condensed. The claim that the framework is general for "other response variables" is not demonstrated.
+  - **Required correction** Either provide a concrete example of another application or temper the claim.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative accuracy metrics for shape prediction.
+  - R1-M2: No code or model availability.
+  - R1-M3: No statistical significance testing for binding specificity improvements.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its specific application of a deep learning architecture to the problem of flanking-region-dependent DNA shape prediction. The idea of using a layer-wise propagation to model long-range sequence context is a reasonable and novel contribution, though the underlying concept of sequence context influencing local structure is not new.
+  - **Scientific importance** The problem is important. DNA shape is increasingly recognized as a key determinant of protein-DNA binding, and tools that improve prediction accuracy and scope have broad utility. The potential to replace or supplement the widely used pentamer-based method is significant.
+  - **Interdisciplinary readership** The work bridges computational biology, structural biology, and gene regulation. It should appeal to researchers in all three areas, as well as those interested in deep learning applications in genomics.
+  - **Technical soundness** The conceptual design is sound, but the visible evidence is insufficient to fully assess technical soundness. Key metrics, statistical tests, and implementation details are missing. The method appears plausible but is not yet proven to the standard required.
+  - **Readability for nonspecialists** The manuscript is generally well written and the figures are informative. The abstract and introduction are accessible. However, the methods section assumes familiarity with deep learning and DNA structure terminology, which may limit accessibility for some readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the applications are relevant, but the manuscript currently lacks the quantitative rigor and reproducibility details necessary to fully establish the claims. I recommend major revision with a focus on providing explicit validation metrics, statistical testing, and code availability.
+
+## Risk / unsupported claims
+- The claim that Deep DNAshape "accurately" accounts for extended flanking regions is unsupported without quantitative error metrics.
+- The claim that Deep DNAshape "fundamentally changes" the field is overstated.
+- The claim of improved TF-DNA binding specificity prediction is not supported by statistical significance testing.
+- The claim that the framework is general for other response variables is speculative and not demonstrated.
+- The biological significance of flanking-region effects is inferred without quantitative effect sizes.
+- The performance of Deep DNAshape (Expt) and Deep DNAshape (MD) variants is stated to be "relatively similar" but no supporting data are visible in the main text.

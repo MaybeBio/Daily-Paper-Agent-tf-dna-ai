@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41891880",
+  "title": "Accurate prediction of cohesin and RNA Polymerase II-associated chromatin interactions using convolutional neural networks.",
+  "authors": "Abbas, Ahmed; Chandratre, Khyati; Liu, Chengcheng; Zhang, Michael Q; Mani, Ram S",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN预测cohesin和RNA Pol II相关染色质互作/环，虽涉及蛋白介导的DNA互作但非TF-DNA结合机制建模，方法可迁移至TF-DNA互作预测。",
+  "abstract": "The three-dimensional (3D) genome organization specifies how the distal regulatory elements in the linear genome interact with target genes to regulate transcription. Several experimental methods have been developed to study the 3D genome organization. However, these methods are, in general, expensive, technically challenging, and time-consuming. We present Convolutional Neural Networks-Chromatin Interaction Predictor (CNN-ChIPr), a machine learning method for predicting the relative strength of cohesin- and RNA Polymerase II (RNA Pol II)-associated chromatin interactions/loops using experimental ChIP-seq data and other public inputs that can be easily obtained without additional new experiments. To leverage the pattern-recognition capability of CNN, we formatted the multiple ChIP-seq data, defining the features of interaction anchor regions into two-dimensional (2D) grids. The results showed that CNN-ChIPr performs well in predicting cohesin- and RNA Pol II-associated chromatin interactions at the peak-level resolution. The predictions can also be used to reconstruct contact maps with high similarity to the maps constructed by the original data. In addition to cohesin loops and RNA Pol II loops, CNN-ChIPr can accurately predict Hi-C interactions as well. We demonstrate the utility of this approach by identifying chromatin loops, target genes, and downstream pathways associated with enhancers regulated by the binding of tissue-specific master transcription factors, androgen receptor (AR) and estrogen receptor (ER), in prostate cancer and breast cancer cells, respectively. Collectively, CNN-ChIPr complements experimental 3D genome mapping technologies and provides a powerful alternative in contexts where such assays are impractical or infeasible, such as clinical specimens or time-course studies.",
+  "abstract_zh": "三维（3D）基因组组织决定了线性基因组中远端调控元件如何与靶基因相互作用以调节转录。目前已开发出多种实验方法来研究3D基因组组织。然而，这些方法通常成本高昂、技术难度大且耗时。我们提出了卷积神经网络-染色质相互作用预测器（CNN-ChIPr），这是一种机器学习方法，利用实验ChIP-seq数据及其他无需额外新实验即可轻松获取的公共输入，预测cohesin和RNA聚合酶II（RNA Pol II）相关染色质相互作用/环的相对强度。为充分利用CNN的模式识别能力，我们将多个ChIP-seq数据格式化，将相互作用锚定区域的特征定义为二维（2D）网格。结果表明，CNN-ChIPr在峰值水平分辨率下预测cohesin和RNA Pol II相关染色质相互作用方面表现良好。这些预测还可用于重建接触图谱，其与原始数据构建的图谱具有高度相似性。除cohesin环和RNA Pol II环外，CNN-ChIPr还能准确预测Hi-C相互作用。我们通过识别与组织特异性主转录因子——雄激素受体（AR）和雌激素受体（ER）——在前列腺癌和乳腺癌细胞中结合所调控的增强子相关的染色质环、靶基因及下游通路，展示了该方法的实用性。总体而言，CNN-ChIPr补充了实验性3D基因组作图技术，并在临床样本或时间序列研究等此类检测不切实际或不可行的情况下提供了强有力的替代方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41891880/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41891880/",
+  "paper_page_path": "papers/pubmed/41891880/index.html"
+}

@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence as presented in the supplied text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present Pythia-PPI, a deep learning model that predicts protein-protein binding affinity changes (ΔΔG) upon mutations. The model uses a pre-trained structure graph encoder, multi-task learning (combining stability and affinity prediction), and self-distillation with an augmented dataset of nearly 400,000 mutations. The authors report state-of-the-art performance on the SKEMPI dataset (Pearson correlation 0.7850) and on an independent SARS-CoV-2 RBD-ACE2 deep mutagenesis dataset (Pearson correlation 0.6051), and provide a web server and open-source code.
+- **Visible evidence base** Abstract, Introduction, Results sections (architecture, fine-tuning, multi-task learning, data augmentation, viral fitness and antibody-antigen evaluation), Discussion, Methods (dataset curation, splitting, evaluation metrics, training, data augmentation, baseline methods). Figures and tables are referenced but not provided in the supplied material.
+- **Missing materials affecting confidence** Figures 1-5, Tables 1-2, Supplementary Figures S1-S2, and Table S1 are referenced but not included. Detailed model architecture hyperparameters, loss function formulations, and exact data processing pipelines are only partially described. The web server and code repository are mentioned but not evaluated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant problem in protein engineering and computational biology: accurate prediction of binding affinity changes upon mutations. The methodological combination of transfer learning, multi-task learning, and self-distillation is reasonable and the reported performance improvements are notable. However, the absence of the actual figures, tables, and supplementary materials in the provided text limits the ability to fully verify the claims. The core claims are plausible but require examination of the full data presentation to be fully established. The manuscript is generally well-written and the logic is clear, but several technical details and potential concerns need to be addressed.
+- **Who would be interested in the results, and why** Researchers in computational protein design, antibody engineering, and virology would be the primary audience. The model's reported speed and accuracy could be valuable for large-scale mutational scanning of protein-protein interactions, including viral fitness prediction and antibody optimization. The methodological approach of combining multi-task learning with self-distillation may also interest the broader machine learning for biology community.
+- **Major strengths** 1) The problem is important and practically relevant. 2) The methodological pipeline (transfer learning, multi-task learning, self-distillation) is well-motivated and logically presented. 3) The reported performance improvements over existing methods are substantial, particularly on the independent viral dataset. 4) The provision of a web server and open-source code enhances usability and reproducibility. 5) The ablation studies (referenced) appear to isolate the contribution of each component.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that self-distillation with an augmented dataset of nearly 400,000 mutations improves prediction accuracy and generalization.
+  - **Evidence pointer** Results section "Data augmentation boosted the prediction accuracy of binding affinity", Figure 4, Table 1
+  - **Concern** The self-distillation strategy uses predictions from the vanilla Pythia-PPI model as training labels for the final model. This is a form of pseudo-labeling that can introduce systematic biases, as the authors partially acknowledge in the Discussion. The key concern is whether the reported performance gains on the SKEMPI benchmark are inflated because the augmented data is derived from the same model family and may reinforce the vanilla model's errors. The independent validation on the R3669 dataset is reassuring, but the authors should clarify whether the final model's performance on R3669 is genuinely improved over the vanilla model, or whether the improvement is only observed on SKEMPI. The manuscript states the final model outperforms the vanilla model on SKEMPI, but the comparison on R3669 is only against other methods, not against the vanilla model. This is a critical control that needs to be reported.
+  - **Why it matters** If the self-distillation gain does not transfer to independent datasets, the core claim of improved generalization is weakened. The authors need to demonstrate that the augmented data provides a genuine benefit beyond what the vanilla model already achieves, particularly on blind test sets.
+  - **Resolution test** Provide a direct comparison of the vanilla Pythia-PPI and the final Pythia-PPI on the R3669 dataset (and any other independent test sets). If the final model does not outperform the vanilla model on independent data, the claim of improved generalization from self-distillation is not supported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that multi-task learning with a stability prediction task improves binding affinity prediction accuracy.
+  - **Evidence pointer** Results section "Multi-task learning enhanced the accuracy of structure-wise binding affinity prediction", Figure 3, Table S1
+  - **Concern** The multi-task learning approach combines the SKEMPI dataset with the F3436 stability dataset. The authors report that the optimal loss weight ratio is 0.8 (stability) to 0.2 (affinity), which is surprising given that the primary task is affinity prediction. This suggests the stability task dominates the training. The authors should clarify whether the improvement from multi-task learning is statistically significant and consistent across all five folds, or whether it is driven by a subset of folds. Additionally, the manuscript does not report the performance of a model trained only on the combined data (SKEMPI + F3436) without the multi-task architecture, which would be a more direct control for the effect of additional data versus the effect of multi-task learning.
+  - **Why it matters** The claim that multi-task learning is beneficial needs to be isolated from the effect of simply having more training data. If a single-task model trained on both datasets performs equally well, the multi-task architecture is not the source of improvement.
+  - **Resolution test** Report the performance of a single-task affinity prediction model trained on the combined SKEMPI + F3436 dataset. Compare this to the multi-task model. Also report per-fold results to assess consistency.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that Pythia-PPI is a reliable and accessible tool, with a web server and open-source code.
+  - **Evidence pointer** Abstract, Introduction, Methods
+  - **Concern** The manuscript states that the web server and code are available, but the provided text does not include sufficient technical detail to reproduce the model. Key hyperparameters (e.g., number of layers in the MLP heads, hidden dimensions, dropout rates, learning rate schedule details) are not fully specified. The loss function is mentioned but the exact formulation is not provided in the text (the equation is referenced but not shown). The data augmentation procedure is described but the exact criteria for selecting interface residues and the generation of mutations are not fully detailed.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete technical specifications, other researchers cannot independently implement or verify the method.
+  - **Resolution test** Provide a complete specification of the model architecture, training procedure, and data processing pipeline, either in the main text, supplementary materials, or via a detailed model card in the code repository.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the Pearson correlation improved from 0.6447 to 0.7850 on SKEMPI, but it is not clear which method the 0.6447 corresponds to. The text should specify the baseline method for this comparison.
+  - **Required correction** Clarify the baseline method for the reported improvement in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Baseline Methods
+  - **Evidence pointer** Methods section "Baseline Methods"
+  - **Issue** The reference for DDGPred is listed as "Error! Reference source not found." This is a formatting error that must be corrected.
+  - **Required correction** Fix the broken reference for DDGPred.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Data augmentation
+  - **Evidence pointer** Results section "Data augmentation boosted the prediction accuracy of binding affinity"
+  - **Issue** The text states the augmented dataset contains "nearly 400 thousand" mutations, but the exact number is not given. The Methods section also does not specify the exact count.
+  - **Required correction** Provide the exact number of mutations in the augmented dataset.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Multi-task learning
+  - **Evidence pointer** Results section "Multi-task learning enhanced the accuracy of structure-wise binding affinity prediction"
+  - **Issue** The term "structure-wise" is used but not explicitly defined. It appears to refer to per-complex or per-structure evaluation, but this should be clarified.
+  - **Required correction** Define "structure-wise" explicitly when first used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Dataset curation
+  - **Evidence pointer** Methods section "Dataset curation"
+  - **Issue** The text states that the SKEMPI 2.0 dataset was used, but the cleaning procedure is only briefly described. The exact criteria for excluding data points are not fully specified.
+  - **Required correction** Provide a more detailed description of the data cleaning criteria for the SKEMPI 2.0 dataset.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (self-distillation generalization control), R1-M2 (multi-task learning control), R1-M3 (reproducibility details). These are the primary technical issues that must be resolved to fully support the claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of multi-task learning and self-distillation for binding affinity prediction is a novel contribution. The use of a pre-trained structure graph encoder is not entirely new, but the specific application and integration are original.
+  - **Scientific importance** The problem of predicting binding affinity changes is of high importance in protein engineering and disease research. The reported improvements in accuracy, if robust, would be a meaningful advance.
+  - **Interdisciplinary readership** The work is relevant to computational biology, structural biology, protein engineering, and virology. The presentation is generally accessible, though some technical details may be challenging for non-specialists.
+  - **Technical soundness** The methodology is reasonable, but the concerns raised above (R1-M1, R1-M2) need to be addressed to establish that the reported improvements are genuine and not artifacts of the training procedure. The lack of full technical details (R1-M3) also weakens the technical soundness assessment.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. The abstract and introduction are accessible. The results and methods sections are more technical but still understandable for a broad scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the reported results are potentially significant, but the manuscript currently does not fully establish the claims due to the missing controls and technical details. The authors should address R1-M1 and R1-M2 with additional experiments or analyses, and R1-M3 with complete technical specifications.
+
+## Risk / unsupported claims
+- The claim that self-distillation improves generalization is not fully supported without a direct comparison of the vanilla and final models on independent test sets.
+- The claim that multi-task learning improves affinity prediction is not fully supported without a control for the effect of additional training data.
+- The reported performance metrics (Pearson, Spearman, RMSE, MAE, AUROC) cannot be independently verified without the figures and tables.
+- The claim of "state-of-the-art" performance is dependent on the comparison methods and evaluation protocols, which are not fully detailed in the provided text.
+- The statement that the model can predict "millions of mutations" is plausible given the described throughput, but the actual scale of the augmented dataset and the computational requirements are not fully specified.

@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "39482255",
+    "doi": "10.1002/cbdv.202401843",
+    "title": "Investigation into the Quantitative Structure-Biotoxicity Relationship of Antibiotics and their Estrogenic Receptor Disruption Effects."
+  },
+  "content": {
+    "abstract": "In light of antibiotics being classified as environmental hormone-like compounds, their interference with the endocrine system has significantly impacted human health and ecological environments. This study employed Density Functional Theory (DFT) within Gaussian09, conducting structural optimizations and property calculations on 23 typical antibiotic molecules at the B3LYP/3-21G and B3LYP/6-31G(d) levels to obtain structural parameters and acquired physicochemical property parameters through the RDKit database in ChemDes platform for quantitative processing of the compounds. Multiple linear regression analysis identified the primary factors affecting antibiotics' biological toxicity (pLD50), and a QSAR model was established. The model's predictive capability was analyzed using leave-one-out cross-validation, and the binding modes and mechanisms of action between estrogen receptors (ER) and antibiotics were investigated via molecular docking and molecular dynamics simulations. The results indicate that six property parameters significantly influence the biological toxicity of antibiotics, with the established QSAR model C exhibiting regression coefficients R(2) and Q(2) of 0.92474 and 0.74913, respectively, demonstrating good stability and predictive power. Molecular surface electrostatic potential, frontier molecular orbitals, molecular docking, and molecular dynamics simulations revealed that stable hydrogen bonds and hydrophobic interactions primarily mediate the potential estrogenic disrupting effects between antibiotics and estrogen receptors. Predictions from an anticancer compound library identified ten compounds with strong estrogenic disrupting effects, and molecular docking validated the practical utility of model C. This provides a valuable exploration for discovering and screening PPCPs with potential estrogenic disrupting effects.",
+    "keywords": [
+      "Antibiotics",
+      "DFT",
+      "Endocrine-disrupting effect",
+      "Molecular docking",
+      "QSAR"
+    ],
+    "mesh_terms": [
+      "*Quantitative Structure-Activity Relationship",
+      "*Anti-Bacterial Agents/chemistry/pharmacology",
+      "*Receptors, Estrogen/metabolism/antagonists & inhibitors/chemistry",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Density Functional Theory",
+      "Molecular Structure",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Wanhong",
+        "Chen, Shuangkou",
+        "Wang, Yu",
+        "Xu, Xi",
+        "Huang, Xia",
+        "Yang, Xin",
+        "Ren, Fengming"
+      ],
+      "short_names": [
+        "Zhu W",
+        "Chen S",
+        "Wang Y",
+        "Xu X",
+        "Huang X",
+        "Yang X",
+        "Ren F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0925-8502"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+        "Pharmaceutical Biotechnology Center, Chongqing Institute of drug cultivation, Chongqing, 408435, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Wanhong",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+          "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuangkou",
+        "short_name": "Chen S",
+        "identifiers": [
+          "0000-0003-0925-8502"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+          "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+          "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xi",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+          "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xia",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+          "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xin",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Chongqing University of Science and Technology, Chongqing, 401331, China.",
+          "Chongqing key laboratory of industrial fermentation microorganisms, Chongqing University of Science and Technology, Chongqing, 401331, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Fengming",
+        "short_name": "Ren F",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Biotechnology Center, Chongqing Institute of drug cultivation, Chongqing, 408435, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemistry & biodiversity"
+    ],
+    "journal_abbrev": [
+      "Chem Biodivers"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/01 00:22",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39482255",
+      "39527993",
+      "23707773",
+      "30916624",
+      "23137989",
+      "37424193",
+      "35545728",
+      "32249694",
+      "40120151",
+      "19921452",
+      "27668885",
+      "32698753",
+      "37695635",
+      "39684360",
+      "28486912",
+      "24898938",
+      "39064835",
+      "38398573",
+      "30324898",
+      "40117728",
+      "37565332",
+      "36547745",
+      "31443129",
+      "28577112",
+      "22503158",
+      "37656159",
+      "27634290",
+      "29511885",
+      "38856753",
+      "30312906",
+      "29475408",
+      "30149188",
+      "38170229",
+      "30261821",
+      "24702656",
+      "37964590",
+      "22614865",
+      "38299297",
+      "26587754",
+      "34682354",
+      "37715109",
+      "40239487",
+      "27164065",
+      "29475176",
+      "35037163",
+      "17112243",
+      "26440057",
+      "30537643",
+      "29990200",
+      "33333906",
+      "38949892",
+      "37811784",
+      "35318898",
+      "38675594",
+      "31556349",
+      "26699616",
+      "31177005",
+      "20707409",
+      "33252029",
+      "30513742",
+      "38084878",
+      "29473866",
+      "34360886",
+      "34854367",
+      "34286666",
+      "39571085",
+      "24858256",
+      "28938860",
+      "30047845",
+      "37338041",
+      "37405575",
+      "31931654",
+      "24687371",
+      "36632953",
+      "30665156",
+      "34791695",
+      "28521603",
+      "39297208",
+      "31003050",
+      "30686140",
+      "30196001",
+      "24974116",
+      "36411562",
+      "31916502",
+      "35352175",
+      "39862785",
+      "35897936",
+      "29862081",
+      "29753941",
+      "32462983",
+      "27410776",
+      "38599447",
+      "32279872",
+      "37728536",
+      "33475043",
+      "24321698",
+      "32101129",
+      "30423939",
+      "37272892",
+      "29557271"
+    ],
+    "review": [
+      "39482255"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://doi.org/10.1002/cbdv.202401843",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

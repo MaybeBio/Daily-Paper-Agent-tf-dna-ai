@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "35821350",
+    "doi": "10.1007/s00428-022-03376-7",
+    "title": "Computational portraits of the tumoral microenvironment in human breast cancer."
+  },
+  "content": {
+    "abstract": "Breast cancer is the most diagnosed cancer in humans. In recent years, myxoid and proportionated stroma have been described as clinically significant in many cancer subtypes. Here computational portraits of tumor-associated stromata were created from a machine learning (ML) classifier using QuPath to evaluate proportionated stromal area (PSA), myxoid stromal ratio (MSR), and immune stroma proportion (ISP) from whole slide images (WSI). The ML classifier was validated in independent training (n = 40) and validation (n = 109) cohorts finding MSR, PSA, and ISP to be associated with tumor stage, lymph node status, Nottingham grade, stromal differentiation (SD), tumor size, estrogen receptor (ER), progesterone receptor (PR), and receptor tyrosine-protein kinase erbB-2 (HER-2). Overall, MSR correlated better with the clinicopathologic profile than PSA and ISP. High MSR was found to be associated with high tumor stage, low ISP, and high Nottingham histologic score. As a computational biomarker, high MSR was more likely to be associated with luminal B like, Her-2 enriched, and triple-negative biomarker status when compared to luminal A like. The supervised ML superpixel approach demonstrated here can be performed by a trained pathologist to provide a faster and more uniformed approach to the analysis to the tumoral microenvironment (TME). The TME may be relevant for clinical decision-making, determining chemotherapeutic efficacy, and guiding a more overall precision-based breast cancer care.",
+    "keywords": [
+      "Computation",
+      "Human breast cancer",
+      "Portraits",
+      "Tumoral microenvironment",
+      "Whole slide imaging"
+    ],
+    "mesh_terms": [
+      "Biomarkers, Tumor",
+      "*Breast Neoplasms/pathology",
+      "Female",
+      "Humans",
+      "Erb-b2 Receptor Tyrosine Kinases",
+      "Receptors, Estrogen",
+      "*Receptors, Progesterone",
+      "Tumor Microenvironment",
+      "Tyrosine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Dongling",
+        "Hacking, Sean M",
+        "Chavarria, Hector",
+        "Abdelwahed, Mohammed",
+        "Nasim, Mansoor"
+      ],
+      "short_names": [
+        "Wu D",
+        "Hacking SM",
+        "Chavarria H",
+        "Abdelwahed M",
+        "Nasim M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1966-8257"
+      ],
+      "affiliations": [
+        "Department of Pathology and Laboratory Medicine, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Greenvale, NY, USA. dwu6@northwell.edu.",
+        "Department of Pathology and Laboratory Medicine, Warren Alpert Medical School of Brown University, Providence, RI, USA.",
+        "Translational Bioinformatics Lab, Brown University, Providence, RI, USA.",
+        "Department of Pathology and Laboratory Medicine, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Greenvale, NY, USA.",
+        "Department of Pathology and Laboratory Medicine, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Greenvale, NY, USA.",
+        "Department of Pathology and Laboratory Medicine, Warren Alpert Medical School of Brown University, Providence, RI, USA.",
+        "Translational Bioinformatics Lab, Brown University, Providence, RI, USA.",
+        "Department of Pathology, Renaissance School of Medicine, Stony Brook University, Stony Brook, NY, USA.",
+        "Department of Pathology, Renaissance School of Medicine, Stony Brook University, Stony Brook, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Dongling",
+        "short_name": "Wu D",
+        "identifiers": [
+          "0000-0003-1966-8257"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Greenvale, NY, USA. dwu6@northwell.edu."
+        ]
+      },
+      {
+        "full_name": "Hacking, Sean M",
+        "short_name": "Hacking SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Warren Alpert Medical School of Brown University, Providence, RI, USA.",
+          "Translational Bioinformatics Lab, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Chavarria, Hector",
+        "short_name": "Chavarria H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Greenvale, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Abdelwahed, Mohammed",
+        "short_name": "Abdelwahed M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Donald and Barbara Zucker School of Medicine at Hofstra/Northwell, Greenvale, NY, USA.",
+          "Department of Pathology and Laboratory Medicine, Warren Alpert Medical School of Brown University, Providence, RI, USA.",
+          "Translational Bioinformatics Lab, Brown University, Providence, RI, USA.",
+          "Department of Pathology, Renaissance School of Medicine, Stony Brook University, Stony Brook, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Nasim, Mansoor",
+        "short_name": "Nasim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Renaissance School of Medicine, Stony Brook University, Stony Brook, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virchows Archiv : an international journal of pathology"
+    ],
+    "journal_abbrev": [
+      "Virchows Arch"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/14 06:00",
+    "fetched_at": "2026-09-28 10:54:38"
+  },
+  "links": {
+    "cites": [
+      "38351366",
+      "37843776",
+      "37568639",
+      "36790479"
+    ],
+    "refs": [
+      "17726261"
+    ],
+    "similar": [
+      "35821350",
+      "35223135",
+      "37146413",
+      "33889251",
+      "25031743",
+      "29261141",
+      "24161421",
+      "31983107",
+      "19256737",
+      "27619909",
+      "34097750",
+      "23701942",
+      "30927939",
+      "30138940",
+      "22524806",
+      "32580398",
+      "28927692",
+      "28114999",
+      "24272208",
+      "24065471",
+      "25234844",
+      "19034706",
+      "32665033",
+      "23192228",
+      "27692496",
+      "25802405",
+      "18264760",
+      "30694768",
+      "30171067",
+      "28409323",
+      "32592349",
+      "21865043",
+      "35301803",
+      "29444670",
+      "23392719",
+      "17906205",
+      "34146382",
+      "34958060",
+      "34465534",
+      "25600243",
+      "19950556",
+      "27221883",
+      "30916428",
+      "24337596",
+      "30367449",
+      "30613307",
+      "27762648",
+      "34233259",
+      "19593632",
+      "12529347",
+      "22544210",
+      "23098527",
+      "18813844",
+      "24008056",
+      "31410192",
+      "19764994",
+      "29062076",
+      "30570850",
+      "30796653",
+      "27172895",
+      "29031688",
+      "21762477",
+      "21601377",
+      "32758491",
+      "19173993",
+      "33228656",
+      "35711896",
+      "18098228",
+      "18413639",
+      "31603099",
+      "34856027",
+      "26573003",
+      "20194857",
+      "27477822",
+      "28457730",
+      "7914767",
+      "22495453",
+      "25684532",
+      "25241216",
+      "28416639",
+      "24344720",
+      "15743737",
+      "26339389",
+      "37863888"
+    ],
+    "review": [
+      "35821350"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00428-022-03376-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,159 @@
+# Neoagarotetraose
+from Marine Red Algae Attenuates
+Hypertensive Vascular Remodeling by Targeting FoxO4 to Inhibit Mitochondrial
+Superoxide Generation
+
+
+## Abstract
+  Oxidative stress is a key driver of hypertensive vascular remodeling. Neoagarotetraose (NA4), a marine-derived oligosaccharide, possesses potent antioxidant activity, but its effects on hypertension remain unexplored. Here, we investigated the role of NA4 in vascular smooth muscle cells (VSMCs) from spontaneously hypertensive rats (SHR) and in SHR in vivo. NA4 treatment significantly reduced mitochondrial superoxide, H2O2 levels, and NADPH oxidase activity in SHR-VSMCs and suppressed their hyperproliferation and migration. RNA-seq identified FoxO4 as a significantly downregulated target. FoxO4 overexpression enhanced ROS production and VSMC dysfunction, and these effects were reversed by NA4. In SHR, oral administration of NA4 (200 or 250 mg/kg/day) for 4 weeks lowered blood pressure, attenuated vascular remodeling, and reduced arterial FoxO4 expression and superoxide generation. Collectively, NA4 ameliorates hypertensive vascular remodeling, and molecular docking suggests a potential interaction between NA4 and the FoxO4-ROS axis, highlighting its potential as a functional food ingredient for hypertension management.
+
+
+## Introduction
+  Oxidative stress (OS), characterized by an imbalance between pro-oxidants and antioxidant defenses, is a critical driver of vascular remodeling in hypertension. This process is intimately linked to the dysfunction of vascular smooth muscle cells (VSMCs), which, upon exposure to excessive reactive oxygen species (ROS), undergo aberrant proliferation and migration, leading to arterial stiffening and elevated blood pressure. ,  The primary sources of this ROS burden in the vasculature are the NADPH oxidases and dysfunctional mitochondria, both of which are activated under hypertensive conditions. ,  Excessive ROS production from these sources not only disrupts cellular redox homeostasis but also directly promotes the phenotypic switching of VSMCs that underlies pathological vascular remodeling. While endogenous antioxidant systems exist, they are often overwhelmed in hypertension, underscoring the urgent need for targeted interventions capable of breaking this self-perpetuating cycle of oxidative injury and vascular dysfunction.
+
+  Neoagarooligosaccharides (NAOS) are a class of novel β-1,3-linked functional oligosaccharides derived from agarose, which have attracted considerable attention due to their high safety profile and diverse biological activities, including antioxidant, anti-inflammatory, hypoglycemic, antiatherosclerotic, and antitumor effects. Among these, neoagarotetraose (NA4) displays a particularly potent scavenging effect on hydroxyl radicals compared with other oligosaccharides such as neoagarobiose (NA2), neoagarohexaose (NA6), and neoagarooctaose (NA8). Recent studies have also demonstrated its protective effects against age-related neuronal damage. These findings suggest that NA4 holds promise as a functional food ingredient for health management. However, despite its robust antioxidant capacity, the role of NA4 in hypertension-associated oxidative stress and vascular remodeling remains unexplored. Therefore, this study aims to investigate the regulatory effects of NA4 on redox signaling pathways in the context of hypertension and vascular remodeling, as well as the underlying mechanisms.
+
+  The forkhead box O (FoxO) transcription factor family, comprising FoxO1, FoxO3, FoxO4, and FoxO6, features a conserved forkhead-associated helix domain that facilitates genomic DNA binding, thereby orchestrating diverse biological processes. Among these, FoxO4 serves as a critical regulator of gene networks governing OS, insulin signaling, cell cycle progression, apoptosis, and longevity. Recent studies have highlighted the functional importance of FoxO4 in oxidative-stress-related pathologies; for instance, it plays a significant role in protecting lens epithelial cells from oxidative damage, and it has been shown to alleviate myocardial ischemia in aged hearts by regulating oxidative stress. Nevertheless, the role of FoxO4 in hypertensive vascular remodeling remains unexplored, and whether marine-derived oligosaccharides, such as NA4, can modulate FoxO4-mediated oxidative stress in the vasculature is unknown.
+
+  In this study, we demonstrate that the marine-derived oligosaccharide NA4 attenuates hypertensive vascular remodeling by targeting FoxO4. Using SHR and primary VSMCs, we show that NA4 effectively lowers blood pressure and alleviates oxidative stress, as evidenced by reduced mitochondrial superoxide generation while suppressing VSMC proliferation and migration. Notably, we identified FoxO4 as a previously unrecognized mediator of oxidative stress in the context of hypertensive vascular remodeling. Collectively, our findings reveal a novel regulatory mechanism involving FoxO4 and highlight NA4, a marine-derived bioactive oligosaccharide, as a promising functional food component for the management of hypertension.
+
+
+## Method
+
+### NA4 Preparation
+  NA4 was prepared according to a previous method. ,  The purity of NA4 was 96.53% (w/w), which was determined by high-performance liquid chromatography.
+
+
+### Primary Culture of VSMCs
+  VSMCs were procured from the tunica media of the thoracic aorta of WKY and SHR rats. Briefly, the tunica media was digested with 0.4% collagenase (Gibco, NY, USA) for 30 min. Cells were cultured in DMEM supplemented with 20% fetal bovine serum (FBS) and antibiotics at 37 °C with 5% CO2. Upon reaching 90% confluence, cells were passaged, and those from passages 2–6 were used for experiments. Cell viability was assessed using the Cell Counting Kit-8 (Dojindo, Japan).
+
+
+### Experimental Animals
+  Male WKY and SHR rats (systolic blood pressure of >150 mmHg) were obtained from Beijing Vital River Laboratory Animal Technology Co., Ltd. All animal procedures were approved by the Institutional Animal Care and Use Committee of the Third Institute of Oceanography, Ministry of Natural Resources (TIO-IACUC-07-2024-03-07) and were conducted in accordance with the international guidelines. Rats were housed under controlled conditions with a 12 h light–dark cycle and free access to standard chow and water. NA4 (200 or 250 mg/kg/day), captopril (30 mg/kg/day), or saline was administered daily by gavage for 4 weeks. At the end of the experiment, rats were euthanized by an intraperitoneal injection of sodium pentobarbital (150 mg/kg).
+
+
+### RNA Sequencing
+(RNA-seq) Analysis
+  VSMCs derived from SHR were treated with NA4 (300 μM) or PBS for 24 h. Total RNA was extracted using the Trizol reagent (Invitrogen, NY, USA), and RNA integrity was assessed using the Agilent Bioanalyzer 2100 (Agilent, CA, USA). RNA-seq was performed by Majorbio Biopharm Biotechnology Co., Ltd. (Shanghai, China), with three biological replicates per group. Differentially expressed genes (DEGs) were identified using DESeq2 with an adjusted p value < 0.05 and a fold-change threshold of >1.2-fold. The cutoff is indicated by dashed lines in the volcano plot. GO and KEGG enrichment analyses were performed using the GO and KEGG databases. The RNA-seq data have been deposited in the NCBI database under accession number PRJNA1256135.
+
+
+### FoxO4 Overexpression in VSMCs
+  VSMCs were transfected with either pcDNA3.1 plasmid (negative control) or FoxO4 overexpression plasmid (50 nmol/L) using Lipofectamine 3000 (Thermo Fisher Scientific) according to the manufacturer’s protocol. After 24 h, cells were harvested for subsequent experiments.
+
+
+### VSMC Migration Assay
+  VSMC migration was assessed utilizing the scratch assay and Boyden chamber assay. For wound healing, a linear scratch was made in confluent VSMC monolayers using a 1 mL pipet tip. Images were captured at 0 and 24 h to assess wound closure. For the Boyden chamber assay, VSMCs were seeded in the upper chamber of 8 μm pore-size Transwell inserts (Merck KGaA, Darmstadt, Germany) in serum-free medium, with 10% FBS in the lower chamber as a chemoattractant. After 24 h, nonmigrated cells were removed, and migrated cells were stained with 1% crystal violet and quantified from five random fields per well.
+
+
+### VSMC Proliferation Assay
+  VSMC proliferation was assessed by proliferating cell nuclear antigen (PCNA) protein expression and EdU incorporation assays. EdU incorporation was detected using an EdU staining kit (RiboBio, Guangzhou, China) following the manufacturer’s protocol, and PCNA protein levels were determined by Western blot.
+
+
+### DHE Fluorescence Staining
+  Intracellular and vascular ROS levels were assessed using dihydroethidium (DHE) staining. VSMCs grown on coverslips were incubated with 10 μM DHE (Beyotime Biotechnology, Shanghai, China) at 37 °C for 30 min in the dark. For arterial tissues, frozen sections (20 μm) were incubated with 10 μM DHE for 5 min. Fluorescence images were captured using a fluorescence microscope.
+
+
+### NOX Activity Assay
+  NOX activity was quantified using the lucigenin-derived chemiluminescence method. ,  Briefly, samples were incubated with 5 μM lucigenin and 100 μM NAD­(P)­H, and luminescence was recorded using a luminometer. NOX activity was expressed as mean light units (MLU)/min/mg protein.
+
+
+### Measurement of Mitochondrial Superoxide
+  Mitochondrial superoxide production was quantified using the MitoSOX Red method. VSMCs were seeded in 24-well plates, treated for 24 h, and then incubated with 5 μM MitoSOX Red at 37 °C for 10 min in the dark. Fluorescence images were captured using a fluorescence microscope, and intensity was quantified using the ImageJ software.
+
+
+### Measurement of H2O2 Levels
+  H2O2 levels were measured using the Amplex Red Assay Kit (Life Technologies, MD, USA) according to the manufacturer’s protocol. Briefly, cells were incubated with 50 μM Amplex Red and 0.1 U/mL horseradish peroxidase (HRP), and absorbance was recorded at 560 nm.
+
+
+### Immunohistochemistry
+  Tissue sections were stained for FoxO4 and PCNA using specific primary antibodies (Aifang Bio, Changsha, China) followed by HRP-conjugated secondary antibodies (Santa Cruz Biotechnology, CA, USA). The staining intensity was quantified using the ImageJ software.
+
+
+### Masson’s
+Staining
+  Collagen deposition in the aorta and mesenteric arteries was evaluated using Masson’s trichrome staining. The proportion of blue-stained collagen fibers was quantified using the ImageJ software.
+
+
+### Blood Pressure Measurement
+  Systolic blood pressure was measured weekly in conscious rats using a noninvasive tail-cuff system (PowerLab). Rats were acclimated at 28 °C for 10–20 min prior to measurement, and the average of 10 consecutive readings was used for analysis.
+
+
+### RT-qPCR
+  Total RNA was extracted from tissues and cells and reverse-transcribed into cDNA. Quantitative real-time PCR was performed using specific primers (sequences listed in Table  ) on a real-time PCR system. Relative gene expression was calculated using the 2–ΔΔCt method.
+
+
+### Western
+Blot Analysis
+  Protein expression was analyzed by Western blotting. Proteins were separated by SDS-PAGE, transferred onto PVDF membranes, and incubated with primary antibodies against FoxO4, PCNA, and GAPDH (Proteintech, IL, USA) followed by HRP-conjugated secondary antibodies. Signals were detected by chemiluminescence.
+
+
+### Statistical Analysis
+  Data are expressed as mean ± standard deviation (SD). Comparisons between two groups were performed using Student’s t test, and multiple-group comparisons were analyzed by one-way or two-way ANOVA followed by Bonferroni’s post hoc test. Statistical significance was set at P < 0.05. All n values indicate the number of independent biological replicates (cell samples or animals) as specified in each figure legend.
+
+
+## Results
+
+### Impact of NA4 on the Redox Signaling of VSMCs
+  Dose–response experiments showed that 300 μM NA4 optimally reduced SHR-VSMC hyperproliferation without nonselective cytotoxicity (Figure S1). DHE staining revealed that superoxide production was significantly elevated in SHR-derived VSMCs compared with WKY-derived cells, and NA4 treatment markedly reduced this increase (Figure  A,B). Consistent with these findings, MitoSOX Red staining demonstrated that mitochondrial superoxide levels were also higher in SHR VSMCs and were significantly attenuated by NA4 treatment (Figure  C,D). Additionally, H2O2 levels were elevated in SHR VSMCs, and NA4 effectively reduced these levels (Figure  E). To further evaluate the involvement of NADPH oxidase in the antioxidant action of NA4, total NOX activity was measured. NA4 significantly inhibited the elevated NOX activity observed in SHR VSMCs (Figure  F). In contrast, NA4 did not significantly alter superoxide production, H2O2 levels, or NOX activity in VSMCs derived from WKY rats. These observations indicate that the antioxidant properties of NA4 likely function through modulating NOX-mediated and mitochondrial superoxide formation, with a selective effect on pathological VSMCs.
+
+
+### Impact of NA4 on the Migration
+and Proliferation
+of VSMCs
+  OS functions as a critical factor in facilitating VSMC migration and proliferation. To investigate whether the antioxidant properties of NA4 could reduce the migration and proliferation of VSMCs in SHR, wound healing and Boyden chamber assays were conducted to assess migratory capacity. The findings revealed increased migratory ability of SHR VSMCs, which was significantly inhibited by NA4 treatment (Figure  A,B). Additionally, the proliferation of VSMCs, evaluated through PCNA expression and EdU incorporation, was elevated in SHR, and NA4 effectively reduced this level of proliferation (Figure  C–E). In contrast, NA4 showed no notable effects on the migration and proliferation of the WKY VSMCs. These observations suggest that NA4 inhibits VSMC migration and proliferation in the SHR.
+
+
+### NA4 Downregulates FoxO4 Expression in SHR-VSMCs
+  RNA sequencing was performed in SHR-derived VSMCs treated with PBS or NA4 (300 μM) for 24 h. Volcano plot analysis revealed pronounced alterations in gene expression, with significant downregulation of Foxo4 and modest decreases in Gpx4 and Sod2 (Figure  A,D). Heatmap analysis confirmed distinct expression patterns of oxidative-stress-related genes between groups (Figure  B), and GSEA demonstrated significant enrichment of oxidative stress signaling pathways (Figure  C). Transcriptomic validation confirmed that Foxo4 mRNA was significantly reduced in NA4-treated cells, whereas the decreases in Gpx4 and Sod2 were less pronounced (Figure  D). These results indicate that NA4 selectively downregulates FoxO4 expression at the mRNA level in SHR-VSMCs, with FoxO4 being the most substantially affected transcript among the antioxidant genes examined. Consistently, Western blot analysis showed that NA4 treatment also reduced FoxO4 protein expression, and mRNA quantification further confirmed the downregulation (Figure S2). Together, these data demonstrate that NA4 suppresses FoxO4 expression at both the mRNA and protein levels in SHR-VSMCs.
+
+
+### Molecular
+Docking Predicts a Potential Interaction
+between NA4 and FoxO4
+  Molecular docking analysis between NA4 and FoxO4 showed a binding energy of −6.5 kcal/mol (Table  ). Multiple hydrogen bonds within 0.35 nm were identified, involving residues Ser96, Arg98, Arg97, Asn103, Asn157, Tyr106, His161, and His156 (Figure  E–G). These docking results suggest a potential interaction between NA4 and FoxO4, providing a theoretical basis for future experimental validation. Notably, the predicted binding site is located near the DNA-binding domain (DBD) of FoxO4, raising the possibility that NA4 may interfere with FoxO4’s transcriptional activity by blocking its access to DNA.
+
+
+### FoxO4 Overexpression Attenuates the Antioxidant
+Effects of NA4 in VSMCs
+  To validate the involvement of FoxO4 in the NA4-mediated inhibition of OS, this study performed a FoxO4 overexpression experiment in VSMCs combined with NA4 treatment. The results indicated that cotreatment with FoxO4 overexpression and NA4 did not negatively affect cell viability (Figure S3). The successful overexpression of FoxO4 was confirmed by elevated FoxO4 protein levels, and NA4 treatment effectively mitigated this upregulation (Figure  A), further validating FoxO4 as a target of NA4. FoxO4 overexpression led to significantly increased superoxide and H2O2 production in VSMCs derived from both WKY and SHR, effects that were markedly suppressed by NA4 treatment (Figure  B–D and Figure S4). Similarly, elevated FoxO4 levels enhanced the total NOX activity, which was reversed by NA4 (Figure  E). These findings indicate that NA4 attenuates FoxO4-mediated oxidative stress in VSMCs, positioning FoxO4 as a critical mediator of the antioxidant effects of NA4.
+
+
+### FoxO4 Overexpression Reverses
+the Inhibitory
+Effects of NA4 on VSMC Migration and Proliferation
+  To assess whether FoxO4 regulates the inhibitory effects of NA4 on VSMC migration and proliferation, an overexpression experiment was conducted in combination with the NA4 treatment. The results demonstrated that FoxO4 overexpression enhanced the migratory capacity of VSMCs from both WKY and SHR, while NA4 treatment effectively mitigated this increase (Figure  A,B). Similarly, FoxO4 overexpression promoted VSMC proliferation in both WKY and SHR, an effect that was suppressed by NA4 treatment (Figure  C,D and Figure S5). These findings suggest that FoxO4 serves as a crucial mediator in regulating the suppressive impact of NA4 on VSMC migration and proliferation in the SHR.
+
+
+### Impact of NA4 on Blood
+Pressure and Vascular
+Remodeling in WKY and SHR
+  Absorption of NA4 into the bloodstream was verified by oral administration of a fluorescent probe NA4-CY7. In vivo imaging showed systemic fluorescence signals (Figure S6), indicating intestinal absorption and distribution. A 4 week gavage experiment was then conducted in WKY and SHR rats to evaluate the therapeutic potential of NA4 in hypertension and vascular remodeling. NA4 administration resulted in a sustained reduction in blood pressure and heart rate in SHR (Figure  A), and the higher concentration of NA4 exhibited the most pronounced effect, outperforming the positive drug control group. Masson staining of aortic and mesenteric artery (MA) samples revealed a pronounced increase in collagen fiber deposition in SHR, a hallmark of vascular remodeling, which was significantly attenuated by NA4 treatment (Figure  B,C). Immunohistochemical analysis further demonstrated elevated PCNA levels in the aorta and MA of SHR, an effect that was prevented by NA4 administration (Figure  D,E). These findings indicate that NA4 effectively mitigates hypertension-induced vascular remodeling.
+
+
+### Impact of NA4 on FoxO4 and OS in the Arteries
+of WKY and SHR
+  To validate the mechanistic insights from VSMC experiments, the impact of NA4 on FoxO4 expression was further investigated in vivo. Immunohistochemical analysis revealed that FoxO4 staining was elevated in the aortas and mesenteric arteries of SHR, whereas NA4 treatment significantly reduced this upregulation (Figure  A,B). Consistent with the in vitro findings, MitoSOX Red staining demonstrated that mitochondrial superoxide levels were also higher in SHR arteries and were significantly reduced by NA4 treatment (Figure  C,D). Additionally, H2O2 levels in arterial homogenates were elevated in SHR, and NA4 effectively decreased these levels (Figure  E). The total NOX activity was also increased in SHR arteries and was significantly inhibited by NA4 (Figure  F). These in vivo results further substantiate that NA4 alleviates vascular remodeling in SHR by targeting the FoxO4–oxidative-stress signaling pathway.
+
+
+## Discussion
+  Vascular remodeling is a central factor in the development of hypertension and its complications, with OS playing a pivotal role in promoting VSMC migration, proliferation, and vascular remodeling. The primary novel finding of this study is that NA4 effectively inhibits the hyperproliferation and exaggerated migration of VSMCs derived from SHR by attenuating the excessive OS. Mechanistically, we identify FoxO4 as a key mediator of this process: FoxO4 is upregulated in SHR-VSMCs, and NA4 suppresses its expression, thereby alleviating OS and subsequent VSMC dysfunction. Furthermore, FoxO4 overexpression enhances VSMC migration and proliferation, effects that are reversed by the NA4 treatment. These findings reveal that NA4 alleviates vascular remodeling and hypertensive symptoms in SHR arteries through the inhibition of the FoxO4-OS signaling pathway, positioning NA4 as a promising antioxidant with therapeutic potential for hypertension and related vascular diseases.
+
+  Numerous natural products have been investigated for their antihypertensive effects, with many plant-derived compounds, such as apocynin, resveratrol, and curcumin, shown to lower blood pressure primarily through the inhibition of NADPH oxidase activity and attenuation of oxidative stress. However, these phenolic compounds often face limitations including poor water solubility, limited bioavailability, and predominantly terrestrial sourcing. In contrast, NA4 is a marine-derived oligosaccharide with distinct advantages: its high water solubility ensures superior bioavailability. And its production from renewable red algal waste aligns with sustainable development principles, a critical consideration for functional food ingredients. Notably, emerging evidence suggests that marine-derived bioactive compounds may exhibit more potent antioxidant activities than their terrestrial counterparts due to the unique marine environment. Recent studies have demonstrated that polysaccharides from red seaweeds effectively modulate hypertension-associated biomarkers by regulating the renin–angiotensin system and reducing oxidative stress, while extracts from brown algae such as Ecklonia cava have been shown to decrease vascular calcification through mitochondrial ROS suppression. Building upon these findings, the present study demonstrates that NA4 effectively alleviates oxidative stress in VSMCs and arteries of SHR by suppressing NADPH oxidase activity, a mechanism shared with certain plant-derived compounds but achieved by NA4 with the added benefits of marine origin and favorable physicochemical properties. Given that oxidative stress drives VSMC proliferation and migration, the inhibitory effects of NA4 on these processes in SHR likely stem from its antioxidant activity. Furthermore, given the well-established link between oxidative stress and inflammation in vascular disease pathogenesis, the antioxidant properties of NA4 may also contribute to anti-inflammatory effects, collectively reducing VSMC dysfunction and vascular remodeling in hypertension.
+
+  FoxO4, a member of the FoxO transcription factor family, is regulated by multiple post-translational modifications that determine its nuclear localization and transcriptional activity. In the cardiovascular system, FoxO4 has been implicated in atherosclerosis, vascular injury responses, and myocardial infarction. However, its role in hypertensiona condition intimately linked to oxidative stress and vascular remodelinghas remained unexplored. Notably, our RNA-seq data showed that NA4 significantly downregulated FoxO4, whereas the decreases in Gpx4 and Sod2 were less pronounced. This pattern suggests that NA4 primarily targets FoxO4. It is well established that FoxO4 binds to the SOD2 promoter and transcriptionally upregulates SOD2 under oxidative stress. Although GPx4 is not a direct FoxO4 target, FoxO family members can indirectly influence GPx4 expression via redox-dependent pathways. In hypertensive vascular remodeling, FoxO4 drives NADPH oxidase-derived ROS production, while SOD2 and GPx4 serve as mitochondrial antioxidant defenses. The mild decreases in Gpx4 and Sod2 after NA4 treatment likely reflect a reduced cellular demand for ROS scavenging following suppression of FoxO4-driven oxidative stress rather than direct transcriptional inhibition.
+
+  Comparison with other reported FoxO4 inhibitors. Previous studies have identified several compounds that inhibit the FoxO4 function. Curcumin, a natural polyphenol, downregulates the AKT/FoxO pathway and promotes FoxO4 nuclear translocation in hepatoma cells. Punicalagin inhibits the AKT-FoxO4 signaling axis to reduce excessive autophagy and exert neuroprotective effects. The most specific FoxO4 inhibitor is the interfering peptide FoxO4-DRI, which blocks the FoxO4-p53 interaction and induces senolysis. Additionally, marine-derived compounds such as SZ-685C have been shown to suppress the Akt/FoxO pathway. Most of these known inhibitors act indirectly through upstream kinases or by disrupting protein–protein interactions. In contrast, our molecular docking suggests that NA4 may bind directly near the DBD of FoxO4, potentially acting through a distinct mechanism. However, it should be noted that molecular docking alone does not prove a direct physical interaction. Future studies using surface plasmon resonance (SPR), cellular thermal shift assay (CETSA), or coimmunoprecipitation are required to validate the direct binding between NA4 and FoxO4.
+
+  The present study demonstrates that FoxO4 is significantly upregulated in VSMCs and arteries of SHR, establishing it as a key mediator of hypertensive vascular pathology. Functionally, we found that NA4 treatment suppressed both mitochondrial superoxide generation and NADPH oxidase activity in SHR-VSMCs, and these effects were reversed by FoxO4 overexpression, indicating that NA4 reduces ROS production from both mitochondria and NOX through the downregulation of FoxO4. This regulatory relationship between FOXO transcription factors and ROS sources is supported by evidence from other diseases: in diabetic kidney disease, a NOX-FoxO3a signaling axis has been identified. In intervertebral disc degeneration, oxidative stress upregulates NOX2/4 while downregulating FoxO4, hinting at a negative correlation. More directly, FoxO1 suppresses miR-92b to derepress NOX4 in ischemic stroke. Although direct evidence for FoxO4 binding to NOX promoters is currently lacking, the high homology among FOXO family members raises the possibility that FoxO4 may similarly regulate NOX expression in the vasculature. Notably, the pro-oxidative, pro-proliferative role of FoxO4 in hypertension contrasts with its protective functions reported in atherosclerosis and its context-dependent dual roles in cancer, highlighting the tissue- and disease-specific nature of FoxO4 signaling. Our identification of NA4 as a novel upstream modulator of FoxO4 that suppresses its elevated expression and attenuates downstream ROS production thus reveals a previously unrecognized regulatory axis in hypertension.
+
+  Consistent with our in vitro findings, oral NA4 (200–250 mg/kg/day) lowered blood pressure, attenuated vascular remodeling, and reduced FoxO4 expression and superoxide generation in SHR arteries, supporting its translational potential. This dose is consistent with or lower than those used in previous NA4 studies (100–2500 mg/kg/day) ,  and is well below the no-observed-adverse-effect level (NOAEL) of 5000 mg/kg/day for NAOs in rats. Other marine-derived oligosaccharides, e.g., potassium alginate oligosaccharides, show antihypertensive effects in SHR at 300–600 mg/kg/day. Using body surface area normalization (factor 6.2), our NA4 dose translates to a human equivalent of 32–40 mg/kg/day (1.9–2.4 g/60 kg adult), which is feasible given NA4’s high safety and solubility.
+
+  In summary, this study demonstrates that NA4 attenuates oxidative stress, VSMC dysfunction, and vascular remodeling in hypertension through the suppression of FoxO4. Notably, the effects of NA4 are specific to pathological conditions, as no significant changes were observed in normotensive WKY rats, suggesting that NA4 selectively targets disease-associated signaling pathways without disrupting physiological homeostasis. This pathological context-dependent action distinguishes NA4 from broad-spectrum antioxidants that may interfere with essential redox signaling. At the molecular level, NA4 suppresses the FoxO4-ROS axis, a mechanism that differs from classical antihypertensive agents such as captopril (which primarily inhibits ACE) and plant-derived compounds like resveratrol (which activates SIRT1) or apocynin (which directly inhibits NOX assembly). ,  Furthermore, the marine origin of NA4 confers unique advantages including high water solubility, sustainable production from algal waste, and favorable biosafety profile, ,  distinguishing it from terrestrial-derived polyphenols that often face bioavailability limitations. At the tissue level, NA4 effectively attenuated remodeling in both large (aorta) and small (mesenteric) arteries, indicating broad therapeutic potential across different vascular bedsa critical consideration given that hypertension differentially affects various vessel types. The concordance between in vitro and in vivo findingsdemonstrating consistent FoxO4 downregulation, reduced ROS production, and attenuated VSMC proliferationprovides strong mechanistic evidence for the FoxO4-OS axis as a central driver of hypertensive vascular pathology. Collectively, these findings position NA4 as a promising marine-derived functional food ingredient that targets a previously unrecognized FoxO4-mediated oxidative pathway in hypertension, offering a mechanistic alternative to existing therapeutic approaches.
+
+  Although current antihypertensive therapies have achieved partial success in controlling blood pressure, they remain limited by issues such as poor patient compliance and adverse effects associated with long-term medication use. Furthermore, existing treatments predominantly focus on blood pressure regulation while failing to adequately address critical pathological processes such as vascular remodeling and OS. NA4, as a novel functional food component, exhibits unique advantages in mitigating OS and vascular remodeling through the suppression of the FoxO4-OS signaling pathway, potentially offering superior vascular protective effects compared to conventional therapies. However, our NA4-CY7 imaging experiment only qualitatively shows intestinal absorption; it does not directly demonstrate the pharmacokinetics of native NA4, as the fluorescent tag may alter its properties. Therefore, future studies should establish true bioavailability using LC–MS/MS. Additionally, to enhance tissue specificity toward diseased arteries and VSMCs, nanoparticle encapsulation or conjugation with vascular homing peptides (e.g., targeting VCAM-1 or smooth muscle cell markers) could be explored. Other future studies should validate direct NA4-FoxO4 binding using SPR, CETSA, or co-IP; evaluate NA4 effects on endothelial cells (NO, barrier, ROS); and test NA4 in other hypertension models, long-term safety, and combination therapy. Addressing these questions will advance NA4 as a functional food ingredient for hypertension.
+
+
+## Supplementary Material
+
+## Acknowledgements
+  This work was supported by the Science and Technology Planning Project of Fujian Province (2025J01242), Xiamen Natural Science Foundation (3502Z202573097), Foundation of Third Institute of Oceanography SOA (no. 2025021) and Innovation Research and Development Special Funds of the Municipality-province-ministry Co-constructed (GJZX-HYSW-2024-08).

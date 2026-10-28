@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "38764052",
+    "doi": "10.1186/s12920-024-01906-7",
+    "title": "Identification of co-expressed central genes and transcription factors in acute myocardial infarction and diabetic nephropathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute myocardial infarction (AMI) and diabetic nephropathy (DN) are common clinical co-morbidities, but they are challenging to manage and have poor prognoses. There is no research on the bioinformatics mechanisms of comorbidity, and this study aims to investigate such mechanisms. METHODS: We downloaded the AMI data (GSE66360) and DN datasets (GSE30528 and GSE30529) from the Gene Expression Omnibus (GEO) platform. The GSE66360 dataset was divided into two parts: the training set and the validation set, and GSE30529 was used as the training set and GSE30528 as the validation set. After identifying the common differentially expressed genes (DEGs) in AMI and DN in the training set, gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses and protein-protein interaction (PPI) network construction were performed. A sub-network graph was constructed by MCODE, and 15 hub genes were screened by the Cytohubba plugin. The screened hub genes were validated, and the 15 screened hub genes were subjected to GO, KEGG, Gene MANIA analysis, and transcription factor (TF) prediction. Finally, we performed TF differential analysis, enrichment analysis, and TF and gene regulatory network construction. RESULTS: A total of 46 genes (43 up-regulated and 3 down-regulated) were identified for subsequent analysis. GO functional analysis emphasized the presence of genes mainly in the vesicle membrane and secretory granule membrane involved in antigen processing and presentation, lipopeptide binding, NAD + nucleosidase activity, and Toll-like receptor binding. The KEGG pathways analyzed were mainly in the phagosome, neutrophil extracellular trap formation, natural killer cell-mediated cytotoxicity, apoptosis, Fc gamma R-mediated phagocytosis, and Toll-like receptor signaling pathways. Eight co-expressed hub genes were identified and validated, namely TLR2, FCER1G, CD163, CTSS, CLEC4A, IGSF6, NCF2, and MS4A6A. Three transcription factors were identified and validated in AMI, namely NFKB1, HIF1A, and SPI1. CONCLUSIONS: Our study reveals the common pathogenesis of AMI and DN. These common pathways and hub genes may provide new ideas for further mechanistic studies.",
+    "keywords": [
+      "Acute myocardial infarction",
+      "Bioinformatics",
+      "Diabetic nephropathy",
+      "Differentially expressed genes",
+      "Hub genes",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "*Myocardial Infarction/genetics",
+      "Humans",
+      "*Diabetic Nephropathies/genetics",
+      "*Transcription Factors/genetics/metabolism",
+      "Protein Interaction Maps",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Gene Ontology",
+      "Gene Expression Regulation",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Bo",
+        "Zhao, Xu",
+        "Xie, Wanrun",
+        "Hong, Zhenzhen",
+        "Cao, Ye",
+        "Zhang, Yi",
+        "Ding, Yan"
+      ],
+      "short_names": [
+        "Li B",
+        "Zhao X",
+        "Xie W",
+        "Hong Z",
+        "Cao Y",
+        "Zhang Y",
+        "Ding Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9597-1306"
+      ],
+      "affiliations": [
+        "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei Provincial Clinical Research Center for Umbilical Cord Blood Hematopoietic Stem Cells, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei, China.",
+        "Emergency and Critical Care Center, Renmin Hospital, Hubei University of Medicine, No. 37 Chaoyang Middle Road, Shiyan, 442000, Hubei, China.",
+        "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China.",
+        "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China.",
+        "Department of Cardiology, Fujian Provincial Hospital, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, Fujian, China.",
+        "Department of Cardiology, Renmin Hospital, Hubei University of Medicine, No. 37 Chaoyang Middle Road, Shiyan, 442000, Hubei, China.",
+        "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China. zhayisn@163.com.",
+        "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei Provincial Clinical Research Center for Umbilical Cord Blood Hematopoietic Stem Cells, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei, China. dyywzx@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Bo",
+        "short_name": "Li B",
+        "identifiers": [
+          "0000-0002-9597-1306"
+        ],
+        "affiliations": [
+          "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China.",
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei Provincial Clinical Research Center for Umbilical Cord Blood Hematopoietic Stem Cells, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xu",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Emergency and Critical Care Center, Renmin Hospital, Hubei University of Medicine, No. 37 Chaoyang Middle Road, Shiyan, 442000, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Wanrun",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Zhenzhen",
+        "short_name": "Hong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Ye",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Fujian Provincial Hospital, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, Fujian, China.",
+          "Department of Cardiology, Renmin Hospital, Hubei University of Medicine, No. 37 Chaoyang Middle Road, Shiyan, 442000, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, 362000, Fujian, China. zhayisn@163.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Yan",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Embryonic Stem Cell Research, Hubei Provincial Clinical Research Center for Umbilical Cord Blood Hematopoietic Stem Cells, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei, China. dyywzx@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2024 May 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/20 00:42",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37731032",
+      "37634560",
+      "37246776",
+      "37094820",
+      "37087077",
+      "37038746",
+      "36937519",
+      "36683743",
+      "36257987",
+      "36219616",
+      "35922516",
+      "35868042",
+      "35683028",
+      "35186462",
+      "35089809",
+      "35023538",
+      "34987648",
+      "34718329",
+      "34562313",
+      "34389841",
+      "34115526",
+      "34041853",
+      "33953291",
+      "33763073",
+      "33574831",
+      "33227945",
+      "33070841",
+      "32575540",
+      "32203286",
+      "32184203",
+      "32090116",
+      "32061315",
+      "32003464",
+      "31992061",
+      "30980200",
+      "30791399",
+      "30778219",
+      "30636250",
+      "30605420",
+      "30476243",
+      "29958828",
+      "29956747",
+      "29437605",
+      "29106063",
+      "28785870",
+      "28483458",
+      "28069634",
+      "26568190",
+      "26567242",
+      "25637626",
+      "25605792",
+      "24927973",
+      "24905194",
+      "24456715",
+      "22455463",
+      "22021706",
+      "21349483",
+      "21208136",
+      "21149340",
+      "21106861",
+      "20359592",
+      "19640356",
+      "19189906",
+      "19129258",
+      "18613948",
+      "18003773",
+      "11889007",
+      "11264157",
+      "8393741",
+      "7704977",
+      "2865887"
+    ],
+    "similar": [
+      "38764052",
+      "37113991",
+      "34124269",
+      "37250717",
+      "39526504",
+      "38374020",
+      "38774257",
+      "33847684",
+      "40374840",
+      "34565282",
+      "38925954",
+      "35463752",
+      "31772617",
+      "41511918",
+      "38851464",
+      "34215202",
+      "39673621",
+      "41479901",
+      "40312440",
+      "40155679",
+      "31987036",
+      "40496861",
+      "36582740",
+      "34568491",
+      "37800460",
+      "27746059",
+      "39111872",
+      "37246754",
+      "35909518",
+      "38968466",
+      "38736878",
+      "40821971",
+      "34490057",
+      "36154667",
+      "39086489",
+      "40091022",
+      "37571880",
+      "29532746",
+      "30506958",
+      "41120603",
+      "38549107",
+      "40790764",
+      "28636181",
+      "35637650",
+      "37480090",
+      "39636560",
+      "38852219",
+      "31339875",
+      "38987688",
+      "33506919",
+      "39586719",
+      "39351239",
+      "32598242",
+      "40704466",
+      "34553293",
+      "38062833",
+      "34257537",
+      "39342024",
+      "36627452",
+      "40340571",
+      "32594092",
+      "41196851",
+      "35585822",
+      "39456069",
+      "39496786",
+      "40628511",
+      "36166989",
+      "40195568",
+      "40950408",
+      "35313524",
+      "40574839",
+      "40461634",
+      "39387979",
+      "39172048",
+      "33941565",
+      "34671419",
+      "40977739",
+      "32626989",
+      "37235492",
+      "34908186",
+      "27613243",
+      "39556279",
+      "35132271",
+      "38961143",
+      "39650552",
+      "41170011",
+      "35016690",
+      "39775580",
+      "41258630",
+      "41044520",
+      "35991124",
+      "32756534",
+      "33640831",
+      "40603423",
+      "35958412",
+      "35757636",
+      "38485036",
+      "36464255",
+      "32778679",
+      "34271942"
+    ],
+    "review": [
+      "38764052",
+      "39387979"
+    ],
+    "pmc": [
+      "11103847"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-024-01906-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38764052/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38764052",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD163-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1168",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

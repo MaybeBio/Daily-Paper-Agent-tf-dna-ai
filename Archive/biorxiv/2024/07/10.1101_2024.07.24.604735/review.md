@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, supplementary information references)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated objectives; no assessment of code functionality or data availability beyond what is described
+- **Shared manuscript claim summary** The authors present EPoCS, a binding-site similarity metric combining ESM-2 protein language model embeddings with Voronoi tessellation of protein-ligand complexes. They claim EPoCS captures multiscale information (local structure, sequence, function) and induces meaningful pocket clusterings, as demonstrated by correlation with APoc and sequence-based metrics, visualization of a "pocket atlas" from 96k pockets, and application to debiased train-test splits for druggability prediction.
+- **Visible evidence base** Figures 1-6 (described in text), Tables S1, Figures S2-S3 (referenced), Methods section, data/code availability statements
+- **Missing materials affecting confidence** Actual figure images, supplementary figures and tables, detailed hyperparameters for clustering and MLP training, exact dataset composition statistics, code implementation details, and quantitative results for druggability model performance (AUC values only described qualitatively in text)
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to binding-site similarity that leverages recent advances in protein language models. The core idea of combining sequence-based embeddings with structural tessellation is timely and potentially useful for the structural bioinformatics community. However, the manuscript suffers from significant gaps in quantitative evidence, unclear validation of key claims, and insufficient detail on methodological choices. The central claims about multiscale information capture and practical utility for debiasing are plausible but not rigorously established from the provided text. The writing is generally clear but some technical aspects require more precision.
+- **Who would be interested in the results, and why** Computational structural biologists, medicinal chemists working on structure-based drug design, and machine learning researchers developing protein-ligand interaction models. The pocket atlas concept and debiasing strategy would be of particular interest to those building and benchmarking pocket-centric ML models, as the proposed approach addresses a recognized problem of data leakage in training-test splits.
+- **Major strengths** 1) Novel integration of PLM embeddings with geometric tessellation for binding-site representation, which is a creative synthesis of two active research areas. 2) The debiasing strategy for train-test splits addresses a real and acknowledged problem in the field, with potential practical impact. 3) The computational efficiency argument (compared to alignment-based methods like APoc) is compelling for large-scale applications. 4) The visualization approach for organizing the "pocketome" is intuitive and could facilitate hypothesis generation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EPoCS produces a good correlation with both APoc and sequence distance for pairs of structures that the two baseline metrics consider similar"
+  - **Evidence pointer** Figure 2a-c, Section II
+  - **Concern** The correlation analysis is described only qualitatively. No correlation coefficients, statistical significance tests, or quantitative comparisons are provided. The claim of "good correlation" is subjective without numerical support. Additionally, the comparison to APoc uses a distance transformation (d = 1 - s) that may not preserve metric properties, and the choice of random 3500 pockets from PDB may introduce selection bias.
+  - **Why it matters** The central claim that EPoCS captures both local and global similarity structure rests on this correlation analysis. Without quantitative evidence, readers cannot assess whether the correlation is meaningfully better than existing methods or merely anecdotal. This is foundational to the entire approach.
+  - **Resolution test** Provide correlation coefficients (e.g., Spearman or Pearson) with confidence intervals for EPoCS vs APoc and EPoCS vs sequence distance, along with scatter plot density distributions. Include statistical tests comparing these correlations to null models or to correlations between baseline methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "The resulting clusterings and visualizations are also of practical interest, for example as a basis for pocket-focused search engines, ligand transfer, selectivity analyses"
+  - **Evidence pointer** Figure 3, Section III
+  - **Concern** The pocket atlas visualization is described but no quantitative validation of cluster quality is provided. The claim that clusters are "structurally uniform" and "biologically or functionally related" is supported only by anecdotal examples (e.g., EC class coloring). No enrichment analysis, cluster purity metrics, or comparison to random clustering baselines are presented. The choice of threshold t = 1.6 is not justified.
+  - **Why it matters** The practical utility of the pocket atlas depends on clusters being biologically meaningful. Without quantitative validation, the atlas could be an artifact of the clustering algorithm or embedding space rather than reflecting true functional relationships. This undermines the claimed practical applications.
+  - **Resolution test** Perform enrichment analysis for functional annotations (e.g., Gene Ontology, EC classes) within clusters compared to random expectation. Report cluster quality metrics such as silhouette scores or adjusted Rand index against known classifications. Justify the threshold selection with sensitivity analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we are able to generate successively harder splits, as by design"
+  - **Evidence pointer** Figure 6a-c, Section IV
+  - **Concern** The druggability model results are described only in terms of AUC values for training sets (constant at ~0.92) and qualitative statements about test set difficulty. No actual test AUC values, confidence intervals, or statistical comparisons between split types are provided. The claim that tree-based splits are "harder" than cluster-based splits is not quantified. The comparison to sequence-based splits (30% identity) is mentioned but not shown with data.
+  - **Why it matters** The debiasing application is a key contribution of the paper. Without quantitative results showing that EPoCS-based splits actually produce more challenging and realistic evaluations, the practical value of this approach is unsubstantiated. The field needs concrete evidence that current evaluation practices are flawed and that this method improves them.
+  - **Resolution test** Report test AUC values (with standard deviations across the three instantiations) for all split types, including the sequence-based baseline. Provide statistical tests showing significant differences in difficulty. Include calibration curves or reliability diagrams to demonstrate that harder splits better reflect real-world performance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Mean pooling of the embedding vectors over the surface residues then gives rise to the EPoCS embeddings vector"
+  - **Evidence pointer** Section II, Methods
+  - **Concern** The methodology for generating site embeddings is described at a high level, but critical details are missing: the exact Voronoi tessellation implementation, the distance-based filtering criteria beyond the 8 Å cutoff, how the ESM-2 embeddings are normalized or scaled before pooling, and whether any dimensionality reduction is applied. The choice of ESM-2 model size (3B parameters) is stated but not justified.
+  - **Why it matters** Reproducibility is a core requirement for scientific contribution. Without sufficient methodological detail, other researchers cannot implement or build upon this approach. The choice of pooling strategy and model size could significantly affect results.
+  - **Resolution test** Provide pseudocode or detailed algorithmic description in the Methods section. Include sensitivity analysis for key parameters (pooling strategy, model size, tessellation parameters). Release a reference implementation with documentation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract claims "unprecedented detail" in binding-site representations without comparison to existing methods. This is an overstatement without quantitative benchmarking.
+  - **Required correction** Replace "unprecedented detail" with a specific, measurable claim (e.g., "captures both local structural and global sequence information simultaneously") or provide comparative evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section II, comparison to APoc
+  - **Evidence pointer** Section II, Methods
+  - **Issue** The distance transformation d = 1 - s for APoc similarity scores may not produce a proper metric (e.g., triangle inequality may be violated). This could affect the correlation analysis.
+  - **Required correction** Acknowledge this limitation or use a proper distance transformation (e.g., negative log similarity) and justify the choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section IV, druggability model
+  - **Evidence pointer** Section IV, Methods
+  - **Issue** The MLP architecture is described as having "a single hidden layer with 12 nodes," but no information is provided on activation functions, regularization, or training duration. The model is compared to fpocket and PointSite, but the comparison is described as not maintaining "training set consistency."
+  - **Required correction** Provide full architecture details and training hyperparameters. Clarify the comparison protocol and acknowledge limitations in the comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section III, pocket atlas
+  - **Evidence pointer** Figure 3, Section III
+  - **Issue** The description of the Mapper algorithm and its parameters (e.g., lens function, resolution, gain) is absent. The choice of t = 1.6 for the atlas is not explained.
+  - **Required correction** Provide Mapper parameters and justify the threshold choice with reference to cluster statistics or stability analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement refers to a GitHub repository with "pre-release" data. This is not a stable, citable resource.
+  - **Required correction** Provide a versioned release with DOI or archive the data in a permanent repository.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section II, ESM-2 embeddings
+  - **Evidence pointer** Section II, Methods
+  - **Issue** The manuscript does not discuss potential biases in ESM-2 embeddings (e.g., training data composition, sequence length effects) that could affect binding-site representations.
+  - **Required correction** Add a brief discussion of known limitations of PLM embeddings and how they might affect the approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative correlation evidence), R1-M2 (cluster validation), R1-M3 (quantitative debiasing results), R1-M4 (methodological detail for reproducibility)
+
+## Risk / unsupported claims
+- "Unprecedented detail" in binding-site representations (abstract) - not supported by comparative evidence
+- "EPoCS successfully captures information at multiple scales" - correlation analysis lacks quantitative support
+- "The resulting clusterings and visualizations are of practical interest" - no quantitative validation of cluster utility
+- "We are able to generate successively harder splits" - no quantitative difficulty metrics provided
+- "EPoCS maintains high structural sensitivity despite its origin in sequence-based language models" - based on anecdotal examples, not systematic evaluation
+- "EPoCS and APoc have on average a high agreement of 72% to 86%" - this is stated but the methodology for this calculation is not described in the main text (only referenced to Table S1, which is not provided)
+- The claim that sequence-based splits "still fail to prevent accidental data leakage" is illustrated with examples but not systematically quantified
+- The claim that the approach is "computationally efficient" is not quantified with runtime or resource comparisons

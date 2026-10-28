@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "39548742",
+    "doi": "10.1002/pro.5213",
+    "title": "Phosphorylation of cytochrome c at tyrosine 48 finely regulates its binding to the histone chaperone SET/TAF-Ibeta in the nucleus."
+  },
+  "content": {
+    "abstract": "Post-translational modifications (PTMs) of proteins are ubiquitous processes present in all life kingdoms, involved in the regulation of protein stability, subcellular location and activity. In this context, cytochrome c (Cc) is an excellent case study to analyze the structural and functional changes induced by PTMS as Cc is a small, moonlighting protein playing different roles in different cell compartments at different cell-cycle stages. Cc is actually a key component of the mitochondrial electron transport chain (ETC) under homeostatic conditions but is translocated to the cytoplasm and even the nucleus under apoptotic conditions and/or DNA damage. Phosphorylation does specifically alter the Cc redox activity in the mitochondria and the Cc non-redox interaction with apoptosis-related targets in the cytoplasm. However, little is known on how phosphorylation alters the interaction of Cc with histone chaperones in the nucleus. Here, we report the effect of Cc Tyr48 phosphorylation by examining the protein interaction with SET/TAF-Ibeta in the nuclear compartment using a combination of molecular dynamics simulations, biophysical and structural approaches such as isothermal titration calorimetry (ITC) and nuclear magnetic resonance (NMR) and in cell proximity ligation assays. From these experiments, we infer that Tyr48 phosphorylation allows a fine-tuning of the Cc-mediated inhibition of SET/TAF-Ibeta histone chaperone activity in vitro. Our findings likewise reveal that phosphorylation impacts the nuclear, stress-responsive functions of Cc, and provide an experimental framework to explore novel aspects of Cc post-translational regulation in the nucleus.",
+    "keywords": [
+      "DNA damage response",
+      "SET/TAF-Ibeta",
+      "cytochrome c",
+      "gene code expansion",
+      "histone chaperones",
+      "nuclear magnetic resonance",
+      "phosphorylation",
+      "post-translational modifications",
+      "protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Phosphorylation",
+      "*Cell Nucleus/metabolism",
+      "*Cytochromes c/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Histone Chaperones/metabolism/chemistry",
+      "Tyrosine/metabolism/chemistry",
+      "Protein Binding",
+      "DNA-Binding Proteins/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tamargo-Azpilicueta, Joaquin",
+        "Casado-Combreras, Miguel A",
+        "Giner-Arroyo, Rafael L",
+        "Velazquez-Campoy, Adrian",
+        "Marquez, Inmaculada",
+        "Olloqui-Sariego, Jose L",
+        "De la Rosa, Miguel A",
+        "Diaz-Moreno, Irene"
+      ],
+      "short_names": [
+        "Tamargo-Azpilicueta J",
+        "Casado-Combreras MA",
+        "Giner-Arroyo RL",
+        "Velazquez-Campoy A",
+        "Marquez I",
+        "Olloqui-Sariego JL",
+        "De la Rosa MA",
+        "Diaz-Moreno I"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8504-4472",
+        "ORCID: 0000-0003-3375-7758",
+        "ORCID: 0000-0001-5702-4538",
+        "ORCID: 0000-0002-3737-9814",
+        "ORCID: 0000-0002-5318-7644"
+      ],
+      "affiliations": [
+        "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain.",
+        "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain.",
+        "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain.",
+        "Institute for Biocomputation and Physic of Complex Systems (BIFI), Joint Unit GBsC-CSIC-BIFI, University of Zaragoza, Zaragoza, Spain.",
+        "Department of Biochemistry and Molecular and Cellular Biology, University of Zaragoza, Zaragoza, Spain.",
+        "Institute for Health Research Aragon (IIS Aragon), Zaragoza, Spain.",
+        "Centre for Biomedical Research Network of Hepatic and Digestive Diseases (CIBERehd), Madrid, Spain.",
+        "Department of Physical-Chemistry, University of Seville, Seville, Spain.",
+        "Department of Physical-Chemistry, University of Seville, Seville, Spain.",
+        "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain.",
+        "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tamargo-Azpilicueta, Joaquin",
+        "short_name": "Tamargo-Azpilicueta J",
+        "identifiers": [
+          "0000-0001-8504-4472"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Casado-Combreras, Miguel Á",
+        "short_name": "Casado-Combreras MÁ",
+        "identifiers": [
+          "0000-0003-3375-7758"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Giner-Arroyo, Rafael L",
+        "short_name": "Giner-Arroyo RL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Velázquez-Campoy, Adrián",
+        "short_name": "Velázquez-Campoy A",
+        "identifiers": [
+          "0000-0001-5702-4538"
+        ],
+        "affiliations": [
+          "Institute for Biocomputation and Physic of Complex Systems (BIFI), Joint Unit GBsC-CSIC-BIFI, University of Zaragoza, Zaragoza, Spain.",
+          "Department of Biochemistry and Molecular and Cellular Biology, University of Zaragoza, Zaragoza, Spain.",
+          "Institute for Health Research Aragón (IIS Aragon), Zaragoza, Spain.",
+          "Centre for Biomedical Research Network of Hepatic and Digestive Diseases (CIBERehd), Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Márquez, Inmaculada",
+        "short_name": "Márquez I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical-Chemistry, University of Seville, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Olloqui-Sariego, José L",
+        "short_name": "Olloqui-Sariego JL",
+        "identifiers": [
+          "0000-0002-3737-9814"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, University of Seville, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "De la Rosa, Miguel A",
+        "short_name": "De la Rosa MA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Diaz-Moreno, Irene",
+        "short_name": "Diaz-Moreno I",
+        "identifiers": [
+          "0000-0002-5318-7644"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research (IIQ), Scientific Research Center \"Isla de la Cartuja\" (cicCartuja), University of Seville - CSIC, Seville, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/16 20:04",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "42193983",
+      "41411686",
+      "40643472",
+      "39941082"
+    ],
+    "refs": [
+      "39108706",
+      "38815995",
+      "38521844",
+      "37774136",
+      "37746636",
+      "36853967",
+      "36402842",
+      "36345878",
+      "36220893",
+      "35891793",
+      "35643148",
+      "35559426",
+      "35474127",
+      "34624727",
+      "34455704",
+      "33923680",
+      "33882408",
+      "33201401",
+      "33187249",
+      "32728408",
+      "32377304",
+      "32023432",
+      "31589413",
+      "31459248",
+      "31225502",
+      "31024071",
+      "30501034",
+      "30018060",
+      "29949346",
+      "29362479",
+      "29083920",
+      "29027792",
+      "28746339",
+      "28348229",
+      "27861742",
+      "27790613",
+      "27080741",
+      "26866363",
+      "26718409",
+      "26583988",
+      "26574453",
+      "26329855",
+      "26216969",
+      "25818296",
+      "25595453",
+      "25400877",
+      "24991766",
+      "24643968",
+      "24326104",
+      "24305947",
+      "23374587",
+      "22743772",
+      "22192356",
+      "21940793",
+      "21922088",
+      "21706253",
+      "20586425",
+      "20130602",
+      "19997129",
+      "19690710",
+      "19358706",
+      "18471988",
+      "18345000",
+      "17622177",
+      "17360516",
+      "17319704",
+      "17309103",
+      "17210651",
+      "16866357",
+      "16782050",
+      "16719461",
+      "16328458",
+      "16240095",
+      "16027053",
+      "15876432",
+      "15752588",
+      "15736928",
+      "15611120",
+      "15264255",
+      "15073175",
+      "14680826",
+      "14220663",
+      "12617658",
+      "11222307",
+      "11163245",
+      "10959836",
+      "9597000",
+      "9538000",
+      "9466912",
+      "9352653",
+      "9254609",
+      "9077453",
+      "8689682",
+      "8626647",
+      "8504808",
+      "8392367",
+      "8033998",
+      "7726571",
+      "7639526",
+      "2846529",
+      "1656231",
+      "1446742",
+      "942051"
+    ],
+    "similar": [
+      "39548742",
+      "26216969",
+      "35891793",
+      "31663111",
+      "33882408",
+      "33938164",
+      "27924001",
+      "35870650",
+      "40338746",
+      "19358706",
+      "24305947",
+      "21940793",
+      "21706253",
+      "17360516",
+      "16195249",
+      "22796192",
+      "39108706",
+      "28977641",
+      "37548614",
+      "25823644",
+      "17142970",
+      "28348229",
+      "15136563",
+      "15239126",
+      "20064523",
+      "21911363",
+      "18096310",
+      "32717223",
+      "24983498",
+      "34156643",
+      "28251751",
+      "12511607",
+      "38521844",
+      "20227384",
+      "29288494",
+      "16061203",
+      "15670842",
+      "34021475",
+      "23912807",
+      "40187686",
+      "11978794",
+      "18974097",
+      "11567023",
+      "25613585",
+      "27246208",
+      "9566918",
+      "20800572",
+      "12824179",
+      "22001646",
+      "28924044",
+      "38133493",
+      "32023432",
+      "28610839",
+      "20586425",
+      "33675813",
+      "41591630",
+      "12917472",
+      "26606503",
+      "27758862",
+      "18809386",
+      "37746636",
+      "30222078",
+      "29661843",
+      "39028515",
+      "12270932",
+      "32933064",
+      "34553920",
+      "30909412",
+      "23723067",
+      "22143534",
+      "34437813",
+      "16866357",
+      "17535448",
+      "12759364",
+      "32517247",
+      "12167702",
+      "18931446",
+      "15930275",
+      "24824343",
+      "31570002",
+      "23708935",
+      "34933457",
+      "34536244",
+      "19026661",
+      "18450420",
+      "26720007",
+      "22222486",
+      "33590780",
+      "26148237",
+      "32222456",
+      "24600006",
+      "23378026",
+      "25787277",
+      "22192356",
+      "31452299",
+      "40643472",
+      "17034827",
+      "21439937",
+      "25462588",
+      "42692766"
+    ],
+    "review": [
+      "39548742",
+      "31663111",
+      "33938164",
+      "38521844",
+      "28610839",
+      "26606503",
+      "30222078",
+      "34553920",
+      "34437813",
+      "26720007"
+    ],
+    "pmc": [
+      "11568366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39548742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5213",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "identity": {
+    "pmid": "40240358",
+    "doi": "10.1038/s41467-025-58921-0",
+    "title": "TRAPT: a multi-stage fused deep learning framework for predicting transcriptional regulators based on large-scale epigenomic data."
+  },
+  "content": {
+    "abstract": "It is challenging to identify regulatory transcriptional regulators (TRs), which control gene expression via regulatory elements and epigenomic signals, in context-specific studies on the onset and progression of diseases. The use of large-scale multi-omics epigenomic data enables the representation of the complex epigenomic patterns of control of the regulatory elements and the regulators. Herein, we propose Transcription Regulator Activity Prediction Tool (TRAPT), a multi-modality deep learning framework, which infers regulator activity by learning and integrating the regulatory potentials of target gene cis-regulatory elements and genome-wide binding sites. The results of experiments on 570 TR-related datasets show that TRAPT outperformed state-of-the-art methods in predicting the TRs, especially in terms of forecasting transcription co-factors and chromatin regulators. Moreover, we successfully identify key TRs associated with diseases, genetic variations, cell-fate decisions, and tissues. Our method provides an innovative perspective on identifying TRs by using epigenomic data.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Epigenomics/methods",
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "*Gene Expression Regulation",
+      "Chromatin/metabolism",
+      "Binding Sites",
+      "*Computational Biology/methods",
+      "Regulatory Elements, Transcriptional/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Guorui",
+        "Song, Chao",
+        "Yin, Mingxue",
+        "Liu, Liyuan",
+        "Zhang, Yuexin",
+        "Li, Ye",
+        "Zhang, Jianing",
+        "Guo, Maozu",
+        "Li, Chunquan"
+      ],
+      "short_names": [
+        "Zhang G",
+        "Song C",
+        "Yin M",
+        "Liu L",
+        "Zhang Y",
+        "Li Y",
+        "Zhang J",
+        "Guo M",
+        "Li C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7124-1309",
+        "ORCID: 0000-0001-5841-0334",
+        "ORCID: 0000-0001-6228-6276"
+      ],
+      "affiliations": [
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+        "Key Laboratory of Rare Pediatric Diseases, Ministry of Education, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+        "School of Intelligence Science and Technology, Beijing University of Civil Engineering and Architecture, Beijing, 100044, China. guomaozu@bucea.edu.cn.",
+        "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+        "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+        "School of Computer, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+        "Key Laboratory of Rare Pediatric Diseases, Ministry of Education, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Guorui",
+        "short_name": "Zhang G",
+        "identifiers": [
+          "0000-0002-7124-1309"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Song, Chao",
+        "short_name": "Song C",
+        "identifiers": [
+          "0000-0001-5841-0334"
+        ],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China.",
+          "Key Laboratory of Rare Pediatric Diseases, Ministry of Education, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Mingxue",
+        "short_name": "Yin M",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liyuan",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuexin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ye",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Maozu",
+        "short_name": "Guo M",
+        "identifiers": [
+          "0000-0001-6228-6276"
+        ],
+        "affiliations": [
+          "School of Intelligence Science and Technology, Beijing University of Civil Engineering and Architecture, Beijing, 100044, China. guomaozu@bucea.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Chunquan",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital & National Health Commission Key Laboratory of Birth Defect Research and Prevention, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+          "Hunan Provincial Key Laboratory of Multi-omics And Artificial Intelligence of Cardiovascular Diseases, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hengyang Medical School, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+          "School of Computer, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com.",
+          "Key Laboratory of Rare Pediatric Diseases, Ministry of Education, University of South China, Hengyang, Hunan, 421001, China. lcqbio@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Apr 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42469418",
+      "41909952",
+      "41772662",
+      "41744781",
+      "41711916",
+      "41594604",
+      "41592028",
+      "41404425",
+      "41398141",
+      "41309901",
+      "41266662",
+      "41219351",
+      "41193778",
+      "41144480",
+      "41141759",
+      "41127011",
+      "41033404",
+      "41030300",
+      "41024311",
+      "41019712",
+      "41009723",
+      "41007412",
+      "41007364",
+      "40906371",
+      "40886194",
+      "40877987",
+      "40832836",
+      "40819057",
+      "40818967",
+      "40814875",
+      "40804880",
+      "40778316",
+      "40652278"
+    ],
+    "refs": [
+      "38707542",
+      "38480892",
+      "37756335",
+      "37155905",
+      "36562559",
+      "36318264",
+      "36318256",
+      "36124682",
+      "36039764",
+      "35981026",
+      "35931864",
+      "35668323",
+      "34791371",
+      "34718747",
+      "34462589",
+      "33590861",
+      "33589840",
+      "33352111",
+      "33125076",
+      "33095866",
+      "32989324",
+      "32424124",
+      "32251445",
+      "32033573",
+      "31691819",
+      "31598675",
+      "31347689",
+      "31114921",
+      "30650380",
+      "30629940",
+      "30597111",
+      "30566872",
+      "30413482",
+      "30407534",
+      "30204897",
+      "29784049",
+      "29622725",
+      "29608647",
+      "29425488",
+      "28526138",
+      "28202389",
+      "27984724",
+      "27789702",
+      "27789689",
+      "27534536",
+      "27466232",
+      "27154058",
+      "26773131",
+      "25885710",
+      "25765347",
+      "25605792",
+      "24670762",
+      "24071849",
+      "23715323",
+      "23586463",
+      "23498934",
+      "22718975",
+      "22388286",
+      "22009675",
+      "21156047",
+      "21097893",
+      "21030644",
+      "20978075",
+      "20944595",
+      "20110278",
+      "19411068",
+      "19274049",
+      "18798982",
+      "17277777",
+      "16199517",
+      "16009131",
+      "15499007",
+      "14729569",
+      "12519996",
+      "11782441",
+      "11581496",
+      "8001151"
+    ],
+    "similar": [
+      "40240358",
+      "30967126",
+      "30555922",
+      "31265076",
+      "38940155",
+      "31682597",
+      "31006511",
+      "15262804",
+      "31372637",
+      "33300042",
+      "39708837",
+      "28576882",
+      "27091612",
+      "16817975",
+      "31905774",
+      "30835229",
+      "28056037",
+      "30686579",
+      "25442502",
+      "34326396",
+      "34374760",
+      "38354497",
+      "38715516",
+      "29617928",
+      "25461775",
+      "28505376",
+      "39724385",
+      "35293310",
+      "33874910",
+      "39131276",
+      "34548076",
+      "31045217",
+      "39843737",
+      "24985916",
+      "39550354",
+      "24219505",
+      "39789857",
+      "22456606",
+      "17535887",
+      "31590652",
+      "28400425",
+      "27490187",
+      "31307500",
+      "23272209",
+      "33137083",
+      "40221401",
+      "39207727",
+      "40037709",
+      "11491305",
+      "30580963",
+      "25268582",
+      "22682255",
+      "29126285",
+      "39956806",
+      "32960766",
+      "30395277",
+      "30869141",
+      "25637093",
+      "20671200",
+      "24603674",
+      "31672653",
+      "38895220",
+      "24997396",
+      "21074721",
+      "39696471",
+      "18712306",
+      "40127183",
+      "34751401",
+      "37569400",
+      "34251627",
+      "34292930",
+      "38600550",
+      "35440119",
+      "39283462",
+      "32770026",
+      "29365171",
+      "36064320",
+      "39701486",
+      "33096239",
+      "24213554",
+      "39082650",
+      "32033573",
+      "34244796",
+      "34020542",
+      "24339764",
+      "30936246",
+      "31044167",
+      "31533978",
+      "39773540",
+      "33858483",
+      "33635929",
+      "33371906",
+      "39679439",
+      "29233921",
+      "23945931",
+      "33859751",
+      "21750106",
+      "27391817",
+      "26502339",
+      "21060817"
+    ],
+    "review": [
+      "40240358",
+      "39708837",
+      "38715516",
+      "25461775",
+      "39207727",
+      "25637093",
+      "39082650",
+      "34020542"
+    ],
+    "pmc": [
+      "12003887"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58921-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40240358/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

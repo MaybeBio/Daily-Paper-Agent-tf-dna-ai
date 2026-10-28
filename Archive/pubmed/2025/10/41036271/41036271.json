@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41036271",
+    "doi": "10.3389/fneur.2025.1653433",
+    "title": "Integrating machine learning for the identification of ubiquitination-associated genes in moyamoya disease."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Moyamoya disease (MMD) is an infrequent cerebrovascular disorder typified by bilateral internal carotid artery obstruction, yet its pathogenic mechanism remains elusive. This study examines the role of epigenetic ubiquitination-related genes in MMD. METHODS: We utilized two datasets (GSE157628 and GSE141024) from the GEO database and sourced ubiquitination-related genes from the GeneCards database. Differentially expressed genes were identified, followed by Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and Gene Set Enrichment Analysis (GSEA) to elucidate key gene functions. Machine learning techniques, including LASSO logistic regression and support vector machine, helped identify crucial genes. Immune characteristics were analyzed using single-sample gene set enrichment analysis, while transcription factors and miRNA-gene regulatory networks were constructed with the Citrome and Mircode databases. RESULTS: We identified three key ubiquitination-related genes-ANAPC11, UCHL1, and USP41-that may be involved in the pathogenesis of MMD. Further, we found that the serum UCHL1 expression level in MMD was significantly reduced, and knocking down UCHL1 could enhance the migration ability of human brain vascular smooth muscle cells (HBVSMCs), as verified by In vitro experiments. Immune infiltration analysis demonstrated significant correlations between these genes and various immune factors. Furthermore, we constructed a miRNA-gene network involving 30 miRNAs and identified secondary genes EXO1 and ISG15. DISCUSSION: Potential therapeutic drugs, including benzohydroxamic acid and PKC-beta inhibitors, were predicted to target these key genes, suggesting new avenues for MMD treatment.",
+    "keywords": [
+      "epigenetics",
+      "immune infiltration",
+      "machine learning",
+      "moyamoya disease",
+      "ubiquitination"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niu, Hongchuan",
+        "Wang, Xilong",
+        "Zhou, Zhenyu",
+        "Liu, Yutong",
+        "He, Shihao",
+        "Zhao, Yuanli"
+      ],
+      "short_names": [
+        "Niu H",
+        "Wang X",
+        "Zhou Z",
+        "Liu Y",
+        "He S",
+        "Zhao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+        "Department of Neurosurgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China.",
+        "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+        "Department of Neurosurgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China.",
+        "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+        "Department of Neurosurgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niu, Hongchuan",
+        "short_name": "Niu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Peking University International Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xilong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhenyu",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yutong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+          "Department of Neurosurgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "He, Shihao",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+          "Department of Neurosurgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuanli",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Peking University International Hospital, Beijing, China.",
+          "Department of Neurosurgery, Peking Union Medical College Hospital, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in neurology"
+    ],
+    "journal_abbrev": [
+      "Front Neurol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 06:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "41480156"
+    ],
+    "refs": [
+      "40416061",
+      "40049049",
+      "39822761",
+      "39188306",
+      "38476235",
+      "38169540",
+      "37762489",
+      "37573356",
+      "37265961",
+      "36681249",
+      "36605987",
+      "35339825",
+      "34648022",
+      "34599178",
+      "34571917",
+      "33997176",
+      "32853526",
+      "32573437",
+      "32390555",
+      "32207552",
+      "32139119",
+      "31416173",
+      "31386861",
+      "30760601",
+      "28434268",
+      "27702698",
+      "27515257",
+      "26846756",
+      "26539913",
+      "25628533",
+      "25345517",
+      "25278557",
+      "24310442",
+      "23518061",
+      "23359680",
+      "23297343",
+      "23110205",
+      "22870528",
+      "22558457",
+      "21799892",
+      "21048783",
+      "20933087",
+      "20739943",
+      "20080621",
+      "20044781",
+      "19879917",
+      "19535597",
+      "18550537",
+      "17586089",
+      "16923396",
+      "16788009",
+      "16544100",
+      "15484702",
+      "12408865",
+      "12032289",
+      "11573242",
+      "7217993",
+      "5775283",
+      "2530630",
+      "2389679"
+    ],
+    "similar": [
+      "41036271",
+      "36605987",
+      "40105149",
+      "40416061",
+      "38919950",
+      "32617116",
+      "37228412",
+      "38467737",
+      "40012919",
+      "35197088",
+      "39290707",
+      "39870856",
+      "40564394",
+      "39403102",
+      "41480156",
+      "39134827",
+      "40313967",
+      "39104482",
+      "41006883",
+      "40462179",
+      "39586719",
+      "40151199",
+      "39341981",
+      "41102315",
+      "40312440",
+      "38951833",
+      "39948449",
+      "41146237",
+      "39466354",
+      "40313958",
+      "41200172",
+      "35669195",
+      "40849565",
+      "40374866",
+      "38755717",
+      "38283345",
+      "39375405",
+      "37033969",
+      "40374840",
+      "40918403",
+      "37265961",
+      "37032832",
+      "41378005",
+      "36532015",
+      "40630623",
+      "39609718",
+      "38704490",
+      "40289127",
+      "41291978",
+      "35958412",
+      "40948644",
+      "40790764",
+      "35719392",
+      "31532776",
+      "41255601",
+      "41164826",
+      "41242115",
+      "41044520",
+      "40842856",
+      "38044432",
+      "31132337",
+      "39853851",
+      "39142001",
+      "39230867",
+      "35757392",
+      "39713769",
+      "40830794",
+      "40624255",
+      "40722175",
+      "40091022",
+      "41432483",
+      "40406118",
+      "39149038",
+      "39697326",
+      "38260098",
+      "40913267",
+      "38510272",
+      "36345357",
+      "41132349",
+      "40245021",
+      "41104127",
+      "36685898",
+      "40642528",
+      "39622968",
+      "35907193",
+      "37633529",
+      "34848385",
+      "41054110",
+      "35273637",
+      "40406620",
+      "38440848",
+      "40967560",
+      "37008314",
+      "38402855",
+      "35938015",
+      "38062833",
+      "37980550",
+      "40950408",
+      "36704339",
+      "40869277"
+    ],
+    "review": [
+      "41036271"
+    ],
+    "pmc": [
+      "12479308"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41036271/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-601",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fneur.2025.1653433",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

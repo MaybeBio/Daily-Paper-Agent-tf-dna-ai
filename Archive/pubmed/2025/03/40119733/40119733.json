@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "40119733",
+    "doi": "10.1093/nar/gkaf215",
+    "title": "Light-dependent flavin redox and adduct states control the conformation and DNA-binding activity of the transcription factor EL222."
+  },
+  "content": {
+    "abstract": "The activity of the light-oxygen-voltage/helix-turn-helix (LOV-HTH) photoreceptor EL222 is regulated through protein-protein and protein-DNA interactions, both triggered by photo-excitation of its flavin mononucleotide (FMN) cofactor. To gain molecular-level insight into the photocycle of EL222, we applied complementary methods: macromolecular X-ray crystallography (MX), nuclear magnetic resonance (NMR) spectroscopy, optical spectroscopies (infrared and UV-visible), molecular dynamics/metadynamics (MD/metaD) simulations, and protein engineering using noncanonical amino acids. Kinetic experiments provided evidence for two distinct EL222 conformations (lit1 and lit2) that become sequentially populated under illumination. These two lit states were assigned to covalently bound N5 protonated, and noncovalently bound hydroquinone forms of FMN, respectively. Only subtle structural differences were observed between the monomeric forms of all three EL222 species (dark, lit1, and lit2). While the dark state is largely monomeric, both lit states undergo monomer-dimer exchange. Furthermore, molecular modeling revealed differential dynamics and interdomain separation times arising from the three FMN states (oxidized, adduct, and reduced). Unexpectedly, all three EL222 species can associate with DNA, but only upon blue-light irradiation, a high population of stable complexes is obtained. Overall, we propose a model of EL222 activation where photoinduced changes in the FMN moiety shift the population equilibrium toward an open conformation that favors self-association and DNA-binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "Oxidation-Reduction",
+      "*DNA/metabolism/chemistry",
+      "*Light",
+      "*Flavin Mononucleotide/chemistry/metabolism",
+      "Crystallography, X-Ray",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation/radiation effects",
+      "Protein Binding",
+      "*Bacterial Proteins/chemistry/metabolism/genetics",
+      "*Transcription Factors/chemistry/metabolism",
+      "*Photoreceptors, Microbial/chemistry/metabolism",
+      "*Flavins/chemistry/metabolism",
+      "Models, Molecular",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Kinetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chaudhari, Aditya S",
+        "Favier, Adrien",
+        "Tehrani, Zahra Aliakbar",
+        "Koval, Tomas",
+        "Andersson, Inger",
+        "Schneider, Bohdan",
+        "Dohnalek, Jan",
+        "Cerny, Jiri",
+        "Brutscher, Bernhard",
+        "Fuertes, Gustavo"
+      ],
+      "short_names": [
+        "Chaudhari AS",
+        "Favier A",
+        "Tehrani ZA",
+        "Koval T",
+        "Andersson I",
+        "Schneider B",
+        "Dohnalek J",
+        "Cerny J",
+        "Brutscher B",
+        "Fuertes G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2511-2300",
+        "ORCID: 0000-0002-2836-3765",
+        "ORCID: 0000-0001-7855-3690",
+        "ORCID: 0000-0002-1969-9304",
+        "ORCID: 0000-0001-7652-7384",
+        "ORCID: 0000-0002-8564-8644"
+      ],
+      "affiliations": [
+        "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Faculty of Science, Charles University, Prague 11636, Czech Republic.",
+        "Universite Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble Cedex 9, 38044, France.",
+        "Laboratory of Structural Bioinformatics of Proteins, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Laboratory of Structure and Function of Biomolecules, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Department of Cell and Molecular Biology, Uppsala University, Uppsala 75124, Sweden.",
+        "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Laboratory of Structure and Function of Biomolecules, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Laboratory of Structural Bioinformatics of Proteins, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+        "Universite Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble Cedex 9, 38044, France.",
+        "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chaudhari, Aditya S",
+        "short_name": "Chaudhari AS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+          "Faculty of Science, Charles University, Prague 11636, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Favier, Adrien",
+        "short_name": "Favier A",
+        "identifiers": [
+          "0000-0003-2511-2300"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble Cedex 9, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Tehrani, Zahra Aliakbar",
+        "short_name": "Tehrani ZA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Structural Bioinformatics of Proteins, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kovaľ, Tomáš",
+        "short_name": "Kovaľ T",
+        "identifiers": [
+          "0000-0002-2836-3765"
+        ],
+        "affiliations": [
+          "Laboratory of Structure and Function of Biomolecules, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Andersson, Inger",
+        "short_name": "Andersson I",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic.",
+          "Department of Cell and Molecular Biology, Uppsala University, Uppsala 75124, Sweden."
+        ]
+      },
+      {
+        "full_name": "Schneider, Bohdan",
+        "short_name": "Schneider B",
+        "identifiers": [
+          "0000-0001-7855-3690"
+        ],
+        "affiliations": [
+          "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Dohnálek, Jan",
+        "short_name": "Dohnálek J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Structure and Function of Biomolecules, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Černý, Jiří",
+        "short_name": "Černý J",
+        "identifiers": [
+          "0000-0002-1969-9304"
+        ],
+        "affiliations": [
+          "Laboratory of Structural Bioinformatics of Proteins, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Brutscher, Bernhard",
+        "short_name": "Brutscher B",
+        "identifiers": [
+          "0000-0001-7652-7384"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, CEA, CNRS, Institut de Biologie Structurale (IBS), Grenoble Cedex 9, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Fuertes, Gustavo",
+        "short_name": "Fuertes G",
+        "identifiers": [
+          "0000-0002-8564-8644"
+        ],
+        "affiliations": [
+          "Laboratory of Biomolecular Recognition, Institute of Biotechnology of the Czech Academy of Sciences, Vestec 25250, Czech Republic."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/22 20:45",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42635294",
+      "41980963",
+      "41074865",
+      "40631274"
+    ],
+    "refs": [
+      "39531032",
+      "39143073",
+      "39037420",
+      "38846079",
+      "38476039",
+      "38155650",
+      "37944792",
+      "37527339",
+      "37369667",
+      "36764820",
+      "36671546",
+      "36209004",
+      "35552382",
+      "34994189",
+      "34142688",
+      "33621443",
+      "33561578",
+      "33545034",
+      "33337855",
+      "32880430",
+      "32601426",
+      "32202114",
+      "32139757",
+      "31913281",
+      "31733726",
+      "31363226",
+      "31076970",
+      "30787421",
+      "30301917",
+      "30028876",
+      "29432690",
+      "29239168",
+      "29042655",
+      "28868541",
+      "28349863",
+      "28145707",
+      "27993986",
+      "27861974",
+      "27537211",
+      "27353329",
+      "26648256",
+      "25621532",
+      "25450171",
+      "25229449",
+      "24790107",
+      "24764093",
+      "24413462",
+      "23992349",
+      "23743549",
+      "23621750",
+      "23252338",
+      "23205774",
+      "21923139",
+      "21868352",
+      "21822294",
+      "21606338",
+      "21190063",
+      "21028987",
+      "20800068",
+      "20593779",
+      "19548092",
+      "19243237",
+      "19063612",
+      "18930433",
+      "17618649",
+      "17380429",
+      "17292618",
+      "16211538",
+      "16188473",
+      "15070357",
+      "15066170",
+      "11606742",
+      "11226511",
+      "10212987",
+      "9461081",
+      "7514039",
+      "6498164"
+    ],
+    "similar": [
+      "40119733",
+      "21606338",
+      "23205774",
+      "24278408",
+      "29239168",
+      "23992349",
+      "36764820",
+      "28926259",
+      "34142688",
+      "31082213",
+      "19432415",
+      "22326872",
+      "24817153",
+      "23940057",
+      "21259411",
+      "18774803",
+      "26402155",
+      "30011332",
+      "28868541",
+      "21888341",
+      "18831535",
+      "9063874",
+      "10924135",
+      "31131470",
+      "16952375",
+      "38014591",
+      "17990262",
+      "17373777",
+      "32029866",
+      "22833672",
+      "10924137",
+      "36671546",
+      "19055322",
+      "29432690",
+      "9622492",
+      "9398151",
+      "29989797",
+      "12206666",
+      "16552739",
+      "18722438",
+      "9657679",
+      "12924934",
+      "31249341",
+      "23252338",
+      "31994556",
+      "21688827",
+      "16829579",
+      "25734798",
+      "21410163",
+      "23467500",
+      "11027150",
+      "2261478",
+      "17292618",
+      "17371048",
+      "18771279",
+      "28137837",
+      "33037153",
+      "12098705",
+      "18989482",
+      "10493805",
+      "38280482",
+      "12068117",
+      "11469801",
+      "21110976",
+      "23042418",
+      "15723549",
+      "28502782",
+      "17944933",
+      "35334189",
+      "17497893",
+      "28530801",
+      "23828427",
+      "38385342",
+      "21680741",
+      "33621443",
+      "10903950",
+      "23746326",
+      "21923139",
+      "19438712",
+      "28256579",
+      "39413722",
+      "33289305",
+      "10610792",
+      "21388385",
+      "15157083",
+      "12682068",
+      "20459101",
+      "26083743",
+      "10931200",
+      "10353827",
+      "22982476",
+      "25887755",
+      "8885832",
+      "28499769",
+      "36835143",
+      "17764689",
+      "12161636",
+      "17209564",
+      "31116222",
+      "16239726"
+    ],
+    "review": [
+      "40119733",
+      "16552739"
+    ],
+    "pmc": [
+      "11928941"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40119733/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf215",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

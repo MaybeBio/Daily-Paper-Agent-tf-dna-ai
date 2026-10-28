@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "39730994",
+    "doi": "10.1186/s10020-024-01022-3",
+    "title": "Bioinformatics based exploration of the anti-NAFLD mechanism of Wang's empirical formula via TLR4/NF-kappaB/COX2 pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Nonalcoholic fatty liver disease (NAFLD) has developed as a leading public wellness challenge as a result of changes in dietary patterns. Unfortunately, there is still a lack of effective pharmacotherapy methods for NAFLD. Wang's empirical formula (WSF) has demonstrated considerable clinical efficacy in treating metabolic disorders for years. Nevertheless, the protective effect of WSF against NAFLD and its underlying mechanism remains poorly understood. METHODS: The NAFLD model was established using a 17-week high-sucrose and high-fat (HSHF) diet with 32 ICR mice. In assessing the therapeutic efficacy of WSF on NAFLD, we detected changes in body weight, viscera weight, biomarkers of glycolipid metabolism in serum and liver, transaminase levels and histopathology of liver with H&E and Oil Red O staining after oral administration. The chemical components in WSF were extensively identified and gathered utilizing the HPLC-Q-TOF/MS system, database mining from HMDB, MassBank, and TCMSP databases, alongside literature searches from CNKI, Wanfang and VIP databases. The forecast of network pharmacology approach was then utilized to investigate the probable mechanisms by which WSF improves NAFLD based on the performance of prospective target identification and pathway enrichment analysis. Besides, molecular docking was also conducted for the verification of combination activities between active components of WSF and core proteins related to NAFLD. In final, validation experiments of obtained pathways were conducted through ELISA, immunohistochemistry (IHC), and western blot (WB) analysis. RESULTS: Pharmacodynamic outcomes indicated that WSF intervention effectively mitigated obesity, fat accumulation in organs, lipid metabolism disorders, abnormal transaminase levels and liver pathology injury in NAFLD mice (P < 0.05, 0.01). A total of 72 existent ingredients of WSF were acquired by HPLC-Q-TOF/MS and database, and 254 common targets (11.6% in total targets) of NAFLD and WSF were identified. Network pharmacology revealed that WSF presses NAFLD via modulating TNF, IL6, AKT1, IL1B, PTGS2 (COX2), and other targets, and the probable pathways were primarily inflammatory signaling pathways, as confirmed by molecular docking. Molecular biology experiments further conformed that WSF could decrease levels of inflammatory factors like IL-1beta, IL-6 and TNF-alpha (P < 0.01) and expression of TLR4, NF-kappaB and COX-2 (P < 0.05, 0.01) in the liver. CONCLUSION: WSF treatment effectively protects against lipid metabolism disorders and liver inflammation injury in HSHF diet-induced NAFLD mice, and its molecular mechanism might be via suppressing the TLR4/NF-kappaB/COX-2 inflammatory pathway to reduce the release of inflammatory cytokines in the liver.",
+    "keywords": [
+      "Bioinformatics",
+      "HPLC-Q-TOF/MS",
+      "Liver inflammation",
+      "Network pharmacology",
+      "Nonalcoholic fatty liver disease",
+      "Wang's empirical formula"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Toll-Like Receptor 4/metabolism",
+      "*Non-alcoholic Fatty Liver Disease/drug therapy/metabolism",
+      "*NF-kappa B/metabolism",
+      "*Computational Biology/methods",
+      "Mice",
+      "*Signal Transduction/drug effects",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use/chemistry",
+      "*Cyclooxygenase 2/metabolism",
+      "Male",
+      "Disease Models, Animal",
+      "Molecular Docking Simulation",
+      "Liver/metabolism/drug effects/pathology",
+      "Diet, High-Fat/adverse effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Suhong",
+        "Zhou, Chuanjie",
+        "Huang, Jiahui",
+        "Qiao, Yunlong",
+        "Wang, Ning",
+        "Huang, Yuzhen",
+        "Li, Bo",
+        "Xu, Wanfeng",
+        "He, Xinglishang",
+        "Wang, Kungen",
+        "Zhi, Yihui",
+        "Lv, Guiyuan",
+        "Shen, Shuhua"
+      ],
+      "short_names": [
+        "Chen S",
+        "Zhou C",
+        "Huang J",
+        "Qiao Y",
+        "Wang N",
+        "Huang Y",
+        "Li B",
+        "Xu W",
+        "He X",
+        "Wang K",
+        "Zhi Y",
+        "Lv G",
+        "Shen S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "College of Pharmaceutical Science, Zhejiang Chinese Medical University, No. 548, Binwen Road, Biniang District, Hangzhou, 310053, Zhejiang, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+        "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+        "Disease Prevention and Health Management Center, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310006, Zhejiang, China. wkg1220@163.com.",
+        "Kun-Gen Wang National Famous Chinese Medicine Doctor Studio, Hangzhou, 310006, Zhejiang, China. wkg1220@163.com.",
+        "Disease Prevention and Health Management Center, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310006, Zhejiang, China. medcat4@163.com.",
+        "Kun-Gen Wang National Famous Chinese Medicine Doctor Studio, Hangzhou, 310006, Zhejiang, China. medcat4@163.com.",
+        "College of Pharmaceutical Science, Zhejiang Chinese Medical University, No. 548, Binwen Road, Biniang District, Hangzhou, 310053, Zhejiang, China. zjtcmLgy@163.com.",
+        "Disease Prevention and Health Management Center, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310006, Zhejiang, China. linda0358@163.com.",
+        "Kun-Gen Wang National Famous Chinese Medicine Doctor Studio, Hangzhou, 310006, Zhejiang, China. linda0358@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Suhong",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China.",
+          "College of Pharmaceutical Science, Zhejiang Chinese Medical University, No. 548, Binwen Road, Biniang District, Hangzhou, 310053, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chuanjie",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiahui",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Yunlong",
+        "short_name": "Qiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuzhen",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bo",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wanfeng",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "He, Xinglishang",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, No. 18, Chaowang Road, Gongshu District, Hangzhou, 310014, Zhejiang, China.",
+          "Zhejiang Provincial Key Laboratory of TCM for Innovative R & D and Digital Intelligent Manufacturing of TCM Great Health Products. Huzhou, Zhejiang, 313200, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kungen",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Prevention and Health Management Center, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310006, Zhejiang, China. wkg1220@163.com.",
+          "Kun-Gen Wang National Famous Chinese Medicine Doctor Studio, Hangzhou, 310006, Zhejiang, China. wkg1220@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhi, Yihui",
+        "short_name": "Zhi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Prevention and Health Management Center, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310006, Zhejiang, China. medcat4@163.com.",
+          "Kun-Gen Wang National Famous Chinese Medicine Doctor Studio, Hangzhou, 310006, Zhejiang, China. medcat4@163.com."
+        ]
+      },
+      {
+        "full_name": "Lv, Guiyuan",
+        "short_name": "Lv G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Science, Zhejiang Chinese Medical University, No. 548, Binwen Road, Biniang District, Hangzhou, 310053, Zhejiang, China. zjtcmLgy@163.com."
+        ]
+      },
+      {
+        "full_name": "Shen, Shuhua",
+        "short_name": "Shen S",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Prevention and Health Management Center, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310006, Zhejiang, China. linda0358@163.com.",
+          "Kun-Gen Wang National Famous Chinese Medicine Doctor Studio, Hangzhou, 310006, Zhejiang, China. linda0358@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular medicine (Cambridge, Mass.)"
+    ],
+    "journal_abbrev": [
+      "Mol Med"
+    ],
+    "pub_date": "2024 Dec 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/28 11:44",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "41958576",
+      "41776105",
+      "41202015"
+    ],
+    "refs": [
+      "39191120",
+      "38887554",
+      "38694920",
+      "38294255",
+      "38069658",
+      "37833289",
+      "37779461",
+      "37597527",
+      "37267350",
+      "37094423",
+      "37065701",
+      "36917917",
+      "36908041",
+      "36762105",
+      "36743916",
+      "36608779",
+      "36563889",
+      "36405068",
+      "36400097",
+      "36263163",
+      "36208625",
+      "36205541",
+      "36183169",
+      "36118001",
+      "36117665",
+      "35987407",
+      "35781311",
+      "35295576",
+      "35165529",
+      "35141225",
+      "35140604",
+      "35021057",
+      "34848359",
+      "34649337",
+      "34450307",
+      "34368214",
+      "34034779",
+      "33989548",
+      "33866197",
+      "33801028",
+      "33546051",
+      "33348908",
+      "33338839",
+      "33332766",
+      "33182043",
+      "33121337",
+      "32505199",
+      "32278004",
+      "32184095",
+      "31998400",
+      "31421545",
+      "31378113",
+      "31070259",
+      "30902670",
+      "30891077",
+      "30398639",
+      "30343320",
+      "30179269",
+      "30103919",
+      "29468973",
+      "28930295",
+      "28714183",
+      "28642059",
+      "28545937",
+      "28486193",
+      "27890642",
+      "27872651",
+      "27063272",
+      "26823198",
+      "26512983",
+      "26337666",
+      "26328537",
+      "26055949",
+      "25582706",
+      "25468160",
+      "24550191",
+      "23975340",
+      "19499576",
+      "15915461",
+      "9547102"
+    ],
+    "similar": [
+      "39730994",
+      "41814740",
+      "42173415",
+      "40350886",
+      "40294666",
+      "42011589",
+      "38583728",
+      "41470792",
+      "36509260",
+      "37317908",
+      "40615099",
+      "32521450",
+      "40013962",
+      "42196377",
+      "38906030",
+      "42004952",
+      "40892742",
+      "33444723",
+      "41052689",
+      "33771638",
+      "42543283",
+      "41547913",
+      "41087767",
+      "39910919",
+      "33626003",
+      "41389887",
+      "37859322",
+      "37863399",
+      "38696100",
+      "42278231",
+      "40684492",
+      "38588984",
+      "37023836",
+      "41962267",
+      "40140444",
+      "40553825",
+      "42276391",
+      "37976695",
+      "41864553",
+      "41814794",
+      "39610125",
+      "39490432",
+      "40916281",
+      "41508081",
+      "30851372",
+      "40884939",
+      "38566171",
+      "32884949",
+      "37440274",
+      "39127115",
+      "39374881",
+      "41564986",
+      "42294648",
+      "38851104",
+      "40345270",
+      "40553824",
+      "38964626",
+      "39879705",
+      "39639497",
+      "36646160",
+      "41907553",
+      "40107184",
+      "42421348",
+      "39510336",
+      "41139042",
+      "40858660",
+      "39892308",
+      "40484254",
+      "40684491",
+      "41570783",
+      "39388921",
+      "42543338",
+      "39488873",
+      "33810882",
+      "39369919",
+      "41508247",
+      "39536891",
+      "40020626",
+      "41990925",
+      "41067318",
+      "38943739",
+      "38981149",
+      "33121337",
+      "40570565",
+      "39186724",
+      "31558860",
+      "41286425",
+      "39563215",
+      "40517619",
+      "39354758",
+      "39191120",
+      "33640247",
+      "39074420",
+      "38972238",
+      "36762105",
+      "39120856",
+      "42085848",
+      "41038150",
+      "38833791",
+      "31819375"
+    ],
+    "review": [
+      "39730994",
+      "33810882"
+    ],
+    "pmc": [
+      "11673956"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molmed.biomedcentral.com/articles/10.1186/s10020-024-01022-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39730994/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.20.524865",
+  "title": "Comparison of force fields to study the zinc-finger containing protein NPL4, a target for Antabuse in cancer therapy",
+  "authors": "Scrima S; Tiberti M; Ryde U; Lambrughi M; Papaleo E",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-21",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过MD模拟比较力场参数以研究锌指蛋白NPL4与金属离子的结合，虽涉及蛋白-金属互作而非TF-DNA体系，但力场评估与金属离子建模方法对蛋白-DNA互作模拟具有可借鉴性。",
+  "abstract": "All-atom molecular dynamics (MD) simulations are a powerful approach to study the structure and dynamics of proteins related to health and disease. Advances in the MD field allow modeling proteins with high accuracy. However, modeling metal ions and their interactions with proteins is still challenging for MD simulations. Over one-third of known protein structures bind metal ions and have various cellular functions, such as structural stability, catalysis, and regulation. NPL4 is a zinc-binding protein and works as a cofactor for p97, and together they regulate protein homeostasis. NPL4 is also of biomedical importance and has been proposed as the target of Antabuse, a drug recently repurposed for cancer treatment. Recent experimental studies have proposed that the Antabuse metabolites, bis- (diethyldithiocarbamate)-copper (CuET) and cupric ions released from CuET, induce NPL4 misfolding and consequent aggregation. However, the molecular details of the mechanisms of interactions of Antabuse metabolites with NPL4 and the consequent structural effects are still elusive. In this context, biomolecular simulations can help to shed light on the related structural details. To apply MD simulations to NPL4 and its interaction with copper or Antabuse metabolites the first important step is identifying a suitable force field to describe the protein in its zinc-bound states. We first examined different sets of non-bonded parameters, because we want to study the misfolding mechanism and cannot rule out that the zinc ion may detach from the protein structure during the process and copper replaces it in the metal binding site. We investigated the force-field ability to model the coordination geometry of the metal ions by comparing the results from MD simulations with optimized geometries from quantum mechanics (QM) calculations using model systems of the zinc coordination site for NPL4. Furthermore, we investigated the performance of a MD force field including bonded parameters to treat copper ions and metal-coordinating atoms in NPL4 that we obtained based on QM calculations.",
+  "abstract_zh": "全原子分子动力学（MD）模拟是研究健康与疾病相关蛋白质结构与动力学的有力方法。MD领域的进展使得蛋白质建模具有高精度。然而，对金属离子及其与蛋白质相互作用的建模对MD模拟而言仍具挑战性。已知超过三分之一的蛋白质结构结合金属离子，并具有多种细胞功能，如结构稳定性、催化和调控。NPL4是一种锌结合蛋白，作为p97的辅因子，共同调节蛋白质稳态。NPL4也具有生物医学重要性，并已被提议作为Antabuse（一种近期被重新用于癌症治疗的药物）的靶点。近期实验研究提出，Antabuse代谢物双（二乙基二硫代氨基甲酸）-铜（CuET）及从CuET释放的铜离子诱导NPL4错误折叠及随后的聚集。然而，Antabuse代谢物与NPL4相互作用的分子机制细节及其结构效应仍不明确。在此背景下，生物分子模拟有助于揭示相关结构细节。为了将MD模拟应用于NPL4及其与铜或Antabuse代谢物的相互作用，首要步骤是确定合适的力场来描述其锌结合状态下的蛋白质。我们首先检查了不同的非键参数集，因为我们要研究错误折叠机制，且不能排除锌离子在此过程中可能从蛋白质结构上脱离，而铜在其金属结合位点取代锌。我们通过将MD模拟结果与基于NPL4锌配位位点模型系统的量子力学（QM）计算优化几何结构进行比较，考察了力场模拟金属离子配位几何的能力。此外，我们评估了一种包含键合参数的MD力场在处理NPL4中铜离子及金属配位原子方面的性能，该力场基于QM计算获得。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.20.524865",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.20.524865",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.20.524865/index.html"
+}

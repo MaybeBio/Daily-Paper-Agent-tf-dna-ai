@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, and ancillary sections) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methodology, evidence, and presentation. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The manuscript proposes a deep convolutional neural network (DRCNN) model that reads gene regulatory expression sequences to detect transcription factor binding motifs, with the aim of predicting disease conversion probability from mild cognitive impairment to Alzheimer's disease. The authors claim improved generalization performance when training genome-wide with overlapping segments, effective learning with up-sampled positive cases, and the ability to visualize genomic sequence features in a compositional manner.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusion, Author Contributions, Funding, Conflict of Interest, Data Availability, Acknowledgments. No figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** All figures (Fig. 1-5) referenced in the text are absent. No quantitative results, performance metrics, benchmark comparisons, or statistical analyses are reported. No details on the ADNI dataset used, preprocessing steps, model architecture specifics, training hyperparameters, or evaluation protocols are provided. No code or data availability beyond a general ADNI URL.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptual framework for applying deep regulatory genomic neural networks to Alzheimer's disease gene association prediction, but it lacks the essential components of a scientific study. The text reads as a narrative review or position statement rather than a research article reporting original findings. No experimental results, model performance evaluations, or validation studies are presented. The methodological descriptions are superficial and often disconnected from the stated objectives. The claims made in the abstract and conclusion are not supported by any visible evidence within the manuscript.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics might find the general concept of applying convolutional neural networks to transcription factor binding prediction of interest, though the lack of results limits utility. Alzheimer's disease geneticists could be interested in the potential application of deep learning to AD risk prediction, but the absence of empirical validation makes the work currently of limited value to this community.
+- **Major strengths** The manuscript addresses a relevant and timely topic at the intersection of deep learning and Alzheimer's disease genomics. The authors correctly identify the importance of transcription factor binding and gene regulatory mechanisms in AD pathogenesis. The discussion of APOE isoforms and their diverse biological effects is reasonably comprehensive and well-referenced. The acknowledgment of limitations in the conclusion demonstrates some awareness of the model's constraints.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence and support for claims
+  - **Claim pointer** The abstract claims that the proposed DRCNN model "results in the prediction of disease conversion probability from mild cognitive impairment to AD."
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** No experimental results, performance metrics, or validation outcomes are presented anywhere in the manuscript. The Results section contains no quantitative data, no model outputs, no accuracy measures, no comparison with baseline methods, and no demonstration that the model can actually predict MCI to AD conversion. The section reads as a discussion of methodological choices rather than a report of findings.
+  - **Why it matters** The central claim of the paper, that the model predicts disease conversion, is entirely unsupported. Without any empirical evidence, the scientific contribution cannot be evaluated. The reader cannot assess whether the model works, how well it performs, or whether it has any predictive value.
+  - **Resolution test** The authors must provide quantitative results from model training and evaluation, including performance metrics (e.g., accuracy, AUC, sensitivity, specificity) on held-out test data, ideally with comparison to baseline or existing methods. The claim of predicting MCI to AD conversion must be directly demonstrated with data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology and reproducibility
+  - **Claim pointer** The Materials and Methods section describes a DRCNN model with convolutional layers, PSM scoring, ReLU thresholding, and max-pooling, trained on genome-wide segments.
+  - **Evidence pointer** Materials and Methods section, location not provided
+  - **Concern** The methodological description is insufficient for replication. Key details are missing: the exact architecture (number of layers, filter sizes, stride values beyond the one example), the training procedure (optimizer, learning rate, loss function, batch size, number of epochs), the data preprocessing steps (how ADNI genetic data were converted to sequences, how positive and negative sets were defined), and the evaluation protocol. The mention of "200 self-iterations" and "pre-defined stopping conditions" is vague. The relationship between the simulated sequences and the actual ADNI data is unclear.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific research. Without complete methodological details, other researchers cannot replicate the work, verify the claims, or build upon the approach. The current description is at the level of a conceptual outline rather than a reproducible method.
+  - **Resolution test** Provide a complete and detailed description of the model architecture, training procedure, data preprocessing, and evaluation methodology. Include all hyperparameters, software versions, and any code or pseudocode necessary for replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data and dataset description
+  - **Claim pointer** The manuscript states that GWAS studies were obtained from ADNI and that training was performed genome-wide by segmenting the genome into 200 bp overlapping segments.
+  - **Evidence pointer** Materials and Methods section, Data Availability section, location not provided
+  - **Concern** The dataset used is not adequately described. No information is provided about the number of samples, the cohort characteristics (age, sex, ethnicity, clinical diagnosis), the genotyping platform, quality control procedures, or how the genetic data were processed into the sequence format used by the model. The Data Availability section only provides a general URL for ADNI without specifying which particular dataset or version was used.
+  - **Why it matters** The validity and generalizability of any predictive model depend critically on the quality and characteristics of the training data. Without a clear description of the dataset, the reader cannot assess potential biases, the applicability of the results, or the appropriateness of the conclusions.
+  - **Resolution test** Provide a detailed description of the dataset, including sample size, cohort demographics, inclusion and exclusion criteria, genotyping methods, quality control steps, and the specific ADNI data used. Clarify how the genetic data were transformed into the input sequences for the model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Results and validation
+  - **Claim pointer** The Results section claims that training genome-wide with overlapping segments "leads to improved generalization performance on the test set" and that the model "correctly learned the motif in the CTCF and SPI1 datasets."
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** These claims are presented without any supporting data. No test set results, no generalization metrics, no motif identification accuracy, and no comparison between training strategies are shown. The reference to "Fig. 4" cannot be evaluated as the figure is not provided. The discussion of up-sampling ratios (0.1, 0.5) is presented as questions rather than answered with experimental evidence.
+  - **Why it matters** The Results section is the core of any research paper. The absence of actual results means the manuscript does not fulfill its scientific purpose. The claims made are assertions without empirical backing, which is not acceptable in a research article.
+  - **Resolution test** Present the actual results of the experiments, including quantitative performance metrics, visualizations of learned motifs, comparisons between different training strategies, and statistical significance tests where appropriate.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Coherence and focus
+  - **Claim pointer** The manuscript's stated objective is to predict disease conversion probability from MCI to AD, but the methods and results focus on transcription factor binding motif detection.
+  - **Evidence pointer** Abstract, Introduction, Materials and Methods, Results, Discussion, location not provided
+  - **Concern** There is a fundamental disconnect between the stated goal and the actual content. The abstract and introduction frame the work as predicting MCI to AD conversion, but the methods and results describe a model for detecting transcription factor binding motifs in genomic sequences. The link between motif detection and disease conversion prediction is never established. The Discussion section covers APOE biology, reinforcement learning, and general transcription factor behavior, but does not connect these topics to the stated objective.
+  - **Why it matters** A research paper must have a clear and coherent narrative that connects the problem, the approach, and the findings. The current manuscript lacks this coherence, making it difficult for the reader to understand what was done, why it was done, and what was achieved.
+  - **Resolution test** Restructure the manuscript to clearly articulate the relationship between transcription factor binding motif detection and AD conversion prediction. Either provide evidence that motif detection can inform disease conversion prediction, or reframe the paper's objective to match the actual work performed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Writing and clarity
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The sentence "There are currently billion individuals living in the US. By 2050, 14 million Americans will be infected." is grammatically incorrect and contains a factual error. The authors themselves note this needs revision in the text.
+  - **Required correction** Correct the sentence to accurately state the number of individuals living in the US and the projected number affected by Alzheimer's disease by 2050, with appropriate citation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Materials and Methods, Results
+  - **Evidence pointer** Materials and Methods, Results, location not provided
+  - **Issue** The terms "Deep Regulatory CNN (DRCNN)" and "Deep Genome Regulatory Neural Network" are used interchangeably, and the model is also referred to as "DragoNN" in the Discussion. This inconsistency is confusing.
+  - **Required correction** Use a single consistent name for the model throughout the manuscript and clarify the relationship between DRCNN and DragoNN.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure references
+  - **Affected element** Multiple sections
+  - **Evidence pointer** Introduction, Materials and Methods, Results, location not provided
+  - **Issue** Figures 1-5 are referenced in the text but none are provided in the manuscript. The reader cannot evaluate the visual information that the text refers to.
+  - **Required correction** Include all figures with appropriate captions and ensure they are referenced correctly in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Materials and Methods, Hazard ratio section
+  - **Evidence pointer** Materials and Methods, location not provided
+  - **Issue** The definitions of hazard ratio, confidence interval, and p-value are provided as generic statistical concepts, but no actual hazard ratios, confidence intervals, or p-values are reported anywhere in the manuscript.
+  - **Required correction** Either report the actual statistical results from the analyses or remove these definitions if they are not used in the study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** References
+  - **Affected element** Introduction, Materials and Methods
+  - **Evidence pointer** Introduction, Materials and Methods, location not provided
+  - **Issue** Only a few references are cited (numbered [1]-[15]), and some statements that would typically require citations are unsupported. The reference list itself is not provided.
+  - **Required correction** Provide a complete reference list and ensure all factual claims are properly cited.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout
+  - **Evidence pointer** Entire manuscript, location not provided
+  - **Issue** The manuscript contains numerous grammatical errors, awkward phrasings, and unclear sentences that impede readability. Examples include "The gene expression sequence affects the pathology experienced by an individual, its longevity, and potential for a cure" and "The model runs through the training data completely for each epoch and modifies its weights on each gene motif to minimize the loss."
+  - **Required correction** The manuscript requires thorough language editing by a native English speaker or professional editing service to improve clarity and grammatical correctness.
+
+## Risk / unsupported claims
+- The central claim that the DRCNN model predicts disease conversion probability from MCI to AD is entirely unsupported by any experimental evidence.
+- The claim of improved generalization performance from genome-wide training with overlapping segments is unsupported, as no performance data are presented.
+- The claim that the model "correctly learned the motif" in CTCF and SPI1 datasets is unsupported, as no results are shown.
+- The claim that up-sampling positives to 30% of each batch "worked effectively" is unsupported by any data.
+- The statement that "APOE2 carriers exist 1 year longer than APOE4 carriers and live 1.2 years less than those with the APOE 3/3 genotype" is presented without citation or supporting data.
+- The claim that "training on the entire genome performed better on test sets for the SPI1 and CTCF tasks than using shuffled reference negatives" is unsupported, as no test set results are provided.
+- The overall applicability of the model to Alzheimer's disease prediction is not established, as the connection between transcription factor binding motif detection and clinical disease conversion is never demonstrated.

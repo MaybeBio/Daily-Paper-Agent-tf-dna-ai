@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results and discussion, conclusions, and author contributions.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of claims, and alignment with the stated evidence. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors report the design of a non-natural transcription factor (AdT) that responds to androst-4-ene-3,17-dione (AD), based on structure-guided molecular dynamics (MD) simulation. They claim that AD binding induces a conformational change bringing the DNA-binding domain (lexA) and activation domain (B42) into proximity, enabling transcriptional activation. A yeast biosensor was constructed to validate AdT activity, and a point mutation (F320Y) reportedly improved activity by 1.44-fold.
+- **Visible evidence base** Abstract, full methods, results and discussion sections, Figures 1–7, Table 1. No raw MD trajectories, no source data files, no statistical analysis details, no plasmid maps or sequence data.
+- **Missing materials affecting confidence** Raw MD trajectory data, force field parameters, convergence criteria, replicate statistics, raw fluorescence data, dose-response curve fits, plasmid construction details, and validation of protein expression levels. No information on how many independent biological replicates were performed for the biosensor assays.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting concept: using MD simulation to guide the modular assembly of a non-natural transcription factor. The idea of using a ligand-binding domain as a conformational microswitch is not entirely new, but the specific application to AD and the use of MD to justify domain proximity is a reasonable approach. However, the evidence provided is insufficient to fully support the central claims. The MD simulations are described with limited methodological detail, and the experimental validation is thin, with no statistical treatment or raw data. The 1.44-fold improvement from F320Y is presented without error bars or replicate information. The manuscript would benefit from more rigorous experimental validation, clearer presentation of MD results, and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and biosensor design would be interested. The concept of designing non-natural transcription factors via MD-guided domain assembly could be applicable to other ligand-responsive systems. Those working on steroid biotransformation and microbial cell factories for steroidal drugs may also find the AD-responsive biosensor useful.
+- **Major strengths** The concept of using MD to guide the design of a non-natural TF is timely and potentially useful. The modular assembly approach (lexA, linker, LBD, B42) is clearly described. The inclusion of a yeast biosensor as a proof-of-concept is appropriate. The identification of F320Y as an activity-enhancing mutation is a useful empirical finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulations
+  - **Claim pointer** The authors claim that MD simulations show AD binding induces a conformational change that brings lexA and B42 into proximity, enabling TF activity.
+  - **Evidence pointer** Methods section "MD simulations", Results section "Conformational stability of the AdT complex system", Figures 3, 5, 6
+  - **Concern** The MD simulation methodology is described with insufficient detail to assess its validity. The force field, water model, temperature/pressure coupling, equilibration protocol, and simulation length are mentioned, but no convergence criteria are given. The claim that "each MD simulation was performed at least 3 times" is vague; no replicate trajectories are shown, and no error estimates are provided for any MD-derived quantity. The distance between lexA and B42 is reported as a single trajectory value, but no statistical comparison between AD-bound and AD-free states is provided. The RMSF analysis (Figure 3b) is qualitative and does not establish a causal link between AD binding and domain proximity.
+  - **Why it matters** The central mechanistic claim of the paper rests on the MD results. Without rigorous sampling, convergence analysis, and statistical comparison, the claim that AD binding induces a specific conformational change is not established. This is a blocking issue because the entire design rationale depends on this simulation.
+  - **Resolution test** Provide detailed MD setup parameters, show convergence of RMSD and other relevant observables, run multiple independent replicates with error bars, and perform a statistical comparison of the lexA-B42 distance distribution between AD-bound and AD-free states. Ideally, also validate the predicted conformational change with an experimental method such as FRET or cross-linking.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and statistical rigor
+  - **Claim pointer** The authors claim that the yeast biosensor responds to AD with high sensitivity (EC50 = 10 mg/L) and that F320Y improves AdT activity by 1.44-fold.
+  - **Evidence pointer** Results section "Availability of AdT as a TF", Figure 7c, 7f
+  - **Concern** The biosensor data are presented without any indication of the number of biological replicates, error bars, or statistical tests. The EC50 value is given as a single number with no confidence interval. The 1.44-fold improvement for F320Y is reported without error bars or a statistical comparison to the wild-type. The dose-response curve (Figure 7c) is not shown with raw data points or a fitted model. The specificity data (Figure 7d) are qualitative and lack quantitative metrics.
+  - **Why it matters** Without proper replication and statistical analysis, the reported sensitivity and improvement cannot be distinguished from experimental noise. This undermines the quantitative claims of the paper and the practical utility of the biosensor.
+  - **Resolution test** Provide raw fluorescence data for at least three independent biological replicates, show error bars and statistical tests (e.g., t-test or ANOVA) for all comparisons, and fit the dose-response data to a standard model with confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of MD results
+  - **Claim pointer** The authors state that "AD caused the lexA closer to the B42" based on the distance of the center of geometry (Figure 6).
+  - **Evidence pointer** Results section "Effect of AD on the secondary structure of AdT", Figure 6
+  - **Concern** The distance difference of 1.8–2.7 nm is reported, but it is unclear whether this is a mean difference, a range across time, or a range across replicates. The text does not specify how this value was computed or whether it is statistically significant. The claim that this distance change is sufficient to enable TF activity is not supported by any functional correlation.
+  - **Why it matters** The quantitative interpretation of the MD results is central to the design rationale. Without clear statistics and a defined threshold for "sufficient proximity," the claim is not convincing.
+  - **Resolution test** Report the mean and standard deviation of the distance across replicates and time, perform a statistical test comparing AD-bound and AD-free states, and discuss what distance threshold is required for TF activity based on known structural data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction contain several grammatical errors and awkward phrasings (e.g., "gudied" in the CRediT statement, "the activity mechanism of AdT was understood using MD", "running in parallel to the signaling machinery"). These reduce readability.
+  - **Required correction** Thorough proofreading for grammar and clarity. Rewrite sentences for precision and flow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Construction of a three-dimensional full-length atom model of AdT"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the I-TASSER model selection is vague. The authors state that "model 1 was selected" based on C-score and decoy number, but no details are given on how the C-score threshold was chosen or whether other models were considered.
+  - **Required correction** Provide a table or figure showing the C-scores and decoy numbers for all five models, and justify the selection criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The RMSF plot (Figure 3b) is not labeled with residue numbers or domain boundaries, making it difficult to interpret which regions correspond to lexA, linker, LBD, and B42.
+  - **Required correction** Add domain boundaries and residue numbers to the x-axis of Figure 3b, and clearly indicate which regions correspond to which domains.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "Characterization of the TF activity of AdT"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods for the yeast biosensor assay are incomplete. No details are given on cell culture conditions, induction time, fluorescence measurement protocol, or how the EC50 was calculated.
+  - **Required correction** Provide full experimental details for the biosensor assay, including growth media, induction conditions, measurement parameters, and data analysis methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of mutation effects
+  - **Affected element** Results section "Availability of AdT as a TF", Figure 7f
+  - **Evidence pointer** Figure 7f
+  - **Issue** The authors state that L244 and F320 were mutated to alanine with no significant improvement, but then F320Y showed a 1.44-fold improvement. The rationale for testing tyrosine at position 320 is not explained, and the "QTY code" reference is not elaborated.
+  - **Required correction** Explain the rationale for the F320Y mutation and provide a brief explanation of the "QTY code" and its relevance.
+
+## Risk / unsupported claims
+- The claim that MD simulations demonstrate a causal link between AD binding and lexA-B42 proximity is unsupported due to insufficient methodological detail and lack of statistical analysis.
+- The claim that the biosensor has "high sensitivity" (EC50 = 10 mg/L) is unsupported without error bars or replicate data.
+- The claim that F320Y improves AdT activity by 1.44-fold is unsupported without statistical comparison.
+- The claim that the design strategy "will be applied to running in parallel to the signaling machinery of the host cell" is speculative and not supported by any experimental evidence.
+- The statement that "the results were credible" (regarding MD simulations) is an assertion without supporting convergence or validation data.

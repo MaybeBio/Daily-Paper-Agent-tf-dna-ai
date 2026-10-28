@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based solely on the provided text; figures, tables, and supplementary data referenced but not available for inspection
+- **Shared manuscript claim summary** The study uses MM/MD simulations to investigate adsorption and self-aggregation of chiral (M)- and (P)-5-aza[6]helicenes on double-stranded B-DNA at multiple stoichiometries, reporting enantiomer-specific groove preferences, concentration-dependent aggregation behavior, and formation of ordered hydrophobic coatings on the DNA surface
+- **Visible evidence base** Text descriptions of simulation protocols, qualitative results, and selected quantitative values (dihedral angles, interaction energies referenced in Table 1); figures and tables cited but not provided
+- **Missing materials affecting confidence** All figures (Figures 1, 4-11, S1-S6), Table 1, Table 2, simulation trajectory animations, force field parameters, and convergence criteria; without these, quantitative claims cannot be independently verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely topic at the interface of chiral molecular recognition, DNA nanotechnology, and supramolecular self-assembly. The extension from [5]-aza[5]helicenes to [5]-aza[6]helicenes is a logical progression, and the systematic variation of concentration and enantiomeric composition is commendable. However, the present text is insufficient to establish the core claims. Critical quantitative data are relegated to inaccessible tables and figures, the methods section lacks essential technical details (force field validation, equilibration criteria, error analysis), and several statements in the Results and Discussion are speculative or internally inconsistent. The work may have merit, but the evidence base as presented does not support the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers in chiral supramolecular chemistry, DNA-based nanomaterials, and computational chemistry of biomolecular interfaces would find this work relevant. The potential to design DNA-templated chiral coatings with tunable optical properties has implications for biosensing, chiroptical materials, and nanophotonics. The methodological approach may also interest computational chemists studying adsorption on chiral biological templates.
+- **Major strengths** 
+  - Systematic investigation of concentration effects (1:1, 1:20, 1:120 stoichiometries) and enantiomeric composition (enantiopure vs. racemic)
+  - Logical extension of prior work on [5]-aza[5]helicenes to the larger [6]helicene system
+  - Consideration of both adsorption on DNA and self-aggregation in the absence of DNA as control conditions
+  - Attention to solvent-accessible surface area and hydrophobic/hydrophilic character of the resulting complexes
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that (P)-6H shows more favorable interaction with the DNA major groove than (M)-6H, and that (M)-6H adsorbs faster at small concentration
+  - **Evidence pointer** Table 1, Figure 5, central panels of Figures 5 and 7; location not provided
+  - **Concern** The quantitative basis for the claimed enantioselectivity and kinetic differences is not visible. Table 1 is cited but not shown, and the energy values (Eint) are not reported in the text. The central panels of Figures 5 and 7 are described as showing potential energy and van der Waals contributions, but no numerical values, error bars, or statistical analyses are provided. Without these data, the reader cannot assess whether the reported differences between enantiomers are significant or within thermal fluctuations at 300 K.
+  - **Why it matters** The central claim of the paper is that the DNA chiral architecture discriminates between (M)- and (P)-enantiomers of 5-aza[6]helicenes. This claim rests entirely on quantitative energy comparisons that are not accessible in the provided text. If the energy differences are small relative to kT, the conclusion would be unsupported.
+  - **Resolution test** Provide Table 1 with all interaction energy values, include representative energy trajectories with error estimates, and state the magnitude of energy differences relative to thermal energy at 300 K. If possible, perform replicate simulations to assess statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the adsorption process, as well as the self-aggregation process, also took place before the final adsorption on the DNA surface" at higher concentration
+  - **Evidence pointer** Results and Discussion, section on higher concentration; location not provided
+  - **Concern** The temporal sequence of aggregation versus adsorption is described qualitatively without supporting data. No time-resolved analysis, cluster size distributions, or order parameters are presented. The claim that aggregation precedes adsorption is a kinetic statement that requires trajectory analysis to substantiate.
+  - **Why it matters** The proposed mechanism of "aggregate-then-adsorb" versus "adsorb-then-aggregate" has different implications for the structure of the final coating and for the design of DNA-templated materials. Without kinetic evidence, the mechanism remains speculative.
+  - **Resolution test** Provide time-resolved cluster analysis, radial distribution functions, or contact maps showing the evolution of helicene-helicene and helicene-DNA contacts during the simulation. Quantify the time scales of adsorption versus aggregation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims to use "the same simulation protocol" as a previous study (ref 30) with the consistent valence force field and Materials Studio packages
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Concern** The methods section is insufficiently detailed for reproduction. Missing information includes: force field parameters for the azahelicenes (are they standard CVFF or custom?); partial charge assignment method; equilibration protocol; thermostat/barostat settings; integration time step; non-bonded cutoff; treatment of long-range electrostatics; and criteria for determining equilibrium. The statement that DNA was "always fixed" is particularly concerning, as a rigid DNA template cannot capture induced-fit effects or the flexibility of the double helix, which may be relevant for groove binding.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of methodological detail prevents independent verification and limits the utility of the work for the community. The rigid DNA approximation may also bias the results toward specific binding modes.
+  - **Resolution test** Provide a complete methods section with all simulation parameters, force field details, and validation of the rigid-DNA approximation (e.g., comparison with flexible-DNA simulations for at least one system). Justify the choice of a fixed DNA model or discuss its limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript concludes that "these new stable adsorbed architectures likely interact differently with light" and suggests implications for optical properties
+  - **Evidence pointer** Conclusions; location not provided
+  - **Concern** The optical properties of the helicene-DNA complexes are speculated upon but never computed or measured. No excited-state calculations, UV-vis spectra simulations, or circular dichroism predictions are presented. The connection between the ground-state MD simulations and optical behavior is not established.
+  - **Why it matters** The potential for light-interacting materials is a key motivation for the work, as stated in the Introduction. Without any computational or experimental evidence for optical properties, this claim is unsupported and weakens the significance of the study.
+  - **Resolution test** Either remove or clearly label as speculative the statements about optical properties, or perform excited-state calculations (e.g., TD-DFT on representative aggregates) to provide preliminary evidence. Alternatively, frame the work strictly as a structural/thermodynamic study without claims about photophysics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that helicenes "modify after their adsorption the hydrophilicity exposed by DNA to the biological environment" but does not specify the direction of change (increase or decrease) or its magnitude. The term "hydrophilicity" is used loosely without reference to a quantitative measure (e.g., solvent-accessible surface area, contact angle).
+  - **Required correction** Specify whether adsorption increases or decreases the hydrophobic character of the DNA surface and provide a quantitative metric (e.g., percent change in SASA) in the abstract or results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results and Discussion, section on 1:1 stoichiometry
+  - **Evidence pointer** Results and Discussion; location not provided
+  - **Issue** The text states that "(P)-5-aza[6]helicene and (M)-5-aza[5]helicene both show more favorable interaction with the DNA major groove, but the (P)-6H, rather than (M)-6H (see Table 1), does so especially." This sentence is grammatically confusing and appears to compare [6]helicenes with [5]helicenes from a previous study, but the comparison is not clearly framed. It is unclear whether the comparison is between (P)-6H and (M)-6H, or between [6]helicenes and [5]helicenes.
+  - **Required correction** Rewrite the sentence to clearly separate the comparison between enantiomers of [6]helicene from the comparison between [5]- and [6]helicenes. For example: "Among the [6]helicene enantiomers, (P)-6H shows a stronger preference for the major groove than (M)-6H. This contrasts with the previously studied [5]helicenes, where (M)-5H preferred the minor groove."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, section on racemic mixtures
+  - **Evidence pointer** Results and Discussion; location not provided
+  - **Issue** The section on racemic mixtures reports that "all the molecules were adsorbed at the end of the DNA structure" at low concentration, but does not discuss whether enantioselective adsorption occurs in the racemic mixture. The competitive adsorption between (M)- and (P)-enantiomers is mentioned in the Introduction as a goal, but the results do not address whether one enantiomer preferentially occupies the major groove in the racemic case.
+  - **Required correction** Add analysis of enantiomeric composition in the adsorbed layer versus the solution phase for the racemic mixtures. If no enantioselectivity is observed, state this explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions; location not provided
+  - **Issue** The final paragraph introduces an extended analogy to lost-wax casting and Greek statues that is not directly relevant to the scientific content. While colorful, it detracts from the clarity of the conclusions and may confuse readers about the main findings.
+  - **Required correction** Remove or substantially shorten the analogy, and instead summarize the key quantitative findings and their implications in plain scientific language.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical completeness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Issue** The manuscript states that simulations were conducted "in a dielectric medium considering the distance-dependent dielectric constant of water" but does not specify the functional form of the distance-dependent dielectric or whether explicit water molecules were included. This is an unusual choice for biomolecular simulations and requires justification.
+  - **Required correction** Specify the dielectric model used, justify its choice over explicit solvent or a standard implicit solvent model, and discuss potential limitations for studying adsorption on a charged DNA surface.
+
+## Risk / unsupported claims
+- The claim that (P)-6H shows more favorable major groove binding than (M)-6H is unsupported without access to Table 1 and the energy trajectories
+- The claim that aggregation precedes adsorption at higher concentration is unsupported without time-resolved trajectory analysis
+- The claim that the resulting complexes "likely interact differently with light" is speculative and not backed by any excited-state calculations or experimental data
+- The claim that adsorption modifies the hydrophilicity of DNA is only qualitatively supported; no quantitative SASA values are provided in the text
+- The statement that "the structure of DNA appears to be a chiral model" is vague and not operationally defined
+- The comparison between [5]-aza[5]helicene and [5]-aza[6]helicene behavior is mentioned repeatedly but no direct comparative data are presented in the visible text
+- The claim that "the kinetics of the adsorption process was very fast" is not quantified with any time constants or rates
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The extension from [5]-aza[5]helicenes to [5]-aza[6]helicenes is incremental rather than conceptually novel. The idea of using DNA as a chiral template for helicene organization is interesting but builds directly on the authors' prior work (ref 30) without introducing a fundamentally new concept or methodology.
+- **Scientific importance** Limited as presented. The study addresses a niche question in computational supramolecular chemistry. The potential implications for optical materials are stated but not demonstrated. The findings, if fully supported, would be of interest to specialists but are unlikely to shift paradigms or open new research directions beyond the authors' own program.
+- **Interdisciplinary readership** Narrow. The work sits at the intersection of computational chemistry and DNA nanotechnology but does not currently speak to a broader audience. The lack of quantitative results and the speculative discussion of optical properties limit its appeal to researchers outside the immediate simulation community.
+- **Technical soundness** Not established from the provided material. The methods section is incomplete, the key quantitative data are not visible, and the rigid-DNA approximation is not justified. The absence of error analysis and replicate simulations further undermines confidence in the reported differences between enantiomers.
+- **Readability for nonspecialists** The text is generally readable but contains jargon and analogies that may obscure rather than clarify. The abstract and introduction are accessible, but the results section assumes familiarity with MD simulation conventions. The final analogy to lost-wax casting is out of place in a scientific conclusions section.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript addresses a reasonable scientific question and the authors have a plausible simulation strategy, but the essential quantitative evidence is not accessible in the provided text. The methods are insufficiently detailed for reproduction, and several interpretive claims go beyond what the visible data can support. I would be supportive of reconsideration if the authors provide the full data (tables, figures, trajectories), complete the methods section, add statistical analysis, and temper or remove the speculative claims about optical properties.

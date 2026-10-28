@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "42640683",
+    "doi": "10.1096/fj.202601438R",
+    "title": "Identification of Epigenetic Regulator-Associated Genes in Keloid Disease Through Integrated Bulk and Single-Cell Transcriptomics With RT-qPCR Validation."
+  },
+  "content": {
+    "abstract": "There exists a close correlation between epigenetic factors and the progression of keloid disease (KD). The research aims to identify the key genes linked to epigenetic factors in KD, which may provide new insights into the therapeutic management of KD. The four datasets (GSE113619, GSE145725, GSE181316, and GSE293834) and genes related to epigenetic factors (ERGs) were retrieved from public repositories. Machine learning algorithms combined with mRNA expression validation via RT-qPCR identified critical epigenetic factor-associated genes. Follow-up analyses included GSEA, immune cell infiltration assessment, therapeutic compound screening, and pseudotemporal trajectory analysis. RT-qPCR assays on clinical specimens confirmed the mRNA expression patterns of the identified genes. Three feature genes were identified, among which only HR and SMYD4 showed significant and consistent differential expression (p < 0.05). GSEA indicated enrichment of these genes in metabolic and cellular pathways including alpha-linolenic acid processing, riboflavin metabolism, and protein secretion mechanisms. Immune profiling showed elevated platelet frequencies and reduced dendritic cell populations in KD patients versus controls (p < 0.05). Computational screening identified 10 potential compounds for HR (including propylthiouracil, estradiol, and triiodothyronine) and 8 compounds for SMYD4 (including acetaminophen, bisphenol A, and pirinixic acid). Pseudotime analysis of smooth muscle cells and pericytes (SMC/PC) and melanocytes (MEL) showed that during cell differentiation, HR was predominantly expressed in MEL. Clinical validation confirmed these expression patterns. In the present investigation, two key genes associated with epigenetic factor were obtained, which might serve as potential exploratory biomarkers and warrant further epigenetic mechanistic investigation.",
+    "keywords": [
+      "bulk transcriptomics",
+      "epigenetic factor",
+      "keloid disease",
+      "machine learning",
+      "single-cell transcriptome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Keloid/genetics/metabolism/pathology",
+      "*Epigenesis, Genetic",
+      "*Transcriptome/genetics",
+      "Gene Expression Profiling/methods",
+      "Real-Time Polymerase Chain Reaction/methods",
+      "Single-Cell Analysis/methods",
+      "Kruppel-Like Factor 4",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yifei",
+        "Dou, Shuqian",
+        "Dai, Mingkun",
+        "Yang, Guoxun",
+        "Liu, Wenjun"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Dou S",
+        "Dai M",
+        "Yang G",
+        "Liu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Burns Surgery, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Burns Surgery, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Laboratory Medicine, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Burns, Plastics and Wound Repair Surgery, The First Affiliated Hospital of Dali University, Dali, Yunnan, China.",
+        "Department of Burns Surgery, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yifei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns Surgery, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Shuqian",
+        "short_name": "Dou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns Surgery, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Mingkun",
+        "short_name": "Dai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guoxun",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns, Plastics and Wound Repair Surgery, The First Affiliated Hospital of Dali University, Dali, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenjun",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burns Surgery, The Second Affiliated Hospital of Kunming Medical University, Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2026 Aug 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/25 17:35",
+    "fetched_at": "2026-10-02 04:26:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41964275",
+      "41669650",
+      "41594714",
+      "41180114",
+      "41028816",
+      "40969268",
+      "40495632",
+      "39930544",
+      "39923303",
+      "39844453",
+      "39625277",
+      "39014455",
+      "38892284",
+      "38553852",
+      "38444850",
+      "38438251",
+      "38302728",
+      "38250042",
+      "37973839",
+      "37967571",
+      "37895153",
+      "37603429",
+      "37307917",
+      "37033989",
+      "36725186",
+      "36701151",
+      "35953762",
+      "35688397",
+      "35278628",
+      "34557778",
+      "34498914",
+      "34489433",
+      "34242659",
+      "34152651",
+      "34002060",
+      "33601337",
+      "33597522",
+      "33329590",
+      "32907876",
+      "32645449",
+      "32479693",
+      "32154082",
+      "29870686",
+      "29781178",
+      "29435515",
+      "29141660",
+      "28765044",
+      "28054407",
+      "25639665",
+      "22442153",
+      "21414208",
+      "21269502"
+    ],
+    "similar": [
+      "42640683",
+      "42358997",
+      "41780417",
+      "41905994",
+      "41208974",
+      "41986576",
+      "42642681",
+      "42024670",
+      "42123445",
+      "41388523",
+      "41162503",
+      "40598145",
+      "41706425",
+      "41436831",
+      "42059276",
+      "41739808",
+      "39923303",
+      "42233387",
+      "42106542",
+      "40613560",
+      "36701151",
+      "41550926",
+      "39874886",
+      "41716413",
+      "42600038",
+      "42306043",
+      "40764361",
+      "42471019",
+      "41611834",
+      "41297235",
+      "42631563",
+      "40589764",
+      "41735888",
+      "41685329",
+      "41789070",
+      "40276515",
+      "42112332",
+      "41459503",
+      "42263482",
+      "41200172",
+      "42140356",
+      "39893187",
+      "42650150",
+      "39670237",
+      "42568110",
+      "35709926",
+      "39014455",
+      "42611748",
+      "42377012",
+      "39647286",
+      "42040898",
+      "41917876",
+      "41257259",
+      "42074501",
+      "41766871",
+      "40160813",
+      "39507054",
+      "42577419",
+      "42135635",
+      "40124361",
+      "39762852",
+      "40918148",
+      "41221285",
+      "42025819",
+      "42154423",
+      "41459538",
+      "41840716",
+      "42635083",
+      "42023244",
+      "42088521",
+      "42565562",
+      "42218835",
+      "42302029",
+      "42195052",
+      "41939867",
+      "41422136",
+      "41895505",
+      "41640571",
+      "39026663",
+      "42553137",
+      "41224720",
+      "40532306",
+      "41013556",
+      "42528732",
+      "42265520",
+      "42398170",
+      "41094572",
+      "42382126",
+      "42387880",
+      "41409278",
+      "40425742",
+      "40406126",
+      "39509434",
+      "41660070",
+      "39263286",
+      "42045413",
+      "40435823",
+      "41998008",
+      "42634206",
+      "39317554"
+    ],
+    "review": [
+      "42640683"
+    ],
+    "pmc": [
+      "13505708"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42640683/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202601438R",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

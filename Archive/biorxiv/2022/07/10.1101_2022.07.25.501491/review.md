@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, experimental logic, evidence consistency, and claims as presented in the supplied text; no external literature verification or supplementary data assessment beyond what is referenced
+- **Shared manuscript claim summary** The authors report structural and functional characterization of DprA from *Deinococcus radiodurans* (DrDprA), showing it binds both ssDNA and dsDNA with near-equal affinity, protects ssDNA from nucleases, interacts with DrRecA, and supports RecA-mediated strand exchange; they identify specific residues involved in DNA binding, oligomerization, and RecA interaction, and propose that both oligomerization and DNA binding are required for its recombination mediator function
+- **Visible evidence base** Results sections 1-5 with referenced figures (Fig. 1-7, Fig. S1-S3), Materials and methods sections 1-6, abstract, introduction, discussion
+- **Missing materials affecting confidence** Supplementary figures (S1-S3) and Table S1 are marked "for reviewers' information only" and were not provided; raw data for SPR, EMSA, and strand exchange assays are not shown; no statistical analysis details or replicate numbers are given; no data for the *dprA* deletion mutant phenotype beyond a brief mention in the introduction
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic biochemical characterization of DrDprA, a protein relevant to natural transformation in a radiation-resistant bacterium. The work addresses a reasonable gap, as DprA from *D. radiodurans* has not been functionally characterized in detail. The authors demonstrate several core activities (DNA binding, nuclease protection, RecA interaction, strand exchange support) and attempt to map functional residues via mutagenesis. However, the evidence as presented has significant limitations. Several key claims, particularly regarding the uniqueness of dsDNA binding, the in vivo relevance of the observed interactions, and the mechanistic interpretation of mutant phenotypes, are not fully supported by the data shown. The manuscript would benefit from additional quantitative data, clearer experimental controls, and a more cautious interpretation of the results. The writing is generally clear but contains some inconsistencies and overstatements that need revision.
+- **Who would be interested in the results, and why** Researchers studying natural transformation, DNA repair and recombination, and the molecular biology of *Deinococcus radiodurans*. The work may also be of interest to those studying recombination mediator proteins and their evolution across bacterial species. The potential link between DprA function and the extreme radiation resistance phenotype of *D. radiodurans* could attract a broader microbiology audience, though this connection is not experimentally addressed here.
+- **Major strengths** The manuscript addresses a relevant and understudied protein in an important model organism. The experimental approach is logical, combining bioinformatics, biochemistry, and mutagenesis. The finding that DrDprA binds dsDNA with near-equal affinity to ssDNA is potentially interesting and could represent a species-specific adaptation. The demonstration that DrDprA supports RecA-mediated strand exchange and counteracts SSB inhibition is consistent with its proposed role as a recombination mediator. The identification of specific residues involved in different functions provides a useful framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The authors claim that DrDprA binds both ssDNA and dsDNA with "nearly equal affinity" and that this is a unique feature compared to other DprA proteins.
+  - **Evidence pointer** Results section 2, Fig. 2, Fig. 3
+  - **Concern** The Kd values reported (3.039 ± 0.09724 μM for ssDNA and 3.526 ± 0.1172 μM for dsDNA) are very close, but the experimental details are insufficient to assess whether this difference is meaningful. The competition experiments described in the text are not shown in the provided figures, and the statistical treatment of the Kd values is not described. More importantly, the claim of "uniqueness" requires direct comparison with DprA proteins from other organisms under identical conditions, which is not provided. The authors cite literature for other DprAs but do not perform side-by-side binding assays.
+  - **Why it matters** The near-equal ss/dsDNA binding is presented as a key novel finding of the manuscript. If this claim is not robustly supported, the novelty of the work is substantially diminished. The comparison to other DprAs is essential to establish uniqueness, and without it, the claim is speculative.
+  - **Resolution test** Provide full binding curves with replicates and statistical analysis for both ssDNA and dsDNA. Include competition assay data. Perform parallel binding assays with at least one other DprA (e.g., from *S. pneumoniae* or *H. pylori*) under identical conditions to directly demonstrate the differential binding preference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance of observed interactions
+  - **Claim pointer** The authors state that DrDprA shows a strong interaction with DrRecA and that this interaction is relevant in vivo, based on co-immunoprecipitation (Co-IP) experiments in *D. radiodurans*.
+  - **Evidence pointer** Results section 3, Fig. 4
+  - **Concern** The Co-IP experiment is described briefly, and the figure is not available for review. The text states that "lanes representing samples from either DrDprA or DrRecA did not show a signal with the T18 antibody," but this is ambiguous. It is unclear whether proper controls were included, such as a mock IP with untagged cells, a reverse Co-IP (pulling down DrRecA and probing for DrDprA), or a competition control with excess untagged protein. The molecular weight of the detected band (~56 kDa) is stated to match T18-DrDprA, but the expected size of the fusion protein should be verified. Without these controls, the specificity of the interaction is not established.
+  - **Why it matters** The in vivo interaction between DrDprA and DrRecA is central to the proposed mechanism of DrDprA function. If this interaction is not convincingly demonstrated, the mechanistic model is weakened. The authors also do not address whether the interaction is direct or mediated by other proteins.
+  - **Resolution test** Provide full Co-IP data with all controls, including a no-antibody control, a control with untagged cells, and a reverse Co-IP. Include a direct binding assay (e.g., pull-down with purified proteins or surface plasmon resonance with both proteins in solution) to demonstrate a direct interaction. Quantify the interaction and show that it is specific.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of mutant phenotypes
+  - **Claim pointer** The authors conclude that both oligomerization and DNA binding properties of DrDprA are integral to its support in DrRecA-catalyzed strand exchange, based on mutant analysis.
+  - **Evidence pointer** Results section 4, Fig. 5, Fig. 6
+  - **Concern** The mutant analysis is described, but the data are not fully presented. The text states that mutants in DNA binding residues (R137, R234, F229) lost DNA binding activity and showed altered oligomerization, while oligomerization mutants (L293, H284) showed reduced DNA interaction. This cross-effect between mutations makes it difficult to attribute the loss of strand exchange support to a specific defect. The authors do not provide a clear separation of the two functions. Additionally, the strand exchange assays (Fig. 5C) are described only qualitatively; no quantification or statistical analysis is shown. The concentrations of proteins used are not given for all conditions.
+  - **Why it matters** The conclusion that both oligomerization and DNA binding are required for strand exchange support is a key mechanistic claim. If the mutants affect both properties simultaneously, the interpretation is confounded. The authors need to demonstrate that the loss of function is specifically due to the intended defect.
+  - **Resolution test** Provide full characterization of each mutant for all three properties (DNA binding, oligomerization, RecA interaction) in a systematic manner. Use separation-of-function mutants if possible. Quantify strand exchange activity with replicates and statistical analysis. Show that the mutants are properly folded (e.g., by circular dichroism or size exclusion chromatography).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of in vitro findings to in vivo function
+  - **Claim pointer** The authors suggest that DrDprA's dsDNA binding property "may suggest a more diverse function of DrDprA in DNA metabolism, including natural transformation."
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not provide any in vivo functional data linking the observed biochemical properties to natural transformation in *D. radiodurans*. The authors mention a *dprA* deletion mutant in the introduction but do not present any phenotypic analysis. The claim that dsDNA binding may indicate broader functions is speculative and not tested.
+  - **Why it matters** The physiological relevance of the biochemical findings is not established. Without in vivo data, the significance of the observed properties for natural transformation or other DNA metabolism processes remains unclear.
+  - **Resolution test** Perform transformation assays with a *dprA* deletion strain complemented with wild-type and mutant alleles to correlate biochemical properties with in vivo function. Alternatively, test the effect of DrDprA depletion on DNA repair phenotypes to assess broader functional roles.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states that DrDprA "is found to be a unique domain organization" but the introduction and results describe the domain organization as conserved with three domains (SAM, RF, DML1). The term "unique" is used ambiguously. Additionally, the abstract mentions "additional domain" without specifying which domain is additional relative to what comparator.
+  - **Required correction** Clarify the domain organization statement. Specify which domains are present and how they compare to other DprA proteins. Avoid the term "unique" unless a clear comparison is made.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section 2
+  - **Evidence pointer** Fig. 2, Fig. 3
+  - **Issue** The Kd values are reported with standard errors, but the number of replicates and the fitting method are not described in the results. The competition experiments are mentioned but not shown.
+  - **Required correction** Provide details on the number of independent experiments, the fitting procedure, and include the competition assay data in the main figures or supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section 4
+  - **Evidence pointer** Fig. 5, Fig. 6
+  - **Issue** The term "oligomerization" is used, but the authors do not specify the oligomeric state (dimer, tetramer, etc.) or the method used to determine it. The size exclusion chromatography data are referenced but not shown.
+  - **Required correction** Specify the oligomeric state of DrDprA and the method used to determine it. Include the size exclusion chromatography profiles in the supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions conflicting results regarding the effect of *dprA* deletion on radioresistance but does not provide specific references or data. This is presented as a motivation for the study but is not developed.
+  - **Required correction** Either provide the specific references and a brief summary of the conflicting results, or remove this statement to avoid an unsupported claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Materials and methods, section 4
+  - **Evidence pointer** Materials and methods, section 4
+  - **Issue** The DNA strand exchange reaction conditions are described, but the concentrations of DNA, proteins, and ATP are not specified for each experiment. The text refers to "indicated for each experiment" but the figure legends are not available.
+  - **Required correction** Provide the specific concentrations used in each experiment in the figure legends or in the methods section.
+- **Technical failings that need to be addressed before the case is established** The central claim of near-equal ss/dsDNA binding requires direct comparative data with other DprA proteins. The Co-IP experiment needs additional controls to establish specificity. The mutant analysis needs to separate the effects on DNA binding, oligomerization, and RecA interaction to support the mechanistic conclusion. The in vivo relevance of the findings is not established without functional assays in *D. radiodurans*.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The characterization of DrDprA is new for this organism, but the general functions of DprA (DNA binding, RecA interaction, strand exchange support) are well established in other bacteria. The potential novelty of dsDNA binding is interesting but not fully established.
+  - **Scientific importance** Moderate. The work contributes to understanding natural transformation in *D. radiodurans*, but the broader significance for the field of recombination or DNA repair is limited without in vivo functional data.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to specialists in bacterial transformation and recombination. The connection to radiation resistance is mentioned but not experimentally addressed, which limits broader appeal.
+  - **Technical soundness** The experimental approaches are generally appropriate, but the data presentation is incomplete. Key experiments lack controls, quantification, and statistical analysis. The interpretation of mutant phenotypes is confounded by cross-effects.
+  - **Readability for nonspecialists** The manuscript is reasonably well written and accessible to a general microbiology audience, but some terms and concepts (e.g., recombination mediator function, strand exchange) may require additional explanation for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and has potential, but the key claims require additional experimental support and clearer data presentation. The authors should address the major concerns regarding the uniqueness of dsDNA binding, the specificity of the DrDprA-DrRecA interaction, the interpretation of mutant phenotypes, and the in vivo relevance of the findings before the case is established.
+
+## Risk / unsupported claims
+- The claim that DrDprA has "unique" properties compared to other DprA proteins is not supported by direct comparative experiments.
+- The claim that both oligomerization and DNA binding are "integral" to DrDprA function in strand exchange is not fully supported due to the cross-effects of the mutations.
+- The suggestion that dsDNA binding may indicate broader functions in DNA metabolism is speculative and not tested.
+- The statement in the introduction that "the effects of dprA deletion on radioresistance and DSB repair reported earlier conflict with our studies" is not supported by data presented in this manuscript.
+- The in vivo interaction between DrDprA and DrRecA is not convincingly established due to insufficient controls in the Co-IP experiment.

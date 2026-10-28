@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "41581267",
+    "doi": "10.1016/j.ceca.2026.103122",
+    "title": "A NOX2-independent mechanism of Hv(1) channel activation promotes inflammatory cytokine release from BV-2 microglia via intracellular Ca(2+) mobilisation."
+  },
+  "content": {
+    "abstract": "Microglia are the primary immune cells to sense and respond to all the pathological events in the brain. Voltage-gated proton channels (Hv(1)) are specifically expressed in the microglia to regulate their intracellular pH and contribute to redox homeostasis. Our previous work identified that S-023-0515 is a novel activator of microglial Hv(1) channels, inducing neuroinflammation through unknown mechanisms. In this study, we demonstrate the direct binding of S-023-0515 onto the Hv(1) channel using molecular docking, molecular dynamics (MD) simulations, and Bio-layer interferometry (BLI) techniques. Treatment with S-023-0515 induced a sustained intracellular alkalization, resulting in a gradual increase in cytosolic Ca(2+) levels. None of the major plasma membrane Ca(2+) ion channels, such as TRPV1, Cav1.2, ASIC and P2X7, nor intracellular Ca(2+) release channels were found to be involved in S-023-0515-induced Ca(2+) increase. This mobilisation of Ca(2+) occurred through the sarco/endoplasmic reticulum Ca(2+)-ATPase (SERCA), as its inhibition annulled the S-023-0515-mediated Ca(2+) rise. Hv(1)-mediated Ca(2)(+) signaling further promoted NF-kappaB activation leading to a steady increase in proinflammatory cytokines, such as TNF-alpha and IL-1beta, in BV-2 microglial cells, representing an inflammatory microglial phenotype. Notably, the proinflammatory response was solely attributable to Hv(1) channel activation because neither NOX2 stimulation nor local cellular pH was altered following S-023-0515 treatment. Together, these findings suggest that NOX2-independent activation of Hv(1) channels triggers a Hv(1)-SERCA-Ca(2+)-NF-kappaBeta signalling cascade, disrupting intracellular Ca(2+) homeostasis and leading to microglial neurotoxicity.",
+    "keywords": [
+      "Activator",
+      "Ca(2+) mobilisation",
+      "Cytokines",
+      "Hv(1) channels",
+      "Intracelular pH",
+      "Microglia"
+    ],
+    "mesh_terms": [
+      "*Microglia/metabolism/drug effects",
+      "Animals",
+      "Mice",
+      "*Calcium/metabolism",
+      "*Cytokines/metabolism",
+      "*Ion Channels/metabolism/chemistry",
+      "*NADPH Oxidase 2/metabolism",
+      "Calcium Signaling/drug effects",
+      "Cell Line",
+      "NF-kappa B/metabolism",
+      "Sarcoplasmic Reticulum Calcium-Transporting ATPases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Ashutosh",
+        "Yadav, Priyanka",
+        "Yadav, Shivani",
+        "Kumar, Vikash",
+        "Ravendra Singh, Kunvar",
+        "Ranawat, Madhavi",
+        "Pal, Shivani",
+        "Yadav, Ankita",
+        "Nagendran, Gokul Krishnan",
+        "Kase, Sunil P",
+        "Yadav, Yaduvender",
+        "Mudedla, Satish K",
+        "Shinde, Valmik S",
+        "Kshatri, Aravind Singh"
+      ],
+      "short_names": [
+        "Sharma A",
+        "Yadav P",
+        "Yadav S",
+        "Kumar V",
+        "Ravendra Singh K",
+        "Ranawat M",
+        "Pal S",
+        "Yadav A",
+        "Nagendran GK",
+        "Kase SP",
+        "Yadav Y",
+        "Mudedla SK",
+        "Shinde VS",
+        "Kshatri AS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India. Electronic address: valmik.shinde.cdri@csir.res.in.",
+        "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India. Electronic address: aravind.kshatri.cdri@csir.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Ashutosh",
+        "short_name": "Sharma A",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Priyanka",
+        "short_name": "Yadav P",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Shivani",
+        "short_name": "Yadav S",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Vikash",
+        "short_name": "Kumar V",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Ravendra Singh, Kunvar",
+        "short_name": "Ravendra Singh K",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Ranawat, Madhavi",
+        "short_name": "Ranawat M",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Shivani",
+        "short_name": "Pal S",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Ankita",
+        "short_name": "Yadav A",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Nagendran, Gokul Krishnan",
+        "short_name": "Nagendran GK",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Kase, Sunil P",
+        "short_name": "Kase SP",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Yaduvender",
+        "short_name": "Yadav Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Mudedla, Satish K",
+        "short_name": "Mudedla SK",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India."
+        ]
+      },
+      {
+        "full_name": "Shinde, Valmik S",
+        "short_name": "Shinde VS",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India; Medicinal and Process Chemistry Division, CSIR- CDRI, Lucknow 226031, India. Electronic address: valmik.shinde.cdri@csir.res.in."
+        ]
+      },
+      {
+        "full_name": "Kshatri, Aravind Singh",
+        "short_name": "Kshatri AS",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience and Ageing Biology Division, CSIR- Central Drug Research Institute (CDRI), Lucknow 226031, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India. Electronic address: aravind.kshatri.cdri@csir.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell calcium"
+    ],
+    "journal_abbrev": [
+      "Cell Calcium"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/26 00:33",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41581267",
+      "24463247",
+      "40800612",
+      "27470181",
+      "22056415",
+      "23002008",
+      "26173779",
+      "23830920",
+      "36447422",
+      "36625847",
+      "28676401",
+      "33248207",
+      "33105046",
+      "22384096",
+      "24323712",
+      "41129234",
+      "31228609",
+      "31774629",
+      "40911376",
+      "30351197",
+      "31769505",
+      "28961043",
+      "28942245",
+      "42421050",
+      "23620825",
+      "34183051",
+      "28232180",
+      "18036262",
+      "40598588",
+      "19923466",
+      "33897377",
+      "28628214",
+      "33628369",
+      "17142754",
+      "34782552",
+      "30299656",
+      "41780099",
+      "31949049",
+      "33081841",
+      "23152983",
+      "18174159",
+      "33039662",
+      "39638264",
+      "24530511",
+      "41973919",
+      "16652343",
+      "25459294",
+      "31436944",
+      "20679352",
+      "32891159",
+      "9800209",
+      "32308370",
+      "29678169",
+      "30266587",
+      "38527567",
+      "29759145",
+      "22214747",
+      "23592775",
+      "32049639",
+      "18509044",
+      "21143139",
+      "29119451",
+      "35131015",
+      "33044639",
+      "42542040",
+      "18362111",
+      "29273047",
+      "42502884",
+      "32312847",
+      "31015738",
+      "20616314",
+      "25576626",
+      "24813114",
+      "28028837",
+      "37555355",
+      "41121478",
+      "39265792",
+      "24811179",
+      "24920669",
+      "33108514",
+      "40360886",
+      "30651105",
+      "33807711",
+      "31319868",
+      "31678720",
+      "31805819",
+      "26640965",
+      "24756575",
+      "38378800",
+      "32840676",
+      "27799320",
+      "31646517",
+      "26222336",
+      "31087489",
+      "12805281",
+      "41146197",
+      "26879835",
+      "41273574",
+      "27156691",
+      "17006894"
+    ],
+    "review": [
+      "41581267",
+      "24463247",
+      "22056415",
+      "33248207",
+      "24323712",
+      "33897377",
+      "34782552",
+      "30299656",
+      "41780099",
+      "31436944",
+      "9800209",
+      "21143139",
+      "33807711",
+      "31319868",
+      "31646517"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0143-4160(26)00015-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0143-4160(26)00015-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

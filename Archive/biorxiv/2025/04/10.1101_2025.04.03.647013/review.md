@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, and figure legends (as provided)
+- **Assessment boundary** Scientific content, methodological rigor, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors integrate single-cell transcriptomics, chromatin accessibility, DNA methylation, and 3D genome organization data across mouse corticogenesis (E13–E18) to show that neural stem cells (NSCs) progressively shift from a progenitor-biased state toward an astrocytic lineage, and that this is accompanied by coordinated changes in DNA methylation and 3D genome architecture. They further develop a machine-learning model integrating TF motif affinities with epigenetic features to predict cis-regulatory element (CRE) activation, and validate aspects of this model using in vivo massively parallel reporter assays (MPRAs).
+- **Visible evidence base** Results sections describing metacell flow modeling, NSC gene module analysis, scATAC-seq and methyl-HiC profiling, insulation score analysis, and MPRA experiments; methods sections for experimental procedures and computational analyses; figure references (Figs 1–7, S1–S6) without actual figure data
+- **Missing materials affecting confidence** Actual figures and supplementary tables (e.g., Supplementary Table 1) were not provided; raw data, quality control metrics, and statistical details for key comparisons are not fully described; details of the ICEQREAM model architecture and hyperparameter tuning are incomplete; MPRA validation details (e.g., number of biological replicates, effect sizes) are not fully specified
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive, multi-modal dataset of mouse corticogenesis that will be of substantial interest to the developmental neuroscience and epigenomics communities. The integration of scRNA-seq, scATAC-seq, methyl-HiC, and MPRA across a critical developmental window is ambitious and potentially valuable. The metacell flow modeling approach is sophisticated and could provide novel insights into NSC fate dynamics. However, several major concerns must be addressed before the central claims are fully supported. The evidence for a causal link between epigenetic remodeling and fate bias remains correlative, the statistical rigor of some key comparisons is unclear, and the predictive model's biological interpretability requires further validation. The manuscript would benefit from clearer presentation of effect sizes and confidence intervals for the central findings.
+- **Who would be interested in the results, and why** Developmental neuroscientists studying cortical neurogenesis and gliogenesis; epigenomics researchers interested in DNA methylation, chromatin accessibility, and 3D genome organization dynamics; computational biologists developing trajectory inference and gene regulatory network models; researchers studying stem cell fate commitment and plasticity. The comprehensive temporal dataset will serve as a valuable resource for the community.
+- **Major strengths** 1) The multi-modal, time-resolved dataset spanning E13–E18 is a significant resource. 2) The metacell flow modeling approach for inferring differentiation trajectories from temporal snapshots is methodologically advanced. 3) The integration of TF motif affinities with epigenetic features in a predictive model is a novel approach. 4) The in vivo MPRA validation across multiple time points adds functional relevance. 5) The observation of coordinated changes in DNA methylation, chromatin accessibility, and 3D organization in NSCs over time is potentially important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reproducibility
+  - **Claim pointer** The authors claim that NSCs "progressively shift from a progenitor-biased state toward an astrocytic lineage" and that this is accompanied by "changes in DNA methylation and 3D genome organization" (Abstract; Results sections on NSC fate bias and methylation).
+  - **Evidence pointer** Results sections "NSC fate bias changes with time and is synchronized with the cell cycle" and "Accessibility gain in NSCs is accompanied by progressive loss of CpG methylation"; Figures 2, 4; location not provided
+  - **Concern** The manuscript does not report effect sizes, confidence intervals, or statistical test details for the key temporal trends. For example, the claim that astrocyte-linked gene expression increases "by a factor of ∼8 between E13 and E18" (Results) lacks a measure of variability or significance. Similarly, the correlation between accessibility gain and methylation loss (r = 0.16, p = 0.02 for Tet1; r = 0.18, 0.13, 0.11 for Dnmt1/3a/3b) is weak, and the biological significance of such modest correlations is unclear. The number of biological replicates for methyl-HiC and Hi-C experiments is not stated. Without these details, the robustness of the central claims cannot be assessed.
+  - **Why it matters** The central thesis of the paper—that epigenetic remodeling underlies fate bias—depends on the reliability of these temporal trends. Weak correlations and unreported variability undermine confidence in the conclusions.
+  - **Resolution test** Provide effect sizes with confidence intervals for all key temporal comparisons; report the number of biological replicates for each experiment; state the statistical tests used and whether multiple testing corrections were applied; for the correlation analyses, provide scatter plots and consider whether the observed correlations are biologically meaningful given their magnitude.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors state that "loss of DNA methylation in NSC may be associated with priming and can participate in the regulation (and in particular, slow down) activation of the astrocytic program" (Results) and that "NSCs epigenome gradually drifts toward astrocyte state over time, offering insights into the mechanistic linkage between intrinsic epigenetic remodeling and evolving NSC fate bias" (Discussion).
+  - **Evidence pointer** Results sections on methylation and 3D genome organization; Discussion; location not provided
+  - **Concern** The manuscript presents correlative evidence linking epigenetic changes to fate bias but does not provide functional perturbation experiments to establish causality. The claim that methylation loss "can participate in the regulation" of astrocytic gene activation is speculative without direct manipulation (e.g., DNMT or TET inhibition/knockdown in NSCs). Similarly, the observed changes in 3D genome organization are not functionally tested. The authors acknowledge this limitation in the Discussion, but the framing of the abstract and results implies a stronger causal relationship than the data support.
+  - **Why it matters** The field has moved toward requiring functional validation for mechanistic claims. Without perturbation experiments, the manuscript's contribution is primarily descriptive, which may be acceptable for a resource paper but not for the mechanistic claims made.
+  - **Resolution test** Either temper the causal language throughout the manuscript to clearly indicate correlative findings, or add perturbation experiments (e.g., conditional knockout of Dnmt3a/Tet1 in NSCs, or disruption of specific TAD boundaries) to test whether altering the epigenetic state changes fate bias.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation and interpretability
+  - **Claim pointer** The machine-learning model "integrating TF motif affinities with epigenetic features identifies key regulators of cis-regulatory element (CRE) activation" and achieves an R² of 0.62 on held-out data (Results, Figure 6A).
+  - **Evidence pointer** Results section "Modelling IPC chromatin accessibility using TF affinities and epigenomics"; Figure 6; location not provided
+  - **Concern** The model's predictive performance (R² = 0.62) is reported, but the manuscript does not provide sufficient detail on the model architecture, feature importance, or validation strategy. The claim that the model "identifies key regulators" is not supported by experimental validation of the predicted TFs. The SHAP analysis identifies important features, but the biological relevance of these features is not tested. Additionally, the model's generalizability is unclear—the R² of 0.62 on held-out data from the same dataset does not demonstrate that the model would perform well on independent datasets or other developmental contexts.
+  - **Why it matters** The model is presented as a key contribution, but without proper validation and interpretability analysis, its utility to the community is limited. The claim that it identifies "key regulators" requires experimental confirmation.
+  - **Resolution test** Provide more details on model architecture and hyperparameters; include feature importance plots with confidence intervals; validate predicted TFs experimentally (e.g., ChIP-seq or perturbation); test the model on an independent dataset (e.g., human cortical development data) to demonstrate generalizability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data integration and quality control
+  - **Claim pointer** The authors state that they "integrate single-cell transcriptomics and chromatin accessibility, together with genome-wide profiling of DNA methylation and 3D chromosomal contact" and that the scATAC-seq data were "mapped over the scRNA-seq metacells using matching gene variation" (Abstract; Results).
+  - **Evidence pointer** Results sections on scRNA-seq and scATAC-seq integration; Methods sections on metacell analysis and ATAC mapping; location not provided
+  - **Concern** The integration of scATAC-seq data with scRNA-seq metacells is a critical step, but the manuscript does not provide sufficient detail on the quality of this integration. The number of cells passing QC, the fraction of cells assigned to each metacell, and the robustness of the assignment are not reported. The authors mention that 28,229 cells were used for scATAC-seq, but the filtering removed 34% of profiles (Methods), and it is unclear how this affects the downstream analysis. The matching of ATAC profiles to RNA metacells relies on correlations that may be sensitive to technical artifacts.
+  - **Why it matters** The integration is foundational to the claims about cell-type-specific epigenetic changes. If the integration is noisy or biased, the conclusions about NSC fate bias could be affected.
+  - **Resolution test** Provide detailed QC metrics for scATAC-seq data (e.g., number of cells per time point, fraction of cells assigned to each metacell, reproducibility across batches); include a sensitivity analysis showing that the main conclusions are robust to different integration parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figures 3D–I and associated bar plots
+  - **Evidence pointer** Results section "Distinct temporal trends of neural chromatin remodeling"; location not provided
+  - **Issue** The description of the trajectory analysis for CRE kinetics (bar plots above Fig 3EF and under Fig 3HI) is difficult to follow. The distinction between "CfuPN-specific" and "CPN-specific" CREs and their temporal activation patterns is not clearly explained in the text.
+  - **Required correction** Clarify the definition of trajectory bins and how the bar plots are derived; consider adding a schematic diagram to illustrate the analysis workflow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methyl-HiC analysis
+  - **Evidence pointer** Methods section "Methyl-HiC"; location not provided
+  - **Issue** The description of the methyl-HiC data processing is brief. The bisulfite conversion efficiency, sequencing depth, and mapping statistics are not reported. The criteria for defining "well-covered" TSSs and CREs (99,078 loci) are not specified.
+  - **Required correction** Add a supplementary table with QC metrics for methyl-HiC data; specify the coverage thresholds used for inclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of insulation changes
+  - **Affected element** Figure 5A–G
+  - **Evidence pointer** Results section "Hi-C uncovers 3D chromosomal remodeling in NSCs over time"; location not provided
+  - **Issue** The biological interpretation of "insulating" and "de-insulating" regions is not fully developed. The authors show examples (Hapln2, Tnc) but do not discuss whether these changes are specific to NSCs or reflect global changes in genome organization during development.
+  - **Required correction** Discuss whether the observed insulation changes are NSC-specific or shared with other cell types; consider comparing with published Hi-C data from other brain cell types.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility of the interactive data portal
+  - **Affected element** URL provided in the Introduction
+  - **Evidence pointer** Introduction, last paragraph; location not provided
+  - **Issue** The interactive data portal (https://apps.tanaylab.com/MCV/mmcortex/) is mentioned, but it is unclear whether this resource will be maintained and whether the underlying data will be deposited in a public repository (e.g., GEO).
+  - **Required correction** State the data availability plan, including deposition of raw and processed data in a public repository, and provide details on how the portal will be maintained.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of statistical detail for key temporal comparisons (R1-M1); 2) Absence of functional validation for causal claims (R1-M2); 3) Insufficient model validation and interpretability (R1-M3); 4) Incomplete QC reporting for data integration (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The multi-modal, time-resolved approach is novel, and the integration of methylation, 3D genome organization, and accessibility in NSCs over time is not previously described. However, the individual components (scRNA-seq, scATAC-seq, methyl-HiC) are established technologies, and the conceptual advance is incremental. **Scientific importance:** The dataset and findings have the potential to be highly important for understanding NSC fate decisions and cortical development. The observation that NSCs progressively acquire an astrocytic epigenetic bias is potentially significant. However, the lack of causal evidence limits the immediate impact. **Interdisciplinary readership:** The work bridges developmental neuroscience, epigenomics, and computational biology, and will appeal to researchers in all three fields. The methods are described in sufficient detail for specialists, but the biological findings are accessible to a broader audience. **Technical soundness:** The computational methods are sophisticated, but the lack of statistical rigor and incomplete QC reporting are concerning. The model validation is insufficient. **Readability for nonspecialists:** The abstract and introduction are well-written and accessible, but the results section is dense and assumes significant background knowledge. The figures are referenced but not shown, making it difficult to assess clarity.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable dataset and interesting observations, but the central claims require stronger statistical support and, ideally, functional validation. The authors should address the concerns regarding statistical rigor, model validation, and causal inference before the manuscript is suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that NSCs "progressively shift from a progenitor-biased state toward an astrocytic lineage" is supported by the data but lacks statistical detail to assess robustness.
+- The claim that "loss of DNA methylation in NSC may be associated with priming and can participate in the regulation of astrocytic program activation" is speculative and not supported by functional experiments.
+- The claim that the machine-learning model "identifies key regulators of CRE activation" is not validated experimentally.
+- The claim that "chromosomal architecture evolves over time to form a potentially astrocytic-biased architecture" is based on correlative Hi-C data and requires functional validation.
+- The generalizability of the predictive model to other datasets or developmental contexts is not demonstrated.

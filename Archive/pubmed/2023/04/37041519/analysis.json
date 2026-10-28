@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37041519",
+  "title": "Identification of immune-related molecular markers in intracranial aneurysm (IA) based on machine learning and cytoscape-cytohubba plug-in.",
+  "authors": "Ma, Zhengfei; Zhong, Ping; Yue, Peidong; Sun, Zhongwu",
+  "journal": "BMC genomic data",
+  "published_date": "2023-04-12",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于机器学习识别颅内动脉瘤免疫相关分子标记并构建ceRNA与转录因子调控网络，虽涉及转录因子SP1但无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Intracranial aneurysm (IA) is a common cerebrovascular disease. The immune mechanism of IA is more complicated, and it is unclear so far. Therefore, it is necessary to continue to explore the immune related molecular mechanism of IA. METHODS: All data were downloaded from the public database. Limma package and ssGSEA algorithm was used to identify differentially expressed mRNAs (DEmRNAs) and analyze immune cell infiltration, respectively. Machine learning and cytoscape-cytohubba plug-in was used to identify key immune types and multicentric DEmRNAs of IA, respectively. Multicentric DEmRNAs related to key immune cells were screened out as key DEmRNAs by Spearman correlation analysis. Diagnostic models, competing endogenous RNA (ceRNA) regulatory network and transcription factor regulatory network were constructed based on key DEmRNAs. Meanwhile, drugs related to key DEmRNAs were screened out based on DGIdb database. The expression of key DEmRNAs was also verified by real time-PCR. RESULTS: In this study, 7 key DEmRNAs (NRXN1, GRIA2, SLC1A2, SLC17A7, IL6, VEGFA and SYP) associated with key differential immune cell infiltration (CD56bright natural killer cell, Immature B cell and Type 1 T helper cell) were identified. Functional enrichment analysis showed that VEGFA and IL6 may be involved in the regulation of the PI3K-Akt signaling pathway. Moreover, IL6 was also found to be enriched in cytokine-cytokine receptor interaction signaling pathway. In the ceRNA regulatory network, a large number of miRNAs and lncRNAs were found. In the transcription factor regulatory network, the transcription factor SP1 was correlated with VEGFA, SYP and IL6. It is also predicted that drugs related to key DEmRNAs such as CARBOPLATIN, FENTANYL and CILOSTAZOL may contribute to the treatment of IA. In addition, it was also found that SVM and RF models based on key DEmRNAs may be potential markers for diagnosing IA and unruptured intracranial aneurysm (UIA), respectively. The expression trend of key DEmRNAs verified by real-time PCR was consistent with the bioinformatics analysis results. CONCLUSION: The identification of molecules and pathways in this study provides a theoretical basis for understanding the immune related molecular mechanism of IA. Meanwhile, the drug prediction and diagnosis model construction may also be helpful for clinical diagnosis and management.",
+  "abstract_zh": "背景：颅内动脉瘤（IA）是一种常见的脑血管疾病。IA的免疫机制较为复杂，至今尚不明确。因此，有必要继续探索IA的免疫相关分子机制。方法：所有数据均从公共数据库下载。使用Limma包和ssGSEA算法分别识别差异表达mRNA（DEmRNAs）和分析免疫细胞浸润。采用机器学习及cytoscape-cytohubba插件分别识别IA的关键免疫类型和多中心DEmRNAs。通过Spearman相关分析筛选出与关键免疫细胞相关的多中心DEmRNAs作为关键DEmRNAs。基于关键DEmRNAs构建诊断模型、竞争性内源RNA（ceRNA）调控网络和转录因子调控网络。同时，基于DGIdb数据库筛选出与关键DEmRNAs相关的药物。关键DEmRNAs的表达也通过实时PCR进行了验证。结果：本研究识别出7个与关键差异免疫细胞浸润（CD56bright自然杀伤细胞、未成熟B细胞和1型辅助T细胞）相关的关键DEmRNAs（NRXN1、GRIA2、SLC1A2、SLC17A7、IL6、VEGFA和SYP）。功能富集分析显示，VEGFA和IL6可能参与PI3K-Akt信号通路的调控。此外，IL6也被发现富集于细胞因子-细胞因子受体相互作用信号通路。在ceRNA调控网络中，发现了大量miRNAs和lncRNAs。在转录因子调控网络中，转录因子SP1与VEGFA、SYP和IL6相关。还预测与关键DEmRNAs相关的药物如CARBOPLATIN、FENTANYL和CILOSTAZOL可能有助于IA的治疗。此外，还发现基于关键DEmRNAs的SVM和RF模型可能分别是诊断IA和未破裂颅内动脉瘤（UIA）的潜在标志物。实时PCR验证的关键DEmRNAs表达趋势与生物信息学分析结果一致。结论：本研究识别的分子和通路为理解IA的免疫相关分子机制提供了理论基础。同时，药物预测和诊断模型构建也可能有助于临床诊断和管理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37041519/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37041519/",
+  "paper_page_path": "papers/pubmed/37041519/index.html"
+}

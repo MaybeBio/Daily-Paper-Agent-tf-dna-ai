@@ -1,0 +1,541 @@
+{
+  "identity": {
+    "pmid": "38848360",
+    "doi": "10.1126/sciadv.adj7706",
+    "title": "Gene regulatory network topology governs resistance and treatment escape in glioma stem-like cells."
+  },
+  "content": {
+    "abstract": "Poor prognosis and drug resistance in glioblastoma (GBM) can result from cellular heterogeneity and treatment-induced shifts in phenotypic states of tumor cells, including dedifferentiation into glioma stem-like cells (GSCs). This rare tumorigenic cell subpopulation resists temozolomide, undergoes proneural-to-mesenchymal transition (PMT) to evade therapy, and drives recurrence. Through inference of transcriptional regulatory networks (TRNs) of patient-derived GSCs (PD-GSCs) at single-cell resolution, we demonstrate how the topology of transcription factor interaction networks drives distinct trajectories of cell-state transitions in PD-GSCs resistant or susceptible to cytotoxic drug treatment. By experimentally testing predictions based on TRN simulations, we show that drug treatment drives surviving PD-GSCs along a trajectory of intermediate states, exposing vulnerability to potentiated killing by siRNA or a second drug targeting treatment-induced transcriptional programs governing nongenetic cell plasticity. Our findings demonstrate an approach to uncover TRN topology and use it to rationally predict combinatorial treatments that disrupt acquired resistance in GBM.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplastic Stem Cells/metabolism/drug effects/pathology",
+      "*Gene Regulatory Networks",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Glioma/genetics/pathology/metabolism/drug therapy",
+      "*Gene Expression Regulation, Neoplastic",
+      "Temozolomide/pharmacology",
+      "Brain Neoplasms/genetics/pathology/metabolism/drug therapy",
+      "Cell Line, Tumor",
+      "Glioblastoma/genetics/pathology/metabolism/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, James H",
+        "Hothi, Parvinder",
+        "de Lomana, Adrian Lopez Garcia",
+        "Pan, Min",
+        "Calder, Rachel",
+        "Turkarslan, Serdar",
+        "Wu, Wei-Ju",
+        "Lee, Hwahyung",
+        "Patel, Anoop P",
+        "Cobbs, Charles",
+        "Huang, Sui",
+        "Baliga, Nitin S"
+      ],
+      "short_names": [
+        "Park JH",
+        "Hothi P",
+        "de Lomana ALG",
+        "Pan M",
+        "Calder R",
+        "Turkarslan S",
+        "Wu WJ",
+        "Lee H",
+        "Patel AP",
+        "Cobbs C",
+        "Huang S",
+        "Baliga NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0006-7278",
+        "ORCID: 0009-0003-0977-0562",
+        "ORCID: 0000-0002-9748-347X",
+        "ORCID: 0000-0002-9781-0637",
+        "ORCID: 0009-0008-1115-1046",
+        "ORCID: 0000-0003-1679-6405",
+        "ORCID: 0000-0002-0022-2602",
+        "ORCID: 0009-0003-2212-9462",
+        "ORCID: 0000-0001-7688-4293",
+        "ORCID: 0000-0002-3545-4665",
+        "ORCID: 0000-0001-9157-5974"
+      ],
+      "affiliations": [
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA, USA.",
+        "Center for Systems Biology, University of Iceland, Reykjavik, Iceland.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA, USA.",
+        "Department of Neurosurgery, Preston Robert Tisch Brain Tumor Center, Duke University, Durham, NC, USA.",
+        "Center for Advanced Genomic Technologies, Duke University, Durham, NC, USA.",
+        "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA, USA.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Institute for Systems Biology, Seattle, WA, USA.",
+        "Departments of Microbiology, Biology, and Molecular Engineering Sciences, University of Washington, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, James H",
+        "short_name": "Park JH",
+        "identifiers": [
+          "0000-0002-0006-7278"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Hothi, Parvinder",
+        "short_name": "Hothi P",
+        "identifiers": [
+          "0009-0003-0977-0562"
+        ],
+        "affiliations": [
+          "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "de Lomana, Adrian Lopez Garcia",
+        "short_name": "de Lomana ALG",
+        "identifiers": [
+          "0000-0002-9748-347X"
+        ],
+        "affiliations": [
+          "Center for Systems Biology, University of Iceland, Reykjavik, Iceland."
+        ]
+      },
+      {
+        "full_name": "Pan, Min",
+        "short_name": "Pan M",
+        "identifiers": [
+          "0000-0002-9781-0637"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Calder, Rachel",
+        "short_name": "Calder R",
+        "identifiers": [
+          "0009-0008-1115-1046"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Turkarslan, Serdar",
+        "short_name": "Turkarslan S",
+        "identifiers": [
+          "0000-0003-1679-6405"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Wei-Ju",
+        "short_name": "Wu WJ",
+        "identifiers": [
+          "0000-0002-0022-2602"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Hwahyung",
+        "short_name": "Lee H",
+        "identifiers": [
+          "0009-0003-2212-9462"
+        ],
+        "affiliations": [
+          "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Patel, Anoop P",
+        "short_name": "Patel AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Preston Robert Tisch Brain Tumor Center, Duke University, Durham, NC, USA.",
+          "Center for Advanced Genomic Technologies, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Cobbs, Charles",
+        "short_name": "Cobbs C",
+        "identifiers": [
+          "0000-0001-7688-4293"
+        ],
+        "affiliations": [
+          "Ivy Center for Advanced Brain Tumor Treatment, Swedish Neuroscience Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Sui",
+        "short_name": "Huang S",
+        "identifiers": [
+          "0000-0002-3545-4665"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Baliga, Nitin S",
+        "short_name": "Baliga NS",
+        "identifiers": [
+          "0000-0001-9157-5974"
+        ],
+        "affiliations": [
+          "Institute for Systems Biology, Seattle, WA, USA.",
+          "Departments of Microbiology, Biology, and Molecular Engineering Sciences, University of Washington, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 Jun 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/07 18:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "42109665",
+      "42093838",
+      "41563102",
+      "41145413",
+      "40492418",
+      "40468460",
+      "40234567",
+      "39533415"
+    ],
+    "refs": [
+      "37396543",
+      "36932397",
+      "36906600",
+      "36827719",
+      "36612059",
+      "36539501",
+      "36094956",
+      "35941215",
+      "35851420",
+      "35681582",
+      "35569122",
+      "35562901",
+      "35454804",
+      "35436995",
+      "35387352",
+      "35242717",
+      "35122077",
+      "35121409",
+      "35102309",
+      "34985957",
+      "34932099",
+      "34885208",
+      "34528760",
+      "34303383",
+      "34262028",
+      "34239013",
+      "34183722",
+      "34087162",
+      "33902005",
+      "33864039",
+      "33842351",
+      "33753720",
+      "33729159",
+      "33692103",
+      "33417952",
+      "33240762",
+      "33024813",
+      "32922364",
+      "32854143",
+      "32747759",
+      "32645394",
+      "32424264",
+      "32404986",
+      "32358524",
+      "32291386",
+      "32118710",
+      "32111872",
+      "32075484",
+      "31836713",
+      "31747605",
+      "31740819",
+      "31723286",
+      "31600993",
+      "31554641",
+      "31444413",
+      "31396957",
+      "31334233",
+      "31329868",
+      "31327527",
+      "31178118",
+      "31167470",
+      "31109321",
+      "31108117",
+      "31060551",
+      "30995489",
+      "30992437",
+      "30974899",
+      "30953361",
+      "30895167",
+      "30787437",
+      "30759398",
+      "30754640",
+      "30471331",
+      "30462303",
+      "30416751",
+      "30195713",
+      "30134017",
+      "30089906",
+      "29914482",
+      "29420223",
+      "29416606",
+      "29376829",
+      "29326430",
+      "29069287",
+      "29016888",
+      "28881638",
+      "28697342",
+      "28687615",
+      "28654422",
+      "28574840",
+      "28397828",
+      "28362798",
+      "28320772",
+      "28292956",
+      "28139195",
+      "28027308",
+      "27994064",
+      "27974212",
+      "27934948",
+      "27852055",
+      "27641093",
+      "27426982",
+      "27122128",
+      "26636033",
+      "26452025",
+      "25781910",
+      "25516281",
+      "25366337",
+      "25297633",
+      "25117714",
+      "25093497",
+      "25012501",
+      "24925914",
+      "24726434",
+      "24706837",
+      "24658644",
+      "24607904",
+      "24570593",
+      "24485463",
+      "24433351",
+      "24060863",
+      "23993863",
+      "23982944",
+      "23973329",
+      "23764001",
+      "23323831",
+      "23165409",
+      "22899010",
+      "22854781",
+      "22745231",
+      "22108827",
+      "20416858",
+      "20129251",
+      "20032975",
+      "19945376",
+      "19687335",
+      "19487818",
+      "19262571",
+      "19150482",
+      "18676808",
+      "18381445",
+      "18363832",
+      "18031580",
+      "17482552",
+      "17426696",
+      "16749936",
+      "16456578",
+      "16199517",
+      "15758009",
+      "15583815",
+      "10854134"
+    ],
+    "similar": [
+      "38848360",
+      "38370784",
+      "39513659",
+      "26683773",
+      "38710703",
+      "39818986",
+      "35836243",
+      "29440289",
+      "39754188",
+      "39273014",
+      "34440646",
+      "33408780",
+      "40059829",
+      "36499683",
+      "33378970",
+      "39921260",
+      "38479552",
+      "38619743",
+      "30208561",
+      "41315804",
+      "23404835",
+      "26826202",
+      "27765847",
+      "40578938",
+      "27863490",
+      "35008590",
+      "40140646",
+      "30867410",
+      "38992489",
+      "27705931",
+      "26295306",
+      "26329778",
+      "28478507",
+      "38829550",
+      "26510911",
+      "25955030",
+      "33808494",
+      "39326139",
+      "27486821",
+      "41140169",
+      "29202181",
+      "32350000",
+      "29016925",
+      "32075484",
+      "32788653",
+      "26878385",
+      "33799798",
+      "29927689",
+      "41452357",
+      "40157620",
+      "41047764",
+      "39251990",
+      "29991446",
+      "41041071",
+      "31614149",
+      "38643837",
+      "24093630",
+      "26307681",
+      "40701313",
+      "33986188",
+      "38721826",
+      "25903924",
+      "23996800",
+      "36915208",
+      "33917954",
+      "29454008",
+      "31043589",
+      "26566863",
+      "38803001",
+      "22648970",
+      "30562483",
+      "27472461",
+      "26142735",
+      "33057597",
+      "28427209",
+      "39134023",
+      "23793848",
+      "41076461",
+      "24810059",
+      "40269262",
+      "39413902",
+      "30390339",
+      "32594352",
+      "33413577",
+      "38964117",
+      "39447031",
+      "24557012",
+      "30431207",
+      "35414102",
+      "30995489",
+      "39919036",
+      "28486630",
+      "20515648",
+      "38857832",
+      "26986767",
+      "26968235",
+      "37351164",
+      "39659236",
+      "39337661",
+      "41023048"
+    ],
+    "review": [
+      "38848360",
+      "39818986",
+      "33799798",
+      "33917954"
+    ],
+    "pmc": [
+      "11160475"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adj7706?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38848360.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38848360/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38848360",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38848360",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

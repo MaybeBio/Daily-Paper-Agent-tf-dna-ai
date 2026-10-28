@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Molecular mechanism claims regarding SEPALLATA3 (SEP3) and APETALA1 (AP1) interaction in Arabidopsis thaliana, including identification of critical leucine residues, biochemical validation, and phenotypic consequences
+- **Shared manuscript claim summary** The authors propose that leucine 116 in the K1 subdomain of SEP3 is critical for its interaction with AP1, that mutation of this residue disrupts the interaction, reduces DNA binding, and leads to extended vegetative growth, delayed flowering, and altered floral organ development
+- **Visible evidence base** Full text including abstract, introduction, materials and methods, results, discussion, figure legends (figures not directly viewable), tables referenced but not fully visible
+- **Missing materials affecting confidence** Figures and tables referenced but not directly viewable; supplementary figures and tables (Figure S1, Tables S1, S2) not provided; statistical analysis details not fully described; raw data not available
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in plant developmental biology regarding the molecular basis of SEP3-AP1 interaction. The identification of leucine 116 as a critical residue is potentially interesting. However, the evidence presented has significant gaps in experimental rigor, statistical validation, and mechanistic depth. Several claims extend beyond what the data can support, particularly regarding the structural interpretation and the phenotypic consequences. The manuscript would benefit from additional biochemical validation, quantitative analyses, and more careful interpretation of results.
+- **Who would be interested in the results, and why** Researchers studying floral development, MADS-box transcription factor biology, protein-protein interactions in plants, and the molecular mechanisms of flowering time regulation would find these results relevant. The work may also interest those studying leucine zipper-mediated dimerization in transcription factors more broadly.
+- **Major strengths** The study addresses an important gap in understanding SEP3-AP1 interaction specificity. The combination of yeast two-hybrid, BiFC, EMSA, and transgenic plant analysis provides a multi-angle approach. The identification of a specific residue (Leu116) that appears critical for the interaction is a concrete finding that could inform future structural and functional studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that leucine 116 in the K1 subdomain of SEP3 is critical for interaction with AP1 based on Y2H and BiFC assays
+  - **Evidence pointer** Results section, Figures 3, 4, 5, 6
+  - **Concern** The Y2H assays appear to be qualitative or semi-quantitative at best. The description states that interaction strength "gradually decreased" and was "completely abolished" but no quantitative data, statistical analysis, or replicates are described. The β-galactosidase assay is described as "basically consistent" with Y2H but no numerical values, statistical tests, or error bars are presented. The BiFC results are described qualitatively without quantification of fluorescence intensity.
+  - **Why it matters** The central claim of the paper rests on the identification of Leu116 as critical for the interaction. Without quantitative data and statistical validation, it is impossible to assess whether the observed differences are significant or whether the "complete loss" of interaction is genuinely due to the specific mutation rather than protein instability, misfolding, or expression differences.
+  - **Resolution test** Provide quantitative β-galactosidase activity measurements with appropriate replicates and statistical analysis. Include Western blot or other protein quantification to confirm equal expression of wild-type and mutant proteins in yeast and plant systems. Quantify BiFC fluorescence signals with statistical comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that mutations in the leucine zipper of SEP3 decreased its DNA binding ability based on EMSA results
+  - **Evidence pointer** Results section, Figure 7
+  - **Concern** The EMSA description is confusing and lacks essential controls. The authors state that "the second lane demonstrates that the AP1 probe of the single CArG cassette binds to SEP3 with a weaker binding band and fewer dimer bands" but it is unclear what protein is in each lane, what concentrations were used, and whether appropriate competition controls were performed. The description of lanes is repetitive and unclear. No quantification of band intensities is provided.
+  - **Why it matters** The claim that Leu116 mutation affects DNA binding is mechanistically important, as it suggests the leucine zipper is involved in DNA binding beyond protein-protein interaction. However, without proper EMSA controls (e.g., unlabeled competitor, mutant probe, protein-only controls) and quantification, the interpretation is not reliable.
+  - **Resolution test** Provide a clear EMSA figure with labeled lanes indicating protein and probe combinations, include competition controls, quantify band intensities, and perform experiments with multiple protein concentrations to demonstrate binding affinity differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that disruption of AtSEP3 and AtAP1 interaction resulted in extended vegetative growth, increased size and number of rosette leaves, and modifications in floral structures
+  - **Evidence pointer** Results section, Figures 8, 9, 10
+  - **Concern** The phenotypic analysis appears to lack statistical rigor. The authors state that transgenic plants "exhibited a significantly higher number of rosette leaves" but no statistical tests, sample sizes, or error measurements are described. The flowering time data (Figure 8B) is described qualitatively. The floral phenotypes (Figures 9, 10) are described but no quantification of the frequency or penetrance of these phenotypes is provided.
+  - **Why it matters** The phenotypic claims are important for establishing biological relevance of the SEP3-AP1 interaction. Without proper statistical analysis and quantification, it is unclear whether the observed phenotypes are consistent, penetrant, or specific to the disruption of this interaction versus off-target effects of transgene expression.
+  - **Resolution test** Provide statistical analysis (e.g., ANOVA or t-tests) with sample sizes for all phenotypic measurements. Quantify the frequency of floral abnormalities. Include analysis of multiple independent transgenic lines to demonstrate consistency.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors used a predicted structural model of AP1 for docking studies to identify interaction sites
+  - **Evidence pointer** Materials and Methods, Results section, Figure S1, Tables S1, S2
+  - **Concern** The structural modeling and docking approach is described only briefly. No details are provided about the modeling method, template selection, model quality assessment, or docking parameters. The results of the docking are only presented in supplementary materials that are not visible. The authors do not validate the predicted interaction interface with any structural or biophysical method.
+  - **Why it matters** The docking results appear to guide the selection of mutation sites. If the model is of poor quality or the docking is not properly validated, the choice of residues to mutate may be arbitrary or based on artifacts. The lack of validation of the predicted interface weakens the mechanistic interpretation.
+  - **Resolution test** Provide details of the modeling and docking procedures, including model quality metrics (e.g., Ramachandran plot, QMEAN scores). Validate the predicted interface using additional approaches such as cross-linking, NMR, or mutagenesis of multiple interface residues with complementary biochemical assays.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim this study "offers new insights into the interaction mechanism between AP1 and SEP3 during flowering"
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The novelty of the finding is not clearly established. Previous work has identified the importance of leucine residues in SEP3 for protein interactions (as the authors themselves note regarding Leu120). The finding that Leu116 is also important is incremental. The authors do not discuss how their finding advances beyond existing knowledge of MADS-box protein interactions or the ABCE model of flower development in a conceptually new way.
+  - **Why it matters** For a broad-interest journal, the conceptual advance should be clear. If the finding is primarily a confirmation of the importance of a specific residue in a known interaction, the significance may be limited to specialists.
+  - **Resolution test** Clearly articulate what is conceptually new about this finding. Place it in the context of existing structural and biochemical data on MADS-box protein interactions. Explain how this advances the field beyond confirming the importance of leucine zipper residues.
+
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods, Plant Material
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The plant growth conditions are described for wild-type and tobacco, but no details are provided for growth conditions of transgenic Arabidopsis lines or the sep3 mutant.
+  - **Required correction** Specify growth conditions for all plant materials used, including the sep3 mutant and transgenic lines.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, Cloning
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The description of overlapping PCR for the AtSEP3.3 splicing variant is unclear. The authors state that the K3 coding region is absent in this variant but do not explain why this is relevant or how the overlapping PCR addresses this.
+  - **Required correction** Clarify the purpose of the overlapping PCR and the relationship between the splice variant and the constructs used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, EMSA
+  - **Evidence pointer** Results section, Figure 7
+  - **Issue** The EMSA results description is repetitive and confusing. The same observation about lane 5 is stated twice.
+  - **Required correction** Rewrite the EMSA results description for clarity and conciseness.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Phenotypic Analysis
+  - **Evidence pointer** Results section, Figures 8, 9, 10
+  - **Issue** The authors describe phenotypes of transgenic plants but do not specify how many independent transgenic lines were analyzed or whether the phenotypes were consistent across lines.
+  - **Required correction** Provide information on the number of independent lines analyzed and the consistency of phenotypes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion contains a typographical error: "heterozygous" should likely be "homeotic" in the context of floral organ identity genes.
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, β-galactosidase assay
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The formula for β-galactosidase activity is presented without definition of terms or units.
+  - **Required correction** Define all terms in the formula and specify units.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Y2H
+  - **Evidence pointer** Results section, Figures 3, 4
+  - **Issue** The authors state that "separate mutations at leucines 99-116" were tested but do not specify which residues were mutated in the single-mutation series beyond Leu116.
+  - **Required correction** Provide a complete list of single mutations tested and their corresponding results.
+
+## Risk / unsupported claims
+- The claim that Leu116 is "critical" for SEP3-AP1 interaction is not fully supported without quantitative interaction data and protein stability controls
+- The claim that disruption of SEP3-AP1 interaction leads to specific phenotypic changes is not supported by adequate statistical analysis
+- The claim that the docking model accurately predicts the interaction interface is not validated
+- The claim that reduced DNA binding in EMSA is specifically due to disruption of the leucine zipper affecting protein-protein interaction is speculative without additional controls
+- The statement that "this study offers new insights into the interaction mechanism" is not clearly supported given the incremental nature of the finding relative to existing literature on leucine residues in SEP3 interactions
+- The relationship between the AtSEP3.3 splice variant and the functional significance of the K3 region is mentioned but not experimentally addressed in a way that supports the claims made

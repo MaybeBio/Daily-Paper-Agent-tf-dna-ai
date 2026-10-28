@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors propose that Tspan12 enhances Norrin/β-catenin signaling by directly capturing Norrin at the cell surface rather than by allosterically modulating Fzd4 or enhancing Fzd4-Norrin affinity. They support this with direct binding measurements, AlphaFold structural predictions, mutagenesis, and cell-based assays.
+- **Visible evidence base** Purified protein binding assays (BLI), AlphaFold models, mutagenesis experiments, competition binding assays, flow cytometry, and transcriptional reporter assays
+- **Missing materials affecting confidence** Source data files referenced but not provided; supplementary figure files not available for full evaluation; no structural data beyond computational predictions
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-executed biochemical investigation into the mechanism of Tspan12-mediated enhancement of Norrin signaling. The authors provide compelling evidence for a direct, high-affinity interaction between Tspan12 and Norrin, and their data support a model in which Tspan12 functions primarily as a capture mechanism rather than an allosteric modulator. The combination of biophysical binding assays, AlphaFold predictions, and functional validation through mutagenesis is rigorous. However, several concerns regarding the interpretation of the competition experiments, the physiological relevance of the nanodisc system, and the generalizability of the conclusions warrant attention.
+- **Who would be interested in the results, and why** Researchers studying Wnt/β-catenin signaling, particularly those focused on ligand-receptor specificity and co-receptor function. The findings also have relevance for understanding the molecular basis of Norrie disease and familial exudative vitreoretinopathy, as several disease-associated mutations are mapped to the predicted interface. The methodological approach combining AlphaFold with biochemical validation will interest structural biologists and signaling researchers.
+- **Major strengths** The study addresses a long-standing question about Tspan12 function with direct biochemical evidence. The use of purified components in a defined lipid environment is rigorous. The AlphaFold predictions are appropriately validated with mutagenesis, and the compensatory mutations at Site 3 provide strong support for the predicted interface. The flow cytometry experiments bridge the biochemical findings to a cellular context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of competition data
+  - **Claim pointer** The authors state that Tspan12 competes with LRP6 for Norrin binding, concluding that Tspan12 does not remain bound in a quaternary complex with Fzd4 and LRP6.
+  - **Evidence pointer** Figure 5E and Figure 5—figure supplement 1A
+  - **Concern** The competition experiment shows that LRP6 E1E2 can displace Norrin from Tspan12, but the interpretation that this precludes a quaternary complex may be premature. The experiment uses soluble LRP6 E1E2 domain, which may not fully recapitulate the membrane-bound context where avidity effects could alter binding equilibria. Additionally, the authors themselves note in the Discussion that Tspan12 and LRP6 could each bind one Norrin protomer in a dimer, which would not be captured by this competition assay.
+  - **Why it matters** The conclusion that Tspan12 dissociates before signalosome formation is central to the proposed "capture and hand-off" model. If Tspan12 remains associated in a larger complex, the mechanistic implications differ substantially.
+  - **Resolution test** Perform competition experiments with membrane-reconstituted LRP6 or use a ternary complex formation assay with all three components to directly test whether Tspan12, Norrin, and LRP6 can form a simultaneous complex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of binding measurements
+  - **Claim pointer** The authors report a KD of 10.4±1.2 nM for Norrin-Tspan12 binding in nanodiscs and use this to support the capture model.
+  - **Evidence pointer** Figure 1A–D
+  - **Concern** The binding measurements are performed with purified components in a reconstituted system. While this is appropriate for mechanistic studies, the physiological concentrations of Norrin, Tspan12, and Fzd4 at the cell surface are unknown. The claim that Tspan12 "captures" Norrin at low concentrations relies on the relative affinities of Norrin for Tspan12 versus Fzd4, but the authors do not directly compare these affinities under identical conditions in the same lipid environment.
+  - **Why it matters** The capture model predicts that Tspan12 should have comparable or higher affinity for Norrin than Fzd4, particularly at low ligand concentrations. Without a direct comparison, the physiological relevance of the capture mechanism remains uncertain.
+  - **Resolution test** Measure Norrin binding to Fzd4 alone and to the Tspan12/Fzd4 heterodimer under identical conditions to directly compare affinities and assess whether Tspan12 enhances Norrin capture by Fzd4-containing membranes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors propose that Tspan12 functions to directly capture Norrin upstream of signaling, and suggest this may represent a general theme among Wnt/β-catenin modulators.
+  - **Evidence pointer** Discussion section, Figure 6B–C
+  - **Concern** The comparison to Gpr124/RECK and Glypican-3 is speculative and based on limited functional analogy. While the capture mechanism is plausible for Tspan12, the authors do not provide direct evidence that this mechanism generalizes to other systems. The structural and functional differences between these modulators are substantial.
+  - **Why it matters** Overstating the generalizability of the findings could lead to incorrect assumptions about other signaling systems and may overinterpret the significance of the Tspan12 mechanism.
+  - **Resolution test** Either temper the claims about generalizability or provide additional experimental evidence from at least one other system to support the proposed general mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2E–F
+  - **Evidence pointer** Figure 2E–F
+  - **Issue** The bar graphs showing fold-changes in affinity for mutant proteins would benefit from showing the actual binding curves or at least the individual KD values with confidence intervals. The current presentation makes it difficult to assess the variability across replicates.
+  - **Required correction** Include a supplementary table with all measured KD values, confidence intervals, and statistical comparisons, or show representative binding curves for each mutant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Cell-based signaling assays
+  - **Evidence pointer** Figure 4D
+  - **Issue** The bell-shaped dose-response curves are described qualitatively, but no statistical analysis is presented to support the claim that Tspan12 increases the amplitude of response at all Norrin concentrations tested. The number of independent experiments and the statistical test used should be stated.
+  - **Required correction** Provide statistical analysis (e.g., two-way ANOVA with post-hoc tests) comparing the different Tspan12 conditions across Norrin concentrations, and state the number of independent experiments performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** AlphaFold predictions
+  - **Evidence pointer** Materials and methods, AlphaFold predictions section
+  - **Issue** The description of AlphaFold model selection and validation is brief. It is unclear how many models were generated, how the top model was selected beyond the stated metrics, and whether the predicted interface was consistent across multiple models or runs.
+  - **Required correction** Provide additional details on the number of models generated, the distribution of confidence scores, and whether the predicted interface was consistently observed across independent prediction runs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, limitations paragraph
+  - **Issue** The limitations paragraph mentions that the reconstituted system may not capture physiological receptor stoichiometry or post-translational modifications, but does not discuss the potential impact of the split-GFP tethering strategy on Tspan12/Fzd4 dynamics or function.
+  - **Required correction** Add a sentence acknowledging that the split-GFP strategy may constrain the relative orientation or mobility of Tspan12 and Fzd4, which could affect their function in ways not captured by the current assays.
+- **Technical failings that need to be addressed before the case is established** The competition experiments with LRP6 and the interpretation of the bell-shaped dose-response curves require additional controls and statistical rigor. The lack of direct comparison between Norrin-Tspan12 and Norrin-Fzd4 affinities under identical conditions weakens the capture model. The AlphaFold predictions, while validated by mutagenesis, would benefit from additional experimental structural data or at least cross-validation with alternative prediction methods.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study provides a novel mechanistic insight into Tspan12 function, directly addressing a gap in understanding of Norrin signaling. The "capture and hand-off" model is a new conceptual framework for co-receptor function in this pathway.
+  - Scientific importance: The findings have implications for understanding ligand specificity in Wnt/β-catenin signaling and for the molecular basis of retinal vascular diseases. The mechanistic clarity achieved is valuable for the field.
+  - Interdisciplinary readership: The work bridges biochemistry, structural biology, and cell signaling, and will appeal to researchers across these disciplines. The disease relevance extends the potential audience.
+  - Technical soundness: The experimental approaches are generally rigorous, with appropriate controls and replicates. The combination of biophysical and cellular assays strengthens the conclusions. However, the concerns noted above regarding competition experiments and statistical analysis need to be addressed.
+  - Readability for nonspecialists: The manuscript is clearly written and logically organized. The figures are informative, though some supplementary data would benefit from additional annotation. The Discussion effectively contextualizes the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of direct Tspan12-Norrin binding is well-supported, and the proposed model is plausible. However, the competition experiments and the interpretation of the signaling data require additional analysis and potentially additional experiments to fully establish the capture mechanism over alternative explanations.
+
+## Risk / unsupported claims
+- The claim that Tspan12 competes with LRP6 for Norrin binding and therefore does not remain in a quaternary complex is not fully supported by the data, as the competition experiment uses a soluble LRP6 domain that may not reflect membrane-bound behavior.
+- The proposal that the Tspan12 mechanism represents a general theme among Wnt/β-catenin modulators is speculative and not directly tested.
+- The suggestion that disease-associated mutations at the predicted interface (e.g., R115, R121) exert their effects specifically through disrupted Tspan12 binding is plausible but not directly tested in this study.
+- The claim that Tspan12 does not affect Fzd4-Dvl affinity is based on a single experimental condition and may not capture the full range of potential allosteric effects.

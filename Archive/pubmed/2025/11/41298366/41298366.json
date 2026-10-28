@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "41298366",
+    "doi": "10.1038/s41467-025-65546-w",
+    "title": "Structural details of helix-mediated multimerization of the conserved region of TDP-43 C-terminal domain."
+  },
+  "content": {
+    "abstract": "Pathological inclusions of the C-terminal domain (CTD) of TAR DNA binding protein-43 (TDP-43) are neurodegenerative hallmarks in amyotrophic lateral sclerosis (ALS) and frontotemporal dementia, yet CTD's aggregation propensity complicates structural characterization of native TDP-43. Here we propose structural models for the physiological multimerization of TDP-43 CTD's conserved region (CR) essential for TDP-43 RNA processing. Using NMR spectroscopy, we establish that the native state of TDP-43 CR at physiological conditions is alpha-helical. Hydrophobic residues drive CR helix-helix assembly, phase separation, and TDP-43 nuclear retention, while polar residues down regulate these processes. An integrative approach combining analytical ultracentrifugation, NMR-derived contacts, AlphaFold2-Multimer modeling, and all-atom molecular dynamics simulations together suggest that TDP-43 CR forms dynamic, multimeric helical assemblies stabilized by a methionine-rich core with specific contributions from a tryptophan/leucine pair. These structures show how ALS-associated mutations disrupt TDP-43 function and provide pharmacologically targetable structures to prevent its conversion into pathogenic beta-sheet aggregates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Amyotrophic Lateral Sclerosis/genetics/metabolism",
+      "Protein Domains",
+      "*Protein Multimerization",
+      "Magnetic Resonance Spectroscopy",
+      "Mutation",
+      "Conserved Sequence",
+      "Protein Conformation, alpha-Helical"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rizuan, Azamat",
+        "Shenoy, Jayakrishna",
+        "Mohanty, Priyesh",
+        "Dos Passos, Patricia M",
+        "Mercado Ortiz, Jose F",
+        "Bai, Leanna",
+        "Viswanathan, Renjith",
+        "Zaborowksy, Julia",
+        "Wang, Szu-Huan",
+        "Johnson, Victoria",
+        "Mamede, Lohany D",
+        "Titus, Amanda R",
+        "Ayala, Yuna M",
+        "Ghirlando, Rodolfo",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Rizuan A",
+        "Shenoy J",
+        "Mohanty P",
+        "Dos Passos PM",
+        "Mercado Ortiz JF",
+        "Bai L",
+        "Viswanathan R",
+        "Zaborowksy J",
+        "Wang SH",
+        "Johnson V",
+        "Mamede LD",
+        "Titus AR",
+        "Ayala YM",
+        "Ghirlando R",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3590-0829",
+        "ORCID: 0009-0009-9395-8237",
+        "ORCID: 0009-0009-8499-7066",
+        "ORCID: 0000-0003-4688-6583",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA.",
+        "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA.",
+        "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA.",
+        "Laboratory of Molecular Biology, National Institute of Diabetes, Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Department of Chemistry, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA. nicolas_fawzi@brown.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rizuan, Azamat",
+        "short_name": "Rizuan A",
+        "identifiers": [
+          "0000-0003-3590-0829"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Shenoy, Jayakrishna",
+        "short_name": "Shenoy J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Dos Passos, Patricia M",
+        "short_name": "Dos Passos PM",
+        "identifiers": [],
+        "affiliations": [
+          "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Mercado Ortiz, José F",
+        "short_name": "Mercado Ortiz JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Bai, Leanna",
+        "short_name": "Bai L",
+        "identifiers": [
+          "0009-0009-9395-8237"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Viswanathan, Renjith",
+        "short_name": "Viswanathan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Zaborowksy, Julia",
+        "short_name": "Zaborowksy J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Szu-Huan",
+        "short_name": "Wang SH",
+        "identifiers": [
+          "0009-0009-8499-7066"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Victoria",
+        "short_name": "Johnson V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Mamede, Lohany D",
+        "short_name": "Mamede LD",
+        "identifiers": [],
+        "affiliations": [
+          "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Titus, Amanda R",
+        "short_name": "Titus AR",
+        "identifiers": [],
+        "affiliations": [
+          "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Ayala, Yuna M",
+        "short_name": "Ayala YM",
+        "identifiers": [
+          "0000-0003-4688-6583"
+        ],
+        "affiliations": [
+          "Edward Doisy Department of Biochemistry and Molecular Biology, Saint Louis University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Ghirlando, Rodolfo",
+        "short_name": "Ghirlando R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology, National Institute of Diabetes, Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+          "Department of Chemistry, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA. nicolas_fawzi@brown.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Nov 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 00:27",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [
+      "42614660",
+      "42517609",
+      "42399370",
+      "42227825",
+      "42135847",
+      "42096556",
+      "41969219",
+      "41939353",
+      "41612406",
+      "41446138",
+      "41286027",
+      "39677697"
+    ],
+    "refs": [
+      "40412392",
+      "40146081",
+      "39920231",
+      "39342654",
+      "39302099",
+      "39293444",
+      "39260416",
+      "39085378",
+      "38553587",
+      "38492239",
+      "38422113",
+      "38238291",
+      "38212334",
+      "38178578",
+      "38160320",
+      "37579155",
+      "37532939",
+      "37218694",
+      "37065450",
+      "37018390",
+      "36988562",
+      "36792822",
+      "36413069",
+      "35771920",
+      "35495061",
+      "35112738",
+      "34880495",
+      "34787357",
+      "34380047",
+      "34265844",
+      "33909608",
+      "33896178",
+      "33654312",
+      "33545530",
+      "33302617",
+      "33140034",
+      "33032406",
+      "32881101",
+      "32817270",
+      "32133841",
+      "32132204",
+      "31782904",
+      "31653829",
+      "31548393",
+      "31519910",
+      "31270472",
+      "31235914",
+      "31117592",
+      "31042469",
+      "31039256",
+      "30990694",
+      "30814253",
+      "30489059",
+      "29735687",
+      "29728608",
+      "29728564",
+      "29438978",
+      "28926706",
+      "28790177",
+      "28663553",
+      "27663422",
+      "27545621",
+      "26735904",
+      "26583988",
+      "26412649",
+      "26410029",
+      "25400522",
+      "25113748",
+      "24507191",
+      "24240615",
+      "23377850",
+      "22445064",
+      "22339051",
+      "21850253",
+      "21783422",
+      "21604143",
+      "21234644",
+      "20554523",
+      "20472655",
+      "20234357",
+      "19522502",
+      "19465477",
+      "19251627",
+      "18305110",
+      "17023659",
+      "16392929",
+      "15264254",
+      "12895474",
+      "11470789",
+      "10692345",
+      "8234246",
+      "6667333"
+    ],
+    "similar": [
+      "41298366",
+      "39005345",
+      "27545621",
+      "32132204",
+      "36841957",
+      "29511089",
+      "29279008",
+      "28566288",
+      "38466778",
+      "38160320",
+      "37579155",
+      "28988034",
+      "23300771",
+      "23558684",
+      "38615537",
+      "33577819",
+      "37218694",
+      "26735904",
+      "40311013",
+      "31911437",
+      "28257838",
+      "23575225",
+      "31914861",
+      "34944548",
+      "35807552",
+      "30824544",
+      "28112502",
+      "18989115",
+      "24497641",
+      "28663553",
+      "28833982",
+      "32003979",
+      "38029395",
+      "39342654",
+      "41178159",
+      "30315897",
+      "41446138",
+      "19808791",
+      "18802454",
+      "18505686",
+      "30309612",
+      "36053560",
+      "22563080",
+      "32907712",
+      "30540446",
+      "32337711",
+      "31430111",
+      "29786080",
+      "35112738",
+      "29438978",
+      "34880495",
+      "23689371",
+      "28793209",
+      "38896345",
+      "27040765",
+      "29751083",
+      "38178578",
+      "32007267",
+      "23041957",
+      "39380150",
+      "24355761",
+      "36982587",
+      "31605140",
+      "19465477",
+      "26908597",
+      "27445339",
+      "32778941",
+      "33097688",
+      "27226551",
+      "27317832",
+      "21956718",
+      "35438230",
+      "40188980",
+      "25503365",
+      "36293362",
+      "19112176",
+      "28817800",
+      "29982983",
+      "33065281",
+      "39426615",
+      "40901879",
+      "33151007",
+      "21850253",
+      "20864052",
+      "39069095",
+      "35751132",
+      "31782904",
+      "31079926",
+      "32872449",
+      "24440310",
+      "34115105",
+      "18535185",
+      "20133711",
+      "18396105",
+      "36371546",
+      "37853696",
+      "19864664",
+      "34131277",
+      "36482422",
+      "19938686"
+    ],
+    "review": [
+      "41298366",
+      "28112502",
+      "18989115",
+      "38029395",
+      "41178159",
+      "19808791",
+      "23041957",
+      "21956718",
+      "40188980",
+      "36293362",
+      "20864052",
+      "39069095"
+    ],
+    "pmc": [
+      "12658102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-65546-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41298366/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41298366",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends. Supplementary information referenced but not provided.
+- **Assessment boundary** Scientific soundness, technical rigor, interpretation of results, and alignment with claims made in the abstract and discussion. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors claim that Sirt1 binds exclusively to acetylated p53, forming 1:1 complexes independent of p53 oligomeric state; that K382 is the predominant acetylation site and primary target of Sirt1 deacetylation; and that they present the first structural model of the full-length p53:Sirt1 complex based on XL-MS-derived distance constraints and molecular docking.
+- **Visible evidence base** Native mass spectra of acetylated p53 variants and Sirt1 complexes (Figs. 1, 2, S1–S9); CID-MS/MS dissociation data (Fig. 2C, S6C, S8C); LC-MS/MS acetylation site mapping (Fig. 3); time-resolved deacetylation kinetics (Fig. 4); SDS-PAGE of cross-linking reactions (Fig. 5); XL-MS inter-protein cross-link maps (Fig. 6, S10, S11); HADDOCK docking ensemble and interface analysis (Fig. 7); methods section.
+- **Missing materials affecting confidence** Supplementary Data 1 (full XL-MS dataset) and Supplementary Data 2 (distance constraints) are referenced but not provided. Supplementary figures S1–S13 are not available. Raw mass spectra and validation metrics for native MS assignments are not shown. The reporting summary is not included.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a biologically important question, namely the structural basis of the p53:Sirt1 interaction, and applies an appropriate integrated workflow combining native MS, XL-MS, and docking. The observation that Sirt1 binds only acetylated p53 and forms 1:1 complexes across oligomeric states is potentially interesting. However, several technical concerns reduce confidence in the central claims. The native MS data appear to be single measurements, the acetylation site quantification lacks statistical treatment, the deacetylation kinetics are based on single experiments, and the docking model relies on a truncated Sirt1 construct with a large internal deletion. The interpretation that K382 acetylation is a prerequisite for binding is inferred from cross-linking data but not directly tested. The claim of a "first structural model" is reasonable if the docking quality is confirmed, but the evidence provided is insufficient to fully evaluate this.
+- **Who would be interested in the results, and why** Researchers studying p53 post-translational regulation, sirtuin biology, and protein-protein interactions involving intrinsically disordered proteins. The methodological combination of native MS, XL-MS, and docking for challenging IDP-containing complexes may also interest structural biologists working on similar systems.
+- **Major strengths** The use of full-length proteins rather than truncated constructs is a notable strength. The combination of native MS and XL-MS provides complementary information on stoichiometry and interface contacts. The observation of oligomerization-independent 1:1 stoichiometry is a clear and testable finding. The docking approach incorporates experimentally derived constraints and reports a reasonable RMSD for the ensemble.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of native MS stoichiometry assignment
+  - **Claim pointer** "Sirt1 was found to bind exclusively to acetylated p53 forming complexes with a 1:1 stoichiometry, irrespectively of p53's oligomeric state."
+  - **Evidence pointer** Figs. 2, S6–S9; Methods "Native MS of intact proteins"
+  - **Concern** The native MS experiments are described as "single measurements" in the methods. Stoichiometry assignment by native MS requires careful control of solution conditions, ionization parameters, and data analysis. Without replicates, it is not possible to assess the reproducibility of the observed complex stoichiometry. Additionally, the presence of DnaK in p53wt samples (Fig. 1C) complicates interpretation, as this chaperone may affect complex formation or mass assignment. The manuscript does not report how DnaK-containing species were distinguished from p53:Sirt1 complexes.
+  - **Why it matters** The central claim of 1:1 stoichiometry across all oligomeric states underpins the mechanistic model proposed in the discussion. If this assignment is not robust, the entire interpretive framework is weakened.
+  - **Resolution test** Provide replicate native MS measurements (at least n=3) with statistical analysis of the observed complex masses and stoichiometries. Show how DnaK-containing species were excluded from analysis. Include control experiments with non-acetylated p53 under identical conditions to confirm the absence of binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of acetylation site quantification
+  - **Claim pointer** "The lysine residue at position 382 (K382) in p53 was identified as predominant acetylation site showing a selective Sirt1-dependent deacetylation at this position."
+  - **Evidence pointer** Fig. 3, Fig. 4; Methods "p53 acetylation status"
+  - **Concern** The acetylation levels are reported as percentages, but the methods state that "all measurements were conducted at least in triplicates" for acetylation site mapping, while deacetylation kinetics were "performed as single measurement." No error bars, standard deviations, or statistical comparisons are shown in Figs. 3 or 4. The claim of "selective" deacetylation at K382 versus K381 is based on a single time-course experiment without replicates. Additionally, the quantification method using extracted ion chromatograms without internal standards or normalization to peptide ionization efficiency may introduce systematic bias.
+  - **Why it matters** The identification of K382 as the predominant acetylation site and primary Sirt1 target is a key finding that connects the structural data to functional significance. Without robust quantification, this claim is not adequately supported.
+  - **Resolution test** Provide replicate measurements with error bars and statistical tests (e.g., ANOVA or t-tests) comparing acetylation levels across sites and time points. Include details on normalization and validation of the quantification approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of docking model
+  - **Claim pointer** "We present the first structural model of the full-length p53:Sirt1 (1:1) complex."
+  - **Evidence pointer** Fig. 7; Methods "Molecular docking"
+  - **Concern** The docking used a Sirt1 construct with a large internal deletion (Sirt1183-670;Δ501-633). This deletion removes a substantial portion of the protein, and the authors state that cross-links involving residue 633 were mapped to residue 621 to account for the unresolved region. This is a significant approximation. The manuscript does not report the quality of the AlphaFold2 models used, the fraction of satisfied restraints, or any validation of the docking results (e.g., comparison with known structures or independent biophysical data). The RMSD of 3.7 ± 1.3 Å is reported for the ensemble, but it is unclear whether this reflects convergence or simply a tight cluster of similar models.
+  - **Why it matters** The structural model is a major claim of the manuscript. If the model is not well-validated, the mechanistic conclusions drawn from it are speculative.
+  - **Resolution test** Provide a detailed validation of the docking results, including restraint satisfaction statistics, comparison with the known Sirt1 crystal structure (where applicable), and discussion of how the deletion affects the interpretation. Consider additional experimental validation, such as mutagenesis of interface residues followed by binding assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of cross-linking data
+  - **Claim pointer** "As p53-K382 cannot form a cross-link as long as it remains acetylated, the p53-K382:Sirt1-K427 cross-link suggests that it is created immediately after removal of the acetyl group when the two proteins are still in close spatial proximity."
+  - **Evidence pointer** Fig. 6, S10; Discussion
+  - **Concern** This interpretation assumes that the cross-link at K382 can only form after deacetylation. However, the cross-linking experiments were performed on samples that were not subjected to deacetylation conditions, and the acetylation status of the cross-linked species was not directly determined. It is possible that a subpopulation of p53 molecules was not acetylated at K382 and contributed to the cross-link. The manuscript does not provide evidence that the cross-linked p53 was fully acetylated prior to cross-linking.
+  - **Why it matters** The proposed mechanism of "bind, deacetylate, release" relies on this interpretation. If the cross-link can form on non-acetylated p53, the conclusion is not supported.
+  - **Resolution test** Perform cross-linking experiments with p53 that is fully acetylated at K382 (e.g., by enzymatic acetylation in vitro) and compare with non-acetylated p53. Alternatively, use mass spectrometry to determine the acetylation status of the cross-linked peptide.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Fig. 1
+  - **Evidence pointer** Fig. 1 legend
+  - **Issue** The figure legend states that "Each p53 monomer is shown as a purple circle, DnaK is shown as yellow square," but the figure itself is not provided in the manuscript text. The legend is not self-contained and the reader cannot verify the assignments.
+  - **Required correction** Ensure the figure is included and that the legend clearly describes all panels and annotations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figs. 3 and 4
+  - **Evidence pointer** Fig. 3, Fig. 4 legends
+  - **Issue** The heatmaps in Figs. 3 and 4 do not include any indication of variability or sample size. The methods state that acetylation mapping was done in triplicate, but this is not reflected in the figures.
+  - **Required correction** Add error bars, confidence intervals, or at minimum state the number of replicates in the figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods "Cross-link analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods section for cross-link analysis is incomplete. The sentence "All cross-linking" is cut off and the section ends abruptly. It is unclear what parameters were used for MeroX analysis, how FDR was calculated, and how manual validation was performed.
+  - **Required correction** Complete the methods section and provide full details of the cross-link identification workflow.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not address the limitations of using a Sirt1 construct with a large internal deletion, nor the potential impact of the E. coli expression system on p53 acetylation patterns compared to mammalian cells.
+  - **Required correction** Add a paragraph discussing these limitations and their potential impact on the conclusions.
+
+## Risk / unsupported claims
+- The claim that Sirt1 binds "exclusively" to acetylated p53 is not fully supported, as the manuscript does not report quantitative binding experiments with non-acetylated p53 under identical conditions, and the native MS data are from single measurements.
+- The claim that K382 acetylation is a "mandatory prerequisite" for complex formation is inferred from cross-linking data but not directly tested experimentally.
+- The structural model is presented as "the first" full-length p53:Sirt1 complex, but the validation is insufficient to assess its accuracy, particularly given the large deletion in the Sirt1 construct.
+- The deacetylation kinetics at K381 and K382 are based on single experiments and cannot be used to support quantitative claims about selectivity.
+- The manuscript states that "all XL-MS analyses were conducted at least in triplicates," but the reproducibility of the cross-link identifications across replicates is not reported.

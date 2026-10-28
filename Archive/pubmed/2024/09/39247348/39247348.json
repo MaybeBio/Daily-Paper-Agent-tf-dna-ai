@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39247348",
+    "doi": "10.1016/j.heliyon.2024.e36158",
+    "title": "Development of a diagnostic model based on glycolysis-related genes and immune infiltration in intervertebral disc degeneration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The glycolytic pathway and immune response play pivotal roles in the intervertebral disc degeneration (IDD) progression. This study aimed to develop a glycolysis-related diagnostic model and analyze its relationship with the immune response to IDD. METHODS: GSE70362, GSE23130, and GSE15227 datasets were collected and merged from the Gene Expression Omnibus, and differential expression analysis was performed. Glycolysis-related differentially expressed genes (GLRDEGs) were identified, and a machine learning-based diagnostic model was constructed and validated, followed by Gene Set Enrichment Analysis (GSEA). Gene Ontology functional enrichment and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses were performed, and mRNA-miRNA and mRNA-transcription factor (TF) interaction networks were constructed. Immune infiltration was analyzed using single-sample GSEA (ssGSEA) and cell-type identification by estimating relative subsets of RNA transcripts (CIBERSORT) algorithm between high- and low-risk groups. RESULTS: In the combined dataset, samples from 31 patients with IDD and 55 normal controls were analyzed, revealing differential expression of 16 GLRDEGs between the two groups. Using advanced machine learning techniques (LASSO, support vector machine, and random forest algorithms), we identified eight common GLRDEGs (PXK, EIF3D, WSB1, ZNF185, IGFBP3, CKAP4, RPL15, and, SSR1) and developed a diagnostic model, which demonstrated high accuracy in distinguishing IDD from control samples (area under the curve, 0.935). We identified 42 mRNA-miRNA and 33 mRNA-TF interaction pairs. Using the RiskScore from the diagnostic model, the combined dataset was stratified into high- and low-risk groups. SsGSEA revealed significant differences in the infiltration abundances of the four immune cell types between the groups. The CIBERSORT algorithm revealed the strongest correlation between resting natural killer (NK) cells and ZNF185 in the low-risk group and between CD8(+) T cells and SSR1 in the high-risk group. CONCLUSIONS: Our study reveals a potential interplay between glycolysis-associated genes and immune infiltration in IDD pathogenesis. These findings contribute to our understanding of IDD and may guide development of novel diagnostic markers and therapeutic interventions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Jian",
+        "He, Liming",
+        "Zhang, Jianguo",
+        "Xi, Leimin",
+        "Feng, Haoyu"
+      ],
+      "short_names": [
+        "Gao J",
+        "He L",
+        "Zhang J",
+        "Xi L",
+        "Feng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China.",
+        "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China.",
+        "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China.",
+        "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China.",
+        "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Jian",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "He, Liming",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianguo",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Leimin",
+        "short_name": "Xi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Haoyu",
+        "short_name": "Feng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Hospital of Shanxi Medical University, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, 030032, Taiyuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2024 Aug 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/09 06:42",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42329412",
+      "41649879",
+      "41404552"
+    ],
+    "refs": [
+      "36917198",
+      "36613651",
+      "36592991",
+      "36438808",
+      "36399495",
+      "36059551",
+      "35844613",
+      "35486489",
+      "35295968",
+      "35266081",
+      "35154570",
+      "35115561",
+      "35109912",
+      "34899740",
+      "34845360",
+      "34512163",
+      "34370518",
+      "34349117",
+      "34272472",
+      "34222486",
+      "34122424",
+      "34115979",
+      "34067899",
+      "33941515",
+      "33842944",
+      "33391459",
+      "33184215",
+      "32858223",
+      "32772002",
+      "32211588",
+      "32210719",
+      "31960380",
+      "31847905",
+      "31827705",
+      "31669222",
+      "31629815",
+      "31443682",
+      "31265894",
+      "30453885",
+      "30034909",
+      "29370910",
+      "29344893",
+      "28472361",
+      "28052254",
+      "27542736",
+      "27322403",
+      "26545811",
+      "26489762",
+      "25605792",
+      "24297251",
+      "23680281",
+      "23323831",
+      "22963171",
+      "22455463",
+      "22257669",
+      "21546393",
+      "19847166",
+      "19535298",
+      "17496320",
+      "17099226",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "39247348",
+      "38222802",
+      "38104954",
+      "36193061",
+      "36911415",
+      "35711934",
+      "37325630",
+      "34858418",
+      "37520321",
+      "38764497",
+      "37915003",
+      "38187091",
+      "36267810",
+      "35937989",
+      "39268471",
+      "39349110",
+      "35767190",
+      "38819022",
+      "39050860",
+      "35840955",
+      "36148059",
+      "36532015",
+      "39130434",
+      "38041088",
+      "38867322",
+      "37633529",
+      "37009470",
+      "36685932",
+      "36081904",
+      "38468184",
+      "38044363",
+      "39006493",
+      "37032832",
+      "37632659",
+      "29039500",
+      "34402383",
+      "37008314",
+      "34238741",
+      "33676464",
+      "38371524",
+      "34107850",
+      "36746103",
+      "37122729",
+      "36439178",
+      "38428097",
+      "35578687",
+      "38951833",
+      "35278479",
+      "35004856",
+      "38273392",
+      "35958412",
+      "38020614",
+      "39170142",
+      "36841375",
+      "38863714",
+      "36704339",
+      "35559024",
+      "37026912",
+      "39120060",
+      "37259023",
+      "38601640",
+      "35928610",
+      "37033969",
+      "39351146",
+      "35069789",
+      "38283345",
+      "38571624",
+      "35719392",
+      "37059863",
+      "38601664",
+      "37564869",
+      "37267294",
+      "26134418",
+      "36605987",
+      "37980550",
+      "36860337",
+      "37359526",
+      "39188323",
+      "37325631",
+      "38029552",
+      "35309146",
+      "38755717",
+      "37700277",
+      "39296040",
+      "36819777",
+      "35069594",
+      "36685898",
+      "37822923",
+      "33764282",
+      "36685847",
+      "35282063",
+      "36082523",
+      "35713363",
+      "36059551",
+      "38883390",
+      "35845512",
+      "36225941",
+      "36628248",
+      "38767974",
+      "36742332",
+      "36175893",
+      "37990533",
+      "39331858"
+    ],
+    "review": [
+      "39247348"
+    ],
+    "pmc": [
+      "11379615"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(24)12189-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39247348/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-593",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

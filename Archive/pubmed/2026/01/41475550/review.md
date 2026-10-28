@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results and discussion, experimental procedures, and supporting information references.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors propose that MeCP2-MBD recognizes histone H3K27me3 via an aromatic cage formed by W104, F132, Y141, F142, and F155, and that this interaction contributes to chromatin association and gene regulation, supported by docking, ITC, pull-down, ChIP-seq, ChIP-qPCR, and qRT-PCR experiments.
+- **Visible evidence base** Structural analysis (PDB 6OGK), HADDOCK docking scores, ITC binding data, Ni-NTA pull-down with western blotting, EMSA, ChIP-seq correlation and overlap analyses, ChIP-qPCR, and qRT-PCR data. Figures referenced include Figures 1–10 and supplementary figures S1–S12.
+- **Missing materials affecting confidence** Raw ITC thermograms and fitting parameters beyond KD values; full western blot images with molecular weight markers; ChIP-seq data processing details (e.g., peak calling thresholds, normalization); statistical details for ChIP-qPCR and qRT-PCR (e.g., error bars, replicates); uncropped gel images for EMSA; details on HADDOCK input structures and validation of docking poses; information on whether experiments were blinded or randomized.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question regarding the dual reader function of MeCP2 for DNA and histone methylation. The combination of computational, biochemical, and genomic approaches is commendable. However, several technical concerns and gaps in evidence weaken the current support for the central claims. The conclusion that MeCP2 is a bona fide histone methylation reader with functional consequences requires stronger experimental validation, particularly regarding the specificity of the aromatic cage interaction, the physiological relevance of the binding affinity, and the causal link between histone binding and gene expression changes.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, and neurogenetics would be interested. The study has implications for understanding MeCP2 function in Rett syndrome and MeCP2 duplication syndrome, and for the broader field of methyllysine readers. The potential dual recognition of DNA and histone marks by a single domain is of general interest.
+- **Major strengths** The study addresses a timely and significant question. The use of multiple complementary methods (docking, ITC, pull-down, cell-based assays, and public ChIP-seq data) is a strength. The identification of a specific aromatic cage and the demonstration that mutation of a key residue (W104A) affects chromatin localization and gene expression provides a clear experimental path. The acknowledgment of limitations in the discussion (e.g., non-neuronal cell model) is appreciated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of the aromatic cage interaction
+  - **Claim pointer** The manuscript claims that the aromatic cage formed by W104, F132, Y141, F142, and F155 specifically recognizes H3K27me3, and that mutation of these residues abolishes binding.
+  - **Evidence pointer** Results section "Mutation of aromatic cage residue disrupts binding of MeCP2-MBD with H3K27me3"; Figures 2 and 3.
+  - **Concern** The ITC experiments show that alanine mutations reduce binding affinity, but the manuscript does not demonstrate that the interaction is specific to H3K27me3 over other methylated lysines (e.g., H3K4me3, H3K9me3, H3K36me3) or over unmodified H3. The docking studies suggest binding to H3K27me3, but no competition experiments or binding assays with other methylated peptides are shown. The pull-down with endogenous histones does not distinguish which specific methyl marks are recognized.
+  - **Why it matters** The central claim is that MeCP2 is a histone methylation reader. Without demonstrating specificity for H3K27me3 (or a defined set of marks) over other marks, the physiological relevance of the interaction is unclear. A reader that binds promiscuously to many methylated lysines would have different functional implications.
+  - **Resolution test** Perform ITC or pull-down experiments with a panel of histone peptides containing different methylated lysines (e.g., H3K4me3, H3K9me3, H3K27me3, H3K36me3, H4K20me3) and unmodified H3. Show that the aromatic cage mutants specifically lose binding to H3K27me3 but not to other marks, or clearly define the binding specificity profile.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between histone binding and gene expression
+  - **Claim pointer** The manuscript claims that the aromatic cage-dependent histone binding is necessary for regulating the expression of MeCP2 target genes.
+  - **Evidence pointer** Results section "Mutation in the aromatic cage of the MBD domain alters expression of MeCP2 target genes"; Figure 10.
+  - **Concern** The qRT-PCR data show that W104A mutation affects expression of four genes, but the manuscript does not establish a direct causal link between loss of histone binding and the observed expression changes. The W104A mutation could affect other functions of MeCP2, such as protein stability, folding, or interactions with other partners. The manuscript does not rule out indirect effects. Furthermore, the selection of only eight genes is limited, and the functional significance of the expression changes is not explored.
+  - **Why it matters** The claim that histone binding is functionally important for gene regulation is a key conclusion. Without a clear causal link, the data are correlative. The possibility that W104A has pleiotropic effects undermines the specificity of the conclusion.
+  - **Resolution test** Perform RNA-seq or a broader qRT-PCR panel to assess global expression changes. Rescue experiments expressing a W104A mutant that retains DNA binding but lacks histone binding (if separable) would strengthen the link. Alternatively, use a different approach such as CRISPR-mediated mutation of the endogenous locus or complementation with a histone-binding-deficient mutant in a MeCP2-null background.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of ChIP-seq data
+  - **Claim pointer** The manuscript claims that MeCP2 localizes with canonical histone methylation marks and regulates critical biological and cancer-related pathways based on ChIP-seq data.
+  - **Evidence pointer** Results section "MeCP2 interacts and localizes with canonical histone methylation marks in the genome"; Figure 6.
+  - **Concern** The ChIP-seq analysis relies on publicly available data from IMR90 cells, but the manuscript does not provide details on the quality control, normalization, or statistical significance of the overlaps. The Pearson correlation analysis and Venn diagram are descriptive. The claim of pathway regulation is based on KEGG enrichment, but the methodology for selecting genes and the statistical thresholds are not described. The manuscript does not specify whether the ChIP-seq data for MeCP2 and histone marks were from the same cell type or experimental conditions.
+  - **Why it matters** The genomic analysis is used to support the physiological relevance of the histone binding. Without rigorous quantitative analysis, the conclusions about co-localization and pathway regulation are not robustly supported.
+  - **Resolution test** Provide detailed methods for ChIP-seq data processing, including alignment, peak calling, and statistical analysis of overlaps. Use a formal statistical test to assess the significance of co-localization. For pathway analysis, provide the list of genes, the background set, and the statistical thresholds used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis of the aromatic cage interaction
+  - **Claim pointer** The manuscript claims that structural analysis reveals an aromatic cage formed by W104, F132, Y141, F142, and F155, where H3K27me3 binds.
+  - **Evidence pointer** Results section "Recognition of histone H3K27me3 mark by MeCP2 via an aromatic cage in the MBD domain"; Figure 1.
+  - **Concern** The structural analysis is based on a crystal structure (PDB 6OGK) that was likely solved in the absence of the histone peptide. The docking studies are computational predictions and are not validated by experimental structural data (e.g., co-crystal structure, NMR, or mutagenesis combined with structural analysis). The manuscript does not show that the proposed aromatic cage is a pre-formed binding pocket or that it undergoes conformational changes upon peptide binding.
+  - **Why it matters** The identification of the aromatic cage is a central finding. Without experimental structural validation, the proposed binding mode remains speculative. The docking results alone are insufficient to establish the structural basis of the interaction.
+  - **Resolution test** Obtain a co-crystal structure of MeCP2-MBD with an H3K27me3 peptide, or perform NMR studies to map the binding interface. Alternatively, use hydrogen-deuterium exchange mass spectrometry or cross-linking to experimentally validate the docking model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results section "Mutation of aromatic cage residue disrupts binding of MeCP2-MBD with H3K27me3"
+  - **Issue** The ITC data are presented as KD values, but the raw thermograms and fitting parameters (e.g., stoichiometry, enthalpy, entropy) are not shown in the main figures. The supplementary figures are referenced but not described in detail.
+  - **Required correction** Include representative raw ITC thermograms and the fitted binding isotherms in the main figures or supplementary material. Report the stoichiometry (N), enthalpy (ΔH), and entropy (ΔS) values for all binding experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental controls
+  - **Affected element** Pull-down assays
+  - **Evidence pointer** Results section "Mutation of aromatic cage residue disrupts binding of MeCP2-MBD with H3K27me3"; Figure 3.
+  - **Issue** The pull-down experiments with endogenous histones lack a control showing that the wild-type MeCP2-MBD does not bind to unmodified histones or to histones lacking H3K27me3. The specificity of the interaction is not fully demonstrated.
+  - **Required correction** Include a pull-down with histones from cells treated with an H3K27me3 methyltransferase inhibitor or with histones lacking H3K27me3 (e.g., from a knockout cell line) to demonstrate specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** ChIP-qPCR and qRT-PCR
+  - **Evidence pointer** Results sections "Mutation in the aromatic cage of the MBD domain reduces MeCP2 localization to chromatin" and "Mutation in the aromatic cage of the MBD domain alters expression of MeCP2 target genes"; Figures 9 and 10.
+  - **Issue** The statistical analysis for ChIP-qPCR and qRT-PCR is not described. The figure legends mention Student's t test, but the number of independent experiments, the error bars (SD vs SEM), and the exact p-values are not reported.
+  - **Required correction** Provide a detailed statistical analysis section, including the number of biological replicates, the type of error bars, and the exact p-values for all comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Cell model relevance
+  - **Affected element** ChIP-qPCR and qRT-PCR experiments
+  - **Evidence pointer** Results sections "Mutation in the aromatic cage of the MBD domain reduces MeCP2 localization to chromatin" and "Mutation in the aromatic cage of the MBD domain alters expression of MeCP2 target genes"
+  - **Issue** The experiments are performed in HEK293T cells, which are non-neuronal. The authors acknowledge this limitation but do not discuss whether the findings are likely to be relevant in neurons, where MeCP2 is highly expressed and where the disease phenotypes manifest.
+  - **Required correction** Add a discussion of the potential differences between HEK293T cells and neurons, and suggest future experiments in neuronal models to validate the findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Abstract and Results sections
+  - **Issue** The manuscript cites a recent study suggesting that MeCP2-MBD interacts with methylated lysine residues on histone H3, but the discussion of the broader literature on MeCP2's dual role is limited. The authors do not discuss how their findings relate to other studies on MeCP2's chromatin binding mechanisms.
+  - **Required correction** Expand the discussion to place the findings in the context of existing literature on MeCP2's chromatin interactions, including studies on its DNA binding, phase separation, and interactions with other chromatin modifiers.
+
+## Risk / unsupported claims
+- The claim that MeCP2 is a histone methylation reader is not fully supported due to lack of specificity experiments against other methylated lysine marks.
+- The claim that the aromatic cage is the structural basis for H3K27me3 binding is based on computational docking and is not experimentally validated.
+- The claim that histone binding is necessary for gene expression regulation is correlative and does not establish a causal link.
+- The ChIP-seq analysis is descriptive and lacks rigorous statistical validation.
+- The pathway analysis (KEGG) is based on an undefined gene selection and statistical methodology, making the conclusions about cancer-related pathways unsupported.

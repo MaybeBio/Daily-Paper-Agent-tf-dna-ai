@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "38767734",
+    "doi": "10.1007/s00894-024-05946-9",
+    "title": "Unveiling dissociation mechanisms and binding patterns in the UHRF1-DPPA3 complex via multi-replica molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "CONTEXT: Ubiquitin-like with PHD and RING finger domain containing protein 1 (UHRF1) is responsible for preserving the stability of genomic methylation through the recruitment of DNA methyltransferase 1 (DNMT1). However, the interaction between Developmental pluripotency associated 3 (DPPA3) and the pre-PHD-PHD (PPHD) domain of UHRF1 hinders the nuclear localization of UHRF1. This disruption has implications for potential cancer treatment strategies. Drugs that mimic the binding pattern between DPPA3 and PPHD could offer a promising approach to cancer treatment. Our study reveals that DPPA3 undergoes dissociation from the C-terminal through three different modes of helix unfolding. Furthermore, we have identified key residue pairs involved in this dissociation process and potential drug-targeting residues. These findings offer valuable insights into the dissociation mechanism of DPPA3 from PPHD and have the potential to inform the design of novel drugs targeting UHRF1 for cancer therapy. METHODS: To comprehend the dissociation process and binding patterns of PPHD-DPPA3, we employed enhanced sampling techniques, including steered molecular dynamics (SMD) and conventional molecular dynamics (cMD). Additionally, we utilized self-organizing maps (SOM) and time-resolved force distribution analysis (TRFDA) methodologies. The Gromacs software was used for performing molecular dynamics simulations, and the AMBER FF14SB force field was applied to the protein.",
+    "keywords": [
+      "DPPA3",
+      "Machine learning",
+      "Self-organizing maps (SOM)",
+      "Steered molecular dynamics (SMD)",
+      "Time-resolved force distribution analysis (TRFDA)",
+      "UHRF1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Binding Sites",
+      "*CCAAT-Enhancer-Binding Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Binding",
+      "*Ubiquitin-Protein Ligases/chemistry/metabolism",
+      "Animals",
+      "Mice",
+      "*Chromosomal Proteins, Non-Histone/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Longxiao",
+        "Liang, Xiaodan",
+        "He, Lei"
+      ],
+      "short_names": [
+        "Yuan L",
+        "Liang X",
+        "He L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin, 300353, China.",
+        "School of Computer Sciences and Technology, Tiangong University, Tianjin, 300387, China. liangxiaodan@tiangong.edu.cn.",
+        "Institute for Fetology, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. lhe@suda.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Longxiao",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy, Nankai University, Tianjin, 300353, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Xiaodan",
+        "short_name": "Liang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Sciences and Technology, Tiangong University, Tianjin, 300387, China. liangxiaodan@tiangong.edu.cn."
+        ]
+      },
+      {
+        "full_name": "He, Lei",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Fetology, The First Affiliated Hospital of Soochow University, Suzhou, 215006, China. lhe@suda.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2024 May 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/20 12:42",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "40372445"
+    ],
+    "refs": [
+      "36420895",
+      "36414620",
+      "36271982",
+      "36179061",
+      "36032526",
+      "35822955",
+      "35589688",
+      "35324190",
+      "35213804",
+      "33235224",
+      "32144273",
+      "31815535",
+      "31399642",
+      "30487604",
+      "30417435",
+      "29416922",
+      "28836357",
+      "26583988",
+      "26574453",
+      "26357279",
+      "25592537",
+      "25333769",
+      "24499624",
+      "23067803",
+      "22837395",
+      "21569575",
+      "18772891",
+      "18772889",
+      "17846036",
+      "17576694",
+      "17464242",
+      "15491775",
+      "15339928"
+    ],
+    "similar": [
+      "38767734",
+      "36420895",
+      "38898124",
+      "31018966",
+      "31481468",
+      "29562800",
+      "34801826",
+      "23161542",
+      "33097091",
+      "34558642",
+      "32084194",
+      "38764655",
+      "24368767",
+      "37247564",
+      "29656054",
+      "17673620",
+      "38059880",
+      "22100450",
+      "29074623",
+      "38446667",
+      "34766381",
+      "28100769",
+      "35143176",
+      "32448288",
+      "22096602",
+      "30639225",
+      "30392929",
+      "31964471",
+      "26065575",
+      "21745816",
+      "31238111",
+      "29395786",
+      "22064703",
+      "29506131",
+      "33340746",
+      "21777816",
+      "34465029",
+      "25900245",
+      "33235224",
+      "23752590",
+      "33795533",
+      "28112929",
+      "32609811",
+      "28803780",
+      "30669400",
+      "19943104",
+      "36458887",
+      "32428527",
+      "19077538",
+      "26299963",
+      "38725075",
+      "19056828",
+      "33922029",
+      "21496237",
+      "38649007",
+      "27049577",
+      "33441849",
+      "16195352",
+      "31782885",
+      "21808300",
+      "35477484",
+      "27595565",
+      "30392931",
+      "18772888",
+      "38657333",
+      "32726623",
+      "18945682",
+      "29471350",
+      "18931436",
+      "23022729",
+      "22837395",
+      "31322780",
+      "35666346",
+      "30696879",
+      "24134914",
+      "33465813",
+      "35566130",
+      "28059831",
+      "22411829",
+      "21598301",
+      "30995416",
+      "25818288",
+      "23297342",
+      "38580649",
+      "21268065",
+      "29268763",
+      "33222246",
+      "35925047",
+      "38868925",
+      "21808299",
+      "36372834",
+      "24782312",
+      "33867842",
+      "27489107",
+      "21067293",
+      "25323766",
+      "32034755",
+      "30104358",
+      "23245651",
+      "24013172"
+    ],
+    "review": [
+      "38767734",
+      "31238111",
+      "30669400",
+      "38725075",
+      "33922029",
+      "21496237",
+      "24134914",
+      "36372834"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-024-05946-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

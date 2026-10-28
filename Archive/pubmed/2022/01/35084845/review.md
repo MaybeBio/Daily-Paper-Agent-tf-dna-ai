@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that molecular dynamics (MD) simulations combined with MM/GBSA can model PROTAC-mediated ternary complex formation, showing correlation with experimental K(d) values, accurate prediction of the alpha value, demonstration of the importance of protein-protein interactions, and improved pose reranking over a modified Rosetta method.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, or validation statistics provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational protocols, force field parameters, simulation lengths, convergence criteria, statistical analyses, and comparison datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational protocol for PROTAC ternary complex modeling, addressing a recognized gap in the field. However, the claims are broad and quantitatively underspecified, and the absence of methodological detail and validation metrics prevents independent assessment of the protocol's robustness or generalizability. The work may interest computational chemists and drug designers, but the evidence base as provided is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on targeted protein degradation, particularly those developing or applying ternary complex modeling tools. Drug discovery scientists in industry and academia seeking practical protocols for PROTAC design would also find the work relevant, given the growing interest in degraders beyond PROTACs.
+- **Major strengths** The study addresses a timely and important problem in computer-aided drug design, namely the lack of effective ternary complex modeling techniques. The use of MD and MM/GBSA, which are more physically sound than docking alone, is a reasonable methodological choice. The abstract claims first accurate modeling of the alpha value, which, if substantiated, would be a notable contribution. The application as a rescoring function to improve pose prediction from an established method is a practical and potentially impactful extension.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The calculated binding energy showed a good correlation with experimental K(d) values.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states a "good correlation" but provides no correlation coefficient, number of compounds, or statistical significance. Without these metrics, the strength and reliability of the correlation cannot be evaluated.
+  - **Why it matters** The central claim of the protocol's accuracy rests on this correlation. If the correlation is weak or based on a small dataset, the conclusion that the approach is validated would be unsupported.
+  - **Resolution test** Provide the correlation coefficient (e.g., R or R-squared), p-value, number of data points, and a scatter plot or table in the full manuscript. The claim would be supported if the correlation is statistically significant and based on a sufficiently large and diverse set of known degraders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The modeling of the alpha value for PROTACs was first and accurately performed.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims "first and accurate" modeling of the alpha value, but no definition of the alpha value, computational method, or comparison to experimental data is provided. The term "accurate" is undefined.
+  - **Why it matters** This is a novel claim that distinguishes the work from prior studies. Without a clear definition and quantitative validation, the claim cannot be verified or compared to existing literature.
+  - **Resolution test** Define the alpha value in the full text, describe how it was computed, and compare predicted values to experimental measurements for a set of PROTACs. Provide error metrics (e.g., mean absolute error, root mean square error) to substantiate "accurate."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The results demonstrated the importance of PROTAC-induced protein-protein interactions in its modeling, either qualitatively or quantitatively.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts that protein-protein interactions are important but does not specify how this was demonstrated, what metrics were used, or how the importance was quantified.
+  - **Why it matters** This claim is central to the study's conceptual contribution. Without evidence, it remains an assertion rather than a finding.
+  - **Resolution test** Provide specific analyses, such as energy decomposition, interaction maps, or mutation studies, that show the contribution of protein-protein interactions to binding energy or pose prediction. Quantify the effect, for example, by comparing models with and without these interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The protocol showed a notable improvement in reranking initial poses generated from a modified Rosetta method.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports "notable improvement" but provides no quantitative comparison, such as success rates, enrichment factors, or ranking metrics, relative to the Rosetta baseline.
+  - **Why it matters** The claim of improvement is only meaningful if the baseline performance and the magnitude of improvement are specified. Without this, the practical utility of the rescoring function is unclear.
+  - **Resolution test** Provide a table or figure comparing pose prediction success rates (e.g., fraction of near-native poses ranked first) for the Rosetta method alone versus with the proposed rescoring. Include statistical tests to show significance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "alpha value" is introduced without definition, which may confuse readers unfamiliar with PROTAC-specific metrics.
+  - **Required correction** Define the alpha value in the abstract or refer to a prior publication with a brief explanation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "a series of known Brd4 BD2 degraders" but does not state the number of compounds or their structural diversity.
+  - **Required correction** Specify the number of compounds and briefly note their range of chemical structures or binding affinities to support generalizability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention simulation time scales, force field, or convergence criteria, which are critical for MD-based studies.
+  - **Required correction** Add a sentence in the abstract or ensure the full text provides these details prominently.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. All four major concerns relate to missing quantitative evidence and methodological detail, which are essential to establish the validity and utility of the proposed protocol.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of MD and MM/GBSA to PROTAC ternary complex modeling, particularly the alpha value prediction, appears novel, but the abstract does not provide enough context to confirm novelty against recent literature.
+  - Scientific importance: The problem is important for targeted protein degradation, but the significance of the contribution depends on the strength of validation, which is currently unassessable.
+  - Interdisciplinary readership: The work bridges computational chemistry, structural biology, and drug discovery, which could attract a broad audience, but the abstract's technical density may limit accessibility.
+  - Technical soundness: Not assessable from the abstract due to missing methodological and statistical details.
+  - Readability for nonspecialists: The abstract is generally clear but uses undefined terms (e.g., alpha value) and lacks context for key claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful protocol, but the lack of quantitative results and methodological transparency prevents a supportive recommendation. The authors should provide the full manuscript with detailed validation metrics to allow proper assessment.
+
+## Risk / unsupported claims
+- The claim of "good correlation" with experimental K(d) values is unsupported without correlation statistics.
+- The claim of "first and accurate" alpha value modeling is unsupported without definition and validation data.
+- The claim of demonstrating the "importance" of protein-protein interactions is unsupported without specific analyses.
+- The claim of "notable improvement" in pose reranking is unsupported without quantitative comparison to the baseline.
+- The general applicability of the protocol to "other protein degraders" is an extrapolation not supported by the abstract's evidence.

@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "38419051",
+    "doi": "10.1186/s12929-024-01015-8",
+    "title": "Integration of transcription regulation and functional genomic data reveals lncRNA SNHG6's role in hematopoietic differentiation and leukemia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Long non-coding RNAs (lncRNAs) are pivotal players in cellular processes, and their unique cell-type specific expression patterns render them attractive biomarkers and therapeutic targets. Yet, the functional roles of most lncRNAs remain enigmatic. To address the need to identify new druggable lncRNAs, we developed a comprehensive approach integrating transcription factor binding data with other genetic features to generate a machine learning model, which we have called INFLAMeR (Identifying Novel Functional LncRNAs with Advanced Machine Learning Resources). METHODS: INFLAMeR was trained on high-throughput CRISPR interference (CRISPRi) screens across seven cell lines, and the algorithm was based on 71 genetic features. To validate the predictions, we selected candidate lncRNAs in the human K562 leukemia cell line and determined the impact of their knockdown (KD) on cell proliferation and chemotherapeutic drug response. We further performed transcriptomic analysis for candidate genes. Based on these findings, we assessed the lncRNA small nucleolar RNA host gene 6 (SNHG6) for its role in myeloid differentiation. Finally, we established a mouse K562 leukemia xenograft model to determine whether SNHG6 KD attenuates tumor growth in vivo. RESULTS: The INFLAMeR model successfully reconstituted CRISPRi screening data and predicted functional lncRNAs that were previously overlooked. Intensive cell-based and transcriptomic validation of nearly fifty genes in K562 revealed cell type-specific functionality for 85% of the predicted lncRNAs. In this respect, our cell-based and transcriptomic analyses predicted a role for SNHG6 in hematopoiesis and leukemia. Consistent with its predicted role in hematopoietic differentiation, SNHG6 transcription is regulated by hematopoiesis-associated transcription factors. SNHG6 KD reduced the proliferation of leukemia cells and sensitized them to differentiation. Treatment of K562 leukemic cells with hemin and PMA, respectively, demonstrated that SNHG6 inhibits red blood cell differentiation but strongly promotes megakaryocyte differentiation. Using a xenograft mouse model, we demonstrate that SNHG6 KD attenuated tumor growth in vivo. CONCLUSIONS: Our approach not only improved the identification and characterization of functional lncRNAs through genomic approaches in a cell type-specific manner, but also identified new lncRNAs with roles in hematopoiesis and leukemia. Such approaches can be readily applied to identify novel targets for precision medicine.",
+    "keywords": [
+      "CRISPR screening",
+      "Gene regulation",
+      "Hematopoiesis.",
+      "Machine learning",
+      "lncRNA"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Cell Differentiation/genetics",
+      "Cell Line, Tumor",
+      "Cell Proliferation/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Genomics",
+      "*Leukemia/genetics",
+      "*RNA, Long Noncoding/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hazan, Joshua M",
+        "Amador, Raziel",
+        "Ali-Nasser, Tahleel",
+        "Lahav, Tamar",
+        "Shotan, Stav Roni",
+        "Steinberg, Miryam",
+        "Cohen, Ziv",
+        "Aran, Dvir",
+        "Meiri, David",
+        "Assaraf, Yehuda G",
+        "Guigo, Roderic",
+        "Bester, Assaf C"
+      ],
+      "short_names": [
+        "Hazan JM",
+        "Amador R",
+        "Ali-Nasser T",
+        "Lahav T",
+        "Shotan SR",
+        "Steinberg M",
+        "Cohen Z",
+        "Aran D",
+        "Meiri D",
+        "Assaraf YG",
+        "Guigo R",
+        "Bester AC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5490-2187"
+      ],
+      "affiliations": [
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Centre for Genomic Regulation (CRG), Doctor Aiguader 88, 08003, Barcelona, Catalonia, Spain.",
+        "Universitat de Barcelona (UB), Barcelona, Catalonia, Spain.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "The Taub Faculty of Computer Science, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "The Taub Faculty of Computer Science, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "The Fred Wyszkowski Cancer Research Laboratory, Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+        "Centre for Genomic Regulation (CRG), Doctor Aiguader 88, 08003, Barcelona, Catalonia, Spain.",
+        "Universitat Pompeu Fabra (UPF), Barcelona, Catalonia, Spain.",
+        "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel. bestera@technion.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hazan, Joshua M",
+        "short_name": "Hazan JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Amador, Raziel",
+        "short_name": "Amador R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), Doctor Aiguader 88, 08003, Barcelona, Catalonia, Spain.",
+          "Universitat de Barcelona (UB), Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Ali-Nasser, Tahleel",
+        "short_name": "Ali-Nasser T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Lahav, Tamar",
+        "short_name": "Lahav T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Shotan, Stav Roni",
+        "short_name": "Shotan SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Steinberg, Miryam",
+        "short_name": "Steinberg M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Cohen, Ziv",
+        "short_name": "Cohen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+          "The Taub Faculty of Computer Science, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Aran, Dvir",
+        "short_name": "Aran D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel.",
+          "The Taub Faculty of Computer Science, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Meiri, David",
+        "short_name": "Meiri D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Assaraf, Yehuda G",
+        "short_name": "Assaraf YG",
+        "identifiers": [],
+        "affiliations": [
+          "The Fred Wyszkowski Cancer Research Laboratory, Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Guigó, Roderic",
+        "short_name": "Guigó R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), Doctor Aiguader 88, 08003, Barcelona, Catalonia, Spain.",
+          "Universitat Pompeu Fabra (UPF), Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Bester, Assaf C",
+        "short_name": "Bester AC",
+        "identifiers": [
+          "0000-0002-5490-2187"
+        ],
+        "affiliations": [
+          "Department of Biology, Technion-Israel Institute of Technology, 3200003, Haifa, Israel. bestera@technion.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomedical science"
+    ],
+    "journal_abbrev": [
+      "J Biomed Sci"
+    ],
+    "pub_date": "2024 Feb 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/29 00:42",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "42639796",
+      "42582802",
+      "41474641",
+      "41301542",
+      "41014566",
+      "40765835",
+      "40702098",
+      "40271022",
+      "39832102",
+      "39640855"
+    ],
+    "refs": [
+      "36605586",
+      "36596869",
+      "36396030",
+      "35995997",
+      "35868306",
+      "35446428",
+      "35098341",
+      "34940760",
+      "34930405",
+      "34794493",
+      "34731163",
+      "33838111",
+      "33780170",
+      "33446189",
+      "33441380",
+      "32850792",
+      "32718982",
+      "32633350",
+      "32518528",
+      "32296635",
+      "32290841",
+      "32234056",
+      "32024996",
+      "32020014",
+      "31729473",
+      "31713622",
+      "31681586",
+      "31519146",
+      "31338816",
+      "31114921",
+      "30767760",
+      "30626446",
+      "30567492",
+      "30395134",
+      "30224646",
+      "29855577",
+      "29677511",
+      "29293953",
+      "28792927",
+      "28581502",
+      "28536419",
+      "28359583",
+      "28253259",
+      "27980086",
+      "27798563",
+      "27708057",
+      "27573374",
+      "27530352",
+      "27141961",
+      "27121950",
+      "27111720",
+      "26751173",
+      "26586799",
+      "26527727",
+      "26184878",
+      "25948244",
+      "25854182",
+      "25751142",
+      "25483404",
+      "24817082",
+      "24227677",
+      "23586463",
+      "23203885",
+      "22995308",
+      "22955990",
+      "22955619",
+      "22955616",
+      "22328731",
+      "22113311",
+      "21903743",
+      "20824065",
+      "20562416",
+      "18610740",
+      "15684376"
+    ],
+    "similar": [
+      "38419051",
+      "30826970",
+      "36942812",
+      "30662328",
+      "34821362",
+      "33150667",
+      "29506878",
+      "36396030",
+      "28683446",
+      "30257360",
+      "29799357",
+      "31853782",
+      "29608878",
+      "30961617",
+      "28875933",
+      "32202941",
+      "30168179",
+      "36151809",
+      "30911973",
+      "32147945",
+      "30031062",
+      "37584517",
+      "35944892",
+      "33922442",
+      "30995471",
+      "33744438",
+      "30157475",
+      "34980123",
+      "29579705",
+      "33092630",
+      "30545929",
+      "38781216",
+      "26683846",
+      "31257923",
+      "31506418",
+      "34766670",
+      "38857306",
+      "25928165",
+      "34431156",
+      "34794493",
+      "32590190",
+      "24555823",
+      "34252487",
+      "30782246",
+      "32433053",
+      "31258024",
+      "34898376",
+      "35672672",
+      "31390792",
+      "32459848",
+      "38995489",
+      "31568697",
+      "36933244",
+      "39337559",
+      "24488769",
+      "32840014",
+      "36907881",
+      "31119871",
+      "25027842",
+      "30522015",
+      "38194746",
+      "29454790",
+      "35319391",
+      "32744686",
+      "27835575",
+      "26694754",
+      "31563323",
+      "33431838",
+      "28724437",
+      "31387807",
+      "37735423",
+      "29948619",
+      "35883028",
+      "32935999",
+      "28588232",
+      "37005451",
+      "38745269",
+      "29757368",
+      "36316703",
+      "28441150",
+      "30445010",
+      "30767760",
+      "31322251",
+      "30609034",
+      "30648438",
+      "29956795",
+      "37307941",
+      "33006448",
+      "32613482",
+      "34723728",
+      "24837367",
+      "31358062",
+      "39429195",
+      "35059859",
+      "32321469",
+      "33782812",
+      "31159744",
+      "33340546",
+      "35809451",
+      "27530352",
+      "28379566",
+      "35695878",
+      "34644394",
+      "32024996",
+      "38492100",
+      "30466456",
+      "37773752",
+      "38501112",
+      "39211068",
+      "34940760",
+      "36869839",
+      "37580596",
+      "34997014",
+      "39036603",
+      "38979363",
+      "38765997",
+      "35596093",
+      "38800827",
+      "36826849",
+      "35474966"
+    ],
+    "review": [
+      "38419051",
+      "37735423",
+      "28441150",
+      "32321469",
+      "30466456",
+      "34940760",
+      "39036603"
+    ],
+    "pmc": [
+      "10900714"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-024-01015-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/leukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38419051/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s12929-024-01015-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38419051",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38419051",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

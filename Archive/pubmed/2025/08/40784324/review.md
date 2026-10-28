@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that the rice transcription factor Bsr-d1, a Cys2-His2 zinc finger protein, recognizes the GTACT cis-element in peroxidase gene promoters via its first zinc finger domain (ZF1), and propose an AlphaFold3-derived interaction model with key residues Y85, Q86, K92, R96, and K97, validated by alanine substitution and promoter mutation assays
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, structural model coordinates, raw binding data, and statistical details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding on zinc finger DNA recognition in plant immunity, but the evidence base is too limited to evaluate the technical soundness or the strength of the claims. The reliance on AlphaFold3 predictions without experimental structural validation, and the absence of quantitative binding data, leave the central conclusions under-supported. The work may be of interest to plant pathologists and molecular biologists, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Plant pathologists studying rice blast resistance, molecular biologists working on transcription factor DNA recognition, and researchers interested in zinc finger protein engineering for crop improvement. The potential link to broad-spectrum resistance in rice is of practical relevance.
+- **Major strengths** The abstract identifies a specific cis-element and a single zinc finger domain responsible for binding, which is a clear and testable claim. The combination of computational prediction with functional validation via alanine scanning and promoter mutations is a reasonable approach. The potential application to engineering disease resistance adds translational value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ZF1, but not ZF2, specifically binds the GTACT cis-element, and that residues Y85, Q86, K92, R96, and K97 are critical for DNA binding
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that gel filtration and BLI assays revealed ZF1 binding, but provides no quantitative data such as dissociation constants, binding affinities, or statistical significance. The claim that ZF2 does not bind is presented without any comparative data. The alanine substitution results are described as "significantly disrupted" but no effect sizes or statistical tests are mentioned.
+  - **Why it matters** Without quantitative binding data and statistical support, the specificity of ZF1 for GTACT and the functional importance of the proposed residues cannot be rigorously assessed. The central mechanistic claim rests on these data.
+  - **Resolution test** Provide BLI sensorgrams with fitted kinetics and affinities for ZF1 and ZF2 against GTACT and control sequences, and report quantitative binding data for each alanine mutant with appropriate statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose an AlphaFold3-derived interaction model of the DNA/bsr-d1 complex with specific residue contacts
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The model is derived solely from AlphaFold3 prediction, with no experimental structural validation such as X-ray crystallography, NMR, or cryo-EM. The abstract does not report model confidence metrics, such as predicted aligned error or interface scores, nor any validation of the predicted contacts.
+  - **Why it matters** AlphaFold3 predictions, especially for protein-DNA complexes, can be inaccurate. Without experimental validation or at least robust confidence metrics, the proposed interaction model remains speculative, and the functional data alone cannot confirm the structural details.
+  - **Resolution test** Provide model confidence metrics and, ideally, experimental structural data or mutagenesis that directly tests the predicted contacts beyond simple alanine scanning.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the findings "elucidate the structural basis of zinc finger-DNA recognition in plant immunity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides a model and functional data, but not a full structural elucidation. The claim of "structural basis" is overstated given the lack of experimental structure. The broader significance to plant immunity is asserted but not contextualized with respect to existing knowledge of Bsr-d1 function or other zinc finger proteins.
+  - **Why it matters** Overstating the conclusions may mislead readers about the level of evidence. The significance claim should be calibrated to the actual data.
+  - **Resolution test** Revise the claim to reflect that the study provides a predictive model with functional validation, and discuss how this advances understanding relative to prior work on Bsr-d1 and related zinc finger proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "H(2)O(2)" in a nonstandard format and the phrase "close proximity" is redundant.
+  - **Required correction** Use "H2O2" and change "close proximity" to "in proximity" or "close to".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Domain boundaries
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The domain boundaries are given as "ZF1:73-97 and ZF2:135-159" but the numbering system is not defined, and it is unclear if these refer to amino acid positions in the full-length protein.
+  - **Required correction** Specify the numbering reference, such as the full-length Bsr-d1 protein sequence, and confirm the boundaries are amino acid positions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of evidence
+  - **Affected element** Functional validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "mutations in the GTACT motif of promoter region abolished Bsr-d1/promoter interaction" but does not specify how many mutations were tested or whether they were single or multiple base changes.
+  - **Required correction** Provide details on the number and nature of the promoter mutations tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative binding data and the absence of experimental structural validation or model confidence metrics prevent the core claims from being established.
+- **Assessment against Nature-style criteria** Originality: The specific finding that ZF1 recognizes GTACT in Bsr-d1 is novel, but the general concept of zinc finger DNA recognition is well established. Scientific importance: The potential link to rice blast resistance is significant, but the abstract does not demonstrate broad applicability or mechanistic novelty beyond a single case. Interdisciplinary readership: The work may appeal to plant biologists and structural biologists, but the abstract is too narrow to attract a wide audience. Technical soundness: Not established from the abstract due to missing quantitative data and structural validation. Readability for nonspecialists: The abstract is generally clear but uses some jargon and lacks context for the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis with preliminary support, but the lack of quantitative binding data and experimental structural validation means the case is not yet convincing. Supportive if the technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim that ZF1 specifically binds GTACT is unsupported without quantitative comparative binding data.
+- The claim that residues Y85, Q86, K92, R96, and K97 are critical for DNA binding is unsupported without effect sizes and statistical analysis.
+- The claim of a "structural basis" is unsupported without experimental structure or model confidence metrics.
+- The claim that the findings "establish a framework for engineering Bsr-d1" is speculative and not directly supported by the abstract data.

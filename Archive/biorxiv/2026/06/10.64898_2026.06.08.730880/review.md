@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, background, methods, results, discussion, and supplementary references
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present TMO, a transformer-based deep learning framework that learns signed, cell-state-conditional regulatory lags between chromatin accessibility and gene expression from single-cell multiomic data using asymmetric cross-modal attention. They claim near-perfect Lag Concordance Scores (0.988–0.999) across four 10x Multiome datasets, outperforming a symmetric baseline, with validation via ChIP-seq, Perturb-seq, and gene-level cross-correlation.
+- **Visible evidence base** Abstract, full methods section (Sections 4.1–4.13), results section (Sections 5.1–5.12), discussion, limitations, and data availability statements. Tables and figures are referenced but not provided in full detail.
+- **Missing materials affecting confidence** Actual figures and tables (Figures 1–6, Supplementary Figures S1–S6, Tables 1–2, Supplementary Tables ST1–ST5) are not included. Code repository and datasets are referenced but not independently verified. Detailed hyperparameter settings, model architecture diagrams, and training configurations are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially valuable contribution to single-cell multiomic analysis by introducing asymmetric cross-modal attention to model regulatory lags. The core idea of making regulatory lag a learnable, cell-state-conditional parameter is novel and addresses a genuine gap in existing methods. However, the evidence as presented has several critical weaknesses. The primary metric (LCS) is computed against a data-derived prior that is also used for training, creating a circularity concern. The validation strategy, while ambitious, relies on small perturbation datasets and lacks clear effect sizes. The manuscript would benefit from clearer specification of model architecture, training details, and statistical methods. The claims of biological discovery, particularly regarding biphasic regulatory programs, require stronger statistical support and independent replication.
+- **Who would be interested in the results, and why** Computational biologists developing methods for single-cell multiomic integration, researchers studying gene regulatory dynamics during differentiation, and those interested in causal inference from perturbation screens. The framework could also interest those working on transformer architectures for genomic data.
+- **Major strengths** The conceptual framing of regulatory lag as a learnable, cell-state-conditional parameter is novel and biologically motivated. The asymmetric attention mechanism is a principled architectural choice that directly encodes the directional relationship between chromatin and transcription. The multi-pronged validation strategy (ChIP-seq, Perturb-seq, gene-level cross-correlation) is commendable. The open-source implementation and tmopy API enhance reproducibility and usability.
+- **Major Concerns**
+  - **R1-M1** (Severity: Major, Blocking: Yes, Axis: Circularity of primary metric)
+    - **Claim pointer** The manuscript claims LCS of 0.988–0.999 for the asymmetric model, which is presented as evidence that the model correctly captures regulatory lags.
+    - **Evidence pointer** Section 4.7 (Training objective), Section 5.2 (Results), Table 1
+    - **Concern** The LCS is computed as the Spearman correlation between the model's predicted lags and the CCF-derived targets. However, the model is trained with a loss term (λ_lag = 0.1) that directly optimizes agreement with these same CCF targets. This creates a circular evaluation: the model is rewarded for matching the training target, and then the match to that target is reported as validation. The high LCS may simply reflect successful optimization of the training objective rather than biological validity.
+    - **Why it matters** The primary performance metric may be inflated by design. Without an independent ground truth or a held-out evaluation that does not use the CCF-derived targets, the reported LCS values do not establish that the model has learned biologically meaningful regulatory lags.
+    - **Resolution test** The authors should provide an evaluation where the model is trained without the lag consistency loss (or with the loss on a subset of components) and then evaluated on the held-out components. Alternatively, they should validate against an external, independent measure of regulatory lag, such as time-course RNA-seq and ATAC-seq data with known temporal ordering.
+  - **R1-M2** (Severity: Major, Blocking: Yes, Axis: Statistical rigor of validation)
+    - **Claim pointer** The manuscript claims significant ChIP-seq validation (p < 10^-4 in all cases) and Perturb-seq validation (SMARCB1 p = 0.056, SMARCE1 p = 0.0089).
+    - **Evidence pointer** Section 5.8 (ChIP-seq validation), Section 5.7 (Perturb-seq validation), Table 2
+    - **Concern** The statistical methods for the ChIP-seq and Perturb-seq validations are not described in sufficient detail. For ChIP-seq, the comparison between target genes and expression-matched background is mentioned, but the exact test, multiple testing correction, and effect sizes are not reported. For Perturb-seq, the SMARCB1 result (p = 0.056) is not significant, and the SMARCE1 result, while significant, has an effect size "on the order of 10^-5" which is extremely small and may not be biologically meaningful. The manuscript does not report confidence intervals or standardized effect sizes.
+    - **Why it matters** Without clear statistical methodology and effect sizes, the reader cannot assess the biological significance of the validation results. A p-value alone, especially with a tiny effect size, does not establish that the model detects meaningful regulatory changes.
+    - **Resolution test** Provide detailed statistical methods for each validation, including the exact test used, multiple testing corrections, effect sizes with confidence intervals, and power analysis. For Perturb-seq, report the distribution of Δτ shifts and demonstrate that the effect is robust to alternative analysis choices.
+  - **R1-M3** (Severity: Major, Blocking: No, Axis: Generalization and robustness)
+    - **Claim pointer** The manuscript claims that the learned component-lag ordering generalizes to unseen cells (held-out LCS 0.85–0.99).
+    - **Evidence pointer** Section 5.9 (Generalization to held-out cells), Supplementary Table ST2
+    - **Concern** The held-out analysis uses a stratified 80/20 split, but the manuscript does not specify whether the split is by cell or by batch/donor. If cells from the same biological sample appear in both training and test sets, the generalization result may be optimistic due to batch effects or technical confounding. Additionally, the manuscript notes that computing an independent CCF target on the test set yields near-zero LCS, which is attributed to small sample size, but this also raises questions about the stability of the CCF-derived targets.
+    - **Why it matters** Generalization to unseen cells is a key claim, but the experimental design may not adequately test this. If the model is learning batch-specific or sample-specific patterns, it will not generalize to new experiments.
+    - **Resolution test** Perform a split by biological replicate or batch, ensuring that cells from the same sample are not in both training and test sets. Report the held-out LCS for this stricter split. Additionally, assess the stability of CCF-derived targets across bootstrap resamples of the data.
+  - **R1-M4** (Severity: Major, Blocking: No, Axis: Biological interpretation of biphasic programs)
+    - **Claim pointer** The manuscript claims that TMO identifies statistically significant biphasic gene programs where the regulatory direction reverses across pseudotime.
+    - **Evidence pointer** Section 5.12 (Biphasic regulatory lag reversal), Supplementary Table ST5
+    - **Concern** The biological interpretation of biphasic programs is presented as a novel finding, but the statistical method for identifying these programs is not described. The permutation test is mentioned, but the null hypothesis, the test statistic, and the multiple testing correction are not specified. Moreover, the manuscript does not provide functional validation or independent evidence that these biphasic programs represent real biological phenomena rather than artifacts of the model or the CCF estimation.
+    - **Why it matters** The claim of a "previously uncharacterised mode of gene regulation" is strong and requires robust statistical support and independent validation. Without this, the finding may be overinterpreted.
+    - **Resolution test** Provide a detailed description of the permutation test, including the null model and the test statistic. Report the number of tests performed and the multiple testing correction used. Validate a subset of biphasic programs using orthogonal data, such as time-course experiments or independent datasets.
+- **Minor Comments**
+  - **R1-m1** (Severity: Minor, Axis: Clarity of methods)
+    - **Affected element** Section 4.6 (Model architecture)
+    - **Evidence pointer** Section 4.6
+    - **Issue** The description of the model architecture is incomplete. The number of transformer layers, attention heads, hidden dimensions, and the exact formulation of the attention bias are not fully specified. The pseudocode or a formal mathematical definition of the attention mechanism would improve clarity.
+    - **Required correction** Provide a complete specification of the model architecture, including all hyperparameters, layer counts, and the exact form of the attention bias. Consider including a pseudocode block or a formal algorithm description.
+  - **R1-m2** (Severity: Minor, Axis: Reproducibility)
+    - **Affected element** Section 4.13 (tmopy API)
+    - **Evidence pointer** Section 4.13
+    - **Issue** The manuscript states that the code is available on GitHub and Zenodo, but does not provide a version number or a specific commit hash for the GitHub repository. The Zenodo DOI is provided, but the exact version is not clearly linked.
+    - **Required correction** Specify the exact version of the code used in the study, including a commit hash or a tagged release, and ensure the Zenodo DOI resolves to the correct version.
+  - **R1-m3** (Severity: Minor, Axis: Data availability)
+    - **Affected element** Section 12 (Data and Code Availability)
+    - **Evidence pointer** Section 12
+    - **Issue** The manuscript lists URLs for the 10x Multiome datasets and ChIP-seq data, but does not provide accession numbers for the Perturb-seq datasets beyond a Zenodo record and a GEO accession. The GEO accession (GSM8528725) appears to be a sample-level accession, not a series-level accession, which may be insufficient for full data access.
+    - **Required correction** Provide complete accession numbers for all datasets, including series-level GEO accessions (GSE...) and any relevant SRA or ENA accessions.
+  - **R1-m4** (Severity: Minor, Axis: Figure quality)
+    - **Affected element** Figure 1 (Graphical Abstract)
+    - **Evidence pointer** Figure 1
+    - **Issue** The graphical abstract is described as being "Made with BioRender" and appears to be a schematic. While visually appealing, it does not convey quantitative information. The manuscript would benefit from a data-driven figure in the main text that shows the actual Δτ distributions or LCS values.
+    - **Required correction** Consider adding a quantitative figure in the main text, such as a scatter plot of predicted vs. CCF-derived lags or a heatmap of Δτ across cell states, to complement the graphical abstract.
+  - **R1-m5** (Severity: Minor, Axis: Terminology)
+    - **Affected element** Section 4.5 (Local cross-correlation function)
+    - **Evidence pointer** Section 4.5
+    - **Issue** The term "ground-truth lag" is used to describe the CCF-derived targets. This is potentially misleading, as the CCF is a heuristic estimate and not a true ground truth. The manuscript should clarify that the CCF provides a data-driven prior or reference, not an absolute ground truth.
+    - **Required correction** Replace "ground-truth" with "data-driven reference" or "prior" throughout the manuscript where referring to CCF-derived lags.
+  - **R1-m6** (Severity: Minor, Axis: Statistical reporting)
+    - **Affected element** Section 5.7 (Perturb-seq validation)
+    - **Evidence pointer** Section 5.7
+    - **Issue** The manuscript reports p-values for the Perturb-seq validation but does not report the test statistic or the direction of the effect for each target gene set. The reader cannot assess whether the effect is consistent across targets.
+    - **Required correction** Report the test statistic, the direction of the effect, and the number of target genes for each Perturb-seq validation. Consider providing a supplementary table with per-target results.
+
+## Risk / unsupported claims
+- The claim that TMO is "the first framework to make regulatory lag a learnable, generalizable, and causally validated architectural parameter" is not fully supported, as the causal validation (Perturb-seq) is limited and one result is not statistically significant.
+- The claim of "near-perfect" LCS (0.988–0.999) is potentially circular given the training objective, and the biological significance of these values is not established.
+- The identification of "statistically significant biphasic gene programs" lacks sufficient methodological detail and independent validation to support the claim of a "previously uncharacterised mode of gene regulation."
+- The statement that the ATAC-RNA correlation heatmap exhibits a "U-shaped pattern indicative of developmental decoupling" is presented as a general finding, but the statistical significance of this pattern across datasets is not assessed.
+- The scalability claim (O(NLW) complexity) is theoretical and not demonstrated empirically on datasets exceeding 10^4 cells, as the largest dataset used appears to be around 5,287 cells.

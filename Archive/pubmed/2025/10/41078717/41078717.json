@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41078717",
+    "doi": "10.1155/mi/1538054",
+    "title": "Identification and Validation of Pyroptosis-Associated Gene Signature in Primary Sjogren's Syndrome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pyroptosis, a form of programmed cell death, has been implicated in autoimmune diseases (ADs) pathogenesis. However, its role in primary Sjogren's syndrome (pSS) remains unclear. This study aims to identify pyroptosis-related gene (PRG) signatures in pSS. METHODS: Three datasets were obtained from the Gene Expression Omnibus (GEO) database to analyze the gene expression profiles in pSS. Differentially expressed genes (DEGs) were intersected with PRGs to identify pyroptosis-related DEGs (PRDEGs). Functional enrichment was assessed using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG). Key genes were identified using the least absolute shrinkage and selection operator (LASSO) and support vector machine (SVM) analyses. A diagnostic model was constructed using logistic regression. mRNA-microRNA (miRNA) and mRNA-transcription factor (TF) interaction networks were constructed. Immune cell infiltration (ICI) was analyzed using cell-type identification by estimating relative subsets of RNA transcripts (CIBERSORTs) and single-sample gene set enrichment analysis (ssGSEA). Experimental validation was performed in nonobese diabetic (NOD)/ShiLtj mice using reverse transcription quantitative polymerase chain reaction (RT-qPCR), western blotting, and immunofluorescence and was further validated using immunofluorescence in pSS patient samples. RESULTS: A total of 489 DEGs were identified, of which 22 were pyroptosis-related. GO/KEGG analysis revealed enrichment in immune response regulation, pyroptosis, and the positive regulation of receptor signaling pathways. LASSO and SVM analyses identified eight key genes (CRTAC1, platelet-endothelial cell adhesion molecule-1 [PECAM1], IRF2, GZMA, IFI16, absent in melanoma 2 [AIM2], TNF, and macrophage-expressed gene 1 [MPEG1]), which were incorporated into a diagnostic model that demonstrated strong discriminatory performance in both combined and validation datasets. Experimental validation confirmed significant increased expressions of PECAM1, IFI16, AIM2, and MPEG1 in the salivary glands from both NOD mice and pSS patients. CONCLUSIONS: PECAM1, IFI16, AIM2, and MPEG1 were identified as PRG signatures and potential biomarkers in pSS, providing novel insights into pSS pathogenesis.",
+    "keywords": [
+      "bioinformatic analysis",
+      "gene signatures",
+      "primary Sjogren's syndrome (pSS)",
+      "pyroptosis"
+    ],
+    "mesh_terms": [
+      "*Pyroptosis/genetics/physiology",
+      "*Sjogren's Syndrome/genetics/metabolism",
+      "Animals",
+      "Humans",
+      "Mice",
+      "Mice, Inbred NOD",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics/metabolism",
+      "Gene Ontology",
+      "RNA, Messenger/metabolism",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Yijun",
+        "Chen, Hanzhi",
+        "Zhou, Meng",
+        "Wu, Chenmin",
+        "Gao, Fei",
+        "Wang, Yingzheng",
+        "Yan, Qing",
+        "Li, Zuoan"
+      ],
+      "short_names": [
+        "Dai Y",
+        "Chen H",
+        "Zhou M",
+        "Wu C",
+        "Gao F",
+        "Wang Y",
+        "Yan Q",
+        "Li Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0088-5921",
+        "ORCID: 0000-0002-8540-4965",
+        "ORCID: 0000-0002-5240-8492",
+        "ORCID: 0009-0000-3209-0272"
+      ],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "College of Pharmacology, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China.",
+        "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "College of Pharmacology, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China.",
+        "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Department of Emergency Surgery, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Fujian Provincial Key Laboratory of Emergency Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Fujian Provincial Institute of Emergency Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+        "Fujian Emergency Medical Center, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Yijun",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0000-0003-0088-5921"
+        ],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hanzhi",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacology, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Meng",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chenmin",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Fei",
+        "short_name": "Gao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingzheng",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-8540-4965"
+        ],
+        "affiliations": [
+          "College of Pharmacology, Fujian University of Traditional Chinese Medicine, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Qing",
+        "short_name": "Yan Q",
+        "identifiers": [
+          "0000-0002-5240-8492"
+        ],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zuoan",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0009-0000-3209-0272"
+        ],
+        "affiliations": [
+          "Department of Emergency Surgery, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+          "Fujian Provincial Key Laboratory of Emergency Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+          "Fujian Provincial Institute of Emergency Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China.",
+          "Fujian Emergency Medical Center, Fuzhou University Affiliated Provincial Hospital, Fuzhou 350001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/13 18:10",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [
+      "42123721"
+    ],
+    "refs": [
+      "39537097",
+      "39127263",
+      "38788537",
+      "38599165",
+      "38331820",
+      "38240792",
+      "38110617",
+      "37769964",
+      "37347855",
+      "36270606",
+      "35965153",
+      "35673561",
+      "35608258",
+      "35513901",
+      "35138947",
+      "35134967",
+      "35113815",
+      "34659246",
+      "33692780",
+      "33178209",
+      "32772002",
+      "31919014",
+      "29275361",
+      "28965771",
+      "27958302",
+      "27789466",
+      "26037655",
+      "23116360"
+    ],
+    "similar": [
+      "41078717",
+      "39142001",
+      "40227387",
+      "39051161",
+      "40146445",
+      "40091022",
+      "39373505",
+      "38376769",
+      "34367157",
+      "39512836",
+      "38062833",
+      "36291136",
+      "41052072",
+      "31125139",
+      "35562622",
+      "40298889",
+      "41410587",
+      "41181153",
+      "40659785",
+      "27188286",
+      "39080525",
+      "40957961",
+      "40199818",
+      "38076335",
+      "23116360",
+      "36599955",
+      "33648502",
+      "36076347",
+      "37153570",
+      "37591179",
+      "35571446",
+      "35957838",
+      "36768371",
+      "40918403",
+      "24990690",
+      "37244954",
+      "40307356",
+      "41162992",
+      "41476962",
+      "41146237",
+      "38677173",
+      "36132546",
+      "41101222",
+      "39586719",
+      "38406324",
+      "36988140",
+      "38656456",
+      "40997906",
+      "40121969",
+      "38128705",
+      "41204409",
+      "34295332",
+      "24090683",
+      "35075430",
+      "39341981",
+      "36973184",
+      "39577221",
+      "40154092",
+      "39378104",
+      "40613560",
+      "33184486",
+      "32799333",
+      "36267972",
+      "31856901",
+      "28339495",
+      "38359008",
+      "40350654",
+      "39497829",
+      "35309364",
+      "31068931",
+      "35359935",
+      "22044682",
+      "38890348",
+      "35958619",
+      "38050559",
+      "15095277",
+      "40830558",
+      "38282154",
+      "39299134",
+      "33488608",
+      "34413853",
+      "35757392",
+      "33671965",
+      "40312440",
+      "37984252",
+      "41208987",
+      "28916716",
+      "41006883",
+      "35709926",
+      "27672125",
+      "40593998",
+      "37640538",
+      "41200172",
+      "37614232",
+      "17552056",
+      "19103199",
+      "32449389",
+      "30189901",
+      "37480090",
+      "37386410"
+    ],
+    "review": [
+      "41078717",
+      "41101222"
+    ],
+    "pmc": [
+      "12513781"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sjogrenssyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sjogren's Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41078717/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/1538054",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

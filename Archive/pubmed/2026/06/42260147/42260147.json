@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "42260147",
+    "doi": "10.1038/s41589-026-02251-9",
+    "title": "Opposing roles of serine and charge in IDR condensate miscibility."
+  },
+  "content": {
+    "abstract": "Numerous biomolecular condensates coexist within cells, yet the factors governing their miscibility remain poorly understood. Here, by examining 28 intrinsically disordered regions in 378 pairwise combinations, we identify key sequence determinants of condensate miscibility: serine and aromatic residues promote miscibility, while charged amino acids drive immiscibility. Mutagenesis experiments establish these as causal relationships. Protein-protein interaction network analyses and molecular simulations reveal that serine and aromatic residues favor heterotypic interactions, whereas high charge content reinforces homotypic association. Serine phosphorylation acts as a regulatory switch that shifts this balance, altering condensate miscibility. We further show that miscibility between transcription factor (TF) and RNA polymerase II (Pol II) condensates directly influences transactivation, TFs with high overall charge content display reduced Pol II miscibility and impaired transcriptional output, and modulating charged residue content in TFs correspondingly tunes transcription. These findings establish a residue-level grammar for predicting and engineering condensate miscibility.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Serine/chemistry/metabolism",
+      "RNA Polymerase II/metabolism/chemistry/genetics",
+      "Phosphorylation",
+      "Transcription Factors/metabolism/chemistry/genetics",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "Protein Interaction Maps",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Gaofeng",
+        "Wang, Xinxin",
+        "Quan, Xuebo",
+        "Geng, Danqian",
+        "Chen, Zhuo",
+        "Xu, Weifan",
+        "Huang, Kai",
+        "Li, Tingting",
+        "Li, Pilong"
+      ],
+      "short_names": [
+        "Pei G",
+        "Wang X",
+        "Quan X",
+        "Geng D",
+        "Chen Z",
+        "Xu W",
+        "Huang K",
+        "Li T",
+        "Li P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2332-6076",
+        "ORCID: 0009-0000-8158-1617",
+        "ORCID: 0009-0006-5509-1538",
+        "ORCID: 0000-0001-8400-9341",
+        "ORCID: 0000-0003-4266-0317",
+        "ORCID: 0000-0002-1783-3100"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, China.",
+        "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, China. huangkai@szbl.ac.cn.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China. litt@hsc.pku.edu.cn.",
+        "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China. pilongli@mail.tsinghua.edu.cn.",
+        "State Key Laboratory of Membrane Biology, Membrane Structure and Artificial Intelligence Biology Branch, Hangzhou, China. pilongli@mail.tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Gaofeng",
+        "short_name": "Pei G",
+        "identifiers": [
+          "0000-0002-2332-6076"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinxin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Quan, Xuebo",
+        "short_name": "Quan X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Danqian",
+        "short_name": "Geng D",
+        "identifiers": [
+          "0009-0000-8158-1617"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhuo",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0009-0006-5509-1538"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Weifan",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Kai",
+        "short_name": "Huang K",
+        "identifiers": [
+          "0000-0001-8400-9341"
+        ],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, China. huangkai@szbl.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [
+          "0000-0003-4266-0317"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China. litt@hsc.pku.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Pilong",
+        "short_name": "Li P",
+        "identifiers": [
+          "0000-0002-1783-3100"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China. pilongli@mail.tsinghua.edu.cn.",
+          "State Key Laboratory of Membrane Biology, Membrane Structure and Artificial Intelligence Biology Branch, Hangzhou, China. pilongli@mail.tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemical biology"
+    ],
+    "journal_abbrev": [
+      "Nat Chem Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/09 00:34",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40164612",
+      "39920231",
+      "38811792",
+      "38631355",
+      "38383656",
+      "38316988",
+      "38297118",
+      "38225666",
+      "38096828",
+      "37952770",
+      "37684240",
+      "37400539",
+      "36755093",
+      "36603581",
+      "36376475",
+      "36124686",
+      "36096799",
+      "36071192",
+      "35810158",
+      "35687670",
+      "35662392",
+      "35513709",
+      "35325185",
+      "35158098",
+      "35120642",
+      "35025997",
+      "34931046",
+      "34863368",
+      "34163069",
+      "34079125",
+      "34038708",
+      "33953166",
+      "33349959",
+      "33303613",
+      "32929202",
+      "32507767",
+      "32416068",
+      "32132204",
+      "31612960",
+      "31391587",
+      "31270472",
+      "31043738",
+      "30765518",
+      "30500534",
+      "30127355",
+      "29961577",
+      "29930091",
+      "29930090",
+      "29424691",
+      "29358076",
+      "28942918",
+      "28894006",
+      "28817800",
+      "28225081",
+      "28076807",
+      "28041848",
+      "27334688",
+      "27212236",
+      "26488642",
+      "26455390",
+      "26406374",
+      "26283796",
+      "25609695",
+      "25562883",
+      "24869919",
+      "24589438",
+      "24267890",
+      "23707382",
+      "22398450",
+      "20404210",
+      "19495417",
+      "18155240",
+      "17344211",
+      "7108955"
+    ],
+    "similar": [
+      "42260147",
+      "38383656",
+      "34090478",
+      "41524628",
+      "42230638",
+      "33548202",
+      "40848932",
+      "41933903",
+      "38870936",
+      "42350353",
+      "40233760",
+      "42143038",
+      "41337585",
+      "39826710",
+      "39537752",
+      "41667469",
+      "39042834",
+      "41653920",
+      "32929202",
+      "41670285",
+      "39540550",
+      "40441156",
+      "31391587",
+      "39984675",
+      "40521608",
+      "39232584",
+      "41457474",
+      "38824391",
+      "41820080",
+      "40028898",
+      "39390911",
+      "24634214",
+      "32393642",
+      "38308651",
+      "33139563",
+      "39987501",
+      "41481439",
+      "29309620",
+      "42055532",
+      "23760157",
+      "40286793",
+      "40954121",
+      "40796733",
+      "41342450",
+      "38832749",
+      "35179885",
+      "40914943",
+      "39316611",
+      "40588121",
+      "42160388",
+      "40690668",
+      "42420726",
+      "40009520",
+      "40877270",
+      "39303678",
+      "41027866",
+      "41025958",
+      "26515650",
+      "40913895",
+      "39929988",
+      "38252962",
+      "40195119",
+      "40408482",
+      "37468629",
+      "39516712",
+      "40866513",
+      "40136009",
+      "36603581",
+      "40748104",
+      "39510346",
+      "39486437",
+      "42106138",
+      "41910388",
+      "40164612",
+      "34716273",
+      "39779918",
+      "40804711",
+      "41662498",
+      "38987300",
+      "34772787",
+      "39319382",
+      "34474085",
+      "40273986",
+      "27239037",
+      "40614721",
+      "42261607",
+      "36634798",
+      "39589885",
+      "41500492",
+      "39947751",
+      "33371315",
+      "35881789",
+      "32048997",
+      "38316988",
+      "33076213",
+      "37020020",
+      "28924037",
+      "41629626",
+      "33561389",
+      "29511089"
+    ],
+    "review": [
+      "42260147",
+      "39540550",
+      "39984675",
+      "41820080",
+      "35179885",
+      "40913895",
+      "39516712",
+      "40804711",
+      "34772787",
+      "34474085",
+      "41500492",
+      "39947751"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41589-026-02251-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

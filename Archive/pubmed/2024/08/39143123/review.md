@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, interpretation of data, and alignment with claims. Editorial and stylistic issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that the TALE homeodomain transcription factor Meis1 uses a two-step facilitated target search mechanism, in which a non-specific binding mode via the L1-α1 region acts as an intermediate, followed by specific recognition via the α3 helix. They further claim that single-nucleotide mutations in the consensus sequence induce distinct structural distortions in the Meis1-HD–DNA complex, which correlate with reduced binding affinity and explain sequence discrimination.
+- **Visible evidence base** ITC binding data for WT and five single-nucleotide variant DNA duplexes; NMR chemical shift perturbation data; 15N CPMG relaxation dispersion data; MD simulations of WT and variant complexes; sequence alignments and structural models referenced from PDB ID 5BNG.
+- **Missing materials affecting confidence** Supplementary figures, tables, and notes are referenced but not provided. The full NMR resonance assignments, CLEANEX-PM raw data, and MD trajectory coordinates are not available for independent verification. The exact equations for the pseudo-three-state model fitting are only partially described in the main text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive biophysical characterization of Meis1-HD binding to DNA, combining ITC, NMR, and MD simulations. The central claim of a two-step facilitated search mechanism is plausible and supported by the data, but the evidence for the non-specific binding mode as a defined intermediate is indirect. The structural analysis of variant complexes is thorough, but the link between observed structural distortions and functional discrimination is correlative rather than causal. The manuscript is well-written and the experiments are carefully executed, but several technical concerns regarding data fitting, interpretation of NMR dynamics, and statistical treatment of MD results need to be addressed.
+- **Who would be interested in the results, and why** Researchers in the fields of transcription factor biology, protein–DNA recognition, and biophysical chemistry. The work is also relevant to those studying TALE homeodomain proteins and their roles in development and disease, as well as to computational biologists interested in MD simulations of protein–DNA complexes.
+- **Major strengths** The combination of ITC, NMR, and MD is powerful and provides complementary views of binding thermodynamics, dynamics, and structure. The systematic analysis of five single-nucleotide variants is a clear strength, as it allows for a nuanced discussion of sequence discrimination. The proposed two-step model is conceptually appealing and well-integrated with existing literature on facilitated diffusion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of kinetic interpretation
+  - **Claim pointer** The authors claim that the non-specific binding mode is an intermediate in a facilitated search process, supported by CPMG-RD data fitted to a pseudo-three-state model.
+  - **Evidence pointer** Figure 3, Methods section "15N CPMG-RD experiments", Supplementary Fig. 5
+  - **Concern** The CPMG-RD data are fitted to a pseudo-three-state model, but the justification for this model over simpler two-state or more complex multi-state models is not provided. The authors state that the data did not fit a single kex value, but the statistical comparison between models is not shown. Furthermore, the extraction of kex,NB and kFS from the global fit relies on assumptions about the populations of the free, non-specific, and specific states that are not fully validated. The reported error bars for the rate constants are derived from curve fitting, but the systematic errors from model selection are not discussed.
+  - **Why it matters** The kinetic parameters are central to the claim of facilitated diffusion. If the model is not uniquely identified by the data, the derived rate constants and the resulting energy landscape (Fig. 3c) may be over-interpreted. This would weaken the mechanistic conclusion.
+  - **Resolution test** Provide a rigorous model selection analysis (e.g., AIC or BIC) comparing the pseudo-three-state model with alternative models. Show that the data uniquely support the chosen model. Additionally, provide independent validation of the rate constants, for example, by stopped-flow or surface plasmon resonance experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for structural claims
+  - **Claim pointer** The authors claim that specific structural distortions in the Meis1-HD–DNA complex are induced by single-nucleotide mutations, and that these distortions explain reduced binding affinity.
+  - **Evidence pointer** Figures 4 and 5, MD simulation results, Supplementary Tables 3–10
+  - **Concern** The MD simulations are used to infer structural distortions, but the convergence of the simulations is not demonstrated. The authors state that the last 1 μs of each 1.5 μs trajectory was analyzed, but no assessment of convergence (e.g., RMSD vs. time plots, block averaging) is provided. The cluster analysis identifies four distinct conformations for the T1C variant, but the statistical significance of these clusters relative to the WT is not established. The hydrogen bond analyses are presented as percentages of trajectory occupancy, but the variability between independent trajectories is not shown.
+  - **Why it matters** The structural conclusions are based on MD simulations, which are only as reliable as their sampling. Without evidence of convergence and statistical robustness, the claim that specific mutations induce specific structural changes is not firmly established. This is critical because the structural interpretation is a key part of the proposed discrimination mechanism.
+  - **Resolution test** Provide RMSD vs. time plots for all simulations to demonstrate convergence. Show that the identified structural features are consistent across independent trajectories. Provide statistical analysis of hydrogen bond occupancies and RMSF values with appropriate error estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of NMR CSP data
+  - **Claim pointer** The authors use chemical shift perturbation data to distinguish specific and non-specific binding modes, and to infer which regions of Meis1-HD are involved in each mode.
+  - **Evidence pointer** Figure 2, Supplementary Figs. 4, 6, 7
+  - **Concern** The CSP data are used to map the interaction surfaces for specific and non-specific binding. However, the assignment of residues to "specific" or "non-specific" binding is based on the behavior of the cross-peaks during titration, which is interpreted through the dual-binding model. The authors do not provide a clear threshold for what constitutes a significant CSP, and the distinction between residues affected by specific vs. non-specific binding is not quantified. The statement that "all amide signals in the L3-α3-L4 region, except V319, W322, and A326, had Δδavg values between the free and non-specific binding states smaller than 0.08 ppm" is presented without a statistical basis for the 0.08 ppm threshold.
+  - **Why it matters** The CSP analysis is the primary experimental evidence for the distinct structural features of the two binding modes. If the thresholds and assignments are not rigorously defined, the conclusion that the non-specific mode primarily involves the L1-α1 region is not well-supported.
+  - **Resolution test** Provide a clear statistical definition of significant CSP (e.g., based on the distribution of CSPs for residues known to be unaffected). Show that the classification of residues into specific vs. non-specific binding is robust to the choice of threshold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model description
+  - **Affected element** Figure 1e and associated text
+  - **Evidence pointer** Figure 1e, Results section "ITC data for dual binding of Meis1-HD to target DNA"
+  - **Issue** The schematic in Figure 1e shows the formation of a 2:1 complex, but the order of binding events is not clearly indicated. The text states that the first molecule binds specifically and the second non-specifically, but the figure could be interpreted as simultaneous binding.
+  - **Required correction** Add arrows or a stepwise notation to the figure to clarify the sequential binding events.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1 and Figure 4b
+  - **Evidence pointer** Table 1, Figure 4b
+  - **Issue** The ITC data are reported as mean ± standard deviation from three measurements, but the number of independent experiments is not stated in the figure legend or table footnote.
+  - **Required correction** State the number of independent replicates in the table footnote and figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "MD simulations"
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The force field parameters for the DNA are not specified. The authors state that the OL15 force field was used, but the version and any modifications are not described.
+  - **Required correction** Provide the full citation and version for the OL15 force field and any relevant parameter files.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of biological relevance
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors suggest that the broad specificity of Meis1 in vivo may be explained by the strong non-specific binding. This is an interesting speculation, but it is not directly tested. The discussion would benefit from a more cautious framing.
+  - **Required correction** Soften the language to indicate that this is a hypothesis that requires further testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The kinetic model selection and the convergence of MD simulations are essential to support the central claims. Without these, the proposed mechanism and structural interpretation are not fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its combination of techniques and its focus on the non-specific binding mode of a TALE homeodomain protein. The two-step model is not entirely new, but its application to Meis1 is novel.
+  - **Scientific importance** The findings are important for understanding how transcription factors search for and discriminate target sites, a fundamental question in gene regulation. The potential link to disease-associated mutations adds translational relevance.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, structural biologists, and molecular biologists. The methods are clearly described, but the NMR and MD sections may be challenging for non-specialists.
+  - **Technical soundness** The experiments are generally well-designed, but the concerns about kinetic model selection and MD convergence are significant. The statistical treatment of some data is not fully rigorous.
+  - **Readability for nonspecialists** The manuscript is well-written and the figures are clear. The abstract and introduction are accessible, but the results section assumes familiarity with NMR and MD techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a substantial body of data. However, the blocking concerns regarding the kinetic model and MD convergence must be addressed before the central claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that the non-specific binding mode is a defined intermediate in a facilitated search process is not fully supported by the CPMG-RD data, as the model selection is not justified.
+- The claim that specific structural distortions in the Meis1-HD–DNA complex are induced by single-nucleotide mutations is based on MD simulations whose convergence is not demonstrated.
+- The statement that "Meis1-HD associates six times more rapidly with the consensus DNA sequence compared to non-specific contact" is derived from calculated rate constants that depend on the unvalidated kinetic model.
+- The biological speculation that the strong non-specific binding explains Meis1's broad in vivo specificity is not directly tested and should be presented as a hypothesis.

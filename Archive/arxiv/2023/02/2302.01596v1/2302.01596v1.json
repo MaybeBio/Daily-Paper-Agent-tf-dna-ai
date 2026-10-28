@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2302.01596v1",
+  "title": "A Novel Fuzzy Bi-Clustering Algorithm with AFS for Identification of Co-Regulated Genes",
+  "doi": "",
+  "abstract": "The identification of co-regulated genes and their transcription-factor binding sites (TFBS) are the key steps toward understanding transcription regulation. In addition to effective laboratory assays, various bi-clustering algorithms for detection of the co-expressed genes have been developed. Bi-clustering methods are used to discover subgroups of genes with similar expression patterns under to-be-identified subsets of experimental conditions when applied to gene expression data. By building two fuzzy partition matrices of the gene expression data with the Axiomatic Fuzzy Set (AFS) theory, this paper proposes a novel fuzzy bi-clustering algorithm for identification of co-regulated genes. Specifically, the gene expression data is transformed into two fuzzy partition matrices via sub-preference relations theory of AFS at first. One of the matrices is considering the genes as the universe and the conditions as the concept, the other one is considering the genes as the concept and the conditions as the universe. The identification of the co-regulated genes (bi-clusters) is carried out on the two partition matrices at the same time. Then, a novel fuzzy-based similarity criterion is defined based on the partition matrixes, and a cyclic optimization algorithm is designed to discover the significant bi-clusters at expression level. The above procedures guarantee that the generated bi-clusters have more significant expression values than that of extracted by the traditional bi-clustering methods. Finally, the performance of the proposed method is evaluated with the performance of the three well-known bi-clustering algorithms on publicly available real microarray datasets. The experimental results are in agreement with the theoretical analysis and show that the proposed algorithm can effectively detect the co-regulated genes without any prior knowledge of the gene expression data.",
+  "authors": [
+    "Kaijie Xu"
+  ],
+  "published_date": "2023-02-03T08:35:49Z",
+  "updated_date": "2023-02-03T08:35:49Z",
+  "journal": "",
+  "category": "cs.LG, math.NA, stat.ME",
+  "landing_url": "https://arxiv.org/abs/2302.01596v1",
+  "pdf_url": "https://arxiv.org/pdf/2302.01596v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "math.NA",
+    "stat.ME"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2302.01596v1",
+    "raw_categories": [
+      "cs.LG",
+      "math.NA",
+      "stat.ME"
+    ],
+    "journal_ref": ""
+  }
+}

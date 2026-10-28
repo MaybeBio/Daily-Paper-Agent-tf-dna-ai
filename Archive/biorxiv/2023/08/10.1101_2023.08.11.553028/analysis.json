@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.11.553028",
+  "title": "Hybrid protein-ligand binding residue prediction with protein language models: Does the structure matter?",
+  "authors": "Hamza Gamouh; Marian Novotný; David Hoksza",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-15",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合蛋白语言模型与图神经网络预测蛋白-配体结合残基，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作界面预测，属于广义蛋白-配体互作建模。",
+  "abstract": "Background Predicting protein-ligand binding sites is crucial in studying protein interactions with applications in biotechnology and drug discovery. Two distinct paradigms have emerged for this purpose: sequence-based methods, which leverage protein sequence information, and structure-based methods, which rely on the three-dimensional (3D) structure of the protein. We propose to study a hybrid approach combining both paradigms’ strengths by integrating two recent deep learning architectures: protein language models (pLMs) from the sequence-based paradigm and Graph Neural Networks (GNNs) from the structure-based paradigm. Specifically, we construct a residue-level Graph Attention Network (GAT) model based on the protein’s 3D structure that uses pre-trained pLM embeddings as node features. This integration enables us to study the interplay between the sequential information encoded in the protein sequence and the spatial relationships within the protein structure on the model’s performance. Results By exploiting a benchmark dataset over a range of ligands and ligand types, we have shown that using the structure information consistently enhances the predictive power of baselines in absolute terms. Nevertheless, as more complex pLMs are employed to represent node features, the relative impact of the structure information represented by the GNN architecture diminishes. Conclusions The above observations suggest that, although using the experimental protein structure almost always improves the accuracy binding site prediction, complex pLMs still contain structural information that lead to good predictive performance even without using 3D structure.",
+  "abstract_zh": "背景 预测蛋白质-配体结合位点对于研究蛋白质相互作用至关重要，在生物技术和药物发现中具有应用价值。为此，已出现两种不同的范式：基于序列的方法，利用蛋白质序列信息；以及基于结构的方法，依赖蛋白质的三维（3D）结构。我们提出研究一种混合方法，通过整合两种近期深度学习架构来结合两种范式的优势：来自基于序列范式的蛋白质语言模型（pLMs）和来自基于结构范式的图神经网络（GNNs）。具体而言，我们基于蛋白质的3D结构构建了一个残基级别的图注意力网络（GAT）模型，该模型使用预训练的pLM嵌入作为节点特征。这种整合使我们能够研究蛋白质序列中编码的序列信息与蛋白质结构内空间关系之间的相互作用对模型性能的影响。结果 通过利用一个涵盖多种配体和配体类型的基准数据集，我们表明使用结构信息在绝对数值上持续增强了基线的预测能力。然而，随着使用更复杂的pLMs来表示节点特征，由GNN架构表示的结构信息的相对影响逐渐减弱。结论 上述观察表明，尽管使用实验蛋白质结构几乎总能提高结合位点预测的准确性，但复杂的pLMs仍包含结构信息，即使不使用3D结构也能带来良好的预测性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.11.553028",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.11.553028",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.11.553028/index.html"
+}

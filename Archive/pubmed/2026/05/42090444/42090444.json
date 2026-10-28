@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "42090444",
+    "doi": "10.1371/journal.pgen.1012145",
+    "title": "Tissue-specific transfer learning improves functional variant and therapeutic target discoveries in breast and prostate cancer."
+  },
+  "content": {
+    "abstract": "DNA foundation models trained on large-scale genomic and epigenetic datasets have shown promise for regulatory variant interpretation, yet their application to tissue-specific contexts remain limited. Here, we present a transfer learning (TL) framework to adapt Enformer, a deep neural network trained on 5,313 multi-omics tracks, to breast and prostate cancer using 275 and 357 tissue-specific transcription factor (TF) ChIP-seq tracks, respectively. We computed tissue-specific cis-regulatory activity (tCRA) scores for millions of single-nucleotide variants (SNVs) in genome-wide association study (GWAS) datasets and prioritized high-impact SNV subsets (1M, 1.5M, and 2M). These TL-prioritized variants demonstrated consistently greater enrichment in tissue-specific enhancers, cancer GWAS risk variants, and ClinVar pathogenic variants compared to the original Enformer model. Transcriptome-wide association studies (TWAS) using TL-based SNVs identified more cancer-relevant genes, many of which exhibited functional essentiality (DepMap), therapeutic tractability (drug databases), and disease relevance (DisGeNET). Notably, TL models outperformed the base model in identifying genes enriched for drug targets and clinically relevant disease associations. Our results show that TL-derived tCRA scores enhance regulatory variant prioritization and improve susceptibility gene discovery in a tissue-specific manner. Our study provides a generalizable framework for tailoring foundation models to disease-relevant contexts, with implications for variant interpretation, therapeutic target discovery, and precision medicine.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Prostatic Neoplasms/genetics/pathology",
+      "*Breast Neoplasms/genetics/pathology",
+      "Genome-Wide Association Study",
+      "Polymorphism, Single Nucleotide/genetics",
+      "Male",
+      "Female",
+      "Gene Expression Regulation, Neoplastic",
+      "Transcription Factors/genetics",
+      "Organ Specificity/genetics",
+      "Transcriptome/genetics",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Qing",
+        "Wang, Dinghao",
+        "Zhang, Zilong",
+        "Perera, Deshan",
+        "Chen, Zhishan",
+        "Wen, Wanqing",
+        "MacDonald, M Ethan",
+        "Cai, Weijia",
+        "Yan, Jun",
+        "Shu, Xiao-Ou",
+        "Zheng, Wei",
+        "Guo, Xingyi",
+        "Long, Quan"
+      ],
+      "short_names": [
+        "Li Q",
+        "Wang D",
+        "Zhang Z",
+        "Perera D",
+        "Chen Z",
+        "Wen W",
+        "MacDonald ME",
+        "Cai W",
+        "Yan J",
+        "Shu XO",
+        "Zheng W",
+        "Guo X",
+        "Long Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-1327-4347",
+        "ORCID: 0000-0002-0441-7431",
+        "ORCID: 0000-0003-0239-8959",
+        "ORCID: 0000-0003-4654-0734",
+        "ORCID: 0000-0001-5421-3536",
+        "ORCID: 0000-0003-1469-8991",
+        "ORCID: 0000-0002-0711-8314",
+        "ORCID: 0000-0003-1226-070X",
+        "ORCID: 0000-0003-3795-1873"
+      ],
+      "affiliations": [
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+        "Department of Mathematics and Statistics, University of Calgary, Calgary, Canada.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+        "Department of Electrical & Software Engineering, University of Calgary, Calgary, Canada.",
+        "Hotchkiss Brain Institute, University of Calgary, Calgary, Canada.",
+        "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada.",
+        "Department of Biomedical Engineering, University of Calgary, Calgary, Canada.",
+        "Department of Radiology, University of Calgary, Calgary, Canada.",
+        "Department of Medical Microbiology, Immunology and Cell Biology, Southern Illinois University School of Medicine, Springfield, Illinois, United States of America.",
+        "Simmons Cancer Institute, Southern Illinois University School of Medicine, Springfield, Illinois, United States of America.",
+        "Department of Surgery, Southern Illinois University School of Medicine, Springfield, Illinois, United States of America.",
+        "Physiology and Pharmacology, University of Calgary, Calgary, Alberta, Canada.",
+        "Department of Medical Genetics, University of Calgary, Calgary, Canada.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+        "Department of Mathematics and Statistics, University of Calgary, Calgary, Canada.",
+        "Hotchkiss Brain Institute, University of Calgary, Calgary, Canada.",
+        "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada.",
+        "Department of Medical Genetics, University of Calgary, Calgary, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0009-0005-1327-4347"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America.",
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Wang, Dinghao",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0002-0441-7431"
+        ],
+        "affiliations": [
+          "Department of Mathematics and Statistics, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zilong",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0003-0239-8959"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Perera, Deshan",
+        "short_name": "Perera D",
+        "identifiers": [
+          "0000-0003-4654-0734"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhishan",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wen, Wanqing",
+        "short_name": "Wen W",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America."
+        ]
+      },
+      {
+        "full_name": "MacDonald, M Ethan",
+        "short_name": "MacDonald ME",
+        "identifiers": [
+          "0000-0001-5421-3536"
+        ],
+        "affiliations": [
+          "Department of Electrical & Software Engineering, University of Calgary, Calgary, Canada.",
+          "Hotchkiss Brain Institute, University of Calgary, Calgary, Canada.",
+          "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada.",
+          "Department of Biomedical Engineering, University of Calgary, Calgary, Canada.",
+          "Department of Radiology, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Cai, Weijia",
+        "short_name": "Cai W",
+        "identifiers": [
+          "0000-0003-1469-8991"
+        ],
+        "affiliations": [
+          "Department of Medical Microbiology, Immunology and Cell Biology, Southern Illinois University School of Medicine, Springfield, Illinois, United States of America.",
+          "Simmons Cancer Institute, Southern Illinois University School of Medicine, Springfield, Illinois, United States of America.",
+          "Department of Surgery, Southern Illinois University School of Medicine, Springfield, Illinois, United States of America."
+        ]
+      },
+      {
+        "full_name": "Yan, Jun",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Physiology and Pharmacology, University of Calgary, Calgary, Alberta, Canada.",
+          "Department of Medical Genetics, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Shu, Xiao-Ou",
+        "short_name": "Shu XO",
+        "identifiers": [
+          "0000-0002-0711-8314"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0003-1226-070X"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America."
+        ]
+      },
+      {
+        "full_name": "Guo, Xingyi",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, Tennessee, United States of America."
+        ]
+      },
+      {
+        "full_name": "Long, Quan",
+        "short_name": "Long Q",
+        "identifiers": [
+          "0000-0003-3795-1873"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+          "Department of Mathematics and Statistics, University of Calgary, Calgary, Canada.",
+          "Hotchkiss Brain Institute, University of Calgary, Calgary, Canada.",
+          "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada.",
+          "Department of Medical Genetics, University of Calgary, Calgary, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/06 18:32",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39779956",
+      "39535029",
+      "38217236",
+      "37953279",
+      "37933841",
+      "37713619",
+      "37455245",
+      "37220626",
+      "36402776",
+      "35640976",
+      "35169688",
+      "34875674",
+      "34849857",
+      "34608324",
+      "34518541",
+      "34513844",
+      "34479396",
+      "33257898",
+      "33200776",
+      "33199916",
+      "32913254",
+      "32753378",
+      "32672961",
+      "32424353",
+      "32030660",
+      "31150950",
+      "31068683",
+      "30926968",
+      "30462313",
+      "30337082",
+      "29892016",
+      "29727689",
+      "28753430",
+      "26854917",
+      "26301843",
+      "26258848",
+      "25954001",
+      "25877637",
+      "25693563",
+      "24234437",
+      "23001124",
+      "22343431",
+      "20548291",
+      "19812666"
+    ],
+    "similar": [
+      "42090444",
+      "28359301",
+      "40653482",
+      "29378629",
+      "31230194",
+      "39535029",
+      "28957321",
+      "38723632",
+      "37164006",
+      "29351903",
+      "35176995",
+      "24920305",
+      "42201988",
+      "38733992",
+      "42475469",
+      "38723630",
+      "30864331",
+      "23046449",
+      "24497837",
+      "41359169",
+      "42218145",
+      "39341862",
+      "34520569",
+      "40409268",
+      "38845201",
+      "42515778",
+      "29727689",
+      "41570977",
+      "41318116",
+      "38400758",
+      "34560228",
+      "27409348",
+      "39999848",
+      "41188790",
+      "33293427",
+      "41540004",
+      "41099493",
+      "41096905",
+      "42182259",
+      "40888991",
+      "28957356",
+      "41382137",
+      "34286847",
+      "42553536",
+      "41713536",
+      "27833659",
+      "41171131",
+      "38992576",
+      "26483192",
+      "41699549",
+      "36768794",
+      "33626337",
+      "28750683",
+      "41002190",
+      "32397189",
+      "36402776",
+      "27432226",
+      "28592290",
+      "32986714",
+      "38824563",
+      "38748784",
+      "26637267",
+      "30557297",
+      "40775447",
+      "42121192",
+      "41932314",
+      "34973416",
+      "38515142",
+      "31101764",
+      "39468330",
+      "41022541",
+      "42066773",
+      "31801406",
+      "33130899",
+      "41468516",
+      "33371893",
+      "39137781",
+      "41250111",
+      "36423637",
+      "40205616",
+      "33122083",
+      "37873299",
+      "42392035",
+      "34541447",
+      "24022300",
+      "21814516",
+      "34518541",
+      "41862973",
+      "31729402",
+      "32784507",
+      "34099864",
+      "29335020",
+      "23555315",
+      "31362726",
+      "39563277",
+      "25658610",
+      "42326801",
+      "27980060",
+      "33901188",
+      "41616909"
+    ],
+    "review": [
+      "42090444",
+      "37164006",
+      "34560228",
+      "34286847",
+      "38515142"
+    ],
+    "pmc": [
+      "13175468"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1012145",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42090444/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

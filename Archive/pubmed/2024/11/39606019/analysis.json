@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39606019",
+  "title": "Integrative analysis of single-cell transcriptomic and multilayer signaling networks in glioma reveal tumor progression stage.",
+  "authors": "Atanaki, Fereshteh Fallah; Mirsadeghi, Leila; Manesh, Mohsen Riahi; Kavousi, Kaveh",
+  "journal": "Frontiers in genetics",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用多层网络整合单细胞转录组与配体-受体-TF信号轴分析胶质瘤进展，虽涉及TF但无蛋白-DNA结合建模或AI/物理模拟方法，仅作网络统计与机器学习预测，与本课题关联较弱。",
+  "abstract": "INTRODUCTION: Tumor microenvironments (TMEs) encompass complex ecosystems of cancer cells, infiltrating immune cells, and diverse cell types. Intercellular and intracellular signals within the TME significantly influence cancer progression and therapeutic outcomes. Although computational tools are available to study TME interactions, explicitly modeling tumor progression across different cancer types remains a challenge. METHODS: This study introduces a comprehensive framework utilizing single-cell RNA sequencing (scRNA-seq) data within a multilayer network model, designed to investigate molecular changes across glioma progression stages. The heterogeneous, multilayered network model replicates the hierarchical structure of biological systems, from genetic building blocks to cellular functions and phenotypic manifestations. RESULTS: Applying this framework to glioma scRNA-seq data allowed complex network analysis of different cancer stages, revealing significant ligand‒receptor interactions and key ligand‒receptor-transcription factor (TF) axes, along with their associated biological pathways. Differential network analysis between grade III and grade IV glioma highlighted the most critical nodes and edges involved in interaction rewiring. Pathway enrichment analysis identified four essential genes-PDGFA (ligand), PDGFRA (receptor), CREB1 (TF), and PLAT (target gene)-involved in the Receptor Tyrosine Kinases (RTK) signaling pathway, which plays a pivotal role in glioma progression from grade III to grade IV. DISCUSSION: These genes emerged as significant features for machine learning in predicting glioma progression stages, achieving 87% accuracy and 93% AUC in a 3-year survival prediction through Kaplan-Meier analysis. This framework provides deeper insights into the cellular machinery of glioma, revealing key molecular relationships that may inform prognosis and therapeutic strategies.",
+  "abstract_zh": "引言：肿瘤微环境（TME）涵盖癌细胞、浸润免疫细胞及多种细胞类型的复杂生态系统。TME内的细胞间和细胞内信号显著影响癌症进展和治疗结果。尽管已有计算工具可用于研究TME相互作用，但明确建模不同癌症类型中的肿瘤进展仍具挑战性。方法：本研究引入一个综合框架，利用单细胞RNA测序（scRNA-seq）数据构建多层网络模型，旨在探究胶质瘤进展阶段的分子变化。异质性多层网络模型复制了生物系统的层级结构，从遗传构建模块到细胞功能及表型表现。结果：将该框架应用于胶质瘤scRNA-seq数据，可对不同癌症阶段进行复杂网络分析，揭示显著的配体-受体相互作用及关键配体-受体-转录因子（TF）轴，并关联其相关生物通路。三级与四级胶质瘤之间的差异网络分析突出了参与相互作用重连的最关键节点和边。通路富集分析识别出四个关键基因——PDGFA（配体）、PDGFRA（受体）、CREB1（TF）和PLAT（靶基因）——参与受体酪氨酸激酶（RTK）信号通路，该通路在胶质瘤从三级进展至四级中发挥关键作用。讨论：这些基因成为机器学习预测胶质瘤进展阶段的显著特征，通过Kaplan-Meier分析在3年生存预测中达到87%的准确率和93%的AUC。该框架为胶质瘤细胞机制提供更深入见解，揭示可能指导预后和治疗策略的关键分子关系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39606019/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39606019/",
+  "paper_page_path": "papers/pubmed/39606019/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.19.660294",
+  "title": "Euktect: Enhanced Eukaryotic Sequence Detection and Classification in Metagenomes via the DNA Language Model",
+  "authors": "Yibo Peng; Boyang Ji; Yinzhao Wang; Hongzhong Lu",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-24",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用DNA语言模型对宏基因组真核序列进行分类检测，虽涉及DNA序列但无蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "The current taxonomy classification of DNA sequences in metagenomics primarily relies on alignment against reference databases. However, the eukaryotic species in genome databases are not sufficient as there exist numerous unculturable eukaryotes inside metagenomes. These limitations hinder functional and evolutionary analyses of eukaryotes across distinct environmental samples. To overcome these limitations, we created Euktect, a deep-learning-based toolbox for reliable, alignment-free classification of eukaryotic DNA sequences across different phylogenetic levels from metagenome datasets. Euktect achieves high accuracy in extraction of eukaryotic sequences longer than 500bp from the assembled contigs of metagenomes, significantly outperforming existing methods. Furthermore, we developed an algorithm that integrates Euktect’s predictions with existing tools to refine metagenome-assembled genomes (MAGs), substantially increasing the yield of high-quality eukaryotic MAGs for the downstream analysis. Beyond eukaryotic detection, Euktect incorporates two specialized models: a high-precision classifier for fungal phyla, and a hierarchical classifier that accurately identifies sequences from specific fungal genera (e.g., Candida ) in diverse metagenomic samples. Significantly, this framework enables prediction of host disease status (e.g., inflammatory bowel disease) by linking eukaryotic sequence identification to clinical phenotypes through machine learning models. Collectively, Euktect enables accurate reconstruction and functional annotation of eukaryotic genomes from metagenomes at large scale, thereby empowering the comprehensive utilization of sequenced eukaryotic species for downstream evolutionary and clinical research.",
+  "abstract_zh": "当前宏基因组学中DNA序列的分类学分类主要依赖于与参考数据库的比对。然而，基因组数据库中的真核生物物种并不充足，因为宏基因组内存在大量不可培养的真核生物。这些局限性阻碍了对不同环境样本中真核生物的功能和进化分析。为克服这些限制，我们创建了Euktect，一个基于深度学习的工具箱，用于从宏基因组数据集中对不同系统发育水平的真核DNA序列进行可靠的、无需比对的分类。Euktect在从宏基因组组装重叠群中提取长度超过500bp的真核序列方面实现了高准确性，显著优于现有方法。此外，我们开发了一种算法，将Euktect的预测与现有工具整合，以优化宏基因组组装基因组（MAGs），大幅提高高质量真核MAGs的产出，便于下游分析。除真核生物检测外，Euktect还包含两个专门模型：一个用于真菌门的高精度分类器，以及一个分层分类器，能够准确识别不同宏基因组样本中特定真菌属（如念珠菌属 (Candida)）的序列。重要的是，该框架通过机器学习模型将真核序列识别与临床表型联系起来，从而能够预测宿主疾病状态（如炎症性肠病）。总体而言，Euktect能够从宏基因组中大规模准确重建和功能注释真核基因组，从而促进测序真核物种在下游进化和临床研究中的全面利用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.19.660294",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.19.660294",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.19.660294/index.html"
+}

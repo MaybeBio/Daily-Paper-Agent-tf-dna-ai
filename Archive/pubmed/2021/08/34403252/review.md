@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use microsecond molecular dynamics (MD) simulations of the wild-type p53-DNA complex to identify three regions in the beta-sandwich of the DNA-binding domain (DBD) that correlate strongly with DNA. They then simulate four cancer-related mutants (L145Q, P151S, Y220C, G266R) located in these regions and report that these mutations allosterically destabilize the DNA-binding groove and disrupt p53-DNA interactions. Network analyses are used to propose optimal correlation paths for allosteric signal transmission and to characterize the mutations' effects on global connectivity and dynamical correlation.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, statistical analyses, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, system setup details, convergence and validation analyses, network analysis methodology, and any quantitative metrics of binding affinity or structural stability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an important question in cancer biology, namely how distal mutations in p53's beta-sandwich region allosterically affect DNA binding. The use of microsecond-scale MD simulations and network analysis is appropriate for this type of investigation. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical significance of the findings, or the robustness of the network analysis conclusions. The central claims of allosteric destabilization and signal propagation are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics, structural biologists studying p53 and its cancer-associated mutations, and investigators interested in allosteric mechanisms in protein-DNA interactions. The work could also be of interest to cancer biologists seeking mechanistic hypotheses for mutation-induced loss of p53 function.
+- **Major strengths** The study addresses a clinically relevant problem with a well-defined computational approach. The selection of four specific cancer-associated mutations located in the beta-sandwich region is logical and grounded in prior experimental observations. The use of microsecond-scale simulations is appropriate for capturing slow conformational dynamics relevant to allostery. The combination of MD simulations with network analysis is a modern and potentially powerful approach to dissect allosteric communication pathways.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the identified three regions in the beta-sandwich show "a strong correlation with DNA" based on wild-type simulations, and that the four mutations "allosterically destabilize the structural stability of the DNA-binding groove" and "disrupt the p53-DNA interactions."
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative metrics provided
+  - **Concern** The abstract provides no quantitative definition of "strong correlation" nor any statistical measure of the correlation strength. Similarly, the claim of allosteric destabilization is presented without any numerical data on structural stability (e.g., root-mean-square deviation, root-mean-square fluctuation, or binding free energy changes). Without these data, the central claims cannot be evaluated.
+  - **Why it matters** The core scientific contribution rests on demonstrating that the mutations cause measurable, statistically significant changes in dynamics and binding. Without quantitative evidence, the claims remain qualitative assertions.
+  - **Resolution test** Provide quantitative correlation coefficients with error bars, comparative stability metrics between wild-type and mutants, and statistical tests (e.g., block averaging, bootstrapping) demonstrating significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "network analyses reveal optimal correlation paths through which the mutation-induced allosteric signal passes to DNA."
+  - **Evidence pointer** Abstract only; no methodological details of the network analysis provided
+  - **Concern** The network analysis methodology is not described. It is unclear what constitutes a "node," how edges are weighted, how "optimal paths" are defined, and how statistical significance of these paths is assessed. Without this information, the claim of identified allosteric pathways is not verifiable.
+  - **Why it matters** The identification of specific allosteric pathways is a key novel contribution. If the network analysis is not rigorously grounded, the pathway claims may be artifacts of the chosen parameters.
+  - **Resolution test** Describe the network construction and path-finding algorithm, and provide statistical validation (e.g., comparison to randomized networks or bootstrapping) to support the significance of the identified paths.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract implies that the simulations are sufficient to draw conclusions about allosteric mechanisms, but no simulation details are given.
+  - **Evidence pointer** Abstract only
+  - **Concern** No information is provided on force field parameters, water model, ion concentration, temperature/pressure coupling, simulation length per system, number of replicates, or convergence criteria. Without these details, the reproducibility and reliability of the simulations cannot be assessed.
+  - **Why it matters** MD simulation results are highly sensitive to these choices. The absence of this information prevents any assessment of whether the simulations were adequately converged and whether the conclusions are robust.
+  - **Resolution test** Provide full simulation protocols in the methods section, including convergence analysis (e.g., block averaging of key observables) and replicate simulations to demonstrate reproducibility.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "plays active roles in the physiological regulation of cell cycle" is vague and could be more specific about p53's known functions (e.g., cell cycle arrest, apoptosis, DNA repair).
+  - **Required correction** Rephrase to specify p53's known tumor suppressor functions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that this work "paves the way for the in-depth understanding" is somewhat overstated given the preliminary nature of the findings as presented.
+  - **Required correction** Soften the language to reflect that the study provides a computational hypothesis that requires experimental validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The abstract does not mention any comparison to experimental data on binding affinities for these mutants, which would strengthen the relevance of the findings.
+  - **Required correction** Add a sentence noting whether the simulation results are consistent with known experimental binding data for these mutants.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details, and convergence analyses means the central claims of allosteric destabilization and pathway identification are not currently established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of network analysis to p53 beta-sandwich mutations is a reasonable extension of existing methods, but the abstract does not demonstrate a fundamentally new conceptual advance.
+  - Scientific importance: The question of how distal mutations affect p53-DNA binding is clinically relevant and important, but the abstract does not provide evidence that the findings substantially advance current understanding beyond what is already known about these mutations.
+  - Interdisciplinary readership: The work is likely to appeal primarily to computational biophysicists and structural biologists; the broader cancer biology community would require clearer translational framing.
+  - Technical soundness: Not assessable from the abstract alone; the absence of methodological detail and quantitative results is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "beta-sandwich," "allosteric signal") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the lack of quantitative data, methodological detail, and validation means the claims cannot be evaluated. A full manuscript with complete methods and results would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that the three identified regions show "strong correlation with DNA" is unsupported without quantitative correlation values and statistical significance.
+- The claim that the four mutations "allosterically destabilize the DNA-binding groove" is unsupported without stability metrics and comparative analysis.
+- The claim that "network analyses reveal optimal correlation paths" is unsupported without methodological details and statistical validation.
+- The claim that the mutations disrupt "global connectivity and dynamical correlation" is unsupported without quantitative network metrics.
+- The general statement that this work "paves the way for the in-depth understanding" of mutation-induced loss of DNA recognition is an overstatement given the preliminary nature of the evidence presented.

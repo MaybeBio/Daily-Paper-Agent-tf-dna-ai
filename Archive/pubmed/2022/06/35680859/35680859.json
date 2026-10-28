@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "35680859",
+    "doi": "10.1038/s41467-022-30792-9",
+    "title": "Large-scale multi-omics analysis suggests specific roles for intragenic cohesin in transcriptional regulation."
+  },
+  "content": {
+    "abstract": "Cohesin, an essential protein complex for chromosome segregation, regulates transcription through a variety of mechanisms. It is not a trivial task to assign diverse cohesin functions. Moreover, the context-specific roles of cohesin-mediated interactions, especially on intragenic regions, have not been thoroughly investigated. Here we perform a comprehensive characterization of cohesin binding sites in several human cell types. We integrate epigenomic, transcriptomic and chromatin interaction data to explore the context-specific functions of intragenic cohesin related to gene activation. We identify a specific subset of cohesin binding sites, decreased intragenic cohesin sites (DICs), which are negatively correlated with transcriptional regulation. A subgroup of DICs is enriched with enhancer markers and RNA polymerase II, while the others are more correlated to chromatin architecture. DICs are observed in various cell types, including cells from patients with cohesinopathy. We also implement machine learning to our data and identified genomic features for isolating DICs from all cohesin sites. These results suggest a previously unidentified function of cohesin on intragenic regions for transcriptional regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "CCCTC-Binding Factor/metabolism",
+      "*Cell Cycle Proteins/metabolism",
+      "Chromatin/genetics",
+      "*Chromosomal Proteins, Non-Histone/metabolism",
+      "Gene Expression Regulation",
+      "Humans",
+      "Cohesins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiankang",
+        "Bando, Masashige",
+        "Shirahige, Katsuhiko",
+        "Nakato, Ryuichiro"
+      ],
+      "short_names": [
+        "Wang J",
+        "Bando M",
+        "Shirahige K",
+        "Nakato R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3110-0605",
+        "ORCID: 0000-0003-3019-5817"
+      ],
+      "affiliations": [
+        "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan.",
+        "Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan.",
+        "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan.",
+        "Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Biosciences and Nutrition, Karolinska Institutet, Stockholm, Sweden.",
+        "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan. rnakato@iqb.u-tokyo.ac.jp.",
+        "Graduate School of Medicine, The University of Tokyo, Tokyo, Japan. rnakato@iqb.u-tokyo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiankang",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0003-3110-0605"
+        ],
+        "affiliations": [
+          "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan.",
+          "Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Bando, Masashige",
+        "short_name": "Bando M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Shirahige, Katsuhiko",
+        "short_name": "Shirahige K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan.",
+          "Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+          "Department of Biosciences and Nutrition, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nakato, Ryuichiro",
+        "short_name": "Nakato R",
+        "identifiers": [
+          "0000-0003-3019-5817"
+        ],
+        "affiliations": [
+          "Institute for Quantitative Biosciences, The University of Tokyo, Tokyo, Japan. rnakato@iqb.u-tokyo.ac.jp.",
+          "Graduate School of Medicine, The University of Tokyo, Tokyo, Japan. rnakato@iqb.u-tokyo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jun 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/11 06:00",
+    "fetched_at": "2026-09-28 09:30:15"
+  },
+  "links": {
+    "cites": [
+      "42258543",
+      "41609358",
+      "40103226",
+      "39283468",
+      "38382406",
+      "38102723",
+      "37283809",
+      "37231112",
+      "36162821"
+    ],
+    "refs": [
+      "34850813",
+      "32243831",
+      "32093739",
+      "31780627",
+      "31516082",
+      "31485080",
+      "31375807",
+      "30544080",
+      "30146161",
+      "29528371",
+      "29199022",
+      "29158426",
+      "28985501",
+      "28938092",
+      "28691904",
+      "28424523",
+      "28225755",
+      "27739523",
+      "27638884",
+      "27467249",
+      "27259200",
+      "27210764",
+      "27089971",
+      "26051894",
+      "26034063",
+      "25765347",
+      "25730767",
+      "25516281",
+      "25452276",
+      "25260700",
+      "25252976",
+      "24927833",
+      "24879308",
+      "24843027",
+      "24670763",
+      "24337295",
+      "24258023",
+      "23955599",
+      "23672187",
+      "23629413",
+      "23172872",
+      "22780989",
+      "22424423",
+      "22406422",
+      "22264824",
+      "22142239",
+      "22042860",
+      "21964334",
+      "21358745",
+      "21151129",
+      "20920310",
+      "20797634",
+      "20720539",
+      "20219941",
+      "20110278",
+      "19505943",
+      "19261174",
+      "18798982",
+      "18235444",
+      "15146186"
+    ],
+    "similar": [
+      "35680859",
+      "29593713",
+      "32631111",
+      "31216471",
+      "31516082",
+      "22952237",
+      "32294452",
+      "21454523",
+      "31666380",
+      "20478995",
+      "29867216",
+      "24550742",
+      "30096363",
+      "33247104",
+      "31937660",
+      "29217591",
+      "34197738",
+      "33091336",
+      "24335803",
+      "35103965",
+      "18235444",
+      "27135601",
+      "32451376",
+      "28424523",
+      "25375358",
+      "37264934",
+      "31177910",
+      "36162821",
+      "30146161",
+      "33558242",
+      "31204999",
+      "21880767",
+      "21444719",
+      "25735743",
+      "20720539",
+      "20966046",
+      "31331360",
+      "28737770",
+      "35879286",
+      "25081205",
+      "23650640",
+      "25703332",
+      "22617390",
+      "23498937",
+      "19322193",
+      "30031214",
+      "24185899",
+      "32333838",
+      "19369356",
+      "35409298",
+      "29158440",
+      "23599346",
+      "31264253",
+      "27799150",
+      "20404106",
+      "35501690",
+      "21550623",
+      "32277274",
+      "35222432",
+      "19308701",
+      "25677180",
+      "37726281",
+      "18623068",
+      "28262505",
+      "25851587",
+      "19956766",
+      "24269489",
+      "25542856",
+      "33334891",
+      "21502535",
+      "23975099",
+      "18237772",
+      "30940740",
+      "22278832",
+      "28631016",
+      "23760082",
+      "25307058",
+      "20133600",
+      "21962715",
+      "17965872",
+      "35896525",
+      "37451823",
+      "37283809"
+    ],
+    "review": [
+      "35680859",
+      "32631111",
+      "31516082",
+      "22952237",
+      "30096363",
+      "23650640",
+      "23498937",
+      "30031214",
+      "35409298",
+      "31264253",
+      "20404106",
+      "35222432",
+      "19308701",
+      "18623068",
+      "24269489",
+      "30940740",
+      "22278832",
+      "28631016"
+    ],
+    "pmc": [
+      "9184728"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-30792-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35680859/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35680859",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse177045",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

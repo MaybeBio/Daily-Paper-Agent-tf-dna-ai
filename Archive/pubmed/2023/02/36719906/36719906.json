@@ -1,0 +1,522 @@
+{
+  "identity": {
+    "pmid": "36719906",
+    "doi": "10.1371/journal.pcbi.1010863",
+    "title": "maxATAC: Genome-scale transcription-factor binding prediction from ATAC-seq with deep neural networks."
+  },
+  "content": {
+    "abstract": "Transcription factors read the genome, fundamentally connecting DNA sequence to gene expression across diverse cell types. Determining how, where, and when TFs bind chromatin will advance our understanding of gene regulatory networks and cellular behavior. The 2017 ENCODE-DREAM in vivo Transcription-Factor Binding Site (TFBS) Prediction Challenge highlighted the value of chromatin accessibility data to TFBS prediction, establishing state-of-the-art methods for TFBS prediction from DNase-seq. However, the more recent Assay-for-Transposase-Accessible-Chromatin (ATAC)-seq has surpassed DNase-seq as the most widely-used chromatin accessibility profiling method. Furthermore, ATAC-seq is the only such technique available at single-cell resolution from standard commercial platforms. While ATAC-seq datasets grow exponentially, suboptimal motif scanning is unfortunately the most common method for TFBS prediction from ATAC-seq. To enable community access to state-of-the-art TFBS prediction from ATAC-seq, we (1) curated an extensive benchmark dataset (127 TFs) for ATAC-seq model training and (2) built \"maxATAC\", a suite of user-friendly, deep neural network models for genome-wide TFBS prediction from ATAC-seq in any cell type. With models available for 127 human TFs, maxATAC is the largest collection of high-performance TFBS prediction models for ATAC-seq. maxATAC performance extends to primary cells and single-cell ATAC-seq, enabling improved TFBS prediction in vivo. We demonstrate maxATAC's capabilities by identifying TFBS associated with allele-dependent chromatin accessibility at atopic dermatitis genetic risk loci.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Chromatin/genetics",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Deoxyribonucleases/genetics",
+      "*High-Throughput Nucleotide Sequencing/methods",
+      "Sequence Analysis, DNA/methods",
+      "*Nerve Net"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cazares, Tareian A",
+        "Rizvi, Faiz W",
+        "Iyer, Balaji",
+        "Chen, Xiaoting",
+        "Kotliar, Michael",
+        "Bejjani, Anthony T",
+        "Wayman, Joseph A",
+        "Donmez, Omer",
+        "Wronowski, Benjamin",
+        "Parameswaran, Sreeja",
+        "Kottyan, Leah C",
+        "Barski, Artem",
+        "Weirauch, Matthew T",
+        "Prasath, V B Surya",
+        "Miraldi, Emily R"
+      ],
+      "short_names": [
+        "Cazares TA",
+        "Rizvi FW",
+        "Iyer B",
+        "Chen X",
+        "Kotliar M",
+        "Bejjani AT",
+        "Wayman JA",
+        "Donmez O",
+        "Wronowski B",
+        "Parameswaran S",
+        "Kottyan LC",
+        "Barski A",
+        "Weirauch MT",
+        "Prasath VBS",
+        "Miraldi ER"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4624-6156",
+        "ORCID: 0000-0002-6486-3898",
+        "ORCID: 0000-0002-0232-3116"
+      ],
+      "affiliations": [
+        "Immunology Graduate Program, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Systems Biology and Physiology Graduate Program, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Electrical Engineering and Computer Science, University of Cincinnati, Cincinnati, Ohio, United States of America.",
+        "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Division of Allergy and Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Molecular and Developmental Biology Graduate Program, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Division of Immunobiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Division of Allergy and Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Division of Human Genetics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Division of Allergy and Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Division of Human Genetics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Division of Human Genetics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Electrical Engineering and Computer Science, University of Cincinnati, Cincinnati, Ohio, United States of America.",
+        "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+        "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Electrical Engineering and Computer Science, University of Cincinnati, Cincinnati, Ohio, United States of America.",
+        "Division of Immunobiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+        "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cazares, Tareian A",
+        "short_name": "Cazares TA",
+        "identifiers": [
+          "0000-0003-4624-6156"
+        ],
+        "affiliations": [
+          "Immunology Graduate Program, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Rizvi, Faiz W",
+        "short_name": "Rizvi FW",
+        "identifiers": [],
+        "affiliations": [
+          "Systems Biology and Physiology Graduate Program, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Iyer, Balaji",
+        "short_name": "Iyer B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Electrical Engineering and Computer Science, University of Cincinnati, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaoting",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Kotliar, Michael",
+        "short_name": "Kotliar M",
+        "identifiers": [
+          "0000-0002-6486-3898"
+        ],
+        "affiliations": [
+          "Division of Allergy and Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Bejjani, Anthony T",
+        "short_name": "Bejjani AT",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Developmental Biology Graduate Program, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wayman, Joseph A",
+        "short_name": "Wayman JA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Immunobiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Donmez, Omer",
+        "short_name": "Donmez O",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wronowski, Benjamin",
+        "short_name": "Wronowski B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Allergy and Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Parameswaran, Sreeja",
+        "short_name": "Parameswaran S",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Kottyan, Leah C",
+        "short_name": "Kottyan LC",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+          "Division of Human Genetics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Barski, Artem",
+        "short_name": "Barski A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Allergy and Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+          "Division of Human Genetics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Weirauch, Matthew T",
+        "short_name": "Weirauch MT",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "The Center for Autoimmune Genetics and Etiology (CAGE), Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America.",
+          "Division of Human Genetics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Prasath, V B Surya",
+        "short_name": "Prasath VBS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Electrical Engineering and Computer Science, University of Cincinnati, Cincinnati, Ohio, United States of America.",
+          "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America."
+        ]
+      },
+      {
+        "full_name": "Miraldi, Emily R",
+        "short_name": "Miraldi ER",
+        "identifiers": [
+          "0000-0002-0232-3116"
+        ],
+        "affiliations": [
+          "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Electrical Engineering and Computer Science, University of Cincinnati, Cincinnati, Ohio, United States of America.",
+          "Division of Immunobiology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, United States of America.",
+          "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, Ohio, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/01 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "42642593",
+      "42180427",
+      "41922356",
+      "41865369",
+      "41659440",
+      "41601205",
+      "41527854",
+      "41526189",
+      "41514301",
+      "40832322",
+      "40780181",
+      "40770575",
+      "40709306",
+      "39870618",
+      "39443793",
+      "39207727",
+      "39131349",
+      "38940155",
+      "38920356",
+      "38903438",
+      "38841126",
+      "38715516",
+      "38340719",
+      "37996959",
+      "37609287",
+      "37224527"
+    ],
+    "refs": [
+      "36094959",
+      "35618845",
+      "35591976",
+      "35576187",
+      "34898596",
+      "34725479",
+      "34608324",
+      "34390642",
+      "34035898",
+      "33741685",
+      "33686069",
+      "33633365",
+      "33603233",
+      "33590861",
+      "33522898",
+      "33355120",
+      "33262764",
+      "33243936",
+      "32978299",
+      "32848148",
+      "32732264",
+      "32728249",
+      "32661261",
+      "32550006",
+      "32526212",
+      "32228713",
+      "32228704",
+      "32014034",
+      "31985403",
+      "31954095",
+      "31653690",
+      "31481602",
+      "31375813",
+      "31249361",
+      "31078526",
+      "30922998",
+      "30808370",
+      "30696696",
+      "30630522",
+      "30567711",
+      "30462313",
+      "30449622",
+      "30078726",
+      "29887377",
+      "29662164",
+      "29588361",
+      "29490630",
+      "29425488",
+      "28846090",
+      "28825706",
+      "28607512",
+      "28576882",
+      "28473536",
+      "28463186",
+      "28099866",
+      "27861791",
+      "27789702",
+      "27526324",
+      "27197224",
+      "26482879",
+      "26301843",
+      "26213851",
+      "26083756",
+      "26016777",
+      "25953818",
+      "25738806",
+      "25363779",
+      "25215497",
+      "24799436",
+      "24097267",
+      "23104886",
+      "22955828",
+      "22955617",
+      "22955616",
+      "22693437",
+      "22388286",
+      "21666691",
+      "21164479",
+      "21143862",
+      "21106904",
+      "20513432",
+      "20118932",
+      "20110278",
+      "19773334",
+      "19474294",
+      "19056696",
+      "18798982",
+      "15282937",
+      "14681465",
+      "12169732"
+    ],
+    "similar": [
+      "36719906",
+      "34488759",
+      "31164146",
+      "38515040",
+      "35858748",
+      "33191916",
+      "32312702",
+      "32543102",
+      "35478247",
+      "37211599",
+      "36173566",
+      "34273560",
+      "33606259",
+      "35695574",
+      "36130957",
+      "35848835",
+      "38589969",
+      "36807076",
+      "35486242",
+      "37989133",
+      "38643066",
+      "34870838",
+      "38329877",
+      "35195064",
+      "35411004",
+      "39572230",
+      "29155775",
+      "35997564",
+      "39326643",
+      "37010301",
+      "37100469",
+      "30948010",
+      "30580963",
+      "34875002",
+      "39546200",
+      "37218013",
+      "36452861",
+      "36656543",
+      "36807065",
+      "35103973",
+      "32312703",
+      "33662624",
+      "39127768",
+      "36995609",
+      "32576878",
+      "31110271",
+      "29052193",
+      "39501301",
+      "37751945",
+      "34647036",
+      "37598467",
+      "36807072",
+      "36062065",
+      "37590150",
+      "36807060",
+      "35103972",
+      "29982337",
+      "35255493",
+      "25559105",
+      "32251359",
+      "34382186",
+      "36232500",
+      "32424069",
+      "32029221",
+      "34284136",
+      "39041910",
+      "31427911",
+      "37811941",
+      "30696696",
+      "33775205",
+      "30598689",
+      "35867231",
+      "29490630",
+      "31160376",
+      "37249868",
+      "30064353",
+      "33074546",
+      "29030848",
+      "35604124",
+      "35614386",
+      "36902216",
+      "32321567",
+      "39987573",
+      "27008018",
+      "29558892",
+      "37118773",
+      "32213349",
+      "25957350",
+      "37990143",
+      "31428792",
+      "36738683",
+      "33188264",
+      "30791920",
+      "28075484",
+      "35941239",
+      "37217250",
+      "35673985",
+      "36792778",
+      "34255854",
+      "37500689"
+    ],
+    "review": [
+      "36719906",
+      "32312702",
+      "35478247",
+      "33606259",
+      "30948010",
+      "32312703",
+      "35255493",
+      "31427911"
+    ],
+    "pmc": [
+      "9917285"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010863",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36719906/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36719906",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

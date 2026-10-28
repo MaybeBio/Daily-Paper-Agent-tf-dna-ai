@@ -1,0 +1,524 @@
+{
+  "identity": {
+    "pmid": "41090363",
+    "doi": "10.1172/JCI194243",
+    "title": "Cancer-associated fibroblasts enhance colorectal cancer lymphatic metastasis via CLEC11A/LGR5-mediated WNT pathway activation."
+  },
+  "content": {
+    "abstract": "Hypoxia in the tumor microenvironment promotes lymphatic metastasis, yet the role of cancer-associated fibroblasts (CAFs) in this process remains insufficiently elucidated in colorectal cancer (CRC). In this study, we developed a large language model-based cellular hypoxia-predicting classifier to identify hypoxic CAFs (HCAFs) at single-cell resolution. Our findings revealed that HCAFs enhance CRC lymphatic metastasis by secreting CLEC11A, a protein that binds to the LGR5 receptor on tumor cells, subsequently activating the WNT/beta-catenin signaling pathway. This promotes epithelial-mesenchymal transition and lymphangiogenesis, facilitating the spread of tumor cells via the lymphatic system. Furthermore, we demonstrate that the hypoxia-induced transcription factor HIF1A regulates the conversion of normoxic CAFs to HCAFs, driving CLEC11A expression and promoting metastasis. In vivo and vitro experiments confirmed the pro-metastatic role of CLEC11A in CRC, with its inhibition reducing lymphatic metastasis. This effect was markedly reversed by targeting the LGR5 receptor on tumor cells or inhibiting the WNT/beta-catenin pathway, further elucidating the underlying mechanisms of CLEC11A-driven metastasis. These findings underscore the potential of targeting the CLEC11A-LGR5 axis to prevent lymphatic dissemination in CRC. Our study highlights the role of HCAFs in CRC progression and reveals mechanisms of lymphatic metastasis for intervention.",
+    "keywords": [
+      "Bioinformatics",
+      "Colorectal cancer",
+      "Gastroenterology",
+      "Machine learning",
+      "Oncology"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/pathology/metabolism/genetics",
+      "*Cancer-Associated Fibroblasts/metabolism/pathology",
+      "Humans",
+      "*Receptors, G-Protein-Coupled/metabolism/genetics",
+      "*Wnt Signaling Pathway",
+      "Mice",
+      "Animals",
+      "*Lectins, C-Type/metabolism/genetics",
+      "Lymphatic Metastasis",
+      "*Neoplasm Proteins/metabolism/genetics",
+      "Female",
+      "Cell Line, Tumor",
+      "Male",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Chuhan",
+        "Pan, Teng",
+        "Zhang, Yuyuan",
+        "Wu, Yushuai",
+        "Zuo, Anning",
+        "Liu, Shutong",
+        "Ba, Yuhao",
+        "Liu, Benyu",
+        "Yang, Shuaixi",
+        "Chen, Yukang",
+        "Xu, Hui",
+        "Luo, Peng",
+        "Cheng, Quan",
+        "Weng, Siyuan",
+        "Liu, Long",
+        "Zhou, Xing",
+        "Ning, Jingyuan",
+        "Han, Xinwei",
+        "Deng, Jinhai",
+        "Liu, Zaoqu"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Pan T",
+        "Zhang Y",
+        "Wu Y",
+        "Zuo A",
+        "Liu S",
+        "Ba Y",
+        "Liu B",
+        "Yang S",
+        "Chen Y",
+        "Xu H",
+        "Luo P",
+        "Cheng Q",
+        "Weng S",
+        "Liu L",
+        "Zhou X",
+        "Ning J",
+        "Han X",
+        "Deng J",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Interventional Radiology and.",
+        "Department of Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China.",
+        "Longgang District Maternity and Child Healthcare Hospital of Shenzhen City (Longgang Maternity and Child Institute of Shantou University Medical College), Shenzhen, Guangdong, China.",
+        "Department of Interventional Radiology and.",
+        "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China.",
+        "Shanghai Academy of Artificial Intelligence for Science, Shanghai, China.",
+        "Department of Interventional Radiology and.",
+        "Department of Interventional Radiology and.",
+        "Department of Interventional Radiology and.",
+        "Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China.",
+        "Department of Colorectal Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Department of Interventional Radiology and.",
+        "Department of Interventional Radiology and.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shanxi, China.",
+        "Department of Pediatric Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+        "State Key Laboratory of Common Mechanism Research for Major Diseases & Department of Medical Genetics, Institute of Basic Medical Sciences & School of Basic Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Department of Interventional Radiology and.",
+        "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China.",
+        "Richard Dimbleby Laboratory of Cancer Research, Comprehensive Cancer Centre, King's College London, London, United Kingdom.",
+        "Department of Interventional Radiology and.",
+        "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+        "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China.",
+        "Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Chuhan",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and.",
+          "Department of Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China.",
+          "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+          "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Teng",
+        "short_name": "Pan T",
+        "identifiers": [],
+        "affiliations": [
+          "Longgang District Maternity and Child Healthcare Hospital of Shenzhen City (Longgang Maternity and Child Institute of Shantou University Medical College), Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuyuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and.",
+          "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+          "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yushuai",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Academy of Artificial Intelligence for Science, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Anning",
+        "short_name": "Zuo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and."
+        ]
+      },
+      {
+        "full_name": "Liu, Shutong",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and."
+        ]
+      },
+      {
+        "full_name": "Ba, Yuhao",
+        "short_name": "Ba Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and."
+        ]
+      },
+      {
+        "full_name": "Liu, Benyu",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuaixi",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yukang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and."
+        ]
+      },
+      {
+        "full_name": "Xu, Hui",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Quan",
+        "short_name": "Cheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Weng, Siyuan",
+        "short_name": "Weng S",
+        "identifiers": [],
+        "affiliations": [
+          "National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Long",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xing",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Jingyuan",
+        "short_name": "Ning J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Common Mechanism Research for Major Diseases & Department of Medical Genetics, Institute of Basic Medical Sciences & School of Basic Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xinwei",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and.",
+          "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+          "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jinhai",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Richard Dimbleby Laboratory of Cancer Research, Comprehensive Cancer Centre, King's College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Liu, Zaoqu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology and.",
+          "Interventional Institute of Zhengzhou University, Zhengzhou, Henan, China.",
+          "Interventional Treatment and Clinical Research Center of Henan Province, Zhengzhou, Henan, China.",
+          "Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of clinical investigation"
+    ],
+    "journal_abbrev": [
+      "J Clin Invest"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/15 12:32",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42426902",
+      "42338478",
+      "41656306",
+      "41625480",
+      "41511312",
+      "41120801"
+    ],
+    "refs": [
+      "40402249",
+      "40225580",
+      "40222008",
+      "39732719",
+      "39627211",
+      "39228199",
+      "38775237",
+      "38572751",
+      "38428409",
+      "38414005",
+      "38409223",
+      "38348052",
+      "38047313",
+      "37949939",
+      "37837402",
+      "37609075",
+      "37441593",
+      "37415190",
+      "37409440",
+      "37384816",
+      "37307823",
+      "37205636",
+      "37037584",
+      "36917949",
+      "36917948",
+      "36912618",
+      "36797231",
+      "36766788",
+      "36371957",
+      "36109493",
+      "35883004",
+      "35836256",
+      "35267664",
+      "35197610",
+      "34374296",
+      "34367731",
+      "34062119",
+      "33591350",
+      "33590648",
+      "33484377",
+      "33087710",
+      "32858223",
+      "32846127",
+      "32103204",
+      "32058565",
+      "32003015",
+      "31740819",
+      "31462327",
+      "31282856",
+      "30954475",
+      "30799198",
+      "30367467",
+      "28991892",
+      "28825705",
+      "28155657",
+      "27976999",
+      "27824854",
+      "27550820",
+      "27531748",
+      "24925914",
+      "24333723",
+      "23947803",
+      "21546393",
+      "20517716",
+      "18084642",
+      "17110329",
+      "15537574",
+      "12368669",
+      "11912164",
+      "11309435",
+      "11297234"
+    ],
+    "similar": [
+      "41090363",
+      "25025569",
+      "41574400",
+      "32089745",
+      "29426364",
+      "33153498",
+      "40804742",
+      "30365932",
+      "33222684",
+      "38716545",
+      "42262434",
+      "34930899",
+      "39643827",
+      "40225580",
+      "31064356",
+      "30813948",
+      "26619963",
+      "31228451",
+      "33607955",
+      "31370857",
+      "40435940",
+      "41299067",
+      "37578396",
+      "33651283",
+      "35381565",
+      "28553956",
+      "35986274",
+      "42169639",
+      "31665047",
+      "41840262",
+      "37926835",
+      "39020380",
+      "25754161",
+      "30465020",
+      "40595509",
+      "23803691",
+      "37147666",
+      "31825725",
+      "29945992",
+      "32146835",
+      "32814111",
+      "40209953",
+      "34785413",
+      "27037061",
+      "34108617",
+      "28600110",
+      "39587482",
+      "40200335",
+      "34175688",
+      "40991395",
+      "38857560",
+      "39309442",
+      "39603378",
+      "37533188",
+      "31281317",
+      "35443745",
+      "29563608",
+      "24751002",
+      "33087710",
+      "28365691",
+      "25193857",
+      "37402476",
+      "31468733",
+      "41496273",
+      "31526829",
+      "38949237",
+      "31234887",
+      "39209001",
+      "38519641",
+      "42057436",
+      "33875786",
+      "40050872",
+      "36522719",
+      "33767593",
+      "30693973",
+      "34281572",
+      "38914858",
+      "21125339",
+      "40097546",
+      "40074345",
+      "38452403",
+      "25193986",
+      "29802196",
+      "33537093",
+      "37187249",
+      "41352746",
+      "39197803",
+      "41488675",
+      "37500894",
+      "22337891",
+      "27855654",
+      "42097000",
+      "28475127",
+      "35960375",
+      "30066935",
+      "40685385",
+      "31173500",
+      "30662060",
+      "42252561",
+      "31818187"
+    ],
+    "review": [
+      "41090363"
+    ],
+    "pmc": [
+      "12520694"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1172/JCI194243",
+        "provider": "American Society for Clinical Investigation",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41090363/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

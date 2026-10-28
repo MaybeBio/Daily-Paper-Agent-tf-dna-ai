@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "35709747",
+    "doi": "10.1093/bib/bbac236",
+    "title": "iDRNA-ITF: identifying DNA- and RNA-binding residues in proteins based on induction and transfer framework."
+  },
+  "content": {
+    "abstract": "Protein-DNA and protein-RNA interactions are involved in many biological activities. In the post-genome era, accurate identification of DNA- and RNA-binding residues in protein sequences is of great significance for studying protein functions and promoting new drug design and development. Therefore, some sequence-based computational methods have been proposed for identifying DNA- and RNA-binding residues. However, they failed to fully utilize the functional properties of residues, leading to limited prediction performance. In this paper, a sequence-based method iDRNA-ITF was proposed to incorporate the functional properties in residue representation by using an induction and transfer framework. The properties of nucleic acid-binding residues were induced by the nucleic acid-binding residue feature extraction network, and then transferred into the feature integration modules of the DNA-binding residue prediction network and the RNA-binding residue prediction network for the final prediction. Experimental results on four test sets demonstrate that iDRNA-ITF achieves the state-of-the-art performance, outperforming the other existing sequence-based methods. The webserver of iDRNA-ITF is freely available at http://bliulab.net/iDRNA-ITF.",
+    "keywords": [
+      "DNA- and RNA-binding residue identification",
+      "convolutional attention neural network",
+      "induction and transfer framework",
+      "nucleic acid-binding residue identification"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Binding Sites/genetics",
+      "*Computational Biology/methods",
+      "DNA/metabolism",
+      "Databases, Protein",
+      "Protein Binding",
+      "*Proteins/metabolism",
+      "RNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ning",
+        "Yan, Ke",
+        "Zhang, Jun",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Wang N",
+        "Yan K",
+        "Zhang J",
+        "Liu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3685-9469"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, Guangdong 518055, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing 100081, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Ke",
+        "short_name": "Yan K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, Guangdong 518055, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0000-0003-3685-9469"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+          "Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jul 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/17 06:00",
+    "fetched_at": "2026-09-28 09:44:06"
+  },
+  "links": {
+    "cites": [
+      "42598852",
+      "42227990",
+      "42055456",
+      "42012716",
+      "41843652",
+      "41286535",
+      "41045511",
+      "40919912",
+      "40601265",
+      "40507967",
+      "39995900",
+      "39833102",
+      "38830995",
+      "38739759",
+      "38349057",
+      "38171929"
+    ],
+    "refs": [],
+    "similar": [
+      "35709747",
+      "33454744",
+      "32920048",
+      "38830995",
+      "36044786",
+      "38491248",
+      "27266516",
+      "33780341",
+      "25935161",
+      "21268114",
+      "29281004",
+      "32142788",
+      "30808287",
+      "24854765",
+      "33971164",
+      "29253082",
+      "27787828",
+      "39304807",
+      "26176857",
+      "35753699",
+      "25846271",
+      "39121938",
+      "20483814",
+      "19091029",
+      "33577689",
+      "22574904",
+      "34714748",
+      "28132027",
+      "28334258",
+      "34932484",
+      "15720719",
+      "22868682",
+      "19008251",
+      "21991319",
+      "37750380",
+      "29219069",
+      "29536446",
+      "21143803",
+      "30598073",
+      "38295475",
+      "26671809",
+      "28245811",
+      "23110141",
+      "17946337",
+      "27740495",
+      "31722485",
+      "25229688",
+      "33837387",
+      "20549269",
+      "34514982",
+      "34905768",
+      "30040656",
+      "37915276",
+      "34415020",
+      "29753757",
+      "19835626",
+      "20522253",
+      "33872313",
+      "31510679",
+      "31714956",
+      "29028926",
+      "24564966",
+      "23166753",
+      "29591488",
+      "28841194",
+      "26540053",
+      "25756377",
+      "27907159",
+      "38363672",
+      "21689482",
+      "17130160",
+      "34073774",
+      "20478832",
+      "26254826",
+      "29273005",
+      "34637380",
+      "19389733",
+      "30602422",
+      "30536635",
+      "30901953",
+      "32821925",
+      "34526500",
+      "28056090",
+      "39244557",
+      "31323206",
+      "20377884",
+      "18235992",
+      "21966371",
+      "31513916",
+      "30478757",
+      "27383535",
+      "38990514",
+      "29495575",
+      "21846404",
+      "21955494",
+      "30169574",
+      "35378437",
+      "33538038",
+      "33442949",
+      "29334889",
+      "19765293",
+      "24093637",
+      "33477866",
+      "29993582",
+      "34000983",
+      "22086767",
+      "30419785",
+      "37405873",
+      "35597551",
+      "38630609",
+      "36519304",
+      "38677014",
+      "38460308",
+      "36629262",
+      "39202449",
+      "35834447",
+      "39256728",
+      "39357703",
+      "35536812"
+    ],
+    "review": [
+      "35709747",
+      "25935161",
+      "29253082",
+      "28334258",
+      "34514982",
+      "31714956",
+      "26540053",
+      "25756377"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35709747.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac236",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

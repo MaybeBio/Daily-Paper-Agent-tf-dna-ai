@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "35734766",
+    "doi": "10.1093/biomethods/bpac013",
+    "title": "MLBioIGE: integration and interplay of machine learning and bioinformatics approach to identify the genetic effect of SARS-COV-2 on idiopathic pulmonary fibrosis patients."
+  },
+  "content": {
+    "abstract": "SARS-CoV-2, the virus that causes COVID-19, is a current concern for people worldwide. The virus has recently spread worldwide and is out of control in several countries, putting the outbreak into a terrifying phase. Machine learning with transcriptome analysis has advanced in recent years. Its outstanding performance in several fields has emerged as a potential option to find out how SARS-CoV-2 is related to other diseases. Idiopathic pulmonary fibrosis (IPF) disease is caused by long-term lung injury, a risk factor for SARS-CoV-2. In this article, we used a variety of combinatorial statistical approaches, machine learning, and bioinformatics tools to investigate how the SARS-CoV-2 affects IPF patients' complexity. For this study, we employed two RNA-seq datasets. The unique contributions include common genes identification to identify shared pathways and drug targets, PPI network to identify hub-genes and basic modules, and the interaction of transcription factors (TFs) genes and TFs-miRNAs with common differentially expressed genes also placed on the datasets. Furthermore, we used gene ontology and molecular pathway analysis to do functional analysis and discovered that IPF patients have certain standard connections with the SARS-CoV-2 virus. A detailed investigation was carried out to recommend therapeutic compounds for IPF patients affected by the SARS-CoV-2 virus.",
+    "keywords": [
+      "COVID-19",
+      "SARS-CoV-2",
+      "differentially expressed genes",
+      "gene ontology",
+      "idiopathic pulmonary fibrosis",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tanzir Mehedi, Sk",
+        "Ahmed, Kawsar",
+        "Bui, Francis M",
+        "Rahaman, Musfikur",
+        "Hossain, Imran",
+        "Tonmoy, Tareq Mahmud",
+        "Limon, Rakibul Alam",
+        "Ibrahim, Sobhy M",
+        "Moni, Mohammad Ali"
+      ],
+      "short_names": [
+        "Tanzir Mehedi S",
+        "Ahmed K",
+        "Bui FM",
+        "Rahaman M",
+        "Hossain I",
+        "Tonmoy TM",
+        "Limon RA",
+        "Ibrahim SM",
+        "Moni MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4435-7856",
+        "ORCID: 0000-0002-4034-9819",
+        "ORCID: 0000-0002-8799-5965",
+        "ORCID: 0000-0003-0756-1006"
+      ],
+      "affiliations": [
+        "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh.",
+        "Department of Electrical and Computer Engineering, University of Saskatchewan, Saskatoon, SK S7N 5A9, Canada.",
+        "Department of Electrical and Computer Engineering, University of Saskatchewan, Saskatoon, SK S7N 5A9, Canada.",
+        "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh.",
+        "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh.",
+        "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh.",
+        "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh.",
+        "Department of Biochemistry, College of Science, King Saud University, Riyadh 11451, Saudi Arabia.",
+        "Faculty of Health and Behavioural Sciences, School of Health and Rehabilitation Sciences, The University of Queensland, St Lucia, QLD 4072, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tanzir Mehedi, Sk",
+        "short_name": "Tanzir Mehedi S",
+        "identifiers": [
+          "0000-0003-4435-7856"
+        ],
+        "affiliations": [
+          "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Kawsar",
+        "short_name": "Ahmed K",
+        "identifiers": [
+          "0000-0002-4034-9819"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Saskatchewan, Saskatoon, SK S7N 5A9, Canada."
+        ]
+      },
+      {
+        "full_name": "Bui, Francis M",
+        "short_name": "Bui FM",
+        "identifiers": [
+          "0000-0002-8799-5965"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Saskatchewan, Saskatoon, SK S7N 5A9, Canada."
+        ]
+      },
+      {
+        "full_name": "Rahaman, Musfikur",
+        "short_name": "Rahaman M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Imran",
+        "short_name": "Hossain I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tonmoy, Tareq Mahmud",
+        "short_name": "Tonmoy TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Limon, Rakibul Alam",
+        "short_name": "Limon RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, University of Information Technology and Sciences, Baridhara, Dhaka-1212, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ibrahim, Sobhy M",
+        "short_name": "Ibrahim SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Science, King Saud University, Riyadh 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Moni, Mohammad Ali",
+        "short_name": "Moni MA",
+        "identifiers": [
+          "0000-0003-0756-1006"
+        ],
+        "affiliations": [
+          "Faculty of Health and Behavioural Sciences, School of Health and Rehabilitation Sciences, The University of Queensland, St Lucia, QLD 4072, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology methods & protocols"
+    ],
+    "journal_abbrev": [
+      "Biol Methods Protoc"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/24 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "40025035",
+      "36714024",
+      "36594409",
+      "36466549",
+      "36046789"
+    ],
+    "refs": [
+      "33024988",
+      "32416070",
+      "32244852",
+      "32123347",
+      "32074444",
+      "30935420",
+      "30931480",
+      "30221703",
+      "29463808",
+      "29145629",
+      "29136241",
+      "28991543",
+      "27141961",
+      "27008011",
+      "26949988",
+      "26424082",
+      "25950236",
+      "25521941",
+      "25176396",
+      "24647608",
+      "23586463",
+      "23193258",
+      "21471066",
+      "21045058",
+      "20561836",
+      "17353931",
+      "16199517",
+      "15980585",
+      "15961482",
+      "15334310",
+      "14597658",
+      "12525261",
+      "10592173"
+    ],
+    "similar": [
+      "35734766",
+      "33847347",
+      "33024988",
+      "36949176",
+      "36059456",
+      "35045126",
+      "37991568",
+      "36124586",
+      "36163484",
+      "33553808",
+      "33647885",
+      "34476240",
+      "33839760",
+      "35983093",
+      "37234545",
+      "34920753",
+      "34376400",
+      "33706759",
+      "34734011",
+      "32899090",
+      "33251083",
+      "35464423",
+      "37877121",
+      "34787756",
+      "33194355",
+      "34776447",
+      "34880855",
+      "31177264",
+      "35480306",
+      "28081703",
+      "33362862",
+      "32473977",
+      "33458761",
+      "34522168",
+      "35211155",
+      "35242109",
+      "34992355",
+      "35185901",
+      "35747501",
+      "35525888",
+      "37814484",
+      "32596346",
+      "33980601",
+      "33475497",
+      "32735892",
+      "32587985",
+      "33878985",
+      "32646047",
+      "32782692",
+      "35502319",
+      "38075691",
+      "33726831",
+      "34981034",
+      "33672678",
+      "35037831",
+      "32451808",
+      "35966126",
+      "34675627",
+      "31762326",
+      "37007651",
+      "37668831",
+      "35875825",
+      "39169345",
+      "37732138",
+      "37829195",
+      "32843187"
+    ],
+    "review": [
+      "35734766",
+      "36163484"
+    ],
+    "pmc": [
+      "9210941"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35734766/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35734766",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/biomethods/article-lookup/doi/10.1093/biomethods/bpac013",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

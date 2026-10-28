@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "35048973",
+    "doi": "10.1093/nar/gkac006",
+    "title": "Variational autoencoding of gene landscapes during mouse CNS development uncovers layered roles of Polycomb Repressor Complex 2."
+  },
+  "content": {
+    "abstract": "A prominent aspect of most, if not all, central nervous systems (CNSs) is that anterior regions (brain) are larger than posterior ones (spinal cord). Studies in Drosophila and mouse have revealed that Polycomb Repressor Complex 2 (PRC2), a protein complex responsible for applying key repressive histone modifications, acts by several mechanisms to promote anterior CNS expansion. However, it is unclear what the full spectrum of PRC2 action is during embryonic CNS development and how PRC2 intersects with the epigenetic landscape. We removed PRC2 function from the developing mouse CNS, by mutating the key gene Eed, and generated spatio-temporal transcriptomic data. To decode the role of PRC2, we developed a method that incorporates standard statistical analyses with probabilistic deep learning to integrate the transcriptomic response to PRC2 inactivation with epigenetic data. This multi-variate analysis corroborates the central involvement of PRC2 in anterior CNS expansion, and also identifies several unanticipated cohorts of genes, such as proliferation and immune response genes. Furthermore, the analysis reveals specific profiles of regulation via PRC2 upon these gene cohorts. These findings uncover a differential logic for the role of PRC2 upon functionally distinct gene cohorts that drive CNS anterior expansion. To support the analysis of emerging multi-modal datasets, we provide a novel bioinformatics package that integrates transcriptomic and epigenetic datasets to identify regulatory underpinnings of heterogeneous biological processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Central Nervous System/*embryology",
+      "Embryo, Mammalian/metabolism",
+      "Histones/genetics/metabolism",
+      "Mice",
+      "*Polycomb Repressive Complex 2/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mora, Ariane",
+        "Rakar, Jonathan",
+        "Cobeta, Ignacio Monedero",
+        "Salmani, Behzad Yaghmaeian",
+        "Starkenberg, Annika",
+        "Thor, Stefan",
+        "Boden, Mikael"
+      ],
+      "short_names": [
+        "Mora A",
+        "Rakar J",
+        "Cobeta IM",
+        "Salmani BY",
+        "Starkenberg A",
+        "Thor S",
+        "Boden M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1331-8192",
+        "ORCID: 0000-0002-4221-6243",
+        "ORCID: 0000-0001-5095-541X",
+        "ORCID: 0000-0003-3548-268X"
+      ],
+      "affiliations": [
+        "School of Chemistry and Molecular Biosciences, University of Queensland, St Lucia, QLD 4072, Australia.",
+        "Department of Clinical and Experimental Medicine, Linkoping University, SE-58185 Linkoping, Sweden.",
+        "Department of Clinical and Experimental Medicine, Linkoping University, SE-58185 Linkoping, Sweden.",
+        "Department of Physiology, Universidad Autonoma de Madrid, Madrid, Spain.",
+        "Department of Clinical and Experimental Medicine, Linkoping University, SE-58185 Linkoping, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institute, SE-171 65 Stockholm, Sweden.",
+        "Department of Clinical and Experimental Medicine, Linkoping University, SE-58185 Linkoping, Sweden.",
+        "Department of Clinical and Experimental Medicine, Linkoping University, SE-58185 Linkoping, Sweden.",
+        "School of Biomedical Sciences, University of Queensland, St Lucia, QLD 4072, Australia.",
+        "School of Chemistry and Molecular Biosciences, University of Queensland, St Lucia, QLD 4072, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mora, Ariane",
+        "short_name": "Mora A",
+        "identifiers": [
+          "0000-0003-1331-8192"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, St Lucia, QLD 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Rakar, Jonathan",
+        "short_name": "Rakar J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Experimental Medicine, Linköping University, SE-58185 Linköping, Sweden."
+        ]
+      },
+      {
+        "full_name": "Cobeta, Ignacio Monedero",
+        "short_name": "Cobeta IM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Experimental Medicine, Linköping University, SE-58185 Linköping, Sweden.",
+          "Department of Physiology, Universidad Autonoma de Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Salmani, Behzad Yaghmaeian",
+        "short_name": "Salmani BY",
+        "identifiers": [
+          "0000-0002-4221-6243"
+        ],
+        "affiliations": [
+          "Department of Clinical and Experimental Medicine, Linköping University, SE-58185 Linköping, Sweden.",
+          "Department of Cell and Molecular Biology, Karolinska Institute, SE-171 65 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Starkenberg, Annika",
+        "short_name": "Starkenberg A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Experimental Medicine, Linköping University, SE-58185 Linköping, Sweden."
+        ]
+      },
+      {
+        "full_name": "Thor, Stefan",
+        "short_name": "Thor S",
+        "identifiers": [
+          "0000-0001-5095-541X"
+        ],
+        "affiliations": [
+          "Department of Clinical and Experimental Medicine, Linköping University, SE-58185 Linköping, Sweden.",
+          "School of Biomedical Sciences, University of Queensland, St Lucia, QLD 4072, Australia."
+        ]
+      },
+      {
+        "full_name": "Bodén, Mikael",
+        "short_name": "Bodén M",
+        "identifiers": [
+          "0000-0003-3548-268X"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, St Lucia, QLD 4072, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Feb 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/21 06:00",
+    "fetched_at": "2026-09-28 04:16:05"
+  },
+  "links": {
+    "cites": [
+      "42043943",
+      "39719612",
+      "39633487",
+      "38960704",
+      "38951687"
+    ],
+    "refs": [
+      "37590228",
+      "35474667",
+      "34489404",
+      "33912356",
+      "33278344",
+      "33200787",
+      "32939066",
+      "32728240",
+      "32726427",
+      "32543653",
+      "32415966",
+      "32143748",
+      "32015543",
+      "31921281",
+      "31796933",
+      "31672653",
+      "31395608",
+      "31271353",
+      "31073041",
+      "30807568",
+      "30576484",
+      "30545854",
+      "30504886",
+      "29925568",
+      "29784946",
+      "29530878",
+      "29432416",
+      "29218871",
+      "29140470",
+      "28938122",
+      "28392108",
+      "27312411",
+      "27257261",
+      "27248655",
+      "27068104",
+      "26675821",
+      "26621269",
+      "26329598",
+      "25751142",
+      "25696826",
+      "25516281",
+      "25409526",
+      "24894327",
+      "24755934",
+      "24239285",
+      "24098981",
+      "24080363",
+      "23566594",
+      "22955616",
+      "22743772",
+      "22455463",
+      "22373907",
+      "21310950",
+      "19910308",
+      "19759197",
+      "19535498",
+      "19505943",
+      "19033274",
+      "17604725",
+      "16873662",
+      "15838517"
+    ],
+    "similar": [
+      "35048973",
+      "23821546",
+      "29283025",
+      "32763159",
+      "23987249",
+      "28468635",
+      "33168052",
+      "37895228",
+      "37030288",
+      "38113005",
+      "29153392",
+      "27216774",
+      "22349693",
+      "31521505",
+      "27317809",
+      "30254371",
+      "25620564",
+      "30595380",
+      "22396593",
+      "26642436",
+      "36544159",
+      "25333635",
+      "21213100",
+      "33887196",
+      "30814291",
+      "33479123",
+      "31178244",
+      "37734835",
+      "36727213",
+      "27845897",
+      "29628311",
+      "30249243",
+      "33283516",
+      "38452766",
+      "26118502",
+      "27000413",
+      "33468665",
+      "34531374",
+      "27892467",
+      "34060617",
+      "33252743",
+      "20974918",
+      "16763550",
+      "38960704",
+      "33270882",
+      "29606589",
+      "23160351",
+      "33208532",
+      "33723438",
+      "24100017",
+      "27570105",
+      "19933700",
+      "34608337",
+      "23720055",
+      "33759287",
+      "23990798",
+      "27863226",
+      "31959557",
+      "31521506",
+      "26994968",
+      "25880792",
+      "37888776",
+      "29681498",
+      "27634302",
+      "32182803",
+      "24001316",
+      "38759625",
+      "28256832",
+      "23739135",
+      "33494958",
+      "22158708",
+      "24856970",
+      "38134278",
+      "29808031",
+      "34544341",
+      "36476474",
+      "25170018",
+      "36054209",
+      "36737841",
+      "30951652",
+      "30938678",
+      "34504070",
+      "28584023",
+      "35617427",
+      "27863225",
+      "33232890",
+      "28869966",
+      "27342214",
+      "24619877",
+      "38652118",
+      "31186533",
+      "23280602",
+      "23110252",
+      "24352422",
+      "35429435",
+      "37855680",
+      "28984200",
+      "32270030",
+      "25961873"
+    ],
+    "review": [
+      "35048973",
+      "29283025",
+      "37895228",
+      "22349693",
+      "21213100",
+      "31178244",
+      "36727213",
+      "33283516",
+      "27000413",
+      "34060617",
+      "33252743",
+      "33723438",
+      "33759287",
+      "32182803",
+      "33494958",
+      "34544341",
+      "30951652"
+    ],
+    "pmc": [
+      "8860581"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/35048973",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35048973/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35048973",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://liu.diva-portal.org/smash/get/diva2:1648780/FULLTEXT01.pdf",
+        "provider": "Linkoping University Electronic Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse123331",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac006",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental logic, methodological soundness, and consistency of the narrative as presented in the text; figure-dependent claims are flagged as not assessable
+- **Shared manuscript claim summary** The authors identify RicO, a previously uncharacterized nucleoid-binding protein in Staphylococcus aureus, which anchors chromosomal replication origins to the membrane at cell poles via an N-terminal DNA-binding domain and a C-terminal amphipathic helix, thereby ensuring correct chromosome segregation. RicO binds specific origin-proximal sequence motifs (ricS sites) and non-specific DNA, and its loss or misregulation causes chromosome segregation defects, with synthetic sickness upon combined loss of RicO and SMC.
+- **Visible evidence base** Text descriptions of fluorescence microscopy (anucleate cell quantification, localization heat maps, time-lapse imaging), ChIP-seq, Hi-C, EMSA, growth curves, Western blot, in-gel fluorescence, phylogenetic analysis, and structural modelling; data availability statement (GEO accession GSE318607) and code availability (GitHub repositories)
+- **Missing materials affecting confidence** All figures and supplementary figures/tables; numerical data for anucleate cell fractions, foci counts, and statistical tests; ChIP-seq peak coordinates and enrichment values; Hi-C contact maps and quantification; EMSA gel images; strain construction details for all mutants; phylogenetic tree with support values; structural model coordinates and confidence metrics
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant discovery of a new factor, RicO, involved in chromosome segregation in a non-canonical bacterial model. The proposed model, in which RicO bridges origin-proximal DNA to the membrane via a bipartite binding mechanism, is conceptually interesting and well-aligned with existing literature on membrane-origin anchoring in other bacteria. However, the current text alone does not allow verification of the key quantitative claims, and several logical gaps remain, particularly regarding the mechanistic distinction between specific and non-specific DNA binding, the relationship between RicO localization and function, and the interpretation of the synthetic phenotypes. The phylogenetic analysis is preliminary and its relevance to the core claims is not fully integrated. The manuscript would benefit from clearer presentation of controls and statistical rigor.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromosome segregation, cell cycle regulation, and cell division, particularly those working on coccoid or non-rod-shaped bacteria. The work also has relevance for understanding S. aureus biology, a major human pathogen, and could interest those studying membrane-DNA interactions and nucleoid organization. The identification of a new segregation factor in a clinically important organism may also attract interest from the broader microbiology and infectious disease communities.
+- **Major strengths** The study addresses a significant gap in understanding chromosome segregation in a non-canonical, clinically relevant organism. The identification of RicO as a new player is a clear advance. The combination of approaches (genetics, cell biology, genomics, biochemistry) is appropriate and potentially powerful. The proposed model of RicO as a membrane-DNA bridge is testable and conceptually appealing. The synthetic phenotype with SMC provides a clear genetic interaction that strengthens the functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Cells lacking RicO fail to correctly position replication origins at the cell poles and have weakened genomic interactions in the origin-proximal region, resulting in chromosome segregation defects."
+  - **Evidence pointer** Results section "RicO determines polar localization of chromosomal origins"; Figure 1b; Figure 4; location not provided
+  - **Concern** The central claim that RicO is required for polar origin positioning and that this underlies the segregation defect is presented without quantitative data in the text. The anucleate cell fractions for the various mutants are described only qualitatively ("∼4%", "∼5%", "∼3%", "∼45%"), and no statistical comparisons are provided. The localization data (Figure 1b) and Hi-C data (Figure 4) are described but not shown or quantified in the text. Without these data, the strength of the phenotype and the specificity of the effect on origin positioning cannot be evaluated.
+  - **Why it matters** The entire model rests on the causal link between RicO function, origin localization, and chromosome segregation. If the quantitative effects are small or variable, or if the localization defect is not specific to origins, the conclusions would be substantially weakened.
+  - **Resolution test** Provide the numerical data for anucleate cell fractions (mean, SD, n, statistical test) for all strains and conditions. Show representative images and quantification of origin foci localization in wild-type vs. ΔricO cells, including a measure of membrane-proximal vs. cytoplasmic distribution. Present the Hi-C contact maps and quantify the differences in origin-proximal interactions, with appropriate statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic clarity
+  - **Claim pointer** "RicO contains a conserved N-terminal DNA-binding domain that recognizes a specific sequence motif in the origin-proximal region of the chromosome, as well as a C-terminal amphipathic helix that interacts with the cell membrane, thereby bridging DNA and the membrane."
+  - **Evidence pointer** Results sections "RicO binds a specific sequence motif" and "Conserved domains of RicO are essential for its function and localization"; Figures 3 and 6; location not provided
+  - **Concern** The text states that RicO binds both specifically and non-specifically to DNA, and that both modes of binding are required for function. However, the mechanistic distinction between these two modes is not clearly articulated. The R18A mutation abolishes all DNA binding, so it cannot distinguish between the specific and non-specific roles. The ΔAH mutant retains DNA binding but loses membrane association. The data from the Δ9 ricS strain, which retains non-specific binding, show that origin localization is maintained but segregation is defective. This suggests that specific binding is required for segregation but not for localization, which is a key distinction. The text does not fully develop or test this model.
+  - **Why it matters** The proposed dual-mode binding is a central feature of the model. Without a clear mechanistic separation of the specific and non-specific roles, the model remains speculative. The observation that Δ9 ricS cells have more severe segregation defects than ΔricO cells is counterintuitive and requires a clear explanation.
+  - **Resolution test** Clearly articulate the predicted differential contributions of specific vs. non-specific binding. Provide direct evidence for the proposed "insulation" or "sequestration" mechanism. Address the paradox of Δ9 ricS being more severe than ΔricO. Consider experiments that separate the two binding modes, e.g., a RicO variant that binds non-specifically but not specifically.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** "The combined absence of RicO and a functional SMC complex leads to nearly half of the population appearing as anucleate cells, indicating that these two systems are key contributors to chromosome segregation in S. aureus."
+  - **Evidence pointer** Results section "Identification of RicO as a key protein in S. aureus chromosome segregation"; Figure 1a; location not provided
+  - **Concern** The interpretation of the synthetic phenotype is presented as evidence for two parallel pathways. However, the text also reports that Δ9 ricS (which retains RicO protein) is more severe than ΔricO, and that Δ9 ricS ΔscpAB is more severe than ΔricO ΔscpAB. This suggests that the presence of non-specifically bound RicO is actively deleterious in the absence of SMC. The text does not reconcile these observations. The model of "two key contributors" may be an oversimplification.
+  - **Why it matters** The synthetic phenotype is a key piece of evidence for the functional importance of RicO. If the interpretation is incomplete or incorrect, the significance of the finding is diminished.
+  - **Resolution test** Provide a coherent model that explains all the genetic interactions, including the paradoxical effects of Δ9 ricS. Consider whether RicO's non-specific binding is toxic in certain contexts and whether the "insulation" model can account for this.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Phylogenetic interpretation
+  - **Claim pointer** "The structure prediction of RicO, together with its role in chromosome positioning, suggests an evolutionary relationship with RocS... and RacA... All three proteins are predicted to have a small helix-turn-helix DBD... followed by a coiled-coil domain."
+  - **Evidence pointer** Results section "Distribution of RicO-like proteins in the Firmicutes"; Supplementary Figure 13; location not provided
+  - **Concern** The phylogenetic analysis is presented as supporting an evolutionary relationship, but the text acknowledges only 26% sequence identity between RicO and RocS/RacA. The tree is described as having a "distinct clade" of parallel dimers, but the rooting is described as "tentative." The functional significance of the different oligomeric states (dimers vs. tetramers/trimers) is speculated upon but not tested. The relevance of this analysis to the core functional claims is not clear.
+  - **Why it matters** The evolutionary context is interesting but not essential to the main findings. If the phylogenetic claims are overstated or the analysis is not robust, it could distract from the core message.
+  - **Resolution test** Clarify the purpose of the phylogenetic analysis. If it is to support the functional model, provide a stronger link. If it is purely descriptive, state this clearly. Consider whether the "tentative" rooting and the low sequence identity undermine the claims of homology.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that RicO "anchors chromosomal origins at the cell periphery to ensure genome maintenance." The term "genome maintenance" is broad and could be interpreted as including DNA repair or replication fidelity, which are not addressed in this study.
+  - **Required correction** Use a more specific term, such as "chromosome segregation" or "genome inheritance," to accurately reflect the scope of the findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2; location not provided
+  - **Issue** The text states that S. aureus and S. pneumoniae encode an "incomplete" Par system. This is a value judgment that may not be universally accepted, as the functional significance of lacking ParA is not fully understood.
+  - **Required correction** Use a more neutral term, such as "minimal" or "ParA-less," to describe the system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Identification of RicO as a key protein"
+  - **Evidence pointer** Results section; Figure 1a; location not provided
+  - **Issue** The text reports anucleate cell fractions as "∼4%, ∼5% and ∼3%" for different strains. The use of "∼" suggests approximation, but no error bars or statistical tests are mentioned in the text.
+  - **Required correction** Provide exact values with standard deviations and the number of biological replicates. State the statistical test used to compare conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods, "Construction of S. aureus strains"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The text describes the construction of the Δ9 ricS strain but does not specify whether all nine ricS sites were deleted sequentially in the same strain or whether the deletions were combined in a single step. The order of deletions and the potential for polar effects are not discussed.
+  - **Required correction** Clarify the construction strategy and discuss potential polar effects on neighboring genes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, "RicO localizes at the cell poles similarly to chromosomal origins"
+  - **Evidence pointer** Results section; Figure 2; location not provided
+  - **Issue** The text reports that RicO and origins colocalize in "a considerable period during the cell cycle" but does not provide a quantitative measure of colocalization or the duration.
+  - **Required correction** Provide a quantitative measure of colocalization (e.g., Pearson correlation coefficient over time) and state the fraction of the cell cycle during which colocalization is observed.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3; location not provided
+  - **Issue** The discussion proposes that RicO "limits ParB sliding on the DNA" and "serves as a barrier for SMC translocation." These are speculative mechanisms that are not directly tested in the study.
+  - **Required correction** Clearly label these as hypotheses and suggest how they could be tested in future work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for the core phenotype), R1-M2 (mechanistic distinction between specific and non-specific binding), R1-M3 (reconciliation of paradoxical genetic interactions). The manuscript cannot be fully evaluated without access to the figures and supplementary data.
+- **Assessment against Nature-style criteria** Originality: High. The identification of a new membrane-anchoring protein for origin segregation in a coccoid pathogen is a novel contribution. Scientific importance: High. The work addresses a fundamental question in bacterial cell biology and has potential implications for understanding S. aureus physiology. Interdisciplinary readership: Moderate. The topic is of primary interest to microbiologists and cell biologists; the broader impact may be limited. Technical soundness: Cannot be fully assessed from the text alone. The experimental approaches are appropriate, but the lack of quantitative data and statistical analysis in the text is a concern. Readability for nonspecialists: The manuscript is generally well-written and the logic is clear, but the heavy reliance on specialized techniques (ChIP-seq, Hi-C, FROS) may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially significant, but the manuscript in its current form does not provide sufficient quantitative evidence to fully establish the model. The authors should address the major concerns regarding data presentation, mechanistic clarity, and interpretation of genetic interactions before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that RicO "insulates" the origin region from the rest of the chromosome is based on Hi-C data that are not shown or quantified in the text.
+- The claim that RicO and RocS/RacA are evolutionarily related is based on a phylogenetic analysis with acknowledged limitations (low sequence identity, tentative rooting).
+- The claim that RicO's non-specific DNA binding is functionally important is inferred from the Δ9 ricS phenotype, but the text does not provide a clear mechanistic explanation for why non-specific binding would be deleterious.
+- The claim that RicO "does not seem to employ an active mechanism for separating newly replicated origins" is based on the observation that origin foci number is unchanged in ΔricO cells, but the dynamics of origin separation are not quantitatively described.
+- The claim that the synthetic sickness of ΔricO ΔscpAB is due to "two key contributors" is an interpretation that does not account for the paradoxical severity of Δ9 ricS ΔscpAB.

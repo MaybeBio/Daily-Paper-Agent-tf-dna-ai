@@ -1,0 +1,467 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.01.13.476176",
+  "title": "Continuous B- to A-Transition in Protein-DNA Binding - How Well Is It Described by Current AMBER Force Fields?",
+  "doi": "10.1101/2022.01.13.476176",
+  "abstract": "When DNA interacts with a protein, its structure often undergoes significant conformational adaptation. Perhaps the most common is the transition from canonical B-DNA towards the A-DNA form, which is not a two-state, but rather a continuous transition. The A- and B-forms differ mainly in sugar pucker P (north/south) and glycosidic torsion χ (high- anti / anti ). The combination of A-like P and B-like χ (and vice versa ) represents the nature of the intermediate states lying between the pure A- and B- forms. In this work, we study how the A/B equilibrium and in particular the A/B intermediate states, which are known to be over-represented at protein-DNA interfaces, are modeled by current AMBER force fields. Eight protein-DNA complexes and their naked (unbound) DNAs were simulated with OL15 and bsc1 force fields as well as an experimental combination OL15χ OL3 . We found that while the geometries of the A-like intermediate states in the molecular dynamics (MD) simulations agree well with the native X-ray geometries found in the protein-DNA complexes, their populations (stabilities) are significantly underestimated. Different force fields predict different propensities for A-like states growing in the order OL15 < bsc1 < OL15 χOL3 , but the overall populations of the A-like form are too low in all of them. Interestingly, the force fields seem to predict the correct sequence-dependent A-form propensity, as they predict larger populations of the A-like form in naked (unbound) DNA in those steps that acquire A-like conformations in protein-DNA complexes. The instability of A-like geometries in current force fields may significantly alter the geometry of the simulated protein-DNA complex, destabilize the binding motif, and reduce the binding energy, suggesting that refinement is needed to improve description of protein-DNA interactions in AMBER force fields.",
+  "authors": [
+    "Petr Jurečka",
+    "Marie Zgarbová",
+    "Filip Černý",
+    "Jan Salomon"
+  ],
+  "published_date": "2022-01-13",
+  "updated_date": "2022-01-13T23:15:21Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.01.13.476176",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.01.13.476176.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:05:56Z",
+        "timestamp": 1768500356149,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            13
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  When DNA interacts with a protein, its structure often undergoes significant conformational adaptation. Perhaps the most common is the transition from canonical B-DNA towards the A-DNA form, which is not a two-state, but rather a continuous transition. The A- and B-forms differ mainly in sugar pucker P (north/south) and glycosidic torsion χ (high-\n                  <jats:italic>anti</jats:italic>\n                  /\n                  <jats:italic>anti</jats:italic>\n                  ). The combination of A-like P and B-like χ (and\n                  <jats:italic>vice versa</jats:italic>\n                  ) represents the nature of the intermediate states lying between the pure A- and B- forms. In this work, we study how the A/B equilibrium and in particular the A/B intermediate states, which are known to be over-represented at protein-DNA interfaces, are modeled by current AMBER force fields. Eight protein-DNA complexes and their naked (unbound) DNAs were simulated with OL15 and bsc1 force fields as well as an experimental combination OL15χ\n                  <jats:sub>OL3</jats:sub>\n                  . We found that while the geometries of the A-like intermediate states in the molecular dynamics (MD) simulations agree well with the native X-ray geometries found in the protein-DNA complexes, their populations (stabilities) are significantly underestimated. Different force fields predict different propensities for A-like states growing in the order OL15 &lt; bsc1 &lt; OL15\n                  <jats:sub>χOL3</jats:sub>\n                  , but the overall populations of the A-like form are too low in all of them. Interestingly, the force fields seem to predict the correct sequence-dependent A-form propensity, as they predict larger populations of the A-like form in naked (unbound) DNA in those steps that acquire A-like conformations in protein-DNA complexes. The instability of A-like geometries in current force fields may significantly alter the geometry of the simulated protein-DNA complex, destabilize the binding motif, and reduce the binding energy, suggesting that refinement is needed to improve description of protein-DNA interactions in AMBER force fields.\n                </jats:p>",
+      "DOI": "10.1101/2022.01.13.476176",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            13
+          ]
+        ],
+        "date-time": "2022-01-13T23:15:21Z",
+        "timestamp": 1642115721000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Continuous B- to A-Transition in Protein-DNA Binding - How Well Is It Described by Current AMBER Force Fields?"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3741-3672",
+          "authenticated-orcid": false,
+          "given": "Petr",
+          "family": "Jurečka",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0719-0268",
+          "authenticated-orcid": false,
+          "given": "Marie",
+          "family": "Zgarbová",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Filip",
+          "family": "Černý",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Salomon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060408-091030"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.23.10801"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1809",
+          "DOI": "10.1002/j.1460-2075.1989.tb03575.x",
+          "article-title": "The DNA-Binding Site of the Xenopus Transcription Factor-Iiia Has a Non-B-Form Structure",
+          "volume": "8",
+          "year": "1989",
+          "journal-title": "Embo J"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.91.15.6948"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.3690"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.6",
+          "first-page": "618",
+          "article-title": "Study of Conformational Transitions within Double-Stranded State of Spin-Labeled DNA",
+          "volume": "8",
+          "year": "1974",
+          "journal-title": "Mol Biol"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsta.1997.0002"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1273"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "6367",
+          "DOI": "10.1093/nar/gkaa383",
+          "article-title": "A Unified Dinucleotide Alphabet Describing Both Rna and DNA Structures",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "6669",
+          "DOI": "10.1021/jp9818683",
+          "article-title": "Conformational Properties of the Deoxyribose and Ribose Moieties of Nucleic Acids: A Quantum Mechanical Study",
+          "volume": "102",
+          "year": "1998",
+          "journal-title": "J Phys Chem B"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(20000130)21:2<86::AID-JCC2>3.0.CO;2-G"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2084",
+          "DOI": "10.1021/acs.jctc.7b01169",
+          "article-title": "Amoeba Polarizable Atomic Multipole Force Field for Nucleic Acids",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "7096",
+          "DOI": "10.1021/acs.jctc.1c00682",
+          "article-title": "Tumuc1: A New Accurate DNA Force Field Consistent with High-Level Quantum Chemistry",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00716"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3658"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "6292",
+          "DOI": "10.1021/acs.jctc.1c00697",
+          "article-title": "Z-DNA as a Touchstone for Additive Empirical Force Fields and a Refinement of the Alpha/Gamma DNA Torsions for Amber",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "275",
+          "DOI": "10.1021/acs.jcim.6b00621",
+          "article-title": "Influence of Bii Backbone Substates on DNA Twist: A Unified View and Comparison of Simulation and Experiment for All 136 Distinct Tetranucleotide Sequences",
+          "volume": "57",
+          "year": "2017",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.6b00186"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "7998",
+          "DOI": "10.1093/nar/gky599",
+          "article-title": "The Temperature Dependence of the Helical Twist of DNA",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1021/acs.jctc.7b00926",
+          "article-title": "A- to B-DNA Transition in Amber Force Fields and Its Coupling to Sugar Pucker",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00124a002"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1096-987X(200009)21:12<1049::AID-JCC3>3.0.CO;2-F"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300275s"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct400154j"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct200162x"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.106.097782"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "52",
+          "DOI": "10.1107/S2059798318000050",
+          "article-title": "A DNA Structural Alphabet Provides New Insight into DNA Flexibility",
+          "volume": "74",
+          "year": "2018",
+          "journal-title": "Acta Crystallogr D Struct Biol"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35002634"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdg351"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.13.24.3217"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.12.029"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2009.12.011"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.2269"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4112"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.385"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp8001614"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp902584c"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct100481h"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20290"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199906)20:8<786::AID-JCC5>3.0.CO;2-B"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct5010406"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct3000734"
+        },
+        {
+          "key": "2022011704350424000_2022.01.13.476176v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20660"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.01.13.476176",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:34:47Z",
+        "timestamp": 1768444487000
+      },
+      "score": 142.39973,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.01.13.476176"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            13
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2022.01.13.476176",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

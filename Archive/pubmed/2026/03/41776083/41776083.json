@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "41776083",
+    "doi": "10.1038/s41401-026-01771-3",
+    "title": "GSDME-mediated pyroptosis modulates the immunosuppressive microenvironment in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Despite the increasing recognition of pyroptosis, particularly that involving GSDME, its precise impact on tumor prognosis and the immune microenvironment remains elusive, necessitating a comprehensive investigation in the context of lung adenocarcinoma (LUAD). We aimed to construct a pyroptosis-related prognostic model and to elucidate the intricate dynamics of GSDME-mediated pyroptosis in shaping tumor immunity in LUAD. We developed a pyroptosis-related prognostic model using machine learning. GSDME-mediated pyroptosis in LUAD cells was induced using CHX and TNF-alpha. HMGB1 content in the cell supernatant after cell pyroptosis and in serum from patients before treatment with PD-1/PD-L1 antibodies was determined by Enzyme-Linked Immunosorbent Assay. In vivo, Lewis lung carcinoma (LLC)-bearing C57 mice were treated with cisplatin and/or caspase-3 inhibitors, anti-PD-1, and IL-8 inhibitors, with tumor growth monitored. Our prognostic prediction model (PYR_score), built upon pyroptosis-related genes, demonstrated high efficacy in predicting LUAD prognosis across diverse datasets. Machine learning analyses revealed that higher PYR_score values correlated with shorter progression-free and overall survival. CHX and TNF-alpha induced GSDME-mediated pyroptosis with elevated HMGB1. Increased HMGB1 was associated with worse therapeutic efficacy of immune checkpoint inhibitors in LUAD patients. HMGB1 increased the proliferative ability and IL-8 secretion of Treg cells in vitro. Caspase-3 and IL-8 inhibitors slowed tumor growth, and IL-8 inhibitors possibly enhanced the effectiveness of anti-PD-1 immunotherapy in LLC-bearing mice. In summary, our novel PYR_score is a robust prognostic marker, offering predictive power across different datasets. GSDME-mediated pyroptosis modulated the immunosuppressive microenvironment via elevations in HMGB1, Treg cells, and MDSCs. IL-8 inhibitors may inhibit Tregs and MDSCs and enhance the effectiveness of anti-PD-1 immunotherapy. Further clinical validation and exploration of therapeutic interventions targeting these pathways are essential for translating these findings into clinical practice.",
+    "keywords": [
+      "GSDME",
+      "HMGB1",
+      "LUAD",
+      "caspase-3",
+      "machine learning",
+      "pyroptosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Pyroptosis/drug effects",
+      "Humans",
+      "*Adenocarcinoma of Lung/immunology/metabolism/pathology/drug therapy",
+      "*Lung Neoplasms/immunology/metabolism/pathology/drug therapy",
+      "*Tumor Microenvironment/immunology/drug effects",
+      "Mice",
+      "HMGB1 Protein/metabolism",
+      "Mice, Inbred C57BL",
+      "Cell Line, Tumor",
+      "Prognosis",
+      "Female",
+      "Carcinoma, Lewis Lung"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Guang-Sheng",
+        "Li, Xuan-Guang",
+        "Cao, Pei-Jun",
+        "Wang, Ya-Nan",
+        "Wang, Ying-Jie",
+        "Zhang, Zi-He",
+        "Li, Bo-Shi",
+        "Chen, Pei-Jie",
+        "Li, Yong-Wen",
+        "Chen, Chen",
+        "Zhang, Hong-Bing",
+        "Liu, Hong-Yu",
+        "Chen, Jun"
+      ],
+      "short_names": [
+        "Zhu GS",
+        "Li XG",
+        "Cao PJ",
+        "Wang YN",
+        "Wang YJ",
+        "Zhang ZH",
+        "Li BS",
+        "Chen PJ",
+        "Li YW",
+        "Chen C",
+        "Zhang HB",
+        "Liu HY",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Esophagus Surgery, Key Laboratory of Digestive Cancer of Tianjin, Tianjin's Clinical Research Center for Cancer, National Clinical Research Center of Cancer, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+        "Department of Esophagus Surgery, Key Laboratory of Digestive Cancer of Tianjin, Tianjin's Clinical Research Center for Cancer, National Clinical Research Center of Cancer, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China. liuhongyu123@hotmail.com.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China. junchen@tmu.edu.cn.",
+        "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin, 300052, China. junchen@tmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Guang-Sheng",
+        "short_name": "Zhu GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China.",
+          "Department of Esophagus Surgery, Key Laboratory of Digestive Cancer of Tianjin, Tianjin's Clinical Research Center for Cancer, National Clinical Research Center of Cancer, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuan-Guang",
+        "short_name": "Li XG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Pei-Jun",
+        "short_name": "Cao PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ya-Nan",
+        "short_name": "Wang YN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying-Jie",
+        "short_name": "Wang YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zi-He",
+        "short_name": "Zhang ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bo-Shi",
+        "short_name": "Li BS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Pei-Jie",
+        "short_name": "Chen PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yong-Wen",
+        "short_name": "Li YW",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chen",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong-Bing",
+        "short_name": "Zhang HB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hong-Yu",
+        "short_name": "Liu HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Esophagus Surgery, Key Laboratory of Digestive Cancer of Tianjin, Tianjin's Clinical Research Center for Cancer, National Clinical Research Center of Cancer, Tianjin Medical University Cancer Institute and Hospital, Tianjin, 300060, China. liuhongyu123@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University General Hospital, Tianjin, 300052, China. junchen@tmu.edu.cn.",
+          "Tianjin Key Laboratory of Lung Cancer Metastasis and Tumor Microenvironment, Tianjin Lung Cancer Institute, Tianjin Medical University General Hospital, Tianjin, 300052, China. junchen@tmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/04 01:17",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39874191",
+      "38875738",
+      "37924812",
+      "37055532",
+      "36758649",
+      "35279675",
+      "34676149",
+      "34619283",
+      "34562371",
+      "34556668",
+      "34273294",
+      "33936158",
+      "33449799",
+      "33307194",
+      "32980444",
+      "32878298",
+      "32778143",
+      "32591432",
+      "32405062",
+      "32188939",
+      "31003931",
+      "30207593",
+      "29127022",
+      "28595336",
+      "26880715",
+      "26289067",
+      "25822850",
+      "25492101",
+      "25229481",
+      "24461616",
+      "23323831"
+    ],
+    "similar": [
+      "41776083",
+      "41309249",
+      "42163353",
+      "39461427",
+      "40329265",
+      "42159791",
+      "39672019",
+      "41641368",
+      "39411951",
+      "42023227",
+      "40050048",
+      "41639257",
+      "40547013",
+      "40777041",
+      "41554474",
+      "41083582",
+      "41246332",
+      "33712445",
+      "41380410",
+      "38169676",
+      "39945555",
+      "39842163",
+      "41383634",
+      "33537094",
+      "40370455",
+      "41518034",
+      "40463377",
+      "40406122",
+      "41526166",
+      "40682067",
+      "38685772",
+      "41580126",
+      "40760442",
+      "41650888",
+      "42402362",
+      "41341805",
+      "39806313",
+      "34648954",
+      "40117327",
+      "38519636",
+      "39455097",
+      "40993741",
+      "42459691",
+      "35971127",
+      "39478862",
+      "39539551",
+      "38722401",
+      "37507593",
+      "41467907",
+      "42079738",
+      "41643445",
+      "39223822",
+      "40308576",
+      "38987529",
+      "40744665",
+      "41045681",
+      "42218515",
+      "40331946",
+      "41629603",
+      "38815768",
+      "41652128",
+      "41634895",
+      "40878933",
+      "40992270",
+      "41540361",
+      "41939918",
+      "38782996",
+      "38643157",
+      "40308578",
+      "39735553",
+      "35154567",
+      "41583466",
+      "41699675",
+      "42238598",
+      "40539245",
+      "41326474",
+      "38655266",
+      "39026674",
+      "41429196",
+      "39701005",
+      "41491011",
+      "41481002",
+      "41831036",
+      "41985273",
+      "38977328",
+      "41342545",
+      "39692168",
+      "35741714",
+      "40474570",
+      "40695147",
+      "41413917",
+      "41624864",
+      "38755433",
+      "39231544",
+      "41740833",
+      "41419978",
+      "34175739",
+      "40673604",
+      "40703029",
+      "32802195"
+    ],
+    "review": [
+      "41776083"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41401-026-01771-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.30.621013",
+  "title": "MethylGPT: a foundation model for the DNA methylome",
+  "authors": "Kejun Ying; Jinyeop Song; Haotian Cui; Yikun Zhang; Siyuan Li; Xingyu Chen; Hanna Liu; Alec Eames; Daniel L McCartney; Riccardo E. Marioni; Jesse R. Poganik; Mahdi Moqri; Bo Wang; Vadim N. Gladyshev",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-03",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出基于Transformer的DNA甲基化基础模型MethylGPT，用于甲基化值预测和年龄/疾病预测，但对象为DNA甲基化而非蛋白质-DNA互作，且无结合建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "DNA methylation serves as a powerful biomarker for disease diagnosis and biological age assessment. However, current analytical approaches often rely on linear models that cannot capture the complex, context-dependent nature of methylation regulation. Here we present MethylGPT, a transformer-based foundation model trained on 226,555 (154,063 after QC and deduplication) human methylation profiles spanning diverse tissue types from 5,281 datasets, curated 49,156 CpG sites, and 7.6 billion training tokens. MethylGPT learns biologically meaningful representations of CpG sites, capturing both local genomic context and higher-order chromosomal features without external supervision. The model demonstrates robust methylation value prediction (Pearson R=0.929) and maintains stable performance in downstream tasks with up to 70% missing data. Applied to age prediction across multiple tissue types, MethylGPT achieves superior accuracy compared to existing methods. Analysis of the model’s attention patterns reveals distinct methylation signatures between young and old samples, with differential enrichment of developmental and aging-associated pathways. When finetuned to mortality and disease prediction across 60 major conditions using 18,859 samples from Generation Scotland, MethylGPT achieves robust predictive performance and enables systematic evaluation of intervention effects on disease risks, demonstrating potential for clinical applications. Our results demonstrate that transformer architectures can effectively model DNA methylation patterns while preserving biological interpretability, suggesting broad utility for epigenetic analysis and clinical applications.",
+  "abstract_zh": "DNA甲基化作为疾病诊断和生物学年龄评估的强大生物标志物。然而，当前的分析方法通常依赖线性模型，无法捕捉甲基化调控中复杂且依赖上下文的特性。在此，我们提出MethylGPT，一种基于transformer的基础模型，在来自5,281个数据集的226,555（质量控制及去重后为154,063）个人类甲基化谱上训练，涵盖多种组织类型，精选49,156个CpG位点，并包含76亿个训练token。MethylGPT学习CpG位点的生物学有意义的表征，无需外部监督即可捕捉局部基因组上下文和高阶染色体特征。该模型在甲基化值预测中表现出稳健性（Pearson R=0.929），并在高达70%数据缺失的下游任务中保持稳定性能。应用于多种组织类型的年龄预测时，MethylGPT相比现有方法实现了更优的准确性。对模型注意力模式的分析揭示了年轻和年老样本之间不同的甲基化特征，并伴有发育和衰老相关通路的差异富集。当使用来自Generation Scotland的18,859个样本对60种主要疾病的死亡率和疾病预测进行微调时，MethylGPT实现了稳健的预测性能，并能系统评估干预措施对疾病风险的影响，显示出临床应用的潜力。我们的结果表明，transformer架构能有效建模DNA甲基化模式，同时保持生物学可解释性，提示其在表观遗传分析和临床应用中具有广泛用途。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621013",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621013",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.30.621013/index.html"
+}

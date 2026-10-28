@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "42394493",
+    "doi": "10.11817/j.issn.1672-7347.2026.260013",
+    "title": "Multi-omics investigation into the role of PTK7 as a driver of liver fibrosis."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Liver fibrosis is a critical stage in the progression of chronic liver disease to cirrhosis, and effective antifibrotic targets remain lacking. This study aims to investigate the association between protein tyrosine kinase 7 (PTK7) and liver fibrosis through multi-omics analyses, explore its potential role in hepatic stellate cell activation, and evaluate the value of circulating PTK7 as a candidate biomarker for assessing liver fibrosis severity. METHODS: Genome-wide association study (GWAS) summary statistics, cis-expression quantitative trait locus (cis-eQTL), and plasma protein quantitative trait locus (pQTL) datasets were integrated to identify candidate genes associated with liver fibrosis. Candidate genes were further validated using multiple machine-learning models in three independent Gene Expression Omnibus (GEO) cohorts (GSE84044, GSE25097, and GSE49541). Human and murine liver single-cell transcriptomic datasets were analyzed to characterize the expression profile of PTK7. In an exploratory clinical cohort, plasma PTK7 levels were measured by enzyme-linked immunosorbent assay (ELISA), and PTK7 expression was evaluated in a carbon tetrachloride (CCl(4))-induced mouse model of liver fibrosis. In LX-2 cells, PTK7 was silenced to assess changes in beta-catenin and fibrosis-related proteins, followed by intervention with SKL2001. Molecular docking and molecular dynamics simulations were performed to evaluate the potential interaction between PTK7 and beta-catenin. RESULTS: A total of 18 candidate genes were identified, among which PTK7 consistently showed upregulated expression in fibrotic liver tissues across multiple datasets. Single-cell transcriptomic analysis revealed enriched PTK7 expression in Kupffer cells and fibroblast-related populations. Plasma PTK7 levels were significantly elevated in patients with liver fibrosis and were positively correlated with liver stiffness measurements. In activated LX-2 cells, PTK7 knockdown reduced the expression levels of collagen type I alpha 1 chain (COL1A1), alpha-smooth muscle actin (alpha-SMA), and beta-catenin. Furthermore, rescue experiments using SKL2001 supported the involvement of beta-catenin-related signaling pathways in PTK7-mediated profibrotic effects. Computational analyses suggested a stable interaction pattern between PTK7 and beta-catenin. CONCLUSIONS: PTK7 is closely associated with liver fibrosis at both multi-omics and transcriptomic levels, may participate in hepatic stellate cell activation, and may be associated with beta-catenin-related signaling pathways. Circulating PTK7 may serve as a candidate biomarker for reflecting the severity of liver fibrosis; however, further validation in larger clinical cohorts is warranted.",
+    "keywords": [
+      "PTK7",
+      "biomarker",
+      "hepatic stellate cell",
+      "liver fibrosis",
+      "beta-catenin"
+    ],
+    "mesh_terms": [
+      "*Receptor Protein-Tyrosine Kinases/genetics/blood/metabolism",
+      "*Liver Cirrhosis/genetics",
+      "Humans",
+      "Animals",
+      "*Cell Adhesion Molecules/genetics/blood/metabolism",
+      "Mice",
+      "Hepatic Stellate Cells/metabolism",
+      "Genome-Wide Association Study",
+      "Biomarkers/blood",
+      "Multiomics",
+      "Male",
+      "beta Catenin/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yongwen",
+        "Chen, Jun",
+        "Huang, Zebing"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Chen J",
+        "Huang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Xiangya Hospital, Central South University, Changsha 410008. yongwen1007@csu.edu.cn.",
+        "National Clinical Research Center for Geriatric Disease (Xiangya Hospital of Central South University), Changsha 410008. yongwen1007@csu.edu.cn.",
+        "National Clinical Research Center for Geriatric Disease (Xiangya Hospital of Central South University), Changsha 410008.",
+        "Department of Infectious Diseases, Xiangya Hospital, Central South University, Changsha 410008.",
+        "Hunan Key Laboratory of Viral Hepatitis, Xiangya Hospital, Central South University, Changsha 410008, China.",
+        "Department of Infectious Diseases, Xiangya Hospital, Central South University, Changsha 410008. huangabing0330@csu.edu.cn.",
+        "Hunan Key Laboratory of Viral Hepatitis, Xiangya Hospital, Central South University, Changsha 410008, China. huangabing0330@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yongwen",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Xiangya Hospital, Central South University, Changsha 410008. yongwen1007@csu.edu.cn.",
+          "National Clinical Research Center for Geriatric Disease (Xiangya Hospital of Central South University), Changsha 410008. yongwen1007@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Geriatric Disease (Xiangya Hospital of Central South University), Changsha 410008.",
+          "Department of Infectious Diseases, Xiangya Hospital, Central South University, Changsha 410008.",
+          "Hunan Key Laboratory of Viral Hepatitis, Xiangya Hospital, Central South University, Changsha 410008, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zebing",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Xiangya Hospital, Central South University, Changsha 410008. huangabing0330@csu.edu.cn.",
+          "Hunan Key Laboratory of Viral Hepatitis, Xiangya Hospital, Central South University, Changsha 410008, China. huangabing0330@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences"
+    ],
+    "journal_abbrev": [
+      "Zhong Nan Da Xue Xue Bao Yi Xue Ban"
+    ],
+    "pub_date": "2026 Apr 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/03 06:31",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39243762",
+      "38906440",
+      "38850428",
+      "38784156",
+      "38773263",
+      "38740744",
+      "38687634",
+      "38561088",
+      "38280697",
+      "38056058",
+      "37919785",
+      "37343516",
+      "36990226",
+      "36669703",
+      "36631445",
+      "35963848",
+      "34280515",
+      "33892010",
+      "33128017",
+      "32272170",
+      "31597160",
+      "30643263",
+      "28262670",
+      "27019110",
+      "26347708",
+      "24114802",
+      "23913408",
+      "21955977",
+      "19499576"
+    ],
+    "similar": [
+      "42394493",
+      "42244286",
+      "42292398",
+      "41901341",
+      "28302418",
+      "38658618",
+      "32771890",
+      "42260670",
+      "40620116",
+      "36610117",
+      "42558367",
+      "41905442",
+      "40916281",
+      "27832641",
+      "29501581",
+      "42407187",
+      "37389234",
+      "42704362",
+      "37668531",
+      "30522100",
+      "26870800",
+      "33758354",
+      "41310755",
+      "40741470",
+      "37226284",
+      "38407690",
+      "37679574",
+      "40101858",
+      "41661436",
+      "41740338",
+      "42745923",
+      "42398820",
+      "39915293",
+      "24691643",
+      "42435052",
+      "42530273",
+      "34943832",
+      "42343774",
+      "37274069",
+      "23347184",
+      "42103827",
+      "41796616",
+      "30326962",
+      "41699549",
+      "41702259",
+      "41581345",
+      "37057207",
+      "38812160",
+      "33273492",
+      "30098497",
+      "42546437",
+      "41033651",
+      "42486350",
+      "35659360",
+      "28143772",
+      "41716413",
+      "40223805",
+      "41844050",
+      "27477297",
+      "25678385",
+      "40406118",
+      "42617904",
+      "41443484",
+      "41759558",
+      "41936306",
+      "31170413",
+      "40326028",
+      "31285763",
+      "41289748",
+      "31171625",
+      "31293340",
+      "40056500",
+      "42543339",
+      "32648079",
+      "40818181",
+      "31412137",
+      "42486346",
+      "24852883",
+      "30909713",
+      "42322765",
+      "30093459",
+      "40098321",
+      "42102670",
+      "26269412",
+      "30081711",
+      "42107443",
+      "42772945",
+      "28163062",
+      "42130159",
+      "27956229",
+      "42223712",
+      "33908271",
+      "42594754",
+      "35820364",
+      "36983006",
+      "39321687",
+      "31467426",
+      "31443720",
+      "40113123",
+      "38393550"
+    ],
+    "review": [
+      "42394493"
+    ],
+    "pmc": [
+      "13306129"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42394493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3568",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.11817/j.issn.1672-7347.2026.260013",
+        "provider": "CENTRAL SOUTH UNIVERSITY",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, conclusion, and limitations.
+- **Assessment boundary** Scientific validity, methodological rigor, and support of claims based solely on the provided manuscript content.
+- **Shared manuscript claim summary** The authors propose that carvacrol, a phytochemical from Moringa oleifera, acts as a potential antidiabetic agent by inhibiting the transcription factor TCF7L2, based on an in-silico pipeline involving ADMET profiling, molecular docking, molecular dynamics simulations, and DFT analysis.
+- **Visible evidence base** Computational results including ADMET tables, docking scores, MD simulation metrics (RMSD, rGyr, SASA, H-bonds), DFT HOMO-LUMO gap, and interaction analyses.
+- **Missing materials affecting confidence** No experimental validation data, no co-crystal structures or known inhibitors for benchmarking, no raw MD trajectories or force field parameter details, no statistical analysis of replicates, and no negative controls for docking specificity.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward computational workflow applied to a biologically relevant target, but the scientific case is not established from the provided evidence. The central claim that carvacrol inhibits TCF7L2 is supported only by docking scores and MD stability metrics, which are insufficient to demonstrate functional inhibition of a transcription factor. The study lacks experimental validation, comparative benchmarking against known binders, and a clear mechanistic hypothesis for how ligand binding to a putative pocket would modulate TCF7L2 activity. The work is hypothesis-generating at best and does not meet the standard for a conclusive computational drug discovery study.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery and natural product screening may find the workflow of interest as a template for similar studies. Investigators studying TCF7L2 as a diabetes target might consider the proposed binding site as a starting point for further exploration. However, the audience is limited to specialists, and the results are unlikely to attract broad interdisciplinary interest given the lack of experimental validation.
+- **Major strengths** The manuscript addresses a pharmacologically underexplored target, which is a relevant gap. The computational pipeline is comprehensive, combining ADMET, docking, MD, and DFT. The authors acknowledge the limitations of in-silico work and explicitly call for experimental follow-up. The inclusion of a workflow figure aids reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that carvacrol is a potential antidiabetic agent through TCF7L2 inhibition is the central thesis of the manuscript.
+  - **Evidence pointer** Results sections on docking, MD, and DFT; location not provided for specific data points.
+  - **Concern** The docking score of -5.5 kcal/mol is weak and within the range of non-specific binding. No comparison is made to known TCF7L2 binders or decoy molecules to establish selectivity. The MD simulation shows stability, but this does not demonstrate functional inhibition. The DFT analysis is descriptive and not linked to any biological mechanism.
+  - **Why it matters** Without evidence of specific, competitive binding and functional modulation, the claim of TCF7L2 inhibition is unsupported. Transcription factors are challenging targets, and a weak docking score with no experimental correlation does not establish a credible drug candidate.
+  - **Resolution test** Provide comparative docking against known binders or decoys, perform free energy perturbation or MM-PBSA calculations, and ideally validate with a biochemical or cellular assay measuring TCF7L2 transcriptional activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target validity
+  - **Claim pointer** The manuscript implies that inhibiting TCF7L2 is a viable antidiabetic strategy, citing genetic associations.
+  - **Evidence pointer** Introduction and Discussion sections; Figure 13.
+  - **Concern** The genetic evidence linking TCF7L2 to diabetes is correlational. The manuscript does not establish that inhibiting TCF7L2 would be beneficial. TCF7L2 is a transcription factor with complex, context-dependent roles. The proposed mechanism of action is not articulated beyond a generic statement of modulating transcriptional regulation.
+  - **Why it matters** If TCF7L2 inhibition is not a valid therapeutic strategy, the entire premise of the study collapses. The authors need to justify why inhibiting this target would improve glucose homeostasis, given that TCF7L2 haploinsufficiency is associated with reduced diabetes risk but the underlying mechanisms are not fully understood.
+  - **Resolution test** Cite and discuss functional studies showing that TCF7L2 inhibition or knockdown improves beta-cell function or glucose tolerance. Provide a clear mechanistic model for how carvacrol binding to the identified pocket would alter TCF7L2 function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural reliability
+  - **Claim pointer** The Robetta-predicted model is stated to be superior to AlphaFold and I-TASSER models and is used for all downstream analyses.
+  - **Evidence pointer** Materials and methods, Validation of protein tertiary structure; Figures 2 and 3.
+  - **Concern** The manuscript states that AlphaFold and I-TASSER models were unsuitable due to low confidence and poor quality, but no quantitative comparison is provided. The Robetta model has a Ramachandran favored fraction of 89.9%, which is moderate, and an ERRAT score of 86.655, which is acceptable but not exceptional. The QMEAN Z-score of -1.39 is not contextualized. More critically, the functional relevance of the predicted pocket is not established.
+  - **Why it matters** All downstream results depend on the quality of the protein model. If the model is inaccurate, the docking and MD results are meaningless. The authors need to demonstrate that the chosen model is reliable and that the predicted binding pocket is biologically relevant.
+  - **Resolution test** Provide a detailed comparison of model quality metrics for all three models. Validate the pocket by comparing to known functional domains or conserved regions. Consider using experimental structures or cryo-EM data if available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The MD simulation is claimed to validate the stability of the complex.
+  - **Evidence pointer** MD simulation section; Figure 8.
+  - **Concern** The MD methods lack critical details: the number of replicates, the specific ligand parameterization protocol, the equilibration criteria, and the analysis tools are not fully described. The RMSD values for the ligand are reported as extremely low (0.01-0.02 nm), which is suspicious and may indicate the ligand is trapped in a local minimum or the system is over-restrained.
+  - **Why it matters** Reproducibility is a core requirement. Without full methodological details, the MD results cannot be independently verified. The unusually low ligand RMSD raises questions about the validity of the simulation setup.
+  - **Resolution test** Provide complete simulation parameters, including the software version, thermostat and barostat settings, and the method for ligand parameterization. Report the results of multiple independent simulations and show representative snapshots of the binding mode.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract section
+  - **Issue** The abstract states the binding affinity is -5.5 kcal/mol but does not mention the MOE score or the MD results, which are key parts of the study.
+  - **Required correction** Include a brief summary of the MD stability and the MOE cross-validation in the abstract to give a complete picture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results, Screening of phytochemicals by molecular docking; Discussion section
+  - **Issue** The text mentions 11 compounds passed ADMET and were docked, but Table 2 lists 11 passed while the text in the results says "11 phytochemicals passed out screening" and then later says "screening of 11 compounds." This is consistent, but the abstract says 7 were shortlisted, which is inconsistent with the 11 mentioned in the results.
+  - **Required correction** Clarify the number of compounds at each stage. The abstract says 7, the results say 11. Ensure consistency throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The phrase "utilized to design the drub" appears to be a typo for "drug."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The citation format for the study on cucurbitane-type triterpenoids is inconsistent, with an incomplete reference in parentheses.
+  - **Required correction** Standardize all references to the journal format.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The figure labels for panels A-F are not clearly described in the text, and the resolution appears low.
+  - **Required correction** Provide a detailed legend and ensure high-resolution images.
+
+## Risk / unsupported claims
+- The claim that carvacrol inhibits TCF7L2 is unsupported; docking and MD alone do not demonstrate functional inhibition.
+- The statement that the Robetta model is superior to AlphaFold and I-TASSER is not quantitatively supported.
+- The claim that DFT results confirm biological activity is not justified; the HOMO-LUMO gap is descriptive only.
+- The assertion that carvacrol has low toxicity based on ProTox predictions is speculative without experimental confirmation.
+- The claim that the study provides "robust evidence" for carvacrol as a therapeutic agent is overstated given the purely computational nature of the work.
+- The relevance of the proposed binding pocket to TCF7L2 function is not established.
+
+## Assessment against Nature-style criteria
+- **Originality** Limited. The application of a standard in-silico pipeline to a known target with a common natural compound does not represent a conceptual advance. The target is well-studied genetically, and carvacrol is a known bioactive molecule.
+- **Scientific importance** Moderate. TCF7L2 is a relevant diabetes target, but the study does not provide new biological insights or a validated therapeutic hypothesis. The results are preliminary and do not advance the field beyond what is already known.
+- **Interdisciplinary readership** Narrow. The work is of interest primarily to computational chemists and diabetes researchers. It lacks the broader appeal of studies that integrate experimental validation or novel methodology.
+- **Technical soundness** Weak. The docking score is low, the model quality is moderate, and the MD analysis lacks critical controls and details. The lack of benchmarking against known binders is a significant flaw.
+- **Readability for nonspecialists** Acceptable. The manuscript is generally clear, but the technical sections assume familiarity with computational methods. The abstract and introduction are accessible, but the results are dense.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript is hypothesis-generating but does not provide sufficient evidence to support the claim that carvacrol is a potential antidiabetic agent through TCF7L2 inhibition. Major revisions addressing the concerns above, particularly the need for experimental validation or at least a more rigorous computational benchmark, would be required before the case can be considered.

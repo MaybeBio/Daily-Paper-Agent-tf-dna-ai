@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "36155619",
+    "doi": "10.1093/bib/bbac425",
+    "title": "PlantBind: an attention-based multi-label neural network for predicting plant transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Identification of transcription factor binding sites (TFBSs) is essential to understanding of gene regulation. Designing computational models for accurate prediction of TFBSs is crucial because it is not feasible to experimentally assay all transcription factors (TFs) in all sequenced eukaryotic genomes. Although many methods have been proposed for the identification of TFBSs in humans, methods designed for plants are comparatively underdeveloped. Here, we present PlantBind, a method for integrated prediction and interpretation of TFBSs based on DNA sequences and DNA shape profiles. Built on an attention-based multi-label deep learning framework, PlantBind not only simultaneously predicts the potential binding sites of 315 TFs, but also identifies the motifs bound by transcription factors. During the training process, this model revealed a strong similarity among TF family members with respect to target binding sequences. Trans-species prediction performance using four Zea mays TFs demonstrated the suitability of this model for transfer learning. Overall, this study provides an effective solution for identifying plant TFBSs, which will promote greater understanding of transcriptional regulatory mechanisms in plants.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "attention mechanism",
+      "deep learning",
+      "multi-classification",
+      "protein-nucleic acid binding",
+      "transcription factor",
+      "transcription regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Binding Sites",
+      "Protein Binding",
+      "*Transcription Factors/metabolism",
+      "*Gene Expression Regulation",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Wenkai",
+        "Li, Zutan",
+        "Pian, Cong",
+        "Wu, Yufeng"
+      ],
+      "short_names": [
+        "Yan W",
+        "Li Z",
+        "Pian C",
+        "Wu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7401-2926"
+      ],
+      "affiliations": [
+        "Nanjing Agricultural University.",
+        "Nanjing Agricultur al University.",
+        "College of Sciences at Nanjing Agricultural University.",
+        "State Key Laboratory for Crop Genetics and Germplasm Enhancement, Bioinformatics Center, College of Agriculture, Academy for Advanced Interdisciplinary Studies at Nanjing Agricultural University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Wenkai",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Agricultural University."
+        ]
+      },
+      {
+        "full_name": "Li, Zutan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Agricultur al University."
+        ]
+      },
+      {
+        "full_name": "Pian, Cong",
+        "short_name": "Pian C",
+        "identifiers": [
+          "0000-0001-7401-2926"
+        ],
+        "affiliations": [
+          "College of Sciences at Nanjing Agricultural University."
+        ]
+      },
+      {
+        "full_name": "Wu, Yufeng",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Crop Genetics and Germplasm Enhancement, Bioinformatics Center, College of Agriculture, Academy for Advanced Interdisciplinary Studies at Nanjing Agricultural University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Nov 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/27 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42333573",
+      "42055456",
+      "41599985",
+      "40411397",
+      "39690739",
+      "39640721",
+      "39412125",
+      "39013383",
+      "37229121"
+    ],
+    "refs": [],
+    "similar": [
+      "36155619",
+      "27503086",
+      "38701417",
+      "27567672",
+      "34272562",
+      "32770026",
+      "37328639",
+      "34613923",
+      "34929739",
+      "28485207",
+      "30447332",
+      "16595861",
+      "31634140",
+      "27871221",
+      "33498086",
+      "35713985",
+      "36748992",
+      "31336830",
+      "28623591",
+      "37803120",
+      "18627598",
+      "33416862",
+      "34664074",
+      "22397531",
+      "38798191",
+      "24942981",
+      "33372147",
+      "34669947",
+      "25918418",
+      "38049725",
+      "18426580",
+      "27117388",
+      "31372637",
+      "26285121",
+      "34752400",
+      "26476450",
+      "34962264",
+      "30395277",
+      "20172488",
+      "25559499",
+      "39350338",
+      "23527292",
+      "29617378",
+      "38236675",
+      "39107889",
+      "38733561",
+      "22672438",
+      "16817975",
+      "31133749",
+      "21059262",
+      "15799782",
+      "36057196",
+      "17914226",
+      "22187154",
+      "35799371",
+      "19730699",
+      "33975951",
+      "21852305",
+      "39076052",
+      "21690103",
+      "22504445",
+      "22888987",
+      "20653963",
+      "36094959",
+      "23272209",
+      "26678747",
+      "25708259",
+      "27307632",
+      "34534646",
+      "23822978",
+      "22492513",
+      "23320072",
+      "19956545",
+      "15266008",
+      "36264496",
+      "21124986",
+      "22334039",
+      "24965723",
+      "28750606",
+      "22185505",
+      "30835229",
+      "20363979",
+      "31665425",
+      "22412381",
+      "28623590",
+      "28716409",
+      "32126279",
+      "30423062",
+      "26160164",
+      "31483836",
+      "35462009",
+      "33522898",
+      "28363453",
+      "22348285",
+      "24477691",
+      "35263332",
+      "34882561",
+      "24386279",
+      "31161194",
+      "35901946",
+      "18776194",
+      "34772949",
+      "36374878",
+      "30922998",
+      "37229121",
+      "37598467",
+      "38149460",
+      "37919990",
+      "37723425",
+      "29081688",
+      "35396274",
+      "38644393",
+      "17504544",
+      "39013383",
+      "37100167",
+      "36413575",
+      "33796819",
+      "37482504",
+      "37662307",
+      "35809064",
+      "39174927",
+      "37845681",
+      "38291225"
+    ],
+    "review": [
+      "36155619",
+      "30447332",
+      "36057196",
+      "28716409",
+      "29081688"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36155619.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac425",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

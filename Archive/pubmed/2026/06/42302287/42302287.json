@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "42302287",
+    "doi": "10.1093/plphys/kiag383",
+    "title": "Network-based analysis of crucial genes for salt tolerance in rice."
+  },
+  "content": {
+    "abstract": "Rice responds to salt stress by modulating a vast array of genes integrated into a sophisticated regulatory network. This complexity makes it challenging to identify the key genes and the specific alleles that confer tolerance. We used time-course expression analysis to profile gene and miRNA expression associated with salt tolerance in Pokkali, a salt-tolerant rice variety. We established a framework for studying transcription factor (TF)-target (mRNA/miRNA) interactions using gene co-expression and machine learning models. Moreover, we developed a hypergeometric distribution-based method to elucidate the interactions of salt stress-related miRNA-targets. Using these approaches, we established gene co-expression networks (GCNs) and gene regulatory networks (GRNs) based on co-expression and TF/miRNA-target interactions. Hub genes with high connectivity in our networks were enriched for previously reported salt tolerance genes, a finding largely supported by subsequent haplotype analysis of 374 rice accessions. Finally, we functionally validated 3 crucial hub genes, OsCAF1B, OsADR3, and Ospdr9, by demonstrating their roles in salt tolerance using their knockout mutants. The crucial genes, haplotypes, and networks for salt tolerance identified in this study (resource available at https://cbi.njau.edu.cn/RiceSALTnet) provide a foundation for breeding rice cultivars with enhanced salt tolerance.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Oryza/genetics/physiology",
+      "*Salt Tolerance/genetics",
+      "*Gene Regulatory Networks",
+      "Gene Expression Regulation, Plant",
+      "MicroRNAs/genetics/metabolism",
+      "*Genes, Plant",
+      "Plant Proteins/genetics/metabolism",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Lulu",
+        "Yang, Long",
+        "Nie, Yamin",
+        "Zhu, Xueai",
+        "Liu, Yujie",
+        "Ding, Dan",
+        "Li, Jianbo",
+        "Wei, Xianglei",
+        "Xia, Yiming",
+        "Qiao, Weihua",
+        "Huang, Ji"
+      ],
+      "short_names": [
+        "Li L",
+        "Yang L",
+        "Nie Y",
+        "Zhu X",
+        "Liu Y",
+        "Ding D",
+        "Li J",
+        "Wei X",
+        "Xia Y",
+        "Qiao W",
+        "Huang J"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-3455-3767",
+        "ORCID: 0009-0003-2184-1546",
+        "ORCID: 0000-0002-5496-3203",
+        "ORCID: 0009-0001-3983-1552",
+        "ORCID: 0000-0001-9876-3054",
+        "ORCID: 0000-0002-9057-4299"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "Institute of Crop Science, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China.",
+        "Institute of Crop Science, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Lulu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Long",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0009-0005-3455-3767"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Yamin",
+        "short_name": "Nie Y",
+        "identifiers": [
+          "0009-0003-2184-1546"
+        ],
+        "affiliations": [
+          "Institute of Crop Science, Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xueai",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0002-5496-3203"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yujie",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Dan",
+        "short_name": "Ding D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianbo",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xianglei",
+        "short_name": "Wei X",
+        "identifiers": [
+          "0009-0001-3983-1552"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yiming",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Weihua",
+        "short_name": "Qiao W",
+        "identifiers": [
+          "0000-0001-9876-3054"
+        ],
+        "affiliations": [
+          "Institute of Crop Science, Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ji",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0000-0002-9057-4299"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Jiangsu Collaborative Innovation Center for Modern Crop Production, Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, College of Agriculture, Nanjing Agricultural University, Nanjing 211800, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Physiol"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/16 18:35",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42302287",
+      "39456877",
+      "32044993",
+      "42406130",
+      "42159687",
+      "38540375",
+      "31533315",
+      "28821952",
+      "40244966",
+      "31954202",
+      "42115553",
+      "40114057",
+      "26443376",
+      "41353893",
+      "40470919",
+      "25445270",
+      "23762267",
+      "42633900",
+      "36988217",
+      "39674500",
+      "36233306",
+      "32294092",
+      "31726733",
+      "40847042",
+      "36835475",
+      "34800972",
+      "41668369",
+      "27486025",
+      "40045220",
+      "32094443",
+      "27766460",
+      "38769518",
+      "40729952",
+      "38062833",
+      "27029818",
+      "39336767",
+      "38454780",
+      "33668247",
+      "19772648",
+      "35742880",
+      "42206449",
+      "29329517",
+      "41388362",
+      "41381819",
+      "40511624",
+      "41139960",
+      "40650756",
+      "40802999",
+      "31611344",
+      "39367004",
+      "41532718",
+      "39738626",
+      "34299195",
+      "31198970",
+      "27848097",
+      "34925399",
+      "42353798",
+      "39826342",
+      "41673553",
+      "39425973",
+      "42113251",
+      "30903405",
+      "28741224",
+      "41478245",
+      "42006143",
+      "36224499",
+      "25888374",
+      "37108614",
+      "31412781",
+      "39487109",
+      "25995326",
+      "38872092",
+      "36567515",
+      "22301384",
+      "41491461",
+      "26025528",
+      "38739961",
+      "30322083",
+      "39179980",
+      "32218214",
+      "31475433",
+      "41825643",
+      "37833950",
+      "25189468",
+      "40050719",
+      "31659429",
+      "39456694",
+      "25707768",
+      "32504260",
+      "41148340",
+      "30598105",
+      "39353294",
+      "37289769",
+      "42510801",
+      "41652853",
+      "22499169",
+      "28025485",
+      "40613268",
+      "42264441",
+      "34749653"
+    ],
+    "review": [
+      "42302287",
+      "42115553",
+      "31726733"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plphys/article-lookup/doi/10.1093/plphys/kiag383",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

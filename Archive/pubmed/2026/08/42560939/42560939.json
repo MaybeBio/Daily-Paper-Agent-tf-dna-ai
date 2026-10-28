@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "42560939",
+    "doi": "10.1371/journal.pcbi.1014602",
+    "title": "ScanNet: Single-cell annotation informed by transcriptional regulation Network via iterative heterogeneous graph learning."
+  },
+  "content": {
+    "abstract": "Accurate annotation of cell types in single-cell transcriptome sequencing (scRNA-seq) data is critical for understanding cellular identities. The transcriptional regulatory networks (TRNs), which map the regulatory relationships between transcription factors (TFs) and their target genes (TGs), capture the molecular dependencies underlying transcriptional programs. However, most existing cell type annotation methods do not fully exploit this regulatory information. Therefore, we introduce ScanNet, a Single cell annotation method informed by transcriptional regulation Network, to integrate prior knowledge of TRN into data of gene expression and capture the cell-type-specific characteristics underlying TRN mechanism. TRN can be naturally represented as heterogeneous graphs consisting of two regulatory elements, TFs and TGs connected by directed edges, thereby encoding the regulatory dependencies that shape transcriptional programs and ultimately determine cellular identity. To leverage this structure, ScanNet introduces an iterative heterogeneous graph convolutional framework that learns both local and global cellular embeddings through a dual-channel encoder. The Regulation-level Encoder applies iterative heterogeneous graph convolution to capture local TF-TG regulatory interactions within TRN, while the Expression-level Encoder learns global cellular transcriptional states. By integrating the multiple-view representations, ScanNet can accurately annotate cell types. Comprehensive evaluations across eight scRNA-seq datasets spanning different species, sample scales, and sequencing platforms demonstrate that ScanNet consistently outperforms ten state-of-the-art cell type annotation methods. By embedding prior TRN structures into a heterogeneous graph, ScanNet also achieves robust performance in cross-platform cell type annotation and in identifying novel cell types under constrained structural information. Moreover, the ScanNet framework can be flexibly transferred to single-cell ATAC-seq (scATAC-seq) data by mapping chromatin accessibility to gene level, where it achieves superior performance compared to existing annotation tools. Overall, ScanNet is a scalable, transferable, and mechanistically informed framework for accurate cell type annotation across diverse single-cell data modalities.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gene Regulatory Networks/genetics",
+      "*Single-Cell Analysis/methods",
+      "Single-Cell Gene Expression Analysis",
+      "Computational Biology/methods",
+      "Transcription Factors/genetics/metabolism",
+      "*Molecular Sequence Annotation/methods",
+      "Animals",
+      "Humans",
+      "Graph Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Long, Yongyu",
+        "Zhang, Wenhao",
+        "Cao, Lan",
+        "Huang, Xiaobing",
+        "Wang, Ying"
+      ],
+      "short_names": [
+        "Long Y",
+        "Zhang W",
+        "Cao L",
+        "Huang X",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8766-5950"
+      ],
+      "affiliations": [
+        "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China.",
+        "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China.",
+        "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China.",
+        "Department of Medical Oncology, Fuzhou First Hospital Affiliated with Fujian Medical University, Fuzhou, Fujian, China.",
+        "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Long, Yongyu",
+        "short_name": "Long Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenhao",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Lan",
+        "short_name": "Cao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaobing",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Fuzhou First Hospital Affiliated with Fujian Medical University, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-8766-5950"
+        ],
+        "affiliations": [
+          "Department of Automation, National Institute for Data Science in Health and Medicine, State Key Laboratory of Mariculture Breeding, Xiamen Key Laboratory of Big Data Intelligent Analysis and Decision, Xiamen University, Xiamen, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 18:35",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39708840",
+      "39511415",
+      "38582890",
+      "37843125",
+      "37814314",
+      "37012226",
+      "36833434",
+      "35549406",
+      "35394015",
+      "34725479",
+      "34238220",
+      "34158507",
+      "33491336",
+      "33244151",
+      "32341560",
+      "32151972",
+      "32062421",
+      "31915373",
+      "31829268",
+      "31611697",
+      "31500660",
+      "31359028",
+      "31226206",
+      "31159854",
+      "30799483",
+      "30476243",
+      "30382198",
+      "30304022",
+      "30283141",
+      "30089861",
+      "29850911",
+      "29608555",
+      "29342231",
+      "28991892",
+      "27693023",
+      "27667365",
+      "26430159",
+      "23813012",
+      "23339603",
+      "22846459",
+      "22282259",
+      "21441907",
+      "15193307"
+    ],
+    "similar": [
+      "42560939",
+      "42060707",
+      "42308421",
+      "39800872",
+      "39708840",
+      "40471991",
+      "41516004",
+      "41643202",
+      "41896196",
+      "41554051",
+      "42653305",
+      "40723810",
+      "42599963",
+      "41871930",
+      "41489955",
+      "41288963",
+      "41300707",
+      "40682757",
+      "41632825",
+      "41409156",
+      "39849579",
+      "41206950",
+      "42650039",
+      "40713495",
+      "41723123",
+      "38396909",
+      "39376034",
+      "38950180",
+      "37985457",
+      "42475469",
+      "36902216",
+      "39417321",
+      "41317402",
+      "40116659",
+      "42061403",
+      "41791270",
+      "38653489",
+      "39446194",
+      "41831316",
+      "42337558",
+      "42059479",
+      "40251476",
+      "41883144",
+      "42167226",
+      "42455075",
+      "42086551",
+      "38342857",
+      "39934680",
+      "40042052",
+      "41043336",
+      "42665446",
+      "39101690",
+      "38892162",
+      "41481570",
+      "38581422",
+      "39082647",
+      "40956752",
+      "40699953",
+      "39833103",
+      "39326643",
+      "34623390",
+      "39511415",
+      "18426580",
+      "42525855",
+      "41655240",
+      "38896510",
+      "38924517",
+      "39769196",
+      "38980373",
+      "41139927",
+      "42090457",
+      "40591481",
+      "40034748",
+      "39451156",
+      "41592570",
+      "40662821",
+      "40062616",
+      "40315689",
+      "39062480",
+      "31985403",
+      "37486829",
+      "36626328",
+      "39999494",
+      "40571903",
+      "40426257",
+      "36526433",
+      "40983951",
+      "41385419",
+      "41518505",
+      "41786602",
+      "37244909",
+      "41534143",
+      "38600256",
+      "42265576",
+      "40158457",
+      "39798891",
+      "40154828",
+      "33153500",
+      "41161490",
+      "41284927"
+    ],
+    "review": [
+      "42560939"
+    ],
+    "pmc": [
+      "13446671"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014602",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42560939/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

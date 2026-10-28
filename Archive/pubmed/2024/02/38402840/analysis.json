@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38402840",
+  "title": "Large-scale analysis reveals splicing biomarkers for tuberculosis progression and prognosis.",
+  "authors": "Lai, Hongli; Lyu, Mengyuan; Ruan, Hongxia; Liu, Yang; Liu, Tangyuheng; Lei, Shuting; Xiao, Yuling; Zhang, Shu; Ying, Binwu",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2024-02-26",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该文基于RNA-seq数据用机器学习分析剪接事件预测结核病进展与预后，不涉及蛋白质-DNA互作、转录因子结合或结构建模，与本课题无关。",
+  "abstract": "BACKGROUND: Emerging evidence suggests that aberrant alternative splicing (AS) may play an important role in tuberculosis (TB). However, current knowledge regarding the value of AS in TB progression and prognosis remains unclear. METHOD: Public RNA-seq datasets related to TB progression and prognosis were searched and AS analyses were conducted based on SUPPA2. Percent spliced in (PSI) was used for quantifying AS events and multiple machine learning (ML) methods were employed to construct predictive models. Area under curve (AUC), sensitivity and specificity were calculated to evaluate the model performance. RESULTS: A total of 1587 samples from 7 datasets were included. Among 923 TB-progression related differential AS events (DASEs), 3 events (GET1-skipping exon (SE), TPD52-alternative first exons (AF) and TIMM10-alternative 5' splice site (A5)) were selected as candidate biomarkers; however, their predictive performance was limited. For TB prognosis, 5 events (PHF23-AF, KIF1B-SE, MACROD2-alternative 3' splice site (A3), CD55-retained intron (RI) and GALNT11-AF) were selected as candidates from the 1282 DASEs. Six ML methods were used to integrate these 5 events and XGBoost outperformed than others. AUC, sensitivity and specificity of XGBoost model were 0.875, 81.1% and 83.5% in training set, while they were 0.805, 68.4% and 73.2% in test set. CONCLUSION: GET1-SE, TPD52-AF and TIMM10-A5 showed limited role in predicting TB progression, while PHF23-AF, KIF1B-SE, MACROD2-A3, CD55-RI and GALNT11-AF could well predict TB prognosis and work as candidate biomarkers. This work preliminarily explored the value of AS in predicting TB progression and prognosis and offered potential targets for further research.",
+  "abstract_zh": "背景：新近证据表明，异常的选择性剪接（alternative splicing, AS）可能在结核病（tuberculosis, TB）中发挥重要作用。然而，目前关于AS在TB进展和预后中的价值仍不明确。方法：检索与TB进展和预后相关的公共RNA-seq数据集，并基于SUPPA2进行AS分析。使用剪接百分比（Percent spliced in, PSI）量化AS事件，并采用多种机器学习（machine learning, ML）方法构建预测模型。计算曲线下面积（Area under curve, AUC）、敏感性和特异性以评估模型性能。结果：共纳入来自7个数据集的1587个样本。在923个与TB进展相关的差异AS事件（differential AS events, DASEs）中，筛选出3个事件（GET1-跳跃外显子（skipping exon, SE）、TPD52-替代第一外显子（alternative first exons, AF）和TIMM10-替代5'剪接位点（alternative 5' splice site, A5））作为候选生物标志物；然而，其预测性能有限。对于TB预后，从1282个DASEs中筛选出5个事件（PHF23-AF、KIF1B-SE、MACROD2-替代3'剪接位点（alternative 3' splice site, A3）、CD55-保留内含子（retained intron, RI）和GALNT11-AF）作为候选。使用六种ML方法整合这5个事件，其中XGBoost表现优于其他方法。XGBoost模型在训练集中的AUC、敏感性和特异性分别为0.875、81.1%和83.5%，而在测试集中分别为0.805、68.4%和73.2%。结论：GET1-SE、TPD52-AF和TIMM10-A5在预测TB进展中作用有限，而PHF23-AF、KIF1B-SE、MACROD2-A3、CD55-RI和GALNT11-AF能良好预测TB预后，并可作为候选生物标志物。本研究初步探索了AS在预测TB进展和预后中的价值，并为后续研究提供了潜在靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38402840/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38402840/",
+  "paper_page_path": "papers/pubmed/38402840/index.html"
+}

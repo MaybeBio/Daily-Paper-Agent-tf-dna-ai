@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37845681",
+  "title": "KDeep: a new memory-efficient data extraction method for accurately predicting DNA/RNA transcription factor binding sites.",
+  "authors": "Akbari Rokn Abadi, Saeedeh; Tabatabaei, SeyedehFatemeh; Koohi, Somayyeh",
+  "journal": "Journal of translational medicine",
+  "published_date": "2023-10-17",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于CNN-LSTM和新型2Lk编码的KDeep方法，用于高效预测DNA/RNA转录因子结合位点，核心聚焦TF-DNA互作位点预测，方法上采用深度学习并优化内存与可解释性，与课题高度匹配。",
+  "abstract": "This paper addresses the crucial task of identifying DNA/RNA binding sites, which has implications in drug/vaccine design, protein engineering, and cancer research. Existing methods utilize complex neural network structures, diverse input types, and machine learning techniques for feature extraction. However, the growing volume of sequences poses processing challenges. This study introduces KDeep, employing a CNN-LSTM architecture with a novel encoding method called 2Lk. 2Lk enhances prediction accuracy, reduces memory consumption by up to 84%, reduces trainable parameters, and improves interpretability by approximately 79% compared to state-of-the-art approaches. KDeep offers a promising solution for accurate and efficient binding site prediction.",
+  "abstract_zh": "本文针对DNA/RNA结合位点识别这一关键任务展开研究，该任务在药物/疫苗设计、蛋白质工程及癌症研究中具有重要意义。现有方法采用复杂的神经网络结构、多样化的输入类型及机器学习技术进行特征提取，然而，序列数量的不断增长带来了处理上的挑战。本研究提出了KDeep，采用CNN-LSTM架构，并引入一种名为2Lk的新型编码方法。2Lk在提升预测准确性的同时，将内存消耗降低高达84%，减少可训练参数，并与最先进方法相比，可解释性提升约79%。KDeep为准确高效的结合位点预测提供了一种有前景的解决方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37845681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37845681/",
+  "paper_page_path": "papers/pubmed/37845681/index.html"
+}

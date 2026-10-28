@@ -1,0 +1,339 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.23.504929",
+  "title": "Graph Neural Networks for Z-DNA prediction in Genomes",
+  "doi": "10.1101/2022.08.23.504929",
+  "abstract": "Deep learning methods have been successfully applied to the tasks of predicting functional genomic elements such as histone marks, transcriptions factor binding sites, non-B DNA structures, and regulatory variants. Initially convolutional neural networks (CNN) and recurrent neural networks (RNN) or hybrid CNN-RNN models appeared to be the methods of choice for genomic studies. With the advance of machine learning algorithms other deep learning architectures started to outperform CNN and RNN in various applications. Thus, graph neural network (GNN) applications improved the prediction of drug effects, disease associations, protein-protein interactions, protein structures and their functions. The performance of GNN is yet to be fully explored in genomics. Earlier we developed DeepZ approach in which deep learning model is trained on information both from sequence and omics data. Initially this approach was implemented with CNN and RNN but is not limited to these classes of neural networks. In this study we implemented the DeepZ approach by substituting RNN with GNN. We tested three different GNN architectures – Graph Convolutional Network (GCN), Graph Attention Network (GAT) and inductive representation learning network GraphSAGE. The GNN models outperformed current state-of the art RNN model from initial DeepZ realization. Graph SAGE showed the best performance for the small training set of human Z-DNA ChIP-seq data while Graph Convolutional Network was superior for specific curaxin-induced mouse Z-DNA data that was recently reported. Our results show the potential of GNN applications for the task of predicting genomic functional elements based on DNA sequence and omics data. Availability and implementation The code is freely available at https://github.com/MrARVO/GraphZ .",
+  "authors": [
+    "Artem Voytetskiy",
+    "Alan Herbert",
+    "Maria Poptsova"
+  ],
+  "published_date": "2022-08-25",
+  "updated_date": "2022-08-25T11:05:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.23.504929",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.23.504929.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T06:48:14Z",
+        "timestamp": 1778568494579,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            25
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 20,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Deep learning methods have been successfully applied to the tasks of predicting functional genomic elements such as histone marks, transcriptions factor binding sites, non-B DNA structures, and regulatory variants. Initially convolutional neural networks (CNN) and recurrent neural networks (RNN) or hybrid CNN-RNN models appeared to be the methods of choice for genomic studies. With the advance of machine learning algorithms other deep learning architectures started to outperform CNN and RNN in various applications. Thus, graph neural network (GNN) applications improved the prediction of drug effects, disease associations, protein-protein interactions, protein structures and their functions. The performance of GNN is yet to be fully explored in genomics. Earlier we developed DeepZ approach in which deep learning model is trained on information both from sequence and omics data. Initially this approach was implemented with CNN and RNN but is not limited to these classes of neural networks. In this study we implemented the DeepZ approach by substituting RNN with GNN. We tested three different GNN architectures – Graph Convolutional Network (GCN), Graph Attention Network (GAT) and inductive representation learning network GraphSAGE. The GNN models outperformed current state-of the art RNN model from initial DeepZ realization. Graph SAGE showed the best performance for the small training set of human Z-DNA ChIP-seq data while Graph Convolutional Network was superior for specific curaxin-induced mouse Z-DNA data that was recently reported. Our results show the potential of GNN applications for the task of predicting genomic functional elements based on DNA sequence and omics data.</jats:p>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    The code is freely available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/MrARVO/GraphZ\">https://github.com/MrARVO/GraphZ</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.08.23.504929",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2022-08-25T11:05:21Z",
+        "timestamp": 1661425521000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Graph Neural Networks for Z-DNA prediction in Genomes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Artem",
+          "family": "Voytetskiy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0093-1572",
+          "authenticated-orcid": false,
+          "given": "Alan",
+          "family": "Herbert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7198-8234",
+          "authenticated-orcid": false,
+          "given": "Maria",
+          "family": "Poptsova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "690049",
+          "DOI": "10.3389/fgene.2021.690049",
+          "article-title": "Graph Neural Networks and Their Current Applications in Bioinformatics",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Front Genet"
+        },
+        {
+          "issue": "Supplement_1",
+          "key": "2022082712150421000_2022.08.23.504929v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "i276",
+          "DOI": "10.1093/bioinformatics/btaa456",
+          "article-title": "Graph neural representational learning of RNA secondary structures for predicting RNA-protein interactions",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Guo , X. Luo , L. Chen , and M. Deng , “Dna-gcn: Graph convolutional networks for predicting dna-protein binding.” pp. 458–466.",
+          "DOI": "10.1007/978-3-030-84532-2_41"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "[ K. Zhang , C. Wang , L. Sun , and J. Zheng , “Prediction of Gene Coexpression from Chromatin Contacts with Graph Attention Network,” Bioinformatics, 2022.",
+          "DOI": "10.1093/bioinformatics/btac535"
+        },
+        {
+          "issue": "4",
+          "key": "2022082712150421000_2022.08.23.504929v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1037",
+          "DOI": "10.1093/bioinformatics/btab787",
+          "article-title": "GNN-based embedding for clustering scRNA-seq data",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2022082712150421000_2022.08.23.504929v1.6",
+          "first-page": "1",
+          "article-title": "scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "Supplement_1",
+          "key": "2022082712150421000_2022.08.23.504929v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "i262",
+          "DOI": "10.1093/bioinformatics/btab270",
+          "article-title": "DeepGraphGO: graph neural network for large-scale, multispecies protein function prediction",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa793"
+        },
+        {
+          "issue": "8",
+          "key": "2022082712150421000_2022.08.23.504929v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2178",
+          "DOI": "10.1093/bioinformatics/btac088",
+          "article-title": "Multi-level attention graph neural network based on co-expression gene modules for disease diagnosis and prognosis",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsos.200222"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2019.09.007"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1038/s42003-018-0237-x",
+          "article-title": "Z-DNA and Z-RNA in human disease",
+          "volume": "2",
+          "year": "2019",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.13",
+          "unstructured": "T. N. Kipf , and M. Welling , “Semi-supervised classification with graph convolutional networks,” arXiv preprint arXiv:1609.02907, 2016."
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Morris , M. Ritzert , M. Fey , W. L. Hamilton , J. E. Lenssen , G. Rattan , and M. Grohe , “Weisfeiler and leman go neural: Higher-order graph neural networks.” pp. 4602–4609.",
+          "DOI": "10.1609/aaai.v33i01.33014602"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.15",
+          "unstructured": "S. Brody , U. Alon , and E. Yahav , “How attentive are graph attention networks?,” arXiv preprint arXiv:2105.14491, 2021."
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.16",
+          "unstructured": "P. Veličković , G. Cucurull , A. Casanova , A. Romero , P. Lio , and Y. Bengio , “Graph attention networks,” arXiv preprint arXiv:1710.10903, 2017."
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.17",
+          "unstructured": "W. Hamilton , Z. Ying , and J. Leskovec , “Inductive representation learning on large graphs,” Advances in neural information processing systems, vol. 30, 2017."
+        },
+        {
+          "issue": "1",
+          "key": "2022082712150421000_2022.08.23.504929v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "19134",
+          "DOI": "10.1038/s41598-020-76203-1",
+          "article-title": "Deep learning approach for predicting functional Z-DNA regions using omics data",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/dnares/dsw031"
+        },
+        {
+          "key": "2022082712150421000_2022.08.23.504929v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Zhang , C. Yin , A. Fedorov , L. Qiao , H. Bao , N. Beknazarov , S. Wang , A. Gautam , R. M. Williams , and J. C. Crawford , “ADAR1 masks the cancer immunotherapeutic promise of ZBP1-driven necroptosis,” Nature, pp. 1–9, 2022.",
+          "DOI": "10.1038/s41586-022-04753-7"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.23.504929",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:31:37Z",
+        "timestamp": 1768447897000
+      },
+      "score": 91.33686,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.23.504929"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            25
+          ]
+        ]
+      },
+      "references-count": 20,
+      "URL": "https://doi.org/10.1101/2022.08.23.504929",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1109/BIBM55620.2022.9995451",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

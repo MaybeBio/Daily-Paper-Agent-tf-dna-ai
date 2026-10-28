@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract reports that anthraquinone-fused enediynes (AFEs) beyond dynemicin A, specifically tiancimycins and yangpumicins and semisynthetic analogues, show potent cytotoxicity against tumor cell lines, that 18-methoxy tiancimycin A suppresses breast tumor growth with minimal toxicity in vivo, that tiancimycin A preferentially targets specific DNA sequences, that molecular dynamics simulations indicate deeper intercalation into AT-rich DNA compared with dynemicin A, and that tiancimycin A may equilibrate between insertional and intercalative modes enabling selective cleavage of T and A bases.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, compound characterization data, cytotoxicity values, in vivo study details, DNA cleavage assay conditions, sequencing methodology, molecular dynamics simulation parameters and convergence criteria, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative study of DNA interaction and cleavage modes among anthraquinone-fused enediynes, with implications for antibody-drug conjugate payload design. However, the claims as stated cannot be adequately evaluated from the abstract alone. Several assertions, particularly regarding the proposed equilibration between insertional and intercalative binding modes and the selectivity of DNA cleavage, require substantial experimental and computational evidence that is not visible in the supplied material. The work may be of interest to medicinal chemists and chemical biologists working on DNA-targeting natural products, but the current evidence base is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Medicinal chemists and chemical biologists studying DNA-reactive natural products, enediyne antibiotics, and their mechanisms of action would be interested. Researchers developing antibody-drug conjugates with DNA-damaging payloads would also find the comparative structure-activity relationships and DNA sequence selectivity data relevant to payload design. Computational chemists studying DNA-ligand interactions may be interested in the molecular dynamics findings.
+- **Major strengths** The study addresses a gap in the field by moving beyond dynemicin A, which has been the sole prototypical AFE studied since 1989, to examine emerging AFEs. The combination of experimental DNA cleavage studies, cytotoxicity assays, in vivo efficacy data, and molecular dynamics simulations represents a multidisciplinary approach. The finding that subtle structural variations among AFEs influence DNA recognition and cleavage has potential design implications for future payload development.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that tiancimycin A "may equilibrate between insertional and intercalative modes without deintercalation, enabling selective cleavage of T and A bases."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of an equilibration between insertional and intercalative binding modes without deintercalation is mechanistically unusual and would require direct biophysical evidence, such as time-resolved fluorescence, stopped-flow kinetics, or single-molecule measurements, to support. The abstract does not indicate what experimental or computational data support this specific dynamic behavior. The connection between this proposed equilibration and the observed selective cleavage of T and A bases is also not explained mechanistically.
+  - **Why it matters** This is a central mechanistic claim that distinguishes the behavior of tiancimycin A from dynemicin A. If the claim is not well supported, the core novelty of the study is weakened. The proposed mode of action has implications for how these compounds are understood to interact with DNA and for future rational design of AFE payloads.
+  - **Resolution test** The full manuscript must provide direct experimental evidence for the proposed equilibration, such as kinetic binding assays, or clearly state that this is a hypothesis generated from molecular dynamics simulations rather than an experimentally validated mechanism. The connection between binding mode and base-selective cleavage must be explicitly demonstrated or discussed with supporting data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that molecular dynamics simulations "suggest that emerging AFEs intercalate deeper into AT-rich DNA base pairs compared to dynemicin A."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is provided about the simulation methodology, force fields, simulation timescales, system setup, or convergence criteria. Without these details, the reliability of the comparative conclusion cannot be assessed. The abstract also does not indicate how many independent simulations were performed or whether the observed differences are statistically significant.
+  - **Why it matters** The comparative intercalation depth is presented as a key finding that explains differences in DNA recognition and cleavage. If the simulations are not adequately validated or if the differences are within simulation error, the conclusion may not be robust.
+  - **Resolution test** The full manuscript must provide complete simulation parameters, validation of the simulation protocol, statistical analysis of the intercalation depth differences, and ideally experimental corroboration such as DNA unwinding assays or fluorescence intercalator displacement experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "18-methoxy tiancimycin A treatment could significantly suppress breast tumor growth with minimal toxicity."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are provided regarding the in vivo model, dosing regimen, route of administration, sample sizes, statistical methods, or the specific metrics of tumor growth suppression and toxicity assessment. The term "minimal toxicity" is undefined without specific toxicity endpoints or comparative data.
+  - **Why it matters** In vivo efficacy and toxicity are critical for the translational relevance of the study, particularly for the stated goal of developing AFEs as antibody-drug conjugate payloads. Without adequate experimental detail, the strength of this claim cannot be evaluated.
+  - **Resolution test** The full manuscript must provide complete in vivo experimental details, including animal model, dosing schedule, tumor growth curves, body weight changes, organ toxicity assessments, and appropriate statistical analyses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** DNA sequence preference claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that tiancimycin A "preferentially targets DNA sequences 5'-ATT, 5'-CTT, 5'-GAA, 5'-GAT, and 5'-TTA." It is unclear whether these are the sequences cleaved, bound, or both, and whether the preference is quantitative or qualitative.
+  - **Required correction** Clarify whether these sequences are cleavage sites or binding sites, and provide quantitative measures of preference such as relative cleavage efficiencies or binding affinities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "insertional" versus "intercalative"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract distinguishes between "insertional" and "intercalative" modes but does not define these terms. In the DNA binding literature, these terms can have specific meanings that may not be universally understood.
+  - **Required correction** Define both terms in the manuscript and clarify the structural distinction being made, ideally with reference to established nomenclature or with schematic representations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cytotoxicity claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that the compounds show "potent cytotoxicity against various tumor cell lines" but provides no numerical values, cell line identities, or comparison to standard agents.
+  - **Required correction** Provide representative IC50 values, cell line names, and appropriate comparators in the abstract or ensure these are clearly presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 must be resolved with appropriate experimental and computational evidence. The mechanistic claim of equilibration between binding modes, the simulation-based comparative conclusion, and the in vivo efficacy claim are all central to the paper's significance and cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The study appears original in expanding the AFE family beyond dynemicin A and in proposing distinct DNA interaction modes. Scientific importance: The findings could be important for understanding structure-activity relationships in AFEs and for payload design, but the significance depends on the robustness of the mechanistic claims. Interdisciplinary readership: The topic bridges natural product chemistry, medicinal chemistry, chemical biology, and computational chemistry, which could attract a broad readership. Technical soundness: Cannot be assessed from the abstract; the simulation methodology and experimental validation are not visible. Readability for nonspecialists: The abstract is reasonably accessible but uses specialized terminology without definition, and the mechanistic claims would benefit from clearer contextualization.
+
+## Risk / unsupported claims
+- The claim that tiancimycin A equilibrates between insertional and intercalative modes without deintercalation is unsupported by the abstract evidence and is mechanistically unusual.
+- The claim that molecular dynamics simulations show deeper intercalation into AT-rich DNA is unverifiable without simulation details.
+- The in vivo claim of significant breast tumor suppression with minimal toxicity is unverifiable without experimental details.
+- The DNA sequence preference list is presented without quantitative support or methodological context.
+- The statement that structural variations "significantly influence" DNA recognition and cleavage is a general conclusion that cannot be evaluated without comparative data.

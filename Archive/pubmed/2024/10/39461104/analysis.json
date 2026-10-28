@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39461104",
+  "title": "Screening of BindingDB database ligands against EGFR, HER2, Estrogen, Progesterone and NF-kappaB receptors based on machine learning and molecular docking.",
+  "authors": "Rezaee, Parham; Rezaee, Shahab; Maaza, Malik; Arab, Seyed Shahriar",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2024-10-27",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用机器学习与分子对接筛选BindingDB中针对EGFR、HER2、ER、PR和NF-kappaB受体的配体，虽涉及NF-kappaB（转录因子）的配体对接，但核心是药物筛选而非TF-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Breast cancer, the second most prevalent cancer among women worldwide, necessitates the exploration of novel therapeutic approaches. To target the four subgroups of breast cancer \"hormone receptor-positive and HER2-negative, hormone receptor-positive and HER2-positive, hormone receptor-negative and HER2-positive, and hormone receptor-negative and HER2-negative\" it is crucial to inhibit specific targets such as EGFR, HER2, ER, NF-kappaB, and PR. In this study, we evaluated various methods for binary and multiclass classification. Among them, the GA-SVM-SVM:GA-SVM-SVM model was selected with an accuracy of 0.74, an F1-score of 0.73, and an AUC of 0.92 for virtual screening of ligands from the BindingDB database. This model successfully identified 4454, 803, 438, and 378 ligands with over 90% precision in both active/inactive and target prediction for the classes of EGFR+HER2, ER, NF-kappaB, and PR, respectively, from the BindingDB database. Based on to the selected ligands, we created a dendrogram that categorizes different ligands based on their targets. This dendrogram aims to facilitate the exploration of chemical space for various therapeutic targets. Ligands that surpassed a 90% threshold in the product of activity probability and correct target selection probability were chosen for further investigation using molecular docking. The binding energy range for these ligands against their respective targets was calculated to be between -15 and -5 kcal/mol. Finally, based on general and common rules in medicinal chemistry, we selected 2, 3, 3, and 8 new ligands with high priority for further studies in the EGFR+HER2, ER, NF-kappaB, and PR classes, respectively.",
+  "abstract_zh": "乳腺癌是全球女性中第二常见的癌症，因此有必要探索新的治疗方法。为了针对乳腺癌的四个亚组——“激素受体阳性且HER2阴性、激素受体阳性且HER2阳性、激素受体阴性且HER2阳性、以及激素受体阴性且HER2阴性”——抑制EGFR、HER2、ER、NF-kappaB和PR等特定靶点至关重要。在本研究中，我们评估了用于二分类和多分类的各种方法。其中，选择了GA-SVM-SVM:GA-SVM-SVM模型，其准确率为0.74，F1分数为0.73，AUC为0.92，用于从BindingDB数据库中进行配体的虚拟筛选。该模型成功地从BindingDB数据库中识别出4454、803、438和378个配体，在EGFR+HER2、ER、NF-kappaB和PR类别的活性/非活性和靶点预测中，精确度均超过90%。基于所选配体，我们构建了一个树状图，根据其靶点对不同配体进行分类。该树状图旨在促进对各种治疗靶点化学空间的探索。对于活性概率与正确靶点选择概率乘积超过90%阈值的配体，我们选择其进行进一步的分子对接研究。这些配体针对其各自靶点的结合能范围计算为-15至-5 kcal/mol。最后，根据药物化学中的一般和常见规则，我们分别从EGFR+HER2、ER、NF-kappaB和PR类别中选出了2、3、3和8个高优先级的新配体，以供进一步研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39461104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39461104/",
+  "paper_page_path": "papers/pubmed/39461104/index.html"
+}

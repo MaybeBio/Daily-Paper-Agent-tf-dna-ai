@@ -1,0 +1,484 @@
+{
+  "identity": {
+    "pmid": "39933514",
+    "doi": "10.1016/j.cmet.2025.01.002",
+    "title": "Lactate controls cancer stemness and plasticity through epigenetic regulation."
+  },
+  "content": {
+    "abstract": "Tumors arise from uncontrolled cell proliferation driven by mutations in genes that regulate stem cell renewal and differentiation. Intestinal tumors, however, retain some hierarchical organization, maintaining both cancer stem cells (CSCs) and cancer differentiated cells (CDCs). This heterogeneity, coupled with cellular plasticity enabling CDCs to revert to CSCs, contributes to therapy resistance and relapse. Using genetically encoded fluorescent reporters in human tumor organoids, combined with our machine-learning-based cell tracker, CellPhenTracker, we simultaneously traced cell-type specification, metabolic changes, and reconstructed cell lineage trajectories during tumor organoid development. Our findings reveal distinctive metabolic phenotypes in CSCs and CDCs. We find that lactate regulates tumor dynamics, suppressing CSC differentiation and inducing dedifferentiation into a proliferative CSC state. Mechanistically, lactate increases histone acetylation, epigenetically activating MYC. Given that lactate's regulation of MYC depends on the bromodomain-containing protein 4 (BRD4), targeting cancer metabolism and BRD4 inhibitors emerge as a promising strategy to prevent tumor relapse.",
+    "keywords": [
+      "cancer metabolism",
+      "cell plasticity",
+      "cell types",
+      "cell-cell interactions",
+      "differentiation",
+      "heterogeneity",
+      "live imaging",
+      "organoids",
+      "single-cell tracking",
+      "stem cells"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplastic Stem Cells/metabolism/pathology/drug effects",
+      "*Epigenesis, Genetic/drug effects",
+      "*Lactic Acid/metabolism/pharmacology",
+      "*Cell Plasticity/drug effects",
+      "Transcription Factors/metabolism",
+      "Animals",
+      "Cell Differentiation/drug effects",
+      "Cell Proliferation",
+      "Mice",
+      "Cell Line, Tumor",
+      "Organoids/metabolism",
+      "Cell Cycle Proteins/metabolism",
+      "Proto-Oncogene Proteins c-myc/metabolism",
+      "Histones/metabolism",
+      "Acetylation",
+      "Gene Expression Regulation, Neoplastic",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Nguyen T B",
+        "Gevers, Sira",
+        "Kok, Rutger N U",
+        "Burgering, Lotte M",
+        "Neikes, Hannah",
+        "Akkerman, Ninouk",
+        "Betjes, Max A",
+        "Ludikhuize, Marlies C",
+        "Gulersonmez, Can",
+        "Stigter, Edwin C A",
+        "Vercoulen, Yvonne",
+        "Drost, Jarno",
+        "Clevers, Hans",
+        "Vermeulen, Michiel",
+        "van Zon, Jeroen S",
+        "Tans, Sander J",
+        "Burgering, Boudewijn M T",
+        "Rodriguez Colman, Maria J"
+      ],
+      "short_names": [
+        "Nguyen NTB",
+        "Gevers S",
+        "Kok RNU",
+        "Burgering LM",
+        "Neikes H",
+        "Akkerman N",
+        "Betjes MA",
+        "Ludikhuize MC",
+        "Gulersonmez C",
+        "Stigter ECA",
+        "Vercoulen Y",
+        "Drost J",
+        "Clevers H",
+        "Vermeulen M",
+        "van Zon JS",
+        "Tans SJ",
+        "Burgering BMT",
+        "Rodriguez Colman MJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Oncode Institute, Radboud University Nijmegen, Nijmegen 6525 GA, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, University Medical Center Utrecht, Utrecht, the Netherlands.",
+        "AMOLF, Amsterdam, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands.",
+        "Oncode Institute, Utrecht, the Netherlands; Princess Maxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS Utrecht, the Netherlands.",
+        "Oncode Institute, Utrecht, the Netherlands; Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, University Medical Center Utrecht, Utrecht, the Netherlands.",
+        "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Oncode Institute, Radboud University Nijmegen, Nijmegen 6525 GA, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "AMOLF, Amsterdam, the Netherlands.",
+        "AMOLF, Amsterdam, the Netherlands; Bionanoscience Department, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+        "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands. Electronic address: m.j.rodriguezcolman@umcutrecht.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Nguyen T B",
+        "short_name": "Nguyen NTB",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gevers, Sira",
+        "short_name": "Gevers S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kok, Rutger N U",
+        "short_name": "Kok RNU",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Burgering, Lotte M",
+        "short_name": "Burgering LM",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Neikes, Hannah",
+        "short_name": "Neikes H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Oncode Institute, Radboud University Nijmegen, Nijmegen 6525 GA, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Akkerman, Ninouk",
+        "short_name": "Akkerman N",
+        "identifiers": [],
+        "affiliations": [
+          "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, University Medical Center Utrecht, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Betjes, Max A",
+        "short_name": "Betjes MA",
+        "identifiers": [],
+        "affiliations": [
+          "AMOLF, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ludikhuize, Marlies C",
+        "short_name": "Ludikhuize MC",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gulersonmez, Can",
+        "short_name": "Gulersonmez C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Stigter, Edwin C A",
+        "short_name": "Stigter ECA",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vercoulen, Yvonne",
+        "short_name": "Vercoulen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Drost, Jarno",
+        "short_name": "Drost J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, the Netherlands; Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Clevers, Hans",
+        "short_name": "Clevers H",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute, Utrecht, the Netherlands; Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, University Medical Center Utrecht, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vermeulen, Michiel",
+        "short_name": "Vermeulen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Oncode Institute, Radboud University Nijmegen, Nijmegen 6525 GA, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Zon, Jeroen S",
+        "short_name": "van Zon JS",
+        "identifiers": [],
+        "affiliations": [
+          "AMOLF, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Tans, Sander J",
+        "short_name": "Tans SJ",
+        "identifiers": [],
+        "affiliations": [
+          "AMOLF, Amsterdam, the Netherlands; Bionanoscience Department, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Burgering, Boudewijn M T",
+        "short_name": "Burgering BMT",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Rodríguez Colman, Maria J",
+        "short_name": "Rodríguez Colman MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands. Electronic address: m.j.rodriguezcolman@umcutrecht.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell metabolism"
+    ],
+    "journal_abbrev": [
+      "Cell Metab"
+    ],
+    "pub_date": "2025 Apr 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/12 00:20",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42744928",
+      "42733575",
+      "42729156",
+      "42719375",
+      "42698684",
+      "42676836",
+      "42653395",
+      "42639267",
+      "42630750",
+      "42586960",
+      "42543381",
+      "42524459",
+      "42517066",
+      "42502169",
+      "42493680",
+      "42489278",
+      "42426902",
+      "42353599",
+      "42352877",
+      "42346134",
+      "42307116",
+      "42271492",
+      "42217082",
+      "42207429",
+      "42205693",
+      "42178559",
+      "42161914",
+      "42150423",
+      "42131111",
+      "42102033",
+      "42073588",
+      "42069875",
+      "42069574",
+      "42043678",
+      "42021123",
+      "41975495",
+      "41971440",
+      "41935089",
+      "41915085",
+      "41872850",
+      "41853312",
+      "41800459",
+      "41797924",
+      "41781700",
+      "41721736",
+      "41683938",
+      "41680147",
+      "41617670",
+      "41616089",
+      "41597284",
+      "41595736",
+      "41593671",
+      "41547734",
+      "41524196",
+      "41488666",
+      "41486457",
+      "41483442",
+      "41473784",
+      "41415713",
+      "41226787",
+      "41174727",
+      "41152975",
+      "41098732",
+      "40928645",
+      "40867622",
+      "40792115",
+      "40660238",
+      "40647428",
+      "40634292",
+      "40568577",
+      "40333742",
+      "40242505"
+    ],
+    "refs": [],
+    "similar": [
+      "39933514",
+      "32898601",
+      "31209810",
+      "40124272",
+      "39358564",
+      "24796395",
+      "34803511",
+      "21814200",
+      "28681984",
+      "28699179",
+      "28645561",
+      "31266772",
+      "30053872",
+      "30539410",
+      "32781084",
+      "34172737",
+      "39851500",
+      "37924094",
+      "28355176",
+      "31758153",
+      "32175692",
+      "39547513",
+      "31100681",
+      "24040121",
+      "38669046",
+      "30138944",
+      "32482868",
+      "25717234",
+      "34697072",
+      "31130467",
+      "26847871",
+      "31375747",
+      "21042723",
+      "35269569",
+      "31265875",
+      "27935867",
+      "21909380",
+      "37798926",
+      "39702340",
+      "28549889",
+      "22120039",
+      "33925297",
+      "32754274",
+      "23129625",
+      "33850013",
+      "36674511",
+      "34934057",
+      "30273655",
+      "38413370",
+      "31311807",
+      "33349639",
+      "31447265",
+      "34335968",
+      "31888761",
+      "36357906",
+      "31075731",
+      "39849410",
+      "29208670",
+      "38604343",
+      "33594072",
+      "23974095",
+      "24445267",
+      "25941994",
+      "30272279",
+      "31083525",
+      "25888913",
+      "27998397",
+      "23318426",
+      "32499570",
+      "28925404",
+      "17938259",
+      "34480963",
+      "30242092",
+      "31317205",
+      "38640783",
+      "40118288",
+      "21618577",
+      "39349745",
+      "30650356",
+      "34059134",
+      "38012687",
+      "39978571",
+      "29523784",
+      "26367796",
+      "30742065",
+      "31504995",
+      "32954665",
+      "24373920",
+      "28440295",
+      "23029396",
+      "26843124",
+      "37739089",
+      "34791636",
+      "32340156",
+      "22367735",
+      "39180549",
+      "30403769",
+      "25228591",
+      "25151964",
+      "28092415"
+    ],
+    "review": [
+      "39933514",
+      "30053872",
+      "39547513",
+      "32754274",
+      "36674511",
+      "30273655",
+      "38413370",
+      "31075731",
+      "31083525",
+      "27998397",
+      "34480963"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1550-4131(25)00002-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39933514",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

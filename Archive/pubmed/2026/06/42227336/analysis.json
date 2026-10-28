@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42227336",
+  "title": "MDNA : a software module for DNA structure generation and analysis.",
+  "authors": "van Heesch, Thor; Skoruppa, Enrico; Bolhuis, Peter G; Schiessel, Helmut; Vreede, Jocelyne",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-06-02",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍MDNA工具包，用于生成和分析复杂DNA结构（含修饰与几何分析），虽非直接研究TF-DNA互作，但为蛋白-DNA复合物建模提供结构生成与分析方法，可迁移至TF-DNA体系。",
+  "abstract": "Exploring the dynamical and structural properties of molecular complexes involving DNA is a fundamentally important aspect of understanding many biological processes. Although tools exist for modeling linear DNA and simple complexes, significant challenges remain in generating intricate biomolecular assemblies and incorporating biologically relevant modifications. These limitations restrict the ability to create accurate starting configurations for advanced molecular simulation studies. Here, we introduce MDNA, a molecular modeling toolkit that bridges these gaps by enabling the construction and analysis of complex DNA structures. MDNA provides a versatile solution to generate DNA shapes using a spline-based mapping technique that enables the construction of DNA configurations with arbitrary shapes. Key features include support for (non-)canonical base modifications, such as Watson-Crick-Franklin to Hoogsteen transitions, DNA methylation, and the ability to refine structures using Monte Carlo minimization. The toolkit also provides geometric analysis tools based on rigid body formalism to evaluate DNA structures and trajectories. Together, these features enable users to model and analyze DNA configurations in high detail with a modular Python interface. By integrating structure generation and analysis into a single workflow, MDNA facilitates the study of DNA-protein interactions, supporting new insights into DNA dynamics and molecular simulations.",
+  "abstract_zh": "探索涉及DNA的分子复合物的动力学和结构性质，是理解许多生物过程的基本重要方面。尽管存在用于建模线性DNA和简单复合物的工具，但在生成复杂生物分子组装体以及整合生物学相关修饰方面仍面临重大挑战。这些局限性限制了为高级分子模拟研究创建准确起始构型的能力。在此，我们介绍MDNA，一个分子建模工具包，通过实现复杂DNA结构的构建与分析来弥合这些差距。MDNA提供了一种多功能解决方案，利用基于样条的映射技术生成DNA形状，从而能够构建任意形状的DNA构型。关键特性包括支持（非）经典碱基修饰，如Watson-Crick-Franklin到Hoogsteen转变、DNA甲基化，以及通过蒙特卡洛最小化精炼结构的能力。该工具包还提供基于刚体形式论的几何分析工具，用于评估DNA结构和轨迹。综合这些特性，用户能够通过模块化的Python接口以高细节度建模和分析DNA构型。通过将结构生成与分析整合到单一工作流程中，MDNA促进了DNA-蛋白质相互作用的研究，支持对DNA动力学和分子模拟的新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42227336/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42227336/",
+  "paper_page_path": "papers/pubmed/42227336/index.html"
+}

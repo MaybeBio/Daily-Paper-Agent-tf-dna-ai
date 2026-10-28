@@ -1,0 +1,338 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.19.545293",
+  "title": "Bimodular architecture of bacterial effector SAP05 drives ubiquitin-independent targeted protein degradation",
+  "doi": "10.1101/2023.06.19.545293",
+  "abstract": "In eukaryotes, targeted protein degradation (TPD) typically depends on a series of interactions among ubiquitin ligases that transfer ubiquitin molecules to substrates leading to degradation by the 26S proteasome. We previously discovered that the bacterial effector protein SAP05 mediates ubiquitin-independent TPD. SAP05 forms a ternary complex via interactions with the von Willebrand Factor Type A (vWA) domain of the proteasomal ubiquitin receptor Rpn10 and the Zinc-finger (ZnF) domains of the SQUAMOSA-PROMOTER BINDING PROTEIN-LIKE (SPL) and GATA BINDING FACTOR (GATA) transcription factors (TFs). This leads to direct TPD of the TFs by the 26S proteasome. Here, we report the crystal structures of the SAP05-vWA complex at 2.17 Å resolution and of the SAP05-ZnF(SPL5) complex at 2.20 Å resolution. Structural analyses revealed that SAP05 displays a unique bimodular architecture with two distinct non-overlapping surfaces, a ‘loop surface’ with three protruding loops that form electrostatic interactions with ZnF, and a ‘sheet surface’ featuring two β-sheets, loops and ⍺-helices that establish polar interactions with vWA. SAP05 binding to ZnF TFs involves single amino acids responsible for multiple contacts, while SAP05 binding to vWA is more stable due to the necessity of multiple mutations to break the interaction. In addition, positioning of the SAP05 complex on the 26S proteasome points to a mechanism of protein degradation. Collectively, our findings demonstrate how a small bacterial bimodular protein can bypass the canonical UPS cellular proteolysis pathway, enabling ubiquitin-independent TPD in eukaryotic cells. This knowledge holds significant potential for the creation of novel TPD technologies.",
+  "authors": [
+    "Liu Q",
+    "Maqbool A",
+    "Mirkin FG",
+    "Singh Y",
+    "Stevenson CEM",
+    "Lawson DM",
+    "Kamoun S",
+    "Huang W",
+    "Hogenhout SA"
+  ],
+  "published_date": "2023-06-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.19.545293",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.19.545293.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR678897",
+    "raw_record": {
+      "id": "PPR678897",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR678897"
+        ]
+      },
+      "doi": "10.1101/2023.06.19.545293",
+      "title": "Bimodular architecture of bacterial effector SAP05 drives ubiquitin-independent targeted protein degradation",
+      "authorString": "Liu Q, Maqbool A, Mirkin FG, Singh Y, Stevenson CEM, Lawson DM, Kamoun S, Huang W, Hogenhout SA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu Q",
+            "lastName": "Liu",
+            "firstName": "Qun",
+            "initials": "Q",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0548-203X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Crop Genetics, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maqbool A",
+            "lastName": "Maqbool",
+            "firstName": "Abbas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6189-5560"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Metabolism, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                },
+                {
+                  "affiliation": "The Sainsbury Laboratory, University of East Anglia, Norwich NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mirkin FG",
+            "lastName": "Mirkin",
+            "firstName": "Federico",
+            "initials": "FG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3323-2348"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Crop Genetics, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singh Y",
+            "lastName": "Singh",
+            "firstName": "Yeshveer",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3406-4531"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Crop Genetics, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stevenson CEM",
+            "lastName": "Stevenson",
+            "firstName": "Clare",
+            "initials": "CEM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6695-8201"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Metabolism, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lawson DM",
+            "lastName": "Lawson",
+            "firstName": "David",
+            "initials": "DM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7637-4303"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Metabolism, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamoun S",
+            "lastName": "Kamoun",
+            "firstName": "Sophien",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0290-0315"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, University of East Anglia, Norwich NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang W",
+            "lastName": "Huang",
+            "firstName": "Weijie",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5208-6713"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Plant Stress Biology, CAS Center for Excellence in Molecular Plant Sciences, Chinese Academy of Sciences, Shanghai, 20032, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hogenhout SA",
+            "lastName": "Hogenhout",
+            "firstName": "Saskia",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1371-5606"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Crop Genetics, John Innes Centre, Norwich Research Park, NR4 7UH, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5208-6713"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6695-8201"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0290-0315"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3323-2348"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6189-5560"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7637-4303"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0548-203X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1371-5606"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3406-4531"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-2898-1352"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "In eukaryotes, targeted protein degradation (TPD) typically depends on a series of interactions among ubiquitin ligases that transfer ubiquitin molecules to substrates leading to degradation by the 26S proteasome. We previously discovered that the bacterial effector protein SAP05 mediates ubiquitin-independent TPD. SAP05 forms a ternary complex via interactions with the von Willebrand Factor Type A (vWA) domain of the proteasomal ubiquitin receptor Rpn10 and the Zinc-finger (ZnF) domains of the SQUAMOSA-PROMOTER BINDING PROTEIN-LIKE (SPL) and GATA BINDING FACTOR (GATA) transcription factors (TFs). This leads to direct TPD of the TFs by the 26S proteasome. Here, we report the crystal structures of the SAP05-vWA complex at 2.17 Å resolution and of the SAP05-ZnF(SPL5) complex at 2.20 Å resolution. Structural analyses revealed that SAP05 displays a unique bimodular architecture with two distinct non-overlapping surfaces, a ‘loop surface’ with three protruding loops that form electrostatic interactions with ZnF, and a ‘sheet surface’ featuring two β-sheets, loops and ⍺-helices that establish polar interactions with vWA. SAP05 binding to ZnF TFs involves single amino acids responsible for multiple contacts, while SAP05 binding to vWA is more stable due to the necessity of multiple mutations to break the interaction. In addition, positioning of the SAP05 complex on the 26S proteasome points to a mechanism of protein degradation. Collectively, our findings demonstrate how a small bacterial bimodular protein can bypass the canonical UPS cellular proteolysis pathway, enabling ubiquitin-independent TPD in eukaryotic cells. This knowledge holds significant potential for the creation of novel TPD technologies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/19/2023.06.19.545293.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.19.545293"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR678897"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR678897&type=FILE&fileName=EMS177909-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38039272",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2023 Dec;120(49):e2310664120",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177909",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-06-22",
+      "firstPublicationDate": "2023-06-19",
+      "firstIndexDate": "2023-06-22",
+      "fullTextReceivedDate": "2023-08-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

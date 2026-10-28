@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and clarity of presentation. Not assessed: editorial formatting, grammar, or stylistic preferences beyond readability.
+- **Shared manuscript claim summary** The authors use LRET-derived distance restraints in HADDOCK docking to model three distinct conformations of the ATP-bound Mre11-Rad50 (MR) complex: closed, partially open, and open. They propose that these conformations exist in equilibrium, are populated across different nucleotide states and in the presence of DNA substrates, and that the open conformation is required for dsDNA cleavage while the partially open state supports endonuclease activity. SAXS data are used to corroborate the presence of multiple states.
+- **Visible evidence base** Full text, figures referenced (Figures 1–4 and supplements), tables (Table 1), supplementary files (Supplementary files 1 and 2), and methods sections.
+- **Missing materials affecting confidence** Raw LRET decay curves, detailed HADDOCK scoring statistics, SAXS data quality metrics (e.g., Guinier plots, Kratky plots), and explicit population assignment methodology. Supplementary files 1 and 2 were referenced but not provided in the submitted material.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sophisticated application of LRET combined with HADDOCK docking to address conformational heterogeneity in the Mre11-Rad50 complex. The experimental design is thoughtful, and the integration of multiple biophysical methods (LRET, SAXS, mutagenesis, activity assays) is commendable. However, several concerns regarding the interpretation of LRET data, the robustness of the HADDOCK models, and the functional conclusions drawn from the mutagenesis experiments need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA damage repair, structural biology of large protein complexes, and biophysics of conformational dynamics. The work is also relevant to those studying ABC ATPase family proteins and the application of FRET/LRET-based distance measurements to guide molecular docking.
+- **Major strengths** 1) The use of a network of LRET distance measurements across multiple probe positions is a rigorous approach to constrain docking. 2) The combination of LRET with HADDOCK and validation by SAXS provides orthogonal support for the models. 3) The functional mutagenesis experiments linking specific conformations to nuclease and ATPase activities add biological relevance. 4) The demonstration that the three conformations persist across nucleotide states and DNA binding conditions strengthens the claim of conformational heterogeneity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of LRET data interpretation
+  - **Claim pointer** The authors claim that "LRET measurements reveal three distinct sets of distances" and that these correspond to three distinct conformations.
+  - **Evidence pointer** Results section "LRET measurements reveal three distinct sets of distances"; Figure 1C–D; Supplementary file 1
+  - **Concern** The assignment of three discrete distances from multiexponential fits of LRET decay curves is not fully justified. The authors state that decays were "best described by two or three exponentials depending on the identity of the LRET pair," but no statistical criteria (e.g., F-test, AIC, BIC) are provided to support the choice of the number of exponentials. Furthermore, the physical interpretation of each exponential component as a distinct conformation requires that the interconversion between states is slow on the LRET timescale (milliseconds). The authors do not discuss whether the timescale of conformational exchange could lead to averaged distances or more complex decay kinetics. The possibility that the three distances arise from a continuous distribution of conformations rather than three discrete states is not addressed.
+  - **Why it matters** The central claim of the paper is the existence of three discrete conformations. If the data are equally consistent with a broader distribution of states or with two states plus a fitting artifact, the structural models and subsequent functional interpretations would be substantially weakened.
+  - **Resolution test** Provide statistical justification for the number of exponentials used in each fit (e.g., comparison of reduced chi-squared values, AIC/BIC). Include control experiments or simulations demonstrating that three discrete states are distinguishable from alternative models (e.g., two states with a broad distance distribution) given the signal-to-noise ratio of the data. Discuss the timescale of conformational exchange relative to the LRET measurement window.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of HADDOCK models
+  - **Claim pointer** The authors claim that the HADDOCK models "describe the conformational heterogeneity" and that the three models are distinct, valid structures.
+  - **Evidence pointer** Results section "HADDOCK models of three MRNBD conformations"; Figure 2; Supplementary file 2
+  - **Concern** The manuscript does not provide sufficient details on the quality of the HADDOCK models. No HADDOCK scores, cluster statistics, or measures of model reliability (e.g., restraint violation analysis, RMSD distributions within clusters) are presented. The statement that "HADDOCK returned 190 structures in five clusters, with 164 in the top-scored cluster" for the closed state is informative, but equivalent details for the partially open and open states are missing. Furthermore, the authors do not demonstrate that the three models are significantly different from each other beyond visual inspection. A quantitative comparison (e.g., pairwise RMSD between the three models) is not provided.
+  - **Why it matters** The structural models are the primary output of the docking procedure and are used to rationalize functional differences. Without clear evidence that the models are well-converged, distinct, and consistent with the input restraints, the structural interpretations are not fully supported.
+  - **Resolution test** Provide HADDOCK scores, cluster sizes, and restraint violation statistics for all three models. Include a quantitative comparison of the three models (e.g., pairwise RMSD matrices, distance difference maps). Show that the models are consistent with the input LRET restraints within the stated error bounds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional interpretation of mutagenesis data
+  - **Claim pointer** The authors state that "destabilizing specific conformations alters MR activity" and use this to assign functional roles to each conformation.
+  - **Evidence pointer** Results section "Destabilizing solution-state conformers alters MR activity"; Figure 3
+  - **Concern** The mutagenesis strategy is based on disrupting specific Mre11-Rad50 interactions observed in the HADDOCK models. However, the authors do not directly demonstrate that the mutations specifically destabilize the intended conformation without affecting others. For example, the D313K mutation is proposed to destabilize both closed and partially open states, but no biophysical data (e.g., LRET or SAXS) are shown for the mutant complexes to confirm that the conformational equilibrium has been shifted as predicted. The functional assays are informative, but the link between the observed activity changes and the specific conformational changes is inferred rather than demonstrated.
+  - **Why it matters** The functional conclusions rest on the assumption that the mutations have the predicted structural effects. Without direct evidence, alternative explanations (e.g., mutations affecting protein stability, DNA binding, or allosteric communication) cannot be excluded.
+  - **Resolution test** Perform LRET or SAXS experiments on the mutant complexes to confirm that the conformational populations are altered as predicted. Alternatively, provide additional biochemical evidence (e.g., DNA binding affinity, thermal stability) to rule out non-specific effects of the mutations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** SAXS validation
+  - **Claim pointer** The authors claim that "SAXS corroborates HADDOCK MRNBD models."
+  - **Evidence pointer** Results section "SAXS corroborates HADDOCK MRNBD models"; Figure 4
+  - **Concern** The SAXS analysis is presented briefly, and the fit quality is only reported as chi-squared values. The authors state that the ATP-bound experimental profile fits best to the partially open model (chi-squared = 0.34), but the open model does not fit well (chi-squared = 13.6). However, the multistate fits using MultiFoXS assign populations that are not fully consistent with the single-state fits. For example, the two-state fit to the ATP-bound data gives 19% open and 81% closed, with no contribution from the partially open state, despite the single-state fit favoring the partially open model. This apparent inconsistency is not discussed. Additionally, the authors note that the apo SAXS data fit to the open model is imperfect, suggesting an additional unobserved state, but this is not explored further.
+  - **Why it matters** The SAXS data are used as independent validation of the models. Inconsistencies between the single-state and multistate fits, and the acknowledged imperfection of the apo fit, weaken the strength of this validation.
+  - **Resolution test** Provide a more detailed analysis of the SAXS fits, including a discussion of the inconsistency between single-state and multistate results. Consider whether additional states or alternative models could better explain the SAXS data. Report the uncertainty in the population estimates from MultiFoXS.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** LRET data collection and analysis
+  - **Evidence pointer** Materials and methods section "LRET data collection and analysis"
+  - **Issue** The description of the fitting procedure for LRET decay curves is incomplete. The authors state that decays were fit to "two or three exponentials" but do not specify the fitting algorithm, the criteria for choosing the number of exponentials, or how the distances were calculated from the fitted lifetimes.
+  - **Required correction** Provide a more detailed description of the fitting procedure, including the software used, the model equations, and the statistical criteria for model selection.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of data
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 reports distances for various conditions but does not include the uncertainties or the number of replicates for each measurement.
+  - **Required correction** Add standard deviations or confidence intervals to the reported distances and specify the number of independent measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, final paragraph
+  - **Issue** The authors acknowledge that LRET cannot detect the extended conformation, but they do not discuss the potential impact of this limitation on the interpretation of the equilibrium between the three modeled states.
+  - **Required correction** Add a brief discussion of how the inability to observe the extended state might affect the proposed model of conformational equilibrium.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The figure labels for the three models (closed, partially open, open) are not clearly indicated in the main figure panel, making it difficult to distinguish between them at a glance.
+  - **Required correction** Add clear labels to each model in the figure and ensure the color scheme is consistent across panels.
+
+## Risk / unsupported claims
+- The claim that the three LRET-derived distances correspond to three discrete, interconverting conformations is not fully supported by the statistical analysis of the decay curves.
+- The functional assignment of specific conformations to specific activities (e.g., open for dsDNA cleavage, partially open for endonuclease) is inferred from mutagenesis without direct biophysical confirmation of the predicted conformational shifts.
+- The SAXS validation is weakened by inconsistencies between single-state and multistate fits, and the acknowledged imperfection of the apo data fit.
+- The statement that the partially open state is "stable" and "does not appear to be an intermediate" is based on the observation of this state in the presence of ATPγS, but the timescale of the LRET measurement (milliseconds) may not be sufficient to distinguish a stable state from a long-lived intermediate.
+- The claim that the three conformations exist "regardless of nucleotide state" is based on a subset of LRET pairs and may not be generalizable to all probe positions.

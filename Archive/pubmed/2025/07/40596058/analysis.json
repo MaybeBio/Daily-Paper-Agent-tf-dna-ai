@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40596058",
+  "title": "The value of MRI-based radiomics and clinicoradiological data for the detection of forkhead box protein A1 gene mutated prostate cancer.",
+  "authors": "Deng, Lin; Chen, Ruchuan; Zhou, Bingni; Hu, Guoqing; Gan, Hualei; Zhang, Ling; Zhou, Liangping; Liu, Kefu; Liu, Xiaohang",
+  "journal": "Scientific reports",
+  "published_date": "2025-07-02",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用MRI影像组学预测前列腺癌FOXA1基因突变，属于临床影像诊断应用，不涉及蛋白质-DNA互作、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "This study aimed to develop models for predicting forkhead box protein A1 (FOXA1) gene mutations in prostate cancer using clinicoradiological and MRI radiomics data. Totally 367 prostate cancer patients (109 with FOXA1 mutations and 258 without) from three centers underwent multiparametric MRI. Patients from Center 1 (n = 236) were randomly divided into training and internal validation sets (7:3). Patients from Centers 2 and 3 (n = 131) were used for external validation. The index tumor lesion's volume of interest was delineated on MRI images to obtain 428 radiomics features for each patient. Radiomics features were selected by least absolute shrinkage and selection operator regression. Clinicoradiological features were compared between mutant and wild-type patients for feature selection. Those selected features were further chosen by binary logistic regression (LR) analysis, and used to develop prediction models for FOXA1 mutations with LR, support vector machine (SVM), and random forest (RF) classifiers. Models' performances were assessed by area under the receiver operating characteristic curve (AUC). No clinicoradiological feature was associated with FOXA1 mutations, while three radiomics features were selected to build models. AUCs of RF model in internal and external validation sets (0.82 and 0.81) were significantly greater than LR (0.74 and 0.71) and SVM (0.60 and 0.65) models (all p < 0.05), while AUC of LR model was greater than SVM model in internal validation set (p = 0.03). Radiomics method with RF classifier could effectively predict FOXA1 mutations in prostate cancer.",
+  "abstract_zh": "本研究旨在利用临床放射学及MRI影像组学数据，建立预测前列腺癌中叉头框蛋白A1（FOXA1）基因突变的模型。共纳入来自三个中心的367例前列腺癌患者（109例有FOXA1突变，258例无突变），均接受多参数MRI检查。中心1的患者（n = 236）被随机分为训练集和内部验证集（7:3）。中心2和中心3的患者（n = 131）用于外部验证。在MRI图像上勾画指数肿瘤病灶的感兴趣体积，为每位患者提取428个影像组学特征。通过最小绝对收缩和选择算子回归筛选影像组学特征。比较突变型与野生型患者的临床放射学特征以进行特征选择。所选特征进一步通过二元逻辑回归（LR）分析筛选，并用于开发基于LR、支持向量机（SVM）和随机森林（RF）分类器的FOXA1突变预测模型。模型性能通过受试者工作特征曲线下面积（AUC）评估。未发现与FOXA1突变相关的临床放射学特征，而筛选出三个影像组学特征用于构建模型。RF模型在内部和外部验证集中的AUC（0.82和0.81）显著高于LR模型（0.74和0.71）及SVM模型（0.60和0.65）（所有p < 0.05），而LR模型在内部验证集中的AUC高于SVM模型（p = 0.03）。基于RF分类器的影像组学方法能有效预测前列腺癌中的FOXA1突变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40596058/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40596058/",
+  "paper_page_path": "papers/pubmed/40596058/index.html"
+}

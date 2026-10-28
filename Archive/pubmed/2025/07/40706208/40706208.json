@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "40706208",
+    "doi": "10.1016/j.intimp.2025.115261",
+    "title": "Unveiling the potential therapeutic role of nifuroxazide and liraglutide combination in mitigating LPS-induced acute lung injury through modulation of AT1R/JAK-2/STAT-3 by ACE2/ Ang1-7/MasR signaling in male albino rats: in vivo and in silico study."
+  },
+  "content": {
+    "abstract": "The current study investigated the possible therapeutic role of a combination of liraglutide and nifuroxazide in ameliorating the JAK2/STAT3/NFkB signaling pathway by augmenting the counter-regulatory ACE2/Ang1-7/MAS receptor axis of the renin angiotensin system (RAS). This therapeutic potential was further verified through molecular dynamic simulation studies. Seventy-five male Wistar albino rats were randomly allocated into 5 groups. The groups included normal control, LPS-induced ALI, ALI + NIF treated group, ALI + LIR-treated group, and ALI + LIR + NIF-treated group.The study revealed the promising therapeutic role of the liraglutide and nifuroxazide combination in significantly improving 7-day survival rates, ameliorating metabolic acidosis, and dampening the inflammatory response (IL-6, TNFalpha, iNOS, MPO, IL-1beta) in bronchoalveolar lavage fluid (BALF). This was supported by the effective alleviation of pulmonary leakage, as evidenced by a remarkable decrease in wet lung weight/body weight ratio and wet/dry lung ratio. Additionally, the combination restored the redox balance by enhancing levels of SOD, catalase, and GSH. The combination regimen also improved the inflammatory score in histopathological examination, increased Nrf2 expression, and reduced iNOS immunoreactivity. These effects were attributed to the downregulation of total and phosphorylated protein expression of JAK2/STAT3/NFbetaB, and the upregulation of mRNA expression of ACE2 receptor, MAS receptors, and pulmonary lung surfactant B. Our study, which combined molecular dynamic simulation and experimental validation, provides a comprehensive perspective on managing septic acute lung injury, positioning the liraglutide and nifuroxazide combination regimen as a promising candidate for the management of septic acute lung injury (S-ALI).",
+    "keywords": [
+      "Acute lung injury",
+      "JAK2",
+      "Lipopolysaccharide",
+      "Liraglutide",
+      "Nifuroxazide",
+      "STAT3"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "*Acute Lung Injury/drug therapy/chemically induced/pathology",
+      "Rats, Wistar",
+      "STAT3 Transcription Factor/metabolism",
+      "Lipopolysaccharides",
+      "Angiotensin-Converting Enzyme 2/metabolism",
+      "Signal Transduction/drug effects",
+      "Janus Kinase 2/metabolism",
+      "Rats",
+      "*Nitrofurans/therapeutic use/pharmacology",
+      "Proto-Oncogene Proteins/metabolism",
+      "Receptor, Angiotensin, Type 1/metabolism",
+      "Proto-Oncogene Mas",
+      "Peptide Fragments/metabolism",
+      "Angiotensin I/metabolism",
+      "Receptors, G-Protein-Coupled/metabolism",
+      "Lung/drug effects/pathology",
+      "Drug Therapy, Combination",
+      "Anti-Inflammatory Agents/therapeutic use/pharmacology",
+      "Hydroxybenzoates"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khalifa, Amira Karam",
+        "Osman, Walla''a A",
+        "Eesa, Ahmed Naeem",
+        "Ramadan, Nagwa Mahmoud",
+        "Abdelkader, Abeer",
+        "Abdallah, Sara Sayed Kadry",
+        "Aboulhoda, Basma Emad",
+        "Al-Shahed, Fatma Al-Zahraa Nabil",
+        "Alghamdi, Mansour A",
+        "Elrashedy, Ahmed A",
+        "Elshaer, Mohamed Mahmoud Abdelrahim",
+        "Saber, Sameh",
+        "Mahmoud, Alaa Karam",
+        "Ashraf, Taha",
+        "Matter, Lamiaa Mohammed"
+      ],
+      "short_names": [
+        "Khalifa AK",
+        "Osman WA",
+        "Eesa AN",
+        "Ramadan NM",
+        "Abdelkader A",
+        "Abdallah SSK",
+        "Aboulhoda BE",
+        "Al-Shahed FAN",
+        "Alghamdi MA",
+        "Elrashedy AA",
+        "Elshaer MMA",
+        "Saber S",
+        "Mahmoud AK",
+        "Ashraf T",
+        "Matter LM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Pharmacology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt; Department of Medical Pharmacology, Faculty of Medicine, Nahda University, Beni Suef 62521, Egypt. Electronic address: amirakaramkhalifa@cu.edu.eg.",
+        "Department of Medical Pharmacology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: Wala2osman@cu.edu.eg.",
+        "Department of Pathology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: ahmed.naeem@kasralainy.edu.eg.",
+        "Department of Physiology(,) Faculty of Medicine, Cairo University, El Manial, Cairo 11562, Egypt. Electronic address: nagwa.m.abdullah@kasralainy.edu.eg.",
+        "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, El- Manial, Cairo, Egypt; Department Basic Medical Science, Faculty of Medicine, King Salman International University, South Sinai, Egypt. Electronic address: abeer.abdelkader@kasralainy.edu.eg.",
+        "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, El- Manial, Cairo, Egypt. Electronic address: sara_kadry@kasralainy.edu.eg.",
+        "Department of Medical Anatomy and Embryology, Faculty of Medicine, Cairo University, El- Manial, Cairo, Egypt. Electronic address: basma.emad@kasralainy.edu.eg.",
+        "Department of Histology and Cell Biology, Faculty of Medicine, Al-Azhar University, Cairo, Egypt. Electronic address: fatmanabil.medg@azhar.edu.eg.",
+        "College of Medicine, King Khalid University, Abha 62529, Saudi Arabia; Genomics and Personalized Medicine Unit, The Center for Medical and Health Research, King Khalid University, Abha 62529, Saudi Arabia. Electronic address: m.alghamdi@kku.edu.sa.",
+        "Department of Pharmaceutical and Drug Industries Research Institute, National Research Center, Dokki, Cairo, Egypt; Department Organic and Medicinal Chemistry, Faculty of Pharmacy, University of Sadat City, Menoufia 32897, Egypt. Electronic address: aa.elrashedy@nrc.sci.eg.",
+        "Department of Clinical Pharmacology, Faculty of Medicine, Ain Shams University, Cairo 11591, Egypt. Electronic address: Mohamed_elshaer@med.asu.edu.eg.",
+        "Department of Pharmacology, Faculty of Pharmacy, Delta University for Science and Technology, Gamasa, 11152, Egypt. Electronic address: sameh.saber@deltauniv.edu.eg.",
+        "Medical Intern, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: alaa-k-ali@students.kasralainy.edu.eg.",
+        "Medical student, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: taha_as_abdelhamid@students.kasralainy.edu.eg.",
+        "Department of Medical Pharmacology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: Lamia.Mattar@kasralainy.edu.eg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khalifa, Amira Karam",
+        "short_name": "Khalifa AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Pharmacology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt; Department of Medical Pharmacology, Faculty of Medicine, Nahda University, Beni Suef 62521, Egypt. Electronic address: amirakaramkhalifa@cu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Osman, Walla''a A",
+        "short_name": "Osman WA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Pharmacology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: Wala2osman@cu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Eesa, Ahmed Naeem",
+        "short_name": "Eesa AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: ahmed.naeem@kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Ramadan, Nagwa Mahmoud",
+        "short_name": "Ramadan NM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology(,) Faculty of Medicine, Cairo University, El Manial, Cairo 11562, Egypt. Electronic address: nagwa.m.abdullah@kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Abdelkader, Abeer",
+        "short_name": "Abdelkader A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, El- Manial, Cairo, Egypt; Department Basic Medical Science, Faculty of Medicine, King Salman International University, South Sinai, Egypt. Electronic address: abeer.abdelkader@kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Abdallah, Sara Sayed Kadry",
+        "short_name": "Abdallah SSK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Molecular Biology, Faculty of Medicine, Cairo University, El- Manial, Cairo, Egypt. Electronic address: sara_kadry@kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Aboulhoda, Basma Emad",
+        "short_name": "Aboulhoda BE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Anatomy and Embryology, Faculty of Medicine, Cairo University, El- Manial, Cairo, Egypt. Electronic address: basma.emad@kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Al-Shahed, Fatma Al-Zahraa Nabil",
+        "short_name": "Al-Shahed FAN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Cell Biology, Faculty of Medicine, Al-Azhar University, Cairo, Egypt. Electronic address: fatmanabil.medg@azhar.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Alghamdi, Mansour A",
+        "short_name": "Alghamdi MA",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medicine, King Khalid University, Abha 62529, Saudi Arabia; Genomics and Personalized Medicine Unit, The Center for Medical and Health Research, King Khalid University, Abha 62529, Saudi Arabia. Electronic address: m.alghamdi@kku.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Elrashedy, Ahmed A",
+        "short_name": "Elrashedy AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Drug Industries Research Institute, National Research Center, Dokki, Cairo, Egypt; Department Organic and Medicinal Chemistry, Faculty of Pharmacy, University of Sadat City, Menoufia 32897, Egypt. Electronic address: aa.elrashedy@nrc.sci.eg."
+        ]
+      },
+      {
+        "full_name": "Elshaer, Mohamed Mahmoud Abdelrahim",
+        "short_name": "Elshaer MMA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Faculty of Medicine, Ain Shams University, Cairo 11591, Egypt. Electronic address: Mohamed_elshaer@med.asu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Saber, Sameh",
+        "short_name": "Saber S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Faculty of Pharmacy, Delta University for Science and Technology, Gamasa, 11152, Egypt. Electronic address: sameh.saber@deltauniv.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Mahmoud, Alaa Karam",
+        "short_name": "Mahmoud AK",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Intern, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: alaa-k-ali@students.kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Ashraf, Taha",
+        "short_name": "Ashraf T",
+        "identifiers": [],
+        "affiliations": [
+          "Medical student, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: taha_as_abdelhamid@students.kasralainy.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Matter, Lamiaa Mohammed",
+        "short_name": "Matter LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Pharmacology, Faculty of Medicine, Cairo University, El- Manial, Cairo 11562, Egypt. Electronic address: Lamia.Mattar@kasralainy.edu.eg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Oct 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/25 00:28",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "41909672"
+    ],
+    "refs": [],
+    "similar": [
+      "40706208",
+      "29990483",
+      "39756207",
+      "23321685",
+      "29691582",
+      "39754679",
+      "36036101",
+      "31102910",
+      "40795499",
+      "32866470",
+      "29291386",
+      "40968089",
+      "34590152",
+      "27302421",
+      "36251234",
+      "40397040",
+      "38973500",
+      "38762924",
+      "39922147",
+      "38972239",
+      "32504751",
+      "32130427",
+      "25644821",
+      "41339688",
+      "34833950",
+      "32184813",
+      "24168260",
+      "40998926",
+      "29969931",
+      "40116872",
+      "38692075",
+      "39541844",
+      "39476563",
+      "39400781",
+      "31720995",
+      "38240986",
+      "39807748",
+      "31805278",
+      "34427852",
+      "40485414",
+      "31278346",
+      "30015919",
+      "25861954",
+      "40022765",
+      "26800098",
+      "37052973",
+      "24916807",
+      "37930390",
+      "32091104",
+      "32526270",
+      "35220029",
+      "37864659",
+      "40946659",
+      "23747643",
+      "38588989",
+      "33641076",
+      "40306137",
+      "27638904",
+      "40850661",
+      "29516284",
+      "32584474",
+      "38664244",
+      "38613798",
+      "29428223",
+      "24429674",
+      "37994949",
+      "35363333",
+      "37957855",
+      "36988243",
+      "40344459",
+      "31203114",
+      "25194138",
+      "41006814",
+      "20805679",
+      "40865655",
+      "34426780",
+      "39306309",
+      "31545263",
+      "25399896",
+      "40659556",
+      "34284014",
+      "40147558",
+      "26363199",
+      "38319388",
+      "28442323",
+      "29702279",
+      "31466050",
+      "26884836",
+      "17496209",
+      "38504536",
+      "39701802",
+      "33339432",
+      "25909419",
+      "39721450",
+      "33600861",
+      "27010897",
+      "32321734",
+      "31520990",
+      "31442676",
+      "30584668"
+    ],
+    "review": [
+      "40706208",
+      "32584474",
+      "40344459"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)01251-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40706208.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

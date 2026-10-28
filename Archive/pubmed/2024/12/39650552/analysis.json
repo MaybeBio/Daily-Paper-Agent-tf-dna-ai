@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39650552",
+  "title": "Identification and validation of apoptosis-related genes in acute myocardial infarction based on integrated bioinformatics methods.",
+  "authors": "Zhu, Haoyan; Li, Mengyao; Wu, Jiahe; Yan, Liqiu; Xiong, Wei; Hu, Xiaorong; Lu, Zhibing; Li, Chenze; Cai, Huanhuan",
+  "journal": "PeerJ",
+  "published_date": "2024-12-09",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于生物信息学与机器学习筛选急性心梗凋亡相关基因，虽涉及转录因子预测但非蛋白质-DNA互作建模核心，方法为常规机器学习且无三维互作机制研究，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Acute myocardial infarction (AMI) is one of the most serious cardiovascular diseases. Apoptosis is a type of programmed cell death that causes DNA degradation and chromatin condensation. The role of apoptosis in AMI progression remains unclear. METHODS: Three AMI-related microarray datasets (GSE48060, GSE66360 and GSE97320) were obtained from the Gene Expression Omnibus database and combined for further analysis. Differential expression analysis and enrichment analysis were performed on the combined dataset to identify differentially expressed genes (DEGs). Apoptosis-related genes (ARGs) were screened through the intersection of genes associated with apoptosis in previous studies and DEGs. The expression pattern of ARGs was studied on the basis of their raw expression data. Three machine learning algorithms, Least Absolute Shrinkage and Selection Operator (LASSO), support vector machine-recursive feature elimination (SVM-RFE), and Random Forest (RF) were utilized to screen crucial genes in these ARGs. Immune infiltration was estimated by single sample gene set enrichment analysis (ssGSEA). Corresponding online databases were used to predict miRNAs, transcription factors (TFs) and therapeutic agents of crucial genes. A nomogram clinical prediction model of the crucial genes was constructed and evaluated. The Mendelian randomization analysis was employed to investigate whether there is a causal relationship between apoptosis and AMI. Finally, an AMI mouse model was established, and apoptosis in the hearts of AMI mice was assessed via TUNEL staining. qRT-PCR was employed to validate these crucial genes in the hearts of AMI mice. The external dataset GSE59867 was used for further validating the crucial genes. RESULTS: Fifteen ARGs (GADD45A, DDIT3, FEZ1, PMAIP1, IER3, IFNGR1, CDKN1A, GNA15, IL1B, EREG, BCL10, JUN, EGR3, GADD45B, and CD14) were identified. Six crucial genes (CDKN1A, BCL10, PMAIP1, IL1B, GNA15, and CD14) were screened from ARGs by machine learning. A total of 102 miRNAs, 13 TFs and 23 therapeutic drugs were predicted targeting these crucial genes. The clinical prediction model of the crucial genes has shown good predictive capability. The Mendelian randomization analysis demonstrated that apoptosis is a risk factor for AMI. Lastly, the expression of CDKN1A, CD14 and IL1B was verified in the AMI mouse model and external dataset. CONCLUSIONS: In this study, ARGs were screened by machine learning algorithms, and verified by qRT-PCR in the AMI mouse model. Finally, we demonstrated that CDKN1A, CD14 and IL1B were the crucial genes involved in apoptosis in AMI. These genes may provide new target for the recognition and intervention of apoptosis in AMI.",
+  "abstract_zh": "背景：急性心肌梗死（AMI）是最严重的心血管疾病之一。凋亡是一种程序性细胞死亡，导致DNA降解和染色质凝缩。凋亡在AMI进展中的作用仍不清楚。方法：从基因表达综合数据库获取三个AMI相关微阵列数据集（GSE48060、GSE66360和GSE97320），并合并进行进一步分析。对合并数据集进行差异表达分析和富集分析，以识别差异表达基因（DEGs）。通过先前研究中与凋亡相关的基因与DEGs的交集筛选凋亡相关基因（ARGs）。基于其原始表达数据研究ARGs的表达模式。采用三种机器学习算法，即最小绝对收缩和选择算子（LASSO）、支持向量机递归特征消除（SVM-RFE）和随机森林（RF），筛选这些ARGs中的关键基因。通过单样本基因集富集分析（ssGSEA）估计免疫浸润。使用相应的在线数据库预测关键基因的miRNAs、转录因子（TFs）和治疗药物。构建并评估关键基因的列线图临床预测模型。采用孟德尔随机化分析研究凋亡与AMI之间是否存在因果关系。最后，建立AMI小鼠模型，并通过TUNEL染色评估AMI小鼠心脏中的凋亡。采用qRT-PCR验证AMI小鼠心脏中的这些关键基因。外部数据集GSE59867用于进一步验证关键基因。结果：鉴定出15个ARGs（GADD45A、DDIT3、FEZ1、PMAIP1、IER3、IFNGR1、CDKN1A、GNA15、IL1B、EREG、BCL10、JUN、EGR3、GADD45B和CD14）。通过机器学习从ARGs中筛选出六个关键基因（CDKN1A、BCL10、PMAIP1、IL1B、GNA15和CD14）。预测共有102个miRNAs、13个TFs和23种治疗药物靶向这些关键基因。关键基因的临床预测模型显示出良好的预测能力。孟德尔随机化分析表明凋亡是AMI的风险因素。最后，在AMI小鼠模型和外部数据集中验证了CDKN1A、CD14和IL1B的表达。结论：在本研究中，通过机器学习算法筛选ARGs，并在AMI小鼠模型中通过qRT-PCR进行验证。最终，我们证明CDKN1A、CD14和IL1B是AMI中参与凋亡的关键基因。这些基因可能为AMI中凋亡的识别和干预提供新靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39650552/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39650552/",
+  "paper_page_path": "papers/pubmed/39650552/index.html"
+}

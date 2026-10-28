@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42149890",
+    "doi": "10.1371/journal.pone.0349565",
+    "title": "Network toxicology and bioinformatics analysis predict potential molecular targets and mechanisms by which sevoflurane and propofol influence type 2 diabetes mellitus."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sevoflurane and propofol are commonly used anesthetics that may exert pronounced effects on glucose metabolism and cardiovascular function in patients with type 2 diabetes mellitus (T2DM). This study aimed to elucidate the molecular mechanisms underlying the association of sevoflurane and propofol with T2DM progression. METHODS: Targets associated with sevoflurane, propofol, and T2DM were predicted using public databases. Core targets were identified and validated through differential expression analysis, machine learning algorithms, and expression level verification. Functional enrichment analysis was conducted to characterize related biological processes. Immune cell infiltration was assessed using the CIBERSORT algorithm, and regulatory networks involving microRNAs and transcription factors were constructed. Molecular docking was performed to evaluate the binding affinities between the anesthetics and the core targets. RESULTS: Two core targets, MMP9 (Matrix Metallopeptidase 9) and HPSE (Heparanase), were identified as significantly associated with sevoflurane and propofol in T2DM. Supplementary sensitivity analyses across multiple fold-change thresholds and permutation tests demonstrated that MMP9 and HPSE were retained as candidate targets across a range of analytical choices, supporting the robustness of their identification. These targets were enriched in pathways related to receptor catabolic processes, cellular responses to abiotic stimuli, and autophagy. Immune infiltration analysis indicated increased neutrophil abundance and decreased levels of activated natural killer (NK) cells. In addition, 16 microRNAs and 12 transcription factors were associated with the core targets. Molecular docking demonstrated potential interactions of sevoflurane and propofol with MMP9 and HPSE. CONCLUSION: These findings provide novel insights into the potential association between exposure to sevoflurane and propofol and the progression of T2DM, and identify candidate therapeutic targets. Further experimental and clinical validation is required to support evidence-based selection of personalized anesthetic strategies for patients with T2DM.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Propofol/adverse effects/pharmacology/toxicity",
+      "*Sevoflurane/adverse effects/toxicity/pharmacology",
+      "*Diabetes Mellitus, Type 2/metabolism/genetics/drug therapy",
+      "Humans",
+      "Matrix Metalloproteinase 9/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "*Computational Biology/methods",
+      "MicroRNAs/genetics/metabolism",
+      "Gene Regulatory Networks/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bai, Lili",
+        "Li, Ping",
+        "Zhao, Lina"
+      ],
+      "short_names": [
+        "Bai L",
+        "Li P",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6715-7623"
+      ],
+      "affiliations": [
+        "Department of Anesthesia, Tianjin Hospital, Tianjin, China.",
+        "Department of Anesthesia, Tianjin Hospital, Tianjin, China.",
+        "Department of Anesthesia, Tianjin Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bai, Lili",
+        "short_name": "Bai L",
+        "identifiers": [
+          "0009-0008-6715-7623"
+        ],
+        "affiliations": [
+          "Department of Anesthesia, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ping",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia, Tianjin Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lina",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia, Tianjin Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 18:32",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40733799",
+      "40661900",
+      "40486021",
+      "40449695",
+      "40423634",
+      "40152357",
+      "39766340",
+      "38964723",
+      "38873924",
+      "38614462",
+      "38564860",
+      "38524769",
+      "38254052",
+      "37783236",
+      "37600700",
+      "37298308",
+      "37223013",
+      "36880042",
+      "36808704",
+      "35864792",
+      "35845045",
+      "35790774",
+      "35562803",
+      "35459618",
+      "35264558",
+      "34964875",
+      "34879977",
+      "34864868",
+      "34485533",
+      "33629346",
+      "33550443",
+      "33287854",
+      "33048064",
+      "32872570",
+      "32489579",
+      "32410945",
+      "32149756",
+      "31966048",
+      "31235816",
+      "30953161",
+      "30122459",
+      "30061498",
+      "29194447",
+      "29039138",
+      "28900628",
+      "28683285",
+      "28478303",
+      "28349068",
+      "28298393",
+      "28256459",
+      "27332731",
+      "25822800",
+      "25605792",
+      "25437926",
+      "25337653",
+      "25186151",
+      "22959654",
+      "22455463",
+      "22106160",
+      "21829658",
+      "21364956",
+      "20401516",
+      "19758991",
+      "19141476",
+      "17051139",
+      "14597658"
+    ],
+    "similar": [
+      "42149890",
+      "41895505",
+      "40374744",
+      "41113402",
+      "41132669",
+      "41442003",
+      "41909133",
+      "40696679",
+      "40449695",
+      "41516018",
+      "40916281",
+      "39375405",
+      "42421348",
+      "41162503",
+      "41459671",
+      "41692077",
+      "42520089",
+      "40918148",
+      "35842645",
+      "39534794",
+      "42292668",
+      "42109727",
+      "41373010",
+      "41760032",
+      "41909102",
+      "33957209",
+      "39993869",
+      "39936105",
+      "41836445",
+      "39374878",
+      "41120603",
+      "42530267",
+      "39145311",
+      "41125012",
+      "36828194",
+      "39634181",
+      "39798693",
+      "39949090",
+      "41766874",
+      "38166541",
+      "39176085",
+      "41136974",
+      "42503036",
+      "41155161",
+      "41424060",
+      "41504045",
+      "42015036",
+      "42499056",
+      "38491124",
+      "41656807",
+      "36049411",
+      "42302029",
+      "40676786",
+      "41630209",
+      "40317014",
+      "38840234",
+      "42475469",
+      "39780215",
+      "40332792",
+      "41511918",
+      "40374866",
+      "39080630",
+      "41970950",
+      "41601064",
+      "40374840",
+      "40453984",
+      "42528957",
+      "39915429",
+      "40887626",
+      "36121703",
+      "39150631",
+      "39142001",
+      "38332532",
+      "42437319",
+      "40508014",
+      "40804795",
+      "38648716",
+      "41261566",
+      "40406126",
+      "33902539",
+      "41686594",
+      "40207230",
+      "41298601",
+      "32705173",
+      "41083578",
+      "40873177",
+      "41974236",
+      "37942992",
+      "42262213",
+      "41372957",
+      "32851081",
+      "41150817",
+      "39139563",
+      "41492010",
+      "41479901",
+      "41673191",
+      "40496861",
+      "42450069",
+      "42233387",
+      "38704482"
+    ],
+    "review": [
+      "42149890"
+    ],
+    "pmc": [
+      "13183223"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0349565",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42149890/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

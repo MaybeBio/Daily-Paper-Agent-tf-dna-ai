@@ -1,0 +1,286 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.30.635634",
+  "title": "Utilising multi-modal data-driven network analysis to identify monotherapy and combinational therapy targets in SOX2-dependent squamous cell lung cancer",
+  "doi": "10.1101/2025.01.30.635634",
+  "abstract": "Drug discovery requires a deep understanding of disease mechanisms, making the integration and analysis of diverse, multi-modal data types essential. These data types, spanning omics types, disease- associated, and biological pathway information, often originate from disparate sources and must be combined to uncover critical insights. We have developed iPANDDA ( in-silico Pipeline for Agnostic Network-based Drug Discovery Analysis ), a computational pipeline that integrates multi-modal data through a network-based approach to predict candidate drug target proteins for specific diseases. We applied iPANDDA to lung squamous cell carcinoma (LUSC), a subtype of non-small cell lung cancer (NSCLC) that accounts for approximately 25% of all lung cancer cases globally. Despite advances in cancer therapeutics, targeted therapies specifically approved for LUSC remain lacking, exacerbated by the shortage of robust models for studying LUSC carcinogenesis and therapeutic responses. The SOX2 gene, amplified in about 50% of LUSC patients, plays a critical role in driving and maintaining the cancer phenotype. Using iPANDDA, we identified relevant therapeutic targets for SOX2-dependent LUSC. Selected candidate drug targets were validated in vitro using cell-based models. We conducted target inhibition studies in both SOX2-dependent and non-SOX2-dependent cell lines, evaluating the effects of inhibition and knockout through cell viability assays. Our findings confirmed key monotherapy and combination therapy targets for SOX2-focused models. Specifically, we validated the AKT and mTOR complexes as promising therapeutic targets for LUSC. Additionally, we identified potential pathways for developing novel combination therapies targeting SOX2-dependent LUSC. iPANDDA offers a robust approach to refining and focusing therapeutic strategies for diseases with unmet clinical needs.",
+  "authors": [
+    "Hwang W",
+    "Kottmann D",
+    "Guo W",
+    "MacMahon M",
+    "Correia L",
+    "Harris R",
+    "McCaughan F",
+    "Han N"
+  ],
+  "published_date": "2025-02-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635634",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635634.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR974648",
+    "raw_record": {
+      "id": "PPR974648",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR974648"
+        ]
+      },
+      "doi": "10.1101/2025.01.30.635634",
+      "title": "Utilising multi-modal data-driven network analysis to identify monotherapy and combinational therapy targets in SOX2-dependent squamous cell lung cancer",
+      "authorString": "Hwang W, Kottmann D, Guo W, MacMahon M, Correia L, Harris R, McCaughan F, Han N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hwang W",
+            "lastName": "Hwang",
+            "firstName": "Woochang",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Milner Therapeutics Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kottmann D",
+            "lastName": "Kottmann",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Victor Philip Dahdaleh Heart and Lung Research Institute, , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guo W",
+            "lastName": "Guo",
+            "firstName": "Wenrui",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Victor Philip Dahdaleh Heart and Lung Research Institute, , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "MacMahon M",
+            "lastName": "MacMahon",
+            "firstName": "Méabh",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Milner Therapeutics Institute, , ,"
+                },
+                {
+                  "affiliation": "Centre for Therapeutics Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Correia L",
+            "lastName": "Correia",
+            "firstName": "Lucia",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Victor Philip Dahdaleh Heart and Lung Research Institute, , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harris R",
+            "lastName": "Harris",
+            "firstName": "Rebecca",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Milner Therapeutics Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McCaughan F",
+            "lastName": "McCaughan",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Victor Philip Dahdaleh Heart and Lung Research Institute, , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han N",
+            "lastName": "Han",
+            "firstName": "Namshik",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Milner Therapeutics Institute, , ,"
+                },
+                {
+                  "affiliation": "Cambridge Centre for AI in Medicine, Department of Applied Mathematics and Theoretical Physics, , ,"
+                },
+                {
+                  "affiliation": "Cambridge Stem Cell Institute, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Drug discovery requires a deep understanding of disease mechanisms, making the integration and analysis of diverse, multi-modal data types essential. These data types, spanning omics types, disease- associated, and biological pathway information, often originate from disparate sources and must be combined to uncover critical insights. We have developed iPANDDA (  in-silico Pipeline for Agnostic Network-based Drug Discovery Analysis ), a computational pipeline that integrates multi-modal data through a network-based approach to predict candidate drug target proteins for specific diseases.  We applied iPANDDA to lung squamous cell carcinoma (LUSC), a subtype of non-small cell lung cancer (NSCLC) that accounts for approximately 25% of all lung cancer cases globally. Despite advances in cancer therapeutics, targeted therapies specifically approved for LUSC remain lacking, exacerbated by the shortage of robust models for studying LUSC carcinogenesis and therapeutic responses. The SOX2 gene, amplified in about 50% of LUSC patients, plays a critical role in driving and maintaining the cancer phenotype. Using iPANDDA, we identified relevant therapeutic targets for SOX2-dependent LUSC. Selected candidate drug targets were validated in vitro using cell-based models. We conducted target inhibition studies in both SOX2-dependent and non-SOX2-dependent cell lines, evaluating the effects of inhibition and knockout through cell viability assays. Our findings confirmed key monotherapy and combination therapy targets for SOX2-focused models. Specifically, we validated the AKT and mTOR complexes as promising therapeutic targets for LUSC. Additionally, we identified potential pathways for developing novel combination therapies targeting SOX2-dependent LUSC. iPANDDA offers a robust approach to refining and focusing therapeutic strategies for diseases with unmet clinical needs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT097143MA",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W014564/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203312",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.30.635634"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR974648"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR974648&type=FILE&fileName=EMS203155-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41388088",
+            "reference": "Communications chemistry. 2025 Dec;8(1):401",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203155",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-02-07",
+      "firstPublicationDate": "2025-02-04",
+      "firstIndexDate": "2025-02-07",
+      "fullTextReceivedDate": "2025-03-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "39033091",
+    "doi": "10.1007/s12013-024-01435-1",
+    "title": "Mechanisms of Rehmannioside A Against Systemic Lupus Erythematosus Based on Network Pharmacology, Molecular Docking and Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "The effect of rehmannioside A (ReA) on systemic lupus erythematosus (SLE) is not clear and needs further study. In this study, SLE-related targets were obtained from the DisGeNet and GeneCards databases, while ReA-related targets were obtained from the SwissTarget and SuperPred databases. A protein-protein interaction network of intersected targets was constructed using the STRING platform. After selecting the intersected targets, GO and KEGG enrichment analyses were performed via the R package \"clusterProfiler\". The relationships between ReA and various core targets were assessed via molecular docking, and molecular dynamics simulation was conducted for optimal core protein-compound complexes obtained by molecular docking. The top five targets in the ranking of degree value were HSP90AA1, HIF1A, PIK3CA, MTOR, and TLR4. Significant biological processes mainly included response to oxidative stress and response to reactive oxygen species. The potential pathways of ReA in the treatment of SLE mainly focused on the PI3K-Akt signaling pathway, neutrophil extracellular trap formation, and Apoptosis. Molecular docking showed that ReA had the highest binding affinity for mTOR, suggesting that mTOR is a key target of ReA against SLE. Molecular dynamics simulations revealed good binding abilities between ReA and mTOR. In conclusion, ReA exerts its effects on SLE through multiple targets and pathways, with mTOR being a key target of ReA against SLE.",
+    "keywords": [
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Network pharmacology",
+      "Rehmannioside A",
+      "Systemic lupus erythematosus"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*Lupus Erythematosus, Systemic/drug therapy/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Toll-Like Receptor 4/metabolism/chemistry",
+      "*Network Pharmacology",
+      "TOR Serine-Threonine Kinases/metabolism",
+      "Protein Interaction Maps/drug effects",
+      "Signal Transduction/drug effects",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Guofei",
+        "Li, Mingfang",
+        "Zhang, Ying",
+        "Li, Xiaohui",
+        "Xin, Tiantian",
+        "Hao, Jin"
+      ],
+      "short_names": [
+        "Yang G",
+        "Li M",
+        "Zhang Y",
+        "Li X",
+        "Xin T",
+        "Hao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China.",
+        "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China.",
+        "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China.",
+        "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China.",
+        "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China.",
+        "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China. haojin_cq@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Guofei",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingfang",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaohui",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Tiantian",
+        "short_name": "Xin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Jin",
+        "short_name": "Hao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Guangdong Provincial Key Laboratory of Major Obstetric Diseases, Guangdong Provincial Clinical Research Center for Obstetrics and Gynecology, The Third Affiliated Hospital of Guangzhou Medica1 University, Guangzhou, China. haojin_cq@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell biochemistry and biophysics"
+    ],
+    "journal_abbrev": [
+      "Cell Biochem Biophys"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/21 15:43",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42388649",
+      "40672966"
+    ],
+    "refs": [
+      "37827694",
+      "36792346",
+      "36016930",
+      "35091012",
+      "33280012",
+      "33237311",
+      "31680165",
+      "31416665",
+      "30275264",
+      "29925508",
+      "28968809",
+      "28300280",
+      "27899610",
+      "27026916",
+      "26698023",
+      "26522135",
+      "24878925",
+      "24232601",
+      "24106157",
+      "23358420",
+      "22543833",
+      "22455463",
+      "21871655",
+      "20439745",
+      "19252480",
+      "18272964",
+      "17641780",
+      "12446723"
+    ],
+    "similar": [
+      "39033091",
+      "39701786",
+      "39934490",
+      "39135520",
+      "34557547",
+      "38822913",
+      "39307810",
+      "39251712",
+      "37683540",
+      "38822120",
+      "37691456",
+      "39488873",
+      "36403742",
+      "35097123",
+      "37879505",
+      "39125368",
+      "37026113",
+      "40186900",
+      "40128040",
+      "38964628",
+      "39472740",
+      "38848296",
+      "37340752",
+      "38597437",
+      "39568012",
+      "38759074",
+      "40255473",
+      "38582151",
+      "36389420",
+      "39066538",
+      "39342122",
+      "37464874",
+      "39180676",
+      "34873575",
+      "38931288",
+      "37807411",
+      "33556477",
+      "39346898",
+      "37139617",
+      "36482627",
+      "39486672",
+      "35750104",
+      "37382018",
+      "39705422",
+      "40132971",
+      "39331210",
+      "39923458",
+      "38982082",
+      "39177391",
+      "32854577",
+      "39969345",
+      "37287284",
+      "38704482",
+      "38321908",
+      "37233418",
+      "36735641",
+      "39465880",
+      "38840248",
+      "37771185",
+      "37575231",
+      "39048977",
+      "39004032",
+      "39499411",
+      "40057142",
+      "35873910",
+      "39552028",
+      "39259129",
+      "37190808",
+      "39171590",
+      "34868345",
+      "37833363",
+      "40229786",
+      "39955364",
+      "39310787",
+      "37282941",
+      "39252247",
+      "38619514",
+      "39343107",
+      "39642711",
+      "38578376",
+      "40109471",
+      "31734262",
+      "39280256",
+      "39686413",
+      "38050247",
+      "34746316",
+      "38916485",
+      "39192219",
+      "38670393",
+      "39565454",
+      "37732621",
+      "39259410",
+      "39726005",
+      "39287276",
+      "38555283",
+      "33634308",
+      "39075002",
+      "37306420",
+      "38554191",
+      "37741847"
+    ],
+    "review": [
+      "39033091",
+      "37464874"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12013-024-01435-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

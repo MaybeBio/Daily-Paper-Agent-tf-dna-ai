@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "41093852",
+    "doi": "10.1038/s41467-025-64227-y",
+    "title": "scTFBridge: a disentangled deep generative model informed by TF-motif binding for gene regulation inference in single-cell multi-omics."
+  },
+  "content": {
+    "abstract": "The interplay between transcription factors (TFs) and regulatory elements (REs) drives gene transcription, forming gene regulatory networks (GRNs). Advances in single-cell technologies now enable simultaneous measurement of RNA expression and chromatin accessibility, offering unprecedented opportunities for GRN inference at single-cell resolution. However, heterogeneity across omics layers complicates regulatory feature extraction. We present scTFBridge, a multi-omics deep generative model for GRN inference. scTFBridge disentangles latent spaces into shared and specific components across omics layers. By integrating TF-motif binding knowledge, scTFBridge aligns shared embeddings with specific TF regulatory activities, enhancing biological interpretability. Using explainability methods, scTFBridge computes regulatory scores for REs and TFs, enabling robust GRN inference. Our results further demonstrate that scTFBridge can identify cell-type-specific susceptibility genes and distinct regulatory programs, providing insights into gene regulation mechanisms at the single-cell level.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Transcription Factors/metabolism/genetics",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "*Gene Expression Regulation",
+      "*Computational Biology/methods",
+      "Chromatin/metabolism",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Feng-Ao",
+        "Yi, Chenxin",
+        "Chen, Jiajun",
+        "He, Ruikun",
+        "Liu, Junwei",
+        "Li, Yixue"
+      ],
+      "short_names": [
+        "Wang FA",
+        "Yi C",
+        "Chen J",
+        "He R",
+        "Liu J",
+        "Li Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-6650-9498",
+        "ORCID: 0000-0001-8446-4221",
+        "ORCID: 0000-0002-1198-7176"
+      ],
+      "affiliations": [
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+        "Guangzhou National Laboratory, Guangzhou, China.",
+        "Guangzhou National Laboratory, Guangzhou, China.",
+        "School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen, China.",
+        "Guangzhou National Laboratory, Guangzhou, China.",
+        "School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen, China.",
+        "BYHEALTH Institute of Nutrition & Health, Guangzhou, China. herk@by-health.com.",
+        "Guangzhou National Laboratory, Guangzhou, China. liu_junwei@gzlab.ac.cn.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China. li_yixue@gzlab.ac.cn.",
+        "Guangzhou National Laboratory, Guangzhou, China. li_yixue@gzlab.ac.cn.",
+        "GZMU-GIBH Joint School of Life Sciences, The Guangdong-Hong Kong-Macau Joint Laboratory for Cell Fate Regulation and Diseases, Guangzhou Medical University, Guangzhou, China. li_yixue@gzlab.ac.cn.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China. li_yixue@gzlab.ac.cn.",
+        "Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Shanghai, China. li_yixue@gzlab.ac.cn.",
+        "Bioland Laboratory, Guangzhou, China. li_yixue@gzlab.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Feng-Ao",
+        "short_name": "Wang FA",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China.",
+          "Guangzhou National Laboratory, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Chenxin",
+        "short_name": "Yi C",
+        "identifiers": [
+          "0009-0008-6650-9498"
+        ],
+        "affiliations": [
+          "Guangzhou National Laboratory, Guangzhou, China.",
+          "School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiajun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou National Laboratory, Guangzhou, China.",
+          "School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "He, Ruikun",
+        "short_name": "He R",
+        "identifiers": [],
+        "affiliations": [
+          "BYHEALTH Institute of Nutrition & Health, Guangzhou, China. herk@by-health.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Junwei",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0001-8446-4221"
+        ],
+        "affiliations": [
+          "Guangzhou National Laboratory, Guangzhou, China. liu_junwei@gzlab.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Yixue",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-1198-7176"
+        ],
+        "affiliations": [
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Science, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, China. li_yixue@gzlab.ac.cn.",
+          "Guangzhou National Laboratory, Guangzhou, China. li_yixue@gzlab.ac.cn.",
+          "GZMU-GIBH Joint School of Life Sciences, The Guangdong-Hong Kong-Macau Joint Laboratory for Cell Fate Regulation and Diseases, Guangzhou Medical University, Guangzhou, China. li_yixue@gzlab.ac.cn.",
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China. li_yixue@gzlab.ac.cn.",
+          "Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Shanghai, China. li_yixue@gzlab.ac.cn.",
+          "Bioland Laboratory, Guangzhou, China. li_yixue@gzlab.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/16 05:31",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42239177",
+      "42059479",
+      "41953641"
+    ],
+    "refs": [
+      "40037709",
+      "39322753",
+      "39266564",
+      "39122947",
+      "38688285",
+      "38641842",
+      "38609714",
+      "38582890",
+      "38514783",
+      "38238840",
+      "38217125",
+      "38036783",
+      "37875977",
+      "37857632",
+      "37791879",
+      "37537351",
+      "37443338",
+      "37386189",
+      "37365273",
+      "37280296",
+      "37244909",
+      "37137905",
+      "37076856",
+      "37002403",
+      "36732632",
+      "36426870",
+      "35854350",
+      "35648859",
+      "35501393",
+      "35389781",
+      "35389779",
+      "35058621",
+      "34608324",
+      "33827925",
+      "33564394",
+      "33343624",
+      "33204030",
+      "32976798",
+      "32041960",
+      "31462772",
+      "30504886",
+      "30462313",
+      "29409532",
+      "28991892",
+      "28957658",
+      "27863249",
+      "27580035",
+      "27121950",
+      "27091476",
+      "26414678",
+      "25664528",
+      "20927193",
+      "18842628",
+      "18797474",
+      "17903290",
+      "16199517",
+      "15809445",
+      "15809261",
+      "15790856",
+      "14683220",
+      "14681366",
+      "12520026",
+      "12386007"
+    ],
+    "similar": [
+      "41093852",
+      "41067887",
+      "38940155",
+      "41288963",
+      "39207727",
+      "39376034",
+      "39833103",
+      "38653489",
+      "40633682",
+      "38980373",
+      "37889053",
+      "40707940",
+      "38744843",
+      "24228871",
+      "32054475",
+      "40654959",
+      "38342857",
+      "40220759",
+      "40442129",
+      "40753156",
+      "40037709",
+      "37073532",
+      "34251625",
+      "37788349",
+      "39058236",
+      "40251476",
+      "36991439",
+      "34314098",
+      "38460192",
+      "41300707",
+      "39742806",
+      "40211981",
+      "22456606",
+      "39800872",
+      "39082647",
+      "39326643",
+      "38950180",
+      "41206950",
+      "39535258",
+      "40856525",
+      "41043336",
+      "40247122",
+      "41315351",
+      "37085776",
+      "37365273",
+      "35961023",
+      "39311699",
+      "40966655",
+      "39910206",
+      "40210438",
+      "37443338",
+      "41325188",
+      "37537351",
+      "39567490",
+      "32431014",
+      "37879938",
+      "36204155",
+      "36695505",
+      "36723605",
+      "39679439",
+      "32019417",
+      "41120274",
+      "37244909",
+      "39939367",
+      "40662821",
+      "39062480",
+      "41329984",
+      "38609714",
+      "41310370",
+      "39605181",
+      "40662784",
+      "37857632",
+      "36418514",
+      "39702712",
+      "30359306",
+      "40811358",
+      "25916854",
+      "37577525",
+      "39893194",
+      "30692544",
+      "38409223",
+      "41053815",
+      "40607808",
+      "39137088",
+      "38589899",
+      "29342231",
+      "39888834",
+      "36778259",
+      "41136370",
+      "41105015",
+      "31345953",
+      "39581871",
+      "38754366",
+      "40116659",
+      "33631799",
+      "29879919",
+      "30458000",
+      "21172055",
+      "29051499",
+      "38778003"
+    ],
+    "review": [
+      "41093852",
+      "39207727",
+      "34314098",
+      "37365273",
+      "40966655",
+      "36695505",
+      "39939367",
+      "37857632",
+      "39137088"
+    ],
+    "pmc": [
+      "12528484"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-64227-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41093852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

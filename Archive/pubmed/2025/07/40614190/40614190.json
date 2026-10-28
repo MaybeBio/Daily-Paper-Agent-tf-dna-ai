@@ -1,0 +1,561 @@
+{
+  "identity": {
+    "pmid": "40614190",
+    "doi": "10.1126/sciadv.adu1521",
+    "title": "Multiomic integration reveals subtype-specific predictors of neoadjuvant treatment response in breast cancer."
+  },
+  "content": {
+    "abstract": "Neoadjuvant therapy has been widely used in breast cancer, but treatment response varies among individuals. We conducted multiomic profiling on tumor samples from 149 Chinese patients with breast cancer across ER(-)HER2(+), ER(+)HER2(+), and ER(-)HER2(-) subtypes, categorizing outcomes as pathologic complete response (pCR; n = 81) or residual disease (RD; n = 68). We identified distinct molecular features linked to pCR in each subtype: elevated cell proliferation in patients with ER(-)HER2(-) pCR, higher CDKN2A methylation in patients with ER(-)HER2(-) RD, increased KIT methylation in patients with ER(-)HER2(+) RD, and MAP4K1 hypermethylation in patients with ER(+)HER2(+) RD. These findings were subsequently validated in independent datasets. By integrating clinical and multiomic data, we developed MOPCR, a subtype-specific machine learning model that outperformed single-omic approaches in predicting treatment response. MOPCR demonstrated potential generalizability across cohorts and provided preliminary stratification of patient subgroups with higher pCR probability, offering valuable insights for precision cancer management.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/drug therapy/pathology/therapy/metabolism",
+      "Female",
+      "*Neoadjuvant Therapy",
+      "DNA Methylation",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "Middle Aged",
+      "Treatment Outcome",
+      "Biomarkers, Tumor/genetics",
+      "Machine Learning",
+      "Receptors, Estrogen/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mo, Zongchao",
+        "Yang, Mei",
+        "Zhu, Zhihan",
+        "Wang, Minghao",
+        "Wang, Haoyu",
+        "Zhang, Zhanye",
+        "Lyu, Shanshan",
+        "Xu, Fangping",
+        "Shang, Haixia",
+        "Lin, Huan",
+        "Xu, Zeyan",
+        "Li, Suyun",
+        "Chen, Xiaobo",
+        "Wang, Kun",
+        "Liang, Changhong",
+        "Wang, Jiguang",
+        "Liu, Zaiyi"
+      ],
+      "short_names": [
+        "Mo Z",
+        "Yang M",
+        "Zhu Z",
+        "Wang M",
+        "Wang H",
+        "Zhang Z",
+        "Lyu S",
+        "Xu F",
+        "Shang H",
+        "Lin H",
+        "Xu Z",
+        "Li S",
+        "Chen X",
+        "Wang K",
+        "Liang C",
+        "Wang J",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-9678-6600",
+        "ORCID: 0000-0003-3779-4265",
+        "ORCID: 0009-0001-1943-1594",
+        "ORCID: 0009-0009-8539-9877",
+        "ORCID: 0000-0002-9765-8145",
+        "ORCID: 0000-0003-4354-6110",
+        "ORCID: 0000-0003-1384-3536",
+        "ORCID: 0000-0001-8755-6199",
+        "ORCID: 0000-0001-9851-7080",
+        "ORCID: 0000-0002-6017-7129",
+        "ORCID: 0000-0002-6923-4097",
+        "ORCID: 0000-0002-9307-8522"
+      ],
+      "affiliations": [
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "SIAT-HKUST Joint Laboratory of Cell Evolution and Digital Health, HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen 518000, China.",
+        "Department of Breast Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou 510280, China.",
+        "Department of Breast Cancer, Cancer Centre, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "Department of Pathology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Department of Pathology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China.",
+        "Department of Breast Cancer, Cancer Centre, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China.",
+        "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+        "SIAT-HKUST Joint Laboratory of Cell Evolution and Digital Health, HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen 518000, China.",
+        "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+        "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mo, Zongchao",
+        "short_name": "Mo Z",
+        "identifiers": [
+          "0009-0006-9678-6600"
+        ],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+          "SIAT-HKUST Joint Laboratory of Cell Evolution and Digital Health, HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen 518000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mei",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Zhujiang Hospital, Southern Medical University, Guangzhou 510280, China.",
+          "Department of Breast Cancer, Cancer Centre, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhihan",
+        "short_name": "Zhu Z",
+        "identifiers": [
+          "0000-0003-3779-4265"
+        ],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Minghao",
+        "short_name": "Wang M",
+        "identifiers": [
+          "0009-0001-1943-1594"
+        ],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haoyu",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhanye",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0009-0009-8539-9877"
+        ],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Shanshan",
+        "short_name": "Lyu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Fangping",
+        "short_name": "Xu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Haixia",
+        "short_name": "Shang H",
+        "identifiers": [
+          "0000-0002-9765-8145"
+        ],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Huan",
+        "short_name": "Lin H",
+        "identifiers": [
+          "0000-0003-4354-6110"
+        ],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zeyan",
+        "short_name": "Xu Z",
+        "identifiers": [
+          "0000-0003-1384-3536"
+        ],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Li, Suyun",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaobo",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0000-0001-8755-6199"
+        ],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kun",
+        "short_name": "Wang K",
+        "identifiers": [
+          "0000-0001-9851-7080"
+        ],
+        "affiliations": [
+          "Department of Breast Cancer, Cancer Centre, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Changhong",
+        "short_name": "Liang C",
+        "identifiers": [
+          "0000-0002-6017-7129"
+        ],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiguang",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-6923-4097"
+        ],
+        "affiliations": [
+          "Division of Life Science, Department of Chemical and Biological Engineering, and State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, SAR, China.",
+          "SIAT-HKUST Joint Laboratory of Cell Evolution and Digital Health, HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen 518000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zaiyi",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0002-9307-8522"
+        ],
+        "affiliations": [
+          "Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou 510080, China.",
+          "Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, Guangzhou 510080, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2025 Jul 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/04 18:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42688326",
+      "42625615",
+      "42423852",
+      "42413278",
+      "42286527",
+      "42277023",
+      "42196422",
+      "42152095",
+      "41873114",
+      "41827989",
+      "41462069"
+    ],
+    "refs": [
+      "39419289",
+      "38971800",
+      "38347143",
+      "38166846",
+      "36599988",
+      "36426870",
+      "36388765",
+      "36001024",
+      "35623341",
+      "35523804",
+      "34990895",
+      "34875674",
+      "34725325",
+      "34399040",
+      "34102579",
+      "33203854",
+      "32728249",
+      "32607472",
+      "32046998",
+      "32025018",
+      "32025012",
+      "32015543",
+      "31699026",
+      "31406327",
+      "30853353",
+      "30516102",
+      "30371878",
+      "30037817",
+      "29788230",
+      "29636477",
+      "29625053",
+      "29501363",
+      "29367758",
+      "29242041",
+      "29233559",
+      "29136207",
+      "28534981",
+      "28369524",
+      "28135148",
+      "27777769",
+      "27270079",
+      "27171227",
+      "27135926",
+      "26976419",
+      "26771021",
+      "26598753",
+      "26424082",
+      "26387142",
+      "26181252",
+      "25765347",
+      "25516281",
+      "24872111",
+      "24529560",
+      "24122701",
+      "23970015",
+      "23584832",
+      "23358881",
+      "23104886",
+      "23000897",
+      "22522925",
+      "22216841",
+      "21816040",
+      "21558518",
+      "21527027",
+      "20644199",
+      "20371687",
+      "20152769",
+      "20110278",
+      "20077021",
+      "20023648",
+      "19996216",
+      "19635165",
+      "19630967",
+      "19451168",
+      "19204204",
+      "18846088",
+      "17986623",
+      "17785706",
+      "17438091",
+      "16199517",
+      "15608232",
+      "15474280",
+      "15324697",
+      "14681465",
+      "11070098",
+      "10592173",
+      "9215816"
+    ],
+    "similar": [
+      "40614190",
+      "40936892",
+      "26423797",
+      "21472434",
+      "40963050",
+      "38951909",
+      "38615482",
+      "41327380",
+      "39477071",
+      "26704052",
+      "28843513",
+      "22296393",
+      "29564743",
+      "31144151",
+      "39706338",
+      "23645542",
+      "38368871",
+      "41188730",
+      "39017815",
+      "29981025",
+      "30242578",
+      "29898762",
+      "38783028",
+      "27090210",
+      "39954110",
+      "31907749",
+      "39250898",
+      "39317942",
+      "20959472",
+      "33112958",
+      "23098527",
+      "38743174",
+      "33667252",
+      "38815444",
+      "32423453",
+      "32684154",
+      "33039708",
+      "41261821",
+      "34462208",
+      "22621334",
+      "26511263",
+      "27491481",
+      "23318089",
+      "26158350",
+      "38503615",
+      "22949935",
+      "39821037",
+      "40683772",
+      "25200445",
+      "17468948",
+      "29971625",
+      "24443618",
+      "30613307",
+      "30903140",
+      "23771556",
+      "40205245",
+      "35699854",
+      "39948624",
+      "29168063",
+      "40762776",
+      "41084879",
+      "19685074",
+      "21102420",
+      "32057107",
+      "32002765",
+      "17438091",
+      "18485221",
+      "25880075",
+      "21442348",
+      "31806448",
+      "28875243",
+      "34756527",
+      "31300338",
+      "40227228",
+      "31933152",
+      "40044693",
+      "30128822",
+      "24124677",
+      "34146382",
+      "29181679",
+      "35985932",
+      "40597935",
+      "40114292",
+      "31650304",
+      "21191116",
+      "40684017",
+      "38943737",
+      "25218596",
+      "27771839",
+      "40679713",
+      "31002322",
+      "26425077",
+      "26130454",
+      "18657139",
+      "40246081",
+      "19758440",
+      "30756285",
+      "27662272",
+      "38641451",
+      "39754712"
+    ],
+    "review": [
+      "40614190",
+      "39821037"
+    ],
+    "pmc": [
+      "12227054"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adu1521?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40614190.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40614190/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-333",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "38874784",
+    "doi": "10.1007/s00018-024-05263-7",
+    "title": "Directed-evolution mutations enhance DNA-binding affinity and protein stability of the adenine base editor ABE8e."
+  },
+  "content": {
+    "abstract": "Adenine base editors (ABEs), consisting of CRISPR Cas nickase and deaminase, can chemically convert the A:T base pair to G:C. ABE8e, an evolved variant of the base editor ABE7.10, contains eight directed evolution mutations in its deaminase TadA8e that significantly increase its base editing activity. However, the functional implications of these mutations remain unclear. Here, we combined molecular dynamics (MD) simulations and experimental measurements to investigate the role of the directed-evolution mutations in the base editing catalysis. MD simulations showed that the DNA-binding affinity of TadA8e is higher than that of the original deaminase TadA7.10 in ABE7.10 and is mainly driven by electrostatic interactions. The directed-evolution mutations increase the positive charge density in the DNA-binding region, thereby enhancing the electrostatic attraction of TadA8e to DNA. We identified R111, N119 and N167 as the key mutations for the enhanced DNA binding and confirmed them by microscale thermophoresis (MST) and in vivo reversion mutation experiments. Unexpectedly, we also found that the directed mutations improved the thermal stability of TadA8e by ~ 12  degrees C (T(m), melting temperature) and that of ABE8e by ~ 9  degrees C, respectively. Our results demonstrate that the directed-evolution mutations improve the substrate-binding ability and protein stability of ABE8e, thus providing a rational basis for further editing optimisation of the system.",
+    "keywords": [
+      "ABE8e",
+      "Base editor",
+      "DNA binding",
+      "Electrostatic interactions",
+      "Genome editing",
+      "Thermal stability"
+    ],
+    "mesh_terms": [
+      "*DNA/metabolism/genetics/chemistry",
+      "*Mutation",
+      "*Molecular Dynamics Simulation",
+      "*Directed Molecular Evolution",
+      "*Gene Editing/methods",
+      "Adenine/metabolism/chemistry",
+      "Protein Stability",
+      "Protein Binding",
+      "Static Electricity",
+      "CRISPR-Cas Systems/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Haixia",
+        "Wang, Lei",
+        "Wang, Ying",
+        "Jiang, Xinyi",
+        "Qin, Qin",
+        "Song, Menghua",
+        "Huang, Qiang"
+      ],
+      "short_names": [
+        "Zhu H",
+        "Wang L",
+        "Wang Y",
+        "Jiang X",
+        "Qin Q",
+        "Song M",
+        "Huang Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5238-1704"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China.",
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China.",
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China.",
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China.",
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China.",
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China.",
+        "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China. huangqiang@fudan.edu.cn.",
+        "Multiscale Research Institute of Complex Systems, Fudan University, Shanghai, 201203, China. huangqiang@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Haixia",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xinyi",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Qin",
+        "short_name": "Qin Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Song, Menghua",
+        "short_name": "Song M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qiang",
+        "short_name": "Huang Q",
+        "identifiers": [
+          "0000-0001-5238-1704"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Genetic Engineering, Shanghai Engineering Research Center of Industrial Microorganisms, MOE Engineering Research Center of Gene Technology, School of Life Sciences, Fudan University, Shanghai, 200438, China. huangqiang@fudan.edu.cn.",
+          "Multiscale Research Institute of Complex Systems, Fudan University, Shanghai, 201203, China. huangqiang@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular and molecular life sciences : CMLS"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Life Sci"
+    ],
+    "pub_date": "2024 Jun 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/14 12:44",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42033211",
+      "40808297",
+      "39569582"
+    ],
+    "refs": [
+      "38000614",
+      "37620340",
+      "37225920",
+      "35822842",
+      "33903911",
+      "32881101",
+      "32732424",
+      "32676065",
+      "32433547",
+      "32181363",
+      "31477922",
+      "31021262",
+      "30513860",
+      "30089922",
+      "30010673",
+      "29553573",
+      "29320733",
+      "29160308",
+      "29123204",
+      "28875174",
+      "28836357",
+      "28710774",
+      "28178540",
+      "27866654",
+      "27476956",
+      "27120160",
+      "27096365",
+      "26841432",
+      "26582918",
+      "26569599",
+      "25430774",
+      "25136104",
+      "24850022",
+      "24529477",
+      "24234437",
+      "24097900",
+      "23929338",
+      "23907171",
+      "23873081",
+      "23482973",
+      "23430151",
+      "23407358",
+      "23360966",
+      "23360965",
+      "23287722",
+      "23287718",
+      "21117705",
+      "20230624",
+      "19543289",
+      "16415880",
+      "15857780",
+      "15549884",
+      "15215472",
+      "12889983",
+      "12651944"
+    ],
+    "similar": [
+      "38874784",
+      "32433547",
+      "34984801",
+      "32732424",
+      "38168987",
+      "34211162",
+      "35887335",
+      "35139891",
+      "39289397",
+      "37526140",
+      "37997697",
+      "33631420",
+      "34073486",
+      "35821638",
+      "32284586",
+      "37315207",
+      "33751803",
+      "38874509",
+      "36947856",
+      "32181363",
+      "36618266",
+      "31181567",
+      "32763143",
+      "29258982",
+      "36229683",
+      "37107666",
+      "37217751",
+      "37848112",
+      "30006570",
+      "38081875",
+      "32483365",
+      "36357719",
+      "36592311",
+      "36160051",
+      "31914687",
+      "36592312",
+      "34622618",
+      "37696818",
+      "37434184",
+      "31433621",
+      "36081278",
+      "36592308",
+      "38790254",
+      "32690971",
+      "30446374",
+      "36639729",
+      "32483364",
+      "38974865",
+      "35353638",
+      "37428865",
+      "35163069",
+      "36995619",
+      "29160308",
+      "33774157",
+      "35524459",
+      "38877035",
+      "37434066",
+      "37322276",
+      "32483363",
+      "35164736",
+      "33863894",
+      "33774156",
+      "31657874",
+      "29483683",
+      "36369279",
+      "32690970",
+      "32353322",
+      "37873982",
+      "33398158",
+      "33462442",
+      "36385635",
+      "34327897",
+      "37369005",
+      "32632303",
+      "32872311",
+      "36592305",
+      "37946200",
+      "39104869",
+      "32727031",
+      "32978399",
+      "30995674",
+      "34732717",
+      "30833658",
+      "31872379",
+      "36374037",
+      "33879582",
+      "30995964",
+      "31740768",
+      "31932727",
+      "29813047",
+      "34997407",
+      "28585179",
+      "36625577",
+      "31086823",
+      "37932818",
+      "31131955",
+      "38969803",
+      "37390819"
+    ],
+    "review": [
+      "38874784",
+      "37526140",
+      "32763143",
+      "34622618",
+      "31433621",
+      "30446374",
+      "37434066",
+      "29483683",
+      "34327897",
+      "32872311",
+      "30995964",
+      "31131955"
+    ],
+    "pmc": [
+      "11335294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38874784/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00018-024-05263-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

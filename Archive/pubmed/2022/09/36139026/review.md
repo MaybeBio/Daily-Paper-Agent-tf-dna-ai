@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, structure, and claims as presented in the provided text
+- **Shared manuscript claim summary** The manuscript reviews the structure, function, and binding specificity of single-stranded DNA binding proteins (SSBs), and surveys machine learning-based methods for predicting SSBs from double-stranded DNA binding proteins (DSBs), including datasets, features, classifiers, and performance evaluation.
+- **Visible evidence base** Abstract, Introduction, Sections 2.1-2.4, Section 3.1-3.4, Section 4, Acknowledgments. No figures, tables, or references were provided.
+- **Missing materials affecting confidence** Figures (including Figure 1, Figure 2, Figure 3), Table 1, full reference list, and any supplementary data were not included. This limits verification of specific claims about structural features, performance metrics, and dataset compositions.
+
+## Reviewer
+- **Overall assessment** This is a well-organized review article that covers two related topics: the biology of SSBs and computational methods for their prediction. The biological sections are informative and appropriately referenced, though the depth of mechanistic detail is moderate. The machine learning sections provide a useful summary of existing methods, but the critical analysis is limited, and several claims about dataset quality and model performance cannot be fully assessed without the missing figures and tables. The manuscript is likely to be of interest to researchers in DNA repair, genome stability, and bioinformatics, but it does not offer substantial new insights beyond what is already available in the cited literature.
+- **Who would be interested in the results, and why** Researchers studying DNA replication, repair, telomere maintenance, and transcriptional regulation would find the biological overview useful. Computational biologists and bioinformaticians working on nucleic acid-binding protein prediction would be interested in the survey of machine learning methods. The review may also serve as an entry point for newcomers to the field.
+- **Major strengths** The manuscript provides a clear and concise summary of SSB structure and function, including a useful discussion of binding specificity. The review of machine learning methods is organized logically around the four key steps of dataset generation, feature extraction, classification, and evaluation. The authors identify important challenges, such as dataset imbalance, protein moonlighting, and the need for better features and deep learning strategies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript states that "currently there are only four published studies on SSB prediction using machine learning-based approaches" and implies that these are comprehensively reviewed.
+  - **Evidence pointer** Section 3, location not provided
+  - **Concern** The claim that only four studies exist is presented without a systematic literature search or a clear inclusion/exclusion criterion. The review does not discuss whether these four studies are representative, whether there are related works on DNA-binding protein prediction that could inform SSB prediction, or whether any preprints or very recent works are omitted.
+  - **Why it matters** If the literature coverage is incomplete, the review's conclusions about the state of the field and its recommendations for future work may be misleading. Readers may rely on this review as an authoritative summary, and an incomplete survey undermines that purpose.
+  - **Resolution test** The authors should provide a clear description of their literature search strategy, including databases, search terms, and time frame. They should also justify why only four studies are included and discuss any related works that were excluded and why.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the low prediction performance may be a result of this dataset with mixed annotations" referring to the independent test set compiled by Sharma et al.
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Concern** The authors performed a CD-HIT analysis and found that a subset of the Sharma et al. test set contains double-stranded RNA binding proteins and dual ssDNA/dsDNA binders. However, they do not provide the details of this analysis, such as the exact number of sequences analyzed, the threshold used, or how the annotation was verified. The claim that mixed annotations explain low performance is plausible but not rigorously demonstrated.
+  - **Why it matters** This is a specific technical critique of another group's dataset. Without transparent evidence, the claim could be seen as speculative or insufficiently supported, which is problematic in a review article that aims to guide future work.
+  - **Resolution test** The authors should provide the full results of their CD-HIT analysis, including the number of sequences, the clustering threshold, and the annotation sources. They should also clarify whether the mixed annotations were confirmed by manual inspection or only by automated database annotations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript states that "novel strategies need to be developed for creative use of deep learning technology for SSB prediction" and suggests that deep learning models require large training datasets.
+  - **Evidence pointer** Section 4, location not provided
+  - **Concern** The discussion of deep learning is superficial. The authors do not mention specific deep learning architectures (e.g., CNNs, RNNs, transformers) that have been applied to related problems, nor do they discuss transfer learning, data augmentation, or semi-supervised approaches that could mitigate the small dataset problem. The claim that deep learning requires large datasets is overly simplistic, as recent methods have shown success with limited data.
+  - **Why it matters** The review aims to provide perspective on future directions. A more nuanced discussion of deep learning would be more useful to readers and would better reflect the current state of the art in bioinformatics.
+  - **Resolution test** The authors should expand the discussion to include specific examples of deep learning methods applied to protein function prediction with small datasets, and discuss strategies such as transfer learning or multi-task learning that could be relevant for SSB prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, description of KH domains
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The sentence "The KH domains are characterized by three α-helices that are closely packed with a three-stranded β-sheet" is grammatically awkward and could be misinterpreted. It is unclear whether the β-sheet is part of the KH domain or a separate structural element.
+  - **Required correction** Rephrase to clarify the structural arrangement, e.g., "KH domains consist of a three-stranded β-sheet packed against three α-helices."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4, performance evaluation
+  - **Evidence pointer** Section 3.4, location not provided
+  - **Issue** The manuscript mentions that "there is a mixed performance even with the same set of feature descriptors, datasets, and classifier models" but does not provide a table or figure summarizing these results. The reader is referred to Table 1, which was not provided.
+  - **Required correction** Ensure that Table 1 is included in the final version and that the text explicitly references the key performance metrics (e.g., accuracy, MCC) for each method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.4, SSBs and diseases
+  - **Evidence pointer** Section 2.4, location not provided
+  - **Issue** The section is brief and does not clearly explain the mechanistic link between SSB dysfunction and specific diseases beyond general statements about genome instability.
+  - **Required correction** Add one or two sentences explaining how defects in specific SSBs (e.g., hSSB1, POT1) contribute to cancer or other diseases, with appropriate references.
+- **Technical failings that need to be addressed before the case is established** The manuscript's central claim that machine learning methods can effectively predict SSBs is supported by the cited studies, but the lack of detailed performance data (Table 1) and the incomplete description of the dataset analysis (R1-M2) prevent full verification. The literature coverage claim (R1-M1) also needs to be substantiated.
+
+## Risk / unsupported claims
+- The claim that "currently there are only four published studies on SSB prediction using machine learning-based approaches" is not verifiable without a systematic search description.
+- The claim that "the low prediction performance may be a result of this dataset with mixed annotations" is plausible but not fully supported by the evidence provided.
+- The statement that "deep learning models typically require a large number of training protein sequences to avoid overfitting" is an oversimplification and not supported by specific examples or citations.
+- The assertion that "the flexibility of SSBs plays a lesser role than that of double-stranded DNA-binding proteins in conferring binding specificity" is presented without quantitative comparison or statistical support.

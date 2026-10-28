@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2508.13191v1",
+  "title": "NucEL: Single-Nucleotide ELECTRA-Style Genomic Pre-training for Efficient and Interpretable Representations",
+  "doi": "",
+  "abstract": "Pre-training large language models on genomic sequences is a powerful approach for learning biologically meaningful representations. Masked language modeling (MLM) methods, such as DNABERT and Nucleotide Transformer (NT), achieve strong performance but suffer from partial token supervision, pre-training/fine-tuning mismatches, and high computational costs. We introduce NucEL, the first ELECTRA-style pre-training framework for genomic foundation models, addressing these limitations. Using a discriminator to identify tokens altered by a generator, NucEL provides comprehensive token-level supervision across all sequence positions, improving efficiency over the partial supervision of MLM. Incorporating ModernBERT's hybrid local-global attention and flash attention, NucEL offers an optimized BERT architecture for genomic modeling. Unlike 6-mer tokenization, NucEL uses single-nucleotide tokens for fine-grained resolution, boosting both efficiency and interpretability. Pre-trained on the human genome, NucEL achieves state-of-the-art results on diverse downstream tasks -- regulatory element identification (e.g., promoters, enhancers), transcription factor binding prediction, open chromatin classification, and histone modification profiling -- surpassing similarly sized MLM-based models and rivaling models 25x larger, such as NT. Ablation studies highlight optimal tokenization and masking strategies for ELECTRA-style DNA pre-training. Attention analysis reveals NucEL's superior capture of biologically relevant motifs compared to NT, providing insights into hierarchical learning and regulatory element modeling. These findings demonstrate ELECTRA-style pre-training as an efficient, effective strategy for genomic representation learning with broad implications for genomic research.",
+  "authors": [
+    "Ke Ding",
+    "Brian Parker",
+    "Jiayu Wen"
+  ],
+  "published_date": "2025-08-15T12:34:51Z",
+  "updated_date": "2025-08-15T12:34:51Z",
+  "journal": "",
+  "category": "q-bio.GN",
+  "landing_url": "https://arxiv.org/abs/2508.13191v1",
+  "pdf_url": "https://arxiv.org/pdf/2508.13191v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2508.13191v1",
+    "raw_categories": [
+      "q-bio.GN"
+    ],
+    "journal_ref": ""
+  }
+}

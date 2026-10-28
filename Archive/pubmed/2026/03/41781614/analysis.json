@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41781614",
+  "title": "Genome modelling and design across all domains of life with Evo 2.",
+  "authors": "Brixi, Garyk; Durrant, Matthew G; Ku, Jerome; Naghipourfar, Mohsen; Poli, Michael; Sun, Gwanggyu; Brockman, Greg; Chang, Daniel; Fanton, Alison; Gonzalez, Gabriel A; King, Samuel H; Li, David B; Merchant, Aditi T; Nguyen, Eric; Ricci-Tam, Chiara; Romero, David W; Schmok, Jonathan C; Taghibakhshi, Ali; Vorontsov, Anton; Yang, Brandon; Deng, Myra; Gorton, Liv; Nguyen, Nam; Wang, Nicholas K; Pearce, Michael T; Simon, Elana; Adams, Etowah; Amador, Zachary J; Ashley, Euan A; Baccus, Stephen A; Dai, Haoyu; Dillmann, Steven; Ermon, Stefano; Guo, Daniel; Herschl, Michael H; Ilango, Rajesh; Janik, Ken; Lu, Amy X; Mehta, Reshma; Mofrad, Mohammad R K; Ng, Madelena Y; Pannu, Jaspreet; Re, Christopher; St John, John; Sullivan, Jeremy; Tey, Joseph; Viggiano, Ben; Zhu, Kevin; Zynda, Greg; Balsam, Daniel; Collison, Patrick; Costa, Anthony B; Hernandez-Boussard, Tina; Ho, Eric; Liu, Ming-Yu; McGrath, Thomas; Powell, Kimberly; Pinglay, Sudarshan; Burke, Dave P; Goodarzi, Hani; Hsu, Patrick D; Hie, Brian L",
+  "journal": "Nature",
+  "published_date": "2026-03-05",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 7,
+  "one_liner_zh": "Evo 2是一个跨物种基因组基础模型，能预测变异功能影响并生成基因组序列，其学习到的转录因子结合位点表征和生成能力对TF-DNA互作建模有方法学借鉴价值，但非直接聚焦TF-DNA结合机制。",
+  "abstract": "All of life encodes information with DNA. Although tools for genome sequencing, synthesis and editing have transformed biological research, we still lack sufficient understanding of the immense complexity encoded by genomes to predict the effects of many classes of genomic changes or to intelligently compose new biological systems. Artificial intelligence models that learn information from genomic sequences across diverse organisms have increasingly advanced prediction and design capabilities(1,2). Here we introduce Evo 2, a biological foundation model trained on 9 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life to have a 1 million token context window with single-nucleotide resolution. Evo 2 learns to accurately predict the functional impacts of genetic variation-from noncoding pathogenic mutations to clinically significant BRCA1 variants-without task-specific fine-tuning. Mechanistic interpretability analyses reveal that Evo 2 learns representations associated with biological features, including exon-intron boundaries, transcription factor binding sites, protein structural elements and prophage genomic regions. The generative abilities of Evo 2 produce mitochondrial, prokaryotic and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Evo 2 also generates experimentally validated chromatin accessibility patterns when guided by predictive models(3,4) and inference-time search. We have made Evo 2 fully open, including model parameters, training code(5), inference code and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+  "abstract_zh": "所有生命都以DNA编码信息。尽管基因组测序、合成和编辑工具已彻底改变了生物学研究，我们仍缺乏对基因组所编码的巨大复杂性的充分理解，无法预测许多类别基因组变化的影响，或智能地组合新的生物系统。从多种生物体的基因组序列中学习信息的人工智能模型，已日益推进预测和设计能力(1,2)。在此，我们介绍Evo 2，一种生物基础模型，其训练数据来自一个高度精选的基因组图谱，涵盖生命所有领域，包含9万亿个DNA碱基对，具有100万token的上下文窗口和单核苷酸分辨率。Evo 2无需任务特定微调，即可准确预测遗传变异的功能影响——从非编码致病突变到临床显著的BRCA1变异。机制可解释性分析揭示，Evo 2学习了与生物特征相关的表示，包括外显子-内含子边界、转录因子结合位点、蛋白质结构元件和前噬菌体基因组区域。Evo 2的生成能力在基因组规模上产生线粒体、原核和真核序列，其自然性和连贯性优于先前方法。在预测模型(3,4)和推理时搜索的引导下，Evo 2还能生成实验验证的染色质可及性模式。我们已完全开放Evo 2，包括模型参数、训练代码(5)、推理代码和OpenGenome2数据集，以加速生物复杂性的探索和设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41781614/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41781614/",
+  "paper_page_path": "papers/pubmed/41781614/index.html"
+}

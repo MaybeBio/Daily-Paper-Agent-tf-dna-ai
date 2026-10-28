@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40601256",
+  "title": "Advances in Language-Model-Informed Protein-Nucleic Acid Binding Site Prediction.",
+  "authors": "Tarafder, Sumit; Wang, Xinyu; Roche, Rahmatullah; Bhattacharya, Debswapna",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-07-02",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述了基于蛋白语言模型与等变图神经网络的蛋白-核酸结合位点预测方法，并详述EquiPNAS流程，虽聚焦广义蛋白-DNA/RNA互作而非TF-DNA特异性体系，但方法可迁移至TF-DNA结合位点预测，具有借鉴价值。",
+  "abstract": "Interactions between proteins and nucleic acids are essential for understanding a wide range of cellular and evolutionary processes. Recent advancements in protein language models (pLMs), trained on vast protein sequence data, have revolutionized various predictive modeling tasks, offering unprecedented scalability and generalizability. Consequently, a number of computational methods have been developed in the recent past for protein-nucleic acid binding site prediction powered by pLMs. To this end, we recently developed the EquiPNAS method that integrates pLM embeddings with E(3) equivariant deep graph neural networks for enhancing accuracy and robustness in predicting protein-DNA and protein-RNA binding sites, thereby reducing the dependency on evolutionary information. Here we present an overview of the recent protein-nucleic acid binding site prediction methods, emphasizing the recent advances in harnessing the potential of pLMs, and provide a detailed description of the EquiPNAS methodology as well as the necessary materials and procedures for the computational prediction of protein-DNA and protein-RNA binding sites.",
+  "abstract_zh": "蛋白质与核酸之间的相互作用对于理解广泛的细胞和进化过程至关重要。近年来，基于大量蛋白质序列数据训练的蛋白质语言模型（pLMs）的进步，彻底改变了各种预测建模任务，提供了前所未有的可扩展性和泛化能力。因此，近期已开发出多种由pLMs驱动的蛋白质-核酸结合位点预测计算方法。为此，我们最近开发了EquiPNAS方法，该方法将pLM嵌入与E(3)等变深度图神经网络相结合，以提高预测蛋白质-DNA和蛋白质-RNA结合位点的准确性和鲁棒性，从而减少对进化信息的依赖。在此，我们概述了近期蛋白质-核酸结合位点预测方法，重点强调了利用pLMs潜力的最新进展，并详细描述了EquiPNAS方法学以及用于计算预测蛋白质-DNA和蛋白质-RNA结合位点所需的必要材料和步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40601256/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40601256/",
+  "paper_page_path": "papers/pubmed/40601256/index.html"
+}

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "40552285",
+    "doi": "10.3389/fimmu.2025.1595222",
+    "title": "Explainable machine learning reveals ribosome biogenesis biomarkers in preeclampsia risk prediction."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Preeclampsia, a hypertensive disorder during pregnancy affecting 2-8% of pregnancies globally, remains a leading cause of maternal and fetal morbidity. Current diagnostic reliance on late-onset clinical features and suboptimal biomarkers underscores the need for early molecular predictors. Ribosome biogenesis, critical for cellular homeostasis, is hypothesized to drive placental dysfunction in PE, though its role remains underexplored. METHODS: We integrated placental transcriptomic data from two datasets (GSE75010, GSE10588) to systematically investigate ribosome biogenesis dysregulation in preeclampsia. Functional enrichment analyses delineated the dysregulation of pathways, while weighted gene co-expression network analysis identified hub genes within ribosome biogenesis-associated modules. A multi-algorithm machine learning framework was employed to optimize predictive performance, with model interpretability achieved through SHapley Additive exPlanations and diagnostic accuracy validated by receiver operating characteristic curves. Immune microenvironment profiling and regulatory network analyses elucidated mechanistic links. Finally, qRT-PCR confirmed the differential expression of key genes in clinical samples. RESULTS: We identified 25 ribosome biogenesis-related differentially expressed genes, which were significantly enriched in RNA degradation and rRNA processing. Weighted gene co-expression network analysis prioritized seven hub genes. A random forest model incorporating six key feature genes (GLUL, DDX28, NCL, RIOK1, SUV39H1, RRS1) demonstrated robust diagnostic performance, achieving an AUC of 0.972 in the training dataset and 0.917 in the validation dataset. SHapley Additive exPlanations interpretability analysis revealed SUV39H1 as the dominant risk contributor, while GLUL exhibited a protective effect. Regulatory network reconstruction identified 32 transcription factors, 24 RNA-binding proteins, and 62 miRNAs as putative upstream regulators of key genes. Immune Microenvironment Profiling linked key genes to altered placental immune cell populations. qRT-PCR confirmed that GLUL and NCL expression decreased and DDX28 and RIOK1 expression increased in clinical placental samples of preeclampsia group. CONCLUSION: This study identifies ribosome biogenesis as one of the pivotal molecular mechanisms to PE pathogenesis, leveraging SHAP-interpretable machine learning to pinpoint six biomarkers. Future research is requisite for the validation of CRISPR and the integration of multi-omics to translate the findings into clinical diagnosis and targeted therapy.",
+    "keywords": [
+      "biomarker validation",
+      "multi-algorithm machine learning",
+      "preeclampsia",
+      "ribosome biogenesis dysregulation",
+      "risk model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Pregnancy",
+      "*Pre-Eclampsia/genetics/diagnosis/metabolism/etiology",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "*Ribosomes/metabolism/genetics",
+      "Placenta/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jingjing",
+        "Zhang, Dan",
+        "Zhu, Chengxiu",
+        "Lin, Lin",
+        "Ye, Kejun",
+        "Hua, Ying",
+        "Peng, Mengjia"
+      ],
+      "short_names": [
+        "Chen J",
+        "Zhang D",
+        "Zhu C",
+        "Lin L",
+        "Ye K",
+        "Hua Y",
+        "Peng M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China.",
+        "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China.",
+        "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China.",
+        "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China.",
+        "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China.",
+        "Department of Gynecology and Obstetrics, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jingjing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dan",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Chengxiu",
+        "short_name": "Zhu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Lin",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Kejun",
+        "short_name": "Ye K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Ying",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Mengjia",
+        "short_name": "Peng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, The Third Affiliated Hospital of Wenzhou Medical University, Rui'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/24 11:10",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [
+      "42597681"
+    ],
+    "refs": [
+      "39981257",
+      "39684863",
+      "38599169",
+      "38343327",
+      "36617563",
+      "36256480",
+      "35561164",
+      "35440410",
+      "34485175",
+      "33384961",
+      "30920918",
+      "30407594",
+      "30312585",
+      "30278173",
+      "29912392",
+      "29507646",
+      "29187609",
+      "28962696",
+      "27924033",
+      "27322403",
+      "27207943",
+      "27160201",
+      "26735990",
+      "26342729",
+      "25948244",
+      "25774007",
+      "25605792",
+      "25552189",
+      "24297251",
+      "24150027",
+      "23193258",
+      "22455463",
+      "22261192",
+      "22257669",
+      "22251901",
+      "21414208",
+      "20965417",
+      "20598363",
+      "19249095",
+      "19114008",
+      "16199517",
+      "15350246",
+      "15254394",
+      "11590094",
+      "10592173"
+    ],
+    "similar": [
+      "40552285",
+      "41325315",
+      "41044520",
+      "39707003",
+      "40374866",
+      "40861438",
+      "40016711",
+      "39544937",
+      "41080564",
+      "41217566",
+      "40532551",
+      "39675129",
+      "39934690",
+      "40207223",
+      "35880174",
+      "39853851",
+      "39709373",
+      "40151199",
+      "40970657",
+      "41034826",
+      "41403942",
+      "41444673",
+      "40887492",
+      "39967661",
+      "41305702",
+      "31416885",
+      "40642093",
+      "39295860",
+      "40048749",
+      "40672961",
+      "41291841",
+      "41328587",
+      "41394823",
+      "41052072",
+      "40362669",
+      "39139563",
+      "36258174",
+      "38362844",
+      "40319799",
+      "39512836",
+      "39730451",
+      "38428097",
+      "38941397",
+      "41424060",
+      "41139197",
+      "38259479",
+      "39273292",
+      "40203595",
+      "41200172",
+      "36541903",
+      "20541258",
+      "41221285",
+      "39815029",
+      "40424611",
+      "40592741",
+      "38894741",
+      "40097519",
+      "41415264",
+      "41388523",
+      "40746540",
+      "40347801",
+      "41013556",
+      "41479901",
+      "39984919",
+      "40973864",
+      "40969769",
+      "39121584",
+      "40823529",
+      "39142001",
+      "38863714",
+      "38259465",
+      "40216654",
+      "39916955",
+      "41320776",
+      "39930027",
+      "38678187",
+      "40777016",
+      "37211139",
+      "40966654",
+      "33744280",
+      "41432483",
+      "36454636",
+      "28454701",
+      "41261566",
+      "41300841",
+      "41107929",
+      "40068030",
+      "40742465",
+      "40253080",
+      "35114187",
+      "40273141",
+      "40830558",
+      "40406126",
+      "40943308",
+      "41316541",
+      "19027158",
+      "40517485",
+      "39735547",
+      "38048229",
+      "35711567"
+    ],
+    "review": [
+      "40552285",
+      "39273292"
+    ],
+    "pmc": [
+      "12183210"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40552285/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-936",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1595222",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

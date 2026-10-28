@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.22.573103",
+  "title": "Atomic context-conditioned protein sequence design using LigandMPNN",
+  "authors": "Dauparas J; Lee GR; Pecoraro R; An L; Anishchenko I; Glasscock C; Baker D",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-23",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 7,
+  "one_liner_zh": "LigandMPNN是一种深度学习蛋白质序列设计方法，显式建模小分子、核苷酸等非蛋白原子，在DNA结合蛋白设计中表现优异，其原子上下文建模思路可迁移至TF-DNA互作体系。",
+  "abstract": "Protein sequence design in the context of small molecules, nucleotides, and metals is critical to enzyme and small molecule binder and sensor design, but current state-of-the-art deep learning-based sequence design methods are unable to model non-protein atoms and molecules. Here, we describe a deep learning-based protein sequence design method called LigandMPNN that explicitly models all non-protein components of biomolecular systems. LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% vs. 50.4% & 50.5%), nucleotides (50.5% vs. 35.2% & 34.0%), and metals (77.5% vs. 36.0% & 40.6%). LigandMPNN generates not only sequences but also sidechain conformations to allow detailed evaluation of binding interactions. Experimental characterization demonstrates that LigandMPNN can generate small molecule and DNA-binding proteins with high affinity and specificity. <h4>One-sentence summary</h4> We present a deep learning-based protein sequence design method that allows explicit modeling of small molecule, nucleotide, metal, and other atomic contexts.",
+  "abstract_zh": "在小分子、核苷酸和金属背景下的蛋白质序列设计对于酶、小分子结合剂及传感器的设计至关重要，但当前最先进的基于深度学习的序列设计方法无法模拟非蛋白质原子和分子。在此，我们描述了一种名为LigandMPNN的基于深度学习的蛋白质序列设计方法，该方法明确模拟了生物分子系统中的所有非蛋白质组分。LigandMPNN在与小分子相互作用的残基（63.3%对比50.4%和50.5%）、核苷酸（50.5%对比35.2%和34.0%）以及金属（77.5%对比36.0%和40.6%）的天然骨架序列恢复上，显著优于Rosetta和ProteinMPNN。LigandMPNN不仅生成序列，还生成侧链构象，以便对结合相互作用进行详细评估。实验表征表明，LigandMPNN能够生成具有高亲和力和特异性的小分子及DNA结合蛋白。<h4>一句话总结</h4> 我们提出了一种基于深度学习的蛋白质序列设计方法，允许对小分子、核苷酸、金属及其他原子环境进行显式建模。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573103",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573103",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.22.573103/index.html"
+}

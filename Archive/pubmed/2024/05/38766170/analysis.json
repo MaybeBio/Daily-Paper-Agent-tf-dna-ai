@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38766170",
+  "title": "Network Analyses of Brain Tumor Patients' Multiomic Data Reveals Pharmacological Opportunities to Alter Cell State Transitions.",
+  "authors": "Bumbaca, Brandon; Birtwistle, Marc R; Gallo, James M",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-05-20",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用多组学数据构建布尔网络和机器学习预测GBM细胞状态转变，虽涉及转录因子TFAP2A，但核心是蛋白互作网络与细胞状态，非蛋白质-DNA互作或TF-DNA结合建模，方法上无AI/物理模拟用于互作机制。",
+  "abstract": "Glioblastoma Multiforme (GBM) remains a particularly difficult cancer to treat, and survival outcomes remain poor. In addition to the lack of dedicated drug discovery programs for GBM, extensive intratumor heterogeneity and epigenetic plasticity related to cell-state transitions are major roadblocks to successful drug therapy in GBM. To study these phenomenon, publicly available snRNAseq and bulk RNAseq data from patient samples were used to categorize cells from patients into four cell states (i.e. phenotypes), namely: (i) neural progenitor-like (NPC-like), (ii) oligodendrocyte progenitor-like (OPC-like), (iii) astrocyte-like (AC-like), and (iv) mesenchymal-like (MES-like). Patients were subsequently grouped into subpopulations based on which cell-state was the most dominant in their respective tumor. By incorporating phosphoproteomic measurements from the same patients, a protein-protein interaction network (PPIN) was constructed for each cell state. These four-cell state PPINs were pooled to form a single Boolean network that was used for in silico protein knockout simulations to investigate mechanisms that either promote or prevent cell state transitions. Simulation results were input into a boosted tree machine learning model which predicted the cell states or phenotypes of GBM patients from an independent public data source, the Glioma Longitudinal Analysis (GLASS) Consortium. Combining the simulation results and the machine learning predictions, we generated hypotheses for clinically relevant causal mechanisms of cell state transitions. For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state. Such protein nodes and the associated signaling pathways provide potential drug targets that can be further tested in vitro and support cell state-directed (CSD) therapy.",
+  "abstract_zh": "多形性胶质母细胞瘤（Glioblastoma Multiforme, GBM）仍是一种特别难以治疗的癌症，生存结果依然不佳。除了缺乏针对GBM的专门药物发现项目外，广泛的肿瘤内异质性和与细胞状态转换相关的表观遗传可塑性是GBM成功药物治疗的主要障碍。为研究这些现象，利用来自患者样本的公开可用snRNAseq和bulk RNAseq数据，将患者细胞分为四种细胞状态（即表型），即：（i）神经祖细胞样（NPC-like）、（ii）少突胶质细胞祖细胞样（OPC-like）、（iii）星形胶质细胞样（AC-like）和（iv）间充质样（MES-like）。随后，根据各自肿瘤中最占主导的细胞状态，将患者分组为亚群。通过整合来自同一患者的磷酸化蛋白质组学测量，为每种细胞状态构建了蛋白质-蛋白质相互作用网络（PPIN）。将这四种细胞状态的PPIN合并成一个单一的布尔网络，用于进行计算机模拟蛋白质敲除实验，以研究促进或阻止细胞状态转换的机制。模拟结果输入到一个提升树机器学习模型中，该模型从独立公共数据源——胶质瘤纵向分析（GLASS）联盟——预测GBM患者的细胞状态或表型。结合模拟结果和机器学习预测，我们生成了关于细胞状态转换的临床相关因果机制的假设。例如，转录因子TFAP2A可观察到促进从NPC-like状态向MES-like状态的转换。此类蛋白质节点及相关信号通路提供了潜在的药物靶点，可在体外进一步测试，并支持细胞状态导向（CSD）治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38766170/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38766170/",
+  "paper_page_path": "papers/pubmed/38766170/index.html"
+}

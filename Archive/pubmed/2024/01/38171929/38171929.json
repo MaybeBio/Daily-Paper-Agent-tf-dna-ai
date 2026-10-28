@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38171929",
+    "doi": "10.1093/bib/bbad488",
+    "title": "Protein-DNA binding sites prediction based on pre-trained protein language model and contrastive learning."
+  },
+  "content": {
+    "abstract": "Protein-DNA interaction is critical for life activities such as replication, transcription and splicing. Identifying protein-DNA binding residues is essential for modeling their interaction and downstream studies. However, developing accurate and efficient computational methods for this task remains challenging. Improvements in this area have the potential to drive novel applications in biotechnology and drug design. In this study, we propose a novel approach called Contrastive Learning And Pre-trained Encoder (CLAPE), which combines a pre-trained protein language model and the contrastive learning method to predict DNA binding residues. We trained the CLAPE-DB model on the protein-DNA binding sites dataset and evaluated the model performance and generalization ability through various experiments. The results showed that the area under ROC curve values of the CLAPE-DB model on the two benchmark datasets reached 0.871 and 0.881, respectively, indicating superior performance compared to other existing models. CLAPE-DB showed better generalization ability and was specific to DNA-binding sites. In addition, we trained CLAPE on different protein-ligand binding sites datasets, demonstrating that CLAPE is a general framework for binding sites prediction. To facilitate the scientific community, the benchmark datasets and codes are freely available at https://github.com/YAndrewL/clape.",
+    "keywords": [
+      "contrastive learning",
+      "pre-training",
+      "protein-DNA interaction"
+    ],
+    "mesh_terms": [
+      "*Learning",
+      "Binding Sites",
+      "Drug Design",
+      "Language",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yufan",
+        "Tian, Boxue"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Tian B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5830-0669"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, 100084, China.",
+        "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, 100084, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yufan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Boxue",
+        "short_name": "Tian B",
+        "identifiers": [
+          "0000-0002-5830-0669"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, School of Pharmaceutical Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Nov 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 11:43",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42694419",
+      "42598852",
+      "42323855",
+      "42286178",
+      "42243877",
+      "42227990",
+      "42103982",
+      "42100742",
+      "41959628",
+      "41770426",
+      "41643061",
+      "41588523",
+      "41286313",
+      "41206113",
+      "41168713",
+      "41134132",
+      "41045511",
+      "40919912",
+      "40673435",
+      "40671295",
+      "40601256",
+      "40597150",
+      "40576030",
+      "40484957",
+      "40448683",
+      "40359455",
+      "40265190",
+      "40241764",
+      "40185915",
+      "39995900",
+      "39833102",
+      "39769208",
+      "39673490",
+      "39608603",
+      "39506806",
+      "39461902",
+      "39311379",
+      "39202449"
+    ],
+    "refs": [
+      "38428432",
+      "37490457",
+      "37289807",
+      "36927031",
+      "36516298",
+      "35943134",
+      "35709747",
+      "35618814",
+      "35604077",
+      "35039821",
+      "34301293",
+      "34232869",
+      "34073705",
+      "33577689",
+      "32797179",
+      "32142788",
+      "30684677",
+      "30169574",
+      "30040656",
+      "30040631",
+      "29425488",
+      "28195723",
+      "27015757",
+      "24670762",
+      "24214988",
+      "23090257",
+      "23087378",
+      "22198341",
+      "21071423",
+      "20522253",
+      "20334529",
+      "20140026",
+      "18940859",
+      "18035408",
+      "17407165",
+      "17377532",
+      "16845003",
+      "16731699",
+      "11104519",
+      "10982878",
+      "10869041"
+    ],
+    "similar": [
+      "38171929",
+      "39506806",
+      "37824738",
+      "39214282",
+      "39788787",
+      "37079731",
+      "38701417",
+      "37505457",
+      "35604077",
+      "39357703",
+      "37844089",
+      "39693053",
+      "38515052",
+      "40120380",
+      "38048895",
+      "40315072",
+      "38830995",
+      "37529914",
+      "39773344",
+      "35039821",
+      "38064959",
+      "39962390",
+      "39154194",
+      "38530779",
+      "34073774",
+      "40127181",
+      "39447059",
+      "37421738",
+      "36274238",
+      "39791126",
+      "39256197",
+      "37054909",
+      "37030137",
+      "35563090",
+      "39913849",
+      "40060567",
+      "38885206",
+      "39805255",
+      "38086236",
+      "38643080",
+      "39460948",
+      "25730499",
+      "38078741",
+      "37054649",
+      "32840562",
+      "37299767",
+      "36702988",
+      "39536998",
+      "38221904",
+      "36380384",
+      "39357724",
+      "37904198",
+      "36715986",
+      "38810377",
+      "39500238",
+      "40100679",
+      "34874856",
+      "33594723",
+      "39174581",
+      "39121938",
+      "37952703",
+      "39478454",
+      "37015360",
+      "39528950",
+      "37261859",
+      "39961524",
+      "38940179",
+      "35649392",
+      "37572298",
+      "35943134",
+      "31423003",
+      "35776809",
+      "38630609",
+      "34915158",
+      "37289553",
+      "38297330",
+      "39437275",
+      "38127815",
+      "39778580",
+      "39107889",
+      "39827794",
+      "37866116",
+      "33454744",
+      "35079716",
+      "37531858",
+      "37549065",
+      "40143108",
+      "37427977",
+      "39921889",
+      "36460623",
+      "38291364",
+      "38335087",
+      "39079285",
+      "40335283",
+      "36587439",
+      "38552281",
+      "37313714",
+      "39388839",
+      "37250853",
+      "39295942"
+    ],
+    "review": [
+      "38171929"
+    ],
+    "pmc": [
+      "10782905"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38171929.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38171929/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38171929",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad488",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

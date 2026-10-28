@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "37564980",
+    "doi": "10.3389/fendo.2023.1004245",
+    "title": "Molecular mechanisms regulating natural menopause in the female ovary: a study based on transcriptomic data."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Natural menopause is an inevitable biological process with significant implications for women's health. However, the molecular mechanisms underlying menopause are not well understood. This study aimed to investigate the molecular and cellular changes occurring in the ovary before and after perimenopause. METHODS: Single-cell sequencing data from the GTEx V8 cohort (30-39: 14 individuals; 40-49: 37 individuals; 50-59: 61 individuals) and transcriptome sequencing data from ovarian tissue were analyzed. Seurat was used for single-cell sequencing data analysis, while harmony was employed for data integration. Cell differentiation trajectories were inferred using CytoTrace. CIBERSORTX assessed cell infiltration scores in ovarian tissue. WGCNA evaluated co-expression network characteristics in pre- and post-perimenopausal ovarian tissue. Functional enrichment analysis of co-expression modules was conducted using ClusterprofileR and Metascape. DESeq2 performed differential expression analysis. Master regulator analysis and signaling pathway activity analysis were carried out using MsViper and Progeny, respectively. Machine learning models were constructed using Orange3. RESULTS: We identified the differentiation trajectory of follicular cells in the ovary as ARID5B+ Granulosa -> JUN+ Granulosa -> KRT18+ Granulosa -> MT-CO2+ Granulosa -> GSTA1+ Granulosa -> HMGB1+ Granulosa. Genes driving Granulosa differentiation, including RBP1, TMSB10, SERPINE2, and TMSB4X, were enriched in ATP-dependent activity regulation pathways. Genes involved in maintaining the Granulosa state, such as DCN, ARID5B, EIF1, and HSP90AB1, were enriched in the response to unfolded protein and chaperone-mediated protein complex assembly pathways. Increased contents of terminally differentiated HMGB1+ Granulosa and GSTA1+ Granulosa were observed in the ovaries of individuals aged 50-69. Signaling pathway activity analysis indicated a gradual decrease in TGFb and MAPK pathway activity with menopause progression, while p53 pathway activity increased. Master regulator analysis revealed significant activation of transcription factors FOXR1, OTX2, MYBL2, HNF1A, and FOXN4 in the 30-39 age group, and GLI1, SMAD1, SMAD7, APP, and EGR1 in the 40-49 age group. Additionally, a diagnostic model based on 16 transcription factors (Logistic Regression L2) achieved reliable performance in determining ovarian status before and after perimenopause. CONCLUSION: This study provides insights into the molecular and cellular mechanisms underlying natural menopause in the ovary. The findings contribute to our understanding of perimenopausal changes and offer a foundation for health management strategies for women during this transition.",
+    "keywords": [
+      "Granulosa",
+      "bulk-RNA-seq",
+      "menopause",
+      "natural ageing",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Adult",
+      "Middle Aged",
+      "*Ovary/metabolism",
+      "Transcriptome",
+      "*HMGB1 Protein/metabolism",
+      "Serpin E2/metabolism",
+      "Menopause/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Quan",
+        "Wei, Fangqin",
+        "Wang, Jiannan",
+        "Liu, Haiyan",
+        "Zhang, Hua",
+        "Liu, Min",
+        "Liu, Kaili",
+        "Ye, Zheng"
+      ],
+      "short_names": [
+        "Liu Q",
+        "Wei F",
+        "Wang J",
+        "Liu H",
+        "Zhang H",
+        "Liu M",
+        "Liu K",
+        "Ye Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China.",
+        "State Key Laboratory of Bioelectronics, Southeast University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Quan",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Fangqin",
+        "short_name": "Wei F",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiannan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Haiyan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hua",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Min",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kaili",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Binhu Hospital, Hefei First People's Hospital, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zheng",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioelectronics, Southeast University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/11 06:43",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "42467724",
+      "41975518",
+      "41514565",
+      "41148324",
+      "41009742",
+      "40940954",
+      "40746724",
+      "40452152",
+      "39247918",
+      "38469181"
+    ],
+    "refs": [
+      "36699385",
+      "35909541",
+      "35145483",
+      "34557778",
+      "32913098",
+      "31974247",
+      "31870423",
+      "31588031",
+      "31474332",
+      "31320652",
+      "31061481",
+      "30944313",
+      "30664679",
+      "30643263",
+      "30283136",
+      "30202859",
+      "30155373",
+      "29608179",
+      "29295995",
+      "27322546",
+      "27153652",
+      "26471080",
+      "26278873",
+      "26100101",
+      "25830628",
+      "25516281",
+      "24492487",
+      "24012626",
+      "22847922",
+      "22772735",
+      "21546393",
+      "21451424",
+      "19589949",
+      "19196677",
+      "19114008",
+      "18334591",
+      "18204438",
+      "17515566",
+      "16458172",
+      "15968015",
+      "15910013",
+      "11420129",
+      "10640361",
+      "8183579"
+    ],
+    "similar": [
+      "37564980",
+      "35909541",
+      "34369625",
+      "29506120",
+      "35451009",
+      "38373962",
+      "16807318",
+      "37235796",
+      "36803359",
+      "37453139",
+      "33351795",
+      "38803550",
+      "34059912",
+      "38692177",
+      "34124295",
+      "37315842",
+      "31211846",
+      "32539154",
+      "38471223",
+      "34418496",
+      "11875118",
+      "38754522",
+      "33396489",
+      "36671432",
+      "22888166",
+      "23176151",
+      "28723025",
+      "7895650",
+      "37848988",
+      "31544976",
+      "31443152",
+      "30371869",
+      "10999851",
+      "35370991",
+      "28076754",
+      "29221447",
+      "24899573",
+      "29848177",
+      "32320818",
+      "36527406",
+      "18973687",
+      "36805799",
+      "37547465",
+      "34487832",
+      "18574431",
+      "36738709",
+      "37063851",
+      "34673933",
+      "37537636",
+      "23315064",
+      "35183204",
+      "27056885",
+      "23613466",
+      "29401296",
+      "12606371",
+      "32004457",
+      "10927623",
+      "35300716",
+      "25683803",
+      "32427331",
+      "32469087",
+      "17395697",
+      "30304446",
+      "38352714",
+      "35237237",
+      "35313911",
+      "32516392",
+      "39210795",
+      "34911438",
+      "27986931",
+      "37468508",
+      "34137841",
+      "38956667",
+      "27793768",
+      "37741593",
+      "29723039",
+      "35596738",
+      "37385616",
+      "35639639",
+      "19819941",
+      "29929541",
+      "489711",
+      "17207475",
+      "39034722",
+      "31553790",
+      "39235098",
+      "36246893",
+      "39090717",
+      "26540452",
+      "31915051",
+      "9389536",
+      "39245652",
+      "30052945",
+      "27385727",
+      "38412592",
+      "33326997",
+      "9013764",
+      "38594460",
+      "38652170",
+      "29386068",
+      "36739419"
+    ],
+    "review": [
+      "37564980",
+      "36671432"
+    ],
+    "pmc": [
+      "10411606"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37564980/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37564980",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3854",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2023.1004245",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a computational model based on ensemble learning to predict the functional role of transcription factors (TFs) residing between divergent gene pairs, using Acute Myeloid Leukaemia (AML) gene expression data from GEO and EP300 and CTCF binding data from the K562 cell line (ENCODE) as a case study.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, or methodological details provided
+- **Missing materials affecting confidence** Full text, all figures and tables, supplementary data, model architecture details, hyperparameters, validation procedures, and any comparative benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible research direction, namely the use of ensemble learning to infer TF function from genomic and transcriptomic data, but the current text is too sparse to evaluate the scientific validity, technical soundness, or novelty of the work. The central claims are stated without supporting evidence, and the abstract does not report any quantitative outcomes. The case study is described but no results are given. As such, the manuscript cannot be assessed for its contribution to the field from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology, gene regulation, and cancer genomics may be interested if the model demonstrates improved predictive performance or novel biological insights. Clinicians or translational scientists focused on AML could also find relevance if the model yields interpretable TF roles. However, the abstract does not yet establish such value.
+- **Major strengths** The topic is timely and relevant to understanding combinatorial gene regulation. The use of publicly available datasets (GEO and ENCODE) suggests potential reproducibility. The focus on divergent gene pairs and specific TFs (EP300 and CTCF) is a targeted and biologically meaningful case study.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that a computational model was developed to predict the functional role of TFs, but no results or validation are presented.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states the study's focus and describes the data used, but it does not report any findings, performance metrics, or biological conclusions. There is no indication of model accuracy, comparison to existing methods, or validation on independent data.
+  - **Why it matters** Without any reported results, the core claim of developing a predictive model cannot be assessed. The reader cannot determine whether the model works, whether it offers any advantage over existing approaches, or whether the biological insights are novel.
+  - **Resolution test** The full manuscript must provide quantitative results, including but not limited to model performance (e.g., accuracy, AUC, F1 score), validation on held-out or independent datasets, and a clear statement of the predicted functional roles of EP300 and CTCF with supporting evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract implies that ensemble learning is used, but no details on the specific algorithms, feature engineering, or training procedure are given.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions "ensemble learning" but does not specify which ensemble methods are used (e.g., random forest, gradient boosting, stacking), what features are derived from the TF binding and gene expression data, or how the model is trained and evaluated.
+  - **Why it matters** Reproducibility and technical soundness cannot be evaluated without methodological detail. The choice of features and model architecture is critical to the validity of any predictive claim.
+  - **Resolution test** The full text must describe the model architecture, feature set, training and test splits, hyperparameter tuning, and evaluation metrics in sufficient detail to allow replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validity
+  - **Claim pointer** The abstract implies that the model predicts the "functional role" of TFs, but the definition of "functional role" is not provided.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The term "functional role" is ambiguous. It is unclear whether the model predicts TF activity, target gene regulation, direction of effect, or something else. The abstract does not define the output variable or how it is measured.
+  - **Why it matters** Without a clear definition of the prediction target, the scientific meaning of the results is unclear. The biological interpretation of the model output is essential for the study to be meaningful.
+  - **Resolution test** The full manuscript must define the prediction target explicitly, describe how it is derived from the data, and provide biological validation (e.g., known TF functions, experimental evidence) to support the predicted roles.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence "Cancer cells are formed when the associated, active genes fail to function the way they are meant to function" is vague and not directly tied to the study's focus.
+  - **Required correction** Revise to a more precise statement linking gene regulation and TF function to cancer, or remove it to focus on the study's objective.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data description
+  - **Affected element** Case study description
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that AML gene expression data from GEO and EP300 and CTCF binding data from K562 are used, but it does not specify the number of samples, the platform, or the processing steps.
+  - **Required correction** Provide basic data characteristics (e.g., sample size, data type, normalization) in the abstract or refer to a methods section in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The study is limited to a single cell line (K562) and two TFs, but the abstract does not discuss the potential limitations or generalizability of the findings.
+  - **Required correction** Add a sentence acknowledging the limited scope and suggesting future work on other cell types or TFs.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of reported results, methodological detail, and a defined prediction target means the core case is not established from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of using ensemble learning for TF function prediction is not inherently novel, but the specific focus on divergent gene pairs and the combination of EP300 and CTCF may offer a new angle. This cannot be fully assessed without the full text.
+  - Scientific importance: The topic is important for understanding gene regulation in cancer, but the abstract does not demonstrate a significant advance or a clear biological insight.
+  - Interdisciplinary readership: The work sits at the intersection of computational biology, genomics, and cancer research, which could attract a broad audience. However, the abstract is too technical and sparse to engage nonspecialists.
+  - Technical soundness: Not assessable from the abstract. No details on model design, validation, or performance are provided.
+  - Readability for nonspecialists: The abstract is written in a general style but lacks context and results, making it difficult for a nonspecialist to grasp the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract does not provide sufficient information to support the claims. A revised abstract with results and methodological clarity, or access to the full manuscript, would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that a computational model was developed to predict TF functional roles is unsupported because no results are reported.
+- The implied utility of the model for understanding gene regulation in AML is not supported by any data.
+- The choice of EP300 and CTCF as case study TFs is stated but not justified in the abstract.
+- Any statement about model performance or biological findings is not assessable from the supplied material.

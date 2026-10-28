@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2023)
+- **Assessment boundary** Methodological soundness, validation strategy, biological claims, software availability, and reproducibility of the reported results
+- **Shared manuscript claim summary** The authors present a Bayesian noisy logic model (NLBayes) for inferring transcription factor (TF) activity from differential gene expression data and causal TF-gene interaction graphs. They claim accurate recovery of known active TFs in simulations and overexpression experiments, benchmark favorably against VIPER, and demonstrate utility in bulk and single-cell fibroblast plasticity studies.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Materials and Methods, figure legends (Figs 1–7), table legends (Tables 1–3), data availability section
+- **Missing materials affecting confidence** Figures and tables themselves are not provided; supplementary files (Table S1, Table S4) are referenced but not available; no code output or parameter settings for the web server are shown; no detailed convergence diagnostics for the Gibbs sampler beyond the Gelman-Rubin threshold
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics: inferring TF activity from transcriptomic data using a probabilistic logic-based framework. The model is clearly motivated and the software contributions are valuable. However, the validation is incomplete in several respects. The simulation study is described only qualitatively, the overexpression benchmark lacks quantitative comparison metrics, and the single-cell application is presented without clear validation of the biological conclusions. The methodological novelty relative to existing Bayesian logic models is not fully articulated. The claims of accuracy and robustness are only partially supported by the evidence provided.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, TF activity prediction, and integrative analysis of bulk and single-cell transcriptomics. Researchers studying fibroblast heterogeneity and phenotypic plasticity may also find the application relevant. The software tools and web interface could be useful to a broader community seeking user-friendly implementations of regulatory inference methods.
+- **Major strengths** The model is conceptually well motivated and addresses a real gap: incorporating noisy logic into Bayesian inference of TF activity. The authors provide multiple implementations (R, Python, web) which is commendable for usability. The application to both bulk and single-cell data is timely. The discussion of limitations, including DAG constraints and the inability to detect TF deactivation, is honest and useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** "Using simulations and controlled over-expression experiments in cell cultures, we demonstrate that our method can accurately identify TF activity."
+  - **Evidence pointer** Results section "Simulation studies" and "Over-expression datasets"; Figures 2 and 3; Table 1
+  - **Concern** The simulation study is described only in qualitative terms. No quantitative metrics (e.g., AUROC, precision-recall values, sensitivity at fixed specificity) are reported. The ROC and PR curves in Figure 2 are referenced but not shown in the provided text. Similarly, the overexpression results are summarized in Table 1 but no statistical comparison to a null model or to VIPER is provided. The claim of "accurate" identification is therefore not quantitatively established.
+  - **Why it matters** Without quantitative performance metrics, the reader cannot assess the practical utility of the method relative to existing tools. The claim of accuracy is central to the paper's contribution.
+  - **Resolution test** Provide AUROC and PR-AUC values for simulation experiments across noise levels, and report sensitivity/specificity for overexpression experiments. Include confidence intervals or error bars across repeated simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmarking completeness
+  - **Claim pointer** "We benchmark our algorithm against VIPER, a closely related method that is widely used for identification of regulon activity."
+  - **Evidence pointer** Results section "Benchmarks"; Figure 3
+  - **Concern** The benchmark against VIPER is described only in terms of overlap of predicted TFs. No quantitative comparison of ranking quality, calibration, or computational cost is provided. The statement that "both methods complement each other" is not supported by any formal metric.
+  - **Why it matters** A benchmark should allow the reader to judge whether NLBayes offers advantages over existing methods. Without quantitative comparison, the added value of the new method is unclear.
+  - **Resolution test** Report rank-based overlap statistics (e.g., Jaccard index at top-k), correlation of activity scores, and runtime comparisons. Consider using a gold-standard set of known TF targets for a more objective evaluation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** "Our analysis recovers several TFs, including YAP1 as the top prediction, which has been identified as a driver of myofibroblast differentiation in multiple tissue phenotypes."
+  - **Evidence pointer** Results section "Fibroblast phenotypic plasticity"; Table 2
+  - **Concern** The biological application is presented as a demonstration of utility, but no experimental validation (e.g., knockdown or overexpression of predicted TFs) is provided. The claim that YAP1 is a driver is based on literature, not on new evidence from this study. The single-cell analysis is descriptive and does not include a clear statistical framework for assessing the significance of predicted TF activities across cell types.
+  - **Why it matters** For a methods paper, biological applications serve as proof-of-concept. Without validation, the reader cannot distinguish genuine biological insight from plausible but unverified predictions.
+  - **Resolution test** Include at least one orthogonal validation (e.g., chromatin accessibility data, protein activity assay, or published perturbation data) for a top predicted TF. For single-cell data, provide a statistical test comparing TF activity distributions across clusters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We provide user-friendly software packages and a web-interface to query TF activity from user input differential gene expression data."
+  - **Evidence pointer** Data and software availability section
+  - **Concern** The manuscript states that R and Python packages are available, but no version numbers, dependency lists, or example usage are provided in the text. The web interface URL is given, but it is not clear whether it is functional at the time of review. No container or virtual environment specification is provided.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without clear installation and usage instructions, the tools may not be usable by the community.
+  - **Resolution test** Provide a detailed README with installation instructions, dependency versions, and a minimal working example. Consider providing a Docker image or conda environment file.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Materials and Methods section "Noisy Logic-based gene regulation graphical model"
+  - **Issue** The graphical model description is dense and would benefit from a more explicit mathematical formulation of the likelihood and priors. The notation for the OR-NOR model is introduced but the full joint distribution is not written out.
+  - **Required correction** Provide the full likelihood expression and prior distributions in a dedicated subsection, with clear variable definitions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Parameter sensitivity
+  - **Affected element** Hyperparameter choices
+  - **Evidence pointer** Materials and Methods section "OR-NOR model for gene activation"
+  - **Issue** The hyperparameters ξ, q+, q−, and q0 are introduced but no sensitivity analysis is presented. The choice of ζdeg=0.99 and the formula for ζnon−deg are not justified.
+  - **Required correction** Add a sensitivity analysis showing how results change with different hyperparameter values, or provide a theoretical justification for the chosen values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results section "Simulation studies"
+  - **Issue** The text refers to ROC and PR curves but the actual curves are not visible in the provided material. It is unclear whether the curves are averaged over the 20 repeated experiments and whether error bars are shown.
+  - **Required correction** Clarify in the figure legend whether curves are averaged and include error bars or confidence bands.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Single-cell analysis
+  - **Affected element** Figure 4 and 5
+  - **Evidence pointer** Results section "Fibroblast heterogeneity: Single cell experiments"
+  - **Issue** The single-cell analysis is described in detail, but the number of cells per cluster, the criteria for cluster identification, and the statistical methods for differential expression are not fully specified.
+  - **Required correction** Provide a supplementary table with cluster sizes and marker gene expression, and specify the exact parameters used for FindMarkers and the significance threshold.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites several methods but does not clearly position NLBayes relative to recent deep learning or Bayesian approaches for TF activity inference. The novelty claim is not sharply defined.
+  - **Required correction** Add a paragraph explicitly contrasting NLBayes with at least two recent methods, highlighting the specific advantages of the noisy logic formulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative validation and benchmarking are essential to support the central claims of accuracy and utility. R1-M3 is important for the biological application but may be addressable with additional analysis rather than new experiments.
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of noisy logic with Bayesian inference for TF activity is not entirely new, but the specific OR-NOR formulation and the integration with causal graphs is a useful contribution. Scientific importance: Moderate. TF activity inference is a relevant problem, but the impact will depend on demonstrated performance gains over existing tools. Interdisciplinary readership: Limited. The paper is primarily of interest to computational biologists; the biological application is not developed enough to attract a broader audience. Technical soundness: The model is plausible, but the validation is insufficient to establish technical soundness. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with Bayesian networks and TF biology; the methods section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the software contribution is valuable, but the quantitative validation and benchmarking must be strengthened to support the claims.
+
+## Risk / unsupported claims
+- The claim of "accurate" TF activity identification is not quantitatively supported (R1-M1).
+- The claim that NLBayes and VIPER "complement each other" is not supported by formal metrics (R1-M2).
+- The biological significance of predicted TFs in fibroblast plasticity is not validated experimentally (R1-M3).
+- The robustness of the method to different hyperparameter choices is not demonstrated (R1-m2).
+- The performance of the method on single-cell data is not compared to any baseline or alternative approach.
+- The claim that the method "can accurately identify TF activity" in the abstract is overstated given the evidence provided.

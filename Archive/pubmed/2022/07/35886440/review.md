@@ -1,0 +1,130 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, and interpretation of results as presented in the manuscript
+- **Shared manuscript claim summary** The authors use molecular docking and coarse-grained molecular dynamics simulations to propose that specific PAHs (indeno(1,2,3-cd)pyrene and dibenz(a,h)anthracene) can bind to TLR4 and potentially induce inflammation, while two A. paniculata phytocompounds (ergosterol peroxide and 14-deoxy-14,15-dehydroandrographolide) may inhibit NF-κB p50 and thus counteract PAH-induced inflammation.
+- **Visible evidence base** Molecular docking scores (AutoDock Vina), binding energies, RMSD values, RMSF plots from CABS-flex simulations, Ramachandran plots, and 2D/3D interaction diagrams
+- **Missing materials affecting confidence** No supplementary data files, no raw docking output files, no PDB IDs for prepared structures beyond the source entries, no force field parameters, no explicit simulation convergence criteria, no statistical methodology details for the t-tests beyond statement of use
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational docking and coarse-grained simulation study aimed at linking PAH exposure to TLR4-mediated inflammation and proposing A. paniculata compounds as NF-κB inhibitors. While the topic is of potential public health relevance, the study has substantial methodological limitations that undermine the strength of the conclusions. The docking protocol lacks rigorous validation, the use of CABS-flex for ligand-bound complexes is questionable, the statistical analysis is inadequately described, and the leap from binding energies to biological claims of inflammation induction and inhibition is not justified. The manuscript reads more as a preliminary computational exercise than a study that establishes its central claims.
+- **Who would be interested in the results, and why** Researchers in environmental health and computational toxicology might have passing interest in the docking scores of PAHs against TLR4. Natural product researchers studying A. paniculata could note the identification of ergosterol peroxide as a candidate NF-κB inhibitor. However, given the lack of experimental validation and the methodological concerns, the impact on these communities would be limited.
+- **Major strengths** The manuscript addresses a relevant environmental health problem in a region-specific context (the Philippines). The authors consider both the pro-inflammatory potential of pollutants and a prospective natural product-based intervention, which is a useful framing. The inclusion of multiple validation tools for protein structure quality is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "indeno(1,2,3-cd)pyrene (IP) and dibenz(a,h)anthracene (DahA) are significant inducers of inflammation" based on docking scores alone.
+  - **Evidence pointer** Section 3.2.1, Table 3
+  - **Concern** The central claim that PAHs are "significant inducers of inflammation" is based entirely on docking binding energies. Docking scores indicate binding affinity in a static, simplified model; they do not demonstrate functional activation of TLR4. No cellular assays, no signaling pathway analysis, and no experimental validation are provided. The claim of "inducing inflammation" is a functional biological assertion that cannot be supported by in silico binding data alone. The authors themselves acknowledge this is a "theorized" mechanism, but the language throughout the results and conclusions overstates the evidence.
+  - **Why it matters** The primary conclusion of the paper rests on this claim. If the binding of PAHs to TLR4 does not translate to receptor activation and downstream NF-κB signaling, the entire premise of the study collapses. The manuscript does not establish a causal link between binding and biological function.
+  - **Resolution test** The authors would need to either (a) substantially temper their language to state that PAHs "bind to TLR4 in silico" without claiming functional inflammation induction, or (b) provide experimental evidence (e.g., TLR4 reporter assays, NF-κB activation assays in cell lines) demonstrating that these PAHs activate TLR4 signaling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ergosterol peroxide and 14-deoxy-14,15-dehydroandrographolide are "inhibitors of the NF-κB pathway" based on docking to the p50 homodimer.
+  - **Evidence pointer** Section 3.3.1, Table 6
+  - **Concern** The p50 homodimer is a DNA-binding component of NF-κB, not the primary target of most anti-inflammatory drugs that inhibit NF-κB signaling. The authors dock compounds to the p50 homodimer and claim inhibition of the NF-κB pathway, but the p50 homodimer is generally considered a repressor of NF-κB target genes, not an activator. The physiologically relevant transcriptional activator is the p50/p65 heterodimer. Docking to the p50 homodimer and claiming NF-κB pathway inhibition is a conceptual error that undermines the mechanistic interpretation. Furthermore, the authors do not demonstrate that binding to p50 would prevent DNA binding or transcriptional activity.
+  - **Why it matters** The proposed mechanism of anti-inflammatory action is biologically implausible as presented. If the target is incorrect, the entire rationale for the anti-inflammatory claim is invalid.
+  - **Resolution test** The authors would need to dock against the p50/p65 heterodimer or, more appropriately, against upstream kinases such as IKK, or provide a clear mechanistic rationale for why p50 homodimer binding would inhibit NF-κB-mediated inflammation. Experimental validation of NF-κB inhibition would be the definitive test.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use CABS-flex for molecular dynamics simulations of protein-ligand complexes and report RMSF values and t-test results to claim complex stability.
+  - **Evidence pointer** Section 2.5, Section 3.2.4, Section 3.3.4
+  - **Concern** CABS-flex is a coarse-grained simulation tool designed primarily for protein flexibility and folding studies. It is not a standard tool for assessing protein-ligand complex stability, as it does not explicitly model ligand degrees of freedom with atomistic detail. The use of CABS-flex for ligand-bound complexes is not validated in the manuscript, and the authors do not justify this choice. Furthermore, the statistical analysis is inadequately described: the authors state they used a "two-tailed t-test" but do not specify what was compared, how many replicates were used, whether the RMSF values at each residue were treated as independent observations, or how the assumptions of the t-test were met. The p-values reported (e.g., p = 0.0000233886) are presented with excessive precision that is not meaningful given the methodology.
+  - **Why it matters** The simulation methodology is central to the claim that the ligand-bound complexes are stable. If the simulation method is inappropriate or the statistical analysis is flawed, the stability claims are unsupported.
+  - **Resolution test** The authors would need to either (a) use an atomistic MD simulation approach (e.g., GROMACS, AMBER) with appropriate force fields for the ligands, or (b) provide a clear justification for why CABS-flex is appropriate for protein-ligand complexes. The statistical methodology must be described in sufficient detail to be reproducible, including the exact comparison being tested and the number of independent simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the RMSD for the binding energies of the LPS and the seven PAHs was 0.00 angstrom, which means efficacious docking as this parameter validates the accuracy of the molecular docking."
+  - **Evidence pointer** Section 3.2.1
+  - **Concern** This statement is scientifically incoherent. RMSD is a measure of structural deviation between atomic coordinates, not a property of binding energies. The authors appear to conflate RMSD of docking poses with a validation metric for binding energy calculations. An RMSD of 0.00 Å between the docked pose and the crystallographic pose would indicate perfect pose reproduction, but the authors do not describe what was compared to what. Moreover, RMSD does not "validate the accuracy" of binding energy calculations; it validates pose prediction. This fundamental misunderstanding of the metric undermines confidence in the authors' technical expertise.
+  - **Why it matters** If the authors misunderstand a basic concept in computational structural biology, the reliability of their entire computational workflow is called into question.
+  - **Resolution test** The authors must clarify what RMSD was calculated between, and how it relates to docking validation. If they intend to claim pose reproduction accuracy, they must compare their docked poses to the crystallographic binding poses of the reference ligands. If they intend to claim binding energy accuracy, they need a different validation approach (e.g., comparison with experimental binding affinities).
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "any inflammatory activity induced by PAH can be potentially inhibited by A. paniculata phytocompounds."
+  - **Evidence pointer** Section 5, Conclusions
+  - **Concern** This is an overgeneralized conclusion that goes far beyond the data. The study only examined two PAHs in detail against TLR4 and two phytocompounds against p50. The claim that "any inflammatory activity induced by PAH" can be inhibited is a sweeping generalization unsupported by the evidence. Moreover, the study does not demonstrate that the PAHs and phytocompounds act on the same pathway in a way that would allow inhibition. The PAHs bind TLR4 (a cell surface receptor) while the phytocompounds bind p50 (a nuclear transcription factor). The authors have not shown that these events are connected in a single pathway that the phytocompounds could interrupt.
+  - **Why it matters** Overstated conclusions mislead readers and can lead to inappropriate public health recommendations or research priorities.
+  - **Resolution test** The authors must temper the conclusion to state that the identified phytocompounds bind to p50 in silico and may warrant further investigation as potential NF-κB inhibitors, without claiming universal inhibition of PAH-induced inflammation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "The agonists, which included the PAHs indeno(1,2,3-cd)pyrene (IP), and dibenz(a,h)anthracene (DahA), had the highest binding energies of −10 kcal/mol and −9.2 kcal/mol, respectively." The term "agonists" is used to describe PAHs before any functional assay has demonstrated agonism. This is a functional classification that has not been established.
+  - **Required correction** Replace "agonists" with "ligands" or "PAH compounds" throughout the manuscript where functional agonism has not been demonstrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The manuscript states "The RMSD (lower bound) and RMSD (upper bound) of the docking poses are also generated and evaluated" but no RMSD values are reported in the results section. The reader cannot evaluate this claim.
+  - **Required correction** Report the RMSD values for the docking poses or remove the statement if the data are not presented.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The manuscript states "Calculated error values falling below the 95% rejection limit would imply that the proteins run in the ERRAT web server are stable." This is a misinterpretation of ERRAT. ERRAT plots error values as a function of residue position; the "overall quality factor" is the percentage of residues below the 95% confidence limit. The statement as written is imprecise and suggests a misunderstanding of the tool.
+  - **Required correction** Clarify the ERRAT interpretation: report the overall quality factor and state that values above a certain threshold (typically >90%) indicate high-quality structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2.4
+  - **Evidence pointer** Section 3.2.4
+  - **Issue** The text states "statistical results for chain B (p < 0.0001, p = 0.0000233886)" and "chain C (p < 0.0001, p = 0.0000159098)". The dual reporting of p-values is redundant and the excessive precision is inappropriate. Additionally, the authors do not explain why two p-values are reported for the same comparison.
+  - **Required correction** Report a single p-value per comparison with appropriate precision (e.g., p < 0.001) and clarify what comparison was performed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3.1
+  - **Evidence pointer** Section 3.3.1
+  - **Issue** The text states "Only ergosterol peroxide had higher binding energy than dexamethasone at −5.6 kcal/mol." This is contradictory. A more negative binding energy indicates stronger binding. If ergosterol peroxide has a binding energy of −5.6 kcal/mol and dexamethasone has −5.4 kcal/mol, then ergosterol peroxide has a lower (more negative) binding energy, not higher. The phrasing is confusing and should be clarified.
+  - **Required correction** Rewrite to state that ergosterol peroxide had a more negative binding energy (stronger predicted binding) than dexamethasone.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3.1
+  - **Evidence pointer** Section 3.3.1
+  - **Issue** The text states "Lys272 formed an unfavorable donor–donor bond" and later "Gln306 formed an unfavorable acceptor–acceptor bond." These are described as "unfavorable" interactions, yet the authors do not discuss how these unfavorable interactions affect the overall binding affinity or whether they are common in protein-ligand complexes.
+  - **Required correction** Provide context for these unfavorable interactions and discuss their implications for binding stability.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The manuscript states "A ligand with a lower binding energy than the positive controls was shown to be a potent ligand." This is an oversimplification. Binding energy alone does not determine potency, which requires functional assays. Additionally, the comparison with LPS as a "positive control" for TLR4 binding is problematic because LPS binds to MD-2 in complex with TLR4, not to TLR4 alone.
+  - **Required correction** Clarify that binding energy is a preliminary indicator of binding affinity and that potency requires functional validation. Acknowledge the limitations of comparing with LPS in this context.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of Sreeja et al. [31] compares binding energy values between studies using different docking tools. The authors note the discrepancy but do not discuss whether this comparison is meaningful given the different software versions and protocols.
+  - **Required correction** Acknowledge that direct comparison of absolute binding energies across different docking tools is not straightforward and should be interpreted with caution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding energy to inflammation claim), R1-M2 (p50 homodimer as target), R1-M3 (CABS-flex methodology and statistics), R1-M4 (RMSD misinterpretation)
+- **Assessment against Nature-style criteria**
+  - **Originality** Limited. Docking studies of PAHs against TLR4 and natural compounds against NF-κB components are not novel approaches. The specific combination of PAHs and A. paniculata compounds is somewhat regionally motivated but does not represent a conceptual advance.
+  - **Scientific importance** Moderate at best. The environmental health question is relevant, but the study does not provide new mechanistic insight beyond what is already known about PAH-TLR4 interactions and NF-κB inhibition. The lack of experimental validation severely limits the importance of the findings.
+  - **Interdisciplinary readership** The topic spans environmental health, computational biology, and natural product research, which could attract interdisciplinary interest. However, the technical limitations and overinterpretation of results would likely deter readers from these fields.
+  - **Technical soundness** The study has significant technical weaknesses, including inappropriate use of CABS-flex for ligand complexes, misinterpretation of RMSD, inadequate statistical description, and a conceptual error in targeting p50 homodimer for NF-κB inhibition.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains technical jargon and some confusing statements (e.g., the "higher binding energy" phrasing in Section 3.3.1) that would hinder comprehension for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions to address the methodological concerns and to substantially temper the claims. Even with revisions, the lack of experimental validation would limit the study to a preliminary computational screening report rather than a definitive demonstration of PAH-induced inflammation or A. paniculata-mediated inhibition.
+
+## Risk / unsupported claims
+- The claim that IP and DahA are "significant inducers of inflammation" is unsupported by the docking-only evidence presented.
+- The claim that ergosterol peroxide and 14-deoxy-14,15-dehydroandrographolide are "inhibitors of the NF-κB pathway" is unsupported, as docking to p50 homodimer does not demonstrate functional inhibition.
+- The statement that "any inflammatory activity induced by PAH can be potentially inhibited by A. paniculata phytocompounds" is a broad generalization not supported by the data.
+- The claim that RMSD of 0.00 Å "validates the accuracy of the molecular docking" is technically incorrect and unsupported.
+- The use of CABS-flex for protein-ligand complex stability assessment is not validated, and the resulting stability claims are not reliable.
+- The statistical comparison of RMSF values between apo and bound states is inadequately described, making the reported p-values unverifiable.

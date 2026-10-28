@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36151427",
+  "title": "Prediction of TTF-1 expression in non-small-cell lung cancer using machine learning-based radiomics.",
+  "authors": "Zhang, Ruijie; Huo, Xiankai; Wang, Qian; Zhang, Juntao; Duan, Shaofeng; Zhang, Quan; Zhang, Shicai",
+  "journal": "Journal of cancer research and clinical oncology",
+  "published_date": "2022-09-24",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习影像组学预测非小细胞肺癌中TTF-1表达，仅涉及蛋白表达水平预测，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "PURPOSE: To explore the feasibility and performance of machine learning-based radiomics models in predicting thyroid transcription factor-1 (TTF-1) expression in non-small cell lung cancer (NSCLC). METHODS: A total of 227 NSCLC patients were included in this retrospective study and divided into the training set and test set with a ratio of 8:2 randomly. Lung tumors on CT images were semi-automatic segmented utilizing 3D Slicer. Radiomic features quantifying tumor intensity, shape, texture, and transformed wavelet were extracted using a Python toolkit. Variance threshold (VT), principal component analysis (PCA), and least absolute shrinkage selection operator (LASSO) were used to reduce features; logistic regression (LR), random forest (RF), and support vector machine (SVM) were used to develop classifier, respectively. The performance of the models was evaluated by areas under the curves (AUC) of receiver operating characteristic (ROC) curves. Different models were compared by the Delong test to determine the optimal algorithms. RESULTS: Total 1968 radiomic features were extracted from the lung tumors images, and then 13, 15, and 13 stable features were selected by VT, PCA, and LASSO, respectively. Each classifier could discriminate against the TTF-1-positive groups with average AUC ranging from 0.601 to 0.784 in the training set. Among the models, three models constructed by the LASSO method showed satisfactory performance in the test set with AUC ranging from 0.715 to 0.787. The Delong test showed no significant difference between the LASSO models (P > 0.05). CONCLUSION: Machine learning-based radiomics model could predict the expression of TTF-1 in NSCLC patients.",
+  "abstract_zh": "目的：探讨基于机器学习的影像组学模型在预测非小细胞肺癌（NSCLC）中甲状腺转录因子-1（TTF-1）表达方面的可行性与性能。方法：本研究回顾性纳入227例NSCLC患者，按8：2的比例随机分为训练集和测试集。利用3D Slicer对CT图像上的肺部肿瘤进行半自动分割。使用Python工具包提取量化肿瘤强度、形状、纹理及变换小波的影像组学特征。采用方差阈值（VT）、主成分分析（PCA）和最小绝对收缩选择算子（LASSO）进行特征降维；分别使用逻辑回归（LR）、随机森林（RF）和支持向量机（SVM）构建分类器。通过受试者工作特征（ROC）曲线的曲线下面积（AUC）评估模型性能。采用Delong检验比较不同模型，以确定最优算法。结果：从肺部肿瘤图像中提取了共1968个影像组学特征，随后通过VT、PCA和LASSO分别筛选出13、15和13个稳定特征。每个分类器均能区分TTF-1阳性组，训练集中平均AUC范围为0.601至0.784。在测试集中，由LASSO方法构建的三个模型表现出良好性能，AUC范围为0.715至0.787。Delong检验显示LASSO模型之间无显著差异（P > 0.05）。结论：基于机器学习的影像组学模型能够预测NSCLC患者中TTF-1的表达。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36151427/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36151427/",
+  "paper_page_path": "papers/pubmed/36151427/index.html"
+}

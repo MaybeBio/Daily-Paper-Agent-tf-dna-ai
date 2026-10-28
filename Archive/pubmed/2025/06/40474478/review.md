@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose that protein-DNA co-condensation can be understood as a generalized prewetting transition, where a long compressible polymer collapses coincident with a locally stabilized liquid droplet. They claim this coupling can stabilize phases that are unstable in isolation, that transitions can be abrupt or continuous, and that bulk component concentration changes can alter three-dimensional polymer structure for polymers with internal linear structure. They further suggest that chromatin acts as a lower-dimensional surface whose interactions with proteins are required for these novel phases.
+- **Visible evidence base** Abstract text only; mentions lattice Monte-Carlo simulations and mean-field theory but provides no quantitative results, parameter regimes, or comparisons
+- **Missing materials affecting confidence** Full manuscript, simulation details, model definitions, parameter values, phase diagrams, quantitative comparisons between theory and simulation, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking polymer physics and phase separation, with potential relevance to chromatin organization. However, the evidence base is limited to a summary of methods and qualitative claims. The central assertions, particularly the existence of a generalized prewetting transition and the stability of coupled phases in regimes where individual instabilities exist, cannot be evaluated without quantitative data. The work may be of interest to biophysicists and chromatin biologists, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Biophysicists studying phase separation and polymer physics would be interested in the theoretical framework connecting protein phase behavior to polymer collapse. Chromatin biologists investigating nuclear organization and gene regulation might find the implications for protein-chromatin interactions relevant, especially the idea that chromatin acts as a lower-dimensional surface enabling novel phases.
+- **Major strengths** The conceptual framing is novel, connecting prewetting transitions to protein-DNA co-condensation in a way that could unify disparate observations. The use of both lattice Monte-Carlo simulations and mean-field theory suggests a complementary approach that, if well-executed, could provide robust insights. The claim that coupled phases can be stable when individual instabilities exist is intriguing and potentially significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that a long compressible polymer coupled to interacting protein mixtures leads to a generalized prewetting transition where polymer collapse is coincident with a locally stabilized liquid droplet, and that these phases can be stable even when both polymer collapse and coexisting liquid phases are unstable in isolation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative evidence, such as phase diagrams, free energy calculations, or simulation snapshots, to support the existence of the proposed generalized prewetting transition. The claim that coupled phases are stable in regimes where individual instabilities exist is central but entirely unsubstantiated in the provided material.
+  - **Why it matters** This is the core novel assertion of the work. Without quantitative demonstration, the reader cannot assess whether the phenomenon is real, what parameter ranges it occurs in, or whether the mean-field theory and simulations agree. The claim's validity is essential for the paper's contribution.
+  - **Resolution test** Provide phase diagrams showing stable coupled phases in regimes where isolated polymer collapse and liquid-liquid phase separation are unstable, with clear markers for first-order and continuous transitions, and demonstrate agreement between simulation and theory.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that changes in bulk component concentration can lead to changes in three-dimensional polymer structure for polymers with internal linear structure.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what "internal linear structure" means, how it is modeled, or what structural changes are predicted. No quantitative results are given to support this claim, such as radius of gyration measurements or contact probability maps as functions of concentration.
+  - **Why it matters** This claim extends the work beyond simple collapse to more complex polymer conformations, which is relevant for chromatin organization. Without evidence, it is unclear whether this is a robust prediction or a minor extension of the model.
+  - **Resolution test** Show quantitative measures of polymer structure, such as radius of gyration or local density profiles, as functions of bulk concentration, and clarify the model for internal linear structure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that in the nucleus, many distinct proteins interacting with many chromatin regions could give rise to many different prewet phases, and that chromatin's role as a lower-dimensional surface is required for these phases.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The extrapolation from simple model systems to the nuclear context is speculative. The abstract does not address how the model parameters map to realistic protein and chromatin properties, nor does it discuss potential complications such as chromatin heterogeneity, protein specificity, or nonequilibrium effects.
+  - **Why it matters** The biological relevance of the work depends on this extrapolation. Without a clear connection to experimental systems, the significance for chromatin biology remains uncertain.
+  - **Resolution test** Discuss how model parameters relate to known protein and chromatin properties, and outline testable predictions that could be compared with experimental observations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "prewetting"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "generalized prewetting transition" is used without a clear definition. Readers unfamiliar with prewetting in surface physics may not understand the analogy.
+  - **Required correction** Provide a brief definition or intuitive explanation of prewetting and how it generalizes to the polymer-protein system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions lattice Monte-Carlo simulations and mean-field theory but does not describe the model, such as the nature of the polymer, the protein interactions, or the coupling mechanism.
+  - **Required correction** Include a brief description of the model components and interactions in the abstract or ensure the full manuscript provides this clearly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Unphysiological concentrations"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "unphysiological concentrations" is vague and could be misinterpreted. It is unclear what concentration range is meant and how it relates to the model.
+  - **Required correction** Specify the concentration regimes considered and clarify the relevance to physiological conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of the generalized prewetting transition and concentration-dependent structural changes are not supported by any quantitative evidence in the provided material. The abstract alone cannot establish the case.
+- **Assessment against Nature-style criteria** Originality: The concept of coupling polymer collapse to protein phase separation via a prewetting transition appears novel and could be a fresh perspective. Scientific importance: If substantiated, the work could inform understanding of chromatin organization and protein-DNA interactions, but the current evidence does not demonstrate significance. Interdisciplinary readership: The topic bridges polymer physics and cell biology, which could attract a broad audience, but the abstract's technical nature may limit accessibility. Technical soundness: Cannot be assessed from the abstract; the methods are mentioned but not detailed, and no results are shown. Readability for nonspecialists: The abstract assumes familiarity with phase separation and polymer physics, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, but the abstract lacks the quantitative support needed to evaluate the claims. A full manuscript with detailed results would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The existence of a generalized prewetting transition where polymer collapse is coincident with a locally stabilized liquid droplet is unsupported by any quantitative evidence in the abstract.
+- The claim that coupled phases can be stable when both polymer collapse and coexisting liquid phases are unstable in isolation is unsupported.
+- The claim that transitions can be abrupt or continuous is unsupported without phase diagrams or order parameter measurements.
+- The claim that changes in bulk component concentration alter three-dimensional polymer structure for polymers with internal linear structure is unsupported.
+- The extrapolation to nuclear contexts with many distinct proteins and chromatin regions is speculative and not supported by the abstract.
+- The role of chromatin as a lower-dimensional surface required for these phases is asserted but not demonstrated.

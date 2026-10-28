@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "36920904",
+    "doi": "10.1016/j.celrep.2023.112244",
+    "title": "A combinatorial approach to uncover an additional Integrator subunit."
+  },
+  "content": {
+    "abstract": "RNA polymerase II (RNAPII) controls expression of all protein-coding genes and most noncoding loci in higher eukaryotes. Calibrating RNAPII activity requires an assortment of polymerase-associated factors that are recruited at sites of active transcription. The Integrator complex is one of the most elusive transcriptional regulators in metazoans, deemed to be recruited after initiation to help establish and modulate paused RNAPII. Integrator is known to be composed of 14 subunits that assemble and operate in a modular fashion. We employed proteomics and machine-learning structure prediction (AlphaFold2) to identify an additional Integrator subunit, INTS15. We report that INTS15 assembles primarily with the INTS13/14/10 module and interfaces with the Int-PP2A module. Functional genomics analysis further reveals a role for INTS15 in modulating RNAPII pausing at a subset of genes. Our study shows that omics approaches combined with AlphaFold2-based predictions provide additional insights into the molecular architecture of large and dynamic multiprotein complexes.",
+    "keywords": [
+      "AlphaFold2",
+      "CP: Neuroscience",
+      "Integrator complex",
+      "RNA polymerase II",
+      "RNA polymerase II pausing",
+      "large protein complexes",
+      "molecular modeling",
+      "omics",
+      "pause-release",
+      "transcription",
+      "transcription factors",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Transcription, Genetic",
+      "*RNA Polymerase II/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Offley, Sarah R",
+        "Pfleiderer, Moritz M",
+        "Zucco, Avery",
+        "Fraudeau, Angelique",
+        "Welsh, Sarah A",
+        "Razew, Michal",
+        "Galej, Wojciech P",
+        "Gardini, Alessandro"
+      ],
+      "short_names": [
+        "Offley SR",
+        "Pfleiderer MM",
+        "Zucco A",
+        "Fraudeau A",
+        "Welsh SA",
+        "Razew M",
+        "Galej WP",
+        "Gardini A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Wistar Institute, Philadelphia, PA 19103, USA; Cell and Molecular Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France.",
+        "The Wistar Institute, Philadelphia, PA 19103, USA.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France.",
+        "The Wistar Institute, Philadelphia, PA 19103, USA.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France. Electronic address: wgalej@embl.fr.",
+        "The Wistar Institute, Philadelphia, PA 19103, USA. Electronic address: agardini@wistar.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Offley, Sarah R",
+        "short_name": "Offley SR",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA 19103, USA; Cell and Molecular Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Pfleiderer, Moritz M",
+        "short_name": "Pfleiderer MM",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Zucco, Avery",
+        "short_name": "Zucco A",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA 19103, USA."
+        ]
+      },
+      {
+        "full_name": "Fraudeau, Angelique",
+        "short_name": "Fraudeau A",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Welsh, Sarah A",
+        "short_name": "Welsh SA",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA 19103, USA."
+        ]
+      },
+      {
+        "full_name": "Razew, Michal",
+        "short_name": "Razew M",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Galej, Wojciech P",
+        "short_name": "Galej WP",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042 Grenoble, France. Electronic address: wgalej@embl.fr."
+        ]
+      },
+      {
+        "full_name": "Gardini, Alessandro",
+        "short_name": "Gardini A",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA 19103, USA. Electronic address: agardini@wistar.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2023 Mar 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/16 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "42575993",
+      "42116163",
+      "41837557",
+      "41810893",
+      "41800264",
+      "41424761",
+      "41073164",
+      "41043392",
+      "40991927",
+      "40966122",
+      "40734674",
+      "40207620",
+      "40083704",
+      "39809894",
+      "39592860",
+      "39575199",
+      "39424688",
+      "39380113",
+      "39257755",
+      "39032490",
+      "39001402",
+      "38817634",
+      "38649617",
+      "38570683",
+      "38467877"
+    ],
+    "refs": [
+      "36869814",
+      "36690744",
+      "36347254",
+      "36180603",
+      "35900023",
+      "35688146",
+      "35679397",
+      "35637307",
+      "35311473",
+      "35273146",
+      "35085500",
+      "35017726",
+      "34783343",
+      "34762488",
+      "34762484",
+      "34265844",
+      "34004147",
+      "33973408",
+      "33795473",
+      "33548203",
+      "33385327",
+      "33243860",
+      "32966759",
+      "32697989",
+      "32647223",
+      "32238450",
+      "31809743",
+      "31530651",
+      "31123063",
+      "30008316",
+      "29471365",
+      "28396433",
+      "27412762",
+      "27114506",
+      "27079975",
+      "26394715",
+      "26308897",
+      "25693131",
+      "25516281",
+      "25201415",
+      "24227677",
+      "23734028",
+      "23104886",
+      "23097424",
+      "22286754",
+      "22252320",
+      "22154230",
+      "21925386",
+      "21816040",
+      "21486936",
+      "19505943",
+      "18798982",
+      "17098186",
+      "16239144",
+      "15684398",
+      "15264254"
+    ],
+    "similar": [
+      "36920904",
+      "36634676",
+      "38570683",
+      "25410209",
+      "36309014",
+      "16239144",
+      "26308897",
+      "25201415",
+      "36180603",
+      "32697989",
+      "38823386",
+      "34762484",
+      "32966759",
+      "32800671",
+      "37080207",
+      "33340967",
+      "37295432",
+      "25882383",
+      "37995689",
+      "32229306",
+      "38906142",
+      "36291070",
+      "34551776",
+      "35781573",
+      "35311473",
+      "39424688",
+      "31809743",
+      "25693131",
+      "33385327",
+      "38996456",
+      "7698646",
+      "33972784",
+      "29187597",
+      "30902665",
+      "33243860",
+      "38649617",
+      "30844430",
+      "34534457",
+      "29949775",
+      "29378787",
+      "30807579",
+      "36088798",
+      "34730992",
+      "33293419",
+      "23047559",
+      "28468258",
+      "27259512",
+      "33788942",
+      "35314265",
+      "28994650",
+      "24165037",
+      "32647223",
+      "22199231",
+      "30684536",
+      "34146121",
+      "35762154",
+      "36851842",
+      "28735898",
+      "33400923",
+      "24440461",
+      "19647516",
+      "23699410",
+      "10385623",
+      "31127935",
+      "36142573",
+      "28213523",
+      "35641102",
+      "34297910",
+      "36190433",
+      "7563071",
+      "36640322",
+      "31530651",
+      "37205756",
+      "25561494",
+      "36124234",
+      "27427483",
+      "20305375",
+      "34587155",
+      "21095588",
+      "29386125",
+      "30287617",
+      "22158966",
+      "25373614",
+      "18562274",
+      "36435862",
+      "12139931",
+      "30150253",
+      "36979361",
+      "22011111",
+      "29027900",
+      "32029477",
+      "1508210",
+      "16880520",
+      "37919159"
+    ],
+    "review": [
+      "36920904",
+      "36634676",
+      "36180603",
+      "32800671",
+      "33340967",
+      "25882383",
+      "35311473",
+      "39424688",
+      "25693131",
+      "29187597",
+      "30902665",
+      "36088798",
+      "34146121",
+      "24440461",
+      "27427483"
+    ],
+    "pmc": [
+      "10312363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=HUMAN&id=HS15250",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "INTS1"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(23)00255-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/36920904/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36920904/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36920904",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36920904",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse106359",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

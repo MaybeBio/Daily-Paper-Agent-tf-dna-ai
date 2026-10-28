@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, experiments, conclusions, declarations, appendices, and footnotes.
+- **Assessment boundary** Scientific validity, technical soundness, clarity, and completeness of claims based solely on the provided manuscript text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present DPAC, a sequence-based contrastive learning framework that aligns protein and DNA language model embeddings to predict and design protein-DNA interactions. They claim it outperforms structure-based methods in efficiency and low-identity generalization, and demonstrate in silico binding affinity recovery via simulated annealing.
+- **Visible evidence base** Abstract, Sections 1-5, Appendix A-G, Tables 1-8, Figures 1-4 (referenced but not shown), and footnotes.
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided in the text. Training details, hyperparameter settings, and exact dataset splits are incomplete. Code repository is mentioned but not reviewed. Experimental protocols for AlphaFold 3 server usage are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially useful approach for sequence-based protein-DNA interaction modeling, addressing a real gap in scalability and efficiency. However, the evidence provided is insufficient to fully support the central claims. Key weaknesses include a small and potentially biased evaluation set, incomplete baseline comparisons, unclear statistical significance, and a lack of detailed methodological transparency. The in silico design results, while promising, rely on a single case study and an external server without clear validation against experimental data. The work is of interest to the computational biology community, but the current evidence does not establish the case for broad utility or superiority over existing methods.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-DNA interaction prediction, protein design, and language model applications in genomics. Researchers developing high-throughput virtual screening tools for DNA-binding proteins, and those interested in sequence-only alternatives to structure-based methods, would find the approach relevant. The efficiency gains claimed could appeal to those needing large-scale screening.
+- **Major strengths** The problem addressed is important and the proposed sequence-based approach is conceptually novel in its specific combination of contrastive learning with pre-trained language models for this task. The use of simulated annealing for design is a reasonable and potentially powerful integration. The efficiency advantage over structure-based methods is a clear and valuable contribution if substantiated. The manuscript is generally well-written and the logical flow is clear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Our model achieves an AUC score of 0.591 on a low identity set, outperforming state-of-the-art structure-based methods."
+  - **Evidence pointer** Section 3.1, Table 1, Table 3
+  - **Concern** The primary performance claim is based on a low-identity set of only 99 protein-DNA pairs. This is a very small sample size for evaluating a predictive model, and the reported AUC of 0.591 is only marginally above random (0.5). The comparison to structure-based methods (RFAA, RFNA) is unclear; the text states DPAC "matched their accuracy on all other metrics" but the specific metrics and statistical significance of any difference are not reported. The baseline methods are not described in terms of their input requirements or whether they were used in a fair, comparable setting.
+  - **Why it matters** The central claim of the paper rests on this comparison. A small, potentially non-representative dataset and a marginal AUC, without clear statistical testing, do not provide strong evidence that DPAC outperforms established methods. The reader cannot assess whether the difference is meaningful or due to chance.
+  - **Resolution test** Provide a larger, more diverse low-identity evaluation set. Report confidence intervals or p-values for the AUC differences. Clearly describe the baseline methods' setup, including whether they were given structural information or only sequences, and ensure the comparison is apples-to-apples. Show the full ROC curves and precision-recall curves.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DPAC integrates simulated annealing for the design of new protein sequences with optimized DNA binding affinity, successfully recovering binding affinity in engineered sequences by up to 20% in in silico tests."
+  - **Evidence pointer** Section 3.3, Table 4, Figure 3
+  - **Concern** The design experiment is a single case study on Zif268. The "recovery of binding affinity" is measured using AlphaFold 3 server predictions (ipTM scores), not experimental binding data. The manuscript does not provide a clear baseline for comparison (e.g., what is the ipTM of the corrupted sequence? What is the ipTM of the wild-type?). The claim of "up to 20%" recovery is vague and not tied to a specific, reproducible metric. The statistical significance of this recovery is not assessed.
+  - **Why it matters** The design capability is a major advertised feature of DPAC. Without a robust, quantitative demonstration on multiple targets and with a clear baseline, the claim of successful design is not established. Using a server-based predictor as ground truth is circular if the predictor was not independently validated for this purpose.
+  - **Resolution test** Provide a detailed protocol for the design experiment, including the exact scoring function used. Show the ipTM scores for wild-type, corrupted, and optimized sequences for all mutation rates. Include multiple case studies beyond Zif268. If possible, validate designs with experimental binding assays or at least with a different, independent computational predictor.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "For training and evaluation, we collected DNA-protein binding data from BioLip2... The initial dataset contains 23,817 entries. After removing duplicates... This process resulted in a strictly defined low identity set... Additionally, we randomly sampled 1,000 pairs from the remaining data to create a high identity set..."
+  - **Evidence pointer** Section 2, Data subsection
+  - **Concern** The dataset construction is not fully reproducible. The exact filtering criteria for "duplicates" and "DNA motifs shorter than 3-mers" are not defined. The clustering parameters for MMSeqs2 (e.g., coverage, E-value) are not specified. The random sampling for the high-identity set is not seeded, making it impossible to reproduce. The total training set size is stated as 11,419 entries, but the composition (how many from low-identity vs. high-identity) is unclear.
+  - **Why it matters** Reproducibility is a cornerstone of scientific claims. Without precise dataset construction details, other researchers cannot replicate the training or evaluation, undermining the validity of the reported results.
+  - **Resolution test** Provide a detailed, step-by-step description of the data processing pipeline, including all parameters and thresholds. Release the exact train/validation/test splits, or provide a script that generates them with a fixed random seed. Clarify the relationship between the low-identity, high-identity, and training sets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** "The model is trained over 1000 epochs using the AdamW optimizer with an initial learning rate of 1 × 10 − 4 and a batch size of 11,418 on single NVIDIA GPU DGX A100-80G."
+  - **Evidence pointer** Appendix C
+  - **Concern** The training details are sparse. The batch size of 11,418 is equal to the total training set size, suggesting the model is trained in a single batch per epoch. This is unusual and may affect the contrastive learning dynamics. The number of training steps, learning rate schedule details, and early stopping criteria are not described. The projection head architecture is described but the exact dimensions and activation functions are not fully specified.
+  - **Why it matters** The performance of contrastive learning models is highly sensitive to training hyperparameters. Without complete details, the results cannot be reproduced or compared fairly with other methods. The unusual batch size raises questions about the training procedure's validity.
+  - **Resolution test** Provide a complete description of the training procedure, including the number of steps, learning rate schedule, warmup, and any regularization. Justify the choice of batch size. Consider reporting results with a more standard batch size to ensure robustness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "DPAC 1 ( D NA- P rotein binding A lignment via C ontrastive learning)" but the footnote defining the name is not clearly referenced in the abstract text.
+  - **Required correction** Add a superscript or footnote marker in the abstract to clarify the name expansion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The permutation test p-value is reported as 9 × 10 − 5 , but the number of permutations and the test statistic distribution are not described.
+  - **Required correction** Provide details on the permutation test procedure, including the number of permutations and the null distribution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Section 3.1, Figure 2
+  - **Issue** The text references "Figure 2a 2 " which appears to be a typo.
+  - **Required correction** Correct the reference to "Figure 2a".
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Appendix G
+  - **Evidence pointer** Appendix G
+  - **Issue** The sequences provided in Appendix G are not clearly labeled or formatted, making it difficult to map them to the specific mutation rates discussed in the text.
+  - **Required correction** Format the sequences in a clear table with labels for wild-type, corrupted, and optimized at each mutation rate.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The text mentions "top-3 sampling" for mutations but does not explain what this means in the context of amino acid substitution.
+  - **Required correction** Clarify the mutation sampling strategy, including how the top-3 amino acids are selected and from what distribution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (small evaluation set and unclear baseline comparison), R1-M2 (single case study and circular validation), R1-M3 (irreproducible dataset construction), R1-M4 (incomplete training details).
+- **Assessment against Nature-style criteria** Originality: The specific combination of contrastive learning with pre-trained language models for protein-DNA interaction prediction and design is a novel contribution, though it builds on existing contrastive learning frameworks. Scientific importance: The problem is important, and a purely sequence-based, efficient method would be valuable. However, the current evidence does not convincingly demonstrate that DPAC achieves this. Interdisciplinary readership: The work is relevant to computational biology, genomics, and protein engineering, but the presentation is somewhat technical and may not be fully accessible to a broad readership. Technical soundness: The core idea is sound, but the evaluation and validation are insufficient to support the claims. Readability for nonspecialists: The manuscript is generally clear, but some sections, particularly the methods and appendices, assume significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising idea, but the major concerns regarding evaluation scale, baseline comparisons, design validation, and reproducibility must be addressed before the claims can be considered supported. I would be supportive if these technical concerns are resolved with a more rigorous and comprehensive evaluation.
+
+## Risk / unsupported claims
+- The claim of "outperforming state-of-the-art structure-based methods" is unsupported due to the small evaluation set and unclear baseline comparison.
+- The claim of "recovering binding affinity by up to 20% in in silico tests" is unsupported as it relies on a single case study and a server-based predictor without clear baseline or statistical significance.
+- The claim of "maintaining robustness across sequence identity" is not fully supported, as the analysis in Figure 2c is descriptive and lacks statistical testing.
+- The efficiency comparison with structure-based methods is mentioned but not quantified in the provided text, making the claim of "significantly accelerates the design process" unverifiable.
+- The generalizability of the model to diverse protein-DNA interaction types beyond the limited dataset is not assessed.

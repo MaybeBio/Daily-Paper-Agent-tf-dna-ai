@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "40640102",
+    "doi": "10.1080/0886022X.2025.2525467",
+    "title": "Diagnostic immune-related markers for diabetic kidney disease: a bioinformatics and machine learning approach."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Diabetic kidney disease (DKD) is a leading cause of chronic kidney disease, with chronic inflammation driving its progression. This study aimed to identify immune-related diagnostic biomarkers for DKD and explore their association with immune cell infiltration. METHODS: Three glomerular transcriptomic datasets (53 DKD, 36 controls) were analyzed via batch-corrected differential expression analysis to screen immune-related differentially expressed genes (DEGs). Machine learning algorithms (least absolute shrinkage and selection operator, support vector machine - recursive feature elimination) prioritized biomarkers, validated by RT-PCR in db/db mice. Immune infiltration was assessed via CIBERSORT and EPIC. RESULTS: Thirteen immune DEGs were identified, enriched in cytokine signaling and leukocyte chemotaxis. Three biomarkers (albumin (ALB), AP - 1 transcription factor subunit (FOS), and S100 calcium binding protein A9) showed strong correlations with T cell, natural killer cell, and macrophage infiltration, validated by RT-PCR (p < 0.001). Protein-protein interactionnetwork analysis identified ALB and FOS as hub genes (ROC Area Under the Curve: 0.803, 0.795), linking immune dysregulation to glomerular injury. CONCLUSION: ALB and FOS serve as novel immunogenetic biomarkers for DKD, highlighting chronic inflammation as a key driver. This framework supports precision immunomodulation, though clinical validation in larger cohorts is needed.",
+    "keywords": [
+      "ALB",
+      "Diabetic kidney disease",
+      "FOS",
+      "S100A9",
+      "bioinformatics analysis",
+      "immune infiltration"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/immunology/diagnosis/genetics",
+      "*Machine Learning",
+      "Animals",
+      "Biomarkers/metabolism",
+      "Humans",
+      "Computational Biology/methods",
+      "Mice",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Proto-Oncogene Proteins c-fos/genetics",
+      "Male",
+      "Kidney Glomerulus/immunology/pathology",
+      "Transcription Factor AP-1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ying",
+        "Zhou, Xinyuan",
+        "Jiang, Yuxin",
+        "Jiang, Ling",
+        "Gao, Li",
+        "Liu, Xueqi",
+        "Wang, Xiaoxia",
+        "Sun, Chenyu",
+        "Wu, Yonggui"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Zhou X",
+        "Jiang Y",
+        "Jiang L",
+        "Gao L",
+        "Liu X",
+        "Wang X",
+        "Sun C",
+        "Wu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6434-4759"
+      ],
+      "affiliations": [
+        "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China.",
+        "Department of Biostatistics of Epidemiology, School of Public Health, Anhui Medical University, Hefei, P.R. China.",
+        "Department of Biostatistics of Epidemiology, School of Public Health, Anhui Medical University, Hefei, P.R. China.",
+        "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China.",
+        "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China.",
+        "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China.",
+        "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China.",
+        "Department of Biostatistics of Epidemiology, School of Public Health, Anhui Medical University, Hefei, P.R. China.",
+        "AMITA Health Saint Joseph Hospital Chicago, Chicago, IL, USA.",
+        "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China.",
+          "Department of Biostatistics of Epidemiology, School of Public Health, Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xinyuan",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics of Epidemiology, School of Public Health, Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yuxin",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ling",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Gao, Li",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xueqi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoxia",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics of Epidemiology, School of Public Health, Anhui Medical University, Hefei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Sun, Chenyu",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "AMITA Health Saint Joseph Hospital Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Yonggui",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0000-0001-6434-4759"
+        ],
+        "affiliations": [
+          "Department of Nephropathy, First Affiliated Hospital of Anhui Medical University, Hefei, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Renal failure"
+    ],
+    "journal_abbrev": [
+      "Ren Fail"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 00:26",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42610001",
+      "42162532",
+      "41897238"
+    ],
+    "refs": [
+      "38239353",
+      "37063851",
+      "36470394",
+      "36239062",
+      "36108806",
+      "35721731",
+      "34737150",
+      "34332599",
+      "34072866",
+      "33752804",
+      "33719253",
+      "32145759",
+      "31942046",
+      "31506348",
+      "31114921",
+      "31011203",
+      "30911552",
+      "30417374",
+      "30334635",
+      "30186773",
+      "30065034",
+      "29590633",
+      "29485622",
+      "29344893",
+      "29242313",
+      "29156006",
+      "29156001",
+      "29130882",
+      "28712855",
+      "28262777",
+      "27899662",
+      "27613243",
+      "27558558",
+      "26568190",
+      "25605792",
+      "25521941",
+      "25339958",
+      "25063298",
+      "24936261",
+      "24260172",
+      "23193258",
+      "22808130",
+      "22455463",
+      "21752957",
+      "21546393",
+      "21487906",
+      "21325622",
+      "20427518",
+      "20416380",
+      "20103766",
+      "20098449",
+      "19534726",
+      "19106121",
+      "19033363",
+      "17118230",
+      "15975818",
+      "15857924",
+      "15642721",
+      "15086482",
+      "15042541",
+      "14960456",
+      "12736165",
+      "12626582",
+      "12519996",
+      "11988758",
+      "10802651",
+      "10620198"
+    ],
+    "similar": [
+      "40640102",
+      "40825025",
+      "41479901",
+      "40374840",
+      "40312440",
+      "40360670",
+      "41200172",
+      "36250071",
+      "36157062",
+      "40461517",
+      "37396184",
+      "41146237",
+      "39849979",
+      "38691241",
+      "36960398",
+      "40597829",
+      "40228227",
+      "39081100",
+      "40997906",
+      "39351221",
+      "38390317",
+      "37904449",
+      "40362543",
+      "40904090",
+      "38867322",
+      "38952087",
+      "36532018",
+      "41013556",
+      "35721731",
+      "40500570",
+      "41080564",
+      "39375405",
+      "39396400",
+      "41305834",
+      "39139563",
+      "38774257",
+      "40263537",
+      "41097990",
+      "39586719",
+      "38198194",
+      "40641111",
+      "39370621",
+      "39875572",
+      "41481634",
+      "38711508",
+      "39509434",
+      "36671424",
+      "38758850",
+      "39333211",
+      "39995143",
+      "39142001",
+      "39616855",
+      "40406126",
+      "39507054",
+      "39957315",
+      "40129981",
+      "36919187",
+      "38690269",
+      "41044520",
+      "39654884",
+      "35713363",
+      "37960829",
+      "38863714",
+      "37776100",
+      "41046974",
+      "41122706",
+      "41164826",
+      "40830558",
+      "39523364",
+      "35794640",
+      "37322958",
+      "41291978",
+      "41316541",
+      "39265357",
+      "39934690",
+      "37063851",
+      "39319258",
+      "39351239",
+      "41300841",
+      "37115484",
+      "39396625",
+      "39356055",
+      "40328901",
+      "40421012",
+      "40340571",
+      "36064366",
+      "35958412",
+      "41388523",
+      "34424825",
+      "39295860",
+      "38029552",
+      "35845512",
+      "40470717",
+      "39501535",
+      "40692778",
+      "39730379",
+      "39238373",
+      "34107850",
+      "40171194",
+      "39086489"
+    ],
+    "review": [
+      "40640102"
+    ],
+    "pmc": [
+      "12247103"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/0886022X.2025.2525467?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40640102/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1160",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/0886022X.2025.2525467",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

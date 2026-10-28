@@ -1,0 +1,504 @@
+{
+  "identity": {
+    "pmid": "33731362",
+    "doi": "10.1158/1541-7786.MCR-20-0080",
+    "title": "Kinetic Characterization of ASXL1/2-Mediated Allosteric Regulation of the BAP1 Deubiquitinase."
+  },
+  "content": {
+    "abstract": "BAP1 is an ubiquitin hydrolase whose deubiquitinase activity is mediated by polycomb group-like protein ASXL2. Cancer-related BAP1 mutations/deletions lead to loss-of-function by targeting the catalytic ubiquitin C-terminal hydrolase (UCH) or UCH37-like domain (ULD) domains of BAP1, and the latter disrupts binding to ASXL2, an obligate partner for BAP1 enzymatic activity. However, the biochemical and biophysical properties of domains involved in forming the enzymatically active complex are unknown. Here, we report the molecular dynamics, kinetics, and stoichiometry of these interactions. We demonstrate that interactions between BAP1 and ASXL2 are direct, specific, and stable to biochemical and biophysical manipulations as detected by isothermal titration calorimetry (ITC), GST association, and optical biosensor assays. Association of the ASXL2-AB box greatly stimulates BAP1 activity. A stable ternary complex is formed, comprised of the BAP1-UCH, BAP1-ULD, and ASXL2-AB domains. Stoichiometric analysis revealed that one molecule of the ULD domain directly interacts with one molecule of the AB box. Real-time kinetic analysis of the ULD/AB protein complex to the BAP1-UCH domain, based on surface plasmon resonance, indicated that formation of the ULD/AB complex with the UCH domain is a single-step event with fast association and slow dissociation rates. In vitro experiments validated in cells that the ASXL-AB box directly regulates BAP1 activity. IMPLICATIONS: Collectively, these data elucidate molecular interactions between specific protein domains regulating BAP1 deubiquitinase activity, thus establishing a foundation for small-molecule approaches to reactivate latent wild-type BAP1 catalytic activity in BAP1-mutant cancers.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Allosteric Regulation",
+      "Amino Acid Sequence",
+      "Animals",
+      "Binding Sites/genetics",
+      "HEK293 Cells",
+      "Humans",
+      "Kinetics",
+      "Models, Molecular",
+      "Protein Binding",
+      "Protein Domains",
+      "Repressor Proteins/chemistry/genetics/*metabolism",
+      "Sequence Homology, Amino Acid",
+      "Sf9 Cells",
+      "Spodoptera",
+      "Tumor Suppressor Proteins/chemistry/genetics/*metabolism",
+      "Ubiquitin/metabolism",
+      "Ubiquitin Thiolesterase/chemistry/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Hongzhuang",
+        "Cassel, Joel",
+        "McCracken, Daniel S",
+        "Prokop, Jeremy W",
+        "Sementino, Eleonora",
+        "Cheung, Mitchell",
+        "Collop, Paul R",
+        "Polo, Alexander",
+        "Joshi, Surbhi",
+        "Mandell, Jacob P",
+        "Ayyanathan, Kasirajan",
+        "Hinds, David",
+        "Malkowicz, S Bruce",
+        "Harbour, J William",
+        "Bowcock, Anne M",
+        "Salvino, Joseph",
+        "Kennedy, Eileen J",
+        "Testa, Joseph R",
+        "Rauscher, Frank J 3rd"
+      ],
+      "short_names": [
+        "Peng H",
+        "Cassel J",
+        "McCracken DS",
+        "Prokop JW",
+        "Sementino E",
+        "Cheung M",
+        "Collop PR",
+        "Polo A",
+        "Joshi S",
+        "Mandell JP",
+        "Ayyanathan K",
+        "Hinds D",
+        "Malkowicz SB",
+        "Harbour JW",
+        "Bowcock AM",
+        "Salvino J",
+        "Kennedy EJ",
+        "Testa JR",
+        "Rauscher FJ 3rd"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1104-9809",
+        "ORCID: 0000-0001-8691-9090",
+        "ORCID: 0000-0002-2184-5980",
+        "ORCID: 0000-0001-5610-1677",
+        "ORCID: 0000-0003-1301-5175"
+      ],
+      "affiliations": [
+        "The Wistar Institute, Philadelphia, Pennsylvania. joseph.testa@fccc.edu hongzhuangpeng851@gmail.com.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "Department of Biochemistry and Molecular Biophysics, University of Pennsylvania, Philadelphia, Pennsylvania.",
+        "Department of Pediatrics and Human Development, College of Human Medicine, Michigan State University, Grand Rapids, Michigan.",
+        "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, Michigan.",
+        "Fox Chase Cancer Center, Philadelphia, Pennsylvania.",
+        "Fox Chase Cancer Center, Philadelphia, Pennsylvania.",
+        "Department of Pharmaceutical and Biomedical Sciences, College of Pharmacy, University of Georgia, Athens, Georgia.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "Department of Pediatrics and Human Development, College of Human Medicine, Michigan State University, Grand Rapids, Michigan.",
+        "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, Michigan.",
+        "Department of Surgery, University of Pennsylvania, Philadelphia, Pennsylvania.",
+        "University of Miami School of Medicine, Miami, Florida.",
+        "Icahn School of Medicine at Mount Sinai, New York, New York.",
+        "The Wistar Institute, Philadelphia, Pennsylvania.",
+        "Department of Pharmaceutical and Biomedical Sciences, College of Pharmacy, University of Georgia, Athens, Georgia.",
+        "Fox Chase Cancer Center, Philadelphia, Pennsylvania. joseph.testa@fccc.edu hongzhuangpeng851@gmail.com.",
+        "The Wistar Institute, Philadelphia, Pennsylvania."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Hongzhuang",
+        "short_name": "Peng H",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania. joseph.testa@fccc.edu hongzhuangpeng851@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Cassel, Joel",
+        "short_name": "Cassel J",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "McCracken, Daniel S",
+        "short_name": "McCracken DS",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania.",
+          "Department of Biochemistry and Molecular Biophysics, University of Pennsylvania, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Prokop, Jeremy W",
+        "short_name": "Prokop JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics and Human Development, College of Human Medicine, Michigan State University, Grand Rapids, Michigan.",
+          "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, Michigan."
+        ]
+      },
+      {
+        "full_name": "Sementino, Eleonora",
+        "short_name": "Sementino E",
+        "identifiers": [],
+        "affiliations": [
+          "Fox Chase Cancer Center, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Cheung, Mitchell",
+        "short_name": "Cheung M",
+        "identifiers": [],
+        "affiliations": [
+          "Fox Chase Cancer Center, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Collop, Paul R",
+        "short_name": "Collop PR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Biomedical Sciences, College of Pharmacy, University of Georgia, Athens, Georgia."
+        ]
+      },
+      {
+        "full_name": "Polo, Alexander",
+        "short_name": "Polo A",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Joshi, Surbhi",
+        "short_name": "Joshi S",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Mandell, Jacob P",
+        "short_name": "Mandell JP",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Ayyanathan, Kasirajan",
+        "short_name": "Ayyanathan K",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Hinds, David",
+        "short_name": "Hinds D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics and Human Development, College of Human Medicine, Michigan State University, Grand Rapids, Michigan.",
+          "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, Michigan."
+        ]
+      },
+      {
+        "full_name": "Malkowicz, S Bruce",
+        "short_name": "Malkowicz SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Pennsylvania, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Harbour, J William",
+        "short_name": "Harbour JW",
+        "identifiers": [
+          "0000-0002-1104-9809"
+        ],
+        "affiliations": [
+          "University of Miami School of Medicine, Miami, Florida."
+        ]
+      },
+      {
+        "full_name": "Bowcock, Anne M",
+        "short_name": "Bowcock AM",
+        "identifiers": [
+          "0000-0001-8691-9090"
+        ],
+        "affiliations": [
+          "Icahn School of Medicine at Mount Sinai, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Salvino, Joseph",
+        "short_name": "Salvino J",
+        "identifiers": [
+          "0000-0002-2184-5980"
+        ],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Kennedy, Eileen J",
+        "short_name": "Kennedy EJ",
+        "identifiers": [
+          "0000-0001-5610-1677"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical and Biomedical Sciences, College of Pharmacy, University of Georgia, Athens, Georgia."
+        ]
+      },
+      {
+        "full_name": "Testa, Joseph R",
+        "short_name": "Testa JR",
+        "identifiers": [
+          "0000-0003-1301-5175"
+        ],
+        "affiliations": [
+          "Fox Chase Cancer Center, Philadelphia, Pennsylvania. joseph.testa@fccc.edu hongzhuangpeng851@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Rauscher, Frank J",
+        "short_name": "Rauscher FJ",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, Pennsylvania."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer research : MCR"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer Res"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/19 06:00",
+    "fetched_at": "2026-09-27 14:44:41"
+  },
+  "links": {
+    "cites": [
+      "40300851",
+      "37493007"
+    ],
+    "refs": [
+      "30639226",
+      "30349006",
+      "30283141",
+      "30258054",
+      "29284740",
+      "29140675",
+      "28662815",
+      "28204942",
+      "26896281",
+      "25762439",
+      "25355519",
+      "24632559",
+      "23550303",
+      "23383720",
+      "22897849",
+      "21941004",
+      "21874003",
+      "21874000",
+      "21706002",
+      "21642991",
+      "21051595",
+      "20436459",
+      "19188440",
+      "19117993",
+      "18082607",
+      "17717194",
+      "10748030",
+      "10653693",
+      "9528852",
+      "8764838"
+    ],
+    "similar": [
+      "33731362",
+      "29284740",
+      "26416890",
+      "35317997",
+      "32683582",
+      "30349006",
+      "22645167",
+      "26739236",
+      "23850490",
+      "35176625",
+      "30639226",
+      "22878500",
+      "20805357",
+      "25451922",
+      "26095772",
+      "30664650",
+      "37556531",
+      "34170818",
+      "26437366",
+      "30013160",
+      "38849395",
+      "26680512",
+      "28935764",
+      "34591877",
+      "34186160",
+      "23147254",
+      "24703950",
+      "36180891",
+      "24748658",
+      "35122023",
+      "18757409",
+      "19117993",
+      "38529289",
+      "33912157",
+      "35637285",
+      "29345617",
+      "31735283",
+      "32378586",
+      "25702872",
+      "24211834",
+      "25702870",
+      "23736028",
+      "29787736",
+      "21851340",
+      "33446574",
+      "26419610",
+      "31555735",
+      "20436459",
+      "24347639",
+      "32486284",
+      "20302916",
+      "30907299",
+      "27527698",
+      "22683710",
+      "9528852",
+      "31657441",
+      "30400891",
+      "28614305",
+      "27452404",
+      "21953935",
+      "30463901",
+      "37964637",
+      "21047783",
+      "21642991",
+      "31780633",
+      "24040135",
+      "31699823",
+      "35194152",
+      "15531586",
+      "36197977",
+      "25830670",
+      "31635116",
+      "28342657",
+      "26081045",
+      "36865140",
+      "33888563",
+      "12888926",
+      "25404403",
+      "21484256",
+      "26719535",
+      "24894717",
+      "26517537",
+      "32747411",
+      "31130514",
+      "32541668",
+      "19815555",
+      "23915344",
+      "17144664",
+      "36754982",
+      "25582751",
+      "31058963",
+      "27373336",
+      "37246324",
+      "30202049",
+      "30578689",
+      "31159579",
+      "15138607",
+      "24151880",
+      "31278784",
+      "36039769",
+      "24752541",
+      "29743720",
+      "37740028",
+      "38062818",
+      "39045738",
+      "27373151",
+      "36318367",
+      "36300836",
+      "39189628"
+    ],
+    "review": [
+      "33731362",
+      "23147254",
+      "31735283",
+      "23736028",
+      "33446574",
+      "20302916",
+      "27527698",
+      "21484256",
+      "26517537",
+      "31159579",
+      "36318367"
+    ],
+    "pmc": [
+      "8254751"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33731362/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33731362",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33731362",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/mcr/article-lookup/doi/10.1158/1541-7786.MCR-20-0080",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "36037369",
+    "doi": "10.1073/pnas.2204688119",
+    "title": "Nucleation of the destruction complex on the centrosome accelerates degradation of beta-catenin and regulates Wnt signal transmission."
+  },
+  "content": {
+    "abstract": "Wnt signal transduction is controlled by the destruction complex (DC), a condensate comprising scaffold proteins and kinases that regulate beta-catenin stability. Overexpressed DC scaffolds undergo liquid-liquid phase separation (LLPS), but DC mesoscale organization at endogenous expression levels and its role in beta-catenin processing were previously unknown. Here, we find that DC LLPS is nucleated by the centrosome. Through a combination of CRISPR-engineered custom fluorescent tags, finite element simulations, and optogenetic tools that allow for manipulation of DC concentration and multivalency, we find that centrosomal nucleation drives processing of beta-catenin by colocalizing DC components to a single reaction crucible. Enriching GSK3beta partitioning on the centrosome controls beta-catenin processing and prevents Wnt-driven embryonic stem cell differentiation to mesoderm. Our findings demonstrate the role of nucleators in controlling biomolecular condensates and suggest tight integration between Wnt signal transduction and the cell cycle.",
+    "keywords": [
+      "LLPS",
+      "Wnt",
+      "destruction complex",
+      "optogenetics",
+      "stem cells"
+    ],
+    "mesh_terms": [
+      "Cell Differentiation",
+      "*Centrosome/metabolism",
+      "Clustered Regularly Interspaced Short Palindromic Repeats",
+      "*Embryonic Stem Cells/metabolism",
+      "Glycogen Synthase Kinase 3 beta/metabolism",
+      "Mesoderm/metabolism",
+      "*Wnt Signaling Pathway/physiology",
+      "*beta Catenin/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lach, Ryan S",
+        "Qiu, Chongxu",
+        "Kajbaf, Erfan Zeyaei",
+        "Baxter, Naomi",
+        "Han, Dasol",
+        "Wang, Alex",
+        "Lock, Hannah",
+        "Chirikian, Orlando",
+        "Pruitt, Beth",
+        "Wilson, Maxwell Z"
+      ],
+      "short_names": [
+        "Lach RS",
+        "Qiu C",
+        "Kajbaf EZ",
+        "Baxter N",
+        "Han D",
+        "Wang A",
+        "Lock H",
+        "Chirikian O",
+        "Pruitt B",
+        "Wilson MZ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2846-618X",
+        "ORCID: 0000-0001-8418-5898",
+        "ORCID: 0000-0001-9249-9184",
+        "ORCID: 0000-0002-3282-7454",
+        "ORCID: 0000-0002-4861-2124",
+        "ORCID: 0000-0003-0768-7004"
+      ],
+      "affiliations": [
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Neuroscience Research Institute, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Biomolecular Science and Engineering, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Department of Mechanical Engineering, University of California, Santa Barbara, CA 93106.",
+        "Center for BioEngineering, University of California, Santa Barbara, CA 93106.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+        "Neuroscience Research Institute, University of California, Santa Barbara, CA 93106.",
+        "Biomolecular Science and Engineering, University of California, Santa Barbara, CA 93106.",
+        "Center for BioEngineering, University of California, Santa Barbara, CA 93106."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lach, Ryan S",
+        "short_name": "Lach RS",
+        "identifiers": [
+          "0000-0003-2846-618X"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chongxu",
+        "short_name": "Qiu C",
+        "identifiers": [
+          "0000-0001-8418-5898"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Kajbaf, Erfan Zeyaei",
+        "short_name": "Kajbaf EZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Baxter, Naomi",
+        "short_name": "Baxter N",
+        "identifiers": [
+          "0000-0001-9249-9184"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Han, Dasol",
+        "short_name": "Han D",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Research Institute, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Wang, Alex",
+        "short_name": "Wang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Lock, Hannah",
+        "short_name": "Lock H",
+        "identifiers": [
+          "0000-0002-3282-7454"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Chirikian, Orlando",
+        "short_name": "Chirikian O",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular Science and Engineering, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Pruitt, Beth",
+        "short_name": "Pruitt B",
+        "identifiers": [
+          "0000-0002-4861-2124"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+          "Department of Mechanical Engineering, University of California, Santa Barbara, CA 93106.",
+          "Center for BioEngineering, University of California, Santa Barbara, CA 93106."
+        ]
+      },
+      {
+        "full_name": "Wilson, Maxwell Z",
+        "short_name": "Wilson MZ",
+        "identifiers": [
+          "0000-0003-0768-7004"
+        ],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Barbara, CA 93106.",
+          "Neuroscience Research Institute, University of California, Santa Barbara, CA 93106.",
+          "Biomolecular Science and Engineering, University of California, Santa Barbara, CA 93106.",
+          "Center for BioEngineering, University of California, Santa Barbara, CA 93106."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Sep 6",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/30 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [
+      "41939533",
+      "41714622",
+      "41562431",
+      "40830657",
+      "40817738",
+      "40516530",
+      "40445763",
+      "40442783",
+      "39990305",
+      "39386623",
+      "39316611",
+      "38967608",
+      "38872189",
+      "38352406",
+      "37092470",
+      "36179040"
+    ],
+    "refs": [
+      "34552246",
+      "34035520",
+      "33651074",
+      "33139571",
+      "33060621",
+      "32824618",
+      "32583737",
+      "32297861",
+      "31822591",
+      "31594803",
+      "31235951",
+      "30950394",
+      "30782412",
+      "30682370",
+      "30500534",
+      "29742018",
+      "29641560",
+      "29313527",
+      "28575679",
+      "28041848",
+      "27852897",
+      "27144584",
+      "27115119",
+      "26556314",
+      "26393419",
+      "26351690",
+      "25702583",
+      "24706806",
+      "23804296",
+      "23377377",
+      "23155463",
+      "22682247",
+      "22359584",
+      "21663792",
+      "21471006",
+      "20229235",
+      "19390532",
+      "19084407",
+      "18339942",
+      "18077588",
+      "17606995",
+      "17081971",
+      "16943279",
+      "16814722",
+      "15650739",
+      "14744872",
+      "14551908",
+      "12781135",
+      "11955436",
+      "8033083",
+      "2156841"
+    ],
+    "similar": [
+      "36037369",
+      "27484798",
+      "33651074",
+      "34418117",
+      "31189665",
+      "23804296",
+      "39813084",
+      "19842147",
+      "20300119",
+      "24501426",
+      "30782412",
+      "23767804",
+      "20559569",
+      "36342472",
+      "23724138",
+      "21631154",
+      "35867833",
+      "37162558",
+      "32583737",
+      "40424469",
+      "38279052",
+      "21841793",
+      "31461190",
+      "25996495",
+      "26755607",
+      "41258755",
+      "30885941",
+      "19432819",
+      "24451375",
+      "30819898",
+      "27090637",
+      "17522258",
+      "30181396",
+      "17956532",
+      "37321345",
+      "18641688",
+      "23872074",
+      "24105937",
+      "29030569",
+      "33605517",
+      "25038456",
+      "29497051",
+      "27144323",
+      "29231998",
+      "32615283",
+      "20626347",
+      "27592552",
+      "24335169",
+      "30916158",
+      "22682247",
+      "27481517",
+      "25738917",
+      "32297861",
+      "22976998",
+      "24333578",
+      "26259606",
+      "33099905",
+      "24931405",
+      "31837353",
+      "29350680",
+      "36199093",
+      "39250420",
+      "31443611",
+      "18667462",
+      "37779078",
+      "25262469",
+      "25265211",
+      "24402132",
+      "27499609",
+      "32521874",
+      "25262238",
+      "36973541",
+      "36929360",
+      "26315083",
+      "33245852",
+      "24838256",
+      "37144883",
+      "25529604",
+      "27484226",
+      "26109067",
+      "28605165",
+      "32916221",
+      "28648006",
+      "35386071",
+      "30615824",
+      "22177620",
+      "33060621",
+      "19190323",
+      "34352441",
+      "23341242",
+      "25819561",
+      "22768254",
+      "15525667",
+      "18852283",
+      "34087681",
+      "40588478",
+      "17950287",
+      "30035713",
+      "30768922",
+      "24736394"
+    ],
+    "review": [
+      "36037369",
+      "23804296",
+      "30782412",
+      "24105937",
+      "33605517"
+    ],
+    "pmc": [
+      "9457612"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2204688119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36037369/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36037369",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt08w8q3gv",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/36037369",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion, figure legends not fully provided)
+- **Assessment boundary** Scientific claims, technical soundness, and evidentiary support based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that the Chromosomal Passenger Complex (CPC) binds nucleosomes through multipartite interactions involving both stable engagement at the acidic patch and dynamic contacts at the DNA entry-exit site, and that this binding protects centromeric chromatin from nuclease digestion and is required for stable centromere association and accurate chromosome segregation.
+- **Visible evidence base** Cryo-EM structure (2.8 Å) of CPC bound to H3T3ph nucleosome; SEC, EMSA, crosslinking/MS, UV crosslinking/MS; AFM imaging; MNase assays on mononucleosomes and nucleosomal arrays; FRAP and live-cell imaging in RPE1 cell lines; Southern blot
+- **Missing materials affecting confidence** Figure panels referenced but not fully described (e.g., Fig. 1B, 2A, 3A, 4A, 5B-F, S1-S5); statistical details for AFM and MNase quantifications; exact sample sizes and replicates for cellular assays; full methods for FRAP analysis and image quantification; validation of INCENP 6A mutant expression levels and localization
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant open question in chromosome biology: how the CPC engages chromatin and whether it has a non-catalytic role in protecting centromeric chromatin. The cryo-EM structure at 2.8 Å provides a valuable advance, revealing a stable anchor at the acidic patch via the Borealin N-terminal tail and dynamic engagement at the DNA entry-exit site. The combination of structural, biochemical, and cellular approaches is commendable. However, several claims, particularly regarding the in vivo relevance of the chromatin protection function, are not fully supported by the data as presented. The cellular experiments rely on a single mutant (INCENP 6A) and the connection between reduced MNase protection and mitotic defects is correlative. The manuscript would be strengthened by additional controls, quantification, and a more direct test of the proposed protective mechanism in cells.
+- **Who would be interested in the results, and why** Researchers in chromosome segregation, kinetochore biology, chromatin structure, and epigenetics. The structural data on CPC-nucleosome engagement will be of interest to structural biologists studying chromosomal protein complexes. The proposed non-catalytic role of CPC in chromatin protection has implications for understanding centromere stability and genome integrity, which is relevant to cancer biology given the frequent misregulation of CPC components in tumors.
+- **Major strengths** 1) High-resolution cryo-EM structure of a physiologically relevant CPC-nucleosome complex, revealing a novel mode of engagement. 2) Integration of multiple biochemical and biophysical techniques (SEC, EMSA, crosslinking/MS, AFM) to dissect the contributions of different CPC regions. 3) The observation of two copies of CPC binding symmetrically to both faces of the nucleosome is novel and potentially important. 4) The study addresses a previously unexplored non-catalytic function of CPC in chromatin protection.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Evidence sufficiency
+  - **Claim pointer** "Perturbing the CPC-nucleosome interaction compromises protection against MNase digestion in vitro, as well as the dynamic centromere association of CPC and centromeric chromatin stability in cells."
+  - **Evidence pointer** Results section "CPC-nucleosome interaction is essential for centromeric chromatin protection"; Fig. 6B, S5C
+  - **Concern** The in vivo MNase assay on centromeric chromatin is performed on mitotic lysates from cells expressing either INCENP WT or INCENP 6A. The authors conclude that reduced protection in the 6A mutant demonstrates a role for CPC in protecting centromeric chromatin. However, the INCENP 6A mutant also shows reduced centromere accumulation (Fig. 6C), making it difficult to distinguish between a direct protective role of CPC at chromatin versus an indirect effect due to reduced CPC occupancy. Additionally, the MNase digestion on lysates may not faithfully recapitulate the chromatin state in living cells, and the assay does not distinguish between protection of centromeric versus bulk chromatin.
+  - **Why it matters** The central claim of a non-catalytic, chromatin-protective role of CPC in cells rests on this experiment. If the effect is simply due to reduced CPC levels at centromeres, the conclusion is weakened. The distinction between direct protection and occupancy-dependent effects is critical for the mechanistic model proposed.
+  - **Resolution test** Provide chromatin immunoprecipitation (ChIP) data showing comparable CPC occupancy at centromeres in WT and 6A mutant cells, or perform the MNase assay on cells where CPC is tethered to centromeres independently of the H3T3ph pathway. Alternatively, use a mutant that disrupts nucleosome binding without affecting centromere localization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Interpretation
+  - **Claim pointer** "Our 2.8 Å cryo-EM structure revealed that the highly basic Borealin N-terminal tail, with a pI of 12.01, anchors CPC to the nucleosome through its interaction with the acidic patch."
+  - **Evidence pointer** Results section "CPC binds nucleosomes through its engagement with the nucleosome acidic patch and the DNA entry-exit site"; Fig. 1B, S2C-E
+  - **Concern** The structure is determined with a truncated CPC construct (I1-190SB) that lacks the C-terminal region of INCENP and the kinase domain. While this is a practical approach, the authors do not discuss how the absence of these regions might affect the observed binding mode. Furthermore, the claim that the Borealin N-terminal tail is the primary anchor is based on the structure, but the functional validation relies on the I1-190SB10-end mutant, which still binds nucleosomes (Fig. 3B). This suggests that the acidic patch interaction is not essential for binding, which is somewhat in tension with the structural emphasis.
+  - **Why it matters** The structural model is presented as the basis for the proposed mechanism. If the acidic patch interaction is dispensable for binding, the physiological relevance of this specific contact needs to be clarified. The manuscript would benefit from a more nuanced discussion of which interactions are essential versus contributory.
+  - **Resolution test** Perform binding assays with point mutations in the Borealin N-terminal tail (e.g., R4A, R9A) to directly test the contribution of the acidic patch interaction. Also, discuss the potential influence of the truncated INCENP on the observed binding mode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Quantification
+  - **Claim pointer** "Addition of CPC I1-190SB increased the fraction of fully wrapped H3T3ph nucleosomes to 52 ± 2%"
+  - **Evidence pointer** Results section "CPC stabilizes nucleosomes through compaction"; Fig. 5B-D, S4A-E
+  - **Concern** The AFM analysis relies on manual or semi-automated classification of nucleosome wrapping states. The authors report a modest increase from 40% to 52% fully wrapped nucleosomes upon CPC binding. The statistical significance and the robustness of this classification are not fully described. It is unclear how many nucleosomes were analyzed per condition, whether the analysis was blinded, and how the classification threshold was set.
+  - **Why it matters** The claim that CPC stabilizes the fully wrapped state is a key in vitro finding. If the classification is subjective or the effect is small, the conclusion may not be robust. The authors should provide more detail on the analysis pipeline and ideally include an inter-analyzer variability assessment.
+  - **Resolution test** Provide the number of nucleosomes analyzed, the criteria for classification, and a statistical test comparing the distributions. Consider using a more objective measure, such as measuring the DNA exit angle directly, and report the effect size with confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Controls
+  - **Claim pointer** "The crosslinking/MS data demonstrated that the additional CPC contacts, involving the Borealin loop region and the INCENP basic IDR, include nucleosome regions previously identified as hotspots for NCP-binding proteins"
+  - **Evidence pointer** Results section "Dynamic interactions are required for efficient CPC-nucleosome binding"; Fig. 3C, S3A
+  - **Concern** The crosslinking/MS experiment identifies contacts between CPC and the nucleosome, but the authors do not provide a negative control (e.g., crosslinking in the absence of CPC or with a non-binding mutant) to demonstrate the specificity of the identified crosslinks. Additionally, the stoichiometry of the crosslinked species is not reported, making it difficult to assess whether the identified contacts represent a single binding mode or a mixture of conformations.
+  - **Why it matters** Crosslinking/MS can generate false positives from non-specific or transient interactions. Without appropriate controls, the assignment of specific CPC regions to specific nucleosome features is not fully validated.
+  - **Resolution test** Include a control crosslinking experiment with a nucleosome-binding-deficient CPC mutant or with free DNA. Report the number of unique crosslinks and the spectral counts for each identified contact.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the CPC "ensures accurate chromosome segregation by orchestrating sister chromatid cohesion, error-correction of kinetochore-microtubule attachments and spindle assembly checkpoint." This is a broad claim that is not directly tested in this manuscript.
+  - **Required correction** Consider rephrasing to focus on the specific contributions of this study, e.g., "The chromosomal passenger complex (CPC) is critical for accurate chromosome segregation, and its centromere localization is essential for this function."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, EMSA
+  - **Evidence pointer** Methods section "EMSA"
+  - **Issue** The EMSA buffer contains 100 mM or 250 mM NaCl, but the authors do not specify which concentration was used for the experiments shown in Fig. 4B-C. The salt concentration can significantly affect binding affinity.
+  - **Required correction** Specify the salt concentration used for each EMSA experiment in the figure legend or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors speculate that the two copies of CPC on both faces of the nucleosome may contribute to chromatin protection by "stabilizing the wrapped state." However, they do not discuss how this relates to the dynamic nature of CPC localization during mitosis, where CPC is known to be highly mobile.
+  - **Required correction** Add a brief discussion on how the proposed stable binding mode reconciles with the known dynamic behavior of CPC at centromeres.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 6C
+  - **Evidence pointer** Results section "CPC-nucleosome interaction is essential for centromeric chromatin protection"
+  - **Issue** The authors state that INCENP 6A mutant failed to translocate from centromeres to the central spindle, but the quantification of this phenotype is not shown.
+  - **Required correction** Provide quantification of the translocation defect, including the percentage of cells showing normal versus defective translocation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (in vivo MNase assay confounded by reduced CPC occupancy), R1-M2 (discrepancy between structural anchor and functional dispensability), R1-M3 (AFM classification robustness)
+- **Assessment against Nature-style criteria** Originality: High. The study provides a novel structural view of CPC-nucleosome engagement and proposes a new non-catalytic function. Scientific importance: High. Understanding how CPC protects centromeric chromatin has broad implications for chromosome segregation and genome stability. Interdisciplinary readership: Moderate. The work will appeal primarily to chromosome biology and structural biology communities, with potential interest from cancer biologists. Technical soundness: Moderate. The structural and biochemical data are generally solid, but the cellular experiments lack the necessary controls and quantification to fully support the in vivo claims. Readability for nonspecialists: Good. The manuscript is clearly written, though some sections assume familiarity with the CPC field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural and biochemical core is valuable and likely publishable. However, the in vivo claims regarding chromatin protection require additional experiments to distinguish direct protective effects from occupancy-dependent effects. The AFM analysis needs more rigorous quantification. If these issues are addressed, the manuscript would make a strong contribution.

@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41562054",
+    "doi": "10.3389/fimmu.2025.1697013",
+    "title": "The role of age-related genes in idiopathic pulmonary fibrosis and molecular docking analysis of their drug targets."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Idiopathic pulmonary fibrosis (IPF), a relentlessly progressive lung disorder marked by unremitting extracellular matrix deposition, continues to challenge clinical management due to its enigmatic etiology. Emerging evidence positions biological aging as a critical orchestrator of fibrotic reprogramming, where senescent cell accumulation and dysregulated tissue repair converge to drive disease progression. METHODS: Three independent IPF transcriptomic datasets (GSE24206, GSE53845, GSE68039) were retrieved from the Gene Expression Omnibus (GEO) database. Aging-related differentially expressed genes (DEGs) were identified through intersection analysis with established senescence-associated gene sets. Functional annotation was performed using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses. Protein-protein interaction (PPI) networks were constructed via STRING database and visualized using Cytoscape to identify topological hub genes. Competing endogenous RNA (ceRNA) networks and transcription factor (TF)-gene regulatory relationships were subsequently established. The DSigDB database was employed for drug-gene interaction prediction, complemented by molecular docking validation. Experimental validation was conducted using the GSE10667 dataset and a bleomycin-induced murine pulmonary fibrosis mode. RESULTS: Comparative transcriptomic analysis revealed 292 DEGs between IPF and control tissues, with 19 exhibiting significant aging-related characteristics. Network topology analysis identified ten hub genes, including CLU and LCN2, that occupied central positions in both ceRNA networks and TF regulatory circuits. Drug enrichment analysis nominated inulin and meclizine as promising candidates demonstrating stable binding conformations with LCN2 and CLU, respectively. External validation confirmed significant upregulation of CLU and LCN2 in GSE10667 dataset, consistent with murine model findings. CONCLUSION: Our integrative analysis reveals novel molecular connections between cellular senescence programs and fibrotic lung remodeling, positioning CLU and LCN2 as pivotal regulators of age-associated pulmonary fibrosis. The identified drug candidates exhibit therapeutic potential through multi-target engagement mechanisms, providing a translational framework for developing senescence-modulating therapies in IPF.",
+    "keywords": [
+      "age-related differential genes",
+      "clusterin(CLU)",
+      "idiopathic pulmonary fibrosis",
+      "inulin",
+      "lipocalin-2 (Lcn2)",
+      "meclizine"
+    ],
+    "mesh_terms": [
+      "*Idiopathic Pulmonary Fibrosis/genetics/drug therapy/metabolism",
+      "Humans",
+      "Animals",
+      "Molecular Docking Simulation",
+      "*Aging/genetics",
+      "Protein Interaction Maps",
+      "Mice",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Bleomycin",
+      "Lipocalin-2/genetics/metabolism",
+      "Transcriptome",
+      "Disease Models, Animal",
+      "Gene Expression Regulation",
+      "Databases, Genetic",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Wei",
+        "Xia, Tingting",
+        "Zhang, Qian"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Xia T",
+        "Zhang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatric Medicine, The First People's Hospital, The Third Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Department of Geratology, Affiliated The Tenth Affiliated Hospital of Southern Medical University (Dongguan People's Hospital), Dongguan, China.",
+        "Department of General Medical Ward, The First People's Hospital, The Third Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Medicine, The First People's Hospital, The Third Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Tingting",
+        "short_name": "Xia T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geratology, Affiliated The Tenth Affiliated Hospital of Southern Medical University (Dongguan People's Hospital), Dongguan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medical Ward, The First People's Hospital, The Third Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 06:29",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [
+      "42279032"
+    ],
+    "refs": [
+      "40974335",
+      "40858556",
+      "40738116",
+      "40396179",
+      "40177487",
+      "39718621",
+      "39515589",
+      "39345816",
+      "39178854",
+      "39139502",
+      "38816771",
+      "38704585",
+      "38648021",
+      "38573068",
+      "38566986",
+      "38457473",
+      "38367751",
+      "38171656",
+      "38030064",
+      "38003670",
+      "37924392",
+      "37882943",
+      "37746070",
+      "37633968",
+      "37544465",
+      "37458437",
+      "37440036",
+      "37267917",
+      "37156412",
+      "37055085",
+      "37051233",
+      "36936416",
+      "36702498",
+      "36579746",
+      "36211385",
+      "35953598",
+      "35696344",
+      "35681476",
+      "35486072",
+      "35339510",
+      "34813355",
+      "34603645",
+      "34512149",
+      "34476240",
+      "34164732",
+      "33629708",
+      "33393489",
+      "32991815",
+      "32386296",
+      "32152330",
+      "31958492",
+      "31730381",
+      "30774578",
+      "30292786",
+      "29742380",
+      "29411215",
+      "29133960",
+      "29052582",
+      "28365056",
+      "28230051",
+      "26250822",
+      "24050627",
+      "23462474",
+      "22346773",
+      "19129400",
+      "14960531",
+      "1506452"
+    ],
+    "similar": [
+      "41562054",
+      "37924392",
+      "37559532",
+      "40557159",
+      "41511918",
+      "41492010",
+      "40670650",
+      "40153017",
+      "37686108",
+      "42024670",
+      "40665394",
+      "37794454",
+      "40280949",
+      "42074286",
+      "40597456",
+      "40187620",
+      "37907428",
+      "41815121",
+      "38062833",
+      "38871957",
+      "40369105",
+      "41130090",
+      "39991151",
+      "41955235",
+      "40821971",
+      "40170095",
+      "39718612",
+      "38370408",
+      "41005317",
+      "34285914",
+      "38334875",
+      "38734841",
+      "39944354",
+      "40411685",
+      "40628511",
+      "41158346",
+      "40273141",
+      "42107160",
+      "42278407",
+      "42109727",
+      "39586719",
+      "40561071",
+      "42289108",
+      "40406126",
+      "39260206",
+      "41237469",
+      "41288681",
+      "37798725",
+      "38640713",
+      "42113497",
+      "41244106",
+      "41665823",
+      "35975032",
+      "34218797",
+      "41224967",
+      "41254784",
+      "41044520",
+      "40977739",
+      "37666859",
+      "40826767",
+      "41703488",
+      "41316541",
+      "40289127",
+      "41544137",
+      "41939867",
+      "41855208",
+      "40659785",
+      "41729975",
+      "41764494",
+      "40913866",
+      "41009659",
+      "42327749",
+      "38566986",
+      "34746180",
+      "42172251",
+      "32811479",
+      "39636560",
+      "37087790",
+      "42267557",
+      "38957433",
+      "41196851",
+      "38259479",
+      "40022042",
+      "41275377",
+      "41671621",
+      "41863100",
+      "41079183",
+      "41385176",
+      "40574839",
+      "42327717",
+      "39289672",
+      "37776011",
+      "39176085",
+      "42196408",
+      "41006883",
+      "40091022",
+      "35016690",
+      "39622393",
+      "39704195",
+      "38749785"
+    ],
+    "review": [
+      "41562054"
+    ],
+    "pmc": [
+      "12812732"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41562054/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CLU-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1697013",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

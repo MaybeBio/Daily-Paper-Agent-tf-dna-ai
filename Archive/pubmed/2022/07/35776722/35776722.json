@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "35776722",
+    "doi": "10.1371/journal.pone.0270043",
+    "title": "Single-cell specific and interpretable machine learning models for sparse scChIP-seq data imputation."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Single-cell Chromatin ImmunoPrecipitation DNA-Sequencing (scChIP-seq) analysis is challenging due to data sparsity. High degree of sparsity in biological high-throughput single-cell data is generally handled with imputation methods that complete the data, but specific methods for scChIP-seq are lacking. We present SIMPA, a scChIP-seq data imputation method leveraging predictive information within bulk data from the ENCODE project to impute missing protein-DNA interacting regions of target histone marks or transcription factors. RESULTS: Imputations using machine learning models trained for each single cell, each ChIP protein target, and each genomic region accurately preserve cell type clustering and improve pathway-related gene identification on real human data. Results on bulk data simulating single cells show that the imputations are single-cell specific as the imputed profiles are closer to the simulated cell than to other cells related to the same ChIP protein target and the same cell type. Simulations also show that 100 input genomic regions are already enough to train single-cell specific models for the imputation of thousands of undetected regions. Furthermore, SIMPA enables the interpretation of machine learning models by revealing interaction sites of a given single cell that are most important for the imputation model trained for a specific genomic region. The corresponding feature importance values derived from promoter-interaction profiles of H3K4me3, an activating histone mark, highly correlate with co-expression of genes that are present within the cell-type specific pathways in 2 real human and mouse datasets. The SIMPA's interpretable imputation method allows users to gain a deep understanding of individual cells and, consequently, of sparse scChIP-seq datasets. AVAILABILITY AND IMPLEMENTATION: Our interpretable imputation algorithm was implemented in Python and is available at https://github.com/salbrec/SIMPA.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cluster Analysis",
+      "DNA",
+      "*Genomics",
+      "*Machine Learning",
+      "Mice",
+      "Sequence Analysis, DNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Albrecht, Steffen",
+        "Andreani, Tommaso",
+        "Andrade-Navarro, Miguel A",
+        "Fontaine, Jean Fred"
+      ],
+      "short_names": [
+        "Albrecht S",
+        "Andreani T",
+        "Andrade-Navarro MA",
+        "Fontaine JF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9765-4136",
+        "ORCID: 0000-0002-1101-4091"
+      ],
+      "affiliations": [
+        "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology, Mainz, Germany.",
+        "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Albrecht, Steffen",
+        "short_name": "Albrecht S",
+        "identifiers": [
+          "0000-0002-9765-4136"
+        ],
+        "affiliations": [
+          "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Andreani, Tommaso",
+        "short_name": "Andreani T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Andrade-Navarro, Miguel A",
+        "short_name": "Andrade-Navarro MA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Fontaine, Jean Fred",
+        "short_name": "Fontaine JF",
+        "identifiers": [
+          "0000-0002-1101-4091"
+        ],
+        "affiliations": [
+          "Institute of Organismic and Molecular Evolution (iOME), Faculty of Biology, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/02 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "40908459"
+    ],
+    "refs": [
+      "36654454",
+      "34737275",
+      "33589836",
+      "33575635",
+      "33213499",
+      "32620137",
+      "32348450",
+      "32228713",
+      "32228704",
+      "32187374",
+      "32119079",
+      "32108864",
+      "31992614",
+      "31594952",
+      "31584606",
+      "31406384",
+      "31392316",
+      "31152164",
+      "31060596",
+      "31053864",
+      "30476243",
+      "29994128",
+      "29643364",
+      "29511531",
+      "28505247",
+      "28234893",
+      "26527727",
+      "26458175",
+      "25738806",
+      "25690853",
+      "22955616",
+      "21868852",
+      "16381938",
+      "15499007"
+    ],
+    "similar": [
+      "35776722",
+      "35901457",
+      "37531858",
+      "37039664",
+      "31627739",
+      "38084919",
+      "29137603",
+      "36825817",
+      "27845669",
+      "27797775",
+      "31243426",
+      "36733262",
+      "37122068",
+      "37991248",
+      "37313714",
+      "35809062",
+      "38248911",
+      "35591853",
+      "34077420",
+      "33208097",
+      "38600665",
+      "38317025",
+      "34553763",
+      "37507764",
+      "37047200",
+      "36567258",
+      "38866896",
+      "37903416",
+      "20122241",
+      "34718405",
+      "32073612",
+      "35022082",
+      "28351406",
+      "36709340",
+      "33535230",
+      "38039139",
+      "33889181",
+      "37803172",
+      "33459762",
+      "33834202",
+      "33826608",
+      "33279962",
+      "26818008",
+      "31594952",
+      "28881977",
+      "31208324",
+      "34864898",
+      "32649756",
+      "31286861",
+      "34844559",
+      "37237310",
+      "32403260",
+      "37904203",
+      "35575729",
+      "38000911",
+      "29178831",
+      "27835030",
+      "36734596",
+      "32119079",
+      "34459719",
+      "33191916",
+      "36159738",
+      "34255822",
+      "25957350",
+      "30416387",
+      "32854757",
+      "31466333",
+      "29630593",
+      "31584606",
+      "34718418",
+      "35172334",
+      "35751187",
+      "33948096",
+      "35380031",
+      "25486472",
+      "39012609",
+      "34998929",
+      "36083008",
+      "35195064",
+      "26830693",
+      "33879090",
+      "31889137",
+      "30821321",
+      "27519564",
+      "34495837",
+      "34252968",
+      "30397240",
+      "21356108",
+      "38171931",
+      "25342065",
+      "33430769",
+      "35524568",
+      "34278382",
+      "34999761",
+      "27537694",
+      "35821114",
+      "31672653",
+      "35938031",
+      "39264290",
+      "38099262",
+      "38552318",
+      "37387141",
+      "36747873",
+      "37905060",
+      "39253493",
+      "36414658"
+    ],
+    "review": [
+      "35776722",
+      "31243426"
+    ],
+    "pmc": [
+      "9249201"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0270043",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35776722/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35776722",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

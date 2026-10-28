@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a coevolution-aware ancestral sequence reconstruction (ASR) framework that combines phylogenetic inference with Direct Coupling Analysis (DCA). They claim that this approach preserves site-wise ancestral uncertainty while enforcing residue–residue constraints, and that it improves reconstruction accuracy when ancestral states are epistatically constrained, as benchmarked using a DCA-based forward-evolution simulator on β-lactamases and DNA-binding domains.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark protocols, parameter settings, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and timely idea, namely integrating coevolutionary constraints into ancestral sequence reconstruction. The motivation is clear and the proposed framework is plausible. However, the abstract provides no quantitative evidence, no methodological specifics, and no comparison against existing methods. The central claims of improved reconstruction and ensemble quality cannot be evaluated from the supplied material. The work may be of interest to the molecular evolution and protein engineering communities, but the current evidence base is insufficient to assess technical soundness or establish the case.
+- **Who would be interested in the results, and why** Researchers in molecular evolution, phylogenetics, and protein biophysics would be interested, as the method addresses a known limitation of standard ASR. Protein engineers and synthetic biologists using ancestral proteins for functional resurrection would also benefit from more realistic ancestral ensembles. The DCA-based forward-evolution benchmark could be of methodological interest to those developing and testing evolutionary models.
+- **Major strengths** The problem addressed is well recognized and important. The proposed combination of phylogenetic and coevolutionary models is conceptually sound and potentially impactful. The use of a controlled forward-evolution framework for benchmarking is a strong design choice, as it allows comparison against known ground truth. The application to two distinct protein families suggests some generality.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the approach "improves reconstruction when ancestral states are epistatically constrained" and "yields ensembles of candidate ancestors that are both phylogenetically consistent and statistically compatible with natural protein families."  
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided  
+  - **Concern** No quantitative results are presented. There are no accuracy metrics, no comparisons to standard ASR methods, no statistical measures of ensemble quality, and no details on the magnitude of improvement. The claims of improvement and compatibility are unsupported by any visible data.  
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the improvement is real, substantial, or statistically significant. The central contribution of the paper, namely the demonstrated advantage of the coevolution-aware approach, is not established.  
+  - **Resolution test** Provide figures or tables showing reconstruction accuracy (e.g., fraction of correctly inferred sites, posterior calibration) for the proposed method versus standard MAP and posterior sampling approaches, with error bars or confidence intervals, across the benchmark datasets.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** The abstract states that the framework "combines standard phylogenetic inference with Direct Coupling Analysis" and "preserves site-wise ancestral uncertainty while enforcing residue–residue constraints."  
+  - **Evidence pointer** Abstract only; methods section not provided  
+  - **Concern** The abstract does not explain how the phylogenetic and DCA models are combined. It is unclear whether the DCA energy is used as a prior, a likelihood correction, or a post-hoc filter. The computational cost and scalability of the approach are also not mentioned.  
+  - **Why it matters** The novelty and utility of the method depend on the specific integration scheme. Without this detail, the approach cannot be reproduced or evaluated for its practical applicability to large protein families.  
+  - **Resolution test** Provide a clear description of the probabilistic model, including the exact form of the combined likelihood or posterior, and discuss computational complexity and runtime on the benchmark datasets.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Benchmark validity  
+  - **Claim pointer** The abstract claims that the forward-evolution framework generates "known ground-truth sequences generated under realistic epistatic constraints."  
+  - **Evidence pointer** Abstract only; benchmark details not provided  
+  - **Concern** The realism of the DCA-based forward evolver is asserted but not demonstrated. It is unclear whether the simulated evolutionary process matches real protein evolution in terms of substitution rates, selection strength, and sequence diversity. If the simulator is too closely tied to the DCA model used for reconstruction, the benchmark may be circular and overestimate performance.  
+  - **Why it matters** The validity of the benchmark determines whether the reported improvements are meaningful for real proteins. A biased or unrealistic simulator would undermine the generalizability of the conclusions.  
+  - **Resolution test** Provide details on the simulation parameters, including mutation rates, selection coefficients, and the relationship between the generative model and the inference model. Show that the simulated sequences recapitulate known properties of natural protein families, such as site-specific conservation and pairwise correlations.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract claims the approach is applied to "β-lactamases and DNA-binding domains" and implies general applicability.  
+  - **Evidence pointer** Abstract only; no results for these families shown  
+  - **Concern** Only two protein families are mentioned, and no results are presented. It is unclear whether the method performs well across diverse protein families with different sizes, depths, and degrees of epistasis. The choice of these two families may not be representative.  
+  - **Why it matters** The practical value of the method depends on its robustness across a range of evolutionary scenarios. Limited testing on two families is insufficient to support broad claims of improvement.  
+  - **Resolution test** Present results for a broader set of protein families with varying alignment depths, sequence divergence, and structural complexity, and discuss any cases where the method does not improve over standard ASR.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** "over-idealized sequence"  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The term "over-idealized" is vague and not defined. It is unclear what specific property of the MAP reconstruction is being criticized.  
+  - **Required correction** Define the term operationally, for example by specifying that MAP reconstructions tend to overestimate the frequency of consensus or highly conserved residues.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** DCA model inference  
+  - **Evidence pointer** Abstract, graphical abstract description  
+  - **Issue** The abstract does not specify how the DCA model is inferred, such as the regularization scheme, the number of parameters, or the software used.  
+  - **Required correction** Provide details on the DCA inference procedure in the methods section, including any hyperparameters and software versions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** "statistically compatible with natural protein families"  
+  - **Evidence pointer** Abstract, final paragraph  
+  - **Issue** The phrase "statistically compatible" is not quantified. It is unclear what statistical test or metric is used to assess compatibility.  
+  - **Required correction** Specify the statistical measure used, such as the Kullback-Leibler divergence between the ensemble and natural sequences, or a comparison of site-specific frequencies and pairwise correlations.
+
+## Risk / unsupported claims
+- The claim that the approach "improves reconstruction when ancestral states are epistatically constrained" is unsupported by any visible quantitative data.
+- The claim that the method "yields ensembles of candidate ancestors that are both phylogenetically consistent and statistically compatible with natural protein families" is unsupported by any visible validation.
+- The claim that the forward-evolution framework generates "realistic epistatic constraints" is asserted but not demonstrated.
+- The general applicability of the method beyond the two mentioned families is not established.
+- The computational feasibility of the approach for large alignments is not addressed.

@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the structure-based design, synthesis, and biological evaluation of a novel D-amino acid-containing peptide inhibitor (RB-1) targeting the RAD51-BRCA2 interaction. They claim high binding affinity for RAD51 (via MST and FP), stable binding in MD simulations, antiproliferative activity against kidney cancer cell lines with low toxicity to normal cells, inhibition of homologous recombination repair, stability in mouse serum, and in vivo tumor suppression without serious systemic side effects.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical details, compound characterization data, in vivo study design, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting peptide inhibitor with a clear rationale and a broad range of biological assays. However, the evidence base is limited to summary statements without quantitative data, statistical support, or methodological detail. The core claims of binding affinity, selectivity, mechanism, and in vivo efficacy cannot be independently evaluated from the supplied material. The work may be of interest to the anticancer peptide and DNA repair communities, but the current evidence is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers in anticancer drug discovery, particularly those focused on peptide therapeutics, protein-protein interaction inhibitors, and DNA damage repair pathways. The D-amino acid peptide approach may appeal to groups working on metabolic stability and target specificity of peptide drugs. The kidney cancer application could interest translational oncology groups.
+- **Major strengths** The rationale for targeting the RAD51-BRCA2 interaction is well established in the literature. The use of D-amino acids to enhance biological stability is a recognized strategy. The abstract indicates a comprehensive evaluation pipeline from virtual screening to in vivo studies, which is commendable in scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MST and FP experiments showed that RB-1 had excellent binding affinity for RAD51"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative binding data (e.g., Kd values) or experimental conditions are provided. The term "excellent" is subjective and unsupported without numerical context or comparison to known controls.
+  - **Why it matters** Binding affinity is the foundational claim for the inhibitor's mechanism. Without quantitative values and appropriate controls, the reader cannot assess whether the affinity is biologically meaningful or comparable to existing inhibitors.
+  - **Resolution test** Provide Kd values from MST and FP, include positive and negative controls, and state the number of replicates and statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "RB-1 exhibited significant antiproliferative activity on a panel of kidney cancer cell lines and less toxicity to normal cells"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No IC50 values, cell line names, or toxicity data are given. "Significant" and "less toxicity" are qualitative descriptors without statistical backing or dose-response data.
+  - **Why it matters** The therapeutic potential of RB-1 depends on a favorable selectivity index between cancer and normal cells. Without quantitative data, the claim of selective activity is not established.
+  - **Resolution test** Provide IC50 values for each cell line, include a normal cell comparator, and report statistical analysis (e.g., p-values, confidence intervals).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "In vivo studies showed that RB-1 can effectively suppress tumor growth in mice without causing serious systemic side effects"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No tumor model details, dosing regimen, route of administration, tumor growth inhibition percentages, or toxicity metrics are provided. The claim of efficacy and safety is unsupported by any numerical or statistical data.
+  - **Why it matters** In vivo efficacy is the strongest translational claim in the abstract. Without experimental details and quantitative outcomes, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Describe the tumor model, dosing schedule, sample sizes, tumor volume measurements, body weight changes, and any histopathological or serum toxicity data with statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "RB-1 exerted antitumor effects by inhibiting HR repair"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The mechanism is stated but no experimental evidence (e.g., RAD51 foci formation, HR reporter assays, or downstream marker analysis) is described in the abstract.
+  - **Why it matters** Establishing the mechanism of action is critical to support the design rationale and distinguish RB-1 from non-specific cytotoxic agents.
+  - **Resolution test** Provide data from HR repair assays, RAD51 localization studies, or downstream DNA damage response markers with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "integrated virtual screening protocol"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The nature of the virtual screening approach is not described, making it impossible to assess the novelty or rigor of the design process.
+  - **Required correction** Specify the computational methods used (e.g., docking, molecular dynamics, pharmacophore modeling) and any validation steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** "good biological stability in mouse serum"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No half-life or degradation data are provided, and the term "good" is vague.
+  - **Required correction** Report the percentage of intact peptide over time or the half-life in serum, with experimental conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** "a panel of kidney cancer cell lines"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The specific cell lines are not named, which limits the reader's ability to contextualize the results.
+  - **Required correction** List the cell lines used and their relevant genetic backgrounds (e.g., p53 status, BRCA status).
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns are blocking because the core claims of binding, selective antiproliferative activity, and in vivo efficacy are not supported by quantitative or statistical evidence in the supplied material.
+- **Assessment against Nature-style criteria** Originality: The concept of D-amino acid peptide inhibitors targeting RAD51-BRCA2 is not entirely new, but the specific compound and design approach may offer novelty. Scientific importance: The target is relevant, and a stable peptide inhibitor could be valuable, but the importance is not fully demonstrated without robust efficacy and selectivity data. Interdisciplinary readership: The work spans medicinal chemistry, structural biology, and oncology, which could attract broad interest. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data and methodological detail is a significant limitation. Readability for nonspecialists: The abstract is generally clear, but the absence of data makes it difficult for a nonspecialist to gauge the strength of the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting study, but the absence of quantitative data, statistical analysis, and methodological detail prevents a supportive recommendation. The authors should provide the full manuscript with complete experimental data to allow proper evaluation.
+
+## Risk / unsupported claims
+- "Excellent binding affinity" is unsupported without Kd values or controls.
+- "Significant antiproliferative activity" and "less toxicity" are unsupported without IC50 values and statistical analysis.
+- "Effective suppression of tumor growth" and "no serious systemic side effects" are unsupported without in vivo data.
+- "Inhibiting HR repair" is stated without mechanistic evidence.
+- "Good biological stability" is vague and unsupported without quantitative stability data.
+- The overall conclusion that RB-1 is a "promising antitumor agent" is not established from the abstract alone.

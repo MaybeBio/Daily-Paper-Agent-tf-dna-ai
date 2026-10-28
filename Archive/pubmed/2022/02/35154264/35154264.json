@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "35154264",
+    "doi": "10.3389/fgene.2021.821996",
+    "title": "Identify DNA-Binding Proteins Through the Extreme Gradient Boosting Algorithm."
+  },
+  "content": {
+    "abstract": "The exploration of DNA-binding proteins (DBPs) is an important aspect of studying biological life activities. Research on life activities requires the support of scientific research results on DBPs. The decline in many life activities is closely related to DBPs. Generally, the detection method for identifying DBPs is achieved through biochemical experiments. This method is inefficient and requires considerable manpower, material resources and time. At present, several computational approaches have been developed to detect DBPs, among which machine learning (ML) algorithm-based computational techniques have shown excellent performance. In our experiments, our method uses fewer features and simpler recognition methods than other methods and simultaneously obtains satisfactory results. First, we use six feature extraction methods to extract sequence features from the same group of DBPs. Then, this feature information is spliced together, and the data are standardized. Finally, the extreme gradient boosting (XGBoost) model is used to construct an effective predictive model. Compared with other excellent methods, our proposed method has achieved better results. The accuracy achieved by our method is 78.26% for PDB2272 and 85.48% for PDB186. The accuracy of the experimental results achieved by our strategy is similar to that of previous detection methods.",
+    "keywords": [
+      "DNA-binding protein prediction",
+      "XGBoost model",
+      "dimensionality reduction",
+      "feature extraction",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Ziye",
+        "Yang, Wen",
+        "Zhai, Yixiao",
+        "Liang, Yingjian",
+        "Zhao, Yuming"
+      ],
+      "short_names": [
+        "Zhao Z",
+        "Yang W",
+        "Zhai Y",
+        "Liang Y",
+        "Zhao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China.",
+        "International Medical Center, Shenzhen University General Hospital, Shenzhen, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Ziye",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wen",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "International Medical Center, Shenzhen University General Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Yixiao",
+        "short_name": "Zhai Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yingjian",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yuming",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Computer Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/15 06:00",
+    "fetched_at": "2026-09-28 05:24:23"
+  },
+  "links": {
+    "cites": [
+      "42594609",
+      "42273032",
+      "41801977",
+      "41137987",
+      "40319246",
+      "40034169",
+      "38664594",
+      "38578040",
+      "37777593",
+      "37484220",
+      "36532035",
+      "36211019",
+      "35799660",
+      "35311562"
+    ],
+    "refs": [
+      "34123272",
+      "33751027",
+      "33732270",
+      "33561121",
+      "33532815",
+      "33505515",
+      "33459772",
+      "33451286",
+      "33443536",
+      "33378767",
+      "33316032",
+      "33227813",
+      "33195258",
+      "33195148",
+      "33133228",
+      "33112385",
+      "32921165",
+      "32892224",
+      "32798653",
+      "32708644",
+      "32702119",
+      "32685972",
+      "32674730",
+      "32600231",
+      "32524143",
+      "32467970",
+      "32363401",
+      "32308930",
+      "32249526",
+      "32248130",
+      "32105326",
+      "32024464",
+      "31985437",
+      "31971559",
+      "31921389",
+      "31802128",
+      "31754458",
+      "31751248",
+      "31697319",
+      "31678735",
+      "31588505",
+      "31584099",
+      "31504851",
+      "31267738",
+      "31136183",
+      "31027046",
+      "30452958",
+      "30383239",
+      "30380072",
+      "30355771",
+      "30316822",
+      "30081234",
+      "30071697",
+      "29947743",
+      "29753757",
+      "29365045",
+      "28113908",
+      "27677692",
+      "27669239",
+      "27565583",
+      "27490858",
+      "27323856",
+      "26634213",
+      "26482832",
+      "26355518",
+      "25474679",
+      "25184541",
+      "24475169",
+      "24417022",
+      "21993538",
+      "21935457",
+      "20855926",
+      "19631664",
+      "19385697",
+      "18042272",
+      "11043931"
+    ],
+    "similar": [
+      "35154264",
+      "32300371",
+      "34743286",
+      "37651627",
+      "32938395",
+      "31123959",
+      "35334314",
+      "30598073",
+      "34058979",
+      "35731758",
+      "32352006",
+      "33546376",
+      "31603468",
+      "37437362",
+      "31349707",
+      "31454964",
+      "34119922",
+      "33505516",
+      "32339094",
+      "30901953",
+      "30668479",
+      "31703364",
+      "31380766",
+      "33834381",
+      "34836494",
+      "34152274",
+      "31393553",
+      "34291709",
+      "33800877",
+      "33505515",
+      "31694707",
+      "30250210",
+      "31694073",
+      "31488920",
+      "31987913",
+      "33313673",
+      "36370585",
+      "33513487",
+      "23815620",
+      "30358693",
+      "33158099",
+      "31734254",
+      "30023001",
+      "27565741",
+      "33848577",
+      "33410688",
+      "33709119",
+      "31392406",
+      "33515845",
+      "33789673",
+      "34806984",
+      "33152766",
+      "32845061",
+      "33774670",
+      "31888057",
+      "32920048",
+      "30316822",
+      "35389869",
+      "32357880",
+      "31627995",
+      "34000983",
+      "17369624",
+      "31629312",
+      "30119856",
+      "27483216",
+      "32102444",
+      "35519609",
+      "29219069",
+      "32685987",
+      "33430990",
+      "33819703",
+      "34152838",
+      "32703604",
+      "32749223",
+      "38339556",
+      "33120144"
+    ],
+    "review": [
+      "35154264"
+    ],
+    "pmc": [
+      "8837382"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35154264/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35154264",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2021.821996",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

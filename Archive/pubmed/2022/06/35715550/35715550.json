@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "35715550",
+    "doi": "10.1007/s43032-022-01008-8",
+    "title": "A 3-Gene Random Forest Model to Diagnose Non-obstructive Azoospermia Based on Transcription Factor-Related Henes."
+  },
+  "content": {
+    "abstract": "Non-obstructive azoospermia (NOA) is one of the most severe forms of male infertility, but its diagnosis biomarkers with high sensitivity and specificity are largely unknown. Transcription factors (TFs) play essential roles in many pathological processes in different diseases. Herein, we aimed to identify the TFs showing high diagnosis ability for NOA through machine learning algorithms. The transcriptome data of the testicular tissue from 11 control and 47 NOA subjects were set as the training dataset; meanwhile, 1665 TFs were retrieved from the HumanTFDB. Through the feature extraction methods, including genomic difference analysis, Lasso, Boruta, SVM-RFE, and logistic regression, ETV2, TBX2, and ZNF689 were ultimately screened and then were included in the random forest (RF) diagnosis model. The RF model displayed high predictive power in the training (F-measure = 1) and two external validation (n = 31, F-measure = 0.902; n = 20, F-measure = 0.941) cohorts. The seminal plasma and testicular biopsy samples of 20 control and 20 NOA patients were collected from the local hospital, and the expression levels of ETV2, TBX2, and ZNF689 were measured via RT-qPCR and immunohistochemistry. The RF model could also distinguish the NOA samples in the local cohort (F-measure = 0.741). Single-cell RNA sequencing analysis, which was based on the 432 testicular cell samples from an NOA patient, showed that ETV2, TBX2, and ZNF689 were all significantly associated with spermatogenesis. In all, a 3-TF random forest diagnosis model was successfully established, providing novel insights into the latent mechanisms of NOA.",
+    "keywords": [
+      "Diagnosis",
+      "Machine learning",
+      "Male infertility",
+      "Non-obstructive azoospermia",
+      "Random forest",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Apoptosis Regulatory Proteins/genetics",
+      "*Azoospermia/diagnosis/genetics/pathology",
+      "Random Forest",
+      "Testis/metabolism",
+      "*Transcription Factors/genetics",
+      "*T-Box Domain Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Ranran",
+        "Liang, Jingjing",
+        "Chen, Qi",
+        "Tian, Hu",
+        "Yang, Cheng",
+        "Liu, Cundong"
+      ],
+      "short_names": [
+        "Zhou R",
+        "Liang J",
+        "Chen Q",
+        "Tian H",
+        "Yang C",
+        "Liu C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2098-1139"
+      ],
+      "affiliations": [
+        "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+        "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Cardiology, Shunde Hospital of Southern Medical University, Foshan, China.",
+        "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+        "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+        "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+        "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China. Cundongliu@163.com.",
+        "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China. Cundongliu@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Ranran",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+          "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Jingjing",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shunde Hospital of Southern Medical University, Foshan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+          "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Hu",
+        "short_name": "Tian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+          "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Cheng",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China.",
+          "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cundong",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-2098-1139"
+        ],
+        "affiliations": [
+          "Department of Urology, Guangdong Province, The Third Affiliated Hospital of Southern Medical University, 183 West Zhongshan Avenue, Guangzhou, 510000, China. Cundongliu@163.com.",
+          "The Third School of Clinical Medicine, Southern Medical University, Guangzhou, China. Cundongliu@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reproductive sciences (Thousand Oaks, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Reprod Sci"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/18 06:00",
+    "fetched_at": "2026-09-28 09:44:06"
+  },
+  "links": {
+    "cites": [
+      "40177631",
+      "39418100",
+      "38655370",
+      "38625586",
+      "38610202",
+      "37227814",
+      "37151874",
+      "37116198",
+      "36641761"
+    ],
+    "refs": [],
+    "similar": [
+      "35715550",
+      "37116198",
+      "34738918",
+      "39391879",
+      "31125047",
+      "36883778",
+      "37549510",
+      "37854191",
+      "33507524",
+      "34477868",
+      "37227814",
+      "32914196",
+      "32538428",
+      "32735753",
+      "34192390",
+      "36945018",
+      "30838384",
+      "33602558",
+      "34429122",
+      "27406950",
+      "24728569",
+      "31775841",
+      "30576444",
+      "30423284",
+      "24812316",
+      "27496608",
+      "35869479",
+      "38958252",
+      "27211570",
+      "34595750",
+      "24842676",
+      "35366911",
+      "29460056",
+      "23559187",
+      "22583840",
+      "36819497",
+      "24259048",
+      "28886318",
+      "31134916",
+      "26872565",
+      "34955241",
+      "35023261",
+      "23503944",
+      "32056059",
+      "32900840",
+      "34417763",
+      "19477879",
+      "35669193",
+      "25316452",
+      "30269365",
+      "35721721",
+      "33686546",
+      "23675907",
+      "25628250",
+      "21676392",
+      "33621950",
+      "35914715",
+      "27921326",
+      "29079114",
+      "35526155",
+      "36733803",
+      "22286264",
+      "36641761",
+      "37334314",
+      "34221106",
+      "24767690",
+      "26162009",
+      "24162948",
+      "29331980",
+      "32029690",
+      "35942865",
+      "26082482",
+      "32406197",
+      "37283758",
+      "30009145",
+      "35535697",
+      "19210773",
+      "33806855",
+      "36329464",
+      "36506310",
+      "26843391",
+      "22188163",
+      "34812697",
+      "30098056",
+      "32441653",
+      "24602753",
+      "23996935",
+      "34355990",
+      "26152596",
+      "32233210",
+      "29635626",
+      "35090489",
+      "21389080",
+      "21951200",
+      "23427166",
+      "33716061",
+      "29932616",
+      "35413094",
+      "33236081",
+      "31835093",
+      "31665451",
+      "32212444",
+      "36293429",
+      "35172124",
+      "29528137",
+      "31955275",
+      "26139570",
+      "35782978",
+      "39418100"
+    ],
+    "review": [
+      "35715550",
+      "33806855",
+      "34355990",
+      "31665451"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/35715550/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s43032-022-01008-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

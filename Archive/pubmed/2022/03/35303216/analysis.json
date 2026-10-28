@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35303216",
+  "title": "Predicting residues involved in anti-DNA autoantibodies with limited neural networks.",
+  "authors": "St Clair, Rachel; Teti, Michael; Pavlovic, Mirjana; Hahn, William; Barenholtz, Elan",
+  "journal": "Medical & biological engineering & computing",
+  "published_date": "2022-03-19",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用LSTM和CNN预测抗DNA自身抗体的结合残基，属于蛋白质-DNA互作范畴，但对象为抗体而非典型TF-DNA体系，方法为序列级深度学习，缺乏三维互作建模，故评6分。",
+  "abstract": "Computer-aided rational vaccine design (RVD) and synthetic pharmacology are rapidly developing fields that leverage existing datasets for developing compounds of interest. Computational proteomics utilizes algorithms and models to probe proteins for functional prediction. A potentially strong target for computational approach is autoimmune antibodies, which are the result of broken tolerance in the immune system where it cannot distinguish \"self\" from \"non-self\" resulting in attack of its own structures (proteins and DNA, mainly). The information on structure, function, and pathogenicity of autoantibodies may assist in engineering RVD against autoimmune diseases. Current computational approaches exploit large datasets curated with extensive domain knowledge, most of which include the need for many resources and have been applied indirectly to problems of interest for DNA, RNA, and monomer protein binding. We present a novel method for discovering potential binding sites. We employed long short-term memory (LSTM) models trained on FASTA primary sequences to predict protein binding in DNA-binding hydrolytic antibodies (abzymes). We also employed CNN models applied to the same dataset for comparison with LSTM. While the CNN model outperformed the LSTM on the primary task of binding prediction, analysis of internal model representations of both models showed that the LSTM models recovered sub-sequences that were strongly correlated with sites known to be involved in binding. These results demonstrate that analysis of internal processes of LSTM models may serve as a powerful tool for primary sequence analysis.",
+  "abstract_zh": "计算机辅助的理性疫苗设计（RVD）和合成药理学是快速发展的领域，它们利用现有数据集来开发感兴趣的化合物。计算蛋白质组学利用算法和模型来探测蛋白质以进行功能预测。计算方法的潜在强有力靶标是自身免疫抗体，这些抗体是免疫系统中耐受性破坏的结果，此时免疫系统无法区分“自身”与“非自身”，导致对其自身结构（主要是蛋白质和DNA）的攻击。关于自身抗体的结构、功能和致病性的信息可能有助于设计针对自身免疫疾病的RVD。当前的计算方法利用了大量经过广泛领域知识整理的数据集，其中大多数需要大量资源，并且已间接应用于DNA、RNA和单体蛋白结合的感兴趣问题。我们提出了一种发现潜在结合位点的新方法。我们采用了在FASTA一级序列上训练的长短期记忆（LSTM）模型来预测DNA结合水解抗体（abzymes）中的蛋白质结合。我们还使用了应用于同一数据集的CNN模型，以便与LSTM进行比较。虽然CNN模型在结合预测的主要任务上优于LSTM，但对两种模型内部表示的分析表明，LSTM模型恢复了与已知参与结合的位点强烈相关的子序列。这些结果表明，对LSTM模型内部过程的分析可能作为一级序列分析的强大工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35303216/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35303216/",
+  "paper_page_path": "papers/pubmed/35303216/index.html"
+}

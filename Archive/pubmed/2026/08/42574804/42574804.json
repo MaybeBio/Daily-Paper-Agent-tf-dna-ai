@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "42574804",
+    "doi": "10.1016/j.intimp.2026.117201",
+    "title": "KLF6-driven macrophage-to-myofibroblast transition promotes PD-L1-mediated immune evasion in bladder cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although PD-1/PD-L1 inhibitors are central to the management of advanced bladder cancer, most patients fail to achieve a meaningful response. While evidence ties MMT to fibrotic disease, its contribution to bladder cancer has yet to be examined. METHODS: We assembled and analysed several complementary data modalities-bulk transcriptomes from TCGA-BLCA (n = 408 tumour, 19 normal) and incorporated single-cell RNA-seq, spatial transcriptomics (nine sections), and two independent immunotherapy cohorts (Kim 2019, n = 348; IMvigor210, n = 298)-to characterize MMT cells and construct an 18-gene MMT signature. Through spatial pseudotime analysis, in vitro overexpression, virtual knockout, FIMO motif scanning, and in vivo tumour models, we identified KLF6 as the key MMT driver. Virtual screening (L1000CDS(2)) and molecular docking (CB-Dock2) were performed to nominate drugs targeting the KLF6-MMT axis. RESULTS: MMT cells were present in bladder cancer, and the MMT signature was strongly associated with immunotherapy resistance (P = 0.037 for overall survival) and poor prognosis. KLF6 emerged as the key transcriptional driver of MMT, directly binding the ACTA2 proximal promoter. KLF6 overexpression promoted MMT, tumour growth, and PD-L1 upregulation in vivo (P < 0.05 for tumour weight, P < 0.01 for tumour volume), whereas virtual knockout suppressed core MMT effector genes. Spatial analysis revealed enhanced CD274 (PD-L1) expression by MMT cells, which may contribute to immune evasion through engagement of PDCD1 (PD-1) on tumour-infiltrating T cells (P < 0.001). Among the candidates identified by virtual screening, the cardiac glycoside Periplocymarin ranked first (overlap score = 0.375). Docking placed it in the KLF6 C3 pocket-the DNA-binding cleft-with an affinity of -6.5 kcal/mol, a pose consistent with competitive inhibition. CONCLUSIONS: This study provides the first multi-omics characterization of MMT in bladder cancer, identifies KLF6 as a previously unrecognized driver of this transition, and demonstrates that KLF6-driven MMT upregulates tumour PD-L1 through intercellular crosstalk. Furthermore, virtual screening and molecular docking identify Periplocymarin as a candidate compound targeting the KLF6-MMT axis. Our work thus connects KLF6-driven MMT to PD-L1-mediated immune evasion and suggests that disrupting this programme with Periplocymarin may provide a strategy to overcome immunotherapy resistance.",
+    "keywords": [
+      "Bladder cancer",
+      "Immune evasion",
+      "Immunotherapy resistance",
+      "KLF6",
+      "Macrophage-to-myofibroblast transition",
+      "PD-L1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Urinary Bladder Neoplasms/immunology/genetics/pathology/metabolism/drug therapy",
+      "*B7-H1 Antigen/metabolism/immunology",
+      "*Kruppel-Like Factor 6/metabolism/genetics/immunology",
+      "Animals",
+      "*Macrophages/immunology/metabolism",
+      "Mice",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Female",
+      "Tumor Escape"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yuwen",
+        "Wang, Zihuan",
+        "He, Chengwu",
+        "Yu, Zhe",
+        "Zhang, Jinge",
+        "Jiang, Feifan",
+        "Zhang, Zicai",
+        "Li, Tanghua",
+        "Fu, Xinyang",
+        "Hou, Lina",
+        "Li, Fei"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Wang Z",
+        "He C",
+        "Yu Z",
+        "Zhang J",
+        "Jiang F",
+        "Zhang Z",
+        "Li T",
+        "Fu X",
+        "Hou L",
+        "Li F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China.",
+        "Department of Urology, The Eighth Affiliated Hospital, Sun Yat-Sen University, Shennan Zhong Road #3025, Futian District, Shenzhen 518033, Guangdong, China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China.",
+        "Department of Urology, Baoshan People's Hospital, Baoshan, Yunnan, 678000, China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China.",
+        "Department of Urology, Kaiping Central Hospital, Kaiping, Jiangmen, China. Electronic address: fxytyl@163.com.",
+        "Huiqiao Medical Center, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, PR China. Electronic address: lnhou2010@163.com.",
+        "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China. Electronic address: feili20700338@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yuwen",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zihuan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China."
+        ]
+      },
+      {
+        "full_name": "He, Chengwu",
+        "short_name": "He C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Eighth Affiliated Hospital, Sun Yat-Sen University, Shennan Zhong Road #3025, Futian District, Shenzhen 518033, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhe",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinge",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Baoshan People's Hospital, Baoshan, Yunnan, 678000, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Feifan",
+        "short_name": "Jiang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zicai",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tanghua",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xinyang",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Kaiping Central Hospital, Kaiping, Jiangmen, China. Electronic address: fxytyl@163.com."
+        ]
+      },
+      {
+        "full_name": "Hou, Lina",
+        "short_name": "Hou L",
+        "identifiers": [],
+        "affiliations": [
+          "Huiqiao Medical Center, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, PR China. Electronic address: lnhou2010@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Fei",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, 510515, China. Electronic address: feili20700338@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2026 Oct 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/10 18:36",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42574804",
+      "42055144",
+      "41221601",
+      "42358824",
+      "41093922",
+      "39367493",
+      "33537094",
+      "28131992",
+      "38762193",
+      "34416901",
+      "41882633",
+      "34154613",
+      "41811476",
+      "41785601",
+      "34059019",
+      "41445741",
+      "33858847",
+      "42152025",
+      "41322418",
+      "39754316",
+      "30120041",
+      "34326167",
+      "42477458",
+      "40665335",
+      "34819027",
+      "41075009",
+      "39099201",
+      "41791643",
+      "41618382",
+      "30902885",
+      "40976049",
+      "42500577",
+      "40630945",
+      "34753771",
+      "38462037",
+      "41679170",
+      "40424822",
+      "42208982",
+      "40208940",
+      "42328167",
+      "41691059",
+      "38299148",
+      "29845474",
+      "41063036",
+      "42008953",
+      "42003200",
+      "40169540",
+      "39698899",
+      "32471889",
+      "42241976",
+      "41790063",
+      "41188900",
+      "40029463",
+      "41274423",
+      "41922082",
+      "42310180",
+      "40603902",
+      "35114597",
+      "34667077",
+      "41716413",
+      "31865052",
+      "42096959",
+      "42202059",
+      "41502516",
+      "30563569",
+      "35971127",
+      "40703029",
+      "35069587",
+      "42397610",
+      "41330073",
+      "42151123",
+      "42701943",
+      "40795596",
+      "39769061",
+      "39380995",
+      "31011905",
+      "27987237",
+      "39067875",
+      "41388312",
+      "28096371",
+      "38669947",
+      "32746878",
+      "41155402",
+      "38928456",
+      "36726072",
+      "41943031",
+      "42583735",
+      "33849925",
+      "39353381",
+      "39924055",
+      "41633771",
+      "41932527",
+      "42532287",
+      "31678303",
+      "40777041",
+      "40735323",
+      "41526166",
+      "32816860",
+      "41931481",
+      "41455509"
+    ],
+    "review": [
+      "42574804",
+      "38928456"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(26)01047-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3327",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

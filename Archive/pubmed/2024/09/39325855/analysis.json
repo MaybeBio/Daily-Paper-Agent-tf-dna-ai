@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39325855",
+  "title": "Identify Non-mutational p53 Functional Deficiency in Human Cancers.",
+  "authors": "Li, Qianpeng; Zhang, Yang; Luo, Sicheng; Zhang, Zhang; Oberg, Ann L; Kozono, David E; Lu, Hua; Sarkaria, Jann N; Ma, Lina; Wang, Liguo",
+  "journal": "Genomics, proteomics & bioinformatics",
+  "published_date": "2024-09-26",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用SVM模型基于转录组特征评估TP53野生型肿瘤中p53功能状态，虽涉及转录因子p53但无蛋白-DNA互作建模或结合机制研究，方法为传统机器学习且非三维互作，与本课题关联较弱。",
+  "abstract": "An accurate assessment of p53's functional statuses is critical for cancer genomic medicine. However, there is a significant challenge in identifying tumors with non-mutational p53 inactivation which is not detectable through DNA sequencing. These undetected cases are often misclassified as p53-normal, leading to inaccurate prognosis and downstream association analyses. To address this issue, we built the support vector machine (SVM) models to systematically reassess p53's functional statuses in TP53 wild-type (TP53WT) tumors from multiple The Cancer Genome Atlas (TCGA) cohorts. Cross-validation demonstrated the good performance of the SVM models with a mean area under the receiver operating characteristic curve (AUROC) of 0.9822, precision of 0.9747, and recall of 0.9784. Our study revealed that a significant proportion (87%-99%) of TP53WT tumors actually had compromised p53 function. Additional analyses uncovered that these genetically intact but functionally impaired (termed as predictively reduced function of p53 or TP53WT-pRF) tumors exhibited genomic and pathophysiologic features akin to TP53-mutant tumors: heightened genomic instability and elevated levels of hypoxia. Clinically, patients with TP53WT-pRF tumors experienced significantly shortened overall survival or progression-free survival compared to those with predictively normal function of p53 (TP53WT-pN) tumors, and these patients also displayed increased sensitivity to platinum-based chemotherapy and radiation therapy.",
+  "abstract_zh": "准确评估p53的功能状态对于癌症基因组医学至关重要。然而，识别具有非突变性p53失活的肿瘤存在重大挑战，这类失活无法通过DNA测序检测到。这些未被检测出的病例常被错误分类为p53正常，导致预后判断不准确及下游关联分析失真。为解决此问题，我们构建了支持向量机（SVM）模型，系统性地重新评估了来自多个癌症基因组图谱（TCGA）队列中TP53野生型（TP53WT）肿瘤的p53功能状态。交叉验证表明，SVM模型性能良好，平均受试者工作特征曲线下面积（AUROC）为0.9822，精确度为0.9747，召回率为0.9784。我们的研究揭示，相当比例（87%-99%）的TP53WT肿瘤实际上存在p53功能受损。进一步分析发现，这些基因完整但功能受损（称为预测性p53功能降低或TP53WT-pRF）的肿瘤表现出与TP53突变型肿瘤相似的基因组和病理生理特征：基因组不稳定性增强及缺氧水平升高。临床上，与预测性p53功能正常（TP53WT-pN）的肿瘤患者相比，TP53WT-pRF肿瘤患者的总体生存期或无进展生存期显著缩短，且这些患者对铂类化疗和放射治疗的敏感性增加。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39325855/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39325855/",
+  "paper_page_path": "papers/pubmed/39325855/index.html"
+}

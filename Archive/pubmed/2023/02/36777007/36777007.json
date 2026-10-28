@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "36777007",
+    "doi": "10.2174/1389202923666220527112929",
+    "title": "A Global Analysis of Alternative Splicing of Dichocarpum Medicinal Plants, Ranunculales."
+  },
+  "content": {
+    "abstract": "Background: The multiple isoforms are often generated from a single gene via Alternative Splicing (AS) in plants, and the functional diversity of the plant genome is significantly increased. Despite well-studied gene functions, the specific functions of isoforms are little known, therefore, the accurate prediction of isoform functions is exceedingly wanted. Methods: Here we perform the first global analysis of AS of Dichocarpum, a medicinal genus of Ranunculales, by utilizing full-length transcriptome datasets of five Chinese endemic Dichocarpum taxa. Multiple software were used to identify AS events, the gene function was annotated based on seven databases, and the protein-coding sequence of each AS isoform was translated into an amino acid sequence. The self-developed software DIFFUSE was used to predict the functions of AS isoforms. Results: Among 8,485 genes with AS events, the genes with two isoforms were the most (6,038), followed by those with three isoforms and four isoforms. Retained intron (RI, 551) was predominant among 1,037 AS events, and alternative 3' splice sites and alternative 5' splice sites were second. The software DIFFUSE was effective in predicting functions of Dichocarpum isoforms, which have not been unearthed. When compared with the sequence alignment-based database annotations, DIFFUSE performed better in differentiating isoform functions. The DIFFUSE predictions on the terms GO:0003677 (DNA binding) and GO: 0010333 (terpene synthase activity) agreed with the biological features of transcript isoforms. Conclusion: Numerous AS events were for the first time identified from full-length transcriptome datasets of five Dichocarpum taxa, and functions of AS isoforms were successfully predicted by the self-developed software DIFFUSE. The global analysis of Dichocarpum AS events and predicting isoform functions can help understand the metabolic regulations of medicinal taxa and their pharmaceutical explorations.",
+    "keywords": [
+      "Alternative splicing",
+      "DNA sequence",
+      "Dichocarpum",
+      "deep learning",
+      "gene expression profile",
+      "isoform function"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Da-Cheng",
+        "Chen, Hao",
+        "Xiao, Pei-Gen",
+        "Jiang, Tao"
+      ],
+      "short_names": [
+        "Hao DC",
+        "Chen H",
+        "Xiao PG",
+        "Jiang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biotechnology Institute, School of Environment and Chemical Engineering, Dalian Jiaotong University, Dalian 116028, China.",
+        "Institute of Molecular Plant Sciences, University of Edinburgh, Edinburgh EH9 3BF, UK.",
+        "Department of Computer Science and Engineering, University of California, Riverside, CA, USA.",
+        "Department of Computational Biology, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences, Beijing 100193, China.",
+        "Department of Computer Science and Engineering, University of California, Riverside, CA, USA.",
+        "Bioinformatics Division, BNRIST/Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Da-Cheng",
+        "short_name": "Hao DC",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Institute, School of Environment and Chemical Engineering, Dalian Jiaotong University, Dalian 116028, China.",
+          "Institute of Molecular Plant Sciences, University of Edinburgh, Edinburgh EH9 3BF, UK."
+        ]
+      },
+      {
+        "full_name": "Chen, Hao",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, Riverside, CA, USA.",
+          "Department of Computational Biology, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Xiao, Pei-Gen",
+        "short_name": "Xiao PG",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Tao",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, Riverside, CA, USA.",
+          "Bioinformatics Division, BNRIST/Department of Computer Science and Technology, Tsinghua University, Beijing 100084, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current genomics"
+    ],
+    "journal_abbrev": [
+      "Curr Genomics"
+    ],
+    "pub_date": "2022 Jul 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/14 06:00",
+    "fetched_at": "2026-09-28 20:28:41"
+  },
+  "links": {
+    "cites": [
+      "41225852"
+    ],
+    "refs": [
+      "36119003",
+      "35069772",
+      "35055168",
+      "35043208",
+      "34769433",
+      "34760397",
+      "34659300",
+      "34351062",
+      "34008042",
+      "32943706",
+      "32752101",
+      "32518082",
+      "32170290",
+      "31959105",
+      "31510699",
+      "31505762",
+      "31170917",
+      "31106828",
+      "30804390",
+      "30535380",
+      "30357350",
+      "30254029",
+      "29851301",
+      "29719790",
+      "29606002",
+      "29571299",
+      "29301488",
+      "28963730",
+      "28892169",
+      "28744294",
+      "28503089",
+      "28493303",
+      "28025001",
+      "27997733",
+      "27803310",
+      "27295138",
+      "26553804",
+      "26476454",
+      "25912611",
+      "25536164",
+      "25428369",
+      "25414356",
+      "25402007",
+      "25248552",
+      "24681622",
+      "24659104",
+      "24369432",
+      "23632853",
+      "22391557",
+      "22388286",
+      "22369477",
+      "22039361",
+      "21816040",
+      "21731678",
+      "20185454",
+      "18440982",
+      "18287689",
+      "16960968",
+      "11125040"
+    ],
+    "similar": [
+      "36777007",
+      "34760397",
+      "31510699",
+      "31974522",
+      "34351062",
+      "24369432",
+      "27856494",
+      "26061177",
+      "28532419",
+      "36929917",
+      "32582229",
+      "31250882",
+      "35751026",
+      "28025001",
+      "32784445",
+      "28957512",
+      "22606020",
+      "31426739",
+      "32183712",
+      "25707505",
+      "32176770",
+      "25474441",
+      "24244129",
+      "34154536",
+      "31446073",
+      "32270540",
+      "34021065",
+      "34282449",
+      "23161672",
+      "34788620",
+      "33249832",
+      "16207377",
+      "26285573",
+      "32534132",
+      "19480703",
+      "25239663",
+      "38405825",
+      "27339290",
+      "34185647",
+      "15705189",
+      "34638781",
+      "36478271",
+      "34757837",
+      "31173073",
+      "20163725",
+      "22747664",
+      "32966552",
+      "20701803",
+      "28166730",
+      "35072517",
+      "34420305",
+      "27142340",
+      "24951248",
+      "19858364",
+      "38187531",
+      "29862458",
+      "29508290",
+      "36083383",
+      "20946618",
+      "17498622",
+      "24889128",
+      "26740460",
+      "16845044",
+      "26216192",
+      "9084407",
+      "36684788",
+      "31128682",
+      "23676078",
+      "29066300",
+      "33383068",
+      "31771515",
+      "10809003",
+      "35305573",
+      "28198676",
+      "17442112",
+      "35303798",
+      "31438847",
+      "18831736",
+      "35997558",
+      "19528068",
+      "30477428",
+      "25326238",
+      "34579769",
+      "36143477",
+      "18669480",
+      "23324402",
+      "34008042",
+      "25990727",
+      "27519173",
+      "21161408",
+      "24369421",
+      "30968308",
+      "34888349",
+      "34169280"
+    ],
+    "review": [
+      "36777007",
+      "32784445",
+      "24951248",
+      "31128682",
+      "18669480"
+    ],
+    "pmc": [
+      "9878827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=1389-2029&volume=23&issue=3&spage=207&aulast=Hao",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36777007/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36777007",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/5pf943f3",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

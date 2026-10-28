@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "36401725",
+    "doi": "10.1007/s12010-022-04263-2",
+    "title": "Analysis of Network Pharmacology and Molecular Docking on Radix Pseudostellariae for Its Active Components on Gastric Cancer."
+  },
+  "content": {
+    "abstract": "Radix Pseudostellariae, a traditional Chinese medicine, functions in modulating human immunity and anti-tumor, but its pharmacological mechanism remained unclear. In this study, 8 active components and 91 targets of Radix Pseudostellariae were obtained from the Traditional Chinese Medicine Systems Pharmacology (TCMSP) database, and 225 genes related to gastric cancer (GC) were accessed from MalaCards. On the basis of these targets and GC-related genes, a protein-protein interaction (PPI) network was established. Random walk with restart (RWR) analysis was performed on the PPI network with the intersection of targets and GC-related genes as the seeds. The top 50 target genes with high affinity scores were obtained. The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses showed that the enrichment of the top 50 genes was mostly presented in the cancer-related biological functions and signaling pathways, such as cellular response to oxidative stress, regulation of apoptotic signaling pathway, and P53 signaling pathway. A drug-component-target network was established, with the top 50 genes being used as key targets. Acacetin and luteolin were revealed to directly act on the core target TP53 in the network. Thus, SwissDock was used to simulate the molecular docking between TP53 protein and acacetin and luteolin. The results of docking simulation presented small estimated DeltaG of two small molecules, which were suggested to be potential targets of TP53 protein. Subsequent cellular and molecular experiments confirmed this bioinformatics result. In conclusion, this study predicted the key anti-GC active components and corresponding targets of Radix Pseudostellariae through bioinformatics analysis. The findings underlie the anti-GC mechanism of Radix Pseudostellariae.",
+    "keywords": [
+      "Acacetin",
+      "Gastric cancer",
+      "Luteolin",
+      "Molecular docking",
+      "Radix Pseudostellariae",
+      "TP53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Stomach Neoplasms/drug therapy/genetics",
+      "Network Pharmacology",
+      "Luteolin",
+      "Tumor Suppressor Protein p53",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Medicine, Chinese Traditional"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Yunhai",
+        "Yu, Xiaofeng",
+        "Tang, Jianing",
+        "Yin, Lei",
+        "Wu, Zhongxin",
+        "Zhang, Jinyu",
+        "Gao, Yuhai"
+      ],
+      "short_names": [
+        "Wei Y",
+        "Yu X",
+        "Tang J",
+        "Yin L",
+        "Wu Z",
+        "Zhang J",
+        "Gao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6647-8985"
+      ],
+      "affiliations": [
+        "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China. weiyunhai1976@126.com.",
+        "Department of General Surgery, Deqing Hospital of Traditional Chinese Medicine, Zhejiang Province, Huzhou, 313299, China.",
+        "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China.",
+        "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China.",
+        "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China.",
+        "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China.",
+        "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Yunhai",
+        "short_name": "Wei Y",
+        "identifiers": [
+          "0000-0002-6647-8985"
+        ],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China. weiyunhai1976@126.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiaofeng",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Deqing Hospital of Traditional Chinese Medicine, Zhejiang Province, Huzhou, 313299, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jianing",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Lei",
+        "short_name": "Yin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhongxin",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinyu",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yuhai",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Huzhou Central Hospital, Affiliated Central Hospital Huzhou University, No.1558, Sanhuan North RoadZhejiang Province, Wuxing District, Huzhou, 313000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Applied biochemistry and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Appl Biochem Biotechnol"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/20 06:00",
+    "fetched_at": "2026-09-28 16:21:20"
+  },
+  "links": {
+    "cites": [
+      "42052774",
+      "40942180",
+      "40573220",
+      "38989282",
+      "36652115"
+    ],
+    "refs": [
+      "34899944",
+      "33241846",
+      "32866514",
+      "32149146",
+      "32063984",
+      "31759764",
+      "30945475",
+      "30476243",
+      "30125869",
+      "30020411",
+      "29051733",
+      "28859099",
+      "28390900",
+      "27899610",
+      "24735618",
+      "23142198",
+      "23123177",
+      "22455463",
+      "21982300",
+      "21624888",
+      "15104235"
+    ],
+    "similar": [
+      "36401725",
+      "36164911",
+      "36820318",
+      "35822313",
+      "36472041",
+      "33191068",
+      "39072163",
+      "35672352",
+      "38561549",
+      "35837376",
+      "38347958",
+      "35178927",
+      "39354431",
+      "36435778",
+      "37802848",
+      "37794689",
+      "34047082",
+      "35069454",
+      "33645090",
+      "38997656",
+      "35616676",
+      "34349502",
+      "38630770",
+      "36596057",
+      "36604925",
+      "37970593",
+      "35130311",
+      "37109624",
+      "35718498",
+      "36471753",
+      "34605344",
+      "34047084",
+      "36595795",
+      "35285205",
+      "36535207",
+      "34159207",
+      "35430443",
+      "32495559",
+      "37218202",
+      "34873575",
+      "36183698",
+      "35178959",
+      "36563889",
+      "34660782",
+      "35781817",
+      "38096633",
+      "33164395",
+      "36220511",
+      "34889224",
+      "35757520",
+      "34951253",
+      "36590763",
+      "35730236",
+      "33645014",
+      "35933455",
+      "38363944",
+      "36321231",
+      "35850814",
+      "35970314",
+      "36526095",
+      "33634308",
+      "36221378",
+      "36451386",
+      "32866138",
+      "36319798",
+      "35178961",
+      "34149863",
+      "36403742",
+      "33208065",
+      "35442463",
+      "37390879",
+      "37770919",
+      "33299870",
+      "35040393",
+      "34738437",
+      "35850844",
+      "36401375",
+      "33262572",
+      "35718494",
+      "35706800",
+      "35347967",
+      "32572780",
+      "34951252",
+      "35342751",
+      "36316904",
+      "35546462",
+      "38164832",
+      "36280016",
+      "35227068",
+      "36452059",
+      "36288951",
+      "34994141",
+      "36401463",
+      "34581057",
+      "34738438",
+      "35528155",
+      "33243703",
+      "34472273",
+      "34872267",
+      "34951222",
+      "35178960",
+      "32928080",
+      "33645088",
+      "34746302",
+      "34590537",
+      "37211841",
+      "36619785",
+      "36930096",
+      "39224355",
+      "37142148",
+      "38425392",
+      "36258089",
+      "38880400",
+      "37830364",
+      "37986339",
+      "36883114",
+      "38178682",
+      "38103742",
+      "36930472",
+      "37180648",
+      "37964307",
+      "39180676",
+      "37171392",
+      "39038330",
+      "37653798",
+      "37379125",
+      "36646777",
+      "35294131",
+      "38102307",
+      "38879763",
+      "36118076",
+      "36017844",
+      "37664830",
+      "37894904",
+      "34840695",
+      "38481549",
+      "36598916",
+      "38457601",
+      "37523140",
+      "36653917",
+      "37957900",
+      "37282866",
+      "37696190",
+      "37121058",
+      "38299289",
+      "38115108",
+      "37773835",
+      "37612462",
+      "37257051",
+      "37180669",
+      "37716981",
+      "37089711",
+      "38785131",
+      "38934275",
+      "37001826",
+      "38175425",
+      "37393270",
+      "37308513",
+      "38571642",
+      "35116706",
+      "38177197",
+      "39289763",
+      "37680148",
+      "36805222",
+      "39428405",
+      "38756592",
+      "38708221",
+      "37266143",
+      "38088751",
+      "36200190",
+      "36834894",
+      "37289019",
+      "32550799",
+      "37858623",
+      "37637410",
+      "36970216",
+      "28659988",
+      "37526420"
+    ],
+    "review": [
+      "36401725",
+      "33243703",
+      "37986339"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12010-022-04263-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

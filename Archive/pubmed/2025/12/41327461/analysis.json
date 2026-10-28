@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41327461",
+  "title": "PathHDNN: a pathway hierarchical-informed deep neural network framework for predicting immunotherapy response and mechanism interpretation.",
+  "authors": "Li, Xiangmei; Pan, Bingyue; He, Yalan; Wang, Ziyi; Tang, Yujie; Zhang, Yongbao; Wang, Liqiang; Han, Junwei",
+  "journal": "Genome medicine",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用通路层级深度神经网络预测免疫治疗反应，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Immunotherapy has revolutionized the treatment of cancer and tremendously prolonged the overall survival of patients; however, only parts of patients could derive durable clinical benefit from it. Predicting clinical responses to immunotherapy and interpreting the response mechanism remain major challenges. METHODS: Here, we presented a pathway hierarchical-informed deep neural network (PathHDNN) framework to predict the therapeutic responses of cancer patients and identify key pathways associated with immunotherapy efficacy. PathHDNN was trained by encoding established biological pathway hierarchically knowledge into a neural network architecture through embedding the somatic mutations and copy number variations. During training, PathHDNN optimized only the edge weights connecting hierarchically related pathways, while maintaining the fixed network topology derived from biological pathway hierarchy, thereby preserving biological interpretability throughout the learning process. RESULTS: We assessed PathHDNN on multiple immunotherapy cohorts and found it outperformed other state-of-the-art machine learning methods and established immunotherapy biomarkers. Moreover, through interpreting the trained model, PathHDNN effectively identified critical pathway features associated with the therapeutic response in melanoma cohort, particularly noting the critical roles of p53-mediated tumor suppression and JAK2-mediated immune regulation in the course of responsiveness to immunotherapy. CONCLUSIONS: In conclusion, PathHDNN provided an effective pathway hierarchical-informed framework for accurately predicting patient responses to immunotherapy and identified key pathways yielding valuable insights into the biological mechanisms underlying treatment responses, which is essential for advancing precision medicine.",
+  "abstract_zh": "背景：免疫疗法已彻底改变了癌症治疗，并极大延长了患者的总生存期；然而，只有部分患者能从中获得持久的临床获益。预测免疫疗法的临床反应并解读反应机制仍是重大挑战。方法：在此，我们提出了一种通路层级信息引导的深度神经网络（PathHDNN）框架，用于预测癌症患者的治疗反应，并识别与免疫疗法疗效相关的关键通路。PathHDNN通过将体细胞突变和拷贝数变异嵌入神经网络架构，编码已建立的生物学通路层级知识进行训练。在训练过程中，PathHDNN仅优化连接层级相关通路的边权重，同时保持源自生物学通路层级的固定网络拓扑结构，从而在整个学习过程中保留生物学可解释性。结果：我们在多个免疫疗法队列上评估了PathHDNN，发现其优于其他最先进的机器学习方法和已建立的免疫疗法生物标志物。此外，通过解读训练后的模型，PathHDNN有效识别了黑色素瘤队列中与治疗反应相关的关键通路特征，特别注意到p53介导的肿瘤抑制和JAK2介导的免疫调节在免疫疗法反应过程中的关键作用。结论：总之，PathHDNN提供了一个有效的通路层级信息引导框架，用于准确预测患者对免疫疗法的反应，并识别关键通路，为治疗反应背后的生物学机制提供了宝贵见解，这对推进精准医学至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41327461/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41327461/",
+  "paper_page_path": "papers/pubmed/41327461/index.html"
+}

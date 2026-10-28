@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.06.498949",
+  "title": "Improved analysis of (e)CLIP data with RCRUNCH yields a compendium of RNA-binding protein binding sites and motifs",
+  "doi": "10.1101/2022.07.06.498949",
+  "abstract": "We present RCRUNCH, an end-to-end solution to CLIP data analysis for identification of binding sites and sequence specificity of RNA-binding proteins. RCRUNCH can analyze not only reads that map uniquely to the genome, but also those that map to multiple genome locations or across splice boundaries, and can consider various types of background in the estimation of read enrichment. By applying RCRUNCH to the eCLIP data from the ENCODE project, we have constructed a comprehensive and homogeneous resource of in vivo -bound RBP sequence motifs. RCRUNCH automates the reproducible analysis of CLIP data, enabling studies of post-transcriptional control of gene expression.",
+  "authors": [
+    "Katsantoni M",
+    "van Nimwegen E",
+    "Zavolan M"
+  ],
+  "published_date": "2022-07-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.498949",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.498949.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR515841",
+    "raw_record": {
+      "id": "PPR515841",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR515841"
+        ]
+      },
+      "doi": "10.1101/2022.07.06.498949",
+      "title": "Improved analysis of (e)CLIP data with RCRUNCH yields a compendium of RNA-binding protein binding sites and motifs",
+      "authorString": "Katsantoni M, van Nimwegen E, Zavolan M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Katsantoni M",
+            "lastName": "Katsantoni",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1961-0223"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Basel, 4056, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, 1015, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Nimwegen E",
+            "lastName": "van Nimwegen",
+            "firstName": "Erik",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6338-1312"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Basel, 4056, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, 1015, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zavolan M",
+            "lastName": "Zavolan",
+            "firstName": "Mihaela",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8832-2041"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Basel, 4056, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Lausanne, 1015, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6338-1312"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8832-2041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1961-0223"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "We present RCRUNCH, an end-to-end solution to CLIP data analysis for identification of binding sites and sequence specificity of RNA-binding proteins. RCRUNCH can analyze not only reads that map uniquely to the genome, but also those that map to multiple genome locations or across splice boundaries, and can consider various types of background in the estimation of read enrichment. By applying RCRUNCH to the eCLIP data from the ENCODE project, we have constructed a comprehensive and homogeneous resource of  in vivo -bound RBP sequence motifs. RCRUNCH automates the reproducible analysis of CLIP data, enabling studies of post-transcriptional control of gene expression.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/06/2022.07.06.498949.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.06.498949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR515841"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR515841&type=FILE&fileName=EMS150044-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37069586",
+            "reference": "Genome biology. 2023 Apr;24(1):77",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS150044",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-10",
+      "firstPublicationDate": "2022-07-06",
+      "firstIndexDate": "2022-07-11",
+      "fullTextReceivedDate": "2023-03-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

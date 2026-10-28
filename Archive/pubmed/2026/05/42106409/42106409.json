@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "42106409",
+    "doi": "10.1038/s41540-026-00734-y",
+    "title": "CT-TADB predicts TAD boundaries without Hi-C by integrating DNA sequences and epigenomic features."
+  },
+  "content": {
+    "abstract": "Topologically associating domains (TADs) are fundamental units of three-dimensional genome organization, and their boundaries play important roles in gene regulation and genomic stability. However, accurate computational prediction of TAD boundaries remains challenging because of the complex interplay between DNA sequence and epigenomic regulatory signals. Here we present CT-TADB, a hybrid CNN-Transformer framework that integrates DNA sequence with histone modification and CTCF binding signals to predict TAD boundaries without requiring Hi-C data. Trained on six human cell lines, CT-TADB achieved AUC values of 0.932-0.950, demonstrating competitive or superior performance relative to existing multi-modal methods. The model maintained stable performance on strictly independent and dataset-specific boundary subsets, and exhibited robust cross-cell-type transferability and cross-species generalization between human and mouse (AUC > 0.80 for human-to-mouse transfer). Feature attribution analysis identified CTCF as the dominant boundary-associated factor, supported by active chromatin marks, and quantitative attention analysis revealed significant long-range CTCF-mediated dependencies (p < 0.001). CT-TADB further identified a clinically validated PITX2-associated TAD boundary linked to cardiac arrhythmia and captured condition-specific boundary dynamics. By leveraging routinely available epigenomic data, CT-TADB provides a practical and complementary framework for investigating chromatin architecture across diverse biological contexts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Epigenomics/methods",
+      "Mice",
+      "CCCTC-Binding Factor/metabolism/genetics",
+      "Chromatin/genetics",
+      "*Computational Biology/methods",
+      "Sequence Analysis, DNA/methods",
+      "DNA/genetics",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Tong",
+        "Wang, Shuaibin",
+        "Jin, Yuyu",
+        "Yuan, Yuan",
+        "Liang, Zhen",
+        "Shen, Yin"
+      ],
+      "short_names": [
+        "Chen T",
+        "Wang S",
+        "Jin Y",
+        "Yuan Y",
+        "Liang Z",
+        "Shen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, China.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, China.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, China.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, China.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, China. zliang@ahmu.edu.cn.",
+        "The Affiliated Chuzhou Hospital of Anhui Medical University, The First People's Hospital of Chuzhou, Chuzhou, China. zliang@ahmu.edu.cn.",
+        "School of Biomedical Engineering, Anhui Medical University, Hefei, China. shenyin@ahmu.edu.cn.",
+        "Second Affiliated Hospital of Anhui Medical University, Hefei, China. shenyin@ahmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Tong",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuaibin",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yuyu",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yuan",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhen",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, China. zliang@ahmu.edu.cn.",
+          "The Affiliated Chuzhou Hospital of Anhui Medical University, The First People's Hospital of Chuzhou, Chuzhou, China. zliang@ahmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Yin",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Anhui Medical University, Hefei, China. shenyin@ahmu.edu.cn.",
+          "Second Affiliated Hospital of Anhui Medical University, Hefei, China. shenyin@ahmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2026 May 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/10 05:18",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41317326",
+      "40205063",
+      "40131313",
+      "39872109",
+      "39777468",
+      "39654556",
+      "39631108",
+      "39617879",
+      "39609566",
+      "39448645",
+      "39283464",
+      "38890584",
+      "38782890",
+      "38643172",
+      "38254945",
+      "38105608",
+      "38062027",
+      "38040494",
+      "37498561",
+      "37426677",
+      "37081156",
+      "37076620",
+      "36879202",
+      "36536148",
+      "35181793",
+      "34741515",
+      "34093998",
+      "33866359",
+      "33213499",
+      "32841603",
+      "31847870",
+      "31049567",
+      "30367165",
+      "28826674",
+      "26619908",
+      "25497547",
+      "22495300"
+    ],
+    "similar": [
+      "42106409",
+      "41663926",
+      "33866359",
+      "31910870",
+      "33545030",
+      "40063813",
+      "42475469",
+      "42602395",
+      "29137603",
+      "31881832",
+      "38643172",
+      "29757144",
+      "39093600",
+      "39457417",
+      "41080543",
+      "40131313",
+      "34292939",
+      "31831055",
+      "35180428",
+      "31911579",
+      "28060558",
+      "35413815",
+      "34093998",
+      "41430607",
+      "39999165",
+      "42602397",
+      "32782014",
+      "41622199",
+      "41983545",
+      "39545685",
+      "26272203",
+      "31491387",
+      "42135287",
+      "38935071",
+      "39169755",
+      "39727192",
+      "28977568",
+      "38062027",
+      "29654311",
+      "26868017",
+      "37076620",
+      "40796890",
+      "42635245",
+      "29581440",
+      "36650052",
+      "41277030",
+      "28863138",
+      "28742097",
+      "31358994",
+      "31811132",
+      "35867573",
+      "30985763",
+      "32689928",
+      "35090532",
+      "42639792",
+      "29416042",
+      "38643244",
+      "39738353",
+      "29335486",
+      "39543681",
+      "30260021",
+      "30595451",
+      "30717603",
+      "33232622",
+      "27582050",
+      "41145704",
+      "31177910",
+      "25409831",
+      "34245617",
+      "34253239",
+      "40097199",
+      "40916639",
+      "42696576",
+      "30310060",
+      "42412056",
+      "36609218",
+      "30031214",
+      "26150425",
+      "26518482",
+      "29335803",
+      "35181793",
+      "28737770",
+      "37699887",
+      "28420341",
+      "39638559",
+      "30086769",
+      "35104223",
+      "37047368",
+      "39777468",
+      "31522987",
+      "41415375",
+      "31801998",
+      "30709849",
+      "29273679",
+      "37536339",
+      "32241291",
+      "34764232",
+      "30738580",
+      "41579554",
+      "32987404"
+    ],
+    "review": [
+      "42106409",
+      "28060558",
+      "39169755",
+      "41277030",
+      "40916639"
+    ],
+    "pmc": [
+      "13376763"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-026-00734-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42106409/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

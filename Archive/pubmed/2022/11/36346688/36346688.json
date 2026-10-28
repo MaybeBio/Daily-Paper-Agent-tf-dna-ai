@@ -1,0 +1,643 @@
+{
+  "identity": {
+    "pmid": "36346688",
+    "doi": "10.1158/1078-0432.CCR-22-1663",
+    "title": "Predicting Molecular Subtype and Survival of Rhabdomyosarcoma Patients Using Deep Learning of H&E Images: A Report from the Children's Oncology Group."
+  },
+  "content": {
+    "abstract": "PURPOSE: Rhabdomyosarcoma (RMS) is an aggressive soft-tissue sarcoma, which primarily occurs in children and young adults. We previously reported specific genomic alterations in RMS, which strongly correlated with survival; however, predicting these mutations or high-risk disease at diagnosis remains a significant challenge. In this study, we utilized convolutional neural networks (CNN) to learn histologic features associated with driver mutations and outcome using hematoxylin and eosin (H&E) images of RMS. EXPERIMENTAL DESIGN: Digital whole slide H&E images were collected from clinically annotated diagnostic tumor samples from 321 patients with RMS enrolled in Children's Oncology Group (COG) trials (1998-2017). Patches were extracted and fed into deep learning CNNs to learn features associated with mutations and relative event-free survival risk. The performance of the trained models was evaluated against independent test sample data (n = 136) or holdout test data. RESULTS: The trained CNN could accurately classify alveolar RMS, a high-risk subtype associated with PAX3/7-FOXO1 fusion genes, with an ROC of 0.85 on an independent test dataset. CNN models trained on mutationally-annotated samples identified tumors with RAS pathway with a ROC of 0.67, and high-risk mutations in MYOD1 or TP53 with a ROC of 0.97 and 0.63, respectively. Remarkably, CNN models were superior in predicting event-free and overall survival compared with current molecular-clinical risk stratification. CONCLUSIONS: This study demonstrates that high-risk features, including those associated with certain mutations, can be readily identified at diagnosis using deep learning. CNNs are a powerful tool for diagnostic and prognostic prediction of rhabdomyosarcoma, which will be tested in prospective COG clinical trials.",
+    "keywords": [],
+    "mesh_terms": [
+      "Child",
+      "Humans",
+      "Young Adult",
+      "*Deep Learning",
+      "Eosine Yellowish-(YS)",
+      "Hematoxylin",
+      "Paired Box Transcription Factors/genetics",
+      "Prospective Studies",
+      "*Rhabdomyosarcoma/diagnosis/genetics",
+      "*Rhabdomyosarcoma, Alveolar/genetics",
+      "PAX3 Transcription Factor",
+      "PAX7 Transcription Factor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Milewski, David",
+        "Jung, Hyun",
+        "Brown, G Thomas",
+        "Liu, Yanling",
+        "Somerville, Ben",
+        "Lisle, Curtis",
+        "Ladanyi, Marc",
+        "Rudzinski, Erin R",
+        "Choo-Wosoba, Hyoyoung",
+        "Barkauskas, Donald A",
+        "Lo, Tammy",
+        "Hall, David",
+        "Linardic, Corinne M",
+        "Wei, Jun S",
+        "Chou, Hsien-Chao",
+        "Skapek, Stephen X",
+        "Venkatramani, Rajkumar",
+        "Bode, Peter K",
+        "Steinberg, Seth M",
+        "Zaki, George",
+        "Kuznetsov, Igor B",
+        "Hawkins, Douglas S",
+        "Shern, Jack F",
+        "Collins, Jack",
+        "Khan, Javed"
+      ],
+      "short_names": [
+        "Milewski D",
+        "Jung H",
+        "Brown GT",
+        "Liu Y",
+        "Somerville B",
+        "Lisle C",
+        "Ladanyi M",
+        "Rudzinski ER",
+        "Choo-Wosoba H",
+        "Barkauskas DA",
+        "Lo T",
+        "Hall D",
+        "Linardic CM",
+        "Wei JS",
+        "Chou HC",
+        "Skapek SX",
+        "Venkatramani R",
+        "Bode PK",
+        "Steinberg SM",
+        "Zaki G",
+        "Kuznetsov IB",
+        "Hawkins DS",
+        "Shern JF",
+        "Collins J",
+        "Khan J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9778-8548",
+        "ORCID: 0000-0001-7467-8189",
+        "ORCID: 0000-0001-7383-3116",
+        "ORCID: 0000-0002-5173-2426",
+        "ORCID: 0000-0002-3222-4979",
+        "ORCID: 0000-0003-4056-3038",
+        "ORCID: 0000-0001-9055-7213",
+        "ORCID: 0000-0002-7591-956X",
+        "ORCID: 0000-0002-8756-1016",
+        "ORCID: 0000-0002-2339-719X",
+        "ORCID: 0000-0002-7980-9595",
+        "ORCID: 0000-0003-1257-2316",
+        "ORCID: 0000-0002-3257-2885",
+        "ORCID: 0000-0002-4812-0250",
+        "ORCID: 0000-0002-4870-9663",
+        "ORCID: 0000-0002-4136-8384",
+        "ORCID: 0000-0002-4785-106X",
+        "ORCID: 0000-0002-9633-4042",
+        "ORCID: 0000-0002-8280-551X",
+        "ORCID: 0000-0002-2740-3307",
+        "ORCID: 0000-0003-3741-8964",
+        "ORCID: 0000-0003-3602-1375",
+        "ORCID: 0000-0001-5579-7625",
+        "ORCID: 0000-0001-8281-2085",
+        "ORCID: 0000-0002-5858-0488"
+      ],
+      "affiliations": [
+        "Genetics Branch, NCI, NIH, Bethesda, Maryland.",
+        "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+        "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+        "Artificial Intelligence Resource, NCI, NIH, Bethesda, Maryland.",
+        "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+        "Genetics Branch, NCI, NIH, Bethesda, Maryland.",
+        "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+        "KnowledgeVis, LLC, Altamonte Springs, Florida.",
+        "Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, New York.",
+        "Department of Laboratories, Seattle Children's Hospital, Seattle, Washington.",
+        "Biostatistics and Data Management Section, Keck School of Medicine of the University of Southern California, Los Angeles, California.",
+        "Department of Population and Public Health Sciences, Keck School of Medicine of the University of Southern California, Los Angeles, California.",
+        "Children's Oncology Group, Monrovia, California.",
+        "Children's Oncology Group, Monrovia, California.",
+        "Children's Oncology Group, Monrovia, California.",
+        "Departments of Pediatrics and Pharmacology & Cancer Biology, Duke University School of Medicine, Durham, North Carolina.",
+        "Genetics Branch, NCI, NIH, Bethesda, Maryland.",
+        "Genetics Branch, NCI, NIH, Bethesda, Maryland.",
+        "Department of Pediatrics, Division of Hematology/Oncology, University of Texas Southwestern Medical Center, Dallas, Texas.",
+        "Division of Hematology/Oncology, Texas Children's Cancer Center, Baylor College of Medicine, Houston, Texas.",
+        "Institut fur Pathologie, Kantonsspital Winterthur, Winterthur, Switzerland.",
+        "Biostatistics and Data Management Section, Keck School of Medicine of the University of Southern California, Los Angeles, California.",
+        "Cancer Research Technology Program, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+        "Department of Epidemiology & Biostatistics, School of Public Health, University at Albany, Rensselaer, New York.",
+        "Chair of Children's Oncology Group, Department of Pediatrics, Seattle Children's Hospital, Fred Hutchinson Cancer Research Center, University of Washington, Seattle, Washington.",
+        "Pediatric Oncology Branch, Center for Cancer Research, NIH, Bethesda, Maryland.",
+        "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+        "Genetics Branch, NCI, NIH, Bethesda, Maryland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Milewski, David",
+        "short_name": "Milewski D",
+        "identifiers": [
+          "0000-0002-9778-8548"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Jung, Hyun",
+        "short_name": "Jung H",
+        "identifiers": [
+          "0000-0001-7467-8189"
+        ],
+        "affiliations": [
+          "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland."
+        ]
+      },
+      {
+        "full_name": "Brown, G Thomas",
+        "short_name": "Brown GT",
+        "identifiers": [
+          "0000-0001-7383-3116"
+        ],
+        "affiliations": [
+          "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+          "Artificial Intelligence Resource, NCI, NIH, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanling",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-5173-2426"
+        ],
+        "affiliations": [
+          "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland."
+        ]
+      },
+      {
+        "full_name": "Somerville, Ben",
+        "short_name": "Somerville B",
+        "identifiers": [
+          "0000-0002-3222-4979"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Lisle, Curtis",
+        "short_name": "Lisle C",
+        "identifiers": [
+          "0000-0003-4056-3038"
+        ],
+        "affiliations": [
+          "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland.",
+          "KnowledgeVis, LLC, Altamonte Springs, Florida."
+        ]
+      },
+      {
+        "full_name": "Ladanyi, Marc",
+        "short_name": "Ladanyi M",
+        "identifiers": [
+          "0000-0001-9055-7213"
+        ],
+        "affiliations": [
+          "Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Rudzinski, Erin R",
+        "short_name": "Rudzinski ER",
+        "identifiers": [
+          "0000-0002-7591-956X"
+        ],
+        "affiliations": [
+          "Department of Laboratories, Seattle Children's Hospital, Seattle, Washington."
+        ]
+      },
+      {
+        "full_name": "Choo-Wosoba, Hyoyoung",
+        "short_name": "Choo-Wosoba H",
+        "identifiers": [
+          "0000-0002-8756-1016"
+        ],
+        "affiliations": [
+          "Biostatistics and Data Management Section, Keck School of Medicine of the University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Barkauskas, Donald A",
+        "short_name": "Barkauskas DA",
+        "identifiers": [
+          "0000-0002-2339-719X"
+        ],
+        "affiliations": [
+          "Department of Population and Public Health Sciences, Keck School of Medicine of the University of Southern California, Los Angeles, California.",
+          "Children's Oncology Group, Monrovia, California."
+        ]
+      },
+      {
+        "full_name": "Lo, Tammy",
+        "short_name": "Lo T",
+        "identifiers": [
+          "0000-0002-7980-9595"
+        ],
+        "affiliations": [
+          "Children's Oncology Group, Monrovia, California."
+        ]
+      },
+      {
+        "full_name": "Hall, David",
+        "short_name": "Hall D",
+        "identifiers": [
+          "0000-0003-1257-2316"
+        ],
+        "affiliations": [
+          "Children's Oncology Group, Monrovia, California."
+        ]
+      },
+      {
+        "full_name": "Linardic, Corinne M",
+        "short_name": "Linardic CM",
+        "identifiers": [
+          "0000-0002-3257-2885"
+        ],
+        "affiliations": [
+          "Departments of Pediatrics and Pharmacology & Cancer Biology, Duke University School of Medicine, Durham, North Carolina."
+        ]
+      },
+      {
+        "full_name": "Wei, Jun S",
+        "short_name": "Wei JS",
+        "identifiers": [
+          "0000-0002-4812-0250"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Chou, Hsien-Chao",
+        "short_name": "Chou HC",
+        "identifiers": [
+          "0000-0002-4870-9663"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Skapek, Stephen X",
+        "short_name": "Skapek SX",
+        "identifiers": [
+          "0000-0002-4136-8384"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Division of Hematology/Oncology, University of Texas Southwestern Medical Center, Dallas, Texas."
+        ]
+      },
+      {
+        "full_name": "Venkatramani, Rajkumar",
+        "short_name": "Venkatramani R",
+        "identifiers": [
+          "0000-0002-4785-106X"
+        ],
+        "affiliations": [
+          "Division of Hematology/Oncology, Texas Children's Cancer Center, Baylor College of Medicine, Houston, Texas."
+        ]
+      },
+      {
+        "full_name": "Bode, Peter K",
+        "short_name": "Bode PK",
+        "identifiers": [
+          "0000-0002-9633-4042"
+        ],
+        "affiliations": [
+          "Institut für Pathologie, Kantonsspital Winterthur, Winterthur, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Steinberg, Seth M",
+        "short_name": "Steinberg SM",
+        "identifiers": [
+          "0000-0002-8280-551X"
+        ],
+        "affiliations": [
+          "Biostatistics and Data Management Section, Keck School of Medicine of the University of Southern California, Los Angeles, California."
+        ]
+      },
+      {
+        "full_name": "Zaki, George",
+        "short_name": "Zaki G",
+        "identifiers": [
+          "0000-0002-2740-3307"
+        ],
+        "affiliations": [
+          "Cancer Research Technology Program, Frederick National Laboratory for Cancer Research, Frederick, Maryland."
+        ]
+      },
+      {
+        "full_name": "Kuznetsov, Igor B",
+        "short_name": "Kuznetsov IB",
+        "identifiers": [
+          "0000-0003-3741-8964"
+        ],
+        "affiliations": [
+          "Department of Epidemiology & Biostatistics, School of Public Health, University at Albany, Rensselaer, New York."
+        ]
+      },
+      {
+        "full_name": "Hawkins, Douglas S",
+        "short_name": "Hawkins DS",
+        "identifiers": [
+          "0000-0003-3602-1375"
+        ],
+        "affiliations": [
+          "Chair of Children's Oncology Group, Department of Pediatrics, Seattle Children's Hospital, Fred Hutchinson Cancer Research Center, University of Washington, Seattle, Washington."
+        ]
+      },
+      {
+        "full_name": "Shern, Jack F",
+        "short_name": "Shern JF",
+        "identifiers": [
+          "0000-0001-5579-7625"
+        ],
+        "affiliations": [
+          "Pediatric Oncology Branch, Center for Cancer Research, NIH, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Collins, Jack",
+        "short_name": "Collins J",
+        "identifiers": [
+          "0000-0001-8281-2085"
+        ],
+        "affiliations": [
+          "Advanced Biomedical Computational Science, Frederick National Laboratory for Cancer Research, Frederick, Maryland."
+        ]
+      },
+      {
+        "full_name": "Khan, Javed",
+        "short_name": "Khan J",
+        "identifiers": [
+          "0000-0002-5858-0488"
+        ],
+        "affiliations": [
+          "Genetics Branch, NCI, NIH, Bethesda, Maryland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical cancer research : an official journal of the American Association for Cancer Research"
+    ],
+    "journal_abbrev": [
+      "Clin Cancer Res"
+    ],
+    "pub_date": "2023 Jan 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/09 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "42588680",
+      "41749943",
+      "41703583",
+      "41492040",
+      "41481196",
+      "41188261",
+      "40993310",
+      "40585079",
+      "40059908",
+      "39812075",
+      "39694930",
+      "38941509",
+      "37458325",
+      "37430436"
+    ],
+    "refs": [
+      "35449398",
+      "35390316",
+      "35140277",
+      "35012940",
+      "34188098",
+      "34166060",
+      "33306276",
+      "33302115",
+      "32881682",
+      "32658383",
+      "32308878",
+      "32068507",
+      "31995669",
+      "31898477",
+      "31832830",
+      "31699828",
+      "31510656",
+      "31456361",
+      "31339226",
+      "31308507",
+      "31199919",
+      "30995247",
+      "30617281",
+      "30181563",
+      "29973406",
+      "29531073",
+      "29489754",
+      "29487419",
+      "29222441",
+      "28521080",
+      "28141799",
+      "27562493",
+      "27052161",
+      "26501226",
+      "24824843",
+      "24793135",
+      "24436047",
+      "24280411",
+      "24272621",
+      "23526739",
+      "22454413",
+      "21254373",
+      "20351326",
+      "19536876",
+      "3275751",
+      "2069913",
+      "1783402",
+      "1663783"
+    ],
+    "similar": [
+      "36346688",
+      "26473193",
+      "34166060",
+      "26756883",
+      "33216382",
+      "23526739",
+      "39781573",
+      "28521080",
+      "39694930",
+      "28058850",
+      "29367756",
+      "22454413",
+      "22089931",
+      "20351326",
+      "35839732",
+      "36724417",
+      "12039929",
+      "37732905",
+      "28035744",
+      "35857643",
+      "24113309",
+      "36951526",
+      "33302115",
+      "17652054",
+      "23435416",
+      "23733015",
+      "31456361",
+      "20405298",
+      "22447499",
+      "24618610",
+      "35390316",
+      "29461635",
+      "36044855",
+      "32432709",
+      "23765537",
+      "25768946",
+      "26138366",
+      "29797665",
+      "36131239",
+      "31594063",
+      "37968277",
+      "38282125",
+      "39147032",
+      "24797362",
+      "30565669",
+      "32953248",
+      "16544315",
+      "16645206",
+      "25989287",
+      "40495382",
+      "35449398",
+      "37783659",
+      "31299267",
+      "33299109",
+      "21357792",
+      "18973919",
+      "24213577",
+      "35813575",
+      "40571676",
+      "26179572",
+      "23714565",
+      "32697014",
+      "31888889",
+      "19147825",
+      "38402212",
+      "17471488",
+      "39016936",
+      "18457914",
+      "24272621",
+      "40898302",
+      "39686893",
+      "39856778",
+      "38607246",
+      "19422036",
+      "23079386",
+      "40108481",
+      "34639012",
+      "27688110",
+      "36496303",
+      "36722003",
+      "9546061",
+      "12218574",
+      "24418861",
+      "26071485",
+      "30373318",
+      "30739374",
+      "33175861",
+      "28981396",
+      "23645752",
+      "32663285",
+      "22648271",
+      "19953635",
+      "34400666",
+      "31870357",
+      "39448867",
+      "33627785",
+      "37814424",
+      "29214757",
+      "20818440",
+      "40183298"
+    ],
+    "review": [
+      "36346688",
+      "39694930",
+      "28058850",
+      "22454413",
+      "20351326",
+      "35839732",
+      "24113309",
+      "17652054",
+      "23714565",
+      "18457914"
+    ],
+    "pmc": [
+      "9843436"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36346688/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36346688",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/clincancerres/article-lookup/doi/10.1158/1078-0432.CCR-22-1663",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

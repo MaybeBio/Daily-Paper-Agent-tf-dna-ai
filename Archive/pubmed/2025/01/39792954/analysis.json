@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39792954",
+  "title": "The role of chromatin state in intron retention: A case study in leveraging large scale deep learning models.",
+  "authors": "Daoud, Ahmed; Ben-Hur, Asa",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-01-10",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用大规模深度学习模型（Sei和DNABERT-2）预测内含子保留，虽涉及染色质状态和转录因子，但核心是RNA剪接调控而非蛋白质-DNA互作建模，方法可迁移但对象偏离TF-DNA体系。",
+  "abstract": "Complex deep learning models trained on very large datasets have become key enabling tools for current research in natural language processing and computer vision. By providing pre-trained models that can be fine-tuned for specific applications, they enable researchers to create accurate models with minimal effort and computational resources. Large scale genomics deep learning models come in two flavors: the first are large language models of DNA sequences trained in a self-supervised fashion, similar to the corresponding natural language models; the second are supervised learning models that leverage large scale genomics datasets from ENCODE and other sources. We argue that these models are the equivalent of foundation models in natural language processing in their utility, as they encode within them chromatin state in its different aspects, providing useful representations that allow quick deployment of accurate models of gene regulation. We demonstrate this premise by leveraging the recently created Sei model to develop simple, interpretable models of intron retention, and demonstrate their advantage over models based on the DNA language model DNABERT-2. Our work also demonstrates the impact of chromatin state on the regulation of intron retention. Using representations learned by Sei, our model is able to discover the involvement of transcription factors and chromatin marks in regulating intron retention, providing better accuracy than a recently published custom model developed for this purpose.",
+  "abstract_zh": "在极大数据集上训练的复杂深度学习模型已成为自然语言处理和计算机视觉当前研究的关键使能工具。通过提供可针对特定应用进行微调的预训练模型，它们使研究人员能够以最少的努力和计算资源创建精确模型。大规模基因组学深度学习模型有两种类型：第一种是DNA序列的大型语言模型，以自监督方式训练，类似于相应的自然语言模型；第二种是利用ENCODE及其他来源的大规模基因组学数据集的监督学习模型。我们认为，这些模型在效用上等同于自然语言处理中的基础模型，因为它们编码了染色质状态的不同方面，提供了有用的表示，使得基因调控的精确模型能够快速部署。我们通过利用最近创建的Sei模型来开发简单、可解释的内含子保留模型，并展示其相对于基于DNA语言模型DNABERT-2的模型的优势，从而验证了这一前提。我们的工作还展示了染色质状态对内含子保留调控的影响。利用Sei学习的表示，我们的模型能够发现转录因子和染色质标记在调控内含子保留中的参与，提供了比最近为此目的发布的定制模型更高的准确性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39792954/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39792954/",
+  "paper_page_path": "papers/pubmed/39792954/index.html"
+}

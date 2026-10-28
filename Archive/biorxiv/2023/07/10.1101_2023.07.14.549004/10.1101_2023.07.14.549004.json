@@ -1,0 +1,284 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.14.549004",
+  "title": "tfboot: Bootstrapping and statistical analysis for transcription factor binding site-disrupting variants in gene sets",
+  "doi": "10.1101/2023.07.14.549004",
+  "abstract": "Motivation Genetic variants in noncoding regions can drive changes in phenotype disrupting transcription factor binding site (TFBS) motifs. Other tools including motifbreakR have been developed to assess the impact of TFBS-disrupting variants. Here we introduce the tfboot package for statistically evaluating the TFBS disruption across a set of variants in upstream promoter regions. Results The tfboot package builds on motifbreakR, plyranges, and GenomicRanges to provide methods for bootstrapping TFBS disruption to statistically quantify the impact across gene sets of interest compared to an empirical null distribution. We demonstrate the analysis here on variants in the elephant genome. The tfboot package readily integrates with Bioconductor and tidyverse-based workflows. Availability The tfboot package is implemented as an R package and is released under the MIT license at https://github.com/colossal-compsci/tfboot .",
+  "authors": [
+    "Stephen D. Turner",
+    "Kathleen Morrill",
+    "Gregory Gedman",
+    "Alexander J. Titus"
+  ],
+  "published_date": "2023-07-16",
+  "updated_date": "2023-07-17T00:10:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.14.549004",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.14.549004.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:55:03Z",
+        "timestamp": 1768506903925,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 12,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>\n                    Genetic variants in noncoding regions can drive changes in phenotype disrupting transcription factor binding site (TFBS) motifs. Other tools including motifbreakR have been developed to assess the impact of TFBS-disrupting variants. Here we introduce the tfboot package for statistically evaluating the TFBS disruption across a\n                    <jats:italic>set</jats:italic>\n                    of variants in upstream promoter regions.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The tfboot package builds on motifbreakR, plyranges, and GenomicRanges to provide methods for bootstrapping TFBS disruption to statistically quantify the impact across gene sets of interest compared to an empirical null distribution. We demonstrate the analysis here on variants in the elephant genome. The tfboot package readily integrates with Bioconductor and tidyverse-based workflows.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The tfboot package is implemented as an R package and is released under the MIT license at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/colossal-compsci/tfboot\">https://github.com/colossal-compsci/tfboot</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.07.14.549004",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2023-07-17T00:10:11Z",
+        "timestamp": 1689552611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "tfboot: Bootstrapping and statistical analysis for transcription factor binding site-disrupting variants in gene sets"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9140-9028",
+          "authenticated-orcid": false,
+          "given": "Stephen D.",
+          "family": "Turner",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9139-453X",
+          "authenticated-orcid": false,
+          "given": "Kathleen",
+          "family": "Morrill",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6819-2019",
+          "authenticated-orcid": false,
+          "given": "Gregory",
+          "family": "Gedman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0145-9564",
+          "authenticated-orcid": false,
+          "given": "Alexander J.",
+          "family": "Titus",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1120"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carlson, M. R. J. , Pagès, H. , Arora, S. , Obenchain, V. , and Morgan, M. (2016). Genomic Annotation Resources in R/Bioconductor, pages 67–90. Springer New York.",
+          "DOI": "10.1007/978-1-4939-3578-9_4"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv470"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Davis, E. S. , Mu, W. , Lee, S. , Dozmorov, M. G. , Love, M. I. , and Phanstiel, D. H. (2023). matchranges: generating null hypothesis genomic ranges via covariate-matched sampling. Bioinformatics, 39(5).",
+          "DOI": "10.1093/bioinformatics/btad197"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2013.10.012"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2004-5-10-r80"
+        },
+        {
+          "issue": "8",
+          "key": "2023072000500514000_2023.07.14.549004v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003118",
+          "DOI": "10.1371/journal.pcbi.1003118",
+          "article-title": "Software for computing and annotating genomic ranges",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lee, S. , Cook, D. , and Lawrence, M. (2019). plyranges: a grammar of genomic data transformation. Genome Biology, 20(1).",
+          "DOI": "10.1186/s13059-018-1597-8"
+        },
+        {
+          "issue": "W1",
+          "key": "2023072000500514000_2023.07.14.549004v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "W194",
+          "DOI": "10.1093/nar/gky464",
+          "article-title": "Lolaweb: a containerized web server for interactive genomic locus overlap enrichment analysis",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0196-7"
+        },
+        {
+          "key": "2023072000500514000_2023.07.14.549004v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03451-0"
+        },
+        {
+          "issue": "43",
+          "key": "2023072000500514000_2023.07.14.549004v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1686",
+          "DOI": "10.21105/joss.01686",
+          "article-title": "Welcome to the tidyverse",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Journal of Open Source Software"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.14.549004",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:56:12Z",
+        "timestamp": 1768452972000
+      },
+      "score": 130.48436,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.14.549004"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            16
+          ]
+        ]
+      },
+      "references-count": 12,
+      "URL": "https://doi.org/10.1101/2023.07.14.549004",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

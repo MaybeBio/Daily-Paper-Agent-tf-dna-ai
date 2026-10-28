@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "37686305",
+    "doi": "10.3390/ijms241713497",
+    "title": "Application of Novel Transcription Factor Machine Learning Model and Targeted Drug Combination Therapy Strategy in Triple Negative Breast Cancer."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) have been shown to play a key role in the occurrence and development of tumors, including triple-negative breast cancer (TNBC), with a worse prognosis. Machine learning is widely used for establishing prediction models and screening key tumor drivers. Current studies lack TF integration in TNBC, so targeted research on TF prognostic models and targeted drugs is beneficial to improve clinical translational application. The purpose of this study was to use the Least Absolute Shrinkage and Selection Operator to build a prognostic TFs model after cohort normalization based on housekeeping gene expression levels. Potential targeted drugs were then screened on the basis of molecular docking, and a multi-drug combination strategy was used for both in vivo and in vitro experimental studies. The machine learning model of TFs built by E2F8, FOXM1, and MYBL2 has broad applicability, with an AUC value of up to 0.877 at one year. As a high-risk clinical factor, its abnormal disorder may lead to upregulation of the activity of pathways related to cell proliferation. This model can also be used to predict the adverse effects of immunotherapy in patients with TNBC. Molecular docking was used to screen three drugs that target TFs: Trichostatin A (TSA), Doxorubicin (DOX), and Calcitriol. In vitro and in vivo experiments showed that TSA + DOX was able to effectively reduce DOX dosage, and TSA + DOX + Calcitriol may be able to effectively reduce the toxic side effects of DOX on the heart. In conclusion, the machine learning model based on three TFs provides new biomarkers for clinical and prognostic diagnosis of TNBC, and the combination targeted drug strategy offers a novel research perspective for TNBC treatment.",
+    "keywords": [
+      "combined targeted therapy",
+      "machine learning",
+      "prognosis",
+      "single-cell RNA-seq",
+      "transcription factors",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Transcription Factors",
+      "*Triple Negative Breast Neoplasms/drug therapy/genetics",
+      "Calcitriol",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation",
+      "Doxorubicin",
+      "*Drug-Related Side Effects and Adverse Reactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pang, Jianyu",
+        "Li, Huimin",
+        "Zhang, Xiaoling",
+        "Luo, Zhengwei",
+        "Chen, Yongzhi",
+        "Zhao, Haijie",
+        "Lv, Handong",
+        "Zheng, Hongan",
+        "Fu, Zhiqian",
+        "Tang, Wenru",
+        "Sheng, Miaomiao"
+      ],
+      "short_names": [
+        "Pang J",
+        "Li H",
+        "Zhang X",
+        "Luo Z",
+        "Chen Y",
+        "Zhao H",
+        "Lv H",
+        "Zheng H",
+        "Fu Z",
+        "Tang W",
+        "Sheng M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pang, Jianyu",
+        "short_name": "Pang J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huimin",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoling",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhengwei",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongzhi",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haijie",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Handong",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Hongan",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Zhiqian",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Wenru",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Miaomiao",
+        "short_name": "Sheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, Kunming 650500, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Aug 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/09 11:44",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "41992363",
+      "41454416",
+      "41068840",
+      "40076546",
+      "40029385",
+      "38961068",
+      "38383836"
+    ],
+    "refs": [
+      "37511789",
+      "37371867",
+      "37336650",
+      "37305385",
+      "36871044",
+      "36305646",
+      "36087872",
+      "36084789",
+      "36058426",
+      "36055933",
+      "36050786",
+      "35563134",
+      "35531101",
+      "35267409",
+      "35218280",
+      "35073169",
+      "34773731",
+      "34659660",
+      "34603338",
+      "33818027",
+      "30951143",
+      "30715696",
+      "30445077",
+      "30400809",
+      "29554790",
+      "26704973",
+      "25605792",
+      "25557911",
+      "25516281",
+      "24282978",
+      "23713873",
+      "22907903",
+      "22080564",
+      "21358745",
+      "21067385",
+      "19114008",
+      "17396166",
+      "17101782",
+      "16179649",
+      "12360277",
+      "10963602",
+      "10426316",
+      "10364556",
+      "9044528",
+      "8812502",
+      "5365804"
+    ],
+    "similar": [
+      "37686305",
+      "40438115",
+      "41051595",
+      "39467343",
+      "41168787",
+      "36006564",
+      "41102728",
+      "32569637",
+      "31722094",
+      "40187703",
+      "35414060",
+      "32724459",
+      "29750424",
+      "37404810",
+      "31242627",
+      "30462562",
+      "38007754",
+      "40022222",
+      "31403158",
+      "28423538",
+      "38041540",
+      "38435998",
+      "40582426",
+      "39481327",
+      "37634232",
+      "40758128",
+      "28707580",
+      "40000487",
+      "40834701",
+      "34603338",
+      "28702823",
+      "31623629",
+      "40145099",
+      "38796426",
+      "38104484",
+      "41056639",
+      "40361105",
+      "39549731",
+      "37409026",
+      "38136994",
+      "39549369",
+      "38472681",
+      "36341760",
+      "33690196",
+      "37391802",
+      "36987427",
+      "37871689",
+      "37997385",
+      "39397066",
+      "41340500",
+      "40604083",
+      "39867909",
+      "32888160",
+      "38430025",
+      "37141739",
+      "31262335",
+      "36077333",
+      "35627287",
+      "39927118",
+      "24726747",
+      "37985782",
+      "40860264",
+      "40313394",
+      "41016300",
+      "40658288",
+      "38158099",
+      "38238771",
+      "35668369",
+      "34974858",
+      "39108110",
+      "40806360",
+      "40056448",
+      "31359594",
+      "37941485",
+      "41299328",
+      "39905117",
+      "38763012",
+      "39803692",
+      "38474312",
+      "31388935",
+      "37580876",
+      "26826118",
+      "30554096",
+      "39817967",
+      "40974856",
+      "25849745",
+      "38429789",
+      "40849239",
+      "38704606",
+      "40183881",
+      "22812567",
+      "38139172",
+      "33954285",
+      "30957988",
+      "38425247",
+      "24632568",
+      "38911501",
+      "39962586",
+      "41451212",
+      "37219794"
+    ],
+    "review": [
+      "37686305",
+      "40658288"
+    ],
+    "pmc": [
+      "10487460"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms241713497",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37686305/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37686305",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PRDX2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

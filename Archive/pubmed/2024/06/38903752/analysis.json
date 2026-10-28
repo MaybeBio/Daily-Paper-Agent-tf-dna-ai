@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38903752",
+  "title": "LGC-DBP: the method of DNA-binding protein identification based on PSSM and deep learning.",
+  "authors": "Zhu, Yiqi; Sun, Ailun",
+  "journal": "Frontiers in genetics",
+  "published_date": "2024-06-21",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用PSSM和深度学习（LSTM、门控Inception卷积、通道注意力）预测DNA结合蛋白，属于广义蛋白-DNA互作识别，方法可迁移至TF-DNA结合位点预测，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "The recognition of DNA Binding Proteins (DBPs) plays a crucial role in understanding biological functions such as replication, transcription, and repair. Although current sequence-based methods have shown some effectiveness, they often fail to fully utilize the potential of deep learning in capturing complex patterns. This study introduces a novel model, LGC-DBP, which integrates Long Short-Term Memory (LSTM), Gated Inception Convolution, and Improved Channel Attention mechanisms to enhance the prediction of DBPs. Initially, the model transforms protein sequences into Position Specific Scoring Matrices (PSSM), then processed through our deep learning framework. Within this framework, Gated Inception Convolution merges the concepts of gating units with the advantages of Graph Convolutional Network (GCN) and Dilated Convolution, significantly surpassing traditional convolution methods. The Improved Channel Attention mechanism substantially enhances the model's responsiveness and accuracy by shifting from a single input to three inputs and integrating three sigmoid functions along with an additional layer output. These innovative combinations have significantly improved model performance, enabling LGC-DBP to recognize and interpret the complex relationships within DBP features more accurately. The evaluation results show that LGC-DBP achieves an accuracy of 88.26% and a Matthews correlation coefficient of 0.701, both surpassing existing methods. These achievements demonstrate the model's strong capability in integrating and analyzing multi-dimensional data and mark a significant advancement over traditional methods by capturing deeper, nonlinear interactions within the data.",
+  "abstract_zh": "DNA结合蛋白（DBPs）的识别在理解复制、转录和修复等生物功能中起着关键作用。尽管当前基于序列的方法已显示出一定效果，但它们往往未能充分利用深度学习在捕捉复杂模式方面的潜力。本研究引入了一种新型模型LGC-DBP，该模型整合了长短期记忆（LSTM）、门控初始卷积和改进的通道注意力机制，以增强DBPs的预测能力。首先，该模型将蛋白质序列转化为位置特异性评分矩阵（PSSM），随后通过我们的深度学习框架进行处理。在此框架内，门控初始卷积将门控单元的概念与图卷积网络（GCN）和膨胀卷积的优势相结合，显著超越了传统卷积方法。改进的通道注意力机制通过从单一输入转变为三个输入，并整合三个sigmoid函数及额外层输出，大幅提升了模型的响应性和准确性。这些创新组合显著提高了模型性能，使LGC-DBP能够更准确地识别和解释DBP特征中的复杂关系。评估结果显示，LGC-DBP的准确率达到88.26%，马修斯相关系数为0.701，均优于现有方法。这些成就证明了该模型在整合和分析多维数据方面的强大能力，并通过捕捉数据中更深层的非线性交互，标志着对传统方法的重大进步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38903752/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38903752/",
+  "paper_page_path": "papers/pubmed/38903752/index.html"
+}

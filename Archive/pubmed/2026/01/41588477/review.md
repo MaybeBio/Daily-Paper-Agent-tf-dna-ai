@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Methods, Results, Discussion, Conclusions, Supplementary Information list) as provided.
+- **Assessment boundary** Scientific soundness, methodological clarity, validity of claims relative to the provided evidence, and suitability for the stated venue. No line numbers were provided; references to specific sections and figures are used.
+- **Shared manuscript claim summary** The authors propose scMDCF, a deep contrastive learning framework for integrating single-cell multi-omic data (RNA + ATAC or ADT). The method uses modality-specific encoders, a cross-modality contrastive learning module with information entropy regularization, a fusion module, and a self-optimizing clustering module. Claims include superior clustering performance over existing methods, effective batch-effect mitigation, and the ability to derive biological insights such as cell-type-specific peak-gene associations, cis-regulatory elements, and a putative Alzheimer's disease-relevant transcription factor (ELF1) in microglia.
+- **Visible evidence base** The manuscript text includes a detailed Methods section, a Results section with references to Figures 1-8 and several supplementary figures and tables, and a Discussion. The actual figures, tables, and supplementary materials are not provided in the submitted text.
+- **Missing materials affecting confidence** The full figures and their data, all supplementary figures and tables, the specific dataset descriptions, and the code repository are not available for review. This significantly limits the ability to verify the quantitative results, the statistical significance of the claims, and the reproducibility of the experiments.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful addition to the growing toolbox of single-cell multi-omic integration methods. The core idea of using contrastive learning to align modalities while preserving heterogeneity is timely and relevant. The writing is generally clear, and the methodological description is detailed. However, the current manuscript has several major issues that prevent me from endorsing it in its present form. The most significant concerns are the lack of a clear, formal definition of the contrastive loss and the entropy term, the absence of a rigorous statistical analysis of the clustering results, and the lack of a robust validation strategy for the biological claims, particularly the ELF1 finding. The claims of superiority are not fully supported by the evidence presented in the text alone, and the biological insights, while interesting, are largely correlative and require more direct experimental or orthogonal validation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing and applying single-cell multi-omic integration methods would be the primary audience. Researchers studying gene regulation, immunology, and neurodegenerative diseases like Alzheimer's could also be interested in the method's ability to identify cell-type-specific regulatory elements and potential disease-relevant transcription factors. The open-source availability of the code would be a key factor for this community.
+- **Major strengths**
+    1.  The problem of integrating single-cell multi-omic data is important and actively researched.
+    2.  The proposed architecture, combining contrastive learning with an autoencoder framework, is a sensible and modern approach.
+    3.  The manuscript is well-structured and the methods are described in sufficient detail to be generally understood.
+    4.  The application to diverse datasets (CITE-seq, SNMultiome) and the focus on extracting biological insights (peak-gene links, TF motifs) are valuable.
+    5.  The inclusion of a runtime comparison and scalability analysis is a practical strength.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical Soundness
+    - **Claim pointer** The manuscript claims that the cross-modality contrastive learning module "harmonizes data representations across different omics types, ensuring consistency and preserving data heterogeneity by accommodating information entropy."
+    - **Evidence pointer** Methods: Cross-modality contrastive learning; Equation 8.
+    - **Concern** The precise formulation of the contrastive loss is unclear. The text mentions maximizing mutual information and using information entropy, but the exact loss function is not explicitly defined. Equation 8 shows a loss that is a sum of mutual information and entropy terms, but the mutual information is not defined in a tractable form. It is unclear if this is a variational bound, a noise-contrastive estimation, or another approximation. The role of the entropy term is also not rigorously justified. Is it a regularizer? What is the theoretical basis for this specific combination? The lack of a clear, formal definition makes it difficult to assess the novelty and soundness of the core algorithmic contribution.
+    - **Why it matters** Without a clear definition of the loss function, the method cannot be accurately reproduced or compared to other contrastive learning approaches. The theoretical justification for the loss is also crucial for understanding why the method works and under what conditions it might fail.
+    - **Resolution test** The authors must provide a clear, mathematical definition of the contrastive loss, including how the mutual information is estimated. They should also provide a theoretical or empirical justification for the inclusion of the entropy term and the specific weighting scheme.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical Soundness
+    - **Claim pointer** The manuscript claims that scMDCF "outperforms existing state-of-the-art scMulti-omics models" across various datasets.
+    - **Evidence pointer** Results: "scMDCF accurately perform integrative analysis..."; Figures 2a, 2b, 3a.
+    - **Concern** The results section states that scMDCF achieved the highest scores, but the text does not provide the actual numerical values for the metrics (NMI, ARI, etc.) for all methods and datasets. More critically, there is no mention of any statistical significance testing (e.g., standard deviation, confidence intervals, or a statistical test like a paired t-test or Wilcoxon test) to support the claim that the performance differences are not due to chance. The claim of "outperforming" is therefore not rigorously established.
+    - **Why it matters** In benchmarking studies, it is essential to demonstrate that performance improvements are statistically significant and not just the result of a single run or random variation. Without this, the claim of superiority is weak and potentially misleading.
+    - **Resolution test** The authors should provide a table with the mean and standard deviation of each metric for each method and dataset, ideally across multiple runs. They should also perform and report a statistical test to compare the performance of scMDCF against the best-performing baseline.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Scientific Importance / Validity of Biological Claims
+    - **Claim pointer** The manuscript claims that scMDCF identified ELF1 as a "putative candidate transcription factor biomarker in Microglia" that may "suppress Alzheimer's pathology" by influencing GTPase activity.
+    - **Evidence pointer** Results: "scMDCF identifies biologically significant minority cell populations..."; Figure 8d, 8e, 8f.
+    - **Concern** The leap from computational prediction to a biological claim of disease suppression is very large and is not supported by the evidence presented. The analysis shows a correlation: ELF1 motif is enriched in microglia, and its regulon genes are differentially expressed between AD and healthy cells. This is a hypothesis-generating finding. The claim that ELF1 "may suppress Alzheimer's pathology" is highly speculative and requires substantial experimental validation (e.g., knockdown/overexpression studies in microglia, animal models) that is not provided. The text even states it is a "putative" candidate, but the language in the Discussion and Conclusion is more definitive.
+    - **Why it matters** Overstating the implications of a computational finding can mislead the field and lead to wasted effort on unvalidated targets. The scientific importance of the work is better served by a more measured and precise description of the findings as hypotheses.
+    - **Resolution test** The authors should temper the language used to describe the ELF1 finding, clearly stating it as a computational prediction that requires experimental validation. They should also discuss the limitations of their approach in establishing causality.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical Soundness
+    - **Claim pointer** The manuscript claims that scMDCF "effectively corrects batch effects across distinct brain regions."
+    - **Evidence pointer** Results: "scMDCF accurately perform integrative analysis..."; Additional File 1: Note 1, Figure S5.
+    - **Concern** The claim of batch-effect correction is based on a qualitative assessment of clustering and a metric (iLISI) that is not described in the main text. The specific details of how batch correction was evaluated are not provided. The text mentions "coherent cross-region integration" but does not provide a quantitative comparison with other methods on this specific task.
+    - **Why it matters** Batch effect correction is a critical function of integration methods. A claim of effectiveness must be backed by a clear, quantitative evaluation that is comparable to standard practices in the field.
+    - **Resolution test** The authors should provide a more detailed description of the batch-effect evaluation, including the specific metrics used, the comparison with other methods, and a quantitative demonstration of the improvement.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Methods: Competing methods
+    - **Evidence pointer** Methods: Competing methods
+    - **Issue** The descriptions of the competing methods are very brief and are mostly links to their repositories. A brief description of the key parameters or settings used for each baseline would be helpful for reproducibility.
+    - **Required correction** Add a sentence for each baseline method describing the default parameters or the specific configuration used in the comparison.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results: Hyperparameter tuning
+    - **Evidence pointer** Results: "Evaluation of hyperparameter selection and ablation study"; Figure 4.
+    - **Issue** The text describes the selection of hyperparameters but does not clearly state the final chosen values for the key parameters (e.g., λ, loss weights) in the main text.
+    - **Required correction** State the final optimal hyperparameter values in the main text or in a dedicated table for clarity.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods: Implementation details
+    - **Evidence pointer** Methods: Implementation details
+    - **Issue** The description of the training process is missing key details such as the number of training epochs for the full model, the batch size, and the hardware used for the main experiments.
+    - **Required correction** Add these specific training details to the Implementation details section.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results: Alzheimer's disease analysis
+    - **Evidence pointer** Results: "scMDCF identifies biologically significant minority cell populations..."; Figure 8.
+    - **Issue** The text mentions "computational minority cell populations" but does not define what constitutes "minority" in this context. Is it a percentage of total cells, a specific number of cells, or a statistical measure?
+    - **Required correction** Provide a clear definition of "minority cell population" as used in this study.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: The core loss function is not formally defined, hindering reproducibility and theoretical assessment.
+    - R1-M2: The claim of superior performance is not supported by statistical analysis.
+    - R1-M3: The biological claim regarding ELF1 and Alzheimer's pathology is overreaching and not supported by the evidence.
+- **Assessment against Nature-style criteria**
+    - **Originality** The application of contrastive learning to single-cell multi-omics integration is not entirely new, but the specific combination of mutual information maximization with entropy regularization within an autoencoder framework may offer a novel contribution. The originality is moderate and needs to be more clearly differentiated from existing contrastive methods.
+    - **Scientific importance** The development of robust methods for single-cell multi-omics integration is of high importance to the field. The potential to identify novel regulatory mechanisms and disease-relevant cell states is significant. However, the importance of the specific biological findings, such as the ELF1 claim, is diminished by the lack of validation.
+    - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The biological applications (immunology, Alzheimer's) could broaden its appeal, but the technical focus and lack of experimental validation may limit its accessibility to a purely biological audience.
+    - **Technical soundness** The technical soundness is currently questionable due to the lack of a formal definition of the loss function and the absence of statistical rigor in the benchmarking. The methodological description is detailed but incomplete in key areas.
+    - **Readability for nonspecialists** The manuscript is well-written and the concepts are explained clearly. However, the deep learning details and the lack of a clear, high-level summary of the method's advantages may make it challenging for a non-specialist to fully grasp the contribution.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and has a sensible approach, but the core methodological contribution is not rigorously defined, and the key performance and biological claims are not sufficiently supported. Major revisions are required to address the technical and statistical concerns before the case for the method's utility and novelty can be made.

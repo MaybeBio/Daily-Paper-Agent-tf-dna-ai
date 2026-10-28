@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "42517821",
+    "doi": "10.1093/gpbjnl/qzag072",
+    "title": "scReGAT: Leveraging Knowledge of Regulatory Interactions to Predict Long-range Gene Regulation at Single-cell Resolution."
+  },
+  "content": {
+    "abstract": "Understanding gene regulation at single-cell resolution is crucial for unraveling development, disease, and cellular identity. We introduce single-cell regulatory graph attention network (scReGAT), a deep learning framework that integrates prior knowledge of cis-regulatory element (cRE)-gene and transcription factor-gene interactions to reconstruct cell-specific regulatory networks. Central to scReGAT is a knowledge-guided regulatory graph (kRG), which combines experimentally validated regulatory interactions with cell-resolved chromatin accessibility profiles. These graphs serve as the foundation for training a Graph Attention Network (GAT) to predict gene expression and quantify the contribution of specific regulatory interactions using an interpretable regulatory score for each edge. In benchmarking across five single-cell multi-omics datasets, scReGAT successfully recapitulates known cell-type-specific cRE-gene interactions. In both neuroblastoma and osteogenic differentiation systems, it uncovers dynamic regulatory rewiring that predicts transcriptional transitions. Furthermore, by integrating genome-wide association studies loci from Alzheimer's disease, multiple sclerosis, and schizophrenia, scReGAT identifies disease-associated cell types and uncovers candidate regulatory mechanisms underlying complex trait associations. These results position scReGAT as a robust and generalizable framework for decoding long-range gene regulation at single-cell resolution. The source code of scReGAT can be accessed at https://github.com/TianLab-Bioinfo/scReGAT/ and https://ngdc.cncb.ac.cn/biocode/tool/BT008081.",
+    "keywords": [
+      "Cis-regulatory element",
+      "Gene regulatory network",
+      "Graph attention network",
+      "Long-range gene regulation",
+      "Single-cell multi-omics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Baole",
+        "Dang, Yanan",
+        "Zhang, Yu",
+        "Long, Yi",
+        "Tian, Weidong"
+      ],
+      "short_names": [
+        "Wen B",
+        "Dang Y",
+        "Zhang Y",
+        "Long Y",
+        "Tian W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Children's Hospital of Fudan University, Shanghai 201102, China.",
+        "Children's Hospital of Shandong University, Jinan 250022, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Baole",
+        "short_name": "Wen B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Dang, Yanan",
+        "short_name": "Dang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Long, Yi",
+        "short_name": "Long Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Weidong",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Computational Biology, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+          "Children's Hospital of Fudan University, Shanghai 201102, China.",
+          "Children's Hospital of Shandong University, Jinan 250022, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics, proteomics & bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Genomics Proteomics Bioinformatics"
+    ],
+    "pub_date": "2026 Jul 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 12:36",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42517821",
+      "42475469",
+      "41643202",
+      "41883144",
+      "41588477",
+      "38956662",
+      "41554051",
+      "37788349",
+      "41288963",
+      "39417321",
+      "39975293",
+      "41867859",
+      "38940155",
+      "40607808",
+      "33874910",
+      "37985457",
+      "40662821",
+      "31510655",
+      "36064320",
+      "39904740",
+      "40037709",
+      "37789374",
+      "40708222",
+      "34044854",
+      "40633682",
+      "40832731",
+      "42074532",
+      "40653482",
+      "41317402",
+      "40155814",
+      "29879919",
+      "39420631",
+      "42059479",
+      "34239132",
+      "41300707",
+      "30961611",
+      "40725473",
+      "42234579",
+      "35849618",
+      "35325548",
+      "38950180",
+      "41067887",
+      "40409268",
+      "37428809",
+      "40702704",
+      "42467984",
+      "42061403",
+      "41498638",
+      "42308421",
+      "36747664",
+      "42110915",
+      "33153500",
+      "41534143",
+      "42243114",
+      "25433230",
+      "42428020",
+      "40966644",
+      "39934680",
+      "25887857",
+      "41555486",
+      "39468737",
+      "41731605",
+      "38012720",
+      "35961023",
+      "35293310",
+      "39704704",
+      "35511108",
+      "39800872",
+      "41139924",
+      "41871930",
+      "41183107",
+      "41801512",
+      "34252956",
+      "41415381",
+      "41675247",
+      "37577525",
+      "41325188",
+      "40654959",
+      "38116584",
+      "41986815",
+      "41409156",
+      "33096239",
+      "35188184",
+      "39891345",
+      "40251476",
+      "30661741",
+      "41284725",
+      "36723605",
+      "36575796",
+      "20422009",
+      "36094338",
+      "39960893",
+      "41508432",
+      "40538029",
+      "42140898",
+      "41285681",
+      "40598278",
+      "42119563",
+      "33133123",
+      "42330854"
+    ],
+    "review": [
+      "42517821",
+      "42074532"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/gpb/article-lookup/doi/10.1093/gpbjnl/qzag072",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

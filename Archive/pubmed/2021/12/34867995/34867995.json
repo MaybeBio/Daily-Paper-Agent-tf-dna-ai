@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "34867995",
+    "doi": "10.3389/fimmu.2021.757393",
+    "title": "Transcriptomic Remodelling of Fetal Endothelial Cells During Establishment of Inflammatory Memory."
+  },
+  "content": {
+    "abstract": "Inflammatory memory involves the molecular and cellular 'reprogramming' of innate immune cells following exogenous stimuli, leading to non-specific protection against subsequent pathogen exposure. This phenomenon has now also been described in non-hematopoietic cells, such as human fetal and adult endothelial cells. In this study we mapped the cell-specific DNA methylation profile and the transcriptomic remodelling during the establishment of inflammatory memory in two distinct fetal endothelial cell types - a progenitor cell (ECFC) and a differentiated cell (HUVEC) population. We show that both cell types have a core transcriptional response to an initial exposure to a viral-like ligand, Poly(I:C), characterised by interferon responsive genes. There was also an ECFC specific response, marked by the transcription factor ELF1, suggesting a non-canonical viral response pathway in progenitor endothelial cells. Next, we show that both ECFCs and HUVECs establish memory in response to an initial viral exposure, resulting in an altered subsequent response to lipopolysaccharide. While the capacity to train or tolerize the induction of specific sets of genes was similar between the two cell types, the progenitor ECFCs show a higher capacity to establish memory. Among tolerized cellular pathways are those involved in endothelial barrier establishment and leukocyte migration, both important for regulating systemic immune-endothelial cell interactions. These findings suggest that the capacity for inflammatory memory may be a common trait across different endothelial cell types but also indicate that the specific downstream targets may vary by developmental stage.",
+    "keywords": [
+      "HUVEC (human umbilical vein endothelial cells)",
+      "endothelial cells",
+      "endothelial progenitor cell",
+      "inflammation",
+      "inflammatory memory",
+      "innate immune memory",
+      "trained immunity",
+      "transcriptome (RNA-seq)"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Cell Separation",
+      "Cells, Cultured",
+      "*DNA Methylation",
+      "Endothelial Progenitor Cells/drug effects/*metabolism",
+      "Fetus/cytology",
+      "Gene Expression Regulation/drug effects",
+      "Gene Ontology",
+      "Human Umbilical Vein Endothelial Cells/drug effects/*metabolism",
+      "Humans",
+      "Infant, Newborn",
+      "Inflammation/embryology/genetics/immunology/*pathology",
+      "Lipopolysaccharides/pharmacology",
+      "Mice",
+      "NK Cell Lectin-Like Receptor Subfamily D/biosynthesis/genetics",
+      "Nuclear Proteins/metabolism",
+      "Poly I-C/pharmacology",
+      "RNA/biosynthesis/genetics",
+      "Transcription Factors/metabolism",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weiss, Elisa",
+        "Vlahos, Amanda",
+        "Kim, Bowon",
+        "Wijegunasekara, Sachintha",
+        "Shanmuganathan, Dhanya",
+        "Aitken, Thomas",
+        "Joo, Ji-Hoon E",
+        "Imran, Samira",
+        "Shepherd, Rebecca",
+        "Craig, Jeffrey M",
+        "Green, Mark",
+        "Hiden, Ursula",
+        "Novakovic, Boris",
+        "Saffery, Richard"
+      ],
+      "short_names": [
+        "Weiss E",
+        "Vlahos A",
+        "Kim B",
+        "Wijegunasekara S",
+        "Shanmuganathan D",
+        "Aitken T",
+        "Joo JE",
+        "Imran S",
+        "Shepherd R",
+        "Craig JM",
+        "Green M",
+        "Hiden U",
+        "Novakovic B",
+        "Saffery R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Perinatal Research Laboratory, Department of Obstetrics & Gynaecology, Medical University of Graz, Graz, Austria.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Department of Biosciences, University of Melbourne, Parkville, VIC, Australia.",
+        "Colorectal Oncogenomics Group, Department of Clinical Pathology, University of Melbourne, Melbourne, VIC, Australia.",
+        "University of Melbourne Centre for Cancer Research, University of Melbourne, Melbourne, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia.",
+        "Molecular Epidemiology, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "The Institute for Mental and Physical Health and Clinical Translation (IMPACT), School of Medicine, Deakin University, Geelong, VIC, Australia.",
+        "Department of Biosciences, University of Melbourne, Parkville, VIC, Australia.",
+        "Perinatal Research Laboratory, Department of Obstetrics & Gynaecology, Medical University of Graz, Graz, Austria.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia.",
+        "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+        "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weiss, Elisa",
+        "short_name": "Weiss E",
+        "identifiers": [],
+        "affiliations": [
+          "Perinatal Research Laboratory, Department of Obstetrics & Gynaecology, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Vlahos, Amanda",
+        "short_name": "Vlahos A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Kim, Bowon",
+        "short_name": "Kim B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Wijegunasekara, Sachintha",
+        "short_name": "Wijegunasekara S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Shanmuganathan, Dhanya",
+        "short_name": "Shanmuganathan D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Aitken, Thomas",
+        "short_name": "Aitken T",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+          "Department of Biosciences, University of Melbourne, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Joo, Ji-Hoon E",
+        "short_name": "Joo JE",
+        "identifiers": [],
+        "affiliations": [
+          "Colorectal Oncogenomics Group, Department of Clinical Pathology, University of Melbourne, Melbourne, VIC, Australia.",
+          "University of Melbourne Centre for Cancer Research, University of Melbourne, Melbourne, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Imran, Samira",
+        "short_name": "Imran S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+          "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Shepherd, Rebecca",
+        "short_name": "Shepherd R",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Craig, Jeffrey M",
+        "short_name": "Craig JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia.",
+          "Molecular Epidemiology, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+          "The Institute for Mental and Physical Health and Clinical Translation (IMPACT), School of Medicine, Deakin University, Geelong, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Green, Mark",
+        "short_name": "Green M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, University of Melbourne, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Hiden, Ursula",
+        "short_name": "Hiden U",
+        "identifiers": [],
+        "affiliations": [
+          "Perinatal Research Laboratory, Department of Obstetrics & Gynaecology, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Novakovic, Boris",
+        "short_name": "Novakovic B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+          "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Saffery, Richard",
+        "short_name": "Saffery R",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunity, Infection and Immunity Theme, Murdoch Children's Research Institute, Parkville, VIC, Australia.",
+          "Department of Paediatrics, University of Melbourne, Royal Children's Hospital, Parkville, VIC, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/07 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "41217002",
+      "40891672",
+      "40750594",
+      "40047974",
+      "39630385",
+      "37449973"
+    ],
+    "refs": [
+      "33708384",
+      "33515594",
+      "33380171",
+      "33293712",
+      "32726647",
+      "32612232",
+      "32350546",
+      "32320649",
+      "32132681",
+      "31682641",
+      "31541300",
+      "31371436",
+      "31204280",
+      "31128973",
+      "30949477",
+      "30091044",
+      "29328908",
+      "29324233",
+      "29312357",
+      "29045388",
+      "28962690",
+      "27866838",
+      "27863248",
+      "27717381",
+      "27567430",
+      "27102489",
+      "26744078",
+      "26669797",
+      "26424855",
+      "25746953",
+      "25721701",
+      "25605792",
+      "25516281",
+      "25387998",
+      "24651450",
+      "24478339",
+      "24307174",
+      "24285111",
+      "24082146",
+      "23867184",
+      "23855827",
+      "22988082",
+      "22703947",
+      "22422448",
+      "21853150",
+      "21310039",
+      "21154709",
+      "20878353",
+      "20513432",
+      "20436461",
+      "20064371",
+      "20061006",
+      "19781994",
+      "18669889",
+      "17878335",
+      "17538624",
+      "17475823",
+      "17202376",
+      "15284284",
+      "15226175",
+      "14630797",
+      "11403834",
+      "10540194",
+      "9791539",
+      "9129027",
+      "6591602"
+    ],
+    "similar": [
+      "34867995",
+      "31166709",
+      "31084577",
+      "33256815",
+      "26663311",
+      "38574861",
+      "26433057",
+      "26893154",
+      "23565284",
+      "27043207",
+      "32260159",
+      "37470310",
+      "27567430",
+      "39907700",
+      "33343567",
+      "28499264",
+      "27889767",
+      "33013823",
+      "30879244",
+      "23666751",
+      "23867184",
+      "26113473",
+      "24668945",
+      "35068337",
+      "26205961",
+      "28760584",
+      "23089395",
+      "31756325",
+      "25824148",
+      "26560068",
+      "28963460",
+      "31580158",
+      "30582450",
+      "25545050",
+      "26076450",
+      "40320906",
+      "28637836",
+      "25595409",
+      "33212112",
+      "29950719",
+      "22101679",
+      "24603752",
+      "39445426",
+      "27899144",
+      "32551893",
+      "40407837",
+      "33378972",
+      "28727754",
+      "24888319",
+      "31451517",
+      "31996420",
+      "27404229",
+      "29615071",
+      "33678047",
+      "27873103",
+      "31265169",
+      "36196150",
+      "28578476",
+      "29908162",
+      "24667242",
+      "27226779",
+      "26702126",
+      "40018940",
+      "31449822",
+      "32231389",
+      "22972459",
+      "31381950",
+      "32322002",
+      "28655551",
+      "30905197",
+      "33260038",
+      "21949112",
+      "24710033",
+      "24828109",
+      "23132960",
+      "31434496",
+      "33627177",
+      "22541120",
+      "30092417",
+      "31154903",
+      "32945467",
+      "28811647",
+      "31108165",
+      "34836245",
+      "21768203",
+      "29775893",
+      "24042015",
+      "26395122",
+      "27488544",
+      "26824798",
+      "22245985",
+      "25560198",
+      "34906292",
+      "26597044",
+      "29739800",
+      "37317853",
+      "25575567",
+      "30369096",
+      "38100962",
+      "28994769"
+    ],
+    "review": [
+      "34867995",
+      "39445426"
+    ],
+    "pmc": [
+      "8640490"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34867995/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34867995",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2021.757393",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse180355",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

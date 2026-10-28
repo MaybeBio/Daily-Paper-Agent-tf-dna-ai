@@ -1,0 +1,771 @@
+{
+  "identity": {
+    "pmid": "40410387",
+    "doi": "10.1038/s41431-025-01876-z",
+    "title": "Biallelic loss-of-function variants in ZNF142 are associated with a robust DNA methylation signature affecting a limited number of genomic loci."
+  },
+  "content": {
+    "abstract": "Biallelic inactivating variants in ZNF142 underlie a clinically variable neurodevelopmental disorder. ZNF142 is a zinc-finger transcription factor with potential roles on chromatin organization, implying a possible association of ZNF142 loss of function with perturbed genome-wide DNA methylation (DNAm) pattern. We performed EPIC array-based methylation profiling of peripheral blood-derived DNA samples from 27 individuals with biallelic ZNF142 inactivating variants, together with 6 heterozygous carriers and 40 controls. A DNAm signature discovery pipeline was applied by using 440 controls for discovery and validation analyses, and a machine-learning model was trained to classify 8 individuals carrying ZNF142 variants of uncertain clinical significance. Analyses directed to explore the genome-wide DNAm landscape in affected individuals revealed 88 differentially methylated probes constituting the minimal informative set specific to ZNF142 loss of function. This reproducible pattern of DNAm changes involved regulatory regions of a small number of genes. The DNAm signature derived from peripheral blood allowed us to diagnose individuals carrying biallelic inactivating ZNF142 variants when applied to fibroblasts. Our findings provide evidence that biallelic loss-of-function ZNF142 variants result in a specific and robust DNAm signature. The identified DNAm pattern suggests occurrence of a methylation disturbance involving a small number of loci that appears to be shared by different cell lineages.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*Loss of Function Mutation",
+      "Male",
+      "Female",
+      "*Repressor Proteins/genetics",
+      "Alleles"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hildonen, Mathis",
+        "Ciolfi, Andrea",
+        "Ferilli, Marco",
+        "Cappelletti, Camilla",
+        "Al Alam, Chadi",
+        "Amor, David J",
+        "Barakat, Tahsin Stefan",
+        "Benoit, Valerie",
+        "Birk, Ohad Shmuel",
+        "Callewaert, Bert",
+        "Cazurro-Gutierrez, Ana",
+        "De Wachter, Matthias",
+        "Doco-Fenzy, Martine",
+        "Gomez-Puertas, Paulino",
+        "Hammer, Trine Bjorg",
+        "Jamra, Rami Abou",
+        "Kaiyrzhanov, Rauan",
+        "Kameyama, Shinichi",
+        "Keren, Boris",
+        "Kresge, Christina",
+        "Krey, Ilona",
+        "Lederer, Damien",
+        "Marcos-Alcalde, Inigo",
+        "Maroofian, Reza",
+        "Matsumoto, Naomichi",
+        "Mizuguchi, Takeshi",
+        "Moey, Lip-Hen",
+        "Morgan, Angela",
+        "Munell, Francina",
+        "Platzer, Konrad",
+        "Pletcher, Beth A",
+        "Ros-Pardo, David",
+        "Rumping, Lynne",
+        "Szakszon, Katalin",
+        "Van Schil, Kristof",
+        "Verdura, Edgard",
+        "Vogt, Julie",
+        "Wassmer, Evangeline",
+        "Zamani, Mina",
+        "Tumer, Zeynep",
+        "Tartaglia, Marco"
+      ],
+      "short_names": [
+        "Hildonen M",
+        "Ciolfi A",
+        "Ferilli M",
+        "Cappelletti C",
+        "Al Alam C",
+        "Amor DJ",
+        "Barakat TS",
+        "Benoit V",
+        "Birk OS",
+        "Callewaert B",
+        "Cazurro-Gutierrez A",
+        "De Wachter M",
+        "Doco-Fenzy M",
+        "Gomez-Puertas P",
+        "Hammer TB",
+        "Jamra RA",
+        "Kaiyrzhanov R",
+        "Kameyama S",
+        "Keren B",
+        "Kresge C",
+        "Krey I",
+        "Lederer D",
+        "Marcos-Alcalde I",
+        "Maroofian R",
+        "Matsumoto N",
+        "Mizuguchi T",
+        "Moey LH",
+        "Morgan A",
+        "Munell F",
+        "Platzer K",
+        "Pletcher BA",
+        "Ros-Pardo D",
+        "Rumping L",
+        "Szakszon K",
+        "Van Schil K",
+        "Verdura E",
+        "Vogt J",
+        "Wassmer E",
+        "Zamani M",
+        "Tumer Z",
+        "Tartaglia M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2016-3670",
+        "ORCID: 0000-0002-6191-0978",
+        "ORCID: 0000-0001-7191-8511",
+        "ORCID: 0000-0003-1231-1562",
+        "ORCID: 0000-0002-1098-9452",
+        "ORCID: 0000-0003-1430-1296",
+        "ORCID: 0000-0002-9743-4205",
+        "ORCID: 0000-0002-6422-210X",
+        "ORCID: 0000-0003-3131-729X",
+        "ORCID: 0000-0002-1542-1399",
+        "ORCID: 0000-0002-9168-7615",
+        "ORCID: 0000-0001-6763-1542",
+        "ORCID: 0000-0001-9846-6500",
+        "ORCID: 0000-0003-1147-7405",
+        "ORCID: 0000-0001-6127-6308",
+        "ORCID: 0000-0001-5299-8851",
+        "ORCID: 0000-0002-4777-5802",
+        "ORCID: 0000-0001-7736-9672"
+      ],
+      "affiliations": [
+        "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, 2100, Copenhagen, Denmark.",
+        "Molecular Genetics and Functional Genomics, Bambino Gesu Children's Hospital, IRCCS, 00146, Rome, Italy.",
+        "Molecular Genetics and Functional Genomics, Bambino Gesu Children's Hospital, IRCCS, 00146, Rome, Italy.",
+        "Molecular Genetics and Functional Genomics, Bambino Gesu Children's Hospital, IRCCS, 00146, Rome, Italy.",
+        "Department of Pediatric Neurology, American center for Psychiatry and Neurology, Abu Dhabi, UAE.",
+        "Department of Pediatric Neurology, Haykel Hospital, El Koura, Lebanon.",
+        "Department of Paediatrics, University of Melbourne, Murdoch Children's Research Institute, Melbourne, Australia.",
+        "Deparment of Clinical Genetics, Erasmus MC, 3000CA, Rotterdam, The Netherlands.",
+        "ENCORE Expertise Center for Neurodevelopmental Disorders, Erasmus MC, University Medical Center, 3000CA, Rotterdam, Netherlands.",
+        "IPG, Centre for Human Genetics, Charleroi, Belgium.",
+        "Genetics Institute, Soroka University Medical Center, Beer-Sheva, Israel.",
+        "Center for Medical Genetics, Ghent University Hospital, 9000, Ghent, Belgium.",
+        "Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium.",
+        "Paediatric Neurology Research Group, Vall d'Hebron Institut de Recerca, 08035, Barcelona, Spain.",
+        "Universitat Autonoma de Barcelona, 08193, Barcelona, Spain.",
+        "Department of Child Neurology, Antwerp University Hospital, University of Antwerp, Edegem, Belgium.",
+        "SFR CAP SANTE, Service de genetique CHU Reims, 51092, Reims, France.",
+        "CHU de Nantes, service de genetique medicale, 44000, Nantes, France.",
+        "Molecular Modeling Group, Centro de Biologia Molecular Severo Ochoa, CBMSO (CSIC-UAM), E-28049, Madrid, Spain.",
+        "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, 2100, Copenhagen, Denmark.",
+        "Department of Epilepsy Genetics and Personalized Treatment, Danish Epilepsy Centre, Dianalund, Denmark.",
+        "Institute of Human Genetics, University of Leipzig Medical Center Leipzig, 04103, Leipzig, Germany.",
+        "Department of Neuromuscular Disorders, University College London Institute of Neurology, WC1N 3BG, London, UK.",
+        "Department of Human Genetics, Yokohama City University Graduate School of Medicine, 236-0004, Yokohama, Japan.",
+        "Department of Medical Genetics, Pitie-Salpetriere Hospital, AP-HP.Sorbonne Universite, 75013, Paris, France.",
+        "Rutgers New Jersey Medical School, Newark, NJ, USA.",
+        "Institute of Human Genetics, University of Leipzig Medical Center Leipzig, 04103, Leipzig, Germany.",
+        "IPG, Centre for Human Genetics, Charleroi, Belgium.",
+        "Molecular Modeling Group, Centro de Biologia Molecular Severo Ochoa, CBMSO (CSIC-UAM), E-28049, Madrid, Spain.",
+        "Department of Neuromuscular Disorders, University College London Institute of Neurology, WC1N 3BG, London, UK.",
+        "Department of Human Genetics, Yokohama City University Graduate School of Medicine, 236-0004, Yokohama, Japan.",
+        "Department of Human Genetics, Yokohama City University Graduate School of Medicine, 236-0004, Yokohama, Japan.",
+        "Department of Clinical Genetics, Penang Hospital, 10450, Georgetown, Malaysia.",
+        "Speech and Language, Murdoch Children's Research Institute, 3052, Melbourne, Australia.",
+        "Department of Audiology and Speech Pathology, 3052, Melbourne, Australia.",
+        "Paediatric Neurology Research Group, Vall d'Hebron Institut de Recerca, 08035, Barcelona, Spain.",
+        "Universitat Autonoma de Barcelona, 08193, Barcelona, Spain.",
+        "Institute of Human Genetics, University of Leipzig Medical Center Leipzig, 04103, Leipzig, Germany.",
+        "Rutgers New Jersey Medical School, Newark, NJ, USA.",
+        "Molecular Modeling Group, Centro de Biologia Molecular Severo Ochoa, CBMSO (CSIC-UAM), E-28049, Madrid, Spain.",
+        "Department of Medical Genetics, Antwerp University Hospital, University of Antwerp, 2650, Edegem, Belgium.",
+        "University of Debrecen, Faculty of Medicine, Clinical Center, Institute of Paediatrics, 4032, Debrecen, Hungary.",
+        "Department of Medical Genetics, Antwerp University Hospital, University of Antwerp, 2650, Edegem, Belgium.",
+        "Paediatric Neurology Research Group, Vall d'Hebron Institut de Recerca, 08035, Barcelona, Spain.",
+        "West Midlands Regional Genetics Service, Birmingham Women's and Children's Hospital, B15 2TG, Birmingham, UK.",
+        "Neurology, Birmingham Women's and Children's Hospital, B4 6 NH, Birmingham, UK.",
+        "Institute of Health and Neurodevelopment, Aston University, B4 7ET, Birmingham, UK.",
+        "Center for Genomics and Systems Biology, Department of Biology, New York University, New York, NY, 10003, USA.",
+        "Narges Medical Genetics and Prenatal Diagnosis Laboratory, Kianpars, Ahvaz, Iran.",
+        "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, 2100, Copenhagen, Denmark. Zeynep.tumer@regionh.dk.",
+        "Department of Clinical Medicine, Faculty of Medicine and Health Sciences, University of Copenhagen, 2100, Copenhagen, Denmark. Zeynep.tumer@regionh.dk.",
+        "Molecular Genetics and Functional Genomics, Bambino Gesu Children's Hospital, IRCCS, 00146, Rome, Italy. marco.tartaglia@opbg.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hildonen, Mathis",
+        "short_name": "Hildonen M",
+        "identifiers": [
+          "0000-0002-2016-3670"
+        ],
+        "affiliations": [
+          "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Ciolfi, Andrea",
+        "short_name": "Ciolfi A",
+        "identifiers": [
+          "0000-0002-6191-0978"
+        ],
+        "affiliations": [
+          "Molecular Genetics and Functional Genomics, Bambino Gesù Children's Hospital, IRCCS, 00146, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferilli, Marco",
+        "short_name": "Ferilli M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Functional Genomics, Bambino Gesù Children's Hospital, IRCCS, 00146, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Cappelletti, Camilla",
+        "short_name": "Cappelletti C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Genetics and Functional Genomics, Bambino Gesù Children's Hospital, IRCCS, 00146, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Al Alam, Chadi",
+        "short_name": "Al Alam C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Neurology, American center for Psychiatry and Neurology, Abu Dhabi, UAE.",
+          "Department of Pediatric Neurology, Haykel Hospital, El Koura, Lebanon."
+        ]
+      },
+      {
+        "full_name": "Amor, David J",
+        "short_name": "Amor DJ",
+        "identifiers": [
+          "0000-0001-7191-8511"
+        ],
+        "affiliations": [
+          "Department of Paediatrics, University of Melbourne, Murdoch Children's Research Institute, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Barakat, Tahsin Stefan",
+        "short_name": "Barakat TS",
+        "identifiers": [
+          "0000-0003-1231-1562"
+        ],
+        "affiliations": [
+          "Deparment of Clinical Genetics, Erasmus MC, 3000CA, Rotterdam, The Netherlands.",
+          "ENCORE Expertise Center for Neurodevelopmental Disorders, Erasmus MC, University Medical Center, 3000CA, Rotterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Benoit, Valérie",
+        "short_name": "Benoit V",
+        "identifiers": [
+          "0000-0002-1098-9452"
+        ],
+        "affiliations": [
+          "IPG, Centre for Human Genetics, Charleroi, Belgium."
+        ]
+      },
+      {
+        "full_name": "Birk, Ohad Shmuel",
+        "short_name": "Birk OS",
+        "identifiers": [
+          "0000-0003-1430-1296"
+        ],
+        "affiliations": [
+          "Genetics Institute, Soroka University Medical Center, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Callewaert, Bert",
+        "short_name": "Callewaert B",
+        "identifiers": [
+          "0000-0002-9743-4205"
+        ],
+        "affiliations": [
+          "Center for Medical Genetics, Ghent University Hospital, 9000, Ghent, Belgium.",
+          "Department of Biomolecular Medicine, Ghent University, 9000, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Cazurro-Gutiérrez, Ana",
+        "short_name": "Cazurro-Gutiérrez A",
+        "identifiers": [],
+        "affiliations": [
+          "Paediatric Neurology Research Group, Vall d'Hebron Institut de Recerca, 08035, Barcelona, Spain.",
+          "Universitat Autònoma de Barcelona, 08193, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "De Wachter, Matthias",
+        "short_name": "De Wachter M",
+        "identifiers": [
+          "0000-0002-6422-210X"
+        ],
+        "affiliations": [
+          "Department of Child Neurology, Antwerp University Hospital, University of Antwerp, Edegem, Belgium."
+        ]
+      },
+      {
+        "full_name": "Doco-Fenzy, Martine",
+        "short_name": "Doco-Fenzy M",
+        "identifiers": [],
+        "affiliations": [
+          "SFR CAP SANTE, Service de génétique CHU Reims, 51092, Reims, France.",
+          "CHU de Nantes, service de génétique médicale, 44000, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Gómez-Puertas, Paulino",
+        "short_name": "Gómez-Puertas P",
+        "identifiers": [
+          "0000-0003-3131-729X"
+        ],
+        "affiliations": [
+          "Molecular Modeling Group, Centro de Biología Molecular Severo Ochoa, CBMSO (CSIC-UAM), E-28049, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Hammer, Trine Bjørg",
+        "short_name": "Hammer TB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, 2100, Copenhagen, Denmark.",
+          "Department of Epilepsy Genetics and Personalized Treatment, Danish Epilepsy Centre, Dianalund, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jamra, Rami Abou",
+        "short_name": "Jamra RA",
+        "identifiers": [
+          "0000-0002-1542-1399"
+        ],
+        "affiliations": [
+          "Institute of Human Genetics, University of Leipzig Medical Center Leipzig, 04103, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Kaiyrzhanov, Rauan",
+        "short_name": "Kaiyrzhanov R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuromuscular Disorders, University College London Institute of Neurology, WC1N 3BG, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kameyama, Shinichi",
+        "short_name": "Kameyama S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Yokohama City University Graduate School of Medicine, 236-0004, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Keren, Boris",
+        "short_name": "Keren B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Pitié-Salpêtrière Hospital, AP-HP.Sorbonne Université, 75013, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Kresge, Christina",
+        "short_name": "Kresge C",
+        "identifiers": [],
+        "affiliations": [
+          "Rutgers New Jersey Medical School, Newark, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Krey, Ilona",
+        "short_name": "Krey I",
+        "identifiers": [
+          "0000-0002-9168-7615"
+        ],
+        "affiliations": [
+          "Institute of Human Genetics, University of Leipzig Medical Center Leipzig, 04103, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Lederer, Damien",
+        "short_name": "Lederer D",
+        "identifiers": [],
+        "affiliations": [
+          "IPG, Centre for Human Genetics, Charleroi, Belgium."
+        ]
+      },
+      {
+        "full_name": "Marcos-Alcalde, Iñigo",
+        "short_name": "Marcos-Alcalde I",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Group, Centro de Biología Molecular Severo Ochoa, CBMSO (CSIC-UAM), E-28049, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Maroofian, Reza",
+        "short_name": "Maroofian R",
+        "identifiers": [
+          "0000-0001-6763-1542"
+        ],
+        "affiliations": [
+          "Department of Neuromuscular Disorders, University College London Institute of Neurology, WC1N 3BG, London, UK."
+        ]
+      },
+      {
+        "full_name": "Matsumoto, Naomichi",
+        "short_name": "Matsumoto N",
+        "identifiers": [
+          "0000-0001-9846-6500"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Yokohama City University Graduate School of Medicine, 236-0004, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Mizuguchi, Takeshi",
+        "short_name": "Mizuguchi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Yokohama City University Graduate School of Medicine, 236-0004, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Moey, Lip-Hen",
+        "short_name": "Moey LH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Penang Hospital, 10450, Georgetown, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Morgan, Angela",
+        "short_name": "Morgan A",
+        "identifiers": [
+          "0000-0003-1147-7405"
+        ],
+        "affiliations": [
+          "Speech and Language, Murdoch Children's Research Institute, 3052, Melbourne, Australia.",
+          "Department of Audiology and Speech Pathology, 3052, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Munell, Francina",
+        "short_name": "Munell F",
+        "identifiers": [],
+        "affiliations": [
+          "Paediatric Neurology Research Group, Vall d'Hebron Institut de Recerca, 08035, Barcelona, Spain.",
+          "Universitat Autònoma de Barcelona, 08193, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Platzer, Konrad",
+        "short_name": "Platzer K",
+        "identifiers": [
+          "0000-0001-6127-6308"
+        ],
+        "affiliations": [
+          "Institute of Human Genetics, University of Leipzig Medical Center Leipzig, 04103, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Pletcher, Beth A",
+        "short_name": "Pletcher BA",
+        "identifiers": [],
+        "affiliations": [
+          "Rutgers New Jersey Medical School, Newark, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Ros-Pardo, David",
+        "short_name": "Ros-Pardo D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Group, Centro de Biología Molecular Severo Ochoa, CBMSO (CSIC-UAM), E-28049, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Rumping, Lynne",
+        "short_name": "Rumping L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Antwerp University Hospital, University of Antwerp, 2650, Edegem, Belgium."
+        ]
+      },
+      {
+        "full_name": "Szakszon, Katalin",
+        "short_name": "Szakszon K",
+        "identifiers": [],
+        "affiliations": [
+          "University of Debrecen, Faculty of Medicine, Clinical Center, Institute of Paediatrics, 4032, Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Van Schil, Kristof",
+        "short_name": "Van Schil K",
+        "identifiers": [
+          "0000-0001-5299-8851"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, Antwerp University Hospital, University of Antwerp, 2650, Edegem, Belgium."
+        ]
+      },
+      {
+        "full_name": "Verdura, Edgard",
+        "short_name": "Verdura E",
+        "identifiers": [],
+        "affiliations": [
+          "Paediatric Neurology Research Group, Vall d'Hebron Institut de Recerca, 08035, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Vogt, Julie",
+        "short_name": "Vogt J",
+        "identifiers": [],
+        "affiliations": [
+          "West Midlands Regional Genetics Service, Birmingham Women's and Children's Hospital, B15 2TG, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Wassmer, Evangeline",
+        "short_name": "Wassmer E",
+        "identifiers": [],
+        "affiliations": [
+          "Neurology, Birmingham Women's and Children's Hospital, B4 6 NH, Birmingham, UK.",
+          "Institute of Health and Neurodevelopment, Aston University, B4 7ET, Birmingham, UK."
+        ]
+      },
+      {
+        "full_name": "Zamani, Mina",
+        "short_name": "Zamani M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomics and Systems Biology, Department of Biology, New York University, New York, NY, 10003, USA.",
+          "Narges Medical Genetics and Prenatal Diagnosis Laboratory, Kianpars, Ahvaz, Iran."
+        ]
+      },
+      {
+        "full_name": "Tümer, Zeynep",
+        "short_name": "Tümer Z",
+        "identifiers": [
+          "0000-0002-4777-5802"
+        ],
+        "affiliations": [
+          "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet, 2100, Copenhagen, Denmark. Zeynep.tumer@regionh.dk.",
+          "Department of Clinical Medicine, Faculty of Medicine and Health Sciences, University of Copenhagen, 2100, Copenhagen, Denmark. Zeynep.tumer@regionh.dk."
+        ]
+      },
+      {
+        "full_name": "Tartaglia, Marco",
+        "short_name": "Tartaglia M",
+        "identifiers": [
+          "0000-0001-7736-9672"
+        ],
+        "affiliations": [
+          "Molecular Genetics and Functional Genomics, Bambino Gesù Children's Hospital, IRCCS, 00146, Rome, Italy. marco.tartaglia@opbg.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of human genetics : EJHG"
+    ],
+    "journal_abbrev": [
+      "Eur J Hum Genet"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/24 00:45",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "41074112",
+      "40518603"
+    ],
+    "refs": [
+      "39424669",
+      "39375372",
+      "38873893",
+      "38655717",
+      "38634802",
+      "38528056",
+      "38296634",
+      "38279279",
+      "38265561",
+      "38251460",
+      "38026511",
+      "37865086",
+      "37730438",
+      "37496384",
+      "35618198",
+      "35616059",
+      "35315771",
+      "35047860",
+      "34565450",
+      "34531528",
+      "34380541",
+      "34297908",
+      "34103055",
+      "34039421",
+      "33407854",
+      "33053156",
+      "32117005",
+      "32109418",
+      "31036918",
+      "31006620",
+      "30929737",
+      "29551271",
+      "29456765",
+      "29309061",
+      "29198826",
+      "28740726",
+      "28529057",
+      "28273063",
+      "27075368",
+      "27003935",
+      "26583988",
+      "25972926",
+      "25950237",
+      "25741868",
+      "25184531",
+      "16606702",
+      "14519192",
+      "8744570"
+    ],
+    "similar": [
+      "40410387",
+      "31288860",
+      "36440975",
+      "31311581",
+      "35361921",
+      "37865086",
+      "33909990",
+      "42474752",
+      "36130591",
+      "38282074",
+      "32171335",
+      "38655717",
+      "42527582",
+      "36367395",
+      "41096905",
+      "38528056",
+      "37120726",
+      "30806140",
+      "42134323",
+      "40266295",
+      "41190595",
+      "41542061",
+      "41462362",
+      "35616059",
+      "37085889",
+      "30466473",
+      "31779682",
+      "29964050",
+      "38054406",
+      "35969790",
+      "36421837",
+      "28165855",
+      "25985232",
+      "32731254",
+      "39584743",
+      "37762215",
+      "40585142",
+      "35968916",
+      "36705342",
+      "36869404",
+      "39824190",
+      "30326963",
+      "40069712",
+      "33663600",
+      "41044650",
+      "39875007",
+      "38571311",
+      "32363570",
+      "32252817",
+      "39844292",
+      "29456765",
+      "37884963",
+      "32616021",
+      "39910411",
+      "37393279",
+      "36322151",
+      "33771206",
+      "32799817",
+      "40591496",
+      "32243864",
+      "39424669",
+      "34531528",
+      "38018434",
+      "33739972",
+      "36399132",
+      "30929737",
+      "36929374",
+      "38564759",
+      "28517981",
+      "42370254",
+      "31932625",
+      "39716176",
+      "33227132",
+      "28515798",
+      "39013458",
+      "34297908",
+      "41024438",
+      "33940396",
+      "39932319",
+      "31036918",
+      "37793095",
+      "40992585",
+      "28428831",
+      "26404063",
+      "41758603",
+      "30354327",
+      "35618198",
+      "41387570",
+      "40692464",
+      "27075368",
+      "39669601",
+      "40605063",
+      "37784136",
+      "31985744",
+      "29988321",
+      "39848545",
+      "28475860",
+      "25424692",
+      "22370247",
+      "40730689"
+    ],
+    "review": [
+      "40410387",
+      "41190595",
+      "32731254",
+      "33771206",
+      "38018434",
+      "28517981",
+      "34297908",
+      "40992585",
+      "35618198"
+    ],
+    "pmc": [
+      "12229324"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41431-025-01876-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40410387/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

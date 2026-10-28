@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.22.650035",
+  "title": "Programmatic design and editing of cis-regulatory elements",
+  "authors": "Schreiber J; Lorbeer FK; Heinzl M; Lu Y; Stark A; Noble WS",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-23",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出Ledidi方法，将顺式调控元件的基因组编辑设计转化为连续优化问题，利用预训练机器学习模型精准控制转录因子结合、染色质可及性等，虽非直接建模TF-DNA三维互作，但以TF结合预测为核心且AI方法可迁移至本课题。",
+  "abstract": "The development of modern genome editing tools has enabled researchers to make such edits with high precision but has left unsolved the problem of designing these edits. As a solution, we propose Ledidi, a computational approach that rephrases the design of genomic edits as a continuous optimization problem where the goal is to produce the desired outcome as measured by one or more predictive models using as few edits from an initial sequence as possible. When applied across dozens of pre-trained machine learning models, we find that Ledidi can quickly design edits to precisely control transcription factor binding, chromatin accessibility, transcription, and enhancer activity across several species. By using several models simultaneously, Ledidi can programatically design edits that exhibit multiple desired characteristics, and we demonstrate this capability by designing cell type-specific enhancers and accessible regions with controllable patterns of transcription factor binding. Finally, we introduce the concept of an affinity catalog, in which multiple sets of edits are designed that induce a spectrum of outcomes, and demonstrate the practical benefits of this approach for design tasks and scientific understanding.",
+  "abstract_zh": "现代基因组编辑工具的发展使研究人员能够以高精度进行此类编辑，但设计这些编辑的问题仍未解决。作为解决方案，我们提出了Ledidi，一种计算方法，将基因组编辑的设计重新表述为一个连续优化问题，其目标是通过一个或多个预测模型衡量，从初始序列出发，使用尽可能少的编辑来产生所需结果。当应用于数十个预训练的机器学习模型时，我们发现Ledidi能够快速设计编辑，以精确控制多个物种中的转录因子结合、染色质可及性、转录和增强子活性。通过同时使用多个模型，Ledidi可以程序化地设计具有多种所需特征的编辑，我们通过设计具有可控转录因子结合模式的细胞类型特异性增强子和可及区域来展示这一能力。最后，我们引入了亲和力目录（affinity catalog）的概念，其中设计多组编辑以诱导一系列结果，并展示了这种方法在设计任务和科学理解中的实际益处。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.22.650035",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.22.650035",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.22.650035/index.html"
+}

@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "38238566",
+    "doi": "10.1038/s41390-023-02990-8",
+    "title": "Computer-aided diagnostic screen for Congenital Central Hypoventilation Syndrome with facial phenotype."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Congenital Central Hypoventilation Syndrome (CCHS) has devastating consequences if not diagnosed promptly. Despite identification of the disease-defining gene PHOX2B and a facial phenotype, CCHS remains underdiagnosed. This study aimed to incorporate automated techniques on facial photos to screen for CCHS in a diverse pediatric cohort to improve early case identification and assess a facial phenotype-PHOX2B genotype relationship. METHODS: Facial photos of children and young adults with CCHS were control-matched by age, sex, race/ethnicity. After validating landmarks, principal component analysis (PCA) was applied with logistic regression (LR) for feature attribution and machine learning models for subject classification and assessment by PHOX2B pathovariant. RESULTS: Gradient-based feature attribution confirmed a subtle facial phenotype and models were successful in classifying CCHS: neural network performed best (median sensitivity 90% (IQR 84%, 95%)) on 179 clinical photos (versus LR and XGBoost, both 85% (IQR 75-76%, 90%)). Outcomes were comparable stratified by PHOX2B genotype and with the addition of publicly available CCHS photos (n = 104) using PCA and LR (sensitivity 83-89% (IQR 67-76%, 92-100%). CONCLUSIONS: Utilizing facial features, findings suggest an automated, accessible classifier may be used to screen for CCHS in children with the phenotype and support providers to seek PHOX2B testing to improve the diagnostics. IMPACT: Facial landmarking and principal component analysis on a diverse pediatric and young adult cohort with PHOX2B pathovariants delineated a distinct, subtle CCHS facial phenotype. Automated, low-cost machine learning models can detect a CCHS facial phenotype with a high sensitivity in screening to ultimately refer for disease-defining PHOX2B testing, potentially addressing gaps in disease underdiagnosis and allow for critical, timely intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Homeodomain Proteins/genetics",
+      "Female",
+      "*Phenotype",
+      "Male",
+      "*Transcription Factors/genetics",
+      "*Hypoventilation/congenital/diagnosis/genetics",
+      "Child",
+      "*Face/abnormalities",
+      "*Sleep Apnea, Central/diagnosis/genetics",
+      "Child, Preschool",
+      "Diagnosis, Computer-Assisted/methods",
+      "Principal Component Analysis",
+      "Adolescent",
+      "Machine Learning",
+      "Young Adult",
+      "Infant",
+      "Genotype",
+      "Photography",
+      "Case-Control Studies",
+      "Logistic Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Slattery, Susan M",
+        "Wilkinson, James",
+        "Mittal, Angeli",
+        "Zheng, Charlie",
+        "Easton, Nicholas",
+        "Singh, Saumya",
+        "Baker, Joshua J",
+        "Rand, Casey M",
+        "Khaytin, Ilya",
+        "Stewart, Tracey M",
+        "Demeter, David",
+        "Weese-Mayer, Debra E"
+      ],
+      "short_names": [
+        "Slattery SM",
+        "Wilkinson J",
+        "Mittal A",
+        "Zheng C",
+        "Easton N",
+        "Singh S",
+        "Baker JJ",
+        "Rand CM",
+        "Khaytin I",
+        "Stewart TM",
+        "Demeter D",
+        "Weese-Mayer DE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA. SSlattery@luriechildrens.org.",
+        "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA. SSlattery@luriechildrens.org.",
+        "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA.",
+        "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+        "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA.",
+        "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA.",
+        "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA.",
+        "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA.",
+        "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+        "Division of Genetics, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+        "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+        "Stanley Manne Children's Research Institute, Chicago, IL, USA.",
+        "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+        "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+        "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+        "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA.",
+        "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+        "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+        "Stanley Manne Children's Research Institute, Chicago, IL, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Slattery, Susan M",
+        "short_name": "Slattery SM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA. SSlattery@luriechildrens.org.",
+          "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA. SSlattery@luriechildrens.org."
+        ]
+      },
+      {
+        "full_name": "Wilkinson, James",
+        "short_name": "Wilkinson J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Angeli",
+        "short_name": "Mittal A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+          "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Charlie",
+        "short_name": "Zheng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Easton, Nicholas",
+        "short_name": "Easton N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Saumya",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, Joshua J",
+        "short_name": "Baker JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+          "Division of Genetics, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Rand, Casey M",
+        "short_name": "Rand CM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+          "Stanley Manne Children's Research Institute, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Khaytin, Ilya",
+        "short_name": "Khaytin I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+          "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Stewart, Tracey M",
+        "short_name": "Stewart TM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Demeter, David",
+        "short_name": "Demeter D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University McCormick School of Engineering, Evanston, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Weese-Mayer, Debra E",
+        "short_name": "Weese-Mayer DE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Autonomic Medicine, Department of Pediatrics, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA.",
+          "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+          "Stanley Manne Children's Research Institute, Chicago, IL, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pediatric research"
+    ],
+    "journal_abbrev": [
+      "Pediatr Res"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/19 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37550531",
+      "36714960",
+      "36610668",
+      "36484420",
+      "36403185",
+      "36289132",
+      "36105626",
+      "35461687",
+      "34764164",
+      "34481766",
+      "34344442",
+      "33958749",
+      "33848665",
+      "33328054",
+      "33090109",
+      "32958024",
+      "32660452",
+      "31444792",
+      "30617323",
+      "30380201",
+      "29915349",
+      "28661575",
+      "28328118",
+      "26378991",
+      "24835178",
+      "23964806",
+      "21830319",
+      "20208042",
+      "16327002"
+    ],
+    "similar": [
+      "38238566",
+      "38780650",
+      "21830319",
+      "14608649",
+      "16327002",
+      "30518452",
+      "41721744",
+      "22278185",
+      "39447557",
+      "36798979",
+      "40152101",
+      "27918326",
+      "41188450",
+      "24634632",
+      "27673423",
+      "41981969",
+      "26378991",
+      "26122307",
+      "33983112",
+      "32741443",
+      "38001308",
+      "20208042",
+      "29704303",
+      "26418987",
+      "22821709",
+      "30672101",
+      "30999961",
+      "24381123",
+      "37951652",
+      "23597545",
+      "34626313",
+      "16882781",
+      "22674249",
+      "19201717",
+      "35460211",
+      "24484562",
+      "29696799",
+      "24792884",
+      "16054879",
+      "26063465",
+      "19422034",
+      "22052119",
+      "27485184",
+      "33047879",
+      "28992836",
+      "29543228",
+      "38403573",
+      "21465679",
+      "18041756",
+      "34478357",
+      "21730909",
+      "19960523",
+      "32958024",
+      "25581741",
+      "21051998",
+      "16763219",
+      "29286936",
+      "20676341",
+      "23460419",
+      "31950261",
+      "32335870",
+      "15657873",
+      "38403966",
+      "18798833",
+      "29486608",
+      "39883186",
+      "30853048",
+      "25319843",
+      "35209861",
+      "39961018",
+      "23692929",
+      "30786110",
+      "17541758",
+      "26086998",
+      "21286029",
+      "39261201",
+      "26375764",
+      "36541215",
+      "17282973",
+      "21373876",
+      "33524248",
+      "32375736",
+      "25886294",
+      "28633714",
+      "23099221",
+      "20236122",
+      "38171556",
+      "16888290",
+      "23103552",
+      "22102181",
+      "41253684",
+      "36403185",
+      "32654284",
+      "15653965",
+      "29098737",
+      "40114465",
+      "38467313",
+      "22564311",
+      "23460545",
+      "41809564"
+    ],
+    "review": [
+      "38238566",
+      "27918326",
+      "27673423",
+      "20208042",
+      "37951652",
+      "16054879",
+      "19422034",
+      "22052119",
+      "32958024",
+      "32335870",
+      "29486608",
+      "23692929",
+      "23099221"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41390-023-02990-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

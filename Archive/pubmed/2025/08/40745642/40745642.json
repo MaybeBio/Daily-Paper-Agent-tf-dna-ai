@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "40745642",
+    "doi": "10.1186/s12920-025-02194-5",
+    "title": "A lipid metabolism-related gene signature predicts prognosis after tamoxifen treatment in ER + breast cancer and reflects tumor microenvironment heterogeneity through single-cell analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although the clinical outcome of ER + breast cancer patients receiving tamoxifen after surgery is favorable, a proportion of patients experience recurrence or death due to disease progression. METHODS: In this study, by integrating lipid metabolism gene expression and machine learning data, a prognostic model based on gene expression was developed using the TCGA-ER + BRCA dataset (N = 183) and validated with the GSE17705 (N = 298), GSE22219 (N = 134), GSE42568 (N = 70), and GSE58644 (N = 147) datasets. Patients were stratified into high- and low-risk groups based on the median risk score of the signature. Comparative analyses of survival, genomic features, immune infiltration, and drug sensitivity were performed between these groups. RESULTS: Patients in the high-risk group had worse survival outcomes than those in the low-risk group. The five-year overall survival AUC of the model was 0.858, indicating good performance. High-risk patients were characterized by USH2A and KMT2C mutations, genomic amplification, and enriched JAK-STAT pathway and cytokine-cytokine receptor interaction pathways. Resting CD4 + memory T cells, activated mast cells, and myeloid dendritic cells were significantly enriched in the low-risk group, while M0 macrophages were enriched in the high-risk group. Single-cell sequencing analyses also revealed that the model was significantly associated with macrophages and the percentage of proliferating myeloid cells. The signature was also associated with sensitivity to multiple drugs. Cell-cell interaction difference analyses suggested that cancer-related signaling pathways, especially the SIRPalpha/CD47/IL6 pathway, were decreased in high-risk patients, but these samples exhibited increased SPP1 interactions. CONCLUSION: The signature captures lipid metabolic reprogramming and immunosuppression, providing a biomarker for prognosis and precision therapy in tamoxifen-treated ER + breast cancer.",
+    "keywords": [
+      "ER + breast cancer",
+      "Lipid metabolism",
+      "Prognosis",
+      "Tamoxifen"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tamoxifen/therapeutic use/pharmacology",
+      "*Breast Neoplasms/drug therapy/genetics/pathology/metabolism/mortality",
+      "Female",
+      "*Tumor Microenvironment/genetics/drug effects",
+      "Prognosis",
+      "*Receptors, Estrogen/metabolism",
+      "*Single-Cell Analysis",
+      "*Lipid Metabolism/genetics/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Antineoplastic Agents, Hormonal/therapeutic use",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Linxiaoxi",
+        "Qian, Bei",
+        "Peng, Chen",
+        "Liu, Gang",
+        "Shen, Hao"
+      ],
+      "short_names": [
+        "Ma L",
+        "Qian B",
+        "Peng C",
+        "Liu G",
+        "Shen H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery, Department of Oncology, Fudan University Shanghai Cancer CenterandKey Laboratory of Breast Cancer in ShanghaiShanghai Medical College, Fudan University, Shanghai, China.",
+        "Department of Thyroid and Breast Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, China.",
+        "Institute of Biomedical Sciences, Fudan University, Xuhui District, No. 131, Dongan Rd, Shanghai, 200032, China.",
+        "Institute of Biomedical Sciences, Fudan University, Xuhui District, No. 131, Dongan Rd, Shanghai, 200032, China. liugang@fudan.edu.cn.",
+        "Department of Thyroid Breast Surgery, Shanghai East Hospital, School of Medicine, Tongji University, No. 150 Jimo Road, Shanghai, 200120, China. 1976354009@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Linxiaoxi",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Department of Oncology, Fudan University Shanghai Cancer CenterandKey Laboratory of Breast Cancer in ShanghaiShanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Bei",
+        "short_name": "Qian B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Breast Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1277 Jiefang Avenue, Wuhan, 430022, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chen",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, Fudan University, Xuhui District, No. 131, Dongan Rd, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Gang",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Sciences, Fudan University, Xuhui District, No. 131, Dongan Rd, Shanghai, 200032, China. liugang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Hao",
+        "short_name": "Shen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid Breast Surgery, Shanghai East Hospital, School of Medicine, Tongji University, No. 150 Jimo Road, Shanghai, 200120, China. 1976354009@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2025 Jul 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/01 06:27",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39019058",
+      "38455469",
+      "37803002",
+      "37773134",
+      "37696831",
+      "37535729",
+      "36983695",
+      "36982588",
+      "36917758",
+      "36751700",
+      "36566714",
+      "36031601",
+      "35404683",
+      "35020204",
+      "34580034",
+      "34260682",
+      "34240274",
+      "34179825",
+      "33800852",
+      "33732370",
+      "33597522",
+      "32830857",
+      "32444850",
+      "32442275",
+      "32304412",
+      "32289273",
+      "31821370",
+      "30795784",
+      "30514902",
+      "30156427",
+      "30143015",
+      "29755131",
+      "29625048",
+      "29257261",
+      "29249690",
+      "29176653",
+      "29147432",
+      "29141660",
+      "29120751",
+      "28561071",
+      "27557300",
+      "27288499",
+      "26771021",
+      "26607490",
+      "25964209",
+      "25822800",
+      "25605792",
+      "24832791",
+      "23740839",
+      "22455463",
+      "22240105",
+      "21737487",
+      "20697068",
+      "20525257",
+      "19025599",
+      "9828250"
+    ],
+    "similar": [
+      "40745642",
+      "29257261",
+      "40597935",
+      "34406386",
+      "24060333",
+      "40808956",
+      "21707964",
+      "22532584",
+      "32684154",
+      "27018307",
+      "21281480",
+      "25971350",
+      "27702820",
+      "41425595",
+      "32093034",
+      "32843722",
+      "38890248",
+      "29453409",
+      "25756514",
+      "27612429",
+      "25370469",
+      "39558215",
+      "30180877",
+      "39730892",
+      "16737553",
+      "30795773",
+      "32929377",
+      "20615243",
+      "22738860",
+      "29450494",
+      "31675993",
+      "33688372",
+      "24698107",
+      "18928543",
+      "23968733",
+      "33783288",
+      "18498629",
+      "21346144",
+      "40055794",
+      "30537139",
+      "40332226",
+      "24253811",
+      "19238537",
+      "26527319",
+      "22559056",
+      "39524444",
+      "28776283",
+      "24622579",
+      "31504126",
+      "37469520",
+      "21826535",
+      "22821401",
+      "37443749",
+      "24233999",
+      "33262438",
+      "38729448",
+      "22475046",
+      "40438115",
+      "39507529",
+      "41274166",
+      "27722840",
+      "14676837",
+      "38827320",
+      "26183823",
+      "41208987",
+      "18984771",
+      "40936892",
+      "21299862",
+      "30733051",
+      "22623953",
+      "15199112",
+      "40330458",
+      "20005174",
+      "39202452",
+      "20569502",
+      "29128895",
+      "22476979",
+      "12618500",
+      "27056567",
+      "31663114",
+      "30143015",
+      "40155597",
+      "34059009",
+      "21875943",
+      "25885472",
+      "40460484",
+      "29028222",
+      "39145953",
+      "38728370",
+      "32048471",
+      "25284587",
+      "40473720",
+      "18596862",
+      "27926932",
+      "40594370",
+      "25213081",
+      "20697068",
+      "41080607",
+      "41233852",
+      "32791092"
+    ],
+    "review": [
+      "40745642"
+    ],
+    "pmc": [
+      "12312246"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-025-02194-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40745642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD47-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41073487",
+    "doi": "10.1038/s41598-025-19492-8",
+    "title": "Atractylodes macrocephala compounds attenuate pediatric epilepsy neuroinflammation through multitarget regulation of the NF-kappaB pathway."
+  },
+  "content": {
+    "abstract": "This study investigates the multi-target mechanisms of Atractylodes macrocephala (AM) and its main active component, Atractylenolide III (ATR-III), in mitigating central nervous system (CNS) inflammatory responses in pediatric epilepsy via modulation of the nuclear factor kappa-B (NF-kappaB) signaling pathway. Network pharmacology identified AM's active components and their targets, which were integrated with pediatric epilepsy-related targets. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses revealed potential mechanisms, while molecular docking assessed the binding capacity of ATR-III to key targets. In vitro, an LPS-induced microglial inflammation model was used, with CCK-8 assays, Western blot, qPCR, and JC-1 staining evaluating ATR-III's effects on cell viability, NF-kappaB activation, inflammatory cytokine expression, and mitochondrial function. Network pharmacology showed AM's targets overlap with pediatric epilepsy targets, enriched in neuroinflammation pathways. Molecular docking confirmed ATR-III's strong binding to NF-kappaB targets. In vitro, ATR-III significantly suppressed NF-kappaB activation, reduced p65 and IkappaBalpha phosphorylation, decreased inflammatory cytokines, and improved LPS-induced mitochondrial dysfunction by restoring membrane potential and upregulating PGC-1alpha and COX4. This study elucidates AM and ATR-III's mechanisms in reducing CNS inflammation and improving mitochondrial function, offering a theoretical basis for AM's use in pediatric epilepsy and highlighting ATR-III's potential as a natural anti-inflammatory drug.",
+    "keywords": [
+      "ATR-III",
+      "NF-kappaB signaling pathway",
+      "Network pharmacology",
+      "Neuroinflammation",
+      "Pediatric epilepsy"
+    ],
+    "mesh_terms": [
+      "*Atractylodes/chemistry",
+      "*Epilepsy/drug therapy/immunology/pathology",
+      "*Neuroinflammatory Diseases/drug therapy/immunology/pathology",
+      "*Lactones/pharmacology/therapeutic use",
+      "*Sesquiterpenes/pharmacology/therapeutic use",
+      "NF-kappa B/metabolism",
+      "Network Pharmacology",
+      "Signal Transduction/drug effects/immunology",
+      "Microglia/cytology/drug effects/immunology/pathology",
+      "Lipopolysaccharides/immunology",
+      "Disease Models, Animal",
+      "Molecular Docking Simulation",
+      "Anti-Inflammatory Agents/pharmacology/therapeutic use",
+      "Protein Interaction Maps/drug effects/immunology",
+      "Protein Interaction Mapping",
+      "Cell Line",
+      "Humans",
+      "Child",
+      "Animals",
+      "Mice",
+      "Membrane Potential, Mitochondrial/drug effects/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Aiyuan",
+        "Liu, Ran",
+        "Li, Zilong",
+        "Huang, Hailong",
+        "Xiao, Jing",
+        "Lin, Yuanhong",
+        "Wu, Haixia",
+        "Liu, Ping",
+        "Ying, Jing",
+        "Hu, Qingpeng"
+      ],
+      "short_names": [
+        "Cai A",
+        "Liu R",
+        "Li Z",
+        "Huang H",
+        "Xiao J",
+        "Lin Y",
+        "Wu H",
+        "Liu P",
+        "Ying J",
+        "Hu Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, 510410, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China.",
+        "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China. huqingpeng163@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Aiyuan",
+        "short_name": "Cai A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ran",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zilong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hailong",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jing",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yuanhong",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, 510410, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Haixia",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ping",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Jing",
+        "short_name": "Ying J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Qingpeng",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Longhua District People's Hospital, Shenzhen, 518109, Guangdong, China. huqingpeng163@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/11 00:31",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42292848"
+    ],
+    "refs": [
+      "40222690",
+      "39970982",
+      "39955566",
+      "39417505",
+      "39084454",
+      "38838925",
+      "37761028",
+      "37286724",
+      "36648378",
+      "35403332",
+      "35280674",
+      "34765767",
+      "34649213",
+      "34269984",
+      "34261915",
+      "34116287",
+      "31441146",
+      "31426492",
+      "30981186",
+      "26667579",
+      "26423537",
+      "24958167",
+      "21302967",
+      "21130827",
+      "10592173"
+    ],
+    "similar": [
+      "41073487",
+      "38910274",
+      "41005470",
+      "35381310",
+      "41265260",
+      "33991638",
+      "40553825",
+      "38552431",
+      "39245241",
+      "40164657",
+      "41106565",
+      "39219424",
+      "41349705",
+      "36872242",
+      "41213440",
+      "38636801",
+      "40330488",
+      "31426492",
+      "39405611",
+      "24486434",
+      "40915437",
+      "34517275",
+      "29616391",
+      "34485533",
+      "40836407",
+      "40783104",
+      "33639593",
+      "40865347",
+      "39085510",
+      "38527567",
+      "38797312",
+      "33003399",
+      "39041167",
+      "41620965",
+      "33444723",
+      "40174341",
+      "41260074",
+      "28468332",
+      "39810933",
+      "40378509",
+      "41508235",
+      "34107997",
+      "40499803",
+      "37807411",
+      "40449268",
+      "39791155",
+      "33441867",
+      "38640713",
+      "39447411",
+      "41489113",
+      "34364303",
+      "41261295",
+      "40439750",
+      "32505843",
+      "40133026",
+      "39490433",
+      "39218334",
+      "40728671",
+      "35149130",
+      "39201475",
+      "40151124",
+      "39331354",
+      "37741124",
+      "30981186",
+      "39354758",
+      "39617073",
+      "26301513",
+      "39374881",
+      "34613548",
+      "31683684",
+      "41412265",
+      "39922147",
+      "37818572",
+      "29675728",
+      "38837094",
+      "38030026",
+      "39222242",
+      "40013962",
+      "40902363",
+      "31319868",
+      "40133025",
+      "41534756",
+      "40913726",
+      "39701711",
+      "39414157",
+      "39910202",
+      "39969702",
+      "39904423",
+      "25445966",
+      "24021941",
+      "40884941",
+      "38493721",
+      "37100262",
+      "31954258",
+      "38621947",
+      "39547017",
+      "19398040",
+      "40382939",
+      "40858660",
+      "31590042"
+    ],
+    "review": [
+      "41073487",
+      "31319868"
+    ],
+    "pmc": [
+      "12514210"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-19492-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41073487/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3214",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      }
+    ],
+    "text_mined": []
+  }
+}

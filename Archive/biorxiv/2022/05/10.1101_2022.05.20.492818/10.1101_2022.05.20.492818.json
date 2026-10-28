@@ -1,0 +1,172 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.20.492818",
+  "title": "ExplaiNN: interpretable and transparent neural networks for genomics",
+  "doi": "10.1101/2022.05.20.492818",
+  "abstract": "Sequence-based deep learning models, particularly convolutional neural networks (CNNs), have shown superior performance on a wide range of genomic tasks. A key limitation of these models is the lack of interpretability, slowing down their adoption by the genomics community. Current approaches to model interpretation do not readily reveal how a model makes predictions, can be computationally intensive, and depend on the implemented architecture. Here, we introduce ExplaiNN, an adaptation of neural additive models[1] for genomic tasks wherein predictions are computed as a linear combination of multiple independent CNNs, each consisting of a single convolutional filter and fully connected layers. This approach brings together the expressiveness of CNNs with the interpretability of linear models, providing global (cell state level) as well as local (individual sequence level) biological insights into the data. We use ExplaiNN to predict transcription factor (TF) binding and chromatin accessibility states, demonstrating performance levels comparable to state-of-the-art methods, while providing a transparent view of the model’s predictions in a straightforward manner. Applied to de novo motif discovery, ExplaiNN identifies equivalent motifs to those obtained from specialized algorithms across a range of datasets. Finally, we present ExplaiNN as a plug-and-play platform in which pretrained TF binding models and annotated position weight matrices from reference databases can be easily combined. We expect that ExplaiNN will accelerate the adoption of deep learning by biological domain experts in their daily genomic sequence analyses.",
+  "authors": [
+    "Novakovsky G",
+    "Fornes O",
+    "Saraswat M",
+    "Mostafavi S",
+    "Wasserman WW"
+  ],
+  "published_date": "2022-05-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492818",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492818.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR496428",
+    "raw_record": {
+      "id": "PPR496428",
+      "source": "PPR",
+      "doi": "10.1101/2022.05.20.492818",
+      "title": "ExplaiNN: interpretable and transparent neural networks for genomics",
+      "authorString": "Novakovsky G, Fornes O, Saraswat M, Mostafavi S, Wasserman WW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Novakovsky G",
+            "lastName": "Novakovsky",
+            "firstName": "Gherman",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7089-5941"
+            }
+          },
+          {
+            "fullName": "Fornes O",
+            "lastName": "Fornes",
+            "firstName": "Oriol",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5969-3054"
+            }
+          },
+          {
+            "fullName": "Saraswat M",
+            "lastName": "Saraswat",
+            "firstName": "Manu",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1472-8049"
+            }
+          },
+          {
+            "fullName": "Mostafavi S",
+            "lastName": "Mostafavi",
+            "firstName": "Sara",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wasserman WW",
+            "lastName": "Wasserman",
+            "firstName": "Wyeth",
+            "initials": "WW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6098-6412"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6098-6412"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1472-8049"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5969-3054"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7089-5941"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Sequence-based deep learning models, particularly convolutional neural networks (CNNs), have shown superior performance on a wide range of genomic tasks. A key limitation of these models is the lack of interpretability, slowing down their adoption by the genomics community. Current approaches to model interpretation do not readily reveal how a model makes predictions, can be computationally intensive, and depend on the implemented architecture. Here, we introduce ExplaiNN, an adaptation of neural additive models[1] for genomic tasks wherein predictions are computed as a linear combination of multiple independent CNNs, each consisting of a single convolutional filter and fully connected layers. This approach brings together the expressiveness of CNNs with the interpretability of linear models, providing global (cell state level) as well as local (individual sequence level) biological insights into the data. We use ExplaiNN to predict transcription factor (TF) binding and chromatin accessibility states, demonstrating performance levels comparable to state-of-the-art methods, while providing a transparent view of the model’s predictions in a straightforward manner. Applied to  de novo motif discovery, ExplaiNN identifies equivalent motifs to those obtained from specialized algorithms across a range of datasets. Finally, we present ExplaiNN as a plug-and-play platform in which pretrained TF binding models and annotated position weight matrices from reference databases can be easily combined. We expect that ExplaiNN will accelerate the adoption of deep learning by biological domain experts in their daily genomic sequence analyses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/25/2022.05.20.492818.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.20.492818"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37370113",
+            "reference": "Genome biology. 2023 Jun;24(1):154",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-24",
+      "firstPublicationDate": "2022-05-22",
+      "firstIndexDate": "2022-05-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

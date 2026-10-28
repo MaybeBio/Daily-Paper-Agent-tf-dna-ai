@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "42092950",
+    "doi": "10.1186/s13046-026-03712-8",
+    "title": "Klf4-Tymp axis promotes inflammation-driven early tumorigenesis by enhancing kras mutation-induced acinar-to-ductal metaplasia through Pi3k/Akt and Mek/Erk pathways."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acinar-to-ductal metaplasia (ADM) is a pivotal step in pancreatic tumorigenesis, reversible in normal contexts but progressing to PanIN and pancreatic cancer (PC) in the presence of Kras mutation and inflammation. Thus, delineating exocrine cell heterogeneity and identifying regulators of ADM are essential for understanding pancreatic tumorigenesis. METHODS: We collected single-cell RNA sequencing (scRNA-seq) data of 146 human pancreatic samples, followed by comprehensive exploration of dynamic change and heterogeneity of ADM via machine learning algorithms. Multi-omics analysis integrating ATAC-seq and RNA-seq highlights the association of Klf4-Tymp axis with ADM. A dual-luciferase reporter assay was performed to evaluate the transcriptional activation of the Tymp promoter by Klf4. AAV-mediated gene silencing was performed in vivo to elucidate the roles and underlying mechanisms of the Klf4/Tymp axis during the ADM process in Pdx1-Cre; Kras(G12D/+) (KC) mice. In-vitro mouse pancreatic organoid model combined with amino acid mutation was established to investigate the role of Tymp in regulating ADM and its underlying mechanisms. RESULTS: scRNA-seq revealed one S100A4(+) acinar subpopulation and six ductal subpopulations (GPX1(+), CD24(+), TFF3(+), MT-ATP8(+), S100A9(+), and HMGB2(+)) associated with poor prognosis in PC. Integrated pseudotime analysis of pancreatic acinar and ductal cells highlighted the potential involvement of TYMP in regulating the pathological process of ADM. Klf4 was identified as an upstream transcription factor regulating the Tymp gene. ATAC-seq revealed increased chromatin accessibility at the Klf4 and Tymp locus under inflammatory injury or oncogenic Kras conditions. Dual-luciferase reporter assays demonstrated that the transcription factor Klf4 binds to the promoter region of Tymp, thereby promoting its transcriptional expression. Pancreatic overexpression of Klf4 in mice upregulated Tymp expression and facilitated inflammation-induced initiation and progression of ADM. Exogenous supplementation with Tipiracil Hydrochloride suppressed the effects induced by Klf4. Knockdown of the Tymp gene suppressed inflammation-driven initiation and progression of ADM in KC mice through Pi3k/Akt and Mek/Erk pathways. CONCLUSIONS: The Klf4-Tymp axis promotes inflammation-associated early pancreatic tumorigenesis by enhancing KRAS mutation-induced ADM through activation of the Pi3k/Akt and Mek/Erk signaling pathways. These findings provide new insights into the molecular mechanisms linking inflammatory injury to ADM and early pancreatic tumorigenesis.",
+    "keywords": [
+      "Acinar-to-Ductal Metaplasia",
+      "Inflammation",
+      "KLF4",
+      "Pancreatic Tumorigenesis",
+      "ScRNA-seq",
+      "TYMP"
+    ],
+    "mesh_terms": [
+      "Kruppel-Like Factor 4",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Kruppel-Like Transcription Factors/metabolism/genetics",
+      "*Proto-Oncogene Proteins p21(ras)/genetics/metabolism",
+      "Metaplasia/pathology",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Mutation",
+      "*Inflammation/pathology/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "*Pancreatic Neoplasms/pathology/genetics/metabolism",
+      "MAP Kinase Signaling System",
+      "Acinar Cells/metabolism/pathology",
+      "Carcinogenesis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Qihang",
+        "Chen, Junhong",
+        "Luo, Peng",
+        "Liu, Kai",
+        "Guo, Fangyue",
+        "Xu, Yao",
+        "Tong, Mengying",
+        "Xiang, Hong",
+        "Shang, Dong"
+      ],
+      "short_names": [
+        "Yuan Q",
+        "Chen J",
+        "Luo P",
+        "Liu K",
+        "Guo F",
+        "Xu Y",
+        "Tong M",
+        "Xiang H",
+        "Shang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Pancreas and Biliary Center, Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, First Hospital of Jilin University, Changchun, Jilin, China.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, First Hospital of Jilin University, Changchun, Jilin, China.",
+        "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Ultrasound, First Affiliated Hospital of Dalian Medical University, Dalian, China. mengyingtong@dmu.edu.cn.",
+        "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. xianghong@dmu.edu.cn.",
+        "Pancreas and Biliary Center, Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. shangdongdalian@163.com.",
+        "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. shangdongdalian@163.com.",
+        "Institute (College) of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China. shangdongdalian@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Qihang",
+        "short_name": "Yuan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Pancreas and Biliary Center, Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junhong",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, First Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kai",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, First Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Fangyue",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yao",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Mengying",
+        "short_name": "Tong M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, First Affiliated Hospital of Dalian Medical University, Dalian, China. mengyingtong@dmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xiang, Hong",
+        "short_name": "Xiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. xianghong@dmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shang, Dong",
+        "short_name": "Shang D",
+        "identifiers": [],
+        "affiliations": [
+          "Pancreas and Biliary Center, Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. shangdongdalian@163.com.",
+          "Clinical Laboratory of Integrative Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. shangdongdalian@163.com.",
+          "Institute (College) of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China. shangdongdalian@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2026 May 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/07 06:35",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40691317",
+      "40666516",
+      "40609943",
+      "40303404",
+      "40269162",
+      "40156071",
+      "40092486",
+      "39995670",
+      "39971907",
+      "38969489",
+      "38743932",
+      "38001687",
+      "37425649",
+      "37373094",
+      "37239940",
+      "36959420",
+      "36237259",
+      "36220359",
+      "35193822",
+      "34922945",
+      "34768868",
+      "34695382",
+      "34426439",
+      "34099862",
+      "33754072",
+      "33028669",
+      "32908137",
+      "32641778",
+      "32070876",
+      "32010677",
+      "30177826",
+      "29604437",
+      "29248441",
+      "29108898",
+      "28090569",
+      "26977883",
+      "24132918",
+      "23453624",
+      "22665051",
+      "19555658",
+      "7532308"
+    ],
+    "similar": [
+      "42092950",
+      "40156071",
+      "29248441",
+      "22665051",
+      "33388318",
+      "34311032",
+      "30705405",
+      "38955401",
+      "34922945",
+      "25127677",
+      "34547282",
+      "39178842",
+      "38731942",
+      "40812683",
+      "27215660",
+      "31330317",
+      "31352001",
+      "40890537",
+      "25623042",
+      "34695382",
+      "22871572",
+      "38729450",
+      "41850539",
+      "38154529",
+      "38247878",
+      "28461470",
+      "41419303",
+      "36180487",
+      "25596178",
+      "28639695",
+      "23999170",
+      "25683115",
+      "25573338",
+      "30510993",
+      "42480541",
+      "25311989",
+      "33864001",
+      "42108282",
+      "40120793",
+      "31048544",
+      "41453639",
+      "39342278",
+      "37543088",
+      "27364947",
+      "28057438",
+      "23891977",
+      "38924548",
+      "38124228",
+      "32571902",
+      "37373094",
+      "41429223",
+      "33602788",
+      "26977883",
+      "22359542",
+      "39547411",
+      "38903082",
+      "31300513",
+      "30378063",
+      "38037549",
+      "34303658",
+      "39553977",
+      "31923844",
+      "37270580",
+      "27610015",
+      "27633013",
+      "22751123",
+      "25601637",
+      "36970723",
+      "26408346",
+      "34099862",
+      "20807812",
+      "32717220",
+      "39111635",
+      "33127746",
+      "22090358",
+      "29363536",
+      "41616822",
+      "29367759",
+      "39005053",
+      "37298264",
+      "31843590",
+      "26992918",
+      "39443726",
+      "40889735",
+      "30838710",
+      "31310834",
+      "27659014",
+      "32709695",
+      "41530855",
+      "27646934",
+      "31490946",
+      "17353198",
+      "41456631",
+      "30041673",
+      "28752115",
+      "41391757",
+      "42160482",
+      "19208745",
+      "26279302",
+      "41556816"
+    ],
+    "review": [
+      "42092950",
+      "37373094",
+      "27610015",
+      "37298264"
+    ],
+    "pmc": [
+      "13474847"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-026-03712-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42092950/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41863075",
+  "title": "Readout of intrinsic and induced DNA shape by homeodomain transcription factor complexes.",
+  "authors": "Jiang, Yibei; Shewchuk, Alexandra M; Chiu, Tsu-Pei; Li, Jinsen; Kribelbauer-Swietek, Judith F; Gompel, Nicolas; Rohs, Remo",
+  "journal": "Biophysical journal",
+  "published_date": "2026-03-21",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过MD模拟和DeepPBS深度学习，系统解析同源异型域TF复合物对DNA内在与诱导形状的读取机制，并整合AF3与物理模拟构建多尺度框架，高度契合TF-DNA互作机制建模课题。",
+  "abstract": "Homeodomain transcription factors (TFs) recognize their DNA targets through both sequence-specific base contacts and readout of local DNA shape. Although intrinsic DNA structure is encoded by nucleotide sequence, it also undergoes protein-induced structural deformation upon binding. Yet, the interplay between intrinsic and protein-induced DNA shape remains unclear. Here, we dissect how these two readout modes determine binding specificity in a trimeric complex composed of the Drosophila Hox TF Sex combs reduced and its cofactors, Homothorax and Extradenticle. Guided by SELEX-seq data, we performed molecular dynamics simulations of this complex bound to sequences of varying binding affinities. We find that minor groove width reflects intrinsic DNA structure, whereas minor groove width fluctuations capture protein-induced stabilization and reshaping of the DNA. Within the trimeric complex, Homothorax reduces conformational fluctuations in an orientation- and sequence-dependent manner, with charged residues in its N-terminal arm playing key roles in DNA shape readout. This demonstrates that recognition involves a context-dependent balance between conformational selection and induced fit. We extend this analysis to two other homeodomain TFs, Distal-less and Engrailed, revealing that even closely related proteins produce distinct DNA shape signatures depending on sequence context. To translate these insights to novel sequences or mutant proteins, we evaluate whether AlphaFold 3 (AF3) can capture mutation-sensitive DNA shape readout. Although AF3 accurately reproduces wild-type structures, it struggles to predict how mutations or conformational dynamics alter DNA shape. To bridge this gap, we developed a hybrid pipeline integrating AlphaFold-based homology modeling, molecular dynamics simulations, and DeepPBS, a deep learning method for binding specificity prediction. This multiscale framework successfully captures the active modulation of DNA structure missed by AF3 alone, providing new insights into TF binding specificity and creating a roadmap for integrating deep learning and physics-based methods to study molecular mechanisms.",
+  "abstract_zh": "同源域转录因子（TFs）通过序列特异性碱基接触和局部DNA形状的读取来识别其DNA靶标。尽管内在DNA结构由核苷酸序列编码，但在结合时也会发生蛋白质诱导的结构变形。然而，内在与蛋白质诱导的DNA形状之间的相互作用仍不清楚。在此，我们剖析了这两种读取模式如何在一个由果蝇Hox转录因子Sex combs reduced及其辅因子Homothorax和Extradenticle组成的三聚体复合物中决定结合特异性。以SELEX-seq数据为指导，我们对结合不同亲和力序列的该复合物进行了分子动力学模拟。我们发现，小沟宽度反映内在DNA结构，而小沟宽度波动则捕捉蛋白质诱导的DNA稳定化和重塑。在三聚体复合物内，Homothorax以取向和序列依赖的方式减少构象波动，其N端臂中的带电残基在DNA形状读取中发挥关键作用。这表明识别涉及构象选择与诱导拟合之间的情境依赖性平衡。我们将此分析扩展到另外两个同源域转录因子Distal-less和Engrailed，揭示即使密切相关的蛋白质也会根据序列情境产生不同的DNA形状特征。为将这些见解转化为新序列或突变蛋白，我们评估了AlphaFold 3（AF3）是否能捕捉突变敏感的DNA形状读取。尽管AF3准确重现野生型结构，但它在预测突变或构象动态如何改变DNA形状方面存在困难。为弥合这一差距，我们开发了一个混合流程，整合了基于AlphaFold的同源建模、分子动力学模拟和DeepPBS（一种用于结合特异性预测的深度学习方法）。这一多尺度框架成功捕捉了AF3单独无法识别的DNA结构主动调节，为TF结合特异性提供了新见解，并创建了整合深度学习和基于物理方法研究分子机制的路线图。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41863075/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41863075/",
+  "paper_page_path": "papers/pubmed/41863075/index.html"
+}

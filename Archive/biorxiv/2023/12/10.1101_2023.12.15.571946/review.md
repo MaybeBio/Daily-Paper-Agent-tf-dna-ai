@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by presented evidence. Not assessed: editorial style, formatting, or literature completeness beyond cited references.
+- **Shared manuscript claim summary** The authors propose that the CDCA7 cysteine-rich domain (CRD) forms a novel zinc-binding structure that recognizes a CpG dyad within a non-B DNA structure formed by two sequence motifs. They report that CDCA7, but not ICF3 mutants, binds this non-B DNA with strand-specific CpG hemi-methylation, localizes to constitutive heterochromatin foci at S phase, and that exogenous hemi-methylated non-B DNA can inhibit foci formation and induce hypomethylation of centromeric satellite DNA. The authors propose a mechanism whereby CDCA7 recognizes non-B DNA during replication to direct DNA methylation specificity.
+- **Visible evidence base** Results sections describing cellular localization (Fig. 1), SELEX and EMSA binding data (Figs. 2, S3–S6), ITC affinity measurements (Figs. 6, S7, S8), X-ray crystal structures (Figs. 3, 4, S9–S11, Table S1), and bioinformatic genomic distribution analyses (Fig. 5, S12, Tables S2–S4). Methods sections for all experimental procedures are present.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided in the submitted text. Specifically, Figs. S1–S12, Tables S1–S5, and the associated legends are not available for assessment. The full experimental details for SELEX counter-selection, EMSA quantification, and bioinformatic motif search parameters are only partially described. No raw data or statistical analysis details are provided for the cellular localization quantifications.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially important advance in understanding how CDCA7, a protein mutated in ICF syndrome, recognizes specific DNA structures to direct DNA methylation. The combination of structural biology, biochemical binding assays, cellular localization studies, and genomic bioinformatics is comprehensive and generally well-executed. The identification of a novel zinc-binding domain architecture and its specificity for a non-B DNA structure containing a CpG dyad is novel and mechanistically insightful. However, several technical concerns and gaps in the presented evidence, particularly regarding the in vivo relevance of the proposed mechanism and the interpretation of the cellular competition experiments, need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA methylation and epigenetics, particularly those studying ICF syndrome and related disorders, will find this work directly relevant. The structural biology community interested in novel DNA-binding domain architectures and protein-DNA recognition mechanisms will also be interested. Additionally, investigators studying non-B DNA structures and their biological functions, as well as those working on centromere biology and satellite DNA regulation, will find the findings valuable.
+- **Major strengths** The study combines multiple complementary approaches, including X-ray crystallography, quantitative binding assays, cellular imaging, and genomic analysis, to build a coherent model. The structural determination of the CDCA7 CRD reveals a unique zinc-binding topology not previously described, which is a significant contribution. The demonstration that ICF3 mutations disrupt DNA binding provides a clear genotype-phenotype correlation. The identification of strand-specific hemi-methylation preferences adds a layer of mechanistic sophistication. The bioinformatic analysis showing centromeric enrichment of motif 2 provides a plausible genomic context for the proposed function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance of proposed mechanism
+  - **Claim pointer** The authors claim that "CDCA7, but not ICF mutants, preferentially binds the non-B DNA with strand-specific CpG hemi-methylation" and that this binding "provides a mechanism by which CDCA7 controls the specificity of DNA methylation."
+  - **Evidence pointer** Results sections "The CDCA7 CRD binds a specific non-B DNA" and "Strand-specific CpG methylation in the non-B DNA has opposite effects on CDCA7 binding"; Figs. 2, 6; Discussion section.
+  - **Concern** The central claim that CDCA7 recognizes non-B DNA in vivo to direct methylation specificity is not directly tested. All binding data are from in vitro experiments with purified recombinant protein and synthetic oligonucleotides. The cellular experiments (Fig. 7) use exogenous non-B DNA probes transfected into cells, which is an artificial system. No experiments demonstrate that endogenous CDCA7 binds to non-B DNA structures at centromeres in cells, nor that disruption of this binding (beyond the ICF mutants) affects methylation at endogenous loci. The proposed mechanism remains speculative without direct in vivo evidence.
+  - **Why it matters** The manuscript's primary conclusion is that CDCA7 recognizes non-B DNA to direct methylation. Without in vivo validation, the physiological relevance of the in vitro findings is uncertain. The field would benefit from knowing whether the proposed mechanism operates in the native chromatin context.
+  - **Resolution test** Provide evidence that endogenous CDCA7 binds to non-B DNA at centromeric regions in cells, for example through chromatin immunoprecipitation (ChIP) assays targeting the non-B structure or through proximity ligation assays. Alternatively, demonstrate that mutations in the CDCA7 CRD that abolish non-B DNA binding (but not ICF mutations per se) lead to methylation defects at endogenous satellite repeats in a cellular or animal model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of cellular competition experiments
+  - **Claim pointer** The authors claim that "Hemi-F, but not Hemi-R, inhibits CDCA7 foci formation and induces hypomethylation of centromeric satellite DNA" (Fig. 7).
+  - **Evidence pointer** Results section "Hemi-F, but not Hemi-R, inhibits CDCA7 foci formation and induces hypomethylation of centromeric satellite DNA"; Fig. 7.
+  - **Concern** The competition experiments with exogenous non-B DNA probes are difficult to interpret. The authors do not demonstrate that the transfected probes are in the nucleus, that they form the predicted non-B structure in cells, or that they specifically compete with endogenous CDCA7 binding sites. The observed inhibition of foci formation could be due to non-specific effects, such as cellular stress from transfection or sequestration of other factors. Additionally, the hypomethylation observed after repeated transfections is modest and the mechanism by which exogenous DNA causes this effect is unclear.
+  - **Why it matters** These experiments are presented as key support for the functional relevance of the non-B DNA binding. If the interpretation is flawed, the connection between in vitro binding and in vivo function is weakened.
+  - **Resolution test** Demonstrate nuclear localization of the transfected probes, verify non-B structure formation in cells (e.g., through structure-specific probes or nuclease sensitivity), and include appropriate controls such as scrambled or structurally altered probes. Show that the effect on methylation is specific to the CDCA7 pathway, for example by testing in Cdca7 knockout cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis for hemi-methylation specificity
+  - **Claim pointer** The authors state that "CDCA7, but not ICF mutants, preferentially binds the non-B DNA with strand-specific CpG hemi-methylation" and describe structural features supporting this preference.
+  - **Evidence pointer** Results sections "Structural investigations" and "Strand-specific CpG methylation in the non-B DNA has opposite effects on CDCA7 binding"; Figs. 3, 4, 6.
+  - **Concern** The structural basis for the differential binding to hemi-methylated versus unmethylated or fully methylated DNA is not fully explained. The authors show that methylation on one strand (Hemi-F) enhances binding while methylation on the other strand (Hemi-R) abolishes binding, but the structural rationale for this asymmetry is not clearly articulated. The crystal structure with hemi-methylated DNA is mentioned but not described in detail in the text provided.
+  - **Why it matters** Understanding the structural mechanism of hemi-methylation specificity is important for validating the proposed model and for understanding how CDCA7 might distinguish between different methylation states in cells.
+  - **Resolution test** Provide a more detailed structural comparison between the complexes with unmethylated, Hemi-F, and Hemi-R DNA, highlighting the specific interactions that account for the differential binding. If a structure with Hemi-R is not available, provide modeling or mutagenesis data that explain the lack of binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors propose that "CDCA7 recruits HELLS and the DNA methylation machinery to centromeric regions by recognizing the non-B DNA formed during DNA replication."
+  - **Evidence pointer** Discussion section; Fig. 5.
+  - **Concern** The bioinformatic analysis shows motif 2 enrichment at centromeres, but the functional significance of this enrichment is not directly tested. The authors do not demonstrate that CDCA7 binding to these motifs is required for methylation of centromeric satellites, nor do they address how the proposed mechanism would work for the many other genomic regions where motif 1 is distributed throughout the genome. The specificity for centromeric regions is not fully explained.
+  - **Why it matters** The proposed mechanism should explain why CDCA7 specifically affects methylation at centromeric/pericentromeric regions rather than genome-wide. Without addressing this specificity, the model is incomplete.
+  - **Resolution test** Provide evidence that CDCA7 binding to motif 2-containing regions is necessary for methylation at those loci, for example through targeted disruption of motif 2 sequences or through genome-wide methylation analysis in cells expressing CDCA7 mutants that cannot bind non-B DNA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Quantification of cellular localization data
+  - **Affected element** Fig. 1B, 1C, 7A
+  - **Evidence pointer** Results section "Wild-type CDCA7, but not ICF3 mutants, is concentrated in constitutive heterochromatin foci at S phase"; Fig. 1, 7.
+  - **Issue** The quantification of cells showing pattern A versus pattern B is described in text but no statistical analysis or error bars are provided. It is unclear how many independent experiments were performed and whether the differences are statistically significant.
+  - **Required correction** Provide quantitative data with appropriate statistical analysis (e.g., mean ± SD from at least three independent experiments) and state the number of cells counted per condition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** SELEX experimental details
+  - **Affected element** Methods section "SELEX"
+  - **Evidence pointer** Methods section; Fig. S3B.
+  - **Issue** The SELEX procedure is described briefly. The number of selection rounds, the concentration of protein used, the stringency of washing, and the criteria for identifying enriched sequences are not fully detailed. The counter-selection step using the R285H mutant is mentioned but not described in sufficient detail.
+  - **Required correction** Provide a more detailed description of the SELEX procedure, including the number of rounds, the amount of protein and DNA used, the washing conditions, and how the final enriched sequences were identified and validated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis of ITC data
+  - **Affected element** Fig. 6B, 6C; Fig. S7, S8
+  - **Evidence pointer** Results section "Strand-specific CpG methylation in the non-B DNA has opposite effects on CDCA7 binding"; Methods section "ITC".
+  - **Issue** The ITC data are presented as representative experiments. It is unclear how many independent replicates were performed and whether the reported Kd values are averages with associated errors.
+  - **Required correction** State the number of independent ITC experiments performed and report Kd values as mean ± SD or SEM.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Bioinformatic analysis parameters
+  - **Affected element** Methods section "Bioinformatics analysis"; Fig. 5.
+  - **Evidence pointer** Methods section; Fig. 5.
+  - **Issue** The parameters for the motif search (e.g., allowed mismatches, search strand, background model) are not specified. The definition of "enrichment" and the statistical significance of the observed peaks are not described.
+  - **Required correction** Provide the exact search parameters, the method for determining statistical significance of enrichment, and the background model used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Figs. 1, 2, 4, 6; text.
+  - **Issue** The mouse and human CDCA7 mutants are referred to with different numbering (e.g., R285H in mouse vs R274H in human). While this is explained in the text, it may cause confusion for readers. Additionally, the term "non-B DNA" is used broadly; the specific structure formed by the two motifs is not clearly defined.
+  - **Required correction** Consider using a consistent nomenclature for the mutants (e.g., referring to the human numbering throughout) or clearly stating the correspondence in a table. Clarify the specific non-B DNA structure (e.g., a stem-loop or cruciform) that is proposed to form.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section.
+  - **Issue** The discussion does not address alternative explanations for the observed phenomena, such as the possibility that CDCA7 recognizes the non-B DNA structure through an indirect mechanism or that other proteins are involved in the methylation specificity.
+  - **Required correction** Add a brief discussion of alternative models and why the proposed mechanism is favored.
+
+## Risk / unsupported claims
+- The claim that CDCA7 binding to non-B DNA is the mechanism by which it directs methylation specificity at centromeric regions is not directly supported by in vivo evidence. The cellular experiments with exogenous probes are suggestive but not conclusive.
+- The claim that the identified ICF3 mutations disrupt binding by specific mechanisms (disrupting Zn2+ coordination, guanine interaction, and phosphate interaction) is inferred from the structural data but not directly tested for each mutant.
+- The statement that "the formation of such foci can be inhibited by exogenous hemi-methylated non-B DNA bound by the CRD" implies a competitive mechanism that is not directly demonstrated.
+- The generalizability of the proposed mechanism to other genomic regions and to the mouse genome is not established. The authors note that motif distribution in the mouse genome remains to be determined, which limits the strength of the cross-species conclusions.
+- The claim that the CDCA7 CRD represents a "unique" DNA-binding domain is supported by structural comparisons, but the extent of novelty relative to all known DNA-binding domains cannot be fully assessed without a comprehensive structural homology search, which is not presented.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39501081",
+  "title": "Three-dimensional localization and tracking of chromosomal loci throughout the Escherichia coli cell cycle.",
+  "authors": "Karempudi, Praneeth; Gras, Konrad; Amselem, Elias; Zikrin, Spartak; Schirman, Dvir; Elf, Johan",
+  "journal": "Communications biology",
+  "published_date": "2024-11-06",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习实现活体大肠杆菌中染色体位点的三维超分辨定位与追踪，虽涉及TF-DNA结合位点标记，但核心是染色体动态定位而非TF-DNA互作机制建模，方法可迁移至TF-DNA研究。",
+  "abstract": "The intracellular position of genes may impact their expression, but it has not been possible to accurately measure the 3D position of chromosomal loci. In 2D, loci can be tracked using arrays of DNA-binding sites for transcription factors (TFs) fused with fluorescent proteins. However, the same 2D data can result from different 3D trajectories. Here, we have developed a deep learning method for super-resolved astigmatism-based 3D localization of chromosomal loci in live E. coli cells which enables a precision better than 61 nm at a signal-to-background ratio of ~4 on a heterogeneous cell background. Determining the spatial localization of chromosomal loci, we find that some loci are at the periphery of the nucleoid for large parts of the cell cycle. Analyses of individual trajectories reveal that these loci are subdiffusive both longitudinally (x) and radially (r), but that individual loci explore the full radial width on a minute time scale.",
+  "abstract_zh": "基因的细胞内位置可能影响其表达，但此前无法精确测量染色体位点的三维位置。在二维空间中，位点可通过转录因子（TFs）与荧光蛋白融合的DNA结合位点阵列进行追踪。然而，相同的二维数据可能源自不同的三维轨迹。在此，我们开发了一种基于散光效应的超分辨三维定位深度学习方法，用于活体大肠杆菌细胞中染色体位点的定位，该方法在异质细胞背景下，于信号与背景比约为4时，实现了优于61纳米的精度。通过确定染色体位点的空间定位，我们发现某些位点在细胞周期的大部分时间内位于拟核外围。对单个轨迹的分析表明，这些位点在纵向（x）和径向（r）上均表现出亚扩散行为，但单个位点能在分钟时间尺度内探索整个径向宽度。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39501081/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39501081/",
+  "paper_page_path": "papers/pubmed/39501081/index.html"
+}

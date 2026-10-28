@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.22.445213",
+  "title": "Fast processing of environmental DNA metabarcoding sequence data using convolutional neural networks",
+  "authors": "Benjamin Flück; Laëtitia Mathon; Stéphanie Manel; Alice Valentini; Tony Dejean; Camille Albouy; David Mouillot; Wilfried Thuiller; Jérôme Murienne; Sébastien Brosse; Loïc Pellissier",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-23",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用CNN处理环境DNA宏条形码序列进行物种分类，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "1 Abstract The intensification of anthropogenic pressures have increased consequences on biodiversity and ultimately on the functioning of ecosystems. To monitor and better understand biodiversity responses to environmental changes using standardized and reproducible methods, novel high-throughput DNA sequencing is becoming a major tool. Indeed, organisms shed DNA traces in their environment and this “environmental DNA” (eDNA) can be collected and sequenced using eDNA metabarcoding. The processing of large volumes of eDNA metabarcoding data remains challenging, especially its transformation to relevant taxonomic lists that can be interpreted by experts. Speed and accuracy are two major bottlenecks in this critical step. Here, we investigate whether convolutional neural networks (CNN) can optimize the processing of short eDNA sequences. We tested whether the speed and accuracy of a CNN are comparable to that of the frequently used OBITools bioinformatic pipeline. We applied the methodology on a massive eDNA dataset collected in Tropical South America (French Guiana), where freshwater fishes were targeted using a small region (60pb) of the 12S ribosomal RNA mitochondrial gene. We found that the taxonomic assignments from the CNN were comparable to those of OBITools, with high correlation levels and a similar match to the regional fish fauna. The CNN allowed the processing of raw fastq files at a rate of approximately 1 million sequences per minute which was 150 times faster than with OBITools. Once trained, the application of CNN to new eDNA metabarcoding data can be automated, which promises fast and easy deployment on the cloud for future eDNA analyses.",
+  "abstract_zh": "1 摘要 人为压力的加剧对生物多样性及生态系统的功能产生了日益严重的影响。为了采用标准化和可重复的方法监测并更好地理解生物多样性对环境变化的响应，新型高通量DNA测序正成为一种重要工具。实际上，生物体会在其环境中留下DNA痕迹，这种“环境DNA”（eDNA）可以通过eDNA宏条形码技术进行收集和测序。处理大量的eDNA宏条形码数据仍然具有挑战性，尤其是将其转化为专家可解读的相关分类列表。速度和准确性是这一关键步骤中的两大瓶颈。在此，我们研究了卷积神经网络（CNN）是否能优化短eDNA序列的处理过程。我们测试了CNN的速度和准确性是否与常用的OBITools生物信息学流程相当。我们将该方法应用于从南美洲热带地区（法属圭亚那）采集的大规模eDNA数据集，其中针对淡水鱼类使用了12S核糖体RNA线粒体基因的一个小区域（60bp）。我们发现，CNN的分类分配结果与OBITools相当，具有较高的相关性水平，并且与区域鱼类区系的匹配度相似。CNN能够以每分钟约100万条序列的速度处理原始fastq文件，比OBITools快150倍。一旦训练完成，CNN对新eDNA宏条形码数据的应用可以实现自动化，这有望在未来eDNA分析中实现快速且简便的云端部署。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.22.445213",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.22.445213",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.22.445213/index.html"
+}

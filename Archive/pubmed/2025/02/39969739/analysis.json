@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39969739",
+  "title": "Computational exploration in search for novel natural product-derived EZH2 inhibitors for advancing anti-cancer therapy.",
+  "authors": "Shyamal, Sagar Singh",
+  "journal": "Molecular diversity",
+  "published_date": "2025-02-19",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文为EZH2蛋白（非DNA互作体系）的天然产物抑制剂虚拟筛选，涉及分子对接与MD，但对象与蛋白质-DNA互作无关，方法亦不针对TF-DNA结合建模。",
+  "abstract": "Epigenetic regulation intricately governs cellular mechanisms, including proliferation, death, differentiation, and cell cycle orchestration. One such target, Enhancer of zeste homolog 2 (EZH2), is essential for epigenetic regulation. EZH2 trimethylates histone H3 lys27 (H3K27me3), inhibiting target gene transcription and promoting chromatin condensation, thereby initiating tumorigenesis, thus a potentially plausible target to disrupt cancer progression. In this virtual screening study, we utilized two large, open-source natural product libraries, NPASS and LOTUS, to search for potential natural product scaffolds capable of EZH2 inhibition. The merged library was filtered through increasingly rigorous criteria at each stage, including Medchem-based rule filters, 2D Tanimoto similarity, sequential rounds of docking, rescoring via ML-based functions, and binding pose visualization, funneling down to the most promising candidates for further pharmacokinetics and toxicological profiles. The best hits were analyzed for their binding stability through molecular dynamics simulation and their binding free energy estimations. Exploratory chemical analysis was conducted to understand the similarity of hits with known EZH2 chemical space. This comprehensive workflow identified one potential inhibitor, LTS0131784, which exhibited favorable pharmacokinetic toxicity profiling with binding stability and free energy better than the FDA-approved EZH2 inhibitor, Tazemetostat. Furthermore, the plausible binding mechanism was also elucidated by analyzing the per residue-free decomposition of the simulated trajectories, which indicated the involvement of the LTS0131784 with the key residues TYR:111, TRP:521, CYS:560, ASN:585, and SER:561.",
+  "abstract_zh": "表观遗传调控精细地控制着细胞机制，包括增殖、死亡、分化及细胞周期调控。其中一个靶标，zeste homolog 2增强子（EZH2），对表观遗传调控至关重要。EZH2三甲基化组蛋白H3赖氨酸27（H3K27me3），抑制靶基因转录并促进染色质凝聚，从而启动肿瘤发生，因此是干扰癌症进展的潜在可行靶点。在本虚拟筛选研究中，我们利用两个大型开源天然产物库NPASS和LOTUS，寻找能够抑制EZH2的潜在天然产物骨架。合并后的库在每一阶段通过日益严格的标准进行过滤，包括基于Medchem的规则过滤器、2D Tanimoto相似性、连续多轮对接、基于机器学习（ML）的重新评分以及结合姿态可视化，逐步筛选出最有希望的候选物，并进一步评估其药代动力学和毒理学特征。最佳命中物通过分子动力学模拟分析其结合稳定性，并估算其结合自由能。进行了探索性化学分析，以了解命中物与已知EZH2化学空间的相似性。这一综合工作流程识别出一个潜在抑制剂LTS0131784，其表现出良好的药代动力学毒性特征，且结合稳定性和自由能优于FDA批准的EZH2抑制剂Tazemetostat。此外，通过分析模拟轨迹的残基自由能分解，阐明了可能的结合机制，表明LTS0131784与关键残基TYR:111、TRP:521、CYS:560、ASN:585和SER:561的相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39969739/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39969739/",
+  "paper_page_path": "papers/pubmed/39969739/index.html"
+}

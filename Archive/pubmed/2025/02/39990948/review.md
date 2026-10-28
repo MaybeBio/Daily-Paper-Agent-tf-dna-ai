@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to the evidence presented, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations (over 100 μs total) and enhanced sampling to model the full-length FXR–RXR heterodimer bound to DNA. They report that the complex is conformationally dynamic, that the FXR hinge is more flexible than the RXR hinge, that the FXR hinge mediates interdomain communication without direct LBD–DBD contact, and that a positively charged "KR patch" in the FXR hinge interacts with DNA. Mutagenesis of the KR patch did not significantly alter transcriptional activity in luciferase assays.
+- **Visible evidence base** Simulation trajectories (10–15 μs Anton 2 runs, 500 ns triplicate classical and accelerated MD), RMSD and RMSF analyses, Cα distance maps, suboptimal path analysis, secondary structure analysis, and dual luciferase reporter assays with two response elements and multiple ligands.
+- **Missing materials affecting confidence** Supplementary figures (S1–S5) are referenced but not provided. Simulation convergence metrics, force field validation details, and raw trajectory analyses are not fully described. Statistical details for the luciferase assays (exact p-values, effect sizes) are not reported in the text. The specific DNA sequences used for PLTP and ECRE constructs are not fully contextualized.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable effort to characterize the full-length FXR–RXR heterodimer architecture on DNA. The use of long-timescale simulations to probe conformational dynamics of a nuclear receptor heterodimer is commendable and addresses a genuine gap in the field. However, the central claims regarding the functional significance of the FXR hinge and the KR patch are not fully supported by the evidence presented. The simulation results are descriptive and largely correlative, and the experimental validation is limited to a single assay type that does not directly test the proposed DNA-binding role. The manuscript would benefit from clearer articulation of the mechanistic hypotheses, additional validation of the simulation findings, and a more direct experimental test of the KR patch function.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, structural biology, and computational biophysics would find this work of interest. The study addresses the poorly understood quaternary architecture of full-length nuclear receptor dimers, a topic relevant to understanding transcriptional regulation mechanisms. The methodological approach, combining long-timescale MD with enhanced sampling, may also appeal to computational biologists studying large multidomain protein–DNA complexes.
+- **Major strengths** The study tackles a challenging and important problem: the dynamic architecture of a full-length nuclear receptor heterodimer on DNA. The use of Anton 2 for microsecond-scale simulations is appropriate and represents a significant computational investment. The systematic variation of ligands and DNA sequences across eight models is a thoughtful design. The identification of the KR patch as a potential DNA-interacting element is a novel observation that could have functional implications. The comparison with existing crystal structures to validate the simulation models is a good practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that "simulations suggest a role for the FXR hinge in DNA binding" and that the KR patch interacts with DNA across multiple complexes.
+  - **Evidence pointer** Results section, Figures 4A–C and S5; Materials and Methods.
+  - **Concern** The evidence for KR patch–DNA interactions is based solely on contact analysis from simulations. The authors do not provide any experimental validation of direct DNA binding by the hinge or the KR patch. The luciferase assays test transcriptional activity, not DNA binding affinity or specificity. The claim that the KR patch "plays a role in activity" is not supported by the data, as the mutants showed no significant difference from wild-type. The authors acknowledge this but do not offer an alternative functional interpretation or a direct test of DNA binding.
+  - **Why it matters** The central novelty of the paper rests on the functional significance of the KR patch–DNA interaction. Without direct evidence for DNA binding or a clear functional consequence, the claim remains speculative. The disconnect between the simulation prediction and the experimental result weakens the overall case.
+  - **Resolution test** Provide experimental evidence for KR patch–DNA binding, such as electrophoretic mobility shift assays (EMSAs) or surface plasmon resonance with wild-type and mutant hinge peptides. Alternatively, demonstrate a functional consequence of the KR patch in a more direct assay, such as chromatin immunoprecipitation or a DNA-binding-dependent transcriptional assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "over 100 μs of atomistic MD simulations" were performed and that these support conclusions about conformational dynamics and interdomain communication.
+  - **Evidence pointer** Results section, Figures 2 and S1–S3; Materials and Methods.
+  - **Concern** The manuscript does not provide sufficient detail on simulation convergence. RMSD values are reported to stabilize, but no block averaging, autocorrelation analysis, or replica convergence metrics are shown. The claim of "statistical rigor" from triplicate 500 ns simulations is questionable, as 500 ns may be insufficient to sample the large-scale conformational changes implied by the hinge flexibility described. The absence of convergence analysis undermines confidence in the quantitative claims about dynamics and communication pathways.
+  - **Why it matters** The conclusions about conformational diversity and interdomain communication depend on the simulations having adequately sampled the relevant conformational space. Without convergence evidence, the observed differences between complexes could be artifacts of insufficient sampling.
+  - **Resolution test** Provide convergence metrics such as RMSD block averaging, principal component analysis of sampled conformations, or split-sample analysis. Show that the key qualitative findings (e.g., hinge flexibility differences, KR patch contacts) are robust across independent trajectory segments or replicate simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that "the FXR hinge is predicted as the mediator of interdomain communication" based on suboptimal path analysis.
+  - **Evidence pointer** Results section, Figure 3B; Materials and Methods.
+  - **Concern** The suboptimal path analysis is described only briefly. The choice of source and sink residues (K148 in DBD, M332 in LBD) is not justified. The significance of the path counts (1583 and 197) is not contextualized, and no statistical comparison is made to a null model or to other possible pathways. The claim that the hinge mediates communication is based on a computational prediction that is not validated by any perturbation analysis (e.g., mutating hinge residues and observing changes in allostery).
+  - **Why it matters** Interdomain communication is a key claim of the paper. If the path analysis is not robust or the interpretation is not validated, the claim of a "unique role" for the hinge is weakened.
+  - **Resolution test** Provide a more detailed description of the path analysis methodology, including how paths are defined and counted. Validate the prediction by performing simulations with hinge mutations or by using an alternative method (e.g., mutual information analysis) to confirm the communication pathway.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the DNA displays the smallest deviation in all complexes" and that DNA binding "indirectly destabilizes the protein."
+  - **Evidence pointer** Results section, Figures 2H–J and S1.
+  - **Concern** The comparison between DNA-bound and DNA-free simulations is based on a single 15 μs DNA-free trajectory. The claim that DNA binding increases protein dynamics is counterintuitive and requires careful validation. The RMSF comparison (Figure 2H,I) is not described in sufficient detail, and the structural basis for the proposed destabilization is not explained. The authors do not discuss whether the DNA-free state is physiologically relevant or whether the observed differences could be due to the specific starting model.
+  - **Why it matters** This is a potentially interesting finding, but the current evidence is insufficient to support a mechanistic interpretation. If the claim is not robust, it could distract from the more defensible findings.
+  - **Resolution test** Perform additional DNA-free simulations with different starting conformations to ensure the result is reproducible. Provide a structural explanation for the increased dynamics in the DNA-bound state, such as specific hinge–DNA contacts that strain the protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Combining over 100 μs of atomistic MD simulations with enhanced sampling simulations"
+  - **Issue** The abstract states "over 100 μs" but the total simulation time is not clearly itemized in the text. The reader cannot verify this claim.
+  - **Required correction** Provide a table or explicit statement of total simulation time per system and per method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, Model Development
+  - **Evidence pointer** Materials and Methods, "Model Development"
+  - **Issue** The description of how the initial model was built is brief. The alignment procedure to place LBD and DBD dimers in three-dimensional space is not fully specified, and the choice of template structures is not justified.
+  - **Required correction** Provide more detail on the modeling steps, including the specific alignment algorithm and any manual adjustments made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Luciferase assays
+  - **Evidence pointer** Results, Figure 4F,G; Materials and Methods
+  - **Issue** The statistical analysis is described as a one-way ANOVA, but no p-values, effect sizes, or confidence intervals are reported in the text. The reader cannot assess the strength of the null result.
+  - **Required correction** Report exact p-values and effect sizes for all comparisons, or provide the data in a supplementary table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "we do not see any interdomain contacts between FXR DBD and LBD"
+  - **Issue** The authors state that no interdomain contacts are observed, but this is based on a 20 Å Cα distance threshold. This threshold is arbitrary and may miss functionally relevant contacts at longer distances or mediated by side chains.
+  - **Required correction** Justify the choice of threshold or perform a sensitivity analysis with different cutoffs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Results, Figure 1A–C
+  - **Issue** The initial model is described but the figure is not available in the provided text. The reader cannot assess the quality of the model or the validity of the "inverted" LBD arrangement claim.
+  - **Required correction** Ensure the figure is included and described in sufficient detail in the final version.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (KR patch function not validated), R1-M2 (simulation convergence not demonstrated), R1-M3 (suboptimal path analysis not sufficiently robust).
+- **Assessment against Nature-style criteria** Originality: The work addresses a genuine gap in understanding full-length nuclear receptor architecture, and the computational approach is ambitious. However, the findings are largely descriptive and the novelty of the "unique roles" claim is not fully established. Scientific importance: The topic is important for nuclear receptor biology, but the impact is limited by the lack of direct experimental validation of the key predictions. Interdisciplinary readership: The work bridges computational biophysics and molecular biology, but the presentation may be too specialized for a broad audience. Technical soundness: The simulation methodology is appropriate, but the lack of convergence analysis and the limited experimental validation are significant weaknesses. Readability for nonspecialists: The manuscript is generally well-written, but the significance of the findings could be better contextualized for readers outside the simulation community.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising computational framework and some interesting observations, but the central claims about the functional role of the FXR hinge and the KR patch require additional validation. The authors should address the convergence concerns, provide direct experimental evidence for KR patch–DNA binding, and strengthen the interpretation of the suboptimal path analysis before the case is made.
+
+## Risk / unsupported claims
+- The claim that the KR patch "plays a role in activity" is unsupported, as the mutagenesis experiments showed no significant effect.
+- The claim that DNA binding "indirectly destabilizes the protein" is based on a single DNA-free simulation and lacks mechanistic explanation.
+- The claim that the FXR hinge is the "mediator of interdomain communication" is based on a computational prediction that is not validated by perturbation or alternative methods.
+- The claim of "over 100 μs of atomistic MD simulations" cannot be verified from the provided text.
+- The assertion that the simulations "support a range of quaternary architectures" is descriptive and not quantitatively compared to experimental data.

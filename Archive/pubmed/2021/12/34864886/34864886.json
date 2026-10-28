@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "34864886",
+    "doi": "10.1093/bib/bbab501",
+    "title": "A deep learning model to identify gene expression level using cobinding transcription factor signals."
+  },
+  "content": {
+    "abstract": "Gene expression is directly controlled by transcription factors (TFs) in a complex combination manner. It remains a challenging task to systematically infer how the cooperative binding of TFs drives gene activity. Here, we quantitatively analyzed the correlation between TFs and surveyed the TF interaction networks associated with gene expression in GM12878 and K562 cell lines. We identified six TF modules associated with gene expression in each cell line. Furthermore, according to the enrichment characteristics of TFs in these TF modules around a target gene, a convolutional neural network model, called TFCNN, was constructed to identify gene expression level. Results showed that the TFCNN model achieved a good prediction performance for gene expression. The average of the area under receiver operating characteristics curve (AUC) can reach up to 0.975 and 0.976, respectively in GM12878 and K562 cell lines. By comparison, we found that the TFCNN model outperformed the prediction models based on SVM and LDA. This is due to the TFCNN model could better extract the combinatorial interaction among TFs. Further analysis indicated that the abundant binding of regulatory TFs dominates expression of target genes, while the cooperative interaction between TFs has a subtle regulatory effects. And gene expression could be regulated by different TF combinations in a nonlinear way. These results are helpful for deciphering the mechanism of TF combination regulating gene expression.",
+    "keywords": [
+      "TF interaction networks",
+      "convolutional neural network",
+      "gene expression",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Gene Expression",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "*Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lirong",
+        "Yang, Yanchao",
+        "Chai, Lu",
+        "Li, Qianzhong",
+        "Liu, Junjie",
+        "Lin, Hao",
+        "Liu, Li"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Yang Y",
+        "Chai L",
+        "Li Q",
+        "Liu J",
+        "Lin H",
+        "Liu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6265-2862"
+      ],
+      "affiliations": [
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China.",
+        "School of Life Science and Technology, Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China.",
+        "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lirong",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yanchao",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Lu",
+        "short_name": "Chai L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qianzhong",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Junjie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Hao",
+        "short_name": "Lin H",
+        "identifiers": [
+          "0000-0001-6265-2862"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Inner Mongolia University, Hohhot 010021, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/06 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "40739302",
+      "39738353",
+      "39588827",
+      "38946113",
+      "38871816",
+      "37510209",
+      "37215759",
+      "36778738",
+      "36553042",
+      "35465187",
+      "35345523"
+    ],
+    "refs": [],
+    "similar": [
+      "34864886",
+      "22849367",
+      "30598100",
+      "18426580",
+      "21172055",
+      "38354497",
+      "32054475",
+      "32615918",
+      "32770026",
+      "31336830",
+      "18586698",
+      "33372147",
+      "34534646",
+      "24228871",
+      "23497388",
+      "20704747",
+      "38521929",
+      "22165960",
+      "34272562",
+      "31881824",
+      "23093926",
+      "22784627",
+      "20085649",
+      "37884340",
+      "34292930",
+      "20942926",
+      "36114445",
+      "31372637",
+      "24565025",
+      "26526635",
+      "25955085",
+      "26611531",
+      "21690103",
+      "33631799",
+      "19956545",
+      "28750606",
+      "36749045",
+      "28234893",
+      "18366607",
+      "32574834",
+      "33303494",
+      "25037164",
+      "29325558",
+      "30359306",
+      "23822978",
+      "33002527",
+      "36693565",
+      "29226599",
+      "27604961",
+      "33003522",
+      "34840985",
+      "17971223",
+      "24565265",
+      "33517372",
+      "20805189",
+      "32845706",
+      "24564526",
+      "32174324",
+      "15287978",
+      "25559499",
+      "31857203",
+      "33498086",
+      "24243024",
+      "34445498",
+      "32921165",
+      "38451769",
+      "24516403",
+      "33137083",
+      "24371170",
+      "23246694",
+      "26258537",
+      "25023089",
+      "20840729",
+      "35719916",
+      "35197482",
+      "22647244",
+      "31095599",
+      "31669638",
+      "38632500",
+      "28729650",
+      "28092569",
+      "22898356",
+      "27392072",
+      "27879476",
+      "38798191",
+      "29051499",
+      "32858223",
+      "18752680",
+      "34314098",
+      "18371204",
+      "38948852",
+      "28822748",
+      "23636944",
+      "18682805",
+      "22189060",
+      "28865443",
+      "36497174",
+      "23847101",
+      "33510225",
+      "18811975",
+      "29769331",
+      "37424431",
+      "38422958",
+      "33124660",
+      "34579793",
+      "37258360",
+      "36119976",
+      "30922998",
+      "35266510",
+      "34093651",
+      "34062105",
+      "35562359",
+      "37929986",
+      "36566628",
+      "28158291",
+      "36243974",
+      "38293065",
+      "35969771",
+      "36374878",
+      "38291225",
+      "36124777",
+      "32253808",
+      "37118452",
+      "35659322",
+      "36128504",
+      "39282467"
+    ],
+    "review": [
+      "34864886",
+      "20840729",
+      "34314098"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34864886.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab501",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

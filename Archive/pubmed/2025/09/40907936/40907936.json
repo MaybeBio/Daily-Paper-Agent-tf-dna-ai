@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "40907936",
+    "doi": "10.1016/j.jmb.2025.169413",
+    "title": "Assessing In Silico Tools for Accurate Pathogenicity Prediction in CHD Nucleosome Remodelers."
+  },
+  "content": {
+    "abstract": "Chromodomain Helicase DNA-binding (CHD) proteins compose a family of chromatin remodelers that play crucial roles in DNA repair, gene expression regulation, neural stem cell differentiation and chromatin integrity. Genetic variants in CHD chromatin remodelers are associated with neurodevelopmental disorders with features like autism spectrum disorder and intellectual disability. Consequently, the determination of variant pathogenicity in clinical genetic tests for individuals bearing CHD variants is crucial. In this study, we compared the efficiency of multiple pathogenicity prediction tools, which are valuable resources for the identification and annotation of potentially disease-causing variants, to assess the most accurate in silico tool capable of distinguishing pathogenic CHD variants from benign ones. We have focused specifically on genes that share high structural and functional similarity and are strongly linked to pathogenic mutations. Here, we evaluated a range of pathogenicity prediction tools and compared their output with pathogenicity conclusions reported in the literature and genomic databases. Our findings showed that the top performing tools were BayesDel, ClinPred, AlphaMissense, ESM-1b and SIFT. BayesDel, specifically with its addAF component, was overall the most robust tool for CHD variant pathogenicity prediction. We also suggest incorporating SnpEff's high-impact variant identification capabilities for the development of a hybrid tool that would enhance the classification of CHD variants. Our study emphasizes the need for continuous evaluation and integration of updated prediction tools, including emerging artificial intelligence (AI) approaches. This research also emphasizes the importance of gathering better clinical and mechanistic data on the deleteriousness of pathogenic variants to improve the accuracy of clinical diagnostics.",
+    "keywords": [
+      "AlphaMissense",
+      "BayesDel",
+      "CHD",
+      "in silico",
+      "pathogenicity prediction"
+    ],
+    "mesh_terms": [
+      "*Nucleosomes/genetics/metabolism",
+      "Computational Biology/methods",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "*Chromatin/metabolism",
+      "Adenosine Triphosphatases/metabolism",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rabouhi, Nazim",
+        "Guindon, Simon",
+        "Coleman, Emilia Aisha",
+        "van Heesbeen, H J",
+        "Greenwood, Celia M T",
+        "Lu, Tianyuan",
+        "Campeau, Philippe M"
+      ],
+      "short_names": [
+        "Rabouhi N",
+        "Guindon S",
+        "Coleman EA",
+        "van Heesbeen HJ",
+        "Greenwood CMT",
+        "Lu T",
+        "Campeau PM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CHU Sainte-Justine Research Center, University of Montreal, Montreal, Quebec, Canada.",
+        "Gina Cody School of Engineering and Computer Science, Concordia University, Montreal, Quebec, Canada.",
+        "Department of Informatics, UQAM University, Montreal, Quebec, Canada.",
+        "CHU Sainte-Justine Research Center, University of Montreal, Montreal, Quebec, Canada.",
+        "Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada; Gerald Bronfman Department of Oncology, Department of Epidemiology, Biostatistics & Occupational Health, McGill University, Montreal, Quebec, Canada. Electronic address: celia.greenwood@mcgill.ca.",
+        "Department of Population Health Sciences, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI, USA; Department of Biostatistics and Medical Informatics, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI, USA. Electronic address: tianyuan.lu@wisc.edu.",
+        "CHU Sainte-Justine Research Center, University of Montreal, Montreal, Quebec, Canada. Electronic address: p.campeau@umontreal.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rabouhi, Nazim",
+        "short_name": "Rabouhi N",
+        "identifiers": [],
+        "affiliations": [
+          "CHU Sainte-Justine Research Center, University of Montreal, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Guindon, Simon",
+        "short_name": "Guindon S",
+        "identifiers": [],
+        "affiliations": [
+          "Gina Cody School of Engineering and Computer Science, Concordia University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Coleman, Emilia Aisha",
+        "short_name": "Coleman EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Informatics, UQAM University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "van Heesbeen, H J",
+        "short_name": "van Heesbeen HJ",
+        "identifiers": [],
+        "affiliations": [
+          "CHU Sainte-Justine Research Center, University of Montreal, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Greenwood, Celia M T",
+        "short_name": "Greenwood CMT",
+        "identifiers": [],
+        "affiliations": [
+          "Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada; Gerald Bronfman Department of Oncology, Department of Epidemiology, Biostatistics & Occupational Health, McGill University, Montreal, Quebec, Canada. Electronic address: celia.greenwood@mcgill.ca."
+        ]
+      },
+      {
+        "full_name": "Lu, Tianyuan",
+        "short_name": "Lu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI, USA; Department of Biostatistics and Medical Informatics, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI, USA. Electronic address: tianyuan.lu@wisc.edu."
+        ]
+      },
+      {
+        "full_name": "Campeau, Philippe M",
+        "short_name": "Campeau PM",
+        "identifiers": [],
+        "affiliations": [
+          "CHU Sainte-Justine Research Center, University of Montreal, Montreal, Quebec, Canada. Electronic address: p.campeau@umontreal.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 00:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40907936",
+      "39256852",
+      "41383239",
+      "23468649",
+      "39440667",
+      "37851134",
+      "40233742",
+      "25821983",
+      "39945963",
+      "17350655",
+      "41015588",
+      "26993344",
+      "38370976",
+      "25967940",
+      "39595115",
+      "40233743",
+      "28801535",
+      "32805211",
+      "41246429",
+      "29775997",
+      "40931232",
+      "29962935",
+      "14585955",
+      "34070411",
+      "34161779",
+      "29580235",
+      "39676521",
+      "33670267",
+      "38343505",
+      "21616185",
+      "41532703",
+      "21508315",
+      "23032292",
+      "40251830",
+      "31434570",
+      "33766936",
+      "40328947",
+      "40749069",
+      "40397311",
+      "23621914",
+      "22726434",
+      "40915599",
+      "33011441",
+      "36453990",
+      "33395550",
+      "31484976",
+      "22949387",
+      "34725129",
+      "22124157",
+      "31636125",
+      "24561830",
+      "28096241",
+      "39720176",
+      "25567374",
+      "24301467",
+      "38177688",
+      "29809147",
+      "21704204",
+      "39638247",
+      "33564012",
+      "28533432",
+      "37092535",
+      "23005680",
+      "38453143",
+      "23870137",
+      "33403747",
+      "40334658",
+      "38367868",
+      "31819269",
+      "30683752",
+      "24606212",
+      "23161016",
+      "32750050",
+      "27989438",
+      "35182233",
+      "38910474",
+      "19940112",
+      "30467122",
+      "40570257",
+      "40724807",
+      "33711345",
+      "26861626",
+      "35047139",
+      "41492285",
+      "39392163",
+      "40205335",
+      "11683384",
+      "24606138",
+      "40153959",
+      "40486492",
+      "38848364",
+      "36246618",
+      "31979111",
+      "17713581",
+      "40833643",
+      "21738833",
+      "38497611",
+      "35224813",
+      "25871441",
+      "29394989"
+    ],
+    "review": [
+      "40907936",
+      "37851134",
+      "17350655",
+      "32805211",
+      "29962935",
+      "34070411",
+      "21616185",
+      "41532703",
+      "33395550",
+      "34725129",
+      "24561830",
+      "28096241",
+      "25567374",
+      "21704204",
+      "39638247",
+      "23870137",
+      "38367868",
+      "30467122",
+      "33711345",
+      "11683384",
+      "24606138",
+      "40153959"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00479-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

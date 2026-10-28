@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.30.502114",
+  "title": "DBP2Vec: Predicting DNA-binding proteins directly using pre-trained protein language model",
+  "authors": "Chao Wei; Zhiwei Ye; Panru Wang; Wuyang Lan",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-02",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 6,
+  "one_liner_zh": "利用预训练蛋白语言模型ESM-1b直接预测DNA结合蛋白，属于蛋白-DNA互作对象但未聚焦TF-DNA结合位点或互作机制，方法上采用AI但缺乏三维互作建模。",
+  "abstract": "DNA-binding proteins (DBPs) play a crucial role in numbers of biological processes and have received wide attention in recent years. Meanwhile, the rapid development of sequencing technologies lead to the explosive growth of new protein sequences, it is highly desired to develop a fast and accurate method for DNA-binding proteins prediction. Experimental methods such as chromatin immunoprecipitation on microarray (ChIP-chip) and X-ray crystallography are highly accurate but expensive and time-consuming. To address this issue, many computational methods have been proposed, they usually exploit multiple information about protein sequence, e.g., sequence composition information, physicochemical properties, evolutionary information, structural information, etc. Despite the effectiveness of these approaches, they heavily depend on prior biological knowledge and undergo a very complex process of feature extraction. In view of these shortcomings, here, we present a novel method, named DBP2Vec, to predict DNA-binding proteins directly from pre-trained protein language model (e.g., ESM-1b) which effectively encode biological properties without any prior knowledge by virtue of deep representation learning (e.g., BERT) on large protein sequences databases (e.g., UniParc). Tests on two DBPs benchmark datasets (e.g., PDB296, UniSwiss-Tst) demonstrate that our proposed method significantly outperforms existing state-of-the-art methods. The source code and the datasets used in the paper are publicly available at: https://github.com/hgcwei/DBP2Vec .",
+  "abstract_zh": "DNA结合蛋白（DNA-binding proteins, DBPs）在众多生物过程中扮演着关键角色，近年来受到广泛关注。同时，测序技术的快速发展导致新蛋白质序列的爆炸性增长，因此迫切需要开发一种快速且准确的方法来预测DNA结合蛋白。实验方法如染色质免疫沉淀微阵列（chromatin immunoprecipitation on microarray, ChIP-chip）和X射线晶体学虽然高度准确，但成本高昂且耗时。为解决这一问题，许多计算方法已被提出，它们通常利用蛋白质序列的多种信息，例如序列组成信息、理化性质、进化信息、结构信息等。尽管这些方法有效，但它们严重依赖先验生物学知识，并经历非常复杂的特征提取过程。鉴于这些缺点，我们在此提出一种名为DBP2Vec的新方法，直接从预训练的蛋白质语言模型（如ESM-1b）预测DNA结合蛋白，该模型通过深度表示学习（如BERT）在大型蛋白质序列数据库（如UniParc）上有效编码生物特性，无需任何先验知识。在两个DBPs基准数据集（如PDB296、UniSwiss-Tst）上的测试表明，我们提出的方法显著优于现有最先进方法。论文中使用的源代码和数据集公开可用，网址为：https://github.com/hgcwei/DBP2Vec。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.30.502114",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.30.502114",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.30.502114/index.html"
+}

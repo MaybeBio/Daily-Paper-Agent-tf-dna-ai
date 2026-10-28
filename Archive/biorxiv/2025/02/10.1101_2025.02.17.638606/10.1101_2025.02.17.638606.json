@@ -1,0 +1,575 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.17.638606",
+  "title": "A pan-gene catalogue of Asian cultivated rice",
+  "doi": "10.1101/2025.02.17.638606",
+  "abstract": "The rice genome underpins fundamental research and breeding, but the Nipponbare (japonica) reference does not fully encompass the genetic diversity of Asian rice. To address this gap, the Rice Population Reference Panel (RPRP) was developed, comprising high-quality assemblies of 16 rice cultivars to represent japonica , indica , aus , and aromatic varietal groups. The RPRP has been consistently annotated, supported by extensive experimental data and here we report the computational assignment, characterization and dissemination of stably identified pan-genes. We identified 25,178 core pan-genes shared across all cultivars, alongside cultivar-specific and family-enriched genes. Core genes exhibit higher gene expression and proteomic evidence, higher confidence protein domains and AlphaFold structures, while cultivar-specific genes were enriched for domains under selective breeding pressure, such as for disease resistance. This resource, integrated into public databases, enables researchers to explore genetic and functional diversity via a population-aware “reference guide” across rice genomes, advancing both basic and applied research.",
+  "authors": [
+    "Contreras-Moreira B",
+    "Sharma E",
+    "Saraf S",
+    "Naamati G",
+    "Gupta P",
+    "Elser J",
+    "Chebotarov D",
+    "Chougule K",
+    "Lu Z",
+    "Wei S",
+    "Olson A",
+    "Tsang I",
+    "Lodha D",
+    "Zhou Y",
+    "Yu Z",
+    "Zhao W",
+    "Zhang J",
+    "Amberkar S",
+    "Sue-Ob K",
+    "Martin M",
+    "McNally KL",
+    "Ware D",
+    "Sun Z",
+    "Deutsch EW",
+    "Copetti D",
+    "Wing RA",
+    "Jaiswal P",
+    "Dyer S",
+    "Jones AR"
+  ],
+  "published_date": "2025-02-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638606",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638606.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR981645",
+    "raw_record": {
+      "id": "PPR981645",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR981645"
+        ]
+      },
+      "doi": "10.1101/2025.02.17.638606",
+      "title": "A pan-gene catalogue of Asian cultivated rice",
+      "authorString": "Contreras-Moreira B, Sharma E, Saraf S, Naamati G, Gupta P, Elser J, Chebotarov D, Chougule K, Lu Z, Wei S, Olson A, Tsang I, Lodha D, Zhou Y, Yu Z, Zhao W, Zhang J, Amberkar S, Sue-Ob K, Martin M, McNally KL, Ware D, Sun Z, Deutsch EW, Copetti D, Wing RA, Jaiswal P, Dyer S, Jones AR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Contreras-Moreira B",
+            "lastName": "Contreras-Moreira",
+            "firstName": "Bruno",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5462-907X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics and Plant Breeding, – , ,"
+                },
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharma E",
+            "lastName": "Sharma",
+            "firstName": "Eshan",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Systems, Molecular and Integrative Biology, Biosciences Building, Crown Street , ."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saraf S",
+            "lastName": "Saraf",
+            "firstName": "Shradha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Naamati G",
+            "lastName": "Naamati",
+            "firstName": "Guy",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0523-4071"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gupta P",
+            "lastName": "Gupta",
+            "firstName": "Parul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Botany and Plant Pathology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elser J",
+            "lastName": "Elser",
+            "firstName": "Justin",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Botany and Plant Pathology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chebotarov D",
+            "lastName": "Chebotarov",
+            "firstName": "Dmytro",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chougule K",
+            "lastName": "Chougule",
+            "firstName": "Kapeel",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu Z",
+            "lastName": "Lu",
+            "firstName": "Zhenyuan",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wei S",
+            "lastName": "Wei",
+            "firstName": "Sharon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Olson A",
+            "lastName": "Olson",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsang I",
+            "lastName": "Tsang",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Niab, Lawrence Weaver Road, Cambridge CB3 0LE, UK"
+                },
+                {
+                  "affiliation": ", Department of Plant Science, Plant Sciences Building, Sutton Bonnington Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lodha D",
+            "lastName": "Lodha",
+            "firstName": "Disha",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou Y",
+            "lastName": "Zhou",
+            "firstName": "Yong",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biological and Environmental Sciences & Engineering Division (BESE), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu Z",
+            "lastName": "Yu",
+            "firstName": "Zhichao",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Key Laboratory of Crop Genetic Improvement, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao W",
+            "lastName": "Zhao",
+            "firstName": "Wen",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Key Laboratory of Crop Genetic Improvement, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang J",
+            "lastName": "Zhang",
+            "firstName": "Jianwei",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Key Laboratory of Crop Genetic Improvement, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Amberkar S",
+            "lastName": "Amberkar",
+            "firstName": "Sandeep",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Systems, Molecular and Integrative Biology, Biosciences Building, Crown Street , ."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sue-Ob K",
+            "lastName": "Sue-Ob",
+            "firstName": "Kawinnat",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Systems, Molecular and Integrative Biology, Biosciences Building, Crown Street , ."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin M",
+            "lastName": "Martin",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McNally KL",
+            "lastName": "McNally",
+            "firstName": "Kenneth",
+            "initials": "KL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ware D",
+            "lastName": "Ware",
+            "firstName": "Doreen",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "USDA ARS NEA Plant, Soil & Nutrition Laboratory Research Unit, Ithaca, NY, 29 14853, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sun Z",
+            "lastName": "Sun",
+            "firstName": "Zhi",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deutsch EW",
+            "lastName": "Deutsch",
+            "firstName": "Eric",
+            "initials": "EW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Copetti D",
+            "lastName": "Copetti",
+            "firstName": "Dario",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Arizona Genomics Institute, School of Plant Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wing RA",
+            "lastName": "Wing",
+            "firstName": "Rod",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biological and Environmental Sciences & Engineering Division (BESE), , , ,"
+                },
+                {
+                  "affiliation": "Arizona Genomics Institute, School of Plant Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jaiswal P",
+            "lastName": "Jaiswal",
+            "firstName": "Pankaj",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Botany and Plant Pathology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dyer S",
+            "lastName": "Dyer",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, , Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones AR",
+            "lastName": "Jones",
+            "firstName": "Andrew",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Systems, Molecular and Integrative Biology, Biosciences Building, Crown Street , ."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0523-4071"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5462-907X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The rice genome underpins fundamental research and breeding, but the Nipponbare (japonica) reference does not fully encompass the genetic diversity of Asian rice. To address this gap, the Rice Population Reference Panel (RPRP) was developed, comprising high-quality assemblies of 16 rice cultivars to represent  japonica ,  indica ,  aus , and  aromatic varietal groups.  The RPRP has been consistently annotated, supported by extensive experimental data and here we report the computational assignment, characterization and dissemination of stably identified pan-genes. We identified 25,178 core pan-genes shared across all cultivars, alongside cultivar-specific and family-enriched genes. Core genes exhibit higher gene expression and proteomic evidence, higher confidence protein domains and AlphaFold structures, while cultivar-specific genes were enriched for domains under selective breeding pressure, such as for disease resistance. This resource, integrated into public databases, enables researchers to explore genetic and functional diversity via a population-aware “reference guide” across rice genomes, advancing both basic and applied research.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T015608/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "222155/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T015691/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.02.17.638606"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.17.638606"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR981645"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR981645&type=FILE&fileName=EMS203535-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203535",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pfam",
+          "interpro"
+        ]
+      },
+      "dateOfCreation": "2025-02-24",
+      "firstPublicationDate": "2025-02-23",
+      "firstIndexDate": "2025-02-24",
+      "fullTextReceivedDate": "2025-03-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

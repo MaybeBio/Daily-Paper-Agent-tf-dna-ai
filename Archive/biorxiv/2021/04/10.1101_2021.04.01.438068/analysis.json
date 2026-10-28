@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.04.01.438068",
+  "title": "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes",
+  "authors": "Kawaguchi RK; Tang Z; Fischer S; Rajesh C; Tripathy R; Koo PK; Gillis J",
+  "journal": "bioRxiv",
+  "published_date": "2021-04-03",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用scATAC-seq数据通过标记基因注释细胞类型，并用深度神经网络从DNA序列预测染色质可及性，涉及转录因子结合位点但非核心TF-DNA互作建模，方法可迁移但深度有限。",
+  "abstract": "<h4>Motivation</h4> Single-cell Assay for Transposase Accessible Chromatin using sequencing (scATAC-seq) is a valuable resource to learn cis-regulatory elements such as cell-type specific enhancers and transcription factor binding sites. However, cell-type identification of scATAC-seq data is known to be challenging due to the heterogeneity derived from different protocols and the high dropout rate. <h4>Results</h4> In this study, we perform a systematic comparison of 7 scATAC-seq datasets of mouse brain to benchmark the efficacy of neuronal cell-type annotation from gene sets. We find that redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation across the data collected from different studies. Interestingly, simple aggregation of such marker genes achieves performance comparable or higher than that of machine-learning classifiers, suggesting its potential for downstream applications. Based on our results, we reannotated all scATAC-seq data for detailed cell types using robust marker genes. Their meta scATAC-seq profiles are publicly available at https://gillisweb.cshl.edu/Meta_scATAC . Furthermore, we trained a deep neural network to predict chromatin accessibility from only DNA sequence and identified key motifs enriched for each neuronal subtype. Those predicted profiles are visualized together in our database as a valuable resource to explore cell-type specific epigenetic regulation in a sequence-dependent and -independent manner. <h4>Contact</h4> jesse.gillis@utoronto.ca <h4>Supplementary information</h4> Supplementary data are available at xxxxxx online. <h4>Key points</h4> 7 scATAC-seq datasets of mouse brain are systematically compared to benchmark the efficacy of neuronal cell-type annotation from gene sets. Redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation beyond the heterogeneity of scATAC-seq data. We reannotated all scATAC-seq data for detailed cell types using robust marker genes and their meta scATAC-seq profiles are publicly available at a new Meta scATAC-seq server. Predicted profiles from only DNA sequence using a deep neural network are visualized together to explore sequence-dependent and -independent epigenetic regulation.",
+  "abstract_zh": "<h4>动机</h4> 利用测序技术进行的单细胞转座酶可及染色质分析（scATAC-seq）是学习顺式调控元件（如细胞类型特异性增强子和转录因子结合位点）的宝贵资源。然而，由于不同方案带来的异质性以及高缺失率，scATAC-seq数据的细胞类型鉴定被认为具有挑战性。<h4>结果</h4> 在本研究中，我们对小鼠大脑的7个scATAC-seq数据集进行了系统比较，以基准测试从基因集进行神经元细胞类型注释的效果。我们发现，冗余标记基因在来自不同研究的数据中对稀疏scATAC-seq注释有显著改善。有趣的是，简单聚合这些标记基因即可达到与机器学习分类器相当或更高的性能，表明其在下游应用中的潜力。基于我们的结果，我们使用稳健标记基因对所有scATAC-seq数据进行了详细细胞类型的重新注释。它们的元scATAC-seq图谱可在https://gillisweb.cshl.edu/Meta_scATAC 公开获取。此外，我们训练了一个深度神经网络，仅从DNA序列预测染色质可及性，并识别了每种神经元亚型富集的关键基序。这些预测图谱在我们的数据库中共同可视化，作为探索细胞类型特异性表观遗传调控的宝贵资源，以序列依赖和独立的方式。<h4>联系方式</h4> jesse.gillis@utoronto.ca <h4>补充信息</h4> 补充数据可在xxxxxx在线获取。<h4>关键点</h4> 系统比较了小鼠大脑的7个scATAC-seq数据集，以基准测试从基因集进行神经元细胞类型注释的效果。冗余标记基因在scATAC-seq数据异质性之外，对稀疏scATAC-seq注释有显著改善。我们使用稳健标记基因对所有scATAC-seq数据进行了详细细胞类型的重新注释，其元scATAC-seq图谱可在新的Meta scATAC-seq服务器上公开获取。使用深度神经网络仅从DNA序列预测的图谱被共同可视化，以探索序列依赖和独立的表观遗传调控。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.04.01.438068",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.04.01.438068",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.04.01.438068/index.html"
+}

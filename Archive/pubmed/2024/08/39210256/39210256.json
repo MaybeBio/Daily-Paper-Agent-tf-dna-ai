@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "39210256",
+    "doi": "10.1186/s12864-024-10668-6",
+    "title": "A comparative analysis of ENCODE and Cistrome in the context of TF binding signal."
+  },
+  "content": {
+    "abstract": "BACKGROUND: With the rise of publicly available genomic data repositories, it is now common for scientists to rely on computational models and preprocessed data, either as control or to discover new knowledge. However, different repositories adhere to the different principles and guidelines, and data processing plays a significant role in the quality of the resulting datasets. Two popular repositories for transcription factor binding sites data - ENCODE and Cistrome - process the same biological samples in alternative ways, and their results are not always consistent. Moreover, the output format of the processing (BED narrowPeak) exposes a feature, the signalValue, which is seldom used in consistency checks, but can offer valuable insight on the quality of the data. RESULTS: We provide evidence that data points with high signalValue(s) (top 25% of values) are more likely to be consistent between ENCODE and Cistrome in human cell lines K562, GM12878, and HepG2. In addition, we show that filtering according to said high values improves the quality of predictions for a machine learning algorithm that detects transcription factor interactions based only on positional information. Finally, we provide a set of practices and guidelines, based on the signalValue feature, for scientists who wish to compare and merge narrowPeaks from ENCODE and Cistrome. CONCLUSIONS: The signalValue feature is an informative feature that can be effectively used to highlight consistent areas of overlap between different sources of TF binding sites that expose it. Its applicability extends to downstream to positional machine learning algorithms, making it a powerful tool for performance tweaking and data aggregation.",
+    "keywords": [
+      "Cistrome",
+      "Database",
+      "ENCODE",
+      "SignalValue",
+      "Transcription Factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "Binding Sites",
+      "Protein Binding",
+      "Computational Biology/methods",
+      "Machine Learning",
+      "Databases, Genetic",
+      "Algorithms",
+      "Genomics/methods"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perna, Stefano",
+        "Pinoli, Pietro",
+        "Ceri, Stefano",
+        "Wong, Limsoon"
+      ],
+      "short_names": [
+        "Perna S",
+        "Pinoli P",
+        "Ceri S",
+        "Wong L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2038-7121"
+      ],
+      "affiliations": [
+        "Lee Kong Chian School of Medicine, Nanyang Technological University, 9 Nanyang Drive, 636921, Singapore, Singapore. stefano.perna@ntu.edu.sg.",
+        "Department of Electronics, Information and Bioengineering, Politecnico di Milano, 32 Piazza Leonardo da Vinci, 20133, Milano, Italy.",
+        "Department of Electronics, Information and Bioengineering, Politecnico di Milano, 32 Piazza Leonardo da Vinci, 20133, Milano, Italy.",
+        "School of Computing, National University of Singapore, 13 Computing Drive, 117417, Singapore, Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Perna, Stefano",
+        "short_name": "Perna S",
+        "identifiers": [
+          "0000-0002-2038-7121"
+        ],
+        "affiliations": [
+          "Lee Kong Chian School of Medicine, Nanyang Technological University, 9 Nanyang Drive, 636921, Singapore, Singapore. stefano.perna@ntu.edu.sg."
+        ]
+      },
+      {
+        "full_name": "Pinoli, Pietro",
+        "short_name": "Pinoli P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics, Information and Bioengineering, Politecnico di Milano, 32 Piazza Leonardo da Vinci, 20133, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Ceri, Stefano",
+        "short_name": "Ceri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics, Information and Bioengineering, Politecnico di Milano, 32 Piazza Leonardo da Vinci, 20133, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Wong, Limsoon",
+        "short_name": "Wong L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, 13 Computing Drive, 117417, Singapore, Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 Aug 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:46",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "41642899"
+    ],
+    "refs": [
+      "31624847",
+      "31249361",
+      "30578913",
+      "30476227",
+      "30462313",
+      "30357367",
+      "30133315",
+      "29425488",
+      "29126249",
+      "29087512",
+      "27789702",
+      "27716038",
+      "27117388",
+      "26240877",
+      "25649616",
+      "24797614",
+      "23723166",
+      "22955991",
+      "22950945",
+      "22067325",
+      "21859476",
+      "21586587",
+      "21070640",
+      "21059603",
+      "20958978",
+      "19736561",
+      "19029915",
+      "18798982",
+      "16254242",
+      "15499007"
+    ],
+    "similar": [
+      "39210256",
+      "42475469",
+      "25957350",
+      "26679776",
+      "27845669",
+      "25775564",
+      "27556805",
+      "36321557",
+      "23272209",
+      "28750606",
+      "16362910",
+      "30578913",
+      "26818008",
+      "31114870",
+      "20838582",
+      "41325984",
+      "22955984",
+      "15865625",
+      "38940155",
+      "30709337",
+      "40702706",
+      "27052996",
+      "21750739",
+      "38732207",
+      "27993786",
+      "30869146",
+      "31340985",
+      "41518494",
+      "33001599",
+      "30598100",
+      "28334224",
+      "19956545",
+      "28718849",
+      "23912807",
+      "19036135",
+      "30352610",
+      "21124986",
+      "32921165",
+      "33522898",
+      "28234893",
+      "22955978",
+      "28957653",
+      "40279252",
+      "25559499",
+      "40646689",
+      "24369421",
+      "25041923",
+      "25158938",
+      "42099803",
+      "21124945",
+      "35652477",
+      "22943312",
+      "39227799",
+      "23144600",
+      "41310253",
+      "27899623",
+      "30517703",
+      "36484687",
+      "24472686",
+      "31406384",
+      "18922190",
+      "16477324",
+      "21193520",
+      "40102719",
+      "30323198",
+      "37805453",
+      "20363979",
+      "23244338",
+      "34486522",
+      "40914877",
+      "17118162",
+      "30261835",
+      "25179504",
+      "25927199",
+      "25722376",
+      "32847102",
+      "12054769",
+      "31372637",
+      "11724730",
+      "36057196",
+      "25079787",
+      "24337390",
+      "21496241",
+      "34272562",
+      "31053864",
+      "31158411",
+      "24565265",
+      "40334196",
+      "24564945",
+      "18426580",
+      "23427986",
+      "21352540",
+      "33372147",
+      "39541188",
+      "26627005",
+      "30183639",
+      "21859476",
+      "18367472",
+      "32814038",
+      "28764727"
+    ],
+    "review": [
+      "39210256",
+      "36321557",
+      "35652477",
+      "17118162"
+    ],
+    "pmc": [
+      "11363379"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10668-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39210256/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

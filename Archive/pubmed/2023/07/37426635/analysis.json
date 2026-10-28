@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37426635",
+  "title": "Identifying hub genes and common biological pathways between COVID-19 and benign prostatic hyperplasia by machine learning algorithms.",
+  "authors": "Zhou, Hang; Xu, Mingming; Hu, Ping; Li, Yuezheng; Ren, Congzhe; Li, Muwei; Pan, Yang; Wang, Shangren; Liu, Xiaoqiang",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-07-10",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习分析COVID-19与良性前列腺增生共病基因，虽涉及转录因子识别但核心为表达谱与通路分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: COVID-19, a serious respiratory disease that has the potential to affect numerous organs, is a serious threat to the health of people around the world. The objective of this article is to investigate the potential biological targets and mechanisms by which SARS-CoV-2 affects benign prostatic hyperplasia (BPH) and related symptoms. METHODS: We downloaded the COVID-19 datasets (GSE157103 and GSE166253) and the BPH datasets (GSE7307 and GSE132714) from the Gene Expression Omnibus (GEO) database. In GSE157103 and GSE7307, differentially expressed genes (DEGs) were found using the \"Limma\" package, and the intersection was utilized to obtain common DEGs. Further analyses followed, including those using Protein-Protein Interaction (PPI), Gene Ontology (GO) function enrichment analysis, and the Kyoto Encyclopedia of Genes and Genomes (KEGG). Potential hub genes were screened using three machine learning methods, and they were later verified using GSE132714 and GSE166253. The CIBERSORT analysis and the identification of transcription factors, miRNAs, and drugs as candidates were among the subsequent analyses. RESULTS: We identified 97 common DEGs from GSE157103 and GSE7307. According to the GO and KEGG analyses, the primary gene enrichment pathways were immune-related pathways. Machine learning methods were used to identify five hub genes (BIRC5, DNAJC4, DTL, LILRB2, and NDC80). They had good diagnostic properties in the training sets and were validated in the validation sets. According to CIBERSORT analysis, hub genes were closely related to CD4 memory activated of T cells, T cells regulatory and NK cells activated. The top 10 drug candidates (lucanthone, phytoestrogens, etoposide, dasatinib, piroxicam, pyrvinium, rapamycin, niclosamide, genistein, and testosterone) will also be evaluated by the P value, which is expected to be helpful for the treatment of COVID-19-infected patients with BPH. CONCLUSION: Our findings reveal common signaling pathways, possible biological targets, and promising small molecule drugs for BPH and COVID-19. This is crucial to understand the potential common pathogenic and susceptibility pathways between them.",
+  "abstract_zh": "背景：COVID-19是一种严重的呼吸道疾病，可能影响多个器官，对全球人民的健康构成严重威胁。本文旨在探讨SARS-CoV-2影响良性前列腺增生（BPH）及其相关症状的潜在生物学靶点和机制。方法：我们从基因表达综合（GEO）数据库下载了COVID-19数据集（GSE157103和GSE166253）和BPH数据集（GSE7307和GSE132714）。在GSE157103和GSE7307中，使用“Limma”包识别差异表达基因（DEGs），并利用交集获得共同DEGs。随后进行了进一步分析，包括蛋白质-蛋白质相互作用（PPI）、基因本体（GO）功能富集分析和京都基因与基因组百科全书（KEGG）分析。使用三种机器学习方法筛选潜在的核心基因，并随后使用GSE132714和GSE166253进行验证。CIBERSORT分析以及转录因子、miRNA和候选药物的识别属于后续分析。结果：我们从GSE157103和GSE7307中识别出97个共同DEGs。根据GO和KEGG分析，主要基因富集通路为免疫相关通路。使用机器学习方法识别出五个核心基因（BIRC5、DNAJC4、DTL、LILRB2和NDC80）。它们在训练集中具有良好的诊断特性，并在验证集中得到验证。根据CIBERSORT分析，核心基因与CD4记忆激活T细胞、调节性T细胞和自然杀伤细胞激活密切相关。排名前10的候选药物（lucanthone、植物雌激素、依托泊苷、达沙替尼、吡罗昔康、吡维铵、雷帕霉素、氯硝柳胺、染料木黄酮和睾酮）也将通过P值进行评估，这有望对感染COVID-19的BPH患者的治疗有所帮助。结论：我们的研究揭示了BPH和COVID-19之间的共同信号通路、可能的生物学靶点以及有前景的小分子药物。这对于理解它们之间潜在的共同致病和易感通路至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37426635/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37426635/",
+  "paper_page_path": "papers/pubmed/37426635/index.html"
+}

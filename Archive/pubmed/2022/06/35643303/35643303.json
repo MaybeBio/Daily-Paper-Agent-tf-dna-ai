@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "35643303",
+    "doi": "10.1016/j.ejphar.2022.175044",
+    "title": "Research on the effect and underlying molecular mechanism of Cangzhu in the treatment of gouty arthritis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: We aimed to identify the active ingredients and elucidate the underlying mechanism of action of Atractylodes lancea (Thunb.) DC (namely, Cangzhu) for the treatment of gouty arthritis (GA) based on network pharmacology methods. These findings are expected to provide a theoretical basis for the clinical treatment of GA. METHODS: We used monosodium urate (MSU)-induced GA rats as a model to test the overall efficacy of Cangzhu in vivo. Then, the components of the Cangzhu decoction were analyzed and identified, and we screened the active ingredients and their targets. The GA disease targets were predicted by GeneCards and Disgenet databases and found to overlap in both databases. The STRING database was used to construct a protein-protein interaction network, followed by identification of the hub genes using Network Analyzer. Thereafter, Cytoscape software (version 3.8.2) was applied to construct a network for drug-active ingredient-key targets. Next, we applied cluego, a plug-in of Cytoscape, to perform gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) signal pathway enrichment analyses. Additionally, molecular docking was used to verify the characteristics of the key candidate components interacting with the hub therapeutic targets. Finally, we established an inflammatory injury model of LPS using RAW264.7 macrophages and used it to experimentally validate the critical active ingredients. RESULTS: Cangzhu effectively protected against gouty arthritis in vivo, and network pharmacology results revealed various active ingredients in Cangzhu, such as wogonin, atractylenolide I and atractylenolide II. These compounds were found to act on 16 hub targets, including tumor necrosis factor-alpha (TNF-alpha), interleukin 6 (IL-6), interleukin-1beta (IL-1beta), prostaglandin-endoperoxide synthase 2 (PTGS2), recombinant mitogen-activated protein kinase 14 (MAPK14) and transcription factor p65 (RELA), which have significant effects on regulating inflammatory factors and apoptosis-related pathways to improve the proinflammatory or anti-inflammatory imbalance in the body, and this may be one of the underlying mechanisms of Cangzhu in anti-GA. CONCLUSION: Our findings revealed that Cangzhu comprises multiple active components that exert various targeted effects during GA treatment. These findings provide relevant insights to illuminate the mechanism of Cangzhu in the treatment of GA and provide a reference for further experimental research.",
+    "keywords": [
+      "Atractylodes lancea (Thunb.) DC (Cangzhu)",
+      "Gouty arthritis",
+      "Molecular docking",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Arthritis, Gouty/chemically induced/drug therapy/metabolism",
+      "*Drugs, Chinese Herbal/adverse effects",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "Rats",
+      "Uric Acid/adverse effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Chao",
+        "Wang, Chan",
+        "Guo, YiJing",
+        "Wen, Rou",
+        "Yan, LiPing",
+        "Zhang, FengRong",
+        "Gong, Qianfeng",
+        "Yu, Huan"
+      ],
+      "short_names": [
+        "Li C",
+        "Wang C",
+        "Guo Y",
+        "Wen R",
+        "Yan L",
+        "Zhang F",
+        "Gong Q",
+        "Yu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: libuyi99@163.com.",
+        "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 790112131@qq.com.",
+        "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 765717376@qq.com.",
+        "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 1240057947@qq.com.",
+        "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 285160168@qq.com.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, China. Electronic address: michaela2018@163.com.",
+        "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: gongqf2002@163.com.",
+        "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: huanhuanyu2006@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Chao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: libuyi99@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Chan",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 790112131@qq.com."
+        ]
+      },
+      {
+        "full_name": "Guo, YiJing",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 765717376@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wen, Rou",
+        "short_name": "Wen R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 1240057947@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yan, LiPing",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: 285160168@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, FengRong",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, China. Electronic address: michaela2018@163.com."
+        ]
+      },
+      {
+        "full_name": "Gong, Qianfeng",
+        "short_name": "Gong Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: gongqf2002@163.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Huan",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi University of Traditional Chinese Medicine, Nanchang, China. Electronic address: huanhuanyu2006@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Eur J Pharmacol"
+    ],
+    "pub_date": "2022 Jul 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/02 06:00",
+    "fetched_at": "2026-09-28 09:12:56"
+  },
+  "links": {
+    "cites": [
+      "41883400",
+      "41756235",
+      "41754802",
+      "41354800",
+      "41254711",
+      "40850676",
+      "39409183",
+      "39199366",
+      "39050804",
+      "38523684",
+      "37840725",
+      "37679038",
+      "37569173",
+      "37442943",
+      "36817858",
+      "36618800",
+      "36144486"
+    ],
+    "refs": [],
+    "similar": [
+      "35643303",
+      "39259129",
+      "33243703",
+      "36940736",
+      "38181263",
+      "36193152",
+      "33645090",
+      "38013344",
+      "33634308",
+      "38431192",
+      "39050804",
+      "35347967",
+      "35932610",
+      "35430443",
+      "33995019",
+      "36164881",
+      "37311931",
+      "32505843",
+      "39287271",
+      "38770346",
+      "34353081",
+      "37478249",
+      "38034481",
+      "30592318",
+      "34994141",
+      "33082858",
+      "36471963",
+      "35658881",
+      "33645094",
+      "39151493",
+      "34873575",
+      "34007291",
+      "34217946",
+      "33000578",
+      "37957674",
+      "27268719",
+      "33376732",
+      "23620384",
+      "25064339",
+      "34149863",
+      "36431060",
+      "34660782",
+      "34738439",
+      "38058447",
+      "28939019",
+      "31988013",
+      "33743701",
+      "38107658",
+      "35178959",
+      "32761488",
+      "37881185",
+      "33135192",
+      "37439115",
+      "35097126",
+      "34791846",
+      "36123941",
+      "33358854",
+      "33441867",
+      "33299870",
+      "34125845",
+      "32315738",
+      "33409535",
+      "34746302",
+      "35672755",
+      "36353478",
+      "36313338",
+      "36158000",
+      "35528163",
+      "34746316",
+      "27432278",
+      "33494738",
+      "24060409",
+      "33313323",
+      "34093213",
+      "34785888",
+      "33677310",
+      "33204683",
+      "34498478",
+      "33274236",
+      "36872431",
+      "32389853",
+      "35371275",
+      "34581057",
+      "32627496",
+      "35622496",
+      "34159207",
+      "26851531",
+      "32215271",
+      "35024051",
+      "33208065",
+      "34153045",
+      "34296561",
+      "35178962",
+      "37550914",
+      "35935817",
+      "37109624",
+      "33849106",
+      "34692849",
+      "34872267",
+      "33849116",
+      "34058439",
+      "21613312",
+      "35186104",
+      "35285205",
+      "33196098",
+      "34177580",
+      "29763636",
+      "34515002",
+      "33023593",
+      "34435046",
+      "33645014",
+      "34761652",
+      "32489064",
+      "38430024",
+      "34738404",
+      "38621464",
+      "38056535",
+      "36248423",
+      "36105284",
+      "37625387",
+      "35791093",
+      "35706803",
+      "36199550",
+      "35704651",
+      "38567354",
+      "37741847",
+      "38030283",
+      "35855823",
+      "38403355",
+      "35636166",
+      "39199366",
+      "37653836",
+      "38828049",
+      "36601890",
+      "35707715",
+      "37957901",
+      "36866196",
+      "38590567",
+      "36217431",
+      "37069596",
+      "33963245",
+      "36855022",
+      "35911404",
+      "36193133",
+      "36199685",
+      "36160710",
+      "36467554",
+      "36994890",
+      "35287352",
+      "38069821",
+      "38027735",
+      "37168993",
+      "36872228",
+      "34168274",
+      "39171596",
+      "35906742",
+      "39157086",
+      "36818604",
+      "35722158",
+      "36204124",
+      "35281924",
+      "36406124",
+      "35926267",
+      "36172495",
+      "36983855",
+      "37199310",
+      "38306549",
+      "35484722",
+      "36387362",
+      "35810695",
+      "35931303",
+      "38298712",
+      "37637422",
+      "35836835",
+      "38765022",
+      "38792208",
+      "36017263",
+      "39231689",
+      "39351010",
+      "39372584",
+      "37719850",
+      "35903344",
+      "36427477",
+      "37853057",
+      "36661523",
+      "36618800",
+      "37659934",
+      "39033477",
+      "35451570",
+      "33448177",
+      "36313358",
+      "39123236",
+      "39176260",
+      "35509887",
+      "37637408",
+      "36388796",
+      "38764819",
+      "37730000",
+      "35584580",
+      "36452894",
+      "38047238",
+      "39218127",
+      "33927774",
+      "39338392",
+      "38464719",
+      "39108124",
+      "35845309"
+    ],
+    "review": [
+      "35643303",
+      "33243703",
+      "38181263",
+      "38013344",
+      "39287271",
+      "37478249",
+      "33358854",
+      "38621464",
+      "39199366",
+      "38069821",
+      "37199310",
+      "38306549",
+      "39176260",
+      "37637408"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-2999(22)00305-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/35643303.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-878",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

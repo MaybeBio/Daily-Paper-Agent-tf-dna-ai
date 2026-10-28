@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "40087350",
+    "doi": "10.1038/s41598-025-85957-5",
+    "title": "Comprehensive analysis of bioinformatics identification TST, SQOR and NRDC is mitochondria-related biomarkers of ischemic cerebral apoplexy."
+  },
+  "content": {
+    "abstract": "Mitochondria are an important organelle affecting the occurrence and development of ischemic stroke (IS). Although the role of mitochondria in IS has been paid attention to, the relevant biomarkers have not been identified, and the targeted treatment is still lacking. To further solve these problems, in this study, we combined and standardized GSE16561 and GSE58294 datasets in the GEO database as the test set, and GSE22255 as the training set. The mitochondria-related gene set was obtained from MitoCarta3.0 for study. R language was used to screen differentially expressed genes (DEGs), and weighted gene co-expression network analysis (WGCNA) was used to obtain the intersection genes. KEGG pathway enrichment and gene ontology (GO) analysis were performed. LASSO and Logistic methods were used to determine the diagnostic markers of mitochondrial-related IS. The correlation between it and the main immune cells and immune-related factors was analysed. The ROC curve was used to determine the diagnostic efficacy. The protein co-expression network, transcription factor, and miRNA prediction, and drug prediction by cMAP were performed against these markers. Molecular docking tested the binding energy. Transmission electron microscopy was used to observe the structure and morphology of mitochondria in cerebral microvascular endothelial cells of MCAO/R rats. Biochemical kits were used to detect the levels of MDA and SOD in blood and tissues. Elisa was used to detect the changes of the above targets in blood and tissues. In this study, a total of 38 intersection genes were obtained, and a diagnostic model composed of 3 genes (TST, SQOR, NRDC) was further established. KEGG and GO analysis showed that these genes were highly related to immunity and were involved in the immune activities related to neutrophils, CD4(+)T cells, CD8(+)T cells, and macrophages. In addition, a total of 42 proteins, 601 transcription factors, and 99 miRNAs related to TST, SQOR, and NRDC were predicted, and the interaction map was constructed. cMAP predicted 5 potential small molecule drugs and molecular docking suggested that W.13 had the best binding energy. In MCAO/R rats, the mitochondria in BMECs were severely damaged and fragmented, accompanied by a decrease in SOD activity and an increase in MDA level. In addition, the levels of TST and SQOR in blood and tissues were increased, and the levels of NRDC were decreased. Our study provides new insights into further understanding of IS from a mitochondrial perspective.",
+    "keywords": [
+      "Bioinformatics",
+      "Drug screening",
+      "Ischemic stroke",
+      "Machine learning",
+      "Mitochondria"
+    ],
+    "mesh_terms": [
+      "*Mitochondria/metabolism/genetics",
+      "Animals",
+      "*Computational Biology/methods",
+      "Rats",
+      "Biomarkers/metabolism",
+      "*Ischemic Stroke/genetics/metabolism/pathology",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Molecular Docking Simulation",
+      "MicroRNAs/genetics",
+      "Male",
+      "Gene Ontology",
+      "Protein Interaction Maps",
+      "*Brain Ischemia/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tianci",
+        "Zhou, Xiaohong",
+        "Li, Meng",
+        "Zuo, Chunyue",
+        "Gao, Weijuan"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Zhou X",
+        "Li M",
+        "Zuo C",
+        "Gao W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China.",
+        "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China.",
+        "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China.",
+        "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China.",
+        "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China. gwj6088@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tianci",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaohong",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Chunyue",
+        "short_name": "Zuo C",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Weijuan",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei University of Chinese medicine, Hebei Key Laboratory of Chinese Medicine Research On Cardio-cerebrovasc, 050091, Shijiazhuang, Hebei, China. gwj6088@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/16 11:14",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38238834",
+      "38052107",
+      "38000344",
+      "37357521",
+      "37328278",
+      "37197995",
+      "37169132",
+      "37107310",
+      "37033646",
+      "36480861",
+      "36179435",
+      "35992111",
+      "35962388",
+      "35955583",
+      "35815687",
+      "35790774",
+      "35233090",
+      "35189704",
+      "34917161",
+      "34868060",
+      "34785599",
+      "34750572",
+      "34490268",
+      "34035265",
+      "33958684",
+      "33751318",
+      "33174596",
+      "32160317",
+      "32061776",
+      "31997797",
+      "31636403",
+      "31291966",
+      "30536341",
+      "30501621",
+      "30462313",
+      "30248487",
+      "29912392",
+      "29549824",
+      "29311286",
+      "28747015",
+      "28446746",
+      "28230087",
+      "25822800",
+      "25725526",
+      "25055920",
+      "25036109",
+      "24099785",
+      "23954170",
+      "22705875",
+      "22453632",
+      "21685364",
+      "14597658",
+      "112681"
+    ],
+    "similar": [
+      "40087350",
+      "38384969",
+      "40091022",
+      "38678526",
+      "38650009",
+      "39586719",
+      "38649659",
+      "32626985",
+      "39609718",
+      "40307317",
+      "39325100",
+      "38268925",
+      "40263537",
+      "40313968",
+      "38957433",
+      "38863714",
+      "39636891",
+      "40093012",
+      "35620387",
+      "40207230",
+      "38968466",
+      "37986378",
+      "38783263",
+      "32315738",
+      "39743646",
+      "39139563",
+      "35757392",
+      "39920860",
+      "39775580",
+      "34313877",
+      "40078458",
+      "39403102",
+      "39375405",
+      "39556279",
+      "38650649",
+      "39142001",
+      "40289127",
+      "39176085",
+      "39230867",
+      "39103773",
+      "30760287",
+      "38755717",
+      "38384585",
+      "39265357",
+      "40245021",
+      "40313958",
+      "38951833",
+      "39293329",
+      "33705733",
+      "34218797",
+      "40340571",
+      "39346628",
+      "39172048",
+      "34722763",
+      "39847586",
+      "39442645",
+      "32724801",
+      "39341981",
+      "39496786",
+      "39875572",
+      "35818227",
+      "37386410",
+      "39351239",
+      "33982485",
+      "38701300",
+      "35691413",
+      "36060663",
+      "37386280",
+      "37582718",
+      "35842645",
+      "38852219",
+      "39026250",
+      "35558576",
+      "39806309",
+      "36532015",
+      "40192032",
+      "40253531",
+      "35075378",
+      "39341952",
+      "31987036",
+      "39028999",
+      "29901134",
+      "39251231",
+      "39862324",
+      "39663269",
+      "38371524",
+      "39299659",
+      "38509535",
+      "34233597",
+      "39657721",
+      "36627660",
+      "39392250",
+      "37910287",
+      "39870856",
+      "39604470",
+      "35577542",
+      "40119397",
+      "39069636",
+      "34582494",
+      "40251588"
+    ],
+    "review": [
+      "40087350"
+    ],
+    "pmc": [
+      "11909143"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-85957-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40087350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

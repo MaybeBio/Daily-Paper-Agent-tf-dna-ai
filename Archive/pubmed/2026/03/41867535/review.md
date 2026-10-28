@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results and discussion, conclusions) without figures, tables, or supplementary material
+- **Assessment boundary** Computational findings and interpretations as presented in the text; experimental validation is stated by the authors as outside the scope
+- **Shared manuscript claim summary** The authors use the cryo-EM structure of the indirubin-bound human cytosolic AHR complex (PDB 7ZUB) to computationally explore binding modes of eight AHR agonists and five AHR antagonists. They report that agonists bind within the canonical ligand-binding pocket (LBP), while antagonists may bind either to the LBP (requiring rearrangement of the Dα-Eα-loop) or to two previously uncharacterized allosteric sites (site B at the AHR-AIP interface, site C between HSP90 molecules and the AHR PAS-A/PAS-B linker). MD simulations of BAY2416964 suggest stable binding in the LBP and site C, with more flexible binding in site B. In silico alanine scanning proposes specific residues for experimental validation.
+- **Visible evidence base** Text descriptions of docking results (Attracting Cavities and AutoDock Vina), MD simulation analyses (clustering, RMSD, RMSF, interaction energies, hydrogen bonds), Fpocket predictions with druggability scores, and in silico alanine scanning. Figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary material are absent. Specific numerical data (RMSD values, interaction energy magnitudes, cluster proportions beyond those cited in text) are not available. The manuscript text contains incomplete section cross-references (e.g., "Section  " with blank numbers), which limits verification of methodological details.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational exploration of AHR ligand binding using state-of-the-art docking and MD approaches, building on recently resolved cryo-EM structures. The work addresses a genuine gap in understanding AHR antagonist mechanisms and proposes testable hypotheses. However, the absence of figures and quantitative data in the provided material prevents full evaluation of the technical quality and robustness of the findings. The claims regarding novel allosteric sites are plausible but rest entirely on computational predictions without experimental corroboration, which the authors appropriately acknowledge. The manuscript would benefit from clearer presentation of validation metrics and more critical discussion of docking limitations.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational drug discovery, and AHR biology would find this work relevant. Those studying transcription factor regulation, particularly ligand-induced conformational changes and allosteric modulation, would be interested in the proposed mechanisms. The identification of potential allosteric sites could inform medicinal chemistry efforts targeting AHR for cancer immunotherapy and inflammatory diseases. The methodological approach combining global docking, MD simulations, and pocket prediction may also interest computational chemists developing workflows for multi-site binding analysis.
+- **Major strengths** The study leverages recent high-resolution cryo-EM structures, addressing a previously inaccessible question. The combination of multiple computational tools (AC, Vina, Fpocket, FoldX) provides complementary perspectives. The authors appropriately acknowledge limitations and frame findings as hypotheses requiring experimental validation. The focus on BAY2416964, a clinically relevant antagonist, enhances translational relevance. The proposal of specific residues for mutagenesis provides actionable guidance for experimental follow-up.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "AHR antagonists may bind either to the ligand-binding pocket or to alternative, as yet unexplored, sites outside of the ligand-binding pocket" based on docking and MD results.
+  - **Evidence pointer** Results sections 3.2 and 3.3; figures referenced but not provided
+  - **Concern** The central claim of antagonist binding to sites B and C rests on docking predictions that are not quantitatively validated in the provided text. No docking scores, enrichment factors, or comparison against known decoys are presented. The distinction between specific binding and nonspecific surface association is not addressed. The authors note that Vina did not predict antagonist binding in the LBP for several compounds, but the significance of this discrepancy is not discussed. Without figures showing the predicted binding modes, interaction maps, or quantitative scoring data, the reader cannot assess whether the proposed sites represent genuine binding pockets or artifacts of the docking protocol.
+  - **Why it matters** The identification of novel allosteric sites is the primary novel contribution of this work. If the evidence for these sites is not robustly presented and critically evaluated, the central claim is not established. Computational binding site prediction is prone to false positives, and the manuscript must demonstrate that these sites are not artifacts of the specific docking algorithm or protein conformation used.
+  - **Resolution test** Provide quantitative docking scores for all ligands at all sites, include control docking against decoy sites or scrambled structures, present figures with clear binding mode illustrations and interaction maps, and discuss the discrepancy between AC and Vina predictions for LBP binding of antagonists. Ideally, include free energy perturbation or MM-PBSA calculations to support binding affinity predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "MD simulations support stable binding of BAY2416964 within the LBP of AHR and even more so in site C" and that "BAY2416964 in site B was shown to be conformationally flexible, but no unbinding event was observed over the simulated period of 1.6 μs."
+  - **Evidence pointer** Results section 3.5; figures referenced but not provided
+  - **Concern** The MD simulation analysis is described only qualitatively in the text. No quantitative metrics are provided for binding stability beyond cluster proportions and RMSD values. The claim that site C binding is "more stable" than LBP binding is not supported by any free energy calculations or quantitative comparison of interaction energies. The observation that "no unbinding event occurred" over 1.6 μs is weak evidence of stable binding, as 200 ns per replicate may be insufficient to observe dissociation, particularly for a ligand in a buried pocket. The choice of starting structures from different docking protocols (rigid vs. flexible) for different systems introduces a confound that is not addressed.
+  - **Why it matters** The relative stability of BAY2416964 at different sites is central to the hypothesis that allosteric binding may be functionally relevant. Without quantitative comparison of binding free energies or at least consistent metrics across systems, the claim of differential stability is not established. The methodological inconsistency in starting structure generation could bias the results.
+  - **Resolution test** Provide per-residue interaction energy profiles for all systems, calculate binding free energies using MM-PBSA or similar approaches, extend simulation times or provide convergence analysis, and use consistent starting structure generation protocols across all systems. Present RMSD and cluster analysis figures to support the qualitative descriptions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that "antagonist-induced structural changes within this loop could influence the overall conformational dynamics and functional state transitions of the AHR complex" and that binding to sites B and C "could potentially stabilize interactions between the AHR and the cochaperones."
+  - **Evidence pointer** Results sections 3.2 and 3.3; discussion of functional implications
+  - **Concern** The functional significance of the proposed allosteric sites is speculative. The authors do not provide any experimental or computational evidence linking binding at sites B or C to functional outcomes such as altered AHR-ARNT dimerization, nuclear translocation, or transcriptional activity. The connection between the observed conformational changes in the Dα-Eα-loop and downstream functional effects is not mechanistically developed. The discussion of prior literature on allosteric AHR modulation is brief and does not establish a strong precedent for the proposed mechanisms.
+  - **Why it matters** The translational relevance of this work depends on the functional importance of the proposed binding sites. If binding at these sites has no functional consequence, the findings are of limited interest beyond the structural characterization. The manuscript should either provide stronger computational evidence for functional effects or more clearly frame these as speculative hypotheses requiring experimental testing.
+  - **Resolution test** Discuss how the proposed allosteric sites might be experimentally tested for functional relevance, such as through mutagenesis coupled with reporter assays or measurement of AHR-ARNT dimerization. Consider whether existing experimental data on AHR antagonists could be reinterpreted in light of these findings. If functional predictions are not possible from the current data, state this limitation explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Results section 3.1
+  - **Evidence pointer** Text descriptions of AHR structure and function
+  - **Issue** The introduction assumes significant prior knowledge of AHR biology and structural details. Terms such as "PAS domain," "bHLH," and "Dα-Eα-loop" are used without adequate explanation for readers outside the AHR field.
+  - **Required correction** Provide brief definitions or context for domain names and structural features when first introduced. Consider adding a schematic figure of the AHR complex architecture to aid nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodology section 2.1
+  - **Evidence pointer** "For the modeling, the ADP/molybdate cofactors were replaced by adenosine triphosphate (ATP) to reflect physiologically relevant HSP90 states"
+  - **Issue** The rationale for replacing ADP with ATP is stated but not justified with citations or discussion. The potential impact of this modification on the predicted binding sites is not addressed.
+  - **Required correction** Provide a brief justification for this choice, ideally with supporting references, and discuss whether the ATP-bound state could affect the conformation of the AHR complex and thus the predicted binding sites.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodology section 2.2.1
+  - **Evidence pointer** "Ligands were considered in their standard protonation state at pH 7, except for kynurenic acid (KynA), where the neutral species was docked."
+  - **Issue** The choice to dock the neutral species of KynA is not explained. KynA is likely ionized at physiological pH, and this choice could affect the predicted binding mode.
+  - **Required correction** Justify this choice with pKa considerations or reference to prior experimental data. Discuss whether docking the ionized form would be expected to change the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodology section 2.4
+  - **Evidence pointer** "The MD simulations were run on a single thread of an AMD EPYC 7702 (or 7763) CPU core and one NVIDIA A100-SXM4-(or -PCIE)-40GB GPU with an average performance of 0.9 h/ns."
+  - **Issue** The performance metric (0.9 h/ns) suggests approximately 180 days of wall-clock time per 200 ns simulation. With 8 replicates per system and 5 systems, the total computational cost is substantial. The authors do not state how many simulations were run in parallel or the total computational resources used.
+  - **Required correction** Clarify the parallelization strategy and total computational resources. This information is relevant for assessing the feasibility and reproducibility of the simulations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section 3.5
+  - **Evidence pointer** "Nonbonded interaction energies were analyzed by identifying residues in contact with a ligand or a residue of interest, defined as having a minimum distance below 0.42 nm for at least 30% of the simulation."
+  - **Issue** The threshold values (0.42 nm, 30%) are presented without justification. The choice of these cutoffs could influence which residues are identified as important for binding.
+  - **Required correction** Provide a brief justification for the chosen thresholds or cite prior studies using similar criteria. Discuss the sensitivity of the results to these parameters.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section 3.6
+  - **Evidence pointer** "In silico alanine scanning was carried out with FoldX version 5.1... A ΔG value below 6 kJ/mol was interpreted as indicating that the corresponding mutation would have only a limited impact on the structural integrity of the complex."
+  - **Issue** The interpretation of ΔG values from FoldX alanine scanning is not standard. Typically, higher ΔG values indicate destabilization upon mutation, and the threshold for "significant" effects varies. The authors' interpretation that values below 6 kJ/mol indicate limited impact is not contextualized with respect to FoldX accuracy or typical thresholds.
+  - **Required correction** Provide context for the chosen threshold, ideally with references to FoldX validation studies. Discuss the expected error in FoldX ΔG predictions and how this affects the interpretation.
+
+## Risk / unsupported claims
+- The claim that "AHR antagonists may bind either to the ligand-binding pocket or to alternative, as yet unexplored, sites outside of the ligand-binding pocket" is supported by docking predictions but not quantitatively validated in the provided text. The absence of docking scores, enrichment analyses, or comparison against decoys makes this claim only weakly supported.
+- The statement that "BAY2416964 showed the greatest conformational stability in Site C" is based on cluster analysis, but the quantitative comparison across sites is not presented. The claim of differential stability is not fully supported.
+- The hypothesis that "antagonist-induced structural changes within this loop could influence the overall conformational dynamics and functional state transitions of the AHR complex" is speculative and not supported by direct evidence in the provided material.
+- The suggestion that "binding of a hydrophobic molecule, such as BAY2416964, in site B or C could stabilize the AHR conformation within the cytosolic complex" is an interpretation of RMSD/RMSF changes that may have alternative explanations.
+- The proposal of specific residues for experimental validation (GLN383, TYR332, ARG398, THR400, LYS401, LEU402, THR282, ASN284, ASP613, THR616, MET620) is based on computational predictions and requires experimental confirmation. The authors appropriately frame these as candidates, but the confidence level is not stated.
+- The claim that "the use of the protein pocket detection tool Fpocket supports our hypothesis that therapeutically relevant small molecules may bind to alternative binding sites" is based on pocket prediction alone, which is a weak form of evidence for functional binding sites.
+- The statement that "the decreased backbone RMSD of AHR upon binding of BAY2416964 in sites B and C may hint at the presence of a hydrophobic factor that is needed to further stabilize the system" is speculative and not directly supported by the presented data.
+- The assertion that "our findings support the suitability of the indirubin-bound human HSP90-AIP-AHR cytosolic complex as a model for computational ligand docking studies" is based on successful reproduction of known agonist binding modes, but the generalizability to other ligands and conditions is not established.

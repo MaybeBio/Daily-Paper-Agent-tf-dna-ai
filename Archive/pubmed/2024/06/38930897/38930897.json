@@ -1,0 +1,531 @@
+{
+  "identity": {
+    "pmid": "38930897",
+    "doi": "10.3390/molecules29122832",
+    "title": "Fucoxanthin Induces Ferroptosis in Cancer Cells via Downregulation of the Nrf2/HO-1/GPX4 Pathway."
+  },
+  "content": {
+    "abstract": "This study investigated the mechanism by which fucoxanthin acts as a novel ferroptosis inducer to inhibit tongue cancer. The MTT assay was used to detect the inhibitory effects of fucoxanthin on SCC-25 human tongue squamous carcinoma cells. The levels of reactive oxygen species (ROS), mitochondrial membrane potential (MMP), glutathione (GSH), superoxide dismutase (SOD), malondialdehyde (MDA), and total iron were measured. Reverse transcription-quantitative polymerase chain reaction (RT-qPCR) and Western blotting were used to assess glutathione peroxidase 4 (GPX4), nuclear factor erythroid 2-related factor 2 (Nrf2), Keap1, solute carrier family 7 member 11 (SLC7A11), transferrin receptor protein 1 (TFR1), p53, and heme oxygenase 1 (HO-1) expression. Molecular docking was performed to validate interactions. Compared with the control group, the activity of fucoxanthin-treated SCC-25 cells significantly decreased in a dose- and time-dependent manner. The levels of MMP, GSH, and SOD significantly decreased in fucoxanthin-treated SCC-25 cells; the levels of ROS, MDA, and total iron significantly increased. mRNA and protein expression levels of Keap1, GPX4, Nrf2, and HO-1 in fucoxanthin-treated cells were significantly decreased, whereas levels of TFR1 and p53 were significantly increased, in a concentration-dependent manner. Molecular docking analysis revealed that binding free energies of fucoxanthin with p53, SLC7A11, GPX4, Nrf2, Keap1, HO-1, and TFR1 were below -5 kcal/mol, primarily based on active site hydrogen bonding. Our findings suggest that fucoxanthin can induce ferroptosis in SCC-25 cells, highlighting its potential as a treatment for tongue cancer.",
+    "keywords": [
+      "Nrf2/HO-1/GPX4 pathway",
+      "anti-cancer",
+      "ferroptosis",
+      "fucoxanthin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Ferroptosis/drug effects",
+      "*Xanthophylls/pharmacology/chemistry",
+      "*Heme Oxygenase-1/metabolism/genetics",
+      "Cell Line, Tumor",
+      "*Phospholipid Hydroperoxide Glutathione Peroxidase/metabolism",
+      "*Molecular Docking Simulation",
+      "Reactive Oxygen Species/metabolism",
+      "Signal Transduction/drug effects",
+      "Tongue Neoplasms/drug therapy/metabolism/pathology",
+      "Receptors, Transferrin/metabolism",
+      "Membrane Potential, Mitochondrial/drug effects",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Amino Acid Transport System y+/metabolism/genetics",
+      "Superoxide Dismutase/metabolism",
+      "Down-Regulation/drug effects",
+      "Antigens, CD"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Hao-Fei",
+        "Wu, Jia-Wei",
+        "Zhu, Yu-Shan",
+        "Hua, Zheng-Hao",
+        "Jin, Si-Zhou",
+        "Ji, Jin-Chao",
+        "Wang, Cai-Sheng",
+        "Qian, Guo-Ying",
+        "Jin, Xu-Dong",
+        "Ding, Hao-Miao"
+      ],
+      "short_names": [
+        "Du HF",
+        "Wu JW",
+        "Zhu YS",
+        "Hua ZH",
+        "Jin SZ",
+        "Ji JC",
+        "Wang CS",
+        "Qian GY",
+        "Jin XD",
+        "Ding HM"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-3911-7574",
+        "ORCID: 0009-0001-3846-7701"
+      ],
+      "affiliations": [
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China.",
+        "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Hao-Fei",
+        "short_name": "Du HF",
+        "identifiers": [
+          "0009-0006-3911-7574"
+        ],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jia-Wei",
+        "short_name": "Wu JW",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yu-Shan",
+        "short_name": "Zhu YS",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Zheng-Hao",
+        "short_name": "Hua ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Si-Zhou",
+        "short_name": "Jin SZ",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Jin-Chao",
+        "short_name": "Ji JC",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cai-Sheng",
+        "short_name": "Wang CS",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Guo-Ying",
+        "short_name": "Qian GY",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Xu-Dong",
+        "short_name": "Jin XD",
+        "identifiers": [],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Hao-Miao",
+        "short_name": "Ding HM",
+        "identifiers": [
+          "0009-0001-3846-7701"
+        ],
+        "affiliations": [
+          "Hwamei College of Life and Health Sciences, Zhejiang Wanli University, Ningbo 315100, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2024 Jun 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/27 06:43",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42591785",
+      "41823538",
+      "41745458",
+      "41378035",
+      "41243078",
+      "41227330",
+      "41139446",
+      "40867889",
+      "40733098",
+      "40654534",
+      "40559667",
+      "40227310",
+      "40195518",
+      "40077636"
+    ],
+    "refs": [
+      "38652329",
+      "38612772",
+      "38576562",
+      "38465879",
+      "38419758",
+      "38398289",
+      "38375789",
+      "38339810",
+      "38331341",
+      "38278315",
+      "38247539",
+      "38240135",
+      "38196088",
+      "38183698",
+      "38151503",
+      "38132956",
+      "38073087",
+      "38035706",
+      "37999416",
+      "37783225",
+      "37764312",
+      "37726294",
+      "37658069",
+      "37639810",
+      "37036428",
+      "35954003",
+      "35440880",
+      "35326233",
+      "34918923",
+      "31659150",
+      "30781396",
+      "30583467",
+      "28515173",
+      "22632970"
+    ],
+    "similar": [
+      "38930897",
+      "39041134",
+      "39167283",
+      "38734270",
+      "33590347",
+      "38977343",
+      "38837315",
+      "39307771",
+      "31490283",
+      "39353831",
+      "38507850",
+      "37802825",
+      "37856990",
+      "32770451",
+      "35598290",
+      "34206421",
+      "39072683",
+      "39359199",
+      "38850659",
+      "38987730",
+      "34768761",
+      "38149556",
+      "35673910",
+      "38822984",
+      "38423409",
+      "38887622",
+      "39212400",
+      "38165425",
+      "38877424",
+      "32654377",
+      "38178661",
+      "39370874",
+      "28012440",
+      "38926825",
+      "35091012",
+      "39276458",
+      "38295662",
+      "36234847",
+      "38401661",
+      "39012393",
+      "36293552",
+      "36222130",
+      "36916343",
+      "38679154",
+      "33215224",
+      "32601262",
+      "30339884",
+      "38556062",
+      "39002880",
+      "34237431",
+      "37298147",
+      "38685305",
+      "38176266",
+      "38558206",
+      "39307744",
+      "38837857",
+      "36180832",
+      "39272008",
+      "38852649",
+      "35237380",
+      "39163615",
+      "35968603",
+      "34530350",
+      "39192784",
+      "29274359",
+      "33113504",
+      "33101585",
+      "37955318",
+      "32540488",
+      "35673921",
+      "36857798",
+      "31737162",
+      "38114123",
+      "38991271",
+      "33343809",
+      "39016055",
+      "36396105",
+      "38727095",
+      "39260309",
+      "39210414",
+      "34966478",
+      "38628654",
+      "38636375",
+      "37282905",
+      "32589628",
+      "31865348",
+      "34345202",
+      "39181440",
+      "33737050",
+      "38991270",
+      "24941846",
+      "37392674",
+      "28103505",
+      "33453607",
+      "26721592",
+      "34699317",
+      "36184550",
+      "24796746",
+      "38621946",
+      "34707773",
+      "39197328",
+      "34934311",
+      "36555529",
+      "38538975",
+      "35757509",
+      "38945378",
+      "30717178",
+      "37822721",
+      "38901771",
+      "32004978",
+      "26698668",
+      "34098867",
+      "39147356",
+      "31112588",
+      "34405366",
+      "38359744",
+      "38727079",
+      "37714424",
+      "38685023",
+      "36819782",
+      "35729458",
+      "37315642",
+      "38103098",
+      "37506403",
+      "33434705",
+      "35190654",
+      "35531720",
+      "38418695",
+      "38944257",
+      "38780199",
+      "39068256",
+      "36355759",
+      "39243573",
+      "39431016",
+      "39370816",
+      "39343853",
+      "39067746",
+      "38779733",
+      "38145959",
+      "38992539",
+      "38968575",
+      "38663336",
+      "38526774",
+      "39111582",
+      "38874821",
+      "39051078",
+      "39400975",
+      "39128446",
+      "38866192",
+      "39244999",
+      "39214275",
+      "39134490",
+      "39430236",
+      "39067398",
+      "39357374",
+      "39082470",
+      "39213749",
+      "38843947",
+      "39154227",
+      "38159178",
+      "38342390",
+      "38753240",
+      "39276049",
+      "39164198",
+      "38100883",
+      "35847598",
+      "39047638",
+      "39231684",
+      "39390682",
+      "38996707",
+      "38876457",
+      "39311951",
+      "39082358",
+      "39181279",
+      "39062593",
+      "39166605",
+      "39117020",
+      "38252991",
+      "38866351",
+      "35581292",
+      "38833663",
+      "39062590",
+      "39425081",
+      "38884354",
+      "38812318",
+      "38536579",
+      "39298820",
+      "39032396",
+      "39033838",
+      "38150992",
+      "38876379",
+      "38906321",
+      "39430237",
+      "39276841",
+      "38944214",
+      "37875418",
+      "39242661",
+      "39292340",
+      "39417751",
+      "36951540",
+      "39423479",
+      "38642502",
+      "39019361",
+      "39153287",
+      "39155221",
+      "39332487",
+      "39334717",
+      "39227128",
+      "37379471",
+      "39188240",
+      "39330572",
+      "38040913",
+      "38259585",
+      "39020084",
+      "39192032",
+      "38945457",
+      "38070189",
+      "37995455",
+      "39192971",
+      "39396427",
+      "39251858",
+      "39305302",
+      "39241468",
+      "39110510",
+      "38945098",
+      "38917486",
+      "31695092",
+      "39180126",
+      "38706348",
+      "38523594",
+      "35043283",
+      "39175432",
+      "39427521",
+      "39392831",
+      "39341007",
+      "39158808",
+      "34356327",
+      "39225187",
+      "39229071",
+      "29939160",
+      "39090392"
+    ],
+    "review": [
+      "38930897",
+      "39020084",
+      "38706348"
+    ],
+    "pmc": [
+      "11206433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules29122832",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38930897/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38930897",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

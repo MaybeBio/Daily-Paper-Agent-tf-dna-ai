@@ -1,0 +1,234 @@
+{
+  "identity": {
+    "pmid": "38187522",
+    "doi": "10.1101/2023.12.19.572411",
+    "title": "Dynamic Multiplexed Control and Modeling of Optogenetic Systems Using the High-Throughput Optogenetic Platform, Lustro."
+  },
+  "content": {
+    "abstract": "The ability to control cellular processes using optogenetics is inducer-limited, with most optogenetic systems responding to blue light. To address this limitation we leverage an integrated framework combining Lustro, a powerful high-throughput optogenetics platform, and machine learning tools to enable multiplexed control over blue light-sensitive optogenetic systems. Specifically, we identify light induction conditions for sequential activation as well as preferential activation and switching between pairs of light-sensitive spit transcription factors in the budding yeast, Saccharomyces cerevisiae . We use the high-throughput data generated from Lustro to build a Bayesian optimization framework that incorporates data-driven learning, uncertainty quantification, and experimental design to enable the prediction of system behavior and the identification of optimal conditions for multiplexed control. This work lays the foundation for designing more advanced synthetic biological circuits incorporating optogenetics, where multiple circuit components can be controlled using designer light induction programs, with broad implications for biotechnology and bioengineering.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harmer, Zachary P",
+        "Thompson, Jaron C",
+        "Cole, David L",
+        "Zavala, Victor M",
+        "McClean, Megan N"
+      ],
+      "short_names": [
+        "Harmer ZP",
+        "Thompson JC",
+        "Cole DL",
+        "Zavala VM",
+        "McClean MN"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Harmer, Zachary P",
+        "short_name": "Harmer ZP",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Thompson, Jaron C",
+        "short_name": "Thompson JC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cole, David L",
+        "short_name": "Cole DL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zavala, Victor M",
+        "short_name": "Zavala VM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "McClean, Megan N",
+        "short_name": "McClean MN",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Dec 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/08 06:43",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38187522",
+      "38684225",
+      "37590537",
+      "37434272",
+      "38371319",
+      "37066312",
+      "34346207",
+      "30065085",
+      "33119964",
+      "34445244",
+      "36814715",
+      "33232598",
+      "28210796",
+      "31788779",
+      "33492138",
+      "35481893",
+      "37047499",
+      "32105734",
+      "33835777",
+      "29596741",
+      "35398205",
+      "36534043",
+      "35071213",
+      "35579776",
+      "23226369",
+      "33021199",
+      "32651917",
+      "37298488",
+      "39131330",
+      "32601426",
+      "34309594",
+      "34791201",
+      "33107225",
+      "37810238",
+      "34431694",
+      "37906946",
+      "35973993",
+      "25403319",
+      "26423970",
+      "24413462",
+      "30643713",
+      "33191936",
+      "34592347",
+      "32715616",
+      "23319548",
+      "27805047",
+      "32941934",
+      "36129831",
+      "29775585",
+      "34429103",
+      "33620312",
+      "31370930",
+      "33714161",
+      "38606936",
+      "29045151",
+      "31811271",
+      "33377035",
+      "34797069",
+      "37956352",
+      "31468691",
+      "38468104",
+      "37733664",
+      "33398831",
+      "33303134",
+      "35046775",
+      "29562237",
+      "35860501",
+      "38032796",
+      "30633858",
+      "37479090",
+      "29913065",
+      "31699521",
+      "25683779",
+      "31834783",
+      "30301909",
+      "35031132",
+      "34561433",
+      "29442428",
+      "23458457",
+      "38696739",
+      "25651158",
+      "38246410",
+      "31293905",
+      "25787711",
+      "32932241",
+      "29695503",
+      "30955324",
+      "31269201",
+      "28273648",
+      "33271520",
+      "26941055",
+      "27697903",
+      "26280330",
+      "26022242",
+      "25343333",
+      "29984995",
+      "23515075",
+      "37422133",
+      "39321291",
+      "37745456",
+      "36285185"
+    ],
+    "review": [
+      "38187522",
+      "28210796",
+      "35398205",
+      "35071213",
+      "34791201",
+      "33107225",
+      "30643713",
+      "34592347",
+      "32715616",
+      "23319548",
+      "35046775",
+      "30633858",
+      "37479090",
+      "31699521",
+      "35031132",
+      "23458457",
+      "25787711",
+      "28273648"
+    ],
+    "pmc": [
+      "10769237"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38187522/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.12.19.572411",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "41394826",
+    "doi": "10.3389/fimmu.2025.1648648",
+    "title": "Machine learning-based prediction of nasopharyngeal carcinoma risk: a clinical approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Early screening and risk assessment of nasopharyngeal carcinoma (NPC) are essential for timely diagnosis and improved treatment outcomes. This study aimed to develop and evaluate predictive models using logistic regression and machine learning (ML) techniques to identify significant risk factors for NPC across various healthcare settings. METHODS: A total of 569 participants were enrolled in the internal training and validation cohorts, and 160 were enrolled in the independent external validation cohort. Several Epstein-Barr virus (EBV)-related antibodies and serological and hematological markers were assessed to identify discriminatory features between NPC and non-NPC individuals. Feature selection was performed using least absolute shrinkage and selection operator (LASSO) regression, recursive feature elimination cross-validation (REFCV), and support vector machine recursive feature elimination cross-validation (SVMREFCV). The performance of nine machine learning (ML) models (logistic regression (LR), eXtreme Gradient Boosting (XGBoost), light gradient boosting machine (LightGBM), random forest (RF), AdaBoost, multilayer perceptron (MLP), decision tree (DT), gradient boosting decision tree (GBDT), and Gaussian Naive Bayes (GNB)) was evaluated using the area under the curve (AUC), accuracy (ACC), sensitivity (SE), and specificity (SP) in both the training and validation cohorts. Model calibration was assessed using calibration plots and clinical utility was evaluated through decision curve analysis (DCA). RESULTS: Five key predictors (nuclear antigen 1 immunoglobulin A (NTA1-IgA), viral capsid antigen immunoglobulin A (VCA-IgA), Rta protein immunoglobulin A (Rta-IgA), platelet (PLT) count, and lymphocyte (LM) count) were consistently identified across the three feature selection algorithms. The XGBoost model achieved the highest performance in the internal training (AUC = 0.999) and validation cohorts (AUC = 0.995); it also outperformed in the independent external validation cohort with an AUC of 0.956. Calibration and DCA for both internal and intendent external cohorts were then confirmed the strong clinical utility for the XGBoost model. An outline tool also enabled real-time NPC risk prediction based on the five selected biomarkers. CONCLUSION: This study presents a robust and interpretable ML-based approach for NPC risk prediction, integrating EBV serology and hematological markers. The model demonstrated high predictive accuracy and potential for population-based screening, providing an efficient tool for early NPC detection and intervention planning.",
+    "keywords": [
+      "Epstein-Barr virus (EBV)",
+      "NPC screening",
+      "logistic regression",
+      "machine learning (ML)",
+      "nasopharyngeal carcinoma (NPC)",
+      "predictive modeling"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Risk Assessment/methods",
+      "Boosting Machine Learning Algorithms",
+      "*Epstein-Barr Virus Infections/blood/complications/diagnosis/virology",
+      "Support Vector Machine",
+      "*Nasopharyngeal Carcinoma/blood/diagnosis/epidemiology/virology",
+      "*Nasopharyngeal Neoplasms/blood/diagnosis/epidemiology/virology",
+      "Herpesvirus 4, Human/immunology",
+      "Antibodies, Viral/blood/immunology",
+      "Antigens, Viral/immunology",
+      "Capsid Proteins/immunology",
+      "Immunoglobulin A/blood/immunology",
+      "Platelet Count",
+      "Lymphocyte Count",
+      "Humans",
+      "Trans-Activators/immunology",
+      "Immediate-Early Proteins/immunology",
+      "Epstein-Barr Virus Nuclear Antigens/immunology",
+      "Retrospective Studies",
+      "Male",
+      "Female",
+      "Adult",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Wenhui",
+        "Zhou, Chengyan",
+        "Tang, Minzhong",
+        "Huang, Zhiqiang",
+        "Zhu, Haiqing",
+        "Li, Shangyang",
+        "Huang, Huipin",
+        "Liang, Yujuan",
+        "Pan, Wenting",
+        "Yuan, Yulin"
+      ],
+      "short_names": [
+        "Yang W",
+        "Zhou C",
+        "Tang M",
+        "Huang Z",
+        "Zhu H",
+        "Li S",
+        "Huang H",
+        "Liang Y",
+        "Pan W",
+        "Yuan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Dermatology, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Key Laboratory of Nasopharyngeal Carcinoma Molecular Epidemiology, Wuzhou Red Cross Hospital, Wuzhou, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The First People's Hospital of Fangchenggang City, Fangchenggang, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The People's Hospital of Yongning District, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China.",
+        "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Wenhui",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chengyan",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Minzhong",
+        "short_name": "Tang M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Nasopharyngeal Carcinoma Molecular Epidemiology, Wuzhou Red Cross Hospital, Wuzhou, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhiqiang",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The First People's Hospital of Fangchenggang City, Fangchenggang, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Haiqing",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Yongning District, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shangyang",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Huipin",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yujuan",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Wenting",
+        "short_name": "Pan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yulin",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The People's Hospital of Guangxi Zhuang Autonomous Region, Nanning, Guangxi Zhuang Autonomous Region, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/15 13:09",
+    "fetched_at": "2026-10-01 09:09:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40303496",
+      "40118267",
+      "40033021",
+      "39630387",
+      "39244576",
+      "39177900",
+      "39163131",
+      "38545735",
+      "38276183",
+      "38273098",
+      "38236288",
+      "38076050",
+      "38073436",
+      "37979476",
+      "37932756",
+      "37552128",
+      "36969866",
+      "36846758",
+      "36480263",
+      "36241564",
+      "35996401",
+      "33849968",
+      "33691680",
+      "33577563",
+      "31759378",
+      "29221111",
+      "23457511",
+      "21148719",
+      "11352289"
+    ],
+    "similar": [
+      "41394826",
+      "32222897",
+      "26884888",
+      "31925935",
+      "21866545",
+      "39244576",
+      "38894502",
+      "34074258",
+      "24716925",
+      "41151095",
+      "40982461",
+      "27468579",
+      "19550133",
+      "24878579",
+      "29807404",
+      "20335122",
+      "41439796",
+      "39264275",
+      "29295705",
+      "24521892",
+      "39008896",
+      "12740922",
+      "21447725",
+      "21544243",
+      "33494127",
+      "17129209",
+      "15022282",
+      "41505354",
+      "31705522",
+      "27062704",
+      "27093005",
+      "19664327",
+      "26920891",
+      "40303496",
+      "29301829",
+      "40663182",
+      "21177196",
+      "33268566",
+      "41885152",
+      "18206420",
+      "16597877",
+      "11802211",
+      "14684618",
+      "20387494",
+      "11745260",
+      "19321695",
+      "12875623",
+      "26082292",
+      "15195243",
+      "40986161",
+      "25990085",
+      "20108775",
+      "36241564",
+      "31469434",
+      "33025864",
+      "22972969",
+      "28603915",
+      "41606056",
+      "10779195",
+      "24652560",
+      "32780356",
+      "40418571",
+      "27527073",
+      "21805179",
+      "24477877",
+      "38817018",
+      "19448418",
+      "40033021",
+      "26151639",
+      "24769890",
+      "10728597",
+      "32578505",
+      "39353160",
+      "34465768",
+      "11316043",
+      "41062718",
+      "15997877",
+      "31373615",
+      "7931181",
+      "32102852",
+      "32167688",
+      "28754665",
+      "34164868",
+      "40055661",
+      "10375611",
+      "38520712",
+      "29323852",
+      "11526145",
+      "11712805",
+      "29971780",
+      "21837797",
+      "24044217",
+      "38822730",
+      "36165913",
+      "32279316",
+      "18420792",
+      "20621126",
+      "29444646",
+      "40105097",
+      "41249564"
+    ],
+    "review": [
+      "41394826",
+      "39244576",
+      "27468579",
+      "36241564"
+    ],
+    "pmc": [
+      "12695806"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41394826/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1178",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1648648",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

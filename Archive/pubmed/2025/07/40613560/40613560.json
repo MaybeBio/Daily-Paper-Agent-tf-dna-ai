@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "40613560",
+    "doi": "10.1111/1756-185X.70344",
+    "title": "Decoding PANoptosis in Gout: Signature Gene Identification and Immune Infiltration Profiling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gout is an inflammatory disorder triggered by the deposition of monosodium urate (MSU) crystals in joints and periarticular tissues. PANoptosis, a recently identified form of inflammatory cell death, remains uncharacterized in gout pathogenesis. This study aims to identify PANoptosis-related genes that may drive gout progression. METHODS: Gout-related datasets, including the human cohort (GSE160170) and murine model (GSE190138), were retrieved from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were screened using thresholds of |log(2) fold change (FC)| >/= 1 and adjusted P-value < 0.05. PANoptosis-related biomarkers were identified through the combined use of MCODE and cytoHubba algorithms in Cytoscape. Least Absolute Shrinkage and Selection Operator (LASSO) regression was applied to select hub genes. Subsequently, we performed single-sample gene set enrichment analysis (ssGSEA) for the hub genes, analyzed the infiltration levels of immune cells, constructed a miRNA-mRNA-transcription factor (TF) regulatory network, and identified potential therapeutic drugs via the DSigDB database and the Coremine Medical database. Finally, the expression of the diagnostic gene was validated by real-time quantitative reverse transcription polymerase chain reaction (RT-qPCR). RESULTS: The PANoptosis-associated gene SOCS3 was identified via integrative bioinformatics screening. Enrichment analysis and immune infiltration assessment revealed its involvement in gout pathogenesis through pathways linked to inflammation and cell death, with significant correlations observed with specific immune cell subsets. Clinical validation via RT-qPCR confirmed a strong consistency between SOCS3 expression levels in gout patients and computational predictions. CONCLUSION: We identified the hub gene SOCS3 in gout and elucidated its mechanistic roles by integrated bioinformatics analysis, machine learning approach, and clinical validation, providing critical insights for advancing diagnostic biomarkers and therapeutic strategies in gout management.",
+    "keywords": [
+      "PANoptosis",
+      "bioinformatics",
+      "gout",
+      "immune infiltration"
+    ],
+    "mesh_terms": [
+      "*Gout/genetics/immunology/pathology/metabolism",
+      "Humans",
+      "Animals",
+      "Databases, Genetic",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "*Suppressor of Cytokine Signaling 3 Protein/genetics/metabolism",
+      "MicroRNAs/genetics",
+      "Mice",
+      "*Transcriptome",
+      "Computational Biology",
+      "Disease Models, Animal",
+      "Cell Death/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Junjie",
+        "Li, Aifang",
+        "Luo, Gaiying",
+        "Wu, Zhen",
+        "Liu, Yuan"
+      ],
+      "short_names": [
+        "Cao J",
+        "Li A",
+        "Luo G",
+        "Wu Z",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3313-2010"
+      ],
+      "affiliations": [
+        "Department of Laboratory Medicine, Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China.",
+        "Department of Laboratory Medicine, Xi'an Chest Hospital, Xi'an, Shaanxi Province, China.",
+        "Department of Laboratory Medicine, Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China.",
+        "Department of Rheumatology (Unit 6), Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China.",
+        "Department of Laboratory Medicine, Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Junjie",
+        "short_name": "Cao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Aifang",
+        "short_name": "Li A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Xi'an Chest Hospital, Xi'an, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Gaiying",
+        "short_name": "Luo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhen",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology (Unit 6), Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0009-0002-3313-2010"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine, Xi'an Fifth Hospital, Xi'an, Shaanxi Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of rheumatic diseases"
+    ],
+    "journal_abbrev": [
+      "Int J Rheum Dis"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/04 12:44",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42568010"
+    ],
+    "refs": [
+      "40249072",
+      "40170729",
+      "40144341",
+      "39761838",
+      "39606799",
+      "39585739",
+      "39571630",
+      "39544942",
+      "39245598",
+      "39213192",
+      "39128418",
+      "39100670",
+      "38992217",
+      "38975347",
+      "38761876",
+      "38707281",
+      "38655878",
+      "38644732",
+      "38581450",
+      "38435751",
+      "38404827",
+      "38309518",
+      "38125519",
+      "37996535",
+      "37977994",
+      "37949959",
+      "37925118",
+      "37828678",
+      "37823450",
+      "37756161",
+      "37722611",
+      "37641429",
+      "37236769",
+      "37012869",
+      "36890219",
+      "36879567",
+      "36083162",
+      "35959454",
+      "35894102",
+      "35464445",
+      "33798500",
+      "33129923",
+      "32956194",
+      "28630380",
+      "26449770"
+    ],
+    "similar": [
+      "40613560",
+      "41479901",
+      "39697326",
+      "39650656",
+      "38686389",
+      "35116032",
+      "41291841",
+      "36291136",
+      "35378210",
+      "41146237",
+      "38707281",
+      "38587531",
+      "38863714",
+      "40374866",
+      "41388523",
+      "40496861",
+      "41013556",
+      "40233527",
+      "40977739",
+      "41006883",
+      "40574839",
+      "37855355",
+      "38919616",
+      "41468372",
+      "39512836",
+      "41308018",
+      "38268224",
+      "39670237",
+      "34536521",
+      "39182484",
+      "40196107",
+      "41078717",
+      "41196851",
+      "37861483",
+      "39341981",
+      "38291374",
+      "41044520",
+      "40891136",
+      "40313958",
+      "40596265",
+      "39086489",
+      "39841296",
+      "40158428",
+      "38562657",
+      "40216809",
+      "31987036",
+      "39586719",
+      "41544137",
+      "40597456",
+      "40500570",
+      "40406620",
+      "39142001",
+      "40808944",
+      "40918403",
+      "39466748",
+      "40091022",
+      "38800594",
+      "39375405",
+      "40821971",
+      "40093802",
+      "35713363",
+      "41120603",
+      "39473404",
+      "40258895",
+      "41094572",
+      "38711508",
+      "39188714",
+      "39394418",
+      "39556889",
+      "41316378",
+      "41145553",
+      "38987688",
+      "40997906",
+      "40612110",
+      "38368442",
+      "40663577",
+      "41432483",
+      "40129981",
+      "39888480",
+      "39028999",
+      "38736878",
+      "39934690",
+      "41305746",
+      "41291978",
+      "40547036",
+      "38899746",
+      "40312440",
+      "39367003",
+      "39838688",
+      "38690269",
+      "40808946",
+      "38778086",
+      "36311708",
+      "40939772",
+      "40830558",
+      "40245021",
+      "39953769",
+      "40263537",
+      "40406126",
+      "39026663"
+    ],
+    "review": [
+      "40613560",
+      "40939772"
+    ],
+    "pmc": [
+      "12231154"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/gout.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Gout"
+      },
+      {
+        "url": "https://www.ovid.com/40613560.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40613560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/1756-185X.70344",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,1091 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.14.718573",
+  "title": "A Modular Machine Learning Framework for Small-Molecule Drug Repurposing Based on Organ Permeability, Target Binding, and Biomarker Modulation",
+  "doi": "10.64898/2026.04.14.718573",
+  "abstract": "With nearly 90% of drug candidates failing in clinical trials due to poor efficacy or toxicity, drug repurposing has emerged as a vital strategy to accelerate the delivery of life-saving treatments. However, most current drug repurposing approaches fail to account for the physiological barriers and downstream biological impacts that dictate therapeutic success. To bridge this gap, we present SCOUT (Screening Candidates via Organ Uptake and Target-binding), a modular machine learning-driven framework for drug repurposing by simultaneously modeling organ permeability, drug-target binding, and biomarker modulation. Unlike conventional repurposing efforts that rely on single-point predictions or disconnected steps, SCOUT integrates these factors into a unified predictive funnel, significantly reducing trial-and-error and prioritizing candidates with the highest probability of therapeutic relevance. As a proof of concept, we applied SCOUT to Alzheimer’s disease, where blood-brain barrier (BBB) penetration is an important hurdle. The framework first predicts the unbound brain-to-plasma partition coefficient, Kpuu, using SMILES-based embeddings and achieved robust performance (Accuracy: 0.90, Recall: 0.94), then integrates machine learning to predict binding affinity with BACE1, a key Alzheimer’s target that was used in this work as a proof of concept. By combining these modules, SCOUT reduced the candidate search space by 99.9% and identified hits with diverse mechanisms of action. Critically, SCOUT extends beyond hit identification by employing mechanistic modeling to simulate how these candidates might modulate specific disease biomarkers (e.g. Amyloid-beta (Aβ) peptides). This hybrid approach ensures repurposed candidates are not only chemically viable but also physiologically active, providing a rational and resource-efficient pipeline for drug development.",
+  "authors": [
+    "Harkirat Singh Arora",
+    "Saroj Dhakal",
+    "Yorgos Psarellis",
+    "Sriram Chandrasekaran",
+    "Panteleimon D. Mavroudis",
+    "Nikhil Pillai"
+  ],
+  "published_date": "2026-04-17",
+  "updated_date": "2026-04-17T20:45:18Z",
+  "journal": "bioRxiv",
+  "category": "Systems Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718573",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718573.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Systems Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Systems Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:53:43Z",
+        "timestamp": 1785426823189,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ]
+      },
+      "group-title": "Systems Biology",
+      "reference-count": 118,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                17
+              ]
+            ],
+            "date-time": "2026-04-17T00:00:00Z",
+            "timestamp": 1776384000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/027vj4x92",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>With nearly 90% of drug candidates failing in clinical trials due to poor efficacy or toxicity, drug repurposing has emerged as a vital strategy to accelerate the delivery of life-saving treatments. However, most current drug repurposing approaches fail to account for the physiological barriers and downstream biological impacts that dictate therapeutic success. To bridge this gap, we present SCOUT (Screening Candidates via Organ Uptake and Target-binding), a modular machine learning-driven framework for drug repurposing by simultaneously modeling organ permeability, drug-target binding, and biomarker modulation. Unlike conventional repurposing efforts that rely on single-point predictions or disconnected steps, SCOUT integrates these factors into a unified predictive funnel, significantly reducing trial-and-error and prioritizing candidates with the highest probability of therapeutic relevance. As a proof of concept, we applied SCOUT to Alzheimer’s disease, where blood-brain barrier (BBB) penetration is an important hurdle. The framework first predicts the unbound brain-to-plasma partition coefficient, Kpuu, using SMILES-based embeddings and achieved robust performance (Accuracy: 0.90, Recall: 0.94), then integrates machine learning to predict binding affinity with BACE1, a key Alzheimer’s target that was used in this work as a proof of concept. By combining these modules, SCOUT reduced the candidate search space by 99.9% and identified hits with diverse mechanisms of action. Critically, SCOUT extends beyond hit identification by employing mechanistic modeling to simulate how these candidates might modulate specific disease biomarkers (e.g. Amyloid-beta (Aβ) peptides). This hybrid approach ensures repurposed candidates are not only chemically viable but also physiologically active, providing a rational and resource-efficient pipeline for drug development.</jats:p>",
+      "DOI": "10.64898/2026.04.14.718573",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T20:45:18Z",
+        "timestamp": 1776458718000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Modular Machine Learning Framework for Small-Molecule Drug Repurposing Based on Organ Permeability, Target Binding, and Biomarker Modulation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Harkirat Singh",
+          "family": "Arora",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, USA, 48105"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saroj",
+          "family": "Dhakal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pharmacometrics Research, Quantitative Pharmacology, Translational Medicine Unit, Sanofi, Cambridge, MA, USA, 02141"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yorgos",
+          "family": "Psarellis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pharmacometrics Research, Quantitative Pharmacology, Translational Medicine Unit, Sanofi, Cambridge, MA, USA, 02141"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8405-5708",
+          "authenticated-orcid": false,
+          "given": "Sriram",
+          "family": "Chandrasekaran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, USA, 48105"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Panteleimon D.",
+          "family": "Mavroudis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pharmacometrics Research, Quantitative Pharmacology, Translational Medicine Unit, Sanofi, Cambridge, MA, USA, 02141"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikhil",
+          "family": "Pillai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pharmacometrics Research, Quantitative Pharmacology, Translational Medicine Unit, Sanofi, Cambridge, MA, USA, 02141"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.1",
+          "unstructured": "“Research & Development.” [Online]. Available: https://www.phrma.org/policy-issues/research-development. [Accessed: 08-Feb-2026]."
+        },
+        {
+          "issue": "7",
+          "key": "2026042009050621000_2026.04.14.718573v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3049",
+          "DOI": "10.1016/j.apsb.2022.02.002",
+          "article-title": "Why 90% of clinical drug development fails and how to improve it?",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Acta Pharm. Sin. B"
+        },
+        {
+          "issue": "7",
+          "key": "2026042009050621000_2026.04.14.718573v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1785",
+          "DOI": "10.1016/j.drudis.2022.05.026",
+          "article-title": "Drug repurposing: An effective strategy to accelerate contemporary drug discovery",
+          "volume": "27",
+          "year": "2022",
+          "journal-title": "Drug Discov. Today"
+        },
+        {
+          "issue": "8",
+          "key": "2026042009050621000_2026.04.14.718573v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "829",
+          "DOI": "10.1080/17460441.2021.1912733",
+          "article-title": "Is drug repurposing really the future of drug discovery or is new innovation truly the way forward?",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Expert Opin. Drug Discov"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1134/S1068162023020139"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2013.11.005"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2016.01.007"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2018.168"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12272-019-01176-3"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jamia/ocw142"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.26"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1132939"
+        },
+        {
+          "issue": "5",
+          "key": "2026042009050621000_2026.04.14.718573v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1369",
+          "DOI": "10.1093/bioinformatics/btab826",
+          "article-title": "A network-based drug repurposing method via non-negative matrix factorization",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-05116-5"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-21330-0"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-24980-2"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "902123",
+          "DOI": "10.3389/fpubh.2022.902123",
+          "article-title": "SperoPredictor: An integrated machine learning and molecular docking-based drug repurposing framework with use case of COVID-19",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Front. Public Health"
+        },
+        {
+          "issue": "23",
+          "key": "2026042009050621000_2026.04.14.718573v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "8718",
+          "DOI": "10.1021/acs.jcim.4c01217",
+          "article-title": "Transparent machine learning model to understand drug permeability through the blood-brain barrier",
+          "volume": "64",
+          "year": "2024",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "15844",
+          "DOI": "10.1038/s41598-024-66897-y",
+          "article-title": "Predicting blood–brain barrier permeability of molecules with a large language model and machine learning",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11095-022-03172-7"
+        },
+        {
+          "issue": "4",
+          "key": "2026042009050621000_2026.04.14.718573v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "758",
+          "DOI": "10.1002/cpt.2545",
+          "article-title": "Understanding the blood-brain barrier and beyond: Challenges and opportunities for novel CNS therapeutics",
+          "volume": "111",
+          "year": "2022",
+          "journal-title": "Clin. Pharmacol. Ther"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11095-022-03246-6"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/dmd.105.007211"
+        },
+        {
+          "issue": "1360732",
+          "key": "2026042009050621000_2026.04.14.718573v1.24",
+          "first-page": "1360732",
+          "article-title": "Application of machine learning to predict unbound drug bioavailability in the brain",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "Front. Drug Discov. (Lausanne)"
+        },
+        {
+          "issue": "5",
+          "key": "2026042009050621000_2026.04.14.718573v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1208/s12248-023-00850-1",
+          "article-title": "Human brain penetration prediction using scaling approach from animal machine learning models",
+          "volume": "25",
+          "year": "2023",
+          "journal-title": "AAPS J"
+        },
+        {
+          "issue": "12",
+          "key": "2026042009050621000_2026.04.14.718573v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "3786",
+          "DOI": "10.1021/acs.jcim.3c00150",
+          "article-title": "A computational physics-based approach to predict unbound brain-to-plasma partition coefficient, KP,uu",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "issue": "12",
+          "key": "2026042009050621000_2026.04.14.718573v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2407",
+          "DOI": "10.4103/1673-5374.313041",
+          "article-title": "BACE1 role in Alzheimer’s disease and other dementias: from the theory to the practice",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Neural Regen. Res"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biopsych.2020.02.001"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1474-4422(13)70276-X"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s40266-013-0099-3"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/157340911795677602"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2021.09.007"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "30",
+          "DOI": "10.1007/s13755-024-00287-6",
+          "article-title": "A review of machine learning-based methods for predicting drug-target interactions",
+          "volume": "12",
+          "year": "2024",
+          "journal-title": "Health Inf. Sci. Syst"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa1005"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Passaro et al., “Boltz-2: Towards accurate and efficient binding affinity prediction,” bioRxiv, p. 2025.06.14.659707, 18-June-2025.",
+          "DOI": "10.1101/2025.06.14.659707"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/alz.12312)"
+        },
+        {
+          "issue": "S6",
+          "key": "2026042009050621000_2026.04.14.718573v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "e092093",
+          "DOI": "10.1002/alz.092093",
+          "article-title": "Neuro-dynamic quantitative systems pharmacology (qsp) model supports continued lecanemab treatment with maintenance dosing for Alzheimer’s disease",
+          "volume": "20",
+          "year": "2024",
+          "journal-title": "Alzheimers. Dement"
+        },
+        {
+          "issue": "3",
+          "key": "2026042009050621000_2026.04.14.718573v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "362",
+          "DOI": "10.1002/psp4.12759",
+          "article-title": "Quantitative systems pharmacology model for Alzheimer’s disease to predict the effect of aducanumab on brain amyloid",
+          "volume": "11",
+          "year": "2022",
+          "journal-title": "CPT Pharmacometrics Syst. Pharmacol"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/jpet.115.230565"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/BRAIN/AWAF068"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpt.77"
+        },
+        {
+          "issue": "12",
+          "key": "2026042009050621000_2026.04.14.718573v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1611",
+          "DOI": "10.3390/pharmaceutics16121611",
+          "article-title": "Drug delivery across the blood-brain barrier: A new strategy for the treatment of neurological diseases",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Pharmaceutics"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "217",
+          "DOI": "10.1038/s41392-023-01481-w",
+          "article-title": "The blood-brain barrier: structure, regulation, and drug delivery",
+          "volume": "8",
+          "year": "2023",
+          "journal-title": "Signal Transduct. Target. Ther"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Talevi and C. L. Bellera , “Brain-to-plasma concentration ratio and unbound partition coefficient,” in The ADME Encyclopedia, Cham: Springer International Publishing, 2021, pp. 1–6.",
+          "DOI": "10.1007/978-3-030-51519-5_61-1"
+        },
+        {
+          "issue": "5",
+          "key": "2026042009050621000_2026.04.14.718573v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1067",
+          "DOI": "10.1016/j.drudis.2019.01.015",
+          "article-title": "Building on the success of osimertinib: achieving CNS exposure in oncology drug discovery",
+          "volume": "24",
+          "year": "2019",
+          "journal-title": "Drug Discov. Today"
+        },
+        {
+          "issue": "6",
+          "key": "2026042009050621000_2026.04.14.718573v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1264",
+          "DOI": "10.3390/molecules29061264",
+          "article-title": "Experimental and computational methods to assess central nervous system penetration of small molecules",
+          "volume": "29",
+          "year": "2024",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2017.10.026"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.5564-08.2009"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.309823.117"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.50",
+          "unstructured": "S. Lundberg and S.-I. Lee , “A unified approach to interpreting model predictions,” arXiv [cs.AI ], 22-May-2017."
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq134"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1015040217741"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "17749",
+          "DOI": "10.1038/s41598-017-18012-7",
+          "article-title": "Entropy and polarity control the partition and transportation of drug-like molecules in biological membrane",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd892"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. M. Reuter et al., “Ultra-high-throughput screening of antimicrobial combination therapies using a two-stage transparent machine learning model,” bioRxivorg, p. 2024.11.25.625231, 25-Nov-2024.",
+          "DOI": "10.1101/2024.11.25.625231"
+        },
+        {
+          "issue": "3",
+          "key": "2026042009050621000_2026.04.14.718573v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1385/JMN:20:3:255",
+          "article-title": "Effects of lipophilicity on the affinity and nonspecific binding of iodinated benzothiazole derivatives",
+          "volume": "20",
+          "year": "2003",
+          "journal-title": "J. Mol. Neurosci"
+        },
+        {
+          "issue": "8",
+          "key": "2026042009050621000_2026.04.14.718573v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "4661",
+          "DOI": "10.1016/j.bmc.2008.02.033",
+          "article-title": "The role of lipophilicity in determining binding affinity and functional activity for 5-HT2A receptor ligands",
+          "volume": "16",
+          "year": "2008",
+          "journal-title": "Bioorg. Med. Chem"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0012029"
+        },
+        {
+          "issue": "2",
+          "key": "2026042009050621000_2026.04.14.718573v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.3390/biophysica2020012",
+          "article-title": "The relationship between hydrophobicity and drug-protein binding in human serum albumin: A quartz crystal microbalance study",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Biophysica"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.5b00975"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3762/bjoc.6.38"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Bhattarai , T. A. Trombley , and R. A. Altman , “Metabolic stability of fluorinated small molecules: A physical organic chemistry perspective,” J. Med. Chem., Jan. 2026.",
+          "DOI": "10.26434/chemrxiv-2025-mtqbs-v3"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.1501240"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0896(00)00148-6"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.6b01807"
+        },
+        {
+          "issue": "7",
+          "key": "2026042009050621000_2026.04.14.718573v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "1278",
+          "DOI": "10.1007/s00044-023-03073-3",
+          "article-title": "Harnessing the necessary nitrogen atom in chemical biology and drug discovery",
+          "volume": "32",
+          "year": "2023",
+          "journal-title": "Med. Chem. Res"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules25081909"
+        },
+        {
+          "issue": "116838",
+          "key": "2026042009050621000_2026.04.14.718573v1.68",
+          "first-page": "116838",
+          "article-title": "Nitrogen-containing heterocyclic drug products approved by the FDA in 2023: Synthesis and biological activity",
+          "volume": "279",
+          "year": "2024",
+          "journal-title": "Eur. J. Med. Chem"
+        },
+        {
+          "issue": "6",
+          "key": "2026042009050621000_2026.04.14.718573v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1007/s44442-025-00040-y",
+          "article-title": "Recent advances in clinically approved nitrogenous heterocycle-based drugs and EGFR Tyrosine kinase inhibitors for precision oncology (2020–2024): a review",
+          "volume": "29",
+          "year": "2025",
+          "journal-title": "J. Saudi Chem. Soc"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Wipf , E. M. Skoda , and A. Mann , “Conformational restriction and steric hindrance in medicinal chemistry,” in The Practice of Medicinal Chemistry , Elsevier, 2015, pp. 279–299.",
+          "DOI": "10.1016/B978-0-12-417205-0.00011-0"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(99)77456-4"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nm.4306"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad976"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.74",
+          "unstructured": "“Multibrand.” [Online]. Available: https://openinnovation.astrazeneca.com/home/preclinical-research/preclinical-molecules/azd3839.html. [Accessed: 09-Mar-2026]."
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.75",
+          "unstructured": "“Donepezil.” [Online]. Available: https://go.drugbank.com/drugs/DB00843. [Accessed: 07-Feb-2026]."
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17425255.1.3.527"
+        },
+        {
+          "issue": "2",
+          "key": "2026042009050621000_2026.04.14.718573v1.77",
+          "doi-asserted-by": "crossref",
+          "first-page": "100002",
+          "DOI": "10.1016/j.jnrt.2022.100002",
+          "article-title": "Acetylcholine bidirectionally regulates learning and memory",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "J. Neurorestoratology"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jnc.14052"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules27061816"
+        },
+        {
+          "issue": "102999",
+          "key": "2026042009050621000_2026.04.14.718573v1.80",
+          "first-page": "102999",
+          "article-title": "The rise and deceleration of neuronal excitability in aging and Alzheimer’s disease: Mechanisms, implications, and therapeutic targets",
+          "volume": "114",
+          "year": "2026",
+          "journal-title": "Ageing Res. Rev"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.81",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.1038/s41398-022-02024-7",
+          "article-title": "Neuronal hyperexcitability in Alzheimer’s disease: what are the drivers behind this aberrant phenotype?",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Transl. Psychiatry"
+        },
+        {
+          "issue": "7",
+          "key": "2026042009050621000_2026.04.14.718573v1.82",
+          "doi-asserted-by": "crossref",
+          "first-page": "e70507",
+          "DOI": "10.1002/alz.70507",
+          "article-title": "Inhibition of the GSK3β/Nav1.6 complex suppresses early-stage Alzheimer’s hyperexcitability",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "Alzheimers. Dement"
+        },
+        {
+          "issue": "5",
+          "key": "2026042009050621000_2026.04.14.718573v1.83",
+          "first-page": "1",
+          "article-title": "Calcium dysregulation in Alzheimer’s disease: A target for new drug development",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "J. Alzheimers Dis. Parkinsonism"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Kumar , K. Bodhinathan , and T. C. Foster , “Susceptibility to Calcium Dysregulation during Brain Aging,” Front. Aging Neurosci., vol. 1, p. 2, Nov. 2009.",
+          "DOI": "10.3389/neuro.24.002.2009"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.85",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. C. Wildburger , A. Lin-Ye , M. A. Baird , D. Lei , and J. Bao , “Neuroprotective effects of blockers for T-type calcium channels,” Mol. Neurodegener., vol. 4, no. 1, p. 44, Oct. 2009.",
+          "DOI": "10.1186/1750-1326-4-44"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.86",
+          "doi-asserted-by": "crossref",
+          "first-page": "890368",
+          "DOI": "10.3389/fnmol.2022.890368",
+          "article-title": "The ERG1 K+ channel and its role in neuronal health and disease",
+          "volume": "15",
+          "year": "2022",
+          "journal-title": "Front. Mol. Neurosci"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.87",
+          "unstructured": "Open Resources for Nursing (Open RN), K. Ernstmeyer , and E. Christman , “Chapter 6 Psychotropic Medications,” in Nursing: Mental Health and Community Concepts [Internet], Chippewa Valley Technical College, 2022."
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0079-6123(08)00911-4"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biopsych.2012.08.027"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.90",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. J. Ramírez , “5-HT6 receptors and Alzheimer’s disease,” Alzheimers. Res. Ther., vol. 5, no. 2, p. 15, Apr. 2013.",
+          "DOI": "10.1186/alzrt169"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1007/s40120-018-0095-y",
+          "article-title": "5HT6 antagonists in the treatment of Alzheimer’s dementia: Current progress",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "Neurol. Ther"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsob.180024"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1474-4422(12)70238-7"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41419-022-05153-5"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.95",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T.-Y. Weng , S.-Y. A. Tsai , and T.-P. Su , “Roles of sigma-1 receptors on mitochondrial functions relevant to neurodegenerative diseases,” J. Biomed. Sci., vol. 24, no. 1, p. 74, Sept. 2017.",
+          "DOI": "10.1186/s12929-017-0380-6"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2010.08.007"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.97",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Zhang , D. Xiao , Q. Mao , and H. Xia , “Role of neuroinflammation in neurodegeneration development,” Signal Transduct. Target. Ther., vol. 8, no. 1, p. 267, July 2023.",
+          "DOI": "10.1038/s41392-023-01486-5"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnagi.2024.1347987"
+        },
+        {
+          "issue": "3",
+          "key": "2026042009050621000_2026.04.14.718573v1.99",
+          "doi-asserted-by": "crossref",
+          "first-page": "551",
+          "DOI": "10.1111/j.1528-1167.2010.02920.x",
+          "article-title": "Platelet-activating factor receptor antagonism targets neuroinflammation in experimental epilepsy: PAF-r Antagonism Targets Neuroinflammation",
+          "volume": "52",
+          "year": "2011",
+          "journal-title": "Epilepsia"
+        },
+        {
+          "issue": "18",
+          "key": "2026042009050621000_2026.04.14.718573v1.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "3372",
+          "DOI": "10.3390/molecules24183372",
+          "article-title": "Autophagy modulation as a treatment of amyloid diseases",
+          "volume": "24",
+          "year": "2019",
+          "journal-title": "Molecules"
+        },
+        {
+          "issue": "3",
+          "key": "2026042009050621000_2026.04.14.718573v1.101",
+          "doi-asserted-by": "crossref",
+          "first-page": "100053",
+          "DOI": "10.1016/j.pharmr.2025.100053",
+          "article-title": "Activating autophagy to eliminate toxic protein aggregates with small molecules in neurodegenerative diseases",
+          "volume": "77",
+          "year": "2025",
+          "journal-title": "Pharmacol. Rev"
+        },
+        {
+          "issue": "1",
+          "key": "2026042009050621000_2026.04.14.718573v1.102",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.3797/scipharm.0802-05",
+          "article-title": "The similarity principle – new trends and applications in ligand-based drug discovery and ADMET profiling",
+          "volume": "76",
+          "year": "2008",
+          "journal-title": "Sci. Pharm"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-015-0069-3"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/138161212799315885"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neurobiolaging.2016.04.019"
+        },
+        {
+          "issue": "6",
+          "key": "2026042009050621000_2026.04.14.718573v1.106",
+          "first-page": "1423",
+          "article-title": "Homology of the amyloid beta protein precursor in monkey and human supports a primate model for beta amyloidosis in Alzheimer’s disease",
+          "volume": "138",
+          "year": "1991",
+          "journal-title": "Am. J. Pathol"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/cts.13824"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci010132r"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac956"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1075"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0607879104"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/bbrc.2000.3815"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.1035"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(94)80782-9"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.185.4154.862"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.117",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine Learning in Python",
+          "volume": "85",
+          "year": "2012",
+          "journal-title": "arXiv [cs.LG"
+        },
+        {
+          "key": "2026042009050621000_2026.04.14.718573v1.118",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Lu , R. Kaspera , Y. Naritomi , and T. Wang , “Dose finding in single dose studies by allometric scaling,” in Drug Discovery and Evaluation: Methods in Clinical Pharmacology, Cham: Springer International Publishing, 2018, pp. 1–11.",
+          "DOI": "10.1007/978-3-319-56637-5_3-1"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.14.718573",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            20
+          ]
+        ],
+        "date-time": "2026-04-20T16:05:37Z",
+        "timestamp": 1776701137000
+      },
+      "score": 76.39527,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.14.718573"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ]
+      },
+      "references-count": 118,
+      "URL": "https://doi.org/10.64898/2026.04.14.718573",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

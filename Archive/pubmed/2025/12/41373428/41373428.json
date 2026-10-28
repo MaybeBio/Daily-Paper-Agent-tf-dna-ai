@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "41373428",
+    "doi": "10.3390/ijms262311262",
+    "title": "Elucidating the Mechanisms of Chrysanthemum Action on Atopic Dermatitis via Network Pharmacology and Machine Learning."
+  },
+  "content": {
+    "abstract": "Chrysanthemum (Chrysanthemum morifolium Ramat.) has been recognized as both a food and medicinal substance in China since 2002 and possesses antioxidant, anti-inflammatory, antibacterial, and immunomodulatory activities. Previous studies suggest that Chrysanthemum may alleviate skin lesions resembling atopic dermatitis (AD); however, its underlying mechanisms remain unclear. In this study, we integrated network pharmacology and machine learning to systematically explore the potential mechanisms of Chrysanthemum in AD treatment. Four algorithms-Random Forest (RF), Lasso regression with cross-validation (LassoCV), Elastic Net (EN), and Extreme Gradient Boosting (XGB)-were compared, among which the XGB model achieved the best performance (accuracy = 0.9393). Further analysis identified 15 optimal features, two core targets (PTGS2 and MMP9), and one critical pathway (NF-kappaB signaling). To experimentally validate these findings, HaCaT keratinocytes were co-stimulated with TNF-alpha and IFN-gamma to establish an in vitro inflammatory model, and co-treatment with three major flavonoids from Chrysanthemum-Acacetin, Diosmetin, and Chryseriol-significantly suppressed cytokine-induced COX-2 overexpression and reduced NF-kappaB p65 phosphorylation, confirming their inhibitory effects on NF-kappaB activation. These results were consistent with molecular docking and dynamics simulations, which demonstrated that these flavonoids, along with celecoxib, could stably bind to COX-2, thereby enhancing system stability and reducing residue fluctuations at the binding interface, revealing the molecular basis by which Chrysanthemum alleviates AD and supporting its modernization and therapeutic potential.",
+    "keywords": [
+      "Chrysanthemum",
+      "atopic dermatitis",
+      "machine learning",
+      "molecular dynamics simulation",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Chrysanthemum/chemistry",
+      "*Dermatitis, Atopic/drug therapy/metabolism",
+      "Humans",
+      "*Network Pharmacology/methods",
+      "*Machine Learning",
+      "Signal Transduction/drug effects",
+      "Keratinocytes/drug effects/metabolism",
+      "NF-kappa B/metabolism",
+      "Molecular Docking Simulation",
+      "Flavonoids/pharmacology",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Cyclooxygenase 2/metabolism",
+      "*Plant Extracts/pharmacology",
+      "HaCaT Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shiying",
+        "Jiang, Yongxin",
+        "Hu, Chengxiang",
+        "Ding, Yiyao",
+        "Fu, Xueqi",
+        "Xing, Shu",
+        "Zeng, Linlin"
+      ],
+      "short_names": [
+        "Li S",
+        "Jiang Y",
+        "Hu C",
+        "Ding Y",
+        "Fu X",
+        "Xing S",
+        "Zeng L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5449-4497",
+        "ORCID: 0000-0002-8653-9909"
+      ],
+      "affiliations": [
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shiying",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yongxin",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chengxiang",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yiyao",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xueqi",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Shu",
+        "short_name": "Xing S",
+        "identifiers": [
+          "0000-0001-5449-4497"
+        ],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Linlin",
+        "short_name": "Zeng L",
+        "identifiers": [
+          "0000-0002-8653-9909"
+        ],
+        "affiliations": [
+          "Key Laboratory for Molecular Enzymology and Engineering of Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 07:44",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41096765",
+      "40519867",
+      "40041755",
+      "39986232",
+      "39955121",
+      "39938773",
+      "39558165",
+      "39489991",
+      "39417505",
+      "38621465",
+      "38197310",
+      "37059010",
+      "36928730",
+      "36866529",
+      "36858276",
+      "36428114",
+      "36370105",
+      "35830864",
+      "35481411",
+      "34895945",
+      "34883416",
+      "34845411",
+      "34731480",
+      "34717010",
+      "34684660",
+      "34518686",
+      "34278794",
+      "34007327",
+      "33923629",
+      "32704420",
+      "31714766",
+      "31106366",
+      "30102808",
+      "29063428",
+      "27322403",
+      "26592383",
+      "25521941",
+      "25400877",
+      "24735618",
+      "23193258",
+      "20435678",
+      "17287757",
+      "14597658",
+      "11134171",
+      "10802651",
+      "10592235",
+      "9831328",
+      "9091804",
+      "8967954",
+      "7991575"
+    ],
+    "similar": [
+      "41373428",
+      "39827243",
+      "40118327",
+      "39907996",
+      "40633861",
+      "40790662",
+      "34656059",
+      "39927471",
+      "29747743",
+      "30642008",
+      "38604509",
+      "38314445",
+      "34500860",
+      "39177922",
+      "41260428",
+      "40041755",
+      "28347830",
+      "34769428",
+      "38644599",
+      "29660465",
+      "39818092",
+      "39684446",
+      "37175371",
+      "40803430",
+      "30400334",
+      "24675422",
+      "28159725",
+      "41344519",
+      "35830757",
+      "34455178",
+      "32330842",
+      "40167805",
+      "36046910",
+      "34361003",
+      "32998341",
+      "41265260",
+      "28887839",
+      "29932162",
+      "38818651",
+      "35671605",
+      "23454147",
+      "22943853",
+      "32002586",
+      "26655409",
+      "40869065",
+      "36077254",
+      "39326136",
+      "38762208",
+      "26100037",
+      "24689881",
+      "31678637",
+      "35008979",
+      "30866501",
+      "27696405",
+      "26051830",
+      "36327873",
+      "40004009",
+      "36578822",
+      "36261841",
+      "39121927",
+      "39399487",
+      "35306042",
+      "41061996",
+      "37807411",
+      "30717012",
+      "38310399",
+      "39374881",
+      "31075381",
+      "39000019",
+      "36996741",
+      "34445132",
+      "38862031",
+      "40157005",
+      "38579646",
+      "19429315",
+      "34208434",
+      "40563511",
+      "41135075",
+      "32721463",
+      "40935216",
+      "37059010",
+      "39893923",
+      "34581418",
+      "21843792",
+      "40089261",
+      "39206203",
+      "21116791",
+      "28274893",
+      "21533553",
+      "40706204",
+      "40921229",
+      "40086050",
+      "38284293",
+      "40607420",
+      "34649355",
+      "40724927",
+      "33716079",
+      "32768955",
+      "33652742",
+      "40179089"
+    ],
+    "review": [
+      "41373428",
+      "40724927"
+    ],
+    "pmc": [
+      "12692186"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms262311262",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41373428/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.07.680024",
+  "title": "An improved epigenetic age estimation with TFMethyl Clock reveals DNA methylation changes during aging in transcription factor binding sites",
+  "authors": "Tushar Patel; Robert Schwarz; Konstantin Riege; Miri Varshavsky; Hans A. Kestler; Tommy Kaplan; Steve Hoffmann; Alena van Bömmel",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用表观遗传时钟预测年龄，分析CpG甲基化与转录因子结合位点的重叠，虽涉及TF-DNA结合位点但无AI/物理模拟建模，核心为甲基化预测而非互作机制研究。",
+  "abstract": "Methylation-based epigenetic clocks are among the most accurate tools for predicting chronological age. Although DNA methylation (DNAm) at genomic CpG sites is linked to various regulatory mechanisms, the biological interpretability of epigenetic clocks remains surprisingly limited. One primary mechanism by which DNAm is thought to influence gene regulation is by modulating transcription factor binding activity. In this study, we examine established epigenetic clocks to assess the regulatory potential of their predictive CpGs during the aging process. Our analysis reveals that generally most CpG sites used by epigenetic clocks do not overlap known transcription factor binding sites (TFBSs), indicating that changes in TFBS dynamics may not account for prediction accuracy of these models. On the other hand, by identifying age-associated CpGs that overlap TFBSs, we identified transcription factors that may be involved in the aging process. Specifically, the TFBSs of ZBED1, NFE2, CEBPB, FOXP1, EGR1, SP1, PAX5, and MAZ were particularly enriched for age-associated CpGs, while RBPJ, NFIC, RELA, IKZF1, STAT3, and USF2 were significantly protected against methylation changes. By focusing on TFBS-associated CpGs, combined with additional feature selection and engineering steps, we developed an alternative, TFMethyl Clock model, outperforming several existing approaches. Target genes of model-selected, age-predictive CpGs are enriched in the interleukin-1b production and long- chain fatty acid metabolism pathways. In contrast, these CpGs themselves are enriched mainly at binding sites of NR2C2 TF. Furthermore, approximately three-fourths of the target genes downstream of age- predictive CpGs exhibit significant age-related changes, suggesting that our approach captures deeper insights into possible methylation-driven biological aging processes. Our findings demonstrate that incorporating regulatory loci into the design of epigenetic predictors may provide mechanistic insights into the aging process while maintaining or even improving the predictive power.",
+  "abstract_zh": "基于甲基化的表观遗传时钟是预测实际年龄最准确的工具之一。尽管基因组CpG位点的DNA甲基化（DNAm）与多种调控机制相关，但表观遗传时钟的生物学可解释性仍然出奇地有限。DNAm被认为影响基因调控的主要机制之一是通过调节转录因子结合活性。在本研究中，我们检验了已建立的表观遗传时钟，以评估其预测性CpG在衰老过程中的调控潜力。我们的分析揭示，通常表观遗传时钟使用的大多数CpG位点不与已知的转录因子结合位点（TFBSs）重叠，表明TFBS动态变化可能无法解释这些模型的预测准确性。另一方面，通过识别与年龄相关的CpG位点（这些位点与TFBSs重叠），我们发现了可能参与衰老过程的转录因子。具体而言，ZBED1、NFE2、CEBPB、FOXP1、EGR1、SP1、PAX5和MAZ的TFBSs特别富集于年龄相关的CpG位点，而RBPJ、NFIC、RELA、IKZF1、STAT3和USF2则显著受到保护，免受甲基化变化的影响。通过聚焦于TFBS相关的CpG位点，并结合额外的特征选择和工程步骤，我们开发了一种替代性的TF Methyl Clock模型，其性能优于几种现有方法。模型选择的年龄预测性CpG的靶基因富集于白细胞介素-1b产生和长链脂肪酸代谢通路中。相比之下，这些CpG本身主要富集于NR2C2转录因子的结合位点。此外，年龄预测性CpG下游的靶基因中约有四分之三表现出显著的年龄相关变化，表明我们的方法能更深入地洞察可能的甲基化驱动的生物衰老过程。我们的发现表明，将调控位点纳入表观遗传预测器的设计中，可能为衰老过程提供机制性见解，同时保持甚至提高预测能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680024",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680024",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.07.680024/index.html"
+}

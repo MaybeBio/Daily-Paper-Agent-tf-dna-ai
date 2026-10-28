@@ -1,0 +1,541 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.09.03.458869",
+  "title": "Protein embeddings and deep learning predict binding residues for various ligand classes",
+  "doi": "10.1101/2021.09.03.458869",
+  "abstract": "One important aspect of protein function is the binding of proteins to ligands, including small molecules, metal ions, and macromolecules such as DNA or RNA. Despite decades of experimental progress many binding sites remain obscure. Here, we proposed bindEmbed21 , a method predicting whether a protein residue binds to metal ions, nucleic acids, or small molecules. The Artificial Intelligence (AI)-based method exclusively uses embeddings from the Transformer-based protein Language Model (pLM) ProtT5 as input. Using only single sequences without creating multiple sequence alignments (MSAs), bindEmbed21DL outperformed MSA-based predictions. Combination with homology-based inference increased performance to F1=48±3% (95% CI) and MCC=0.46±0.04 when merging all three ligand classes into one. All results were confirmed by three independent data sets. Focusing on very reliably predicted residues could complement experimental evidence: For the 25% most strongly predicted binding residues, at least 73% were correctly predicted even when ignoring the problem of missing experimental annotations. The new method bindEmbed21 is fast, simple, and broadly applicable - neither using structure nor MSAs. Thereby, it found binding residues in over 42% of all human proteins not otherwise implied in binding and predicted about 6% of all residues as binding to metal ions, nucleic acids, or small molecules.",
+  "authors": [
+    "Maria Littmann",
+    "Michael Heinzinger",
+    "Christian Dallago",
+    "Konstantin Weissenow",
+    "Burkhard Rost"
+  ],
+  "published_date": "2021-09-05",
+  "updated_date": "2021-09-06T00:15:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.09.03.458869",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.09.03.458869.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:07:38Z",
+        "timestamp": 1768496858401,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 60,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  One important aspect of protein function is the binding of proteins to ligands, including small molecules, metal ions, and macromolecules such as DNA or RNA. Despite decades of experimental progress many binding sites remain obscure. Here, we proposed\n                  <jats:italic>bindEmbed21</jats:italic>\n                  , a method predicting whether a protein residue binds to metal ions, nucleic acids, or small molecules. The Artificial Intelligence (AI)-based method exclusively uses embeddings from the Transformer-based protein Language Model (pLM) ProtT5 as input. Using only single sequences without creating multiple sequence alignments (MSAs),\n                  <jats:italic>bindEmbed21DL</jats:italic>\n                  outperformed MSA-based predictions. Combination with homology-based inference increased performance to F1=48±3% (95% CI) and MCC=0.46±0.04 when merging all three ligand classes into one. All results were confirmed by three independent data sets. Focusing on very reliably predicted residues could complement experimental evidence: For the 25% most strongly predicted binding residues, at least 73% were correctly predicted even when ignoring the problem of missing experimental annotations. The new method\n                  <jats:italic>bindEmbed21</jats:italic>\n                  is fast, simple, and broadly applicable - neither using structure nor MSAs. Thereby, it found binding residues in over 42% of all human proteins not otherwise implied in binding and predicted about 6% of all residues as binding to metal ions, nucleic acids, or small molecules.\n                </jats:p>",
+      "DOI": "10.1101/2021.09.03.458869",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ],
+        "date-time": "2021-09-06T00:15:11Z",
+        "timestamp": 1630887311000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Protein embeddings and deep learning predict binding residues for various ligand classes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8533-8163",
+          "authenticated-orcid": false,
+          "given": "Maria",
+          "family": "Littmann",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9601-3580",
+          "authenticated-orcid": false,
+          "given": "Michael",
+          "family": "Heinzinger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4650-6181",
+          "authenticated-orcid": false,
+          "given": "Christian",
+          "family": "Dallago",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2205-1795",
+          "authenticated-orcid": false,
+          "given": "Konstantin",
+          "family": "Weissenow",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0179-8424",
+          "authenticated-orcid": false,
+          "given": "Burkhard",
+          "family": "Rost",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583503003901"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.2",
+          "unstructured": "Alberts, B. et al. Molecular Biology of the Cell. (Garland Science, Taylor and Francis Group, 2018)."
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.23174"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2340"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25585"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-020-03759-0"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-01054-2"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-14-S16-S7"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks966"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt447"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx366"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0707684105"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000585"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa110"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.07.31.454572"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2672-1"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw396"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.02.026"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm618"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3769"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-16-S8-S1"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2419"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab354"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm174"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(03)00456-3"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv585"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules26040966"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1004"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-262"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/idp.24157"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4104"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaj1849"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz285"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09516"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1367-5931(02)00003-0"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "678",
+          "DOI": "10.1002/prot.20095",
+          "article-title": "CHOP proteins into structural domain-like fragments",
+          "volume": "55",
+          "year": "2004",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpz1.113"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/mp.53.1.8"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg620"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1002/prot.340090107",
+          "article-title": "Database of homology-derived structures and the structural meaning of sequence alignment",
+          "volume": "9",
+          "year": "1991",
+          "journal-title": "Proteins: Structure, Function, and Genetics"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/12.2.85"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0437-4"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.46",
+          "first-page": "1",
+          "article-title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.47",
+          "unstructured": "Paszke, A. et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library. Advances in Neural Information Processing Systems 32 (2019)."
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.48",
+          "article-title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+          "year": "2015"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.49",
+          "first-page": "1929",
+          "article-title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+          "volume": "15",
+          "year": "2014",
+          "journal-title": "The Journal of Machine Learning Research"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-3743-1_10"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku396"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-016-1037-6"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1359-6446(05)03621-4"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1835-8"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-80786-0"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S021972000500120X"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0068459"
+        },
+        {
+          "key": "2021112521200901000_2021.09.03.458869v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0141287"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.09.03.458869",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:08:01Z",
+        "timestamp": 1768442881000
+      },
+      "score": 111.029785,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.09.03.458869"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            5
+          ]
+        ]
+      },
+      "references-count": 60,
+      "URL": "https://doi.org/10.1101/2021.09.03.458869",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41598-021-03431-4",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

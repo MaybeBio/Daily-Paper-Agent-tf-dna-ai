@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "36042172",
+    "doi": "10.31083/j.fbl2708246",
+    "title": "Identification of Potential Biomarkers Associated with Dilated Cardiomyopathy by Weighted Gene Coexpression Network Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Dilated cardiomyopathy (DCM) is one of the main causes of systolic heart failure and frequently has a genetic component. The molecular mechanisms underlying the onset and progression of DCM remain unclear. This study aimed to identify novel diagnostic biomarkers to aid in the treatment and diagnosis of DCM. METHOD: The Gene Expression Omnibus (GEO) database was explored to extract two microarray datasets, GSE120895 and GSE17800, which were subsequently merged into a single cohort. Differentially expressed genes were analyzed in the DCM and control groups, followed by weighted gene coexpression network analysis to determine the core modules. Core nodes were identified by gene significance (GS) and module membership (MM) values, and four hub genes were predicted by the Lasso regression model. The expression levels and diagnostic values of the four hub genes were further validated in the datasets GSE19303. Finally, potential therapeutic drugs and upstream molecules regulating genes were identified. RESULTS: The turquoise module is the core module of DCM. Four hub genes were identified: GYPC (glycophorin C), MLF2 (myeloid leukemia factor 2), COPS7A (COP9 signalosome subunit 7A) and ARL2 (ADP ribosylation factor like GTPase 2). Subsequently, Hub genes showed significant differences in expression in both the dataset and the validation model by real-time quantitative PCR (qPCR). Four potential modulators and seven chemicals were also identified. Finally, molecular docking simulations of the gene-encoded proteins with small-molecule drugs were successfully performed. CONCLUSIONS: The results suggested that ARL2, MLF2, GYPC and COPS7A could be potential gene biomarkers for DCM.",
+    "keywords": [
+      "dilated cardiomyopathy",
+      "weighted gene coexpression network analysis"
+    ],
+    "mesh_terms": [
+      "Biomarkers",
+      "COP9 Signalosome Complex/genetics",
+      "*Cardiomyopathy, Dilated/diagnosis/genetics",
+      "GTP-Binding Proteins/genetics",
+      "Gene Expression Profiling/methods",
+      "Gene Regulatory Networks",
+      "Genetic Markers",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qixin",
+        "Qu, Qiang",
+        "Wang, Luyang",
+        "Liao, Shengen",
+        "Zhu, Xu",
+        "Du, Anning",
+        "Zhu, Qingqing",
+        "Cheang, Iokfai",
+        "Gao, Rongrong",
+        "Li, Xinli"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Qu Q",
+        "Wang L",
+        "Liao S",
+        "Zhu X",
+        "Du A",
+        "Zhu Q",
+        "Cheang I",
+        "Gao R",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qixin",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Qiang",
+        "short_name": "Qu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Luyang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Shengen",
+        "short_name": "Liao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xu",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Du, Anning",
+        "short_name": "Du A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Qingqing",
+        "short_name": "Zhu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cheang, Iokfai",
+        "short_name": "Cheang I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Rongrong",
+        "short_name": "Gao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinli",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioscience (Landmark edition)"
+    ],
+    "journal_abbrev": [
+      "Front Biosci (Landmark Ed)"
+    ],
+    "pub_date": "2022 Aug 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/31 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [
+      "41590846",
+      "40892098",
+      "40529774"
+    ],
+    "refs": [],
+    "similar": [
+      "36042172",
+      "35327947",
+      "36046789",
+      "40074718",
+      "35850644",
+      "40808946",
+      "32626989",
+      "39029429",
+      "39318238",
+      "39425025",
+      "35128826",
+      "35841977",
+      "36056063",
+      "40869128",
+      "39427832",
+      "40790764",
+      "30203513",
+      "40529774",
+      "41287366",
+      "41496071",
+      "31236962",
+      "38469146",
+      "38168558",
+      "36544902",
+      "32581210",
+      "35433958",
+      "38571624",
+      "36471356",
+      "35282347",
+      "36148059",
+      "32620106",
+      "35091780",
+      "38886541",
+      "36532015",
+      "36733486",
+      "30662576",
+      "32727980",
+      "30368515",
+      "33052716",
+      "35646094",
+      "34861826",
+      "37869159",
+      "27050951",
+      "35328083",
+      "39914590",
+      "39670237",
+      "41144543",
+      "40766309",
+      "40217309",
+      "35411175",
+      "36440001",
+      "34490057",
+      "36518003",
+      "38510644",
+      "27737314",
+      "35618744",
+      "35187175",
+      "37008310",
+      "41369404",
+      "33015184",
+      "35702326",
+      "33099311",
+      "30720098",
+      "40216809",
+      "36725968",
+      "34285551",
+      "28318762",
+      "39006834",
+      "41158506",
+      "37967988",
+      "34224891",
+      "18595652",
+      "38961143",
+      "37108502",
+      "34261404",
+      "32537629",
+      "40296161",
+      "39161677",
+      "39762897",
+      "35433865",
+      "36824437",
+      "34218797",
+      "34733953",
+      "36076300",
+      "33940530",
+      "37268658",
+      "36035223",
+      "33860048",
+      "40374840",
+      "34498126",
+      "36547458",
+      "39556279",
+      "40821971",
+      "35016605",
+      "37168258",
+      "25137373",
+      "34367470",
+      "38686389",
+      "33484110",
+      "32685450"
+    ],
+    "review": [
+      "36042172",
+      "35841977"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.imrpress.com/journal/FBL/27/8/10.31083/j.fbl2708246",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

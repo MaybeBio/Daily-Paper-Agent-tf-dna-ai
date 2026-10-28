@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36084151",
+  "title": "Utility of constraints reflecting system stability on analyses for biological models.",
+  "authors": "Kariya, Yoshiaki; Honma, Masashi; Tokuda, Keita; Konagaya, Akihiko; Suzuki, Hiroshi",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究生物系统ODE模型的参数空间探索与稳定性约束，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Simulating complex biological models consisting of multiple ordinary differential equations can aid in the prediction of the pharmacological/biological responses; however, they are often hampered by the availability of reliable kinetic parameters. In the present study, we aimed to discover the properties of behaviors without determining an optimal combination of kinetic parameter values (parameter set). The key idea was to collect as many parameter sets as possible. Given that many systems are biologically stable and resilient (BSR), we focused on the dynamics around the steady state and formulated objective functions for BSR by partial linear approximation of the focused region. Using the objective functions and modified global cluster Newton method, we developed an algorithm for a thorough exploration of the allowable parameter space for biological systems (TEAPS). We first applied TEAPS to the NF-kappaB signaling model. This system shows a damped oscillation after stimulation and seems to fit the BSR constraint. By applying TEAPS, we found several directions in parameter space which stringently determines the BSR property. In such directions, the experimentally fitted parameter values were included in the range of the obtained parameter sets. The arachidonic acid metabolic pathway model was used as a model related to pharmacological responses. The pharmacological effects of nonsteroidal anti-inflammatory drugs were simulated using the parameter sets obtained by TEAPS. The structural properties of the system were partly extracted by analyzing the distribution of the obtained parameter sets. In addition, the simulations showed inter-drug differences in prostacyclin to thromboxane A2 ratio such that aspirin treatment tends to increase the ratio, while rofecoxib treatment tends to decrease it. These trends are comparable to the clinical observations. These results on real biological models suggest that the parameter sets satisfying the BSR condition can help in finding biologically plausible parameter sets and understanding the properties of biological systems.",
+  "abstract_zh": "模拟由多个常微分方程组成的复杂生物模型有助于预测药理学/生物学反应；然而，这些模型常受限于可靠动力学参数的可用性。在本研究中，我们旨在无需确定最优动力学参数值组合（参数集）的情况下，发现行为特性。关键思路是尽可能多地收集参数集。鉴于许多系统具有生物稳定性和韧性（BSR），我们聚焦于稳态附近的动力学，并通过局部线性近似对聚焦区域制定BSR的目标函数。利用这些目标函数和修正的全局牛顿聚类方法，我们开发了一种算法，用于彻底探索生物系统的允许参数空间（TEAPS）。我们首先将TEAPS应用于NF-kappaB信号传导模型。该系统在刺激后表现出阻尼振荡，似乎符合BSR约束。通过应用TEAPS，我们发现了参数空间中几个严格决定BSR特性的方向。在这些方向上，实验拟合的参数值包含在所得参数集的范围内。花生四烯酸代谢途径模型被用作与药理学反应相关的模型。使用TEAPS获得的参数集模拟了非甾体抗炎药的药理效应。通过分析所得参数集的分布，部分提取了系统的结构特性。此外，模拟显示不同药物在前列环素与血栓烷A2比值上的差异，如阿司匹林治疗倾向于增加该比值，而罗非昔布治疗倾向于降低该比值。这些趋势与临床观察结果相符。这些在真实生物模型上的结果表明，满足BSR条件的参数集有助于发现生物学上合理的参数集，并理解生物系统的特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36084151/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36084151/",
+  "paper_page_path": "papers/pubmed/36084151/index.html"
+}

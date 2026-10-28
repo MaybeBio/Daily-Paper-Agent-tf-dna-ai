@@ -1,0 +1,460 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.04.742711",
+  "title": "Genome-wide definition of the CosR regulon and DNA-binding properties in <i>Campylobacter jejuni</i>",
+  "doi": "10.64898/2026.08.04.742711",
+  "abstract": "CosR is an essential OmpR-family transcriptional regulator of Campylobacter jejuni , but its direct regulon and DNA-binding properties in vivo remain poorly defined. Here, we used ChIP-seq with a functional chromosomal CosR::3×FLAG allele to define the genome-wide CosR-binding landscape. CosR binding was strongly enriched at promoters and accumulated around transcription start sites, consistent with a primary role in transcriptional control. Functional analysis of promoter-bound targets revealed significant enrichment for translation- and transcription-related functions, identifying CosR as a regulator of core cellular processes. Motif analysis of summit-centered ChIP-seq regions identified a CosR-associated bipartite sequence signature characterized by TTAA-like elements separated by an A/T-rich spacer. DNase I footprinting confirmed direct promoter binding at nucleotide resolution and revealed heterogeneous architectures, including single, multipartite, and bidirectional binding arrangements. A footprint-derived motif was significantly similar to the ChIP-derived motif, supporting a shared recognition signature across in vivo-enriched regions and in vitro-protected segments. Footprinting also validated binding at non-coding RNA promoters and at the cosR promoter, indicating autoregulation. Hydrogen peroxide treatment differentially remodeled CosR promoter occupancy in vivo, reducing binding at translation-associated promoters while increasing enrichment at other targets. Redox-dependent footprinting showed that oxidative conditions directly impaired CosR binding at selected promoters, consistent with previously reported C218-dependent redox modulation. Despite these opposite occupancy patterns, most tested transcripts decreased after oxidative stress, indicating that CosR redox responsiveness is integrated with broader stress-dependent regulatory inputs. Together, these data define CosR as a condition-responsive regulator linking promoter recognition, core physiology and oxidative-stress-associated transcriptional remodeling. IMPORTANCE Campylobacter jejuni is a major foodborne pathogen that must adapt to changing oxygen levels and stress conditions during transmission and infection. CosR is essential for this bacterium, but previous studies could not clearly distinguish direct regulation from secondary effects caused by perturbing an essential protein. By mapping CosR binding across the genome and validating binding at nucleotide resolution, this study shows that CosR directly targets promoters associated with fundamental cellular functions, particularly translation and RNA metabolism, showing that the role of CosR extends well beyond oxidative-stress regulation. We also show that a brief oxidative challenge redistributes CosR occupancy among promoters in a target-dependent manner. These findings identify CosR as a condition-responsive regulator linking the gene-expression machinery and other core physiological functions to stress adaptation, and provide a framework for understanding how C. jejuni adjusts its physiology in changing environments.",
+  "authors": [
+    "Elena Chiti",
+    "Tobia Odorici",
+    "Mateusz Noszka",
+    "Jakub Muraszko",
+    "Annamaria Zannoni",
+    "Anna Zawilak-Pawlik",
+    "Andrea Vannini",
+    "Davide Roncarati"
+  ],
+  "published_date": "2026-08-04",
+  "updated_date": "2026-08-05T05:50:42Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742711",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742711.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2026-08-07T16:19:45Z",
+        "timestamp": 1786119585890,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 28,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                4
+              ]
+            ],
+            "date-time": "2026-08-04T00:00:00Z",
+            "timestamp": 1785801600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  CosR is an essential OmpR-family transcriptional regulator of\n                  <jats:italic>Campylobacter jejuni</jats:italic>\n                  , but its direct regulon and DNA-binding properties in vivo remain poorly defined. Here, we used ChIP-seq with a functional chromosomal CosR::3×FLAG allele to define the genome-wide CosR-binding landscape. CosR binding was strongly enriched at promoters and accumulated around transcription start sites, consistent with a primary role in transcriptional control. Functional analysis of promoter-bound targets revealed significant enrichment for translation- and transcription-related functions, identifying CosR as a regulator of core cellular processes. Motif analysis of summit-centered ChIP-seq regions identified a CosR-associated bipartite sequence signature characterized by TTAA-like elements separated by an A/T-rich spacer. DNase I footprinting confirmed direct promoter binding at nucleotide resolution and revealed heterogeneous architectures, including single, multipartite, and bidirectional binding arrangements. A footprint-derived motif was significantly similar to the ChIP-derived motif, supporting a shared recognition signature across in vivo-enriched regions and in vitro-protected segments. Footprinting also validated binding at non-coding RNA promoters and at the\n                  <jats:italic>cosR</jats:italic>\n                  promoter, indicating autoregulation.\n                </jats:p>\n                <jats:p>Hydrogen peroxide treatment differentially remodeled CosR promoter occupancy in vivo, reducing binding at translation-associated promoters while increasing enrichment at other targets. Redox-dependent footprinting showed that oxidative conditions directly impaired CosR binding at selected promoters, consistent with previously reported C218-dependent redox modulation. Despite these opposite occupancy patterns, most tested transcripts decreased after oxidative stress, indicating that CosR redox responsiveness is integrated with broader stress-dependent regulatory inputs. Together, these data define CosR as a condition-responsive regulator linking promoter recognition, core physiology and oxidative-stress-associated transcriptional remodeling.</jats:p>\n                <jats:sec>\n                  <jats:title>IMPORTANCE</jats:title>\n                  <jats:p>\n                    <jats:italic>Campylobacter jejuni</jats:italic>\n                    is a major foodborne pathogen that must adapt to changing oxygen levels and stress conditions during transmission and infection. CosR is essential for this bacterium, but previous studies could not clearly distinguish direct regulation from secondary effects caused by perturbing an essential protein. By mapping CosR binding across the genome and validating binding at nucleotide resolution, this study shows that CosR directly targets promoters associated with fundamental cellular functions, particularly translation and RNA metabolism, showing that the role of CosR extends well beyond oxidative-stress regulation. We also show that a brief oxidative challenge redistributes CosR occupancy among promoters in a target-dependent manner. These findings identify CosR as a condition-responsive regulator linking the gene-expression machinery and other core physiological functions to stress adaptation, and provide a framework for understanding how\n                    <jats:italic>C. jejuni</jats:italic>\n                    adjusts its physiology in changing environments.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.08.04.742711",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2026-08-05T05:50:42Z",
+        "timestamp": 1785909042000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Genome-wide definition of the CosR regulon and DNA-binding properties in\n                  <i>Campylobacter jejuni</i>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Elena",
+          "family": "Chiti",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pharmacy and Biotechnology, University of Bologna, Via Selmi 3, 40126 Bologna, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tobia",
+          "family": "Odorici",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pharmacy and Biotechnology, University of Bologna, Via Selmi 3, 40126 Bologna, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mateusz",
+          "family": "Noszka",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Microbiology, Hirszfeld Institute of Immunology and Experimental Therapy, Polish Academy of Sciences, Weigla 12, 53-114 Wroclaw, Poland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jakub",
+          "family": "Muraszko",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Microbiology, Hirszfeld Institute of Immunology and Experimental Therapy, Polish Academy of Sciences, Weigla 12, 53-114 Wroclaw, Poland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Annamaria",
+          "family": "Zannoni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pharmacy and Biotechnology, University of Bologna, Via Selmi 3, 40126 Bologna, Italy"
+            },
+            {
+              "name": "University of Würzburg, Institute of Molecular Infection Biology, Department of Molecular Infection Biology II, Würzburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anna",
+          "family": "Zawilak-Pawlik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Microbiology, Hirszfeld Institute of Immunology and Experimental Therapy, Polish Academy of Sciences, Weigla 12, 53-114 Wroclaw, Poland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea",
+          "family": "Vannini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pharmacy and Biotechnology, University of Bologna, Via Selmi 3, 40126 Bologna, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6923-6087",
+          "authenticated-orcid": false,
+          "given": "Davide",
+          "family": "Roncarati",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pharmacy and Biotechnology, University of Bologna, Via Selmi 3, 40126 Bologna, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pmed.1001923"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.heliyon.2019.e02814"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kaakoush NO , Castaño-Rodríguez N , Mitchell HM , Man SM . 2015. Global epidemiology of campylobacter infection. Clin Microbiol Rev 28.",
+          "DOI": "10.1128/CMR.00006-15"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro1718"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou B , Garber JM , Butcher J , Muszynski A , Casey RL , Huynh S , Archer-Hartmann S , Porfírio S , Rogers AM , Azadi P , Parker CT , Ng KKS , Hines KM , Stintzi A , Szymanski CM . 2025. Campylobacter jejuni resistance to human milk involves the acyl carrier protein AcpP. mBio 16.",
+          "DOI": "10.1128/mbio.03997-24"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wulsten IF , Galeev A , Stingl K . 2020. Underestimated Survival of Campylobacter in Raw Milk Highlighted by Viability Real-Time PCR and Growth Recovery. Front Microbiol 11.",
+          "DOI": "10.3389/fmicb.2020.01107"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Murray CJ , Ikuta KS , Sharara F , Swetschinski L , Robles Aguilar G , Gray A , Han C , Bisignano C , Rao P , Wool E , Johnson SC , Browne AJ , Chipeta MG , Fell F , Hackett S , Haines-Woodhouse G , Kashef Hamadani BH , Kumaran EAP , McManigal B , Agarwal R , Akech S , Albertson S , Amuasi J , Andrews J , Aravkin A , Ashley E , Bailey F , Baker S , Basnyat B , Bekker A , Bender R , Bethou A , Bielicki J , Boonkasidecha S , Bukosia J , Carvalheiro C , Castañeda-Orjuela C , Chansamouth V , Chaurasia S , Chiurchiù S , Chowdhury F , Cook AJ , Cooper B , Cressey TR , Criollo-Mora E , Cunningham M , Darboe S , Day NPJ , De Luca M , Dokova K , Dramowski A , Dunachie SJ , Eckmanns T , Eibach D , Emami A , Feasey N , Fisher-Pearson N , Forrest K , Garrett D , Gastmeier P , Giref AZ , Greer RC , Gupta V , Haller S , Haselbeck A , Hay SI , Holm M , Hopkins S , Iregbu KC , Jacobs J , Jarovsky D , Javanmardi F , Khorana M , Kissoon N , Kobeissi E , Kostyanev T , Krapp F , Krumkamp R , Kumar A , Kyu HH , Lim C , Limmathurotsakul D , Loftus MJ , Lunn M , Ma J , Mturi N , Munera-Huertas T , Musicha P , Mussi-Pinhata MM , Nakamura T , Nanavati R , Nangia S , Newton P , Ngoun C , Novotney A , Nwakanma D , Obiero CW , Olivas-Martinez A , Olliaro P , Ooko E , Ortiz-Brizuela E , Peleg AY , Perrone C , Plakkal N , Ponce-de-Leon A , Raad M , Ramdin T , Riddell A , Roberts T , Robotham JV , Roca A , Rudd KE , Russell N , Schnall J , Scott JAG , Shivamallappa M , Sifuentes-Osornio J , Steenkeste N , Stewardson AJ , Stoeva T , Tasak N , Thaiprakong A , Thwaites G , Turner C , Turner P , van Doorn HR , Velaphi S , Vongpradith A , Vu H , Walsh T , Waner S , Wangrangsimakul T , Wozniak T , Zheng P , Sartorius B , Lopez AD , Stergachis A , Moore C , Dolecek C , Naghavi M . 2022. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. The Lancet 399.",
+          "DOI": "10.1016/S0140-6736(21)02724-0"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gundogdu O , da Silva DT , Mohammad B , Elmi A , Mills DC , Wren BW , Dorrell N. 2015. The Campylobacter jejuni MarR-like transcriptional regulators RrpA and RrpB both influence bacterial responses to oxidative and aerobic stresses. Front Microbiol 6.",
+          "DOI": "10.3389/fmicb.2015.00724"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Palyada K , Sun YQ , Flint A , Butcher J , Naikare H , Stintzi A . 2009. Characterization of the oxidative stress stimulon and PerR regulon of Campylobacter jejuni. BMC Genomics 10.",
+          "DOI": "10.1186/1471-2164-10-481"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2217/fmb.09.44"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hwang S , Kim M , Ryu S , Jeon B . 2011. Regulation of oxidative stress response by CosR, an essential response regulator in campylobacter jejuni. PLoS One 6.",
+          "DOI": "10.1371/journal.pone.0022300"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hwang S , Miller WG , Ryu S , Jeon B . 2014. Divergent distribution of the sensor kinase CosS in non-thermotolerant campylobacter species and its functional incompatibility with the response regulator CosR of campylobacter jejuni. PLoS One 9.",
+          "DOI": "10.1371/journal.pone.0089774"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Z , Yan Y , Pang J , Dai L , Zhang Q , Yu EW . 2024. Structural basis of DNA recognition of the Campylobacter jejuni CosR regulator. mBio 15.",
+          "DOI": "10.1128/mbio.03430-23"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zannoni A , Pelliciari S , Musiani F , Chiappori F , Roncarati D , Scarlato V . 2021. Definition of the binding architecture to a target promoter of HP1043, the essential master regulator of helicobacter pylori. Int J Mol Sci 22.",
+          "DOI": "10.3390/ijms22157848"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grinnage-Pulley T , Mu Y , Dai L , Zhang Q . 2016. Dual repression of the multidrug efflux pump CmeABC by CosR and CmeR in Campylobacter jejuni. Front Microbiol 7.",
+          "DOI": "10.3389/fmicb.2016.01097"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hwang S , Zhang Q , Ryu S , Jeon B . 2012. Transcriptional regulation of the cmeABC multidrug efflux pump and the KatA catalase by cosR in campylobacter jejuni. J Bacteriol 194.",
+          "DOI": "10.1128/JB.01636-12"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Park M , Hwang S , Ryu S , Jeon B . 2021. Cosr regulation of perr transcription for the control of oxidative stress defense in campylobacter jejuni. Microorganisms 9.",
+          "DOI": "10.3390/microorganisms9061281"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dugar G , Herbig A , Förstner KU , Heidrich N , Reinhardt R , Nieselt K , Sharma CM . 2013. High-Resolution Transcriptome Maps Reveal Strain-Specific Regulatory Features of Multiple Campylobacter jejuni Isolates. PLoS Genet 9.",
+          "DOI": "10.1371/journal.pgen.1003495"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cameron A , Frirdich E , Huynh S , Parker CT , Gaynor EC . 2012. Hyperosmotic Stress Response of Campylobacter jejuni. J Bacteriol 194.",
+          "DOI": "10.1128/JB.01409-12"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Konkel ME , Klena JD , Rivera-Amill V , Monteville MR , Biswas D , Raphael B , Mickelson J . 2004. Secretion of virulence proteins from Campylobacter jejuni is dependent on a functional flagellar export apparatus. J Bacteriol 186.",
+          "DOI": "10.1128/JB.186.11.3296-3303.2004"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cox CA , Bogacz M , El Abbar FM , Browning DD , Hsueh BY , Waters CM , Lee VT , Thompson SA . 2022. The Campylobacter jejuni response regulator and cyclic-Di-GMP binding CbrR is a novel regulator of flagellar motility. Microorganisms 10.",
+          "DOI": "10.3390/microorganisms10010086"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raphael BH , Pereira S , Flom GA , Zhang Q , Ketley JM , Konkel ME . 2005. The Campylobacter jejuni response regulator, CbrR, modulates sodium deoxycholate resistance and chicken colonization. J Bacteriol 187.",
+          "DOI": "10.1128/JB.187.11.3662-3670.2005"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.23",
+          "unstructured": "Paul BJ , Barker MM , Ross W , Schneider DA , Webb C , Foster JW , Gourse RL . 2004. DksA: A critical component of the transcription initiation machinery that potentiates the regulation of rRNA promoters by ppGpp and the initiating NTP. Cell 118."
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.micro.62.081307.162903"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6976.2011.00279.x"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-018-0037-9"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-micro-090110-102908"
+        },
+        {
+          "key": "2026080611351016000_2026.08.04.742711v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pelliciari S , Pinatel E , Vannini A , Peano C , Puccio S , De Bellis G , Danielli A , Scarlato V , Roncarati D. 2017. Insight into the essential role of the Helicobacter pylori HP1043 orphan response regulator: Genome-wide identification and characterization of the DNA-binding sites. Sci Rep 7.",
+          "DOI": "10.1038/srep41063"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.04.742711",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            6
+          ]
+        ],
+        "date-time": "2026-08-06T18:35:25Z",
+        "timestamp": 1786041325000
+      },
+      "score": 116.1256,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.04.742711"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ]
+      },
+      "references-count": 28,
+      "URL": "https://doi.org/10.64898/2026.08.04.742711",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

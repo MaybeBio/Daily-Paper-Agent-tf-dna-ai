@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "40505773",
+    "doi": "10.1016/j.jormas.2025.102423",
+    "title": "Bioinformatics analysis of hub genes and oxidative stress-related pathways in odontogenic keratocysts."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The study aimed to examine the hub genes and oxidative stress-related pathways in odontogenic keratocysts (OKCs) and predict transcription factors associated with the hub genes. METHODS: The GSE38494 dataset, which includes 12 OKC tissues and 4 normal oral mucosa tissues, was retrieved from the Gene Expression Omnibus (GEO) database. The limma package in the R programming language was utilized to identify differentially expressed genes (DEGs). In addition, Gene Ontology (GO) analysis was performed specifically for genes associated with oxidative stress. Utilizing Database for Annotation, Visualization, and Integrated Discovery (DAVID), Metascape, and Gene Set Enrichment Analysis (GSEA), we comprehensively analyzed the GO terms and signaling pathways related to oxidative stress. The Degree algorithm in Cytoscape was employed to identify hub genes. The STRING database was leveraged to construct the protein-protein interaction (PPI) network. Finally, the transcription factors (TFs) of the hub genes were identified using the NetworkAnalyst web tool. scRNA data of OKC (GSE176351) was used for correlation analysis between oxidative stress-related hub genes and IL-beta gene by Pearson correlation analysis. RESULTS: A total of 465 genes associated with oxidative stress were identified in the GSE38494 and GO databases, and 60 genes were significantly differentially expressed. The majority of these genes were involved in multiple signaling pathways, such as microRNAs in cancers, chemical carcinogenesis, reactive oxygen species, and the arachidonic acid metabolism signaling pathway. The ten most important hub genes were MAPK3, HMOX1, GPX6, GPX7, GCLM, COL1A1, TXN, PDGFRB, NQO1, and MMP2. FOXC1, HNF4A, and GATA2 may be the key regulatory factors of the hub genes. Additionally, there is a weak postitive correlation between oxidative stress-related genes and IL-1beta in epithelial cells of OKC (R = 0.26). CONCLUSIONS: Through bioinformatics analysis, we identified several oxidative stress-related hub genes and signaling pathways in OKC which was related to IL-1beta expression.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Odontogenic keratocyst",
+      "Oxidative stress-related pathways",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "*Oxidative Stress/genetics",
+      "*Computational Biology",
+      "Humans",
+      "*Odontogenic Cysts/genetics/pathology",
+      "Gene Ontology",
+      "*Signal Transduction/genetics",
+      "Protein Interaction Maps",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Hao",
+        "Li, Rui-Fang",
+        "Man, Qi-Wen"
+      ],
+      "short_names": [
+        "Zhou H",
+        "Li RF",
+        "Man QW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral and Maxillofacial Surgery, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430000, PR China.",
+        "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology, Wuhan University, Wuhan, Hubei 430000, PR China.",
+        "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology, Wuhan University, Wuhan, Hubei 430000, PR China; Department of Oral and Maxillofacial Head Neck Surgery, School & Hospital of Stomatology, Wuhan University, Wuhan, Hubei 430000, PR China. Electronic address: manqiwen@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Hao",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430000, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Rui-Fang",
+        "short_name": "Li RF",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology, Wuhan University, Wuhan, Hubei 430000, PR China."
+        ]
+      },
+      {
+        "full_name": "Man, Qi-Wen",
+        "short_name": "Man QW",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology, Wuhan University, Wuhan, Hubei 430000, PR China; Department of Oral and Maxillofacial Head Neck Surgery, School & Hospital of Stomatology, Wuhan University, Wuhan, Hubei 430000, PR China. Electronic address: manqiwen@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of stomatology, oral and maxillofacial surgery"
+    ],
+    "journal_abbrev": [
+      "J Stomatol Oral Maxillofac Surg"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/13 00:27",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "41018070"
+    ],
+    "refs": [],
+    "similar": [
+      "40505773",
+      "35118903",
+      "39362634",
+      "37415178",
+      "39272104",
+      "32008037",
+      "36972403",
+      "39636560",
+      "38701300",
+      "39556279",
+      "40804350",
+      "33420869",
+      "36104591",
+      "33640831",
+      "40628511",
+      "34257537",
+      "35313524",
+      "30506958",
+      "36335193",
+      "38073349",
+      "41018070",
+      "34160465",
+      "32756534",
+      "40574839",
+      "34313877",
+      "35680809",
+      "41444522",
+      "30937635",
+      "39673621",
+      "38899746",
+      "34271942",
+      "40790764",
+      "31987036",
+      "39111872",
+      "36798084",
+      "31233342",
+      "37250717",
+      "33083497",
+      "35003319",
+      "36499614",
+      "38549107",
+      "37743309",
+      "34671419",
+      "36118873",
+      "38736878",
+      "32980897",
+      "40821971",
+      "37632659",
+      "40091022",
+      "38904678",
+      "33847684",
+      "41511918",
+      "32147961",
+      "33120861",
+      "41544137",
+      "32626989",
+      "33462173",
+      "33104965",
+      "38142454",
+      "34603487",
+      "40289127",
+      "39367003",
+      "29921304",
+      "35054979",
+      "31424263",
+      "33927789",
+      "30107230",
+      "37635735",
+      "35762549",
+      "31772617",
+      "33299863",
+      "32546690",
+      "36631011",
+      "31989994",
+      "31699960",
+      "33501609",
+      "32127012",
+      "38319987",
+      "33437215",
+      "33578541",
+      "31822116",
+      "34553293",
+      "31277141",
+      "35016690",
+      "38384969",
+      "38509535",
+      "39172048",
+      "32443377",
+      "35762542",
+      "40245021",
+      "40294937",
+      "36506310",
+      "34600545",
+      "30203136",
+      "37605414",
+      "37609434",
+      "30916045",
+      "31545495",
+      "32578582",
+      "31311829"
+    ],
+    "review": [
+      "40505773",
+      "33080677"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2468-7855(25)00209-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GCLM-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3884",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2468-7855(25)00209-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

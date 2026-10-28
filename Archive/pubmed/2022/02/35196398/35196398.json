@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "35196398",
+    "doi": "10.1111/imm.13460",
+    "title": "Distinguishing activated T regulatory cell and T conventional cells by single-cell technologies."
+  },
+  "content": {
+    "abstract": "Resting conventional T cells (Tconv) can be distinguished from T regulatory cells (Treg) by the canonical markers FOXP3, CD25 and CD127. However, the expression of these proteins alters after T-cell activation leading to overlap between Tconv and Treg. The objective of this study was to distinguish resting and antigen-responsive T effector (Tconv) and Treg using single-cell technologies. CD4(+) Treg and Tconv cells were stimulated with antigen and responsive and non-responsive populations processed for targeted and non-targeted single-cell RNAseq. Machine learning was used to generate a limited set of genes that could distinguish responding and non-responding Treg and Tconv cells and which was used for single-cell multiplex qPCR and to design a flow cytometry panel. Targeted scRNAseq clearly distinguished the four-cell populations. A minimal set of 27 genes was identified by machine learning algorithms to provide discrimination of the four populations at >95% accuracy. In all, 15 of the genes were validated to be differentially expressed by single-cell multiplex qPCR. Discrimination of responding Treg from responding Tconv could be achieved by a flow cytometry strategy that included staining for CD25, CD127, FOXP3, IKZF2, ITGA4, and the novel marker TRIM which was strongly expressed in Tconv and weakly expressed in both responding and non-responding Treg. A minimal set of genes was identified that discriminates responding and non-responding CD4(+) Treg and Tconv cells and, which have identified TRIM as a marker to distinguish Treg by flow cytometry.",
+    "keywords": [
+      "CD4 cell",
+      "T cell",
+      "Treg",
+      "activation",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Biomarkers/metabolism",
+      "Flow Cytometry",
+      "Forkhead Transcription Factors/metabolism",
+      "*Lymphocyte Activation",
+      "Lymphocyte Count",
+      "*T-Lymphocytes, Regulatory"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Reinhardt, Julia",
+        "Sharma, Virag",
+        "Stavridou, Antigoni",
+        "Lindner, Annett",
+        "Reinhardt, Susanne",
+        "Petzold, Andreas",
+        "Lesche, Mathias",
+        "Rost, Fabian",
+        "Bonifacio, Ezio",
+        "Eugster, Anne"
+      ],
+      "short_names": [
+        "Reinhardt J",
+        "Sharma V",
+        "Stavridou A",
+        "Lindner A",
+        "Reinhardt S",
+        "Petzold A",
+        "Lesche M",
+        "Rost F",
+        "Bonifacio E",
+        "Eugster A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8009-5959"
+      ],
+      "affiliations": [
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+        "German Center for Diabetes Research (DZD), Faculty of Medicine, Paul Langerhans Institute Dresden of Helmholtz Centre Munich at University Clinic Carl Gustav Carus of TU Dresden, Dresden, Germany.",
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+        "German Center for Diabetes Research (DZD), Faculty of Medicine, Paul Langerhans Institute Dresden of Helmholtz Centre Munich at University Clinic Carl Gustav Carus of TU Dresden, Dresden, Germany.",
+        "Center for Molecular and Cellular Bioengineering (CMCB), DRESDEN-concept Genome Center, Technische Universitat Dresden, Dresden, Germany.",
+        "Center for Molecular and Cellular Bioengineering (CMCB), DRESDEN-concept Genome Center, Technische Universitat Dresden, Dresden, Germany.",
+        "Center for Molecular and Cellular Bioengineering (CMCB), DRESDEN-concept Genome Center, Technische Universitat Dresden, Dresden, Germany.",
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+        "Center for Information Services and High-Performance Computing (ZIH), TU Dresden, Dresden, Germany.",
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+        "German Center for Diabetes Research (DZD), Faculty of Medicine, Paul Langerhans Institute Dresden of Helmholtz Centre Munich at University Clinic Carl Gustav Carus of TU Dresden, Dresden, Germany.",
+        "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Reinhardt, Julia",
+        "short_name": "Reinhardt J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Sharma, Virag",
+        "short_name": "Sharma V",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+          "German Center for Diabetes Research (DZD), Faculty of Medicine, Paul Langerhans Institute Dresden of Helmholtz Centre Munich at University Clinic Carl Gustav Carus of TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Stavridou, Antigoni",
+        "short_name": "Stavridou A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Lindner, Annett",
+        "short_name": "Lindner A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+          "German Center for Diabetes Research (DZD), Faculty of Medicine, Paul Langerhans Institute Dresden of Helmholtz Centre Munich at University Clinic Carl Gustav Carus of TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Reinhardt, Susanne",
+        "short_name": "Reinhardt S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular and Cellular Bioengineering (CMCB), DRESDEN-concept Genome Center, Technische Universität Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Petzold, Andreas",
+        "short_name": "Petzold A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular and Cellular Bioengineering (CMCB), DRESDEN-concept Genome Center, Technische Universität Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Lesche, Mathias",
+        "short_name": "Lesche M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular and Cellular Bioengineering (CMCB), DRESDEN-concept Genome Center, Technische Universität Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Rost, Fabian",
+        "short_name": "Rost F",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+          "Center for Information Services and High-Performance Computing (ZIH), TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Bonifacio, Ezio",
+        "short_name": "Bonifacio E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany.",
+          "German Center for Diabetes Research (DZD), Faculty of Medicine, Paul Langerhans Institute Dresden of Helmholtz Centre Munich at University Clinic Carl Gustav Carus of TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Eugster, Anne",
+        "short_name": "Eugster A",
+        "identifiers": [
+          "0000-0001-8009-5959"
+        ],
+        "affiliations": [
+          "Center for Regenerative Therapies Dresden, Faculty of Medicine, TU Dresden, Dresden, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Immunology"
+    ],
+    "journal_abbrev": [
+      "Immunology"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/24 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "41803144",
+      "41659850",
+      "41074026",
+      "40672265",
+      "40178639",
+      "39510068",
+      "39472557",
+      "39319132",
+      "39044534",
+      "38316770",
+      "36751634"
+    ],
+    "refs": [
+      "32580776",
+      "32385160",
+      "31896551",
+      "31792435",
+      "31430664",
+      "31024627",
+      "30531897",
+      "30061879",
+      "29434354",
+      "28088763",
+      "27909575",
+      "26786322",
+      "25599176",
+      "25032992",
+      "24836921",
+      "24448570",
+      "24385147",
+      "21689853",
+      "19940860",
+      "18926906",
+      "18510923",
+      "17110462",
+      "16818676",
+      "12522256",
+      "11567140",
+      "11466340",
+      "11390437",
+      "10213685"
+    ],
+    "similar": [
+      "35196398",
+      "36741366",
+      "20810983",
+      "24708420",
+      "26122357",
+      "34006899",
+      "23209626",
+      "24405842",
+      "22425700",
+      "19153062",
+      "31571372",
+      "23257455",
+      "30620397",
+      "36434024",
+      "20005134",
+      "23127412",
+      "23690575",
+      "26268522",
+      "29850630",
+      "27100298",
+      "22949266",
+      "27402696",
+      "22510013",
+      "33602930",
+      "38100544",
+      "22541127",
+      "24947990",
+      "27880974",
+      "26885861",
+      "22272233",
+      "20497692",
+      "23355538",
+      "19996930",
+      "17309822",
+      "17296570",
+      "24212096",
+      "17582431",
+      "22752562",
+      "23826668",
+      "34097299",
+      "25102154",
+      "26333292",
+      "30955881",
+      "29023682",
+      "17425604",
+      "29147008",
+      "28283419",
+      "21376048",
+      "21389253",
+      "21799858",
+      "21314851",
+      "30972079",
+      "21270412",
+      "18455222",
+      "20041222",
+      "29752063",
+      "20688398",
+      "27479496",
+      "19128356",
+      "22322668",
+      "19917691",
+      "31811667",
+      "34082767",
+      "20018909",
+      "18311820",
+      "23029447",
+      "29768737",
+      "17331841",
+      "33400237",
+      "23869954",
+      "20690182",
+      "19283780",
+      "31288845",
+      "23912800",
+      "33868236",
+      "19155519",
+      "23734780",
+      "18346640",
+      "25812348",
+      "26329520",
+      "21105040",
+      "25088497",
+      "16493037",
+      "20525892",
+      "33274645",
+      "26308438",
+      "19696173",
+      "33401501",
+      "25948100",
+      "19940860",
+      "31340848",
+      "37006296",
+      "28321213",
+      "37365692",
+      "39170389"
+    ],
+    "review": [
+      "35196398",
+      "19128356"
+    ],
+    "pmc": [
+      "9426617"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35196398.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35196398/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35196398",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/imm.13460",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "42421085",
+    "doi": "10.1186/s13148-026-02194-x",
+    "title": "Epigenetic editing approaches maturity: AI-driven precision design, delivery innovation, and the road to clinical translation."
+  },
+  "content": {
+    "abstract": "Epigenetic editing achieves durable gene silencing through targeted modification of chromatin and DNA methylation states without altering the genomic sequence-modifications that remain fundamentally reversible compared with genome editing. Long constrained by transient efficacy, insufficient precision, and delivery bottlenecks, the field reached a critical inflection point in 2024-2025, measurable through three quantifiable criteria: (1) mechanistic durability-silencing maintained across >/= 450 cell divisions in vitro and >/= 12 months in vivo without continued editor expression; (2) delivery competence-tissue-selective transduction at > 50% efficiency in liver, muscle, and whole brain via engineered lipid nanoparticle and AAV platforms; and (3) clinical validation-advancement of multiple first-in-human trials. The inaugural trial in epigenetic editing was OTX-2002 (targeting MYC-driven malignancies, MYCHELANGELO study), initiated in October 2022, followed by TUNE-401 for chronic hepatitis B (Phase Ib, November 2024) and EPI-321 for facioscapulohumeral muscular dystrophy (Phase I/II, first patient dosed August 2025). Artificial intelligence contributes at distinct levels: deep learning platforms have directly accelerated clinical-stage LNP formulation screening and AAV capsid prediction; AlphaFold3 has optimized protein-DNA interaction validation without yet entering clinical programs; and the 2025 de novo design of DNA-binding proteins smaller than 65 amino acids represents a proof-of-concept breakthrough with zero clinical precedent. This review comprehensively analyzes epigenetic editing's technological maturation, provides a tiered assessment of AI's realized and anticipated contributions, critically evaluates the emerging clinical landscape, and identifies decisive unresolved challenges-including long-term stability in non-dividing cells, the lack of monitoring systems and intervention protocols needed to implement reversibility in clinical practice, and manufacturing access barriers. We argue that epigenetic editing is progressively establishing itself as a distinctive therapeutic modality characterized by durable efficacy and sequence-independent safety-reversibility as a theoretical safety mechanism has been validated preclinically, but the monitoring and intervention infrastructure required for its clinical implementation remains to be established. Long-term human validation remains the outstanding core question.",
+    "keywords": [
+      "Artificial intelligence",
+      "CRISPRoff",
+      "Clinical translation",
+      "DNA methylation",
+      "Epigenetic editing",
+      "Gene silencing",
+      "Lipid nanoparticle",
+      "de novo protein design"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Epigenome Editing/methods",
+      "*Artificial Intelligence",
+      "Translational Research, Biomedical/methods",
+      "Epigenesis, Genetic",
+      "*Gene Editing/methods",
+      "DNA Methylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Shiqi",
+        "Lu, Di",
+        "Jin, Yuyuan",
+        "He, Yilei",
+        "Zhao, Yue",
+        "Xie, Xinyu",
+        "Guo, Jingjing",
+        "Xie, Wenbing",
+        "Tao, Yong"
+      ],
+      "short_names": [
+        "Chang S",
+        "Lu D",
+        "Jin Y",
+        "He Y",
+        "Zhao Y",
+        "Xie X",
+        "Guo J",
+        "Xie W",
+        "Tao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China.",
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China.",
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China.",
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China.",
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China.",
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China.",
+        "Faculty of Applied Sciences, Centre in Artificial Intelligence Driven Drug Discovery, Macao Polytechnic University, Macao, 999078, China.",
+        "Department of Stomatology, Division of Life Sciences and Medicine, Hefei National Research Center for Interdisciplinary Sciences at the Microscale, School of Basic Medical Sciences, The First Affiliated Hospital of USTC, University of Science and Technology of China, Hefei, 230026, China.",
+        "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China. taoyong.ac@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Shiqi",
+        "short_name": "Chang S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Di",
+        "short_name": "Lu D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yuyuan",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China."
+        ]
+      },
+      {
+        "full_name": "He, Yilei",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yue",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Xinyu",
+        "short_name": "Xie X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jingjing",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Applied Sciences, Centre in Artificial Intelligence Driven Drug Discovery, Macao Polytechnic University, Macao, 999078, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Wenbing",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Division of Life Sciences and Medicine, Hefei National Research Center for Interdisciplinary Sciences at the Microscale, School of Basic Medical Sciences, The First Affiliated Hospital of USTC, University of Science and Technology of China, Hefei, 230026, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Yong",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Yunnan Key Laboratory of Cell Metabolism and Diseases, School of Life Sciences, Yunnan University, Kunming, 650504, China. taoyong.ac@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2026 Jul 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/09 06:32",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42421085",
+      "42475469",
+      "40121086",
+      "42771308",
+      "42782748",
+      "41684870",
+      "41455872",
+      "42229577",
+      "42297231",
+      "42511810",
+      "37294468",
+      "41731598",
+      "40898613",
+      "42193866",
+      "42599575",
+      "42173386",
+      "42247138",
+      "42365126",
+      "41136797",
+      "38440883",
+      "42781958",
+      "41906543",
+      "41243026",
+      "40315964",
+      "41665042",
+      "42524609",
+      "41304743",
+      "40132699",
+      "39820862",
+      "41570009",
+      "42303162",
+      "39012588",
+      "39012601",
+      "41329461",
+      "41034497",
+      "36350521",
+      "42709370",
+      "29524128",
+      "40537846",
+      "42511643",
+      "40858609",
+      "39345634",
+      "41471222",
+      "32619853",
+      "39898483",
+      "42192279",
+      "42381707",
+      "40517231",
+      "41120666",
+      "41378919",
+      "28523558",
+      "33421620",
+      "38418872",
+      "29524127",
+      "40610259",
+      "42793032",
+      "39930141",
+      "29852072",
+      "35234927",
+      "40650152",
+      "39491497",
+      "42072323",
+      "39998382",
+      "33838111",
+      "40915965",
+      "42452277",
+      "42733042",
+      "42322170",
+      "41286458",
+      "41620608",
+      "42018092",
+      "41494270",
+      "41939694",
+      "42551559",
+      "42263664",
+      "37292627",
+      "42662076",
+      "41882965",
+      "40522884",
+      "42653084",
+      "29524130",
+      "42807818",
+      "41952451",
+      "41993129",
+      "40685330",
+      "42610073",
+      "27662090",
+      "41898703",
+      "41449196",
+      "42715733",
+      "42298891",
+      "41931258",
+      "29524132",
+      "41096677",
+      "42169659",
+      "40930103",
+      "41038616",
+      "41352695",
+      "27826848",
+      "41825535"
+    ],
+    "review": [
+      "42421085",
+      "42771308",
+      "42782748",
+      "41684870",
+      "41455872",
+      "42229577",
+      "42297231",
+      "42511810",
+      "37294468",
+      "41731598",
+      "40898613",
+      "42193866",
+      "42599575",
+      "42173386",
+      "42247138",
+      "42365126",
+      "41136797",
+      "38440883",
+      "42781958",
+      "41906543",
+      "41243026",
+      "40315964",
+      "41665042",
+      "42524609",
+      "41304743",
+      "40132699",
+      "39820862",
+      "42303162",
+      "41329461",
+      "36350521",
+      "42709370",
+      "29524128",
+      "42511643",
+      "41471222",
+      "32619853",
+      "42192279",
+      "40517231",
+      "28523558",
+      "33421620",
+      "29524127",
+      "42793032",
+      "29852072",
+      "40650152",
+      "42072323",
+      "40915965",
+      "42452277",
+      "42322170",
+      "41286458",
+      "42018092",
+      "41939694",
+      "42551559",
+      "42263664",
+      "42662076",
+      "42653084",
+      "42807818",
+      "41952451",
+      "41993129",
+      "42610073",
+      "41898703",
+      "42715733",
+      "42298891",
+      "41931258",
+      "41096677",
+      "42169659",
+      "41038616",
+      "41352695",
+      "27826848",
+      "41825535"
+    ],
+    "pmc": [
+      "13632440"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-026-02194-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42421085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

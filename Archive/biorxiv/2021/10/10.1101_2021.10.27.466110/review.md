@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, appendices) as provided
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or supplementary figures beyond those referenced in the text were independently verified
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered regions (IDRs) of HIF-α subunits, rather than their DNA-binding domains, are major determinants of nuclear diffusion dynamics and chromatin binding preferences, contributing to isoform-specific target gene regulation in living cells
+- **Visible evidence base** Single-particle tracking (SPT) data, domain-swap and mutation experiments, Cut&Run, RNA-seq, ChIP-seq, western blotting, luciferase assays, and computational analyses as described in the text
+- **Missing materials affecting confidence** Full figure panels, numerical data for SPT distributions, statistical details for genomic analyses, and raw data files were not available for independent assessment; the manuscript text alone limits verification of quantitative claims
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in transcription factor biology: how closely related TFs with identical DNA-binding specificity achieve distinct in vivo binding profiles. The authors employ an impressive combination of live-cell single-particle tracking, genetic perturbations, and genomic assays to implicate IDRs as key regulators of HIF isoform-specific dynamics and binding. The work is conceptually novel and technically ambitious, with potential broad interest. However, several technical and interpretive concerns must be resolved before the central claims are fully established, particularly regarding the quantitative rigor of SPT analyses, the specificity of IDR effects, and the generalizability of the proposed model.
+- **Who would be interested in the results, and why** Researchers in transcription regulation, chromatin biology, and single-molecule biophysics would find this work highly relevant. The findings challenge the classical modular view of TF function and offer a new framework for understanding isoform-specific gene regulation, which is of direct interest to cancer biologists studying HIF signaling in tumors. The methodological advances in SPT and the integration with genomic approaches also appeal to methodologists in live-cell imaging.
+- **Major strengths** The study combines cutting-edge live-cell imaging with genetic and pharmacological perturbations to dissect TF dynamics at endogenous levels. The use of domain-swap and mutation strategies is elegant and directly tests the modularity hypothesis. The inclusion of orthogonal genomic assays (Cut&Run, RNA-seq) strengthens the link between dynamics and function. The authors also address potential confounds, such as expression level differences, with careful controls.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of SPT analysis
+  - **Claim pointer** The authors claim that IDRs determine diffusion characteristics and bound fractions of HIF proteins, based on SPT data analyzed with a Bayesian state array approach.
+  - **Evidence pointer** Results section "fSPT detects various HIF molecular states"; Figure 2; Table 1; Appendix 1
+  - **Concern** The SPT analysis relies on a non-parametric Bayesian approach, but the manuscript does not provide sufficient detail on how the state array was validated for the specific experimental conditions (e.g., labeling density, photobleaching rates, and trajectory lengths). The authors mention bootstrapping in Appendix 1, but the results are not fully presented, and the criteria for selecting the number of states or the threshold for bound fraction (<0.1 μm²/s) are not justified with control experiments. Without this, the quantitative claims about bound fractions and diffusion coefficients may be overinterpreted.
+  - **Why it matters** The central conclusion that IDRs govern binding and diffusion depends on the accuracy of SPT-derived parameters. If the analysis is biased or underpowered, the differences attributed to IDR identity could be artifacts of the method.
+  - **Resolution test** Provide detailed validation of the state array method, including simulations with known diffusion coefficients, sensitivity analyses for labeling density and trajectory length, and a clear justification for the bound fraction threshold. Include error bars and statistical tests for all reported parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of IDR effects
+  - **Claim pointer** The authors conclude that IDRs, rather than DBDs, determine binding preferences and gene activation, based on domain-swap experiments.
+  - **Evidence pointer** Results sections "Regions outside the DBD/dimerization domain determine HIF molecular dynamics" and "HIF-α IDR contributes to binding preferences and regulatory specificity"; Figures 3, 4, 6
+  - **Concern** The domain-swap experiments swap entire IDRs between HIF-1α and HIF-2α, but the constructs may differ in expression levels, post-translational modifications, or interactions with cofactors that are not controlled for. The authors use fluorescence intensity to approximate expression, but this is indirect and may not capture functional differences. Additionally, the Cut&Run and RNA-seq data show IDR-dependent effects at a subset of sites, but the criteria for defining "responsive" sites are not fully described, and the statistical significance of the differences is not reported.
+  - **Why it matters** The claim that IDRs are the primary determinants of isoform-specific binding requires ruling out other differences between the chimeric proteins. Without rigorous controls and statistical analysis, the conclusion may be premature.
+  - **Resolution test** Include quantitative comparisons of expression levels (e.g., western blot quantification) for all constructs, and perform Cut&Run and RNA-seq analyses with clear statistical thresholds (e.g., adjusted p-values, effect sizes). Validate the domain-swap results with additional mutations that disrupt specific IDR features.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors propose a general model where IDRs mediate TF search and binding, potentially applicable to other TF families.
+  - **Evidence pointer** Discussion section
+  - **Concern** The study focuses exclusively on HIF-1α and HIF-2α in a single cell line (786-O). The authors extrapolate to a broad principle without testing other TF families or cellular contexts. The discussion cites prior work on yeast TFs, but the connection to the present findings is speculative.
+  - **Why it matters** The broader significance of the work depends on whether the IDR-mediated mechanism is a general phenomenon or specific to HIFs. Overgeneralization could mislead future studies.
+  - **Resolution test** Acknowledge the limitations of the current system and propose specific testable predictions for other TF families. If possible, include preliminary data from another TF or cell type to support the generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** SPT data processing
+  - **Evidence pointer** Methods section "Live Cell Single particle tracking"
+  - **Issue** The description of the SPT data processing is brief, and the parameters for tracking (e.g., search radius, maximum number of blinks) are not fully explained.
+  - **Required correction** Expand the methods to include all tracking parameters and provide a step-by-step description of the analysis pipeline, including how trajectories were filtered and how the state array was applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Genomic analyses
+  - **Evidence pointer** Results sections on Cut&Run and RNA-seq; Figure 6, 7
+  - **Issue** The manuscript does not report the number of replicates for Cut&Run and RNA-seq, nor the statistical methods used to identify differentially bound or expressed genes.
+  - **Required correction** Provide details on the number of replicates, the statistical tests used, and the thresholds for significance in the methods and figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1-8 and supplements
+  - **Evidence pointer** All figures
+  - **Issue** The text references many figures and supplements, but the figures themselves are not included in the provided material, making it difficult to assess the data.
+  - **Required correction** Ensure that all figures and supplements are available for review, with clear labels and legends that allow independent interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The SPT analysis requires validation and statistical rigor, and the domain-swap experiments need better controls for expression and functional equivalence. Without these, the central claims about IDR-mediated binding and diffusion are not fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The study challenges a long-standing model of TF modularity and introduces a novel role for IDRs in TF dynamics and binding specificity. This is a fresh perspective that could shift paradigms.
+  - **Scientific importance** High. Understanding how TFs achieve specificity in vivo is fundamental to gene regulation and has direct implications for cancer biology, given the role of HIFs in tumor progression.
+  - **Interdisciplinary readership** Moderate to high. The work bridges biophysics, genomics, and cancer biology, appealing to a broad audience, though the technical complexity of SPT may limit accessibility to non-specialists.
+  - **Technical soundness** Moderate. The experimental design is sophisticated, but the lack of detailed validation and statistical reporting for SPT and genomic analyses weakens the current evidence.
+  - **Readability for nonspecialists** Moderate. The manuscript is well-written but dense, with technical jargon that may be challenging for readers outside the field. The abstract and introduction are accessible, but the results require specialized knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant, and the methodology is promising, but the current evidence does not fully establish the central claims. I recommend major revisions to address the SPT validation, statistical rigor, and controls for domain-swap experiments.
+
+## Risk / unsupported claims
+- The claim that IDRs are the "major determinant" of HIF diffusion and binding is not fully supported without more rigorous SPT validation and controls for expression differences.
+- The generalizability of the IDR-mediated mechanism to other TF families is speculative and not directly tested.
+- The quantitative bound fractions and diffusion coefficients reported in Table 1 lack error estimates and statistical comparisons, making them difficult to evaluate.
+- The statement that "binding strength and gene activation are IDR-dependent for a subset of HIF target sites" is based on Cut&Run and RNA-seq data, but the statistical significance and effect sizes are not reported, so this claim is not fully verifiable from the provided text.

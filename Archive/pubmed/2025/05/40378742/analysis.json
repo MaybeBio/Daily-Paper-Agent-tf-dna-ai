@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40378742",
+  "title": "Predicting estrogen receptor agonists from plastic additives across various aquatic-related species using machine learning and AlphaFold2.",
+  "authors": "Shi, Wen-Jun; Cao, Zhou; Long, Xiao-Bing; Yao, Chong-Rui; Zhang, Jin-Ge; Chen, Chang-Er; Ying, Guang-Guo",
+  "journal": "Journal of hazardous materials",
+  "published_date": "2025-05-17",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习与AlphaFold2预测塑料添加剂对多种水生生物雌激素受体的激动作用，涉及蛋白-DNA互作较少，但AlphaFold2结构预测与分子对接方法可迁移至TF-DNA互作建模。",
+  "abstract": "The absence of effective public databases greatly limits high-throughput prediction of hormonal effects mediated by nuclear receptors in aquatic organisms. In this study, we developed novel strategies for multi-species screening of estrogen receptor (ER) agonists in plastic additives using AlphaFold2. Firstly, Deep Forest (DF), artificial neural network (ANN) and conventional machine learning (ML) models were utilized to screen ERalpha agonists. The DF models using RDKit.Chem.Descriptors and MorganFingerprint achieved a sensitivity = 0.96, specificity > 0.99, and an F1 score > 0.95, identifying 42 plastic additives as ERalpha agonists. Subsequently, ERalpha structures for Danio rerio (Dr), Oryzias melastigma (Om), Delphinus delphis (Dd), Physeter catodon (Pc), Mytilus edulis (Me), Xenopus tropicalis (Xt), Nipponia nippon (Nn), and Aptenodytes forsteri (Af) were constructed using AlphaFold2. Except for Me ERalpha, most species shared two common key amino acid residues responsible for ERalpha activity: arginine 85 and glutamic acid 44 (aligned serial numbers in the LBD). However, aquatic-related species exhibited other three additional key residues: glycine 212, leucine 216 and phenylalanine 95 (aligned serial numbers in the LBD). The number of compounds with docking energy < -9 kcal/mol for Dr, Om, Dd, Pc, Me, Xt, Nn, and Af were 4, 8, 4, 12, 10, 13, 7, and 9, respectively. The docking energy of estrone in all species was < -9 kcal/mol, while that of bisphenol P varied greatly among different species. The combined application of ML and AlphaFold enables high-throughput evaluation of the ecotoxicity posed by emerging pollutants across multiple aquatic-related species.",
+  "abstract_zh": "有效公共数据库的缺乏极大地限制了水生生物中核受体介导的激素效应的高通量预测。在本研究中，我们利用AlphaFold2开发了针对塑料添加剂中雌激素受体（ER）激动剂的多物种筛选新策略。首先，采用深度森林（DF）、人工神经网络（ANN）和传统机器学习（ML）模型筛选ERα激动剂。使用RDKit.Chem.Descriptors和MorganFingerprint的DF模型实现了灵敏度=0.96、特异性>0.99和F1分数>0.95，识别出42种塑料添加剂为ERα激动剂。随后，利用AlphaFold2构建了斑马鱼（Danio rerio, Dr）、青鳉（Oryzias melastigma, Om）、真海豚（Delphinus delphis, Dd）、抹香鲸（Physeter catodon, Pc）、紫贻贝（Mytilus edulis, Me）、热带爪蟾（Xenopus tropicalis, Xt）、朱鹮（Nipponia nippon, Nn）和帝企鹅（Aptenodytes forsteri, Af）的ERα结构。除Me ERα外，大多数物种共享两个关键的氨基酸残基，负责ERα活性：精氨酸85和谷氨酸44（LBD中的对齐序列号）。然而，水生相关物种表现出另外三个关键残基：甘氨酸212、亮氨酸216和苯丙氨酸95（LBD中的对齐序列号）。对于Dr、Om、Dd、Pc、Me、Xt、Nn和Af，对接能量<-9 kcal/mol的化合物数量分别为4、8、4、12、10、13、7和9。雌酮在所有物种中的对接能量均<-9 kcal/mol，而双酚P在不同物种间的对接能量差异显著。ML和AlphaFold的联合应用使得对新兴污染物在多种水生相关物种中的生态毒性进行高通量评估成为可能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40378742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40378742/",
+  "paper_page_path": "papers/pubmed/40378742/index.html"
+}

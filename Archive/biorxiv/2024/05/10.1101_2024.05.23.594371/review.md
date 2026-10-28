@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality; no assessment of formatting or editorial fit
+- **Shared manuscript claim summary** The authors report ChIP-seq mapping of 139 E. coli transcription factors, a novel neural network (BoltzNet) that predicts binding energy from DNA sequence using a biophysically motivated architecture, and experimental validation of designed binding sites via Library-ChIP and biolayer interferometry
+- **Visible evidence base** Abstract, Introduction, Results (narrative only, no figures or tables visible), Methods (narrative), Funding, Author Contributions, Competing Interests, Data Availability, Acknowledgements
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials; detailed strain construction protocols; raw ChIP-seq data; specific numerical results for model accuracy; complete Library-ChIP and BLI datasets; code availability statement
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial dataset of 139 E. coli TF ChIP-seq profiles and a novel neural network architecture that explicitly incorporates biophysical principles. The core concept, using a single convolutional kernel with exponential activation to model binding energy matrices, is elegant and potentially transformative for the field. The validation strategy, combining in silico prediction with in vitro and in vivo experiments, is commendable. However, the current manuscript, as provided, lacks the quantitative evidence needed to fully assess the claims. The absence of figures, tables, and detailed numerical results prevents verification of model accuracy, the claimed 125 successful models, and the strength of experimental correlations. The conceptual framework is strong, but the evidence base is incomplete in this version.
+- **Who would be interested in the results, and why** This work will be of significant interest to (1) systems biologists studying transcriptional regulation in bacteria, (2) computational biologists developing interpretable deep learning models for genomics, (3) synthetic biologists designing predictable genetic circuits, and (4) biophysicists interested in protein-DNA interactions. The compendium of TF binding profiles and the quantitative binding energy predictions provide a community resource that could enable more accurate modeling of gene regulatory networks.
+- **Major strengths** (1) The scale of the dataset, 139 TFs, represents a major advance over existing resources. (2) The BoltzNet architecture is conceptually novel, explicitly encoding a thermodynamic model of binding within a neural network framework, which addresses the interpretability problem of deep learning in genomics. (3) The validation strategy is multi-pronged, including cross-validation, comparison to known motifs, Library-ChIP, and BLI, providing multiple independent lines of evidence. (4) The biological insights, such as the role of accessory bases and the physiological relevance of weak binding sites, are potentially important and could reframe how the field thinks about TF binding specificity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We have generated models for 125 TFs that provide insight into global features of TF binding"
+  - **Evidence pointer** Results section, "A compendium of TF binding models"; location not provided
+  - **Concern** The claim of 125 successful models is central to the paper's contribution, but the criteria for "success" are only briefly mentioned ("R2 > 0.6 on predicting coverage on the training set and specificity of more than 60% when applied to the entire genome"). The distribution of R2 values, the specificity calculations, and the performance of the 14 failed models are not shown. More critically, the evaluation appears to be on the training set, which is not a valid measure of generalization. The leave-one-out cross-validation is only described for PdhR, not for the full set of 125 models.
+  - **Why it matters** Without evidence of generalization to held-out data, the claim that BoltzNet "accurately predicts" binding across 125 TFs is not established. The field has been plagued by overfitting in deep learning models, and the authors must demonstrate that their model generalizes beyond the training data.
+  - **Resolution test** Provide cross-validated performance metrics (e.g., R2 and specificity on held-out chromosomes or held-out regions) for all 125 models. Show the distribution of these metrics and compare to appropriate baselines (e.g., position weight matrices, k-mer based models).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BoltzNet mirrors a quantitative biophysical model and provides directly interpretable predictions genome-wide at nucleotide resolution"
+  - **Evidence pointer** Results section, "BoltzNet is interpretable and verifiable genome-wide at nucleotide resolution"; location not provided
+  - **Concern** The manuscript claims nucleotide-resolution interpretability, but the described architecture uses a 25 bp kernel. The mapping from a 25 bp window score to per-nucleotide contributions is not clearly explained. The "base contribution" calculation is described in Methods, but the biological validity of this decomposition is not demonstrated. For example, it is unclear how the method handles overlapping windows or whether the per-nucleotide scores are independent of flanking sequence context.
+  - **Why it matters** The claim of nucleotide-resolution predictions is a key differentiator from existing methods. If the interpretation is not rigorously defined and validated, the claim is misleading and could lead to incorrect biological conclusions by users of the model.
+  - **Resolution test** Provide a formal definition of the per-nucleotide contribution and demonstrate its validity, e.g., by showing that mutations at predicted high-contribution positions have larger effects on binding than mutations at low-contribution positions, using the BLI or Library-ChIP data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We used BoltzNet to quantitatively design novel binding sites, which we validated with biophysical experiments on purified protein"
+  - **Evidence pointer** Results section, "BoltzNet accurately predicts binding energy"; location not provided
+  - **Concern** The validation of designed binding sites is described for 5 TFs, but the number of designed sites tested, the range of predicted affinities, and the quantitative agreement between predicted and measured binding energies are not reported. The R2 values (0.51 to 0.99) span a wide range, and it is unclear which TFs fall at which end. The manuscript also does not state whether the designed sites were tested in biological contexts (e.g., reporter assays) beyond the biochemical assays.
+  - **Why it matters** The ability to design functional binding sites is a strong claim with practical implications for synthetic biology. The current evidence is insufficient to assess the reliability and generality of the design process.
+  - **Resolution test** Provide a scatter plot of predicted vs. measured binding energies for all designed sites, with error bars, for each of the 5 TFs. Report the number of sites tested and the prediction error. If possible, include a functional assay (e.g., reporter gene expression) to demonstrate that designed sites function in vivo.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "An analysis based on our results predicts that the majority (>79%) of protein molecules for our studied TFs are bound 'non-specifically' to genome rather than being free in solution"
+  - **Evidence pointer** Results section, "Transcription factors primarily bound non-specifically to genome"; location not provided
+  - **Concern** This is a strong biophysical claim that depends on several assumptions not fully stated: the total number of TF molecules per cell, the number of accessible non-specific sites, the effective concentration of TF in the nucleus, and the validity of the binding energy model for non-specific interactions. The calculation is not shown, and the sensitivity of the conclusion to these assumptions is not discussed.
+  - **Why it matters** The conclusion that most TF molecules are genome-bound has implications for understanding gene regulation and TF diffusion dynamics. If the calculation is based on uncertain parameters, the claim may be overstated.
+  - **Resolution test** Provide the full calculation with all parameters and their sources. Perform a sensitivity analysis showing how the >79% estimate changes with reasonable variations in the parameters. Discuss the limitations of the estimate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "We report the global mapping of in vivo DNA binding for 139 E. coli TFs" but does not mention the 14 TFs that failed modeling. This could be seen as overstating the completeness of the resource.
+  - **Required correction** Consider adding a phrase such as "with successful models for 125 of these" to the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "BoltzNet Training"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The hyperparameters for training (learning rate schedule parameters, batch size is given, but not the number of epochs after early stopping, the optimizer parameters beyond name, and the random seed) are not fully specified. The data split for training and validation is not described.
+  - **Required correction** Provide a complete list of hyperparameters and the data splitting strategy. Consider releasing the code and trained models to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "BoltzNet accurately models sequence binding strength"
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The comparison of BoltzNet to PFM-based methods (Figure S18) is mentioned but the metric used for comparison is not stated. It is unclear whether the comparison is fair (e.g., same training data, same evaluation metric).
+  - **Required correction** Specify the comparison metric and ensure the baseline methods are given the same data and evaluation criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data Availability
+  - **Evidence pointer** Data and Materials Availability; location not provided
+  - **Issue** The statement "Raw data will be made available" is vague. No accession number or timeline is provided. The code for BoltzNet is not mentioned.
+  - **Required correction** Provide a GEO accession number or state that data will be deposited upon acceptance. Provide a link to the code repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (generalization evidence), R1-M2 (nucleotide-resolution interpretation), R1-M3 (design validation details)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The BoltzNet architecture, combining a single convolutional kernel with exponential activation to directly encode a thermodynamic binding model, is a novel and elegant approach that differs from standard deep learning applications in genomics. The concept of using a neural network to learn a biophysically interpretable energy function is a significant conceptual advance.
+  - Scientific importance: High. A compendium of 139 TF binding profiles for E. coli, with quantitative binding energy models, would be a major community resource. The findings on the role of accessory bases and the physiological relevance of weak binding sites have the potential to change the field's understanding of TF binding specificity and gene regulation.
+  - Interdisciplinary readership: Moderate to high. The work bridges biophysics, computational biology, and microbiology. The biophysical modeling aspect will appeal to biophysicists, the neural network approach to computational biologists, and the biological findings to microbiologists and systems biologists. The writing is generally accessible, but the Methods section assumes significant expertise in both deep learning and biophysics.
+  - Technical soundness: Currently not fully assessable. The conceptual framework is sound, but the lack of figures, tables, and detailed numerical results prevents verification of the model's performance, the validity of the interpretation method, and the strength of the experimental validations. The training evaluation appears to rely on training set performance, which is a significant concern.
+  - Readability for nonspecialists: The Introduction and Discussion are well-written and accessible. The Results section is dense and would benefit from more explicit references to figures and tables. The Methods section is highly technical and not accessible to nonspecialists, which is expected for a Nature-style paper but should be balanced by clear explanations in the main text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept and the scale of the dataset are compelling. However, the current manuscript, as provided, does not contain sufficient evidence to establish the central claims of accurate prediction, interpretability, and successful design. The authors must provide the missing figures, tables, and quantitative analyses, and address the concern regarding generalization, before the case is established.
+
+## Risk / unsupported claims
+- The claim of "accurate prediction" for 125 TFs is unsupported without cross-validated performance metrics.
+- The claim of "nucleotide-resolution" interpretability is not rigorously defined or validated.
+- The claim that "the majority (>79%) of protein molecules are bound non-specifically" is based on an unshown calculation with unspecified assumptions.
+- The claim that BoltzNet "provides insight into global features of TF binding" is plausible but not demonstrated with specific examples in the provided text.
+- The claim that the models "can be used and extended by any researcher" is unverifiable without code and model availability.

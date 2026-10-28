@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "41351014",
+    "doi": "10.1186/s12967-025-07309-1",
+    "title": "CXCL12 deficiency promotes colorectal cancer progression and reduces anti-PD-L1 immunotherapy efficacy through MDSC regulation."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Several reversal strategies associated with CXCL12, especially the use of CXCR4 antagonists, have been proposed for colorectal cancer (CRC). These strategies have shown some efficacy in clinical trials, but the mechanisms underlying how CXCL12 deficiency contributes to reduced anti-PD-L1 blockade efficacy, a critical barrier to immunotherapy success, remain unclear, highlighting the need for deeper mechanistic exploration and optimized interventions. METHODS: In this study, the single-cell transcriptome sequencing analysis, in vitro cell experiments and in vivo animal experiments were integrated to identify CXCL12-related RNA binding proteins (RBPs) with causal links to CRC, define key cell types driving resistance, and validate mechanistic insights. RESULTS: Twelve CXCL12-related RBPs showed causal relationships with CRC. Machine learning methods and diagnostic analysis identified CPEB3, DDX39B, and SIDT2 as biomarkers of CRC. Monocytes were selected as the key CRC cell type based on their biomarker distribution. Single-cell transcription factor analysis screened out two CRC-related transcription factors: MEIS2 and TCF4. In vitro cell experiments and in vivo animal experiments indicated that CXCL12 silencing promoted the migration and invasion capacities of CRC tumor cells. Notably, CXCL12 overexpression combined with PD-L1 antibodies showed the lowest cell viability and invasion capacity, indicating that CXCL12 enhances rather than inhibits anti-PD-L1 therapeutic efficacy Moreover, CXCL12 was negatively correlated with the proportion and number of myeloid-derived suppressor cells. DISCUSSION: Our identification of CPEB3, DDX39B, and SIDT2 as CRC revealed that CXCL12-related CRC biomarkers, combined with mechanistic evidence linking CXCL12 to MDSC regulation and anti-PD-L1 resistance, provides a novel framework for understanding immunotherapy failure in CRC. These findings might aid in establishing clinical CRC treatment strategies guiding the development of CXCL12-targeted combination strategies to overcome anti-PD-L1 resistance and improve CRC immunotherapy outcomes.",
+    "keywords": [
+      "CXCL12",
+      "Colorectal cancer",
+      "Immunotherapy with anti-PD-L1",
+      "Monocytes",
+      "Myeloid-derived suppressor cells",
+      "RNA binding protein-related genes"
+    ],
+    "mesh_terms": [
+      "*Chemokine CXCL12/deficiency/metabolism",
+      "Humans",
+      "*Colorectal Neoplasms/pathology/therapy/immunology/genetics",
+      "*Immunotherapy",
+      "Animals",
+      "*B7-H1 Antigen/antagonists & inhibitors/metabolism",
+      "Cell Line, Tumor",
+      "*Disease Progression",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Movement",
+      "*Immune Checkpoint Inhibitors/therapeutic use/pharmacology",
+      "Neoplasm Invasiveness",
+      "RNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Heping",
+        "Yao, Tian",
+        "Wei, Manzhen",
+        "Wang, Yuhan",
+        "Liu, Sainan",
+        "Wei, Junni",
+        "Liu, Yunfeng",
+        "Zhang, Jie",
+        "An, Xiuqin",
+        "Jiang, Lijun",
+        "Wang, Xiaonan",
+        "Chen, Xing"
+      ],
+      "short_names": [
+        "Zhao H",
+        "Yao T",
+        "Wei M",
+        "Wang Y",
+        "Liu S",
+        "Wei J",
+        "Liu Y",
+        "Zhang J",
+        "An X",
+        "Jiang L",
+        "Wang X",
+        "Chen X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Academy of Medical Sciences of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Academy of Medical Sciences of Shanxi Medical University, Taiyuan, 030001, China.",
+        "Academy of Medical Sciences of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China.",
+        "First Hospital of Shanxi Medical University, Taiyuan, 030001, China. chenxing@sydyy.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Heping",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Tian",
+        "short_name": "Yao T",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Manzhen",
+        "short_name": "Wei M",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Medical Sciences of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuhan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Medical Sciences of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sainan",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Medical Sciences of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Junni",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yunfeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jie",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "An, Xiuqin",
+        "short_name": "An X",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lijun",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaonan",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xing",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "First Hospital of Shanxi Medical University, Taiyuan, 030001, China. chenxing@sydyy.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Dec 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/06 00:32",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42707968",
+      "42112396",
+      "41978839",
+      "41752132"
+    ],
+    "refs": [
+      "39922639",
+      "39689179",
+      "39560441",
+      "39148129",
+      "39084404",
+      "38706897",
+      "38664626",
+      "38590421",
+      "38581990",
+      "38538606",
+      "38237304",
+      "38234792",
+      "37359565",
+      "37116198",
+      "36828759",
+      "36685571",
+      "36359736",
+      "35973989",
+      "35406582",
+      "35046400",
+      "34863979",
+      "34781815",
+      "34475573",
+      "34349038",
+      "34298991",
+      "34193169",
+      "34062119",
+      "33658390",
+      "33562324",
+      "33537062",
+      "33436563",
+      "33385486",
+      "33146632",
+      "33127761",
+      "33005853",
+      "32905413",
+      "32709922",
+      "32653013",
+      "31985548",
+      "31874281",
+      "31546103",
+      "31427573",
+      "31331328",
+      "31298142",
+      "31010678",
+      "30802149",
+      "30348114",
+      "29932988",
+      "29380640",
+      "28811711",
+      "28739729",
+      "28718405",
+      "28373441",
+      "27189416",
+      "26938486",
+      "25756348",
+      "25516281",
+      "25270258",
+      "25201102",
+      "23037807",
+      "21536657",
+      "19605814"
+    ],
+    "similar": [
+      "41351014",
+      "41436831",
+      "42050706",
+      "41875719",
+      "38417530",
+      "40353308",
+      "33462141",
+      "41769787",
+      "41469710",
+      "41345190",
+      "39642461",
+      "41075009",
+      "39641253",
+      "41906099",
+      "41356798",
+      "40208940",
+      "40095110",
+      "41932527",
+      "33537094",
+      "41051794",
+      "39687608",
+      "39815258",
+      "39577217",
+      "40020887",
+      "42358824",
+      "41808828",
+      "41872151",
+      "41406067",
+      "42045535",
+      "39494327",
+      "33058325",
+      "40083936",
+      "38315285",
+      "39334957",
+      "31960962",
+      "30087314",
+      "39503247",
+      "41038145",
+      "40474298",
+      "41734998",
+      "33821473",
+      "38040421",
+      "42322856",
+      "40777041",
+      "38508217",
+      "40433359",
+      "34026438",
+      "40422248",
+      "40611157",
+      "39694700",
+      "40729594",
+      "39353381",
+      "41445741",
+      "41284319",
+      "33418347",
+      "39800373",
+      "37708707",
+      "40794185",
+      "41286470",
+      "34523356",
+      "40931833",
+      "30802149",
+      "40795335",
+      "30979816",
+      "41057853",
+      "39488102",
+      "38809459",
+      "40274385",
+      "38687247",
+      "39263734",
+      "39914691",
+      "40970928",
+      "36442297",
+      "38953362",
+      "38655660",
+      "40122794",
+      "40992065",
+      "40050048",
+      "35357586",
+      "28176874",
+      "39223366",
+      "34923044",
+      "40505269",
+      "41196020",
+      "37446056",
+      "35672907",
+      "41521582",
+      "40658314",
+      "38898023",
+      "40008893",
+      "35414780",
+      "41251471",
+      "40494207",
+      "42487021",
+      "40932376",
+      "38360292",
+      "40139125",
+      "34206051",
+      "38454445",
+      "41351404"
+    ],
+    "review": [
+      "41351014",
+      "41769787",
+      "31960962",
+      "40422248",
+      "41284319",
+      "40931833",
+      "41057853",
+      "38809459"
+    ],
+    "pmc": [
+      "12679732"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07309-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41351014/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

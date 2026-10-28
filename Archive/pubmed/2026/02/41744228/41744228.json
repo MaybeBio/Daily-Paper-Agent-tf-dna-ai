@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41744228",
+    "doi": "10.1093/bib/bbag087",
+    "title": "Phylogenomics to structure: evolutionary and clinical signals in the TP53 DNA-binding core through LOOCV-validated ensemble learning."
+  },
+  "content": {
+    "abstract": "TP53 encodes a master tumor suppressor, and understanding its evolutionary constraints is critical for interpreting pathogenic variation. We developed a fully reproducible computational pipeline integrating evolutionary genomics, structural biology, and clinical variant analysis to systematically prioritize functionally critical residues in TP53. We used fixed effects likelihood and fast unconstrained Bayesian approximation to perform genome-wide alignment, maximum-likelihood phylogenetic estimation, and site-specific selection testing over 19 vertebrate orthologs. We mapped these evolutionary signals onto the AlphaFold-predicted structure and integrated 3936 human variants from ClinVar and UniProt. Selection analysis identified five sites under positive or diversifying selection, with a single consensus position detected by both methods: multiple-sequence-alignment position 606 (human codon 129) in the DNA-binding domain. Structural mapping revealed that pathogenic variants concentrate at the DNA-contacting interface, with residues 239-248 emerging as the highest-priority targets based on our composite scoring system that integrates evolutionary constraint, pathogenic burden, hotspot density, and domain importance. Machine learning validation under leave-one-out cross-validation (LOOCV) demonstrated robust predictive performance. A Ridge-ExtraTrees ensemble achieved $\\textrmMAE (mean absolute error)=2.84$, $\\textrmRMSE(root mean squared error)=3.72$, $R;2=0.91$ for phylogenetic-distance regression and 89.5% accuracy (17/19) for clade classification. A multi-branch deep neural network attained comparable results ($\\textrmMAE=2.33$, $\\textrmRMSE=2.56$, $R;2=0.86$), while Random Forest substantially underperformed ($\\textrmMAE\\approx 7.19$, $\\textrmRMSE\\approx 8.82$, $R;2\\approx 0.47$, accuracy $\\approx 63\\%$) due to shrinkage and class-imbalance bias. Our findings show that evolutionary signals and clinical variants converge within the structurally constrained DNA-binding core of TP53, with codon 129 representing a robust positive-selection site and residues 239-248 constituting the primary pathogenic hotspot. This AlphaFold-anchored, LOOCV-validated framework offers a systematic, generalizable approach for residue-level prioritization to guide mechanistic studies and potentially inform precision oncology applications pending experimental validation.",
+    "keywords": [
+      "AlphaFold",
+      "DNA-binding domain",
+      "TP53",
+      "bioinformatics",
+      "codon-aware alignment",
+      "comparative genomics",
+      "ensemble learning",
+      "positive selection"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Raza Abbas, Syed",
+        "Abbas, Zeeshan",
+        "Zahir, Arifa",
+        "Ur Rehman, Mobeen",
+        "Won Lee, Seung"
+      ],
+      "short_names": [
+        "Raza Abbas S",
+        "Abbas Z",
+        "Zahir A",
+        "Ur Rehman M",
+        "Won Lee S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Precision Medicine, Sungkyunkwan University, School of Medicine, Suwon 16419, Republic of Korea.",
+        "Department of Precision Medicine, Sungkyunkwan University, School of Medicine, Suwon 16419, Republic of Korea.",
+        "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea.",
+        "Department of Biomedical and Robotics Engineering, Incheon National University, Songdo 22012, South Korea.",
+        "College of Information Technology, United Arab Emirates University, Al-Ain 17551, Abu Dhabi.",
+        "Department of Precision Medicine, Sungkyunkwan University, School of Medicine, Suwon 16419, Republic of Korea.",
+        "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea.",
+        "Department of Metabiohealth, Sungkyunkwan University, 16419, Republic of Korea.",
+        "Personalized Cancer Immunotherapy Research Center, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea.",
+        "Department of Family Medicine, Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine, 29 Saemunan-ro, Jongno-gu Seoul 03181, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Raza Abbas, Syed",
+        "short_name": "Raza Abbas S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, Sungkyunkwan University, School of Medicine, Suwon 16419, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Abbas, Zeeshan",
+        "short_name": "Abbas Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, Sungkyunkwan University, School of Medicine, Suwon 16419, Republic of Korea.",
+          "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Zahir, Arifa",
+        "short_name": "Zahir A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Robotics Engineering, Incheon National University, Songdo 22012, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ur Rehman, Mobeen",
+        "short_name": "Ur Rehman M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Technology, United Arab Emirates University, Al-Ain 17551, Abu Dhabi."
+        ]
+      },
+      {
+        "full_name": "Won Lee, Seung",
+        "short_name": "Won Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, Sungkyunkwan University, School of Medicine, Suwon 16419, Republic of Korea.",
+          "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea.",
+          "Department of Metabiohealth, Sungkyunkwan University, 16419, Republic of Korea.",
+          "Personalized Cancer Immunotherapy Research Center, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea.",
+          "Department of Family Medicine, Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine, 29 Saemunan-ro, Jongno-gu Seoul 03181, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 13:40",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42477252",
+      "42329993"
+    ],
+    "refs": [
+      "37563329",
+      "34791371",
+      "34707284",
+      "34265844",
+      "33618777",
+      "33558758",
+      "33137719",
+      "33137190",
+      "32404993",
+      "32068869",
+      "31777943",
+      "31504749",
+      "30538286",
+      "30371878",
+      "30224644",
+      "29979965",
+      "29625052",
+      "29425356",
+      "29077904",
+      "28886379",
+      "28498993",
+      "28070986",
+      "27666373",
+      "27328919",
+      "26896847",
+      "26748848",
+      "25371430",
+      "22722201",
+      "22617951",
+      "20441614",
+      "20354512",
+      "17419939",
+      "12824425",
+      "9405613"
+    ],
+    "similar": [
+      "41744228",
+      "42475469",
+      "40522559",
+      "36321557",
+      "42079733",
+      "42589294",
+      "28851273",
+      "41310253",
+      "42329187",
+      "34750410",
+      "37954998",
+      "42380674",
+      "41419964",
+      "40493108",
+      "32485511",
+      "41559170",
+      "42421984",
+      "42199731",
+      "42335477",
+      "41342434",
+      "42196261",
+      "41508098",
+      "42322205",
+      "42568092",
+      "38250147",
+      "41633286",
+      "41311650",
+      "42567082",
+      "42380654",
+      "42045441",
+      "42326814",
+      "41387846",
+      "42210816",
+      "41826845",
+      "40931232",
+      "42043210",
+      "42247370",
+      "41407758",
+      "41597374",
+      "42451557",
+      "42265656",
+      "41931572",
+      "41687774",
+      "42286075",
+      "41879924",
+      "42497114",
+      "42491247",
+      "42185919",
+      "42365024",
+      "38871095",
+      "42497792",
+      "41593499",
+      "41998338",
+      "39332854",
+      "41716767",
+      "42038801",
+      "33099184",
+      "40564788",
+      "41429653",
+      "40106382",
+      "35765650",
+      "35896038",
+      "41518523",
+      "42265172",
+      "41957161",
+      "40225296",
+      "40715184",
+      "41946801",
+      "34589181",
+      "42177353",
+      "41996322",
+      "42163122",
+      "31123959",
+      "41751595",
+      "40702268",
+      "42510136",
+      "40952788",
+      "34025952",
+      "42201603",
+      "42587667",
+      "40643883",
+      "39359337",
+      "41009698",
+      "41868151",
+      "38686454",
+      "33129275",
+      "38168194",
+      "41154264",
+      "41015588",
+      "42499390",
+      "41969262",
+      "32444882",
+      "40596009",
+      "31701254",
+      "41822751",
+      "42035616",
+      "39063785",
+      "42121053",
+      "40616903",
+      "41673073"
+    ],
+    "review": [
+      "41744228",
+      "36321557",
+      "42491247",
+      "34589181",
+      "34025952"
+    ],
+    "pmc": [
+      "12936793"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41744228/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag087",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

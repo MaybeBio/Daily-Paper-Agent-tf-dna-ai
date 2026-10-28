@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a crystal structure of TopBP1 BRCT0-2 bound to a phosphorylated C-terminal peptide of HTATSF1, identify V158 in BRCT1 as a key specificity determinant, and propose that the peptide also engages the BRCT2 phospho-binding pocket based on AlphaFold3 modeling and biochemical validation.
+- **Visible evidence base** Abstract text only; no structural coordinates, binding data, mutagenesis results, or model validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, crystallographic statistics, binding assay details, mutagenesis constructs, AlphaFold3 confidence metrics, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural mechanism for a specific protein-peptide interaction relevant to homologous recombination repair. However, the evidence base available for review is limited to the abstract, which precludes independent verification of the structural claims, binding data, and the proposed dual-domain engagement model. The central claims are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying DNA damage repair, particularly homologous recombination and the roles of BRCT domain-containing proteins; structural biologists interested in phospho-peptide recognition mechanisms; and investigators working on HIV-1 host factors, given the viral context of HTATSF1.
+- **Major strengths** The study addresses a specific and mechanistically important interaction in HR repair, building on prior work by the same group. The identification of a single residue (V158) as a specificity determinant is a clear and testable claim. The combination of crystallography, mutagenesis, and AlphaFold3 modeling represents a multi-pronged approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We present the crystal structure of TopBP1 BRCT0-2 in complex with the phosphorylated extreme C terminus (ECT) peptide of HTATSF1, identifying key residues in BRCT1 involved in recognition."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a crystal structure but provides no crystallographic details, such as resolution, R-factors, or refinement statistics. Without these, the quality and reliability of the structural model cannot be assessed.
+  - **Why it matters** A crystal structure is the central evidence for the proposed recognition mechanism. Poor resolution or refinement could undermine the identification of specific contacts, including those involving V158.
+  - **Resolution test** Provide crystallographic data table, electron density quality for the peptide and key interface residues, and validation metrics (e.g., MolProbity score) in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Mutagenesis and binding assays confirm V158 as a key determinant allowing TopBP1 BRCT1 to discriminate HTATSF1 from other phosphorylated ligands."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that V158 is a key determinant for discrimination but does not specify which other phosphorylated ligands were tested, the magnitude of binding differences, or the assay types used. The term "discriminate" implies selectivity, but no comparative data are shown.
+  - **Why it matters** The claim of specificity is central to the paper's significance. Without clear comparative binding data, the functional relevance of V158 remains speculative.
+  - **Resolution test** Provide binding curves or affinity values for HTATSF1 peptides versus at least one or two other phosphorylated ligands, with V158 mutants, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "AlphaFold3 modeling combined with biochemical validation indicates that the ECT peptide also engages BRCT2 domain via its conserved phospho-binding pocket."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that AlphaFold3 modeling indicates BRCT2 engagement, but no confidence metrics (e.g., ipTM, pLDDT) or experimental validation details are provided. The phrase "biochemical validation" is vague and does not specify which experiments support this interaction.
+  - **Why it matters** The proposed dual-domain engagement is a novel aspect of the model. If the AlphaFold3 prediction is low-confidence or the biochemical data are indirect, the claim may be overstated.
+  - **Resolution test** Provide AlphaFold3 confidence scores, a description of the biochemical experiments (e.g., mutagenesis of the BRCT2 pocket, peptide truncations), and any binding data in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract assumes familiarity with BRCT domain nomenclature and the RPA-Rad51 exchange process, which may limit accessibility for a broader readership.
+  - **Required correction** Briefly define BRCT domains and the significance of RPA-Rad51 exchange in one sentence each.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the work "advances the mechanistic understanding for HR regulation" but does not articulate how this specific interaction fits into the broader HR pathway or whether it has implications for disease or therapy.
+  - **Required correction** Add one sentence on the potential biological or clinical relevance of the TopBP1-HTATSF1 interaction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "cooperatively binds" but does not define what cooperativity means in this context, such as whether it refers to avidity effects or allosteric coupling between BRCT1 and BRCT2.
+  - **Required correction** Clarify the term "cooperatively" with a brief explanation or refer to specific binding data in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of crystallographic statistics, comparative binding data, and AlphaFold3 confidence metrics means the central structural and specificity claims cannot be verified from the abstract alone.
+
+## Risk / unsupported claims
+- The claim that the ECT peptide "engages BRCT2 domain via its conserved phospho-binding pocket" is unsupported in the abstract, as no AlphaFold3 confidence metrics or direct biochemical evidence are provided.
+- The claim that V158 allows discrimination "from other phosphorylated ligands" is unsupported without specifying which ligands were tested and the quantitative binding differences.
+- The statement that the N-terminal segment of the ECT peptide "adopts a unique conformation" is unverifiable without structural details or comparison to other known BRCT-peptide complexes.

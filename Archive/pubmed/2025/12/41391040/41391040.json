@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "pmid": "41391040",
+    "doi": "10.1002/advs.202513257",
+    "title": "Fibrates Inhibit PLTP-induced M2 Macrophage Infiltration and Increase the Sensitivity of Hepatocellular Carcinoma to ICIs."
+  },
+  "content": {
+    "abstract": "High levels of M2 macrophages in the hepatocellular carcinoma (HCC) tumor microenvironment (TME) are associated with poor response to immune checkpoint inhibitors (ICIs). This study comprehensively investigated the role of phospholipid transfer protein (PLTP) in driving M2 macrophage polarization through bioinformatics, clinicopathological analysis, molecular docking, proteomics, biochemical and cellular assays. Additionally, strategies to enhance ICIs sensitivity are validated in multiple animal models. Results demonstrated that high M2 macrophage infiltration independently predicted inferior ICIs outcomes, and PLTP overexpression in HCC promoted M2 macrophage polarization. Mechanistically, PLTP bound to aurora kinase A (AURKA) and P65, forming a complex that induced P65 phosphorylation, thereby activating NF-kappaB and upregulating IL-6, IL-8, and CSF-1. Molecular docking revealed that GMB-475 specifically bound to PLTP's functional domain (25-245 AA), which competitively inhibited PLTP-P65-AURKA interactions and suppressing P65 phosphorylation. In vivo, GMB-475 reduced M2 macrophage infiltration and suppressed tumor growth. Fibrates downregulated PLTP expression, decreased P65 phosphorylation, and synergized with ICIs in orthotopic and Myc-driven HCC models. These findings highlight PLTP as a key mediator of M2 macrophage polarization via AURKA-dependent NF-kappaB activation. Targeting PLTP with inhibitor GMB-475 or fibrates may improve ICIs efficacy, offering a promising therapeutic strategy for HCC.",
+    "keywords": [
+      "M2 macrophages",
+      "NF-kappaB pathway",
+      "hepatocellular carcinoma",
+      "immune checkpoint inhibitors therapy",
+      "phospholipid transfer protein"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/drug therapy/metabolism/genetics/immunology",
+      "*Liver Neoplasms/drug therapy/metabolism/immunology/genetics",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Macrophages/metabolism/drug effects",
+      "*Phospholipid Transfer Proteins/metabolism/genetics",
+      "Tumor Microenvironment/drug effects/immunology",
+      "NF-kappa B/metabolism",
+      "Aurora Kinase A/metabolism",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Xinyue",
+        "Li, Yaning",
+        "Cai, Jianxun",
+        "Luo, Lisi",
+        "Yang, Pengfei",
+        "Chen, Yutong",
+        "Zhou, Jiancong",
+        "Zeng, Yan",
+        "Yu, Jiaping",
+        "Zhang, Weiyu",
+        "Pang, Wenzheng",
+        "Li, Yufang",
+        "Wen, Chunhua",
+        "Li, Jian",
+        "Zeng, Linjuan"
+      ],
+      "short_names": [
+        "Liang X",
+        "Li Y",
+        "Cai J",
+        "Luo L",
+        "Yang P",
+        "Chen Y",
+        "Zhou J",
+        "Zeng Y",
+        "Yu J",
+        "Zhang W",
+        "Pang W",
+        "Li Y",
+        "Wen C",
+        "Li J",
+        "Zeng L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8357-1858"
+      ],
+      "affiliations": [
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Department of Ultrasound, The Fifth Affiliated Hospital, Sun Yat-Sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Department of Pathology, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Department of Oncology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, Fujian, 350001, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Department of Hematology, The Fifth Affiliated Hospital, Sun Yat-Sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Department of Hepatobiliary Surgery, The Fifth Affiliated Hospital, Sun Yat-Sen University, Zhuhai, Guangdong, 519000, China.",
+        "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+        "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Xinyue",
+        "short_name": "Liang X",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaning",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Jianxun",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Department of Ultrasound, The Fifth Affiliated Hospital, Sun Yat-Sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Lisi",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Pengfei",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yutong",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, Fujian, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiancong",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yan",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jiaping",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weiyu",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Wenzheng",
+        "short_name": "Pang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The Fifth Affiliated Hospital, Sun Yat-Sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yufang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Chunhua",
+        "short_name": "Wen C",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Department of Hepatobiliary Surgery, The Fifth Affiliated Hospital, Sun Yat-Sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Linjuan",
+        "short_name": "Zeng L",
+        "identifiers": [
+          "0000-0002-8357-1858"
+        ],
+        "affiliations": [
+          "Cancer Center of the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong Provincial Engineering Research Center of Molecular Imaging, the Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China.",
+          "Guangdong-Hong Kong-Macao University Joint Laboratory of Interventional Medicine, The Fifth Affiliated Hospital, Sun Yat-sen University, Zhuhai, Guangdong, 519000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/14 15:52",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [
+      "42534860",
+      "42360409",
+      "42328452",
+      "42050590"
+    ],
+    "refs": [
+      "38679698",
+      "38128186",
+      "38022651",
+      "37976058",
+      "37880277",
+      "37566308",
+      "36544145",
+      "36527888",
+      "36369487",
+      "36263131",
+      "36069342",
+      "35469167",
+      "34974028",
+      "34288020",
+      "34209703",
+      "33981003",
+      "33479224",
+      "33451333",
+      "33304918",
+      "32735728",
+      "32086811",
+      "31530089",
+      "31311809",
+      "30902885",
+      "30718830",
+      "30115704",
+      "29632196",
+      "29433850",
+      "28499492",
+      "28453746",
+      "28341752",
+      "28069801",
+      "27895033",
+      "27014994",
+      "26938675",
+      "26320740",
+      "26205583",
+      "25324570",
+      "25181692",
+      "22903535",
+      "22367708",
+      "22266112",
+      "22236695",
+      "21514001",
+      "21206971",
+      "20856220",
+      "18650914",
+      "18650514",
+      "18287097",
+      "16423985",
+      "15258196",
+      "15041727",
+      "12842894",
+      "10544012",
+      "9890549"
+    ],
+    "similar": [
+      "41391040",
+      "41613800",
+      "36863689",
+      "39223929",
+      "41401658",
+      "41786278",
+      "39773565",
+      "39495239",
+      "41380855",
+      "41871800",
+      "40789982",
+      "40250003",
+      "42459682",
+      "40347889",
+      "41035647",
+      "42036631",
+      "39396590",
+      "39988347",
+      "42495641",
+      "35618286",
+      "34053234",
+      "39183579",
+      "41176641",
+      "41808818",
+      "40645977",
+      "41923247",
+      "30902885",
+      "37494837",
+      "37976890",
+      "41028931",
+      "41177238",
+      "38340578",
+      "36797997",
+      "41935629",
+      "42185899",
+      "40483831",
+      "42260484",
+      "41073063",
+      "41467907",
+      "39531934",
+      "41877503",
+      "39608977",
+      "40153953",
+      "41052883",
+      "38218012",
+      "37201744",
+      "42520528",
+      "40627844",
+      "41469919",
+      "41354140",
+      "40907783",
+      "38878636",
+      "41666700",
+      "32788720",
+      "41293954",
+      "41493511",
+      "39202998",
+      "30022048",
+      "42373130",
+      "39500530",
+      "29764501",
+      "39738913",
+      "31703572",
+      "41507699",
+      "40983342",
+      "34695754",
+      "42171920",
+      "37473847",
+      "38417530",
+      "40446695",
+      "40085988",
+      "40665352",
+      "31744516",
+      "41419228",
+      "40274549",
+      "40380202",
+      "39776402",
+      "41180994",
+      "41639737",
+      "41780840",
+      "41193183",
+      "41027276",
+      "41232481",
+      "41933190",
+      "40038250",
+      "34039401",
+      "35219791",
+      "42106688",
+      "41058697",
+      "39016636",
+      "41887702",
+      "39609464",
+      "40148834",
+      "31785055",
+      "41330170",
+      "41946995",
+      "39630361",
+      "41416769",
+      "41880053",
+      "42321758"
+    ],
+    "review": [
+      "41391040"
+    ],
+    "pmc": [
+      "13292255"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41391040/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CSF1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3701",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

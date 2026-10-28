@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report extending the GPU-accelerated coarse-grained molecular dynamics simulator OpenCafeMol to support the 3SPN.2 and 3SPN.2C DNA models, implementing a hydrogen-bond-type many-body potential for DNA-protein interactions, and introducing a localized scheme for base-pairing and cross-stacking calculations. They claim up to 200-fold speed-up for DNA-only systems and up to 100-fold speed-up for DNA-protein complexes on a single GPU relative to CPU-based simulations. They further report a demonstration simulation of an archaeal SMC-ScpA complex performing DNA translocation via segment capture, observing continuous captured-loop growth and obstacle bypass.
+- **Visible evidence base** Abstract text only; no benchmark methodology, system sizes, hardware specifications, simulation parameters, or trajectory analysis details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark protocols, hardware and software versions, simulation setup details, validation against reference implementations, convergence criteria, and analysis of the SMC-ScpA simulation
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically plausible extension of an established simulation platform with potentially significant performance gains. However, the evidence base is insufficient to evaluate the validity of the speed-up claims, the correctness of the new potential implementation, or the biological significance of the SMC-ScpA demonstration. The work addresses a relevant need in chromatin modeling, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers working on chromatin structure and dynamics, particularly those studying DNA-protein complexes at coarse-grained resolution. Researchers developing GPU-accelerated simulation tools and those interested in DNA loop extrusion mechanisms would also find the work relevant.
+- **Major strengths** The extension of an existing, presumably validated simulator to include widely used DNA models (3SPN.2 and 3SPN.2C) is practically valuable. The reported speed-up factors are substantial and, if reproducible, would enable longer-timescale simulations. The application to SMC-ScpA-mediated DNA loop extrusion addresses a biologically important and currently active research question.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Benchmark tests show that OpenCafeMol on a single GPU achieves up to 200-fold speed-up for DNA-only systems and up to 100-fold speed-up for DNA-protein complexes compared to CPU-based simulations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The speed-up claims are presented without any benchmark details. No information is given on system sizes, GPU and CPU hardware models, software versions, simulation lengths, or whether the comparison is apples-to-apples in terms of integration schemes and force evaluation accuracy. Speed-up factors in GPU-accelerated MD are highly sensitive to these parameters, and the reported values could range from trivial to misleading without proper context.
+  - **Why it matters** Performance claims are a central contribution of this work. If the benchmarks are not rigorously defined and reproducible, the practical value of the implementation cannot be assessed, and readers cannot determine when the GPU acceleration would be beneficial.
+  - **Resolution test** Provide full benchmark methodology including system compositions, atom counts, hardware specifications, software versions, simulation durations, and a breakdown of speed-up by system type. Ideally, include scaling tests across multiple system sizes and a comparison with at least one other GPU-accelerated coarse-grained MD package.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We also implemented a hydrogen-bond-type many-body potential to model DNA-protein interactions more accurately."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that a new many-body potential was implemented but provides no description of its functional form, parameterization, or validation. No comparison with existing DNA-protein interaction potentials is mentioned, and no evidence is presented that this potential improves accuracy over prior approaches.
+  - **Why it matters** Introducing a new interaction potential without demonstrating its correctness or superiority undermines confidence in all downstream simulation results. If the potential is not properly validated, the SMC-ScpA simulation outcomes could be artifacts of the potential rather than biologically meaningful.
+  - **Resolution test** Provide a detailed description of the potential, its parameterization procedure, and validation against experimental data or higher-resolution simulations. Show that the potential reproduces known DNA-protein binding geometries and energetics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "We observed continuous captured-loop growth accompanied by obstacle bypass within the segment capture framework."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The biological demonstration is reported as a single observation without quantitative analysis. No metrics are provided for loop growth rates, obstacle bypass efficiency, reproducibility across multiple simulation runs, or comparison with alternative mechanisms or experimental data.
+  - **Why it matters** The claim of observing a proposed mechanism for DNA loop extrusion is only meaningful if the simulation is shown to be robust, reproducible, and consistent with known biological constraints. A single trajectory without statistical analysis cannot support a mechanistic conclusion.
+  - **Resolution test** Provide multiple independent simulation runs with statistical analysis of loop growth dynamics, obstacle bypass probability, and a sensitivity analysis of key parameters. Compare simulation outcomes with experimental observations of SMC complex behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "3SPN.2 and 3SPN.2C DNA models" and "hydrogen-bond-type many-body potential" without brief contextual explanation. Nonspecialist readers in the broader biophysics community may not be familiar with these specific model names.
+  - **Required correction** Add a brief parenthetical description of the DNA models and the potential type, or provide a one-sentence context for readers unfamiliar with coarse-grained DNA modeling.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Localized scheme description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The "localized scheme for calculating base-pairing and cross-stacking interactions" is mentioned but not described. It is unclear whether this is an algorithmic approximation, a parallelization strategy, or a neighbor-list optimization.
+  - **Required correction** Briefly describe the nature of the localized scheme and state whether it introduces any approximation or is exact.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Speed-up claim precision
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The speed-up factors are reported as "up to 200-fold" and "up to 100-fold," which are upper bounds that may not represent typical performance. The abstract does not indicate the range or typical values.
+  - **Required correction** Report median or mean speed-up with variance across benchmark systems, and specify the conditions under which the maximum speed-up is achieved.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmark methodology absent), R1-M2 (new potential unvalidated), R1-M3 (biological demonstration lacks statistical rigor)
+- **Assessment against Nature-style criteria** Originality: The extension of an existing simulator to new DNA models is incremental rather than conceptually novel, though the localized interaction scheme may offer a technical innovation. Scientific importance: The work addresses a real need in chromatin simulation, but the biological significance of the SMC-ScpA demonstration is not yet established from the abstract. Interdisciplinary readership: The work could appeal to computational biologists, biophysicists, and chromatin researchers, but the abstract is written primarily for specialists. Technical soundness: Cannot be assessed from the abstract alone; the missing benchmark and validation details are critical. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful technical development, but the absence of benchmark methodology, potential validation, and statistical analysis of the biological demonstration prevents a supportive assessment. A full manuscript with rigorous methods and results would be required to evaluate the claims properly.
+
+## Risk / unsupported claims
+- The 200-fold and 100-fold speed-up claims are unsupported without benchmark details.
+- The claim that the hydrogen-bond-type many-body potential models DNA-protein interactions "more accurately" is unsupported without validation data.
+- The observation of "continuous captured-loop growth accompanied by obstacle bypass" is presented as a single qualitative observation and cannot be evaluated for statistical or biological significance.
+- The general applicability of the implementation to "long-time coarse-grained chromatin simulations" is implied but not demonstrated beyond a single test case.

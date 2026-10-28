@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "41208958",
+    "doi": "10.3389/fimmu.2025.1644020",
+    "title": "ENO1-related gene signature predicts prognosis and therapeutic response in diffuse large B-cell lymphoma."
+  },
+  "content": {
+    "abstract": "PURPOSE: Alpha-enolase (ENO1), the enzyme catalyzing 2-phosphoglycerate conversion to phosphoenolpyruvate, is highly expressed in diffuse large B-cell lymphoma (DLBCL) and correlates with adverse clinical outcomes. Thus, understanding the relationship between ENO1-related gene (ERG) network and DLBCL is imperative. Here, we integrated multi-omics profiling (RIP-seq, RNA-seq, and protein interactome analysis) to identify ERGs and established a prognostic model by machine learning algorithms. METHODS: We identified eleven hub genes (CHERP, SYNE2, INTS1, FAP, MMP9, LRP5, RBM8A, PRMT5, SLC25A6, PABPC4, PSTPIP2) using RNA sequencing, RNA immunoprecipitation sequencing, and protein interaction profiling. A prognostic model was constructed using univariate Cox regression and least absolute shrinkage and selection operator (LASSO) regression in the GSE10846 dataset and validated in two independent cohorts. DLBCL patients were stratified into high- and low-risk groups based on the model, and clinical characteristics were compared. The tumor immune microenvironment (TIME) was analyzed using CIBERSORT and xCell algorithms to explore correlations with the ERG score. Drug sensitivity assays in DLBCL cell lines were performed to validate the model's predictive capacity for chemotherapy response. Furthermore, the functional role of PABPC4, a key gene in the scoring system, was investigated through in vitro and in vivo experiments. RESULTS: A prognostic model including 11 hub genes was established. Patients in the high-risk group exhibited worse clinical outcomes and an immunosuppressive TIME, characterized by altered expression of immune checkpoint-related proteins. This group demonstrated increased sensitivity to vincristine, etoposide, and oxaliplatin. Knockdown of PABPC4 significantly inhibited cell proliferation, reduced colony formation, and delayed tumor growth in vivo. CONCLUSIONS: The ERG scoring system offers a robust and precise tool for predicting survival and guiding personalized treatment in DLBCL patients.",
+    "keywords": [
+      "DLBCL",
+      "ENO1",
+      "PABPC4",
+      "prognosis",
+      "therapeutic response"
+    ],
+    "mesh_terms": [
+      "*Lymphoma, Large B-Cell, Diffuse/genetics/drug therapy/mortality",
+      "Humans",
+      "Prognosis",
+      "Animals",
+      "*Tumor Suppressor Proteins/genetics/metabolism",
+      "*Phosphopyruvate Hydratase/genetics/metabolism",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Tumor Microenvironment/genetics/immunology",
+      "*Biomarkers, Tumor/genetics",
+      "Cell Line, Tumor",
+      "Female",
+      "Male",
+      "Gene Expression Profiling",
+      "*Transcriptome",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Wenli",
+        "Liu, Xiaoxi",
+        "Gao, Beibei",
+        "Zhang, Shanshan",
+        "Ren, Jinhong",
+        "Lu, Yang",
+        "Ai, Limei",
+        "Yan, Jinsong",
+        "Wang, Haina"
+      ],
+      "short_names": [
+        "Yan W",
+        "Liu X",
+        "Gao B",
+        "Zhang S",
+        "Ren J",
+        "Lu Y",
+        "Ai L",
+        "Yan J",
+        "Wang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+        "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Hematology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, China.",
+        "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+        "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China.",
+        "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China.",
+        "Shanxi Key Laboratory of Innovative Drug for the Treatment of Serious Diseases Basing on the Chronic Inflammation, College of Traditional Chinese Medicine and Food Engineering, Shanxi University of Chinese Medicine, Taiyuan, China.",
+        "Department of Hematology, Chaoyang Central Hospital, Chaoyang, China.",
+        "Department of Hematology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, China.",
+        "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+        "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+        "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Wenli",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+          "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoxi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Beibei",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+          "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shanshan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Jinhong",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Key Laboratory of Innovative Drug for the Treatment of Serious Diseases Basing on the Chronic Inflammation, College of Traditional Chinese Medicine and Food Engineering, Shanxi University of Chinese Medicine, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yang",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Chaoyang Central Hospital, Chaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Ai, Limei",
+        "short_name": "Ai L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jinsong",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+          "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haina",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Liaoning Key Laboratory of Hematopoietic Stem Cell Transplantation and Translational Medicine, The Second Hospital of Dalian Medical University, Dalian, China.",
+          "Liaoning Medical Center for Hematopoietic Stem Cell Transplantation, the Second Hospital of Dalian Medical University, Dalian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/10 06:29",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [
+      "42196455",
+      "42121895"
+    ],
+    "refs": [
+      "39293078",
+      "39054343",
+      "38897160",
+      "37922443",
+      "37875502",
+      "37670328",
+      "37500770",
+      "37332039",
+      "36717220",
+      "36522349",
+      "36494582",
+      "35870689",
+      "35714694",
+      "35434271",
+      "35357901",
+      "35121990",
+      "34260682",
+      "34129878",
+      "33661537",
+      "33547304",
+      "33504575",
+      "33431788",
+      "33363541",
+      "33259899",
+      "33067426",
+      "32267932",
+      "32232482",
+      "32024970",
+      "31127191",
+      "31061481",
+      "29308319",
+      "29141660",
+      "28716888",
+      "28525970",
+      "27192564",
+      "25887760",
+      "25633503",
+      "23640603",
+      "23024010",
+      "22997459",
+      "22455463",
+      "21633356",
+      "20808728",
+      "20395242",
+      "19182206",
+      "15535870",
+      "10877287"
+    ],
+    "similar": [
+      "41208958",
+      "39624962",
+      "39538125",
+      "40633211",
+      "39811936",
+      "37790933",
+      "38446321",
+      "38839842",
+      "40198448",
+      "41459519",
+      "40539047",
+      "40279206",
+      "40029433",
+      "41142795",
+      "35092504",
+      "40993727",
+      "39998673",
+      "34212052",
+      "40507914",
+      "38273010",
+      "34482808",
+      "31218757",
+      "39436635",
+      "41472741",
+      "21670469",
+      "40824493",
+      "40216643",
+      "34745101",
+      "38709202",
+      "33087075",
+      "38517778",
+      "40330470",
+      "39867879",
+      "36072582",
+      "37402040",
+      "39380054",
+      "35468826",
+      "40460484",
+      "41208974",
+      "38517039",
+      "28103885",
+      "39684518",
+      "41134336",
+      "40777041",
+      "40675955",
+      "39639038",
+      "38155967",
+      "30518748",
+      "40438115",
+      "39730892",
+      "39111113",
+      "40763838",
+      "40980067",
+      "40186663",
+      "39261532",
+      "39576845",
+      "34034707",
+      "27996156",
+      "39735670",
+      "41452398",
+      "40494452",
+      "41504052",
+      "41120675",
+      "39731274",
+      "39337470",
+      "36281462",
+      "36494582",
+      "40041930",
+      "41249691",
+      "35836227",
+      "38897160",
+      "40330458",
+      "26475621",
+      "39639217",
+      "40034693",
+      "40496864",
+      "26037892",
+      "38817665",
+      "41410498",
+      "39581181",
+      "33221755",
+      "39981252",
+      "35498426",
+      "41309884",
+      "32192453",
+      "25860938",
+      "39695482",
+      "33096480",
+      "41488652",
+      "28525970",
+      "37716978",
+      "20435467",
+      "40225866",
+      "39388888",
+      "40607411",
+      "36762399",
+      "39724993",
+      "40665078",
+      "30739251",
+      "32711549"
+    ],
+    "review": [
+      "41208958"
+    ],
+    "pmc": [
+      "12588913"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41208958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1644020",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

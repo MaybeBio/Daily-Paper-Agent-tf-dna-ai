@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "41962331",
+    "doi": "10.1016/j.archoralbio.2026.106591",
+    "title": "Dual biomarkers ALOX5AP and INPP4A are associated with lipid metabolism and neutrophil extracellular traps in periodontitis: A bioinformatics and clinical validation study."
+  },
+  "content": {
+    "abstract": "OBJECTIVE(S): Periodontitis is a chronic inflammatory disease characterized by progressive alveolar bone destruction. While lipid metabolism and neutrophil extracellular traps (NETs) are implicated in periodontitis pathogenesis, their precise molecular mechanisms remain unclear and require further investigation. DESIGN: RNA sequencing datasets were acquired from public databases. Differential expression analysis identified differentially expressed genes in periodontitis tissues and those associated with NETs and lipid metabolism. Machine learning algorithms screened for key genes, and a nomogram assessed their diagnostic value. Comprehensive analyses included enrichment analysis, immune infiltration profiling, chemical-gene interaction prediction, and transcription factor regulatory network construction. Reverse transcription-quantitative polymerase chain reaction (RT-qPCR) validation was performed using clinical periodontitis and healthy gingival samples. RESULTS: ALOX5AP (arachidonate 5-lipoxygenase-activating protein) and INPP4A (inositol polyphosphate-4-phosphatase type I A) were identified as key biomarkers showing significant correlation. These genes demonstrated co-enrichment in 129 pathways including endoplasmic reticulum protein processing. Immune infiltration analysis revealed ALOX5AP exhibited strongest positive correlation with plasma cells, while INPP4A showed strongest negative correlation. Three target transcription factors were predicted and a miRNA-mRNA-lncRNA network was constructed. Twenty compounds predicted to interact with these biomarkers were identified for periodontitis treatment. RT-qPCR validation confirmed significant upregulation of both ALOX5AP and INPP4A in periodontitis tissues, consistent with bioinformatics findings. CONCLUSIONS: This study identifies ALOX5AP and INPP4A as potential periodontitis biomarkers and reveals their predicted association with lipid metabolism and NETs-related pathways, providing insights into the molecular mechanisms that may underlie periodontitis.",
+    "keywords": [
+      "Immune infiltration",
+      "Lipid metabolism",
+      "Neutrophil extracellular traps",
+      "Pathway enrichment",
+      "Periodontitis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*5-Lipoxygenase-Activating Proteins/metabolism/genetics",
+      "Biomarkers/metabolism",
+      "*Lipid Metabolism/genetics",
+      "*Periodontitis/metabolism/genetics",
+      "*Extracellular Traps/metabolism",
+      "Computational Biology",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yuan",
+        "Zhan, Jifan",
+        "He, Lijia",
+        "Xu, Chongyan",
+        "Li, Bo",
+        "Li, Zhemin",
+        "Shao, Limei",
+        "Li, Zhongdie",
+        "Zhang, Jiayi",
+        "Li, Xingxing",
+        "Su, Jun",
+        "Zhang, Wenyun"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Zhan J",
+        "He L",
+        "Xu C",
+        "Li B",
+        "Li Z",
+        "Shao L",
+        "Li Z",
+        "Zhang J",
+        "Li X",
+        "Su J",
+        "Zhang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
+        "Yunnan Key Laboratory of Stomatology, School of Stomatology, Kunming Medical University, Kunming, Yunnan, China.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China. Electronic address: captsujun@163.com.",
+        "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China. Electronic address: drwenyun@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yuan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Jifan",
+        "short_name": "Zhan J",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "He, Lijia",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chongyan",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bo",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhemin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Limei",
+        "short_name": "Shao L",
+        "identifiers": [],
+        "affiliations": [
+          "The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhongdie",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiayi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xingxing",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Key Laboratory of Stomatology, School of Stomatology, Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Su, Jun",
+        "short_name": "Su J",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China. Electronic address: captsujun@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenyun",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China. Electronic address: drwenyun@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of oral biology"
+    ],
+    "journal_abbrev": [
+      "Arch Oral Biol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/11 00:32",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41962331",
+      "39845946",
+      "40619516",
+      "41992052",
+      "41057887",
+      "42313235",
+      "40628837",
+      "40244055",
+      "39507054",
+      "42085826",
+      "41869327",
+      "41310117",
+      "39483475",
+      "41459503",
+      "40819095",
+      "40233623",
+      "39394253",
+      "41044520",
+      "41324863",
+      "41083787",
+      "40461463",
+      "42172897",
+      "40760141",
+      "41265166",
+      "39084404",
+      "41432483",
+      "42175497",
+      "42123445",
+      "39142001",
+      "41106306",
+      "42032608",
+      "41115648",
+      "41350988",
+      "41340627",
+      "41576727",
+      "40615671",
+      "42338983",
+      "39975557",
+      "41088461",
+      "42059276",
+      "41731716",
+      "41627661",
+      "40770330",
+      "40053030",
+      "42289108",
+      "40948644",
+      "41800124",
+      "38890389",
+      "38802844",
+      "41053677",
+      "41460373",
+      "40916281",
+      "40425742",
+      "41895505",
+      "42157182",
+      "41638276",
+      "42232759",
+      "39375405",
+      "40532306",
+      "41030501",
+      "42316496",
+      "41358199",
+      "40539067",
+      "39199011",
+      "42370017",
+      "40093012",
+      "39586719",
+      "40362543",
+      "36072904",
+      "40374840",
+      "41009952",
+      "35388494",
+      "41204611",
+      "40406126",
+      "39419909",
+      "41703488",
+      "41221285",
+      "39647286",
+      "41905994",
+      "41246346",
+      "40857330",
+      "39314024",
+      "40927188",
+      "38863714",
+      "41246299",
+      "40613560",
+      "42327749",
+      "41013856",
+      "40651516",
+      "39072329",
+      "37480069",
+      "41316541",
+      "39296548",
+      "38941671",
+      "41137247",
+      "40825025",
+      "41405396",
+      "41766874",
+      "40421012",
+      "42295138"
+    ],
+    "review": [
+      "41962331"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-9969(26)00097-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0003-9969(26)00097-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

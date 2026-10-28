@@ -1,0 +1,267 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.31.635709",
+  "title": "Heterochromatin fidelity is a therapeutic vulnerability in lymphoma and other human cancers",
+  "doi": "10.1101/2025.01.31.635709",
+  "abstract": "<h4>ABSTRACT</h4> Genes involved in the regulation of chromatin structure are frequently disrupted in cancer, contributing to an aberrant transcriptome and phenotypic plasticity. Yet, therapeutics targeting mutant forms of chromatin-modifying enzymes have yielded only modest clinical utility, underscoring the difficulty of targeting the epigenomic underpinnings of aberrant gene regulatory networks. Here, we sought to identify novel epigenetic vulnerabilities in diffuse large B-cell lymphoma (DLBCL). Through phenotypic screens and biochemical analysis, we demonstrated that inhibition of the H3K9 demethylases KDM4A and KDM4C elicits potent, subtype-agnostic cytotoxicity by antagonizing transcriptional networks associated with B-cell identity and epigenetically rewiring heterochromatin. KDM4 demethylases associated with the KRAB zinc finger ZNF587, and their enzymatic inhibition led to DNA replication stress and DNA damage-induced cGAS-STING activation. Broad surveys of transcriptional data from patients also revealed KDM4 family dysregulation in several other cancer types. To explore this potential therapeutic avenue, we performed high-throughput small molecule screens with H3K9me3 nucleosome substrates and identified novel KDM4 demethylase inhibitors. AI-guided protein-ligand binding predictions suggested diverse modes of action for various small molecule hits. Our findings underscore the relevance of targeting fundamental transcriptional and epigenetic mechanisms for anti-cancer therapy. <h4>HIGHLIGHTS</h4> Phenotypic screens identified JIB-04 as a potent anti-cancer agent for multiple subtypes of diffuse large B-cell lymphoma JIB-04 binds and inhibits KDM4 demethylases resulting in epigenomic rewiring of heterochromatin KDM4 demethylases cooperate with KRAB zinc fingers to limit DNA replication stress, and KDM4 inhibition instigates DNA-damage and cGAS-STING activation in several human cancers High-throughput small molecule screens with semi-synthetic nucleosome substrates and AI-guided molecular docking simulations identify novel KDM4 inhibitors",
+  "authors": [
+    "Najia MA",
+    "Jha DK",
+    "Zhang C",
+    "Laurent B",
+    "Kubaczka C",
+    "Markel A",
+    "Li C",
+    "Morris V",
+    "Tompkins A",
+    "Hensch L",
+    "Qin Y",
+    "Chapuy B",
+    "Huang Y",
+    "Morse M",
+    "Marunde MR",
+    "Vaidya A",
+    "Gillespie ZB",
+    "Howard SA",
+    "North TE",
+    "Dominguez D",
+    "Keogh M",
+    "Schlaeger TM",
+    "Shi Y",
+    "Li H",
+    "Shipp MM",
+    "Blainey PC",
+    "Daley GQ"
+  ],
+  "published_date": "2025-02-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.31.635709",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.31.635709.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR974593",
+    "raw_record": {
+      "id": "PPR974593",
+      "source": "PPR",
+      "doi": "10.1101/2025.01.31.635709",
+      "title": "Heterochromatin fidelity is a therapeutic vulnerability in lymphoma and other human cancers",
+      "authorString": "Najia MA, Jha DK, Zhang C, Laurent B, Kubaczka C, Markel A, Li C, Morris V, Tompkins A, Hensch L, Qin Y, Chapuy B, Huang Y, Morse M, Marunde MR, Vaidya A, Gillespie ZB, Howard SA, North TE, Dominguez D, Keogh M, Schlaeger TM, Shi Y, Li H, Shipp MM, Blainey PC, Daley GQ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Najia MA",
+            "lastName": "Najia",
+            "firstName": "Mohamad Ali",
+            "initials": "MA"
+          },
+          {
+            "fullName": "Jha DK",
+            "lastName": "Jha",
+            "firstName": "Deepak",
+            "initials": "DK"
+          },
+          {
+            "fullName": "Zhang C",
+            "lastName": "Zhang",
+            "firstName": "Cheng",
+            "initials": "C"
+          },
+          {
+            "fullName": "Laurent B",
+            "lastName": "Laurent",
+            "firstName": "Benoit",
+            "initials": "B"
+          },
+          {
+            "fullName": "Kubaczka C",
+            "lastName": "Kubaczka",
+            "firstName": "Caroline",
+            "initials": "C"
+          },
+          {
+            "fullName": "Markel A",
+            "lastName": "Markel",
+            "firstName": "Arianna",
+            "initials": "A"
+          },
+          {
+            "fullName": "Li C",
+            "lastName": "Li",
+            "firstName": "Christopher",
+            "initials": "C"
+          },
+          {
+            "fullName": "Morris V",
+            "lastName": "Morris",
+            "firstName": "Vivian",
+            "initials": "V"
+          },
+          {
+            "fullName": "Tompkins A",
+            "lastName": "Tompkins",
+            "firstName": "Allison",
+            "initials": "A"
+          },
+          {
+            "fullName": "Hensch L",
+            "lastName": "Hensch",
+            "firstName": "Luca",
+            "initials": "L"
+          },
+          {
+            "fullName": "Qin Y",
+            "lastName": "Qin",
+            "firstName": "Yue",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Chapuy B",
+            "lastName": "Chapuy",
+            "firstName": "Bjoern",
+            "initials": "B"
+          },
+          {
+            "fullName": "Huang Y",
+            "lastName": "Huang",
+            "firstName": "Yu-Chung",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Morse M",
+            "lastName": "Morse",
+            "firstName": "Michael",
+            "initials": "M"
+          },
+          {
+            "fullName": "Marunde MR",
+            "lastName": "Marunde",
+            "firstName": "Matthew",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Vaidya A",
+            "lastName": "Vaidya",
+            "firstName": "Anup",
+            "initials": "A"
+          },
+          {
+            "fullName": "Gillespie ZB",
+            "lastName": "Gillespie",
+            "firstName": "Zachary",
+            "initials": "ZB"
+          },
+          {
+            "fullName": "Howard SA",
+            "lastName": "Howard",
+            "firstName": "Sarah",
+            "initials": "SA"
+          },
+          {
+            "fullName": "North TE",
+            "lastName": "North",
+            "firstName": "Trista",
+            "initials": "TE"
+          },
+          {
+            "fullName": "Dominguez D",
+            "lastName": "Dominguez",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Keogh M",
+            "lastName": "Keogh",
+            "firstName": "Michael-Christopher",
+            "initials": "M"
+          },
+          {
+            "fullName": "Schlaeger TM",
+            "lastName": "Schlaeger",
+            "firstName": "Thorsten",
+            "initials": "TM"
+          },
+          {
+            "fullName": "Shi Y",
+            "lastName": "Shi",
+            "firstName": "Yang",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Hu",
+            "initials": "H"
+          },
+          {
+            "fullName": "Shipp MM",
+            "lastName": "Shipp",
+            "firstName": "Margaret",
+            "initials": "MM"
+          },
+          {
+            "fullName": "Blainey PC",
+            "lastName": "Blainey",
+            "firstName": "Paul",
+            "initials": "PC"
+          },
+          {
+            "fullName": "Daley GQ",
+            "lastName": "Daley",
+            "firstName": "George",
+            "initials": "GQ"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Genes involved in the regulation of chromatin structure are frequently disrupted in cancer, contributing to an aberrant transcriptome and phenotypic plasticity. Yet, therapeutics targeting mutant forms of chromatin-modifying enzymes have yielded only modest clinical utility, underscoring the difficulty of targeting the epigenomic underpinnings of aberrant gene regulatory networks. Here, we sought to identify novel epigenetic vulnerabilities in diffuse large B-cell lymphoma (DLBCL). Through phenotypic screens and biochemical analysis, we demonstrated that inhibition of the H3K9 demethylases KDM4A and KDM4C elicits potent, subtype-agnostic cytotoxicity by antagonizing transcriptional networks associated with B-cell identity and epigenetically rewiring heterochromatin. KDM4 demethylases associated with the KRAB zinc finger ZNF587, and their enzymatic inhibition led to DNA replication stress and DNA damage-induced cGAS-STING activation. Broad surveys of transcriptional data from patients also revealed KDM4 family dysregulation in several other cancer types. To explore this potential therapeutic avenue, we performed high-throughput small molecule screens with H3K9me3 nucleosome substrates and identified novel KDM4 demethylase inhibitors. AI-guided protein-ligand binding predictions suggested diverse modes of action for various small molecule hits. Our findings underscore the relevance of targeting fundamental transcriptional and epigenetic mechanisms for anti-cancer therapy. <h4>HIGHLIGHTS</h4>  Phenotypic screens identified JIB-04 as a potent anti-cancer agent for multiple subtypes of diffuse large B-cell lymphoma JIB-04 binds and inhibits KDM4 demethylases resulting in epigenomic rewiring of heterochromatin KDM4 demethylases cooperate with KRAB zinc fingers to limit DNA replication stress, and KDM4 inhibition instigates DNA-damage and cGAS-STING activation in several human cancers High-throughput small molecule screens with semi-synthetic nucleosome substrates and AI-guided molecular docking simulations identify novel KDM4 inhibitors",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.31.635709"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-02-07",
+      "firstPublicationDate": "2025-02-05",
+      "firstIndexDate": "2025-02-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

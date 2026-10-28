@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.18.638918",
+  "title": "Genome modeling and design across all domains of life with Evo 2",
+  "authors": "Brixi G; Durrant MG; Ku J; Poli M; Brockman G; Chang D; Gonzalez GA; King SH; Li DB; Merchant AT; Naghipourfar M; Nguyen E; Ricci-Tam C; Romero DW; Sun G; Taghibakshi A; Vorontsov A; Yang B; Deng M; Gorton L; Nguyen N; Wang NK; Adams E; Baccus SA; Dillmann S; Ermon S; Guo D; Ilango R; Janik K; Lu AX; Mehta R; Mofrad MR; Ng MY; Pannu J; Ré C; Schmok JC; John JS; Sullivan J; Zhu K; Zynda G; Balsam D; Collison P; Costa AB; Hernandez-Boussard T; Ho E; Liu M; McGrath T; Powell K; Burke DP; Goodarzi H; Hsu PD; Hie BL",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-21",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 7,
+  "one_liner_zh": "Evo 2是跨物种基因组基础模型，虽非直接建模TF-DNA互作，但能学习转录因子结合位点等特征，其基因组建模与生成方法可迁移至TF-DNA结合位点预测与设计。",
+  "abstract": "All of life encodes information with DNA. While tools for sequencing, synthesis, and editing of genomic code have transformed biological research, intelligently composing new biological systems would also require a deep understanding of the immense complexity encoded by genomes. We introduce Evo 2, a biological foundation model trained on 9.3 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life. We train Evo 2 with 7B and 40B parameters to have an unprecedented 1 million token context window with single-nucleotide resolution. Evo 2 learns from DNA sequence alone to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant BRCA1 variants—without task-specific finetuning. Applying mechanistic interpretability analyses, we reveal that Evo 2 autonomously learns a breadth of biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements, and prophage genomic regions. Beyond its predictive capabilities, Evo 2 generates mitochondrial, prokaryotic, and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Guiding Evo 2 via inference-time search enables controllable generation of epigenomic structure, for which we demonstrate the first inference-time scaling results in biology. We make Evo 2 fully open, including model parameters, training code, inference code, and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+  "abstract_zh": "所有生命都以DNA编码信息。尽管用于基因组代码测序、合成和编辑的工具已彻底改变了生物学研究，但智能地构建新的生物系统还需要深入理解基因组所编码的巨大复杂性。我们推出Evo 2，这是一个生物基础模型，基于来自涵盖所有生命领域的精选基因组图谱中的9.3万亿个DNA碱基对进行训练。我们训练了具有7B和40B参数的Evo 2，使其拥有前所未有的100万个token上下文窗口，并具备单核苷酸分辨率。Evo 2仅从DNA序列中学习，就能准确预测遗传变异的 functional 影响——从非编码致病突变到临床意义重大的BRCA1变异——无需任务特定的微调。通过应用机制可解释性分析，我们揭示Evo 2自主学习了广泛的生物特征，包括外显子-内含子边界、转录因子结合位点、蛋白质结构元件和前噬菌体基因组区域。除了预测能力外，Evo 2还能在基因组尺度上生成线粒体、原核和真核序列，其自然性和连贯性优于以往方法。通过推理时搜索引导Evo 2，可实现表观基因组结构的可控生成，我们在此展示了生物学中首次的推理时扩展结果。我们完全开放Evo 2，包括模型参数、训练代码、推理代码和OpenGenome2数据集，以加速对生物复杂性的探索和设计。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.18.638918/index.html"
+}

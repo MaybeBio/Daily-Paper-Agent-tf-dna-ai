@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "35886974",
+    "doi": "10.3390/ijms23147626",
+    "title": "Molecular Modelling of NONO and SFPQ Dimerization Process and RNA Recognition Mechanism."
+  },
+  "content": {
+    "abstract": "NONO and SFPQ are involved in multiple nuclear processes (e.g., pre-mRNA splicing, DNA repair, and transcriptional regulation). These proteins, along with NEAT1, enable paraspeckle formation, thus promoting multiple myeloma cell survival. In this paper, we investigate NONO and SFPQ dimer stability, highlighting the hetero- and homodimer structural differences, and model their interactions with RNA, simulating their binding to a polyG probe mimicking NEAT1guanine-rich regions. We demonstrated in silico that NONO::SFPQ heterodimerization is a more favorable process than homodimer formation. We also show that NONO and SFPQ RRM2 subunits are primarily required for protein-protein interactions with the other DBHS protomer. Simulation of RNA binding to NONO and SFPQ, beside validating RRM1 RNP signature importance, highlighted the role of beta2 and beta4 strand residues for RNA specific recognition. Moreover, we demonstrated the role of the NOPS region and other protomer's RRM2 beta2/beta3 loop in strengthening the interaction with RNA. Our results, having deepened RNA and DBHS dimer interactions, could contribute to the design of small molecules to modulate the activity of these proteins. RNA-mimetics, able to selectively bind to NONO and/or SFPQ RNA-recognition site, could impair paraspeckle formation, thus representing a first step towards the discovery of drugs for multiple myeloma treatment.",
+    "keywords": [
+      "DBHS",
+      "NONO",
+      "SFPQ",
+      "structural bioinformatics"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/metabolism",
+      "Dimerization",
+      "Humans",
+      "*Multiple Myeloma/genetics/metabolism",
+      "*PTB-Associated Splicing Factor/metabolism",
+      "Protein Subunits/metabolism",
+      "*RNA/metabolism",
+      "RNA Splicing Factors/metabolism",
+      "RNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Laurenzi, Tommaso",
+        "Palazzolo, Luca",
+        "Taiana, Elisa",
+        "Saporiti, Simona",
+        "Ben Mariem, Omar",
+        "Guerrini, Uliano",
+        "Neri, Antonino",
+        "Eberini, Ivano"
+      ],
+      "short_names": [
+        "Laurenzi T",
+        "Palazzolo L",
+        "Taiana E",
+        "Saporiti S",
+        "Ben Mariem O",
+        "Guerrini U",
+        "Neri A",
+        "Eberini I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0446-0392",
+        "ORCID: 0000-0002-5370-9588",
+        "ORCID: 0000-0003-4940-1318",
+        "ORCID: 0000-0002-2096-1066",
+        "ORCID: 0000-0001-5521-3829"
+      ],
+      "affiliations": [
+        "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari, Universita degli Studi di Milano, 20133 Milan, Italy.",
+        "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy.",
+        "Hematology, Fondazione Ca Granda IRCCS Policlinico, 20122 Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari, Universita degli Studi di Milano, 20133 Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari, Universita degli Studi di Milano, 20133 Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari, Universita degli Studi di Milano, 20133 Milan, Italy.",
+        "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy.",
+        "Dipartimento di Scienze Farmacologiche e Biomolecolari, Universita degli Studi di Milano, 20133 Milan, Italy.",
+        "Data Science Research Center (DSRC), Universita degli Studi di Milano, 20122 Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Laurenzi, Tommaso",
+        "short_name": "Laurenzi T",
+        "identifiers": [
+          "0000-0002-0446-0392"
+        ],
+        "affiliations": [
+          "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Palazzolo, Luca",
+        "short_name": "Palazzolo L",
+        "identifiers": [
+          "0000-0002-5370-9588"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari, Università degli Studi di Milano, 20133 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Taiana, Elisa",
+        "short_name": "Taiana E",
+        "identifiers": [
+          "0000-0003-4940-1318"
+        ],
+        "affiliations": [
+          "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy.",
+          "Hematology, Fondazione Cà Granda IRCCS Policlinico, 20122 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Saporiti, Simona",
+        "short_name": "Saporiti S",
+        "identifiers": [
+          "0000-0002-2096-1066"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari, Università degli Studi di Milano, 20133 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ben Mariem, Omar",
+        "short_name": "Ben Mariem O",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari, Università degli Studi di Milano, 20133 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Guerrini, Uliano",
+        "short_name": "Guerrini U",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari, Università degli Studi di Milano, 20133 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Neri, Antonino",
+        "short_name": "Neri A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Eberini, Ivano",
+        "short_name": "Eberini I",
+        "identifiers": [
+          "0000-0001-5521-3829"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Farmacologiche e Biomolecolari, Università degli Studi di Milano, 20133 Milan, Italy.",
+          "Data Science Research Center (DSRC), Università degli Studi di Milano, 20122 Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Jul 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/28 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42088439",
+      "41596441",
+      "40776449",
+      "40715482",
+      "40527409",
+      "39592606",
+      "39183343",
+      "38802648",
+      "38542527",
+      "38248868",
+      "36915153"
+    ],
+    "refs": [
+      "35245601",
+      "34904671",
+      "31427718",
+      "31299635",
+      "30998900",
+      "29932899",
+      "29530979",
+      "29084942",
+      "27992859",
+      "27924002",
+      "26606496",
+      "26435036",
+      "25765647",
+      "22416126",
+      "20947024",
+      "20573717",
+      "20211624",
+      "19217333",
+      "19188602",
+      "19106332",
+      "17584791",
+      "16373496",
+      "15853797",
+      "15057275",
+      "12403470",
+      "12358429",
+      "9409622",
+      "8439294",
+      "8045264"
+    ],
+    "similar": [
+      "35886974",
+      "36209820",
+      "29530979",
+      "39698821",
+      "31204691",
+      "27924002",
+      "40574713",
+      "34904671",
+      "30725116",
+      "20421735",
+      "39673809",
+      "25605962",
+      "27084935",
+      "35245601",
+      "39214388",
+      "22416126",
+      "30824709",
+      "31299635",
+      "39183343",
+      "38551131",
+      "16641145",
+      "25998385",
+      "40593584",
+      "41176793",
+      "35403619",
+      "26435036",
+      "32998269",
+      "35247074",
+      "36399942",
+      "35910786",
+      "30745340",
+      "39250314",
+      "25326457",
+      "21144806",
+      "38717150",
+      "27064654",
+      "30931476",
+      "28712728",
+      "34787639",
+      "34433054",
+      "38248868",
+      "28117896",
+      "32950106",
+      "22114566",
+      "32496517",
+      "38761794",
+      "19720872",
+      "35608889",
+      "28392072",
+      "29932899",
+      "31815296",
+      "36168806",
+      "35998361",
+      "22102035",
+      "36864190",
+      "22185324",
+      "21507896",
+      "22941645",
+      "25765647",
+      "26261210",
+      "35216000",
+      "38802648",
+      "32168434",
+      "35547764",
+      "33476259",
+      "24507715",
+      "39636149",
+      "25100870",
+      "37960731",
+      "29358041",
+      "27259250",
+      "26428695",
+      "40352720",
+      "32577828",
+      "15140795",
+      "38303029",
+      "25651939",
+      "30661786",
+      "37952770",
+      "24173718",
+      "20813759",
+      "28209515",
+      "25605330",
+      "32034402",
+      "35974014",
+      "31044562",
+      "41075892",
+      "31981477",
+      "30377567",
+      "12417296",
+      "25025966",
+      "40360465",
+      "28147269",
+      "30153828",
+      "38341127",
+      "36416237",
+      "12358429",
+      "40259455",
+      "30142213",
+      "24301678"
+    ],
+    "review": [
+      "35886974",
+      "38551131",
+      "41176793",
+      "35403619",
+      "32998269",
+      "38717150",
+      "38248868",
+      "19720872",
+      "32168434",
+      "31044562"
+    ],
+    "pmc": [
+      "9324803"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/933686",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23147626",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35886974/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35886974",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-725",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

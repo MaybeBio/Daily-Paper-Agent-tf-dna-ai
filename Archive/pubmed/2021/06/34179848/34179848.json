@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "34179848",
+    "doi": "10.1016/j.patter.2021.100270",
+    "title": "ACSNI: An unsupervised machine-learning tool for prediction of tissue-specific pathway components using gene expression profiles."
+  },
+  "content": {
+    "abstract": "Determining the tissue- and disease-specific circuit of biological pathways remains a fundamental goal of molecular biology. Many components of these biological pathways still remain unknown, hindering the full and accurate characterization of biological processes of interest. Here we describe ACSNI, an algorithm that combines prior knowledge of biological processes with a deep neural network to effectively decompose gene expression profiles (GEPs) into multi-variable pathway activities and identify unknown pathway components. Experiments on public GEP data show that ACSNI predicts cogent components of mTOR, ATF2, and HOTAIRM1 signaling that recapitulate regulatory information from genetic perturbation and transcription factor binding datasets. Our framework provides a fast and easy-to-use method to identify components of signaling pathways as a tool for molecular mechanism discovery and to prioritize genes for designing future targeted experiments (https://github.com/caanene1/ACSNI).",
+    "keywords": [
+      "autoencoder",
+      "cell signaling",
+      "dimension reduction",
+      "gene expression",
+      "gene-regulatory networks",
+      "machine learning",
+      "neural network",
+      "pathways",
+      "systems biology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Anene, Chinedu Anthony",
+        "Khan, Faraz",
+        "Bewicke-Copley, Findlay",
+        "Maniati, Eleni",
+        "Wang, Jun"
+      ],
+      "short_names": [
+        "Anene CA",
+        "Khan F",
+        "Bewicke-Copley F",
+        "Maniati E",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK.",
+        "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Anene, Chinedu Anthony",
+        "short_name": "Anene CA",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Khan, Faraz",
+        "short_name": "Khan F",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Bewicke-Copley, Findlay",
+        "short_name": "Bewicke-Copley F",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Maniati, Eleni",
+        "short_name": "Maniati E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Cancer Genomics and Computational Biology, Barts Cancer Institute, Queen Mary University of London, London EC1M 6BQ, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Patterns (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Patterns (N Y)"
+    ],
+    "pub_date": "2021 Jun 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/29 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "39233897"
+    ],
+    "refs": [
+      "32710834",
+      "32393369",
+      "31862408",
+      "31085557",
+      "30962421",
+      "30858363",
+      "30425336",
+      "30413482",
+      "29508215",
+      "29425488",
+      "29209056",
+      "28893800",
+      "28753430",
+      "28337020",
+      "27560171",
+      "26432405",
+      "26233890",
+      "26130709",
+      "26125594",
+      "25569234",
+      "25260700",
+      "25154796",
+      "25150838",
+      "24695404",
+      "23792563",
+      "23715323",
+      "23323831",
+      "23203871",
+      "22408430",
+      "21546393",
+      "20576703",
+      "19847166",
+      "19114008",
+      "18989396",
+      "18832364",
+      "17344234",
+      "16496020",
+      "16156896",
+      "16137160",
+      "12805554",
+      "12202830",
+      "11057893",
+      "10802651",
+      "10548103"
+    ],
+    "similar": [
+      "34179848",
+      "30787315",
+      "30558539",
+      "34888618",
+      "35007471",
+      "34555591",
+      "35992221",
+      "32249297",
+      "32804365",
+      "26269925",
+      "32687952",
+      "35310659",
+      "36064320",
+      "34980200",
+      "36788531",
+      "33371891",
+      "35172334",
+      "36049552",
+      "32808039",
+      "29589566",
+      "34139164",
+      "23829771",
+      "31323239",
+      "30785874",
+      "30418085",
+      "31746978",
+      "30953525",
+      "34571537",
+      "35900147",
+      "35891777",
+      "31649723",
+      "33577560",
+      "30959271",
+      "27556637",
+      "33373583",
+      "30084593",
+      "37007972",
+      "35629336",
+      "35758801",
+      "36083008",
+      "37205122",
+      "34044854",
+      "36227552",
+      "34571539",
+      "29874547",
+      "35584089",
+      "36958237",
+      "32241274",
+      "35652477",
+      "31405013",
+      "36935548",
+      "31857203",
+      "30208101",
+      "29186340",
+      "34570169",
+      "29949973",
+      "36198065",
+      "37561093",
+      "35043942",
+      "31298436",
+      "33334313",
+      "33185666",
+      "35062026",
+      "31383477",
+      "36248807",
+      "29566671",
+      "29949993",
+      "35279211",
+      "35183129",
+      "34464837",
+      "37328639",
+      "34551729",
+      "36070863",
+      "30372442",
+      "35511108",
+      "37448813",
+      "33580578",
+      "36864611",
+      "37038446",
+      "34429851"
+    ],
+    "review": [
+      "34179848",
+      "32804365",
+      "34139164",
+      "30418085",
+      "35652477"
+    ],
+    "pmc": [
+      "8212143"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3899(21)00096-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34179848/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34179848",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose PDH-EH, a computational model that fuses protein language model embeddings with handcrafted features to predict hotspot residues at protein-DNA interfaces. They report feature extraction to 1141 dimensions, mRMR-based feature selection, comparison of Random Forest, Support Vector Machine, and XGBoost, with Random Forest achieving the highest AUROC in cross-validation, and superior performance on an independent test set relative to existing state-of-the-art models. They also claim demonstrated effectiveness and interpretability of PLM embeddings.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, training and independent test dataset compositions, feature selection details, hyperparameter settings, baseline model specifications, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to a relevant problem in computational biology. However, the evidence provided in the abstract is insufficient to evaluate the validity of the core claims. No quantitative performance metrics, dataset sizes, or statistical significance tests are reported. The claim of outperforming state-of-the-art models cannot be assessed without knowing the baselines, evaluation protocols, and effect sizes. The interpretability claim is asserted without any supporting analysis. The work may be of interest to the protein-DNA interaction and machine learning communities, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biology, structural bioinformatics, and protein-DNA interaction prediction would be interested. Those developing machine learning methods for biological interface prediction, particularly using protein language models, would find the fusion feature approach relevant. The availability of code and datasets may also attract practitioners seeking reproducible tools for hotspot prediction.
+- **Major strengths** The problem is well-motivated with clear practical relevance. The use of protein language model embeddings is timely and aligns with current trends in the field. The combination of PLM embeddings with handcrafted features is a reasonable strategy that may capture complementary information. The stated availability of code and datasets supports reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model outperforms existing state-of-the-art models on an independent test set.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative results are reported. The abstract does not provide AUROC, precision, recall, F1, or any other metric for either cross-validation or the independent test set. The comparison to state-of-the-art models is stated without naming the baselines or reporting their performance.
+  - **Why it matters** Without numerical evidence, the central claim of superior performance cannot be verified. The reader cannot judge the magnitude of improvement, its statistical significance, or whether the comparison was fair.
+  - **Resolution test** Provide AUROC and other relevant metrics for the proposed model and all baselines on the same independent test set, with confidence intervals or statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model uses 1141 dimensional features and mRMR for feature selection.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the composition of the 1141 features, the number of features selected by mRMR, the training dataset size, or the independent test set size. Without these details, the methodology cannot be reproduced or evaluated for potential overfitting.
+  - **Why it matters** Feature selection on a small dataset can lead to overfitting, and the abstract provides no information to assess this risk. Reproducibility is a core requirement for computational methods.
+  - **Resolution test** Specify the feature categories, the number of selected features, dataset sizes, and the feature selection procedure in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The effectiveness and interpretability of embeddings extracted from PLM were demonstrated.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No analysis or results supporting interpretability are described. The abstract does not indicate what interpretability analysis was performed, such as feature importance, ablation studies, or case examples.
+  - **Why it matters** Interpretability is a strong claim that requires specific evidence. Without it, the claim is unsupported and potentially misleading.
+  - **Resolution test** Provide ablation studies comparing PLM embeddings alone, handcrafted features alone, and their fusion, plus interpretability analyses such as feature importance rankings or visualization of learned representations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The model name PDH-EH is introduced without explaining the acronym.
+  - **Required correction** Define the acronym at first use, for example, Protein-DNA Hotspot predictor with Embeddings and Handcrafted features.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions existing state-of-the-art models but does not name them.
+  - **Required correction** List the specific baseline methods compared in the full manuscript and summarize their performance in the abstract if space permits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Performance claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "highest AUROC" is vague without reporting the actual value.
+  - **Required correction** Report the AUROC value for the Random Forest model in cross-validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details, and interpretability evidence means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The fusion of PLM embeddings with handcrafted features for protein-DNA hotspot prediction is a reasonable incremental contribution, but the abstract does not demonstrate conceptual novelty beyond existing feature fusion approaches.
+  - Scientific importance: The problem is relevant, but the abstract does not show a substantial advance over existing methods due to missing quantitative evidence.
+  - Interdisciplinary readership: The work bridges machine learning and structural biology, which could appeal to a broad audience, but the abstract is too sparse to engage nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and results prevents evaluation of the technical approach.
+  - Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context, and the absence of results makes it difficult for nonspecialists to gauge significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological detail to support the claims. A full manuscript with complete results and analyses would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of outperforming existing state-of-the-art models is unsupported due to the absence of quantitative comparisons.
+- The claim of demonstrated effectiveness and interpretability of PLM embeddings is unsupported as no analysis is described.
+- The performance of Random Forest achieving the highest AUROC is unverifiable without reported values.
+- The generalizability of the model cannot be assessed without dataset descriptions.

@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "36362115",
+    "doi": "10.3390/ijms232113326",
+    "title": "The Association between Cyclin Dependent Kinase 2 Associated Protein 1 (CDK2AP1) and Molecular Subtypes of Lethal Prostate Cancer."
+  },
+  "content": {
+    "abstract": "Prostate cancer (PCa) is one of the most commonly diagnosed types of malignancy and is the second leading cause of cancer-related death in men in developed countries. Cyclin dependent kinase 2 associate protein 1(CDK2AP1) is an epigenetic and cell cycle regulator gene which has been downregulated in several malignancies, but its involvement in PCa has not yet been investigated in a clinical setting. We assessed the prognostic value of CDK2AP1 expression in a cohort of men diagnosed with PCa (n = 275) treated non-surgically by transurethral resection of the prostate (TURP) and studied the relationship between CDK2AP1 expression to various PCa molecular subtypes (ERG, PTEN, p53 and AR) and evaluated the association with clinical outcome. Further, we used bioinformatic tools to analyze the available TCGA PRAD transcriptomic data to explore the underlying mechanism. Our data confirmed increased expression of CDK2AP1 with higher Gleason Grade Group (GG) and metastatic PCa (p <0.0001). High CDK2AP1 expression was associated with worse overall survival (OS) (HR: 1.62, CI: 1.19-2.21, p = 0.002) and cause-specific survival (CSS) (HR: 2.012, CI 1.29-3.13, p = 0.002) using univariate analysis. When compared to each sub-molecular type. High CDK2AP1/PTEN-loss, abnormal AR or p53 expression showed even worse association to poorer OS and CCS and remained significant when adjusted for GG. Our data indicates that CDK2AP1 directly binds to p53 using the Co-Immunoprecipitation (Co-IP) technique, which was validated using molecular docking tools. This suggests that these two proteins have a significant association through several binding features and correlates with our observed clinical data. In conclusion, our results indicated that the CDK2AP1 overexpression is associate with worse OS and CSS when combined with certain PCa molecular subtypes; interaction between p53 stands out as the most prominent candidate which directly interacts with CDK2AP1.",
+    "keywords": [
+      "AR",
+      "CDK2AP1",
+      "ERG",
+      "PTEN",
+      "androgen deprivation therapy",
+      "cancer-specific mortality",
+      "p53",
+      "prostate cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "Cyclin-Dependent Kinase 2/genetics/metabolism",
+      "Cyclin-Dependent Kinase Inhibitor Proteins/metabolism",
+      "Molecular Docking Simulation",
+      "*Prostatic Neoplasms/metabolism",
+      "*Transurethral Resection of Prostate",
+      "Tumor Suppressor Protein p53/genetics",
+      "Tumor Suppressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gamallat, Yaser",
+        "Bakker, Andrea",
+        "Khosh Kish, Ealia",
+        "Choudhry, Muhammad",
+        "Walker, Simon",
+        "Aldakheel, Saood",
+        "Seyedi, Sima",
+        "Huang, Kuo-Cheng",
+        "Ghosh, Sunita",
+        "Gotto, Geoffrey",
+        "Bismar, Tarek A"
+      ],
+      "short_names": [
+        "Gamallat Y",
+        "Bakker A",
+        "Khosh Kish E",
+        "Choudhry M",
+        "Walker S",
+        "Aldakheel S",
+        "Seyedi S",
+        "Huang KC",
+        "Ghosh S",
+        "Gotto G",
+        "Bismar TA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9980-2107",
+        "ORCID: 0000-0002-4282-8012",
+        "ORCID: 0000-0002-5784-0823",
+        "ORCID: 0000-0002-7370-352X",
+        "ORCID: 0000-0002-9190-5088"
+      ],
+      "affiliations": [
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+        "Arnie Charbonneau Cancer Institute and Tom Baker Cancer Center, Calgary, AB T2N 4N1, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Departments of Mathematical and Statistical Sciences and Medical Oncology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, AB T6G 2R7, Canada.",
+        "Prostate Cancer Center, Calgary, AB T2V 1P9, Canada.",
+        "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+        "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+        "Arnie Charbonneau Cancer Institute and Tom Baker Cancer Center, Calgary, AB T2N 4N1, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gamallat, Yaser",
+        "short_name": "Gamallat Y",
+        "identifiers": [
+          "0000-0001-9980-2107"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+          "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+          "Arnie Charbonneau Cancer Institute and Tom Baker Cancer Center, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Bakker, Andrea",
+        "short_name": "Bakker A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada."
+        ]
+      },
+      {
+        "full_name": "Khosh Kish, Ealia",
+        "short_name": "Khosh Kish E",
+        "identifiers": [
+          "0000-0002-4282-8012"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+          "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Choudhry, Muhammad",
+        "short_name": "Choudhry M",
+        "identifiers": [
+          "0000-0002-5784-0823"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+          "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Walker, Simon",
+        "short_name": "Walker S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada."
+        ]
+      },
+      {
+        "full_name": "Aldakheel, Saood",
+        "short_name": "Aldakheel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada."
+        ]
+      },
+      {
+        "full_name": "Seyedi, Sima",
+        "short_name": "Seyedi S",
+        "identifiers": [
+          "0000-0002-7370-352X"
+        ],
+        "affiliations": [
+          "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Huang, Kuo-Cheng",
+        "short_name": "Huang KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Sunita",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Mathematical and Statistical Sciences and Medical Oncology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, AB T6G 2R7, Canada."
+        ]
+      },
+      {
+        "full_name": "Gotto, Geoffrey",
+        "short_name": "Gotto G",
+        "identifiers": [],
+        "affiliations": [
+          "Prostate Cancer Center, Calgary, AB T2V 1P9, Canada."
+        ]
+      },
+      {
+        "full_name": "Bismar, Tarek A",
+        "short_name": "Bismar TA",
+        "identifiers": [
+          "0000-0002-9190-5088"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 1N4, Canada.",
+          "Departments of Oncology, Biochemistry and Molecular Biology, Cumming School of Medicine, Calgary, AB T2N 4N1, Canada.",
+          "Arnie Charbonneau Cancer Institute and Tom Baker Cancer Center, Calgary, AB T2N 4N1, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Nov 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41081583"
+    ],
+    "refs": [
+      "35563163",
+      "35354846",
+      "35098564",
+      "34932109",
+      "34395534",
+      "34337483",
+      "34311724",
+      "33807717",
+      "33433946",
+      "33214693",
+      "32220959",
+      "32044806",
+      "31114916",
+      "30824861",
+      "30343278",
+      "30304372",
+      "30101374",
+      "29858674",
+      "29460925",
+      "29136207",
+      "28446506",
+      "26725250",
+      "25785833",
+      "24620959",
+      "24204199",
+      "24083743",
+      "23404055",
+      "22427660",
+      "22260502",
+      "21865592",
+      "21552211",
+      "20523938",
+      "18954528",
+      "17327663",
+      "10938106",
+      "9331572",
+      "7557027"
+    ],
+    "similar": [
+      "36362115",
+      "34337483",
+      "24972028",
+      "25785833",
+      "31129769",
+      "19585490",
+      "39125671",
+      "34337539",
+      "24889487",
+      "30101374",
+      "9249905",
+      "25203674",
+      "23404055",
+      "21786090",
+      "10741751",
+      "30852544",
+      "29734353",
+      "35512686",
+      "17689883",
+      "26803516",
+      "36564767",
+      "21733075",
+      "22427660",
+      "31318977",
+      "23171135",
+      "19564334",
+      "24083995",
+      "27108384",
+      "29417257",
+      "26993046",
+      "27738792",
+      "30301696",
+      "27477529",
+      "32350606",
+      "26725250",
+      "26015225",
+      "25220373",
+      "31269242",
+      "35163398",
+      "28235401",
+      "26615022",
+      "37345203",
+      "28470764",
+      "30843003",
+      "30553611",
+      "36105112",
+      "24606912",
+      "31826177",
+      "30343278",
+      "28753869",
+      "23023312",
+      "31111513",
+      "31502941",
+      "23386643",
+      "30701334",
+      "21865592",
+      "22791769",
+      "32447004",
+      "38082365",
+      "24441043",
+      "24006850",
+      "30326032",
+      "19810103",
+      "25695927",
+      "22300588",
+      "25788262",
+      "27159572",
+      "27910803",
+      "26511486",
+      "12429629",
+      "33958297",
+      "27617307",
+      "21328348",
+      "26990456",
+      "30900303",
+      "22654108",
+      "9699682",
+      "31271443",
+      "19462463",
+      "16938518",
+      "22260502",
+      "27444279",
+      "24516518",
+      "34799723",
+      "23410128",
+      "22340411",
+      "22417066",
+      "26512780",
+      "34533858",
+      "32791988",
+      "25724568",
+      "18317945",
+      "26625310",
+      "30181067",
+      "38567478",
+      "38611113"
+    ],
+    "review": [
+      "36362115",
+      "21865592",
+      "30326032",
+      "27910803"
+    ],
+    "pmc": [
+      "9658869"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/36362115/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms232113326",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36362115/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36362115",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

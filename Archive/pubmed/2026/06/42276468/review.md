@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report an in silico analysis of DNA-binding domains (DBDs) of 43 putative nuclear receptors (NRs) in the oyster *Magallana gigas*. They performed 3D modeling, molecular docking, and Martini 3 coarse-grained molecular dynamics (MD) simulations (approximately 4000 microseconds total) to classify NRs into promising (20), intermediate (13), and divergent/novel (10) categories, and propose DNA-binding poses and response elements (REs) for the promising candidates. They also claim to introduce a simplified Martini 3 DNA model for DNA-protein interaction studies.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, docking scores, structural validation metrics, classification criteria, sequence alignments, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational framework for studying NR-DNA interactions in a non-model organism, and the scale of simulation effort is notable. However, the abstract alone does not provide sufficient evidence to evaluate the technical soundness of the methods, the robustness of the classification scheme, or the biological validity of the proposed binding poses and REs. The central claims are plausible but currently under-supported.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, comparative genomics, and computational structural biology would be interested. The work offers a template for applying coarse-grained MD to DNA-protein interaction studies in organisms with limited experimental resources, and the proposed REs for *M. gigas* NRs could inform functional genomics studies in mollusks.
+- **Major strengths** The study addresses a significant gap in understanding NR functionality in a non-model organism. The use of Martini 3 for DNA-protein simulations is timely and potentially methodologically valuable. The large aggregate simulation time (approximately 4000 microseconds) suggests a serious computational effort.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "DNA interaction structures for all M. gigas DBDs were obtained through molecular docking" and that "a Martini 3 DNA model was built and 30 mus triplicate production MD simulations were performed for each DBD-DNA system."
+  - **Evidence pointer** Methods section not provided; location not provided
+  - **Concern** The abstract does not describe how docking poses were selected, how the Martini 3 DNA model was parameterized or validated, or how simulation convergence and stability were assessed. Without these details, the reliability of the proposed DNA-binding poses cannot be evaluated.
+  - **Why it matters** The central conclusions depend entirely on the quality of the docking and MD protocols. If the DNA model is not properly validated or the poses are not stable, the proposed REs and NR classifications would be unreliable.
+  - **Resolution test** Provide a detailed methods section including docking scoring functions, pose selection criteria, Martini 3 DNA model validation (e.g., against atomistic simulations or experimental structures), and MD convergence metrics (e.g., RMSD, RMSF, binding free energy estimates).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors classify 20 NRs as "promising candidates, exhibiting structural similarity to known NRs" and propose "likely DNA-binding poses and REs" for them.
+  - **Evidence pointer** Results section not provided; location not provided
+  - **Concern** The abstract does not define the criteria for "promising," "intermediate," or "divergent/novel" classification. No quantitative thresholds or comparative benchmarks are given. The claim of structural similarity to known NRs is not supported by specific alignments or scores.
+  - **Why it matters** Without explicit classification criteria, the categorization of 20/13/10 NRs is not reproducible or falsifiable. The biological interpretation of these categories depends on their objective definition.
+  - **Resolution test** Define classification criteria with quantitative cutoffs (e.g., RMSD thresholds, interaction energy scores, conservation metrics) and provide a table or figure showing the distribution of scores for all 43 NRs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validity
+  - **Claim pointer** The authors propose "likely DNA-binding poses and REs" for the promising NRs, including homologs such as RXR, RAR, PPAR, THR, FTZF1, NGF1, HNF4, and members of the P family.
+  - **Evidence pointer** Results section not provided; location not provided
+  - **Concern** The abstract does not indicate whether the proposed REs are compared with known RE consensus sequences or experimentally validated binding sites. No information is given on how sequence specificity is inferred from the simulations.
+  - **Why it matters** The biological utility of the proposed REs depends on their consistency with known NR binding preferences. Without validation or comparison, the proposed REs remain speculative.
+  - **Resolution test** Compare proposed REs with known consensus sequences for the named NR families, and if possible, perform electrophoretic mobility shift assays or reporter assays for a subset of predictions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "30 mus triplicate production MD simulations"
+  - **Issue** The unit "mus" is ambiguous. It likely means microseconds, but this should be stated explicitly.
+  - **Required correction** Write "30 microseconds" or "30 µs" in full.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, "approximately 4000 mus of simulation time"
+  - **Issue** The abstract does not specify how many systems were simulated in total or how the 4000 microseconds figure is derived from the stated per-system simulation time.
+  - **Required correction** Provide the number of DBD-DNA systems simulated and clarify the calculation of total simulation time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "simplified Martini 3 DNA model"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The term "simplified" is vague. It is unclear whether this refers to a new coarse-grained parameter set, a reduced representation, or a modified simulation protocol.
+  - **Required correction** Specify what aspect of the Martini 3 DNA model is simplified relative to existing models, and cite prior Martini 3 DNA parameterizations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The methods for docking, MD, and classification must be fully described and validated before the central claims can be assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of Martini 3 to NR-DNA interactions in a non-model organism is somewhat novel, but the approach is largely derivative of existing computational pipelines.
+  - Scientific importance: Moderate. The work could inform functional studies in *M. gigas*, but the biological impact is limited without experimental validation.
+  - Interdisciplinary readership: Limited. The abstract is written for a specialist computational biology audience; nonspecialists would struggle to assess the significance of the findings.
+  - Technical soundness: Not assessable from the abstract. Critical methodological details are missing.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "Martini 3," "DBD," "RE") without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a substantial computational effort, but the lack of methodological detail and validation prevents assessment of the core claims. I would be supportive if the full manuscript provides rigorous methods, clear classification criteria, and validation of the proposed REs.
+
+## Risk / unsupported claims
+- The claim that 20 NRs are "promising candidates" is unsupported without classification criteria.
+- The claim that "likely DNA-binding poses and REs were proposed" is unsupported without evidence of pose stability or sequence specificity.
+- The claim of introducing a "simplified Martini 3 DNA model" is unsupported without model validation or comparison to existing models.
+- The total simulation time of approximately 4000 microseconds is not verifiable from the abstract alone.

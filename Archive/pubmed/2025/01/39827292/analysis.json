@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39827292",
+  "title": "A novel approach for target deconvolution from phenotype-based screening using knowledge graph.",
+  "authors": "Wang, Xiaohong; Zhang, Meifang; Xu, Jianliang; Li, Xin; Xiong, Jing; Cao, Haowei; Dou, Fangkun; Zhai, Xue; Sun, Hua",
+  "journal": "Scientific reports",
+  "published_date": "2025-01-20",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用知识图谱和分子对接进行药物靶点反卷积，虽涉及蛋白互作和对接，但核心是药物靶点发现而非蛋白质-DNA互作或TF-DNA结合机制，与本课题关联度低。",
+  "abstract": "Deconvoluting drug targets is crucial in modern drug development, yet both traditional and artificial intelligence (AI)-driven methods face challenges in terms of completeness, accuracy, and efficiency. Identifying drug targets, especially within complex systems such as the p53 pathway, remains a formidable task. The regulation of this pathway by myriad stress signals and regulatory elements adds layers of complexity to the discovery of effective p53 pathway activators. Recent insights into p53 activation have led to two main screening strategies for p53 activators. The target-based approach focuses on p53 and its regulators (MDM2, MDMX, USP7, Sirt proteins), but requires separate systems for each target and may miss multi-target compounds. Phenotype-based screening can reveal new targets but involves a lengthy process to elucidate mechanisms and targets, hindering drug development. Knowledge graphs have emerged as powerful tools that offer strengths in link prediction and knowledge inference to address these issues. In this study, we constructed a protein-protein interaction knowledge graph (PPIKG) and pioneered an integrated drug target deconvolution system that combines AI with molecular docking techniques. Analysis based on the PPIKG narrowed down candidate proteins from 1088 to 35, significantly saving time and cost. Subsequent molecular docking led us to pinpoint USP7 as a direct target for the p53 pathway activator UNBS5162. Leveraging knowledge graphs and a multidisciplinary approach allows us to streamline the laborious and expensive process of reverse targeting drug discovery through phenotype screening. Our findings have the potential to revolutionize drug screening and open new avenues in pharmacological research, increasing the speed and efficiency of pursuing novel therapeutics. The code is available at  https://github.com/Xiong-Jing/PPIKG .",
+  "abstract_zh": "在現代藥物開發中，解析藥物靶點至關重要，然而傳統方法和人工智慧（AI）驅動的方法在完整性、準確性和效率方面均面臨挑戰。識別藥物靶點，尤其是在如p53途徑等複雜系統中，仍是一項艱巨任務。該途徑受眾多應激信號和調控元件的調控，為發現有效的p53途徑激活劑增添了額外的複雜性。近期對p53激活的見解催生了兩種主要的p53激活劑篩選策略。基於靶點的方法聚焦於p53及其調控因子（MDM2、MDMX、USP7、Sirt蛋白），但需要為每個靶點建立獨立系統，且可能遺漏多靶點化合物。基於表型的篩選能揭示新靶點，但涉及冗長的機制和靶點闡明過程，阻礙了藥物開發。知識圖譜已成為強大的工具，在鏈接預測和知識推理方面展現優勢，以解決這些問題。在本研究中，我們構建了一個蛋白質-蛋白質相互作用知識圖譜（PPIKG），並開創性地整合了AI與分子對接技術的藥物靶點解析系統。基於PPIKG的分析將候選蛋白從1088個縮減至35個，顯著節省了時間和成本。隨後的分子對接使我們確定USP7為p53途徑激活劑UNBS5162的直接靶點。利用知識圖譜和多學科方法，我們能簡化通過表型篩選進行反向靶向藥物發現的繁瑣且昂貴過程。我們的研究結果有望革新藥物篩選，並開闢藥理學研究的新途徑，提高追求新型療法的速度和效率。代碼可在 https://github.com/Xiong-Jing/PPIKG 獲取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39827292/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39827292/",
+  "paper_page_path": "papers/pubmed/39827292/index.html"
+}

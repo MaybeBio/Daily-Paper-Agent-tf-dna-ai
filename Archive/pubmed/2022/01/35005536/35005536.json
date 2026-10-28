@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "pmid": "35005536",
+    "doi": "10.1016/j.isci.2021.103586",
+    "title": "ProtSeq: Toward high-throughput, single-molecule protein sequencing via amino acid conversion into DNA barcodes."
+  },
+  "content": {
+    "abstract": "We demonstrate early progress toward constructing a high-throughput, single-molecule protein sequencing technology utilizing barcoded DNA aptamers (binders) to recognize terminal amino acids of peptides (targets) tethered on a next-generation sequencing chip. DNA binders deposit unique, amino acid-identifying barcodes on the chip. The end goal is that, over multiple binding cycles, a sequential chain of DNA barcodes will identify the amino acid sequence of a peptide. Toward this, we demonstrate successful target identification with two sets of target-binder pairs: DNA-DNA and Peptide-Protein. For DNA-DNA binding, we show assembly and sequencing of DNA barcodes over six consecutive binding cycles. Intriguingly, our computational simulation predicts that a small set of semi-selective DNA binders offers significant coverage of the human proteome. Toward this end, we introduce a binder discovery pipeline that ultimately could merge with the chip assay into a technology called ProtSeq, for future high-throughput, single-molecule protein sequencing.",
+    "keywords": [
+      "Biochemistry",
+      "Biochemistry applications",
+      "Proteomics",
+      "Sequence analysis",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Jessica M",
+        "Gibbons, Michael",
+        "Bashir, Ali",
+        "Wu, Diana",
+        "Shao, Shirley",
+        "Cutts, Zachary",
+        "Chavarha, Mariya",
+        "Chen, Ye",
+        "Schiff, Lauren",
+        "Foster, Mikelle",
+        "Church, Victoria A",
+        "Ching, Llyke",
+        "Ahadi, Sara",
+        "Hieu-Thao Le, Anna",
+        "Tran, Alexander",
+        "Dimon, Michelle",
+        "Coram, Marc",
+        "Williams, Brian",
+        "Jess, Phillip",
+        "Berndl, Marc",
+        "Pawlosky, Annalisa"
+      ],
+      "short_names": [
+        "Hong JM",
+        "Gibbons M",
+        "Bashir A",
+        "Wu D",
+        "Shao S",
+        "Cutts Z",
+        "Chavarha M",
+        "Chen Y",
+        "Schiff L",
+        "Foster M",
+        "Church VA",
+        "Ching L",
+        "Ahadi S",
+        "Hieu-Thao Le A",
+        "Tran A",
+        "Dimon M",
+        "Coram M",
+        "Williams B",
+        "Jess P",
+        "Berndl M",
+        "Pawlosky A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA.",
+        "Google, LLC, Mountain View, CA 94043, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Jessica M",
+        "short_name": "Hong JM",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Gibbons, Michael",
+        "short_name": "Gibbons M",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Bashir, Ali",
+        "short_name": "Bashir A",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Diana",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Shao, Shirley",
+        "short_name": "Shao S",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Cutts, Zachary",
+        "short_name": "Cutts Z",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Chavarha, Mariya",
+        "short_name": "Chavarha M",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Ye",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Schiff, Lauren",
+        "short_name": "Schiff L",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Foster, Mikelle",
+        "short_name": "Foster M",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Church, Victoria A",
+        "short_name": "Church VA",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Ching, Llyke",
+        "short_name": "Ching L",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Ahadi, Sara",
+        "short_name": "Ahadi S",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Hieu-Thao Le, Anna",
+        "short_name": "Hieu-Thao Le A",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Tran, Alexander",
+        "short_name": "Tran A",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Dimon, Michelle",
+        "short_name": "Dimon M",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Coram, Marc",
+        "short_name": "Coram M",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Brian",
+        "short_name": "Williams B",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Jess, Phillip",
+        "short_name": "Jess P",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Berndl, Marc",
+        "short_name": "Berndl M",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      },
+      {
+        "full_name": "Pawlosky, Annalisa",
+        "short_name": "Pawlosky A",
+        "identifiers": [],
+        "affiliations": [
+          "Google, LLC, Mountain View, CA 94043, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2022 Jan 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/11 06:00",
+    "fetched_at": "2026-09-28 04:00:31"
+  },
+  "links": {
+    "cites": [
+      "41851307",
+      "41744702",
+      "40226999",
+      "39055168",
+      "37673661",
+      "36899164",
+      "36603184",
+      "36386871",
+      "36208449",
+      "35565358"
+    ],
+    "refs": [
+      "34099939",
+      "33888692",
+      "33258524",
+      "33174564",
+      "32758356",
+      "32639140",
+      "32599342",
+      "31950079",
+      "31942072",
+      "31631652",
+      "31532184",
+      "30346938",
+      "29500346",
+      "29491378",
+      "29241295",
+      "28265062",
+      "27049631",
+      "26266455",
+      "26224087",
+      "25714988",
+      "25467744",
+      "24870542",
+      "24167271",
+      "24082820",
+      "23150810",
+      "21838693",
+      "21282981",
+      "21165148",
+      "21076782",
+      "20164058",
+      "19864131",
+      "16873550",
+      "12622379",
+      "11735341",
+      "11180939",
+      "9368651",
+      "8604334",
+      "7951734",
+      "7937128",
+      "7545073",
+      "7510417",
+      "2200121",
+      "1697402"
+    ],
+    "similar": [
+      "35005536",
+      "27259539",
+      "25887410",
+      "33904308",
+      "32617618",
+      "31011184",
+      "29066821",
+      "25013183",
+      "36227977",
+      "30921350",
+      "25714988",
+      "28983186",
+      "27385640",
+      "22819855",
+      "25252978",
+      "25486472",
+      "31013333",
+      "28287980",
+      "37460620",
+      "19159457",
+      "29925596",
+      "23402035",
+      "27814676",
+      "16832638",
+      "33396023",
+      "23188109",
+      "24673190",
+      "30672692",
+      "23429522",
+      "16806474",
+      "37873004",
+      "31340637",
+      "22178698",
+      "22237533",
+      "32915813",
+      "29314756",
+      "24178846",
+      "25109295",
+      "23695934",
+      "22210894",
+      "29543431",
+      "31576525",
+      "33600481",
+      "34570467",
+      "28640821",
+      "30633607",
+      "25421391",
+      "31880864",
+      "25732963",
+      "33125641",
+      "34215187",
+      "31340783",
+      "22276739",
+      "26000628",
+      "22242135",
+      "29522539",
+      "24167271",
+      "26161996",
+      "27057927",
+      "23469199",
+      "28171784",
+      "28865135",
+      "29451897",
+      "37745461",
+      "27038897",
+      "33339962",
+      "30887917",
+      "30940689",
+      "21163834",
+      "30153374",
+      "29719872",
+      "33648451",
+      "29224148",
+      "24564277",
+      "26040656",
+      "29357282",
+      "25407910",
+      "17932070",
+      "31829073",
+      "22682155",
+      "26384417",
+      "17206624",
+      "38328039"
+    ],
+    "review": [
+      "35005536",
+      "32617618",
+      "25486472",
+      "23402035",
+      "33396023",
+      "22178698",
+      "25421391",
+      "25732963"
+    ],
+    "pmc": [
+      "8717419"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(21)01556-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35005536/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35005536",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35005536",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

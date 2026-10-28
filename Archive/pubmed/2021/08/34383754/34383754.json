@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "34383754",
+    "doi": "10.1371/journal.pcbi.1009308",
+    "title": "DeepG4: A deep learning approach to predict cell-type specific active G-quadruplex regions."
+  },
+  "content": {
+    "abstract": "DNA is a complex molecule carrying the instructions an organism needs to develop, live and reproduce. In 1953, Watson and Crick discovered that DNA is composed of two chains forming a double-helix. Later on, other structures of DNA were discovered and shown to play important roles in the cell, in particular G-quadruplex (G4). Following genome sequencing, several bioinformatic algorithms were developed to map G4s in vitro based on a canonical sequence motif, G-richness and G-skewness or alternatively sequence features including k-mers, and more recently machine/deep learning. Recently, new sequencing techniques were developed to map G4s in vitro (G4-seq) and G4s in vivo (G4 ChIP-seq) at few hundred base resolution. Here, we propose a novel convolutional neural network (DeepG4) to map cell-type specific active G4 regions (e.g. regions within which G4s form both in vitro and in vivo). DeepG4 is very accurate to predict active G4 regions in different cell types. Moreover, DeepG4 identifies key DNA motifs that are predictive of G4 region activity. We found that such motifs do not follow a very flexible sequence pattern as current algorithms seek for. Instead, active G4 regions are determined by numerous specific motifs. Moreover, among those motifs, we identified known transcription factors (TFs) which could play important roles in G4 activity by contributing either directly to G4 structures themselves or indirectly by participating in G4 formation in the vicinity. In addition, we used DeepG4 to predict active G4 regions in a large number of tissues and cancers, thereby providing a comprehensive resource for researchers. Availability: https://github.com/morphos30/DeepG4.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Chromatin Immunoprecipitation",
+      "*Deep Learning",
+      "*G-Quadruplexes",
+      "Genome",
+      "Humans",
+      "Neoplasms/genetics/pathology",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rocher, Vincent",
+        "Genais, Matthieu",
+        "Nassereddine, Elissar",
+        "Mourad, Raphael"
+      ],
+      "short_names": [
+        "Rocher V",
+        "Genais M",
+        "Nassereddine E",
+        "Mourad R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3421-482X",
+        "ORCID: 0000-0003-1004-865X",
+        "ORCID: 0000-0001-6700-5728"
+      ],
+      "affiliations": [
+        "Molecular, Cellular and Developmental biology department (MCD), Centre de Biologie Integrative (CBI), University of Toulouse, CNRS, UPS, Toulouse, France.",
+        "Centre de Recherches en Cancerologie de Toulouse (CRCT), INSERM U1037, Toulouse, France.",
+        "Molecular, Cellular and Developmental biology department (MCD), Centre de Biologie Integrative (CBI), University of Toulouse, CNRS, UPS, Toulouse, France.",
+        "Molecular, Cellular and Developmental biology department (MCD), Centre de Biologie Integrative (CBI), University of Toulouse, CNRS, UPS, Toulouse, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rocher, Vincent",
+        "short_name": "Rocher V",
+        "identifiers": [
+          "0000-0002-3421-482X"
+        ],
+        "affiliations": [
+          "Molecular, Cellular and Developmental biology department (MCD), Centre de Biologie Intégrative (CBI), University of Toulouse, CNRS, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Genais, Matthieu",
+        "short_name": "Genais M",
+        "identifiers": [
+          "0000-0003-1004-865X"
+        ],
+        "affiliations": [
+          "Centre de Recherches en Cancérologie de Toulouse (CRCT), INSERM U1037, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Nassereddine, Elissar",
+        "short_name": "Nassereddine E",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular, Cellular and Developmental biology department (MCD), Centre de Biologie Intégrative (CBI), University of Toulouse, CNRS, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Mourad, Raphael",
+        "short_name": "Mourad R",
+        "identifiers": [
+          "0000-0001-6700-5728"
+        ],
+        "affiliations": [
+          "Molecular, Cellular and Developmental biology department (MCD), Centre de Biologie Intégrative (CBI), University of Toulouse, CNRS, UPS, Toulouse, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/13 06:00",
+    "fetched_at": "2026-09-27 22:06:12"
+  },
+  "links": {
+    "cites": [
+      "41665007",
+      "41533566",
+      "41099696",
+      "40890850",
+      "40417301",
+      "40413870",
+      "39662289",
+      "39414858",
+      "38364855",
+      "38046653",
+      "37904589",
+      "37863029",
+      "37636021",
+      "37387144",
+      "36897885",
+      "36830661",
+      "36316397",
+      "36208174",
+      "36092921",
+      "35717172",
+      "35677883"
+    ],
+    "refs": [
+      "33892767",
+      "33193663",
+      "33045726",
+      "32923997",
+      "32898859",
+      "32823549",
+      "32747825",
+      "32313204",
+      "31754698",
+      "31200506",
+      "31177910",
+      "30877282",
+      "30275516",
+      "29470465",
+      "29109402",
+      "29077807",
+      "28554731",
+      "28363678",
+      "28237796",
+      "27668212",
+      "27618450",
+      "27587203",
+      "26792894",
+      "26192317",
+      "23135002",
+      "22956454",
+      "22955616",
+      "22373907",
+      "22021377",
+      "21441540",
+      "21113409",
+      "17169996",
+      "15914667",
+      "13054692",
+      "11237011",
+      "3393228"
+    ],
+    "similar": [
+      "34383754",
+      "34040612",
+      "37357985",
+      "37438149",
+      "36791413",
+      "38484151",
+      "35717172",
+      "35955535",
+      "29109402",
+      "25527104",
+      "33872156",
+      "20676380",
+      "38521585",
+      "36830661",
+      "38417105",
+      "33524709",
+      "36897885",
+      "36116264",
+      "34400476",
+      "31088636",
+      "37528048",
+      "31067825",
+      "37094040",
+      "39414858",
+      "34880271",
+      "30265731",
+      "29470465",
+      "26792894",
+      "29718337",
+      "37250775",
+      "32295768",
+      "29269411",
+      "27618450",
+      "34792172",
+      "32454109",
+      "36488193",
+      "33483610",
+      "37389723",
+      "33962653",
+      "32628663",
+      "37400615",
+      "35092818",
+      "31444763",
+      "39256800",
+      "37636021",
+      "26200754",
+      "34145655",
+      "37639141",
+      "36063975",
+      "37427784",
+      "32898859",
+      "33857359",
+      "30923812",
+      "37953924",
+      "34664713",
+      "26201493",
+      "19617376",
+      "33193663",
+      "32748509",
+      "36739600",
+      "38203805",
+      "33548392",
+      "37351621",
+      "19958507",
+      "33237336",
+      "30305390",
+      "34650044",
+      "36140833",
+      "29611599",
+      "34209337",
+      "39041320",
+      "36980918",
+      "28025083",
+      "36423824",
+      "28109719",
+      "31532996",
+      "28859475",
+      "29606212",
+      "19759215",
+      "23637633",
+      "25695952",
+      "31754698",
+      "38693737",
+      "30787104",
+      "29449667",
+      "31096907",
+      "36092921",
+      "29852085",
+      "30892612",
+      "23326389",
+      "25627683",
+      "30591567",
+      "34828385",
+      "28362374",
+      "24609361",
+      "29077807",
+      "22376109",
+      "24121682",
+      "35670668",
+      "28260487",
+      "21620135",
+      "37743888",
+      "21993297",
+      "39158543",
+      "38136947",
+      "36555440",
+      "31940851",
+      "34045305",
+      "31235513",
+      "33846409",
+      "30517002",
+      "38407356",
+      "24178029",
+      "32420812",
+      "31787679",
+      "25193669",
+      "25907625",
+      "32404420",
+      "34020144",
+      "26855080",
+      "34893906",
+      "37388701",
+      "38452210",
+      "25654363",
+      "36263745",
+      "27185890",
+      "37511853",
+      "35226400",
+      "34788860",
+      "36971129",
+      "38046653",
+      "39419074",
+      "36249933",
+      "34309794",
+      "33924086",
+      "39386625",
+      "37904589",
+      "37962331",
+      "36969440",
+      "35853768",
+      "38832857",
+      "37476710",
+      "36778288",
+      "37568632",
+      "39341500",
+      "32836507",
+      "37131644",
+      "39319582",
+      "33796819",
+      "35261973",
+      "35754742",
+      "37387140",
+      "34303788",
+      "34370721",
+      "35677883"
+    ],
+    "review": [
+      "34383754",
+      "37438149",
+      "33524709",
+      "32898859",
+      "33857359",
+      "34664713",
+      "33237336",
+      "28025083",
+      "36423824",
+      "31532996",
+      "29606212",
+      "31754698",
+      "29852085",
+      "34828385",
+      "22376109",
+      "34045305",
+      "31787679",
+      "26855080",
+      "25654363",
+      "34303788"
+    ],
+    "pmc": [
+      "8384162"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009308",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34383754/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34383754",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

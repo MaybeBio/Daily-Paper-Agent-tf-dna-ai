@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39779759",
+  "title": "Tryptophan metabolism-related gene CYP1B1 serves as a shared biomarker for both Parkinson's disease and insomnia.",
+  "authors": "Li, Xin-Yu; Yu, Wen-Kai; Wu, Jing-Hao; He, Wen-Jun; Cheng, Yu-Nan; Gao, Kai; Wei, Yi-Han; Li, Yu-Sheng",
+  "journal": "Scientific reports",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过机器学习筛选帕金森病与失眠共享的色氨酸代谢相关生物标志物CYP1B1，属于纯转录组生物标志物挖掘，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Parkinson's disease (PD) and insomnia are prevalent neurological disorders, with emerging evidence implicating tryptophan (TRP) metabolism in their pathogenesis. However, the precise mechanisms by which TRP metabolism contributes to these conditions remain insufficiently elucidated. This study explores shared tryptophan metabolism-related genes (TMRGs) and molecular mechanisms underlying PD and insomnia, aiming to provide insights into their shared pathogenesis. We analyzed datasets for PD (GSE100054) and insomnia (GSE208668) obtained from the Gene Expression Omnibus (GEO) database. TMRGs were obtained from the Molecular Signatures Database (MSigDB) and the Genecards database. Tryptophan metabolism-related differentially expressed genes (TM-DEGs) were identified by intersecting TMRGs with shared differentially expressed genes (DEGs) from these datasets. Through Protein-Protein Interaction (PPI) network analysis, Support Vector Machine-Recursive Feature Elimination (SVM-RFE) , and Extreme Gradient Boosting (XGBoost) machine learning, we identified Cytochrome P4501B1 (CYP1B1) and Electron Transfer Flavoprotein Alpha (ETFA) as key hub genes. Subsequently, we employed CIBERSORT and single-sample gene set enrichment analysis (ssGSEA) to further investigate the association between hub genes and peripheral immune activation and inflammatory response. Additionally, gene interaction, Drug-mRNA, Transcription Factor (TF)-mRNA, and competing endogenous RNA (ceRNA) networks centered on these hub genes were constructed to explore regulatory mechanisms and potential drug interactions. Finally, validation through bioinformatics and animal experiments identified CYP1B1 as a promising biomarker associated with both PD and insomnia.",
+  "abstract_zh": "帕金森病（Parkinson's disease, PD）和失眠是常见的神经系统疾病，新近证据提示色氨酸（tryptophan, TRP）代谢在其发病机制中发挥作用。然而，TRP代谢对这些疾病的具体贡献机制仍未得到充分阐明。本研究探讨PD和失眠共有的色氨酸代谢相关基因（tryptophan metabolism-related genes, TMRGs）及分子机制，旨在为其共同发病机制提供见解。我们分析了从基因表达综合数据库（Gene Expression Omnibus, GEO）获取的PD（GSE100054）和失眠（GSE208668）数据集。TMRGs来源于分子特征数据库（Molecular Signatures Database, MSigDB）和Genecards数据库。通过将TMRGs与这些数据集中的共有差异表达基因（differentially expressed genes, DEGs）取交集，鉴定了色氨酸代谢相关差异表达基因（TM-DEGs）。通过蛋白质-蛋白质相互作用（Protein-Protein Interaction, PPI）网络分析、支持向量机-递归特征消除（Support Vector Machine-Recursive Feature Elimination, SVM-RFE）和极端梯度提升（Extreme Gradient Boosting, XGBoost）机器学习，我们确定了细胞色素P450 1B1（Cytochrome P4501B1, CYP1B1）和电子转移黄素蛋白α亚基（Electron Transfer Flavoprotein Alpha, ETFA）为关键枢纽基因。随后，我们采用CIBERSORT和单样本基因集富集分析（single-sample gene set enrichment analysis, ssGSEA）进一步探讨枢纽基因与外周免疫激活和炎症反应之间的关联。此外，构建了以这些枢纽基因为中心的基因相互作用、药物-mRNA、转录因子（Transcription Factor, TF）-mRNA和竞争性内源RNA（competing endogenous RNA, ceRNA）网络，以探索调控机制和潜在药物相互作用。最后，通过生物信息学和动物实验验证，确定CYP1B1为与PD和失眠均相关的有前景的生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39779759/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39779759/",
+  "paper_page_path": "papers/pubmed/39779759/index.html"
+}

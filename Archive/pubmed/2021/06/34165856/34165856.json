@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "34165856",
+    "doi": "10.1002/anie.202104405",
+    "title": "Beam Search for Automated Design and Scoring of Novel ROR Ligands with Machine Intelligence*."
+  },
+  "content": {
+    "abstract": "Chemical language models enable de novo drug design without the requirement for explicit molecular construction rules. While such models have been applied to generate novel compounds with desired bioactivity, the actual prioritization and selection of the most promising computational designs remains challenging. Herein, we leveraged the probabilities learnt by chemical language models with the beam search algorithm as a model-intrinsic technique for automated molecule design and scoring. Prospective application of this method yielded novel inverse agonists of retinoic acid receptor-related orphan receptors (RORs). Each design was synthesizable in three reaction steps and presented low-micromolar to nanomolar potency towards RORgamma. This model-intrinsic sampling technique eliminates the strict need for external compound scoring functions, thereby further extending the applicability of generative artificial intelligence to data-driven drug discovery.",
+    "keywords": [
+      "deep learning",
+      "de novo design",
+      "drug discovery",
+      "neural network",
+      "nuclear receptor"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Automation",
+      "Biological Products/chemical synthesis/chemistry/*pharmacology",
+      "*Drug Design",
+      "Humans",
+      "Ligands",
+      "Molecular Structure",
+      "Receptors, Retinoic Acid/*agonists"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moret, Michael",
+        "Helmstadter, Moritz",
+        "Grisoni, Francesca",
+        "Schneider, Gisbert",
+        "Merk, Daniel"
+      ],
+      "short_names": [
+        "Moret M",
+        "Helmstadter M",
+        "Grisoni F",
+        "Schneider G",
+        "Merk D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8672-3386",
+        "ORCID: 0000-0001-8552-6615",
+        "ORCID: 0000-0001-6706-1084",
+        "ORCID: 0000-0002-5359-8128"
+      ],
+      "affiliations": [
+        "ETH Zurich, Department of Chemistry and Applied Biosciences, Vladimir-Prelog-Weg 4, 8093, Zurich, Switzerland.",
+        "Goethe University Frankfurt, Institute of Pharmaceutical Chemistry, Max-von-Laue-Strasse 9, 60438, Frankfurt, Germany.",
+        "ETH Zurich, Department of Chemistry and Applied Biosciences, Vladimir-Prelog-Weg 4, 8093, Zurich, Switzerland.",
+        "Eindhoven University of Technology, Institute for Complex Molecular Systems, Department of Biomedical Engineering, Groene Loper 7, 5612AZ, Eindhoven, Netherlands.",
+        "ETH Zurich, Department of Chemistry and Applied Biosciences, Vladimir-Prelog-Weg 4, 8093, Zurich, Switzerland.",
+        "ETH Singapore SEC Ltd, 1 CREATE Way, #06-01 CREATE Tower, Singapore, 138602, Singapore.",
+        "Goethe University Frankfurt, Institute of Pharmaceutical Chemistry, Max-von-Laue-Strasse 9, 60438, Frankfurt, Germany.",
+        "LMU Munich, Department of Pharmacy, Butenandtstrasse 7, 81377, Munich, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moret, Michael",
+        "short_name": "Moret M",
+        "identifiers": [
+          "0000-0002-8672-3386"
+        ],
+        "affiliations": [
+          "ETH Zurich, Department of Chemistry and Applied Biosciences, Vladimir-Prelog-Weg 4, 8093, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Helmstädter, Moritz",
+        "short_name": "Helmstädter M",
+        "identifiers": [],
+        "affiliations": [
+          "Goethe University Frankfurt, Institute of Pharmaceutical Chemistry, Max-von-Laue-Strasse 9, 60438, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Grisoni, Francesca",
+        "short_name": "Grisoni F",
+        "identifiers": [
+          "0000-0001-8552-6615"
+        ],
+        "affiliations": [
+          "ETH Zurich, Department of Chemistry and Applied Biosciences, Vladimir-Prelog-Weg 4, 8093, Zurich, Switzerland.",
+          "Eindhoven University of Technology, Institute for Complex Molecular Systems, Department of Biomedical Engineering, Groene Loper 7, 5612AZ, Eindhoven, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Schneider, Gisbert",
+        "short_name": "Schneider G",
+        "identifiers": [
+          "0000-0001-6706-1084"
+        ],
+        "affiliations": [
+          "ETH Zurich, Department of Chemistry and Applied Biosciences, Vladimir-Prelog-Weg 4, 8093, Zurich, Switzerland.",
+          "ETH Singapore SEC Ltd, 1 CREATE Way, #06-01 CREATE Tower, Singapore, 138602, Singapore."
+        ]
+      },
+      {
+        "full_name": "Merk, Daniel",
+        "short_name": "Merk D",
+        "identifiers": [
+          "0000-0002-5359-8128"
+        ],
+        "affiliations": [
+          "Goethe University Frankfurt, Institute of Pharmaceutical Chemistry, Max-von-Laue-Strasse 9, 60438, Frankfurt, Germany.",
+          "LMU Munich, Department of Pharmacy, Butenandtstrasse 7, 81377, Munich, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2021 Aug 23",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/25 06:00",
+    "fetched_at": "2026-09-27 19:40:35"
+  },
+  "links": {
+    "cites": [
+      "42686780",
+      "41965890",
+      "41764645",
+      "41611794",
+      "41603564",
+      "41129410",
+      "40968635",
+      "40781156",
+      "40720698",
+      "40717128",
+      "40632942",
+      "40046426",
+      "39900826",
+      "39261471",
+      "39248642",
+      "39039051",
+      "38938817",
+      "38890295",
+      "38384298",
+      "38066301",
+      "37973971",
+      "37751901",
+      "37697042",
+      "37556857",
+      "37256819",
+      "37127285",
+      "36611029",
+      "36192789",
+      "35903186",
+      "35458710",
+      "35191696"
+    ],
+    "refs": [
+      "34122839",
+      "33759119",
+      "33432013",
+      "33370107",
+      "32392281",
+      "32162523",
+      "32067249",
+      "31910017",
+      "31572784",
+      "30908913",
+      "30049875",
+      "30010338",
+      "29532027",
+      "29435094",
+      "29392184",
+      "29366762",
+      "29319225",
+      "28470045",
+      "28257191",
+      "27219696",
+      "26017442",
+      "25462637",
+      "24577401",
+      "24440037",
+      "24214965",
+      "22789990",
+      "18416307",
+      "18034468",
+      "17132856",
+      "12037327",
+      "9377276"
+    ],
+    "similar": [
+      "34165856",
+      "29319225",
+      "34176236",
+      "11550795",
+      "24702856",
+      "33118578",
+      "37256819",
+      "39261471",
+      "36736583",
+      "34731474",
+      "22359493",
+      "31041748",
+      "34410338",
+      "31883552",
+      "35339849",
+      "37697042",
+      "24559867",
+      "34117066",
+      "29679519",
+      "35426249",
+      "34731479",
+      "34731478",
+      "38649351",
+      "30973672",
+      "35128926",
+      "30730601",
+      "36611029",
+      "19887649",
+      "20838974",
+      "26014484",
+      "30799793",
+      "20463469",
+      "30322136",
+      "35218219",
+      "35724626",
+      "33609779",
+      "32334911",
+      "27043267",
+      "29233651",
+      "32778891",
+      "35490393",
+      "32845150",
+      "34282519",
+      "36966692",
+      "38069710",
+      "17906643",
+      "34544293",
+      "38485516",
+      "36674658",
+      "34533311",
+      "35452226",
+      "22647079",
+      "29799486",
+      "15584888",
+      "18612831",
+      "34082136",
+      "38728749",
+      "34760151",
+      "35269537",
+      "39039051",
+      "29568812",
+      "19442066",
+      "29510038",
+      "36764588",
+      "29631962",
+      "36263480",
+      "34064466",
+      "29578387",
+      "22551631",
+      "20981528",
+      "18564216",
+      "33386094",
+      "29477813",
+      "35793555",
+      "34280849",
+      "32134646",
+      "32228116",
+      "33058458",
+      "10655475",
+      "35830870",
+      "26814169",
+      "22242853",
+      "37557054",
+      "23762937",
+      "35328682",
+      "9702045",
+      "20735016",
+      "31437001",
+      "25742599",
+      "19413347",
+      "28894088",
+      "27937122",
+      "36216812",
+      "24577401",
+      "38816825",
+      "35191696",
+      "38632084",
+      "39029090",
+      "37473637"
+    ],
+    "review": [
+      "34165856",
+      "11550795",
+      "33118578",
+      "36736583",
+      "34731474",
+      "31883552",
+      "35339849",
+      "37697042",
+      "35426249",
+      "34731479",
+      "34731478",
+      "35128926",
+      "30730601",
+      "20838974",
+      "20463469",
+      "33609779",
+      "35490393",
+      "36966692",
+      "17906643",
+      "34544293",
+      "38485516",
+      "34533311",
+      "35452226",
+      "29799486",
+      "15584888",
+      "34082136",
+      "38728749",
+      "19442066",
+      "36263480",
+      "34064466",
+      "33386094",
+      "35793555",
+      "32228116",
+      "26814169",
+      "22242853",
+      "35328682",
+      "9702045",
+      "36216812",
+      "24577401"
+    ],
+    "pmc": [
+      "8457062"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34165856/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34165856",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/anie.202104405",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

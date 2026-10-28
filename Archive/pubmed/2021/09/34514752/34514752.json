@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "34514752",
+    "doi": "10.1631/jzus.B2000544",
+    "title": "Bioinformatic analysis for potential biological processes and key targets of heart failure-related stroke."
+  },
+  "content": {
+    "abstract": "This study aimed to uncover underlying mechanisms and promising intervention targets of heart failure (HF)-related stroke. HF-related dataset GSE42955 and stroke-related dataset GSE58294 were obtained from the Gene Expression Omnibus (GEO) database. Weighted gene co-expression network analysis (WGCNA) was conducted to identify key modules and hub genes. Gene Ontology (GO) and pathway enrichment analyses were performed on genes in the key modules. Genes in HF- and stroke-related key modules were intersected to obtain common genes for HF-related stroke, which were further intersected with hub genes of stroke-related key modules to obtain key genes in HF-related stroke. Key genes were functionally annotated through GO in the Reactome and Cytoscape databases. Finally, key genes were validated in these two datasets and other datasets. HF- and stroke-related datasets each identified two key modules. Functional enrichment analysis indicated that protein ubiquitination, Wnt signaling, and exosomes were involved in both HF- and stroke-related key modules. Additionally, ten hub genes were identified in stroke-related key modules and 155 genes were identified as common genes in HF-related stroke. OTU deubiquitinase with linear linkage specificity(OTULIN) and nuclear factor interleukin 3-regulated(NFIL3) were determined to be the key genes in HF-related stroke. Through functional annotation, OTULIN was involved in protein ubiquitination and Wnt signaling, and NFIL3 was involved in DNA binding and transcription. Importantly, OTULIN and NFIL3 were also validated to be differentially expressed in all HF and stroke groups. Protein ubiquitination, Wnt signaling, and exosomes were involved in HF-related stroke. OTULIN and NFIL3 may play a key role in HF-related stroke through regulating these processes, and thus serve as promising intervention targets.",
+    "keywords": [
+      "Bioinformatics",
+      "Cardioembolic stroke",
+      "Heart failure",
+      "Weighted gene co-expression network analysis (WGCNA)"
+    ],
+    "mesh_terms": [
+      "Basic-Leucine Zipper Transcription Factors/physiology",
+      "Biological Phenomena",
+      "Computational Biology/*methods",
+      "Endopeptidases/physiology",
+      "Exosomes/physiology",
+      "Gene Ontology",
+      "Heart Failure/*complications",
+      "Humans",
+      "Stroke/*etiology/genetics",
+      "Ventricular Function, Left/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Chiyu",
+        "Chen, Sixu",
+        "Zhang, Haifeng",
+        "Chen, Yangxin",
+        "Gao, Qingyuan",
+        "Chen, Zhiteng",
+        "Liu, Zhaoyu",
+        "Wang, Jingfeng"
+      ],
+      "short_names": [
+        "Liu C",
+        "Chen S",
+        "Zhang H",
+        "Chen Y",
+        "Gao Q",
+        "Chen Z",
+        "Liu Z",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China.",
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China.",
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China. liuzhy98@mail.sysu.edu.cn.",
+        "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China. dr_wjf@vip.163.com.",
+        "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China. dr_wjf@vip.163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Chiyu",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Sixu",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haifeng",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yangxin",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Qingyuan",
+        "short_name": "Gao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhiteng",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaoyu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou 510120, China. liuzhy98@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingfeng",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120, China. dr_wjf@vip.163.com.",
+          "Laboratory of Cardiac Electrophysiology and Arrhythmia in Guangdong Province, Guangzhou 510120, China. dr_wjf@vip.163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of Zhejiang University. Science. B"
+    ],
+    "journal_abbrev": [
+      "J Zhejiang Univ Sci B"
+    ],
+    "pub_date": "2021 Sept 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/14 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "40220080",
+      "39267804",
+      "39086389",
+      "38584097",
+      "38561559",
+      "38525836",
+      "37559624",
+      "37190894",
+      "36910141",
+      "36788184",
+      "35953762",
+      "35953757"
+    ],
+    "refs": [
+      "33118835",
+      "32198065",
+      "31963679",
+      "31923616",
+      "31867328",
+      "31850068",
+      "31699363",
+      "31691815",
+      "31541095",
+      "31475302",
+      "31423653",
+      "31387440",
+      "31183363",
+      "31090268",
+      "30975520",
+      "30944313",
+      "30932375",
+      "30760287",
+      "30683112",
+      "30395331",
+      "29856483",
+      "29669873",
+      "29554300",
+      "29544517",
+      "29531354",
+      "29496797",
+      "29114077",
+      "28826798",
+      "28430000",
+      "28341100",
+      "28233177",
+      "28154101",
+      "28109426",
+      "27733281",
+      "27499035",
+      "27354224",
+      "27035810",
+      "26565707",
+      "25628305",
+      "25605792",
+      "25213343",
+      "25058159",
+      "24743145",
+      "24280221",
+      "23708998",
+      "23279759",
+      "22257669",
+      "21031583",
+      "20123219",
+      "19289640",
+      "18704157",
+      "18342376",
+      "17636831",
+      "17250769",
+      "17210832",
+      "16984687",
+      "16822397",
+      "16737850",
+      "15215806",
+      "15118168",
+      "14597658",
+      "12925520",
+      "10802651",
+      "7678184"
+    ],
+    "similar": [
+      "34514752",
+      "38166912",
+      "35128826",
+      "35557984",
+      "35367598",
+      "34218797",
+      "32620106",
+      "39351239",
+      "37554802",
+      "40091022",
+      "38912340",
+      "40406620",
+      "37092838",
+      "37122694",
+      "34868339",
+      "37008314",
+      "32602534",
+      "31850068",
+      "39586719",
+      "36439145",
+      "33413749",
+      "39143741",
+      "41153026",
+      "33259868",
+      "30760287",
+      "35075378",
+      "35151359",
+      "37359526",
+      "34852788",
+      "30278585",
+      "40873619",
+      "35346191",
+      "39675129",
+      "35910761",
+      "38912048",
+      "39430414",
+      "34215202",
+      "39949372",
+      "36952494",
+      "39713769",
+      "36316672",
+      "36277750",
+      "35058712",
+      "40977739",
+      "32959187",
+      "34553293",
+      "34697898",
+      "39267804",
+      "41531492",
+      "40659785",
+      "35132330",
+      "36699262",
+      "28432618",
+      "38649659",
+      "34435051",
+      "38065888",
+      "36090322",
+      "38384585",
+      "34284443",
+      "38699746",
+      "32598174",
+      "40821971",
+      "38319987",
+      "40819162",
+      "40205951",
+      "35577542",
+      "30368515",
+      "35473522",
+      "35990977",
+      "36386304",
+      "40574839",
+      "36440001",
+      "34675622",
+      "38899746",
+      "40263690",
+      "35709926",
+      "39870856",
+      "32214815",
+      "34938355",
+      "39342024",
+      "34313877",
+      "38384969",
+      "31953631",
+      "33640831",
+      "33519905",
+      "31424263",
+      "40169651",
+      "36699999",
+      "37056700",
+      "34861820",
+      "39145051",
+      "40766309",
+      "39953769",
+      "37275875",
+      "40066352",
+      "35503629",
+      "34692829",
+      "39743646",
+      "32243390",
+      "38509983"
+    ],
+    "review": [
+      "34514752",
+      "35367598"
+    ],
+    "pmc": [
+      "8435344"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34514752/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34514752",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://www.jzus.zju.edu.cn/article.php?doi=10.1631/jzus.B2000544",
+        "provider": "Zhejiang University Press",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

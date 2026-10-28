@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40165388",
+    "doi": "10.1111/pce.15489",
+    "title": "Deep Neural Network-Mining of Rice Drought-Responsive TF-TAG Modules by a Combinatorial Analysis of ATAC-Seq and RNA-Seq."
+  },
+  "content": {
+    "abstract": "Drought is a critical risk factor that impacts rice growth and yields. Previous studies have focused on the regulatory roles of individual transcription factors in response to drought stress. However, there is limited understanding of multi-factor stresses gene regulatory networks and their mechanisms of action. In this study, we utilised data from the JASPAR database to compile a comprehensive dataset of transcription factors and their binding sites in rice, Arabidopsis, and barley genomes. We employed the PyTorch framework for machine learning to develop a nine-layer convolutional deep neural network TFBind. Subsequently, we obtained rice RNA-seq and ATAC-seq data related to abiotic stress from the public database. Utilising integrative analysis of WGCNA and ATAC-seq, we effectively identified transcription factors associated with open chromatin regions in response to drought. Interestingly, only 81% of the transcription factors directly bound to the opened genes by testing with TFBind model. By this approach we identified 15 drought-responsive transcription factors corresponding to open chromatin regions of targets, which enriched in the terms related to protein transport, protein allocation, nitrogen compound transport. This approach provides a valuable tool for predicting TF-TAG-opened modules during biological processes.",
+    "keywords": [
+      "ATAC-seq",
+      "WGCNA",
+      "drought responsive TF-TAG modules",
+      "neural networks",
+      "rice"
+    ],
+    "mesh_terms": [
+      "*Oryza/genetics/physiology",
+      "*Droughts",
+      "*Transcription Factors/metabolism/genetics",
+      "RNA-Seq",
+      "*Neural Networks, Computer",
+      "Gene Expression Regulation, Plant",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Gene Regulatory Networks",
+      "Plant Proteins/genetics/metabolism",
+      "Stress, Physiological/genetics",
+      "Data Mining"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jingpeng",
+        "Shi, Ximiao",
+        "Zhang, Zhitai",
+        "Cen, Xuexiang",
+        "Lin, Lixian",
+        "Wang, Xiaowei",
+        "Chen, Zhongxian",
+        "Zhang, Yu",
+        "Zheng, Xiangzi",
+        "Wu, Binghua",
+        "Miao, Ying"
+      ],
+      "short_names": [
+        "Liu J",
+        "Shi X",
+        "Zhang Z",
+        "Cen X",
+        "Lin L",
+        "Wang X",
+        "Chen Z",
+        "Zhang Y",
+        "Zheng X",
+        "Wu B",
+        "Miao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1008-7678"
+      ],
+      "affiliations": [
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jingpeng",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ximiao",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhitai",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cen, Xuexiang",
+        "short_name": "Cen X",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Lixian",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowei",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhongxian",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xiangzi",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Binghua",
+        "short_name": "Wu B",
+        "identifiers": [
+          "0000-0002-1008-7678"
+        ],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Ying",
+        "short_name": "Miao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Provincial Key Laboratory of Plant Functional Biology, Fujian Agriculture and Forestry University, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant, cell & environment"
+    ],
+    "journal_abbrev": [
+      "Plant Cell Environ"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 06:26",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "41523157"
+    ],
+    "refs": [],
+    "similar": [
+      "40165388",
+      "40167783",
+      "36982696",
+      "29329517",
+      "24130868",
+      "28981779",
+      "36232500",
+      "26706071",
+      "26067440",
+      "39273165",
+      "31238869",
+      "38739961",
+      "24667379",
+      "22301130",
+      "35682951",
+      "22662107",
+      "38502176",
+      "31199564",
+      "38818576",
+      "23145152",
+      "39540946",
+      "27646344",
+      "27766460",
+      "24062085",
+      "38769068",
+      "34299275",
+      "34884864",
+      "38859561",
+      "24604734",
+      "35216200",
+      "40430093",
+      "31286320",
+      "39448923",
+      "40114057",
+      "29024118",
+      "25445270",
+      "26578693",
+      "36264498",
+      "33962060",
+      "40069264",
+      "32350607",
+      "31374851",
+      "38872092",
+      "33555221",
+      "32107612",
+      "27213684",
+      "28244201",
+      "26057839",
+      "24130197",
+      "40459657",
+      "32225072",
+      "39082752",
+      "27501838",
+      "40244391",
+      "26345744",
+      "26172270",
+      "29265542",
+      "30143992",
+      "25236158",
+      "39960829",
+      "24594978",
+      "39977251",
+      "31234595",
+      "26045464",
+      "37176147",
+      "20087656",
+      "27683092",
+      "30871211",
+      "37850886",
+      "23660286",
+      "23192746",
+      "32866164",
+      "24816929",
+      "37336274",
+      "40244412",
+      "39581968",
+      "30020522",
+      "39228126",
+      "39694344",
+      "25604693",
+      "38759757",
+      "30285603",
+      "26566840",
+      "27420922",
+      "22016430",
+      "39390531",
+      "37979574",
+      "38643066",
+      "23918260",
+      "30078233",
+      "31454543",
+      "24247850",
+      "32916530",
+      "33025523",
+      "21132431",
+      "32129897",
+      "27337541",
+      "39253960",
+      "35858748",
+      "26261267"
+    ],
+    "review": [
+      "40165388",
+      "34884864",
+      "31286320",
+      "31374851",
+      "39694344"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/pce.15489",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

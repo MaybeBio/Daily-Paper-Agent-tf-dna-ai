@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based on the provided text only
+- **Shared manuscript claim summary** The authors report that full-length CREB, a bZIP transcription factor with long disordered activation domains, dimerizes before DNA binding and that its activation domains collectively reduce non-specific DNA binding affinity, thereby enhancing target search efficiency in the presence of competitor DNA.
+- **Visible evidence base** Text descriptions of stopped-flow kinetics, fluorescence anisotropy equilibrium binding, ITC, SEC-MALS, and domain deletion mutagenesis; figure and table references are cited but not visible
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and raw data; specific experimental replicates and statistical details; ITC thermograms and fitting parameters; SEC-MALS chromatograms; details of stopped-flow fitting procedures beyond text descriptions
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in transcription factor biology: how disordered activation domains influence DNA target search. The authors present a coherent model supported by multiple biophysical approaches, and the finding that activation domains reduce non-specific DNA affinity to improve search efficiency is conceptually interesting. However, the absence of all figures and supplementary data prevents full verification of the quantitative claims, and several interpretive steps require additional evidence or clarification. The work is potentially suitable for a high-impact venue if the technical concerns are resolved and the data fully support the stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying transcription factor dynamics, intrinsically disordered proteins, facilitated diffusion, and DNA-protein interactions. The work bridges biophysical kinetics with functional implications for gene regulation and will interest those working on CREB specifically and bZIP factors more broadly, as well as those investigating how disordered regions modulate macromolecular interactions.
+- **Major strengths** The study uses a multi-technique approach (stopped-flow kinetics, equilibrium anisotropy, ITC, SEC-MALS) to characterize full-length CREB, which is rarely studied in biophysical detail. The use of domain deletion mutants to dissect contributions of individual activation domains is systematic. The conceptual framework linking reduced non-specific affinity to improved search efficiency is elegant and testable. The authors are appropriately cautious in several interpretations, particularly regarding the monomer pathway and the limits of their measurements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that all three activation domains contribute to decreasing CREB's general affinity for DNA, and that this effect is broadly additive based on ΔΔG values.
+  - **Evidence pointer** Figure 4A, Figure S12, Figure S13; location not provided
+  - **Concern** The claim of additivity rests on ΔΔG values presented in Figure S13, which is not visible. The text states effects are "broadly additive" but does not provide the actual values or statistical comparison to a purely additive model. Without seeing the data, it is impossible to assess whether the deviations from additivity are within experimental error or whether they indicate cooperative or antagonistic interactions between domains. Furthermore, the K_D,nCRE values for individual deletion mutants are not reported in the text, only the qualitative direction of change.
+  - **Why it matters** The additivity claim is central to the mechanistic interpretation that each activation domain independently contributes to reducing non-specific affinity. If the effects are not additive, the mechanism could involve inter-domain interactions or structural reorganization, which would change the conclusions. This is a testable quantitative claim that must be verified from the data.
+  - **Resolution test** Provide the ΔΔG values with uncertainties for all mutants, and perform a statistical test comparing observed ΔΔG for double/triple deletions to the sum of individual deletions. If additivity holds, the differences should be within combined experimental error.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the K_D,dim for full-length CREB is (26 ± 6) nM and k2 is (0.10 ± 0.01) s⁻¹, determined from stopped-flow dilution experiments with fluorescently labelled CREB.
+  - **Evidence pointer** Figure 1A-B, Figure S4A-C; location not provided
+  - **Concern** The stopped-flow dilution approach relies on the assumption that the fluorescence change reports solely on dimer dissociation and that the labelling does not perturb dimerization. The authors state that two different fluorophores gave consistent results, which is reassuring, but the text does not describe how the labelling efficiency was quantified, whether the label position (C323) could affect the dimer interface, or how the simultaneous fitting of seven paired traces was performed (e.g., global vs. individual fitting, weighting scheme). The K_D,dim value is critical for the subsequent interpretation that CREB is predominantly dimeric at the concentrations used, so any systematic error in this measurement would propagate through the analysis.
+  - **Why it matters** The conclusion that full-length CREB follows the dimer pathway depends on the reliability of the dimerization parameters. If the labelling perturbs dimerization or if the fitting procedure introduces bias, the inferred K_D,dim could be incorrect, potentially changing the interpretation of the search mechanism.
+  - **Resolution test** Provide details of labelling efficiency and any control experiments showing that labelled and unlabelled CREB have similar dimerization behaviour. Describe the fitting procedure in full, including how many parameters were shared across traces and how uncertainties were estimated. If possible, validate K_D,dim with an independent method (e.g., analytical ultracentrifugation or mass photometry).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the K_D,nCRE values extracted from kinetic modelling are consistent with independent ITC estimates, and that this validates the model used to predict search rates.
+  - **Evidence pointer** Figure 3B, Figure S11F, Figure S12; location not provided
+  - **Concern** The text states that K_D,nCRE values from kinetic fits are (1.21 ± 0.02) µM for CREB-FD and (0.45 ± 0.04) µM for bZIP-FD, and that ITC gives (1.3 ± 0.4) µM and (0.36 ± 0.03) µM respectively. While these are consistent within error, the text does not report the uncertainty on the kinetic fit values beyond the standard error of the fit, nor does it describe how many independent experiments were performed. The ITC values for CREB-FD have a large relative uncertainty (approximately 30%), which weakens the validation. Additionally, the model used to extract K_D,nCRE from kinetic data is described only briefly, with the derivation relegated to supplementary materials.
+  - **Why it matters** The consistency between kinetic and ITC estimates is presented as key evidence that the model correctly captures the effect of competitor DNA. If the model is incorrect or the ITC data are unreliable, the conclusion that activation domains improve search efficiency by reducing non-specific affinity would be weakened.
+  - **Resolution test** Report the number of independent replicates for both kinetic and ITC measurements, and provide the full derivation of the model in the main text or clearly reference the supplementary derivation. Show the ITC thermograms and fit residuals to demonstrate data quality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors suggest that the activation domains may lower the kinetic stability of the non-specific complex, and that this could be mediated by intramolecular interactions or by direct effects of the disordered domains on the bZIP DNA-binding domain.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The discussion speculates about mechanisms without direct experimental support. The authors note that deleting KID or replacing it with a neutral linker has only a minor effect on k_on, which argues against a simple electrostatic auto-inhibition model, but they do not propose or test an alternative mechanism. The suggestion that Q1 and Q2 may "make significant contributions to decreasing non-specific DNA binding affinity of their own accord" is not supported by any direct measurement of these domains' properties (e.g., their intrinsic affinity for DNA or their effect on the bZIP domain conformation).
+  - **Why it matters** The mechanistic interpretation is the most novel aspect of the work, but the current text leaves the mechanism largely unspecified. Without a testable hypothesis or additional data, the discussion remains speculative and does not fully capitalize on the interesting findings.
+  - **Resolution test** Either provide additional data (e.g., NMR or SAXS on the full-length protein and mutants, or direct binding measurements of isolated Q1/Q2 domains to DNA) or clearly frame the mechanism as an open question requiring future work, with specific predictions that could be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "all three contribute to decrease CREB's general affinity for DNA" but does not specify whether this refers to specific or non-specific DNA. Given the focus of the paper, this should be clarified.
+  - **Required correction** Specify "non-specific DNA" in the abstract to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, stopped-flow kinetics
+  - **Evidence pointer** Methods section, stopped-flow kinetics; location not provided
+  - **Issue** The text states that a pressure-hold was applied to the syringes for association experiments but not for dissociation experiments, and that the first 1-3 ms or 100 ms of data were discarded, respectively. The rationale for this difference is not explained.
+  - **Required correction** Briefly explain why the pressure-hold could not be applied in the dissociation experiments and how the different dead times affect the reliability of the extracted parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, dimerization kinetics
+  - **Evidence pointer** Figure 1B; location not provided
+  - **Issue** The uncertainties on K_D,dim and k2 are reported as ± values, but it is not stated whether these are standard deviations, standard errors, or confidence intervals from the fitting.
+  - **Required correction** Specify the type of uncertainty reported and the number of independent experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout; location not provided
+  - **Issue** The term "activation domains" is used interchangeably with "disordered activation domains" and "TAD." While these are related, the manuscript would benefit from consistent terminology, especially when discussing the three subdomains (Q1, KID, Q2).
+  - **Required correction** Define the terminology early and use it consistently throughout.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, domain deletion mutants
+  - **Evidence pointer** Figure 4; location not provided
+  - **Issue** The text states that all domain deletions slightly increased k_on, but does not report the magnitude of these changes or whether they are statistically significant.
+  - **Required correction** Report the k_on values for all mutants with uncertainties and statistical comparisons to the full-length protein.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the absence of all figures and supplementary data, which prevents verification of the quantitative claims. Specifically, the additivity of ΔΔG values (R1-M1), the reliability of the K_D,dim measurement (R1-M2), and the consistency between kinetic and ITC estimates (R1-M3) cannot be assessed from the text alone. Additionally, the derivation of the kinetic model is relegated to supplementary materials, and the text does not provide sufficient detail on fitting procedures or replicate numbers.
+- **Assessment against Nature-style criteria** Originality: The work is original in applying detailed biophysical analysis to full-length CREB and in proposing a specific role for activation domains in modulating non-specific DNA affinity. The concept that disordered domains can improve search efficiency by reducing non-specific binding is not entirely new but is here demonstrated in a well-controlled system. Scientific importance: The findings have implications for understanding how transcription factors navigate the nucleus and how post-translational modifications might modulate search efficiency. This is of broad interest to the gene regulation community. Interdisciplinary readership: The work bridges biophysics, molecular biology, and computational modelling, and should appeal to readers across these fields. Technical soundness: The experimental design is generally sound, but the lack of visible data and some methodological details prevent full assessment. The use of multiple techniques is a strength, but the reliance on a single kinetic model for key conclusions requires careful validation. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, though some sections assume familiarity with biophysical terminology. The abstract and introduction are accessible, and the discussion effectively contextualizes the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that activation domains reduce non-specific DNA affinity and thereby improve search efficiency, is interesting and potentially significant. However, the manuscript cannot be accepted in its current form because the key quantitative claims (additivity, K_D,dim reliability, model validation) cannot be verified from the provided text. If the data fully support the claims, this would be a valuable contribution.

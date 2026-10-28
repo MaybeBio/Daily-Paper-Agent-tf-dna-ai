@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors identify a transcription factor, SUGR1, in the plant-parasitic nematode *Heterodera schachtii*, which they propose as a master regulator of effector gene expression. They report that host-derived small molecule signals ("effectostimulins") activate *sugr1*, that SUGR1 directly binds effector promoters, and that RNAi silencing of *sugr1* reduces host invasion. They extend findings to a homolog in *H. glycines*.
+- **Visible evidence base** Abstract, full text of Introduction, Results, Discussion, Methods, figure legends (referenced but not shown), supplementary table/figure references (not shown), data availability statements.
+- **Missing materials affecting confidence** All figures and supplementary figures/tables are referenced but not provided. Raw RNA-seq data, statistical outputs, and detailed protocols for HCR in situ, Y1H, and HPLC fractionation are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially important advance in understanding the early molecular events of plant-parasitic nematode infection. The identification of a transcription factor that integrates host-derived signals to control effector expression is conceptually novel and could have broad implications for nematode control. However, the strength of the conclusions is limited by the absence of key experimental details and figures, and several claims are not fully supported by the evidence presented in the text alone. The work is promising but requires substantial additional validation and clarity before the central claims can be considered established.
+- **Who would be interested in the results, and why** Researchers studying plant-nematode interactions, effector biology, and host-pathogen signaling. The concept of "effectostimulins" and a master regulator of virulence could also interest those working on other eukaryotic pathogens, particularly in the context of conserved regulatory mechanisms. The potential translational application to crop protection would appeal to agricultural scientists and industry.
+- **Major Strengths** The study addresses a fundamental and under-explored question: how do sedentary endoparasitic nematodes coordinate effector expression upon host entry? The identification of a single transcription factor (SUGR1) that appears to control a large cohort of effectors is a significant conceptual step. The proposed feed-forward loop model is elegant and testable. The inclusion of a second species (*H. glycines*) strengthens the potential generality of the findings. The use of multiple complementary approaches (transcriptomics, in situ hybridization, Y1H, RNAi, phenotypic assays) is commendable.
+- **Major Concerns**
+  - **R1-M1** (Severity: Major, Blocking: Yes, Axis: Evidence sufficiency for central claim)
+    - **Claim pointer** The authors claim that SUGR1 is a "master regulator" of effector expression and that blocking SUGR1 blocks parasitism.
+    - **Evidence pointer** Results sections "Identifying the SUb-ventral Gland Regulator 1 (SUGR1)" and "Blocking SUGR1 blocks parasitism"; Figures 3 and 5 (not provided).
+    - **Concern** The central claim that SUGR1 is a master regulator rests on RNAi knockdown experiments showing reduced effector expression and reduced invasion. However, the magnitude of *sugr1* knockdown is not reported, and the specificity of the RNAi effect is not demonstrated (e.g., off-target effects, rescue experiments). The invasion phenotype, while statistically significant, shows a large reduction (from ~6.7 to ~1.3 nematodes per root), but the biological relevance of this absolute number and the variability across replicates are not fully discussed. The claim that this is a "master regulator" requires demonstration that SUGR1 is necessary and sufficient for the expression of a broad effector cohort, which is not fully established.
+    - **Why it matters** The entire premise of the paper, and its translational relevance, depends on SUGR1 being a critical and specific node in the regulatory network. Without robust knockdown validation and evidence of specificity, the phenotype could be due to off-target effects or general stress responses.
+    - **Resolution test** Provide detailed knockdown efficiency data (e.g., qRT-PCR showing % mRNA reduction). Include a rescue experiment (e.g., expression of a RNAi-resistant *sugr1*). Show that the expression of a control set of non-effector genes is unaffected by *sugr1* RNAi. Present dose-response data for the invasion phenotype.
+  - **R1-M2** (Severity: Major, Blocking: Yes, Axis: Direct binding evidence)
+    - **Claim pointer** The authors claim that SUGR1 "directly binds effector promoters" and that this binding is mediated by a conserved "SUG box" motif.
+    - **Evidence pointer** Results section "Effectostimulins..."; Figure 4D and 4E (not provided).
+    - **Concern** The evidence for direct binding relies on Y1H assays and in silico motif discovery. Y1H is a heterologous system and can produce false positives; it does not demonstrate binding in the native context. The motif discovery is correlative. No ChIP-seq, ChIP-qPCR, or electrophoretic mobility shift assay (EMSA) is presented to confirm direct, sequence-specific binding of SUGR1 to the identified motif in vitro or in vivo. The claim that the motif is "conserved" across datasets is based on a computational comparison that is not fully described.
+    - **Why it matters** The model of direct regulation is central to the proposed mechanism. If SUGR1 does not directly bind these promoters, the regulatory network could be indirect, changing the interpretation of the results.
+    - **Resolution test** Perform EMSA with recombinant SUGR1 DNA-binding domain and the SUG box motif. Perform ChIP-qPCR or ChIP-seq on *sugr1*-expressing nematodes to demonstrate in vivo occupancy of target promoters. Show that mutation of the SUG box abolishes SUGR1-dependent transactivation in a reporter assay.
+  - **R1-M3** (Severity: Major, Blocking: No, Axis: Signal identity and specificity)
+    - **Claim pointer** The authors claim that "effectostimulins" are small, non-volatile, charged molecules present in root extracts that activate *sugr1*.
+    - **Evidence pointer** Results section "Effectostimulins..."; Figure 4A-C (not provided).
+    - **Concern** The evidence for the nature of the signals is indirect. The experiments show that the active fraction is <3 kDa, heat-stable, and affected by ion exchange, but the active molecules are not identified. The claim of "at least three discrete" signals is based on HPLC fractionation, but the reproducibility and resolution of these peaks are not shown. The physiological relevance of the concentrations used is not addressed.
+    - **Why it matters** The concept of "effectostimulins" is a key novelty. Without identification or further characterization, the concept remains speculative and the link to the *in planta* environment is not established.
+    - **Resolution test** Purify and identify the active molecules (e.g., by LC-MS). Test whether the identified molecules are present in root tissue at the site of infection. Show that the response is dose-dependent and specific to *sugr1*.
+  - **R1-M4** (Severity: Major, Blocking: No, Axis: Translational claim)
+    - **Claim pointer** The authors state that "blocking SUGR1 blocks parasitism" and that the "SUGR1 signalling cascade [is] a valuable target for crop protection."
+    - **Evidence pointer** Results section "Blocking SUGR1 blocks parasitism"; Figure 5 (not provided).
+    - **Concern** The RNAi-mediated silencing is performed *in vitro* (soaking), and the effect on invasion is measured in a controlled laboratory setting. The translation to field conditions, where nematodes are exposed to a complex soil environment and multiple host cues, is not demonstrated. The durability of such an approach, and the potential for resistance development, is not discussed.
+    - **Why it matters** The stated translational potential is a major part of the paper's significance. Overstating the applicability without field or semi-field data could mislead the readership.
+    - **Resolution test** Provide data from soil-based or pot experiments. Discuss the potential for resistance and the feasibility of targeting a nematode transcription factor in a field setting.
+- **Minor Comments**
+  - **R1-m1** (Severity: Minor, Axis: Clarity and reproducibility)
+    - **Affected element** Methods, "Effectostimulin extraction and associated analyses"
+    - **Evidence pointer** Methods section, location not provided.
+    - **Issue** The description of the HPLC fractionation and the bioassay used to test the fractions is incomplete. It is unclear how the fractions were collected, pooled, and applied to the nematodes. The exact concentrations of the extracts used are not stated.
+    - **Required correction** Provide a detailed step-by-step protocol for the fractionation and bioassay, including solvent gradients, collection times, and the volume/concentration of fractions applied to nematodes.
+  - **R1-m2** (Severity: Minor, Axis: Statistical rigor)
+    - **Affected element** Results, "Blocking SUGR1 blocks parasitism"
+    - **Evidence pointer** Figure 5 (not provided).
+    - **Issue** The statistical test used for the invasion assay is mentioned as a Games-Howell test, but the number of biological replicates and the distribution of the data are not described. The error bars are not defined.
+    - **Required correction** Clearly state the number of biological and technical replicates, the type of error bars (SD, SEM, CI), and the results of the statistical test (e.g., F-statistic, p-value) in the figure legend.
+  - **R1-m3** (Severity: Minor, Axis: Data interpretation)
+    - **Affected element** Results, "Identifying the SUb-ventral Gland Regulator 1 (SUGR1)"
+    - **Evidence pointer** Figure 3 (not provided).
+    - **Issue** The authors state that 77% of differentially expressed genes are down-regulated upon *sugr1* silencing, but the functional significance of the up-regulated genes is not discussed. The possibility that SUGR1 also acts as a repressor is not explored.
+    - **Required correction** Discuss the potential role of SUGR1 as a repressor and the functional categories of the up-regulated genes.
+  - **R1-m4** (Severity: Minor, Axis: Generalizability)
+    - **Affected element** Discussion, "Effectostimulins"
+    - **Evidence pointer** Discussion section, location not provided.
+    - **Issue** The authors speculate that effectostimulins are a "generalisable concept" to other pathosystems, but no comparative data are presented. The claim is speculative.
+    - **Required correction** Soften the language or provide a brief comparative analysis of known host signals in other systems.
+- **Technical failings that need to be addressed before the case is established** The lack of direct binding evidence (ChIP, EMSA) for SUGR1-DNA interaction is a critical gap. The absence of detailed RNAi knockdown efficiency data and specificity controls is a major issue. The identity of the "effectostimulins" is not established, leaving the most novel aspect of the paper unverified.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The concept of a single master regulator of effector expression in a plant-parasitic nematode, activated by host-derived signals, is novel and not previously described.
+  - **Scientific importance** Potentially high. If validated, this work would provide a new framework for understanding the initiation of parasitism and offer a new target for control. The implications could extend beyond nematodes to other eukaryotic pathogens.
+  - **Interdisciplinary readership** Moderate to high. The work bridges plant biology, nematology, and molecular plant-microbe interactions. The concept of "effectostimulins" could attract interest from the broader pathogenesis community.
+  - **Technical soundness** Currently insufficient. The core claims of direct regulation and the nature of the signals are not supported by the level of evidence required for a high-impact journal. The reliance on Y1H and computational motif discovery, without orthogonal validation, is a weakness.
+  - **Readability for nonspecialists** The abstract and introduction are accessible. The results section is dense and assumes familiarity with nematode biology and molecular techniques. The discussion is clear but somewhat speculative.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant, but the evidence base, as presented, is not sufficient to fully establish the claims of direct regulation and the identity of the signaling molecules. The authors should be encouraged to provide the missing data and to temper the translational claims.
+
+## Risk / unsupported claims
+- The claim that SUGR1 is a "master regulator" is not fully supported without robust knockdown validation and evidence of specificity.
+- The claim that SUGR1 "directly binds" effector promoters is not supported by the evidence presented (Y1H and motif analysis are not sufficient).
+- The claim that there are "at least three discrete" effectostimulins is not supported by the data shown (HPLC peaks are not shown, and the bioassay is not described in sufficient detail).
+- The claim that the findings are "generalisable" to other pathosystems is speculative and not supported by data.
+- The claim that the "SUGR1 signalling cascade [is] a valuable target for crop protection" is an overstatement given the lack of field or semi-field data.

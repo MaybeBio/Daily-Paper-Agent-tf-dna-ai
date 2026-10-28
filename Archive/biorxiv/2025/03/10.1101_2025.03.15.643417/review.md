@@ -1,0 +1,105 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and methods sections. Figures and supplementary materials were referenced but not provided.
+- **Assessment boundary** Scientific validity, methodological soundness, statistical rigor, and interpretation of results as presented in the provided text. No assessment of formatting, grammar, or editorial style beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors present a novel computational pipeline to identify "mutation blocks" (small genomic regions with high mutation density) in GCB DLBCL patients that may affect transcription factor binding. They report 56 such blocks in genes including BCL2, MYC, SGK1, and PIM1, linked to transcription factors including MSC, TCFL5, HOXB7, FOXP3, and ZBTB6. They further apply a machine learning approach using gene ontology data to predict additional TF-gene pairs. The central claim is that synonymous and silent mutations in these blocks alter TF binding and gene expression, contributing to lymphoma development.
+- **Visible evidence base** Text descriptions of results, one detailed example (mutation block 63319682 affecting MSC binding to BCL2), and references to figures (Fig. 1-5) and supplementary tables that were not included in the provided material.
+- **Missing materials affecting confidence** All figures, supplementary data tables, the full list of 56 mutation blocks, detailed statistical outputs, and the ICGC dataset processing details. Without these, several key claims cannot be independently verified.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses an important and timely question in cancer genomics, namely the role of non-coding and synonymous mutations in gene regulation. The concept of "mutation blocks" is potentially useful, and the integration of mutation density, expression correlation, and TF binding prediction is a reasonable analytical strategy. However, the manuscript as presented has substantial methodological gaps and statistical weaknesses that prevent the core claims from being established. The lack of multiple testing correction, the absence of a clear null model for block identification, the reliance on predicted rather than experimentally validated TF binding changes, and the modest machine learning performance all undermine confidence. The single worked example is suggestive but not sufficient to support the general conclusion that these mutation blocks are drivers of GCB lymphoma. The manuscript would benefit from clearer specification of the pipeline parameters, rigorous statistical controls, and ideally experimental validation of at least a subset of predictions.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, particularly those studying non-coding mutations and regulatory alterations in lymphoma. Computational biologists developing pipelines for integrating mutation and expression data. Clinicians interested in potential biomarkers or therapeutic targets in DLBCL. The broader community studying the role of synonymous mutations in disease would also find the conceptual framework relevant.
+- **Major strengths** The study addresses an underappreciated aspect of cancer genomics, namely the functional impact of synonymous and non-coding mutations on TF binding. The pipeline is conceptually well-structured with multiple validation stages. The focus on GCB DLBCL, a well-defined subtype, is appropriate. The integration of multiple data types (mutations, expression, TF binding predictions, tissue specificity) is commendable. The machine learning extension using GO data is a creative approach to expand beyond the primary dataset.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The identification of 56 mutation blocks as "high mutation rate" regions in GCB patients, implying positive selection.
+  - **Evidence pointer** Section 2.2, Section 4.1, location not provided
+  - **Concern** The method for identifying mutation blocks uses a sliding window of 10 nucleotides and selects the top 5% of blocks with the highest mutation counts. This approach lacks a formal statistical test against a background mutation rate model. There is no mention of correction for local sequence context, replication timing, chromatin state, or other known covariates of mutation rate. The selection of the top 5% is arbitrary and does not establish that these regions are under positive selection. Without a proper null model, the claim that these blocks reflect selection is unsupported.
+  - **Why it matters** The entire premise of the study rests on the identification of mutation blocks that are enriched beyond expectation. If the blocks are simply regions of high baseline mutation rate (e.g., due to CpG methylation or other mutational processes), the subsequent analysis of TF binding and expression correlation would be confounded. The conclusion that these are "driver" mutations requires evidence of selection, which is not provided.
+  - **Resolution test** The authors should implement a background mutation model (e.g., using trinucleotide context, local GC content, and replication timing) and compute a statistical significance for each block. They should also compare the observed mutation density in blocks to genome-wide expectations. If the blocks remain significant after such correction, the claim of selection would be strengthened. Additionally, they should report the false discovery rate for the 56 blocks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "Patients with the mutations exhibited significantly higher BCL2 expression compared to randomized groups of GCB lymphoma patients (P-value = 0.0013; see Fig. 4)."
+  - **Evidence pointer** Section 2.2, Fig. 4, location not provided
+  - **Concern** The expression analysis compares patients with mutations in the block to "randomized groups" of patients. The description of the randomization procedure is vague. It is unclear how many random groups were generated, whether the comparison was corrected for multiple testing, and whether covariates such as age, sex, or tumor purity were considered. The reported P-value of 0.0013 appears to be from a single comparison, but the manuscript does not state how many blocks were tested for expression correlation. If 56 blocks were tested, a P-value of 0.0013 would not survive a Bonferroni correction (threshold approximately 0.0009). The lack of multiple testing correction is a serious concern.
+  - **Why it matters** The claim that mutations in blocks correlate with expression changes is central to the pipeline's validity. If the significance is inflated by multiple testing or inadequate randomization, the association may be spurious. This would undermine the identification of the 56 blocks as functionally relevant.
+  - **Resolution test** The authors should report the full distribution of P-values across all 56 blocks, apply appropriate multiple testing correction (e.g., Benjamini-Hochberg), and describe the randomization procedure in detail, including the number of permutations and whether covariates were matched. They should also consider using a more robust statistical framework, such as a mixed-effects model that accounts for patient-level variability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** "The final test, binding change verification, calculates the predicted change in the transcription factor's binding affinity (either stronger or weaker binding to the genome)."
+  - **Evidence pointer** Section 2.1, Section 4.4, location not provided
+  - **Concern** The binding change verification uses JASPAR PSSM scores to predict changes in TF binding affinity. However, PSSM-based predictions are known to be imprecise, and the manuscript does not report the magnitude of the predicted changes or how they were validated. The threshold of z-score greater than 3 or less than minus 3 is extremely stringent, which may exclude many biologically relevant changes. More importantly, the manuscript does not address whether the predicted binding changes are consistent with the observed expression changes in a quantitative manner. For example, a stronger predicted binding of an activator should correlate with higher expression, but this relationship is not tested systematically.
+  - **Why it matters** The pipeline's final output depends on the biological plausibility of the TF binding changes. If the predictions are noisy or the threshold is inappropriate, the identified TF-gene pairs may not be reliable. The lack of experimental validation or comparison with ChIP-seq data further weakens the claim that these TFs are genuinely affected.
+  - **Resolution test** The authors should provide the distribution of predicted binding score changes for all blocks and TFs, and demonstrate that the selected TFs show a consistent relationship between predicted binding change and expression change. They should also consider validating a subset of predictions using an independent method, such as ChIP-seq data from relevant cell lines or electrophoretic mobility shift assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability
+  - **Claim pointer** "A machine learning model that used gene ontology data suggested further potential transcription factors-gene pairs influencing cancer."
+  - **Evidence pointer** Section 2.3, Section 4.8, location not provided
+  - **Concern** The machine learning approach is described briefly, and the reported accuracy is modest (best 0.589). The manuscript does not report precision, recall, or area under the ROC curve, which are more informative for imbalanced classification problems. The use of pseudo-negatives is a potential source of bias, as random TF-gene pairs may not be true negatives. The model's predictions are not validated experimentally or compared with the primary pipeline results. The claim that this approach "suggested further potential" pairs is vague and does not specify how many new pairs were identified or their characteristics.
+  - **Why it matters** The machine learning component is presented as a novel contribution, but its utility is unclear without rigorous evaluation. If the model has low precision, the suggested pairs may be largely false positives, limiting their value for hypothesis generation.
+  - **Resolution test** The authors should report comprehensive performance metrics, including precision-recall curves and the number of new pairs identified. They should also validate a subset of predictions using an independent approach, such as literature curation or experimental assays. The choice of pseudo-negatives should be justified, and the model's sensitivity to this choice should be assessed.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "The identification of 56 mutation blocks in GCB DLBCL patients highlights the significance of clustered mutations in specific regions of the genome."
+  - **Evidence pointer** Section 2.2, Section 3, location not provided
+  - **Concern** The study is based on a single dataset (ICGC-MMML-Seq) with 241 patients for mutation data and 105 for expression data. The manuscript does not discuss whether the findings are specific to GCB DLBCL or generalizable to other DLBCL subtypes or other cancers. The lack of replication in an independent cohort is a significant limitation, especially given the small sample size for expression analysis.
+  - **Why it matters** The authors claim that these mutation blocks are "key drivers" in GCB lymphoma, but without replication, the findings may be dataset-specific artifacts. The clinical implications discussed in the manuscript depend on the robustness of the findings.
+  - **Resolution test** The authors should validate the identified mutation blocks in an independent cohort, such as TCGA DLBCL data or other published datasets. They should also assess whether similar blocks are found in other cancer types to support the generalizability of the mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, description of mutation block 63319682
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The description of the example block states "14 different mutations in the 5' prime UTR that were found 32 times (among 241 GCB DLBCL patients)." It is unclear whether the 32 occurrences are among the 241 patients or whether some patients have multiple mutations. The phrasing is ambiguous.
+  - **Required correction** Clarify whether the 32 occurrences represent 32 unique patients or include multiple mutations per patient. If multiple mutations per patient are possible, the statistical analysis should account for within-patient correlation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.1, preprocessing steps
+  - **Evidence pointer** Section 4.1, location not provided
+  - **Issue** The conversion from GRCh37 to GRCh38 is mentioned, but the specific tool version and parameters are not provided. The UCSC Genome Lift Tool is referenced, but the chain file or assembly version is not specified.
+  - **Required correction** Provide the exact tool version, chain file, and any parameters used for the coordinate conversion to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 4.2, RNA validation
+  - **Evidence pointer** Section 4.2, location not provided
+  - **Issue** The randomization procedure for generating the null distribution of expression means is described as "randomly selecting groups of patients" but the number of random groups and the seed are not reported. The P-value calculation is therefore not fully reproducible.
+  - **Required correction** Specify the number of random permutations, the random seed, and whether the randomization was stratified by any covariates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3, machine learning results
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Issue** The manuscript states that the machine learning model "suggested further potential transcription factors-gene pairs" but does not report the number of new pairs or their overlap with the primary pipeline results.
+  - **Required correction** Provide a summary of the machine learning predictions, including the number of new pairs and their overlap with the 56 blocks, to allow assessment of the added value.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3, location not provided
+  - **Issue** The discussion states that "the lack of signal in the protein-protein interaction (PPI) dataset is intriguing," but the manuscript does not discuss potential reasons for this lack of signal beyond a brief mention of TF-DNA interactions and PPI noise.
+  - **Required correction** Expand the discussion of why PPI data may not be informative for TF-gene pairs, including the possibility that TF-gene regulatory relationships are not well captured by physical protein interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of background mutation model), R1-M2 (inadequate statistical correction for expression analysis), R1-M3 (unvalidated TF binding predictions). These are the primary technical issues that prevent the core claims from being established.
+- **Assessment against Nature-style criteria** Originality: The concept of "mutation blocks" is somewhat novel, though similar approaches have been used in other contexts. The focus on synonymous mutations in TF binding sites is timely and relevant. Scientific importance: The question of how non-coding mutations contribute to cancer is important, but the current evidence is insufficient to establish a significant contribution. Interdisciplinary readership: The topic would appeal to cancer biologists, computational biologists, and potentially clinicians, but the technical presentation may limit accessibility. Technical soundness: The pipeline is conceptually reasonable but lacks statistical rigor in several key steps, as detailed above. Readability for nonspecialists: The manuscript is generally readable, but the methods section assumes familiarity with bioinformatics tools and concepts. Overall, the manuscript has potential but does not currently meet the standard for a high-impact general journal.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and presents a potentially useful framework, but the statistical and methodological issues must be resolved before the claims can be accepted. I would be supportive if the authors address the major concerns, particularly the background mutation model, multiple testing correction, and validation of TF binding predictions.
+
+## Risk / unsupported claims
+- The claim that the 56 mutation blocks are under positive selection is unsupported without a proper background mutation model.
+- The claim that mutations in these blocks cause changes in gene expression is based on a single example with unclear statistical handling; the general claim across all 56 blocks is not established.
+- The claim that specific TFs (MSC, TCFL5, HOXB7, FOXP3, ZBTF6) are functionally affected by these mutations relies on predicted binding changes that are not experimentally validated.
+- The machine learning predictions of additional TF-gene pairs are presented without sufficient performance metrics or validation, making their reliability unclear.
+- The clinical implications discussed in the manuscript (e.g., therapeutic targets, biomarkers) are speculative and not supported by the data presented.

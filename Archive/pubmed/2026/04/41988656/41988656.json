@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "41988656",
+    "doi": "10.1021/acs.jcim.6c00951",
+    "title": "Identification of Amyloid Regions and Mechanisms from Sequence-Based Modeling and Molecular Dynamics Simulation: A Case Study of the Intrinsically Disordered Protein DPF3."
+  },
+  "content": {
+    "abstract": "Amyloids refer to a diverse group of highly ordered proteinaceous structures conserved across all of the domains of life that not only are involved in severe proteinopathies but also serve as unique functional platforms. They are notably organized around a cross-beta sheet core arranged into a dry steric zipper. Identifying regions promoting such type of assembly requires investigating, usually at the atomistic level, their structural and morphological properties. Although more amyloid structures are being solved and described by means of high-resolution experimental techniques, most amyloidogenic systems remain experimentally elusive or uncharacterized. To overcome such limitations, we propose a multilevel sequence-based computational approach taking advantage of aggregation-oriented predictors and modelers coupled with all-atom equilibrium molecular dynamics (MD) simulations. As an example of this approach, we introduced our protein of interest, the intrinsically disordered zinc finger DPF3a, to the pipeline, thus identifying a hit hexapeptide ((52)NCYIWM(57)) exhibiting remarkable pro-amyloid features. Indeed, this peptide was shown to stabilize different steric zipper topologies, spontaneously self-assemble into beta-sheeted oligomers, and to act as an amyloid seed enabling the conversion and addition of beta-sheet multimers for fibril elongation, which echoes the pathological repertoire of DPF3a. In comparison, simulations performed on a peptide sequence consensually predicted as nonamyloid ((33)AERSVR(38)) congruently underscored its inability to maintain a steric zipper configuration and nucleate into oligomers enriched in beta character. Using only the sequence of a target protein as starting input, our methodology noteworthily proved to be reliable for detecting aggregation-prone regions, assessing their amyloidogenicity, and elucidating their fibrillation mechanisms while holding promise for the design of new anti-amyloid drugs and amyloid-inspired biomaterials.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Amyloid/chemistry",
+      "Amino Acid Sequence",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*DNA-Binding Proteins/chemistry",
+      "*Transcription Factors/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mignon, Julien",
+        "Leyder, Tanguy",
+        "Balon, Hugo",
+        "Monari, Antonio",
+        "Mottet, Denis",
+        "Michaux, Catherine"
+      ],
+      "short_names": [
+        "Mignon J",
+        "Leyder T",
+        "Balon H",
+        "Monari A",
+        "Mottet D",
+        "Michaux C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1223-4501",
+        "ORCID: 0000-0003-4315-0562",
+        "ORCID: 0000-0001-9464-1463",
+        "ORCID: 0000-0001-8208-3310"
+      ],
+      "affiliations": [
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Universite Paris Cite and CNRS, ITODYS, Paris 75006, France.",
+        "Molecular Analysis of Gene Expression (MAGE) Laboratory, GIGA Institute, University of Liege, B34, 1 Avenue de l'Hopital, Liege 4000, Belgium.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+        "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mignon, Julien",
+        "short_name": "Mignon J",
+        "identifiers": [
+          "0000-0003-1223-4501"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+          "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Leyder, Tanguy",
+        "short_name": "Leyder T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+          "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Bâlon, Hugo",
+        "short_name": "Bâlon H",
+        "identifiers": [
+          "0000-0003-4315-0562"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+          "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Monari, Antonio",
+        "short_name": "Monari A",
+        "identifiers": [
+          "0000-0001-9464-1463"
+        ],
+        "affiliations": [
+          "Université Paris Cité and CNRS, ITODYS, Paris 75006, France."
+        ]
+      },
+      {
+        "full_name": "Mottet, Denis",
+        "short_name": "Mottet D",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Analysis of Gene Expression (MAGE) Laboratory, GIGA Institute, University of Liège, B34, 1 Avenue de l'Hôpital, Liège 4000, Belgium."
+        ]
+      },
+      {
+        "full_name": "Michaux, Catherine",
+        "short_name": "Michaux C",
+        "identifiers": [
+          "0000-0001-8208-3310"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium.",
+          "Namur Institute of Structured Matter (NISM), Namur Research Institute for Life Sciences (NARILIS), University of Namur, Rue de Bruxelles 61, Namur 5000, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/16 13:09",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41988656",
+      "40250658",
+      "23912807",
+      "41330221",
+      "35863661",
+      "21174134",
+      "21761818",
+      "42002168",
+      "27693688",
+      "36310204",
+      "29364151",
+      "36499617",
+      "24368046",
+      "38928405",
+      "29782833",
+      "30443712",
+      "29241326",
+      "19385701",
+      "25776887",
+      "41981770",
+      "32805411",
+      "38116756",
+      "19280623",
+      "34152264",
+      "40617079",
+      "33174726",
+      "29860028",
+      "20476794",
+      "40475647",
+      "39226847",
+      "37253119",
+      "36098068",
+      "35149212",
+      "25330398",
+      "18703072",
+      "21674205",
+      "40853068",
+      "21428404",
+      "38347806",
+      "41091939",
+      "24594841",
+      "33333378",
+      "35934194",
+      "34491058",
+      "28970487",
+      "39073874",
+      "33806726",
+      "37330295",
+      "21625904",
+      "36456917",
+      "41932473",
+      "22326493",
+      "17803210",
+      "40167418",
+      "22020870",
+      "30259679",
+      "25093402",
+      "39561991",
+      "35417609",
+      "15653723",
+      "28283568",
+      "31661961",
+      "31642121",
+      "40068541",
+      "21559277",
+      "19810108",
+      "36052514",
+      "39473194",
+      "34337219",
+      "25785896",
+      "31020417",
+      "28917147",
+      "21347488",
+      "20441311",
+      "18711722",
+      "18215070",
+      "22178474",
+      "41386615",
+      "16533927",
+      "28684415",
+      "35167081",
+      "27012425",
+      "30708285",
+      "24892388",
+      "39037281",
+      "24513105",
+      "37782573",
+      "21384336",
+      "24410358",
+      "21942864",
+      "33184287",
+      "38921060",
+      "16679374",
+      "21625573",
+      "26911543",
+      "31809572",
+      "33580600",
+      "26479553",
+      "38275091",
+      "34201262"
+    ],
+    "review": [
+      "41988656",
+      "29364151",
+      "24368046",
+      "37330295",
+      "40068541"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hdl.handle.net/2268/346202",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c00951",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

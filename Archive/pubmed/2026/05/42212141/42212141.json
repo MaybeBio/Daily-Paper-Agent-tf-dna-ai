@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "42212141",
+    "doi": "10.3389/fimmu.2026.1789022",
+    "title": "A blood-based four-gene diagnostic signature for Kashin-Beck disease revealed by multi-cohort transcriptomic analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Kashin-Beck disease (KBD) is an endemic osteoarthropathy characterized by growth retardation and progressive joint degeneration. However, its systemic molecular features in peripheral blood remain incompletely understood. METHODS: Peripheral blood transcriptomic data from four independent cohorts were analyzed using differential expression analysis and weighted gene co-expression network analysis to identify KBD-associated gene sets. Multiple feature selection strategies and machine learning models were applied to construct and validate a blood-based diagnostic signature across cohorts. Immune cell composition was inferred by computational deconvolution, and transcription factor regulation, pathway enrichment, and genetic association data were integrated for biological interpretation. RESULTS: A four-gene blood signature (C4B, AQP1, HBA2, and ACSL6) was identified, showing stable diagnostic performance across independent blood cohorts and preserved discriminatory capacity in cartilage tissue. Downstream analyses revealed that the diagnostic genes were associated with altered immune cell composition and immune- and metabolism-related pathways in peripheral blood. CONCLUSIONS: This study defines a compact and interpretable blood-based transcriptomic signature for KBD and provides insight into its systemic immune-related molecular context, supporting its potential utility for disease identification and mechanistic investigation.",
+    "keywords": [
+      "Kashin-Beck disease",
+      "blood transcriptomics",
+      "gene signature",
+      "immune cell composition",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Kashin-Beck Disease/genetics/diagnosis/blood/immunology",
+      "*Machine Learning",
+      "*Gene Expression Profiling",
+      "*Transcriptome",
+      "Female",
+      "Cohort Studies",
+      "Male",
+      "Biomarkers/blood"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Minghui",
+        "Yang, Kunkun",
+        "Liu, Shizhang",
+        "Sun, Zhengming",
+        "Wu, Xueyuan",
+        "Li, Xinpei",
+        "Wang, Yuchao",
+        "Zhu, Xinke",
+        "Ling, Ming"
+      ],
+      "short_names": [
+        "Guo M",
+        "Yang K",
+        "Liu S",
+        "Sun Z",
+        "Wu X",
+        "Li X",
+        "Wang Y",
+        "Zhu X",
+        "Ling M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+        "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Minghui",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Kunkun",
+        "short_name": "Yang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shizhang",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhengming",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xueyuan",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinpei",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuchao",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xinke",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Ming",
+        "short_name": "Ling M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Shaanxi Provincial People's Hospital, Xi'an, China.",
+          "Key Laboratory of Basic and Clinical Translational of Bone and Joint Diseases in Shaanxi Provincial, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:42",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40804431",
+      "40696360",
+      "40507958",
+      "40374629",
+      "38757132",
+      "38538606",
+      "38250701",
+      "37127661",
+      "36875769",
+      "36224396",
+      "35923709",
+      "33228834",
+      "33097703",
+      "32913098",
+      "31427789",
+      "30719180",
+      "30696537",
+      "30598549",
+      "29948913",
+      "29514696",
+      "29344893",
+      "29087512",
+      "28869591",
+      "28101186",
+      "25605792",
+      "25168363",
+      "25106677",
+      "22776318",
+      "22455463",
+      "22257669",
+      "22235245",
+      "22021425",
+      "20131229",
+      "19910308",
+      "19803749",
+      "19114008",
+      "17099194",
+      "16940323",
+      "16199517"
+    ],
+    "similar": [
+      "42212141",
+      "42123445",
+      "42233387",
+      "41635814",
+      "41611834",
+      "25997002",
+      "31196963",
+      "32816579",
+      "39428571",
+      "42495609",
+      "42326009",
+      "42175497",
+      "41013556",
+      "25305519",
+      "41656832",
+      "40507958",
+      "29514696",
+      "30256536",
+      "42024670",
+      "25307768",
+      "42257395",
+      "22235245",
+      "41200172",
+      "41020339",
+      "42315974",
+      "42536689",
+      "42331233",
+      "42216239",
+      "42088521",
+      "41659414",
+      "26462493",
+      "41265166",
+      "42265520",
+      "40696360",
+      "42266692",
+      "41933744",
+      "41424060",
+      "40625749",
+      "40406126",
+      "39507054",
+      "24316489",
+      "42435052",
+      "28033256",
+      "41996313",
+      "42433374",
+      "41801977",
+      "42495647",
+      "41316541",
+      "42363518",
+      "28373711",
+      "21829570",
+      "42074521",
+      "40374866",
+      "26767981",
+      "40360670",
+      "41200169",
+      "41320776",
+      "41789108",
+      "42450082",
+      "42429909",
+      "42123756",
+      "41733593",
+      "42154423",
+      "22776318",
+      "41601671",
+      "38711508",
+      "42050008",
+      "41310117",
+      "29948913",
+      "41052072",
+      "40959079",
+      "42377012",
+      "41432483",
+      "42424309",
+      "40330470",
+      "40362669",
+      "41208987",
+      "22828367",
+      "41019083",
+      "42249833",
+      "42589294",
+      "41878449",
+      "41444673",
+      "39415336",
+      "42558367",
+      "29317700",
+      "41939867",
+      "42292668",
+      "41763167",
+      "42291298",
+      "42553137",
+      "23157206",
+      "41222888",
+      "27742532",
+      "42021359",
+      "41714378",
+      "41656803",
+      "42015036",
+      "41596688",
+      "38673933"
+    ],
+    "review": [
+      "42212141",
+      "28033256"
+    ],
+    "pmc": [
+      "13212447"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42212141/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1789022",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

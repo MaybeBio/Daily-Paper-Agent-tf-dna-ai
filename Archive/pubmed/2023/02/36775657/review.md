@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to examine 16 mutations in the RING domains of the BRCA1-BARD1 complex, reporting that mutants with experimentally preserved E3 ligase activity show enhanced interfacial contacts, while zinc-binding residue mutants show reduced interactions and stability, with implications for breast cancer prognosis.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, or statistical analyses provided
+- **Missing materials affecting confidence** Full text, methods section, simulation setup details, force field parameters, trajectory analysis protocols, all figures and tables, supplementary data, and any experimental validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study linking specific BRCA1-BARD1 RING domain mutations to altered molecular interactions and stability, with potential relevance to breast cancer. However, the claims are largely qualitative and cannot be rigorously evaluated from the abstract alone. The connection between simulation results and clinical prognosis is asserted rather than demonstrated, and key methodological details are absent. The study may be of interest to computational biologists and cancer researchers, but the current evidence base is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein-protein interactions and mutation effects; cancer biologists interested in BRCA1-BARD1 function and E3 ligase activity; researchers in personalized medicine seeking structural rationales for variant pathogenicity. The study could inform interpretation of BRCA1/BARD1 variants of uncertain significance.
+- **Major strengths** The study addresses a clinically relevant problem with potential translational value. The selection of 16 mutations, including both experimentally characterized neutral and pathogenic variants, provides a useful comparative framework. The focus on atomic-level mechanisms complements experimental studies and may generate testable hypotheses.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that simulation results reveal differential effects between mutations that preserve E3 ligase activity and those that impair it, and that these findings are relevant to breast cancer prognosis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, statistical measures, or error estimates to support the qualitative statements about hydrogen bonds, non-bonded contacts, electrostatic energy, or residual fluctuations. Without numerical values, convergence criteria, or replicate analyses, the reliability of these simulation findings cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation protocols, force field choices, and analysis methods. Qualitative statements without supporting data do not allow readers to judge whether the observed differences are statistically significant or within simulation noise.
+  - **Resolution test** Provide quantitative values with standard deviations or confidence intervals for key observables, demonstrate convergence of simulations, and include statistical tests comparing mutant and wild-type systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The title and abstract assert relevance to breast cancer prognosis, and the abstract states the study delineates structural dynamics in cancer progression.
+  - **Evidence pointer** Title and abstract; location not provided
+  - **Concern** The abstract does not present any direct link between simulation-derived metrics and clinical outcomes. Prognosis is a clinical endpoint that cannot be inferred from molecular dynamics simulations alone. No survival data, clinical correlation, or functional validation is mentioned.
+  - **Why it matters** Overstating clinical relevance without supporting evidence risks misleading readers and overinterpreting computational findings. The connection between in silico observations and patient prognosis requires an explicit translational bridge.
+  - **Resolution test** Either remove or substantially temper claims about prognosis, or provide a clearly articulated and evidence-based pathway linking simulation results to clinical outcomes, such as correlation with known clinical datasets or functional assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that molecular modeling techniques and molecular dynamics simulations were employed, but provides no methodological details.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is given on the simulation software, force field, water model, simulation length, temperature/pressure coupling, equilibration protocol, or analysis tools. The selection criteria for the 16 mutations are also not described.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without methodological details, the results cannot be replicated or independently verified, and the choice of simulation parameters could materially affect the conclusions.
+  - **Resolution test** Provide a complete methods section in the full manuscript, including all simulation parameters, system preparation steps, and analysis procedures, and ensure these are described with sufficient detail for replication.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "local perturbation with a high residual fluctuation" is vague and could be more precisely defined in terms of root-mean-square fluctuation values or specific residue ranges.
+  - **Required correction** Specify the quantitative measure used, such as RMSF values, and identify the specific residues or regions affected.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutation classification
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists mutations but does not clarify whether all 16 mutations are in BRCA1, BARD1, or both, and the basis for selecting these particular mutations is not stated.
+  - **Required correction** Clearly state the distribution of mutations across BRCA1 and BARD1 and provide a rationale for mutation selection, such as clinical frequency or prior experimental characterization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Energy analysis
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement that mutant complexes display "relatively lower electrostatic energy, H-bonding and total stabilizing energy" is ambiguous regarding whether these are compared to wild-type or among mutants, and whether these differences are energetically meaningful.
+  - **Required correction** Clarify the comparison groups and provide energy values with appropriate error estimates to demonstrate the significance of the differences.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative evidence and the unsupported clinical relevance claim prevent the case from being established. R1-M3, while not blocking, is essential for reproducibility and should be addressed in the full manuscript.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of MD simulations to BRCA1-BARD1 mutations is not entirely novel, but the specific mutation panel and comparative approach may offer some new insights.
+  - Scientific importance: Moderate. The topic is clinically relevant, but the abstract does not demonstrate that the findings advance understanding beyond existing experimental data.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and cancer researchers; the clinical relevance claim is not substantiated enough to attract a broader audience.
+  - Technical soundness: Not assessable from the abstract. No methodological details or quantitative results are provided.
+  - Readability for nonspecialists: Acceptable. The abstract is generally clear, though some terms such as "hotspot residues" and "non-bonded contacts" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable computational study, but the lack of quantitative data and the unsupported prognosis claim preclude a positive assessment. A revised version with full methodological transparency, quantitative results, and tempered clinical claims could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that simulation results are relevant to breast cancer prognosis is unsupported by any clinical or functional data presented in the abstract.
+- The assertion that specific mutations "display an enhanced number of H-bonds and non-bonded contacts" is unverifiable without quantitative values.
+- The statement that zinc-binding mutations lead to "loss of some of the hotspot residues" is not defined or supported with specific residue identifications.
+- The overall conclusion that the study "delineates the structural and conformational dynamics in the progression of breast cancer" overreaches the evidence presented.

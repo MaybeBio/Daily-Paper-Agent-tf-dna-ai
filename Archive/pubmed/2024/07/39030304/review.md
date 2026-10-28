@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to the evidence presented, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors use in silico tools to investigate whether missense mutations in four glioblastoma-associated proteins (EGFR, IDH1, PTEN, TP53) disrupt the presentation and recognition of immunogenic MHC class I epitopes. They report that most mutations do not disrupt epitope presentation, and identify six TP53-derived epitope pairs that maintain structural stability and predicted immunogenicity, proposing them as potential targets for GBM immunotherapy.
+- **Visible evidence base** Main text figures (Figures 1–7), Tables 1–3, and descriptions of supplementary figures and tables. Supplementary materials (Tables S1–S3, Figures S1–S5) are referenced but not available for review.
+- **Missing materials affecting confidence** Supplementary Tables S1–S3 and Supplementary Figures S1–S5 are not provided. Raw data, input sequences, and complete lists of mutations and epitopes are not available. The in-house plugin and scripts are referenced via GitHub but not independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational pipeline combining sequence-based prediction, structural modeling, and molecular dynamics to assess the impact of cancer-associated mutations on MHC class I epitope presentation. The topic is relevant to cancer immunotherapy and neoantigen discovery. However, the study is entirely in silico, and the central claim that mutations "do not disrupt epitope presentation and recognition" is not directly tested experimentally. The evidence is largely descriptive, and several methodological choices and interpretations require clarification. The manuscript would benefit from stronger validation, clearer presentation of the filtering criteria, and a more cautious framing of the conclusions.
+- **Who would be interested in the results, and why** Researchers in tumor immunology, neoantigen prediction, and peptide vaccine development would find this work relevant. The identification of mutation-tolerant epitopes in TP53 could inform future immunotherapeutic strategies for glioblastoma. Computational immunologists may also be interested in the integrated pipeline combining IEDB, HLA-Arena, and MD simulations.
+- **Major strengths**
+  - The study addresses a clinically relevant question: whether mutations in tumor antigens compromise CD8 T cell epitope presentation.
+  - The integration of multiple computational tools (IEDB, MHCflurry, HLA-Arena, TLImm, MD simulations) is comprehensive and reflects current best practices in in silico epitope prediction.
+  - The use of molecular dynamics to assess structural stability of pMHC-I complexes adds a dynamic dimension beyond static predictions.
+  - The authors are transparent about their filtering criteria and provide a flowchart of the methodology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The title and abstract state that mutations "do not disrupt epitope presentation and recognition, maintaining a specific CD8 T cell immune response potential."
+  - **Evidence pointer** Abstract; Results sections "Immunogenic epitopes containing missense mutations can still be generated through MHC-I pathway" and "Structural analysis of MHCs in the context of wild-type and mutated epitopes"; Discussion
+  - **Concern** The central claim is that mutations do not disrupt epitope presentation and recognition. However, the study is entirely computational. No experimental validation (e.g., binding assays, T cell activation assays, or immunogenicity experiments) is provided. The in silico predictions are used as proxies for biological function, but the manuscript does not acknowledge the well-documented limitations of these tools, including false positives and the lack of correlation between predicted binding and actual T cell responses. The conclusion that these epitopes "maintain" immune response potential is therefore not established from the provided evidence.
+  - **Why it matters** The title and abstract make a strong claim that could be misinterpreted as having experimental support. Without experimental validation, the claim is overreaching and could mislead readers. The scientific community increasingly expects in silico predictions to be validated, at least in part, by in vitro or in vivo experiments.
+  - **Resolution test** The authors should either (a) provide experimental validation for at least a subset of the predicted epitopes, or (b) substantially soften the claim to reflect that the findings are predictive and require experimental confirmation. The title and abstract should be revised accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "we selected only the epitope pairs that presented better-predicted results in all analyses" and that six TP53 epitopes "stand out."
+  - **Evidence pointer** Results section "Filtering targeted epitopes for GBM therapy"; Table 2; Materials and methods section "Search for mutations in highly expressed glioma proteins and potentially immunogenic epitopes"
+  - **Concern** The criteria for selecting the six final epitope pairs are not fully described. The manuscript mentions that 83 pairs were selected after sequence-based prediction, 24 were modeled structurally, and 6 were chosen for further analysis. However, the specific thresholds and decision rules for each step are not clearly stated. For example, the HCA clustering results are shown for TP53 and IDH1, but the exact criteria for "preserving structural characteristics" are not defined. The reader cannot reproduce the selection process.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without clear, quantitative criteria for each filtering step, the selection of the final six epitopes appears arbitrary and could introduce bias. This undermines confidence in the conclusions.
+  - **Resolution test** The authors should provide a detailed, step-by-step description of the filtering criteria, including numerical thresholds for each tool (e.g., percentile ranks, HCA distance cutoffs, clustering support values). Ideally, a supplementary table listing all 83 pairs and the values for each metric should be provided.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the t-test results were significant (p < 0.001) in all cases, confirming the statistical significance of the differences" in RMSD between wild-type and mutant complexes.
+  - **Evidence pointer** Results section "Structural analysis of MHCs in the context of wild-type and mutated epitopes"; Table 3; Materials and methods section "Molecular dynamics simulations"
+  - **Concern** The use of t-tests to compare RMSD values from MD simulations is statistically questionable. RMSD values over time are autocorrelated, and treating each time frame as an independent observation violates the assumptions of the t-test. The authors do not account for this autocorrelation, which can lead to inflated significance. Additionally, the biological relevance of statistically significant RMSD differences is not discussed; a statistically significant difference does not necessarily imply functional relevance.
+  - **Why it matters** The statistical analysis is used to support the claim that mutations do not destabilize the pMHC-I complexes. If the statistical approach is flawed, the conclusion is weakened. The manuscript should use appropriate statistical methods for time-series data (e.g., block averaging, bootstrapping) and discuss the biological significance of the observed differences.
+  - **Resolution test** The authors should re-analyze the RMSD data using methods that account for autocorrelation, and provide a discussion of the effect sizes in the context of pMHC-I stability. If the differences are not biologically meaningful, this should be stated explicitly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that "four of these pairs can also bind the MHC-II and feasibly contribute to the CD4 T cell response."
+  - **Evidence pointer** Results section "MHC-II binding analysis of the selected epitopes"; Table 3
+  - **Concern** The MHC-II binding analysis is based solely on a sequence-based prediction tool (NetMHCII-2.3). No structural analysis or experimental validation is provided. The claim that these epitopes "can also bind MHC-II" is therefore only weakly supported. Additionally, the manuscript does not specify which four of the six pairs are being referred to, nor does it provide the predicted binding affinities or percentile ranks.
+  - **Why it matters** The potential for CD4 T cell help is presented as an additional advantage of the selected epitopes. If this claim is not well supported, it should be either strengthened with additional data or removed.
+  - **Resolution test** The authors should specify which epitopes bind MHC-II, provide the predicted binding values, and ideally include structural modeling of MHC-II complexes. If experimental validation is not possible, the claim should be softened.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table lists epitope sequences but does not indicate the position of the mutation within the peptide or the protein. This makes it difficult to interpret the impact of the mutation on peptide binding.
+  - **Required correction** Add a column indicating the mutation position (e.g., "R273C" or "position 8") and, if possible, the HLA binding core.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Table 3
+  - **Evidence pointer** Table 3
+  - **Issue** The table title states "Epitopes resulting from the prediction showed a strong binding affinity for MHC-II," but the table includes data for MHC-I (RMSD, RMSF, RoG, contacts). The title is misleading.
+  - **Required correction** Revise the table title to accurately reflect the content, e.g., "Structural and dynamic properties of selected pMHC-I complexes and predicted MHC-II binding."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary Figures S1–S5 and Tables S1–S3
+  - **Issue** The supplementary materials are referenced but not provided. The reader cannot verify the sequence-based prediction results, the full list of mutations, or the HCA validation.
+  - **Required correction** Ensure that all supplementary materials are available and clearly referenced. If they are not essential, consider moving key data into the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract; Discussion
+  - **Issue** The phrase "do not disrupt epitope presentation and recognition" is used as a definitive statement, but the study is predictive. The language should reflect the computational nature of the findings.
+  - **Required correction** Use more cautious language, such as "are predicted not to disrupt" or "may not disrupt."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Materials and methods section "Molecular dynamics simulations"
+  - **Issue** The manuscript states that the HLA receptor was truncated at residue 182, but it does not specify which HLA allele or structure was used as the starting model. This is important for reproducibility.
+  - **Required correction** Provide the PDB ID or structural template used for each HLA allele, and specify the exact truncation point.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions that "the t-test results were significant" but does not discuss the biological relevance of the RMSD differences. A statistically significant difference may not be functionally meaningful.
+  - **Required correction** Add a sentence discussing the biological significance of the observed RMSD differences, or state that the differences are not expected to affect function.
+
+## Risk / unsupported claims
+- The claim that mutations "do not disrupt epitope presentation and recognition" is unsupported by experimental evidence and is based solely on in silico predictions.
+- The claim that the selected epitopes "maintain a specific CD8 T cell immune response potential" is not directly tested and is inferred from structural stability and prediction scores.
+- The claim that four epitope pairs "can also bind the MHC-II" is based on a single prediction tool without experimental or structural validation.
+- The statistical significance of RMSD differences is reported without accounting for autocorrelation in time-series data, making the p-values unreliable.
+- The selection criteria for the final six epitope pairs are not fully transparent, limiting reproducibility.
+- The manuscript does not discuss the potential for false positives in the prediction tools used, which is a known limitation in neoantigen discovery.

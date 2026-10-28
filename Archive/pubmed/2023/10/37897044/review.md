@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and figure legends. Supporting material (Figures S1-S12, supporting text) referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, logical coherence, and consistency of claims with presented evidence. Not assessed: editorial quality, formatting, or literature completeness beyond what is directly relevant to the claims.
+- **Shared manuscript claim summary** The authors use all-atom MD simulations with steering forces to compute binding free energies of a WRKY transcription factor domain protein bound to specific vs. nonspecific DNA. They report a difference of ~10 kBT from simulations, versus ~4.2 kBT estimated from experimental dissociation constants on 15-bp constructs. They hypothesize that flanking DNA sequences bias the experimental measurement, and support this with a simplified spherical protein model plus stochastic simulations.
+- **Visible evidence base** Main text figures 1-5, methods descriptions, and in-text references to supporting figures and text. Supporting information not available for direct inspection.
+- **Missing materials affecting confidence** Supporting figures S1-S12 and supporting text S-IV, S-VII, S-IX are referenced but not provided. These contain convergence analyses, method details for the simplified model, and derivations central to the kinetic modeling claims. Without them, several technical claims cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a question of genuine interest in the field of transcription factor search dynamics: whether the search-to-recognition transition in a small DNA-binding domain is governed by protein reorientation rather than internal conformational change. The computational strategy is reasonable and the combination of all-atom MD with a simplified kinetic model is creative. However, the central quantitative claim (ΔΔGb ≈ 10 kBT from simulations vs ~4.2 kBT from experiments) rests on methodological choices that are not fully justified in the main text, and the supporting evidence for the flanking-sequence hypothesis is indirect. The manuscript is potentially publishable after substantial revision, but the current version does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying protein-DNA interactions, transcription factor search mechanisms, and facilitated diffusion. The work is also relevant to computational biophysicists interested in binding free energy calculations and the interpretation of kinetic measurements. The flanking-sequence effect on measured affinities has broad implications for how experimental KD values are interpreted in the context of TF binding site recognition.
+- **Major strengths** 1) The question is well-posed and addresses a gap in the literature: most prior work has focused on conformational change as the search/recognition switch, while this study provides evidence for orientation-based switching in a small domain. 2) The use of two independent free energy methods (Jarzynski and umbrella sampling) that yield consistent ΔΔGb values strengthens the computational claim. 3) The simplified spherical model is a clever way to bridge the gap between all-atom simulations and experimental kinetic measurements, and the authors are appropriately cautious about its limitations. 4) The writing is generally clear and the figures are informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of free energy calculations
+  - **Claim pointer** The authors claim that the binding free energy difference between specific and nonspecific DNA is ΔΔGb ≈ 10 kBT, obtained from both Jarzynski's equality and umbrella sampling.
+  - **Evidence pointer** Figure 3, Methods sections "PMF calculations using Jarzynski's equality" and "PMF calculations using umbrella sampling"; convergence referenced to Figures S6, S10
+  - **Concern** The convergence of the PMF calculations is not adequately demonstrated in the main text. For the Jarzynski method, the authors acknowledge large fluctuations in work values and non-Gaussian distributions, yet still report a converged PMF. The supporting figure S10 is referenced but not available for inspection. For umbrella sampling, convergence is claimed at ~150 ns, but the criteria for convergence are not stated. The choice of reaction coordinate (perpendicular dissociation) is justified by RAMD, but the possibility of hysteresis or insufficient sampling along orthogonal degrees of freedom is not discussed. The force constant (3000 kJ/mol/nm²) and pulling speed (0.1 Å/ns) are stated, but no justification is given for why these values are appropriate for this system.
+  - **Why it matters** The central quantitative claim of the paper depends entirely on the reliability of these PMF calculations. If the PMFs are not converged, the reported ΔΔGb value of ~10 kBT is not trustworthy, and the subsequent comparison with experimental values and the flanking-sequence hypothesis lose their foundation.
+  - **Resolution test** Provide the supporting convergence data (Figures S6, S10) in the main text or as supplementary material that is accessible to the reviewer. Show block-averaged PMFs over time, demonstrate that the PMF shape and ΔΔGb are stable over the last 50-100 ns of sampling, and discuss the expected statistical error. Justify the choice of pulling speed and force constant, perhaps with a brief convergence study at different parameters. If possible, show that the PMF is independent of the starting configuration.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical coherence of the flanking-sequence hypothesis
+  - **Claim pointer** The authors hypothesize that the discrepancy between simulated ΔΔGb (~10 kBT) and experimental ΔΔGb (~4.2 kBT) arises from flanking DNA sequences impacting dissociation kinetics measurements.
+  - **Evidence pointer** Results section "PMF and protein dissociation kinetics from a simplified spherical protein model", Figure 5, Equation 4
+  - **Concern** The simplified spherical model is used to show that flanking sequences can reduce the measured ΔΔGb from ~10 kBT to ~4.2 kBT. However, the model is calibrated to reproduce the all-atom ΔΔGb value by tuning protein-DNA HB strengths, and then used to predict the kinetic measurement. This is circular: the model is adjusted to match one set of data and then used to explain a discrepancy with another set. The authors do not provide independent validation of the model's predictive power. Furthermore, the model assumes that the protein can bind to flanking sequences with equal probability as to the core sequence, which may not be realistic given the sequence-specificity of the WRKY domain. The kinetic scheme in Equation 4 is a simplified two-state model that does not account for 1D diffusion along the DNA, which is central to the facilitated diffusion framework the authors invoke in the introduction.
+  - **Why it matters** The flanking-sequence hypothesis is presented as a resolution to the simulation-experiment discrepancy, but the evidence for it is indirect and model-dependent. If the model is not predictive or the assumptions are not justified, the hypothesis remains speculative, and the discrepancy between simulation and experiment is left unexplained.
+  - **Resolution test** Provide a more rigorous test of the flanking-sequence hypothesis. For example, run the simplified model with parameters that are not tuned to match the all-atom result, and show that the qualitative conclusion (flanking sequences reduce measured ΔΔGb) still holds. Alternatively, perform additional all-atom simulations with longer DNA constructs that include flanking sequences and directly compute the binding free energy difference. Discuss the validity of the assumption that the protein binds flanking sequences with similar affinity as the core nonspecific sequence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of experimental data
+  - **Claim pointer** The authors state that the experimental dissociation constants for specific and nonspecific DNA are 0.1 μM and 8 μM, respectively, corresponding to ΔΔGb ≈ 4.2 kBT.
+  - **Evidence pointer** Results section "Binding free energy measurements using umbrella sampling"; reference to prior work (55, 56)
+  - **Concern** The experimental KD values are taken from prior work (references 55, 56), but the conditions under which these were measured are not described. The authors do not discuss whether the experimental measurements were performed under conditions comparable to the simulation conditions (e.g., salt concentration, temperature, DNA length). The 15-bp DNA constructs used in experiments are shorter than the 34-bp constructs used in simulations, and the authors do not address whether this length difference could affect the comparison. The conversion from KD to ΔΔGb assumes a simple two-state binding model, which may not be valid if the binding mechanism involves multiple steps or conformational changes.
+  - **Why it matters** The comparison between simulation and experiment is a key part of the paper's narrative. If the experimental values are not directly comparable to the simulation results, the discrepancy that motivates the flanking-sequence hypothesis may be an artifact of comparing incompatible measurements.
+  - **Resolution test** Provide details of the experimental conditions from references 55 and 56, and discuss whether the simulation conditions are designed to match. If necessary, perform additional simulations under conditions that more closely mimic the experimental setup. Discuss the validity of the two-state model for converting KD to ΔΔGb.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section "Steered MD (SMD) simulations setup"
+  - **Evidence pointer** Methods section, Figure 2
+  - **Issue** The description of the RAMD method is brief. It is not clear how the direction of pulling was determined for the SMD simulations, and whether multiple pulling directions were tested. The statement that the y-direction is preferred for specific and z-direction for nonspecific is based on RAMD, but the details of how this was converted into a single pulling direction for SMD are not given.
+  - **Required correction** Clarify the protocol for choosing the pulling direction. State whether the RAMD results were used to define a single reaction coordinate for all SMD simulations, or whether different directions were used for the two systems. If multiple directions were tested, report the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Results section "Binding free energy measurements using Jarzynski's equality"
+  - **Evidence pointer** Figure 3a, Figure S9
+  - **Issue** The work distributions are stated to deviate from Gaussian, but the implications for the cumulant expansion are not discussed. The authors use the full Jarzynski equality (Equation 1) rather than the cumulant expansion, which is appropriate, but the reason for this choice is not stated.
+  - **Required correction** Briefly state why the full Jarzynski equality was preferred over the cumulant expansion, given the non-Gaussian work distributions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of model description
+  - **Affected element** Methods section "Simplified spherical protein model"
+  - **Evidence pointer** Methods section, Figure S7, supporting text S-VII
+  - **Issue** The simplified model is described only briefly in the main text. Key parameters (e.g., number of charges, Debye length, Morse potential parameters) are not given, and the calibration procedure is not described in detail.
+  - **Required correction** Provide a more complete description of the model parameters and the calibration procedure, either in the main text or by making the supporting text accessible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The authors note that the simplified model does not account for sequence-dependent association kinetics, but they do not discuss other limitations, such as the neglect of 1D diffusion along the DNA in the kinetic model, or the potential for the protein to bind to DNA in multiple orientations.
+  - **Required correction** Add a brief discussion of these limitations and how they might affect the conclusions.
+
+## Risk / unsupported claims
+- The claim that the search and recognition modes are distinguished primarily by protein orientation on DNA is supported by the simulation data, but the generalization to all small TF domains is not fully justified.
+- The claim that flanking DNA sequences impact experimental KD measurements is plausible but not directly tested. The simplified model provides indirect support, but the model is calibrated to match the all-atom result, and no independent validation is provided.
+- The quantitative comparison between simulated ΔΔGb (~10 kBT) and experimental ΔΔGb (~4.2 kBT) is difficult to assess without details of the experimental conditions and the convergence of the PMF calculations.
+- The statement that the binding free energy of 10-30 kBT is "compatible" with the diffusional search mode is qualitative and not rigorously derived.
+- The claim that the simplified model's results are "consistent with the experimental result" is based on a single comparison and should be treated with caution.

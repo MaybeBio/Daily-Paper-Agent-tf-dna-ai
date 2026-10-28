@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "34624074",
+    "doi": "10.1093/bib/bbab411",
+    "title": "Dissecting and predicting different types of binding sites in nucleic acids based on structural information."
+  },
+  "content": {
+    "abstract": "The biological functions of DNA and RNA generally depend on their interactions with other molecules, such as small ligands, proteins and nucleic acids. However, our knowledge of the nucleic acid binding sites for different interaction partners is very limited, and identification of these critical binding regions is not a trivial work. Herein, we performed a comprehensive comparison between binding and nonbinding sites and among different categories of binding sites in these two nucleic acid classes. From the structural perspective, RNA may interact with ligands through forming binding pockets and contact proteins and nucleic acids using protruding surfaces, while DNA may adopt regions closer to the middle of the chain to make contacts with other molecules. Based on structural information, we established a feature-based ensemble learning classifier to identify the binding sites by fully using the interplay among different machine learning algorithms, feature spaces and sample spaces. Meanwhile, we designed a template-based classifier by exploiting structural conservation. The complementarity between the two classifiers motivated us to build an integrative framework for improving prediction performance. Moreover, we utilized a post-processing procedure based on the random walk algorithm to further correct the integrative predictions. Our unified prediction framework yielded promising results for different binding sites and outperformed existing methods.",
+    "keywords": [
+      "DNA binding site",
+      "RNA binding site",
+      "ensemble learning",
+      "integrative algorithm",
+      "structural homology"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Binding Sites",
+      "Ligands",
+      "*Nucleic Acids",
+      "Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Zheng",
+        "Xiao, Si-Rui",
+        "Liu, Rong"
+      ],
+      "short_names": [
+        "Jiang Z",
+        "Xiao SR",
+        "Liu R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9603-398X"
+      ],
+      "affiliations": [
+        "College of Informatics, Huazhong Agricultural University, Wuhan, P. R. China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, P. R. China.",
+        "College of Informatics, Huazhong Agricultural University, Wuhan, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Zheng",
+        "short_name": "Jiang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Si-Rui",
+        "short_name": "Xiao SR",
+        "identifiers": [],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Rong",
+        "short_name": "Liu R",
+        "identifiers": [
+          "0000-0001-9603-398X"
+        ],
+        "affiliations": [
+          "College of Informatics, Huazhong Agricultural University, Wuhan, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/09 06:00",
+    "fetched_at": "2026-09-28 00:35:07"
+  },
+  "links": {
+    "cites": [
+      "42446430",
+      "41331479",
+      "38434217",
+      "37672551",
+      "36405108",
+      "36275618"
+    ],
+    "refs": [
+      "34272562",
+      "33416863",
+      "33253385",
+      "33135062",
+      "33106872",
+      "32652015",
+      "31776342",
+      "31666519",
+      "31636460",
+      "31504851",
+      "31161212",
+      "31114906",
+      "31067315",
+      "30961545",
+      "30649184",
+      "30357411",
+      "30321300",
+      "30169563",
+      "30093489",
+      "29980759",
+      "29757349",
+      "29718097",
+      "29685368",
+      "29253082",
+      "28757251",
+      "28642456",
+      "28361677",
+      "27787834",
+      "27665935",
+      "27084946",
+      "26751501",
+      "26467480",
+      "26213851",
+      "26184875",
+      "26184874",
+      "26176857",
+      "25935161",
+      "25776805",
+      "25775564",
+      "25551292",
+      "25391398",
+      "25259926",
+      "24854765",
+      "24776770",
+      "24145824",
+      "24003114",
+      "23737141",
+      "23703209",
+      "23618839",
+      "22539264",
+      "22199255",
+      "22115189",
+      "21935890",
+      "21841796",
+      "21693557",
+      "20470873",
+      "19736561",
+      "19439068",
+      "18978773",
+      "18955120",
+      "18509338",
+      "18361529",
+      "18353859",
+      "17571346",
+      "17160062",
+      "16893954",
+      "16731699",
+      "16308420",
+      "15801827",
+      "14735121",
+      "14709173",
+      "11553460",
+      "10382667",
+      "10222198",
+      "9299342",
+      "9254694",
+      "8552589",
+      "7568000"
+    ],
+    "similar": [
+      "34624074",
+      "37672551",
+      "38830995",
+      "28292249",
+      "23737141",
+      "26661785",
+      "27855637",
+      "24854765",
+      "22086767",
+      "30800250",
+      "33932779",
+      "37405873",
+      "9261068",
+      "29125297",
+      "18940825",
+      "31746287",
+      "29253082",
+      "23288787",
+      "19642282",
+      "30169574",
+      "32793956",
+      "25474163",
+      "19603120",
+      "25843215",
+      "19439068",
+      "21134896",
+      "23815589",
+      "20015386",
+      "14582401",
+      "17059826",
+      "38301174",
+      "35753699",
+      "19889798",
+      "37915276",
+      "22574904",
+      "26176857",
+      "21992011",
+      "30943723",
+      "18833291",
+      "28334258",
+      "23703212",
+      "10205294",
+      "19816781",
+      "38739759",
+      "19927322",
+      "23166753",
+      "35045825",
+      "37070217",
+      "20175916",
+      "24334392",
+      "20594344",
+      "39256728",
+      "33999210",
+      "31141211",
+      "20522253",
+      "39202449",
+      "31714956",
+      "30416381",
+      "24448651",
+      "22560732",
+      "1510913",
+      "22536963",
+      "22417279",
+      "31661923",
+      "30414728",
+      "16819840",
+      "18296462",
+      "24661439",
+      "25756377",
+      "23259794",
+      "32870222",
+      "15048824",
+      "19503826",
+      "29664226",
+      "19091029",
+      "21989996",
+      "26225536",
+      "16995956",
+      "10026283",
+      "29219069",
+      "20484373",
+      "22591472",
+      "10090291",
+      "28598584",
+      "28431169",
+      "20974634",
+      "23618839",
+      "34859211",
+      "24390396",
+      "30040656",
+      "26404160",
+      "20472546",
+      "31553288",
+      "32012150",
+      "27513851",
+      "25730499",
+      "16115317",
+      "22014038",
+      "22536870",
+      "1726271",
+      "36369832"
+    ],
+    "review": [
+      "34624074",
+      "9261068",
+      "31746287",
+      "29253082",
+      "28334258",
+      "10205294",
+      "38739759",
+      "39202449",
+      "31714956",
+      "1510913",
+      "25756377"
+    ],
+    "pmc": [
+      "8769709"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34624074.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34624074/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34624074",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab411",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

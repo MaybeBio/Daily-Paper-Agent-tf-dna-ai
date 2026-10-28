@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "40312983",
+    "doi": "10.1093/ijnp/pyaf029",
+    "title": "Molecular targets of vortioxetine mediating glioblastoma suppression revealed by gene and protein network analyses and molecular docking simulations."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Vortioxetine is a serotonin reuptake inhibitor and serotonin receptor modulator used for the treatment of major depressive disorder, but recent studies have also reported anticancer effects in models of glioblastoma. Given the well-established benefits of drug repositioning, we examined the pharmacological mechanism for these anticancer actions using bioinformatics and molecular docking. METHODS: Putative molecular targets for vortioxetine were identified by searching DrugBank, GeneCards, SwissTargetPrediction, Comparative Toxicogenomics Database, and SuperPred databases, while glioblastoma-related proteins were identified using GeneCards, Online Mendelian Inheritance in Man; , and Therapeutic Target Database . A protein-protein interaction (PPI) network was constructed from vortioxetine targets also involved in glioblastoma to identify core (hub) targets, which were then characterized by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses using database for annotation, visualization, and integrated discovery. Cytoscape was utilized to generate a drug-pathway-target-disease network, and molecular docking simulations were performed to evaluate direct interactions between vortioxetine and core target proteins. RESULTS: A total of 234 unique vortioxetine protein targets were identified. Among 234 vortioxetine targets identified, 48 were also related to glioblastoma. Topological analysis of the PPI network revealed 5 core targets: the serine/threonine kinase AKT1, transcription factor hypoxia-inducible factor (HIF)-1, cell adhesion molecule cadherin-E, NF-kappaB subunit p105, and prostaglandin-endoperoxide synthase 2. According to GO and KEGG pathway analyses, the anticancer efficacy of vortioxetine may be mediated by effects on glucose metabolism, cell migration, phosphorylation, inflammatory responses, apoptosis, and signaling via Rap1, chemical carcinogenesis-reactive oxygen species, and HIF-1. Molecular docking revealed moderately strong affinities between vortioxetine and 4 core targets. CONCLUSIONS: This study suggests that vortioxetine may inhibit glioblastoma development through direct effects on multiple targets and further emphasizes the value of bioinformatics analyses for drug repositioning.",
+    "keywords": [
+      "glioblastoma",
+      "molecular docking",
+      "network pharmacology",
+      "vortioxetine"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Vortioxetine/pharmacology",
+      "*Glioblastoma/drug therapy/genetics/metabolism",
+      "*Protein Interaction Maps/drug effects",
+      "*Brain Neoplasms/drug therapy/genetics/metabolism",
+      "*Antineoplastic Agents/pharmacology",
+      "Computational Biology",
+      "*Selective Serotonin Reuptake Inhibitors/pharmacology",
+      "*Gene Regulatory Networks/drug effects",
+      "Drug Repositioning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuo, Chuanjun",
+        "Li, Chao",
+        "Zhang, Qiuyu",
+        "Yang, Lei",
+        "Zhang, Ying",
+        "Chen, Ximing",
+        "Ma, Xiaoyan",
+        "Li, Ranli",
+        "Wang, Lina",
+        "Tian, Hongjun"
+      ],
+      "short_names": [
+        "Zhuo C",
+        "Li C",
+        "Zhang Q",
+        "Yang L",
+        "Zhang Y",
+        "Chen X",
+        "Ma X",
+        "Li R",
+        "Wang L",
+        "Tian H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3793-550X"
+      ],
+      "affiliations": [
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuo, Chuanjun",
+        "short_name": "Zhuo C",
+        "identifiers": [
+          "0000-0002-3793-550X"
+        ],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiuyu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ximing",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaoyan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ranli",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lina",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Hongjun",
+        "short_name": "Tian H",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Computational Psychiatry Center (CBCP), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Medical University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-morbidity (PGNP_Lab), Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The international journal of neuropsychopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int J Neuropsychopharmacol"
+    ],
+    "pub_date": "2025 Jun 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/02 06:28",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42587732",
+      "42293117",
+      "42039174",
+      "40649933"
+    ],
+    "refs": [
+      "39490061",
+      "39356361",
+      "39349481",
+      "39304781",
+      "39276484",
+      "39045789",
+      "38890642",
+      "38755657",
+      "38596362",
+      "38518857",
+      "38098117",
+      "37885030",
+      "37713619",
+      "37401481",
+      "36809318",
+      "36402031",
+      "36370105",
+      "36169237",
+      "34830491",
+      "34475988",
+      "34419139",
+      "33807786",
+      "33151290",
+      "32328653",
+      "31883794",
+      "31106366",
+      "30808672",
+      "30445645",
+      "29615902",
+      "29126136",
+      "28926425",
+      "28573592",
+      "28475809",
+      "27568206",
+      "26948367",
+      "26711814",
+      "26663363",
+      "26207249",
+      "25016186",
+      "24878925",
+      "24762811",
+      "22227470",
+      "21984115",
+      "20689021",
+      "19499576",
+      "19269895",
+      "18504432",
+      "17921993",
+      "15304631",
+      "15031665",
+      "14597658",
+      "12734009"
+    ],
+    "similar": [
+      "40312983",
+      "37287284",
+      "40816370",
+      "39701786",
+      "40543694",
+      "40202273",
+      "40676786",
+      "39251712",
+      "40350911",
+      "40065477",
+      "38704482",
+      "37879505",
+      "41367024",
+      "40774882",
+      "39410900",
+      "39125368",
+      "41439108",
+      "38822913",
+      "41029040",
+      "41430985",
+      "37469733",
+      "41096726",
+      "35227068",
+      "40922365",
+      "40958307",
+      "37382018",
+      "39312335",
+      "38806972",
+      "40013962",
+      "40634934",
+      "39850388",
+      "41203698",
+      "40728954",
+      "38910482",
+      "38759074",
+      "38670393",
+      "39499411",
+      "41261616",
+      "39392030",
+      "40452077",
+      "37807411",
+      "40585331",
+      "40227311",
+      "35024051",
+      "36472041",
+      "37740654",
+      "38964628",
+      "32315738",
+      "38910476",
+      "33634308",
+      "36401485",
+      "39612458",
+      "40898519",
+      "35430443",
+      "38840248",
+      "39957354",
+      "34435046",
+      "39075939",
+      "38518857",
+      "39093467",
+      "38571354",
+      "39928767",
+      "41261300",
+      "40208786",
+      "41330962",
+      "34746302",
+      "32389853",
+      "41064833",
+      "39099827",
+      "40388786",
+      "40332431",
+      "39343107",
+      "37391801",
+      "39074420",
+      "40943141",
+      "40259252",
+      "40570565",
+      "40252893",
+      "41249796",
+      "39503628",
+      "36372090",
+      "41137300",
+      "39805787",
+      "38916485",
+      "33358854",
+      "39552028",
+      "41009982",
+      "38321908",
+      "38701256",
+      "34581057",
+      "30647760",
+      "38403323",
+      "39974399",
+      "38761877",
+      "40721767",
+      "36401375",
+      "41150817",
+      "38381309",
+      "39307810",
+      "40522420"
+    ],
+    "review": [
+      "40312983",
+      "39612458"
+    ],
+    "pmc": [
+      "12147098"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40312983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/ijnp/article-lookup/doi/10.1093/ijnp/pyaf029",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

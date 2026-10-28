@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, concluding discussion, supplemental materials description, data availability, acknowledgments)
+- **Assessment boundary** Scientific claims, methodology, validation approach, and conclusions as presented in the provided text. No code, data files, or supplementary figures were available for direct inspection.
+- **Shared manuscript claim summary** The authors present AiPP, a sequence-only multimodal AI platform that predicts cysteine ligandability and reversible ligand-binding residues across the human proteome. They curate two new databases (LigCysABPP from ABPP studies, LigBind3D from BioLiP2), use ESM Cambrian embeddings with representation-based clustering to reconcile heterogeneous experimental labels, and report strong generalization to crystallography-validated cysteine liganding events. They further demonstrate practical utility on transcription factors, protein tyrosine phosphatases, and GPCRs, and release a proteome-wide covalent ligandability atlas.
+- **Visible evidence base** Abstract, introduction, results and discussion narrative, figure captions referenced in text (Figs 1–7), tables referenced (Tables 1–3), supplemental figure references (S1, S2), supplemental data file descriptions (SD1–SD21), data availability statement
+- **Missing materials affecting confidence** Actual figures and tables (only captions or in-text references visible), supplemental data files, model weights, code repository contents, detailed hyperparameter settings, full training/validation splits, and the complete LigCysABPP and LigBind3D database contents. These are essential for verifying the quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant problem in chemical biology and drug discovery: creating a proteome-wide map of ligandable cysteines. The authors combine large protein language models with carefully curated experimental data, and the reported performance on external crystallographic validation is impressive. The methodological contributions, particularly the representation-based clustering for label reconciliation and the iterative data expansion strategies, are thoughtful and potentially broadly applicable. However, the manuscript as provided has several critical gaps that prevent full assessment. The quantitative results are described in text but the actual figures and tables are not visible, making it impossible to verify the magnitude of the reported effects. The comparison to existing methods is limited, and the claim of being "first" is not rigorously established. The practical case studies are compelling but rely on unpublished or anecdotal validation for some key claims. The proteome-wide atlas is a valuable resource, but its quality depends entirely on the model's reliability, which needs stronger independent benchmarking. Overall, the work is promising and potentially important, but the current evidence base is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Chemical biologists developing covalent probes and inhibitors; computational biologists working on protein function prediction from sequence; drug discovery scientists targeting traditionally "undruggable" proteins such as transcription factors and phosphatases; researchers in the protein language model community interested in downstream applications; and the broader proteomics community interested in integrating heterogeneous large-scale datasets.
+- **Major strengths** 1) Addresses a high-impact problem with clear translational relevance. 2) Innovative use of pLLM representations for label reconciliation, going beyond sequence identity-based approaches. 3) Two complementary iterative data expansion strategies with clear rationale. 4) External validation on crystallography-derived data provides a strong test of generalization. 5) Practical case studies on transcription factors and phosphatases demonstrate real-world utility. 6) The proteome-wide atlas is a valuable community resource.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript reports specific quantitative performance metrics (e.g., "80% (Top-1) of cysteine liganding events from co-crystal structures, with 84% AUPRC and 89% AUROC") and iterative improvements (Table 2).
+  - **Evidence pointer** Tables 1–3, Figures 2–3, Supplemental Figures S1–S2 (location not provided in visible text)
+  - **Concern** The actual figures and tables are not visible in the provided material. All quantitative claims are presented as in-text descriptions without the underlying data, error bars, confidence intervals, or statistical comparisons. The reader cannot verify the reported numbers, assess variability across data splits, or evaluate the shape of the performance curves.
+  - **Why it matters** The central claim of the paper is that AiPP achieves strong and reliable prediction performance. Without the actual figures and tables, this claim cannot be independently assessed. The reported metrics could be cherry-picked, overfit, or based on favorable but non-representative splits. The comparison between LigCys-S and LigCys-A, and the claim that 4S–4R is optimal, rest entirely on these invisible results.
+  - **Resolution test** Provide the actual figures and tables with full axis labels, error bars or confidence intervals, and clear descriptions of the statistical tests used. Include the number of proteins and cysteines in each test set, and show the distribution of scores, not just aggregate metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The manuscript claims that representation-based clustering "is more stringent and effective in reducing the risk of data leakage" compared to sequence identity methods like CD-HIT.
+  - **Evidence pointer** Results section "Using representation-based clustering to derive cysteine ligandability labels for ML" (location not provided)
+  - **Concern** The claim that pLLM embedding-based clustering is superior to sequence identity-based filtering for preventing data leakage is not empirically demonstrated. No comparison is shown between models trained with CD-HIT-based splits versus representation-based splits. The statement is presented as a logical argument, but the actual impact on model performance and generalization is not quantified.
+  - **Why it matters** Data leakage is a critical issue in machine learning for protein function prediction. If the representation-based clustering does not actually reduce leakage compared to standard methods, the reported external validation results could be inflated. The authors need to demonstrate that their clustering approach leads to genuinely independent training and test sets.
+  - **Resolution test** Perform an ablation study where models are trained with (a) CD-HIT-based sequence similarity filtering and (b) representation-based clustering, and compare performance on the same external test sets. Show that the representation-based approach leads to lower performance on training-like examples but higher or equal performance on truly novel proteins, indicating better generalization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The manuscript states that existing ML models "have limited power due to structural dependencies and heterogeneous experimental labels" and implies AiPP overcomes these limitations.
+  - **Evidence pointer** Introduction, Results section "Development of the sequence-only LigCys models" (location not provided)
+  - **Concern** The comparison to existing methods is superficial. The authors mention CIAA, TopCySPAL, and a CNN from DrugMap, but do not provide a systematic head-to-head benchmark on the same test sets. The claim that AiPP is superior is not quantitatively established. The "limited power" of existing methods is asserted but not demonstrated with comparative data.
+  - **Why it matters** For a methods paper, demonstrating clear superiority or at least parity with existing approaches on standardized benchmarks is essential. Without this, the contribution of AiPP relative to the state of the art is unclear. The authors may have valid reasons for not doing a full comparison, but they need to state these explicitly and provide at least a partial benchmark.
+  - **Resolution test** Run AiPP and at least one existing method (e.g., TopCySPAL) on the same external test sets (LC3D, ABPP hold-out) and report the full set of metrics. If a direct comparison is not feasible, state the reasons and provide a qualitative but evidence-based discussion of expected differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of case studies
+  - **Claim pointer** The manuscript claims that AiPP "reliably identifies active-site and allosteric cysteines in protein tyrosine phosphatases (PTPs) undetectable by ABPP" and that the MC3R C2376.30 site is a "testable hypothesis" for drug development.
+  - **Evidence pointer** Results section "Application case study 3" and "AiPP illuminates ligandable sites across the human proteome" (location not provided)
+  - **Concern** The case studies are presented as validation, but the evidence is largely correlational or based on unpublished data. For PTPs, the claim that AiPP identifies sites "undetectable by ABPP" is supported only by the absence of detection, not by independent experimental validation. The MC3R allosteric site is described as a "testable hypothesis," which is appropriate, but the surrounding text implies a level of confidence that is not justified by the evidence presented. The unpublished PTPN6 inhibitor data cannot be assessed.
+  - **Why it matters** The practical utility of AiPP is a key selling point. If the case studies are not rigorously validated, the translational claims are weakened. The authors need to be clearer about what is prediction, what is correlation, and what is experimentally confirmed.
+  - **Resolution test** For at least one case study, provide independent experimental validation (e.g., mutagenesis, labeling experiments, or functional assays) that confirms the predicted ligandability. If such data are not yet available, clearly label the case studies as "in silico predictions with supporting circumstantial evidence."
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The manuscript describes iterative data expansion strategies that "systematically expand the training data" and improve performance.
+  - **Evidence pointer** Results section "Enhanced model performance through iterative training data expansion" (location not provided)
+  - **Concern** The iterative expansion procedures are described at a high level, but the details are insufficient for reproducibility. The criteria for accepting or rejecting a batch are not fully specified. The stopping criteria are vague ("performance had plateaued"). The computational cost of the procedure is not discussed. The risk of circularity (using the model to select its own training data) is acknowledged but not fully addressed.
+  - **Why it matters** The iterative expansion is a methodological contribution. If the procedure is not fully specified, other researchers cannot reproduce it or assess its validity. The risk of overfitting to the validation set (LC3D) is a real concern, and the authors need to show that the final model does not simply memorize the LC3D test set.
+  - **Resolution test** Provide a complete algorithmic description of the iterative procedure, including all hyperparameters, acceptance thresholds, and stopping rules. Show the performance on a truly held-out test set that was never used in any iteration, including for model selection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "limited oiwer" appears to be a typo, likely "limited power."
+  - **Required correction** Correct the typo to "limited power."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Results section "Development of the sequence-only LigCys models" (location not provided)
+  - **Issue** The manuscript states that "preliminary testing showed this layer provided optimal performance" for choosing embedding layer 76, but the details of this testing are not provided.
+  - **Required correction** Provide a brief description of the preliminary testing procedure, including the range of layers tested and the metric used for selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to existing databases
+  - **Evidence pointer** Results section "Curation of an ML-ready cysteine ligandability database LigCysABPP" (location not provided)
+  - **Issue** The authors mention CysDB and TopCysteineDB but do not provide a detailed comparison of their new LigCysABPP database with these existing resources in terms of content, coverage, and overlap.
+  - **Required correction** Add a supplementary table or figure comparing the number of proteins, cysteines, and data sources between LigCysABPP, CysDB, and TopCysteineDB.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Figure 4 analysis
+  - **Evidence pointer** Results section "LigBind predictions offer complementary validation for LigCys predictions" (location not provided)
+  - **Issue** The radial distribution function analysis is described, but the interpretation of the FP and FN peaks is not fully discussed. The authors note that FP RDFs have low peaks, but do not explain what this means for the model's error modes.
+  - **Required correction** Add a sentence or two interpreting the RDF results in terms of the biological or structural meaning of false positives and false negatives.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The authors state that the atlas is available as a web server and the code on GitHub, but they do not specify the license for the code or the terms of use for the database.
+  - **Required correction** Specify the software license and any restrictions on database use in the Data Availability section.
+
+## Risk / unsupported claims
+- The claim that AiPP is the "first multimodal AI platform" for this task is not rigorously established, as the authors do not provide a comprehensive literature search or a clear definition of what constitutes "multimodal" in this context.
+- The claim that AiPP "reliably identifies" active-site and allosteric cysteines in PTPs is overstated, as the evidence is based on prediction and unpublished data, not independent experimental validation.
+- The claim that the 4S–4R criterion is "an optimal tradeoff" is based on the invisible Figure 3 and Table 1, and cannot be verified.
+- The claim that representation-based clustering is "more stringent and effective" than sequence identity methods is not empirically demonstrated.
+- The claim that the proteome-wide atlas "illuminates" ligandable sites in previously undruggable targets is based on model predictions that have not been experimentally validated for the vast majority of the predicted sites.
+- The performance comparison with existing methods (CIAA, TopCySPAL, DrugCNN) is not quantitative and does not allow the reader to assess relative performance.
+
+## Assessment against Nature-style criteria
+- **Originality** The combination of pLLM embeddings with representation-based clustering for label reconciliation, and the iterative data expansion strategies, are novel methodological contributions. The application to create a proteome-wide ligandability atlas is also original. However, the individual components (pLLMs, ABPP data, ligand-binding prediction) are not new, and the novelty lies in their integration.
+- **Scientific importance** The problem of mapping ligandable cysteines across the proteome is of high importance for chemical biology and drug discovery. A reliable sequence-based predictor would be transformative. The potential impact is substantial.
+- **Interdisciplinary readership** The work bridges machine learning, chemical biology, structural biology, and drug discovery. It should appeal to a broad readership across these fields. The writing is generally accessible, though some sections assume familiarity with both ML and proteomics terminology.
+- **Technical soundness** The overall approach is sound in principle, but the current evidence base is insufficient to fully assess technical soundness. The invisible figures and tables, the lack of a systematic comparison with existing methods, and the incomplete description of the iterative procedures are significant gaps. The validation strategy is thoughtful (external crystallographic data, hold-out sets), but the execution cannot be verified.
+- **Readability for nonspecialists** The abstract and introduction are accessible. The results section is dense and assumes significant background in both ML and chemical biology. The case studies help ground the work in concrete examples. The manuscript would benefit from a clearer explanation of the key concepts (e.g., what "ligandability" means in practice, what the embedding clustering achieves) for a broader audience.

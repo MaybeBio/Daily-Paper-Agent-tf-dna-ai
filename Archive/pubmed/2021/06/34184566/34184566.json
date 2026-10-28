@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "34184566",
+    "doi": "10.1177/15330338211019506",
+    "title": "Investigation of Candidate Genes and Pathways in Basal/TNBC Patients by Integrated Analysis."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study aims to identify the key pathway and related genes and to further explore the potential molecular mechanisms of triple negative breast cancer (TNBC). METHODS: The transcriptome data and clinical information of breast cancer patients were downloaded from the TCGA database, including 94 cases of paracancerous tissue, 225 cases of Basal like type, 151 cases of Her2 type, 318 cases of Luminal type A, 281 cases of Luminal type B, and 89 cases of Normal Like type. The differentially expressed genes (DEGs) were identified based on the criteria of |logFC|>/=1.5 and adjust P < 0.001.Their functions were annotated by gene ontology (GO) analysis and Kyoto Encyclopedia of differentially expressed genes & Genomes (KEGG) pathway analysis. Cox regression univariate analysis and Kaplan-Meier survival curves (Log-rank method) were used for survival analysis. FOXD1, DLL3 and LY6D were silenced in breast cancer cell lines, and cell viability was assessed by CCK-8 assay. Further, the expression of FOXD1, DLL3 and LY6D were explored by immunohistochemistry on triple negative breast tumor tissue and normal breast tissue. RESULTS: A total of 533 DEGs were identified. Functional annotation showed that DEGs were significantly enriched in intermediate filament cytoskeleton, DNA-binding transcription activator activity, epidermis development, and Neuroactive ligand-receptor interaction. Survival analysis found that FOXD1, DLL3, and LY6D showed significant correlation with the prognosis of patients with the Basal-like type (P < 0.05). CCK-8 assay showed that compared with Doxorubicin alone group, the cytotoxicity of Doxorubicin combined with siRNA-knockdown of FOXD1, DLL3, or LY6D was much significant. CONCLUSION: The DEGs and their enriched functions and pathways identified in this study contribute to the understanding of the molecular mechanisms of TNBC. In addition, FOXD1, DLL3, and LY6D may be defined as the prognostic markers and potential therapeutic targets for TNBC patients.",
+    "keywords": [
+      "The Cancer Genome Atlas",
+      "identification of key genes",
+      "survival prognosis",
+      "triple negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Antibiotics, Antineoplastic/pharmacology",
+      "Cell Adhesion Molecules/*genetics/metabolism",
+      "Cell Line, Tumor",
+      "*Cell Survival/drug effects/genetics",
+      "Databases, Genetic",
+      "Doxorubicin/pharmacology",
+      "Female",
+      "Forkhead Transcription Factors/*genetics/metabolism",
+      "GPI-Linked Proteins/genetics/metabolism",
+      "Gene Knockdown Techniques",
+      "Gene Ontology",
+      "Humans",
+      "Intracellular Signaling Peptides and Proteins/*genetics/metabolism",
+      "Kaplan-Meier Estimate",
+      "Membrane Proteins/*genetics/metabolism",
+      "Metabolic Networks and Pathways",
+      "Prognosis",
+      "Proportional Hazards Models",
+      "Protein Interaction Maps",
+      "Transcriptome",
+      "Triple Negative Breast Neoplasms/*genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Qi",
+        "Song, Xiang",
+        "Liu, Zhaoyun",
+        "Yu, Zhiyong"
+      ],
+      "short_names": [
+        "Liu Q",
+        "Song X",
+        "Liu Z",
+        "Yu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4217-0641"
+      ],
+      "affiliations": [
+        "School of Medicine, Shandong University, Jinan, People's Republic of China.",
+        "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China.",
+        "Department of Breast and Thyroid Surgery, Weifang Traditional Chinese Hospital, Weifang, Shandong, People's Republic of China.",
+        "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China.",
+        "School of Medicine, Shandong University, Jinan, People's Republic of China.",
+        "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China.",
+        "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Qi",
+        "short_name": "Liu Q",
+        "identifiers": [
+          "0000-0003-4217-0641"
+        ],
+        "affiliations": [
+          "School of Medicine, Shandong University, Jinan, People's Republic of China.",
+          "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China.",
+          "Department of Breast and Thyroid Surgery, Weifang Traditional Chinese Hospital, Weifang, Shandong, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Song, Xiang",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaoyun",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Shandong University, Jinan, People's Republic of China.",
+          "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhiyong",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Shandong Cancer Hospital and Institute, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, Shandong, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology in cancer research & treatment"
+    ],
+    "journal_abbrev": [
+      "Technol Cancer Res Treat"
+    ],
+    "pub_date": "2021 Jan-Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/30 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "41008798",
+      "39485636",
+      "38847725",
+      "38245559",
+      "37724005",
+      "37507701",
+      "36734039",
+      "35619902"
+    ],
+    "refs": [
+      "32883354",
+      "32568181",
+      "32351986",
+      "32178572",
+      "31819500",
+      "31369178",
+      "30566873",
+      "30562753",
+      "30454048",
+      "30397180",
+      "30225541",
+      "30137688",
+      "30110134",
+      "30104567",
+      "29959475",
+      "29936179",
+      "29263181",
+      "27520484",
+      "26862846",
+      "26406377",
+      "25660489",
+      "25516281",
+      "25462566",
+      "25208879",
+      "24953729",
+      "23886476",
+      "23875648",
+      "23831572",
+      "22810696",
+      "22759861",
+      "22460905",
+      "22455463",
+      "22237781",
+      "21067385",
+      "19587451",
+      "17055256",
+      "16757721",
+      "16444269",
+      "14597658"
+    ],
+    "similar": [
+      "34184566",
+      "31974598",
+      "32358373",
+      "31197620",
+      "33879671",
+      "28075450",
+      "34965257",
+      "26103053",
+      "35474355",
+      "35627287",
+      "33713320",
+      "35504321",
+      "30175120",
+      "26112095",
+      "38067506",
+      "34053447",
+      "34797837",
+      "33757543",
+      "31924747",
+      "33066779",
+      "30308479",
+      "30132538",
+      "30926829",
+      "38421558",
+      "33305312",
+      "32328816",
+      "30736840",
+      "33959656",
+      "31290690",
+      "36305410",
+      "34039311",
+      "27130446",
+      "32596149",
+      "30302816",
+      "35795662",
+      "32384511",
+      "30791886",
+      "33650093",
+      "37274780",
+      "34408776",
+      "33437215",
+      "30336768",
+      "33615456",
+      "35585821",
+      "33708832",
+      "32104513",
+      "34686627",
+      "31926937",
+      "37005579",
+      "25837326",
+      "30140156",
+      "33734898",
+      "32578582",
+      "29921827",
+      "32723333",
+      "30589034",
+      "29973580",
+      "36768478",
+      "34055036",
+      "31987036",
+      "33078282",
+      "28417335",
+      "30562753",
+      "35579380",
+      "32544280",
+      "31886586",
+      "31741180",
+      "29885455",
+      "34789836",
+      "34269372",
+      "24788655",
+      "32383785",
+      "24615768",
+      "32756534",
+      "36880837",
+      "30365046",
+      "25550559",
+      "34840971",
+      "33171372",
+      "30454048",
+      "27118257",
+      "33688252",
+      "36452344",
+      "30651219",
+      "33934391",
+      "37391802",
+      "30633343",
+      "32925871",
+      "31033460",
+      "34610510",
+      "32619350",
+      "34830241",
+      "32766313",
+      "28237701",
+      "34284965",
+      "35140706",
+      "32016476",
+      "34022297",
+      "31841197",
+      "31588230",
+      "38090381",
+      "38822944",
+      "30572444",
+      "38718221",
+      "39071464",
+      "38369822",
+      "39021189",
+      "34868954",
+      "38197537",
+      "35070893",
+      "39214909",
+      "38612711"
+    ],
+    "review": [
+      "34184566",
+      "34269372"
+    ],
+    "pmc": [
+      "8246569"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15330338211019506?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/34184566/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/34184566.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34184566/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34184566",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

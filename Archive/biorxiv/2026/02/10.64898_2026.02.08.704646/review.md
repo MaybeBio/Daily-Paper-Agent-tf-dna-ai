@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, limitations, author contributions, declarations, data availability, acknowledgments)
+- **Assessment boundary** Scientific content, methodological soundness, claims-to-evidence alignment, resource utility, and presentation quality. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors present a single-nucleus multi-omics atlas of human hindbrain development spanning embryonic to adult stages, comprising 594,817 transcriptomic and 422,568 chromatin-accessibility profiles. They report: (1) resolution of hindbrain cellular diversity across major classes; (2) identification of coordinated transcriptomic programs (meta-gene programs) and cis-regulatory programs (meta-regulatory programs) guiding developmental trajectories; (3) inference of cell-type-specific transcription factor activity via integrative analysis; (4) evidence that HOX genes drive divergent identity in rhombic lip lineages primarily through expression changes without correlated chromatin remodeling; and (5) application of the atlas to contextualize pediatric gliomas, revealing context drift as a mechanism of oncogenic transformation.
+- **Visible evidence base** Main text figures referenced (Fig. 1A–H, Fig. 2A–I, Fig. 3A–K, Fig. 4A–D, Fig. 5A–H, Fig. 6A–I, Fig. 7A–I), supplementary figures (Fig. S1–S17), supplementary tables (Table S1–S10), methods section (referenced but not provided in full), and a web resource (HindbrainExplorer).
+- **Missing materials affecting confidence** Full methods section not provided; figure panels referenced but not viewable; supplementary tables and figures not accessible; no detailed statistical reporting; no validation metrics for the deep-learning model beyond performance comparison; no details on data processing pipelines, quality control thresholds, or normalization procedures.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially valuable resource: a large, integrated single-nucleus multi-omics atlas of human hindbrain development. The scale of data generation is impressive, and the integration of transcriptomic and chromatin-accessibility modalities across developmental stages addresses a genuine gap in the field. The analytical framework, including meta-gene programs, meta-regulatory programs, and context-drift analysis, is thoughtful and goes beyond standard differential expression approaches. However, the current manuscript, as provided, does not fully establish several core claims. The absence of the methods section and inability to inspect figures and supplementary materials severely limits verification. Key claims regarding HOX-driven regulation, context drift as a mechanism of oncogenic transformation, and the superiority of cis-regulatory over transcriptomic definitions of cell identity require stronger direct evidence and clearer statistical support. The tumor analysis, while conceptually interesting, is presented at a level that is more suggestive than definitive. The resource itself, if made accessible and well-documented, would be of high value to the community.
+- **Who would be interested in the results, and why** Developmental neuroscientists studying hindbrain patterning, rhombomere identity, and cerebellar development would find the atlas directly relevant. Researchers in gene regulation and chromatin biology interested in cis-regulatory logic during human organogenesis would benefit from the integrated CRE and TF analysis. The pediatric neuro-oncology community, particularly those studying posterior fossa tumors such as pilocytic astrocytoma, diffuse midline glioma, and ependymoma, would be interested in the lineage-of-origin mapping and context-drift findings. Additionally, computational biologists developing methods for single-cell multi-omics integration, TF activity inference, and cross-condition context analysis would find the analytical framework of interest.
+- **Major strengths** (1) The scale and multimodal nature of the dataset, combining nearly 600,000 transcriptomic and over 420,000 chromatin-accessibility profiles across developmental stages, represents a major resource contribution. (2) The analytical approach, particularly the use of LDA-based meta-programs and the context-drift framework, is sophisticated and moves beyond standard marker-based annotation. (3) The integration of normal development with pediatric tumor data provides a practical demonstration of the atlas's utility. (4) The identification of HOX-driven divergence in rhombic lip lineages with a specific mechanistic hypothesis (expression-driven without chromatin remodeling) is a focused and testable claim. (5) The provision of a user-friendly web portal (HindbrainExplorer) enhances the accessibility and potential impact of the resource.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / reproducibility
+  - **Claim pointer** The manuscript claims a comprehensive multi-omics atlas with 594,817 transcriptomic and 422,568 chromatin-accessibility profiles, and describes extensive quality control, integration, and annotation procedures.
+  - **Evidence pointer** Methods section (referenced but not provided); Fig. 1A–H; Table S1–S3
+  - **Concern** The full methods section is not provided in the manuscript text. Critical details on data generation, preprocessing, quality control thresholds, doublet removal, normalization, batch correction, integration of snRNA-seq and snATAC-seq datasets, and the specific parameters for NMF, LDA, and SCENIC+ analyses are absent. Without these, the reproducibility of the atlas construction and all downstream analyses cannot be assessed.
+  - **Why it matters** A resource paper of this nature depends entirely on the rigor and transparency of its data processing pipeline. The inability to evaluate methods directly undermines confidence in every downstream claim, from cell type annotation to TF activity inference and tumor contextualization.
+  - **Resolution test** Provide the full methods section, including all parameters, thresholds, software versions, and code availability. Ideally, provide a detailed supplementary methods document or a protocol-style description that allows independent replication of the pipeline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength / claim support
+  - **Claim pointer** The manuscript claims that "context drift" in gene expression, identified through gene community structure analysis, drives oncogenic transformation in pediatric gliomas, and that this mechanism reveals therapeutic vulnerabilities missed by differential expression analyses.
+  - **Evidence pointer** Fig. 7D–I; Fig. S16G; Table S9, S10; "location not provided" for specific statistical tests
+  - **Concern** The context-drift analysis is presented as a key novel finding, but the evidence provided in the text is largely descriptive. The manuscript states that gained genes have the highest context-drift scores and that DMG exhibits higher drift than PA, but does not provide statistical comparisons, effect sizes, or validation that these shifts are functionally relevant. The claim that context drift reveals therapeutic vulnerabilities is not supported by any functional experiments or drug-response data. The pathway analysis for top drifted genes is mentioned, but the results are not presented in sufficient detail to evaluate their significance.
+  - **Why it matters** The claim that subtle, coordinated shifts in gene context drive oncogenic transformation and represent therapeutic targets is a strong and clinically relevant assertion. Without rigorous statistical support, functional validation, or demonstration that context-drift genes are druggable and effective targets, this claim remains speculative.
+  - **Resolution test** Provide statistical comparisons of context-drift scores between tumor types and normal counterparts, with appropriate multiple-testing corrections. Include validation in independent datasets or experimental models demonstrating that high-drift genes are functionally required for tumor maintenance or that targeting them has therapeutic efficacy. Clarify the specificity of the pathway enrichments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability / claim precision
+  - **Claim pointer** The manuscript claims that HOX genes drive divergent cellular identity in rhombic lip lineages primarily through changes in TF expression without correlated reshaping of the cis-regulatory landscape, and that this represents a general mechanism for lineage divergence.
+  - **Evidence pointer** Fig. 6A–I; Fig. S13A–F; "location not provided" for specific analyses
+  - **Concern** The claim that HOX-driven divergence occurs without chromatin remodeling is based on the observation that HOX target gene sets are enriched in pontine nuclei neuroblasts but their associated CREs are not differentially enriched. However, the manuscript does not provide details on how HOX target gene sets were defined, how CRE enrichment was quantified, or whether the statistical power was sufficient to detect differential accessibility. The representative example of PAX6 is mentioned but not shown in detail. The generalizability of this finding to other HOX targets and other rhombic lip lineages is unclear.
+  - **Why it matters** This is a mechanistically interesting claim that challenges the prevailing view that TF-driven lineage specification involves coordinated chromatin remodeling. If true, it has implications for understanding how developmental identity is established. However, the current evidence is insufficient to distinguish between a true absence of chromatin remodeling and a failure to detect it.
+  - **Resolution test** Provide detailed methodology for HOX target identification and CRE enrichment analysis. Include power calculations or confidence intervals for the null result. Show the PAX6 example in detail, including chromatin accessibility tracks and expression data. Consider orthogonal validation, such as chromatin conformation capture or TF binding assays, to support the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Resource utility / validation
+  - **Claim pointer** The manuscript claims that the atlas provides a foundational resource for hindbrain biology and that the HindbrainExplorer portal provides user-friendly access to the data.
+  - **Evidence pointer** HindbrainExplorer URL; Fig. S17A,B; "location not provided" for portal documentation
+  - **Concern** While the portal is a commendable feature, the manuscript does not describe its functionality, data query options, or limitations in detail. The example application (Alzheimer's disease SNP analysis) is mentioned but not fully described. The claim that the atlas is a "foundational resource" requires demonstration that the data are easily accessible, well-documented, and interoperable with standard analysis tools.
+  - **Why it matters** The long-term impact of a resource paper depends on the usability and accessibility of the data. If the portal is difficult to use, poorly documented, or lacks key features, the resource's value is diminished.
+  - **Resolution test** Provide a detailed description of the portal's features, including search functions, data download options, visualization tools, and any API access. Include a user guide or tutorial. Demonstrate the Alzheimer's disease analysis in full, including how users would reproduce it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states the atlas "resolved the cellular architecture of hindbrain cellular lineages" and "delineated coordinated gene expression, cis-regulatory programs and regulatory grammar." These terms are used without definition, and the abstract does not convey the specific novel findings beyond the resource itself.
+  - **Required correction** Consider revising the abstract to highlight one or two specific, novel biological insights (e.g., the HOX finding or the context-drift mechanism) to give readers a clearer sense of the conceptual advances beyond the dataset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 2B–I, Fig. 5D–G, Fig. 6D–H, Fig. 7C
+  - **Evidence pointer** "location not provided"
+  - **Issue** Several figures are described as showing "enrichment," "specificity," or "significance," but the statistical tests used, the thresholds applied, and the multiple-testing corrections are not stated in the text.
+  - **Required correction** Add a statistical methods subsection or figure legends that specify the tests used, the sample sizes, the correction methods, and the significance thresholds for each analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Splatter neurons"
+  - **Evidence pointer** Results section, "location not provided"
+  - **Issue** The term "splatter neurons" is used with reference to Siletti et al. but is not defined. Readers unfamiliar with that work may not understand what this pattern represents.
+  - **Required correction** Provide a brief definition or description of the "splatter" pattern when first used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** "Raw data will be provided after data transfer agreement"
+  - **Issue** The statement that raw data will be provided only after a data transfer agreement is restrictive and may limit the resource's utility for some researchers. The manuscript does not specify the timeline or conditions for data access.
+  - **Required correction** Clarify the data access policy, including the expected timeline for data release, the process for requesting access, and any restrictions on use. Consider depositing processed data in a public repository to maximize accessibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Fig. 1A–H, Fig. 2A–I, Fig. 3A–K, Fig. 4A–D, Fig. 5A–H, Fig. 6A–I, Fig. 7A–I
+  - **Evidence pointer** "location not provided"
+  - **Issue** The figures are referenced extensively but not viewable in the provided text. It is not possible to assess the quality of the visualizations, the clarity of the annotations, or the appropriateness of the dimensionality reduction embeddings.
+  - **Required correction** Ensure that all figures are of high resolution, with clear labels, legible legends, and appropriate color schemes. Consider providing interactive versions for the atlas visualizations.
+- **Technical failings that need to be addressed before the case is established** (1) Full methods section must be provided. (2) Statistical reporting for all enrichment and comparison analyses must be included. (3) The context-drift analysis requires formal statistical testing and functional validation. (4) The HOX claim requires detailed methodology and power analysis. (5) The portal functionality and data access policy need clarification.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The dataset itself is a significant original contribution, being the first integrated single-nucleus multi-omics atlas of the human hindbrain across developmental stages. The analytical approaches, particularly the LDA-based meta-programs and the context-drift framework, are not entirely novel but are applied in a new context. The HOX finding, if substantiated, would be an original mechanistic insight.
+  - **Scientific importance** The hindbrain is understudied relative to the forebrain, and a comprehensive atlas addressing this gap has clear importance for developmental biology and neuro-oncology. The potential to contextualize pediatric tumors within normal development is clinically relevant.
+  - **Interdisciplinary readership** The work bridges developmental neuroscience, genomics, chromatin biology, and oncology. The resource would be of interest to a broad readership, but the current presentation is heavily technical and may be challenging for non-specialists.
+  - **Technical soundness** The scale of data generation and the integration approach are technically impressive. However, the lack of methods details and the absence of statistical rigor in key analyses (context drift, HOX claim) currently prevent a full assessment of technical soundness.
+  - **Readability for nonspecialists** The manuscript is dense and assumes significant familiarity with single-cell genomics, TF biology, and chromatin analysis. The abstract and introduction are accessible, but the results sections are challenging. The discussion is more readable and does a good job of framing the broader implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource has clear value, and the conceptual framework is interesting. However, the current manuscript does not fully establish the key mechanistic claims (HOX-driven divergence, context drift as oncogenic driver) from the evidence provided. A revised manuscript with full methods, rigorous statistics, and functional validation of the central claims would be needed to establish the case.
+
+## Risk / unsupported claims
+- The claim that "context drift" drives oncogenic transformation and reveals therapeutic vulnerabilities is not supported by the provided evidence; no functional validation or drug-response data are presented.
+- The claim that HOX genes drive divergent identity without chromatin remodeling is insufficiently supported; the null result for CRE enrichment requires power analysis and orthogonal validation.
+- The claim that the cis-regulatory landscape provides "higher resolution" than the transcriptome for defining cell identity is asserted but not quantitatively demonstrated.
+- The claim that the atlas is a "foundational resource" is reasonable but depends on data accessibility and documentation, which are not fully described.
+- The statement that "the dataset resolved the cellular architecture of hindbrain cellular lineages" is broad and not fully substantiated without detailed annotation validation metrics.
+- The claim that the hindbrain atlas provides an "excellent reference" for tumor lineage-of-origin inference is plausible but not validated against independent ground-truth data.

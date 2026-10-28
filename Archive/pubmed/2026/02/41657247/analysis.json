@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41657247",
+  "title": "bayesReact: expression-coupled regulatory motif analysis detects microRNA activity across cancers, tissues, and at the single-cell level.",
+  "authors": "Rasmussen, Asta Mannstaedt; Bouchard-Cote, Alexandre; Pedersen, Jakob Skou",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-02-09",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出bayesReact生成模型，基于序列motif从表达数据推断miRNA调控活性，虽涉及基因调控但非蛋白质-DNA互作，且无AI/物理模拟结合建模，仅间接相关。",
+  "abstract": "Gene regulatory mechanisms control cell differentiation and homeostasis but are often undetectable, particularly at the single-cell level. We introduce bayesReact, which quantifies regulatory activities from bulk or single-cell omics data. It is based on an unsupervised generative model, exploiting the fact that each regulator typically targets many genes sharing a sequence motif. Using mRNA expression data, we illustrate and evaluate bayesReact on microRNAs (miRNAs). It outperforms existing methods on sparse bulk data and improves activity inference on single-cell data. Inferred miRNA activities correlate with miRNA expression across pan-cancer TCGA and healthy GTEx tissue samples. The activities capture cancer-type-specific miRNA patterns, e.g., for miR-122-5p and miR-124-3p, which also correlate more strongly with their target genes than their measured expression. This includes a strong negative correlation between miR-124-3p and the anti-neuronal REST transcription factor in nervous system cancers. Analyzing single-cell data, bayesReact detects prominent miRNAs during murine stem cell differentiation, including miR-298-5p, miR-92-2-5p, and the Sfmbt2 cluster (miR-297-669). Furthermore, spatio-temporal inference shows increasing miR-124-3p activity in differentiating neurons during embryonic spinal cord development in mice. bayesReact enables large-scale hypothesis-generating screens for novel regulatory factors and the discovery of condition-specific activities. It is implemented as a user-friendly R package (https://github.com/JakobSkouPedersenLab/bayesReact).",
+  "abstract_zh": "基因调控机制控制细胞分化和稳态，但往往难以检测，尤其是在单细胞水平。我们引入了bayesReact，它从批量或单细胞组学数据中量化调控活性。它基于无监督生成模型，利用每个调控因子通常靶向许多共享序列基序的基因这一事实。使用mRNA表达数据，我们在微小RNA（miRNAs）上展示并评估了bayesReact。它在稀疏批量数据上优于现有方法，并改善了单细胞数据上的活性推断。推断的miRNA活性与泛癌TCGA和健康GTEx组织样本中的miRNA表达相关。这些活性捕获了癌症类型特异性的miRNA模式，例如miR-122-5p和miR-124-3p，它们与其靶基因的相关性也强于其测量表达。这包括在神经系统癌症中miR-124-3p与抗神经元REST转录因子之间的强负相关。分析单细胞数据时，bayesReact检测到小鼠干细胞分化过程中的显著miRNA，包括miR-298-5p、miR-92-2-5p和Sfmbt2簇（miR-297-669）。此外，时空推断显示，在小鼠胚胎脊髓发育过程中，分化神经元中的miR-124-3p活性增加。bayesReact能够进行大规模假设生成的筛选，以发现新的调控因子和条件特异性活性。它作为一个用户友好的R包实现（https://github.com/JakobSkouPedersenLab/bayesReact）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41657247/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41657247/",
+  "paper_page_path": "papers/pubmed/41657247/index.html"
+}

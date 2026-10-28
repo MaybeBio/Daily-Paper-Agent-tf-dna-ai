@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, conclusion, and supplemental figure/table legends.
+- **Assessment boundary** Scientific validity of the claims, methodological soundness, and interpretation of results as presented. No assessment of code or raw simulation trajectories, which were not provided.
+- **Shared manuscript claim summary** The authors claim that N-terminal acetylation of the Tc3a transposase induces a base-flipping event at T13 within the transposon inverted terminal repeat, that this event is mediated by the bipartite helix-turn-helix domains, that it generates torsional strain and directional propagation along the DNA axis, and that this mechanism explains discrepancies in prior models of Tc1/Mariner transposition. They further claim that the acetylated N-terminal Pro-Arg motif is statistically enriched among human DNA/RNA binding proteins.
+- **Visible evidence base** Molecular dynamics simulations (equilibration, pulled simulations, free energy calculations via WHAM), RMSF and density analyses, hydrogen bonding analyses, structural comparisons to PDB 1U78, and a bioinformatic survey of the Uniprot database.
+- **Missing materials affecting confidence** Raw simulation trajectories, force field parameter files, input coordinate files, WHAM output data, convergence metrics, and the full set of hydrogen bonding data (S1 Table) were not provided. The manuscript does not include a detailed methods description for the bioinformatic enrichment analysis beyond brief statements.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially important hypothesis regarding the role of N-terminal acetylation in Tc3a transposase DNA recognition. The central claim, that acetylation induces base flipping at T13, is supported by the simulation data as described, but the evidence base is incomplete in several critical respects. The free energy calculations are described only in passing, and the statistical analysis of the bioinformatic survey is underpowered and not fully described. The manuscript would benefit from a more rigorous treatment of simulation convergence, error estimation, and a clearer connection between the observed base flipping and the proposed functional consequences for transposition.
+- **Who would be interested in the results, and why** Researchers studying transposon biology, particularly the Tc1/Mariner superfamily, will find the proposed mechanism of interest. The work may also appeal to those studying DNA-protein interactions, base flipping mechanisms in other contexts, and the functional role of N-terminal acetylation in DNA binding proteins. The bioinformatic survey, if strengthened, could be of interest to a broader community studying post-translational modifications and their evolutionary conservation.
+- **Major strengths** The study addresses a long-standing question in the field with a novel hypothesis. The use of long-timescale MD simulations with a physiologically relevant salt concentration is appropriate. The comparison of multiple N-terminal variants (acetylated, unacetylated, truncated, and non-native) is a good experimental design. The observation that the base-flipping event is stable over 300 ns is compelling. The bioinformatic analysis, while preliminary, opens a new avenue for investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of free energy calculations
+  - **Claim pointer** The manuscript claims a Gibbs free energy change of -416.17 kJ/mol for the bipartite domain, and attributes a 25-30 kJ/mol difference to the acetyl group.
+  - **Evidence pointer** Materials and Methods, Free Energy Calculations; Results, Fig. 3 and S1 Fig.
+  - **Concern** The free energy calculations are described in a single paragraph with no details on the WHAM implementation, number of umbrella sampling windows, convergence criteria, or error estimates. The claim of a 25-30 kJ/mol difference attributable to the acetyl group is presented without statistical uncertainty. The pulled simulation protocol is described as applying force to HTH1, the loop, and HTH2, but the relationship between these pulling experiments and the equilibrium binding free energy is not explained.
+  - **Why it matters** The quantitative free energy values are central to the claim that the acetyl group confers a significant affinity advantage. Without error bars or convergence analysis, the reader cannot assess whether the reported differences are meaningful or within statistical noise. The 25-30 kJ/mol difference is a key quantitative claim that underpins the mechanistic interpretation.
+  - **Resolution test** Provide a detailed description of the umbrella sampling protocol, including the number of windows, the reaction coordinate, the force constants, and the convergence of the PMF with respect to simulation time. Report the statistical uncertainty on the free energy estimates, for example via bootstrap analysis or block averaging. Show that the PMF profiles are converged by comparing results from independent simulations or by demonstrating that the difference between the acetylated and non-acetylated systems exceeds the combined statistical error.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the base-flipping claim
+  - **Claim pointer** The central claim is that N-terminal acetylation induces T13 to flip out of the DNA duplex, and that this is the key mechanistic event.
+  - **Evidence pointer** Results, Fig. 2, Fig. 5, Fig. 8; Supplemental Movies S1-S4.
+  - **Concern** The base-flipping event is described as occurring in the acetylated system, but the manuscript does not provide a quantitative definition of "flipped out." The rotation angle of 120-140 degrees is mentioned, but the reference frame for this angle is not defined. It is unclear whether the flipped state is the dominant conformation or merely a transient state. The claim that this event is "maintained through the duration of separate long simulations for 300 ns" is stated, but the number of independent simulations and the variability between them is not reported.
+  - **Why it matters** The base-flipping event is the central observation of the paper. If the flipped state is not clearly defined and its population not quantified, the reader cannot assess whether this is a rare fluctuation or a stable feature of the complex. The claim that this is a "key mechanism" requires evidence that the flipped state is populated to a significant degree and is not an artifact of the simulation setup.
+  - **Resolution test** Provide a time series of the dihedral angle or pseudo-dihedral that defines the flipped state for each simulation. Report the fraction of time the base spends in the flipped state for each system. Show that the flipped state is stable across multiple independent simulations with different initial velocities. If possible, perform a Markov state model analysis or similar to quantify the free energy landscape of the flipping event.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical support for the bioinformatic claim
+  - **Claim pointer** The manuscript claims that the acetylated Pro-Arg N-terminus is enriched among DNA/RNA binding proteins in humans, with 54.55% of such proteins being DNA/RNA binders, compared to ~30% for other N-termini.
+  - **Evidence pointer** Results, Table 2, S2 Table.
+  - **Concern** The statistical analysis is described in a single sentence. No p-values are reported for the comparison between the Pro-Arg N-terminus and the other N-termini. The enrichment analysis with DAVID and MOET is mentioned, but the specific terms, background sets, and multiple testing corrections are not described. The sample size for the Pro-Arg group is not stated.
+  - **Why it matters** The bioinformatic claim is used to suggest that the mechanism may be general across many DNA binding proteins. If the statistical support is weak, this generalization is not justified. The claim of enrichment is a key part of the broader significance of the work.
+  - **Resolution test** Report the number of proteins in each N-terminal group. Provide p-values for the comparison of the proportion of DNA/RNA binders between the Pro-Arg group and each other group, using an appropriate statistical test (e.g., Fisher's exact test). Describe the DAVID and MOET enrichment analysis in detail, including the background set, the terms used, and the multiple testing correction applied. Show that the enrichment is robust to the choice of background set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of the proposed mechanism
+  - **Claim pointer** The manuscript claims that the base-flipping event "may facilitate transposon inverted terminal repeat association" and that the torsional strain "may facilitate" the transposition process.
+  - **Evidence pointer** Discussion, Fig. 9.
+  - **Concern** The connection between the observed base flipping and the functional process of transposition is speculative. The manuscript does not demonstrate that the base-flipping event is required for transposition, nor does it show that the torsional strain is sufficient to drive the proposed conformational changes. The model presented in Fig. 9 is a hypothesis, not a conclusion supported by the data.
+  - **Why it matters** The title and abstract claim that base flipping is a "key mechanism" in DNA recognition. If the functional relevance is not demonstrated, the claim is overstated. The manuscript would be strengthened by a more careful distinction between observation and hypothesis.
+  - **Resolution test** Either provide experimental or simulation evidence that the base-flipping event is coupled to a functional outcome (e.g., by showing that mutations that prevent flipping also abolish transposition), or temper the language in the title and abstract to reflect that this is a proposed mechanism. Alternatively, perform simulations of the full transpososome complex to show that the base-flipping event leads to the proposed downstream conformational changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and Methods, Molecular Dynamics Model Equilibration
+  - **Evidence pointer** "equilibrated to 310 Kelvin, 1 atmosphere by first generating velocities at 290 Celsius for 2 ns non-varient temperature and then pressure for 2 ns"
+  - **Issue** The temperature is stated as 290 Celsius, which is likely a typo for 290 Kelvin. The phrase "non-varient temperature" is unclear.
+  - **Required correction** Correct the temperature to 290 K and clarify the equilibration protocol, e.g., "velocities generated at 290 K for 2 ns under NVT conditions, followed by 2 ns under NPT conditions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Fig. 3 and S1 Fig.
+  - **Evidence pointer** "the change in free energy presented in reverse of the binding process in Fig. 3A"
+  - **Issue** The figure legend does not explain what "reverse of the binding process" means. The reader cannot interpret the sign convention of the free energy plots.
+  - **Required correction** Clarify in the figure legend whether the plotted quantity is the potential of mean force as a function of the reaction coordinate, and define the sign convention.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Table 1
+  - **Evidence pointer** "List of all hydrogen bonds between Protein and DNA with higher than 10% occupancy across extended simulation."
+  - **Issue** The table lists hydrogen bonds but does not report the standard deviation or standard error of the occupancy across the simulations. The reader cannot assess the variability of these interactions.
+  - **Required correction** Report the mean and standard deviation of the occupancy for each hydrogen bond, or state that the values are from a single representative simulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Abstract
+  - **Evidence pointer** "illicit DNA interactions"
+  - **Issue** The word "illicit" is used incorrectly. The intended word is likely "elicit."
+  - **Required correction** Change "illicit" to "elicit."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Missing data
+  - **Affected element** Results, Fig. 6
+  - **Evidence pointer** "A comparison of the RMSF for all 4 N-terminus studied is presented in Fig. 6D, E."
+  - **Issue** The figure is referenced but the data for the unbound state of the non-acetylated variants is not described in the text. The reader cannot determine whether the differences in RMSF between the bound and unbound states are significant.
+  - **Required correction** Add a brief description of the RMSF results for all four variants in both bound and unbound states, and report the statistical significance of any differences.
+- **Technical failings that need to be addressed before the case is established** The free energy calculations lack convergence analysis and error estimates (R1-M1). The definition and quantification of the base-flipping event are insufficient (R1-M2). The bioinformatic enrichment analysis lacks statistical rigor (R1-M3). The functional relevance of the proposed mechanism is not demonstrated (R1-M4).
+- **Assessment against Nature-style criteria**  
+  - **Originality** The hypothesis that N-terminal acetylation drives base flipping in a transposase is novel and not previously proposed. The work challenges existing models of Tc1/Mariner transposition.  
+  - **Scientific importance** If the mechanism is confirmed, it would have implications for understanding transposon biology and the role of N-terminal acetylation in DNA binding proteins more broadly. However, the current evidence is largely computational and the functional significance is not established.  
+  - **Interdisciplinary readership** The work is primarily of interest to the transposon and DNA-protein interaction communities. The bioinformatic component could broaden the appeal, but the statistical weakness limits this.  
+  - **Technical soundness** The simulation methodology is appropriate, but the lack of convergence analysis and error estimates for the free energy calculations is a significant weakness. The bioinformatic analysis is underpowered.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. However, the methods section is sparse in places, and a nonspecialist would struggle to understand the free energy calculations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the preliminary data are suggestive, but the manuscript in its current form does not provide sufficient evidence to establish the claims. The free energy calculations must be rigorously validated, the base-flipping event must be quantitatively defined, and the bioinformatic analysis must be statistically sound. If these concerns are addressed, the work could make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that the acetylated N-terminus confers a 25-30 kJ/mol affinity advantage is unsupported due to lack of error analysis.
+- The claim that base flipping is a "key mechanism" in Tc3a DNA recognition is not supported by functional data.
+- The claim that the mechanism may be general across DNA binding proteins is not supported by the statistical analysis.
+- The claim that the base-flipping event "may facilitate transposon inverted terminal repeat association" is speculative and not directly tested.
+- The claim that the model in Fig. 9 represents the transposition process is a hypothesis, not a conclusion supported by the data.

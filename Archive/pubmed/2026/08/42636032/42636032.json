@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "42636032",
+    "doi": "10.1093/bib/bbag457",
+    "title": "miRSiC: a regulatory-aware machine learning framework for microRNA expression inference across bulk and single-cell transcriptomes."
+  },
+  "content": {
+    "abstract": "MicroRNAs (miRNAs) are key post-transcriptional regulators embedded in gene regulatory networks between upstream transcription factors (TFs) and downstream target genes (TGs), yet most computational approaches infer miRNA expression using unstructured transcriptomic features without explicitly modeling their regulatory architecture. In this study, we develop miRSiC, an interpretable machine learning framework that integrates TFs and experimentally validated TGs for regulatory-aware miRNA expression inference. miRSiC formulates prediction as miRNA-specific regression tasks and evaluates three regulatory configurations (TF-only, TG-only, and combined TF-TG) using Light Gradient Boosting Machine. Applied to The Cancer Genome Atlas (TCGA) breast cancer cohort, the integrated model achieves superior performance (mean Spearman correlation = 0.5462 across 326 miRNAs), outperforming single-layer models and demonstrating the effectiveness of incorporating both upstream and downstream regulatory signals. Feature importance analysis and regulatory network reconstruction show that selected features are enriched in biologically coherent TF-miRNA-target circuits. Prediction performance varies across breast cancer subtypes, reflecting differences in regulatory patterns and sample size. Cross-platform evaluation further reveals that models trained on bulk transcriptomes do not generalize to single-cell data due to distributional shifts and sparsity; however, domain-specific retraining partially restores performance. Together, miRSiC provides an interpretable and biologically grounded framework for miRNA expression inference, highlighting the importance of modeling regulatory context and adopting domain-aware strategies across bulk and single-cell transcriptomic data.",
+    "keywords": [
+      "TF-miRNA-target regulatory network",
+      "light gradient boosting machine",
+      "miRNA expression",
+      "single-cell transcriptomics",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*MicroRNAs/genetics",
+      "Humans",
+      "*Machine Learning",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "*Breast Neoplasms/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Transcription Factors/metabolism/genetics",
+      "Computational Biology/methods",
+      "Female",
+      "Gene Expression Regulation, Neoplastic",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Guan-Ting",
+        "Liang, Lei-Chen",
+        "Tang, Yun",
+        "Chen, Yu-Chen",
+        "Chow, Chi-Nga",
+        "Widjaya, Michael Anekson",
+        "Huang, Wei-Chih",
+        "Lee, Tzong-Yi"
+      ],
+      "short_names": [
+        "Chen GT",
+        "Liang LC",
+        "Tang Y",
+        "Chen YC",
+        "Chow CN",
+        "Widjaya MA",
+        "Huang WC",
+        "Lee TY"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1215-3421",
+        "ORCID: 0009-0002-0283-7712"
+      ],
+      "affiliations": [
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Data Science and Engineering, College of Computer Science, National Yang Ming Chiao Tung University, No. 1001, Daxue Rd., East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+        "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+        "Cancer and Immunology Research Center, National Yang Ming Chiao Tung University, No. 155, Sec. 2, Linong Street, Taipei 112, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Guan-Ting",
+        "short_name": "Chen GT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liang, Lei-Chen",
+        "short_name": "Liang LC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tang, Yun",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu-Chen",
+        "short_name": "Chen YC",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+          "Institute of Data Science and Engineering, College of Computer Science, National Yang Ming Chiao Tung University, No. 1001, Daxue Rd., East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chow, Chi-Nga",
+        "short_name": "Chow CN",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Widjaya, Michael Anekson",
+        "short_name": "Widjaya MA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Wei-Chih",
+        "short_name": "Huang WC",
+        "identifiers": [
+          "0000-0002-1215-3421"
+        ],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lee, Tzong-Yi",
+        "short_name": "Lee TY",
+        "identifiers": [
+          "0009-0002-0283-7712"
+        ],
+        "affiliations": [
+          "Institute of Bioinformatics and Systems Biology, College of Engineering Bioscience, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300093, Taiwan.",
+          "Molecular Bioinformatics Center, National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+          "Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, No. 75, Boai Street, East Dist., Hsinchu 300, Taiwan.",
+          "Cancer and Immunology Research Center, National Yang Ming Chiao Tung University, No. 155, Sec. 2, Linong Street, Taipei 112, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/24 18:42",
+    "fetched_at": "2026-10-02 04:26:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41554048",
+      "40593558",
+      "40254832",
+      "40232907",
+      "39863489",
+      "39578692",
+      "39526378",
+      "38609714",
+      "37380761",
+      "37258682",
+      "37019900",
+      "36326438",
+      "36060076",
+      "35912788",
+      "35781048",
+      "34988213",
+      "34884985",
+      "34488842",
+      "34140680",
+      "33911110",
+      "33852600",
+      "33225112",
+      "32672791",
+      "31903173",
+      "31624308",
+      "31159854",
+      "30867707",
+      "30626865",
+      "30250291",
+      "29941873",
+      "29731640",
+      "29707149",
+      "29425488",
+      "29409532",
+      "29186838",
+      "28991892",
+      "28934507",
+      "28877962",
+      "28829439",
+      "27798564",
+      "27191272",
+      "26066708",
+      "25476932",
+      "25027649",
+      "24504363",
+      "24312495",
+      "22900683",
+      "22578566",
+      "22081076",
+      "21738599",
+      "21423718",
+      "19786497",
+      "19289080",
+      "19167326",
+      "18376396",
+      "18316553",
+      "17630826",
+      "17560377",
+      "16381832",
+      "16103053"
+    ],
+    "similar": [
+      "42636032",
+      "26763900",
+      "23246694",
+      "25707768",
+      "40141153",
+      "25340776",
+      "26611531",
+      "27035433",
+      "42074514",
+      "42475469",
+      "29226599",
+      "42554796",
+      "41578372",
+      "27449149",
+      "41288963",
+      "25024357",
+      "32054475",
+      "40924781",
+      "40565220",
+      "39512836",
+      "24968068",
+      "26694379",
+      "30844478",
+      "29373717",
+      "28092569",
+      "42006143",
+      "30876399",
+      "41163216",
+      "41436831",
+      "27064982",
+      "41649126",
+      "39871129",
+      "23497388",
+      "41898839",
+      "39679439",
+      "27879476",
+      "23990444",
+      "38062833",
+      "33852600",
+      "41662352",
+      "38950180",
+      "31612481",
+      "28005952",
+      "24205155",
+      "23475160",
+      "42059479",
+      "42560939",
+      "38838009",
+      "24129674",
+      "22260379",
+      "41518505",
+      "22456606",
+      "33104784",
+      "41595448",
+      "25069957",
+      "36264868",
+      "38886500",
+      "34840985",
+      "22563068",
+      "22829753",
+      "25922940",
+      "28865443",
+      "41006883",
+      "35757392",
+      "30985693",
+      "28739740",
+      "39334271",
+      "35397550",
+      "41596688",
+      "25902940",
+      "38863714",
+      "41962406",
+      "33461524",
+      "26080807",
+      "30859354",
+      "39238649",
+      "35322335",
+      "21483898",
+      "40862714",
+      "29357938",
+      "41601694",
+      "31965022",
+      "42244728",
+      "42233387",
+      "24200043",
+      "40076546",
+      "32174324",
+      "19476620",
+      "36049413",
+      "42123445",
+      "39953122",
+      "41643202",
+      "39400980",
+      "40711603",
+      "40662821",
+      "42120650",
+      "28101583",
+      "22618880",
+      "20418949",
+      "41984330"
+    ],
+    "review": [
+      "42636032"
+    ],
+    "pmc": [
+      "13502096"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42636032/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag457",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

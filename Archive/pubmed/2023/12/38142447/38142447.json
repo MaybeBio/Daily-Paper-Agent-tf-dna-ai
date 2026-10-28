@@ -1,0 +1,507 @@
+{
+  "identity": {
+    "pmid": "38142447",
+    "doi": "10.1093/genetics/iyad217",
+    "title": "Complex epistatic interactions between ELF3, PRR9, and PRR7 regulate the circadian clock and plant physiology."
+  },
+  "content": {
+    "abstract": "Circadian clocks are endogenous timekeeping mechanisms that coordinate internal physiological responses with the external environment. EARLY FLOWERING3 (ELF3), PSEUDO RESPONSE REGULATOR (PRR9), and PRR7 are essential components of the plant circadian clock and facilitate entrainment of the clock to internal and external stimuli. Previous studies have highlighted a critical role for ELF3 in repressing the expression of PRR9 and PRR7. However, the functional significance of activity in regulating circadian clock dynamics and plant development is unknown. To explore this regulatory dynamic further, we first employed mathematical modeling to simulate the effect of the prr9/prr7 mutation on the elf3 circadian phenotype. These simulations suggested that simultaneous mutations in prr9/prr7 could rescue the elf3 circadian arrhythmia. Following these simulations, we generated all Arabidopsis elf3/prr9/prr7 mutant combinations and investigated their circadian and developmental phenotypes. Although these assays could not replicate the results from the mathematical modeling, our results have revealed a complex epistatic relationship between ELF3 and PRR9/7 in regulating different aspects of plant development. ELF3 was essential for hypocotyl development under ambient and warm temperatures, while PRR9 was critical for root thermomorphogenesis. Finally, mutations in prr9 and prr7 rescued the photoperiod-insensitive flowering phenotype of the elf3 mutant. Together, our results highlight the importance of investigating the genetic relationship among plant circadian genes.",
+    "keywords": [
+      "circadian clock",
+      "plant development",
+      "thermomorphogenesis"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis",
+      "*Arabidopsis Proteins/genetics/metabolism",
+      "*Circadian Clocks/genetics",
+      "Circadian Rhythm/genetics",
+      "Gene Expression Regulation, Plant",
+      "Plant Physiological Phenomena",
+      "Transcription Factors/genetics/metabolism",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Li",
+        "Avello, Paula",
+        "Zhu, Zihao",
+        "Lock, Sarah C L",
+        "McCarthy, Kayla",
+        "Redmond, Ethan J",
+        "Davis, Amanda M",
+        "Song, Yang",
+        "Ezer, Daphne",
+        "Pitchford, Jonathan W",
+        "Quint, Marcel",
+        "Xie, Qiguang",
+        "Xu, Xiaodong",
+        "Davis, Seth J",
+        "Ronald, James"
+      ],
+      "short_names": [
+        "Yuan L",
+        "Avello P",
+        "Zhu Z",
+        "Lock SCL",
+        "McCarthy K",
+        "Redmond EJ",
+        "Davis AM",
+        "Song Y",
+        "Ezer D",
+        "Pitchford JW",
+        "Quint M",
+        "Xie Q",
+        "Xu X",
+        "Davis SJ",
+        "Ronald J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4335-1612",
+        "ORCID: 0000-0002-2296-2724",
+        "ORCID: 0000-0002-2500-3975",
+        "ORCID: 0000-0002-7385-3595",
+        "ORCID: 0000-0002-1685-6909",
+        "ORCID: 0000-0003-2935-4083",
+        "ORCID: 0000-0001-7477-1965",
+        "ORCID: 0000-0002-8795-7651",
+        "ORCID: 0000-0001-5928-9046",
+        "ORCID: 0000-0002-8847-0378"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Department of Mathematics, University of York, York, YO10 5DD, UK.",
+        "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, UK.",
+        "Institute of Agricultural and Nutritional Sciences, Martin Luther University Halle-Wittenberg, Halle (Saale) 06108, Germany.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "Department of Mathematics, University of York, York, YO10 5DD, UK.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "Institute of Agricultural and Nutritional Sciences, Martin Luther University Halle-Wittenberg, Halle (Saale) 06108, Germany.",
+        "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+        "School of Molecular Biosciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bower Building, University Avenue, Glasgow G12 8QQ, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Li",
+        "short_name": "Yuan L",
+        "identifiers": [
+          "0000-0003-4335-1612"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Avello, Paula",
+        "short_name": "Avello P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, University of York, York, YO10 5DD, UK.",
+          "School of Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, UK."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zihao",
+        "short_name": "Zhu Z",
+        "identifiers": [
+          "0000-0002-2296-2724"
+        ],
+        "affiliations": [
+          "Institute of Agricultural and Nutritional Sciences, Martin Luther University Halle-Wittenberg, Halle (Saale) 06108, Germany."
+        ]
+      },
+      {
+        "full_name": "Lock, Sarah C L",
+        "short_name": "Lock SCL",
+        "identifiers": [
+          "0000-0002-2500-3975"
+        ],
+        "affiliations": [
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "McCarthy, Kayla",
+        "short_name": "McCarthy K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Redmond, Ethan J",
+        "short_name": "Redmond EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Davis, Amanda M",
+        "short_name": "Davis AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Song, Yang",
+        "short_name": "Song Y",
+        "identifiers": [
+          "0000-0002-7385-3595"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Ezer, Daphne",
+        "short_name": "Ezer D",
+        "identifiers": [
+          "0000-0002-1685-6909"
+        ],
+        "affiliations": [
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Pitchford, Jonathan W",
+        "short_name": "Pitchford JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, University of York, York, YO10 5DD, UK.",
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Quint, Marcel",
+        "short_name": "Quint M",
+        "identifiers": [
+          "0000-0003-2935-4083"
+        ],
+        "affiliations": [
+          "Institute of Agricultural and Nutritional Sciences, Martin Luther University Halle-Wittenberg, Halle (Saale) 06108, Germany."
+        ]
+      },
+      {
+        "full_name": "Xie, Qiguang",
+        "short_name": "Xie Q",
+        "identifiers": [
+          "0000-0001-7477-1965"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaodong",
+        "short_name": "Xu X",
+        "identifiers": [
+          "0000-0002-8795-7651"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Davis, Seth J",
+        "short_name": "Davis SJ",
+        "identifiers": [
+          "0000-0001-5928-9046"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Adaptation and Improvement, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Ronald, James",
+        "short_name": "Ronald J",
+        "identifiers": [
+          "0000-0002-8847-0378"
+        ],
+        "affiliations": [
+          "Department of Biology, University of York, Wentworth Way, York, YO10 5DD, UK.",
+          "School of Molecular Biosciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bower Building, University Avenue, Glasgow G12 8QQ, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics"
+    ],
+    "journal_abbrev": [
+      "Genetics"
+    ],
+    "pub_date": "2024 Mar 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/24 18:41",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "42640024",
+      "41069115",
+      "40500965"
+    ],
+    "refs": [
+      "37163541",
+      "37163495",
+      "37071525",
+      "35730992",
+      "35636376",
+      "35312157",
+      "35222453",
+      "35191492",
+      "35088570",
+      "34698833",
+      "34618097",
+      "34498760",
+      "34135347",
+      "33962946",
+      "33916408",
+      "33270500",
+      "32986276",
+      "32966827",
+      "32303120",
+      "32284549",
+      "32165537",
+      "32165445",
+      "31805433",
+      "31712305",
+      "31694066",
+      "31139231",
+      "31044168",
+      "30892623",
+      "30870980",
+      "30710080",
+      "30606777",
+      "30428343",
+      "30125577",
+      "30078562",
+      "29576425",
+      "29337078",
+      "28284990",
+      "27966533",
+      "27789797",
+      "27549386",
+      "27250752",
+      "26904049",
+      "26625126",
+      "26586835",
+      "26370901",
+      "26269119",
+      "25557667",
+      "25557663",
+      "25243048",
+      "24867215",
+      "24781117",
+      "24003052",
+      "22912900",
+      "22694320",
+      "22566625",
+      "22476293",
+      "22403178",
+      "22395476",
+      "22327739",
+      "21908721",
+      "21753751",
+      "20357892",
+      "20139162",
+      "20133619",
+      "18492871",
+      "17683202",
+      "17504813",
+      "16258016",
+      "16164597",
+      "16045473",
+      "16040710",
+      "15767265",
+      "15705949",
+      "15649364",
+      "14695902",
+      "12214234",
+      "11504909",
+      "11402162",
+      "8893545",
+      "8864121",
+      "1983791"
+    ],
+    "similar": [
+      "38142447",
+      "33270500",
+      "15767265",
+      "21098730",
+      "19098071",
+      "22327739",
+      "17504813",
+      "15705949",
+      "23027938",
+      "24500967",
+      "25738547",
+      "19015137",
+      "32012302",
+      "22307044",
+      "30337341",
+      "20233950",
+      "21236675",
+      "34698833",
+      "30065116",
+      "15649364",
+      "31529098",
+      "31694066",
+      "21357491",
+      "31985350",
+      "29337078",
+      "35603836",
+      "15695441",
+      "38490512",
+      "35191492",
+      "24690904",
+      "30184255",
+      "17877705",
+      "37705303",
+      "26108788",
+      "34164694",
+      "22694320",
+      "22190341",
+      "33487361",
+      "20133619",
+      "16258016",
+      "18178585",
+      "22942380",
+      "35567528",
+      "21753751",
+      "24153186",
+      "38386103",
+      "17284849",
+      "33963671",
+      "21483796",
+      "17102803",
+      "21908721",
+      "25557667",
+      "33916408",
+      "30886204",
+      "36631969",
+      "25352668",
+      "23808423",
+      "17519251",
+      "11402160",
+      "21296763",
+      "22720803",
+      "25332490",
+      "39145515",
+      "17890242",
+      "19383102",
+      "19061637",
+      "31712305",
+      "18480377",
+      "37312621",
+      "26076005",
+      "20962777",
+      "26269119",
+      "14563930",
+      "30428343",
+      "20713464",
+      "27564448",
+      "19131357",
+      "11402161",
+      "35758233",
+      "24867215",
+      "23267111",
+      "28818860",
+      "22899064",
+      "27207270",
+      "14555691",
+      "35325228",
+      "31191580",
+      "36198686",
+      "27624757",
+      "26586835",
+      "35674369",
+      "29032592",
+      "28284990",
+      "36028981",
+      "21666227",
+      "17420570",
+      "36707919",
+      "22566625",
+      "28202598",
+      "18676661",
+      "30550861",
+      "23645632",
+      "38594534",
+      "36454669",
+      "39155726",
+      "39207587",
+      "38594541",
+      "35640123",
+      "38373194",
+      "38979283",
+      "39391982",
+      "39192577",
+      "33314270"
+    ],
+    "review": [
+      "38142447",
+      "38490512",
+      "33487361",
+      "38386103",
+      "35758233",
+      "39207587",
+      "35640123",
+      "38373194"
+    ],
+    "pmc": [
+      "10917503"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38142447/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38142447",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/genetics/article-lookup/doi/10.1093/genetics/iyad217",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

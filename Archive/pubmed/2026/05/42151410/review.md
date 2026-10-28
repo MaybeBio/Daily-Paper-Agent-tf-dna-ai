@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and conceptual advance of the claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that bufalin suppresses ESCC growth and metastasis by inducing proteasomal degradation of the transcription factor E2F2, which in turn transcriptionally silences LINC01410, a lncRNA that stabilises beta-catenin and activates Wnt/beta-catenin signalling
+- **Visible evidence base** In vitro assays (proliferation, migration, invasion, western blot, qRT-PCR, luciferase reporter, RIP, RNA pull-down, ChIP, FISH, subcellular fractionation), in vivo xenograft and metastasis models, RNA-seq, bioinformatics analyses (TCGA, GSEA, machine learning), and molecular docking
+- **Missing materials affecting confidence** Original RNA-seq dataset and accession numbers, full western blot images, statistical details for in vivo experiments, sample sizes for all experiments, raw data for machine learning analyses, and supplementary figures referenced but not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting mechanistic link between bufalin, E2F2, LINC01410, and Wnt/beta-catenin signalling in ESCC. The central claim that bufalin acts through E2F2 degradation to transcriptionally repress LINC01410 is novel and could have therapeutic implications. However, several technical concerns and gaps in evidence reduce confidence in the causal chain as presented. The manuscript would benefit from additional orthogonal validation, clearer presentation of key data, and resolution of inconsistencies between the proposed mechanism and the data shown.
+- **Who would be interested in the results, and why** Researchers in cancer pharmacology, particularly those studying natural product anti-cancer mechanisms; investigators focused on lncRNA biology in solid tumours; and groups working on Wnt/beta-catenin signalling regulation. The potential clinical relevance of bufalin as a Wnt pathway modulator in ESCC may also interest translational oncology researchers.
+- **Major strengths** The study addresses an important clinical problem with a clear therapeutic rationale. The identification of E2F2 as a transcriptional regulator of LINC01410 is a novel finding. The combination of transcriptomic, proteomic, and machine learning approaches to identify bufalin targets is methodologically ambitious. The in vivo validation of bufalin efficacy in both subcutaneous and metastatic models strengthens the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal chain integrity
+  - **Claim pointer** The authors claim that bufalin suppresses ESCC growth and metastasis by inducing E2F2 degradation, which transcriptionally silences LINC01410, thereby destabilising beta-catenin and inhibiting Wnt signalling.
+  - **Evidence pointer** Results sections "Bufalin inhibits ESCC cell growth and migration by suppressing LINC01410-mediated Wnt/beta-catenin signalling" and "Bufalin inhibits LINC01410 expression by inducing E2F2 degradation"; Figures 5, 6, 7
+  - **Concern** The causal chain from bufalin to E2F2 degradation to LINC01410 transcriptional repression to beta-catenin destabilisation is not fully established. The manuscript does not show that E2F2 knockdown phenocopies bufalin effects on LINC01410 expression and Wnt signalling, nor does it show that E2F2 overexpression rescues bufalin-mediated suppression. The direct binding of bufalin to E2F2 is inferred from docking and proteomic screening but not biophysically validated. The claim that bufalin induces E2F2 ubiquitination and proteasomal degradation is supported only by steady-state western blot and a single MG132 experiment, without direct ubiquitination assays.
+  - **Why it matters** Without genetic rescue or phenocopy experiments, the proposed linear pathway remains correlative. The manuscript does not exclude the possibility that bufalin acts through multiple targets or that LINC01410 downregulation is an indirect consequence of cell cycle arrest rather than a direct transcriptional effect of E2F2 loss.
+  - **Resolution test** Perform E2F2 knockdown and overexpression experiments to test whether E2F2 is necessary and sufficient for LINC01410 regulation. Conduct in vitro ubiquitination assays to demonstrate bufalin-induced K48-linked ubiquitination of E2F2. Use a LINC01410 promoter reporter with E2F2 binding site mutations to confirm direct transcriptional regulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** The authors state that RNA-seq identified LINC01410 as the most significantly downregulated lncRNA following bufalin treatment and that GSEA showed Wnt pathway enrichment.
+  - **Evidence pointer** Results sections "Bufalin downregulates the expression of LINC01410 in ESCC" and "Bufalin inhibits ESCC cell growth and migration by suppressing LINC01410-mediated Wnt/beta-catenin signalling"; Figure 2A, Figure 5A
+  - **Concern** The RNA-seq dataset is not deposited in a public repository, and no accession number is provided. The differential expression analysis criteria are not fully described (e.g., adjusted p-value thresholds, batch effects, number of replicates). The GSEA results are presented as a single enrichment plot without reporting normalised enrichment scores, false discovery rates, or the gene set used.
+  - **Why it matters** Reproducibility is a core requirement for manuscripts of this type. Without access to the underlying data and clear analytical parameters, the central transcriptomic findings cannot be independently verified or reanalysed.
+  - **Resolution test** Deposit the RNA-seq data in a public repository (e.g., GEO) and provide the accession number. Report full differential expression statistics and GSEA parameters, including NES, FDR, and the specific gene set collection used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigour
+  - **Claim pointer** The authors claim that bufalin inhibits ESCC proliferation, migration, and invasion in a concentration-dependent manner, and that LINC01410 overexpression reverses these effects.
+  - **Evidence pointer** Results section "Bufalin inhibits ESCC tumour growth and metastasis both in vitro and in vivo"; Figures 1, 2
+  - **Concern** The manuscript does not report the number of independent biological replicates for most experiments. The in vivo experiments use n=6 per group, which is acceptable, but no power calculation is provided. The quantification of western blots, transwell assays, and IHC staining is described as performed with ImageJ, but the number of fields counted, the blinding procedure, and the statistical tests used for each figure are not consistently specified.
+  - **Why it matters** Quantitative claims about concentration dependence and rescue effects require clear reporting of replicates and statistical methods. Without this, the robustness of the phenotypic data cannot be assessed.
+  - **Resolution test** Provide a detailed statistical analysis section specifying the number of replicates for each experiment, the statistical test used, and the exact p-values. Include a power calculation for the in vivo studies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Target validation
+  - **Claim pointer** The authors claim that bufalin directly binds E2F2 based on proteomic microarray screening and molecular docking, and that this binding leads to E2F2 degradation.
+  - **Evidence pointer** Results section "Bufalin inhibits LINC01410 expression by inducing E2F2 degradation"; Figure 6
+  - **Concern** The proteomic microarray screening is described but the methodology is not detailed, and the raw results are not shown. Molecular docking is an in silico prediction and does not constitute evidence of direct binding. No cellular thermal shift assay, surface plasmon resonance, or isothermal titration calorimetry is provided to confirm direct bufalin-E2F2 interaction. The claim that bufalin acts as a molecular glue to promote E2F2-ZFP91 complex formation is referenced from prior work but not tested here.
+  - **Why it matters** The central mechanistic claim depends on bufalin directly engaging E2F2. Without experimental validation of this interaction, the proposed mechanism remains speculative.
+  - **Resolution test** Perform a biophysical binding assay (e.g., MST, SPR, or ITC) to confirm direct bufalin-E2F2 interaction. Alternatively, use a cellular thermal shift assay to demonstrate target engagement in cells.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of LINC01410 mechanism
+  - **Claim pointer** The authors claim that LINC01410 stabilises beta-catenin protein by direct binding, thereby activating Wnt/beta-catenin signalling.
+  - **Evidence pointer** Results section "LINC01410 enhances Wnt/beta-catenin signalling in ESCC through stabilisation of beta-catenin protein"; Figure 4
+  - **Concern** The direct interaction between LINC01410 and beta-catenin is supported by RIP and RNA pull-down, but the functional significance of this interaction is not fully explored. The manuscript does not identify the specific domain of beta-catenin that binds LINC01410, nor does it show whether this interaction competes with the destruction complex or with other beta-catenin binding partners. The claim that LINC01410 inhibits K48-linked ubiquitination is based on a single ubiquitination assay, and the E3 ligase involved is not identified.
+  - **Why it matters** The proposed mechanism of beta-catenin stabilisation by a lncRNA is unusual and requires strong evidence. Without mechanistic detail, the claim remains incompletely supported.
+  - **Resolution test** Map the binding domains involved in the LINC01410-beta-catenin interaction. Identify the E3 ligase responsible for beta-catenin ubiquitination in this context and test whether LINC01410 competes with it. Use a beta-catenin degradation reporter to quantify the effect of LINC01410 on protein stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 legend
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure legend is dense and does not clearly indicate which panels correspond to which cell line or experimental condition.
+  - **Required correction** Restructure the legend to clearly label each panel with the cell line, treatment, and assay used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2D-G
+  - **Evidence pointer** Figure 2
+  - **Issue** The rescue experiments with LINC01410 overexpression are described in the text but the statistical comparison between bufalin-treated and bufalin-plus-LINC01410-overexpression groups is not explicitly stated.
+  - **Required correction** Clearly state the statistical test and p-values for the rescue comparisons in the figure legend or results text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Machine learning analysis
+  - **Evidence pointer** Methods section "Machine learning-based modelling, interpretation, and feature importance analysis"
+  - **Issue** The description of the machine learning approach is overly detailed for a methods section but lacks key information about the outcome variable being predicted and the training/validation split.
+  - **Required correction** Clarify the prediction target (e.g., tumour vs normal classification) and describe the data splitting strategy and hyperparameter tuning procedure more concisely.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "potetial" appears in the Discussion section, and the abstract uses "Oesophageal" while the rest of the manuscript uses "esophageal". Minor typographical and consistency issues.
+  - **Required correction** Correct the typo and standardise spelling throughout.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary Table S2, Supplementary Figures S1-S6
+  - **Issue** Supplementary figures are referenced but not provided in the manuscript. The supplementary table is mentioned but its content is not described.
+  - **Required correction** Ensure all supplementary materials are included with the submission and briefly describe their content in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal chain not fully established), R1-M2 (RNA-seq data not deposited), R1-M3 (quantitative rigour insufficient), R1-M4 (direct bufalin-E2F2 binding not experimentally validated)
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism of bufalin acting through E2F2 degradation to silence LINC01410 and thereby destabilise beta-catenin is conceptually novel. The identification of a lncRNA as a direct stabiliser of beta-catenin adds to the growing literature on lncRNA function. Scientific importance: ESCC is a major clinical problem, and identifying new therapeutic targets is of clear importance. The potential of bufalin as a Wnt pathway modulator is clinically relevant. However, the importance is somewhat tempered by the lack of mechanistic depth in validating the proposed causal chain. Interdisciplinary readership: The work spans pharmacology, cancer biology, and RNA biology, which could attract a broad readership. Technical soundness: The experimental design is generally sound, but the lack of key controls (e.g., E2F2 rescue, direct binding assays) and incomplete statistical reporting weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well written and accessible, though the methods section on machine learning is overly detailed and could be streamlined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and potentially important, but the current evidence does not fully establish the proposed causal pathway. The authors should address the major concerns regarding causal validation, data availability, and quantitative rigour before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that bufalin directly binds E2F2 is unsupported by direct experimental evidence; molecular docking and proteomic screening are insufficient.
+- The claim that bufalin induces K48-linked ubiquitination of E2F2 is not directly demonstrated.
+- The claim that LINC01410 directly stabilises beta-catenin by inhibiting K48-linked ubiquitination is incompletely supported; the E3 ligase involved is not identified.
+- The claim that E2F2 is the primary transcriptional driver of LINC01410 in ESCC is not fully established without E2F2 loss- and gain-of-function experiments.
+- The claim that bufalin suppresses ESCC metastasis in vivo is based on a single experimental model without detailed quantification of metastatic burden.
+- The clinical relevance of the findings is stated but not supported by patient data or functional validation in patient-derived models.

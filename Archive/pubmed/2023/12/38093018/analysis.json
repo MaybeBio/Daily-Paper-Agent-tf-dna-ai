@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38093018",
+  "title": "Hold out the genome: a roadmap to solving the cis-regulatory code.",
+  "authors": "de Boer, Carl G; Taipale, Jussi",
+  "journal": "Nature",
+  "published_date": "2023-12-14",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出结合机器学习与合成DNA大规模平行实验破解顺式调控编码的路线图，聚焦TF-DNA序列读取与调控预测，虽以综述和路线规划为主，但方法高度契合本课题的AI建模方向。",
+  "abstract": "Gene expression is regulated by transcription factors that work together to read cis-regulatory DNA sequences. The 'cis-regulatory code' - how cells interpret DNA sequences to determine when, where and how much genes should be expressed - has proven to be exceedingly complex. Recently, advances in the scale and resolution of functional genomics assays and machine learning have enabled substantial progress towards deciphering this code. However, the cis-regulatory code will probably never be solved if models are trained only on genomic sequences; regions of homology can easily lead to overestimation of predictive performance, and our genome is too short and has insufficient sequence diversity to learn all relevant parameters. Fortunately, randomly synthesized DNA sequences enable testing a far larger sequence space than exists in our genomes, and designed DNA sequences enable targeted queries to maximally improve the models. As the same biochemical principles are used to interpret DNA regardless of its source, models trained on these synthetic data can predict genomic activity, often better than genome-trained models. Here we provide an outlook on the field, and propose a roadmap towards solving the cis-regulatory code by a combination of machine learning and massively parallel assays using synthetic DNA.",
+  "abstract_zh": "基因表达受转录因子调控，这些因子协同作用以解读顺式调控DNA序列。“顺式调控密码”——即细胞如何解读DNA序列以决定基因何时、何地及以何种程度表达——已被证明极为复杂。近期，功能基因组学检测的规模与分辨率以及机器学习方面的进展，已使破解这一密码取得实质性进步。然而，如果仅基于基因组序列训练模型，顺式调控密码可能永远无法被解开；同源区域容易导致对预测性能的高估，且我们的基因组过短且序列多样性不足，难以学习所有相关参数。幸运的是，随机合成的DNA序列能够测试远超我们基因组中存在的序列空间，而设计合成的DNA序列则能进行定向查询，以最大化改进模型。由于解读DNA的生化原理与其来源无关，基于这些合成数据训练的模型能够预测基因组活性，且往往优于仅基于基因组训练的模型。在此，我们对该领域进行展望，并提出通过机器学习与大规模平行合成DNA检测相结合，破解顺式调控密码的路线图。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38093018/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38093018/",
+  "paper_page_path": "papers/pubmed/38093018/index.html"
+}

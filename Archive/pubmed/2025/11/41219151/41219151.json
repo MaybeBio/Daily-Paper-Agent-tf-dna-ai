@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "41219151",
+    "doi": "10.1021/acs.jcim.5c01120",
+    "title": "A Twist of Fate: The Helix-Turn-Helix Motif in Pseudomonas aeruginosa ExsA Can Allosterically Stabilize the Ligand-Binding Domain."
+  },
+  "content": {
+    "abstract": "Pseudomonas aeruginosa is an opportunistic human pathogen. One of the most potent virulence factors in its arsenal is the type III secretion system (T3SS). This secretion apparatus injects effector toxins directly into host cells, thereby causing cytotoxicity. The expression of all components of T3SS is regulated by a master transcriptional regulator, ExsA. The inhibition of the latter should therefore lead to the suppression of P. aeruginosa virulence. However, to date, no drugs targeting ExsA have reached the market, and only static structural models of the protein have been generated, focusing on the C-terminal domain (CTD). Here, we used mus atomistic molecular dynamics (MD) simulations to investigate the conformational dynamics of full-length ExsA bound to DNA or DNA free, investigated as monomers or dimers. Our data show how the CTD and NTD of ExsA likely interact with one another and how ExsA binds to DNA. We also analyzed the MD trajectories to predict potential druggable pocket(s) in the structure and relevant geometry. This revealed a lipid-binding pocket within the beta-sheet bundle and identified two novel potentially druggable pockets at the NTD/CTD interface, which could be used in future structure-based drug discovery campaigns. Overall, a single helix-turn-helix motif seems to drive DNA recognition in each ExsA monomer and to stabilize the putative ligand-binding domain.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Pseudomonas aeruginosa/metabolism/chemistry",
+      "Ligands",
+      "*Helix-Turn-Helix Motifs",
+      "Allosteric Regulation",
+      "*Trans-Activators/chemistry/metabolism",
+      "Protein Binding",
+      "Protein Domains",
+      "DNA/metabolism/chemistry",
+      "Binding Sites",
+      "*Bacterial Proteins/chemistry/metabolism",
+      "Protein Stability"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Medarametla, Prasanthi",
+        "Greenhalgh, Jack Calum",
+        "Pohner, Ina",
+        "Welch, Martin",
+        "Poso, Antti",
+        "Kronenberger, Thales",
+        "Rahman, Taufiq"
+      ],
+      "short_names": [
+        "Medarametla P",
+        "Greenhalgh JC",
+        "Pohner I",
+        "Welch M",
+        "Poso A",
+        "Kronenberger T",
+        "Rahman T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7631-3885",
+        "ORCID: 0000-0002-2801-8902",
+        "ORCID: 0000-0003-4196-4204",
+        "ORCID: 0000-0001-6933-7590",
+        "ORCID: 0000-0003-3830-5160"
+      ],
+      "affiliations": [
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+        "Department of Biochemistry, University of Cambridge, Hopkins Building, Tennis Court Road, Downing Site, Cambridge CB2 1QW, United Kingdom.",
+        "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, United Kingdom.",
+        "Department of Biochemistry, University of Cambridge, Hopkins Building, Tennis Court Road, Downing Site, Cambridge CB2 1QW, United Kingdom.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+        "Department of Biochemistry, University of Cambridge, Hopkins Building, Tennis Court Road, Downing Site, Cambridge CB2 1QW, United Kingdom.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+        "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universitat, Tuebingen, Auf der Morgenstelle 8, Tuebingen 72076, Germany.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+        "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tubingen;Partner-site Tubingen, German Center for Infection Research (DZIF),Elfriede-Aulhorn-Str. 6,Tubingen 72076, Germany.",
+        "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Medarametla, Prasanthi",
+        "short_name": "Medarametla P",
+        "identifiers": [
+          "0000-0002-7631-3885"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+          "Department of Biochemistry, University of Cambridge, Hopkins Building, Tennis Court Road, Downing Site, Cambridge CB2 1QW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Greenhalgh, Jack Calum",
+        "short_name": "Greenhalgh JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, United Kingdom.",
+          "Department of Biochemistry, University of Cambridge, Hopkins Building, Tennis Court Road, Downing Site, Cambridge CB2 1QW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Pöhner, Ina",
+        "short_name": "Pöhner I",
+        "identifiers": [
+          "0000-0002-2801-8902"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland."
+        ]
+      },
+      {
+        "full_name": "Welch, Martin",
+        "short_name": "Welch M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Cambridge, Hopkins Building, Tennis Court Road, Downing Site, Cambridge CB2 1QW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Poso, Antti",
+        "short_name": "Poso A",
+        "identifiers": [
+          "0000-0003-4196-4204"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+          "Department of Pharmaceutical and Medicinal Chemistry, Institute of Pharmaceutical Sciences, Eberhard-Karls-Universität, Tuebingen, Auf der Morgenstelle 8, Tuebingen 72076, Germany."
+        ]
+      },
+      {
+        "full_name": "Kronenberger, Thales",
+        "short_name": "Kronenberger T",
+        "identifiers": [
+          "0000-0001-6933-7590"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio 70211, Finland.",
+          "Interfaculty Institute of Microbiology and Infection Medicine (IMIT), University of Tübingen;Partner-site Tübingen, German Center for Infection Research (DZIF),Elfriede-Aulhorn-Str. 6,Tübingen 72076, Germany."
+        ]
+      },
+      {
+        "full_name": "Rahman, Taufiq",
+        "short_name": "Rahman T",
+        "identifiers": [
+          "0000-0003-3830-5160"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Nov 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/12 00:26",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41219151",
+      "19376850",
+      "25070741",
+      "32555263",
+      "22408167",
+      "24142246",
+      "26929300",
+      "32356522",
+      "26317977",
+      "30782629",
+      "26055113",
+      "34986198",
+      "26574012",
+      "22408165",
+      "28847924",
+      "23279839",
+      "20008065",
+      "38289930",
+      "18373522",
+      "31527124",
+      "32546612",
+      "15985546",
+      "19235906",
+      "10653699",
+      "29440251",
+      "19717612",
+      "7635828",
+      "26712005",
+      "12939306",
+      "38029243",
+      "24070609",
+      "20453093",
+      "33276123",
+      "19369699",
+      "41190656",
+      "40084853",
+      "33705525",
+      "28695853",
+      "34259549",
+      "21178451",
+      "17197437",
+      "39998267",
+      "25034696",
+      "15469505",
+      "28469612",
+      "16027020",
+      "25667266",
+      "31010903",
+      "12034833",
+      "15687203",
+      "34139014",
+      "25342258",
+      "23337505",
+      "36519869",
+      "14627811",
+      "29253008",
+      "23922851",
+      "29968257",
+      "40429820",
+      "24058462",
+      "26644429",
+      "29717012",
+      "15522089",
+      "29136175",
+      "17363368",
+      "23292701",
+      "27377745",
+      "21795602",
+      "37938507",
+      "29339431",
+      "34154400",
+      "24319092",
+      "39146292",
+      "36602339",
+      "17307856",
+      "11119548",
+      "36469533",
+      "15813735",
+      "14977975",
+      "23363478",
+      "38385459",
+      "28739805",
+      "21968370",
+      "9302017",
+      "1655713",
+      "23353148",
+      "29109186",
+      "28167524",
+      "20536183",
+      "18005985",
+      "20434913",
+      "9045825",
+      "8798534",
+      "16443380",
+      "15225323",
+      "33727356",
+      "28289188",
+      "12421316",
+      "24573685",
+      "39777470"
+    ],
+    "review": [
+      "41219151",
+      "31010903"
+    ],
+    "pmc": [
+      "12648661"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41219151/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01120",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

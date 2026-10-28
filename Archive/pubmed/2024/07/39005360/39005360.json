@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "pmid": "39005360",
+    "doi": "10.1101/2023.09.24.559168",
+    "title": "GET: a foundation model of transcription across human cell types."
+  },
+  "content": {
+    "abstract": "Transcriptional regulation, involving the complex interplay between regulatory sequences and proteins, directs all biological processes. Computational models of transcription lack generalizability to accurately extrapolate in unseen cell types and conditions. Here, we introduce GET, an interpretable foundation model designed to uncover regulatory grammars across 213 human fetal and adult cell types. Relying exclusively on chromatin accessibility data and sequence information, GET achieves experimental-level accuracy in predicting gene expression even in previously unseen cell types. GET showcases remarkable adaptability across new sequencing platforms and assays, enabling regulatory inference across a broad range of cell types and conditions, and uncovering universal and cell type specific transcription factor interaction networks. We evaluated its performance on prediction of regulatory activity, inference of regulatory elements and regulators, and identification of physical interactions between transcription factors. Specifically, we show GET outperforms current models in predicting lentivirus-based massive parallel reporter assay readout with reduced input data. In fetal erythroblasts, we identify distal (>1Mbp) regulatory regions that were missed by previous models. In B cells, we identified a lymphocyte-specific transcription factor-transcription factor interaction that explains the functional significance of a leukemia-risk predisposing germline mutation. In sum, we provide a generalizable and accurate model for transcription together with catalogs of gene regulation and transcription factor interactions, all with cell type specificity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Xi",
+        "Mo, Shentong",
+        "Buendia, Alejandro",
+        "Laurent, Anouchka",
+        "Shao, Anqi",
+        "Del Mar Alvarez-Torres, Maria",
+        "Yu, Tianji",
+        "Tan, Jimin",
+        "Su, Jiayu",
+        "Sagatelian, Romella",
+        "Ferrando, Adolfo A",
+        "Ciccia, Alberto",
+        "Lan, Yanyan",
+        "Owens, David M",
+        "Palomero, Teresa",
+        "Xing, Eric P",
+        "Rabadan, Raul"
+      ],
+      "short_names": [
+        "Fu X",
+        "Mo S",
+        "Buendia A",
+        "Laurent A",
+        "Shao A",
+        "Del Mar Alvarez-Torres M",
+        "Yu T",
+        "Tan J",
+        "Su J",
+        "Sagatelian R",
+        "Ferrando AA",
+        "Ciccia A",
+        "Lan Y",
+        "Owens DM",
+        "Palomero T",
+        "Xing EP",
+        "Rabadan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9835-5018",
+        "ORCID: 0000-0003-3308-9585",
+        "ORCID: 0000-0002-8997-9272",
+        "ORCID: 0000-0001-7946-9255"
+      ],
+      "affiliations": [
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Biomedical Informatics, Columbia University, New York, NY, USA.",
+        "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+        "Department of Dermatology, Columbia University, New York, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Regeneron Genetics Center, Regeneron, Tarrytown, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Dermatology, Columbia University, New York, NY, USA.",
+        "Regeneron Genetics Center, Regeneron, Tarrytown, NY, USA.",
+        "Department of Genetics and Development, Columbia University, New York, NY, USA.",
+        "Institute for AI Industry Research, Tsinghua University, Beijing, China.",
+        "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+        "Department of Pathology & Cell Biology, Columbia University, New York, NY, USA.",
+        "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+        "Department of Pathology & Cell Biology, Columbia University, New York, NY, USA.",
+        "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Biomedical Informatics, Columbia University, New York, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Xi",
+        "short_name": "Fu X",
+        "identifiers": [
+          "0000-0001-9835-5018"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA.",
+          "Department of Biomedical Informatics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mo, Shentong",
+        "short_name": "Mo S",
+        "identifiers": [
+          "0000-0003-3308-9585"
+        ],
+        "affiliations": [
+          "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA.",
+          "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Buendia, Alejandro",
+        "short_name": "Buendia A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Laurent, Anouchka",
+        "short_name": "Laurent A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Shao, Anqi",
+        "short_name": "Shao A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Del Mar Alvarez-Torres, Maria",
+        "short_name": "Del Mar Alvarez-Torres M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Tianji",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Jimin",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Regeneron Genetics Center, Regeneron, Tarrytown, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Su, Jiayu",
+        "short_name": "Su J",
+        "identifiers": [
+          "0000-0002-8997-9272"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sagatelian, Romella",
+        "short_name": "Sagatelian R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ferrando, Adolfo A",
+        "short_name": "Ferrando AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Columbia University, New York, NY, USA.",
+          "Regeneron Genetics Center, Regeneron, Tarrytown, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ciccia, Alberto",
+        "short_name": "Ciccia A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Development, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lan, Yanyan",
+        "short_name": "Lan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for AI Industry Research, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Owens, David M",
+        "short_name": "Owens DM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+          "Department of Pathology & Cell Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Palomero, Teresa",
+        "short_name": "Palomero T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cancer Genetics, Columbia University, New York, NY, USA.",
+          "Department of Pathology & Cell Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Xing, Eric P",
+        "short_name": "Xing EP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Machine Learning, Carnegie Mellon University, Pittsburgh, PA, USA.",
+          "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Rabadan, Raul",
+        "short_name": "Rabadan R",
+        "identifiers": [
+          "0000-0001-7946-9255"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University, New York, NY, USA.",
+          "Department of Biomedical Informatics, Columbia University, New York, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jul 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/15 06:42",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38844628",
+      "38409223",
+      "38159566",
+      "37914932",
+      "37557175",
+      "37537351",
+      "37532915",
+      "37443338",
+      "37409559",
+      "37258680",
+      "36927031",
+      "36755098",
+      "36624151",
+      "36608654",
+      "36411341",
+      "35902733",
+      "35725906",
+      "35580127",
+      "35551308",
+      "35549404",
+      "35440541",
+      "35140242",
+      "34774128",
+      "34608324",
+      "34265844",
+      "34172753",
+      "33958780",
+      "33828297",
+      "33796864",
+      "33633365",
+      "33347954",
+      "33184181",
+      "33184180",
+      "32728250",
+      "32687525",
+      "32641802",
+      "32098872",
+      "31784727",
+      "31066453",
+      "30804533",
+      "30643249",
+      "30476243",
+      "30200835",
+      "30013180",
+      "29610478",
+      "29429977",
+      "28787426",
+      "26963603",
+      "26675734",
+      "26301843",
+      "25753752",
+      "25319994",
+      "24174682",
+      "24013638",
+      "23817048",
+      "23582333",
+      "23334668",
+      "22955616",
+      "22669466",
+      "22500632",
+      "21552207",
+      "18209069",
+      "17658281",
+      "17344859",
+      "16546096",
+      "15641773",
+      "15297311"
+    ],
+    "similar": [
+      "39005360",
+      "39779852",
+      "39605181",
+      "33874910",
+      "30598689",
+      "38940155",
+      "27831498",
+      "22955983",
+      "37788349",
+      "34774128",
+      "23482648",
+      "33522898",
+      "31053165",
+      "33581335",
+      "37546906",
+      "35410163",
+      "28204611",
+      "22955984",
+      "29082337",
+      "39326643",
+      "22456606",
+      "32487739",
+      "34244796",
+      "39814889",
+      "35293310",
+      "37600946",
+      "24042128",
+      "36629404",
+      "8132552",
+      "33501917",
+      "39337329",
+      "38806476",
+      "28690910",
+      "36902216",
+      "32054475",
+      "39964163",
+      "33074101",
+      "21750106",
+      "28750606",
+      "19961622",
+      "38358392",
+      "30547796",
+      "28961802",
+      "31701125",
+      "36945371",
+      "23221638",
+      "31533978",
+      "30423062",
+      "39207727",
+      "36204155",
+      "15262804",
+      "39833103",
+      "32019417",
+      "32376693",
+      "29558892",
+      "36147664",
+      "39550354",
+      "23595227",
+      "32578841",
+      "26170447",
+      "31678628",
+      "16966362",
+      "32043966",
+      "34486522",
+      "39803441",
+      "16817975",
+      "33153500",
+      "37985457",
+      "32973041",
+      "25228660",
+      "37873175",
+      "31682597",
+      "37292820",
+      "35858748",
+      "25957350",
+      "32619460",
+      "38711859",
+      "40029523",
+      "38012720",
+      "18682805",
+      "38653489",
+      "36742369",
+      "32174324",
+      "31631012",
+      "39829783",
+      "18441229",
+      "31345953",
+      "34666684",
+      "34996354",
+      "31206543",
+      "26502339",
+      "26499213",
+      "23387820",
+      "20808951",
+      "31006511",
+      "39763871",
+      "26110593",
+      "37577525",
+      "32616518",
+      "25374456"
+    ],
+    "review": [
+      "39005360",
+      "39207727",
+      "36147664",
+      "31678628"
+    ],
+    "pmc": [
+      "11244937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39005360/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.09.24.559168",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39005360",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

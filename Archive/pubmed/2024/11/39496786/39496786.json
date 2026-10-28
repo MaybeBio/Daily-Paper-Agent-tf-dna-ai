@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "39496786",
+    "doi": "10.1038/s41598-024-78540-x",
+    "title": "Exploration of common pathogenesis and candidate hub genes between HIV and monkeypox co-infection using bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "This study explored the pathogenesis of human immunodeficiency virus (HIV) and monkeypox co-infection, identifying candidate hub genes and potential drugs using bioinformatics and machine learning. Datasets for HIV (GSE 37250) and monkeypox (GSE 24125) were obtained from the GEO database. Common differentially expressed genes (DEGs) in co-infection were identified by intersecting DEGs from monkeypox datasets with genes from key HIV modules screened using Weighted Gene Co-Expression Network Analysis (WGCNA). After gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis and construction of protein-protein interaction (PPI) network, candidate hub genes were further screened based on machine learning algorithms. Transcriptional factors (TFs) and miRNA-candidate hub gene networks were constructed to understand regulatory mechanisms and protein-drug interactions to identify potential therapeutic drugs. Seven candidate hub genes-MX2, ADAR, POLR2H, RPL5, IFI16, IFIT2, and RPS5-were identified. TFs and miRNAs associated with these hub genes, playing a key role in regulating viral infection and inflammation due to the activation of antiviral innate immunity, were also identified through network analysis. Potential therapeutic drugs were screened based on these hub genes: AZT, a nucleotide reverse transcriptase inhibitor, suppressed viral replication in HIV and monkeypox co-infection, while mefloquine inhibited inflammation due to the activation of antiviral innate immunity. In conclusion, the study identified candidate hub genes, their transcriptional regulation, signaling pathways, and small-molecule drugs in HIV and monkeypox co-infection, contributing to understanding the pathogenesis of HIV and monkeypox co-infection and informing precise therapeutic strategies.",
+    "keywords": [
+      "Differentially expressed genes",
+      "Drugs",
+      "HIV",
+      "Hub genes",
+      "Machine learning",
+      "Monkeypox"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*HIV Infections/genetics/virology",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "*Gene Regulatory Networks",
+      "*Coinfection/genetics",
+      "*Protein Interaction Maps/genetics",
+      "Mpox, Monkeypox/genetics/virology",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling/methods",
+      "Gene Ontology",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jialu",
+        "Hao, Yiwei",
+        "Wu, Liang",
+        "Liang, Hongyuan",
+        "Ni, Liang",
+        "Wang, Fang",
+        "Wang, Sa",
+        "Duan, Yujiao",
+        "Xu, Qiuhua",
+        "Xiao, Jinjing",
+        "Yang, Di",
+        "Gao, Guiju",
+        "Ding, Yi",
+        "Gao, Chengyu",
+        "Xiao, Jiang",
+        "Zhao, Hongxin"
+      ],
+      "short_names": [
+        "Li J",
+        "Hao Y",
+        "Wu L",
+        "Liang H",
+        "Ni L",
+        "Wang F",
+        "Wang S",
+        "Duan Y",
+        "Xu Q",
+        "Xiao J",
+        "Yang D",
+        "Gao G",
+        "Ding Y",
+        "Gao C",
+        "Xiao J",
+        "Zhao H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Division of Medical Record and Statistics, Beijing Ditan Hospital, Capital Medical University, Beijing, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Department of Clinical Medicine, Zhengzhou University, Zhengzhou, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China. shawjiang@163.com.",
+        "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China. 13911022130@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jialu",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Yiwei",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Medical Record and Statistics, Beijing Ditan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Liang",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Hongyuan",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Liang",
+        "short_name": "Ni L",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fang",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sa",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Yujiao",
+        "short_name": "Duan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qiuhua",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jinjing",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Di",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Guiju",
+        "short_name": "Gao G",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yi",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Chengyu",
+        "short_name": "Gao C",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Jiang",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China. shawjiang@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongxin",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Center of HIV/AIDS, Beijing Ditan Hospital, Capital Medical University, Jingshun East Street, Chaoyang District, Beijing, 100015, China. 13911022130@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Nov 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/05 00:21",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42434339",
+      "41327255",
+      "39816240"
+    ],
+    "refs": [
+      "38415010",
+      "37409948",
+      "37313340",
+      "37285262",
+      "37243034",
+      "37079243",
+      "37031485",
+      "36834797",
+      "36828001",
+      "36438559",
+      "36357534",
+      "36321836",
+      "36300620",
+      "36035311",
+      "35866746",
+      "34790764",
+      "34373456",
+      "33986530",
+      "33635925",
+      "33167496",
+      "31967640",
+      "31441146",
+      "30227597",
+      "27708211",
+      "24392884",
+      "24204583",
+      "24204263",
+      "24167453",
+      "23570386",
+      "22404213",
+      "22183946",
+      "21267444",
+      "20890285",
+      "19114008",
+      "17547741",
+      "16646834",
+      "10592173"
+    ],
+    "similar": [
+      "39496786",
+      "37740761",
+      "31987036",
+      "38755717",
+      "38062833",
+      "39142001",
+      "36049413",
+      "39342024",
+      "38863714",
+      "34975885",
+      "38073349",
+      "35773742",
+      "34722763",
+      "38549107",
+      "35016690",
+      "38858671",
+      "38764052",
+      "38987624",
+      "35620387",
+      "32243390",
+      "37632659",
+      "34215202",
+      "33640831",
+      "36389792",
+      "39050860",
+      "34553293",
+      "37878219",
+      "36341343",
+      "35132271",
+      "38831425",
+      "35762549",
+      "35996248",
+      "31875420",
+      "34875552",
+      "32853947",
+      "30542696",
+      "30825595",
+      "38902567",
+      "32598242",
+      "32756534",
+      "38904678",
+      "34160465",
+      "36499614",
+      "28952134",
+      "39341952",
+      "39506588",
+      "38691241",
+      "37250717",
+      "38444712",
+      "37986378",
+      "33941565",
+      "37686108",
+      "39438957",
+      "33083497",
+      "36471356",
+      "38961143",
+      "38718074",
+      "36291136",
+      "31612481",
+      "31277149",
+      "33299863",
+      "39367003",
+      "31562292",
+      "36635346",
+      "37228892",
+      "28901494",
+      "38957433",
+      "33280594",
+      "34167437",
+      "38899746",
+      "38993198",
+      "31989994",
+      "32481304",
+      "38965970",
+      "30602391",
+      "39377750",
+      "39125762",
+      "28302149",
+      "30551734",
+      "32811479",
+      "30935420",
+      "36536067",
+      "33102593",
+      "35757392",
+      "37449753",
+      "39080525",
+      "30937635",
+      "34633991",
+      "32669126",
+      "36576616",
+      "39263286",
+      "33892654",
+      "39086489",
+      "38268224",
+      "30138363",
+      "36166989",
+      "31277155",
+      "39139563",
+      "33104965",
+      "35164778"
+    ],
+    "review": [
+      "39496786",
+      "32481304"
+    ],
+    "pmc": [
+      "11535269"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hiv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HIV"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-78540-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39496786/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

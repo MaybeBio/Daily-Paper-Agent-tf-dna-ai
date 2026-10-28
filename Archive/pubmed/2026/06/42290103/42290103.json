@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "42290103",
+    "doi": "10.1002/ptr.70398",
+    "title": "Malvidin-3-O-Rhamnoside Alleviates Klebsiella pneumoniae -Induced Acute Lung Injury by Regulating Macrophage-Mediated Inflammatory and Oxidative Pathways."
+  },
+  "content": {
+    "abstract": "Malvidin and its derivatives exhibit potent anti-inflammatory and antioxidant properties, yet their roles and mechanisms in infection-related acute lung injury (ALI) remain unclear. This study aimed to investigate the protective effects of malvidin-3-O-rhamnoside (Mv3rh) in Klebsiella pneumoniae (KP)-induced ALI and to elucidate the underlying mechanisms. A mouse model of KP-induced ALI was employed to assess the effects of Mv3rh on lung pathology, bacterial burden, myeloperoxidase (MPO) activity, alveolar macrophage proportion, cytokine levels, and survival. Mechanistic studies in alveolar macrophages included RNA sequencing, detection of reactive oxygen species (ROS), and evaluation of inflammasome activation, pyroptosis, and antioxidant responses using quantitative PCR (qPCR), Western blotting, flow cytometry, immunoprecipitation, and immunofluorescence. Potential interactions between Mv3rh with NOD-like receptor pyrin domain-containing 3 (NLRP3) or the Toll-like receptor 4/MD-2 complex were examined by molecular docking, cellular thermal shift assay (CETSA), and the interaction with TLR4 was further assessed by surface plasmon resonance (SPR). In vivo, Mv3rh pretreatment significantly mitigated KP-induced ALI, as evidenced by improved lung histopathology, reduced alveolar septal thickening, edema, and neutrophil infiltration, together with improved survival. These protective effects were accompanied by reduced systemic cytokine levels, lower bacterial burdens in the lung and blood, and partial restoration of alveolar macrophage-like cells in bronchoalveolar lavage fluid (BALF). In alveolar macrophages, Mv3rh suppressed TLR4/NF-kappaB signaling, reduced NLRP3 inflammasome priming and activation, inhibited cleavage of caspase-1 and GSDMD-N, and attenuated macrophage pyroptosis. In addition, Mv3rh activated the NRF2/HO-1 pathway, promoted NRF2 nuclear translocation, and restored antioxidant enzyme activities, including glutathione peroxidase (GPX), superoxide dismutase (SOD), and catalase (CAT). Mv3rh attenuates inflammation, oxidative stress, and macrophage pyroptosis in KP-induced ALI by regulating the TLR4/NF-kappaB/NLRP3 inflammasome axis and the NRF2/HO-1 antioxidant pathway. These findings suggest that Mv3rh possesses immunomodulatory activity and may be beneficial in KP-associated ALI.",
+    "keywords": [
+      "NLRP3 inflammasome",
+      "TLR4/NF-kappaB",
+      "acute lung injury",
+      "malvidin-3-O-rhamnoside",
+      "pyroptosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Acute Lung Injury/drug therapy/microbiology/metabolism",
+      "*Klebsiella pneumoniae",
+      "Mice",
+      "*Macrophages, Alveolar/drug effects/metabolism",
+      "NLR Family, Pyrin Domain-Containing 3 Protein/metabolism",
+      "*Klebsiella Infections/drug therapy",
+      "Male",
+      "Oxidative Stress/drug effects",
+      "Mice, Inbred C57BL",
+      "Toll-Like Receptor 4/metabolism",
+      "Inflammasomes/metabolism/drug effects",
+      "Reactive Oxygen Species/metabolism",
+      "Signal Transduction/drug effects",
+      "Lung/pathology/drug effects",
+      "Pyroptosis/drug effects",
+      "Disease Models, Animal",
+      "Cytokines/metabolism",
+      "Molecular Docking Simulation",
+      "Anti-Inflammatory Agents/pharmacology",
+      "NF-kappa B/metabolism",
+      "Inflammation/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Li",
+        "Chen, Jing",
+        "Sun, Baier",
+        "Yuan, Bo",
+        "Jiang, Fei",
+        "Wang, Xueshuang",
+        "Liang, Lulu",
+        "Li, Qingrong",
+        "Feng, Jian",
+        "Chen, Xi",
+        "Li, Rongpeng"
+      ],
+      "short_names": [
+        "Meng L",
+        "Chen J",
+        "Sun B",
+        "Yuan B",
+        "Jiang F",
+        "Wang X",
+        "Liang L",
+        "Li Q",
+        "Feng J",
+        "Chen X",
+        "Li R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4462-0549"
+      ],
+      "affiliations": [
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "Department of Biochemistry, School of Basic Medical Sciences, Jiangsu Key Laboratory of Brain Disease Bioinformation, Xuzhou Medical University, Xuzhou, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "Department of Respiratory and Critical Care Medicine, Affiliated Hospital and Medical School of Nantong University, Nantong, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "College of Life Science and Laboratory Medicine, Kunming Medical University, Kunming, China.",
+        "Department of Respiratory and Critical Care Medicine, Affiliated Hospital and Medical School of Nantong University, Nantong, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+        "Department of Respiratory and Critical Care Medicine, Affiliated Hospital and Medical School of Nantong University, Nantong, China.",
+        "Medical School of Nantong University, Nantong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Li",
+        "short_name": "Meng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+          "Department of Biochemistry, School of Basic Medical Sciences, Jiangsu Key Laboratory of Brain Disease Bioinformation, Xuzhou Medical University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Baier",
+        "short_name": "Sun B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Affiliated Hospital and Medical School of Nantong University, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Bo",
+        "short_name": "Yuan B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Fei",
+        "short_name": "Jiang F",
+        "identifiers": [
+          "0000-0002-4462-0549"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xueshuang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Lulu",
+        "short_name": "Liang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qingrong",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science and Laboratory Medicine, Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Jian",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Affiliated Hospital and Medical School of Nantong University, Nantong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xi",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Rongpeng",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jiangsu Normal University, Xuzhou, China.",
+          "Department of Respiratory and Critical Care Medicine, Affiliated Hospital and Medical School of Nantong University, Nantong, China.",
+          "Medical School of Nantong University, Nantong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytotherapy research : PTR"
+    ],
+    "journal_abbrev": [
+      "Phytother Res"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:37",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40565375",
+      "40397040",
+      "40391938",
+      "40347107",
+      "40295934",
+      "40140770",
+      "40133026",
+      "39722732",
+      "39684444",
+      "39426577",
+      "39404258",
+      "39128855",
+      "39058785",
+      "38977695",
+      "38888082",
+      "38887753",
+      "38761477",
+      "38740804",
+      "38001869",
+      "37836436",
+      "37781922",
+      "37626308",
+      "37463183",
+      "37446644",
+      "37223846",
+      "37056705",
+      "36803990",
+      "36699054",
+      "36336552",
+      "36103853",
+      "36063870",
+      "35369062",
+      "34907359",
+      "34768852",
+      "34684313",
+      "34681733",
+      "34551309",
+      "34366838",
+      "32826878",
+      "31677303",
+      "31608008",
+      "31526860",
+      "31036962",
+      "30887396",
+      "30860577",
+      "30452654",
+      "30200495",
+      "29945883",
+      "29678610",
+      "28657734",
+      "27815888",
+      "27307579",
+      "26438075",
+      "26077758",
+      "25330206",
+      "24919149",
+      "23991888",
+      "23125447",
+      "22592923",
+      "21997792",
+      "21918512",
+      "21124315",
+      "20348425",
+      "19587006",
+      "19447910",
+      "15618193",
+      "11553580"
+    ],
+    "similar": [
+      "42290103",
+      "41988197",
+      "39957615",
+      "41176909",
+      "42028593",
+      "38147126",
+      "40659556",
+      "40034700",
+      "39990234",
+      "42208328",
+      "39914066",
+      "33214095",
+      "38613798",
+      "31186013",
+      "40553825",
+      "38972239",
+      "40391938",
+      "33872850",
+      "41691737",
+      "42542054",
+      "38788361",
+      "41698296",
+      "33713981",
+      "41889065",
+      "38681210",
+      "42041133",
+      "42144067",
+      "37954597",
+      "33359748",
+      "34737012",
+      "31784404",
+      "33744777",
+      "42302943",
+      "41052684",
+      "38705442",
+      "40378935",
+      "39447411",
+      "40187888",
+      "42011616",
+      "40196168",
+      "39541844",
+      "39939033",
+      "38588989",
+      "35764933",
+      "40250034",
+      "38789583",
+      "37930390",
+      "40015537",
+      "30235451",
+      "41361467",
+      "41412231",
+      "36879546",
+      "40690148",
+      "40216045",
+      "42109067",
+      "38280662",
+      "42013993",
+      "40571230",
+      "41260550",
+      "38319388",
+      "28004759",
+      "38504536",
+      "40976624",
+      "27036629",
+      "42052827",
+      "33383130",
+      "41177854",
+      "38851105",
+      "40580743",
+      "38367422",
+      "39825692",
+      "37051243",
+      "37458783",
+      "41314044",
+      "34861244",
+      "27412237",
+      "40434446",
+      "40912485",
+      "36115602",
+      "41420798",
+      "38228230",
+      "30858121",
+      "28610608",
+      "37127893",
+      "40882722",
+      "37164255",
+      "40304322",
+      "34349759",
+      "37820748",
+      "42025248",
+      "32900490",
+      "33667838",
+      "42508544",
+      "40037266",
+      "36116200",
+      "39947373",
+      "33857805",
+      "39874846",
+      "34426780",
+      "39428183"
+    ],
+    "review": [
+      "42290103",
+      "41176909"
+    ],
+    "pmc": [
+      "13549054"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42290103/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ptr.70398",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3375",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

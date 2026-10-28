@@ -1,0 +1,196 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.25.630221",
+  "title": "ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility reveal cis-regulatory sequence syntax, transcription factor footprints and regulatory variants",
+  "doi": "10.1101/2024.12.25.630221",
+  "abstract": "<h4>ABSTRACT</h4> Despite extensive mapping of cis-regulatory elements (cREs) across cellular contexts with chromatin accessibility assays, the sequence syntax and genetic variants that regulate transcription factor (TF) binding and chromatin accessibility at context-specific cREs remain elusive. We introduce ChromBPNet, a deep learning DNA sequence model of base-resolution accessibility profiles that detects, learns and deconvolves assay-specific enzyme biases from regulatory sequence determinants of accessibility, enabling robust discovery of compact TF motif lexicons, cooperative motif syntax and precision footprints across assays and sequencing depths. Extensive benchmarks show that ChromBPNet, despite its lightweight design, is competitive with much larger contemporary models at predicting variant effects on chromatin accessibility, pioneer TF binding and reporter activity across assays, cell contexts and ancestry, while providing interpretation of disrupted regulatory syntax. ChromBPNet also helps prioritize and interpret regulatory variants that influence complex traits and rare diseases, thereby providing a powerful lens to decode regulatory DNA and genetic variation.",
+  "authors": [
+    "Pampari A",
+    "Shcherbina A",
+    "Kvon EZ",
+    "Kosicki M",
+    "Nair S",
+    "Kundu S",
+    "Kathiria AS",
+    "Risca VI",
+    "Kuningas K",
+    "Alasoo K",
+    "Greenleaf WJ",
+    "Pennacchio LA",
+    "Kundaje A"
+  ],
+  "published_date": "2024-12-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.25.630221",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.25.630221.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR960043",
+    "raw_record": {
+      "id": "PPR960043",
+      "source": "PPR",
+      "doi": "10.1101/2024.12.25.630221",
+      "title": "ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility reveal cis-regulatory sequence syntax, transcription factor footprints and regulatory variants",
+      "authorString": "Pampari A, Shcherbina A, Kvon EZ, Kosicki M, Nair S, Kundu S, Kathiria AS, Risca VI, Kuningas K, Alasoo K, Greenleaf WJ, Pennacchio LA, Kundaje A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pampari A",
+            "lastName": "Pampari",
+            "firstName": "Anusri",
+            "initials": "A"
+          },
+          {
+            "fullName": "Shcherbina A",
+            "lastName": "Shcherbina",
+            "firstName": "Anna",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kvon EZ",
+            "lastName": "Kvon",
+            "firstName": "Evgeny",
+            "initials": "EZ"
+          },
+          {
+            "fullName": "Kosicki M",
+            "lastName": "Kosicki",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7173-8852"
+            }
+          },
+          {
+            "fullName": "Nair S",
+            "lastName": "Nair",
+            "firstName": "Surag",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kundu S",
+            "lastName": "Kundu",
+            "firstName": "Soumya",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kathiria AS",
+            "lastName": "Kathiria",
+            "firstName": "Arwa",
+            "initials": "AS"
+          },
+          {
+            "fullName": "Risca VI",
+            "lastName": "Risca",
+            "firstName": "Viviana",
+            "initials": "VI"
+          },
+          {
+            "fullName": "Kuningas K",
+            "lastName": "Kuningas",
+            "firstName": "Kristiina",
+            "initials": "K"
+          },
+          {
+            "fullName": "Alasoo K",
+            "lastName": "Alasoo",
+            "firstName": "Kaur",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1761-8881"
+            }
+          },
+          {
+            "fullName": "Greenleaf WJ",
+            "lastName": "Greenleaf",
+            "firstName": "William James",
+            "initials": "WJ"
+          },
+          {
+            "fullName": "Pennacchio LA",
+            "lastName": "Pennacchio",
+            "firstName": "Len",
+            "initials": "LA"
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7173-8852"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1761-8881"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Despite extensive mapping of cis-regulatory elements (cREs) across cellular contexts with chromatin accessibility assays, the sequence syntax and genetic variants that regulate transcription factor (TF) binding and chromatin accessibility at context-specific cREs remain elusive. We introduce ChromBPNet, a deep learning DNA sequence model of base-resolution accessibility profiles that detects, learns and deconvolves assay-specific enzyme biases from regulatory sequence determinants of accessibility, enabling robust discovery of compact TF motif lexicons, cooperative motif syntax and precision footprints across assays and sequencing depths. Extensive benchmarks show that ChromBPNet, despite its lightweight design, is competitive with much larger contemporary models at predicting variant effects on chromatin accessibility, pioneer TF binding and reporter activity across assays, cell contexts and ancestry, while providing interpretation of disrupted regulatory syntax. ChromBPNet also helps prioritize and interpret regulatory variants that influence complex traits and rare diseases, thereby providing a powerful lens to decode regulatory DNA and genetic variation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.25.630221"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.25.630221"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-28",
+      "firstPublicationDate": "2024-12-25",
+      "firstIndexDate": "2024-12-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

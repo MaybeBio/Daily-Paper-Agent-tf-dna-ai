@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "38085498",
+    "doi": "10.1007/s10528-023-10598-0",
+    "title": "Identification and Analysis of Immune Microenvironment-Related Genes for Keloid Risk Prediction and Their Effects on Keloid Proliferation and Migration."
+  },
+  "content": {
+    "abstract": "Keloid is a kind of proliferative scar with continuous growth, no restriction and easy recurrence, which cannot be cured and bring serious physical injury and psychological burden to patients. The main reason is that the pathological mechanism is not clear. Therefore, this project is expected to reveal the immune microenvironment-related genes and their functions in keloid progression, and provide effective targets for the treatment of keloid. Firstly, 8 kinds of immune infiltrating cells and 19 potential characteristic genes were identified by immune infiltration analysis, ssGSEA, LASSO regression (glmnet algorithm and lars algorithm) and WGCNA, indicating that keloid was closely related to the changes of immune microenvironment. Then, 4 pathological biomarkers of keloid (MAPK1, PTPRC, STAT3 and IL1R1) were identified by differentially analysis, univariate analysis, LASSO regression (lars algorithm), support vector machine recursive feature elimination (SVM-REF) algorithm, multivariate logical regression analysis and six machine learning algorithms. Based on the 4 feature genes, the risk prediction model and nomogram were constructed. Calibration curve and ROC analysis (AUC = 0.930) showed that the model had reliable clinical value. Subsequently, consistent cluster analysis was used to find that there were 2 immune microenvironment subsets in keloid patients, of which subgroup II was immune subgroup. Multiple independent datasets and RT-qPCR showed that the expression trend of the 4 genes was consistent with the analysis. Cell gain-loss experiment confirmed that 4 genes regulated the proliferation and migration of keloid cells. The above data shows that MAPK1, PTPRC, STAT3 and IL1R1 may be personalized therapeutic targets for keloid patients.",
+    "keywords": [
+      "Characteristic genes",
+      "Immune microenvironment",
+      "Immune subtypes",
+      "Keloid",
+      "Proliferation and migration"
+    ],
+    "mesh_terms": [
+      "*Keloid/genetics/immunology/pathology",
+      "Humans",
+      "*Cell Proliferation",
+      "*STAT3 Transcription Factor/genetics",
+      "*Cell Movement",
+      "Receptors, Interleukin-1 Type I/genetics",
+      "Mitogen-Activated Protein Kinase 1/genetics/metabolism",
+      "Female",
+      "Male",
+      "Biomarkers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Yongyan",
+        "Wu, Yikai",
+        "Zhang, Mengqi",
+        "Su, Xuemin",
+        "Cao, Hua",
+        "Zhao, Jiaji"
+      ],
+      "short_names": [
+        "Pei Y",
+        "Wu Y",
+        "Zhang M",
+        "Su X",
+        "Cao H",
+        "Zhao J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China. peiyongyan@gdpu.edu.cn.",
+        "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China.",
+        "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China.",
+        "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China.",
+        "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China.",
+        "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China. zhaojiajizgz@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Yongyan",
+        "short_name": "Pei Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China. peiyongyan@gdpu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Yikai",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mengqi",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Su, Xuemin",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Hua",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jiaji",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Guangdong Pharmaceutical University. Zhongshan Campus, Guangdong Pharmaceutical University, No.13 Changmingshui Avenue, Wuguishan, Zhongshan, Guangdong, China. zhaojiajizgz@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical genetics"
+    ],
+    "journal_abbrev": [
+      "Biochem Genet"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/12 12:42",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "42719615",
+      "41623394",
+      "41540361",
+      "39928198"
+    ],
+    "refs": [
+      "36480415",
+      "36052657",
+      "36012134",
+      "35990663",
+      "35967426",
+      "35783137",
+      "35757697",
+      "35741775",
+      "35273680",
+      "34518894",
+      "34480483",
+      "34416167",
+      "34342153",
+      "34301649",
+      "34169622",
+      "34039664",
+      "33421980",
+      "33353063",
+      "33243301",
+      "33211348",
+      "32972405",
+      "32905614",
+      "32628975",
+      "32381551",
+      "31698775",
+      "31400303",
+      "30903160",
+      "29485622",
+      "29366662",
+      "29272905",
+      "28344865",
+      "28052254",
+      "23180781",
+      "22455463",
+      "14694529"
+    ],
+    "similar": [
+      "38085498",
+      "35709926",
+      "37666763",
+      "39014455",
+      "36569892",
+      "37915086",
+      "35719372",
+      "37930112",
+      "18463684",
+      "38840411",
+      "39221860",
+      "34107850",
+      "38476235",
+      "28498357",
+      "34315405",
+      "38370978",
+      "36725810",
+      "37274806",
+      "35764238",
+      "34553702",
+      "38897129",
+      "38476236",
+      "36470144",
+      "38371524",
+      "36689018",
+      "16619044",
+      "38029552",
+      "33200804",
+      "37732314",
+      "38951833",
+      "36520384",
+      "38835052",
+      "36544768",
+      "37986345",
+      "38084289",
+      "35441794",
+      "29283384",
+      "35938015",
+      "37782162",
+      "34767108",
+      "36701151",
+      "36685847",
+      "36660690",
+      "37783761",
+      "29328420",
+      "35350787",
+      "35872873",
+      "38334429",
+      "36746103",
+      "38291374",
+      "38650649",
+      "32327724",
+      "35845512",
+      "34655977",
+      "37359526",
+      "37685578",
+      "38444850",
+      "37667921",
+      "36641250",
+      "35001812",
+      "36792688",
+      "36742332",
+      "36896881",
+      "37454542",
+      "37168863",
+      "38051734",
+      "39007147",
+      "36524127",
+      "38020758",
+      "36589450",
+      "29029852",
+      "37808522",
+      "37389124",
+      "35942730",
+      "34054812",
+      "38849409",
+      "35264872",
+      "36248807",
+      "37266443",
+      "36081904",
+      "36311753",
+      "38283345",
+      "38499050",
+      "35713363",
+      "36948405",
+      "35924232",
+      "39054714",
+      "27855376",
+      "38144565",
+      "37035552",
+      "37115484",
+      "38965675",
+      "36479114",
+      "37264340",
+      "34600545",
+      "38711508"
+    ],
+    "review": [
+      "38085498"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s10528-023-10598-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTPRC-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

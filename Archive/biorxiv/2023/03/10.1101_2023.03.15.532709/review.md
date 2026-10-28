@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose a computational approach based on residue correlation networks and dihedral angle analysis to identify key residues in protein-protein interactions (PPIs). They validate this approach by designing ubiquitin variants (UbVs) with enhanced binding affinity and inhibitory potency against MERS coronavirus papain-like protease (PLpro), achieving up to 5,500-fold improvement in IC50 and 27,500-fold in affinity with a 5-point mutant.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion, Materials and Methods, references to supplementary figures and tables
+- **Missing materials affecting confidence** Supplementary figures (S1-S10) and tables (S1) are referenced but not provided; raw MD simulation data, MM/PBSA energy values, BLI sensorgrams, and CD spectra are not included; detailed statistical analysis of experimental replicates is not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational strategy for identifying mutation hotspots in protein-protein interfaces, with promising experimental validation in the Ub-PLpro system. However, the current evidence base is incomplete, and several methodological details and data interpretations require clarification before the central claims can be fully evaluated. The work is of interest to the protein engineering and structural biology communities, but the novelty relative to existing computational PPI design approaches needs to be more clearly articulated.
+- **Who would be interested in the results, and why** Researchers in protein engineering, computational biophysics, and structural biology would be interested in the residue correlation network approach for guiding mutagenesis. Those working on deubiquitinase inhibitors or antiviral therapeutics targeting coronaviral PLpro would also find the experimental results relevant. The potential generalizability of the method to other PPI systems could attract a broader audience in drug discovery and synthetic biology.
+- **Major strengths** The study combines computational predictions with experimental validation, which strengthens the practical relevance of the approach. The use of multiple computational techniques (MD, dihedral correlation, FDA, MM/PBSA, PPI-GaMD) provides a multi-faceted view of the interaction network. The experimental results, particularly the 5-point mutant achieving nanomolar affinity and picomolar-range IC50, are impressive and suggest the method has practical utility. The emphasis on minimal mutation numbers to maintain stability is a practical consideration often overlooked in protein design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that residue correlation networks and dihedral angle analysis can identify critical residues for enhancing PPI is central to the manuscript.
+  - **Evidence pointer** Results and Discussion, "Identification of key residues in the PPI interface"; Supplementary Figures S1, S2
+  - **Concern** The methodology for identifying "highly correlated regions" and selecting specific mutation sites is not described with sufficient detail. The correlation cutoff of 0.3 is mentioned, but the criteria for defining "regions" and the rationale for choosing specific residues within those regions are unclear. The authors state that they "suggested highly interactive residues with strong correlation in the residue network and also on the Ub-PLpro interface as potential mutation residues," but the specific decision-making process is not transparent. Without a clear, reproducible selection protocol, the generalizability of the approach cannot be assessed.
+  - **Why it matters** The core claim is that this computational method can efficiently identify mutation sites. If the selection criteria are not clearly defined, other researchers cannot apply the method to their own systems, and the scientific contribution is diminished.
+  - **Resolution test** Provide a step-by-step description of the residue selection algorithm, including how correlation values, network connectivity, and interface proximity are weighted. Ideally, include a flowchart or pseudocode. Demonstrate the method's applicability to a second, independent PPI system, even in silico, to show it is not system-specific.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PPI-GaMD simulations can predict relative binding residence times that correlate with experimental binding affinity.
+  - **Evidence pointer** Results and Discussion, "Identification of key residues in the PPI interface"; Supplementary Figure S5
+  - **Concern** The PPI-GaMD methodology is described briefly, and the authors acknowledge that "the residence time cannot be compared directly with the binding affinity or dissociation rate constant (koff)." However, they still use the dissociation time to conclude that variants "should serve as tighter binders than wtUb." This logical leap is not justified. The relationship between simulated dissociation time and experimentally measured KD or IC50 is not established, and no quantitative comparison is provided. The authors report R2=0.94 between IC50 and KD, but no correlation between simulation and experiment is shown.
+  - **Why it matters** The predictive power of the computational approach is a key selling point. If the simulation results are not quantitatively validated against experimental data, the claim that the method can predict improved binders is weakened.
+  - **Resolution test** Provide a quantitative comparison between PPI-GaMD dissociation times and experimentally measured KD or IC50 values for the same variants. If such a correlation exists, show it explicitly. If not, temper the claims about predictive power and present the simulations as qualitative guides only.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the designed UbVs show improved stability compared to previously reported variants, specifically that "the reported variants ME.2 and ME.4 with 15 mutated residues revealed denatured states at 80°C, which is significantly less thermostable than our UbVs."
+  - **Evidence pointer** Results and Discussion, "Ub C-terminal mutations R74N-G75S further stabilize the PPIs"; Supplementary Figure S9
+  - **Concern** The comparison with ME.2 and ME.4 is presented as a key advantage, but the experimental conditions for the CD measurements of the reference variants are not described. Were the ME.2 and ME.4 measurements performed under identical buffer conditions, protein concentrations, and heating protocols? The authors state that their UbVs "yielding high thermostability than single and double-point mutants," but the data for ME.2 and ME.4 are not shown in the main text or described in sufficient detail. This comparison is critical for the claim of superiority over existing designs.
+  - **Why it matters** The stability advantage is a major selling point for the clinical or biotechnological utility of the designed UbVs. If the comparison is not rigorous, the claim of improved stability is not established.
+  - **Resolution test** Show the CD spectra and melting curves for ME.2 and ME.4 under identical conditions to the UbVs in this study. Provide quantitative Tm values for all variants. If the reference data are from a previous publication, clearly state the source and confirm that conditions were matched.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the computational approach can be "straightforwardly applied to other protein-protein interacting systems."
+  - **Evidence pointer** Results and Discussion, final paragraph; Abstract
+  - **Concern** The generalizability claim is made without demonstration. The manuscript only shows results for the Ub-PLpro system. While the authors list several potential target systems (USP4, USP7, USP11, SARS-CoV-2 PLpro), no data are presented to support the claim that the method works beyond the tested case. The method's reliance on MD simulations, which are computationally expensive and system-specific in their setup, may limit its straightforward application.
+  - **Why it matters** The broader impact of the work depends on its generalizability. Overstating the applicability without evidence could mislead readers and reduce the credibility of the claims.
+  - **Resolution test** Either provide a proof-of-concept application to a second PPI system, or temper the language to indicate that the method is expected to be generalizable but requires further validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Our designed UbV with 3 mutated residues resulted in a ∼3,500-fold increase in functional inhibition"
+  - **Issue** The abstract states "3 mutated residues" but the main text describes the initial design as "2-point mutations" and later "3-point" variants. The numbering is inconsistent and confusing.
+  - **Required correction** Clarify the exact number of mutations in each variant and use consistent terminology throughout the abstract and main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "MD simulation Protocol"
+  - **Evidence pointer** Materials and Methods, "MD simulation Protocol"
+  - **Issue** The description of the MD simulation setup is incomplete. The force field, water model, temperature/pressure coupling methods, and simulation length are mentioned, but details on the equilibration protocol, constraints, and analysis tools are missing. The statement "The first 50-ns of MD simulation are treated as equilibrium plus" is unclear.
+  - **Required correction** Provide a complete description of the simulation parameters, including the equilibration protocol, any restraints applied, and the software versions used. Clarify the "equilibrium plus" terminology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion, "Experimental characterizations of inhibitory UbVs"
+  - **Evidence pointer** Results and Discussion, "Experimental characterizations of inhibitory UbVs"; Table 1
+  - **Issue** The authors report KD and IC50 values for multiple variants but do not provide confidence intervals or standard deviations for these measurements. The number of independent replicates is mentioned as "triplicated" for IC50, but the variability is not shown.
+  - **Required correction** Include error bars or confidence intervals for all reported KD and IC50 values, and specify the number of independent experiments performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, "Ub C-terminal mutations R74N-G75S further stabilize the PPIs"
+  - **Evidence pointer** Results and Discussion, "Ub C-terminal mutations R74N-G75S further stabilize the PPIs"
+  - **Issue** The section title mentions "R74N-G75S" but the text also discusses mutations at position 64. The relationship between the different mutation sets and the rationale for combining them is not clearly explained.
+  - **Required correction** Clarify the stepwise design process and how each additional mutation was chosen based on the computational predictions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "PPI-GAMD Simulation Protocol"
+  - **Evidence pointer** Materials and Methods, "PPI-GAMD Simulation Protocol"
+  - **Issue** The PPI-GaMD parameters are described, but the criteria for defining "dissociation" are vague. The statement "We defined the dissociation by observing a sudden jump of Cα RMSD values" lacks a quantitative threshold.
+  - **Required correction** Provide a specific RMSD cutoff or other quantitative criterion for defining dissociation events.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Code Availability
+  - **Evidence pointer** Code Availability
+  - **Issue** The source code for the dihedral correlation network is "available upon request," which is not in line with modern open-science practices and limits reproducibility.
+  - **Required correction** Deposit the code in a public repository (e.g., GitHub, Zenodo) and provide a DOI or link.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (residue selection criteria not reproducible), R1-M2 (PPI-GaMD predictions not quantitatively validated), R1-M3 (stability comparison with reference variants not rigorously established)
+- **Assessment against Nature-style criteria** Originality: The concept of using dihedral angle correlation networks for PPI design is somewhat novel, but similar network-based approaches have been reported for other systems. The originality is moderate. Scientific importance: The experimental results, particularly the high-affinity UbV variants, are potentially important for therapeutic applications targeting PLpro. However, the general importance of the method beyond this specific case is not demonstrated. Interdisciplinary readership: The work bridges computational biophysics, protein engineering, and virology, which could attract readers from multiple fields. Technical soundness: The computational methodology has gaps in reproducibility, and the experimental validation lacks some statistical rigor. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with MD simulations and protein engineering concepts. The abstract is accessible, but the methods section would be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the experimental results are encouraging, but the lack of methodological detail and quantitative validation of the computational predictions currently prevents full endorsement. The authors should address the reproducibility of the residue selection process, provide quantitative correlation between simulations and experiments, and strengthen the stability comparison with reference variants.
+
+## Risk / unsupported claims
+- The claim that the method can be "straightforwardly applied to other protein-protein interacting systems" is unsupported by data.
+- The claim that PPI-GaMD residence times predict tighter binding is not quantitatively validated.
+- The claim of improved thermostability over ME.2 and ME.4 is not rigorously supported by the data presented.
+- The statement that "modifying residues in regions exhibited highly correlated motions within the interaction network is also generalized" is an overstatement without broader validation.
+- The R2=0.94 correlation between IC50 and KD is reported but the underlying data and fitting procedure are not shown.

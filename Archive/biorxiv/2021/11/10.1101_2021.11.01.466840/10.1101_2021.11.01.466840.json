@@ -1,0 +1,599 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.11.01.466840",
+  "title": "Base-resolution prediction of transcription factor binding signals by a deep learning framework",
+  "doi": "10.1101/2021.11.01.466840",
+  "abstract": "Transcription factors (TFs) play an important role in regulating gene expression, thus the identification of the sites bound by them has become a fundamental step for molecular and cellular biology. In this paper, we developed a deep learning framework leveraging existing fully convolutional neural networks (FCN) to predict TF-DNA binding signals at the base-resolution level, called FCNsignal. The proposed FCNsignal can simultaneously achieve the following tasks: (i) modeling the base-resolution signals of binding regions; (ii) discriminating binding or non-binding regions; (iii) locating TF-DNA binding regions; (iv) predicting binding motifs. The experimental results on 53 TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets show that our proposed framework outperforms some existing state-of-the-art methods. In addition, we explored to use the trained FCNsignal to locate all potential TF-DNA binding regions on a whole chromosome and predict DNA sequences of arbitrary length, and the results show that our framework can find most of the known binding regions and accept sequences of arbitrary length. Furthermore, we demonstrated the potential ability of our framework in discovering causal disease-associated single-nucleotide polymorphisms (SNPs) through a series of experiments. Author summary Identification of transcription factor binding sites (TFBSs) is fundamental to study gene regulatory networks in biological systems, as TFs activate or suppress the transcription of genes by binding to specific TFBSs. With the development of high-throughput sequencing technologies and deep learning (DL), several DL-based approaches have been developed for systematically studying TFBSs, achieving impressive performance. Nevertheless, these methods either excessively focus on discriminating binding or non-binding sequences or individually accomplish multiple TFBSs-associated tasks. In this work, we provide an integrated framework, which utilizes the FCN architecture to predict TF-DNA binding signals at the base-resolution level, to simultaneously study multiple TFBSs-associated tasks. More importantly, we also demonstrate that our proposed framework has the ability to locate all potential TF-DNA binding regions from DNA sequences of arbitrary length. We hope that our framework can provide a new perspective on studying the mechanism of TF-DNA binding and its related tasks.",
+  "authors": [
+    "Qinhu Zhang",
+    "Ying He",
+    "Siguo Wang",
+    "Zhanheng Chen",
+    "Zhenhao Guo",
+    "Zhen Cui",
+    "De-Shuang Huang"
+  ],
+  "published_date": "2021-11-04",
+  "updated_date": "2021-11-04T12:40:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.11.01.466840",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.11.01.466840.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:47:16Z",
+        "timestamp": 1768499236925,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            4
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Transcription factors (TFs) play an important role in regulating gene expression, thus the identification of the sites bound by them has become a fundamental step for molecular and cellular biology. In this paper, we developed a deep learning framework leveraging existing fully convolutional neural networks (FCN) to predict TF-DNA binding signals at the base-resolution level, called FCNsignal. The proposed FCNsignal can simultaneously achieve the following tasks: (i) modeling the base-resolution signals of binding regions; (ii) discriminating binding or non-binding regions; (iii) locating TF-DNA binding regions; (iv) predicting binding motifs. The experimental results on 53 TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets show that our proposed framework outperforms some existing state-of-the-art methods. In addition, we explored to use the trained FCNsignal to locate all potential TF-DNA binding regions on a whole chromosome and predict DNA sequences of arbitrary length, and the results show that our framework can find most of the known binding regions and accept sequences of arbitrary length. Furthermore, we demonstrated the potential ability of our framework in discovering causal disease-associated single-nucleotide polymorphisms (SNPs) through a series of experiments.</jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Identification of transcription factor binding sites (TFBSs) is fundamental to study gene regulatory networks in biological systems, as TFs activate or suppress the transcription of genes by binding to specific TFBSs. With the development of high-throughput sequencing technologies and deep learning (DL), several DL-based approaches have been developed for systematically studying TFBSs, achieving impressive performance. Nevertheless, these methods either excessively focus on discriminating binding or non-binding sequences or individually accomplish multiple TFBSs-associated tasks. In this work, we provide an integrated framework, which utilizes the FCN architecture to predict TF-DNA binding signals at the base-resolution level, to simultaneously study multiple TFBSs-associated tasks. More importantly, we also demonstrate that our proposed framework has the ability to locate all potential TF-DNA binding regions from DNA sequences of arbitrary length. We hope that our framework can provide a new perspective on studying the mechanism of TF-DNA binding and its related tasks.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.11.01.466840",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2021-11-04T12:40:12Z",
+        "timestamp": 1636029612000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Base-resolution prediction of transcription factor binding signals by a deep learning framework"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8723-7355",
+          "authenticated-orcid": false,
+          "given": "Qinhu",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ying",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Siguo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhanheng",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhenhao",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhen",
+          "family": "Cui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "De-Shuang",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1162327"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2667136"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt0406-423"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2486"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx223"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1126"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3306"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1213",
+          "DOI": "10.1038/nmeth.2688",
+          "article-title": "Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "316",
+          "DOI": "10.1038/nmeth.4143",
+          "article-title": "SMiLE-seq identifies binding motifs of single and dimeric transcription factors",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl198"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab203"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003711",
+          "DOI": "10.1371/journal.pcbi.1003711",
+          "article-title": "Enhanced regulatory sequence prediction using gapped k-mer features",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw203"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.16",
+          "first-page": "1097",
+          "article-title": "Imagenet classification with deep convolutional neural networks",
+          "volume": "25",
+          "year": "2012",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.18",
+          "unstructured": "Sutskever I , Vinyals O , Le QV. Sequence to sequence learning with neural networks; 2014. pp. 3104–3112."
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.19",
+          "unstructured": "Vaswani A , Shazeer N , Parmar N , Uszkoreit J , Jones L , et al. Attention is all you need; 2017. pp. 5998–6008."
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw068"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbaa229",
+          "DOI": "10.1093/bib/bbaa229",
+          "article-title": "A survey on deep learning in DNA/RNA motif mining",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.23",
+          "first-page": "679",
+          "article-title": "Weakly-supervised convolutional neural network architecture for predicting protein-DNA binding",
+          "volume": "17",
+          "year": "2018",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky215"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005403",
+          "DOI": "10.1371/journal.pcbi.1005403",
+          "article-title": "Imputation for transcription factor binding predictions based on deep learning",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hassanzadeh HR , Wang MD . DeeperBind: Enhancing prediction of sequence specificities of DNA binding proteins; 2016. IEEE. pp. 178–183.",
+          "DOI": "10.1101/099754"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning–based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz672"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Q , Wang S , Chen Z , He Y , Liu Q , et al. (2021) Locating transcription factor binding sites by fully convolutional neural network. Briefings in Bioinformatics 22.",
+          "DOI": "10.1093/bib/bbaa435"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab273"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "354",
+          "DOI": "10.1038/s41588-021-00782-6",
+          "article-title": "Base-resolution models of transcription-factor binding reveal soft motif syntax",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nature Genetics"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1108440108"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks433"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2416"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.38",
+          "first-page": "1",
+          "article-title": "Recurrent neural network for predicting transcription factor binding sites",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.39",
+          "first-page": "1184",
+          "article-title": "High-order convolutional neural network architecture for predicting DNA-protein binding sites",
+          "volume": "16",
+          "year": "2018",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1038/s42256-020-00282-y",
+          "article-title": "Deep neural networks identify sequence context features predictive of transcription factor binding",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Selvaraju RR , Cogswell M , Das A , Vedantam R , Parikh D , et al. Grad-cam: Visual explanations from deep networks via gradient-based localization; 2017. pp. 618–626.",
+          "DOI": "10.1109/ICCV.2017.74"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.42",
+          "unstructured": "Shrikumar A , Greenside P , Kundaje A. Learning important features through propagating activation differences; 2017. PMLR. pp. 3145–3153."
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1105136"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.44",
+          "first-page": "D180",
+          "article-title": "ReMap 2020: a database of regulatory regions from an integrative analysis of Human and Arabidopsis DNA-binding sequencing experiments",
+          "volume": "48",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.45",
+          "first-page": "1",
+          "article-title": "Multiple myeloma risk variant at 7p15. 3 creates an IRF4-binding site and interferes with CDCA7L expression",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-015-0866-z"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "2061",
+          "DOI": "10.1016/j.celrep.2016.07.053",
+          "article-title": "Genetic predisposition to chronic lymphocytic leukemia is mediated by a BMF super-enhancer polymorphism",
+          "volume": "16",
+          "year": "2016",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ronneberger O , Fischer P , Brox T. U-net: Convolutional networks for biomedical image segmentation; 2015. Springer. pp. 234–241.",
+          "DOI": "10.1007/978-3-319-24574-4_28"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.49",
+          "article-title": "On the properties of neural machine translation: Encoder-decoder approaches",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.50",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.51",
+          "unstructured": "Glorot X , Bengio Y. Understanding the difficulty of training deep feedforward neural networks; 2010. JMLR Workshop and Conference Proceedings. pp. 249–256."
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.53",
+          "unstructured": "Zhang Q , Shen Z , Huang D-S (2019) Predicting in-vitro transcription factor binding sites using DNA sequence+ shape. IEEE/ACM Transactions on Computational Biology and Bioinformatics."
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx234"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx679"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw142"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3331"
+        },
+        {
+          "key": "2021110808451125000_2021.11.01.466840v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1106"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.01.466840",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:20:59Z",
+        "timestamp": 1768443659000
+      },
+      "score": 114.03766,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.01.466840"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            4
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2021.11.01.466840",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1009941",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

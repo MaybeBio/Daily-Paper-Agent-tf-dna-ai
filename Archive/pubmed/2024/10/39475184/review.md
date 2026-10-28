@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report the identification and characterization of AccR, a LysR-type transcriptional regulator in Shewanella oneidensis, which they propose acts as a dedicated activator of accS, a gene encoding a multi-domain acetyl-CoA carboxylase. They present evidence for direct DNA binding, acetyl-CoA responsiveness, a crystal structure of the effector-binding domain, and functional importance of two putative ligand-binding pockets.
+- **Visible evidence base** Results sections on mutant identification, promoter activity assays, EMSA, western blotting, ITC, MST, X-ray crystallography, MD simulations, and mutational analysis; figures referenced as Figure 2 through Figure 8 and Supplementary Figures S1 through S9
+- **Missing materials affecting confidence** Raw data files, full gel images with molecular weight markers, crystallographic data quality metrics beyond space group and resolution, MD simulation convergence plots, complete ITC thermograms, and statistical details for all quantitative comparisons
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important gap in the understanding of transcriptional regulation of fatty acid biosynthesis in bacteria. The identification of a dedicated transcriptional activator for ACCase genes is potentially significant. However, several key claims are not fully supported by the presented evidence. The instability of the acetyl-CoA interaction, the lack of direct demonstration of effector-induced conformational changes, and incomplete characterization of the regulatory mechanism weaken the central conclusions. The structural data are of good quality but the functional relevance of the identified pockets requires stronger validation. The manuscript would benefit from additional experiments to establish the physiological relevance of the proposed regulatory mechanism and to clarify the role of the putative secondary effector.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcriptional regulation, fatty acid metabolism, and LysR-type transcriptional regulators would find this work of interest. The study also has relevance for those investigating the evolution of multi-domain ACCases and the regulatory mechanisms that coordinate lipid homeostasis in bacteria. The structural characterization of the EBD may be of interest to structural biologists studying ligand recognition by LTTR family proteins.
+- **Major strengths** The study addresses a previously unexplored area of ACCase gene regulation. The combination of genetic, biochemical, biophysical, and structural approaches is comprehensive. The crystal structure of the EBD at 1.4 Å resolution provides high-quality structural information. The identification of a specific transcriptional activator for ACCase genes fills a clear gap in the field. The authors use multiple orthogonal methods to support their conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The authors claim that AccR is a dedicated activator for accS transcription and that acetyl-CoA is the effector molecule
+  - **Evidence pointer** Figures 3, 4, 6, 7, 8
+  - **Concern** The evidence that acetyl-CoA is the physiologically relevant effector is indirect and incomplete. The ITC and MST data show weak binding with Kd values in the micromolar range, and the authors themselves note that the interaction appears unstable. The in vivo experiments using acetate supplementation are suggestive but do not directly demonstrate that acetyl-CoA is the activating ligand. The MD simulations show only one of five replicates with stable binding. The claim that acetyl-CoA is the effector is therefore not firmly established.
+  - **Why it matters** The central thesis of the manuscript is that AccR responds to acetyl-CoA levels to regulate ACCase expression. If the effector identity is not firmly established, the proposed regulatory mechanism and its physiological relevance remain uncertain. The authors acknowledge that an additional unknown ligand may be required, which further complicates the interpretation.
+  - **Resolution test** Direct demonstration that acetyl-CoA binding to AccR is required for transcriptional activation in a purified in vitro transcription assay, or identification of the additional co-effector, would strengthen the claim. Alternatively, the authors should temper their conclusions to reflect the uncertainty in effector identity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of identified binding pockets
+  - **Claim pointer** The authors claim that both the primary and secondary binding pockets are functionally important based on alanine scanning mutagenesis
+  - **Evidence pointer** Figures 5, 8, Supplementary Figure S5
+  - **Concern** The mutational analysis shows that alanine substitutions in both pockets reduce AccR activity, but the interpretation is confounded. The authors do not demonstrate that these mutations specifically affect ligand binding rather than protein stability, folding, or DNA binding. For the secondary pocket mutations (S103A, E105A), the authors show that dimerization is not affected, but they do not rule out other structural or functional defects. The conclusion that both pockets are functionally important for ligand recognition is therefore not well supported.
+  - **Why it matters** The identification of two functional ligand-binding pockets is a novel and potentially important finding. However, if the mutations cause pleiotropic effects, the conclusion that both pockets are involved in ligand binding is not justified. This weakens the structural and functional model proposed by the authors.
+  - **Resolution test** Direct binding assays with purified mutant proteins to show that ligand binding is specifically abrogated, or complementation studies with chimeric proteins, would strengthen the interpretation. At minimum, the authors should show that the mutant proteins are properly folded and have similar stability to the wild-type protein.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of the regulatory mechanism
+  - **Claim pointer** The authors claim that AccR regulates accS expression in response to cellular acetyl-CoA levels and that this regulation is important for growth
+  - **Evidence pointer** Figures 2, 3, 4
+  - **Concern** The physiological relevance of the AccR-accS regulatory system is not fully explored. The growth defect of the ΔaccR strain is demonstrated, and complementation with accS restores growth, but the authors do not examine whether the growth defect is specifically due to reduced fatty acid synthesis. The connection between acetyl-CoA levels, AccR activity, and fatty acid synthesis is inferred but not directly tested. The authors do not measure fatty acid levels, lipid composition, or ACCase activity in the mutant strains.
+  - **Why it matters** The claim that this regulatory system is important for fatty acid homeostasis requires direct evidence that changes in accS expression translate to changes in fatty acid synthesis. Without this connection, the physiological significance of the identified regulatory mechanism remains speculative.
+  - **Resolution test** Measurement of fatty acid levels, ACCase activity, or lipid composition in wild-type versus ΔaccR strains would directly test the physiological relevance. Alternatively, the authors could show that the growth defect is rescued by exogenous fatty acid supplementation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model of transcriptional activation
+  - **Claim pointer** The authors claim that AccR functions as a canonical LTTR in regulating accS transcription, with binding to RBS and ABS(II) in the absence of effector
+  - **Evidence pointer** Figures 3, 4, Supplementary Figure S3
+  - **Concern** The mechanistic model of AccR-mediated transcriptional activation is not fully tested. The authors show that AccR binds to the accS promoter region and that mutations in the binding sites affect activity, but they do not demonstrate the conformational changes that are characteristic of LTTR activation. The claim that AccR functions as a "canonical" LTTR is not supported by direct evidence of the activation mechanism. The authors do not test whether AccR undergoes a conformational change upon effector binding or how this change leads to transcriptional activation.
+  - **Why it matters** Understanding the mechanism of transcriptional activation is central to the claim that AccR is a dedicated regulator of accS. Without direct evidence of the activation mechanism, the comparison to canonical LTTRs is speculative and the model remains incomplete.
+  - **Resolution test** Structural or biophysical studies of AccR in the presence and absence of acetyl-CoA, or in vitro transcription assays with wild-type and mutant AccR, would directly test the proposed activation mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4A
+  - **Evidence pointer** Figure 4A
+  - **Issue** The FPLC profile shows two peaks attributed to dimer and tetramer, but the molecular weight standards or calibration information are not provided. The assignment of oligomeric states is not fully supported.
+  - **Required correction** Provide molecular weight standards or size exclusion chromatography calibration data to support the oligomeric state assignments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Multiple figures
+  - **Evidence pointer** Figures 3B, 4F, 4I, 8A
+  - **Issue** The number of biological replicates and statistical test details are not consistently reported for all quantitative assays. The methods state four biological replicates for some experiments, but this is not consistently applied or stated for each figure.
+  - **Required correction** Clearly state the number of replicates and statistical tests used for each quantitative experiment in the figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Structural validation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5, Supplementary Table S2
+  - **Issue** The crystallographic data quality metrics are only briefly mentioned. Key statistics such as R-free, Ramachandran outliers, and coordinate error are not discussed in the text.
+  - **Required correction** Provide a more complete description of crystallographic data quality in the text or supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative interpretations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The authors do not discuss alternative explanations for the observed growth defect in the ΔaccR strain, such as potential pleiotropic effects of AccR on other genes.
+  - **Required correction** Add a brief discussion of potential off-target effects or alternative explanations for the observed phenotypes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulations
+  - **Evidence pointer** Materials and methods, MD simulations section
+  - **Issue** The MD simulation methods lack important details such as the force field parameters for acetyl-CoA, the water model used, and the criteria for determining binding stability.
+  - **Required correction** Provide additional methodological details for the MD simulations to allow reproducibility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The structural figures would benefit from clearer labeling of key residues and the ligand, and from showing the electron density for the ligand if it was present in the crystal structure.
+  - **Required correction** Improve figure labels and consider showing electron density maps if applicable.
+
+## Risk / unsupported claims
+- The claim that acetyl-CoA is the physiologically relevant effector for AccR is not firmly established; the binding is weak and unstable, and the authors acknowledge that an additional unknown ligand may be required
+- The claim that both identified binding pockets are functionally important for ligand recognition is not fully supported, as the mutational analysis does not rule out pleiotropic effects on protein structure or function
+- The claim that AccR functions as a "canonical" LTTR is not directly tested; no evidence for effector-induced conformational changes or the activation mechanism is provided
+- The physiological relevance of the AccR-accS regulatory system for fatty acid homeostasis is inferred but not directly demonstrated; no measurements of fatty acid levels or ACCase activity are presented
+- The statement that the ISSod1 insertion in accR produces a protein of 18 amino acids is not directly verified experimentally
+- The claim that the secondary pocket at the dimer interface may bind an additional ligand is speculative and not supported by direct binding data

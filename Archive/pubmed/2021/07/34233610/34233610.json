@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "34233610",
+    "doi": "10.1186/s12862-021-01869-8",
+    "title": "DeepHBV: a deep learning model to predict hepatitis B virus (HBV) integration sites."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The hepatitis B virus (HBV) is one of the main causes of viral hepatitis and liver cancer. HBV integration is one of the key steps in the virus-promoted malignant transformation. RESULTS: An attention-based deep learning model, DeepHBV, was developed to predict HBV integration sites. By learning local genomic features automatically, DeepHBV was trained and tested using HBV integration site data from the dsVIS database. Initially, DeepHBV showed an AUROC of 0.6363 and an AUPR of 0.5471 for the dataset. The integration of genomic features of repeat peaks and TCGA Pan-Cancer peaks significantly improved model performance, with AUROCs of 0.8378 and 0.9430 and AUPRs of 0.7535 and 0.9310, respectively. The transcription factor binding sites (TFBS) were significantly enriched near the genomic positions that were considered. The binding sites of the AR-halfsite, Arnt, Atf1, bHLHE40, bHLHE41, BMAL1, CLOCK, c-Myc, COUP-TFII, E2A, EBF1, Erra, and Foxo3 were highlighted by DeepHBV in both the dsVIS and VISDB datasets, revealing a novel integration preference for HBV. CONCLUSIONS: DeepHBV is a useful tool for predicting HBV integration sites, revealing novel insights into HBV integration-related carcinogenesis.",
+    "keywords": [
+      "Bioinformatics",
+      "Deep learning",
+      "Genomic features",
+      "HBV integration sites"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/genetics",
+      "DNA, Viral",
+      "*Deep Learning",
+      "Hepatitis B virus/genetics",
+      "Humans",
+      "Virus Integration"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Canbiao",
+        "Guo, Xiaofang",
+        "Li, Mengyuan",
+        "Shen, Jingxian",
+        "Fu, Xiayu",
+        "Xie, Qingyu",
+        "Hou, Zeliang",
+        "Zhai, Manman",
+        "Qiu, Xiaofan",
+        "Cui, Zifeng",
+        "Xie, Hongxian",
+        "Qin, Pengmin",
+        "Weng, Xuchu",
+        "Hu, Zheng",
+        "Liang, Jiuxing"
+      ],
+      "short_names": [
+        "Wu C",
+        "Guo X",
+        "Li M",
+        "Shen J",
+        "Fu X",
+        "Xie Q",
+        "Hou Z",
+        "Zhai M",
+        "Qiu X",
+        "Cui Z",
+        "Xie H",
+        "Qin P",
+        "Weng X",
+        "Hu Z",
+        "Liang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "Department of Medical Oncology of the Eastern Hospital, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510700, Guangzhou, China.",
+        "Department of Gynecological Oncology, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "Department of Thoracic Surgery, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "School of Computer Science, South China Normal University, Guangzhou, 510631, China.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "School of Psychology, South China Normal University, Guangzhou, 510080, Guangdong, China.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "Department of Gynecological Oncology, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China.",
+        "Generulor Company Bio-X Lab, Guangzhou, 510006, Guangdong, China.",
+        "School of Psychology, South China Normal University, Guangzhou, 510080, Guangdong, China.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+        "Key Laboratory of Brain, Cognition and Education Sciences (South China Normal University), Ministry of Education, Guangzhou, 510080, Guangdong, China.",
+        "Department of Gynecological Oncology, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China. huzheng1998@163.com.",
+        "Department of Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, Hubei, China. huzheng1998@163.com.",
+        "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China. liangjiuxing@m.scnu.edu.cn.",
+        "Key Laboratory of Brain, Cognition and Education Sciences (South China Normal University), Ministry of Education, Guangzhou, 510080, Guangdong, China. liangjiuxing@m.scnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Canbiao",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaofang",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology of the Eastern Hospital, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510700, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengyuan",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecological Oncology, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Jingxian",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xiayu",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Qingyu",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+          "School of Computer Science, South China Normal University, Guangzhou, 510631, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Zeliang",
+        "short_name": "Hou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Manman",
+        "short_name": "Zhai M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+          "School of Psychology, South China Normal University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xiaofan",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zifeng",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecological Oncology, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Hongxian",
+        "short_name": "Xie H",
+        "identifiers": [],
+        "affiliations": [
+          "Generulor Company Bio-X Lab, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Pengmin",
+        "short_name": "Qin P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Psychology, South China Normal University, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Weng, Xuchu",
+        "short_name": "Weng X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China.",
+          "Key Laboratory of Brain, Cognition and Education Sciences (South China Normal University), Ministry of Education, Guangzhou, 510080, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zheng",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecological Oncology, the First Affiliated Hospital, Sun Yat-Sen University, Guangdong, 510080, Guangzhou, China. huzheng1998@163.com.",
+          "Department of Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, Hubei, China. huzheng1998@163.com."
+        ]
+      },
+      {
+        "full_name": "Liang, Jiuxing",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou, 510631, Guangdong, China. liangjiuxing@m.scnu.edu.cn.",
+          "Key Laboratory of Brain, Cognition and Education Sciences (South China Normal University), Ministry of Education, Guangzhou, 510080, Guangdong, China. liangjiuxing@m.scnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC ecology and evolution"
+    ],
+    "journal_abbrev": [
+      "BMC Ecol Evol"
+    ],
+    "pub_date": "2021 Jul 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/09 06:00",
+    "fetched_at": "2026-10-04 20:00:55"
+  },
+  "links": {
+    "cites": [
+      "41844667",
+      "40414894",
+      "39337315",
+      "39174307",
+      "36873907",
+      "36804047",
+      "36458100",
+      "36158265",
+      "35493354"
+    ],
+    "refs": [
+      "31598702",
+      "31212916",
+      "30930223",
+      "30407534",
+      "30341289",
+      "30295703",
+      "29934920",
+      "29437961",
+      "28778026",
+      "28394272",
+      "27831498",
+      "27703150",
+      "27453547",
+      "26017442",
+      "25581428",
+      "24876744",
+      "23236287",
+      "22634754",
+      "22528874",
+      "21221095",
+      "20670436",
+      "20577468",
+      "20513432",
+      "19399811",
+      "16979954",
+      "14728801",
+      "12101426",
+      "10871838",
+      "9366496",
+      "6092065"
+    ],
+    "similar": [
+      "34233610",
+      "33059369",
+      "16796883",
+      "31320595",
+      "16086711",
+      "16009689",
+      "29212479",
+      "16115921",
+      "33557409",
+      "23276797",
+      "27703150",
+      "38704528",
+      "32100258",
+      "15806150",
+      "34009299",
+      "9126788",
+      "24362074",
+      "3022290",
+      "27943263",
+      "33773138",
+      "34209079",
+      "33977077",
+      "6267609",
+      "3038033",
+      "25653310",
+      "16048568",
+      "22168942",
+      "26769853",
+      "22732223",
+      "3033312",
+      "2560524",
+      "32170761",
+      "32570699",
+      "32171027",
+      "32797164",
+      "18023912",
+      "18320596",
+      "33530322",
+      "31064734",
+      "12947486",
+      "3022098",
+      "14674670",
+      "3014347",
+      "17108869",
+      "14556260",
+      "18372522",
+      "2846771",
+      "2824275",
+      "30087321",
+      "23504622",
+      "30105774",
+      "25677098",
+      "2981782",
+      "1682510",
+      "38932267",
+      "1321406",
+      "2542576",
+      "2983098",
+      "3029413",
+      "25646384",
+      "1772242",
+      "2989822",
+      "30070724",
+      "10606185",
+      "14695661",
+      "29437961",
+      "27975311",
+      "1656466",
+      "1329747",
+      "1309858",
+      "25627239",
+      "14712219",
+      "2830013",
+      "2560999",
+      "25775999",
+      "2848989",
+      "23620081",
+      "32350851",
+      "2170809",
+      "29048354",
+      "23867110",
+      "6302121",
+      "2542706",
+      "32741373",
+      "33573130",
+      "2170810",
+      "6319263",
+      "27693636",
+      "22722078",
+      "20368541",
+      "37268616"
+    ],
+    "review": [
+      "34233610",
+      "33530322",
+      "17108869",
+      "30105774",
+      "25646384",
+      "2170809",
+      "29048354",
+      "2542706",
+      "33573130",
+      "2170810"
+    ],
+    "pmc": [
+      "8261932"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34233610/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34233610",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

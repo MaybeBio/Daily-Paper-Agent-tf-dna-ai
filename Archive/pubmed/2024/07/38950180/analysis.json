@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38950180",
+  "title": "SFINN: inferring gene regulatory network from single-cell and spatial transcriptomic data with shared factor neighborhood and integrated neural network.",
+  "authors": "Wang, Yongjie; Zhou, Fengfan; Guan, Jinting",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2024-07-01",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图卷积与全连接神经网络从单细胞和空间转录组数据推断转录因子-靶基因调控网络，虽涉及TF-DNA互作预测，但基于表达共调控而非三维结合建模，方法可迁移但深度有限。",
+  "abstract": "MOTIVATION: The rise of single-cell RNA sequencing (scRNA-seq) technology presents new opportunities for constructing detailed cell type-specific gene regulatory networks (GRNs) to study cell heterogeneity. However, challenges caused by noises, technical errors, and dropout phenomena in scRNA-seq data pose significant obstacles to GRN inference, making the design of accurate GRN inference algorithms still essential. The recent growth of both single-cell and spatial transcriptomic sequencing data enables the development of supervised deep learning methods to infer GRNs on these diverse single-cell datasets. RESULTS: In this study, we introduce a novel deep learning framework based on shared factor neighborhood and integrated neural network (SFINN) for inferring potential interactions and causalities between transcription factors and target genes from single-cell and spatial transcriptomic data. SFINN utilizes shared factor neighborhood to construct cellular neighborhood network based on gene expression data and additionally integrates cellular network generated from spatial location information. Subsequently, the cell adjacency matrix and gene pair expression are fed into an integrated neural network framework consisting of a graph convolutional neural network and a fully-connected neural network to determine whether the genes interact. Performance evaluation in the tasks of gene interaction and causality prediction against the existing GRN reconstruction algorithms demonstrates the usability and competitiveness of SFINN across different kinds of data. SFINN can be applied to infer GRNs from conventional single-cell sequencing data and spatial transcriptomic data. AVAILABILITY AND IMPLEMENTATION: SFINN can be accessed at GitHub: https://github.com/JGuan-lab/SFINN.",
+  "abstract_zh": "动机：单细胞RNA测序（scRNA-seq）技术的兴起为构建详细的细胞类型特异性基因调控网络（GRNs）以研究细胞异质性提供了新机遇。然而，scRNA-seq数据中的噪声、技术误差和缺失现象所带来的挑战对GRN推断构成了显著障碍，使得设计准确的GRN推断算法仍然至关重要。单细胞和空间转录组测序数据的近期增长，使得开发监督式深度学习方法以在这些多样化的单细胞数据集上推断GRNs成为可能。结果：在本研究中，我们引入了一种基于共享因子邻域和集成神经网络（SFINN）的新型深度学习框架，用于从单细胞和空间转录组数据中推断转录因子与靶基因之间的潜在相互作用和因果关系。SFINN利用共享因子邻域基于基因表达数据构建细胞邻域网络，并额外整合由空间位置信息生成的细胞网络。随后，将细胞邻接矩阵和基因对表达输入到一个由图卷积神经网络和全连接神经网络组成的集成神经网络框架中，以确定基因是否相互作用。在与现有GRN重建算法进行的基因相互作用和因果关系预测任务中的性能评估，展示了SFINN在不同类型数据上的可用性和竞争力。SFINN可应用于从常规单细胞测序数据和空间转录组数据中推断GRNs。可用性与实现：SFINN可在GitHub上访问：https://github.com/JGuan-lab/SFINN。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38950180/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38950180/",
+  "paper_page_path": "papers/pubmed/38950180/index.html"
+}

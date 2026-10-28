@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "40636968",
+    "doi": "10.1161/CIRCRESAHA.124.325256",
+    "title": "miR-3154: Novel Pathogenic and Therapeutic Target in Abdominal Aortic Aneurysm."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Abdominal aortic aneurysm (AAA) is a life-threatening condition with no effective pharmacological treatments currently available, likely due to our incomplete understanding of the molecular mechanisms underlying AAA pathogenesis and progression. In many cardiovascular diseases, circulatory microRNAs are potential diagnostic and prognostic biomarkers. Therefore, we investigated novel microRNAs with diagnostic and therapeutic potential in AAA. METHODS: We performed microRNA expression analysis in aorta specimens isolated from mice with saline-induced or Ang II (angiotensin II)-induced AAA, wherein microRNA-3154 (miR-3154) was identified as a potential key molecule in AAA pathogenesis. We used RNA-sequencing analysis, cell migration assays, immunoblotting, protein interactome analysis, coimmunoprecipitation, molecular docking, and molecular dynamics simulation to determine the role of miR-3154 in AAA pathogenesis, clarify the phenotype, and elucidate the underlying molecular mechanisms. RESULTS: Using high-throughput sequencing, miR-3154 was identified in the aortic tissue of ApoE(-/-) mice with AAA as compared with control mice. Increased miR-3154 expression was confirmed in the early-stage Ang II-induced AAA mouse model and the aortic tissues of patients with AAA. Patients with AAA had higher serum miR-3154 level, which positively correlated with computed tomography-estimated size of the aneurysm. Functionally, miR-3154 dose-dependently aggravated vascular smooth muscle cell phenotypic switching and AAA development, both in vivo and in vitro. In vascular smooth muscle cells, TNS1 (tensin-1) was identified as a direct target of miR-3154. Mechanistically, TNS1 interacts with the R1-R13 domain of TLN1 (talin-1), thereby suppressing Sp1 (specificity protein 1) phosphorylation at Thr739 and upregulating MEOX1 (mesenchyme homeobox 1) expression-a key transcription factor regulating vascular smooth muscle cell phenotypic switching. CONCLUSIONS: We uncovered a novel pathogenic role of miR-3154 in AAA, suggesting its potential as both a therapeutic target and prognostic biomarker.",
+    "keywords": [
+      "aortic aneurysm, abdominal",
+      "microRNAs",
+      "muscle, smooth, vascular",
+      "talin",
+      "tensins"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Aortic Aneurysm, Abdominal/genetics/metabolism/pathology/therapy/chemically induced",
+      "*MicroRNAs/genetics/metabolism/blood",
+      "Humans",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal",
+      "Angiotensin II",
+      "Myocytes, Smooth Muscle/metabolism/pathology",
+      "Muscle, Smooth, Vascular/metabolism/pathology",
+      "Mice, Knockout, ApoE",
+      "Female",
+      "Aorta, Abdominal/metabolism/pathology",
+      "Cell Movement"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Qingbin",
+        "Liu, Yisi",
+        "Hou, Jingjin",
+        "Song, Haixu",
+        "Zhang, Sijia",
+        "Zhang, Yan",
+        "Liu, Jing",
+        "Zhang, Xiaolin",
+        "Ji, Yong",
+        "Yan, Chenghui",
+        "Han, Yaling"
+      ],
+      "short_names": [
+        "Hou Q",
+        "Liu Y",
+        "Hou J",
+        "Song H",
+        "Zhang S",
+        "Zhang Y",
+        "Liu J",
+        "Zhang X",
+        "Ji Y",
+        "Yan C",
+        "Han Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-4029-5348",
+        "ORCID: 0000-0001-8457-0120",
+        "ORCID: 0009-0008-8034-4159",
+        "ORCID: 0009-0005-9293-6723",
+        "ORCID: 0009-0005-9624-2438",
+        "ORCID: 0009-0003-0043-2428",
+        "ORCID: 0009-0000-8735-0780",
+        "ORCID: 0000-0003-2650-5747",
+        "ORCID: 0000-0003-3409-8547",
+        "ORCID: 0000-0003-4569-6737"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "Department of Cardiology, Shanxi Academy of Medical Science, Taiyuan, China (Q.H).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin, China (S.Z., Y.J.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin, China (S.Z., Y.J.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+        "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Qingbin",
+        "short_name": "Hou Q",
+        "identifiers": [
+          "0009-0008-4029-5348"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.).",
+          "Department of Cardiology, Shanxi Academy of Medical Science, Taiyuan, China (Q.H)."
+        ]
+      },
+      {
+        "full_name": "Liu, Yisi",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0001-8457-0120"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Hou, Jingjin",
+        "short_name": "Hou J",
+        "identifiers": [
+          "0009-0008-8034-4159"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Song, Haixu",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sijia",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0009-0005-9293-6723"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin, China (S.Z., Y.J.)."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0005-9624-2438"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Liu, Jing",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0009-0003-0043-2428"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaolin",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0009-0000-8735-0780"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Ji, Yong",
+        "short_name": "Ji Y",
+        "identifiers": [
+          "0000-0003-2650-5747"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology, College of Pharmacy, Harbin Medical University, Harbin, China (S.Z., Y.J.)."
+        ]
+      },
+      {
+        "full_name": "Yan, Chenghui",
+        "short_name": "Yan C",
+        "identifiers": [
+          "0000-0003-3409-8547"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      },
+      {
+        "full_name": "Han, Yaling",
+        "short_name": "Han Y",
+        "identifiers": [
+          "0000-0003-4569-6737"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Disease, Cardiovascular Research Institute and Department of Cardiology, General Hospital of Northern Theater Command, Shenyang, China (Q.H., Y.L., J.H., H.S., Y.Z., J.L., X.Z., C.Y., Y.H.)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Circulation research"
+    ],
+    "journal_abbrev": [
+      "Circ Res"
+    ],
+    "pub_date": "2025 Aug 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/10 06:27",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42007508",
+      "41596218",
+      "41463082",
+      "40995065",
+      "40389781"
+    ],
+    "refs": [],
+    "similar": [
+      "40636968",
+      "41164881",
+      "38686580",
+      "34942175",
+      "28882868",
+      "39945066",
+      "33147994",
+      "33737086",
+      "38557060",
+      "38722818",
+      "32078829",
+      "38995239",
+      "39658211",
+      "29685509",
+      "32384150",
+      "29669788",
+      "32559617",
+      "41170558",
+      "32787523",
+      "24812324",
+      "39490888",
+      "32612287",
+      "32059119",
+      "28978552",
+      "38723872",
+      "39742002",
+      "41145483",
+      "40259193",
+      "33662431",
+      "27634835",
+      "38867666",
+      "37522318",
+      "27908891",
+      "28729364",
+      "28288890",
+      "32469162",
+      "28369137",
+      "32678909",
+      "40781109",
+      "41273237",
+      "29499360",
+      "29437576",
+      "30726659",
+      "40737845",
+      "31534503",
+      "30686087",
+      "35451888",
+      "32212850",
+      "40925375",
+      "27344146",
+      "27889204",
+      "31512549",
+      "34898354",
+      "27089918",
+      "22871592",
+      "38490134",
+      "40963913",
+      "26781079",
+      "26941015",
+      "22871590",
+      "38916960",
+      "30004237",
+      "41187820",
+      "26338301",
+      "28935757",
+      "38979610",
+      "35414069",
+      "39779470",
+      "39721498",
+      "39206541",
+      "30417353",
+      "38047310",
+      "38331337",
+      "38673941",
+      "37789605",
+      "41036562",
+      "37979015",
+      "37101174",
+      "39103059",
+      "40037693",
+      "40261277",
+      "40479739",
+      "31554420",
+      "39588646",
+      "35723784",
+      "27650558",
+      "36863451",
+      "40081568",
+      "22269326",
+      "31071332",
+      "38821358",
+      "22967986",
+      "27283745",
+      "40415469",
+      "23746831",
+      "32629426",
+      "25395615",
+      "33153394",
+      "36436251",
+      "29269260"
+    ],
+    "review": [
+      "40636968"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.124.325256?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=137&issue=5&spage=587&aulast=Hou",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40636968.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-282",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

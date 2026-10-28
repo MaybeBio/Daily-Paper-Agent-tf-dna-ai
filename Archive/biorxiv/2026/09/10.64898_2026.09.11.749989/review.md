@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no assessment of code, data files, or visual content
+- **Shared manuscript claim summary** The authors present an environment-aware DNA language model that adapts the AgroNT genomic foundation model with stress-specific prompt tokens via parameter-efficient fine-tuning, and use the resulting sequence representations to prioritize putative heat- and drought-responsive genomic regions associated with grain yield in maize, with validation through transcriptomic, QTL, transcription factor, and motif analyses
+- **Visible evidence base** Text descriptions of results including silhouette scores, Jaccard similarities, DEG overlap counts, MQTL overlap counts, and motif enrichment findings; references to Figures 1-8, Tables 1-2, and Supplementary Figures/Tables
+- **Missing materials affecting confidence** All figures, tables, supplementary methods, and supplementary results; code repository contents; exact hyperparameter settings; computational resource details; statistical test descriptions for enrichment analyses
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel application of genomic foundation models to plant stress response analysis, with a technically sound methodology combining prompt tuning, low-rank adaptation, and a composite prioritization score. The biological validation strategy is thoughtful and multi-layered. However, the evidence base as provided is incomplete, with several key claims resting on results that cannot be fully evaluated from the text alone. The central novelty claim, that this is the first application of a GFM to plant stress response analysis, requires careful scrutiny given the rapidly evolving literature. The manuscript would benefit from clearer articulation of the null hypothesis being tested by the prioritization framework and from more rigorous statistical comparisons against simpler baseline approaches.
+- **Who would be interested in the results, and why** Plant geneticists and breeders working on abiotic stress tolerance, particularly those using GWAS or genomic prediction approaches, would find the prioritization framework of practical interest. Computational biologists developing genomic foundation models would be interested in the prompt-conditioning approach as a general strategy for incorporating environmental context. Researchers working on genotype-by-environment interactions in crops would value the demonstration that sequence-based models can capture environment-specific signals. The work also has relevance for the broader field of applying large language model techniques to biological sequence analysis.
+- **Major strengths** The methodological combination of prompt tuning with low-rank adaptation is well motivated and technically appropriate. The use of a held-out chromosome set for generalization testing is a sound design choice. The multi-layered validation strategy, incorporating transcriptomic, QTL, transcription factor, and motif analyses, provides complementary evidence for biological relevance. The authors are appropriately cautious in interpreting attention patterns as prioritization signals rather than direct regulatory evidence. The discussion of limitations, particularly regarding input length constraints and the need for causal validation, is honest and constructive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the prioritization framework captures sequence-contextual signals complementary to statistical association ranking, supported by limited correspondence with GWAS p-values and downstream biological evidence
+  - **Evidence pointer** Section 3.2, Figure 5, Section 3.3
+  - **Concern** The manuscript does not provide a formal statistical comparison between the proposed prioritization framework and simpler baseline approaches. The claim of complementarity to GWAS ranking is based on visual inspection of Manhattan-style plots and descriptive overlap statistics, but no quantitative comparison is presented. Specifically, it is unclear whether the prioritization framework outperforms random selection from the GWAS candidate pool, or whether the biological enrichment results could be achieved by simpler sequence features such as GC content, conservation scores, or known regulatory motif density.
+  - **Why it matters** Without a rigorous baseline comparison, the added value of the complex deep learning framework over simpler computational approaches cannot be established. The field of genomic prioritization has many existing methods, and the manuscript must demonstrate that the environment-aware DNA language model provides meaningful improvement over these alternatives.
+  - **Resolution test** The authors should provide quantitative comparisons against at least one simple baseline (e.g., random selection, GC content-based ranking, or motif density-based ranking) using the same biological validation metrics. Statistical significance of any improvement should be assessed with appropriate permutation or bootstrap tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim this work represents the first application of a genomic foundation model to plant stress response analysis through explicit modeling of stress-conditioned sequence context
+  - **Evidence pointer** Section 1, final paragraph
+  - **Concern** The novelty claim is stated without a comprehensive literature review. Given the rapid growth of genomic foundation model research, including plant-focused models such as PlantCaduceus and AgroNT itself, it is plausible that other groups have applied similar approaches to stress response analysis. The manuscript does not discuss any competing or related work in this specific application area.
+  - **Why it matters** The scientific importance of the work depends critically on its novelty. If similar approaches have been published or posted as preprints, the contribution of this manuscript shifts from being a first demonstration to being an incremental application, which changes the appropriate framing and significance assessment.
+  - **Resolution test** The authors should conduct and report a systematic literature search for applications of genomic foundation models to stress response or environmental condition analysis in plants, and position their work relative to any identified studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that PT+DoRA achieved the highest silhouette score and showed modest improvements over PT in DEG overlap, proximal-gene TF-family characterization, and heat-associated MQTL overlap, while PT showed stronger enrichment for drought-associated MQTL
+  - **Evidence pointer** Section 3.1, Table 2, Section 3.3
+  - **Concern** The manuscript does not report any measures of variability or statistical significance for the differences between PT, PT+LoRA, and PT+DoRA across the various evaluation metrics. Silhouette scores are reported as point estimates without confidence intervals. DEG overlap counts and MQTL overlap counts are presented without statistical tests for whether observed differences exceed what would be expected by chance.
+  - **Why it matters** The selection of PT+DoRA as the preferred method for downstream analysis appears to rest on modest differences that may not be statistically robust. Without uncertainty quantification, the reader cannot assess whether the reported differences are meaningful or within the range of random variation.
+  - **Resolution test** The authors should provide confidence intervals or bootstrap estimates for silhouette scores, and statistical tests (e.g., Fisher's exact test or permutation tests) for enrichment comparisons between methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that sequence-level motif enrichment identified abiotic stress-related signatures under both strategies, and that GC-matched attention-guided analysis showed that model-emphasized regions were enriched for known plant stress-regulatory motifs
+  - **Evidence pointer** Section 3.3, Figure 8, Figure S7
+  - **Concern** The manuscript acknowledges that sequence-level comparisons were not GC-matched and interprets results cautiously, which is appropriate. However, the attention-guided analysis is described as GC-matched, but the matching procedure is not described in the visible text. The number of motifs tested, the multiple testing correction procedure, and the background model for AME are not specified.
+  - **Why it matters** Motif enrichment analyses are highly sensitive to background model choice and multiple testing corrections. Without detailed methodological description, the reported enrichments cannot be evaluated for robustness, and the distinction between GC-matched and non-GC-matched results cannot be properly assessed.
+  - **Resolution test** The authors should provide a complete description of the motif enrichment methodology, including background model construction, GC matching procedure, multiple testing correction, and the full set of tested motifs with significance thresholds.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that prioritized loci were supported by spatiotemporal differential gene-expression evidence and overlap with stress-associated quantitative trait loci
+  - **Evidence pointer** Section 3.3, Section 3.3.2, Section 3.3.4
+  - **Concern** The manuscript does not describe the criteria used to define "support" from transcriptomic and QTL evidence. For DEG overlap, the specific thresholds for calling a gene differentially expressed, the statistical methods used in the original studies, and the handling of multiple testing across studies are not described. For QTL overlap, the definition of overlap (physical distance, interval overlap) and the expected overlap under a null model are not specified.
+  - **Why it matters** The biological validation claims are central to the manuscript's conclusion that the prioritization framework identifies functionally relevant regions. Without clear criteria for what constitutes support, the strength of this validation cannot be assessed.
+  - **Resolution test** The authors should specify the exact criteria for DEG overlap and QTL overlap, including any thresholds used, and provide an assessment of whether the observed overlap rates exceed what would be expected by chance given the genomic distribution of prioritized loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.3, loss function description
+  - **Evidence pointer** Section 2.3, equation for supervised contrastive loss
+  - **Issue** The loss function equation is referenced but not displayed in the provided text, and the notation is described only in prose. The description of positive and comparison samples is clear, but the relationship between the supervised contrastive loss and the standard contrastive learning framework could be stated more explicitly.
+  - **Required correction** Display the loss function equation and briefly state how it differs from standard contrastive loss formulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4, priority score components
+  - **Evidence pointer** Section 2.4, Equations 2-4
+  - **Issue** The priority score combines percentile ranks of two components via geometric mean. The rationale for using geometric mean rather than arithmetic mean or a weighted combination is not stated. Additionally, the choice of cosine distance for the embedding shift and Gini coefficient for attention concentration could be justified more explicitly.
+  - **Required correction** Provide a brief justification for the geometric mean combination and the specific choices of distance and concentration measures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.3, gene and locus identifiers
+  - **Evidence pointer** Section 3.3, paragraph on locus and gene sharing patterns
+  - **Issue** The list of 13 shared proximal genes is presented as a long string of identifiers without functional annotation or context. Nonspecialist readers will not be able to interpret the significance of these specific genes.
+  - **Required correction** Provide brief functional annotations for the shared genes or summarize their known roles in stress responses.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1, GWAS methodology
+  - **Evidence pointer** Section 2.1, first paragraph
+  - **Concern** The GWAS methodology is described only in the Supplementary Methods, which are not visible. The choice of mixed linear model, kinship matrix, population structure correction, and significance thresholds are not stated in the main text.
+  - **Required correction** Provide a brief summary of the GWAS model and significance thresholds in the main text, with full details in the supplement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section 2.2, GFM overview
+  - **Evidence pointer** Section 2.2
+  - **Issue** The overview of genomic foundation models is comprehensive but may be dense for readers from plant biology backgrounds. A brief summary table comparing the discussed models in terms of architecture, tokenization, and training data would improve accessibility.
+  - **Required correction** Consider adding a summary table of discussed GFMs with key characteristics.
+
+## Risk / unsupported claims
+- The claim of being the first application of a GFM to plant stress response analysis is not supported by a systematic literature review and cannot be verified from the provided material
+- The claim that PT+DoRA is the preferred method based on modest improvements over PT is not supported by statistical evidence, as no variability measures or significance tests are reported
+- The claim that prioritized regions are "supported by" transcriptomic and QTL evidence cannot be fully evaluated without specification of the criteria used to define support
+- The claim that attention patterns demonstrate "prompt-dependent redistribution" is based on a single example SNP and may not be representative
+- The claim that embedding shift scores reflect "sequence-specific" effects of prompt substitution is asserted but not statistically tested across the full set of sequences
+- The functional characterization claims based on TF family analysis and motif enrichment cannot be fully evaluated without the detailed methodology for these analyses
+- The generalization claim based on held-out chromosomes is stated but the quantitative results are not visible in the provided text

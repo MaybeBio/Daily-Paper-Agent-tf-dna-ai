@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40433981",
+  "title": "SCIG: Machine learning uncovers cell identity genes in single cells by genetic sequence codes.",
+  "authors": "Arulsamy, Kulandaisamy; Xia, Bo; Yu, Yang; Chen, Hong; Pu, William T; Zhang, Lili; Chen, Kaifu",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-05-28",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习基于基因序列特征和单细胞表达识别细胞身份基因，并用于揭示调控细胞身份的主转录因子，虽涉及TF但非直接研究TF-DNA结合机制，方法可迁移但深度不足。",
+  "abstract": "Deciphering cell identity genes is pivotal to understanding cell differentiation, development, and cell identity dysregulation involving diseases. Here, we introduce SCIG, a machine-learning method to uncover cell identity genes in single cells. In alignment with recent reports that cell identity genes (CIGs) are regulated with unique epigenetic signatures, we found CIGs exhibit distinctive genetic sequence signatures, e.g. unique enrichment patterns of cis-regulatory elements. Using these genetic sequence signatures, along with gene expression information from single-cell RNA-seq data, SCIG uncovers the identity genes of a cell without a need for comparison to other cells. CIG score defined by SCIG surpassed expression value in network analysis to reveal the master transcription factors (TFs) regulating cell identity. Applying SCIG to the human endothelial cell atlas revealed that the tissue microenvironment is a critical supplement to master TFs for cell identity refinement. SCIG is publicly available at https://doi.org/10.5281/zenodo.14726426  , offering a valuable tool for advancing cell differentiation, development, and regenerative medicine research.",
+  "abstract_zh": "解析细胞身份基因对于理解细胞分化、发育及涉及疾病的细胞身份失调至关重要。在此，我们介绍SCIG，一种用于在单细胞中揭示细胞身份基因的机器学习方法。与近期报道一致，即细胞身份基因（CIGs）受独特表观遗传特征调控，我们发现CIGs展现出独特的遗传序列特征，例如顺式调控元件的独特富集模式。利用这些遗传序列特征，结合来自单细胞RNA-seq数据的基因表达信息，SCIG无需与其他细胞比较即可揭示细胞的身份基因。由SCIG定义的CIG评分在网络分析中超越了表达值，能够揭示调控细胞身份的主转录因子（TFs）。将SCIG应用于人类内皮细胞图谱，揭示出组织微环境是主转录因子对细胞身份精细调控的关键补充。SCIG公开可用，网址为https://doi.org/10.5281/zenodo.14726426，为推进细胞分化、发育及再生医学研究提供了宝贵工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40433981/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40433981/",
+  "paper_page_path": "papers/pubmed/40433981/index.html"
+}

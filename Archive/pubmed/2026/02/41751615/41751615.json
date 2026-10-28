@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "41751615",
+    "doi": "10.3390/genes17020231",
+    "title": "Reassessing Benign ASXL1 Variants in Bohring-Opitz Syndrome: The Role of Population Databases in Variant Reinterpretation."
+  },
+  "content": {
+    "abstract": "Background/Objectives: ASXL1 is a chromatin-associated gene implicated in both hematologic malignancies and neurodevelopmental disorders, including Bohring-Opitz syndrome (BOS). Although many ASXL1 variants are well classified, a substantial proportion remain variants of uncertain significance (VUS), complicating molecular diagnosis and genetic counseling. The objective of this study was to evaluate whether structural context can inform the interpretation of selected ASXL1 missense variants in a clinical setting. Methods: We describe a 17-year-old female with clinical features consistent with BOS carrying the heterozygous ASXL1 variant p.Q1448R, currently classified as benign under ACMG/AMP guidelines. Three-dimensional in silico structural modeling was performed using AlphaFold3 and available crystallographic data. Three additional ASXL1 missense variants classified as VUS in ClinVar (p.R265H, p.T297M, and p.Y358C) were also analyzed. Evolutionary conservation, domain localization, and residue-level interactions were assessed. Results: Structural modeling indicated that the p.Q1448R substitution alters polar interactions and introduces a steric constraint near a conserved PHD-type zinc finger domain. Variants p.R265H and p.T297M affected stabilizing interactions within the DEUBAD, which is involved in BAP1 activation, while p.Y358C altered a polar microenvironment adjacent to a chromatin-interacting region. All analyzed variants, except p.T297M, localized to evolutionarily conserved regions. Conclusions: This study demonstrates that in silico structural analysis can provide complementary, domain-level insights for the interpretation of ASXL1 missense variants that remain classified as benign, likely benign or VUS under current frameworks. Such approaches may assist in prioritizing variants for further functional evaluation and refining molecular interpretation when experimental data are limited.",
+    "keywords": [
+      "ASXL1",
+      "Bohring-Opitz syndrome",
+      "VUS classification",
+      "clonal hematopoiesis of indeterminate potential (CHIP)",
+      "protein modeling"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Repressor Proteins/genetics/chemistry",
+      "Female",
+      "*Intellectual Disability/genetics/pathology",
+      "Mutation, Missense",
+      "*Craniosynostoses/genetics/pathology",
+      "Adolescent",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Case Reports",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fernandez-Hernandez, Liliana",
+        "Enriquez-Flores, Sergio",
+        "Hernandez-Martinez, Nancy L",
+        "Abreu-Gonzalez, Melania",
+        "Lieberman-Hernandez, Esther",
+        "Rodriguez-Gonzalez, Gerardo",
+        "Reyes-Ruvalcaba, Sinuhe",
+        "Reyna-Fabian, Miriam E"
+      ],
+      "short_names": [
+        "Fernandez-Hernandez L",
+        "Enriquez-Flores S",
+        "Hernandez-Martinez NL",
+        "Abreu-Gonzalez M",
+        "Lieberman-Hernandez E",
+        "Rodriguez-Gonzalez G",
+        "Reyes-Ruvalcaba S",
+        "Reyna-Fabian ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4153-6966",
+        "ORCID: 0000-0003-2058-5707",
+        "ORCID: 0000-0001-8591-0852"
+      ],
+      "affiliations": [
+        "Laboratorio de Biologia Molecular, Instituto Nacional de Pediatria, Secretaria de Salud, Mexico City C.P. 04530, Mexico.",
+        "Laboratorio de Biomoleculas y Salud Infantil, Instituto Nacional de Pediatria, Secretaria de Salud, Mexico City C.P. 04530, Mexico.",
+        "Laboratorio de Biologia Molecular, Instituto Nacional de Pediatria, Secretaria de Salud, Mexico City C.P. 04530, Mexico.",
+        "Laboratorio Genos Medica, Mexico City C.P.06700, Mexico.",
+        "Centro Medico ABC, Mexico City C.P. 05300, Mexico.",
+        "Departamento de Genetica Humana, Instituto Nacional de Pediatria, Secretaria de Salud, Mexico City C.P. 04530, Mexico.",
+        "Subdireccion de Servicios Clinicos, Genetica, Hospital Regional de Alta Especialidad de Zumpango, Zumpango C.P. 55600, Mexico.",
+        "Universidad Cuauhtemoc, Campus Queretaro, Queretaro C.P. 76060, Mexico.",
+        "Laboratorio de Biologia Molecular, Instituto Nacional de Pediatria, Secretaria de Salud, Mexico City C.P. 04530, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fernández-Hernández, Liliana",
+        "short_name": "Fernández-Hernández L",
+        "identifiers": [
+          "0000-0002-4153-6966"
+        ],
+        "affiliations": [
+          "Laboratorio de Biología Molecular, Instituto Nacional de Pediatría, Secretaría de Salud, Mexico City C.P. 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Enríquez-Flores, Sergio",
+        "short_name": "Enríquez-Flores S",
+        "identifiers": [
+          "0000-0003-2058-5707"
+        ],
+        "affiliations": [
+          "Laboratorio de Biomoléculas y Salud Infantil, Instituto Nacional de Pediatría, Secretaría de Salud, Mexico City C.P. 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Hernández-Martínez, Nancy L",
+        "short_name": "Hernández-Martínez NL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biología Molecular, Instituto Nacional de Pediatría, Secretaría de Salud, Mexico City C.P. 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Abreu-González, Melania",
+        "short_name": "Abreu-González M",
+        "identifiers": [
+          "0000-0001-8591-0852"
+        ],
+        "affiliations": [
+          "Laboratorio Genos Médica, Mexico City C.P.06700, Mexico.",
+          "Centro Médico ABC, Mexico City C.P. 05300, Mexico."
+        ]
+      },
+      {
+        "full_name": "Lieberman-Hernández, Esther",
+        "short_name": "Lieberman-Hernández E",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Genética Humana, Instituto Nacional de Pediatría, Secretaría de Salud, Mexico City C.P. 04530, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-González, Gerardo",
+        "short_name": "Rodríguez-González G",
+        "identifiers": [],
+        "affiliations": [
+          "Subdirección de Servicios Clínicos, Genética, Hospital Regional de Alta Especialidad de Zumpango, Zumpango C.P. 55600, Mexico."
+        ]
+      },
+      {
+        "full_name": "Reyes-Ruvalcaba, Sinuhé",
+        "short_name": "Reyes-Ruvalcaba S",
+        "identifiers": [],
+        "affiliations": [
+          "Universidad Cuauhtémoc, Campus Querétaro, Querétaro C.P. 76060, Mexico."
+        ]
+      },
+      {
+        "full_name": "Reyna-Fabián, Miriam E",
+        "short_name": "Reyna-Fabián ME",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Biología Molecular, Instituto Nacional de Pediatría, Secretaría de Salud, Mexico City C.P. 04530, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Feb 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Case Reports",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41233957",
+      "41166440",
+      "40957416",
+      "38718835",
+      "38057664",
+      "37956474",
+      "37556531",
+      "36739343",
+      "36562559",
+      "36180891",
+      "35078481",
+      "34859531",
+      "34265844",
+      "34230634",
+      "33057201",
+      "32736379",
+      "32720330",
+      "31742675",
+      "29300386",
+      "28492532",
+      "28425196",
+      "28229513",
+      "27181684",
+      "26739236",
+      "25741868",
+      "22728672",
+      "22436456",
+      "21706002",
+      "21514168",
+      "21368916",
+      "20644199",
+      "20436459",
+      "19451168",
+      "16606617",
+      "15128941"
+    ],
+    "similar": [
+      "41751615",
+      "28229513",
+      "26768331",
+      "26364555",
+      "33529703",
+      "29681100",
+      "35361921",
+      "27237378",
+      "21706002",
+      "39614348",
+      "31692235",
+      "31006630",
+      "25921057",
+      "37053013",
+      "22419483",
+      "29446906",
+      "33751773",
+      "41288544",
+      "31819025",
+      "42099593",
+      "41786677",
+      "34527642",
+      "39423952",
+      "32383243",
+      "36751885",
+      "42353774",
+      "41809564",
+      "42192302",
+      "35119035",
+      "35736817",
+      "29681105",
+      "38027485",
+      "34798354",
+      "42346254",
+      "41015588",
+      "41451494",
+      "42512905",
+      "41516406",
+      "42345200",
+      "41595433",
+      "31227806",
+      "38168194",
+      "27043953",
+      "32281771",
+      "26095772",
+      "30147881",
+      "39336746",
+      "41943166",
+      "40742536",
+      "39767183",
+      "31953236",
+      "41451501",
+      "38417439",
+      "41756679",
+      "38905920",
+      "29074562",
+      "42516879",
+      "42510869",
+      "39945963",
+      "31199603",
+      "42475469",
+      "41867208",
+      "39725884",
+      "42465592",
+      "39440667",
+      "38181165",
+      "37843401",
+      "42490276",
+      "42543387",
+      "39469763",
+      "31911673",
+      "42144731",
+      "26286068",
+      "37284795",
+      "31422817",
+      "41099992",
+      "42377900",
+      "41621652",
+      "42510878",
+      "38387507",
+      "42523271",
+      "39748282",
+      "31327510",
+      "30725392",
+      "40212732",
+      "41451491",
+      "40925377",
+      "42157253",
+      "40397311",
+      "32152366",
+      "41988794",
+      "35435261",
+      "32873932",
+      "22186017",
+      "42382949",
+      "42214845",
+      "41595443",
+      "39504018",
+      "42397456",
+      "41685408"
+    ],
+    "review": [
+      "41751615",
+      "28229513",
+      "26364555",
+      "29446906",
+      "41451494",
+      "41756679",
+      "41621652",
+      "38387507"
+    ],
+    "pmc": [
+      "12941326"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17020231",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41751615/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

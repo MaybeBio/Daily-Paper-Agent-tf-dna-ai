@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion sections. No supplementary materials, figures, or tables were provided beyond textual descriptions.
+- **Assessment boundary** Evaluation is limited to the scientific claims, methodological soundness, and evidentiary support as presented in the supplied text. No independent verification of experimental data or computational results was possible.
+- **Shared manuscript claim summary** The authors propose that green tea catechins (EC, EGC, ECG, EGCG) act as covalent inhibitors of the NF-κB p65 subunit by binding to Cys-38, based on covalent docking simulations. They further claim that EGCG reduces pancreatic cancer cell viability, inhibits NF-κB activity, induces apoptosis, and downregulates NF-κB target genes (MMP9, MMP2, cMyc, BCL-2) in MIAPaCa-2 and SU 86.86 cell lines.
+- **Visible evidence base** Textual descriptions of docking results (Figures 2, 3; Tables 1, 2), cell viability data (Figure 4), NF-κB activity assay (Figure 5), apoptosis analysis (Figure 6), and qPCR results (Figure 7). Statistical methods described in Section 2.9.
+- **Missing materials affecting confidence** Actual figures and tables were not provided, preventing visual verification of docking poses, dose-response curves, flow cytometry plots, and qPCR data. No supplementary information, raw data, or detailed experimental protocols (e.g., exact qPCR conditions, antibody information, replicate numbers) were available.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in pancreatic cancer therapeutics by combining computational and experimental approaches to evaluate green tea catechins as NF-κB inhibitors. The docking analysis provides preliminary structural insights, and the in vitro experiments suggest EGCG has antiproliferative and pro-apoptotic effects. However, the study has significant methodological limitations, including a lack of positive controls, incomplete experimental details, and overinterpretation of correlative data. The causal link between NF-κB inhibition and the observed cellular effects is not rigorously established. The manuscript would benefit from additional experiments and more cautious interpretation of the findings.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying pancreatic cancer, NF-κB signaling, and natural product-based therapeutics. The computational docking approach may interest structural biologists and medicinal chemists exploring covalent inhibitors. The findings could inform future studies on EGCG as an adjunct therapy, though the clinical relevance remains speculative.
+- **Major strengths** The study combines in silico and in vitro approaches, which is a useful strategy for initial drug screening. The focus on covalent inhibition of NF-κB is a novel angle, as most studies examine non-covalent interactions. The use of two pancreatic cancer cell lines adds some breadth. The manuscript is clearly written and logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Docking analysis showed that the catechin derivatives acted as covalent inhibitors with the p65 subunit of NF-κB"
+  - **Evidence pointer** Section 3.1, Figures 2 and 3, Tables 1 and 2
+  - **Concern** The covalent docking methodology is inadequately described. The authors state that "there is no cavity containing residue Cys-38" and therefore proceeded with covalent docking, but the specific software parameters, scoring functions, and validation of the docking protocol are not provided. The claim that all four catechins form covalent adducts is based solely on computational predictions without experimental verification (e.g., mass spectrometry or mutagenesis studies).
+  - **Why it matters** Covalent docking is prone to false positives, and the biological relevance of the predicted Cys-38 adducts is unverified. Without experimental confirmation of covalent binding, the central mechanistic claim is unsupported.
+  - **Resolution test** Provide detailed docking parameters, include a validation set of known binders/non-binders, and experimentally confirm covalent binding using techniques such as intact protein mass spectrometry or a Cys-38 mutant NF-κB construct.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "EGCG effectively reduced cell growth and proliferation, induced apoptosis, and inhibited NF-κB activity in the studied cell lines"
+  - **Evidence pointer** Sections 3.3-3.5, Figures 4-6
+  - **Concern** The in vitro experiments lack essential controls. No positive control (e.g., a known NF-κB inhibitor like BAY 11-7082) or negative control (e.g., a non-catechin polyphenol) is mentioned. The NF-κB activity assay measures p65 binding to DNA, but the authors do not confirm that the observed reduction is specific to NF-κB rather than a general cytotoxic effect. The apoptosis data are presented as percentages without statistical comparison between cell lines or doses.
+  - **Why it matters** Without appropriate controls, the specificity of EGCG's effects on NF-κB cannot be distinguished from general cellular toxicity. This weakens the claim that NF-κB is the primary target.
+  - **Resolution test** Include a known NF-κB inhibitor as a positive control, assess cell viability and NF-κB activity in parallel, and perform statistical analysis (e.g., two-way ANOVA) to compare effects across doses and cell lines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EGCG repressed the expression of NF-κB target genes including MMP9, MMP2, cMyc, and BCL-2"
+  - **Evidence pointer** Section 3.6, Figure 7
+  - **Concern** The qPCR data are described only qualitatively ("decrease in the mRNA level"). No quantitative data (fold change, Ct values, error bars) or statistical analysis are provided. The housekeeping gene GAPDH is mentioned, but its stability across treatments is not demonstrated. The treatment duration (48 h) differs from other assays (24 h), and the rationale for this difference is not explained.
+  - **Why it matters** Without quantitative qPCR data and statistical validation, the claim of gene repression is not substantiated. The lack of methodological detail prevents replication.
+  - **Resolution test** Provide bar graphs with mean ± SD, individual data points, and statistical significance (e.g., p-values from t-tests or ANOVA). Justify the 48-h time point and confirm GAPDH stability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "targeting NF-κB with EGCG could be a potential therapeutic alternative for pancreatic cancer treatment"
+  - **Evidence pointer** Sections 3.2-3.6
+  - **Concern** The novelty is limited. Numerous studies have already reported EGCG's anticancer effects, including NF-κB inhibition in various cancer types. The docking analysis of catechins with NF-κB p65 has also been explored previously. The manuscript does not clearly articulate what new information it adds beyond confirming known effects in two additional cell lines.
+  - **Why it matters** For a high-impact journal, the study needs to offer a novel mechanistic insight or a significant advance over existing knowledge. The current findings are largely confirmatory.
+  - **Resolution test** Clearly state the novel contribution, such as a detailed structural model of the covalent adduct with implications for drug design, or demonstrate a unique mechanism of action not previously reported.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "catechin derivatives acted as covalent inhibitors" without explaining what covalent inhibition means in this context. Nonspecialist readers may not understand the significance.
+  - **Required correction** Briefly clarify that covalent inhibition involves a permanent chemical bond, which may offer prolonged target suppression compared to reversible inhibitors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The cell culture section states cells were grown in DMEM, but the abstract and methods mention McCoy's 5A and Leibovitz's L-15 media. It is unclear which medium was used for which cell line.
+  - **Required correction** Specify the culture medium for each cell line and clarify whether DMEM was used for both or if there was an error.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The MTT assay description mentions "20 uL" and "500 μl" with inconsistent units. Also, the final DMSO concentration in the assay is not stated.
+  - **Required correction** Use consistent units (μL) and state the final DMSO concentration to ensure it does not affect cell viability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1
+  - **Issue** The phrase "hangs on the surface of the protein" is informal and unclear. It is not evident what structural feature this refers to.
+  - **Required correction** Replace with a more precise description, such as "the adduct is solvent-exposed and does not occupy a defined binding pocket."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.7
+  - **Evidence pointer** Section 2.7
+  - **Issue** The qPCR section mentions "primers were designed through ww.ncbi.nlm.nih.gov/gene" but does not provide primer sequences or annealing conditions.
+  - **Required correction** Include primer sequences and PCR conditions in the methods or supplementary material for reproducibility.
+
+## Risk / unsupported claims
+- The claim that catechins act as covalent inhibitors of NF-κB is unsupported by experimental evidence; only computational predictions are presented.
+- The statement that EGCG "inhibited NF-κB activity" is based on a single assay (DNA-binding ELISA) without confirmation of downstream functional effects.
+- The assertion that EGCG "could be a potential therapeutic alternative" is speculative, as no in vivo data or mechanistic depth is provided.
+- The correlation between docking results and in vitro outcomes is claimed but not quantitatively demonstrated.
+- The statistical significance of all experimental results is not reported, making the strength of the observed effects unverifiable.

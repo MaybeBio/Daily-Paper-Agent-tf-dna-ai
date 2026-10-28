@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, and supplementary figure legends as provided)
+- **Assessment boundary** Scientific content, methodological rigor, and claims as presented in the provided manuscript text. No external validation of structural models or simulation data was performed.
+- **Shared manuscript claim summary** The authors use AlphaFold2 modeling, MD simulations, MDFF fitting, umbrella sampling free energy calculations, and wavelet analysis to characterize the conformational dynamics of the Cas8 bundle within the *Vibrio cholerae* Cascade–TniQ complex. They propose that Cas7.1 binding facilitates the open-to-closed transition of Cas8 by reducing unfavorable contacts with Cas7.2 and synchronizing dynamics with neighboring subunits, and that R-loop formation lowers the barrier for accessing the open state.
+- **Visible evidence base** Main text figures (Figs. 1–5), supplementary figures (S1–S11), methods section, and data availability statement (Figshare DOI).
+- **Missing materials affecting confidence** Supplementary Information text (detailed methods, convergence criteria, force field parameters, and additional analyses) was not provided. The Figshare structural models were not accessed. No experimental validation data are presented.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of the conformational dynamics of the Cas8 bundle in the *V. cholerae* Cascade–TniQ complex. The work addresses a relevant gap in the field, as the Cas8 bundle was unresolved in prior cryo-EM structures. The combination of AlphaFold2 modeling, MDFF, umbrella sampling, and wavelet analysis is methodologically ambitious and potentially informative. However, the manuscript has several significant weaknesses. The central claims regarding the regulatory role of Cas7.1 and the functional relevance of the open state for R-loop formation are supported primarily by indirect computational evidence, with limited validation of the structural models against experimental data. The free energy calculations rely on a single reaction coordinate and may not capture the full conformational landscape. The wavelet analysis is presented descriptively without quantitative metrics linking the observed dynamics to functional outcomes. The manuscript would benefit from clearer articulation of the limitations of the computational approach and from additional validation or comparison with experimental data where available.
+- **Who would be interested in the results, and why** Researchers in the CRISPR biology field, particularly those studying CRISPR-associated transposons and their application in genome editing. Computational biophysicists interested in conformational dynamics of large protein–nucleic acid complexes. Structural biologists studying type I-F Cascade systems. The findings may also be of interest to those developing CRISPR-based gene insertion technologies, as understanding the regulatory mechanisms of Cas8 could inform engineering efforts.
+- **Major strengths** 1) Addresses a significant gap in understanding the dynamics of an unresolved region (Cas8 bundle) in an important biological system. 2) Integrates multiple computational methods (AlphaFold2, MDFF, US, wavelet analysis) to provide a multi-faceted view of the conformational transition. 3) The proposed mechanistic model (Fig. 5) is clearly articulated and provides testable hypotheses. 4) The free energy calculations are performed with substantial sampling (~1.8 μs per system), suggesting attention to convergence. 5) The identification of specific residues (positively charged residues in Cas8) that may be functionally important provides a concrete target for future experimental studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors claim that their AlphaFold2/PyRosetta models of the Cas8 bundle, fitted into cryo-EM density via MDFF, accurately represent the conformational states of the system.
+  - **Evidence pointer** Results section "Cas8-Binding Mode"; Fig. 1C–D; SI Appendix Figs. S2–S5
+  - **Concern** The manuscript does not provide quantitative validation of the fitted models against the cryo-EM density maps. The authors state that the open state "resembles" the orientation in PDB 6B45 and the closed state "resembles" weak density in EMD-20350/20351, but no cross-correlation coefficients, Q-scores, or other quantitative metrics are reported for the final fitted models. The MDFF convergence is described only in terms of "RMSD relative to the initial structure and the cross-correlation coefficient" without presenting these values. Without such validation, it is unclear whether the modeled open and closed states are genuinely supported by the experimental density or are artifacts of the modeling procedure.
+  - **Why it matters** The entire subsequent analysis (free energy calculations, wavelet analysis, mechanistic conclusions) depends on the accuracy of the structural models. If the models do not faithfully represent the true conformational states, all downstream conclusions are compromised. The weak density for the Cas8 bundle noted by the original experimentalists (Halpin-Healy et al.) means that the modeling is particularly challenging and requires careful validation.
+  - **Resolution test** Provide quantitative metrics of model-to-density fit (e.g., cross-correlation coefficients, Q-scores) for both open and closed states in all four systems (RNA-HH, RNA-Jia, DNA-HH, DNA-Jia). Show that the MDFF-fitted models are consistent with the density at the level of the Cas8 bundle. If possible, compare the modeled open state to the 6B45 structure quantitatively (e.g., RMSD over aligned regions).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Free energy calculation validity
+  - **Claim pointer** The authors claim that the free energy profiles from umbrella sampling reveal system-dependent differences in the stability of open and closed states, and that R-loop formation lowers the barrier for accessing the open state.
+  - **Evidence pointer** Results section "Conformational Change of the Cas8 Bundle"; Fig. 2; SI Appendix Fig. S6
+  - **Concern** The umbrella sampling calculations use a single reaction coordinate (difference in RMSD of Cas8 heavy atoms relative to open and closed states). This is a potentially problematic choice. RMSD-based reaction coordinates can suffer from poor overlap between windows and may not capture the true transition pathway, especially for a large conformational change in a multi-domain protein. The manuscript does not report the convergence of the US calculations beyond stating that "converged US simulations" were performed. No PMF error bars are shown in Fig. 2, and the bootstrap analysis mentioned in Methods is not presented. Additionally, the manuscript does not discuss whether the transition pathway sampled is physically plausible or whether the simulations captured any intermediate states.
+  - **Why it matters** The free energy profiles are the primary quantitative evidence for the claim that R-loop formation modulates the conformational equilibrium of Cas8. If the US calculations are not converged or the reaction coordinate is inadequate, the reported free energy differences (and the barrier heights) may be unreliable, undermining the central mechanistic conclusions.
+  - **Resolution test** Show PMF profiles with error bars (from bootstrap or block averaging). Demonstrate convergence by showing that the PMF does not change with additional sampling or by comparing results from independent US runs. Discuss the choice of reaction coordinate and consider validating with an alternative approach (e.g., metadynamics or replica exchange) or at least show that the transition pathway is physically reasonable (e.g., by examining intermediate structures).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of wavelet analysis
+  - **Claim pointer** The authors claim that wavelet analysis reveals synchronized dynamics between Cas8 and neighboring subunits (Cas6, TniQ) when Cas7.1 is bound, and that this synchronization is functionally important.
+  - **Evidence pointer** Results section "Synchronized Dynamics Reinforce the Role of Cas7.1"; Fig. 4; SI Appendix Fig. S10
+  - **Concern** The wavelet analysis is presented in a largely qualitative manner. The manuscript states that there is a "distinctive shift from fast to slow modes" and a "cacophonous mix of modes" but does not provide quantitative metrics to support these descriptions. The "flow index" is introduced for the Cas8–Cas7.2 interaction analysis, but no analogous quantitative measure is provided for the wavelet analysis. It is unclear how the wavelet spectra were compared across systems, whether the observed differences are statistically significant, and how the synchronization relates to the free energy results.
+  - **Why it matters** The claim that Cas7.1 binding leads to coordinated dynamics is presented as a key mechanistic insight. Without quantitative support, this claim remains speculative. The wavelet analysis could be over-interpreting noise or artifacts of the simulation setup.
+  - **Resolution test** Provide quantitative measures of dynamical coupling (e.g., cross-correlation of wavelet coefficients between domains, or a synchronization index) with appropriate statistical testing. Show that the observed differences between bound and unbound Cas7.1 systems are significant and reproducible across independent simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors propose a general mechanistic model (Fig. 5) in which Cas7.1 binding and R-loop formation regulate Cas8 conformational changes, and suggest this may apply broadly to CRISPR-associated transposition.
+  - **Evidence pointer** Discussion section; Fig. 5
+  - **Concern** The study is based on a single system (*V. cholerae* Cascade–TniQ) and two cryo-EM structures from different laboratories. The authors extrapolate their findings to propose a general mechanism for Cas8 function in CRISPR-associated transposition. However, no comparative analysis with other Cascade–TniQ systems or other type I-F variants is presented. The relevance of the proposed mechanism to other systems remains untested.
+  - **Why it matters** The broader significance of the work depends on the generalizability of the proposed mechanism. If the findings are system-specific, the impact is substantially reduced.
+  - **Resolution test** Discuss the sequence conservation of the key residues and structural features identified (e.g., the Cas7.1 loop, positively charged residues in Cas8) across related systems. If possible, perform additional simulations on a related system to test the generality of the findings, or at least clearly articulate the scope and limitations of the proposed model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Cas7.1 Favors the Conformational Change of the Cas8 Bundle in the RNA-Bound Complex"
+  - **Evidence pointer** Fig. 3C
+  - **Issue** The description of the free energy profiles in Fig. 3C is unclear. The text states that "the free energy profile decreases in the presence of a bound Cas7.1" but does not specify whether this refers to the barrier height, the relative stability of the open state, or both. The figure itself is not available for inspection.
+  - **Required correction** Clarify what quantity is being compared in Fig. 3C and explicitly state the magnitude of the effect (e.g., "the barrier is reduced by X kcal/mol").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The manuscript refers to "Cas9 bundle" in the Results section ("Cas7.1 facilitates the open–closed conformational shift in the Cas9 bundle"), which appears to be a typographical error for "Cas8 bundle."
+  - **Required correction** Correct the typo to "Cas8 bundle."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "FI"
+  - **Evidence pointer** Methods, "FI" subsection
+  - **Issue** The definition of the flow index (FI) is somewhat ambiguous. The text states that it is "the normalized product of the LIE with the number of contacts," but the normalization procedure is not fully described. It is unclear what the FI is normalized by and how this affects its interpretation.
+  - **Required correction** Provide a clear mathematical definition of the FI, including the normalization factor and its rationale.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "MD Simulations"
+  - **Evidence pointer** Methods, "MD Simulations" subsection
+  - **Issue** The methods state that simulations were performed using AMBER 22 and NAMD 2.14, but specific version numbers of the force fields and water model are given. However, the number of independent simulations, the total simulation time per system, and the equilibration protocol are not described in the main text (deferred to SI). This limits the ability to assess the statistical power of the results.
+  - **Required correction** Provide a summary of the simulation protocol in the main text, including the number of replicates, total simulation time, and equilibration steps, or clearly state that these details are in the SI and ensure they are fully described there.
+
+## Risk / unsupported claims
+- The claim that the open state of the Cas8 bundle "resembles" the orientation in PDB 6B45 is not quantitatively supported; no structural alignment metrics are provided.
+- The claim that the closed state is "evidenced in the top ranked AlphaFold2 model" is presented without discussion of the confidence metrics or the significance of the ranking.
+- The claim that R-loop formation "lowers the barrier for accessing the open state" is based on a comparison of two different systems (HH vs. Jia) that differ in multiple respects beyond R-loop status, making the attribution of the observed free energy differences to R-loop formation uncertain.
+- The claim that Cas7.1 binding "synchronizes" the dynamics of Cas8 with neighboring subunits is not quantitatively supported.
+- The proposed mechanistic model (Fig. 5) is presented as a general framework, but its applicability beyond the specific system studied is not established.
+- The functional significance of the positively charged residues in the Cas8 bundle for DNA binding is inferred from a related system (P. aeruginosa) and not directly tested here.

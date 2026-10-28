@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40848288",
+  "title": "TRAFICA: an open chromatin language model to improve transcription factor binding affinity prediction.",
+  "authors": "Xu, Yu; Wang, Chonghao; Xu, Ke; Ding, Yi; Lyu, Aiping; Zhang, Lu",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-08-24",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出开放染色质语言模型TRAFICA，整合ATAC-seq与体外TF-DNA结合谱预测TF-DNA结合亲和力，核心聚焦TF-DNA互作且采用AI方法，高度匹配本课题。",
+  "abstract": "MOTIVATION: In silico transcription factor and DNA (TF-DNA) binding affinity prediction plays a vital role in examining TF binding preferences and understanding gene regulation. The existing tools employ TF-DNA binding profiles from in vitro high-throughput technologies to predict TF-DNA binding affinity. However, TFs tend to bind to sequences in open chromatin regions in vivo, such TF binding preference is seldomly considered by these existing tools. RESULTS: In this study, we developed TRAFICA, an open chromatin language model to predict TF-DNA binding affinity by integrating sequence characteristics of open chromatin regions from ATAC-seq experiments and in vitro TF-DNA binding profiles from high-throughput technologies. We pretrained TRAFICA on over 2.8 million nucleotide sequences in open chromatin regions derived from 197 ATAC-seq experiments (115 cell lines) to learn in vivo TF binding preferences. We further fine-tuned TRAFICA using low-rank adaptation (LoRA) on PBM and HT-SELEX TF-DNA binding profiles to learn intrinsic binding preferences for specific TFs. We systematically evaluated TRAFICA and compared its predictive performance with existing prediction tools and advanced DNA language models. The experimental results demonstrated that TRAFICA significantly outperformed the others in predicting in vitro and in vivo TF-DNA binding affinity, achieving state-of-the-art performance. These findings indicate that considering the sequence characteristics from open chromatin regions could significantly improve TF-DNA binding affinity prediction. AVAILABILITY AND IMPLEMENTATION: The source code of TRAFICA and detailed tutorials are available at https://github.com/ericcombiolab/TRAFICA.",
+  "abstract_zh": "动机#######################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40848288/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40848288/",
+  "paper_page_path": "papers/pubmed/40848288/index.html"
+}

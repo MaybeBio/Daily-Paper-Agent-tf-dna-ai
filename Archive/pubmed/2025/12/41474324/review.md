@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplemental figure/table legends as referenced.
+- **Assessment boundary** Scientific content, technical soundness, structural and functional claims, and consistency between experimental data and conclusions. Editorial or stylistic issues are noted only where they affect clarity or interpretability.
+- **Shared manuscript claim summary** The authors report the crystal structure of the MarR-type repressor SaMhqR from *Staphylococcus aureus* in apo and 2-methylbenzoquinone (MBQ)-bound forms, and propose a quinone-sensing mechanism involving an allosteric α3–α4 loop that transitions from a helical wound conformation (DNA-bound) to an unstructured coil (quinone-bound), thereby preventing DNA binding. The mechanism is supported by AlphaFold3 modeling, molecular dynamics simulations, ITC binding assays, EMSA-based DNA-binding studies, and in vivo transcriptional analyses.
+- **Visible evidence base** Crystal structures (PDB 9QDR, 9SMZ), ITC data (Table S2, Fig. S10), EMSA data (Fig. 6), Northern blot and qRT-PCR data (Fig. 7), AlphaFold3 models (Figs. 2, S3), MD simulation analyses (Figs. 5, S6–S8), SEC-MALS data (Fig. 1B), CD spectra (Fig. S9), sequence alignments (Figs. S5, S14).
+- **Missing materials affecting confidence** Electron density maps (2Fo-Fc, polder omit) are referenced but not shown in the main text; refinement statistics are only in Table S1, which was not provided. MD simulation parameters (force field validation, convergence criteria, replicate numbers) are described only briefly. The scrambled DNA control model (Fig. S3B) is mentioned but not shown. No raw ITC thermograms are displayed in the main figures. The exact promoter sequence used for EMSA is not provided in the main text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally grounded model for quinone sensing by SaMhqR, a MarR-type repressor of clinical relevance. The crystal structure of the MBQ-bound complex is a valuable contribution, and the identification of a conserved ligand pocket with a proposed allosteric mechanism is plausible and of interest to the antimicrobial resistance community. However, several technical concerns weaken the strength of the conclusions. The in vitro ITC data do not show a clear loss of quinone binding for the pocket mutants, which is inconsistent with the structural model. The in vivo transcriptional data are partially supportive but are complicated by variable mRNA levels of the variants. The MD simulations are described at a level that does not allow full assessment of convergence or statistical robustness. The claim that the mechanism is "identical" to that of UrtR family regulators is overstated given the limited comparative analysis. Overall, the structural data are solid, but the functional validation is incomplete, and the case for a definitive allosteric mechanism is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying MarR-family transcriptional regulators, bacterial stress responses, quinone toxicity and antimicrobial resistance mechanisms, and structural biologists interested in ligand-induced conformational changes in DNA-binding proteins. The work may also be of interest to those developing inhibitors targeting MarR-type repressors in drug-resistant pathogens.
+- **Major strengths** 1. High-resolution crystal structure of SaMhqR (1.55 Å) and the MBQ-bound complex, providing the first structural view of quinone sensing in this family. 2. Integration of multiple approaches (crystallography, ITC, EMSA, in vivo transcription, MD) to address the mechanism. 3. Identification of a conserved allosteric loop (α3–α4) with a clear conformational transition between DNA- and ligand-bound states. 4. The work addresses a clinically relevant pathogen and a resistance mechanism of potential therapeutic importance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation of ligand-binding pocket
+  - **Claim pointer** The authors claim that residues F11, F39, E43, and H111 form the MBQ-binding pocket and are required for quinone sensing.
+  - **Evidence pointer** ITC data (Table S2, Fig. S10), EMSA data (Fig. 6A), in vivo transcription data (Fig. 7A)
+  - **Concern** The ITC data show that single mutants in the proposed pocket residues (F11A, F39A, E43A, H111A) do not exhibit a drastic change in binding affinity toward MHQ or MBQ compared to wild-type. This is inconsistent with the claim that these residues are critical for quinone binding. The authors attribute this to "compensatory binding residues," but no evidence is provided to support this assertion. The E43A,H111A double mutant could not be tested for quinone binding because it failed to bind DNA, which confounds the interpretation. The in vivo data show that F11A, F39A, H111A, and E43A,H111A are impaired in quinone sensing, but the lack of a clear in vitro binding defect for the single mutants weakens the structural model.
+  - **Why it matters** The central claim of the paper is that the identified pocket is the functional quinone-sensing site. If single mutations in the pocket do not affect ligand binding in vitro, the structural assignment of the pocket is not functionally validated. The discrepancy between in vitro binding and in vivo sensing needs to be resolved or explained with additional data.
+  - **Resolution test** Provide ITC data for a mutant that shows a clear loss of quinone binding, or demonstrate that the single mutants have altered binding kinetics that are not captured by the reported KD values. Alternatively, perform competition assays or use a different biophysical method (e.g., surface plasmon resonance) to confirm the binding defect. If the pocket assignment is correct, at least one single mutant should show a measurable reduction in affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence for the allosteric mechanism
+  - **Claim pointer** The authors claim that MBQ binding stabilizes the α3–α4 loop in an extended coil conformation, preventing the helical wound conformation required for DNA binding.
+  - **Evidence pointer** Crystal structures (Fig. 3C, 4A), MD simulations (Figs. 5, S6–S8)
+  - **Concern** The apo and MBQ-bound structures are compared, but the conformational difference in the α3–α4 loop between the two states is not clearly quantified. The superposition shown in Fig. 4A is described but the actual structural comparison is not presented in a way that allows the reader to assess the magnitude of the conformational change. The MD simulations are described as showing increased dynamics in the loop and β-wing upon MHQ binding, but the simulation time (100 ns) is relatively short for capturing large conformational transitions, and no convergence analysis or replicate simulations are described. The claim that the mechanism is "identical" to UrtR family regulators is based on a single reference and is not supported by a direct structural comparison.
+  - **Why it matters** The allosteric mechanism is the core conceptual advance of the paper. Without a clear, quantitative demonstration of the conformational change and its coupling to DNA binding, the mechanism remains speculative. The MD simulations are presented as supporting evidence but are not described in sufficient detail to assess their reliability.
+  - **Resolution test** Provide a clear structural overlay of apo and MBQ-bound states with the α3–α4 loop highlighted, including a quantitative measure of the conformational change (e.g., Cα RMSD for the loop region). For the MD simulations, provide evidence of convergence (e.g., RMSD vs. time plots), replicate simulations, and a statistical analysis of the loop dynamics in the bound versus unbound states. If the claim of similarity to UrtR is to be maintained, a direct structural comparison with a UrtR family member should be included.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo functional data
+  - **Claim pointer** The authors claim that the in vivo transcriptional analyses validate the roles of F11, F39, and H111 in quinone sensing.
+  - **Evidence pointer** Northern blot and qRT-PCR data (Fig. 7A)
+  - **Concern** The in vivo data show that the F11A, F39A, H111A, and E43A,H111A variants are impaired in quinone sensing, but the basal transcription levels vary considerably between the variants. The H111A and E43A,H111A variants show lower basal transcription than the wild-type complemented strain, which complicates the interpretation of the response to MHQ. The authors do not provide a clear quantitative comparison of the fold-induction for each variant relative to wild-type. The variable mRNA levels of the mhqR variants (Fig. S11) further complicate the interpretation, as differences in protein expression could affect the observed phenotypes.
+  - **Why it matters** The in vivo data are essential to confirm that the structural and biochemical observations are physiologically relevant. If the basal transcription levels are not normalized or the protein levels are not controlled, the conclusions drawn from the in vivo experiments may not be reliable.
+  - **Resolution test** Provide a quantitative analysis of the fold-induction of the mhqRED operon in response to MHQ for each variant, normalized to the wild-type response. Include Western blot analysis to confirm equal protein expression of the variants. If possible, complement the variants with a plasmid expressing the wild-type protein to confirm that the phenotype is due to the mutation and not to differences in expression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of structural figures
+  - **Affected element** Fig. 3C, Fig. 4A
+  - **Evidence pointer** Fig. 3C, Fig. 4A
+  - **Issue** The electron density for the MBQ ligand in the binding pocket is described but not shown in the main figures. The reader cannot assess the quality of the ligand fit.
+  - **Required correction** Include a figure panel showing the 2Fo-Fc and polder omit maps for the MBQ ligand, with the ligand and key interacting residues labeled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** ITC data (Table S2)
+  - **Evidence pointer** Table S2
+  - **Issue** The ITC data are reported as mean ± standard deviation from two replicates. This is a small number of replicates for a binding assay, and the error bars are not shown in the figures.
+  - **Required correction** Report the number of independent experiments and the standard error of the mean. If possible, increase the number of replicates to at least three.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Overstatement of similarity to UrtR
+  - **Affected element** Discussion, Abstract
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The abstract states that a "similar mechanism has been recently discovered" for UrtR regulators, but the comparison is not developed in the manuscript. The authors do not show a structural alignment or functional comparison between SaMhqR and UrtR family members.
+  - **Required correction** Either provide a direct structural comparison with a UrtR family member (e.g., PecS) or soften the claim to state that the mechanism is "reminiscent of" or "shares features with" the UrtR family.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulations
+  - **Evidence pointer** Methods
+  - **Issue** The MD simulation methods are described briefly. The force field, water model, and simulation time are mentioned, but no details on the number of replicates, temperature coupling, or pressure coupling are provided.
+  - **Required correction** Provide a more detailed description of the MD simulation setup, including the number of replicates, the equilibration protocol, and the analysis methods used to assess convergence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability
+  - **Issue** The authors state that data are available in the article and supplementary materials, but the supplementary materials are not provided for review. The PDB accession numbers are given, but the associated validation reports are not referenced.
+  - **Required correction** Ensure that all supplementary materials, including Table S1 (crystallographic statistics) and Table S2 (ITC data), are made available to reviewers and readers.
+
+## Risk / unsupported claims
+- The claim that the quinone-sensing mechanism of SaMhqR is "identical" to that of UrtR family regulators is not supported by direct comparative data.
+- The assertion that single mutations in the binding pocket do not affect quinone binding due to "compensatory binding residues" is speculative and not experimentally tested.
+- The statement that the MBQ-bound structure represents the physiologically relevant quinone-sensing state is not fully supported, as the ITC data show similar binding affinities for MHQ and MBQ, and the in vivo experiments used MHQ rather than MBQ.
+- The claim that the α3–α4 loop "intrudes into the ligand pocket" and causes a "steric clash with the DNA backbone" is based on a superposition of two different structures (MBQ-bound and DNA-bound models) and is not directly observed experimentally.
+- The in vivo significance of the identified residues is not fully established, as the variable expression levels of the variants complicate the interpretation of the transcriptional data.

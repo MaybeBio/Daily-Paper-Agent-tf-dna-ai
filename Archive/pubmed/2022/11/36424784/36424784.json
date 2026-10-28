@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "36424784",
+    "doi": "10.2174/1573409919666221121141646",
+    "title": "Relevance of Machine Learning to Predict the Inhibitory Activity of Small Thiazole Chemicals on Estrogen Receptor."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Drug discovery requires the use of hybrid technologies for the discovery of new chemical substances. One of those interesting strategies is QSAR via applying an artificial intelligence system that effectively predicts how chemical alterations can impact biological activity via in-silico. AIM: Our present study aimed to work on a trending machine learning approach with a new opensource data analysis python script for the discovery of anticancer lead via building the QSAR model by using 53 compounds of thiazole derivatives. METHODS: A python script has been executed with 53 small thiazole chemicals using Google collaboratory interface. A total of 82 CDK molecular descriptors were downloaded from \"chemdes\" web server and used for our study. After training the model, we checked the model performance via cross-validation of the external test set. RESULTS: The generated QSAR model afforded the ordinary least squares (OLS) regression as R(2) = 0.542, F=8.773, and adjusted R(2) (Q2) =0.481, std. error = 0.061, reg.coef_ developed were of, - 0.00064 (PC1), -0.07753 (PC2), -0.09078 (PC3), -0.08986 (PC4), 0.05044 (PC5), and reg.intercept_ of 4.79279 developed through stats models, formula module. The performance of test set prediction was done by multiple linear regression, support vector machine, and partial least square regression classifiers of sklearn module, which generated the model score of 0.5424, 0.6422 and 0.6422 respectively. CONCLUSION: Hence, we conclude that the R2values (i.e. the model score) obtained using this script via three diverse algorithms were correlated well and there is not much difference between them and may be useful in the design of a similar group of thiazole derivatives as anticancer agents.",
+    "keywords": [
+      "MCF-7",
+      "QSAR",
+      "breast cancer",
+      "cytotoxicity",
+      "python",
+      "supervised machine learning",
+      "thiazole derivatives"
+    ],
+    "mesh_terms": [
+      "*Artificial Intelligence",
+      "*Receptors, Estrogen",
+      "Machine Learning",
+      "Algorithms",
+      "Drug Discovery"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jayaprakash, Venkatesan",
+        "Saravanan, Thangavelu",
+        "Ravindran, Karuppaiyan",
+        "Prabha, Thangavelu",
+        "Selvaraj, Jubie",
+        "Jayapalan, Sudeepan",
+        "Chaitanya, M V N L",
+        "Sivakumar, Thangavel"
+      ],
+      "short_names": [
+        "Jayaprakash V",
+        "Saravanan T",
+        "Ravindran K",
+        "Prabha T",
+        "Selvaraj J",
+        "Jayapalan S",
+        "Chaitanya MVNL",
+        "Sivakumar T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences & Technology, Birla Institute of Technology, Mesra, Ranchi, 835215, Jharkhand, India.",
+        "Department of Anesthesiology, Government Medical College and Hospital, Pudukkottai, 622004, Tamilnadu, India.",
+        "Department of Anesthesiology, Government Medical College and Hospital, Pudukkottai, 622004, Tamilnadu, India.",
+        "Department of Pharmaceutical Chemistry, Nandha College of Pharmacy, Erode, 638052, Tamilnadu, India.",
+        "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research, Ooty, Tamilnadu, India.",
+        "Department of Chemical Engineering & Technology, Birla Institute of Technology, Mesra, Ranchi, 835215, Jharkhand, India.",
+        "Department of Pharmacognosy, School of Pharmacy, Lovely Professional University, Phagwara, Punjab, India.",
+        "Department of Pharmaceutical Chemistry, Nandha College of Pharmacy, Erode, 638052, Tamilnadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jayaprakash, Venkatesan",
+        "short_name": "Jayaprakash V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences & Technology, Birla Institute of Technology, Mesra, Ranchi, 835215, Jharkhand, India."
+        ]
+      },
+      {
+        "full_name": "Saravanan, Thangavelu",
+        "short_name": "Saravanan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Government Medical College and Hospital, Pudukkottai, 622004, Tamilnadu, India."
+        ]
+      },
+      {
+        "full_name": "Ravindran, Karuppaiyan",
+        "short_name": "Ravindran K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Government Medical College and Hospital, Pudukkottai, 622004, Tamilnadu, India."
+        ]
+      },
+      {
+        "full_name": "Prabha, Thangavelu",
+        "short_name": "Prabha T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Nandha College of Pharmacy, Erode, 638052, Tamilnadu, India."
+        ]
+      },
+      {
+        "full_name": "Selvaraj, Jubie",
+        "short_name": "Selvaraj J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research, Ooty, Tamilnadu, India."
+        ]
+      },
+      {
+        "full_name": "Jayapalan, Sudeepan",
+        "short_name": "Jayapalan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering & Technology, Birla Institute of Technology, Mesra, Ranchi, 835215, Jharkhand, India."
+        ]
+      },
+      {
+        "full_name": "Chaitanya, M V N L",
+        "short_name": "Chaitanya MVNL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, School of Pharmacy, Lovely Professional University, Phagwara, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Sivakumar, Thangavel",
+        "short_name": "Sivakumar T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Nandha College of Pharmacy, Erode, 638052, Tamilnadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current computer-aided drug design"
+    ],
+    "journal_abbrev": [
+      "Curr Comput Aided Drug Des"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/26 06:00",
+    "fetched_at": "2026-09-28 16:39:52"
+  },
+  "links": {
+    "cites": [
+      "40370247"
+    ],
+    "refs": [],
+    "similar": [
+      "36424784",
+      "24279462",
+      "19921452",
+      "27311474",
+      "21277861",
+      "29037046",
+      "35426249",
+      "17293141",
+      "33397265",
+      "30465503",
+      "30818108",
+      "33313673",
+      "20387860",
+      "30251609",
+      "31336592",
+      "33687591",
+      "18937041",
+      "15032558",
+      "30018273",
+      "18988254",
+      "17632688",
+      "24144102",
+      "18060505",
+      "31261723",
+      "25600056",
+      "33105703",
+      "32140890",
+      "28881183",
+      "30505052",
+      "34196933",
+      "29057587",
+      "32178612",
+      "29949366",
+      "31070704",
+      "31026752",
+      "24490838",
+      "29256344",
+      "31486019",
+      "18608745",
+      "33512165",
+      "32478525",
+      "34731464",
+      "23789733",
+      "33914508",
+      "27642585",
+      "31580683",
+      "28027902",
+      "28120704",
+      "35300933",
+      "33222859",
+      "31651216",
+      "21504223",
+      "31622216",
+      "33565001",
+      "25262800",
+      "31007759",
+      "36768346",
+      "17112243",
+      "32406679",
+      "36450809",
+      "29134756",
+      "34770274",
+      "31634658",
+      "32817887",
+      "36744427",
+      "22373168",
+      "33231277",
+      "24513185",
+      "15345371",
+      "28604113",
+      "35091229",
+      "34216326",
+      "31284856",
+      "35429013",
+      "24020509",
+      "36548579",
+      "29763967",
+      "35632184",
+      "36485032",
+      "28011018",
+      "22452710",
+      "37535819",
+      "32459098",
+      "30280673",
+      "19343583",
+      "34282519",
+      "18950187",
+      "33757174",
+      "34731466",
+      "32615159",
+      "31348505",
+      "39148608",
+      "38288043",
+      "35631545",
+      "29616425",
+      "38680332"
+    ],
+    "review": [
+      "36424784",
+      "35426249",
+      "33397265",
+      "30465503",
+      "28881183",
+      "32178612",
+      "34731464",
+      "36768346",
+      "37535819"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=19&issue=1&spage=37&aulast=Jayaprakash",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ZAP70-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4032",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/211076/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

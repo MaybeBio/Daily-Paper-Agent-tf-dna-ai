@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40346580",
+    "doi": "10.1186/s13046-025-03404-9",
+    "title": "Tumor cell-intrinsic BIN1 deficiency promotes the immunosuppression and impedes ferroptosis of non-small cell lung cancer via G3BP1-mediated degradation of STAT1."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Tumors often evade immune surveillance by limiting T cell infiltration. In non-small cell lung cancer (NSCLC), increased infiltration of CD8(+) T cells is associated with a favorable response to immunotherapy. While BIN1 is recognized as a tumor suppressor gene, its role in shaping the tumor microenvironment in NSCLC has yet to be fully clarified. METHODS: To investigate the relationship between BIN1 expression and CD8(+)T cell infiltration in NSCLC, we performed a comprehensive data analysis utilizing clinical information from NSCLC patients. BIN1 expression levels in NSCLC tissues were evaluated, and their correlation with CD8(+)T cells infiltration and patient survival outcomes was examined. Loss-of-function strategies targeting BIN1 were applied in syngeneic NSCLC mouse models to assess its functional significance. Tumor growth was monitored, and immune cell populations were analyzed in terms of frequency and functionality through mass cytometry and flow cytometry techniques. Cytokine secretion was profiled using multiplex assays. Additionally, RNA sequencing, immunoprecipitation-mass spectrometry, and molecular docking were employed to confirm direct interactions between BIN1 and cytokine-encoding genes. Finally, the regulatory role of BIN1 in ferroptosis in NSCLC cells were explored using metabolomics analysis, ROS measurement, and MDA detection. RESULTS: We observed that BIN1 expression is downregulated in NSCLC tumor tissues, with its reduced expression strongly associated with advanced disease progression and poor prognosis. Bioinformatics analysis of immune infiltration in human NSCLC samples revealed a positive correlation between BIN1 expression in NSCLC tissues and CD8(+) T cell infiltration. Furthermore, the prognostic impact of BIN1 on NSCLC patients is strongly linked to the level of CD8(+) T cell infiltration. In syngeneic mouse models, the knockout of BIN1 in NSCLC cells significantly inhibited CD8(+) T cell infiltration and impaired their cytotoxic function, facilitating tumor immune evasion. Mechanistically, we demonstrated that BIN1 directly interacts with G3BP1, and its knockout stabilizes G3BP1. This, in turn, promotes STAT1 degradation and reduces the secretion of T cell-recruiting chemokines such as CXCL10 and CCL5. Finally, our findings reveal that BIN1 influences ferroptosis in NSCLC cells through the G3BP1/STAT1/GSH pathway, thereby regulating NSCLC cell proliferation, migration, and invasion. CONCLUSION: This study highlights the crucial role of the BIN1/G3BP1/STAT1/CD8(+) tumor-infiltrating lymphocyte signaling pathway in the progression of NSCLC and its mechanisms of immune evasion. This fundings lay a foundation for the development of BIN1-targeted therapies aimed at improving tumor immunogenicity and transforming immunologically \"cold\" NSCLC into a more responsive disease.",
+    "keywords": [
+      "BIN1",
+      "CD8+ T cell",
+      "Ferroptosis",
+      "Immune escape",
+      "Non-small cell lung cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/pathology/genetics/immunology/metabolism",
+      "*Lung Neoplasms/pathology/genetics/immunology/metabolism",
+      "Animals",
+      "Mice",
+      "*STAT1 Transcription Factor/metabolism",
+      "*Tumor Suppressor Proteins/deficiency/genetics/metabolism",
+      "*Adaptor Proteins, Signal Transducing/deficiency/genetics/metabolism",
+      "*Ferroptosis",
+      "Female",
+      "Tumor Microenvironment",
+      "Cell Line, Tumor",
+      "CD8-Positive T-Lymphocytes/immunology",
+      "Male",
+      "*DNA Helicases/metabolism",
+      "Lymphocytes, Tumor-Infiltrating/immunology",
+      "Nuclear Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiali",
+        "Jia, Yunlong",
+        "Liu, Tianxu",
+        "Liu, Xinyan",
+        "Yin, Shuxian",
+        "Chen, Jiaqi",
+        "Xu, Xiaoqing",
+        "Zhang, Yi",
+        "Liu, Lihua"
+      ],
+      "short_names": [
+        "Wang J",
+        "Jia Y",
+        "Liu T",
+        "Liu X",
+        "Yin S",
+        "Chen J",
+        "Xu X",
+        "Zhang Y",
+        "Liu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China.",
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China.",
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China.",
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China.",
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China.",
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China.",
+        "Department of General Surgery, Xuanwu Hospital Capital Medical University, Beijing, 100053, China.",
+        "Biotherapy Center and Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450002, China.",
+        "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China. cdlihualiu@hebmu.edu.cn.",
+        "China International Cooperation Laboratory of Stem Cell Research, Hebei Medical University, Shijiazhuang, 050011, China. cdlihualiu@hebmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiali",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jia, Yunlong",
+        "short_name": "Jia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tianxu",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yin, Shuxian",
+        "short_name": "Yin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiaqi",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoqing",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Xuanwu Hospital Capital Medical University, Beijing, 100053, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Center and Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450002, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lihua",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Tumor Immunotherapy, Hebei Medical University Fourth Affiliated Hospital and Hebei Provincial Tumor Hospital, Shijiazhuang, 050035, P.R. China. cdlihualiu@hebmu.edu.cn.",
+          "China International Cooperation Laboratory of Stem Cell Research, Hebei Medical University, Shijiazhuang, 050011, China. cdlihualiu@hebmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 May 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/10 00:48",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [
+      "42626116",
+      "42614265",
+      "42597462",
+      "42585793",
+      "42320985",
+      "42168777",
+      "41970199",
+      "41899571",
+      "41593603",
+      "40959272",
+      "40919170",
+      "40607416"
+    ],
+    "refs": [
+      "40023152",
+      "39366148",
+      "38872221",
+      "38685033",
+      "38557498",
+      "38359744",
+      "38309268",
+      "38084438",
+      "38056895",
+      "38022653",
+      "38016474",
+      "38001806",
+      "37820583",
+      "37783386",
+      "37683986",
+      "37178684",
+      "37147018",
+      "37055410",
+      "36931243",
+      "36732507",
+      "36613888",
+      "36584935",
+      "35788116",
+      "34580079",
+      "34482088",
+      "33747931",
+      "33707434",
+      "33096270",
+      "32606052",
+      "32354698",
+      "32302571",
+      "32165281",
+      "30885349",
+      "30733337",
+      "30510222",
+      "28714960",
+      "23928499",
+      "18840413",
+      "17699764",
+      "17210688",
+      "15711557",
+      "7678707"
+    ],
+    "similar": [
+      "40346580",
+      "34416901",
+      "35577506",
+      "37095198",
+      "40341878",
+      "28714960",
+      "39283477",
+      "39004699",
+      "33537094",
+      "38148115",
+      "28950145",
+      "31478261",
+      "30744691",
+      "31627272",
+      "39962845",
+      "39990664",
+      "32120230",
+      "39315096",
+      "39745382",
+      "39904774",
+      "39137401",
+      "34907028",
+      "40279954",
+      "32690037",
+      "38570084",
+      "26658106",
+      "40040705",
+      "39994401",
+      "40098106",
+      "39078518",
+      "39604419",
+      "34753486",
+      "33658304",
+      "30885349",
+      "33402127",
+      "32606053",
+      "39005046",
+      "40128846",
+      "29269008",
+      "39402748",
+      "31560169",
+      "38844957",
+      "39260826",
+      "39334380",
+      "29518341",
+      "38642004",
+      "38735135",
+      "37085798",
+      "29074606",
+      "32878637",
+      "29691251",
+      "40050048",
+      "37902941",
+      "38953994",
+      "39726591",
+      "40229784",
+      "40091029",
+      "38646528",
+      "40011892",
+      "30337185",
+      "37931691",
+      "25683635",
+      "34281863",
+      "16924494",
+      "18698040",
+      "31546072",
+      "38969831",
+      "39299754",
+      "31316723",
+      "39877375",
+      "39454350",
+      "23851682",
+      "39030638",
+      "38621459",
+      "40029463",
+      "26674143",
+      "39754718",
+      "19572148",
+      "34732416",
+      "40055930",
+      "37804164",
+      "38428661",
+      "30975694",
+      "32944405",
+      "40040274",
+      "31843013",
+      "39798196",
+      "30505306",
+      "39040095",
+      "22363469",
+      "40108025",
+      "39631852",
+      "24136748",
+      "40247265",
+      "31053597",
+      "11406550",
+      "27785783",
+      "40016843",
+      "35288462",
+      "39751818"
+    ],
+    "review": [
+      "40346580",
+      "32944405"
+    ],
+    "pmc": [
+      "12063428"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03404-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40346580/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

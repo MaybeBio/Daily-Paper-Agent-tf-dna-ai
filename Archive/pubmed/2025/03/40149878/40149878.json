@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "40149878",
+    "doi": "10.3390/biom15030342",
+    "title": "CellGAT: A GAT-Based Method for Constructing a Cell Communication Network Integrating Multiomics Information."
+  },
+  "content": {
+    "abstract": "The growth, development, and differentiation of multicellular organisms are primarily driven by intercellular communication, which coordinates the activities of diverse cell types. This cell-to-cell signaling is typically mediated by various types of protein-protein interactions, including ligand-receptor; receptor-receptor, and extracellular matrix-receptor interactions. Currently, computational methods for inferring ligand-receptor communication primarily depend on gene expression data of ligand-receptor pairs and spatial information of cells. Some approaches integrate protein complexes; transcription factors; or pathway information to construct cell communication networks. However, few methods consider the critical role of protein-protein interactions (PPIs) in intercellular communication networks, especially when predicting communication between different cell types in the absence of cell type information. These methods often rely on ligand-receptor pairs that lack PPI evidence, potentially compromising the accuracy of their predictions. To address this issue, we propose CellGAT, a framework that infers intercellular communication by integrating gene expression data of ligand-receptor pairs, PPI information, protein complex data, and experimentally validated pathway information. CellGAT not only builds a priori models but also uses node embedding algorithms and graph attention networks to build cell communication networks based on scRNA-seq (single-cell RNA sequencing) datasets and includes a built-in cell clustering algorithm. Through comparisons with various methods, CellGAT accurately predicts cell-cell communication (CCC) and analyzes its impact on downstream pathways; neighboring cells; and drug interventions.",
+    "keywords": [
+      "cell-cell interactions",
+      "deep learning",
+      "graph attention networks",
+      "graph convolutional neural network",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "*Cell Communication/genetics",
+      "Humans",
+      "Protein Interaction Maps",
+      "Algorithms",
+      "*Computational Biology/methods",
+      "Signal Transduction",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tianjiao",
+        "Wu, Zhenao",
+        "Li, Liangyu",
+        "Ren, Jixiang",
+        "Zhang, Ziheng",
+        "Zhang, Jingyu",
+        "Wang, Guohua"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Wu Z",
+        "Li L",
+        "Ren J",
+        "Zhang Z",
+        "Zhang J",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9807-8620"
+      ],
+      "affiliations": [
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "Department of Radiology, The Second Affiliated Hospital of Harbin Medical University, Harbin 150040, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+        "Faculty of Computing, Harbin Institute of Technology, Harbin 150001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tianjiao",
+        "short_name": "Zhang T",
+        "identifiers": [
+          "0000-0001-9807-8620"
+        ],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhenao",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liangyu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Jixiang",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingyu",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Second Affiliated Hospital of Harbin Medical University, Harbin 150040, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guohua",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, Harbin 150040, China.",
+          "Faculty of Computing, Harbin Institute of Technology, Harbin 150001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Feb 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/28 06:25",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "41234880"
+    ],
+    "refs": [
+      "39581873",
+      "38008039",
+      "37878437",
+      "37505079",
+      "36456628",
+      "36382402",
+      "35948637",
+      "35680885",
+      "35264704",
+      "34381210",
+      "34034721",
+      "33635003",
+      "33597522",
+      "33373873",
+      "33301706",
+      "33168968",
+      "32822567",
+      "32422889",
+      "32103204",
+      "32011476",
+      "31819264",
+      "31231648",
+      "30914743",
+      "30696265",
+      "29449348",
+      "29398113",
+      "28860209",
+      "28565936",
+      "27898060",
+      "27853626",
+      "26891683",
+      "26476454",
+      "26448485",
+      "22174083"
+    ],
+    "similar": [
+      "40149878",
+      "41159728",
+      "41125721",
+      "38747737",
+      "40333631",
+      "40577399",
+      "41451540",
+      "38678387",
+      "39276328",
+      "41493424",
+      "40421418",
+      "39155292",
+      "40784875",
+      "38706319",
+      "39708840",
+      "39800874",
+      "40713495",
+      "41396756",
+      "38950180",
+      "40806243",
+      "39417321",
+      "41032018",
+      "34331449",
+      "33597522",
+      "38892162",
+      "37985457",
+      "41288963",
+      "39446541",
+      "40402695",
+      "40841610",
+      "40811188",
+      "39581873",
+      "40097811",
+      "40251476",
+      "40820243",
+      "41408299",
+      "37827697",
+      "41860844",
+      "41385419",
+      "38605638",
+      "39848362",
+      "38833802",
+      "41465557",
+      "38517692",
+      "39487083",
+      "39800872",
+      "39898810",
+      "32970681",
+      "33307360",
+      "41896196",
+      "41397026",
+      "39376034",
+      "41033661",
+      "40524427",
+      "40426257",
+      "38980373",
+      "40281370",
+      "40677242",
+      "35842742",
+      "40155814",
+      "40095604",
+      "33497339",
+      "40730661",
+      "38653489",
+      "40174317",
+      "40511990",
+      "38474033",
+      "35100387",
+      "39413889",
+      "38877401",
+      "30547796",
+      "40838782",
+      "40444832",
+      "41350235",
+      "39900656",
+      "27766944",
+      "33625677",
+      "39289562",
+      "31068142",
+      "41715074",
+      "41785051",
+      "36230879",
+      "39060167",
+      "38684946",
+      "36733262",
+      "40728858",
+      "40892650",
+      "41031876",
+      "40593827",
+      "34145435",
+      "40068854",
+      "39528184",
+      "37669441",
+      "39324133",
+      "37532987",
+      "41534143",
+      "40362328",
+      "40814229",
+      "39968416",
+      "37364528"
+    ],
+    "review": [
+      "40149878",
+      "40820243"
+    ],
+    "pmc": [
+      "11940051"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15030342",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40149878/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "38491511",
+    "doi": "10.1186/s12967-024-05085-y",
+    "title": "Cancer-associated fibroblast-secreted FGF7 as an ovarian cancer progression promoter."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian cancer (OC) is distinguished by its aggressive nature and the limited efficacy of current treatment strategies. Recent studies have emphasized the significant role of cancer-associated fibroblasts (CAFs) in OC development and progression. METHODS: Employing sophisticated machine learning techniques on bulk transcriptomic datasets, we identified fibroblast growth factor 7 (FGF7), derived from CAFs, as a potential oncogenic factor. We investigated the relationship between FGF7 expression and various clinical parameters. A series of in vitro experiments were undertaken to evaluate the effect of CAFs-derived FGF7 on OC cell activities, such as proliferation, migration, and invasion. Single-cell transcriptomic analysis was also conducted to elucidate the interaction between FGF7 and its receptor. Detailed mechanistic investigations sought to clarify the pathways through which FGF7 fosters OC progression. RESULTS: Our findings indicate that higher FGF7 levels correlate with advanced tumor stages, increased vascular invasion, and poorer prognosis. CAFs-derived FGF7 significantly enhanced OC cell proliferation, migration, and invasion. Single-cell analysis and in vitro studies revealed that CAFs-derived FGF7 inhibits the ubiquitination and degradation of hypoxia-inducible factor 1 alpha (HIF-1alpha) via FGFR2 interaction. Activation of the FGF7/HIF-1alpha pathway resulted in the upregulation of mesenchymal markers and downregulation of epithelial markers. Importantly, in vivo treatment with neutralizing antibodies targeting CAFs-derived FGF7 substantially reduced tumor growth. CONCLUSION: Neutralizing FGF7 in the medium or inhibiting HIF-1alpha signaling reversed the effects of FGF7-mediated EMT, emphasizing the dependence of FGF7-mediated EMT on HIF-1alpha activation. These findings suggest that targeting the FGF7/HIF-1alpha/EMT axis may offer new therapeutic opportunities to intervene in OC progression.",
+    "keywords": [
+      "CAFs",
+      "Epithelial-mesenchymal transition",
+      "FGF7",
+      "FGFR2",
+      "Ovarian cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Cancer-Associated Fibroblasts/metabolism",
+      "Fibroblast Growth Factor 7/metabolism/pharmacology",
+      "Cell Line, Tumor",
+      "Signal Transduction",
+      "*Ovarian Neoplasms/pathology",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "Cell Movement/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Songwei",
+        "Ding, Bo",
+        "Dai, Zhu",
+        "Yin, Han",
+        "Ding, Yue",
+        "Liu, Sicong",
+        "Zhang, Ke",
+        "Lin, Hao",
+        "Xiao, Zhongdang",
+        "Shen, Yang"
+      ],
+      "short_names": [
+        "Feng S",
+        "Ding B",
+        "Dai Z",
+        "Yin H",
+        "Ding Y",
+        "Liu S",
+        "Zhang K",
+        "Lin H",
+        "Xiao Z",
+        "Shen Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3313-5062"
+      ],
+      "affiliations": [
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "State Key Laboratory of Bioelectronics, School of Biological Science and Medical Engineering, Southeast University, Nanjing, China.",
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Clinical Science and Research, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China. haolin@seu.edu.cn.",
+        "State Key Laboratory of Bioelectronics, School of Biological Science and Medical Engineering, Southeast University, Nanjing, China. zdxiao@seu.edu.cn.",
+        "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China. shenyang@seu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Songwei",
+        "short_name": "Feng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Bo",
+        "short_name": "Ding B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Zhu",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioelectronics, School of Biological Science and Medical Engineering, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Han",
+        "short_name": "Yin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yue",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sicong",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ke",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Hao",
+        "short_name": "Lin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Science and Research, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China. haolin@seu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xiao, Zhongdang",
+        "short_name": "Xiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioelectronics, School of Biological Science and Medical Engineering, Southeast University, Nanjing, China. zdxiao@seu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shen, Yang",
+        "short_name": "Shen Y",
+        "identifiers": [
+          "0000-0002-3313-5062"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynaecology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China. shenyang@seu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2024 Mar 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/16 21:44",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "42637759",
+      "42196487",
+      "42046725",
+      "41845134",
+      "41832306",
+      "41743400",
+      "41680927",
+      "41470247",
+      "41369847",
+      "41328353",
+      "41272764",
+      "40796898",
+      "40088359",
+      "40038745",
+      "39886662",
+      "39766329",
+      "39182362",
+      "39075572",
+      "39063239"
+    ],
+    "refs": [
+      "37183518",
+      "37144239",
+      "37010552",
+      "36910623",
+      "36797231",
+      "36261105",
+      "35927239",
+      "35874760",
+      "35783154",
+      "35726195",
+      "35681617",
+      "35675036",
+      "35618488",
+      "35440541",
+      "35428876",
+      "35169688",
+      "35145098",
+      "34850536",
+      "34285775",
+      "34276676",
+      "34188701",
+      "34175393",
+      "33895026",
+      "33831027",
+      "33794304",
+      "33622705",
+      "33597522",
+      "32934314",
+      "31740819",
+      "31674718",
+      "31308741",
+      "31090071",
+      "31043742",
+      "30894509",
+      "30809251",
+      "30710055",
+      "30459476",
+      "30321449",
+      "30207593",
+      "28836909",
+      "28414315",
+      "28258248",
+      "27008012",
+      "26057751",
+      "25623741",
+      "25002826",
+      "23999440",
+      "23323831",
+      "23193258",
+      "22945634",
+      "22257669",
+      "21367751",
+      "21062763",
+      "20616810",
+      "20525176",
+      "20309759",
+      "19247306",
+      "19244389",
+      "19015660",
+      "18677599",
+      "18510923",
+      "18188699",
+      "16597617",
+      "11849205",
+      "10592173",
+      "8186145",
+      "2475908"
+    ],
+    "similar": [
+      "38491511",
+      "30744595",
+      "23947803",
+      "35927239",
+      "30646925",
+      "38744773",
+      "32778144",
+      "35083610",
+      "36200682",
+      "30537081",
+      "30999932",
+      "30851060",
+      "33943003",
+      "38597433",
+      "28339036",
+      "30266538",
+      "32592239",
+      "31077234",
+      "38969958",
+      "38402185",
+      "26499200",
+      "34990588",
+      "25197976",
+      "36814597",
+      "38670097",
+      "31062668",
+      "37461061",
+      "38752472",
+      "31887107",
+      "24435707",
+      "17956532",
+      "28076840",
+      "23496980",
+      "29996493",
+      "26528854",
+      "29325547",
+      "23545606",
+      "34552063",
+      "26851944",
+      "25491408",
+      "32215176",
+      "27180053",
+      "29587825",
+      "31639424",
+      "26446630",
+      "23001847",
+      "23358852",
+      "33741330",
+      "26370982",
+      "25174950",
+      "31819036",
+      "25168373",
+      "34895039",
+      "29212519",
+      "25384583",
+      "34250088",
+      "32530543",
+      "29237157",
+      "32892698",
+      "23839513",
+      "29568752",
+      "28718374",
+      "26909598",
+      "30146796",
+      "24645915",
+      "26984380",
+      "33158479",
+      "31771535",
+      "26364616",
+      "33376737",
+      "28390866",
+      "30503552",
+      "32557854",
+      "34638541",
+      "33374849",
+      "25959252",
+      "26392741",
+      "27094478",
+      "31234944",
+      "34823420",
+      "38657094",
+      "32792856",
+      "27677589",
+      "27248828",
+      "31517732",
+      "31638245",
+      "24589413",
+      "27108616",
+      "35560224",
+      "34969360",
+      "31533776",
+      "29565447",
+      "33651283",
+      "38899332",
+      "30961403",
+      "33601056",
+      "34024061",
+      "28899657",
+      "10389758",
+      "33317907",
+      "39048474",
+      "39123425",
+      "39209001"
+    ],
+    "review": [
+      "38491511",
+      "29996493"
+    ],
+    "pmc": [
+      "10941588"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-024-05085-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38491511/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38491511",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3806",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

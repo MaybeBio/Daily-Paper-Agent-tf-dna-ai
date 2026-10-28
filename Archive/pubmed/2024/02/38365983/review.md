@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific content, technical soundness, interpretation of results, and alignment with claims. Editorial quality and formatting are considered only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that the C-terminal intrinsically disordered region (IDR) of the pioneer transcription factor Sox2 engages in dynamic electrostatic interactions with the folded DNA-binding domain (DBD), and that DNA or nucleosome binding redistributes the IDR ensemble, altering the accessibility of two activation domains (AD1 and AD2) without affecting DNA binding affinity.
+- **Visible evidence base** Single-molecule FRET (smFRET) with transfer efficiency histograms and fluorescence lifetime analysis; NMR spectroscopy (HSQC, chemical shift perturbations, relaxation measurements); far-UV circular dichroism; coarse-grained Langevin dynamics simulations; DNA binding affinity measurements; nucleosome reconstitution experiments.
+- **Missing materials affecting confidence** Supplementary figures, supplementary tables, source data files, and supplementary movies are referenced but not provided. Full experimental details for some analyses (e.g., exact fitting procedures for FRET histograms, simulation convergence criteria) are not fully described in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated study of the conformational behavior of the Sox2 C-terminal IDR in the free state and when bound to DNA or nucleosomes. The integration of smFRET, NMR, and coarse-grained simulations is a strength, and the observation that DNA binding redistributes the IDR ensemble and alters activation domain accessibility is potentially significant for understanding transcription factor function. However, several technical concerns and interpretive gaps need to be addressed before the conclusions are fully supported. The claim that the observed ensemble redistribution is functionally relevant for transcriptional activation remains speculative, as no direct functional assays are presented. The manuscript is well-written and likely to interest researchers in transcription regulation, intrinsically disordered proteins, and biophysics.
+- **Who would be interested in the results, and why** Researchers studying transcription factor mechanisms, particularly pioneer factors; biophysicists and structural biologists interested in intrinsically disordered proteins and their modulation by ligand binding; computational biologists developing coarse-grained models of protein-DNA interactions; and those interested in the role of IDRs in transcriptional regulation.
+- **Major strengths** 1. The combination of multiple orthogonal biophysical techniques (smFRET, NMR, CD, simulations) provides a robust and cross-validated picture of the conformational ensemble. 2. The use of a single-parameter coarse-grained model to reproduce 22 experimental FRET values is elegant and lends credibility to the structural interpretation. 3. The study addresses a fundamental and under-explored question: how DNA binding affects the disordered regions of transcription factors. 4. The identification of differential effects on AD1 versus AD2 accessibility is a nuanced and potentially important finding.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Functional relevance
+    - **Claim pointer** The authors imply that the DNA-binding-induced redistribution of the IDR ensemble, specifically the altered accessibility of AD1 and AD2, is functionally important for transcriptional regulation.
+    - **Evidence point** Discussion section, Abstract.
+    - **Concern** The manuscript demonstrates structural and dynamic changes in the IDR upon DNA binding, but no functional experiments (e.g., transcriptional reporter assays, co-activator binding assays, or mutagenesis of the ADs) are presented to link these conformational changes to transcriptional activity. The claim that the observed changes in accessibility are "critical for transcription" or that they "modulate the interaction equilibrium of TFs with coactivators" is therefore speculative and not directly supported by the data.
+    - **Why it matters** The title and abstract emphasize the functional implications of the ensemble redistribution. Without direct functional evidence, the significance of the structural findings for understanding Sox2's role as a pioneer factor and transcriptional activator is weakened. The study would be strengthened by at least one experiment linking the conformational state to a functional readout.
+    - **Resolution test** Provide experimental evidence, such as (1) showing that mutations that alter the IDR-DBD interaction or AD accessibility affect transcriptional activation in a cell-based assay, or (2) demonstrating that the accessibility changes correlate with differential binding of known co-activators to AD1 versus AD2 in vitro.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Quantitative rigor of FRET analysis
+    - **Claim pointer** The authors report quantitative changes in FRET efficiency (e.g., from 0.43 to 0.28) and interpret these as changes in the root-mean-square distance (RRMS) of the IDR.
+    - **Evidence point** Results section, Figures 1d, 3c, 4d, 4e.
+    - **Concern** The conversion of mean transfer efficiency to RRMS relies on the assumption of a specific polymer model (SAW-ν) and a single, static distance distribution. While the authors use fluorescence lifetime analysis to argue for dynamic averaging, the manuscript does not provide a detailed error analysis or a discussion of how the choice of model (e.g., the value of ν) affects the derived distances. The reported RRMS values (7.5 nm to 9.2 nm) are presented as precise numbers, but the uncertainty in these values is not stated. Furthermore, the potential for dye linker dynamics and local dye environments to affect FRET efficiencies is not fully addressed.
+    - **Why it matters** The quantitative interpretation of the FRET data is central to the conclusion that the IDR expands upon DNA binding. If the model assumptions are not robust, the magnitude of the reported expansion could be over- or under-estimated, affecting the strength of the conclusions.
+    - **Resolution test** Provide a more detailed error analysis, including the uncertainty in the fitted FRET efficiencies and the sensitivity of the derived RRMS to the choice of polymer model parameters. Include control experiments or discussions addressing potential dye artifacts.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Simulation validation
+    - **Claim pointer** The coarse-grained simulations are used to "reveal" the redistributed accessibility of activation domains and to provide a structural model of the ensemble.
+    - **Evidence point** Results section, Figures 4 and 5.
+    - **Concern** While the simulations reproduce the experimental FRET efficiencies well (ρc = 0.92), this is a global, ensemble-averaged property. The manuscript does not demonstrate that the simulations correctly capture the local conformational features that are used to make claims about AD1 and AD2 accessibility. The contact analysis and relaxation times are derived from the simulations, but there is no direct experimental validation of these specific predictions (e.g., via NMR paramagnetic relaxation enhancement or cross-linking). The choice of the interaction strength parameter (εpp) is tuned to match FRET, but the sensitivity of the contact maps and accessibility predictions to this parameter is not explored.
+    - **Why it matters** The structural model and the specific claims about AD1 and AD2 accessibility rest entirely on the simulations. If the simulations are not accurately capturing the local conformational preferences, the conclusions about differential AD accessibility could be an artifact of the model.
+    - **Resolution test** Validate the simulation predictions with an independent experimental method that reports on local structure or contacts, or perform a robustness analysis showing that the key conclusions (e.g., differential AD1/AD2 accessibility) are insensitive to the choice of εpp and other simulation parameters.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretation of NMR CSPs
+    - **Claim pointer** The authors use NMR chemical shift perturbations (CSPs) to identify regions of the IDR that interact with the DBD and to show changes upon DNA binding.
+    - **Evidence point** Results section, Figures 2i, 3h.
+    - **Concern** The CSP analysis is used to support the model of interdomain interactions and their redistribution. However, the manuscript does not clearly state which residues were included in the analysis, how the significance threshold for CSPs was determined, or whether the observed CSPs could be due to changes in the local environment (e.g., pH, ionic strength) rather than specific interdomain contacts. The correlation between the CSPs and the simulation-derived contact maps (Supplementary Figure 11) is mentioned but not shown in the main text, and the quality of this correlation is not quantified.
+    - **Why it matters** The NMR data provide residue-specific evidence for the interactions, which is a key strength of the study. If the CSP analysis is not rigorous, the interpretation of which regions are involved in interactions could be flawed.
+    - **Resolution test** Provide a more detailed description of the CSP analysis, including the threshold used, the number of residues analyzed, and a quantitative comparison between the experimental CSPs and the simulation-predicted contact changes.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity of figure legends
+    - **Affected element** Figures 1-5
+    - **Evidence point** Figure legends
+    - **Issue** The figure legends are dense and do not always clearly define all abbreviations (e.g., "CSP", "RRMS", "nsFCS") or the specific constructs used in each panel.
+    - **Required correction** Expand the figure legends to define all abbreviations and clearly state the experimental conditions and constructs used in each panel.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Statistical reporting
+    - **Affected element** Throughout Results
+    - **Evidence point** Figures 2c-f, 3c-d, 4d-e
+    - **Issue** The number of independent measurements (n) for each smFRET data point is not consistently reported. Error bars are shown, but the source of the error (e.g., standard deviation, standard error) is not always specified.
+    - **Required correction** Clearly state the number of replicates and the type of error bar used in each figure panel.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Discussion of limitations
+    - **Affected element** Discussion section
+    - **Evidence point** Discussion
+    - **Issue** The discussion does not adequately address the limitations of the coarse-grained model, such as the lack of explicit solvent and the simplified representation of amino acids.
+    - **Required correction** Add a paragraph discussing the limitations of the simulation approach and how they might affect the interpretation of the results.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Terminology
+    - **Affected element** Abstract, Introduction
+    - **Evidence point** Abstract, Introduction
+    - **Issue** The term "accessibility" is used to describe the exposure of ADs, but it is not explicitly defined. It could refer to solvent accessibility, accessibility to binding partners, or something else.
+    - **Required correction** Define what is meant by "accessibility" in the context of this study, both in the abstract and in the introduction.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of functional validation linking the observed conformational changes to transcriptional activity (R1-M1). 2. Insufficient quantitative rigor in the FRET-to-distance conversion, including a lack of error analysis and model sensitivity testing (R1-M2). 3. The simulation-derived claims about AD1 and AD2 accessibility are not independently validated (R1-M3). 4. The NMR CSP analysis lacks detail on thresholds and significance (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its specific focus on the Sox2 IDR and its integration of multiple techniques to address a question that has been largely unexplored for this system. The concept of DNA binding modulating IDR ensemble and AD accessibility is not entirely new, but the detailed characterization of this phenomenon in a pioneer factor is a novel contribution. **Scientific importance:** The findings have the potential to be important for understanding how pioneer factors function, as they suggest a mechanism by which DNA binding could allosterically regulate the availability of activation domains. However, the lack of functional data limits the current importance. **Interdisciplinary readership:** The topic is of interest to a broad readership, including molecular biologists, biophysicists, and computational biologists. The methods used are sophisticated and will appeal to specialists. **Technical soundness:** The technical execution of the experiments appears sound, but the analysis and interpretation have gaps as detailed in the major concerns. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, but the methods section is highly technical. The main text does a good job of explaining the concepts, though some terms could be better defined.
+
+## Risk / unsupported claims
+- The claim that the observed changes in AD accessibility are functionally relevant for transcriptional regulation is unsupported by direct experimental evidence.
+- The claim that the coarse-grained simulations "reveal" the redistributed accessibility is only as strong as the model's accuracy, which is not fully validated.
+- The statement that "interdomain interactions are redistributed in complex with DNA leading to variable exposure of two activation domains critical for transcription" is partially supported by the data, but the "critical for transcription" part is not directly demonstrated.
+- The generalizability of the findings to other transcription factors, while plausible, is speculative and not directly tested.

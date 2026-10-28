@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41824874",
+    "doi": "10.1097/MD.0000000000047710",
+    "title": "AMBP gene activation promotes cholangiocarcinoma progression through the WNT/beta-catenin signaling pathway: Regulatory effect of polysaccharides from Auricularia auricula-judae."
+  },
+  "content": {
+    "abstract": "Cholangiocarcinoma (CCA), an aggressive hepatobiliary malignancy with poor prognosis, involves abnormal molecular regulatory networks. This study explores alpha-1-microglobulin/bikunin precursor's (AMBP's) role in CCA, its pro-carcinogenic mechanisms via the wingless/integrated (WNT) pathway, and Huaier polysaccharide's targeted therapeutic potential. Using GSE132305, R software identified differentially expressed genes. Gene ontology/Kyoto encyclopedia of genes and genomes, gene set enrichment analysis, and Metascape analyzed enriched pathways, focusing on WNT. Weighted gene co-expression network analysis explored gene-phenotype correlations. STRING-based protein-protein interaction networks and algorithms (MCC, DMNC, and EPC) identified hub genes. TCGA enabled survival analysis and differential expression visualization. CIBERSORT analyzed immune infiltration (especially Tregs). TCMSP screened Huaier components, with molecular docking testing target binding. Reverse transcription quantitative polymerase chain reaction and Western blotting validated hub gene functions. Differentially expressed genes enriched in WNT, a key driver of CCA. Weighted gene co-expression network analysis and protein-protein interaction identified AMBP as a hub gene; its high expression linked to lower survival and elevated levels in CCA tissues. Increased Tregs in CCA correlated with immunosuppression and poor prognosis. Multi-omics confirmed AMBP promotes malignancy via WNT activation. Quercetin, Huaier main component, showed strong binding to AMBP via multiple interactions. AMBP overexpression in CCA cells activated WNT molecules (beta-catenin, c-Myc, and Cyclin D1), enhancing tumor progression. Huaier targeted AMBP, reducing WNT activity and related proteins. High AMBP expression associates with CCA tumorigenesis, immunosuppression, and poor prognosis, acting via WNT. Huaier polysaccharide reverses CCA malignancy by inhibiting AMBP, reducing invasiveness/metastasis and improving prognosis.",
+    "keywords": [
+      "AMBP gene",
+      "Huaier polysaccharide",
+      "WNT signaling pathway",
+      "cholangiocarcinoma (CCA)"
+    ],
+    "mesh_terms": [
+      "*Cholangiocarcinoma/genetics/drug therapy/pathology/metabolism",
+      "Humans",
+      "*Wnt Signaling Pathway/drug effects/genetics",
+      "*Bile Duct Neoplasms/genetics/drug therapy/pathology/metabolism",
+      "*Polysaccharides/pharmacology",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "beta Catenin/metabolism",
+      "Disease Progression",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Chenrui",
+        "Liu, Yajuan",
+        "Zhang, Yanzhong",
+        "Yang, Yafan",
+        "Wu, Xiaoyong",
+        "Wang, Yanliang",
+        "Sun, Fangyuan",
+        "Zhao, Zhe"
+      ],
+      "short_names": [
+        "Yang C",
+        "Liu Y",
+        "Zhang Y",
+        "Yang Y",
+        "Wu X",
+        "Wang Y",
+        "Sun F",
+        "Zhao Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-3444-4879"
+      ],
+      "affiliations": [
+        "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China.",
+        "Department of Clinical Pharmacy, Danzhou People's Hospital, Danzhou, Hainan, China.",
+        "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China.",
+        "Department of Anaesthesiology, National Cancer Center/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China.",
+        "General Surgery, Ruijin Hospital Hainan Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China.",
+        "Department of Pharmacy, Peking University Third Hospital, Beijing, China.",
+        "Institute for Drug Evaluation, Peking University Health Science Center, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Chenrui",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yajuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, Danzhou People's Hospital, Danzhou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanzhong",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0001-3444-4879"
+        ],
+        "affiliations": [
+          "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yafan",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anaesthesiology, National Cancer Center/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaoyong",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanliang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery, Ruijin Hospital Hainan Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Fangyuan",
+        "short_name": "Sun F",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgery, Danzhou People's Hospital, Danzhou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhe",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Peking University Third Hospital, Beijing, China.",
+          "Institute for Drug Evaluation, Peking University Health Science Center, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Mar 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 19:31",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40165901",
+      "39042261",
+      "38334836",
+      "38082327",
+      "37612301",
+      "37449208",
+      "36528236",
+      "36147461",
+      "36144640",
+      "35454818",
+      "35245981",
+      "35166233",
+      "34980884",
+      "33746781",
+      "33479502",
+      "33080466",
+      "32278239",
+      "31918277",
+      "31115485",
+      "31014671",
+      "30451972",
+      "30272341",
+      "27446394",
+      "26424423",
+      "25035076",
+      "24867095",
+      "24321491",
+      "24135868",
+      "23822562",
+      "23667667",
+      "11883904",
+      "10136857",
+      "1696404"
+    ],
+    "similar": [
+      "41824874",
+      "39042261",
+      "40472719",
+      "30856284",
+      "38676365",
+      "32140709",
+      "23798555",
+      "24549785",
+      "23822562",
+      "37884243",
+      "34796468",
+      "39553729",
+      "37568083",
+      "41209549",
+      "40696630",
+      "26474277",
+      "26310932",
+      "30272356",
+      "30193944",
+      "40493897",
+      "33436545",
+      "40578094",
+      "23799613",
+      "36977438",
+      "38980538",
+      "39278404",
+      "38082327",
+      "30452118",
+      "39718067",
+      "41050079",
+      "26056085",
+      "39543636",
+      "37832404",
+      "32116234",
+      "35307646",
+      "20096135",
+      "30235453",
+      "26679756",
+      "41290977",
+      "39239747",
+      "39755752",
+      "30822475",
+      "40786100",
+      "29436659",
+      "34181351",
+      "36676763",
+      "34494080",
+      "41701476",
+      "38686653",
+      "41288681",
+      "39103208",
+      "41168860",
+      "27618837",
+      "30582202",
+      "31270845",
+      "32435051",
+      "39236081",
+      "41694488",
+      "31545466",
+      "42040893",
+      "40097546",
+      "31843982",
+      "38386231",
+      "35651328",
+      "39418733",
+      "23313142",
+      "33060563",
+      "41935591",
+      "39696705",
+      "33484774",
+      "33051665",
+      "39350229",
+      "39522105",
+      "36171401",
+      "36098712",
+      "34580062",
+      "33221765",
+      "40814770",
+      "41233807",
+      "42599115",
+      "41022995",
+      "41275006",
+      "31638221",
+      "33249719",
+      "31298383",
+      "25632187",
+      "29633893",
+      "40905055",
+      "38864487",
+      "42373229",
+      "30933885",
+      "42049972",
+      "27658773",
+      "37576707",
+      "39199357",
+      "31180332",
+      "39069260",
+      "32857725",
+      "35294478",
+      "40000765"
+    ],
+    "review": [
+      "41824874",
+      "32140709"
+    ],
+    "pmc": [
+      "12991538"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bileductcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bile Duct Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41824874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1152",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000047710",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

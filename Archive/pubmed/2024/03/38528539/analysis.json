@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38528539",
+  "title": "Identification of potential cell death-related biomarkers for diagnosis and treatment of osteoporosis.",
+  "authors": "Li, Mingliang; Wang, Xue; Guo, Mingbo; Zhang, Wenlong; Li, Taotao; Zheng, Jinyang",
+  "journal": "BMC musculoskeletal disorders",
+  "published_date": "2024-03-26",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过机器学习筛选骨质疏松相关细胞死亡标志基因，虽涉及转录因子网络构建，但核心是表达谱生物标志物，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: This study aimed to identify potential biomarkers for the diagnosis and treatment of osteoporosis (OP). METHODS: Data sets were downloaded from the Gene Expression Omnibus database, and differentially programmed cell death-related genes were screened. Functional analyses were performed to predict the biological processes associated with these genes. Least absolute shrinkage and selection operator (LASSO), support vector machine (SVM), and random forest (RF) machine learning algorithms were used to screen for characteristic genes, and receiver operating characteristics were used to evaluate the diagnosis of disease characteristic gene values. Gene set enrichment analysis (GSEA) and single-sample GSEA were conducted to analyze the correlation between characteristic genes and immune infiltrates. Cytoscape and the Drug Gene Interaction Database (DGIdb) were used to construct the mitochondrial RNA-mRNA-transcription factor network and explore small-molecule drugs. Reverse transcription real-time quantitative PCR (RT-qPCR) analysis was performed to evaluate the expression of biomarker genes in clinical samples. RESULTS: In total, 25 differential cell death genes were identified. Among these, two genes were screened using the LASSO, SVM, and RF algorithms as characteristic genes, including BRSK2 and VPS35. In GSE56815, the area under the receiver operating characteristic curve of BRSK2 was 0.761 and that of VPS35 was 0.789. In addition, immune cell infiltration analysis showed that BRSK2 positively correlated with CD56dim natural killer cells and negatively correlated with central memory CD4 + T cells. Based on the data from DGIdb, hesperadin was associated with BRSK2, and melagatran was associated with VPS35. BRSK2 and VPS35 were expectably upregulated in OP group compared with controls (all p < 0.05). CONCLUSIONS: BRSK2 and VPS35 may be important diagnostic biomarkers of OP.",
+  "abstract_zh": "背景：本研究旨在识别用于骨质疏松症（OP）诊断和治疗的潜在生物标志物。方法：从基因表达综合数据库下载数据集，并筛选差异程序性细胞死亡相关基因。进行功能分析以预测这些基因相关的生物学过程。使用最小绝对收缩和选择算子（LASSO）、支持向量机（SVM）和随机森林（RF）机器学习算法筛选特征基因，并采用受试者工作特征曲线评估疾病特征基因值的诊断效能。进行基因集富集分析（GSEA）和单样本GSEA，以分析特征基因与免疫浸润之间的相关性。使用Cytoscape和药物基因相互作用数据库（DGIdb）构建线粒体RNA-mRNA-转录因子网络，并探索小分子药物。进行逆转录实时定量PCR（RT-qPCR）分析，以评估临床样本中生物标志物基因的表达。结果：共鉴定出25个差异细胞死亡基因。其中，使用LASSO、SVM和RF算法筛选出两个特征基因，包括BRSK2和VPS35。在GSE56815中，BRSK2的受试者工作特征曲线下面积为0.761，VPS35的为0.789。此外，免疫细胞浸润分析显示，BRSK2与CD56dim自然杀伤细胞呈正相关，与中央记忆CD4+ T细胞呈负相关。根据DGIdb数据，hesperadin与BRSK2相关，melagatran与VPS35相关。与对照组相比，OP组中BRSK2和VPS35的表达预期上调（所有p < 0.05）。结论：BRSK2和VPS35可能是OP的重要诊断生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38528539/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38528539/",
+  "paper_page_path": "papers/pubmed/38528539/index.html"
+}

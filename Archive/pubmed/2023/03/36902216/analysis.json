@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36902216",
+  "title": "A Unified Deep Learning Framework for Single-Cell ATAC-Seq Analysis Based on ProdDep Transformer Encoder.",
+  "authors": "Wang, Zixuan; Zhang, Yongqing; Yu, Yun; Zhang, Junming; Liu, Yuhang; Zou, Quan",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-03-12",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于ProdDep Transformer的深度学习框架PROTRAIT，从scATAC-seq峰中建模TF-DNA结合基序语法以预测染色质可及性并推断TF活性，虽非直接聚焦TF-DNA三维互作机制，但以TF-DNA基序为核心且方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Recent advances in single-cell sequencing assays for the transposase-accessibility chromatin (scATAC-seq) technique have provided cell-specific chromatin accessibility landscapes of cis-regulatory elements, providing deeper insights into cellular states and dynamics. However, few research efforts have been dedicated to modeling the relationship between regulatory grammars and single-cell chromatin accessibility and incorporating different analysis scenarios of scATAC-seq data into the general framework. To this end, we propose a unified deep learning framework based on the ProdDep Transformer Encoder, dubbed PROTRAIT, for scATAC-seq data analysis. Specifically motivated by the deep language model, PROTRAIT leverages the ProdDep Transformer Encoder to capture the syntax of transcription factor (TF)-DNA binding motifs from scATAC-seq peaks for predicting single-cell chromatin accessibility and learning single-cell embedding. Based on cell embedding, PROTRAIT annotates cell types using the Louvain algorithm. Furthermore, according to the identified likely noises of raw scATAC-seq data, PROTRAIT denoises these values based on predated chromatin accessibility. In addition, PROTRAIT employs differential accessibility analysis to infer TF activity at single-cell and single-nucleotide resolution. Extensive experiments based on the Buenrostro2018 dataset validate the effeteness of PROTRAIT for chromatin accessibility prediction, cell type annotation, and scATAC-seq data denoising, therein outperforming current approaches in terms of different evaluation metrics. Besides, we confirm the consistency between the inferred TF activity and the literature review. We also demonstrate the scalability of PROTRAIT to analyze datasets containing over one million cells.",
+  "abstract_zh": "转座酶可及性染色质单细胞测序技术（scATAC-seq）的最新进展提供了顺式调控元件的细胞特异性染色质可及性图谱，为细胞状态和动态提供了更深入的见解。然而，很少有研究致力于建模调控语法与单细胞染色质可及性之间的关系，并将scATAC-seq数据的不同分析场景纳入通用框架。为此，我们提出了一种基于ProdDep Transformer编码器的统一深度学习框架，名为PROTRAIT，用于scATAC-seq数据分析。具体受深度语言模型的启发，PROTRAIT利用ProdDep Transformer编码器从scATAC-seq峰中捕获转录因子（TF）-DNA结合基序的语法，以预测单细胞染色质可及性并学习单细胞嵌入。基于细胞嵌入，PROTRAIT使用Louvain算法注释细胞类型。此外，根据识别出的原始scATAC-seq数据可能存在的噪声，PROTRAIT基于预测的染色质可及性对这些值进行去噪。另外，PROTRAIT采用差异可及性分析来推断单细胞和单核苷酸分辨率下的TF活性。基于Buenrostro2018数据集的广泛实验验证了PROTRAIT在染色质可及性预测、细胞类型注释和scATAC-seq数据去噪方面的有效性，并在不同评估指标上优于现有方法。此外，我们确认了推断的TF活性与文献综述的一致性。我们还展示了PROTRAIT在分析包含超过一百万个细胞的数据集时的可扩展性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36902216/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36902216/",
+  "paper_page_path": "papers/pubmed/36902216/index.html"
+}

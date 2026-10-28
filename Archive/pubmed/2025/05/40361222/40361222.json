@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "40361222",
+    "doi": "10.1186/s40360-025-00939-7",
+    "title": "Identifying Lactylation-related biomarkers and therapeutic drugs in ulcerative colitis: insights from machine learning and molecular docking."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC), a chronic relapsing-remitting inflammatory bowel disease. Recent studies have shown that lactylation modifications may be involved in metabolic-immune interactions in intestinal inflammation through epigenetic regulation, but their specific mechanisms in UC still require in-depth validation. METHODS: We conducted comparative analyses of transcriptomic profiles, immune landscapes, and functional pathways between UC and normal cohorts. Lactylation-related differentially expressed genes were subjected to enrichment analysis to delineate their mechanistic roles in UC. Through machine learning algorithms, the diagnostic model was established. Further elucidating the mechanisms and regulatory network of the model gene in UC were GSVA, immunological correlation analysis, transcription factor prediction, immunofluorescence, and single-cell analysis. Lastly, the CMap database and molecular docking technology were used to investigate possible treatment drugs for UC. RESULTS: Twenty-two lactylation-related differentially expressed genes were identified, predominantly enriched in actin cytoskeleton organization and JAK-STAT signaling. By utilizing machine learning methods, 3 model genes (S100A11, IFI16, and HSDL2) were identified. ROC curves from the train and test cohorts illustrate the superior diagnostic value of our model. Further comprehensive bioinformatics analyses revealed that these three core genes may be involved in the development of UC by regulating the metabolic and immune microenvironment. Finally, regorafenib and R-428 were considered as possible agents for the treatment of UC. CONCLUSION: This study offers a novel strategy to early UC diagnosis and treatment by thoroughly characterizing lactylation modifications in UC.",
+    "keywords": [
+      "Biomarkers",
+      "Lactylation",
+      "Machine learning",
+      "Molecular docking",
+      "Ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Colitis, Ulcerative/drug therapy/genetics/metabolism/diagnosis",
+      "*Machine Learning",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Biomarkers/metabolism",
+      "Male",
+      "Transcriptome",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yao",
+        "Sun, Xu",
+        "Liu, Bin",
+        "Zhang, Yunshu",
+        "Xie, Tong",
+        "Li, Junchen",
+        "Liu, Jifeng",
+        "Zhang, Qingkai"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Sun X",
+        "Liu B",
+        "Zhang Y",
+        "Xie T",
+        "Li J",
+        "Liu J",
+        "Zhang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "Health Team, The 92914th Military Hospital of PLA, Lingao, Hainan, China.",
+        "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. lijc03@dmu.edu.cn.",
+        "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China. lijc03@dmu.edu.cn.",
+        "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. jifeng0213@163.com.",
+        "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. dlkaiyu@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yao",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xu",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Health Team, The 92914th Military Hospital of PLA, Lingao, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunshu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Tong",
+        "short_name": "Xie T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+          "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junchen",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. lijc03@dmu.edu.cn.",
+          "Institute of Integrative Medicine, Dalian Medical University, Dalian, Liaoning, China. lijc03@dmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Jifeng",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. jifeng0213@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qingkai",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. dlkaiyu@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC pharmacology & toxicology"
+    ],
+    "journal_abbrev": [
+      "BMC Pharmacol Toxicol"
+    ],
+    "pub_date": "2025 May 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/14 11:41",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "41497534",
+      "41488662",
+      "41469676",
+      "41318504",
+      "40853584",
+      "40703527"
+    ],
+    "refs": [
+      "40107441",
+      "39873292",
+      "39707393",
+      "39478860",
+      "39421742",
+      "39251781",
+      "39125594",
+      "39062464",
+      "38603855",
+      "38570082",
+      "38419085",
+      "38169383",
+      "38156773",
+      "37962376",
+      "37918679",
+      "37415143",
+      "37242427",
+      "37125050",
+      "36370105",
+      "36299582",
+      "36233246",
+      "35752610",
+      "35645767",
+      "35325188",
+      "35305978",
+      "34838850",
+      "34179021",
+      "33868257",
+      "33737510",
+      "33231677",
+      "32913180",
+      "32858223",
+      "32526270",
+      "32199197",
+      "32063999",
+      "31919231",
+      "31783598",
+      "31715423",
+      "30944313",
+      "30472651",
+      "30356060",
+      "30061739",
+      "30016408",
+      "29921749",
+      "29895092",
+      "29749241",
+      "29740202",
+      "29401083",
+      "29319160",
+      "29195078",
+      "29032767",
+      "28885228",
+      "28836909",
+      "28827067",
+      "28560287",
+      "28446208",
+      "28212924",
+      "28082985",
+      "27914657",
+      "26954701",
+      "26627550",
+      "26474176",
+      "24751956",
+      "23588234",
+      "23323831",
+      "23135761",
+      "22955616",
+      "22914296",
+      "22257669",
+      "20962772",
+      "20576703",
+      "10371197"
+    ],
+    "similar": [
+      "40361222",
+      "41789070",
+      "41890712",
+      "39975557",
+      "41563994",
+      "39026683",
+      "41009970",
+      "42099592",
+      "41955702",
+      "39791167",
+      "38951638",
+      "37782162",
+      "40791849",
+      "42074501",
+      "39806040",
+      "39647286",
+      "38880160",
+      "40620701",
+      "40600991",
+      "41300749",
+      "40864770",
+      "41029776",
+      "40948782",
+      "38656456",
+      "41459538",
+      "38117365",
+      "40981471",
+      "41324863",
+      "41050686",
+      "41406086",
+      "39170615",
+      "40433374",
+      "37322958",
+      "40021664",
+      "41212891",
+      "41665828",
+      "40584713",
+      "36419192",
+      "41358199",
+      "39766817",
+      "40661186",
+      "37090740",
+      "42064059",
+      "41300794",
+      "38849409",
+      "41368500",
+      "38510272",
+      "41959722",
+      "41242266",
+      "40081238",
+      "41756296",
+      "41644789",
+      "38800594",
+      "41203451",
+      "41094572",
+      "40304766",
+      "41128818",
+      "39428941",
+      "37287987",
+      "38269750",
+      "41136639",
+      "39139563",
+      "41972123",
+      "40596702",
+      "39707393",
+      "38274809",
+      "38987612",
+      "37539055",
+      "39191122",
+      "33132649",
+      "40115777",
+      "40160318",
+      "41310117",
+      "40406126",
+      "39986196",
+      "40607383",
+      "40443529",
+      "35959356",
+      "38070204",
+      "39693490",
+      "42099632",
+      "40947685",
+      "39346628",
+      "41052072",
+      "42039174",
+      "40963602",
+      "40330488",
+      "41323394",
+      "41796620",
+      "38024534",
+      "40175429",
+      "41570698",
+      "41898331",
+      "41601651",
+      "41351984",
+      "39182484",
+      "39568189",
+      "39568749",
+      "39395728",
+      "36576506"
+    ],
+    "review": [
+      "40361222",
+      "37539055"
+    ],
+    "pmc": [
+      "12076822"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpharmacoltoxicol.biomedcentral.com/articles/10.1186/s40360-025-00939-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40361222/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3343",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

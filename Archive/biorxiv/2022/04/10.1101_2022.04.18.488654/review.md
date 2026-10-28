@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract, assessed against the evidence described therein
+- **Shared manuscript claim summary** The authors identify a set of DnaD residues required for single-stranded DNA (ssDNA) binding, show via photo-crosslinking that this region preferentially interacts with one strand of the *Bacillus subtilis* origin (*oriC*), define a new ssDNA motif (the DnaD Recognition Element, DRE), and integrate cryo-EM imaging of full-length DnaD to propose that DRE location within *oriC* orchestrates strand-specific helicase recruitment for bidirectional replication.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical details, cryo-EM maps and models, sequence alignments, and any supporting data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding bacterial replication initiation, specifically the strand-specific recruitment of the helicase loader DnaD to *oriC*. The combination of biochemical, genetic, and structural approaches is commendable and appropriate for the question. However, the abstract alone provides insufficient detail to evaluate the robustness of the key claims, particularly the identification of the DRE motif, the specificity of strand recognition, and the mechanistic model linking DRE position to bidirectional replication. The conclusions are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in DNA replication, bacterial cell cycle regulation, and molecular microbiology would be interested. The work addresses a fundamental gap in understanding how two helicases are loaded at a single origin, a question relevant to all domains of life. The identification of a new DNA recognition element and a strand-specific recruitment mechanism could inform studies on origin architecture and replication initiation across bacterial species.
+- **Major strengths**  
+  - Addresses a fundamental and unresolved question in bacterial DNA replication.  
+  - Integrates multiple complementary approaches (biochemical, genetic, structural).  
+  - Proposes a concrete mechanistic model (DRE position orchestrating strand-specific helicase loading) that is testable and conceptually novel.  
+  - The use of cryo-EM for full-length DnaD adds structural context to functional data.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The authors claim that a set of DnaD residues required for ssDNA binding was identified and that this region interacts preferentially with one strand of *oriC*.  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract does not specify how the ssDNA-binding residues were identified (e.g., mutagenesis, structural inference, conservation analysis) nor how strand preference was quantified. No data are shown to support the specificity of the interaction, such as binding affinities for each strand or competition experiments.  
+    - **Why it matters** The central claim of strand-specific recognition underpins the entire mechanistic model. Without clear evidence of preferential binding and its functional relevance, the model lacks a solid foundation.  
+    - **Resolution test** Provide quantitative binding data for both strands of *oriC* (e.g., EMSA, ITC, or SPR) with wild-type and mutant DnaD, including statistical analysis and appropriate controls. Show that the identified residues are necessary and sufficient for ssDNA binding.
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Claim validation  
+    - **Claim pointer** The authors propose a new ssDNA motif, the DnaD Recognition Element (DRE), located in *oriC*.  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The definition of the DRE is not described. It is unclear how the motif was derived, its sequence, its conservation, or how it was validated as a functional element. The abstract states biochemical and genetic data support the model, but no specifics are given.  
+    - **Why it matters** A new recognition element is a strong claim that requires clear definition and experimental validation. Without sequence information and functional assays (e.g., mutations in the DRE that abolish DnaD binding or replication), the existence of the DRE is not established.  
+    - **Resolution test** Present the DRE sequence, its location within *oriC*, and mutagenesis data showing that DRE mutations disrupt DnaD binding and replication initiation. Include bioinformatic analysis of DRE conservation across *Bacillus* species or related organisms.
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Model support  
+    - **Claim pointer** The authors propose that the location of the DRE within *oriC* orchestrates strand-specific recruitment of helicase to achieve bidirectional DNA replication.  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The mechanistic link between DRE position and bidirectional replication is asserted but not demonstrated. The abstract does not explain how DnaD binding to one strand leads to helicase loading on both strands or how the DRE location dictates the directionality of replication.  
+    - **Why it matters** The proposed model is the main conceptual advance, but it remains speculative without functional data connecting DRE position to helicase loading and replication outcomes.  
+    - **Resolution test** Provide genetic or biochemical experiments that alter DRE position or sequence and show corresponding changes in helicase loading or replication directionality. Ideally, include single-molecule or in vitro reconstitution data.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Definition of DRE acronym  
+    - **Evidence pointer** Abstract  
+    - **Issue** The acronym DRE is defined as "DnaD Recognition Element" but the expansion is not provided in the abstract.  
+    - **Required correction** Spell out the acronym at first use in the abstract.
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Structural data description  
+    - **Evidence pointer** Abstract  
+    - **Issue** The cryo-EM imaging of full-length DnaD is mentioned but no details are given on resolution, model quality, or how the structure informs the proposed mechanism.  
+    - **Required correction** Briefly state the resolution and key structural features that support the model, or refer to a figure in the full manuscript.
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** Use of "recruited"  
+    - **Evidence pointer** Title and abstract  
+    - **Issue** The title states DnaD is "recruited" to a specific strand, but the abstract describes binding preference, not active recruitment. The term may overstate the finding.  
+    - **Required correction** Consider using "binds preferentially" or "is targeted to" in the title to match the evidence presented.
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Lack of quantitative evidence for strand-specific binding.  
+  - R1-M2: Undefined DRE motif without sequence or validation data.  
+  - R1-M3: Mechanistic model not supported by functional experiments linking DRE position to bidirectional replication.
+- **Assessment against Nature-style criteria**  
+  - **Originality** High. The concept of a strand-specific recognition element in a bacterial origin that directs helicase loading is novel and not described in prior literature.  
+  - **Scientific importance** High. Understanding bidirectional replication initiation is fundamental to all organisms; this work could fill a key gap in bacterial systems.  
+  - **Interdisciplinary readership** Moderate to high. The topic will appeal to molecular biologists, biochemists, and microbiologists, but may be less accessible to a broader readership without additional context.  
+  - **Technical soundness** Not assessable from the abstract alone. The methods are not described in sufficient detail to judge rigor.  
+  - **Readability for nonspecialists** The abstract is concise but uses specialized terminology (e.g., DRE, photo-crosslinking, cryo-EM) without sufficient explanation for a general audience.  
+  - Overall, the work has the potential to meet Nature-level standards if the technical concerns are resolved and the full data support the claims.
+- **Recommendation posture** Supportive if technical concerns are resolved. The abstract presents a compelling and novel hypothesis, but the current evidence base is insufficient to establish the claims. Full manuscript review is necessary to assess data quality and rigor.
+
+## Risk / unsupported claims
+- The claim that DnaD recognizes a new ssDNA motif (DRE) is unsupported without sequence or validation data.
+- The claim of strand-specific recruitment of helicase is unsupported without functional experiments linking DRE position to helicase loading.
+- The claim that the findings "significantly advance" understanding of bidirectional replication is an overstatement given the lack of mechanistic evidence in the abstract.
+- The cryo-EM structure of full-length DnaD is mentioned but its contribution to the model is not described, making this aspect unassessable.

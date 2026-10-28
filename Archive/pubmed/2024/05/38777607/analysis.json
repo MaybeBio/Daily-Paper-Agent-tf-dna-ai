@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38777607",
+  "title": "Machine learning identifies activation of RUNX/AP-1 as drivers of mesenchymal and fibrotic regulatory programs in gastric cancer.",
+  "authors": "Razavi-Mohseni, Milad; Huang, Weitai; Guo, Yu A; Shigaki, Dustin; Ho, Shamaine Wei Ting; Tan, Patrick; Skanderup, Anders J; Beer, Michael A",
+  "journal": "Genome research",
+  "published_date": "2024-05-23",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习从ATAC-seq数据推断胃癌亚型中RUNX/AP-1等转录因子活性，虽聚焦TF调控程序而非直接建模TF-DNA互作，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Gastric cancer (GC) is the fifth most common cancer worldwide and is a heterogeneous disease. Among GC subtypes, the mesenchymal phenotype (Mes-like) is more invasive than the epithelial phenotype (Epi-like). Although gene expression of the epithelial-to-mesenchymal transition (EMT) has been studied, the regulatory landscape shaping this process is not fully understood. Here we use ATAC-seq and RNA-seq data from a compendium of GC cell lines and primary tumors to detect drivers of regulatory state changes and their transcriptional responses. Using the ATAC-seq data, we developed a machine learning approach to determine the transcription factors (TFs) regulating the subtypes of GC. We identified TFs driving the mesenchymal (RUNX2, ZEB1, SNAI2, AP-1 dimer) and the epithelial (GATA4, GATA6, KLF5, HNF4A, FOXA2, GRHL2) states in GC. We identified DNA copy number alterations associated with dysregulation of these TFs, specifically deletion of GATA4 and amplification of MAPK9 Comparisons with bulk and single-cell RNA-seq data sets identified activation toward fibroblast-like epigenomic and expression signatures in Mes-like GC. The activation of this mesenchymal fibrotic program is associated with differentially accessible DNA cis-regulatory elements flanking upregulated mesenchymal genes. These findings establish a map of TF activity in GC and highlight the role of copy number driven alterations in shaping epigenomic regulatory programs as potential drivers of GC heterogeneity and progression.",
+  "abstract_zh": "胃癌（GC）是全球第五大常见癌症，且是一种异质性疾病。在GC亚型中，间充质表型（Mes-like）比上皮表型（Epi-like）更具侵袭性。尽管上皮-间充质转化（EMT）的基因表达已被研究，但塑造这一过程的调控图谱尚未完全阐明。在此，我们利用来自GC细胞系和原发肿瘤综合集合的ATAC-seq和RNA-seq数据，检测调控状态变化的驱动因子及其转录响应。基于ATAC-seq数据，我们开发了一种机器学习方法，以确定调控GC亚型的转录因子（TFs）。我们识别出驱动GC中间充质状态（RUNX2、ZEB1、SNAI2、AP-1二聚体）和上皮状态（GATA4、GATA6、KLF5、HNF4A、FOXA2、GRHL2）的TFs。我们发现了与这些TFs失调相关的DNA拷贝数改变，特别是GATA4的缺失和MAPK9的扩增。与批量及单细胞RNA-seq数据集的比较揭示，在Mes-like GC中，成纤维细胞样表观基因组和表达特征的激活。这种间充质纤维化程序的激活与上调的间充质基因侧翼的可及性差异DNA顺式调控元件相关。这些发现建立了GC中TF活性的图谱，并强调了拷贝数驱动的改变在塑造表观基因组调控程序中的作用，这些程序可能是GC异质性和进展的潜在驱动因素。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38777607/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38777607/",
+  "paper_page_path": "papers/pubmed/38777607/index.html"
+}

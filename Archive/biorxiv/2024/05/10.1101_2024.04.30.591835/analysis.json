@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.30.591835",
+  "title": "ChatNT: A Multimodal Conversational Agent for DNA, RNA and Protein Tasks",
+  "authors": "Guillaume Richard; Bernardo P de Almeida; Hugo Dalla-Torre; Christopher Blum; Lorenz Hexemer; Priyanka Pandey; Stefan Laurent; Marie P Lopez; Alexander Laterre; Maren Lang; Ugur Sahin; Karim Beguir; Thomas Pierrot",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-02",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出多模态对话智能体ChatNT，统一处理DNA、RNA和蛋白质序列任务，虽涉及核酸-蛋白序列理解但未聚焦TF-DNA结合互作建模，方法上采用语言模型指令微调，对课题有方法借鉴价值。",
+  "abstract": "Language models are thriving, powering conversational agents that assist and empower humans to solve a number of tasks. Recently, these models were extended to support additional modalities including vision, audio and video, demonstrating impressive capabilities across multiple domains including healthcare. Still, conversational agents remain limited in biology as they cannot yet fully comprehend biological sequences. On the other hand, high-performance foundation models for biological sequences have been built through self-supervision over sequencing data, but these need to be fine-tuned for each specific application, preventing transfer and generalization between tasks. In addition, these models are not conversational which limits their utility to users with coding capabilities. In this paper, we propose to bridge the gap between biology foundation models and conversational agents by introducing ChatNT, the first multimodal conversational agent with an advanced understanding of biological sequences. ChatNT achieves new state-of-the-art results on the Nucleotide Transformer benchmark while being able to solve all tasks at once, in English, and to generalize to unseen questions. In addition, we have curated a new set of more biologically relevant instructions tasks from DNA, RNA and proteins, spanning multiple species, tissues and biological processes. ChatNT reaches performance on par with state-of-the-art specialized methods on those tasks. We also present a novel perplexity-based technique to help calibrate the confidence of our model predictions. Our framework for genomics instruction-tuning can be easily extended to more tasks and biological data modalities (e.g. structure, imaging), making it a widely applicable tool for biology. ChatNT is the first model of its kind and constitutes an initial step towards building generally capable agents that understand biology from first principles while being accessible to users with no coding background.",
+  "abstract_zh": "语言模型蓬勃发展，驱动着能够协助并赋能人类解决众多任务的对话代理。近期，这些模型被扩展以支持包括视觉、音频和视频在内的额外模态，在包括医疗保健在内的多个领域展现出令人瞩目的能力。尽管如此，对话代理在生物学领域仍受限，因为它们尚不能完全理解生物序列。另一方面，通过测序数据的自监督学习，已构建出高性能的生物序列基础模型，但这些模型需要针对每个特定应用进行微调，阻碍了任务间的迁移和泛化。此外，这些模型不具备对话性，限制了其对具备编程能力用户的实用性。在本文中，我们提出通过引入ChatNT来弥合生物学基础模型与对话代理之间的鸿沟，这是首个具有先进生物序列理解能力的多模态对话代理。ChatNT在Nucleotide Transformer基准测试上取得了新的最先进成果，同时能够一次性用英语解决所有任务，并泛化到未见问题。此外，我们策划了一套新的、更具生物学相关性的指令任务，涵盖DNA、RNA和蛋白质，跨越多个物种、组织和生物过程。ChatNT在这些任务上的表现与最先进的专门方法相当。我们还提出了一种基于困惑度的新技术，以帮助校准模型预测的置信度。我们的基因组学指令调优框架可轻松扩展到更多任务和生物数据模态（如结构、成像），使其成为生物学中广泛适用的工具。ChatNT是同类模型中的首个，构成了朝着构建从基本原理理解生物学、同时面向无编程背景用户可访问的通用能力代理迈出的初步一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.30.591835",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.30.591835",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.30.591835/index.html"
+}

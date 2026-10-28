@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "42351712",
+    "doi": "10.3390/biomedicines14061284",
+    "title": "Exploring Biomarkers and Regulatory Mechanisms Associated with Lytic Cell Death in Allergic Rhinitis Based on Transcriptome Analysis."
+  },
+  "content": {
+    "abstract": "Background: Allergic rhinitis (AR) is a common inflammatory disorder with an unclear role of lytic cell death (LCD). This study aimed to identify LCD-associated genes associated with AR and investigate their underlying regulatory pathways. Methods: Transcriptomic data from AR patients (GSE19187, GSE206149) were retrieved from public repositories, and LCD-associated genes were collected from the literature. A combination of differential expression analysis, machine learning techniques, validation of expression levels, and ROC curve analysis was employed to screen for biomarkers. These biomarkers were then subjected to comprehensive functional characterization via GSEA, subcellular localization prediction, immune infiltration profiling, construction of molecular regulatory networks, and drug prediction. Finally, clinical relevance was confirmed through expression levels in patient specimens. Results: Two key indicators, ALOX15 and TIMP1, were successfully pinpointed. GSEA revealed significant enrichment of ALOX15 and TIMP1 in several biological processes, specifically chromatin organization, immune system response, and extracellular substance transport. Subcellular distribution studies showed that ALOX15 predominantly localized in the cytosol and plasma membrane, while TIMP1 was mainly detected extracellularly. Immune infiltration studies demonstrated notable modifications in seven immune cell populations, with significant associations with megakaryocyte-erythroid progenitors and conventional dendritic cells. Based on these findings, a regulatory network composed of transcription factors and microRNAs was established, and several potential therapeutic candidates (e.g., quercetin) were identified through prediction. Consistent with predictions, mRNA expression levels of both genes were significantly upregulated in the AR group compared to controls (p < 0.01), confirming reliability. Conclusions: In summary, ALOX15 and TIMP1 were identified as exploratory biomarkers associated with AR, providing preliminary insights into its molecular mechanisms and potential therapeutic implications.",
+    "keywords": [
+      "allergic rhinitis",
+      "biomarkers",
+      "immune infiltration",
+      "lytic cell death",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Rui",
+        "Dong, Zhishan",
+        "Geng, Zhigang",
+        "Lu, Lei",
+        "Ji, Yongjin",
+        "Xue, Jinmei"
+      ],
+      "short_names": [
+        "Dong R",
+        "Dong Z",
+        "Geng Z",
+        "Lu L",
+        "Ji Y",
+        "Xue J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+        "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China.",
+        "Shanxi Provincial Center for Disease Control and Prevention, Taiyuan 030032, China.",
+        "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+        "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China.",
+        "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+        "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China.",
+        "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+        "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China.",
+        "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+        "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Rui",
+        "short_name": "Dong R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+          "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Zhishan",
+        "short_name": "Dong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Center for Disease Control and Prevention, Taiyuan 030032, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Zhigang",
+        "short_name": "Geng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+          "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Lei",
+        "short_name": "Lu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+          "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Yongjin",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+          "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Jinmei",
+        "short_name": "Xue J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Head & Neck Surgery, Second Hospital of Shanxi Medical University, Taiyuan 030001, China.",
+          "Shanxi Key Laboratory of Rapid Diagnosis and Precision Treatment of Airway Allergic Diseases, Taiyuan 030001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2026 Jun 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 06:38",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41595740",
+      "41046658",
+      "40983621",
+      "40948800",
+      "40877572",
+      "40741332",
+      "40727462",
+      "40653455",
+      "40614706",
+      "40358177",
+      "40356946",
+      "40313934",
+      "40288885",
+      "40186079",
+      "40181184",
+      "40093008",
+      "40051617",
+      "39472581",
+      "39351225",
+      "38906725",
+      "38777374",
+      "38470381",
+      "38317810",
+      "38201336",
+      "37884956",
+      "37817225",
+      "37418545",
+      "37081824",
+      "37075799",
+      "36894277",
+      "36644292",
+      "36470944",
+      "36417973",
+      "36299582",
+      "35790770",
+      "35751589",
+      "35654168",
+      "35605401",
+      "35501340",
+      "35401201",
+      "35284430",
+      "35115408",
+      "34829913",
+      "34802444",
+      "34762602",
+      "34716323",
+      "34557778",
+      "34486255",
+      "34379805",
+      "33785842",
+      "33472215",
+      "33273461",
+      "33186519",
+      "33149752",
+      "33141493",
+      "32595644",
+      "32548608",
+      "30686944",
+      "27383986",
+      "27207943",
+      "25605792",
+      "25063298",
+      "24658078",
+      "24132163",
+      "23884466",
+      "23800041",
+      "22498269",
+      "21414208",
+      "9009087"
+    ],
+    "similar": [
+      "42351712",
+      "42059276",
+      "42565562",
+      "40532306",
+      "42389985",
+      "41327642",
+      "41299729",
+      "41511918",
+      "40406126",
+      "40901831",
+      "42502801",
+      "42404897",
+      "40160813",
+      "42536689",
+      "39270557",
+      "41613316",
+      "40761581",
+      "41265166",
+      "41895505",
+      "41221285",
+      "41044520",
+      "42543752",
+      "42471019",
+      "41052072",
+      "41739808",
+      "42024670",
+      "42306043",
+      "40307356",
+      "42123445",
+      "40630963",
+      "41246299",
+      "42558367",
+      "41358199",
+      "41905994",
+      "40196107",
+      "41479901",
+      "41563994",
+      "40340571",
+      "42387880",
+      "40374840",
+      "38863714",
+      "41393260",
+      "41350331",
+      "42302029",
+      "40124361",
+      "41255601",
+      "39512836",
+      "36733482",
+      "41087005",
+      "41591671",
+      "41350988",
+      "42382126",
+      "41716396",
+      "42233387",
+      "40097519",
+      "41049291",
+      "42292668",
+      "41388523",
+      "38951833",
+      "41703488",
+      "40918148",
+      "40596265",
+      "39976098",
+      "40374866",
+      "42363518",
+      "41291841",
+      "41006883",
+      "41229415",
+      "40425742",
+      "40273141",
+      "40093012",
+      "41291978",
+      "42338983",
+      "42475469",
+      "41288916",
+      "42327749",
+      "41460373",
+      "39375405",
+      "39754246",
+      "41136520",
+      "41731716",
+      "41816328",
+      "40158428",
+      "42591655",
+      "40421012",
+      "40475761",
+      "41378121",
+      "39713769",
+      "42106542",
+      "42497137",
+      "42475371",
+      "42292425",
+      "42154423",
+      "42254657",
+      "41200172",
+      "42256410",
+      "40453984",
+      "41080564",
+      "41688931",
+      "42265520"
+    ],
+    "review": [
+      "42351712"
+    ],
+    "pmc": [
+      "13296438"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines14061284",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42351712/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-680",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

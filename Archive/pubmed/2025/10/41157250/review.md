@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. No supplementary files, figures, or tables were provided for review.
+- **Assessment boundary** The review assesses the scientific claims, methodological soundness, and evidence quality as presented in the manuscript text alone. Supplementary materials referenced (Tables S1–S3, Figures S1–S5) were not available for verification.
+- **Shared manuscript claim summary** The authors present a computational pipeline combining structural homology search (FoldSeek), sequence scanning (BLAST), motif discovery (MEME), and clustering (motifStack) to identify palindromic DNA binding motifs for bacterial XRE family transcriptional regulators. They report identification of 5,622 motifs clustered into 223 groups across 7 types, with AlphaFold-based structural predictions and EMSA validation for a subset of 10 protein–motif pairs, of which 9 showed binding.
+- **Visible evidence base** Main text only. Results are described narratively with references to figures and supplementary tables that were not included in the provided material. No raw data, sequence alignments, gel images, or statistical analyses are directly visible.
+- **Missing materials affecting confidence** All figures (Figures 1–5, S1–S5), all supplementary tables (Tables S1–S3), the GitHub repository contents, and the specific EMSA gel images. Without these, the quantitative claims (e.g., 27,732 proteins, 5,622 motifs, 223 clusters) and the experimental validation results cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in bacterial transcriptional regulation by attempting large-scale identification of XRE family binding motifs. The computational pipeline is logically constructed and the inclusion of experimental validation is commendable. However, the evidence as presented in the text alone is insufficient to fully evaluate the robustness of the approach. Key methodological details are underspecified, the criteria for motif clustering and filtering are not fully transparent, and the experimental validation is described only qualitatively. The claim that the method is generalizable beyond XRE regulators is plausible but not demonstrated. The work has potential interest for microbiologists and computational biologists, but the current manuscript does not establish the case with the rigor expected for a high-impact venue.
+- **Who would be interested in the results, and why** Microbiologists studying transcriptional regulation, particularly those working on stress responses and metabolic control in bacteria. Computational biologists developing motif discovery pipelines. Researchers interested in XRE family regulators across bacterial species, given the family's prevalence and under-characterized binding motifs. The methodological framework could also interest those seeking to combine structural prediction with motif discovery for other regulator families.
+- **Major strengths** 1) The study addresses a genuine gap, as XRE family binding motifs are poorly characterized at scale. 2) The pipeline integrates multiple computational tools in a logical sequence, from structural homology to motif discovery to clustering. 3) Inclusion of AlphaFold-based interaction prediction adds a structural dimension often missing in motif studies. 4) Experimental validation via EMSA for a subset of predictions is a significant strength, as many computational studies lack wet-lab confirmation. 5) The authors acknowledge limitations of computational predictions and emphasize the necessity of experimental validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 5,622 motifs were identified and clustered into 223 clusters, and that these clusters can be classified into 7 main types based on base conservation patterns.
+  - **Evidence pointer** Section 3.1, Section 3.2, Figure 2, Figure 3, Table S1 (location not provided)
+  - **Concern** The criteria for motif identification, filtering, and clustering are not fully specified in the text. The authors state that motifs with fewer than 50 matching proteins, sequence coverage below 75%, or non-conserved sequences were discarded, but the definitions of "matching proteins," "sequence coverage," and "non-conserved" are not provided. The clustering method using motifStack is mentioned but the distance metric, threshold for cluster assignment, and the basis for defining the 7 "types" (peak/valley patterns) are not described with sufficient detail for replication. The claim that 223 clusters represent a saturation of motif diversity (implied by the plateau in Figure 2D) cannot be verified without the figure.
+  - **Why it matters** Without transparent and reproducible criteria, the core quantitative results of the study cannot be independently verified or compared with other motif discovery efforts. The classification into 7 types is a central organizing framework of the paper, but its biological or structural basis is not rigorously justified.
+  - **Resolution test** Provide detailed methods for motif filtering thresholds, clustering parameters, and the algorithm used to define peak/valley patterns. Include the clustering tree and the full list of 223 motifs with their cluster assignments in a supplementary table. Demonstrate that the 7-type classification is stable under parameter variations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that "nine out of ten tested interactions showed clear protein–DNA binding" based on EMSA experiments.
+  - **Evidence pointer** Section 3.4, Figure 5, Figure S3, Figure S4, Table S2 (location not provided)
+  - **Concern** The EMSA results are described only narratively. No gel images are provided in the text, and the supplementary figures are not available for review. The criteria for "clear protein–DNA binding" are not defined (e.g., what constitutes a shift, what concentration range was tested, whether competition assays were performed). The single failure (Motif_2) is mentioned but not analyzed in depth. The cross-reactivity experiments are described qualitatively, with no quantification of binding affinities or specificities.
+  - **Why it matters** The experimental validation is the key evidence that the computational predictions have biological relevance. Without access to the actual gel data, the strength of the binding, the specificity of the interactions, and the reproducibility of the results cannot be assessed. The claim that 9/10 predictions were validated is central to the paper's conclusion that the pipeline is reliable.
+  - **Resolution test** Include representative EMSA gels in the main text or supplementary material. Define quantitative criteria for positive binding (e.g., percentage of shifted DNA, concentration dependence). Provide negative controls (e.g., unrelated DNA sequences, mutant proteins) and, where possible, binding affinity measurements (e.g., Kd values).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their method "establishes a reliable framework for identifying XRE family transcriptional regulator recognition motifs" and that it can be extended to other regulator families with autoregulatory and palindromic binding properties.
+  - **Evidence pointer** Section 4, Section 5
+  - **Concern** The generalizability claim is based on a single case study (XRE family) and a limited experimental validation set (10 motifs). The authors do not test the pipeline on a known regulator family with well-characterized motifs to benchmark its performance (e.g., LysR or TetR family with known binding sites). The false positive rate of the computational pipeline is not estimated, and the single EMSA failure (Motif_2) suggests that the pipeline may produce false positives at a non-negligible rate.
+  - **Why it matters** The broader significance of the work depends on whether the pipeline can be reliably applied to other regulator families. Without benchmarking against known motifs or estimating false discovery rates, the claim of a "reliable framework" is overstated.
+  - **Resolution test** Apply the pipeline to a regulator family with experimentally validated motifs (e.g., from RegulonDB or CollecTF) and report sensitivity and specificity. Provide an estimate of the false positive rate based on the EMSA results and discuss how the pipeline could be improved to reduce false positives.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors used AlphaFold to predict protein–DNA interaction structures and selected high-confidence models based on ipTM and pTM scores above 0.7.
+  - **Evidence pointer** Section 2.4, Section 3.3, Figure 4, Figure S2, Table S4 (location not provided)
+  - **Concern** AlphaFold is primarily designed for protein structure prediction, and its reliability for protein–DNA complex prediction is not well established. The authors do not discuss the limitations of using AlphaFold for this purpose, nor do they compare their predicted structures with any experimentally determined structures of XRE family protein–DNA complexes. The criteria for "high confidence" (ipTM and pTM > 0.7) are mentioned but the distribution of these scores across the 223 clusters is not reported.
+  - **Why it matters** The structural predictions are used to select candidates for experimental validation. If the AlphaFold predictions are unreliable for protein–DNA complexes, the selection process may be biased, and the interpretation of the interaction models may be incorrect.
+  - **Resolution test** Validate the AlphaFold predictions against known XRE family protein–DNA complex structures, if available. Report the distribution of ipTM and pTM scores across all predicted complexes. Discuss the known limitations of AlphaFold for nucleic acid complexes and consider using dedicated protein–DNA docking tools as a complement.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of the iterative collection process is unclear. The authors state that they selected "the last protein containing XRE domain from collection" and repeated the process 100 times, but the logic of this selection criterion is not explained.
+  - **Required correction** Clarify the selection criterion and provide a rationale for why this iterative approach was chosen over a single comprehensive search.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The MEME command includes the parameter "-mod anr" but the authors do not explain what this mode entails or why it was selected over other modes (e.g., "zoops" or "oops").
+  - **Required correction** Briefly describe the MEME mode used and justify its selection in the context of the expected motif distribution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.8
+  - **Evidence pointer** Section 2.8
+  - **Issue** The FIMO threshold is set to 5e-5, but the authors do not discuss how this threshold was chosen or how sensitive the results are to this parameter.
+  - **Required correction** Provide a justification for the chosen threshold and, if possible, a sensitivity analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The definitions of "peak" and "valley" are introduced but the biological or structural significance of these patterns is not explained until later in the Discussion.
+  - **Required correction** Briefly state the expected structural interpretation when introducing these terms to aid reader comprehension.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The Discussion mentions that some proteins with HTH domains may not function as transcription factors, but this point is not developed or supported with specific examples from the dataset.
+  - **Required correction** Provide specific examples from the identified clusters where the predicted function is questionable and discuss how this affects the overall interpretation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The protein expression and purification methods are described very briefly, with no details on lysis conditions, column types, or quality checks.
+  - **Required correction** Expand the methods to include sufficient detail for reproducibility, or reference a standard protocol.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of detailed filtering and clustering criteria), R1-M2 (insufficient experimental evidence without gel images and quantitative criteria), R1-M4 (unvalidated use of AlphaFold for protein–DNA complexes). These are the primary technical issues that prevent the current manuscript from establishing its claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The combination of structural homology search with motif discovery for XRE regulators is somewhat novel, but the individual components are established tools. The application to a large-scale dataset is a contribution, though not conceptually groundbreaking.
+  - Scientific importance: Moderate. XRE regulators are prevalent and under-characterized, so a reliable motif identification pipeline would be useful. However, the study does not yet demonstrate biological insights beyond the methodological pipeline, and the functional significance of the identified motifs is largely unexplored.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to microbiologists and computational biologists. The methods are not easily accessible to a broader biological audience without significant additional explanation.
+  - Technical soundness: Currently insufficient. The lack of detailed methods for the computational pipeline and the absence of raw experimental data prevent a full assessment of technical rigor. The use of AlphaFold for protein–DNA complexes requires validation or at least a discussion of its limitations.
+  - Readability for nonspecialists: The manuscript is generally well-written and the logical flow is clear. However, the methods section assumes familiarity with bioinformatics tools and the peak/valley classification is introduced without sufficient context. The abstract is accessible, but the body would benefit from more explanatory text for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the technical details of the computational pipeline and the experimental validation need to be substantially strengthened and made available for review. The authors should provide the supplementary materials, clarify their methods, and address the concerns raised above before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that 5,622 motifs were identified and clustered into 223 clusters is not verifiable without the supplementary data and detailed methods.
+- The claim that 9 out of 10 tested interactions showed binding is not verifiable without the EMSA gel images and quantitative criteria.
+- The claim that the pipeline is "reliable" and can be extended to other regulator families is not supported by benchmarking or false positive rate estimation.
+- The claim that the collection process reached saturation (implied by the plateau in Figure 2D) is not verifiable without the figure.
+- The functional interpretation of the identified motifs (e.g., involvement in amino acid transport for Motif_49) is speculative and not experimentally tested.
+- The general statement that "most transcription factors exhibit more significant interactions with their own specific motifs" is based on qualitative cross-reactivity data that are not shown.

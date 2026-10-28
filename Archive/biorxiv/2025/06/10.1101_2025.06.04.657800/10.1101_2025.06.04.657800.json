@@ -1,0 +1,1122 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.04.657800",
+  "title": "Advancing Ligand Binding Affinity Prediction with Cartesian Tensor-Based Deep Learning",
+  "doi": "10.1101/2025.06.04.657800",
+  "abstract": "0. Abstract We present PBCNet2.0, a cartesian tensor-based Siamese Neural Network for protein-ligand relative binding affinity prediction. Trained on 8.6 million protein-ligand complex structure pairs, PBCNet2.0 achieves zero-shot performance comparable to computationally intensive physics-based simulations. Our prioritization experiments show that PBCNet2.0 speeds up binding affinity optimization by 718% while reducing resource use by 41%. Through extensive retrospective experiments, we demonstrate that PBCNet2.0 intrinsically comprehends protein-ligand interactions, showing high sensitivity to intermolecular interactions and exceptional perception of spatial geometric information. Strikingly, PBCNet2.0 exhibits an emergent capability to predict affinity changes induced by binding residue variations, highlighting its potential for identifying resistance mutation. We prospectively validated these capabilities on two targets ENPP1 and ALDH1B1, where PBCNet2.0 successfully identified affinity shifts arising from subtle molecular interactions and conformational differences, and pinpointed critical binding residues with an 83% hit rate. This combination of computational efficiency, spatial geometric perception of binding site, and generalizable affinity prediction establishes PBCNet2.0 as a transformative tool for developing pharmacological probes for all human proteins.",
+  "authors": [
+    "Jie Yu",
+    "Xia Sheng",
+    "Zhehuan Fan",
+    "Zhaokun Wang",
+    "Duanhua Cao",
+    "Yongxin Hao",
+    "Yingying Zhang",
+    "Panpan Shao",
+    "Huicong Ma",
+    "Tian Cao",
+    "JingXin Rao",
+    "Mingan Chen",
+    "Kaixian Chen",
+    "Xutong Li",
+    "Dan Teng",
+    "Xiaomin Luo",
+    "Mingliang Wang",
+    "Sulin Zhang",
+    "Mingyue Zheng"
+  ],
+  "published_date": "2025-06-07",
+  "updated_date": "2025-06-08T01:20:11Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657800",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657800.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            16
+          ]
+        ],
+        "date-time": "2026-06-16T01:00:36Z",
+        "timestamp": 1781571636657,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            7
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2025-06-07T00:00:00Z",
+            "timestamp": 1749254400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Strategic Priority Research Program of the Chinese Academy of sciences",
+          "award": [
+            "XDB0830200"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "XDB0830200"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "T2225002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T2225002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "82273855"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "82273855"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "82474143"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "82474143"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "National Key Research and Development Program of China",
+          "award": [
+            "2022YFC3400504"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022YFC3400504"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Key Research and Development Program of China",
+          "award": [
+            "2023YFC2305904"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023YFC2305904"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LingangLaboratory",
+          "award": [
+            "LGL-8888"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LGL-8888"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004739",
+          "name": "Youth Innovation Promotion Association CAS",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2023296"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023296"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004739",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Young Elite Scientists Sponsorship Program by CAST",
+          "award": [
+            "2023ONRC001"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023ONRC001"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:label>0.</jats:label>\n                <jats:title>Abstract</jats:title>\n                <jats:p>We present PBCNet2.0, a cartesian tensor-based Siamese Neural Network for protein-ligand relative binding affinity prediction. Trained on 8.6 million protein-ligand complex structure pairs, PBCNet2.0 achieves zero-shot performance comparable to computationally intensive physics-based simulations. Our prioritization experiments show that PBCNet2.0 speeds up binding affinity optimization by 718% while reducing resource use by 41%. Through extensive retrospective experiments, we demonstrate that PBCNet2.0 intrinsically comprehends protein-ligand interactions, showing high sensitivity to intermolecular interactions and exceptional perception of spatial geometric information. Strikingly, PBCNet2.0 exhibits an emergent capability to predict affinity changes induced by binding residue variations, highlighting its potential for identifying resistance mutation. We prospectively validated these capabilities on two targets ENPP1 and ALDH1B1, where PBCNet2.0 successfully identified affinity shifts arising from subtle molecular interactions and conformational differences, and pinpointed critical binding residues with an 83% hit rate. This combination of computational efficiency, spatial geometric perception of binding site, and generalizable affinity prediction establishes PBCNet2.0 as a transformative tool for developing pharmacological probes for all human proteins.</jats:p>",
+      "DOI": "10.1101/2025.06.04.657800",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            8
+          ]
+        ],
+        "date-time": "2025-06-08T01:20:11Z",
+        "timestamp": 1749345611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Advancing Ligand Binding Affinity Prediction with Cartesian Tensor-Based Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jie",
+          "family": "Yu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "School of Information Science and Technology, Shanghai Tech University, Shanghai, 201210, China"
+            },
+            {
+              "name": "Lingang Laboratory, Shanghai 200031, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xia",
+          "family": "Sheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhehuan",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhaokun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Duanhua",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yongxin",
+          "family": "Hao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "Division of Life Science and Medicine, University of Science and Technology of China, Hefei, 230026, Anhui, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yingying",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "Division of Life Science and Medicine, University of Science and Technology of China, Hefei, 230026, Anhui, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Panpan",
+          "family": "Shao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "Lingang Laboratory, Shanghai 200031, China"
+            },
+            {
+              "name": "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, Nanjing 210023, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huicong",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Pharmacy, Zunyi Medical University, Zunyi, 563000, China"
+            },
+            {
+              "name": "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan Tsuihang New District, Guangdong 528400, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tian",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan Tsuihang New District, Guangdong 528400, China"
+            },
+            {
+              "name": "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, School of Pharmaceutical Sciences, Guizhou Medical University, Guiyang 550014, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JingXin",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mingan",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "Lingang Laboratory, Shanghai 200031, China"
+            },
+            {
+              "name": "School of Physical Science and Technology, Shanghai Tech University, Shanghai, 201210, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaixian",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xutong",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dan",
+          "family": "Teng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaomin",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mingliang",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Pharmacy, Zunyi Medical University, Zunyi, 563000, China"
+            },
+            {
+              "name": "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan Tsuihang New District, Guangdong 528400, China"
+            },
+            {
+              "name": "Department of Medicinal Chemistry, Shanghai Institute of Materia Medica, Chinese Academy of Sciences 555 Zu Chong Zhi Road, Shanghai 201203, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sulin",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3323-3092",
+          "authenticated-orcid": false,
+          "given": "Mingyue",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China"
+            },
+            {
+              "name": "School of Information Science and Technology, Shanghai Tech University, Shanghai, 201210, China"
+            },
+            {
+              "name": "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2018.14"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-023-00633-y"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D2MD00441K"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41570-022-00363-z"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "688",
+          "DOI": "10.1038/s42256-024-00849-z",
+          "article-title": "Generic protein–ligand interaction scoring by integrating physical prior knowledge and data augmentation modelling",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Nat. Mach. Intell"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-023-00529-9"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "673",
+          "DOI": "10.1038/s42256-024-00847-1",
+          "article-title": "Physicochemical graph neural network for learning protein–ligand interaction fingerprints from sequence data",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Nat. Mach. Intell"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja512751q"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00564"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02516-y"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D3DD00149K"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c00049"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.13",
+          "first-page": "19523",
+          "article-title": "Beyond neural scaling laws: beating power law scaling via data pruning",
+          "volume": "35",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2311878121"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2303.08774"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm980536j"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.062416606"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.166"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1108",
+          "DOI": "10.1021/acs.jpcb.3c07304",
+          "article-title": "E(n) Equivariant Graph Neural Network for Learning Interactional Properties of Molecules",
+          "volume": "128",
+          "year": "2024",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl999"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.22",
+          "first-page": "37334",
+          "article-title": "TensorNet: Cartesian Tensor Representations for Efficient Learning of Molecular Potentials",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Adv. Neural Inf. Process. Syst"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.257.5073.1050"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1053/j.gastro.2008.11.038"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2008.12.3904"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1012999107"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.4c01634"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2011.01.002"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.06.14.659707"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0306430"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar000033j"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae480"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rose, T. , Monti, N. , Anand, N. & Shen, T. PLAPT: Protein-Ligand Binding Affinity Prediction Using Pretrained Transformers. Preprint at https://www.biorxiv.org/content/10.1101/2024.02.08.575577v3 (2024).",
+          "DOI": "10.1101/2024.02.08.575577"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.2c00991"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D3SC02044D"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "753002",
+          "DOI": "10.3389/fchem.2021.753002",
+          "article-title": "OnionNet-2: A Convolutional Neural Network Model for Predicting Protein-Ligand Binding Affinity Based on Residue-Atom Contacting Shells",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "Front. Chem"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "1427",
+          "DOI": "10.1038/s42256-023-00756-9",
+          "article-title": "Learning characteristics of graph neural networks predicting protein–ligand affinities",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nat. Mach. Intell"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0165-6147(88)90012-0"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0705713"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-62703-342-8_6"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.2c01147"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.200462213"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm100112j"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c2sc00764a"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.5b00975"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci9002393"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc1506"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/JTO.0b013e31827e1f83"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-12-2246"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.lungcan.2020.07.014"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2012.06.018"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheng, J. et al. Accurate proteome-wide missense variant effect prediction with AlphaMissense. Science 381, eadg7492.",
+          "DOI": "10.1126/science.adg7492"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi8002605"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00108a056"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.03.063"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AAC.00301-12"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi952751x"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.9b01423"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-022-02007-7"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMoa2114110"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.177.4047.393"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2206.07682"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.cgd.7b01503"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D4CP01277A"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0499563"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "9104",
+          "DOI": "10.1021/jp0713763",
+          "article-title": "Molecular Insight into the Interaction between IFABP and PA by Using MM−PBSA and Alanine Scanning Methods",
+          "volume": "111",
+          "year": "2007",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sci-ence.adl2528"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci00057a005"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.69",
+          "unstructured": "Landrum, G. RDKit: Open-source cheminformatics from machine learning to chemical registration. https://www.rdkit.org (2019)."
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00900"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr777"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "123",
+          "DOI": "10.1038/s42004-023-00920-7",
+          "article-title": "A mutation-induced drug resistance database (MdrDB)",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Commun. Chem"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026041201342511000_2025.06.04.657800v3.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.04.657800",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T08:34:37Z",
+        "timestamp": 1775982877000
+      },
+      "score": 67.96027,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.04.657800"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            7
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1101/2025.06.04.657800",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

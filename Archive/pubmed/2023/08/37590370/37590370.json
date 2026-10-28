@@ -1,0 +1,589 @@
+{
+  "identity": {
+    "pmid": "37590370",
+    "doi": "10.1126/science.adi3448",
+    "title": "In silico protein interaction screening uncovers DONSON's role in replication initiation."
+  },
+  "content": {
+    "abstract": "CDC45-MCM2-7-GINS (CMG) helicase assembly is the central event in eukaryotic replication initiation. In yeast, a multi-subunit \"pre-loading complex\" (pre-LC) accompanies GINS to chromatin-bound MCM2-7, leading to CMG formation. Here, we report that DONSON, a metazoan protein mutated in microcephalic primordial dwarfism, is required for CMG assembly in vertebrates. Using AlphaFold to screen for protein-protein interactions followed by experimental validation, we show that DONSON scaffolds a vertebrate pre-LC containing GINS, TOPBP1, and DNA pol epsilon. Our evidence suggests that DONSON docks the pre-LC onto MCM2-7, delivering GINS to its binding site in CMG. A patient-derived DONSON mutation compromises CMG assembly and recapitulates microcephalic dwarfism in mice. These results unify our understanding of eukaryotic replication initiation, implicate defective CMG assembly in microcephalic dwarfism, and illustrate how in silico protein-protein interaction screening accelerates mechanistic discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Cell Cycle Proteins/genetics/metabolism",
+      "*DNA Replication",
+      "*DNA-Binding Proteins/metabolism",
+      "*Minichromosome Maintenance Proteins/genetics/metabolism",
+      "Saccharomyces cerevisiae",
+      "Saccharomyces cerevisiae Proteins",
+      "Protein Interaction Mapping/methods",
+      "Computer Simulation",
+      "*Nuclear Proteins/genetics/metabolism",
+      "Dwarfism/genetics",
+      "Microcephaly/genetics",
+      "Xenopus laevis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lim, Yang",
+        "Tamayo-Orrego, Lukas",
+        "Schmid, Ernst",
+        "Tarnauskaite, Zygimante",
+        "Kochenova, Olga V",
+        "Gruar, Rhian",
+        "Muramatsu, Sachiko",
+        "Lynch, Luke",
+        "Schlie, Aitana Verdu",
+        "Carroll, Paula L",
+        "Chistol, Gheorghe",
+        "Reijns, Martin A M",
+        "Kanemaki, Masato T",
+        "Jackson, Andrew P",
+        "Walter, Johannes C"
+      ],
+      "short_names": [
+        "Lim Y",
+        "Tamayo-Orrego L",
+        "Schmid E",
+        "Tarnauskaite Z",
+        "Kochenova OV",
+        "Gruar R",
+        "Muramatsu S",
+        "Lynch L",
+        "Schlie AV",
+        "Carroll PL",
+        "Chistol G",
+        "Reijns MAM",
+        "Kanemaki MT",
+        "Jackson AP",
+        "Walter JC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6880-8418",
+        "ORCID: 0000-0001-7041-4848",
+        "ORCID: 0000-0002-4662-5298",
+        "ORCID: 0000-0003-1815-1651",
+        "ORCID: 0000-0002-1948-2316",
+        "ORCID: 0009-0002-0339-2559",
+        "ORCID: 0000-0002-5048-2752",
+        "ORCID: 0000-0002-7657-1649",
+        "ORCID: 0000-0002-8739-2646",
+        "ORCID: 0000-0002-4186-7570"
+      ],
+      "affiliations": [
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+        "Howard Hughes Medical Institute, Boston, MA 02115, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+        "Department of Chromosome Science, National Institute of Genetics, Research Organization of Information and Systems (ROIS), Mishima, Shizuoka 411-8540, Japan.",
+        "Biochemistry Department, Stanford School of Medicine, Stanford, CA 94305, USA.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK.",
+        "Chemical and Systems Biology Department, Stanford School of Medicine, Stanford, CA 94305, USA.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK.",
+        "Department of Chromosome Science, National Institute of Genetics, Research Organization of Information and Systems (ROIS), Mishima, Shizuoka 411-8540, Japan.",
+        "Graduate Institute for Advanced Studies, SOKENDAI, Mishima, Shizuoka 411-8540, Japan.",
+        "Department of Biological Science, The University of Tokyo, Tokyo 113-0033, Japan.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+        "Howard Hughes Medical Institute, Boston, MA 02115, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lim, Yang",
+        "short_name": "Lim Y",
+        "identifiers": [
+          "0000-0001-6880-8418"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Tamayo-Orrego, Lukas",
+        "short_name": "Tamayo-Orrego L",
+        "identifiers": [
+          "0000-0001-7041-4848"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Schmid, Ernst",
+        "short_name": "Schmid E",
+        "identifiers": [
+          "0000-0002-4662-5298"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Tarnauskaite, Zygimante",
+        "short_name": "Tarnauskaite Z",
+        "identifiers": [
+          "0000-0003-1815-1651"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Kochenova, Olga V",
+        "short_name": "Kochenova OV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+          "Howard Hughes Medical Institute, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Gruar, Rhian",
+        "short_name": "Gruar R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Muramatsu, Sachiko",
+        "short_name": "Muramatsu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chromosome Science, National Institute of Genetics, Research Organization of Information and Systems (ROIS), Mishima, Shizuoka 411-8540, Japan."
+        ]
+      },
+      {
+        "full_name": "Lynch, Luke",
+        "short_name": "Lynch L",
+        "identifiers": [
+          "0000-0002-1948-2316"
+        ],
+        "affiliations": [
+          "Biochemistry Department, Stanford School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Schlie, Aitana Verdu",
+        "short_name": "Schlie AV",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Carroll, Paula L",
+        "short_name": "Carroll PL",
+        "identifiers": [
+          "0009-0002-0339-2559"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Chistol, Gheorghe",
+        "short_name": "Chistol G",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical and Systems Biology Department, Stanford School of Medicine, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Reijns, Martin A M",
+        "short_name": "Reijns MAM",
+        "identifiers": [
+          "0000-0002-5048-2752"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Kanemaki, Masato T",
+        "short_name": "Kanemaki MT",
+        "identifiers": [
+          "0000-0002-7657-1649"
+        ],
+        "affiliations": [
+          "Department of Chromosome Science, National Institute of Genetics, Research Organization of Information and Systems (ROIS), Mishima, Shizuoka 411-8540, Japan.",
+          "Graduate Institute for Advanced Studies, SOKENDAI, Mishima, Shizuoka 411-8540, Japan.",
+          "Department of Biological Science, The University of Tokyo, Tokyo 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Jackson, Andrew P",
+        "short_name": "Jackson AP",
+        "identifiers": [
+          "0000-0002-8739-2646"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Walter, Johannes C",
+        "short_name": "Walter JC",
+        "identifiers": [
+          "0000-0002-4186-7570"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Blavatnik Institute, Boston, MA 02115, USA.",
+          "Howard Hughes Medical Institute, Boston, MA 02115, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2023 Sep 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/17 18:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42428792",
+      "42395432",
+      "42380245",
+      "42335227",
+      "42327795",
+      "42310460",
+      "42258533",
+      "42239157",
+      "42220438",
+      "42134803",
+      "42129151",
+      "42026072",
+      "42012336",
+      "41975004",
+      "41886365",
+      "41865289",
+      "41807760",
+      "41533575",
+      "41501479",
+      "41390769",
+      "41385520",
+      "41345395",
+      "41310087",
+      "41292827",
+      "41165327",
+      "41155330",
+      "41120844",
+      "41031017",
+      "40940420",
+      "40921755",
+      "40912244",
+      "40809129",
+      "40777487",
+      "40672296",
+      "40533495",
+      "40447800",
+      "40380914",
+      "40337642",
+      "40233800",
+      "40195117",
+      "40112213",
+      "40090586",
+      "40052964",
+      "40015271",
+      "39919746",
+      "39824166",
+      "39779677",
+      "39684297",
+      "39547228",
+      "39547210",
+      "39364137",
+      "39282314",
+      "39253472",
+      "39194567",
+      "39179892",
+      "39133843",
+      "39091863",
+      "39054315",
+      "39039288",
+      "39024454",
+      "38866019",
+      "38758693",
+      "38718835",
+      "38645019",
+      "38585807",
+      "38565932",
+      "38559274",
+      "38540419",
+      "38467731",
+      "38413589",
+      "38336851",
+      "38238291",
+      "38203759",
+      "37998342",
+      "37971892",
+      "37820732",
+      "37781960",
+      "37590372"
+    ],
+    "refs": [
+      "37638758",
+      "37590372",
+      "37506699",
+      "37458194",
+      "37059840",
+      "36608662",
+      "36402816",
+      "36370105",
+      "35705812",
+      "35637307",
+      "35438632",
+      "35320688",
+      "35273146",
+      "34700328",
+      "34678589",
+      "34370399",
+      "34265844",
+      "33616038",
+      "33177522",
+      "33060134",
+      "33041047",
+      "32769987",
+      "31784481",
+      "31407851",
+      "30842657",
+      "30595447",
+      "29950726",
+      "29769389",
+      "29489749",
+      "29123096",
+      "29035372",
+      "28877985",
+      "28630177",
+      "28191891",
+      "26832684",
+      "26381604",
+      "26226461",
+      "26071591",
+      "25739503",
+      "24954049",
+      "23704573",
+      "23629628",
+      "21979914",
+      "21700459",
+      "21358633",
+      "20805465",
+      "20620901",
+      "20385778",
+      "20383002",
+      "20231317",
+      "20122406",
+      "20116089",
+      "20080954",
+      "19412171",
+      "19411704",
+      "18677105",
+      "17167417",
+      "17167415",
+      "16782873",
+      "16153703",
+      "15960976",
+      "15854909",
+      "14597706",
+      "12743046",
+      "12438414",
+      "11296256",
+      "10882098",
+      "9755170",
+      "9660936",
+      "8288131",
+      "8033213",
+      "7896832"
+    ],
+    "similar": [
+      "37590370",
+      "37458194",
+      "37638758",
+      "37781960",
+      "37820732",
+      "28510759",
+      "29405332",
+      "24307213",
+      "38159447",
+      "33616038",
+      "25659432",
+      "33322195",
+      "27587400",
+      "26710261",
+      "28270517",
+      "21460226",
+      "37590372",
+      "21868389",
+      "38413589",
+      "23881938",
+      "19805216",
+      "25342810",
+      "26305950",
+      "35705812",
+      "26582917",
+      "25471369",
+      "26338774",
+      "25391904",
+      "21362622",
+      "17557111",
+      "24805245",
+      "22718908",
+      "28096349",
+      "24255107",
+      "26719337",
+      "28069954",
+      "25117490",
+      "22285032",
+      "35934475",
+      "27751725",
+      "25835602",
+      "38866019",
+      "26405041",
+      "22045335",
+      "16483939",
+      "30849395",
+      "32369734",
+      "28082681",
+      "29269875",
+      "37907194",
+      "23499531",
+      "29489749",
+      "35038632",
+      "21799014",
+      "36525878",
+      "25739503",
+      "32341533",
+      "22918583",
+      "22918584",
+      "25313033",
+      "30232092",
+      "12972571",
+      "28818838",
+      "21378962",
+      "40139510",
+      "31407851",
+      "30913274",
+      "28923950",
+      "21282109",
+      "32943574",
+      "26030591",
+      "23364835",
+      "32453425",
+      "19228417",
+      "31348887",
+      "30037903",
+      "28191891",
+      "39039287",
+      "27189187",
+      "12438414",
+      "11864598",
+      "22424671",
+      "28646110",
+      "10783164",
+      "38484038",
+      "18006685",
+      "23549044",
+      "15329670",
+      "25308420",
+      "16798881",
+      "22474384",
+      "19896182",
+      "25921072",
+      "12087101",
+      "35042821",
+      "35696436",
+      "22139015",
+      "16531994",
+      "23803736",
+      "26283767"
+    ],
+    "review": [
+      "37590370",
+      "29405332",
+      "23881938",
+      "36525878",
+      "22918583",
+      "22918584",
+      "26030591",
+      "22424671"
+    ],
+    "pmc": [
+      "10801813"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.adi3448",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/37590370",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37590370.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37590370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37590370",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37590370",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4063",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

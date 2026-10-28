@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38443855",
+  "title": "Identification of biomarkers and pathways for the SARS-CoV-2 infections in obstructive sleep apnea patients based on machine learning and proteomic analysis.",
+  "authors": "Luo, Hong; Yan, Jisong; Gong, Rui; Zhang, Dingyu; Zhou, Xia; Wang, Xianguang",
+  "journal": "BMC pulmonary medicine",
+  "published_date": "2024-03-06",
+  "window": {
+    "start": "2024-03-04",
+    "end": "2024-03-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究基于机器学习和蛋白质组学鉴定OSA与COVID-19共病生物标志物及通路，虽涉及转录因子调控网络，但核心是疾病标志物而非蛋白质-DNA互作机制建模，方法为常规机器学习，无AI/物理模拟的互作建模。",
+  "abstract": "BACKGROUND: The prevalence of obstructive sleep apnea (OSA) was found to be higher in individuals following COVID-19 infection. However, the intricate mechanisms that underscore this concomitance remain partially elucidated. The aim of this study was to delve deeper into the molecular mechanisms that underpin this comorbidity. METHODS: We acquired gene expression profiles for COVID-19 (GSE157103) and OSA (GSE75097) from the Gene Expression Omnibus (GEO) database. Upon identifying shared feature genes between OSA and COVID-19 utilizing LASSO, Random forest and Support vector machines algorithms, we advanced to functional annotation, analysis of protein-protein interaction networks, module construction, and identification of pivotal genes. Furthermore, we established regulatory networks encompassing transcription factor (TF)-gene and TF-miRNA interactions, and searched for promising drug targets. Subsequently, the expression levels of pivotal genes were validated through proteomics data from COVID-19 cases. RESULTS: Fourteen feature genes shared between OSA and COVID-19 were selected for further investigation. Through functional annotation, it was indicated that metabolic pathways play a role in the pathogenesis of both disorders. Subsequently, employing the cytoHubba plugin, ten hub genes were recognized, namely TP53, CCND1, MDM2, RB1, HIF1A, EP300, STAT3, CDK2, HSP90AA1, and PPARG. The finding of proteomics unveiled a substantial augmentation in the expression level of HSP90AA1 in COVID-19 patient samples, especially in severe conditions. CONCLUSIONS: Our investigation illuminate a mutual pathogenic mechanism that underlies both OSA and COVID-19, which may provide novel perspectives for future investigations into the underlying mechanisms.",
+  "abstract_zh": "背景：研究发现，感染COVID-19后个体中阻塞性睡眠呼吸暂停（OSA）的患病率较高。然而，揭示这种共病现象的复杂机制尚未完全阐明。本研究旨在深入探讨支撑这一共病性的分子机制。方法：我们从基因表达综合数据库（GEO）获取了COVID-19（GSE157103）和OSA（GSE75097）的基因表达谱。利用LASSO、随机森林和支持向量机算法识别OSA与COVID-19共有的特征基因后，我们进一步进行了功能注释、蛋白质-蛋白质相互作用网络分析、模块构建及关键基因的鉴定。此外，我们构建了包含转录因子（TF）-基因和TF-miRNA相互作用的调控网络，并寻找潜在的药物靶点。随后，通过COVID-19病例的蛋白质组学数据验证了关键基因的表达水平。结果：筛选出OSA与COVID-19共有的十四个特征基因进行进一步研究。功能注释表明，代谢通路在两种疾病的发病机制中发挥作用。随后，利用cytoHubba插件识别出十个枢纽基因，即TP53、CCND1、MDM2、RB1、HIF1A、EP300、STAT3、CDK2、HSP90AA1和PPARG。蛋白质组学发现揭示，在COVID-19患者样本中，尤其是重症情况下，HSP90AA1的表达水平显著升高。结论：我们的研究揭示了OSA与COVID-19共有的致病机制，这可能为未来探究其潜在机制提供新的视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38443855/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38443855/",
+  "paper_page_path": "papers/pubmed/38443855/index.html"
+}

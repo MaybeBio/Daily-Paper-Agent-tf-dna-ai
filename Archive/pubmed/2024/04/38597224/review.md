@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and data availability statements.
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported findings. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report the solution NMR structure of the autoproteolyzed CRE domain from the C. thermocellum RsgI9 anti-sigma factor, and propose a mechanism for autoproteolysis at a conserved Asn-Pro bond involving a succinimide intermediate, promoted by a conserved hydrogen-bond network that maintains the scissile bond in a strained conformation.
+- **Visible evidence base** NMR structure (PDB 8U9O, BMRB 52129), SEC and SDS-PAGE data, MALDI-TOF mass spectrometry, LC-MS/MS and PRM data, AlphaFold2 models, and 200 ns MD simulations.
+- **Missing materials affecting confidence** No raw NMR restraint lists, no MD simulation input files or trajectory analyses beyond summary statistics, no raw mass spectra or chromatograms, no mutagenesis data performed in this study (only cited from prior work), and no quantitative assessment of the proposed strain energy contribution.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally detailed and mechanistically focused study of the autoproteolysis of the RsgI9 CRE domain. The NMR structure is well-executed and provides a solid foundation for the proposed mechanism. However, the central mechanistic claim, that a conserved hydrogen-bond network imparts strain to promote succinimide-mediated cleavage, is supported primarily by computational modeling and indirect evidence. The absence of direct experimental validation, such as mutagenesis of the proposed key residues in RsgI9 or kinetic measurements, limits the strength of the conclusion. The manuscript is clearly written and will interest researchers studying bacterial signal transduction and autoproteolytic domains.
+- **Who would be interested in the results, and why** Researchers studying extracytoplasmic function (ECF) sigma factor regulation, bacterial cellulosome biology, and autoproteolytic domains in membrane-embedded signaling proteins. The structural and mechanistic insights may also appeal to those interested in the chemistry of Asn-Pro bond cleavage and the role of conformational strain in protein self-processing.
+- **Major strengths** The NMR structure is of high quality with good convergence statistics. The observation of autoproteolysis in RsgI9 and the identification of the cleavage site are clearly demonstrated. The proposal of a succinimide intermediate is mechanistically plausible and well contextualized with prior work on other CRE domains and related systems. The use of multiple complementary methods (NMR, MD, MS) strengthens the overall argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The authors claim that a conserved hydrogen-bond network holds the Asn-Pro peptide bond in a strained conformation, thereby promoting autoproteolysis via a succinimide intermediate.
+  - **Evidence pointer** Results and Discussion, "A conserved hydrogen-bond network may impart strain onto the Asn-Pro peptide bond to promote its cleavage"; Figures 5 and 6.
+  - **Concern** The central mechanistic claim relies on an AlphaFold2 model of the uncleaved protein and a single 200 ns MD simulation. The strain is inferred from non-ideal dihedral angles and geometric outliers, but no experimental validation is provided. The authors cite prior mutagenesis on CtheRsgI2 and BsubRsgI, but these experiments were not performed in this study and do not directly test the proposed hydrogen-bond network in RsgI9.
+  - **Why it matters** The proposed mechanism is the main novel contribution of the manuscript. Without direct experimental support, such as mutagenesis of the proposed key residues (e.g., D186, N188, S190, N208, R313) in RsgI9 or measurement of autoproteolysis kinetics, the strain-based mechanism remains speculative.
+  - **Resolution test** Provide mutagenesis data on the proposed hydrogen-bond network residues in RsgI9, demonstrating that their alteration impairs or abolishes autoproteolysis. Alternatively, provide quantitative free-energy calculations showing that the proposed strain significantly lowers the activation barrier.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence for succinimide intermediate
+  - **Claim pointer** The authors propose that autoproteolysis occurs via a succinimide intermediate, and that the bimodal LC-MS/MS peak and PRM data are consistent with the presence of Asn and isoAsn products.
+  - **Evidence pointer** Results and Discussion, "Spontaneous cleavage may occur via a succinimide intermediate"; Figure 7.
+  - **Concern** The mass spectrometry data are presented as consistent with a succinimide intermediate, but the evidence is indirect. The bimodal peak and similar MS/MS spectra of the two lobes are suggestive but do not definitively prove the presence of an isoAsn product. No synthetic standards or diagnostic fragment ions are shown to confirm the isoAsn assignment.
+  - **Why it matters** The succinimide mechanism is a specific and testable claim. If the isoAsn product is not rigorously confirmed, alternative mechanisms, such as direct hydrolysis, cannot be excluded.
+  - **Resolution test** Provide MS/MS data with diagnostic fragment ions that distinguish Asn from isoAsn, or compare with synthetic isoAsn-containing peptide standards. Alternatively, perform isotopic labeling or other experiments that directly demonstrate succinimide formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors state that the results are consistent with RsgI9 regulating cellulosome composition via a RIP signal transduction mechanism, and that polysaccharide binding would cause the pre-cleaved CRE domain to separate.
+  - **Evidence pointer** Conclusion section.
+  - **Concern** The functional model is speculative. No experiments are presented that link autoproteolysis of RsgI9 to downstream signaling, nor is there evidence that polysaccharide binding induces dissociation of the CRE fragments. The authors acknowledge this in the conclusion, but the statement is presented as a plausible model rather than a tested hypothesis.
+  - **Why it matters** The broader significance of the work depends on the functional relevance of autoproteolysis. Without experimental support for the signaling model, the physiological importance of the proposed mechanism remains unclear.
+  - **Resolution test** Perform experiments to test whether polysaccharide binding affects CRE domain stability or dissociation, or demonstrate that autoproteolysis is required for RsgI9 function in vivo.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** MD simulation details
+  - **Evidence pointer** Materials and Methods, "AlphaFold2 Modeling and MD Simulations"
+  - **Issue** The description of the MD simulation is brief. No information is provided on the number of replicates, the equilibration protocol details, or the criteria for determining convergence beyond RMSF.
+  - **Required correction** Provide additional details on simulation replicates, equilibration, and convergence criteria, or state that only a single simulation was performed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 7
+  - **Evidence pointer** Results and Discussion, "Spontaneous cleavage may occur via a succinimide intermediate"
+  - **Issue** The bimodal LC-MS/MS peak is described, but the figure is not shown in the text provided. The reader cannot assess the quality of the data.
+  - **Required correction** Ensure the figure clearly shows the bimodal peak and the MS/MS spectra, with annotations for the key fragment ions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, paragraph 2; Results and Discussion, "A conserved hydrogen-bond network may impart strain onto the Asn-Pro peptide bond to promote its cleavage"
+  - **Issue** The manuscript cites prior work on CRE domains from B. subtilis and C. thermocellum, but the comparison is brief. A more detailed discussion of how the RsgI9 structure and mechanism compare to these homologs would strengthen the paper.
+  - **Required correction** Expand the comparison with prior CRE structures and mechanistic studies, highlighting similarities and differences.
+- **Technical failings that need to be addressed before the case is established** The lack of direct experimental validation of the proposed hydrogen-bond network and succinimide mechanism is the primary technical shortcoming. The mass spectrometry evidence for isoAsn is suggestive but not definitive. The functional model is untested.
+- **Assessment against Nature-style criteria** Originality: The study provides a new structure and a plausible mechanistic hypothesis, but the mechanism is not unprecedented, as similar proposals exist for other autoproteolytic domains. Scientific importance: The work is relevant to bacterial signaling and autoproteolysis, but the significance is limited by the lack of functional validation. Interdisciplinary readership: The study will appeal primarily to structural biologists and microbiologists, with limited broader appeal. Technical soundness: The NMR structure is sound, but the computational and mass spectrometry evidence for the mechanism is not fully conclusive. Readability for nonspecialists: The manuscript is clearly written, but the mechanistic discussion assumes familiarity with autoproteolysis and NMR methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural work is solid, but the central mechanistic claim requires additional experimental support, particularly mutagenesis of the proposed key residues and more definitive mass spectrometry evidence for the succinimide intermediate.
+
+## Risk / unsupported claims
+- The claim that the hydrogen-bond network imparts strain to promote cleavage is not directly supported by experimental data.
+- The claim that autoproteolysis occurs via a succinimide intermediate is supported only by indirect mass spectrometry evidence.
+- The functional model linking autoproteolysis to RIP signaling and polysaccharide binding is speculative and untested.
+- The statement that "there are over 1000+ CRE homologs" is not supported by a specific analysis or reference in the provided text.

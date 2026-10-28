@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "34484219",
+    "doi": "10.3389/fimmu.2021.716240",
+    "title": "Coupled Antigen and BLIMP1 Asymmetric Division With a Large Segregation Between Daughter Cells Recapitulates the Temporal Transition From Memory B Cells to Plasma Cells and a DZ-to-LZ Ratio in the Germinal Center."
+  },
+  "content": {
+    "abstract": "Memory B cells and antibody-secreting plasma cells are generated within germinal centers during affinity maturation in which B-cell proliferation, selection, differentiation, and self-renewal play important roles. The mechanisms behind memory B cell and plasma cell differentiation in germinal centers are not well understood. However, it has been suggested that cell fate is (partially) determined by asymmetric cell division, which involves the unequal distribution of cellular components to both daughter cells. To investigate what level and/or probability of asymmetric segregation of several fate determinant molecules, such as the antigen and transcription factors (BCL6, IRF4, and BLIMP1) recapitulates the temporal switch and DZ-to-LZ ratio in the germinal center, we implemented a multiscale model that combines a core gene regulatory network for plasma cell differentiation with a model describing the cellular interactions and dynamics in the germinal center. Our simulations show that BLIMP1 driven plasma cell differentiation together with coupled asymmetric division of antigen and BLIMP1 with a large segregation between the daughter cells results in a germinal center DZ-to-LZ ratio and a temporal switch from memory B cells to plasma cells that have been observed in experiments.",
+    "keywords": [
+      "agent-based modeling",
+      "asymmetric division",
+      "germinal center",
+      "multiscale modeling",
+      "plasma cell differentiation"
+    ],
+    "mesh_terms": [
+      "Antigens/*immunology",
+      "Asymmetric Cell Division/*genetics",
+      "Biomarkers",
+      "Cell Differentiation",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "Germinal Center/*immunology/*metabolism",
+      "Humans",
+      "Lymphocyte Activation",
+      "Memory B Cells/*immunology/metabolism",
+      "Models, Biological",
+      "Plasma Cells/*immunology/metabolism",
+      "Positive Regulatory Domain I-Binding Factor 1/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Merino Tejero, Elena",
+        "Lashgari, Danial",
+        "Garcia-Valiente, Rodrigo",
+        "He, Jiaojiao",
+        "Robert, Philippe A",
+        "Meyer-Hermann, Michael",
+        "Guikema, Jeroen E J",
+        "Hoefsloot, Huub",
+        "van Kampen, Antoine H C"
+      ],
+      "short_names": [
+        "Merino Tejero E",
+        "Lashgari D",
+        "Garcia-Valiente R",
+        "He J",
+        "Robert PA",
+        "Meyer-Hermann M",
+        "Guikema JEJ",
+        "Hoefsloot H",
+        "van Kampen AHC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands.",
+        "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands.",
+        "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands.",
+        "Bioinformatics and Systems Biology, Vrije Universiteit Amsterdam, Amsterdam, Netherlands.",
+        "Bioinformatics and Systems Biology, Institute for Life Sciences, University of Amsterdam, Amsterdam, Netherlands.",
+        "Department for Systems Immunology and Braunschweig Integrated Centre of Systems Biology, Helmholtz Centre for Infection Research, Braunschweig, Germany.",
+        "Department for Systems Immunology and Braunschweig Integrated Centre of Systems Biology, Helmholtz Centre for Infection Research, Braunschweig, Germany.",
+        "Institute for Biochemistry, Biotechnology and Bioinformatics, Technische Universitat Braunschweig, Braunschweig, Germany.",
+        "Department of Pathology, Lymphoma and Myeloma Center Amsterdam (LYMMCARE), Amsterdam University Medical Centers, Amsterdam, Netherlands.",
+        "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, Netherlands.",
+        "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands.",
+        "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Merino Tejero, Elena",
+        "short_name": "Merino Tejero E",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lashgari, Danial",
+        "short_name": "Lashgari D",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "García-Valiente, Rodrigo",
+        "short_name": "García-Valiente R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "He, Jiaojiao",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology, Vrije Universiteit Amsterdam, Amsterdam, Netherlands.",
+          "Bioinformatics and Systems Biology, Institute for Life Sciences, University of Amsterdam, Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Robert, Philippe A",
+        "short_name": "Robert PA",
+        "identifiers": [],
+        "affiliations": [
+          "Department for Systems Immunology and Braunschweig Integrated Centre of Systems Biology, Helmholtz Centre for Infection Research, Braunschweig, Germany."
+        ]
+      },
+      {
+        "full_name": "Meyer-Hermann, Michael",
+        "short_name": "Meyer-Hermann M",
+        "identifiers": [],
+        "affiliations": [
+          "Department for Systems Immunology and Braunschweig Integrated Centre of Systems Biology, Helmholtz Centre for Infection Research, Braunschweig, Germany.",
+          "Institute for Biochemistry, Biotechnology and Bioinformatics, Technische Universität Braunschweig, Braunschweig, Germany."
+        ]
+      },
+      {
+        "full_name": "Guikema, Jeroen E J",
+        "short_name": "Guikema JEJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Lymphoma and Myeloma Center Amsterdam (LYMMCARE), Amsterdam University Medical Centers, Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hoefsloot, Huub",
+        "short_name": "Hoefsloot H",
+        "identifiers": [],
+        "affiliations": [
+          "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Kampen, Antoine H C",
+        "short_name": "van Kampen AHC",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Laboratory, Epidemiology and Data Science, Amsterdam Public Health Research Institute, Amsterdam Institute for Infection and Immunity, Amsterdam, Netherlands.",
+          "Biosystems Data Analysis, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/07 06:00",
+    "fetched_at": "2026-09-27 23:22:47"
+  },
+  "links": {
+    "cites": [
+      "42199405",
+      "40666529",
+      "38881901",
+      "36927990",
+      "36073009",
+      "35603162"
+    ],
+    "refs": [
+      "33613551",
+      "33024284",
+      "30687317",
+      "26795247",
+      "26628372",
+      "25656706",
+      "22840406",
+      "22308355",
+      "22282815",
+      "22282794",
+      "22174128",
+      "21613984",
+      "21074050",
+      "19952104"
+    ],
+    "similar": [
+      "34484219",
+      "33613551",
+      "38969872",
+      "30687317",
+      "23684984",
+      "17651861",
+      "29262350",
+      "34925321",
+      "11067898",
+      "29669250",
+      "38881901",
+      "26276871",
+      "29599140",
+      "11397129",
+      "24591370",
+      "16606676",
+      "29562201",
+      "32179158",
+      "16767092",
+      "20505142",
+      "36081178",
+      "33868314",
+      "31722202",
+      "28586108",
+      "17982071",
+      "22174128",
+      "38838672",
+      "35095929",
+      "33463110",
+      "31001283",
+      "20814029",
+      "26118840",
+      "25288397",
+      "9498752",
+      "31873727",
+      "35019947",
+      "35154079",
+      "34324199",
+      "18354204",
+      "33579751",
+      "33556247",
+      "30874351",
+      "21739669",
+      "22840406",
+      "31053401",
+      "26185770",
+      "24184055",
+      "32857950",
+      "27217539",
+      "33711260",
+      "22390182",
+      "19965640",
+      "34758310",
+      "34305944",
+      "22686515",
+      "21074050",
+      "34521812",
+      "33975878",
+      "32323268",
+      "37200190",
+      "28319733",
+      "33419925",
+      "34161770",
+      "28589353",
+      "30894016",
+      "23405902",
+      "26799208",
+      "20142430",
+      "18180800",
+      "28589345",
+      "36443297",
+      "29531165",
+      "34536284",
+      "38169968",
+      "38501122",
+      "12524387",
+      "31002794",
+      "31300510",
+      "26620759",
+      "39192583",
+      "28589364",
+      "32323270",
+      "15905530",
+      "28833081",
+      "28636954",
+      "14995913",
+      "18552212",
+      "25180063",
+      "21388429",
+      "30233601",
+      "28677680",
+      "17082608",
+      "27481356",
+      "28319729",
+      "27158841",
+      "10824424",
+      "18809711",
+      "33380497",
+      "26437243",
+      "15710653",
+      "25725108",
+      "10878352",
+      "9013949",
+      "32023467",
+      "37232558",
+      "35178054",
+      "34330755",
+      "24240161",
+      "21924923",
+      "30874355",
+      "23826323",
+      "22450810",
+      "38547073",
+      "30498131",
+      "32843533",
+      "38698087",
+      "38562878",
+      "37965309",
+      "34759017",
+      "38228150",
+      "36618345",
+      "38521715",
+      "35801467",
+      "35171242",
+      "35508130",
+      "37106177",
+      "34518884",
+      "27286799",
+      "22308355",
+      "35513371",
+      "36685499",
+      "38986440",
+      "39017892",
+      "38495874",
+      "39009631",
+      "39104522",
+      "36747852",
+      "36189249",
+      "35388946",
+      "35975204",
+      "37193067",
+      "33654969",
+      "34694625",
+      "38181096",
+      "37609190",
+      "35589987",
+      "35263564",
+      "30090624",
+      "37106041",
+      "36693923",
+      "38226977"
+    ],
+    "review": [
+      "34484219",
+      "36081178",
+      "33868314",
+      "35095929",
+      "20814029",
+      "26118840",
+      "35154079",
+      "34324199",
+      "33556247",
+      "30874351",
+      "21739669",
+      "22390182",
+      "34305944",
+      "32323268",
+      "28319733",
+      "23405902",
+      "26799208",
+      "18180800",
+      "34536284",
+      "38169968",
+      "12524387",
+      "31002794",
+      "28589364",
+      "32323270",
+      "14995913",
+      "21388429",
+      "30233601",
+      "28319729",
+      "21924923",
+      "30874355",
+      "27286799",
+      "38495874",
+      "34694625"
+    ],
+    "pmc": [
+      "8416073"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34484219/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34484219",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2021.716240",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

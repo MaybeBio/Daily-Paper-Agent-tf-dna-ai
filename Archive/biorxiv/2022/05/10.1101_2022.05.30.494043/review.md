@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report a computational integration of 9,060 TF ChIP-seq datasets covering 79.9% of the mouse mappable genome, partitioning these regions into CRM candidates (CRMCs) and non-CRMCs. They report 912,197 putative CRMs and 38,554,729 TFBS islands, covering 55.5% and 24.4% of the mappable genome, respectively. They claim evolutionary constraint supports cis-regulatory function for CRMCs, neutrality for non-CRMCs, and estimate that 63.8% and 27.4% of the mouse genome may code for CRMs and TFBSs, respectively. They state validation with experimental data supports authenticity of most CRMCs.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods description, validation details, evolutionary analysis procedures, and all quantitative supporting data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable genome-scale resource, but the claims as stated are not adequately supported by the evidence provided in the abstract alone. The central estimates, particularly the high fractions of the genome assigned regulatory function, require rigorous methodological justification and independent validation that are not visible here. The abstract lacks sufficient detail to assess the pipeline's accuracy, the validation's robustness, or the evolutionary analysis's validity. The work is of interest to the genomics and gene regulation communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, genome annotation, and comparative genomics would be interested. The resource could aid in interpreting noncoding variants in mouse models of human disease and in understanding regulatory element conservation. The large-scale integration of ChIP-seq data is also relevant to method developers in regulatory genomics.
+- **Major strengths** The scale of data integration is substantial, with 9,060 datasets, which is a notable effort. The distinction between CRMCs and non-CRMCs based on evolutionary constraint is a reasonable approach. The claim of providing a comprehensive map has potential utility as a community resource.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that integrating 9,060 TF ChIP-seq datasets using an efficient pipeline partitions binding peak-covered regions into CRMCs and non-CRMCs, yielding 912,197 CRMs and 38,554,729 TFBS islands.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no description of the pipeline, its parameters, or how ChIP-seq peaks were processed, merged, or filtered. The criteria for defining a CRM and a TFBS island are not stated. Without this information, the biological meaning of the reported numbers cannot be evaluated.
+  - **Why it matters** The core resource claims depend entirely on the computational definitions. If the pipeline is permissive, the high genomic fractions may be artifacts of peak calling noise or data redundancy. The reader cannot assess whether the reported CRMs and TFBSs are biologically meaningful.
+  - **Resolution test** Provide a detailed methods section describing the pipeline, including peak calling thresholds, data preprocessing, and the operational definitions of CRM and TFBS island. Show that the results are robust to parameter variations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CRMCs are under strong evolutionary constraints, indicating they are likely cis-regulatory, while non-CRMCs are largely selectively neutral.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this conclusion but provides no details on the evolutionary analysis, such as the conservation metric used, the comparison baseline, or the statistical significance of the differences. The claim that non-CRMCs are "largely selectively neutral" is particularly strong and requires a formal test of selection.
+  - **Why it matters** The evolutionary argument is the primary evidence that the CRMCs are functional. Without a rigorous analysis, the distinction between CRMC and non-CRMC may reflect technical artifacts rather than biological function.
+  - **Resolution test** Describe the evolutionary analysis in detail, including the conservation score, the null model, and the statistical tests. Provide effect sizes and confidence intervals for the difference in constraint between CRMCs and non-CRMCs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors estimate that 63.8% and 27.4% of the mouse genome might code for CRMs and TFBSs, respectively.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** These estimates are extrapolations from the observed CRMC coverage to the whole genome, but the abstract does not explain the extrapolation method. The claim that nearly two-thirds of the genome codes for CRMs is extraordinary and contradicts many prior estimates of functional element fractions in mammalian genomes. The basis for this extrapolation is not visible.
+  - **Why it matters** If these estimates are incorrect, they could mislead the field about the extent of regulatory DNA in the mouse genome. The claim requires strong justification and should be compared to existing estimates.
+  - **Resolution test** Provide the extrapolation model, its assumptions, and uncertainty estimates. Compare the derived fractions to published estimates from ENCODE and other projects, and discuss discrepancies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that validation using experimental data suggests that at least most of the CRMCs are authentic.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what experimental data were used, how validation was performed, or what metric defined "authentic." The phrase "at least most" is vague and does not convey a quantitative validation rate.
+  - **Why it matters** Validation is critical to support the resource's utility. Without a clear validation strategy and results, the claim of authenticity is unsubstantiated.
+  - **Resolution test** Describe the validation datasets, the overlap analysis, and the statistical significance. Report the validation rate and its confidence interval.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "CRMC" and "TFBS islands" without defining them clearly for a general reader. The distinction between "CRM candidate" and "putative CRM" is confusing.
+  - **Required correction** Define all acronyms at first use and clarify the relationship between CRMC, CRM, and TFBS island.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how this map improves upon existing resources, such as ENCODE or FANTOM, or what novel biological insights it enables.
+  - **Required correction** Add a sentence comparing this resource to existing annotations and highlighting a specific novel application.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Coverage claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the data cover 79.9% of the mouse mappable genome, but it is unclear if this is the fraction of the genome with at least one peak or the fraction of the genome covered by peaks. These are different measures.
+  - **Required correction** Clarify the definition of "cover" in the context of the 79.9% figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The approach of integrating a large number of ChIP-seq datasets is not entirely novel, but the scale and the specific focus on mouse may offer a new resource. Scientific importance: Potentially high if the resource is accurate, but the extraordinary genomic fractions claimed require strong evidence. Interdisciplinary readership: The work would appeal to genomics, computational biology, and gene regulation researchers, but the abstract is too technical for a broader audience. Technical soundness: Not assessable from the abstract; the methods are not described. Readability for nonspecialists: The abstract is dense and uses undefined jargon, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a potentially useful resource, but the technical details and validation are insufficient to support the major claims. A full manuscript with detailed methods and validation would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that 63.8% of the mouse genome might code for CRMs is unsupported without the extrapolation method and comparison to existing estimates.
+- The claim that non-CRMCs are "largely selectively neutral" is unsupported without a formal selection test.
+- The claim that "at least most" CRMCs are authentic is unsupported without specific validation data and metrics.
+- The overall coverage figures (79.9%, 55.5%, 24.4%) are not interpretable without definitions of the underlying genomic regions and peak processing.

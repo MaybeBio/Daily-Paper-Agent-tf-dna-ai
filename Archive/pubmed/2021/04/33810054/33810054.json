@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "33810054",
+    "doi": "10.3390/biom11030472",
+    "title": "Differential MicroRNA Expression Involved in Endometrial Receptivity of Goats."
+  },
+  "content": {
+    "abstract": "Endometrial receptivity represents one of the leading factors affecting the successful implantation of embryos during early pregnancy. However, the mechanism of microRNAs (miRNAs) to establish goat endometrial receptivity remains unclear. This study was intended to identify potential miRNAs and regulatory mechanisms associated with establishing endometrial receptivity through integrating bioinformatics analysis and experimental verification. MiRNA expression profiles were obtained by high-throughput sequencing, resulting in the detection of 33 differentially expressed miRNAs (DEMs), followed by their validation through quantitative RT-PCR. Furthermore, 10 potential transcription factors (TFs) and 1316 target genes of these DEMs were obtained, and the TF-miRNA and miRNA-mRNA interaction networks were constructed. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses indicated that these miRNAs were significantly linked to establishing endometrial receptivity. Moreover, the fluorescence in situ hybridization (FISH) analysis, dual-luciferase report assay, and immunohistochemistry (IHC) analysis corroborated that chi-miR-483 could directly bind to deltex E3 ubiquitin ligase 3L (DTX3L) to reduce its expression level. In conclusion, our findings contribute to a better understanding of molecular mechanisms regulating the endometrial receptivity of goats, and they provide a reference for improving embryo implantation efficiency.",
+    "keywords": [
+      "DTX3L",
+      "chi-miR-483",
+      "endometrium receptivity",
+      "goat",
+      "high-throughput sequencing",
+      "implantation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Embryo Implantation/physiology",
+      "Endometrium/*metabolism",
+      "Female",
+      "Gene Ontology",
+      "Goats",
+      "Immunohistochemistry",
+      "In Situ Hybridization, Fluorescence",
+      "MicroRNAs/*metabolism",
+      "Reverse Transcriptase Polymerase Chain Reaction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zang, Xupeng",
+        "Zhou, Chen",
+        "Wang, Wenjing",
+        "Gan, Jianyu",
+        "Li, Yaokun",
+        "Liu, Dewu",
+        "Liu, Guangbin",
+        "Hong, Linjun"
+      ],
+      "short_names": [
+        "Zang X",
+        "Zhou C",
+        "Wang W",
+        "Gan J",
+        "Li Y",
+        "Liu D",
+        "Liu G",
+        "Hong L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9211-0244",
+        "ORCID: 0000-0002-6554-7918"
+      ],
+      "affiliations": [
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+        "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zang, Xupeng",
+        "short_name": "Zang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chen",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenjing",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Jianyu",
+        "short_name": "Gan J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaokun",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-9211-0244"
+        ],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dewu",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guangbin",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Linjun",
+        "short_name": "Hong L",
+        "identifiers": [
+          "0000-0002-6554-7918"
+        ],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China.",
+          "Lingnan Guangdong Laboratory of Modern Agriculture, Guangzhou 510642, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Mar 22",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/04 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "40507871",
+      "38510567",
+      "38365979",
+      "37234872",
+      "36694228",
+      "36675045",
+      "36644826",
+      "36061213",
+      "35897733"
+    ],
+    "refs": [
+      "32378708",
+      "32228439",
+      "31701148",
+      "31294692",
+      "31022601",
+      "30915751",
+      "30422322",
+      "30395331",
+      "30173777",
+      "30132877",
+      "30104198",
+      "29788742",
+      "29739703",
+      "29606596",
+      "29226599",
+      "29115668",
+      "29112718",
+      "28914881",
+      "28787399",
+      "28627634",
+      "27923814",
+      "26794315",
+      "26707514",
+      "26267216",
+      "25827647",
+      "25547110",
+      "25516281",
+      "25415383",
+      "25267620",
+      "25253731",
+      "24995316",
+      "24789908",
+      "24429218",
+      "22902743",
+      "22720726",
+      "22464086",
+      "22456605",
+      "21911355",
+      "21849299",
+      "21808241",
+      "21715386",
+      "21508348",
+      "20164440",
+      "19567219",
+      "19261174",
+      "19167326",
+      "19162416",
+      "19131956",
+      "18955434",
+      "18077471",
+      "17936265",
+      "17766684",
+      "17711857",
+      "16845047",
+      "16380711",
+      "16314309",
+      "16207835",
+      "15685193",
+      "15003116",
+      "14744438",
+      "14709173",
+      "14597658",
+      "12482956",
+      "12390898",
+      "12198168",
+      "12007417",
+      "11679672",
+      "11679670",
+      "10797946",
+      "10711832",
+      "10329356",
+      "7623329",
+      "7623321",
+      "2218183",
+      "1522892",
+      "1282371"
+    ],
+    "similar": [
+      "33810054",
+      "34571957",
+      "36675045",
+      "27356479",
+      "25886011",
+      "25253731",
+      "35897733",
+      "29315421",
+      "25862677",
+      "34051087",
+      "30123082",
+      "28229988",
+      "28506024",
+      "36124965",
+      "35682889",
+      "30317576",
+      "34070207",
+      "37894829",
+      "36644826",
+      "36914869",
+      "34460092",
+      "32708395",
+      "31665361",
+      "24549215",
+      "31786540",
+      "24855107",
+      "38171198",
+      "30599813",
+      "22378788",
+      "30231774",
+      "30370529",
+      "38270749",
+      "30826341",
+      "28914881",
+      "21849299",
+      "38297297",
+      "28855728",
+      "29846695",
+      "26395145",
+      "33547667",
+      "39291681",
+      "31796963",
+      "24591147",
+      "32842822",
+      "29617817",
+      "23001774",
+      "28441042",
+      "32906580",
+      "31437466",
+      "22393164",
+      "32861000",
+      "31782264",
+      "32593507",
+      "32716006",
+      "29162091",
+      "25609710",
+      "29365037",
+      "26307093",
+      "35603216",
+      "29614240",
+      "32708974",
+      "19933690",
+      "24882617",
+      "27481218",
+      "30993706",
+      "32511270",
+      "38203247",
+      "30536902",
+      "30624659",
+      "25728905",
+      "31402929",
+      "12604624",
+      "31825151",
+      "28947781",
+      "37963204",
+      "38365979",
+      "35944411",
+      "25827647",
+      "30503955",
+      "27619769",
+      "31102758",
+      "30295736",
+      "12679483",
+      "29115668",
+      "29983139",
+      "29128636",
+      "33796129",
+      "15454638",
+      "31405455",
+      "30428300",
+      "24528955",
+      "34790713",
+      "34042034",
+      "24604233",
+      "30285121",
+      "22170720",
+      "26707514",
+      "30968418",
+      "26373443",
+      "25926441",
+      "16885540",
+      "29191705",
+      "20607663",
+      "26735129",
+      "30452118",
+      "28678802",
+      "31100472",
+      "31729993",
+      "32161290",
+      "29330027",
+      "34115954",
+      "36469260",
+      "24925854",
+      "36099329",
+      "36723761",
+      "36731281",
+      "36934584",
+      "36769111",
+      "36282011",
+      "37814208",
+      "35895215",
+      "32343942",
+      "34947922",
+      "38870492",
+      "35308329",
+      "35739866",
+      "35082837",
+      "34268359",
+      "35214598"
+    ],
+    "review": [
+      "33810054",
+      "35682889",
+      "28855728",
+      "39291681",
+      "24591147",
+      "29162091",
+      "29365037",
+      "35603216",
+      "24882617",
+      "30624659",
+      "25827647",
+      "26707514",
+      "20607663"
+    ],
+    "pmc": [
+      "8004627"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11030472",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33810054/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33810054",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33810054",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "34792144",
+    "doi": "10.1093/nar/gkab1095",
+    "title": "G-quadruplex RNA motifs influence gene expression in the malaria parasite Plasmodium falciparum."
+  },
+  "content": {
+    "abstract": "G-quadruplexes are non-helical secondary structures that can fold in vivo in both DNA and RNA. In human cells, they can influence replication, transcription and telomere maintenance in DNA, or translation, transcript processing and stability of RNA. We have previously showed that G-quadruplexes are detectable in the DNA of the malaria parasite Plasmodium falciparum, despite a very highly A/T-biased genome with unusually few guanine-rich sequences. Here, we show that RNA G-quadruplexes can also form in P. falciparum RNA, using rG4-seq for transcriptome-wide structure-specific RNA probing. Many of the motifs, detected here via the rG4seeker pipeline, have non-canonical forms and would not be predicted by standard in silico algorithms. However, in vitro biophysical assays verified formation of non-canonical motifs. The G-quadruplexes in the P. falciparum transcriptome are frequently clustered in certain genes and associated with regions encoding low-complexity peptide repeats. They are overrepresented in particular classes of genes, notably those that encode PfEMP1 virulence factors, stress response genes and DNA binding proteins. In vitro translation experiments and in vivo measures of translation efficiency showed that G-quadruplexes can influence the translation of P. falciparum mRNAs. Thus, the G-quadruplex is a novel player in post-transcriptional regulation of gene expression in this major human pathogen.",
+    "keywords": [],
+    "mesh_terms": [
+      "Base Sequence",
+      "*G-Quadruplexes",
+      "Gene Expression Profiling/methods",
+      "*Gene Expression Regulation",
+      "Gene Ontology",
+      "Humans",
+      "Malaria, Falciparum/parasitology",
+      "Mutation",
+      "Nucleotide Motifs/*genetics",
+      "Plasmodium falciparum/*genetics/physiology",
+      "Protein Biosynthesis/genetics",
+      "Protozoan Proteins/genetics/metabolism",
+      "RNA, Messenger/genetics/metabolism",
+      "RNA, Protozoan/chemistry/genetics/metabolism",
+      "RNA-Seq/methods",
+      "Ribosomes/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dumetz, Franck",
+        "Chow, Eugene Yui-Ching",
+        "Harris, Lynne M",
+        "Liew, Shiau Wei",
+        "Jensen, Anders",
+        "Umar, Mubarak I",
+        "Chung, Betty",
+        "Chan, Ting Fung",
+        "Merrick, Catherine J",
+        "Kwok, Chun Kit"
+      ],
+      "short_names": [
+        "Dumetz F",
+        "Chow EY",
+        "Harris LM",
+        "Liew SW",
+        "Jensen A",
+        "Umar MI",
+        "Chung B",
+        "Chan TF",
+        "Merrick CJ",
+        "Kwok CK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8790-9986",
+        "ORCID: 0000-0002-5575-6724",
+        "ORCID: 0000-0002-0489-3884",
+        "ORCID: 0000-0001-7583-2176"
+      ],
+      "affiliations": [
+        "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK.",
+        "School of Life Sciences and State Key Laboratory of Agrobiotechnology, Chinese University of Hong Kong, Shatin, NT, Hong Kong.",
+        "Centre for Applied Entomology and Parasitology, Faculty of Natural Sciences, Keele University, Keele, Staffordshire, ST5 5BG, UK.",
+        "Department of Chemistry and State Key Laboratory of Marine Pollution, City University of Hong Kong, Kowloon Tong, Hong Kong SAR, China.",
+        "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK.",
+        "Department of Chemistry and State Key Laboratory of Marine Pollution, City University of Hong Kong, Kowloon Tong, Hong Kong SAR, China.",
+        "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK.",
+        "School of Life Sciences and State Key Laboratory of Agrobiotechnology, Chinese University of Hong Kong, Shatin, NT, Hong Kong.",
+        "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK.",
+        "Department of Chemistry and State Key Laboratory of Marine Pollution, City University of Hong Kong, Kowloon Tong, Hong Kong SAR, China.",
+        "Shenzhen Research Institute of City University of Hong Kong, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dumetz, Franck",
+        "short_name": "Dumetz F",
+        "identifiers": [
+          "0000-0001-8790-9986"
+        ],
+        "affiliations": [
+          "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK."
+        ]
+      },
+      {
+        "full_name": "Chow, Eugene Yui-Ching",
+        "short_name": "Chow EY",
+        "identifiers": [
+          "0000-0002-5575-6724"
+        ],
+        "affiliations": [
+          "School of Life Sciences and State Key Laboratory of Agrobiotechnology, Chinese University of Hong Kong, Shatin, NT, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Harris, Lynne M",
+        "short_name": "Harris LM",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Applied Entomology and Parasitology, Faculty of Natural Sciences, Keele University, Keele, Staffordshire, ST5 5BG, UK."
+        ]
+      },
+      {
+        "full_name": "Liew, Shiau Wei",
+        "short_name": "Liew SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and State Key Laboratory of Marine Pollution, City University of Hong Kong, Kowloon Tong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Jensen, Anders",
+        "short_name": "Jensen A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK."
+        ]
+      },
+      {
+        "full_name": "Umar, Mubarak I",
+        "short_name": "Umar MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and State Key Laboratory of Marine Pollution, City University of Hong Kong, Kowloon Tong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Chung, Betty",
+        "short_name": "Chung B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK."
+        ]
+      },
+      {
+        "full_name": "Chan, Ting Fung",
+        "short_name": "Chan TF",
+        "identifiers": [
+          "0000-0002-0489-3884"
+        ],
+        "affiliations": [
+          "School of Life Sciences and State Key Laboratory of Agrobiotechnology, Chinese University of Hong Kong, Shatin, NT, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Merrick, Catherine J",
+        "short_name": "Merrick CJ",
+        "identifiers": [
+          "0000-0001-7583-2176"
+        ],
+        "affiliations": [
+          "Department of Pathology, Cambridge University, Tennis Court Road, Cambridge CB2 1QP, UK."
+        ]
+      },
+      {
+        "full_name": "Kwok, Chun Kit",
+        "short_name": "Kwok CK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and State Key Laboratory of Marine Pollution, City University of Hong Kong, Kowloon Tong, Hong Kong SAR, China.",
+          "Shenzhen Research Institute of City University of Hong Kong, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Dec 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/19 06:00",
+    "fetched_at": "2026-09-28 01:55:23"
+  },
+  "links": {
+    "cites": [
+      "42063550",
+      "41790860",
+      "41703281",
+      "41132662",
+      "41040140",
+      "40971668",
+      "40076602",
+      "39558155",
+      "39219982",
+      "38266156",
+      "38041930",
+      "36747354",
+      "36414480",
+      "36372875",
+      "36243987",
+      "36048819",
+      "35717434"
+    ],
+    "refs": [
+      "33824913",
+      "33290554",
+      "32873317",
+      "32628663",
+      "32513207",
+      "32338139",
+      "32206258",
+      "32183702",
+      "31964733",
+      "31880930",
+      "30892612",
+      "30413617",
+      "30204160",
+      "30071678",
+      "29965959",
+      "29453903",
+      "29311059",
+      "29077880",
+      "28755976",
+      "28288121",
+      "28117441",
+      "27809775",
+      "27777305",
+      "27571552",
+      "27355429",
+      "26792894",
+      "26267306",
+      "25879384",
+      "25793418",
+      "25493618",
+      "24345950",
+      "24267660",
+      "24185699",
+      "23683360",
+      "20409324",
+      "20110278",
+      "20078850",
+      "19666023",
+      "19660104",
+      "18957442",
+      "18924216",
+      "15914667",
+      "15105138",
+      "14697197",
+      "12929205",
+      "12893887",
+      "12368864",
+      "11880371",
+      "10613695",
+      "10361092",
+      "9380737",
+      "2426051",
+      "781840",
+      "383936"
+    ],
+    "similar": [
+      "34792144",
+      "29311059",
+      "33960872",
+      "27789319",
+      "19660104",
+      "32183702",
+      "34809465",
+      "32628663",
+      "39868986",
+      "36048819",
+      "29965959",
+      "35273922",
+      "32469313",
+      "27809775",
+      "29985403",
+      "29471358",
+      "15747257",
+      "26043001",
+      "32513207",
+      "17283083",
+      "25043062",
+      "32079470",
+      "33906926",
+      "33340385",
+      "34724812",
+      "17692399",
+      "23100570",
+      "24937593",
+      "40148982",
+      "24885782",
+      "22761677",
+      "31964733",
+      "28531310",
+      "26415947",
+      "15481109",
+      "38966997",
+      "33765271",
+      "24267660",
+      "28618269",
+      "22721695",
+      "39636094",
+      "15296511",
+      "26548960",
+      "15663925",
+      "19552523",
+      "18257930",
+      "11984002",
+      "23197831",
+      "30591072",
+      "20870716",
+      "29129743",
+      "29716542",
+      "21674009",
+      "12893887",
+      "25807998",
+      "31295334",
+      "7891744",
+      "27571552",
+      "29182860",
+      "28138022",
+      "24850370",
+      "38702310",
+      "12142467",
+      "33298142",
+      "30350579",
+      "25447287",
+      "32338139",
+      "22351747",
+      "10200302",
+      "33908865",
+      "39804943",
+      "34232098",
+      "23235467",
+      "33906919",
+      "19616120",
+      "12409450",
+      "26607328",
+      "31964736",
+      "38729943",
+      "7891746",
+      "23874884",
+      "39435184",
+      "32867812",
+      "34340541",
+      "22982196",
+      "25373614",
+      "31575660",
+      "25879384",
+      "8813672",
+      "27070311",
+      "16267556",
+      "39445826",
+      "23274650",
+      "22258148",
+      "22448008",
+      "36515553",
+      "38647110",
+      "28835215",
+      "19037012",
+      "34360778"
+    ],
+    "review": [
+      "34792144",
+      "22351747"
+    ],
+    "pmc": [
+      "8643661"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34792144/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34792144",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/34792144",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab1095",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

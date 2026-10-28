@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "38238840",
+    "doi": "10.1186/s13059-023-03134-1",
+    "title": "Structure-primed embedding on the transcription factor manifold enables transparent model architectures for gene regulatory network and latent activity inference."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Modeling of gene regulatory networks (GRNs) is limited due to a lack of direct measurements of genome-wide transcription factor activity (TFA) making it difficult to separate covariance and regulatory interactions. Inference of regulatory interactions and TFA requires aggregation of complementary evidence. Estimating TFA explicitly is problematic as it disconnects GRN inference and TFA estimation and is unable to account for, for example, contextual transcription factor-transcription factor interactions, and other higher order features. Deep-learning offers a potential solution, as it can model complex interactions and higher-order latent features, although does not provide interpretable models and latent features. RESULTS: We propose a novel autoencoder-based framework, StrUcture Primed Inference of Regulation using latent Factor ACTivity (SupirFactor) for modeling, and a metric, explained relative variance (ERV), for interpretation of GRNs. We evaluate SupirFactor with ERV in a wide set of contexts. Compared to current state-of-the-art GRN inference methods, SupirFactor performs favorably. We evaluate latent feature activity as an estimate of TFA and biological function in S. cerevisiae as well as in peripheral blood mononuclear cells (PBMC). CONCLUSION: Here we present a framework for structure-primed inference and interpretation of GRNs, SupirFactor, demonstrating interpretability using ERV in multiple biological and experimental settings. SupirFactor enables TFA estimation and pathway analysis using latent factor activity, demonstrated here on two large-scale single-cell datasets, modeling S. cerevisiae and PBMC. We find that the SupirFactor model facilitates biological analysis acquiring novel functional and regulatory insight.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Saccharomyces cerevisiae/genetics",
+      "Algorithms",
+      "Leukocytes, Mononuclear",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tjarnberg, Andreas",
+        "Beheler-Amass, Maggie",
+        "Jackson, Christopher A",
+        "Christiaen, Lionel A",
+        "Gresham, David",
+        "Bonneau, Richard"
+      ],
+      "short_names": [
+        "Tjarnberg A",
+        "Beheler-Amass M",
+        "Jackson CA",
+        "Christiaen LA",
+        "Gresham D",
+        "Bonneau R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0064-1791"
+      ],
+      "affiliations": [
+        "Center for Developmental Genetics, New York University, New York, NY, 10003, USA. andreas.tjarnberg@fripost.org.",
+        "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA. andreas.tjarnberg@fripost.org.",
+        "Department of Biology, NYU, New York, NY, 10008, USA. andreas.tjarnberg@fripost.org.",
+        "Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, 10010, USA. andreas.tjarnberg@fripost.org.",
+        "Department of Neuro-Science, University of Wisconsin-Madison - Waisman Center, Madison, USA. andreas.tjarnberg@fripost.org.",
+        "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA.",
+        "Department of Biology, NYU, New York, NY, 10008, USA.",
+        "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA.",
+        "Department of Biology, NYU, New York, NY, 10008, USA.",
+        "Center for Developmental Genetics, New York University, New York, NY, 10003, USA.",
+        "Department of Biology, NYU, New York, NY, 10008, USA.",
+        "Sars International Centre for Marine Molecular Biology, University of Bergen, Bergen, Norway.",
+        "Department of Heart Disease, Haukeland University Hospital, Bergen, Norway.",
+        "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA.",
+        "Department of Biology, NYU, New York, NY, 10008, USA.",
+        "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA. bonneau.richard@gene.com.",
+        "Department of Biology, NYU, New York, NY, 10008, USA. bonneau.richard@gene.com.",
+        "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY, 10010, USA. bonneau.richard@gene.com.",
+        "Courant Institute of Mathematical Sciences, Computer Science Department, New York University, New York, NY, 10003, USA. bonneau.richard@gene.com.",
+        "Center For Data Science, NYU, New York, NY, 10008, USA. bonneau.richard@gene.com.",
+        "Prescient Design, a Genentech accelerator, New York, NY, 10010, USA. bonneau.richard@gene.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tjärnberg, Andreas",
+        "short_name": "Tjärnberg A",
+        "identifiers": [
+          "0000-0003-0064-1791"
+        ],
+        "affiliations": [
+          "Center for Developmental Genetics, New York University, New York, NY, 10003, USA. andreas.tjarnberg@fripost.org.",
+          "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA. andreas.tjarnberg@fripost.org.",
+          "Department of Biology, NYU, New York, NY, 10008, USA. andreas.tjarnberg@fripost.org.",
+          "Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, 10010, USA. andreas.tjarnberg@fripost.org.",
+          "Department of Neuro-Science, University of Wisconsin-Madison - Waisman Center, Madison, USA. andreas.tjarnberg@fripost.org."
+        ]
+      },
+      {
+        "full_name": "Beheler-Amass, Maggie",
+        "short_name": "Beheler-Amass M",
+        "identifiers": [],
+        "affiliations": [
+          "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA.",
+          "Department of Biology, NYU, New York, NY, 10008, USA."
+        ]
+      },
+      {
+        "full_name": "Jackson, Christopher A",
+        "short_name": "Jackson CA",
+        "identifiers": [],
+        "affiliations": [
+          "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA.",
+          "Department of Biology, NYU, New York, NY, 10008, USA."
+        ]
+      },
+      {
+        "full_name": "Christiaen, Lionel A",
+        "short_name": "Christiaen LA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Genetics, New York University, New York, NY, 10003, USA.",
+          "Department of Biology, NYU, New York, NY, 10008, USA.",
+          "Sars International Centre for Marine Molecular Biology, University of Bergen, Bergen, Norway.",
+          "Department of Heart Disease, Haukeland University Hospital, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Gresham, David",
+        "short_name": "Gresham D",
+        "identifiers": [],
+        "affiliations": [
+          "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA.",
+          "Department of Biology, NYU, New York, NY, 10008, USA."
+        ]
+      },
+      {
+        "full_name": "Bonneau, Richard",
+        "short_name": "Bonneau R",
+        "identifiers": [],
+        "affiliations": [
+          "Center For Genomics and Systems Biology, NYU, New York, NY, 10008, USA. bonneau.richard@gene.com.",
+          "Department of Biology, NYU, New York, NY, 10008, USA. bonneau.richard@gene.com.",
+          "Flatiron Institute, Center for Computational Biology, Simons Foundation, New York, NY, 10010, USA. bonneau.richard@gene.com.",
+          "Courant Institute of Mathematical Sciences, Computer Science Department, New York University, New York, NY, 10003, USA. bonneau.richard@gene.com.",
+          "Center For Data Science, NYU, New York, NY, 10008, USA. bonneau.richard@gene.com.",
+          "Prescient Design, a Genentech accelerator, New York, NY, 10010, USA. bonneau.richard@gene.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Jan 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/19 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "41093852",
+      "41067887",
+      "40661601",
+      "39296931",
+      "38589899",
+      "37816807",
+      "37790443"
+    ],
+    "refs": [
+      "36755098",
+      "36350610",
+      "36192604",
+      "35188184",
+      "34559190",
+      "34471111",
+      "34421907",
+      "34062119",
+      "32788292",
+      "32746932",
+      "32698722",
+      "32450966",
+      "32420869",
+      "32181581",
+      "32051402",
+      "31985403",
+      "31904818",
+      "31822622",
+      "31586406",
+      "31178118",
+      "30914743",
+      "30875728",
+      "30814730",
+      "30677040",
+      "30577835",
+      "30504886",
+      "29641998",
+      "29409532",
+      "29240790",
+      "28991892",
+      "28710010",
+      "27501446",
+      "27115495",
+      "26923725",
+      "26873929",
+      "26818848",
+      "26577401",
+      "25582081",
+      "25161226",
+      "24097267",
+      "23641867",
+      "23347175",
+      "23300411",
+      "22932797",
+      "22411467",
+      "22383849",
+      "20927193",
+      "20339551",
+      "18936750",
+      "18303986",
+      "18059273",
+      "17440452",
+      "16686963",
+      "16285853",
+      "14992527",
+      "14976188",
+      "14694202",
+      "12399584",
+      "10592173",
+      "9843569",
+      "8217775"
+    ],
+    "similar": [
+      "38238840",
+      "36778259",
+      "38342857",
+      "38589899",
+      "37085776",
+      "30547796",
+      "30051742",
+      "28748400",
+      "26072483",
+      "28294630",
+      "35062026",
+      "32019417",
+      "25573916",
+      "34986805",
+      "32054475",
+      "37607190",
+      "38913855",
+      "36768917",
+      "35050715",
+      "37897702",
+      "30961611",
+      "36418514",
+      "39134413",
+      "19594874",
+      "27045829",
+      "38896510",
+      "38581416",
+      "31128452",
+      "23271269",
+      "36585783",
+      "28602483",
+      "36626328",
+      "32606380",
+      "30542062",
+      "25521243",
+      "27479082",
+      "34251620",
+      "36879188",
+      "31950997",
+      "25093509",
+      "37537351",
+      "33817013",
+      "24771593",
+      "21668997",
+      "29641998",
+      "23525069",
+      "30326663",
+      "23777625",
+      "29125126",
+      "31185246",
+      "32697830",
+      "27342648",
+      "25971253",
+      "34673384",
+      "20946602",
+      "37580132",
+      "28710010",
+      "23134816",
+      "29879919",
+      "25244077",
+      "37577525",
+      "22479422",
+      "35061589",
+      "35731801",
+      "20587029",
+      "30555503",
+      "37387180",
+      "22018164",
+      "36450117",
+      "25162401",
+      "23226565",
+      "24931976",
+      "39340962",
+      "37703293",
+      "34963205",
+      "24228871",
+      "35561176",
+      "36182867",
+      "38609714",
+      "30445315",
+      "28076866",
+      "37244909",
+      "28155637",
+      "33667222",
+      "25369032",
+      "38261340",
+      "38806476",
+      "30207963",
+      "20927193",
+      "24669835",
+      "33168813",
+      "26072515",
+      "38861487",
+      "19943917",
+      "38744843",
+      "37939200",
+      "37803124",
+      "38773638",
+      "39168402",
+      "37790443",
+      "38374265",
+      "38187622"
+    ],
+    "review": [
+      "38238840",
+      "30555503",
+      "30445315"
+    ],
+    "pmc": [
+      "10797903"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03134-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38238840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38238840",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse218089",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

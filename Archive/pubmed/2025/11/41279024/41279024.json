@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "41279024",
+    "doi": "10.1101/2025.10.30.685161",
+    "title": "TSProm: Deciphering the Genomic Context of Tissue Specificity."
+  },
+  "content": {
+    "abstract": "Characterizing tissue-specific (TSp) gene expression is crucial for understanding development and disease; however, traditional expression-based methods often overlook the latent \"regulatory grammar\" embedded in the non-coding DNA, particularly in distal promoter regions. Here, we introduce TSProm, a framework that specializes a DNA foundation model (DNABERT2) to decipher the long-range regulatory logic of TSp promoters at the gene isoform level. The contributions of our work are two-fold. First, we propose a novel comparative design that trains two distinct models, A: for general promoter biology and B: for TSp regulation. These models enable the precise isolation of sequence motifs around the transcription start site that uniquely define tissue identity. Second, we introduce a comprehensive explainable AI (xAI) module that integrates attention-based discovery with model-agnostic SHAP analysis to provide robust, cross-validated interpretations of learned features. Applying this framework to human brain, liver, and testis promoters, we identified and validated clinically relevant transcription factors (TFs) in the brain, including SP1, MYC, and HES6, and confirmed their known roles in diseases such as gliomas and neuroblastomas. Our analysis further revealed that C2H2 Zinc Finger proteins are a dominant feature of the global landscape of TSp gene regulation. TSProm provides a novel and interpretable framework for identifying TSp gene regulatory elements, offering powerful computational tools for the study of tissue-specific gene regulation in normal and disease conditions.",
+    "keywords": [
+      "DNA Language Models",
+      "Explainable AI",
+      "Interpretable genomics Framework",
+      "tissue specificity"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Surana, Pallavi",
+        "Dutta, Pratik",
+        "Papineni, Nimisha",
+        "Sathian, Rekha",
+        "Zhou, Zhihan",
+        "Liu, Han",
+        "Davuluri, Ramana"
+      ],
+      "short_names": [
+        "Surana P",
+        "Dutta P",
+        "Papineni N",
+        "Sathian R",
+        "Zhou Z",
+        "Liu H",
+        "Davuluri R"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4241-9181",
+        "ORCID: 0000-0002-1579-8946",
+        "ORCID: 0009-0005-5698-1981",
+        "ORCID: 0000-0002-1473-9071",
+        "ORCID: 0000-0002-7053-1064"
+      ],
+      "affiliations": [
+        "Department of Biomedical Informatics, Stony Brook University, USA.",
+        "Department of Biomedical Informatics, Stony Brook University, USA.",
+        "Department of Biomedical Informatics, Stony Brook University, USA.",
+        "Department of Biomedical Informatics, Stony Brook University, USA.",
+        "Department of Computer Science, Northwestern University, USA.",
+        "Department of Computer Science, Northwestern University, USA.",
+        "Department of Biomedical Informatics, Stony Brook University, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Surana, Pallavi",
+        "short_name": "Surana P",
+        "identifiers": [
+          "0009-0004-4241-9181"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, USA."
+        ]
+      },
+      {
+        "full_name": "Dutta, Pratik",
+        "short_name": "Dutta P",
+        "identifiers": [
+          "0000-0002-1579-8946"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, USA."
+        ]
+      },
+      {
+        "full_name": "Papineni, Nimisha",
+        "short_name": "Papineni N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, USA."
+        ]
+      },
+      {
+        "full_name": "Sathian, Rekha",
+        "short_name": "Sathian R",
+        "identifiers": [
+          "0009-0005-5698-1981"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhihan",
+        "short_name": "Zhou Z",
+        "identifiers": [
+          "0000-0002-1473-9071"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Han",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Northwestern University, USA."
+        ]
+      },
+      {
+        "full_name": "Davuluri, Ramana",
+        "short_name": "Davuluri R",
+        "identifiers": [
+          "0000-0002-7053-1064"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stony Brook University, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Oct 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 12:38",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40608514",
+      "40078374",
+      "39817513",
+      "39609566",
+      "39120880",
+      "38397241",
+      "37962376",
+      "37956336",
+      "37884865",
+      "37174714",
+      "35863177",
+      "35778451",
+      "34986601",
+      "34143767",
+      "33628735",
+      "33538820",
+      "33259518",
+      "32913098",
+      "32092639",
+      "31341302",
+      "30872507",
+      "29510665",
+      "29425488",
+      "29284669",
+      "29069589",
+      "28740726",
+      "28646208",
+      "27411336",
+      "26162102",
+      "25954001",
+      "19458158",
+      "18974185",
+      "18329129",
+      "17224917",
+      "16645617",
+      "16380080",
+      "15256515"
+    ],
+    "similar": [
+      "41279024",
+      "42244857",
+      "42475469",
+      "41801512",
+      "41768065",
+      "15496828",
+      "41595447",
+      "9015757",
+      "14623514",
+      "33801310",
+      "31053165",
+      "27146629",
+      "20806066",
+      "29378629",
+      "41283681",
+      "15723697",
+      "11491305",
+      "41437153",
+      "15166027",
+      "36192696",
+      "40767619",
+      "15342797",
+      "25905672",
+      "40475415",
+      "18078513",
+      "22369687",
+      "38653489",
+      "30598689",
+      "31318408",
+      "32412604",
+      "9770645",
+      "33553008",
+      "22011226",
+      "17224917",
+      "41386884",
+      "41120858",
+      "7776980",
+      "41464118",
+      "10982849",
+      "40869356",
+      "20401945",
+      "19958507",
+      "41303598",
+      "41898404",
+      "28717181",
+      "39184348",
+      "41146678",
+      "15083376",
+      "22111549",
+      "39096613",
+      "8355712",
+      "2544587",
+      "16643658",
+      "1279352",
+      "18340376",
+      "23924163",
+      "16723008",
+      "11171388",
+      "19426448",
+      "20122241",
+      "9651486",
+      "29409441",
+      "20501695",
+      "7590351",
+      "31776846",
+      "39555660",
+      "24291025",
+      "41957161",
+      "42119148",
+      "40983924",
+      "9817601",
+      "22936248",
+      "25793500",
+      "17635926",
+      "16294034",
+      "16252282",
+      "29030344",
+      "25303887",
+      "42448854",
+      "12857799",
+      "7579328",
+      "32043966",
+      "41318386",
+      "20161818",
+      "24703491",
+      "8618898",
+      "41873493",
+      "22955621",
+      "24555803",
+      "15890068",
+      "16458921",
+      "12409289",
+      "41639451",
+      "16982645",
+      "31792407",
+      "42487110",
+      "15388797",
+      "33722934",
+      "14680477",
+      "19111069"
+    ],
+    "review": [
+      "41279024",
+      "41768065",
+      "14623514",
+      "15083376",
+      "16643658",
+      "12857799",
+      "41873493"
+    ],
+    "pmc": [
+      "12636395"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41279024/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.30.685161",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

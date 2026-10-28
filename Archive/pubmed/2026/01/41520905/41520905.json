@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "41520905",
+    "doi": "10.1016/j.micpath.2026.108298",
+    "title": "YXL-13 attenuates virulence in Pseudomonas aeruginosa mutants and clinical isolates by inhibiting quorum sensing regulators LasR and RhlR."
+  },
+  "content": {
+    "abstract": "Given the critical role of quorum sensing (QS) in the pathogenicity of Pseudomonas aeruginosa, inhibiting QS is considered a promising alternative to traditional antibiotics for treating P. aeruginosa infections. The QS system of P. aeruginosa comprises two acyl-homoserine lactone (AHL) circuits, LasI/R and RhlI/R, along with a third system, the PQS system. However, due to the frequent clinical isolation of lasR mutants and the avirulent nature of rhlR mutants, targeting both the LasI/R and RhlI/R systems represent a more viable therapeutic strategy. YXL-13, an AHL analog, has been identified as a QS inhibitor, though its precise molecular target remains unclear. This study demonstrates that YXL-13 effectively inhibits the QS response in P. aeruginosa QS mutants (DeltalasR, DeltarhlR, and DeltapqsR) as well as in clinically isolated strains (PA1, PA2, and PA3), while also providing protection to C. elegans against infection. The related evidences, including qPCR analysis, QS reporter assays, isothermal titration calorimetry (ITC), molecular docking, and molecular dynamics (MD) simulations, indicate that YXL-13 targets both LasR and RhlR. In summary, YXL-13 exhibits potent inhibitory effects on the QS response of various P. aeruginosa strains.",
+    "keywords": [
+      "Caenorhabditis elegans",
+      "Clinical isolates",
+      "Computer simulation",
+      "Pseudomonas aeruginosa",
+      "Quorum sensing mutants",
+      "YXL-13"
+    ],
+    "mesh_terms": [
+      "*Pseudomonas aeruginosa/drug effects/pathogenicity/genetics/isolation & purification",
+      "*Quorum Sensing/drug effects",
+      "*Trans-Activators/genetics/antagonists & inhibitors/metabolism",
+      "*Bacterial Proteins/genetics/antagonists & inhibitors/metabolism",
+      "Animals",
+      "Caenorhabditis elegans/microbiology",
+      "Virulence/drug effects",
+      "Pseudomonas Infections/microbiology",
+      "Mutation",
+      "*Anti-Bacterial Agents/pharmacology",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Gene Expression Regulation, Bacterial/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Lei",
+        "Luo, Rui",
+        "Yan, Xinlin",
+        "Han, Mengliang",
+        "Zhang, Mingjie",
+        "Xiao, Junhai",
+        "Zhao, Kelei",
+        "Lin, Feng"
+      ],
+      "short_names": [
+        "Wang L",
+        "Luo R",
+        "Yan X",
+        "Han M",
+        "Zhang M",
+        "Xiao J",
+        "Zhao K",
+        "Lin F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China.",
+        "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China.",
+        "State Key Laboratory of Toxicology and Medical Countermeasures, Beijing Institute of Pharmacology and Toxicology, Beijing, China; National Engineering Research Center for Strategic Drugs, Beijing Institute of Pharmacology and Toxicology, Beijing, China.",
+        "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China.",
+        "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China.",
+        "State Key Laboratory of Toxicology and Medical Countermeasures, Beijing Institute of Pharmacology and Toxicology, Beijing, China; National Engineering Research Center for Strategic Drugs, Beijing Institute of Pharmacology and Toxicology, Beijing, China. Electronic address: xiaojunhai@139.com.",
+        "Antibiotics Research and Re-evaluation Key Laboratory of Sichuan Province, School of Pharmacy, Chengdu University, Chengdu, China. Electronic address: zhaokelei@cdu.edu.cn.",
+        "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China. Electronic address: linfeng@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Rui",
+        "short_name": "Luo R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xinlin",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Toxicology and Medical Countermeasures, Beijing Institute of Pharmacology and Toxicology, Beijing, China; National Engineering Research Center for Strategic Drugs, Beijing Institute of Pharmacology and Toxicology, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Han, Mengliang",
+        "short_name": "Han M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mingjie",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Junhai",
+        "short_name": "Xiao J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Toxicology and Medical Countermeasures, Beijing Institute of Pharmacology and Toxicology, Beijing, China; National Engineering Research Center for Strategic Drugs, Beijing Institute of Pharmacology and Toxicology, Beijing, China. Electronic address: xiaojunhai@139.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Kelei",
+        "short_name": "Zhao K",
+        "identifiers": [],
+        "affiliations": [
+          "Antibiotics Research and Re-evaluation Key Laboratory of Sichuan Province, School of Pharmacy, Chengdu University, Chengdu, China. Electronic address: zhaokelei@cdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Feng",
+        "short_name": "Lin F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun, China; Key Laboratory for Molecular Enzymology and Engineering, The Ministry of Education, School of Life Sciences, Jilin University, Changchun, China. Electronic address: linfeng@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbial pathogenesis"
+    ],
+    "journal_abbrev": [
+      "Microb Pathog"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/12 00:37",
+    "fetched_at": "2026-10-05 04:45:07"
+  },
+  "links": {
+    "cites": [
+      "42268336"
+    ],
+    "refs": [],
+    "similar": [
+      "41520905",
+      "40993527",
+      "27703072",
+      "39046261",
+      "30959097",
+      "33713665",
+      "29526565",
+      "28453568",
+      "39670758",
+      "30850547",
+      "32265330",
+      "39085766",
+      "20132256",
+      "42281369",
+      "30707095",
+      "39796099",
+      "31284940",
+      "35471121",
+      "33707533",
+      "27503003",
+      "15314190",
+      "28818490",
+      "19525275",
+      "40104940",
+      "40199129",
+      "28715477",
+      "41708876",
+      "29868500",
+      "21368905",
+      "30846553",
+      "39396686",
+      "41380418",
+      "40366151",
+      "39165918",
+      "39235221",
+      "31187452",
+      "39162513",
+      "15161855",
+      "34884499",
+      "36787160",
+      "41128522",
+      "31605708",
+      "40248926",
+      "40905672",
+      "17689222",
+      "36786582",
+      "39794611",
+      "28591849",
+      "41825667",
+      "32843558",
+      "40414445",
+      "24002091",
+      "28188589",
+      "39971733",
+      "20656785",
+      "38372782",
+      "27498852",
+      "41823410",
+      "32188749",
+      "29348452",
+      "41751921",
+      "32457239",
+      "28729210",
+      "38036112",
+      "25088031",
+      "39153575",
+      "32020464",
+      "30201815",
+      "30913464",
+      "31986566",
+      "23320085",
+      "31260316",
+      "19246742",
+      "37635941",
+      "40413369",
+      "31545595",
+      "16966394",
+      "40261876",
+      "32697213",
+      "40960234",
+      "36258070",
+      "25389523",
+      "41346364",
+      "32037806",
+      "22628480",
+      "19727948",
+      "26078448",
+      "35903467",
+      "35967851",
+      "27825554",
+      "22706193",
+      "28939255",
+      "33288622",
+      "31594819",
+      "42268336",
+      "38528442",
+      "30852658",
+      "20463812",
+      "26517484",
+      "28591665"
+    ],
+    "review": [
+      "41520905",
+      "40248926",
+      "25389523",
+      "42268336"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0882-4010(26)00024-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      }
+    ],
+    "text_mined": []
+  }
+}

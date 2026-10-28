@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present RegulonDB 11.0, a major upgrade to a database of transcriptional regulation in *Escherichia coli* K-12, incorporating over 2000 high-throughput datasets (ChIP-seq, ChIP-exo, gSELEX, DAP-seq, RNA-seq, TSS, TTS, TU) with standardized processing, metadata curation via natural language processing, and enhanced browsing and visualization tools.
+- **Visible evidence base** Abstract, Introduction, Methods, Results, Discussion sections as provided; no figures, tables, or supplementary data were available for inspection
+- **Missing materials affecting confidence** Figures 1-8, Tables 1 and S1-S9, supplementary data files, and all referenced external resources (e.g., GitHub repositories, database URLs) were not provided. This limits verification of quantitative claims, data processing details, and tool functionality.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a substantial and potentially valuable community resource for *E. coli* transcriptional regulation. The scope of data aggregation and the addition of uniformized processing pipelines are commendable. However, the manuscript as presented has significant gaps in methodological detail and quantitative reporting that prevent full assessment of the resource's quality and utility. The claims of comprehensiveness and standardization require more rigorous support, particularly regarding data quality control, validation of the NLP approach, and the biological significance of the integrated datasets.
+- **Who would be interested in the results, and why** Researchers in bacterial gene regulation, systems biology, and genomics would find this resource valuable for comparative analyses, meta-analyses, and hypothesis generation. The standardized datasets and metadata would facilitate cross-study comparisons. The NLP-based metadata extraction could interest bioinformaticians developing text-mining tools for biological databases.
+- **Major strengths** 1) The scale of data aggregation (over 2000 datasets) is impressive and addresses a clear need for centralized, standardized access to high-throughput regulatory data. 2) The inclusion of uniformized processing pipelines for ChIP-seq and RNA-seq data is a significant step toward data comparability. 3) The use of NLP for metadata extraction is an innovative approach to a known bottleneck in database curation. 4) The distinction between TFBS and TFRS, and the formal separation of promoters from TSSs, reflects thoughtful engagement with evolving concepts in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that uniformized ChIP-seq data were processed using a "generalizable workflow" that ensures "reproducibility of the results" and enhances comparability across datasets.
+  - **Evidence pointer** Methods, "Uniformization" subsection; Results, "TF binding datasets" subsection
+  - **Concern** The description of the ChIP-seq processing pipeline is insufficient to evaluate its quality or reproducibility. Key parameters are missing, including: the read alignment tool and version, mapping quality thresholds, peak caller settings beyond the q-value threshold, how biological replicates were handled, and how peak-to-TFBS assignment was performed. The claim of "uniform" processing is undermined by the lack of detail on how batch effects or dataset-specific characteristics (e.g., different antibodies, growth conditions) were addressed.
+  - **Why it matters** The central value proposition of this resource is the comparability of datasets. Without a detailed, reproducible pipeline description, users cannot assess whether the uniformized data are truly comparable or whether processing artifacts have been introduced. This directly affects the reliability of any downstream meta-analyses.
+  - **Resolution test** Provide a complete description of the pipeline, including all software versions, parameters, and quality control metrics. Ideally, include a benchmark analysis showing that the uniformized pipeline recovers known regulatory interactions (e.g., compared to the author-processed data) and that batch effects are minimized.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the NLP method achieved an F1-score of 0.81 in cross-validation and 0.83 in testing for extracting growth conditions, and that this enabled an "assisted curation strategy" that saves human effort.
+  - **Evidence pointer** Methods, "Gene expression datasets" subsection; Results, "Gene expression datasets" subsection
+  - **Concern** The evaluation of the NLP method is incomplete. The F1-score is reported as a single aggregate number, but no details are given on: the distribution of F1-scores across different condition types (e.g., temperature vs. pH vs. genetic background), the error analysis (what types of errors are most common), or the inter-annotator agreement for the manually curated gold standard. The claim that the strategy "saves human effort" is not quantified; no comparison is made between the time or cost of manual curation versus the assisted approach.
+  - **Why it matters** The NLP component is presented as a key innovation. Without a thorough evaluation, readers cannot judge whether the extracted metadata are reliable enough for database queries and downstream analyses. The claim of efficiency gains is unsubstantiated.
+  - **Resolution test** Provide a detailed breakdown of precision and recall for each condition type, an error analysis, and a quantitative comparison of curation effort (e.g., person-hours) between manual and assisted approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that RegulonDB 11.0 is "the most comprehensive resource" for *E. coli* K-12 transcriptional regulation data, and that it will "advance research" by enabling comparisons across datasets.
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The claim of being "most comprehensive" is not supported by a systematic comparison with existing resources (e.g., EcoCyc, ColiDB, or other specialized databases). The manuscript does not quantify the overlap or unique contributions relative to these resources. The statement that the resource will "advance research" is a general assertion without specific examples or use cases demonstrating novel biological insights enabled by the integrated data.
+  - **Why it matters** For a database paper, demonstrating the unique value proposition relative to existing resources is critical. Without this, the scientific impact of the resource is unclear.
+  - **Resolution test** Include a comparative analysis with other major resources, quantifying unique datasets, improved metadata coverage, or novel query capabilities. Provide at least one concrete example of a biological question that can now be addressed with RegulonDB 11.0 that was not previously possible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "a total of 164 TFBS datasets (corresponding to 121 different TFs) derived from gSELEX were generated" and that for 94 datasets, "we took the forty targets with the top binding intensities."
+  - **Evidence pointer** Methods, "TF binding datasets" subsection; Results, "TF binding datasets" subsection
+  - **Concern** The arbitrary selection of the top 40 targets for gSELEX datasets without author-defined thresholds is a significant data processing decision that could introduce bias. The manuscript does not discuss the rationale for this cutoff, its potential impact on downstream analyses (e.g., false negatives for weaker but biologically relevant binding sites), or sensitivity analyses to assess the robustness of conclusions drawn from these data.
+  - **Why it matters** This decision affects the completeness and accuracy of the binding site data for a large fraction of the gSELEX collection. Users may unknowingly draw conclusions based on an arbitrary subset of the data.
+  - **Resolution test** Justify the choice of 40 targets, provide a sensitivity analysis (e.g., how results change with different cutoffs), or make the full unfiltered data available so users can apply their own thresholds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract and introduction use several acronyms (e.g., gSELEX, DAP-seq, ChIP-exo) without defining them. While specialists will be familiar, the broader readership of a general journal may not be.
+  - **Required correction** Define all acronyms at first use in the abstract and introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Gene expression datasets" subsection
+  - **Evidence pointer** Methods, "Gene expression datasets" subsection
+  - **Issue** The description of the RNA-seq normalization states that a "pseudo-reference" sample was created using the geometric mean of each gene's expression, but it is unclear how this was calculated across samples with different library sizes or whether it accounts for compositional data issues.
+  - **Required correction** Clarify the normalization procedure, including how library size differences were handled and whether the DESeq normalization was applied to raw counts or to already-normalized values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "TF binding datasets" subsection
+  - **Evidence pointer** Results, "TF binding datasets" subsection
+  - **Issue** The statement that "the recovery of known sites is an index frequently reported in HT publications" is presented without a citation or context for how this metric is typically calculated and interpreted.
+  - **Required correction** Add a citation and briefly explain the metric's interpretation and limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the distinction between TFBS and TFRS, while conceptually important, is somewhat dense and could be clearer for readers not deeply familiar with the field's terminology.
+  - **Required correction** Consider adding a brief explanatory sentence or example to illustrate the distinction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ChIP-seq pipeline details), R1-M2 (NLP evaluation completeness)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The aggregation of datasets and the NLP approach are useful, but the individual components (ChIP-seq processing, RNA-seq normalization, database design) are not novel in themselves. The originality lies in the integration and scale.
+  - **Scientific importance** High for the *E. coli* research community. The resource has clear potential to enable meta-analyses and standardize comparisons. However, the importance is not fully demonstrated without a comparative analysis with existing resources or a concrete use case.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to microbiologists, computational biologists, and database developers. The broader systems biology community may find it useful, but the presentation is quite specialized.
+  - **Technical soundness** Currently insufficient. The lack of detail on the ChIP-seq pipeline and the incomplete evaluation of the NLP method are significant gaps. The arbitrary cutoff for gSELEX data also raises concerns.
+  - **Readability for nonspecialists** Acceptable but could be improved. The manuscript is generally well-written, but the heavy use of acronyms and some dense conceptual discussions may hinder nonspecialist readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource is potentially valuable, but the manuscript requires substantial revisions to provide sufficient methodological detail, rigorous evaluation of the NLP component, and a clearer demonstration of the resource's unique value relative to existing databases.
+
+## Risk / unsupported claims
+- The claim of being "the most comprehensive resource" is unsupported without a systematic comparison with other databases.
+- The claim that the NLP-assisted curation "saves human effort" is unquantified and therefore unsupported.
+- The claim that uniformized ChIP-seq data enhances comparability is unverifiable without a detailed pipeline description and validation.
+- The biological significance of the integrated datasets is asserted but not demonstrated with specific examples or analyses.
+- The statement that "this is a long-awaited resource" is subjective and not supported by evidence of community demand.

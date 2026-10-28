@@ -1,0 +1,479 @@
+{
+  "identity": {
+    "pmid": "41183043",
+    "doi": "10.1371/journal.pone.0334238",
+    "title": "In silico identification, high yielding isolation and in vitro validation of 6beta-cinnamoyl-7beta -hydroxyvouacapen - 5alpha - ol as a Wnt/beta-catenin pathway targeted anti-cancer secondary metabolite of Caesalpinia pulcherrima."
+  },
+  "content": {
+    "abstract": "Wnt/beta-catenin signaling pathway is frequently dysregulated in cancer stem cells (CSCs), a sub population of cancer cell mass that drives tumor proliferation, metastasis, recurrence, and chemoresistance. Despite its therapeutic significance, no clinically approved drugs specifically target this pathway. In the present study, secondary metabolites of the medicinal plant Caesalpinia pulcherrima was computationally screened by molecular docking, dynamics simulation and Molecular Mechanics Poisson-Boltzmann Surface Area (MM-PBSA) based free energy calculations to identify potential inhibitors of beta-catenin-Tcf/Lef interaction, a key downstream event essential for Wnt/beta-catenin signaling. Diterpene metabolite 6beta-Cinnamoyl-7beta-hydroxyvouacapen-5alpha-ol (6betaCHV) was identified as a potent inhibitor of the pathway along with four previously reported Wnt/beta-catenin pathway inhibitors. To validate the results, bioactivity-guided isolation of major active compound was performed using NTERA-2 cells as a cancer stem cell (CSC) model. The isolated compound was spectroscopically characterized and confirmed to be 6betaCHV. Anti-proliferative activity assays revealed that 6betaCHV suppressed proliferation of breast cancer stem cells (bCSCs) (IC(5)(0) = 49.18 microM), NTERA-2 cells (IC(5)(0) = 8.92 microM), and highly Wnt-dependent cancer types, including gastric adenocarcinoma (IC(5)(0) = 1.90 microM), hepatocellular carcinoma (IC(5)(0) = 5.96 microM), and ovarian carcinoma (IC(5)(0) = 7.66 microM). 6betaCHV upregulated the tumor suppressor gene, p53 while downregulating Wnt target genes, Cyclin D1 and CD44 leading to apoptosis in bCSCs as confirmed by Caspase 3/7 activation. These findings establish 6betaCHV as the principal anticancer compound in C. pulcherrima, exerting its effects, at least in part, through Wnt/beta-catenin pathway inhibition.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Caesalpinia/chemistry/metabolism",
+      "*Wnt Signaling Pathway/drug effects",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "beta Catenin/metabolism",
+      "Neoplastic Stem Cells/drug effects/metabolism",
+      "Cell Proliferation/drug effects",
+      "*Antineoplastic Agents, Phytogenic/pharmacology/isolation & purification/chemistry",
+      "*Diterpenes/pharmacology/isolation & purification/chemistry",
+      "Computer Simulation",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Seneviratne, Nirwani N",
+        "Saliu, Tolulope P",
+        "Muhinudeen, Fathima T",
+        "Gamage, Sanadie D",
+        "Garusinghe, Prabudhi S",
+        "Chathuranga, Damith",
+        "Athukorala, Vinoda D",
+        "Kothalawala, Ashein",
+        "Jayasekara, Asirini H",
+        "Rathnayaka, Rajitha K",
+        "De Silva, Umanda Anjalee",
+        "Faries, Mohamed",
+        "Weragoda, Thimali H",
+        "Wijerathne, Shalini K",
+        "Rajagopalan, Umapriyatharshini",
+        "Senathilake, Kanishka S",
+        "Tennekoon, Kamani H",
+        "Adhikari, Achyut",
+        "Samarakoon, Sameera R"
+      ],
+      "short_names": [
+        "Seneviratne NN",
+        "Saliu TP",
+        "Muhinudeen FT",
+        "Gamage SD",
+        "Garusinghe PS",
+        "Chathuranga D",
+        "Athukorala VD",
+        "Kothalawala A",
+        "Jayasekara AH",
+        "Rathnayaka RK",
+        "De Silva UA",
+        "Faries M",
+        "Weragoda TH",
+        "Wijerathne SK",
+        "Rajagopalan U",
+        "Senathilake KS",
+        "Tennekoon KH",
+        "Adhikari A",
+        "Samarakoon SR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3271-2865",
+        "ORCID: 0000-0003-0608-4340"
+      ],
+      "affiliations": [
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka.",
+        "Central Department of Chemistry, Tribhuvan University, Kirtipur, Kathmandu, Nepal.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Seneviratne, Nirwani N",
+        "short_name": "Seneviratne NN",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Saliu, Tolulope P",
+        "short_name": "Saliu TP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Muhinudeen, Fathima T",
+        "short_name": "Muhinudeen FT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Gamage, Sanadie D",
+        "short_name": "Gamage SD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Garusinghe, Prabudhi S",
+        "short_name": "Garusinghe PS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Chathuranga, Damith",
+        "short_name": "Chathuranga D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Athukorala, Vinoda D",
+        "short_name": "Athukorala VD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Kothalawala, Ashein",
+        "short_name": "Kothalawala A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Jayasekara, Asirini H",
+        "short_name": "Jayasekara AH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Rathnayaka, Rajitha K",
+        "short_name": "Rathnayaka RK",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "De Silva, Umanda Anjalee",
+        "short_name": "De Silva UA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Faries, Mohamed",
+        "short_name": "Faries M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Weragoda, Thimali H",
+        "short_name": "Weragoda TH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Wijerathne, Shalini K",
+        "short_name": "Wijerathne SK",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Rajagopalan, Umapriyatharshini",
+        "short_name": "Rajagopalan U",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Senathilake, Kanishka S",
+        "short_name": "Senathilake KS",
+        "identifiers": [
+          "0000-0003-3271-2865"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Tennekoon, Kamani H",
+        "short_name": "Tennekoon KH",
+        "identifiers": [
+          "0000-0003-0608-4340"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Adhikari, Achyut",
+        "short_name": "Adhikari A",
+        "identifiers": [],
+        "affiliations": [
+          "Central Department of Chemistry, Tribhuvan University, Kirtipur, Kathmandu, Nepal."
+        ]
+      },
+      {
+        "full_name": "Samarakoon, Sameera R",
+        "short_name": "Samarakoon SR",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo, Sri Lanka."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/03 18:31",
+    "fetched_at": "2026-10-01 05:36:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39766864",
+      "38617708",
+      "38292186",
+      "38187255",
+      "38107139",
+      "37853543",
+      "37804416",
+      "37129728",
+      "37047705",
+      "36926328",
+      "36633525",
+      "36462951",
+      "36431838",
+      "36375238",
+      "36226253",
+      "36183504",
+      "35723395",
+      "35183811",
+      "35008872",
+      "34980884",
+      "34518209",
+      "34502361",
+      "34442452",
+      "34381360",
+      "34165011",
+      "33856591",
+      "33588867",
+      "33584277",
+      "33510482",
+      "33475177",
+      "33325699",
+      "33316380",
+      "33276800",
+      "33080952",
+      "32791136",
+      "32369651",
+      "31244000",
+      "30835047",
+      "30575128",
+      "29805633",
+      "29531263",
+      "28256516",
+      "26202299",
+      "25873628",
+      "25510422",
+      "24850022",
+      "24511002",
+      "23316124",
+      "23272635",
+      "21713135",
+      "19874621",
+      "19499576",
+      "18347071",
+      "15264254",
+      "14668246",
+      "12657632",
+      "11846609",
+      "3783154"
+    ],
+    "similar": [
+      "41183043",
+      "38913211",
+      "27340793",
+      "40730501",
+      "14575441",
+      "14531033",
+      "31782192",
+      "40928458",
+      "29126913",
+      "29792038",
+      "34332067",
+      "20356735",
+      "38617708",
+      "29414668",
+      "39197803",
+      "31187175",
+      "25600769",
+      "33845750",
+      "39921842",
+      "28186678",
+      "27506388",
+      "27825116",
+      "30599890",
+      "22367735",
+      "31953176",
+      "23948132",
+      "29501763",
+      "41242518",
+      "28668848",
+      "30075764",
+      "32388699",
+      "23333831",
+      "40043386",
+      "37811743",
+      "38924929",
+      "24064724",
+      "30529770",
+      "40883023",
+      "26416062",
+      "26202299",
+      "34273236",
+      "29849451",
+      "40615101",
+      "29594332",
+      "19135690",
+      "35776950",
+      "25759564",
+      "36028199",
+      "24736023",
+      "28427938",
+      "19440933",
+      "31129716",
+      "22470504",
+      "28739692",
+      "24018191",
+      "29540185",
+      "29512256",
+      "31796785",
+      "23239518",
+      "22032476",
+      "30415269",
+      "33276800",
+      "29071717",
+      "30159926",
+      "30248540",
+      "26940070",
+      "29784906",
+      "24940873",
+      "29356693",
+      "29256569",
+      "29243835",
+      "22511755",
+      "32669835",
+      "33746192",
+      "41154652",
+      "35200654",
+      "21866566",
+      "33278391",
+      "27836540",
+      "39437684",
+      "40884804",
+      "37875822",
+      "27588605",
+      "36646377",
+      "26337084",
+      "39080215",
+      "31302315",
+      "29363722",
+      "22195040",
+      "24073846",
+      "41072778",
+      "19624870",
+      "32669593",
+      "38921589",
+      "23900432",
+      "28899495",
+      "39156500",
+      "41155133",
+      "27891591",
+      "40571228"
+    ],
+    "review": [
+      "41183043",
+      "33276800",
+      "41155133"
+    ],
+    "pmc": [
+      "12582477"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0334238",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41183043/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

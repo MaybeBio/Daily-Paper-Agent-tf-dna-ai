@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "37711605",
+    "doi": "10.1093/nargab/lqad083",
+    "title": "TGPred: efficient methods for predicting target genes of a transcription factor by integrating statistics, machine learning and optimization."
+  },
+  "content": {
+    "abstract": "Four statistical selection methods for inferring transcription factor (TF)-target gene (TG) pairs were developed by coupling mean squared error (MSE) or Huber loss function, with elastic net (ENET) or least absolute shrinkage and selection operator (Lasso) penalty. Two methods were also developed for inferring pathway gene regulatory networks (GRNs) by combining Huber or MSE loss function with a network (Net)-based penalty. To solve these regressions, we ameliorated an accelerated proximal gradient descent (APGD) algorithm to optimize parameter selection processes, resulting in an equally effective but much faster algorithm than the commonly used convex optimization solver. The synthetic data generated in a general setting was used to test four TF-TG identification methods, ENET-based methods performed better than Lasso-based methods. Synthetic data generated from two network settings was used to test Huber-Net and MSE-Net, which outperformed all other methods. The TF-TG identification methods were also tested with SND1 and gl3 overexpression transcriptomic data, Huber-ENET and MSE-ENET outperformed all other methods when genome-wide predictions were performed. The TF-TG identification methods fill the gap of lacking a method for genome-wide TG prediction of a TF, and potential for validating ChIP/DAP-seq results, while the two Net-based methods are instrumental for predicting pathway GRNs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Xuewei",
+        "Zhang, Ling",
+        "Islam, Md Khairul",
+        "Zhao, Mingxia",
+        "He, Cheng",
+        "Zhang, Kui",
+        "Liu, Sanzhen",
+        "Sha, Qiuying",
+        "Wei, Hairong"
+      ],
+      "short_names": [
+        "Cao X",
+        "Zhang L",
+        "Islam MK",
+        "Zhao M",
+        "He C",
+        "Zhang K",
+        "Liu S",
+        "Sha Q",
+        "Wei H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6799-0673",
+        "ORCID: 0000-0002-0793-3378",
+        "ORCID: 0000-0002-2441-2064",
+        "ORCID: 0000-0002-9513-855X",
+        "ORCID: 0000-0002-3551-4998"
+      ],
+      "affiliations": [
+        "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA.",
+        "Computational Science and Engineering Program, Michigan Technological University, Houghton, MI 49931, USA.",
+        "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI 49931, USA.",
+        "Computational Science and Engineering Program, Michigan Technological University, Houghton, MI 49931, USA.",
+        "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI 49931, USA.",
+        "Department of Plant Pathology, Kansas State University, Manhattan, KS 66506, USA.",
+        "Department of Plant Pathology, Kansas State University, Manhattan, KS 66506, USA.",
+        "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA.",
+        "Department of Plant Pathology, Kansas State University, Manhattan, KS 66506, USA.",
+        "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA.",
+        "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA.",
+        "Computational Science and Engineering Program, Michigan Technological University, Houghton, MI 49931, USA.",
+        "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI 49931, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Xuewei",
+        "short_name": "Cao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ling",
+        "short_name": "Zhang L",
+        "identifiers": [
+          "0000-0002-6799-0673"
+        ],
+        "affiliations": [
+          "Computational Science and Engineering Program, Michigan Technological University, Houghton, MI 49931, USA.",
+          "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI 49931, USA."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Khairul",
+        "short_name": "Islam MK",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Science and Engineering Program, Michigan Technological University, Houghton, MI 49931, USA.",
+          "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI 49931, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Mingxia",
+        "short_name": "Zhao M",
+        "identifiers": [
+          "0000-0002-0793-3378"
+        ],
+        "affiliations": [
+          "Department of Plant Pathology, Kansas State University, Manhattan, KS 66506, USA."
+        ]
+      },
+      {
+        "full_name": "He, Cheng",
+        "short_name": "He C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology, Kansas State University, Manhattan, KS 66506, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kui",
+        "short_name": "Zhang K",
+        "identifiers": [
+          "0000-0002-2441-2064"
+        ],
+        "affiliations": [
+          "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Sanzhen",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0002-9513-855X"
+        ],
+        "affiliations": [
+          "Department of Plant Pathology, Kansas State University, Manhattan, KS 66506, USA."
+        ]
+      },
+      {
+        "full_name": "Sha, Qiuying",
+        "short_name": "Sha Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Hairong",
+        "short_name": "Wei H",
+        "identifiers": [
+          "0000-0002-3551-4998"
+        ],
+        "affiliations": [
+          "Department of Mathematical Sciences, Michigan Technological University, Houghton, MI 49931, USA.",
+          "Computational Science and Engineering Program, Michigan Technological University, Houghton, MI 49931, USA.",
+          "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI 49931, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/15 06:42",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "41386265",
+      "40969532"
+    ],
+    "refs": [
+      "37233025",
+      "36804928",
+      "36529820",
+      "34403192",
+      "33423287",
+      "32589766",
+      "31640538",
+      "30547401",
+      "30323825",
+      "29954287",
+      "29718177",
+      "29579312",
+      "29545622",
+      "29186304",
+      "28246387",
+      "28158291",
+      "26993098",
+      "24817823",
+      "24695404",
+      "24280390",
+      "23226279",
+      "23222703",
+      "23173819",
+      "23104886",
+      "22916087",
+      "22197883",
+      "22130881",
+      "21410973",
+      "21215760",
+      "19910308",
+      "18980677",
+      "18959772",
+      "18952777",
+      "17214507",
+      "16920875",
+      "16901105",
+      "16723010",
+      "16681847",
+      "15284096",
+      "14647306",
+      "11108481",
+      "10902190",
+      "10380183",
+      "5343519"
+    ],
+    "similar": [
+      "37711605",
+      "39524509",
+      "30547796",
+      "38250147",
+      "24565265",
+      "41310253",
+      "24363662",
+      "24650566",
+      "34702175",
+      "26679776",
+      "22640436",
+      "25350697",
+      "41813236",
+      "42003104",
+      "38354497",
+      "23758851",
+      "42052258",
+      "24228871",
+      "37682473",
+      "33063116",
+      "19956545",
+      "25559499",
+      "37028319",
+      "41288963",
+      "41265166",
+      "31617458",
+      "38423450",
+      "25152886",
+      "34991467",
+      "24278002",
+      "32174324",
+      "27104615",
+      "28338129",
+      "18426580",
+      "37803124",
+      "28068916",
+      "34555591",
+      "40654959",
+      "20158869",
+      "31821577",
+      "33631799",
+      "37374757",
+      "37788349",
+      "37085776",
+      "39599035",
+      "37682477",
+      "23473250",
+      "23868773",
+      "27519564",
+      "31928513",
+      "34448158",
+      "29879919",
+      "28649444",
+      "35083040",
+      "30578913",
+      "39722081",
+      "27556805",
+      "42752548",
+      "28750606",
+      "38980373",
+      "28154505",
+      "41022541",
+      "39051924",
+      "17971223",
+      "22898448",
+      "41153873",
+      "35533234",
+      "29769331",
+      "35692809",
+      "24098079",
+      "30043218",
+      "21668997",
+      "42079733",
+      "40707947",
+      "38601958",
+      "40251476",
+      "37008906",
+      "40607808",
+      "41117218",
+      "41386265",
+      "21554689",
+      "37643390",
+      "34221854",
+      "36455774",
+      "16362910",
+      "37985457",
+      "41518508",
+      "37961577",
+      "40435158",
+      "41314178",
+      "40217202",
+      "36082286",
+      "35799371",
+      "33865589",
+      "40365911",
+      "31632436",
+      "31467549",
+      "40102719",
+      "34740743",
+      "30165436"
+    ],
+    "review": [
+      "37711605",
+      "42052258"
+    ],
+    "pmc": [
+      "10498345"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37711605/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37711605",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqad083",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

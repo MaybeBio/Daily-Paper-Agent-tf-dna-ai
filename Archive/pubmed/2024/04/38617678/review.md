@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusions, and methods.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of the claims presented in the manuscript. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors report engineering the choline-responsive transcriptional repressor BetI from *E. coli* to respond to As(III) by introducing cysteine substitutions at three non-critical residues. The resulting triple mutant, BetI3cys, responds to As(III) while retaining choline responsiveness, and functions as an OR logic gate for the two ligands. The mechanism is proposed to involve As(III) binding to a dithiol motif formed by two introduced cysteines, leading to structural changes that derepress the downstream reporter.
+- **Visible evidence base** Main text figures (Figures 2–6), supplementary figures (Figures S1–S4), supplementary tables (Tables S1–S2), and methods section describing experimental and computational procedures.
+- **Missing materials affecting confidence** Raw fluorescence data, statistical analysis details (e.g., number of biological replicates, error bar definitions), plasmid maps, and validation of the homology model used for MD simulations. The manuscript states that proteomics data under As(III) stress are "in preparation" and are not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to engineering As(III) responsiveness into a non-arsenic-related transcriptional regulator. The experimental data support the conclusion that the triple cysteine mutant BetI3cys responds to As(III) while retaining choline responsiveness, and the OR logic gate behavior is demonstrated. However, several technical aspects require clarification and additional validation before the case is fully established. The mechanistic interpretation based on MD simulations is plausible but speculative, and the lack of direct binding or structural data weakens the proposed model. The study is of interest to the synthetic biology and biosensor communities, but the current evidence does not fully support all claims made.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, whole-cell biosensor development, and protein engineering would find this work relevant. The demonstration that a non-arsenic-related regulator can be converted into an As(III) sensor expands the toolkit for designing metal-responsive transcriptional systems. The OR logic gate concept using a single protein may also appeal to those working on cellular computation and multi-input sensing.
+- **Major strengths** The study addresses a relevant problem in biosensor development, namely expanding the range of proteins that can serve as As(III) sensors. The experimental design is straightforward, and the use of MD simulations to guide mutagenesis is a reasonable approach. The retention of choline responsiveness in the cysteine mutants is a notable finding, and the OR logic gate behavior is clearly demonstrated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that BetI3cys responds to As(III) specifically, based on fluorescence measurements with As(III), Cu(II), and Zn(II).
+  - **Evidence pointer** Figure 5, Results section "Testing of BetI3cys Responsiveness to Other Metal Ions"
+  - **Concern** The specificity test is limited to Cu(II) and Zn(II). The authors do not test other environmentally relevant metals or metalloids such as Sb(III), Cd(II), Pb(II), or Hg(II), which could also interact with thiol groups. Without a broader specificity panel, the claim of As(III) specificity is not fully supported.
+  - **Why it matters** Specificity is a critical parameter for a sensor. If BetI3cys responds to other metals, its utility as an As(III)-specific sensor is compromised. The current data are insufficient to establish specificity beyond the two tested metals.
+  - **Resolution test** The authors should test a panel of relevant metal ions and metalloids at concentrations that do not affect cell viability, and show that BetI3cys does not respond to them. Alternatively, they should temper the specificity claim to reflect the limited testing performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose that As(III) binds to the introduced cysteines L79C and Q81C, forming a dithiol coordination that leads to structural changes and derepression.
+  - **Evidence pointer** Figure 6, Results section "Implications of As(III) Binding on the BetI3cys Structure: Insights from MD Simulations"
+  - **Concern** The mechanistic model is based solely on MD simulations. No experimental evidence is provided for direct As(III) binding to the protein, such as mass spectrometry, X-ray crystallography, or mutagenesis of the proposed binding site. The MD model assumes a specific coordination geometry (L79C-S–AsOH–S-Q81C) without experimental validation.
+  - **Why it matters** The proposed mechanism is central to the claim that the engineered cysteines confer As(III) responsiveness. Without direct binding evidence, alternative explanations, such as As(III)-induced oxidative stress or non-specific protein aggregation, cannot be excluded.
+  - **Resolution test** Provide experimental evidence for As(III) binding to BetI3cys, such as ICP-MS analysis of purified protein, or mutagenesis of the proposed cysteine residues to confirm loss of As(III) response. Alternatively, clearly state that the mechanism is hypothetical and not experimentally validated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors report fluorescence intensity measurements for BetI mutants in response to As(III) and choline.
+  - **Evidence pointer** Figures 2–4, Methods section "Analysis of BetI Cysteine Mutants to As(III) with sfGFP as the Reporter"
+  - **Concern** The methods state that three colonies were randomly selected for each measurement, but the number of independent biological replicates and the definition of error bars are not specified. Statistical significance is mentioned (p < 0.05) but the statistical test used is not described.
+  - **Why it matters** Reproducibility and statistical rigor are essential for the claims made. Without clear information on replicates and statistical methods, the reliability of the reported differences cannot be assessed.
+  - **Resolution test** Specify the number of biological and technical replicates, the error bar definition, and the statistical test used for each comparison. Provide raw data or a clear description of the analysis pipeline.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states that "any protein could be an As(III) sensor if cysteine residues were incorporated." This overgeneralizes the finding, as the study only demonstrates this for one protein (BetI) and one set of mutations.
+  - **Required correction** Rephrase to reflect the specific result, e.g., "this finding suggests that proteins unrelated to As(III) metabolism may be engineered as As(III) sensors by introducing cysteine residues."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3, "location not provided"
+  - **Issue** The figure shows fluorescence data for single, double, and triple cysteine mutants, but the statistical comparisons between mutants are not described in the text. It is unclear whether the differences between the double mutants and the triple mutant are significant.
+  - **Required correction** Add a description of the statistical comparisons performed, or state that no statistical comparisons were made between mutants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Implications of As(III) Binding on the BetI3cys Structure"
+  - **Evidence pointer** Figure 6, "location not provided"
+  - **Issue** The description of the MD simulation results is brief and does not provide quantitative details, such as the distribution of Cα–Cα distances or the statistical significance of the observed increase.
+  - **Required correction** Provide quantitative data from the MD simulations, such as mean and standard deviation of the Cα–Cα distances, and state whether the observed increase is statistically significant across the 10 runs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "MD Simulations"
+  - **Evidence pointer** Methods, "location not provided"
+  - **Issue** The methods state that the homology model was based on PDB 3E7Q, but no validation of the model (e.g., Ramachandran plot, RMSD to template) is provided.
+  - **Required correction** Add a brief validation of the homology model, or state that the model was used without validation as a limitation.
+- **Technical failings that need to be addressed before the case is established** The lack of direct experimental evidence for As(III) binding to BetI3cys (R1-M2) and the limited specificity testing (R1-M1) are the primary technical issues. Additionally, the statistical reporting needs to be clarified (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of engineering a non-arsenic-related regulator into an As(III) sensor is somewhat novel, but the approach is a straightforward extension of previous work on cysteine-containing proteins. The study does not introduce a fundamentally new principle.
+  - **Scientific importance** The work has potential practical value for biosensor development, but the demonstrated sensitivity and specificity are not benchmarked against existing As(III) sensors. The importance is moderate.
+  - **Interdisciplinary readership** The topic is relevant to synthetic biology, environmental monitoring, and protein engineering. However, the narrow focus on one protein and the lack of broader implications may limit cross-disciplinary appeal.
+  - **Technical soundness** The experimental design is generally sound, but the lack of direct binding evidence and limited specificity testing are significant gaps. The MD simulations are used appropriately but are not experimentally validated.
+  - **Readability for nonspecialists** The manuscript is generally clear, but some sections, particularly the MD simulation description, may be difficult for nonspecialists to follow. The abstract and introduction are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that BetI3cys responds to As(III) while retaining choline responsiveness, is plausible and potentially useful. However, the lack of direct binding evidence and limited specificity testing must be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that "any protein could be an As(III) sensor if cysteine residues were incorporated" is an overgeneralization not supported by the data.
+- The proposed mechanism of As(III) binding to the dithiol motif formed by L79C and Q81C is not experimentally validated and should be presented as hypothetical.
+- The statement that As(III) at 10 ppm does not induce oxidative stress is based on unpublished data ("in preparation") and cannot be evaluated.
+- The claim of As(III) specificity is only supported for Cu(II) and Zn(II), not for other metals or metalloids.

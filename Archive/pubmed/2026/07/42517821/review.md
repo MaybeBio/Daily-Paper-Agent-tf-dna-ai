@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce scReGAT, a deep learning framework that integrates prior knowledge of cis-regulatory element (cRE)-gene and transcription factor-gene interactions with single-cell chromatin accessibility data to reconstruct cell-specific regulatory networks. The framework uses a knowledge-guided regulatory graph (kRG) and a Graph Attention Network (GAT) to predict gene expression and assign interpretable regulatory scores to edges. The authors claim that scReGAT recapitulates known cell-type-specific cRE-gene interactions across five single-cell multi-omics datasets, uncovers dynamic regulatory rewiring in neuroblastoma and osteogenic differentiation systems, and identifies disease-associated cell types and candidate regulatory mechanisms for Alzheimer's disease, multiple sclerosis, and schizophrenia using GWAS loci.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, statistical measures, or code verification are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, dataset descriptions, hyperparameter settings, baseline comparisons, and code execution details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable framework for single-cell gene regulation prediction, with a clear conceptual contribution in integrating prior regulatory knowledge into a graph-based deep learning model. However, the evidence provided is entirely qualitative and lacks the quantitative rigor expected for a claim of generalizable performance. The abstract does not report any numerical benchmarks, statistical significance, or comparisons against existing methods, making the core claims currently unverifiable. The biological applications described are promising but are presented without supporting data, so their validity cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on single-cell multi-omics integration, gene regulatory network inference, and deep learning applications in genomics would be the primary audience. Additionally, researchers studying cell-type-specific regulation in development, differentiation, and complex disease genetics, particularly those using GWAS to link non-coding variants to regulatory mechanisms, would find the framework relevant. The potential to bridge prior knowledge with single-cell data could appeal to those seeking interpretable models for regulatory prediction.
+- **Major strengths** The conceptual design is clear and addresses a significant gap in single-cell regulatory inference by incorporating prior knowledge of cRE-gene and TF-gene interactions. The use of an interpretable regulatory score for each edge is a thoughtful feature that could enhance biological utility. The breadth of applications, spanning benchmarking, developmental systems, and disease genetics, suggests a versatile framework with potential for broad impact.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that scReGAT "successfully recapitulates known cell-type-specific cRE-gene interactions" across five datasets
+  - **Evidence pointer** Abstract, benchmarking section; location not provided
+  - **Concern** The abstract provides no quantitative metrics, such as precision, recall, AUROC, or correlation coefficients, to support the benchmarking claim. It is unclear how "successfully recapitulates" is defined or measured, and no comparison to existing methods is presented.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the framework performs adequately or outperforms current approaches. The claim of success is central to the paper's value proposition, and its lack of support undermines confidence in the entire framework.
+  - **Resolution test** Provide benchmark results with specific metrics, error bars, and statistical tests comparing scReGAT to at least one established baseline method across all five datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that scReGAT "uncovers dynamic regulatory rewiring that predicts transcriptional transitions" in neuroblastoma and osteogenic differentiation
+  - **Evidence pointer** Abstract, application sections; location not provided
+  - **Concern** The abstract states that regulatory rewiring is uncovered and predicts transitions, but no details are given on how predictions are validated, what accuracy is achieved, or how the rewiring is quantified. The term "predicts" implies a testable outcome, yet no predictive performance is reported.
+  - **Why it matters** The biological utility of the framework depends on its ability to make meaningful predictions about regulatory dynamics. Without validation metrics or comparison to known transition events, the claim remains anecdotal and cannot be evaluated.
+  - **Resolution test** Include quantitative validation, such as correlation with known transition markers, temporal prediction accuracy, or comparison to experimental perturbation data, with statistical significance reported.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that scReGAT "identifies disease-associated cell types and uncovers candidate regulatory mechanisms" for Alzheimer's disease, multiple sclerosis, and schizophrenia
+  - **Evidence pointer** Abstract, disease application section; location not provided
+  - **Concern** No details are provided on how disease-associated cell types are identified, what statistical thresholds are used, or how candidate mechanisms are prioritized. The abstract does not report any enrichment scores, effect sizes, or replication across independent datasets.
+  - **Why it matters** Disease applications are a key selling point for broad readership, but unsupported claims risk overstating the framework's utility. The lack of quantitative evidence prevents assessment of whether the findings are robust or merely coincidental.
+  - **Resolution test** Provide statistical enrichment results, such as heritability enrichment or colocalization analyses, with significance thresholds and replication checks for each disease.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Framework description
+  - **Evidence pointer** Abstract, introduction of scReGAT; location not provided
+  - **Issue** The abstract does not clarify how the kRG is constructed from "experimentally validated regulatory interactions" and "cell-resolved chromatin accessibility profiles," leaving ambiguity about data sources and preprocessing.
+  - **Required correction** Briefly specify the types of experimental data used (e.g., ChIP-seq, ATAC-seq, curated databases) and how they are integrated into the graph.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, code access statement; location not provided
+  - **Issue** The code links are provided, but the abstract does not state whether the code is versioned, documented, or includes example datasets, which affects reproducibility claims.
+  - **Required correction** Add a statement on code documentation, dependencies, and availability of test data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Benchmarking description
+  - **Evidence pointer** Abstract, benchmarking section; location not provided
+  - **Issue** The abstract mentions "five single-cell multi-omics datasets" but does not specify their types (e.g., scRNA-seq with scATAC-seq) or species, limiting the reader's ability to gauge generalizability.
+  - **Required correction** List the dataset types and species in the abstract or refer to a table in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the abstract provides no quantitative evidence for the central claims of benchmarking success, predictive utility in differentiation, and disease relevance. Without these data, the framework's performance and biological value cannot be established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The integration of prior regulatory knowledge into a graph attention network for single-cell prediction is a novel concept, but the abstract does not demonstrate how this differs from existing graph-based methods in practice.
+  - Scientific importance: The potential to link single-cell regulation to disease genetics is significant, but the lack of evidence prevents assessment of whether the framework delivers on this promise.
+  - Interdisciplinary readership: The abstract is written accessibly for a broad audience, but the absence of quantitative results may limit appeal to experimental biologists seeking concrete validation.
+  - Technical soundness: The methodological description is too brief to evaluate; no details on model architecture, training, or evaluation are provided.
+  - Readability for nonspecialists: The abstract is clear and jargon is explained, but the lack of results makes it difficult for nonspecialists to judge the framework's credibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, and the authors should be encouraged to resubmit with full quantitative results, but the abstract alone does not support the claims made.
+
+## Risk / unsupported claims
+- The claim of successful recapitulation of known cRE-gene interactions is unsupported due to missing metrics.
+- The claim of predicting transcriptional transitions in differentiation systems is unsupported due to missing validation.
+- The claim of identifying disease-associated cell types and mechanisms is unsupported due to missing statistical evidence.
+- The generalizability of the framework across five datasets is unverifiable without dataset descriptions and benchmark details.
+- The interpretability of the regulatory score is asserted but not demonstrated with examples or validation.

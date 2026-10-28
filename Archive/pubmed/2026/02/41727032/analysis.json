@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41727032",
+  "title": "Discovery of TDP-43 aggregation inhibitors via a hybrid machine learning framework.",
+  "authors": "Kapsiani, Sofia; Vora, Sulay; Fernandez-Villegas, Ana; Kaminski, Clemens F; Laubli, Nino F; Kaminski Schierle, Gabriele S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-23",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用混合机器学习筛选TDP-43聚集抑制剂，虽涉及TDP-43蛋白与DNA/RNA结合域对接，但核心是药物发现而非TF-DNA互作机制建模，方法可迁移性有限。",
+  "abstract": "TAR DNA-binding protein 43 (TDP-43) aggregation is a hallmark of several neurodegenerative diseases, including amyotrophic lateral sclerosis and frontotemporal dementia. Recent therapeutic efforts have highlighted the potential of small molecules capable of inhibiting TDP-43 aggregation; however, no effective treatments currently exist. Here, we developed a hybrid machine learning approach combining graph neural network (GNN) embeddings with traditional chemical descriptors and biological target annotations. Using XGBoost as the final classifier enabled model interpretability through SHAP analysis, allowing the identification of key chemical features and target annotations associated with TDP-43 anti-aggregation activity. Complementary Monte Carlo Tree Search analysis highlighted specific chemical substructures linked to predicted activity. By screening an external library of 3,853 small molecules, the model identified two compounds not previously evaluated against TDP-43 aggregation, namely berberrubine and PE859. Molecular docking analysis revealed that both compounds interact favourably with the TDP-43 RNA recognition motif (RRM) domain through distinct binding modes. Experimental validation showed that both compounds significantly reduced TDP-43 aggregation in HEK cells. Further testing in Caenorhabditis elegans expressing human TDP-43 demonstrated that PE859 significantly rescued locomotor defects, while berberrubine showed partial improvement. This work establishes a hybrid machine learning approach for accelerating small molecule drug discovery, yielding two promising therapeutic candidates for TDP-43 proteinopathies.",
+  "abstract_zh": "TAR DNA结合蛋白43（TDP-43）聚集是多种神经退行性疾病的标志，包括肌萎缩侧索硬化症和额颞叶痴呆。近期治疗研究强调了能够抑制TDP-43聚集的小分子的潜力；然而，目前尚无有效治疗方法。在此，我们开发了一种混合机器学习方法，将图神经网络（GNN）嵌入与传统化学描述符和生物靶标注释相结合。使用XGBoost作为最终分类器，通过SHAP分析实现了模型可解释性，从而识别出与TDP-43抗聚集活性相关的关键化学特征和靶标注释。补充的蒙特卡洛树搜索分析突出了与预测活性相关的特定化学亚结构。通过筛选包含3,853个小分子的外部库，模型识别出两种先前未针对TDP-43聚集评估的化合物，即小檗红碱（berberrubine）和PE859。分子对接分析显示，这两种化合物通过不同的结合模式与TDP-43 RNA识别基序（RRM）结构域发生有利相互作用。实验验证表明，这两种化合物在HEK细胞中显著减少了TDP-43聚集。在表达人TDP-43的秀丽隐杆线虫（Caenorhabditis elegans）中的进一步测试表明，PE859显著改善了运动缺陷，而小檗红碱显示出部分改善。这项工作建立了一种加速小分子药物发现的混合机器学习方法，为TDP-43蛋白病提供了两种有前景的治疗候选药物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41727032/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41727032/",
+  "paper_page_path": "papers/pubmed/41727032/index.html"
+}

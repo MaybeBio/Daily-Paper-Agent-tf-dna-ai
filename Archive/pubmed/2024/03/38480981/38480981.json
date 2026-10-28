@@ -1,0 +1,447 @@
+{
+  "identity": {
+    "pmid": "38480981",
+    "doi": "10.1038/s41589-024-01584-7",
+    "title": "Functional genomic screens with death rate analyses reveal mechanisms of drug action."
+  },
+  "content": {
+    "abstract": "A common approach for understanding how drugs induce their therapeutic effects is to identify the genetic determinants of drug sensitivity. Because 'chemo-genetic profiles' are performed in a pooled format, inference of gene function is subject to several confounding influences related to variation in growth rates between clones. In this study, we developed Method for Evaluating Death Using a Simulation-assisted Approach (MEDUSA), which uses time-resolved measurements, along with model-driven constraints, to reveal the combination of growth and death rates that generated the observed drug response. MEDUSA is uniquely effective at identifying death regulatory genes. We apply MEDUSA to characterize DNA damage-induced lethality in the presence and absence of p53. Loss of p53 switches the mechanism of DNA damage-induced death from apoptosis to a non-apoptotic death that requires high respiration. These findings demonstrate the utility of MEDUSA both for determining the genetic dependencies of lethality and for revealing opportunities to potentiate chemo-efficacy in a cancer-specific manner.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Genomics/methods",
+      "*DNA Damage/drug effects",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "Apoptosis/drug effects/genetics",
+      "Antineoplastic Agents/pharmacology",
+      "Cell Line, Tumor",
+      "Cell Death/drug effects/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Honeywell, Megan E",
+        "Isidor, Marie S",
+        "Harper, Nicholas W",
+        "Fontana, Rachel E",
+        "Birdsall, Gavin A",
+        "Cruz-Gordillo, Peter",
+        "Porto, Sydney A",
+        "Jerome, Madison",
+        "Fraser, Cameron S",
+        "Sarosiek, Kristopher A",
+        "Guertin, David A",
+        "Spinelli, Jessica B",
+        "Lee, Michael J"
+      ],
+      "short_names": [
+        "Honeywell ME",
+        "Isidor MS",
+        "Harper NW",
+        "Fontana RE",
+        "Birdsall GA",
+        "Cruz-Gordillo P",
+        "Porto SA",
+        "Jerome M",
+        "Fraser CS",
+        "Sarosiek KA",
+        "Guertin DA",
+        "Spinelli JB",
+        "Lee MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4894-8672",
+        "ORCID: 0000-0003-3396-5389",
+        "ORCID: 0000-0002-4037-7473",
+        "ORCID: 0000-0002-0264-7348",
+        "ORCID: 0009-0009-7329-404X",
+        "ORCID: 0000-0002-8180-5913",
+        "ORCID: 0000-0002-4618-5085",
+        "ORCID: 0000-0003-3378-6196"
+      ],
+      "affiliations": [
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA.",
+        "Novo Nordisk Foundation Center for Basic Metabolic Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA.",
+        "John B. Little Center for Radiation Sciences, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "John B. Little Center for Radiation Sciences, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA.",
+        "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA.",
+        "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA. michael.lee@umassmed.edu.",
+        "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA. michael.lee@umassmed.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Honeywell, Megan E",
+        "short_name": "Honeywell ME",
+        "identifiers": [
+          "0000-0002-4894-8672"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Isidor, Marie S",
+        "short_name": "Isidor MS",
+        "identifiers": [
+          "0000-0003-3396-5389"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA.",
+          "Novo Nordisk Foundation Center for Basic Metabolic Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Harper, Nicholas W",
+        "short_name": "Harper NW",
+        "identifiers": [
+          "0000-0002-4037-7473"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Fontana, Rachel E",
+        "short_name": "Fontana RE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Birdsall, Gavin A",
+        "short_name": "Birdsall GA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Cruz-Gordillo, Peter",
+        "short_name": "Cruz-Gordillo P",
+        "identifiers": [
+          "0000-0002-0264-7348"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Porto, Sydney A",
+        "short_name": "Porto SA",
+        "identifiers": [
+          "0009-0009-7329-404X"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Jerome, Madison",
+        "short_name": "Jerome M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Fraser, Cameron S",
+        "short_name": "Fraser CS",
+        "identifiers": [
+          "0000-0002-8180-5913"
+        ],
+        "affiliations": [
+          "John B. Little Center for Radiation Sciences, Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Sarosiek, Kristopher A",
+        "short_name": "Sarosiek KA",
+        "identifiers": [
+          "0000-0002-4618-5085"
+        ],
+        "affiliations": [
+          "John B. Little Center for Radiation Sciences, Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Guertin, David A",
+        "short_name": "Guertin DA",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Spinelli, Jessica B",
+        "short_name": "Spinelli JB",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Michael J",
+        "short_name": "Lee MJ",
+        "identifiers": [
+          "0000-0003-3378-6196"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, UMass Chan Medical School, Worcester, MA, USA. michael.lee@umassmed.edu.",
+          "Program in Molecular Medicine, UMass Chan Medical School, Worcester, MA, USA. michael.lee@umassmed.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemical biology"
+    ],
+    "journal_abbrev": [
+      "Nat Chem Biol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/14 06:46",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "41968294",
+      "41932441",
+      "41419001",
+      "40818455",
+      "40549770",
+      "40291701",
+      "39995184",
+      "39713309",
+      "39378840",
+      "39033209",
+      "38531973"
+    ],
+    "refs": [
+      "37699398",
+      "36160449",
+      "35298263",
+      "35264789",
+      "34930405",
+      "34545248",
+      "33659903",
+      "33016568",
+      "32868903",
+      "32649862",
+      "32640215",
+      "32579927",
+      "32306927",
+      "32251407",
+      "31921397",
+      "31474361",
+      "31439014",
+      "30879903",
+      "30537511",
+      "30535998",
+      "29452639",
+      "29362479",
+      "29255269",
+      "28912134",
+      "28601558",
+      "27667664",
+      "27135972",
+      "27062928",
+      "26928661",
+      "26627737",
+      "25799988",
+      "25158956",
+      "24726643",
+      "24336571",
+      "22726440",
+      "22033517",
+      "19442242",
+      "19188164",
+      "18510930",
+      "18082599",
+      "15381699",
+      "14963330",
+      "14500851",
+      "11463392",
+      "10807576",
+      "8756351",
+      "8402885",
+      "7973635",
+      "7756171"
+    ],
+    "similar": [
+      "38480981",
+      "39995184",
+      "19229632",
+      "27108384",
+      "9816112",
+      "20132225",
+      "28284059",
+      "12548006",
+      "18162465",
+      "18600528",
+      "20675184",
+      "20025574",
+      "31362335",
+      "27315169",
+      "14645705",
+      "27813185",
+      "22888789",
+      "36712034",
+      "26349782",
+      "25305590",
+      "32719328",
+      "26556860",
+      "15480431",
+      "29386219",
+      "9841917",
+      "18414049",
+      "20367642",
+      "22477712",
+      "21127500",
+      "30408460",
+      "25535325",
+      "32661168",
+      "18482988",
+      "25132271",
+      "27077811",
+      "22640402",
+      "34597653",
+      "26832796",
+      "24583196",
+      "16819506",
+      "12384701",
+      "21380817",
+      "21256211",
+      "26884258",
+      "11461765",
+      "23702906",
+      "24898668",
+      "10786695",
+      "18847491",
+      "21356574",
+      "24871662",
+      "10049063",
+      "24413150",
+      "15044535",
+      "26188505",
+      "21927014",
+      "11782394",
+      "34400889",
+      "23618908",
+      "32441252",
+      "34769259",
+      "22662219",
+      "26694174",
+      "8640828",
+      "25761368",
+      "38667315",
+      "31308060",
+      "9764822",
+      "39684639",
+      "22761954",
+      "17719538",
+      "23766530",
+      "25482935",
+      "9506540",
+      "18202704",
+      "27834954",
+      "16931914",
+      "35178190",
+      "35327653",
+      "28888100",
+      "24886669",
+      "22848731",
+      "21709442",
+      "28802167",
+      "31096697",
+      "24810057",
+      "28287251",
+      "12478472",
+      "20870738",
+      "27262408",
+      "24952138",
+      "23678107",
+      "28349922",
+      "21557332",
+      "21903579",
+      "18281519",
+      "39820009",
+      "16835297",
+      "24434508",
+      "19787255"
+    ],
+    "review": [
+      "38480981",
+      "19229632",
+      "20132225",
+      "12548006",
+      "20675184",
+      "18414049",
+      "34769259",
+      "39684639",
+      "17719538"
+    ],
+    "pmc": [
+      "11393183"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41589-024-01584-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38480981/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse232592",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

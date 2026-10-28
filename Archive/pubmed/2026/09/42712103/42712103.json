@@ -13,28 +13,29 @@
       "hepatocellular carcinoma"
     ],
     "mesh_terms": [
-      "Humans",
-      "*Deep Learning",
-      "*Liver Neoplasms/genetics/diagnostic imaging/pathology/diagnosis",
-      "*Tumor Suppressor Protein p53/genetics",
-      "*Carcinoma, Hepatocellular/genetics/diagnostic imaging/pathology/diagnosis",
-      "Female",
-      "Male",
-      "*Mutation",
-      "Middle Aged",
-      "*Magnetic Resonance Imaging/methods",
-      "Prognosis",
-      "Retrospective Studies",
+      "Adult",
       "Aged",
-      "ROC Curve",
-      "Radiomics",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "*Carcinoma, Hepatocellular/diagnostic imaging/genetics/pathology",
+      "*Deep Learning",
       "Dynamic Contrast Enhanced Magnetic Resonance Imaging",
+      "*Liver Neoplasms/diagnostic imaging/genetics/pathology",
+      "*Magnetic Resonance Imaging/methods",
+      "*Mutation",
       "Predictive Learning Models",
-      "Adult"
+      "Prognosis",
+      "Radiomics",
+      "Retrospective Studies",
+      "ROC Curve",
+      "*Tumor Suppressor Protein p53/genetics"
     ],
     "pub_types": [
       "Journal Article",
-      "Multicenter Study"
+      "Multicenter Study",
+      "Validation Study"
     ]
   },
   "contributors": {
@@ -131,21 +132,60 @@
     "pub_year": "2026",
     "pub_types": [
       "Journal Article",
-      "Multicenter Study"
+      "Multicenter Study",
+      "Validation Study"
     ]
   },
   "metadata": {
     "entrez_date": "2026/09/09 11:38",
-    "fetched_at": "2026-09-12 17:22:58"
+    "fetched_at": "2026-10-02 05:17:11"
   },
   "links": {
     "cites": [],
-    "refs": [],
+    "refs": [
+      "42169905",
+      "41430161",
+      "40933208",
+      "40844448",
+      "40792053",
+      "40302359",
+      "40165094",
+      "40158473",
+      "40102774",
+      "39992060",
+      "39817679",
+      "39631483",
+      "39619794",
+      "39569409",
+      "39224117",
+      "39025700",
+      "38900411",
+      "38773179",
+      "38763975",
+      "38626948",
+      "38521180",
+      "38436551",
+      "37884736",
+      "37717526",
+      "37647155",
+      "37606573",
+      "37323246",
+      "36816963",
+      "36786702",
+      "36219111",
+      "35078970",
+      "32811570",
+      "30681563",
+      "28532995",
+      "25822088",
+      "24700365"
+    ],
     "similar": [
       "42712103",
       "42169905",
       "40624579",
       "41430161",
+      "42732916",
       "40899931",
       "41723042",
       "42637179",
@@ -159,7 +199,6 @@
       "33839938",
       "42373437",
       "40595796",
-      "40933208",
       "40084948",
       "40274548",
       "41882552",
@@ -169,6 +208,7 @@
       "37875815",
       "41953399",
       "40460947",
+      "40933208",
       "37078470",
       "39972270",
       "30666445",
@@ -184,14 +224,14 @@
       "41023894",
       "39675785",
       "38536542",
-      "40389920",
       "41714223",
+      "40389920",
       "42500825",
       "41814400",
-      "41219899",
       "40102774",
-      "38690027",
+      "41219899",
       "40730778",
+      "38690027",
       "37888871",
       "41161266",
       "41924546",
@@ -236,7 +276,6 @@
       "42020230",
       "39181825",
       "41102694",
-      "42157135",
       "41134139",
       "42164573",
       "41735109",
@@ -259,11 +298,18 @@
         "linkname": ""
       },
       {
-        "url": "https://medlineplus.gov/livercancer.html",
+        "url": "https://medlineplus.gov/mriscans.html",
         "provider": "MedlinePlus Health Information",
         "category": "Medical",
         "attribute": "free resource",
-        "linkname": "Liver Cancer"
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42712103/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
       },
       {
         "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",

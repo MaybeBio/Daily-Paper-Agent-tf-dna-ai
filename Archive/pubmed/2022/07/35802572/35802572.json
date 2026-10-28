@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "35802572",
+    "doi": "10.1371/journal.pcbi.1010264",
+    "title": "Model-based translation of DNA damage signaling dynamics across cell types."
+  },
+  "content": {
+    "abstract": "Interindividual variability in DNA damage response (DDR) dynamics may evoke differences in susceptibility to cancer. However, pathway dynamics are often studied in cell lines as alternative to primary cells, disregarding variability. To compare DDR dynamics in the cell line HepG2 with primary human hepatocytes (PHHs), we developed a HepG2-based computational model that describes the dynamics of DDR regulator p53 and targets MDM2, p21 and BTG2. We used this model to generate simulations of virtual PHHs and compared the results to those for PHH donor samples. Correlations between baseline p53 and p21 or BTG2 mRNA expression in the absence and presence of DNA damage for HepG2-derived virtual samples matched the moderately positive correlations observed for 50 PHH donor samples, but not the negative correlations between p53 and its inhibitor MDM2. Model parameter manipulation that affected p53 or MDM2 dynamics was not sufficient to accurately explain the negative correlation between these genes. Thus, extrapolation from HepG2 to PHH can be done for some DDR elements, yet our analysis also reveals a knowledge gap within p53 pathway regulation, which makes such extrapolation inaccurate for the regulator MDM2. This illustrates the relevance of studying pathway dynamics in addition to gene expression comparisons to allow reliable translation of cellular responses from cell lines to primary cells. Overall, with our approach we show that dynamical modeling can be used to improve our understanding of the sources of interindividual variability of pathway dynamics.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "Cyclin-Dependent Kinase Inhibitor p21/genetics/metabolism",
+      "DNA Damage/genetics",
+      "Hepatocytes/metabolism",
+      "Humans",
+      "*Immediate-Early Proteins/genetics/metabolism",
+      "*Proto-Oncogene Proteins c-mdm2/genetics/metabolism",
+      "Tumor Suppressor Protein p53/genetics",
+      "Tumor Suppressor Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heldring, Muriel M",
+        "Wijaya, Lukas S",
+        "Niemeijer, Marije",
+        "Yang, Huan",
+        "Lakhal, Talel",
+        "Le Devedec, Sylvia E",
+        "van de Water, Bob",
+        "Beltman, Joost B"
+      ],
+      "short_names": [
+        "Heldring MM",
+        "Wijaya LS",
+        "Niemeijer M",
+        "Yang H",
+        "Lakhal T",
+        "Le Devedec SE",
+        "van de Water B",
+        "Beltman JB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3565-7227",
+        "ORCID: 0000-0003-0045-2317",
+        "ORCID: 0000-0002-3471-8235",
+        "ORCID: 0000-0002-0615-9616"
+      ],
+      "affiliations": [
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heldring, Muriel M",
+        "short_name": "Heldring MM",
+        "identifiers": [
+          "0000-0002-3565-7227"
+        ],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wijaya, Lukas S",
+        "short_name": "Wijaya LS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Niemeijer, Marije",
+        "short_name": "Niemeijer M",
+        "identifiers": [
+          "0000-0003-0045-2317"
+        ],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Yang, Huan",
+        "short_name": "Yang H",
+        "identifiers": [
+          "0000-0002-3471-8235"
+        ],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lakhal, Talel",
+        "short_name": "Lakhal T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Le Dévédec, Sylvia E",
+        "short_name": "Le Dévédec SE",
+        "identifiers": [
+          "0000-0002-0615-9616"
+        ],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van de Water, Bob",
+        "short_name": "van de Water B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Beltman, Joost B",
+        "short_name": "Beltman JB",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Drug Discovery and Safety, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/09 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "40063860",
+      "37765169",
+      "36309218",
+      "35933513"
+    ],
+    "refs": [
+      "34626214",
+      "33957093",
+      "33545341",
+      "32981483",
+      "32775153",
+      "32589666",
+      "32533938",
+      "32318794",
+      "31207892",
+      "31066453",
+      "30788552",
+      "29462216",
+      "29055670",
+      "28801249",
+      "28622525",
+      "28288132",
+      "27982581",
+      "27939942",
+      "27358234",
+      "27280975",
+      "27039104",
+      "26104854",
+      "25569257",
+      "25528631",
+      "25516281",
+      "24450961",
+      "24098642",
+      "23911569",
+      "23508805",
+      "23490085",
+      "23436293",
+      "23303139",
+      "22264786",
+      "22258563",
+      "22100608",
+      "21797665",
+      "21572037",
+      "21186936",
+      "20979621",
+      "20025780",
+      "19505944",
+      "19160491",
+      "18082599",
+      "17525332",
+      "16773083",
+      "16607284",
+      "16213212",
+      "15510160",
+      "15120964",
+      "11953423",
+      "11923872",
+      "11794380",
+      "11357144",
+      "11280734",
+      "11099028",
+      "11016968",
+      "10902970",
+      "10779360",
+      "10669755",
+      "10354524",
+      "9822382",
+      "9685572",
+      "9671804",
+      "9363941",
+      "8891336",
+      "8334675",
+      "7892276",
+      "7737047",
+      "7664346",
+      "7607565",
+      "6370426",
+      "240655"
+    ],
+    "similar": [
+      "35802572",
+      "26335183",
+      "19946469",
+      "18485798",
+      "17063487",
+      "17371838",
+      "18706112",
+      "16585169",
+      "31568519",
+      "32458023",
+      "19965665",
+      "15625077",
+      "16152627",
+      "26397130",
+      "27129219",
+      "16552971",
+      "17585201",
+      "18234963",
+      "19166840",
+      "30226276",
+      "16934800",
+      "23167335",
+      "23585871",
+      "24829283",
+      "25382750",
+      "28511869",
+      "19249676",
+      "30762566",
+      "23405218",
+      "22244827",
+      "29030058",
+      "23555719",
+      "11042688",
+      "22264786",
+      "22290440",
+      "32894144",
+      "26904937",
+      "20025780",
+      "21338495",
+      "21060154",
+      "26493683",
+      "27792410",
+      "17786043",
+      "21852537",
+      "26238070",
+      "18625847",
+      "30262665",
+      "11003613",
+      "20935220",
+      "33503543",
+      "27871087",
+      "21509038",
+      "24177958",
+      "33811687",
+      "25105592",
+      "21743494",
+      "20156675",
+      "22914926",
+      "28260096",
+      "26984736",
+      "20931139",
+      "9067734",
+      "28436570",
+      "25301064",
+      "34826438",
+      "10657898",
+      "26823446",
+      "22713239",
+      "25133668",
+      "29565482",
+      "23933826",
+      "7698255",
+      "23357534",
+      "16246194",
+      "28126523",
+      "10207094",
+      "19233211",
+      "17377491",
+      "16215989",
+      "19657064",
+      "24447832",
+      "18566224",
+      "19541625",
+      "24801380",
+      "17297446",
+      "19638413",
+      "17982489",
+      "29931788",
+      "33125146",
+      "31339234",
+      "27829214",
+      "29055670",
+      "38498338"
+    ],
+    "review": [
+      "35802572",
+      "17377491"
+    ],
+    "pmc": [
+      "9269748"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010264",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35802572/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35802572",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38647081",
+  "title": "Comprehensive genomic features indicative for Notch responsiveness.",
+  "authors": "Giaimo, Benedetto Daniele; Friedrich, Tobias; Ferrante, Francesca; Bartkuhn, Marek; Borggrefe, Tilman",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-04-22",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过ChIP-Seq研究RBPJ转录因子在Notch信号中的动态结合位点，并用机器学习预测响应性，虽涉及TF-DNA结合但缺乏三维互作建模与物理模拟，方法深度有限。",
+  "abstract": "Transcription factor RBPJ is the central component in Notch signal transduction and directly forms a coactivator complex together with the Notch intracellular domain (NICD). While RBPJ protein levels remain constant in most tissues, dynamic expression of Notch target genes varies depending on the given cell-type and the Notch activity state. To elucidate dynamic RBPJ binding genome-wide, we investigated RBPJ occupancy by ChIP-Seq. Surprisingly, only a small set of the total RBPJ sites show a dynamic binding behavior in response to Notch signaling. Compared to static RBPJ sites, dynamic sites differ in regard to their chromatin state, binding strength and enhancer positioning. Dynamic RBPJ sites are predominantly located distal to transcriptional start sites (TSSs), while most static sites are found in promoter-proximal regions. Importantly, gene responsiveness is preferentially associated with dynamic RBPJ binding sites and this static and dynamic binding behavior is repeatedly observed across different cell types and species. Based on the above findings we used a machine-learning algorithm to predict Notch responsiveness with high confidence in different cellular contexts. Our results strongly support the notion that the combination of binding strength and enhancer positioning are indicative of Notch responsiveness.",
+  "abstract_zh": "转录因子RBPJ是Notch信号转导中的核心组分，并直接与Notch胞内域（NICD）形成共激活因子复合物。尽管RBPJ蛋白水平在大多数组织中保持恒定，Notch靶基因的动态表达却因特定细胞类型和Notch活性状态而异。为阐明全基因组范围内的动态RBPJ结合，我们通过ChIP-Seq研究了RBPJ的占据情况。令人惊讶的是，总RBPJ位点中仅有一小部分表现出对Notch信号响应的动态结合行为。与静态RBPJ位点相比，动态位点在染色质状态、结合强度和增强子定位方面存在差异。动态RBPJ位点主要位于转录起始位点（TSSs）的远端，而大多数静态位点则位于启动子近端区域。重要的是，基因响应性优先与动态RBPJ结合位点相关联，且这种静态和动态结合行为在不同细胞类型和物种中反复观察到。基于上述发现，我们使用机器学习算法在不同细胞背景下高置信度地预测Notch响应性。我们的结果强烈支持结合强度与增强子定位的组合可指示Notch响应性的观点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38647081/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38647081/",
+  "paper_page_path": "papers/pubmed/38647081/index.html"
+}

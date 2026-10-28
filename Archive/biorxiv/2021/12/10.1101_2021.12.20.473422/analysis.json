@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.20.473422",
+  "title": "Identification of upstream transcription factor binding sites in orthologous genes using mixed Student’s <i>t</i> -test statistics",
+  "authors": "Tinghua Huang; Hong Xiao; Qi Tian; Zhen He; Cheng Yuan; Zezhao Lin; Xuejun Gao; Min Yao",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-21",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于混合t检验统计的Grit工具，用于跨物种直系同源基因启动子中TF结合位点预测，虽属TF-DNA互作范畴，但方法为传统统计扫描而非AI或物理模拟，深度有限。",
+  "abstract": "Background Transcription factor (TF) regulates the transcription of DNA to messenger RNA by binding to upstream sequence motifs. Identifying the locations of known motifs in whole genomes is computationally intensive. Methodology/Principal Findings This study presents a computational tool, named “Grit”, for screening TF-binding sites (TFBS) by coordinating transcription factors to their promoter sequences in orthologous genes. This tool employs a newly developed mixed Student’s t -test statistical method that detects high-scoring conserved and non-conserved binding sites among species. The program performs sequence scanning at a rate of 3.2 Mb/s on a quad-core Amazon server and has been benchmarked by the well-established ChIP-Seq datasets, putting Grit amongst the top-ranked TFBS predictors. It marginally outperforms the well-known transcription factor motif scanning tools, Pscan (4.8%) and FIMO (17.8%), in analyzing well-documented ChIP-Atlas human genome Chip-Seq datasets. Significance Grit is a good alternative to current available motif scanning tools and is publicly available at http://www.thua45.cn/grit under an academic free license. Author Summary Locating transcription factor-binding (TF-binding) site in the genome and identification their function is fundamental in understanding various biological processes. Improve the performance of the prediction tools is important because accurate TF-binding site prediction can save cost and time for wet-lab experiments. Also, genome wide TF-binding site prediction can provide new insights for transcriptome regulation in system biology perspective. This study developed a new TF-binding site prediction tool based on mixed Student’s t -test statistical method. The tool is amongst the top-ranked TF-binding site predictors, as such, it can help the researchers in TF-binding site identification and transcriptional regulation mechanism interpretation of genes.",
+  "abstract_zh": "背景 转录因子（Transcription Factor, TF）通过结合上游序列基序来调控DNA向信使RNA的转录。在全基因组范围内识别已知基序的位置在计算上非常密集。方法/主要发现 本研究提出了一种名为“Grit”的计算工具，通过将转录因子与其同源基因中的启动子序列进行协调，来筛选TF结合位点（TF-binding sites, TFBS）。该工具采用了一种新开发的混合学生t检验统计方法，能够检测物种间高评分的保守和非保守结合位点。该程序在四核亚马逊服务器上以3.2 Mb/s的速度进行序列扫描，并已通过成熟的ChIP-Seq数据集进行基准测试，使Grit跻身于顶级TFBS预测工具之列。在分析有充分记录的ChIP-Atlas人类基因组Chip-Seq数据集时，它略优于已知的转录因子基序扫描工具Pscan（4.8%）和FIMO（17.8%）。意义 Grit是现有基序扫描工具的一个良好替代品，并在学术免费许可下公开可用，网址为http://www.thua45.cn/grit。作者摘要 在基因组中定位转录因子结合位点并识别其功能，是理解各种生物过程的基础。提高预测工具的性能至关重要，因为准确的TF结合位点预测可以节省湿实验的成本和时间。此外，全基因组TF结合位点预测可以从系统生物学的角度为转录组调控提供新的见解。本研究基于混合学生t检验统计方法开发了一种新的TF结合位点预测工具。该工具位列顶级TF结合位点预测工具之列，因此，它可以帮助研究人员进行TF结合位点识别和基因转录调控机制的解释。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.20.473422",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.20.473422",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.20.473422/index.html"
+}

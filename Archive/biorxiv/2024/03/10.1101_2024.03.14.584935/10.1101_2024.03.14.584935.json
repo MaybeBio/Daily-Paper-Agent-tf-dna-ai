@@ -1,0 +1,650 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.14.584935",
+  "title": "ProAffinity-GNN: A Novel Approach to Structure-based Protein-Protein Binding Affinity Prediction via a Curated Dataset and Graph Neural Networks",
+  "doi": "10.1101/2024.03.14.584935",
+  "abstract": "Protein-protein interactions (PPIs) are crucial for understanding biological processes and disease mechanisms, contributing significantly to advances in protein engineering and drug discovery. The accurate determination of binding affinities, essential for decoding PPIs, faces challenges due to the substantial time and financial costs involved in experimental and theoretical methods. This situation underscores the urgent need for more effective and precise methodologies for predicting binding affinity. Despite the abundance of research on PPI modeling, the field of quantitative binding affinity prediction remains underexplored, mainly due to a lack of comprehensive data. This study seeks to address these needs by manually curating pairwise interaction labels on all available 3D structures of proteins complexes, with experimentally determined binding affinities, creating the largest dataset for structure-based pairwise protein interaction with binding affinity to date. Subsequently, we introduce “ProAffinity-GNN”, a novel deep learning framework using protein language model and graph neural network (GNN) to improve the accuracy of prediction of structure-based protein-protein binding affinities. The evaluation results across several benchmark test sets demonstrate that ProAffinity-GNN not only outperforms existing models in terms of accuracy but also shows strong generalization capabilities.",
+  "authors": [
+    "Zhiyuan Zhou",
+    "Yueming Yin",
+    "Hao Han",
+    "Yiping Jia",
+    "Jun Hong Koh",
+    "Adams Wai-Kin Kong",
+    "Yuguang Mu"
+  ],
+  "published_date": "2024-03-15",
+  "updated_date": "2024-03-15T20:45:57Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.584935",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.584935.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ],
+        "date-time": "2026-08-27T16:10:58Z",
+        "timestamp": 1787847058595,
+        "version": "build-2784847793"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-protein interactions (PPIs) are crucial for understanding biological processes and disease mechanisms, contributing significantly to advances in protein engineering and drug discovery. The accurate determination of binding affinities, essential for decoding PPIs, faces challenges due to the substantial time and financial costs involved in experimental and theoretical methods. This situation underscores the urgent need for more effective and precise methodologies for predicting binding affinity. Despite the abundance of research on PPI modeling, the field of quantitative binding affinity prediction remains underexplored, mainly due to a lack of comprehensive data.</jats:p>\n                <jats:p>This study seeks to address these needs by manually curating pairwise interaction labels on all available 3D structures of proteins complexes, with experimentally determined binding affinities, creating the largest dataset for structure-based pairwise protein interaction with binding affinity to date. Subsequently, we introduce “ProAffinity-GNN”, a novel deep learning framework using protein language model and graph neural network (GNN) to improve the accuracy of prediction of structure-based protein-protein binding affinities. The evaluation results across several benchmark test sets demonstrate that ProAffinity-GNN not only outperforms existing models in terms of accuracy but also shows strong generalization capabilities.</jats:p>",
+      "DOI": "10.1101/2024.03.14.584935",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            15
+          ]
+        ],
+        "date-time": "2024-03-15T20:45:57Z",
+        "timestamp": 1710535557000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "ProAffinity-GNN: A Novel Approach to Structure-based Protein-Protein Binding Affinity Prediction via a Curated Dataset and Graph Neural Networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2997-068X",
+          "authenticated-orcid": false,
+          "given": "Zhiyuan",
+          "family": "Zhou",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yueming",
+          "family": "Yin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hao",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yiping",
+          "family": "Jia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jun Hong",
+          "family": "Koh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adams Wai-Kin",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2499-026X",
+          "authenticated-orcid": false,
+          "given": "Yuguang",
+          "family": "Mu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.1",
+          "first-page": "798",
+          "article-title": "Protein–protein interactions: detection, reliability assessment and applications",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "Briefings in bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2005.06.001"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "535",
+          "DOI": "10.1002/bip.20608",
+          "article-title": "Protein–protein interactions as targets for small molecule drug discovery",
+          "volume": "84",
+          "year": "2006",
+          "journal-title": "Peptide Science: Original Research on Biomolecules"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "3223",
+          "DOI": "10.1016/j.csbj.2022.06.025",
+          "article-title": "Deep learning frameworks for protein–protein interaction prediction",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "102344",
+          "DOI": "10.1016/j.sbi.2022.102344",
+          "article-title": "Recent advances in predicting protein–protein interactions with the aid of artificial intelligence algorithms",
+          "volume": "73",
+          "year": "2022",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.6",
+          "first-page": "e1618",
+          "article-title": "Machine learning solutions for predicting protein–protein interactions",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1341",
+          "DOI": "10.1007/s12551-022-01032-7",
+          "article-title": "Protein–protein interaction prediction methods: from docking-based to AI-based approaches",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Biophysical Reviews"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "gzad023",
+          "DOI": "10.1093/protein/gzad023",
+          "article-title": "Growing ecosystem of deep learning methods for modeling protein–protein interactions",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Protein Engineering, Design and Selection"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "647915",
+          "DOI": "10.3389/fmolb.2021.647915",
+          "article-title": "Protein docking model evaluation by graph neural networks",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Frontiers in Molecular Biosciences"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "btac759",
+          "DOI": "10.1093/bioinformatics/btac759",
+          "article-title": "DeepRank-GNN: a graph neural network framework to learn patterns in protein–protein interfaces",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1761",
+          "DOI": "10.1038/s41598-020-80900-2",
+          "article-title": "Classification and prediction of protein–protein interaction interface using machine learning algorithm",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac524",
+          "DOI": "10.1093/bib/bbac524",
+          "article-title": "MARPPI: boosting prediction of protein–protein interactions with multi-scale architecture residual network",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "323",
+          "DOI": "10.1039/b821580d",
+          "article-title": "Fast predictions of thermodynamics and kinetics of protein–protein recognition from structures: from molecular design to systems biology",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "Molecular BioSystems"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kaczor, A. A. ; Bartuzi, D. ; Stepniewski, T. M. ; Matosiuk, D. ; Selent, J. Protein–protein docking in drug design and discovery. Computational Drug Discovery and Design 2018, 285–305.",
+          "DOI": "10.1007/978-1-4939-7756-7_15"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1281",
+          "DOI": "10.1021/acs.jmedchem.9b01659",
+          "article-title": "Discovery and optimization of small molecules targeting the protein–protein interaction of heat shock protein 90 (Hsp90) and cell division cycle 37 as orally active inhibitors for the treatment of colorectal cancer",
+          "volume": "63",
+          "year": "2020",
+          "journal-title": "Journal of medicinal chemistry"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cmdc.201500495."
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202485799"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/15.8.677"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm049314d"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.20",
+          "first-page": "1",
+          "article-title": "T-cell epitope prediction and immune complex simulation using molecular dynamics: state of the art and persisting challenges",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "Immunome Research"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2014.04.017"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1016/j.jmb.2016.11.022",
+          "article-title": "BindProfX: assessing mutation-induced binding affinity change by protein interface profiles with pseudo-counts",
+          "volume": "429",
+          "year": "2017",
+          "journal-title": "Journal of molecular biology"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.07454"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw514"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "A topology-based network tree for the prediction of protein–protein binding affinity changes following mutation",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009284",
+          "DOI": "10.1371/journal.pcbi.1009284",
+          "article-title": "Deep geometric representations for modeling effects of mutations on protein-protein binding affinity",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac024",
+          "DOI": "10.1093/bib/bbac024",
+          "article-title": "Persistent spectral based ensemble learning (PerSpect-EL) for protein– protein binding affinity prediction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.2c00020"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065703",
+          "DOI": "10.3389/fbinf.2022.1065703",
+          "article-title": "Machine learning methods for protein-protein binding affinity prediction in protein design",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Frontiers in Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.580"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.cels.2021.05.017",
+          "article-title": "Learning the protein language: Evolution, structure, and function",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell systems"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.34",
+          "first-page": "4",
+          "article-title": "A comprehensive survey on graph neural networks",
+          "volume": "32",
+          "year": "2020",
+          "journal-title": "IEEE transactions on neural networks and learning systems"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1004586",
+          "DOI": "10.1371/journal.pcbi.1004586",
+          "article-title": "AutoDockFR: advances in protein-ligand docking with explicitly specified binding site flexibility",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chang, Y. ; Wang, X. ; Wang, J. ; Wu, Y. ; Yang, L. ; Zhu, K. ; Chen, H. ; Yi, X. ; Wang, C. ; Wang, Y. ; others A survey on evaluation of large language models. ACM Transactions on Intelligent Systems and Technology 2023,",
+          "DOI": "10.1145/3641289"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbad289",
+          "DOI": "10.1093/bib/bbad289",
+          "article-title": "Artificial intelligence-aided protein engineering: from topological data analysis to deep protein language models",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "vbad191",
+          "DOI": "10.1093/bioadv/vbad191",
+          "article-title": "DeepRank-GNN-esm: a graph neural network for scoring protein–protein models using protein language model",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "15956",
+          "DOI": "10.1021/acsomega.9b01997",
+          "article-title": "Onionnet: a multiple-layer intermolecular-contact-based convolutional neural network for protein–ligand binding affinity prediction",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "ACS omega"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.41",
+          "first-page": "10",
+          "article-title": "others Graph attention networks",
+          "volume": "1050",
+          "year": "2017",
+          "journal-title": "stat"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbad122",
+          "DOI": "10.1093/bib/bbad122",
+          "article-title": "AGAT-PPIS: a novel protein–protein interaction site predictor based on augmented graph attention network with initial residual and identity mapping",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.43",
+          "first-page": "8749",
+          "article-title": "others Pushing the boundaries of molecular representation for drug discovery with the graph attention mechanism",
+          "volume": "63",
+          "year": "2019",
+          "journal-title": "Journal of medicinal chemistry"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.44",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1002/prot.20019",
+          "article-title": "A physical reference state unifies the structure-derived potential of mean force for protein folding and binding",
+          "volume": "56",
+          "year": "2004",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "400",
+          "DOI": "10.1002/prot.22550",
+          "article-title": "Pie—efficient filters and coarse grained potentials for unbound protein–protein docking",
+          "volume": "78",
+          "year": "2010",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.47",
+          "first-page": "1",
+          "article-title": "ISLAND: in-silico proteins binding affinity prediction using sequence information",
+          "volume": "13",
+          "year": "2020",
+          "journal-title": "BioData Mining"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1093/bioinformatics/bty635",
+          "article-title": "SKEMPI 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab273"
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.50",
+          "unstructured": "Xue, Y. ; Liu, Z. ; Fang, X. ; Wang, F. Multimodal pre-training model for sequence-based prediction of protein-protein interaction. Machine Learning in Computational Biology. 2022; pp 34–46."
+        },
+        {
+          "key": "2024031900450885000_2024.03.14.584935v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz740"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.14.584935",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:06:48Z",
+        "timestamp": 1768457208000
+      },
+      "score": 106.31772,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.14.584935"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            15
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2024.03.14.584935",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.4c01850",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

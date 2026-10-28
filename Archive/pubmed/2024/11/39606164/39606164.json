@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "39606164",
+    "doi": "10.4254/wjh.v16.i11.1306",
+    "title": "Development and validation of biomarkers related to anoikis in liver cirrhosis based on bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: According to study, anoikis-related genes (ARGs) have been demonstrated to play a significant impact in cirrhosis, a major disease threatening human health worldwide. AIM: To investigate the relationship between ARGs and cirrhosis development to provide insights into the clinical treatment of cirrhosis. METHODS: RNA-sequencing data related to cirrhosis were obtained from the Gene Expression Omnibus database. Differentially expressed genes (DEGs) between cirrhotic and normal tissues were intersected with ARGs to derive differentially expressed ARGs (DEARGs). The DEARGs were filtered using the least absolute shrinkage and selection operator, support vector machine recursive feature elimination, and random forest algorithms to identify biomarkers for cirrhosis. These biomarkers were used to create a nomogram for predicting the prognosis of cirrhosis. The proportions of diverse immune cell subsets in cirrhotic vs normal tissues were compared using the CIBERSORT computational method. In addition, the linkage between immune cells and biomarkers was assessed, and a regulatory network of mRNA, miRNA, and transcription factors was constructed relying on the biomarkers. RESULTS: The comparison of cirrhotic and normal tissue samples led to the identification of 635 DEGs. Subsequent intersection of the DEGs with ARGs produced a set of 26 DEARGs. Subsequently, three DEARGs, namely, ACTG1, STAT1, and CCR7, were identified as biomarkers using three machine-learning algorithms. The proportions of M1 and M2 macrophages, resting CD4 memory T cells, resting mast cells, and plasma cells significantly differed between cirrhotic and normal tissue samples. The proportions of M1 and M2 macrophages, resting CD4 memory T cells, and resting mast cells were significantly correlated with the expression of the three biomarkers. The mRNA-miRNA-TF network showed that ACTG1, CCR7, and STAT1 were regulated by 28, 42, and 35 miRNAs, respectively. Moreover, AR, MAX, EP300, and FOXA1 were found to regulate four miRNAs related to the biomarkers. CONCLUSION: This study revealed ACTG1, STAT1, and CCR7 as biomarkers of cirrhosis, providing a reference for developing novel diagnostic and therapeutic strategies for cirrhosis.",
+    "keywords": [
+      "Anoikis-related genes",
+      "Bioinformatics",
+      "Biomarker",
+      "Cirrhosis",
+      "Immune infiltration",
+      "Machine learning",
+      "Therapeutic drugs"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Jiang-Yan",
+        "Zheng, Sheng",
+        "Yang, Juan",
+        "Ma, Chi",
+        "Ma, Xiao-Ying",
+        "Wang, Xing-Xing",
+        "Fu, Xin-Nian",
+        "Mao, Xiao-Zhou"
+      ],
+      "short_names": [
+        "Luo JY",
+        "Zheng S",
+        "Yang J",
+        "Ma C",
+        "Ma XY",
+        "Wang XX",
+        "Fu XN",
+        "Mao XZ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China.",
+        "Department of Gastroenterology, The Third People's Hospital of Yunnan Province, Kunming 650011, Yunnan Province, China. zheng_sheng523@163.com.",
+        "Department of Gastroenterology, The Third People's Hospital of Yunnan Province, Kunming 650011, Yunnan Province, China.",
+        "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China.",
+        "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China.",
+        "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China.",
+        "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China.",
+        "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Jiang-Yan",
+        "short_name": "Luo JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Sheng",
+        "short_name": "Zheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third People's Hospital of Yunnan Province, Kunming 650011, Yunnan Province, China. zheng_sheng523@163.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Juan",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third People's Hospital of Yunnan Province, Kunming 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chi",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiao-Ying",
+        "short_name": "Ma XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xing-Xing",
+        "short_name": "Wang XX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xin-Nian",
+        "short_name": "Fu XN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Xiao-Zhou",
+        "short_name": "Mao XZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Second Affiliated Hospital of Dali University, Kunming 650011, Yunnan Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World journal of hepatology"
+    ],
+    "journal_abbrev": [
+      "World J Hepatol"
+    ],
+    "pub_date": "2024 Nov 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:37",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "42206026",
+      "41223189"
+    ],
+    "refs": [],
+    "similar": [
+      "39606164",
+      "40312440",
+      "39730379",
+      "38371524",
+      "37032832",
+      "37760894",
+      "39923303",
+      "37779906",
+      "39650552",
+      "37115484",
+      "35411170",
+      "37322958",
+      "35928610",
+      "33598484",
+      "36671424",
+      "37575253",
+      "39509434",
+      "35845512",
+      "39654884",
+      "37582718",
+      "40302006",
+      "39170142",
+      "36605987",
+      "36250071",
+      "35794640",
+      "35958412",
+      "39616855",
+      "36589450",
+      "39507054",
+      "38951833",
+      "39995143",
+      "36211422",
+      "38867322",
+      "37783761",
+      "35966794",
+      "39081100",
+      "40115777",
+      "37662825",
+      "35911963",
+      "39300389",
+      "40129981",
+      "40059945",
+      "39142001",
+      "36532018",
+      "35769488",
+      "37351719",
+      "37090698",
+      "36978012",
+      "34107850",
+      "39735537",
+      "39375405",
+      "37509492",
+      "39396400",
+      "36930329",
+      "36742332",
+      "38148887",
+      "32235747",
+      "34321013",
+      "36660690",
+      "35264872",
+      "39433800",
+      "36746103",
+      "35817495",
+      "39695788",
+      "35602610",
+      "39697326",
+      "39268091",
+      "35959356",
+      "38044432",
+      "36704339",
+      "36072904",
+      "37821869",
+      "38499050",
+      "35295271",
+      "38476236",
+      "35713363",
+      "37759912",
+      "38291374",
+      "39295860",
+      "39586719",
+      "38028617",
+      "39331874",
+      "39265357",
+      "40263537",
+      "34233597",
+      "38319987",
+      "38957433",
+      "37986345",
+      "36470144",
+      "39754246",
+      "39050259",
+      "35942730",
+      "36532015",
+      "39431237",
+      "35965814",
+      "39026250",
+      "39722894",
+      "39372587",
+      "34869345",
+      "36823662"
+    ],
+    "review": [
+      "39606164"
+    ],
+    "pmc": [
+      "11586749"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.wjgnet.com/1948-5182/full/v16/i11/1306.htm",
+        "provider": "Baishideng Publishing Group Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39606164/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

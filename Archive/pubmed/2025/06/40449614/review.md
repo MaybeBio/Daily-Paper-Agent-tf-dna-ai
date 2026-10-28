@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present BindUP-Alpha, an upgraded webserver for predicting DNA- and RNA-binding proteins. The method uses electrostatic features of the protein surface and other physicochemical and structural properties derived from sequence, combined with a Support Vector Machine (SVM) classifier. The tool is claimed to work on both experimentally solved structures and predicted models (e.g., AlphaFold), to identify electrostatic patches representing potential nucleic-acid binding interfaces, and to be freely accessible with interactive 3D visualization and downloadable results.
+- **Visible evidence base** Abstract text only; no performance metrics, benchmark datasets, comparisons to existing tools, or validation details are provided
+- **Missing materials affecting confidence** Full manuscript, method details, training and test datasets, performance statistics, comparison with prior BindUP versions or other predictors, case studies, and webserver implementation details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful bioinformatics resource that addresses a timely need, given the proliferation of predicted protein structures. However, the abstract provides no quantitative evidence of performance, no benchmark comparisons, and no details on how the method handles disordered regions, which are explicitly mentioned as a motivation. The claims of successful prediction and patch identification are therefore not assessable from the supplied material. The work may be of interest to the structural biology and protein function prediction communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Structural biologists and computational biologists who work with predicted protein structures, particularly those studying nucleic acid binding proteins. Researchers using AlphaFold models for functional annotation would also find a tool that can handle predicted structures with disordered regions valuable. The webserver format makes it accessible to experimentalists seeking quick functional predictions.
+- **Major strengths** The tool addresses a current and relevant problem, namely functional annotation of the large number of predicted structures now available. The combination of surface electrostatics with SVM is a reasonable and established approach. The provision of a freely accessible webserver with interactive visualization is a practical strength for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BindUP-Alpha successfully predicts DNA- and RNA-binding proteins from both experimentally solved structures and predicted models"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims successful prediction but provides no quantitative performance metrics, such as accuracy, sensitivity, specificity, or area under the ROC curve. No benchmark datasets are described, and no comparison with existing predictors is shown.
+  - **Why it matters** Without performance data, the reader cannot judge whether the method is competitive or even functional. The claim of "successfully predicts" is unsupported and cannot be verified from the abstract.
+  - **Resolution test** Provide performance metrics on standard benchmark datasets for both DNA- and RNA-binding protein prediction, with separate results for experimental structures and predicted models, and compare against at least one existing method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our structure-based algorithm utilizes the electrostatic features of the protein surface and other physiochemical and structural properties extracted from the protein sequence"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that features are extracted from the protein sequence, yet the method is described as structure-based and uses surface electrostatics. It is unclear how surface features are derived from sequence alone, especially for predicted models that may lack reliable structural information in disordered regions.
+  - **Why it matters** The methodological basis is ambiguous. If the method truly uses sequence-derived features, then the role of structure is unclear. If it uses predicted structures, then the handling of low-confidence regions must be explained. This ambiguity affects the reproducibility and interpretability of the approach.
+  - **Resolution test** Clarify the feature extraction pipeline, specifying which features are sequence-derived and which are structure-derived, and describe how predicted models are processed, particularly in disordered or low-confidence regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and scientific importance
+  - **Claim pointer** "BindUP-Alpha, an upgraded webserver for predicting nucleic acid binding proteins"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state what is new relative to the previous BindUP server or other existing tools. The phrase "upgraded" implies improvements, but no specific advances are described, such as new features, better accuracy, or broader applicability.
+  - **Why it matters** For a webserver paper, the incremental contribution must be clear. Without a statement of novelty or improvement, the scientific importance of the work cannot be assessed.
+  - **Resolution test** Explicitly describe the upgrades relative to the prior BindUP version and to other state-of-the-art predictors, with quantitative comparisons where possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "electrostatic patches" and "physiochemical and structural properties" without defining these terms or explaining their biological relevance in a way accessible to a broad audience.
+  - **Required correction** Add brief explanations or context for these terms, or rephrase to make the method more understandable to nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Webserver description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the server is freely accessible and provides 3D visualizations and downloadable results, but does not mention any usage limits, input format requirements, or typical runtime.
+  - **Required correction** Include brief information on input requirements and any practical constraints, or state that such details are available on the webserver.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Handling of disordered regions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract motivates the work by noting that predicted models contain unstructured and disordered regions, but does not explain how BindUP-Alpha addresses this challenge.
+  - **Required correction** Add a sentence describing how the method handles disordered regions, or state that this is addressed in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no performance metrics), R1-M2 (ambiguous feature extraction), R1-M3 (no stated novelty relative to prior work)
+- **Assessment against Nature-style criteria** Originality: The abstract does not demonstrate clear novelty beyond an "upgraded" version of an existing tool. Scientific importance: The topic is relevant, but the importance cannot be gauged without performance data and a clear statement of what is new. Interdisciplinary readership: The work may appeal to structural biologists and computational biologists, but the abstract is too technical and lacks context for a broader audience. Technical soundness: Not assessable from the abstract; the methodological ambiguity and absence of metrics are major gaps. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of successful prediction or the utility of the webserver. A full manuscript with performance benchmarks, methodological clarity, and a clear statement of novelty would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- "BindUP-Alpha successfully predicts DNA- and RNA-binding proteins from both experimentally solved structures and predicted models" is unsupported due to the absence of any performance metrics or validation data.
+- "BindUP-Alpha identifies electrostatic patches on the protein's surface that represent potential nucleic-acid binding interfaces" is unsupported; no evidence or examples are provided.
+- The implicit claim that the method addresses challenges posed by disordered regions in predicted models is not supported by any described mechanism or result.

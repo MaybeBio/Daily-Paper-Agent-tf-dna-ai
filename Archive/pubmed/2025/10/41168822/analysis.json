@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41168822",
+  "title": "Genome-wide association, single-cell, and spatial transcriptomics analyses reveal the role of the STK24-expressing positive cells in LUAD progression and the tumor microenvironment, identifying STK24 as a potential therapeutic target.",
+  "authors": "Liu, Junzhi; Li, Huimin; Jiao, Yuheng; Hou, Meng",
+  "journal": "Journal of translational medicine",
+  "published_date": "2025-10-31",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过GWAS、单细胞和空间转录组学分析STK24在肺腺癌进展和肿瘤微环境中的作用，属于纯转录组和临床关联研究，无蛋白质-DNA互作体系、无结合建模、无AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Lung adenocarcinoma (LUAD), a subtype of non-small cell lung cancer (NSCLC), has high incidence and poor prognosis. Although anti-programmed cell death protein 1 (PD1) therapy and epidermal growth factor receptor (EGFR) inhibitors benefit some patients, many remain unresponsive. Genome-wide association studies (GWAS) can identify risk loci, while single-cell transcriptomics enables exploration of genetic variations and mechanisms in LUAD. METHODS: We integrated GWAS data from FinnGen, IEU OpenGWAS, and GWAS Catalog with single-cell and spatial transcriptomics from GEO to investigate LUAD genetics and pathology. GWAS analyses identified SNP loci, risk factors, LD Score, and SMR results, revealing a novel apoptosis-related locus, Serine/Threonine Kinase 24 (STK24) (SMR P < 0.05). Single-cell analysis identified STK24-positive epithelial cells (STK24posEpi) and their transcription factors (SCENIC), developmental trajectory (Monocle), and tumor microenvironment roles (CellCall). Spatial mapping (RCTD) and trajectory analysis (stlearn) were combined with cell communication (CellChat), spatial signal flow (Commot), and co-localization (Misty). Bayesian deconvolution linked STK24posEpi to TCGA-LUAD bulk transcriptomes, assessing overall survival (OS), immune infiltration, and clinical traits. A prognostic model (STK24SuperPC, mean c-index 0.61) was built using multiple machine learning algorithms to predict survival and immunotherapy response. Laboratory experiments tested STK24's effects on LUAD cell proliferation and apoptosis. RESULTS: STK24 was identified as a LUAD risk factor (pSMR < 0.05). STK24posEpi communicated with fibroblasts, endothelial cells, and others via MIF and PDGF pathways, and was associated with apoptosis (Importance > 0.5), metastasis (Importance > 2), DNA repair (Importance > 1), and DNA damage (Importance > 2). Located at the origin of the trajectory, STK24posEpi correlated with poor prognosis (HR > 0, P < 0.05) and reduced lymphocyte infiltration (Pearson's r < 0, P < 0.05). STK24 overexpression enhanced LUAD cell proliferation, migration, and colony formation, while reducing apoptosis, increasing BCL-2 and Caspase-3, and decreasing Cleaved-Caspase-3 expression. CONCLUSIONS: STK24, an apoptosis-related gene, promotes LUAD progression by enhancing proliferation and inhibiting apoptosis, with STK24posEpi interacting in the tumor microenvironment through PDGF and MIF pathways. These findings offer potential therapeutic targets and support personalized LUAD treatment strategies.",
+  "abstract_zh": "背景：肺腺癌（Lung adenocarcinoma, LUAD）是非小细胞肺癌（non-small cell lung cancer, NSCLC）的一种亚型，具有高发病率和不良预后。尽管抗程序性细胞死亡蛋白1（programmed cell death protein 1, PD1）治疗和表皮生长因子受体（epidermal growth factor receptor, EGFR）抑制剂使部分患者获益，但许多患者仍无响应。全基因组关联研究（genome-wide association studies, GWAS）可识别风险位点，而单细胞转录组学能够探索LUAD中的遗传变异和机制。方法：我们整合了来自FinnGen、IEU OpenGWAS和GWAS Catalog的GWAS数据，以及来自GEO的单细胞和空间转录组学数据，以研究LUAD的遗传学和病理学。GWAS分析识别出SNP位点、风险因素、LD Score和SMR结果，揭示了一个新的凋亡相关位点，即丝氨酸/苏氨酸激酶24（Serine/Threonine Kinase 24, STK24）（SMR P < 0.05）。单细胞分析识别出STK24阳性上皮细胞（STK24posEpi）及其转录因子（SCENIC）、发育轨迹（Monocle）和肿瘤微环境作用（CellCall）。空间映射（RCTD）和轨迹分析（stlearn）与细胞通讯（CellChat）、空间信号流（Commot）和共定位（Misty）相结合。贝叶斯反卷积将STK24posEpi与TCGA-LUAD批量转录组关联，评估总生存期（overall survival, OS）、免疫浸润和临床特征。使用多种机器学习算法构建了一个预后模型（STK24SuperPC，平均c-index 0.61），以预测生存和免疫治疗响应。实验室实验测试了STK24对LUAD细胞增殖和凋亡的影响。结果：STK24被确定为LUAD风险因素（pSMR < 0.05）。STK24posEpi通过MIF和PDGF通路与成纤维细胞、内皮细胞等通讯，并与凋亡（Importance > 0.5）、转移（Importance > 2）、DNA修复（Importance > 1）和DNA损伤（Importance > 2）相关。位于轨迹起点，STK24posEpi与不良预后（HR > 0, P < 0.05）和淋巴细胞浸润减少（Pearson's r < 0, P < 0.05）相关。STK24过表达增强了LUAD细胞增殖、迁移和集落形成，同时减少凋亡，增加BCL-2和Caspase-3，并降低Cleaved-Caspase-3表达。结论：STK24作为凋亡相关基因，通过增强增殖和抑制凋亡促进LUAD进展，且STK24posEpi通过PDGF和MIF通路在肿瘤微环境中相互作用。这些发现提供了潜在的治疗靶点，并支持LUAD个性化治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41168822/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41168822/",
+  "paper_page_path": "papers/pubmed/41168822/index.html"
+}

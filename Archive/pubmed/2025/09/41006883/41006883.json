@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41006883",
+    "doi": "10.1038/s41598-025-18867-1",
+    "title": "Identification of regulated cell death related genes in polycystic ovary syndrome using machine learning."
+  },
+  "content": {
+    "abstract": "Polycystic ovary syndrome (PCOS) is one of the most prevalent endocrine disorders affecting women during their reproductive years, with global prevalence estimates ranging from 5 to 15%, depending on the diagnostic criteria used. Emerging evidence suggests that various forms of regulated cell death (RCD) mechanisms play a significant role in the development and progression of PCOS. However, existing research has yet to systematically investigate how RCD processes interact with the molecular pathophysiology of PCOS. Mapping these complex interactions-including the associated regulatory networks and molecular cascades-could provide critical insights into disease mechanisms. This study aims to identify specific RCD-related genetic markers and signaling pathways, which could serve as potential therapeutic targets for PCOS management. Our team conducted computational bioinformatics analyses to find differentially expressed genes (DEGs) between healthy ovarian tissues and those affected by PCOS, revealing 389 genes linked to RCD. Through machine learning techniques-including Least Absolute Shrinkage and Selection Operator (LASSO), Random Forest (RF), and Support Vector Machine (SVM) algorithms-we identified five critical hub genes. To gauge their diagnostic potential, we performed receiver operating characteristic (ROC) curve evaluations and mapped out protein interaction networks (PPI) to uncover relationships among these key genes. We then delved deeper using Single-Sample Gene Set Enrichment Analysis (ssGSEA), Gene Ontology (GO) enrichment studies, and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway assessments to shed light on biological processes tied to the hub genes. These findings were corroborated through additional Gene Set Enrichment Analysis (GSEA) validation. Leveraging the NetworkAnalyst and RegNetwork platforms, we predicted upstream regulators like microRNAs (miRNAs), transcription factors, and gene-associated compounds. Finally, interaction networks were visualized via Cytoscape to illustrate these complex relationships. Through comparative analysis of PCOS and control groups, DEGs were pinpointed and cross-referenced with genes linked to RCD mechanisms. Machine learning techniques highlighted five hub genes with significant biological relevance. Comprehensive bioinformatics profiling demonstrated that these key genes were significantly enriched in biological processes related to immune-inflammatory responses, metabolic regulation via adipocytokine signaling, reproductive hormone activity, and epigenetic regulation. Furthermore, we identified 25 therapeutic compounds, 42 regulatory miRNAs, and 30 transcription factors (TFs) with strong functional relationships to these critical genetic markers. We identified five RCD-related hub genes within the DEGs of PCOS and control samples and further analyzed upstream and downstream pathways, to elucidate potential pathogenic mechanisms.",
+    "keywords": [
+      "Enrichment analysis",
+      "Lasso regression",
+      "Machine learning",
+      "Polycystic ovary syndrome",
+      "Regulated cell death",
+      "miRNA-TF prediction"
+    ],
+    "mesh_terms": [
+      "*Polycystic Ovary Syndrome/genetics/pathology/metabolism",
+      "Female",
+      "Humans",
+      "*Machine Learning",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Protein Interaction Maps/genetics",
+      "*Cell Death/genetics",
+      "Gene Expression Profiling",
+      "Signal Transduction",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ronghuang",
+        "Chen, Qianyu",
+        "Yan, Yuehua",
+        "Yang, Yang",
+        "Hu, Rongkui"
+      ],
+      "short_names": [
+        "Li R",
+        "Chen Q",
+        "Yan Y",
+        "Yang Y",
+        "Hu R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Gynaecology Department, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Gynaecology Department, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, China. xiangyu198110@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ronghuang",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qianyu",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Gynaecology Department, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yuehua",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Rongkui",
+        "short_name": "Hu R",
+        "identifiers": [],
+        "affiliations": [
+          "Gynaecology Department, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, China. xiangyu198110@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Sep 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:33",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "41750695"
+    ],
+    "refs": [
+      "40461478",
+      "39417505",
+      "38538696",
+      "38493198",
+      "37918087",
+      "37612410",
+      "37215125",
+      "36964058",
+      "36918690",
+      "36747082",
+      "36498989",
+      "36482419",
+      "36341760",
+      "36341347",
+      "36010645",
+      "35963853",
+      "35912181",
+      "35456928",
+      "35414025",
+      "35298263",
+      "35026001",
+      "34907160",
+      "34830389",
+      "34518686",
+      "34331036",
+      "34161185",
+      "33917519",
+      "33539777",
+      "33438104",
+      "33287836",
+      "32705226",
+      "32670195",
+      "32659951",
+      "32568455",
+      "32444273",
+      "31873208",
+      "31861985",
+      "31441146",
+      "30780898",
+      "30768966",
+      "30463276",
+      "30121347",
+      "30067154",
+      "29627845",
+      "29362479",
+      "29255269",
+      "28176325",
+      "27459230",
+      "27233760",
+      "27057433",
+      "26770332",
+      "26642102",
+      "26509855",
+      "25801724",
+      "23065822",
+      "22151536",
+      "19169352",
+      "19078868",
+      "19001604",
+      "18235842",
+      "17925334",
+      "17692530",
+      "17332526",
+      "16769248",
+      "16632515",
+      "16418211",
+      "15277400",
+      "15070972",
+      "11842121",
+      "10592173"
+    ],
+    "similar": [
+      "41006883",
+      "39396400",
+      "39754246",
+      "41192647",
+      "40884580",
+      "33622336",
+      "39048886",
+      "41079183",
+      "39142001",
+      "41200172",
+      "41044520",
+      "41088367",
+      "35379124",
+      "39403102",
+      "40997906",
+      "39341981",
+      "38444712",
+      "41146237",
+      "40406118",
+      "39586719",
+      "40247811",
+      "40918403",
+      "39609718",
+      "40480394",
+      "39981695",
+      "38863714",
+      "38678611",
+      "39313041",
+      "39556279",
+      "41316541",
+      "37883387",
+      "35693550",
+      "39323470",
+      "38062833",
+      "40245021",
+      "39397125",
+      "38867322",
+      "39398336",
+      "40328901",
+      "37179305",
+      "39375405",
+      "41291978",
+      "40312440",
+      "40313958",
+      "40362669",
+      "38755717",
+      "36223608",
+      "41214666",
+      "40500570",
+      "41496105",
+      "40849369",
+      "39358491",
+      "40830558",
+      "36221354",
+      "36523600",
+      "31115532",
+      "37537636",
+      "40574839",
+      "41132671",
+      "40628511",
+      "39351239",
+      "41137290",
+      "37449753",
+      "33224973",
+      "41102315",
+      "39107365",
+      "37740761",
+      "38390208",
+      "39870856",
+      "40544268",
+      "39139563",
+      "40406126",
+      "36512189",
+      "38268224",
+      "38810612",
+      "39421991",
+      "31184307",
+      "40628512",
+      "41104127",
+      "39263286",
+      "39853851",
+      "34211581",
+      "41047472",
+      "39496786",
+      "41305834",
+      "41196851",
+      "40849565",
+      "40263537",
+      "40360670",
+      "37745699",
+      "35713363",
+      "40024299",
+      "39432623",
+      "41291841",
+      "40813744",
+      "40508038",
+      "41120378",
+      "41009659",
+      "40131879",
+      "40596265"
+    ],
+    "review": [
+      "41006883",
+      "36512189"
+    ],
+    "pmc": [
+      "12475116"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Polycystic Ovary Syndrome"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-18867-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41006883/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

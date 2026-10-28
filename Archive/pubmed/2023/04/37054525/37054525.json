@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "37054525",
+    "doi": "10.1080/07391102.2023.2200490",
+    "title": "Identification and mechanistic exploration of structural and conformational dynamics of NF-kB inhibitors: rationale insights from in silico and in vitro studies."
+  },
+  "content": {
+    "abstract": "Increased expression of target genes that code for proinflammatory chemical mediators results from a series of intracellular cascades triggered by activation of dysregulated NF-kappaB signaling pathway. Dysfunctional NF-kB signaling amplifies and perpetuates autoimmune responses in inflammatory diseases, including psoriasis. This study aimed to identify therapeutically relevant NF-kB inhibitors and elucidate the mechanistic aspects behind NF-kB inhibition. After virtual screening and molecular docking, five hit NF-kB inhibitors opted, and their therapeutic efficacy was examined using cell-based assays in TNF-alpha stimulated human keratinocyte cells. To investigate the conformational changes of target protein and inhibitor-protein interaction mechanisms, molecular dynamics (MD) simulations, binding free energy calculations together with principal component (PC) analysis, dynamics cross-correlation matrix analysis (DCCM), free energy landscape (FEL) analysis and quantum mechanical calculations were carried out. Among identified NF-kB inhibitors, myricetin and hesperidin significantly scavenged intracellular ROS and inhibited NF-kB activation. Analysis of the MD simulation trajectories of ligand-protein complexes revealed that myricetin and hesperidin formed energetically stabilized complexes with the target protein and were able to lock NF-kB in a closed conformation. Myricetin and hesperidin binding to the target protein significantly impacted conformational changes and internal dynamics of amino acid residues in protein domains. Tyr57, Glu60, Lys144 and Asp239 residues majorly contributed to locking the NF-kB in a closed conformation. The combinatorial approach employing in silico tools integrated with cell-based approaches substantiated the binding mechanism and NF-kB active site inhibition by the lead molecule myricetin, which can be explored as a viable antipsoriatic drug candidate associated with dysregulated NF-kB.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Dynamic cross-correlation matrix",
+      "NF-kB",
+      "free-energy landscape",
+      "molecular dynamics simulation",
+      "principal component analysis",
+      "quantum mechanics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-kappa B/chemistry",
+      "Molecular Docking Simulation",
+      "*Hesperidin",
+      "Molecular Dynamics Simulation",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Srivastava, Amit Kumar",
+        "Srivastava, Shubham",
+        "Kumar, Viney",
+        "Ghosh, Souvik",
+        "Yadav, Siddharth",
+        "Malik, Ruchi",
+        "Roy, Partha",
+        "Prasad, Ramasare"
+      ],
+      "short_names": [
+        "Srivastava AK",
+        "Srivastava S",
+        "Kumar V",
+        "Ghosh S",
+        "Yadav S",
+        "Malik R",
+        "Roy P",
+        "Prasad R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7042-4317",
+        "ORCID: 0000-0003-0040-3806",
+        "ORCID: 0000-0003-3677-3489",
+        "ORCID: 0000-0002-6524-0887",
+        "ORCID: 0000-0002-4638-0155",
+        "ORCID: 0000-0002-4912-9441",
+        "ORCID: 0000-0003-1943-3079",
+        "ORCID: 0000-0001-7341-2346"
+      ],
+      "affiliations": [
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India.",
+        "Department of Pharmacy, School of Chemical Sciences and Pharmacy, Central University of Rajasthan, Ajmer, Rajasthan, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India.",
+        "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India.",
+        "Department of Pharmacy, School of Chemical Sciences and Pharmacy, Central University of Rajasthan, Ajmer, Rajasthan, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Srivastava, Amit Kumar",
+        "short_name": "Srivastava AK",
+        "identifiers": [
+          "0000-0001-7042-4317"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Shubham",
+        "short_name": "Srivastava S",
+        "identifiers": [
+          "0000-0003-0040-3806"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, School of Chemical Sciences and Pharmacy, Central University of Rajasthan, Ajmer, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Viney",
+        "short_name": "Kumar V",
+        "identifiers": [
+          "0000-0003-3677-3489"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Souvik",
+        "short_name": "Ghosh S",
+        "identifiers": [
+          "0000-0002-6524-0887"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Siddharth",
+        "short_name": "Yadav S",
+        "identifiers": [
+          "0000-0002-4638-0155"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Thapar Institute of Engineering and Technology, Patiala, Punjab, India."
+        ]
+      },
+      {
+        "full_name": "Malik, Ruchi",
+        "short_name": "Malik R",
+        "identifiers": [
+          "0000-0002-4912-9441"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, School of Chemical Sciences and Pharmacy, Central University of Rajasthan, Ajmer, Rajasthan, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Partha",
+        "short_name": "Roy P",
+        "identifiers": [
+          "0000-0003-1943-3079"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India."
+        ]
+      },
+      {
+        "full_name": "Prasad, Ramasare",
+        "short_name": "Prasad R",
+        "identifiers": [
+          "0000-0001-7341-2346"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Roorkee, Roorkee, Uttarakhand, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Feb-Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/14 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "41644963",
+      "40746657",
+      "40546399",
+      "38746675"
+    ],
+    "refs": [],
+    "similar": [
+      "37054525",
+      "32471245",
+      "29842849",
+      "34662260",
+      "37671851",
+      "30295165",
+      "30415122",
+      "42112455",
+      "37013999",
+      "36789516",
+      "38435153",
+      "30047829",
+      "41780347",
+      "42118388",
+      "40307269",
+      "30047845",
+      "41629408",
+      "38084778",
+      "31451955",
+      "37904331",
+      "36540414",
+      "32705953",
+      "42070473",
+      "30486742",
+      "33164832",
+      "40593894",
+      "21143809",
+      "38693868",
+      "41512388",
+      "41825171",
+      "33034255",
+      "37811769",
+      "39653633",
+      "39766197",
+      "34286666",
+      "41804160",
+      "30843759",
+      "42302947",
+      "39427335",
+      "25938234",
+      "27701768",
+      "37676262",
+      "41471330",
+      "37021476",
+      "37676253",
+      "32186248",
+      "40706551",
+      "34458164",
+      "42024204",
+      "41713229",
+      "33475043",
+      "23912807",
+      "37301608",
+      "37615425",
+      "38131136",
+      "40117728",
+      "33226303",
+      "37104027",
+      "41254784",
+      "40418486",
+      "37732363",
+      "42011130",
+      "31838071",
+      "39443392",
+      "30301423",
+      "41708701",
+      "41639476",
+      "36649127",
+      "37667877",
+      "34426159",
+      "41977330",
+      "38084877",
+      "41678886",
+      "38095360",
+      "38287503",
+      "41795298",
+      "40330488",
+      "39522840",
+      "40033499",
+      "30052133",
+      "37713334",
+      "39938176",
+      "38425011",
+      "35105279",
+      "39369919",
+      "35735269",
+      "42197115",
+      "37160705",
+      "37394802",
+      "28852971",
+      "40622900",
+      "36239003",
+      "40882445",
+      "42148913",
+      "41644963",
+      "34709133",
+      "41493642",
+      "41380857",
+      "39948258",
+      "39535182"
+    ],
+    "review": [
+      "37054525"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2200490?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2200490",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

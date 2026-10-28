@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37691920",
+  "title": "Identification and verification of diagnostic biomarkers in recurrent pregnancy loss via machine learning algorithm and WGCNA.",
+  "authors": "Wei, Changqiang; Wei, Yiyun; Cheng, Jinlian; Tan, Xuemei; Zhou, Zhuolin; Lin, Shanshan; Pang, Lihong",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-09-11",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习与WGCNA识别复发性流产的诊断生物标志物，属于纯基因表达与临床诊断研究，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Recurrent pregnancy loss defined as the occurrence of two or more pregnancy losses before 20-24 weeks of gestation, is a prevalent and significant pathological condition that impacts human reproductive health. However, the underlying mechanism of RPL remains unclear. This study aimed to investigate the biomarkers and molecular mechanisms associated with RPL and explore novel treatment strategies for clinical applications. METHODS: The GEO database was utilized to retrieve the RPL gene expression profile GSE165004. This profile underwent differential expression analysis, WGCNA, functional enrichment, and subsequent analysis of RPL gene expression using LASSO regression, SVM-RFE, and RandomForest algorithms for hub gene screening. ANN model were constructed to assess the performance of hub genes in the dataset. The expression of hub genes in both the RPL and control group samples was validated using RT-qPCR. The immune cell infiltration level of RPL was assessed using CIBERSORT. Additionally, pan-cancer analysis was conducted using Sangerbox, and small-molecule drug screening was performed using CMap. RESULTS: A total of 352 DEGs were identified, including 198 up-regulated genes and 154 down-regulated genes. Enrichment analysis indicated that the DEGs were primarily associated with Fc gamma R-mediated phagocytosis, the Fc epsilon RI signaling pathway, and various metabolism-related pathways. The turquoise module, which showed the highest relevance to clinical symptoms based on WGCNA results, contained 104 DEGs. Three hub genes, WBP11, ACTR2, and NCSTN, were identified using machine learning algorithms. ROC curves demonstrated a strong diagnostic value when the three hub genes were combined. RT-qPCR confirmed the low expression of WBP11 and ACTR2 in RPL, whereas NCSTN exhibited high expression. The immune cell infiltration analysis results indicated an imbalance of macrophages in RPL. Meanwhile, these three hub genes exhibited aberrant expression in multiple malignancies and were associated with a poor prognosis. Furthermore, we identified several small-molecule drugs. CONCLUSION: This study identifies and validates hub genes in RPL, which may lead to significant advancements in understanding the molecular mechanisms and treatment strategies for this condition.",
+  "abstract_zh": "背景：复发性流产（recurrent pregnancy loss, RPL）定义为在妊娠20-24周前发生两次或以上妊娠丢失，是影响人类生殖健康的常见且重要的病理状况。然而，RPL的潜在机制仍不清楚。本研究旨在探讨与RPL相关的生物标志物和分子机制，并为临床应用探索新的治疗策略。方法：利用GEO数据库检索RPL基因表达谱GSE165004。对该表达谱进行差异表达分析、WGCNA、功能富集分析，并使用LASSO回归、SVM-RFE和RandomForest算法对RPL基因表达进行后续分析以筛选核心基因（hub gene）。构建ANN模型以评估核心基因在数据集中的性能。使用RT-qPCR验证RPL和对照组样本中核心基因的表达。使用CIBERSORT评估RPL的免疫细胞浸润水平。此外，使用Sangerbox进行泛癌分析，并使用CMap进行小分子药物筛选。结果：共鉴定出352个差异表达基因（DEGs），包括198个上调基因和154个下调基因。富集分析表明，DEGs主要与Fc gamma R介导的吞噬作用、Fc epsilon RI信号通路以及多种代谢相关通路相关。基于WGCNA结果，与临床症状相关性最高的turquoise模块包含104个DEGs。使用机器学习算法鉴定出三个核心基因：WBP11、ACTR2和NCSTN。ROC曲线显示，三个核心基因联合时具有强大的诊断价值。RT-qPCR证实WBP11和ACTR2在RPL中低表达，而NCSTN高表达。免疫细胞浸润分析结果表明RPL中巨噬细胞失衡。同时，这三个核心基因在多种恶性肿瘤中异常表达，并与不良预后相关。此外，我们鉴定了几种小分子药物。结论：本研究鉴定并验证了RPL中的核心基因，这可能为理解该疾病的分子机制和治疗策略带来重要进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37691920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37691920/",
+  "paper_page_path": "papers/pubmed/37691920/index.html"
+}

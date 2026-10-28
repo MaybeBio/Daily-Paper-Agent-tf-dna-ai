@@ -1,0 +1,458 @@
+{
+  "identity": {
+    "pmid": "40680332",
+    "doi": "10.1016/j.phymed.2025.157066",
+    "title": "Antitumor effects of cannabidiol (CBD) on osteosarcoma by targeting TNF-alpha/NF-kappaB/CCL5 signaling axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma remains a therapeutic challenge due to its aggressive behavior and high metastatic potential, necessitating exploration of novel treatment modalities. Cannabidiol (CBD), a non-psychoactive phytocannabinoid with emerging anticancer properties, has shown promise in preclinical cancer models. However, its mechanisms of action in osteosarcoma remain incompletely understood. This study systematically investigates the antitumor effects of CBD on osteosarcoma and elucidates its molecular targets within the TNF-alpha/NF-kappaB/CCL5 signaling axis. METHODS: The effective concentration of CBD was determined using the CCK-8 assay. Functional assays (EdU proliferation, Transwell migration/invasion, and scratch wound healing) evaluated its impact on osteosarcoma cell malignancy. A mouse xenograft model assessed in vivo efficacy. Network pharmacology and RNA-seq identified key pathways, which were validated via ELISA, qRT-PCR, and western blot. Molecular interactions were confirmed through CETSA, SPR, ITC, and molecular docking analyses targeting p65 (NF-kappaB subunit). RESULTS: CBD potently suppressed osteosarcoma cell proliferation, migration, and invasion while inhibiting xenograft tumor growth in vivo. Mechanistically, CBD disrupted the TNF-alpha/NF-kappaB/CCL5 axis by directly binding p65, thereby attenuating NF-kappaB-mediated transcriptional activation of CCL5. Notably, CBD abrogated a p65-CCL5 positive feedback loop that perpetuates inflammatory signaling, a novel finding linking CBD's effects to inflammatory cascade disruption in osteosarcoma. CONCLUSION: This study provides the first evidence that CBD inhibits osteosarcoma progression by targeting the TNF-alpha/NF-kappaB/CCL5 axis, disrupting a coordinated inflammatory-proliferative cascade. These findings position CBD as a promising therapeutic candidate for osteosarcoma, warranting further clinical investigation.",
+    "keywords": [
+      "CCL5",
+      "Cannabidiol",
+      "NF-kappaB",
+      "Osteosarcoma",
+      "Tumor metastasis"
+    ],
+    "mesh_terms": [
+      "*Cannabidiol/pharmacology",
+      "*Osteosarcoma/drug therapy/metabolism",
+      "Humans",
+      "Animals",
+      "*Chemokine CCL5/metabolism",
+      "*Tumor Necrosis Factor-alpha/metabolism",
+      "Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism",
+      "Cell Line, Tumor",
+      "Mice",
+      "Cell Proliferation/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "*Bone Neoplasms/drug therapy",
+      "Mice, Nude",
+      "Cell Movement/drug effects",
+      "Mice, Inbred BALB C",
+      "Molecular Docking Simulation",
+      "*Antineoplastic Agents, Phytogenic/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Fan",
+        "Duan, Shuqin",
+        "Liu, Jingwei",
+        "An, Zhechao",
+        "Liu, Wangyang",
+        "Wang, Xinyue",
+        "Zhang, Tingting",
+        "Liu, Mingyu",
+        "Li, Fengda",
+        "Wu, Wei",
+        "Liu, Yingzhe",
+        "Tang, Jianyong",
+        "Wang, Xiaojuan",
+        "Xu, Wenhui",
+        "Qi, Wenyi",
+        "Liu, Yunhe",
+        "Li, Liangliang",
+        "Li, Yuan",
+        "Liu, Xin",
+        "Yang, Baofeng",
+        "Zhang, Zheng",
+        "Wang, Li",
+        "Yang, Lei"
+      ],
+      "short_names": [
+        "Yang F",
+        "Duan S",
+        "Liu J",
+        "An Z",
+        "Liu W",
+        "Wang X",
+        "Zhang T",
+        "Liu M",
+        "Li F",
+        "Wu W",
+        "Liu Y",
+        "Tang J",
+        "Wang X",
+        "Xu W",
+        "Qi W",
+        "Liu Y",
+        "Li L",
+        "Li Y",
+        "Liu X",
+        "Yang B",
+        "Zhang Z",
+        "Wang L",
+        "Yang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China; Northern Translational Medicine Research and Cooperation Center, Heilongjiang Academy of Medical Sciences, Harbin Medical University, Harbin 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "Key Lab of Chemical Biology (MOE), School of Pharmaceutical Sciences, Cheeloo College of Medicine, Shandong University, Jinan 250012, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China.",
+        "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China. Electronic address: silencemadz@126.com.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China. Electronic address: wangli@hrbmu.edu.cn.",
+        "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China; Northern Translational Medicine Research and Cooperation Center, Heilongjiang Academy of Medical Sciences, Harbin Medical University, Harbin 150081, China; Research Unit of Noninfectious Chronic Diseases in Frigid Zone, Chinese Academy of Medical Sciences, 2019RU070, Harbin 150081, China; NHC Key Laboratory of Cell Transplantation at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China. Electronic address: yangray83@vip.qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Fan",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China; Northern Translational Medicine Research and Cooperation Center, Heilongjiang Academy of Medical Sciences, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Shuqin",
+        "short_name": "Duan S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jingwei",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China."
+        ]
+      },
+      {
+        "full_name": "An, Zhechao",
+        "short_name": "An Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wangyang",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tingting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mingyu",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fengda",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wei",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yingzhe",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jianyong",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaojuan",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenhui",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Wenyi",
+        "short_name": "Qi W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yunhe",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liangliang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Lab of Chemical Biology (MOE), School of Pharmaceutical Sciences, Cheeloo College of Medicine, Shandong University, Jinan 250012, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Baofeng",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Frigid Zone Cardiovascular Diseases (SKLFZCD), Department of Pharmacology (State-Province Key Laboratories of Biomedicine-Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zheng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China. Electronic address: silencemadz@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China. Electronic address: wangli@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China; Northern Translational Medicine Research and Cooperation Center, Heilongjiang Academy of Medical Sciences, Harbin Medical University, Harbin 150081, China; Research Unit of Noninfectious Chronic Diseases in Frigid Zone, Chinese Academy of Medical Sciences, 2019RU070, Harbin 150081, China; NHC Key Laboratory of Cell Transplantation at the First Affiliated Hospital, Harbin Medical University, Harbin 150001, China. Electronic address: yangray83@vip.qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/19 16:45",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42137120",
+      "41991774",
+      "41977638",
+      "41341865",
+      "41339282"
+    ],
+    "refs": [],
+    "similar": [
+      "40680332",
+      "39739023",
+      "29847772",
+      "39803606",
+      "32705250",
+      "33017573",
+      "39190380",
+      "25872586",
+      "40541124",
+      "39047413",
+      "38815788",
+      "24012639",
+      "40176057",
+      "25201625",
+      "41057878",
+      "26202947",
+      "29377600",
+      "32113150",
+      "25330803",
+      "39163893",
+      "33154629",
+      "39970856",
+      "38924929",
+      "33998855",
+      "35060345",
+      "41029481",
+      "37143211",
+      "41255096",
+      "23444213",
+      "38043386",
+      "39121924",
+      "40155004",
+      "30796934",
+      "29628496",
+      "29496166",
+      "41172918",
+      "40517691",
+      "40343452",
+      "40217455",
+      "39579612",
+      "30652346",
+      "23620411",
+      "33125106",
+      "27239780",
+      "38901205",
+      "31866511",
+      "41380825",
+      "28870912",
+      "27082056",
+      "41380855",
+      "33148374",
+      "25928089",
+      "23912183",
+      "40830133",
+      "22506069",
+      "40494017",
+      "40886867",
+      "25370696",
+      "21465181",
+      "25660577",
+      "38650011",
+      "33372687",
+      "30146723",
+      "41101075",
+      "39549059",
+      "24685520",
+      "24797937",
+      "39938176",
+      "24005829",
+      "40345273",
+      "40098908",
+      "40842169",
+      "33658314",
+      "26452780",
+      "23437404",
+      "36184504",
+      "39615216",
+      "28386055",
+      "41267108",
+      "31667686",
+      "40775646",
+      "20859676",
+      "31341911",
+      "28000853",
+      "40199407",
+      "38966918",
+      "33233701",
+      "28693582",
+      "40846275",
+      "36848028",
+      "40206492",
+      "32317702",
+      "40275168",
+      "38426797",
+      "28701209",
+      "40220405",
+      "32634265",
+      "40415618",
+      "29782821",
+      "32197974"
+    ],
+    "review": [
+      "40680332",
+      "40275168"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00705-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

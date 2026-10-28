@@ -1,0 +1,333 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.24.595662",
+  "title": "Deciphering cis-regulatory elements using REgulamentary",
+  "doi": "10.1101/2024.05.24.595662",
+  "abstract": "With the boom in Genome-Wide Association Studies (GWAS), it has become apparent that many disease-associated genetic variants lie in the non-coding regions of the genome. In order to prioritise these variants and disentangle their functional significance, it is important to be able to accurately classify cis-regulatory elements within these non-coding regions of the genome. Historically, the classification of cis-regulatory elements relied purely on the presence of characteristic histone marks, with recent advancements in their classification using more sophisticated Hidden Markov Model (HMM)-based approaches. The limitation of the HMM-based approaches is that the output of these models is an arbitrary chromatin state, which then requires the user to manually assign these states to a particular class of cis-regulatory elements. Here we present a new tool, REgulamentary, which enables de novo genome-wide annotation of cis-regulatory elements in a cell-type specific manner. We benchmarked REgulamentary against GenoSTAN, the most popular existing published chromatin annotation and regulatory element identification tool, to demonstrate the advancements REgulamentary can provide in assigning chromatin states. Finally, as an example of REgulamentary’s utility in solving complex disease trait loci , we applied REgulamentary to published GWAS data to demonstrate how this tool can be used to prioritise likely causal variants.",
+  "authors": [
+    "Riva SG",
+    "Georgiades E",
+    "Herrmann JC",
+    "Gür ER",
+    "Sanders E",
+    "Sergeant M",
+    "Baxter M",
+    "Hughes JR"
+  ],
+  "published_date": "2024-05-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.24.595662",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.24.595662.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR858623",
+    "raw_record": {
+      "id": "PPR858623",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR858623"
+        ]
+      },
+      "doi": "10.1101/2024.05.24.595662",
+      "title": "Deciphering cis-regulatory elements using REgulamentary",
+      "authorString": "Riva SG, Georgiades E, Herrmann JC, Gür ER, Sanders E, Sergeant M, Baxter M, Hughes JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Riva SG",
+            "lastName": "Riva",
+            "firstName": "Simone",
+            "initials": "SG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4400-9328"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Georgiades E",
+            "lastName": "Georgiades",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6356-0003"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herrmann JC",
+            "lastName": "Herrmann",
+            "firstName": "Jennifer",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9353-0657"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gür ER",
+            "lastName": "Gür",
+            "firstName": "Ravza",
+            "initials": "ER",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanders E",
+            "lastName": "Sanders",
+            "firstName": "Edward",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2025-7324"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sergeant M",
+            "lastName": "Sergeant",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baxter M",
+            "lastName": "Baxter",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3393-0824"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hughes JR",
+            "lastName": "Hughes",
+            "firstName": "Jim",
+            "initials": "JR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8955-7256"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6356-0003"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9353-0657"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3393-0824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4400-9328"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8955-7256"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2025-7324"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4738-6716"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "With the boom in Genome-Wide Association Studies (GWAS), it has become apparent that many disease-associated genetic variants lie in the non-coding regions of the genome. In order to prioritise these variants and disentangle their functional significance, it is important to be able to accurately classify cis-regulatory elements within these non-coding regions of the genome. Historically, the classification of cis-regulatory elements relied purely on the presence of characteristic histone marks, with recent advancements in their classification using more sophisticated Hidden Markov Model (HMM)-based approaches. The limitation of the HMM-based approaches is that the output of these models is an arbitrary chromatin state, which then requires the user to manually assign these states to a particular class of cis-regulatory elements. Here we present a new tool, REgulamentary, which enables  de novo genome-wide annotation of cis-regulatory elements in a cell-type specific manner. We benchmarked REgulamentary against GenoSTAN, the most popular existing published chromatin annotation and regulatory element identification tool, to demonstrate the advancements REgulamentary can provide in assigning chromatin states. Finally, as an example of REgulamentary’s utility in solving complex disease trait  loci , we applied REgulamentary to published GWAS data to demonstrate how this tool can be used to prioritise likely causal variants.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "108861/B/15/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "225220/Z/22/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "106130/Z/14/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.24.595662"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR858623"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR858623&type=FILE&fileName=EMS196548-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41943802",
+            "reference": "Bioinformatics advances. 2026 ;6(1):vbag079",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196548",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-05-30",
+      "firstPublicationDate": "2024-05-28",
+      "firstIndexDate": "2024-05-30",
+      "fullTextReceivedDate": "2024-07-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42538947",
+  "title": "scLEMBAS: Context-Aware Modeling of Signaling Pathway Activity at Single-Cell Resolution.",
+  "authors": "Baghdassarian, Hratch M; Meimetis, Nikolaos; Nordenstorm, Olof; Joughin, Brian A; Nilsson, Avlant; Lauffenburger, Douglas A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-08-01",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用先验知识网络构建灰盒神经网络预测单细胞信号通路活性与TF活性，虽涉及TF活性预测，但核心是信号通路而非TF-DNA结合互作，且无三维结构或结合位点建模，方法可迁移性有限。",
+  "abstract": "Cells sense and integrate extracellular cues through intracellular signaling networks that reshape transcription factor activity to dictate cellular responses. Signaling activity is difficult to decipher: it is non-linear, and it contains extensive feedback and crosstalk. Furthermore, the same perturbation can elicit markedly different responses depending on context (e.g., cell type, disease state, and tissue microenvironment) such that identical stimuli produce diverse responses in multicellular populations. Consequently, there is a vast combinatorial space of complex interactions and context-dependent responses that necessitate computational models. Computational models of single-cell perturbation responses are demonstrated to predict cellular responses, but are often limited in mechanistic insight. Prior knowledge networks offer a route to bridge predictive capability and interpretability. Here we present scLEMBAS, a context-aware, gray-box neural network that models signaling pathway activity at single-cell resolution while preserving mechanistic grounding. scLEMBAS encodes a prior-knowledge network of protein-protein interactions as a recurrent neural network whose learnable edge weights correspond to signaling interaction strengths. It also captures context and individual cell variance through compositional bias terms. An adversarial approach allows the model to answer a single-cell counterfactual - what a given cell's TF activity would be under a different perturbation or context - while involving mechanistic rather than simply relational information. Across two scRNA-seq datasets spanning single- and multi-perturbation settings, scLEMBAS accurately predicts out-of-distribution combinations of perturbation and context. Capturing population variance across individual cells enables the model to predict cell subtype specific perturbation responses, despite being agnostic to such labels. Beyond prediction, scLEMBAS' learned parameters are biologically interpretable: learned edge weights carry information beyond network topology and \"self-prune\" spurious interactions, while the categorical bias nominates proteins associated with cell-type-specific perturbation states. Overall, scLEMBAS enables quantitative dissection of how signaling pathway activity is reshaped by perturbation within specific cellular contexts.",
+  "abstract_zh": "细胞通过胞内信号网络感知并整合细胞外线索，这些网络重塑转录因子活性以决定细胞响应。信号活性难以解读：其具有非线性特征，并包含广泛的反馈和串扰。此外，相同的扰动可根据情境（如细胞类型、疾病状态和组织微环境）引发显著不同的响应，使得相同刺激在多细胞群体中产生多样化结果。因此，存在一个由复杂相互作用和情境依赖性响应构成的巨大组合空间，这需要计算模型的支持。单细胞扰动响应的计算模型已被证明能预测细胞响应，但通常在机制洞察方面受限。先验知识网络提供了一条连接预测能力与可解释性的途径。在此，我们提出scLEMBAS，一种情境感知的灰盒神经网络，以单细胞分辨率建模信号通路活性，同时保持机制基础。scLEMBAS将蛋白质-蛋白质相互作用的先验知识网络编码为循环神经网络，其可学习的边权重对应信号相互作用强度。它还通过组合偏置项捕获情境和个体细胞变异。一种对抗性方法使模型能够回答单细胞反事实问题——即在不同扰动或情境下，给定细胞的转录因子活性会如何——同时涉及机制性而非单纯关系性信息。在涵盖单扰动和多扰动设置的两个scRNA-seq数据集中，scLEMBAS准确预测了扰动和情境的分布外组合。捕获跨个体细胞的群体变异使模型能够预测细胞亚型特异性扰动响应，尽管其对这类标签不敏感。除预测外，scLEMBAS的学习参数具有生物学可解释性：学习到的边权重携带超越网络拓扑的信息，并“自我修剪”虚假相互作用，而分类偏置则提名与细胞类型特异性扰动状态相关的蛋白质。总体而言，scLEMBAS能够定量解析在特定细胞情境下信号通路活性如何被扰动重塑。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42538947/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42538947/",
+  "paper_page_path": "papers/pubmed/42538947/index.html"
+}

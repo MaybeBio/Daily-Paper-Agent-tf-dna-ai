@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "40107149",
+    "doi": "10.1016/j.compmedimag.2025.102526",
+    "title": "A multimodal framework for assessing the link between pathomics, transcriptomics, and pancreatic cancer mutations."
+  },
+  "content": {
+    "abstract": "In Pancreatic Ductal Adenocarcinoma (PDAC), predicting genetic mutations directly from histopathological images using Deep Learning can provide valuable insights. The combination of several omics can provide further knowledge on mechanisms underlying tumor biology. This study aimed at developing an explainable multimodal pipeline to predict genetic mutations for the KRAS, TP53, SMAD4, and CDKN2A genes, integrating pathomic features with transcriptomics from two independent datasets, the TCGA-PAAD, assumed as training set, and the CPTAC-PDA, as external validation set. Large and small configurations of CLAM (Clustering-constrained Attention Multiple Instance Learning) models were evaluated with three different feature extractors (ResNet50, UNI, and CONCH). RNA-seq data were pre-processed both conventionally and using three autoencoder architectures. The processed transcript panels were input into machine learning (ML) models for mutation classification. Attention maps and SHAP were employed, highlighting significant features from both data modalities. A fusion layer or a voting mechanism combined the outputs from pathomic and transcriptomic models, obtaining a multimodal prediction. Performance comparisons were assessed by Area Under Receiver Operating Characteristic (AUROC) and Precision-Recall (AUPRC) curves. On the validation set, for KRAS, multimodal ML achieved 0.92 of AUROC and 0.98 of AUPRC. For TP53, the multimodal voting model achieved 0.75 of AUROC and 0.85 of AUPRC. For SMAD4 and CDKN2A, transcriptomic ML models achieved AUROC of 0.71 and 0.65, while multimodal ML showed AUPRC of 0.39 and 0.37, respectively. This approach demonstrated the potential of combining pathomics with transcriptomics, offering an interpretable framework for predicting key genetic mutations in PDAC.",
+    "keywords": [
+      "Explainability",
+      "Multimodal Analysis",
+      "Pancreatic Cancer",
+      "Pathomics",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Pancreatic Neoplasms/genetics/pathology",
+      "Humans",
+      "*Mutation",
+      "*Carcinoma, Pancreatic Ductal/genetics/pathology",
+      "*Transcriptome",
+      "Smad4 Protein/genetics",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Berloco, Francesco",
+        "Zaccaria, Gian Maria",
+        "Altini, Nicola",
+        "Colucci, Simona",
+        "Bevilacqua, Vitoantonio"
+      ],
+      "short_names": [
+        "Berloco F",
+        "Zaccaria GM",
+        "Altini N",
+        "Colucci S",
+        "Bevilacqua V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy. Electronic address: nicola.altini@poliba.it.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy.",
+        "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Berloco, Francesco",
+        "short_name": "Berloco F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Zaccaria, Gian Maria",
+        "short_name": "Zaccaria GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Altini, Nicola",
+        "short_name": "Altini N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy. Electronic address: nicola.altini@poliba.it."
+        ]
+      },
+      {
+        "full_name": "Colucci, Simona",
+        "short_name": "Colucci S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Bevilacqua, Vitoantonio",
+        "short_name": "Bevilacqua V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Information Engineering (DEI), Polytechnic University of Bari, Via Edoardo Orabona, 4, Bari 70126, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+    ],
+    "journal_abbrev": [
+      "Comput Med Imaging Graph"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/20 00:33",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "41378008",
+      "40909977"
+    ],
+    "refs": [],
+    "similar": [
+      "40107149",
+      "40157244",
+      "41716413",
+      "39533091",
+      "41212589",
+      "42189258",
+      "42164702",
+      "40410330",
+      "41508286",
+      "32314446",
+      "40563037",
+      "40528743",
+      "38237450",
+      "40328536",
+      "40314741",
+      "35399143",
+      "33144687",
+      "41659270",
+      "38316655",
+      "33347393",
+      "41638573",
+      "39395242",
+      "29103024",
+      "27432539",
+      "40943438",
+      "40537254",
+      "39318711",
+      "32372692",
+      "33008426",
+      "42026805",
+      "39259678",
+      "23470568",
+      "41418691",
+      "42212130",
+      "41988257",
+      "40013338",
+      "41809834",
+      "32241274",
+      "27256393",
+      "39289097",
+      "41942785",
+      "40628176",
+      "34346253",
+      "39639211",
+      "33647600",
+      "42073521",
+      "30227407",
+      "40262100",
+      "28810144",
+      "40717595",
+      "28188630",
+      "40199428",
+      "35180847",
+      "41417942",
+      "41968976",
+      "39342876",
+      "39571764",
+      "37291757",
+      "32988401",
+      "24204737",
+      "37365659",
+      "41843889",
+      "17804724",
+      "40711603",
+      "28099251",
+      "34686474",
+      "39482576",
+      "40829181",
+      "42050780",
+      "41982038",
+      "32185618",
+      "33574569",
+      "32928922",
+      "41988296",
+      "31243486",
+      "40862800",
+      "41237514",
+      "40894597",
+      "39528880",
+      "41942534",
+      "34792696",
+      "32524539",
+      "39841099",
+      "41973202",
+      "40171562",
+      "41671586",
+      "31611300",
+      "32002592",
+      "41208840",
+      "40053733",
+      "26378065",
+      "41945655",
+      "24445769",
+      "32234756",
+      "38268915",
+      "37355152",
+      "41419964",
+      "39501138",
+      "40945002",
+      "38702822"
+    ],
+    "review": [
+      "40107149",
+      "33347393",
+      "32372692",
+      "33008426",
+      "39571764",
+      "40829181",
+      "33574569",
+      "31611300"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0895-6111(25)00035-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-333",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0895-6111(25)00035-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.21.726843",
+  "title": "Protein-level prediction of <i>Klebsiella</i> phage adsorption identifies conserved receptor-binding motifs",
+  "doi": "10.64898/2026.05.21.726843",
+  "abstract": "Bacteriophage therapy offers a potential route to treat antibiotic-resistant Klebsiella pneumoniae infections, but its use is limited by the narrow specificity of phage–host interactions. In Klebsiella , adsorption is largely determined by receptor-binding proteins (RBPs) that recognize bacterial capsular polysaccharides, yet current machine learning approaches often represent whole phages rather than the individual proteins that mediate recognition. Here, we ask whether adsorption can be predicted at the level of single RBPs and whether the resulting models can identify the molecular features responsible for host specificity. Using experimentally validated Klebsiella phage–host interactions, we extended the PhageHostLearn framework from averaged phage-level representations to individual RBP-level predictions. We found that single-RBP models recover the predictive performance of strain-level models when host capsule identity is explicitly represented. However, models trained only on interaction-level labels did not reliably distinguish motif-bearing RBPs from other viral proteins, indicating that protein-level inputs alone are insufficient for mechanistic interpretability. To resolve this ambiguity, we identified serotype-specific conserved motifs among RBPs from phages infecting the same capsular type. Structural modelling showed that these motifs localize to exposed regions of RBPs and resemble carbohydrate-binding modules. Incorporating motif information into a relabelled training scheme improved prioritization of motif-bearing RBPs while preserving interaction-level predictive power. We further identified a candidate multi-motif RBP from phage S8c that may recognize multiple capsular serotypes. Together, these results support a modular model of Klebsiella phage adsorption in which conserved sub-protein elements drive capsule recognition. More broadly, this work shows how protein-level machine learning combined with biological constraints can move beyond accurate phage–host prediction toward mechanistic identification of host-range determinants. Author summary Bacteriophages –viruses that infect bacteria– are being explored as alternatives to antibiotics, especially against drug-resistant pathogens such as Klebsiella pneumoniae . The challenge is specificity: each phage attaches to only a narrow range of bacterial strains, recognising them through proteins on its tail that bind the bacterium’s protective sugar capsule. Choosing or engineering the right phage for a given infection therefore requires understanding what these recognition proteins actually do. We asked whether a machine learning model could move beyond predicting which phages infect a given strain and start identifying which protein on the phage drives that recognition. Prediction alone, we found, is not enough: a model can be accurate without pointing to the responsible protein. To bridge this gap, we searched for short shared sequences among recognition proteins from phages that infect bacteria with the same capsule type, and used these shared patterns to guide the model. This combination correctly prioritised the recognition protein far more often than chance. One phage protein, from phage S8c, carried patterns matching five different capsule types, suggesting a candidate broadly-recognising protein for future experimental study.",
+  "authors": [
+    "Francesco Fumagalli",
+    "Giacomo Spigler"
+  ],
+  "published_date": "2026-05-23",
+  "updated_date": "2026-05-24T06:30:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726843",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726843.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2026-05-27T09:07:03Z",
+        "timestamp": 1779872823329,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                23
+              ]
+            ],
+            "date-time": "2026-05-23T00:00:00Z",
+            "timestamp": 1779494400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Bacteriophage therapy offers a potential route to treat antibiotic-resistant\n                  <jats:italic>Klebsiella pneumoniae</jats:italic>\n                  infections, but its use is limited by the narrow specificity of phage–host interactions. In\n                  <jats:italic>Klebsiella</jats:italic>\n                  , adsorption is largely determined by receptor-binding proteins (RBPs) that recognize bacterial capsular polysaccharides, yet current machine learning approaches often represent whole phages rather than the individual proteins that mediate recognition. Here, we ask whether adsorption can be predicted at the level of single RBPs and whether the resulting models can identify the molecular features responsible for host specificity.\n                </jats:p>\n                <jats:p>\n                  Using experimentally validated\n                  <jats:italic>Klebsiella</jats:italic>\n                  phage–host interactions, we extended the PhageHostLearn framework from averaged phage-level representations to individual RBP-level predictions. We found that single-RBP models recover the predictive performance of strain-level models when host capsule identity is explicitly represented. However, models trained only on interaction-level labels did not reliably distinguish motif-bearing RBPs from other viral proteins, indicating that protein-level inputs alone are insufficient for mechanistic interpretability. To resolve this ambiguity, we identified serotype-specific conserved motifs among RBPs from phages infecting the same capsular type. Structural modelling showed that these motifs localize to exposed regions of RBPs and resemble carbohydrate-binding modules. Incorporating motif information into a relabelled training scheme improved prioritization of motif-bearing RBPs while preserving interaction-level predictive power. We further identified a candidate multi-motif RBP from phage S8c that may recognize multiple capsular serotypes.\n                </jats:p>\n                <jats:p>\n                  Together, these results support a modular model of\n                  <jats:italic>Klebsiella</jats:italic>\n                  phage adsorption in which conserved sub-protein elements drive capsule recognition. More broadly, this work shows how protein-level machine learning combined with biological constraints can move beyond accurate phage–host prediction toward mechanistic identification of host-range determinants.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>\n                    Bacteriophages –viruses that infect bacteria– are being explored as alternatives to antibiotics, especially against drug-resistant pathogens such as\n                    <jats:italic>Klebsiella pneumoniae</jats:italic>\n                    .\n                  </jats:p>\n                  <jats:p>The challenge is specificity: each phage attaches to only a narrow range of bacterial strains, recognising them through proteins on its tail that bind the bacterium’s protective sugar capsule. Choosing or engineering the right phage for a given infection therefore requires understanding what these recognition proteins actually do.</jats:p>\n                  <jats:p>We asked whether a machine learning model could move beyond predicting which phages infect a given strain and start identifying which protein on the phage drives that recognition. Prediction alone, we found, is not enough: a model can be accurate without pointing to the responsible protein. To bridge this gap, we searched for short shared sequences among recognition proteins from phages that infect bacteria with the same capsule type, and used these shared patterns to guide the model. This combination correctly prioritised the recognition protein far more often than chance. One phage protein, from phage S8c, carried patterns matching five different capsule types, suggesting a candidate broadly-recognising protein for future experimental study.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.05.21.726843",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            24
+          ]
+        ],
+        "date-time": "2026-05-24T06:30:15Z",
+        "timestamp": 1779604215000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Protein-level prediction of\n                  <i>Klebsiella</i>\n                  phage adsorption identifies conserved receptor-binding motifs"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-7117-0942",
+          "authenticated-orcid": false,
+          "given": "Francesco",
+          "family": "Fumagalli",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Intelligent Systems, Tilburg University, Tilburg, Netherlands"
+            },
+            {
+              "name": "Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8274-2117",
+          "authenticated-orcid": false,
+          "given": "Giacomo",
+          "family": "Spigler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Intelligent Systems, Tilburg University, Tilburg, Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.1",
+          "unstructured": "Organization WH. Global antimicrobial resistance and use surveillance system (GLASS) report 2022. World Health Organization; 2022."
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-73360-1"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/med.21593"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-018-0070-8"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms232012146"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae484"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tcbb.2020.3017386"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2023.06.014"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-48675-6"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.copbio.2020.11.003"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mbio.00455-21"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2020.04.015"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2023.112048"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.01.07.574526"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0118432"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz265"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.02.05.636613"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1010693"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.20",
+          "first-page": "28",
+          "article-title": "Fitting a mixture model by expectation maximization to discover motifs in biopolymers",
+          "volume": "2",
+          "year": "1994",
+          "journal-title": "PubMed"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026052701400523000_2026.05.21.726843v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab314"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.21.726843",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2026-05-27T08:40:17Z",
+        "timestamp": 1779871217000
+      },
+      "score": 101.14631,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.21.726843"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            23
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.64898/2026.05.21.726843",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

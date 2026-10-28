@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39080525",
+  "title": "Transcriptomics explores potential mechanisms for the development of Primary Sjogren's syndrome to diffuse large B-cell lymphoma in B cells.",
+  "authors": "Xu, Yanan; Han, Jianxing; Fan, Ziyi; Liang, Shufen",
+  "journal": "BMC immunology",
+  "published_date": "2024-07-31",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 0,
+  "one_liner_zh": "该文基于转录组和机器学习分析pSS与DLBCL的共享枢纽基因，属于纯表达谱与临床诊断研究，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "PURPOSE: Primary Sjogren's syndrome (pSS) is a prevalent autoimmune disease. The immune dysregulation it causes often leads to the development of diffuse large B-cell lymphoma (DLBCL) in clinical practice. However, how it contributes to these two disorders at the molecular level is not yet known. This study explored the potential molecular mechanisms associated with the differences between DLBCL and pSS. PATIENTS AND METHODS: Gene expression matrices from discovery cohort 1, discovery cohort 2, and the validation cohort were downloaded from the GEO and TCGA databases. Weighted gene coexpression network analysis (WGCNA) was performed to identify the coexpression modules of DLBCL and pSS in discovery cohort 1 and obtain shared genes. GO and KEGG enrichment analyses and PPI network analysis were performed on the shared genes. Immune-related genes (IRGs) were intersected with shared genes to obtain common genes. Afterward, common genes were identified via machine learning methods. The immune infiltration analysis, miRNA-TF-hub gene regulatory chart, gene interactions of the hub genes, and gene‒drug target analysis were performed. Finally, STAT1 was identified as a possible essential gene by the above analysis, and immune infiltration and GSEA pathway analyses were performed in the high- and low-expression groups in discovery cohort 2. The diagnostic efficacy of the hub genes was assessed in the validation cohort, and clinical samples were collected for validation. RESULTS: By WGCNA, one modular gene in each group was considered highly associated with the disease, and we obtained 28 shared genes. Enrichment analysis revealed shared genes involved in the viral response and regulation. We obtained four hub genes (ISG20, STAT1, TLR7, and RSAD2) via the algorithm. Hub genes and similar genes are primarily involved in regulating type I IFNs. The construction of a miRNA-TF-hub gene regulatory chart revealed that hsa-mir-155-5p, hsa-mir-146b-5p, hsa-mir-21-3p, and hsa-mir-126-3p play essential roles in both diseases. Hub genes were differentially expressed in B-cell memory according to immune infiltration analysis. Hub genes had a strong diagnostic effect on both diseases. STAT1 plays an essential role in immune cells in both diseases. CONCLUSION: We identified hub susceptibility genes for DLBCL and pSS and identified hub genes and potential therapeutic targets that may act as biomarkers.",
+  "abstract_zh": "目的：原发性干燥综合征（primary Sjogren's syndrome, pSS）是一种常见的自身免疫性疾病。其引起的免疫失调在临床实践中常导致弥漫性大B细胞淋巴瘤（diffuse large B-cell lymphoma, DLBCL）的发生。然而，其在分子水平上如何促成这两种疾病尚不清楚。本研究探讨了与DLBCL和pSS之间差异相关的潜在分子机制。患者与方法：从GEO和TCGA数据库中下载发现队列1、发现队列2和验证队列的基因表达矩阵。采用加权基因共表达网络分析（weighted gene coexpression network analysis, WGCNA）识别发现队列1中DLBCL和pSS的共表达模块，并获取共享基因。对共享基因进行GO和KEGG富集分析及PPI网络分析。将免疫相关基因（immune-related genes, IRGs）与共享基因取交集以获得共同基因。随后，通过机器学习方法识别共同基因。进行免疫浸润分析、miRNA-TF-枢纽基因调控网络构建、枢纽基因的基因相互作用及基因-药物靶点分析。最后，通过上述分析将STAT1确定为可能的关键基因，并在发现队列2的高表达组和低表达组中进行免疫浸润和GSEA通路分析。在验证队列中评估枢纽基因的诊断效能，并收集临床样本进行验证。结果：通过WGCNA，每组中有一个模块基因被认为与疾病高度相关，我们获得了28个共享基因。富集分析显示共享基因参与病毒应答和调控。通过算法获得四个枢纽基因（ISG20、STAT1、TLR7和RSAD2）。枢纽基因及相似基因主要参与I型干扰素的调控。miRNA-TF-枢纽基因调控网络构建显示，hsa-mir-155-5p、hsa-mir-146b-5p、hsa-mir-21-3p和hsa-mir-126-3p在两种疾病中发挥重要作用。根据免疫浸润分析，枢纽基因在B细胞记忆亚群中差异表达。枢纽基因对两种疾病均具有较强的诊断效果。STAT1在两种疾病的免疫细胞中发挥重要作用。结论：我们识别了DLBCL和pSS的枢纽易感基因，并确定了可能作为生物标志物的枢纽基因和潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39080525/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39080525/",
+  "paper_page_path": "papers/pubmed/39080525/index.html"
+}

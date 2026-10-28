@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "41930555",
+    "doi": "10.1016/j.ctarc.2026.101171",
+    "title": "A radiomics-based interpretable model to distinguish Xp11.2/TFE3 translocation renal cell carcinoma and common types of renal cell carcinoma on CT images."
+  },
+  "content": {
+    "abstract": "BACKGROUND: TFE3-RCC is rare, hard to distinguish from common RCC on CT, posing preoperative diagnostic challenges for clinicians. This two-center study aimed to develop interpretable machine learning models using radiomics to differentiate Xp11.2/TFE3 translocation renal cell carcinoma (TFE3-RCC) from common renal cell carcinoma (RCC) subtypes using computed tomography (CT) images. METHODS: Retrospective data from 1394 patients (39 TFE3-RCC, 1355 non-TFE3 RCC) were analyzed. A propensity score matching (PSM) was applied, resulting in 234 cases (TFE3: n = 39, non-TFE3: n = 195) included in the radiomics study. CT images were segmented using an AI-based model, and 102 radiomic features (shape, first-order statistics, texture) were extracted. Recursive feature elimination (RFE) with random forest and gradient boosting models were used for feature selection and model development. Performance was evaluated via area under the receiver operating characteristic curve (AUC), accuracy, sensitivity, and specificity. RESULTS: The patients with TFE3-RCC were significantly younger (36.51 +/- 12.68 vs. 57.30 +/- 12.00 years, P < 0.05), and had more frequent calcification (30.8% vs. 6.4%, P < 0.05) and were larger (5.50 +/- 3.17 cm vs. 4.11 +/- 2.06 cm, P = 0.005) than those with non-TFE3 RCC, and preferred to implicate females (female: 46.2% vs. 29.3%, P = 0.023). The model identified six optimal features, with skewness (relative weight: 44.57%) and first-order statistics as key predictors. The training set and test set achieved stable performances with AUC (0.951 (95% CI: 0.920-0.983) and 0.864 (95% CI: 0.749-0.979)) and accuracy (0.878 and 0.852). CONCLUSION: Interpretable radiomics-based machine learning models effectively differentiate TFE3-RCC from common RCC subtypes, with skewness and intensity features as critical biomarkers. This approach may improve preoperative diagnosis, though larger multi-center studies and integration of multi-omics data are needed for clinical translation.",
+    "keywords": [
+      "Computed tomography",
+      "Machine learning",
+      "Radiomics",
+      "Renal cell carcinoma",
+      "Xp11.2/TFE3 translocation renal cell carcinoma"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/genetics",
+      "*Carcinoma, Renal Cell/genetics/diagnostic imaging/diagnosis",
+      "*Chromosomes, Human, X/genetics",
+      "*Kidney Neoplasms/genetics/diagnostic imaging/diagnosis",
+      "Machine Learning",
+      "Radiomics",
+      "Retrospective Studies",
+      "ROC Curve",
+      "*Tomography, X-Ray Computed/methods",
+      "Translocation, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yi",
+        "Shen, Qi",
+        "Wang, Kexin",
+        "Zhang, Yaofeng",
+        "Liu, Jiangtao",
+        "Qiu, Jianxing",
+        "Wang, Xiaoying"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Shen Q",
+        "Wang K",
+        "Zhang Y",
+        "Liu J",
+        "Qiu J",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China.",
+        "Department of Urology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China.",
+        "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China.",
+        "Beijing Smart Tree Medical Technology Co., Ltd., 24, Huangsi Avenue, Xicheng District, Beijing 100035, China.",
+        "Beijing Smart Tree Medical Technology Co., Ltd., 24, Huangsi Avenue, Xicheng District, Beijing 100035, China.",
+        "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China. Electronic address: liuyi653044@126.com.",
+        "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China. Electronic address: wangxiaoying@bjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Qi",
+        "short_name": "Shen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kexin",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaofeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Smart Tree Medical Technology Co., Ltd., 24, Huangsi Avenue, Xicheng District, Beijing 100035, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiangtao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Smart Tree Medical Technology Co., Ltd., 24, Huangsi Avenue, Xicheng District, Beijing 100035, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Jianxing",
+        "short_name": "Qiu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China. Electronic address: liuyi653044@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoying",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University First Hospital, No. 8 Xishiku Street, Xicheng District, Beijing 100034, China. Electronic address: wangxiaoying@bjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer treatment and research communications"
+    ],
+    "journal_abbrev": [
+      "Cancer Treat Res Commun"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/03 06:30",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41930555",
+      "31892340",
+      "26636097",
+      "25714283",
+      "25955396",
+      "23598965",
+      "31468159",
+      "24926688",
+      "30786687",
+      "39618212",
+      "32286325",
+      "23446748",
+      "31043488",
+      "38261736",
+      "39788813",
+      "31175325",
+      "40177755",
+      "23715164",
+      "38634876",
+      "26975036",
+      "39311950",
+      "41667901",
+      "20154303",
+      "40216577",
+      "25763125",
+      "35094674",
+      "26169997",
+      "42406147",
+      "20683695",
+      "29890986",
+      "25984679",
+      "36411581",
+      "31277953",
+      "38897659",
+      "21773754",
+      "40448001",
+      "41928166",
+      "36656224",
+      "41818775",
+      "29134348",
+      "32699116",
+      "22523215",
+      "42260809",
+      "40754899",
+      "25544614",
+      "26045774",
+      "42219835",
+      "17667536",
+      "21182142",
+      "30908700",
+      "35149286",
+      "23828314",
+      "42543505",
+      "22100019",
+      "19228722",
+      "26880493",
+      "30292260",
+      "40831132",
+      "34215760",
+      "24136829",
+      "40450509",
+      "26191243",
+      "20679884",
+      "21817901",
+      "23628822",
+      "28415646",
+      "33026261",
+      "28315422",
+      "24726108",
+      "27255396",
+      "21092583",
+      "24228124",
+      "39963829",
+      "40446477",
+      "39548590",
+      "27372562",
+      "40334367",
+      "32193870",
+      "30523454",
+      "26415891",
+      "28288037",
+      "24309327",
+      "32696256",
+      "33004995",
+      "27401463",
+      "34657848",
+      "33136182",
+      "25002378",
+      "40249552",
+      "36695651",
+      "33795526",
+      "40024922",
+      "37006053",
+      "30458744",
+      "30019296",
+      "27733182",
+      "28208226",
+      "31635476",
+      "40293711",
+      "33854184"
+    ],
+    "review": [
+      "41930555",
+      "36656224",
+      "30908700",
+      "33026261",
+      "24309327",
+      "27401463",
+      "33136182"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2468-2942(26)00082-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1491",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2468-2942(26)00082-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, and references to supplementary materials
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and significance of the claims presented in the manuscript
+- **Shared manuscript claim summary** The authors present Predmoter, a deep neural network that predicts base-wise ATAC-seq and H3K4me3 ChIP-seq read coverage from plant genomic DNA sequences. The model is trained on data from 13 plant species for ATAC-seq and 17 for ChIP-seq, and evaluated on Arabidopsis thaliana and Oryza sativa. The authors claim accurate predictions of peak position and pattern, and suggest the tool can reduce the search space for experimentally verifiable DNA-protein interaction pairs.
+- **Visible evidence base** Main text figures (Figures 1-7), Tables 1-5, equations 1-5, and references to supplementary tables and sections
+- **Missing materials affecting confidence** Supplementary figures, tables, and sections referenced but not provided; detailed model architecture parameters; hyperparameter tuning details; exact training/validation/test data splits per species; code execution details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful and timely tool for predicting plant cis-regulatory elements from DNA sequence alone. The cross-species approach is a strength, and the evaluation on two evolutionarily distant species (A. thaliana and O. sativa) provides some evidence of generalization. However, several methodological details are missing or unclear, and the performance metrics reported are modest. The claim that Predmoter can "significantly reduce the search space" for experimental validation is plausible but not directly demonstrated. The manuscript would benefit from clearer reporting of model training details, more rigorous statistical evaluation, and a direct comparison with existing tools.
+- **Who would be interested in the results, and why** Plant molecular biologists and geneticists studying gene regulation, particularly those working on non-model species where experimental data for cis-regulatory elements is scarce. Computational biologists developing deep learning methods for genomics would also be interested in the architecture and cross-species training approach. The tool could be valuable for prioritizing genomic regions for experimental validation in plant breeding and genetic engineering applications.
+- **Major strengths** 1) Addresses a real need for cost-effective prediction of cis-regulatory elements in plants, where experimental data is limited. 2) Cross-species training approach is novel in the plant genomics field and could improve generalization. 3) The model is made available as open-source code, supporting reproducibility and community use. 4) The evaluation includes both correlation-based metrics and peak-based metrics, providing a multi-faceted view of performance. 5) The discussion of limitations, particularly regarding data quality and tissue-specificity, is honest and balanced.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Predmoter provides "accurate predictions in peak position and pattern" for ATAC- and histone ChIP-seq data.
+  - **Evidence pointer** Section 3, Figures 4-6, Tables 2-4
+  - **Concern** The reported Pearson correlation coefficients are modest (best values around 0.67-0.83 for ChIP-seq, lower for ATAC-seq). The F1 scores for ATAC-seq peak prediction in A. thaliana are particularly low (0.2162). While the authors acknowledge these limitations, the claim of "accurate predictions" is not well supported by the quantitative results. The AUPRC values, while exceeding baselines, are still relatively low in absolute terms. The manuscript does not provide a statistical comparison against a null model or existing tools, making it difficult to assess whether the performance is genuinely state-of-the-art.
+  - **Why it matters** The central claim of the manuscript is that Predmoter can reliably predict cis-regulatory elements. If the performance is not clearly demonstrated to be superior to existing methods or to a reasonable baseline, the practical utility of the tool is questionable. The modest performance metrics, particularly for ATAC-seq, may limit the tool's usefulness for prioritizing regions for experimental validation.
+  - **Resolution test** Provide a direct comparison with existing plant promoter/enhancer prediction tools (e.g., DeePromoter, PlantCARE, or similar) on the same test datasets. Report confidence intervals for all metrics. Demonstrate that the predictions are significantly better than a random or GC-content-based baseline. Show that the peak predictions are enriched for known functional elements (e.g., experimentally validated promoters/enhancers) beyond what would be expected by chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "The source code for Predmoter is available at: https://github.com/weberlab-hhu/Predmoter" and that the model can be retrained with additional data.
+  - **Evidence pointer** Section "Availability and implementation", Section 2.2, Section 2.3
+  - **Concern** The manuscript lacks sufficient detail on the model training procedure to ensure reproducibility. Key missing information includes: (1) exact hyperparameter values (learning rate, batch size, number of epochs, optimizer settings), (2) the specific data augmentation strategies beyond strand complementation, (3) how the training/validation/test splits were performed at the sequence level (e.g., were sequences from the same chromosome or genomic region kept together?), (4) the computational resources required for training, and (5) the exact procedure for selecting the "best" model during training. The reference to Supplementary Table S4 for "exact model parameters" is insufficient without access to that table.
+  - **Why it matters** Reproducibility is a core requirement for scientific software. Without detailed training procedures, other researchers cannot replicate the results or adapt the model to their own data. This limits the scientific impact and trustworthiness of the tool.
+  - **Resolution test** Provide a complete description of all hyperparameters and training procedures in the main text or a clearly accessible supplement. Include a configuration file or script that fully specifies the training setup. Report the random seed(s) used and the variance in performance across multiple training runs. Provide a step-by-step tutorial for retraining the model on new data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "annotating putatively accessible chromatin regions provides valuable input for the identification of CREs" and that this "can significantly reduce the search space for experimentally verifiable DNA-protein interaction pairs."
+  - **Evidence pointer** Abstract, Section 4 (Discussion)
+  - **Concern** While the claim is plausible, the manuscript does not provide direct evidence that Predmoter's predictions actually reduce the experimental search space in practice. No case study or simulation is presented to demonstrate that using Predmoter's predictions would lead to a higher hit rate for functional elements compared to random selection or other prioritization methods. The authors mention that the tool can be used "in conjunction with other in silico data" but do not show how this would work in practice.
+  - **Why it matters** The practical value of the tool depends on its ability to guide experimental design. Without a demonstration of this utility, the impact of the work is limited to a methodological contribution. The claim of "significantly reducing search space" is a strong one that requires direct evidence.
+  - **Resolution test** Provide a case study where Predmoter predictions are used to select regions for experimental validation (e.g., promoter-reporter assays or CRISPR-based perturbation) and show that the hit rate is higher than random selection or alternative methods. Alternatively, use existing large-scale datasets (e.g., STARR-seq or MPRA) to demonstrate that Predmoter-predicted peaks are enriched for functional elements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1.2, Figure 1
+  - **Evidence pointer** Section 2.1.2, Figure 1
+  - **Issue** The description of the "flagging" procedure for unplaced scaffolds and non-plant sequences is somewhat unclear. The authors state that "unplaced scaffolds and non-nuclear sequences were flagged" but do not clearly explain how this flagging was implemented in the data pipeline and whether it was applied consistently across all species.
+  - **Required correction** Clarify the flagging procedure, including how the blacklist was generated and applied. Specify whether the flagging was applied to both training and test data, and how it affected the final dataset composition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5, Equation 1
+  - **Evidence pointer** Section 2.5, Equation 1
+  - **Issue** The Poisson loss function is presented without a clear justification for its use. While the authors state that it was chosen because ChIP-seq data is Poisson distributed, the ATAC-seq data may not follow the same distribution. The manuscript does not discuss whether alternative loss functions (e.g., MSE, Huber) were considered.
+  - **Required correction** Provide a brief justification for the choice of Poisson loss, and discuss whether alternative loss functions were tested and how they performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3, Figure 6
+  - **Evidence pointer** Section 3, Figure 6
+  - **Issue** The description of the precision-recall curves and AUPRC values is somewhat dense and difficult to follow. The authors mention "shifting the threshold" but do not clearly explain how this was done or what the practical implications are.
+  - **Required correction** Provide a clearer explanation of how the precision-recall curves were generated and what the AUPRC values mean in practical terms. Consider adding a simple example to illustrate the trade-off between precision and recall.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4 (Discussion)
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of why the model performs better on ChIP-seq than ATAC-seq data is somewhat speculative. The authors suggest that H3K4me3 peaks are "probably easier to learn" but do not provide a rigorous analysis to support this claim.
+  - **Required correction** Provide a more detailed analysis of the differences in performance between ATAC-seq and ChIP-seq predictions, such as examining the sequence features that are most predictive for each data type.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of comparison with existing tools or baselines (R1-M1). 2) Insufficient detail on training procedures for reproducibility (R1-M2). 3) No demonstration of practical utility for reducing experimental search space (R1-M3). 4) Unclear flagging procedure for non-nuclear sequences (R1-m1). 5) Lack of justification for loss function choice (R1-m2).
+- **Assessment against Nature-style criteria** Originality: The cross-species approach to predicting plant cis-regulatory elements is a novel contribution, as most existing tools are species-specific or focus on mammals. The use of a deep neural network for base-wise prediction is also relatively novel in the plant genomics field. Scientific importance: The tool addresses a real need in plant biology, particularly for non-model species where experimental data is scarce. However, the modest performance metrics and lack of demonstrated practical utility limit the immediate impact. Interdisciplinary readership: The manuscript is likely to appeal to plant molecular biologists, computational biologists, and bioinformaticians. The writing is generally accessible, though some sections (e.g., the description of the model architecture) may be challenging for non-specialists. Technical soundness: The methodology is generally sound, but the lack of comparison with existing tools and the incomplete reporting of training details are significant weaknesses. Readability for nonspecialists: The abstract and introduction are clear and accessible. The methods and results sections are more technical but generally understandable. The figures are helpful, though some (e.g., Figure 6) could be better annotated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially useful tool, but the claims of accuracy and practical utility are not fully supported by the current evidence. The authors should address the major concerns regarding comparison with existing methods, reproducibility, and demonstration of practical value before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that Predmoter provides "accurate predictions in peak position and pattern" is not fully supported by the modest performance metrics reported.
+- The claim that the tool can "significantly reduce the search space" for experimental validation is plausible but not directly demonstrated.
+- The statement that "no such model has been reported" for plant ATAC- and ChIP-seq prediction is difficult to verify without a comprehensive literature search.
+- The assertion that the model's performance on ChIP-seq data is better because H3K4me3 peaks are "probably easier to learn" is speculative and not rigorously tested.
+- The claim that the model's predictions are stable across species is based on only two test species, which may not be representative of the full diversity of plant genomes.

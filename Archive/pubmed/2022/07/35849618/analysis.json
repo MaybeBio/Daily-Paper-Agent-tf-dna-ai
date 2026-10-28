@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35849618",
+  "title": "Single-cell network biology characterizes cell type gene regulation for drug repurposing and phenotype prediction in Alzheimer's disease.",
+  "authors": "Gupta, Chirag; Xu, Jielin; Jin, Ting; Khullar, Saniya; Liu, Xiaoyu; Alatkar, Sayali; Cheng, Feixiong; Wang, Daifeng",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-07-19",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用单细胞多组学构建AD脑细胞类型基因调控网络，分析TF-调控元件互作及网络模块，但主要基于统计推断和网络分析，缺乏三维结构或物理模拟层面的TF-DNA结合建模，方法上仅含基础机器学习，属于广义蛋白-DNA调控网络研究，对本课题有间接参考价值。",
+  "abstract": "Dysregulation of gene expression in Alzheimer's disease (AD) remains elusive, especially at the cell type level. Gene regulatory network, a key molecular mechanism linking transcription factors (TFs) and regulatory elements to govern gene expression, can change across cell types in the human brain and thus serve as a model for studying gene dysregulation in AD. However, AD-induced regulatory changes across brain cell types remains uncharted. To address this, we integrated single-cell multi-omics datasets to predict the gene regulatory networks of four major cell types, excitatory and inhibitory neurons, microglia and oligodendrocytes, in control and AD brains. Importantly, we analyzed and compared the structural and topological features of networks across cell types and examined changes in AD. Our analysis shows that hub TFs are largely common across cell types and AD-related changes are relatively more prominent in some cell types (e.g., microglia). The regulatory logics of enriched network motifs (e.g., feed-forward loops) further uncover cell type-specific TF-TF cooperativities in gene regulation. The cell type networks are also highly modular and several network modules with cell-type-specific expression changes in AD pathology are enriched with AD-risk genes. The further disease-module-drug association analysis suggests cell-type candidate drugs and their potential target genes. Finally, our network-based machine learning analysis systematically prioritized cell type risk genes likely involved in AD. Our strategy is validated using an independent dataset which showed that top ranked genes can predict clinical phenotypes (e.g., cognitive impairment) of AD with reasonable accuracy. Overall, this single-cell network biology analysis provides a comprehensive map linking genes, regulatory networks, cell types and drug targets and reveals cell-type gene dysregulation in AD.",
+  "abstract_zh": "阿尔茨海默病（AD）中基因表达的失调仍难以捉摸，尤其是在细胞类型水平上。基因调控网络是连接转录因子（TFs）和调控元件以控制基因表达的关键分子机制，可在人脑不同细胞类型间发生变化，因此可作为研究AD中基因失调的模型。然而，AD诱导的跨脑细胞类型调控变化仍未得到探索。为解决这一问题，我们整合了单细胞多组学数据集，预测了对照和AD脑中四种主要细胞类型——兴奋性和抑制性神经元、小胶质细胞和少突胶质细胞——的基因调控网络。重要的是，我们分析并比较了不同细胞类型间网络的结构和拓扑特征，并检查了AD中的变化。我们的分析表明，枢纽转录因子在细胞类型间大体上是共有的，而AD相关变化在某些细胞类型（如小胶质细胞）中相对更为显著。富集网络基序（如前馈环）的调控逻辑进一步揭示了基因调控中细胞类型特异性的TF-TF协同作用。细胞类型网络也具有高度模块化，几个在AD病理中具有细胞类型特异性表达变化的网络模块富集了AD风险基因。进一步的疾病模块-药物关联分析提示了细胞类型候选药物及其潜在靶基因。最后，我们基于网络的机器学习分析系统性地优先排序了可能参与AD的细胞类型风险基因。我们的策略通过独立数据集验证，显示排名靠前的基因能以合理准确性预测AD的临床表型（如认知障碍）。总体而言，这项单细胞网络生物学分析提供了连接基因、调控网络、细胞类型和药物靶点的综合图谱，并揭示了AD中的细胞类型基因失调。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35849618/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35849618/",
+  "paper_page_path": "papers/pubmed/35849618/index.html"
+}

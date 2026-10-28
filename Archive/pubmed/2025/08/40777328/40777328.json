@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "40777328",
+    "doi": "10.1101/2025.07.24.666684",
+    "title": "An automated ATAC-seq method reveals sequence determinants of transcription factor dose response in the open chromatin."
+  },
+  "content": {
+    "abstract": "Transcription factor (TF) dosage is a critical determinant of cellular identity. However, the quantitative relationship between TF dosage and its regulation of chromatin accessibility and gene expression remains poorly understood. To address this, we developed RoboATAC, a scalable, automated ATAC-seq platform for high-throughput accessibility profiling. We then systematically profiled genome-wide chromatin accessibility and gene expression changes induced by graded overexpression of 22 TFs in HEK293T cells (246 total samples), observing dose-dependent changes in accessibility and aggregate TF footprints. Modeling accessibility as a function of sequence and chromatin states revealed that DNA sequence alone accurately predicts dosage sensitivity at elements that become accessible, with low-affinity motifs requiring higher TF levels to induce accessibility. Interpretable deep learning models revealed contributions of motif orientation, spacing, and flanking bases to accessibility, both recapitulating known motifs and nominating novel dosage-sensitive motif arrangements. Nucleosome positioning analysis uncovered two distinct, TF identity dependent patterns by which accessibility is established by changing nucleosome position and occupancy.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Betty B",
+        "Shimasawa, Masaru",
+        "Vermeulen, Sidney",
+        "Kim, Samuel H",
+        "Iremadze, Nika",
+        "Lipson, Doron",
+        "Shipony, Zohar",
+        "Greenleaf, William J"
+      ],
+      "short_names": [
+        "Liu BB",
+        "Shimasawa M",
+        "Vermeulen S",
+        "Kim SH",
+        "Iremadze N",
+        "Lipson D",
+        "Shipony Z",
+        "Greenleaf WJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1655-7164",
+        "ORCID: 0000-0003-4656-7638",
+        "ORCID: 0000-0001-8353-6190",
+        "ORCID: 0000-0002-4977-204X",
+        "ORCID: 0000-0003-1409-3095"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, Stanford University, Stanford, CA, US.",
+        "Department of Biology, Stanford University, Stanford, CA, US.",
+        "Department of Genetics, Stanford University, Stanford, CA, US.",
+        "Cancer Biology Program, Stanford University, Stanford, CA, US.",
+        "Medical Scientist Training Program, Stanford University, Stanford, CA, US.",
+        "Ultima Genomics, Fremont, CA, US.",
+        "Ultima Genomics, Fremont, CA, US.",
+        "Ultima Genomics, Fremont, CA, US.",
+        "Department of Genetics, Stanford University, Stanford, CA, US.",
+        "Department of Applied Physics, Stanford University, Stanford, CA, US."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Betty B",
+        "short_name": "Liu BB",
+        "identifiers": [
+          "0000-0003-1655-7164"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Shimasawa, Masaru",
+        "short_name": "Shimasawa M",
+        "identifiers": [
+          "0000-0003-4656-7638"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Vermeulen, Sidney",
+        "short_name": "Vermeulen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Kim, Samuel H",
+        "short_name": "Kim SH",
+        "identifiers": [
+          "0000-0001-8353-6190"
+        ],
+        "affiliations": [
+          "Cancer Biology Program, Stanford University, Stanford, CA, US.",
+          "Medical Scientist Training Program, Stanford University, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Iremadze, Nika",
+        "short_name": "Iremadze N",
+        "identifiers": [
+          "0000-0002-4977-204X"
+        ],
+        "affiliations": [
+          "Ultima Genomics, Fremont, CA, US."
+        ]
+      },
+      {
+        "full_name": "Lipson, Doron",
+        "short_name": "Lipson D",
+        "identifiers": [],
+        "affiliations": [
+          "Ultima Genomics, Fremont, CA, US."
+        ]
+      },
+      {
+        "full_name": "Shipony, Zohar",
+        "short_name": "Shipony Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ultima Genomics, Fremont, CA, US."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [
+          "0000-0003-1409-3095"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, US.",
+          "Department of Applied Physics, Stanford University, Stanford, CA, US."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/08 06:28",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41308636",
+      "40020686",
+      "39567683",
+      "39208807",
+      "38778580",
+      "38233525",
+      "38016477",
+      "37940484",
+      "37683642",
+      "37557175",
+      "37352101",
+      "37024583",
+      "36973556",
+      "36109685",
+      "35463156",
+      "35059038",
+      "34996354",
+      "34991667",
+      "34984978",
+      "34980209",
+      "34979896",
+      "34650237",
+      "33603233",
+      "33590861",
+      "33367499",
+      "32886547",
+      "32576878",
+      "31867040",
+      "31701148",
+      "31249361",
+      "30967126",
+      "30880026",
+      "30675018",
+      "30626917",
+      "30616502",
+      "30448000",
+      "30395339",
+      "30290144",
+      "30250250",
+      "29739754",
+      "29120462",
+      "28846090",
+      "27581526",
+      "27043002",
+      "27007218",
+      "26314830",
+      "25187560",
+      "25129887",
+      "25079858",
+      "24799436",
+      "24236298",
+      "24227677",
+      "24097267",
+      "23562153",
+      "22955984",
+      "22388286",
+      "21290164",
+      "20517297",
+      "20110278",
+      "18798982",
+      "15609997",
+      "12620113",
+      "12370299",
+      "11854316",
+      "10487755",
+      "8702590",
+      "7499267",
+      "6461456",
+      "6163640",
+      "4540021",
+      "2253872",
+      "514357"
+    ],
+    "similar": [
+      "40777328",
+      "34488759",
+      "29982337",
+      "30598689",
+      "40795153",
+      "38853998",
+      "35858748",
+      "32424069",
+      "31053165",
+      "40020686",
+      "30580963",
+      "37107573",
+      "37557175",
+      "37090616",
+      "35037783",
+      "39763859",
+      "33191916",
+      "38654130",
+      "39326643",
+      "36719906",
+      "34386808",
+      "38124496",
+      "22955984",
+      "34383745",
+      "38116118",
+      "28538187",
+      "39572230",
+      "36902216",
+      "39975126",
+      "35609992",
+      "32663104",
+      "31164146",
+      "25559105",
+      "36738683",
+      "39695228",
+      "30696696",
+      "34955095",
+      "33606259",
+      "31427911",
+      "37214836",
+      "41279708",
+      "32312702",
+      "34544361",
+      "29748466",
+      "36807065",
+      "29513366",
+      "36232500",
+      "33355120",
+      "39349998",
+      "35695574",
+      "41473285",
+      "33584814",
+      "38826400",
+      "39546200",
+      "40127931",
+      "34382186",
+      "30962180",
+      "34255854",
+      "34870838",
+      "34875002",
+      "35293310",
+      "29259032",
+      "36427143",
+      "29155775",
+      "40250421",
+      "31114856",
+      "39766899",
+      "40167783",
+      "32312703",
+      "32316525",
+      "28193859",
+      "26291518",
+      "22955990",
+      "32321567",
+      "35046932",
+      "23935523",
+      "28750606",
+      "19956545",
+      "27832532",
+      "28334916",
+      "39975040",
+      "31776829",
+      "34901015",
+      "30948010",
+      "37211599",
+      "25494698",
+      "37031175",
+      "30791920",
+      "26818008",
+      "26063739",
+      "38502176",
+      "35195064",
+      "33074546",
+      "32029221",
+      "39605491",
+      "32973041",
+      "40848288",
+      "41308636",
+      "34031415",
+      "35240993"
+    ],
+    "review": [
+      "40777328",
+      "33606259",
+      "31427911",
+      "32312702",
+      "32312703"
+    ],
+    "pmc": [
+      "12330524"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40777328/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.24.666684",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

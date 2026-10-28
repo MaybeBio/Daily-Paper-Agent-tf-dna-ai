@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41271965",
+    "doi": "10.1038/s41598-025-25391-9",
+    "title": "Identification and validation of biomarkers associated with cellular senescence and demethylation in acute myocardial infarction."
+  },
+  "content": {
+    "abstract": "Acute myocardial infarction (AMI) triggered cardiomyocyte senescence and impaired cardiac function. Methylation modifications and related enzymes in patients were also significantly altered, but the association between cellular senescence and demethylation remained unclear. This study obtained data from public databases, screened candidate genes by intersecting differentially expressed genes (DEGs) with related genes, identified characteristic genes using three machine learning methods to determine biomarkers, and explored their regulatory mechanisms through gene set enrichment analysis (GSEA) and other approaches. Finally, BCL3, MMP9, NAMPT, and TLR4 were identified as potential biomarkers. GSEA showed they were significantly enriched in 18 common pathways. Thirteen immune cells, such as CD8 T cells, differed significantly between AMI and control samples. A total of 58 miRNAs, 10 lncRNAs, and 242 transcription factors (TFs) were predicted to interact with these biomarkers. Targeted analysis predicted 25 potential therapeutic drugs for AMI, and the biomarkers could target Retinoic acid CTD 00006918. GeneMANIA analysis identified 20 functionally related genes, while Friends analysis showed BCL3 had prominent functional similarity. Reverse Transcription Quantitative Polymerase Chain Reaction (RT-qPCR) results validated the expression of biomarkers, consistent with bioinformatics analyses. These findings may provide valuable clues for AMI treatment.",
+    "keywords": [
+      "Acute myocardial infarction",
+      "Biomarkers",
+      "Cellular senescence",
+      "Demethylation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Myocardial Infarction/genetics/metabolism/pathology",
+      "*Biomarkers/metabolism",
+      "*Cellular Senescence/genetics",
+      "*DNA Methylation",
+      "Gene Expression Profiling",
+      "Computational Biology/methods",
+      "MicroRNAs/genetics",
+      "RNA, Long Noncoding/genetics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Wenhua",
+        "Huang, Hong",
+        "Ruan, Qingrong",
+        "Liu, Shiqi",
+        "Dan, Juhua",
+        "Zhao, Yan",
+        "Zhang, Hong",
+        "Huo, Qian"
+      ],
+      "short_names": [
+        "Su W",
+        "Huang H",
+        "Ruan Q",
+        "Liu S",
+        "Dan J",
+        "Zhao Y",
+        "Zhang H",
+        "Huo Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Faculty of Life Science and Biotechnology, Kunming University of Science and Technology, Kunming, China.",
+        "Department of Geriatrics, The First People's Hospital of Yunnan Province, No.151 Jinbi Road, Kunming, 650032, Yunnan, China.",
+        "Department of Geriatrics, The First People's Hospital of Yunnan Province, No.151 Jinbi Road, Kunming, 650032, Yunnan, China.",
+        "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Faculty of Life Science and Biotechnology, Kunming University of Science and Technology, Kunming, China.",
+        "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China.",
+        "Faculty of Life Science and Biotechnology, Kunming University of Science and Technology, Kunming, China.",
+        "Department of Geriatrics, The First People's Hospital of Yunnan Province, No.151 Jinbi Road, Kunming, 650032, Yunnan, China. dr_huo528219@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Wenhua",
+        "short_name": "Su W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China.",
+          "Faculty of Life Science and Biotechnology, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hong",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First People's Hospital of Yunnan Province, No.151 Jinbi Road, Kunming, 650032, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Qingrong",
+        "short_name": "Ruan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First People's Hospital of Yunnan Province, No.151 Jinbi Road, Kunming, 650032, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shiqi",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Dan, Juhua",
+        "short_name": "Dan J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Life Science and Biotechnology, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yan",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First People's Hospital of Yunnan Province, Kunming, China.",
+          "Faculty of Life Science and Biotechnology, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Qian",
+        "short_name": "Huo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First People's Hospital of Yunnan Province, No.151 Jinbi Road, Kunming, 650032, Yunnan, China. dr_huo528219@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/22 00:28",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42034786"
+    ],
+    "refs": [
+      "40931837",
+      "40133574",
+      "40074706",
+      "40008513",
+      "39581334",
+      "39488873",
+      "39222870",
+      "39171328",
+      "39079198",
+      "38495888",
+      "38463014",
+      "38414735",
+      "38195591",
+      "38033031",
+      "38001481",
+      "37966425",
+      "37591118",
+      "37545537",
+      "37542851",
+      "37120464",
+      "37100110",
+      "37013574",
+      "36698953",
+      "36582740",
+      "36462537",
+      "36378551",
+      "36056468",
+      "35928610",
+      "35847488",
+      "35597178",
+      "35511857",
+      "35430261",
+      "35387565",
+      "35113652",
+      "35107387",
+      "35102064",
+      "34990309",
+      "34851467",
+      "34820429",
+      "34403879",
+      "34270690",
+      "34048536",
+      "34032295",
+      "33338208",
+      "32889753",
+      "32328072",
+      "32248810",
+      "31839421",
+      "31675495",
+      "31513752",
+      "31066193",
+      "30146700",
+      "29344893",
+      "29328450",
+      "28860188",
+      "28440690",
+      "27669126",
+      "27502078",
+      "27207943",
+      "26673558",
+      "26476454",
+      "26215259",
+      "25922067",
+      "25822800",
+      "25605792",
+      "24484194",
+      "21616434",
+      "20808728",
+      "20438866",
+      "14597658",
+      "10592173"
+    ],
+    "similar": [
+      "41271965",
+      "40594763",
+      "40251588",
+      "40340571",
+      "39650552",
+      "40738705",
+      "40269003",
+      "41340627",
+      "40619072",
+      "36582740",
+      "35231061",
+      "38987688",
+      "41204556",
+      "33083450",
+      "40174368",
+      "40496861",
+      "38839020",
+      "39086489",
+      "38783198",
+      "40133574",
+      "37936458",
+      "39775580",
+      "36863716",
+      "40760666",
+      "31698570",
+      "28636181",
+      "40046960",
+      "41461688",
+      "35764238",
+      "40782973",
+      "40685440",
+      "40557159",
+      "33847684",
+      "36575422",
+      "39973855",
+      "38764052",
+      "41145553",
+      "39328407",
+      "34565282",
+      "33506919",
+      "41217537",
+      "35757392",
+      "40771115",
+      "27746059",
+      "40238799",
+      "39666769",
+      "40475761",
+      "33563285",
+      "37986378",
+      "41146237",
+      "39893248",
+      "38065877",
+      "40933471",
+      "20187981",
+      "29845217",
+      "38251721",
+      "40362543",
+      "36062187",
+      "29049183",
+      "39142001",
+      "33000230",
+      "37115066",
+      "38863714",
+      "36600215",
+      "34536521",
+      "40467768",
+      "33217867",
+      "40406126",
+      "41079183",
+      "39738612",
+      "40093012",
+      "35378210",
+      "31721304",
+      "37908757",
+      "41024137",
+      "41350331",
+      "39538299",
+      "40510349",
+      "39308815",
+      "41107998",
+      "38062833",
+      "39103773",
+      "29286093",
+      "41120603",
+      "41214111",
+      "28418905",
+      "37935719",
+      "24704022",
+      "31772617",
+      "41246299",
+      "32597946",
+      "39172048",
+      "39325365",
+      "40885831",
+      "40704466",
+      "34115526",
+      "40165133",
+      "31776323",
+      "39261934",
+      "41052072"
+    ],
+    "review": [
+      "41271965",
+      "40467768"
+    ],
+    "pmc": [
+      "12638314"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-25391-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41271965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "35721209",
+    "doi": "10.3389/fphar.2022.862584",
+    "title": "Tilianin Reduces Apoptosis via the ERK/EGR1/BCL2L1 Pathway in Ischemia/Reperfusion-Induced Acute Kidney Injury Mice."
+  },
+  "content": {
+    "abstract": "Background: Acute kidney injury (AKI) is a common syndrome impacting about 13.3 million patients per year. Tilianin has been reported to alleviate myocardial ischemia/reperfusion (I/R) injury, while its effect on AKI is unknown; thus, this study aimed to explore if tilianin protects I/R-induced AKI and the underlying mechanisms. Methods: The microarray dataset GSE52004 was downloaded from GEO DataSets (Gene Expression Omnibus). Differential expression analysis and gene-set enrichment analysis (GSEA) were performed by R software to identify apoptosis pathway-related genes. Then, RcisTarget was applied to identify the transcription factor (TF) related to apoptosis. The STRING database was used to construct a protein-protein interaction (PPI) network. Cytoscape software visualized PPI networks, and hub TFs were selected via cytoHubba. AutoDock was used for molecular docking of tilianin and hub gene-encoded proteins. The expression levels of hub genes were assayed and visualized by quantitative real-time PCR, Western blotting, and immunohistochemistry by establishing I/R-induced AKI mouse models. Results: Bioinformatics analysis showed that 34 genes, including FOS, ATF4, and Gadd45g, were involved in the apoptosis pathway. In total, seven hub TFs might play important roles in tilianin-regulating apoptosis pathways. In in vivo, tilianin improved kidney function and reduced the number of TUNEL-positive renal tubular epithelial cells (RTECs) after I/R-induced AKI. Tilianin reduced the activation of the ERK pathway and then downregulated the expression of EGR1. This further ameliorated the expression of anti-apoptotic genes such as BCL2L1 and BCL2, reduced pro-apoptotic genes such as BAD, BAX, and caspase-3, and reduced the release of cytochrome c. Conclusion: Tilianin reduced apoptosis after I/R-induced AKI by the ERK/EGR1/BCL2L1 pathway. Our findings provided novel insights for the first time into the protective effect and underlying molecular mechanisms of tilianin on I/R-induced AKI.",
+    "keywords": [
+      "EGR1",
+      "ERK",
+      "acute kidney injury",
+      "apoptosis",
+      "ischemia-reperfusion injury",
+      "tilianin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zengying",
+        "Guan, Chen",
+        "Li, Chenyu",
+        "Zhang, Ningxin",
+        "Yang, Chengyu",
+        "Xu, Lingyu",
+        "Zhou, Bin",
+        "Zhao, Long",
+        "Luan, Hong",
+        "Man, Xiaofei",
+        "Xu, Yan"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Guan C",
+        "Li C",
+        "Zhang N",
+        "Yang C",
+        "Xu L",
+        "Zhou B",
+        "Zhao L",
+        "Luan H",
+        "Man X",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Medizinische Klinik und Poliklinik IV, Klinikum der Universitat, LMU Munchen, Munchen, Germany.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zengying",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Chen",
+        "short_name": "Guan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chenyu",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China.",
+          "Medizinische Klinik und Poliklinik IV, Klinikum der Universität, LMU München, München, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ningxin",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chengyu",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lingyu",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bin",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Long",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Hong",
+        "short_name": "Luan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Man, Xiaofei",
+        "short_name": "Man X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, the Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/21 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "42465995",
+      "42035370",
+      "41958068",
+      "41754182",
+      "41422302",
+      "40786659",
+      "39707117",
+      "39508038",
+      "38753279",
+      "37710348",
+      "37425328",
+      "37324945",
+      "37153565",
+      "36687680"
+    ],
+    "refs": [
+      "35004722",
+      "34625952",
+      "34561469",
+      "34285231",
+      "34185125",
+      "33931859",
+      "33450055",
+      "33155670",
+      "32974364",
+      "32873928",
+      "32733450",
+      "32663513",
+      "32322205",
+      "32308450",
+      "32298474",
+      "32219844",
+      "32162523",
+      "31734944",
+      "31650528",
+      "31636403",
+      "31312026",
+      "30910451",
+      "30472297",
+      "30389634",
+      "30268571",
+      "29679507",
+      "29538428",
+      "29490938",
+      "29097621",
+      "28991892",
+      "28922345",
+      "27895387",
+      "27343376",
+      "27191703",
+      "27077332",
+      "26768243",
+      "26333547",
+      "25777661",
+      "25605792",
+      "25521941",
+      "24925726",
+      "24819335",
+      "23727171",
+      "23394211",
+      "22455463",
+      "21982300",
+      "21562469",
+      "21070630",
+      "18562239",
+      "16885155",
+      "16705147",
+      "16013042"
+    ],
+    "similar": [
+      "35721209",
+      "36246123",
+      "35658960",
+      "37710348",
+      "32528518",
+      "29538428",
+      "34754625",
+      "33102583",
+      "33777519",
+      "34183058",
+      "34758532",
+      "31699960",
+      "34545331",
+      "25405380",
+      "35340873",
+      "35489662",
+      "33290384",
+      "39313116",
+      "35713363",
+      "34262937",
+      "35059728",
+      "33927789",
+      "37063876",
+      "31216555",
+      "34707493",
+      "34653291",
+      "35783188",
+      "34466064",
+      "34466069",
+      "34189758",
+      "33183976",
+      "31722339",
+      "29790387",
+      "35664065",
+      "35059432",
+      "30526689",
+      "33315023",
+      "33401265",
+      "28899492",
+      "29728112",
+      "29883558",
+      "39354574",
+      "35692206",
+      "27152763",
+      "34802380",
+      "32265926",
+      "33964996",
+      "32194422",
+      "33705733",
+      "24561306",
+      "33336758",
+      "27590616",
+      "32759272",
+      "30970510",
+      "31658856",
+      "31316619",
+      "34426769",
+      "28713993",
+      "35081504",
+      "29733821",
+      "38397780",
+      "33041791",
+      "30923657",
+      "30910451",
+      "34916780",
+      "35696803",
+      "34110956",
+      "28544332",
+      "33191336",
+      "35307059",
+      "30820607",
+      "35680809",
+      "35435002",
+      "30472297",
+      "35812314",
+      "32934963",
+      "34536204",
+      "34333083",
+      "32863767",
+      "35486057",
+      "35416113",
+      "24963915",
+      "35035815",
+      "30180910",
+      "33295061",
+      "30675758",
+      "34633599",
+      "29275176",
+      "31180587",
+      "38296680",
+      "32620154",
+      "22678593",
+      "37215853",
+      "37173347",
+      "39027131",
+      "36297382",
+      "35693711",
+      "37339448",
+      "36313991",
+      "37461161",
+      "35938014",
+      "38737933"
+    ],
+    "review": [
+      "35721209",
+      "38296680"
+    ],
+    "pmc": [
+      "9204490"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35721209/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35721209",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2022.862584",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

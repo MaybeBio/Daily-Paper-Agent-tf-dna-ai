@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "42040898",
+    "doi": "10.1155/humu/5565366",
+    "title": "Single-Cell Transcriptomic Profiling and Machine Learning Integration Unveil Stromal Cell Heterogeneity in Endometriosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endometriosis (EMs) affects approximately 10% of reproductive-age women worldwide, yet its pathogenesis remains incompletely understood. Abnormal cell differentiation and somatic mutations in the ectopic endometrial microenvironment play critical roles in disease progression and treatment response heterogeneity. This study is aimed at elucidating the molecular mechanisms underlying ectopic endometrial cell differentiation using machine learning (ML) approaches and single-cell RNA sequencing (scRNA-seq), and identifying novel prognostic biomarkers and therapeutic targets, with particular attention to mutation-driven transcriptional alterations. METHODS: We analyzed comprehensive transcriptomic data from the Gene Expression Omnibus (GEO) and Human Endometrium Database (HED), including scRNA-seq data from 162,485 cells across 46 EMs patients. Through systematic comparative analysis, we identified 298 genes associated with ectopic endometrial cell differentiation, including genes harboring recurrent somatic mutations reported in endometriotic lesions. We evaluated 10 distinct ML algorithms and 101 hybrid combinations to develop predictive models for patient stratification. Unsupervised clustering analysis identified distinct patient phenotypes. Functional enrichment analysis, pathway analysis, and cell-cell communication networks were constructed to characterize the ectopic microenvironment. Four key genes (HOXA10, ESR1, MMP9, and SPP1) were validated by quantitative real-time PCR in normal endometrial stromal cells (NESCs) and ectopic endometrial stromal cells (EESCs). RESULTS: Unsupervised clustering revealed two distinct patient subgroups characterized as high- and low-invasive ectopic endometrium phenotypes with significantly different disease progression trajectories. Single-cell analysis unveiled extensive cellular heterogeneity within the ectopic endometrial microenvironment, identifying multiple cell types including epithelial, stromal, endothelial, and immune cells. Gene ontology and pathway enrichment analyses demonstrated significant activation of extracellular matrix organization, cell adhesion, cell migration, and angiogenesis pathways. Cell-cell communication analysis revealed macrophages as central mediators forming extensive connections with stromal, epithelial, and endothelial cells, with SPP1 emerging as a key signaling molecule. Trajectory analysis of stromal cells identified at least two major differentiation branches, indicating divergent differentiation programs. Notably, several of the 298 differentiation-associated genes overlapped with loci frequently mutated in ectopic lesions, suggesting that somatic mutations may contribute to aberrant gene regulation. qRT-PCR validation confirmed significant differential expression of key genes: HOXA10 showed 62% downregulation (0.38 +/- 0.06 vs. 1.00 +/- 0.09, p < 0.001), whereas ESR1, MMP9, and SPP1 demonstrated 108%, 252%, and 189% upregulation, respectively, in EESCs compared with NESCs (all p < 0.001). CONCLUSIONS: This study provides a comprehensive molecular characterization of ectopic endometrial cell differentiation through integrative ML-based analysis and single-cell sequencing. The identification of distinct patient phenotypes, key regulatory genes, and macrophage-centric communication networks advances our understanding of EMs pathogenesis. HOXA10, ESR1, MMP9, and SPP1 represent potential diagnostic biomarkers and therapeutic targets for personalized treatment strategies. The convergence of mutation-associated transcriptional changes and differentiation abnormalities underscores the need for mutation-aware therapeutic strategies. These findings pave the way for developing more effective and targeted interventions to improve patient outcomes in EMs management.",
+    "keywords": [
+      "biomarkers",
+      "cell-cell communication",
+      "ectopic endometrial cell differentiation",
+      "endometriosis",
+      "machine learning",
+      "single-cell RNA sequencing",
+      "somatic mutations"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometriosis/genetics/pathology/metabolism",
+      "*Machine Learning",
+      "*Stromal Cells/metabolism/pathology",
+      "*Single-Cell Analysis/methods",
+      "Single-Cell Gene Expression Analysis",
+      "*Gene Expression Profiling/methods",
+      "*Transcriptome",
+      "Cell Differentiation/genetics",
+      "Endometrium/metabolism/pathology",
+      "Mutation",
+      "Homeobox A10 Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Huipeng",
+        "Luo, Yuli"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Luo Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-0148-2331",
+        "ORCID: 0009-0002-3523-4360"
+      ],
+      "affiliations": [
+        "Department of Gynecology, Beijing Hospital of Integrated Traditional Chinese and Western Medicine, Beijing, China, bjcy2y.com.",
+        "Department of Gynecology and Obstetrics, People's Hospital of Chongqing Hechuan, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Huipeng",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0009-0002-0148-2331"
+        ],
+        "affiliations": [
+          "Department of Gynecology, Beijing Hospital of Integrated Traditional Chinese and Western Medicine, Beijing, China, bjcy2y.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Yuli",
+        "short_name": "Luo Y",
+        "identifiers": [
+          "0009-0002-3523-4360"
+        ],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, People's Hospital of Chongqing Hechuan, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 12:34",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40323608",
+      "33640070",
+      "32212520",
+      "30994890",
+      "30054239",
+      "30026507",
+      "27920089",
+      "27817837",
+      "27405583",
+      "27349699",
+      "27132058",
+      "24647161",
+      "24366116",
+      "23081870",
+      "22819144",
+      "20864642",
+      "20462942",
+      "15541453",
+      "15287057",
+      "15136083",
+      "15105396",
+      "14726435",
+      "12660268",
+      "11163831",
+      "9688413",
+      "8671190"
+    ],
+    "similar": [
+      "42040898",
+      "41183511",
+      "40769439",
+      "41688861",
+      "41632386",
+      "40730246",
+      "42139232",
+      "40046872",
+      "41436831",
+      "41640571",
+      "42227003",
+      "40097519",
+      "42568110",
+      "41208987",
+      "42149287",
+      "42151966",
+      "41656832",
+      "41065575",
+      "39788102",
+      "42475469",
+      "41716413",
+      "41425595",
+      "41612311",
+      "42140356",
+      "41897338",
+      "41761123",
+      "42614551",
+      "32154564",
+      "42642681",
+      "42309401",
+      "41808446",
+      "39968688",
+      "42035196",
+      "34893848",
+      "29982401",
+      "40438115",
+      "40536575",
+      "42233387",
+      "28158750",
+      "42064072",
+      "41688827",
+      "41164195",
+      "41839318",
+      "41659855",
+      "38850428",
+      "41299485",
+      "40064955",
+      "39589706",
+      "42653441",
+      "41824194",
+      "41120378",
+      "31906916",
+      "41159025",
+      "41498033",
+      "42024670",
+      "41388523",
+      "41739808",
+      "41049291",
+      "39085925",
+      "37807404",
+      "42282918",
+      "39896800",
+      "42600038",
+      "41712676",
+      "40140093",
+      "40616092",
+      "41917876",
+      "39744178",
+      "41432483",
+      "40967048",
+      "41543773",
+      "39364414",
+      "42010552",
+      "40367358",
+      "42537984",
+      "41918402",
+      "41309884",
+      "42192326",
+      "40496864",
+      "23293219",
+      "40607411",
+      "41462508",
+      "41399389",
+      "31621846",
+      "42614523",
+      "40539067",
+      "42404897",
+      "41371106",
+      "40764361",
+      "40308576",
+      "26874359",
+      "28490276",
+      "42152408",
+      "36011263",
+      "39169201",
+      "40474296",
+      "42477639",
+      "34131719",
+      "34238352",
+      "23626717"
+    ],
+    "review": [
+      "42040898",
+      "41897338",
+      "32154564",
+      "42653441"
+    ],
+    "pmc": [
+      "13106875"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42040898/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/5565366",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

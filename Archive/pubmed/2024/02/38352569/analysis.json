@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38352569",
+  "title": "Deciphering regulatory architectures from synthetic single-cell expression patterns.",
+  "authors": "Pan, Rosalind Wenshan; Roschinger, Tom; Faizi, Kian; Garcia, Hernan; Phillips, Rob",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-02-14",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用热力学模型模拟合成单细胞表达模式，研究MPRA中转录因子结合位点拷贝数等参数对调控架构推断的影响，虽涉及TF-DNA结合能量矩阵，但以实验设计优化为主，缺乏AI或MD等本课题核心方法。",
+  "abstract": "For the vast majority of genes in sequenced genomes, there is limited understanding of how they are regulated. Without such knowledge, it is not possible to perform a quantitative theory-experiment dialogue on how such genes give rise to physiological and evolutionary adaptation. One category of high-throughput experiments used to understand the sequence-phenotype relationship of the transcriptome is massively parallel reporter assays (MPRAs). However, to improve the versatility and scalability of MPRA pipelines, we need a \"theory of the experiment\" to help us better understand the impact of various biological and experimental parameters on the interpretation of experimental data. These parameters include binding site copy number, where a large number of specific binding sites may titrate away transcription factors, as well as the presence of overlapping binding sites, which may affect analysis of the degree of mutual dependence between mutations in the regulatory region and expression levels. To that end, in this paper we create tens of thousands of synthetic single-cell gene expression outputs using both equilibrium and out-of-equilibrium models. These models make it possible to imitate the summary statistics (information footprints and expression shift matrices) used to characterize the output of MPRAs and from this summary statistic to infer the underlying regulatory architecture. Specifically, we use a more refined implementation of the so-called thermodynamic models in which the binding energies of each sequence variant are derived from energy matrices. Our simulations reveal important effects of the parameters on MPRA data and we demonstrate our ability to optimize MPRA experimental designs with the goal of generating thermodynamic models of the transcriptome with base-pair specificity. Further, this approach makes it possible to carefully examine the mapping between mutations in binding sites and their corresponding expression profiles, a tool useful not only for better designing MPRAs, but also for exploring regulatory evolution.",
+  "abstract_zh": "对于已测序基因组中的绝大多数基因，我们对其调控机制的理解仍然有限。缺乏这类知识，就无法对这些基因如何引发生理和进化适应进行定量的理论-实验对话。用于理解转录组序列-表型关系的一类高通量实验是大规模平行报告基因分析（MPRAs）。然而，为了提高MPRA流程的通用性和可扩展性，我们需要一个“实验理论”来更好地理解各种生物学和实验参数对实验数据解读的影响。这些参数包括结合位点拷贝数，其中大量特异性结合位点可能滴定掉转录因子，以及重叠结合位点的存在，这可能影响对调控区域突变与表达水平之间相互依赖程度的分析。为此，在本文中，我们使用平衡和非平衡模型生成了数万个合成单细胞基因表达输出。这些模型使我们能够模拟用于表征MPRA输出的汇总统计量（信息足迹和表达位移矩阵），并据此推断潜在的调控架构。具体来说，我们采用了所谓热力学模型的更精细实现，其中每个序列变体的结合能来源于能量矩阵。我们的模拟揭示了这些参数对MPRA数据的重要影响，并展示了我们优化MPRA实验设计的能力，旨在生成具有碱基对特异性的转录组热力学模型。此外，这种方法使得仔细检查结合位点突变与其相应表达谱之间的映射成为可能，这一工具不仅有助于更好地设计MPRAs，还有助于探索调控进化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38352569/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38352569/",
+  "paper_page_path": "papers/pubmed/38352569/index.html"
+}

@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41790620",
+    "doi": "10.1371/journal.pone.0344084",
+    "title": "PAH-former: Transfer learning for efficient discovery of pulmonary arterial hypertension-associated genes."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Pulmonary arterial hypertension (PAH) is a severe disease with limited effective therapies, making the discovery of new therapeutic targets crucial. While single-cell RNA sequencing (sc-RNA seq) offers a powerful tool for this purpose, its application is hampered by the scarcity of patient samples. This study addresses the problem of how to efficiently identify novel, functionally relevant disease-associated genes from limited publicly available data. METHODS: We employed transfer learning by fine-tuning Geneformer, a deep learning model, with public sc-RNA seq data from patients with PAH to create a specialized model called PAH-former. This model was used to perform in silico perturbation analysis to identify and rank candidate genes predicted to influence the disease state. For validation, we performed RNA interference-mediated knockdown of top novel candidate genes in human pulmonary artery endothelial cells and measured the expression of SRY-Box Transcription Factor 18 (SOX18), a signature gene of pulmonary arterial hypertension. RESULTS: In silico perturbation analysis identified 134 candidate genes whose deletion was predicted to shift cells towards a disease phenotype. These included known disease-related genes as well as many novel ones. Subsequent in vitro validation demonstrated that knockdown of the candidate genes resulted in a significant increase in the expression of SOX18. CONCLUSIONS: Our novel platform, PAH-former, provides a powerful and broadly applicable strategy for disease-related gene discovery. This approach enables the identification and validation of new candidate genes from limited data, promising to advance cell-specific mechanistic insights and accelerate therapeutic development for rare diseases like PAH. (248/300 words).",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Transfer Machine Learning",
+      "*Pulmonary Arterial Hypertension/genetics",
+      "SOXF Transcription Factors/genetics/metabolism",
+      "Endothelial Cells/metabolism",
+      "Pulmonary Artery/metabolism/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kawakami, Toshinaru",
+        "Hosokawa, Sosuke",
+        "Ito, Masamichi",
+        "Kurozumi, Atsumasa",
+        "Tanaka, Ryohei",
+        "Minatsuki, Shun",
+        "Ishida, Junichi",
+        "Isagawa, Takayuki",
+        "Kodera, Satoshi",
+        "Takeda, Norihiko"
+      ],
+      "short_names": [
+        "Kawakami T",
+        "Hosokawa S",
+        "Ito M",
+        "Kurozumi A",
+        "Tanaka R",
+        "Minatsuki S",
+        "Ishida J",
+        "Isagawa T",
+        "Kodera S",
+        "Takeda N"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-7050-4514",
+        "ORCID: 0000-0001-6945-3137",
+        "ORCID: 0000-0002-3877-1770"
+      ],
+      "affiliations": [
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Information and Communication Engineering, Graduate School of Information Science and Technology, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Division of Bioconvergence, Center for Molecular Medicine, Jichi Medical University, Tochigi, Japan.",
+        "Data Science Center, Jichi Medical University, Tochigi, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Division of Bioconvergence, Center for Molecular Medicine, Jichi Medical University, Tochigi, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kawakami, Toshinaru",
+        "short_name": "Kawakami T",
+        "identifiers": [
+          "0009-0002-7050-4514"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Hosokawa, Sosuke",
+        "short_name": "Hosokawa S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+          "Department of Information and Communication Engineering, Graduate School of Information Science and Technology, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ito, Masamichi",
+        "short_name": "Ito M",
+        "identifiers": [
+          "0000-0001-6945-3137"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kurozumi, Atsumasa",
+        "short_name": "Kurozumi A",
+        "identifiers": [
+          "0000-0002-3877-1770"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Ryohei",
+        "short_name": "Tanaka R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Minatsuki, Shun",
+        "short_name": "Minatsuki S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishida, Junichi",
+        "short_name": "Ishida J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Isagawa, Takayuki",
+        "short_name": "Isagawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Bioconvergence, Center for Molecular Medicine, Jichi Medical University, Tochigi, Japan.",
+          "Data Science Center, Jichi Medical University, Tochigi, Japan."
+        ]
+      },
+      {
+        "full_name": "Kodera, Satoshi",
+        "short_name": "Kodera S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Takeda, Norihiko",
+        "short_name": "Takeda N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+          "Division of Bioconvergence, Center for Molecular Medicine, Jichi Medical University, Tochigi, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 19:43",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40213096",
+      "39829438",
+      "39332480",
+      "39229018",
+      "38572649",
+      "38134877",
+      "37753829",
+      "37670392",
+      "37586455",
+      "37258680",
+      "37009479",
+      "36099047",
+      "36042446",
+      "34478759",
+      "34282213",
+      "32192357",
+      "32166015",
+      "32142369",
+      "30944313",
+      "30545970",
+      "30355531",
+      "29570986",
+      "27386938",
+      "27143681",
+      "26203495",
+      "25941359",
+      "25290189",
+      "23583651",
+      "20529999",
+      "18663089",
+      "18541147",
+      "18094332",
+      "17603038",
+      "12821938",
+      "11728880"
+    ],
+    "similar": [
+      "41790620",
+      "41065575",
+      "34528097",
+      "40346622",
+      "37066790",
+      "37737027",
+      "40875786",
+      "41110296",
+      "40962402",
+      "40401371",
+      "39616855",
+      "36205124",
+      "33322916",
+      "34282213",
+      "41706425",
+      "39829438",
+      "30029678",
+      "24156273",
+      "38110868",
+      "33971972",
+      "36253715",
+      "32559140",
+      "31042405",
+      "32886110",
+      "39010027",
+      "40408976",
+      "39605239",
+      "41380937",
+      "34984912",
+      "39223619",
+      "42038295",
+      "34186489",
+      "33021809",
+      "40504501",
+      "39897541",
+      "33541093",
+      "31462075",
+      "38695173",
+      "42030239",
+      "40432432",
+      "29431643",
+      "42475469",
+      "36913491",
+      "41791134",
+      "32586319",
+      "34335565",
+      "42068750",
+      "38110438",
+      "33952674",
+      "34078089",
+      "39907642",
+      "40686216",
+      "37978368",
+      "42172296",
+      "39763543",
+      "28971999",
+      "30586764",
+      "42267557",
+      "36252121",
+      "39392679",
+      "41910909",
+      "35504005",
+      "41034322",
+      "39097701",
+      "40924716",
+      "34573320",
+      "36252184",
+      "31727138",
+      "41041074",
+      "41786847",
+      "33764154",
+      "36344664",
+      "32337710",
+      "41957434",
+      "38626311",
+      "31917901",
+      "40102939",
+      "39631055",
+      "34516357",
+      "40275058",
+      "25290246",
+      "36169661",
+      "35124974",
+      "41924877",
+      "42239439",
+      "39848555",
+      "38682326",
+      "41500376",
+      "39421926",
+      "39391037",
+      "25336633",
+      "32142369",
+      "30904330",
+      "38586587",
+      "39657959",
+      "34315227",
+      "42182661",
+      "38057829",
+      "41277057",
+      "18355767"
+    ],
+    "review": [
+      "41790620",
+      "40962402"
+    ],
+    "pmc": [
+      "12965534"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0344084",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41790620/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

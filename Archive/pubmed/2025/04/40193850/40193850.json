@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "40193850",
+    "doi": "10.1371/journal.pcbi.1012909",
+    "title": "Role of pore dilation in molecular transport through the nuclear pore complex: Insights from polymer scaling theory."
+  },
+  "content": {
+    "abstract": "The nuclear pore complex (NPC), a channel within the nuclear envelope filled with intrinsically disordered proteins, regulates the transport of macromolecules between the nucleus and the cytoplasm. Recent studies have highlighted the NPC's ability to adjust its diameter in response to the membrane tension, underscoring the importance of exploring how variations in pore size influence molecular transport through the NPC. In this study, we investigated the relationship between pore size and transport rate and proposed a mathematical model describing this connection. We began by theoretically analyzing how the pore size scales with the characteristic dimensions of the mesh-like structure within the pore. By introducing key assumptions about how the meshwork structure influences molecular diffusion, we derived a mathematical expression for the transport rate based on the size of the pore and the transported molecules. To validate our model, we conducted Brownian dynamics simulations using a coarse-grained representation of the NPC. These simulations, performed across a range of pore sizes, demonstrated strong agreement with our model's predictions, confirming its accuracy and applicability. Our model is specifically tailored for small-to-medium-sized molecules, approximately 5 nanometers in size, making it relevant to a wide range of transcription factors and signaling molecules. It also extends to molecules with weak and transient interactions with FG-Nups, such as importin-beta. By presenting this model formula, our study offers a quantitative framework for analyzing the effects of pore dilation on nucleocytoplasmic transport.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nuclear Pore/chemistry/metabolism/physiology",
+      "Active Transport, Cell Nucleus/physiology",
+      "*Models, Biological",
+      "Computational Biology",
+      "Nuclear Pore Complex Proteins/metabolism/chemistry",
+      "Computer Simulation",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matsuda, Atsushi",
+        "Mofrad, Mohammad R K"
+      ],
+      "short_names": [
+        "Matsuda A",
+        "Mofrad MRK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2992-914X",
+        "ORCID: 0000-0001-7004-4859"
+      ],
+      "affiliations": [
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, California, United States of America.",
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, California, United States of America.",
+        "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matsuda, Atsushi",
+        "short_name": "Matsuda A",
+        "identifiers": [
+          "0000-0003-2992-914X"
+        ],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mofrad, Mohammad R K",
+        "short_name": "Mofrad MRK",
+        "identifiers": [
+          "0000-0001-7004-4859"
+        ],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, California, United States of America.",
+          "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/07 18:24",
+    "fetched_at": "2026-09-30 15:26:32"
+  },
+  "links": {
+    "cites": [
+      "42465456",
+      "41953265",
+      "41897392",
+      "41486735",
+      "41402996",
+      "40502441"
+    ],
+    "refs": [
+      "39826544",
+      "39536094",
+      "39475712",
+      "39282864",
+      "38376900",
+      "38267583",
+      "38241438",
+      "37876551",
+      "37100914",
+      "37099395",
+      "36536804",
+      "36227469",
+      "35892075",
+      "35679425",
+      "35679405",
+      "35679404",
+      "35679401",
+      "35679397",
+      "35308827",
+      "35301440",
+      "35269721",
+      "35013558",
+      "34762489",
+      "34339633",
+      "34237287",
+      "33938148",
+      "33790297",
+      "32879490",
+      "32061206",
+      "31723007",
+      "31354529",
+      "29848799",
+      "29539637",
+      "29496292",
+      "29431587",
+      "29107331",
+      "28669824",
+      "27673359",
+      "27470900",
+      "26456112",
+      "24066078",
+      "21715864",
+      "21673865",
+      "21441581",
+      "21414590",
+      "21402022",
+      "20630994",
+      "20439427",
+      "20368288",
+      "19680228",
+      "18410249",
+      "17762862",
+      "17079785",
+      "16422566",
+      "16407061",
+      "10611974",
+      "10367892",
+      "9450761"
+    ],
+    "similar": [
+      "40193850",
+      "26658558",
+      "39475712",
+      "35679397",
+      "26894898",
+      "39282864",
+      "30704069",
+      "34473567",
+      "39600095",
+      "28887410",
+      "39205388",
+      "34639238",
+      "21673865",
+      "35679425",
+      "22419078",
+      "39927798",
+      "28068389",
+      "24626154",
+      "21447814",
+      "23912807",
+      "38018404",
+      "30902367",
+      "28506890",
+      "40926106",
+      "17630825",
+      "18498078",
+      "19730674",
+      "19278659",
+      "33790297",
+      "28669824",
+      "32692309",
+      "22577827",
+      "27673359",
+      "41100670",
+      "37100914",
+      "15041643",
+      "21690354",
+      "41847902",
+      "25410863",
+      "23499021",
+      "21528351",
+      "41004004",
+      "29374059",
+      "35098921",
+      "34339633",
+      "35679405",
+      "42475469",
+      "21414590",
+      "26791761",
+      "32168597",
+      "16739728",
+      "23202855",
+      "19098896",
+      "36050301",
+      "25229147",
+      "18046406",
+      "32794558",
+      "17418788",
+      "40464641",
+      "12543930",
+      "38876192",
+      "21327089",
+      "20482319",
+      "26541386",
+      "21402022",
+      "18562297",
+      "29442997",
+      "33548309",
+      "41955616",
+      "24929341",
+      "24359750",
+      "29033133",
+      "29350911",
+      "25631821",
+      "22901806",
+      "33346731",
+      "12471904",
+      "24144701",
+      "40350114",
+      "42613378",
+      "21987633",
+      "20627572",
+      "24806932",
+      "31913454",
+      "19327984",
+      "15557115",
+      "17082456",
+      "41387701",
+      "24857723",
+      "39127037",
+      "27091992",
+      "21659568",
+      "26344569",
+      "36040030",
+      "37528778",
+      "27081075",
+      "18544502",
+      "25139911",
+      "21647294",
+      "25562883"
+    ],
+    "review": [
+      "40193850",
+      "39282864",
+      "39927798",
+      "28506890",
+      "40926106",
+      "18498078",
+      "28669824",
+      "22577827",
+      "27673359",
+      "21528351",
+      "41004004",
+      "21414590",
+      "26791761",
+      "16739728",
+      "32794558",
+      "38876192",
+      "20482319",
+      "41955616",
+      "12471904",
+      "40350114",
+      "20627572",
+      "31913454",
+      "19327984",
+      "24857723"
+    ],
+    "pmc": [
+      "11975386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012909",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40193850/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

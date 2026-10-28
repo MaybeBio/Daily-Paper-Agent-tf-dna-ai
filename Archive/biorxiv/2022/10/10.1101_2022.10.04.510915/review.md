@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that Wadjet JetABCD complexes restrict extrachromosomal circular DNA up to approximately 100 kb, cleave circular but not linear DNA in an ATP-dependent manner at random positions, and adopt an alternative dimer-of-dimers architecture with opposing SMC motor units. They propose a model in which DNA cleavage is triggered upon complete extrusion of a plasmid by a single complex, with self-DNA protected by the inability to fully extrude the chromosome.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, cryo-EM structure validation statistics, biochemical assay details, plasmid size range tested, sequence data, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding how SMC-derived Wadjet systems distinguish self from non-self DNA. The combination of in vivo size restriction data, in vitro cleavage specificity, and a cryo-EM structure is compelling in scope. However, the abstract alone does not provide sufficient detail to assess the robustness of the key claims, particularly the size limit determination, the randomness of cleavage, the structural interpretation, and the proposed mechanistic model. The work is likely to interest the bacterial immunity and SMC biology communities, but the evidence base provided here is too limited to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying SMC complexes and loop extrusion, bacterial defense systems against mobile genetic elements, plasmid biology, and structural biology of ATP-dependent DNA motors. The proposed size-dependent restriction mechanism and the alternative dimer-of-dimers configuration would also attract those interested in how molecular machines achieve substrate specificity through geometric constraints.
+- **Major strengths** The abstract integrates in vivo, biochemical, and structural approaches to address a fundamental question in bacterial immunity. The proposed model is conceptually elegant, linking the mechanical process of loop extrusion to a cleavage decision based on substrate size. The observation that linear plasmids evade restriction while circular ones are targeted suggests a DNA-shape-specific mechanism that is mechanistically distinct from other known restriction systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "JetABCD systems restrict extrachromosomal circular DNA with an upper size limit of about 100 kb"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states an upper size limit of approximately 100 kb but does not describe how this limit was determined, how many plasmid sizes were tested, or whether the cutoff is sharp or gradual. No data on the distribution of plasmid sizes tested or the efficiency of restriction at various sizes are presented.
+  - **Why it matters** The size limit is central to the proposed model. If the cutoff is not well characterized, the mechanistic interpretation that a single complex must fully extrude the plasmid before cleavage is triggered cannot be evaluated. A gradual decrease in restriction efficiency with size would support a different mechanism than a sharp threshold.
+  - **Resolution test** Provide a detailed description of the plasmid size range tested, the number of independent replicates, and quantitative restriction efficiency data as a function of plasmid size. Show whether the 100 kb limit is a hard cutoff or a statistical trend.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "cleavage occurs at random positions and depends on ATP as well as the SMC ATPase"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of random cleavage positions is stated without supporting data. No information is provided on how randomness was assessed, how many cleavage sites were mapped, or whether the distribution was statistically compared to a uniform expectation. The ATP dependence is mentioned but the experimental design (e.g., ATPase mutants, non-hydrolyzable ATP analogs) is not described.
+  - **Why it matters** Random cleavage is a key distinguishing feature from sequence-specific restriction enzymes. If cleavage is not truly random, the proposed mechanism of geometric sensing rather than sequence recognition would be weakened. The ATP dependence is also critical for linking the SMC ATPase activity to the nuclease function.
+  - **Resolution test** Provide cleavage site mapping data with statistical analysis of positional distribution, and show ATPase mutant or nucleotide analog experiments that demonstrate the requirement for ATP hydrolysis in cleavage.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** "We solve a structure of the JetABCD core by cryo-EM revealing an alternative dimer-of-dimers configuration. The two SMC DNA motor units face in opposite orientations—rather than the same as observed with MukBEF—possibly representing a restriction-specific state of JetABCD."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a cryo-EM structure but provides no resolution, no validation metrics, and no description of how the "restriction-specific state" was assigned. The comparison to MukBEF is made without specifying the conformational context or whether the observed state is functionally validated. The word "possibly" indicates uncertainty, but the structural claim is presented as a major finding.
+  - **Why it matters** The opposing orientation of motor units is central to the proposed self-stalling mechanism. Without structural validation and evidence that this conformation is relevant to the cleavage-competent state, the model remains speculative. The field requires high-resolution structures with clear functional correlation.
+  - **Resolution test** Provide cryo-EM resolution, map quality metrics, model validation statistics, and functional experiments (e.g., crosslinking or mutational analysis) that link the observed conformation to the cleavage activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model support
+  - **Claim pointer** "We hypothesize that JetABCD is a DNA-shape-specific endonuclease and present a model for the activation of DNA cleavage exclusively when extrusion of an entire plasmid has been completed by a single JetABCD complex. The self-stalling of two opposing DNA motor units may serve as signal to trigger DNA cleavage. Complete extrusion by a single complex cannot be achieved on the much larger chromosome, explaining how self-DNA may evade cleavage."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The model is presented as a hypothesis, which is appropriate, but the abstract does not provide any direct experimental test of the model. No data are shown that link the completion of extrusion to cleavage, that demonstrate self-stalling of opposing motors, or that show the chromosome cannot be fully extruded by a single complex. The model is plausible but currently unsupported by direct evidence.
+  - **Why it matters** The model is the main conceptual contribution of the work. If it cannot be tested or if alternative explanations (e.g., processivity limits, DNA tension sensing) are not excluded, the significance of the findings is substantially reduced.
+  - **Resolution test** Provide experiments that directly test the model, such as single-molecule observations of extrusion and cleavage, engineered substrates with defined sizes, or mutants that alter motor orientation and show corresponding changes in cleavage activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "extrachromosomal circular DNA with an upper size limit of about 100 kb"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify whether the size limit applies to all circular DNAs tested or only to plasmids with certain features (e.g., origin of replication, GC content, or sequence motifs).
+  - **Required correction** Clarify whether the size limit is general or context-dependent, and specify the range of plasmid types tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "DNA-shape-specific endonuclease"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "DNA-shape-specific" is used without defining what shape feature is recognized (e.g., circularity, supercoiling, or end geometry). The abstract states that cleavage is independent of helical topology, which seems to contradict a shape-based specificity unless the shape feature is circularity itself.
+  - **Required correction** Define the specific shape feature being recognized and reconcile the topology independence with the proposed shape specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** "a linear plasmid evades restriction"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Only one linear plasmid is mentioned. It is unclear whether this is a single observation or a general property of linear DNAs.
+  - **Required correction** State how many linear substrates were tested and whether the evasion is consistent across different linear DNA constructs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** "Wadjet systems (JetABCD/MksBEFG/EptABCD)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract groups three systems but only presents data for JetABCD. It is unclear whether the findings are expected to generalize to the other systems.
+  - **Required correction** Clarify whether the conclusions are specific to JetABCD or proposed to apply to all Wadjet systems, and if so, what evidence supports the generalization.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (size limit determination), R1-M2 (random cleavage and ATP dependence), R1-M3 (structural validation), R1-M4 (model testing). These are all blocking because the central claims of the abstract cannot be evaluated without the corresponding data.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism of size-dependent restriction via opposing SMC motors is conceptually novel and distinct from known restriction systems. Scientific importance: If established, the work would significantly advance understanding of SMC biology and bacterial immunity, with potential implications for plasmid biology and horizontal gene transfer. Interdisciplinary readership: The work bridges structural biology, biochemistry, and microbiology, and would appeal to a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the structural and biochemical claims require full methods and validation. Readability for nonspecialists: The abstract is well written and accessible, with clear logical flow from observation to model, though some terms (e.g., "dimer-of-dimers") may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting model, but the absence of methods, data, and structural validation prevents assessment of the core claims. I would be supportive if the full manuscript provides robust evidence for the size limit, random cleavage, ATP dependence, structural assignment, and direct tests of the proposed mechanism.
+
+## Risk / unsupported claims
+- The 100 kb upper size limit is stated without supporting data on the range of plasmid sizes tested or the sharpness of the cutoff.
+- The claim of random cleavage positions is unsupported by any statistical or mapping data.
+- The ATP dependence of cleavage is stated without experimental details.
+- The cryo-EM structure and the alternative dimer-of-dimers configuration are presented without resolution or validation metrics.
+- The comparison to MukBEF motor orientation is made without structural alignment or functional correlation.
+- The model that cleavage is triggered by complete extrusion and self-stalling of opposing motors is entirely hypothetical and not directly tested.
+- The explanation for self-DNA evasion based on chromosome size is plausible but not experimentally demonstrated.
+- The generalization from JetABCD to other Wadjet systems (MksBEFG, EptABCD) is not supported by any data in the abstract.

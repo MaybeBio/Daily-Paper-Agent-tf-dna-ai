@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34579793",
+  "title": "Biologically relevant transfer learning improves transcription factor binding prediction.",
+  "authors": "Novakovsky, Gherman; Saraswat, Manu; Fornes, Oriol; Mostafavi, Sara; Wasserman, Wyeth W",
+  "journal": "Genome biology",
+  "published_date": "2021-09-29",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用多任务预训练与微调的迁移学习策略提升转录因子结合位点预测性能，并解析了特征细化机制，核心聚焦TF-DNA结合预测，方法为深度学习，高度匹配本课题。",
+  "abstract": "BACKGROUND: Deep learning has proven to be a powerful technique for transcription factor (TF) binding prediction but requires large training datasets. Transfer learning can reduce the amount of data required for deep learning, while improving overall model performance, compared to training a separate model for each new task. RESULTS: We assess a transfer learning strategy for TF binding prediction consisting of a pre-training step, wherein we train a multi-task model with multiple TFs, and a fine-tuning step, wherein we initialize single-task models for individual TFs with the weights learned by the multi-task model, after which the single-task models are trained at a lower learning rate. We corroborate that transfer learning improves model performance, especially if in the pre-training step the multi-task model is trained with biologically relevant TFs. We show the effectiveness of transfer learning for TFs with ~ 500 ChIP-seq peak regions. Using model interpretation techniques, we demonstrate that the features learned in the pre-training step are refined in the fine-tuning step to resemble the binding motif of the target TF (i.e., the recipient of transfer learning in the fine-tuning step). Moreover, pre-training with biologically relevant TFs allows single-task models in the fine-tuning step to learn useful features other than the motif of the target TF. CONCLUSIONS: Our results confirm that transfer learning is a powerful technique for TF binding prediction.",
+  "abstract_zh": "背景：深度学习已被证明是转录因子（TF）结合预测的强大技术，但需要大型训练数据集。迁移学习可以减少深度学习所需的数据量，同时与为每个新任务单独训练模型相比，能提高整体模型性能。结果：我们评估了一种用于TF结合预测的迁移学习策略，该策略包括预训练步骤（在此步骤中，我们使用多个TF训练多任务模型）和微调步骤（在此步骤中，我们使用多任务模型学习到的权重初始化单个TF的单任务模型，之后以较低学习率训练单任务模型）。我们证实，迁移学习能提高模型性能，尤其是在预训练步骤中使用生物学相关的TF训练多任务模型时。我们展示了迁移学习对具有约500个ChIP-seq峰区域的TF的有效性。利用模型解释技术，我们证明预训练步骤中学习的特征在微调步骤中得到细化，以类似于目标TF（即微调步骤中迁移学习的接收者）的结合基序。此外，使用生物学相关的TF进行预训练，使微调步骤中的单任务模型能够学习除目标TF基序之外的有用特征。结论：我们的结果证实，迁移学习是TF结合预测的强大技术。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34579793/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34579793/",
+  "paper_page_path": "papers/pubmed/34579793/index.html"
+}

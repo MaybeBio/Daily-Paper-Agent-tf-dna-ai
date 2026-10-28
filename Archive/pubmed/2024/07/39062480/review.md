@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure references.
+- **Assessment boundary** Technical and scientific evaluation of the proposed method, its validation, and the claims made, based solely on the provided manuscript text.
+- **Shared manuscript claim summary** The authors introduce DeepIMAGER, a supervised deep learning method that converts gene pair co-expression patterns into image-like representations and uses ResNet50 with transcription factor binding information from ChIP-seq data to infer cell-specific gene regulatory networks from scRNA-seq data. They claim superior performance over ten existing GRN inference tools across six cell lines, robustness against dropout zeros, and the ability to identify potentially novel regulatory networks in multiple myeloma dendritic cells.
+- **Visible evidence base** The manuscript text includes descriptions of methods, datasets, evaluation metrics, and results, with references to figures (Figures 1-5, S1-S4) and tables (Tables S1-S2). No actual data, code, or supplementary files were provided for independent verification.
+- **Missing materials affecting confidence** The actual figures, tables, supplementary materials, code repository contents, and detailed numerical results are not available. This limits the ability to verify the statistical significance of performance differences, the correctness of the implementation, and the biological validity of the MM findings.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting approach to a challenging problem in single-cell biology. The core idea of transforming co-expression into images and using a deep convolutional network is not entirely novel but is applied in a specific context. However, the current manuscript has several significant technical and presentational weaknesses that prevent a full assessment of its claims. The lack of access to the actual data, figures, and code makes it impossible to verify the central claims of superior performance and robustness. The description of the methods is incomplete in key areas, and the biological application section is largely descriptive without strong validation. The manuscript would benefit from a major revision that addresses these concerns and provides a more rigorous and transparent evaluation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing and applying GRN inference methods would be the primary audience. Researchers studying gene regulation in specific cell types, particularly in cancer contexts like multiple myeloma, might also find the tool and its potential applications of interest. The work could be of interest to those exploring the integration of deep learning with multi-omics data for regulatory network reconstruction.
+- **Major strengths**
+    - The problem addressed, accurate cell-specific GRN inference from scRNA-seq, is of high importance.
+    - The approach of using image representations of co-expression and a powerful architecture like ResNet50 is a reasonable and potentially effective strategy.
+    - The authors compare against a substantial number of existing methods (ten), which is a strength.
+    - The application to a real biological dataset (MM) demonstrates a potential use case.
+- **Major Concerns**
+    - **R1-M1** (Blocking: Yes)
+        - **Axis** Technical soundness and validation
+        - **Claim pointer** The claim that DeepIMAGER exhibits "superior performance" and "remarkable robustness" compared to ten other tools.
+        - **Evidence pointer** Section 3.2, 3.3; Figures 3, 4
+        - **Concern** The central performance claims are based on figures and data that are not available for review. The manuscript text describes the results but does not provide the actual numerical values, statistical tests, or details of the experimental setup needed to evaluate the significance and validity of the comparison. For example, it is unclear how the AUROC scores were calculated for the unsupervised methods, which do not produce probabilities in the same way as the supervised methods. The claim of "remarkable robustness" is based on a single experiment on one dataset (BMM) with synthetic dropout, and the details of this simulation are not fully described.
+        - **Why it matters** Without access to the underlying data and a clear description of the evaluation protocol, the core claims of the paper cannot be verified. The comparison methodology is critical; if the unsupervised methods are not evaluated fairly, the reported superiority of DeepIMAGER could be an artifact of the evaluation setup.
+        - **Resolution test** The authors must provide the full numerical results for all methods and datasets, including the standard deviations. They must clearly describe the evaluation protocol for all methods, especially how AUROC was computed for unsupervised methods. The dropout simulation must be described in detail, and the results should be shown for all datasets, not just one. Ideally, the code and processed data should be made available for independent verification.
+    - **R1-M2** (Blocking: Yes)
+        - **Axis** Technical soundness and clarity of methods
+        - **Claim pointer** The description of the DeepIMAGER architecture and training procedure.
+        - **Evidence pointer** Section 2.1, 2.3; Figure 1
+        - **Concern** The description of the network architecture is insufficient for reproducibility. The text mentions "two deep neural networks X and Y, which are slight modifications of ResNet50" but does not specify the nature of these modifications. It is unclear how the primary and neighbor images are combined and processed. The details of the training process, such as the optimization algorithm, learning rate, and data augmentation, are not provided. The method for selecting negative samples is described as "random selection of non-target genes," but the criteria for a "non-target gene" are not defined.
+        - **Why it matters** A key requirement for a methods paper is that the proposed method is described in sufficient detail to be implemented by others. The current description is too vague and leaves too many critical details to the reader's imagination, hindering reproducibility and independent assessment.
+        - **Resolution test** The authors must provide a complete and precise description of the network architecture, including the exact modifications to ResNet50, the input tensor shapes, and the fusion mechanism for the primary and neighbor images. All hyperparameters for training must be listed. The negative sampling strategy must be clearly defined.
+    - **R1-M3** (Blocking: No)
+        - **Axis** Scientific importance and biological validation
+        - **Claim pointer** The claim that DeepIMAGER detected "potential GRNs" for TFs in MM dendritic cells, including "many known regulations related to MM pathology."
+        - **Evidence pointer** Section 3.5; Figure 5
+        - **Concern** The biological application section is largely descriptive. The authors list predicted target genes and note that some have been previously linked to MM, but there is no experimental validation or deeper analysis to support the biological relevance of the predicted networks. The claim that these are "potential" regulations is appropriately cautious, but the section does not provide strong evidence that the tool can uncover novel, meaningful biology beyond what is already known. The selection of the three TFs (MITF, RORC, FOXD2) from the top 100 DEGs is not well-justified.
+        - **Why it matters** For a tool to be valuable, it must not only perform well on benchmarks but also generate testable hypotheses. The current analysis is too superficial to demonstrate this. A more rigorous analysis, such as enrichment analysis of the target genes, comparison with known pathways, or experimental validation of a few key predictions, would significantly strengthen the paper.
+        - **Resolution test** The authors should provide a more detailed analysis of the predicted GRNs. This could include functional enrichment analysis of the target genes, comparison with established regulatory networks, or a discussion of how the predicted novel interactions could be experimentally tested. A clearer rationale for the selection of the three TFs should be provided.
+- **Minor Comments**
+    - **R1-m1**
+        - **Axis** Clarity and presentation
+        - **Affected element** Abstract and Introduction
+        - **Evidence pointer** Abstract, Section 1
+        - **Issue** The abstract and introduction are somewhat repetitive and could be more concise. The novelty of the approach is not clearly articulated in the introduction. The authors state that existing methods have limitations but do not clearly explain how DeepIMAGER's image-based approach fundamentally overcomes them beyond using a more powerful classifier.
+        - **Required correction** The introduction should be revised to more clearly state the specific, novel contribution of DeepIMAGER. The abstract could be tightened to focus on the key methodological innovation and the most important findings.
+    - **R1-m2**
+        - **Axis** Technical soundness
+        - **Affected element** Section 2.2
+        - **Evidence pointer** Section 2.2
+        - **Issue** There is a typo in the methods section: "scanpy.pp.nornalized_total" should be "scanpy.pp.normalize_total".
+        - **Required correction** Correct the typo.
+    - **R1-m3**
+        - **Axis** Clarity and presentation
+        - **Affected element** Section 3.1
+        - **Evidence pointer** Section 3.1, Figure 2
+        - **Issue** The description of the experiment to determine the optimal number of neighbor images (n) is unclear. The text says "increasing the number of invoked neighbor images enhances DeepIMAGER performance" but does not specify the range of n values tested or the metric used to determine the "ideal practical parameter."
+        - **Required correction** Provide a clear description of the hyperparameter search for n, including the values tested and the criteria for selection.
+    - **R1-m4**
+        - **Axis** Reproducibility
+        - **Affected element** Section 2.5
+        - **Evidence pointer** Section 2.5
+        - **Issue** The manuscript states that detailed commands are available at a GitHub repository, but the repository is not provided for review. This is a critical omission for a methods paper.
+        - **Required correction** The code and data must be made available, at least for review, to allow for independent verification of the results.
+- **Technical failings that need to be addressed before the case is established**
+    - The evaluation methodology for comparing supervised and unsupervised methods is not fully described and may be biased. A clear protocol for computing AUROC for all methods is required.
+    - The network architecture is not described in sufficient detail for reproducibility.
+    - The biological validation is superficial and does not demonstrate the tool's ability to generate novel, testable hypotheses.
+    - The code and data are not available for review, preventing independent verification of the central claims.
+- **Assessment against Nature-style criteria**
+    - **Originality** The idea of using image representations for GRN inference is a reasonable extension of existing work but is not a radical departure. The originality is moderate.
+    - **Scientific importance** The problem of accurate GRN inference is important, but the manuscript does not demonstrate a significant advance that would be of broad interest to a general scientific audience. The impact is likely limited to a specialized community.
+    - **Interdisciplinary readership** The work is primarily of interest to computational biologists. The biological application is not deep enough to attract a broad biological or clinical audience.
+    - **Technical soundness** The technical soundness cannot be fully assessed due to missing data and incomplete method descriptions. The potential for bias in the evaluation is a major concern.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to specialists but would be challenging for a general scientific reader. The abstract is reasonably clear, but the methods and results sections are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims of superior performance and robustness cannot be verified without access to the data, code, and a more rigorous and transparent evaluation. The manuscript has potential but requires major revisions and a more complete presentation of the evidence to be considered for publication.
+
+## Risk / unsupported claims
+- The claim of "superior performance" over ten other methods is unsupported without the full numerical results and a clear description of the evaluation protocol.
+- The claim of "remarkable robustness against dropout-zero events" is based on a single, incompletely described experiment and is therefore not fully supported.
+- The claim that the identified GRNs in MM dendritic cells are "potential" and include "many known regulations" is weakly supported by the descriptive analysis presented. The biological significance of these findings is not established.
+- The general statement that DeepIMAGER "establishes" itself as a "valuable tool" is an overstatement given the lack of independent validation and the limited biological analysis.

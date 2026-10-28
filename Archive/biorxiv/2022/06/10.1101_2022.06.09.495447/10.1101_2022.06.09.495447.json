@@ -1,0 +1,265 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.09.495447",
+  "title": "Gene structure heterogeneity drives transcription noise within human chromosomes",
+  "doi": "10.1101/2022.06.09.495447",
+  "abstract": "Classical observations have long suggested there is a link between 3D gene structure and transcription 1–4 . However, due to the many factors regulating gene expression, and to the challenge of visualizing DNA and chromatin dynamics at the same time in living cells, this hypothesis has been difficult to quantitatively test experimentally. Here we take an orthogonal approach and use computer simulations, based on the known biophysical principles of genome organisation 5–7 , to simultaneously predict 3D structure and transcriptional output of human chromatin genome wide. We validate our model by quantitative comparison with Hi-C contact maps, FISH, GRO-seq and single-cell RNA-seq data, and provide the 3DGene resource to visualise the panoply of structures adopted by any active human gene in a population of cells. We find transcription strongly correlates with the formation of protein-mediated microphase separated clusters of promoters and enhancers, associated with clouds of chromatin loops, and show that gene noise is a consequence of structural heterogeneity. Our results also indicate that loop extrusion by cohesin does not affect average transcriptional patterns, but instead impacts transcriptional noise. These findings provide a functional role for intranuclear microphase separation, and an evolutionary mechanism for loop extrusion halted at CTCF sites, to modulate transcriptional noise.",
+  "authors": [
+    "Chiang M",
+    "Brackley CA",
+    "Naughton C",
+    "Nozawa R",
+    "Battaglia C",
+    "Marenduzzo D",
+    "Gilbert N"
+  ],
+  "published_date": "2022-06-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.09.495447",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.09.495447.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR504110",
+    "raw_record": {
+      "id": "PPR504110",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR504110"
+        ]
+      },
+      "doi": "10.1101/2022.06.09.495447",
+      "title": "Gene structure heterogeneity drives transcription noise within human chromosomes",
+      "authorString": "Chiang M, Brackley CA, Naughton C, Nozawa R, Battaglia C, Marenduzzo D, Gilbert N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chiang M",
+            "lastName": "Chiang",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1620-2550"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, EH9 3FD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brackley CA",
+            "lastName": "Brackley",
+            "firstName": "Chris",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, EH9 3FD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Naughton C",
+            "lastName": "Naughton",
+            "firstName": "Catherine",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9576-5983"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Crewe Road South, Edinburgh, EH4 2XU, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nozawa R",
+            "lastName": "Nozawa",
+            "firstName": "Ryu-Suke",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Crewe Road South, Edinburgh, EH4 2XU, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Battaglia C",
+            "lastName": "Battaglia",
+            "firstName": "Cleis",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, EH9 3FD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marenduzzo D",
+            "lastName": "Marenduzzo",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3974-4915"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, EH9 3FD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gilbert N",
+            "lastName": "Gilbert",
+            "firstName": "Nick",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0505-6081"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Crewe Road South, Edinburgh, EH4 2XU, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1620-2550"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9576-5983"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0505-6081"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3974-4915"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Classical observations have long suggested there is a link between 3D gene structure and transcription  1–4 . However, due to the many factors regulating gene expression, and to the challenge of visualizing DNA and chromatin dynamics at the same time in living cells, this hypothesis has been difficult to quantitatively test experimentally. Here we take an orthogonal approach and use computer simulations, based on the known biophysical principles of genome organisation  5–7 , to simultaneously predict 3D structure and transcriptional output of human chromatin genome wide. We validate our model by quantitative comparison with Hi-C contact maps, FISH, GRO-seq and single-cell RNA-seq data, and provide the 3DGene resource to visualise the panoply of structures adopted by any active human gene in a population of cells. We find transcription strongly correlates with the formation of protein-mediated microphase separated clusters of promoters and enhancers, associated with clouds of chromatin loops, and show that gene noise is a consequence of structural heterogeneity. Our results also indicate that loop extrusion by cohesin does not affect average transcriptional patterns, but instead impacts transcriptional noise. These findings provide a functional role for intranuclear microphase separation, and an evolutionary mechanism for loop extrusion halted at CTCF sites, to modulate transcriptional noise.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "648050",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "223097/Z/21/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/06/09/2022.06.09.495447.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.06.09.495447"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR504110"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR504110&type=FILE&fileName=EMS145942-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 6,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS145942",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "igsr"
+        ]
+      },
+      "dateOfCreation": "2022-06-11",
+      "firstPublicationDate": "2022-06-09",
+      "firstIndexDate": "2022-06-11",
+      "fullTextReceivedDate": "2022-06-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use computational modeling to identify potential binding sites of TMPyP4 on a mutant c-MYC G-quadruplex that folds into a single 1:2:1 loop isomer. They report a 4:1 TMPyP4-to-quadruplex stoichiometry, with two binding sites at the top and bottom of the quadruplex and two as intercalations. Binding enthalpy and free energy calculations indicate that intercalation is thermodynamically favorable.
+- **Visible evidence base** Abstract text only; no quantitative data, method details, or structural coordinates are available
+- **Missing materials affecting confidence** Full manuscript, methods section, computational protocols, force field parameters, simulation details, convergence criteria, error estimates, structural figures, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an open question in G-quadruplex ligand binding. The claim of a 4:1 stoichiometry with a specific binding mode distribution is potentially interesting, but the abstract alone provides insufficient detail to evaluate the rigor of the calculations, the convergence of the simulations, or the robustness of the thermodynamic conclusions. The central claims are not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nucleic acid chemistry, structural biology, and computational drug design would be interested. The study addresses the ongoing debate on TMPyP4 binding modes to G-quadruplex DNA, which is relevant to the development of G-quadruplex-targeting anticancer agents. Computational chemists working on ligand-DNA interactions would also find the methodological approach relevant.
+- **Major strengths** The study targets a specific, well-defined biological question regarding the binding stoichiometry and sites of a model G-quadruplex ligand. The use of a mutant c-MYC sequence that folds into a single loop isomer is a sensible strategy to reduce conformational heterogeneity. The combination of enthalpy and free energy calculations to assess thermodynamic favorability is appropriate for the stated goal.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "two of the binding sites are located at the top and bottom of the quadruplex, respectively, while the remaining two are likely intercalations" and that "intercalation of a TMPyP4 molecule between the quadruplexes is thermodynamically favorable."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the computational methods used, including the level of theory, force field, sampling approach, or how binding sites were identified and distinguished. Without this information, the reliability of the binding site assignments and the thermodynamic calculations cannot be assessed. The phrase "likely intercalations" suggests uncertainty that is not quantified.
+  - **Why it matters** The central conclusions depend entirely on the accuracy of the computational protocol. If the methods are not described or validated, the claims of specific binding modes and stoichiometry cannot be accepted. The distinction between end-stacking and intercalation is particularly sensitive to simulation setup and force field choice.
+  - **Resolution test** Provide full methods including system preparation, equilibration protocol, simulation length, convergence criteria, and error analysis. Show that the identified binding sites are stable across independent simulations and that the thermodynamic quantities are converged. Compare with any available experimental data on TMPyP4 binding to this sequence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that "our findings provide insights into the 4:1 stoichiometry reported for TMPyP4 binding to this G-quadruplex."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not present any quantitative data supporting the 4:1 stoichiometry, such as binding free energies for successive ligand additions, occupancy analysis, or titration curves. The claim appears to be inferred from the identification of four binding sites, but the abstract does not demonstrate that all four sites are simultaneously occupied or that the binding is cooperative or independent.
+  - **Why it matters** A stoichiometry claim requires evidence that four ligands bind per quadruplex under the modeled conditions. Identifying four potential sites does not establish that all are occupied, nor does it address the relative affinities of the sites. Without this evidence, the connection to the experimentally reported 4:1 stoichiometry is speculative.
+  - **Resolution test** Present calculated binding free energies for each of the four sites, including the order of binding and any cooperativity effects. Show that the model predicts saturation at four ligands and that the predicted stoichiometry is robust to changes in simulation conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors imply that their findings resolve the debate on "the precise sites and modes of TMPyP4 binding to G-quadruplex DNA."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not discuss how the present results compare with previous computational or experimental studies on TMPyP4 binding to G-quadruplexes. Without a comparative context, it is unclear whether the findings are novel or consistent with prior work, and whether the specific mutant c-MYC sequence is representative of other G-quadruplexes.
+  - **Why it matters** The significance of the study depends on whether it advances understanding beyond existing knowledge. If previous studies have already proposed similar binding modes, the novelty is limited. If the results contradict prior findings, the discrepancy needs to be addressed.
+  - **Resolution test** Include a discussion of prior experimental and computational studies on TMPyP4-G-quadruplex interactions, and explicitly state how the present findings differ from or refine previous conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "1:2:1 loop isomer" is used without explanation. Nonspecialist readers may not understand what this notation refers to in the context of G-quadruplex topology.
+  - **Required correction** Briefly define the loop isomer notation, for example by specifying the loop lengths and their arrangement in the quadruplex fold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Thermodynamic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "binding enthalpy and free energy calculations show that intercalation of a TMPyP4 molecule between the quadruplexes is thermodynamically favorable" but does not report the magnitude of the calculated values or the uncertainty associated with them.
+  - **Required correction** Report the calculated enthalpy and free energy values with error estimates, and specify the reference state used for the calculations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the computational method used, which limits the ability of experimentalists to assess the relevance of the findings to their own work.
+  - **Required correction** Mention the computational approach in the abstract, such as molecular dynamics, docking, or quantum chemical calculations, to orient readers from different disciplines.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and quantitative evidence for the stoichiometry claim means the central conclusions are not established from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific unresolved question, but the abstract does not demonstrate a novel conceptual advance beyond prior work on TMPyP4-G-quadruplex interactions. Scientific importance: The topic is relevant to cancer drug development, but the significance of the specific findings cannot be evaluated without comparative context. Interdisciplinary readership: The abstract is accessible to a broad audience but lacks technical detail that would engage computational specialists. Technical soundness: Not assessable from the abstract alone; the absence of methods and error analysis is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The study may have merit, but the abstract alone does not provide sufficient information to evaluate the validity of the central claims. A full manuscript with detailed methods, quantitative results, and comparative discussion would be required to assess whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The 4:1 stoichiometry claim is unsupported by quantitative evidence in the abstract.
+- The assignment of two binding sites to the top and bottom of the quadruplex and two to intercalation is not verifiable without structural or energetic data.
+- The thermodynamic favorability of intercalation is stated without reported values or error estimates.
+- The claim that the findings provide "insights" into the experimentally reported stoichiometry is speculative without a direct comparison to experimental conditions.
+- The novelty of the findings relative to prior computational studies cannot be assessed from the abstract.

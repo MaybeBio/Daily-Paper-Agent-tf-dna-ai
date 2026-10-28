@@ -1,0 +1,562 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.09.658639",
+  "title": "AbDesign: Database of point mutants of antibodies with associated structures reveals poor generalization of binding predictions from machine learning models",
+  "doi": "10.1101/2025.06.09.658639",
+  "abstract": "Antibodies are naturally evolved molecular recognition scaffolds that can bind a variety of surfaces. Their designability is crucial to the development of biologics, with computational methods holding promise in accelerating the delivery of medicines to the clinic. Modeling antibody-antigen recognition is prohibitively difficult, with data paucity being one of the biggest hurdles. Current affinity datasets comprise a small number of experimental measurements, which are often not standardized between molecules. Here, we address these issues by creating a dataset of seven antigens with two antibodies each, for which we introduce a heterogeneous set of mutations to the CDR-H3 measured by ELISA. Each of the parental complexes has a known crystal structure. We perform benchmarking of state-of-the-art affinity prediction algorithms to gauge their effectiveness. Current computational methods exhibit significant limitations in accurately predicting the effects of single-point mutations. In contrast, the older empirical, physics-based method FoldX, performs well in identifying mutants that retain binding. These findings highlight the need for more resources like the one presented here — large, molecularly diverse, and experimentally consistent datasets.",
+  "authors": [
+    "Bartosz Janusz",
+    "Dawid Chomicz",
+    "Samuel Demharter",
+    "Marloes Arts",
+    "Jurrian de Kanter",
+    "Yano Wilke",
+    "Helena Britze",
+    "Sonia Wrobel",
+    "Tomasz Gawłowski",
+    "Pawel Dudzic",
+    "Kärt Ukkivi",
+    "Lauri Peil",
+    "Roberto Spreafico",
+    "Konrad Krawczyk"
+  ],
+  "published_date": "2025-06-13",
+  "updated_date": "2025-06-14T00:25:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658639",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658639.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:48:31Z",
+        "timestamp": 1782280111987,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                13
+              ]
+            ],
+            "date-time": "2025-06-13T00:00:00Z",
+            "timestamp": 1749772800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Antibodies are naturally evolved molecular recognition scaffolds that can bind a variety of surfaces. Their designability is crucial to the development of biologics, with computational methods holding promise in accelerating the delivery of medicines to the clinic. Modeling antibody-antigen recognition is prohibitively difficult, with data paucity being one of the biggest hurdles. Current affinity datasets comprise a small number of experimental measurements, which are often not standardized between molecules. Here, we address these issues by creating a dataset of seven antigens with two antibodies each, for which we introduce a heterogeneous set of mutations to the CDR-H3 measured by ELISA. Each of the parental complexes has a known crystal structure. We perform benchmarking of state-of-the-art affinity prediction algorithms to gauge their effectiveness. Current computational methods exhibit significant limitations in accurately predicting the effects of single-point mutations. In contrast, the older empirical, physics-based method FoldX, performs well in identifying mutants that retain binding. These findings highlight the need for more resources like the one presented here — large, molecularly diverse, and experimentally consistent datasets.</jats:p>",
+      "DOI": "10.1101/2025.06.09.658639",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            14
+          ]
+        ],
+        "date-time": "2025-06-14T00:25:19Z",
+        "timestamp": 1749860719000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "AbDesign: Database of point mutants of antibodies with associated structures reveals poor generalization of binding predictions from machine learning models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Bartosz",
+          "family": "Janusz",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "NaturalAntibody"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dawid",
+          "family": "Chomicz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NaturalAntibody"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Samuel",
+          "family": "Demharter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Genmab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marloes",
+          "family": "Arts",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Genmab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jurrian",
+          "family": "de Kanter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Genmab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yano",
+          "family": "Wilke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Genmab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Helena",
+          "family": "Britze",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Genmab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sonia",
+          "family": "Wrobel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NaturalAntibody"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomasz",
+          "family": "Gawłowski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NaturalAntibody"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pawel",
+          "family": "Dudzic",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NaturalAntibody"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kärt",
+          "family": "Ukkivi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Icosagen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lauri",
+          "family": "Peil",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Icosagen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roberto",
+          "family": "Spreafico",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Genmab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Konrad",
+          "family": "Krawczyk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NaturalAntibody"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19420862.2023.2297450"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wilman, W. et al. Machine-designed biotherapeutics: opportunities, feasibility and advantages of deep learning in computational antibody discovery. Brief. Bioinform. 23, (2022).",
+          "DOI": "10.1093/bib/bbac267"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bielska, W. et al. Applying computational protein design to therapeutic antibody discovery - current state and perspectives. Front. Immunol. 16, (2025).",
+          "DOI": "10.3389/fimmu.2025.1571371"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bennett, N. R. et al. Atomically accurate de novo design of antibodies with RFdiffusion. Bioengineering (2024).",
+          "DOI": "10.1101/2024.03.14.585103"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ferdous, S. & Martin, A. C. R . AbDb: antibody structure database-a database of PDB-derived antibody structures. Database 2018, (2018).",
+          "DOI": "10.1093/database/bay040"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty635"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2829"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shanehsazzadeh, A. et al. IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding. Synthetic Biology (2023).",
+          "DOI": "10.1101/2023.12.08.570889"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hitawala, F. N. & Gray, J. J . What has AlphaFold3 learned about antibody and nanobody docking, and what remains unsolved? Bioengineering (2024).",
+          "DOI": "10.1101/2024.09.21.614257"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41551-021-00699-9"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lim, Y. W. , Adler, A. S. & Johnson, D. S . Predicting antibody binders and generating synthetic antibodies using deep learning. MAbs 14, 2069075 (2022).",
+          "DOI": "10.1080/19420862.2022.2069075"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.03.26.586756"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae632"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.11.04.514231"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005659"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.05.17.541222"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, W. et al. DSMBind: SE(3) denoising score matching for unsupervised binding energy prediction and nanobody design. Bioinformatics (2023).",
+          "DOI": "10.1101/2023.12.10.570461"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2122954119"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Luo, S. et al. Rotamer Density Estimator is an Unsupervised Learner of the Effect of Mutations on Protein-Protein Interaction. Bioinformatics (2023).",
+          "DOI": "10.1101/2023.02.28.530137"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzt043"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.01.093"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2024.11.008"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.08.16.504181"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.03.14.585103"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1336"
+        },
+        {
+          "key": "2026041203205277000_2025.06.09.658639v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.03.15.585128"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.09.658639",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:57:18Z",
+        "timestamp": 1782277038000
+      },
+      "score": 65.69007,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.09.658639"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.1101/2025.06.09.658639",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1080/19420862.2025.2567319",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

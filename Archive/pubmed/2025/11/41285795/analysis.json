@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41285795",
+  "title": "Motif-based models accurately predict cell type-specific distal regulatory elements.",
+  "authors": "Cornejo-Paramo, Paola; Zhang, Xuan; Louis, Lithin; Li, Zelun; Yang, Yihua; Wong, Emily S",
+  "journal": "Nature communications",
+  "published_date": "2025-11-25",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于TF motif计数的Bag-of-Motifs框架预测细胞类型特异性增强子，虽涉及TF-DNA结合位点预测，但缺乏三维互作建模与动态机制研究，方法为传统机器学习而非AI/物理模拟，属于广义蛋白-DNA互作的可借鉴工作。",
+  "abstract": "Deciphering how DNA sequence specifies cell-type-specific regulatory activity is a central challenge in gene regulation. We present Bag-of-Motifs (BOM), a computational framework that represents distal cis-regulatory elements as unordered counts of transcription factor (TF) motifs. This minimalist representation, combined with gradient-boosted trees, enables the accurate prediction of cell-type-specific enhancers across mouse, human, zebrafish, and Arabidopsis datasets. Despite its simplicity, BOM outperforms more complex deep-learning models while using fewer parameters. We validate BOM's predictions experimentally by constructing synthetic enhancers from the most predictive motifs, demonstrating that these motif sets drive cell-type-specific expression. By providing direct interpretability and broad applicability, BOM reveals a highly predictive sequence code at distal regulatory regions and offers a scalable framework for dissecting cis-regulatory grammar across diverse species and conditions.",
+  "abstract_zh": "解析DNA序列如何决定细胞类型特异性的调控活性是基因调控中的一个核心挑战。我们提出了基序袋（Bag-of-Motifs, BOM），一种计算框架，将远端顺式调控元件表示为转录因子（TF）基序的无序计数。这种极简表示，结合梯度提升树，能够在小鼠、人类、斑马鱼和拟南芥数据集中准确预测细胞类型特异性的增强子。尽管其简单性，BOM在参数更少的情况下优于更复杂的深度学习模型。我们通过从最具预测性的基序构建合成增强子，实验验证了BOM的预测，证明这些基序集合驱动细胞类型特异性的表达。通过提供直接的可解释性和广泛的适用性，BOM揭示了远端调控区域中高度预测性的序列代码，并为跨物种和条件下解析顺式调控语法提供了一个可扩展的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41285795/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41285795/",
+  "paper_page_path": "papers/pubmed/41285795/index.html"
+}

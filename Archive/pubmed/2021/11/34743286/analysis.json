@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34743286",
+  "title": "FTWSVM-SR: DNA-Binding Proteins Identification via Fuzzy Twin Support Vector Machines on Self-Representation.",
+  "authors": "Zou, Yi; Ding, Yijie; Peng, Li; Zou, Quan",
+  "journal": "Interdisciplinary sciences, computational life sciences",
+  "published_date": "2021-11-08",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用模糊孪生支持向量机结合自表示隶属度预测DNA结合蛋白，属于蛋白-DNA互作识别但仅基于序列特征，无三维结构或结合机制建模，方法为传统机器学习，对TF-DNA特异性结合研究借鉴有限。",
+  "abstract": "Due to the high cost of DNA-binding proteins (DBPs) detection, many machine learning algorithms (ML) have been utilized to large-scale process and detect DBPs. The previous methods took no count of the processing of noise samples. In this study, a fuzzy twin support vector machine (FTWSVM) is employed to detect DBPs. First, multiple types of protein sequence features are formed into kernel matrices; Then, multiple kernel learning (MKL) algorithm is utilized to linear combine multiple kernels; next, self-representation-based membership function is utilized to estimate membership value (weight) of each training sample; finally, we feed the integrated kernel matrix and membership values into the FTWSVM-SR model for training and testing. On comparison with other predictive models, FTWSVM based on SR (FTWSVM-SR) obtains the best performance of Matthew's correlation coefficient (MCC): 0.7410 and 0.5909 on two independent testing sets (PDB186 and PDB2272 datasets), respectively. The results confirm that our method can be an effective DBPs detection tool. Before the biochemical experiment, our model can screen and analyze DBPs on a large scale.",
+  "abstract_zh": "由于DNA结合蛋白（DBPs）检测成本高昂，许多机器学习算法（ML）已被用于大规模处理和检测DBPs。以往的方法未考虑噪声样本的处理。本研究采用模糊孪生支持向量机（FTWSVM）来检测DBPs。首先，将多种类型的蛋白质序列特征形成核矩阵；然后，利用多核学习（MKL）算法对多个核进行线性组合；接着，基于自表示的隶属函数用于估计每个训练样本的隶属度值（权重）；最后，将整合后的核矩阵和隶属度值输入FTWSVM-SR模型进行训练和测试。与其他预测模型相比，基于SR的FTWSVM（FTWSVM-SR）在两个独立测试集（PDB186和PDB2272数据集）上分别获得了最佳的马修斯相关系数（MCC）：0.7410和0.5909。结果证实，我们的方法可作为一种有效的DBPs检测工具。在生化实验之前，我们的模型能够大规模筛选和分析DBPs。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34743286/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34743286/",
+  "paper_page_path": "papers/pubmed/34743286/index.html"
+}

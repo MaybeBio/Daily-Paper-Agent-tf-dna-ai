@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "38587997",
+    "doi": "10.1021/acs.jcim.3c02011",
+    "title": "ESPDHot: An Effective Machine Learning-Based Approach for Predicting Protein-DNA Interaction Hotspots."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions are pivotal to various cellular processes. Precise identification of the hotspot residues for protein-DNA interactions holds great significance for revealing the intricate mechanisms in protein-DNA recognition and for providing essential guidance for protein engineering. Aiming at protein-DNA interaction hotspots, this work introduces an effective prediction method, ESPDHot based on a stacked ensemble machine learning framework. Here, the interface residue whose mutation leads to a binding free energy change (DeltaDeltaG) exceeding 2 kcal/mol is defined as a hotspot. To tackle the imbalanced data set issue, the adaptive synthetic sampling (ADASYN), an oversampling technique, is adopted to synthetically generate new minority samples, thereby rectifying data imbalance. As for molecular characteristics, besides traditional features, we introduce three new characteristic types including residue interface preference proposed by us, residue fluctuation dynamics characteristics, and coevolutionary features. Combining the Boruta method with our previously developed Random Grouping strategy, we obtained an optimal set of features. Finally, a stacking classifier is constructed to output prediction results, which integrates three classical predictors, Support Vector Machine (SVM), XGBoost, and Artificial Neural Network (ANN) as the first layer, and Logistic Regression (LR) algorithm as the second one. Notably, ESPDHot outperforms the current state-of-the-art predictors, achieving superior performance on the independent test data set, with F1, MCC, and AUC reaching 0.571, 0.516, and 0.870, respectively.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*DNA/chemistry/metabolism",
+      "Protein Binding",
+      "Neural Networks, Computer",
+      "Proteins/chemistry/metabolism",
+      "Thermodynamics",
+      "DNA-Binding Proteins/metabolism/chemistry",
+      "Support Vector Machine",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tao, Lianci",
+        "Zhou, Tong",
+        "Wu, Zhixiang",
+        "Hu, Fangrui",
+        "Yang, Shuang",
+        "Kong, Xiaotian",
+        "Li, Chunhua"
+      ],
+      "short_names": [
+        "Tao L",
+        "Zhou T",
+        "Wu Z",
+        "Hu F",
+        "Yang S",
+        "Kong X",
+        "Li C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4911-073X",
+        "ORCID: 0000-0002-0895-3506"
+      ],
+      "affiliations": [
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China.",
+        "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tao, Lianci",
+        "short_name": "Tao L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tong",
+        "short_name": "Zhou T",
+        "identifiers": [
+          "0000-0003-4911-073X"
+        ],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhixiang",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Fangrui",
+        "short_name": "Hu F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuang",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Xiaotian",
+        "short_name": "Kong X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunhua",
+        "short_name": "Li C",
+        "identifiers": [
+          "0000-0002-0895-3506"
+        ],
+        "affiliations": [
+          "College of Chemistry and Life Science, Beijing University of Technology, Beijing 100124, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Apr 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/08 18:42",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "40213456"
+    ],
+    "refs": [],
+    "similar": [
+      "38587997",
+      "36284327",
+      "39396025",
+      "30943723",
+      "39031414",
+      "30040656",
+      "30598073",
+      "30957840",
+      "28851273",
+      "35253843",
+      "34731411",
+      "22574904",
+      "35930862",
+      "38927611",
+      "39333659",
+      "33477866",
+      "39562670",
+      "39672012",
+      "34721656",
+      "39277634",
+      "38313005",
+      "31330489",
+      "33313673",
+      "38813626",
+      "31123959",
+      "32125890",
+      "34781184",
+      "32330740",
+      "28155662",
+      "39931483",
+      "36236367",
+      "39833314",
+      "39352921",
+      "19878545",
+      "32866108",
+      "37866116",
+      "40175458",
+      "32178250",
+      "31691122",
+      "39671428",
+      "32938375",
+      "40274916",
+      "39641373",
+      "39753646",
+      "25708928",
+      "40140819",
+      "39375427",
+      "40102923",
+      "32142788",
+      "39109079",
+      "39348356",
+      "30891794",
+      "33321153",
+      "38277426",
+      "39739714",
+      "37015594",
+      "39929624",
+      "37649387",
+      "39695398",
+      "37836625",
+      "39875505",
+      "24151525",
+      "39892831",
+      "37659275",
+      "32936825",
+      "38773484",
+      "39992898",
+      "34390938",
+      "33219864",
+      "39715219",
+      "30808287",
+      "39121059",
+      "40105161",
+      "40140995",
+      "32357880",
+      "36640604",
+      "38831346",
+      "39061754",
+      "36948010",
+      "29753757",
+      "29037046",
+      "40230275",
+      "19925685",
+      "38439097",
+      "23497329",
+      "39185761",
+      "38170718",
+      "25229688",
+      "33370603",
+      "22591472",
+      "38198475",
+      "37803253",
+      "31856726",
+      "40082786",
+      "38351686",
+      "19816556",
+      "17316627",
+      "38627269",
+      "39778195",
+      "31787076"
+    ],
+    "review": [
+      "38587997"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38587997",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c02011",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

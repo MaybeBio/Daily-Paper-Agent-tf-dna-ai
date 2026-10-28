@@ -1,0 +1,824 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.19.613959",
+  "title": "Cardiovascular Disease-Associated Non-Coding Variants Disrupt GATA4-DNA Binding and Regulatory Functions",
+  "doi": "10.1101/2024.09.19.613959",
+  "abstract": "Genome-wide association studies have mapped over 90% of cardiovascular disease (CVD)-associated variants within the non-coding genome. Non-coding variants in regulatory regions of the genome, such as promoters, enhancers, silencers, and insulators, can alter the function of tissue-specific transcription factors (TFs) proteins and their gene regulatory function. In this work, we used a computational approach to identify and test CVD-associated single nucleotide polymorphisms (SNPs) that alter the DNA binding of the human cardiac transcription factor GATA4. Using a gapped k-mer support vector machine (GKM-SVM) model, we scored CVD-associated SNPs localized in gene regulatory elements in expression quantitative trait loci (eQTL) detected in cardiac tissue to identify variants altering GATA4-DNA binding. We prioritized four variants that resulted in a total loss of GATA4 binding (rs1506537 and rs56992000) or the creation of new GATA4 binding sites (rs2941506 and rs2301249). The identified variants also resulted in significant changes in transcriptional activity proportional to the altered DNA-binding affinities. In summary, we present a comprehensive analysis comprised of in silico, in vitro, and cellular evaluation of CVD-associated SNPs predicted to alter GATA4 function. Graphical Abstract Highlights An integrative computational approach combining functional genomics data and machine learning was implemented to prioritize potential causal genetic variants associated with cardiovascular disease (CVD). We prioritized and validated CVD-associated SNPs that created or destroyed genomic binding sites of the cardiac transcription factor GATA4. Changes in GATA4-DNA binding resulted in significant changes in GATA4-dependent transcriptional activity in human cells. Our results contribute to the mechanistic understanding of cardiovascular disease-associated non-coding variants impacting GATA4 function.",
+  "authors": [
+    "Edwin G. Peña-Martínez",
+    "Jean L. Messon-Bird",
+    "Jessica M. Rodríguez-Ríos",
+    "Rosalba Velázquez-Roig",
+    "Diego A. Pomales-Matos",
+    "Alejandro Rivera-Madera",
+    "Leandro Sanabria-Alberto",
+    "Adriana C. Barreiro-Rosario",
+    "Jeancarlos Rivera-Del Valle",
+    "Nicole E. Muñoz-Páez",
+    "Esther A. Peterson-Peguero",
+    "José A. Rodríguez-Martínez"
+  ],
+  "published_date": "2024-09-24",
+  "updated_date": "2024-09-24T11:20:16Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613959",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.19.613959.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:44:51Z",
+        "timestamp": 1768517091608,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            24
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 84,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                24
+              ]
+            ],
+            "date-time": "2024-09-24T00:00:00Z",
+            "timestamp": 1727136000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Genome-wide association studies have mapped over 90% of cardiovascular disease (CVD)-associated variants within the non-coding genome. Non-coding variants in regulatory regions of the genome, such as promoters, enhancers, silencers, and insulators, can alter the function of tissue-specific transcription factors (TFs) proteins and their gene regulatory function. In this work, we used a computational approach to identify and test CVD-associated single nucleotide polymorphisms (SNPs) that alter the DNA binding of the human cardiac transcription factor GATA4. Using a gapped k-mer support vector machine (GKM-SVM) model, we scored CVD-associated SNPs localized in gene regulatory elements in expression quantitative trait loci (eQTL) detected in cardiac tissue to identify variants altering GATA4-DNA binding. We prioritized four variants that resulted in a total loss of GATA4 binding (rs1506537 and rs56992000) or the creation of new GATA4 binding sites (rs2941506 and rs2301249). The identified variants also resulted in significant changes in transcriptional activity proportional to the altered DNA-binding affinities. In summary, we present a comprehensive analysis comprised of in silico, in vitro, and cellular evaluation of CVD-associated SNPs predicted to alter GATA4 function.</jats:p>\n                <jats:sec>\n                  <jats:title>Graphical Abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" orientation=\"portrait\" fig-type=\"figure\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"613959v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>An integrative computational approach combining functional genomics data and machine learning was implemented to prioritize potential causal genetic variants associated with cardiovascular disease (CVD).</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We prioritized and validated CVD-associated SNPs that created or destroyed genomic binding sites of the cardiac transcription factor GATA4.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Changes in GATA4-DNA binding resulted in significant changes in GATA4-dependent transcriptional activity in human cells.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Our results contribute to the mechanistic understanding of cardiovascular disease-associated non-coding variants impacting GATA4 function.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2024.09.19.613959",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2024-09-24T11:20:16Z",
+        "timestamp": 1727176816000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Cardiovascular Disease-Associated Non-Coding Variants Disrupt GATA4-DNA Binding and Regulatory Functions"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9076-528X",
+          "authenticated-orcid": false,
+          "given": "Edwin G.",
+          "family": "Peña-Martínez",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-3276-1902",
+          "authenticated-orcid": false,
+          "given": "Jean L.",
+          "family": "Messon-Bird",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1191-2887",
+          "authenticated-orcid": false,
+          "given": "Jessica M.",
+          "family": "Rodríguez-Ríos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rosalba",
+          "family": "Velázquez-Roig",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4129-7678",
+          "authenticated-orcid": false,
+          "given": "Diego A.",
+          "family": "Pomales-Matos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0037-4822",
+          "authenticated-orcid": false,
+          "given": "Alejandro",
+          "family": "Rivera-Madera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-8203-4139",
+          "authenticated-orcid": false,
+          "given": "Leandro",
+          "family": "Sanabria-Alberto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Adriana C.",
+          "family": "Barreiro-Rosario",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jeancarlos Rivera-Del",
+          "family": "Valle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nicole E.",
+          "family": "Muñoz-Páez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7497-0980",
+          "authenticated-orcid": false,
+          "given": "Esther A.",
+          "family": "Peterson-Peguero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "José A.",
+          "family": "Rodríguez-Martínez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12920-022-01216-w"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1016/j.atherosclerosis.2015.12.009",
+          "article-title": "Post-GWAS methodologies for localisation of functional non-coding variants: ANGPTL3",
+          "volume": "246",
+          "year": "2016",
+          "journal-title": "Atherosclerosis"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elkon, R. and Agami, R . (2017) Characterization of noncoding regulatory DNA in the human genome Nature Biotechnology, 35Nature Publishing Group, 732–746",
+          "DOI": "10.1038/nbt.3863"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao, L. et al. (2018) Identifying noncoding risk variants using disease-relevant gene regulatory networks. Nat Commun 9",
+          "DOI": "10.1038/s41467-018-03133-y"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddv259"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-023-00629-2"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-017-3899-8"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elliott, K. and Larsson, E . (2021) Non-coding driver mutations in human cancer Nature Reviews Cancer, 21Nature Research, 500–509",
+          "DOI": "10.1038/s41568-021-00371-z"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Heshmatzad, K. et al. (2023) Role of non-coding variants in cardiovascular disease Journal of Cellular and Molecular MedicineJohn Wiley and Sons Inc",
+          "DOI": "10.1111/jcmm.17762"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2015.17"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "200088",
+          "DOI": "10.1098/rsob.200088",
+          "article-title": "The contribution of non-coding regulatory elements to cardiovascular disease",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Open Biol"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2018.00523"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ajore, R. et al. (2022) Functional dissection of inherited non-coding variation influencing multiple myeloma risk. Nat Commun 13",
+          "DOI": "10.1038/s41467-022-35411-1"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13889-6"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2021.02.006"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van der Lee, R. , et al. (2020) Deregulated Regulators: Disease-Causing cis Variants in Transcription Factor GenesTrends in Genetics, 36Elsevier Ltd, 523–539",
+          "DOI": "10.1016/j.tig.2020.04.006"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.31083/j.fbs1601004",
+          "article-title": "Decoding Non-coding Variants: Recent Approaches to Studying Their Role in Gene Regulation and Human Diseases",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Frontiers in Bioscience-Scholar"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06661-w"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "659",
+          "DOI": "10.1097/MOP.0000000000000283",
+          "article-title": "Mutations in the noncoding genome",
+          "volume": "27",
+          "year": "2015",
+          "journal-title": "Curr Opin Pediatr"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3863"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.248823.119"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/dds165"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Johnston, A.D. et al. (2019) Functional genetic variants can mediate their regulatory effects through alteration of transcription factor binding. Nat Commun 10",
+          "DOI": "10.1038/s41467-019-11412-5"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0499-3"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Orlando, G. , et al. (2018) Promoter capture Hi-C-based identification of recurrent noncoding mutations in colorectal cancer Nature Genetics, 50Nature Publishing Group, 1375–1380",
+          "DOI": "10.1038/s41588-018-0211-z"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schoenfelder, S. et al. (2018) Promoter capture Hi-C: High-resolution, genome-wide profiling of promoter interactions. Journal of Visualized Experiments 2018",
+          "DOI": "10.3791/57320-v"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bray, D. et al. (2022) CASCADE: high-throughput characterization of regulatory complex binding altered by non-coding variants. Cell Genomics 2",
+          "DOI": "10.1016/j.xgen.2022.100098"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hou, G. et al. (2021) SLE non-coding genetic risk variant determines the epigenetic dysfunction of an immune cell specific enhancer that controls disease-critical microRNA expression. Nat Commun 12",
+          "DOI": "10.1038/s41467-020-20460-1"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.02.031"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.276064.121"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bruneau, B.G . (2013) Signaling and transcriptional networks in heart development and regeneration. Cold Spring Harb Perspect Biol 5",
+          "DOI": "10.1101/cshperspect.a008292"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1132292"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2008.11.004"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sam, J. et al. (2020) Specificity, redundancy and dosage thresholds among gata4/5/6 genes during zebrafish cardiogenesis. Biol Open 9",
+          "DOI": "10.1242/bio.053611"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Molkentin, J.D. et al. (1997) Requirement of the transcription factor GATA4 for heart tube formation and ventral morphogenesis. Genes Dev 11",
+          "DOI": "10.1101/gad.11.8.1061"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kuo, C.T. et al. (1997) GATA4 transcription factor is required for ventral morphogenesis and heart tube formation. Genes Dev 11",
+          "DOI": "10.1101/gad.11.8.1048"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0012-1606(03)00306-3"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carter, D.R. et al. (2014) Art27 interacts with GATA4, FOG2 and NKX2.5 and is a novel co-repressor of cardiac genes. PLoS One 9",
+          "DOI": "10.1371/journal.pone.0095253"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0914023107"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, B. et al. (2017) Protein-altering and regulatory genetic variants near GATA4 implicated in bicuspid aortic valve. Nat Commun 8",
+          "DOI": "10.1038/ncomms15481"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Morton, S.U. et al. (2021) Genomic frontiers in congenital heart disease. Nat Rev Cardiol 0123456789",
+          "DOI": "10.1038/s41569-021-00587-4"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1161/CIRCRESAHA.116.309140"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06801"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McCulley, D.J. and Black, B.L . (2012) Transcription Factor Pathways and Congenital Heart Disease, 100, Elsevier Inc.",
+          "DOI": "10.1016/B978-0-12-387786-4.00008-7"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, X. et al. (2021) Variants in a cis-regulatory element of TBX1 in conotruncal heart defect patients impair GATA6-mediated transactivation. Orphanet J Rare Dis 16",
+          "DOI": "10.1186/s13023-021-01981-4"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1120"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms11388"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2528-x"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2653"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac199"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw142"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw203"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3331"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty127"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1176"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa516"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.58",
+          "first-page": "105423",
+          "article-title": "Prioritizing Cardiovascular Disease-Associated Variants Altering NKX2-5 and TBX5 Binding through an Integrative Computational Approach",
+          "volume": "300",
+          "year": "2023",
+          "journal-title": "Journal of Biological Chemistry"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Myers, T.A. et al. (2020) LDlinkR: An R Package for Rapidly Calculating Linkage Disequilibrium Statistics in Diverse Populations. Front Genet 11",
+          "DOI": "10.3389/fgene.2020.00157"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schneider, C.A. , et al. (2012) NIH Image to ImageJ: 25 years of image analysis Nature Methods, 9671–675",
+          "DOI": "10.1038/nmeth.2089"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yamagata, T. , et al. (1995) Of the GATA-Binding Proteins, Only GATA-4 Selectively Regulates the Human Interleukin-5 Gene Promoter in Interleukin-5-Producing Cells Which Express Multiple GATA-Binding Proteins, 15",
+          "DOI": "10.1128/MCB.15.7.3830"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/humu.23791"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.64",
+          "unstructured": "Abascal, F. et al. (2020) Expanded encyclopaedias of DNA elements in the human and mouse genomes. Nature 583"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1715888115"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.20010"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Siddharthan, R . (2010) Dinucleotide weight matrices for predicting transcription factor binding sites: Generalizing the position weight matrix. PLoS One 5",
+          "DOI": "10.1371/journal.pone.0009722"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm055"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.69",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bulyk, M.L. , et al. (2002) Nucleotides of transcription factor binding sites exert interdependent effects on the binding affinities of transcription factors, 30",
+          "DOI": "10.1093/nar/30.5.1255"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2017.02.007"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac262"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "2811",
+          "DOI": "10.1109/JBHI.2021.3058518",
+          "article-title": "Quantifying Intensities of Transcription Factor-DNA Binding by Learning from an Ensemble of Protein Binding Microarrays",
+          "volume": "25",
+          "year": "2021",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Beuling, E. et al. (2008) GATA4 mediates gene repression in the mature mouse small intestine through interactions with friend of GATA (FOG) cofactors. Dev Biol 322",
+          "DOI": "10.1016/j.ydbio.2008.07.022"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Han, X. et al. (2019) Restoration of GATA4 expression impedes breast cancer progression by transcriptional repression of ReLA and inhibition of NF-κB signaling. J Cell Biochem 120",
+          "DOI": "10.1002/jcb.27455"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.75",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, A.C. et al. (2004) The N termini of Friend of GATA (FOG) proteins define a novel transcriptional repression motif and a superfamily of transcriptional repressors. Journal of Biological Chemistry 279",
+          "DOI": "10.1074/jbc.M411240200"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, W. et al. (2023) Mendelian Randomization Analysis Provides Insights into the Pathogenesis of Serum Levels of Branched-Chain Amino Acids in Cardiovascular Disease. Metabolites 13",
+          "DOI": "10.3390/metabo13030403"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nikpay, M. , et al. (2020) Multiomics Screening Identifies Molecular Biomarkers Causally Associated With the Risk of Coronary Artery Disease. Circ Genom Precis Med 13",
+          "DOI": "10.1161/CIRCGEN.119.002876"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Matthews, E.R. et al. (2024) Anthracyclines induce cardiotoxicity through a shared gene expression response signature. PLoS Genet 20",
+          "DOI": "10.1371/journal.pgen.1011164"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Moudgil, R. et al. (2020) Topoisomerase 2B Decrease Results in Diastolic Dysfunction via p53 and Akt: A Novel Pathway. Front Cardiovasc Med 7",
+          "DOI": "10.3389/fcvm.2020.594123"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Perry, M.-C. et al. (2014) ERBB2 Deficiency Alters an E2F-1-Dependent Adaptive Stress Response and Leads to Cardiac Dysfunction. Mol Cell Biol 34",
+          "DOI": "10.1128/MCB.00895-14"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.81",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grassam-Rowe, A. , et al. (2020) Novel cardiac cell subpopulations: Pnmt-derived cardiomyocytes Open Biology, 10",
+          "DOI": "10.1098/rsob.200095"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Touma, M. et al. (2016) Decoding the Long Noncoding RNA during Cardiac Maturation: A Roadmap for Functional Discovery. Circ Cardiovasc Genet 9",
+          "DOI": "10.1161/CIRCGENETICS.115.001363"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.83",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang, X. et al. (2020) Ppp1r1b-lncRNA inhibits PRC2 at myogenic regulatory genes to promote cardiac and skeletal muscle development in mouse and human. RNA 26",
+          "DOI": "10.1261/rna.073692.119"
+        },
+        {
+          "key": "2024092803501122000_2024.09.19.613959v1.84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, X. et al. (2023) Adipsin alleviates cardiac microvascular injury in diabetic cardiomyopathy through Csk-dependent signaling mechanism. BMC Med 21",
+          "DOI": "10.1186/s12916-023-02887-7"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.19.613959",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:06:58Z",
+        "timestamp": 1768460818000
+      },
+      "score": 87.267876,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.19.613959"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            24
+          ]
+        ]
+      },
+      "references-count": 84,
+      "URL": "https://doi.org/10.1101/2024.09.19.613959",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.xhgg.2025.100415",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

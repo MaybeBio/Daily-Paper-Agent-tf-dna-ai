@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41325315",
+  "title": "Integrated multi-omics analysis reveals necroptosis-related biomarker BIRC3 for early diagnosis and therapeutic targeting in preeclampsia.",
+  "authors": "Lin, Qingxia; Huang, Peifeng; Kang, Youhong; Lu, Yanfeng; Shi, Guili",
+  "journal": "PloS one",
+  "published_date": "2025-12-01",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过多组学与机器学习筛选子痫前期坏死性凋亡标志物BIRC3，并做分子对接虚拟筛选药物，虽含蛋白-小分子对接，但核心非蛋白质-DNA互作，无TF-DNA结合建模，仅边缘相关。",
+  "abstract": "BACKGROUND: Preeclampsia (PE) is a life-threatening pregnancy disorder lacking reliable early biomarkers. While apoptosis is implicated in PE pathogenesis, the role of regulated necrotic cell death (necroptosis) remains poorly understood. This study aimed to identify necroptosis-related biomarkers, and further provide the potential natural compounds for PE with virtual screening. METHODS: Public datasets (GSE66273 for training set; GSE44711 for validation set; GSE173193 for single-cell RNA-seq) were analyzed. Differentially expressed genes (DEGs) were screened using limma (|log2FC| > 1, P < 0.05). Necroptosis-related genes overlapped with DEGs to identify key candidates. Subsequent analyses included machine learning, protein-protein interaction (PPI) network construction, and immune infiltration profiling. Single-cell RNA sequencing data (GSE173193) was utilized to localize BIRC3 expression at the cellular level. Transcription factors, microRNAs, and RNA-binding proteins associated with BIRC3 are also identified. Finally, Molecular docking predicted therapeutic drugs targeting hub genes. RESULTS: The analysis of the GSE66273 dataset identified 367 DEGs. Intersection with necroptosis-related genes revealed 3 necroptosis-related DEGs (NRDEGs), from which BIRC3 was prioritized as hub gene through PPI networks and machine learning (random forest). BIRC3 demonstrated significant diagnostic potential in the discovery cohort (AUC = 0.933) and maintained strong performance in the independent validation cohort (AUC = 0.844). Single-cell analysis revealed BIRC3 was predominantly expressed in immune lineages, particularly NK/T cells, with a significantly higher proportion of BIRC3-positive cells in PE placentas (p < 0.05). Immune microenvironment further analysis demonstrated significant dysregulation in PE. Finally, based on the BIRC3 structure, Withanolide D (-11.0 kcal/mol), Baicalin (-9.0 kcal/mol) and Mangostin (-8.3 kcal/mol) were screened. CONCLUSION: This comprehensive analysis implicates necroptosis in PE pathogenesis. BIRC3 is proposed as a novel diagnostic biomarker and therapeutic target, with multi-omics validation underscoring its role in immune dysregulation and placental dysfunction.",
+  "abstract_zh": "背景：子痫前期（PE）是一种危及生命的妊娠疾病，缺乏可靠的早期生物标志物。虽然细胞凋亡与PE发病机制相关，但调控性坏死细胞死亡（necroptosis）的作用仍知之甚少。本研究旨在识别与坏死性凋亡相关的生物标志物，并通过虚拟筛选进一步为PE提供潜在天然化合物。方法：分析了公共数据集（GSE66273作为训练集；GSE44711作为验证集；GSE173193用于单细胞RNA-seq）。使用limma筛选差异表达基因（DEGs）（|log2FC| > 1，P < 0.05）。将坏死性凋亡相关基因与DEGs重叠以识别关键候选基因。后续分析包括机器学习、蛋白质-蛋白质相互作用（PPI）网络构建和免疫浸润谱分析。利用单细胞RNA测序数据（GSE173193）在细胞水平定位BIRC3表达。还识别了与BIRC3相关的转录因子、microRNA和RNA结合蛋白。最后，分子对接预测了靶向核心基因的治疗药物。结果：GSE66273数据集分析识别出367个DEGs。与坏死性凋亡相关基因的交集揭示了3个坏死性凋亡相关DEGs（NRDEGs），其中通过PPI网络和机器学习（随机森林）将BIRC3优先确定为核心基因。BIRC3在发现队列中显示出显著的诊断潜力（AUC = 0.933），并在独立验证队列中保持强劲性能（AUC = 0.844）。单细胞分析显示BIRC3主要在免疫谱系中表达，尤其是NK/T细胞，且PE胎盘中BIRC3阳性细胞比例显著更高（p < 0.05）。免疫微环境进一步分析显示PE中存在显著失调。最后，基于BIRC3结构，筛选出Withanolide D（-11.0 kcal/mol）、Baicalin（-9.0 kcal/mol）和Mangostin（-8.3 kcal/mol）。结论：这项综合分析表明坏死性凋亡参与PE发病机制。BIRC3被提出作为新型诊断生物标志物和治疗靶点，多组学验证强调了其在免疫失调和胎盘功能障碍中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41325315/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41325315/",
+  "paper_page_path": "papers/pubmed/41325315/index.html"
+}

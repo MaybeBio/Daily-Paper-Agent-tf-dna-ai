@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36720898",
+  "title": "Explainable artificial intelligence as a reliable annotator of archaeal promoter regions.",
+  "authors": "Sganzerla Martinez, Gustavo; Perez-Rueda, Ernesto; Kumar, Aditya; Sarkar, Sharmilee; de Avila E Silva, Scheila",
+  "journal": "Scientific reports",
+  "published_date": "2023-02-01",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用可解释SVM对古菌启动子区域进行注释与预测，虽涉及转录因子结合位点相关DNA序列，但缺乏三维互作建模与AI/物理模拟方法，属于广义蛋白-DNA互作边缘应用。",
+  "abstract": "Archaea are a vast and unexplored cellular domain that thrive in a high diversity of environments, having central roles in processes mediating global carbon and nutrient fluxes. For these organisms to balance their metabolism, the appropriate regulation of their gene expression is essential. A key momentum in regulating genes responsible for the life maintenance of archaea is when transcription factor proteins bind to the promoter element. This DNA segment is conserved, which enables its exploration by machine learning techniques. Here, we trained and tested a support vector machine with 3935 known archaeal promoter sequences. All promoter sequences were coded into DNA Duplex Stability. After, we performed a model interpretation task to map the decision pattern of the classification procedure. We also used a dataset of known-promoter sequences for validation. Our results showed that an AT rich region around position - 27 upstream (relative to the start TSS) is the most conserved in the analyzed organisms. In addition, we were able to identify the BRE element (- 33), the PPE (at - 10) and a position at + 3, that provides a more understandable picture of how promoters are organized in all the archaeal organisms. Finally, we used the interpreted model to identify potential promoter sequences of 135 unannotated organisms, delivering regulatory regions annotation of archaea in a scale never accomplished before ( https://pcyt.unam.mx/gene-regulation/ ). We consider that this approach will be useful to understand how gene regulation is achieved in other organisms apart from the already established transcription factor binding sites.",
+  "abstract_zh": "古菌是一个庞大且尚未充分探索的细胞域，在多种环境中繁衍生息，在调节全球碳和营养通量的过程中发挥着核心作用。为了使这些生物体平衡其代谢，其基因表达的适当调控至关重要。调控负责古菌生命维持的基因的一个关键环节是转录因子蛋白与启动子元件的结合。该DNA片段是保守的，这使得其能够通过机器学习技术进行探索。在此，我们使用3935个已知的古菌启动子序列训练并测试了一个支持向量机。所有启动子序列均被编码为DNA双链稳定性。随后，我们执行了模型解释任务，以映射分类过程的决策模式。我们还使用了一个已知启动子序列数据集进行验证。我们的结果表明，位于上游-27位置（相对于起始TSS）附近的富含AT区域在所分析生物体中最为保守。此外，我们能够识别出BRE元件（-33）、PPE（位于-10）以及+3位置的一个位点，这为所有古菌生物中启动子的组织方式提供了更清晰的图景。最后，我们使用解释后的模型识别了135个未注释生物体的潜在启动子序列，以前所未有的规模提供了古菌调控区域的注释（https://pcyt.unam.mx/gene-regulation/）。我们认为，这种方法将有助于理解除已确立的转录因子结合位点之外，其他生物体如何实现基因调控。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36720898/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36720898/",
+  "paper_page_path": "papers/pubmed/36720898/index.html"
+}

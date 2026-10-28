@@ -1,0 +1,321 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.08.503180",
+  "title": "Exploring the adaptability and robustness of the central carbon metabolism of Mycoplasma pneumoniae",
+  "doi": "10.1101/2022.08.08.503180",
+  "abstract": "In this study we explored the adaptability and robustness of glycolysis and pyruvate metabolism of Mycoplasma pneumoniae ( MPN ). We used a dual approach, we analysed metabolomics data collected for a large number of OE and KO mutants and perturbation samples. Furthermore, we trained a dynamic model of central carbon metabolism and tested the model’s capacity to predict these mutants and perturbation samples as well as identify key controlling factors in central carbon metabolism. Our analysis of metabolite data as well as our model analysis indicate MPN metabolism is inherently robust against perturbations due to its network structure. Two key control hubs of central carbon metabolism were identified.",
+  "authors": [
+    "Zondervan NA",
+    "Yus E",
+    "Sévin DC",
+    "Martinez S",
+    "Gallo C",
+    "Schaap PJ",
+    "Lluch-Senar M",
+    "Serrano L",
+    "Martins dos Santos VAP",
+    "Suarez-Diez M"
+  ],
+  "published_date": "2022-08-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.08.503180",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.08.503180.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR530705",
+    "raw_record": {
+      "id": "PPR530705",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR530705"
+        ]
+      },
+      "doi": "10.1101/2022.08.08.503180",
+      "title": "Exploring the adaptability and robustness of the central carbon metabolism of  <i>Mycoplasma pneumoniae</i>",
+      "authorString": "Zondervan NA, Yus E, Sévin DC, Martinez S, Gallo C, Schaap PJ, Lluch-Senar M, Serrano L, Martins dos Santos VAP, Suarez-Diez M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zondervan NA",
+            "lastName": "Zondervan",
+            "firstName": "Niels",
+            "initials": "NA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7049-5334"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic biology, Wageningen University & Research, the Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yus E",
+            "lastName": "Yus",
+            "firstName": "Eva",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute for Science and Technology, Doctor Aiguader 88, Barcelona, 08003, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sévin DC",
+            "lastName": "Sévin",
+            "firstName": "Daniel",
+            "initials": "DC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zürich, 8093 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martinez S",
+            "lastName": "Martinez",
+            "firstName": "Sira",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute for Science and Technology, Doctor Aiguader 88, Barcelona, 08003, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gallo C",
+            "lastName": "Gallo",
+            "firstName": "Carolina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute for Science and Technology, Doctor Aiguader 88, Barcelona, 08003, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schaap PJ",
+            "lastName": "Schaap",
+            "firstName": "Peter",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4346-6084"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic biology, Wageningen University & Research, the Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lluch-Senar M",
+            "lastName": "Lluch-Senar",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute for Science and Technology, Doctor Aiguader 88, Barcelona, 08003, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Serrano L",
+            "lastName": "Serrano",
+            "firstName": "Luis",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5276-1392"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute for Science and Technology, Doctor Aiguader 88, Barcelona, 08003, Spain"
+                },
+                {
+                  "affiliation": "Universitat Pompeu Fabra (UPF), Barcelona, Spain"
+                },
+                {
+                  "affiliation": "ICREA, Pg. Lluis Companys 23, 08010 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martins dos Santos VAP",
+            "lastName": "Martins dos Santos",
+            "firstName": "Vitor",
+            "initials": "VAP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2352-9017"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic biology, Wageningen University & Research, the Netherlands"
+                },
+                {
+                  "affiliation": "LifeGlimmer GmbH, Markelstrasse 38, 12163 Berlin, Germany"
+                },
+                {
+                  "affiliation": "Laboratory of Bioprocess Engineering, Wageningen University & Research, the Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suarez-Diez M",
+            "lastName": "Suarez-Diez",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5845-146X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic biology, Wageningen University & Research, the Netherlands"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5845-146X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7049-5334"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7568-4353"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2352-9017"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4346-6084"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5276-1392"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3811-1841"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "In this study we explored the adaptability and robustness of glycolysis and pyruvate metabolism of  Mycoplasma pneumoniae (  MPN ). We used a dual approach, we analysed metabolomics data collected for a large number of OE and KO mutants and perturbation samples. Furthermore, we trained a dynamic model of central carbon metabolism and tested the model’s capacity to predict these mutants and perturbation samples as well as identify key controlling factors in central carbon metabolism. Our analysis of metabolite data as well as our model analysis indicate  MPN metabolism is inherently robust against perturbations due to its network structure. Two key control hubs of central carbon metabolism were identified.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/11/2022.08.08.503180.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.08.503180"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR530705"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR530705&type=FILE&fileName=EMS152581-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152581",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "biomodels"
+        ]
+      },
+      "dateOfCreation": "2022-08-12",
+      "firstPublicationDate": "2022-08-11",
+      "firstIndexDate": "2022-08-12",
+      "fullTextReceivedDate": "2022-10-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

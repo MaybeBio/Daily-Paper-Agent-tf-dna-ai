@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40914877",
+  "title": "Multiview Deep Learning Framework for Precise Prediction of Transcription Factor Binding Sites.",
+  "authors": "Lin, Yiben; Luo, Huiliang; Yan, Liang; Wang, Changmiao; Li, Yao; Ge, Ruiquan",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-09-07",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 8,
+  "one_liner_zh": "提出多视图深度学习框架MDNet-TFP，融合DNA序列多表征与多尺度卷积循环注意力网络，精准预测TF结合位点，并利用motif可视化验证模型可解释性，高度契合TF-DNA互作结合位点预测课题。",
+  "abstract": "Transcription factors (TFs) are essential proteins that regulate gene expression by specifically binding to transcription factor binding sites (TFBSs) within DNA sequences. Their ability to precisely control the transcription process is crucial for understanding gene regulatory networks, uncovering disease mechanisms, and designing synthetic biology tools. Accurate TFBS prediction, therefore, holds significant importance in advancing these areas of research. While machine learning methods, particularly deep learning approaches, have achieved notable progress in TFBS prediction in recent years, several challenges persist. These include modeling the intricate structural features of the DNA double helix, capturing long-range dependencies within sequences and integrating diverse biological data sources. To address these issues, we propose an innovative solution known as multiview deep learning for Transcription Factor Binding Prediction (MDNet-TFP), which leverages multiple views of DNA sequences horizontal line including different representational forms and diverse processing strategies horizontal line to enhance prediction capabilities. Specifically, our framework introduces a bidirectional reverse complement module (BiRC-Mamba) that effectively accounts for the bidirectional and reverse complement properties characteristic of DNA sequences. Furthermore, we developed a multiscale convolutional recurrent attention network (MCRAN) that extracts both structural and functional DNA features across multiple dimensions while integrating information from various biological data sets. These advancements allow our model to outperform existing methods across 165 ChIP-seq data sets, achieving an average ACC of 88.13% (+/-0.47), an ROC-AUC of 93.72% (+/-0.15), and a PR-AUC of 93.40% (+/-0.21). The model not only excels with this specific data set but also maintains its high performance across a wider array of 690 ChIP-seq data sets. To further validate the model's effectiveness, we employ motif visualization techniques. This approach reveals that the regions receiving high attention from our model align with known transcription factor binding motifs, offering valuable biological insights. Additionally, this correspondence substantiates the model's ability to generalize and interpret complex genomic data effectively. By addressing critical limitations in the field, MDNet-TFP offers a promising new avenue for advancing research in transcriptional regulation and biomedical applications.",
+  "abstract_zh": "转录因子（TFs）是关键的蛋白质，通过特异性结合DNA序列中的转录因子结合位点（TFBSs）来调控基因表达。它们精确控制转录过程的能力对于理解基因调控网络、揭示疾病机制以及设计合成生物学工具至关重要。因此，准确的TFBS预测在推进这些研究领域中具有重要意义。尽管机器学习方法，尤其是深度学习方法，在近年来的TFBS预测中取得了显著进展，但仍存在若干挑战。这些挑战包括模拟DNA双螺旋的复杂结构特征、捕捉序列内的长程依赖性以及整合多种生物数据源。为解决这些问题，我们提出了一种创新方案，称为多视图深度学习转录因子结合预测（MDNet-TFP），该方案利用DNA序列的多种视图——包括不同的表示形式和多样的处理策略——来增强预测能力。具体而言，我们的框架引入了一个双向反向互补模块（BiRC-Mamba），有效考虑了DNA序列特有的双向性和反向互补特性。此外，我们开发了一个多尺度卷积循环注意力网络（MCRAN），该网络在多个维度上提取DNA的结构和功能特征，同时整合来自各种生物数据集的信息。这些进展使我们的模型在165个ChIP-seq数据集上优于现有方法，平均准确率（ACC）达到88.13%（±0.47），ROC-AUC为93.72%（±0.15），PR-AUC为93.40%（±0.21）。该模型不仅在此特定数据集上表现出色，还在更广泛的690个ChIP-seq数据集中保持了高性能。为进一步验证模型的有效性，我们采用了基序可视化技术。这一方法揭示，模型高度关注的区域与已知的转录因子结合基序一致，从而提供了宝贵的生物学见解。此外，这种对应关系证实了模型有效泛化和解释复杂基因组数据的能力。通过解决该领域的关键局限性，MDNet-TFP为推进转录调控和生物医学应用研究提供了一条有前景的新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40914877/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40914877/",
+  "paper_page_path": "papers/pubmed/40914877/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35311814",
+  "title": "Structure-Based Simulation and Sampling of Transcription Factor Protein Movements along DNA from Atomic-Scale Stepping to Coarse-Grained Diffusion.",
+  "authors": "E, Chao; Dai, Liqiang; Tian, Jiaqi; Da, Lin-Tai; Yu, Jin",
+  "journal": "Journal of visualized experiments : JoVE",
+  "published_date": "2022-03-22",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子MD和粗粒化模拟结合马尔可夫状态模型，系统采样转录因子WRKY沿DNA的1-bp步进与扩散运动，聚焦TF-DNA动态互作机制，方法高度契合本课题。",
+  "abstract": "One-dimensional (1-D) sliding of transcription factor (TF) protein along DNA is essential for facilitated diffusion of the TF to locate target DNA site for genetic regulation. Detecting base-pair (bp) resolution of the TF sliding or stepping on the DNA is still experimentally challenging. We have recently performed all-atom molecular dynamics (MD) simulations capturing spontaneous 1-bp stepping of a small WRKY domain TF protein along DNA. Based on the 10 micros WRKY stepping path obtained from such simulations, the protocol here shows how to conduct more extensive conformational samplings of the TF-DNA systems, by constructing the Markov state model (MSM) for the 1-bp protein stepping, with various numbers of micro- and macro-states tested for the MSM construction. In order to examine processive 1-D diffusional search of the TF protein along DNA with structural basis, the protocol further shows how to conduct coarse-grained (CG) MD simulations to sample long-time scale dynamics of the system. Such CG modeling and simulations are particularly useful to reveal the protein-DNA electrostatic impacts on the processive diffusional motions of the TF protein above tens of microseconds, in comparison with sub-microseconds to microseconds protein stepping motions revealed from the all-atom simulations.",
+  "abstract_zh": "一维（1-D）滑动是转录因子（TF）蛋白沿DNA进行促进扩散以定位靶标DNA位点、实现基因调控的关键过程。检测TF在DNA上滑动或步进的碱基对（bp）分辨率在实验上仍具挑战性。我们近期进行了全原子分子动力学（MD）模拟，捕捉到一个小型WRKY结构域TF蛋白沿DNA的自发1-bp步进行为。基于这些模拟获得的10微秒WRKY步进路径，本方案展示了如何通过构建马尔可夫状态模型（MSM）来对TF-DNA系统进行更广泛的构象采样，针对1-bp蛋白步进过程，测试了不同数量的微态和宏态以构建MSM。为在结构基础上考察TF蛋白沿DNA的持续性一维扩散搜索，本方案进一步展示了如何进行粗粒化（CG）MD模拟，以采样系统的长时间尺度动力学。此类CG建模与模拟特别有助于揭示蛋白-DNA静电相互作用对TF蛋白在数十微秒以上持续性扩散运动的影响，与全原子模拟揭示的亚微秒至微秒级蛋白步进运动形成对比。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35311814/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35311814/",
+  "paper_page_path": "papers/pubmed/35311814/index.html"
+}

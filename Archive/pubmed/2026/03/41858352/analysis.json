@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41858352",
+  "title": "Artificial neural network-based immune biomarker signature predicts pathological complete response to neoadjuvant chemotherapy in HER2-negative breast cancer.",
+  "authors": "Zhang, Yulong; Nong, Shitang; Deng, Suai; Su, Qiyuan; Lu, Jiao; Fang, Dalang; Qin, Shihuan; Ma, Yanfei",
+  "journal": "Frontiers in oncology",
+  "published_date": "2026-03-20",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用ANN预测乳腺癌新辅助化疗反应，属纯临床生物标志物建模，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Neoadjuvant chemotherapy (NAC) is widely used in early-stage and locally advanced HER2-negative breast cancer, yet pathological complete response (pCR) is achieved in only a subset of patients. Reliable pretreatment biomarkers for predicting pCR are lacking, particularly for patients treated with standard anthracycline- and taxane-based regimens. Increasing evidence indicates that chemotherapy efficacy is closely linked to the tumor immune microenvironment, suggesting that immune-related molecular signatures may improve response prediction. METHODS: A total of 2,385 pretreatment HER2-negative breast cancer patients from ten GEO cohorts were included. GSE194040 (n = 743) was used for training, and nine independent cohorts (n = 1,642) were used for external validation. Differential expression analysis was performed separately in hormone receptor positive and negative subgroups, and genes showing concordant regulation between pCR and non-pCR cases were identified. Weighted gene co-expression network analysis (WGCNA) was applied to detect pCR-associated gene modules. Immune-related genes curated from the ImmPort database were intersected with candidate genes, followed by feature selection using least absolute shrinkage and selection operator regression, random forest, and support vector machine recursive feature elimination. An artificial neural network (ANN) model was constructed based on overlapping features and evaluated using receiver operating characteristic analysis. Immune infiltration was estimated by CIBERSORT, and transcription factor, competing endogenous RNA, and drug enrichment analyses were performed. Key genes were further validated by quantitative real-time PCR in pretreatment tumor tissues. RESULTS: Five immune-related genes (CCL2, CXCL10, CXCL13, HLA-E, and IGKV1D-8) were identified as robust predictors of pCR and used to build the ANN model. The model achieved an area under the curve of 0.858(95% CI: 0.829-0.888) in the training cohort and 0.773 (95% CI: 0.735-0.808) in the external validation cohorts, demonstrating s predictive performance across independent datasets. High expression of the five-gene signature was associated with increased infiltration of cytotoxic and antigen-presenting immune cells, consistent with an immune-activated tumor microenvironment, and was confirmed by qRT-PCR analysis. CONCLUSION: This study establishes a rigorously validated ANN-based immune gene signature for predicting response to neoadjuvant chemotherapy in HER2-negative breast cancer, providing a potential tool for pretreatment risk stratifictableation and individualized therapeutic decision-making.",
+  "abstract_zh": "背景：新辅助化疗（NAC）广泛应用于早期和局部晚期HER2阴性乳腺癌，但仅部分患者实现病理完全缓解（pCR）。目前缺乏可靠的预处理生物标志物来预测pCR，尤其是对于接受标准蒽环类和紫杉类方案治疗的患者。越来越多的证据表明，化疗疗效与肿瘤免疫微环境密切相关，提示免疫相关分子特征可能改善疗效预测。方法：共纳入来自十个GEO队列的2,385例预处理HER2阴性乳腺癌患者。GSE194040（n = 743）用于训练，九个独立队列（n = 1,642）用于外部验证。分别在激素受体阳性和阴性亚组中进行差异表达分析，并鉴定在pCR与非pCR病例中表现出一致调控的基因。应用加权基因共表达网络分析（WGCNA）检测pCR相关基因模块。将ImmPort数据库整理的免疫相关基因与候选基因取交集，随后使用最小绝对收缩和选择算子回归、随机森林和支持向量机递归特征消除进行特征选择。基于重叠特征构建人工神经网络（ANN）模型，并使用受试者工作特征分析进行评估。通过CIBERSORT估计免疫浸润，并进行转录因子、竞争性内源RNA和药物富集分析。关键基因在预处理肿瘤组织中通过定量实时PCR进一步验证。结果：五个免疫相关基因（CCL2、CXCL10、CXCL13、HLA-E和IGKV1D-8）被鉴定为pCR的稳健预测因子，并用于构建ANN模型。该模型在训练队列中达到0.858（95% CI：0.829-0.888）的曲线下面积，在外部验证队列中为0.773（95% CI：0.735-0.808），在独立数据集中表现出稳定的预测性能。五基因特征的高表达与细胞毒性及抗原呈递免疫细胞浸润增加相关，与免疫激活的肿瘤微环境一致，并通过qRT-PCR分析得到证实。结论：本研究建立了一个经过严格验证的基于ANN的免疫基因特征，用于预测HER2阴性乳腺癌对新辅助化疗的反应，为预处理风险分层和个体化治疗决策提供了潜在工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41858352/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41858352/",
+  "paper_page_path": "papers/pubmed/41858352/index.html"
+}

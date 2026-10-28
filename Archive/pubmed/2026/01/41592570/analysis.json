@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41592570",
+  "title": "ChromBERT: A foundation model for learning interpretable representations for context-specific transcriptional regulatory networks.",
+  "authors": "Yu, Zhaowei; Yang, Dongxu; Chen, Qianqian; Zhang, Yuxuan; Li, Zhanhao; Wang, Yucheng; Wang, Chenfei; Zhang, Yong",
+  "journal": "Cell genomics",
+  "published_date": "2026-01-28",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 7,
+  "one_liner_zh": "ChromBERT是基于大规模ChIP-seq预训练的基础模型，学习转录调控网络的可解释表示并用于顺反组推断，虽聚焦TF调控网络而非直接TF-DNA三维互作建模，但方法可迁移至TF-DNA结合位点预测与互作研究。",
+  "abstract": "Gene expression is shaped by transcriptional regulatory networks (TRNs), where transcription regulators interact within regulatory elements in a context-specific manner. Deciphering context-specific TRNs has long been constrained by the severe sparsity of cell-type-specific chromatin immunoprecipitation sequencing (ChIP-seq) profiles. Here, we present ChromBERT, a foundation model pre-trained on large-scale human ChIP-seq datasets covering  approximately 1,000 transcription regulators. ChromBERT learns the genome-wide syntax of regulatory cooperation and generates interpretable TRN representations. After prompt-enhanced fine-tuning, it outperforms existing methods for imputing unseen cistromes. Moreover, lightweight fine-tuning on cell-type-specific downstream tasks adapts the TRN representations to capture regulatory effects and dynamics within any given cellular context. The resulting context-specific representations can then be interpreted to infer regulatory roles of transcription regulators underlying these cell-type-specific regulatory outcomes without requiring additional ChIP-seq experiments. By overcoming the limitations of sparse transcription regulator data, ChromBERT significantly enhances our ability to model and interpret transcriptional regulation across a wide range of biological contexts.",
+  "abstract_zh": "基因表达受转录调控网络（transcriptional regulatory networks, TRNs）塑造，其中转录调节因子在调控元件内以上下文特异性方式相互作用。解析上下文特异性TRNs长期以来受到细胞类型特异性染色质免疫沉淀测序（chromatin immunoprecipitation sequencing, ChIP-seq）图谱严重稀疏性的制约。在此，我们提出ChromBERT，这是一个在大规模人类ChIP-seq数据集上预训练的基础模型，涵盖约1,000个转录调节因子。ChromBERT学习调控合作的基因组范围语法，并生成可解释的TRN表征。经过提示增强的微调后，它在填补未见顺反组（cistromes）方面优于现有方法。此外，针对细胞类型特异性下游任务的轻量级微调，使TRN表征能够适应并捕捉任何给定细胞环境中的调控效应和动态变化。由此产生的上下文特异性表征可被解释，以推断这些细胞类型特异性调控结果背后的转录调节因子的调控作用，而无需额外的ChIP-seq实验。通过克服转录调节因子数据稀疏性的限制，ChromBERT显著增强了我们在广泛生物学背景下建模和解释转录调控的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41592570/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41592570/",
+  "paper_page_path": "papers/pubmed/41592570/index.html"
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the first crystal structures of the ACDC domain from two *Plasmodium falciparum* ApiAP2 proteins and one *P. vivax* orthologue, revealing a non-canonical four-helix bundle. They state that despite low sequence conservation, the structures are highly similar and share no resemblance to known protein domains. They further report in silico docking against known antimalarial compounds, identifying a small molecule predicted to bind a conserved pocket across Apicomplexan ACDC domains, and propose that inhibitors based on this compound could disrupt ACDC function and provide a new therapeutic avenue.
+- **Visible evidence base** Abstract text only; no structural coordinates, crystallographic statistics, sequence alignments, docking parameters, or compound identities are provided
+- **Missing materials affecting confidence** Full manuscript, crystallographic data and refinement statistics, structure figures, sequence conservation analysis, docking methodology and scoring details, compound identity and predicted binding mode, any experimental validation of binding or functional disruption
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural study of a previously uncharacterized domain unique to Apicomplexan parasites. The claim of a novel four-helix bundle fold with no known homologues is plausible but cannot be verified from the abstract alone. The docking-based therapeutic proposal is speculative and lacks sufficient methodological detail or experimental support to be evaluated. The work may be of interest to the malaria and apicomplexan biology communities, but the current evidence base is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in *Plasmodium* and related Apicomplexa, structural biologists interested in novel protein folds, and drug discovery groups targeting malaria or other apicomplexan diseases. The structural characterization of a conserved domain unique to this phylum could inform functional studies and potentially guide structure-based drug design.
+- **Major strengths** The study addresses a genuine gap in knowledge, as the ACDC domain is conserved but functionally and structurally uncharacterized. Solving structures from multiple species, including an orthologue, is a reasonable approach to assess conservation. The claim of a novel fold with no human homologues is potentially significant for therapeutic targeting.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim to have solved the crystal structure of the ACDC domain from two *P. falciparum* proteins and one *P. vivax* orthologue, revealing a non-canonical four-helix bundle.  
+  - **Evidence pointer** Abstract only; crystallographic data not provided  
+  - **Concern** The abstract provides no crystallographic statistics, resolution, refinement quality, or validation metrics. Without these, the quality and reliability of the structures cannot be assessed.  
+  - **Why it matters** Structural claims require rigorous validation, especially for a novel fold. Poorly resolved or incorrectly traced structures would undermine the central conclusion.  
+  - **Resolution test** Provide crystallographic data and refinement statistics in the full manuscript, including resolution, R-free, Ramachandran statistics, and electron density quality for key regions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The authors state that the structures are remarkably similar despite little sequence conservation and do not resemble any other known protein domains.  
+  - **Evidence pointer** Abstract only; structural comparison and DALI or similar search results not provided  
+  - **Concern** The claim of structural similarity and absence of homologues requires quantitative comparison data, such as RMSD values and fold-search results. The abstract does not provide any such evidence.  
+  - **Why it matters** The novelty of the fold and the conservation of structure across divergent sequences are central to the paper's significance. Without quantitative support, these claims are unverifiable.  
+  - **Resolution test** Include structural superposition statistics and results from fold-recognition searches against the PDB in the full manuscript.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The authors state that in silico docking identified a small molecule that can potentially bind to any Apicomplexan ACDC domain within a highly conserved pocket.  
+  - **Evidence pointer** Abstract only; docking methodology, compound library, and pocket definition not provided  
+  - **Concern** The docking study is described only in general terms. No information is given on the docking software, scoring function, compound library size, or how the conserved pocket was defined. The claim that the compound binds "any" Apicomplexan ACDC domain is an overgeneralization without experimental or broad computational validation.  
+  - **Why it matters** The therapeutic proposal rests entirely on this docking result. Without methodological detail and validation, the claim is speculative and not actionable.  
+  - **Resolution test** Provide full docking methodology, including software, parameters, and scoring, and ideally experimental binding data or at least multiple independent docking approaches with consistent results.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The authors state that inhibitors based on this compound would disrupt the function of the ACDC domain and thus of the ApiAP2 proteins containing it.  
+  - **Evidence pointer** Abstract only; no functional data provided  
+  - **Concern** No experimental evidence is presented that the ACDC domain has a function that can be disrupted, nor that the identified compound affects parasite viability or protein function. The causal chain from binding to functional disruption to therapeutic effect is entirely unsupported.  
+  - **Why it matters** This is the translational conclusion of the paper. Without functional validation, it remains a hypothesis, not a finding.  
+  - **Resolution test** Provide functional assays demonstrating that ACDC disruption affects ApiAP2 function or parasite growth, and ideally show that the identified compound has activity in such assays.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence on docking  
+  - **Issue** The phrase "can potentially bind to any Apicomplexan ACDC domain" is overly broad and not supported by the described methods.  
+  - **Required correction** Rephrase to indicate binding was predicted for the tested ACDC domains, and note that generalization to all Apicomplexans requires further validation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not state the resolution or quality of the crystal structures, which is standard for structural papers.  
+  - **Required correction** Include key crystallographic statistics, such as resolution range, in the abstract or ensure they are prominently presented in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The functional role of the ACDC domain is not described, making it difficult to assess the significance of the structural findings.  
+  - **Required correction** Briefly state what is known or hypothesized about ACDC function, or explicitly note that its function is unknown.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The structural claims require crystallographic validation, the novelty claim requires quantitative fold-search evidence, and the therapeutic proposal requires methodological detail and functional validation.
+- **Assessment against Nature-style criteria**  
+  - Originality: Potentially high, as the ACDC domain appears to be a novel fold, but this cannot be confirmed without fold-search data.  
+  - Scientific importance: Moderate to high for the apicomplexan biology community, but the broader significance depends on the functional role of ACDC, which is not established.  
+  - Interdisciplinary readership: Limited; primarily structural biologists and malaria researchers. The therapeutic angle could broaden appeal but is currently too speculative.  
+  - Technical soundness: Not assessable from the abstract; no crystallographic or docking details are provided.  
+  - Readability for nonspecialists: The abstract is generally clear, but the significance of the findings is hard to gauge without functional context.
+- **Recommendation posture** Currently not established from the provided evidence. The structural claims are plausible but unverifiable from the abstract, and the therapeutic conclusions are speculative. A full manuscript with crystallographic data, fold-search results, and ideally functional validation would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that the ACDC domain forms a non-canonical four-helix bundle is unsupported without crystallographic statistics and electron density evidence.
+- The claim that the structures are remarkably similar despite low sequence conservation is unsupported without quantitative superposition data.
+- The claim that the fold does not resemble any known protein domain is unsupported without fold-search results.
+- The claim that a specific small molecule can bind to any Apicomplexan ACDC domain is unsupported without docking details and validation.
+- The claim that inhibitors based on this compound would disrupt ACDC function and provide a therapeutic window is unsupported without any functional or in vivo data.

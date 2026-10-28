@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39738353",
+  "title": "Predicting CTCF cell type active binding sites in human genome.",
+  "authors": "Chai, Lu; Gao, Jie; Li, Zihan; Sun, Hao; Liu, Junjie; Wang, Yong; Zhang, Lirong",
+  "journal": "Scientific reports",
+  "published_date": "2025-01-01",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用CNN整合ChIP-seq等多组学数据预测CTCF细胞类型特异性活性结合位点，聚焦TF-DNA结合位点预测，但未涉及三维互作建模或动态机制，方法可迁移至TF-DNA研究。",
+  "abstract": "The CCCTC-binding factor (CTCF) is pivotal in orchestrating diverse biological functions across the human genome, yet the mechanisms driving its cell type-active DNA binding affinity remain underexplored. Here, we collected ChIP-seq data from 67 cell lines in ENCODE, constructed a unique dataset of cell type-active CTCF binding sites (CBS), and trained convolutional neural networks (CNN) to dissect the patterns of CTCF binding activity. Our analysis reveals that transcription factors RAD21/SMC3 and chromatin accessibility are more predictive compared to sequence motifs and histone modifications. Integrating them together achieved AUPRC values consistently above 0.868, highlighting their utility in deciphering CTCF transcription factor binding dynamics. This study provides a deeper understanding of the regulatory functions of CTCF via machine learning framework.",
+  "abstract_zh": "CCCTC结合因子（CTCF）在人类基因组中协调多种生物学功能方面至关重要，然而驱动其细胞类型特异性DNA结合亲和力的机制仍未得到充分探索。在此，我们从ENCODE中收集了67个细胞系的ChIP-seq数据，构建了一个独特的细胞类型活性CTCF结合位点（CBS）数据集，并训练了卷积神经网络（CNN）以解析CTCF结合活性的模式。我们的分析揭示，转录因子RAD21/SMC3和染色质可及性相较于序列基序和组蛋白修饰更具预测性。将它们整合在一起，AUPRC值持续高于0.868，突显了它们在解读CTCF转录因子结合动态中的实用性。本研究通过机器学习框架提供了对CTCF调控功能的更深入理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39738353/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39738353/",
+  "paper_page_path": "papers/pubmed/39738353/index.html"
+}

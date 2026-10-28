@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "42185665",
+    "doi": "10.1007/s00204-026-04447-3",
+    "title": "Structure-based machine learning model for discovering pregnane X receptor (PXR) agonists and biological activity validation."
+  },
+  "content": {
+    "abstract": "Pregnane X receptor (PXR), a nuclear receptor superfamily member, maintains bile acid homeostasis by regulating metabolic enzymes [e.g., cytochrome P450 3A4 (CYP3A4), uridine diphosphate glucuronosyltransferase 1A1 (UGT1A1)] and multidrug resistance protein 1 transporter, and alleviates liver/intestinal inflammation via inhibiting the nuclear factor kappa-B pathway, serving as a critical therapeutic target for cholestatic liver diseases and inflammatory bowel disease. In this study, we established a novel structure-based machine learning strategy to identify PXR agonists from a natural product database. With generated bioactive conformations binding with PXR, we integrated ligand-based and structure-based features to construct a comprehensive machine learning model using light gradient boosting machine. This model illustrated an R(2) of 0.874 for the internal validation set and an R(2) of 0.845 for the external test set, superior to the performance of other machine learning models, e.g. random forest regression, support vector regression, gradient boosting regression, K-nearest neighbors, and extreme gradient boosting. The model was used to predict the PXR agonistic activity of the candidate molecules screened out by the pharmacophore model. Promising candidates were selected out for further assay with HepG2 cell culture combined with a dual-luciferase reporter. Ultimately, natural products like schisantherin A, rhynchophylline, and irigenin were identified as potent PXR agonists, with half-maximal effective concentrations (EC(50)) of 1.58 muM, 2.57 muM, and 20.67 muM, respectively. These PXR agonists act as potential candidates for targeted therapies against PXR-related diseases. We anticipate that this work will provide support for the design and discovery of PXR modulators.",
+    "keywords": [
+      "Agonists",
+      "In vitro assay",
+      "Pregnane X receptor",
+      "Structure-based machine learning"
+    ],
+    "mesh_terms": [
+      "*Pregnane X Receptor/agonists",
+      "Humans",
+      "*Machine Learning",
+      "Hep G2 Cells",
+      "Predictive Learning Models",
+      "Structure-Activity Relationship",
+      "Ligands",
+      "Boosting Machine Learning Algorithms",
+      "*Drug Discovery/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Fang-Fang",
+        "Luo, Ying",
+        "Chen, Hao",
+        "Meng, Yu-Huan",
+        "Li, Wei",
+        "Liang, Hong",
+        "Ai, Chun-Zhi"
+      ],
+      "short_names": [
+        "Huang FF",
+        "Luo Y",
+        "Chen H",
+        "Meng YH",
+        "Li W",
+        "Liang H",
+        "Ai CZ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4194-6690"
+      ],
+      "affiliations": [
+        "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China.",
+        "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China.",
+        "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China.",
+        "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China.",
+        "Translational Medicine Research Institute, College of Medicine, Jiangsu Key Laboratory of Integrated Traditional Chinese and Western Medicine for Prevention and Treatment of Senile Diseases, Yangzhou University, 136 Jiangyangzhong Road, Yangzhou, 225001, People's Republic of China. weili@yzu.edu.cn.",
+        "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China. hliang@gxnu.edu.cn.",
+        "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China. angelina_ai@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Fang-Fang",
+        "short_name": "Huang FF",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ying",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hao",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Meng, Yu-Huan",
+        "short_name": "Meng YH",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Research Institute, College of Medicine, Jiangsu Key Laboratory of Integrated Traditional Chinese and Western Medicine for Prevention and Treatment of Senile Diseases, Yangzhou University, 136 Jiangyangzhong Road, Yangzhou, 225001, People's Republic of China. weili@yzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liang, Hong",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China. hliang@gxnu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ai, Chun-Zhi",
+        "short_name": "Ai CZ",
+        "identifiers": [
+          "0000-0002-4194-6690"
+        ],
+        "affiliations": [
+          "Key Laboratory for Chemistry and Molecular Engineering of Medicinal Resources (Ministry of Education of China), Guangxi Key Laboratory of Chemistry and Molecular Engineering of Medicinal Resources, University Engineering Research Center for Chemistry of Characteristic Medicinal Resources (Guangxi), School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, 15 Yucai Road, Guilin, 541004, People's Republic of China. angelina_ai@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of toxicology"
+    ],
+    "journal_abbrev": [
+      "Arch Toxicol"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/26 00:29",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41362738",
+      "40726484",
+      "40378938",
+      "39809031",
+      "38170002",
+      "38137450",
+      "37059719",
+      "36797057",
+      "36469580",
+      "36309199",
+      "36307649",
+      "35074252",
+      "34931017",
+      "32160459",
+      "31713023",
+      "30077610",
+      "28364626",
+      "25920087",
+      "25217484",
+      "25200104",
+      "24089669",
+      "23579614",
+      "22627063",
+      "22609277",
+      "22322985",
+      "21948594",
+      "21145880",
+      "20558333",
+      "20011107",
+      "18784074",
+      "17124629",
+      "15027865",
+      "11408620",
+      "11248085"
+    ],
+    "similar": [
+      "42185665",
+      "33812052",
+      "23928187",
+      "37059719",
+      "38599054",
+      "26408814",
+      "35455933",
+      "42732916",
+      "37836625",
+      "24828006",
+      "33497575",
+      "22363234",
+      "33333074",
+      "42526206",
+      "22560839",
+      "31336134",
+      "33483427",
+      "31101589",
+      "34931017",
+      "33002526",
+      "11744617",
+      "41368631",
+      "29945292",
+      "32018210",
+      "23707768",
+      "20011107",
+      "30653754",
+      "21524698",
+      "18332086",
+      "26855179",
+      "30414935",
+      "41822751",
+      "40634953",
+      "27197997",
+      "42564102",
+      "31856726",
+      "38166548",
+      "18547065",
+      "42693970",
+      "37593784",
+      "32505840",
+      "22453080",
+      "20735727",
+      "29157826",
+      "17484516",
+      "26238175",
+      "41545932",
+      "33515843",
+      "32160459",
+      "23688499",
+      "30077610",
+      "22829544",
+      "21145880",
+      "42320028",
+      "40418571",
+      "29430850",
+      "32282466",
+      "20558333",
+      "30360705",
+      "23007437",
+      "25181459",
+      "41362731",
+      "42475469",
+      "40986161",
+      "41656804",
+      "41512534",
+      "41912406",
+      "39508053",
+      "31614203",
+      "29440179",
+      "41687013",
+      "27937122",
+      "20553580",
+      "40479899",
+      "11706036",
+      "24819614",
+      "18799805",
+      "27871908",
+      "42050947",
+      "40446607",
+      "41670376",
+      "41826951",
+      "23845848",
+      "28289823",
+      "34147617",
+      "32232515",
+      "33813039",
+      "36017831",
+      "31739702",
+      "41640874",
+      "32561593",
+      "17576789",
+      "16455805",
+      "30594244",
+      "15557560",
+      "28942083",
+      "41617215",
+      "40806757",
+      "29933105",
+      "33397228"
+    ],
+    "review": [
+      "42185665",
+      "41368631",
+      "37593784"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s00204-026-04447-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.27.534188",
+  "title": "Massively Parallel Profiling of RNA-targeting CRISPR-Cas13d",
+  "authors": "Kuo H; Prupes J; Chou C; Finkelstein IJ",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-28",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用大规模平行平台测量Cas13d与RNA靶标的结合亲和力并构建生物物理模型，对象为蛋白-RNA互作而非蛋白-DNA互作，且方法为实验与生物物理建模，无AI或MD模拟，与本课题TF-DNA互作建模关联甚微。",
+  "abstract": "<h4>ABSTRACT</h4> Type VI CRISPR enzymes cleave target RNAs and are widely used for gene regulation, RNA tracking, and diagnostics. However, a systematic understanding of their RNA binding specificity and cleavage activation is lacking. Here, we describe RNA c hip- h ybridized a ssociation- m apping p latform (RNA-CHAMP), a massively parallel platform that repurposes next-generation DNA sequencing chips to measure the binding affinity for over 10,000 RNA targets containing structural perturbations, mismatches, insertions, and deletions relative to the CRISPR RNA (crRNA). Deep profiling of Cas13d, a compact and widely used RNA nuclease, reveals that it does not require a protospacer flanking sequence (PFS) but is exquisitely sensitive to secondary structure within the target RNA. Cas13d binding is strongly penalized by mismatches, insertions, and deletions in the distal crRNA-target RNA regions, while alterations in the proximal region inhibit nuclease activity without affecting binding. A biophysical model built from these data reveals that target recognition begins at the distal end of unstructured target RNAs and proceeds to the proximal end. Using this model, we designed a series of partially mismatched guide RNAs that modulate nuclease activity to detect single nucleotide polymorphisms (SNPs) in circulating SARS-CoV-2 variants. This work describes the key determinants of RNA targeting by a type VI CRISPR enzyme to improve CRISPR diagnostics and in vivo RNA editing. More broadly, RNA-CHAMP provides a quantitative platform for systematically measuring protein-RNA interactions.",
+  "abstract_zh": "<h4>摘要</h4> VI型CRISPR酶可切割靶标RNA，并广泛用于基因调控、RNA追踪和诊断。然而，对其RNA结合特异性和切割激活的系统性理解仍缺乏。在此，我们描述了RNA芯片-杂交关联-映射平台（RNA-CHAMP），这是一种大规模并行平台，重新利用下一代DNA测序芯片来测量超过10,000个RNA靶标的结合亲和力，这些靶标包含相对于CRISPR RNA（crRNA）的结构扰动、错配、插入和缺失。对Cas13d（一种紧凑且广泛使用的RNA核酸酶）的深度分析揭示，它不需要前间隔序列侧翼序列（PFS），但对靶标RNA内的二级结构极为敏感。Cas13d结合受到远端crRNA-靶标RNA区域中错配、插入和缺失的强烈惩罚，而近端区域的改变则抑制核酸酶活性而不影响结合。基于这些数据构建的生物物理模型揭示，靶标识别始于非结构化靶标RNA的远端，并延伸至近端。利用该模型，我们设计了一系列部分错配的引导RNA，以调节核酸酶活性，从而检测循环SARS-CoV-2变异体中的单核苷酸多态性（SNPs）。这项工作描述了VI型CRISPR酶RNA靶向的关键决定因素，以改进CRISPR诊断和体内RNA编辑。更广泛地，RNA-CHAMP为系统性测量蛋白质-RNA相互作用提供了一个定量平台。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.27.534188",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.27.534188",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.27.534188/index.html"
+}

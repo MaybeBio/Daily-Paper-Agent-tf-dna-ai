@@ -1,0 +1,191 @@
+# MEF2A-mediated inhibition of ischemic stroke injury via the PI3K/AKT pathway: a comprehensive bioinformatics and in vitro study
+
+
+## Background
+  Thrombosis or embolism causes blood flow stoppage, resulting in ischemic stroke (IS), the most frequent clinical cerebrovascular disorder. It accounts for more than 80% of all strokes and has a significant disability and mortality rate. Regulating critical targets to stop the ischemia pathophysiological cascade and preserve brain cells is essential for treating IS.
+
+
+## Methods
+  We included a deCODE analysis encompassing data on cis-acting variations for 4719 blood proteins. The IS summary statistics consist of 11,929 cases and 472,192 controls. We identified blood proteins associated with IS susceptibility using the Mendelian randomization (MR) method. We comprehensively analyzed the GSE58294 dataset, including differential expression gene identification, functional enrichment analysis, weighted gene co-expression network analysis, least absolute shrinkage and selection operator analysis, and transcription factor identification. The expression patterns of key genes were identified using single-cell sequencing data. The oxygen-glucose deprivation/reperfusion (OGD/R) model was established, and myocyte enhancer factor 2 A (MEF2A) was overexpressed in Neuro-2a/PC12 cells using an overexpression vector. We used CCK-8 and western blotting to observe the cell viability, oxidative stress level, and p-PI3K and p-Akt protein expression.
+
+
+## Results
+  We discovered 73 blood proteins related to IS, and the sensitivity analysis findings supported the causal associations. The MR results and bioinformatics underwent a thorough examination, revealing MEF2A as a transcription factor involved in the development of IS. Single-cell sequencing results revealed that MEF2A was mostly expressed in microglia and endothelial cells. Additional in vitro experiments showed that overexpression of MEF2A could significantly mitigate OGD/R-induced Neuro-2a/PC12 cell injury and oxidative stress, potentially associated with increased PI3K/Akt protein production.
+
+
+## Conclusion
+  This study, using MR analysis, transcriptomics, and in vitro experiments, identified the transcription factor MEF2A as a potential target for treatment. This gives preclinical evidence for drug development.
+
+
+## Clinical trial number
+  Not applicable.
+
+
+## Supplementary Information
+  The online version contains supplementary material available at 10.1186/s12868-026-00997-5.
+
+
+## Introduction
+  Ischemic stroke (IS) is the predominant cerebrovascular disorder characterized by the obstruction of blood flow resulting from thrombosis or embolism. It constitutes about 80% of all strokes and is associated with a significant disability and death rate [1]. Of all the subtypes, large-artery atherosclerosis IS is most often seen clinically. An atherosclerotic IS usually occurs due to the development of atherosclerotic plaque on the arterial wall, resulting in the narrowing or blockage of the blood vessel lumen [2]. Reestablishing blood flow to the brain is a crucial method for protecting IS patients’ lives. Although intravenous thrombolysis and mechanical thrombolysis can enhance the prognosis of stroke patients, these treatment methods are limited by a short time frame for thrombolysis and rebleeding complications. Furthermore, patients still face a significant risk of secondary brain injury. Thus, an additional approach to therapeutic therapy of IS involves modulating the key target to hinder the ischemia pathophysiological cascade and protect brain cells [3].
+
+  Brain cells release significant damage-associated molecular patterns, inflammatory factors, and chemokines due to brain tissue ischemia caused by reduced or interrupted blood supply, brain tissue hypoxia, energy metabolism disorder, and oxidative stress [4]. This process stimulates intracranial inflammation and immune response. Furthermore, the inflammatory response induced by IS can be further regulated by the release of neurotransmitters, cytokines, and exosomes, which are released after the pattern recognition receptors on the surface of innate immune cells in the brain are activated by inflammatory mediators. This process promotes neuronal regeneration, reduces apoptosis, and accelerates brain tissue repair [5]. Consequently, it is imperative to identify the primary mediators linked to the progression and repair of IS to safeguard nerve cells from ischemic brain injury. Proteomics is a field that investigates the composition and change law of proteins in cells, tissues, and organisms. It offers a dependable research method for identifying, verifying, and applying disease biomarkers. The expression of a significant number of proteins is considerably impacted during the IS pathological process, which results in cell injury and an inflammatory response [6]. The discovery of protein markers associated with the occurrence and progression of IS through proteomics enhances our comprehension of its pathophysiological process and pathogenesis and offers prospective candidate biomarkers for its early diagnosis [7]. Nevertheless, conventional IS proteomic studies are primarily observational and cannot eliminate the impact of confounding factors on causal estimation. Consequently, the causal relationship that has been established has consistently been contested, even though a substantial correlation was discovered between IS and proteins.
+
+  MR is a method that is not influenced by acquired confounding factors and utilizes genetic variation as an instrumental variable (IV) to assess the impact of exposure factors on disease susceptibility [8, 9]. This effectively prevents the interference of reverse causality and confounding factors, allowing for a more precise determination of the causal relationship between exposure and outcome compared to traditional observational studies [10]. The MR method is extensively employed in IS-related research, and MR analysis offers dependable causal conclusions regarding the relationship between IS and intestinal microbiota, immune cells, metabolites, and other factors [11, 12]. In this investigation, blood proteins associated with IS susceptibility were initially identified using the MR method. Subsequently, transcription factors closely related to the occurrence and progression of IS were identified through a joint analysis of the GEO data set and MR results. The biological functions of MEF2A in IS were authenticated through in vitro experiments.
+
+
+## Methods
+
+### MR
+  Our MR analysis was carried out in strict accordance with STROBE-MR guidelines, and specific information is referred to Supplementary Table S1. MR analyses often use single nucleotide polymorphism (SNP) as an instrumental variable (IV) to investigate the causal connection between exposure and outcome. We included a deCODE analysis encompassing data on cis-acting variations for 4719 blood proteins [13]. The GWAS dataset for IS was obtained from Sakaue S et al., consisting of 11,929 cases and 472,192 controls [14]. Subsequently, SNPs utilized for MR analysis must satisfy three specific assumptions. More precisely, we established the P-value threshold at 5E-08, the criterion for Linkage disequilibrium as R2 being less than 0.001, and the kb as 1000.
+
+  Furthermore, the F-value is computed to eliminate any bias caused by a weak IV. In addition, we acquired the SNPs linked to IS and its confounding factors and removed any duplicate values among the identified SNPs [15]. After harmonizing the SNPs of exposure and outcome, we evaluated the causal connection between circulating protein and IS using inverse variance weighted (IVW), MR-Egger, weighted median, simple model, and weighted model approaches [16, 17].
+
+  Furthermore, the study used Egger regression analysis and MR Pleiotropy Residual Sum and Outlier (MR-PRESSO) approach to assess the presence of pleiotropy and outliers in SNPs. Cochran’s Q test was used to determine the presence of heterogeneity among SNPs. The statistical analysis in this part used the R (version 4.0.2) program and utilized the “TwoSampleMR” and “MR-presso” packages. The effect magnitude is quantified using the odds ratio (OR) and a 95% confidence interval (CI). A P-value below 0.05 was deemed to be statistically significant.
+
+
+### Comprehensive analysis of the GSE58294 data set
+  Retrieve IS-related sequencing datasets from the GEO database. The differential expression study used the GSE58294 dataset from the GPL570 platform, consisting of 23 control and 63 case samples [18]. Principal component analysis (PCA) was used to analyze the RNA expression patterns in both sample groups. The “limma” package was used to detect the differentially expressed genes (DEGs) across the two sets of samples. The screening criteria consisted of an absolute value of the Log2 fold change of more than 0.58 and a P-value of less than 0.05. The “ggplot2” package was used to create a volcano plot for visualizing DEGs, while heat maps were employed to visualize the top 50 up-regulated and top 50 down-regulated DEGs after scaling. Furthermore, the single-sample gene set enrichment analysis (ssGSEA) program was used to compute the prevalence of immune cells in IS samples. Subsequently, a proportionate abundance map and box plot illustrating the infiltration of immune cells were generated.
+
+
+### Functional enrichment analysis
+  The “clusterProfiler” package was used to conduct Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis, and Gene Set enrichment analysis (GSEA) for the crossover genes. GSEA clarifies the biological importance of distinctive genes. To get a consistent enrichment score for each study, 1000 permutations of the gene set were conducted. A false discovery rate (FDR) below 0.25 indicates substantial enrichment.
+
+
+### Weighted gene co-expression network analysis (WGCNA)
+  WGCNA is a modular analytic technique often used to detect and evaluate complicated disease biomarkers. It offers a novel approach to uncovering gene expression matrices that exhibit strong covariance. We constructed a collaborative presentation network using the “WGCNA” package. The co-expression network was built using the top 5,000 genes with the highest variance in the combined data set. The minimum number of genes in each module was set at 20. Next, the adjacency matrix is converted into a topological overlapping matrix, and gene modules and a hierarchical clustering tree are created. The “PickSoftThreshold” function was used to compute the most suitable soft threshold (β). Once the gene module is identified based on the similarity expressed in the sample, the matching function establishes a correlation between the gene module and clinical information. Subsequently, the gene module with clinical importance is defined. Ultimately, the association between each module and clinical traits was assessed, and gene significance (GS) and module membership (MM) were computed to quantify the connection and importance of genes with biological modules and clinical information. The module genes were evaluated based on a minimum MM value of 0.8 and a minimum GS value of 0.45. Significant modules and genes were isolated for further study (including computation of intersections and Venn diagram).
+
+
+### LASSO analysis and characteristic gene diagnostic performance evaluation
+  The LASSO technique is used to predict features in gene selection and may augment the regularization of regression analysis methods to boost the accuracy of predictions. The “glmnet” package of R4.2.0 software was used for LASSO regression analysis. In addition, we generated a receiver operating characteristic curve (ROC). We computed the area under the curve (AUC) to assess the predictive ability of the distinctive gene in identifying IS patients.
+
+
+### Prediction of transcription factors (TFs) and development of networks
+  The NetworkAnalyst tool used four approaches, namely TRRUST, ENCODE, JASPAR, and ChEA, to forecast transcription factors responsible for regulating crucial genes. The network of interactions between critical genes and transcription factors was visualized using Cytoscape 3.8.2 software.
+
+
+### Single-cell sequencing data analysis
+  We acquired two samples of middle cerebral artery blockage and two samples of sham surgery from the GSE174574 dataset and used the Seurat package for fundamental data processing. In accordance with previous research procedures [19], the sequencing data underwent quality control, normalization, dimensionality reduction, and batch correction. Subsequent to the classification of cell subpopulations, the marker gene was identified using the FindAllMarkers program. Utilize the SingleR package to ascertain cell types, calculate the proportion of unique sample cell subtypes, and examine the expression of key genes across various cell types.
+
+
+### Cell culture and treatment
+  Neuro-2a cells were acquired from Pricella (Wuhan, China) and maintained in an incubator at 37 ℃, 5% CO2, and saturated humidity. The cells were cultivated in DMEM high-glucose medium (Gibco, USA), which contained 10% fetal bovine serum (Gibco, USA), 1.0 × 105 U/L penicillin, and 100 mg/L streptomycin. Rat nerve cells PC-12 were purchased from Shanghai yiyan bio-technology Co. Ltd and cultured in DMEM medium containing 10% fetal bovine serum and 1% penicillin/streptomycin (37 ℃, 5% CO2). The third-generation cells in the logarithmic growth phase were all utilized in the experiment. The oxygen-glucose deprivation/reperfusion (OGD/R) model was developed. The Neuro-2a/PC12 cells were trypsinized and adjusted to 4 × 105 cells/mL for seeding into 96-well plates. Neuro-2a/PC12 cells were subjected to the experiment when fused at 80% to 90% of their proliferation. The medium was discarded, and the cells were rinsed with D-Hank’s solution three times. The cells were then replaced with D-Hank’s balanced salt solution and deposited in a three-gas incubator (94%N2, 5%CO2, and 1%O2) for a hypoxic culture to last 8/6 h. The OGD/R model was established by replacing the complete medium and cultivated in a 5% CO2 incubator at 37 ℃ for 24 h after hypoxia was completed. The MEF2A overexpression vector p-MEF2A and matching negative control vector p-NC were constructed by YouBio (Hunan, China) and Genepharma (Shanghai, China), and the reference sequence used can be found in Supplementary Table SX. The investigation was divided into four groups: the CON group, OGD/R group, p_NC group, and p_MEF2A group. The final transfection concentration of the p_NC and p_MEF2A groups was 20 nmol/L, and the transfection procedure was conducted per the Lipofectamine 2000 instructions. 72 h after transfection, the transfection effect was detected by qRT-PCR.
+
+
+### CCK-8 assay
+  The cell suspension was introduced into 96-well plates at a concentration of 1 × 106/mL and incubated until the cells adhered evenly to the surface, making them suitable for use in the experiment. Cell viability was assessed by CCK-8 assay at 24 h after the completion of OGD/R treatment. Following the intervention, the supernatant was removed, and 100 µL of MEM medium containing 10% CCK-8 (Beyotime, China) was introduced into each well. The sample was placed in an incubator at 37℃ for 30 min. Following the incubation period, a multifunctional enzyme labeler determined the absorbance at a wavelength of 450 nm.
+
+
+### Measurement of GSH, MDA, ROS, and LDH levels
+  The supernatant was removed after centrifugation from the treated cell samples of each group, and the levels of GSH, MDA, and ROS (Elabscience, China) were determined by the kit’s instructions.
+
+
+### qRT-PCR
+  According to different groups, corresponding reagents were added and treated for 24 h. Total RNA was extracted using Trizol reagent (Invitrogen, USA). The quality and concentration of the extracted RNA were assessed using the NanoDrop instrument, and the mRNA was reverse-transcribed into cDNA using a reverse transcription reagent (Accurate Biology, China). The primer sequence was displayed in Supplementary Table S2, and the qRT-PCR system was employed for detection by the instructions. The relative gene expression was calculated using 2−ΔΔct with GAPDH as the internal reference. Three repetitions of each experiment were implemented.
+
+
+### Western blot
+  A suspension of Neuro-2a cells was introduced onto 6-well plates at a concentration of 1 × 106/mL and incubated until the cells adhered to the surface and exhibited uniform growth. After 24 h treatment, each batch of cells was treated with medium disposal and cleansed with cold D-Hank’s balanced buffer salt solution three times. Each well was supplemented with 100 µL of cell lysate with 1% protease inhibitor PMSF and then incubated on ice for 10 min. The lysate was obtained and centrifuged at 4℃, 12,000 r/min for 10 min. The resulting supernatant was collected, and the protein content was measured using the BCA technique. Finally, equal amounts of total protein (30 µg per lane) were loaded. was loaded. A buffer was added to induce denaturation by boiling. The protein samples underwent 10% sodium dodecyl sulfate-polyacrylamide gel electrophoresis. They were then transferred to a PVDF membrane and supplemented with 4% skim milk. The mixture was kept at room temperature for 1.5 h. Next, PI3K (1:1000), p-PI3K (1:1000), p-Akt (1:2000), Akt (1:1000), and β-actin (1:1000) antibodies (Abclonal, China) were added and incubated overnight at 4℃. The membrane was subsequently washed 4 times with TBST buffer for 5 min each time. A goat anti-mouse antibody (Abclonal, China) labeled with HRP, devoid of immunoglobulin G, was added. The mixture was then incubated at room temperature for 1 h and washed with TBST buffer. The washing process included 4 cycles, with each cycle lasting 5 min. Ultimately, the picture was processed using a chemiluminescence imaging device. The grey value of each target protein was analyzed using Image J software (version 1.53t) to compute the expression of each target protein.
+
+
+### Statistical analysis
+  The experimental results were examined and shown using SPSS 23.0 and Graph Pad Prism 9.0 software. The data were presented as the mean value plus or minus the standard deviation. Inter-group comparisons were conducted using the Tukey test in the One-way analysis of variance. A P-value below 0.05 was deemed to be statistically significant.
+
+
+## Results
+
+### Identification of blood proteins linked to the risk of IS
+  The MR analysis contained 10,930 SNPs, all of which had F-values larger than 10. This indicates that weak IVs induced no bias. Refer to Supplementary Table S3 for specific information. Using the IVW technique, 73 blood proteins were shown to have a direct causal relationship with the risk of IS. Thirty-seven proteins that showed a negative correlation were found, as shown in Fig. 1A.
+
+  Fig. 1Inverse variance weighted (IVW) method detection of blood proteins causally linked to ischemic stroke (IS) risk. A: Proteins that reduce the risk of IS.The forest plot shows 37 blood proteins whose increased levels are causally associated with a decreased risk of IS (OR < 1). Each point represents the Odds Ratio (OR) for one protein, with horizontal lines indicating the 95% Confidence Interval; B: Proteins that increase the risk of IS. The forest plot shows 36 blood proteins whose increased levels are causally associated with an increased risk of IS (OR > 1). The vertical dashed line in both plots represents the null value (OR = 1). Results were generated using the Inverse Variance Weighted (IVW) method
+
+  Furthermore, 36 proteins exhibited a positive correlation with the incidence of IS, as seen in Fig. 1B. The four additional methodologies also corroborated the findings acquired by IVW analysis. Figure 2 displays the scatter plot of MR analysis for several proteins and IS. The funnel plots indicated that there was no statistical heterogeneity in the SNPs (Fig. 3). The Cochran’s Q test showed no heterogeneity in the relationship between the 73 blood proteins and IS. The MR-Egger intercept test did not detect any pleiotropy, and the MR-PRESSO test did not identify any significant outliers. For further information, please refer to Supplementary Table S4.
+
+  Fig. 2Scatter plot from MR analysis of select positive proteins. A: Alpha-2-Macroglobulin (A2M); B: Angiotensinogen (AGT); C: Aldehyde Dehydrogenase 2 (ALDH2); D: Inhibitor of Growth Family Member 4 (ING4); E: Protease Serine 2 (PRSS2); F: Quinoid Dihydropteridine Reductase (QDPR). Each point represents a single nucleotide polymorphism (SNP). The slopes of the lines indicate the causal effect size estimated by different MR methods
+
+  Fig. 3Funnel plot from MR analysis of select positive proteins. A: Vascular Endothelial Growth Factor A (VEGFA); B: Signal Regulatory Protein Alpha (SIRPA); C: Plasminogen Activator, Urokinase (PLAU); D: Phosphoglycerate Dehydrogenase (PHGDH); E: Platelet Derived Growth Factor Receptor Like (PDGFRL); F: Kininogen 18 (KNG18). Each point represents a single SNP. The symmetric distribution of SNPs around the IVW estimate (central vertical line) in each plot indicates a lack of directional pleiotropy and supports the robustness of the causal inference
+
+
+### Comprehensive analysis of the GSE58294 dataset
+  The PCA findings are shown in Fig. 4A, indicating distinct variations in RNA expression patterns between IS samples and CON samples in the GSE58294 dataset. The GSEA findings suggest a strong association between the emergence and progression of IS and the following biological processes: oxidative phosphorylation, Toll-like receptor signaling pathway, complement and coagulation cascades, Alzheimer’s disease, and lysosome (Fig. 4B). The immune infiltration analysis findings are shown in Fig. 4C and D.
+
+  Fig. 4Comprehensive analysis of the GSE58294 dataset. A: Principal Component Analysis (PCA) plot showing distinct RNA expression profiles between IS (red) and control (blue) samples; B: Gene Set Enrichment Analysis (GSEA) highlighting significantly enriched biological pathways in IS; C: Immunoinfiltration stacked bar plot displaying the relative proportions of various immune cell types in the samples; D: Immunoinfiltration bar plot comparing the infiltration levels of different immune cells between IS and control groups. *** denote a P-value of less than 0.001
+
+  Using the screening procedures mentioned above, a total of 1415 DEGs were discovered from the GSE58294 dataset (Fig. 5A). Figure 5B displays a heat map that illustrates the 50 most up-regulated and 50 most down-regulated DEGs.
+
+  Fig. 5Differential expression analysis of the GSE58294 dataset comparing ischemic stroke patients and healthy individuals. A: Volcano plots of differentially expressed genes (DEGs) between IS and control samples. Red points represent significantly up-regulated genes, blue points represent significantly down-regulated genes, and gray points represent non-significant genes; B: Heatmap displaying the expression patterns of the top 50 up-regulated and top 50 down-regulated DEGs across all samples. The color gradient from blue to red indicates low to high expression levels
+
+
+### WGCNA
+  The “WGCNA” package was used to construct a gene co-expression network analysis. Initially, the samples were grouped in clusters to guarantee the precision of later analysis (Fig. 6A). The soft threshold value was determined to ensure that gene interactions closely followed the scale-free distribution, as shown in Fig. 6B. The hybrid dynamic shear tree approach (Fig. 6C) was used to identify distinct IS gene modules based on the appropriate soft threshold. The study used Pearson correlation analysis to investigate the relationship between module-characteristic genes and clinical characteristics. According to the data, Fig. 6D demonstrated a significant association between the blue module and clinical aspects. The examination of the blue module’s gene importance and module membership revealed a strong correlation between the two. Consequently, this module was identified as significant, including a total of 214 genes. After merging with DEGs, 1510 genes were identified for further study.
+
+  Fig. 6Weighted gene coexpression network analysis (WGCNA) of the GSE58294 dataset. A: Sample-level dendrogram and trait heatmap showing no outlier samples; B: Analysis of scale-free fit index and mean connectivity for selecting the soft-thresholding power (β); C: Hierarchical clustering of gene coexpression matrix; D: Correlation between module eigengenes and sample traits
+
+
+### LASSO regression analysis
+  Following the identification of the positive protein by MR analysis, we conducted an intersection calculation with 1510 genes and retrieved 10 genes (Fig. 7A). The LASSO regression approach was used to investigate possible markers of IS further. As a result, 8 IS characteristic genes were identified (Fig. 7B and C). The heat map demonstrated that the expression patterns of 8 distinct genes in the samples of IS patients were markedly different from those of the CON group (Fig. 7D). The ROC curve analysis provided further evidence of the dependable diagnostic performance of 8 specific genes, which have the potential to serve as markers for IS (Fig. 7E-L). We performed functional enrichment analysis on 8 distinct genes, considering their fold change. The results are shown in Fig. 8. Prediction of transcription factors and creation of networks.
+
+  Fig. 7Integrated analysis of the GSE58294 dataset and MR data. A: Venn diagram showing the intersection of genes from MR (positive proteins), WGCNA (blue module), and DEGs, resulting in 10 candidate genes; B: LASSO regression validation curve; C: LASSO coefficient trajectory; D: Heat map of key DEGs; ROC curve analysis of identified proteins including HP, CD200, HPSE, TLR1, SAR1A, MMP9, TMEM132C, and GRB10 (E-L)
+
+  Fig. 8Enrichment analysis of key DEGs. A: Biological processes; B: Molecular functions; C: Cellular components. The y-axis represents the enrichment terms, and the x-axis represents the number of genes
+
+
+### Prediction of transcription factors and creation of networks
+  In the NetworkAnalyst tool, we used the TRRUST, ENCODE, JASPAR, and ChEA methodologies to forecast the possible transcription factors responsible for regulating the expression of 8 specific genes, as seen in Fig. 9A-D. In addition, we identified differentially expressed transcription factors (TFs) from the GSE58294 dataset and created gene networks indicative of TFs, as seen in Fig. 9E-G.
+
+  Fig. 9Transcriptional regulation analysis of key DEGs. TRRUST (A), ENCODE (B), JASPAR (C), and ChEA (D) algorithms identified transcription factors that regulated key DGEs; E: Heat map of transcription factors in the GSE58294 dataset; F: Differential expression analysis of transcription factors; G: Protein-protein interaction (PPI) analysis of transcription factors
+
+
+### Effects of up-regulated MEF2A expression on OGD/R-induced Neuro-2a/PC12 cell injury and oxidative stress
+  Following data preprocessing, 13 clusters were categorized into 12 cell subtypes (Fig. 10A-C). The quantity of endothelial cells, microglia, macrophages, and neurons undergoes considerable alterations during MCAO (Fig. 10D). MEF2A is mostly expressed in microglia and endothelial cells (Fig. 10E). Consequently, we assessed the regulatory function of MEF2A in the impairment of Neuro-2a cells.
+
+  Fig. 10Single cell sequencing data analysis. A. UMAP plot of MCAO and sham samples. B. UMAP plot of 13 cell clusters. C. UMAP plot of 12 cell types. D. Distribution of cellular type. E. Violin plot showing MEF2A expression across the 12 cell types, with highest expression observed in microglia and endothelial cells
+
+  The mRNA expression level of MEF2A in each group was determined using qRT-PCR to validate the transfection efficiency. In the p-MEF2A group, MEF2A mRNA expression levels were significantly higher than those in the p-NC group, as illustrated in Fig. 11A. The relative mRNA expression levels are presented as mean ± SD from three independent experiments. In addition, the activity of Neuro-2a cells in each group was assessed using CCK-8, and the preliminary protective effect of MEF2A overexpression on the OGD/R-induced Neuro-2a cells was determined (Fig. 11B). Cell viability data obtained from the CCK-8 assay are presented as mean ± SD from three independent experiments. The protective effect of overexpression of MEF2A on OGD/R-induced injury was determined by measuring the levels of GSH, MDA, ROS, and LDH in the supernatant of Neuro-2a cells in each group. ROS, MDA, and LDH levels were substantially up-regulated, and the levels of GSH were down-regulated after OGD/R treatment, compared to CON. Nevertheless, the expression levels of the factors above experienced a substantial decline following the overexpression of MEF2A (Fig. 11C-F). Furthermore, we evaluated the effect of MEF2A on PC12 cell injury induced by OGD/ R. The results were similar to those of Neuro-2a. Overexpression of MEF2A could significantly inhibit the upregulation of ROS, MDA, and LDH and the downregulation of GSH induced by OGD/R. See Supplementary Fig. 1.
+
+  Fig. 11Effects of up-regulated MEF2A expression on OGD/R-induced Neuro-2a cells. A. RT-qPCR shows MEF2A mRNA was upregulated in p_MEF2A vs. p_NC (P < 0.01). B. CCK-8 assay shows OGD/R reduced cell viability vs. CON (P < 0.01), with p_MEF2A overexpression restoring it vs. p_NC (P < 0.01). C. LDH assay shows OGD/R elevated LDH vs. CON (P < 0.01), with p_MEF2A overexpression reducing LDH vs. p_NC (P < 0.01). D. MDA level increased in OGD/R vs. CON (P < 0.01), attenuated by p_MEF2A overexpression (P < 0.01). E. GSH level decreased in OGD/R vs. CON (P < 0.001), restored by p_MEF2A overexpression vs. p_NC (P < 0.01). F. ROS level increased in OGD/R vs. CON (P < 0.01), reduced by p_MEF2A overexpression vs. p_NC (P < 0.01). G. Western blotting shows OGD/R suppressed PI3K/AKT activation (p-PI3K/PI3K: P < 0.001; p-Akt/Akt: P < 0.001). MEF2A overexpression rescued pathway activity vs. p_NC (p-PI3K/PI3K: P < 0.001; p-Akt/Akt: P < 0.001). * indicates comparison vs. CON group, and # indicates comparison vs. OGD/R group
+
+
+### Effect of up-regulated MEF2A expression on the PI3K/Akt signaling pathway
+  Western blot was employed to detect PI3K, p-PI3K, Akt, and p-Akt expression levels. The expression levels of p-PI3K and p-Akt were significantly reduced in the OGD/R group, while they were substantially increased after MEF2A overexpression (Fig. 11G).
+
+
+## Discussion
+  This is the first study to date to integrate MR analysis, transcriptomics, machine learning algorithms, and in vitro experiments to uncover new therapeutic targets for IS, thereby establishing a theoretical foundation for drug development for IS. We initially identified 73 blood proteins that are linked to susceptibility to IS. These proteins include 37 proteins that are negatively associated and 36 proteins that are positively associated. After integrating with 214 substantially associated module genes obtained from WGCNA, 1415 DEGs were identified in a subsequent comprehensive analysis of the GSE58294 dataset, and 1510 IS-related genes were obtained. Ten shared genes were identified following the intersection of IS-related genes through MR analysis. Subsequently, we implemented LASSO regression to eliminate two genes. Additionally, we predicted the differential expression of transcription factors that regulate the expression of eight characteristic genes (TLR1, MMP9, SAR1A, HP, HPSE, GRB10, CD200, and TMEM132C) using the TRRUST, ENCODE, JASPAR, and ChEA algorithms. Among the 15 transcription factors, the expression of MEF2A was downregulated. The prediction results of the database suggested that MEF2A might be involved in regulating the transcription of proteins TLR1, HP and CD200, which are negatively correlated with the risk of IS. In addition, earlier research has shown that MEF2A has rehabilitative neurocognitive capacity [20]. Ultimately, we identified MEF2A as a critical transcription factor in IS. In general, the integration of MR and bioinformatics analysis offers valuable evidence for identifying IS biomarkers and elucidating the molecular mechanisms of pathogenesis. The identification of MEF2A provides a potential target for diagnosing and treating IS. The MEF2A gene is a unit of the MEF2 gene family, encompassing the MEF2B, MEF2C, and MEF2D genes [21]. MEF2 subunits are situated in the nucleus and interact with other transcription factors to influence the expression of target genes by binding to DNA in the form of homologous or heterodimers. The MEF2 family’s binding sites are extensively located in specific gene regulatory regions of muscle and endothelia [22]. Controlling gene transcription during muscle cell differentiation, mediating cell differentiation during the development of skeletal muscle, cardiac muscle, and smooth muscle, and participating in the development of blood vessels are the most significant functions of the MEF2 family [21]. Research indicates that MEF2 is closely associated with vascular homeostasis. Systemic inflammation, bleeding, thrombocytopenia, and leukocytosis are all induced by MEF2 deficiency [23]. IS has been previously reported to be associated with MEF2A [24]. Researchers assessed the efficacy of dexmedetomidine in conjunction with Netrin-1 for treating cerebral ischemic injury. They discovered that the therapeutic effects of dexmedetomidine and Netrin-1 on IS were closely associated with the ERK/MEF2A pathway [24]. Conversely, the protective effect of dexmedetomidine and Netrin-1 is negated by the deletion of the MEF2A gene.
+
+  Our research substantiates the conclusion that MEF2A has a protective effect against IS. In particular, we discovered that the reduction in cell viability, injury, and excessive oxidative stress induced by OGD/R was substantially reversed by the overexpression of MEF2A in Neuro-2a/PC12 cells. PIP3 functions as a second messenger to recruit effectors to specific plasma membranes or intima sites in response to cell stimulation, thereby triggering the regulation of downstream signals. The primary downstream target of PI3K is the serine/threonine protein kinase Akt [25]. Upon PI3K activation, the PH structure region of Akt bonds to the second messenger, PIP3, facilitating the migration of Akt from the intracellular to the cell membrane [26]. Numerous studies have demonstrated that the PI3K/Akt signaling pathway is a critical regulatory target for neuroprotective effects and is implicated in the development and progression of nervous system diseases [27]. We discovered that OGD/R significantly reduced the expression levels of p-PI3K and p-Akt, whereas the expression levels of p-PI3K and p-Akt were significantly reduced by overexpression of MEF2A. These findings suggest that MEF2A may have a neuroprotective effect by regulating the PI3K/Akt signaling pathway.
+
+
+## Strengths and limitations
+  The MR method can effectively avoid bias caused by confounding factors, such as environmental factors, diet patterns, and statistical differences, and can more accurately investigate causal associations. Based on GWAS summary data, this study utilized a rigorous MR method to identify 73 blood proteins associated with IS susceptibility. The results of the sensitivity analysis also indicated the robustness of causality. In addition, we thoroughly examined the GSE58294 dataset and subsequently identified the gene MEF2A, which is associated with the development of IS. We also verified the protective effect of MEF2A on Neuro-2a cell injury induced by OGD/R. This study is the first to combine MR analysis, transcriptomics, machine learning algorithms, and in vitro experiments to identify new therapeutic targets for IS, thereby providing preclinical evidence for drug development.
+
+  Emphasizing the study’s many shortcomings is crucial. Firstly, the GWAS data in the MR analysis came from the European population because of the data set’s restriction, therefore limiting the generalization of our findings to other populations. When data from other populations are available, it is essential to further validate the outcomes of this research. Though we showed the link between MEF2A and PI3K/Akt pathway, the control of downstream effector molecules by MEF2A still has to be more clear; omics technology may help to investigate this further in the future. Through bioinformatics research, we also found some genes strongly linked to the onset and progression of IS. Included in the experimental validation process was MEF2A, a transcription factor controlling gene expression, so investigating how overexpression of MEF2A affected Neuro-2 A/PC12 cells via in vitro studies. Indeed, other genes like MMP9 and CD200 are quite significant as well; more in vivo and in vitro studies—for example, developing a middle cerebral artery occlusion rat model or extracting primary neurons—could help to clarify their function in the onset and progression of IS.
+
+  Finally, it is essential to note that our research is based on bioinformatics analysis and limited in vitro experimental verification, with no verification in more complex physiological environments. The clinical translational value of the key targets we have discovered requires further confirmation through additional clinical sample analyses and prospective studies.
+
+
+## Conclusion
+  This work is the first to use MR analysis, transcriptomics, machine learning algorithms, and in vitro experimental approaches to uncover a potential therapeutic target for IS. The discovery of the transcription factor MEF2A may provide preclinical evidence for medication development for IS.
+
+
+## Supplementary Information
+  Below is the link to the electronic supplementary material.
+
+  Supplementary Material 1
+
+  Supplementary Material 2
+
+  Supplementary Material 3
+
+  Supplementary Material 4
+
+  Supplementary Material 5
+
+  Supplementary Material 6
+
+  Supplementary Material 7
+
+  Supplementary Material 8
+
+
+## Acknowledgements
+  Not applicable.

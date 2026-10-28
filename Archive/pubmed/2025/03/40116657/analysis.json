@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40116657",
+  "title": "MOSim: bulk and single-cell multilayer regulatory network simulator.",
+  "authors": "Monzo, Carolina; Aguerralde-Martin, Maider; Martinez-Mira, Carlos; Arzalluz-Luque, Angeles; Conesa, Ana; Tarazona, Sonia",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-03-21",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 5,
+  "one_liner_zh": "MOSim是一个模拟bulk和单细胞多组学数据（含转录因子层）的R包，虽涉及TF-DNA调控关系模拟，但无AI/物理模拟方法，且非聚焦TF-DNA结合机制建模，仅作为数据生成工具对课题有间接参考价值。",
+  "abstract": "As multi-omics sequencing technologies advance, the need for simulation tools capable of generating realistic and diverse (bulk and single-cell) multi-omics datasets for method testing and benchmarking becomes increasingly important. We present MOSim, an R package that simulates both bulk (via mosim function) and single-cell (via sc_mosim function) multi-omics data. The mosim function generates bulk transcriptomics data (RNA-seq) and additional regulatory omics layers (ATAC-seq, miRNA-seq, ChIP-seq, Methyl-seq, and transcription factors), while sc_mosim simulates single-cell transcriptomics data (scRNA-seq) with scATAC-seq and transcription factors as regulatory layers. The tool supports various experimental designs, including simulation of gene co-expression patterns, biological replicates, and differential expression between conditions. MOSim enables users to generate quantification matrices for each simulated omics data type, capturing the heterogeneity and complexity of bulk and single-cell multi-omics datasets. Furthermore, MOSim provides differentially abundant features within each omics layer and elucidates the active regulatory relationships between regulatory omics and gene expression data at both bulk and single-cell levels. By leveraging MOSim, researchers will be able to generate realistic and customizable bulk and single-cell multi-omics datasets to benchmark and validate analytical methods specifically designed for the integrative analysis of diverse regulatory omics data.",
+  "abstract_zh": "随着多组学测序技术的进步，对于能够生成真实且多样化的（批量及单细胞）多组学数据集以用于方法测试和基准测试的模拟工具的需求日益重要。我们推出了MOSim，一个R包，它能够模拟批量（通过mosim函数）和单细胞（通过sc_mosim函数）多组学数据。mosim函数生成批量转录组学数据（RNA-seq）及额外的调控组学层（ATAC-seq、miRNA-seq、ChIP-seq、Methyl-seq和转录因子），而sc_mosim则模拟单细胞转录组学数据（scRNA-seq），并以scATAC-seq和转录因子作为调控层。该工具支持多种实验设计，包括基因共表达模式、生物学重复以及条件间差异表达的模拟。MOSim使用户能够为每种模拟的组学数据类型生成定量矩阵，捕捉批量及单细胞多组学数据集的异质性和复杂性。此外，MOSim在每个组学层内提供差异丰富的特征，并阐明在批量及单细胞水平上调控组学与基因表达数据之间的活跃调控关系。通过利用MOSim，研究人员将能够生成真实且可定制的批量及单细胞多组学数据集，以基准测试和验证专门设计用于整合分析多种调控组学数据的分析方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40116657/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40116657/",
+  "paper_page_path": "papers/pubmed/40116657/index.html"
+}

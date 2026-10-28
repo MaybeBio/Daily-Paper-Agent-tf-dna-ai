@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.28.582527",
+  "title": "LogoMotif: a comprehensive database of transcription factor binding site profiles in Actinobacteria",
+  "authors": "Hannah E. Augustijn; Dimitris Karapliafis; Kristy Joosten; Sébastien Rigali; Gilles P. van Wezel; Marnix H. Medema",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-03",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建了放线菌转录因子结合位点数据库，提供位置权重矩阵和隐马尔可夫模型用于位点预测，虽聚焦TF-DNA结合位点但以数据库和预测工具为主，缺乏三维互作建模与动态机制研究，方法上未涉及AI或物理模拟，故评分为5。",
+  "abstract": "Actinobacteria undergo a complex multicellular life cycle and produce a wide range of specialized metabolites, including the majority of the antibiotics. These biological processes are controlled by intricate regulatory pathways, and to better understand how they are controlled we need to augment our insights into the transcription factor binding sites. Here, we present LogoMotif ( https://logomotif.bioinformatics.nl ), an open-source database for characterized and predicted transcription factor binding sites in Actinobacteria, along with their cognate position weight matrices and hidden Markov models. Genome-wide predictions of binding site locations in Streptomyces model organisms are supplied and visualized in interactive regulatory networks. In the web interface, users can freely access, download and investigate the underlying data. With this curated collection of actinobacterial regulatory interactions, LogoMotif serves as a basis for binding site predictions, thus providing users with clues on how to elicit the expression of genes of interest and guide genome mining efforts. Highlights Actinobacterial regulatory networks are key for compound discovery, including antibiotics. Contains ∼400 validated and ∼12,100 predicted interactions, presented in interactive networks. Serves as foundation for regulatory predictions in the gene cluster detection tool, antiSMASH. LogoMotif’s data and algorithms provide knowledge on expression and functional inference of genes. LogoMotif aids in the discovery of novel chemistry within Actinobacteria and beyond. Graphical abstract",
+  "abstract_zh": "放线菌经历复杂的多细胞生命周期，并产生多种 specialized metabolites（特化代谢物），其中包括大多数抗生素。这些生物过程受复杂的调控途径控制，为了更好地理解其调控机制，我们需要增强对转录因子结合位点的认识。在此，我们介绍 LogoMotif（https://logomotif.bioinformatics.nl），这是一个开放获取的数据库，收录了放线菌中已表征和预测的转录因子结合位点，以及相应的位置权重矩阵和隐马尔可夫模型。数据库中提供了链霉菌模式生物中结合位点位置的全基因组预测，并在交互式调控网络中可视化展示。在网络界面中，用户可以自由访问、下载和探究底层数据。通过这一精选的放线菌调控相互作用集合，LogoMotif 作为结合位点预测的基础，为用户提供如何激发目标基因表达的线索，并指导基因组挖掘工作。亮点：放线菌调控网络是发现化合物（包括抗生素）的关键。包含约400个已验证和约12,100个预测的相互作用，以交互式网络呈现。作为基因簇检测工具 antiSMASH 中调控预测的基础。LogoMotif 的数据和算法提供了关于基因表达和功能推断的知识。LogoMotif 有助于在放线菌及其更广范围内发现新型化学物质。图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.28.582527",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.28.582527",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.28.582527/index.html"
+}

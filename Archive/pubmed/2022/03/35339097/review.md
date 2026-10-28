@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors use computational tools to assess how three MMP3 promoter SNPs (rs3025058, rs522616, rs617819) affect transcription factor binding, reporting that rs522616 alters c-Myb binding and rs617819 alters Smad4 binding, with the C allele at position -375 conferring higher Smad4 binding affinity and stability, leading to a prediction that rs617819 directly affects Smad4 binding and alters MMP3 gene expression.
+- **Visible evidence base** Abstract text only; no methodological details, tool names, scoring thresholds, structural models, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, tool versions and parameters, sequence coordinates, binding affinity values, stability metrics, statistical analyses, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow but provides insufficient detail to evaluate the rigor, reproducibility, or validity of the findings. The central conclusion regarding rs617819 and Smad4 binding is stated as a prediction, yet the evidence base is not visible. The study may be of interest to researchers in gene regulation and cancer genetics, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying MMP3 regulation in cancer, computational biologists working on transcription factor binding site prediction, and geneticists interested in functional annotation of promoter SNPs. The findings could inform downstream experimental validation of rs617819 effects on MMP3 expression.
+- **Major strengths** The study addresses a clinically relevant question by linking GWAS-identified SNPs to potential mechanistic effects on transcription factor binding. The focus on three specific SNPs with prior disease associations is appropriate. The comparative analysis of allelic variants is a reasonable approach for generating testable hypotheses.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that rs617819 directly affects the Smad4 binding motif on MMP3 promoter and alters gene expression.
+  - **Evidence pointer** Abstract, Results and Conclusion sections; location not provided
+  - **Concern** The abstract provides no quantitative data, tool names, or scoring thresholds to support the claim that Smad4 binding affinity is higher for the C allele. The phrase "binding affinity and stability" is asserted without presenting any numerical values or statistical comparisons. The causal link from binding affinity to altered gene expression is speculative and not supported by any functional data.
+  - **Why it matters** Without visible evidence of the computational methods and results, the central conclusion cannot be verified or reproduced. The claim of direct effect on gene expression extends beyond what binding affinity predictions can establish.
+  - **Resolution test** Provide specific tool outputs, binding scores for both alleles, stability metrics, and a clear statistical comparison. If gene expression is claimed, include experimental or validated predictive evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that transcription factor binding was investigated by a virtual laboratory and analyzed by computational tools.
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Concern** No details are given on which virtual laboratory platform, which computational tools, which sequence coordinates, or which parameters were used. The methods are described only in generic terms, making it impossible to assess the validity of the approach or to replicate the analysis.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of methodological specifics undermines confidence in the findings and prevents independent verification.
+  - **Resolution test** List all tools, versions, databases, sequence coordinates, and parameter settings. Describe the workflow step by step.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors imply that the study fills a gap in functional analysis of these promoter SNPs.
+  - **Evidence pointer** Abstract, Background section; location not provided
+  - **Concern** The abstract does not explain how this computational study advances beyond existing knowledge. The claim that "insufficient functional analysis" exists is not substantiated with references or a clear statement of what is novel. The prediction that rs617819 affects Smad4 binding is presented without comparison to prior studies or alternative hypotheses.
+  - **Why it matters** For a Nature-style audience, the incremental advance must be explicit. Without a clear statement of novelty and significance relative to prior work, the contribution is unclear.
+  - **Resolution test** State explicitly what is new about this computational approach or finding, and cite prior functional studies of these SNPs to demonstrate the gap.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Background
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "minute interplay of various transcription factor binding motifs" is vague and not defined.
+  - **Required correction** Replace with a precise description of how transcription factor binding site variations are assessed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract mentions rs3025058 in the background but does not report any result for this SNP.
+  - **Required correction** Either report the finding for rs3025058 or state explicitly that no effect was observed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, Conclusion
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "directly affects" is too strong for a computational prediction.
+  - **Required correction** Use "is predicted to affect" or "may affect" to match the evidence level.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and quantitative results means the core claims are not assessable from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The approach is common in computational biology, but no claim of novelty is substantiated.
+  - Scientific importance: Weak. The abstract does not demonstrate how the findings change understanding of MMP3 regulation or disease mechanisms.
+  - Interdisciplinary readership: Limited. The abstract is written for a specialist audience in computational gene regulation, with no broader framing for cancer biology or genetics readers.
+  - Technical soundness: Not assessable. No methods or results are visible.
+  - Readability for nonspecialists: Acceptable but vague. Terms like "virtual laboratory" and "computational tools" are undefined.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient detail to support the claims. A revised submission with full methods, quantitative results, and a clearer statement of novelty would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that rs617819 directly affects Smad4 binding and alters gene expression is unsupported by visible evidence.
+- The claim that rs522616 alters c-Myb binding is stated without any supporting data.
+- The claim that the C allele at -375 has higher binding affinity and stability is not quantified.
+- The assertion that the study addresses a gap in functional analysis is not substantiated with references or a comparative statement.

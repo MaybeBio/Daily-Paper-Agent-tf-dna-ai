@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "41349519",
+    "doi": "10.1016/j.molcel.2025.11.001",
+    "title": "Two CTCF motifs impede cohesin-mediated DNA loop extrusion."
+  },
+  "content": {
+    "abstract": "Human cohesin extrudes DNA into loops and is positioned along the genome by stalling at the human CCCTC-binding factor (CTCF) upon encountering its N-terminal region (NTR). The mechanism underlying this stalling, however, is unresolved. Using single-molecule assays that monitor DNA loop extrusion (LE) in the presence of NTR fragments, we identify two amino acid motifs, YDF and KTYQR, which hinder LE. KTYQR is found to completely block LE activity, while YDF hinders cohesin from completing LE step cycles and converts cohesin into a unidirectional extruder by strengthening the affinity of STAG1 to DNA. We thus identify two distinct NTR motifs that stall LE via different yet synergistic mechanisms, highlighting the multifaceted ways employed by CTCF to modulate LE to shape and regulate genomes.",
+    "keywords": [
+      "AlphaFold",
+      "CTCF",
+      "DNA loop extrusion",
+      "chromosome organization",
+      "cohesin",
+      "magnetic tweezers",
+      "single-molecule fluorescence"
+    ],
+    "mesh_terms": [
+      "*CCCTC-Binding Factor/genetics/metabolism/chemistry",
+      "*Cell Cycle Proteins/metabolism/genetics/chemistry",
+      "Cohesins",
+      "Humans",
+      "*Chromosomal Proteins, Non-Histone/metabolism/genetics/chemistry",
+      "*DNA/metabolism/genetics/chemistry",
+      "Amino Acid Motifs",
+      "Protein Binding",
+      "Nucleic Acid Conformation",
+      "Binding Sites",
+      "Nuclear Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barth, Roman",
+        "Janissen, Richard",
+        "Muras, Laura",
+        "van der Torre, Jaco",
+        "Litos, Gabriele",
+        "van der Sluis, Eli",
+        "van den Berg, Ashmiani",
+        "Davidson, Iain F",
+        "Peters, Jan-Michael",
+        "Dekker, Cees"
+      ],
+      "short_names": [
+        "Barth R",
+        "Janissen R",
+        "Muras L",
+        "van der Torre J",
+        "Litos G",
+        "van der Sluis E",
+        "van den Berg A",
+        "Davidson IF",
+        "Peters JM",
+        "Dekker C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands.",
+        "Research Institute of Molecular Pathology, Vienna BioCenter Vienna 1030, Austria.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands.",
+        "Research Institute of Molecular Pathology, Vienna BioCenter Vienna 1030, Austria.",
+        "Research Institute of Molecular Pathology, Vienna BioCenter Vienna 1030, Austria.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands. Electronic address: c.dekker@tudelft.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barth, Roman",
+        "short_name": "Barth R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Janissen, Richard",
+        "short_name": "Janissen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Muras, Laura",
+        "short_name": "Muras L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van der Torre, Jaco",
+        "short_name": "van der Torre J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Litos, Gabriele",
+        "short_name": "Litos G",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology, Vienna BioCenter Vienna 1030, Austria."
+        ]
+      },
+      {
+        "full_name": "van der Sluis, Eli",
+        "short_name": "van der Sluis E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van den Berg, Ashmiani",
+        "short_name": "van den Berg A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Davidson, Iain F",
+        "short_name": "Davidson IF",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology, Vienna BioCenter Vienna 1030, Austria."
+        ]
+      },
+      {
+        "full_name": "Peters, Jan-Michael",
+        "short_name": "Peters JM",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology, Vienna BioCenter Vienna 1030, Austria."
+        ]
+      },
+      {
+        "full_name": "Dekker, Cees",
+        "short_name": "Dekker C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft 2629HZ, the Netherlands. Electronic address: c.dekker@tudelft.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2025 Dec 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/06 00:32",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42380153",
+      "42146630",
+      "41959270",
+      "41756876",
+      "41727024",
+      "41511335"
+    ],
+    "refs": [],
+    "similar": [
+      "41349519",
+      "31905366",
+      "39988079",
+      "36182691",
+      "41102415",
+      "35585235",
+      "32065581",
+      "39093600",
+      "40374602",
+      "37076620",
+      "40763028",
+      "29706548",
+      "37536339",
+      "33154377",
+      "31204999",
+      "29217591",
+      "41238959",
+      "38742641",
+      "39709822",
+      "40516048",
+      "31937660",
+      "40586309",
+      "28424523",
+      "40210441",
+      "23804403",
+      "40011778",
+      "29593713",
+      "40628528",
+      "32631111",
+      "18550811",
+      "28467304",
+      "27526722",
+      "27799150",
+      "40683887",
+      "29757144",
+      "38206813",
+      "34197738",
+      "26439501",
+      "27210764",
+      "35440598",
+      "34309513",
+      "38129077",
+      "41111100",
+      "38670416",
+      "39979259",
+      "31666380",
+      "39748119",
+      "39543681",
+      "39671477",
+      "40184420",
+      "38808662",
+      "35710842",
+      "24185899",
+      "32680543",
+      "27582050",
+      "30031214",
+      "40613712",
+      "34624221",
+      "18237772",
+      "36325618",
+      "23010778",
+      "29867216",
+      "39721581",
+      "33930311",
+      "32396063",
+      "31968256",
+      "30940740",
+      "33545664",
+      "35180428",
+      "36097291",
+      "29547555",
+      "40550689",
+      "27089971",
+      "40833849",
+      "36050765",
+      "37591243",
+      "28985562",
+      "40181539",
+      "19369356",
+      "32294452",
+      "31780627",
+      "31522987",
+      "18235444",
+      "31216471",
+      "40452075",
+      "27974201",
+      "29217590",
+      "20219941",
+      "36898992",
+      "27135601",
+      "32333838",
+      "39984730",
+      "22780989",
+      "33091336",
+      "40118069",
+      "39827577",
+      "19109133",
+      "33170773",
+      "19458616",
+      "38217027"
+    ],
+    "review": [
+      "41349519",
+      "39709822",
+      "32631111",
+      "26439501",
+      "30031214",
+      "30940740",
+      "33545664",
+      "29547555",
+      "27089971"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(25)00897-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

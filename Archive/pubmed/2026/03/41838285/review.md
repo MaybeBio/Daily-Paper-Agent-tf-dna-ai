@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report natural structural variation among 51 FUL homologs from 25 Brassicaceae species and 3 BjuSOC1 promoter homeologs in polyploid Brassica juncea. They show that 5'-distal deletions of BjuSOC1 promoters with diverse transcription factor binding site profiles exhibit differential GUS activity, and that genetic complementation of the soc1-2 mutant with BjupSOC1:AtSOC1 constructs reveals differential promoter homeolog strength. Docked FUL:pSOC1 complexes show similar binding affinity despite structural variation, and molecular dynamics simulations with MM-GBSA free energy calculations suggest that mutations in FUL proteins and SOC1 promoters are compensatory, preserving interaction potential. Yeast one-hybrid assays validate the in silico interaction patterns.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all experimental details, statistical analyses, sequence alignments, structural coordinates, simulation parameters, and validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrative study combining evolutionary analysis, experimental promoter characterization, and computational structural biology to address FUL-SOC1 regulatory interactions in polyploid Brassica juncea. The topic is relevant to flowering time regulation and has potential agronomic implications. However, the abstract alone provides insufficient detail to evaluate the rigor of the methods, the quality of the structural models, the statistical robustness of the conclusions, or the validity of the compensatory mutation claim. Several claims are made without supporting quantitative data, and the logical connection between some experimental results and the stated conclusions is not fully transparent from the abstract.
+- **Who would be interested in the results, and why** Plant molecular biologists studying flowering time regulation, researchers working on Brassicaceae evolution and polyploidy, computational biologists interested in protein-DNA interaction prediction, and crop scientists seeking molecular targets for early flowering traits in Brassica crops.
+- **Major strengths** The study addresses a relevant biological question with potential translational value. The combination of evolutionary sequence analysis, experimental promoter assays, genetic complementation, and computational structural biology is ambitious and potentially comprehensive. The inclusion of yeast one-hybrid validation for in silico predictions is a positive feature. The focus on natural variation in polyploid Brassica adds evolutionary relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Despite structural variation, docked FUL:pSOC1 complexes depicted similar binding affinity stabilized by both conserved and unique residues."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of similar binding affinity across structurally diverse FUL homologs and SOC1 promoters is presented without any quantitative binding affinity values, statistical comparisons, or error estimates. The abstract does not specify how many complexes were docked, what scoring functions were used, or how "similar" was defined.
+  - **Why it matters** Without quantitative metrics and statistical support, the claim of similar binding affinity cannot be evaluated. This is a central conclusion of the study, and if the docking scores vary substantially or the comparison lacks statistical power, the conclusion may not hold.
+  - **Resolution test** Provide binding free energy values (e.g., docking scores or MM-GBSA energies) with standard deviations and statistical tests comparing across complexes. Specify the number of complexes analyzed and the criteria for "similar."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The MM-GBSA-based binding free energy parameters and interaction mapping showed that mutations in FUL proteins and SOC1 promoters are compensatory permitting conservation of interaction potential."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The compensatory mutation claim is a strong evolutionary and biophysical statement. The abstract does not describe how compensatory relationships were identified, whether the mutations tested were naturally occurring or engineered, how many mutation combinations were evaluated, or what criteria established compensation.
+  - **Why it matters** Compensatory evolution is a specific and testable hypothesis. Without details on the mutational analysis design, the number of variants tested, and the statistical framework for identifying compensation, this claim is not supported by the evidence presented.
+  - **Resolution test** Describe the mutational analysis design, including which residues were mutated, how many combinations were tested, and what statistical or energetic criteria defined compensation. Provide data showing that mutations individually disrupt binding but in combination restore it.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Root Mean Square Deviation revealed conformational flexibility of docked FUL:pSOC1 complexes, while Root Mean Square Fluctuation values demonstrated structural flexibility of FUL proteins bound to SOC1 promoters."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports RMSD and RMSF results but does not provide any values, comparisons across systems, or interpretation of what the observed flexibility means functionally. The distinction between "conformational flexibility" and "structural flexibility" is unclear.
+  - **Why it matters** RMSD and RMSF are descriptive metrics. Without quantitative values and comparative context, these results do not support any specific conclusion about the biological relevance of the dynamics.
+  - **Resolution test** Provide RMSD and RMSF values for all simulated systems, with appropriate comparisons and statistical analysis. Clarify what functional interpretation is drawn from the observed flexibility patterns.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study is essential since interacting amino-acid and nucleotide residues can be modified to design novel alleles of FUL and SOC1 with enhanced binding potential to achieve early flowering, a key agronomic trait."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims the study is "essential" for designing novel alleles with enhanced binding potential, but no experimental evidence is presented that modified alleles actually achieve enhanced binding or earlier flowering. The translational claim is speculative.
+  - **Why it matters** The agronomic relevance is a stated motivation, but the abstract does not demonstrate that the identified interacting residues can be modified to improve binding or flowering time. Overstating translational potential without evidence weakens the scientific case.
+  - **Resolution test** Either temper the claim to reflect the potential for future engineering, or provide preliminary data showing that specific mutations enhance binding and promote earlier flowering in experimental systems.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "BjupSOC1" is used without definition. It is unclear whether this refers to a specific promoter construct, a fusion, or a particular homeolog.
+  - **Required correction** Define "BjupSOC1" at first use, including which homeolog or construct it refers to.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sample description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "51 FUL homologs from 25 Brassicaceae species and 3 BjuSOC1 promoter homeologs" but does not specify how these were selected, their sequence identity range, or their phylogenetic distribution.
+  - **Required correction** Provide brief context on the selection criteria and diversity of the sampled homologs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Experimental description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "Genetic complementation of soc1-2 mutant with BjupSOC1:AtSOC1 constructs" is ambiguous. It is unclear whether the promoter drives AtSOC1 expression or whether the construct is a promoter-reporter fusion.
+  - **Required correction** Clarify the construct design and what is being measured in the complementation assay.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Validation description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The yeast one-hybrid assays are mentioned as validation but no details are given on which interactions were tested, how many replicates were performed, or what the results showed.
+  - **Required correction** Briefly describe the scope of the yeast one-hybrid validation and the key results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "5'-distal deletions" is used without specifying the extent of the deletions or how many deletion variants were tested.
+  - **Required correction** Specify the deletion boundaries and the number of variants analyzed.
+
+## Risk / unsupported claims
+- The claim that mutations in FUL proteins and SOC1 promoters are compensatory is not supported by the abstract evidence.
+- The claim that the study is "essential" for designing novel alleles with enhanced binding potential is speculative and not demonstrated.
+- The claim of "similar binding affinity" across diverse complexes lacks quantitative support.
+- The functional significance of the RMSD and RMSF results is not interpretable from the abstract.
+- The differential strength of promoter homeologs is stated but no quantitative data on flowering time differences or AtSOC1 expression levels are provided.
+- The relationship between the 5'-distal deletions, TFBS profiles, and differential GUS activity is described but the specific results are not reported.

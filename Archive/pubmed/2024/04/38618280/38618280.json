@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "38618280",
+    "doi": "10.2147/DDDT.S394287",
+    "title": "Unveiling the Mechanism of the ChaiShao Shugan Formula Against Triple-Negative Breast Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The ChaiShao Shugan Formula (CSSGF) is a traditional Chinese medicine formula with recently identified therapeutic value in triple-negative breast cancer (TNBC). This study aimed to elucidate the underlying mechanism of CSSGF in TNBC treatment. METHODS: TNBC targets were analyzed using R and data were from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) databases. The major ingredients and related protein targets of CSSGF were explored via the Traditional Chinese Medicine Systems Pharmacology database, and an ingredient-target network was constructed via Cytoscape to identify hub genes. The STRING database was used to construct the PPI network. GO and KEGG enrichment analyses were performed via R to obtain the main targets. The online tool Kaplan‒Meier plotter was used to identify the prognostic genes. Molecular docking was applied to the core target genes and active ingredients. MDA-MB-231 and MCF-7 cell lines were used to verify the efficacy of the various drugs. RESULTS: A total of 4562 genes were screened as TNBC target genes. The PPI network consisted of 89 nodes and 845 edges. Our study indicated that quercetin, beta-sitosterol, luteolin and catechin might be the core ingredients of CSSGF, and EGFR and c-Myc might be the latent therapeutic targets of CSSGF in the treatment of TNBC. GO and KEGG analyses indicated that the anticancer effect of CSSGF on TNBC was mainly associated with DNA binding, transcription factor binding, and other biological processes. The related signaling pathways mainly involved the TNF-a, IL-17, and apoptosis pathways. The molecular docking data indicated that quercetin, beta-sitosterol, luteolin, and catechin had high affinity for EGFR, JUN, Caspase-3 and ESR1, respectively. In vitro, we found that CSSGF could suppress the expression of c-Myc or promote the expression of EGFR. In addition, we found that quercetin downregulates c-Myc expression in two BC cell lines. CONCLUSION: This study revealed the effective ingredients and latent molecular mechanism of action of CSSGF against TNBC and confirmed that quercetin could target c-Myc to induce anti-BC effects.",
+    "keywords": [
+      "c-Myc",
+      "chaishao shugan formula",
+      "molecular docking",
+      "network pharmacology",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/drug therapy/genetics",
+      "*Catechin",
+      "Luteolin",
+      "Molecular Docking Simulation",
+      "Quercetin",
+      "MCF-7 Cells",
+      "ErbB Receptors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Teng",
+        "Huang, Yuanyuan",
+        "Liu, Zeyu",
+        "Huang, Jinsheng",
+        "Ke, Bin",
+        "Rong, Yuming",
+        "Qiu, Huijuan",
+        "Zhang, Bei"
+      ],
+      "short_names": [
+        "Fan T",
+        "Huang Y",
+        "Liu Z",
+        "Huang J",
+        "Ke B",
+        "Rong Y",
+        "Qiu H",
+        "Zhang B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5859-4994"
+      ],
+      "affiliations": [
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+        "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Teng",
+        "short_name": "Fan T",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuanyuan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zeyu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jinsheng",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0000-0002-5859-4994"
+        ],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ke, Bin",
+        "short_name": "Ke B",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Rong, Yuming",
+        "short_name": "Rong Y",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Huijuan",
+        "short_name": "Qiu H",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bei",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "TCM&VIP Department, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China.",
+          "Integrated Traditional Chinese and Western Medicine Research Center, Sun Yat-sen University Cancer Center, Guangzhou, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/15 06:44",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "40143209"
+    ],
+    "refs": [
+      "36033499",
+      "35995256",
+      "35814639",
+      "35447298",
+      "35379271",
+      "35303581",
+      "35243878",
+      "34883416",
+      "34770867",
+      "34696797",
+      "34432562",
+      "34369076",
+      "34321275",
+      "34278888",
+      "33920463",
+      "33682528",
+      "33538338",
+      "33358854",
+      "33237147",
+      "32567493",
+      "32517735",
+      "30945475",
+      "30620402",
+      "29923998",
+      "29321183",
+      "29187427",
+      "29132557",
+      "28570501",
+      "26557869",
+      "25933723",
+      "25624439",
+      "24525674",
+      "19962879",
+      "16341146"
+    ],
+    "similar": [
+      "38618280",
+      "38864249",
+      "37799727",
+      "36193154",
+      "33358854",
+      "35837376",
+      "37713894",
+      "35442463",
+      "37990309",
+      "37879505",
+      "37657065",
+      "38179762",
+      "37960775",
+      "39350059",
+      "34693792",
+      "36998242",
+      "38516703",
+      "37843333",
+      "38050247",
+      "38213248",
+      "36740793",
+      "37244150",
+      "33645094",
+      "39342122",
+      "35474355",
+      "37852337",
+      "38040415",
+      "37233418",
+      "34125845",
+      "36874926",
+      "34149863",
+      "34349502",
+      "37148401",
+      "35859316",
+      "32572780",
+      "36882618",
+      "37305432",
+      "38630770",
+      "36865745",
+      "35430443",
+      "38619514",
+      "32358373",
+      "36452059",
+      "36044117",
+      "36467890",
+      "38050220",
+      "37563784",
+      "37391801",
+      "36003508",
+      "38167125",
+      "36158891",
+      "37469733",
+      "39108110",
+      "35706800",
+      "34951253",
+      "37883761",
+      "34746316",
+      "38134066",
+      "34733451",
+      "33299870",
+      "37113393",
+      "36976504",
+      "35988839",
+      "36338468",
+      "36035842",
+      "34746302",
+      "38638040",
+      "34791846",
+      "35303581",
+      "36288951",
+      "38533054",
+      "35947018",
+      "36911881",
+      "38013344",
+      "37138492",
+      "38421558",
+      "37787375",
+      "37962044",
+      "38403323",
+      "38170849",
+      "39075030",
+      "36003525",
+      "31197620",
+      "34605344",
+      "38329441",
+      "34178945",
+      "32764874",
+      "34738438",
+      "35227178",
+      "35960090",
+      "36157206",
+      "37990310",
+      "37833363",
+      "34879870",
+      "37682164",
+      "36604925",
+      "37092194",
+      "39319146",
+      "38668843",
+      "39170438",
+      "39362634",
+      "38090381",
+      "38809637",
+      "38784930",
+      "37143277",
+      "32595734",
+      "37736110",
+      "38822119",
+      "38645986",
+      "37985782",
+      "35423607",
+      "39108872",
+      "38855423",
+      "37559513",
+      "38853921",
+      "38548028",
+      "37695916",
+      "38984575",
+      "38708221",
+      "39290544",
+      "39280954",
+      "39214909",
+      "35421091",
+      "39173044",
+      "39023680",
+      "38794187",
+      "39282606",
+      "39071605"
+    ],
+    "review": [
+      "38618280",
+      "33358854",
+      "38050220",
+      "35303581",
+      "38013344"
+    ],
+    "pmc": [
+      "11016267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/DDDT.S394287?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38618280/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38618280",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S394287",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

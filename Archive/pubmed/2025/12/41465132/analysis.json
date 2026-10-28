@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41465132",
+  "title": "Multi-Transcriptome-Informed Network Pharmacology Reveals Novel Biomarkers and Therapeutic Candidates for Parkinson's Disease.",
+  "authors": "Pappu, Md Al Amin; Alamin, Md; Noman, Md Al; Sultana, Most Humaira; Ahmed, Md Foysal; Hossain, Md Sanoar; Latif, Md Abdul; Faysal, Md Fahim; Azad, Akm; Alyami, Salem A; Alotaibi, Naif; Mollah, Md Nurul Haque",
+  "journal": "Genes",
+  "published_date": "2025-12-30",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于多转录组网络药理学挖掘帕金森病关键基因、转录因子与候选药物，仅将TF作为调控因子列出，无TF-DNA结合位点预测或互作机制建模，核心对象非蛋白质-DNA互作体系，方法以差异表达与PPI网络为主，仅对药物做MD模拟，与本课题关联微弱。",
+  "abstract": "Background: Parkinson's disease (PD) is a complex neurodegenerative disorder in aged people with multifaceted molecular underpinnings. It poses a severe threat to millions of older adults worldwide. The understanding of the molecular mechanisms of PD development and the performance of its therapeutic strategies has not yet reached a satisfactory level. Methods: This study integrated six transcriptomic datasets to uncover key genes (KGs) and their underlying pathogenic mechanisms, providing insights into potential therapeutic strategies for PD. We designed a comprehensive computational pipeline using various bioinformatics tools and databases to investigate PD-causing KGs, focusing on their functions, pathways, regulatory mechanisms, and potential therapeutic drug molecules. Results: In order to explore PD-causing KGs, we initially identified 303 differentially expressed genes (DEGs) between PD and control samples with 204 upregulated and 99 downregulated DEGs using the LIMMA approach with threshold values at Adj. p-value < 0.05 and abs (log(2)FC) >/= 1.0. Then, protein-protein interaction (PPI) network analysis pinpointed seven top-ranked DEGs (GAPDH, PTEN, CCND1, APOE, ESR1, MAPK3/ERK1, and SNCA) as KGs or central modulators of PD pathogenesis. Regulatory network analysis of KGs identified 3 top-ranked transcription factors (FOXC1, NFKB1, and TFAP2A) and 6 microRNAs (hsa-let-7b-5p, hsa-mir-16-5p, and others) as the pivotal regulators of KGs. Gene Ontology (GO) terms and KEGG pathway enrichment analyses with KGs revealed several crucial biological processes, molecular functions, cellular components, and neurodegenerative pathways associated with the development of PD. Finally, the top five molecules guided by KGs (Nilotinib, Bromocriptine, Withaferin-A, Celastrol, and Donepezil) were identified as promising drug candidates against PD and validated computationally through ADME/T analysis and molecular dynamics simulation studies. Conclusions: The findings of this study may serve as valuable resources for developing effective treatment strategies for PD patients.",
+  "abstract_zh": "背景：帕金森病（Parkinson's disease, PD）是一种影响老年人的复杂神经退行性疾病，具有多方面的分子基础，对全球数百万老年人构成严重威胁。目前，对PD发病的分子机制及其治疗策略效果的理解尚未达到令人满意的水平。方法：本研究整合了六个转录组数据集，以揭示关键基因（key genes, KGs）及其潜在的致病机制，为PD的潜在治疗策略提供见解。我们设计了一个全面的计算流程，利用多种生物信息学工具和数据库来研究导致PD的KGs，重点关注其功能、通路、调控机制及潜在治疗药物分子。结果：为探索导致PD的KGs，我们首先使用LIMMA方法，以调整后p值<0.05和绝对log(2)倍数变化≥1.0为阈值，在PD与对照样本之间识别出303个差异表达基因（differentially expressed genes, DEGs），其中204个上调，99个下调。随后，蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络分析确定了七个排名最高的DEGs（GAPDH、PTEN、CCND1、APOE、ESR1、MAPK3/ERK1和SNCA）作为PD发病机制中的KGs或核心调节因子。KGs的调控网络分析识别出三个排名最高的转录因子（FOXC1、NFKB1和TFAP2A）和六个microRNAs（hsa-let-7b-5p、hsa-mir-16-5p等）作为KGs的关键调控因子。通过KGs的基因本体论（Gene Ontology, GO）术语和KEGG通路富集分析，揭示了与PD发展相关的几个关键生物学过程、分子功能、细胞组分和神经退行性通路。最后，由KGs引导的前五种分子（尼洛替尼、溴隐亭、醉茄素A、雷公藤红素和多奈哌齐）被确定为对抗PD的有前景的药物候选物，并通过ADME/T分析和分子动力学模拟研究进行了计算验证。结论：本研究的发现可能为制定PD患者的有效治疗策略提供宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41465132/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41465132/",
+  "paper_page_path": "papers/pubmed/41465132/index.html"
+}

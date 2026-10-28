@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41286535",
+    "doi": "10.1007/s12539-025-00788-2",
+    "title": "Protein-DNA Binding Sites Prediction via Integrating Pretrained Large Language Models and Contrastive Learning."
+  },
+  "content": {
+    "abstract": "",
+    "keywords": [
+      "Contrastive learning",
+      "ESM2",
+      "Large language model",
+      "ProtT5",
+      "Protein-DNA binding site prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Zhen",
+        "Yu, Hui",
+        "Guan, Xiaoya",
+        "Yue, Zhenyu",
+        "Gu, Lichuan",
+        "Li, Ke",
+        "Zhou, Xiaobo"
+      ],
+      "short_names": [
+        "Feng Z",
+        "Yu H",
+        "Guan X",
+        "Yue Z",
+        "Gu L",
+        "Li K",
+        "Zhou X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3189-7354"
+      ],
+      "affiliations": [
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China.",
+        "Hua Tuo Chinese Medicine Research Institute of Anhui Province, Bozhou, 236800, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China.",
+        "Department of Statistics, the Chinese University of Hong Kong, Shatin, 999077, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China. like@ahau.edu.cn.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China. zxb@ahau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Zhen",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China.",
+          "Hua Tuo Chinese Medicine Research Institute of Anhui Province, Bozhou, 236800, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hui",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Xiaoya",
+        "short_name": "Guan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, the Chinese University of Hong Kong, Shatin, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Zhenyu",
+        "short_name": "Yue Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Lichuan",
+        "short_name": "Gu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [
+          "0000-0002-3189-7354"
+        ],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China. like@ahau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaobo",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei, 230036, China. zxb@ahau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Interdisciplinary sciences, computational life sciences"
+    ],
+    "journal_abbrev": [
+      "Interdiscip Sci"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 06:26",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39848362",
+      "39818825",
+      "39604646",
+      "39276905",
+      "39244557",
+      "38975896",
+      "38830995",
+      "38508547",
+      "38447285",
+      "38334115",
+      "38287147",
+      "38281252",
+      "37824738",
+      "37327559",
+      "37095349",
+      "36927031",
+      "36629262",
+      "35709747",
+      "35039821",
+      "34637380",
+      "34265844",
+      "34232869",
+      "33876751",
+      "33577689",
+      "33495458",
+      "33454744",
+      "33336200",
+      "33235359",
+      "30943723",
+      "30169574",
+      "29846643",
+      "28132027",
+      "27740495",
+      "27238019",
+      "25940624",
+      "25831472",
+      "25269475",
+      "24846307",
+      "24670762",
+      "23737141",
+      "23087378",
+      "20709691",
+      "20176268",
+      "11125145",
+      "10592235"
+    ],
+    "similar": [
+      "41286535",
+      "38171929",
+      "42007520",
+      "40601265",
+      "38127815",
+      "38349057",
+      "41290782",
+      "42348910",
+      "39506806",
+      "41542461",
+      "40288255",
+      "41168713",
+      "40209920",
+      "37958983",
+      "42099803",
+      "39665266",
+      "32723719",
+      "36274238",
+      "42190366",
+      "42146638",
+      "40077987",
+      "42366619",
+      "37459437",
+      "41925960",
+      "40601263",
+      "41990738",
+      "40601266",
+      "41686649",
+      "42579595",
+      "35652477",
+      "40668800",
+      "37609352",
+      "41977286",
+      "39036071",
+      "40171777",
+      "39990254",
+      "39357703",
+      "40378554",
+      "37289807",
+      "42157243",
+      "42169056",
+      "41172803",
+      "38196820",
+      "42084688",
+      "41394632",
+      "40636133",
+      "41257600",
+      "42453691",
+      "41608984",
+      "40489624",
+      "41555097",
+      "34073705",
+      "41255570",
+      "37824738",
+      "40601256",
+      "35767322",
+      "41278538",
+      "38015872",
+      "41491543",
+      "40814232",
+      "42585058",
+      "40811271",
+      "40663653",
+      "36653447",
+      "36872019",
+      "39778580",
+      "42093179",
+      "40060439",
+      "42288985",
+      "39202449",
+      "39198457",
+      "40545645",
+      "41744319",
+      "40919912",
+      "40811181",
+      "41100703",
+      "41921197",
+      "40811705",
+      "40601254",
+      "38515052",
+      "38003686",
+      "41171175",
+      "40862519",
+      "40848288",
+      "40742755",
+      "39791126",
+      "35713588",
+      "36755242",
+      "40814145",
+      "42083872",
+      "40183480",
+      "40301762",
+      "28598584",
+      "40781627",
+      "42223886",
+      "42489038",
+      "40030302",
+      "41764421",
+      "41256441",
+      "40811365"
+    ],
+    "review": [
+      "41286535",
+      "40209920",
+      "40601266",
+      "35652477",
+      "41555097"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12539-025-00788-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

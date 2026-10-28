@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report that an MSM constructed solely from solvent-based structural features reproduces the landscape and slowest implied timescales of a previously published protein-peptide binding MSM built from all-atom explicit-solvent simulations. They identify specific solvent shells (centered on Lys24 and Thr18 of the p53 TAD peptide, 3–6 Å range) as dominant contributors to the first tICA eigenvector, and visualize wetting/dewetting transitions along binding trajectories, offering a solvent-centric view of the hydrophobic effect.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, tICA and MSM construction details, validation metrics (e.g., Chapman-Kolmogorov tests, implied timescale plots), solvent shell definitions, trajectory processing protocols, and comparison statistics between the solvent-feature MSM and the reference MSM
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing and potentially valuable concept: using solvent features alone to build an MSM that recapitulates a known binding landscape. However, the supplied material is too limited to assess the validity of the central claims. No quantitative evidence is shown for the similarity of landscapes or timescales, and the methodological choices for solvent feature selection and MSM construction are not described. The work is of interest to the computational biophysics and enhanced sampling communities, but the case is not established from the provided abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying protein-ligand binding, solvation dynamics, and hydrophobic effects; method developers in Markov state modeling and dimensionality reduction; researchers interested in solvent-centric descriptions of biomolecular processes, as the approach offers a novel perspective that could complement traditional solute-focused analyses.
+- **Major strengths** The conceptual novelty of using solvent-only features to build a kinetic model is appealing and could provide new physical insight into the role of water in binding. The connection to a previously published large-scale simulation dataset (831 μs) lends potential credibility to the underlying data. The identification of specific solvent shells (Lys24, Thr18) as important is a concrete and testable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the solvent-feature MSM yields a "remarkably similar landscape and implied timescales" to the reference MSM.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative comparison is presented. The abstract does not report any numerical metrics (e.g., root-mean-square deviation between free energy surfaces, correlation coefficients for implied timescales, or overlap coefficients between state populations) that would substantiate the claim of similarity.
+  - **Why it matters** The central thesis of the work rests on the equivalence between solvent-only and full-feature models. Without quantitative evidence, the claim is unverifiable and could be misleading if the similarity is only qualitative or limited to certain timescales.
+  - **Resolution test** Provide a figure or table comparing the free energy landscapes (e.g., projection onto the first two tICA dimensions) and implied timescale spectra for both MSMs, with explicit error bars or statistical uncertainties. Report a quantitative similarity metric (e.g., Jensen-Shannon divergence between stationary distributions, or relative errors in slowest timescales).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state they "perform tICA analysis and construct an MSM using only solvent-based structural features."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not define what constitutes a "solvent-based structural feature." It is unclear whether these are distances between water molecules and specific protein atoms, water occupancy counts in predefined shells, or other collective variables. The number of features, the featurization scheme, and the tICA lag time are not specified.
+  - **Why it matters** Reproducibility and interpretability depend critically on the feature definition. Without this information, readers cannot evaluate whether the solvent features are physically meaningful or whether the tICA results are sensitive to arbitrary choices.
+  - **Resolution test** In the full manuscript, provide a detailed description of the solvent feature set, including the selection of solvent shells, the distance cutoffs, the treatment of water molecules (e.g., all atoms vs. oxygen only), and the tICA lag time. Include a sensitivity analysis showing that the results are robust to reasonable variations in these parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of MSM quality
+  - **Claim pointer** The authors imply that the constructed MSM is a valid kinetic model by comparing its implied timescales to the reference.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No evidence is provided that the solvent-feature MSM passes standard validation tests, such as the Chapman-Kolmogorov test, or that the implied timescales are converged with respect to lag time and number of states.
+  - **Why it matters** An MSM that is not statistically validated cannot be trusted to produce meaningful timescales or landscapes. The comparison to the reference MSM is only meaningful if the new model is itself reliable.
+  - **Resolution test** Include Chapman-Kolmogorov plots, implied timescale convergence plots, and a discussion of state population uncertainties (e.g., via Bayesian bootstrapping) for the solvent-feature MSM in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "tICA anlaysis" contains a typographical error ("anlaysis" should be "analysis").
+  - **Required correction** Correct the typo in the final manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement that "solvent shells contributing most to the first tICA eigenvector are those centered on Lys24 and Thr18" is presented without context on how the contribution is quantified (e.g., eigenvector component magnitude, cumulative variance).
+  - **Required correction** Clarify the metric used to rank solvent shell contributions and provide the actual values or a reference to a figure in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not mention whether the solvent-feature MSM was built on the same trajectory data as the reference MSM or on a subset, which could affect the comparability of the results.
+  - **Required correction** State explicitly whether the same 831 μs dataset was used and whether any trajectory filtering or subsampling was applied.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative comparison), R1-M2 (undefined solvent features), R1-M3 (missing MSM validation). These are all blocking because the central claims cannot be evaluated without them.
+- **Assessment against Nature-style criteria** Originality: The concept of a solvent-only MSM is novel and potentially original, but the abstract does not demonstrate how it advances beyond existing solvent analysis methods. Scientific importance: The potential to reveal hydrophobic effect mechanisms in a realistic binding scenario is significant, but the importance is not yet established without quantitative evidence. Interdisciplinary readership: The work could appeal to biophysicists, chemists, and method developers, but the abstract is too technical and lacks context for a broad audience. Technical soundness: Cannot be assessed from the abstract; the lack of methodological detail and validation is a major concern. Readability for nonspecialists: The abstract is concise but assumes familiarity with MSM and tICA; the significance of the findings is not framed for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and warrants full review, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. I would be supportive if the full manuscript addresses the blocking concerns with rigorous validation and clear methodology.
+
+## Risk / unsupported claims
+- The claim of "remarkably similar landscape and implied timescales" is unsupported without quantitative comparison data.
+- The identification of Lys24 and Thr18 solvent shells as dominant contributors is unverifiable without a defined contribution metric.
+- The visualization of "wetting and dewetting transitions" is mentioned but no evidence (e.g., representative snapshots or time series) is provided.
+- The general statement that the results provide "a solvent-centric view of the hydrophobic effect in action" is an interpretation that cannot be evaluated from the abstract alone.

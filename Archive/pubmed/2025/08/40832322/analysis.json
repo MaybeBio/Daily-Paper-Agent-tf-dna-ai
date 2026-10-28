@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40832322",
+  "title": "Multimodal learning decodes the global binding landscape of chromatin-associated proteins.",
+  "authors": "Tan, Jimin; Fu, Xi; Ling, Xinyu; Mo, Shentong; Bai, Jiangshan; Rabadan, Raul; Fenyo, David; Boeke, Jef D; Tsirigos, Aristotelis; Xia, Bo",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-08-20",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出多模态基础模型Chromnitron，预测染色质相关蛋白（含1600余转录因子）的全基因组结合景观，虽聚焦于结合位点预测而非三维互作机制，但以TF-DNA结合为核心对象，AI方法可迁移至TF-DNA互作建模，具有较高参考价值。",
+  "abstract": "Chromatin-associated proteins (CAPs), including over 1,600 transcription factors, bind directly or indirectly to the genomic DNA to regulate gene expression and determine a myriad of cell types. Mapping their genome-wide binding and co-binding landscape is essential towards a mechanistic understanding of their functions in gene regulation and resulting cellular phenotypes. However, due to the lack of techniques that effectively scale across proteins and biological samples, their genome-wide binding profiles remain challenging to obtain, particularly in primary cells. Here we present Chromnitron, a multimodal foundation model that accurately predicts CAP binding landscapes across hundreds of proteins in unseen cell types. Via in silico perturbation experiments, we show that the model learned principles of CAP binding from multimodal features including DNA sequence motifs, chromatin accessibility levels, and protein functional domains. Applying Chromnitron to study cell fate transitions, we discovered novel CAPs regulating the T cell exhaustion process. Furthermore, Chromnitron can predict the dynamic CAP binding landscapes during development, revealing the global orchestration of protein and regulatory element activities in neurogenesis. We expect Chromnitron to accelerate discovery and engineering in regulatory genomics, particularly in human primary cells, and empower future therapeutic opportunities.",
+  "abstract_zh": "染色质相关蛋白（CAPs），包括超过1,600种转录因子，直接或间接结合基因组DNA以调控基因表达，并决定多种细胞类型。绘制它们在全基因组范围内的结合及共结合图谱，对于从机制上理解其在基因调控及由此产生的细胞表型中的功能至关重要。然而，由于缺乏能在蛋白质和生物样本间有效扩展的技术，其全基因组结合谱仍难以获取，尤其是在原代细胞中。在此，我们提出Chromnitron，一种多模态基础模型，能够准确预测未见过细胞类型中数百种蛋白质的CAP结合图谱。通过计算机模拟扰动实验，我们表明该模型从多模态特征中学习了CAP结合原理，这些特征包括DNA序列基序、染色质可及性水平和蛋白质功能域。将Chromnitron应用于研究细胞命运转变，我们发现了调控T细胞耗竭过程的新型CAPs。此外，Chromnitron能够预测发育过程中的动态CAP结合图谱，揭示神经发生中蛋白质和调控元件活性的全局协调。我们期望Chromnitron能加速调控基因组学中的发现与工程应用，特别是在人类原代细胞中，并为未来的治疗机会提供支持。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40832322/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40832322/",
+  "paper_page_path": "papers/pubmed/40832322/index.html"
+}

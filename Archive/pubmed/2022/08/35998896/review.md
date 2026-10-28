@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose NR-Profiler, a multi-task deep learning framework for predicting nuclear receptor (NR) modulators with high affinity and specificity. They report construction of a dataset of 42,684 interactions covering 42 NRs and 31,033 compounds, development of multi-task deep neural network and graph convolutional network models, a consensus model achieving AUC = 0.883, superior external validation performance compared to conventional machine learning and structure-based methods, demonstration of virtual screening utility, a selectivity score for specificity quantification, and release of standalone software.
+- **Visible evidence base** Abstract text only; no methodological details, performance metrics beyond AUC, external validation results, or software documentation are provided
+- **Missing materials affecting confidence** Full manuscript, dataset composition and curation details, model architecture specifications, hyperparameter settings, external validation datasets and protocols, comparative baseline implementations, virtual screening case study details, selectivity score definition and validation, software availability and usability documentation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational resource for NR-focused drug discovery, with a clear rationale for multi-task learning across NR targets. However, the evidence provided is insufficient to evaluate the technical soundness of the models, the validity of the performance claims, or the practical utility of the proposed framework. Several claims, particularly regarding superiority over existing methods and the effectiveness of the selectivity score, are not substantiated by the abstract alone. The work may be of interest to computational chemists and drug discovery researchers, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Computational drug discovery researchers, medicinal chemists working on nuclear receptor modulators, and developers of machine learning tools for toxicity or efficacy prediction would find this work relevant. The multi-task approach and the profiling concept could inform similar efforts for other target families, and the standalone software may be practically useful for screening compound libraries.
+- **Major strengths** The multi-task learning rationale is scientifically sound, as sharing information across related NR targets could improve generalization, especially for targets with limited data. The scale of the dataset (42,684 interactions, 42 NRs) is substantial and could be a valuable community resource. The inclusion of a selectivity score addresses an important practical need in drug discovery, where target specificity is critical. The provision of standalone software enhances potential impact and usability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The consensus model achieved AUC = 0.883 and showed better performance in external validation compared with conventional machine learning and structure-based approaches.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single AUC value for the consensus model without specifying the evaluation setting (training, validation, or test set) or the composition of the external validation set. The claim of superiority over conventional machine learning and structure-based approaches is made without any quantitative comparison or description of the baseline methods.
+  - **Why it matters** AUC values are highly dependent on dataset composition, class balance, and evaluation protocol. Without knowing the evaluation context, the reported AUC cannot be interpreted. The superiority claim is central to the paper's contribution, and without comparative data, it is not possible to assess whether the multi-task approach provides genuine advantages over existing methods.
+  - **Resolution test** Provide AUC values for training, validation, and test sets separately, with confidence intervals. Describe the external validation dataset composition, the baseline methods used, and report performance metrics for all methods in a comparable table.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** We built a comprehensive NR data set including 42,684 interactions to connect 42 NRs and 31,033 compounds.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no information on data sources, curation criteria, compound and target standardization, or how activity thresholds were defined. The term "interactions" is ambiguous, as it could include different assay types, activity levels, or confidence scores.
+  - **Why it matters** Dataset quality is the foundation of any machine learning model. Without clear curation protocols, the risk of label noise, data leakage, or biased sampling cannot be assessed. The reproducibility of the entire framework depends on the availability of a well-documented dataset.
+  - **Resolution test** Describe data sources (e.g., ChEMBL, PubChem), activity endpoint definitions, threshold selection, duplicate handling, and any filtering steps. Provide the dataset as a supplementary file with clear documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** We designed a selectivity score to quantitatively measure the specificity of NR modulators.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The selectivity score is introduced without any definition, mathematical formulation, or validation. It is unclear how the score is calculated, what range it takes, and whether it has been benchmarked against known selective or non-selective modulators.
+  - **Why it matters** The selectivity score is presented as a novel contribution and a practical tool for drug discovery. Without a clear definition and validation, its utility cannot be assessed, and users of the software would not know how to interpret the score.
+  - **Resolution test** Provide the mathematical definition of the selectivity score, explain its interpretation, and validate it against a set of compounds with known selectivity profiles.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** We demonstrated the practical value of NR-Profiler in virtual screening for NRs.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The virtual screening demonstration is mentioned but not described. No details are given on the screening library, the targets screened, the hit rates, or any experimental validation of predicted hits.
+  - **Why it matters** Virtual screening claims are only meaningful if the screening protocol is described and if hits are validated experimentally or through known actives. Without this information, the practical value claim is unsupported.
+  - **Resolution test** Describe the virtual screening experiment, including library size, screening protocol, hit selection criteria, and any experimental or literature-based validation of the identified hits.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "multi-task deep neural network" and "multi-task graph convolutional neural network" without explaining the difference or the rationale for using both architectures.
+  - **Required correction** Add a brief explanation of why two architectures were used and what distinct advantages each offers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that standalone software is freely available but does not provide a URL, repository name, or any access information.
+  - **Required correction** Include the software repository URL or a statement on how to access the software in the abstract or as a footnote.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model evaluation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports only AUC as a performance metric. For multi-class classification and imbalanced datasets, additional metrics such as precision, recall, F1-score, or Matthews correlation coefficient would be informative.
+  - **Required correction** Report additional performance metrics in the full manuscript and consider mentioning them in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation context and comparative performance), R1-M2 (dataset curation and documentation), R1-M3 (selectivity score definition and validation)
+- **Assessment against Nature-style criteria** Originality: The multi-task learning approach across NR targets is a reasonable extension of existing single-target models, but the abstract does not clearly articulate what is conceptually novel beyond the application of known techniques. Scientific importance: NR modulators are clinically relevant, and a reliable profiling tool could be valuable, but the importance is not yet demonstrated with robust evidence. Interdisciplinary readership: The work bridges computational chemistry and drug discovery, but the abstract is too technical for a broad audience and does not explain the biological or pharmacological context sufficiently. Technical soundness: Cannot be assessed from the abstract alone; the reported AUC and comparative claims lack necessary context. Readability for nonspecialists: The abstract is dense and assumes familiarity with deep learning and cheminformatics terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework and a potentially useful resource, but the key claims regarding model performance, dataset quality, and practical utility are not substantiated. A full manuscript with detailed methods, comprehensive evaluation, and validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- Superiority of the consensus model over conventional machine learning and structure-based approaches is claimed without comparative data.
+- The practical value in virtual screening is asserted without description of the screening study or validation.
+- The selectivity score is introduced as a quantitative measure without definition or validation.
+- The dataset of 42,684 interactions is described as "comprehensive" without evidence of coverage, quality, or curation standards.
+- The AUC = 0.883 is reported without specification of the evaluation setting or uncertainty estimates.

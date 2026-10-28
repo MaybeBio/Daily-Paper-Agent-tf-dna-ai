@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "40669281",
+    "doi": "10.1016/j.compbiomed.2025.110763",
+    "title": "DNMT1 inhibition by synergistic application of curcumin and 5-AZA-2'-deoxycytidine implicates enhanced therapeutic potential against lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "DNA methyltransferase 1 (DNMT1) is a key epigenetic regulator that maintains DNA methylation patterns during cell division, regulating gene silencing and cancer progression. Aberrant DNMT1 activity is frequently observed in many cancers including lung adenocarcinoma, contributing to epigenetic dysregulation, chromatin remodelling, and the maintenance of cancer stem-like properties. This study investigates the potential impact of targeting DNMT1 using both nucleoside and non-nucleoside inhibitors, specifically 5-AZA-2'-deoxycytidine (hereafter, 5-AZA-CdR or AZA) and curcumin. Molecular docking and MD simulations revealed that curcumin has a high binding affinity to DNMT1 (-10.3 kcal/mol), stabilizing key active site residues of DNMT1. Additionally, 5-AZA-CdR showed low but significant interactions with DNMT1. Cell culture experiments using lung adenocarcinoma cell lines exhibited that treatment of cells with both the compounds, individual and/or synergistic, inhibits DNMT1 enzyme, significantly reduces cell viability, upregulates HDACs and DNMT1-specific miRNA; along with downregulation of DNMT1, SOX2, OCT4, and NANOG. Chromatin immunoprecipitation (ChIP) assay revealed increased recruitment of HDAC1 to the DNMT1 gene promoter region, indicating that HDAC1-mediated histone deacetylation may contribute to the transcriptional silencing of the DNMT1 gene. Correlation analyses indicated a strong association between DNMT1 and SOX2 expression, suggesting an interplay between DNA methylation and pluripotency transcription factors in lung cancer progression. These findings support that, both genetic and enzymatic level inhibition of DNMT1 by AZA and curcumin perform as a double-edged sword, (i) activation of tumor suppressors, and (ii) repression of oncogenes including DNMT1, which may be considered as a better therapeutic strategy for the treatment of lung adenocarcinoma.",
+    "keywords": [
+      "5-AZA-CdR",
+      "Curcumin",
+      "DNA methylation",
+      "DNMT1",
+      "Epigenetics",
+      "Lung cancer",
+      "SOX2"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA (Cytosine-5-)-Methyltransferase 1/antagonists & inhibitors/metabolism/chemistry",
+      "*Lung Neoplasms/drug therapy/pathology/enzymology/metabolism",
+      "*Adenocarcinoma of Lung/drug therapy/metabolism",
+      "*Curcumin/pharmacology/chemistry",
+      "*Decitabine/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Drug Synergism",
+      "*Neoplasm Proteins/antagonists & inhibitors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niharika",
+        "Kumar, Mukesh",
+        "Verma, Anil",
+        "Dash, Pujarini",
+        "Roy, Ankan",
+        "Manna, Soumen",
+        "Baral, Tirthankar",
+        "Mishra, Jagdish",
+        "Chakraborty, Subhajit",
+        "Nandi, Piyasa",
+        "Mishra, Prahallad",
+        "Pradhan, Bhagyashree",
+        "Patra, Samir Kumar"
+      ],
+      "short_names": [
+        "Niharika",
+        "Kumar M",
+        "Verma A",
+        "Dash P",
+        "Roy A",
+        "Manna S",
+        "Baral T",
+        "Mishra J",
+        "Chakraborty S",
+        "Nandi P",
+        "Mishra P",
+        "Pradhan B",
+        "Patra SK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Department of Biophysics, All India Institute of Medical Sciences, Ansari Nagar, New Delhi, 110029, India.",
+        "Department of Pathology, School of Medicine, University of Pittsburgh, Pennsylvania, 15261, USA.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India.",
+        "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India. Electronic address: samirp@nitrkl.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niharika",
+        "short_name": "Niharika",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Mukesh",
+        "short_name": "Kumar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, All India Institute of Medical Sciences, Ansari Nagar, New Delhi, 110029, India."
+        ]
+      },
+      {
+        "full_name": "Verma, Anil",
+        "short_name": "Verma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Medicine, University of Pittsburgh, Pennsylvania, 15261, USA."
+        ]
+      },
+      {
+        "full_name": "Dash, Pujarini",
+        "short_name": "Dash P",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Ankan",
+        "short_name": "Roy A",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Manna, Soumen",
+        "short_name": "Manna S",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Baral, Tirthankar",
+        "short_name": "Baral T",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Mishra, Jagdish",
+        "short_name": "Mishra J",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Subhajit",
+        "short_name": "Chakraborty S",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Nandi, Piyasa",
+        "short_name": "Nandi P",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Mishra, Prahallad",
+        "short_name": "Mishra P",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Pradhan, Bhagyashree",
+        "short_name": "Pradhan B",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India."
+        ]
+      },
+      {
+        "full_name": "Patra, Samir Kumar",
+        "short_name": "Patra SK",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Cancer Research Laboratory, Biochemistry and Molecular Biology Group, Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India; ICMR Collaborating Centre of Excellence (ICMR-CCoE), Department of Life Science, National Institute of Technology, Rourkela, Odisha, 769008, India. Electronic address: samirp@nitrkl.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 04:42",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41322307"
+    ],
+    "refs": [],
+    "similar": [
+      "40669281",
+      "33596966",
+      "26085088",
+      "18560576",
+      "15899874",
+      "34319031",
+      "25923331",
+      "34503994",
+      "34473867",
+      "12634613",
+      "30954555",
+      "17124180",
+      "20682643",
+      "35908628",
+      "34642906",
+      "27190263",
+      "28835422",
+      "31068247",
+      "25962089",
+      "22508389",
+      "32855526",
+      "22539223",
+      "17571247",
+      "22429326",
+      "34920321",
+      "30070602",
+      "32754286",
+      "28261562",
+      "31923609",
+      "20348135",
+      "26782786",
+      "24908436",
+      "31077779",
+      "39810240",
+      "25948775",
+      "24475290",
+      "27487275",
+      "28880816",
+      "37378911",
+      "26463322",
+      "32337014",
+      "18850007",
+      "23460897",
+      "40433167",
+      "26847351",
+      "39488528",
+      "27659015",
+      "15126351",
+      "14614325",
+      "12496760",
+      "27832204",
+      "12394273",
+      "27475839",
+      "30287284",
+      "31516890",
+      "25313314",
+      "25315069",
+      "28415607",
+      "28582695",
+      "23215027",
+      "18394600",
+      "41460614",
+      "22687603",
+      "20234167",
+      "34751409",
+      "28490812",
+      "32711442",
+      "27421653",
+      "28429280",
+      "21163286",
+      "24040395",
+      "32698743",
+      "15087453",
+      "37045940",
+      "33209217",
+      "27259275",
+      "30121333",
+      "34073721",
+      "11753657",
+      "27596549",
+      "33670440",
+      "38637479",
+      "14581508",
+      "34233687",
+      "16801630",
+      "23242655",
+      "21980513",
+      "15488759",
+      "24736069",
+      "27582487",
+      "30538122",
+      "32504382",
+      "29802754",
+      "16397253",
+      "23028963",
+      "9180389",
+      "40299558",
+      "33222246",
+      "33273553",
+      "28102109"
+    ],
+    "review": [
+      "40669281",
+      "34503994",
+      "22687603"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)01114-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)01114-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

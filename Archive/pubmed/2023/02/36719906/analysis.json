@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36719906",
+  "title": "maxATAC: Genome-scale transcription-factor binding prediction from ATAC-seq with deep neural networks.",
+  "authors": "Cazares, Tareian A; Rizvi, Faiz W; Iyer, Balaji; Chen, Xiaoting; Kotliar, Michael; Bejjani, Anthony T; Wayman, Joseph A; Donmez, Omer; Wronowski, Benjamin; Parameswaran, Sreeja; Kottyan, Leah C; Barski, Artem; Weirauch, Matthew T; Prasath, V B Surya; Miraldi, Emily R",
+  "journal": "PLoS computational biology",
+  "published_date": "2023-02-01",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用深度神经网络从ATAC-seq数据预测全基因组转录因子结合位点，核心聚焦TF-DNA结合位点预测，方法为AI建模，高度匹配本课题。",
+  "abstract": "Transcription factors read the genome, fundamentally connecting DNA sequence to gene expression across diverse cell types. Determining how, where, and when TFs bind chromatin will advance our understanding of gene regulatory networks and cellular behavior. The 2017 ENCODE-DREAM in vivo Transcription-Factor Binding Site (TFBS) Prediction Challenge highlighted the value of chromatin accessibility data to TFBS prediction, establishing state-of-the-art methods for TFBS prediction from DNase-seq. However, the more recent Assay-for-Transposase-Accessible-Chromatin (ATAC)-seq has surpassed DNase-seq as the most widely-used chromatin accessibility profiling method. Furthermore, ATAC-seq is the only such technique available at single-cell resolution from standard commercial platforms. While ATAC-seq datasets grow exponentially, suboptimal motif scanning is unfortunately the most common method for TFBS prediction from ATAC-seq. To enable community access to state-of-the-art TFBS prediction from ATAC-seq, we (1) curated an extensive benchmark dataset (127 TFs) for ATAC-seq model training and (2) built \"maxATAC\", a suite of user-friendly, deep neural network models for genome-wide TFBS prediction from ATAC-seq in any cell type. With models available for 127 human TFs, maxATAC is the largest collection of high-performance TFBS prediction models for ATAC-seq. maxATAC performance extends to primary cells and single-cell ATAC-seq, enabling improved TFBS prediction in vivo. We demonstrate maxATAC's capabilities by identifying TFBS associated with allele-dependent chromatin accessibility at atopic dermatitis genetic risk loci.",
+  "abstract_zh": "转录因子读取基因组，从根本上将DNA序列与不同细胞类型中的基因表达联系起来。确定转录因子（TFs）如何、何处以及何时结合染色质，将推进我们对基因调控网络和细胞行为的理解。2017年ENCODE-DREAM体内转录因子结合位点（TFBS）预测挑战赛凸显了染色质可及性数据在TFBS预测中的价值，确立了基于DNase-seq进行TFBS预测的最先进方法。然而，更近期的转座酶可及染色质分析（ATAC）-seq已超越DNase-seq，成为最广泛使用的染色质可及性分析技术。此外，ATAC-seq是标准商业平台中唯一能以单细胞分辨率提供的此类技术。尽管ATAC-seq数据集呈指数级增长，但次优的基序扫描不幸地成为从ATAC-seq预测TFBS的最常用方法。为使社区能够利用最先进的ATAC-seq TFBS预测方法，我们（1）为ATAC-seq模型训练整理了一个广泛的基准数据集（127个TFs），并（2）构建了“maxATAC”，一套用户友好的深度神经网络模型，用于从任何细胞类型的ATAC-seq中进行全基因组TFBS预测。凭借覆盖127个人类TFs的模型，maxATAC是最大的高性能ATAC-seq TFBS预测模型集合。maxATAC的性能扩展至原代细胞和单细胞ATAC-seq，从而改善了体内TFBS预测。我们通过识别与特应性皮炎遗传风险位点中等位基因依赖性染色质可及性相关的TFBS，展示了maxATAC的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36719906/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36719906/",
+  "paper_page_path": "papers/pubmed/36719906/index.html"
+}

@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "36720898",
+    "doi": "10.1038/s41598-023-28571-7",
+    "title": "Explainable artificial intelligence as a reliable annotator of archaeal promoter regions."
+  },
+  "content": {
+    "abstract": "Archaea are a vast and unexplored cellular domain that thrive in a high diversity of environments, having central roles in processes mediating global carbon and nutrient fluxes. For these organisms to balance their metabolism, the appropriate regulation of their gene expression is essential. A key momentum in regulating genes responsible for the life maintenance of archaea is when transcription factor proteins bind to the promoter element. This DNA segment is conserved, which enables its exploration by machine learning techniques. Here, we trained and tested a support vector machine with 3935 known archaeal promoter sequences. All promoter sequences were coded into DNA Duplex Stability. After, we performed a model interpretation task to map the decision pattern of the classification procedure. We also used a dataset of known-promoter sequences for validation. Our results showed that an AT rich region around position - 27 upstream (relative to the start TSS) is the most conserved in the analyzed organisms. In addition, we were able to identify the BRE element (- 33), the PPE (at - 10) and a position at + 3, that provides a more understandable picture of how promoters are organized in all the archaeal organisms. Finally, we used the interpreted model to identify potential promoter sequences of 135 unannotated organisms, delivering regulatory regions annotation of archaea in a scale never accomplished before ( https://pcyt.unam.mx/gene-regulation/ ). We consider that this approach will be useful to understand how gene regulation is achieved in other organisms apart from the already established transcription factor binding sites.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Artificial Intelligence",
+      "*Machine Learning",
+      "Archaea/genetics",
+      "Promoter Regions, Genetic",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sganzerla Martinez, Gustavo",
+        "Perez-Rueda, Ernesto",
+        "Kumar, Aditya",
+        "Sarkar, Sharmilee",
+        "de Avila E Silva, Scheila"
+      ],
+      "short_names": [
+        "Sganzerla Martinez G",
+        "Perez-Rueda E",
+        "Kumar A",
+        "Sarkar S",
+        "de Avila E Silva S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Programa de Pos-Graduacao em Biotecnologia, Universidade de Caxias do Sul, Caxias do Sul, RS, Brazil.",
+        "Unidad Academica de Yucatan, Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, Universidad Nacional Autonoma de Mexico, Yucatan, Merida, Mexico.",
+        "Department of Molecular Biology and Biotechnology, Tezpur University, Tezpur, Assam, 784028, India.",
+        "Department of Molecular Biology and Biotechnology, Tezpur University, Tezpur, Assam, 784028, India.",
+        "Programa de Pos-Graduacao em Biotecnologia, Universidade de Caxias do Sul, Caxias do Sul, RS, Brazil. sasilva6@ucs.br."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sganzerla Martinez, Gustavo",
+        "short_name": "Sganzerla Martinez G",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Pós-Graduação em Biotecnologia, Universidade de Caxias do Sul, Caxias do Sul, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Perez-Rueda, Ernesto",
+        "short_name": "Perez-Rueda E",
+        "identifiers": [],
+        "affiliations": [
+          "Unidad Académica de Yucatán, Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Universidad Nacional Autónoma de México, Yucatán, Mérida, Mexico."
+        ]
+      },
+      {
+        "full_name": "Kumar, Aditya",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biotechnology, Tezpur University, Tezpur, Assam, 784028, India."
+        ]
+      },
+      {
+        "full_name": "Sarkar, Sharmilee",
+        "short_name": "Sarkar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biotechnology, Tezpur University, Tezpur, Assam, 784028, India."
+        ]
+      },
+      {
+        "full_name": "de Avila E Silva, Scheila",
+        "short_name": "de Avila E Silva S",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Pós-Graduação em Biotecnologia, Universidade de Caxias do Sul, Caxias do Sul, RS, Brazil. sasilva6@ucs.br."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Jan 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/01 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "41120858",
+      "40013512",
+      "39994035",
+      "39541188",
+      "39132998",
+      "38385146",
+      "37347516"
+    ],
+    "refs": [
+      "35832629",
+      "35544234",
+      "35538405",
+      "34989149",
+      "34713600",
+      "34036968",
+      "33539888",
+      "33525828",
+      "33256715",
+      "33005306",
+      "31665002",
+      "31509185",
+      "31299595",
+      "31024615",
+      "30649179",
+      "30290805",
+      "29540741",
+      "29358630",
+      "29178818",
+      "29123225",
+      "28340330",
+      "28286728",
+      "27137495",
+      "23874456",
+      "21827769",
+      "19478005",
+      "18805906",
+      "18647401",
+      "18397532",
+      "17914227",
+      "17697097",
+      "16754611",
+      "15803645",
+      "15139820",
+      "11765852",
+      "7584402",
+      "2439888"
+    ],
+    "similar": [
+      "36720898",
+      "35538405",
+      "32822422",
+      "12694606",
+      "8639326",
+      "15643935",
+      "22496454",
+      "10570129",
+      "30504216",
+      "12236465",
+      "34878325",
+      "35856564",
+      "24050175",
+      "18366609",
+      "22369687",
+      "10200952",
+      "18834544",
+      "8939964",
+      "11397082",
+      "33958766",
+      "10637320",
+      "7896710",
+      "10200975",
+      "21265754",
+      "19818017",
+      "10556324",
+      "2124695",
+      "23768203",
+      "27806702",
+      "35863177",
+      "19749050",
+      "30138429",
+      "14597623",
+      "34724814",
+      "15632422",
+      "29178818",
+      "15945123",
+      "22851658",
+      "24039266",
+      "34214112",
+      "22099630",
+      "27107716",
+      "34253062",
+      "27920295",
+      "20085377",
+      "12381724",
+      "9860949",
+      "9489666",
+      "21203543",
+      "17117497",
+      "15184569",
+      "23240084",
+      "32232532",
+      "18981048",
+      "15656994",
+      "27920300",
+      "23356306",
+      "8380090",
+      "16362910",
+      "1748992",
+      "16115317",
+      "20351259",
+      "12801994",
+      "27743417",
+      "15790569",
+      "19838305",
+      "17307872",
+      "9826181",
+      "15723697",
+      "12459268",
+      "28777382",
+      "9379893",
+      "34927418",
+      "10635322",
+      "23497287",
+      "21826217",
+      "10384270",
+      "34910467",
+      "26735411",
+      "12540196",
+      "28760969",
+      "17215906",
+      "15496828",
+      "15171724",
+      "15936657",
+      "9335278",
+      "10973967",
+      "2497942"
+    ],
+    "review": [
+      "36720898",
+      "12694606",
+      "8639326",
+      "12236465",
+      "24050175",
+      "10200952",
+      "23768203",
+      "29178818",
+      "22099630",
+      "32232532",
+      "23356306",
+      "28777382",
+      "10384270",
+      "12540196"
+    ],
+    "pmc": [
+      "9889792"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-28571-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36720898/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36720898",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

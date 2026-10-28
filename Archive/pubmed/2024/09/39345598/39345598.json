@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "39345598",
+    "doi": "10.1101/2024.09.16.613355",
+    "title": "Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC."
+  },
+  "content": {
+    "abstract": "Three-dimensional nuclear DNA architecture comprises well-studied intra-chromosomal (cis) folding and less characterized inter-chromosomal (trans) interfaces. Current predictive models of 3D genome folding can effectively infer pairwise cis-chromatin interactions from the primary DNA sequence but generally ignore trans contacts. There is an unmet need for robust models of trans-genome organization that provide insights into their underlying principles and functional relevance. We present TwinC, an interpretable convolutional neural network model that reliably predicts trans contacts measurable through proximity ligation-dependent (in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation assays. . TwinC uses a paired sequence design from replicate Hi-C experiments to learn single base pair relevance in trans interactions across two stretches of DNA. The method achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from in situ and intact Hi-C experiments in heart tissue. Furthermore, we train TwinC using in situ Hi-C data from the widely used GM12878 cell line and validate its performance with orthogonal DNA SPRITE assay in the same cell type. Mechanistically, the neural network learns the importance of compartments, chromatin accessibility, clustered transcription factor binding and G-quadruplexes in forming trans contacts. In summary, TwinC models and interprets trans genome architecture, shedding light on this poorly understood aspect of gene regulation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jha, Anupama",
+        "Hristov, Borislav",
+        "Wang, Xiao",
+        "Wang, Sheng",
+        "Greenleaf, William J",
+        "Kundaje, Anshul",
+        "Aiden, Erez Lieberman",
+        "Bertero, Alessandro",
+        "Noble, William Stafford"
+      ],
+      "short_names": [
+        "Jha A",
+        "Hristov B",
+        "Wang X",
+        "Wang S",
+        "Greenleaf WJ",
+        "Kundaje A",
+        "Aiden EL",
+        "Bertero A",
+        "Noble WS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3029-2086",
+        "ORCID: 0000-0002-4919-9087",
+        "ORCID: 0000-0001-7283-4715"
+      ],
+      "affiliations": [
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA.",
+        "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA.",
+        "Department of Applied Physics, Stanford University, Stanford, CA, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University Stanford, CA, USA.",
+        "The Center for Genome Architecture, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, TX, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Computer Science, Rice University, Houston, TX, USA.",
+        "Department of Computational and Applied Mathematics, Rice University, Houston, TX, USA.",
+        "Molecular Biotechnology Center \"Guido Tarone,\" Department of Molecular Biotechnology and Health Sciences, University of Turin, Torino, Italy.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jha, Anupama",
+        "short_name": "Jha A",
+        "identifiers": [
+          "0000-0003-3029-2086"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Hristov, Borislav",
+        "short_name": "Hristov B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Sheng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA.",
+          "Department of Applied Physics, Stanford University, Stanford, CA, USA.",
+          "Chan Zuckerberg Biohub, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Department of Computer Science, Stanford University Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Aiden, Erez Lieberman",
+        "short_name": "Aiden EL",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Genome Architecture, Baylor College of Medicine, Houston, TX, USA.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, TX, USA.",
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Computer Science, Rice University, Houston, TX, USA.",
+          "Department of Computational and Applied Mathematics, Rice University, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Bertero, Alessandro",
+        "short_name": "Bertero A",
+        "identifiers": [
+          "0000-0002-4919-9087"
+        ],
+        "affiliations": [
+          "Molecular Biotechnology Center \"Guido Tarone,\" Department of Molecular Biotechnology and Health Sciences, University of Turin, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Noble, William Stafford",
+        "short_name": "Noble WS",
+        "identifiers": [
+          "0000-0001-7283-4715"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/30 12:47",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39195894",
+      "37699887",
+      "37280678",
+      "37280210",
+      "37094040",
+      "36836777",
+      "36624151",
+      "36104547",
+      "35551308",
+      "34341548",
+      "34234273",
+      "34162892",
+      "34048569",
+      "33854243",
+      "33732290",
+      "33603233",
+      "33046897",
+      "33046896",
+      "32241294",
+      "32154891",
+      "31601866",
+      "30948719",
+      "30892612",
+      "30626972",
+      "30201095",
+      "29887377",
+      "29685368",
+      "29109402",
+      "28273065",
+      "27618450",
+      "27210764",
+      "27192037",
+      "26192317",
+      "26119342",
+      "24396026",
+      "24058759",
+      "23715323",
+      "23103767",
+      "22056786",
+      "21880598",
+      "21498422",
+      "21447817",
+      "21330290",
+      "20300217",
+      "20181287",
+      "19815776",
+      "19563753",
+      "19412530",
+      "19344736",
+      "18662548",
+      "18501343",
+      "17952071",
+      "17700626",
+      "17622196",
+      "17218270",
+      "16614224",
+      "16424298",
+      "15914667",
+      "15361872",
+      "15249177"
+    ],
+    "similar": [
+      "39345598",
+      "42009674",
+      "37790381",
+      "39763871",
+      "36352464",
+      "27008015",
+      "37264486",
+      "39322282",
+      "29382556",
+      "33732290",
+      "32471347",
+      "29471801",
+      "29979818",
+      "29431585",
+      "42475469",
+      "31510655",
+      "20461051",
+      "31699985",
+      "26553003",
+      "28420341",
+      "29048467",
+      "25887659",
+      "36275628",
+      "42467984",
+      "36624151",
+      "41316293",
+      "37440599",
+      "19815776",
+      "36458445",
+      "41507775",
+      "33963348",
+      "40791469",
+      "34675966",
+      "31980751",
+      "29087948",
+      "35499317",
+      "35244156",
+      "35832620",
+      "42470130",
+      "42323313",
+      "31056636",
+      "28986784",
+      "35764630",
+      "37212988",
+      "34957106",
+      "42734757",
+      "40243368",
+      "32999023",
+      "35488276",
+      "41576073",
+      "32191860",
+      "32546248",
+      "40513402",
+      "37013988",
+      "28623585",
+      "36829114",
+      "42641604",
+      "34099014",
+      "26306623",
+      "36744801",
+      "34286910",
+      "28435001",
+      "40652995",
+      "30359306",
+      "35366792",
+      "34415530",
+      "37961712",
+      "33221831",
+      "25307058",
+      "41980945",
+      "33065269",
+      "30591009",
+      "31536770",
+      "35839701",
+      "33545029",
+      "42395409",
+      "39075082",
+      "29887377",
+      "31742318",
+      "31582744",
+      "32987449",
+      "26001583",
+      "35933090",
+      "40136544",
+      "28334818",
+      "36321557",
+      "29685368",
+      "35397520",
+      "37546906",
+      "34415545",
+      "32093610",
+      "42237102",
+      "29503869",
+      "33724986",
+      "32822575",
+      "27153668",
+      "35929807",
+      "23536826",
+      "39715762",
+      "41986002"
+    ],
+    "review": [
+      "39345598",
+      "36275628",
+      "35832620",
+      "34957106",
+      "40513402",
+      "33065269",
+      "35839701",
+      "32987449",
+      "36321557",
+      "29685368"
+    ],
+    "pmc": [
+      "11429679"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39345598/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.16.613355",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

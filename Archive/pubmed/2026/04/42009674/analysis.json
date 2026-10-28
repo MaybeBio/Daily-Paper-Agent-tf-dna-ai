@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42009674",
+  "title": "Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC.",
+  "authors": "Jha, Anupama; Hristov, Borislav; Wang, Xiao; Wang, Sheng; Greenleaf, William J; Kundaje, Anshul; Aiden, Erez Lieberman; Bertero, Alessandro; Noble, William Stafford",
+  "journal": "Nature communications",
+  "published_date": "2026-04-21",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释CNN模型TwinC从DNA序列预测染色体间(trans)3D基因组接触，虽非直接TF-DNA结合建模，但涉及转录因子结合位点聚类作为特征，方法可迁移至TF-DNA互作预测。",
+  "abstract": "Three-dimensional nuclear DNA architecture comprises well-studied intra-chromosomal (cis) folding and less characterized inter-chromosomal (trans) interfaces. Current predictive models of 3D genome folding overlook trans-genome organization. We present TwinC, an interpretable convolutional neural network model that reliably predicts trans contacts measurable through proximity ligation-dependent (in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation assays. TwinC achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from in situ and intact Hi-C experiments in heart tissue. Furthermore, we train TwinC using in situ Hi-C data from the widely used GM12878 cell line and validate its performance with orthogonal DNA SPRITE assay in the same cell type. Mechanistically, the neural network learns the importance of compartments, chromatin accessibility, clustered transcription factor binding, and G-quadruplexes in forming trans contacts. In summary, TwinC models and interprets trans genome architecture, illuminating this poorly understood aspect of gene regulation.",
+  "abstract_zh": "三维核DNA结构包括研究较为充分的染色体内（顺式）折叠和特征化较少的染色体间（反式）界面。当前的三维基因组折叠预测模型忽视了反式基因组组织。我们提出了TwinC，一种可解释的卷积神经网络模型，能够可靠预测通过邻近连接依赖性（原位和完整Hi-C）及独立（DNA SPRITE）全基因组染色质构象检测可测量的反式接触。TwinC在心脏组织的原位和完整Hi-C实验的跨染色体测试集上实现了高预测精度（AUROC=0.80）。此外，我们使用广泛使用的GM12878细胞系的原位Hi-C数据训练TwinC，并通过同一细胞类型中的正交DNA SPRITE检测验证其性能。机制上，神经网络学习了区室、染色质可及性、聚集转录因子结合和G-四链体在形成反式接触中的重要性。总之，TwinC建模并解释反式基因组结构，阐明了基因调控中这一理解不足的方面。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42009674/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42009674/",
+  "paper_page_path": "papers/pubmed/42009674/index.html"
+}

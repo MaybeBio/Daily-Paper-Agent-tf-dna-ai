@@ -1,0 +1,996 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.14.633076",
+  "title": "Sequence-based Drug-Target Binding Site Pre-training Enables Cryptic Pocket Detection and Improves Binding Affinity and Kinetics Prediction",
+  "doi": "10.1101/2025.01.14.633076",
+  "abstract": "Predicting protein-ligand binding characteristics, such as affinity and kinetics, is critical for accelerating drug discovery. However, many existing computational methods face key limitations, including insufficient integration of comprehensive databases, inadequate representation of protein structural dynamics, and incomplete modeling of microscale protein-ligand interactions. To address these challenges, we introduce ProMoNet, a sequence-based pre-training and fine-tuning framework to enhance the prediction of protein-ligand binding characteristics. ProMoNet leverages protein and molecular foundation models to expand data coverage and enhance diversity. It also introduces a pre-training strategy based on protein-ligand binding site prediction, which bridges protein- and ligand-level representations to support downstream prediction tasks involving protein-ligand complexes. Our pre-training module effectively models microscale protein-ligand interactions and captures the dynamic nature of proteins, including binding site crypticity, without relying on 3-dimensional structural inputs. Notably, this module surpasses or matches state-of-the-art structure-based methods in identifying exposed and cryptic binding sites while maintaining high efficiency. Our fine-tuning module then efficiently transfers the pre-trained knowledge to downstream tasks such as binding affinity and binding kinetics prediction, achieving superior performance. The combination of ProMoNet’s strong performance and demonstrated efficiency across multiple tasks highlights its potential for broad applications in drug discovery. Scientific Contribution We propose ProMoNet, a sequence-based pre-training and fine-tuning framework for protein-ligand binding characteristic prediction, where protein-ligand binding site prediction is introduced as a pre-training strategy to bridge independent protein- and ligand-level representations for downstream complex-level tasks. We design two dedicated modules, including a pre-training module that models microscale protein-ligand interactions and captures protein dynamics, as well as a fine-tuning module that efficiently integrates the pre-trained representations for downstream tasks. Even compared to structure-based methods, ProMoNet matches state-of-the-art performance in exposed and cryptic binding site identification and delivers superior results in binding affinity and kinetics prediction, making it a promising tool for drug discovery.",
+  "authors": [
+    "Shuo Zhang",
+    "Li Xie",
+    "Daniel Tiourine",
+    "Lei Xie"
+  ],
+  "published_date": "2025-01-19",
+  "updated_date": "2025-01-19T13:35:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.633076",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.633076.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T06:05:13Z",
+        "timestamp": 1782281113727,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 93,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                19
+              ]
+            ],
+            "date-time": "2025-01-19T00:00:00Z",
+            "timestamp": 1737244800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01GM122845"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM122845"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01AG057555"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01AG057555"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R33AG083302"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R33AG083302"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2230354"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2230354"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting protein-ligand binding characteristics, such as affinity and kinetics, is critical for accelerating drug discovery. However, many existing computational methods face key limitations, including insufficient integration of comprehensive databases, inadequate representation of protein structural dynamics, and incomplete modeling of microscale protein-ligand interactions. To address these challenges, we introduce ProMoNet, a sequence-based pre-training and fine-tuning framework to enhance the prediction of protein-ligand binding characteristics. ProMoNet leverages protein and molecular foundation models to expand data coverage and enhance diversity. It also introduces a pre-training strategy based on protein-ligand binding site prediction, which bridges protein- and ligand-level representations to support downstream prediction tasks involving protein-ligand complexes. Our pre-training module effectively models microscale protein-ligand interactions and captures the dynamic nature of proteins, including binding site crypticity, without relying on 3-dimensional structural inputs. Notably, this module surpasses or matches state-of-the-art structure-based methods in identifying exposed and cryptic binding sites while maintaining high efficiency. Our fine-tuning module then efficiently transfers the pre-trained knowledge to downstream tasks such as binding affinity and binding kinetics prediction, achieving superior performance. The combination of ProMoNet’s strong performance and demonstrated efficiency across multiple tasks highlights its potential for broad applications in drug discovery.</jats:p>\n                <jats:sec>\n                  <jats:title>Scientific Contribution</jats:title>\n                  <jats:p>We propose ProMoNet, a sequence-based pre-training and fine-tuning framework for protein-ligand binding characteristic prediction, where protein-ligand binding site prediction is introduced as a pre-training strategy to bridge independent protein- and ligand-level representations for downstream complex-level tasks. We design two dedicated modules, including a pre-training module that models microscale protein-ligand interactions and captures protein dynamics, as well as a fine-tuning module that efficiently integrates the pre-trained representations for downstream tasks. Even compared to structure-based methods, ProMoNet matches state-of-the-art performance in exposed and cryptic binding site identification and delivers superior results in binding affinity and kinetics prediction, making it a promising tool for drug discovery.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.01.14.633076",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            19
+          ]
+        ],
+        "date-time": "2025-01-19T13:35:18Z",
+        "timestamp": 1737293718000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Sequence-based Drug-Target Binding Site Pre-training Enables Cryptic Pocket Detection and Improves Binding Affinity and Kinetics Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9497-6263",
+          "authenticated-orcid": false,
+          "given": "Shuo",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, 10065, NY, USA"
+            },
+            {
+              "name": "Helen & Robert Appel Alzheimer’s Disease Research Institute, Feil Family Brain & Mind Research Institute, Weill Cornell Medicine, Cornell University, New York, 10065, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3658-2535",
+          "authenticated-orcid": false,
+          "given": "Li",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, 10065, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Tiourine",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, 10065, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9051-2111",
+          "authenticated-orcid": false,
+          "given": "Lei",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Helen & Robert Appel Alzheimer’s Disease Research Institute, Feil Family Brain & Mind Research Institute, Weill Cornell Medicine, Cornell University, New York, 10065, NY, USA"
+            },
+            {
+              "name": "Ph.D. Program in Computer Science, The Graduate Center, The City University of New York, New York, 10016, NY, USA"
+            },
+            {
+              "name": "School of Pharmacy and Pharmaceutical Sciences & Center for Drug Discovery, Northeastern University, Boston, 02115, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd1549"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.10.010"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1081/RRS-120037896"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd2082"
+        },
+        {
+          "issue": "2",
+          "key": "2026052020100715000_2025.01.14.633076v3.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "144",
+          "DOI": "10.3390/ijms17020144",
+          "article-title": "Insights into protein–ligand interactions: mechanisms, models, and methods",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "International journal of molecular sciences"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab476"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.9b02147"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-018-0289-4"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.9",
+          "first-page": "7236",
+          "article-title": "Tankbind: Trigonometry-aware neural networks for drug-protein binding structure prediction",
+          "volume": "35",
+          "year": "2022",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Scardino, V. , Di Filippo, J.I. , Cavasotto, C.N. : How good are alphafold models for docking-based virtual screening? Iscience 26(1) (2023)",
+          "DOI": "10.1016/j.isci.2022.105920"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "439",
+          "DOI": "10.1016/j.csbj.2020.02.007",
+          "article-title": "Predicting the impacts of mutations on protein-ligand binding affinity based on molecular dynamics simulations and machine learning methods",
+          "volume": "18",
+          "year": "2020",
+          "journal-title": "Computational and structural biotechnology journal"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.0c00534"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.9b00613"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1177",
+          "DOI": "10.1038/s41467-023-36699-3",
+          "article-title": "Predicting locations of cryptic pockets from single protein structures using the pocketminer graph neural network",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "issue": "8",
+          "key": "2026052020100715000_2025.01.14.633076v3.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "2135",
+          "DOI": "10.1021/acs.jctc.2c01085",
+          "article-title": "Predicting biomolecular binding kinetics: A review",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Qiao, Z. , Nie, W. , Vahdat, A. , al.: State-specific protein–ligand complex structure prediction with a multiscale deep generative model. Nature Machine Intelligence, 1–14 (2024)",
+          "DOI": "10.1038/s42256-024-00792-z"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1071",
+          "DOI": "10.1038/s41467-024-45461-2",
+          "article-title": "Dynamicbind: predicting ligand-specific protein-ligand complex structure with a deep equivariant generative model",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa921"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Badkul, A. , Xie, L. , Zhang, S. , Xie, L. : Multimodal out-of-distribution individual uncertainty quantification enhances binding affinity prediction for polypharmacology. Nature Machine Intelligence, 1–11 (2025)",
+          "DOI": "10.1038/s42256-025-01151-2"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, S. , Zhou, J. , Xu, T. , Huang, L. , Wang, F. , Xiong, H. , Huang, W. , Dou, D. , Xiong, H. : Structure-aware interactive graph neural networks for the prediction of protein-ligand binding affinity. In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, pp. 975–985 (2021)",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "19171",
+          "DOI": "10.1038/s41598-023-46382-8",
+          "article-title": "A universal framework for accurate and efficient geometric deep learning of molecular systems",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Koh, H.Y. , Nguyen, A.T. , Pan, S. , May, L.T. , Webb, G.I. : Physicochemical graph neural network for learning protein–ligand interaction fingerprints from sequence data. Nature Machine Intelligence, 1–15 (2024)",
+          "DOI": "10.1101/2023.09.17.558145"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.24",
+          "article-title": "On the opportunities and risks of foundation models",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.25",
+          "article-title": "Scientific large language models: A survey on biological & chemical domains",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.26",
+          "article-title": "Progress and opportunities of foundation models in bioinformatics",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11633-022-1410-8"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2405840121"
+        },
+        {
+          "issue": "4",
+          "key": "2026052020100715000_2025.01.14.633076v3.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.1016/j.cels.2020.03.002",
+          "article-title": "Monn: a multi-objective neural network for predicting compound-protein interactions and affinities",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Cell systems"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1186/s13321-022-00584-w",
+          "article-title": "Sequence-based prediction of protein binding regions and drug– target interactions",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Seo, S. , Kim, H. , Lee, J. , Choi, S. , Park, S. : Exploring the potential of compound– protein complex structure-free models in virtual screening using blendnet. Briefings in Bioinformatics 26(1) (2024)",
+          "DOI": "10.1093/bib/bbae712"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2018.05.003"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku928"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks966"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, G. , Gao, Z. , Ding, Q. , al.: Uni-mol: A universal 3d molecular representation learning framework. In: The Eleventh International Conference on Learning Representations (2022)",
+          "DOI": "10.26434/chemrxiv-2022-jjm0j-v3"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.37",
+          "first-page": "31",
+          "article-title": "Smiles, a chemical language and information system",
+          "volume": "28",
+          "year": "1988",
+          "journal-title": "1. introduction to methodology and encoding rules. Journal of chemical information and computer sciences"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.38",
+          "unstructured": "Landrum, G. : RDKit: A software suite for cheminformatics, computational chemistry, and predictive modeling. Academic Press (2013)"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "3",
+          "key": "2026052020100715000_2025.01.14.633076v3.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1109/TCBB.2008.27",
+          "article-title": "Reconstruction of 3d structures from protein contact maps",
+          "volume": "5",
+          "year": "2008",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.41",
+          "first-page": "301",
+          "article-title": "Exploring the alternative conformation of a known protein structure based on contact map prediction",
+          "volume": "64",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.42",
+          "unstructured": "Vaswani, A. , Shazeer, N. , Parmar, N. , Uszkoreit, J. , Jones, L. , Gomez, A.N. , Kaiser, L. , Polosukhin, I. : Attention is all you need. Advances in neural information processing systems 30 (2017)"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Su, D. , Xu, Y. , Winata, G.I. , Xu, P. , Kim, H. , Liu, Z. , Fung, P. : Generalizing question answering system with pre-trained language model fine-tuning. In: Proceedings of the 2nd Workshop on Machine Reading for Question Answering, pp. 203–211 (2019)",
+          "DOI": "10.18653/v1/D19-5827"
+        },
+        {
+          "issue": "21",
+          "key": "2026052020100715000_2025.01.14.633076v3.44",
+          "first-page": "5069",
+          "article-title": "Deeppocket: ligand binding site detection and segmentation using 3d convolutional neural networks",
+          "volume": "62",
+          "year": "2021",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-1"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "5035",
+          "DOI": "10.1038/s41598-020-61860-z",
+          "article-title": "Improving detection of protein-ligand binding sites with 3d segmentation",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.48",
+          "first-page": "1",
+          "article-title": "Puresnet: prediction of protein-ligand binding sites using deep residual neural network",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2026052020100715000_2025.01.14.633076v3.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "718",
+          "DOI": "10.1093/bioinformatics/btad718",
+          "article-title": "Deepprosite: structure-aware protein binding site prediction using esmfold and pretrained language model",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "107257",
+          "DOI": "10.1016/j.engappai.2023.107257",
+          "article-title": "Pseq2sites: enhancing protein sequence-based ligand binding-site prediction accuracy via the deep convolutional network and attention mechanism",
+          "volume": "127",
+          "year": "2024",
+          "journal-title": "Engineering Applications of Artificial Intelligence"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Redmon, J. : You only look once: Unified, real-time object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (2016)",
+          "DOI": "10.1109/CVPR.2016.91"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "5163",
+          "DOI": "10.1038/s41467-024-49516-2",
+          "article-title": "Highly accurate carbohydrate-binding site prediction with deepglycansite",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules27165114"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "506",
+          "DOI": "10.1093/bib/bbab506",
+          "article-title": "Fusiondta: attention-based feature polymerizer and knowledge distillation for drug-target binding affinity prediction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2026052020100715000_2025.01.14.633076v3.56",
+          "first-page": "049",
+          "article-title": "Capla: improved prediction of protein–ligand binding affinity by a deep learning approach based on a cross-attention mechanism",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "2026052020100715000_2025.01.14.633076v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1093/bib/bbad145",
+          "article-title": "Improving drug-target affinity prediction via feature fusion and knowledge distillation",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.18606681"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.01.029"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.60",
+          "article-title": "Score-based generative modeling through stochastic differential equations",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "issue": "14",
+          "key": "2026052020100715000_2025.01.14.633076v3.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "15956",
+          "DOI": "10.1021/acsomega.9b01997",
+          "article-title": "Onionnet: a multiple-layer intermolecular-contact-based convolutional neural network for protein–ligand binding affinity prediction",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "ACS omega"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.1c01830"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300604z"
+        },
+        {
+          "issue": "1",
+          "key": "2026052020100715000_2025.01.14.633076v3.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1186/s13321-021-00522-2",
+          "article-title": "Gnina 1.0: molecular docking with deep learning",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sverrisson, F. , Feydy, J. , Correia, B.E. , Bronstein, M.M. : Fast end-to-end learning on protein surfaces. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 15272–15281 (2021)",
+          "DOI": "10.1101/2020.12.28.424589"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "1566",
+          "DOI": "10.1038/s41467-025-56973-w",
+          "article-title": "Author correction: Interformer: an interaction-aware model for protein-ligand docking and affinity prediction",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "nature communications"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa524"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa880"
+        },
+        {
+          "issue": "2",
+          "key": "2026052020100715000_2025.01.14.633076v3.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1038/s42256-022-00605-1",
+          "article-title": "Interpretable bilinear attention network with domain adaptation improves drug–target prediction",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "issue": "35",
+          "key": "2026052020100715000_2025.01.14.633076v3.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "20701",
+          "DOI": "10.1039/D0RA02297G",
+          "article-title": "Drug–target affinity prediction using graph neural network and contact maps",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "RSC advances"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-022-08648-9"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00060"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Passaro, S. , Corso, G. , Wohlwend, J. , Reveiz, M. , Thaler, S. , Somnath, V.R. , Getz, N. , Portnoi, T. , Roy, J. , Stark, H. , et al.: Boltz-2: Towards accurate and efficient binding affinity prediction. BioRxiv (2025)",
+          "DOI": "10.1101/2025.06.14.659707"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "issue": "2",
+          "key": "2026052020100715000_2025.01.14.633076v3.76",
+          "first-page": "895",
+          "article-title": "Comparative assessment of scoring functions: the casf-2016 update",
+          "volume": "59",
+          "year": "2018",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5b00523"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm061277y"
+        },
+        {
+          "issue": "5",
+          "key": "2026052020100715000_2025.01.14.633076v3.79",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1093/bib/bbab127",
+          "article-title": "Persistent spectral hypergraph based machine learning (psh-ml) for protein-ligand binding affinity prediction",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in bioinformatics"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4155/fmc.11.112"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2013.02.007"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00450"
+        },
+        {
+          "issue": "22",
+          "key": "2026052020100715000_2025.01.14.633076v3.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "18985",
+          "DOI": "10.1021/acsomega.2c02156",
+          "article-title": "Public data set of protein–ligand dissociation kinetic constants for quantitative structure–kinetics relationship studies",
+          "volume": "7",
+          "year": "2022",
+          "journal-title": "ACS omega"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.84",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, T. , Hwang, L. , Burley, S.K. , Nitsche, C.I. , Southan, C. , Walters, W.P. , Gilson, M.K. : Bindingdb in 2024: a fair knowledgebase of protein-small molecule binding data. Nucleic Acids Research, 1075 (2024)",
+          "DOI": "10.26434/chemrxiv-2024-v9ckg"
+        },
+        {
+          "issue": "15",
+          "key": "2026052020100715000_2025.01.14.633076v3.85",
+          "first-page": "2887",
+          "article-title": "The properties of known drugs",
+          "volume": "39",
+          "year": "1996",
+          "journal-title": "1. molecular frameworks. Journal of medicinal chemistry"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.86",
+          "first-page": "785",
+          "volume-title": "In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+          "volume": "13",
+          "year": "2016"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.87",
+          "unstructured": "Gasteiger, J. , Groß, J. , Günnemann, S. : Directional message passing for molecular graphs. In: International Conference on Learning Representations (ICLR) (2020)"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.88",
+          "unstructured": "Lei Ba, J. , Kiros, J.R. , Hinton, G.E. : Layer normalization. ArXiv e-prints, 1607 (2016)"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.89",
+          "article-title": "Modern hierarchical, agglomerative clustering algorithms",
+          "year": "2011",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "2",
+          "key": "2026052020100715000_2025.01.14.633076v3.90",
+          "doi-asserted-by": "crossref",
+          "first-page": "513",
+          "DOI": "10.1039/C7SC02664A",
+          "article-title": "Moleculenet: a benchmark for molecular machine learning",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Chemical science"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.91",
+          "article-title": "Searching for activation functions",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052020100715000_2025.01.14.633076v3.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4792"
+        },
+        {
+          "issue": "D1",
+          "key": "2026052020100715000_2025.01.14.633076v3.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "930",
+          "DOI": "10.1093/nar/gky1075",
+          "article-title": "Chembl: towards direct deposition of bioassay data",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic acids research"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.01.14.633076",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:15:42Z",
+        "timestamp": 1782278142000
+      },
+      "score": 119.00343,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.01.14.633076"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            19
+          ]
+        ]
+      },
+      "references-count": 93,
+      "URL": "https://doi.org/10.1101/2025.01.14.633076",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13321-026-01227-0",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

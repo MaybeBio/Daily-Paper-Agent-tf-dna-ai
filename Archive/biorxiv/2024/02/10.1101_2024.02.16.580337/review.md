@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends as provided)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors propose that YY1 haploinsufficiency in GADEVS disrupts corticogenesis through cell-type specific rewiring of transcriptional programs, affecting both cell-autonomous and non-cell-autonomous mechanisms, with implications for targeted interventions
+- **Visible evidence base** Abstract, Introduction, Results (narrative), Discussion, Materials and Methods, figure callouts (fig 1-7, supplementary figures S1-S8), tables referenced (S1-S4)
+- **Missing materials affecting confidence** Full figures and figure legends, supplementary tables (S1-S4), detailed statistical reporting, raw data, code, and complete methods for computational analyses were not provided; only narrative descriptions of results were available
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in neurodevelopmental disorder research by modeling GADEVS using patient-derived iPSCs and multi-omics approaches. The study is ambitious in scope, combining 2D and 3D models with single-cell multiomics and gene regulatory network reconstruction. However, the current version has significant gaps in data presentation, statistical rigor, and mechanistic validation that prevent full assessment of the claims. The narrative is compelling but the evidence base as presented is incomplete, with several key conclusions appearing to outpace the data shown.
+- **Who would be interested in the results, and why** Researchers in neurodevelopmental disorders, transcriptional regulation, and stem cell biology would find this work relevant. The study addresses a clinically important syndrome (GADEVS) and proposes a mechanistic framework that could inform therapeutic strategies. The use of patient-derived models and single-cell approaches aligns with current trends in the field.
+- **Major strengths** 1) Use of patient-derived iPSCs from multiple individuals with different mutation types (truncating and missense) provides clinical relevance. 2) Integration of multiple modalities (bulk RNA-seq, ChIP-seq, single-cell multiomics, 3D organoids) is comprehensive. 3) The identification of non-cell-autonomous effects on astrocytes is a novel and potentially important finding. 4) The study addresses a knowledge gap regarding YY1's role in human neurodevelopment specifically.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "YY1 haploinsufficiency causes a pervasive alteration of cell type specific transcriptional networks, disrupting corticogenesis at the level of neural progenitors and terminally differentiated neurons"
+  - **Evidence pointer** Results sections "YY1 pathotogenic mutations disrupt DNA binding and cause widespread transcriptional downregulation in iPSCs" and "YY1 haploinsufficiency affects intermediate cellular states in early organoid development"; figures 1, 3
+  - **Concern** The claim of "pervasive alteration" is based on differential expression analyses, but the manuscript does not provide effect sizes, numbers of DEGs per cell type, or validation of key transcriptional changes by orthogonal methods (e.g., qRT-PCR, protein-level confirmation). The ChIP-seq data show reduced YY1 binding, but the functional consequence of this reduction on target gene expression is not quantitatively linked. The statistical framework for identifying DEGs in single-cell data is not described in sufficient detail.
+  - **Why it matters** Without clear effect sizes and validation, the reader cannot assess the biological significance of the transcriptional changes. The claim of "pervasive" alteration requires quantitative support to distinguish meaningful biological effects from statistical noise.
+  - **Resolution test** Provide numbers of DEGs per cell type with effect sizes, validate key findings (e.g., NEUROG2, ETV5 targets) by independent methods, and show correlation between YY1 binding loss and expression changes at individual loci.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** "Transcriptional programs in neurons propagated to neighboring astrocytes through a major non-cell autonomous pro-inflammatory effect"
+  - **Evidence pointer** Results section "Astrocytes respond to environmental changes caused by YY1-deficient neurons and undergo cell activation"; figure 6
+  - **Concern** The non-cell-autonomous claim relies on co-culture experiments where mouse astrocytes are exposed to human neurons. The manuscript does not address potential species-specific effects, the mechanism of signal propagation (soluble factors? contact-dependent?), or whether the astrocytic response is specific to YY1-deficient neurons versus general neuronal distress. The use of only 291 DEGs in astrocytes and the network analysis identifying "master regulators" requires validation.
+  - **Why it matters** The non-cell-autonomous finding is a major novel contribution of this work. If the effect is not specific to YY1 deficiency or is an artifact of the co-culture system, the conclusion would be substantially weakened.
+  - **Resolution test** Include appropriate controls (e.g., neurons with other genetic perturbations), test for soluble factor involvement (conditioned media experiments), and validate master regulator predictions (e.g., knockdown/overexpression of Spi1, Tnf in astrocytes).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** "Cell-type resolved reconstruction of gene regulatory networks uncovered the regulatory interplay between YY1, NEUROG2 and ETV5 and its aberrant rewiring in GADEVS"
+  - **Evidence pointer** Results section "Mechanistic dissection of YY1-mediated dysregulations in glutamatergic neurons"; figure 7
+  - **Concern** The GRN reconstruction using CellOracle is described, but the manuscript does not provide details on the parameters used, quality control metrics, or validation of the predicted regulatory interactions. The claim of "aberrant rewiring" requires demonstration that the network topology differs significantly between conditions, not just that individual genes change expression. The figure 7 panels are referenced but not shown in the provided text.
+  - **Why it matters** GRN reconstruction is a computational prediction that requires experimental validation. Without evidence that the predicted YY1-NEUROG2-ETV5 interactions are functionally relevant, the mechanistic claim remains speculative.
+  - **Resolution test** Provide network metrics comparing control vs. GADEVS, validate key predicted interactions (e.g., ChIP-PCR for NEUROG2 binding at YY1 targets, reporter assays for ETV5 targets), and show that perturbation of these TFs phenocopies or rescues YY1-deficient phenotypes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Germline mutations of YY1 cause Gabriele-de Vries syndrome (GADEVS), a neurodevelopmental disorder featuring intellectual disability and a wide range of systemic manifestations"
+  - **Evidence pointer** Introduction; figure 1a
+  - **Concern** The study uses three patient lines (GAD01, GAD02, GAD03) with different mutations. The manuscript does not describe how many independent iPSC clones were analyzed per patient, whether results were consistent across clones, or whether the control lines were appropriately matched (age, sex, reprogramming method). The GAD03 line shows increased YY1 expression, which is interpreted as a dominant-negative effect, but this interpretation requires functional validation.
+  - **Why it matters** Variability between iPSC lines and clones is a well-known challenge in the field. Without evidence of reproducibility across clones and appropriate controls, the observed phenotypes could be due to line-specific effects rather than YY1 mutations.
+  - **Resolution test** Describe the number of clones per line, show consistency of key phenotypes across clones, and include additional control lines or isogenic corrected lines to strengthen the genotype-phenotype link.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1a
+  - **Evidence pointer** Results section "YY1 pathotogenic mutations disrupt DNA binding and cause widespread transcriptional downregulation in iPSCs"
+  - **Issue** The manuscript states "GAD01: p.(Lys179*); GAD02: p.(Asp129Ilefs*127), and GAD03: p.(Cys303Arg)" but does not provide a schematic or table showing the location of these mutations relative to YY1 functional domains (e.g., zinc fingers, activation domains).
+  - **Required correction** Add a schematic figure or table showing mutation positions and predicted functional impact.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Multiple results sections
+  - **Evidence pointer** Figures 1, 3, 4, 5, 6
+  - **Issue** Statistical details (e.g., number of biological replicates, statistical tests used, multiple testing correction methods) are not consistently reported in the results narrative.
+  - **Required correction** Provide a summary of statistical methods and include effect sizes and confidence intervals for key comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and Methods, "Computational analyses"
+  - **Issue** The methods for single-cell multiomics data processing, clustering, and differential expression are described but lack specific parameters (e.g., number of PCs, resolution parameters, thresholds for cell filtering).
+  - **Required correction** Provide detailed parameters or reference to published protocols to ensure reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions "the first recapitulation of a pseudo-ventricle phenotype in human organoids" but does not compare this to other organoid models of neurodevelopmental disorders that may show similar phenotypes.
+  - **Required correction** Add comparison to existing organoid models to contextualize the novelty of this finding.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** "Data availability and code availability" section
+  - **Issue** The statement "All the data and code are available upon request" is insufficient for a study of this scale and importance. Nature journals require data deposition in public repositories.
+  - **Required correction** Deposit raw and processed data in appropriate repositories (e.g., GEO, SRA) and provide accession numbers; share code in a public repository with version control.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative support for "pervasive" transcriptional changes), R1-M2 (insufficient evidence for non-cell-autonomous mechanism), R1-M3 (unvalidated GRN predictions), R1-M4 (incomplete characterization of patient lines and controls)
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is original in its application of patient-derived models and single-cell multiomics to GADEVS, and the focus on non-cell-autonomous effects is a novel angle. However, the conceptual framework (YY1 in neurodevelopment) builds on prior work in mouse models.
+  - Scientific importance: The findings have potential importance for understanding GADEVS pathophysiology and could inform therapeutic strategies. The identification of astrocyte involvement is clinically relevant.
+  - Interdisciplinary readership: The work bridges stem cell biology, neurodevelopment, and transcriptional regulation, which would appeal to a broad readership. However, the technical complexity may limit accessibility.
+  - Technical soundness: The experimental design is generally sound, but the lack of detailed statistical reporting, validation of key findings, and incomplete methods descriptions undermine confidence in the conclusions.
+  - Readability for nonspecialists: The manuscript is well-written and the narrative is clear, but the results section relies heavily on technical jargon and references to figures that are not fully described in the text.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential but requires substantial additional data, validation, and clarity before the claims can be fully assessed. I would be supportive if the technical concerns are resolved with additional experiments and more rigorous reporting.
+
+## Risk / unsupported claims
+- The claim of "pervasive alteration of cell type specific transcriptional networks" is not quantitatively supported in the provided text.
+- The non-cell-autonomous effect on astrocytes is presented as a major finding but lacks mechanistic validation and appropriate controls.
+- The GRN reconstruction identifying YY1, NEUROG2, and ETV5 as key regulators is not validated experimentally.
+- The interpretation of GAD03 as a dominant-negative mutation is speculative without functional assays.
+- The statement "the first recapitulation of a pseudo-ventricle phenotype in human organoids" is not adequately contextualized against existing literature.
+- The claim that transcriptional alterations "ground the rationale for modulatory interventions" is premature without in vivo validation or therapeutic testing.

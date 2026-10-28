@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use Perturb-Seq to profile the transcriptional effects of nearly all human transcription factors (TFs) and a subset of enhancers during cardiomyocyte differentiation. They propose that developmental regulatory networks are organized around dynamic hub TFs rather than hierarchical master regulators, identify TF ensembles coordinating lineage activation and alternate lineage repression, describe a MEF2-PRC1 cooperative interaction, and build a transformer model to predict disease-relevant TFs from patient transcriptomes.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or model validation metrics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, model architecture and training details, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious set of claims spanning genome-scale functional genomics, developmental biology, and deep learning. The central hypothesis, that regulatory networks are hub-based and dynamic rather than hierarchical, is interesting and potentially significant. However, the abstract alone provides insufficient evidence to evaluate the rigor of the Perturb-Seq approach, the completeness of TF coverage, the statistical robustness of the network inferences, or the predictive performance of the transformer model. Several claims, particularly those regarding network architecture and the MEF2-PRC1 interaction, require detailed experimental validation that is not visible here. The manuscript may be of interest to a specialized audience, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Developmental biologists studying cell fate specification, computational biologists working on gene regulatory networks, and researchers in cardiac biology would find the results relevant. The proposed shift from master regulator hierarchies to dynamic hubs could influence how regulatory networks are modeled. The transformer model may interest those applying deep learning to transcriptomics and disease interpretation.
+- **Major strengths** The scale of the Perturb-Seq screen, targeting nearly all human TFs, is a notable technical ambition. The integration of functional genomics with deep learning for disease interpretation is timely. The focus on dynamic, context-dependent regulatory architecture offers a potentially fresh perspective on lineage commitment.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that developmental regulatory networks are distributed across highly connected hub TFs that are dynamic across lineage and time, rather than organized into top-down hierarchies.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a specific network architecture without presenting any quantitative evidence, such as network topology analyses, hub identification criteria, or comparisons against hierarchical models.  
+  - **Why it matters** This is a central conceptual claim that challenges established paradigms. Without supporting data, the claim cannot be assessed for validity or generalizability.  
+  - **Resolution test** Provide network analyses showing hub metrics, statistical significance relative to null models, and explicit comparisons to hierarchical alternatives across multiple time points and lineages.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical completeness  
+  - **Claim pointer** The use of Perturb-Seq to map the transcriptional impact of nearly all human TFs and a subset of enhancers.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the Perturb-Seq library design, the number of TFs actually perturbed, the efficiency of perturbation, the number of cells profiled, or the quality control metrics. The phrase "nearly all" is vague and unverifiable.  
+  - **Why it matters** The entire study rests on the completeness and reliability of this screen. Without these details, the coverage claim and downstream inferences are unverifiable.  
+  - **Resolution test** Include a detailed description of the library, coverage statistics, perturbation efficiency, and cell counts, with quality control metrics in the main text or supplement.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation of molecular interaction  
+  - **Claim pointer** The identification of a dynamic interaction between MEF2 family TFs and members of the Polycomb Repressive complex 1 to execute alternative fate repression.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract claims a specific molecular interaction with functional consequences, but no experimental validation is described, such as co-immunoprecipitation, chromatin immunoprecipitation, or genetic perturbation of the interaction.  
+  - **Why it matters** TF-cofactor interactions inferred from transcriptomic data can be indirect or confounded. Direct biochemical or genetic evidence is required to support this mechanistic claim.  
+  - **Resolution test** Provide orthogonal validation of the MEF2-PRC1 interaction and demonstrate that disrupting it alters alternate lineage repression in a predictable manner.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model validation  
+  - **Claim pointer** The construction of a deep learning transformer model to accurately predict perturbed TFs driving altered regulatory networks in patient-derived transcriptomes.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states the model is accurate but provides no performance metrics, benchmark comparisons, or external validation details. The term "accurately" is unsupported.  
+  - **Why it matters** Predictive models in biology often fail to generalize. Without clear metrics and validation on independent datasets, the utility of the model for disease interpretation is not established.  
+  - **Resolution test** Report quantitative performance metrics, such as precision, recall, or area under the curve, on held-out or external patient datasets, and compare against baseline methods.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "hub TFs"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "hub TFs" is used without a clear operational definition.  
+  - **Required correction** Define the criteria used to classify a TF as a hub, such as degree or centrality thresholds.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope justification  
+  - **Affected element** Enhancer subset  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions perturbing a subset of enhancers but does not explain how this subset was selected or why it is relevant.  
+  - **Required correction** Briefly describe the enhancer selection rationale and its relevance to the study's conclusions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** Transformer model interpretability  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not indicate whether the transformer model provides interpretable insights into regulatory mechanisms or is purely predictive.  
+  - **Required correction** Clarify whether the model offers mechanistic interpretability or only predictive output.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks the technical detail and validation necessary to support the central claims. Specifically, the Perturb-Seq coverage and quality, the network architecture inference, the MEF2-PRC1 interaction validation, and the transformer model performance all require substantive evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The hub-based, dynamic network model is a potentially original contribution, but its novelty cannot be fully assessed without comparison to existing literature and data.  
+  - Scientific importance: If substantiated, the findings could influence how regulatory networks are conceptualized in development and disease. The scale of the screen adds potential importance.  
+  - Interdisciplinary readership: The work bridges genomics, developmental biology, and machine learning, which could appeal to a broad audience, but the abstract does not yet make the case accessible or compelling to nonspecialists.  
+  - Technical soundness: Not assessable from the abstract. Critical technical details are missing.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with Perturb-Seq, TF families, and deep learning. It is not written for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an ambitious and potentially interesting study, but the absence of methodological detail and validation means the core claims cannot be evaluated. I would be supportive if the technical concerns are resolved with full data and rigorous validation.
+
+## Risk / unsupported claims
+- The claim that regulatory networks are organized around dynamic hubs rather than master regulators is unsupported without network topology analyses.
+- The claim of "nearly all" TF coverage is unverifiable without library and quality control details.
+- The MEF2-PRC1 interaction is asserted without direct experimental evidence.
+- The transformer model's accuracy is claimed without performance metrics or external validation.
+- The generalizability of the findings to "human lineage specification" beyond cardiomyocyte differentiation is not supported by the abstract.

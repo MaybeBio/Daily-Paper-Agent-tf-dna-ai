@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2026-h0kn1",
+  "title": "AIQM-PBSA: Integrating Machine Learning InteratomicPotentials with MMPBSA for Accurate Protein–Ligand Binding Free Energy Calculations",
+  "authors": "Xue-Xin Wei; Yuxinxin Chen; Yuedong Yang; Mingyuan Xu; Pavlo O. Dral; Hongming Chen",
+  "journal": "ChemRxiv",
+  "published_date": "2026-01-12",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出AIQM-PBSA，将机器学习原子间势与MMPBSA结合用于蛋白-配体结合自由能计算，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模，属于广义蛋白-配体互作且具AI/物理模拟方法。",
+  "abstract": "End-point binding free energy (BFE) methods, such as molecular mechanics Poisson–Boltzmann surface area (MMPBSA), are widely used to estimate protein–ligand binding affinity due to their favorable balance between accuracy and computational efficiency. Their reliability, however, is often limited by approximations in intramolecular interactions and solvation effects. Given the critical role of force field quality in determining accuracy, we developed a hybrid framework named AIQM-PBSA, which integrates the ONIOM scheme with the PBSA model. Within this framework, the AIQM3 machine learning interatomic potential (MLIP) —an advanced Δ-learning quantum mechanical (QM) model—is employed to refine the molecular mechanics (MM) energy term, while polar and non polar solvation contributions are evaluated under the PBSA formalism. Extensive validation across diverse protein–ligand systems demonstrates that AIQM-PBSA significantly improves the correlation with experimental binding affinities compared to MMPBSA based on classical force fields and other MLIPs, with a representative benchmark showing up to 31% higher Pearson correlation relative to the MMPBSA baseline and 16% higher than ANI-2x. Furthermore, incorporating entropic contributions can further provide modest, target-dependent improvements. In summary, AIQM-PBSA offers a robust and transferable framework that combines QM level accuracy with MM level efficiency, substantially enhancing the reliability of endpoint free energy calculations for biomolecular recognition.",
+  "abstract_zh": "端点结合自由能（BFE）方法，如分子力学泊松-玻尔兹曼表面积（MMPBSA），因其在精度与计算效率之间的良好平衡而被广泛用于估算蛋白质-配体结合亲和力。然而，其可靠性常受限于分子内相互作用和溶剂化效应的近似处理。鉴于力场质量在决定精度中的关键作用，我们开发了一个名为AIQM-PBSA的混合框架，该框架将ONIOM方案与PBSA模型相结合。在此框架内，采用AIQM3机器学习原子间势（MLIP）——一种先进的Δ学习量子力学（QM）模型——来优化分子力学（MM）能量项，而极性和非极性溶剂化贡献则在PBSA形式下进行评估。跨多种蛋白质-配体系统的广泛验证表明，与基于经典力场和其他MLIP的MMPBSA相比，AIQM-PBSA显著提高了与实验结合亲和力的相关性，其中代表性基准测试显示，其皮尔逊相关系数比MMPBSA基线高出高达31%，比ANI-2x高出16%。此外，纳入熵贡献可进一步提供适度且依赖目标的改进。总之，AIQM-PBSA提供了一个稳健且可转移的框架，结合了QM级别的精度与MM级别的效率，显著增强了生物分子识别端点自由能计算的可靠性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2026-h0kn1",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2026-h0kn1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2026-h0kn1/index.html"
+}

@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "38950902",
+    "doi": "10.1093/nar/gkae530",
+    "title": "Machine learning enables pan-cancer identification of mutational hotspots at persistent CTCF binding sites."
+  },
+  "content": {
+    "abstract": "CCCTC-binding factor (CTCF) is an insulator protein that binds to a highly conserved DNA motif and facilitates regulation of three-dimensional (3D) nuclear architecture and transcription. CTCF binding sites (CTCF-BSs) reside in non-coding DNA and are frequently mutated in cancer. Our previous study identified a small subclass of CTCF-BSs that are resistant to CTCF knock down, termed persistent CTCF binding sites (P-CTCF-BSs). P-CTCF-BSs show high binding conservation and potentially regulate cell-type constitutive 3D chromatin architecture. Here, using ICGC sequencing data we made the striking observation that P-CTCF-BSs display a highly elevated mutation rate in breast and prostate cancer when compared to all CTCF-BSs. To address whether P-CTCF-BS mutations are also enriched in other cell-types, we developed CTCF-INSITE-a tool utilising machine learning to predict persistence based on genetic and epigenetic features of experimentally-determined P-CTCF-BSs. Notably, predicted P-CTCF-BSs also show a significantly elevated mutational burden in all 12 cancer-types tested. Enrichment was even stronger for P-CTCF-BS mutations with predicted functional impact to CTCF binding and chromatin looping. Using in vitro binding assays we validated that P-CTCF-BS cancer mutations, predicted to be disruptive, indeed reduced CTCF binding. Together this study reveals a new subclass of cancer specific CTCF-BS DNA mutations and provides insights into their importance in genome organization in a pan-cancer setting.",
+    "keywords": [],
+    "mesh_terms": [
+      "*CCCTC-Binding Factor/metabolism/genetics",
+      "Humans",
+      "Binding Sites/genetics",
+      "*Mutation",
+      "*Machine Learning",
+      "Chromatin/metabolism/genetics",
+      "Neoplasms/genetics/metabolism",
+      "Protein Binding",
+      "Prostatic Neoplasms/genetics/metabolism",
+      "Male",
+      "Female",
+      "Breast Neoplasms/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Wenhan",
+        "Zeng, Yi C",
+        "Achinger-Kawecka, Joanna",
+        "Campbell, Elyssa",
+        "Jones, Alicia K",
+        "Stewart, Alastair G",
+        "Khoury, Amanda",
+        "Clark, Susan J"
+      ],
+      "short_names": [
+        "Chen W",
+        "Zeng YC",
+        "Achinger-Kawecka J",
+        "Campbell E",
+        "Jones AK",
+        "Stewart AG",
+        "Khoury A",
+        "Clark SJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9964-0929",
+        "ORCID: 0000-0002-2902-9371",
+        "ORCID: 0000-0001-9198-7290",
+        "ORCID: 0000-0002-2070-6030",
+        "ORCID: 0000-0002-0950-7129",
+        "ORCID: 0000-0001-5925-5030"
+      ],
+      "affiliations": [
+        "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+        "Structural Biology Laboratory, Victor Chang Cardiac Research Institute, Sydney 2010 New South Wales, Australia.",
+        "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia.",
+        "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+        "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia.",
+        "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+        "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+        "Structural Biology Laboratory, Victor Chang Cardiac Research Institute, Sydney 2010 New South Wales, Australia.",
+        "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia.",
+        "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+        "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia.",
+        "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+        "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Wenhan",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yi C",
+        "short_name": "Zeng YC",
+        "identifiers": [
+          "0000-0001-9964-0929"
+        ],
+        "affiliations": [
+          "Structural Biology Laboratory, Victor Chang Cardiac Research Institute, Sydney 2010 New South Wales, Australia.",
+          "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Achinger-Kawecka, Joanna",
+        "short_name": "Achinger-Kawecka J",
+        "identifiers": [
+          "0000-0002-2902-9371"
+        ],
+        "affiliations": [
+          "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+          "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Campbell, Elyssa",
+        "short_name": "Campbell E",
+        "identifiers": [
+          "0000-0001-9198-7290"
+        ],
+        "affiliations": [
+          "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Jones, Alicia K",
+        "short_name": "Jones AK",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Stewart, Alastair G",
+        "short_name": "Stewart AG",
+        "identifiers": [
+          "0000-0002-2070-6030"
+        ],
+        "affiliations": [
+          "Structural Biology Laboratory, Victor Chang Cardiac Research Institute, Sydney 2010 New South Wales, Australia.",
+          "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Khoury, Amanda",
+        "short_name": "Khoury A",
+        "identifiers": [
+          "0000-0002-0950-7129"
+        ],
+        "affiliations": [
+          "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+          "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Clark, Susan J",
+        "short_name": "Clark SJ",
+        "identifiers": [
+          "0000-0001-5925-5030"
+        ],
+        "affiliations": [
+          "Epigenetics Laboratory, Garvan Institute of Medical Research, Sydney 2010 New South Wales, Australia.",
+          "St Vincent's Clinical School, UNSW, Sydney 2010 New South Wales, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Aug 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/02 00:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42039394",
+      "40634835",
+      "40613712",
+      "40588575",
+      "40382513"
+    ],
+    "refs": [
+      "37144459",
+      "37094063",
+      "36852270",
+      "35416406",
+      "34518536",
+      "34326481",
+      "34040254",
+      "33941236",
+      "33626344",
+      "33398174",
+      "33199048",
+      "33028213",
+      "32832596",
+      "31949157",
+      "31911579",
+      "31249361",
+      "31078526",
+      "30679435",
+      "29670109",
+      "29641996",
+      "28905911",
+      "28525758",
+      "27974201",
+      "27490693",
+      "27174533",
+      "27089971",
+      "26940867",
+      "26794315",
+      "26686651",
+      "26686465",
+      "26213851",
+      "26053496",
+      "25959774",
+      "25497547",
+      "24614316",
+      "24335803",
+      "23707059",
+      "22955616",
+      "22829947",
+      "22244452",
+      "22052329",
+      "21685913",
+      "21152010",
+      "20644199",
+      "20219941",
+      "19451168",
+      "19261174",
+      "19074263",
+      "19056695",
+      "18798982",
+      "16815976",
+      "16199517",
+      "14681465",
+      "12808457",
+      "10839546",
+      "10447503"
+    ],
+    "similar": [
+      "38950902",
+      "32503656",
+      "31945090",
+      "31937660",
+      "33941236",
+      "30940740",
+      "31078526",
+      "36997534",
+      "31864373",
+      "31911579",
+      "38397134",
+      "27974201",
+      "30086769",
+      "30060743",
+      "33232622",
+      "32933554",
+      "39738353",
+      "27490693",
+      "31285261",
+      "29561703",
+      "31727847",
+      "40118069",
+      "33626344",
+      "41277030",
+      "40806572",
+      "31522988",
+      "27067545",
+      "27762310",
+      "33187878",
+      "35947648",
+      "30296942",
+      "33006186",
+      "40025499",
+      "23908591",
+      "29593713",
+      "40764058",
+      "34657170",
+      "37302762",
+      "41271620",
+      "40874617",
+      "29976663",
+      "31372638",
+      "31491387",
+      "29670109",
+      "30738580",
+      "32128389",
+      "42201978",
+      "31910870",
+      "41978381",
+      "39430552",
+      "40900123",
+      "29437965",
+      "39903776",
+      "37040762",
+      "40374602",
+      "24634495",
+      "33411704",
+      "32398790",
+      "34735550",
+      "39993185",
+      "34002095",
+      "29949986",
+      "26818008",
+      "34487363",
+      "29437926",
+      "28648147",
+      "41662271",
+      "30456521",
+      "31949157",
+      "26929370",
+      "39913285",
+      "29860503",
+      "11782357",
+      "40613712",
+      "31736271",
+      "36696451",
+      "19056695",
+      "42065963",
+      "31653198",
+      "29199022",
+      "35410161",
+      "30310060",
+      "37047368",
+      "23804403",
+      "32924169",
+      "23650640",
+      "27582050",
+      "35997565",
+      "38565950",
+      "40965216",
+      "34702695",
+      "32680543",
+      "30031214",
+      "31177910",
+      "38206813",
+      "35993175",
+      "20730088",
+      "41448493",
+      "41482819",
+      "37840067"
+    ],
+    "review": [
+      "38950902",
+      "30940740",
+      "41277030",
+      "33187878",
+      "39430552",
+      "30456521",
+      "23650640",
+      "30031214",
+      "35993175"
+    ],
+    "pmc": [
+      "11317138"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38950902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38950902",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae530",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

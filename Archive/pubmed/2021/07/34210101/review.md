@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** The manuscript as provided, including abstract, introduction, results, discussion, and methods sections
+- **Shared manuscript claim summary** The authors use classical molecular dynamics (MD) and hybrid quantum mechanics/molecular mechanics (QM/MM) simulations to characterize the structure and reactivity of the Artemis endonuclease in complex with a double-stranded DNA model. They report stable binding modes driven by a lysine-rich groove, a corkscrew-like DNA motion, and a catalytic mechanism involving a (Mg2+)2 cluster with Asp61 and His62 facilitating water deprotonation and nucleophilic attack, supported by a free energy profile with a barrier of about 16 kcal/mol.
+- **Visible evidence base** Figures 1-4, Supplementary Materials referenced (including RMSD plots, DNA bending analysis, video, and window overlap checks), methods section describing simulation protocols
+- **Missing materials affecting confidence** The Supplementary Materials are not provided, including detailed RMSD plots, DNA structural parameter analyses, the video of the corkscrew motion, and the window overlap verification for umbrella sampling. Additionally, no raw simulation data, force field parameters, or convergence metrics are available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of Artemis endonuclease binding to double-stranded DNA and proposes a catalytic mechanism for DNA cleavage. The work addresses an important and timely question, given the recent structural resolution of Artemis and its potential as a therapeutic target. The combination of long-timescale classical MD and QM/MM enhanced sampling is appropriate and ambitious. However, several technical aspects require clarification and strengthening before the conclusions can be fully supported. The claim of a corkscrew motion is based on qualitative observation in one replica and lacks quantitative characterization. The free energy profile, while plausible, relies on a single reaction coordinate and a limited QM region, and the absence of dispersion corrections in the DFT calculations may affect the accuracy of the barrier height. The manuscript would benefit from additional validation, clearer presentation of convergence, and a more cautious interpretation of the biological relevance given the use of a linear DNA duplex rather than a hairpin substrate.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA repair, immunology, and computational biochemistry would find this work relevant. Specifically, those studying endonuclease mechanisms, metallo-beta-lactamase family enzymes, and structure-based drug design targeting Artemis for cancer therapy would be interested. The methodological approach combining MD and QM/MM may also appeal to computational chemists developing multiscale simulation protocols for nucleic acid processing enzymes.
+- **Major strengths** The study addresses a significant biological question with a state-of-the-art multiscale simulation approach. The use of microsecond-scale classical MD provides a thorough sampling of the binding interface, and the QM/MM umbrella sampling offers a detailed mechanistic hypothesis. The authors appropriately acknowledge the limitation of using a linear DNA duplex instead of a hairpin and discuss the implications. The identification of Asp61 and His62 as key catalytic residues is consistent with experimental mutagenesis data, lending credibility to the proposed mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the free energy barrier for DNA cleavage is about 16 kcal/mol, derived from QM/MM umbrella sampling.
+  - **Evidence pointer** Figure 4B, Methods section, location not provided
+  - **Concern** The QM/MM calculations use the ωB97X functional with the 6-31G basis set, which is relatively small for describing phosphate hydrolysis reactions. More critically, the authors state that dispersion is not included in the DFT calculations to avoid double counting, but the ωB97X functional inherently includes dispersion corrections. This statement is contradictory and raises questions about the actual level of theory employed. Additionally, the QM region of 100 atoms, while substantial, may not capture all relevant long-range electrostatic effects on the reaction barrier. The free energy profile is based on a single reaction coordinate, which may not adequately describe a complex reaction involving proton transfer and bond breaking/formation.
+  - **Why it matters** The accuracy of the proposed catalytic mechanism and the reported barrier height depend critically on the reliability of the QM/MM setup. If the level of theory is misstated or inappropriate, the mechanistic conclusions may be quantitatively or even qualitatively incorrect. A barrier of 16 kcal/mol is a key quantitative output that could be compared to experimental rates, and its accuracy is essential for the paper's impact.
+  - **Resolution test** The authors should clarify the exact functional and basis set used, reconcile the statement about dispersion, and ideally perform test calculations with a larger basis set or a different functional to assess the sensitivity of the barrier. They should also consider using a two-dimensional reaction coordinate or validating with an alternative enhanced sampling method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the DNA undergoes a corkscrew-like motion, involving sliding and rotation in the binding groove, based on visual analysis of one replica trajectory.
+  - **Evidence pointer** Figure 1C, Video S1 in Supplementary Materials, location not provided
+  - **Concern** The corkscrew motion is described qualitatively and is observed in only one of the two replicas. No quantitative analysis is provided to characterize this motion, such as helical parameters, twist angles, or translation/rotation correlation functions. The claim is central to the proposed functional model of Artemis, as it suggests a mechanism for presenting different phosphate groups to the active site. Without quantitative support, this remains a speculative observation.
+  - **Why it matters** The corkscrew motion is presented as a key finding that explains the enzyme's ability to process diverse DNA sequences. If this motion is not robustly demonstrated, the functional implications are weakened. The lack of reproducibility across replicas further undermines confidence.
+  - **Resolution test** The authors should provide quantitative measures of DNA helical parameters over time, such as twist, roll, and slide, and correlate these with the position of phosphate groups relative to the active site. They should also analyze both replicas and report whether the motion is consistently observed or is a rare event.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their results provide a unified vision of Artemis functioning, resolving elusive or contrasting hypotheses regarding this protein.
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The manuscript does not clearly articulate which specific hypotheses are being resolved or how the presented results differ from or extend previous computational or experimental studies. The introduction mentions that the structure was recently resolved and that questions remain, but the specific controversies are not enumerated. Without this context, the claim of resolving contrasting hypotheses is difficult to evaluate.
+  - **Why it matters** The scientific importance of the work depends on its ability to address open questions in the field. If the authors do not clearly frame the existing hypotheses and how their data adjudicate between them, the impact of the study is diminished.
+  - **Resolution test** The authors should explicitly list the previously proposed mechanisms or structural models for Artemis and explain how their simulations support one over another. This could be done in the discussion by comparing their findings to prior biochemical and structural data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses the phrase "staring at the naked goddess" without explanation. While attention-grabbing, it may confuse readers unfamiliar with the context.
+  - **Required correction** Provide a brief explanation of the metaphor or use a more conventional title that conveys the scientific content.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The authors state that constraints were applied to the Mg-Mg distance and Mg-nitrogen distances to maintain stability. The nature of these constraints (harmonic, flat-bottom, etc.) and their force constants are not specified.
+  - **Required correction** Provide details on the constraint implementation, including the type and force constant, to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Figure 3, location not provided
+  - **Issue** The radial distribution function for water around the Mg2+ cluster is shown, but the integration to obtain the coordination number is not described in the text. The statement that five water molecules are within 3 Å is not directly derivable from the figure as presented.
+  - **Required correction** Describe the integration procedure and provide the coordination number explicitly in the text or figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction assumes familiarity with V(D)J recombination and the metallo-beta-lactamase family. A brief primer for nonspecialists would improve accessibility.
+  - **Required correction** Add one or two sentences explaining V(D)J recombination and the significance of the metallo-beta-lactamase fold in the context of nucleic acid processing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The authors mention that the second Mg2+ was manually added based on superposition with Apollo. The criteria for this placement and the validation of the resulting geometry are not described.
+  - **Required correction** Describe the superposition procedure and any checks performed to ensure the added ion is in a chemically reasonable position.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (QM/MM level of theory and dispersion statement), R1-M2 (lack of quantitative analysis of corkscrew motion)
+- **Assessment against Nature-style criteria** Originality: The study is original in its application of long-timescale MD and QM/MM to Artemis, but the general approach is not novel. Scientific importance: The work addresses a relevant biological question, but the impact is limited by the use of a linear DNA duplex rather than a hairpin and the lack of experimental validation. Interdisciplinary readership: The topic bridges immunology, DNA repair, and computational chemistry, but the presentation is heavily technical and may not attract a broad audience. Technical soundness: The methods are generally appropriate, but the concerns about the QM/MM setup and the qualitative nature of the corkscrew claim need to be addressed. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge; improvements in accessibility would be beneficial.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core questions are interesting and the computational approach is ambitious, but the current evidence does not fully support the mechanistic claims as presented. Clarification of the QM/MM methodology and quantitative analysis of the proposed DNA motion are essential before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim of a corkscrew-like DNA motion is unsupported by quantitative analysis and is based on a single replica.
+- The free energy barrier of 16 kcal/mol is presented as a definitive value, but its accuracy is uncertain given the potential issues with the QM/MM level of theory.
+- The statement that the active site is "relatively solvent exposed" is qualitative and not quantified.
+- The claim that the results "provide a unified vision of Artemis functioning" is overstated given the limitations of the model system and the lack of comparison to alternative hypotheses.
+- The assertion that the corkscrew motion is compatible with the enzyme's ability to process different DNA sequences is speculative and not directly tested.

@@ -1,0 +1,9 @@
+# How the non-motile kinesin KIF7 adapts conserved kinesin principles for its function in Hedgehog signaling
+
+
+## Abstract
+  KIF7 is an atypical, non-motile kinesin that regulates Hedgehog signaling by concentrating GLI transcription factors at the cilium tip. How canonical kinesin principles for intracellular transport are repurposed to support KIF7’s function as a signaling scaffold remains unclear. KIF7 exists in an autoinhibited state that is relieved by GLI binding, promoting microtubule association. We examined this regulatory mechanism by combining HDX-MS and AlphaFold modeling of a minimal KIF7 dimer, both alone and in complex with the GLI2 zinc-finger domain. Our HDX-MS data indicate that the highly negatively charged neck-coil dimerization domain of KIF7, which serves as the GLI2-binding site, is intramolecularly protected in the absence of GLI2. Consistent with this, AlphaFold models suggest that the motor domain folds back onto the neck-coil via KIF7’s unusually long neck-linker, sterically occluding the microtubule-binding interface. This occurs through a mechanism conceptually analogous to, but structurally distinct from, autoinhibition in motile kinesins. GLI2 binding to the KIF7 neck-coil displaces the motor domain and induces allosteric changes that propagate to the microtubule-binding surface, thereby activating microtubule binding. ATP turnover further modulates KIF7’s microtubule binding–unbinding equilibrium. Together, these findings reveal how a kinesin is adapted for a non-motile function as a scaffold in Hedgehog signaling.
+
+
+## Full Text Availability
+  The license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.

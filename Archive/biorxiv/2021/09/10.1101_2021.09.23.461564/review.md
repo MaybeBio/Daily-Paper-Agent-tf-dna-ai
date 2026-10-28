@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, results, methods, discussion, declarations, supplementary figure/table legends)
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the supplied text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors present BindVAE, an unsupervised Dirichlet variational autoencoder, to jointly decode multiple transcription factor (TF) binding signals from accessible chromatin regions. The model learns latent topics interpretable as TF binding motifs, including cooperative binding pairs, and demonstrates higher precision but lower recall than existing motif discovery tools.
+- **Visible evidence base** Results sections describing qualitative motif visualization (Figure 1b, 1c), HT-SELEX probe projection (Figure 2b), cooperative binding analysis (Figure 3a-c), cell-type comparisons (Figure 3d), ChIP-seq validation (Figure 4a-c, Table 1), and quantitative comparison with HOMER, MEME, GADEM (Figure 3e, Table S4). Methods sections describe the VAE architecture, k-mer vocabulary, and mapping algorithm.
+- **Missing materials affecting confidence** Actual figures and supplementary files (Additional file 1) were not provided. Quantitative metrics (precision, recall, F1) are referenced but not shown in the text. Algorithm 1 pseudocode is mentioned but not included. Hyperparameter tuning details are incomplete. No baseline comparisons with other VAE or deep learning models are described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of Dirichlet variational autoencoders to a challenging problem in regulatory genomics. The idea of using topic modeling for unsupervised discovery of TF motifs from ATAC-seq data is novel and potentially valuable. However, the evidence presented in the text is insufficient to fully evaluate the method's performance and claims. Key quantitative results are referenced but not shown, and the comparison with existing methods is incomplete. The manuscript would benefit from clearer presentation of results and more rigorous validation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, specifically those interested in motif discovery, chromatin accessibility analysis, and unsupervised deep learning approaches. The method could also interest researchers developing interpretable deep learning models for genomics.
+- **Major strengths** 1) Novel application of Dirichlet VAEs to motif discovery, addressing a real limitation of supervised methods. 2) The model's ability to disentangle multiple TF signals and cooperative binding pairs is conceptually appealing. 3) The use of HT-SELEX data for mapping latent dimensions to TFs is a clever validation strategy. 4) The method is computationally efficient and scalable, as noted in the discussion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "BindVAE has a higher precision, albeit lower recall, compared to other motif discovery approaches" (Abstract) and "We find that BindVAE has a higher precision but often worse recall and F1 score" (Results)
+  - **Evidence pointer** Table S4a, S4b (referenced but not provided)
+  - **Concern** The central quantitative claim of the paper is not verifiable from the supplied text. The actual precision, recall, and F1 values are not shown, and the comparison methodology is only briefly described. Without these data, the performance advantage of BindVAE cannot be assessed.
+  - **Why it matters** The paper's main contribution is a new method, and its utility depends on demonstrated performance relative to existing tools. Referencing supplementary tables without showing the data in the main text or providing a clear summary is insufficient for evaluation.
+  - **Resolution test** Provide the actual precision, recall, and F1 values in the main text or a clearly readable table, along with a description of the gold standard and how it was constructed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We further present an algorithm to interpret the latent space that uses HT-SELEX probes" (Background) and "we use the procedure outlined in Algorithm 1 (please refer to Methods)"
+  - **Evidence pointer** Algorithm 1 (mentioned but not included)
+  - **Concern** The algorithm for mapping latent dimensions to TFs is central to the method's interpretability, but its pseudocode is not provided. The description in the text is high-level and lacks details on the statistical test, threshold selection, and handling of multiple mappings.
+  - **Why it matters** Without the algorithm, the mapping procedure cannot be reproduced or evaluated. The Mann-Whitney U test is mentioned, but the exact implementation and decision criteria are unclear.
+  - **Resolution test** Include Algorithm 1 in the main text or Methods, with a step-by-step description of the mapping procedure, including the statistical test, p-value threshold, and how ties or multiple mappings are resolved.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation rigor
+  - **Claim pointer** "We find cell-type specific differences in the TFs whose binding signals are recovered by BindVAE, consistent with the different TFs expressed in these cell types" and "we use ChIP-seq as a source of ground truth and verify whether known binding sites for a given TF are transformed to the same latent dimension"
+  - **Evidence pointer** Figure 3d, Figure 4a-c, Table 1 (referenced but not provided)
+  - **Concern** The validation using ChIP-seq data is described but the results are not shown. The heatmap in Figure 4c and the associated analysis are not visible. The claim of cell-type specificity relies on visual inspection of figures that are not available.
+  - **Why it matters** The biological relevance of the method depends on its ability to recover known TF binding patterns and distinguish cell types. Without seeing the actual results, this claim cannot be evaluated.
+  - **Resolution test** Show the ChIP-seq validation results, including the heatmap and a quantitative measure of how well BindVAE's latent dimensions correspond to ChIP-seq-defined binding sites.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison completeness
+  - **Claim pointer** "We compare BindVAE with three other motif discovery approaches: HOMER, MEME, and GADEM"
+  - **Evidence pointer** Figure 3e, Table S4 (referenced but not provided)
+  - **Concern** The comparison with existing methods is limited to three tools, and the details of the comparison are not fully described. The text mentions that HOMER finds 99 motifs and BindVAE finds 122, but the criteria for "finding" a motif and the overlap analysis are not clear.
+  - **Why it matters** A fair and comprehensive comparison is essential to establish the method's utility. The current description is too brief to assess whether the comparison was conducted appropriately.
+  - **Resolution test** Provide a detailed description of the comparison protocol, including how motifs were matched, what thresholds were used, and how the gold standard was defined. Show the full results in a readable format.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "jointly decoding multiple TF binding signals" is vague. It is unclear whether this means simultaneous detection of multiple motifs in a single peak or something else.
+  - **Required correction** Clarify what "jointly decoding" means in this context, perhaps with a brief example.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, k-mer vocabulary
+  - **Evidence pointer** Methods, "Vocabulary or input space"
+  - **Issue** The description of the k-mer vocabulary is incomplete. The text mentions 8-mers with up to two consecutive wildcards, but does not specify the total vocabulary size or how reverse complements are handled in detail.
+  - **Required correction** Provide the exact formula for the vocabulary size and a clear description of the reverse complement collapsing.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, cooperative binding
+  - **Evidence pointer** Figure 3a-c (referenced but not provided)
+  - **Issue** The description of cooperative binding analysis is brief. It is unclear how many cooperative pairs were found and whether any were validated experimentally.
+  - **Required correction** Provide a summary of the number of cooperative pairs found and any validation performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, model training
+  - **Evidence pointer** Methods, "Hyperparameter tuning"
+  - **Issue** The text mentions hyperparameter tuning but does not describe the search space or selection criteria. The choice of α values is mentioned but not justified.
+  - **Required correction** Provide a brief description of the hyperparameter search and the criteria for selecting the final model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative results not shown), R1-M2 (Algorithm 1 not provided), R1-M3 (ChIP-seq validation not shown)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of Dirichlet VAEs to motif discovery from ATAC-seq data is novel. The use of topic modeling for unsupervised discovery of TF binding patterns is a creative approach that differs from existing supervised and unsupervised methods.
+  - **Scientific importance** The problem of interpreting chromatin accessibility data is of high importance in regulatory genomics. A method that can automatically discover TF motifs and cooperative binding patterns without supervision could be valuable for studying less-characterized cell types.
+  - **Interdisciplinary readership** The work bridges machine learning and genomics, and would appeal to researchers in both fields. However, the presentation assumes familiarity with both VAE concepts and genomic terminology, which may limit accessibility.
+  - **Technical soundness** The methodological approach is sound in principle, but the evidence presented is insufficient to fully assess technical correctness. The lack of quantitative results and algorithm details prevents a thorough evaluation.
+  - **Readability for nonspecialists** The manuscript is generally well-written but includes technical jargon that may be challenging for nonspecialists. The abstract is clear, but the results section assumes significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the approach is novel, but the current manuscript does not provide sufficient evidence to establish the method's performance and validity. The authors should provide the missing quantitative results, algorithm details, and validation data to support their claims.
+
+## Risk / unsupported claims
+- The claim of "higher precision, albeit lower recall" compared to other methods is unsupported without the actual data.
+- The claim of cell-type specific TF patterns is not verifiable without Figure 3d.
+- The claim of cooperative binding signal detection is not verifiable without Figure 3a-c.
+- The claim that BindVAE learns "diverse patterns" is based on visual inspection of Figure 1b, which is not provided.
+- The statement that "the model learns distinct embeddings for TFs that have different binding preferences" (ChIP-seq section) is not verifiable without Figure 4a-c.
+- The claim that the model captures "genomic context surrounding the binding sites" is not supported by any specific evidence in the text.
+- The statement that "BindVAE is one of the faster methods" is not quantified or compared in the text.

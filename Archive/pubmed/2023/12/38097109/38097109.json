@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "38097109",
+    "doi": "10.1016/j.jmb.2023.168395",
+    "title": "Gauging Dynamics-driven Allostery Using a New Computational Tool: A CAP Case Study."
+  },
+  "content": {
+    "abstract": "In this study, we utilize Protein Residue Networks (PRNs), constructed using Local Spatial Pattern (LSP) alignment, to explore the dynamic behavior of Catabolite Activator Protein (CAP) upon the sequential binding of cAMP. We employed the Degree Centrality of these PRNs to investigate protein dynamics on a sub-nanosecond time scale, hypothesizing that it would reflect changes in CAP's entropy related to its thermal motions. We show that the binding of the first cAMP led to an increase in stability in the Cyclic-Nucleotide Binding Domain A (CNBD-A) and destabilization in CNBD-B, agreeing with previous reports explaining the negative cooperativity of cAMP binding in terms of an entropy-driven allostery. LSP-based PRNs also allow for the study of Betweenness Centrality, another graph-theoretical characteristic of PRNs, providing insights into global residue connectivity within CAP. Using this approach, we were able to correctly identify amino acids that were shown to be critical in mediating allosteric interactions in CAP. The agreement between our studies and previous experimental reports validates our method, particularly with respect to the reliability of Degree Centrality as a proxy for entropy related to protein thermal dynamics. Because LSP-based PRNs can be easily extended to include dynamics of small organic molecules, polynucleotides, or other allosteric proteins, the methods presented here mark a significant advancement in the field, positioning them as vital tools for a fast, cost-effective, and accurate analysis of entropy-driven allostery and identification of allosteric hotspots.",
+    "keywords": [
+      "Catabolite Activator Protein",
+      "Conformational entropy",
+      "Degree centrality",
+      "Molecular dynamics",
+      "Protein allostery"
+    ],
+    "mesh_terms": [
+      "*Allosteric Regulation",
+      "*Cyclic AMP Receptor Protein/chemistry",
+      "Entropy",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Reproducibility of Results",
+      "*Sequence Alignment/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kornev, Alexandr P",
+        "Weng, Jui-Hung",
+        "Maillard, Rodrigo A",
+        "Taylor, Susan S"
+      ],
+      "short_names": [
+        "Kornev AP",
+        "Weng JH",
+        "Maillard RA",
+        "Taylor SS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departmen of Pharmacology, University of California San Diego, La Jolla, CA 92093, USA. Electronic address: akornev@ucsd.edu.",
+        "Departmen of Pharmacology, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Chemistry, Georgetown University, Washington, DC 20007, USA.",
+        "Departmen of Pharmacology, University of California San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA 92093, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kornev, Alexandr P",
+        "short_name": "Kornev AP",
+        "identifiers": [],
+        "affiliations": [
+          "Departmen of Pharmacology, University of California San Diego, La Jolla, CA 92093, USA. Electronic address: akornev@ucsd.edu."
+        ]
+      },
+      {
+        "full_name": "Weng, Jui-Hung",
+        "short_name": "Weng JH",
+        "identifiers": [],
+        "affiliations": [
+          "Departmen of Pharmacology, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Maillard, Rodrigo A",
+        "short_name": "Maillard RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC 20007, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor, Susan S",
+        "short_name": "Taylor SS",
+        "identifiers": [],
+        "affiliations": [
+          "Departmen of Pharmacology, University of California San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Jan 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/15 00:44",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "41388753",
+      "40504162",
+      "39887300"
+    ],
+    "refs": [
+      "36375071",
+      "36200982",
+      "34540902",
+      "33246199",
+      "32622329",
+      "29345988",
+      "28617332",
+      "28348247",
+      "28282132",
+      "26592383",
+      "26481499",
+      "24914678",
+      "24058293",
+      "23758161",
+      "23246280",
+      "23186336",
+      "19828436",
+      "19359484",
+      "18787129",
+      "18404204",
+      "18076763",
+      "17306298",
+      "17095602",
+      "16906160",
+      "16240095",
+      "15618393",
+      "12060727",
+      "11343786",
+      "9440505",
+      "6544679",
+      "1314647"
+    ],
+    "similar": [
+      "38097109",
+      "26187469",
+      "16906160",
+      "26244893",
+      "18041838",
+      "26619280",
+      "24058293",
+      "20483341",
+      "19924217",
+      "31063633",
+      "33108170",
+      "22256894",
+      "36375071",
+      "22801505",
+      "15731390",
+      "29953213",
+      "26000062",
+      "11124031",
+      "19359484",
+      "27115535",
+      "31203432",
+      "28348247",
+      "23035121",
+      "28510174",
+      "28095404",
+      "35810792",
+      "35452454",
+      "11412099",
+      "35202628",
+      "22607761",
+      "26083915",
+      "31285328",
+      "36586463",
+      "28282132",
+      "21782316",
+      "31386362",
+      "19439203",
+      "29594786",
+      "27010561",
+      "27447295",
+      "23912807",
+      "28634294",
+      "30778078",
+      "31822099",
+      "15096034",
+      "30500196",
+      "30339916",
+      "22403063",
+      "26876046",
+      "7662661",
+      "21873431",
+      "28188293",
+      "25356908",
+      "24748621",
+      "28190781",
+      "25427151",
+      "27791125",
+      "21444788",
+      "24922508",
+      "29678954",
+      "33020277",
+      "26961002",
+      "34132193",
+      "17973384",
+      "28489401",
+      "12653996",
+      "28819010",
+      "22484347",
+      "22260694",
+      "35163572",
+      "27861609",
+      "30775734",
+      "17243667",
+      "28095400",
+      "21109422",
+      "31793290",
+      "32538627",
+      "18411261",
+      "35883520",
+      "28094513",
+      "31329932",
+      "16798805",
+      "37364583",
+      "35644497",
+      "21568279",
+      "32981310",
+      "26677170",
+      "31292786",
+      "35675441",
+      "22577828",
+      "19309730",
+      "2987511",
+      "20933469",
+      "27285999",
+      "33448856",
+      "10722684",
+      "36859094",
+      "31330173",
+      "29735739",
+      "31354173"
+    ],
+    "review": [
+      "38097109",
+      "31063633",
+      "22607761",
+      "36586463",
+      "19439203",
+      "26876046",
+      "29678954",
+      "22260694",
+      "21109422",
+      "31793290",
+      "22577828",
+      "20933469",
+      "27285999"
+    ],
+    "pmc": [
+      "10851786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00506-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38097109/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38097109",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6sk4w9x3",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

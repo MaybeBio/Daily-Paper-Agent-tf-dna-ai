@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "40854648",
+    "doi": "10.1016/j.jgeb.2025.100529",
+    "title": "Integrative bioinformatics and deep learning to identify common genetic pathways in Crohn's disease and ischemic cardiomyopathy."
+  },
+  "content": {
+    "abstract": "Crohn's disease (CD) and ischemic cardiomyopathy (ICM) share inflammatory characteristics, yet their common genetic underpinnings remain underexplored. Using an integrative bioinformatics approach, we analyzed GEO datasets (GSE3365 and GSE9128) to identify shared genetic pathways between CD and ICM. Through differential expression analysis, we identified 60 common differentially expressed genes (CDEGs). Functional enrichment analysis revealed enrichment in inflammatory pathways, including NF-kappaB and TNF-alpha signaling, highlighting their role in disease pathogenesis. We conducted microRNA (miRNA), transcription factor (TF), and protein-protein interaction (PPI) analyses to uncover regulatory networks. Notably, hsa-miR-98-5p emerged as a key miRNA, while RELA and NFKB1 were identified as prominent TFs interacting with CDEGs. Six hub genes-IL1B, CXCL8, CXCL2, TLR2, FCGR1A, and FCGR2A-were pinpointed, demonstrating high diagnostic potential via receiver operating characteristic (ROC) analysis. To advance diagnostic precision, we developed AutoClass, a deep learning framework that leverages hub gene regulatory networks to classify CD patients with approximately 95 % accuracy. These hub genes and regulators likely drive neutrophil-mediated inflammation, offering insights into the molecular interplay between CD and ICM. Our findings suggest that the identified CDEGs, miRNAs, and TFs hold promise as therapeutic targets and biomarkers, paving the way for precision medicine approaches in managing CD and its cardiovascular complications. Future experimental validation and cohort expansion could further elucidate these shared mechanisms, enhancing their translational impact.",
+    "keywords": [
+      "AutoClass, bioinformatics",
+      "Crohn's disease",
+      "Deep learning",
+      "Genetic pathways",
+      "Hub genes",
+      "Inflammatory mechanisms",
+      "Ischemic cardiomyopathy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maddah, Reza",
+        "Aghili, Zahra Sadat",
+        "Ghanbari, Fahimeh",
+        "Najafabadi, Amirhossein Hajialiasgary",
+        "Asgary, Sedigheh"
+      ],
+      "short_names": [
+        "Maddah R",
+        "Aghili ZS",
+        "Ghanbari F",
+        "Najafabadi AH",
+        "Asgary S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioprocess Engineering, Institute of Industrial and Environmental Biotechnology, National Institute of Genetic Engineering and Biotechnology, Tehran, Iran.",
+        "Department of Molecular Medicine, School of Advanced Technologies, Shahrekord University of Medical Sciences, Shahrekord, Iran.",
+        "Applied Physiology Research Center, Isfahan University of Medical Sciences, Iran.",
+        "Department of Quantitative and Computational Biology, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany; Department of Cell and Molecular Biology and Microbiology, Faculty of Biological Science and Technology, University of Isfahan, Isfahan, Iran.",
+        "Department of Pharmaceutical Sciences, Cardiovascular Research Institute, Isfahan University of Medical Science, Iran. Electronic address: sedighehasgary@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maddah, Reza",
+        "short_name": "Maddah R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioprocess Engineering, Institute of Industrial and Environmental Biotechnology, National Institute of Genetic Engineering and Biotechnology, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Aghili, Zahra Sadat",
+        "short_name": "Aghili ZS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, School of Advanced Technologies, Shahrekord University of Medical Sciences, Shahrekord, Iran."
+        ]
+      },
+      {
+        "full_name": "Ghanbari, Fahimeh",
+        "short_name": "Ghanbari F",
+        "identifiers": [],
+        "affiliations": [
+          "Applied Physiology Research Center, Isfahan University of Medical Sciences, Iran."
+        ]
+      },
+      {
+        "full_name": "Najafabadi, Amirhossein Hajialiasgary",
+        "short_name": "Najafabadi AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany; Department of Cell and Molecular Biology and Microbiology, Faculty of Biological Science and Technology, University of Isfahan, Isfahan, Iran."
+        ]
+      },
+      {
+        "full_name": "Asgary, Sedigheh",
+        "short_name": "Asgary S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Cardiovascular Research Institute, Isfahan University of Medical Science, Iran. Electronic address: sedighehasgary@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal, genetic engineering & biotechnology"
+    ],
+    "journal_abbrev": [
+      "J Genet Eng Biotechnol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/28 04:45",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35892915",
+      "34720536",
+      "34466360",
+      "34277108",
+      "34081220",
+      "33909325",
+      "33723558",
+      "33406529",
+      "33372147",
+      "32785793",
+      "32242402",
+      "32242028",
+      "31743689",
+      "31496351",
+      "30859289",
+      "30449595",
+      "30138777",
+      "29670086",
+      "29219072",
+      "29158945",
+      "28944823",
+      "28826742",
+      "28647686",
+      "27999328",
+      "26949988",
+      "26636514",
+      "26017442",
+      "25006675",
+      "24958609",
+      "24910641",
+      "22421340",
+      "21527742",
+      "21377916",
+      "21243012",
+      "20205746",
+      "19741154",
+      "18390750",
+      "17981721",
+      "15198989",
+      "12806620",
+      "12570822",
+      "9927402",
+      "9616307",
+      "3298433",
+      "2254454",
+      "2001591"
+    ],
+    "similar": [
+      "40854648",
+      "36118873",
+      "40406126",
+      "38268224",
+      "41300749",
+      "40387450",
+      "41019433",
+      "40591229",
+      "39011399",
+      "40540498",
+      "40826767",
+      "41196851",
+      "39199011",
+      "38839916",
+      "39744064",
+      "35795659",
+      "41044520",
+      "41006883",
+      "41450821",
+      "39712244",
+      "40588645",
+      "34844599",
+      "34934349",
+      "39284931",
+      "31258663",
+      "41162488",
+      "38444712",
+      "40068024",
+      "37047484",
+      "36248794",
+      "39512836",
+      "38601162",
+      "39712025",
+      "38941374",
+      "41052072",
+      "41305834",
+      "40748585",
+      "36991484",
+      "34536521",
+      "36786134",
+      "41090631",
+      "41332907",
+      "37740761",
+      "41066424",
+      "39238649",
+      "39238829",
+      "35313857",
+      "39080630",
+      "39263286",
+      "36291136",
+      "39778286",
+      "41205134",
+      "34234459",
+      "35647843",
+      "41192647",
+      "39150251",
+      "41291892",
+      "39738398",
+      "40787105",
+      "39080525",
+      "39541897",
+      "40790764",
+      "38524085",
+      "39556279",
+      "36714107",
+      "36104591",
+      "33506940",
+      "39697326",
+      "40574839",
+      "40242727",
+      "39870856",
+      "41347019",
+      "37804012",
+      "35757478",
+      "34584445",
+      "39142001",
+      "37622114",
+      "41193860",
+      "39028999",
+      "40640313",
+      "36189314",
+      "39375405",
+      "38398024",
+      "36245596",
+      "34434654",
+      "40347801",
+      "40074718",
+      "41127319",
+      "39475676",
+      "38899746",
+      "38978778",
+      "36321868",
+      "36212136",
+      "33532314",
+      "40791849",
+      "36568397",
+      "38274342",
+      "38366952",
+      "40119934",
+      "40123810"
+    ],
+    "review": [
+      "40854648",
+      "40748585"
+    ],
+    "pmc": [
+      "12268078"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1687-157X(25)00073-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40854648/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

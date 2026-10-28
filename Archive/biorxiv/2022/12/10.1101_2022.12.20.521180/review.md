@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were provided for evaluation
+- **Shared manuscript claim summary** The authors present integrative models of dimers for hGBP1, mGBP2, and mGBP7, combining crystal structure data, XL-MS, SAXS, protein-protein docking, and MD simulations. They report that the M/E domain is highly mobile in all three proteins, with reduced motion in mGBP7 and increased G domain flexibility in mGBP7. They propose that hGBP1 and mGBP2 dimerize via G domains, while mGBP7 exhibits multiple dimer conformations including parallel and crossed-stalk forms, with only partial G domain involvement, explaining GTP-independent dimerization of mGBP7. They further suggest that distinct dimer structures encode divergent functions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, XL-MS data, SAXS profiles, docking scores, MD simulation parameters and convergence criteria, sequence alignments, and any statistical or validation analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrative modeling study addressing a relevant question in GBP biology. However, the evidence provided is insufficient to evaluate the technical soundness of the modeling pipeline or the validity of the structural conclusions. The claims regarding dimer architectures and their functional implications are plausible but currently not verifiable from the supplied material. The abstract is clearly written and accessible, but the scientific case is not established without access to the underlying data and validation metrics.
+- **Who would be interested in the results, and why** Researchers studying GBP biology, large GTPase oligomerization, host-pathogen interactions, and structural biology of dynamic protein complexes. The work may also interest methodologists in integrative modeling who apply hybrid approaches combining cross-linking, scattering, docking, and simulation.
+- **Major strengths** The study addresses a significant unresolved question regarding GBP oligomer structures. The integrative approach combining multiple experimental and computational techniques is appropriate for studying dynamic and heterogeneous protein assemblies. The comparative analysis across three orthologues provides a useful framework for understanding functional divergence.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that integrative modeling involving XL-MS, SAXS, docking, and MD simulations yields reliable dimer models for hGBP1, mGBP2, and mGBP7
+  - **Evidence pointer** Abstract only; no methods, figures, or validation data provided
+  - **Concern** The abstract states that dimer models were produced via integrative modeling, but no details are given on how the different data types were weighted, how model ensembles were generated, how model quality was assessed, or how experimental data were used to discriminate between alternative conformations. Without these details, the reliability of the proposed dimer structures cannot be evaluated.
+  - **Why it matters** Integrative modeling results are highly dependent on input data quality, scoring functions, and validation procedures. If the models are not rigorously validated against independent data or if the XL-MS and SAXS data are not quantitatively reconciled with the models, the structural conclusions may be overinterpreted.
+  - **Resolution test** Provide a clear description of the modeling protocol, including data integration strategy, model selection criteria, cross-validation against experimental data, and uncertainty estimates for the proposed dimer interfaces.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** The claim that different GBP dimer structures encode diverging functions such as membrane destabilization or fusion of the parasitophorous vacuole membrane with the autophagic machinery
+  - **Evidence pointer** Abstract only; no functional experiments or literature-based mechanistic links provided
+  - **Concern** The abstract extrapolates from structural differences to specific functional outcomes without presenting any direct experimental evidence linking the proposed dimer conformations to these activities. The connection between a particular dimer architecture and membrane destabilization or autophagic fusion is not established.
+  - **Why it matters** Functional claims based solely on structural modeling are speculative unless supported by mutagenesis, functional assays, or clear mechanistic precedent. Overstating functional implications may mislead readers about the strength of the evidence.
+  - **Resolution test** Either temper the functional claims to reflect their hypothetical nature or provide experimental data (e.g., mutagenesis of dimer interfaces, membrane binding or disruption assays, autophagy assays) that directly test the proposed functional consequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mGBP7 dimerization mechanism
+  - **Claim pointer** The claim that mGBP7 can dimerize in the absence of GTP because its G domain is only partly involved in dimerization
+  - **Evidence pointer** Abstract only; no experimental dimerization data or structural evidence for nucleotide-free mGBP7 dimers provided
+  - **Concern** The abstract proposes a mechanistic explanation for GTP-independent dimerization of mGBP7 based on the partial involvement of the G domain in the modeled dimers. However, no experimental evidence (e.g., size exclusion chromatography, analytical ultracentrifugation, or native mass spectrometry) is presented to demonstrate that mGBP7 indeed dimerizes without GTP, nor is it shown that the proposed dimer models are representative of the nucleotide-free state.
+  - **Why it matters** The causal link between the modeled dimer interface and the biochemical observation of GTP-independent dimerization is central to the paper's novelty. Without direct experimental support, this explanation remains speculative.
+  - **Resolution test** Provide experimental data on mGBP7 dimerization in the presence and absence of GTP, and demonstrate that the proposed dimer models are consistent with the nucleotide-free state (e.g., via SAXS or cross-linking under nucleotide-free conditions).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "interferon- γ -activated" contains an unusual spacing around the gamma symbol.
+  - **Required correction** Use standard formatting, e.g., "interferon-γ-activated".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sequence comparison details
+  - **Evidence pointer** Abstract, "We first compare the sequences and protein dynamics"
+  - **Issue** The abstract mentions sequence comparison but does not report any quantitative sequence identity or similarity values, making it difficult to assess the degree of conservation among the three proteins.
+  - **Required correction** Include sequence identity/similarity percentages or refer to a figure that presents the alignment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Dimer nomenclature
+  - **Evidence pointer** Abstract, "parallel and crossed-stalk conformations"
+  - **Issue** The terms "parallel" and "crossed-stalk" are not defined in the abstract, which may confuse readers unfamiliar with GBP domain architecture.
+  - **Required correction** Briefly define these terms or refer to a figure that illustrates the conformations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core structural and functional claims cannot be verified without access to the modeling details, validation data, and experimental support for the GTP-independent dimerization mechanism.
+- **Assessment against Nature-style criteria** 
+  - Originality: The integrative approach and the comparative analysis across three GBPs may offer a novel perspective, but the abstract does not clearly distinguish this work from prior GBP structural studies. The claim of GTP-independent dimerization for mGBP7 is potentially original but requires experimental backing.
+  - Scientific importance: The question of GBP oligomerization is important for understanding host defense mechanisms. If the models are validated, the work could contribute meaningfully to the field.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and immunology, which could attract a broad audience. However, the abstract assumes familiarity with GBP biology and integrative modeling terminology.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and validation metrics is a major limitation.
+  - Readability for nonspecialists: The abstract is generally clear but uses domain-specific terms (e.g., M/E domain, G domain, crossed-stalk) without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible modeling strategy, but the absence of methods, figures, and experimental validation prevents a fair assessment of the scientific claims. A full review of the complete manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that the proposed dimer models are accurate representations of the native oligomeric states is unsupported without validation data.
+- The claim that mGBP7 dimerizes in the absence of GTP is not supported by any experimental evidence in the abstract.
+- The functional claims linking specific dimer structures to membrane destabilization or autophagic fusion are speculative and not backed by direct experiments.
+- The relative flexibility differences between the M/E and G domains across the three proteins are stated without quantitative data or error estimates.
+- The statement that "different GBP dimer structures... are expected to encode diverging functions" is presented as a conclusion rather than a hypothesis, which overstates the evidence level.

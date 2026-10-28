@@ -1,0 +1,590 @@
+{
+  "identity": {
+    "pmid": "41162705",
+    "doi": "10.1038/s41586-025-09632-5",
+    "title": "Origins of chromosome instability unveiled by coupled imaging and genomics."
+  },
+  "content": {
+    "abstract": "Somatic chromosome instability results in widespread structural and numerical chromosomal abnormalities (CAs) during cancer evolution(1-3). Although CAs have been linked to mitotic errors resulting in the emergence of nuclear atypia(4-7), the underlying processes and rates of spontaneous CA formation in human cells are underexplored. Here we introduce machine-learning-assisted genomics and imaging convergence (MAGIC)-an autonomously operated platform that integrates live-cell imaging of micronucleated cells, machine learning on-the-fly and single-cell genomics to systematically investigate CA formation. Applying MAGIC to near-diploid, non-transformed cell lines, we track de novo CAs over successive cell cycles, highlighting the common role of dicentric chromosomes as initiating events. We determine the baseline CA mutation rate, which approximately doubles in TP53-deficient cells, and observe that chromosome losses arise more frequently than gains. The targeted induction of DNA double-strand breaks along chromosome arms triggers distinct CA processes, revealing stable isochromosomes, coordinated segregation and amplification of isoacentric segments in multiples of two, as well as complex CA outcomes, influenced by the chromosomal break location. Our data contrast de novo CA spectra from somatic mutational landscapes after selection occurred. The experimentation enabled by MAGIC advances the dissection of DNA rearrangement processes, shedding light on fundamental determinants of chromosomal instability.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromosomal Instability/genetics",
+      "*Genomics/methods",
+      "DNA Breaks, Double-Stranded",
+      "Machine Learning",
+      "Single-Cell Analysis",
+      "Chromosome Aberrations",
+      "Tumor Suppressor Protein p53/deficiency/genetics",
+      "Cell Line",
+      "Mutation Rate",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cosenza, Marco Raffaele",
+        "Gaiatto, Alice",
+        "Erarslan Uysal, Busra",
+        "Andrades, Alvaro",
+        "Sautter, Nina Luisa",
+        "Simunovic, Marina",
+        "Jendrusch, Michael Adrian",
+        "Zumalave, Sonia",
+        "Rausch, Tobias",
+        "Halavatyi, Aliaksandr",
+        "Geissen, Eva-Maria",
+        "Eigenmann, Joshua Lucas",
+        "Weber, Thomas",
+        "Hasenfeld, Patrick",
+        "Benito, Eva",
+        "Stober, Catherine",
+        "Cortes-Ciriano, Isidro",
+        "Kulozik, Andreas E",
+        "Pepperkok, Rainer",
+        "Korbel, Jan O"
+      ],
+      "short_names": [
+        "Cosenza MR",
+        "Gaiatto A",
+        "Erarslan Uysal B",
+        "Andrades A",
+        "Sautter NL",
+        "Simunovic M",
+        "Jendrusch MA",
+        "Zumalave S",
+        "Rausch T",
+        "Halavatyi A",
+        "Geissen EM",
+        "Eigenmann JL",
+        "Weber T",
+        "Hasenfeld P",
+        "Benito E",
+        "Stober C",
+        "Cortes-Ciriano I",
+        "Kulozik AE",
+        "Pepperkok R",
+        "Korbel JO"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-5578-9840",
+        "ORCID: 0000-0002-7635-250X",
+        "ORCID: 0000-0003-2385-6103",
+        "ORCID: 0000-0002-2108-1861",
+        "ORCID: 0000-0001-5773-5620",
+        "ORCID: 0009-0007-5046-0661",
+        "ORCID: 0000-0003-2319-2482",
+        "ORCID: 0000-0002-2036-494X",
+        "ORCID: 0000-0003-1953-0848",
+        "ORCID: 0000-0002-2798-3794"
+      ],
+      "affiliations": [
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Molecular Medicine Partnership Unit (MMPU), EMBL, University of Heidelberg, Heidelberg, Germany.",
+        "Department of Pediatric Oncology, Hematology, and Immunology, University of Heidelberg, Heidelberg, Germany.",
+        "CCU Pediatric Leukemia, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Hopp Children's Cancer Center Heidelberg, Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "European Bioinformatics Institute (EMBL-EBI), Hinxton, UK.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genomics Core Facility, EMBL, Heidelberg, Germany.",
+        "Advanced Light Microscopy Core Facility, EMBL, Heidelberg, Germany.",
+        "Data Science Centre, EMBL, Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Data Science Centre, EMBL, Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+        "European Bioinformatics Institute (EMBL-EBI), Hinxton, UK.",
+        "Cancer, Ageing and Somatic Mutation Programme, Wellcome Sanger Institute, Hinxton, UK.",
+        "Molecular Medicine Partnership Unit (MMPU), EMBL, University of Heidelberg, Heidelberg, Germany.",
+        "Department of Pediatric Oncology, Hematology, and Immunology, University of Heidelberg, Heidelberg, Germany.",
+        "CCU Pediatric Leukemia, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Hopp Children's Cancer Center Heidelberg, Heidelberg, Germany.",
+        "Advanced Light Microscopy Core Facility, EMBL, Heidelberg, Germany.",
+        "Cell Biology and Biophysics Unit, EMBL, Heidelberg, Germany.",
+        "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany. Jan.Korbel@embl.de.",
+        "Molecular Medicine Partnership Unit (MMPU), EMBL, University of Heidelberg, Heidelberg, Germany. Jan.Korbel@embl.de.",
+        "European Bioinformatics Institute (EMBL-EBI), Hinxton, UK. Jan.Korbel@embl.de.",
+        "Bridging Research Division on Mechanisms of Genomic Variation and Data Science, German Cancer Research Center (DKFZ), Heidelberg, Germany. Jan.Korbel@embl.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cosenza, Marco Raffaele",
+        "short_name": "Cosenza MR",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gaiatto, Alice",
+        "short_name": "Gaiatto A",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Erarslan Uysal, Büşra",
+        "short_name": "Erarslan Uysal B",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+          "Molecular Medicine Partnership Unit (MMPU), EMBL, University of Heidelberg, Heidelberg, Germany.",
+          "Department of Pediatric Oncology, Hematology, and Immunology, University of Heidelberg, Heidelberg, Germany.",
+          "CCU Pediatric Leukemia, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Hopp Children's Cancer Center Heidelberg, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Andrades, Álvaro",
+        "short_name": "Andrades Á",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sautter, Nina Luisa",
+        "short_name": "Sautter NL",
+        "identifiers": [
+          "0009-0005-5578-9840"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Simunovic, Marina",
+        "short_name": "Simunovic M",
+        "identifiers": [
+          "0000-0002-7635-250X"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jendrusch, Michael Adrian",
+        "short_name": "Jendrusch MA",
+        "identifiers": [
+          "0000-0003-2385-6103"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zumalave, Sonia",
+        "short_name": "Zumalave S",
+        "identifiers": [
+          "0000-0002-2108-1861"
+        ],
+        "affiliations": [
+          "European Bioinformatics Institute (EMBL-EBI), Hinxton, UK."
+        ]
+      },
+      {
+        "full_name": "Rausch, Tobias",
+        "short_name": "Rausch T",
+        "identifiers": [
+          "0000-0001-5773-5620"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+          "Genomics Core Facility, EMBL, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Halavatyi, Aliaksandr",
+        "short_name": "Halavatyi A",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Light Microscopy Core Facility, EMBL, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Geissen, Eva-Maria",
+        "short_name": "Geissen EM",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science Centre, EMBL, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Eigenmann, Joshua Lucas",
+        "short_name": "Eigenmann JL",
+        "identifiers": [
+          "0009-0007-5046-0661"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Weber, Thomas",
+        "short_name": "Weber T",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany.",
+          "Data Science Centre, EMBL, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hasenfeld, Patrick",
+        "short_name": "Hasenfeld P",
+        "identifiers": [
+          "0000-0003-2319-2482"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Benito, Eva",
+        "short_name": "Benito E",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stober, Catherine",
+        "short_name": "Stober C",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Cortes-Ciriano, Isidro",
+        "short_name": "Cortes-Ciriano I",
+        "identifiers": [
+          "0000-0002-2036-494X"
+        ],
+        "affiliations": [
+          "European Bioinformatics Institute (EMBL-EBI), Hinxton, UK.",
+          "Cancer, Ageing and Somatic Mutation Programme, Wellcome Sanger Institute, Hinxton, UK."
+        ]
+      },
+      {
+        "full_name": "Kulozik, Andreas E",
+        "short_name": "Kulozik AE",
+        "identifiers": [
+          "0000-0003-1953-0848"
+        ],
+        "affiliations": [
+          "Molecular Medicine Partnership Unit (MMPU), EMBL, University of Heidelberg, Heidelberg, Germany.",
+          "Department of Pediatric Oncology, Hematology, and Immunology, University of Heidelberg, Heidelberg, Germany.",
+          "CCU Pediatric Leukemia, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Hopp Children's Cancer Center Heidelberg, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Pepperkok, Rainer",
+        "short_name": "Pepperkok R",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Light Microscopy Core Facility, EMBL, Heidelberg, Germany.",
+          "Cell Biology and Biophysics Unit, EMBL, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Korbel, Jan O",
+        "short_name": "Korbel JO",
+        "identifiers": [
+          "0000-0002-2798-3794"
+        ],
+        "affiliations": [
+          "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany. Jan.Korbel@embl.de.",
+          "Molecular Medicine Partnership Unit (MMPU), EMBL, University of Heidelberg, Heidelberg, Germany. Jan.Korbel@embl.de.",
+          "European Bioinformatics Institute (EMBL-EBI), Hinxton, UK. Jan.Korbel@embl.de.",
+          "Bridging Research Division on Mechanisms of Genomic Variation and Data Science, German Cancer Research Center (DKFZ), Heidelberg, Germany. Jan.Korbel@embl.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/30 06:29",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "42613433",
+      "42562888",
+      "42214809",
+      "42182344",
+      "42131111",
+      "42009664",
+      "41882415",
+      "41876891",
+      "41681948",
+      "41639591"
+    ],
+    "refs": [
+      "39587361",
+      "39587306",
+      "39075192",
+      "38806714",
+      "38423013",
+      "38388848",
+      "37316668",
+      "37286593",
+      "37258665",
+      "37165191",
+      "37142849",
+      "37075754",
+      "36859339",
+      "36635544",
+      "36057259",
+      "35978189",
+      "35831506",
+      "35773341",
+      "35705807",
+      "35655332",
+      "35301448",
+      "35022670",
+      "34615869",
+      "34400468",
+      "34211178",
+      "34188100",
+      "33846636",
+      "33828097",
+      "33318659",
+      "33097540",
+      "33007263",
+      "32500953",
+      "32299917",
+      "32298071",
+      "32268084",
+      "32025018",
+      "32025012",
+      "32025007",
+      "31873213",
+      "31636459",
+      "31036964",
+      "30833795",
+      "30602769",
+      "30411433",
+      "30337534",
+      "29930083",
+      "29898405",
+      "29750242",
+      "29713083",
+      "29525475",
+      "29411093",
+      "29297505",
+      "28492527",
+      "28342454",
+      "27185886",
+      "27135926",
+      "26687355",
+      "26415501",
+      "26017310",
+      "25658651",
+      "24637833",
+      "23498933",
+      "23042453",
+      "22962449",
+      "22786614",
+      "22265402",
+      "22258507",
+      "22185757",
+      "22155870",
+      "21215367",
+      "20981101",
+      "20975744",
+      "20624901",
+      "20175925",
+      "19451168",
+      "18974345",
+      "17908935",
+      "17247004",
+      "16319984",
+      "15798094",
+      "9872311",
+      "8605112",
+      "7522535"
+    ],
+    "similar": [
+      "41162705",
+      "21960636",
+      "18813350",
+      "31444400",
+      "29564828",
+      "35380536",
+      "15162061",
+      "12052890",
+      "20062083",
+      "42475469",
+      "19540174",
+      "20444664",
+      "23792446",
+      "10972990",
+      "24886358",
+      "19941823",
+      "28069571",
+      "42236735",
+      "15905643",
+      "24637079",
+      "15256449",
+      "39466546",
+      "23793898",
+      "15548760",
+      "31036964",
+      "38447882",
+      "40001547",
+      "14729584",
+      "33371494",
+      "35886011",
+      "20923775",
+      "8887655",
+      "18506893",
+      "35831506",
+      "34464389",
+      "17363523",
+      "15677628",
+      "28718433",
+      "12751955",
+      "20551165",
+      "27497790",
+      "29880483",
+      "40155604",
+      "39160538",
+      "15878348",
+      "26851439",
+      "33069004",
+      "21896770",
+      "35604590",
+      "30018248",
+      "29282022",
+      "18727509",
+      "15044920",
+      "29622463",
+      "36951111",
+      "20571075",
+      "20484032",
+      "29670109",
+      "19822159",
+      "24252182",
+      "29800151",
+      "20711256",
+      "12810256",
+      "34425515",
+      "30833795",
+      "30204765",
+      "12771041",
+      "21602883",
+      "15297751",
+      "15561772",
+      "18647660",
+      "21575645",
+      "20339289",
+      "26433259",
+      "16814619",
+      "32193338",
+      "15281904",
+      "19105236",
+      "8692199",
+      "41349145",
+      "14612521",
+      "10072601",
+      "42019868",
+      "25893297",
+      "11170280",
+      "34375929",
+      "15236315",
+      "32809547",
+      "15162024",
+      "27545893",
+      "23446422",
+      "12140760",
+      "21762709",
+      "10962567",
+      "10894953",
+      "22266907",
+      "38553459",
+      "12175310",
+      "10319873",
+      "30389156"
+    ],
+    "review": [
+      "41162705",
+      "29564828",
+      "39466546",
+      "40001547",
+      "33371494",
+      "28718433",
+      "18727509",
+      "20484032",
+      "34425515",
+      "21575645",
+      "20339289",
+      "16814619",
+      "15281904",
+      "41349145",
+      "15162024",
+      "38553459"
+    ],
+    "pmc": [
+      "12695650"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-025-09632-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41162705/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

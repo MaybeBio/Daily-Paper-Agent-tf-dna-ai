@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, competing interests, acknowledgements)
+- **Assessment boundary** Scientific content and technical claims as presented in the supplied text; no supplementary figures, tables, or source data were available for inspection
+- **Shared manuscript claim summary** The authors report the computational design and humanization of caffeine-inducible homodimerizing and heterodimerizing nanobody domains, and demonstrate their utility in engineered cytokine receptors (GEMS) for STAT3 signaling and in split transcription factors (caff-TFs) based on human zinc-finger proteins, with delivery via lentiviral and retroviral vectors to Jurkat T-cells for inducible expression of therapeutic genes such as CARs.
+- **Visible evidence base** Main text figures referenced (Figures 1-5), supplementary items referenced (Figures S1-S4, Tables S1-S6), methods section, data availability statement
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S6), source data, plasmid sequences, and the referenced code repository were not provided for review; no raw experimental data or statistical details beyond those described in the text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-motivated and technically ambitious effort to develop humanized, caffeine-inducible protein domains for controlling cellular functions, with potential applications in cell therapy. The computational design strategy using varCOMETS is novel and the demonstration of functional caff-TFs and caff-GEMS in T-cells is promising. However, the evidence base available for review is incomplete, and several claims regarding performance, specificity, and clinical relevance require additional experimental support and clarification. The work is of interest to the synthetic biology and cell therapy communities, but the case for broad utility and safety is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, protein engineering, and cell therapy will find this work relevant. The development of humanized, small-molecule-inducible systems addresses a key limitation in current gene regulation tools, and the use of caffeine as a non-toxic inducer is attractive. The computational design approach (varCOMETS) may also interest computational protein designers.
+- **Major strengths** The work addresses a significant problem in cell therapy: the need for humanized, non-immunogenic, inducible gene expression systems. The combination of computational design with experimental validation is rigorous. The demonstration of caffeine-inducible CAR expression in T-cells at physiologically relevant caffeine concentrations is a notable achievement. The use of exclusively human or humanized components is a clear advance over existing systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the computational design (varCOMETS) successfully generated heterodimers with improved specificity, and that the top seven candidates were selected based on multistate Rosetta energy.
+  - **Evidence pointer** Results section "Computational Design of Caffeine Induced Heterodimers"; Methods section "Computational Design of Caffeine-Induced Heterodimers"; Table S3
+  - **Concern** The description of the computational design is incomplete. The varCOMETS algorithm is described only briefly, and the criteria for selecting the top seven candidates are not fully specified. The energy function, the exact constraints, and the validation of the algorithm's performance (e.g., comparison to COMETS) are not provided. Without these details, the robustness and novelty of the computational approach cannot be assessed.
+  - **Why it matters** The computational design is a central pillar of the manuscript. If the algorithm is not adequately described or validated, the reproducibility and generalizability of the approach are questionable.
+  - **Resolution test** Provide a detailed description of varCOMETS, including the energy function, the search strategy, the constraints, and a benchmark against COMETS or other design methods. Include the full list of designed mutations and the rationale for selecting the top seven candidates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the humanized heterodimers (e.g., A3+B6, A2+B1, A3+B1) show improved signal-to-noise ratios and EC50 differences compared to homodimers in the GEMS platform.
+  - **Evidence pointer** Results section "Heterodimer Humanization, Optimization, and Selection"; Figures 4b, 4e, 4f; Table S6
+  - **Concern** The data supporting the performance of the humanized heterodimers are not fully presented. The text mentions EC50 values and signal-to-noise ratios, but the actual dose-response curves, the number of replicates, and the statistical analysis are not shown in the main text. The comparison between heterodimers and homodimers is described qualitatively, but the magnitude of the differences and their significance are unclear.
+  - **Why it matters** The claim that heterodimerization outperforms homodimerization is critical for the utility of the system. Without clear quantitative data, this claim is not substantiated.
+  - **Resolution test** Provide full dose-response curves for all tested pairs, including homodimers and heterodimers, with error bars and statistical tests. Clearly state the number of biological replicates and the criteria for selecting the best pairs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that caff-TFs enable caffeine-inducible expression of CARs in Jurkat T-cells with a signal-to-noise ratio of about 20-fold and an EC50 of about 50 µM, and that NFAT signaling is strictly dependent on both caffeine and cancer cells.
+  - **Evidence pointer** Results section "Caffeine-Inducible Control of Zinc Finger Transcription Factors"; Figure 5d; Table S6
+  - **Concern** The data for the caff-TF-CAR experiments are not shown in the main text. The EC50 values and signal-to-noise ratios are stated, but the actual flow cytometry data, the gating strategy, and the controls (e.g., cells without caffeine, cells without cancer cells) are not presented. The claim that NFAT signaling is "strictly dependent" on both stimuli requires showing the full dataset, including negative controls.
+  - **Why it matters** The functional demonstration of caffeine-inducible CAR expression and downstream signaling is the key translational claim. Without the raw data and controls, this claim cannot be verified.
+  - **Resolution test** Provide representative flow cytometry plots, gating strategies, and quantification for all conditions, including negative controls. Show the full dose-response curves for caffeine and the co-culture experiments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the humanized systems are "likely more suitable for clinical applications" compared to existing systems, citing reduced immunogenicity and the use of caffeine as a non-toxic inducer.
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim of clinical suitability is speculative. While the use of humanized components is a reasonable step, no data on immunogenicity, pharmacokinetics, or in vivo efficacy are provided. The comparison to existing systems (e.g., tamoxifen, rapamycin) is qualitative and does not account for potential off-target effects of caffeine or the long-term stability of the system.
+  - **Why it matters** The clinical relevance is a major selling point of the work. Overstating the clinical readiness without supporting data could mislead readers.
+  - **Resolution test** Either temper the claims to reflect the current proof-of-concept stage or provide additional data (e.g., immunogenicity assays, in vivo studies) to support the clinical potential.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction assumes familiarity with synthetic biology terminology (e.g., "homodimerizing nanobodies," "split transcription factors") without defining these terms for a broader audience.
+  - **Required correction** Briefly define key terms and concepts to make the manuscript accessible to readers outside the immediate field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Computational Design of Caffeine-Induced Heterodimers"
+  - **Issue** The description of the cell culture and transfection protocols is incomplete. For example, the number of cells per well for Jurkat experiments is not specified, and the timing of caffeine addition is not described.
+  - **Required correction** Provide complete details for all experimental procedures to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Homodimer Humanization and Selection"
+  - **Evidence pointer** Figure 3a; Figure S2
+  - **Issue** The text states that "all resulting receptors still had high basal activity" for the first humanized versions, but the data are not shown in the main text. The reader cannot assess the magnitude of the problem or the improvement with subsequent mutations.
+  - **Required correction** Include the basal activity data for all humanization intermediates in the main text or supplementary figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of clinical applications is brief and does not address potential challenges such as the variability of caffeine levels in patients, the need for precise dosing, or the potential for off-target effects.
+  - **Required correction** Expand the discussion to include a balanced assessment of the challenges and limitations for clinical translation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (computational design details), R1-M2 (quantitative data for heterodimer performance), R1-M3 (raw data for caff-TF-CAR experiments)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its combination of computational design, humanization, and application to cell therapy. The use of caffeine as an inducer is not entirely new, but the humanized heterodimer system is a novel contribution.
+  - Scientific importance: The problem addressed is important, and the potential for clinical application is significant. However, the current evidence is at the proof-of-concept stage, and the importance is not fully realized without additional validation.
+  - Interdisciplinary readership: The work will appeal to synthetic biologists, protein engineers, and cell therapy researchers. The clinical relevance may attract a broader audience, but the technical detail may limit accessibility.
+  - Technical soundness: The experimental approach is generally sound, but the lack of detailed data and incomplete methods descriptions weaken the technical case.
+  - Readability for nonspecialists: The manuscript is reasonably well-written but assumes familiarity with the field. Some terms and concepts could be better explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary data are encouraging, but the manuscript requires substantial additional detail and data to fully support the claims.
+
+## Risk / unsupported claims
+- The claim that varCOMETS is a significant improvement over COMETS is not supported by a benchmark or comparison.
+- The claim that the humanized heterodimers are "likely more suitable for clinical applications" is speculative and not supported by direct evidence.
+- The claim that caff-TFs enable "tightly regulated" expression is not fully supported without showing the full dynamic range and leakiness of the system.
+- The claim that the system is "composed entirely of human or humanized components" is stated but not verified with sequence or immunogenicity data.
+- The claim that caffeine concentrations consistent with normal coffee consumption are sufficient is based on EC50 values, but the actual caffeine concentrations in the experiments are not clearly stated in the main text.

@@ -1,0 +1,779 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.26.734906",
+  "title": "GpsB acts as an adapter for MacP-mediated activation of class A penicillin-binding protein aPBP2a in <i>Streptococcus pneumoniae</i> , independently of MacP phosphorylation",
+  "doi": "10.64898/2026.06.26.734906",
+  "abstract": "Regulation of class A penicillin-binding proteins (aPBPs) in peptidoglycan biosynthesis is incompletely understood in Gram-positive bacteria. One example is activation of aPBP2a by GpsB and phosphorylated MacP in the ovoid-shaped pathogen, Streptococcus pneumoniae . We set out to examine whether phosphorylation of Thr residues other than Thr32 contributed to MacP activation of aPBP2a. We also wanted to determine whether GpsB and MacP activation of aPBP2a were related. Here we report that MacP was phosphorylated about equally at Thr32 and Thr56 in physiological and biochemical assays. However, based on transformation and growth assays, phosphorylation of MacP was not required for aPBP2a activation. A structure-function analysis confirmed that most of the MacP cytoplasmic domain, which was predicted by AlphaFold3 to be disordered, was not required for aPBP2a activation. These analyses further identified amino acids in the MacP transmembrane domain and the aPBP2a juxtamembrane region, as well as a variant of the GpsB-binding motif in the membrane-proximal cytoplasmic region of MacP, required for aPBP2a activation. Together, these results support a tripartite model in which GpsB acts as an adapter for activation of aPBP2a by MacP. Finally, additional interaction, Tn-seq, and growth assays suggested other modes of direct or indirect regulation of aPBP2a activity.",
+  "authors": [
+    "Merrin Joseph",
+    "Bohumil Kubeša",
+    "Ho-Ching T. Tsui",
+    "Mattia Benedet",
+    "Orietta Massida",
+    "Pavel Branny",
+    "Linda Doubravová",
+    "Malcolm E. Winkler"
+  ],
+  "published_date": "2026-06-27",
+  "updated_date": "2026-06-28T07:35:24Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734906",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734906.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T16:57:07Z",
+        "timestamp": 1785430627355,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 75,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                27
+              ]
+            ],
+            "date-time": "2026-06-27T00:00:00Z",
+            "timestamp": 1782518400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R35GM131767"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM131767"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Regulation of class A penicillin-binding proteins (aPBPs) in peptidoglycan biosynthesis is incompletely understood in Gram-positive bacteria. One example is activation of aPBP2a by GpsB and phosphorylated MacP in the ovoid-shaped pathogen,\n                  <jats:italic>Streptococcus pneumoniae</jats:italic>\n                  . We set out to examine whether phosphorylation of Thr residues other than Thr32 contributed to MacP activation of aPBP2a. We also wanted to determine whether GpsB and MacP activation of aPBP2a were related. Here we report that MacP was phosphorylated about equally at Thr32 and Thr56 in physiological and biochemical assays. However, based on transformation and growth assays, phosphorylation of MacP was not required for aPBP2a activation. A structure-function analysis confirmed that most of the MacP cytoplasmic domain, which was predicted by AlphaFold3 to be disordered, was not required for aPBP2a activation. These analyses further identified amino acids in the MacP transmembrane domain and the aPBP2a juxtamembrane region, as well as a variant of the GpsB-binding motif in the membrane-proximal cytoplasmic region of MacP, required for aPBP2a activation. Together, these results support a tripartite model in which GpsB acts as an adapter for activation of aPBP2a by MacP. Finally, additional interaction, Tn-seq, and growth assays suggested other modes of direct or indirect regulation of aPBP2a activity.\n                </jats:p>",
+      "DOI": "10.64898/2026.06.26.734906",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            28
+          ]
+        ],
+        "date-time": "2026-06-28T07:35:24Z",
+        "timestamp": 1782632124000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "GpsB acts as an adapter for MacP-mediated activation of class A penicillin-binding protein aPBP2a in\n                  <i>Streptococcus pneumoniae</i>\n                  , independently of MacP phosphorylation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0943-920X",
+          "authenticated-orcid": false,
+          "given": "Merrin",
+          "family": "Joseph",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Indiana University Bloomington, Bloomington, IN, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bohumil",
+          "family": "Kubeša",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Microbiology, Czech Academy of Sciences, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0849-874X",
+          "authenticated-orcid": false,
+          "given": "Ho-Ching T.",
+          "family": "Tsui",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Indiana University Bloomington, Bloomington, IN, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mattia",
+          "family": "Benedet",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Medical Sciences (CISMed), Department of Cellular, Computational, and Integrative Biology (CIBIO), University of Trento, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8823-2372",
+          "authenticated-orcid": false,
+          "given": "Orietta",
+          "family": "Massida",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Medical Sciences (CISMed), Department of Cellular, Computational, and Integrative Biology (CIBIO), University of Trento, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4554-8873",
+          "authenticated-orcid": false,
+          "given": "Pavel",
+          "family": "Branny",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Microbiology, Czech Academy of Sciences, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3433-0262",
+          "authenticated-orcid": false,
+          "given": "Linda",
+          "family": "Doubravová",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Microbiology, Czech Academy of Sciences, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1482-2588",
+          "authenticated-orcid": false,
+          "given": "Malcolm E.",
+          "family": "Winkler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, Indiana University Bloomington, Bloomington, IN, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1119172109"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2021.737396"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.349895.122"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.5",
+          "first-page": "282",
+          "article-title": "Pneumococcal S protein coordinates cell wall modification and repair to resist host antimicrobials",
+          "volume": "11",
+          "year": "2026",
+          "journal-title": "Nature Microbiology"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.6",
+          "first-page": "464",
+          "article-title": "Artemis: an integrated platform for visualization and analysis of high-throughput sequence-based experimental data",
+          "volume": "28",
+          "year": "2011",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "16172",
+          "DOI": "10.1038/nmicrobiol.2016.172",
+          "article-title": "Bacterial cell wall biogenesis is mediated by SEDS and PBP polymerase families functioning semi-autonomously",
+          "volume": "1",
+          "year": "2016",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-08056-2"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2020.07.004"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.10",
+          "first-page": "e00291",
+          "article-title": "Molecular dissection of the chromosome partitioning protein RocS and regulation by phosphorylation",
+          "volume": "206",
+          "year": "2024",
+          "journal-title": "Journal of Bacteriology"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1294",
+          "DOI": "10.1038/s41564-019-0439-0",
+          "article-title": "Bacillus subtilis cell diameter is determined by the opposing actions of two distinct cell wall synthetic systems",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Echlin, H. , and Rosch, J.W . (2020) Advancing Genetic Tools in Streptococcus pneumoniae. Genes (Basel ) 11.",
+          "DOI": "10.20944/preprints202007.0140.v1"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41579-020-0366-3"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "16253",
+          "DOI": "10.1038/nmicrobiol.2016.253",
+          "article-title": "RodA as the missing glycosyltransferase in Bacillus subtilis and antibiotic discovery for the peptidoglycan polymerase pathway",
+          "volume": "2",
+          "year": "2017",
+          "journal-title": "Nature microbiology"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1715218115"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13966"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.181.9.2773-2781.1999"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijmm.2016.12.001"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2019.03101"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.181.20.6552-6555.1999"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang, R. , Patel, Y. , and Helmann, J.D . (2025) The Bacillus subtilis class A penicillin-binding protein 4 (PBP4) requires an accessory protein RpdA. bioRxiv.",
+          "DOI": "10.64898/2025.12.21.695826"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4315"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14969"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12408"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.05245-11"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.01148-06"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33404-8"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2010.12.016"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mahone, C.R. , Payne, I.P. , Lyu, Z. , McCausland, J.W. , Barrows, J.M. , Xiao, J. , Yang, X. , and Goley, E.D . (2024) Integration of cell wall synthesis and chromosome segregation during cell division in Caulobacter. J Cell Biol 223.",
+          "DOI": "10.1083/jcb.202211026"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2023.112756"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1462-2920.12189"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19331"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1661",
+          "DOI": "10.1038/s41564-019-0472-z",
+          "article-title": "RocS drives chromosome segregation and nucleoid protection in Streptococcus pneumoniae",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.34",
+          "first-page": "e02390",
+          "article-title": "MacP bypass variants of Streptococcus pneumoniae PBP2a suggest a conserved mechanism for the activation of bifunctional cell wall synthases",
+          "volume": "0",
+          "year": "2023",
+          "journal-title": "mBio"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.35",
+          "first-page": "301",
+          "article-title": "Streptococcus pneumoniae S protein activates PBP1a to regulate peptidoglycan remodelling and cell division",
+          "volume": "11",
+          "year": "2026",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mueller, E.A. , Egan, A.J. , Breukink, E. , Vollmer, W. , and Levin, P.A . (2019) Plasticity of Escherichia coli cell wall metabolism promotes fitness and antibiotic resistance across environmental conditions. Elife 8.",
+          "DOI": "10.7554/eLife.40754"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Navarro, P.P. , Vettiger, A. , Hajdu, R. , Ananda, V.Y. , López-Tavares, A. , Schmid, E.W. , Walter, J.C. , Loose, M. , Chao, L.H. , and Bernhardt, T.G. (2025) The aPBP-type cell wall synthase PBP1b plays a specialized role in fortifying the Escherichia coli division site against osmotic rupture. bioRxiv.",
+          "DOI": "10.1101/2025.04.02.646830"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.01564-09"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.181.12.3852-3856.1999"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mib.2021.01.008"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tim.2017.06.010"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1816018116"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2401831121"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2021.780864"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "4011",
+          "DOI": "10.1038/s41467-025-58692-8",
+          "article-title": "Glycosylation of serine/threonine-rich intrinsically disordered regions of membrane-associated proteins in streptococci",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "3666",
+          "DOI": "10.1080/07391102.2017.1395767",
+          "article-title": "Structural model of the full-length Ser/Thr protein kinase StkP from S. pneumoniae and its recognition of peptidoglycan fragments",
+          "volume": "36",
+          "year": "2018",
+          "journal-title": "Journal of Biomolecular Structure and Dynamics"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13279"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-micro-020518-120056"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13613"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6976.2008.00105.x"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "6723",
+          "DOI": "10.1038/s41467-025-62051-y",
+          "article-title": "The hit-and-run of cell wall synthesis: LpoB transiently binds and activates PBP1b through a conserved allosteric switch",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature25985"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "813",
+          "DOI": "10.1038/s41564-020-0687-z",
+          "article-title": "Structural coordination of polymerization and crosslinking by a SEDS-bPBP peptidoglycan synthase complex",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.54",
+          "first-page": "9971",
+          "article-title": "Deep genome annotation of the opportunistic human pathogen Streptococcus pneumoniae D39",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4315"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2024.168797"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.14714"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1917820117"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr900612v"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun, Y. , Hürlimann, S. , and Garner, E. (2023) Growth rate is modulated by monitoring cell wall precursors in Bacillus subtilis . Nat Microbiol.",
+          "DOI": "10.1038/s41564-023-01329-7"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.67.11.5190-5196.2001"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "587",
+          "DOI": "10.1038/s41564-018-0345-x",
+          "article-title": "FtsW is a peptidoglycan polymerase that is functional only in complex with its cognate penicillin-binding protein",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Nat Microbiol"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2021.04.041"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13366"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12745"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.15122"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro2677"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167319"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.51998"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vollmer, W. , Massidda, O. , and Tomasz, A . (2019) The Cell Wall of Streptococcus pneumoniae . Microbiol Spectr 7.",
+          "DOI": "10.1128/microbiolspec.GPP3-0018-2018"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12006"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4582"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6976.2007.00095.x"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhan, R. , Gong, H. , Li, Y. , Cui, Y. , Chen, X. , Lutkenhaus, J. , and Du, S. (2026) RodZ acts through MreBCD to activate the elongasome in Escherichia coli . bioRxiv: 2026.2001.2005.697639.",
+          "DOI": "10.64898/2026.01.05.697639"
+        },
+        {
+          "key": "2026063005553235000_2026.06.26.734906v1.75",
+          "first-page": "197",
+          "article-title": "PASTA repeats of the protein kinase StkP interconnect cell constriction and separation of Streptococcus pneumoniae",
+          "volume": "3",
+          "year": "2018",
+          "journal-title": "Nat Microbiol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.26.734906",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2026-06-30T13:14:50Z",
+        "timestamp": 1782825290000
+      },
+      "score": 73.1559,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.26.734906"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "references-count": 75,
+      "URL": "https://doi.org/10.64898/2026.06.26.734906",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

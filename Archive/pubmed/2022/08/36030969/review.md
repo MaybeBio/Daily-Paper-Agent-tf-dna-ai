@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors propose that the synthetic steroid YK11, a selective androgen receptor modulator (SARM), induces gene-selective transactivation via the androgen receptor (AR) in MDA-MB-453 breast cancer cells, and that this selectivity arises from ligand-dependent differences in AR DNA-binding and cofactor recruitment, potentially driven by conformational changes in AR helices 11 and 12.
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, experimental data (e.g., ChIP-seq or ChIP-qPCR results, gene expression datasets, docking coordinates, mutation validation data, two-hybrid assay results), statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for SARM selectivity, supported by a combination of gene expression, chromatin recruitment, docking, and cofactor interaction experiments. However, the evidence as summarized is insufficient to fully establish the causal link between YK11-induced conformational changes, differential DNA-binding, cofactor recruitment, and gene-selective outcomes. The work is potentially of interest to the steroid hormone receptor and drug development communities, but the current abstract lacks quantitative detail and validation depth.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, particularly those studying androgen receptor signaling and selective modulators, as well as medicinal chemists and pharmacologists involved in SARM development for therapeutic applications such as prostate cancer, muscle wasting, or breast cancer. The findings could inform rational design of tissue-selective AR ligands.
+- **Major strengths** The study addresses a clinically relevant and mechanistically underexplored question regarding SARM selectivity. The use of a comparative approach between a natural ligand (DHT) and a synthetic SARM (YK11) in a relevant breast cancer cell line is appropriate. The integration of computational docking with experimental mutagenesis and cofactor assays provides a multi-pronged strategy to probe mechanism.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "gene selective regulation by SARMs results from differential DNA-binding and/or cofactor recruitment by ligands."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract reports different patterns of AR target gene expression and AR recruitment to enhancer regions between DHT and YK11, but does not provide quantitative data (e.g., effect sizes, number of genes affected, reproducibility) or statistical significance. The causal link between the observed differential recruitment and gene expression changes is asserted rather than demonstrated.  
+  - **Why it matters** Without quantitative and statistical support, the claim that differential DNA-binding is a determinant of gene selectivity remains correlative. The abstract does not rule out other mechanisms, such as ligand-specific effects on AR stability, post-translational modifications, or chromatin state.  
+  - **Resolution test** Provide quantitative ChIP-qPCR or ChIP-seq data with statistical comparisons, and demonstrate that changes in AR recruitment at specific enhancers directly correlate with changes in target gene expression across multiple biological replicates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic validation  
+  - **Claim pointer** The abstract states that "a docking study suggested the helices 11 and 12 was moved by the sterically hindered C17-group of YK11" and that "mutational studies of AR Gln902 and mammalian two-hybrid assays suggested different cofactor recruitment between DHT and YK11."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The docking study is only suggestive, and the abstract does not specify whether the predicted conformational change was experimentally validated (e.g., via hydrogen-deuterium exchange, NMR, or crystallography). The mutational study of Gln902 is mentioned but the functional impact on cofactor recruitment is not quantified, and the two-hybrid assay results are not described in terms of magnitude or specificity.  
+  - **Why it matters** The proposed mechanism hinges on a ligand-specific conformational change leading to altered cofactor recruitment. If the docking prediction is not experimentally confirmed, and if the cofactor recruitment differences are not robustly demonstrated, the mechanistic model remains speculative.  
+  - **Resolution test** Include experimental validation of the conformational change (e.g., protease sensitivity or FRET-based assays) and provide quantitative two-hybrid data showing significant and specific differences in cofactor recruitment for YK11 versus DHT, with appropriate controls.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract concludes that "these results provide novel insights into the mechanism of action of SARMs" and implies a generalizable mechanism.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The study is limited to a single cell line (MDA-MB-453) and a single SARM (YK11). The abstract does not address whether the proposed mechanism applies to other SARMs or other AR-positive cell contexts.  
+  - **Why it matters** Overgeneralization from one ligand and one cell line could mislead the field regarding the universality of the proposed mechanism. SARM selectivity may be context-dependent.  
+  - **Resolution test** Discuss limitations explicitly and, if possible, include preliminary data with another SARM or another cell line to support generalizability, or temper the conclusion accordingly.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "helices 11 and 12 was moved" is grammatically incorrect and ambiguous. It is unclear whether the movement is relative to the DHT-bound state or a conformational shift within the ligand-binding domain.  
+  - **Required correction** Revise to "the docking study suggested that helices 11 and 12 undergo a conformational shift upon YK11 binding, potentially due to steric hindrance from the C17 group."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental details  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract does not specify which AR target genes were examined or how many were differentially regulated.  
+  - **Required correction** Include a brief mention of the number and identity of representative target genes to give readers a sense of the scope.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Cofactor recruitment claim  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract states "different cofactor recruitment" but does not specify which cofactors were tested or whether the differences were in affinity, selectivity, or kinetics.  
+  - **Required correction** Specify the cofactors examined and the nature of the observed differences (e.g., enhanced recruitment of a coactivator versus reduced corepressor binding).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative or mechanistic evidence to support the central claims. The lack of experimental validation for the docking prediction and the absence of statistical rigor in the gene expression and recruitment data prevent the case from being established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of ligand-specific DNA-binding and cofactor recruitment as a basis for SARM selectivity is not entirely novel, but the specific focus on YK11 and the proposed conformational mechanism adds some originality. However, the abstract does not clearly differentiate this from prior work on other nuclear receptor modulators.  
+  - **Scientific importance** The question of SARM selectivity is clinically relevant, but the current evidence is preliminary and limited to one cell line, which limits the immediate importance.  
+  - **Interdisciplinary readership** The topic bridges endocrinology, cancer biology, and drug design, which could attract a broad audience, but the abstract is too specialized and lacks context for nonspecialists.  
+  - **Technical soundness** The combination of methods is reasonable, but the abstract does not provide enough detail to assess the rigor of the experiments, particularly the docking and two-hybrid assays.  
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with AR signaling and SARM concepts; it would benefit from a brief explanation of why differential DNA-binding matters.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental approach is appropriate, but the abstract lacks the quantitative and mechanistic depth required to support the conclusions. I would be supportive if the full manuscript provides robust data addressing the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that YK11-induced conformational changes in helices 11 and 12 are responsible for differential cofactor recruitment is unsupported without experimental validation of the docking prediction.
+- The claim that differential DNA-binding is a determinant of gene-selective regulation is unsupported without quantitative ChIP data and direct correlation with gene expression changes.
+- The generalizability of the mechanism to other SARMs is unsupported given the single-ligand, single-cell-line design.
+- The novelty of the insights is not fully assessable from the abstract alone, as prior literature on SARM mechanisms is not discussed.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of a drought-induced MYC transcription factor (CtMYC) from guar (Cyamopsis tetragonoloba), tissue-specific upregulation under drought, cloning and expression in E. coli, purification, secondary structure analysis by circular dichroism (CD), DNA binding potential inferred from CD and fluorescence changes in the presence of genomic DNA, and in silico prediction of a conserved bHLH domain with specific DNA-binding residues (His, Glu, Arg). The authors claim this is the first report of a drought-responsive CtMYC TF with DNA binding potential.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or figures are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical methods, sequence alignments, CD spectra, fluorescence data, and any supporting bioinformatics analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible but preliminary characterization of a drought-responsive MYC transcription factor from guar. The core claims, particularly regarding DNA binding potential and the structural interpretation, are supported only by qualitative statements and lack quantitative evidence. The novelty claim of "first report" is not verifiable from the supplied material. The work may be of interest to plant stress biology researchers, but the evidence base is insufficient to fully establish the mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers studying transcription factor regulation in abiotic stress responses, particularly those working on MYC/bHLH family proteins in legumes or drought tolerance mechanisms. The guar system is agriculturally relevant for gum production, and understanding drought-responsive regulators could inform crop improvement strategies.
+- **Major strengths** The study addresses a relevant topic in plant abiotic stress biology. The combination of expression analysis, recombinant protein production, and biophysical characterization (CD and fluorescence) is a reasonable approach. The identification of conserved bHLH domain and specific DNA-binding residues via in silico methods provides a useful framework for future functional studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The circular dichroism (CD) analysis revealed the presence of helical content and beta sheets and in the presence of genomic DNA the conformational changes were observed in secondary structure, which showed DNA binding potential of CtMYC."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that CD-detected conformational changes demonstrate DNA binding potential is not quantitatively supported. No spectral data, no binding constants, no controls (e.g., non-specific DNA or protein variants) are described. The use of genomic DNA rather than a defined promoter sequence weakens the specificity argument.
+  - **Why it matters** DNA binding is a central mechanistic claim of the study. Without quantitative binding data or appropriate controls, the conclusion that CtMYC has DNA binding potential is not established. This is a core finding that the title and abstract emphasize.
+  - **Resolution test** Provide CD spectra with and without DNA, show dose-dependent changes, include a negative control (e.g., a non-DNA-binding protein or mutated CtMYC), and ideally report a binding affinity or at least a qualitative but reproducible shift with statistical support.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The CtMYC gene showed tissue-specific expression and up regulated under drought stress conditions as compared to the control and maximum expression was observed in mature leaves."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The expression claim is qualitative. No data on expression levels, statistical significance, number of biological replicates, or the specific tissues compared are provided. The phrase "maximum expression was observed in mature leaves" lacks a quantitative basis.
+  - **Why it matters** Tissue-specific and drought-induced expression is a foundational claim for the study's relevance. Without statistical support, the reader cannot assess the robustness of this finding or its biological significance.
+  - **Resolution test** Provide expression data (e.g., qRT-PCR or RNA-seq) with error bars, statistical tests, and a clear description of tissues and time points. Show that the upregulation is significant and reproducible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty verification
+  - **Claim pointer** "This is first report on CtMYC TF with DNA binding potential that is responsive to drought."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The novelty claim is not verifiable from the abstract. No literature search or comparative analysis is presented to support that this is the first report.
+  - **Why it matters** Novelty is a key criterion for publication in a journal like Gene. An unsupported "first report" claim may mislead readers and cannot be evaluated without a thorough literature context.
+  - **Resolution test** Provide a clear statement of prior work on MYC TFs in guar or closely related species, and explain how the current findings differ or advance the field.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "These results were analyzed by CD and fluorescence studies" is ambiguous. It is unclear which results were analyzed and how fluorescence studies contributed to the DNA binding conclusion.
+  - **Required correction** Clarify the specific role of fluorescence measurements and how they complement the CD data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Protein purification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states CtMYC was expressed in E. coli Rosetta cells and purified, but no details on purity, yield, or verification of the purified protein are given.
+  - **Required correction** Briefly mention the purification method and any quality checks (e.g., SDS-PAGE, mass spectrometry) in the abstract or refer to the full methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Species name
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The species is written as "Cymopsis tetragonoloba" in the abstract, but the title uses "Cyamopsis tetragonoloba." The correct spelling is Cyamopsis tetragonoloba.
+  - **Required correction** Ensure consistent and correct spelling of the species name throughout the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The DNA binding claim and the expression claim require quantitative data and appropriate controls. Without these, the central conclusions of the study are not established.
+- **Assessment against Nature-style criteria** Originality: The work is potentially original in its specific focus on guar MYC, but the novelty claim is unverified. Scientific importance: Moderate, as it addresses drought response in an agriculturally relevant crop, but the mechanistic depth is limited. Interdisciplinary readership: Limited, as the study is primarily of interest to plant molecular biologists and stress physiologists. Technical soundness: Not fully assessable from the abstract; the biophysical and expression data lack quantitative support. Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the key claims require substantial additional data and controls. A revised version with quantitative evidence and clearer methodology could be supportive.
+
+## Risk / unsupported claims
+- The claim of DNA binding potential based on CD and fluorescence changes is unsupported without quantitative data and controls.
+- The claim of tissue-specific and drought-induced expression is unsupported without statistical analysis.
+- The "first report" novelty claim is unverifiable from the supplied material.
+- The presence of conserved bHLH domain and specific DNA-binding residues is stated but not supported by sequence alignment or structural data in the abstract.

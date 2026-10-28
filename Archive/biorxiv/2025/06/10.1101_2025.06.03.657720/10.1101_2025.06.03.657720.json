@@ -1,0 +1,514 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.03.657720",
+  "title": "SLAB: Simultaneous Labeling And Binding affinity prediction for protein-ligand structures",
+  "doi": "10.1101/2025.06.03.657720",
+  "abstract": "Machine learning models are often used as scoring functions to predict the binding affinity of a protein-ligand complex. These models are trained with limited amounts of data with experimentally measured binding affinity values. A large number of compounds are labeled inactive throughs single-concentration screens without measuring binding affinities. These inactive compounds, along with the active ones, can be used to train binary classification models, while regression models are trained using compounds with binding affinities only. However, the classification and regression tasks are often handled separately, without sharing the learned feature representations. In this paper, we propose a novel model architecture that jointly performs regression and classification objectives, aiming to maximize data utilization and improve predictive performance by leveraging two complementary tasks. In our setup, the regression yields the binding affinity, whereas the classification task yields the label as active or inactive. We demonstrate our method using PDBbind, the standard 3D structure database, as well as a dataset of flavivirus protease compounds with binding affinity data. Our experiments show that the new joint training strategy improves the accuracy of the model, increasing applicability in various practical drug screening scenarios.",
+  "authors": [
+    "Aditya Ranganath",
+    "Hyojin Kim",
+    "Heesung Shim",
+    "Jonathan E. Allen"
+  ],
+  "published_date": "2025-06-06",
+  "updated_date": "2025-06-06T20:45:25Z",
+  "journal": "bioRxiv",
+  "category": "Pharmacology and Toxicology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657720",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657720.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Pharmacology and Toxicology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Pharmacology and Toxicology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:19:08Z",
+        "timestamp": 1785424748058,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ]
+      },
+      "group-title": "Pharmacology and Toxicology",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                6
+              ]
+            ],
+            "date-time": "2025-06-06T00:00:00Z",
+            "timestamp": 1749168000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "HDTRA1242044"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "HDTRA1242044"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04tz64554",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "HDTRA1036045"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "HDTRA1036045"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04tz64554",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Machine learning models are often used as scoring functions to predict the binding affinity of a protein-ligand complex. These models are trained with limited amounts of data with experimentally measured binding affinity values. A large number of compounds are labeled inactive throughs single-concentration screens without measuring binding affinities. These inactive compounds, along with the active ones, can be used to train binary classification models, while regression models are trained using compounds with binding affinities only. However, the classification and regression tasks are often handled separately, without sharing the learned feature representations. In this paper, we propose a novel model architecture that jointly performs regression and classification objectives, aiming to maximize data utilization and improve predictive performance by leveraging two complementary tasks. In our setup, the regression yields the binding affinity, whereas the classification task yields the label as active or inactive. We demonstrate our method using PDBbind, the standard 3D structure database, as well as a dataset of flavivirus protease compounds with binding affinity data. Our experiments show that the new joint training strategy improves the accuracy of the model, increasing applicability in various practical drug screening scenarios.</jats:p>",
+      "DOI": "10.1101/2025.06.03.657720",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2025-06-06T20:45:25Z",
+        "timestamp": 1749242725000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SLAB: Simultaneous Labeling And Binding affinity prediction for protein-ligand structures"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1272-6354",
+          "authenticated-orcid": false,
+          "given": "Aditya",
+          "family": "Ranganath",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Center for Applied Scientific Computing, Lawrence Livermore National Laboratory, 7000 East Avenue, Livermore, California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hyojin",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Applied Scientific Computing, Lawrence Livermore National Laboratory, 7000 East Avenue, Livermore, California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Heesung",
+          "family": "Shim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences and Biotechnology Division, Lawrence Livermore National Laboratory, 7000 East Avenue, Livermore, California, 94550"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan E.",
+          "family": "Allen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Global Security, Lawrence Livermore National Laboratory, 7000 East Avenue, Livermore, California, 94550"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-017-0256-5"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00628"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acscentsci.8b00746"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa921"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.8",
+          "first-page": "1970",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.9",
+          "unstructured": "V. G. Satorras , E. Hoogeboom and M. Welling , International conference on machine learning, 2021, pp. 9323–9332."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.10",
+          "unstructured": "Y. Zhang , Z. Wei , Y. Yuan , C. Li and W. Huang , Proceedings of the 41st International Conference on Machine Learning, 2024, pp. 60021–60039."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01306"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acscentsci.8b00507"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj.7362"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiolchem.2021.107476"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00203"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.17",
+          "unstructured": "B. Wang , H. Zhang , P. Liu , Z. Shen and J. Pineau , Proceedings of the Twenty-Second International Conference on Artificial Intelligence and Statistics, 2019, pp. 3362–3371."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.18",
+          "unstructured": "A. Kendall , Y. Gal and R. Cipolla , Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 7482–7491."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.19",
+          "first-page": "1",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.20",
+          "unstructured": "K. Huang , T. Fu , L. M. Glass , M. Zitnik , C. Xiao and J. Sun , NeurIPS, 2020."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.21",
+          "first-page": "1609",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac409"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.23",
+          "first-page": "36479",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.24",
+          "first-page": "895",
+          "volume": "59",
+          "year": "2018",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.02776-06"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/viro.1997.8504"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2180-7-1"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1743-422X-8-1"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20344/amp.6929"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/CMR.00072-15"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0140-6736(17)31450-2"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1473-3099(02)00368-7"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. R. Petersen , A. C. Brault and R. S. Nasci , Jama, 2013, 310,.",
+          "DOI": "10.1001/jama.2013.8042"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jcv.2014.08.030"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1473-3099(01)00016-0"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cmdc.202000237"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb1073"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.39",
+          "unstructured": "Chemical Computing Group , Molecular Operating Environment (MOE), Montreal, QC, Canada, 2023."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci4005145"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. J. Minnich , K. McLoughlin , M. Tse , J. Deng , A. Weber , N. Murad , B. D. Madej , B. Ramsundar , T. Rush , S. Calad-Thomson , J. Brase and J. E. Allen , Journal of Chemical Information and Modeling, 2020, 60,.",
+          "DOI": "10.1021/acs.jcim.9b01053"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.42",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.43",
+          "unstructured": "M. Fey and J. E. Lenssen , ArXiv, 2019, abs/1903.02428,."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.44",
+          "unstructured": "S. Zhao , M. Gong , T. Liu , H. Fu and D. Tao , Advances in Neural Information Processing Systems, 2020, pp. 16096–16107."
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fphar.2024.1518875"
+        },
+        {
+          "key": "2026041203043144000_2025.06.03.657720v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10994-022-06268-8"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.03.657720",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:00:33Z",
+        "timestamp": 1782277233000
+      },
+      "score": 95.35414,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.03.657720"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2025.06.03.657720",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D5DD00248F",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

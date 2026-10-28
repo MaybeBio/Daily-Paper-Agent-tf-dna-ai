@@ -1,0 +1,454 @@
+{
+  "identity": {
+    "pmid": "36096675",
+    "doi": "10.26508/lsa.202201474",
+    "title": "Sibling rivalry among the ZBTB transcription factor family: homodimers versus heterodimers."
+  },
+  "content": {
+    "abstract": "The BTB domain is an oligomerization domain found in over 300 proteins encoded in the human genome. In the family of BTB domain and zinc finger-containing (ZBTB) transcription factors, 49 members share the same protein architecture. The N-terminal BTB domain is structurally conserved among the family members and serves as the dimerization site, whereas the C-terminal zinc finger motifs mediate DNA binding. The available BTB domain structures from this family reveal a natural inclination for homodimerization. In this study, we investigated the potential for heterodimer formation in the cellular environment. We selected five BTB homodimers and four heterodimer structures. We performed cell-based binding assays with fluorescent protein-BTB domain fusions to assess dimer formation. We tested the binding of several BTB pairs, and we were able to confirm the heterodimeric physical interaction between the BTB domains of PATZ1 and PATZ2, previously reported only in an interactome mapping experiment. We also found this pair to be co-expressed in several immune system cell types. Finally, we used the available structures of BTB domain dimers and newly constructed models in extended molecular dynamics simulations (500 ns) to understand the energetic determinants of homo- and heterodimer formation. We conclude that heterodimer formation, although frequently described as less preferred than homodimers, is a possible mechanism to increase the combinatorial specificity of this transcription factor family.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Gene Expression Regulation",
+      "Humans",
+      "*Transcription Factors/genetics",
+      "Zinc Fingers/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piepoli, Sofia",
+        "Barakat, Sarah",
+        "Nogay, Liyne",
+        "Simsek, Busra",
+        "Akkose, Umit",
+        "Taskiran, Hakan",
+        "Tolay, Nazife",
+        "Gezen, Melike",
+        "Yesilada, Canberk Yarkin",
+        "Tuncay, Mustafa",
+        "Adebali, Ogun",
+        "Atilgan, Canan",
+        "Erman, Batu"
+      ],
+      "short_names": [
+        "Piepoli S",
+        "Barakat S",
+        "Nogay L",
+        "Simsek B",
+        "Akkose U",
+        "Taskiran H",
+        "Tolay N",
+        "Gezen M",
+        "Yesilada CY",
+        "Tuncay M",
+        "Adebali O",
+        "Atilgan C",
+        "Erman B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3891-9464",
+        "ORCID: 0000-0001-9788-4153",
+        "ORCID: 0000-0002-1197-4543",
+        "ORCID: 0000-0002-9731-3702",
+        "ORCID: 0000-0002-3295-4082",
+        "ORCID: 0000-0002-1730-4727",
+        "ORCID: 0000-0002-9734-5720",
+        "ORCID: 0000-0002-2398-1046",
+        "ORCID: 0000-0001-9213-4070",
+        "ORCID: 0000-0003-0557-6044",
+        "ORCID: 0000-0003-2180-7607"
+      ],
+      "affiliations": [
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey batu.erman@boun.edu.tr ogun.adebali@sabanciuniv.edu.",
+        "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey batu.erman@boun.edu.tr ogun.adebali@sabanciuniv.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piepoli, Sofia",
+        "short_name": "Piepoli S",
+        "identifiers": [
+          "0000-0002-3891-9464"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+          "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Barakat, Sarah",
+        "short_name": "Barakat S",
+        "identifiers": [
+          "0000-0001-9788-4153"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Nogay, Liyne",
+        "short_name": "Nogay L",
+        "identifiers": [
+          "0000-0002-1197-4543"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Şimşek, Büşra",
+        "short_name": "Şimşek B",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey.",
+          "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Akkose, Umit",
+        "short_name": "Akkose U",
+        "identifiers": [
+          "0000-0002-9731-3702"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Taskiran, Hakan",
+        "short_name": "Taskiran H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Tolay, Nazife",
+        "short_name": "Tolay N",
+        "identifiers": [
+          "0000-0002-3295-4082"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Gezen, Melike",
+        "short_name": "Gezen M",
+        "identifiers": [
+          "0000-0002-1730-4727"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Yeşilada, Canberk Yarkın",
+        "short_name": "Yeşilada CY",
+        "identifiers": [
+          "0000-0002-9734-5720"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Tuncay, Mustafa",
+        "short_name": "Tuncay M",
+        "identifiers": [
+          "0000-0002-2398-1046"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Adebali, Ogün",
+        "short_name": "Adebali O",
+        "identifiers": [
+          "0000-0001-9213-4070"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey batu.erman@boun.edu.tr ogun.adebali@sabanciuniv.edu."
+        ]
+      },
+      {
+        "full_name": "Atilgan, Canan",
+        "short_name": "Atilgan C",
+        "identifiers": [
+          "0000-0003-0557-6044"
+        ],
+        "affiliations": [
+          "Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Erman, Batu",
+        "short_name": "Erman B",
+        "identifiers": [
+          "0000-0003-2180-7607"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Arts and Sciences, Bogazici University, Istanbul, Turkey batu.erman@boun.edu.tr ogun.adebali@sabanciuniv.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/13 06:00",
+    "fetched_at": "2026-09-28 13:36:18"
+  },
+  "links": {
+    "cites": [
+      "41359419",
+      "39562739",
+      "39201549"
+    ],
+    "refs": [
+      "34270961",
+      "34186024",
+      "33708392",
+      "33384371",
+      "33104802",
+      "33070389",
+      "32814905",
+      "32496219",
+      "31070718",
+      "30395287",
+      "30190310",
+      "30085123",
+      "29788355",
+      "29743357",
+      "28191562",
+      "27855192",
+      "27852650",
+      "27466202",
+      "27166375",
+      "26186194",
+      "25755280",
+      "25484205",
+      "25129370",
+      "24999761",
+      "24901037",
+      "24829450",
+      "24793055",
+      "24638067",
+      "24476585",
+      "24154492",
+      "24121518",
+      "23953120",
+      "23341755",
+      "22930834",
+      "22894929",
+      "22743772",
+      "22218866",
+      "22194330",
+      "21596365",
+      "21117705",
+      "20945358",
+      "20493880",
+      "20224823",
+      "18800157",
+      "18622019",
+      "18280243",
+      "17210054",
+      "17189472",
+      "17120193",
+      "17060912",
+      "16491076",
+      "16222654",
+      "16207353",
+      "14690607",
+      "14668246",
+      "12136088",
+      "11865059",
+      "11691585",
+      "10938130",
+      "10669750",
+      "10368306",
+      "9770450",
+      "9254694",
+      "8744570"
+    ],
+    "similar": [
+      "36096675",
+      "37450366",
+      "32496219",
+      "20493880",
+      "9927193",
+      "10938130",
+      "12853139",
+      "10537309",
+      "17189472",
+      "38996460",
+      "34186024",
+      "21706167",
+      "9341182",
+      "9774661",
+      "10669750",
+      "38996459",
+      "16207353",
+      "11352661",
+      "9019154",
+      "7938017",
+      "7760839",
+      "9467467",
+      "14659886",
+      "10506214",
+      "16718364",
+      "11865059",
+      "11279021",
+      "15629158",
+      "16139965",
+      "8496187",
+      "10873615",
+      "11069897",
+      "11744704",
+      "21821048",
+      "20478078",
+      "11691585",
+      "9632807",
+      "27521773",
+      "15969093",
+      "9774413",
+      "38397429",
+      "10857262",
+      "33807484",
+      "1559709",
+      "8887638",
+      "24850219",
+      "9244436",
+      "17880999",
+      "27250345",
+      "31587407",
+      "16709599",
+      "17084908",
+      "14654994",
+      "9927429",
+      "10747874",
+      "11844803",
+      "11024164",
+      "13678422",
+      "12917396",
+      "10490623",
+      "10903945",
+      "1762917",
+      "12801630",
+      "2288909",
+      "9824158",
+      "7739529",
+      "17252542",
+      "27103457",
+      "30355731",
+      "10978285",
+      "17171645",
+      "31754389",
+      "11179693",
+      "18715961",
+      "12097288",
+      "15231840",
+      "15225875",
+      "16540086",
+      "19170764",
+      "25280016",
+      "11340073",
+      "14985340",
+      "15491138",
+      "12941967",
+      "10978333",
+      "8318900",
+      "25793500",
+      "7936637",
+      "10572087",
+      "32517789",
+      "11154279",
+      "11486045",
+      "39221775",
+      "37546896"
+    ],
+    "review": [
+      "36096675",
+      "16139965",
+      "20478078",
+      "27521773",
+      "38397429",
+      "24850219",
+      "27250345"
+    ],
+    "pmc": [
+      "9468604"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.26508/lsa.202201474",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36096675/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36096675",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt72r3v1xw",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

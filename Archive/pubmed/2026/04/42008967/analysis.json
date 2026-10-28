@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42008967",
+  "title": "Mechanistic insights into the anticancer potential of bergapten in non-small cell lung cancer: A network pharmacology, in-silico molecular docking and dynamics simulation study.",
+  "authors": "Yang, Liu; Cui, Yufeng; Cui, Shihan; Sun, Wei",
+  "journal": "Biophysical chemistry",
+  "published_date": "2026-04-21",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究聚焦小分子药物bergapten与NSCLC相关蛋白（TP53、CASP3、AKT1）的对接与MD模拟，对象为蛋白-小分子互作而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法上部分可借鉴，与课题关联度低。",
+  "abstract": "Bergapten, a furocoumarin, was assessed for its potential as a therapeutic agent targeting non-small cell lung cancer (NSCLC) using comprehensive computational approaches. Geometry optimization and electronic property calculations were performed via Density Functional Theory (DFT) using Gaussian 16 with the B3LYP functional and 6-311G basis set. Physicochemical and ADMET profiles were predicted with SwissADME and ADMET-AI. Bergapten's pharmacological targets were identified from the CTD Database and intersected with NSCLC-related genes from GeneCards; overlapping genes underwent PPI analysis in STRING, hub gene ranking in Cytoscape, and enrichment analyses for Gene ontology and pathways. Differential expression and survival impacts of top hub genes (TP53, CASP3, AKT1) were evaluated using GEPIA2. Molecular docking was conducted with CB-Dock2 and post-docking flexibility examined using iMODS. Molecular dynamic simulation was executed with GROMACS software. DFT calculations suggested a stable molecular conformation for bergapten, highlighting reactive oxygen sites and enabling mapping of charge distribution relevant for biological interactions. Drug-likeness analysis predicted potentially high oral bioavailability, favorable physicochemical and ADMET profiles, minimal toxicity risks, and suitable synthetic accessibility. Target identification identified 33 NSCLC-associated genes that may interact with bergapten interactions, enriched for apoptosis, cell signaling, and inflammation. PPI analysis revealed a strongly interconnected network, with central regulatory hubs (muTP53, CASP3, AKT1) linked to key cancer pathways. GO and pathway enrichment mapped bergapten's action to proliferative and apoptotic mechanisms, platinum drug resistance, and inflammation. Survival analysis suggested that high muTP53 expression may be linked to reduce DFS, while AKT1 and CASP3 expression showed non-significant trends toward poorer and improved survival, respectively. Molecular docking predicted possible binding between bergapten and the three hub proteins, with iMODS confirming complex adaptability and structural stability. Collectively, RMSD, RMSF, SASA, and hydrogen bond analyses consistently predicted that Bergapten possibly forms a stable and well-accommodated complex with AKT1 during the 100 ns MD simulation. Bergapten exhibits molecular and pharmacokinetic characteristics with predicted regulatory interactions across NSCLC-associated networks that probabilistically support its classification as a potential lead candidate, warranting further experimental validation against lung cancer.",
+  "abstract_zh": "Bergapten，一种呋喃香豆素，通过综合计算手段评估其作为靶向非小细胞肺癌（NSCLC）治疗剂的潜力。使用Gaussian 16软件，采用B3LYP泛函和6-311G基组，通过密度泛函理论（DFT）进行几何优化和电子性质计算。利用SwissADME和ADMET-AI预测理化性质及ADMET谱。Bergapten的药理靶点从CTD数据库识别，并与来自GeneCards的NSCLC相关基因取交集；重叠基因在STRING中进行蛋白质-蛋白质相互作用（PPI）分析，在Cytoscape中进行枢纽基因排序，并进行基因本体论和通路富集分析。使用GEPIA2评估顶级枢纽基因（TP53、CASP3、AKT1）的差异表达和生存影响。分子对接使用CB-Dock2进行，对接后灵活性通过iMODS检查。分子动力学模拟使用GROMACS软件执行。DFT计算表明bergapten具有稳定的分子构象，突出反应性氧位点，并能够绘制与生物相互作用相关的电荷分布。药物相似性分析预测其可能具有高口服生物利用度、良好的理化性质和ADMET谱、最小毒性风险以及合适的合成可及性。靶点识别确定了33个可能与bergapten相互作用的NSCLC相关基因，富集于凋亡、细胞信号传导和炎症。PPI分析揭示了一个高度互联的网络，中心调控枢纽（muTP53、CASP3、AKT1）与关键癌症通路相关。GO和通路富集将bergapten的作用映射到增殖和凋亡机制、铂类药物耐药性和炎症。生存分析提示，高muTP53表达可能与降低的无病生存期相关，而AKT1和CASP3表达分别显示出对生存较差和改善的非显著趋势。分子对接预测bergapten与三个枢纽蛋白之间可能存在结合，iMODS确认了复合物的适应性和结构稳定性。总体而言，RMSD、RMSF、SASA和氢键分析一致预测，在100 ns的MD模拟中，bergapten可能与AKT1形成稳定且良好适配的复合物。Bergapten表现出分子和药代动力学特性，并具有跨NSCLC相关网络的预测调控相互作用，这概率性地支持其作为潜在先导候选物的分类，值得进一步针对肺癌进行实验验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42008967/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42008967/",
+  "paper_page_path": "papers/pubmed/42008967/index.html"
+}

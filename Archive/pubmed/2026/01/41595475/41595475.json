@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "41595475",
+    "doi": "10.3390/genes17010055",
+    "title": "GenBlosum: On Determining Whether Cancer Mutations Are Functional or Random."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Genetic mutations have proven to be the epicenters of cancer and disease progression. Traditional WXS sequencing and BLOSUM scoring can be used to infer the evolutionary conservation of amino acid substitutions, though these approaches are not informed by probable base pair sequence changes. Within gene mutation analysis, most tools focus on amino acid conservation or codon switching independently, limiting their ability to contextualize observed mutations against stochastic mutational processes. In the clinical setting, variants of unspecified significance remain difficult to interpret, as clinicians are often unable to determine whether observed mutations arise from oncogenic selection or from stochastic mutational degradation. METHODS: We analyzed mutation sequences from the TCGA BRCA cohort for TP53 and PIK3CA and developed a model that integrates BLOSUM scoring with statistical modeling of base pair changes to evaluate deviation from codon-aware neutral expectations. Observed mutational distributions were compared against a stochastic neutral model to assess statistical significance. RESULTS: Within the TCGA BRCA cohort, TP53 mutations were significantly more evolutionarily radical than expected under the codon-aware neutral model, while PIK3CA mutations were significantly more evolutionarily conservative, as determined using chi-square testing. These opposing patterns are consistent with the distinct functional roles of TP53 and PIK3CA in oncogenesis, where TP53 is inhibited through disruptive loss-of-function mutations, whereas PIK3CA is recurrently mutated in a manner that preserves protein structure and promotes constitutive pathway activation. This contrast reflects selective pressure toward disabling tumor suppressor function while maintaining persistent oncogenic signaling. CONCLUSIONS: Codon-aware neutral modeling provides a statistical framework for distinguishing mutations that deviate from stochastic expectations and may aid in the interpretation of variants of unspecified significance. By contextualizing mutational severity relative to neutral processes, this approach offers insight into tumor evolution and may support prognostic assessment without relying on predefined gene-level neutrality.",
+    "keywords": [
+      "BLOSUM",
+      "Monte Carlo simulation",
+      "PIK3CA",
+      "TP53",
+      "cancer genomics",
+      "codon-aware model",
+      "neutral evolution",
+      "somatic mutation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Class I Phosphatidylinositol 3-Kinases/genetics",
+      "Evolution, Molecular",
+      "*Neoplasms/genetics",
+      "Codon/genetics",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leyva, Alejandro",
+        "Khan Niazi, Muhammad Khalid"
+      ],
+      "short_names": [
+        "Leyva A",
+        "Khan Niazi MK"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-0731-9383",
+        "ORCID: 0000-0002-1278-7512"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, The Ohio State University, 2255 Kenny Rd., Colombus, OH 43210, USA.",
+        "Department of Pathology, The Ohio State University, 2255 Kenny Rd., Colombus, OH 43210, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leyva, Alejandro",
+        "short_name": "Leyva A",
+        "identifiers": [
+          "0009-0002-0731-9383"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, The Ohio State University, 2255 Kenny Rd., Colombus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Khan Niazi, Muhammad Khalid",
+        "short_name": "Khan Niazi MK",
+        "identifiers": [
+          "0000-0002-1278-7512"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University, 2255 Kenny Rd., Colombus, OH 43210, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:47",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40287981",
+      "36279023",
+      "35436152",
+      "35397477",
+      "33051521",
+      "32637176",
+      "31138277",
+      "30197175",
+      "29056346",
+      "27754743",
+      "26473415",
+      "26169833",
+      "26091828",
+      "25741868",
+      "24748652",
+      "24746645",
+      "24132290",
+      "23945592",
+      "23836939",
+      "23550210",
+      "21480434",
+      "20642364",
+      "20535651",
+      "20354512",
+      "18268322",
+      "17376864",
+      "16793544",
+      "16449998",
+      "15016963",
+      "12824425",
+      "7968486",
+      "1438297"
+    ],
+    "similar": [
+      "41595475",
+      "27129168",
+      "28427202",
+      "35778737",
+      "38836758",
+      "30458197",
+      "27369359",
+      "29434452",
+      "12606942",
+      "32367667",
+      "31425802",
+      "41402909",
+      "42013288",
+      "30806788",
+      "37344660",
+      "31199501",
+      "16584746",
+      "35450798",
+      "30634138",
+      "35180531",
+      "24924774",
+      "25695693",
+      "34941867",
+      "28285689",
+      "27528217",
+      "33168853",
+      "36346122",
+      "38909932",
+      "28243898",
+      "31711466",
+      "39191994",
+      "1619684",
+      "36563059",
+      "30212483",
+      "26810975",
+      "16650445",
+      "30416077",
+      "36243681",
+      "41751629",
+      "24500602",
+      "32000721",
+      "12619105",
+      "24885062",
+      "27834349",
+      "42195047",
+      "30542790",
+      "30545790",
+      "25220666",
+      "33599171",
+      "42063004",
+      "42010540",
+      "34749812",
+      "28190247",
+      "35731312",
+      "37747019",
+      "37784176",
+      "25108461",
+      "42021891",
+      "29650325",
+      "34421886",
+      "29807833",
+      "29956783",
+      "30224644",
+      "29053175",
+      "11289281",
+      "39417689",
+      "33827485",
+      "32988919",
+      "22006429",
+      "31277699",
+      "31179560",
+      "40076854",
+      "25490678",
+      "38071953",
+      "26806567",
+      "30115035",
+      "33247697",
+      "21103049",
+      "27468883",
+      "31748433",
+      "22929185",
+      "34876602",
+      "29537649",
+      "30652258",
+      "29979965",
+      "30548163",
+      "38106140",
+      "25367198",
+      "42117066",
+      "29704890",
+      "27265061",
+      "41597409",
+      "30776175",
+      "38802751",
+      "34344439",
+      "29714670",
+      "36934165",
+      "31369573",
+      "42135153",
+      "33867147"
+    ],
+    "review": [
+      "41595475",
+      "12619105"
+    ],
+    "pmc": [
+      "12840647"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17010055",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41595475/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

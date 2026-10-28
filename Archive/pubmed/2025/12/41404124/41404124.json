@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41404124",
+    "doi": "10.1016/j.csbj.2025.11.054",
+    "title": "In silico analysis of the functional implications of drug resistance associated mutations in Mycobacterium tuberculosis."
+  },
+  "content": {
+    "abstract": "The tuberculosis mutation catalogue published by World Health Organization (WHO) lists a large number of mutations based on the statistical significance of their association with resistance or susceptibility to various drugs. However, the mechanism by which they confer resistance to drugs is often not understood. To address these gaps, we combined known resistance associated mutations from the WHO catalogue and newly discovered mutations by explainable artificial intelligence (XAI). In order to decipher the mechanistic basis of drug resistance, we examined where these mutations occur in three dimensional (3D) structures of key drug targets, measured their proximity to drug binding sites and compared their abundance in drug resistant as well as drug susceptible Mycobacterium tuberculosis (M.tb) strains. In parallel, we analyzed the functions of 112 newly identified drug resistance associated genes and compared them to known resistance genes, finding that most novel genes fall into different functional categories, though six share families with known resistance genes. We mapped coding mutations in all 112 novel genes to their functional domains, predicted 3D structures using Alphafold3 and evaluated their effects on protein stability. Notably, our study highlights that mutations in ribosomal proteins (RpsN1, RpsN2) and the transporter PstB may introduce new resistance mechanisms, such as altered drug interactions or increased drug efflux. Whereas, analysis of non coding mutations revealed that most are located at transcription factor binding sites, potentially affecting gene regulation. The current analysis provides valuable insights for the design of experiments to decode mechanistic basis of drug resistance tuberculosis.",
+    "keywords": [
+      "Drug resistance",
+      "Explainable artificial intelligence",
+      "Functional analysis",
+      "Molecular docking",
+      "Mycobacterium tuberculosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pal, Ankita",
+        "Pal, Sapna",
+        "Mahapatra, Shweta",
+        "Pandey, Apratim",
+        "Mohanty, Debasisa"
+      ],
+      "short_names": [
+        "Pal A",
+        "Pal S",
+        "Mahapatra S",
+        "Pandey A",
+        "Mohanty D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pal, Ankita",
+        "short_name": "Pal A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Sapna",
+        "short_name": "Pal S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Mahapatra, Shweta",
+        "short_name": "Mahapatra S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Pandey, Apratim",
+        "short_name": "Pandey A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Debasisa",
+        "short_name": "Mohanty D",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Center, BRIC-National Institute of Immunology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/17 06:40",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "42328536"
+    ],
+    "refs": [
+      "40125545",
+      "39660955",
+      "39631498",
+      "38047702",
+      "37695858",
+      "36866529",
+      "36275027",
+      "36275024",
+      "35944069",
+      "35373160",
+      "35164151",
+      "34747732",
+      "34675557",
+      "34278794",
+      "33551644",
+      "32327601",
+      "32024884",
+      "30337649",
+      "29788355",
+      "29706316",
+      "29459669",
+      "28968762",
+      "28610784",
+      "28487681",
+      "28392175",
+      "28043519",
+      "27393546",
+      "27252397",
+      "26927983",
+      "26792525",
+      "26792518",
+      "26787695",
+      "25690361",
+      "25385119",
+      "24953243",
+      "24829462",
+      "24514091",
+      "24497635",
+      "24281696",
+      "23823726",
+      "23615910",
+      "23539241",
+      "23208715",
+      "23040237",
+      "22593564",
+      "21393153",
+      "21103974",
+      "20211896",
+      "19752274",
+      "19678712",
+      "17970226",
+      "14663077",
+      "10405418",
+      "9811672",
+      "9634230",
+      "9399864",
+      "9257740"
+    ],
+    "similar": [
+      "41404124",
+      "28062386",
+      "38466098",
+      "16245793",
+      "39353459",
+      "24953243",
+      "38179948",
+      "27695670",
+      "32167422",
+      "41445950",
+      "29486710",
+      "40488463",
+      "39445816",
+      "24822277",
+      "35209842",
+      "34651013",
+      "27005572",
+      "37067206",
+      "37003285",
+      "38061383",
+      "38597637",
+      "38904370",
+      "32143680",
+      "30212088",
+      "31097767",
+      "28404672",
+      "38615420",
+      "32158237",
+      "29404424",
+      "31073401",
+      "22803837",
+      "27156618",
+      "35162636",
+      "37646524",
+      "39317997",
+      "40980874",
+      "40091024",
+      "36915970",
+      "38051742",
+      "30132739",
+      "35695524",
+      "26418737",
+      "40491140",
+      "32142951",
+      "29050768",
+      "40445194",
+      "19470506",
+      "24245755",
+      "28623123",
+      "40488462",
+      "39902977",
+      "28496433",
+      "40341578",
+      "22004792",
+      "31793500",
+      "35164151",
+      "31414626",
+      "39219506",
+      "25799046",
+      "31616478",
+      "34171989",
+      "37928179",
+      "32218465",
+      "40449326",
+      "29336677",
+      "31311987",
+      "35428575",
+      "35373160",
+      "22479378",
+      "28117224",
+      "36533863",
+      "24731071",
+      "31628383",
+      "37407242",
+      "30027700",
+      "19752274",
+      "23770140",
+      "41031815",
+      "40078052",
+      "40016696",
+      "28043501",
+      "34090078",
+      "40905483",
+      "30837962",
+      "22761889",
+      "30583053",
+      "17240921",
+      "30606116",
+      "34340773",
+      "19759491",
+      "36321557",
+      "38745294",
+      "30061294",
+      "35919400",
+      "40745428",
+      "31189582",
+      "26927983",
+      "35792049",
+      "38811658",
+      "30814998"
+    ],
+    "review": [
+      "41404124",
+      "34651013",
+      "30212088",
+      "36915970",
+      "39219506",
+      "25799046",
+      "22479378",
+      "28117224",
+      "34090078",
+      "17240921"
+    ],
+    "pmc": [
+      "12703862"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(25)00523-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41404124/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

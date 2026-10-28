@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "40861477",
+    "doi": "10.3389/fimmu.2025.1586877",
+    "title": "An immunotherapy guide constructed by cGAS-STING signature for breast cancer and the biofunction validation of the pivotal gene HOXC13 via in vitro experiments."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: As the most common cancer in women, immunotherapy has become a pivotal element in the treatment of breast cancer, particularly for cases resistant to traditional therapies. The cyclic GMP-AMP synthase (cGAS)-stimulator of interferon genes (STING) pathway is recognized as the primary DNA-sensing mechanism that initiates immune and inflammatory responses. In this study, we aim to explore the role of the cGAS-STING pathway in breast cancer immunotherapy resistance. METHODS: Multiple machine learning algorithms were applied to construct an immunotherapy subgroup model and in vitro experiments were performed to verify the HOXC13 in regulating BRCA immunity. RESULTS: Building upon extensively researched genes within the cGAS-STING pathway, we identified eight genes that serve as indicators of breast cancer's responsiveness to anti-PD1 therapy. Through consensus clustering, patients were categorized into high-response and low-response groups based on these eight genes. Subsequently, we extracted the pivotal gene set by WGCNA, which showed the highest correlation with the response to immune therapy, followed by the selection of 11 genes, which held significant associations with T-cell exhaustion, immune score, and patient survival. Employing machine learning, our novel classification model based on the 11-gene signature effectively differentiated between high-response and low-response groups in 16 out of 18 independent breast cancer cohorts from the GEO database. Notably, this 11-gene signature also predicted the sensitivity of breast cancer to both conventional and immune therapies, aligning closely with predictions from the OncoPredict algorithm. Further, in-vitro experiments confirmed the regulatory role of HOXC13, one of the 11 genes, in the cGAS-STING pathway. Moreover, miR-26a-5p, a microRNA previously identified as a suppressor in breast cancer, was demonstrated to regulate HOXC13. CONCLUSION: Our study implies that HOXC13 is a potential therapy target for BRCA immunotherapy and 11-gene signature is a potential tool for clinical evaluation of anti-PD1/PDL1 therapy efficacy.",
+    "keywords": [
+      "HOXC13",
+      "RandomForest (RF)",
+      "Support Vector Machine (SVM)",
+      "breast cancer",
+      "cGAS-STING",
+      "eXtreme Gradient Boosting (XGB)",
+      "immunotherapy",
+      "subgrouping"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/therapy/immunology/metabolism",
+      "Female",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "*Membrane Proteins/genetics/metabolism",
+      "*Nucleotidyltransferases/genetics/metabolism",
+      "*Immunotherapy/methods",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "Signal Transduction",
+      "Biomarkers, Tumor/genetics",
+      "Machine Learning",
+      "Gene Expression Profiling",
+      "Cyclic Guanosine Monophosphate-Adenosine Monophosphate Synthase",
+      "STING Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Zhenling",
+        "Gu, Ziqun",
+        "Shen, Rongrong",
+        "Wang, Jingshuai"
+      ],
+      "short_names": [
+        "Dai Z",
+        "Gu Z",
+        "Shen R",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, Shanghai Sixth People's Hospital, Shanghai, China.",
+        "Department of Breast Surgery, International Peace Maternal and Child Health Hospital of China Welfare Society, Shanghai, China.",
+        "Department of General Surgery, Shanghai Sixth People's Hospital, Shanghai, China.",
+        "Department of Obstetrics and Gynecology, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Zhenling",
+        "short_name": "Dai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shanghai Sixth People's Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Ziqun",
+        "short_name": "Gu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, International Peace Maternal and Child Health Hospital of China Welfare Society, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Rongrong",
+        "short_name": "Shen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shanghai Sixth People's Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingshuai",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Shanghai East Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 20:46",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42657115",
+      "41836378",
+      "41487593"
+    ],
+    "refs": [
+      "40382984",
+      "40370063",
+      "40176815",
+      "39938581",
+      "39938477",
+      "39890818",
+      "39879113",
+      "39460487",
+      "39345818",
+      "39179659",
+      "39109172",
+      "38990727",
+      "38969810",
+      "38904202",
+      "38499530",
+      "38155599",
+      "38057852",
+      "37767092",
+      "37495596",
+      "37407582",
+      "37375323",
+      "37365643",
+      "36869179",
+      "36510011",
+      "36460853",
+      "36070769",
+      "36018392",
+      "35948893",
+      "35835756",
+      "35705809",
+      "35430163",
+      "35073820",
+      "34740994",
+      "34309767",
+      "33414452",
+      "32778778",
+      "32273724",
+      "31695799",
+      "31564901",
+      "31066051",
+      "29342134",
+      "27939064",
+      "27225120",
+      "26451490",
+      "25646421",
+      "24799564",
+      "23000897"
+    ],
+    "similar": [
+      "40861477",
+      "38057852",
+      "39185402",
+      "33843442",
+      "40308576",
+      "38470108",
+      "40786100",
+      "40830678",
+      "39053305",
+      "39515043",
+      "40035384",
+      "39648304",
+      "35983076",
+      "39588006",
+      "38877472",
+      "40476560",
+      "33995425",
+      "41077675",
+      "40294811",
+      "41125194",
+      "40067927",
+      "35046953",
+      "39983453",
+      "39872516",
+      "40506729",
+      "39489208",
+      "40841898",
+      "35121107",
+      "38936059",
+      "38993569",
+      "40339725",
+      "39730892",
+      "36550819",
+      "33006365",
+      "40353728",
+      "34625708",
+      "40451897",
+      "33592541",
+      "36510011",
+      "37153627",
+      "41332405",
+      "40126217",
+      "34986380",
+      "37184402",
+      "39604223",
+      "36089410",
+      "32854711",
+      "33254021",
+      "39629527",
+      "29156566",
+      "41200911",
+      "40111213",
+      "38999073",
+      "40052963",
+      "40128784",
+      "36380440",
+      "32424334",
+      "39343911",
+      "38831378",
+      "32284536",
+      "36002188",
+      "28921470",
+      "33745949",
+      "39787528",
+      "41291739",
+      "40023225",
+      "40164370",
+      "38671352",
+      "39507529",
+      "35979672",
+      "41275427",
+      "33631336",
+      "32796076",
+      "41318619",
+      "32860267",
+      "38172538",
+      "40812610",
+      "33238631",
+      "40730008",
+      "39586211",
+      "30446584",
+      "36151014",
+      "38693578",
+      "39464890",
+      "38749421",
+      "38685387",
+      "39566795",
+      "38353366",
+      "41025783",
+      "28830732",
+      "40188340",
+      "40258523",
+      "37739513",
+      "36745223",
+      "40552295",
+      "37802125",
+      "34907606",
+      "34016129",
+      "33571681",
+      "40842018"
+    ],
+    "review": [
+      "40861477",
+      "38470108",
+      "39515043",
+      "39648304",
+      "39588006",
+      "33995425",
+      "41077675",
+      "35046953",
+      "39983453",
+      "40506729",
+      "40841898",
+      "35121107",
+      "38936059",
+      "33592541",
+      "36510011",
+      "37153627",
+      "36089410",
+      "32854711",
+      "33254021",
+      "29156566",
+      "41200911",
+      "40111213",
+      "38999073",
+      "40052963",
+      "36380440",
+      "32424334",
+      "28921470",
+      "40023225",
+      "40164370",
+      "41275427",
+      "33631336",
+      "32860267",
+      "38172538",
+      "33238631",
+      "40730008",
+      "30446584",
+      "36151014",
+      "38693578",
+      "39464890",
+      "39566795",
+      "28830732",
+      "40188340",
+      "40552295",
+      "34907606"
+    ],
+    "pmc": [
+      "12370726"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40861477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1586877",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

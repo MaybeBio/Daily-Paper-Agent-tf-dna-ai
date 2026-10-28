@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36924867",
+  "title": "PDA-Pred: Predicting the binding affinity of protein-DNA complexes using machine learning techniques and structural features.",
+  "authors": "Harini, K; Kihara, Daisuke; Michael Gromiha, M",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2023-03-17",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用机器学习与结构特征预测蛋白-DNA复合物结合亲和力，虽非聚焦TF-DNA，但属于广义蛋白-DNA互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Protein-DNA interactions play an important role in various biological processes such as gene expression, replication, and transcription. Understanding the important features that dictate the binding affinity of protein-DNA complexes and predicting their affinities is important for elucidating their recognition mechanisms. In this work, we have collected the experimental binding free energy (DeltaG) for a set of 391 Protein-DNA complexes and derived several structure-based features such as interaction energy, contact potentials, volume and surface area of binding site residues, base step parameters of the DNA and contacts between different types of atoms. Our analysis on relationship between binding affinity and structural features revealed that the important factors mainly depend on the number of DNA strands as well as functional and structural classes of proteins. Specifically, binding site properties such as number of atom contacts between the DNA and protein, volume of protein binding sites and interaction-based features such as interaction energies and contact potentials are important to understand the binding affinity. Further, we developed multiple regression equations for predicting the binding affinity of protein-DNA complexes belonging to different structural and functional classes. Our method showed an average correlation and mean absolute error of 0.78 and 0.98 kcal/mol, respectively, between the experimental and predicted binding affinities on a jack-knife test. We have developed a webserver, PDA-PreD (Protein-DNA Binding affinity predictor), for predicting the affinity of protein-DNA complexes and it is freely available at https://web.iitm.ac.in/bioinfo2/pdapred/.",
+  "abstract_zh": "蛋白质-DNA相互作用在基因表达、复制和转录等多种生物过程中扮演重要角色。理解决定蛋白质-DNA复合物结合亲和力的关键特征并预测其亲和力，对于阐明其识别机制至关重要。在本研究中，我们收集了一组391个蛋白质-DNA复合物的实验结合自由能（DeltaG），并推导了多种基于结构的特征，如相互作用能、接触势、结合位点残基的体积和表面积、DNA的碱基步移参数以及不同类型原子间的接触。我们对结合亲和力与结构特征之间关系的分析揭示，重要因素主要取决于DNA链的数量以及蛋白质的功能和结构类别。具体而言，结合位点属性如DNA与蛋白质之间的原子接触数、蛋白质结合位点的体积，以及基于相互作用的特征如相互作用能和接触势，对于理解结合亲和力至关重要。此外，我们开发了多个回归方程，用于预测属于不同结构和功能类别的蛋白质-DNA复合物的结合亲和力。我们的方法在刀切法测试中，实验与预测结合亲和力之间的平均相关系数和平均绝对误差分别为0.78和0.98 kcal/mol。我们开发了一个网络服务器PDA-PreD（蛋白质-DNA结合亲和力预测器），用于预测蛋白质-DNA复合物的亲和力，并可在https://web.iitm.ac.in/bioinfo2/pdapred/免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36924867/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36924867/",
+  "paper_page_path": "papers/pubmed/36924867/index.html"
+}

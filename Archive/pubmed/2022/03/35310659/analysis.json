@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35310659",
+  "title": "Large-Scale Integrative Analysis of Soybean Transcriptome Using an Unsupervised Autoencoder Model.",
+  "authors": "Su, Lingtao; Xu, Chunhui; Zeng, Shuai; Su, Li; Joshi, Trupti; Stacey, Gary; Xu, Dong",
+  "journal": "Frontiers in plant science",
+  "published_date": "2022-03-22",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用自编码器分析大豆转录组并构建组织特异基因调控网络，虽涉及转录因子但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Plant tissues are distinguished by their gene expression patterns, which can help identify tissue-specific highly expressed genes and their differential functional modules. For this purpose, large-scale soybean transcriptome samples were collected and processed starting from raw sequencing reads in a uniform analysis pipeline. To address the gene expression heterogeneity in different tissues, we utilized an adversarial deconfounding autoencoder (AD-AE) model to map gene expressions into a latent space and adapted a standard unsupervised autoencoder (AE) model to help effectively extract meaningful biological signals from the noisy data. As a result, four groups of 1,743, 914, 2,107, and 1,451 genes were found highly expressed specifically in leaf, root, seed and nodule tissues, respectively. To obtain key transcription factors (TFs), hub genes and their functional modules in each tissue, we constructed tissue-specific gene regulatory networks (GRNs), and differential correlation networks by using corrected and compressed gene expression data. We validated our results from the literature and gene enrichment analysis, which confirmed many identified tissue-specific genes. Our study represents the largest gene expression analysis in soybean tissues to date. It provides valuable targets for tissue-specific research and helps uncover broader biological patterns. Code is publicly available with open source at https://github.com/LingtaoSu/SoyMeta.",
+  "abstract_zh": "植物组织以其基因表达模式为特征，这有助于识别组织特异性高表达基因及其差异功能模块。为此，我们收集了大规模大豆转录组样本，并采用统一分析流程从原始测序读段开始处理。为解决不同组织中基因表达的异质性，我们利用对抗性去混淆自编码器（AD-AE）模型将基因表达映射到潜在空间，并适配标准无监督自编码器（AE）模型，以有效从噪声数据中提取有意义的生物学信号。结果显示，分别有1,743、914、2,107和1,451个基因在叶、根、种子和根瘤组织中特异性高表达。为获取每个组织中的关键转录因子（TFs）、枢纽基因及其功能模块，我们利用校正和压缩后的基因表达数据构建了组织特异性基因调控网络（GRNs）及差异相关网络。我们通过文献和基因富集分析验证了结果，确认了许多已识别的组织特异性基因。本研究是迄今为止对大豆组织进行的最大规模基因表达分析，为组织特异性研究提供了宝贵靶点，并有助于揭示更广泛的生物学模式。代码以开源形式公开，可在 https://github.com/LingtaoSu/SoyMeta 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35310659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35310659/",
+  "paper_page_path": "papers/pubmed/35310659/index.html"
+}

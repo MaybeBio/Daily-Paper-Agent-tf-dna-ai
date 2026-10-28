@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "41355500",
+    "doi": "10.1002/jbt.70633",
+    "title": "NRF2 Pathway Activation as a Molecular Toxicology Mechanism in Oxidative Stress and Lipid Metabolic Disorders."
+  },
+  "content": {
+    "abstract": "Lipid metabolic disorders, driven by oxidative stress, lipid peroxidation, and chronic inflammation, are key contributors to toxicological damage underlying Nonalcoholic fatty liver disease (NAFLD), atherosclerosis, and metabolic syndrome. The nuclear factor erythroid 2-related factor 2 (NRF2) pathway, a master regulator of antioxidant and detoxification responses, plays a critical role in mitigating cellular toxicity and maintaining lipid homeostasis. A multidisciplinary approach was applied to uncover the molecular toxicology of NRF2 in lipid metabolism. Transcriptomic meta-analysis of GEO datasets identified differentially expressed NRF2-regulated genes in lipid-associated chronic liver diseases (CLD). Clinical meta-analysis synthesized evidence on NRF2 activators and their effects on lipid-related toxic endpoints. Network pharmacology was used to map overlapping targets between NRF2 activation and lipid toxicity, while molecular docking assessed the binding potential of NRF2 activators with KEAP1, a negative regulator of NRF2. Transcriptomic analysis revealed widespread dysregulation of NRF2-dependent antioxidant genes such as GPX4, HMOX1, and NQO2, with 3178 DEGs significantly associated with oxidative stress, ferroptosis, and glutathione metabolism. Clinical meta-analysis demonstrated that NRF2 activators reduced toxic lipid parameters, including triglycerides ( downward arrow 21.81%), LDL ( downward arrow 18.36%), and total cholesterol ( downward arrow 14.15%). Network pharmacology identified 985 overlapping genes linking NRF2 activation to oxidative stress, lipid peroxidation, and fatty acid metabolism. Sixteen natural and synthetic NRF2 activators were highlighted, with molecular docking showing strong KEAP1 binding by quercetin (-9.2 kcal/mol) and luteolin (-9.2 kcal/mol), consistent with disruption of KEAP1-NRF2 interactions and detoxification pathway activation. This integrative molecular toxicology study establishes NRF2 as a central regulator at the interface of oxidative stress and lipid metabolism. Both natural and synthetic NRF2 activators mitigate toxic lipid accumulation and oxidative injury, supporting NRF2 modulation as a promising strategy for preventing and treating lipid metabolic disorders such as NAFLD, atherosclerosis, and metabolic syndrome.",
+    "keywords": [
+      "NRF2",
+      "detoxification pathways",
+      "lipid toxicity",
+      "molecular docking",
+      "molecular toxicology",
+      "network pharmacology",
+      "oxidative stress",
+      "transcriptomic profiling"
+    ],
+    "mesh_terms": [
+      "*NF-E2-Related Factor 2/metabolism/genetics",
+      "Humans",
+      "*Oxidative Stress",
+      "*Lipid Metabolism Disorders/metabolism/genetics/pathology",
+      "Molecular Docking Simulation",
+      "*Signal Transduction",
+      "*Lipid Metabolism",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arif Asghar, Muhammad",
+        "Yuan, Lie",
+        "Zhang, Yazhen",
+        "Tang, Shixin",
+        "Wan, Bing",
+        "Chu, Long",
+        "Bashir, Yasir",
+        "Wong, Li Ping",
+        "Zhang, Xiao",
+        "Zhao, Qinjian"
+      ],
+      "short_names": [
+        "Arif Asghar M",
+        "Yuan L",
+        "Zhang Y",
+        "Tang S",
+        "Wan B",
+        "Chu L",
+        "Bashir Y",
+        "Wong LP",
+        "Zhang X",
+        "Zhao Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0107-0532",
+        "ORCID: 0000-0002-6297-9969"
+      ],
+      "affiliations": [
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China.",
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China.",
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China.",
+        "College of Public Health, Chongqing Medical University, Chongqing, PR China.",
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China.",
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China.",
+        "Department of Bioinformatics and Biotechnology, Government College University Faisalabad, Faisalabad, Pakistan.",
+        "Department of Social and Preventive Medicine, Center for Population Health (CePH), Faculty of Medicine, Universiti Malaya, Kuala Lumpur, Malaysia.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Fujian Medical University, Fujian, Fuzhou, China.",
+        "Department of Medicine, College of Medicine, Korea University, Seoul, Seongbuk-gu, Republic of Korea.",
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China.",
+        "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arif Asghar, Muhammad",
+        "short_name": "Arif Asghar M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Lie",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yazhen",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Tang, Shixin",
+        "short_name": "Tang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Public Health, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Wan, Bing",
+        "short_name": "Wan B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Chu, Long",
+        "short_name": "Chu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Bashir, Yasir",
+        "short_name": "Bashir Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University Faisalabad, Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Wong, Li Ping",
+        "short_name": "Wong LP",
+        "identifiers": [
+          "0000-0002-0107-0532"
+        ],
+        "affiliations": [
+          "Department of Social and Preventive Medicine, Center for Population Health (CePH), Faculty of Medicine, Universiti Malaya, Kuala Lumpur, Malaysia.",
+          "Department of Epidemiology and Health Statistics, School of Public Health, Fujian Medical University, Fujian, Fuzhou, China.",
+          "Department of Medicine, College of Medicine, Korea University, Seoul, Seongbuk-gu, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiao",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qinjian",
+        "short_name": "Zhao Q",
+        "identifiers": [
+          "0000-0002-6297-9969"
+        ],
+        "affiliations": [
+          "College of Pharmacy, Chongqing Medical University, Chongqing, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biochemical and molecular toxicology"
+    ],
+    "journal_abbrev": [
+      "J Biochem Mol Toxicol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Meta-Analysis"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/08 06:27",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "41836440",
+      "41501522"
+    ],
+    "refs": [],
+    "similar": [
+      "41355500",
+      "40368273",
+      "39209138",
+      "33406386",
+      "34500407",
+      "41313410",
+      "40882016",
+      "31310912",
+      "39864603",
+      "33656904",
+      "39243573",
+      "33590347",
+      "38104880",
+      "40021790",
+      "37392674",
+      "40107017",
+      "41047055",
+      "33922165",
+      "39275137",
+      "38149556",
+      "34415206",
+      "33342543",
+      "32219872",
+      "40474566",
+      "38100883",
+      "41063334",
+      "39862944",
+      "39706064",
+      "39800144",
+      "40044007",
+      "41297346",
+      "40019253",
+      "38762209",
+      "41167534",
+      "40089199",
+      "30014902",
+      "27634173",
+      "28616764",
+      "41061939",
+      "28502971",
+      "40633499",
+      "40811614",
+      "40986212",
+      "31412289",
+      "40885455",
+      "39415523",
+      "20007347",
+      "40333848",
+      "40152386",
+      "41206404",
+      "40517619",
+      "34626892",
+      "32156661",
+      "39277998",
+      "39233848",
+      "41101077",
+      "31131946",
+      "31167117",
+      "22627062",
+      "39001962",
+      "40240160",
+      "39461013",
+      "41183099",
+      "32655764",
+      "29367259",
+      "27814396",
+      "33603948",
+      "28073699",
+      "40723924",
+      "30753491",
+      "31092832",
+      "26878775",
+      "23188707",
+      "29920381",
+      "40383404",
+      "32161178",
+      "41110563",
+      "40024011",
+      "27312421",
+      "31279986",
+      "31345023",
+      "35679981",
+      "40706741",
+      "39880664",
+      "33571414",
+      "36495698",
+      "38178661",
+      "26721592",
+      "41151450",
+      "39603427",
+      "38479222",
+      "39428183",
+      "41045622",
+      "37187359",
+      "39299527",
+      "35728768",
+      "28801166",
+      "31599006",
+      "35977659",
+      "38458086"
+    ],
+    "review": [
+      "41355500",
+      "34500407",
+      "41313410",
+      "33656904",
+      "40107017",
+      "33922165",
+      "34415206",
+      "28502971",
+      "40633499",
+      "41206404",
+      "39001962",
+      "23188707",
+      "39880664",
+      "35728768",
+      "28801166"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lipidmetabolismdisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lipid Metabolism Disorders"
+      },
+      {
+        "url": "https://doi.org/10.1002/jbt.70633",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

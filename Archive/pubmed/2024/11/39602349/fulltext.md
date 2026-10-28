@@ -1,0 +1,107 @@
+# Identification of CCR7 and CBX6 as key biomarkers in abdominal aortic aneurysm: Insights from multi‐omics data and machine learning analysis
+
+
+## Abstract
+  Abdominal aortic aneurysm (AAA) is a severe vascular condition, marked by the progressive dilation of the abdominal aorta, leading to rupture if untreated. The objective of this study was to identify key biomarkers and decipher the immune mechanisms underlying AAA utilising multi‐omics data analysis and machine learning techniques. Single‐cell RNA sequencing disclosed a heightened presence of macrophages and CD8‐positive alpha‐beta T cells in AAA, highlighting their critical role in disease pathogenesis. Analysis of cell–cell communication highlighted augmented interactions between macrophages and dendritic cells derived from monocytes. Enrichment analysis of differential expression gene indicated substantial involvement of immune and metabolic pathways in AAA pathogenesis. Machine learning techniques identified CCR7 and CBX6 as key candidate biomarkers. In AAA, CCR7 expression is upregulated, whereas CBX6 expression is downregulated, both showing significant correlations with immune cell infiltration. These findings provide valuable insights into the molecular mechanisms underlying AAA and suggest potential biomarkers for diagnosis and therapeutic intervention.
+
+
+## INTRODUCTION
+  Abdominal aortic aneurysm (AAA) is a grave vascular disease, characterised by a progressive dilation of the abdominal aorta, which can frequently culminate in a life‐threatening rupture if left untreated. The prevalence of the disease, particularly in the elderly, highlights its importance as a significance public health concern. Epidemiological data from the American Heart Association reveal a higher incidence of AAA among males aged 75–84 compared to females [1] with smoking, hypertension, atherosclerosis, and advanced age being well‐established risk factors [2]. The asymptomatic nature of AAA until rupture complicates early diagnosis and intervention, rendering ultrasound screening a crucial, albeit costly, method for high‐risk populations [3].
+
+  Current treatment approaches for AAA predominantly involve surgical interventions such as open repair or endovascular aneurysm repair (EVAR). However, these surgical interventions are typically reserved for aneurysms that are large, symptomatic, or rapidly expanding, owing to the invasiveness of the procedures and the considerable risk of postoperative mortality, especially in emergency contexts [4]. Despite the availability of pharmacological treatments, none have been definitively effective in preventing the progression or rupture of AAA, which underscores the necessity for innovative therapeutic strategies [5].
+
+  The pathogenesis of AAA encompasses a multitude of complex mechanisms such as vascular inflammation, degradation of the extracellular matrix (ECM) and apoptosis of vascular smooth muscle cells (VSMCs) [6]. Inflammatory cell infiltration, notably by macrophages and T cells, is pivotal in the early stages of AAA development, resulting in the degradation of ECM components, including elastin and collagen, which leads to the weakening of the aortic wall [7]. Genetic predispositions, such as familial patterns and specific gene mutations, significantly contribute to the risk of developing AAA, yet the detailed genetic pathways are not fully understood [8].
+
+  Advances in high‐throughput sequencing technologies, including single‐cell RNA sequencing (scRNA‐seq) and bioinformatics approaches, have paved the way for elucidating the molecular basis of AAA [9, 10, 11]. These technologies have facilitated the identification of potential biomarkers and therapeutic targets, especially those implicated in immune regulation and post‐transcriptional gene modifications [12, 13]. Despite these advancements, the absence of effective early diagnostic biomarkers and therapeutic options for AAA underscores the imperative for further research into the molecular mechanisms that drive AAA progression. Consequently, this study employed multi‐omics data in conjunction with machine learning methods to identify key biomarkers for AAA. Furthermore, the study analysed the relationship between these biomarkers and immune cells to deduce their potential roles in the pathogenic mechanisms of AAA.
+
+
+## MATERIALS AND METHODS
+
+### Data collection
+  In this study, the multi‐omics data encompassing scRNA‐seq datasets and mRNA expression datasets were collected from the Gene Expression Omnibus (GEO) database. We searched the GEO database using the keywords “abdominal aortic aneurysm” and “Expression profiling by high throughput sequencing,” and manually filtered the search results. Specifically, the scRNA‐seq datasets comprised GSE152583, GSE164678, and GSE166676. Additionally, the bulk RNA‐seq datasets included GSE183464, GSE57691, and GSE47472. The detailed information about these datasets was presented in Table 1.
+
+
+### Single‐cell data processing
+  For the scRNA‐seq datasets, quality control, normalisation, canonical correlation analysis (CCA) integration, and uniform manifold approximation and Ppojection (UMAP) dimensionality reduction were performed using the R package “Seurat” v4.0. The cells were filtered based on the criteria where nFeature_RNA exceeded 200, was less than 3,000, and the mitochondrial gene percentage (percent.mt) was less than 5%. Following the identification of 2,000 hypervariable genes, the number of principal components (PCs) was adjusted to 13 for the generation of cell clusters, which were then visualised and annotated using a UMAP diagram. The top 20 differentially expressed genes in each cluster were identified using the “FindAllMarkers” function from the Seurat R package [19]. Subsequently, cell types were classified by applying the ATC [20] to the top 20 marker genes within each cluster, leading to the identification of a total of 20 clusters. Finally, the “FindMarkers” method was applied to identify genes that exhibited significant differences in expression between AAA and normal cells.
+
+
+### Cell–cell communication analysis
+  The cell–cell communication network was inferred utilising the CellCall package [21]. The CellCall package, a comprehensive tool, integrates intracellular and intercellular signalling to infer cell–cell communication networks and internal regulatory signals. In this analysis, the default settings of the CellCall package were used to infer the cell–cell communication scores. The primary pathways implicated in cell communication were further dissected to elucidate key signalling interactions potentially contributing to the pathology under investigation [22].
+
+
+### Differential expression gene analysis
+  Differential expression gene (DEG) analysis for the GSE47472 and GSE57691 datasets was performed using the limma package. To control the false discovery rate, p‐values were adjusted using Benjamini and Hochberg's method. Genes with an adjusted p‐value <0.05 and |log2 fold change| > |log2 1.8| were identified as differentially expressed. For the visualisation of the results, volcano plots were generated using the ggplot2 and ggrepel packages with the top 10 most significant DEGs highlighted. Furthermore, heatmaps depicting the top 10 upregulated and downregulated DEGs were generated using the pheatmap R package.
+
+
+### Function enrichment analysis
+  Gene Ontology (GO), KEGG, Reactome, and Wiki pathways enrichment analyses on the DEGs were performed using Metascape (https://metascape.org/) [23]. The parameters for the analysis were set to include a minimum overlap of 3, a minimum enrichment of 3, and a P‐value threshold of 0.05. The results from the enrichment analysis were visualised using Cytoscape and ggplot2.
+
+
+### Identification of key candidate genes
+  The intersection of DEGs identified from scRNA‐seq and bulk RNA‐seq analyses yielded the key candidate genes [24]. Subsequently, Lasso regression and SVM‐RFE methods were utilised on the GSE47472 and GSE57691 datasets to refine the gene set further. These methodologies were applied to construct predictive models and pinpoint genes with the highest discriminative power between AAA and normal samples. These genes may serve as potential biomarkers or therapeutic targets for AAA.
+
+
+### Immune infiltration analysis
+  To elucidate differences in immune cell composition between AAA and normal tissue samples, the R package “CIBERSORT” was applied to the GSE183464 datasets [25]. CIBERSORT employs linear support vector regression to deconvolute gene expression matrices, thereby estimating the relative abundances of 22 distinct human immune cell subtypes. Following the application of CIBERSORT, immune cell types exhibiting significant differences in infiltration levels between AAA and normal tissues were identified. Subsequently, the correlation between these immune cell types and the key signature genes was analysed using the Spearman method. This analysis offered insights into the immune landscape associated with AAA, highlighting its potential implications for disease pathology.
+
+
+## RESULTS
+
+### Macrophages and CD‐positive alpha–beta T cells are the predominant immune cell types involved in the pathogenesis of AAA
+  Following the processing of single‐cell data, cells across various samples were harmoniously integrated (Figure 1a). Dimensionality reduction and subsequent clustering analysis categorised cells into nine distinct clusters (Figure 1b). Cluster annotation, informed by the top 20 differentially expressed genes, characterised the clusters as follows: cluster 0 as macrophages, cluster 1 as smooth muscle cells, cluster 2 as endothelial cells, cluster 3 as fibroblasts, cluster 4 as CD8+ alpha‐beta T cells, cluster 5 as dendritic cells of monocyte origin, cluster 6 as B cells, cluster 7 as neutrophils, and cluster 8 as erythrocytes (Figure 1c). The ACT annotation result was shown in Supplementary Table S1 in Supporting Information S1. The distinct expression patterns of marker genes within their respective cell types validated the precision of the cell type annotations (Figure 1d).
+
+  Analysis of cell type proportions between AAA and normal control samples disclosed an elevated presence of macrophages, CD8+ alpha–beta T cells, dendritic cells of monocyte origin, neutrophils, and B cells in AAA (Figure 1e). This finding suggests that immune cell proliferation is a hallmark of AAA. Notably, macrophages and CD8+ alpha–beta T cells were the predominant immune cell types, indicating their potential as key immune infiltrators in AAA pathogenesis. The genes that exhibited significant differences between AAA and normal cells are presented in Supplementary Table S2 in Supporting Information S1.
+
+
+### Macrophages and monocyte‐derived dendritic cells play critical roles in cell–cell communication
+  Analysing cell–cell communication in single‐cell data from AAA patients versus control samples disclosed distinct patterns of interaction. In contrast to control samples (Figure 2b), the communication between smooth muscle cells and fibroblasts with other cell types was diminished in the disease state (Figure 2a). Conversely, macrophages and dendritic cells of monocyte origin exhibited heightened communication with other cell types, characterised by robust internal interactions among macrophages and increased engagement in cell–cell communication by dendritic cells via receptor interactions [26]. Gene set enrichment analysis (GSEA) of the pathways highlighted the substantial involvement of immune‐related pathways in the interactions among various cell types (Figure 2c). For example, the chemokine signalling pathway was notably enriched in communications involving macrophages, dendritic cells of monocyte origin, and other cell types. Furthermore, the Th17 cell differentiation pathway was significantly enriched in communications involving macrophages. The findings from the cell–cell communication analysis suggest that macrophages and dendritic cells of monocyte origin play pivotal roles in intercellular communication, with their interactions being closely linked to immune responses.
+
+
+### AAA is primarily associated with immune responses and metabolic processes
+  Integrated analysis of the GSE57691 and GSE47472 datasets revealed 32 upregulated and 76 downregulated DEGs (Figure 3a). The list of DEGs was listed in Supplementary Table S3 in Supporting Information S1. Notably, the 10 most significant DEGs comprised the upregulated genes LOC391045, HS.360,349, HBB, and the downregulated genes CSNK2A2, WDR82, C8ORF59, NR2F6, CARM1, ZNF462, and PPP1R12 C. A heatmap depicting the top 20 upregulated and top 20 downregulated genes demonstrated that AAA and control samples clearly segregated into distinct groups, suggesting minimal heterogeneity within the AAA samples (Figure 3b).
+
+  GO biological process enrichment analysis indicated significant enrichment of these DEGs in the positive regulation of acute inflammatory response (Figure 3c). This finding corroborates the recognized role of acute inflammatory response regulation in AAA pathogenesis. Prior research has shown that the positive regulation of acute inflammatory response facilitates AAA progression through aortic wall degradation, VSMC apoptosis, and the perpetuation of chronic inflammation—processes pivotal to aneurysm development and rupture [27].
+
+  Furthermore, various biological processes linked to AAA onset and progression have been identified such as the positive regulation of nitric oxide biosynthetic process [6], regulation of adipocyte differentiation [28], positive regulation of smooth muscle cell proliferation [29], and the Notch signalling pathway [30]. The predominant enriched pathways are associated with immune responses, encompassing the positive regulation of nitric oxide biosynthetic process, Notch signalling pathway, and T cell selection [31]. Additionally, enrichment analyses also revealed metabolic pathways, including detoxification, response to inorganic substances, regulation of carbohydrate biosynthesis, and regulation of energy metabolism [32]. KEGG, Reactome, and Wiki pathways enrichment analyses further confirmed the involvement of immune and metabolic pathways (Figure 3d), including the interleukin‐4 and interleukin‐13 signalling, insulin resistance, and NF‐kappa B signalling pathways.
+
+
+### CBX6 and CCR7 are key potential biomarkers for AAA
+  Intersection of DEGs derived from scRNA‐seq and bulk RNA‐seq data yielded a total of 13 candidate DEGs (Figure 4a). The LASSO method was employed to select four candidate biomarkers: HBB, CCR7, MCAM, and CBX6 (Figures 4b–c). Furthermore, the application of the SVM‐RFE method for AAA biomarker identification demonstrated optimal model performance with a minimum error of 0.0457, utilising five DEGs (Figure 4d). The five DEGs identified were LIMCH1, HBA2, RBPMS2, HBB, and CCR7 (Supplementary Table S4 in Supporting Information S1). Both methods concurred in identifying HBB and CCR7 as common biomarkers (Figure 4e). Expression analysis of these two genes across both datasets showed consistent trends: CBX6 was markedly downregulated in AAA, whereas CCR7 was markedly upregulated (Figures 4f–g). Immunohistochemical (IHC) staining confirmed the upregulation of CCR7 in AAA tissue samples [33]. ROC curve analysis, based on the expression values, indicated that AAA samples could be distinctly differentiated from control samples using these biomarkers alone (Figure 4h), underscoring the potential of CBX6 and CCR7 as key biomarkers for AAA.
+
+
+### CCR7 and CBX6 showed significant relationships with the major immune cells dysregulated in AAA
+  The immune infiltration analysis corroborates the single‐cell analysis findings, showing substantial consistency. Predominant immune cells in AAA samples encompass macrophages, activated mast cells, and CD8 T cells (Figure 5a), which are also notably more abundant in single‐cell samples. Furthermore, neutrophils and naive B cells exhibit a significant increase in AAA samples (p < 0.05), aligning with the elevated presence of these cell types observed in the single‐cell analysis of the AAA state.
+
+  Correlation analysis reveals a strong positive correlation between CCR7 and naive B cells. This finding suggests that the upregulation of CCR7 may play a role in the immune response of naive B cells within the context of AAA (Figure 5b). CBX6 exhibits a significant inverse correlation with neutrophils, suggesting that CBX6 expression may suppress neutrophil activity, thereby potentially curbing AAA progression (Figure 5c).
+
+  Correlation analysis among immune cells shows that activated mast cells are significantly inversely correlated with their resting counterparts, indicating that mast cell activation likely coincides with a reduction in the resting state, indicative of a dynamic functional transition during immune responses. Moreover, the significant positive correlation observed between M0 macrophages and both gamma delta T cells and eosinophils points to potential interactions or co‐regulation among these cell types within the immune milieu. This implies that the presence or activity of M0 macrophages may be linked to the recruitment or activation of gamma delta T cells and eosinophils, potentially contributing to the inflammatory processes central to AAA pathogenesis.
+
+
+## DISCUSSION
+  Single‐cell data analysis in this study disclosed a general augmentation in the prevalence of immune cells, including macrophages and CD8‐positive alpha–beta T cells, within AAA contexts. The cell–cell communication analysis highlighted increased interactions among macrophages and CD8‐positive alpha–beta T cells. The DEGs enrichment analysis indicated substantial involvement of these genes in pathways associated with immune responses and metabolism. Machine learning methods identified CCR7 and CBX6 as pivotal candidate biomarkers, with immune infiltration analysis further revealing significant regulatory associations between these markers and immune cell dysregulation in AAA.
+
+  CCR7 is widely acknowledged for its pivotal role in AAA development and progression, predominantly via the modulation of immune cell infiltration and activation, key drivers of the disease's inflammatory profile. And it also plays an indispensable role in guiding the migration of immune cells, notably T and B lymphocytes, towards the aortic wall. Reports indicate that CCR7‐positive dendritic cells and T cells are recruited to inflammatory foci, fostering the chronic immune response instrumental in AAA progression [34, 35, 36]. Furthermore, research has established CCR7 as a central gene within AAA tissues, implicated in immune cell infiltration, notably via chemokine pathways, such as CXCR4‐CXCL12 [37, 38]. The orchestrating role of CCR7 in the migration and positioning of immune cells within the aneurysmal wall highlights its critical importance in immune cell‐driven inflammation [39].
+
+  Despite CBX6 not featuring prominently in prior AAA biomarker research, this study posits it as a potentially significant biomarker, given its marked downregulation in AAA contexts. CBX6 demonstrates a significant inverse relationship with immune cells, including neutrophils and activated mast cells, and a positive correlation with resting NK cells and monocytes. These observations hint at a potential role for CBX6 in modulating immune responses, which could influence the progression of AAA.
+
+
+## CONCLUSION
+  Employing a multi‐omics approach coupled with machine learning algorithms [40, 41], this study successfully identified the pivotal biomarkers CCR7 and CBX6 associated with AAA. Furthermore, an analysis of the correlation between these biomarkers and immune cells was conducted to deduce their potential roles in the pathogenic mechanisms of AAA. The study revealed that macrophages and CD8‐positive alpha–beta T cells are the predominant immune cell types engaged in AAA pathogenesis. The findings underscore the substantial roles of immune responses and metabolic processes, characterised by augmented cell–cell communication between macrophages and dendritic cells of monocyte origin. This study offers valuable insights into the molecular underpinnings of AAA and proposes potential diagnostic biomarkers.
+
+
+## AUTHOR CONTRIBUTIONS
+  Conceptualisation: Xi Yong, Xuerui Hu, Jianghua Zheng, Qin Yang, and Jingdong Li. Data collection: Xi Yong, Jin You, Xiaohe Dai, Jialin Zhang, Junjia Zhang, Junlin Zhou, and Siyu Zhang. Data analysis and interpretation: Xi Yong, Xuerui Hu, Tengyao Kang, Yanpiao Deng, Sixuan Li, Shuihan Yu, and Yani Hou. Drafting the article: Xi Yong and Xuerui Hu; Review and editing: Jianghua Zheng, Qin Yang, and Jingdong Li. Final approval of the version to be published: All authors.
+
+
+## CONFLICT OF INTEREST STATEMENT
+  There are no conflicts of interest to be declared.
+
+
+## Supporting information
+
+## DATA AVAILABILITY STATEMENT
+  The public data used in the current study were obtained from GEO (https://www.ncbi.nlm.nih.gov/geo/).
+
+
+## ACKNOWLEDGEMENTS
+  This study was financially supported by the Natural Science Free Exploration Project of Nanchong City University Cooperation Project (22SXQT0006). It was also supported by the Incubation Project of Chuanbei Medical College for the Transformation of Scientific and Technological Achievements (CBY22‐ZH01).

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40421012",
+  "title": "Exploring shared pathogenic mechanisms and biomarkers in hepatic fibrosis and inflammatory bowel disease through bioinformatics and machine learning.",
+  "authors": "Li, Shangkun; Li, Haoyu; Qi, Mingran",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-05-27",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学和机器学习筛选肝纤维化与炎症性肠病的共享诊断生物标志物，虽涉及转录因子调控网络构建，但核心是疾病诊断标志物而非蛋白质-DNA互作机制建模，与本课题关联度低。",
+  "abstract": "BACKGROUND: The coexistence of hepatic fibrosis (HF) and inflammatory bowel disease (IBD) represents a significant clinical concern due to their poorly characterized shared pathogenic mechanisms. Current limitations in identifying common biomarkers for comorbid cases impede early dual diagnosis and therapeutic interventions. METHODS: Differentially expressed genes (DEGs) were screened, followed by Weighted Gene Co-expression Network Analysis (WGCNA) to identify disease-associated modules. The key diagnostic biomarkers were determined via a protein-protein interaction (PPI) network combined with two machine learning algorithms. The logistic regression model was subsequently developed based on these key genes. Immune cell infiltration profiling of both diseases was assessed via the CIBERSORT algorithm. The construction of genes-miRNAs and genes-TFs (Transcription Factors) regulatory networks were based on the NetworkAnalyst website. Potential drug-gene interactions were predicted utilizing the DSigDB database. The expression and distribution of these genes were validated through single-cell sequencing analysis. RESULTS: A sum of 119 up-regulated genes and 17 down-regulated genes were screened, which were enriched in categories associated with immune cell infiltration and chemotaxis, cytokine regulation, metabolic processes, enzymatic activity, and extracellular matrix deposition, based on enrichment analysis. WGCNA revealed four disease-associated gene modules. Four shared diagnostic genes for both diseases were screened, including MMP2, COL1A2, STAT1, and CXCL1. ROC curve analysis confirmed robust diagnostic performance as AUC > 0.7 for individual genes and AUC > 0.85 for combined model. M1 macrophages were significantly increased in both pathologies of diseases. A total of 462 drugs were predicted targeting these biomarkers in the DSigDB database. The four key diagnostic gene expression patterns across diverse cell subpopulations were visualized by single-cell sequencing analysis. CONCLUSION: MMP2, COL1A2, CXCL1, and STAT1 were identified as shared biomarkers for IBD and HF, providing a molecular basis for early diagnosis and precision medicine approaches. It elucidated the similarities between HF and IBD in terms of immunity, metabolism, and fibrosis.",
+  "abstract_zh": "背景：肝纤维化（HF）与炎症性肠病（IBD）共存因其共享的致病机制尚未明确而构成重大临床挑战。目前，在识别共病病例的常见生物标志物方面存在局限性，阻碍了早期双重诊断和治疗干预。方法：筛选差异表达基因（DEGs），随后采用加权基因共表达网络分析（WGCNA）识别疾病相关模块。通过蛋白质-蛋白质相互作用（PPI）网络结合两种机器学习算法确定关键诊断生物标志物。基于这些关键基因构建逻辑回归模型。通过CIBERSORT算法评估两种疾病的免疫细胞浸润谱。基因-miRNA和基因-TF（转录因子）调控网络的构建基于NetworkAnalyst网站。利用DSigDB数据库预测潜在的药物-基因相互作用。通过单细胞测序分析验证这些基因的表达和分布。结果：共筛选出119个上调基因和17个下调基因，基于富集分析，这些基因富集在与免疫细胞浸润和趋化、细胞因子调控、代谢过程、酶活性和细胞外基质沉积相关的类别中。WGCNA揭示了四个疾病相关基因模块。筛选出两种疾病共有的四个诊断基因，包括MMP2、COL1A2、STAT1和CXCL1。ROC曲线分析确认了稳健的诊断性能，单个基因的AUC > 0.7，组合模型的AUC > 0.85。M1巨噬细胞在两种疾病病理中均显著增加。在DSigDB数据库中预测了总共462种针对这些生物标志物的药物。通过单细胞测序分析可视化了四个关键诊断基因在不同细胞亚群中的表达模式。结论：MMP2、COL1A2、CXCL1和STAT1被确定为IBD和HF的共享生物标志物，为早期诊断和精准医学方法提供了分子基础。该研究阐明了HF和IBD在免疫、代谢和纤维化方面的相似性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40421012/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40421012/",
+  "paper_page_path": "papers/pubmed/40421012/index.html"
+}

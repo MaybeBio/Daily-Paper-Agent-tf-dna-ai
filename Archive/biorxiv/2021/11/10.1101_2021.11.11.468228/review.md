@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text. No external data, validation, or replication was performed.
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 3CLpro cleaves human NEMO at Gln231, determined a 2.14 Å crystal structure of the 3CLpro C145S mutant bound to a NEMO-derived decapeptide, and used computational methods to predict that sequence differences in NEMO and 3CLpro across species and coronaviruses affect binding affinity. They propose that NEMO cleavage contributes to COVID-19 pathology.
+- **Visible evidence base** In vitro cleavage assays with HPLC-MS detection; X-ray crystallographic structure of 3CLpro C145S with NEMO peptide; molecular dynamics simulations; quantum mechanics (FMO-DFTB) calculations; machine learning-based binding affinity predictions; structural comparisons with published structures.
+- **Missing materials affecting confidence** Electron density maps and refinement validation metrics (e.g., R-free, Ramachandran statistics) are not shown in the main text; raw mass spectrometry data and quantitative cleavage kinetics are not provided; details of the ML model training and validation are referenced as "in press" and not fully described; no cellular or in vivo functional data are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a structurally and biochemically characterized interaction between SARS-CoV-2 3CLpro and a human immune signaling protein, NEMO. The crystal structure is a valuable contribution, and the in vitro cleavage data support the proposed activity. However, the computational predictions, while extensive, are not sufficiently validated against experimental binding or cleavage data, and the physiological relevance of NEMO cleavage is inferred rather than demonstrated. The central claim that NEMO cleavage is important for COVID-19 pathology is not established by the evidence presented.
+- **Who would be interested in the results, and why** Structural biologists studying viral proteases, virologists investigating SARS-CoV-2 host interactions and immune evasion, and researchers focused on COVID-19 pathogenesis and therapeutic development. The structure of a human peptide bound to 3CLpro may also inform antiviral drug design.
+- **Major strengths** The crystal structure of 3CLpro bound to a human substrate peptide is novel and provides mechanistic insight into substrate recognition. The combination of experimental cleavage assays with structural and computational analyses is multidisciplinary. The discussion of species-specific differences in NEMO and viral proteases is thought-provoking and may have implications for animal models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence supports claim
+  - **Claim pointer** The authors claim that "in vitro assays show that SARS-CoV-2 3CLpro cleaves NEMO with fine-tuned efficiency."
+  - **Evidence pointer** Section 2.1, Figure 1b, Section 5.1
+  - **Concern** The cleavage assay is described qualitatively. The manuscript states that cleavage was detected via HPLC-MS, but no quantitative data (e.g., kinetic parameters, percent cleavage over time, dose-response) are provided. The term "fine-tuned efficiency" is not supported by any measured metric. The assay uses a truncated NEMO construct (residues 215-247), and it is unclear if this reflects cleavage of full-length NEMO in a cellular context.
+  - **Why it matters** The efficiency and specificity of cleavage are central to the proposed biological role. Without quantitative comparison to known 3CLpro substrates (e.g., viral polyprotein sites) or other host substrates, the physiological relevance cannot be assessed.
+  - **Resolution test** Provide quantitative kinetic data (e.g., kcat/KM) for NEMO cleavage compared to a canonical viral substrate. Show cleavage of full-length NEMO in cell-based assays or cell lysates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence supports claim
+  - **Claim pointer** The authors claim that "machine learning- and physics-based computational methods predict that variation in key binding residues of 3CLpro-NEMO helps explain the high fitness of SARS-CoV-2 in humans."
+  - **Evidence pointer** Sections 2.8, 2.9, Figure 4, Section 5.3
+  - **Concern** The computational predictions are not validated against experimental binding affinity or cleavage data for the different 3CLpro orthologs or NEMO variants. The ML models are referenced as "in press" and their accuracy on this specific system is not established. The correlation between predicted binding affinity and viral fitness is speculative and not supported by direct evidence.
+  - **Why it matters** The claim linking sequence variation to viral fitness is a major conclusion of the paper. Without experimental validation (e.g., measuring cleavage of human vs. mouse NEMO by different viral proteases), the predictions remain unsubstantiated hypotheses.
+  - **Resolution test** Experimentally measure binding affinity or cleavage efficiency of SARS-CoV, SARS-CoV-2, MERS-CoV, and HKU1 3CLpro against human and mouse NEMO peptides. Compare these results to the computational predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence supports claim
+  - **Claim pointer** The authors state that "cleavage of NEMO is an important piece of information to be accounted for in the pathology of COVID-19."
+  - **Evidence pointer** Discussion, Concluding remarks
+  - **Concern** This claim is presented as a conclusion but is not directly tested. No experiments demonstrate that NEMO cleavage by 3CLpro occurs in infected cells or that it leads to NF-κB pathway inhibition or altered immune responses. The link to COVID-19 pathology is entirely speculative.
+  - **Why it matters** The title and abstract frame the work around COVID-19 pathology. Without functional evidence, the significance of the finding for disease is overstated.
+  - **Resolution test** Demonstrate NEMO cleavage in SARS-CoV-2-infected cells and show a functional consequence on NF-κB signaling. Alternatively, use a protease inhibitor or mutant virus to correlate NEMO cleavage with immune dysregulation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods, Section 5.1
+  - **Evidence pointer** Section 5.1
+  - **Issue** The description of the mass spectrometry detection is brief. The specific mass spectrometer settings, data analysis software, and criteria for identifying cleavage products are not fully detailed.
+  - **Required correction** Provide a more detailed description of the LC-MS method, including instrument parameters, data processing, and how the cleavage site was assigned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods, Section 5.2
+  - **Evidence pointer** Section 5.2
+  - **Issue** The crystallographic refinement statistics are only referenced in Supplementary Table S3. Key validation metrics (R-free, Ramachandran outliers, coordinate error) are not summarized in the main text.
+  - **Required correction** Include a brief summary of crystallographic statistics in the main text or a table, including resolution, R-work/R-free, and model quality indicators.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 2.7
+  - **Evidence pointer** Section 2.7
+  - **Issue** The statement that the interfacial binding site "attenuates self-inhibition" is based on rigid docking scores, which are approximate. The functional significance of this site is not experimentally tested.
+  - **Required correction** Soften the language to indicate this is a hypothesis based on computational docking, and suggest experimental approaches to test it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4b
+  - **Evidence pointer** Section 2.9, Figure 4b
+  - **Issue** The figure legend for Figure 4b is not provided in the text, making it difficult to interpret the ranking data. The units and error bars for the binding affinity predictions are unclear.
+  - **Required correction** Provide a complete figure legend, including the definition of the ranking metric, error bars, and the statistical significance of differences between proteases.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative cleavage kinetics (R1-M1), the absence of experimental validation for computational binding predictions (R1-M2), and the lack of functional cellular data linking NEMO cleavage to immune dysregulation (R1-M3) are the primary technical shortcomings. The crystallographic structure alone, while valuable, does not establish the biological claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The structure of SARS-CoV-2 3CLpro bound to a human NEMO peptide is novel and adds to the understanding of protease substrate recognition. The computational comparison across coronaviruses is also original.  
+  - **Scientific importance** The potential role of 3CLpro in cleaving host immune proteins is of high interest, but the importance is diminished by the lack of functional validation. The findings are incremental if the physiological relevance is not shown.  
+  - **Interdisciplinary readership** The work bridges structural biology, virology, and computational biology, which could appeal to a broad audience. However, the speculative nature of the conclusions may limit impact.  
+  - **Technical soundness** The crystallographic work appears sound, but the computational methods are not fully validated, and the cleavage assay lacks quantitative rigor.  
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the computational sections are dense and may be difficult for non-specialists to follow. The significance of the findings is overstated relative to the evidence.
+- **Recommendation posture** Not currently established from the provided evidence. The structural and biochemical data are promising, but the major claims regarding viral fitness and COVID-19 pathology require additional experimental validation. Supportive if the technical concerns are resolved with quantitative data and functional experiments.
+
+## Risk / unsupported claims
+- The claim that NEMO cleavage occurs with "fine-tuned efficiency" is unsupported by quantitative data.
+- The claim that sequence variation in 3CLpro and NEMO explains SARS-CoV-2 fitness in humans is unsupported by experimental validation.
+- The claim that NEMO cleavage is "important" for COVID-19 pathology is speculative and not directly tested.
+- The computational binding affinity predictions are not validated against experimental measurements.
+- The functional significance of the interfacial binding site for C-terminal peptides is inferred from docking alone and is not experimentally supported.

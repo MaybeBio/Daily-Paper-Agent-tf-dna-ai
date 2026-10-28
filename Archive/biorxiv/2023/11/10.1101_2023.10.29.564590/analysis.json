@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.29.564590",
+  "title": "MethylBERT: A Transformer-based model for read-level DNA methylation pattern identification and tumour deconvolution",
+  "authors": "Yunhee Jeong; Clarissa Gerhäuser; Guido Sauter; Thorsten Schlomm; Karl Rohr; Pavlo Lutsik",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-01",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用Transformer模型对读段甲基化模式分类和肿瘤去卷积，虽涉及DNA序列但非蛋白质-DNA互作，无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "DNA methylation (DNAm) is a key epigenetic mark that shows profound alterations in cancer. Read-level methylomes enable more in-depth DNAm analysis due to the broad coverage and preservation of rare cell-type signals, compared to array-based data such as 450K/EPIC array. Here, we propose MethylBERT, a novel Transformer-based model for read-level methylation pattern classification. MethylBERT identifies tumour-derived sequence reads based on their methylation patterns and genomic sequence. Using the read classification probability, the method estimates tumour cell fractions within bulk samples and provides an assessment of the model precision. In our evaluation, MethylBERT outperforms existing deconvolution methods and demonstrates high accuracy regardless of methylation pattern complexity, read length and read coverage. Moreover, we show its applicability to cell-type deconvolution as well as its potential for accurate non-invasive early cancer diagnostics using liquid biopsy samples. MethylBERT represents a significant advancement in read-level methylome analysis and enables accurate tumour purity estimation. The broad applicability of MethylBERT will enhance studies on both solid tumour tissues and circulating tumour DNA as well as non-cancerous bulk methylomes.",
+  "abstract_zh": "DNA甲基化（DNAm）是一种关键的表观遗传标记，在癌症中表现出深刻的改变。与基于阵列的数据（如450K/EPIC阵列）相比，读取级甲基化组因其广泛的覆盖范围和稀有细胞类型信号的保留，能够实现更深入的DNAm分析。在此，我们提出MethylBERT，一种新颖的基于Transformer的模型，用于读取级甲基化模式分类。MethylBERT根据甲基化模式和基因组序列识别肿瘤来源的序列读取。利用读取分类概率，该方法估计批量样本中的肿瘤细胞分数，并提供模型精度的评估。在我们的评估中，MethylBERT优于现有的去卷积方法，并且无论甲基化模式复杂性、读取长度和读取覆盖率如何，均表现出高准确性。此外，我们展示了其在细胞类型去卷积中的适用性，以及利用液体活检样本进行准确非侵入性早期癌症诊断的潜力。MethylBERT代表了读取级甲基化组分析的重大进步，并能够实现准确的肿瘤纯度估计。MethylBERT的广泛适用性将增强对实体肿瘤组织和循环肿瘤DNA以及非癌性批量甲基化组的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.29.564590",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.29.564590",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.29.564590/index.html"
+}

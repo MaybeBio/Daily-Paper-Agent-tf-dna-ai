@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37274120",
+  "title": "Correction of transposase sequence bias in ATAC-seq data with rule ensemble modeling.",
+  "authors": "Wolpe, Jacob B; Martins, Andre L; Guertin, Michael J",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2023-06-05",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用规则集成机器学习校正ATAC-seq中Tn5转座酶的序列偏好，虽涉及转录因子结合位点推断，但核心是测序数据偏差校正，而非蛋白质-DNA互作建模或TF-DNA结合机制研究。",
+  "abstract": "Chromatin accessibility assays have revolutionized the field of transcription regulation by providing single-nucleotide resolution measurements of regulatory features such as promoters and transcription factor binding sites. ATAC-seq directly measures how well the Tn5 transposase accesses chromatinized DNA. Tn5 has a complex sequence bias that is not effectively scaled with traditional bias-correction methods. We model this complex bias using a rule ensemble machine learning approach that integrates information from many input k-mers proximal to the ATAC sequence reads. We effectively characterize and correct single-nucleotide sequence biases and regional sequence biases of the Tn5 enzyme. Correction of enzymatic sequence bias is an important step in interpreting chromatin accessibility assays that aim to infer transcription factor binding and regulatory activity of elements in the genome.",
+  "abstract_zh": "染色质可及性分析通过提供启动子和转录因子结合位点等调控特征的单核苷酸分辨率测量，彻底改变了转录调控领域。ATAC-seq直接测量Tn5转座酶对染色质化DNA的可及程度。Tn5具有复杂的序列偏好性，传统偏差校正方法无法有效缩放这种偏好。我们采用规则集成机器学习方法，整合来自ATAC序列读段邻近的多个输入k-mer信息，对此复杂偏差进行建模。我们有效表征并校正了Tn5酶的单核苷酸序列偏差和区域序列偏差。酶促序列偏差的校正是解读旨在推断转录因子结合及基因组元件调控活性的染色质可及性分析的重要步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37274120/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37274120/",
+  "paper_page_path": "papers/pubmed/37274120/index.html"
+}

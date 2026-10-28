@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "37442580",
+    "doi": "10.1101/gad.350461.123",
+    "title": "Structure and DNA-bridging activity of the essential Rec114-Mei4 trimer interface."
+  },
+  "content": {
+    "abstract": "The DNA double-strand breaks (DSBs) that initiate meiotic recombination are formed by an evolutionarily conserved suite of factors that includes Rec114 and Mei4 (RM), which regulate DSB formation both spatially and temporally. In vivo, these proteins form large immunostaining foci that are integrated with higher-order chromosome structures. In vitro, they form a 2:1 heterotrimeric complex that binds cooperatively to DNA to form large, dynamic condensates. However, understanding of the atomic structures and dynamic DNA binding properties of RM complexes is lacking. Here, we report a structural model of a heterotrimeric complex of the C terminus of Rec114 with the N terminus of Mei4, supported by nuclear magnetic resonance experiments. This minimal complex, which lacks the predicted intrinsically disordered region of Rec114, is sufficient to bind DNA and form condensates. Single-molecule experiments reveal that the minimal complex can bridge two or more DNA duplexes and can generate force to condense DNA through long-range interactions. AlphaFold2 predicts similar structural models for RM orthologs across diverse taxa despite their low degree of sequence similarity. These findings provide insight into the conserved networks of protein-protein and protein-DNA interactions that enable condensate formation and promote formation of meiotic DSBs.",
+    "keywords": [
+      "DNA double-strand breaks",
+      "homologous recombination",
+      "meiosis",
+      "optical tweezers"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/metabolism",
+      "Chromosomes/metabolism",
+      "Meiosis",
+      "DNA Breaks, Double-Stranded",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Kaixian",
+        "Grasso, Emily M",
+        "Pu, Stephen",
+        "Zou, Mengyang",
+        "Liu, Shixin",
+        "Eliezer, David",
+        "Keeney, Scott"
+      ],
+      "short_names": [
+        "Liu K",
+        "Grasso EM",
+        "Pu S",
+        "Zou M",
+        "Liu S",
+        "Eliezer D",
+        "Keeney S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9711-6509",
+        "ORCID: 0000-0003-0014-4365",
+        "ORCID: 0000-0003-4238-7066",
+        "ORCID: 0000-0002-1311-7537",
+        "ORCID: 0000-0002-1283-6417"
+      ],
+      "affiliations": [
+        "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, New York 10065, USA.",
+        "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA.",
+        "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA.",
+        "Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, New York 10065, USA.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, New York 10065, USA.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, New York 10065, USA.",
+        "Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, New York 10065, USA.",
+        "Program in Structural Biology, Weill Cornell Medicine, New York, New York 10065, USA.",
+        "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA; s-keeney@ski.mskcc.org.",
+        "Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, New York 10065, USA.",
+        "Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Kaixian",
+        "short_name": "Liu K",
+        "identifiers": [
+          "0000-0001-9711-6509"
+        ],
+        "affiliations": [
+          "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Grasso, Emily M",
+        "short_name": "Grasso EM",
+        "identifiers": [
+          "0000-0003-0014-4365"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Pu, Stephen",
+        "short_name": "Pu S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Zou, Mengyang",
+        "short_name": "Zou M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA.",
+          "Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Shixin",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0003-4238-7066"
+        ],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Eliezer, David",
+        "short_name": "Eliezer D",
+        "identifiers": [
+          "0000-0002-1311-7537"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, New York 10065, USA.",
+          "Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, New York 10065, USA.",
+          "Program in Structural Biology, Weill Cornell Medicine, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Keeney, Scott",
+        "short_name": "Keeney S",
+        "identifiers": [
+          "0000-0002-1283-6417"
+        ],
+        "affiliations": [
+          "Molecular Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA; s-keeney@ski.mskcc.org.",
+          "Weill Cornell Graduate School of Medical Sciences, Cornell University, New York, New York 10065, USA.",
+          "Howard Hughes Medical Institute, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & development"
+    ],
+    "journal_abbrev": [
+      "Genes Dev"
+    ],
+    "pub_date": "2023 Jun 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/14 13:06",
+    "fetched_at": "2026-09-29 03:45:28"
+  },
+  "links": {
+    "cites": [
+      "40037704",
+      "39304764",
+      "38966985",
+      "38580643",
+      "38348856",
+      "37976262",
+      "37961437",
+      "37442581"
+    ],
+    "refs": [
+      "37442581",
+      "37431931",
+      "36396648",
+      "36071192",
+      "35810158",
+      "35758641",
+      "35637307",
+      "35576467",
+      "35484234",
+      "35238639",
+      "34458909",
+      "34389685",
+      "34344879",
+      "34265844",
+      "34048569",
+      "33748134",
+      "33731927",
+      "33398171",
+      "33184224",
+      "31348887",
+      "31251384",
+      "31003867",
+      "31000436",
+      "30569039",
+      "30158700",
+      "29521627",
+      "29035372",
+      "29021238",
+      "28968734",
+      "28445744",
+      "27866371",
+      "27131377",
+      "26995551",
+      "26084388",
+      "25505092",
+      "25126790",
+      "24753421",
+      "24497834",
+      "23990794",
+      "23950729",
+      "23825959",
+      "23728592",
+      "22930834",
+      "21927624",
+      "21816273",
+      "20551173",
+      "19804731",
+      "19717576",
+      "17558514",
+      "17406547",
+      "17406245",
+      "16814718",
+      "16783010",
+      "15388866",
+      "15299144",
+      "14992724",
+      "10526232",
+      "8520220",
+      "6826549"
+    ],
+    "similar": [
+      "37442580",
+      "36711595",
+      "20551173",
+      "17558514",
+      "37442581",
+      "30569039",
+      "32290544",
+      "34389685",
+      "33731927",
+      "23825959",
+      "37431931",
+      "16783010",
+      "36396648",
+      "21816273",
+      "32494071",
+      "25795304",
+      "19332879",
+      "34951404",
+      "18245451",
+      "37162821",
+      "31003867",
+      "37976262",
+      "23902647",
+      "27723721",
+      "10526232",
+      "31000436",
+      "19464965",
+      "30853435",
+      "24244180",
+      "35758641",
+      "30940321",
+      "30496175",
+      "21429938",
+      "18076285",
+      "23246437",
+      "23313097",
+      "10224247",
+      "18096626",
+      "25539084",
+      "30357385",
+      "28538144",
+      "18505828",
+      "34879269",
+      "20551169",
+      "38148155",
+      "27760146",
+      "15655113",
+      "24367271",
+      "24183725",
+      "34197600",
+      "28623092",
+      "18670132",
+      "17264124",
+      "24717437",
+      "17674145",
+      "26719980",
+      "22745819",
+      "36508468",
+      "26245832",
+      "27329041",
+      "9348039",
+      "26627841",
+      "26440409",
+      "18007596",
+      "23762445",
+      "21515575",
+      "32744506",
+      "21146476",
+      "37968127",
+      "36221195",
+      "23593021",
+      "21660688",
+      "19799174",
+      "29686104",
+      "28453612",
+      "22433953",
+      "19380488",
+      "31547623",
+      "11940665",
+      "31965061",
+      "23990794",
+      "33262143",
+      "17762870",
+      "22002603",
+      "27172214"
+    ],
+    "review": [
+      "37442580",
+      "19464965",
+      "23313097",
+      "28623092",
+      "17674145",
+      "19799174"
+    ],
+    "pmc": [
+      "10393192"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genesdev.cshlp.org/lookup/pmidlookup?view=long&pmid=37442580",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37442580/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37442580",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37442580",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

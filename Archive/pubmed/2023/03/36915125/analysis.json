@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36915125",
+  "title": "Lipid metabolism-related miRNAs with potential diagnostic roles in prostate cancer.",
+  "authors": "Zhai, Tianyuan; Dou, Meng; Ma, Yubo; Wang, Hong; Liu, Fang; Zhang, Liandong; Chong, Tie; Wang, Ziming; Xue, Li",
+  "journal": "Lipids in health and disease",
+  "published_date": "2023-03-15",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究前列腺癌中脂质代谢相关miRNA的诊断模型及TF-miRNA-mRNA网络，核心为miRNA表达与临床诊断，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Prostate cancer (PCa), the second most prevalent solid tumor among men worldwide, has caused greatly increasing mortality in PCa patients. The effects of lipid metabolism on tumor growth have been explored, but the mechanistic details of the association of lipid metabolism disorders with PCa remain largely elusive. METHODS: The RNA sequencing data of the GSE45604 and The Cancer Genome Atlas-Prostate Adenocarcinoma (TCGA-PRAD) datasets were extracted from the Gene Expression Omnibus (GEO) and UCSC Xena databases, respectively. The Molecular Signatures Database (MSigDB) was utilized to identify lipid metabolism-related genes. The limma R package was used to identify differentially expressed lipid metabolism-related genes (DE-LMRGs) and differentially expressed microRNAs (DEMs). Moreover, least absolute shrinkage and selection operator (LASSO), extreme gradient boosting (XGBoost), and support vector machine-recursive feature elimination (SVM-RFE) were applied to select signature miRNAs and construct a lipid metabolism-related diagnostic model. The expression levels of selected differentially expressed lipid metabolism-related miRNAs (DE-LMRMs) in PCa and benign prostate hyperplasia (BPH) specimens were verified using quantitative real-time polymerase chain reaction (qRT‒PCR). Furthermore, a transcription factor (TF)-miRNA‒mRNA network was constructed. Eventually, Kaplan‒Meier (KM) curves were plotted to illustrate the associations between signature miRNA-related mRNAs and TFs and overall survival (OS) along with biochemical recurrence-free survival (BCR). RESULTS: Forty-seven LMRMs were screened based on the correlation analysis of 29 DE-LMRGs and 56 DEMs, in which 27 LMRMs were stably expressed in the GSE45604 dataset. Subsequently, receiver operating characteristic (ROC) curves and machine learning methods were employed to develop a lipid metabolism-related diagnostic signature, which may be of diagnostic value for PCa patients. qRT‒PCR results showed that all seven key DE-LMRMs were differentially expressed between PCa and BPH tissues. Eventually, a TF-miRNA‒mRNA network was constructed. CONCLUSIONS: These results suggested that 7 key diagnostic miRNAs were closely related to PCa pathological processes and provided new targets for the diagnosis and treatment of PCa. Moreover, CLIC6 and SCNN1A linked to miR-200c-3p had good prognostic potential and provided valuable insights into the pathogenesis of PCa.",
+  "abstract_zh": "背景：前列腺癌（PCa）是全球男性中第二常见的实体肿瘤，已导致PCa患者死亡率大幅上升。脂质代谢对肿瘤生长的影响已被探索，但脂质代谢紊乱与PCa关联的机制细节在很大程度上仍不明确。方法：从基因表达综合数据库（GEO）和UCSC Xena数据库中分别提取GSE45604和癌症基因组图谱-前列腺腺癌（TCGA-PRAD）数据集的RNA测序数据。利用分子特征数据库（MSigDB）识别脂质代谢相关基因。使用limma R包识别差异表达的脂质代谢相关基因（DE-LMRGs）和差异表达的微小RNA（DEMs）。此外，应用最小绝对收缩和选择算子（LASSO）、极端梯度提升（XGBoost）和支持向量机-递归特征消除（SVM-RFE）来选择特征miRNA并构建脂质代谢相关诊断模型。通过定量实时聚合酶链反应（qRT-PCR）验证所选差异表达脂质代谢相关miRNA（DE-LMRMs）在PCa和良性前列腺增生（BPH）标本中的表达水平。进一步构建了转录因子（TF）-miRNA-mRNA网络。最终，绘制Kaplan-Meier（KM）曲线以说明特征miRNA相关mRNA和TFs与总生存期（OS）及生化复发无生存期（BCR）的关联。结果：基于29个DE-LMRGs和56个DEMs的相关性分析，筛选出47个LMRMs，其中27个LMRMs在GSE45604数据集中稳定表达。随后，采用受试者工作特征（ROC）曲线和机器学习方法开发了脂质代谢相关诊断特征，这可能对PCa患者具有诊断价值。qRT-PCR结果显示，所有七个关键DE-LMRMs在PCa和BPH组织间均存在差异表达。最终，构建了TF-miRNA-mRNA网络。结论：这些结果表明，7个关键诊断miRNAs与PCa病理过程密切相关，并为PCa的诊断和治疗提供了新靶点。此外，与miR-200c-3p相关的CLIC6和SCNN1A具有良好的预后潜力，并为PCa的发病机制提供了有价值的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36915125/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36915125/",
+  "paper_page_path": "papers/pubmed/36915125/index.html"
+}

@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "39872885",
+    "doi": "10.3389/fcvm.2024.1501608",
+    "title": "Identification of mitophagy-related key genes and their correlation with immune cell infiltration in acute myocardial infarction via bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute myocardial infarction (AMI), a subset of acute coronary syndrome, remains the major cause of mortality worldwide. Mitochondrial dysfunction is critically involved in AMI progression, and mitophagy plays a vital role in eliminating damaged mitochondria. This study aimed to explore mitophagy-related biomarkers and their potential molecular basis in AMI. METHODS: AMI datasets (GSE24519 and GSE34198) from the Gene Expression Omnibus database were combined and the batch effects were removed. Differentially expressed genes (DEGs) in AMI were selected, intersected with mitophagy-related genes for mitophagy-related DEGs (MRDEGs), and then subjected to enrichment analyses. Next, the MRDEGs were screened using machine learning methods (logistic regression analysis, RandomForest, least absolute shrinkage and selection operator) to construct a diagnostic risk model and select the key genes in AMI. The diagnostic efficacy of the model was evaluated using a nomogram. Moreover, the infiltration patterns of different immune cells in two risk groups were compared. We also explored the interactions between the key genes themselves or with miRNAs/transcription factors (TFs) and drug compounds and visualized the protein structure of the key genes. Finally, we explored and validated the expression of key genes in plasma samples of patients with an AMI and healthy individuals. RESULTS: We screened 28 MRDEGs in AMI. Based on machine learning methods, 12 key genes were screened for the diagnostic risk model, including AGPS, CA2, CAT, LTA4H, MYO9B, PRDX6, PYGB, SIRT3, TFEB, TOM1, UBA52, and UBB. The nomogram further revealed the accuracy of the model for AMI diagnosis. Moreover, we found a lower abundance of immune cells such as gamma delta T and natural killer cells in the high-risk group, and the expression of key genes showed a significant correlation with immune infiltration levels in both groups. Finally, 64 miRNA-mRNA pairs, 75 TF-mRNA pairs, 119 RNA-binding protein-mRNA pairs, and 32 drug-mRNA pairs were obtained in the interaction networks. CONCLUSIONS: In total, 12 key MRDEGs were identified and a risk model was constructed for AMI diagnosis. The findings of this study might provide novel biomarkers for improving the detection of AMI.",
+    "keywords": [
+      "acute myocardial infarction",
+      "bioinformatics analysis",
+      "biomarkers",
+      "diagnostic risk model",
+      "mitophagy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sheng, Zulong",
+        "Zhang, Rui",
+        "Ji, Zhenjun",
+        "Liu, Zhuyuan",
+        "Zhou, Yaqing"
+      ],
+      "short_names": [
+        "Sheng Z",
+        "Zhang R",
+        "Ji Z",
+        "Liu Z",
+        "Zhou Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China.",
+        "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China.",
+        "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China.",
+        "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China.",
+        "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sheng, Zulong",
+        "short_name": "Sheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rui",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Zhenjun",
+        "short_name": "Ji Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhuyuan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yaqing",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital, Medical School of Southeast University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/28 11:26",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "41009773"
+    ],
+    "refs": [
+      "39401992",
+      "39159737",
+      "37892226",
+      "37840964",
+      "37602430",
+      "37392421",
+      "37390647",
+      "37047336",
+      "36480284",
+      "36407421",
+      "36399495",
+      "36370105",
+      "36338988",
+      "36142157",
+      "35879138",
+      "35534453",
+      "35166796",
+      "35040256",
+      "35011599",
+      "34943776",
+      "34751704",
+      "34265844",
+      "33517372",
+      "33438778",
+      "33418589",
+      "33309175",
+      "33235359",
+      "33101051",
+      "33088945",
+      "33068428",
+      "32918915",
+      "32653860",
+      "32587855",
+      "32558385",
+      "31960380",
+      "31944496",
+      "31858519",
+      "31841135",
+      "31672943",
+      "31585519",
+      "31443682",
+      "30951392",
+      "30511961",
+      "30034909",
+      "29569941",
+      "29344893",
+      "29237304",
+      "28886621",
+      "28538121",
+      "27613967",
+      "27077806",
+      "26771021",
+      "25605792",
+      "24297251",
+      "23937229",
+      "23323831",
+      "23193258",
+      "23049607",
+      "22455463",
+      "22257669",
+      "20179076",
+      "18327243",
+      "17496320",
+      "16199517"
+    ],
+    "similar": [
+      "39872885",
+      "40114920",
+      "40115463",
+      "39650552",
+      "39552895",
+      "35764238",
+      "35872921",
+      "35463752",
+      "37908757",
+      "40046960",
+      "37287971",
+      "39103773",
+      "36531699",
+      "38987688",
+      "39205966",
+      "35422846",
+      "38716300",
+      "38839020",
+      "37662030",
+      "33506919",
+      "38601640",
+      "37214088",
+      "36863716",
+      "38402377",
+      "36582740",
+      "38783198",
+      "37098514",
+      "35958412",
+      "39470826",
+      "37576155",
+      "40251588",
+      "40313958",
+      "37891664",
+      "38764497",
+      "39586719",
+      "36600215",
+      "35675985",
+      "35864510",
+      "35694667",
+      "39354722",
+      "33195475",
+      "38371524",
+      "36440001",
+      "39086489",
+      "40148430",
+      "39263286",
+      "37868889",
+      "40078458",
+      "33439992",
+      "37259023",
+      "38044432",
+      "38334110",
+      "38260098",
+      "39040073",
+      "38951833",
+      "39295860",
+      "38384969",
+      "37520666",
+      "37075605",
+      "40174368",
+      "39375405",
+      "39182484",
+      "39950319",
+      "33847684",
+      "32440375",
+      "37860011",
+      "38764052",
+      "40129981",
+      "35757392",
+      "38650009",
+      "35845512",
+      "35692951",
+      "38291374",
+      "37178159",
+      "38863714",
+      "36777638",
+      "39341981",
+      "38544384",
+      "39406802",
+      "36407421",
+      "27746059",
+      "40287718",
+      "38455553",
+      "37530128",
+      "36238641",
+      "38451044",
+      "39889200",
+      "37422588",
+      "39937929",
+      "39296548",
+      "29845217",
+      "36937391",
+      "35300139",
+      "36062187",
+      "39284527",
+      "40183870",
+      "39495540",
+      "37549822",
+      "40055592",
+      "37115484"
+    ],
+    "review": [
+      "39872885"
+    ],
+    "pmc": [
+      "11770045"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39872885/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-92",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2024.1501608",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

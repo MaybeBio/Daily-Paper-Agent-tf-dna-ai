@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.20.481200",
+  "title": "Quantitative sequence basis for the E. coli transcriptional regulatory network",
+  "doi": "10.1101/2022.02.20.481200",
+  "abstract": "The transcriptional regulatory network (TRN) of E. coli consists of thousands of interactions between regulators and DNA sequences. Inherently the DNA sequence is the primary determinant of the TRN; however, it is well established that the presence of a DNA binding motif does not guarantee a functional regulatory protein binding site. Thus, the extent to which the TRN architecture can be predicted by the genome DNA sequence alone remains unclear. Here, we developed machine learning models that predict the TRN structure of E. coli based on genome sequence. Models were constructed successfully (cross-validation AUROC >= 0.8) for 84% (57/68) of valid E. coli regulons identified from top-down analysis of RNA-seq data. We found that: 1) While regulatory motif strength is the most important sequence feature for determining regulon membership, additional features such as DNA shape substantially influence membership; 2) complex regulons involving multiple interacting regulators could be unraveled by machine learning; 3) investigating regulons where initial ML models failed revealed new regulator-specific sequence features that improved model accuracy. Finally, while regulon structure can appear to be variable across estimation methods and strains, we found that strong regulatory sequence features underlie both the genes that appear most consistently in regulons across estimation methods as well as the core regulon genes in the Fur pan-regulon. This work develops a quantitative understanding of the sequence basis of the TRN and suggests a path towards computationally-guided control of transcriptional regulation for synthetic biology applications.",
+  "authors": [
+    "Qiu S",
+    "Lamoureux C",
+    "Akbari A",
+    "Palsson BO",
+    "Zielinski DC"
+  ],
+  "published_date": "2022-02-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.20.481200",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.20.481200.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR456781",
+    "raw_record": {
+      "id": "PPR456781",
+      "source": "PPR",
+      "doi": "10.1101/2022.02.20.481200",
+      "title": "Quantitative sequence basis for the  <i>E. coli</i>  transcriptional regulatory network",
+      "authorString": "Qiu S, Lamoureux C, Akbari A, Palsson BO, Zielinski DC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Qiu S",
+            "lastName": "Qiu",
+            "firstName": "Sizhe",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1936-1223"
+            }
+          },
+          {
+            "fullName": "Lamoureux C",
+            "lastName": "Lamoureux",
+            "firstName": "Cameron",
+            "initials": "C"
+          },
+          {
+            "fullName": "Akbari A",
+            "lastName": "Akbari",
+            "firstName": "Amir",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4826-078X"
+            }
+          },
+          {
+            "fullName": "Palsson BO",
+            "lastName": "Palsson",
+            "firstName": "Bernhard",
+            "initials": "BO"
+          },
+          {
+            "fullName": "Zielinski DC",
+            "lastName": "Zielinski",
+            "firstName": "Daniel",
+            "initials": "DC"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1936-1223"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4826-078X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The transcriptional regulatory network (TRN) of  E. coli consists of thousands of interactions between regulators and DNA sequences. Inherently the DNA sequence is the primary determinant of the TRN; however, it is well established that the presence of a DNA binding motif does not guarantee a functional regulatory protein binding site. Thus, the extent to which the TRN architecture can be predicted by the genome DNA sequence alone remains unclear. Here, we developed machine learning models that predict the TRN structure of  E. coli based on genome sequence. Models were constructed successfully (cross-validation AUROC >= 0.8) for 84% (57/68) of valid  E. coli regulons identified from top-down analysis of RNA-seq data. We found that: 1) While regulatory motif strength is the most important sequence feature for determining regulon membership, additional features such as DNA shape substantially influence membership; 2) complex regulons involving multiple interacting regulators could be unraveled by machine learning; 3) investigating regulons where initial ML models failed revealed new regulator-specific sequence features that improved model accuracy. Finally, while regulon structure can appear to be variable across estimation methods and strains, we found that strong regulatory sequence features underlie both the genes that appear most consistently in regulons across estimation methods as well as the core regulon genes in the Fur pan-regulon. This work develops a quantitative understanding of the sequence basis of the TRN and suggests a path towards computationally-guided control of transcriptional regulation for synthetic biology applications.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/20/2022.02.20.481200.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.20.481200"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38252668",
+            "reference": "PLoS computational biology. 2024 Jan;20(1):e1011824",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-02-22",
+      "firstPublicationDate": "2022-02-20",
+      "firstIndexDate": "2022-02-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

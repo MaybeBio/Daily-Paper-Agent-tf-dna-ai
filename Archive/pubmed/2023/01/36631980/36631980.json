@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "36631980",
+    "doi": "10.1093/nar/gkac1262",
+    "title": "The homeodomain of Oct4 is a dimeric binder of methylated CpG elements."
+  },
+  "content": {
+    "abstract": "Oct4 is essential to maintain pluripotency and has a pivotal role in establishing the germline. Its DNA-binding POU domain was recently found to bind motifs with methylated CpG elements normally associated with epigenetic silencing. However, the mode of binding and the consequences of this capability has remained unclear. Here, we show that Oct4 binds to a compact palindromic DNA element with a methylated CpG core (CpGpal) in alternative states of pluripotency and during cellular reprogramming towards induced pluripotent stem cells (iPSCs). During cellular reprogramming, typical Oct4 bound enhancers are uniformly demethylated, with the prominent exception of the CpGpal sites where DNA methylation is often maintained. We demonstrate that Oct4 cooperatively binds the CpGpal element as a homodimer, which contrasts with the ectoderm-expressed POU factor Brn2. Indeed, binding to CpGpal is Oct4-specific as other POU factors expressed in somatic cells avoid this element. Binding assays combined with structural analyses and molecular dynamic simulations show that dimeric Oct4-binding to CpGpal is driven by the POU-homeodomain whilst the POU-specific domain is detached from DNA. Collectively, we report that Oct4 exerts parts of its regulatory function in the context of methylated DNA through a DNA recognition mechanism that solely relies on its homeodomain.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Differentiation/genetics",
+      "*Cellular Reprogramming",
+      "DNA/metabolism",
+      "DNA Methylation",
+      "Epigenesis, Genetic",
+      "*Induced Pluripotent Stem Cells/metabolism",
+      "*Octamer Transcription Factor-3/metabolism",
+      "Humans",
+      "Animals",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Daisylyn Senna",
+        "Cheung, Shun Lai",
+        "Gao, Ya",
+        "Weinbuch, Maike",
+        "Hu, Haoqing",
+        "Shi, Liyang",
+        "Ti, Shih-Chieh",
+        "Hutchins, Andrew P",
+        "Cojocaru, Vlad",
+        "Jauch, Ralf"
+      ],
+      "short_names": [
+        "Tan DS",
+        "Cheung SL",
+        "Gao Y",
+        "Weinbuch M",
+        "Hu H",
+        "Shi L",
+        "Ti SC",
+        "Hutchins AP",
+        "Cojocaru V",
+        "Jauch R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7784-2255",
+        "ORCID: 0000-0003-0886-3401",
+        "ORCID: 0000-0002-6590-9579"
+      ],
+      "affiliations": [
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Institute for Molecular Medicine, Ulm University, Ulm, Germany.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Shenzhen Key Laboratory of Gene Regulation and Systems Biology, Department of Biology, School of Life Sciences, Southern University of Science and Technology, Shenzhen 518055, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Shenzhen Key Laboratory of Gene Regulation and Systems Biology, Department of Biology, School of Life Sciences, Southern University of Science and Technology, Shenzhen 518055, China.",
+        "STAR-UBB Institute, Babes-Bolyai University, Cluj-Napoca, Romania.",
+        "Computational Structural Biology Group, Utrecht University, The Netherlands.",
+        "Max Planck Institute for Molecular Biomedicine, Munster, Germany.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+        "Centre for Translational Stem Cell Biology, Hong Kong SAR, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Daisylyn Senna",
+        "short_name": "Tan DS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Cheung, Shun Lai",
+        "short_name": "Cheung SL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ya",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Weinbuch, Maike",
+        "short_name": "Weinbuch M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+          "Institute for Molecular Medicine, Ulm University, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Hu, Haoqing",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Liyang",
+        "short_name": "Shi L",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Key Laboratory of Gene Regulation and Systems Biology, Department of Biology, School of Life Sciences, Southern University of Science and Technology, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Ti, Shih-Chieh",
+        "short_name": "Ti SC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Hutchins, Andrew P",
+        "short_name": "Hutchins AP",
+        "identifiers": [
+          "0000-0001-7784-2255"
+        ],
+        "affiliations": [
+          "Shenzhen Key Laboratory of Gene Regulation and Systems Biology, Department of Biology, School of Life Sciences, Southern University of Science and Technology, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Cojocaru, Vlad",
+        "short_name": "Cojocaru V",
+        "identifiers": [
+          "0000-0003-0886-3401"
+        ],
+        "affiliations": [
+          "STAR-UBB Institute, Babeş-Bolyai University, Cluj-Napoca, Romania.",
+          "Computational Structural Biology Group, Utrecht University, The Netherlands.",
+          "Max Planck Institute for Molecular Biomedicine, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Jauch, Ralf",
+        "short_name": "Jauch R",
+        "identifiers": [
+          "0000-0002-6590-9579"
+        ],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.",
+          "Centre for Translational Stem Cell Biology, Hong Kong SAR, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Feb 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/13 06:00",
+    "fetched_at": "2026-10-04 21:32:11"
+  },
+  "links": {
+    "cites": [
+      "42557242",
+      "41634744",
+      "41516148",
+      "41489900",
+      "39960871",
+      "39605503",
+      "39543096",
+      "39329271",
+      "38602535",
+      "38254723",
+      "37940484",
+      "37607832"
+    ],
+    "refs": [
+      "36423263",
+      "36130934",
+      "36130732",
+      "35810158",
+      "35765816",
+      "35171666",
+      "35077679",
+      "34806592",
+      "34552088",
+      "34354236",
+      "34234345",
+      "34099689",
+      "33731926",
+      "33720298",
+      "33592095",
+      "33208455",
+      "32917606",
+      "32737473",
+      "32728046",
+      "32471981",
+      "32327602",
+      "32079595",
+      "32027821",
+      "31982909",
+      "31689433",
+      "31569299",
+      "31399642",
+      "31398323",
+      "31375664",
+      "31311924",
+      "30943410",
+      "30934924",
+      "30709850",
+      "30644360",
+      "30618244",
+      "30604769",
+      "30581079",
+      "30554962",
+      "30449618",
+      "30109120",
+      "29930091",
+      "29910149",
+      "29686265",
+      "29669022",
+      "29635978",
+      "29513657",
+      "29425488",
+      "29409522",
+      "29335749",
+      "29220667",
+      "29030611",
+      "28953884",
+      "28537559",
+      "28473536",
+      "28111071",
+      "28007765",
+      "27915232",
+      "27281220",
+      "27079975",
+      "26550823",
+      "26545815",
+      "26265007",
+      "25892221",
+      "25870414",
+      "25843630",
+      "25697820",
+      "25578969",
+      "25516281",
+      "25408886",
+      "25408880",
+      "25261405",
+      "25173569",
+      "25126959",
+      "24736841",
+      "24669864",
+      "24243019",
+      "24227677",
+      "24056933",
+      "23950494",
+      "23474895",
+      "23437007",
+      "23400093",
+      "23376973",
+      "23159369",
+      "22388286",
+      "22344693",
+      "22242016",
+      "22177264",
+      "22170606",
+      "22019337",
+      "21576262",
+      "21493656",
+      "21472822",
+      "21117060",
+      "20513432",
+      "20383002",
+      "20362542",
+      "20147459",
+      "20124702",
+      "20110278",
+      "20107439",
+      "19865164",
+      "19858363",
+      "19505943",
+      "19221599",
+      "18798982",
+      "18772384",
+      "18059259",
+      "17334365",
+      "16904174",
+      "15486564",
+      "15264254",
+      "12923055",
+      "11583619",
+      "11136971",
+      "9649510",
+      "8663425",
+      "8557192",
+      "1361172"
+    ],
+    "similar": [
+      "36631980",
+      "28007765",
+      "26877091",
+      "26832419",
+      "21156086",
+      "24145198",
+      "20025521",
+      "23376973",
+      "17030610",
+      "27473118",
+      "27146218",
+      "31375664",
+      "30269953",
+      "23213213",
+      "24059348",
+      "34698883",
+      "20027182",
+      "30013107",
+      "19944068",
+      "25185564",
+      "16245355",
+      "24052952",
+      "26314899",
+      "20096661",
+      "31569299",
+      "25870414",
+      "26265007",
+      "26711876",
+      "31722212",
+      "26762895",
+      "27336671",
+      "22902501",
+      "31708402",
+      "23499384",
+      "19718018",
+      "20477760",
+      "23437007",
+      "29125994",
+      "32075734",
+      "29335749",
+      "22009686",
+      "27419933",
+      "20956998",
+      "27019633",
+      "29910149",
+      "29335068",
+      "29358044",
+      "21608077",
+      "24672757",
+      "23437358",
+      "25591928",
+      "20096686",
+      "25027059",
+      "31555818",
+      "31412978",
+      "23136034",
+      "29203199",
+      "29681539",
+      "23580657",
+      "26657769",
+      "25892221",
+      "15996113",
+      "24370212",
+      "31843009",
+      "32055844",
+      "23333380",
+      "27019637",
+      "28813671",
+      "25754700",
+      "24336202",
+      "33720298",
+      "21399616",
+      "21738644",
+      "31570708",
+      "38184707",
+      "18371437",
+      "28166455",
+      "25331067",
+      "32777770",
+      "24210613",
+      "34725790",
+      "24083501",
+      "27373925",
+      "23272148",
+      "24172903",
+      "21112560",
+      "32023463",
+      "35575836",
+      "21135873",
+      "23969249",
+      "23097321",
+      "24892478",
+      "23747203",
+      "17314394",
+      "34611861",
+      "34613998",
+      "36993452",
+      "36909486"
+    ],
+    "review": [
+      "36631980",
+      "21156086",
+      "24145198",
+      "34698883",
+      "29335749",
+      "22009686",
+      "27419933",
+      "24370212"
+    ],
+    "pmc": [
+      "9943670"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/36631980",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36631980/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36631980",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac1262",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "37978263",
+    "doi": "10.1038/s41598-023-46193-x",
+    "title": "Identification of novel STAT3 inhibitors for liver fibrosis, using pharmacophore-based virtual screening, molecular docking, and biomolecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "The signal transducer and activator of transcription 3 (STAT3) plays a fundamental role in the growth and regulation of cellular life. Activation and over-expression of STAT3 have been implicated in many cancers including solid blood tumors and other diseases such as liver fibrosis and rheumatoid arthritis. Therefore, STAT3 inhibitors are be coming a growing and interesting area of pharmacological research. Consequently, the aim of this study is to design novel inhibitors of STAT3-SH3 computationally for the reduction of liver fibrosis. Herein, we performed Pharmacophore-based virtual screening of databases including more than 19,481 commercially available compounds and in-house compounds. The hits obtained from virtual screening were further docked with the STAT3 receptor. The hits were further ranked on the basis of docking score and binding interaction with the active site of STAT3. ADMET properties of the screened compounds were calculated and filtered based on drug-likeness criteria. Finally, the top five drug-like hit compounds were selected and subjected to molecular dynamic simulation. The stability of each drug-like hit in complex with STAT3 was determined by computing their RMSD, RMSF, Rg, and DCCM analyses. Among all the compounds Sa32 revealed a good docking score, interactions, and stability during the entire simulation procedure. As compared to the Reference compound, the drug-like hit compound Sa32 showed good docking scores, interaction, stability, and binding energy. Therefore, we identified Sa32 as the best small molecule potent inhibitor for STAT3 that will be helpful in the future for the treatment of liver fibrosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Pharmacophore",
+      "*STAT3 Transcription Factor",
+      "Molecular Dynamics Simulation",
+      "Liver Cirrhosis/drug therapy",
+      "Ligands"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rafiq, Huma",
+        "Hu, Junjian",
+        "Hakami, Mohammed Ageeli",
+        "Hazazi, Ali",
+        "Alamri, Mubarak A",
+        "Alkhatabi, Hind A",
+        "Mahmood, Arif",
+        "Alotaibi, Bader S",
+        "Wadood, Abdul",
+        "Huang, Xiaoyun"
+      ],
+      "short_names": [
+        "Rafiq H",
+        "Hu J",
+        "Hakami MA",
+        "Hazazi A",
+        "Alamri MA",
+        "Alkhatabi HA",
+        "Mahmood A",
+        "Alotaibi BS",
+        "Wadood A",
+        "Huang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Computational Medicinal Chemistry Laboratory, Abdul Wali Khan University, Mardan, Pakistan.",
+        "Department of Central Laboratory, Dongguan Songshan Lake Central Hospital, Dongguan, China.",
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Al-Quwayiyah, Shaqra University, Riyadh, Saudi Arabia.",
+        "Department of Pathology and Laboratory Medicine, Security Forces Hospital Program, Riyadh, Saudi Arabia.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, 11942, Al-Kharj, Saudi Arabia.",
+        "Department of Biochemistry, College of Science, University of Jeddah, Jeddah, Saudi Arabia.",
+        "Center for Medical Genetics and Human Key Laboratory of Medical Genetics, School of Life Sciences, Central South University, Changsha, 410078, Hunan, China.",
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Al-Quwayiyah, Shaqra University, Riyadh, Saudi Arabia.",
+        "Department of Biochemistry, Computational Medicinal Chemistry Laboratory, Abdul Wali Khan University, Mardan, Pakistan. awadood@awkum.edu.pk.",
+        "Department of Neurology, Dongguan Songshan Lake Central Hospital, Dongguan, China. hxydg21@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rafiq, Huma",
+        "short_name": "Rafiq H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Computational Medicinal Chemistry Laboratory, Abdul Wali Khan University, Mardan, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Hu, Junjian",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Central Laboratory, Dongguan Songshan Lake Central Hospital, Dongguan, China."
+        ]
+      },
+      {
+        "full_name": "Hakami, Mohammed Ageeli",
+        "short_name": "Hakami MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Al-Quwayiyah, Shaqra University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hazazi, Ali",
+        "short_name": "Hazazi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Security Forces Hospital Program, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alamri, Mubarak A",
+        "short_name": "Alamri MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, 11942, Al-Kharj, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alkhatabi, Hind A",
+        "short_name": "Alkhatabi HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Science, University of Jeddah, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Mahmood, Arif",
+        "short_name": "Mahmood A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Genetics and Human Key Laboratory of Medical Genetics, School of Life Sciences, Central South University, Changsha, 410078, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Alotaibi, Bader S",
+        "short_name": "Alotaibi BS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Al-Quwayiyah, Shaqra University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Wadood, Abdul",
+        "short_name": "Wadood A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Computational Medicinal Chemistry Laboratory, Abdul Wali Khan University, Mardan, Pakistan. awadood@awkum.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaoyun",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Dongguan Songshan Lake Central Hospital, Dongguan, China. hxydg21@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Nov 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/18 11:43",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "41477115",
+      "41181146",
+      "41048810",
+      "39786519",
+      "39578293",
+      "39507821",
+      "38637900"
+    ],
+    "refs": [
+      "37449110",
+      "37313340",
+      "36735212",
+      "36374556",
+      "35909285",
+      "35831728",
+      "35337166",
+      "35036709",
+      "34463213",
+      "34242870",
+      "34170703",
+      "33855751",
+      "33603068",
+      "33435349",
+      "32702499",
+      "31480625",
+      "31088482",
+      "30206312",
+      "28256516",
+      "26863418",
+      "26308397",
+      "25386075",
+      "24058788",
+      "23948302",
+      "22842992",
+      "22587354",
+      "21360612",
+      "20308982",
+      "12647312",
+      "9671298"
+    ],
+    "similar": [
+      "37978263",
+      "26308397",
+      "34463213",
+      "37549730",
+      "36799050",
+      "35932508",
+      "29182053",
+      "36775656",
+      "30415122",
+      "32472293",
+      "28116998",
+      "36214962",
+      "31755336",
+      "29475408",
+      "33034255",
+      "37651861",
+      "32781071",
+      "28340400",
+      "33988074",
+      "32911607",
+      "36645141",
+      "31172362",
+      "39173004",
+      "31394858",
+      "39368576",
+      "36180796",
+      "30661449",
+      "33932608",
+      "36801630",
+      "29064326",
+      "35014597",
+      "35032738",
+      "38002295",
+      "31054542",
+      "37241785",
+      "34151738",
+      "30149308",
+      "28486912",
+      "34676801",
+      "29842849",
+      "36990409",
+      "34096457",
+      "37630311",
+      "25541527",
+      "39163297",
+      "29549805",
+      "34478925",
+      "34156395",
+      "36031629",
+      "38095360",
+      "35846777",
+      "34709133",
+      "33671607",
+      "33092204",
+      "30052133",
+      "32748738",
+      "30557817",
+      "28849732",
+      "32705954",
+      "29663870",
+      "37244149",
+      "37016200",
+      "35772327",
+      "33749545",
+      "38507844",
+      "29718775",
+      "36856058",
+      "35831728",
+      "28109130",
+      "36841313",
+      "33200682",
+      "28531373",
+      "34809533",
+      "35000060",
+      "27939874",
+      "31355691",
+      "34642975",
+      "23658661",
+      "31334690",
+      "31588870",
+      "36106982",
+      "31129879",
+      "27114700",
+      "34182904",
+      "37109481",
+      "25710482",
+      "29936228",
+      "37597062",
+      "26273199",
+      "36550239",
+      "27165479",
+      "30047845",
+      "35163234",
+      "27693947",
+      "38565703",
+      "36517066",
+      "30665156",
+      "29138965",
+      "25394401",
+      "35983603",
+      "35049884",
+      "29945500",
+      "33871074",
+      "33155526",
+      "31463793",
+      "36838758",
+      "35862656",
+      "24325852",
+      "36709441",
+      "38514638",
+      "38637900",
+      "31719769",
+      "38637835",
+      "38921571",
+      "38543123",
+      "37972144",
+      "36714108",
+      "38794114",
+      "35807344",
+      "39338272",
+      "38731447",
+      "39346877",
+      "37216319",
+      "38134358",
+      "39065785",
+      "38808724",
+      "39045333",
+      "33088323",
+      "35325303",
+      "38023173",
+      "38444388",
+      "38507171",
+      "36895324",
+      "39368144",
+      "34572383",
+      "38340912",
+      "35531003",
+      "38470555",
+      "36760267",
+      "32039312",
+      "39286329",
+      "31435158",
+      "39377533",
+      "37898257",
+      "39431081",
+      "37855953"
+    ],
+    "review": [
+      "37978263",
+      "36841313"
+    ],
+    "pmc": [
+      "10656421"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-46193-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37978263/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37978263",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

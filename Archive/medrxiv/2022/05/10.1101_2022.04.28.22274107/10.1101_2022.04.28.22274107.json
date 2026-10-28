@@ -1,0 +1,340 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.04.28.22274107",
+  "title": "Assessment of Alzheimer-related Pathologies of Dementia Using Machine Learning Feature Selection",
+  "doi": "10.1101/2022.04.28.22274107",
+  "abstract": "Although a variety of brain lesions may contribute to the pathological diagnosis of dementia, the relationship of these lesions to dementia, how they interact and how to quantify them remain uncertain. Systematically assessing neuropathological measures in relation to the cognitive and functional definitions of dementia may enable the development of better diagnostic systems and treatment targets. The objective of this study is to apply machine learning approaches for feature selection to identify key features of Alzheimer-related pathologies associated with dementia. We applied machine learning techniques for feature ranking and classification as an unbiased comparison of neuropathological features and assessment of their diagnostic performance using a cohort (n=186) from the Cognitive Function and Ageing Study (CFAS). Seven feature ranking methods using different information criteria consistently ranked 22 out of the 34 neuropathology features for importance to dementia classification. Braak neurofibrillary tangle stage, Beta-amyloid and cerebral amyloid angiopathy features were the most highly ranked, although were highly correlated with each other. The best performing dementia classifier using the top eight ranked neuropathology features achieved 79% sensitivity, 69% specificity, and 75% precision. A substantial proportion (40.4%) of dementia cases was consistently misclassified by all seven algorithms and any combination of the 22 ranked features. These results highlight the potential of using machine learning to identify key indices of plaque, tangle and cerebral amyloid angiopathy burdens that may be useful for the classification of dementia.",
+  "authors": [
+    "Rajab MD",
+    "Jammeh E",
+    "Taketa T",
+    "Brayne C",
+    "Matthews FE",
+    "Su L",
+    "Ince PG",
+    "Wharton SB",
+    "Wang D"
+  ],
+  "published_date": "2022-05-05",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.04.28.22274107",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.04.28.22274107.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR488724",
+    "raw_record": {
+      "id": "PPR488724",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR488724"
+        ]
+      },
+      "doi": "10.1101/2022.04.28.22274107",
+      "title": "Assessment of Alzheimer-related Pathologies of Dementia Using Machine Learning Feature Selection",
+      "authorString": "Rajab MD, Jammeh E, Taketa T, Brayne C, Matthews FE, Su L, Ince PG, Wharton SB, Wang D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rajab MD",
+            "lastName": "Rajab",
+            "firstName": "Mohammed",
+            "initials": "MD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7591-6203"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                },
+                {
+                  "affiliation": "Department of Computer Science, University of Sheffield, Sheffield, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jammeh E",
+            "lastName": "Jammeh",
+            "firstName": "Emmanuel",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3826-3212"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taketa T",
+            "lastName": "Taketa",
+            "firstName": "Teruka",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brayne C",
+            "lastName": "Brayne",
+            "firstName": "Carol",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5307-663X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Public Health, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Matthews FE",
+            "lastName": "Matthews",
+            "firstName": "Fiona",
+            "initials": "FE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1728-2388"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Population Health Sciences Institute; Newcastle University, Newcastle upon Tyne, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Su L",
+            "lastName": "Su",
+            "firstName": "Li",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6347-3986"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ince PG",
+            "lastName": "Ince",
+            "firstName": "Paul",
+            "initials": "PG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6677-8753"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wharton SB",
+            "lastName": "Wharton",
+            "firstName": "Stephen",
+            "initials": "SB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2785-333X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang D",
+            "lastName": "Wang",
+            "firstName": "Dennis",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0068-1005"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield, UK"
+                },
+                {
+                  "affiliation": "Department of Computer Science, University of Sheffield, Sheffield, UK"
+                },
+                {
+                  "affiliation": "Singapore Institute Clinical Sciences, A*STAR, Singapore, 117609, Singapore"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5307-663X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6677-8753"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1728-2388"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6347-3986"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7591-6203"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0068-1005"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2785-333X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3826-3212"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Although a variety of brain lesions may contribute to the pathological diagnosis of dementia, the relationship of these lesions to dementia, how they interact and how to quantify them remain uncertain. Systematically assessing neuropathological measures in relation to the cognitive and functional definitions of dementia may enable the development of better diagnostic systems and treatment targets. The objective of this study is to apply machine learning approaches for feature selection to identify key features of Alzheimer-related pathologies associated with dementia. We applied machine learning techniques for feature ranking and classification as an unbiased comparison of neuropathological features and assessment of their diagnostic performance using a cohort (n=186) from the Cognitive Function and Ageing Study (CFAS). Seven feature ranking methods using different information criteria consistently ranked 22 out of the 34 neuropathology features for importance to dementia classification. Braak neurofibrillary tangle stage, Beta-amyloid and cerebral amyloid angiopathy features were the most highly ranked, although were highly correlated with each other. The best performing dementia classifier using the top eight ranked neuropathology features achieved 79% sensitivity, 69% specificity, and 75% precision. A substantial proportion (40.4%) of dementia cases was consistently misclassified by all seven algorithms and any combination of the 22 ranked features. These results highlight the potential of using machine learning to identify key indices of plaque, tangle and cerebral amyloid angiopathy burdens that may be useful for the classification of dementia.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "AS-PG-14-015",
+            "orderIn": 0
+          },
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "AS-PG-17-007",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/05/05/2022.04.28.22274107.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.28.22274107"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR488724"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR488724&type=FILE&fileName=EMS144810-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36895019",
+            "reference": "Alzheimer's research & therapy. 2023 Mar;15(1):47",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS144810",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-06",
+      "firstPublicationDate": "2022-05-05",
+      "firstIndexDate": "2022-05-06",
+      "fullTextReceivedDate": "2022-05-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

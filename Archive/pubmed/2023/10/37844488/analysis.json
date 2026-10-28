@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37844488",
+  "title": "Combining pharmacokinetic and electrophysiological models for early prediction of drug-induced arrhythmogenicity.",
+  "authors": "Llopis-Lorente, Jordi; Baroudi, Samuel; Koloskoff, Kevin; Mora, Maria Teresa; Basset, Matthieu; Romero, Lucia; Benito, Sylvain; Dayan, Frederic; Saiz, Javier; Trenor, Beatriz",
+  "journal": "Computer methods and programs in biomedicine",
+  "published_date": "2023-10-17",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 0,
+  "one_liner_zh": "该文结合药代动力学与电生理模型预测药物致心律失常风险，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "BACKGROUND AND OBJECTIVE: In silico methods are gaining attention for predicting drug-induced Torsade de Pointes (TdP) in different stages of drug development. However, many computational models tended not to account for inter-individual response variability due to demographic covariates, such as sex, or physiologic covariates, such as renal function, which may be crucial when predicting TdP. This study aims to compare the effects of drugs in male and female populations with normal and impaired renal function using in silico methods. METHODS: Pharmacokinetic models considering sex and renal function as covariates were implemented from data published in pharmacokinetic studies. Drug effects were simulated using an electrophysiologically calibrated population of cellular models of 300 males and 300 females. The population of models was built by modifying the endocardial action potential model published by O'Hara et al. (2011) according to the experimentally measured gene expression levels of 12 ion channels. RESULTS: Fifteen pharmacokinetic models for CiPA drugs were implemented and validated in this study. Eight pharmacokinetic models included the effect of renal function and four the effect of sex. The mean difference in action potential duration (APD) between male and female populations was 24.9 ms (p<0.05). Our simulations indicated that women with impaired renal function were particularly susceptible to drug-induced arrhythmias, whereas healthy men were less prone to TdP. Differences between patient groups were more pronounced for high TdP-risk drugs. The proposed in silico tool also revealed that individuals with impaired renal function, electrophysiologically simulated with hyperkalemia (extracellular potassium concentration [K(+)](o) = 7 mM) exhibited less pronounced APD prolongation than individuals with normal potassium levels. The pharmacokinetic/electrophysiological framework was used to determine the maximum safe dose of dofetilide in different patient groups. As a proof of concept, 3D simulations were also run for dofetilide obtaining QT prolongation in accordance with previously reported clinical values. CONCLUSIONS: This study presents a novel methodology that combines pharmacokinetic and electrophysiological models to incorporate the effects of sex and renal function into in silico drug simulations and highlights their impact on TdP-risk assessment. Furthermore, it may also help inform maximum dose regimens that ensure TdP-related safety in a specific sub-population of patients.",
+  "abstract_zh": "背景与目的：在药物开发的不同阶段，计算机模拟方法正逐渐受到关注，用于预测药物诱导的尖端扭转型室性心动过速（TdP）。然而，许多计算模型往往未考虑因人口统计学协变量（如性别）或生理学协变量（如肾功能）导致的个体间反应变异性，而这些因素在预测TdP时可能至关重要。本研究旨在利用计算机模拟方法，比较药物在肾功能正常和受损的男性和女性群体中的效应。方法：基于药代动力学研究中发表的数据，实施了将性别和肾功能作为协变量的药代动力学模型。药物效应通过一个电生理校准的细胞模型群体进行模拟，该群体包含300名男性和300名女性。模型群体通过根据实验测量的12个离子通道基因表达水平，修改O'Hara等人（2011）发表的心内膜动作电位模型构建而成。结果：本研究实施并验证了十五个CiPA药物的药代动力学模型。其中八个药代动力学模型包含了肾功能的影响，四个包含了性别的影响。男性和女性群体之间动作电位时程（APD）的平均差异为24.9毫秒（p<0.05）。我们的模拟表明，肾功能受损的女性对药物诱导的心律失常特别敏感，而健康男性则较不易发生TdP。对于高TdP风险药物，患者群体之间的差异更为显著。所提出的计算机模拟工具还揭示，肾功能受损个体在电生理模拟中表现为高钾血症（细胞外钾浓度[K(+)]（o）= 7 mM）时，其APD延长程度低于钾水平正常的个体。药代动力学/电生理框架被用于确定不同患者群体中多非利特的最大安全剂量。作为概念验证，还对多非利特进行了三维模拟，获得的QT延长与先前报告的临床值一致。结论：本研究提出了一种新颖的方法，将药代动力学和电生理模型相结合，以将性别和肾功能的影响纳入计算机药物模拟中，并强调了它们对TdP风险评估的影响。此外，该方法还可能有助于确定最大剂量方案，以确保特定患者亚群中与TdP相关的安全性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37844488/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37844488/",
+  "paper_page_path": "papers/pubmed/37844488/index.html"
+}

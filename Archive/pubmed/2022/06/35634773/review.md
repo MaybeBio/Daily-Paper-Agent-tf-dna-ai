@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based solely on the provided text; no assessment of figures, tables, or supplementary data that were not supplied
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered N-terminal domain of the human androgen receptor (AR-NTD) adopts two dynamically distinct subregions (NR, residues 1–224; CR, residues 225–538), that these regions exhibit different topological dynamics as characterized by circuit topology (CT) analysis of coarse-grained molecular dynamics (MD) simulations, and that the identified conformations can engage in functionally relevant interactions with the ligand-binding domain (LBD), DNA-binding domain (DBD), and the inhibitor EPI-001, with implications for AR regulation and drug development.
+- **Visible evidence base** Methods descriptions for structure prediction (I-TASSER), MD simulation parameters (SIRAH coarse-grained force field, 5 μs, three replicates), molecular docking protocols (ClusPro, AutoDock), and CT analysis procedures; results narrative describing observed subregions, topological trajectories, lifetime distributions, and docking outcomes; references to figures and supplementary items that were not provided
+- **Missing materials affecting confidence** All figures (Figures 1–6), supplementary figures (Figures S1–S23), and supplementary tables; raw simulation trajectories; structural coordinates of predicted models; docking scores and cluster statistics; validation metrics for I-TASSER model; circular dichroism data referenced for model comparison; details of the custom Python code for CT analysis
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel application of circuit topology to the study of an intrinsically disordered protein domain, which is a conceptually interesting and potentially valuable contribution. The combination of MD simulation with topological analysis is creative and could offer new insights into disordered protein dynamics. However, the current text does not provide sufficient evidence to fully evaluate the central claims. Key quantitative results are described only qualitatively, the validation of the initial structural model is inadequately documented, and the docking studies appear to lack rigorous statistical treatment. The biological interpretations, while plausible, are largely speculative and not directly tested. The manuscript would benefit from clearer presentation of quantitative data, additional validation steps, and more cautious framing of the functional implications.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in nuclear receptor biology, androgen receptor function in prostate cancer and Kennedy's disease, and computational approaches to disordered protein dynamics. The methodological framework (dynamic circuit topology) may also appeal to computational biophysicists developing new tools for analyzing MD simulations of disordered systems.
+- **Major strengths** The conceptual framing of using topological descriptors to characterize disordered protein dynamics is innovative and addresses a genuine gap in the field. The study targets a biologically important and technically challenging system (AR-NTD) that is relevant to disease. The authors appropriately acknowledge the limitations of existing structural methods for disordered proteins and propose a complementary approach. The inclusion of multiple simulation replicates and the consideration of time-scale-dependent behavior demonstrate methodological awareness.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the I-TASSER model was "superior to conformations predicted by the AlphaFold and RosettaFold severs, based on confidence measures and comparative analysis with experimental data" (Results, first paragraph).
+  - **Evidence pointer** Results section, first paragraph; Figure S2 (not provided)
+  - **Concern** The basis for this claim is not adequately described in the text. The authors mention comparison with circular dichroism data but do not provide specific metrics, confidence scores, or a systematic comparison. Given that AlphaFold and RoseTTAFold are generally considered state-of-the-art for structure prediction, the assertion of superiority requires quantitative justification. The choice of starting structure is critical because all subsequent MD and CT analyses depend on it.
+  - **Why it matters** If the initial model is not appropriately validated, the entire downstream analysis may be biased by the starting conformation. The claim of superiority over AlphaFold and RoseTTAFold is strong and, if not properly supported, could undermine confidence in the study's foundation.
+  - **Resolution test** Provide a table or figure comparing model quality metrics (e.g., pLDDT scores, TM-scores, RMSD to known experimental structures or CD-derived secondary structure content) for I-TASSER, AlphaFold, and RoseTTAFold models. Clearly state the criteria used for selecting the I-TASSER model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "all three independent runs consistently led to the emergence of two disjoint regions in 3D within 2 μs of simulations" (Results, first subsection).
+  - **Evidence pointer** Results section, first subsection; Figures 1d, 1e, 1g (not provided)
+  - **Concern** The text does not provide quantitative criteria for defining "disjoint regions" or "emergence." No numerical thresholds for spatial separation, contact density, or dynamic stability are given. The claim of consistency across runs is not supported by quantitative data such as inter-run variability, clustering metrics, or statistical tests.
+  - **Why it matters** The identification of NR and CR as distinct subregions is a central finding. Without clear operational definitions and quantitative evidence, the claim is difficult to evaluate or reproduce. The biological interpretation depends on the robustness of this subdivision.
+  - **Resolution test** Define explicit criteria for subregion identification (e.g., based on contact maps, RMSF profiles, or solvent accessibility thresholds). Provide quantitative measures of reproducibility across the three runs, such as standard deviations of key metrics or overlap coefficients of identified regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors describe a "directional topological evolution" for CR, characterized by a trajectory from series-rich to cross-rich configurations (Results, second subsection).
+  - **Evidence pointer** Results section, second subsection; Figure S9 (not provided)
+  - **Concern** The concept of "directionality" in topological space is not rigorously defined. The text describes visual patterns in the S/P/X triangular space but does not provide quantitative measures of directionality, such as vector analysis, principal component analysis, or statistical comparison of trajectory distributions. The claim that the trajectory is "narrow" and "directional" versus "random" is not supported by statistical testing.
+  - **Why it matters** The central methodological contribution is the use of CT to reveal non-random topological dynamics. Without quantitative evidence of directionality, the claim that the approach reveals meaningful biological information is weakened.
+  - **Resolution test** Provide quantitative descriptors of the topological trajectories (e.g., mean displacement in S/P/X space, angular dispersion, comparison to a null model of random topological fluctuations). Include statistical tests comparing observed trajectories to appropriate controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that docking studies reveal "striking resemblance" between their modeled NTD-LBD complex and the cryo-EM structure of full-length AR (Results, fourth subsection).
+  - **Evidence pointer** Results section, fourth subsection; Figure S21 (not provided)
+  - **Concern** The text does not provide quantitative measures of similarity (e.g., RMSD, interface overlap, contact similarity scores) between the docking pose and the cryo-EM structure. The term "striking resemblance" is subjective and not supported by numerical data in the text.
+  - **Why it matters** The agreement with experimental cryo-EM data is a key validation of the computational model. Without quantitative comparison, the claim of agreement is not verifiable.
+  - **Resolution test** Provide quantitative comparison metrics between the best docking pose and the cryo-EM structure, such as interface RMSD, fraction of conserved contacts, or shape complementarity scores. Clearly state the criteria for "resemblance."
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "more than 90% of the interacting residues are located in the Tau-5 region" for the EPI-001 binding mode (Results, fifth subsection).
+  - **Evidence pointer** Results section, fifth subsection; Figure 5 (not provided)
+  - **Concern** The text does not specify how "interacting residues" are defined (e.g., distance cutoff, energy contribution, contact persistence). The percentage is stated without supporting data or error estimates. The comparison with NMR data is qualitative and does not account for differences in construct length or experimental conditions.
+  - **Why it matters** The identification of the EPI-001 binding site is a potentially important finding for drug development. The claim needs to be supported by clear definitions and quantitative data to be credible.
+  - **Resolution test** Define the criteria for interacting residues. Provide a table listing the specific residues involved in the binding mode, their distances, and the percentage calculation. Include a discussion of how the docking result compares quantitatively with the NMR-derived binding site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods, Circuit topology analysis
+  - **Evidence pointer** Methods section, "Circuit topology analysis"
+  - **Issue** The description of the custom Python code is insufficient for reproducibility. The text states that the code was "modified for energy, length filtering, and circuit decomposition" but does not provide details on the modifications, the specific algorithms used, or how the code can be accessed.
+  - **Required correction** Provide a detailed description of the CT analysis algorithm, including the definitions of contacts, the filtering criteria, and the method for computing S, P, and X fractions. Make the code available in a public repository and cite the original CT methodology papers more explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, first subsection
+  - **Evidence pointer** Results section, first subsection
+  - **Issue** The text states that the AR-NTD "folds into two disjoint highly dynamic regions" but the term "folds" is potentially misleading for an intrinsically disordered protein. The authors later clarify that these are dynamic subregions, but the initial phrasing could confuse readers.
+  - **Required correction** Rephrase the subsection title and initial description to emphasize that these are dynamically distinct subregions within a disordered ensemble, not folded domains in the traditional sense.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, fourth subsection
+  - **Evidence pointer** Results section, fourth subsection
+  - **Issue** The text mentions "a total of 600 poses" from docking but does not describe how these poses were generated, ranked, or filtered. The docking methodology is described only briefly in the Methods section.
+  - **Required correction** Provide more detail on the docking protocol, including the number of poses generated per cluster, the scoring function used, and the criteria for selecting representative poses for analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion section
+  - **Issue** The conclusion states that the study "sets the stage for future investigations" and "provides a workflow for analysis of other NHRs." While this is appropriate, the text also implies that the identified topological features have direct functional relevance without acknowledging the speculative nature of these interpretations.
+  - **Required correction** Add a sentence explicitly stating that the functional implications are hypotheses generated from computational analysis and require experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (subregion definition and reproducibility), R1-M3 (directionality quantification), R1-M4 (docking validation), R1-M5 (binding site definition)
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of circuit topology to intrinsically disordered proteins is novel and represents a creative methodological contribution. The concept of dynamic topological analysis is not widely explored in the field.
+  - Scientific importance: The AR-NTD is a biologically significant target, and understanding its conformational dynamics could have implications for prostate cancer and Kennedy's disease. However, the current study is primarily computational and the direct biological relevance is not experimentally demonstrated.
+  - Interdisciplinary readership: The work bridges computational biophysics, structural biology, and cancer biology, which could appeal to a broad audience. However, the technical nature of the CT analysis may limit accessibility to non-specialists.
+  - Technical soundness: The study has significant technical weaknesses as detailed in the major concerns. The lack of quantitative validation and clear operational definitions undermines the robustness of the conclusions.
+  - Readability for nonspecialists: The manuscript is generally well-written and the conceptual framework is explained clearly. However, the results section relies heavily on visual descriptions of figures that were not provided, making it difficult to follow the arguments without access to the figures.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the study addresses an important problem, but the technical concerns regarding model validation, quantitative rigor, and docking methodology must be resolved before the central claims can be accepted. The authors should provide quantitative data, clear operational definitions, and more rigorous statistical analysis to support their conclusions.
+
+## Risk / unsupported claims
+- The claim that the I-TASSER model is superior to AlphaFold and RoseTTAFold models is unsupported without quantitative comparison data.
+- The claim that NR and CR are "disjoint" regions is not supported by quantitative criteria or statistical evidence.
+- The claim of "directional topological evolution" is not supported by quantitative measures of directionality.
+- The claim of "striking resemblance" between the modeled NTD-LBD complex and cryo-EM data is not supported by quantitative comparison metrics.
+- The claim that "more than 90% of the interacting residues are located in the Tau-5 region" for EPI-001 binding is not supported by a clear definition of interacting residues or quantitative data.
+- The biological implications regarding regulation of DNA binding and drug action are speculative and not directly tested in this study.
+- The statement that the observed topological features are "AR-NTD specific" based on comparison with polyQ and polyA models is not fully supported, as the text does not provide quantitative comparisons of the control models' behavior.

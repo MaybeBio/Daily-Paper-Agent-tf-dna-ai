@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "41050338",
+    "doi": "10.1016/j.jobcr.2025.09.015",
+    "title": "Quantum graph embedding of transcription factor-gene networks reveals key modules in periodontal bone inflammation: Comparative analysis of GAE and GAN."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Complex regulatory networks controlled by transcription factor (TF)-gene interactions are involved in inflammatory bone diseases, such as periodontitis. Understanding these networks is crucial for identifying master regulators and potential treatment targets. Current models frequently use correlation-based or black-box machine learning techniques, which are not structurally accurate or biologically interpretable. Moreover, most frameworks do not utilize the representational power of quantum-derived data features. This study overcomes these constraints by combining quantum-enhanced graph neural networks to decode TF-gene regulatory networks implicated in periodontal bone inflammation. METHODS: We constructed a directed transcription factor (TF)- gene regulatory network using 1207 carefully selected interactions from the TRRUST v2 human database, which encompassed 231 transcription factors and 536 target genes. One-hot encoded node features were used to train the Graph Autoencoder (GAE) and Graph Generative Adversarial Network (Graph GAN) architectures. We applied quantum data feature extraction to enhance node representation using variational quantum circuits constructed in PennyLane, where classical embeddings were encoded into qubit rotations and entangled states. New quantum features were created by measuring the expectation values of Pauli-Z operators. Distribution divergence measures (KL, JS, Wasserstein, MMD), embedding quality metrics (silhouette score, centrality correlation), and link prediction metrics (AUC, Average Precision) were used to assess performance. RESULTS: On every metric, GAE performed noticeably better than Graph GAN. It performed better in clustering (silhouette score = 0.272 vs. 0.107 for GAN) and link prediction accuracy (AUC = 0.997, AP = 0.994). While GAN embeddings displayed little structural alignment, GAE-generated embeddings strongly correlated with network centrality measures, emphasizing biological interpretability. Quantum-enhanced features revealed distinct regulatory modules associated with inflammation and bone resorption pathways, and they maintained the network topology more effectively. We found central regulators with high embedding scores, including NF-kappaB and STAT3. Distributional analyses validated the fundamental differences between GAE and GAN embeddings with a symmetric KL divergence of 6.76 and a Jensen-Shannon distance of 0.47. CONCLUSION: Our results demonstrate that Graph Autoencoders provide a reliable and comprehensible framework for simulating TF-gene regulatory networks, particularly when combined with quantum-derived feature extraction. The GAE is ideally suited to elucidating the molecular underpinnings of periodontal bone inflammation due to its ability to maintain biological structure, pinpoint important regulatory hubs, and enhance downstream analyses, such as clustering. This method enables the prioritization of periodontitis regulatory targets for upcoming treatment advancements. This integrated computational approach lays the foundation for more biologically based and quantum-aware modelling of intricate regulatory systems in inflammation-related diseases.",
+    "keywords": [
+      "Auto encoders",
+      "Bone",
+      "Periodontitis",
+      "Quantum machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yadalam, Pradeep Kumar"
+      ],
+      "short_names": [
+        "Yadalam PK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Periodontics, Saveetha Dental College and Hospitals, Saveetha Institute of Medical and Technical Sciences, Saveetha University, Chennai, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yadalam, Pradeep Kumar",
+        "short_name": "Yadalam PK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontics, Saveetha Dental College and Hospitals, Saveetha Institute of Medical and Technical Sciences, Saveetha University, Chennai, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of oral biology and craniofacial research"
+    ],
+    "journal_abbrev": [
+      "J Oral Biol Craniofac Res"
+    ],
+    "pub_date": "2025 Nov-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/06 12:31",
+    "fetched_at": "2026-10-01 03:38:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39161769",
+      "38622356",
+      "38338932",
+      "38325924",
+      "38111007",
+      "38056378",
+      "37978418",
+      "37834287",
+      "37703293",
+      "37697911",
+      "37494154",
+      "37323664",
+      "37147619",
+      "37078739",
+      "37027645",
+      "36832654",
+      "36700110",
+      "36462892",
+      "35513780",
+      "35184846",
+      "35179571",
+      "34718408",
+      "34512733",
+      "34504537",
+      "34169645",
+      "33070184",
+      "32648061",
+      "28905917",
+      "27069730",
+      "20809528",
+      "19336858"
+    ],
+    "similar": [
+      "41050338",
+      "39896009",
+      "40902506",
+      "33817007",
+      "41214806",
+      "35816860",
+      "33126246",
+      "38194405",
+      "37807013",
+      "39078069",
+      "34004494",
+      "35511108",
+      "36334533",
+      "38189544",
+      "41206950",
+      "38790434",
+      "39704704",
+      "35537219",
+      "34706640",
+      "38300769",
+      "34084929",
+      "39776277",
+      "34718408",
+      "37731739",
+      "33332264",
+      "40887198",
+      "40641005",
+      "35333721",
+      "40251476",
+      "32750854",
+      "40635002",
+      "39717398",
+      "36037084",
+      "33294129",
+      "41139924",
+      "40400111",
+      "39372928",
+      "35878483",
+      "37448360",
+      "40785363",
+      "41480557",
+      "38530724",
+      "38363864",
+      "40149228",
+      "32693790",
+      "40654959",
+      "39604417",
+      "32798654",
+      "40073281",
+      "32970681",
+      "33493121",
+      "34139655",
+      "36064320",
+      "38269610",
+      "35810557",
+      "37364470",
+      "31484146",
+      "39528423",
+      "39149355",
+      "40395688",
+      "36792041",
+      "40120550",
+      "35428173",
+      "41199760",
+      "35714256",
+      "37695793",
+      "35328027",
+      "38451769",
+      "40683981",
+      "38877401",
+      "39256197",
+      "37171372",
+      "34479477",
+      "36945484",
+      "40276024",
+      "36832623",
+      "36037449",
+      "39995744",
+      "40415678",
+      "40184850",
+      "35066446",
+      "37190356",
+      "38354497",
+      "37738898",
+      "36532945",
+      "30844478",
+      "34152393",
+      "38070456",
+      "35174275",
+      "39798350",
+      "40252145",
+      "40540756",
+      "38115088",
+      "39475566",
+      "33808317",
+      "33052851",
+      "41042297",
+      "35280342",
+      "39266676",
+      "38844961"
+    ],
+    "review": [
+      "41050338"
+    ],
+    "pmc": [
+      "12494802"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212-4268(25)00226-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41050338/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2212-4268(25)00226-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

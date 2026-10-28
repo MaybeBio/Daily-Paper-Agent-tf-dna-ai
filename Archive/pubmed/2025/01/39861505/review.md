@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report a genome-wide identification and characterization of 15 PLATZ transcription factors in rice, including phylogenetic analysis across 16 photosynthetic species, conserved motif and cis-element analysis, protein structure prediction via AlphaFold3, expression profiling, and functional analysis of OsPLATZ1 mutants showing defective endosperm development and reduced grain size.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.8), Discussion, Conclusions, Materials and Methods (Sections 4.1–4.8), Figures 1–9 referenced, Supplementary Tables S1–S6 and Figures S1–S5 referenced
+- **Missing materials affecting confidence** Figures and supplementary materials not provided; raw data for qRT-PCR, RNA-seq, and phenotypic measurements not available; statistical details for phenotypic comparisons not shown; docking methodology for protein–DNA interaction not fully described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive bioinformatic analysis of the PLATZ transcription factor family in rice, combined with a targeted functional study of OsPLATZ1. The genome-wide identification and evolutionary analyses are generally sound and follow established protocols. However, the functional characterization of OsPLATZ1 is limited in depth, and several claims regarding evolutionary interpretations and structural predictions require more rigorous support. The manuscript would benefit from additional experimental validation and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers studying plant transcription factor families, particularly those interested in seed and endosperm development in cereal crops. The evolutionary analysis across photosynthetic organisms may interest comparative genomics researchers. The functional data on OsPLATZ1 could inform crop improvement strategies targeting grain quality and yield.
+- **Major strengths** 1) Systematic genome-wide identification of PLATZ family members across a broad evolutionary range of photosynthetic species. 2) Integration of multiple bioinformatic approaches including phylogenetics, motif analysis, cis-element prediction, and protein structure prediction. 3) Experimental validation of subcellular localization for selected members. 4) Generation of CRISPR-Cas9 knockout lines for OsPLATZ1 with observable phenotypic effects on endosperm chalkiness and grain dimensions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for functional claims
+  - **Claim pointer** The authors claim that OsPLATZ1 "regulates grain filling and caryopsis development" based on knockout mutant phenotypes.
+  - **Evidence pointer** Section 2.8, Figure 9
+  - **Concern** The phenotypic analysis of osplatz1 mutants is presented qualitatively. No quantitative data on grain weight, grain filling rate, or endosperm cell morphology are provided. The chalkiness phenotype is described but not quantified. The statistical significance of differences in grain dimensions is not reported. Without quantitative phenotypic characterization, the claim that OsPLATZ1 regulates grain filling is not adequately supported.
+  - **Why it matters** The central functional claim of the manuscript rests on the mutant phenotype. If the phenotype is not rigorously quantified, the conclusion that OsPLATZ1 plays a regulatory role in grain filling cannot be established. This is particularly important given that a previous study (reference 20) already reported OsFl3/OsPLATZ1 function, and the present work should provide additional or confirmatory quantitative evidence.
+  - **Resolution test** Provide quantitative measurements of grain weight, dimensions, and chalkiness area from at least two independent knockout lines compared to wild-type, with appropriate statistical tests. Ideally, complementation or rescue experiments should be performed to confirm that the phenotype is caused by the OsPLATZ1 mutation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for evolutionary interpretations
+  - **Claim pointer** The authors state that clade V (AP group) is "a unique branch of angiosperms" and that its emergence "may be crucial for the growth and development of angiosperms."
+  - **Evidence pointer** Section 2.1, Figure 1B
+  - **Concern** The phylogenetic analysis includes only 16 species, with a limited representation of angiosperm diversity (three monocots and three eudicots). The claim that clade V is unique to angiosperms is based on absence in the sampled non-angiosperm species, which is insufficient to establish exclusivity. Furthermore, the statement that this clade "may be crucial" for angiosperm development is speculative and not supported by functional data.
+  - **Why it matters** Overinterpretation of phylogenetic patterns can mislead the field regarding evolutionary significance. The claim of a unique angiosperm-specific clade requires broader taxonomic sampling and ideally functional evidence linking this clade to angiosperm-specific traits.
+  - **Resolution test** Expand the phylogenetic analysis to include a larger and more diverse set of angiosperm and non-angiosperm species. Alternatively, temper the language to reflect that clade V was only observed in the sampled angiosperms. Provide functional data linking clade V members to angiosperm-specific developmental processes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology for protein–DNA interaction prediction
+  - **Claim pointer** The authors state that "through protein–DNA docking analysis, we found that all proteins except for OsPLATZ15 could successfully bind to DNA fragments with A/T rich sequences."
+  - **Evidence pointer** Section 2.5, Figure 6B, Section 4.5
+  - **Concern** The methodology for protein–DNA docking is described only briefly. It is unclear what docking software was used, what scoring function determined "successful" binding, and whether the predicted interactions were validated experimentally. The claim that OsPLATZ15 cannot bind DNA is a strong negative result that requires robust computational and ideally experimental support.
+  - **Why it matters** The structural predictions form a key part of the manuscript's contribution. If the docking methodology is not rigorously described or validated, the conclusions about DNA-binding capabilities of the different OsPLATZ proteins are not reliable.
+  - **Resolution test** Provide detailed parameters for the docking analysis, including software version, scoring criteria, and thresholds for positive binding. Ideally, validate predictions for at least a subset of proteins using experimental methods such as electrophoretic mobility shift assays (EMSA) or yeast one-hybrid assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Consistency of expression data
+  - **Claim pointer** The authors state that "the relative quantification of OsPLATZs by qRT-PCR was similar to the RNA-seq expression profile" but then note that "the quantitative results were inconsistent with the expression profile of transcriptome sequencing."
+  - **Evidence pointer** Section 2.6, Figure 7
+  - **Concern** These two statements are contradictory. If the qRT-PCR results were inconsistent with the RNA-seq data, the validation of expression patterns is compromised. The authors do not explain which genes were inconsistent, to what degree, or how this discrepancy was resolved.
+  - **Why it matters** Expression data are used to identify candidate genes for functional studies. If the two methods disagree, the reliability of the expression-based conclusions is questionable, and the basis for selecting OsPLATZ1 for functional analysis is weakened.
+  - **Resolution test** Clarify the degree of concordance between qRT-PCR and RNA-seq data. Provide correlation statistics. If discrepancies exist, discuss potential sources (e.g., developmental stage differences, tissue sampling) and justify the conclusions drawn from the expression data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Figure 1A, Figure 1B
+  - **Issue** The text states "Figure 1A" for species selection and "Figure 1B" for the phylogenetic tree, but the figure itself is not provided for review. The description of the species tree and the PLATZ tree should be clearly separated in the figure legend.
+  - **Required correction** Ensure the figure legend clearly distinguishes panel A (species tree) from panel B (PLATZ gene tree) and that all species abbreviations are defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.8
+  - **Evidence pointer** Figure 9C–E
+  - **Issue** The chalky caryopsis percentages are reported as single values without error bars or statistical comparison. Grain dimension data are described as "obviously decreased" without statistical support.
+  - **Required correction** Provide mean ± SD or SEM, number of biological replicates, and statistical test results (e.g., Student's t-test or ANOVA) for all quantitative phenotypic measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reference to previous work
+  - **Affected element** Section 2.8, Discussion
+  - **Evidence pointer** Reference 20
+  - **Issue** The authors note that OsPLATZ1 function was "reported previously" but do not clearly state what novel information their mutant analysis adds beyond the previous study.
+  - **Required correction** Explicitly state how the present results extend or confirm the previous findings, or acknowledge the confirmatory nature of the work.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Section 2.1
+  - **Issue** The term "plant-specific" is used to describe PLATZ proteins, but the analysis includes red algae, which are not plants in the strict sense. The term "photosynthetic organisms" is used elsewhere, creating inconsistency.
+  - **Required correction** Use consistent terminology throughout, either "plant-specific" with a clear definition of what is included, or "photosynthetic organism-specific" where appropriate.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Supplementary data accessibility
+  - **Affected element** Tables S1–S6, Figures S1–S5
+  - **Evidence pointer** Multiple sections
+  - **Issue** Supplementary materials are referenced but not provided for review. Key data such as primer sequences, motif details, and gene lists are in supplementary tables.
+  - **Required correction** Ensure all supplementary materials are available and clearly formatted for readers.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative phenotypic data for osplatz1 mutants (R1-M1). 2) Contradictory statements regarding qRT-PCR and RNA-seq concordance (R1-M4). 3) Insufficient methodological detail for protein–DNA docking predictions (R1-M3). 4) Overinterpretation of phylogenetic exclusivity with limited taxon sampling (R1-M2).
+- **Assessment against Nature-style criteria** Originality: The genome-wide analysis of PLATZ transcription factors in rice is not entirely novel, as PLATZ families have been characterized in other species, and OsPLATZ1/OsFl3 function was previously reported. The multi-species phylogenetic analysis adds some new perspective but is incremental. Scientific importance: The functional characterization of OsPLATZ1 in grain filling has potential agronomic relevance, but the depth of functional analysis is limited. The bioinformatic findings are of moderate interest to the plant transcription factor community. Interdisciplinary readership: The manuscript is primarily of interest to plant molecular biologists and crop scientists. The evolutionary analysis may attract comparative genomics researchers, but the overall scope is narrow. Technical soundness: The bioinformatic methods are standard and generally appropriate. However, the protein–DNA docking methodology lacks detail, and the phenotypic analysis is not quantitatively rigorous. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with bioinformatic terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a reasonable genome-wide analysis and identifies OsPLATZ1 as important for endosperm development, but the functional claims require quantitative support and the methodological details for structural predictions need clarification. The evolutionary interpretations should be tempered or supported with broader sampling.

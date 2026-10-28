@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36226916",
+  "title": "Deep mutational scanning and machine learning reveal structural and molecular rules governing allosteric hotspots in homologous proteins.",
+  "authors": "Leander, Megan; Liu, Zhuang; Cui, Qiang; Raman, Srivatsan",
+  "journal": "eLife",
+  "published_date": "2022-10-14",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文对细菌变构转录因子进行深度突变扫描并结合机器学习识别变构热点，虽涉及转录因子但聚焦变构信号而非TF-DNA结合互作，方法可迁移至TF-DNA界面建模。",
+  "abstract": "A fundamental question in protein science is where allosteric hotspots - residues critical for allosteric signaling - are located, and what properties differentiate them. We carried out deep mutational scanning (DMS) of four homologous bacterial allosteric transcription factors (aTFs) to identify hotspots and built a machine learning model with this data to glean the structural and molecular properties of allosteric hotspots. We found hotspots to be distributed protein-wide rather than being restricted to 'pathways' linking allosteric and active sites as is commonly assumed. Despite structural homology, the location of hotspots was not superimposable across the aTFs. However, common signatures emerged when comparing hotspots coincident with long-range interactions, suggesting that the allosteric mechanism is conserved among the homologs despite differences in molecular details. Machine learning with our large DMS datasets revealed global structural and dynamic properties to be a strong predictor of whether a residue is a hotspot than local and physicochemical properties. Furthermore, a model trained on one protein can predict hotspots in a homolog. In summary, the overall allosteric mechanism is embedded in the structural fold of the aTF family, but the finer, molecular details are sequence-specific.",
+  "abstract_zh": "蛋白质科学中的一个基本问题是别构热点（allosteric hotspots）——即对别构信号传导至关重要的残基——位于何处，以及哪些特性将它们区分开来。我们对四种同源细菌别构转录因子（aTFs）进行了深度突变扫描（deep mutational scanning, DMS）以识别热点，并利用这些数据构建了机器学习模型，以揭示别构热点的结构和分子特性。我们发现热点分布在整个蛋白质中，而非如通常假设的那样局限于连接别构位点和活性位点的“通路”。尽管存在结构同源性，但热点的位置在aTFs之间并不重叠。然而，当比较与长程相互作用重合的热点时，出现了共同特征，这表明尽管分子细节不同，别构机制在同源物中是保守的。利用我们的大型DMS数据集进行机器学习揭示，全局结构和动态特性比局部及物理化学特性更能强有力地预测残基是否为热点。此外，针对一种蛋白质训练的模型可以预测同源物中的热点。总之，整体别构机制嵌入在aTF家族的结构折叠中，但更精细的分子细节是序列特异性的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36226916/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36226916/",
+  "paper_page_path": "papers/pubmed/36226916/index.html"
+}

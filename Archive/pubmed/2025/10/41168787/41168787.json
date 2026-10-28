@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "41168787",
+    "doi": "10.1186/s12920-025-02245-x",
+    "title": "The role of TEAD4 gene in the Hippo signaling pathway in triple-negative breast cancer and targeted therapy strategies."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triple-negative breast cancer (TNBC) is an aggressive subtype with poor prognosis and limited targeted therapies. The Hippo signaling pathway, critical in tumor progression, may harbor key genes influencing TNBC behavior. However, the specific genes and their clinical significance remain unclear. METHODS: We analyzed the GSE45827 dataset from the GEO database using differential gene expression analysis (DEG) and weighted gene co-expression network analysis (WGCNA) to identify TNBC-related genes. We enriched Hippo pathway-related genes from the MsigDB database and literature to identify candidate genes (HRGs) that may affect TNBC progression. The Boruta algorithm further screened for core genes, which were validated by immunohistochemistry in TNBC and other breast cancer tissues. Finally, we explored the biological and pharmacological significance of the target through drug prediction, molecular docking, molecular dynamics simulations, and in vitro experiments. RESULTS: DEG analysis identified 2,888 differentially expressed genes, and WGCNA yielded 276 TNBC-associated genes. Intersection analysis with 70 hypoxia-related genes (HRGs) revealed four key genes: TEAD4, WWTR1, AREG, and SOX11. TEAD4 was confirmed as the central gene influencing TNBC progression. Immunohistochemical results showed strong TEAD4 expression in TNBC tissues, with negligible expression in adjacent normal tissues or other breast cancer subtypes. Drug prediction and molecular docking identified irinotecan as a potential TEAD4-targeting agent. Molecular dynamics simulations confirmed the stable binding and favorable dynamics of the irinotecan-TEAD4 complex. Both TEAD4 knockdown and irinotecan treatment significantly suppressed TNBC cell migration and invasion. The combination of TEAD4 knockout and irinotecan produced a more pronounced inhibitory effect, underscoring the therapeutic potential of targeting TEAD4 in TNBC. CONCLUSIONS: Through comprehensive analysis, we identified TEAD4 as a key gene in TNBC with high expression specificity. Irinotecan may be a potential targeted drug for TEAD4, offering a new therapeutic strategy for TNBC and potentially improving patient outcomes. Further experimental verification is required.",
+    "keywords": [
+      "Hippo signaling pathway",
+      "Irinotecan",
+      "TEAD4",
+      "Targeted therapy",
+      "Triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/genetics/metabolism/pathology/drug therapy",
+      "TEA Domain Transcription Factors",
+      "*Transcription Factors/genetics/metabolism/chemistry",
+      "Hippo Signaling Pathway",
+      "*Muscle Proteins/genetics/metabolism/chemistry",
+      "Female",
+      "*DNA-Binding Proteins/genetics/metabolism/chemistry",
+      "*Signal Transduction/drug effects",
+      "Cell Line, Tumor",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Molecular Targeted Therapy",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xueliang",
+        "Wang, Tao",
+        "Lian, Xiaowen",
+        "Wei, Changsheng",
+        "Yan, Dong",
+        "Liang, Yan"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Wang T",
+        "Lian X",
+        "Wei C",
+        "Yan D",
+        "Liang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China.",
+        "Department of Medical Oncology, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China.",
+        "Centre for Translational Medicine, Gansu Provincial Academic Institute for Medical Research, Lanzhou, 730050, China.",
+        "Department of Medicine Biotechnology, Gansu Provincial Academic Institute for Medical Research, Lanzhou, 730050, China.",
+        "Department of Breast Surgery, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China.",
+        "Department of Breast Surgery, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China.",
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China.",
+        "Department of Medical Oncology, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China.",
+        "Department of Breast Surgery, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China. yanliangGSZL@163.com.",
+        "Department of Breast Surgery, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China. yanliangGSZL@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xueliang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China.",
+          "Department of Medical Oncology, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Translational Medicine, Gansu Provincial Academic Institute for Medical Research, Lanzhou, 730050, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Xiaowen",
+        "short_name": "Lian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine Biotechnology, Gansu Provincial Academic Institute for Medical Research, Lanzhou, 730050, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Changsheng",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China.",
+          "Department of Breast Surgery, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Dong",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China.",
+          "Department of Medical Oncology, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yan",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Sun Yat-sen University Cancer Center Gansu Hospital, Lanzhou, 730050, China. yanliangGSZL@163.com.",
+          "Department of Breast Surgery, Gansu Provincial Cancer Hospital, Lanzhou, 730050, China. yanliangGSZL@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Med Genomics"
+    ],
+    "pub_date": "2025 Oct 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/31 06:26",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "42613601"
+    ],
+    "refs": [
+      "40804615",
+      "40755363",
+      "40353692",
+      "40165324",
+      "39994475",
+      "39674628",
+      "39352042",
+      "39342122",
+      "39187525",
+      "39035099",
+      "38981022",
+      "38347143",
+      "38230766",
+      "37607916",
+      "36911691",
+      "36757143",
+      "36038913",
+      "35623167",
+      "35524271",
+      "35408504",
+      "35182721",
+      "33692845",
+      "33658690",
+      "32526202",
+      "32101663",
+      "30459528",
+      "30059232",
+      "26771021",
+      "25990557",
+      "25970772"
+    ],
+    "similar": [
+      "41168787",
+      "33939216",
+      "25970772",
+      "41135854",
+      "40439084",
+      "39342122",
+      "39774151",
+      "39108110",
+      "39327614",
+      "40649713",
+      "24325916",
+      "41098715",
+      "29367737",
+      "41016300",
+      "33517828",
+      "38763012",
+      "33307962",
+      "40217291",
+      "41118450",
+      "31289134",
+      "35581606",
+      "35504321",
+      "39035099",
+      "41482351",
+      "40169394",
+      "40393105",
+      "39617209",
+      "40420099",
+      "33650093",
+      "39304594",
+      "28368398",
+      "39843552",
+      "20123908",
+      "34396425",
+      "37393829",
+      "30957988",
+      "38594215",
+      "41209020",
+      "29667772",
+      "40214821",
+      "40438115",
+      "38789684",
+      "41451212",
+      "39232805",
+      "27291620",
+      "26387538",
+      "24670641",
+      "30736840",
+      "29417298",
+      "39177727",
+      "41299328",
+      "39460738",
+      "29510988",
+      "41172918",
+      "38702967",
+      "28054302",
+      "37069669",
+      "38522513",
+      "35180863",
+      "40037472",
+      "34053447",
+      "38856849",
+      "29288363",
+      "38809637",
+      "28051067",
+      "33648498",
+      "37187035",
+      "39103676",
+      "25837326",
+      "41413590",
+      "39206896",
+      "40849803",
+      "40604951",
+      "41455878",
+      "40362184",
+      "34003522",
+      "19289085",
+      "39834541",
+      "24188694",
+      "32800942",
+      "29126392",
+      "30209132",
+      "32669432",
+      "28759040",
+      "40819058",
+      "39689602",
+      "40635078",
+      "38866293",
+      "30092563",
+      "39556022",
+      "40627035",
+      "35700449",
+      "40361105",
+      "40174587",
+      "30651219",
+      "41132646",
+      "40133967",
+      "27144834",
+      "35655319",
+      "40782436"
+    ],
+    "review": [
+      "41168787",
+      "29417298",
+      "35655319"
+    ],
+    "pmc": [
+      "12573850"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-025-02245-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41168787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41168787",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

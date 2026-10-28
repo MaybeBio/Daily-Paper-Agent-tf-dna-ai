@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2306.15912v1",
+  "title": "Protein-DNA binding sites prediction based on pre-trained protein language model and contrastive learning",
+  "doi": "",
+  "abstract": "Protein-DNA interaction is critical for life activities such as replication, transcription, and splicing. Identifying protein-DNA binding residues is essential for modeling their interaction and downstream studies. However, developing accurate and efficient computational methods for this task remains challenging. Improvements in this area have the potential to drive novel applications in biotechnology and drug design. In this study, we propose a novel approach called CLAPE, which combines a pre-trained protein language model and the contrastive learning method to predict DNA binding residues. We trained the CLAPE-DB model on the protein-DNA binding sites dataset and evaluated the model performance and generalization ability through various experiments. The results showed that the AUC values of the CLAPE-DB model on the two benchmark datasets reached 0.871 and 0.881, respectively, indicating superior performance compared to other existing models. CLAPE-DB showed better generalization ability and was specific to DNA-binding sites. In addition, we trained CLAPE on different protein-ligand binding sites datasets, demonstrating that CLAPE is a general framework for binding sites prediction. To facilitate the scientific community, the benchmark datasets and codes are freely available at https://github.com/YAndrewL/clape.",
+  "authors": [
+    "Yufan Liu",
+    "Boxue Tian"
+  ],
+  "published_date": "2023-06-28T04:27:27Z",
+  "updated_date": "2023-06-28T04:27:27Z",
+  "journal": "",
+  "category": "q-bio.BM, q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2306.15912v1",
+  "pdf_url": "https://arxiv.org/pdf/2306.15912v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.BM",
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2306.15912v1",
+    "raw_categories": [
+      "q-bio.BM",
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "42583273",
+    "doi": "10.2147/JIR.S620148",
+    "title": "Identification and Experimental Validation of Key Biomarkers for Rheumatoid Arthritis Based on Bioinformatics Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Rheumatoid arthritis (RA) is a chronic autoimmune joint disease driven by dysregulated immune cells and transcription factors. Despite known molecular alterations, systematic screening of key biomarkers and their link to the immune microenvironment remains lacking, particularly regarding extensive multi-algorithm cross-validation across multiple independent cohorts. This study employs bioinformatics and machine learning to identify potential RA biomarkers, aiming to support diagnosis and targeted therapy. METHODS: Multiple RA-related transcriptomic datasets derived from synovial tissue were integrated from the GEO database to screen differentially expressed genes (DEGs). Weighted gene co-expression network analysis (WGCNA) was performed to identify RA-associated modules. A total of 107 parameter and algorithm permutations from 11 distinct machine learning approaches were employed to screen key feature genes. The optimal model was selected based on average AUC values across training and validation sets, and the final three genes were identified by integrating individual diagnostic performance, biological relevance, and experimental validation. Diagnostic performance was evaluated using receiver operating characteristic (ROC) curves, while decision curve analysis (DCA) and confusion matrices were applied to validate the clinical net benefit and classification performance of the model. Immune infiltration analysis was used to assess alterations in immune cell composition within the RA microenvironment. Collagen-induced arthritis (CIA) was used to establish rat models of RA in Sprague-Dawley (SD) rats with a modest sample size (control n = 4, CIA n = 6). Ankle joint tissues were harvested for pathological examination, and the key targets were further validated by immunohistochemistry, serving as a preliminary biological corroboration of the computational findings. RESULTS: Through differential expression analysis and WGCNA, a set of RA-related candidate genes was identified. After combined screening using 107 parameter and algorithm permutations and ROC curve evaluation, FOSL2, JUN, and EGR1 were ultimately determined as potential biomarkers for RA. These genes demonstrated good individual diagnostic accuracy (AUC > 0.8). Immune infiltration analysis consistently revealed significant enrichment of mast cells in the RA microenvironment. The CIA model rats were successfully established, and immunohistochemistry results showed significantly high expression of FOSL2, JUN, and EGR1 in the synovial tissue. CONCLUSION: This study identifies FOSL2, JUN, and EGR1 as potential markers for RA, supporting their potential roles in RA pathogenesis and clinical application.",
+    "keywords": [
+      "Fos-related antigen 2",
+      "Jun proto-oncogene",
+      "biomarkers",
+      "early growth response 1",
+      "machine learning",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Yuxin",
+        "Wang, Pengrui",
+        "Wang, Yifei",
+        "Chen, Guangyao",
+        "Lan, Meiqi",
+        "Teng, Fei",
+        "Liu, Xirui",
+        "Bian, Yuting",
+        "Yang, Huilan",
+        "Ma, Liangjie",
+        "Liu, Yi",
+        "Wang, Jianming",
+        "Zhang, Yanzhen"
+      ],
+      "short_names": [
+        "Han Y",
+        "Wang P",
+        "Wang Y",
+        "Chen G",
+        "Lan M",
+        "Teng F",
+        "Liu X",
+        "Bian Y",
+        "Yang H",
+        "Ma L",
+        "Liu Y",
+        "Wang J",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4602-349X",
+        "ORCID: 0000-0002-6004-289X",
+        "ORCID: 0009-0003-6216-6540",
+        "ORCID: 0009-0009-6329-8995"
+      ],
+      "affiliations": [
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Department of TCM Rheumatology, China-Japan Friendship Hospital, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Department of TCM Rheumatology, China-Japan Friendship Hospital, Beijing, People's Republic of China.",
+        "Department of Rheumatology, Shunyi Hospital of Beijing Hospital of Traditional Chinese Medicine, Beijing, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Yuxin",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengrui",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yifei",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-4602-349X"
+        ],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guangyao",
+        "short_name": "Chen G",
+        "identifiers": [
+          "0000-0002-6004-289X"
+        ],
+        "affiliations": [
+          "Department of TCM Rheumatology, China-Japan Friendship Hospital, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lan, Meiqi",
+        "short_name": "Lan M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Teng, Fei",
+        "short_name": "Teng F",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xirui",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0009-0003-6216-6540"
+        ],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Bian, Yuting",
+        "short_name": "Bian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huilan",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ma, Liangjie",
+        "short_name": "Ma L",
+        "identifiers": [
+          "0009-0009-6329-8995"
+        ],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianming",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of TCM Rheumatology, China-Japan Friendship Hospital, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanzhen",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, Shunyi Hospital of Beijing Hospital of Traditional Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 11:38",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42367820",
+      "41299770",
+      "41293646",
+      "41284626",
+      "41282603",
+      "41142638",
+      "41096984",
+      "41064451",
+      "40993533",
+      "40455676",
+      "40322039",
+      "40264204",
+      "40141401",
+      "40128880",
+      "40012979",
+      "39308796",
+      "39139563",
+      "38711508",
+      "38240831",
+      "38216285",
+      "38168103",
+      "38143734",
+      "37706304",
+      "37639730",
+      "36780677",
+      "36699262",
+      "36317112",
+      "36238290",
+      "35706613",
+      "35702063",
+      "34831081",
+      "33995548",
+      "33877998",
+      "33831027",
+      "33087128",
+      "32610127",
+      "32317080",
+      "31061532",
+      "31027208",
+      "29275361",
+      "28411167",
+      "26953178",
+      "26711533",
+      "25822800",
+      "25605792",
+      "25295600",
+      "24690414",
+      "22546560",
+      "22455463",
+      "22257669",
+      "22021863",
+      "20858714",
+      "18721452",
+      "18226189",
+      "17546023",
+      "17498057",
+      "16632515",
+      "16317093",
+      "16313345",
+      "16242352",
+      "14657654",
+      "12878172",
+      "12748655",
+      "12538238",
+      "12092767",
+      "11752295",
+      "11402330",
+      "10802651",
+      "10050673",
+      "9892501",
+      "9847135",
+      "9542779",
+      "9097728",
+      "8773576",
+      "1746660"
+    ],
+    "similar": [
+      "42583273",
+      "42243611",
+      "41816328",
+      "40500570",
+      "36699262",
+      "39509434",
+      "39139563",
+      "41872824",
+      "41913032",
+      "42326009",
+      "41652638",
+      "40406620",
+      "42251905",
+      "39170142",
+      "41066424",
+      "41988156",
+      "41665627",
+      "41737229",
+      "39845946",
+      "42254657",
+      "41709967",
+      "41947915",
+      "40644421",
+      "41957428",
+      "42233387",
+      "39840076",
+      "42003657",
+      "41164826",
+      "38977339",
+      "42367122",
+      "42456406",
+      "39953769",
+      "41822387",
+      "41052072",
+      "41627661",
+      "41233664",
+      "34767108",
+      "38711508",
+      "41324863",
+      "42340574",
+      "39559355",
+      "39466354",
+      "41611834",
+      "36238290",
+      "40636121",
+      "42123445",
+      "36940554",
+      "36110846",
+      "42450069",
+      "42292668",
+      "41656803",
+      "42123756",
+      "41432483",
+      "40596265",
+      "38573982",
+      "42393882",
+      "41479901",
+      "42496954",
+      "37779906",
+      "42492262",
+      "42377012",
+      "42449128",
+      "40842856",
+      "42051728",
+      "41116042",
+      "42597971",
+      "40791849",
+      "40360670",
+      "37667923",
+      "42135859",
+      "41929818",
+      "42274933",
+      "41716396",
+      "39375405",
+      "42278407",
+      "36045515",
+      "40151199",
+      "41322408",
+      "41583295",
+      "42083957",
+      "39507054",
+      "40661186",
+      "41044520",
+      "41300841",
+      "38212032",
+      "41415264",
+      "37426641",
+      "40273141",
+      "38771826",
+      "41393259",
+      "40830558",
+      "37166429",
+      "40374840",
+      "40532306",
+      "42558367",
+      "41291841",
+      "39975557",
+      "39695788",
+      "36224010",
+      "40097519"
+    ],
+    "review": [
+      "42583273",
+      "41665627"
+    ],
+    "pmc": [
+      "13460010"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42583273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S620148",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

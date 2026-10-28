@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "37659297",
+    "doi": "10.1016/j.phymed.2023.155046",
+    "title": "Phloretin alleviates doxorubicin-induced cardiotoxicity through regulating Hif3a transcription via targeting transcription factor Fos."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Doxorubicin (Dox), a chemotherapeutic agent known for its efficacy, has been associated with the development of severe cardiotoxicity, commonly referred to as doxorubicin-induced cardiotoxicity (DIC). The role and mechanism of action of phloretin (Phl) in cardiovascular diseases are well-established; however, its specific function and underlying mechanism in the context of DIC have yet to be fully elucidated. OBJECTIVE: This research aimed to uncover the protective effect of Phl against DIC in vivo and in vitro, while also providing a comprehensive understanding of the underlying mechanisms involved. METHODS: DIC cell and murine models were established. The action targets and mechanism of Phl against DIC were comprehensively examined by systematic network pharmacology, molecular docking, transcriptomics technologies, transcription factor (TF) prediction, and experimental validation. RESULTS: Phl relieved Dox-induced cell apoptosis in vitro and in vivo. Through network pharmacology analysis, a total of 554 co-targeted genes of Phl and Dox were identified. Enrichment analysis revealed several key pathways including the PI3K-Akt signaling pathway, Apoptosis, and the IL-17 signaling pathway. Protein-protein interaction (PPI) analysis identified 24 core co-targeted genes, such as Fos, Jun, Hif1a, which were predicted to bind well to Phl based on molecular docking. Transcriptomics analysis was performed to identify the top 20 differentially expressed genes (DEGs), and 202 transcription factors (TFs) were predicted for these DEGs. Among these TFs, 10 TFs (Fos, Jun, Hif1a, etc.) are also the co-targeted genes, and 3 TFs (Fos, Jun, Hif1a) are also the core co-targeted genes. Further experiments validated the finding that Phl reduced the elevated levels of Hif3a (one of the top 20 DEGs) and Fos (one of Hif3a's predicted TFs) induced by Dox. Moreover, the interaction between Fos protein and the Hif3a promoter was confirmed through luciferase reporter assays. CONCLUSION: Phl actively targeted and down-regulated the Fos protein to inhibit its binding to the promoter region of Hif3a, thereby providing protection against DIC.",
+    "keywords": [
+      "Cardiotoxicity",
+      "Doxorubicin",
+      "Fos",
+      "Hif3a",
+      "Phloretin",
+      "RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Phloretin",
+      "*Cardiotoxicity",
+      "Molecular Docking Simulation",
+      "Phosphatidylinositol 3-Kinases",
+      "Doxorubicin/adverse effects",
+      "Repressor Proteins",
+      "Apoptosis Regulatory Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiangyun",
+        "Sun, Taoli",
+        "Liu, Jiaqin",
+        "Wei, Shanshan",
+        "Yang, Yuanying",
+        "Liu, Jian",
+        "Zhang, Bikui",
+        "Li, Wenqun"
+      ],
+      "short_names": [
+        "Li X",
+        "Sun T",
+        "Liu J",
+        "Wei S",
+        "Yang Y",
+        "Liu J",
+        "Zhang B",
+        "Li W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China; School of Pharmacy, Central South University, Changsha, Hunan 410078, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, Hunan 410208, China.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China; School of Pharmacy, Central South University, Changsha, Hunan 410078, China. Electronic address: 505995@csu.edu.cn.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China. Electronic address: liwq1204@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiangyun",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China; School of Pharmacy, Central South University, Changsha, Hunan 410078, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Taoli",
+        "short_name": "Sun T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, Hunan 410208, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaqin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shanshan",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuanying",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bikui",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China; School of Pharmacy, Central South University, Changsha, Hunan 410078, China. Electronic address: 505995@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Wenqun",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, China; Institute of Clinical Pharmacy, Central South University, Changsha, Hunan 410011, China. Electronic address: liwq1204@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/03 00:41",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [
+      "41897339",
+      "39940901",
+      "39343295",
+      "38578376",
+      "38400848",
+      "38298758"
+    ],
+    "refs": [],
+    "similar": [
+      "37659297",
+      "39217656",
+      "34037972",
+      "36108374",
+      "38363942",
+      "38400848",
+      "36529443",
+      "37549513",
+      "30535663",
+      "35856909",
+      "34397328",
+      "34995692",
+      "36330913",
+      "29016737",
+      "32525084",
+      "37806095",
+      "36071840",
+      "37373547",
+      "34954266",
+      "35842187",
+      "36403742",
+      "37087977",
+      "37684436",
+      "37836633",
+      "35881422",
+      "35792448",
+      "35281446",
+      "35134463",
+      "35204799",
+      "34874743",
+      "35295262",
+      "37321078",
+      "35306141",
+      "34349502",
+      "39405937",
+      "37056062",
+      "29229534",
+      "36587877",
+      "35966005",
+      "34732131",
+      "35490666",
+      "32092815",
+      "37354826",
+      "36070662",
+      "37100355",
+      "33800264",
+      "24390491",
+      "31209361",
+      "36252472",
+      "35545198",
+      "29964055",
+      "39343295",
+      "31751567",
+      "37812241",
+      "37246409",
+      "35413642",
+      "38328563",
+      "32448281",
+      "37734463",
+      "35035656",
+      "35129819",
+      "36620343",
+      "27999379",
+      "32392088",
+      "37242146",
+      "31643023",
+      "25386226",
+      "34328254",
+      "34898356",
+      "35667260",
+      "33706097",
+      "37437794",
+      "37154056",
+      "36639017",
+      "31445005",
+      "29803840",
+      "36541083",
+      "34787860",
+      "28295305",
+      "35979984",
+      "31199952",
+      "37282941",
+      "35593913",
+      "31570982",
+      "30396094",
+      "35358932",
+      "36132225",
+      "36712272",
+      "34713381",
+      "33129330",
+      "28738542",
+      "32384281",
+      "31918264",
+      "31355248",
+      "30719766",
+      "31858651",
+      "39427782",
+      "39284540",
+      "34395436",
+      "38510289",
+      "38202649",
+      "37915739",
+      "38143497",
+      "39417237",
+      "36145574",
+      "38007353"
+    ],
+    "review": [
+      "37659297",
+      "39343295",
+      "31751567",
+      "37812241",
+      "37242146",
+      "36132225",
+      "37915739"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00407-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

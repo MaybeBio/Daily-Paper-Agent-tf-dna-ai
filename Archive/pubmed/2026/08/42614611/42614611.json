@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "42614611",
+    "doi": "10.2147/CCID.S604533",
+    "title": "Post-Translational Modification-Driven Metabolic Reprogramming Shapes Melanoma Progression and Immune Microenvironment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Post-translational modifications (PTMs) critically regulate protein function, yet their intratumoral heterogeneity and clinical relevance in melanoma remain poorly characterized. Elucidating PTM-driven programs may uncover novel mechanisms of tumor progression and therapeutic vulnerability. METHODS: We implemented an integrative multi-scale framework combining single-cell RNA sequencing (GSE215120), bulk transcriptomic cohorts (TCGA-SKCM and GSE19234), and spatial transcriptomics (VISDS000459). Twenty curated PTM functional programs were quantified using AUCell and ssGSEA. PTM-defined melanoma subpopulations were interrogated for transcription factor activity, cell-cell communication, copy number variation, and metabolic reprogramming. A PTM-based prognostic signature was constructed using LASSO-Cox regression, validated across independent cohorts, and interpreted using SHAP and LIME. Spatial transcriptomics was used to resolve the tissue localization of prognostic genes. Drug sensitivity was predicted with oncoPredict and evaluated by molecular docking. RESULTS: PTM-based stratification identified melanoma subtypes with distinct proliferative, metabolic, and immune states. Melanoma-high cells exhibited elevated PTM-associated transcriptional enrichment, increased CNV burden, enhanced glycolysis/PPP/TCA metabolism, and dominant VEGF, MIF, GALECTIN, CXCL, and PDGF signaling, whereas Melanoma-low cells were enriched in antigen presentation and IFN-gamma-related pathways. A 15-gene PTM risk score robustly stratified overall survival in TCGA-SKCM (p = 4.52x10(-12)) and GSE19234 (p = 0.027), with predictive performance comparable to clinical stage and superior to age and sex. High-risk tumors showed increased tumor mutation burden, reduced immune and stromal infiltration, lower immunophenoscores, widespread immune checkpoint activation, and suppressed cytolytic activity. SHAP and LIME highlighted FOXM1, FOXK1, TTYH2, SLC25A15, and FCGR2A as key contributors. Drug modeling suggested heightened sensitivity of high-risk tumors to kinase and cell-cycle inhibitors, supported by favorable TTYH2-drug docking. CONCLUSION: This PTM-centered integrative framework delineates metabolic and immune remodeling in melanoma, establishes an interpretable prognostic model, and identifies candidate therapeutic vulnerabilities for precision oncology.",
+    "keywords": [
+      "drug sensitivity",
+      "immune microenvironment",
+      "melanoma",
+      "metabolic reprogramming",
+      "molecular docking",
+      "post-translational modifications",
+      "prognostic model",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Man-Ning",
+        "Zhou, Dong-Mei",
+        "Zou, Yue-Min",
+        "Yang, Hao-Yu",
+        "Bai, Yan-Ping"
+      ],
+      "short_names": [
+        "Wu MN",
+        "Zhou DM",
+        "Zou YM",
+        "Yang HY",
+        "Bai YP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2154-1258"
+      ],
+      "affiliations": [
+        "Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Department of Dermatology, National Center for Integrated Traditional Chinese and Western Medicine, China-Japan Friendship Hospital, Beijing, People's Republic of China.",
+        "Department of Dermatology, Beijing Hospital of Traditional Chinese Medicine, Beijing, People's Republic of China.",
+        "Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+        "Department of Dermatology, National Center for Integrated Traditional Chinese and Western Medicine, China-Japan Friendship Hospital, Beijing, People's Republic of China.",
+        "Department of Dermatology, Beijing Hospital of Traditional Chinese Medicine, Beijing, People's Republic of China.",
+        "Department of Dermatology, National Center for Integrated Traditional Chinese and Western Medicine, China-Japan Friendship Hospital, Beijing, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Man-Ning",
+        "short_name": "Wu MN",
+        "identifiers": [
+          "0000-0002-2154-1258"
+        ],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+          "Department of Dermatology, National Center for Integrated Traditional Chinese and Western Medicine, China-Japan Friendship Hospital, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Dong-Mei",
+        "short_name": "Zhou DM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Beijing Hospital of Traditional Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yue-Min",
+        "short_name": "Zou YM",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, People's Republic of China.",
+          "Department of Dermatology, National Center for Integrated Traditional Chinese and Western Medicine, China-Japan Friendship Hospital, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hao-Yu",
+        "short_name": "Yang HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Beijing Hospital of Traditional Chinese Medicine, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yan-Ping",
+        "short_name": "Bai YP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, National Center for Integrated Traditional Chinese and Western Medicine, China-Japan Friendship Hospital, Beijing, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical, cosmetic and investigational dermatology"
+    ],
+    "journal_abbrev": [
+      "Clin Cosmet Investig Dermatol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/19 14:49",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40696159",
+      "40659633",
+      "40617808",
+      "40613895",
+      "40573249",
+      "40325416",
+      "40221459",
+      "40177643",
+      "40156046",
+      "39979245",
+      "39977975",
+      "39744225",
+      "39450194",
+      "39399482",
+      "39368084",
+      "39343927",
+      "39227587",
+      "39190190",
+      "38963053",
+      "38713256",
+      "38588469",
+      "38329598",
+      "38293671",
+      "38232703",
+      "38167340",
+      "38157428",
+      "38065972",
+      "37724300",
+      "37720354",
+      "37609076",
+      "37460559",
+      "37313439",
+      "37081148",
+      "36801000",
+      "36605190",
+      "36435510",
+      "36284349",
+      "36003368",
+      "35177923",
+      "35054564",
+      "34924561",
+      "34824283",
+      "34797429",
+      "34572789",
+      "34289846",
+      "34252226",
+      "34135508",
+      "34098219",
+      "32894659",
+      "32846025",
+      "32528879",
+      "29574768",
+      "28442530",
+      "26499846",
+      "26183061",
+      "25819940",
+      "25314079",
+      "20505088",
+      "12161450"
+    ],
+    "similar": [
+      "42614611",
+      "41656832",
+      "41403935",
+      "41371106",
+      "41488055",
+      "41882633",
+      "41485251",
+      "42212139",
+      "40643718",
+      "41685312",
+      "41898292",
+      "40909289",
+      "41601676",
+      "40460484",
+      "42369209",
+      "42180849",
+      "42321658",
+      "41006685",
+      "42170303",
+      "42317342",
+      "41716413",
+      "41961149",
+      "42392347",
+      "42180923",
+      "42257998",
+      "41665790",
+      "42192326",
+      "41254408",
+      "41314067",
+      "42591770",
+      "41208987",
+      "42136962",
+      "42442222",
+      "41792142",
+      "41383634",
+      "41276708",
+      "42420840",
+      "40607411",
+      "40382612",
+      "41832427",
+      "41049291",
+      "41201629",
+      "40496864",
+      "42079738",
+      "41601657",
+      "42434274",
+      "42399595",
+      "41761968",
+      "41948724",
+      "42495647",
+      "42467357",
+      "42544237",
+      "41776615",
+      "40525440",
+      "41840725",
+      "41613113",
+      "40672941",
+      "41034991",
+      "42588699",
+      "42444878",
+      "38279987",
+      "41413822",
+      "41561767",
+      "42305460",
+      "41523997",
+      "42440056",
+      "42106773",
+      "40642093",
+      "42490412",
+      "41657446",
+      "37539569",
+      "42422066",
+      "42359574",
+      "41658456",
+      "42342961",
+      "40200221",
+      "41836446",
+      "42564958",
+      "40764361",
+      "41583466",
+      "42305453",
+      "41306526",
+      "42524312",
+      "42079608",
+      "42212317",
+      "42185987",
+      "41094064",
+      "41436831",
+      "42436798",
+      "41748810",
+      "41917876",
+      "42183963",
+      "41584048",
+      "40474806",
+      "41514669",
+      "42262432",
+      "41710887",
+      "42393336",
+      "40630945",
+      "41613147"
+    ],
+    "review": [
+      "42614611"
+    ],
+    "pmc": [
+      "13482006"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/CCID.S604533?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42614611/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LIME1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/CCID.S604533",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

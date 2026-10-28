@@ -1,0 +1,251 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.17.613303",
+  "title": "Endothelial regulatory circuits control cranial neural crest migration and plasticity",
+  "doi": "10.1101/2024.09.17.613303",
+  "abstract": "<h4>Summary</h4> The cranial neural crest (NC) is a migratory embryonic population ideal for studying cell plasticity, motility, and fate establishment. Although NC migration has been linked to changes in cell adhesion, polarity, and signaling, the gene regulatory circuitry governing these processes remained obscure. Using time-resolved single-cell multi-omics, spatial transcriptomics, and gene regulatory network reconstruction, we identified ten programs underlying 23 NC cell states and three spatial trajectories. Using in silico perturbation and systematic CRISPR/Cas9-mediated Perturb-seq, we uncovered novel lineage drivers and an endothelial-like program controlling NC migration, distinct from the epithelial-to-mesenchymal transition (EMT) program. We show that endothelial-like regulons ( fli1a, elk3 ) drive migration through direct or tiered activation via the “FOX:ETS-Ebf3a - targets” axis, while ETS suppressors ( erf , erfl3 ) maintain cell plasticity. Using the newly developed SyncReg tool, we identify functional redundancy among ETS regulons, which has thus far obscured their critical roles in NC migration, and we quantify their synergy with retinoic acid receptors, also essential for this process. Our GRN model, combined with novel velocity-embedded simulations, accurately predicted the functions of all major regulons, which were confirmed by in vivo functional perturbations. This study provides a comprehensive, validated cranial NC regulatory landscape, resolving heterogeneous regulatory circuits underlying NC cell motility and plasticity.",
+  "authors": [
+    "Hu Z",
+    "Mayes S",
+    "Wang W",
+    "Santos-Pereira JM",
+    "Theis F",
+    "Sauka-Spengler T"
+  ],
+  "published_date": "2024-09-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.17.613303",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.17.613303.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR910888",
+    "raw_record": {
+      "id": "PPR910888",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR910888"
+        ]
+      },
+      "doi": "10.1101/2024.09.17.613303",
+      "title": "Endothelial regulatory circuits control cranial neural crest migration and plasticity",
+      "authorString": "Hu Z, Mayes S, Wang W, Santos-Pereira JM, Theis F, Sauka-Spengler T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hu Z",
+            "lastName": "Hu",
+            "firstName": "Zhiyuan",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1688-6032"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                },
+                {
+                  "affiliation": "Medical Research Institute, Frontier Science Center for Immunology and Metabolism, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mayes S",
+            "lastName": "Mayes",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7630-9272"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang W",
+            "lastName": "Wang",
+            "firstName": "Weixu",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santos-Pereira JM",
+            "lastName": "Santos-Pereira",
+            "firstName": "José",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Theis F",
+            "lastName": "Theis",
+            "firstName": "Fabian",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2419-1943"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Biology, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sauka-Spengler T",
+            "lastName": "Sauka-Spengler",
+            "firstName": "Tatjana",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9289-0263"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Radcliffe Department of Medicine, ; ,"
+                },
+                {
+                  "affiliation": "; , ,"
+                },
+                {
+                  "affiliation": "MRC WIMM Centre for Computational Biology, , ; ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7630-9272"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9289-0263"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1688-6032"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2419-1943"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  The cranial neural crest (NC) is a migratory embryonic population ideal for studying cell plasticity, motility, and fate establishment. Although NC migration has been linked to changes in cell adhesion, polarity, and signaling, the gene regulatory circuitry governing these processes remained obscure. Using time-resolved single-cell multi-omics, spatial transcriptomics, and gene regulatory network reconstruction, we identified ten programs underlying 23 NC cell states and three spatial trajectories. Using in silico perturbation and systematic CRISPR/Cas9-mediated Perturb-seq, we uncovered novel lineage drivers and an endothelial-like program controlling NC migration, distinct from the epithelial-to-mesenchymal transition (EMT) program. We show that endothelial-like regulons (  fli1a, elk3 ) drive migration through direct or tiered activation via the “FOX:ETS-Ebf3a  - targets” axis, while ETS suppressors (  erf ,  erfl3 ) maintain cell plasticity. Using the newly developed SyncReg tool, we identify functional redundancy among ETS regulons, which has thus far obscured their critical roles in NC migration, and we quantify their synergy with retinoic acid receptors, also essential for this process. Our GRN model, combined with novel velocity-embedded simulations, accurately predicted the functions of all major regulons, which were confirmed by in vivo functional perturbations. This study provides a comprehensive, validated cranial NC regulatory landscape, resolving heterogeneous regulatory circuits underlying NC cell motility and plasticity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "215615/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.17.613303"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR910888"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR910888&type=FILE&fileName=EMS198738-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198738",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen",
+          "ensembl",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-09-19",
+      "firstPublicationDate": "2024-09-17",
+      "firstIndexDate": "2024-09-19",
+      "fullTextReceivedDate": "2025-03-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

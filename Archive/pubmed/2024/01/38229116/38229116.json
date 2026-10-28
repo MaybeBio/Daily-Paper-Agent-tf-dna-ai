@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "38229116",
+    "doi": "10.1186/s40001-023-01603-8",
+    "title": "Epigenetic characterization of sarcopenia-associated genes based on machine learning and network screening."
+  },
+  "content": {
+    "abstract": "To screen characteristic genes related to sarcopenia by bioinformatics and machine learning, and to verify the accuracy of characteristic genes in the diagnosis of sarcopenia. Download myopia-related data sets from geo public database, find the differential genes through R language limma package after merging, STRING database to build protein interaction network, and do Go analysis and GSEA analysis to understand the functions and molecular signal pathways that may be affected by the differential genes. Further screen the characteristic genes through LASSO and SVM-RFE machine algorithms, make the ROC curve of the characteristic genes, and obtain the AUC value. 10 differential genes were obtained from the data set, including 7 upregulated genes and 3 downregulated genes. Eight characteristic genes were screened by a machine learning algorithm, and the AUC value of characteristic genes exceeded 0.7. In patients with sarcopenia, the expression of TPPP3, C1QA, LGR5, MYH8, and CDKN1A genes are upregulated, and the expression of SLC38A1, SERPINA5, and HOXB2 genes are downregulated. The above genes have high accuracy in the diagnosis of sarcopenia. The research results provide new ideas for the diagnosis and mechanism research of sarcopenia.",
+    "keywords": [
+      "Bioinformatics",
+      "Epigenetics",
+      "Machine learning",
+      "Network screening",
+      "Sarcopenia"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sarcopenia/diagnosis/genetics",
+      "Algorithms",
+      "Computational Biology",
+      "Machine Learning",
+      "Epigenesis, Genetic",
+      "Transcription Factors",
+      "Homeodomain Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yong",
+        "Zhang, Zhenyu",
+        "Hu, Xiaolan",
+        "Zhang, Yang"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Zhang Z",
+        "Hu X",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4322-1329"
+      ],
+      "affiliations": [
+        "Key Laboratory of Renal Diseases Occurrence and Intervention of Hubei Province, Medical College, Hubei Polytechnic University, Huangshi, 435003, China.",
+        "Shenzhen Qihuang Guoyi Hanfang Innovation Research Center, Shenzhen, 518046, China.",
+        "Huangshi Central Hospital, Affiliated Hospital of Hubei Polytechnic University, Huangshi, 435099, China.",
+        "Pingshan District People's Hospital of Shenzhen, Pingshan General Hospital of Southern Medical University, No. 19 Renmin Street, Pingshan Street, Pingshan District, Shenzhen, 518118, Guangdong, China. yangzhangdr@yeah.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yong",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Renal Diseases Occurrence and Intervention of Hubei Province, Medical College, Hubei Polytechnic University, Huangshi, 435003, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenyu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Qihuang Guoyi Hanfang Innovation Research Center, Shenzhen, 518046, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaolan",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Huangshi Central Hospital, Affiliated Hospital of Hubei Polytechnic University, Huangshi, 435099, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0004-4322-1329"
+        ],
+        "affiliations": [
+          "Pingshan District People's Hospital of Shenzhen, Pingshan General Hospital of Southern Medical University, No. 19 Renmin Street, Pingshan Street, Pingshan District, Shenzhen, 518118, Guangdong, China. yangzhangdr@yeah.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2024 Jan 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/17 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "41836872",
+      "41824860",
+      "41726179",
+      "41303670",
+      "41148789",
+      "41137352",
+      "40800173",
+      "40362666",
+      "40296080",
+      "38528564"
+    ],
+    "refs": [
+      "37794269",
+      "37348597",
+      "37186680",
+      "34800179",
+      "34512732",
+      "34179931",
+      "33809353",
+      "32962796",
+      "32645449",
+      "31682812",
+      "31171417",
+      "31081853",
+      "30610245",
+      "30395331",
+      "30237121",
+      "29642478",
+      "28778327",
+      "28639251",
+      "27372539",
+      "22455463",
+      "21414208",
+      "20392703",
+      "17105200",
+      "16199517",
+      "15687482",
+      "11498582"
+    ],
+    "similar": [
+      "38229116",
+      "38831425",
+      "39827515",
+      "41137352",
+      "40628511",
+      "38645867",
+      "39838688",
+      "35713363",
+      "38755717",
+      "41309827",
+      "40312440",
+      "39586719",
+      "41204493",
+      "40977679",
+      "37740201",
+      "38686376",
+      "41479901",
+      "38948379",
+      "41200172",
+      "39375405",
+      "39754246",
+      "41300841",
+      "41305746",
+      "41137290",
+      "39142001",
+      "41214111",
+      "36532018",
+      "36470144",
+      "40830558",
+      "39991734",
+      "39170142",
+      "39609718",
+      "39396400",
+      "40599778",
+      "40997906",
+      "39993869",
+      "38229237",
+      "40078458",
+      "41367897",
+      "39735547",
+      "39509434",
+      "39695788",
+      "39400774",
+      "36147639",
+      "35341274",
+      "39747879",
+      "40360670",
+      "38839020",
+      "36341343",
+      "37980550",
+      "41188996",
+      "35709926",
+      "41146237",
+      "37732314",
+      "40754871",
+      "40973872",
+      "41006883",
+      "36253715",
+      "40860289",
+      "40229548",
+      "39050860",
+      "38283345",
+      "40007290",
+      "41053312",
+      "39738398",
+      "41164826",
+      "35719392",
+      "36605987",
+      "41102315",
+      "39120060",
+      "39169865",
+      "36050999",
+      "40603487",
+      "36831718",
+      "39697339",
+      "41320776",
+      "36725810",
+      "37783761",
+      "40630623",
+      "37909603",
+      "40286923",
+      "38951833",
+      "39206894",
+      "38650009",
+      "39650552",
+      "41082466",
+      "35865542",
+      "39043774",
+      "40890834",
+      "36969166",
+      "40313967",
+      "38115320",
+      "40625358",
+      "39835095",
+      "36532015",
+      "39071134",
+      "38639655",
+      "38051734",
+      "36823662",
+      "38867322"
+    ],
+    "review": [
+      "38229116"
+    ],
+    "pmc": [
+      "10790491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-023-01603-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38229116/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38229116",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1149",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

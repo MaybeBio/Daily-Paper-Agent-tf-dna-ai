@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and data availability statement
+- **Assessment boundary** Statistical methodology, computational analyses, biological interpretations, and clinical claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a new metric, cluster propensity (CP), to quantify the spatial clustering of transcription factor motif sites and binding sites across the human genome. They report that most TF motifs and binding sites exhibit clustered patterns enriched at super-enhancers, that clustering correlates with liquid-liquid phase separation potential of TFs, and that clustered TF binding sites in cancer cells are associated with chromatin activity and patient survival outcomes.
+- **Visible evidence base** Abstract, full introduction, results sections with figure references, discussion, methods, and data availability statement. No figures, tables, or supplementary materials were provided for direct inspection.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and supplementary analyses referenced in the text are absent. The GitHub repository is not accessible for verification. Statistical details such as exact p-values, effect sizes, and sample sizes for key comparisons are not fully reported in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important gap between genomics-based analyses of TF binding and biophysical studies of transcriptional condensates. The proposed CP metric is conceptually straightforward and the integration of large public datasets is commendable. However, the current text does not provide sufficient methodological detail or visible evidence to fully evaluate the robustness of the metric, the validity of the statistical comparisons, or the strength of the clinical associations. The biological conclusions, while plausible, rest on correlative analyses that require additional validation and clearer presentation of the underlying data.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, super-enhancer biology, phase separation, and cancer genomics would find these results relevant. The work offers a computational framework that connects sequence-level features to biophysical properties of TFs, which could inform future experimental studies on condensate formation and enhancer function.
+- **Major strengths** The study leverages a large compendium of public ChIP-seq and motif data, which provides broad coverage across TFs and cell types. The CP metric is a simple and interpretable measure of spatial clustering. The connection between TF clustering and LLPS potential is a novel and potentially impactful observation. The integration with cancer genomics data, including survival analysis, extends the relevance to clinical contexts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical methodology
+  - **Claim pointer** The CP metric is defined as the two-sided Kolmogorov-Smirnov test statistic comparing the distribution of log10 distances to the downstream site between the observed profile and a random control.
+  - **Evidence pointer** Methods section, "Determination of TFMS CP" and "Determination of TFBS CP"; Figure 1a
+  - **Concern** The description of the CP metric is incomplete. The text states that CP is derived from the K-S test statistic but does not specify whether CP is the raw D statistic, a transformed value, or a signed quantity. The direction of the comparison (observed vs. control) and how positive versus negative CP values should be interpreted is not fully clarified. Additionally, the control for TFBS CP uses randomly sampled motif sites from the same TF, but the rationale for this choice and its implications for the interpretation of clustering beyond motif distribution are not explained.
+  - **Why it matters** The CP metric is the central analytical tool of the manuscript. Without a precise and complete definition, readers cannot reproduce the analysis or assess whether the metric measures what the authors claim. Ambiguity in the metric undermines confidence in all downstream results that depend on CP.
+  - **Resolution test** Provide a complete mathematical definition of CP, including the exact formula, the direction of the test, and how the statistic is normalized or transformed. Clarify the interpretation of positive and negative values. Justify the choice of control for TFBS CP and demonstrate that the metric is robust to alternative control definitions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors report that 417 of 528 TFs (79%) show positive CP, indicating clustered TFMS distribution, and that clustered TFMS are significantly enriched at super-enhancers.
+  - **Evidence pointer** Results section, "Clustered TF motif sites are enriched at putative super-enhancers"; Figure 1d
+  - **Concern** The statistical significance of the enrichment at super-enhancers is stated but the details are not provided. The text mentions Fisher's exact test with p < 0.05, but the number of TFs tested, the correction for multiple testing, and the effect sizes are not reported. The union of SEs from 86 samples is used, but the heterogeneity across samples and the potential for batch effects or cell-type-specific SE definitions are not addressed.
+  - **Why it matters** The claim that clustered TFMS are enriched at SEs is foundational to the manuscript's thesis. Without proper statistical reporting and multiple testing correction, the reader cannot assess whether this enrichment is robust or could arise by chance given the large number of TFs tested.
+  - **Resolution test** Report the full distribution of enrichment p-values across all TFs, apply and describe multiple testing correction, and provide effect sizes (e.g., odds ratios) with confidence intervals. Address potential confounders in SE definitions across the 86 samples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors state that TFs with higher TFBS CP tend to have lower AICAP, indicating higher LLPS potential, and that this correlation supports a role for phase separation in clustered TF binding at SEs.
+  - **Evidence pointer** Results section, "Transcription factors with highly clustered binding have high liquid-liquid phase separation potential"; Figure 3a-c
+  - **Concern** The correlation between TFBS CP and AICAP is described as "subtle but clear" and "significant," but the actual correlation coefficient, p-value, and the number of TFs included in the analysis are not reported. The text also does not address whether the correlation is driven by a subset of TFs or is general across TF families. The causal direction is not established; clustered binding could arise from cooperative DNA binding or chromatin features rather than LLPS.
+  - **Why it matters** The link between clustering and LLPS is a key conceptual contribution. Without quantitative details and consideration of alternative explanations, the claim that LLPS drives clustered TF binding remains speculative.
+  - **Resolution test** Report the correlation coefficient, p-value, and sample size for the CP-AICAP analysis. Perform sensitivity analyses excluding outlier TFs or TF families. Discuss and, if possible, test alternative explanations for clustering, such as cooperative binding or chromatin state.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical claim
+  - **Claim pointer** The authors claim that chromatin accessibility at clustered TF co-binding sites is predictive of survival in COAD and that target genes of clustered TFs are predictive of survival in BRCA.
+  - **Evidence pointer** Results section, "Chromatin accessibility levels at clustered TF co-binding sites are predictive of COAD survival" and "Co-regulated genes of clustered TFs are predictive of BRCA survival"; Figures 5d-f, 6d-f
+  - **Concern** The survival analyses are described only briefly. The text does not report the number of patients, the number of tests performed, the multiple testing correction method, the hazard ratios, or the confidence intervals. The selection of the top 3 TFs in each cancer type is based on CP ranking, but the stability of this selection and the potential for overfitting are not discussed. The clinical relevance of the findings is unclear without effect sizes and validation in independent cohorts.
+  - **Why it matters** Clinical claims require rigorous statistical standards. The current presentation does not allow the reader to judge whether the survival associations are robust, clinically meaningful, or likely to replicate.
+  - **Resolution test** Provide full details of the survival analysis, including patient numbers, number of tests, correction method, hazard ratios, and confidence intervals. Validate the findings in an independent cohort or through cross-validation. Discuss the clinical significance of the effect sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Many transcription factors (TFs) have been shown to bind at super-enhancers, forming transcriptional condensates to activate transcription" implies a causal relationship that is not directly demonstrated in this study.
+  - **Required correction** Rephrase to indicate that TF binding at SEs is associated with condensate formation, rather than stating it as an established causal mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, "Identification of the TF sequence motifs in human genome"
+  - **Evidence pointer** Methods section
+  - **Issue** The p-value threshold for motif scanning is stated as 1e-4, but the rationale for this threshold and its impact on the number of motif sites per TF are not discussed.
+  - **Required correction** Justify the chosen threshold and discuss its potential effect on the clustering analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Public data collection"
+  - **Evidence pointer** Methods section
+  - **Issue** The quality control thresholds for ChIP-seq data are listed, but the number of datasets retained after filtering and the distribution across cell types are not reported.
+  - **Required correction** Provide a summary of the number of datasets and TFs included after quality control.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "Clustered TFBSs show active chromatin features..."
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The comparison of chromatin accessibility, interactions, and SE enrichment between C-TFBS and NC-TFBS is described as significant, but the text does not specify which TFs or cancer types show the strongest effects.
+  - **Required correction** Provide a more detailed breakdown of results by TF and cancer type.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The statement "this work can set a stepstone of future investigations" is vague and does not clearly articulate the specific next steps or testable predictions arising from the study.
+  - **Required correction** Specify concrete future directions, such as experimental validation of predicted condensate-forming TFs or application of the CP metric to other genomic features.
+
+## Risk / unsupported claims
+- The claim that clustered TF binding patterns are directly linked to phase-separated transcriptional condensate formation is not supported by direct experimental evidence in this manuscript; it remains an inference from correlative data.
+- The statement that "TFs with clustered binding patterns have high liquid-liquid phase separation potentials" is based on a correlation with AICAP, but the strength and robustness of this correlation are not fully reported.
+- The clinical survival associations in COAD and BRCA are presented without sufficient statistical detail to assess their validity or generalizability.
+- The claim that "most DNA sequence motifs are not distributed randomly in the genome" is based on the CP metric, but the definition and validation of this metric are incomplete.
+- The assertion that "densely clustered TF binding sites are more enriched at cell-type-specific super-enhancers with higher chromatin accessibility, higher chromatin interaction, and higher association with cancer outcome" is not fully supported by the data presented in the text, as effect sizes and statistical details are missing.

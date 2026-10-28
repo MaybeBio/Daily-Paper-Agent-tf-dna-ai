@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39833696",
+  "title": "Machine learning-driven identification of critical gene programs and key transcription factors in migraine.",
+  "authors": "Zhang, Lei; Li, Yujie; Xu, Yunhao; Wang, Wei; Guo, Guangyu",
+  "journal": "The journal of headache and pain",
+  "published_date": "2025-01-21",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习分析偏头痛脑区snRNA-seq数据，识别基因程序并预测调控转录因子ARID3A，但仅基于表达与调控网络统计，未涉及TF-DNA结合位点、三维互作建模或物理模拟，与课题核心关联较弱。",
+  "abstract": "BACKGROUND: Migraine is a complex neurological disorder characterized by recurrent episodes of severe headaches. Although genetic factors have been implicated, the precise molecular mechanisms, particularly gene expression patterns in migraine-associated brain regions, remain unclear. This study applies machine learning techniques to explore region-specific gene expression profiles and identify critical gene programs and transcription factors linked to migraine pathogenesis. METHODS: We utilized single-nucleus RNA sequencing (snRNA-seq) data from 43 brain regions, along with genome-wide association study (GWAS) data, to investigate susceptibility to migraine. The cell-type-specific expression (CELLEX) algorithm was employed to calculate specific expression profiles for each region, while non-negative matrix factorization (NMF) was applied to decompose gene programs within the single-cell data from these regions. Following the annotation of brain region expression profiles and gene programs to the genome, we employed stratified linkage disequilibrium score regression (S-LDSC) to assess the associations between brain regions, gene programs, and migraine-related SNPs. Key transcription factors regulating critical gene programs were identified using a random forest model based on regulatory networks derived from the GTEx consortium. RESULTS: Our analysis revealed significant enrichment of migraine-associated single nucleotide polymorphisms (SNPs) in the posterior nuclear complex-medial geniculate nuclei (PoN_MG) of the thalamus, highlighting this region's crucial role in migraine pathogenesis. Gene program 1, identified through NMF, was enriched in the calcium signaling pathway, a known contributor to migraine pathophysiology. Random forest analysis predicted ARID3A as the top transcription factor regulating gene program 1, suggesting its potential role in modulating calcium-related genes involved in migraine. CONCLUSION: This study provides new insights into the molecular mechanisms underlying migraine, emphasizing the importance of the PoN_MG thalamic region, calcium signaling pathways, and key transcription factors like ARID3A. These findings offer potential avenues for developing targeted therapeutic strategies for migraine treatment.",
+  "abstract_zh": "背景：偏头痛是一种复杂的神经系统疾病，以反复发作的严重头痛为特征。尽管遗传因素已被涉及，但精确的分子机制，特别是偏头痛相关脑区中的基因表达模式，仍不清楚。本研究应用机器学习技术探索区域特异性基因表达谱，并识别与偏头痛发病机制相关的关键基因程序及转录因子。方法：我们利用了来自43个脑区的单核RNA测序（snRNA-seq）数据，以及全基因组关联研究（GWAS）数据，来研究偏头痛的易感性。采用细胞类型特异性表达（CELLEX）算法计算每个区域的特定表达谱，同时应用非负矩阵分解（NMF）分解这些区域单细胞数据中的基因程序。在将脑区表达谱和基因程序注释到基因组后，我们使用分层连锁不平衡评分回归（S-LDSC）评估脑区、基因程序与偏头痛相关单核苷酸多态性（SNPs）之间的关联。基于GTEx联盟衍生的调控网络，使用随机森林模型识别调控关键基因程序的主要转录因子。结果：我们的分析揭示了偏头痛相关单核苷酸多态性（SNPs）在丘脑后核复合体-内侧膝状核（PoN_MG）中的显著富集，突出了该区域在偏头痛发病机制中的关键作用。通过NMF识别的基因程序1富集于钙信号通路，这是已知的偏头痛病理生理贡献因素。随机森林分析预测ARID3A为调控基因程序1的主要转录因子，提示其在调节与偏头痛相关的钙相关基因中可能发挥作用。结论：本研究为偏头痛的分子机制提供了新见解，强调了PoN_MG丘脑区域、钙信号通路及关键转录因子如ARID3A的重要性。这些发现为开发针对偏头痛治疗的靶向策略提供了潜在途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39833696/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39833696/",
+  "paper_page_path": "papers/pubmed/39833696/index.html"
+}

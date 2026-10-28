@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "35962177",
+    "doi": "10.1038/s41598-022-17829-1",
+    "title": "Rational peptide design for regulating liquid-liquid phase separation on the basis of residue-residue contact energy."
+  },
+  "content": {
+    "abstract": "Since liquid-liquid phase separation (LLPS) of proteins is governed by their intrinsically disordered regions (IDRs), it can be controlled by LLPS-regulators that bind to the IDRs. The artificial design of LLPS-regulators based on this mechanism can be leveraged in biological and therapeutic applications. However, the fabrication of artificial LLPS-regulators remains challenging. Peptides are promising candidates for artificial LLPS-regulators because of their ability to potentially bind to IDRs complementarily. In this study, we provide a rational peptide design methodology for targeting IDRs based on residue-residue contact energy obtained using molecular dynamics (MD) simulations. This methodology provides rational peptide sequences that function as LLPS regulators. The peptides designed with the MD-based contact energy showed dissociation constants of 35-280 nM for the N-terminal IDR of the tumor suppressor p53, which are significantly lower than the dissociation constants of peptides designed with the conventional 3D structure-based energy, demonstrating the validity of the present peptide design methodology. Importantly, all of the designed peptides enhanced p53 droplet formation. The droplet-forming peptides were converted to droplet-deforming peptides by fusing maltose-binding protein (a soluble tag) to the designed peptides. Thus, the present peptide design methodology for targeting IDRs is useful for regulating droplet formation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Peptides/metabolism",
+      "Physical Phenomena",
+      "Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamagata, Kiyoto",
+        "Ariefai, Maulana",
+        "Takahashi, Hiroto",
+        "Hando, Atsumi",
+        "Subekti, Dwiky Rendra Graha",
+        "Ikeda, Keisuke",
+        "Hirano, Atsushi",
+        "Kameda, Tomoshi"
+      ],
+      "short_names": [
+        "Kamagata K",
+        "Ariefai M",
+        "Takahashi H",
+        "Hando A",
+        "Subekti DRG",
+        "Ikeda K",
+        "Hirano A",
+        "Kameda T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+        "Department of Chemistry, Faculty of Science, Tohoku University, Sendai, 980-8578, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+        "Graduate School of Life Sciences, Tohoku University, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Chemistry, Faculty of Science, Tohoku University, Sendai, 980-8578, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, Sendai, 980-8577, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+        "Department of Biointerface Chemistry, Faculty of Pharmaceutical Sciences, University of Toyama, 2630 Sugitani, Toyama, 930-0194, Japan.",
+        "Nanomaterials Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Ibaraki, 305-8565, Japan.",
+        "Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology (AIST), Koto, Tokyo, 135-0064, Japan. kameda-tomoshi@aist.go.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamagata, Kiyoto",
+        "short_name": "Kamagata K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+          "Department of Chemistry, Faculty of Science, Tohoku University, Sendai, 980-8578, Japan. kiyoto.kamagata.e8@tohoku.ac.jp.",
+          "Graduate School of Life Sciences, Tohoku University, Sendai, 980-8577, Japan. kiyoto.kamagata.e8@tohoku.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Ariefai, Maulana",
+        "short_name": "Ariefai M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Department of Chemistry, Faculty of Science, Tohoku University, Sendai, 980-8578, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Hiroto",
+        "short_name": "Takahashi H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Hando, Atsumi",
+        "short_name": "Hando A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan.",
+          "Graduate School of Life Sciences, Tohoku University, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Subekti, Dwiky Rendra Graha",
+        "short_name": "Subekti DRG",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Katahira 2-1-1, Aoba-ku, Sendai, 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikeda, Keisuke",
+        "short_name": "Ikeda K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biointerface Chemistry, Faculty of Pharmaceutical Sciences, University of Toyama, 2630 Sugitani, Toyama, 930-0194, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirano, Atsushi",
+        "short_name": "Hirano A",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomaterials Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Ibaraki, 305-8565, Japan."
+        ]
+      },
+      {
+        "full_name": "Kameda, Tomoshi",
+        "short_name": "Kameda T",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology (AIST), Koto, Tokyo, 135-0064, Japan. kameda-tomoshi@aist.go.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 Aug 12",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/13 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "40877270",
+      "40624022",
+      "39757214",
+      "39290787",
+      "37283050",
+      "37234848",
+      "37164156",
+      "37024567",
+      "36873677",
+      "36349318"
+    ],
+    "refs": [
+      "34588591",
+      "34222258",
+      "33758287",
+      "33597515",
+      "33318217",
+      "32934220",
+      "32393642",
+      "31953488",
+      "31444270",
+      "31270472",
+      "31253862",
+      "29961577",
+      "29677515",
+      "29644850",
+      "29424691",
+      "29068531",
+      "28935776",
+      "28894006",
+      "28225081",
+      "27291286",
+      "26878130",
+      "26617301",
+      "26225914",
+      "26216963",
+      "26143716",
+      "26015579",
+      "25435461",
+      "24970205",
+      "24889800",
+      "24642397",
+      "23721175",
+      "22547225",
+      "20925397",
+      "19833136",
+      "19647489",
+      "18593145",
+      "16981200",
+      "16821906",
+      "16238371",
+      "16170797",
+      "15244857",
+      "10449714",
+      "8604144"
+    ],
+    "similar": [
+      "35962177",
+      "31253862",
+      "33076213",
+      "33684117",
+      "34179096",
+      "36575582",
+      "37540843",
+      "35883530",
+      "39256186",
+      "36328544",
+      "31941785",
+      "38855848",
+      "30531905",
+      "34571015",
+      "35481633",
+      "28924037",
+      "32181542",
+      "31506351",
+      "33260713",
+      "38252962",
+      "33139563",
+      "39947751",
+      "33744316",
+      "38672516",
+      "36227468",
+      "41497175",
+      "25099811",
+      "33401765",
+      "36444977",
+      "37047451",
+      "39190324",
+      "29511089",
+      "35902591",
+      "36291695",
+      "36987865",
+      "34106723",
+      "37024567",
+      "38979955",
+      "35142991",
+      "31911439",
+      "38862770",
+      "32824743",
+      "40792356",
+      "33078839",
+      "36841957",
+      "40646517",
+      "41064885",
+      "30855964",
+      "40028898",
+      "38232052",
+      "34428231",
+      "29712961",
+      "37189373",
+      "38679255",
+      "38446061",
+      "40574713",
+      "31441158",
+      "35756710",
+      "34522448",
+      "37998041",
+      "36464283",
+      "36702825",
+      "33122085",
+      "34163069",
+      "31237369",
+      "34029402",
+      "39342654",
+      "36657879",
+      "41433062",
+      "33982369",
+      "38246226",
+      "39358890",
+      "41457474",
+      "33248138",
+      "39979561",
+      "40557590",
+      "39952269",
+      "38042897",
+      "41363845",
+      "38322526",
+      "37794023",
+      "38230670",
+      "34951585",
+      "39705832",
+      "38546977",
+      "32615218",
+      "40616404",
+      "34110175",
+      "29526694",
+      "36350034",
+      "37634152",
+      "30217894",
+      "31784535",
+      "40278867",
+      "38203210",
+      "39833115",
+      "32225071",
+      "41000164",
+      "41193489",
+      "40985478"
+    ],
+    "review": [
+      "35962177",
+      "38855848",
+      "33260713",
+      "39947751",
+      "38672516",
+      "41497175",
+      "38979955",
+      "35142991",
+      "31911439",
+      "33078839",
+      "38232052",
+      "31441158",
+      "35756710",
+      "34522448",
+      "36464283",
+      "31237369",
+      "38246226",
+      "33248138",
+      "39952269",
+      "39705832",
+      "40616404",
+      "36350034",
+      "40985478"
+    ],
+    "pmc": [
+      "9374670"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-022-17829-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35962177/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35962177",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35962177",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

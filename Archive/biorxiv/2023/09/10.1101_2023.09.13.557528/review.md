@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, materials and methods, and supplementary table descriptions.
+- **Assessment boundary** Scientific content, experimental logic, evidence quality, and internal consistency. No assessment of formatting, grammar, or editorial policy.
+- **Shared manuscript claim summary** The manuscript claims that oyster (Crassostrea gigas) Sox2 and POU2/3 proteins conserve essential amino acids of vertebrate stem cell factors, that recombinant Cg Sox2 specifically binds a mammalian Sox2-Oct4 consensus DNA motif, that Cg Sox2 and Cg POU2/3 synergistically bind this motif, and that Cg SalL forms large nuclear hollow structures excluding chromatin in mammalian cells, suggesting a role in oyster stem/precursor cell regulation.
+- **Visible evidence base** Abstract, full results narrative, discussion, materials and methods, and descriptions of supplementary tables S1–S6. Figures are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–5 are referenced but not included. Supplementary tables S1–S6 are described but not provided. No raw data, quantification, replicates, or statistical analyses are shown. Sequence accession numbers and primer sequences are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in invertebrate stem cell biology and reports potentially interesting observations on conserved DNA binding and a striking SalL nuclear phenotype. However, the evidence as presented is largely qualitative and descriptive. The central claims of synergistic DNA binding and chromatin exclusion rest on data that cannot be evaluated without the figures and quantitative support. The phylogenetic analyses are described only in text and supplementary table legends, with no trees or alignments shown. The manuscript is not yet suitable for publication in its current form.
+- **Who would be interested in the results, and why** Researchers studying stem cell biology in invertebrates, particularly mollusks; those interested in the evolution of pluripotency factors such as Sox2 and Oct4/POU factors; and investigators working on NODE-like complexes and chromatin organization. The SalL hollow body phenotype may interest cell biologists studying nuclear body formation.
+- **Major strengths** The question of whether invertebrate POU factors can substitute for Oct4 is timely and interesting. The conservation analysis of functional domains across metazoans is a useful contribution. The observation that Cg SalL forms large hollow nuclear structures excluding chromatin is visually striking and potentially novel. The use of a mammalian expression system to probe oyster protein behavior is a reasonable approach given the lack of oyster cell lines.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that Cg Sox2 specifically binds the mammalian Sox2-Oct4 consensus DNA motif and that Cg Sox2 and Cg POU2/3 synergistically bind this motif.
+  - **Evidence pointer** Results section, Figure 1, Figure 2A–D
+  - **Concern** The DNA binding experiments are described only in narrative form. No representative blots, quantification, replicates, or negative controls are shown. The claim of synergy is not supported by any quantitative measure. The statement that Cg POU6 binds non-specifically to unrelated DNA is presented without data.
+  - **Why it matters** The synergistic DNA binding of Cg Sox2 and Cg POU2/3 is the central mechanistic claim of the manuscript. Without visible data and quantification, the claim cannot be assessed. Non-specific binding of Cg POU6 also raises questions about assay specificity that need to be addressed.
+  - **Resolution test** Provide representative immunoblots for all binding experiments, include at least three independent replicates, show quantification with error bars, and include appropriate controls such as unlabeled competitor DNA and a non-DNA binding protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that Cg SalL forms barrel-shaped hollow structures that exclude chromatin and that these structures increase in size with expression time.
+  - **Evidence pointer** Results section, Figures 3–5
+  - **Concern** The confocal images are described in detail but not shown. The claim that the structures are hollow, that they fuse or disassemble/reassemble, and that they exclude chromatin requires the images and orthogonal projections to be evaluated. No quantification of structure size, number, or frequency is provided.
+  - **Why it matters** The SalL phenotype is the most novel observation in the manuscript. Without the images and quantification, the reader cannot verify the described morphology, the dynamics, or the chromatin exclusion.
+  - **Resolution test** Provide the confocal images, orthogonal projections, and 3D reconstructions. Include quantification of structure size and number over time, and show a chromatin marker in the same cells to support the exclusion claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The manuscript claims that conservation of essential amino acids in Cg Sox2 and Cg POU2/3 suggests these proteins function in oyster stem cell maintenance.
+  - **Evidence pointer** Results section, Tables S1–S2
+  - **Concern** The phylogenetic analyses are described only in text and table legends. No alignments, trees, or accession numbers are provided. The claim that essential residues are conserved "through most metazoans" cannot be verified. The functional significance of the conserved residues is inferred from vertebrate studies, but no functional data in oyster cells are presented.
+  - **Why it matters** The evolutionary argument is a key pillar of the manuscript's rationale. Without the actual alignments and phylogenetic context, the claim of conservation is unverifiable. The leap from sequence conservation to functional relevance in oyster stem cells is not supported by direct evidence.
+  - **Resolution test** Provide the full alignments, phylogenetic trees, and accession numbers for all sequences used. Include a clear statement of which residues are considered essential and how conservation was scored. Consider tempering functional claims or providing direct functional data in oyster cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The manuscript claims that Cg M proteins behave as their vertebrate homologs and can participate in NODE complexes.
+  - **Evidence pointer** Results section, Figure 4A–C, Table S4
+  - **Concern** The subcellular localization of Cg M, Cg Sox2, Cg POU, and Cg Lin28 is described qualitatively. No co-localization studies, biochemical fractionation, or interaction assays are shown. The claim that these proteins "have the capability to participate to NODE complexes" is speculative.
+  - **Why it matters** The manuscript's broader conclusion that oyster NODE complexes exist and regulate stem cells requires evidence of complex formation or at least interaction between the components. Localization alone is insufficient.
+  - **Resolution test** Provide co-immunoprecipitation or pull-down assays showing interaction between Cg Sox2, Cg POU2/3, Cg SalL, and Cg M. Alternatively, show co-localization by confocal microscopy with endogenous or tagged proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Oyster Sox2 and POU bind in synergy to human Sox-Oct DNA motif" is imprecise. It is unclear which POU proteins are meant and whether this refers to all oyster POU proteins or only POU2/3.
+  - **Required correction** Specify which POU proteins are meant, for example "Cg POU2 and Cg POU3."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, DNA binding assay
+  - **Issue** The DNA binding assay description lacks critical details, including the concentration of DNA and protein, buffer composition, incubation time, and washing stringency. The source of the WT and mt DNA motifs is not given.
+  - **Required correction** Provide full experimental details, including sequences of the WT and mt motifs and their source (e.g., reference or design).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on SalL bodies
+  - **Issue** The discussion speculates on the functional significance of the SalL hollow bodies without addressing alternative explanations, such as overexpression artifacts or protein aggregation.
+  - **Required correction** Acknowledge alternative interpretations and discuss how the experiments distinguish between them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The statement that all data are in the article and supplementary information is not sufficient, as the figures and tables are not provided in the submitted material.
+  - **Required correction** Ensure all figures and supplementary tables are included in the submission and state where raw data can be accessed.
+- **Technical failings that need to be addressed before the case is established** The absence of figures and supplementary tables prevents evaluation of the central claims. The DNA binding synergy claim lacks quantification and replicates. The SalL hollow body claim lacks images and quantification. The phylogenetic claims lack alignments and trees. No interaction or complex formation data support the NODE complex claim.
+- **Assessment against Nature-style criteria** Originality: The question of whether invertebrate POU factors substitute for Oct4 is of interest, and the SalL phenotype is potentially novel. However, the manuscript does not establish a new principle or mechanism. Scientific importance: The findings are of interest to a specialized community but do not yet demonstrate broad significance for stem cell biology or evolution. Interdisciplinary readership: The topic may attract readers from developmental biology, evolution, and cell biology, but the current presentation is too specialized and lacks the broader context needed for a general audience. Technical soundness: The experimental approaches are reasonable, but the lack of quantitative data, replicates, and visible figures undermines technical rigor. Readability for nonspecialists: The manuscript is written for specialists and assumes significant background knowledge. The abstract is not accessible to a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and contains potentially novel observations, but the evidence as presented is insufficient to support the central claims. Major revisions with full data presentation and quantitative analysis are required before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim that Cg Sox2 and Cg POU2/3 synergistically bind the mammalian Sox2-Oct4 motif is unsupported without visible data and quantification.
+- The claim that Cg SalL forms hollow barrel-shaped structures excluding chromatin is unsupported without images and orthogonal projections.
+- The claim that Cg POU6 binds non-specifically to unrelated DNA is unsupported without data.
+- The claim that conserved essential amino acids in Cg Sox2 and Cg POU2/3 imply a role in oyster stem cell maintenance is an inference not directly tested.
+- The claim that oyster NODE proteins "have the capability to participate to NODE complexes" is speculative and unsupported by interaction data.
+- The statement that telomerase activity is highest in oyster gonad and gill is mentioned as unpublished data and cannot be evaluated.

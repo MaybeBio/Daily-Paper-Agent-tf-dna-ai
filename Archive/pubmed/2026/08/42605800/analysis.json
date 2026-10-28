@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42605800",
+  "title": "DeepPNI: a language- and graph-based model for mutation-driven protein-nucleic acid binding energetics.",
+  "authors": "Mondal, Somnath; Mondal, Tinkal; Pramanik, Soumajit; Mehra, Rukmankesh",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-08-17",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 8,
+  "one_liner_zh": "DeepPNI利用图卷积网络和蛋白质语言模型预测蛋白-核酸突变结合自由能变化，涵盖蛋白-DNA/RNA复合物，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Protein-nucleic acid interactions (PNIs) are central to fundamental biological processes, and mutations can disrupt these interactions by altering local structural features and binding free energy. Here, we present DeepPNI, a deep learning regression model that integrates sequence- and structure-based features to estimate mutation-induced changes in binding free energy in protein-nucleic acid complexes. The model was developed using a comprehensive dataset of 1754 mutations spanning protein-DNA and protein-RNA complexes, representing one of the largest curated datasets for PNI binding free energy prediction. Structural features were encoded using an edge-aware relational graph convolutional network, while sequence features were represented using the Evolutionary Scale Modeling 2 protein language model. Despite the increased dataset size and heterogeneity, DeepPNI achieved an overall Pearson correlation coefficient of 0.76 in five-fold cross-validation. Consistent performance was observed across protein-DNA and protein-RNA subsets, datasets grouped by experimental temperature, and external blind test datasets, suggesting robustness against dataset heterogeneity. DeepPNI is freely available as a web server at https://research.iitbhilai.ac.in/molinfo/deeppni.",
+  "abstract_zh": "蛋白质-核酸相互作用（PNIs）是基础生物学过程的核心，突变可通过改变局部结构特征和结合自由能来破坏这些相互作用。在此，我们提出DeepPNI，一种深度学习回归模型，该模型整合了基于序列和结构的特征，以估计蛋白质-核酸复合物中突变诱导的结合自由能变化。该模型使用包含1754个突变的全面的数据集开发，涵盖蛋白质-DNA和蛋白质-RNA复合物，代表了用于PNI结合自由能预测的最大精选数据集之一。结构特征通过边缘感知的关系图卷积网络进行编码，而序列特征则使用进化尺度建模2蛋白质语言模型表示。尽管数据集规模和异质性增加，DeepPNI在五折交叉验证中实现了总体皮尔逊相关系数0.76。在蛋白质-DNA和蛋白质-RNA子集、按实验温度分组的数据集以及外部盲测数据集上观察到一致的性能，表明其对数据集异质性具有鲁棒性。DeepPNI作为网络服务器免费提供，网址为https://research.iitbhilai.ac.in/molinfo/deeppni。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42605800/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42605800/",
+  "paper_page_path": "papers/pubmed/42605800/index.html"
+}

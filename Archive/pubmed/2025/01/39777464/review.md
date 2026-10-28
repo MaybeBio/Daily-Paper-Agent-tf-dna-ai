@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors identify a CBS domain-only protein, HhpR, from the hyperthermophilic piezophile Pyrococcus yayanosii, and propose that it functions as a transcriptional activator of an HHP-inducible promoter (Phhp) by binding a UAS motif. They further propose that high hydrostatic pressure enhances HhpR-DNA binding through conformational changes involving an "Arm" region, with residue S192 playing a critical role.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, figure legends referenced in text, supplementary figure/table references
+- **Missing materials affecting confidence** Figures and supplementary data not provided; raw EMSA, FP, MD simulation data not accessible; strain construction details partially described; statistical details for replicate experiments not fully specified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a novel and potentially significant question: how a CBS domain-only protein mediates transcriptional activation in response to high hydrostatic pressure in a piezophilic archaeon. The combination of in vitro biochemistry, in vivo genetics, and molecular dynamics simulations is ambitious and appropriate. However, several key claims, particularly regarding the pressure-dependent conformational switch and the mechanistic role of S192, rest on indirect evidence and would benefit from more direct experimental validation. The in vivo relevance in the native host is only partially demonstrated. The manuscript is of interest to the archaeal transcription and piezophile communities, but the strength of the central mechanistic conclusions is not fully commensurate with the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying archaeal transcription regulation, CBS domain protein function, microbial adaptation to high hydrostatic pressure, and the biophysics of protein-DNA interactions under extreme conditions. The work also has relevance for understanding the evolution of transcriptional regulators in deep-sea microorganisms.
+- **Major strengths** 1) Identification of a novel biological function for a CBS domain-only protein in archaea, which addresses a long-standing gap. 2) Integration of multiple approaches (pull-down, EMSA, footprinting, FP, MD simulations, in vivo reporter assays) to build a case. 3) The comparative analysis using T. kodakarensis provides a useful evolutionary perspective. 4) The identification of a specific residue (S192) and an "Arm" region as functional determinants is a concrete and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for central claim
+  - **Claim pointer** The authors claim that HhpR is a transcriptional activator that specifically binds the UAS motif of Phhp and that this binding is enhanced under high hydrostatic pressure.
+  - **Evidence pointer** Results sections "Identification of a novel archaeal transcriptional activator responding to high hydrostatic pressure" and "Deciphering of the interaction interface between promoter Phhp and activator HhpR"; Figures 1, 2
+  - **Concern** The central claim that HhpR is a bona fide transcriptional activator of Phhp in the native context of P. yayanosii is not directly demonstrated. The in vivo experiments are performed in T. kodakarensis, a heterologous host, and the native P. yayanosii experiments (Figure 5E) only measure growth phenotypes, not direct transcriptional output. The pull-down experiment identified HhpR as a Phhp-binding protein, but the specificity of this interaction in the context of the whole genome is not established. The DNase I footprinting identifies binding sites, but the functional consequence of mutating these sites on transcription is not shown.
+  - **Why it matters** The paper's title and abstract make a strong claim about HhpR being a transcriptional activator under HHP. Without direct evidence of transcriptional activation in the native organism, or at least a clear demonstration that HhpR binding to Phhp leads to increased transcription of the downstream gene, the central conclusion is not fully supported.
+  - **Resolution test** Provide direct measurement of mRNA levels of the Phhp-controlled operon in P. yayanosii strains with hhpR deleted, overexpressed, or carrying the S192E mutation, under both 0.1 MPa and 52 MPa conditions. Alternatively, demonstrate in a heterologous system that HhpR is necessary and sufficient for HHP-dependent activation of a Phhp-driven reporter.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The authors claim that the "Arm" region, particularly residue S192, is critical for the pressure-dependent conformational change and enhanced DNA binding of HhpR.
+  - **Evidence pointer** Results sections "The molecular mechanism of the HhpR activation under high hydrostatic pressure" and "In vivo and in vitro mutagenic analyses of HhpR under high hydrostatic pressure"; Figures 3, 4, 5
+  - **Concern** The mechanistic model relies heavily on MD simulations. While the simulations are suggestive, the experimental validation is indirect. The S192E mutation impairs function, but this could be due to a general disruption of protein structure rather than a specific pressure-sensing mechanism. The claim that pressure induces a specific conformational change in the Arm region is not directly tested experimentally. The "Arm" deletion experiment (Armmut) removes a large structural element, which could have pleiotropic effects beyond the proposed pressure-sensing role.
+  - **Why it matters** The proposed mechanism is a key novelty of the paper. If the pressure-dependent conformational change is not rigorously demonstrated, the mechanistic insight is weakened, and the paper becomes primarily a descriptive study of a new CBS protein-DNA interaction.
+  - **Resolution test** Perform direct structural or biophysical measurements of HhpR (or the Arm region) under different pressures, e.g., high-pressure NMR, small-angle X-ray scattering, or pressure-jump kinetic experiments, to demonstrate a pressure-dependent conformational change. Additionally, test whether the S192E mutation specifically affects the pressure response by measuring binding kinetics at multiple pressures, rather than just endpoint binding assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data support
+  - **Claim pointer** The authors state that the binding affinity of HhpR to Phhp is "notably strengthened" under HHP, with a Kd of 0.65 μM after 52 MPa treatment versus 1.94 μM at 0.1 MPa.
+  - **Evidence pointer** Results section "Identification of a novel archaeal transcriptional activator responding to high hydrostatic pressure"; Figure 1F
+  - **Concern** The FP data are presented as a single Kd value per condition. It is unclear how many independent replicates were performed, what the error bars are, and whether the difference is statistically significant. The authors also acknowledge that high pressure may promote protein aggregation, which could confound the FP measurements. The Kd values are relatively high (μM range), which may be physiologically relevant but needs more context.
+  - **Why it matters** The quantitative claim of pressure-enhanced binding is a cornerstone of the paper. Without proper statistical analysis and controls for aggregation artifacts, the strength of this claim is uncertain.
+  - **Resolution test** Provide full dose-response curves with error bars from at least three independent experiments, report statistical significance (e.g., p-values), and include a control experiment to rule out aggregation artifacts, such as size-exclusion chromatography or dynamic light scattering of HhpR after pressure treatment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section "Strains, plasmids and growth conditions"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the construction of the hhpR deletion and mutant strains in P. yayanosii is not detailed. The authors mention using a "new approach" for overexpression but do not provide sufficient detail on the genetic tools used.
+  - **Required correction** Provide a more detailed description of the genetic manipulation methods, including the vectors, selection markers, and verification steps, or refer to a previously published protocol with specific details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5E
+  - **Evidence pointer** Results section "In vivo and in vitro mutagenic analyses of HhpR under high hydrostatic pressure"
+  - **Issue** The growth curves in Figure 5E are described qualitatively. It is unclear if the growth differences are statistically significant and how many biological replicates were performed.
+  - **Required correction** Add statistical analysis of growth curves (e.g., growth rate comparison with p-values) and specify the number of replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the potential competition between HhpR and TBP for the TATA-box is speculative. The authors show HhpR binds the TATA-box region, but no experiment addresses whether this binding is mutually exclusive with TBP.
+  - **Required correction** Either add a simple competition experiment (e.g., EMSA with both HhpR and TBP present) or temper the speculation and clearly label it as a hypothesis for future work.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results
+  - **Issue** The term "Arm" is used to describe a structural region, but its definition is only given in the context of the AlphaFold model. It would be helpful to define the exact residue range and structural context more clearly.
+  - **Required correction** Provide a clear definition of the Arm region (e.g., residues 184-229) in the text and in the figure legends, and describe its structural location relative to the CBS domains.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct transcriptional readout in the native host P. yayanosii. 2) Insufficient statistical detail for FP and EMSA experiments. 3) The mechanistic role of S192 is inferred from MD and a single point mutation, without direct biophysical validation of a pressure-dependent conformational change. 4) The potential confounding effect of protein aggregation in FP assays is acknowledged but not experimentally addressed.
+- **Assessment against Nature-style criteria** Originality: High. The identification of a CBS-only protein as a transcriptional activator is novel, and the connection to hydrostatic pressure sensing is a new concept. Scientific importance: Moderate to high. The work has implications for understanding archaeal transcription regulation and piezophile adaptation, but the broad significance beyond these fields may be limited. Interdisciplinary readership: Moderate. The work bridges microbiology, biophysics, and computational biology, but the specialized nature of the topic may limit its appeal to a very broad audience. Technical soundness: The combination of methods is appropriate, but the central mechanistic claims are not fully supported by direct experimental evidence, as detailed above. Readability for nonspecialists: The manuscript is generally well-written and the logic is clear, but the MD simulation sections may be challenging for readers without a computational background. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially significant, but the evidence for the central mechanistic claims needs to be strengthened. Specifically, direct evidence of transcriptional activation in the native host and more rigorous biophysical validation of the pressure-dependent conformational change are required. The manuscript is not currently established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that HhpR is a "high hydrostatic pressure regulator" is not fully supported by direct in vivo transcriptional data in P. yayanosii.
+- The claim that S192 is "an essential site in dictating the conformational changes of HhpR at HHP condition" is based on MD simulations and a single point mutation, without direct structural or biophysical validation.
+- The claim that the Arm region "plays a critical role in regulating the transcription activity" is supported by deletion and mutation experiments, but the specific mechanism of pressure sensing remains speculative.
+- The statement that HhpR binding to the TATA-box may compete with TBP is speculative and not experimentally tested.
+- The phylogenetic analysis and the claim of a "surface branch" lacking the HHP-responsive promoter are based on a limited number of genomes and would benefit from a more comprehensive analysis.

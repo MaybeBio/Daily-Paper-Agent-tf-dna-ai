@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims relative to the provided evidence
+- **Shared manuscript claim summary** The authors present TransBind, an alignment-free deep learning framework that predicts DNA-binding proteins and residues from single protein sequences using ProtT5-XL-UniRef50 language model embeddings, self-attention for global context, and inception V2 modules for local feature extraction, with a weighted loss function to address class imbalance. They report state-of-the-art performance on multiple benchmark datasets and emphasize suitability for orphan proteins lacking evolutionary information.
+- **Visible evidence base** Performance tables on PDNA-224, PDNA-316, PDNA-543, PDNA-41, DNA-129, RNA-117, PDB-1075, and PDB-186; ablation studies; running time comparisons; case study figures
+- **Missing materials affecting confidence** No supplementary figures or tables were provided; no detailed hyperparameter settings; no confidence intervals or statistical significance tests for most comparisons; no explicit description of train/validation/test splits for the 10-fold cross-validation; no code or web server access verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in computational biology with a practical motivation. The core idea of combining protein language model embeddings with inception modules for residue-level prediction is reasonable and the reported performance improvements are substantial. However, several technical aspects require clarification and additional validation before the claims can be fully supported. The comparison methodology, particularly the handling of the PDNA-41 test set and the reporting of results from prior studies, needs more rigorous treatment. The ablation studies are informative but incomplete in some respects.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, specifically those developing or using tools for DNA-binding protein and residue identification. The alignment-free approach may appeal to researchers studying orphan proteins or proteins from rapidly evolving organisms where evolutionary information is limited. The methodological framework combining language models with convolutional architectures could also interest researchers applying deep learning to biological sequence analysis.
+- **Major strengths** The problem is well-motivated and practically relevant. The use of protein language model embeddings is timely and appropriate. The authors address the class imbalance issue explicitly with a weighted loss function. The evaluation covers multiple benchmark datasets and includes both residue-level and protein-level tasks. The running time comparison provides practical value. The ablation studies help isolate contributions of different components.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that TransBind "significantly outperforms state-of-the-art methods" on the PDNA-41 independent test set
+  - **Evidence pointer** Table 5, section "DNA-binding protein residue prediction results"
+  - **Concern** The authors evaluated TransBind on 37 non-redundant sequences after removing 4 sequences with ≥30% similarity to training sets, while prior methods were evaluated on all 41 sequences. This creates an unfair comparison. The authors report both results for TransBind, but the headline comparison in the text emphasizes the 37-sequence result. The removal of test sequences based on similarity to training data is a form of test set filtering that can inflate performance estimates. The authors need to clarify whether the prior methods' results were also obtained after such filtering, and if not, the comparison is not apples-to-apples.
+  - **Why it matters** The central claim of superior performance rests on this comparison. If the comparison is biased, the conclusion that TransBind outperforms existing methods is not supported. The independent test set is meant to simulate real-world performance, and filtering it compromises this purpose.
+  - **Resolution test** The authors should either (a) report TransBind's performance on all 41 sequences as the primary comparison, or (b) re-evaluate prior methods on the same 37-sequence subset, or (c) provide a clear justification for why the 4 removed sequences are problematic for all methods equally and demonstrate that the conclusion holds under both evaluation protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that TransBind "effectively handles the issue of data imbalance" through the weighted loss function
+  - **Evidence pointer** Table 12, section "Training with weighted loss distribution for tackling class imbalance", Table 7
+  - **Concern** The ablation study shows that removing the weighted loss function reduces MCC from 0.824 to 0.740 on PDNA-224 and from 0.827 to 0.710 on PDNA-316. While this demonstrates the importance of the weighted loss, the authors do not report sensitivity and specificity separately for the ablation conditions. It is unclear whether the weighted loss improves sensitivity at the cost of specificity, or whether it improves both. Additionally, the authors do not compare against alternative class imbalance handling techniques such as oversampling, undersampling, or SMOTE, which would strengthen the claim that the weighted loss is the optimal approach.
+  - **Why it matters** The class imbalance handling is presented as a key contribution. Without a more detailed analysis of its effects and a comparison to alternatives, the claim that this approach "effectively handles" imbalance is not fully substantiated.
+  - **Resolution test** Report sensitivity and specificity for the ablation conditions. Compare the weighted loss approach against at least one alternative imbalance handling method. Show that the weighted loss improves the overall balance of precision and recall, not just MCC.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that TransBind is available as a web server and that the implementation is provided as open-source code
+  - **Evidence pointer** Abstract, section "Statistics and reproducibility"
+  - **Concern** The manuscript states that the complete implementation is provided as an open-source codebase, but no repository URL, DOI, or access instructions are provided in the text. The web server URL is given, but its functionality and availability cannot be verified from the manuscript. For a methods paper in computational biology, the absence of accessible code is a significant barrier to reproducibility and adoption.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without access to the code, other researchers cannot verify the results, apply the method to their own data, or build upon the approach. This limits the scientific impact of the work.
+  - **Resolution test** Provide a stable repository URL (e.g., GitHub, Zenodo) with the complete codebase, trained model weights, and instructions for reproduction. Verify that the web server is functional and accessible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that TransBind is suitable for "orphan proteins or those that evolve rapidly" based on the NEFF score analysis
+  - **Evidence pointer** Figure 2, section "Performance analysis based on homologous sequence similarity"
+  - **Concern** The NEFF analysis compares TransBind only against iProDNA, which is a single MSA-based method. The conclusion that TransBind is superior for low-homology proteins would be strengthened by including more MSA-based methods in this comparison. Additionally, the NEFF values in the PDNA-41 dataset range from 3 to 12, which may not represent truly orphan proteins (NEFF close to 1). The authors acknowledge this limitation in the discussion but do not provide any additional evidence, such as a case study on a known orphan protein, to support the claim.
+  - **Why it matters** The suitability for orphan proteins is a key differentiator of the alignment-free approach. If the evidence is limited to a single comparison on a dataset with moderate NEFF values, the claim is not fully supported.
+  - **Resolution test** Include additional MSA-based methods in the NEFF analysis. If possible, test on a dataset containing proteins with NEFF values closer to 1. Alternatively, provide a case study demonstrating successful prediction on a known orphan protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure legend is dense and the schematic is complex. The relationship between the global feature extraction (self-attention) and the local feature extraction (inception modules) is not immediately clear from the figure alone. The notation in the figure (e.g., d, d') is not fully explained in the legend.
+  - **Required correction** Simplify the figure or expand the legend to clearly explain each component and the data flow. Define all notation used in the figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance comparisons
+  - **Evidence pointer** Tables 1, 3, 4, 5
+  - **Issue** The manuscript reports point estimates for performance metrics without confidence intervals or statistical significance tests for most comparisons. The authors state that one difference is "not statistically significant (p value > 0.05)" but do not describe the statistical test used or report p-values for other comparisons.
+  - **Required correction** Provide confidence intervals or perform statistical significance tests for the key comparisons, and describe the statistical methodology in the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Hyperparameter details
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript does not provide details on hyperparameter selection, such as learning rate, batch size, number of training epochs, optimizer choice, or early stopping criteria. The number of inception modules is mentioned as chosen via ablation, but other architectural details are sparse.
+  - **Required correction** Add a table or paragraph in the Methods section listing all hyperparameters and the selection procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language quality
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion section contains a sentence with a grammatical error: "We utilized the protein language model ProtTrans22 for feature generation. A more recent and larger language model (ESM-2)48 for proteins." This sentence is incomplete.
+  - **Required correction** Revise the sentence to be grammatically complete, for example: "We utilized the protein language model ProtTrans22 for feature generation. A more recent and larger language model, ESM-2, is also available for proteins."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Table 8
+  - **Evidence pointer** Table 8
+  - **Issue** The table header says "RNA129" but the text refers to "RNA-117". This is inconsistent and confusing.
+  - **Required correction** Correct the table header to "RNA-117" to match the text and the dataset name used elsewhere.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Case studies
+  - **Evidence pointer** Figure 4
+  - **Issue** The case studies are described as involving "visual inspection of predicted DNA-binding residues" but no quantitative assessment of the case study predictions is provided. It is unclear how representative these examples are.
+  - **Required correction** Provide quantitative metrics for the case study predictions or clarify that these are illustrative examples only.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unfair comparison on PDNA-41), R1-M2 (incomplete ablation analysis), R1-M3 (missing code availability)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The combination of ProtT5 embeddings with inception modules for DNA-binding prediction is novel in its specific architecture, though the individual components are established. The alignment-free approach is not entirely new but the specific implementation and evaluation are original.
+  - Scientific importance: Moderate to high. DNA-binding protein prediction is an active area with practical applications. The potential advantage for orphan proteins is important, but the evidence for this claim is currently limited.
+  - Interdisciplinary readership: Moderate. The work will primarily interest computational biologists and bioinformaticians. The biological implications are clear but the methodological focus may limit broader appeal.
+  - Technical soundness: The core methodology is reasonable, but the evaluation has significant issues (R1-M1) that undermine the central performance claims. The ablation study is informative but incomplete (R1-M2). Reproducibility is compromised by missing code (R1-M3).
+  - Readability for nonspecialists: The abstract and introduction are accessible. The methods section is technical but appropriate for the target audience. Some figures could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core approach is promising and the reported performance is impressive, but the evaluation methodology must be corrected to provide a fair comparison, the ablation analysis needs to be more complete, and the code must be made available. These are addressable issues that do not require a fundamental redesign of the method.
+
+## Risk / unsupported claims
+- The claim of "significantly outperforming" prior methods on PDNA-41 is not supported due to the unequal evaluation protocol (37 vs 41 sequences).
+- The claim that TransBind is suitable for orphan proteins is only weakly supported by the NEFF analysis, which compares against a single MSA-based method and does not include truly orphan proteins.
+- The claim that the weighted loss function "effectively handles" class imbalance is only partially supported, as the ablation does not report sensitivity and specificity separately.
+- The claim of open-source code availability is unverifiable as no repository is provided.
+- The performance on DNA-129 and RNA-117 datasets is presented as competitive but the comparison is limited to a subset of methods, and the significance of the differences is not assessed.

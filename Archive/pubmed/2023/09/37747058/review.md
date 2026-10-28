@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that two plant-derived compounds, Rapanone and Nectandrin B, bind to the allosteric region of the metastatic regulator protein BACH1, thereby altering BACH1 downstream target gene expression relevant to cancer progression and metastasis. They report in silico screening (structural screening, ADMET, DFT, MESP) and state that the predicted compounds were further validated through in vitro experimental approaches using the breast cancer cell line MCF-7.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational methods and parameters, in vitro experimental protocols, statistical analyses, and any raw or processed data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis-driven computational study with an in vitro validation component, but the evidence base is insufficient to evaluate the central claims. The abstract lacks quantitative results, methodological transparency, and experimental detail. The claim that Rapanone and Nectandrin B are "novel candidates" for anti-cancer drug development is not supported by the provided material. The study may be of interest to researchers in computational drug discovery and cancer biology, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, medicinal chemistry, and cancer biology, particularly those focused on transcription factor targeting, allosteric modulation, and natural product-based therapeutics. The potential novelty of BACH1 as a target and the use of plant-derived compounds may attract interest from groups working on metastasis and heme-regulated pathways.
+- **Major strengths** The target protein BACH1 is a biologically relevant and relatively underexplored regulator in metastasis, which gives the study potential scientific value. The combination of computational screening with in vitro validation is a reasonable workflow. The focus on allosteric binding is a thoughtful approach that may offer selectivity advantages over orthosteric inhibition.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that Rapanone and Nectandrin B "have the potential to alter the degree of gene expression via binding with the BACH1 allosteric region" and that they "might be novel candidates for developing anti-cancer drugs."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as binding affinities, IC50 values, or gene expression fold changes, to support the claimed effects. No experimental results from the in vitro validation are described.  
+  - **Why it matters** Without quantitative evidence, the central claims of binding and functional modulation are unverifiable. The term "novel" requires demonstration of distinct activity or mechanism relative to known compounds, which is absent.  
+  - **Resolution test** Provide specific binding affinity values (e.g., KD or IC50) from computational and experimental assays, and show dose-dependent effects on BACH1 target gene expression in MCF-7 cells with appropriate statistical significance.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that "structural screening, ADMET, DFT and MESP" were used, and that "predicted compounds were further validated through in-vitro experimental approaches."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No methodological details are given for any of the computational or experimental steps. The specific software, parameters, cell culture conditions, assay types, and controls are not described.  
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without methodological transparency, the results cannot be independently assessed or replicated.  
+  - **Resolution test** Provide a detailed Methods section covering all computational parameters, software versions, validation sets, cell culture conditions, assay protocols, and statistical methods.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Specificity of mechanism  
+  - **Claim pointer** The abstract claims that the compounds bind to the "BACH1 allosteric region" and alter downstream target gene expression.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not specify which allosteric region is targeted, how this was determined, or whether binding was shown to be specific to BACH1 over other bZIP family members.  
+  - **Why it matters** Allosteric modulation claims require demonstration of a defined binding site and selectivity. Without this, off-target effects cannot be excluded, and the mechanistic interpretation is weakened.  
+  - **Resolution test** Provide structural evidence (e.g., docking poses, molecular dynamics simulations, or mutagenesis data) identifying the allosteric site, and show selectivity assays against related proteins.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Background statement  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The opening sentence on cancer formation is overly general and does not add specific context for the study.  
+  - **Required correction** Replace with a focused statement on the role of transcription factors in metastasis and the rationale for targeting BACH1.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "novel"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The term "novel" is used without comparative evidence against existing BACH1 inhibitors or known compounds.  
+  - **Required correction** Define "novel" in the context of the study, or temper the claim to "potential candidates" pending comparative data.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** In vitro validation description  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract states that compounds were "further validated" but gives no indication of what was measured or the outcome.  
+  - **Required correction** Include a brief summary of the experimental endpoints and key findings in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological detail means the central claims cannot be evaluated. R1-M3 is non-blocking but should be addressed to strengthen the mechanistic interpretation.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on BACH1 as a metastatic regulator and the use of natural compounds is somewhat original, but the abstract does not demonstrate how this advances beyond existing computational drug discovery studies.  
+  - **Scientific importance** The potential role of BACH1 in metastasis is biologically important, but the abstract does not provide evidence that the findings have broad implications for cancer therapy.  
+  - **Interdisciplinary readership** The work spans computational chemistry, structural biology, and cancer biology, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative data prevents evaluation of the technical rigor.  
+  - **Readability for nonspecialists** The abstract is dense with jargon and does not clearly explain the significance of the findings in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable hypothesis and workflow, but the absence of quantitative results, methodological transparency, and experimental detail means the central claims are unsupported. The manuscript may become viable after substantial revision and provision of full data.
+
+## Risk / unsupported claims
+- The claim that Rapanone and Nectandrin B "have the potential to alter the degree of gene expression" is unsupported by any data in the abstract.
+- The claim that these compounds "might be novel candidates for developing anti-cancer drugs" is unsupported without comparative analysis or experimental efficacy data.
+- The statement that the compounds were "further validated through in-vitro experimental approaches" is unverifiable because no experimental results are described.
+- The identification of a specific "allosteric region" on BACH1 is not supported by any structural or functional evidence in the abstract.

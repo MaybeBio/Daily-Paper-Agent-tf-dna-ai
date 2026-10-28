@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.16.528799",
+  "title": "Attention network for predicting T cell receptor-peptide binding can associate attention with interpretable protein structural properties",
+  "authors": "Kyohei Koyama; Kosuke Hashimoto; Chioko Nagao; Kenji Mizuguchi",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-16",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Transformer注意力网络预测TCR-肽结合，虽涉及蛋白-肽互作建模，但对象非蛋白质-DNA体系，方法可迁移性有限，仅部分相关。",
+  "abstract": "Understanding how a T cell receptor (TCR) recognizes its specific ligand peptide is crucial for gaining insight into biological functions and disease mechanisms. Despite its importance, experimentally determining TCR-peptide interactions is expensive and time-consuming. To address this challenge, computational methods have been proposed, but they are typically evaluated by internal retrospective validation only, and few have incorporated and tested an attention layer from language models into structural information. Therefore, in this study, we developed a machine learning model based on a modified version of the Transformer, a source-target-attention neural network, to predict TCR-peptide binding solely from the amino acid sequences of the TCR’s complementarity-determining region (CDR) 3 and the peptide. This model achieved competitive performance on a benchmark dataset of TCR-peptide binding, as well as on a truly new external dataset. Additionally, by analyzing the results of binding predictions, we associated the neural network weights with protein structural properties. By classifying the residues into large and small attention groups, we identified statistically significant properties associated with the largely attended residues, such as hydrogen bonds within the CDR3. The dataset that we have created and our model’s ability to provide an interpretable prediction of TCR-peptide binding should increase our knowledge of molecular recognition and pave the way to designing new therapeutics.",
+  "abstract_zh": "理解T细胞受体（TCR）如何识别其特异性配体肽，对于深入了解生物学功能和疾病机制至关重要。尽管其重要性不言而喻，但通过实验确定TCR-肽相互作用既昂贵又耗时。为应对这一挑战，已提出计算方法，但这些方法通常仅通过内部回顾性验证进行评估，且很少有方法将语言模型中的注意力层整合并测试到结构信息中。因此，在本研究中，我们开发了一种基于改进版Transformer（一种源-目标-注意力神经网络）的机器学习模型，仅从TCR互补决定区（CDR）3和肽的氨基酸序列预测TCR-肽结合。该模型在TCR-肽结合的基准数据集以及一个真正的新外部数据集上均取得了竞争性性能。此外，通过分析结合预测结果，我们将神经网络权重与蛋白质结构特性相关联。通过将残基分为大注意力组和小注意力组，我们识别出与大注意力残基相关的统计显著特性，例如CDR3内的氢键。我们创建的数据集以及模型提供可解释的TCR-肽结合预测的能力，应能增进我们对分子识别的理解，并为设计新疗法铺平道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.16.528799",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.16.528799",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.16.528799/index.html"
+}

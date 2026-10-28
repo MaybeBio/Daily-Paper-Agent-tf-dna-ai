@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37821327",
+  "title": "Identification the Low Oxidative Stress Subtype of Periodontitis.",
+  "authors": "Wu, Yuchen; Zhang, Xianfang; Chen, Yunong; Chen, Weiting; Qian, Wenhao",
+  "journal": "International dental journal",
+  "published_date": "2023-10-12",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过聚类和LASSO识别牙周炎低氧化应激亚型，虽涉及转录因子但仅作差异表达统计，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: The aim of this research was to identify the low oxidative stress-related genes expression (L-OS) subtype in patients with periodontitis. METHODS: Microarray data (MA) were retrieved from the Gene Expression Omnibus database. The different oxidative stress (OS) subtypes of periodontitis were identified by K-means clustering analysis and gene set variation analysis (GSVA). Differentially expressed genes (DEGs) (|Log fold change (FC)| >1, q < 0.05) amongst the OS subtypes and healthy controls (HCs) were identified by Limma R package. The genomic feature of L-OS subtype and corresponding medicines were evaluated and visualised with Drug-Gene Interaction Database and cytoscape-v3.7.2 software (Pearson correlation coefficient > 0.4). Finally, the LASSO-Logistic regression model was adopted to evaluate and predict patients' OS phenotype in routine clinical practice. RESULTS: The 241 periodontitis samples and 69 HCs were included. Thirty-three DEGs between the L-OS and high oxidative stress-related genes expression (H-OS) subtypes and 96 DEGs, including 8 transcription factors, between L-OS subtype and HCs were identified, respectively. Then, the network of TFs-Genes-Drugs was constructed to determine genomic feature of L-OS subtype. Finally, a 4-gene signature formula and the cutoff value were identified by ML with LASSO model to predict patients' classification. CONCLUSIONS: For the first time, we identified L-OS subtype of periodontitis and evaluated its genomic feature with MA.",
+  "abstract_zh": "目的：本研究旨在识别牙周炎患者中低氧化应激相关基因表达（L-OS）亚型。方法：从Gene Expression Omnibus数据库获取微阵列数据（MA）。通过K-means聚类分析和基因集变异分析（GSVA）识别牙周炎的不同氧化应激（OS）亚型。利用Limma R包识别OS亚型与健康对照（HCs）之间的差异表达基因（DEGs）（|Log fold change (FC)| >1, q < 0.05）。评估L-OS亚型的基因组特征及相应药物，并使用Drug-Gene Interaction Database和cytoscape-v3.7.2软件（Pearson相关系数 > 0.4）进行可视化。最后，采用LASSO-Logistic回归模型评估并预测常规临床实践中患者的OS表型。结果：共纳入241例牙周炎样本和69例HCs。分别识别出L-OS与高氧化应激相关基因表达（H-OS）亚型之间的33个DEGs，以及L-OS亚型与HCs之间的96个DEGs（包括8个转录因子）。随后，构建了TFs-Genes-Drugs网络以确定L-OS亚型的基因组特征。最后，通过机器学习（ML）结合LASSO模型识别出4基因特征公式及截断值，用于预测患者分类。结论：我们首次识别了牙周炎的L-OS亚型，并利用MA评估了其基因组特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37821327/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37821327/",
+  "paper_page_path": "papers/pubmed/37821327/index.html"
+}

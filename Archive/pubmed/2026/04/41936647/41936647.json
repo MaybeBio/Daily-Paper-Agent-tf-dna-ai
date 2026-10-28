@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41936647",
+    "doi": "10.1038/s41598-026-47878-9",
+    "title": "Identification of NF-kappaB pathway-related biomarkers in myocardial ischemia-reperfusion injury: based on transcriptomics analysis and RT-qPCR validation."
+  },
+  "content": {
+    "abstract": "Myocardial ischemia-reperfusion injury (MIRI) limits the success of reperfusion therapies. Identifying potential biomarkers within the nuclear factor kappa-B (NF-kappaB) pathway is critical for developing new treatments. Transcriptomic data from mouse MIRI models were combined with NF-kappaB pathway-related genes. Candidate genes were identified from the overlapping differentially expressed genes. Potential biomarkers were selected via protein-protein interaction network analysis and validated with independent datasets. We performed functional analysis, built transcription factor and competing endogenous RNA (ceRNA) networks, and conducted drug prediction and molecular docking. Reverse transcription quantitative polymerase chain reaction (RT-qPCR) validation was performed in a MIRI mouse model. Nine candidate genes were identified, with Nfkbia and Icam1 emerging as potential biomarkers. Functional analysis connected Nfkbia to mitochondrial metabolism and Icam1 to extracellular matrix processes/nuclear processes. A regulatory network involving mmu-miR-706 and seven lncRNAs was constructed. Drug prediction identified Tosyllysyl Chloromethyl Ketone (TLCK) as exhibiting favourable binding affinity for both targets. Experimental validation confirmed significant upregulation of Nfkbia and Icam1 in MIRI. This study established Nfkbia and Icam1 as key NF-kappaB-associated genes in MIRI and constructed a ceRNA network. These findings advance our understanding of MIRI mechanisms and support future therapy development. However, these findings were based on bioinformatics analysis and preliminary experimental validation, and required further functional experiments for confirmation.",
+    "keywords": [
+      "Biomarkers",
+      "Myocardial ischemia-reperfusion injury",
+      "Nuclear factor kappa-B signaling pathway",
+      "Reverse transcription quantitative polymerase chain reaction (RT-qPCR)",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Myocardial Reperfusion Injury/genetics/metabolism",
+      "*NF-kappa B/metabolism/genetics",
+      "Mice",
+      "Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "Signal Transduction",
+      "Intercellular Adhesion Molecule-1/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "NF-KappaB Inhibitor alpha/genetics/metabolism",
+      "RNA, Competitive Endogenous",
+      "*Transcriptome",
+      "Protein Interaction Maps",
+      "MicroRNAs/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "RNA, Long Noncoding/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ting, Wang",
+        "Helong, Xiao",
+        "Xiaoyu, Wang",
+        "Chuanqiang, Wang",
+        "Xiao, Hu",
+        "Yang, Yang",
+        "Zhe, Yuan",
+        "Shaopeng, Xu",
+        "Xiaoyong, Geng"
+      ],
+      "short_names": [
+        "Ting W",
+        "Helong X",
+        "Xiaoyu W",
+        "Chuanqiang W",
+        "Xiao H",
+        "Yang Y",
+        "Zhe Y",
+        "Shaopeng X",
+        "Xiaoyong G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China.",
+        "Department of Urology, Hebei General Hospital, Xinhua District, Shijiazhuang, 050051, Hebei, China.",
+        "Basic Medicine College, Hebei Medical University, Chang'an District, Shijiazhuang, 050017, Hebei, China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China.",
+        "Department of Pathophysiology, Basic Medicine College, Hebei Medical University, Chang'an District, Shijiazhuang, 050017, Hebei, China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China. wanggeyy@163.com.",
+        "Department of Emergency, Hebei Medical University Third Hospital, Qiaoxi District, Shijiazhuang, 050051, Hebei, China.",
+        "Department of Cardiology, Tianjin Medical University General Hospital, No. 154, Anshan Road, Heping District, Tianjin, 300052, China.",
+        "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ting, Wang",
+        "short_name": "Ting W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Helong, Xiao",
+        "short_name": "Helong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Hebei General Hospital, Xinhua District, Shijiazhuang, 050051, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Xiaoyu, Wang",
+        "short_name": "Xiaoyu W",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Medicine College, Hebei Medical University, Chang'an District, Shijiazhuang, 050017, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Chuanqiang, Wang",
+        "short_name": "Chuanqiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Hu",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Basic Medicine College, Hebei Medical University, Chang'an District, Shijiazhuang, 050017, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China. wanggeyy@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhe, Yuan",
+        "short_name": "Zhe Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Hebei Medical University Third Hospital, Qiaoxi District, Shijiazhuang, 050051, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Shaopeng, Xu",
+        "short_name": "Shaopeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Tianjin Medical University General Hospital, No. 154, Anshan Road, Heping District, Tianjin, 300052, China."
+        ]
+      },
+      {
+        "full_name": "Xiaoyong, Geng",
+        "short_name": "Xiaoyong G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Hebei Medical University Third Hospital, No. 139, Ziqiang Road, Qiaoxi District, Shijiazhuang, 050051, Hebei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 00:30",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41511954",
+      "40543739",
+      "40524966",
+      "40488073",
+      "40484296",
+      "39916296",
+      "39901081",
+      "39840456",
+      "39743560",
+      "39579610",
+      "39354752",
+      "39247823",
+      "39208667",
+      "39173998",
+      "39094441",
+      "38951872",
+      "38935597",
+      "38901133",
+      "38811893",
+      "38734270",
+      "38539069",
+      "38433280",
+      "38194476",
+      "38164265",
+      "38001797",
+      "37981501",
+      "37938702",
+      "37816503",
+      "37789265",
+      "37533858",
+      "37343523",
+      "37333454",
+      "37239170",
+      "37141734",
+      "37121061",
+      "37006305",
+      "36931251",
+      "36882149",
+      "36412213",
+      "36402779",
+      "36012242",
+      "35936362",
+      "35817544",
+      "35485136",
+      "35220887",
+      "35196865",
+      "35181472",
+      "35081431",
+      "35069835",
+      "35011166",
+      "35005117",
+      "34794889",
+      "34557778",
+      "34466750",
+      "33713655",
+      "33563757",
+      "33215446",
+      "33177555",
+      "33149752",
+      "32958760",
+      "32620851",
+      "32408605",
+      "32353688",
+      "32173461",
+      "29403554",
+      "29158945",
+      "27257885",
+      "27207943",
+      "27183626",
+      "26038570",
+      "25449698",
+      "25146045",
+      "24157164",
+      "23598708"
+    ],
+    "similar": [
+      "41936647",
+      "41350331",
+      "33658008",
+      "40346414",
+      "42565562",
+      "41690037",
+      "42349222",
+      "30974198",
+      "33191336",
+      "41442992",
+      "40119934",
+      "39473404",
+      "33215446",
+      "31916040",
+      "42265766",
+      "42348093",
+      "39520298",
+      "39747134",
+      "42059276",
+      "33444723",
+      "41836445",
+      "41888404",
+      "42104495",
+      "40789279",
+      "38539069",
+      "32155320",
+      "35909518",
+      "41299377",
+      "38951872",
+      "40091022",
+      "37858115",
+      "40069854",
+      "32705277",
+      "30321469",
+      "41155329",
+      "33863336",
+      "39604866",
+      "42471019",
+      "41299729",
+      "36575422",
+      "41310008",
+      "39432302",
+      "36223608",
+      "36325326",
+      "40241120",
+      "40507971",
+      "41921237",
+      "33299863",
+      "36187128",
+      "41562054",
+      "40902508",
+      "40510478",
+      "41511954",
+      "33675584",
+      "35392084",
+      "36621258",
+      "28771774",
+      "40821971",
+      "40510362",
+      "42093976",
+      "40068024",
+      "32087217",
+      "33415145",
+      "42269884",
+      "36189147",
+      "31210324",
+      "42024670",
+      "27485280",
+      "40563085",
+      "32434515",
+      "41303615",
+      "40628511",
+      "42123445",
+      "39736524",
+      "35378210",
+      "42184497",
+      "42172986",
+      "41265260",
+      "41688931",
+      "42382761",
+      "36301033",
+      "35957838",
+      "41161665",
+      "35650158",
+      "40411685",
+      "34601814",
+      "41530916",
+      "33237828",
+      "36453191",
+      "38935597",
+      "29727715",
+      "41550926",
+      "36098178",
+      "40653514",
+      "37063926",
+      "36171401",
+      "35264782",
+      "37608040",
+      "31658856",
+      "34632932"
+    ],
+    "review": [
+      "41936647"
+    ],
+    "pmc": [
+      "13061962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-47878-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41936647/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and conclusions. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and internal consistency of the presented evidence. No assessment of the publication venue or editorial fit beyond the stated criteria.
+- **Shared manuscript claim summary** The authors report that SOD1 binds a synthetic double-stranded DNA fragment (5’-ATGGAATGGAAT-3’) in a redox-dependent manner, as evidenced by FRET, MST, and SAXS. They propose that oxidation (H2O2) or SOD1 inhibitors disrupt the DNA-SOD1 complex by altering SOD1 structure, while reducing conditions (GSH) do not affect complex formation. The authors suggest this redox-dependent DNA binding may underlie SOD1-mediated gene expression regulation.
+- **Visible evidence base** Main text figures (Figures 1–4), Table 1, and references to supplementary figures (Figures S1–S9). The supplementary materials themselves were not provided for review.
+- **Missing materials affecting confidence** All supplementary figures (S1–S9), raw SAXS data, SAXS fitting parameters, HADDOCK scoring details, and experimental replicates. Without these, the reliability of the SAXS-derived models and the quantitative binding data cannot be fully assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting hypothesis linking SOD1 redox state to DNA binding, with potential implications for gene regulation. The combination of FRET, MST, and SAXS is appropriate in principle. However, the evidence presented is largely qualitative, and several key controls and quantitative analyses are missing. The SAXS data, in particular, are used to support strong structural claims without sufficient detail on data quality, model validation, or alternative interpretations. The redox-dependence claim is plausible but not rigorously established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying SOD1 biology, oxidative stress responses, redox signaling, and DNA-protein interactions. The potential link between SOD1 redox state and gene regulation could interest those working on neurodegenerative diseases (e.g., ALS) and cancer, where SOD1 dysfunction is implicated.
+- **Major strengths** The study addresses a novel and potentially important function of SOD1 beyond its canonical antioxidant role. The use of multiple biophysical techniques (FRET, MST, SAXS) is commendable. The authors provide a plausible mechanistic framework linking redox conditions to complex formation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SAXS data demonstrate the formation of a DNA-SOD1 complex and that the complex profile changes under redox conditions.
+  - **Evidence pointer** Section 2.2, Figures 2–4, Table 1
+  - **Concern** The SAXS analysis is presented without critical details. The authors report Rg and Dmax values but do not provide the SAXS data quality indicators (e.g., Guinier plot linearity, Kratky plot, χ² values for model fits beyond one instance). The ab initio modeling (DAMMIN) and the comparison with the HADDOCK model are described, but the fit quality between the experimental SAXS curve and the theoretical curve from the HADDOCK model is not quantified (e.g., χ² or residuals). Without these, the claim that the SAXS profile is consistent with the proposed complex structure is not verifiable.
+  - **Why it matters** SAXS is a low-resolution technique, and the interpretation of the data is highly dependent on the quality of the data and the rigor of the modeling. Overinterpretation of SAXS data without proper validation can lead to incorrect structural conclusions.
+  - **Resolution test** Provide the SAXS data quality metrics (e.g., Guinier plots, χ² values for all fits), show the fit of the HADDOCK model to the experimental SAXS curve with residuals, and include a discussion of the ambiguity of the ab initio models (e.g., NSD values from DAMAVER).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that H2O2 disrupts the DNA-SOD1 complex by destroying SOD1 structure, while GSH does not affect complex formation.
+  - **Evidence pointer** Section 2.3, Figures 4, S6–S8, Table 1
+  - **Concern** The redox-dependence claim is based on SAXS profile changes, but the authors do not provide direct evidence that H2O2 alters SOD1 structure under the specific conditions used. The reference to previous work (ref [9]) is insufficient. The SAXS parameters (Rg, Dmax) for the complex with H2O2 are reported to increase, but the statistical significance of these changes is not assessed. Furthermore, the effect of H2O2 on the DNA alone is not controlled for. The claim that GSH does not affect the complex is based on similar SAXS profiles, but again, quantitative comparison is lacking.
+  - **Why it matters** The central hypothesis of the paper is that complex formation is redox-dependent. Without rigorous evidence that the observed SAXS changes are due to SOD1 structural changes and not to DNA degradation, aggregation, or other artifacts, the conclusion is not robust.
+  - **Resolution test** Include controls for H2O2 and GSH effects on DNA alone. Provide statistical analysis of the SAXS parameter changes (e.g., error bars, replicates). Directly assess SOD1 structural integrity under the redox conditions (e.g., by CD or activity assays) in the same buffer and time frame as the SAXS experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the redox-dependent DNA binding of SOD1 could underlie its role in gene expression regulation.
+  - **Evidence pointer** Abstract, Introduction, Section 4
+  - **Concern** The link between the in vitro observations and the proposed biological function is speculative. The DNA sequence used (5’-ATGGAATGGAAT-3’) is synthetic, and its relevance to genomic SOD1 binding sites is not established. The authors do not discuss how the micromolar binding affinity (Kd ~105–155 nM) relates to physiological conditions or how redox-dependent binding would translate to transcriptional regulation in cells.
+  - **Why it matters** The broader significance of the work depends on the biological relevance of the observed phenomenon. Without a clear connection to in vivo conditions or functional assays, the impact of the findings is limited.
+  - **Resolution test** Discuss the physiological relevance of the binding affinity and the DNA sequence. If possible, include preliminary data or a clear rationale linking the in vitro redox-dependent binding to known SOD1 functions in gene regulation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section 1, Section 4
+  - **Issue** The manuscript assumes familiarity with SAXS and redox biology. Terms like "ab initio modeling" and "cross-term" are used without explanation.
+  - **Required correction** Briefly define key technical terms and provide a short explanation of what SAXS can and cannot reveal about complex formation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Materials and Methods, Section 3.3
+  - **Issue** The MST section contains an apparent error: "156 mM" is stated for SOD1 concentration, which is implausibly high. This is likely a typo for 156 μM or similar.
+  - **Required correction** Correct the concentration unit and ensure all values are consistent throughout the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Figure 1
+  - **Issue** The FRET and MST binding constants (105 nM and 155 nM) are reported, but the fitting procedures and error estimates are not described.
+  - **Required correction** Provide details on the fitting models and include error bars or confidence intervals for the Kd values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SAXS data quality and model validation), R1-M2 (lack of controls and statistical analysis for redox effects).
+- **Assessment against Nature-style criteria** Originality: The idea of redox-dependent DNA binding by SOD1 is novel and extends beyond its canonical antioxidant role. Scientific importance: Potentially significant for understanding SOD1 functions in gene regulation, but the current evidence is too preliminary to establish this. Interdisciplinary readership: The topic bridges redox biology, biophysics, and gene regulation, which could attract a broad audience. Technical soundness: The study is technically weak in its current form due to missing SAXS validation and controls. Readability for nonspecialists: The manuscript is accessible but could benefit from clearer explanations of the biophysical methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting, but the evidence presented is insufficient to fully support the claims. The authors must provide rigorous SAXS data analysis, appropriate controls, and a clearer link to biological relevance.
+
+## Risk / unsupported claims
+- The claim that SAXS profiles demonstrate a specific DNA-SOD1 complex structure is unsupported without model fit statistics and data quality metrics.
+- The claim that H2O2 disrupts the complex by destroying SOD1 structure is not directly evidenced in this study.
+- The claim that GSH does not affect complex formation is based on qualitative SAXS profile comparison without statistical support.
+- The biological relevance of the observed binding affinity and DNA sequence to gene regulation is speculative and not supported by data presented here.

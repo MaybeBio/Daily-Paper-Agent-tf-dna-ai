@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34176069",
+  "title": "UMAP-DBP: An Improved DNA-Binding Proteins Prediction Method Based on Uniform Manifold Approximation and Projection.",
+  "authors": "Wang, Jinyue; Zhang, Shengli; Qiao, Huijuan; Wang, Jiesheng",
+  "journal": "The protein journal",
+  "published_date": "2021-06-28",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用UMAP和Adaboost基于序列特征预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但无三维结构或结合位点建模，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins play a vital role in cellular processes. It is an extremely urgent to develop a high-throughput method for efficiently identifying DNA-binding proteins. According to the current research situation, some methods in machine learning and deep learning show excellent computational speed and accuracy, which are worthy of application. In this work, a novel predictor was proposed to predict DNA binding proteins called UMAP-DBP. Firstly, the feature extraction of primary protein sequence was realized based on physicochemical distance transformation, Profile-based auto-cross covariance and General series correlation pseudo amino acid composition. Secondly, uniform manifold approximation and projection (UMAP) and feature importance score methods were used for feature selection; there is a progressive relationship between them. Finally, the Adaboost operation engine with jackknife test were adopted for predicting DNA-binding proteins. For the jackknife test on the BP1075 and BP594, we obtained an overall accuracy of 82.97% and 82.14%, Cohen's kappa (CK) of 0.66 and 0.64, respectively. The results illustrate that a feasible method has been developed for predicting DNA-binding proteins by UMAP and Adaboost. This is the first study in which UMAP has been successfully applied to identify DNA-binding proteins. All the datasets and codes are accessible at https://github.com/Wang-Jinyue/UMAP-DBP .",
+  "abstract_zh": "DNA结合蛋白在细胞过程中扮演着至关重要的角色。开发一种高通量方法以高效识别DNA结合蛋白极为迫切。根据当前研究状况，机器学习和深度学习中的一些方法展现出卓越的计算速度和准确性，值得应用。在本工作中，提出了一种名为UMAP-DBP的新型预测器来预测DNA结合蛋白。首先，基于物理化学距离变换、基于谱的自动交叉协方差和通用序列相关伪氨基酸组成实现了初级蛋白质序列的特征提取。其次，采用均匀流形近似与投影（UMAP）和特征重要性评分方法进行特征选择；它们之间存在递进关系。最后，采用带有Jackknife检验的Adaboost操作引擎来预测DNA结合蛋白。在BP1075和BP594上的Jackknife检验中，我们分别获得了82.97%和82.14%的总体准确率，以及0.66和0.64的Cohen's kappa（CK）值。结果表明，通过UMAP和Adaboost开发了一种可行的DNA结合蛋白预测方法。这是首次将UMAP成功应用于识别DNA结合蛋白的研究。所有数据集和代码可在 https://github.com/Wang-Jinyue/UMAP-DBP 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34176069/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34176069/",
+  "paper_page_path": "papers/pubmed/34176069/index.html"
+}

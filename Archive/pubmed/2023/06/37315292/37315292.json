@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "37315292",
+    "doi": "10.18632/aging.204775",
+    "title": "Machine learning and single cell RNA sequencing analysis identifies regeneration-related hepatocytes and highlights a Birc5-related model for identifying cell proliferative ability."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Partial hepatectomy (PHx) has been shown to induce rapid regeneration of adult liver under emergency conditions. Therefore, an in-depth investigation of the underlying mechanisms that govern liver regeneration following PHx is crucial for a comprehensive understanding of this process. METHOD: We analyzed scRNA-seq data from liver samples of normal and PHx-48-hour mice. Seven machine learning algorithms were utilized to screen and validate a gene signature that accurately identifies and predicts this population. Co-immunostaining of zonal markers with BIRC5 to investigate regional characteristics of hepatocytes post-PHx. RESULTS: Single cell sequencing results revealed a population of regeneration-related hepatocytes. Transcription factor analysis emphasized the importance of Hmgb1 transcription factor in liver regeneration. HdWGCNA and machine learning algorithm screened and obtained the key signature characterizing this population, including a total of 17 genes and the function enrichment analysis indicated their high correlation with cell cycle pathway. It is note-worthy that we inferred that Hmgb1 might be vital in the regeneration-related hepatocytes of PHx_48h group. Parallelly, Birc5 might be closely related to the regulation of liver regeneration, and positively correlated with Hmgb1. CONCLUSIONS: Our study has identified a distinct population of hepatocytes that are closely associated with liver regeneration. Through machine learning algorithms, we have identified a set of 17 genes that are highly indicative of the regenerative capacity of hepatocytes. This gene signature has enabled us to assess the proliferation ability of in vitro cultured hepatocytes using sequencing data alone.",
+    "keywords": [
+      "Birc5",
+      "Hmgb1",
+      "hdWGCNA",
+      "liver regeneration",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*HMGB1 Protein/genetics/metabolism",
+      "Hepatocytes/metabolism",
+      "Liver/metabolism",
+      "Cell Proliferation/genetics",
+      "Liver Regeneration/genetics",
+      "Hyperplasia/metabolism",
+      "Transcription Factors/metabolism",
+      "Sequence Analysis, RNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Yuan",
+        "Jian, Shuqin",
+        "Wang, Xicheng",
+        "Yang, Chao",
+        "Qiu, Hua",
+        "Fang, Kang",
+        "Yan, Yehong",
+        "Shi, Jun",
+        "Li, Jianfeng"
+      ],
+      "short_names": [
+        "Du Y",
+        "Jian S",
+        "Wang X",
+        "Yang C",
+        "Qiu H",
+        "Fang K",
+        "Yan Y",
+        "Shi J",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, School of Life Sciences and Technology, Tongji University School of Medicine, Shanghai, China.",
+        "Shanghai Engineering Research Center of Stem Cells Translational Medicine, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Institute for Regenerative Medicine, Shanghai East Hospital, School of Life Sciences and Technology, Tongji University School of Medicine, Shanghai, China.",
+        "Shanghai Engineering Research Center of Stem Cells Translational Medicine, Shanghai, China.",
+        "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of General Surgery, Ji&#x2019;an Hospital of Shanghai East Hospital, School of Medicine, Tongji University, Ji&#x2019;an, Jiangxi, China.",
+        "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Yuan",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Shuqin",
+        "short_name": "Jian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xicheng",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Shanghai East Hospital, School of Life Sciences and Technology, Tongji University School of Medicine, Shanghai, China.",
+          "Shanghai Engineering Research Center of Stem Cells Translational Medicine, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chao",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Regenerative Medicine, Shanghai East Hospital, School of Life Sciences and Technology, Tongji University School of Medicine, Shanghai, China.",
+          "Shanghai Engineering Research Center of Stem Cells Translational Medicine, Shanghai, China.",
+          "Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Hua",
+        "short_name": "Qiu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Kang",
+        "short_name": "Fang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yehong",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jun",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+          "Department of General Surgery, Ji&#x2019;an Hospital of Shanghai East Hospital, School of Medicine, Tongji University, Ji&#x2019;an, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianfeng",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2023 Jun 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/14 19:10",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "41542228",
+      "41424618",
+      "41316377",
+      "40307789",
+      "40048448",
+      "38817855"
+    ],
+    "refs": [
+      "36787740",
+      "36521495",
+      "36446858",
+      "36220068",
+      "36109670",
+      "36102722",
+      "36059151",
+      "35217834",
+      "35114418",
+      "35039505",
+      "34558834",
+      "34510498",
+      "34239132",
+      "33649154",
+      "33632818",
+      "33632817",
+      "33597522",
+      "33208554",
+      "32764740",
+      "32483353",
+      "31866223",
+      "31604482",
+      "31307589",
+      "31092938",
+      "30948431",
+      "30595452",
+      "29758331",
+      "28991892",
+      "24792114",
+      "24703371",
+      "24658644",
+      "23323831",
+      "22455463",
+      "22105172",
+      "19018973",
+      "18600221",
+      "16199517"
+    ],
+    "similar": [
+      "37315292",
+      "33924385",
+      "27634014",
+      "23299899",
+      "28790176",
+      "22730081",
+      "26932815",
+      "33951279",
+      "29384233",
+      "22658593",
+      "26207833",
+      "35288960",
+      "28958935",
+      "17006930",
+      "38147020",
+      "14686788",
+      "33208554",
+      "27493116",
+      "29563755",
+      "32045647",
+      "24818710",
+      "29100037",
+      "32342533",
+      "33649154",
+      "36030652",
+      "17383429",
+      "27012785",
+      "32926856",
+      "26256287",
+      "28419867",
+      "39000319",
+      "30819402",
+      "35831365",
+      "26327817",
+      "10782913",
+      "35072185",
+      "18990226",
+      "37445951",
+      "38382654",
+      "30546054",
+      "28965986",
+      "23872603",
+      "27166189",
+      "21435447",
+      "38710666",
+      "31558421",
+      "24844558",
+      "25377314",
+      "18000337",
+      "31828136",
+      "34387904",
+      "32141704",
+      "23049211",
+      "35464270",
+      "32251301",
+      "31972235",
+      "29066412",
+      "21527726",
+      "24649805",
+      "30679666",
+      "28653763",
+      "26633692",
+      "24970745",
+      "32170749",
+      "16273211",
+      "31894329",
+      "15836849",
+      "29915286",
+      "30394506",
+      "33132323",
+      "24699334",
+      "30001167",
+      "29792529",
+      "24623351",
+      "29166570",
+      "29700307",
+      "27561386",
+      "25482284",
+      "34083554",
+      "23462179",
+      "31100194",
+      "30610893",
+      "24743545",
+      "24750398",
+      "23715613",
+      "32162076",
+      "21145821",
+      "12353146",
+      "21520177",
+      "25630420",
+      "25234543",
+      "36681356",
+      "17308082",
+      "12788671",
+      "26452159",
+      "36702176",
+      "39038511",
+      "39040415",
+      "34253736",
+      "35706505",
+      "34612778",
+      "38217251"
+    ],
+    "review": [
+      "37315292",
+      "39038511"
+    ],
+    "pmc": [
+      "10292894"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/204775",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37315292/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37315292",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

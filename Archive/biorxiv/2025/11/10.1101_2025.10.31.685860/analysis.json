@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.31.685860",
+  "title": "Decode-gLM: Tools to Interpret, Audit, and Steer Genomic Language Models",
+  "authors": "Maiwald A; Jedryszek P; Draye F; Schölkopf B; Morris GM; Crook OM",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-03",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用稀疏自编码器解释基因组语言模型，虽涉及DNA序列特征但未聚焦蛋白质-DNA互作或TF-DNA结合建模，方法可迁移性有限。",
+  "abstract": "While genomic language models are enabling the de novo design of entire genomes, they remain challenging to interpret, limiting their trustworthiness. Here, we show that sparse autoencoders (SAEs) trained on Nucleotide Transformer activations decompose hidden representations into interpretable biological features without supervision. Across layers and model sizes, SAEs identified over 60 diverse functional annotations encoded in the model’s activations. This included viral regulatory elements such as the CMV enhancer, despite viral genomes being excluded from training data. Tracing this signal revealed contamination in reference databases, demonstrating that interpretability methods can audit training data and identify hidden data leakage. We then show that Meta-SAEs, trained on the decoder weights of another SAE, can identify conceptual hierarchies encoded in the model, including a more abstract feature related to multiple HIV annotations. We confirmed that the features identified by our SAEs were learned during pretraining through probing a randomly initialised model. Finally, we demonstrate that our SAEs allow us to steer model predictions in biologically meaningful ways, showing that we can use an antibiotic-resistance SAE-feature to steer the model toward the A1408G aminoglycoside-resistance mutation in the ribosomal gene 16S rRNA. Together, these results establish SAEs as a method for both discovery and auditing, providing a toolkit for interpretable and trustworthy genomic foundation models. Readers can explore our findings at https://interpretglm.netlify.app/ .",
+  "abstract_zh": "虽然基因组语言模型正在实现全基因组的从头设计，但它们仍然难以解释，这限制了其可信度。在此，我们展示了在Nucleotide Transformer激活上训练的稀疏自编码器（SAEs）能够在无监督情况下将隐藏表示分解为可解释的生物学特征。跨层和模型规模，SAEs识别出模型中编码的超过60种多样功能注释。这包括病毒调控元件，如CMV增强子，尽管病毒基因组被排除在训练数据之外。追踪这一信号揭示了参考数据库中的污染，证明了可解释性方法能够审计训练数据并识别隐藏的数据泄漏。接着，我们展示了在另一个SAE的解码器权重上训练的Meta-SAEs能够识别模型中编码的概念层级，包括一个与多个HIV注释相关的更抽象特征。我们通过探测随机初始化的模型，确认了我们的SAEs识别的特征是在预训练期间学习到的。最后，我们证明了我们的SAEs允许我们以生物学上有意义的方式引导模型预测，展示了我们可以利用抗生素耐药性SAE特征将模型引导向核糖体基因16S rRNA中的A1408G氨基糖苷类耐药性突变。综合这些结果，SAEs确立为一种既可用于发现也可用于审计的方法，为可解释且可信的基因组基础模型提供了工具包。读者可以在https://interpretglm.netlify.app/ 探索我们的发现。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685860",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685860",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.31.685860/index.html"
+}

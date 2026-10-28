@@ -1,0 +1,458 @@
+{
+  "identity": {
+    "pmid": "39905093",
+    "doi": "10.1038/s41598-024-80755-x",
+    "title": "Integrative bioinformatic approach reveals novel melatonin-related biomarkers for Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Melatonin (MLT) can improve mitophagy, thereby ameliorating cognitive deficits in Alzheimer's disease (AD) patients. Hence, our research focused on the potential value of MLT-related genes (MRGs) in AD through bioinformatic analysis. METHODS: First, the key cells in the single-cell dataset GSE138852 were screened out based on the proportion of annotated cells and Fisher's test between the AD and control groups. The differentially expressed genes (DEGs) in the key cell and GSE5281 datasets were identified, and the MRGs in GSE5281 were selected via weighted gene coexpression network analysis. After intersecting two sets of DEGs and MRGs, we performed Mendelian randomization analysis to identify the MRGs causally related to AD. Biomarkers were further ascertained through receiver operating characteristic curve (ROC) and expression analysis in GSE5281 and GSE48350. Furthermore, gene set enrichment analysis, immune infiltration analysis and correlation analysis with metabolic pathways were conducted, as well as construction of a regulator network and molecular docking. RESULTS: According to the Fisher test, oligodendrocytes were regarded as key cells due to their excellent abundance in the GSE138852 dataset, in which there were 281 DEGs between the AD and control groups. After overlapping with 3,490 DEGs and 550 MRGs in GSE5281, four genes were found to be causally related to AD, namely, G protein-coupled receptor, family C, group 5, member B (GPRC5B), Methyltransferase-like protein 7 A (METTL7A), NF-kappaB inhibitor alpha (NFKBIA) and RAS association domain family 4(RASSF4). Moreover, GPRC5B, NFKBIA and RASSF4 were deemed biomarkers, except for METTL7A, because of their indistinctive expression between the AD and control groups. Biomarkers might be involved in oxidative phosphorylation, adipogenesis and heme metabolism. Moreover, T helper type 17 cells, natural killer cells and CD56dim natural killer cells were significantly correlated with biomarkers. Transcription factors (GATA2, POU2F2, NFKB1, etc.) can regulate the expression of biomarkers. Finally, we discovered that all biomarkers could bind to MLT with a strong binding energy. CONCLUSION: Our study identified three novel biomarkers related to MLT for AD, namely, GPRC5B, NFKBIA and RASSF4, providing a novel approach for the investigation and treatment of AD patients.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Biomarker",
+      "MLT",
+      "Mendelian randomization",
+      "Molecular docking"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/metabolism",
+      "Humans",
+      "*Melatonin/metabolism/genetics",
+      "*Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Molecular Docking Simulation",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hua-Xiong",
+        "Hamit, Dilmurat",
+        "Li, Qing",
+        "Hu, Xiao",
+        "Li, San-Feng",
+        "Xu, Fu",
+        "Wang, Ming-Yuan",
+        "Bao, Guo-Qing",
+        "Li, Hong-Yan"
+      ],
+      "short_names": [
+        "Zhang HX",
+        "Hamit D",
+        "Li Q",
+        "Hu X",
+        "Li SF",
+        "Xu F",
+        "Wang MY",
+        "Bao GQ",
+        "Li HY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China.",
+        "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China. lhyxxy@vip.163.com.",
+        "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China. lhyxxy@vip.163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hua-Xiong",
+        "short_name": "Zhang HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Hamit, Dilmurat",
+        "short_name": "Hamit D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiao",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Li, San-Feng",
+        "short_name": "Li SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Fu",
+        "short_name": "Xu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ming-Yuan",
+        "short_name": "Wang MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Guo-Qing",
+        "short_name": "Bao GQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hong-Yan",
+        "short_name": "Li HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, People's Hospital of Xinjiang Uygur Autonomous Region, Urumqi, 830000, China. lhyxxy@vip.163.com.",
+          "Xinjiang Clinical Research Center for Stroke and Neurological Rare Disease, Xinjiang Uygur Autonomous Region People's Hospital, No 91, Tianchi Road, Urumqi, 830000, Xinjiang Uygur Autonomous Region, China. lhyxxy@vip.163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Feb 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 06:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38741048",
+      "38448474",
+      "37848007",
+      "37601068",
+      "37359008",
+      "37169570",
+      "37151498",
+      "37038196",
+      "36980203",
+      "36917314",
+      "36915196",
+      "36825082",
+      "36431847",
+      "36405736",
+      "36300620",
+      "36291090",
+      "36281858",
+      "36248189",
+      "35983068",
+      "35935760",
+      "35903880",
+      "35691153",
+      "35611809",
+      "35547626",
+      "35527277",
+      "34864868",
+      "34857756",
+      "34640387",
+      "34617321",
+      "34616287",
+      "34557778",
+      "34239132",
+      "34224806",
+      "33986301",
+      "33907006",
+      "33667416",
+      "33519426",
+      "33382976",
+      "33343276",
+      "33254429",
+      "32998479",
+      "32925750",
+      "32907876",
+      "32825327",
+      "32741912",
+      "32503894",
+      "32061493",
+      "31984950",
+      "31801194",
+      "31768052",
+      "31658594",
+      "31508857",
+      "31441146",
+      "31374144",
+      "31263275",
+      "30737462",
+      "30673121",
+      "30531897",
+      "29852871",
+      "29846171",
+      "29481883",
+      "29412982",
+      "29164242",
+      "29077059",
+      "29040600",
+      "28760387",
+      "28423196",
+      "28397282",
+      "28294066",
+      "28111578",
+      "28081736",
+      "27777416",
+      "27651453",
+      "27568024",
+      "27327899",
+      "27180068",
+      "27141942",
+      "27061298",
+      "26050253",
+      "25841340",
+      "25773750",
+      "25666462",
+      "25605792",
+      "25215581",
+      "24516878",
+      "24250222",
+      "24234352",
+      "23323831",
+      "23023676",
+      "22390463",
+      "22085194",
+      "21802369",
+      "21576687",
+      "21167930",
+      "20696774",
+      "20525257",
+      "20436672",
+      "20401516",
+      "19925479",
+      "19897719",
+      "19853658",
+      "19705549",
+      "19627456",
+      "19595937",
+      "19420101",
+      "19114008",
+      "18832152",
+      "18346206",
+      "17997701",
+      "17077275",
+      "16814429",
+      "16364209",
+      "15852400",
+      "15725334",
+      "15158159",
+      "14671188",
+      "14597658",
+      "12917686",
+      "12887656",
+      "11976212",
+      "11562447",
+      "10945465",
+      "10783259",
+      "10592173",
+      "9920102",
+      "9516407",
+      "9413284",
+      "9089387",
+      "9030627",
+      "8356085",
+      "1950471",
+      "1743441",
+      "1284442"
+    ],
+    "similar": [
+      "39905093",
+      "39507054",
+      "41291841",
+      "41883400",
+      "40192032",
+      "40148430",
+      "39375405",
+      "40642087",
+      "41540481",
+      "41390089",
+      "34367470",
+      "40207815",
+      "39920860",
+      "38871989",
+      "36635346",
+      "39965013",
+      "41115648",
+      "36110430",
+      "41081092",
+      "36048437",
+      "39394418",
+      "36195955",
+      "39650656",
+      "41634496",
+      "41300833",
+      "37619853",
+      "38230733",
+      "41197132",
+      "41479901",
+      "31984950",
+      "41009659",
+      "40329774",
+      "36532015",
+      "37520121",
+      "39188714",
+      "41717317",
+      "40532306",
+      "34521086",
+      "40021385",
+      "40753530",
+      "40899950",
+      "40076442",
+      "39176085",
+      "40350654",
+      "40216809",
+      "39150655",
+      "36875704",
+      "36437991",
+      "38176925",
+      "38729598",
+      "39919076",
+      "37545529",
+      "38329682",
+      "38873611",
+      "36918839",
+      "41731716",
+      "41854441",
+      "40241169",
+      "39202387",
+      "38167011",
+      "36071897",
+      "39636891",
+      "41751608",
+      "33687622",
+      "39086489",
+      "34536521",
+      "39099451",
+      "39841296",
+      "38650009",
+      "39396083",
+      "40108056",
+      "35709926",
+      "35558576",
+      "41424725",
+      "39483475",
+      "40617086",
+      "40653482",
+      "41052072",
+      "40561071",
+      "39341952",
+      "38374756",
+      "37359526",
+      "40755754",
+      "40207215",
+      "32019384",
+      "31346329",
+      "38692009",
+      "35278479",
+      "35842645",
+      "39328407",
+      "39934690",
+      "39586719",
+      "42004723",
+      "39444490",
+      "39559889",
+      "41657790",
+      "40885831",
+      "33541173",
+      "41146237",
+      "40263537"
+    ],
+    "review": [
+      "39905093"
+    ],
+    "pmc": [
+      "11794634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-80755-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39905093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

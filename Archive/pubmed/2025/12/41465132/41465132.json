@@ -1,0 +1,470 @@
+{
+  "identity": {
+    "pmid": "41465132",
+    "doi": "10.3390/genes16121459",
+    "title": "Multi-Transcriptome-Informed Network Pharmacology Reveals Novel Biomarkers and Therapeutic Candidates for Parkinson's Disease."
+  },
+  "content": {
+    "abstract": "Background: Parkinson's disease (PD) is a complex neurodegenerative disorder in aged people with multifaceted molecular underpinnings. It poses a severe threat to millions of older adults worldwide. The understanding of the molecular mechanisms of PD development and the performance of its therapeutic strategies has not yet reached a satisfactory level. Methods: This study integrated six transcriptomic datasets to uncover key genes (KGs) and their underlying pathogenic mechanisms, providing insights into potential therapeutic strategies for PD. We designed a comprehensive computational pipeline using various bioinformatics tools and databases to investigate PD-causing KGs, focusing on their functions, pathways, regulatory mechanisms, and potential therapeutic drug molecules. Results: In order to explore PD-causing KGs, we initially identified 303 differentially expressed genes (DEGs) between PD and control samples with 204 upregulated and 99 downregulated DEGs using the LIMMA approach with threshold values at Adj. p-value < 0.05 and abs (log(2)FC) >/= 1.0. Then, protein-protein interaction (PPI) network analysis pinpointed seven top-ranked DEGs (GAPDH, PTEN, CCND1, APOE, ESR1, MAPK3/ERK1, and SNCA) as KGs or central modulators of PD pathogenesis. Regulatory network analysis of KGs identified 3 top-ranked transcription factors (FOXC1, NFKB1, and TFAP2A) and 6 microRNAs (hsa-let-7b-5p, hsa-mir-16-5p, and others) as the pivotal regulators of KGs. Gene Ontology (GO) terms and KEGG pathway enrichment analyses with KGs revealed several crucial biological processes, molecular functions, cellular components, and neurodegenerative pathways associated with the development of PD. Finally, the top five molecules guided by KGs (Nilotinib, Bromocriptine, Withaferin-A, Celastrol, and Donepezil) were identified as promising drug candidates against PD and validated computationally through ADME/T analysis and molecular dynamics simulation studies. Conclusions: The findings of this study may serve as valuable resources for developing effective treatment strategies for PD patients.",
+    "keywords": [
+      "Parkinson's disease",
+      "differential expression",
+      "disability research",
+      "drug repurposing",
+      "key genes",
+      "molecular dynamics simulation",
+      "protein-protein interaction network"
+    ],
+    "mesh_terms": [
+      "*Parkinson Disease/genetics/drug therapy/metabolism",
+      "Humans",
+      "*Transcriptome/genetics",
+      "Protein Interaction Maps/genetics",
+      "*Gene Regulatory Networks",
+      "Biomarkers/metabolism",
+      "*Network Pharmacology/methods",
+      "Computational Biology/methods",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pappu, Md Al Amin",
+        "Alamin, Md",
+        "Noman, Md Al",
+        "Sultana, Most Humaira",
+        "Ahmed, Md Foysal",
+        "Hossain, Md Sanoar",
+        "Latif, Md Abdul",
+        "Faysal, Md Fahim",
+        "Azad, Akm",
+        "Alyami, Salem A",
+        "Alotaibi, Naif",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Pappu MAA",
+        "Alamin M",
+        "Noman MA",
+        "Sultana MH",
+        "Ahmed MF",
+        "Hossain MS",
+        "Latif MA",
+        "Faysal MF",
+        "Azad A",
+        "Alyami SA",
+        "Alotaibi N",
+        "Mollah MNH"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-9061-8549",
+        "ORCID: 0000-0001-7993-3863",
+        "ORCID: 0009-0009-9082-2350",
+        "ORCID: 0000-0002-5507-9399",
+        "ORCID: 0000-0002-3883-3396"
+      ],
+      "affiliations": [
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Department of Mathematics and Physics, School of Engineering & Physical Sciences, North South University, Dhaka 1229, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Department of Statistics, University of Barishal, Barishal 8254, Bangladesh.",
+        "Department of Management, School of Business & Economics, North South University, Dhaka 1229, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Department of Computer Science and Engineering (CSE), Rajshahi University of Engineering and Technology (RUET), Rajshahi 6203, Bangladesh.",
+        "Department of Mathematics and Statistics, Faculty of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Research Department, King Salman Center for Disability Research, Riyadh 11614, Saudi Arabia.",
+        "Department of Mathematics and Statistics, Faculty of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Research Department, King Salman Center for Disability Research, Riyadh 11614, Saudi Arabia.",
+        "Department of Mathematics and Statistics, Faculty of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Research Department, King Salman Center for Disability Research, Riyadh 11614, Saudi Arabia.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pappu, Md Al Amin",
+        "short_name": "Pappu MAA",
+        "identifiers": [
+          "0009-0000-9061-8549"
+        ],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Alamin, Md",
+        "short_name": "Alamin M",
+        "identifiers": [
+          "0000-0001-7993-3863"
+        ],
+        "affiliations": [
+          "Department of Mathematics and Physics, School of Engineering & Physical Sciences, North South University, Dhaka 1229, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Noman, Md Al",
+        "short_name": "Noman MA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+          "Department of Statistics, University of Barishal, Barishal 8254, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sultana, Most Humaira",
+        "short_name": "Sultana MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Management, School of Business & Economics, North South University, Dhaka 1229, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Md Foysal",
+        "short_name": "Ahmed MF",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Sanoar",
+        "short_name": "Hossain MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Latif, Md Abdul",
+        "short_name": "Latif MA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Faysal, Md Fahim",
+        "short_name": "Faysal MF",
+        "identifiers": [
+          "0009-0009-9082-2350"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering (CSE), Rajshahi University of Engineering and Technology (RUET), Rajshahi 6203, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Azad, Akm",
+        "short_name": "Azad A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, Faculty of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+          "Research Department, King Salman Center for Disability Research, Riyadh 11614, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alyami, Salem A",
+        "short_name": "Alyami SA",
+        "identifiers": [
+          "0000-0002-5507-9399"
+        ],
+        "affiliations": [
+          "Department of Mathematics and Statistics, Faculty of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+          "Research Department, King Salman Center for Disability Research, Riyadh 11614, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alotaibi, Naif",
+        "short_name": "Alotaibi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, Faculty of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+          "Research Department, King Salman Center for Disability Research, Riyadh 11614, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [
+          "0000-0002-3883-3396"
+        ],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Dec 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:41",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41171828",
+      "40715263",
+      "40435035",
+      "40127075",
+      "39848553",
+      "39108896",
+      "38272954",
+      "38245550",
+      "38051734",
+      "38006313",
+      "37839809",
+      "37711034",
+      "37089789",
+      "36326669",
+      "35983068",
+      "35938039",
+      "35833337",
+      "35726821",
+      "34791371",
+      "34706971",
+      "34210990",
+      "34204164",
+      "33865016",
+      "33748099",
+      "33669043",
+      "32276105",
+      "32240781",
+      "32044947",
+      "32031890",
+      "32028110",
+      "31906147",
+      "31841599",
+      "31701148",
+      "31680165",
+      "31667787",
+      "31064381",
+      "30906562",
+      "30776463",
+      "30476243",
+      "30371825",
+      "30259550",
+      "30066310",
+      "30010140",
+      "29886133",
+      "29758466",
+      "29686831",
+      "29653596",
+      "28781905",
+      "28695482",
+      "28256516",
+      "27873015",
+      "27314344",
+      "27141961",
+      "27091628",
+      "26258539",
+      "25990557",
+      "25950236",
+      "25904081",
+      "25860834",
+      "25824339",
+      "25605792",
+      "25329999",
+      "24504617",
+      "24122041",
+      "24009582",
+      "23565891",
+      "23284986",
+      "23282245",
+      "22915447",
+      "21045058",
+      "19664710",
+      "19499576",
+      "18764739",
+      "18090719",
+      "18077471",
+      "18041935",
+      "17943771",
+      "17683088",
+      "17571925",
+      "17027339",
+      "16939381",
+      "16644253",
+      "16373484",
+      "16200636",
+      "16199517",
+      "15980585",
+      "15961482",
+      "15673432",
+      "15501829",
+      "14597658",
+      "12925520",
+      "12824332",
+      "12480791",
+      "11948792",
+      "10592235",
+      "10093592",
+      "5818715",
+      "989885"
+    ],
+    "similar": [
+      "41465132",
+      "36991484",
+      "40347801",
+      "40859027",
+      "40834023",
+      "41300749",
+      "34536521",
+      "40184012",
+      "39454454",
+      "41291978",
+      "35409328",
+      "35617355",
+      "39348357",
+      "36567949",
+      "38453824",
+      "39973855",
+      "39160196",
+      "36104591",
+      "39792201",
+      "34746302",
+      "39556279",
+      "35731466",
+      "40826767",
+      "40186271",
+      "40779572",
+      "40715263",
+      "39467967",
+      "37776011",
+      "33407587",
+      "38760670",
+      "39028999",
+      "35278479",
+      "39153206",
+      "40406126",
+      "34218797",
+      "30132538",
+      "30776463",
+      "40628511",
+      "38839916",
+      "32041280",
+      "39623270",
+      "41171828",
+      "32276105",
+      "35390032",
+      "40127075",
+      "34132705",
+      "40387517",
+      "39881138",
+      "40435035",
+      "35929619",
+      "36502691",
+      "32210219",
+      "41192647",
+      "40465192",
+      "37534476",
+      "40025145",
+      "35447458",
+      "28965931",
+      "31987036",
+      "41044520",
+      "36913345",
+      "40821971",
+      "28952134",
+      "39118438",
+      "39341952",
+      "30995921",
+      "34734085",
+      "33237828",
+      "29653596",
+      "38885209",
+      "36902271",
+      "40601219",
+      "37270490",
+      "41316541",
+      "31794546",
+      "39351239",
+      "37664910",
+      "36401966",
+      "38626069",
+      "41120603",
+      "38062833",
+      "30665415",
+      "38268224",
+      "39552415",
+      "40241169",
+      "32344560",
+      "36291136",
+      "39306912",
+      "32435051",
+      "38308666",
+      "40551052",
+      "32299382",
+      "32728898",
+      "38717954",
+      "38549107",
+      "40790764",
+      "39142001",
+      "31989994",
+      "31551498",
+      "41196851"
+    ],
+    "review": [
+      "41465132",
+      "39792201"
+    ],
+    "pmc": [
+      "12732698"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16121459",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41465132/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GAPDH-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

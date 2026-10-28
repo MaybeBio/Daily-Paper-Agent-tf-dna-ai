@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "40065237",
+    "doi": "10.1186/s12859-025-06094-4",
+    "title": "SNPeBoT: a tool for predicting transcription factor allele specific binding."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Mutations in non-coding regulatory regions of DNA may lead to disease through the disruption of transcription factor binding. However, our understanding of binding patterns of transcription factors and the effects that changes to their binding sites have on their action remains limited. To address this issue we trained a Deep learning model to predict the effects of Single Nucleotide Polymorphisms (SNP) on transcription factor binding. Allele specific binding (ASB) data from Chromatin Immunoprecipitation sequencing (ChIP-seq) experiments were paired with high sequence-identity DNA binding Domains assessed in Protein Binding Microarray (PBM) experiments. For each transcription factor a paired DNA binding Domain was selected from which we derived E-score profiles for reference and alternate DNA sequences of ASB events. A Convolutional Neural Network (CNN) was trained to predict whether these profiles were indicative of ASB gain/loss or no change in binding. 18211 E-score profiles from 113 transcription factors were split into train, validation and test data. We compared the performance of the trained model with other available platforms for predicting the effect of SNP on transcription factor binding. Our model demonstrated increased accuracy and ASB recall in comparison to the best scoring benchmark tools. CONCLUSION: In this paper we present our model SNPeBoT (Single Nucleotide Polymorphism effect on Binding of Transcription Factors) in its standalone and web server form. The increased recovery and prediction accuracy of allele specific binding events could prove useful in discovering non-coding mutations relevant to disease.",
+    "keywords": [
+      "Gene regulation",
+      "Neural network",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "*Polymorphism, Single Nucleotide",
+      "*Transcription Factors/metabolism/genetics",
+      "*Alleles",
+      "Binding Sites",
+      "Protein Binding",
+      "Humans",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Deep Learning",
+      "*Software",
+      "Neural Networks, Computer",
+      "Computational Biology/methods",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gohl, Patrick",
+        "Oliva, Baldo"
+      ],
+      "short_names": [
+        "Gohl P",
+        "Oliva B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medicine and Life Sciences, SBI-GRIB, Universitat Pompeu Fabra, 08003, Barcelona, Catalonia, Spain.",
+        "Department of Medicine and Life Sciences, SBI-GRIB, Universitat Pompeu Fabra, 08003, Barcelona, Catalonia, Spain. baldo.oliva@upf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gohl, Patrick",
+        "short_name": "Gohl P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Life Sciences, SBI-GRIB, Universitat Pompeu Fabra, 08003, Barcelona, Catalonia, Spain."
+        ]
+      },
+      {
+        "full_name": "Oliva, Baldo",
+        "short_name": "Oliva B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and Life Sciences, SBI-GRIB, Universitat Pompeu Fabra, 08003, Barcelona, Catalonia, Spain. baldo.oliva@upf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2025 Mar 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/11 06:26",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38889282",
+      "38867914",
+      "37953330",
+      "37796837",
+      "35361964",
+      "33980847",
+      "32025015",
+      "31373606",
+      "28008906",
+      "27471964",
+      "27089393",
+      "26993500",
+      "26272984",
+      "26092860",
+      "25910213",
+      "25215497",
+      "24715461",
+      "24076218",
+      "21330290",
+      "2231712"
+    ],
+    "similar": [
+      "40065237",
+      "40102719",
+      "39482734",
+      "34073774",
+      "38066439",
+      "39152038",
+      "27492288",
+      "33372147",
+      "39701486",
+      "30835229",
+      "32960766",
+      "38701417",
+      "34929739",
+      "38517697",
+      "20838582",
+      "35263332",
+      "38937662",
+      "38732207",
+      "37805453",
+      "40334196",
+      "29617928",
+      "32404971",
+      "39350338",
+      "24920305",
+      "35446421",
+      "35471887",
+      "32850739",
+      "31939191",
+      "35652477",
+      "26476779",
+      "25995231",
+      "32976105",
+      "25957350",
+      "36094959",
+      "30261835",
+      "39076052",
+      "31634140",
+      "38733561",
+      "35042722",
+      "37328639",
+      "34534646",
+      "32770026",
+      "25179504",
+      "40335485",
+      "38643066",
+      "29993783",
+      "38848239",
+      "22863112",
+      "30897079",
+      "37158941",
+      "39227799",
+      "33498086",
+      "30922998",
+      "33522898",
+      "31372637",
+      "25775564",
+      "22051799",
+      "35462009",
+      "33603233",
+      "34292930",
+      "28302063",
+      "34272562",
+      "23427986",
+      "36484687",
+      "26552868",
+      "21811232",
+      "28235418",
+      "33571101",
+      "24997396",
+      "32228178",
+      "39402535",
+      "23194258",
+      "34613923",
+      "33326109",
+      "38644393",
+      "29848263",
+      "22955984",
+      "37598467",
+      "22952610",
+      "30106688",
+      "39214282",
+      "12101404",
+      "33980847",
+      "28234893",
+      "21801342",
+      "26817450",
+      "28704389",
+      "31483836",
+      "33837387",
+      "26130577",
+      "23748563",
+      "39141230",
+      "33216750",
+      "25192742",
+      "39271116",
+      "38049725",
+      "36702751",
+      "22973536",
+      "31206543",
+      "24042128"
+    ],
+    "review": [
+      "40065237",
+      "35652477"
+    ],
+    "pmc": [
+      "11895208"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06094-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40065237/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

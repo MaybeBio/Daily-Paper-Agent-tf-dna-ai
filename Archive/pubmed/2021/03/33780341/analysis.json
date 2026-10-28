@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33780341",
+  "title": "IDRBP-PPCT: Identifying Nucleic Acid-Binding Proteins Based on Position-Specific Score Matrix and Position-Specific Frequency Matrix Cross Transformation.",
+  "authors": "Wang, Ning; Zhang, Jun; Liu, Bin",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2021-03-30",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于PSSM/PSFM交叉变换和随机森林预测DNA/RNA结合蛋白，属广义蛋白-核酸互作识别，但无三维结构建模与结合机制研究，方法可迁移至TF-DNA位点预测。",
+  "abstract": "DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) are two important nucleic acid-binding proteins (NABPs), which play important roles in biological processes such as replication, translation and transcription of genetic material. Some proteins (DRBPs) bind to both DNA and RNA, also play a key role in gene expression. Identification of DBPs, RBPs and DRBPs is important to study protein-nucleic acid interactions. Computational methods are increasingly being proposed to automatically identify DNA- or RNA-binding proteins based only on protein sequences. One challenge is to design an effective protein representation method to convert protein sequences into fixed-dimension feature vectors. In this study, we proposed a novel protein representation method called Position-Specific Scoring Matrix (PSSM) and Position-Specific Frequency Matrix (PSFM) Cross Transformation (PPCT) to represent protein sequences. This method contains the evolutionary information in PSSM and PSFM, and their correlations. A new computational predictor called IDRBP-PPCT was proposed by combining PPCT and the two-layer framework based on the random forest algorithm to identify DBPs, RBPs and DRBPs. The experimental results on the independent dataset and the tomato genome proved the effectiveness of the proposed method. A user-friendly web-server of IDRBP-PPCT was constructed, which is freely available at http://bliulab.net/IDRBP-PPCT.",
+  "abstract_zh": "DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs）是两类重要的核酸结合蛋白（NABPs），在遗传物质的复制、翻译和转录等生物过程中发挥重要作用。一些蛋白质（DRBPs）同时结合DNA和RNA，也在基因表达中起关键作用。识别DBPs、RBPs和DRBPs对于研究蛋白质-核酸相互作用至关重要。基于蛋白质序列自动识别DNA或RNA结合蛋白的计算方法正被越来越多地提出。一个挑战是设计有效的蛋白质表示方法，将蛋白质序列转换为固定维度的特征向量。在本研究中，我们提出了一种新的蛋白质表示方法，称为位置特异性评分矩阵（PSSM）和位置特异性频率矩阵（PSFM）交叉变换（PPCT），用于表示蛋白质序列。该方法包含PSSM和PSFM中的进化信息及其相关性。通过结合PPCT和基于随机森林算法的两层框架，我们提出了一种新的计算预测器IDRBP-PPCT，用于识别DBPs、RBPs和DRBPs。在独立数据集和番茄基因组上的实验结果证明了所提方法的有效性。我们构建了用户友好的IDRBP-PPCT网络服务器，可免费访问http://bliulab.net/IDRBP-PPCT。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33780341/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33780341/",
+  "paper_page_path": "papers/pubmed/33780341/index.html"
+}

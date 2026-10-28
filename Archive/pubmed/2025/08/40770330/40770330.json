@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "40770330",
+    "doi": "10.1186/s12903-025-06663-2",
+    "title": "Identification and analysis of neutrophil extracellular trap-related genes in periodontitis via bioinformatics and experimental verification."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Emerging evidence highlights the significant role of neutrophil extracellular traps (NETs) in periodontitis, though the precise mechanisms remain insufficiently understood. This study intends to investigate the comprehensive effects of NET-related genes (NRGs) on periodontitis by bioinformatic analysis. METHODS: The microarray datasets were obtained from the Gene Expression Omnibus (GEO) database. Differentially expressed NRGs (DE-NRGs) were identified and functionally annotated. Then, machine learning algorithms were exploited to screen hub NRGs, and a predictive model was constructed based on these hub NRGs. Moreover, the expression level of CXCR4, one of the hub NRGs, was experimentally validated. RESULTS: Eighty-three DE-NRGs were identified and mainly correlated with multiple periodontitis-related pathways. Then, a diagnostic NRG signature based on 7-hub NRGs (LPAR3, CXCR4, F3, MAPK7, KCNN3, SYK, and HIF1A) was constructed using two different machine learning algorithms. The diagnostic NRG signature demonstrated favorable predictive efficacy, with an AUC of 0.929 in the training and 0.936 in the validation cohorts. The mouse periodontitis model verified that CXCR4 and HIF1A was markedly upregulated in periodontitis tissues. CONCLUSION: This study reveals that NRGs hold great potential as a robust and promising parameter for assessing periodontitis diagnosis. Targeting NRGs could represent a potential direction for future research into periodontitis treatment. CLINICAL TRIAL NUMBER: Not applicable.",
+    "keywords": [
+      "Bioinformatics",
+      "Immune infiltration",
+      "Neutrophil extracellular traps",
+      "Periodontitis"
+    ],
+    "mesh_terms": [
+      "*Extracellular Traps/genetics",
+      "*Periodontitis/genetics",
+      "Animals",
+      "Humans",
+      "*Computational Biology",
+      "Mice",
+      "Machine Learning",
+      "Receptors, CXCR4/genetics",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/genetics",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Miao",
+        "Ye, Zhenqi",
+        "Ye, Zixin",
+        "Wu, Yaping",
+        "Wu, Xiang"
+      ],
+      "short_names": [
+        "Yu M",
+        "Ye Z",
+        "Ye Z",
+        "Wu Y",
+        "Wu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China.",
+        "Jiangsu Province Engineering Research Center of Stomatological Translational Medicine, Nanjing Medical University, Jiangsu, 210029, P.R. China.",
+        "Department of Stomatology, The First Affiliated Hospital of Wannan Medical College, Wuhu, 241001, P.R. China.",
+        "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China.",
+        "Department of Oral and Maxillofacial Surgery, The Affiliated Stomatological Hospital of Nanjing Medical University, Jiangsu, 210029, P.R. China. wyp_njmu@njmu.edu.cn.",
+        "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China. wyp_njmu@njmu.edu.cn.",
+        "Jiangsu Province Engineering Research Center of Stomatological Translational Medicine, Nanjing Medical University, Jiangsu, 210029, P.R. China. wyp_njmu@njmu.edu.cn.",
+        "Department of General Dentistry, The Affiliated Stomatological Hospital of Nanjing Medical University, Jiangsu, 210029, P.R. China. wuxiang15851859210@163.com.",
+        "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China. wuxiang15851859210@163.com.",
+        "Jiangsu Province Engineering Research Center of Stomatological Translational Medicine, Nanjing Medical University, Jiangsu, 210029, P.R. China. wuxiang15851859210@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Miao",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China.",
+          "Jiangsu Province Engineering Research Center of Stomatological Translational Medicine, Nanjing Medical University, Jiangsu, 210029, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zhenqi",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The First Affiliated Hospital of Wannan Medical College, Wuhu, 241001, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zixin",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yaping",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, The Affiliated Stomatological Hospital of Nanjing Medical University, Jiangsu, 210029, P.R. China. wyp_njmu@njmu.edu.cn.",
+          "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China. wyp_njmu@njmu.edu.cn.",
+          "Jiangsu Province Engineering Research Center of Stomatological Translational Medicine, Nanjing Medical University, Jiangsu, 210029, P.R. China. wyp_njmu@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiang",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Dentistry, The Affiliated Stomatological Hospital of Nanjing Medical University, Jiangsu, 210029, P.R. China. wuxiang15851859210@163.com.",
+          "State Key Laboratory Cultivation Base of Research, Prevention and Treatment for Oral Diseases, Jiangsu, 210029, P.R. China. wuxiang15851859210@163.com.",
+          "Jiangsu Province Engineering Research Center of Stomatological Translational Medicine, Nanjing Medical University, Jiangsu, 210029, P.R. China. wuxiang15851859210@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC oral health"
+    ],
+    "journal_abbrev": [
+      "BMC Oral Health"
+    ],
+    "pub_date": "2025 Aug 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 06:27",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42650215",
+      "41247559"
+    ],
+    "refs": [
+      "40104076",
+      "40082687",
+      "39948114",
+      "39876056",
+      "39733640",
+      "39693274",
+      "39540802",
+      "39084404",
+      "38115803",
+      "38029747",
+      "37841279",
+      "37736772",
+      "37671131",
+      "37543012",
+      "37539924",
+      "37465687",
+      "37430108",
+      "37261457",
+      "36798972",
+      "36743304",
+      "36656993",
+      "36631982",
+      "36532016",
+      "36257987",
+      "36225931",
+      "35951483",
+      "35837403",
+      "35688556",
+      "35464399",
+      "35252353",
+      "35154475",
+      "34927238",
+      "34572313",
+      "34101221",
+      "33231338",
+      "32740860",
+      "32011025",
+      "31889320",
+      "31591573",
+      "31037138",
+      "30298590",
+      "29394286",
+      "29093284",
+      "28990587",
+      "28899799",
+      "28758294",
+      "27765066",
+      "27678376",
+      "25822800",
+      "25730848",
+      "25605792",
+      "24138885",
+      "23398363",
+      "22919032",
+      "21709707",
+      "21382035",
+      "20427518",
+      "19835625",
+      "18980520"
+    ],
+    "similar": [
+      "40770330",
+      "41869327",
+      "38941671",
+      "42175497",
+      "36532016",
+      "41811909",
+      "38493695",
+      "41324863",
+      "39142001",
+      "40866955",
+      "39845946",
+      "41088263",
+      "42085826",
+      "38852219",
+      "38801616",
+      "41627661",
+      "40053030",
+      "37143669",
+      "37715643",
+      "40244055",
+      "41962331",
+      "40963602",
+      "41772937",
+      "37671131",
+      "38719020",
+      "39394253",
+      "41121504",
+      "38734842",
+      "41756296",
+      "40496857",
+      "37716978",
+      "40374866",
+      "36389665",
+      "39610070",
+      "41044520",
+      "41089678",
+      "39199011",
+      "40948644",
+      "40619516",
+      "42316496",
+      "39314024",
+      "39512836",
+      "41665627",
+      "38690269",
+      "39709510",
+      "36253777",
+      "40628837",
+      "39084404",
+      "41000384",
+      "40775512",
+      "40224984",
+      "42327749",
+      "37822923",
+      "39641162",
+      "41057887",
+      "40500570",
+      "40607433",
+      "42289108",
+      "41613139",
+      "41146237",
+      "40089249",
+      "41104131",
+      "40620701",
+      "41013727",
+      "40967029",
+      "38518057",
+      "41088461",
+      "41625596",
+      "37465687",
+      "42313235",
+      "41262249",
+      "36321868",
+      "42345426",
+      "41878449",
+      "35990678",
+      "38308306",
+      "39328405",
+      "40997906",
+      "38766319",
+      "42123445",
+      "40233623",
+      "41081092",
+      "36072904",
+      "38643300",
+      "38519636",
+      "40943308",
+      "39419909",
+      "40016711",
+      "41310117",
+      "39062086",
+      "40066454",
+      "37215133",
+      "40787256",
+      "39695788",
+      "42292393",
+      "39229380",
+      "40857330",
+      "36316672",
+      "41475137",
+      "42247642"
+    ],
+    "review": [
+      "40770330",
+      "41665627"
+    ],
+    "pmc": [
+      "12326648"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-025-06663-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40770330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-887",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

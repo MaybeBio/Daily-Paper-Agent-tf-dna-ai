@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no figures, tables, methods, or supporting data were provided
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations of the CRISPR Cas1-Cas2 complex to investigate protospacer DNA binding and selection. They report that single-point mutations in Cas1 or Cas2 have little effect on protospacer binding, whereas multiple-point mutations in Cas2/Cas2' (m-multiple1) increase binding affinity and improve protospacer adjacent motif complementary (PAMc) recognition, while multiple mutations in Cas1a/Cas1b and Cas1a'/Cas1b' (m-multiple2) decrease binding and impair PAMc recognition.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, statistical analyses, or structural data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation trajectories, error bars or replicate information, sequence alignment details, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a mechanistically important question in CRISPR adaptation. However, the claims are stated with strong causal language that is not supported by the evidence visible in the abstract alone. The central conclusions regarding mutation effects on binding affinity and PAMc recognition rest on indirect metrics such as hydrogen bond counts and electrostatic interaction energies, with no demonstration of statistical robustness or functional significance. The work may be of interest to the CRISPR and molecular simulation communities, but the current evidence base is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers studying CRISPR-Cas adaptation mechanisms, particularly those focused on protospacer selection and integration. Computational biophysicists interested in protein-DNA recognition and the effects of distal mutations on binding interfaces would also find the approach relevant. The findings could inform experimental design for engineering Cas1-Cas2 variants with altered protospacer acquisition specificity.
+- **Major strengths** The study addresses a biologically important and mechanistically unresolved question. The use of all-atom molecular dynamics simulations on a double-forked Cas1-Cas2 complex is an appropriate and potentially powerful approach. The systematic comparison of single versus multiple mutations provides a clear conceptual framework. The distinction between binding and precatalytic states is a thoughtful design element.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that multiple-point mutations in Cas2 and Cas2' (m-multiple1) significantly affect protospacer binding and selection, and that increased hydrogen bond counts and electrostatic interactions indicate increased binding affinity.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports increased numbers of hydrogen bonds and stronger electrostatic interactions in the m-multiple1 system, but no statistical measures, replicate counts, or error estimates are provided. It is unclear whether these differences are significant relative to thermal fluctuations or simulation noise. Furthermore, hydrogen bond counts and interaction energies are not direct measures of binding affinity, and the claim that these indicate increased binding affinity requires free energy calculations or other rigorous thermodynamic analyses.
+  - **Why it matters** The central conclusion of the paper rests on the interpretation of these interaction metrics. Without statistical validation and thermodynamic context, the claim that mutations increase binding affinity is not established. Overinterpretation of such indirect metrics is a common pitfall in simulation studies and can mislead experimental follow-up.
+  - **Resolution test** Provide replicate simulations with standard error estimates, perform free energy perturbation or umbrella sampling calculations to quantify binding free energy differences, and demonstrate that the observed differences in hydrogen bonds and electrostatic energies are statistically significant and correlate with binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that mutations in Cas2 and Cas2' can remotely make PAMc sequences better recognized by the two active sites, and that m-multiple2 mutations make PAMc worse in recognition.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe how PAMc recognition is quantified. No metric, such as binding energy decomposition, contact frequency, or conformational analysis of the active site, is defined. The term "remotely" implies a long-range allosteric effect, but no mechanistic pathway or structural evidence is presented to support this interpretation.
+  - **Why it matters** The claim of remote modulation of PAMc recognition is a strong mechanistic statement. Without a defined metric and supporting structural or dynamical analysis, this claim is speculative. The distinction between "better" and "worse" recognition requires a quantitative and validated measure.
+  - **Resolution test** Define the specific metric used to assess PAMc recognition, provide structural or dynamical evidence for the allosteric pathway, and show that the metric is sensitive to the mutations in a statistically robust manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors state that extensive all-atom molecular dynamics simulations were conducted, and that single-point mutations had little impact on binding in both binding and precatalytic states.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, ionic conditions, simulation length, temperature, pressure coupling, equilibration protocol, or number of replicates. The absence of these details makes it impossible to assess the quality and convergence of the simulations. The claim that single-point mutations had "little impact" requires a quantitative comparison with appropriate error bars.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and sampling quality. Without these details, the reliability of the findings cannot be evaluated, and the study is not reproducible. The negative result for single-point mutations is as important as the positive results and requires equal rigor.
+  - **Resolution test** Provide complete simulation parameters, demonstrate convergence through block averaging or similar analyses, and report quantitative differences with statistical measures for the single-point mutation comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abbreviation "psDNA" is used without definition, and the distinction between "protospacer DNA" and "psDNA" is not clarified.
+  - **Required correction** Define "psDNA" at first use and ensure consistent terminology throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutation nomenclature
+  - **Evidence pointer** Abstract text
+  - **Issue** The mutation lists for m-multiple1 and m-multiple2 are presented as strings of residues without structural context or rationale for their selection.
+  - **Required correction** Provide a brief explanation of why these specific mutations were chosen, and include residue numbering relative to the relevant structural domains.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Causal language
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "can remotely make" implies a causal mechanism that is not demonstrated by the data described.
+  - **Required correction** Rephrase to describe the observed correlation or effect without implying a proven mechanism, such as "are associated with improved PAMc recognition."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of statistical validation, undefined recognition metrics, and missing simulation details collectively prevent the claims from being evaluated or reproduced.
+- **Assessment against Nature-style criteria** Originality: The question of how distal mutations in Cas1-Cas2 affect protospacer selection is timely and potentially original, but the abstract does not demonstrate novelty relative to prior computational studies. Scientific importance: The topic is important for understanding CRISPR adaptation, but the significance of the specific findings is not established without quantitative binding data. Interdisciplinary readership: The work could appeal to both structural biologists and computational chemists, but the abstract is written in a way that assumes familiarity with simulation metrics. Technical soundness: Not assessable from the abstract alone; the missing methodological details and lack of statistical rigor are major concerns. Readability for nonspecialists: The abstract is concise but uses jargon without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a worthwhile question and the simulation approach is appropriate, but the claims as presented are not supported by the visible evidence. A revised manuscript with full methodological transparency, statistical validation, and defined metrics for PAMc recognition could change this assessment.
+
+## Risk / unsupported claims
+- The claim that increased hydrogen bond counts and electrostatic interactions indicate increased binding affinity is unsupported without free energy calculations or experimental validation.
+- The claim that mutations "remotely" affect PAMc recognition is unsupported without structural or dynamical evidence for an allosteric mechanism.
+- The claim that single-point mutations had "little impact" is unquantified and cannot be evaluated without statistical measures.
+- The overall functional significance of the observed changes in interaction metrics is not established, as no threshold for biological relevance is provided.

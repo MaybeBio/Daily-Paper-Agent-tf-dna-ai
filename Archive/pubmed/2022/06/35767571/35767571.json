@@ -1,0 +1,525 @@
+{
+  "identity": {
+    "pmid": "35767571",
+    "doi": "10.1371/journal.pone.0270123",
+    "title": "Curcumin improves D-galactose and normal-aging associated memory impairment in mice: In vivo and in silico-based studies."
+  },
+  "content": {
+    "abstract": "Aging-induced memory impairment is closely associated with oxidative stress. D-Galactose (D-gal) evokes severe oxidative stress and mimics normal aging in animals. Curcumin, a natural flavonoid, has potent antioxidant and anti-aging properties. There are several proteins like glutathione S-transferase A1 (GSTA1), glutathione S-transferase omega-1 (GSTO1), kelch-like ECH-associated protein 1 (KEAP1), beta-secretase 1 (BACE1), and amine oxidase [flavin-containing] A (MAOA) are commonly involved in oxidative stress and aging. This study aimed to investigate the interaction of curcumin to these proteins and their subsequent effect on aging-associated memory impairment in two robust animal models: D-Gal and normal aged (NA) mice. The aging mice model was developed by administering D-gal intraperitoneally (i.p). Mice (n = 64) were divided into the eight groups (8 mice in each group): Vehicle, Curcumin-Control, D-gal (100mg/kg; i.p), Curcumin + D-gal, Astaxanthin (Ast) + D-gal, Normal Aged (NA), Curcumin (30mg/kg Orally) + NA, Ast (20mg/kg Orally) + NA. Retention and freezing memories were assessed by passive avoidance (PA) and contextual fear conditioning (CFC). Molecular docking was performed to predict curcumin binding with potential molecular targets. Curcumin significantly increased retention time (p < 0.05) and freezing response (p < 0.05) in PA and CFC, respectively. Curcumin profoundly ameliorated the levels of glutathione, superoxide dismutase, catalase, advanced oxidation protein products, nitric oxide, and lipid peroxidation in mice hippocampi. In silico studies revealed favorable binding energies of curcumin with GSTA1, GSTO1, KEAP1, BACE1, and MAOA. Curcumin improves retention and freezing memory in D-gal and nature-induced aging mice. Curcumin ameliorates the levels of oxidative stress biomarkers in mice. Anti-aging effects of curcumin could be attributed to, at least partially, the upregulation of antioxidant enzymes through binding with GSTA1, GSTO1, KEAP1, and inhibition of oxidative damage through binding with BACE1 and MAOA.",
+    "keywords": [],
+    "mesh_terms": [
+      "Aging/metabolism",
+      "Amyloid Precursor Protein Secretases/metabolism",
+      "Animals",
+      "Antioxidants/adverse effects",
+      "Aspartic Acid Endopeptidases/metabolism",
+      "*Curcumin/adverse effects",
+      "*Galactose/pharmacology",
+      "Glutathione Transferase/metabolism",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Memory Disorders/chemically induced/drug therapy",
+      "Mice",
+      "Molecular Docking Simulation",
+      "NF-E2-Related Factor 2/metabolism",
+      "Oxidative Stress"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Md Ashrafur",
+        "Shuvo, Arif Anzum",
+        "Bepari, Asim Kumar",
+        "Hasan Apu, Mehedi",
+        "Shill, Manik Chandra",
+        "Hossain, Murad",
+        "Uddin, Mohammed",
+        "Islam, Md Rabiul",
+        "Bakshi, Monjurul Kader",
+        "Hasan, Javed",
+        "Rahman, Atiqur",
+        "Rahman, Ghazi Mohammad Sayedur",
+        "Reza, Hasan Mahmud"
+      ],
+      "short_names": [
+        "Rahman MA",
+        "Shuvo AA",
+        "Bepari AK",
+        "Hasan Apu M",
+        "Shill MC",
+        "Hossain M",
+        "Uddin M",
+        "Islam MR",
+        "Bakshi MK",
+        "Hasan J",
+        "Rahman A",
+        "Rahman GMS",
+        "Reza HM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0146-5312",
+        "ORCID: 0000-0002-3023-2254",
+        "ORCID: 0000-0001-5656-1833",
+        "ORCID: 0000-0002-2026-2417",
+        "ORCID: 0000-0003-2820-3144"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, Jerry H. Hodge School of Pharmacy, Texas Tech University Health Science Center (TTUHSC), Amarillo, TX, United States of America.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "College of Medicine, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai, UAE.",
+        "Cellular Intelligence (Ci) Lab, GenomeArc Inc., Toronto, ON, Canada.",
+        "Department of Pharmacy, University of Asia Pacific, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+        "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Md Ashrafur",
+        "short_name": "Rahman MA",
+        "identifiers": [
+          "0000-0003-0146-5312"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh.",
+          "Department of Pharmaceutical Sciences, Jerry H. Hodge School of Pharmacy, Texas Tech University Health Science Center (TTUHSC), Amarillo, TX, United States of America."
+        ]
+      },
+      {
+        "full_name": "Shuvo, Arif Anzum",
+        "short_name": "Shuvo AA",
+        "identifiers": [
+          "0000-0002-3023-2254"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Bepari, Asim Kumar",
+        "short_name": "Bepari AK",
+        "identifiers": [
+          "0000-0001-5656-1833"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasan Apu, Mehedi",
+        "short_name": "Hasan Apu M",
+        "identifiers": [
+          "0000-0002-2026-2417"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Shill, Manik Chandra",
+        "short_name": "Shill MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Murad",
+        "short_name": "Hossain M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Uddin, Mohammed",
+        "short_name": "Uddin M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medicine, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai, UAE.",
+          "Cellular Intelligence (Ci) Lab, GenomeArc Inc., Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Rabiul",
+        "short_name": "Islam MR",
+        "identifiers": [
+          "0000-0003-2820-3144"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Asia Pacific, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Bakshi, Monjurul Kader",
+        "short_name": "Bakshi MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hasan, Javed",
+        "short_name": "Hasan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Atiqur",
+        "short_name": "Rahman A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Ghazi Mohammad Sayedur",
+        "short_name": "Rahman GMS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Reza, Hasan Mahmud",
+        "short_name": "Reza HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, North South University, Bashundhara, Dhaka, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/30 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "41901101",
+      "40875076",
+      "40565712",
+      "40166470",
+      "39829657",
+      "38671863",
+      "37868808",
+      "37605400",
+      "37542120",
+      "37460908",
+      "37441528",
+      "36551844"
+    ],
+    "refs": [
+      "35052634",
+      "34041781",
+      "33680047",
+      "32790748",
+      "32227291",
+      "31898999",
+      "31747905",
+      "31590042",
+      "31106366",
+      "30971884",
+      "30871021",
+      "30612671",
+      "30058022",
+      "29937710",
+      "29874566",
+      "29661835",
+      "29533817",
+      "29036814",
+      "28735143",
+      "27703239",
+      "27470577",
+      "26927754",
+      "26808980",
+      "26730337",
+      "26592138",
+      "26233704",
+      "26209154",
+      "26116165",
+      "25974329",
+      "25931267",
+      "25732953",
+      "25511550",
+      "25446565",
+      "25401971",
+      "25217884",
+      "24960204",
+      "24637495",
+      "23858446",
+      "23746838",
+      "23701542",
+      "23555802",
+      "23460799",
+      "22540427",
+      "22100662",
+      "21982300",
+      "21784539",
+      "21733122",
+      "21718363",
+      "21253949",
+      "20412384",
+      "20354142",
+      "20057381",
+      "19783296",
+      "19399780",
+      "19105434",
+      "18845941",
+      "18585472",
+      "18391214",
+      "18316211",
+      "18023580",
+      "17640567",
+      "16910344",
+      "16836488",
+      "16802111",
+      "16541076",
+      "16354928",
+      "16219905",
+      "15822171",
+      "15639175",
+      "15601839",
+      "15264254",
+      "15082069",
+      "14977040",
+      "14907713",
+      "14715132",
+      "13650640",
+      "11869738",
+      "11793338",
+      "11752462",
+      "10706603",
+      "9895220",
+      "8940299",
+      "8731095",
+      "7931235",
+      "7534350",
+      "4556490",
+      "4387188",
+      "2162971"
+    ],
+    "similar": [
+      "35767571",
+      "37542120",
+      "31039346",
+      "33761044",
+      "35183682",
+      "25892055",
+      "31092832",
+      "36965545",
+      "27345860",
+      "32135242",
+      "37689328",
+      "24984171",
+      "27485714",
+      "35720186",
+      "26592138",
+      "21539885",
+      "30650605",
+      "33502009",
+      "23518642",
+      "33219893",
+      "28472605",
+      "24796811",
+      "28867383",
+      "32857080",
+      "34022267",
+      "34788354",
+      "31112588",
+      "23216110",
+      "29794973",
+      "28216009",
+      "25637686",
+      "33059700",
+      "37579617",
+      "35284456",
+      "33325602",
+      "32854685",
+      "34153850",
+      "19150622",
+      "33159979",
+      "35913570",
+      "31590160",
+      "38517361",
+      "34202112",
+      "27161371",
+      "27060945",
+      "37247086",
+      "38087171",
+      "29905928",
+      "20092558",
+      "27883916",
+      "35729734",
+      "22414474",
+      "33153341",
+      "27086966",
+      "29147958",
+      "38347285",
+      "34058234",
+      "32186114",
+      "27294914",
+      "26518192",
+      "31630800",
+      "37977137",
+      "27894939",
+      "35307911",
+      "25871519",
+      "23566814",
+      "34989025",
+      "33148324",
+      "31710934",
+      "37282615",
+      "37329901",
+      "33551161",
+      "34694015",
+      "16710848",
+      "29526991",
+      "32115031",
+      "37261605",
+      "19000936",
+      "31461273",
+      "30423402",
+      "30375618",
+      "22469068",
+      "35235140",
+      "31647720",
+      "30946834",
+      "29325995",
+      "23609199",
+      "35523403",
+      "32860805",
+      "33565551",
+      "31972171",
+      "32070920",
+      "30657578",
+      "15465277",
+      "34463220",
+      "22647751",
+      "29437881",
+      "38198955",
+      "34424474",
+      "25401971",
+      "27668539",
+      "19584559",
+      "31387177",
+      "19020987",
+      "21042289",
+      "28300775",
+      "30323572",
+      "29477946",
+      "31792648",
+      "18680556",
+      "19007942",
+      "38522025",
+      "36232521",
+      "18622715",
+      "36350934",
+      "35887126",
+      "35760023",
+      "32686020",
+      "36600528",
+      "38463710",
+      "38073659",
+      "35772713",
+      "38235117",
+      "37053568",
+      "38308474",
+      "36244586",
+      "33811924",
+      "36193329",
+      "37047379",
+      "30918639",
+      "33029285",
+      "36030906",
+      "38398836",
+      "36116694",
+      "34783011",
+      "37546603",
+      "38671863",
+      "22615607",
+      "39302597",
+      "36289859",
+      "37886973",
+      "25788433",
+      "35780669",
+      "38516617",
+      "38441777",
+      "36700726"
+    ],
+    "review": [
+      "35767571",
+      "36116694"
+    ],
+    "pmc": [
+      "9242463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0270123",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35767571/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35767571",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-381",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

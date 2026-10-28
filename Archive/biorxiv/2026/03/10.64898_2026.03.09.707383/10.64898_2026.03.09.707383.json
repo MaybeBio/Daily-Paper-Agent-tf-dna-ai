@@ -1,0 +1,900 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.09.707383",
+  "title": "A DNA foundation model predicts osteoporosis risk genes without proximity bias",
+  "doi": "10.64898/2026.03.09.707383",
+  "abstract": "Targets supported by human genetic associations are more than twice as likely to progress from clinical development to approval. Genome-wide association studies are the largest source of genetic evidence for disease risk but linking non-coding variants to effector genes remains a significant barrier to identifying causal targets. Current gene-mapping approaches suffer from proximity bias, largely ignoring distal genes. Here we introduce Rosalind, a DNA foundation model fine-tuned on human genetic variation from GTEx, that directly predicts variant-gene regulatory relationships from sequence without relying on nearest-gene heuristics. We demonstrate Rosalind’s accuracy through extensive benchmarking, apply it to multiple complex traits to establish broad utility, and provide experimental validation in osteoporosis using a translational osteoblast assay. We demonstrate that genes distal to osteoporosis risk variants were significantly more likely to alter a bone formation phenotype than nearest genes. Together, these results highlight deep learning-based regulatory models as a general and scalable framework for translating novel genetic insights to drug discovery.",
+  "authors": [
+    "Cristian Regep",
+    "Chantriolnt-Andreas Kapourani",
+    "Emre Sofyali",
+    "Agnieszka Dobrowolska",
+    "Giannis Loukas",
+    "Andrew Anighoro",
+    "Eleonora Canale",
+    "Torsten Gross",
+    "Marco P. Licciardello",
+    "Revant Gupta",
+    "Sorina Maciuca",
+    "Tariq Desai",
+    "Alice Del Vecchio",
+    "Cameron Field",
+    "Karl Gemayel",
+    "Avelino Javer",
+    "Zicong Zhang",
+    "Rika Tsujikawa",
+    "Fumitaka Inoue",
+    "Edith. M. Hessel",
+    "Jake P. Taylor-King",
+    "John Whittaker",
+    "David Roblin",
+    "Rebecca E. McIntyre",
+    "Lindsay M. Edwards"
+  ],
+  "published_date": "2026-03-12",
+  "updated_date": "2026-03-12T14:30:16Z",
+  "journal": "bioRxiv",
+  "category": "Genetics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.09.707383",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.09.707383.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genetics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genetics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2026-03-16T12:16:36Z",
+        "timestamp": 1773663396021,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            12
+          ]
+        ]
+      },
+      "group-title": "Genetics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2026-03-12T00:00:00Z",
+            "timestamp": 1773273600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Targets supported by human genetic associations are more than twice as likely to progress from clinical development to approval. Genome-wide association studies are the largest source of genetic evidence for disease risk but linking non-coding variants to effector genes remains a significant barrier to identifying causal targets. Current gene-mapping approaches suffer from proximity bias, largely ignoring distal genes. Here we introduce Rosalind, a DNA foundation model fine-tuned on human genetic variation from GTEx, that directly predicts variant-gene regulatory relationships from sequence without relying on nearest-gene heuristics. We demonstrate Rosalind’s accuracy through extensive benchmarking, apply it to multiple complex traits to establish broad utility, and provide experimental validation in osteoporosis using a translational osteoblast assay. We demonstrate that genes distal to osteoporosis risk variants were significantly more likely to alter a bone formation phenotype than nearest genes. Together, these results highlight deep learning-based regulatory models as a general and scalable framework for translating novel genetic insights to drug discovery.</jats:p>",
+      "DOI": "10.64898/2026.03.09.707383",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            12
+          ]
+        ],
+        "date-time": "2026-03-12T14:30:16Z",
+        "timestamp": 1773325816000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A DNA foundation model predicts osteoporosis risk genes without proximity bias"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Cristian",
+          "family": "Regep",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chantriolnt-Andreas",
+          "family": "Kapourani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emre",
+          "family": "Sofyali",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Agnieszka",
+          "family": "Dobrowolska",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Giannis",
+          "family": "Loukas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Anighoro",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eleonora",
+          "family": "Canale",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Torsten",
+          "family": "Gross",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marco P.",
+          "family": "Licciardello",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Revant",
+          "family": "Gupta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sorina",
+          "family": "Maciuca",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tariq",
+          "family": "Desai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alice",
+          "family": "Del Vecchio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Cameron",
+          "family": "Field",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Karl",
+          "family": "Gemayel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Avelino",
+          "family": "Javer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zicong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for the Advanced Study of Human Biology (WPI-ASHBi), Kyoto University, Kyoto, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rika",
+          "family": "Tsujikawa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for the Advanced Study of Human Biology (WPI-ASHBi), Kyoto University, Kyoto, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fumitaka",
+          "family": "Inoue",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for the Advanced Study of Human Biology (WPI-ASHBi), Kyoto University, Kyoto, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Edith. M.",
+          "family": "Hessel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jake P.",
+          "family": "Taylor-King",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Whittaker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            },
+            {
+              "name": "MRC Biostatistics Unit, University of Cambridge"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Roblin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            },
+            {
+              "name": "The Francis Crick Institute, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rebecca E.",
+          "family": "McIntyre",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lindsay M.",
+          "family": "Edwards",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Relation Therapeutics, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3314"
+        },
+        {
+          "issue": "12",
+          "key": "2026031604251102000_2026.03.09.707383v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008489",
+          "DOI": "10.1371/journal.pgen.1008489",
+          "article-title": "Are drug targets with genetic support twice as likely to be approved?",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLOS Genetics"
+        },
+        {
+          "issue": "24",
+          "key": "2026031604251102000_2026.03.09.707383v1.3",
+          "first-page": "3738",
+          "article-title": "Reverse causation in transcriptomics: Implications for causal inference",
+          "volume": "32",
+          "year": "2016",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/ije/dyg070"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2015.06.009"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03446-x"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0538-0"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3404"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.11.021"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41588-021-00945-5"
+        },
+        {
+          "issue": "3",
+          "key": "2026031604251102000_2026.03.09.707383v1.12",
+          "first-page": "564",
+          "article-title": "Linking distal regulatory elements to genes using functional data",
+          "volume": "32",
+          "year": "2022",
+          "journal-title": "Genome Research"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41588-021-00782-6"
+        },
+        {
+          "issue": "17",
+          "key": "2026031604251102000_2026.03.09.707383v1.14",
+          "first-page": "3197",
+          "article-title": "Impact of genetic polymorphisms on gene expression in immune cells",
+          "volume": "185",
+          "year": "2022",
+          "journal-title": "Cell"
+        },
+        {
+          "issue": "10",
+          "key": "2026031604251102000_2026.03.09.707383v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1196",
+          "DOI": "10.1038/s41592-021-01252-x",
+          "article-title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.227819.117"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-04506-6"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz1776"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/rssb.12388"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0302-x"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.21",
+          "first-page": "321",
+          "article-title": "The osteocyte: New insights",
+          "volume": "68",
+          "year": "2006",
+          "journal-title": "Annual Review of Physiology"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aag2445"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alegbe, T. , Harris, B. T. , Fachal, L. , Ramirez-Navarro, L. , Tutert, M. , Krzak, M. , … & Anderson, C. A. (2025). Cell-type-resolved genetic regulatory variation shapes inflammatory bowel disease risk. medRxiv.",
+          "DOI": "10.1101/2025.06.24.25330216"
+        },
+        {
+          "issue": "2",
+          "key": "2026031604251102000_2026.03.09.707383v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "292",
+          "DOI": "10.1198/sbr.2009.0074",
+          "article-title": "Strictly standardized mean difference, standardized mean difference and classical t-test for the comparison of two groups",
+          "volume": "2",
+          "year": "2010",
+          "journal-title": "Statistics in Biopharmaceutical Research"
+        },
+        {
+          "issue": "2",
+          "key": "2026031604251102000_2026.03.09.707383v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1177/2515245918771304",
+          "article-title": "Rejecting or accepting parameter values in Bayesian estimation",
+          "volume": "1",
+          "year": "2018",
+          "journal-title": "Advances in methods and practices in psychological science"
+        },
+        {
+          "issue": "3",
+          "key": "2026031604251102000_2026.03.09.707383v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1001779",
+          "DOI": "10.1371/journal.pmed.1001779",
+          "article-title": "UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "PLoS medicine"
+        },
+        {
+          "issue": "8",
+          "key": "2026031604251102000_2026.03.09.707383v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2387",
+          "DOI": "10.1038/s41596-020-0333-5",
+          "article-title": "lentiMPRA and MPRAflow for high-throughput functional characterization of gene regulatory elements",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.28",
+          "unstructured": "Zhou, H. , Shrikumar, A. , & Kundaje, A. (2022). Towards a better understanding of reverse-complement equivariance for deep learning models in genomics. In Machine Learning in Computational Biology (pp. 1–33). PMLR."
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-024-02053-6"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-10014-0"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J. , Zhou, Z. , Chen, W. , Chen, Y. , Zheng, Q. , Chen, Y. , … & Lu, Q. (2025). Mechanism of EC-EXOs-Derived THBS3 Targeting CD47 to Regulate BMSCs Differentiation to Ameliorate Bone Loss. Cell Proliferation, e 70066.",
+          "DOI": "10.1111/cpr.70066"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bone.2020.115493"
+        },
+        {
+          "issue": "3",
+          "key": "2026031604251102000_2026.03.09.707383v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "227",
+          "DOI": "10.1038/tpj.2010.88",
+          "article-title": "Common allelic variants of the farnesyl diphosphate synthase gene influence the response of osteoporotic women to bisphosphonates",
+          "volume": "12",
+          "year": "2012",
+          "journal-title": "The pharmacogenomics journal"
+        },
+        {
+          "issue": "4",
+          "key": "2026031604251102000_2026.03.09.707383v1.34",
+          "first-page": "1332",
+          "article-title": "Exploring causal correlations between inflammatory response-related genes and osteoporosis: a Multi-Omics Mendelian Randomization Study",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "Archives of Medical Science: AMS"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2010.159"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "4260",
+          "DOI": "10.1016/j.csbj.2024.11.019",
+          "article-title": "Pleiotropic expression quantitative trait loci are enriched in enhancers and transcription factor binding sites and impact more genes",
+          "volume": "23",
+          "year": "2024",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "issue": "2",
+          "key": "2026031604251102000_2026.03.09.707383v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "311",
+          "DOI": "10.1210/jc.2011-2332",
+          "article-title": "Update on bone anabolics in osteoporosis treatment: rationale, current status, and perspectives",
+          "volume": "97",
+          "year": "2012",
+          "journal-title": "The Journal of Clinical Endocrinology & Metabolism"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0086476"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2016.05.004"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.3389/fbioe.2019.00092",
+          "article-title": "Osteoblast-derived vesicle protein content is temporally regulated during osteogenesis: implications for regenerative therapies",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "Frontiers in Bioengineering and Biotechnology"
+        },
+        {
+          "key": "2026031604251102000_2026.03.09.707383v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1259650",
+          "DOI": "10.3389/fendo.2023.1259650",
+          "article-title": "Recent advances in primary cilia in bone metabolism",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Frontiers in Endocrinology"
+        },
+        {
+          "issue": "1",
+          "key": "2026031604251102000_2026.03.09.707383v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1186/s13287-020-01789-2",
+          "article-title": "A glance on the role of actin in osteogenic and adipogenic differentiation of mesenchymal stem cells",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Stem cell research & therapy"
+        },
+        {
+          "issue": "1",
+          "key": "2026031604251102000_2026.03.09.707383v1.43",
+          "first-page": "6063423",
+          "article-title": "Role of primary cilia in skeletal disorders",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "Stem cells international"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.09.707383",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2026-03-16T11:25:27Z",
+        "timestamp": 1773660327000
+      },
+      "score": 48.602245,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.09.707383"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            12
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.64898/2026.03.09.707383",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

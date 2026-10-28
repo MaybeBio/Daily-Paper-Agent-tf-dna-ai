@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.03.674017",
+  "title": "Unified Protein-Small Molecule Graph Neural Networks for Binding Site Prediction",
+  "authors": "Jian Wang; Nikolay V. Dokholyan",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-08",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络预测蛋白质-小分子结合位点，虽非TF-DNA体系，但其全局图建模和结合位点预测方法可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Predicting small molecule binding sites on proteins remains a key challenge in structure-based drug discovery. While AlphaFold3 has transformed protein structure prediction, accurate identification of functional sites such as ligand binding pockets remains a distinct and unresolved problem. Graph neural networks have emerged as promising tools for this task, but most current approaches focus on local structural features and are trained on relatively small datasets, limiting their ability to model long-range protein–ligand interactions. Here, we develop YuelPocket, a new graph neural network that addresses these limitations through an innovative global graph design featuring a virtual joint node connecting all protein residues and small molecule atoms to capture long-range interactions while maintaining linear computational complexity. Trained on the comprehensive MOAD dataset containing over 38,000 protein-small molecule complexes, YuelPocket achieves exceptional performance with AUC-ROC values of 0.85 and 0.89 on COACH420 and Holo4k datasets, respectively.",
+  "abstract_zh": "预测蛋白质上的小分子结合位点仍是基于结构的药物发现中的关键挑战。尽管AlphaFold3已变革了蛋白质结构预测，但准确识别功能位点（如配体结合口袋）仍是一个独特且未解决的问题。图神经网络已成为此任务的有前景工具，但大多数现有方法侧重于局部结构特征，并在相对较小的数据集上训练，限制了其建模长程蛋白质-配体相互作用的能力。在此，我们开发了YuelPocket，一种新型图神经网络，通过创新的全局图设计解决了这些限制，该设计引入一个虚拟连接节点，连接所有蛋白质残基和小分子原子，以捕捉长程相互作用，同时保持线性计算复杂度。在包含超过38,000个蛋白质-小分子复合物的全面MOAD数据集上训练，YuelPocket在COACH420和Holo4k数据集上分别实现了0.85和0.89的AUC-ROC值，表现出卓越性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.03.674017",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.03.674017",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.03.674017/index.html"
+}

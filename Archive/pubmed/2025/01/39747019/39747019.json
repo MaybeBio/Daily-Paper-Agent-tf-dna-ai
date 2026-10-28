@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "39747019",
+    "doi": "10.1038/s41467-024-55447-9",
+    "title": "ChromatinHD connects single-cell DNA accessibility and conformation to gene expression through scale-adaptive machine learning."
+  },
+  "content": {
+    "abstract": "Gene regulation is inherently multiscale, but scale-adaptive machine learning methods that fully exploit this property in single-nucleus accessibility data are still lacking. Here, we develop ChromatinHD, a pair of scale-adaptive models that uses the raw accessibility data, without peak-calling or windows, to link regions to gene expression and determine differentially accessible chromatin. We show how ChromatinHD consistently outperforms existing peak and window-based approaches and find that this is due to a large number of uniquely captured, functional accessibility changes within and outside of putative cis-regulatory regions. Furthermore, ChromatinHD can delineate collaborating regulatory regions, including their preferential genomic conformations, that drive gene expression. Finally, our models also use changes in ATAC-seq fragment lengths to identify dense binding of transcription factors, a feature not captured by footprinting methods. Altogether, ChromatinHD, available at https://chromatinhd.org , is a suite of computational tools that enables a data-driven understanding of chromatin accessibility at various scales and how it relates to gene expression.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Chromatin/metabolism/genetics/chemistry",
+      "*Single-Cell Analysis/methods",
+      "*DNA/genetics/metabolism/chemistry",
+      "Humans",
+      "Gene Expression Regulation",
+      "Transcription Factors/metabolism/genetics",
+      "Animals",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Nucleic Acid Conformation",
+      "Computational Biology/methods",
+      "Mice",
+      "Regulatory Sequences, Nucleic Acid/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saelens, Wouter",
+        "Pushkarev, Olga",
+        "Deplancke, Bart"
+      ],
+      "short_names": [
+        "Saelens W",
+        "Pushkarev O",
+        "Deplancke B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7114-6248",
+        "ORCID: 0000-0001-9935-843X"
+      ],
+      "affiliations": [
+        "Laboratory of Systems Biology and Genetics, Institute of Bio-engineering and Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. wouter.saelens@ugent.be.",
+        "Swiss Institute of Bioinformatics, Lausanne, Switzerland. wouter.saelens@ugent.be.",
+        "VIB Center for Inflammation Research, Ghent, Belgium. wouter.saelens@ugent.be.",
+        "Laboratory of Systems Biology and Genetics, Institute of Bio-engineering and Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland.",
+        "Swiss Institute of Bioinformatics, Lausanne, Switzerland.",
+        "Laboratory of Systems Biology and Genetics, Institute of Bio-engineering and Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. bart.deplancke@epfl.ch.",
+        "Swiss Institute of Bioinformatics, Lausanne, Switzerland. bart.deplancke@epfl.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saelens, Wouter",
+        "short_name": "Saelens W",
+        "identifiers": [
+          "0000-0002-7114-6248"
+        ],
+        "affiliations": [
+          "Laboratory of Systems Biology and Genetics, Institute of Bio-engineering and Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. wouter.saelens@ugent.be.",
+          "Swiss Institute of Bioinformatics, Lausanne, Switzerland. wouter.saelens@ugent.be.",
+          "VIB Center for Inflammation Research, Ghent, Belgium. wouter.saelens@ugent.be."
+        ]
+      },
+      {
+        "full_name": "Pushkarev, Olga",
+        "short_name": "Pushkarev O",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Systems Biology and Genetics, Institute of Bio-engineering and Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland.",
+          "Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Deplancke, Bart",
+        "short_name": "Deplancke B",
+        "identifiers": [
+          "0000-0001-9935-843X"
+        ],
+        "affiliations": [
+          "Laboratory of Systems Biology and Genetics, Institute of Bio-engineering and Global Health Institute, School of Life Sciences, Swiss Federal Institute of Technology (EPFL), Lausanne, Switzerland. bart.deplancke@epfl.ch.",
+          "Swiss Institute of Bioinformatics, Lausanne, Switzerland. bart.deplancke@epfl.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jan 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/03 00:20",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42265104",
+      "41909133",
+      "40889281"
+    ],
+    "refs": [
+      "39363017",
+      "38514783",
+      "38410680",
+      "38191932",
+      "38182825",
+      "38036783",
+      "37971293",
+      "37443338",
+      "37336949",
+      "37280210",
+      "37157000",
+      "36693380",
+      "36549923",
+      "36471071",
+      "36350656",
+      "36229609",
+      "35978191",
+      "35863348",
+      "35551305",
+      "35389779",
+      "35190730",
+      "34898596",
+      "34725479",
+      "34635836",
+      "34594039",
+      "33980847",
+      "33633365",
+      "33202367",
+      "33098772",
+      "33020665",
+      "32888494",
+      "32728250",
+      "32728249",
+      "32014034",
+      "32007290",
+      "31801079",
+      "31784727",
+      "31691819",
+      "31494034",
+      "31124784",
+      "31048460",
+      "30858613",
+      "30808370",
+      "30478436",
+      "30250250",
+      "30078726",
+      "29988122",
+      "29988121",
+      "29961576",
+      "29545622",
+      "29409532",
+      "29058714",
+      "29022597",
+      "28825706",
+      "28273065",
+      "27169896",
+      "26914206",
+      "26578583",
+      "26432245",
+      "26314830",
+      "26300124",
+      "26148230",
+      "25801432",
+      "25497547",
+      "25236461",
+      "25104515",
+      "24097267",
+      "22955616",
+      "21106903",
+      "20110278",
+      "18798982",
+      "16082012",
+      "6779207",
+      "455450"
+    ],
+    "similar": [
+      "39747019",
+      "39326643",
+      "33606259",
+      "34898596",
+      "34251624",
+      "35858748",
+      "32213349",
+      "39127768",
+      "40029523",
+      "32014034",
+      "39881144",
+      "36902216",
+      "27008018",
+      "33191916",
+      "39041910",
+      "40049167",
+      "31164146",
+      "34292930",
+      "39093856",
+      "34255854",
+      "38654130",
+      "32392348",
+      "38940155",
+      "39956806",
+      "33633365",
+      "31428792",
+      "39500613",
+      "33779599",
+      "34430912",
+      "32033573",
+      "31776829",
+      "38969365",
+      "31053165",
+      "34686316",
+      "40889281",
+      "39987573",
+      "39236711",
+      "34699533",
+      "34313779",
+      "39487131",
+      "39501301",
+      "26083756",
+      "35195064",
+      "29558892",
+      "30078726",
+      "32822050",
+      "32543102",
+      "32973041",
+      "34284136",
+      "21473766",
+      "34382199",
+      "32376693",
+      "33637727",
+      "38600256",
+      "39843737",
+      "34016988",
+      "32431014",
+      "35359328",
+      "30948010",
+      "39814021",
+      "32728240",
+      "32946398",
+      "39255248",
+      "39572230",
+      "26818008",
+      "34273410",
+      "32029002",
+      "30078704",
+      "39441876",
+      "33941239",
+      "30361341",
+      "41105015",
+      "28789639",
+      "32321567",
+      "34282334",
+      "34547403",
+      "33111113",
+      "28680085",
+      "41028375",
+      "32576878",
+      "37295842",
+      "35293310",
+      "22955617",
+      "40167783",
+      "27899623",
+      "41439990",
+      "34870838",
+      "38604126",
+      "40848288",
+      "30799488",
+      "37751945",
+      "36232500",
+      "11976432",
+      "34071577",
+      "22955984",
+      "39207727",
+      "32336246",
+      "34488759",
+      "37673071",
+      "33583425"
+    ],
+    "review": [
+      "39747019",
+      "33606259",
+      "32014034",
+      "39500613",
+      "30948010",
+      "39255248",
+      "34282334"
+    ],
+    "pmc": [
+      "11697365"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-55447-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39747019/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

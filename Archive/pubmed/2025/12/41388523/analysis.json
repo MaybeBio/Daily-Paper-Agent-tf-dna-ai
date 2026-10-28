@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41388523",
+  "title": "Integrative bulk and single-cell transcriptomic profiling identifies core gene networks and potential therapeutic targets in glioma.",
+  "authors": "Jiang, Xingxing; Gui, Yongping; Yang, Yu; Li, Jie; Liang, Aijun",
+  "journal": "BMC cancer",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过转录组和单细胞分析鉴定胶质瘤核心基因及诊断标志物，未涉及蛋白质-DNA互作、结合位点预测或AI/物理模拟建模，与本课题无关。",
+  "abstract": "BACKGROUND: Glioma is the most common primary malignant tumor of the central nervous system and is associated with an extremely poor prognosis. Given its highly complex molecular landscape, there is an urgent need to identify novel diagnostic biomarkers. This study systematically identified core glioma genes through multi-cohort integration and single-cell analysis. METHODS: Five Gene Expression Omnibus (GEO) transcriptomic datasets (GSE109857, GSE15824, GSE35158, GSE4290, and GSE90886; 504 samples) were integrated, and batch effects were corrected using ComBat. Differentially expressed genes (DEGs) were identified and combined with weighted gene co-expression network analysis (WGCNA) to obtain candidate modules. Feature genes were further screened using multiple approaches, including CytoHubba, least absolute shrinkage and selection operator (LASSO) regression, support vector machine-recursive feature elimination (SVM-RFE), and random forest (RF) analysis. Validation was performed using external GEO datasets, receiver operating characteristic (ROC) analysis, and quantitative real-time polymerase chain reaction (qRT-PCR) based on 69 clinical samples. Additional analyses included gene set enrichment analysis (GSEA), CIBERSORT-based immune infiltration profiling, expression mapping across three single-cell RNA sequencing (scRNA-seq) datasets (GSE273274, GSE162631, and GSE182109), and construction of competing endogenous RNA (ceRNA) and transcription factor (TF) networks, as well as drug enrichment analysis. RESULTS: A total of 409 glioma-related candidate genes were identified. Six hub genes, SYP, SYN1, RAB3A, SLC17A7, SYN2, and STXBP1, were consistently identified across all algorithms. All six genes were significantly downregulated in glioma, as confirmed by GEO datasets (area under the curve [AUC]: 0.787-0.802) and clinical qRT-PCR validation. GSEA revealed that low expression of these genes was associated with activation of the cell cycle, complement and coagulation cascades, and immune dysregulation. Immune infiltration analysis showed negative correlations with M1/M2 macrophages and activated natural killer (NK) cells. Single-cell analyses indicated that these hub genes were primarily enriched in tumor-propagating cell (TPC)-like tumor cells but were markedly reduced in glioma core regions. Competing endogenous RNA (ceRNA)/TF networks and drug enrichment analyses suggested multilayered regulatory mechanisms and associations with neurotransmitter-related compounds. CONCLUSION: The six identified hub genes are consistently downregulated in glioma and exhibit strong diagnostic potential. Their close association with the immune microenvironment and tumor-cell lineage highlights their value as biomarkers and potential therapeutic targets.",
+  "abstract_zh": "背景：胶质瘤是中枢神经系统最常见的原发性恶性肿瘤，预后极差。鉴于其高度复杂的分子景观，迫切需要识别新的诊断生物标志物。本研究通过多队列整合和单细胞分析系统性地鉴定了胶质瘤核心基因。方法：整合了五个基因表达综合数据库（GEO）转录组数据集（GSE109857、GSE15824、GSE35158、GSE4290和GSE90886；共504个样本），并使用ComBat校正批次效应。鉴定了差异表达基因（DEGs），并结合加权基因共表达网络分析（WGCNA）获得候选模块。使用多种方法进一步筛选特征基因，包括CytoHubba、最小绝对收缩和选择算子（LASSO）回归、支持向量机-递归特征消除（SVM-RFE）和随机森林（RF）分析。使用外部GEO数据集、受试者工作特征（ROC）分析以及基于69例临床样本的实时定量聚合酶链反应（qRT-PCR）进行验证。额外分析包括基因集富集分析（GSEA）、基于CIBERSORT的免疫浸润谱分析、三个单细胞RNA测序（scRNA-seq）数据集（GSE273274、GSE162631和GSE182109）中的表达图谱，以及竞争性内源RNA（ceRNA）和转录因子（TF）网络的构建，以及药物富集分析。结果：共鉴定出409个胶质瘤相关候选基因。六个核心基因SYP、SYN1、RAB3A、SLC17A7、SYN2和STXBP1在所有算法中均被一致识别。这六个基因在胶质瘤中均显著下调，并通过GEO数据集（曲线下面积[AUC]：0.787-0.802）和临床qRT-PCR验证得到确认。GSEA显示这些基因的低表达与细胞周期、补体和凝血级联反应的激活以及免疫失调相关。免疫浸润分析显示与M1/M2巨噬细胞和活化自然杀伤（NK）细胞呈负相关。单细胞分析表明这些核心基因主要富集于肿瘤传播细胞（TPC）样肿瘤细胞中，但在胶质瘤核心区域显著减少。竞争性内源RNA（ceRNA）/TF网络和药物富集分析提示了多层次调控机制以及与神经递质相关化合物的关联。结论：所鉴定的六个核心基因在胶质瘤中一致下调，并表现出强大的诊断潜力。它们与免疫微环境和肿瘤细胞谱系的密切关联凸显了其作为生物标志物和潜在治疗靶点的价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41388523/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41388523/",
+  "paper_page_path": "papers/pubmed/41388523/index.html"
+}

@@ -1,0 +1,563 @@
+{
+  "identity": {
+    "pmid": "40912740",
+    "doi": "10.1136/jitc-2025-012357",
+    "title": "High transposable element expression in sarcomas is associated with increased immune infiltrates and improved outcomes including after immunotherapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Response to immune checkpoint inhibition (ICI) in sarcomas is overall low and heterogeneous. Understanding determinants of ICI outcomes may improve efficacy and patient selection. Thus, we investigated whether the expression of transposable elements (TEs), which are epigenetically silenced and can stimulate antitumor immunity, influence ICI outcomes and immune infiltrates in common sarcoma subtypes. METHODS: We used transcriptomic data to assign immune enhanced versus immune depleted status to 67 pretreatment and on-treatment biopsies of sarcomas from patients treated on ICI trials, along with additional cohorts from The Cancer Genome Atlas (TCGA) and an independent ICI trial (SARC028). A machine learning technique (lasso-penalized logistic regression) controlled for sarcoma subtype was used to determine if TE and epigenetic regulatory gene expression predict immune infiltrates. Correlations between top features in these models and sarcoma immune infiltrates, immune pathway expression, and clinical outcomes were explored. RESULTS: Expression of TEs and epigenetic regulators significantly predicted immune enhanced status. TE subfamilies and Ikaros family zinc finger 1 (IKZF1), a chromatin-modulating transcription factor, were significantly contributory. TE and IKZF1 expression positively correlated with tumor immune infiltrates, inflammatory pathways, and improved clinical outcomes, and increased in tumors that gained immune infiltrates during ICI treatment. TE and IKZF1 expression similarly correlated with overall survival and immune features in a TCGA cohort. In an additional cohort of patients with sarcoma treated with ICI, IKZF1 expression correlated with progression-free survival and inflammatory features. CONCLUSIONS: TE and IKZF1 expression warrant further translational investigation as potential biomarkers of tumor immune infiltrates and outcomes following ICI treatment, and as therapeutic targets in sarcomas.",
+    "keywords": [
+      "Immune Checkpoint Inhibitor",
+      "Sarcoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sarcoma/genetics/immunology/drug therapy/mortality",
+      "*Immunotherapy/methods",
+      "*DNA Transposable Elements/genetics",
+      "Female",
+      "Male",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nacev, Benjamin A",
+        "Bradic, Martina",
+        "Woo, Hyung Jun",
+        "Richards, Allison L",
+        "Kelly, Ciara M",
+        "Dickson, Mark A",
+        "Gounder, Mrinal M",
+        "Keohan, Mary L",
+        "Chi, Ping",
+        "Movva, Sujana",
+        "Maki, Robert G",
+        "Slotkin, Emily K",
+        "Rosenbaum, Evan",
+        "Avutu, Viswatej",
+        "Chan, Jason E",
+        "Banks, Lauren B",
+        "Adamson, Travis",
+        "Singer, Samuel",
+        "Antonescu, Cristina R",
+        "Tap, William D",
+        "Donoghue, Mark Ta",
+        "D'Angelo, Sandra P"
+      ],
+      "short_names": [
+        "Nacev BA",
+        "Bradic M",
+        "Woo HJ",
+        "Richards AL",
+        "Kelly CM",
+        "Dickson MA",
+        "Gounder MM",
+        "Keohan ML",
+        "Chi P",
+        "Movva S",
+        "Maki RG",
+        "Slotkin EK",
+        "Rosenbaum E",
+        "Avutu V",
+        "Chan JE",
+        "Banks LB",
+        "Adamson T",
+        "Singer S",
+        "Antonescu CR",
+        "Tap WD",
+        "Donoghue MT",
+        "D'Angelo SP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4991-2492",
+        "ORCID: 0000-0002-6569-6606",
+        "ORCID: 0000-0002-9853-2528",
+        "ORCID: 0000-0002-7499-1279",
+        "ORCID: 0000-0003-0552-8544",
+        "ORCID: 0000-0002-3736-3783"
+      ],
+      "affiliations": [
+        "Department of Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA nacevba@upmc.edu.",
+        "UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania, USA.",
+        "Marie-Josee and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Marie-Josee and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Marie-Josee and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Pediatrics, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA.",
+        "Marie-Josee and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+        "Weill Cornell Medical College, New York, New York, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nacev, Benjamin A",
+        "short_name": "Nacev BA",
+        "identifiers": [
+          "0000-0003-4991-2492"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA nacevba@upmc.edu.",
+          "UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Bradic, Martina",
+        "short_name": "Bradic M",
+        "identifiers": [],
+        "affiliations": [
+          "Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Woo, Hyung Jun",
+        "short_name": "Woo HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Richards, Allison L",
+        "short_name": "Richards AL",
+        "identifiers": [],
+        "affiliations": [
+          "Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Kelly, Ciara M",
+        "short_name": "Kelly CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Dickson, Mark A",
+        "short_name": "Dickson MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Gounder, Mrinal M",
+        "short_name": "Gounder MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Keohan, Mary L",
+        "short_name": "Keohan ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Chi, Ping",
+        "short_name": "Chi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Movva, Sujana",
+        "short_name": "Movva S",
+        "identifiers": [
+          "0000-0002-6569-6606"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Maki, Robert G",
+        "short_name": "Maki RG",
+        "identifiers": [
+          "0000-0002-9853-2528"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Slotkin, Emily K",
+        "short_name": "Slotkin EK",
+        "identifiers": [],
+        "affiliations": [
+          "Weill Cornell Medical College, New York, New York, USA.",
+          "Department of Pediatrics, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Rosenbaum, Evan",
+        "short_name": "Rosenbaum E",
+        "identifiers": [
+          "0000-0002-7499-1279"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Avutu, Viswatej",
+        "short_name": "Avutu V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Chan, Jason E",
+        "short_name": "Chan JE",
+        "identifiers": [
+          "0000-0003-0552-8544"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Banks, Lauren B",
+        "short_name": "Banks LB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Adamson, Travis",
+        "short_name": "Adamson T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Singer, Samuel",
+        "short_name": "Singer S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Antonescu, Cristina R",
+        "short_name": "Antonescu CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Tap, William D",
+        "short_name": "Tap WD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Donoghue, Mark Ta",
+        "short_name": "Donoghue MT",
+        "identifiers": [],
+        "affiliations": [
+          "Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "D'Angelo, Sandra P",
+        "short_name": "D'Angelo SP",
+        "identifiers": [
+          "0000-0002-3736-3783"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+          "Weill Cornell Medical College, New York, New York, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal for immunotherapy of cancer"
+    ],
+    "journal_abbrev": [
+      "J Immunother Cancer"
+    ],
+    "pub_date": "2025 Sep 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/06 00:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "41994103",
+      "41912937"
+    ],
+    "refs": [
+      "40054999",
+      "38937652",
+      "38205335",
+      "37995656",
+      "37799721",
+      "37787759",
+      "37598257",
+      "36971773",
+      "35830892",
+      "35830886",
+      "35710741",
+      "35705560",
+      "35618839",
+      "34671158",
+      "34462284",
+      "34381716",
+      "33953401",
+      "33637599",
+      "33471418",
+      "33087935",
+      "32649682",
+      "32461654",
+      "31971541",
+      "31942077",
+      "31942071",
+      "31745090",
+      "31564637",
+      "31510660",
+      "31085178",
+      "30643254",
+      "30185548",
+      "29937226",
+      "29658845",
+      "29370992",
+      "29313949",
+      "29203668",
+      "29195073",
+      "29100075",
+      "28988646",
+      "28882536",
+      "28636851",
+      "28596308",
+      "28471386",
+      "27865806",
+      "27591081",
+      "27270079",
+      "26952546",
+      "26941318",
+      "26359337",
+      "26317466",
+      "26317465",
+      "25865896",
+      "25765070",
+      "25605792",
+      "23323831",
+      "22675273",
+      "21414208",
+      "21357675",
+      "20808728",
+      "19910308",
+      "19097774",
+      "18989396"
+    ],
+    "similar": [
+      "40912740",
+      "33762319",
+      "34925348",
+      "40495323",
+      "39810215",
+      "34346253",
+      "34531868",
+      "33130422",
+      "32882333",
+      "40777041",
+      "39699310",
+      "28463396",
+      "39511540",
+      "40366309",
+      "41106040",
+      "37029351",
+      "40189514",
+      "35842562",
+      "40020124",
+      "41332808",
+      "35860263",
+      "40911493",
+      "33557781",
+      "32028068",
+      "33020239",
+      "36221119",
+      "35488273",
+      "28245428",
+      "37799721",
+      "35767280",
+      "33611603",
+      "40888855",
+      "39763064",
+      "35197093",
+      "33930176",
+      "41601635",
+      "33316104",
+      "31745090",
+      "41080584",
+      "36153483",
+      "29036316",
+      "38739269",
+      "31900276",
+      "33509178",
+      "32567826",
+      "38429415",
+      "40421971",
+      "40541864",
+      "40627445",
+      "35992816",
+      "29896199",
+      "40696405",
+      "34869583",
+      "35974414",
+      "36394839",
+      "33946044",
+      "35997258",
+      "28935774",
+      "36353107",
+      "34299136",
+      "34895481",
+      "35278076",
+      "35533815",
+      "30704460",
+      "40761790",
+      "40192045",
+      "40378054",
+      "40226622",
+      "38936517",
+      "34107450",
+      "36159856",
+      "41656832",
+      "33678158",
+      "41690151",
+      "35868660",
+      "34302518",
+      "39394099",
+      "41299220",
+      "40440584",
+      "32502294",
+      "40889797",
+      "41171465",
+      "39848689",
+      "33680909",
+      "33335088",
+      "41720608",
+      "41561639",
+      "41463470",
+      "32503455",
+      "33743486",
+      "34242269",
+      "32845327",
+      "34745124",
+      "39033192",
+      "41071311",
+      "38720884",
+      "34754345",
+      "34492588",
+      "34305884",
+      "34052775"
+    ],
+    "review": [
+      "40912740",
+      "34925348",
+      "33130422",
+      "40366309",
+      "28245428",
+      "33611603",
+      "40888855",
+      "33930176",
+      "33316104",
+      "40421971",
+      "28935774",
+      "34299136",
+      "35533815",
+      "38936517"
+    ],
+    "pmc": [
+      "12414182"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jitc.bmj.com/lookup/pmidlookup?view=long&pmid=40912740",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40912740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

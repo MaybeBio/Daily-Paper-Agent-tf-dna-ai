@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "38871969",
+    "doi": "10.1007/s11030-024-10903-y",
+    "title": "Unveiling critical structural features for effective HDAC8 inhibition: a comprehensive study using quantitative read-across structure-activity relationship (q-RASAR) and pharmacophore modeling."
+  },
+  "content": {
+    "abstract": "Histone deacetylases constitute a group of enzymes that participate in several biological processes. Notably, inhibiting HDAC8 has become a therapeutic strategy for various diseases. The current inhibitors for HDAC8 lack selectivity and target multiple HDACs. Consequently, there is a growing recognition of the need for selective HDAC8 inhibitors to enhance the effectiveness of therapeutic interventions. In our current study, we have utilized a multi-faceted approach, including Quantitative Structure-Activity Relationship (QSAR) combined with Quantitative Read-Across Structure-Activity Relationship (q-RASAR) modeling, pharmacophore mapping, molecular docking, and molecular dynamics (MD) simulations. The developed q-RASAR model has a high statistical significance and predictive ability (Q(2)(F1):0.778, Q(2)(F2):0.775). The contributions of important descriptors are discussed in detail to gain insight into the crucial structural features in HDAC8 inhibition. The best pharmacophore hypothesis exhibits a high regression coefficient (0.969) and a low root mean square deviation (0.944), highlighting the importance of correctly orienting hydrogen bond acceptor (HBA), ring aromatic (RA), and zinc-binding group (ZBG) features in designing potent HDAC8 inhibitors. To confirm the results of q-RASAR and pharmacophore mapping, molecular docking analysis of the five potent compounds (44, 54, 82, 102, and 118) was performed to gain further insights into these structural features crucial for interaction with the HDAC8 enzyme. Lastly, MD simulation studies of the most active compound (54, mapped correctly with the pharmacophore hypothesis) and the least active compound (34, mapped poorly with the pharmacophore hypothesis) were carried out to validate the observations of the studies above. This study not only refines our understanding of essential structural features for HDAC8 inhibition but also provides a robust framework for the rational design of novel selective HDAC8 inhibitors which may offer insights to medicinal chemists and researchers engaged in the development of HDAC8-targeted therapeutics.",
+    "keywords": [
+      "Descriptor",
+      "HDAC8",
+      "MD simulation",
+      "Molecular docking",
+      "Pharmacophore",
+      "QSAR"
+    ],
+    "mesh_terms": [
+      "*Quantitative Structure-Activity Relationship",
+      "*Histone Deacetylases/chemistry/metabolism",
+      "*Histone Deacetylase Inhibitors/chemistry/pharmacology",
+      "*Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "Repressor Proteins/antagonists & inhibitors/chemistry",
+      "Humans",
+      "Drug Design",
+      "Pharmacophore"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khatun, Samima",
+        "Dasgupta, Indrasis",
+        "Islam, Rakibul",
+        "Amin, Sk Abdul",
+        "Jha, Tarun",
+        "Dhaked, Devendra Kumar",
+        "Gayen, Shovanlal"
+      ],
+      "short_names": [
+        "Khatun S",
+        "Dasgupta I",
+        "Islam R",
+        "Amin SA",
+        "Jha T",
+        "Dhaked DK",
+        "Gayen S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Drug Design and Discovery, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India.",
+        "Laboratory of Drug Design and Discovery, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India.",
+        "Department of Pharmacoinformatics, National Institute of Pharmaceutical Education and Research (NIPER), Kolkata, West Bengal, 700054, India.",
+        "Department of Pharmaceutical Technology, JIS University, 81, Nilgunj Road, Agarpara, Kolkata, West Bengal, India.",
+        "Natural Science Laboratory, Division of Medicinal and Pharmaceutical Chemistry, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India.",
+        "Department of Pharmacoinformatics, National Institute of Pharmaceutical Education and Research (NIPER), Kolkata, West Bengal, 700054, India.",
+        "Laboratory of Drug Design and Discovery, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India. shovanlal.gayen@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khatun, Samima",
+        "short_name": "Khatun S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Drug Design and Discovery, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India."
+        ]
+      },
+      {
+        "full_name": "Dasgupta, Indrasis",
+        "short_name": "Dasgupta I",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Drug Design and Discovery, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India."
+        ]
+      },
+      {
+        "full_name": "Islam, Rakibul",
+        "short_name": "Islam R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacoinformatics, National Institute of Pharmaceutical Education and Research (NIPER), Kolkata, West Bengal, 700054, India."
+        ]
+      },
+      {
+        "full_name": "Amin, Sk Abdul",
+        "short_name": "Amin SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Technology, JIS University, 81, Nilgunj Road, Agarpara, Kolkata, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Jha, Tarun",
+        "short_name": "Jha T",
+        "identifiers": [],
+        "affiliations": [
+          "Natural Science Laboratory, Division of Medicinal and Pharmaceutical Chemistry, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India."
+        ]
+      },
+      {
+        "full_name": "Dhaked, Devendra Kumar",
+        "short_name": "Dhaked DK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacoinformatics, National Institute of Pharmaceutical Education and Research (NIPER), Kolkata, West Bengal, 700054, India."
+        ]
+      },
+      {
+        "full_name": "Gayen, Shovanlal",
+        "short_name": "Gayen S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Drug Design and Discovery, Department of Pharmaceutical Technology, Jadavpur University, Kolkata, 700032, India. shovanlal.gayen@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/14 00:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38870351",
+      "38149858",
+      "37993082",
+      "37932257",
+      "37640007",
+      "37584642",
+      "37551114",
+      "37348224",
+      "37294004",
+      "37272194",
+      "36976974",
+      "36891579",
+      "36533308",
+      "36231123",
+      "36077415",
+      "35767129",
+      "35694813",
+      "35267067",
+      "35057104",
+      "33844528",
+      "33364474",
+      "33015043",
+      "32073312",
+      "31830865",
+      "31748509",
+      "31530244",
+      "31074329",
+      "30705752",
+      "30633630",
+      "30562755",
+      "29953251",
+      "28965432",
+      "27774878",
+      "27542119",
+      "27459069",
+      "27416889",
+      "27235003",
+      "27113097",
+      "26933971",
+      "26923266",
+      "26907204",
+      "26431201",
+      "26013035",
+      "25986171",
+      "25906087",
+      "25757142",
+      "25462271",
+      "24931227",
+      "24694055",
+      "24691964",
+      "24624945",
+      "23702385",
+      "23466417",
+      "23175386",
+      "22272142",
+      "21924799",
+      "21803775",
+      "21733698",
+      "21714538",
+      "21576679",
+      "21476600",
+      "21425294",
+      "20870437",
+      "20656379",
+      "20171895",
+      "19399780",
+      "18351591",
+      "17325692",
+      "16491070",
+      "16211538",
+      "14521412",
+      "12198485",
+      "11754578",
+      "10647931"
+    ],
+    "similar": [
+      "38871969",
+      "30633630",
+      "22272142",
+      "36533308",
+      "31748509",
+      "27542119",
+      "37741229",
+      "34369509",
+      "32658783",
+      "30611847",
+      "25757142",
+      "35110603",
+      "28632421",
+      "30369061",
+      "38835122",
+      "27774878",
+      "29953251",
+      "25407689",
+      "20656379",
+      "25462986",
+      "30347148",
+      "29190092",
+      "30594678",
+      "27668885",
+      "33686739",
+      "32672458",
+      "24888409",
+      "29945500",
+      "27374062",
+      "31074329",
+      "31057077",
+      "25986171",
+      "30938574",
+      "28938860",
+      "28965432",
+      "29533873",
+      "39351092",
+      "30632447",
+      "19947584",
+      "30145395",
+      "31421254",
+      "32331470",
+      "30836926",
+      "36995068",
+      "26804643",
+      "24403121",
+      "30407786",
+      "27665180",
+      "31630054",
+      "30521473",
+      "23672185",
+      "36709457",
+      "32886033",
+      "25060069",
+      "37227732",
+      "26587754",
+      "34049193",
+      "20472442",
+      "22907916",
+      "31907955",
+      "37779411",
+      "29182053",
+      "28846375",
+      "27487787",
+      "30417746",
+      "29514055",
+      "26595183",
+      "23893931",
+      "31606091",
+      "30324898",
+      "24789056",
+      "28486912",
+      "34809538",
+      "33319692",
+      "15477595",
+      "30336555",
+      "26431201",
+      "36174732",
+      "34994284",
+      "34405765",
+      "36841313",
+      "35886887",
+      "30909817",
+      "35318905",
+      "19136179",
+      "38949959",
+      "30079817",
+      "25350685",
+      "32591593",
+      "31952961",
+      "33848944",
+      "29447615",
+      "27339433",
+      "29150330",
+      "31721705",
+      "39163297",
+      "30261821",
+      "17346959",
+      "39312159",
+      "23701009",
+      "31411124",
+      "37608752",
+      "39393319",
+      "39357770",
+      "37462852",
+      "39427514",
+      "39383696",
+      "39126787",
+      "39377405"
+    ],
+    "review": [
+      "38871969",
+      "30594678",
+      "30632447",
+      "37227732",
+      "37779411",
+      "29514055",
+      "36841313",
+      "27339433"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-024-10903-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3432",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

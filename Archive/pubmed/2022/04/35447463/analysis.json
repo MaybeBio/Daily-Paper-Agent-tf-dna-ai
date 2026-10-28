@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35447463",
+  "title": "Target-DBPPred: An intelligent model for prediction of DNA-binding proteins using discrete wavelet transform based compression and light eXtreme gradient boosting.",
+  "authors": "Ali, Farman; Kumar, Harish; Patil, Shruti; Kotecha, Ketan; Banjar, Ameen; Daud, Ali",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-04-22",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用离散小波变换和LightGBM从序列特征预测DNA结合蛋白，属于广义蛋白-DNA互作预测，但无三维结构或结合机制建模，方法可迁移至TF-DNA位点预测。",
+  "abstract": "DNA-protein interaction is a critical biological process that performs influential activities, including DNA transcription and recombination. DBPs (DNA-binding proteins) are closely associated with different kinds of human diseases (asthma, cancer, and AIDS), while some of the DBPs are used in the production of antibiotics, steroids, and anti-inflammatories. Several methods have been reported for the prediction of DBPs. However, a more intelligent method is still highly desirable for the accurate prediction of DBPs. This study presents an intelligent computational method, Target-DBPPred, to improve DBPs prediction. Important features from primary protein sequences are investigated via a novel feature descriptor, called EDF-PSSM-DWT (Evolutionary difference formula position-specific scoring matrix-discrete wavelet transform) and several other multi-evolutionary methods, including F-PSSM (Filtered position-specific scoring matrix), EDF-PSSM (Evolutionary difference formula position-specific scoring matrix), PSSM-DPC (Position-specific scoring matrix-dipeptide composition), and Lead-BiPSSM (Lead-bigram-position specific scoring matrix) to encapsulate diverse multivariate features. The best feature set from the features of each descriptor is selected using sequential forward selection (SFS). Further, four models are trained using Adaboost, XGB (eXtreme gradient boosting), ERT (extremely randomized trees), and LiXGB (Light eXtreme gradient boosting) classifiers. LiXGB, with the best feature set of EDF-PSSM-DWT, has attained 6.69% and 15.07% higher performance in terms of accuracies using training and testing datasets, respectively. The obtained results verify the improved performance of our proposed predictor over the existing predictors.",
+  "abstract_zh": "DNA-蛋白质相互作用是一个关键的生物过程，执行着包括DNA转录和重组在内的多种重要活动。DBPs（DNA结合蛋白）与多种人类疾病（如哮喘、癌症和艾滋病）密切相关，同时部分DBPs被用于生产抗生素、类固醇和抗炎药物。已有多种方法被报道用于DBPs的预测。然而，仍迫切需要一种更智能的方法来实现DBPs的准确预测。本研究提出了一种智能计算方法Target-DBPPred，以改进DBPs的预测。通过一种新型特征描述符EDF-PSSM-DWT（进化差异公式位置特异性评分矩阵-离散小波变换）以及多种其他多进化方法，包括F-PSSM（滤波位置特异性评分矩阵）、EDF-PSSM（进化差异公式位置特异性评分矩阵）、PSSM-DPC（位置特异性评分矩阵-二肽组成）和Lead-BiPSSM（前导双联体-位置特异性评分矩阵），对初级蛋白质序列中的重要特征进行了探究，以封装多样化的多变量特征。使用序列前向选择（SFS）从每个描述符的特征中选出最佳特征集。进一步，使用Adaboost、XGB（极端梯度提升）、ERT（极端随机树）和LiXGB（轻量极端梯度提升）分类器训练了四个模型。LiXGB结合EDF-PSSM-DWT的最佳特征集，在训练和测试数据集上的准确率分别提高了6.69%和15.07%。所得结果验证了我们提出的预测器相对于现有预测器的性能提升。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35447463/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35447463/",
+  "paper_page_path": "papers/pubmed/35447463/index.html"
+}

@@ -1,0 +1,228 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.11.561870",
+  "title": "Non-coding variants impact cis -regulatory coordination in a cell type-specific manner",
+  "doi": "10.1101/2023.10.11.561870",
+  "abstract": "<h4>BACKGROUND</h4> Interactions among cis -regulatory elements (CREs) play a crucial role in gene regulation. Various approaches have been developed to map these interactions genome-wide, including those relying on interindividual epigenomic variation to identify groups of covariable regulatory elements, referred to as chromatin modules (CMs). While CM mapping allows to investigate the relationship between chromatin modularity and gene expression, the computational principles used for CM identification vary in their application and outcomes. <h4>RESULTS</h4> We comprehensively evaluate and streamline existing CM mapping tools and present guidelines for optimal utilization of epigenome data from a diverse population of individuals to assess regulatory coordination across the human genome. We showcase the effectiveness of our recommended practices by analysing distinct cell types and demonstrate cell type-specificity of CRE interactions in CMs and their relevance for gene expression. Integration of genotype information revealed that many non-coding disease-associated variants affect the activity of CMs in a cell type-specific manner by affecting the binding of cell type-specific transcription factors. We provide example cases that illustrate in detail how CMs can be used to deconstruct GWAS loci, understand variable expression of cell surface receptors in immune cells and reveal how genetic variation can impact the expression of prognostic markers in chronic lymphocytic leukaemia. <h4>CONCLUSIONS</h4> Our study presents an optimal strategy for CM mapping, and reveals how CMs capture the coordination of CREs and its impact on gene expression. Non-coding genetic variants can disrupt this coordination, and we highlight how this may lead to disease predisposition in a cell type-specific manner.",
+  "authors": [
+    "Pushkarev O",
+    "van Mierlo G",
+    "Kribelbauer JF",
+    "Saelens W",
+    "Gardeux V",
+    "Deplancke B"
+  ],
+  "published_date": "2023-10-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561870",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561870.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR739548",
+    "raw_record": {
+      "id": "PPR739548",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR739548"
+        ]
+      },
+      "doi": "10.1101/2023.10.11.561870",
+      "title": "Non-coding variants impact  <i>cis</i>  -regulatory coordination in a cell type-specific manner",
+      "authorString": "Pushkarev O, van Mierlo G, Kribelbauer JF, Saelens W, Gardeux V, Deplancke B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pushkarev O",
+            "lastName": "Pushkarev",
+            "firstName": "Olga",
+            "initials": "O"
+          },
+          {
+            "fullName": "van Mierlo G",
+            "lastName": "van Mierlo",
+            "firstName": "Guido",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5883-0339"
+            }
+          },
+          {
+            "fullName": "Kribelbauer JF",
+            "lastName": "Kribelbauer",
+            "firstName": "Judith",
+            "initials": "JF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8072-7773"
+            }
+          },
+          {
+            "fullName": "Saelens W",
+            "lastName": "Saelens",
+            "firstName": "Wouter",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7114-6248"
+            }
+          },
+          {
+            "fullName": "Gardeux V",
+            "lastName": "Gardeux",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8954-2161"
+            }
+          },
+          {
+            "fullName": "Deplancke B",
+            "lastName": "Deplancke",
+            "firstName": "Bart",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9935-843X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5883-0339"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8954-2161"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9935-843X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7114-6248"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8072-7773"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>BACKGROUND</h4>  Interactions among  cis -regulatory elements (CREs) play a crucial role in gene regulation. Various approaches have been developed to map these interactions genome-wide, including those relying on interindividual epigenomic variation to identify groups of covariable regulatory elements, referred to as chromatin modules (CMs). While CM mapping allows to investigate the relationship between chromatin modularity and gene expression, the computational principles used for CM identification vary in their application and outcomes.  <h4>RESULTS</h4>  We comprehensively evaluate and streamline existing CM mapping tools and present guidelines for optimal utilization of epigenome data from a diverse population of individuals to assess regulatory coordination across the human genome. We showcase the effectiveness of our recommended practices by analysing distinct cell types and demonstrate cell type-specificity of CRE interactions in CMs and their relevance for gene expression. Integration of genotype information revealed that many non-coding disease-associated variants affect the activity of CMs in a cell type-specific manner by affecting the binding of cell type-specific transcription factors. We provide example cases that illustrate in detail how CMs can be used to deconstruct GWAS loci, understand variable expression of cell surface receptors in immune cells and reveal how genetic variation can impact the expression of prognostic markers in chronic lymphocytic leukaemia. <h4>CONCLUSIONS</h4>  Our study presents an optimal strategy for CM mapping, and reveals how CMs capture the coordination of CREs and its impact on gene expression. Non-coding genetic variants can disrupt this coordination, and we highlight how this may lead to disease predisposition in a cell type-specific manner.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197082",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/11/2023.10.11.561870.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.11.561870"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR739548"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR739548&type=FILE&fileName=EMS189518-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189518",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-10-13",
+      "firstPublicationDate": "2023-10-11",
+      "firstIndexDate": "2023-10-13",
+      "fullTextReceivedDate": "2023-11-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "39131276",
+    "doi": "10.1101/2024.08.01.606099",
+    "title": "EPInformer: a scalable deep learning framework for gene expression prediction by integrating promoter-enhancer sequences with multimodal epigenomic data."
+  },
+  "content": {
+    "abstract": "Transcriptional regulation, critical for cellular differentiation and adaptation to environmental changes, involves coordinated interactions among DNA sequences, regulatory proteins, and chromatin architecture. Despite extensive data from consortia like ENCODE, understanding the dynamics of cis-regulatory elements (CREs) in gene expression remains challenging. Deep learning is a powerful tool for learning gene expression and epigenomic signals from DNA sequences, exhibiting superior performance compared to conventional machine learning approaches. However, even the most advanced deep learning-based methods may fall short in capturing the regulatory effects of distal elements such as enhancers, limiting their predictive accuracy. In addition, these methods may require significant resources to train or to adapt to newly generated data. To address these challenges, we present EPInformer, a scalable deep-learning framework for predicting gene expression by integrating promoter-enhancer interactions with their sequences, epigenomic signals, and chromatin contacts. Our model outperforms existing gene expression prediction models in rigorous cross-chromosome validation, accurately recapitulates enhancer-gene interactions validated by CRISPR perturbation experiments, and identifies crucial transcription factor motifs within regulatory sequences. EPInformer is available as open-source software at https://github.com/pinellolab/EPInformer.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Jiecong",
+        "Luo, Ruibang",
+        "Pinello, Luca"
+      ],
+      "short_names": [
+        "Lin J",
+        "Luo R",
+        "Pinello L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3347-837X",
+        "ORCID: 0000-0001-9711-6533",
+        "ORCID: 0000-0003-1109-3823"
+      ],
+      "affiliations": [
+        "Molecular Pathology Unit, Center for Cancer Research, Massachusetts General Hospital, Department of Pathology, Harvard Medical School, Boston, Massachusetts 02129, USA.",
+        "Department of Computer Science, The University of Hong Kong, Hong Kong, China.",
+        "Department of Computer Science, The University of Hong Kong, Hong Kong, China.",
+        "Molecular Pathology Unit, Center for Cancer Research, Massachusetts General Hospital, Department of Pathology, Harvard Medical School, Boston, Massachusetts 02129, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Jiecong",
+        "short_name": "Lin J",
+        "identifiers": [
+          "0000-0003-3347-837X"
+        ],
+        "affiliations": [
+          "Molecular Pathology Unit, Center for Cancer Research, Massachusetts General Hospital, Department of Pathology, Harvard Medical School, Boston, Massachusetts 02129, USA.",
+          "Department of Computer Science, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ruibang",
+        "short_name": "Luo R",
+        "identifiers": [
+          "0000-0001-9711-6533"
+        ],
+        "affiliations": [
+          "Department of Computer Science, The University of Hong Kong, Hong Kong, China."
+        ]
+      },
+      {
+        "full_name": "Pinello, Luca",
+        "short_name": "Pinello L",
+        "identifiers": [
+          "0000-0003-1109-3823"
+        ],
+        "affiliations": [
+          "Molecular Pathology Unit, Center for Cancer Research, Massachusetts General Hospital, Department of Pathology, Harvard Medical School, Boston, Massachusetts 02129, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/12 12:43",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39950082",
+      "39814889",
+      "39779956",
+      "39696471",
+      "38093018",
+      "38036789",
+      "37962376",
+      "37224527",
+      "37007588",
+      "36973806",
+      "36845200",
+      "36814848",
+      "36624151",
+      "35941239",
+      "35817977",
+      "35501320",
+      "35396274",
+      "34608324",
+      "33603233",
+      "33538820",
+      "33334380",
+      "33262328",
+      "33235358",
+      "32433972",
+      "31988385",
+      "31784727",
+      "31605096",
+      "30013180",
+      "28905911",
+      "27708057",
+      "27197224",
+      "26253466",
+      "26213851",
+      "25723102",
+      "22955620",
+      "22955616",
+      "22578774",
+      "21330290",
+      "17324271",
+      "12620113"
+    ],
+    "similar": [
+      "39131276",
+      "41832145",
+      "31318408",
+      "42475469",
+      "38859587",
+      "41545085",
+      "38485768",
+      "27490187",
+      "37539835",
+      "36520922",
+      "41675661",
+      "36715222",
+      "37760334",
+      "41663926",
+      "40036975",
+      "31565573",
+      "33581335",
+      "28334114",
+      "41544987",
+      "42234579",
+      "41319043",
+      "36495179",
+      "29855387",
+      "31905774",
+      "32029002",
+      "41862973",
+      "31590652",
+      "41867859",
+      "42457959",
+      "40902506",
+      "42367874",
+      "40240358",
+      "38014075",
+      "36030022",
+      "40778316",
+      "35410163",
+      "35396274",
+      "40034138",
+      "39193566",
+      "35190950",
+      "41478195",
+      "41554183",
+      "41514301",
+      "40869356",
+      "40914877",
+      "35435921",
+      "36071071",
+      "37662358",
+      "30869141",
+      "41576119",
+      "30423062",
+      "34666684",
+      "41288963",
+      "41031058",
+      "38940155",
+      "39708837",
+      "38868182",
+      "36510125",
+      "42384944",
+      "37279467",
+      "37982748",
+      "40382355",
+      "34473626",
+      "40515390",
+      "25378307",
+      "38870532",
+      "38245002",
+      "41285795",
+      "41861881",
+      "41877008",
+      "32847102",
+      "40772277",
+      "41926741",
+      "41057793",
+      "38385876",
+      "32991830",
+      "35929807",
+      "35062021",
+      "37144127",
+      "41993521",
+      "26091399",
+      "33741075",
+      "15262804",
+      "42244099",
+      "41833256",
+      "41503698",
+      "39577030",
+      "37830459",
+      "39184348",
+      "41039989",
+      "39904740",
+      "40536817",
+      "40679953",
+      "36084008",
+      "20401945",
+      "41627694",
+      "40226920",
+      "32961076",
+      "40567341",
+      "31053165"
+    ],
+    "review": [
+      "39131276",
+      "41675661",
+      "41862973",
+      "41554183",
+      "39708837",
+      "38245002",
+      "41503698",
+      "37830459",
+      "32961076"
+    ],
+    "pmc": [
+      "11312614"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39131276/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.01.606099",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "41182793",
+    "doi": "10.1158/1541-7786.MCR-25-0153",
+    "title": "Synergistic DBNDD1-GDF15 Signaling Activates the NF-kappaB Pathway to Promote Colorectal Cancer Progression."
+  },
+  "content": {
+    "abstract": "Colorectal cancer is a highly lethal gastrointestinal tract malignancy whose pathogenesis and molecular drivers are not fully understood. This study focused on searching for genes that are differentially expressed in cancer versus normal mucosa, with the goal of identifying molecular patterns of expression that are mechanistically linked to colorectal cancer pathogenesis. We analyzed 585 colorectal cancer samples and 329 normal samples from the Gene Expression Omnibus database, creating a weighted gene coexpression network analysis across 24,069 genes. Through this approach, five modules associated with colorectal cancer were identified, which were enriched in MAPK signaling and cholesterol metabolism pathways. Using least absolute shrinkage and selection operator (LASSO) regression, we selected 13 hub genes [ABCB5, AOC1, ARHGAP44, CACNG3, dysbindin domain-containing protein 1 (DBNDD1), GAS7, GTF2IRD1, PRSS22, SCN4A, TTC22, DLX6, PDK4, and SLC13A2] from these modules. Survival analysis indicated that higher expression of DBNDD1 correlated with worse overall survival in patients with colorectal cancer. Machine learning validation confirmed the stability of these genetic markers. Experimental validation demonstrated increased levels of DBNDD1 and growth differentiation factor 15 (GDF15) in colorectal cancer, promoting constant NF-kappaB (RELA) activation via DBNDD1-dependent GDF15 induction. Knocking down DBNDD1 inhibited cell proliferation, migration, and invasion in vitro (DLD1/HCT116 cells), alongside decreased GDF15 expression and reduced p-NF-kappaB p65-p-I-kappaB signaling. Additionally, DBNDD1 knockdown resulted in reduced tumor growth in vivo, highlighting that the DBNDD1-GDF15-NF-kappaB signaling pathway drives colorectal cancer pathogenesis. IMPLICATIONS: This study highlights the crucial role of the DBNDD1-GDF15-NF-kappaB signaling pathway in colorectal cancer development, positioning DBNDD1 as a promising target for precision medicine strategies aimed at enhancing patient outcomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/pathology/metabolism",
+      "*Growth Differentiation Factor 15/metabolism/genetics",
+      "Signal Transduction",
+      "*NF-kappa B/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "Disease Progression",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qi, Xiaomin",
+        "Bai, Caijuan",
+        "Dong, Li",
+        "Wang, Anqi",
+        "Wei, Chaojun",
+        "Li, Yonghong",
+        "Zhao, Mengyuan",
+        "You, Chongge"
+      ],
+      "short_names": [
+        "Qi X",
+        "Bai C",
+        "Dong L",
+        "Wang A",
+        "Wei C",
+        "Li Y",
+        "Zhao M",
+        "You C"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1493-5982",
+        "ORCID: 0009-0007-1905-1384",
+        "ORCID: 0009-0002-3032-3938",
+        "ORCID: 0000-0002-9798-985X",
+        "ORCID: 0000-0002-1769-7655",
+        "ORCID: 0000-0002-5198-3786",
+        "ORCID: 0000-0002-5716-7931",
+        "ORCID: 0000-0002-3671-596X"
+      ],
+      "affiliations": [
+        "Laboratory Medicine Center, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China.",
+        "Laboratory Medicine Center, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+        "Laboratory Medicine Center, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qi, Xiaomin",
+        "short_name": "Qi X",
+        "identifiers": [
+          "0009-0003-1493-5982"
+        ],
+        "affiliations": [
+          "Laboratory Medicine Center, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Caijuan",
+        "short_name": "Bai C",
+        "identifiers": [
+          "0009-0007-1905-1384"
+        ],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Li",
+        "short_name": "Dong L",
+        "identifiers": [
+          "0009-0002-3032-3938"
+        ],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Anqi",
+        "short_name": "Wang A",
+        "identifiers": [
+          "0000-0002-9798-985X"
+        ],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chaojun",
+        "short_name": "Wei C",
+        "identifiers": [
+          "0000-0002-1769-7655"
+        ],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yonghong",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-5198-3786"
+        ],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Lanzhou, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Mengyuan",
+        "short_name": "Zhao M",
+        "identifiers": [
+          "0000-0002-5716-7931"
+        ],
+        "affiliations": [
+          "Laboratory Medicine Center, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "You, Chongge",
+        "short_name": "You C",
+        "identifiers": [
+          "0000-0002-3671-596X"
+        ],
+        "affiliations": [
+          "Laboratory Medicine Center, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer research : MCR"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer Res"
+    ],
+    "pub_date": "2026 Feb 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/03 13:49",
+    "fetched_at": "2026-10-01 05:36:52"
+  },
+  "links": {
+    "cites": [
+      "42192866",
+      "41595533"
+    ],
+    "refs": [],
+    "similar": [
+      "41182793",
+      "40316530",
+      "27555280",
+      "40692252",
+      "38602236",
+      "27912767",
+      "27450326",
+      "31487530",
+      "39353381",
+      "41716413",
+      "26261008",
+      "40486508",
+      "33517196",
+      "40533777",
+      "30359168",
+      "39939015",
+      "27876571",
+      "39987563",
+      "41560417",
+      "28125661",
+      "41498663",
+      "24302614",
+      "27099440",
+      "28912140",
+      "41824089",
+      "38386232",
+      "26362504",
+      "30267476",
+      "39419943",
+      "33640439",
+      "30926638",
+      "27633352",
+      "26892992",
+      "32076610",
+      "40247422",
+      "27748871",
+      "32429376",
+      "27639612",
+      "40746890",
+      "31351496",
+      "26590365",
+      "39408697",
+      "34382920",
+      "40838446",
+      "41646966",
+      "26045788",
+      "34412652",
+      "40937457",
+      "40003916",
+      "34035230",
+      "41188783",
+      "39891722",
+      "41932527",
+      "24931456",
+      "30119635",
+      "38478147",
+      "29771147",
+      "38622461",
+      "42096959",
+      "35180863",
+      "41255096",
+      "41022165",
+      "41423460",
+      "24968890",
+      "40507857",
+      "41133234",
+      "29169725",
+      "36278453",
+      "32670264",
+      "39658274",
+      "38058058",
+      "40886867",
+      "40908208",
+      "38650142",
+      "27713159",
+      "29855462",
+      "29627567",
+      "36781233",
+      "22158050",
+      "27451147",
+      "36867541",
+      "28780075",
+      "41687474",
+      "31395078",
+      "22461522",
+      "31299935",
+      "38750899",
+      "31746347",
+      "41513188",
+      "40542888",
+      "40713656",
+      "35414780",
+      "34151717",
+      "41398485",
+      "34887871",
+      "27991920",
+      "30661291",
+      "36378417",
+      "23378274",
+      "40466800"
+    ],
+    "review": [
+      "41182793"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2204",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/mcr/article-lookup/doi/10.1158/1541-7786.MCR-25-0153",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends, supplementary file descriptions)
+- **Assessment boundary** Scientific claims, evidence quality, technical soundness, and significance of the findings as presented in the provided text
+- **Shared manuscript claim summary** The authors report that histones are essential and abundant chromatin components in the bacteria *Bdellovibrio bacteriovorus* and *Leptospira interrogans*. They present a crystal structure of the *B. bacteriovorus* histone (Bd0055) showing a novel "end-on" DNA binding mode that forms a nucleohistone filament, in contrast to the DNA-wrapping mode of archaeal and eukaryotic histones. They further show that Bd0055 is essential for viability and that tetramerization deficiency explains its inability to wrap DNA.
+- **Visible evidence base** Abstract, introduction, results sections (narrative form), methods descriptions, figure legends (partial), supplementary table descriptions, movie descriptions
+- **Missing materials affecting confidence** Figures and supplementary figures themselves (only legends or partial descriptions visible), full experimental details for some assays, statistical analysis details, strain construction details, raw data, and the complete supplementary tables
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant discovery: the first demonstration of histone-based chromatin organization in bacteria, with a novel DNA binding mode that challenges the universal model of histone-DNA interactions. The combination of phylogenetics, structural biology, biochemistry, and genetics is comprehensive and the claims are largely well-supported by the described evidence. However, the absence of the actual figures and some methodological details limits full evaluation. The structural finding of an "end-on" DNA binding mode is novel and would be of broad interest, but the in vivo functional significance of this mode requires further clarification.
+- **Who would be interested in the results, and why** Chromatin biologists studying histone evolution and function; bacterial cell biologists interested in nucleoid organization; structural biologists studying protein-DNA interactions; evolutionary biologists interested in the origins of chromatin. The finding that bacteria use histones as major chromatin components overturns a long-held dogma and would attract broad readership across these fields.
+- **Major strengths** 1) The phylogenetic survey is comprehensive and identifies a clear pattern of histone presence in specific bacterial clades. 2) The crystal structure of Bd0055 provides high-resolution evidence for a novel DNA binding mode. 3) The combination of in vitro biochemistry, structural biology, and in vivo genetics (deletion attempts) provides multiple lines of evidence. 4) The identification of a specific molecular mechanism (loss of tetramerization) explaining the novel binding mode is elegant and well-supported by mutagenesis data. 5) The demonstration of essentiality in two bacterial species strengthens the biological significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The claim that Bd0055 forms a "sheath of tightly packed histone dimers to encase straight DNA" in vivo
+  - **Evidence pointer** Results section "Bd0055 binding to DNA differs from that of archaeal histones", Figure 5, Movie S2
+  - **Concern** The nucleohistone filament structure is derived from a crystal structure with a 35 bp DNA fragment. The authors extrapolate this to a model of chromatin organization in vivo, but no direct evidence (e.g., electron microscopy of native chromatin, chromatin immunoprecipitation, or in vivo crosslinking) is presented to demonstrate that this filamentous structure exists in the bacterial cell. The in vitro conditions (high protein:DNA ratio of 1:2.5 bp) may not reflect physiological conditions.
+  - **Why it matters** The central claim of the paper is that bacteria use histones to organize chromatin in a fundamentally different way. Without in vivo structural evidence, the physiological relevance of the filamentous structure remains speculative. The authors do show localization to the nucleoid and essentiality, but these do not directly demonstrate the filamentous organization.
+  - **Resolution test** Provide direct in vivo evidence for the filamentous chromatin structure, such as cryo-electron tomography of *B. bacteriovorus* cells, or chromatin fiber analysis from native cells. Alternatively, demonstrate that the high stoichiometry required for filament formation is physiologically relevant by quantifying Bd0055 copy number per genome equivalent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Bd0055 is essential for viability in both *B. bacteriovorus* and *L. interrogans*
+  - **Evidence pointer** Results section "Bd0055 is essential for predatory and prey-independent growth", Methods section "Gene deletion"
+  - **Concern** The evidence for essentiality is based on failure to obtain deletion mutants (133 and 150 reversions to wild type). While this is a standard approach, the authors do not report whether a conditional knockdown or complementation experiment was performed to confirm that the phenotype is specifically due to loss of Bd0055 function rather than a polar effect or secondary mutation. The reversion frequency is high and the mechanism of reversion is not characterized.
+  - **Why it matters** Essentiality is a strong claim that underpins the biological significance of the finding. If the deletion attempts are technically flawed or if the essentiality is due to an artifact, the conclusion would be weakened. The high reversion rate suggests possible selective pressure against the deletion, but the mechanism is unclear.
+  - **Resolution test** Perform a conditional knockdown (e.g., CRISPR interference or an inducible promoter) to confirm essentiality, or complement the deletion with an inducible copy of bd0055 to demonstrate rescue. Characterize the reversion events to rule out polar effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The claim that "the inability of wildtype Bd0055 to form tetramers is responsible for its inability to wrap DNA around its outer perimeter"
+  - **Evidence pointer** Results section "Why does Bd0055 bind DNA edge-on rather than wrapping it around its surface?", Figure 5d
+  - **Concern** The mutagenesis experiment (A48H, S45F, I61L) restores FRET signal, which is interpreted as restoration of DNA wrapping. However, the FRET assay measures end-to-end distance of the DNA, and a signal could also arise from other conformational changes, such as DNA bending without full wrapping, or from aggregation artifacts. The authors do not report whether the mutant actually forms tetramers in solution or on DNA, nor do they provide structural evidence for the wrapped conformation.
+  - **Why it matters** The mechanistic conclusion that tetramerization is the key determinant of binding mode is central to the paper's conceptual framework. If the FRET signal is not specifically due to DNA wrapping, the conclusion would be overstated.
+  - **Resolution test** Perform analytical ultracentrifugation or size exclusion chromatography to demonstrate tetramer formation by the mutant. Obtain a crystal structure or cryo-EM structure of the mutant bound to DNA to confirm the wrapped conformation. Alternatively, use a more direct DNA bending assay, such as circular dichroism or atomic force microscopy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that "histones are integral chromatin components across the tree of life" and the implication that the findings extend to other bacterial clades
+  - **Evidence pointer** Results section "Bacterial histones have essential roles outside the Bdellovibrionota", Figure 6
+  - **Concern** The authors show high expression of histone-fold proteins in several bacteria and phylogenetic persistence, but functional evidence (essentiality, chromatin association) is only provided for *B. bacteriovorus* and *L. interrogans*. The claim of generalizability across the tree of life is based on sequence presence and expression data, not functional studies. The authors do not address whether the "end-on" binding mode is conserved in other bacterial histones or whether some might wrap DNA like archaeal histones.
+  - **Why it matters** The title and abstract make broad claims about bacterial chromatin organization. If the novel binding mode is specific to Bd0055 and not generalizable, the significance of the finding would be reduced. The authors should clarify the scope of their claims.
+  - **Resolution test** Provide functional data (e.g., chromatin immunoprecipitation, localization, or essentiality) for at least one additional bacterial histone from a different clade. Alternatively, perform structural predictions or modeling to assess whether the key features of Bd0055 (short α2, missing tetramerization residues) are conserved across bacterial histones.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "Histones are the principal constituents of chromatin in eukaryotes and most archaea, while bacteria generally rely on an orthogonal set of proteins to organize their chromosomes." This is accurate but could be more precise about the distinction between "histone-fold proteins" and "histones" as operational definitions.
+  - **Required correction** Consider clarifying that the bacterial proteins are "histone-fold proteins" or "putative histones" in the abstract to avoid overstatement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, homology search
+  - **Evidence pointer** Methods section "Homology survey of histone fold proteins"
+  - **Issue** The authors state that proteins longer than 200 amino acids were discarded, but do not justify this cutoff. Some bacterial histone-fold proteins with additional domains might be longer and could have been missed.
+  - **Required correction** Provide a justification for the length cutoff or state that longer proteins were examined separately.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Proteomics data
+  - **Evidence pointer** Results section "Bdellovibrio bacteriovorus encodes an abundant histone that localizes to the nucleoid", Figure 2b
+  - **Issue** The authors report enrichment of Bd0055 in the nucleoid fraction but do not provide statistical significance or confidence intervals for the enrichment values.
+  - **Required correction** Report the number of replicates, statistical tests used, and measures of variability for the proteomics data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not address potential limitations of the study, such as the in vitro nature of the structural studies or the lack of direct in vivo evidence for the filamentous structure.
+  - **Required correction** Add a paragraph discussing limitations and alternative interpretations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Dataset availability
+  - **Evidence pointer** Methods section "Dataset availability"
+  - **Issue** The authors state that scripts are available on GitHub, but do not provide a version or DOI for reproducibility.
+  - **Required correction** Provide a versioned release or Zenodo DOI for the analysis scripts.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 (legend only)
+  - **Issue** The figure legend mentions "two major histone size classes" but does not describe how the classification was performed or how robust it is.
+  - **Required correction** Clarify the classification criteria in the legend or methods.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct in vivo evidence for the nucleohistone filament structure (R1-M1). 2) Incomplete validation of essentiality through complementation or conditional knockdown (R1-M2). 3) Insufficient characterization of the tetramerization mutant to confirm the mechanism of DNA wrapping (R1-M3). 4) Overgeneralization of findings to all bacteria without functional evidence from multiple clades (R1-M4).
+- **Assessment against Nature-style criteria** **Originality**: High. The discovery of a novel DNA binding mode for histones in bacteria is genuinely novel and challenges a long-standing paradigm. **Scientific importance**: High. If confirmed, this finding would reshape our understanding of chromatin evolution and bacterial nucleoid organization. **Interdisciplinary readership**: Broad. The work spans structural biology, microbiology, and evolutionary biology, and would attract readers from all these fields. **Technical soundness**: Generally good, but with gaps in in vivo validation and mechanistic confirmation as noted above. The structural work appears solid, and the phylogenetic analysis is comprehensive. **Readability for nonspecialists**: The abstract is clear and accessible, but the results section assumes significant background knowledge in chromatin biology and structural biology. Some terms (e.g., "hypernucleosome," "sprocket arginine") are used without definition.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially significant, but the lack of in vivo structural evidence and incomplete validation of essentiality and mechanism prevent full endorsement at this stage. The authors should address the major concerns through additional experiments or by tempering their claims to match the current evidence.

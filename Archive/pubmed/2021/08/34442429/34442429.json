@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "34442429",
+    "doi": "10.3390/jpm11080785",
+    "title": "Inference of an Integrative, Executable Network for Rheumatoid Arthritis Combining Data-Driven Machine Learning Approaches and a State-of-the-Art Mechanistic Disease Map."
+  },
+  "content": {
+    "abstract": "Rheumatoid arthritis (RA) is a multifactorial, complex autoimmune disease that involves various genetic, environmental, and epigenetic factors. Systems biology approaches provide the means to study complex diseases by integrating different layers of biological information. Combining multiple data types can help compensate for missing or conflicting information and limit the possibility of false positives. In this work, we aim to unravel mechanisms governing the regulation of key transcription factors in RA and derive patient-specific models to gain more insights into the disease heterogeneity and the response to treatment. We first use publicly available transcriptomic datasets (peripheral blood) relative to RA and machine learning to create an RA-specific transcription factor (TF) co-regulatory network. The TF cooperativity network is subsequently enriched in signalling cascades and upstream regulators using a state-of-the-art, RA-specific molecular map. Then, the integrative network is used as a template to analyse patients' data regarding their response to anti-TNF treatment and identify master regulators and upstream cascades affected by the treatment. Finally, we use the Boolean formalism to simulate in silico subparts of the integrated network and identify combinations and conditions that can switch on or off the identified TFs, mimicking the effects of single and combined perturbations.",
+    "keywords": [
+      "Boolean simulations",
+      "gene regulation",
+      "integrative biology",
+      "network inference",
+      "rheumatoid arthritis",
+      "signaling cascades",
+      "systems biology",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Miagoux, Quentin",
+        "Singh, Vidisha",
+        "de Mezquita, Dereck",
+        "Chaudru, Valerie",
+        "Elati, Mohamed",
+        "Petit-Teixeira, Elisabeth",
+        "Niarakis, Anna"
+      ],
+      "short_names": [
+        "Miagoux Q",
+        "Singh V",
+        "de Mezquita D",
+        "Chaudru V",
+        "Elati M",
+        "Petit-Teixeira E",
+        "Niarakis A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5731-5279",
+        "ORCID: 0000-0002-9687-7426"
+      ],
+      "affiliations": [
+        "Universite Paris-Saclay, Univ Evry, Laboratoire Europeen de Recherche pour la Polyarthrite rhumatoide-Genhotel, 91057 Evry, France.",
+        "Universite Paris-Saclay, Univ Evry, Laboratoire Europeen de Recherche pour la Polyarthrite rhumatoide-Genhotel, 91057 Evry, France.",
+        "Universite Paris-Saclay, Univ Evry, Laboratoire Europeen de Recherche pour la Polyarthrite rhumatoide-Genhotel, 91057 Evry, France.",
+        "Universite Paris-Saclay, Univ Evry, Laboratoire Europeen de Recherche pour la Polyarthrite rhumatoide-Genhotel, 91057 Evry, France.",
+        "CANTHER, University of Lille, CNRS UMR 1277, Inserm U9020, 59045 Lille, France.",
+        "Universite Paris-Saclay, Univ Evry, Laboratoire Europeen de Recherche pour la Polyarthrite rhumatoide-Genhotel, 91057 Evry, France.",
+        "Universite Paris-Saclay, Univ Evry, Laboratoire Europeen de Recherche pour la Polyarthrite rhumatoide-Genhotel, 91057 Evry, France.",
+        "Lifeware Group, Inria, Saclay-ile de France, 91120 Palaiseau, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Miagoux, Quentin",
+        "short_name": "Miagoux Q",
+        "identifiers": [
+          "0000-0002-5731-5279"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Univ Evry, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, 91057 Evry, France."
+        ]
+      },
+      {
+        "full_name": "Singh, Vidisha",
+        "short_name": "Singh V",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Univ Evry, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, 91057 Evry, France."
+        ]
+      },
+      {
+        "full_name": "de Mézquita, Dereck",
+        "short_name": "de Mézquita D",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Univ Evry, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, 91057 Evry, France."
+        ]
+      },
+      {
+        "full_name": "Chaudru, Valerie",
+        "short_name": "Chaudru V",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Univ Evry, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, 91057 Evry, France."
+        ]
+      },
+      {
+        "full_name": "Elati, Mohamed",
+        "short_name": "Elati M",
+        "identifiers": [],
+        "affiliations": [
+          "CANTHER, University of Lille, CNRS UMR 1277, Inserm U9020, 59045 Lille, France."
+        ]
+      },
+      {
+        "full_name": "Petit-Teixeira, Elisabeth",
+        "short_name": "Petit-Teixeira E",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Univ Evry, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, 91057 Evry, France."
+        ]
+      },
+      {
+        "full_name": "Niarakis, Anna",
+        "short_name": "Niarakis A",
+        "identifiers": [
+          "0000-0002-9687-7426"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, Univ Evry, Laboratoire Européen de Recherche pour la Polyarthrite rhumatoïde-Genhotel, 91057 Evry, France.",
+          "Lifeware Group, Inria, Saclay-île de France, 91120 Palaiseau, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of personalized medicine"
+    ],
+    "journal_abbrev": [
+      "J Pers Med"
+    ],
+    "pub_date": "2021 Aug 12",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/28 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "42088513",
+      "41872995",
+      "40692843",
+      "39971380",
+      "39771538",
+      "39616158",
+      "38022524",
+      "37454172",
+      "37426048",
+      "36407505",
+      "36284705",
+      "35782730",
+      "34683116"
+    ],
+    "refs": [
+      "38377413",
+      "33504982",
+      "33335239",
+      "33064138",
+      "33056991",
+      "32403123",
+      "32327746",
+      "32311035",
+      "32257043",
+      "32228113",
+      "31881890",
+      "31843580",
+      "31819800",
+      "31680165",
+      "31647025",
+      "31074494",
+      "30638975",
+      "30450102",
+      "30427250",
+      "30005591",
+      "29872544",
+      "29688273",
+      "29417936",
+      "29221595",
+      "28399940",
+      "28187708",
+      "27303434",
+      "26841833",
+      "26715450",
+      "25979476",
+      "25516281",
+      "24793874",
+      "24771593",
+      "23869798",
+      "23525069",
+      "23028406",
+      "22871178",
+      "22144167",
+      "21622522",
+      "20969554",
+      "19668183",
+      "19209259",
+      "18596988",
+      "17515956",
+      "17135447",
+      "16699049",
+      "15973463"
+    ],
+    "similar": [
+      "34442429",
+      "32311035",
+      "33004899",
+      "36532040",
+      "33230538",
+      "24989895",
+      "36307979",
+      "36068607",
+      "31312201",
+      "29951575",
+      "35796437",
+      "33833756",
+      "31486066",
+      "37852410",
+      "26885899",
+      "32054475",
+      "36266270",
+      "23240033",
+      "32013628",
+      "34583778",
+      "34175943",
+      "30844478",
+      "35757392",
+      "25118911",
+      "36911710",
+      "36224010",
+      "34432649",
+      "31678628",
+      "31824568",
+      "22456606",
+      "38008706",
+      "36321557",
+      "29935546",
+      "21423713",
+      "19703281",
+      "21172055",
+      "34462261",
+      "35525528",
+      "38273392",
+      "37328529",
+      "36033302",
+      "36472040",
+      "32547596",
+      "19622164",
+      "20419126",
+      "34691030",
+      "34671253",
+      "28440025",
+      "33482886",
+      "18426580",
+      "30666255",
+      "23296645",
+      "23678157",
+      "33407587",
+      "30483789",
+      "25880754",
+      "33430905",
+      "11263010",
+      "34988912",
+      "36439145",
+      "38022524",
+      "34867950",
+      "34826542",
+      "36699262",
+      "27600242",
+      "35085847",
+      "35479077",
+      "37600067",
+      "32599322",
+      "32909363",
+      "31358043",
+      "34224029",
+      "34415206",
+      "31693422",
+      "36189314",
+      "29785401",
+      "33846597",
+      "24009496",
+      "36401167",
+      "30831253",
+      "29879919",
+      "35288173",
+      "37682479",
+      "37390879",
+      "38154164",
+      "35404026",
+      "36344995",
+      "16283676",
+      "37853316",
+      "26576632",
+      "33667569",
+      "30108447"
+    ],
+    "review": [
+      "34442429",
+      "31678628",
+      "38008706",
+      "36321557",
+      "36033302",
+      "32547596",
+      "11263010",
+      "27600242",
+      "34415206",
+      "29785401"
+    ],
+    "pmc": [
+      "8400381"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=jpm11080785",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34442429/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34442429",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

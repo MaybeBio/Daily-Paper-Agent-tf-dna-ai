@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present DeepLUCIA, a deep learning model for predicting tissue-specific chromatin loops without relying on transcription factor binding profiles. They claim prediction accuracy comparable to TF binding-dependent methods, capability for tissue-specific predictions from epigenomic data, and demonstrate utility by predicting novel target genes for SNPs from GWAS of Brugada syndrome, COVID-19 severity, and age-related macular degeneration.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, model architecture details, or validation procedures are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, model implementation details, training and test datasets, performance comparison methodology, and GWAS target gene prediction validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to computational prediction of chromatin loops, with a stated advantage in tissue-specific prediction without TF binding data. However, the abstract lacks quantitative evidence, methodological detail, and validation information necessary to assess the strength of the claims. The utility demonstration via GWAS applications is intriguing but cannot be evaluated without supporting data.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and epigenomics would be interested. Those studying tissue-specific gene regulation, interpreting non-coding GWAS variants, and developing deep learning approaches for genomic features would find the method potentially applicable. The tissue-specific prediction capability addresses a gap in existing approaches.
+- **Major strengths** The stated capability to predict tissue-specific chromatin loops without TF binding profiles addresses a clear limitation of existing methods. The application to GWAS variant target gene prediction across three distinct diseases demonstrates potential translational relevance. The model is made freely available, supporting reproducibility and community use.
+- **Major Concerns** 
+  - R1-M1
+  - Severity Major
+  - Blocking Yes
+  - Axis Evidence sufficiency
+  - Claim pointer The claim that DeepLUCIA prediction accuracies are comparable to previous TF binding-dependent methods
+  - Evidence pointer Abstract only, location not provided
+  - Concern The abstract provides no quantitative performance metrics, no comparison statistics, no datasets used for benchmarking, and no description of how comparability was established. Without these, the claim of comparable accuracy cannot be assessed.
+  - Why it matters This is the central performance claim of the manuscript. If the comparison is not rigorously established, the primary contribution of the method is unverified.
+  - Resolution test Provide performance metrics such as AUC, precision-recall, or F1 scores for DeepLUCIA and baseline methods on identical benchmark datasets, with statistical significance testing and clear description of evaluation protocols.
+  - R1-M2
+  - Severity Major
+  - Blocking Yes
+  - Axis Evidence sufficiency
+  - Claim pointer The claim that DeepLUCIA enables tissue-specific chromatin loop predictions from tissue-specific epigenomes
+  - Evidence pointer Abstract only, location not provided
+  - Concern The abstract does not describe which epigenomic features are used as input, how tissue specificity is encoded, how many tissues were tested, or how tissue-specific predictions were validated. The term "tissue-specific epigenomes" is vague and could refer to many different data types.
+  - Why it matters The tissue-specific capability is the stated advantage over genomic variation-based approaches. Without clarity on inputs and validation, the advantage cannot be confirmed.
+  - Resolution test Specify input epigenomic features, describe the training and evaluation across multiple tissues, and provide validation against experimentally derived tissue-specific chromatin loops.
+  - R1-M3
+  - Severity Major
+  - Blocking Yes
+  - Axis Evidence sufficiency
+  - Claim pointer The claim that DeepLUCIA predicted several novel target genes of SNPs from GWAS of Brugada syndrome, COVID-19 severity, and age-related macular degeneration
+  - Evidence pointer Abstract only, location not provided
+  - Concern No details are given on how many SNPs were analyzed, how target genes were defined, what criteria established novelty, or whether any predictions were experimentally validated or supported by independent evidence. The term "novel" is not defined.
+  - Why it matters This application is presented as demonstrating utility. Without validation or supporting evidence, the predictions could be spurious and the utility claim is unsubstantiated.
+  - Resolution test Provide the number of SNPs and predicted target genes, describe the prediction confidence criteria, and show independent evidence supporting at least a subset of predictions.
+- **Minor Comments** 
+  - R1-m1
+  - Severity Minor
+  - Axis Clarity
+  - Affected element Model name and acronym
+  - Evidence pointer Abstract, title
+  - Issue The acronym DeepLUCIA is defined as Deep Learning-based Universal Chromatin Interaction Annotator, but the term "Universal" is not explained in the abstract and may overstate the model scope.
+  - Required correction Clarify what "Universal" refers to, or consider whether the name accurately reflects the model capabilities.
+  - R1-m2
+  - Severity Minor
+  - Axis Reproducibility
+  - Affected element Availability statement
+  - Evidence pointer Abstract, Availability section
+  - Issue The availability statement provides a GitHub link but no version information, license, or dependency details.
+  - Required correction Include version, license, and key dependencies in the availability statement or supplementary information.
+  - R1-m3
+  - Severity Minor
+  - Axis Completeness
+  - Affected element Comparison to genomic variation-based approach
+  - Evidence pointer Abstract, Results section
+  - Issue The abstract states that genomic variation-based approaches cannot handle tissue-specific predictions but does not specify which methods were considered or how this limitation was established.
+  - Required correction Name the specific genomic variation-based methods referenced and provide citations or a brief explanation of their limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative performance data, methodological specificity for tissue-specific prediction, and validation evidence for GWAS applications. These are required to establish the core claims.
+- **Assessment against Nature-style criteria** Originality: The approach of avoiding TF binding profiles while achieving tissue-specific predictions appears novel, but the abstract does not provide enough detail to assess the degree of methodological innovation. Scientific importance: Chromatin loop prediction and GWAS interpretation are important topics, and the tissue-specific angle is potentially valuable, but importance cannot be fully assessed without evidence of performance and validation. Interdisciplinary readership: The work bridges computational biology, genomics, and disease genetics, which could attract broad interest, but the abstract is too brief to engage nonspecialists effectively. Technical soundness: Cannot be assessed from the abstract alone. No architecture details, training procedures, or evaluation metrics are provided. Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "tissue-specific epigenomes" and "genomic variation-based approach" assume background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept and potential applications, but the absence of quantitative results, methodological detail, and validation makes it impossible to assess whether the claims are supported. A full manuscript with rigorous evaluation would be required to determine whether the method performs as stated.
+
+## Risk / unsupported claims
+- The claim of prediction accuracy comparable to TF binding-dependent methods is unsupported due to absence of any quantitative comparison.
+- The claim of tissue-specific prediction capability is unsupported due to lack of input feature specification and validation details.
+- The claim of predicting novel target genes for GWAS SNPs is unsupported due to lack of prediction counts, criteria, and validation.
+- The implied utility of DeepLUCIA for disease-relevant variant interpretation cannot be evaluated without supporting data.

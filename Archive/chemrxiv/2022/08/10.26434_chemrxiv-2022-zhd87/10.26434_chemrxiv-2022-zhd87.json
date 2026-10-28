@@ -1,0 +1,230 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-zhd87",
+  "title": "Artificial Neural Network to Predict Structure-based Protein-protein Free Energy of Binding from Rosetta-calculated Properties",
+  "doi": "10.26434/chemrxiv-2022-zhd87",
+  "abstract": "The prediction of the free energy (ΔG) of binding for protein-protein complexes is of general scientific interest that allows a variety of applications in the fields of molecular and chemical biology, material sciences, and biotechnology. Despite its centrality in understanding protein association phenomena and protein engineering, the ΔG of binding is a daunting quantity to be obtained theoretically. In this work, we devise a novel Artificial Neural Network model to predict the ΔG of binding for a given three-dimensional structure of a protein-protein complex with Rosetta-calculated properties. Our model presents a root-mean-square error of 1.667 kcal/mol outperforming available state-of-art tools. Validation of the model for a variety of protein-protein complexes is showcased.",
+  "authors": [
+    "Matheus Ferraz",
+    "José Neto",
+    "Roberto Lins",
+    "Erico Teixeira"
+  ],
+  "published_date": "2022-08-09",
+  "updated_date": "2022-08-09T08:54:19Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-zhd87",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-zhd87",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T11:10:23Z",
+        "timestamp": 1778757023472,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            9
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                8,
+                9
+              ]
+            ],
+            "date-time": "2022-08-09T00:00:00Z",
+            "timestamp": 1660003200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>The prediction of the free energy (ΔG) of binding for protein-protein complexes is of general scientific interest that allows a variety of applications in the fields of molecular and chemical biology, material sciences, and biotechnology. Despite its centrality in understanding protein association phenomena and protein engineering, the ΔG of binding is a daunting quantity to be obtained theoretically. In this work, we devise a novel Artificial Neural Network model to predict the ΔG of binding for a given three-dimensional structure of a protein-protein complex with Rosetta-calculated properties. Our model presents a root-mean-square error of 1.667 kcal/mol outperforming available state-of-art tools. Validation of the model for a variety of protein-protein complexes is showcased.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-zhd87",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            9
+          ]
+        ],
+        "date-time": "2022-08-09T08:54:19Z",
+        "timestamp": 1660035259000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Artificial Neural Network to Predict Structure-based Protein-protein Free Energy of Binding from Rosetta-calculated Properties"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6958-3115",
+          "authenticated-orcid": false,
+          "given": "Matheus",
+          "family": "Ferraz",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, FIOCRUZ, Recife, PE, 50670-465, Brazil"
+            },
+            {
+              "name": "Department of Fundamental Chemistry, Federal University of Pernambuco, UFPE, Recife, PE, 50740-670, Brazil"
+            },
+            {
+              "name": "Heidelberg Institute for Theoretical Studies,HITS, Heidelberg, 69118, Heidelberg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "José",
+          "family": "Neto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Recife Center for Advanced Studies and Systems, CESAR, Recife, PE, 50040-220, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Roberto",
+          "family": "Lins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, FIOCRUZ, Recife, PE, 50670-465, Brazil"
+            },
+            {
+              "name": "Department of Fundamental Chemistry, Federal University of Pernambuco, UFPE, Recife, PE, 50740-670, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Erico",
+          "family": "Teixeira",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Recife Center for Advanced Studies and Systems, CESAR, Recife, PE, 50040-220, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-zhd87",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:13:18Z",
+        "timestamp": 1778753598000
+      },
+      "score": 145.98372,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-zhd87"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            9
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-zhd87",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D2CP05644E",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

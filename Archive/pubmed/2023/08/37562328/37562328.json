@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "37562328",
+    "doi": "10.1016/j.compbiomed.2023.107317",
+    "title": "PredDRBP-MLP: Prediction of DNA-binding proteins and RNA-binding proteins by multilayer perceptron."
+  },
+  "content": {
+    "abstract": "Proteins interact with many molecules in order to maintain the vital activities in cells. Proteins that interact with DNA are called DNA-binding proteins (DBP), and proteins that interact with RNA are called RNA-binding proteins (RBP). Since DBPs and RBPs are involved in critical biological processes, their classification is quite important. Although the convolutional neural network and bidirectional long-short-term memory hybrid model (CNN-BiLSTM) is very popular in DBP and RBP classification, it has problems such as requirement of high processing power and long training time. Therefore, a multilayer perceptron (MLP) based predictor, PredDRBP-MLP (Predictor of DNA-Binding Proteins and RNA-Binding Proteins - Multilayer Perceptron) was developed in this study. PredDRBP-MLP is an artificial learning model that performs multi-class classification of DBPs, RBPs and non-nucleic acid-binding proteins (NNABP). PredDRBP-MLP achieved quite successful results on the independent dataset, specifically in the NNABP class, compared to the existing predictors, in addition to requiring lower processing power and being able to train quicker compared to CNN-BiLSTM based predictors. In NNABP class, PredDRBP-MLP predictor achieved 0.578 precision, 0.522 recall and 0.549 F1-score, while other multi-class predictor achieved 0.486 precision, 0.183 recall and 0.266 F1-score. A desktop application was developed for PredDRBP-MLP. The application is freely accessible at https://sourceforge.net/projects/preddrbp-mlp.",
+    "keywords": [
+      "Classification",
+      "DNA-Binding proteins",
+      "Multilayer perceptron",
+      "Prediction",
+      "RNA-Binding proteins"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Neural Networks, Computer",
+      "RNA-Binding Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arican, Ozgur Can",
+        "Gumus, Ozgur"
+      ],
+      "short_names": [
+        "Arican OC",
+        "Gumus O"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Health Bioinformatics, Ege University, 35100, Izmir, Turkey. Electronic address: ozgurcanarican95@gmail.com.",
+        "Department of Computer Engineering, Ege University, 35100, Izmir, Turkey. Electronic address: ozgur.gumus@ege.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arican, Ozgur Can",
+        "short_name": "Arican OC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Bioinformatics, Ege University, 35100, Izmir, Turkey. Electronic address: ozgurcanarican95@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Gumus, Ozgur",
+        "short_name": "Gumus O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Ege University, 35100, Izmir, Turkey. Electronic address: ozgur.gumus@ege.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/11 00:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "40391089",
+      "40359430",
+      "38790258"
+    ],
+    "refs": [],
+    "similar": [
+      "37562328",
+      "32920048",
+      "31722485",
+      "38856168",
+      "37426585",
+      "32698547",
+      "31228283",
+      "31725778",
+      "38104173",
+      "32125890",
+      "35280713",
+      "37837162",
+      "34734889",
+      "36044786",
+      "33334313",
+      "36304739",
+      "36403092",
+      "36502189",
+      "36719781",
+      "35885276",
+      "33294004",
+      "35378437",
+      "35371256",
+      "35227485",
+      "36464123",
+      "30835207",
+      "23020109",
+      "35551232",
+      "31521253",
+      "32924976",
+      "34528189",
+      "28665297",
+      "26405943",
+      "29642454",
+      "36261636",
+      "36935548",
+      "34932484",
+      "31323206",
+      "30891794",
+      "33642273",
+      "32808039",
+      "39180771",
+      "34777937",
+      "39302582",
+      "37789719",
+      "33287007",
+      "33380334",
+      "35148267",
+      "35790639",
+      "30323214",
+      "35893302",
+      "36085821",
+      "37379988",
+      "33571318",
+      "31170081",
+      "34300656",
+      "19964424",
+      "35521556",
+      "21284850",
+      "35672170",
+      "30441614",
+      "36284902",
+      "18263014",
+      "37371001",
+      "36450188",
+      "14632168",
+      "34813462",
+      "32283723",
+      "36366139",
+      "35773870",
+      "8589868",
+      "35897999",
+      "36921434",
+      "34659391",
+      "34571539",
+      "34314957",
+      "24751646",
+      "37013592",
+      "35957197",
+      "9784964",
+      "34306597",
+      "33286960",
+      "36292449",
+      "35495076",
+      "33780341",
+      "35515108",
+      "31925552",
+      "37100500",
+      "33272729",
+      "36512546",
+      "37030849",
+      "36335321",
+      "35780100",
+      "31717300",
+      "38951608",
+      "35890787",
+      "34892740",
+      "34038367",
+      "34260756",
+      "38081126",
+      "35862331",
+      "38339599",
+      "35321444",
+      "30842894",
+      "31065514",
+      "39390014",
+      "34511743",
+      "38204003",
+      "36059864",
+      "38560675",
+      "38848203",
+      "29219072",
+      "29899289",
+      "38552195",
+      "38882359",
+      "38012199",
+      "36850793",
+      "38533015",
+      "38868178",
+      "34434886",
+      "39170908",
+      "35845841",
+      "30934793",
+      "38161726",
+      "37712839",
+      "39171594",
+      "37998213",
+      "37792659",
+      "39202084"
+    ],
+    "review": [
+      "37562328",
+      "39170908"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)00782-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)00782-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

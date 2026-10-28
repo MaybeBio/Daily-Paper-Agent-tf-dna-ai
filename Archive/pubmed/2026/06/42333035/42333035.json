@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "42333035",
+    "doi": "10.1002/tpg2.70266",
+    "title": "Haplotype‑resolved comparison of transcription factor superfamilies between wild and cultivated autotetraploid green jujube and prioritization of candidate transcription factors via machine learning."
+  },
+  "content": {
+    "abstract": "A framework beyond single-reference genomes is needed to understand transcription factor evolution. This study employed an integrated haplotype‑resolved genomes-transcriptome atlas-machine learning to characterize the transcription factors of autotetraploid green jujube (Ziziphus mauritiana). The first haplotype‑resolved comparison of transcription factor superfamilies from eight haplotype genomes (HapGenome) representing a specific wild and a specific cultivated green jujube accession, encompassing 42 superfamilies and 12,123 gene copies. Evolutionary analyses revealed high structural conservation with minimal copy number variation, gene presence/absence variations, and strong purifying selection (Ka/Ks < 1). Dispersed duplication (47.24%), not whole-genome duplication (36.10%), was the most frequently observed duplication event in the expansion of transcription factor superfamily. A haplotype‑resolved transcriptome atlas demonstrated that tissue-specific expression divergence occurred at the superfamily level and between the core/dispensable genes. Integrating transcriptomic and metabolomic data, support vector machine classification with leave‑one‑out cross‑validated distinguished three wild fruits from six cultivated fruits with the accuracy of 89% using orthologous gene groups (OGGs) expression profiles. The eXtreme gradient boosting was employed as an exploratory tool to prioritize OGGs related to metabolite changes. Finally, OGG-95, a Lesion Simulating Disease Zn finger transcription factor, was screened out, which was significantly upregulated in cultivated fruits, and its expression was significantly correlated with differential accumulation of nucleotides and organic acids that need further functional validation. This integrative study provided novel insights into the genomic architecture and regulatory evolution of transcription factors in a polyploid fruit crop, highlighting the power of multi-dimensional analyses for gene discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "Machine Learning",
+      "*Ziziphus/genetics/metabolism",
+      "*Haplotypes",
+      "*Plant Proteins/genetics/metabolism",
+      "Genome, Plant",
+      "Evolution, Molecular",
+      "Tetraploidy",
+      "Transcriptome",
+      "Phylogeny"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xudong",
+        "Chang, Pengyan",
+        "Liao, Yanzhen",
+        "Wu, Huini",
+        "Jiang, Fan"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Chang P",
+        "Liao Y",
+        "Wu H",
+        "Jiang F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0110-2423"
+      ],
+      "affiliations": [
+        "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China.",
+        "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China.",
+        "Zhangzhou Meteorological Bureau, Zhangzhou, China.",
+        "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China.",
+        "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xudong",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0003-0110-2423"
+        ],
+        "affiliations": [
+          "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Pengyan",
+        "short_name": "Chang P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yanzhen",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhangzhou Meteorological Bureau, Zhangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huini",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Fan",
+        "short_name": "Jiang F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Subtropical Agriculture, Fujian Academy of Agricultural Science, Zhangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The plant genome"
+    ],
+    "journal_abbrev": [
+      "Plant Genome"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/23 11:34",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41652690",
+      "41635981",
+      "41634559",
+      "41620694",
+      "41618171",
+      "41595466",
+      "41578913",
+      "41576461",
+      "41541662",
+      "41476962",
+      "41455738",
+      "41424172",
+      "41409294",
+      "41408459",
+      "41408440",
+      "41373640",
+      "41329132",
+      "41327029",
+      "41323812",
+      "41278587",
+      "41180022",
+      "41180017",
+      "41176995",
+      "41134096",
+      "40959552",
+      "40913443",
+      "40903764",
+      "40872164",
+      "40859707",
+      "40851827",
+      "40782710",
+      "40756636",
+      "40629692",
+      "40508367",
+      "40487211",
+      "40408265",
+      "40284145",
+      "40240877",
+      "40187315",
+      "40072904",
+      "39969116",
+      "39908954",
+      "39850208",
+      "39843533",
+      "39521956",
+      "39325737",
+      "38761104",
+      "38743633",
+      "38622362",
+      "38285049",
+      "37760071",
+      "35352421",
+      "34990803",
+      "34597405",
+      "33816903",
+      "33639842",
+      "33325502",
+      "32489650",
+      "31882191",
+      "31727128",
+      "31701126",
+      "30423086",
+      "29882360",
+      "27717919",
+      "27288366",
+      "27043002",
+      "24219505",
+      "22217600",
+      "20224823",
+      "19505945",
+      "15034147"
+    ],
+    "similar": [
+      "42333035",
+      "39325737",
+      "41618171",
+      "42210061",
+      "42056909",
+      "42475469",
+      "39521956",
+      "42337708",
+      "37851522",
+      "41588321",
+      "41673553",
+      "39472552",
+      "32996462",
+      "31291886",
+      "32946650",
+      "41595513",
+      "25604453",
+      "30367626",
+      "42098615",
+      "42443549",
+      "39624126",
+      "30353116",
+      "32664853",
+      "42050392",
+      "36768888",
+      "41981036",
+      "40389830",
+      "26830680",
+      "25524588",
+      "42168861",
+      "42452216",
+      "40413254",
+      "28005948",
+      "37882297",
+      "36536303",
+      "31174470",
+      "42322452",
+      "23972083",
+      "35698031",
+      "31083435",
+      "42553545",
+      "36407584",
+      "41581842",
+      "35052445",
+      "34830372",
+      "41749108",
+      "41456595",
+      "41173186",
+      "30411169",
+      "40624271",
+      "41455314",
+      "39708272",
+      "41742044",
+      "31856735",
+      "41465400",
+      "21266036",
+      "33965497",
+      "26872835",
+      "33176698",
+      "41898530",
+      "40748574",
+      "42074329",
+      "32528701",
+      "39766881",
+      "40316658",
+      "40869167",
+      "40597593",
+      "40369459",
+      "34503442",
+      "32245398",
+      "26317631",
+      "41596623",
+      "36369302",
+      "42123702",
+      "34362293",
+      "25350882",
+      "42014983",
+      "26252898",
+      "16362910",
+      "41874759",
+      "31059545",
+      "40205332",
+      "29558898",
+      "42008180",
+      "41749084",
+      "29052098",
+      "32873228",
+      "30646856",
+      "22776508",
+      "42450734",
+      "35698132",
+      "38926665",
+      "31893289",
+      "39501159",
+      "30094488",
+      "40714487",
+      "18847470",
+      "42123519",
+      "29982569",
+      "34069581"
+    ],
+    "review": [
+      "42333035"
+    ],
+    "pmc": [
+      "13287549"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42333035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/tpg2.70266",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

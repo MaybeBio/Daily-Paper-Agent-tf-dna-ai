@@ -1,0 +1,346 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.07.680851",
+  "title": "Improving the Accuracy of Distance-Based Protein–Ligand Binding Affinity Prediction Using Linear Regression and Artificial Neural Network <sup>1</sup>",
+  "doi": "10.1101/2025.10.07.680851",
+  "abstract": "In the traditional scoring functions for protein–ligand binding affinity prediction, the energies of the electrostatic and van der Waals interactions were evaluated (or restricted) by the mathematical expressions of and , respectively. In comparison, the power exponents of distance-based variables as adopted in the present study are not restricted as those in traditional energy terms for atomic interactions. The distance-based variables were integrated using linear regression and artificial neural network to predict the protein–ligand binding affinity or binding energy. The training of the linear, neural network and mixed models was based on the newest data in PDBbind, i.e ., PDBbind (v.2024). Estimated according to Pearson’s correlation coefficient ( R ), the best performances of the linear models are 0.700 < R ≤ 0.800 with the high-quality affinity data, and those of the neural network-based mixed models are 0.800 ≤ R < 0.900 with the same data. The predictive powers of the best models developed in this study are superior to the sophisticated linear and machine learning-based scoring functions developed before. The results suggest that the distance-based variables with appropriate power exponents may have the ability to improve the prediction of protein–ligand binding affinity with high accuracy. GRAPHICAL ABSTRACT HIGHLIGHTS By using the newest data in PDBbind (v.2024) to train the linear, neural network and mixed models, the quantitative distance–energy relationships are further explored and improved to predict the binding affinity of protein–ligand complexes. The power exponents of distance in the traditional energy terms are expanded to characterize the distance–energy relationships accurately at atom level for protein–ligand interactions. The best models are superior to the sophisticated machine learning-based scoring functions developed before.",
+  "authors": [
+    "Yong Xiao Yang",
+    "Bao Ting Zhu"
+  ],
+  "published_date": "2025-10-08",
+  "updated_date": "2025-10-08T21:00:16Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:36:10Z",
+        "timestamp": 1768527370457,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 19,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                8
+              ]
+            ],
+            "date-time": "2025-10-08T00:00:00Z",
+            "timestamp": 1759881600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012234",
+          "name": "Shenzhen Peacock Plan",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "KQTD2016053117035204"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "KQTD2016053117035204"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012234",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Key Laboratory of Steroid Drug Discovery and Development Research",
+          "award": [
+            "ZDSYS20190902093417963"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ZDSYS20190902093417963"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2022 Stable Funding Support Program for Shenzhen Institutions of High Learning, and Longgang District Science and Technology Bureau’s Key Laboratory Program"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  In the traditional scoring functions for protein–ligand binding affinity prediction, the energies of the electrostatic and van der Waals interactions were evaluated (or restricted) by the mathematical expressions of\n                  <jats:inline-formula>\n                    <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"680851v1_inline1.gif\"/>\n                  </jats:inline-formula>\n                  and\n                  <jats:inline-formula>\n                    <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"680851v1_inline2.gif\"/>\n                  </jats:inline-formula>\n                  , respectively. In comparison, the power exponents of distance-based variables as adopted in the present study are not restricted as those in traditional energy terms for atomic interactions. The distance-based variables were integrated using linear regression and artificial neural network to predict the protein–ligand binding affinity or binding energy. The training of the linear, neural network and mixed models was based on the newest data in PDBbind,\n                  <jats:italic>i.e</jats:italic>\n                  ., PDBbind (v.2024). Estimated according to Pearson’s correlation coefficient (\n                  <jats:italic>R</jats:italic>\n                  ), the best performances of the linear models are 0.700 &lt;\n                  <jats:italic>R</jats:italic>\n                  ≤ 0.800 with the high-quality affinity data, and those of the neural network-based mixed models are 0.800 ≤\n                  <jats:italic>R</jats:italic>\n                  &lt; 0.900 with the same data. The predictive powers of the best models developed in this study are superior to the sophisticated linear and machine learning-based scoring functions developed before. The results suggest that the distance-based variables with appropriate power exponents may have the ability to improve the prediction of protein–ligand binding affinity with high accuracy.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>GRAPHICAL ABSTRACT</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"680851v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>HIGHLIGHTS</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>By using the newest data in PDBbind (v.2024) to train the linear, neural network and mixed models, the quantitative distance–energy relationships are further explored and improved to predict the binding affinity of protein–ligand complexes.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The power exponents of distance in the traditional energy terms are expanded to characterize the distance–energy relationships accurately at atom level for protein–ligand interactions.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The best models are superior to the sophisticated machine learning-based scoring functions developed before.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+      "DOI": "10.1101/2025.10.07.680851",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2025-10-08T21:00:16Z",
+        "timestamp": 1759957216000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Improving the Accuracy of Distance-Based Protein–Ligand Binding Affinity Prediction Using Linear Regression and Artificial Neural Network\n                  <sup>1</sup>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yong Xiao",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8791-8460",
+          "authenticated-orcid": false,
+          "given": "Bao Ting",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Mozaffari , A. Moen , C.Y. Ng , G.A.F. Nicolaes , K. Wichapong , Structural bioinformatics for rational drug design, Research and Practice in Thrombosis and Haemostasis, 9 (2025).",
+          "DOI": "10.1016/j.rpth.2025.102691"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.2",
+          "first-page": "e70093",
+          "volume": "46",
+          "year": "2025",
+          "journal-title": "Enhancing MM/P(G)BSA Methods: Integration of Formulaic Entropy for Improved Binding Free Energy Calculations"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Su , Q. Yang , Y. Du , G. Feng , Z. Liu , Y. Li , R. Wang , Comparative Assessment of Scoring Functions: The CASF-2016 Update, J Chem Inf Model, 59 (2019) 895–913.",
+          "DOI": "10.1021/acs.jcim.8b00545"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "6355",
+          "DOI": "10.1021/acs.jcim.0c00474",
+          "article-title": "Development of a New Scoring Function for Virtual Screening: APBScore",
+          "volume": "60",
+          "year": "2020",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1016357811882"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.6",
+          "first-page": "169",
+          "volume": "38",
+          "year": "2017",
+          "journal-title": "Improving scoring-docking-screening powers of protein–ligand scoring functions using random forest"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00645"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00485"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1166",
+          "DOI": "10.1016/j.bpj.2025.02.021",
+          "article-title": "Further exploration of the quantitative distance-energy and contact number-energy relationships for predicting the binding affinity of protein-ligand complexes",
+          "volume": "124",
+          "year": "2025",
+          "journal-title": "Biophys J"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.6b00491"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1186/1758-2946-3-33",
+          "article-title": "Open Babel: An open chemical toolbox",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0377-0427(00)00343-5"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Li , J.-h. Cheng , J.-y. Shi , F. Huang , Brief Introduction of Back Propagation (BP) Neural Network Algorithm and Its Improvement, in: D. Jin , S. Lin (Eds.) Advances in Computer Science and Information Engineering, Springer Berlin Heidelberg, Berlin, Heidelberg, 2012, pp. 553–558.",
+          "DOI": "10.1007/978-3-642-30223-7_87"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/323533a0"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1412159"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/87545"
+        },
+        {
+          "key": "2025101301050482000_2025.10.07.680851v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c01537"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.07.680851",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:46:02Z",
+        "timestamp": 1768470362000
+      },
+      "score": 121.88609,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.07.680851"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ]
+      },
+      "references-count": 19,
+      "URL": "https://doi.org/10.1101/2025.10.07.680851",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

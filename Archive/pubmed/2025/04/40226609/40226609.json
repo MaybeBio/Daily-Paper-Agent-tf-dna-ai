@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "40226609",
+    "doi": "10.3389/fimmu.2025.1508638",
+    "title": "Unveiling the power of Treg.Sig: a novel machine-learning derived signature for predicting ICI response in melanoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Although immune checkpoint inhibitor (ICI) represents a significant breakthrough in cancer immunotherapy, only a few patients benefit from it. Given the critical role of Treg cells in ICI treatment resistance, we explored a Treg-associated signature in melanoma, which had never been elucidated yet. METHODS: A new Treg signature, Treg.Sig, was created using a computational framework guided by machine learning, utilizing transcriptome data from both single-cell RNA-sequencing (scRNA-seq) and bulk RNA-sequencing (bulk-seq). Among the 10 Treg.Sig genes, hub gene STAT1's function was further validated in ICI resistance in melanoma mice receiving anti-PD-1 treatment. RESULTS: Treg.Sig, based on machine learning, was able to forecast survival outcomes for melanoma across training dataset and external test dataset, and more importantly, showed superior predictive power than 51 previously established signatures. Analysis of the immune profile revealed that groups with high Treg.Sig levels exhibited immune-suppressive conditions, with inverse correlations observed between Treg.Sig and anti-cancer immune responses. Notably, among the 10 Treg.Sig genes, hub gene STAT1 mutation harbored lower response rate in ICIs-treated cohort. Mechanistically, STAT1 impinged on ICI resistances by modulating the phenotypic switch in N2 neutrophil polarization in melanoma mice receiving anti-PD-1 therapy, which affects overall survival. CONCLUSION: The study developed a promising Treg.Sig signature that predicts ICI response of melanomas and could be used for selecting patients for immunotherapy. Meanwhile, our study potentially paves the way for overcoming immune resistance by targeting Treg-associated genes.",
+    "keywords": [
+      "immunotherapy",
+      "malignant melanoma",
+      "prognosis signature",
+      "regulatory T cells",
+      "scRNA-sequence"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Animals",
+      "*Immune Checkpoint Inhibitors/pharmacology/therapeutic use",
+      "*T-Lymphocytes, Regulatory/immunology/metabolism",
+      "Mice",
+      "*Melanoma/immunology/drug therapy/genetics",
+      "Humans",
+      "Transcriptome",
+      "STAT1 Transcription Factor/genetics",
+      "Gene Expression Profiling",
+      "Drug Resistance, Neoplasm/genetics/immunology",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Yunlong",
+        "Yang, Jiaman",
+        "Yang, Xin",
+        "Xie, Yulin",
+        "Li, Haiyang",
+        "Yang, Shuo",
+        "Sun, Guanchao",
+        "Ge, Ge",
+        "Ding, Xiao",
+        "Lai, Shengwei",
+        "Liao, Yong",
+        "Ji, Shuaifei",
+        "Yang, Rongya",
+        "Zhang, Xingyue"
+      ],
+      "short_names": [
+        "Fan Y",
+        "Yang J",
+        "Yang X",
+        "Xie Y",
+        "Li H",
+        "Yang S",
+        "Sun G",
+        "Ge G",
+        "Ding X",
+        "Lai S",
+        "Liao Y",
+        "Ji S",
+        "Yang R",
+        "Zhang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+        "Chinese PLA Medical School, Beijing, China.",
+        "Zhujiang Hospital, Southern Medical University or The Second School of Clinical Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+        "Zhujiang Hospital, Southern Medical University or The Second School of Clinical Medicine, Southern Medical University, Guangzhou, China.",
+        "Chinese PLA Medical School, Beijing, China.",
+        "Department of Spine Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Chinese PLA Medical School, Beijing, China.",
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+        "Chinese PLA Medical School, Beijing, China.",
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+        "Chinese PLA Medical School, Beijing, China.",
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+        "Chinese PLA Medical School, Beijing, China.",
+        "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Yunlong",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+          "Chinese PLA Medical School, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiaman",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University or The Second School of Clinical Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xin",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yulin",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhujiang Hospital, Southern Medical University or The Second School of Clinical Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haiyang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese PLA Medical School, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuo",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guanchao",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese PLA Medical School, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Ge",
+        "short_name": "Ge G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xiao",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Shengwei",
+        "short_name": "Lai S",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese PLA Medical School, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yong",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Shuaifei",
+        "short_name": "Ji S",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese PLA Medical School, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Rongya",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China.",
+          "Chinese PLA Medical School, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xingyue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Seventh Medical Center of Chinese PLA General Hospital, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/14 17:28",
+    "fetched_at": "2026-09-30 15:57:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37449205",
+      "36670201",
+      "36497095",
+      "36483553",
+      "36352227",
+      "35935969",
+      "35909944",
+      "35852798",
+      "35794484",
+      "35757748",
+      "35751862",
+      "35543550",
+      "35383115",
+      "35257416",
+      "34725502",
+      "34622236",
+      "34509219",
+      "34376552",
+      "34185403",
+      "34108619",
+      "34051265",
+      "34028547",
+      "33905821",
+      "33872715",
+      "33637019",
+      "33526794",
+      "33488615",
+      "33129958",
+      "32927784",
+      "32822576",
+      "32631901",
+      "32612154",
+      "32561858",
+      "32357910",
+      "32319631",
+      "32300050",
+      "32283823",
+      "31813948",
+      "31472680",
+      "31244912",
+      "31171626",
+      "30595452",
+      "30555257",
+      "30477520",
+      "30374200",
+      "30026331",
+      "28851815",
+      "26997480",
+      "26617467",
+      "26296641",
+      "25409260",
+      "24725474",
+      "23986400",
+      "16505437"
+    ],
+    "similar": [
+      "40226609",
+      "35488273",
+      "39394099",
+      "39812592",
+      "38569519",
+      "34798898",
+      "39735553",
+      "39726597",
+      "39273294",
+      "38795156",
+      "39355255",
+      "34376232",
+      "36248850",
+      "33936081",
+      "35087523",
+      "40269853",
+      "40211502",
+      "40226614",
+      "39799269",
+      "38878852",
+      "40200221",
+      "40089202",
+      "39762077",
+      "39015091",
+      "32111241",
+      "39513365",
+      "35280982",
+      "34807232",
+      "38664705",
+      "33449393",
+      "38896289",
+      "34025664",
+      "40159652",
+      "34795662",
+      "39904693",
+      "34804045",
+      "33820810",
+      "38861924",
+      "39110142",
+      "39506915",
+      "39736542",
+      "30120041",
+      "39115425",
+      "34604032",
+      "38164720",
+      "31974367",
+      "33589525",
+      "39739311",
+      "39337605",
+      "33158915",
+      "34531868",
+      "38797232",
+      "39402030",
+      "39835132",
+      "32983112",
+      "39966861",
+      "39723204",
+      "39273290",
+      "35781709",
+      "39000359",
+      "37028818",
+      "34827646",
+      "36100891",
+      "39870492",
+      "37620409",
+      "35042524",
+      "33031392",
+      "33883256",
+      "40305346",
+      "38837895",
+      "38056895",
+      "39708127",
+      "38295179",
+      "38538696",
+      "40274385",
+      "38302417",
+      "40010774",
+      "39370456",
+      "40001572",
+      "36978029",
+      "39358546",
+      "35940382",
+      "32902917",
+      "40330470",
+      "40203085",
+      "39026661",
+      "35269844",
+      "39367493",
+      "39739618",
+      "37031510",
+      "37865045",
+      "32317723",
+      "34175739",
+      "33483342",
+      "39514276",
+      "39849845",
+      "38924839",
+      "40246583",
+      "35355980",
+      "38982511"
+    ],
+    "review": [
+      "40226609",
+      "39337605",
+      "39000359",
+      "34827646",
+      "40305346",
+      "40001572",
+      "39026661"
+    ],
+    "pmc": [
+      "11985843"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40226609/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1508638",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

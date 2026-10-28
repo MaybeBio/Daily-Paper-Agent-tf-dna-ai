@@ -1,0 +1,239 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.18.676967",
+  "title": "De novo Design of All-atom Biomolecular Interactions with RFdiffusion3",
+  "doi": "10.1101/2025.09.18.676967",
+  "abstract": "Deep learning has accelerated protein design, but most existing methods are restricted to generating protein backbone coordinates and often neglect interactions with other biomolecules. We present RFdiffusion3 (RFD3), a diffusion model that generates protein structures in the context of ligands, nucleic acids and other non-protein constellations of atoms. Because all polymer atoms are modeled explicitly, conditioning the model on complex sets of atom-level constraints for enzyme design and other challenges is both simpler and more effective than previous approaches. RFD3 achieves improved performance compared to prior approaches on a range of in silico benchmarks with one tenth the computational cost. Finally, we demonstrate the broad applicability of RFD3 by designing and experimentally characterizing DNA binding proteins and cysteine hydrolases. The ability to rapidly generate protein structures guided by complex sets of atom-level constraints in the context of arbitrary non-protein atoms should further expand the range of functions attainable through protein design.",
+  "authors": [
+    "Butcher J",
+    "Krishna R",
+    "Mitra R",
+    "Brent RI",
+    "Li Y",
+    "Corley N",
+    "Kim PT",
+    "Funk J",
+    "Mathis S",
+    "Salike S",
+    "Muraishi A",
+    "Eisenach H",
+    "Thompson TR",
+    "Chen J",
+    "Politanska Y",
+    "Sehgal E",
+    "Coventry B",
+    "Zhang O",
+    "Qiang B",
+    "Didi K",
+    "Kazman M",
+    "DiMaio F",
+    "Baker D"
+  ],
+  "published_date": "2025-09-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.676967",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.676967.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1086899",
+    "raw_record": {
+      "id": "PPR1086899",
+      "source": "PPR",
+      "doi": "10.1101/2025.09.18.676967",
+      "title": "<i>De novo</i>  Design of All-atom Biomolecular Interactions with RFdiffusion3",
+      "authorString": "Butcher J, Krishna R, Mitra R, Brent RI, Li Y, Corley N, Kim PT, Funk J, Mathis S, Salike S, Muraishi A, Eisenach H, Thompson TR, Chen J, Politanska Y, Sehgal E, Coventry B, Zhang O, Qiang B, Didi K, Kazman M, DiMaio F, Baker D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Butcher J",
+            "lastName": "Butcher",
+            "firstName": "Jasper",
+            "initials": "J"
+          },
+          {
+            "fullName": "Krishna R",
+            "lastName": "Krishna",
+            "firstName": "Rohith",
+            "initials": "R"
+          },
+          {
+            "fullName": "Mitra R",
+            "lastName": "Mitra",
+            "firstName": "Raktim",
+            "initials": "R"
+          },
+          {
+            "fullName": "Brent RI",
+            "lastName": "Brent",
+            "firstName": "Rafael",
+            "initials": "RI"
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yanjing",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Corley N",
+            "lastName": "Corley",
+            "firstName": "Nathaniel",
+            "initials": "N"
+          },
+          {
+            "fullName": "Kim PT",
+            "lastName": "Kim",
+            "firstName": "Paul",
+            "initials": "PT"
+          },
+          {
+            "fullName": "Funk J",
+            "lastName": "Funk",
+            "firstName": "Jonathan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Mathis S",
+            "lastName": "Mathis",
+            "firstName": "Simon",
+            "initials": "S"
+          },
+          {
+            "fullName": "Salike S",
+            "lastName": "Salike",
+            "firstName": "Saman",
+            "initials": "S"
+          },
+          {
+            "fullName": "Muraishi A",
+            "lastName": "Muraishi",
+            "firstName": "Aiko",
+            "initials": "A"
+          },
+          {
+            "fullName": "Eisenach H",
+            "lastName": "Eisenach",
+            "firstName": "Helen",
+            "initials": "H"
+          },
+          {
+            "fullName": "Thompson TR",
+            "lastName": "Thompson",
+            "firstName": "Tuscan Rock",
+            "initials": "TR"
+          },
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Jie",
+            "initials": "J"
+          },
+          {
+            "fullName": "Politanska Y",
+            "lastName": "Politanska",
+            "firstName": "Yuliya",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Sehgal E",
+            "lastName": "Sehgal",
+            "firstName": "Enisha",
+            "initials": "E"
+          },
+          {
+            "fullName": "Coventry B",
+            "lastName": "Coventry",
+            "firstName": "Brian",
+            "initials": "B"
+          },
+          {
+            "fullName": "Zhang O",
+            "lastName": "Zhang",
+            "firstName": "Odin",
+            "initials": "O"
+          },
+          {
+            "fullName": "Qiang B",
+            "lastName": "Qiang",
+            "firstName": "Bo",
+            "initials": "B"
+          },
+          {
+            "fullName": "Didi K",
+            "lastName": "Didi",
+            "firstName": "Kieran",
+            "initials": "K"
+          },
+          {
+            "fullName": "Kazman M",
+            "lastName": "Kazman",
+            "firstName": "Max",
+            "initials": "M"
+          },
+          {
+            "fullName": "DiMaio F",
+            "lastName": "DiMaio",
+            "firstName": "Frank",
+            "initials": "F"
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "firstName": "David",
+            "initials": "D"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Deep learning has accelerated protein design, but most existing methods are restricted to generating protein backbone coordinates and often neglect interactions with other biomolecules. We present RFdiffusion3 (RFD3), a diffusion model that generates protein structures in the context of ligands, nucleic acids and other non-protein constellations of atoms. Because all polymer atoms are modeled explicitly, conditioning the model on complex sets of atom-level constraints for enzyme design and other challenges is both simpler and more effective than previous approaches. RFD3 achieves improved performance compared to prior approaches on a range of  in silico benchmarks with one tenth the computational cost. Finally, we demonstrate the broad applicability of RFD3 by designing and experimentally characterizing DNA binding proteins and cysteine hydrolases. The ability to rapidly generate protein structures guided by complex sets of atom-level constraints in the context of arbitrary non-protein atoms should further expand the range of functions attainable through protein design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.18.676967"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-09-20",
+      "firstPublicationDate": "2025-09-18",
+      "firstIndexDate": "2025-09-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

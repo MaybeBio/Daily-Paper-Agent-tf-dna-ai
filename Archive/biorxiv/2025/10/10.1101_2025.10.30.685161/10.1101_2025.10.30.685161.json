@@ -1,0 +1,139 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.30.685161",
+  "title": "TSProm: Deciphering the Genomic Context of Tissue Specificity",
+  "doi": "10.1101/2025.10.30.685161",
+  "abstract": "Characterizing tissue-specific (TSp) gene expression is crucial for understanding development and disease; however, traditional expression-based methods often overlook the latent “regulatory grammar” embedded in the non-coding DNA, particularly in distal promoter regions. Here, we introduce TSProm , a framework that specializes a DNA foundation model (DNABERT2) to decipher the long-range regulatory logic of TSp promoters at the gene isoform level. The contributions of our work are two-fold. First, we propose a novel comparative design that trains two distinct models, A: for general promoter biology and B: for TSp regulation. These models enable the precise isolation of sequence motifs around the transcription start site that uniquely define tissue identity. Second, we introduce a comprehensive explainable AI (xAI) module that integrates attention-based discovery with model-agnostic SHAP analysis to provide robust, cross-validated interpretations of learned features. Applying this framework to human brain, liver, and testis promoters, we identified and validated clinically relevant transcription factors (TFs) in the brain, including SP1, MYC , and HES6 , and confirmed their known roles in diseases such as gliomas and neuroblastomas. Our analysis further revealed that C2H2 Zinc Finger proteins are a dominant feature of the global landscape of TSp gene regulation. TSProm provides a novel and interpretable framework for identifying TSp gene regulatory elements, offering powerful computational tools for the study of tissue-specific gene regulation in normal and disease conditions.",
+  "authors": [
+    "Surana P",
+    "Dutta P",
+    "Papineni N",
+    "Sathian R",
+    "Zhou Z",
+    "Liu H",
+    "Davuluri R"
+  ],
+  "published_date": "2025-10-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.30.685161",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.30.685161.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1111527",
+    "raw_record": {
+      "id": "PPR1111527",
+      "source": "PPR",
+      "doi": "10.1101/2025.10.30.685161",
+      "title": "TSProm: Deciphering the Genomic Context of Tissue Specificity",
+      "authorString": "Surana P, Dutta P, Papineni N, Sathian R, Zhou Z, Liu H, Davuluri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Surana P",
+            "lastName": "Surana",
+            "firstName": "Pallavi",
+            "initials": "P"
+          },
+          {
+            "fullName": "Dutta P",
+            "lastName": "Dutta",
+            "firstName": "Pratik",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1579-8946"
+            }
+          },
+          {
+            "fullName": "Papineni N",
+            "lastName": "Papineni",
+            "firstName": "Nimisha",
+            "initials": "N"
+          },
+          {
+            "fullName": "Sathian R",
+            "lastName": "Sathian",
+            "firstName": "Rekha",
+            "initials": "R"
+          },
+          {
+            "fullName": "Zhou Z",
+            "lastName": "Zhou",
+            "firstName": "Zhihan",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Liu H",
+            "lastName": "Liu",
+            "firstName": "Han",
+            "initials": "H"
+          },
+          {
+            "fullName": "Davuluri R",
+            "lastName": "Davuluri",
+            "firstName": "Ramana",
+            "initials": "R"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1579-8946"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Characterizing tissue-specific (TSp) gene expression is crucial for understanding development and disease; however, traditional expression-based methods often overlook the latent “regulatory grammar” embedded in the non-coding DNA, particularly in distal promoter regions. Here, we introduce  TSProm , a framework that specializes a DNA foundation model (DNABERT2) to decipher the long-range regulatory logic of TSp promoters at the gene isoform level. The contributions of our work are two-fold. First, we propose a novel comparative design that trains two distinct models, A: for general promoter biology and B: for TSp regulation. These models enable the precise isolation of sequence motifs around the transcription start site that uniquely define tissue identity. Second, we introduce a comprehensive explainable AI (xAI) module that integrates attention-based discovery with model-agnostic SHAP analysis to provide robust, cross-validated interpretations of learned features. Applying this framework to human brain, liver, and testis promoters, we identified and validated clinically relevant transcription factors (TFs) in the brain, including  SP1, MYC , and  HES6 , and confirmed their known roles in diseases such as gliomas and neuroblastomas. Our analysis further revealed that  C2H2 Zinc Finger proteins are a dominant feature of the global landscape of TSp gene regulation. TSProm provides a novel and interpretable framework for identifying TSp gene regulatory elements, offering powerful computational tools for the study of tissue-specific gene regulation in normal and disease conditions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.30.685161"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-01",
+      "firstPublicationDate": "2025-10-31",
+      "firstIndexDate": "2025-11-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

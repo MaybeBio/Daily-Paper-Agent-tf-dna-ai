@@ -1,0 +1,568 @@
+{
+  "identity": {
+    "pmid": "42188872",
+    "doi": "10.1158/2159-8290.CD-25-1735",
+    "title": "A Foundation Model of Cancer Genotype Enables Precise Predictions of Therapeutic Response."
+  },
+  "content": {
+    "abstract": "Although genetic sequencing is routine in cancer care, translating a tumor's complex mutation profile into actionable treatment decisions remains a central challenge. MutationProjector is pretrained on a large corpus of genomic alterations across more than 30,000 tumors, integrated with extensive molecular knowledge. The resulting projection reveals a tumor's altered molecular pathways, facilitating model interpretation, and it accurately reconstructs held-out mutations, demonstrating model generalization. When applied to predict immunotherapy or chemotherapy resistance across multiple cancer types and cohorts, MutationProjector achieves or exceeds state-of-the-art performance in all contexts. It identifies unexpected biomarkers, including KMT2D mutation in immunotherapy sensitivity and joint alteration of SMARCA4 and STK11 in immunotherapy resistance. These results establish a unifying framework for connecting tumor genotypes to biological mechanisms and therapeutic outcomes. SIGNIFICANCE: This work describes MutationProjector, a tumor genomic foundation model pretrained on more than 30,000 tumors. It maps mutations to biological states for diagnosis and treatment, achieving state-of-the-art performance in predicting therapy resistance and identifying biomarkers such as KMT2D (sensitivity) and SMARCA4/STK11 coalterations (resistance).",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/genetics/therapy/drug therapy",
+      "Mutation",
+      "Genotype",
+      "Biomarkers, Tumor/genetics",
+      "Drug Resistance, Neoplasm/genetics",
+      "Transcription Factors/genetics",
+      "Nuclear Proteins/genetics",
+      "DNA Helicases/genetics",
+      "Neoplasm Proteins/genetics",
+      "Immunotherapy",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kong, JungHo",
+        "Lee, Ingoo",
+        "Boecher, Dean",
+        "Singhal, Akshat",
+        "Kelly, Marcus R",
+        "Moon, Jimin",
+        "Ahn, Chang Ho",
+        "Ock, Chan-Young",
+        "Pratt, Dexter",
+        "Kumar, Tannavee",
+        "Sears, Timothy J",
+        "Laub, David",
+        "Wright, Sarah",
+        "Wall, Patrick",
+        "Carter, Hannah",
+        "Wang, Zhen",
+        "Ideker, Trey"
+      ],
+      "short_names": [
+        "Kong J",
+        "Lee I",
+        "Boecher D",
+        "Singhal A",
+        "Kelly MR",
+        "Moon J",
+        "Ahn CH",
+        "Ock CY",
+        "Pratt D",
+        "Kumar T",
+        "Sears TJ",
+        "Laub D",
+        "Wright S",
+        "Wall P",
+        "Carter H",
+        "Wang Z",
+        "Ideker T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3532-3163",
+        "ORCID: 0000-0002-8958-2945",
+        "ORCID: 0009-0008-1359-5601",
+        "ORCID: 0000-0001-5371-526X",
+        "ORCID: 0000-0003-3670-8126",
+        "ORCID: 0009-0009-7923-948X",
+        "ORCID: 0000-0002-0702-0608",
+        "ORCID: 0000-0002-6755-9728",
+        "ORCID: 0000-0002-1471-9513",
+        "ORCID: 0009-0009-9544-0925",
+        "ORCID: 0000-0002-4868-1509",
+        "ORCID: 0000-0001-5912-6458",
+        "ORCID: 0000-0003-3441-5469",
+        "ORCID: 0009-0004-3188-7940",
+        "ORCID: 0000-0002-1729-2463",
+        "ORCID: 0000-0001-7407-5118",
+        "ORCID: 0000-0002-1708-8454"
+      ],
+      "affiliations": [
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Lunit Incorporated, Seoul, South Korea.",
+        "Lunit Incorporated, Seoul, South Korea.",
+        "Lunit Incorporated, Seoul, South Korea.",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Biostatistics, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Halicioglu Data Science Institute, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Bioengineering, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, California. ROR: https://ror.org/0168r3w48",
+        "Big Data Institute, University of Oxford, Oxford, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kong, JungHo",
+        "short_name": "Kong J",
+        "identifiers": [
+          "0000-0002-3532-3163"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Lee, Ingoo",
+        "short_name": "Lee I",
+        "identifiers": [
+          "0000-0002-8958-2945"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Boecher, Dean",
+        "short_name": "Boecher D",
+        "identifiers": [
+          "0009-0008-1359-5601"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Singhal, Akshat",
+        "short_name": "Singhal A",
+        "identifiers": [
+          "0000-0001-5371-526X"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Kelly, Marcus R",
+        "short_name": "Kelly MR",
+        "identifiers": [
+          "0000-0003-3670-8126"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Moon, Jimin",
+        "short_name": "Moon J",
+        "identifiers": [
+          "0009-0009-7923-948X"
+        ],
+        "affiliations": [
+          "Lunit Incorporated, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ahn, Chang Ho",
+        "short_name": "Ahn CH",
+        "identifiers": [
+          "0000-0002-0702-0608"
+        ],
+        "affiliations": [
+          "Lunit Incorporated, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ock, Chan-Young",
+        "short_name": "Ock CY",
+        "identifiers": [
+          "0000-0002-6755-9728"
+        ],
+        "affiliations": [
+          "Lunit Incorporated, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Pratt, Dexter",
+        "short_name": "Pratt D",
+        "identifiers": [
+          "0000-0002-1471-9513"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Kumar, Tannavee",
+        "short_name": "Kumar T",
+        "identifiers": [
+          "0009-0009-9544-0925"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Sears, Timothy J",
+        "short_name": "Sears TJ",
+        "identifiers": [
+          "0000-0002-4868-1509"
+        ],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Laub, David",
+        "short_name": "Laub D",
+        "identifiers": [
+          "0000-0001-5912-6458"
+        ],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Wright, Sarah",
+        "short_name": "Wright S",
+        "identifiers": [
+          "0000-0003-3441-5469"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Wall, Patrick",
+        "short_name": "Wall P",
+        "identifiers": [
+          "0009-0004-3188-7940"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Carter, Hannah",
+        "short_name": "Carter H",
+        "identifiers": [
+          "0000-0002-1729-2463"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0001-7407-5118"
+        ],
+        "affiliations": [
+          "Halicioglu Data Science Institute, University of California, San Diego, La Jolla, California."
+        ]
+      },
+      {
+        "full_name": "Ideker, Trey",
+        "short_name": "Ideker T",
+        "identifiers": [
+          "0000-0002-1708-8454"
+        ],
+        "affiliations": [
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, California.",
+          "Department of Bioengineering, University of California, San Diego, La Jolla, California.",
+          "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, California.",
+          "Big Data Institute, University of Oxford, Oxford, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer discovery"
+    ],
+    "journal_abbrev": [
+      "Cancer Discov"
+    ],
+    "pub_date": "2026 Oct 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/26 17:41",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [
+      "42711736"
+    ],
+    "refs": [
+      "40097811",
+      "40025003",
+      "39830769",
+      "39653848",
+      "39506116",
+      "39487476",
+      "39303028",
+      "38867109",
+      "38866015",
+      "38844628",
+      "38778098",
+      "38718835",
+      "38627560",
+      "38609490",
+      "38443662",
+      "38409223",
+      "38402722",
+      "38266066",
+      "38253604",
+      "37996753",
+      "37883436",
+      "37862225",
+      "37733863",
+      "37704728",
+      "37668528",
+      "37652006",
+      "37516059",
+      "37291435",
+      "37258680",
+      "37220749",
+      "37117649",
+      "37084736",
+      "36923436",
+      "36370105",
+      "36243968",
+      "36038778",
+      "35819403",
+      "35610322",
+      "35562840",
+      "35294956",
+      "35271299",
+      "35135159",
+      "35121966",
+      "34680378",
+      "34669962",
+      "34634810",
+      "34298662",
+      "34282049",
+      "33961781",
+      "33932331",
+      "33693667",
+      "33625877",
+      "33538820",
+      "33325566",
+      "33247715",
+      "32978382",
+      "32958547",
+      "32312757",
+      "32097652",
+      "32025018",
+      "31937368",
+      "31892982",
+      "31792460",
+      "31043833",
+      "31040929",
+      "31011206",
+      "30877282",
+      "30643254",
+      "30341162",
+      "30150660",
+      "30096301",
+      "29980530",
+      "29959327",
+      "29848589",
+      "29710180",
+      "29625048",
+      "29605183",
+      "29443960",
+      "29100075",
+      "29087512",
+      "28810144",
+      "28783718",
+      "28607512",
+      "28481359",
+      "28390739",
+      "28112728",
+      "28104840",
+      "26594663",
+      "26544944",
+      "26519826",
+      "26343003",
+      "26238431",
+      "26028255",
+      "25862816",
+      "25631445",
+      "25096233",
+      "25092538",
+      "25056374",
+      "24525232",
+      "24071851",
+      "24071849",
+      "24045689",
+      "23550210",
+      "23539594",
+      "23000897",
+      "22960745",
+      "22817698",
+      "22588877",
+      "22135298",
+      "21490395",
+      "21376230",
+      "20697079",
+      "19097774",
+      "18094376",
+      "17703239",
+      "12244326",
+      "10793107",
+      "9846965",
+      "2841597"
+    ],
+    "similar": [
+      "42188872",
+      "40964291",
+      "42475469",
+      "40777041",
+      "40402375",
+      "42117066",
+      "41789425",
+      "30704458",
+      "41465586",
+      "39709652",
+      "41882633",
+      "41656832",
+      "41327461",
+      "41231625",
+      "35813711",
+      "36528236",
+      "41438758",
+      "41275990",
+      "40201310",
+      "33655698",
+      "38981309",
+      "41463470",
+      "32957974",
+      "41436831",
+      "42124413",
+      "37081749",
+      "41776143",
+      "42466426",
+      "28231819",
+      "26181256",
+      "41067858",
+      "41357974",
+      "28583311",
+      "36814246",
+      "42180915",
+      "39700860",
+      "23074402",
+      "41562186",
+      "38300729",
+      "30442178",
+      "39461079",
+      "37356314",
+      "33744718",
+      "32709715",
+      "30687805",
+      "26803564",
+      "34531868",
+      "41530793",
+      "41025426",
+      "42359574",
+      "41974248",
+      "35753125",
+      "40948837",
+      "31424860",
+      "37139666",
+      "41188832",
+      "42268974",
+      "40192953",
+      "41613147",
+      "27846884",
+      "37275857",
+      "31911545",
+      "37272300",
+      "33853586",
+      "40178042",
+      "31292271",
+      "37882463",
+      "40764107",
+      "25801821",
+      "28393575",
+      "35849877",
+      "25986173",
+      "39191445",
+      "41045354",
+      "30603682",
+      "41521799",
+      "37978056",
+      "41360693",
+      "31988001",
+      "41127930",
+      "37454130",
+      "41968987",
+      "39669575",
+      "32919527",
+      "38213074",
+      "35964518",
+      "41491583",
+      "21701589",
+      "42244292",
+      "40650126",
+      "30181068",
+      "40080526",
+      "35831213",
+      "30099373",
+      "27551012",
+      "34254524",
+      "41944918",
+      "39628476",
+      "38046281",
+      "36682018"
+    ],
+    "review": [
+      "42188872",
+      "41465586",
+      "41275990",
+      "41776143",
+      "37882463",
+      "40764107",
+      "28393575"
+    ],
+    "pmc": [
+      "13367315"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42188872/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-978",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerdiscovery/article-lookup/doi/10.1158/2159-8290.CD-25-1735",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

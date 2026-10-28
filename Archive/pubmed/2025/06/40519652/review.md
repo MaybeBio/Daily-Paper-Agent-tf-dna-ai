@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, data availability) as provided by the user. No figures, tables, or supplementary files were available for inspection.
+- **Assessment boundary** Assessment is limited to the textual content supplied. Claims regarding model performance, dataset composition, and validation results are evaluated based on the descriptions provided in the text alone.
+- **Shared manuscript claim summary** The authors present Neur-Ally, a deep learning model trained on brain-specific epigenomic datasets (chromatin accessibility, histone modifications, transcription factor binding) to predict regulatory effects of noncoding SNPs via in silico mutagenesis. The model is applied to neurological condition GWAS variants, brain eQTLs, ASD GWAS variants, and reported probable regulatory brain variants.
+- **Visible evidence base** Text descriptions of model architecture, data processing, performance metrics (AUROC, PR-AUC), and variant prediction results. References to figures (Figs 1, 2, 3, 4A, 4B, 5), tables (Tables 1, 2), and supplementary tables (S1–S4) are mentioned but not provided.
+- **Missing materials affecting confidence** Figures 1–5, Tables 1–2, all supplementary tables, model code, training details (hyperparameters, optimizer, loss curves), dataset composition details, and the full list of 758 datasets. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful tissue-specific deep learning model for regulatory variant prioritization in neurological disorders. The motivation is clear and the focus on brain-specific training data is a reasonable contribution. However, the provided text lacks sufficient quantitative detail to evaluate the model's performance rigorously. Key metrics are reported as means without confidence intervals or per-label breakdowns. The validation on reported regulatory variants involves only eight SNPs, which is a very small sample. The significance threshold (E-value ≤ 1e−05) is stated but the rationale and robustness of this threshold are not discussed. The manuscript would benefit from clearer reporting of model evaluation, comparison with existing tools, and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in statistical genetics, functional genomics, and neurogenetics who work on variant prioritization for neurological disorders. The model could be of interest to those studying noncoding regulatory variation in brain tissues and those seeking tissue-specific prediction tools. The open-source availability of the model and code may also appeal to computational biologists developing similar deep learning approaches.
+- **Major strengths** The focus on brain-specific training data addresses a real gap, as many existing models are trained on generic or multi-tissue datasets. The inclusion of multiple epigenomic assay types (accessibility, histone marks, TF binding) is appropriate. The model is made openly available, which supports reproducibility and community use. The application to multiple neurological conditions and eQTL datasets demonstrates a broad intended utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieved "commendable performance" with mean AUROC values of 0.93 (accessibility), 0.84 (histone modifications), and 0.87 (TF binding).
+  - **Evidence pointer** Results section, "Model performance" subsection; Figure 3; Supplementary Table S1
+  - **Concern** The reported performance metrics are aggregate means across many labels. No per-label results, confidence intervals, or variability measures are provided. The PR-AUC values (0.23, 0.29, 0.22) are low in absolute terms, and while baselines are stated, the practical utility of these precision-recall values for variant prioritization is unclear. Without a breakdown by assay or label, it is impossible to assess whether the model performs uniformly well or is driven by a few easy labels.
+  - **Why it matters** The core claim of the manuscript is that Neur-Ally can reliably predict regulatory effects. If performance is uneven across label types, the model's utility for specific regulatory mechanisms would be limited. The lack of detailed metrics prevents readers from judging whether the model is fit for the intended use case.
+  - **Resolution test** Provide per-label AUROC and PR-AUC values, with confidence intervals or standard deviations. Include a confusion matrix or calibration plot for at least a subset of labels. Show performance stratified by assay type and by label prevalence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim point** The model was trained on 758 regulatory datasets from brain tissues and cells, producing a training set of 9 million 200-bp bins.
+  - **Evidence pointer** Discussion section; Data processing subsection; Figure 2
+  - **Concern** The description of the training data is insufficient. It is not stated how many unique biological samples or donors are represented, how many bins are positive versus negative for each label, how class imbalance was handled, or how overlapping peaks from different datasets were reconciled. The 9 million bin count is mentioned only in the Discussion, not in the Methods. The lack of dataset composition details makes it difficult to assess potential biases, such as overrepresentation of certain cell types or assays.
+  - **Why it matters** Training data composition directly affects model generalizability. If certain brain regions or cell types dominate, the model may perform poorly on underrepresented ones. The absence of this information undermines confidence in the model's broad applicability to neurological disorders.
+  - **Resolution test** Provide a detailed breakdown of the 758 datasets by assay type, tissue/cell type, and donor count. State the number of positive and negative bins per label. Describe how class imbalance was addressed (e.g., weighting, sampling). Report the number of unique genomic regions covered.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The model predicted significant regulatory effects for 48 out of 7,663 neurological condition GWAS SNPs, 169 out of 13,000 eQTL SNPs, and 4 out of 92 ASD GWAS SNPs.
+  - **Evidence pointer** Results section, "GWAS and neurological condition-specific eQTL variants" and "ASD GWAS variants" subsections; Figures 4A, 4B, 5; Supplementary Tables S2, S3, S4
+  - **Concern** The validation approach lacks a critical benchmark. The authors do not compare Neur-Ally's predictions against existing variant effect prediction tools (e.g., DeepSEA, Enformer, Basenji, RegulomeDB). Without such a comparison, it is unclear whether Neur-Ally offers any advantage over existing methods. Additionally, the small number of validated variants (8 reported regulatory SNPs) is insufficient to establish the model's practical utility. The biological validation is limited to literature-based assertions rather than experimental confirmation.
+  - **Why it matters** The manuscript's contribution is positioned as a tool for variant prioritization. If existing models perform comparably or better, the novelty and utility of Neur-Ally are diminished. The lack of benchmarking against established tools is a significant omission for a methods paper.
+  - **Resolution test** Perform a direct comparison with at least two existing variant effect prediction models on the same variant sets, using the same evaluation metrics. Report concordance and discordance. For the eight reported regulatory SNPs, provide additional evidence of functional relevance (e.g., eQTL colocalization, chromatin conformation data, or experimental validation).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim point** The model architecture includes convolution, max pooling, multi-head attention, and a dense output layer with sigmoid activation.
+  - **Evidence pointer** Materials and methods, "Model architecture" subsection; Figure 1
+  - **Concern** The architecture description is incomplete. Key hyperparameters are missing: number of attention heads, number of layers, dropout rates, learning rate, batch size, optimizer choice, loss function details, and early stopping criteria. The training procedure (number of epochs, validation strategy) is only partially described. The manuscript states training ran for 39 epochs but does not explain how this number was determined.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architecture and training details, other researchers cannot reimplement or adapt the model. This limits the scientific utility of the open-source release.
+  - **Resolution test** Provide a complete specification of the model architecture and training procedure, including all hyperparameters. Consider adding a model summary table or a link to a configuration file in the repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract section
+  - **Issue** The abstract does not report any quantitative performance metrics. It states the model "predicts differential occurrence of regulatory features" but does not indicate how well it does so.
+  - **Required correction** Include key performance numbers (e.g., mean AUROC) in the abstract to give readers an immediate sense of model quality.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Variant effect prediction methodology
+  - **Evidence pointer** Materials and methods, "Variant effect prediction" subsection
+  - **Issue** The E-value method is described briefly. It is unclear how the negative set of 1 million randomly selected variants was filtered exactly, and how many remained after filtering. The choice of 10 repetitions for the negative set is not justified.
+  - **Required correction** Clarify the filtering steps for the negative set and provide the final count. Justify the number of repetitions or state it as a computational choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion is largely a summary of the results and does not critically engage with limitations. For example, the low PR-AUC values are not discussed, and the small validation set is not acknowledged as a limitation.
+  - **Required correction** Add a limitations paragraph that addresses the PR-AUC values, the small number of validated variants, and the lack of comparison with existing tools.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Data processing
+  - **Evidence pointer** Materials and methods, "Data processing" subsection
+  - **Issue** The text states that bins with low mappability were excluded but does not define the threshold or the method used to assess mappability.
+  - **Required correction** Specify the mappability score threshold and the tool or reference used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, "GWAS and neurological condition-specific eQTL variants" subsection
+  - **Issue** The number of eQTL SNPs tested is stated as "top 1000 significant eQTL SNPs from each sample" across 13 samples, implying 13,000 total, but this is not explicitly stated.
+  - **Required correction** State the total number of unique eQTL SNPs tested after merging across samples.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient performance reporting), R1-M2 (incomplete training data description), R1-M3 (lack of benchmarking against existing tools), R1-M4 (incomplete architecture and training details).
+- **Assessment against Nature-style criteria** Originality: Moderate. The use of brain-specific training data is a reasonable niche contribution, but the architecture (convolution plus attention) is not novel. Scientific importance: Moderate. The tool could be useful for neurogenetics, but the validation is too limited to establish broad utility. Interdisciplinary readership: Limited. The manuscript is written for a computational biology audience and does not clearly articulate the potential clinical or biological implications for a broader readership. Technical soundness: Not fully established from the provided text. The performance metrics are reported at a level of aggregation that prevents rigorous assessment. Readability for nonspecialists: The Introduction and Discussion are accessible, but the Methods section assumes familiarity with deep learning and epigenomics terminology. The manuscript would benefit from a brief explanation of key concepts for nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the open-source contribution is valuable, but the technical reporting is insufficient to assess the model's validity. Major revisions addressing the performance reporting, training data description, benchmarking, and architecture details are required before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that Neur-Ally achieves "commendable performance" is unsupported without per-label metrics and confidence intervals.
+- The claim that the model can be used for "all neurological disorders" is overstated given the limited validation set.
+- The claim that the eight reported regulatory variants were "significantly" predicted is not supported by the text alone, as the E-value calculations and the full results are not shown.
+- The statement that 758 datasets were used is not verifiable from the provided text, as the dataset list is not included.
+- The claim that the model outperforms or complements existing tools is not made explicitly, but the absence of any comparison leaves this question open and unaddressed.

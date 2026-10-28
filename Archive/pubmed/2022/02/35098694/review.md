@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, structural classification logic, evidence base, and internal consistency of the presented review article
+- **Shared manuscript claim summary** The authors propose a structural classification system for intrinsically disordered protein regions (IDRs) that bind RNA, based on a survey of 24 experimentally determined complexes. They identify two major binding modes (alpha-helical and turn/loop), describe atomic-level contact patterns, compare with DNA-binding disordered proteins, and use molecular dynamics simulations to support proposed structural preferences. They also briefly compare RNA-binding IDRs with small-molecule RNA ligands.
+- **Visible evidence base** PDB survey (24 complexes), representative structures (Figure 1), atomic contact analysis (Figures 2, 4), modeling simulations (Figure 3), comparison with DNA-binding motifs (Figure 5), small-molecule comparison (Figures 6, 7), multivalency discussion (Figure 8), Table 1
+- **Missing materials affecting confidence** Table 1 contents not visible in the provided text; Figure contents not directly inspectable; simulation parameters and validation not described; PDB search criteria and exclusion/inclusion logic not fully specified; no accession codes for the 24 complexes
+
+## Reviewer
+- **Overall assessment** This is a well-written and conceptually useful review that addresses a genuine gap in the literature: the structural principles of RNA binding by disordered protein regions. The proposed two-class system (helical vs. turn/loop) is simple and potentially useful, and the authors make a credible effort to derive physicochemical rules from the limited available structural data. However, the evidence base is very small (24 complexes), and the manuscript does not provide sufficient methodological detail to assess the completeness or reproducibility of the PDB survey. The molecular dynamics component is presented as supporting evidence but lacks the technical detail needed to evaluate its validity. The comparison with DNA-binding IDRs and small molecules is interesting but somewhat superficial. The manuscript would be strengthened by a more transparent and systematic treatment of the structural survey, explicit criteria for classification, and clearer acknowledgment of the limitations imposed by the small sample size.
+- **Who would be interested in the results, and why** Structural biologists studying protein-RNA interactions, researchers working on intrinsically disordered proteins, and investigators interested in RNA-binding proteins without canonical RNA-binding domains. The classification scheme and physicochemical rules could be useful for those studying phase separation, RNP granule biology, and RNA-targeted therapeutic design. The disease relevance discussion (ALS, FTD, Shashi-XLID, Kabuki syndrome) will interest clinical geneticists and neurobiologists.
+- **Major strengths** The manuscript addresses an understudied area with a clear conceptual framework. The distinction between helical and turn/loop binding modes is a useful organizing principle. The authors make a genuine effort to derive general physicochemical rules from sparse data. The integration of modeling to complement experimental structures is a constructive approach. The comparison with DNA-binding IDRs provides useful context. The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim to have conducted "a comprehensive search in the Protein Data Bank" for IDR-RNA complexes and to have identified 24 such complexes.
+  - **Evidence pointer** Section "Classification of disordered RNA binding regions", location not provided
+  - **Concern** The manuscript does not describe the search strategy, inclusion and exclusion criteria, or validation of disorder status for the 24 complexes. Without this information, the reader cannot assess whether the survey is truly comprehensive or whether the classification system is based on a biased or incomplete sample. The number 24 is small, and the authors do not discuss how many potential complexes may have been excluded and why.
+  - **Why it matters** The proposed classification system is the central contribution of the manuscript. If the underlying survey is not reproducible or systematically biased, the classification itself cannot be considered robust. The small sample size also raises questions about whether two categories are sufficient or whether additional modes would emerge with more data.
+  - **Resolution test** Provide a detailed description of the PDB search protocol, including database version, search terms, filters, manual curation steps, and a list of all complexes considered with reasons for inclusion or exclusion. Include PDB accession codes for all 24 complexes in a supplementary table.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulations
+  - **Claim pointer** The authors state that "we integrated molecular dynamics simulations in our study, whose results support the proposed structural preferences of specific RNA-binding IDRs."
+  - **Evidence pointer** Section "Modeling of RNA-protein complexes complements our knowledge", Figure 3, location not provided
+  - **Concern** The molecular dynamics simulations are presented as supporting evidence, but no methodological details are provided. The force field, simulation length, temperature, solvent model, starting structures, and analysis protocols are not described. The reader cannot evaluate whether the simulations were adequately converged, whether the results are statistically meaningful, or whether the force field is appropriate for RNA-peptide interactions.
+  - **Why it matters** The authors explicitly use the simulations to support their classification and structural preferences. If the simulations are not technically sound, this supporting evidence is invalid, and the classification rests solely on the 24 experimental structures.
+  - **Resolution test** Provide full simulation details in a methods section or supplementary material, including software, force field parameters, system setup, equilibration and production protocols, convergence criteria, and analysis methods. Show that the simulations are reproducible and that the results are robust to reasonable variations in protocol.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Classification robustness
+  - **Claim pointer** The authors propose "two major structural classes, based on the dominant conformation of the IDR in the bound form: either alpha-helical or forming sharp turns or loops," with "at least 4-4 subtypes for each group."
+  - **Evidence pointer** Section "Classification of disordered RNA binding regions", Table 1, Figure 1, location not provided
+  - **Concern** The classification system is presented as a binary with subtypes, but the criteria for assigning a complex to one class versus the other are not explicitly defined. It is unclear how much helical content is required for the "alpha-helical" designation, how the subtypes are distinguished, and whether any complexes show mixed or intermediate characteristics. The relationship between the proposed subtypes and existing classifications of RNA-binding motifs is not discussed.
+  - **Why it matters** A classification system is only useful if the assignment criteria are clear and reproducible. Without explicit definitions, different researchers may classify the same complex differently, limiting the utility of the system.
+  - **Resolution test** Provide explicit, operational criteria for each class and subtype, ideally with quantitative thresholds (e.g., percentage of residues in helical conformation). Discuss whether any of the 24 complexes are ambiguous or borderline and how such cases would be handled. Compare the proposed classification with existing schemes in the literature.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors state that "disordered regions use fundamentally different binding and partner recognition strategies than globular RNA binding domains" and that they "preferentially recognize structural features rather than specific sequences."
+  - **Evidence pointer** Sections "RNA-protein contacts at an atomic level" and "Conclusion", location not provided
+  - **Concern** This generalization is based on a very small number of complexes, many of which involve viral proteins or specific RNA structures (TAR, G-quadruplexes). The authors do not discuss how representative these complexes are of the broader population of IDR-RNA interactions, nor do they address potential biases in the PDB toward well-behaved, stable complexes.
+  - **Why it matters** The conclusions are framed as general principles of IDR-RNA recognition. If the underlying sample is biased or unrepresentative, these principles may not hold for the broader population of IDR-RNA interactions.
+  - **Resolution test** Acknowledge the limitations of the sample size and potential biases more explicitly. Discuss how the conclusions might be tested with additional structures as they become available. Consider whether the proposed principles are hypotheses to be tested rather than established facts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states the aim is "to summarize the current state of structural knowledge" and "to propose a classification system," but the abstract does not clearly state the two major binding modes that were identified.
+  - **Required correction** Add a sentence in the abstract explicitly stating the two major structural classes (alpha-helical and turn/loop) to give readers a clear take-home message.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section "Protein loops and turns binding RNA"
+  - **Evidence pointer** Section "Protein loops and turns binding RNA", location not provided
+  - **Issue** The text states that "the sharp, hairpin-like turn structure seems to be important to this type of binding, as the Tat peptides unable to form stable hairpin structures proved to be unsuccessful in binding to the TAR RNA (Davidson et al., 2011)," but the sentence begins with "Although" and appears to be a fragment.
+  - **Required correction** Revise the sentence for grammatical completeness and clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "RNA-protein contacts at an atomic level"
+  - **Evidence pointer** Section "RNA-protein contacts at an atomic level", location not provided
+  - **Issue** The discussion of atomic-level contacts would benefit from a summary table listing the key contacts observed across the surveyed complexes, rather than only describing them in text.
+  - **Required correction** Consider adding a table summarizing the types of contacts (electrostatic, H-bonding, pi-stacking) observed for each class or subtype.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Balance
+  - **Affected element** Section "DNA versus RNA: Shared and distinct protein partnerships"
+  - **Evidence pointer** Section "DNA versus RNA: Shared and distinct protein partnerships", location not provided
+  - **Issue** The comparison with DNA-binding IDRs is brief and does not discuss the structural basis for the differences in any detail.
+  - **Required correction** Expand this section slightly to discuss specific structural features that distinguish RNA binding from DNA binding in disordered regions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Other RNA ligands: Small molecules versus proteins and peptides"
+  - **Evidence pointer** Section "Other RNA ligands: Small molecules versus proteins and peptides", location not provided
+  - **Issue** The connection between small-molecule RNA binders and IDR-RNA interactions is not made explicit. The relevance of this comparison to the main topic is unclear.
+  - **Required correction** Clarify how the small-molecule comparison informs the understanding of IDR-RNA recognition, or consider moving this material to a separate section.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section "The role of repeats and multivalency"
+  - **Evidence pointer** Section "The role of repeats and multivalency", location not provided
+  - **Issue** The statement that "RNA-RNA interactions further aid the formation of these structures" is vague and not directly supported by the cited literature in the text.
+  - **Required correction** Provide a specific citation or example to support this claim, or qualify the statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (survey methodology not described), R1-M2 (simulation methodology not described)
+- **Assessment against Nature-style criteria** Originality: The manuscript offers a novel organizing framework for a poorly characterized class of interactions. The two-class system is a useful contribution, though the underlying data are limited. Scientific importance: The topic is of growing importance given the role of IDRs in RNA biology and disease. The classification could be useful for the field. Interdisciplinary readership: The manuscript is likely to appeal to structural biologists, RNA biologists, and researchers studying disordered proteins. The disease connections broaden the potential audience. Technical soundness: The experimental structure analysis appears reasonable, but the lack of methodological detail for both the PDB survey and the simulations prevents full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with structural biology terminology. The figures are referenced but not inspectable in this format.
+
+## Risk / unsupported claims
+- The claim that the PDB search was "comprehensive" is not assessable without the search protocol.
+- The claim that molecular dynamics simulations "support the proposed structural preferences" is not assessable without simulation details.
+- The generalization that IDRs "preferentially recognize structural features rather than specific sequences" is based on a small and potentially biased sample and should be framed as a hypothesis.
+- The statement that "RNA-RNA interactions further aid the formation of these structures" is not directly supported by the cited literature in the text.
+- The claim that "the addition of the protein helix can likely yield further stabilization of these distorted structures, also altering their winding parameters in the process" is speculative and not clearly distinguished from established findings.

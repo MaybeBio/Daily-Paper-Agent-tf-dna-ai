@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40240358",
+  "title": "TRAPT: a multi-stage fused deep learning framework for predicting transcriptional regulators based on large-scale epigenomic data.",
+  "authors": "Zhang, Guorui; Song, Chao; Yin, Mingxue; Liu, Liyuan; Zhang, Yuexin; Li, Ye; Zhang, Jianing; Guo, Maozu; Li, Chunquan",
+  "journal": "Nature communications",
+  "published_date": "2025-04-17",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出多阶段融合深度学习框架TRAPT，基于表观基因组数据预测转录调控因子活性，虽涉及TF调控但未聚焦TF-DNA结合位点或互作机制建模，方法可迁移至本课题。",
+  "abstract": "It is challenging to identify regulatory transcriptional regulators (TRs), which control gene expression via regulatory elements and epigenomic signals, in context-specific studies on the onset and progression of diseases. The use of large-scale multi-omics epigenomic data enables the representation of the complex epigenomic patterns of control of the regulatory elements and the regulators. Herein, we propose Transcription Regulator Activity Prediction Tool (TRAPT), a multi-modality deep learning framework, which infers regulator activity by learning and integrating the regulatory potentials of target gene cis-regulatory elements and genome-wide binding sites. The results of experiments on 570 TR-related datasets show that TRAPT outperformed state-of-the-art methods in predicting the TRs, especially in terms of forecasting transcription co-factors and chromatin regulators. Moreover, we successfully identify key TRs associated with diseases, genetic variations, cell-fate decisions, and tissues. Our method provides an innovative perspective on identifying TRs by using epigenomic data.",
+  "abstract_zh": "在针对疾病发生与进展的特定情境研究中，识别调控基因表达的调控性转录因子（TRs）颇具挑战性，这些因子通过调控元件和表观基因组信号发挥作用。利用大规模多组学表观基因组数据，能够呈现调控元件及其调控因子复杂表观基因组模式的表征。在此，我们提出转录调控因子活性预测工具（TRAPT），这是一种多模态深度学习框架，通过学习和整合靶基因顺式调控元件及全基因组结合位点的调控潜力来推断调控因子活性。对570个TR相关数据集的实验结果表明，TRAPT在预测TRs方面优于现有最先进方法，尤其是在预测转录共因子和染色质调控因子方面表现突出。此外，我们成功识别了与疾病、遗传变异、细胞命运决定及组织相关的关键TRs。我们的方法为利用表观基因组数据识别TRs提供了创新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40240358/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40240358/",
+  "paper_page_path": "papers/pubmed/40240358/index.html"
+}

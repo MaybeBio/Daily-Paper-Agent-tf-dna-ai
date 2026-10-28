@@ -1,0 +1,635 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.18.562845",
+  "title": "<i>De novo</i> generation of T-cell receptors with desired epitope-binding property by leveraging a pre-trained large language model",
+  "doi": "10.1101/2023.10.18.562845",
+  "abstract": "Generating T-cell receptors (TCRs) with desired epitope-binding properties is a fundamental step in the development of immunotherapies, yet heavily relies on laborious and expensive wet experiments. Recent advancements in generative artificial intelligence have demonstrated promising power in protein design and engineering. In this regard, we propose a large language model, termed Epitope-Receptor-Transformer (ERTransformer), for the de novo generation of TCRs with the desired epitope-binding property. ERTransformer is built on EpitopeBERT and ReceptorBERT, which are trained using 1.9 million epitope sequences and 33.1 million TCR sequences, respectively. To demonstrate the model capability, we generate 1000 TCRs for each of the five epitopes with known natural TCRs. The artificial TCRs exhibit low sequence identity (average Bit-score 27.64 with a standard deviation of 1.50) but high biological function similarity (average BLOSUM62 score 32.32 with a standard deviation of 12.01) to natural TCRs. Furthermore, the artificial TCRs are not very structurally identical to natural ones (average RMSD 2.84 Å with a standard deviation of 1.21 Å) but exhibit a comparable binding affinity towards the corresponding epitopes. Our work highlights the tremendous potential of applying ERTransformer to generate novel TCRs with desired epitope-binding ability.",
+  "authors": [
+    "Jiannan Yang",
+    "Bing He",
+    "Yu Zhao",
+    "Feng Jiang",
+    "Zhonghuang Wang",
+    "Yixin Guo",
+    "Zhimeng Xu",
+    "Bo Yuan",
+    "Jiangning Song",
+    "Qingpeng Zhang",
+    "Jianhua Yao"
+  ],
+  "published_date": "2023-10-20",
+  "updated_date": "2023-10-20T13:35:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.18.562845",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.18.562845.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ],
+        "date-time": "2026-08-27T13:19:05Z",
+        "timestamp": 1787836745553,
+        "version": "build-2784847793"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 57,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Generating T-cell receptors (TCRs) with desired epitope-binding properties is a fundamental step in the development of immunotherapies, yet heavily relies on laborious and expensive wet experiments. Recent advancements in generative artificial intelligence have demonstrated promising power in protein design and engineering. In this regard, we propose a large language model, termed Epitope-Receptor-Transformer (ERTransformer), for the\n                  <jats:italic>de novo</jats:italic>\n                  generation of TCRs with the desired epitope-binding property. ERTransformer is built on EpitopeBERT and ReceptorBERT, which are trained using 1.9 million epitope sequences and 33.1 million TCR sequences, respectively. To demonstrate the model capability, we generate 1000 TCRs for each of the five epitopes with known natural TCRs. The artificial TCRs exhibit low sequence identity (average Bit-score 27.64 with a standard deviation of 1.50) but high biological function similarity (average BLOSUM62 score 32.32 with a standard deviation of 12.01) to natural TCRs. Furthermore, the artificial TCRs are not very structurally identical to natural ones (average RMSD 2.84 Å with a standard deviation of 1.21 Å) but exhibit a comparable binding affinity towards the corresponding epitopes. Our work highlights the tremendous potential of applying ERTransformer to generate novel TCRs with desired epitope-binding ability.\n                </jats:p>",
+      "DOI": "10.1101/2023.10.18.562845",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ],
+        "date-time": "2023-10-20T13:35:13Z",
+        "timestamp": 1697808913000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "<i>De novo</i>\n                  generation of T-cell receptors with desired epitope-binding property by leveraging a pre-trained large language model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jiannan",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1719-9290",
+          "authenticated-orcid": false,
+          "given": "Bing",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Feng",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhonghuang",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yixin",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhimeng",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9548-2588",
+          "authenticated-orcid": false,
+          "given": "Bo",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8031-9086",
+          "authenticated-orcid": false,
+          "given": "Jiangning",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qingpeng",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9157-9596",
+          "authenticated-orcid": false,
+          "given": "Jianhua",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-32007-7"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-05696-3"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.1.13"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.6",
+          "unstructured": "Janeway, C. A . T-cell mediated immunity. Immunobiology: The immune system in health and disease 7–1 (1997)."
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2567.2008.03015.x"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41409-019-0601-6"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "914",
+          "DOI": "10.1038/s41590-020-0676-7",
+          "article-title": "Adoptive cellular therapy with T cells expressing the dendritic cell growth factor Flt3L drives epitope spreading and antitumor immunity",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Nat. Immunol"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, M. et al. Ectopic activation of the miR-200c--EpCAM axis enhances antitumor T cell responses in models of adoptive cell therapy. Sci. Transl. Med. 13, eabg4328 (2021).",
+          "DOI": "10.1126/scitranslmed.abg4328"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dhillon, S . Tebentafusp: First Approval. Drugs 1–8 (2022).",
+          "DOI": "10.1007/s40265-022-01704-4"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2145",
+          "DOI": "10.2147/JPR.S144631",
+          "article-title": "Current status of acceptance and commitment therapy for chronic pain: a narrative review",
+          "volume": "11",
+          "year": "2018",
+          "journal-title": "J. Pain Res"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1689",
+          "DOI": "10.3389/fimmu.2020.01689",
+          "article-title": "TCR redirected T cells for cancer treatment: Achievements, hurdles, and goals",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Front. Immunol"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-018-0266-5"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22976"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1194",
+          "DOI": "10.1038/s41587-020-0505-4",
+          "article-title": "Analyzing the Mycobacterium tuberculosis immune response by T-cell receptor clustering with GLIPH2 and genome-wide antigen screening",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chronister, W. D. et al. TCRMatch: Predicting T-cell receptor specificity based on sequence similarity to previously characterized receptors. Front. Immunol. 12, 640725 (2021).",
+          "DOI": "10.3389/fimmu.2021.640725"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.18",
+          "first-page": "04805",
+          "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+          "volume": "1810",
+          "year": "2018",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, K. , et al. TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses. bioRxiv (2021).",
+          "DOI": "10.1101/2021.11.18.469186"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Han, Y. & Lee, A. Predicting SARS-CoV-2 epitope-specific TCR recognition using pre-trained protein embeddings. bioRxiv (2021).",
+          "DOI": "10.1101/2021.11.17.468929"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. et al. Evaluating protein transfer learning with TAPE. Adv. Neural Inf. Process. Syst. 32, (2019).",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt0804-1035"
+        },
+        {
+          "issue": "1",
+          "key": "2023102509250883000_2023.10.18.562845v1.24",
+          "first-page": "1",
+          "article-title": "An introduction to sequence similarity (‘homology’) searching",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Curr. Protoc. Bioinformatics Chapter 3"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bradley, P . Structure-based prediction of T cell receptor:peptide-MHC interactions. Elife 12, (2023).",
+          "DOI": "10.7554/eLife.82813"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty355"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.28",
+          "unstructured": "Sundararajan, M. , Taly, A. & Yan, Q. Axiomatic attribution for deep networks. in International conference on machine learning 3319–3328 (PMLR, 2017)."
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.29",
+          "first-page": "06823",
+          "article-title": "Incorporating bert into neural machine translation",
+          "volume": "2002",
+          "year": "2020",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.30",
+          "first-page": "02232",
+          "article-title": "BERT post-training for review reading comprehension and aspect-based sentiment analysis",
+          "volume": "1904",
+          "year": "2019",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(94)90353-0"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/86737"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Steinbiss, V. , Tran, B.-H. & Ney, H. Improvements in beam search. in Third international conference on spoken language processing (1994).",
+          "DOI": "10.21437/ICSLP.1994-538"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.34",
+          "unstructured": "Van der Maaten, L. & Hinton, G . Visualizing data using t-SNE. J. Mach. Learn. Res. 9, (2008)."
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20241-w"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "414",
+          "DOI": "10.1016/j.ebiom.2019.07.032",
+          "article-title": "TCR repertoire and CDR3 motif analyses depict the role of αβ T cells in Ankylosing spondylitis",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "EBioMedicine"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1409155111"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.022509"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ni942"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1001198"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.00855-14"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "549",
+          "DOI": "10.4049/jimmunol.2100400",
+          "article-title": "Systematic Determination of TCR--Antigen and Peptide--MHC Binding Kinetics among Field Variants of a Theileria parva Polymorphic CTL Epitope",
+          "volume": "208",
+          "year": "2022",
+          "journal-title": "The Journal of Immunology"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wong, P.-K. & Chan, C. Chinese word segmentation based on maximum matching and word binding force. in COLING 1996 Volume 1: The 16th International Conference on Computational Linguistics (1996).",
+          "DOI": "10.3115/992628.992665"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bremel, R. D. & Homan, E. J . Frequency patterns of T-cell exposed amino acid motifs in immunoglobulin heavy chain peptides presented by MHCs. Front. Immunol. 5, 541 (2014).",
+          "DOI": "10.3389/fimmu.2014.00541"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.11.5865"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.46",
+          "unstructured": "Hendrycks, D. & Gimpel, K . Gaussian Error Linear Units (GELUs). arXiv [cs.LG] (2016)."
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "264",
+          "DOI": "10.1162/tacl_a_00313",
+          "article-title": "Leveraging pre-trained checkpoints for sequence generation tasks",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "Transactions of the Association for Computational Linguistics"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.48",
+          "unstructured": "Vaswani, A. et al. Attention is all you need. Adv. Neural Inf. Process. Syst. 30, (2017)."
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx760"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.01.06.21249345"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa796"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz614"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22383"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx286"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.56",
+          "first-page": "1",
+          "article-title": "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Communications biology"
+        },
+        {
+          "key": "2023102509250883000_2023.10.18.562845v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab857"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.18.562845",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:24:38Z",
+        "timestamp": 1768454678000
+      },
+      "score": 71.30852,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.18.562845"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "references-count": 57,
+      "URL": "https://doi.org/10.1101/2023.10.18.562845",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

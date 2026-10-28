@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38166858",
+  "title": "DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model.",
+  "authors": "Pang, Yihe; Liu, Bin",
+  "journal": "BMC biology",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图交互蛋白语言模型预测蛋白内在无序区及其多种结合功能（含DNA结合），虽涉及蛋白-DNA互作功能预测，但非聚焦TF-DNA特异性结合机制，方法可迁移但深度有限。",
+  "abstract": "Intrinsically disordered proteins and regions (IDPs/IDRs) are functionally important proteins and regions that exist as highly dynamic conformations under natural physiological conditions. IDPs/IDRs exhibit a broad range of molecular functions, and their functions involve binding interactions with partners and remaining native structural flexibility. The rapid increase in the number of proteins in sequence databases and the diversity of disordered functions challenge existing computational methods for predicting protein intrinsic disorder and disordered functions. A disordered region interacts with different partners to perform multiple functions, and these disordered functions exhibit different dependencies and correlations. In this study, we introduce DisoFLAG, a computational method that leverages a graph-based interaction protein language model (GiPLM) for jointly predicting disorder and its multiple potential functions. GiPLM integrates protein semantic information based on pre-trained protein language models into graph-based interaction units to enhance the correlation of the semantic representation of multiple disordered functions. The DisoFLAG predictor takes amino acid sequences as the only inputs and provides predictions of intrinsic disorder and six disordered functions for proteins, including protein-binding, DNA-binding, RNA-binding, ion-binding, lipid-binding, and flexible linker. We evaluated the predictive performance of DisoFLAG following the Critical Assessment of protein Intrinsic Disorder (CAID) experiments, and the results demonstrated that DisoFLAG offers accurate and comprehensive predictions of disordered functions, extending the current coverage of computationally predicted disordered function categories. The standalone package and web server of DisoFLAG have been established to provide accurate prediction tools for intrinsic disorders and their associated functions.",
+  "abstract_zh": "intrinsically disordered proteins and regions（IDPs/IDRs）是在自然生理条件下以高度动态构象存在的功能重要蛋白质和区域。IDPs/IDRs展现出广泛的分子功能，其功能涉及与伙伴的结合相互作用并保持天然的结构灵活性。序列数据库中蛋白质数量的快速增长和紊乱功能的多样性对现有预测蛋白质内在紊乱及紊乱功能的计算方法提出了挑战。一个紊乱区域与不同伙伴相互作用以执行多种功能，这些紊乱功能表现出不同的依赖性和相关性。在本研究中，我们介绍了DisoFLAG，一种利用基于图的交互蛋白质语言模型（GiPLM）联合预测紊乱及其多种潜在功能的计算方法。GiPLM将基于预训练蛋白质语言模型的蛋白质语义信息整合到基于图的交互单元中，以增强多种紊乱功能语义表示的相关性。DisoFLAG预测器仅以氨基酸序列为输入，为蛋白质提供内在紊乱及六种紊乱功能的预测，包括蛋白质结合、DNA结合、RNA结合、离子结合、脂质结合和柔性连接子。我们遵循蛋白质内在紊乱关键评估（CAID）实验评估了DisoFLAG的预测性能，结果表明DisoFLAG提供了准确且全面的紊乱功能预测，扩展了当前计算预测紊乱功能类别的覆盖范围。DisoFLAG的独立软件包和网络服务器已建立，为内在紊乱及其相关功能提供准确的预测工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38166858/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38166858/",
+  "paper_page_path": "papers/pubmed/38166858/index.html"
+}

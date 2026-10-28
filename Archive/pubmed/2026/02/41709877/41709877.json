@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41709877",
+    "doi": "10.3389/fgene.2026.1566012",
+    "title": "Identification of key biomarkers of telomere-related genes in diabetic nephropathy via bioinformatic analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic nephropathy (DN) is a major cause of end-stage renal disease. Understanding the molecular mechanisms underlying DN is crucial for developing new therapeutic targets and diagnostic biomarkers. METHODS: We utilized microarray data from the GEO database to identify differentially expressed genes related to DN. Machine learning algorithms, including LASSO regression and SVM-RFE, were employed to screen and validate telomere-related genes. We also predicted the transcription factors of the significant genes. Subsequently, correlation analysis and Receiver Operating Characteristic diagnostics were performed on the key genes, along with validation using external datasets. Additionally, GSEA enrichment analysis and immune infiltration analysis were conducted. Furthermore, we analyzed the expression of significant genes in cell subgroups using single-cell sequencing technology. Finally, key genes were validated in DN kidney biopsy tissues and normal kidney biopsy tissues. RESULTS: Through differential analysis and machine learning screening, we identified a total of 14 differentially expressed genes related to telomeres, among which TRIM22, ELOVL4, NLGN4X, and FOSB were highlighted as key genes. We also predicted seven related transcription factors (BCLAF1, HNRNPL, TAF15, STAT1, SRSF9, SAFB2, PTEN). The key gene TRIM22 showed a high correlation with NLGN4X, ELOVL4, and NLGN4X. ROC diagnostics demonstrated sufficient diagnostic accuracy in both the test and validation sets. GSEA enrichment analysis and immune infiltration analysis revealed significant differences among immune cells, such as PC cells, and preliminary expression validation was conducted using single-cell analysis (for example, TRIM22 exhibited high expression levels in EDC, PEC, MES, and IMC). Finally, we performed RT-PCR between DN samples and control samples, finding that the expression levels of key genes in both groups were consistent with the trends predicted by bioinformatics, indicating that these genes may serve as potential diagnostic biomarkers and therapeutic targets. CONCLUSION: This study provides a comprehensive analysis of telomere-related DEGs in DN, enhancing our understanding of DN pathogenesis. The identified key genes offer potential for new diagnostic and therapeutic strategies, warranting further investigation into their biological roles in DN.",
+    "keywords": [
+      "biomarker",
+      "diabetic nephropathy",
+      "machine learning",
+      "single-cell analysis",
+      "telomere-related genes"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Dan",
+        "Feng, Zhipeng",
+        "Yao, Huan",
+        "An, Ke"
+      ],
+      "short_names": [
+        "Yu D",
+        "Feng Z",
+        "Yao H",
+        "An K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Dan",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zhipeng",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Huan",
+        "short_name": "Yao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "An, Ke",
+        "short_name": "An K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/19 07:02",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40032531",
+      "39509016",
+      "38342437",
+      "38107383",
+      "38091407",
+      "36311014",
+      "35946462",
+      "35661052",
+      "35238669",
+      "34479471",
+      "33556440",
+      "33211090",
+      "33186558",
+      "33176281",
+      "32804155",
+      "32774664",
+      "32474021",
+      "32243781",
+      "32192024",
+      "32061820",
+      "31616255",
+      "31391500",
+      "30760854",
+      "29475133",
+      "29244827",
+      "28577430",
+      "28183033",
+      "27590274",
+      "26427403",
+      "25913192",
+      "24860089",
+      "24525463",
+      "23859953",
+      "23818111",
+      "23163821",
+      "22199362",
+      "19875612"
+    ],
+    "similar": [
+      "41709877",
+      "38951833",
+      "40374840",
+      "41479901",
+      "40312440",
+      "42461218",
+      "37760894",
+      "40950408",
+      "39370621",
+      "41378129",
+      "39265357",
+      "38774257",
+      "39697326",
+      "35845512",
+      "41928356",
+      "40775242",
+      "40742465",
+      "39187837",
+      "39865825",
+      "41627661",
+      "39609849",
+      "39754246",
+      "39507054",
+      "40406620",
+      "38968594",
+      "41291841",
+      "39920798",
+      "41909133",
+      "41825713",
+      "38283345",
+      "42243611",
+      "40948769",
+      "39378654",
+      "41665627",
+      "41619156",
+      "40958910",
+      "40641111",
+      "40703651",
+      "39268370",
+      "37113991",
+      "39995931",
+      "39509434",
+      "42254657",
+      "39403102",
+      "36250071",
+      "38028597",
+      "42256410",
+      "35651615",
+      "41669232",
+      "39375405",
+      "39319258",
+      "42242331",
+      "37404805",
+      "41257259",
+      "36969169",
+      "41988156",
+      "38029552",
+      "37312900",
+      "36948405",
+      "41146237",
+      "41200172",
+      "42327749",
+      "40898746",
+      "41883400",
+      "39588536",
+      "41884632",
+      "41378005",
+      "37554330",
+      "40360670",
+      "40500570",
+      "39713769",
+      "42181212",
+      "40078458",
+      "42292668",
+      "39456069",
+      "42164373",
+      "38371524",
+      "38851464",
+      "38107383",
+      "41816328",
+      "41438111",
+      "36482994",
+      "36627452",
+      "41703488",
+      "34122109",
+      "35663304",
+      "41311665",
+      "40642528",
+      "36911691",
+      "40233527",
+      "40901831",
+      "40826470",
+      "37593129",
+      "41044520",
+      "36532015",
+      "38244370",
+      "40636753",
+      "42157182",
+      "39142001",
+      "40790234"
+    ],
+    "review": [
+      "41709877",
+      "41665627"
+    ],
+    "pmc": [
+      "12912712"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41709877/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3929",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2026.1566012",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

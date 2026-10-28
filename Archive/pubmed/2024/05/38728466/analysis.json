@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38728466",
+  "title": "Construction of ferroptosis-related prediction model for pathogenesis, diagnosis and treatment of ruptured abdominal aortic aneurysm.",
+  "authors": "Wang, Ailu; Zhou, Li",
+  "journal": "Medicine",
+  "published_date": "2024-05-10",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文基于转录组数据构建腹主动脉瘤破裂的铁死亡相关预测模型，虽涉及转录因子预测但无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联薄弱。",
+  "abstract": "Abdominal aortic aneurysm (AAA) is a dangerous cardiovascular disease, which often brings great psychological burden and economic pressure to patients. If AAA rupture occurs, it is a serious threat to patients' lives. Therefore, it is of clinical value to actively explore the pathogenesis of ruptured AAA and prevent its occurrence. Ferroptosis is a new type of cell death dependent on lipid peroxidation, which plays an important role in many cardiovascular diseases. In this study, we used online data and analysis of ferroptosis-related genes to uncover the formation of ruptured AAA and potential therapeutic targets. We obtained ferroptosis-related differentially expressed genes (Fe-DEGs) from GSE98278 dataset and 259 known ferroptosis-related genes from FerrDb website. Enrichment analysis of differentially expressed genes (DEGs) was performed by gene ontology (GO) and Kyoto encyclopedia of genes and genomes (KEGG). Receiver Operating characteristic (ROC) curve was employed to evaluate the diagnostic abilities of Fe-DEGs. Transcription factors and miRNAs of Fe-DEGs were identified through PASTAA and miRDB, miRWalk, TargetScan respectively. Single-sample gene set enrichment analysis (ssGSEA) was used to observe immune infiltration between the stable group and the rupture group. DGIdb database was performed to find potential targeted drugs of DEGs. GO and KEGG enrichment analysis found that DEGs mainly enriched in \"cellular divalent inorganic cation homeostasis,\" \"cellular zinc ion homeostasis,\" \"divalent inorganic cation homeostasis,\" \"Mineral absorption,\" \"Cytokine - cytokine receptor interaction,\" \"Coronavirus disease - COVID-19.\" Two up-regulated Fe-DEGs MT1G and DDIT4 were found to further analysis. Both single and combined applications of MT1G and DDIT4 showed good diagnostic efficacy (AUC = 0.8254, 0.8548, 0.8577, respectively). Transcription factors STAT1 and PU1 of MT1G and ARNT and MAX of DDIT4 were identified. Meanwhile, has_miR-548p-MT1G pairs, has_miR-53-3p/has_miR-181b-5p/ has_miR-664a-3p-DDIT4 pairs were found. B cells, NK cells, Th2 cells were high expression in the rupture group compared with the stable group, while DCs, Th1 cells were low expression in the rupture group. Targeted drugs against immunity, GEMCITABINE and INDOMETHACIN were discovered. We preliminarily explored the clinical significance of Fe-DEGs MT1G and DDIT4 in the diagnosis of ruptured AAA, and proposed possible upstream regulatory transcription factors and miRNAs. In addition, we also analyzed the immune infiltration of stable and rupture groups, and found possible targeted drugs for immunotherapy.",
+  "abstract_zh": "腹主动脉瘤（AAA）是一种危险的心血管疾病，常给患者带来巨大的心理负担和经济压力。若发生AAA破裂，则严重威胁患者生命。因此，积极探索破裂AAA的发病机制并预防其发生具有临床价值。铁死亡（ferroptosis）是一种依赖于脂质过氧化的新型细胞死亡方式，在许多心血管疾病中发挥重要作用。本研究利用在线数据及铁死亡相关基因分析，揭示破裂AAA的形成机制及潜在治疗靶点。我们从GSE98278数据集中获取铁死亡相关差异表达基因（Fe-DEGs），并从FerrDb网站获取259个已知铁死亡相关基因。通过基因本体论（GO）和京都基因与基因组百科全书（KEGG）对差异表达基因（DEGs）进行富集分析。采用受试者工作特征（ROC）曲线评估Fe-DEGs的诊断能力。通过PASTAA和miRDB、miRWalk、TargetScan分别识别Fe-DEGs的转录因子和miRNAs。使用单样本基因集富集分析（ssGSEA）观察稳定组与破裂组之间的免疫浸润情况。利用DGIdb数据库寻找DEGs的潜在靶向药物。GO和KEGG富集分析发现，DEGs主要富集于“细胞二价无机阳离子稳态”、“细胞锌离子稳态”、“二价无机阳离子稳态”、“矿物质吸收”、“细胞因子-细胞因子受体相互作用”、“冠状病毒病-COVID-19”。进一步分析发现两个上调的Fe-DEGs MT1G和DDIT4。MT1G和DDIT4的单独及联合应用均显示出良好的诊断效能（AUC分别为0.8254、0.8548、0.8577）。识别出MT1G的转录因子STAT1和PU1，以及DDIT4的转录因子ARNT和MAX。同时，发现has_miR-548p-MT1G配对、has_miR-53-3p/has_miR-181b-5p/has_miR-664a-3p-DDIT4配对。与稳定组相比，破裂组中B细胞、NK细胞、Th2细胞高表达，而DCs、Th1细胞在破裂组中低表达。发现了针对免疫的靶向药物GEMCITABINE和INDOMETHACIN。我们初步探讨了Fe-DEGs MT1G和DDIT4在破裂AAA诊断中的临床意义，并提出了可能的上游调控转录因子和miRNAs。此外，我们还分析了稳定组和破裂组的免疫浸润情况，并发现了可能的免疫治疗靶向药物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38728466/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38728466/",
+  "paper_page_path": "papers/pubmed/38728466/index.html"
+}

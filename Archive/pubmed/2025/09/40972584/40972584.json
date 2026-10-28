@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40972584",
+    "doi": "10.1016/j.xgen.2025.101003",
+    "title": "Network-based drug repurposing for psychiatric disorders using single-cell genomics."
+  },
+  "content": {
+    "abstract": "Neuropsychiatric disorders lack effective treatments due to a limited understanding of the underlying cellular and molecular mechanisms. To address this, we integrated population-scale single-cell genomics data and analyzed 23 cell-type-level gene regulatory networks across schizophrenia, bipolar disorder, and autism. Our analysis revealed potential druggable transcription factors co-regulating known risk genes that converge into cell-type-specific co-regulated modules. We applied graph neural networks on those modules to prioritize novel risk genes and leveraged them in a network-based drug repurposing framework to identify 220 drug molecules with the potential for targeting specific cell types. We found evidence for 37 of these drugs in reversing disorder-associated transcriptional phenotypes. Additionally, we discovered 335 drug-cell quantitative trait loci (eQTLs), revealing genetic variation's influence on drug target expression at the cell-type level. Our results provide a single-cell network medicine resource that provides potential mechanistic insights for advancing treatment options for neuropsychiatric disorders.",
+    "keywords": [
+      "cell-type-disorder genes",
+      "drug repurposing",
+      "psychiatric disorders",
+      "single-cell network medicine"
+    ],
+    "mesh_terms": [
+      "*Drug Repositioning/methods",
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "*Gene Regulatory Networks",
+      "*Genomics/methods",
+      "*Mental Disorders/genetics/drug therapy",
+      "Quantitative Trait Loci/genetics",
+      "Bipolar Disorder/genetics/drug therapy",
+      "Schizophrenia/genetics/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Chirag",
+        "Kalafut, Noah Cohen",
+        "Clarke, Declan",
+        "Choi, Jerome J",
+        "Arachchilage, Kalpana Hanthanan",
+        "Khullar, Saniya",
+        "Xia, Yan",
+        "Zhou, Xiao",
+        "Dursun, Cagatay",
+        "Gerstein, Mark",
+        "Wang, Daifeng"
+      ],
+      "short_names": [
+        "Gupta C",
+        "Kalafut NC",
+        "Clarke D",
+        "Choi JJ",
+        "Arachchilage KH",
+        "Khullar S",
+        "Xia Y",
+        "Zhou X",
+        "Dursun C",
+        "Gerstein M",
+        "Wang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI 53076, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Population Health Sciences, University of Wisconsin-Madison, Madison, WI 53726, USA.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA; Department of Computer Science, Yale University, New Haven, CT 06520, USA; Department of Statistics & Data Science, Yale University, New Haven, CT 06520, USA; Department of Biomedical Informatics & Data Science, Yale University, New Haven, CT 06520, USA. Electronic address: mark@gersteinlab.org.",
+        "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA; Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI 53076, USA. Electronic address: daifeng.wang@wisc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Chirag",
+        "short_name": "Gupta C",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA."
+        ]
+      },
+      {
+        "full_name": "Kalafut, Noah Cohen",
+        "short_name": "Kalafut NC",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI 53076, USA."
+        ]
+      },
+      {
+        "full_name": "Clarke, Declan",
+        "short_name": "Clarke D",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Jerome J",
+        "short_name": "Choi JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Population Health Sciences, University of Wisconsin-Madison, Madison, WI 53726, USA."
+        ]
+      },
+      {
+        "full_name": "Arachchilage, Kalpana Hanthanan",
+        "short_name": "Arachchilage KH",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA."
+        ]
+      },
+      {
+        "full_name": "Khullar, Saniya",
+        "short_name": "Khullar S",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA."
+        ]
+      },
+      {
+        "full_name": "Xia, Yan",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiao",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Dursun, Cagatay",
+        "short_name": "Dursun C",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Gerstein, Mark",
+        "short_name": "Gerstein M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT 06520, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520, USA; Department of Computer Science, Yale University, New Haven, CT 06520, USA; Department of Statistics & Data Science, Yale University, New Haven, CT 06520, USA; Department of Biomedical Informatics & Data Science, Yale University, New Haven, CT 06520, USA. Electronic address: mark@gersteinlab.org."
+        ]
+      },
+      {
+        "full_name": "Wang, Daifeng",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Waisman Center, University of Wisconsin-Madison, Madison, WI 53705, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, WI 53076, USA; Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI 53076, USA. Electronic address: daifeng.wang@wisc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2025 Nov 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/20 00:31",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42662831",
+      "42506875",
+      "42374032",
+      "41799440",
+      "41754588"
+    ],
+    "refs": [],
+    "similar": [
+      "40972584",
+      "39677458",
+      "41795042",
+      "42475469",
+      "40653482",
+      "40784413",
+      "37314780",
+      "40102990",
+      "42020718",
+      "42374032",
+      "38781369",
+      "39661350",
+      "38735387",
+      "40496862",
+      "31723243",
+      "39775833",
+      "38321095",
+      "29297292",
+      "42320287",
+      "36055211",
+      "35849618",
+      "40126059",
+      "39828023",
+      "39830273",
+      "23453885",
+      "38305800",
+      "33417599",
+      "38190860",
+      "34230558",
+      "32889528",
+      "20562745",
+      "31616042",
+      "41029193",
+      "38864245",
+      "31797637",
+      "38660492",
+      "37862243",
+      "40993718",
+      "25290266",
+      "41260362",
+      "38549512",
+      "26685806",
+      "40154479",
+      "36945630",
+      "40498271",
+      "41986815",
+      "38724566",
+      "37418754",
+      "31328717",
+      "40852779",
+      "39003413",
+      "32950641",
+      "29482655",
+      "41691208",
+      "30212762",
+      "38664746",
+      "21092101",
+      "40180044",
+      "29794033",
+      "30586385",
+      "26283638",
+      "29745862",
+      "30478419",
+      "33688928",
+      "28035465",
+      "30772379",
+      "20615089",
+      "40076849",
+      "41640369",
+      "29912442",
+      "41065713",
+      "42364336",
+      "42213730",
+      "33479212",
+      "41271629",
+      "33723208",
+      "40141382",
+      "25738424",
+      "33407556",
+      "40685484",
+      "30864332",
+      "39950180",
+      "38922630",
+      "42421611",
+      "39500920",
+      "38869147",
+      "41888955",
+      "39191171",
+      "38306997",
+      "41505808",
+      "41965146",
+      "40494503",
+      "26826498",
+      "41684036",
+      "31306407",
+      "39483867",
+      "27771971",
+      "40748431",
+      "42448418",
+      "39665162"
+    ],
+    "review": [
+      "40972584",
+      "20562745",
+      "31616042",
+      "25290266",
+      "26685806",
+      "32950641",
+      "30212762",
+      "29794033",
+      "33479212",
+      "40141382",
+      "42421611",
+      "41505808"
+    ],
+    "pmc": [
+      "12648111"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(25)00259-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/childmentalhealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Child Mental Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40972584/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(25)00259-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

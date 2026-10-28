@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41125627",
+    "doi": "10.1038/s41598-025-20714-2",
+    "title": "Computational discovery of BRD4 inhibitors for neuroblastoma therapy using pharmacophore screening and molecular simulations."
+  },
+  "content": {
+    "abstract": "BRD4 (\"Bromodomain-containing protein 4\"), a recognized gene regulator, is an attractive target for therapeutic development, particularly for the management of neuroblastoma. An integrated pharmacoinformatic strategy for the development of new BRD4 inhibitors is examined in this research. Pharmacophores were used to digitally screen five databases, and the current study aims to determine the best binding modes by docking the screened hits to the BRD4 active site. Using the BRD4 protein co-crystal ligand (73B) (PDB ID: 4BJX) as a template, pharmacophore hypotheses were produced. Five databases were subjected to a pharmacophore-based virtual screening process, and 1089 hits that satisfied the screening requirements were selected for docking against the BRD4 receptor by using the SP module of the Glide tool. The top ten docked compounds with the highest binding affinities, ranging from - 9.623 to - 8.894 kcal/mol, were selected. Further, the biological activity and ADMET analysis revealed that the selected compounds have values that fall in the acceptable range. The protein-ligand complexes' stability was verified by performing molecular dynamics (MD) simulations of the binding positions of the top two compounds against the BRD4 receptor. The stability and binding free energies of the compounds indicate that these compounds may function as lead compounds to affect the biological activity of BRD4 in the in vitro studies.",
+    "keywords": [
+      "ADMET",
+      "Bromodomain-containing protein 4",
+      "Molecular dynamics (MD) simulation",
+      "Pharmacoinformatic approach",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/antagonists & inhibitors/chemistry/metabolism",
+      "*Cell Cycle Proteins/antagonists & inhibitors",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "*Neuroblastoma/drug therapy/metabolism",
+      "*Drug Discovery",
+      "*Nuclear Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "Ligands",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Protein Binding",
+      "Pharmacophore",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ali, Iqra",
+        "Almostafa, Mervt",
+        "Abbas, Faheem",
+        "Younis, Nancy S",
+        "Khan, Azmat Ali",
+        "Yahya, Galal"
+      ],
+      "short_names": [
+        "Ali I",
+        "Almostafa M",
+        "Abbas F",
+        "Younis NS",
+        "Khan AA",
+        "Yahya G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biosciences, COMSATS University Islamabad, Islamabad Campus, Islamabad, 45550, Pakistan.",
+        "Department of Chemistry, College of Science, King Faisal University, 31982, Alhofuf, Al-Ahsa, Saudi Arabia.",
+        "Department of Chemistry, Tsinghua University, Beijing, 100084, China.",
+        "Department of Pharmaceutical Sciences, College of Clinical Pharmacy, King Faisal University, 31982, Alhofuf, Al-Ahsa, Saudi Arabia.",
+        "Pharmaceutical Biotechnology Laboratory, Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia. azkhan@ksu.edu.sa.",
+        "Department of Microbiology and Immunology, Faculty of Pharmacy, Zagazig University, Al Sharqia, 44519, Egypt. gmebmc@ibmb.csic.es.",
+        "Molecular Biology Institute of Barcelona (IBMB), CSIC, Barcelona, Spain. gmebmc@ibmb.csic.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ali, Iqra",
+        "short_name": "Ali I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, COMSATS University Islamabad, Islamabad Campus, Islamabad, 45550, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Almostafa, Mervt",
+        "short_name": "Almostafa M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, King Faisal University, 31982, Alhofuf, Al-Ahsa, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abbas, Faheem",
+        "short_name": "Abbas F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Younis, Nancy S",
+        "short_name": "Younis NS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Clinical Pharmacy, King Faisal University, 31982, Alhofuf, Al-Ahsa, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khan, Azmat Ali",
+        "short_name": "Khan AA",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Biotechnology Laboratory, Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia. azkhan@ksu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Yahya, Galal",
+        "short_name": "Yahya G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Faculty of Pharmacy, Zagazig University, Al Sharqia, 44519, Egypt. gmebmc@ibmb.csic.es.",
+          "Molecular Biology Institute of Barcelona (IBMB), CSIC, Barcelona, Spain. gmebmc@ibmb.csic.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 00:26",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42482698"
+    ],
+    "refs": [
+      "38471352",
+      "38226346",
+      "38018861",
+      "37972144",
+      "37937770",
+      "37705295",
+      "37152684",
+      "36979773",
+      "36695085",
+      "36405310",
+      "35198433",
+      "33421024",
+      "33404859",
+      "33140698",
+      "33006893",
+      "32502863",
+      "32188727",
+      "31733396",
+      "31705979",
+      "31273347",
+      "31195152",
+      "30360721",
+      "30272279",
+      "30153047",
+      "29649741",
+      "29132266",
+      "28766687",
+      "28684996",
+      "28660902",
+      "28409871",
+      "28391274",
+      "28267328",
+      "28256516",
+      "28195723",
+      "27793799",
+      "27240990",
+      "27095195",
+      "26908627",
+      "26592101",
+      "25835573",
+      "25816325",
+      "25558886",
+      "25215170",
+      "25036774",
+      "24751816",
+      "24525235",
+      "23595060",
+      "23579613",
+      "22722403",
+      "20871596",
+      "19812244",
+      "17847051",
+      "15549884",
+      "15027865",
+      "10938129"
+    ],
+    "similar": [
+      "41125627",
+      "36841551",
+      "39274873",
+      "28901664",
+      "37656159",
+      "38425011",
+      "36773087",
+      "30411639",
+      "39652601",
+      "27494802",
+      "38907013",
+      "34105560",
+      "37570684",
+      "38675678",
+      "39773125",
+      "33637650",
+      "36644887",
+      "40117728",
+      "30079805",
+      "39101505",
+      "40359277",
+      "31701109",
+      "28466681",
+      "36286044",
+      "24976024",
+      "38095360",
+      "39173004",
+      "37705289",
+      "28116998",
+      "39823809",
+      "40779485",
+      "38084766",
+      "37695635",
+      "37741229",
+      "40429764",
+      "36524430",
+      "37715109",
+      "40120151",
+      "30415122",
+      "30052133",
+      "36990409",
+      "26022843",
+      "32149490",
+      "31587361",
+      "39535988",
+      "35011350",
+      "29475408",
+      "34845959",
+      "38317535",
+      "41342775",
+      "39703994",
+      "29172540",
+      "26731490",
+      "37676262",
+      "28636361",
+      "39163297",
+      "39764880",
+      "29064326",
+      "29764756",
+      "40474680",
+      "37549730",
+      "40494088",
+      "30557817",
+      "27782467",
+      "38173208",
+      "28564537",
+      "39292752",
+      "40289986",
+      "32657160",
+      "37850491",
+      "40790332",
+      "34151738",
+      "31755336",
+      "27238211",
+      "39602227",
+      "40120495",
+      "29808961",
+      "35156677",
+      "37904331",
+      "40398152",
+      "41226144",
+      "29549805",
+      "40117242",
+      "37334701",
+      "38749341",
+      "37630311",
+      "34443556",
+      "39368576",
+      "28586718",
+      "37942622",
+      "37241785",
+      "37646177",
+      "38485685",
+      "26596901",
+      "38109128",
+      "40998652",
+      "29941841",
+      "29730189",
+      "34642975",
+      "32911607"
+    ],
+    "review": [
+      "41125627"
+    ],
+    "pmc": [
+      "12546947"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-20714-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41125627/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

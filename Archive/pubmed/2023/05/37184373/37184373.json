@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "37184373",
+    "doi": "10.7554/eLife.88345",
+    "title": "An in silico FSHD muscle fiber for modeling DUX4 dynamics and predicting the impact of therapy."
+  },
+  "content": {
+    "abstract": "Facioscapulohumeral muscular dystrophy (FSHD) is an incurable myopathy linked to the over-expression of the myotoxic transcription factor DUX4. Targeting DUX4 is the leading therapeutic approach, however, it is only detectable in 0.1-3.8% of FSHD myonuclei. How rare DUX4 drives FSHD and the optimal anti-DUX4 strategy are unclear. We combine stochastic gene expression with compartment models of cell states, building a simulation of DUX4 expression and consequences in FSHD muscle fibers. Investigating iDUX4 myoblasts, scRNAseq, and snRNAseq of FSHD muscle we estimate parameters including DUX4 mRNA degradation, transcription and translation rates, and DUX4 target gene activation rates. Our model accurately recreates the distribution of DUX4 and targets gene-positive cells seen in scRNAseq of FSHD myocytes. Importantly, we show DUX4 drives significant cell death despite expression in only 0.8% of live cells. Comparing scRNAseq of unfused FSHD myocytes to snRNAseq of fused FSHD myonuclei, we find evidence of DUX4 protein syncytial diffusion and estimate its rate via genetic algorithms. We package our model into freely available tools, to rapidly investigate the consequences of anti-DUX4 therapy.",
+    "keywords": [
+      "DUX4",
+      "FSHD",
+      "cell biology",
+      "cellular automaton",
+      "computational biology",
+      "facioscapulohumeral muscular dystrophy",
+      "human",
+      "muscle",
+      "stochastic gene expression",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Muscular Dystrophy, Facioscapulohumeral/genetics/metabolism",
+      "Homeodomain Proteins/metabolism",
+      "Gene Expression Regulation",
+      "Genes, Homeobox",
+      "Muscle Fibers, Skeletal/metabolism",
+      "Muscle, Skeletal/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cowley, Matthew V",
+        "Pruller, Johanna",
+        "Ganassi, Massimo",
+        "Zammit, Peter S",
+        "Banerji, Christopher R S"
+      ],
+      "short_names": [
+        "Cowley MV",
+        "Pruller J",
+        "Ganassi M",
+        "Zammit PS",
+        "Banerji CRS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5258-8024",
+        "ORCID: 0000-0003-3163-9707",
+        "ORCID: 0000-0001-9562-3072",
+        "ORCID: 0000-0002-4373-7657"
+      ],
+      "affiliations": [
+        "Centre for Sustainable and Circular Technologies, Department of Chemistry, University of Bath, Bath, United Kingdom.",
+        "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom.",
+        "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom.",
+        "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom.",
+        "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom.",
+        "The Alan Turing Institute, British Library, London, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cowley, Matthew V",
+        "short_name": "Cowley MV",
+        "identifiers": [
+          "0000-0002-5258-8024"
+        ],
+        "affiliations": [
+          "Centre for Sustainable and Circular Technologies, Department of Chemistry, University of Bath, Bath, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Pruller, Johanna",
+        "short_name": "Pruller J",
+        "identifiers": [],
+        "affiliations": [
+          "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ganassi, Massimo",
+        "short_name": "Ganassi M",
+        "identifiers": [
+          "0000-0003-3163-9707"
+        ],
+        "affiliations": [
+          "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Zammit, Peter S",
+        "short_name": "Zammit PS",
+        "identifiers": [
+          "0000-0001-9562-3072"
+        ],
+        "affiliations": [
+          "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Banerji, Christopher R S",
+        "short_name": "Banerji CRS",
+        "identifiers": [
+          "0000-0002-4373-7657"
+        ],
+        "affiliations": [
+          "King's College London, Randall Centre for Cell and Molecular Biophysics, New Hunt's House, Guy's Campus, London, United Kingdom.",
+          "The Alan Turing Institute, British Library, London, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2023 May 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/15 13:05",
+    "fetched_at": "2026-09-29 00:42:24"
+  },
+  "links": {
+    "cites": [
+      "41611663",
+      "40965510",
+      "40957965",
+      "39627769",
+      "38777608",
+      "37731904"
+    ],
+    "refs": [
+      "36158201",
+      "35538497",
+      "35248827",
+      "35216671",
+      "35039091",
+      "34151531",
+      "32906621",
+      "32611642",
+      "32467133",
+      "32365093",
+      "32347924",
+      "32327287",
+      "32250341",
+      "32242220",
+      "32182342",
+      "32083293",
+      "32020675",
+      "31067297",
+      "30602787",
+      "30462217",
+      "30445587",
+      "29255294",
+      "28916757",
+      "28459456",
+      "27744317",
+      "27699653",
+      "27153638",
+      "27153398",
+      "26951377",
+      "26246499",
+      "25122204",
+      "24278031",
+      "23821646",
+      "23360624",
+      "23206257",
+      "23143600",
+      "22871573",
+      "22798623",
+      "22508491",
+      "22209328",
+      "22108603",
+      "21060811",
+      "20724583",
+      "20427518",
+      "19629566",
+      "18988743",
+      "18505476",
+      "17588759",
+      "12902380",
+      "8094896"
+    ],
+    "similar": [
+      "37184373",
+      "23206257",
+      "37298453",
+      "31067297",
+      "29329560",
+      "39627769",
+      "32278354",
+      "35158020",
+      "29899111",
+      "33987655",
+      "31189728",
+      "28171552",
+      "27519269",
+      "22718021",
+      "37703175",
+      "22053214",
+      "38104132",
+      "32576599",
+      "30445587",
+      "29255294",
+      "32796277",
+      "22798623",
+      "28916757",
+      "39488616",
+      "32759720",
+      "32242220",
+      "24278031",
+      "27378237",
+      "29759937",
+      "40855454",
+      "39201751",
+      "28637492",
+      "24636994",
+      "34024774",
+      "38777608",
+      "30122154",
+      "31306642",
+      "25326393",
+      "24861551",
+      "33502067",
+      "21951698",
+      "34151531",
+      "28754837",
+      "39000102",
+      "21060811",
+      "31979100",
+      "27816329",
+      "33068777",
+      "35248827",
+      "27906075",
+      "39556762",
+      "37021550",
+      "30107443",
+      "26942723",
+      "32365093",
+      "26246499",
+      "38542301",
+      "37899061",
+      "32250341",
+      "23108159",
+      "34338285",
+      "22508491",
+      "38340007",
+      "25551153",
+      "28870238",
+      "36401032",
+      "35078334",
+      "25564732",
+      "30644821",
+      "36196640",
+      "31018108",
+      "32467133",
+      "30307508",
+      "40591405",
+      "29718206",
+      "31722199",
+      "34687171",
+      "22209328",
+      "34943834",
+      "23821646",
+      "30312408",
+      "33712050",
+      "32601200",
+      "23966205",
+      "21446026",
+      "27841748",
+      "35538497",
+      "37353005",
+      "34880230",
+      "22536400",
+      "36882853",
+      "31844661",
+      "26860865",
+      "26007167",
+      "21734574",
+      "20490329",
+      "34030118",
+      "37747887",
+      "23593020",
+      "35468884"
+    ],
+    "review": [
+      "37184373",
+      "37298453",
+      "35158020",
+      "22718021",
+      "32796277",
+      "40855454",
+      "39201751",
+      "34151531",
+      "28754837",
+      "31979100",
+      "27816329",
+      "25551153",
+      "31018108",
+      "29718206",
+      "34943834",
+      "33712050"
+    ],
+    "pmc": [
+      "10287159"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37184373/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37184373",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.88345",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

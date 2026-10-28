@@ -1,0 +1,313 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.27.605418",
+  "title": "Nucleotide dependency analysis of DNA language models reveals genomic functional elements",
+  "doi": "10.1101/2024.07.27.605418",
+  "abstract": "Deciphering how nucleotides in genomes encode regulatory instructions and molecular machines is a long-standing goal in biology. DNA language models (LMs) implicitly capture functional elements and their organization from genomic sequences alone by modeling probabilities of each nucleotide given its sequence context. However, using DNA LMs for discovering functional genomic elements has been challenging due to the lack of interpretable methods. Here, we introduce nucleotide dependencies which quantify how nucleotide substitutions at one genomic position affect the probabilities of nucleotides at other positions. We generated genome-wide maps of pairwise nucleotide dependencies within kilobase ranges for animal, fungal, and bacterial species. We show that nucleotide dependencies indicate deleteriousness of human genetic variants more effectively than sequence alignment and DNA LM reconstruction. Regulatory elements appear as dense blocks in dependency maps, enabling the systematic identification of transcription factor binding sites as accurately as models trained on experimental binding data. Nucleotide dependencies also highlight bases in contact within RNA structures, including pseudoknots and tertiary structure contacts, with remarkable accuracy. This led to the discovery of four novel, experimentally validated RNA structures in Escherichia coli. Finally, using dependency maps, we reveal critical limitations of several DNA LM architectures and training sequence selection strategies by benchmarking and visual diagnosis. Altogether, nucleotide dependency analysis opens a new avenue for discovering and studying functional elements and their interactions in genomes.",
+  "authors": [
+    "Tomaz da Silva P",
+    "Karollus A",
+    "Hingerl J",
+    "Galindez G",
+    "Wagner N",
+    "Hernandez-Alias X",
+    "Incarnato D",
+    "Gagneur J"
+  ],
+  "published_date": "2024-07-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.27.605418",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.27.605418.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR887711",
+    "raw_record": {
+      "id": "PPR887711",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR887711"
+        ]
+      },
+      "doi": "10.1101/2024.07.27.605418",
+      "title": "Nucleotide dependency analysis of DNA language models reveals genomic functional elements",
+      "authorString": "Tomaz da Silva P, Karollus A, Hingerl J, Galindez G, Wagner N, Hernandez-Alias X, Incarnato D, Gagneur J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tomaz da Silva P",
+            "lastName": "Tomaz da Silva",
+            "firstName": "Pedro",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6320-4885"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karollus A",
+            "lastName": "Karollus",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7570-7877"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hingerl J",
+            "lastName": "Hingerl",
+            "firstName": "Johannes",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8260-032X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galindez G",
+            "lastName": "Galindez",
+            "firstName": "Gihanna",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                },
+                {
+                  "affiliation": "Munich Data Science Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wagner N",
+            "lastName": "Wagner",
+            "firstName": "Nils",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-5661-1646"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hernandez-Alias X",
+            "lastName": "Hernandez-Alias",
+            "firstName": "Xavier",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8633-499X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                },
+                {
+                  "affiliation": "Mechanisms of Protein Biogenesis, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Incarnato D",
+            "lastName": "Incarnato",
+            "firstName": "Danny",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3944-2327"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Genetics, Groningen Biomolecular Sciences and Biotechnology Institute (GBB), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gagneur J",
+            "lastName": "Gagneur",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8924-8365"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computation, Information and Technology, ,"
+                },
+                {
+                  "affiliation": "School of Medicine,"
+                },
+                {
+                  "affiliation": "Computational Health Center, Helmholtz Center, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6320-4885"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7570-7877"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8633-499X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8260-032X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8924-8365"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3944-2327"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-5661-1646"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Deciphering how nucleotides in genomes encode regulatory instructions and molecular machines is a long-standing goal in biology. DNA language models (LMs) implicitly capture functional elements and their organization from genomic sequences alone by modeling probabilities of each nucleotide given its sequence context. However, using DNA LMs for discovering functional genomic elements has been challenging due to the lack of interpretable methods. Here, we introduce nucleotide dependencies which quantify how nucleotide substitutions at one genomic position affect the probabilities of nucleotides at other positions. We generated genome-wide maps of pairwise nucleotide dependencies within kilobase ranges for animal, fungal, and bacterial species. We show that nucleotide dependencies indicate deleteriousness of human genetic variants more effectively than sequence alignment and DNA LM reconstruction. Regulatory elements appear as dense blocks in dependency maps, enabling the systematic identification of transcription factor binding sites as accurately as models trained on experimental binding data. Nucleotide dependencies also highlight bases in contact within RNA structures, including pseudoknots and tertiary structure contacts, with remarkable accuracy. This led to the discovery of four novel, experimentally validated RNA structures in Escherichia coli. Finally, using dependency maps, we reveal critical limitations of several DNA LM architectures and training sequence selection strategies by benchmarking and visual diagnosis. Altogether, nucleotide dependency analysis opens a new avenue for discovering and studying functional elements and their interactions in genomes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101118521",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.27.605418"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.27.605418"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR887711"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR887711&type=FILE&fileName=EMS197849-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 7,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197849",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "gca",
+          "rfam",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-07-29",
+      "firstPublicationDate": "2024-07-27",
+      "firstIndexDate": "2024-07-29",
+      "fullTextReceivedDate": "2025-07-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

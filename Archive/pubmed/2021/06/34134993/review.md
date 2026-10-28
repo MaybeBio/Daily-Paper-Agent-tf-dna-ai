@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends (as provided).
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors report that genetic variants in transcription factor motifs cause divergent IL-4 responses in macrophages from five inbred mouse strains. They identify strain-differential enhancer activation, use deep learning to prioritize functional variants, and validate a role for EGR2 in late IL-4 enhancer activation using knockout mice.
+- **Visible evidence base** RNA-seq, ATAC-seq, ChIP-seq (H3K27ac, H3K4me3, RNA Pol II, STAT6, PPARγ, EGR2, PU.1, C/EBPβ), H3K4me3 HiChIP, DeepSEA/DeepLIFT modeling, MAGGIE motif analysis, and Egr2 conditional knockout experiments.
+- **Missing materials affecting confidence** Supplementary figures and tables (Fig. S1–S7, Tables S1–S3) are referenced but not provided. Specific statistical details, effect sizes, and quality metrics for sequencing datasets are not fully described. Code availability is stated but not reviewed.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and systematic analysis of how natural genetic variation shapes IL-4 responses in macrophages. The combination of multi-omics approaches, deep learning, and genetic validation is ambitious and largely successful. The finding that only a small fraction of IL-4-induced genes are shared across strains, and the identification of EGR2 as a key factor in late enhancer activation, are significant contributions. However, several technical and interpretive concerns need to be addressed to fully support the conclusions, particularly regarding the generalizability of the deep learning predictions and the causal relationships inferred from correlative data.
+- **Who would be interested in the results, and why** Researchers in immunology, particularly those studying macrophage biology and alternative activation; geneticists interested in noncoding variation and gene regulation; computational biologists developing and applying deep learning methods for regulatory genomics. The resource value of the datasets will appeal to a broad audience.
+- **Major strengths** 1) The use of five genetically diverse mouse strains provides a powerful and relevant model for studying natural genetic variation. 2) The integration of multiple genomic assays (RNA-seq, ATAC-seq, ChIP-seq, HiChIP) is thorough. 3) The application of deep learning to prioritize functional variants is timely and demonstrates both potential and limitations. 4) The genetic validation of EGR2 using conditional knockout mice strengthens the causal claims. 5) The classification of strain-differential responses into low, equal, and high basal categories provides a useful framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors claim that deep learning predictions (DeepLIFT scores) identify functional variants, with "over eightfold enrichment in enhancers with strongest strain differences."
+  - **Evidence pointer** Results section "Strain-differential IL-4–induced gene expression is associated with differential IL-4 enhancer activation"; Figure 2I
+  - **Concern** The deep learning model was trained to distinguish IL-4-induced enhancers from random genomic backgrounds. The authors then use this model to predict functional variants. However, the model's performance on the specific task of variant effect prediction is not directly evaluated. The enrichment of predicted functional variants in strain-differential enhancers is correlative and could be driven by other factors, such as overall sequence divergence between strains, rather than specifically by the functional impact of the variants. The retraining with noninduced enhancers as background (Figure 7D) is a step in the right direction, but the results are only shown for a single example.
+  - **Why it matters** The claim that deep learning can distinguish functional from silent variants is central to the paper's interpretive framework. If the model is not accurately predicting functional effects, then the conclusions about which variants drive strain differences are not well-supported. The authors themselves acknowledge limitations, but the current analysis does not provide a rigorous assessment of the model's predictive power for variant effects.
+  - **Resolution test** Provide a direct evaluation of the model's ability to predict the effect of known functional variants (e.g., from MPRA or CRISPR screens). Alternatively, perform a saturation mutagenesis analysis on a set of enhancers to experimentally test the predicted functional variants. At minimum, show that the enrichment of predicted functional variants is specific to strain-differential enhancers and not simply a reflection of overall genetic distance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors state that "~40% of the 24-hour IL-4–induced genes" are regulated by EGR2 based on RNA-seq in Egr2 knockout macrophages.
+  - **Evidence pointer** Results section "Motif mutation analysis identifies motifs that are functionally associated with IL-4–induced enhancer activity"; Figure 5D
+  - **Concern** The definition of "regulated by EGR2" is not clear. Is this based on differential expression between wild-type and knockout cells? What is the threshold? The authors also state that ~40% of IL-4-induced enhancers have decreased activity in knockout cells. It is unclear if these are overlapping or distinct sets. The overlap between EGR2-dependent genes and EGR2-bound enhancers is not quantified. Without this, it is difficult to assess whether the effects are direct or indirect.
+  - **Why it matters** The claim that EGR2 is a major regulator of the late IL-4 response is a key finding. The strength of this claim depends on a clear and rigorous definition of EGR2-dependent genes and enhancers, and on demonstrating a direct link between EGR2 binding and these effects.
+  - **Resolution test** Clearly define the criteria for EGR2-dependent genes and enhancers. Quantify the overlap between EGR2-dependent genes, EGR2-bound enhancers, and EGR2-dependent enhancers. Perform a pathway analysis to determine if the EGR2-dependent genes are enriched for specific functions. Consider whether the effects could be indirect (e.g., EGR2 regulating a secondary transcription factor).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The authors use HiChIP to identify enhancer-promoter interactions and conclude that "the IL-4 response was primarily associated with preexisting enhancer-promoter connections."
+  - **Evidence pointer** Results section "Strain-differential IL-4–induced gene expression is associated with differential IL-4 enhancer activation"; Figure 3
+  - **Concern** The HiChIP data are used to support a strong conclusion about the stability of enhancer-promoter interactions. However, the analysis appears to be based on a single condition (C57 macrophages, basal vs. IL-4). The authors state that no significant differential interactions were found, but the power of this analysis is not discussed. It is possible that the assay is not sensitive enough to detect changes, or that the analysis is underpowered.
+  - **Why it matters** The conclusion that enhancer-promoter interactions are preexisting and stable is important for the model of how genetic variation affects gene expression. If the assay is not sensitive enough to detect changes, the conclusion may be premature.
+  - **Resolution test** Provide a power analysis for the HiChIP differential interaction test. Discuss the sensitivity of the assay. Consider whether the conclusion is supported by the data or is an absence of evidence. If possible, validate a few interactions with an orthogonal method (e.g., 3C-qPCR).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods, "Mice" section
+  - **Evidence pointer** Materials and Methods, "Mice"
+  - **Issue** The authors state that "Female and male breeder mice... were purchased" but then state that "Eight- to 12-week-old healthy female mice were used for all our experiments." It is unclear if both sexes were used for experiments or only females.
+  - **Required correction** Clarify the sex of mice used in each experiment. If only females were used, state this explicitly and justify the choice.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / Data presentation
+  - **Affected element** Results, "The response to IL-4 is highly variable in BMDMs from genetically diverse mice"
+  - **Evidence pointer** Figure 1D
+  - **Issue** The authors state that "more than half of the IL-4–responsive genes identified were induced >2-fold in only a single strain." It is not clear if this is a robust finding or an artifact of the analysis. The number of genes in each category should be stated.
+  - **Required correction** Provide the number of genes in each category (e.g., "Of the 693 genes induced >2-fold in at least one strain, 26 (3.75%) were induced in all five strains, and 356 (51.4%) were induced in only one strain").
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Data interpretation
+  - **Affected element** Results, "Strain-differential IL-4–induced gene expression is associated with differential IL-4 enhancer activation"
+  - **Evidence pointer** Figure 2D
+  - **Issue** The authors state that "super enhancers exhibited significantly less variation in H3K27ac in response to IL-4." The biological significance of this finding is not discussed. Does this mean that super enhancers are more buffered against genetic variation?
+  - **Required correction** Add a brief discussion of the potential implications of this finding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / Data presentation
+  - **Affected element** Results, "Collaborative and hierarchical transcription factors interact at IL-4–dependent enhancers"
+  - **Evidence pointer** Figure 6A
+  - **Issue** The authors report "about 4000 EGR2 binding sites exhibited more than fourfold differences in normalized tag counts between C57 and BALB and about 10,000 between C57 and SPRET." It is not clear how these numbers were derived and whether they are statistically significant.
+  - **Required correction** Provide the statistical test used to define differential binding and the significance threshold.
+- **Technical failings that need to be addressed before the case is established** 1) The deep learning model's predictive power for variant effects is not rigorously evaluated (R1-M1). 2) The definition of EGR2-dependent genes and enhancers is unclear, and the directness of EGR2's effects is not established (R1-M2). 3) The HiChIP analysis may be underpowered to detect changes in enhancer-promoter interactions (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The systematic multi-strain approach to dissect genetic variation in a signaling response is novel and provides a valuable resource.
+  - **Scientific importance** High. The findings have implications for understanding how noncoding variation contributes to phenotypic diversity and disease susceptibility, particularly in immune responses.
+  - **Interdisciplinary readership** Moderate to high. The work bridges immunology, genetics, and computational biology, and should appeal to readers across these fields.
+  - **Technical soundness** Moderate. The experimental design is generally sound, but the deep learning and HiChIP analyses require additional validation and clarity to fully support the conclusions.
+  - **Readability for nonspecialists** Moderate. The manuscript is well-written but dense, and the deep learning and bioinformatics sections may be challenging for readers without a computational background. The authors do a good job of explaining the biological context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely to be of significant interest, but the current evidence does not fully establish the causal and predictive claims made. The authors should address the concerns regarding deep learning validation, EGR2 dependency definitions, and HiChIP sensitivity.
+
+## Risk / unsupported claims
+- The claim that deep learning can distinguish functional from silent variants is not directly validated (R1-M1).
+- The claim that EGR2 regulates ~40% of IL-4-induced genes is based on an unclear definition of "regulated by EGR2" (R1-M2).
+- The claim that enhancer-promoter interactions are preexisting and stable is based on a potentially underpowered analysis (R1-M3).
+- The generalizability of the findings to other cell types or in vivo macrophages is not tested and should be stated as a limitation.
+- The statement that "only ~25% of the variation in response to IL-4 was due to altered dynamic ranges" is based on a specific categorization scheme that may not capture all types of variation.

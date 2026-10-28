@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "38279246",
+    "doi": "10.3390/ijms25021246",
+    "title": "Unveiling Novel ERCC1-XPF Complex Inhibitors: Bridging the Gap from In Silico Exploration to Experimental Design."
+  },
+  "content": {
+    "abstract": "Modifications in DNA repair pathways are recognized as prognostic markers and potential therapeutic targets in various cancers, including non-small cell lung cancer (NSCLC). Overexpression of ERCC1 correlates with poorer prognosis and response to platinum-based chemotherapy. As a result, there is a pressing need to discover new inhibitors of the ERCC1-XPF complex that can potentiate the efficacy of cisplatin in NSCLC. In this study, we developed a structure-based virtual screening strategy targeting the inhibition of ERCC1 and XPF interaction. Analysis of crystal structures and a library of small molecules known to act against the complex highlighted the pivotal role of Phe293 (ERCC1) in maintaining complex stability. This residue was chosen as the primary binding site for virtual screening. Using an optimized docking protocol, we screened compounds from various databases, ultimately identifying more than one hundred potential inhibitors. Their capability to amplify cisplatin-induced cytotoxicity was assessed in NSCLC H1299 cells, which exhibited the highest ERCC1 expression of all the cell lines tested. Of these, 22 compounds emerged as promising enhancers of cisplatin efficacy. Our results underscore the value of pinpointing crucial molecular characteristics in the pursuit of novel modulators of the ERCC1-XPF interaction, which could be combined with cisplatin to treat NSCLC more effectively.",
+    "keywords": [
+      "DNA repair pathways",
+      "ERCC1-XPF complex",
+      "NSCLC",
+      "cisplatin",
+      "inhibitors",
+      "structural analysis",
+      "structure-based virtual screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Cisplatin/pharmacology",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/genetics",
+      "DNA Repair",
+      "Research Design",
+      "*Lung Neoplasms/drug therapy/genetics",
+      "DNA-Binding Proteins/metabolism",
+      "Endonucleases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Manguinhas, Rita",
+        "Serra, Patricia A",
+        "Soares, Rita B",
+        "Rosell, Rafael",
+        "Gil, Nuno",
+        "Oliveira, Nuno G",
+        "Guedes, Rita C"
+      ],
+      "short_names": [
+        "Manguinhas R",
+        "Serra PA",
+        "Soares RB",
+        "Rosell R",
+        "Gil N",
+        "Oliveira NG",
+        "Guedes RC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5371-0178",
+        "ORCID: 0000-0001-9537-9452",
+        "ORCID: 0000-0003-0817-3400",
+        "ORCID: 0000-0002-6567-8379",
+        "ORCID: 0000-0002-5790-9181"
+      ],
+      "affiliations": [
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal.",
+        "Lung Unit, Champalimaud Clinical Centre (CCC), Champalimaud Foundation, 1400-038 Lisboa, Portugal.",
+        "Egas Moniz Interdisciplinary Research Center, Instituto Universitario Egas Moniz, 2829-511 Caparica, Portugal.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal.",
+        "Lung Unit, Champalimaud Clinical Centre (CCC), Champalimaud Foundation, 1400-038 Lisboa, Portugal.",
+        "Dr. Rosell Oncology Institute, 08028 Barcelona, Spain.",
+        "Catalan Institute of Oncology, 08916 Barcelona, Spain.",
+        "Lung Unit, Champalimaud Clinical Centre (CCC), Champalimaud Foundation, 1400-038 Lisboa, Portugal.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal.",
+        "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Manguinhas, Rita",
+        "short_name": "Manguinhas R",
+        "identifiers": [
+          "0000-0001-5371-0178"
+        ],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Serra, Patrícia A",
+        "short_name": "Serra PA",
+        "identifiers": [
+          "0000-0001-9537-9452"
+        ],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal.",
+          "Lung Unit, Champalimaud Clinical Centre (CCC), Champalimaud Foundation, 1400-038 Lisboa, Portugal.",
+          "Egas Moniz Interdisciplinary Research Center, Instituto Universitário Egas Moniz, 2829-511 Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Soares, Rita B",
+        "short_name": "Soares RB",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal.",
+          "Lung Unit, Champalimaud Clinical Centre (CCC), Champalimaud Foundation, 1400-038 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Rosell, Rafael",
+        "short_name": "Rosell R",
+        "identifiers": [
+          "0000-0003-0817-3400"
+        ],
+        "affiliations": [
+          "Dr. Rosell Oncology Institute, 08028 Barcelona, Spain.",
+          "Catalan Institute of Oncology, 08916 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Gil, Nuno",
+        "short_name": "Gil N",
+        "identifiers": [
+          "0000-0002-6567-8379"
+        ],
+        "affiliations": [
+          "Lung Unit, Champalimaud Clinical Centre (CCC), Champalimaud Foundation, 1400-038 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Nuno G",
+        "short_name": "Oliveira NG",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Guedes, Rita C",
+        "short_name": "Guedes RC",
+        "identifiers": [
+          "0000-0002-5790-9181"
+        ],
+        "affiliations": [
+          "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisboa, Portugal."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Jan 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/27 12:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "39335146",
+      "38300970"
+    ],
+    "refs": [
+      "36633525",
+      "36358570",
+      "35372043",
+      "34238917",
+      "33538338",
+      "33431044",
+      "33399940",
+      "32883316",
+      "32738410",
+      "32599967",
+      "32478168",
+      "32111838",
+      "31891209",
+      "31369707",
+      "30797591",
+      "30628188",
+      "30400270",
+      "30208165",
+      "29710850",
+      "29138572",
+      "28938675",
+      "28825044",
+      "28485537",
+      "27899562",
+      "27794042",
+      "27650543",
+      "27413711",
+      "26939044",
+      "26896565",
+      "26321360",
+      "26318993",
+      "26085086",
+      "25956741",
+      "25944617",
+      "25883137",
+      "25877151",
+      "25873628",
+      "24662920",
+      "24203711",
+      "23580445",
+      "23275151",
+      "22941649",
+      "22483113",
+      "22302397",
+      "21152077",
+      "20956981",
+      "20944091",
+      "20221251",
+      "19940136",
+      "19324449",
+      "19125657",
+      "18285820",
+      "18256616",
+      "17912758",
+      "17848946",
+      "16338413",
+      "16106379",
+      "16076955",
+      "15764785",
+      "15492778",
+      "15123782",
+      "12915808",
+      "12910460",
+      "12445742",
+      "12114432",
+      "9126849"
+    ],
+    "similar": [
+      "38279246",
+      "27893326",
+      "27650543",
+      "25956741",
+      "20418188",
+      "30400270",
+      "29710850",
+      "33422766",
+      "31891209",
+      "23275151",
+      "16557672",
+      "23580445",
+      "30668408",
+      "23514287",
+      "18804893",
+      "19962780",
+      "31369707",
+      "25217323",
+      "24370899",
+      "23410825",
+      "21750204",
+      "23549037",
+      "30584903",
+      "17602080",
+      "33399940",
+      "25944617",
+      "17909351",
+      "20846399",
+      "32738410",
+      "30146342",
+      "25434755",
+      "32344513",
+      "15277258",
+      "26045829",
+      "20504223",
+      "29226731",
+      "23940741",
+      "12867068",
+      "27737534",
+      "24158589",
+      "29905882",
+      "23102199",
+      "28130555",
+      "26318993",
+      "24935625",
+      "25107571",
+      "16957145",
+      "12114432",
+      "20351547",
+      "22941649",
+      "23759026",
+      "26939044",
+      "24045016",
+      "17905465",
+      "16980606",
+      "22082649",
+      "36181289",
+      "38300970",
+      "18623378",
+      "14668933",
+      "18823676",
+      "23773262",
+      "19538866",
+      "31493872",
+      "22053010",
+      "19900859",
+      "18494946",
+      "19723666",
+      "22269178",
+      "23993732",
+      "20372803",
+      "23934192",
+      "23912706",
+      "16315315",
+      "14706347",
+      "25227833",
+      "17489733",
+      "17534174",
+      "12915808",
+      "21493726",
+      "20221251",
+      "22102173",
+      "9722633",
+      "26074087",
+      "20332140",
+      "22609620",
+      "39051064",
+      "24083725",
+      "19473860",
+      "18342529",
+      "19875192",
+      "12202770",
+      "30563071",
+      "24761869",
+      "23727606",
+      "30498981",
+      "30797591",
+      "20677561",
+      "21996734",
+      "22555222"
+    ],
+    "review": [
+      "38279246",
+      "16557672",
+      "18804893",
+      "29226731",
+      "12867068",
+      "22941649",
+      "14668933",
+      "17489733",
+      "17534174",
+      "12915808",
+      "26074087",
+      "18342529",
+      "30563071"
+    ],
+    "pmc": [
+      "10816628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25021246",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38279246/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38279246",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38279246",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

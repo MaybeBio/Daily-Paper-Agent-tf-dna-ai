@@ -1,0 +1,636 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.06.736502",
+  "title": "EpiBinder: A Multimodal Framework for Cell-Type-Specific Prediction and Interpretation of Transcription Factor Binding",
+  "doi": "10.64898/2026.07.06.736502",
+  "abstract": "Transcription factor (TF) occupancy in vivo depends not only on the underlying DNA sequence but also on the local epigenetic environment, which varies across cell types and strongly influences whether sequence-encoded binding potential becomes functional. Here we present EpiBinder , a multimodal deep-learning framework for cell-type-specific prediction of TF binding that jointly models DNA sequence with base-resolution epigenetic information, including cytosine methylation from whole-genome bisulfite sequencing and chromatin accessibility from DNase I hypersensitivity data. Across multiple human cell lines, EpiBinder consistently outperforms strong sequence-only baselines, improving TF-binding prediction by up to 10% in area under the precision-recall curve. Beyond predictive performance, EpiBinder provides base-level attribution maps that enable systematic interrogation of regulatory context, including candidate methylation-sensitive loci, contextual motif dependencies, and putative TF-TF interactions. These results position EpiBinder as a practical framework for modeling and exploring the local regulatory grammar underlying cell-type-specific TF occupancy.",
+  "authors": [
+    "Ruben Solozabal",
+    "Albert Baichorov",
+    "Irina Miodownik",
+    "Tamir Avioz",
+    "Le Song",
+    "Marcos Matabuena",
+    "Martin Takáč",
+    "Ariel Afek"
+  ],
+  "published_date": "2026-07-08",
+  "updated_date": "2026-07-08T10:25:20Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736502",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736502.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T06:25:50Z",
+        "timestamp": 1787207150430,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                8
+              ]
+            ],
+            "date-time": "2026-07-08T00:00:00Z",
+            "timestamp": 1783468800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcription factor (TF) occupancy\n                  <jats:italic>in vivo</jats:italic>\n                  depends not only on the underlying DNA sequence but also on the local epigenetic environment, which varies across cell types and strongly influences whether sequence-encoded binding potential becomes functional. Here we present\n                  <jats:italic>EpiBinder</jats:italic>\n                  , a multimodal deep-learning framework for cell-type-specific prediction of TF binding that jointly models DNA sequence with base-resolution epigenetic information, including cytosine methylation from whole-genome bisulfite sequencing and chromatin accessibility from DNase I hypersensitivity data. Across multiple human cell lines,\n                  <jats:italic>EpiBinder</jats:italic>\n                  consistently outperforms strong sequence-only baselines, improving TF-binding prediction by up to 10% in area under the precision-recall curve. Beyond predictive performance,\n                  <jats:italic>EpiBinder</jats:italic>\n                  provides base-level attribution maps that enable systematic interrogation of regulatory context, including candidate methylation-sensitive loci, contextual motif dependencies, and putative TF-TF interactions. These results position\n                  <jats:italic>EpiBinder</jats:italic>\n                  as a practical framework for modeling and exploring the local regulatory grammar underlying cell-type-specific TF occupancy.\n                </jats:p>",
+      "DOI": "10.64898/2026.07.06.736502",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ],
+        "date-time": "2026-07-08T10:25:20Z",
+        "timestamp": 1783506320000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "EpiBinder: A Multimodal Framework for Cell-Type-Specific Prediction and Interpretation of Transcription Factor Binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5523-7492",
+          "authenticated-orcid": false,
+          "given": "Ruben",
+          "family": "Solozabal",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "MBZUAI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Albert",
+          "family": "Baichorov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MBZUAI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Irina",
+          "family": "Miodownik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Weizmann Institute of Science"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tamir",
+          "family": "Avioz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Weizmann Institute of Science"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Le",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MBZUAI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2764-5824",
+          "authenticated-orcid": false,
+          "given": "Marcos",
+          "family": "Matabuena",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MBZUAI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7455-2025",
+          "authenticated-orcid": false,
+          "given": "Martin",
+          "family": "Takáč",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MBZUAI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8584-9879",
+          "authenticated-orcid": false,
+          "given": "Ariel",
+          "family": "Afek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Weizmann Institute of Science"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08430-9"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-016-1145-3"
+        },
+        {
+          "issue": "10",
+          "key": "2026081923050572000_2026.07.06.736502v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1196",
+          "DOI": "10.1038/s41592-021-01252-x",
+          "article-title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Žiga Avsec , Natasha Latysheva , Jun Cheng , Guido Novati , Kyle R Taylor , Tom Ward , Clare Bycroft , Lauren Nicolaisen , Eirini Arvaniti , Joshua Pan , et al. Alphagenome: advancing regulatory variant effect prediction with a unified dna sequence model. bioRxiv, pages 2025–06, 2025.",
+          "DOI": "10.1101/2025.06.25.661532"
+        },
+        {
+          "issue": "1",
+          "key": "2026081923050572000_2026.07.06.736502v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "6186",
+          "DOI": "10.1038/ncomms7186",
+          "article-title": "Znf143 provides sequence specificity to secure chromatin interactions at gene promoters",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1010-1045"
+        },
+        {
+          "issue": "1",
+          "key": "2026081923050572000_2026.07.06.736502v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "31744",
+          "DOI": "10.1038/s41598-024-82238-5",
+          "article-title": "Predicting ctcf cell type active binding sites in human genome",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "issue": "1",
+          "key": "2026081923050572000_2026.07.06.736502v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "38919",
+          "DOI": "10.1038/s41598-025-22895-2",
+          "article-title": "Cistromic insight into the association of retinoid x receptor with myod and ctcf in proliferating myoblasts",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hugo Dalla-Torre , Liam Gonzalez , Javier Mendoza-Revilla , Nicolas Lopez Carranza , Adam Henryk Grzywaczewski , Francesco Oteri , Christian Dallago , Evan Trop , Bernardo P de Almeida , Hassan Sirelkhatim , et al. The nucleotide transformer: Building and evaluating robust foundation models for human genomics. BioRxiv, pages 2023–01, 2023.",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-021-00349-7"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lucas Paulo de Lima Camillo , Raghav Sehgal , Jenel Armstrong , Albert Tzongyang Higgins-Chen , Steve Horvath , and Bo Wang . Cpgpt: a foundation model for dna methylation. bioRxiv, pages 2024–10, 2024.",
+          "DOI": "10.1101/2024.10.24.619766"
+        },
+        {
+          "issue": "11",
+          "key": "2026081923050572000_2026.07.06.736502v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1046",
+          "DOI": "10.1038/nmeth.2238",
+          "article-title": "The encode project",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "issue": "1",
+          "key": "2026081923050572000_2026.07.06.736502v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "15",
+          "DOI": "10.1186/s13072-016-0065-5",
+          "article-title": "Hdac inhibitors cause site-specific chromatin remodeling at pu. 1-bound enhancers in k562 cells",
+          "volume": "9",
+          "year": "2016",
+          "journal-title": "Epigenetics & chromatin"
+        },
+        {
+          "issue": "11",
+          "key": "2026081923050572000_2026.07.06.736502v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1111",
+          "DOI": "10.1038/s41592-020-0958-x",
+          "article-title": "Predicting 3d genome folding from dna sequence with akita",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa197"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.18",
+          "unstructured": "GENA LM. GENA LM. https://github.com/AIRI-Institute/GENA_LM/tree/main/downstream_tasks/DeepSea, 2024."
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02713-y"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.03.001"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.275870.121"
+        },
+        {
+          "issue": "1",
+          "key": "2026081923050572000_2026.07.06.736502v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "3583",
+          "DOI": "10.1038/s41467-019-11526-w",
+          "article-title": "Saturation mutagenesis of twenty disease-associated regulatory elements at single base-pair resolution",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41576-018-0089-8"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2019.10.021"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1027"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1910-z"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.30",
+          "unstructured": "Jakub Lipinski . Build DeepSEA training dataset. https://github.com/jakublipinski/build-deepsea-training-dataset, 2024."
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuting Liu , Xin Wan , Hu Li , Yingxi Chen , Xiaodi Hu , Hebing Chen , Dahai Zhu , Cheng Li , and Yong Zhang . Ctcf coordinates cell fate specification via orchestrating regulatory hubs with pioneer transcription factors. Cell reports, 42(10), 2023.",
+          "DOI": "10.1016/j.celrep.2023.113259"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.32",
+          "unstructured": "Scott M Lundberg and Su-In Lee . A unified approach to Llion Jones , Aidan N Gomez , L-ukasz Kaiser , and Illia interpreting model predictions. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.003352"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eric Nguyen , Michael Poli , Marjan Faizi , Armin Thomas , Michael Wornow , Callum Birch-Sykes , Stefano Massaroli , Aman Patel , Clayton Rabideau , Yoshua Bengio , et al. Hyenadna: Long-range genomic sequence modeling at single nucleotide resolution. Advances in neural information processing systems, 36, 2024.",
+          "DOI": "10.52202/075280-1872"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-022-04865-x"
+        },
+        {
+          "issue": "5",
+          "key": "2026081923050572000_2026.07.06.736502v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002694",
+          "DOI": "10.1371/journal.pgen.1002694",
+          "article-title": "Elk1 uses different dna binding modes to regulate functionally distinct classes of target genes",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS genetics"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-020-2023-4"
+        },
+        {
+          "issue": "9",
+          "key": "2026081923050572000_2026.07.06.736502v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "2744",
+          "DOI": "10.1016/j.celrep.2018.05.012",
+          "article-title": "Enhancer and transcription factor dynamics during myeloid differentiation reveal an early differentiation block in cebpa null progenitors",
+          "volume": "23",
+          "year": "2018",
+          "journal-title": "Cell reports"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2021.02.005"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh012"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00982-14"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/humu.23797"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.43",
+          "article-title": "Technical note on transcription factor motif discovery from importance scores (tf-modisco) version 0.5. 6.5",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.44",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit Polosukhin . Attention is all you need. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "issue": "7",
+          "key": "2026081923050572000_2026.07.06.736502v2.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "3745",
+          "DOI": "10.1093/nar/gkac178",
+          "article-title": "Nuclear receptor activation shapes spatial genome organization essential for gene expression control: Lessons learned from the vitamin d receptor",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/21541264.2024.2379161"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kejun Ying , Jinyeop Song , Haotian Cui , Yikun Zhang , Siyuan Li , Xingyu Chen , Hanna Liu , Alec Eames , Daniel L McCartney , Riccardo E Marioni , et al. Methylgpt: a foundation model for the dna methylome. bioRxiv, pages 2024–10, 2024.",
+          "DOI": "10.1101/2024.10.30.621013"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2007.14062"
+        },
+        {
+          "issue": "10",
+          "key": "2026081923050572000_2026.07.06.736502v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning–based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20282-1"
+        },
+        {
+          "key": "2026081923050572000_2026.07.06.736502v2.51",
+          "article-title": "Dnabert-2: Efficient foundation model and benchmark for multi-species genome",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.06.736502",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T06:05:18Z",
+        "timestamp": 1787205918000
+      },
+      "score": 95.66461,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.06.736502"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.64898/2026.07.06.736502",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

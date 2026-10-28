@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2606.27942v1",
+  "title": "Towards coevolution-aware ancestral sequence reconstruction",
+  "authors": "Alya Zeinaty; Leonardo di Bari; Saverio Rossi; Pierre Barrat-Charlaix; Francesco Zamponi; Martin Weigt",
+  "journal": "",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出结合系统发育推断与DCA的共进化感知祖先序列重建方法，虽以蛋白家族为对象，但应用于DNA结合域并涉及残基耦合约束，对TF-DNA互作建模中的序列共进化与结构约束分析有方法学借鉴意义。",
+  "abstract": "Ancestral sequence reconstruction (ASR) is a powerful approach for studying molecular evolution and the emergence of protein function. Yet most ASR methods assume that sites evolve independently, neglecting the epistatic constraints that shape protein structure, stability, and function. This simplification affects both ancestral inference and its evaluation: maximum-a-posteriori reconstructions may over-concentrate probability into a single over-idealized sequence, whereas independent posterior sampling can generate implausible or poorly functional ancestors. Here, we introduce a coevolution-aware ASR framework that combines standard phylogenetic inference with Direct Coupling Analysis (DCA), thereby preserving site-wise ancestral uncertainty while enforcing residue-residue constraints learned from extant protein families. To benchmark the method, we develop a controlled forward-evolution framework based on a DCA evolutionary sampler, allowing reconstructed ancestors to be compared with known ground-truth sequences generated under realistic epistatic constraints. Applied to beta-lactamases and DNA-binding domains, the approach improves reconstruction when ancestral states are epistatically constrained, and yields ensembles of candidate ancestors that are both phylogenetically consistent and statistically compatible with natural protein families. This framework bridges the gap between single-sequence MAP reconstruction and unconstrained posterior sampling, providing a practical route toward ancestral reconstructions that better reflect the coupled nature of protein evolution.",
+  "abstract_zh": "祖先序列重建（ancestral sequence reconstruction, ASR）是研究分子进化和蛋白质功能涌现的有力方法。然而，大多数ASR方法假设位点独立进化，忽略了塑造蛋白质结构、稳定性和功能的上位性约束。这种简化既影响祖先推断，也影响其评估：最大后验重建可能将概率过度集中于单一过度理想化的序列，而独立后验采样则可能生成不合理或功能较差的祖先。在此，我们引入一种共进化感知的ASR框架，将标准系统发育推断与直接耦合分析（Direct Coupling Analysis, DCA）相结合，从而在保留位点级祖先不确定性的同时，强制执行从现存蛋白质家族中学习的残基-残基约束。为基准测试该方法，我们开发了一个基于DCA进化采样器的受控正向进化框架，使得重建的祖先能够与在现实上位性约束下生成的已知真实序列进行比较。应用于β-内酰胺酶和DNA结合结构域时，该方法在祖先状态受上位性约束的情况下改善了重建，并生成了既在系统发育上一致又与自然蛋白质家族统计兼容的候选祖先集合。该框架弥合了单序列MAP重建与无约束后验采样之间的差距，为更好地反映蛋白质进化耦合特性的祖先重建提供了一条实用途径。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2606.27942v1",
+  "source_url": "https://arxiv.org/abs/2606.27942v1",
+  "paper_page_path": "papers/arxiv/2606.27942v1/index.html"
+}

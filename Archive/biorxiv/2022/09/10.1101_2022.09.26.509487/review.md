@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that DNA methylation at a single cytosine within the W-box cis-element of the RLP43 promoter repels binding of Arabidopsis WRKY transcription factors in vitro, and propose a steric hindrance mechanism based on structural modelling involving a conserved tyrosine residue. They further generalize this mechanism to other plant species based on sequence conservation.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, structural coordinates, or statistical analyses provided
+- **Missing materials affecting confidence** Full text, all figures and tables, methods section, structural model parameters, experimental replicates and controls, sequence alignments, and any statistical or biophysical data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically plausible hypothesis linking single-cytosine DNA methylation to WRKY transcription factor binding inhibition via steric hindrance. However, the current evidence base is insufficient to evaluate the robustness of the in vitro binding data, the validity of the structural model, or the strength of the proposed conservation argument. The claims are intriguing but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists studying transcriptional regulation, epigenetic control of gene expression, and plant immunity would find these results relevant. Researchers working on DNA methylation effects on transcription factor binding, and those interested in structural mechanisms of epigenetic regulation, would also be engaged. The proposed cross-species conservation could attract broader interest in plant epigenetics and evolution.
+- **Major strengths** The abstract addresses a focused and mechanistically specific question, moving beyond correlative observations to propose a physical basis for methylation-dependent binding inhibition. The use of structural modelling to predict steric hindrance at a single methylated cytosine is a conceptually clear and testable hypothesis. The connection to prior work on ROS1 and RLP43 provides biological context and potential functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DNA methylation at W-box elements decreases binding of several Arabidopsis WRKY TFs in vitro, and that methylation at a single cytosine in the RLP43 W-box strongly repels binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, such as binding affinities, fold changes, or statistical significance, to support the claimed decrease or strong repulsion of WRKY binding. No experimental details are given regarding the in vitro assays, including protein concentrations, DNA sequences used, methylation status verification, or controls for non-specific effects.
+  - **Why it matters** Without quantitative and controlled experimental evidence, the magnitude and specificity of the methylation effect cannot be assessed. The claim of "strongly repels" requires a defined threshold and comparison to appropriate controls, such as unmethylated or differently methylated sequences.
+  - **Resolution test** Provide binding data with replicates, statistical analysis, and appropriate controls, including dose-response or affinity measurements, to demonstrate the magnitude and specificity of the methylation effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The authors state that structural modelling demonstrates van der Waals contacts between the cytosine and a conserved tyrosine, and predicts steric hindrance upon 5-methylation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The structural modelling is described without any details on the method, such as the template structure, resolution, docking approach, or energy calculations. The prediction of steric hindrance is presented as a conclusion, but no validation is shown, such as mutagenesis experiments or comparison with experimentally determined structures.
+  - **Why it matters** Structural predictions are only as reliable as their underlying methods and validation. Without evidence that the model accurately reflects the actual WRKY-DNA interaction, the steric hindrance mechanism remains speculative.
+  - **Resolution test** Provide details of the modelling pipeline, including template structures and validation metrics, and ideally support the prediction with mutagenesis of the tyrosine or cytosine residues to test binding outcomes experimentally.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors propose that the methylation-dependent WRKY-DNA binding inhibitory mechanism is widespread across plant species due to conservation of the WRKY motif and DNA contact residues.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The conservation argument is based on sequence similarity, but no alignment data or phylogenetic analysis is presented. The abstract does not demonstrate that the specific cytosine position within the W-box is conserved, nor that methylation at that position occurs in other species.
+  - **Why it matters** A claim of widespread relevance requires evidence that the key features, namely the methylated cytosine and the interacting tyrosine, are conserved and functionally relevant across diverse species. Without this, the generalization is premature.
+  - **Resolution test** Provide sequence alignments showing conservation of the W-box and the cytosine position, and ideally functional data from at least one additional plant species to support the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "prunes DNA methylation" is informal and could be misinterpreted. The term "demethylates" or "removes DNA methylation" would be more precise.
+  - **Required correction** Replace "prunes" with a more standard term such as "removes" or "demethylates" for clarity and consistency with field conventions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not specify which WRKY TFs were tested, how many were included, or the exact W-box sequence used. This limits the ability to assess the breadth of the claim.
+  - **Required correction** List the specific WRKY TFs tested and provide the exact W-box sequence context in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that steric hindrance "likely" prevents tight binding, which is appropriately cautious, but the preceding sentence on van der Waals contacts is presented as established fact. The distinction between modelled prediction and experimental observation should be clearer.
+  - **Required correction** Clarify in the abstract that the van der Waals contacts are predicted by modelling, not experimentally confirmed, to avoid overstating the evidence.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of binding inhibition and steric hindrance are not supported by sufficient evidence in the supplied material. R1-M3 is non-blocking but requires additional data to support the generalization.
+
+## Risk / unsupported claims
+- The claim that DNA methylation at W-box elements decreases binding of several WRKY TFs is unsupported by quantitative data in the abstract.
+- The claim that methylation at a single cytosine strongly repels WRKY binding is unsupported without defined thresholds and controls.
+- The structural model predicting steric hindrance is unvalidated and presented without methodological detail.
+- The proposal that the mechanism is widespread across plant species is unsupported by comparative data.
+- The functional relevance to ROS1-mediated demethylation and immune gene activation is referenced from prior work but not directly demonstrated in this abstract.

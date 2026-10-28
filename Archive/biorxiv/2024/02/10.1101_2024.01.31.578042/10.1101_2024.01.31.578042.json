@@ -1,0 +1,743 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.31.578042",
+  "title": "Leveraging Machine Learning-Guided Molecular Simulations Coupled with Experimental Data to Decipher Membrane Binding Mechanisms of Aminosterols",
+  "doi": "10.1101/2024.01.31.578042",
+  "abstract": "Understanding the molecular mechanisms of the interactions between specific compounds and cellular membranes is essential for numerous biotechnological applications, including targeted drug delivery, elucidation of drug mechanism of action, pathogen identification, and novel antibiotic development. However, the estimation of the free energy landscape associated with solute binding to realistic biological systems is still a challenging task. In this work, we leverage the Time-lagged Independent Component Analysis (TICA) in combination with neural networks (NN) through the Deep-TICA approach for determining the free energy associated with the membrane insertion processes of two natural aminosterol compounds, trodusquemine (TRO) and squalamine (SQ). These compounds are particularly noteworthy because they interact with the outer layer of neuron membranes protecting them from the toxic action of misfolded proteins involved in neurodegenerative disorders, both in their monomeric and oligomeric forms. We demonstrate how this strategy could be used to generate an effective collective variable for describing solute absorption in the membrane and for estimating free energy landscape of translocation via On-the-fly probability enhanced sampling (OPES) method. In this context, the computational protocol allowed an exhaustive characterization of the aminosterols entry pathway into a neuron-like lipid bilayer. Furthermore, it provided accurate prediction of membrane binding affinities, in close agreement with the experimental binding data obtained by using fluorescently-labelled aminosterols and large unilamellar vesicles (LUVs). The findings contribute significantly to our comprehension of aminosterol entry pathways and aminosterol-lipid membrane interactions. Finally, the deployed computational methods in this study further demonstrate considerable potential for investigating membrane binding processes.",
+  "authors": [
+    "Stefano Muscat",
+    "Silvia Errico",
+    "Andrea Danani",
+    "Fabrizio Chiti",
+    "Gianvito Grasso"
+  ],
+  "published_date": "2024-02-02",
+  "updated_date": "2024-02-02T12:40:19Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.31.578042",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.31.578042.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2026-08-19T19:30:40Z",
+        "timestamp": 1787167840339,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            2
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 73,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Understanding the molecular mechanisms of the interactions between specific compounds and cellular membranes is essential for numerous biotechnological applications, including targeted drug delivery, elucidation of drug mechanism of action, pathogen identification, and novel antibiotic development. However, the estimation of the free energy landscape associated with solute binding to realistic biological systems is still a challenging task. In this work, we leverage the Time-lagged Independent Component Analysis (TICA) in combination with neural networks (NN) through the Deep-TICA approach for determining the free energy associated with the membrane insertion processes of two natural aminosterol compounds, trodusquemine (TRO) and squalamine (SQ). These compounds are particularly noteworthy because they interact with the outer layer of neuron membranes protecting them from the toxic action of misfolded proteins involved in neurodegenerative disorders, both in their monomeric and oligomeric forms. We demonstrate how this strategy could be used to generate an effective collective variable for describing solute absorption in the membrane and for estimating free energy landscape of translocation via On-the-fly probability enhanced sampling (OPES) method. In this context, the computational protocol allowed an exhaustive characterization of the aminosterols entry pathway into a neuron-like lipid bilayer. Furthermore, it provided accurate prediction of membrane binding affinities, in close agreement with the experimental binding data obtained by using fluorescently-labelled aminosterols and large unilamellar vesicles (LUVs). The findings contribute significantly to our comprehension of aminosterol entry pathways and aminosterol-lipid membrane interactions. Finally, the deployed computational methods in this study further demonstrate considerable potential for investigating membrane binding processes.</jats:p>",
+      "DOI": "10.1101/2024.01.31.578042",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            2
+          ]
+        ],
+        "date-time": "2024-02-02T12:40:19Z",
+        "timestamp": 1706877619000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Leveraging Machine Learning-Guided Molecular Simulations Coupled with Experimental Data to Decipher Membrane Binding Mechanisms of Aminosterols"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2733-8357",
+          "authenticated-orcid": false,
+          "given": "Stefano",
+          "family": "Muscat",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6197-9740",
+          "authenticated-orcid": false,
+          "given": "Silvia",
+          "family": "Errico",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6578-5089",
+          "authenticated-orcid": false,
+          "given": "Andrea",
+          "family": "Danani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1330-1289",
+          "authenticated-orcid": false,
+          "given": "Fabrizio",
+          "family": "Chiti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7761-222X",
+          "authenticated-orcid": false,
+          "given": "Gianvito",
+          "family": "Grasso",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "5922",
+          "DOI": "10.1021/acs.chemrev.8b00560",
+          "article-title": "Intrinsic Membrane Permeability to Small Molecules",
+          "volume": "119",
+          "year": "2019",
+          "journal-title": "Chem Rev"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3391"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0902952106"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.ph.50.030188.003205"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "2773",
+          "DOI": "10.1021/acs.jmedchem.2c01837",
+          "article-title": "Lessons for Oral Bioavailability: How Conformationally Flexible Cyclic Peptides Enter and Cross Lipid Membranes",
+          "volume": "66",
+          "year": "2023",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd3187"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "5228",
+          "DOI": "10.1021/acs.jpcb.7b02914",
+          "article-title": "Predicting a Drug’s Membrane Permeability: A Computational Model Validated With in Vitro Permeability Assay Data",
+          "volume": "121",
+          "year": "2017",
+          "journal-title": "J Phys Chem B"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd2199"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2016.230"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/mol.118.115113"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1476-5381.2009.00296.x"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1476-5381.2011.01639.x"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.5b02122"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1111/cbdd.12074",
+          "article-title": "Back to the Future: Can Physical Models of Passive Membrane Permeability Help Reduce Drug Candidate Attrition and Move Us Beyond QSPR?",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "Chem Biol Drug Des"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "113115",
+          "DOI": "10.1016/j.colsurfb.2022.113115",
+          "article-title": "Reorganization of the outer layer of a model of the plasma membrane induced by a neuroprotective aminosterol",
+          "volume": "222",
+          "year": "2023",
+          "journal-title": "Colloids Surfaces B Biointerfaces"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbiomech.2018.03.036"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D0NR05285J"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0010545",
+          "DOI": "10.1371/journal.pntd.0010545",
+          "article-title": "In silico investigation of cytochrome bc1 molecular inhibition mechanism against Trypanosoma cruzi",
+          "volume": "17",
+          "year": "2023",
+          "journal-title": "Plos Neglect Trop D"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1007/s00214-017-2073-3",
+          "article-title": "Diffusion of the small, very polar, drug piracetam through a lipid bilayer: an MD simulation study",
+          "volume": "136",
+          "year": "2017",
+          "journal-title": "Theor Chem Acc"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.8b00486"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1898",
+          "DOI": "10.1021/acs.jctc.2c01162",
+          "article-title": "Simulated Tempering-Enhanced Umbrella Sampling Improves Convergence of Free Energy Calculations of Drug Membrane Permeation",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "721",
+          "DOI": "10.1021/acs.jcim.6b00022",
+          "article-title": "Simulation-Based Approaches for Determining Membrane Permeability of Small Compounds",
+          "volume": "56",
+          "year": "2016",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e69832",
+          "DOI": "10.7554/eLife.69832",
+          "article-title": "Genetic, cellular, and structural characterization of the membrane potential-dependent cell-penetrating peptide translocation pore",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "Elife"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "5157",
+          "DOI": "10.1021/acs.jctc.6b00206",
+          "article-title": "Transition-Tempered Metadynamics Is a Promising Tool for Studying the Permeation of Drug-like Molecules through Membranes",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.8b00486"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "259",
+          "DOI": "10.1021/acs.jcim.2c01097",
+          "article-title": "Free-Energy Profiles for Membrane Permeation of Compounds Calculated Using Rare-Event Sampling Methods",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1418241112"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.28",
+          "first-page": "2144",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Machine Learning of Biomolecular Reaction Coordinates. J Phys Chem Lett"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.7b00182"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "204109",
+          "DOI": "10.1063/1.4998598",
+          "article-title": "A variational conformational dynamics approach to the selection of collective variables in metadynamics",
+          "volume": "147",
+          "year": "2017",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.31",
+          "first-page": "1393",
+          "article-title": "Enhanced Sampling of Protein Conformational Transitions via Dynamically Optimized Collective Variables",
+          "volume": "15",
+          "year": "2018",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2113533118"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "072301",
+          "DOI": "10.1063/1.5025487",
+          "article-title": "Reweighted autoencoded variational Bayes for enhanced sampling (RAVE)",
+          "volume": "149",
+          "year": "2018",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.34",
+          "first-page": "1477531",
+          "article-title": "Advanced simulation techniques for the thermodynamic and kinetic characterization of biological systems",
+          "volume": "3",
+          "year": "2018",
+          "journal-title": "Adv Phys X"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.0c00497"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.36",
+          "first-page": "041034",
+          "article-title": "Unified Approach to Enhanced Sampling",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Phys Rev X"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/np990514f"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1075",
+          "DOI": "10.3390/ijms23031075",
+          "article-title": "From Marine Metabolites to the Drugs of the Future: Squalamine, Trodusquemine, Their Steroid and Triterpene Analogues †",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Int J Mol Sci"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "2308",
+          "DOI": "10.1021/acschembio.8b00466",
+          "article-title": "Multistep Inhibition of α-Synuclein Aggregation and Toxicity in Vitro and in Vivo by Trodusquemine",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "Acs Chem Biol"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.40",
+          "first-page": "742",
+          "article-title": "Squalamine and trodusquemine: two natural products for neurodegenerative diseases, from physical chemistry to the clinic",
+          "volume": "39",
+          "year": "2021",
+          "journal-title": "Nat Prod Rep"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "435",
+          "DOI": "10.1038/s42003-020-01140-8",
+          "article-title": "Trodusquemine displaces protein misfolded oligomers from cell membranes and abrogates their cytotoxicity through a generic mechanism",
+          "volume": "3",
+          "year": "2020",
+          "journal-title": "Commun Biology"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-07699-5"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.43"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2013.09.018"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "2998",
+          "DOI": "10.1021/acs.jpclett.0c00535",
+          "article-title": "Data-Driven Collective Variables for Enhanced Sampling",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "J Phys Chem Lett"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300646g"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000810"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "5777",
+          "DOI": "10.1021/acs.jctc.1c00322",
+          "article-title": "Automated Coarse-Grained Mapping Algorithm for the Martini Force Field and Benchmarks for Membrane–Water Partitioning",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "32823",
+          "DOI": "10.1021/acsomega.0c05469",
+          "article-title": "Swarm-CG: Automatic Parametrization of Bonded Terms in MARTINI-Based Coarse-Grained Models of Simple to Complex Molecules via Fuzzy Self-Tuning Particle Swarm Optimization",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "Acs Omega"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.53",
+          "first-page": "020603",
+          "article-title": "Well-Tempered Metadynamics: A Smoothly Converging and Tunable Free-Energy Method",
+          "volume": "100",
+          "year": "2007",
+          "journal-title": "Phys Rev Lett"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202427399"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jo981344z"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "3786",
+          "DOI": "10.1021/jo971405d",
+          "article-title": "Efficient Route to 7α-(Benzoyloxy)-3-dioxolane Cholestan-24(R)-ol, a Key Intermediate in the Synthesis of Squalamine",
+          "volume": "63",
+          "year": "1998",
+          "journal-title": "J. Org. Chem"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.ijo.0801599"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.90.4.1354"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1610586114"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "2308",
+          "DOI": "10.1021/acschembio.8b00466",
+          "article-title": "Multistep Inhibition of α-Synuclein Aggregation and Toxicity in Vitro and in Vivo by Trodusquemine",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "Acs Chem Biol"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "680026",
+          "DOI": "10.3389/fnins.2021.680026",
+          "article-title": "Squalamine and Its Derivatives Modulate the Aggregation of Amyloid-β and α-Synuclein and Suppress the Toxicity of Their Oligomers",
+          "volume": "15",
+          "year": "2021",
+          "journal-title": "Front Neurosci-switz"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "3189",
+          "DOI": "10.1021/acschemneuro.1c00327",
+          "article-title": "Quantitative Measurement of the Affinity of Toxic and Nontoxic Misfolded Protein Oligomers for Lipid Bilayers and of its Modulation by Lipid Composition and Trodusquemine",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "ACS Chem. Neurosci"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.3c00182"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "045101",
+          "DOI": "10.1063/5.0055489",
+          "article-title": "Improving the accuracy and convergence of drug permeation simulations via machine-learned collective variables",
+          "volume": "155",
+          "year": "2021",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "166911",
+          "DOI": "10.1016/j.jmb.2021.166911",
+          "article-title": "Passive Diffusion of Ciprofloxacin and its Metalloantibiotic: A Computational and Experimental study",
+          "volume": "433",
+          "year": "2021",
+          "journal-title": "J Mol Biol"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "144108",
+          "DOI": "10.1063/1.4932159",
+          "article-title": "Calculating the free energy of transfer of small solutes into a model lipid membrane: Comparison between metadynamics and umbrella sampling",
+          "volume": "143",
+          "year": "2015",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct200316w"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4811489"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.3554380"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "154104",
+          "DOI": "10.1063/1.4979344",
+          "article-title": "Variational Koopman models: Slow collective variables and molecular kinetics from short off-equilibrium simulations",
+          "volume": "146",
+          "year": "2017",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "5438",
+          "DOI": "10.1038/s41467-022-33104-3",
+          "article-title": "Water regulates the residence time of Benzamidine in Trypsin",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1303186110"
+        },
+        {
+          "key": "2024020511400473000_2024.01.31.578042v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-020-0342-4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.31.578042",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:53:21Z",
+        "timestamp": 1768456401000
+      },
+      "score": 87.94737,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.31.578042"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            2
+          ]
+        ]
+      },
+      "references-count": 73,
+      "URL": "https://doi.org/10.1101/2024.01.31.578042",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

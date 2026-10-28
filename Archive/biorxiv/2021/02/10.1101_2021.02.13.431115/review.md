@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that cross-species prediction of transcription factor binding using neural networks is feasible if models account for domain shifts caused by species-specific repeats. They report that cross-species predictive performance is consistently worse than within-species performance, that species-specific repeats contribute to this degradation, and that a domain adaptation architecture improves cross-species performance by discouraging learning of species-specific sequence features.
+- **Visible evidence base** Abstract text only; no quantitative results, model details, dataset descriptions, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, model architecture specifications, training and evaluation protocols, dataset descriptions, and any statistical significance testing
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable hypothesis, namely that domain adaptation can mitigate the negative impact of species-specific repeats on cross-species transcription factor binding prediction. However, the abstract provides no quantitative evidence, no methodological detail, and no validation of the central claims. The core assertion that domain adaptation "improves overall cross-species model performance" is unsupported by any reported metrics or comparisons. The work may be of interest to computational biologists and genomics researchers, but the current evidence base is insufficient to evaluate technical soundness or establish the case.
+- **Who would be interested in the results, and why** Computational biologists, machine learning researchers working on genomic sequence models, and experimentalists studying transcription factor binding across species. The topic addresses a practical challenge in comparative genomics and regulatory genomics, and the proposed approach could have implications for transferring models between model organisms and less-studied species.
+- **Major strengths** The hypothesis is clearly stated and biologically motivated. The recognition that species-specific repeats constitute a domain shift is a specific and testable idea. The proposed solution, using an augmented network architecture to discourage learning of species-specific features, is conceptually reasonable and aligns with established domain adaptation principles.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Cross-species predictive performance is consistently worse than within-species performance, which we show is caused in part by species-specific repeats."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that cross-species performance is consistently worse and that species-specific repeats are a contributing cause, but no performance metrics, effect sizes, or statistical comparisons are reported. The phrase "we show" implies experimental evidence, yet none is visible in the abstract.
+  - **Why it matters** Without quantitative results, the reader cannot assess the magnitude of the performance gap, the relative contribution of repeats versus other factors, or whether the observed effect is biologically meaningful or an artifact of the specific datasets or model choices.
+  - **Resolution test** Provide clear performance metrics (e.g., AUROC or AUPRC) for within-species and cross-species predictions, with confidence intervals and statistical tests. Include an analysis that isolates the contribution of species-specific repeats, such as ablation studies or repeat-masked evaluations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "This domain adaptation approach corrects for prediction errors on species-specific repeats and improves overall cross-species model performance."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central claim of the paper, that domain adaptation improves cross-species performance, is stated without any supporting numbers. No comparison between baseline and domain-adapted models is provided, and no measure of improvement is given.
+  - **Why it matters** This is the main contribution of the work. Without quantitative evidence of improvement, the claim is unverifiable and the practical utility of the method cannot be assessed.
+  - **Resolution test** Report cross-species performance for both baseline and domain-adapted models, including the magnitude of improvement and statistical significance. Show that the improvement is consistent across multiple TF datasets and species pairs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "We train neural networks to discriminate ChIP-seq peak locations from genomic background and evaluate their performance within and across species."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are provided on the neural network architecture, training data, species pairs, TF sets, or evaluation protocol. The abstract does not specify which species were used, how many TFs were tested, or how genomic background was defined.
+  - **Why it matters** Reproducibility is a core requirement for computational biology studies. Without these details, the results cannot be replicated or compared with existing methods.
+  - **Resolution test** Provide a full methods section with architecture specifications, hyperparameters, data preprocessing, species and TF selection criteria, and evaluation metrics. Make code and data publicly available.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "domain shift" is used without definition. While common in machine learning, its specific application to genomic sequence features may be unclear to some readers.
+  - **Required correction** Define "domain shift" in the context of cross-species sequence models, and clarify how it relates to species-specific repeats.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "cross-species TF binding prediction is feasible" but does not specify the range of species or TFs tested. The claim may be overgeneralized if only a limited set was evaluated.
+  - **Required correction** Qualify the feasibility claim by specifying the species and TF sets used, and discuss potential limitations for more divergent species or TFs with less conserved binding mechanisms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any comparison with existing cross-species prediction methods or simpler baselines, such as motif scanning or position weight matrix approaches.
+  - **Required correction** Include a comparison with at least one established baseline to contextualize the proposed method's added value.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and reproducibility information means the central claims cannot be evaluated or verified from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of applying domain adaptation to cross-species TF binding prediction is not entirely novel, as domain adaptation has been used in other genomic prediction contexts, but the specific focus on species-specific repeats as a source of domain shift is a potentially original contribution. However, originality cannot be fully assessed without seeing the full manuscript.
+  - Scientific importance: The problem is important for comparative genomics and for transferring regulatory models across species. If the method works as claimed, it could have practical value. However, the importance is not yet demonstrated with evidence.
+  - Interdisciplinary readership: The topic bridges machine learning and genomics, which could attract readers from both fields. The abstract is written in a way that is accessible to both, though some machine learning terms may need clarification for genomics readers.
+  - Technical soundness: Cannot be assessed from the abstract alone. No model details, evaluation metrics, or statistical analyses are provided.
+  - Readability for nonspecialists: The abstract is generally clear and concise, but the lack of quantitative context makes it difficult for a nonspecialist to gauge the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and a reasonable approach, but the absence of any quantitative results or methodological detail prevents verification of the central claims. The manuscript may become publishable if the full text provides robust evidence, but the case is not made in the abstract alone.
+
+## Risk / unsupported claims
+- The claim that cross-species performance is "consistently worse" is unsupported without reported metrics or statistical tests.
+- The claim that species-specific repeats are a contributing cause is unsupported without an experimental analysis isolating their effect.
+- The claim that domain adaptation "improves overall cross-species model performance" is unsupported without any reported comparison.
+- The general feasibility claim for cross-species TF binding prediction is unsupported without specification of the tested species and TF range.

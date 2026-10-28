@@ -1,0 +1,494 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.03.547581",
+  "title": "Simultaneous Mapping of DNA Binding and Nucleosome Positioning with SpLiT-ChEC",
+  "doi": "10.1101/2023.07.03.547581",
+  "abstract": "The organization of chromatin – including the positions of nucleosomes and the binding of other proteins to DNA – helps define transcriptional profiles in eukaryotic organisms. While techniques like ChIP-Seq and MNase-Seq can map protein-DNA and nucleosome localization separately, assays designed to simultaneously capture nucleosome positions and protein-DNA interactions can produce a detailed picture of the chromatin landscape. Most assays that monitor chromatin organization and protein binding rely on antibodies, which often exhibit nonspecific binding, and/or the addition of bulky adducts to the DNA-binding protein being studied, which can affect their expression and activity. Here, we describe SpyCatcher Linked Targeting of Chromatin Endogenous Cleavage (SpLiT-ChEC), where a 13-amino acid SpyTag peptide, appended to a protein of interest, serves as a highly-specific targeting moiety for in situ enzymatic digestion. The SpyTag/SpyCatcher system forms a covalent bond, linking the target protein and a co-expressed MNase-SpyCatcher fusion construct. SpyTagged proteins are expressed from endogenous loci, whereas MNase-SpyCatcher expression is induced immediately before harvesting cultures. MNase is activated with high concentrations of calcium, which primarily digests DNA near target protein binding sites. By sequencing the DNA fragments released by targeted MNase digestion, we found that this method recovers information on protein binding and proximal nucleosome positioning. SpLiT-ChEC provides precise temporal control that we anticipate can be used to monitor chromatin under various conditions and at distinct points in the cell cycle.",
+  "authors": [
+    "Orion G. B. Banks",
+    "Michael J. Harms",
+    "Jeffrey. N. McKnight",
+    "Laura E. McKnight"
+  ],
+  "published_date": "2023-07-05",
+  "updated_date": "2023-07-05T19:45:12Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.03.547581",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.03.547581.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:04:55Z",
+        "timestamp": 1768507495513,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            5
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The organization of chromatin – including the positions of nucleosomes and the binding of other proteins to DNA – helps define transcriptional profiles in eukaryotic organisms. While techniques like ChIP-Seq and MNase-Seq can map protein-DNA and nucleosome localization separately, assays designed to simultaneously capture nucleosome positions and protein-DNA interactions can produce a detailed picture of the chromatin landscape. Most assays that monitor chromatin organization and protein binding rely on antibodies, which often exhibit nonspecific binding, and/or the addition of bulky adducts to the DNA-binding protein being studied, which can affect their expression and activity. Here, we describe SpyCatcher Linked Targeting of Chromatin Endogenous Cleavage (SpLiT-ChEC), where a 13-amino acid SpyTag peptide, appended to a protein of interest, serves as a highly-specific targeting moiety for in situ enzymatic digestion. The SpyTag/SpyCatcher system forms a covalent bond, linking the target protein and a co-expressed MNase-SpyCatcher fusion construct. SpyTagged proteins are expressed from endogenous loci, whereas MNase-SpyCatcher expression is induced immediately before harvesting cultures. MNase is activated with high concentrations of calcium, which primarily digests DNA near target protein binding sites. By sequencing the DNA fragments released by targeted MNase digestion, we found that this method recovers information on protein binding and proximal nucleosome positioning. SpLiT-ChEC provides precise temporal control that we anticipate can be used to monitor chromatin under various conditions and at distinct points in the cell cycle.</jats:p>",
+      "DOI": "10.1101/2023.07.03.547581",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2023-07-05T19:45:12Z",
+        "timestamp": 1688586312000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Simultaneous Mapping of DNA Binding and Nucleosome Positioning with SpLiT-ChEC"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6482-0030",
+          "authenticated-orcid": false,
+          "given": "Orion G. B.",
+          "family": "Banks",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0241-4122",
+          "authenticated-orcid": false,
+          "given": "Michael J.",
+          "family": "Harms",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1066-1879",
+          "authenticated-orcid": false,
+          "given": "Jeffrey. N.",
+          "family": "McKnight",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4322-3066",
+          "authenticated-orcid": false,
+          "given": "Laura E.",
+          "family": "McKnight",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dangkulwanich M , Ishibashi T , Bintu L , Bustamante C. Molecular mechanisms of transcription through single-molecule experiments. Vol. 114, Chemical Reviews. 2014.",
+          "DOI": "10.1021/cr400730x"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lee TI , Rinaldi NJ , Robert F , Odom DT , Bar-Joseph Z , Gerber GK , et al. Transcriptional regulatory networks in Saccharomyces cerevisiae. Science (1979). 2002;298(5594).",
+          "DOI": "10.1126/science.1075090"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zamanighomi M , Lin Z , Wang Y , Jiang R , Hung Wong W. Predicting transcription factor binding motifs from DNA-binding domains, chromatin accessibility and gene expression data. Nucleic Acids Res. 2017;45(10).",
+          "DOI": "10.1093/nar/gkx358"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jolma A , Yan J , Whitington T , Toivonen J , Nitta KR , Rastas P , et al. DNA-binding specificities of human transcription factors. Cell. 2013;152(1–2).",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kornberg RD . Chromatin structure: A repeating unit of histones and DNA. Science (1979). 1974;184(4139).",
+          "DOI": "10.1126/science.184.4139.868"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Adams CC , Workman JL . Binding of disparate transcriptional activators to nucleosomal DNA is inherently cooperative. Mol Cell Biol. 1995;15(3).",
+          "DOI": "10.1128/MCB.15.3.1405"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsompana M , Buck MJ . Chromatin accessibility: A window into the genome. Vol. 7, Epigenetics and Chromatin. 2014.",
+          "DOI": "10.1186/1756-8935-7-33"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Coux RX , Owens NDL , Navarro P. Chromatin accessibility and transcription factor binding through the perspective of mitosis. Transcription. 2020;11(5).",
+          "DOI": "10.1080/21541264.2020.1825907"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Clapier CR , Cairns BR . The biology of chromatin remodeling complexes. Vol. 78, Annual Review of Biochemistry. 2009.",
+          "DOI": "10.1146/annurev.biochem.77.062706.153223"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ganapathi M , Palumbo MJ , Ansari SA , He Q , Tsui K , Nislow C , et al. Extensive role of the general regulatory factors, Abf1 and Rap1, in determining genome-wide chromatin structure in budding yeast. Nucleic Acids Res. 2011;39(6).",
+          "DOI": "10.1093/nar/gkq1161"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Johnson DS , Mortazavi A , Myers RM , Wold B. Genome-wide mapping of in vivo protein-DNA interactions. Science (1979). 2007;316(5830).",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rhee HS , Pugh BF . Comprehensive genome-wide protein-DNA interactions detected at single-nucleotide resolution. Cell. 2011;147(6).",
+          "DOI": "10.1016/j.cell.2011.11.013"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kasinathan S , Orsi GA , Zentner GE , Ahmad K , Henikoff S. High-resolution mapping of transcription factor binding sites on native chromatin. Nat Methods. 2014;11(2).",
+          "DOI": "10.1038/nmeth.2766"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cui K , Zhao K. Genome-wide approaches to determining nucleosome occupancy in metazoans using MNase-Seq. Methods in Molecular Biology. 2012;833.",
+          "DOI": "10.1007/978-1-61779-477-3_24"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Skene PJ , Henikoff S. An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites. Elife. 2017;6.",
+          "DOI": "10.7554/eLife.21856"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kaya-Okur HS , Wu SJ , Codomo CA , Pledger ES , Bryson TD , Henikoff JG , et al. CUT&Tag for efficient epigenomic profiling of small samples and single cells. Nat Commun. 2019;10(1).",
+          "DOI": "10.1038/s41467-019-09982-5"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Policastro RA , Zentner GE . Enzymatic methods for genome-wide profiling of protein binding sites. Brief Funct Genomics. 2018;17(2).",
+          "DOI": "10.1093/bfgp/elx030"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schmid M , Durussel T , Laemmli UK . ChIC and ChEC: Genomic mapping of chromatin proteins. Mol Cell. 2004;16(1).",
+          "DOI": "10.1016/S1097-2765(04)00540-4"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zentner GE , Kasinathan S , Xin B , Rohs R , Henikoff S. Correction: Corrigendum: ChEC-seq kinetics discriminates transcription factor binding sites by DNA sequence and shape in vivo. Nat Commun. 2015;6(1).",
+          "DOI": "10.1038/ncomms10264"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arnau J , Lauritzen C , Petersen GE , Pedersen J. Current strategies for the use of affinity tags and tag removal for the purification of recombinant proteins. Vol. 48, Protein Expression and Purification. 2006.",
+          "DOI": "10.1016/j.pep.2005.12.002"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zakeri B , Fierer JO , Celik E , Chittock EC , Schwarz-Linek U , Moy VT , et al. Peptide tag forming a rapid covalent bond to a protein, through engineering a bacterial adhesin. Proc Natl Acad Sci U S A. 2012;109(12).",
+          "DOI": "10.1073/pnas.1115485109"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Keeble AH , Banerjee A , Ferla MP , Reddington SC , Anuar INAK , Howarth M. Evolving Accelerated Amidation by SpyTag/SpyCatcher to Analyze Membrane Dynamics. Angewandte Chemie - International Edition. 2017;56(52).",
+          "DOI": "10.1002/anie.201707623"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Henikoff JG , Belsky JA , Krassovsky K , MacAlpine DM , Henikoff S. Epigenome characterization at single base-pair resolution. Proc Natl Acad Sci U S A. 2011;108(45).",
+          "DOI": "10.1073/pnas.1110731108"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meers MP , Janssens DH , Henikoff S. Pioneer Factor-Nucleosome Binding Events during Differentiation Are Motif Encoded. Mol Cell. 2019;75(3).",
+          "DOI": "10.1016/j.molcel.2019.05.025"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cui J , Kaandorp JA , Sloot PMA , Lloyd CM , Filatov M V. Calcium homeostasis and signaling in yeast cells and cardiac myocytes. Vol. 9, FEMS Yeast Research. 2009.",
+          "DOI": "10.1111/j.1567-1364.2009.00552.x"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen X , Zaro JL , Shen WC . Fusion protein linkers: Property, design and functionality. Vol. 65, Advanced Drug Delivery Reviews. 2013.",
+          "DOI": "10.1016/j.addr.2012.09.039"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rhode PR , Elsasser S , Campbell JL . Role of multifunctional autonomously replicating sequence binding factor 1 in the initiation of DNA replication and transcriptional control in Saccharomyces cerevisiae. Mol Cell Biol. 1992;12(3).",
+          "DOI": "10.1128/MCB.12.3.1064"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yarragudi A , Miyake T , Li R , Morse RH . Comparison of ABF1 and RAP1 in Chromatin Opening and Transactivator Potentiation in the Budding Yeast Saccharomyces cerevisiae. Mol Cell Biol. 2004;24(20).",
+          "DOI": "10.1128/MCB.24.20.9152-9164.2004"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grant CE , Bailey TL , Noble WS . FIMO: Scanning for occurrences of a given motif. Bioinformatics. 2011;27(7).",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Castro-Mondragon JA , Riudavets-Puig R , Rauluseviciute I , Berhanu Lemma R , Turchi L , Blanc-Mathieu R , et al. JASPAR 2022: The 9th release of the open-access database of transcription factor binding profiles. Nucleic Acids Res. 2022;50(D1).",
+          "DOI": "10.1093/nar/gkab1113"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McKnight LE , Crandall JG , Bailey TB , Banks OGB , Orlandi KN , Truong VN , et al. Rapid and inexpensive preparation of genome-wide nucleosome footprints from model and non-model organisms. STAR Protoc. 2021;2(2).",
+          "DOI": "10.1016/j.xpro.2021.100486"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bailey TL , Grant CE . SEA: Simple Enrichment Analysis of motifs. bioRxiv. 2021",
+          "DOI": "10.1101/2021.08.23.457422"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grant CE , Bailey TL . XSTREME: Comprehensive motif analysis of biological sequence datasets. bioRxiv. 2021",
+          "DOI": "10.1101/2021.09.02.458722"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "O Connor T , Grant CE , Boden M , Bailey TL . T-Gene: Improved target gene prediction. Bioinformatics. 2020;36(12).",
+          "DOI": "10.1093/bioinformatics/btaa227"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.036"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ganguli D , Chereji R V. , Iben JR , Cole HA , Clark DJ . RSC-dependent constructive and destructive interference between opposing arrays of phased nucleosomes in yeast. Genome Res. 2014;24(10).",
+          "DOI": "10.1101/gr.177014.114"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Weiner A , Hughes A , Yassour M , Rando OJ , Friedman N. High-resolution nucleosome mapping reveals transcription-dependent promoter packaging. Genome Res. 2010;20(1).",
+          "DOI": "10.1101/gr.098509.109"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Balsalobre A , Drouin J. Pioneer factors as master regulators of the epigenome and cell fate. Vol. 23, Nature Reviews Molecular Cell Biology. 2022.",
+          "DOI": "10.1038/s41580-022-00464-z"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kubik S , O’Duibhir E , de Jonge WJ , Mattarocci S , Albert B , Falcone JL , et al. Sequence-Directed Action of RSC Remodeler and General Regulatory Factors Modulates +1 Nucleosome Position to Facilitate Transcription. Mol Cell. 2018;71(1).",
+          "DOI": "10.1016/j.molcel.2018.05.030"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Barnes T , Korber P. The active mechanism of nucleosome depletion by Poly(da:dt) tracts in vivo. Int J Mol Sci. 2021;22(15).",
+          "DOI": "10.3390/ijms22158233"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ju QD , Morrow BE , Warner JR . REB1, a yeast DNA-binding protein with many targets, is essential for growth and bears some resemblance to the oncogene myb. Mol Cell Biol. 1990;10(10).",
+          "DOI": "10.1128/MCB.10.10.5226"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gibson DG , Young L , Chuang RY , Venter JC , Hutchison CA , Smith HO . Enzymatic assembly of DNA molecules up to several hundred kilobases. Nat Methods. 2009;6(5).",
+          "DOI": "10.1038/nmeth.1318"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Walker A , Taylor J , Rowe D , Summers D. A method for generating sticky-end PCR products which facilitates unidirectional cloning and the one-step assembly of complex DNA constructs. Plasmid. 2008;59(3).",
+          "DOI": "10.1016/j.plasmid.2008.02.002"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.44",
+          "unstructured": "Andrews S , others. FastQC: a quality control tool for high throughput sequence data. 2010. Https://Www.BioinformaticsBabrahamAcUk/Projects/Fastqc/. 2019;"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Howe KL , Achuthan P , Allen J , Allen J , Alvarez-Jarreta J , Ridwan Amode M , et al. Ensembl 2021. Nucleic Acids Res. 2021;49(D1).",
+          "DOI": "10.1093/nar/gkaa942"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Langmead B , Salzberg SL . Fast gapped-read alignment with Bowtie 2. Nat Methods. 2012;9(4).",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li H , Handsaker B , Wysoker A , Fennell T , Ruan J , Homer N , et al. The Sequence Alignment/Map format and SAMtools. Bioinformatics. 2009;25(16).",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ramírez F , Ryan DP , Grüning B , Bhardwaj V , Kilpert F , Richter AS , et al. deepTools2: a next generation web server for deep-sequencing data analysis. Nucleic Acids Res. 2016;44(W1).",
+          "DOI": "10.1093/nar/gkw257"
+        },
+        {
+          "key": "2023071205262892000_2023.07.03.547581v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Quinlan AR , Hall IM . BEDTools: A flexible suite of utilities for comparing genomic features. Bioinformatics. 2010;26(6).",
+          "DOI": "10.1093/bioinformatics/btq033"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.03.547581",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:53:16Z",
+        "timestamp": 1768452796000
+      },
+      "score": 127.022644,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.03.547581"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            5
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2023.07.03.547581",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

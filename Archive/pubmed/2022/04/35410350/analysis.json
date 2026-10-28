@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35410350",
+  "title": "Cisplatin resistance-related multi-omics differences and the establishment of machine learning models.",
+  "authors": "Sui, Qihai; Chen, Zhencong; Hu, Zhengyang; Huang, Yiwei; Liang, Jiaqi; Bi, Guoshu; Bian, Yunyi; Zhao, Mengnan; Zhan, Cheng; Lin, Zongwu; Wang, Qun; Tan, Lijie",
+  "journal": "Journal of translational medicine",
+  "published_date": "2022-04-13",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用多组学数据和机器学习构建顺铂耐药预测模型，虽涉及转录因子基因（如FOXA2、BATF3）但未聚焦蛋白质-DNA互作或结合机制，方法为常规分类模型，与本课题核心无关。",
+  "abstract": "OBJECTIVES: Platinum-based chemotherapies are currently the first-line treatment of non-small cell lung cancer. This study will improve our understanding of the causes of resistance to cisplatin, especially in lung adenocarcinoma (LUAD) and provide a reference for therapeutic decisions in clinical practice. METHODS: Cancer Cell Line Encyclopedia (CCLE), The Cancer Genome Atlas (TCGA) and Zhongshan hospital affiliated to Fudan University (zs-cohort) were used to identify the multi-omics differences related to platinum chemotherapy. Cisplatin-resistant mRNA and miRNA models were constructed by Logistic regression, classification and regression tree and C4.5 decision tree classification algorithm with previous feature selection performed via least absolute shrinkage and selection operator (LASSO). qRT-PCR and western-blotting of A549 and H358 cells, as well as single-cell Seq data of tumor samples were applied to verify the tendency of certain genes. RESULTS: 661 cell lines were divided into three groups according to the IC50 value of cisplatin, and the top 1/3 (220) with a small IC50 value were defined as the sensitive group while the last 1/3 (220) were enrolled in the insensitive group. TP53 was the most common mutation in the insensitive group, in contrast to TTN in the sensitive group. 1348 mRNA, 80 miRNA, and 15 metabolites were differentially expressed between 2 groups (P < 0.05). According to the LASSO penalized logistic modeling, 6 of the 1348 mRNAs, FOXA2, BATF3, SIX1, HOXA1, ZBTB38, IRF5, were selected as the associated features with cisplatin resistance and for the contribution of predictive mRNA model (all of adjusted P-values < 0.001). Three of 6 (BATF3, IRF5, ZBTB38) genes were finally verified in cell level and patients in zs-cohort. CONCLUSIONS: Somatic mutations, mRNA expressions, miRNA expressions, metabolites and methylation were related to the resistance of cisplatin. The models we created could help in the prediction of the reaction and prognosis of patients given platinum-based chemotherapies.",
+  "abstract_zh": "目的：铂类化疗目前是非小细胞肺癌的一线治疗方案。本研究将提高我们对顺铂耐药原因的理解，尤其是在肺腺癌（LUAD）中，并为临床治疗决策提供参考。方法：使用癌症细胞系百科全书（CCLE）、癌症基因组图谱（TCGA）和复旦大学附属中山医院（zs-cohort）来识别与铂类化疗相关的多组学差异。通过最小绝对收缩和选择算子（LASSO）进行特征选择后，利用逻辑回归、分类回归树和C4.5决策树分类算法构建顺铂耐药mRNA和miRNA模型。对A549和H358细胞进行qRT-PCR和western-blotting，以及肿瘤样本的单细胞测序数据，用于验证特定基因的表达趋势。结果：根据顺铂的IC50值将661个细胞系分为三组，其中IC50值较小的前1/3（220个）定义为敏感组，而后1/3（220个）纳入不敏感组。TP53是不敏感组中最常见的突变，而敏感组中则为TTN。两组间有1348个mRNA、80个miRNA和15个代谢物差异表达（P < 0.05）。根据LASSO惩罚逻辑模型，1348个mRNA中的6个，即FOXA2、BATF3、SIX1、HOXA1、ZBTB38、IRF5，被选为与顺铂耐药相关的特征，并用于预测性mRNA模型的构建（所有调整后P值 < 0.001）。其中6个基因中的3个（BATF3、IRF5、ZBTB38）最终在细胞水平和zs-cohort患者中得到验证。结论：体细胞突变、mRNA表达、miRNA表达、代谢物和甲基化与顺铂耐药相关。我们创建的模型有助于预测接受铂类化疗患者的反应和预后。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35410350/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35410350/",
+  "paper_page_path": "papers/pubmed/35410350/index.html"
+}

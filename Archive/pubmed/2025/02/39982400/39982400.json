@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "39982400",
+    "doi": "10.1242/dev.204313",
+    "title": "Spatio-temporal reconstruction of gene expression patterns in developing mice."
+  },
+  "content": {
+    "abstract": "Understanding gene regulation in organism development is crucial in biology. Techniques like whole-mount in situ hybridization can reveal spatial gene expression in organs and tissues. However, capturing time-lapse movies of gene expression dynamics in embryos developing in utero, such as mice, remains technically challenging beyond the early stages. To address this, we present a method to integrate static snapshots of gene expression patterns across limb developmental stages, creating a continuous 2D reconstruction of gene expression patterns over time. This method interpolates small tissue regions over time to create smooth temporal trajectories of gene expression. We successfully applied it to a number of key genes in limb development, including Sox9, Hand2, and Bmp2. This approach enables a detailed spatio-temporal mapping of gene expression, providing insights into developmental mechanisms. By estimating gene expression patterns at previously unobserved time points, it facilitates the comparison of these patterns across samples. The reconstructed trajectories offer high-quality data that will be useful to guide computational modeling and machine learning, advancing the study of developmental biology in systems where real-time imaging is technically difficult or impossible.",
+    "keywords": [
+      "Gene expression patterns",
+      "Interpolation",
+      "Mouse development"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Gene Expression Regulation, Developmental",
+      "Spatio-Temporal Analysis",
+      "SOX9 Transcription Factor/genetics/metabolism",
+      "Embryo, Mammalian/metabolism",
+      "Bone Morphogenetic Protein 2/genetics/metabolism",
+      "Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "*Gene Expression Profiling/methods",
+      "Extremities/embryology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Avino-Esteban, Laura",
+        "Cardona-Blaya, Heura",
+        "Sharpe, James"
+      ],
+      "short_names": [
+        "Avino-Esteban L",
+        "Cardona-Blaya H",
+        "Sharpe J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3847-8598",
+        "ORCID: 0000-0003-1766-6012",
+        "ORCID: 0000-0002-1434-9743"
+      ],
+      "affiliations": [
+        "European Molecular Biology Laboratory (EMBL-Barcelona), Barcelona 08003, Spain.",
+        "Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona 08005, Spain.",
+        "European Molecular Biology Laboratory (EMBL-Barcelona), Barcelona 08003, Spain.",
+        "European Molecular Biology Laboratory (EMBL-Barcelona), Barcelona 08003, Spain.",
+        "Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona 08005, Spain.",
+        "Institucio Catalana de Recerca I Estudis Avancats (ICREA), Barcelona 08010, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aviñó-Esteban, Laura",
+        "short_name": "Aviñó-Esteban L",
+        "identifiers": [
+          "0000-0003-3847-8598"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL-Barcelona), Barcelona 08003, Spain.",
+          "Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona 08005, Spain."
+        ]
+      },
+      {
+        "full_name": "Cardona-Blaya, Heura",
+        "short_name": "Cardona-Blaya H",
+        "identifiers": [
+          "0000-0003-1766-6012"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL-Barcelona), Barcelona 08003, Spain."
+        ]
+      },
+      {
+        "full_name": "Sharpe, James",
+        "short_name": "Sharpe J",
+        "identifiers": [
+          "0000-0002-1434-9743"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL-Barcelona), Barcelona 08003, Spain.",
+          "Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona 08005, Spain.",
+          "Institució Catalana de Recerca I Estudis Avançats (ICREA), Barcelona 08010, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Development (Cambridge, England)"
+    ],
+    "journal_abbrev": [
+      "Development"
+    ],
+    "pub_date": "2025 Feb 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/21 12:22",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42412885",
+      "40607016",
+      "40466493"
+    ],
+    "refs": [
+      "37742180",
+      "31160553",
+      "30318151",
+      "29540505",
+      "27798562",
+      "26377442",
+      "26174932",
+      "25980463",
+      "25453830",
+      "25082703",
+      "23034633",
+      "22884497",
+      "22660741",
+      "22465667",
+      "22265416",
+      "21427722",
+      "21347315",
+      "20539740",
+      "20386744",
+      "20059953",
+      "18364260",
+      "17164422",
+      "15342511",
+      "15315763",
+      "12766772",
+      "12414734",
+      "9102301"
+    ],
+    "similar": [
+      "39982400",
+      "42475469",
+      "11585339",
+      "31553718",
+      "21526123",
+      "19393343",
+      "39745605",
+      "19712269",
+      "21357576",
+      "40192104",
+      "20134060",
+      "24300439",
+      "26377442",
+      "20333701",
+      "37322439",
+      "29896701",
+      "21466799",
+      "10620065",
+      "25380565",
+      "30838573",
+      "38057666",
+      "23946534",
+      "16434237",
+      "23749471",
+      "19123137",
+      "35831952",
+      "8625833",
+      "14767909",
+      "41241818",
+      "12168674",
+      "19799774",
+      "23994639",
+      "20492757",
+      "20940257",
+      "19450442",
+      "23029561",
+      "31069682",
+      "26341094",
+      "10704389",
+      "8589438",
+      "19303461",
+      "19718516",
+      "41484648",
+      "19211672",
+      "26525672",
+      "15261831",
+      "22613723",
+      "25082703",
+      "25218374",
+      "20618433",
+      "38855864",
+      "26786896",
+      "18662396",
+      "38828908",
+      "18603407",
+      "37208698",
+      "28013423",
+      "24934187",
+      "18364260",
+      "11087629",
+      "33560225",
+      "23034633",
+      "17962963",
+      "11389457",
+      "12840810",
+      "20016822",
+      "10398531",
+      "29660410",
+      "39707586",
+      "22174793",
+      "23840004",
+      "21509900",
+      "32423529",
+      "26456102",
+      "33608506",
+      "11969265",
+      "17634097",
+      "23591446",
+      "9784592",
+      "34584102",
+      "15634360",
+      "18825967",
+      "36450660",
+      "9070329",
+      "20336610",
+      "12537577",
+      "25480362",
+      "9152009",
+      "24148613",
+      "32764780",
+      "9817915",
+      "9113979",
+      "35027765",
+      "28687932",
+      "30234486",
+      "22595513",
+      "10607827",
+      "19098141",
+      "24413523",
+      "15560851"
+    ],
+    "review": [
+      "39982400",
+      "11389457"
+    ],
+    "pmc": [
+      "11883288"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/39982400",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39982400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.biologists.com/dev/article-lookup/doi/10.1242/dev.204313",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance, Results, Discussion, Methods, and Data Availability sections. No figures, tables, or supplementary appendices were provided.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodology, and logical coherence as presented in the text. Structural biology claims are assessed based on the described methods and reported confidence metrics, not on direct inspection of structural models.
+- **Shared manuscript claim summary** The authors propose that VtrA/VtrC-like co-component signal transduction systems, consisting of a membrane-tethered transcription factor and a periplasmic lipocalin-like sensor, are fast-evolving virulence regulation cassettes distributed across enteric bacteria. They use fold prediction, genome neighborhood analysis, and sequence clustering to support this hypothesis.
+- **Visible evidence base** Text descriptions of results, methods, and references to figures (Fig. 1-5), tables (Table 1), and supplementary items (SI Appendix, Tables S1-S3, Figs. S1-S3). No primary data files, structural coordinates, or alignment files were provided.
+- **Missing materials affecting confidence** Figures, tables, supplementary appendices, structural models, sequence alignments, and raw bioinformatics outputs were not available for direct verification. This limits the ability to independently assess the quality of structural predictions, the robustness of sequence clustering, and the validity of comparative analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a compelling hypothesis that VtrA/VtrC-like co-component signal transduction systems represent a widespread, fast-evolving virulence regulation mechanism in enteric bacteria. The use of modern structure prediction methods to bridge sequence divergence is timely and methodologically sound. However, the strength of the central claim rests heavily on structural predictions and indirect sequence evidence, and the absence of experimental validation for the predicted interactions or lipid-binding functions leaves the functional implications largely speculative. The manuscript is well-written and logically structured, but several technical aspects require clarification and additional evidence to fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying bacterial signal transduction, virulence regulation, and host-pathogen interactions would find this work of high interest. The identification of a potentially widespread co-component signaling paradigm, coupled with the demonstration of structure prediction as a tool for detecting divergent homologs, has broad methodological appeal for the microbiology and structural bioinformatics communities.
+- **Major strengths** The manuscript successfully integrates sequence analysis, genome context, and state-of-the-art structure prediction to propose a novel biological hypothesis. The identification of ToxR/ToxS as a distant homolog of VtrA/VtrC, despite undetectable sequence similarity, is a significant finding that demonstrates the power of structure-based approaches. The genome neighborhood analysis provides a practical and scalable method for discovering additional candidate systems. The discussion of functional implications, including lipid sensing and pH responsiveness, is thoughtful and well-contextualized within existing literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims that "the ToxR/ToxS and VtrA/VtrC gene cassettes" are homologous and that the identified candidate systems across enteric bacteria represent a "co-component signal transduction system" family.
+  - **Evidence pointer** Results sections "The ToxR/ToxS Gene Cassette Encodes Fast-Evolving Homologs of VtrA/VtrC" and "Genome Neighborhoods Facilitate Discovery of Candidate VtrA/VtrC-Like Co-component Systems"; Figure 2; Table 1; SI Appendix, Tables S1-S3.
+  - **Concern** The central claim of homology between ToxR/ToxS and VtrA/VtrC, and by extension across all identified candidate systems, rests on structural predictions and indirect sequence relationships. While the ToxS model is stated to adopt a lipocalin-like fold with high confidence for core residues, the evidence for the VtrA/ToxR periplasmic domain relationship is based on a single structure comparison (Fig. 2C) and a Dali Z-score of 4.1, which the authors themselves acknowledge falls in the "gray area" of homology. The extension of this homology to all candidate systems, particularly those with less confident predictions (e.g., SF3507, TcpH), is not fully justified. The claim that these systems form a unified family requires stronger evidence, such as conserved structural features beyond the fold, functional validation, or phylogenetic analysis using structure-based alignments.
+  - **Why it matters** The entire premise of the manuscript, that these are "co-component signal transduction systems" with a common evolutionary origin, depends on the validity of the homology assignment. If the structural similarities are coincidental or the result of convergent evolution, the proposed family concept and the functional inferences drawn from it would be substantially weakened.
+  - **Resolution test** Provide a more rigorous structural comparison, such as a full structural alignment of all predicted periplasmic domains with quantitative similarity scores and statistical significance. Include an analysis of conserved functional residues or structural motifs that support a common mechanism. Alternatively, provide experimental evidence, such as cross-complementation or binding assays, demonstrating functional interchangeability or conserved ligand recognition among family members.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The manuscript states that "the co-component signal transduction system includes an input periplasmic sensor that is tightly associated with its transcription factor" and suggests that these systems "may also function as lipid sensors."
+  - **Evidence pointer** Results section "Functional Implications for the VtrA/VtrC-Like Co-component Gene Cassettes"; Figure 4; SI Appendix, Methods.
+  - **Concern** The functional claims regarding lipid sensing and the obligate heterodimer interaction are based on the VtrA/VtrC experimental structure and extrapolated to the other candidate systems without direct experimental evidence. The complex prediction for GrvA/FidL is mentioned, but the confidence is not stated, and no experimental validation of the predicted interaction is provided. The statement that "the periplasmic domains from the co-component signal transduction systems PsaE/PsaF from Yersinia and YqeI/YqeJ from E. coli form dimeric complexes when expressed together" is presented as supporting evidence, but the details of this experiment are not provided in the main text, and the relevance to lipid binding is unclear.
+  - **Why it matters** The proposed functional role as lipid sensors is a key aspect of the biological significance of these systems. Without experimental evidence, this remains a speculative extrapolation from a single characterized system. The claim that these are "virulence regulation cassettes" implies a functional role that is not directly demonstrated for the newly identified candidates.
+  - **Resolution test** Provide experimental data demonstrating lipid binding for at least one of the newly identified candidate sensors. Include details of the dimerization experiments for PsaE/PsaF and YqeI/YqeJ, including methods and controls. If functional validation is not feasible, temper the claims to reflect the speculative nature of the functional inferences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The methods describe a "local adaptation of AlphaFold" and a modified protocol for complex prediction, but the details are incomplete.
+  - **Evidence pointer** Methods section "Single and Complex Structure Prediction".
+  - **Concern** The description of the "local adaptation of AlphaFold" is vague, and the modification for complex prediction (adding 200 to residue numbers of the second protein) is described but not benchmarked or validated in this manuscript. The statement that this "is expected to produce a high-quality model" is not supported by data. The criteria for selecting candidate systems for complex prediction, the number of homologs used, and the quality assessment of the resulting models are not fully described.
+  - **Why it matters** Reproducibility is a cornerstone of scientific rigor. The lack of detail on the structure prediction protocols, particularly the modified AlphaFold approach, makes it difficult for other researchers to replicate the work or assess the reliability of the models. The confidence metrics mentioned (e.g., pLDDT) are not systematically reported for all models.
+  - **Resolution test** Provide a detailed description of the local AlphaFold adaptation, including any code or parameters. Report the confidence metrics (e.g., pLDDT, PAE) for all predicted models, and include a validation of the complex prediction method against known structures or a benchmark dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Terminology "co-component signal transduction systems"
+  - **Evidence pointer** Throughout the manuscript.
+  - **Issue** The term "co-component" is used to describe the two-gene cassette, but it is not clearly defined in the context of established signal transduction nomenclature. The distinction from two-component systems (e.g., histidine kinase-response regulator) could be made more explicit.
+  - **Required correction** Provide a clear definition of "co-component" in the introduction, contrasting it with canonical two-component systems and explaining the rationale for this new terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1 and Figure 3
+  - **Evidence pointer** Results section "Genome Neighborhoods Facilitate Discovery of Candidate VtrA/VtrC-Like Co-component Systems"; Table 1; Figure 3.
+  - **Issue** The criteria for inclusion in Table 1 are described in the text, but the table itself is not provided. The relationship between the sequence clusters in Figure 3C and the candidate systems in Table 1 is not explicitly stated.
+  - **Required correction** Ensure Table 1 includes all relevant information, such as species, gene identifiers, predicted functions, and confidence scores. Add a cross-reference between Table 1 and Figure 3C to clarify which clusters correspond to which candidate systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, final paragraph.
+  - **Issue** The discussion acknowledges the "gray area" of homology for some comparisons but does not fully address the limitations of structure prediction for highly divergent proteins. The potential for false positives in the genome neighborhood analysis is not discussed.
+  - **Required correction** Add a paragraph explicitly discussing the limitations of the approach, including the uncertainty in structural predictions for divergent sequences, the potential for false positives in candidate identification, and the need for experimental validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference to supplementary material
+  - **Affected element** SI Appendix, Table S1
+  - **Evidence pointer** Results section "The ToxR/ToxS Gene Cassette Encodes Fast-Evolving Homologs of VtrA/VtrC".
+  - **Issue** The text states that "sensitive sequence detection methods starting from either of the periplasmic domain sequences confidently identify sequences from the same family, but not across families (SI Appendix, Table S1)." The specific methods and thresholds used are not described in the main text.
+  - **Required correction** Briefly describe the sequence detection methods used (e.g., PSI-BLAST, HHsearch) and the significance thresholds in the main text or refer to the Methods section for details.
+- **Technical failings that need to be addressed before the case is established** The central homology claim requires stronger structural evidence or experimental validation. The functional role as lipid sensors is speculative and needs experimental support. The structure prediction methods need to be described in sufficient detail for reproducibility, and confidence metrics should be reported for all models.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of co-component signal transduction systems as a distinct class of virulence regulators is novel and extends beyond the well-studied VtrA/VtrC system.
+  - **Scientific importance** Potentially high. If validated, this work could redefine how virulence regulation is understood in enteric bacteria and provide a new framework for studying signal transduction. The methodological approach, using structure prediction to overcome sequence divergence, is broadly applicable.
+  - **Interdisciplinary readership** Moderate to high. The work bridges microbiology, structural biology, and bioinformatics, and would appeal to researchers in these fields. The broader significance to infectious disease research is clear.
+  - **Technical soundness** The bioinformatics and structure prediction approaches are generally sound, but the lack of experimental validation and incomplete methodological details for the modified AlphaFold protocol are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is well-written and accessible, with clear explanations of the concepts and significance. The use of figures (not provided) would likely enhance comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is intriguing and the methodology is promising, but the current evidence is insufficient to fully establish the case. The authors should provide additional structural evidence, experimental validation, or a more cautious interpretation of their findings.

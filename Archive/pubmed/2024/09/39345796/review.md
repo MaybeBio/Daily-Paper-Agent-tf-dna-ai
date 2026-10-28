@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (title, abstract, introduction, methods, results, discussion, figure captions, table captions) as provided.
+- **Assessment boundary** Scientific and technical soundness of the presented method, validation strategy, and claims, based solely on the provided text. No supplementary files, figures, or tables were available for direct inspection.
+- **Shared manuscript claim summary** The authors present PNAbind, a graph neural network-based method that predicts protein-nucleic acid binding function (DNA vs RNA vs non-binding) and binding sites from protein structure, using a molecular surface mesh representation with geometric, electrostatic, chemical, and evolutionary features. They report high accuracy on classification tasks (AUROC 0.94-0.95), strong discrimination between DNA and RNA binding (AUROC 0.92), competitive binding site prediction on benchmark datasets (AUROC 0.916-0.953), generalization to unbound structures, low false positive rates on a negative control, and a case study on APOBEC3G consistent with experimental data.
+- **Visible evidence base** Main text, two figure captions, two table captions, and references to supplementary materials (Supplementary Tables 1-2, Supplementary Figures 1-5). No actual figures, tables, or supplementary data were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information. This includes the mesh feature definitions (Supplementary Table 1), dataset statistics (Supplementary Figure 4), feature importance plots (Figure 4b), binding site prediction examples (Figure 5a), ablation results (Figure 5e), and the APOBEC3G case study details (Figure 6). Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically sound and potentially useful approach to a well-studied problem. The use of molecular surface meshes with GNNs is not entirely novel but is a reasonable and increasingly common strategy. The main strengths are the breadth of evaluation (classification, segmentation, negative control, unbound structures, case study) and the interpretability analysis. However, the manuscript as provided is essentially a methods description with results summarized in text. The lack of access to figures, tables, and supplementary data prevents a full assessment of the validity of the performance claims, the rigor of the comparisons, and the statistical significance of the reported improvements. The writing is clear and the methodological detail is adequate, but several important experimental details (e.g., hyperparameter selection, data leakage prevention, statistical testing) are not described in the visible text. The case study on APOBEC3G is compelling but relies entirely on external data not shown. Overall, the work is promising but the evidence base as provided is insufficient to fully establish the claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those interested in nucleic acid binding. Researchers developing structure-based machine learning methods, especially GNN-based approaches, would find the methodological details and benchmark comparisons relevant. The interpretability analysis and the APOBEC3G case study may also interest experimentalists studying RNA binding and protein dimerization, as the method offers a way to generate hypotheses about binding mechanisms.
+- **Major strengths**
+  1. The use of a molecular surface mesh representation is well-motivated and captures geometric features relevant to binding that are often neglected in residue-level or voxel-based approaches.
+  2. The evaluation is broad, covering both global function classification and local binding site segmentation, with multiple benchmark datasets and a negative control.
+  3. The interpretability analysis (feature attribution and spatial attribution) is a valuable addition that goes beyond simple prediction and provides mechanistic insight.
+  4. The demonstration of applicability to unbound structures and the APOBEC3G case study suggest practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that PNAbind achieves the highest AUROC and MCC values on all four test sets compared to recent methods (Table 2).
+  - **Evidence pointer** Table 2, location not provided
+  - **Concern** The comparison with other methods relies entirely on values reported in the original publications of those methods. This is a common but potentially problematic practice, as differences in data preprocessing, evaluation protocols, and even the definition of binding residues can make such cross-study comparisons misleading. The manuscript does not describe any attempt to re-run the competing methods under identical conditions, nor does it discuss potential sources of discrepancy.
+  - **Why it matters** The central claim of superiority over existing methods is the key contribution of the paper. If the comparison is not apples-to-apples, the claim is not established.
+  - **Resolution test** The authors should either (a) re-run the competing methods on the same test sets using their own evaluation pipeline, or (b) provide a detailed analysis of the comparability of the different evaluation protocols, including a discussion of any known differences in labeling criteria, data splits, or post-processing. Ideally, they would also report statistical significance tests for the differences in AUROC and MCC.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that "the median wall time to evaluate our segmentation model (inference) is less than one second per protein surface mesh" (Results, PNAbind overview).
+  - **Evidence pointer** Supplementary Figure 5, location not provided
+  - **Concern** The runtime claim is presented as a feature of the method, but no details are given about the hardware, software environment, or the size/complexity of the proteins used for the benchmark. Without this information, the claim is not reproducible or interpretable.
+  - **Why it matters** Runtime is often a deciding factor for practical adoption of a method. An unverifiable runtime claim is of limited value.
+  - **Resolution test** Provide a clear description of the computational environment (CPU/GPU model, memory, OS, software versions) and the distribution of protein sizes in the benchmark. Ideally, report runtime as a function of protein size (e.g., number of residues or vertices).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "our models are completely invariant to all isometries of Euclidean space" (Results, PNAbind overview).
+  - **Evidence pointer** Methods, GNN model architecture, location not provided
+  - **Concern** The claim of full invariance to all isometries (including reflections) is strong. While the edge features described (distances and angles) are indeed rotation and translation invariant, it is not clear whether they are also reflection invariant. The angle between surface normals, for example, is a pseudoscalar that changes sign under reflection. If the model uses such features, it is not fully reflection invariant. The manuscript does not discuss this.
+  - **Why it matters** If the model is not actually invariant to reflections, it may behave differently on mirror-image structures, which could be a problem for certain applications (e.g., analyzing proteins with D-amino acids or unusual symmetries). More importantly, the claim as stated is likely too strong and needs to be qualified.
+  - **Resolution test** Clarify the exact definition of the angle features and whether they are signed or unsigned. If they are signed, the claim of full isometry invariance should be revised to "rotation and translation invariance." Alternatively, the authors could test the model on reflected structures to empirically verify the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that "our model predictions are consistent with experimental RNA binding data for the deoxycytidine deaminase APOBEC3G" (Results, Case study).
+  - **Evidence pointer** Figure 6, location not provided
+  - **Concern** The case study is presented as a key validation of the method's practical utility. However, the description is entirely qualitative. The manuscript states that the model predicts a large RNA binding region spanning the dimerization interface and a smaller region independent of dimerization, and that these predictions overlap with residues identified by mutagenesis. No quantitative comparison is provided (e.g., overlap fraction, enrichment of predicted residues among experimentally confirmed residues, comparison to a null model).
+  - **Why it matters** A qualitative "consistent with" claim is weak evidence. Without a quantitative assessment, it is impossible to judge whether the agreement is better than what would be expected by chance.
+  - **Resolution test** Provide a quantitative analysis of the overlap between predicted and experimentally identified residues, including a statistical test (e.g., hypergeometric test) and a comparison to a random or baseline predictor. Also, clarify how the threshold for "high attribution" was chosen.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "we applied Platt scaling to each model (using validation folds for scaling parameter optimization) before combining probabilities in the ensemble and chose a probability threshold that maximized the F1 score of training set predictions" (Methods, Probability thresholds).
+  - **Evidence pointer** Methods, Probability thresholds, location not provided
+  - **Concern** The threshold selection procedure is circular. The threshold is chosen to maximize F1 on the training set, and then the same training set is used to evaluate the model (as implied by "training set predictions"). This is a form of data leakage that will lead to overly optimistic performance estimates. The validation folds are used for Platt scaling, but the threshold is chosen on the training set, which is not independent.
+  - **Why it matters** The reported performance metrics (AUROC, AUPRC, etc.) may be inflated, and the model may not generalize as well as claimed.
+  - **Resolution test** The threshold should be chosen on the validation set (or a separate held-out set), not the training set. The authors should clarify the exact data split used for threshold selection and report performance on a truly independent test set.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Mesh generation
+  - **Evidence pointer** Methods, Mesh generation, location not provided
+  - **Issue** The manuscript states that the "skin" surface with a shrink factor of 0.45 was used, but does not explain why this value was chosen or how sensitive the results are to this parameter.
+  - **Required correction** Provide a brief justification for the choice of shrink factor, or cite a reference that establishes it as a reasonable default. Ideally, include a sensitivity analysis in the supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Vertex features
+  - **Evidence pointer** Methods, Vertex features, location not provided
+  - **Issue** The description of the vertex features is brief. For example, "PH1 and PH2 refer to the electrostatic potential and the normal component of the electric field, respectively." It is not clear how the normal component is computed or whether it is signed.
+  - **Required correction** Provide more detail on the computation of each feature, including any relevant equations or references. This is important for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Binding site prediction
+  - **Evidence pointer** Table 2, location not provided
+  - **Concern** The manuscript reports AUROC, AUPRC, precision, recall, specificity, and MCC for PNAbind, but for the competing methods, only AUROC and MCC are reported (and some values are missing, indicated by dashes). This makes a full comparison difficult.
+  - **Required correction** Either report all metrics for all methods, or clearly state which metrics were not available from the original publications. If possible, compute the missing metrics from the available data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Feature attribution
+  - **Evidence pointer** Figure 4b, location not provided
+  - **Concern** The feature importance scores are described as "the more negative the score, the more important the feature." This is an unusual convention and could be confusing.
+  - **Required correction** Clarify the sign convention in the text or figure caption. Consider reporting the absolute value of the importance score or using a more intuitive metric.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Datasets
+  - **Evidence pointer** Methods, Datasets, location not provided
+  - **Concern** The manuscript does not describe how the negative control dataset was constructed in detail. It only states that it consists of "proteins with no known NA binding function." The criteria for "no known function" are not specified.
+  - **Required correction** Provide more detail on the selection of the negative control proteins, including the source database, the filtering criteria, and the number of proteins in the dataset.
+
+## Risk / unsupported claims
+- The claim that PNAbind achieves the highest AUROC and MCC on all four test sets (Table 2) is not fully supported due to the reliance on cross-study comparisons with potentially different evaluation protocols.
+- The claim of "complete invariance to all isometries of Euclidean space" is likely too strong and is not fully supported by the described features.
+- The runtime claim of "less than one second per protein surface mesh" is not reproducible without details on the computational environment and protein size distribution.
+- The APOBEC3G case study is presented as validation but lacks any quantitative comparison to experimental data.
+- The threshold selection procedure for segmentation models is circular and may lead to inflated performance estimates.
+- The manuscript states that "our models trained on predicted protein structures... can partially identify the binding sites of these proteins" (Discussion), but this claim is based on Supplementary Figure 2a, which was not available for review. The strength of this claim cannot be assessed.
+- The manuscript states that "geometric features... are crucial for distinguishing DNA from RNA binding" (Results, Feature attribution), but this is based on feature importance scores that are not statistically validated. The difference in importance between feature groups is not tested for significance.

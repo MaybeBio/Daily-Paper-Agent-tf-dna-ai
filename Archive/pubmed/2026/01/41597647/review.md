@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Limitations, Conclusions)
+- **Assessment boundary** Scientific soundness, technical rigor, and evidentiary support of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors report construction of a normalized yeast one-hybrid cDNA library from *Corynespora cassiicola*, screening for transcriptional regulators of the *cas5* gene promoter, identification of 30 candidate regulators, and point-to-point verification of one bZIP transcription factor (CcbZIP3629) that interacts with the 1000 bp *cas5* promoter. Molecular docking using AlphaFold3-predicted structures suggests binding to two ACGT core motifs.
+- **Visible evidence base** Text descriptions of results; figure references (Figures 1–7) without actual figure data; no raw data, statistical analyses, or supplementary materials provided
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; no sequence data, clone lists, or accession numbers for the 30 candidates; no details on the *cas5* promoter sequence or its coordinates; no negative controls for the Y1H point-to-point verification; no experimental validation of the predicted interaction; no statistical analysis of library quality metrics
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the pathogenesis of *Corynespora cassiicola*, specifically the transcriptional regulation of the *cas5* toxin gene. The methodological approach combining Y1H library screening with bioinformatic prediction is reasonable. However, the evidence presented is largely descriptive and preliminary. The central claim that CcbZIP3629 interacts with the *cas5* promoter rests on a single Y1H point-to-point assay and computational docking, with no orthogonal validation. The manuscript would benefit from substantial additional experimental evidence and clearer presentation of data before the case for a regulatory role is established.
+- **Who would be interested in the results, and why** Researchers studying fungal pathogenesis, particularly those focused on *Corynespora cassiicola* and cassiicolin toxins, as well as those interested in transcriptional regulation of virulence factors in plant-pathogenic fungi. The normalized library construction protocol may also be of interest to fungal molecular biologists.
+- **Major strengths** The study addresses an under-explored area, namely transcriptional regulation of the *cas5* toxin gene. The use of a normalized cDNA library to reduce abundant transcripts is methodologically sound. The authors acknowledge limitations and propose clear future directions including ChIP-qPCR and gene knockout studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Through point-to-point yeast one-hybrid verification, only one of the 30 candidate transcription factors (named CcbZIP3629) showed interaction with cas5."
+  - **Evidence pointer** Section 3.4, Figure 6
+  - **Concern** The point-to-point verification is described only in text with a single figure reference. No details are provided on the number of replicates, the concentration of 3-AT used in the verification, the growth conditions, or the criteria for scoring positive interactions. The figure itself is not available for inspection. The claim that CcbZIP3629 "showed interaction" with the *cas5* promoter is therefore not adequately supported by the evidence presented.
+  - **Why it matters** This is the central experimental result of the manuscript. Without clear evidence of a reproducible, specific interaction, the entire premise of the study is weakened. Y1H assays are prone to false positives, and the authors themselves acknowledge this in Section 3.3. The lack of detail on how the interaction was confirmed undermines confidence in the finding.
+  - **Resolution test** Provide full experimental details for the point-to-point assay, including the number of biological and technical replicates, the concentration of 3-AT used, the growth time, and representative images of the plates. Include a quantitative measure of growth (e.g., colony counts or dilution series) and a clear negative control (e.g., empty pGADT7 with bait, and bait with an unrelated promoter).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Molecular docking was performed using the AlphaFold3-predicted structure of CcbZIP3629, which revealed its binding to two ACGT core motifs within the promoter."
+  - **Evidence pointer** Section 3.5, Figure 7g
+  - **Concern** The molecular docking result is presented as a key finding, but no details are given on the docking methodology, scoring functions, or the significance of the predicted binding. The figure is not available. AlphaFold3 predictions are computational and require experimental validation. The claim that CcbZIP3629 binds to two ACGT core motifs is therefore speculative and not supported by the evidence provided.
+  - **Why it matters** The docking result is used to support the functional relevance of the interaction. Without experimental validation (e.g., electrophoretic mobility shift assay, DNase footprinting, or reporter assays), the docking prediction remains a hypothesis. Overstating computational predictions as evidence of binding is a common pitfall that can mislead readers.
+  - **Resolution test** Provide details of the docking protocol, including the software parameters, the structure preparation, and the scoring criteria. Include a figure showing the predicted binding interface. Most importantly, validate the predicted interaction experimentally using an independent method such as EMSA or a reporter gene assay in yeast.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The cDNA library had a titer of 2.516 × 10^8 cfu/mL and a total clone count of 5.032 × 10^8."
+  - **Evidence pointer** Section 3.2, Figure 3a
+  - **Concern** The library titer and total clone count are reported, but the calculation is not shown. The formula provided in Section 2.3 is "Library titer (cfu/mL) = number of clones/0.1 mL × 10,000" and "Library capacity (cfu) = titer × bacterial volume." The numbers reported (2.516 × 10^8 cfu/mL and 5.032 × 10^8 total) are inconsistent with the described dilution (10,000-fold) and plating volume (100 µL) unless the number of colonies counted was approximately 2,516, which is plausible but not stated. The lack of clarity on the calculation and the absence of the actual colony count make it difficult to verify the reported values.
+  - **Why it matters** Library quality is a critical parameter for the reliability of the screening. If the titer or total clone count is incorrect, the coverage of the transcriptome may be inadequate, potentially leading to missed interactions or biased results.
+  - **Resolution test** Show the raw colony counts, the dilution factor, and the volume plated. Provide a step-by-step calculation of the titer and total clone count. If possible, include an estimate of the library's complexity (e.g., number of independent clones) and the average insert size distribution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results showed the detection of multiple TATA-boxes and CAAT-boxes, indicating that the promoter possesses a typical core promoter structure and high transcriptional activity, which is a prerequisite for basal transcription."
+  - **Evidence pointer** Section 3.1, Figure 1a,b
+  - **Concern** The presence of TATA-boxes and CAAT-boxes is interpreted as evidence of "high transcriptional activity." This is an overinterpretation. The presence of core promoter elements indicates the potential for transcription, but does not provide any quantitative measure of transcriptional activity. No experimental data on promoter activity (e.g., reporter gene assays) are presented.
+  - **Why it matters** The claim of "high transcriptional activity" is not supported by the data. This overstatement could mislead readers into thinking that the promoter's activity has been experimentally characterized, when in fact only bioinformatic predictions are presented.
+  - **Resolution test** Revise the claim to state that the promoter contains core elements consistent with a functional promoter, without asserting high activity. If the authors wish to make claims about activity, they should perform a reporter assay (e.g., GFP or luciferase under the *cas5* promoter) to quantify activity.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Screening identified 30 candidate transcriptional regulators."
+  - **Evidence pointer** Section 3.3, Figure 5
+  - **Concern** The 30 candidates are mentioned but not listed or characterized. No information is provided on their identities, the criteria for selection, or their potential relevance to *cas5* regulation. The classification into nine categories is mentioned but not detailed.
+  - **Why it matters** Without a list of the candidates and their annotations, the reader cannot assess the biological plausibility of the findings or the completeness of the screening. This limits the utility of the data for other researchers.
+  - **Resolution test** Provide a supplementary table listing all 30 candidates, including their gene identifiers, predicted functions, and the category to which they were assigned. Include details on the bioinformatics pipeline used for annotation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "The analysis of the cis-regulatory elements in the upstream regulatory region of the cas5 gene was performed utilizing the PlantCare software"
+  - **Issue** The use of PlantCARE, a plant-focused tool, for a fungal promoter is justified in the text, but the justification is brief. The authors state that core elements are conserved and that multiple tools were used, but do not specify which other tools were used for cross-validation.
+  - **Required correction** Specify which additional tools were used and how the results were integrated. If possible, include a comparison of predictions from different tools.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "The library construction method references the SMART cDNA Library Construction Kit (Takara Bio, Mountain View, CA, USA)."
+  - **Issue** The description of the library construction is brief and relies heavily on a commercial kit. Key parameters such as the amount of starting RNA, the efficiency of the DSN normalization, and the size selection criteria are not described.
+  - **Required correction** Provide more detail on the library construction, including the amount of input RNA, the DSN treatment conditions, and the size selection method. This will allow others to reproduce the protocol.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "The results showed the detection of multiple TATA-boxes and CAAT-boxes"
+  - **Issue** The results are described in text but the figure (Figure 1) is not available. The reader cannot see the actual promoter sequence or the predicted elements.
+  - **Required correction** Ensure that Figure 1 clearly shows the promoter sequence with annotated elements. Consider providing a table listing the predicted elements and their positions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.2
+  - **Evidence pointer** "The number of clones in a single plate section was approximately 629, and the total number of clones on the plate was approximately 2516."
+  - **Issue** The numbers are presented without context. It is unclear how many plates were counted, whether the counts were consistent across plates, and how the total was extrapolated.
+  - **Required correction** Provide the number of plates counted, the range of colony counts, and the method used to extrapolate to the total. Include a representative image of the plates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.5
+  - **Evidence pointer** "Subcellular localization prediction showed that CcbZIP3629 was mainly localized in the nucleus and also distributed in the cytoplasm."
+  - **Issue** The prediction of dual localization is presented without discussion of its implications or limitations. The authors note that the protein lacks a signal peptide and transmembrane domain, but then state it is a "secreted protein" in the Discussion, which is contradictory.
+  - **Required correction** Clarify the localization predictions and reconcile the statement about secretion. If the protein is predicted to be nuclear/cytoplasmic, the claim of secretion should be removed or clearly qualified as speculative.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "cis-regulatoryregulatory elements"
+  - **Issue** Typographical error: "regulatoryregulatory" should be "regulatory."
+  - **Required correction** Correct the typo.
+
+## Risk / unsupported claims
+- The claim that CcbZIP3629 "showed interaction" with the *cas5* promoter is based on a single assay type (Y1H) with no orthogonal validation; the evidence is insufficient to establish a direct interaction.
+- The claim that molecular docking "revealed" binding to two ACGT core motifs is speculative; computational predictions require experimental confirmation.
+- The claim that the promoter has "high transcriptional activity" based on the presence of TATA/CAAT boxes is unsupported; no functional assays were performed.
+- The claim that the library is "normalized" and of high quality is based on limited metrics; the reported titer and clone count cannot be fully verified from the text.
+- The statement in the Discussion that CcbZIP3629 is a "secreted protein" contradicts the bioinformatics predictions presented in Section 3.5 and is unsupported.
+- The overall conclusion that CcbZIP3629 "mediates the expression of the Cc-Cas5 toxin" is not supported by the evidence, which is limited to a single Y1H hit and computational docking.
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The application of Y1H screening to identify regulators of the *cas5* gene in *C. cassiicola* is novel, as this specific regulatory network has not been previously reported. However, the approach itself is standard and the findings are preliminary.
+- **Scientific importance** Limited at present. The identification of a candidate regulator of a key toxin gene is of interest to the specialist community, but the lack of functional validation means the broader significance for understanding pathogenesis or developing control strategies is not yet established.
+- **Interdisciplinary readership** Narrow. The topic is of primary interest to fungal pathologists and molecular biologists working on *Corynespora* or related systems. The methods and findings are unlikely to attract readers outside these fields.
+- **Technical soundness** The Y1H library construction and screening are described in reasonable detail, but key experimental evidence (figures, raw data) is missing. The molecular docking is presented without sufficient methodological detail. The lack of experimental validation for the central interaction is a major technical weakness.
+- **Readability for nonspecialists** The manuscript is generally readable, but the Results section relies heavily on figure references without providing the actual data. The Discussion contains some overstatements and contradictions (e.g., secretion claim) that could confuse readers.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents a reasonable preliminary screen but lacks the experimental depth and validation required to support the central claims. The authors should be encouraged to provide the missing data, add orthogonal validation of the CcbZIP3629-*cas5* interaction, and temper their conclusions accordingly. A revised manuscript with these additions could be considered further.

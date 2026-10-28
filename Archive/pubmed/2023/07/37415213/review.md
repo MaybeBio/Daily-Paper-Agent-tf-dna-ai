@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary information descriptions
+- **Assessment boundary** Scientific soundness, methodological rigor, evidence sufficiency, and clarity of claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors investigate the hepatocyte epigenetic landscape in a mouse model of steatosis induced by the Lieber-DeCarli diet, integrating RNA-seq, ChIP-seq, DNase-seq, and RRBS data. They identify four gene clusters with distinct functional associations, predict transcription factors involved in their regulation, and report that steatosis does not correlate with epigenetic age as defined by previously published methylation markers.
+- **Visible evidence base** Results sections describing differential gene expression, DNase hypersensitivity analysis, chromatin domain identification, and methylation analysis at aging-associated loci; figures referenced but not fully visible; supplementary file descriptions
+- **Missing materials affecting confidence** Raw sequencing data, quality control metrics, full figures with statistical annotations, detailed sample metadata, validation experiments, and complete supplementary tables were not available for assessment
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multi-omics dataset from isolated hepatocytes of Lieber-DeCarli diet-fed mice, which is a valuable resource for the field. The integrative approach combining transcriptomics, chromatin accessibility, histone modifications, and DNA methylation is commendable. However, the study is severely limited by the very small sample size (n=2 per group for the primary epigenomic analyses), which undermines the statistical robustness of the differential analyses. The central claims regarding transcription factor regulation and the absence of epigenetic age acceleration in steatosis are not fully supported by the evidence presented. The manuscript would benefit from additional biological replicates, validation of key findings, and a more cautious interpretation of the integrative analyses.
+- **Who would be interested in the results, and why** Researchers studying the epigenetic basis of metabolic dysfunction-associated fatty liver disease (MAFLD) and alcoholic liver disease would find this dataset useful. The identification of specific transcription factors and chromatin domains associated with steatosis could inform future mechanistic studies. Investigators interested in epigenetic aging in metabolic diseases may also find the negative result regarding DNA methylation age informative, though the limited power tempers this conclusion.
+- **Major strengths** The use of ex vivo isolated hepatocytes rather than whole liver tissue is a methodological strength, as it avoids confounding signals from non-parenchymal cells. The multi-layered epigenomic profiling (histone modifications, chromatin accessibility, DNA methylation) in the same cell population is comprehensive. The study addresses an important gap in the literature, as few studies have examined epigenetic changes in purified hepatocytes from steatotic livers.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical power and reproducibility
+  - **Claim pointer** The authors report differential gene expression (355 DEGs), differential DNase peaks (58,370 regions), and differential chromatin domains (1,018) between LDC and control groups.
+  - **Evidence pointer** Results sections "Differential gene expression analysis and clustering", "Analysis of open chromatin and transcription factor binding", "Differential chromatin domain annotation"; Figure 1
+  - **Concern** The primary epigenomic and transcriptomic comparisons are based on only two biological replicates per group (n=2). This sample size is insufficient for reliable differential analysis with DESeq2, edgeR, or similar tools, which typically require a minimum of three replicates for stable variance estimation. The false discovery rate control is likely inadequate, and the reported numbers of DEGs and differential peaks may contain a high proportion of false positives.
+  - **Why it matters** The entire downstream analysis, including clustering, transcription factor prediction, and chromatin domain annotation, depends on the reliability of these differential calls. If the input lists are noisy, the biological conclusions drawn from them are not trustworthy.
+  - **Resolution test** Provide evidence of additional biological replicates (at least n=4-5 per group) or demonstrate through power analysis or spike-in controls that the current sample size is sufficient. Alternatively, validate a subset of key findings using an independent technique (e.g., qPCR, targeted bisulfite sequencing) in a larger cohort.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the claim regarding epigenetic age
+  - **Claim pointer** The authors state that "LDC-induced steatosis does not correlate with DNAm age" and that methylation patterns in steatotic livers resemble those of young animals.
+  - **Evidence pointer** Results section "Differential methylation in young, aged, and steatotic livers"; Figure 3
+  - **Concern** The analysis of aging-associated CpG sites is based on a small number of loci (approximately 10-13 sites) selected from a previous study. The comparison between LDC-fed and control animals at these sites is underpowered given the small sample size. Moreover, the authors do not perform a formal epigenetic age calculation using the full clock model; they only compare individual CpG methylation levels. The conclusion that steatosis does not accelerate epigenetic aging is therefore not adequately supported.
+  - **Why it matters** The claim that steatosis does not correlate with DNAm age is a key finding of the manuscript. If the analysis is underpowered or methodologically incomplete, this negative result could be a false negative, which would mislead the field.
+  - **Resolution test** Apply a validated epigenetic clock model to the RRBS data to compute epigenetic age for each sample and compare age acceleration between groups. Increase the number of CpG sites assessed and the sample size. Report effect sizes and confidence intervals for the comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of transcription factor predictions
+  - **Claim pointer** The authors predict NFIL3, JUNB, and other transcription factors as regulators of differentially expressed gene clusters based on the DYNAMITE integrative analysis.
+  - **Evidence pointer** Results section "Analysis of open chromatin and transcription factor binding"; Figure 2b
+  - **Concern** The transcription factor predictions are purely computational and are not validated experimentally. While the authors discuss literature support for some factors (e.g., NFIL3, JUNB), no direct evidence is provided that these factors bind the predicted regulatory regions in the LDC model or that their manipulation alters the expression of target genes.
+  - **Why it matters** The manuscript presents these transcription factors as potentially causal regulators of the observed gene expression changes. Without validation, these predictions remain speculative, and the mechanistic insight claimed by the authors is not established.
+  - **Resolution test** Perform ChIP-qPCR or ChIP-seq for at least one or two of the top predicted transcription factors in control and LDC hepatocytes to confirm differential binding. Alternatively, use siRNA or pharmacological inhibition in a hepatocyte cell line treated with the LDC components to demonstrate functional relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Integration of chromatin domains with gene expression
+  - **Claim pointer** The authors report that 1,018 differential chromatin domains overlap 272 genes, of which only 8 are differentially expressed.
+  - **Evidence pointer** Results section "Investigation of larger domains with chromatin changes"; Table 1
+  - **Concern** The overlap between differential chromatin domains and differentially expressed genes is very small (8 out of 272 genes). The authors do not provide a statistical assessment of whether this overlap is greater than expected by chance. The functional significance of the identified chromatin domains is therefore unclear, and the link between chromatin changes and gene expression changes is weak.
+  - **Why it matters** A central premise of the manuscript is that epigenetic changes drive the observed transcriptional alterations. The data as presented do not strongly support this causal relationship, as most genes within differential chromatin domains are not differentially expressed.
+  - **Resolution test** Perform a permutation-based enrichment analysis to test whether the overlap between DCD-associated genes and DEGs is statistically significant. Discuss the potential reasons for the low overlap (e.g., chromatin changes may be preparatory or affect genes not captured by the differential expression threshold).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Differential DNase peak analysis
+  - **Evidence pointer** Methods section "Differential DNase peak analysis"
+  - **Issue** The description of how differential DNase peaks were called is incomplete. The authors state that edgeR was used but do not specify the input features (e.g., read counts per peak, peak calling method, normalization approach).
+  - **Required correction** Provide a detailed description of the peak calling and differential analysis pipeline, including software versions, parameters, and normalization methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Sequencing data accession
+  - **Evidence pointer** Supplementary Information, Additional file 6
+  - **Issue** The authors mention that accession IDs are provided in Additional file 6, but this file was not available for review. Public availability of raw and processed data is essential for reproducibility.
+  - **Required correction** Ensure that all sequencing data are deposited in a public repository (e.g., GEO, SRA) and that accession numbers are clearly stated in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Body weight and lipid content measurements
+  - **Evidence pointer** Results section "Generation of epigenome and expression data of hepatocytes"
+  - **Issue** The authors report body weight change and lipid content as mean values with standard deviations but do not state the number of animals used for these measurements or the statistical test used for comparison.
+  - **Required correction** Report the sample size for each measurement and the statistical test used, including the p-value for the comparison between LDC and control groups.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section "Differential methylation in young, aged, and steatotic livers"
+  - **Issue** The figure legend indicates that multiple comparisons were made (LDC vs. Co, Y vs. A, Y vs. MA) but does not specify how multiple testing was corrected, if at all.
+  - **Required correction** Clarify whether multiple testing correction was applied and, if so, which method was used. If not, state this explicitly and discuss the potential for inflated type I error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "epigenetic landscape"
+  - **Evidence pointer** Title and throughout
+  - **Issue** The title refers to "alterations in the hepatocyte epigenetic landscape," but the study only examines a limited set of histone modifications, chromatin accessibility, and selected CpG sites. The term "landscape" may overstate the comprehensiveness of the analysis.
+  - **Required correction** Consider revising the title or adding qualifying language to reflect the specific epigenetic features examined.
+
+## Risk / unsupported claims
+- The claim that "LDC-induced steatosis does not correlate with DNAm age" is not supported by a formal epigenetic age calculation and is based on a small number of CpG sites with limited statistical power.
+- The prediction of specific transcription factors (e.g., NFIL3, JUNB) as regulators of gene clusters is purely computational and lacks experimental validation.
+- The statement that the four identified gene clusters are "relevant for the pathogenesis of steatosis and steatohepatitis" is based on literature association rather than direct functional evidence from this study.
+- The claim that the study provides "the first" epigenetic analysis of isolated hepatocytes from a steatosis model is not verifiable from the provided text and would require a more thorough literature search.
+- The functional significance of the identified differential chromatin domains is unclear, as the overlap with differentially expressed genes is minimal and not statistically assessed.

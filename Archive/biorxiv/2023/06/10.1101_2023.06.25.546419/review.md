@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods, supplementary materials list)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external validation or replication attempted
+- **Shared manuscript claim summary** The authors propose that ParB proteins, in the presence of CTP, form dynamic and transient bridges that condense DNA around a single parS site, that this process requires CTP hydrolysis at the N-terminal domain, and that such condensates do not block transcription by RNA polymerase.
+- **Visible evidence base** In vitro single-molecule assays (magnetic tweezers, fluorescence microscopy, AFM), molecular dynamics simulations, biochemical crosslinking experiments, and in vitro transcription assays; figures referenced but not fully visible in the provided text
+- **Missing materials affecting confidence** Full figures and supplementary figures (Figs. S1–S11), supplementary movies, detailed numerical data for force-extension curves, statistical analysis details, and complete methods for some assays (e.g., AFM image analysis, FRAP quantification) are not fully described in the provided text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive in vitro study of ParB-mediated DNA condensation, combining multiple single-molecule techniques with simulations. The central claim that transient ParB-ParB bridges, dependent on CTP hydrolysis, drive condensation around a single parS site is well-supported by the presented evidence. The finding that RNA polymerase can traverse ParB condensates is notable and addresses an important biological question. However, several technical details and quantitative analyses are not fully described in the provided text, limiting the ability to fully assess the robustness of the conclusions. The contrast with a previous study (Balaguer et al.) regarding the requirement for CTP hydrolysis is a key point that requires careful discussion and possibly additional experimental support.
+- **Who would be interested in the results, and why** Researchers in bacterial cell biology, chromosome segregation, DNA-protein interactions, and single-molecule biophysics. The work provides mechanistic insights into ParB function that are relevant for understanding chromosome dynamics in bacteria, and the methodological approaches will be of interest to those studying protein-DNA condensates.
+- **Major strengths** The combination of multiple orthogonal techniques (MT, fluorescence, AFM, MD simulations) provides strong evidence for the dynamic and transient nature of ParB-DNA interactions. The use of a single parS site in long DNA constructs is a physiologically relevant design. The demonstration that RNA polymerase can traverse the condensate addresses a key functional question. The identification of a critical concentration threshold for condensation is an important quantitative finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CTP hydrolysis at the N-terminal domain is essential for DNA condensation, contrasting with a previous study (Balaguer et al.) that reported CTP hydrolysis was not required.
+  - **Evidence pointer** Figure 4, Figure S5, Results section "CTP hydrolysis at the ParB N-terminal is required for partition complex formation"
+  - **Concern** The evidence for this claim relies on three different approaches (E111Q mutant, CTPγS, and crosslinked T22C). However, the text does not provide sufficient detail on the efficiency of the crosslinking reaction, the fraction of protein that remains uncrosslinked, and whether the crosslinked T22C variant retains DNA binding ability. The discrepancy with Balaguer et al. is acknowledged but not fully resolved. The authors suggest that multiple parS sites in the previous study may have allowed condensation through a different mechanism, but this hypothesis is not directly tested.
+  - **Why it matters** This is a central mechanistic claim of the paper. If the requirement for CTP hydrolysis is not robustly established, the proposed model for ParB function would need revision. The discrepancy with prior work needs to be resolved experimentally or through a more detailed mechanistic explanation.
+  - **Resolution test** Provide quantitative data on crosslinking efficiency (e.g., fraction of crosslinked dimers by SDS-PAGE densitometry), demonstrate that crosslinked T22C can still bind DNA and CTP, and perform a direct comparison experiment with a single-parS versus multi-parS DNA substrate under identical conditions to test the proposed explanation for the discrepancy with Balaguer et al.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that RNA polymerase can efficiently transcribe through ParB-DNA condensates with no effect on processivity and only a modest effect on velocity at high ParB concentrations.
+  - **Evidence pointer** Figure 6, Figure S8, Results section "Transcription by RNA Polymerase is not affected by dynamic ParB:DNA clusters"
+  - **Concern** The text states that RNAP processivity was not affected, but the data shown in Figure 6D appear to show a decrease in processivity at 200 nM ParB (the text mentions a "modest decrease ~20% in average transcription velocity"). The distinction between processivity and velocity is not clearly made. Additionally, the number of molecules analyzed (N) is only stated for the control condition (N = 18/44), and it is unclear how many transcription events were analyzed in the presence of ParB. The backtracking analysis is mentioned but the statistical power is not described.
+  - **Why it matters** The claim that transcription is unaffected is important for the biological model that ParB condensates do not interfere with gene expression. If the effect at high ParB concentrations is more substantial than presented, or if the analysis is underpowered, the conclusion may be overstated.
+  - **Resolution test** Provide the number of transcription events analyzed for each condition, show the full distribution of processivity values (not just averages), and clarify the statistical comparison between conditions. If possible, include a control with a non-specific DNA-binding protein to demonstrate that the effect is specific to ParB.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that condensation occurs abruptly at a critical ParB concentration around 10 nM, and that this is a cooperative, first-order-like transition.
+  - **Evidence pointer** Figure 1C, Figure 5E–K, Results section "ParB proteins condense DNA with a single parS site" and "Cooperativity of ParB multimers drives ParB:DNA condensation"
+  - **Concern** The critical concentration is determined from force-extension curves in MT experiments, but the text does not describe how the condensation transition is scored or quantified. The Hill coefficient (H = 4.5) is derived from simulations, not from experimental data. The relationship between the simulation parameter κ (loading rate) and the experimental protein concentration is not clearly established.
+  - **Why it matters** The claim of a sharp, cooperative transition is a key finding that links the experimental observations to the simulation model. Without a clear description of how the transition is defined and quantified experimentally, the comparison with simulations is difficult to evaluate.
+  - **Resolution test** Describe the quantitative criterion used to define condensation in MT experiments (e.g., a specific reduction in end-to-end length). Provide experimental data on the fraction of condensed molecules as a function of ParB concentration, and fit this to a Hill equation to obtain an experimental Hill coefficient. Clarify the mapping between simulation parameters and experimental conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "the ParAB S system" but the subscript formatting is inconsistent with the rest of the text where it appears as "ParAB S". This is a minor typographical issue.
+  - **Required correction** Ensure consistent formatting of "ParABS" throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "ParB purification and fluorescent labeling"
+  - **Evidence pointer** Methods section
+  - **Issue** The labeling efficiency is stated as 70% for ParB TMR monomers (90% dimers labeled), but the method for estimating this efficiency is not described in detail. The extinction coefficient is given, but the calculation method is not.
+  - **Required correction** Provide a brief description of how labeling efficiency was calculated (e.g., absorbance ratio method) or cite a reference for the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Transcription by RNA Polymerase is not affected by dynamic ParB:DNA clusters"
+  - **Evidence pointer** Figure 6E
+  - **Issue** The text states "a modest decrease ~20% in average transcription velocity" but the figure legend is not visible in the provided text. It is unclear whether the error bars represent SEM or SD, and whether the difference is statistically significant.
+  - **Required correction** Clearly state the statistical test used and the p-value for the comparison between conditions in the figure legend or text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Modelling and molecular dynamics simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The simulation code is deposited at a URL, but the specific version of LAMMPS and the parameters for the Morse potential (D0, alpha) are not fully described in the text. The mapping between simulation time units and real time is given, but the mapping between κ and protein concentration is not.
+  - **Required correction** Provide a table of all simulation parameters and their values, and clarify the relationship between κ and experimental protein concentration.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The sentence "This contrasts a previous study 27 that reported that CTP hydrolysis and clamp opening was not required for DNA condensation" is grammatically awkward. The phrase "was not required" should be "were not required" to agree with the compound subject.
+  - **Required correction** Revise to "This contrasts with a previous study 27 that reported that CTP hydrolysis and clamp opening were not required for DNA condensation."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary Materials section
+  - **Issue** The text lists "Figs. S1 to S11" and five supplementary movies, but the content of each supplementary figure and movie is not described in the main text. This makes it difficult to assess the full scope of the data.
+  - **Required correction** Add a brief description of each supplementary figure and movie in the main text or in a supplementary materials list.
+
+## Risk / unsupported claims
+- The claim that a single parS site is sufficient for condensation in long DNA molecules, while previous studies required multiple sites, is supported by the data but the mechanistic explanation (thermal fluctuations in longer DNA) is presented as a hypothesis without direct experimental testing.
+- The claim that CTP hydrolysis is required for condensation is supported by three approaches, but the discrepancy with Balaguer et al. is not fully resolved experimentally.
+- The claim that RNA polymerase transcription is unaffected by ParB condensates is supported by the data, but the analysis of processivity and pausing is not fully described in the provided text.
+- The quantitative relationship between simulation parameters (κ, ε) and experimental conditions (protein concentration, binding affinity) is not fully established, limiting the direct comparability of simulation and experimental results.
+- The claim that the condensate is "self-limiting in size" is presented as a hypothesis based on simulation results, but no direct experimental measurement of condensate size limits is provided.

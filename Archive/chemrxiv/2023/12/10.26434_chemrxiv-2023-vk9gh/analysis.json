@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-vk9gh",
+  "title": "Equivariant Neural Networks Utilizing Molecular Clusters for Accurate Molecular Crystal Binding Energy Predictions",
+  "authors": "Ankur Gupta; Miko Stulajter; Yusuf Shaidu; Jeffrey Neaton; Wibe de Jong",
+  "journal": "ChemRxiv",
+  "published_date": "2023-12-01",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用等变神经网络预测分子晶体结合能，虽涉及分子间相互作用与能量建模，但对象为有机分子晶体而非蛋白质-DNA互作体系，方法可迁移性有限，仅间接相关。",
+  "abstract": "Equivariant neural networks have emerged as prominent models in advancing the construction of interatomic potentials due to their remarkable data efficiency and generalization capabilities for out-of-distribution data. Here, we expand the utility of these networks to the prediction of crystal structures consisting of organic molecules. Traditional methods for computing crystal structure properties, such as plane-wave quantum chemical methods based on density functional theory (DFT), are prohibitively resource-intensive, often necessitating compromises in accuracy and the choice of exchange-correlation functional. We present an approach that leverages the efficiency, and transferability of equivariant neural networks, specifically Allegro, to predict molecular crystal structure energies at a reduced computational cost. Our neural network is trained on molecular clusters using a highly accurate Gaussian-type orbital (GTO)-based method as the target level of theory, eliminating the need for costly periodic DFT calculations, while providing access to all families of exchange-corelation functionals and post-Hartree Fock methods. The trained model exhibits remarkable accuracy in predicting binding energies, aligning closely with those computed by plane-wave based DFT methods, thus representing significant cost reductions. Furthermore, the Allegro network was seamlessly integrated with the USPEX framework, accelerating the discovery of low-energy crystal structures during crystal structure prediction.",
+  "abstract_zh": "等变神经网络因其显著的数据效率和对外分布数据的泛化能力，已成为推进原子间势构建的重要模型。在此，我们扩展了这些网络在预测由有机分子组成的晶体结构方面的应用。传统计算晶体结构性质的方法，如基于密度泛函理论（DFT）的平面波量子化学方法，资源消耗极大，往往需要在精度和交换相关泛函的选择上做出妥协。我们提出了一种方法，利用等变神经网络（特别是Allegro）的效率和可迁移性，以降低的计算成本预测分子晶体结构能量。我们的神经网络在分子簇上训练，使用基于高精度高斯型轨道（GTO）的方法作为目标理论水平，从而无需昂贵的周期性DFT计算，同时可访问所有家族的交换相关泛函和后Hartree-Fock方法。训练后的模型在预测结合能方面表现出卓越的准确性，与基于平面波的DFT方法计算结果紧密吻合，从而显著降低了成本。此外，Allegro网络与USPEX框架无缝集成，加速了晶体结构预测中低能晶体结构的发现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-vk9gh",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-vk9gh",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-vk9gh/index.html"
+}

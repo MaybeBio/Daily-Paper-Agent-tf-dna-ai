@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text including main text, methods, results, and appendices
+- **Assessment boundary** Technical soundness of the proposed END-nSDE method, validity of claims regarding reconstruction accuracy and comparison with benchmarks, appropriateness of biological applications, and reproducibility of results
+- **Shared manuscript claim summary** The authors introduce an extrinsic-noise-driven neural stochastic differential equation (END-nSDE) framework that uses a temporally decoupled squared W2-distance loss to reconstruct SDEs from noisy trajectory data arising from heterogeneous cell populations. They claim the method outperforms RNNs, LSTMs, Gaussian processes, and neural ODEs across three biological systems: circadian rhythms, RPA-DNA binding, and NF-kB signaling. They further claim the method can infer noise intensities from experimental data and partially reproduce observed NF-kB dynamics.
+- **Visible evidence base** Main text Sections I-III, Methods Section II, Appendices A-H, Figures 1-8, Tables 1-4
+- **Missing materials affecting confidence** Code availability is mentioned for the RPA model only, not for the END-nSDE implementation. Hyperparameter details are provided in tables but training curves, convergence diagnostics, and computational cost comparisons are not shown. The neural network architecture for noise inference is described but not fully specified. No uncertainty quantification or sensitivity analysis for the reconstructed SDEs is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful methodological contribution for reconstructing stochastic dynamics from heterogeneous cell population data. The core idea of conditioning the neural SDE on extrinsic noise parameters and using a W2-distance loss is reasonable and builds sensibly on prior work. However, the evidence provided does not fully establish the claimed advantages over existing methods. The comparison with benchmarks is limited to a single metric (W2 loss) without statistical significance testing or error bars. The biological applications, while relevant, are presented at a level that does not convincingly demonstrate practical utility beyond synthetic validation. The experimental NF-kB reconstruction is only partial and the limitations are acknowledged but not addressed. The manuscript would benefit from more rigorous evaluation, clearer presentation of the method's novelty relative to prior work, and additional validation on more diverse and challenging scenarios.
+- **Who would be interested in the results, and why** Researchers in computational biology, systems biology, and biophysics who work on inferring stochastic dynamical models from single-cell or population-level time-series data. The method could be of interest to those studying gene regulatory networks, cell signaling dynamics, and biochemical reaction kinetics where both intrinsic and extrinsic noise are relevant. The neural SDE approach may also appeal to the machine learning community working on physics-informed or dynamics-aware neural models.
+- **Major strengths** The manuscript addresses an important problem: reconstructing stochastic dynamics from heterogeneous cell populations where both intrinsic and extrinsic noise are present. The extension of prior nSDE work to incorporate parameter-dependent extrinsic noise is a logical and potentially valuable step. The use of a W2-distance loss is theoretically well-motivated for distributional matching. The three biological applications cover distinct types of dynamics (oscillatory, binding, high-dimensional signaling) and demonstrate the method's versatility. The authors are transparent about limitations, particularly regarding the experimental NF-kB reconstruction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of benchmark comparison
+  - **Claim pointer** The claim that END-nSDE "outperforms existing time-series analysis methods such as recurrent neural networks (RNNs) and long short-term memory networks (LSTMs)" (Abstract) and the similar claim in Section III.2 regarding RPA-DNA binding.
+  - **Evidence pointer** Table 1, Section III.2, Appendix C
+  - **Concern** The benchmark comparison is based solely on the W2 loss values reported in Table 1. No error bars, confidence intervals, or statistical tests are provided. It is unclear whether the differences between methods are significant given the stochastic nature of training and the finite number of trajectories used. Additionally, the benchmark implementations are described only briefly in Appendix C, and it is not clear whether hyperparameter tuning was performed fairly for each method. The claim of "outperforming" is therefore not rigorously established.
+  - **Why it matters** A central claim of the manuscript is the superiority of the proposed method over existing approaches. Without statistical rigor in the comparison, this claim is not supported by the evidence. This undermines the practical recommendation for adopting END-nSDE over alternatives.
+  - **Resolution test** Provide multiple independent training runs for each method, report mean and standard deviation of the W2 loss, and perform a statistical test (e.g., paired t-test or Wilcoxon signed-rank test) to establish significance. Alternatively, provide additional evaluation metrics such as trajectory-level prediction error or distributional distance beyond W2.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological clarity
+  - **Claim pointer** The method description in Section II.1 and the training details in Appendix A
+  - **Evidence pointer** Section II.1, Appendix A, Table 2
+  - **Concern** The description of the END-nSDE architecture is incomplete. The manuscript states that two neural networks approximate the drift and diffusion functions, but does not specify the network architectures (number of layers, hidden units, activation functions), the optimization algorithm, learning rate schedule, or the number of training epochs. The hyperparameters in Table 2 are listed but not justified. The code for the END-nSDE implementation is not provided, only for the RPA simulation model. This makes it difficult for others to reproduce the results or apply the method to new problems.
+  - **Why it matters** Reproducibility is a core requirement for methodological contributions. Without complete implementation details and code, the method cannot be independently verified or extended by other researchers. This limits the impact and credibility of the work.
+  - **Resolution test** Provide full architecture specifications, training details, and make the code publicly available. Include a clear description of how the W2 loss is computed in practice, including the number of samples used for the empirical distribution matching and any regularization terms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and practical utility
+  - **Claim pointer** The claim that the method "can model how cellular heterogeneity (extrinsic noise) modulates reaction dynamics in the presence of intrinsic noise" (Abstract) and the application to experimental NF-kB data.
+  - **Evidence pointer** Section III.3, Figures 6-8
+  - **Concern** The experimental NF-kB reconstruction is only partial. The authors acknowledge that the method struggles to capture trajectories that deviate significantly from the representative ODE model. This limitation is attributed to the assumption of a shared drift function, but no attempt is made to relax this assumption or quantify the scope of applicability. The method is demonstrated on a limited set of biological systems, and it is unclear how it would perform on systems with more complex noise structures, non-Gaussian noise, or missing data. The practical utility for guiding biological experiments or generating testable predictions is not demonstrated.
+  - **Why it matters** The stated goal is to provide a surrogate modeling approach for complex biophysical processes. If the method only works well for trajectories close to a known ODE model, its practical value is limited. The manuscript should clarify the conditions under which the method is expected to work and provide guidance on when it should be applied.
+  - **Resolution test** Demonstrate the method on a broader range of scenarios, including cases where the drift function varies across cells, where noise is non-Gaussian, or where data are sparse. Provide a clear discussion of the assumptions required for the method to work and the expected failure modes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty relative to prior work
+  - **Claim pointer** The statement in Section I that the method "differs from the one proposed in Ref. Xia et al. 2024a in that our method takes into account both cell heterogeneity and intrinsic fluctuations."
+  - **Evidence pointer** Section I, Section II.1
+  - **Concern** The novelty of the method relative to prior nSDE work is not clearly articulated. The manuscript states that the key difference is the incorporation of extrinsic noise, but the technical details of how this is achieved are not compared systematically with prior approaches. It is unclear whether the contribution is primarily the loss function modification, the network architecture, or the application domain. A more explicit comparison with the prior method, including a discussion of what is genuinely new, would strengthen the manuscript.
+  - **Why it matters** For a methodological paper, clearly establishing novelty is essential. If the extension is incremental, the contribution may not justify publication in a high-impact venue. The authors should position their work more precisely within the existing literature.
+  - **Resolution test** Provide a detailed comparison with the prior nSDE method, including a discussion of the specific technical innovations and a demonstration of where the prior method fails and the new method succeeds. Consider including a benchmark comparison with the prior method on the same datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of notation
+  - **Affected element** Section II.1, equations (1)-(8)
+  - **Evidence pointer** Section II.1
+  - **Issue** The notation for the W2 loss and the temporally decoupled squared W2 distance is introduced but not consistently used. The relationship between the loss in equation (3) and the loss in equation (8) is not explicitly stated. The definition of the coupling distribution in equation (4) is standard but could be stated more concisely.
+  - **Required correction** Clarify the notation and explicitly state how equation (8) generalizes equation (3). Consider using a single term for the loss function throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 4-8
+  - **Evidence pointer** Figures 4-8
+  - **Issue** The figures are dense and some labels are small. In particular, Figure 4 panels D-I show error values but the color scales are not always clear. Figure 8 panels E-I show trajectory comparisons but the legend is not fully descriptive.
+  - **Required correction** Increase font sizes, ensure color scales are legible, and provide more detailed captions that explain what is being compared in each panel.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section IV
+  - **Evidence pointer** Section IV
+  - **Issue** The discussion of limitations is brief and does not address several important issues, such as the sensitivity of the method to the choice of W2 loss, the computational cost of training, and the potential for overfitting when the number of trajectories is small.
+  - **Required correction** Expand the discussion to include these points and provide guidance on practical usage.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference completeness
+  - **Affected element** References
+  - **Evidence pointer** References
+  - **Issue** Some references are incomplete or lack page numbers. The reference list should be checked for consistency.
+  - **Required correction** Ensure all references are complete and formatted consistently.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmark comparison without statistical rigor) and R1-M2 (incomplete implementation details) are the most critical. Without addressing these, the central claims of the manuscript are not fully supported.
+- **Assessment against Nature-style criteria** Originality: The extension of nSDE methods to incorporate extrinsic noise is a reasonable incremental contribution, but the core idea is not fundamentally new. Scientific importance: The problem of reconstructing stochastic dynamics from heterogeneous cell populations is important, but the demonstrated impact is limited. Interdisciplinary readership: The work bridges computational biology and machine learning, which could attract a broad audience, but the presentation is somewhat technical. Technical soundness: The method is plausible, but the evaluation is not rigorous enough to fully establish its validity. Readability for nonspecialists: The manuscript is accessible to readers with a background in stochastic processes and machine learning, but the biological context could be better explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and the method has potential, but the current evidence does not fully establish the claimed advantages. The authors should strengthen the benchmark comparison, provide complete implementation details, and clarify the novelty of their approach.

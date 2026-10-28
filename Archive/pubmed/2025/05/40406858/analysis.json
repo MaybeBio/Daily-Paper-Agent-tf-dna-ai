@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40406858",
+  "title": "HighPlay: Cyclic Peptide Sequence Design Based on Reinforcement Learning and Protein Structure Prediction.",
+  "authors": "Lin, Huitian; Zhu, Cheng; Shang, Tianfeng; Zhu, Ning; Lin, Kang; Zhang, Chengyun; Shao, Xiang; Wang, Xudong; Duan, Hongliang",
+  "journal": "Journal of medicinal chemistry",
+  "published_date": "2025-05-23",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用强化学习与结构预测设计环肽序列，虽涉及蛋白-肽结合与MD验证，但对象为环肽而非蛋白质-DNA互作，方法可迁移至TF-DNA结合位点设计，故属中等相关。",
+  "abstract": "The structural diversity and good biocompatibility of cyclic peptides have led to their emergence as potential therapeutic agents. Existing cyclic peptide design methods, whether traditional or emerging AI-assisted, rely on a multitude of experiments and face challenges such as limited molecular diversity, high cost, and time-consuming. In this study, we propose HighPlay, which integrates reinforcement learning (MCTS) with the HighFold structural prediction model to design cyclic peptide sequences based solely on the target protein sequence information, to achieve the synergistic optimization of cyclic peptide sequences and binding sites and to dynamically explore the sequence space without the need for predefined target information. The model was applied to the design of cyclic peptide sequences for three different targets, which were screened and verified through molecular dynamics simulations, demonstrating good binding affinity. Specifically, the cyclic peptide sequences designed for the TEAD4 target exhibited micromolar-level affinity in further experimental validation.",
+  "abstract_zh": "环肽的结构多样性和良好的生物相容性使其成为潜在的治疗药物。现有的环肽设计方法，无论是传统的还是新兴的人工智能辅助方法，都依赖于大量实验，并面临分子多样性有限、成本高和耗时长等挑战。在本研究中，我们提出了HighPlay，它将强化学习（MCTS）与HighFold结构预测模型相结合，仅基于靶蛋白序列信息设计环肽序列，以实现环肽序列和结合位点的协同优化，并在无需预定义靶标信息的情况下动态探索序列空间。该模型被应用于针对三个不同靶标的环肽序列设计，并通过分子动力学模拟进行筛选和验证，显示出良好的结合亲和力。具体而言，针对TEAD4靶标设计的环肽序列在进一步的实验验证中表现出微摩尔级别的亲和力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40406858/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40406858/",
+  "paper_page_path": "papers/pubmed/40406858/index.html"
+}

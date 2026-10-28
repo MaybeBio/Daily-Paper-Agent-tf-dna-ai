@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "35951510",
+    "doi": "10.1371/journal.pone.0272736",
+    "title": "Network diffusion model predicts neurodegeneration in limb-onset Amyotrophic Lateral Sclerosis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Emerging evidences suggest that the trans-neural propagation of phosphorylated 43-kDa transactive response DNA-binding protein (pTDP-43) contributes to neurodegeneration in Amyotrophic Lateral Sclerosis (ALS). We investigated whether Network Diffusion Model (NDM), a biophysical model of spread of pathology via the brain connectome, could capture the severity and progression of neurodegeneration (atrophy) in ALS. METHODS: We measured degeneration in limb-onset ALS patients (n = 14 at baseline, 12 at 6-months, and 9 at 12 months) and controls (n = 12 at baseline) using FreeSurfer analysis on the structural T1-weighted Magnetic Resonance Imaging (MRI) data. The NDM was simulated on the canonical structural connectome from the IIT Human Brain Atlas. To determine whether NDM could predict the atrophy pattern in ALS, the accumulation of pathology modelled by NDM was correlated against atrophy measured using MRI. In order to investigate whether network spread on the brain connectome derived from healthy individuals were significant findings, we compared our findings against network spread simulated on random networks. RESULTS: The cross-sectional analyses revealed that the network diffusion seeded from the inferior frontal gyrus (pars triangularis and pars orbitalis) significantly predicts the atrophy pattern in ALS compared to controls. Whereas, atrophy over time with-in the ALS group was best predicted by seeding the network diffusion process from the inferior temporal gyrus at 6-month and caudal middle frontal gyrus at 12-month. Network spread simulated on the random networks showed that the findings using healthy brain connectomes are significantly different from null models. INTERPRETATION: Our findings suggest the involvement of extra-motor regions in seeding the spread of pathology in ALS. Importantly, NDM was able to recapitulate the dynamics of pathological progression in ALS. Understanding the spatial shifts in the seeds of degeneration over time can potentially inform further research in the design of disease modifying therapeutic interventions in ALS.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyotrophic Lateral Sclerosis/diagnostic imaging/pathology",
+      "Atrophy/pathology",
+      "Brain/diagnostic imaging/pathology",
+      "*Connectome",
+      "Cross-Sectional Studies",
+      "Humans",
+      "Magnetic Resonance Imaging/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhattarai, Anjan",
+        "Chen, Zhaolin",
+        "Chua, Phyllis",
+        "Talman, Paul",
+        "Mathers, Susan",
+        "Chapman, Caron",
+        "Howe, James",
+        "Lee, C M Sarah",
+        "Lie, Yenni",
+        "Poudel, Govinda R",
+        "Egan, Gary F"
+      ],
+      "short_names": [
+        "Bhattarai A",
+        "Chen Z",
+        "Chua P",
+        "Talman P",
+        "Mathers S",
+        "Chapman C",
+        "Howe J",
+        "Lee CMS",
+        "Lie Y",
+        "Poudel GR",
+        "Egan GF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9178-6509"
+      ],
+      "affiliations": [
+        "Department of Psychiatry, Monash University, Clayton, Victoria, Australia.",
+        "Monash Biomedical Imaging, Monash University, Clayton, Victoria, Australia.",
+        "Monash Biomedical Imaging, Monash University, Clayton, Victoria, Australia.",
+        "Department of Psychiatry, Monash University, Clayton, Victoria, Australia.",
+        "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia.",
+        "School of Medicine, Faculty of Health, Deakin University, Geelong, Victoria, Australia.",
+        "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia.",
+        "Neurosciences Department, University Hospital, Geelong, Victoria, Australia.",
+        "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia.",
+        "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia.",
+        "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia.",
+        "Mary MacKillop Institute for Health Research, Australian Catholic University, Melbourne, Victoria, Australia.",
+        "Monash Biomedical Imaging, Monash University, Clayton, Victoria, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhattarai, Anjan",
+        "short_name": "Bhattarai A",
+        "identifiers": [
+          "0000-0002-9178-6509"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Monash University, Clayton, Victoria, Australia.",
+          "Monash Biomedical Imaging, Monash University, Clayton, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhaolin",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Monash Biomedical Imaging, Monash University, Clayton, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Chua, Phyllis",
+        "short_name": "Chua P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Monash University, Clayton, Victoria, Australia.",
+          "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Talman, Paul",
+        "short_name": "Talman P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Faculty of Health, Deakin University, Geelong, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Mathers, Susan",
+        "short_name": "Mathers S",
+        "identifiers": [],
+        "affiliations": [
+          "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Chapman, Caron",
+        "short_name": "Chapman C",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosciences Department, University Hospital, Geelong, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Howe, James",
+        "short_name": "Howe J",
+        "identifiers": [],
+        "affiliations": [
+          "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Lee, C M Sarah",
+        "short_name": "Lee CMS",
+        "identifiers": [],
+        "affiliations": [
+          "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Lie, Yenni",
+        "short_name": "Lie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Statewide Progressive Neurological Disease Service, Calvary Health Care Bethlehem, South Caulfield, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Poudel, Govinda R",
+        "short_name": "Poudel GR",
+        "identifiers": [],
+        "affiliations": [
+          "Mary MacKillop Institute for Health Research, Australian Catholic University, Melbourne, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Egan, Gary F",
+        "short_name": "Egan GF",
+        "identifiers": [],
+        "affiliations": [
+          "Monash Biomedical Imaging, Monash University, Clayton, Victoria, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/12 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42395031",
+      "41910875",
+      "40760014",
+      "40495245",
+      "40317297",
+      "38505770",
+      "38165325",
+      "37424962"
+    ],
+    "refs": [
+      "35143975",
+      "33586315",
+      "33404153",
+      "33075560",
+      "33051572",
+      "32676365",
+      "32157757",
+      "32105414",
+      "32072667",
+      "31868945",
+      "31187915",
+      "30851444",
+      "29409009",
+      "28377696",
+      "27757524",
+      "25600871",
+      "25453462",
+      "24981792",
+      "24217521",
+      "24138960",
+      "23917850",
+      "23686809",
+      "22445348",
+      "22445347",
+      "22430496",
+      "22248573",
+      "21965521",
+      "21296405",
+      "21274686",
+      "21271792",
+      "19058055",
+      "18033592",
+      "17370339",
+      "17296989",
+      "15739047",
+      "12909279",
+      "11559495"
+    ],
+    "similar": [
+      "35951510",
+      "39611765",
+      "35143975",
+      "25869856",
+      "29620511",
+      "32072667",
+      "28501822",
+      "32089134",
+      "28926154",
+      "32913015",
+      "25844330",
+      "27796080",
+      "31499409",
+      "27995069",
+      "34655259",
+      "32414878",
+      "22226599",
+      "30929575",
+      "28591490",
+      "28095425",
+      "39947099",
+      "33660067",
+      "35838935",
+      "21893207",
+      "27753163",
+      "29076800",
+      "29417490",
+      "41319328",
+      "31795059",
+      "31187915",
+      "19058055",
+      "25044733",
+      "21912680",
+      "28425061",
+      "35708789",
+      "39933303",
+      "39789167",
+      "25022938",
+      "31325016",
+      "27929102",
+      "30023173",
+      "27497488",
+      "34908212",
+      "34511130",
+      "25093168",
+      "28596251",
+      "23085933",
+      "32871387",
+      "23450820",
+      "31020731",
+      "39880289",
+      "24278317",
+      "31088163",
+      "32885698",
+      "26733601",
+      "34471976",
+      "33395998",
+      "32020025",
+      "31711033",
+      "29976279",
+      "37458788",
+      "30528369",
+      "16009889",
+      "17370339",
+      "37289322",
+      "32924608",
+      "20147656",
+      "40275359",
+      "38505770",
+      "28337412",
+      "31002412",
+      "16638121",
+      "29367447",
+      "27761397",
+      "21271792",
+      "39969638",
+      "25793718",
+      "39111522",
+      "30040038",
+      "31896467",
+      "29214883",
+      "36137496",
+      "35764029",
+      "40352904",
+      "39985309",
+      "35597032",
+      "39487710",
+      "33587281",
+      "16319024",
+      "37696099",
+      "30049750",
+      "38916507",
+      "37118836",
+      "38059522",
+      "38296522",
+      "32114375",
+      "23117491",
+      "34700102",
+      "31184559",
+      "38165325"
+    ],
+    "review": [
+      "35951510",
+      "29076800"
+    ],
+    "pmc": [
+      "9371353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0272736",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35951510/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35951510",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-71",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

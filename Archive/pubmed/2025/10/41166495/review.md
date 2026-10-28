@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, and supplementary figure legends as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors identify RPA as a telomerase processivity factor that stimulates repeat addition processivity (RAP) through both ssDNA binding and a direct interaction with the TERT TEN domain, distinct from the TPP1 binding site. They generate separation-of-function TERT mutants that lose RPA stimulation but retain TPP1–POT1 stimulation, and show these mutants fail to maintain telomere length in cells. Disease-associated TERT mutations at the RPA interface impair RPA stimulation, linking processivity defects to telomere syndromes.
+- **Visible evidence base** In vitro telomerase primer-extension assays, AlphaFold2/3 structural predictions, molecular dynamics simulations, mutagenesis, mass photometry, fluorescence polarization, immunofluorescence, proximity-ligation assay, western blotting, CRISPR/Cas9 cell line generation, Southern blot telomere length analysis
+- **Missing materials affecting confidence** Actual figures and supplementary figures not viewable; numerical data, statistical analyses, and raw gel/blot images not accessible; detailed methods not provided; exact quantification of immunofluorescence and PLA signals not available
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-structured case for RPA as a telomerase processivity factor. The combination of in vitro biochemistry, structural prediction, separation-of-function mutagenesis, and cellular assays provides a multi-layered approach that substantially strengthens the central claim. The identification of disease-associated mutations that specifically impair RPA stimulation adds translational relevance. However, several concerns regarding the quantitative rigor of the cellular assays, the interpretation of the "hand-over" model, and the generalizability of the findings to physiological telomere maintenance contexts need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in telomere biology, telomerase enzymology, DNA replication and repair, and molecular mechanisms of aging and cancer. The work also has relevance for clinicians and geneticists studying telomeropathies, as it provides a mechanistic link between specific TERT mutations and disease. The broader nucleic acid metabolism community interested in RPA's multifunctional roles will also find this of interest.
+- **Major strengths** 1) The identification of RPA as a telomerase processivity factor is novel and conceptually important, expanding the known repertoire of telomerase regulators. 2) The use of AlphaFold predictions to guide separation-of-function mutagenesis is elegant and provides a clear mechanistic framework. 3) The demonstration that disease-associated mutations impair RPA stimulation provides a direct clinical connection. 4) The multi-technique approach (biochemistry, structural prediction, cell biology) lends robustness to the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for physiological relevance
+  - **Claim pointer** "The key observation is that the TERT R83A and T116A/T117A mutants cannot support telomere elongation despite retaining their ability to be stimulated by TPP1–POT1."
+  - **Evidence pointer** Figure 4C, Southern blot analysis; location not provided
+  - **Concern** The telomere length assays are performed in HEK293T cells with overexpression of exogenous TERT from the AAVS1 locus. The authors state that the exogenous TERT "dominates telomerase assembly, leading to a dominant phenotype," but the quantitative extent of this dominance and the baseline telomere length dynamics in these cells are not fully described. The Southern blot data are presented as a single time point or over what time course is unclear. Telomere length changes in such overexpression systems can be influenced by multiple factors, including telomerase-independent pathways, and the magnitude of the observed shortening for the RPA-defective mutants needs to be quantified and statistically validated.
+  - **Why it matters** The central physiological claim of the paper rests on the cellular telomere length phenotype. If the effect is modest or variable, or if the overexpression system creates non-physiological conditions, the conclusion that RPA is "essential" for telomere maintenance in a native context would be weakened.
+  - **Resolution test** Provide quantification of telomere length changes (e.g., mean and SEM) from multiple independent experiments, with statistical comparison between WT and mutant conditions. Clarify the time course of the assay and the number of population doublings. Ideally, demonstrate the phenotype in a system where telomerase is expressed at endogenous levels or where the mutant TERT is the sole source of telomerase activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model support
+  - **Claim pointer** "AlphaFold3 predicted a 'hand-over' conformation that repositioned POT1, with RPA70 instead binding the 5′ overhang, while TPP1 and RPA32 simultaneously engage the TERT TEN domain."
+  - **Evidence pointer** Figure S5; location not provided
+  - **Concern** The "hand-over" model is a speculative interpretation based on AlphaFold3 predictions and in vitro displacement assays. The biochemical data showing RPA displacing pre-bound TPP1–POT1 from ssDNA (fig. S17A,B) are consistent with this model, but the order of events in a cellular context is not directly tested. The authors acknowledge alternative mechanisms, but the model is presented with considerable weight in the Discussion. The relevance of the in vitro displacement assay to the cellular environment, where many other factors compete for ssDNA, is unclear.
+  - **Why it matters** The proposed two-step mechanism (TPP1 recruitment followed by RPA engagement) has implications for how telomerase functions at telomeres. If the model is incorrect or incomplete, the interpretation of the separation-of-function mutant phenotypes could be affected.
+  - **Resolution test** Provide additional experimental evidence supporting the hand-over model, such as kinetic analyses of RPA and TPP1–POT1 binding to telomerase-DNA complexes, or mutational analysis of the predicted RPA70-5′ overhang interaction. Alternatively, temper the claims in the Discussion to more clearly present the model as one of several possible mechanisms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of cellular localization data
+  - **Claim pointer** "All tested mutant reduced RPA signal at telomeres, with single-residue substitutions lowering colocalization by ~50% and double-residue substitutions abolishing it almost completely."
+  - **Evidence pointer** Figure 3B; location not provided
+  - **Concern** The immunofluorescence data quantifying RPA colocalization with telomeres are described qualitatively or with approximate percentages. The number of cells analyzed, the statistical methods used, and the criteria for defining colocalization are not provided. The PLA data are similarly described with a fold-change but without error bars or statistical analysis.
+  - **Why it matters** The conclusion that the TERT–RPA32 interaction is important for RPA accumulation at telomeres depends on the reliability of these imaging-based quantifications. Without proper statistical treatment, the differences between mutants could be within experimental noise.
+  - **Resolution test** Provide detailed quantification methods, including the number of cells/fields analyzed, the colocalization algorithm used, and statistical tests with p-values. Include representative images with scale bars and show the distribution of the data (e.g., scatter plots).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of disease mutation analysis
+  - **Claim pointer** "short telomere syndrome mutations—TERT R83P, F115L, and T116I—that map to the predicted TERT–RPA32 interface... all three mutants impaired RPA-mediated RAP stimulation."
+  - **Evidence pointer** Figure 5B; location not provided
+  - **Concern** The analysis of disease-associated mutations is limited to three mutations, all in the TEN domain. While this is a reasonable starting point, the claim that this reveals a "mechanistic link between impaired processivity and telomeropathies" would be strengthened by a broader survey of disease mutations, including those in other TERT domains or in RPA subunits. The authors do test RPA70 and RPA32 disease variants, but these show no effect on stimulation, which is somewhat contradictory to the overall model.
+  - **Why it matters** The clinical relevance of the findings depends on how broadly the RPA–telomerase interaction is disrupted in patient populations. A limited mutational analysis may not capture the full spectrum of disease mechanisms.
+  - **Resolution test** Expand the analysis to additional disease-associated TERT mutations, particularly those in the TEN domain, and consider testing combinations of mutations. Discuss the implications of the RPA70/RPA32 disease variants that do not affect stimulation in the context of the model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1J,K
+  - **Evidence pointer** Location not provided
+  - **Issue** The non-linear increase in RAP with increasing RPA concentration is described as "hyperbolic," but the fit parameters and the comparison to a linear model are not shown.
+  - **Required correction** Provide the curve-fitting details and statistical comparison to a linear fit to support the claim of a non-linear response.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Figure 2C–E; location not provided
+  - **Issue** The simulation parameters, force field, and simulation length are not described in the provided text.
+  - **Required correction** Include these details in the Methods section to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of negative results
+  - **Affected element** RPA70/RPA32 disease variants
+  - **Evidence pointer** Figure S15; location not provided
+  - **Issue** The finding that RPA70 and RPA32 disease variants stimulate telomerase normally is presented briefly without discussion of what this means for the model.
+  - **Required correction** Add a sentence or two in the Discussion addressing why these variants might not affect telomerase stimulation and what other mechanisms could explain their disease association.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** "RAP" vs "processivity"
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "RAP" and "processivity" are used somewhat interchangeably. While related, they are not identical concepts.
+  - **Required correction** Define both terms early in the manuscript and use them consistently, or clarify the relationship between them.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** AlphaFold models and MD files
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The models are deposited at Zenodo, but the accession number is not provided in the text.
+  - **Required correction** Include the Zenodo DOI or accession number for easy access.
+
+## Risk / unsupported claims
+- The claim that RPA is "essential" for telomere maintenance is based on overexpression systems and may not reflect the requirement at endogenous expression levels. The term "essential" should be used cautiously.
+- The "hand-over" model, while plausible and supported by in vitro data, is not directly tested in cells and should be presented as a working model.
+- The statement that "RPA provides a distinct and indispensable enhancement of repeat-addition processivity" is supported by the separation-of-function mutants, but the quantitative contribution of RPA relative to TPP1–POT1 in cells is not directly measured.
+- The connection between impaired RPA stimulation and telomeropathies is based on a small number of mutations and requires broader validation.
+- The claim that telomerase-mediated RPA localization does not trigger a DDR is based on two markers (RPA32 phosphorylation and 53BP1 foci) and may not capture all DDR pathways.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose Yeast-Gene, a supervised machine learning model using k-mer features from chromatin accessible regions to predict gene expression levels in Saccharomyces cerevisiae. The model reportedly achieves an AUC of 0.90, and interpretability analysis identifies AAGAA and CAAGA as influential motifs potentially associated with mRNA splicing, with implications for synthetic biology regulatory element design.
+- **Visible evidence base** Abstract text only; no dataset description, feature engineering details, model architecture, cross-validation strategy, baseline comparisons, or statistical significance tests are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, code availability, and any details on data preprocessing, model selection, hyperparameter tuning, and motif validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of machine learning to link chromatin accessibility with gene expression in yeast. However, the current evidence base is insufficient to evaluate the technical soundness, generalizability, or biological validity of the claims. The reported AUC of 0.90 lacks context regarding baselines, dataset size, and validation approach. The motif interpretation is intriguing but unsupported by any experimental or statistical validation in the provided material.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, yeast genomics, and synthetic biology would be interested. The potential to predict expression from chromatin accessibility could aid promoter design and strain engineering. Computational biologists working on regulatory genomics may also find the k-mer feature approach relevant.
+- **Major strengths** The problem is well motivated, as linking chromatin accessibility to expression is an underexplored area in yeast. The focus on local sequences of a few hundred base pairs is a practical and interpretable design choice. The interpretability analysis adds a biological dimension beyond predictive performance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model achieves an Area Under the Curve (AUC) of 0.90.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The AUC is reported without any description of the dataset, the number of genes or accessible regions used, the train/test split, cross-validation scheme, or the baseline models compared. Without this context, the performance claim cannot be assessed for overfitting, class imbalance, or generalizability.  
+  - **Why it matters** A single AUC value is insufficient to establish that the model is predictive in a meaningful way. If the dataset is small or the task is trivially separable, the reported performance may not reflect real predictive utility.  
+  - **Resolution test** Provide dataset size, class distribution, validation strategy, and comparison to at least one baseline model (e.g., random forest, logistic regression, or a sequence composition-based null model). Report precision, recall, and F1 score in addition to AUC.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Biological validity  
+  - **Claim pointer** AAGAA and CAAGA are highly influential motifs in the prediction of gene expression, and both motifs are potentially associated with mRNA splicing.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim that these motifs are associated with mRNA splicing is presented without any supporting evidence, such as enrichment analysis, known splicing factor binding sites, or experimental validation. The phrase "potentially associated" is vague and does not establish a mechanistic link.  
+  - **Why it matters** The biological interpretation is a key contribution of the work. If the motif association is speculative, the claim may mislead readers about the regulatory role of these sequences.  
+  - **Resolution test** Provide statistical enrichment of these motifs against known splicing-related motifs or experimental evidence (e.g., knockdown or mutation studies). At minimum, cite prior literature that directly links these motifs to splicing in yeast.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** Yeast-Gene is a supervised machine learning model that uses k-mer features from chromatin accessible regions to predict gene expression.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No details are provided on the k-mer length, feature encoding, model type, training procedure, or data source for chromatin accessibility. The model cannot be reproduced or evaluated from the abstract alone.  
+  - **Why it matters** Reproducibility is a core requirement for computational biology. Without methodological details, the work cannot be independently verified or built upon.  
+  - **Resolution test** Provide a full methods section with all hyperparameters, data accession numbers, and code availability. If the full manuscript is available, ensure these details are included.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model name and scope  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The name "Yeast-Gene" is generic and does not convey the specific focus on chromatin accessibility-based prediction.  
+  - **Required correction** Consider a more descriptive name or clarify in the abstract that the model is specific to chromatin accessibility features.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Performance metrics  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** Only AUC is reported. For a binary classification task, additional metrics such as accuracy, sensitivity, and specificity would provide a more complete picture.  
+  - **Required correction** Report a confusion matrix or at least sensitivity and specificity values.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Model applicability  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not state whether the model was tested on held-out chromosomes or independent datasets, which is important for assessing generalizability.  
+  - **Required correction** Specify the validation strategy and whether cross-chromosome or cross-condition testing was performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of validation context for AUC), R1-M2 (unsupported biological interpretation), R1-M3 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of k-mer features to chromatin accessibility for expression prediction in yeast is a reasonable extension of existing work, but the abstract does not demonstrate a novel conceptual advance.  
+  - Scientific importance: Moderate. The topic is relevant to transcriptional regulation and synthetic biology, but the significance depends on the robustness of the predictive model and the validity of the motif interpretation, which are not established here.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and yeast geneticists. The abstract does not frame the findings in a way that would attract a broader biological audience.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and validation context prevents evaluation.  
+  - Readability for nonspecialists: The abstract is clear and concise, but the technical claims (AUC, k-mer features) are not explained in sufficient depth for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the necessary detail to assess the validity of the performance claim, the biological interpretation, or the reproducibility of the method. A full manuscript with methods, validation, and supporting evidence would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The AUC of 0.90 is unsupported without dataset description, baseline comparison, or validation strategy.
+- The association of AAGAA and CAAGA with mRNA splicing is unsupported by any evidence in the abstract.
+- The claim that the model can contribute to rational design of high-expression regulatory elements is speculative and not backed by any experimental demonstration.
+- The generalizability of the model to other yeast strains or conditions is not addressed and cannot be inferred from the abstract.

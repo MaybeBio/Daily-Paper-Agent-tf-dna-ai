@@ -1,0 +1,127 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the provided manuscript. No independent verification of data or code was performed.
+- **Shared manuscript claim summary** The authors present a comprehensive atlas of transposable element (TE) transcripts, encoded proteins, structural domains, and regulatory networks in Arabidopsis thaliana, based on long-read and short-read transcriptomics, structural prediction, and co-expression analysis. They report hundreds of transcriptionally competent TEs, novel protein domains, evidence for multiprotein complex formation, and integration of TE expression into cellular transcriptional networks.
+- **Visible evidence base** Abstract, full introduction, results sections (narrative), discussion, methods, and references to supplementary figures/tables (S1–S17, Tables 1–2). No raw data, code, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S17, Tables 1–2), raw sequencing data, structural prediction outputs, DAP-seq processing details, and code/parameters for all bioinformatic pipelines. These are essential for verifying key claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and understudied area: the functional annotation of TE-encoded products in a model organism. The integration of long-read transcriptomics, structural prediction, and regulatory network analysis is ambitious and timely. However, the current version has several technical and interpretive gaps that prevent full support of the conclusions. The lack of accessible supplementary data and some methodological ambiguities reduce confidence in the central claims. With substantial revisions and provision of supporting materials, this could become a valuable resource for the community.
+- **Who would be interested in the results, and why** Researchers studying transposable element biology, genome evolution, epigenetics, and gene regulation in plants and eukaryotes generally. The structural and regulatory insights may also interest computational biologists developing methods for TE annotation and protein structure prediction.
+- **Major strengths** 1) The use of long-read sequencing in epigenetic mutants to capture TE transcripts is a strong experimental design. 2) The combination of sequence-based and structure-based domain discovery is innovative and likely to reveal novel biology. 3) The integration of TE expression into co-expression networks with cellular genes provides a systems-level view. 4) The identification of specific transcription factors and cis-regulatory elements for TE regulation is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 80% of TE-derived transcripts are incorrectly annotated or missing in TAIR10.
+  - **Evidence pointer** Results section "High quality functional annotation of transposable element-encoded genes", Figure 1D–E, Figure S3
+  - **Concern** The estimate of 80% incorrect or missing annotation is based on comparison to TAIR10, but the criteria for "incorrect" are not fully defined. The authors state that only 13.4% of TE transcript isoforms and 34% of exon-exon junctions matched existing annotations, but the denominator and the definition of a "match" are unclear. It is possible that some transcripts are partial or represent rare isoforms that are not expected to be in TAIR10. The claim of 80% missing or incorrect is strong and requires a more rigorous and transparent comparison, including an assessment of how many transcripts are supported by independent evidence (e.g., short reads, ORF conservation).
+  - **Why it matters** This claim is central to the paper's premise that current TE annotations are inadequate. If overstated, it undermines the novelty and utility of the new annotation.
+  - **Resolution test** Provide a detailed breakdown of the comparison: how many transcripts are novel, how many are partial, how many have alternative splice sites, and how many are supported by short-read data. Show that the 80% figure is robust to different thresholds for "matching" and "correct."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have identified 3131 compact structural domains (SDs) and 938 different types of TE-encoded SDs, with 83.3% of all putative TE-encoded proteins having at least one annotated SD.
+  - **Evidence pointer** Results section "A hidden diversity of TE-encoded structural domains", Figures 3–4, Figures S8–S10
+  - **Concern** The structural prediction pipeline is described only briefly. The authors used ColabFold (AlphaFold2) but do not specify the version, the multiple sequence alignment generation, the confidence thresholds for domain definition, or how they distinguished true domains from artifacts. The clustering of SDs into 201 clusters and 737 singletons is not explained in sufficient detail. The claim that 83.3% of proteins have an annotated SD is dependent on these thresholds, which are not provided.
+  - **Why it matters** The structural analysis is a major novel contribution. If the methods are not reproducible or the thresholds are arbitrary, the conclusions about novel domains and their functions are not reliable.
+  - **Resolution test** Provide full details of the structural prediction and clustering pipeline, including all parameters and thresholds. Show that the results are robust to reasonable variations in these parameters. Make the structural models and domain assignments available for independent verification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "TE expression is highly intertwined with the transcriptional network of cellular genes" and identify specific transcription factors and cis-regulatory elements associated with TE regulation.
+  - **Evidence pointer** Results section "Intertwined regulatory networks of TEs and genes", Figures 6, Figures S14–S17
+  - **Concern** The co-expression network analysis is based on 462 public RNA-seq datasets, but the authors do not describe how these datasets were selected, normalized, or batch-corrected in sufficient detail. The assignment of biological function to clusters via GO enrichment is not shown. The DAP-seq analysis is described as "TE-aware," but the modifications to the original pipeline are not specified. The identification of 1204 co-expressed TF-TE pairs is presented without a clear statistical framework for what constitutes "co-expression" and how false positives are controlled.
+  - **Why it matters** The regulatory network analysis is a key part of the paper's claim to provide a "functional atlas." Without rigorous methods, the specific TF-TE interactions and regulatory insights are not credible.
+  - **Resolution test** Provide a detailed description of the network construction, including the choice of beta parameter, the handling of batch effects, and the criteria for cluster assignment. Show the GO enrichment results for all clusters. Describe the DAP-seq pipeline modifications and provide a statistical test for the enrichment of TF-TE co-expression pairs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors identify a single ATGP3 element (AT1TE42395) with potential ribosomal frameshifting, based on the presence of a 0-frame GAG and a -1-frame polyprotein.
+  - **Evidence pointer** Results section "A hidden diversity of TE-encoded structural domains", Figure S11
+  - **Concern** The evidence for ribosomal frameshifting is based solely on the presence of two ORFs in different frames. The authors do not provide experimental validation (e.g., ribosome profiling, reporter assays) or even a detailed sequence analysis of the putative frameshift site (e.g., slippery sequence, pseudoknot). The claim is speculative and not well supported.
+  - **Why it matters** This is a specific and potentially interesting finding, but as presented it is not convincing. Overstating this claim could mislead readers.
+  - **Resolution test** Provide additional evidence, such as sequence conservation of the frameshift site across Arabidopsis accessions or related species, or experimental validation. Alternatively, soften the claim to "potential" and clearly state the lack of functional validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction use jargon (e.g., "domestication," "self-encoded factors") without sufficient context for a general scientific audience. The significance of the work could be clearer.
+  - **Required correction** Briefly define key terms and state the broader implications of the atlas for understanding genome evolution and TE biology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Plant materials"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the plant growth conditions is minimal. It is unclear if the plants were grown in soil or on plates, and the light intensity is not specified.
+  - **Required correction** Provide full growth conditions, including substrate, light intensity, and any other relevant parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Full-length cDNA nanopore sequencing"
+  - **Evidence pointer** Methods section
+  - **Issue** The RNA extraction and library preparation are described, but the number of biological replicates and the total RNA quantity per sample are not stated.
+  - **Required correction** Specify the number of replicates and the amount of RNA used for library preparation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Functional annotation of TE-encoding genes"
+  - **Evidence pointer** Methods section
+  - **Issue** The criteria for assigning transcripts to TAIR10 annotations are described, but the handling of multi-mapping reads and the threshold for "reciprocal coverage" are not fully explained.
+  - **Required correction** Clarify the exact parameters used for read mapping and transcript assignment, and state how multi-mapping reads were treated.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Conserved domain prediction of TE-encoded proteins"
+  - **Evidence pointer** Methods section
+  - **Issue** The use of CDD database version 3.20 is mentioned, but the search parameters and the threshold for a "significant" hit are not provided.
+  - **Required correction** Specify the e-value threshold and any other parameters used for domain prediction.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Structural domain prediction of TE-encoded proteins"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of ColabFold usage is incomplete. The authors do not state whether the full-length protein or individual domains were modeled, or how the pLDDT threshold was applied.
+  - **Required correction** Provide details on the modeling strategy, including the input sequences, the number of recycles, and the pLDDT threshold for defining high-confidence regions.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Analysis of publicly available transcriptome dataset"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the RNA-seq data processing is brief. The authors do not state the read length, the alignment parameters, or the criteria for filtering low-quality samples.
+  - **Required correction** Provide full details of the RNA-seq processing pipeline, including the STAR parameters and the filtering criteria.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Coexpression network analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The choice of beta = 10 for the WGCNA soft-thresholding is not justified. The authors do not show the scale-free topology fit index or the mean connectivity for this choice.
+  - **Required correction** Provide the scale-free topology fit analysis and justify the choice of beta.
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Analysis of DAP-seq data"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the DAP-seq processing is incomplete. The authors do not specify the peak-calling threshold or how they handled reads mapping to repetitive regions.
+  - **Required correction** Provide full details of the DAP-seq processing, including the peak-calling parameters and the handling of multi-mapping reads.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to the central claims of the manuscript and require additional data or analysis to resolve.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its scope and approach, particularly the use of long-read sequencing in epigenetic mutants and the integration of structural prediction. However, the novelty of some findings (e.g., TE regulatory networks) is incremental.
+  - **Scientific importance** The potential to provide a comprehensive TE functional atlas is significant, but the current evidence does not fully support the broad claims. The importance is high if the technical concerns are resolved.
+  - **Interdisciplinary readership** The work will appeal to plant biologists, evolutionary biologists, and computational biologists. The structural and regulatory findings may also interest a broader audience, but the presentation is currently too specialized.
+  - **Technical soundness** The experimental design is sound, but the bioinformatic analyses lack sufficient detail and validation. The structural predictions and network analyses need more rigorous description and robustness testing.
+  - **Readability for nonspecialists** The manuscript is dense and uses jargon without adequate explanation. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important topic and has the potential to be a valuable resource, but the current version does not provide sufficient evidence for the central claims. Major revisions are required, including full methodological transparency, robustness testing, and provision of supporting data.
+
+## Risk / unsupported claims
+- The claim that 80% of TE-derived transcripts are incorrectly annotated or missing in TAIR10 is not fully supported by the data presented.
+- The identification of 938 different types of TE-encoded SDs and the assignment of functions to 83.3% of TE-encoded proteins is not reproducible without detailed methods and thresholds.
+- The claim that TE expression is "highly intertwined" with cellular gene networks is based on co-expression analysis that is not fully described or statistically validated.
+- The potential ribosomal frameshifting in ATGP3 is speculative and lacks experimental or strong computational support.
+- The statement that "closely related TE families have switched between mechanisms" for encoding multiple functions is not directly demonstrated with comparative analysis.

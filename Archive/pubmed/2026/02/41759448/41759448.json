@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "41759448",
+    "doi": "10.1016/j.ejrad.2026.112738",
+    "title": "Concurrent driver mutations induce distinct tumour morphologies on radiological imaging."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Most radiogenomic studies examine single driver mutations in isolation, despite evidence that co-occurring driver alterations are common and functionally interacting in cancer. Whether concurrent mutations produce distinct imaging phenotypes or simply average single-mutation effects remains unknown. METHODS: A multi-cancer cohort of 1235 patients with 8633 segmented lesions from contrast-enhanced CT scans and matched genomic profiling was retrospectively assembled. Patients with no driver mutations, TP53 + other mutations, TP53-only, EGFR-only, KRAS-only, and strictly TP53 + EGFR or TP53 + KRAS mutations were compared. Primary analyses were conducted in the original feature space at the patient level (via median aggregation). Separation between mutation groups was quantified using centroid distance and cross-group inter-patient distance with 1000 patient-aware label-stratified bootstraps. Lesion-level dimensionality reduction was used for descriptive visualisation and mixed-effects models adjusted for tumour site. A cross-validated parental-axis geometry analysis tested emergence beyond additivity. RESULTS: Single-mutant cohorts formed distinct phenotypes: EGFR-only versus KRAS-only centroid distance 18.4 (95% CI = 12.0-23.8); TP53-only versus EGFR-only 16.9 (12.3-21.3). Co-mutated tumours were separate from parents in the patient-level and lesion-level space. Patient-level centroid distances were TP53-only versus TP53 + EGFR = 13.4 (10.1-16.9); EGFR-only versus TP53 + EGFR = 7.7 (5.3-11.6); TP53-only versus TP53 + KRAS = 6.4 (4.5-9.1). Co-mutated lesions were morphologically closer to TP53-only than to the EGFR-only or KRAS-only cohort (Mahalanobis p < 0.001). Emergence beyond additivity was supported for TP53 + EGFR (off-axis p = 0.009) and trended for TP53 + KRAS (p = 0.062). CONCLUSIONS: Across different cancers, CT radiomics identified genotype-specific phenotypes and showed that co-mutations produce distinct morphologies. Co-mutation context should be modelled explicitly in radiogenomics and prospectively validated for non-invasive molecular stratification.",
+    "keywords": [
+      "Artificial Intelligence",
+      "Co-mutations",
+      "Computed Tomography",
+      "EGFR",
+      "KRAS",
+      "Precision Oncology",
+      "Radiogenomics",
+      "Radiomics",
+      "TP53",
+      "Tumour Morphology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation/genetics",
+      "*Tomography, X-Ray Computed/methods",
+      "*Neoplasms/genetics/diagnostic imaging",
+      "Female",
+      "Proto-Oncogene Proteins p21(ras)/genetics",
+      "Male",
+      "ErbB Receptors/genetics",
+      "Phenotype",
+      "Radiomics",
+      "Retrospective Studies",
+      "Tumor Suppressor Protein p53/genetics",
+      "Genetic Predisposition to Disease/genetics/epidemiology",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rodriguez Sanchez, Diana Ivonne",
+        "Vanneste, Thera",
+        "Middelkoop, Julian",
+        "Maxouri, Olga",
+        "Rostami, Sajjad",
+        "Ursprung, Stephan",
+        "Boveradze, Nino",
+        "Chupetlovska, Kalina",
+        "Castagnoli, Francesca",
+        "Landolfi, Federica",
+        "Hong, Eun Kyoung",
+        "Pizzi, Andrea Delli",
+        "Gennaro, Nicolo",
+        "Snaebjornsson, Petur",
+        "Bodalal, Zuhir",
+        "Beets-Tan, Regina"
+      ],
+      "short_names": [
+        "Rodriguez Sanchez DI",
+        "Vanneste T",
+        "Middelkoop J",
+        "Maxouri O",
+        "Rostami S",
+        "Ursprung S",
+        "Boveradze N",
+        "Chupetlovska K",
+        "Castagnoli F",
+        "Landolfi F",
+        "Hong EK",
+        "Pizzi AD",
+        "Gennaro N",
+        "Snaebjornsson P",
+        "Bodalal Z",
+        "Beets-Tan R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands; Department of Diagnostic and Interventional Radiology, Tubingen University Hospital, Karls-Eberhardt University, 72076 Tubingen, Germany.",
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands; Department of Radiology, American Hospital Tbilisi, Tbilisi, Georgia.",
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Radiology, Royal Marsden Hospital, London, UK; Division of Radiotherapy and Imaging, The Institute of Cancer Research, London, UK.",
+        "Radiology Unit, Sant'Andrea Hospital, Sapienza University of Rome, Rome, Italy.",
+        "Department of Radiology, Stanford University, Palo Alto, CA, USA.",
+        "Department of Innovative Technologies in Medicine & Dentistry, G. d'Annunzio University of Chieti-Pescara, Chieti, Italy; Institute for Advanced Biomedical Technologies, G. d'Annunzio University of Chieti-Pescara, Chieti, Italy.",
+        "Feinberg School of Medicine, Northwestern University, NMH/Arkes Family Pavilion Suite 800, 676 N Saint Clair, Chicago, IL 60611, USA; Clinic of Radiology, Imaging Institute of Southern Switzerland (IIMSI), Ente Ospedaliero Cantonale (EOC), 6900 Lugano, Switzerland.",
+        "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands; Faculty of Medicine, University of Iceland, Reykjavik, Iceland.",
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; The Netherlands Cancer Institute, Amsterdam, The Netherlands; Faculty of Health Sciences, University of Southern Denmark, Odense, Denmark; Maastricht Radiation Oncology, Maastricht, The Netherlands. Electronic address: r.beetstan@maastrichtuniversity.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rodríguez Sánchez, Diana Ivonne",
+        "short_name": "Rodríguez Sánchez DI",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vanneste, Thera",
+        "short_name": "Vanneste T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Middelkoop, Julian",
+        "short_name": "Middelkoop J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Maxouri, Olga",
+        "short_name": "Maxouri O",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Rostami, Sajjad",
+        "short_name": "Rostami S",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ursprung, Stephan",
+        "short_name": "Ursprung S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands; Department of Diagnostic and Interventional Radiology, Tübingen University Hospital, Karls-Eberhardt University, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Boveradze, Nino",
+        "short_name": "Boveradze N",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands; Department of Radiology, American Hospital Tbilisi, Tbilisi, Georgia."
+        ]
+      },
+      {
+        "full_name": "Chupetlovska, Kalina",
+        "short_name": "Chupetlovska K",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Castagnoli, Francesca",
+        "short_name": "Castagnoli F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Royal Marsden Hospital, London, UK; Division of Radiotherapy and Imaging, The Institute of Cancer Research, London, UK."
+        ]
+      },
+      {
+        "full_name": "Landolfi, Federica",
+        "short_name": "Landolfi F",
+        "identifiers": [],
+        "affiliations": [
+          "Radiology Unit, Sant'Andrea Hospital, Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Hong, Eun Kyoung",
+        "short_name": "Hong EK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pizzi, Andrea Delli",
+        "short_name": "Pizzi AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Innovative Technologies in Medicine & Dentistry, G. d'Annunzio University of Chieti-Pescara, Chieti, Italy; Institute for Advanced Biomedical Technologies, G. d'Annunzio University of Chieti-Pescara, Chieti, Italy."
+        ]
+      },
+      {
+        "full_name": "Gennaro, Nicolo",
+        "short_name": "Gennaro N",
+        "identifiers": [],
+        "affiliations": [
+          "Feinberg School of Medicine, Northwestern University, NMH/Arkes Family Pavilion Suite 800, 676 N Saint Clair, Chicago, IL 60611, USA; Clinic of Radiology, Imaging Institute of Southern Switzerland (IIMSI), Ente Ospedaliero Cantonale (EOC), 6900 Lugano, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Snaebjornsson, Petur",
+        "short_name": "Snaebjornsson P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands; Faculty of Medicine, University of Iceland, Reykjavik, Iceland."
+        ]
+      },
+      {
+        "full_name": "Bodalal, Zuhir",
+        "short_name": "Bodalal Z",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; Department of Radiology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Beets-Tan, Regina",
+        "short_name": "Beets-Tan R",
+        "identifiers": [],
+        "affiliations": [
+          "GROW Research Institute for Oncology and Reproduction, Maastricht University, Maastricht, The Netherlands; The Netherlands Cancer Institute, Amsterdam, The Netherlands; Faculty of Health Sciences, University of Southern Denmark, Odense, Denmark; Maastricht Radiation Oncology, Maastricht, The Netherlands. Electronic address: r.beetstan@maastrichtuniversity.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of radiology"
+    ],
+    "journal_abbrev": [
+      "Eur J Radiol"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/28 00:40",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41759448",
+      "41306958",
+      "38383258",
+      "41067858",
+      "41101001",
+      "28453411",
+      "29298682",
+      "42189943",
+      "32185618",
+      "29335867",
+      "27518729",
+      "36379126",
+      "30089591",
+      "24169260",
+      "42068765",
+      "41659257",
+      "40382269",
+      "37706584",
+      "40441025",
+      "30459450",
+      "34502160",
+      "32005111",
+      "30770327",
+      "29454587",
+      "39609084",
+      "40640822",
+      "40205411",
+      "26477306",
+      "35051856",
+      "28285689",
+      "40486872",
+      "30885352",
+      "31200821",
+      "34359836",
+      "40410020",
+      "31619231",
+      "25546673",
+      "41320659",
+      "38866964",
+      "28088512",
+      "23154553",
+      "33325154",
+      "26184520",
+      "23456389",
+      "41751593",
+      "20018398",
+      "38825903",
+      "40916818",
+      "30605727",
+      "19096302",
+      "31199501",
+      "29089357",
+      "40528743",
+      "41597409",
+      "32859638",
+      "34792696",
+      "39821490",
+      "40998804",
+      "32299384",
+      "41878440",
+      "40928069",
+      "23965232",
+      "26160192",
+      "22982650",
+      "31016879",
+      "31783917",
+      "38702822",
+      "42010540",
+      "31228622",
+      "23938291",
+      "42041735",
+      "25969368",
+      "30391576",
+      "25628445",
+      "41153394",
+      "30679079",
+      "38402342",
+      "41029824",
+      "22425996",
+      "36751700",
+      "39102631",
+      "24990403",
+      "28935015",
+      "42332497",
+      "35702826",
+      "42121109",
+      "31414580",
+      "32573775",
+      "40165604",
+      "33507343",
+      "37368936",
+      "19096301",
+      "31097096",
+      "32072746",
+      "40680467",
+      "30878600",
+      "39740426",
+      "35385963",
+      "34599863",
+      "30820786"
+    ],
+    "review": [
+      "41759448",
+      "42068765",
+      "32299384"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0720-048X(26)00086-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0720-048X(26)00086-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      }
+    ],
+    "text_mined": []
+  }
+}

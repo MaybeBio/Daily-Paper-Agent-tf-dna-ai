@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that MUSTANG4 (MUG4), a transcription factor derived from Mutator-like element (MULE) transposons, functions as an ionic stress sensor and the primary transcriptional driver of salt-induced autophagy in Arabidopsis. They propose that ionic stress compacts the intrinsically disordered region (IDR) of MUG4, driving liquid-liquid phase separation, and that MUG4 directly activates autophagy genes across multiple functional stages. They further claim that IDR deletion abolishes phase separation, reduces autophagy gene activation and autophagic flux, and fails to rescue the salt-sensitive phenotype of mug4 mutants.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, CUT&Tag and RNA-seq data processing and quality metrics, molecular dynamics simulation parameters, in vitro phase separation assay details, FRET-FLIM experimental controls, mutant and transgenic line construction details, and any validation of the MUG4-IDR compaction mechanism
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant finding that could link transposon exaptation, phase separation, and transcriptional control of autophagy in plant salt stress responses. The conceptual advance is notable, particularly the proposal of a dedicated ionic stress sensor distinct from osmotic sensing. However, the evidence base available for this review is limited to the abstract, and several critical claims require rigorous experimental validation that cannot be assessed from the supplied material. The claim that MUG4 is the "primary transcriptional driver" of salt-induced autophagy is strong and would require comprehensive genetic and transcriptomic evidence. The phase separation mechanism, while plausible, needs careful biophysical and genetic corroboration. Overall, the work is potentially important but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Plant stress biologists studying salt tolerance mechanisms, autophagy researchers interested in transcriptional regulation of the pathway, scientists working on transposable element exaptation and gene regulatory evolution, and researchers in the phase separation field who study stress-responsive biomolecular condensates. The work could also interest those studying the convergence of abiotic stress sensing and cellular degradation pathways.
+- **Major strengths** The conceptual framing is clear and distinguishes ionic from osmotic stress perception, addressing a recognized gap. The proposed mechanism linking transposon-derived transcription factors, phase separation, and autophagy is novel and interdisciplinary. The use of multiple orthogonal approaches (FRET-FLIM, in vitro assays, coarse-grained simulations, CUT&Tag, RNA-seq) suggests a comprehensive experimental strategy, though details are not available for verification.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** MUG4 functions as an ionic stress sensor and the primary transcriptional driver of salt-induced autophagy in Arabidopsis
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that MUG4 is the "primary transcriptional driver" of salt-induced autophagy, but no quantitative evidence is presented to support this primacy. It is unclear whether other transcription factors contribute comparably, whether MUG4 loss abolishes or only partially reduces salt-induced autophagy, and what the magnitude of the effect is. The term "primary" implies a dominant role that requires demonstration through comparative analysis, such as the fraction of salt-induced autophagy genes dependent on MUG4, or the extent of autophagic flux reduction in mug4 mutants relative to wild type.
+  - **Why it matters** Overstating the hierarchical role of MUG4 could mislead the field about the regulatory architecture of salt-induced autophagy. If MUG4 is one of several partially redundant regulators, the conclusion would need to be tempered. The claim of "primary driver" is central to the paper's significance and must be quantitatively supported.
+  - **Resolution test** Provide data showing the proportion of salt-induced autophagy genes that are MUG4-dependent, the fold-change in autophagic flux in mug4 mutants versus wild type under salt stress, and ideally a comparison with other candidate transcription factors. If MUG4 controls the majority of the response, the claim is supported; otherwise, the language should be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** Ionic stress compacts the IDR of MUG4 and drives liquid-liquid phase separation of the full-length protein
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The causal chain from ionic stress to IDR compaction to phase separation is asserted but the evidence is only listed by technique name. No quantitative details are given, such as the magnitude of FRET-FLIM changes, the salt concentrations used in vitro, the conditions under which phase separation was observed, or whether phase separation occurs in cells at physiologically relevant ionic strengths. The coarse-grained simulations are mentioned but their predictive accuracy and relationship to experimental conditions are not described. It is also unclear whether IDR compaction is necessary and sufficient for phase separation or merely correlated.
+  - **Why it matters** The phase separation mechanism is a central novelty of the paper. If the biophysical evidence is weak or the conditions are non-physiological, the mechanistic claim would be substantially weakened. The distinction between ionic stress and osmotic stress sensing depends on this mechanism being specific and robust.
+  - **Resolution test** Provide quantitative FRET-FLIM data with appropriate controls, in vitro phase separation assays across a range of monovalent cation concentrations with clear threshold effects, and simulation parameters that match experimental conditions. Demonstrate that IDR compaction precedes or is required for phase separation, and that phase separation occurs in planta under salt stress conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic rescue
+  - **Claim pointer** IDR deletion abolishes phase separation, reduces autophagy gene activation and autophagic flux, and prevents the truncated protein from rescuing the salt-sensitive phenotype of mug4 mutants
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports that IDR deletion abolishes phase separation and impairs function, but it does not specify whether the truncated protein is expressed at levels comparable to the full-length protein. If the IDR-deleted protein is unstable or misfolded, the observed loss of function could be due to protein degradation rather than loss of phase separation per se. The abstract also does not state whether the IDR-deleted protein retains DNA binding and transcriptional activation activity, which would be important to distinguish a phase separation-specific role from a general loss of MUG4 function.
+  - **Why it matters** The conclusion that phase separation is functionally required for MUG4 activity depends on the IDR deletion being a clean perturbation. If the deletion compromises protein stability or other functions, the causal link between phase separation and autophagy activation is not established.
+  - **Resolution test** Show that the IDR-deleted protein is expressed at similar levels to full-length MUG4, retains nuclear localization and DNA binding, and still activates a minimal reporter gene. Ideally, complement with a phase separation-defective but otherwise functional mutant to strengthen the causal argument.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of ionic stress sensing
+  - **Claim pointer** MUG4 responds to elevated monovalent cation concentrations, but not chloride anions or osmotic stress, thereby distinguishing ionic from osmotic stress
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that MUG4 distinguishes ionic from osmotic stress, but the range of cations tested, the concentration thresholds, and the specificity for Na+ versus other monovalent cations are not described. It is also unclear whether the response is to ionic strength per se or to specific ions. The claim of specificity is important for the conceptual advance but requires a systematic ion and osmolyte screen.
+  - **Why it matters** If MUG4 responds broadly to ionic strength rather than specifically to Na+, the interpretation of its role in salt stress would need refinement. The distinction between ionic and osmotic sensing is a key selling point of the paper and must be rigorously demonstrated.
+  - **Resolution test** Provide a panel of monovalent and divalent cations, chloride and other anions, and non-ionic osmolytes tested across a concentration range, with clear response thresholds. Show that the response is specific to cations and not to osmotic changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "ionic stress" is used throughout but is not explicitly defined. It is unclear whether this refers to Na+ toxicity specifically, ionic strength effects, or a broader category of ion imbalances.
+  - **Required correction** Define "ionic stress" operationally in the abstract or introduction, specifying the ions and concentrations used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Evolutionary claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that MUG4 is "derived from" MULE transposons and mentions "exapted transposable elements," but no information is provided about the evolutionary analysis, such as the phylogenetic evidence for transposon origin or the degree of sequence divergence from canonical MULE elements.
+  - **Required correction** Briefly state the evidence for transposon derivation, such as sequence similarity to MULE transposases or phylogenetic analysis, or refer to a figure that presents this data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Autophagy activation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims that MUG4 activates autophagy genes "spanning multiple functional stages of the pathway" but does not indicate how many genes or what fraction of the autophagy gene family is regulated.
+  - **Required correction** Provide a number or percentage of autophagy genes regulated by MUG4, and specify the criteria used to define direct targets.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to animal systems
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions TFEB as the animal master regulator but does not discuss whether MUG4 shares any structural or functional features with TFEB beyond the general role of activating autophagy genes.
+  - **Required correction** Add a sentence noting whether MUG4 and TFEB share any domains, regulatory mechanisms, or target gene features, or explicitly state that they are functionally analogous but structurally unrelated.
+
+## Risk / unsupported claims
+- The claim that MUG4 is the "primary transcriptional driver" of salt-induced autophagy is unsupported without quantitative genetic and transcriptomic data.
+- The causal link between IDR compaction, phase separation, and functional output is asserted but not verifiable from the abstract alone.
+- The specificity of MUG4 for ionic over osmotic stress is stated but not demonstrated with a systematic screen.
+- The evolutionary claim of transposon derivation and exaptation is not supported by any presented evidence.
+- The physiological relevance of the phase separation observations cannot be assessed without in planta imaging data and concentration measurements.
+- The claim that MUG4 distinguishes ionic from osmotic stress at the level of perception is a strong mechanistic statement that requires direct sensing assays, which are not described in sufficient detail.

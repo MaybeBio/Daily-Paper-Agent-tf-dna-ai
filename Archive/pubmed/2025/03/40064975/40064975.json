@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "40064975",
+    "doi": "10.1038/s41598-025-88775-x",
+    "title": "Investigating ferroptosis-related genes NFE2L2 in neutrophils for ankylosing spondylitis: therapeutic potential of cassia twigs."
+  },
+  "content": {
+    "abstract": "We determined the relationship between ferroptosis and immune cells in ankylosing spondylitis and the role of the Chinese herbal medicine Cassia twigs in treating ankylosing spondylitis. We analyzed clinical data on ankylosing spondylitis, transcriptome data, single-cell sequencing data, and genes related to ferroptosis and Cassia twigs. Clinical variables related to AS were selected through logistic regression analysis of the clinical data combined with machine learning. GSEA and enrichment analysis were performed on genes related to ferroptosis, combined with transcriptome data and drug-related genes, to identify the key genes and drug targets related to AS, as well as, the key immune cells. Then, the single-cell data and cell subtypes were analyzed. Finally, the interconnections between immune cells were analyzed through intercellular communication. Five variables, including neutrophils, were screened for clinical data analysis. The AUC of the experimental group was 0.859 and that of the validation group was 0.807. Ferroptosis gene NFE2L2 was identified as the final drug target of AS; it was upregulated in AS and downregulated in the control group by immunohistochemical verification, both of which were statistically significant (P < 0.001). Neutrophils were divided into two subgroups: high expression of NFE2L2 and low expression of NFE2L2. Through molecular docking, Cassia twigs were found to effectively act on the ferroptosis gene NFE2L2. Neutrophils act as important immune cells in AS. The twigs of the Chinese herb Cassia can treat AS by acting on the protein structure of the ferroptosis gene NFE2L2.",
+    "keywords": [
+      "Ankylosing spondylitis",
+      "Cassia twigs",
+      "Cell communication",
+      "Molecular docking",
+      "Neutrophils"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/genetics/drug effects",
+      "*Neutrophils/metabolism/drug effects",
+      "*NF-E2-Related Factor 2/genetics/metabolism",
+      "*Spondylitis, Ankylosing/drug therapy/genetics/metabolism",
+      "Male",
+      "Female",
+      "Adult",
+      "*Cassia/chemistry",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Tianyou",
+        "Zhu, Jichong",
+        "Zhan, Xinli",
+        "Zhou, Chenxing",
+        "Huang, Chengqian",
+        "Wu, Shaofeng",
+        "Zhang, Bin",
+        "Feng, Sitan",
+        "Chen, Jiarui",
+        "Xue, Jiang",
+        "Yang, Zhenwei",
+        "Liu, Chong"
+      ],
+      "short_names": [
+        "Chen T",
+        "Zhu J",
+        "Zhan X",
+        "Zhou C",
+        "Huang C",
+        "Wu S",
+        "Zhang B",
+        "Feng S",
+        "Chen J",
+        "Xue J",
+        "Yang Z",
+        "Liu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China.",
+        "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China. liuchong@stu.gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Tianyou",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jichong",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Xinli",
+        "short_name": "Zhan X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chenxing",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Chengqian",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shaofeng",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Feng, Sitan",
+        "short_name": "Feng S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiarui",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xue, Jiang",
+        "short_name": "Xue J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhenwei",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chong",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangxi Medical University, No.6 Shuangyong Road, Nanning, 530021, Guangxi, People's Republic of China. liuchong@stu.gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/11 06:26",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "41890758"
+    ],
+    "refs": [
+      "39238946",
+      "39208524",
+      "39126567",
+      "38537677",
+      "38035662",
+      "38019769",
+      "37977819",
+      "37947059",
+      "37928554",
+      "37772380",
+      "37566049",
+      "37311500",
+      "37273451",
+      "36906163",
+      "36822084",
+      "36690410",
+      "36552840",
+      "36517623",
+      "36470969",
+      "36469646",
+      "36361646",
+      "36289077",
+      "36272490",
+      "36263434",
+      "36081815",
+      "36011284",
+      "35959841",
+      "35958605",
+      "35837553",
+      "35464477",
+      "35429990",
+      "35264225",
+      "35224151",
+      "34015366",
+      "33481164",
+      "33397652",
+      "33386235",
+      "33268902",
+      "32722482",
+      "32435978",
+      "32098334",
+      "31870428",
+      "31666997",
+      "30692038",
+      "30509442",
+      "30445483",
+      "30211983",
+      "29428668",
+      "28202039",
+      "27895638",
+      "27036091",
+      "27012624",
+      "26904693",
+      "23994464",
+      "22632970",
+      "21173018",
+      "4269429"
+    ],
+    "similar": [
+      "40064975",
+      "39357209",
+      "40296690",
+      "35342751",
+      "39248438",
+      "39710158",
+      "37386410",
+      "36011284",
+      "35464477",
+      "39934808",
+      "39346628",
+      "34259096",
+      "36193742",
+      "39732743",
+      "39759509",
+      "39820731",
+      "25688367",
+      "38115356",
+      "38734868",
+      "39060428",
+      "39586719",
+      "35689537",
+      "39360581",
+      "38835033",
+      "38019769",
+      "38965390",
+      "39680481",
+      "34589304",
+      "36437923",
+      "36627482",
+      "27412942",
+      "39735537",
+      "21688534",
+      "28152609",
+      "39853176",
+      "32484805",
+      "2268926",
+      "37063924",
+      "29735967",
+      "38914997",
+      "22903699",
+      "27449221",
+      "39031474",
+      "40238820",
+      "25632758",
+      "34160412",
+      "35992146",
+      "39874850",
+      "26956056",
+      "37664858",
+      "40124361",
+      "37793334",
+      "23371457",
+      "21674042",
+      "33403590",
+      "36183678",
+      "39571229",
+      "24432669",
+      "38835753",
+      "38885819",
+      "25618969",
+      "34634368",
+      "40015539",
+      "37226132",
+      "36588535",
+      "39293745",
+      "36643579",
+      "34664815",
+      "22442978",
+      "35371093",
+      "36822084",
+      "29044146",
+      "38802844",
+      "37957905",
+      "39147333",
+      "40062442",
+      "17078454",
+      "40081545",
+      "38387682",
+      "33101586",
+      "39805792",
+      "31778109",
+      "40068292",
+      "28966133",
+      "25494292",
+      "37081490",
+      "38679420",
+      "37919056",
+      "27491222",
+      "21608215",
+      "29970661",
+      "38650009",
+      "37752199",
+      "12572371",
+      "39707330",
+      "40024299",
+      "31253169",
+      "39834787",
+      "39793853",
+      "18416083"
+    ],
+    "review": [
+      "40064975",
+      "25688367",
+      "36627482"
+    ],
+    "pmc": [
+      "11893771"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ankylosingspondylitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ankylosing Spondylitis"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-88775-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40064975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

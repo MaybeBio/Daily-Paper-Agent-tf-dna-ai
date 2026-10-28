@@ -1,0 +1,321 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2024.05.13.24307283",
+  "title": "Data-driven neuroanatomical subtypes of primary progressive aphasia",
+  "doi": "10.1101/2024.05.13.24307283",
+  "abstract": "The primary progressive aphasias are rare, language-led dementias, with three main variants: semantic, non-fluent/agrammatic, and logopenic. Whilst semantic variant has a clear neuroanatomical profile, the non-fluent/agrammatic and logopenic variants are difficult to discriminate from neuroimaging. Previous phenotype-driven studies have characterised neuroanatomical profiles of each variant on MRI. In this work we used a machine learning algorithm known as SuStaIn to discover data-driven neuroanatomical “subtype” progression profiles and performed an in-depth subtype–phenotype analysis to characterise the heterogeneity of primary progressive aphasia. Our study included 270 participants with primary progressive aphasia seen for research in the UCL Queen Square Institute of Neurology Dementia Research Centre, with follow-up scans available for 137 participants. This dataset included individuals diagnosed with all three main variants (semantic: n=94, non-fluent/agrammatic: n=109, logopenic: n=51) as well as individuals with un-specified primary progressive aphasia (n=16). A data set of 66 patients (semantic n=37, non-fluent/agrammatic: n=29) from the ALLFTD North American cohort study, was used to validate our results. MRI scans were segmented and SuStaIn was employed on 19 regions of interest to identify neuroanatomical profiles independent of the diagnosis. We assessed the assignment of subtypes and stages, as well as their longitudinal consistency. We discovered four neuroanatomical subtypes of primary progressive aphasia, labelled S1, S2, S3, S4, exhibiting robustness to statistical scrutiny. S1 correlated strongly with semantic variant, while S2, S3, and S4 showed mixed associations with the logopenic and non-fluent/agrammatic variants. Notably, S3 displayed a neuroanatomical signature akin to a logopenic only signature, yet a significant proportion of logopenic cases were allocated to S2. The non-fluent/agrammatic variant demonstrated diverse associations with S2, S3, and S4. No clear relationship emerged between any of the neuroanatomical subtypes and the unspecified cases. At first follow up 84% of patients subtype assignment was stable, and 91.9% of patients stage assignment was stable. The ALLFTD dataset validated the findings. Our study, leveraging machine learning on a large primary progressive aphasia dataset, delineated four distinct neuroanatomical patterns. The identification of multiple profiles within the logopenic and non-fluent/agrammatic variants, alongside intra-phenotypic overlap, supports recent conceptualisations of primary progressive aphasia as a spectrum of disorders rather than discrete entities. Understanding the multifaceted profiles of the disease, encompassing neuroanatomical, molecular, clinical, and cognitive dimensions, holds potential implications for clinical decision support.",
+  "authors": [
+    "Taylor B",
+    "Bocchetta M",
+    "Shand C",
+    "Todd EG",
+    "Chokesuwattanaskul A",
+    "Crutch SJ",
+    "Warren JD",
+    "Hardy CJ",
+    "Rohrer JD",
+    "Oxtoby NP"
+  ],
+  "published_date": "2024-05-13",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2024.05.13.24307283",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2024.05.13.24307283.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR852500",
+    "raw_record": {
+      "id": "PPR852500",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR852500"
+        ]
+      },
+      "doi": "10.1101/2024.05.13.24307283",
+      "title": "Data-driven neuroanatomical subtypes of primary progressive aphasia",
+      "authorString": "Taylor B, Bocchetta M, Shand C, Todd EG, Chokesuwattanaskul A, Crutch SJ, Warren JD, Hardy CJ, Rohrer JD, Oxtoby NP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Taylor B",
+            "lastName": "Taylor",
+            "firstName": "Beatrice",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3630-5047"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, WC1V 6LJ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bocchetta M",
+            "lastName": "Bocchetta",
+            "firstName": "Martina",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1814-5024"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shand C",
+            "lastName": "Shand",
+            "firstName": "Cameron",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1299-890X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, WC1V 6LJ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Todd EG",
+            "lastName": "Todd",
+            "firstName": "Emily",
+            "initials": "EG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chokesuwattanaskul A",
+            "lastName": "Chokesuwattanaskul",
+            "firstName": "Anthipa",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crutch SJ",
+            "lastName": "Crutch",
+            "firstName": "Sebastian",
+            "initials": "SJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Warren JD",
+            "lastName": "Warren",
+            "firstName": "Jason",
+            "initials": "JD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5405-0826"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hardy CJ",
+            "lastName": "Hardy",
+            "firstName": "Chris JD",
+            "initials": "CJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rohrer JD",
+            "lastName": "Rohrer",
+            "firstName": "Jonathan",
+            "initials": "JD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6155-8417"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dementia Research Centre, UCL Queen Square Institute of Neurology, University College London, London, WC1N 3AR, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oxtoby NP",
+            "lastName": "Oxtoby",
+            "firstName": "Neil",
+            "initials": "NP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medical Image Computing, Department of Computer Science, University College London, London, WC1V 6LJ, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1299-890X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3630-5047"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5405-0826"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6155-8417"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1814-5024"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The primary progressive aphasias are rare, language-led dementias, with three main variants: semantic, non-fluent/agrammatic, and logopenic. Whilst semantic variant has a clear neuroanatomical profile, the non-fluent/agrammatic and logopenic variants are difficult to discriminate from neuroimaging. Previous phenotype-driven studies have characterised neuroanatomical profiles of each variant on MRI. In this work we used a machine learning algorithm known as SuStaIn to discover data-driven neuroanatomical “subtype” progression profiles and performed an in-depth subtype–phenotype analysis to characterise the heterogeneity of primary progressive aphasia. Our study included 270 participants with primary progressive aphasia seen for research in the UCL Queen Square Institute of Neurology Dementia Research Centre, with follow-up scans available for 137 participants. This dataset included individuals diagnosed with all three main variants (semantic: n=94, non-fluent/agrammatic: n=109, logopenic: n=51) as well as individuals with un-specified primary progressive aphasia (n=16). A data set of 66 patients (semantic n=37, non-fluent/agrammatic: n=29) from the ALLFTD North American cohort study, was used to validate our results. MRI scans were segmented and SuStaIn was employed on 19 regions of interest to identify neuroanatomical profiles independent of the diagnosis. We assessed the assignment of subtypes and stages, as well as their longitudinal consistency. We discovered four neuroanatomical subtypes of primary progressive aphasia, labelled S1, S2, S3, S4, exhibiting robustness to statistical scrutiny. S1 correlated strongly with semantic variant, while S2, S3, and S4 showed mixed associations with the logopenic and non-fluent/agrammatic variants. Notably, S3 displayed a neuroanatomical signature akin to a logopenic only signature, yet a significant proportion of logopenic cases were allocated to S2. The non-fluent/agrammatic variant demonstrated diverse associations with S2, S3, and S4. No clear relationship emerged between any of the neuroanatomical subtypes and the unspecified cases. At first follow up 84% of patients subtype assignment was stable, and 91.9% of patients stage assignment was stable. The ALLFTD dataset validated the findings. Our study, leveraging machine learning on a large primary progressive aphasia dataset, delineated four distinct neuroanatomical patterns. The identification of multiple profiles within the logopenic and non-fluent/agrammatic variants, alongside intra-phenotypic overlap, supports recent conceptualisations of primary progressive aphasia as a spectrum of disorders rather than discrete entities. Understanding the multifaceted profiles of the disease, encompassing neuroanatomical, molecular, clinical, and cognitive dimensions, holds potential implications for clinical decision support.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "517",
+            "orderIn": 0
+          },
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "004",
+            "orderIn": 0
+          },
+          {
+            "agency": "Alzheimer's Society",
+            "grantId": "627",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.13.24307283"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.13.24307283"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR852500"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR852500&type=FILE&fileName=EMS196210-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39374849",
+            "reference": "Brain : a journal of neurology. 2025 Mar;148(3):955-968",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196210",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-16",
+      "firstPublicationDate": "2024-05-13",
+      "firstIndexDate": "2024-05-16",
+      "fullTextReceivedDate": "2024-06-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

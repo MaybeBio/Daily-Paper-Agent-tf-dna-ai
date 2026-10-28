@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41031058",
+  "title": "DeepEPI: CNN-transformer-based model for extracting TF interactions through predicting enhancer-promoter interactions.",
+  "authors": "Tabatabaei, Seyedeh Fatemeh; Akbari Roknabadi, Saeedeh; Koohi, Somayyeh",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-10-01",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用CNN-Transformer模型从序列预测增强子-启动子互作，并提取TF-TF相互作用，虽涉及TF但非直接TF-DNA结合建模，方法可迁移至本课题。",
+  "abstract": "MOTIVATION: We introduce DeepEPI, a deep learning framework for studying enhancer-promoter interactions (EPIs) directly from genomic sequences. By integrating convolutional neural networks (CNNs) with Transformer blocks, DeepEPI captures the complex regulatory interplay between enhancers and promoters, a key factor in gene expression and disease mechanisms. The model emphasizes interpretability and efficiency by employing embedding layers for OneHot encoding and multihead attention for detecting and analyzing transcription factor (TF) interactions. A DNA2Vec-based version of DeepEPI is also evaluated. RESULTS: DeepEPI is assessed in two dimensions: comparison with existing models and analysis of encoding methods. Across six cell lines, DeepEPI consistently outperforms prior approaches. Compared to EPIVAN, it achieves a 2.4% gain in area under the precision-recall curve (AUPR) and maintains AUROC with DNA2Vec encoding, while with OneHot encoding it shows a 4% increase in AUPR and 1.9% in AUROC. Regarding encoding, DNA2Vec provides higher accuracy, but our OneHot-based embedding balances competitive performance with interpretability and reduced storage requirements. Beyond prediction, DeepEPI enhances biological insight by extracting meaningful TF-TF interactions from attention heads, effectively narrowing the search space for experimental validation. Validation analyses further support the biological relevance of these findings, underscoring DeepEPI's value for advancing EPI research. AVAILABILITY AND IMPLEMENTATION: The source code of DeepEPI is available at: https://github.com/nazanintbtb/DeepEPI.git.",
+  "abstract_zh": "动机：我们提出了DeepEPI，一个直接从基因组序列研究增强子-启动子相互作用（EPIs）的深度学习框架。通过将卷积神经网络（CNNs）与Transformer块相结合，DeepEPI捕捉增强子与启动子之间复杂的调控相互作用，这是基因表达和疾病机制中的关键因素。该模型通过采用OneHot编码的嵌入层和用于检测及分析转录因子（TF）相互作用的多头注意力机制，强调可解释性和效率。还评估了基于DNA2Vec的DeepEPI版本。结果：DeepEPI在两个维度上进行了评估：与现有模型的比较以及编码方法的分析。在六种细胞系中，DeepEPI始终优于先前的方法。与EPIVAN相比，它在精确率-召回率曲线下面积（AUPR）上实现了2.4%的提升，并在DNA2Vec编码下保持了AUROC，而在OneHot编码下，它显示出AUPR增加4%，AUROC增加1.9%。关于编码，DNA2Vec提供了更高的准确性，但我们基于OneHot的嵌入在竞争性能与可解释性及降低存储需求之间取得了平衡。除了预测之外，DeepEPI通过从注意力头中提取有意义的TF-TF相互作用来增强生物学洞察，有效缩小了实验验证的搜索空间。验证分析进一步支持了这些发现的生物学相关性，强调了DeepEPI在推进EPI研究中的价值。可用性与实现：DeepEPI的源代码可在以下网址获取：https://github.com/nazanintbtb/DeepEPI.git。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41031058/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41031058/",
+  "paper_page_path": "papers/pubmed/41031058/index.html"
+}

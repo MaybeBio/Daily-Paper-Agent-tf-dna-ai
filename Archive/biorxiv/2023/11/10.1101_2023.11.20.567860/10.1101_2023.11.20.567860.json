@@ -1,0 +1,575 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.20.567860",
+  "title": "DNA-binding factor footprints and enhancer RNAs identify functional non-coding genetic variants",
+  "doi": "10.1101/2023.11.20.567860",
+  "abstract": "Genome-wide association studies (GWAS) have revealed a multitude of candidate genetic variants affecting the risk of developing complex traits and diseases. However, these highlighted regions are typically in the non-coding genome, and uncovering the functional causative single nucleotide variants (SNVs) is challenging. Prioritisation of variants is commonly based on functional genomic annotation with markers of active regulatory elements, but current approaches still poorly predict functional variants. To address this, we systematically analyse six markers of active regulatory elements for their ability to identify functional variants. We benchmark against molecular quantitative trait loci (molQTL) from assays of regulatory element activity that identify allelic effects on DNA-binding factor occupancy, reporter assay expression, and chromatin accessibility. We identify the combination of DNase footprints and divergent enhancer RNA as markers for functional variants. This signature provides high precision, trading-off low recall, thus substantially reducing candidate variant sets to prioritise variants for functional validation. We present this as a framework called FINDER – Functional SNV IdeNtification using DNase footprints and Enhancer RNA, and demonstrate its utility to prioritise variants using leukocyte count trait and analyse variants in linkage disequilibrium with a lead variant to predict a functional variant in asthma. Our findings have implications for prioritising variants from GWAS, in development of predictive scoring algorithms, and for functionally informed fine mapping approaches.",
+  "authors": [
+    "Simon C Biddie",
+    "Giovanna Weykopf",
+    "Elizabeth F. Hird",
+    "Elias T. Friman",
+    "Wendy A Bickmore"
+  ],
+  "published_date": "2023-11-20",
+  "updated_date": "2023-11-20T22:20:11Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.20.567860",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.20.567860.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:39:38Z",
+        "timestamp": 1772156378436,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 56,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Genome-wide association studies (GWAS) have revealed a multitude of candidate genetic variants affecting the risk of developing complex traits and diseases. However, these highlighted regions are typically in the non-coding genome, and uncovering the functional causative single nucleotide variants (SNVs) is challenging. Prioritisation of variants is commonly based on functional genomic annotation with markers of active regulatory elements, but current approaches still poorly predict functional variants. To address this, we systematically analyse six markers of active regulatory elements for their ability to identify functional variants. We benchmark against molecular quantitative trait loci (molQTL) from assays of regulatory element activity that identify allelic effects on DNA-binding factor occupancy, reporter assay expression, and chromatin accessibility. We identify the combination of DNase footprints and divergent enhancer RNA as markers for functional variants. This signature provides high precision, trading-off low recall, thus substantially reducing candidate variant sets to prioritise variants for functional validation. We present this as a framework called FINDER – Functional SNV IdeNtification using DNase footprints and Enhancer RNA, and demonstrate its utility to prioritise variants using leukocyte count trait and analyse variants in linkage disequilibrium with a lead variant to predict a functional variant in asthma. Our findings have implications for prioritising variants from GWAS, in development of predictive scoring algorithms, and for functionally informed fine mapping approaches.</jats:p>",
+      "DOI": "10.1101/2023.11.20.567860",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2023-11-20T22:20:11Z",
+        "timestamp": 1700518811000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "DNA-binding factor footprints and enhancer RNAs identify functional non-coding genetic variants"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Simon C",
+          "family": "Biddie",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Giovanna",
+          "family": "Weykopf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Elizabeth F.",
+          "family": "Hird",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Elias T.",
+          "family": "Friman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6660-7735",
+          "authenticated-orcid": false,
+          "given": "Wendy A",
+          "family": "Bickmore",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23007-0"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-27666-x"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-021-02560-3"
+        },
+        {
+          "issue": "1",
+          "key": "2023120108550613000_2023.11.20.567860v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1186/s13059-019-1654-y",
+          "article-title": "Reproducible inference of transcription factor footprints in ATAC-seq and DNase-seq datasets using protocol-specific bias modelling",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-74793-4"
+        },
+        {
+          "issue": "4",
+          "key": "2023120108550613000_2023.11.20.567860v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "703",
+          "DOI": "10.1016/j.ajhg.2023.03.008",
+          "article-title": "Deletion mapping of regulatory elements for GATA3 in T cells reveals a distal enhancer involved in allergic diseases",
+          "volume": "110",
+          "year": "2023",
+          "journal-title": "J Hum Genet"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-08469-7"
+        },
+        {
+          "issue": "5",
+          "key": "2023120108550613000_2023.11.20.567860v2.8",
+          "first-page": "724-726",
+          "volume": "55",
+          "year": "2023",
+          "journal-title": "Annotating and prioritizing human non-coding variants with RegulomeDB v.2 Nat Genet."
+        },
+        {
+          "issue": "11",
+          "key": "2023120108550613000_2023.11.20.567860v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1606",
+          "DOI": "10.1038/s41588-021-00955-3",
+          "article-title": "Identification of LZTFL1 as a candidate effector gene at a COVID-19 risk locus",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nat Genet"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-012-1243-7"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2017.06.010"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01087-y"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01075-2"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj144"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2020.08.007"
+        },
+        {
+          "issue": "5",
+          "key": "2023120108550613000_2023.11.20.567860v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1649",
+          "DOI": "10.1093/bioinformatics/btz770",
+          "article-title": "dbInDel: a database of enhancer-associated insertion and deletion variants by analysis of H3K27ac ChIP-Seq",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.230"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddz175"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1183621"
+        },
+        {
+          "issue": "D1",
+          "key": "2023120108550613000_2023.11.20.567860v2.21",
+          "first-page": "D104-D111",
+          "article-title": "GTRD: an integrated view of transcription regulation",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "NAR"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3467"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2011.12.010"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3432"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2677"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2559-3"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1005875"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03446-x"
+        },
+        {
+          "issue": "7818",
+          "key": "2023120108550613000_2023.11.20.567860v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "720",
+          "DOI": "10.1038/s41586-020-2023-4",
+          "article-title": "Occupancy maps of 208 chromatin-associated proteins in one human cell type",
+          "volume": "583",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.31",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in Python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "The Journal of machine Learning research"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1172/jci.insight.132446"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01154-4"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Quinlan AR and Hall IM . BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics. 26(6):841–2",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molmet.2019.12.006"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.136127.111"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.37",
+          "first-page": "50",
+          "article-title": "Multiple single nucleotide polymorphisms in the first intron of the IL2RA gene affect transcription factor binding and enhancer activity",
+          "volume": "603",
+          "year": "2017",
+          "journal-title": "Gene"
+        },
+        {
+          "issue": "1",
+          "key": "2023120108550613000_2023.11.20.567860v2.38",
+          "first-page": "308-11",
+          "volume": "21",
+          "year": "2001",
+          "journal-title": "dbSNP: the NCBI database of genetic variation. NAR"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2016.07.005"
+        },
+        {
+          "issue": "D1",
+          "key": "2023120108550613000_2023.11.20.567860v2.40",
+          "first-page": "D977-985",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource. NAR"
+        },
+        {
+          "issue": "W1",
+          "key": "2023120108550613000_2023.11.20.567860v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "W322",
+          "DOI": "10.1093/nar/gkac393",
+          "article-title": "FABIAN-variant: predicting the effects of DNA variants on transcription factor binding",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "NAR"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-023-09288-3"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmet.2022.08.014"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.08.016"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms232112977"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010378"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2020.10.009"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06388-8"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0455-2"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2015.10.004"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2528-x"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.07.049"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gpb.2022.02.002"
+        },
+        {
+          "issue": "7",
+          "key": "2023120108550613000_2023.11.20.567860v2.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "1056",
+          "DOI": "10.1038/s41587-022-01211-7",
+          "article-title": "A comparison of experimental assays and analytical methods for genome-wide identification of active enhancers",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Nat biotechnol"
+        },
+        {
+          "key": "2023120108550613000_2023.11.20.567860v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1379-8"
+        },
+        {
+          "issue": "D1",
+          "key": "2023120108550613000_2023.11.20.567860v2.56",
+          "first-page": "D983-991",
+          "article-title": "QTLbase: an integrative resource for quantitative trait loci across multiple human molecular phenotypes",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "NAR"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.20.567860",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:33:34Z",
+        "timestamp": 1768455214000
+      },
+      "score": 138.87572,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.20.567860"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ]
+      },
+      "references-count": 56,
+      "URL": "https://doi.org/10.1101/2023.11.20.567860",
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.15252/rc.2024235645",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.15252/rc.2024603854",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.15252/rc.2024765375",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

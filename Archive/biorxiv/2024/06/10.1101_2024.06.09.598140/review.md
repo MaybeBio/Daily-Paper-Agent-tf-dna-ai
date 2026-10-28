@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use all-atom Molecular Dynamics simulations, empirical docking, and free-energy calculations to study how the Zn1 and Zn2 zinc-finger domains of PARP-1 cooperatively detect DNA single-strand breaks (SSBs). They report that a DNA hairpin construct containing a missing nucleotide can spontaneously open into extremely kinked conformations via thermal fluctuations, that protein side-loops contact the DNA grooves and facilitate Zn2 penetration into the SSB gap, that Zn1 plays a secondary role, and that the relative arrangement and orientation of Zn1/Zn2 with respect to the 3' and 5' ends is the crucial factor for early interaction configurations consistent with experimental structures.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force-field parameters, docking details, free-energy calculation methods, statistical analyses, and comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an important question in DNA repair biology, namely how PARP-1 detects single-strand breaks. The central claims are mechanistically interesting and potentially significant. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the free-energy calculations, or the statistical significance of the observed conformational transitions. The claim that Zn1 plays a secondary role and that the Zn1/Zn2 relative arrangement is the crucial factor requires quantitative support that is not visible in the abstract. The study is likely to interest researchers in DNA repair, computational biophysics, and structural biology, but the evidence base provided is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying DNA damage recognition and repair mechanisms, particularly those focused on PARP family enzymes and their role in genome stability. Computational biophysicists interested in protein-DNA interactions, conformational dynamics, and free-energy methods would also find the approach relevant. Structural biologists studying multi-domain protein recognition of DNA lesions may use these findings to design further experimental validation. The potential therapeutic relevance of PARP inhibitors in oncology adds broader interest from the cancer biology community.
+- **Major strengths** The study addresses a mechanistically important and unresolved question about the cooperative roles of Zn1 and Zn2 in SSB detection. The use of a DNA hairpin construct that matches recent experimental designs is a strength, as it links simulation to experimentally tractable systems. The exploration of both independent and cooperative Zn1/Zn2 interactions, as well as the dimeric PARP-1 configuration, broadens the scope of the investigation. The combination of all-atom MD, docking, and free-energy calculations represents a state-of-the-art computational approach.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that the DNA hairpin can spontaneously open up by thermal fluctuations up to extremely kinked deformations, and that such deformations are rarely observed in free, long DNA fragments.  
+  - **Evidence pointer** Abstract only; no figures or quantitative data provided  
+  - **Concern** The abstract provides no quantitative information about the frequency, timescale, or free-energy barrier associated with these kinked deformations. Without such data, it is impossible to assess whether the observed openings are statistically significant or artifacts of the simulation setup, such as the specific hairpin construct, force-field parameters, or simulation length.  
+  - **Why it matters** The claim that the hairpin spontaneously opens is foundational to the entire mechanistic model. If this opening is not robust or is an artifact of the construct or simulation conditions, the subsequent claims about Zn2 penetration and cooperative recognition lose their basis.  
+  - **Resolution test** Provide quantitative data on the distribution of kink angles, the free-energy profile for the opening transition, and comparison with control simulations of free DNA under identical conditions. Statistical analysis of multiple independent trajectories would be required to establish reproducibility.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for central conclusion  
+  - **Claim pointer** The authors claim that Zn1 plays a secondary role and that the crucial factor is the relative arrangement of the Zn1/Zn2 couple and their mutual orientation with respect to the 3' and 5' SSB ends.  
+  - **Evidence pointer** Abstract only; no quantitative comparison of Zn1 versus Zn2 contributions provided  
+  - **Concern** The abstract states this conclusion without presenting any comparative data, such as binding free energies for Zn1-only, Zn2-only, and Zn1/Zn2 systems, or mutational analyses. The claim that Zn1 is secondary is a strong mechanistic statement that requires direct quantitative evidence.  
+  - **Why it matters** This conclusion directly contradicts or refines existing models of PARP-1 function, where Zn1 is often considered the primary DNA-binding domain. If the evidence is not robust, the conclusion could mislead the field.  
+  - **Resolution test** Provide binding free-energy calculations or interaction energy decompositions for each domain individually and in combination, with error estimates. If possible, include simulations with Zn1 mutations or truncations to test the secondary role claim.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and technical soundness  
+  - **Claim pointer** The authors state that they used state-of-the-art force fields, empirical docking, and free-energy calculations.  
+  - **Evidence pointer** Abstract only; no methods details provided  
+  - **Concern** The abstract does not specify which force fields were used, the simulation length, the number of replicas, the docking protocol, or the free-energy method (for example, umbrella sampling, metadynamics, or MM-PBSA). Without these details, the technical quality and reproducibility of the simulations cannot be evaluated.  
+  - **Why it matters** Molecular dynamics results are highly sensitive to force-field choice, simulation length, and sampling methodology. The absence of these details prevents assessment of whether the conclusions are robust or artifacts of the specific computational setup.  
+  - **Resolution test** Provide a complete methods section with force-field versions, water model, ion conditions, simulation box size, equilibration and production lengths, number of independent runs, and convergence criteria for free-energy calculations.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Comparison with experimental data  
+  - **Claim pointer** The authors claim that the simulated PARP-1-DNA structures are similar to those observed experimentally.  
+  - **Evidence pointer** Abstract only; no specific experimental structures or comparison metrics provided  
+  - **Concern** The abstract does not specify which experimental structures were used for comparison, what metric was used to assess similarity (for example, root-mean-square deviation), or the quantitative degree of agreement.  
+  - **Why it matters** The claim of agreement with experiment is a key validation of the simulations. Without quantitative comparison, this claim is unverifiable and could be overstated.  
+  - **Resolution test** Provide root-mean-square deviation or equivalent structural comparison metrics against specific experimental structures, with appropriate references and discussion of any discrepancies.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence on Zn2 interaction  
+  - **Issue** The phrase "Zn2 can interact with the nucleotides opposite to the missing base" is ambiguous. It is unclear whether this means nucleotides on the complementary strand directly across from the gap or nucleotides adjacent to the gap on the same strand.  
+  - **Required correction** Clarify the spatial relationship between Zn2 and the nucleotides, possibly with a schematic figure or more precise language.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract, typographical error  
+  - **Evidence pointer** Abstract, sentence beginning "OVerall"  
+  - **Issue** The word "OVerall" contains a typographical error and should be "Overall."  
+  - **Required correction** Correct the typographical error.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope of claims  
+  - **Affected element** Abstract, final sentence  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim that the findings represent "an important step toward defining the detailed function of PARP-1" is broad and somewhat generic. It would be strengthened by specifying what particular aspect of PARP-1 function is newly clarified.  
+  - **Required correction** Specify the novel mechanistic insight that advances the field, rather than a general statement of importance.
+
+## Risk / unsupported claims
+- The claim that the DNA hairpin spontaneously opens into extremely kinked conformations is unsupported without quantitative data on deformation frequencies, free-energy barriers, or comparison with control simulations.
+- The claim that Zn1 plays a secondary role is unsupported without comparative binding or interaction energy data for Zn1 versus Zn2.
+- The claim that simulated structures are similar to experimental structures is unverifiable without specific structural comparison metrics and references.
+- The claim that the relative arrangement of Zn1/Zn2 is the crucial factor for early interaction is unsupported without systematic variation of this arrangement in the simulations.
+- The general statement that the findings represent an important step toward defining PARP-1 function is not falsifiable from the abstract alone.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40580591",
+  "title": "Identification of the differences in molecular networks between idiopathic pulmonary fibrosis and lung squamous cell carcinoma using machine learning.",
+  "authors": "Nojima, Yosui; Mizuguchi, Kenji",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-07-01",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 3,
+  "one_liner_zh": "用机器学习分类IPF与SCC并识别差异基因及转录因子调控网络，但仅基于表达数据，无蛋白-DNA互作建模或结合机制研究。",
+  "abstract": "Idiopathic pulmonary fibrosis (IPF) is an independent risk factor for lung cancer, especially squamous cell carcinoma (SCC). The prognosis of patients with both IPF and SCC is poorer than that of patients with only IPF, and preventive measures against SCC in patients with IPF remain elusive. Understanding the distinct mechanisms that induce both diseases is crucial for mitigating SCC onset in patients with IPF. We developed highly accurate machine learning (ML) models to classify patients with IPF or SCC using public RNA sequencing data. To construct the ML models, a random restart technique was applied to the five algorithms. To identify the differentially expressed genes (DEGs) between IPF and SCC, feature importance was calculated in the classification models. Furthermore, we detected somatic mutations affecting gene expression using SCC data. The ML models identified VCX2, TMPRSS11B, PRUNE2, PRG4, PZP, SCARA5, DES, HPSE2, HOXD11, S100A7A, and PLA2G2A as DEGs. Somatic mutations were detected in four transcription factors, BHLHE40, MYC, STAT1, and E2F4, which regulate the expression of these 11 genes. Furthermore, a molecular network comprising four transcription factors and 11 downstream genes was discovered. This newly identified molecular network enhances our understanding of the distinct mechanisms underlying IPF and SCC onset, and provides new insights into preventing SCC complications in patients with IPF.",
+  "abstract_zh": "特发性肺纤维化（IPF）是肺癌的独立危险因素，尤其是鳞状细胞癌（SCC）。同时患有IPF和SCC的患者预后比仅患有IPF的患者更差，而针对IPF患者中SCC的预防措施仍不明确。理解诱导这两种疾病的独特机制对于减轻IPF患者中SCC的发生至关重要。我们利用公共RNA测序数据开发了高精度的机器学习（ML）模型，用于对IPF或SCC患者进行分类。为构建ML模型，对五种算法应用了随机重启技术。为识别IPF与SCC之间的差异表达基因（DEGs），在分类模型中计算了特征重要性。此外，我们利用SCC数据检测了影响基因表达的体细胞突变。ML模型将VCX2、TMPRSS11B、PRUNE2、PRG4、PZP、SCARA5、DES、HPSE2、HOXD11、S100A7A和PLA2G2A识别为DEGs。在四个转录因子BHLHE40、MYC、STAT1和E2F4中检测到体细胞突变，这些转录因子调控这11个基因的表达。此外，发现了一个由四个转录因子和11个下游基因组成的分子网络。这一新识别的分子网络增进了我们对IPF和SCC发生独特机制的理解，并为预防IPF患者中SCC并发症提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40580591/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40580591/",
+  "paper_page_path": "papers/pubmed/40580591/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34772949",
+  "title": "Local DNA shape is a general principle of transcription factor binding specificity in Arabidopsis thaliana.",
+  "authors": "Sielemann, Janik; Wulf, Donat; Schmidt, Romy; Brautigam, Andrea",
+  "journal": "Nature communications",
+  "published_date": "2021-11-14",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用随机森林机器学习整合DNA三维形状特征，预测拟南芥216个转录因子的结合特异性，核心聚焦TF-DNA结合位点预测，方法为AI且对象精准，高度匹配本课题。",
+  "abstract": "Understanding gene expression will require understanding where regulatory factors bind genomic DNA. The frequently used sequence-based motifs of protein-DNA binding are not predictive, since a genome contains many more binding sites than are actually bound and transcription factors of the same family share similar DNA-binding motifs. Traditionally, these motifs only depict sequence but neglect DNA shape. Since shape may contribute non-linearly and combinational to binding, machine learning approaches ought to be able to better predict transcription factor binding. Here we show that a random forest machine learning approach, which incorporates the 3D-shape of DNA, enhances binding prediction for all 216 tested Arabidopsis thaliana transcription factors and improves the resolution of differential binding by transcription factor family members which share the same binding motif. We observed that DNA shape features were individually weighted for each transcription factor, even if they shared the same binding sequence.",
+  "abstract_zh": "理解基因表达将需要理解调控因子在何处结合基因组DNA。常用的基于序列的蛋白质-DNA结合基序并不具有预测性，因为基因组包含的结合位点远多于实际结合的位点，且同一家族的转录因子共享相似的DNA结合基序。传统上，这些基序仅描述序列而忽视DNA形状。由于形状可能以非线性和组合方式对结合起作用，机器学习方法应当能够更好地预测转录因子结合。在此，我们展示了一种结合DNA三维形状的随机森林机器学习方法，增强了对所有216个测试的拟南芥（*Arabidopsis thaliana*）转录因子的结合预测，并提高了共享相同结合基序的转录因子家族成员间差异结合的分辨率。我们观察到，即使转录因子共享相同的结合序列，DNA形状特征也针对每个转录因子被单独加权。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34772949/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34772949/",
+  "paper_page_path": "papers/pubmed/34772949/index.html"
+}

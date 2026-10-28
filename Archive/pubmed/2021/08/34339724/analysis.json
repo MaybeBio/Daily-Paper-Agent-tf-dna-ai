@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34339724",
+  "title": "Paths Through the Yeast Regulatory Network in Different Physiological States.",
+  "authors": "Lesk, Arthur M; Konagurthu, Arun S",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-08-03",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文分析酵母不同生理状态下调控网络的路径结构，虽涉及转录因子调控网络，但仅基于图论路径枚举，无蛋白质-DNA互作建模或AI/物理模拟方法，与课题核心关联较弱。",
+  "abstract": "We analyse paths through the regulatory networks that control gene-expression patterns in Yeast, in five different physiological states: cell cycle, DNA damage, stress response, diauxic shift, and sporulation. The network in each state is specified as a directed graph, containing different sets of edges connecting pairs selected from a combined set of 1475 nodes. Each network contains some nodes that have no parents, and others that have no children. We call these, respectively, 'source' and 'sink' nodes. For each network we enumerate paths between source and sink nodes. In a previous paper (Lesk and Konagurthu, 2020), we defined, extracted and compared the neighbourhoods of each transcription factor in different physiological states, and how the system reconfigures itself. Here we compare the usage of nodes and edges by different networks, and how they are assembled into paths. The picture that emerges is that the networks are not disjoint but show substantial sharing of nodes and edges; however, they assemble these materials into different sets of paths. Four of the networks, other than the cell-cycle network, contain paths between only a small fraction (<13%) of possible source-sink pairs. Although the cell-cycle network is not an outlier in terms of total number of nodes and edges, and number of sink nodes, it is very much an outlier in having a greater proportion of source-to-sink paths than the other networks.",
+  "abstract_zh": "我们分析了控制酵母中基因表达模式的调控网络路径，涵盖五种不同的生理状态：细胞周期、DNA损伤、应激反应、双峰转换和孢子形成。每种状态下的网络被指定为有向图，包含从1475个节点组合中选取的不同边集，连接节点对。每个网络包含一些无父节点的节点，以及一些无子节点的节点。我们分别称这些为“源”节点和“汇”节点。对于每个网络，我们枚举了源节点和汇节点之间的路径。在之前的一篇论文中（Lesk和Konagurthu，2020），我们定义、提取并比较了不同生理状态下每个转录因子的邻域，以及系统如何重新配置自身。在此，我们比较不同网络对节点和边的使用情况，以及它们如何组装成路径。呈现出的图景是，这些网络并非互不相交，而是显示出节点和边的显著共享；然而，它们将这些材料组装成不同的路径集合。除细胞周期网络外，其他四个网络仅包含少量（<13%）可能的源-汇节点对之间的路径。尽管细胞周期网络在总节点数、边数和汇节点数方面并非异常值，但在拥有比其他网络更高比例的源到汇路径方面，它非常突出。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34339724/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34339724/",
+  "paper_page_path": "papers/pubmed/34339724/index.html"
+}

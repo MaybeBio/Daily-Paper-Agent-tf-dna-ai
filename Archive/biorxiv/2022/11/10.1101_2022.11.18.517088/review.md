@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors report a bioinformatics and molecular dynamics (MD) simulation analysis of the wheat transcription factor TaWRKY45, concluding that it belongs to Group III WRKY family, is hydrophilic, contains 19 phosphorylation sites, is orthologous to rice OsWRKY45, and exhibits greater structural stability, compactness, and interaction potential compared to OsWRKY45
+- **Visible evidence base** Text descriptions of results; references to Figures 1-6 and Tables 1-3; no actual figures, tables, or supplementary data provided in the submitted material
+- **Missing materials affecting confidence** All figures and tables referenced in the text are absent; no sequence alignment data; no MD simulation parameter details; no docking scores or validation metrics; no statistical analysis; no accession numbers for sequences used in phylogenetic analysis beyond TaWRKY45
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward in silico characterization of a single wheat WRKY transcription factor. The work combines standard bioinformatics tools with a 100 ns MD simulation comparison against an orthologous rice protein. While the topic is of potential interest to plant molecular biologists studying stress responses, the manuscript in its current form has substantial deficiencies in methodological reporting, data presentation, and interpretive rigor. The core claims regarding structural stability and functional implications are only weakly supported by the evidence as presented, and several statements in the results and discussion are internally inconsistent or overinterpreted. The work does not meet the standards expected for a high-impact general journal, though with substantial revision and additional validation it could be suitable for a specialized bioinformatics or plant science venue.
+- **Who would be interested in the results, and why** Plant molecular biologists studying WRKY transcription factors and their roles in stress responses, particularly those working on wheat or cereal crops. Computational biologists interested in applying MD simulation to plant transcription factor structures may also find the comparative approach of interest. The phylogenetic placement of TaWRKY45 relative to OsWRKY45 could be useful for researchers working on cross-species functional inference in cereal crops.
+- **Major strengths** The manuscript addresses a relevant biological question regarding the structural properties of a stress-related transcription factor in an important crop species. The combination of multiple bioinformatics tools with MD simulation represents a reasonable approach for initial structural characterization. The comparison between wheat and rice orthologs provides a useful evolutionary context. The identification of specific physicochemical properties, such as phosphorylation sites and catalytic domains, offers a foundation for future experimental validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that MD simulation analysis reveals TaWRKY45 to be "more stable, more constrained, more compact, and have greater potential to interact with other molecules" compared to OsWRKY45
+  - **Evidence pointer** Results section "MD Simulation"; Figures 5 and 6 (not provided)
+  - **Concern** The central conclusion of the paper rests entirely on MD simulation results, yet none of the simulation data are actually visible in the submitted material. The figures referenced are absent, and the text provides only averaged values without error bars, replicate information, or statistical testing. The claim that lower RMSD indicates "more stable" and lower Rg indicates "more compact" is presented without acknowledging that these are descriptive metrics, not direct measures of thermodynamic stability or functional interaction potential. Furthermore, the leap from structural metrics to the conclusion of "greater potential to interact with other molecules" is not justified by any direct interaction assay or binding free energy calculation.
+  - **Why it matters** The primary novel contribution of this work is the comparative structural analysis. Without access to the actual simulation trajectories, convergence checks, or replicate analyses, the reliability of the reported values cannot be assessed. The interpretation of structural metrics as functional predictions requires additional evidence or at minimum a more cautious framing.
+  - **Resolution test** Provide the actual MD simulation figures with clearly labeled axes and error estimates; include RMSD, RMSF, Rg, SASA, and hydrogen bond plots for both proteins; report the number of replicates and convergence criteria; perform statistical comparison of the two proteins' metrics; temper the functional interpretation or support it with docking free energy calculations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The methods section describes the use of SWISS-MODEL for tertiary structure prediction and states that "the structure of domain regions was only selected using the visualisation software Discovery Studio"
+  - **Evidence pointer** Materials and methods section "Analysis tools"
+  - **Concern** The description of the homology modeling procedure is critically incomplete. No template identification, sequence identity percentage, model quality metrics (such as QMEAN or GMQE scores), or validation steps are reported. The statement that "the structure of domain regions was only selected" is ambiguous and does not clarify whether the full-length model or only the WRKY domain was used for subsequent MD simulation. This distinction is essential because the choice of modeled region directly affects the interpretation of the simulation results.
+  - **Why it matters** Without knowing the quality and coverage of the modeled structure, the MD simulation results cannot be meaningfully interpreted. A poorly modeled region could produce artifactual stability or flexibility differences between the two proteins. The lack of model validation undermines confidence in all downstream analyses.
+  - **Resolution test** Report the template used for homology modeling, sequence identity between template and target, model coverage, and quality scores. Clearly state which residues were included in the MD simulation system. Provide a Ramachandran plot or other validation for the final models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract and conclusion state that TaWRKY45 has "greater potential to interact with other molecules" compared to OsWRKY45, while the results section on protein-DNA interaction reports that TaWRKY45 has a "lesser binding score with Wbox than OsWRKY45"
+  - **Evidence pointer** Abstract; Results section "Protein DNA interaction prediction"; Conclusion
+  - **Concern** These two statements are in direct contradiction. A lower binding score with the W-box DNA element suggests reduced DNA-binding affinity, which would argue against greater interaction potential, at least with respect to its primary DNA target. The discussion attempts to reconcile this by suggesting TaWRKY45 "may be less active in defence and have a higher stress response," but this interpretation is speculative and not supported by any functional data. The manuscript does not clarify whether "interaction potential" refers to protein-DNA, protein-protein, or general molecular interactions.
+  - **Why it matters** The central conclusion of the paper is undermined by an internal inconsistency. Readers cannot determine whether TaWRKY45 has enhanced or diminished interaction capabilities relative to its rice ortholog. This ambiguity affects the biological interpretation and the utility of the findings for future research.
+  - **Resolution test** Clarify the definition of "interaction potential" and reconcile the docking results with the structural interpretation. Either provide evidence that lower W-box binding is compensated by other interaction capabilities, or revise the conclusion to accurately reflect the docking data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** The discussion states that "TaWRKY45 has many catalytic domains, according to motif analysis, including AMIDATION, CAMP PHOSPHO SITE, CK2 PHOSPHO SITE, MYRISTYL, PKC PHOSPHO SITE, ALA RICH, NLS BP, THR RICH, and WRKY, which aid in the regulation of the protein's multiple functions"
+  - **Evidence pointer** Discussion section; Table 2 (not provided)
+  - **Concern** The term "catalytic domains" is used incorrectly. The motifs listed are post-translational modification sites, protein sorting signals, and structural motifs, not catalytic domains. Amidation sites, phosphorylation sites, myristylation sites, and nuclear localization signals do not possess catalytic activity. This mischaracterization suggests a misunderstanding of the functional significance of these motifs and could mislead readers about the biochemical properties of the protein.
+  - **Why it matters** Accurate functional annotation is essential for interpreting the biological role of the protein. Mislabeling regulatory motifs as catalytic domains represents a fundamental error in protein annotation that could propagate incorrect information in the literature.
+  - **Resolution test** Correct the terminology throughout the manuscript. Refer to these elements as "functional motifs" or "regulatory sites" and accurately describe their roles in protein modification, localization, and DNA binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that wheat is "the world's second-most important cereal crop, as well as India's." This phrasing is awkward and the claim regarding India is imprecise without specifying the metric (production, area, or economic value).
+  - **Required correction** Rephrase to clarify the basis of the claim, for example "the second most widely cultivated cereal globally and a staple crop in India."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and methods section "Protein sequences"
+  - **Issue** The methods state that "The different WRKY sequences used for phylogenetic analysis were retrieved from NCBI" but do not provide accession numbers, sequence counts, or selection criteria for these sequences.
+  - **Required correction** Provide a supplementary table listing all sequences used in the phylogenetic analysis with accession numbers and source organisms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and methods section "MD Simulations"
+  - **Issue** The MD simulation description lacks essential parameters including temperature coupling method, pressure coupling method, integration time step, and the specific GROMACS version used. The citation for GROMOS96 force field is also incorrect (Dobson 2003 is not the appropriate reference for the force field).
+  - **Required correction** Provide complete simulation parameters and correct the force field citation to the original GROMOS96 publication.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Prediction of conserved domain and zinc-finger motif"
+  - **Issue** The text states that TaWRKY45 "belongs to Group III" based on the C2HC zinc finger motif, but no comparison with other WRKY groups is shown to demonstrate how this classification was determined.
+  - **Required correction** Show a sequence alignment or domain architecture comparison that illustrates the distinguishing features of Group III WRKY proteins relative to Groups I and II.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The manuscript contains numerous grammatical errors and awkward phrasings that impede readability. Examples include "The change in unique nature is made possible by time-dependent structural variations" and "We used to select default parameters for docking."
+  - **Required correction** Thorough language editing by a native English speaker or professional editing service is needed before resubmission.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites only a limited number of references and does not provide a comprehensive overview of WRKY transcription factor research in wheat or other cereals. Several statements about the importance of WRKY proteins lack citations.
+  - **Required correction** Expand the introduction with additional relevant references and ensure all factual claims are properly cited.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Physico-chemical prediction of TaWRKY45"
+  - **Issue** The text states that "At a pI of 6.59, TaWRKY45 protein becomes the least soluble in nature" but this claim appears in the discussion, not in the results section where the pI value is reported. The placement is inconsistent with the section structure.
+  - **Required correction** Move interpretive statements to the discussion section and keep the results section focused on reporting values.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and tables makes the results impossible to verify. The homology modeling procedure is inadequately described with no quality metrics. The MD simulation parameters are incompletely reported. The docking analysis lacks methodological detail including scoring function and input preparation. The internal contradiction between the docking results and the conclusion about interaction potential must be resolved. The mischaracterization of regulatory motifs as catalytic domains requires correction.
+
+## Risk / unsupported claims
+- The claim that TaWRKY45 is "more stable, more constrained, more compact, and have greater potential to interact with other molecules" compared to OsWRKY45 is unsupported because the underlying MD data are not visible and the interpretation overreaches what RMSD, RMSF, Rg, and SASA metrics can establish
+- The claim that TaWRKY45 has "greater potential to interact with other molecules" is contradicted by the reported lower W-box binding score and is not supported by any direct interaction assay
+- The statement that TaWRKY45 "may be less active in defence and have a higher stress response" is speculative and not supported by any functional data presented
+- The classification of TaWRKY45 as a Group III WRKY protein is plausible but cannot be fully evaluated without the conserved domain figure
+- The evolutionary conclusion that TaWRKY45 is orthologous to OsWRKY45 is not verifiable without the phylogenetic tree figure and the list of sequences used
+- The functional significance of the identified phosphorylation sites and catalytic motifs is asserted without experimental validation or literature support specific to TaWRKY45
+
+## Assessment against Nature-style criteria
+- **Originality** Low. The application of standard bioinformatics tools and a single MD simulation comparison to a known transcription factor does not represent a conceptual or methodological advance. Similar analyses have been published for other WRKY proteins and other plant transcription factors.
+- **Scientific importance** Moderate for the plant science community but limited in general significance. Understanding structural properties of stress-related transcription factors in wheat has applied relevance, but the findings are descriptive and do not reveal new biological mechanisms or provide broadly applicable insights.
+- **Interdisciplinary readership** Limited. The work is primarily of interest to plant molecular biologists and computational biologists working on protein structure. It does not address questions that would attract readers from outside these fields.
+- **Technical soundness** Currently inadequate. The missing figures and tables prevent verification of results. The homology modeling and MD simulation protocols are incompletely described. The docking analysis lacks methodological detail. The internal inconsistency between the docking results and the conclusion about interaction potential indicates a lack of careful data interpretation.
+- **Readability for nonspecialists** Poor. The manuscript contains numerous grammatical errors, unclear phrasing, and undefined technical terms. The structure is disorganized with interpretive statements appearing in the results section. A nonspecialist would struggle to follow the logic of the study.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript requires major revisions including the provision of all figures and tables, complete methodological details for homology modeling and MD simulations, resolution of the internal contradiction regarding interaction potential, correction of the catalytic domain mischaracterization, and thorough language editing. Even after these revisions, the work would likely be more appropriate for a specialized bioinformatics or plant science journal rather than a high-impact general journal, given the limited novelty and general significance of the findings.

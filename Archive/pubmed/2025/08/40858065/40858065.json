@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40858065",
+    "doi": "10.1016/j.bbrc.2025.152500",
+    "title": "Isoquercitrin inhibits ferroptosis and ameliorates insulin resistance: Evidence from network pharmacology and in vitro studies."
+  },
+  "content": {
+    "abstract": "This study aimed to explore the potential targets and mechanisms by which Isoquercitrin inhibits ferroptosis to ameliorate insulin resistance (IR), using network pharmacology, molecular docking, and in vitro assays. Targets related to Isoquercitrin, ferroptosis, and IR were retrieved from public databases and used to construct a Venn diagram. A protein-protein interaction network was constructed and visualized using Cytoscape. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses were conducted via the DAVID database and visualized with R Studio. Additionally, a drug-target-disease-pathway network was constructed using Cytoscape. GO enrichment analysis revealed key biological processes, cellular components, and molecular functions, while KEGG analysis indicated significant enrichment in the HIF-1alpha signaling pathway. Molecular docking showed that Isoquercitrin had a strong binding affinity to the core target HIF-1alpha, with a binding energy of -5.12 kcal/mol. For further validation, an in vitro IR model was established using two hepatocellular carcinoma cell lines, HepG2 and Huh-7. Isoquercitrin significantly enhanced cell viability and promoted glucose uptake in both cell lines. Western blot analysis showed that Isoquercitrin decreased the protein expression levels of HIF-1alpha and HO-1, while increasing the expression of the ferroptosis-related markers, including GPX4, SLC7A11, and FTH1. Furthermore, Isoquercitrin treatment reduced the levels of malondialdehyde, reactive oxygen species, and Fe(2+), while increasing glutathione levels. Moreover, co-treatment with Isoquercitrin and the HIF-1alpha inhibitor PX-478 further suppressed HIF-1alpha and HO-1 expression, highlighting Isoquercitrin's involvement in modulating the HIF-1alpha/HO-1 signaling pathway. These findings suggest that Isoquercitrin may ameliorate IR by inhibiting ferroptosis through regulation of the HIF-1alpha/HO-1 pathway. This study provides promising prospects for the clinical application of active compounds derived from traditional Chinese herbal medicines in IR treatment.",
+    "keywords": [
+      "Ferroptosis",
+      "HIF-1alpha/HO-1 pathway",
+      "Insulin resistance",
+      "Isoquercitrin",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "Humans",
+      "*Quercetin/analogs & derivatives/pharmacology/chemistry",
+      "*Insulin Resistance",
+      "Molecular Docking Simulation",
+      "Network Pharmacology",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Hep G2 Cells",
+      "Protein Interaction Maps/drug effects",
+      "Cell Line, Tumor",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Junyu",
+        "Hu, Changlong",
+        "Qian, Zhou",
+        "Yue, Jiakui",
+        "Zhang, Shengnan",
+        "Jiang, Wenyan",
+        "Su, Rui",
+        "Jiang, Guojun",
+        "Huang, Guihong"
+      ],
+      "short_names": [
+        "Meng J",
+        "Hu C",
+        "Qian Z",
+        "Yue J",
+        "Zhang S",
+        "Jiang W",
+        "Su R",
+        "Jiang G",
+        "Huang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China.",
+        "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Metabolic Reprogramming and Intelligent Medical Engineering for Chronic Diseases, Guangxi Key Laboratory of Diabetic Systems Medicine, Guilin, Guangxi, 541199, China. Electronic address: guihonghuang666@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Junyu",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Changlong",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Zhou",
+        "short_name": "Qian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Jiakui",
+        "short_name": "Yue J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengnan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Wenyan",
+        "short_name": "Jiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Su, Rui",
+        "short_name": "Su R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Guojun",
+        "short_name": "Jiang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guihong",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin, Guangxi, 541199, China; Guangxi Key Laboratory of Metabolic Reprogramming and Intelligent Medical Engineering for Chronic Diseases, Guangxi Key Laboratory of Diabetic Systems Medicine, Guilin, Guangxi, 541199, China. Electronic address: guihonghuang666@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2025 Sep 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 00:44",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42545594",
+      "41416424"
+    ],
+    "refs": [],
+    "similar": [
+      "40858065",
+      "41713810",
+      "39805787",
+      "40350911",
+      "40316156",
+      "41038325",
+      "41079727",
+      "40350824",
+      "39820731",
+      "40316154",
+      "41092579",
+      "40414576",
+      "40810078",
+      "39423479",
+      "39923957",
+      "37990310",
+      "38403669",
+      "40750966",
+      "41265811",
+      "39928767",
+      "39066538",
+      "39071814",
+      "40543694",
+      "39440778",
+      "40172736",
+      "40461193",
+      "39974399",
+      "39874850",
+      "39076092",
+      "41418734",
+      "41155161",
+      "37287284",
+      "38759074",
+      "40399397",
+      "37282864",
+      "41814798",
+      "40574364",
+      "41346967",
+      "41508240",
+      "39938168",
+      "40452077",
+      "39421985",
+      "38387682",
+      "40585331",
+      "33191068",
+      "38213248",
+      "41473244",
+      "40255473",
+      "41429385",
+      "37469733",
+      "37382018",
+      "40580693",
+      "40109471",
+      "39461013",
+      "41203698",
+      "40615101",
+      "36822344",
+      "37143282",
+      "33771638",
+      "39251712",
+      "38619514",
+      "34660782",
+      "35837376",
+      "39067746",
+      "39701786",
+      "38032489",
+      "37807411",
+      "38621980",
+      "41492010",
+      "40992269",
+      "40456494",
+      "40456202",
+      "40074768",
+      "37990309",
+      "39168172",
+      "38776853",
+      "39565454",
+      "37005817",
+      "38941043",
+      "41439108",
+      "39243557",
+      "41629408",
+      "41316326",
+      "32389853",
+      "35178959",
+      "40752597",
+      "39392030",
+      "40725959",
+      "37713894",
+      "37799727",
+      "39617073",
+      "41756284",
+      "37190808",
+      "39556146",
+      "40440909",
+      "39093467",
+      "41508216",
+      "41634719",
+      "38321908",
+      "39343107"
+    ],
+    "review": [
+      "40858065",
+      "39556146"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(25)01215-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3809",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

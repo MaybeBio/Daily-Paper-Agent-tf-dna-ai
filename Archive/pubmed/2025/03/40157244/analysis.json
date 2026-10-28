@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40157244",
+  "title": "Development and validation of a machine learning prognostic model based on an epigenomic signature in patients with pancreatic ductal adenocarcinoma.",
+  "authors": "Zaccaria, Gian Maria; Altini, Nicola; Mongelli, Valentina; Marino, Francescomaria; Bevilacqua, Vitoantonio",
+  "journal": "International journal of medical informatics",
+  "published_date": "2025-03-30",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习基于甲基化特征构建胰腺导管腺癌预后模型，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: In Pancreatic Ductal Adenocarcinoma (PDAC), current prognostic scores are unable to fully capture the biological heterogeneity of the disease. While some approaches investigating the role of multi-omics in PDAC are emerging, the analysis of methylation data is under exploited. MATERIALS AND METHODS: We analyzed CpG sites from two publicly available datasets, the TCGA-PAAD used as discovery set and the CPTAC-PDA as external test set. Single mutations and co-mutation of KRAS and TP53 genes were identified as targets, and differentially methylated CpG sites (DMC) were detected accordingly. We trained and validated Random Forest (RF) models to predict each target. Area Under the Receiver Operating Characteristic curve (AUROC) and Area Under the Precision-Recall curve (AUPRC) were used as performance metrics. Then, we performed consensus clustering from the DMCs to identify novel patients' profiles. Finally, we trained and validated a combination of eXtreme Gradient Boosting (XGB) and tree models to select an epigenomic prognostic determinant. RESULTS: From 598 DMCs extracted, an RF model predicted KRAS and TP53 co-mutation on the external test set with AUROC of 0.77 and AUPRC of 0.87. The consensus clustering allowed us to identify 4 clusters (C1, C2, C3, and C4) of patients. The C4 cluster captured a subgroup of patients with favorable Overall Survival (OS) with respect to others. The XGB model perfectly predicted C4 vs other clusters on the discovery set. In both cohorts, patients were stratified into two risk groups according to methylation levels of cg16854533, individuated as the most important CpG site. CONCLUSION: We analyzed methylation data to develop a classifier for the TP53 and KRAS mutational status. Four prognostic clusters were pointed out and a prognostic model using a CpG site was validated in an independent cohort. Our results evidence that the proposed use of methylation data facilitates risk stratification for PDAC.",
+  "abstract_zh": "背景：在胰腺导管腺癌（Pancreatic Ductal Adenocarcinoma, PDAC）中，当前的预后评分无法完全捕捉该疾病的生物学异质性。虽然一些研究正在探索多组学在PDAC中的作用，但甲基化数据的分析仍未得到充分利用。材料与方法：我们分析了两个公开数据集中的CpG位点，其中TCGA-PAAD作为发现集，CPTAC-PDA作为外部测试集。KRAS和TP53基因的单突变及共突变被确定为目标，并据此检测差异甲基化CpG位点（differentially methylated CpG sites, DMC）。我们训练并验证了随机森林（Random Forest, RF）模型以预测每个目标。使用受试者工作特征曲线下面积（Area Under the Receiver Operating Characteristic curve, AUROC）和精确率-召回率曲线下面积（Area Under the Precision-Recall curve, AUPRC）作为性能指标。随后，我们基于DMCs进行共识聚类（consensus clustering）以识别新的患者分型。最后，我们训练并验证了极端梯度提升（eXtreme Gradient Boosting, XGB）与树模型的组合，以选择表观基因组预后决定因素。结果：从提取的598个DMCs中，RF模型在外部测试集上预测KRAS和TP53共突变，AUROC为0.77，AUPRC为0.87。共识聚类使我们识别出4个患者聚类（C1、C2、C3和C4）。C4聚类捕获了一个总生存期（Overall Survival, OS）优于其他组的患者亚群。XGB模型在发现集上完美预测了C4与其他聚类的区分。在两个队列中，根据cg16854533的甲基化水平（被确定为最重要的CpG位点），患者被分层为两个风险组。结论：我们分析了甲基化数据以开发针对TP53和KRAS突变状态的分类器。指出了四个预后聚类，并在独立队列中验证了使用CpG位点的预后模型。我们的结果表明，所提出的甲基化数据使用方式有助于PDAC的风险分层。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40157244/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40157244/",
+  "paper_page_path": "papers/pubmed/40157244/index.html"
+}

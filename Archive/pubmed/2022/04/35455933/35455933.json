@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "35455933",
+    "doi": "10.3390/cells11081253",
+    "title": "Development and Experimental Validation of Regularized Machine Learning Models Detecting New, Structurally Distinct Activators of PXR."
+  },
+  "content": {
+    "abstract": "The pregnane X receptor (PXR) regulates the metabolism of many xenobiotic and endobiotic substances. In consequence, PXR decreases the efficacy of many small-molecule drugs and induces drug-drug interactions. The prediction of PXR activators with theoretical approaches such as machine learning (ML) proves challenging due to the ligand promiscuity of PXR, which is related to its large and flexible binding pocket. In this work we demonstrate, by the example of random forest models and support vector machines, that classifiers generated following classical training procedures often fail to predict PXR activity for compounds that are dissimilar from those in the training set. We present a novel regularization technique that penalizes the gap between a model's training and validation performance. On a challenging test set, this technique led to improvements in Matthew correlation coefficients (MCCs) by up to 0.21. Using these regularized ML models, we selected 31 compounds that are structurally distinct from known PXR ligands for experimental validation. Twelve of them were confirmed as active in the cellular PXR ligand-binding domain assembly assay and more hits were identified during follow-up studies. Comprehensive analysis of key features of PXR biology conducted for three representative hits confirmed their ability to activate the PXR.",
+    "keywords": [
+      "activators",
+      "machine learning",
+      "pregnane X receptor",
+      "regularization",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "Ligands",
+      "Machine Learning",
+      "Pregnane X Receptor",
+      "*Receptors, Steroid/metabolism",
+      "Xenobiotics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hirte, Steffen",
+        "Burk, Oliver",
+        "Tahir, Ammar",
+        "Schwab, Matthias",
+        "Windshugel, Bjorn",
+        "Kirchmair, Johannes"
+      ],
+      "short_names": [
+        "Hirte S",
+        "Burk O",
+        "Tahir A",
+        "Schwab M",
+        "Windshugel B",
+        "Kirchmair J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7421-6726",
+        "ORCID: 0000-0001-8990-9656",
+        "ORCID: 0000-0003-3682-5680",
+        "ORCID: 0000-0002-4835-3134",
+        "ORCID: 0000-0003-2667-5877"
+      ],
+      "affiliations": [
+        "Division of Pharmaceutical Chemistry, Department of Pharmaceutical Sciences, Faculty of Life Sciences, University of Vienna, 1090 Vienna, Austria.",
+        "Dr. Margarete Fischer-Bosch-Institute of Clinical Pharmacology, University of Tubingen, 70376 Stuttgart, Germany.",
+        "Division of Pharmacognosy, Department of Pharmaceutical Sciences, Faculty of Life Sciences, University of Vienna, 1090 Vienna, Austria.",
+        "Dr. Margarete Fischer-Bosch-Institute of Clinical Pharmacology, University of Tubingen, 70376 Stuttgart, Germany.",
+        "Departments of Clinical Pharmacology and Biochemistry and Pharmacy, University of Tuebingen, 72074 Tubingen, Germany.",
+        "Cluster of Excellence IFIT (EXC 2180) \"Image-Guided and Functionally Instructed Tumor Therapies\", University of Tubingen, 72074 Tubingen, Germany.",
+        "Fraunhofer Institute for Translational Medicine and Pharmacology ITMP, Discovery Research Screening Port, 22525 Hamburg, Germany.",
+        "Department of Life Sciences and Chemistry, Jacobs University Bremen, 28759 Bremen, Germany.",
+        "Division of Pharmaceutical Chemistry, Department of Pharmaceutical Sciences, Faculty of Life Sciences, University of Vienna, 1090 Vienna, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hirte, Steffen",
+        "short_name": "Hirte S",
+        "identifiers": [
+          "0000-0001-7421-6726"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmaceutical Sciences, Faculty of Life Sciences, University of Vienna, 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Burk, Oliver",
+        "short_name": "Burk O",
+        "identifiers": [
+          "0000-0001-8990-9656"
+        ],
+        "affiliations": [
+          "Dr. Margarete Fischer-Bosch-Institute of Clinical Pharmacology, University of Tübingen, 70376 Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Tahir, Ammar",
+        "short_name": "Tahir A",
+        "identifiers": [
+          "0000-0003-3682-5680"
+        ],
+        "affiliations": [
+          "Division of Pharmacognosy, Department of Pharmaceutical Sciences, Faculty of Life Sciences, University of Vienna, 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Schwab, Matthias",
+        "short_name": "Schwab M",
+        "identifiers": [],
+        "affiliations": [
+          "Dr. Margarete Fischer-Bosch-Institute of Clinical Pharmacology, University of Tübingen, 70376 Stuttgart, Germany.",
+          "Departments of Clinical Pharmacology and Biochemistry and Pharmacy, University of Tuebingen, 72074 Tübingen, Germany.",
+          "Cluster of Excellence IFIT (EXC 2180) \"Image-Guided and Functionally Instructed Tumor Therapies\", University of Tübingen, 72074 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Windshügel, Björn",
+        "short_name": "Windshügel B",
+        "identifiers": [
+          "0000-0002-4835-3134"
+        ],
+        "affiliations": [
+          "Fraunhofer Institute for Translational Medicine and Pharmacology ITMP, Discovery Research Screening Port, 22525 Hamburg, Germany.",
+          "Department of Life Sciences and Chemistry, Jacobs University Bremen, 28759 Bremen, Germany."
+        ]
+      },
+      {
+        "full_name": "Kirchmair, Johannes",
+        "short_name": "Kirchmair J",
+        "identifiers": [
+          "0000-0003-2667-5877"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Chemistry, Department of Pharmaceutical Sciences, Faculty of Life Sciences, University of Vienna, 1090 Vienna, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2022 Apr 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/24 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "38922117",
+      "36230936"
+    ],
+    "refs": [
+      "34003642",
+      "33483427",
+      "33481596",
+      "33151290",
+      "29949360",
+      "29356861",
+      "29126136",
+      "28963450",
+      "28699014",
+      "28289823",
+      "27603675",
+      "27376821",
+      "26980285",
+      "26339628",
+      "25495542",
+      "25182422",
+      "23928187",
+      "22627063",
+      "22560839",
+      "22453080",
+      "22310298",
+      "22074953",
+      "21919490",
+      "21913896",
+      "21295138",
+      "21068194",
+      "20966043",
+      "20403969",
+      "20019244",
+      "20011107",
+      "19115096",
+      "18786510",
+      "18768384",
+      "18547065",
+      "18505790",
+      "17576789",
+      "17573484",
+      "17484516",
+      "17468390",
+      "17170021",
+      "17003167",
+      "16940355",
+      "16724927",
+      "16565514",
+      "15807509",
+      "15761118",
+      "15671183",
+      "15458789",
+      "15225665",
+      "15043764",
+      "12766253",
+      "12571232",
+      "12417264",
+      "12189228",
+      "12120277",
+      "12072427",
+      "12065438",
+      "11991950",
+      "11940601",
+      "11893771",
+      "11744617",
+      "11602521",
+      "11408620",
+      "11329060",
+      "10983973",
+      "10908304",
+      "10852961",
+      "10683007",
+      "10570062",
+      "10037683",
+      "9727070"
+    ],
+    "similar": [
+      "35455933",
+      "37059719",
+      "20011107",
+      "18547065",
+      "15961506",
+      "25495542",
+      "16918499",
+      "22560839",
+      "17003167",
+      "36230936",
+      "19856963",
+      "19115096",
+      "20966043",
+      "23007437",
+      "10628745",
+      "10748001",
+      "31782213",
+      "20869355",
+      "11336976",
+      "18384689",
+      "23327618",
+      "17484516",
+      "24044991",
+      "17327420",
+      "12909012",
+      "25252616",
+      "25313206",
+      "23525103",
+      "23928187",
+      "25202020",
+      "11744617",
+      "28289823",
+      "17215127",
+      "21641981",
+      "16863441",
+      "17584160",
+      "15650019",
+      "11865669",
+      "21395534",
+      "38251638",
+      "26980285",
+      "15826607",
+      "19505231",
+      "22939994",
+      "10415106",
+      "27603675",
+      "34698593",
+      "25133934",
+      "24329114",
+      "25455453",
+      "24121122",
+      "31008491",
+      "17284330",
+      "25050380",
+      "24797902",
+      "12509506",
+      "22554043",
+      "29219065",
+      "16399372",
+      "22976785",
+      "15705662",
+      "22627063",
+      "22591167",
+      "26924429",
+      "35421365",
+      "33361153",
+      "27515410",
+      "26855179",
+      "28414139",
+      "17188925",
+      "20832446",
+      "24889719",
+      "11981033",
+      "12181440",
+      "19144646",
+      "16101573",
+      "21068194",
+      "11668216",
+      "23845848",
+      "18096694",
+      "12840222",
+      "20151218",
+      "23626729",
+      "29757018",
+      "27413110",
+      "12569201",
+      "22166712",
+      "22453080",
+      "27197997",
+      "22214767",
+      "18677425",
+      "15541768",
+      "23237007",
+      "19147857",
+      "22185585",
+      "20196838",
+      "17997857",
+      "21311750",
+      "36480704",
+      "36848571",
+      "39405362",
+      "36268980",
+      "36124309"
+    ],
+    "review": [
+      "35455933",
+      "15961506",
+      "16918499",
+      "36230936",
+      "23007437",
+      "31782213",
+      "11336976",
+      "23327618",
+      "25252616",
+      "16863441",
+      "17584160",
+      "11865669",
+      "21395534",
+      "38251638",
+      "22939994",
+      "34698593",
+      "24329114",
+      "31008491",
+      "17284330",
+      "22554043",
+      "26924429",
+      "17188925",
+      "24889719",
+      "16101573",
+      "12840222",
+      "29757018"
+    ],
+    "pmc": [
+      "9029776"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells11081253",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35455933/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35455933",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

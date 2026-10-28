@@ -1,0 +1,638 @@
+{
+  "identity": {
+    "pmid": "39843737",
+    "doi": "10.1038/s41586-024-08443-4",
+    "title": "Multiscale footprints reveal the organization of cis-regulatory elements."
+  },
+  "content": {
+    "abstract": "Cis-regulatory elements (CREs) control gene expression and are dynamic in their structure and function, reflecting changes in the composition of diverse effector proteins over time(1). However, methods for measuring the organization of effector proteins at CREs across the genome are limited, hampering efforts to connect CRE structure to their function in cell fate and disease. Here we developed PRINT, a computational method that identifies footprints of DNA-protein interactions from bulk and single-cell chromatin accessibility data across multiple scales of protein size. Using these multiscale footprints, we created the seq2PRINT framework, which uses deep learning to allow precise inference of transcription factor and nucleosome binding and interprets regulatory logic at CREs. Applying seq2PRINT to single-cell chromatin accessibility data from human bone marrow, we observe sequential establishment and widening of CREs centred on pioneer factors across haematopoiesis. We further discover age-associated alterations in the structure of CREs in murine haematopoietic stem cells, including widespread reduction of nucleosome footprints and gain of de novo identified Ets composite motifs. Collectively, we establish a method for obtaining rich insights into DNA-binding protein dynamics from chromatin accessibility data, and reveal the architecture of regulatory elements across differentiation and ageing.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Mice",
+      "Animals",
+      "Nucleosomes/metabolism/genetics",
+      "Chromatin/metabolism/genetics",
+      "Transcription Factors/metabolism",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Hematopoiesis/genetics",
+      "Aging/genetics",
+      "Cell Differentiation/genetics",
+      "Deep Learning",
+      "Single-Cell Analysis",
+      "Hematopoietic Stem Cells/metabolism/cytology",
+      "DNA-Binding Proteins/metabolism",
+      "Protein Binding",
+      "Male",
+      "Female",
+      "Gene Expression Regulation",
+      "*Regulatory Elements, Transcriptional/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Yan",
+        "Horlbeck, Max A",
+        "Zhang, Ruochi",
+        "Ma, Sai",
+        "Shrestha, Rojesh",
+        "Kartha, Vinay K",
+        "Duarte, Fabiana M",
+        "Hock, Conrad",
+        "Savage, Rachel E",
+        "Labade, Ajay",
+        "Kletzien, Heidi",
+        "Meliki, Alia",
+        "Castillo, Andrew",
+        "Durand, Neva C",
+        "Mattei, Eugenio",
+        "Anderson, Lauren J",
+        "Tay, Tristan",
+        "Earl, Andrew S",
+        "Shoresh, Noam",
+        "Epstein, Charles B",
+        "Wagers, Amy J",
+        "Buenrostro, Jason D"
+      ],
+      "short_names": [
+        "Hu Y",
+        "Horlbeck MA",
+        "Zhang R",
+        "Ma S",
+        "Shrestha R",
+        "Kartha VK",
+        "Duarte FM",
+        "Hock C",
+        "Savage RE",
+        "Labade A",
+        "Kletzien H",
+        "Meliki A",
+        "Castillo A",
+        "Durand NC",
+        "Mattei E",
+        "Anderson LJ",
+        "Tay T",
+        "Earl AS",
+        "Shoresh N",
+        "Epstein CB",
+        "Wagers AJ",
+        "Buenrostro JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8435-6586",
+        "ORCID: 0000-0002-3875-871X",
+        "ORCID: 0000-0002-1103-5044",
+        "ORCID: 0000-0002-9785-7929",
+        "ORCID: 0000-0003-1348-8220",
+        "ORCID: 0009-0006-5647-2623",
+        "ORCID: 0000-0002-8889-658X",
+        "ORCID: 0009-0001-5180-6122",
+        "ORCID: 0000-0002-5732-954X",
+        "ORCID: 0000-0001-8358-8345",
+        "ORCID: 0000-0001-9958-3987"
+      ],
+      "affiliations": [
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Division of Genetics and Genomics, Boston Children's Hospital, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Paul F. Glenn Center for the Biology of Aging, Harvard Medical School, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+        "Paul F. Glenn Center for the Biology of Aging, Harvard Medical School, Boston, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA. jason_buenrostro@harvard.edu.",
+        "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA. jason_buenrostro@harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Yan",
+        "short_name": "Hu Y",
+        "identifiers": [
+          "0000-0002-8435-6586"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Horlbeck, Max A",
+        "short_name": "Horlbeck MA",
+        "identifiers": [
+          "0000-0002-3875-871X"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+          "Division of Genetics and Genomics, Boston Children's Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruochi",
+        "short_name": "Zhang R",
+        "identifiers": [
+          "0000-0002-1103-5044"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+          "Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Sai",
+        "short_name": "Ma S",
+        "identifiers": [
+          "0000-0002-9785-7929"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+          "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Shrestha, Rojesh",
+        "short_name": "Shrestha R",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kartha, Vinay K",
+        "short_name": "Kartha VK",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Duarte, Fabiana M",
+        "short_name": "Duarte FM",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hock, Conrad",
+        "short_name": "Hock C",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Savage, Rachel E",
+        "short_name": "Savage RE",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Labade, Ajay",
+        "short_name": "Labade A",
+        "identifiers": [
+          "0000-0003-1348-8220"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kletzien, Heidi",
+        "short_name": "Kletzien H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+          "Paul F. Glenn Center for the Biology of Aging, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Meliki, Alia",
+        "short_name": "Meliki A",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Castillo, Andrew",
+        "short_name": "Castillo A",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Durand, Neva C",
+        "short_name": "Durand NC",
+        "identifiers": [
+          "0009-0006-5647-2623"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mattei, Eugenio",
+        "short_name": "Mattei E",
+        "identifiers": [
+          "0000-0002-8889-658X"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Anderson, Lauren J",
+        "short_name": "Anderson LJ",
+        "identifiers": [
+          "0009-0001-5180-6122"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Tay, Tristan",
+        "short_name": "Tay T",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Earl, Andrew S",
+        "short_name": "Earl AS",
+        "identifiers": [
+          "0000-0002-5732-954X"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Shoresh, Noam",
+        "short_name": "Shoresh N",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Epstein, Charles B",
+        "short_name": "Epstein CB",
+        "identifiers": [
+          "0000-0001-8358-8345"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Wagers, Amy J",
+        "short_name": "Wagers AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA.",
+          "Paul F. Glenn Center for the Biology of Aging, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Buenrostro, Jason D",
+        "short_name": "Buenrostro JD",
+        "identifiers": [
+          "0000-0001-9958-3987"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA. jason_buenrostro@harvard.edu.",
+          "Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA. jason_buenrostro@harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/23 05:17",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "42588840",
+      "42542664",
+      "42458527",
+      "42309052",
+      "42306870",
+      "42265104",
+      "42239462",
+      "42239281",
+      "42074600",
+      "42067542",
+      "42047481",
+      "41927920",
+      "41924246",
+      "41896334",
+      "41882356",
+      "41819104",
+      "41781618",
+      "41639613",
+      "41609358",
+      "41606153",
+      "41573844",
+      "41544130",
+      "41313716",
+      "41273414",
+      "41238550",
+      "41108684",
+      "40962882",
+      "40935921",
+      "40855363",
+      "40832322",
+      "40799140",
+      "40795153",
+      "40777427",
+      "40501927",
+      "40501721",
+      "40335327",
+      "40250421",
+      "40196012",
+      "40027722",
+      "39975126"
+    ],
+    "refs": [
+      "38718835",
+      "38391933",
+      "37735262",
+      "37557175",
+      "36973557",
+      "36599349",
+      "36522544",
+      "36300619",
+      "36268869",
+      "36204155",
+      "34774128",
+      "34737275",
+      "34446533",
+      "34426512",
+      "34174819",
+      "33649594",
+      "33637709",
+      "33633365",
+      "33098772",
+      "33086034",
+      "32848148",
+      "32728250",
+      "32728249",
+      "32669716",
+      "32641802",
+      "32587015",
+      "32020082",
+      "31988385",
+      "31672865",
+      "31395865",
+      "31235917",
+      "31178118",
+      "30971806",
+      "30962623",
+      "30951143",
+      "30899105",
+      "30858613",
+      "29987030",
+      "29426353",
+      "29425509",
+      "28825706",
+      "28537572",
+      "27789702",
+      "27482540",
+      "27197224",
+      "27009448",
+      "27008022",
+      "26824662",
+      "26314830",
+      "26083756",
+      "25953818",
+      "25867923",
+      "25516281",
+      "25297728",
+      "25242143",
+      "25215497",
+      "24792119",
+      "24646888",
+      "24317252",
+      "24097267",
+      "23473601",
+      "22960375",
+      "22955617",
+      "22868264",
+      "22722846",
+      "22085726",
+      "22025700",
+      "18798982",
+      "18566588",
+      "18243117",
+      "17676974",
+      "17324271",
+      "12384402",
+      "12045153",
+      "10411939",
+      "8816476"
+    ],
+    "similar": [
+      "39843737",
+      "37034577",
+      "25442502",
+      "36945732",
+      "39572230",
+      "39127768",
+      "31053165",
+      "40114377",
+      "29807547",
+      "9395238",
+      "34650237",
+      "40382355",
+      "39724337",
+      "39546199",
+      "29706549",
+      "40450687",
+      "1579493",
+      "7828582",
+      "31533978",
+      "32978299",
+      "41724964",
+      "40424338",
+      "31682597",
+      "27137654",
+      "41237776",
+      "22773751",
+      "39814021",
+      "26208222",
+      "40332394",
+      "33964211",
+      "38631728",
+      "31740772",
+      "33290745",
+      "41372234",
+      "25361955",
+      "23266217",
+      "36549923",
+      "33191916",
+      "40781032",
+      "22684279",
+      "30016497",
+      "19410542",
+      "37532472",
+      "24603674",
+      "25494698",
+      "39199333",
+      "31253573",
+      "26411677",
+      "38830772",
+      "29733395",
+      "30258225",
+      "27046080",
+      "39904740",
+      "38720070",
+      "26826681",
+      "17347439",
+      "25103404",
+      "29074739",
+      "31769130",
+      "22354995",
+      "34815405",
+      "41642679",
+      "38724692",
+      "29945882",
+      "41005292",
+      "8887635",
+      "41545085",
+      "29342133",
+      "39829783",
+      "41365655",
+      "41299571",
+      "37824614",
+      "33741760",
+      "40472028",
+      "33407811",
+      "26673693",
+      "22955617",
+      "26305225",
+      "27135163",
+      "41197626",
+      "39208807",
+      "25319996",
+      "19289091",
+      "24030384",
+      "41643202",
+      "41066618",
+      "23482648",
+      "36368558",
+      "28189604",
+      "33903675",
+      "35293310",
+      "22955618",
+      "21750106",
+      "39747019",
+      "23554462",
+      "39946792",
+      "40369872",
+      "41735542",
+      "38260486",
+      "35303433"
+    ],
+    "review": [
+      "39843737",
+      "27137654",
+      "23266217",
+      "36549923",
+      "39199333",
+      "26826681",
+      "31769130",
+      "33741760"
+    ],
+    "pmc": [
+      "11839466"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-024-08443-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39843737/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "42206368",
+    "doi": "10.1161/ATVBAHA.126.324681",
+    "title": "I-tRF-Asp Promotes Vascular Remodeling in Hypoxic Pulmonary Hypertension Via hnRNPU Phase Separation, Which Affects TCF7L2 Alternative Splicing."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pulmonary hypertension (PH) is a fatal disease characterized by pulmonary vascular remodeling, primarily driven by excessive proliferation of pulmonary arterial smooth muscle cells (PASMCs). Although noncoding RNAs, such as circular RNAs, have been implicated in PH, the role of tRNA-derived small RNA remains poorly understood. Among them, i-tRF (internal tRNA-derived fragment)-Asp represents a novel tRNA-derived small RNA whose function in hypoxic PH is unknown. This study aims to investigate whether i-tRF-Asp contributes to PASMC proliferation and vascular remodeling in hypoxic PH. METHODS: To elucidate the functional role of i-tRF-Asp, loss-of-function experiments were conducted in vitro using hypoxic mouse PASMCs, alongside in vivo studies using both SuHx (Sugen5416+hypoxia) induced PH models in both adult male C57BL/6 mice and Sprague-Dawley rats. These models employed antisense oligonucleotide inhibitors and adeno-associated virus-mediated silencing. The underlying mechanisms were further explored via RNA immunoprecipitation, liquid-liquid phase separation assays, cell proliferation assessment, Western blot, alternative splicing profiling, and molecular dynamics simulation. RESULTS: Inhibition of i-tRF-Asp ameliorated hypoxia-induced pulmonary vascular remodeling, primarily through suppressing excessive proliferation of mouse PASMCs. Further analysis indicated that i-tRF-Asp facilitates liquid-liquid phase separation of hnRNPU (heterogeneous nuclear ribonucleoprotein U). This process mediates selective recruitment of Tcf7l2 (transcription factor 7-like 2) pre-mRNA and promotes alternative splicing, resulting in a pro-proliferative Tcf7l2 transcript variant that drives mouse PASMC proliferation. Furthermore, we have identified that the endonuclease ERN1 (endoribonuclease IRE1) can upregulate the expression of i-tRF-Asp. CONCLUSIONS: The endoribonuclease ERN1 upregulates the expression of i-tRF-Asp, which in turn facilitates mouse PASMC proliferation and pulmonary vascular remodeling. This process is driven by hnRNPU liquid-liquid phase separation-dependent alternative splicing of the long Tcf7l2 transcript isoform.",
+    "keywords": [
+      "alternative splicing",
+      "hypertension, pulmonary",
+      "hypoxia",
+      "phase separation",
+      "vascular remodeling"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Vascular Remodeling",
+      "*Hypertension, Pulmonary/genetics/metabolism/physiopathology/pathology/etiology",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Cell Proliferation",
+      "*Hypoxia/complications/metabolism/genetics",
+      "*Myocytes, Smooth Muscle/metabolism/pathology",
+      "*Muscle, Smooth, Vascular/metabolism/pathology/physiopathology",
+      "*Alternative Splicing",
+      "*Pulmonary Artery/metabolism/pathology/physiopathology",
+      "Disease Models, Animal",
+      "*Transcription Factor 7-Like 2 Protein/genetics/metabolism",
+      "Rats, Sprague-Dawley",
+      "Cells, Cultured",
+      "Signal Transduction",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Hao",
+        "Chen, Bo",
+        "Gao, Danni",
+        "Zhang, Lixin",
+        "Bai, June",
+        "Sun, Hanliang",
+        "Mei, Jian",
+        "Ou, Langlin",
+        "Guan, Xiaoyu",
+        "Wang, Shanshan",
+        "Ma, Cui",
+        "Xing, Yan",
+        "Wang, Shuang",
+        "Yu, Hang",
+        "Zhu, Daling"
+      ],
+      "short_names": [
+        "Yuan H",
+        "Chen B",
+        "Gao D",
+        "Zhang L",
+        "Bai J",
+        "Sun H",
+        "Mei J",
+        "Ou L",
+        "Guan X",
+        "Wang S",
+        "Ma C",
+        "Xing Y",
+        "Wang S",
+        "Yu H",
+        "Zhu D"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-6245-4319",
+        "ORCID: 0009-0000-8700-1337",
+        "ORCID: 0000-0002-6177-4152",
+        "ORCID: 0009-0000-8718-6378",
+        "ORCID: 0009-0001-8424-5528",
+        "ORCID: 0000-0001-8413-5284",
+        "ORCID: 0009-0006-0322-3228",
+        "ORCID: 0000-0002-3142-4637",
+        "ORCID: 0000-0002-1160-1608",
+        "ORCID: 0000-0002-6669-2236"
+      ],
+      "affiliations": [
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Department of Biopharmaceutical Sciences, College of Pharmacy, Harbin Medical University, PR China (Shuang Wang).",
+        "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Now with Institute of Cardiovascular Diseases, Xiamen Cardiovascular Hospital, School of Medicine, Xiamen University, Fujian Branch of National Clinical Research Center for Cardiovascular Diseases, Xiamen, PR China (C.M.).",
+        "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.).",
+        "Department of Basic Medicine, Harbin Medical University, Daqing, PR China (H. Yu).",
+        "Engineering Technology Research Center for Precision Diagnosis and Treatment of Frigid Zone-Related Diseases, Daqing, PR China (H. Yu).",
+        "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+        "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+        "Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Daqing, PR China (D.Z.)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Hao",
+        "short_name": "Yuan H",
+        "identifiers": [
+          "0009-0009-6245-4319"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Chen, Bo",
+        "short_name": "Chen B",
+        "identifiers": [
+          "0009-0000-8700-1337"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Gao, Danni",
+        "short_name": "Gao D",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lixin",
+        "short_name": "Zhang L",
+        "identifiers": [
+          "0000-0002-6177-4152"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.)."
+        ]
+      },
+      {
+        "full_name": "Bai, June",
+        "short_name": "Bai J",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Sun, Hanliang",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Mei, Jian",
+        "short_name": "Mei J",
+        "identifiers": [
+          "0009-0000-8718-6378"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.)."
+        ]
+      },
+      {
+        "full_name": "Ou, Langlin",
+        "short_name": "Ou L",
+        "identifiers": [
+          "0009-0001-8424-5528"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.)."
+        ]
+      },
+      {
+        "full_name": "Guan, Xiaoyu",
+        "short_name": "Guan X",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Wang, Shanshan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Department of Biopharmaceutical Sciences, College of Pharmacy, Harbin Medical University, PR China (Shuang Wang).",
+          "College of Pharmacy, Harbin Medical University, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang)."
+        ]
+      },
+      {
+        "full_name": "Ma, Cui",
+        "short_name": "Ma C",
+        "identifiers": [
+          "0000-0001-8413-5284"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Now with Institute of Cardiovascular Diseases, Xiamen Cardiovascular Hospital, School of Medicine, Xiamen University, Fujian Branch of National Clinical Research Center for Cardiovascular Diseases, Xiamen, PR China (C.M.).",
+          "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.)."
+        ]
+      },
+      {
+        "full_name": "Xing, Yan",
+        "short_name": "Xing Y",
+        "identifiers": [
+          "0009-0006-0322-3228"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "College of Medical Laboratory Science and Technology and College of Pharmacy (L.Z., J.M., L.O., C.M., Y.X.)."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuang",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-3142-4637"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yu, Hang",
+        "short_name": "Yu H",
+        "identifiers": [
+          "0000-0002-1160-1608"
+        ],
+        "affiliations": [
+          "Department of Basic Medicine, Harbin Medical University, Daqing, PR China (H. Yu).",
+          "Engineering Technology Research Center for Precision Diagnosis and Treatment of Frigid Zone-Related Diseases, Daqing, PR China (H. Yu)."
+        ]
+      },
+      {
+        "full_name": "Zhu, Daling",
+        "short_name": "Zhu D",
+        "identifiers": [
+          "0000-0002-6669-2236"
+        ],
+        "affiliations": [
+          "Central Laboratory of Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., L.Z., J.B., H.S., J.M., L.O., X.G., Shanshan Wang, C.M., Y.X., D.Z.).",
+          "Harbin Medical University, Daqing, PR China (H. Yuan, B.C., D.G., J.B., H.S., X.G., Shanshan Wang, D.Z.).",
+          "Key Laboratory of Cardiovascular Medicine Research, Ministry of Education, Daqing, PR China (D.Z.)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Arteriosclerosis, thrombosis, and vascular biology"
+    ],
+    "journal_abbrev": [
+      "Arterioscler Thromb Vasc Biol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 06:32",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42206368",
+      "39973750",
+      "39360410",
+      "40693377",
+      "40181773",
+      "38572649",
+      "38770649",
+      "40567228",
+      "41812836",
+      "39494580",
+      "28645933",
+      "29636330",
+      "39059570",
+      "32772647",
+      "39276964",
+      "41429276",
+      "40433695",
+      "35016680",
+      "39129491",
+      "41498134",
+      "22461388",
+      "39952300",
+      "40767286",
+      "30195228",
+      "34906150",
+      "41232621",
+      "39103838",
+      "41213438",
+      "30092353",
+      "30172777",
+      "41231254",
+      "33188479",
+      "40588665",
+      "40332105",
+      "33236156",
+      "40143817",
+      "28056547",
+      "32559140",
+      "41122836",
+      "28694128",
+      "40964716",
+      "29186367",
+      "41946195",
+      "40772295",
+      "39996311",
+      "20160044",
+      "38832511",
+      "27493099",
+      "37717533",
+      "25399435",
+      "41749458",
+      "40466901",
+      "22730443",
+      "38860847",
+      "30954415",
+      "31943454",
+      "41846580",
+      "41402807",
+      "33465322",
+      "32008463",
+      "40983122",
+      "40451562",
+      "35175782",
+      "39556088",
+      "34314061",
+      "38557054",
+      "25231004",
+      "33947399",
+      "24334871",
+      "37918254",
+      "42100800",
+      "27009277",
+      "31422096",
+      "29150946",
+      "39265206",
+      "31597444",
+      "38682326",
+      "30610955",
+      "37698017",
+      "40336475",
+      "41352378",
+      "34513987",
+      "40414553",
+      "28593577",
+      "29514810",
+      "30857524",
+      "35848503",
+      "39696429",
+      "37661916",
+      "32592231",
+      "29167124",
+      "24072692",
+      "41778322",
+      "26311719",
+      "40258398",
+      "35148256",
+      "33152351",
+      "27871853",
+      "36736607",
+      "25016214"
+    ],
+    "review": [
+      "42206368"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ahajournals.org/doi/10.1161/ATVBAHA.126.324681?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=46&issue=7&spage=e324681&aulast=Yuan",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pulmonaryhypertension.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pulmonary Hypertension"
+      }
+    ],
+    "text_mined": []
+  }
+}

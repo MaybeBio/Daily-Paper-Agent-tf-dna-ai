@@ -1,0 +1,275 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.09.28.25336826",
+  "title": "Epistatic contributions to human traits via transcription factor mechanisms",
+  "doi": "10.1101/2025.09.28.25336826",
+  "abstract": "Epistasis causes an individual’s genetic background to modulate a DNA variant’s effect on trait [1–6]. Epistatic interactions among different loci in human complex traits are expected to be widespread but have not been found [7]. This could be due to small interaction effect sizes, the statistical complexity of estimating interactions that is higher than marginal variant effects, and a substantial multiple testing burden in a genome-wide scan [8–11]. Targeting interacting variants that contribute to the same biological pathway could lighten this burden. Here we combined Targeted Machine Learning [12, 13] with experimentally verified differential binding variants across 9 nuclear hormone receptors (NHR) to identify 535 two-point DNA variant-variant and 185 three-point variant-variant-sex NHR interactions among 768 traits in the UK Biobank (UKB) at a false discovery rate per trait of less than 0.05. Significance testing combined k allele-specific components into a Hotelling’s T 2 test of Average Interaction Effect estimates at pairs/triples of loci ( k ≤ 4 or k ≤ 8 for 2- or 3-point interactions, respectively). Nearly a third of 2-point interactions replicated, as they involved the same DNA-binding site and human trait but different trans-acting DNA variants. These epistatic mechanisms of altered transcription factor binding provide both plausible molecular mechanisms of action, and insight into sex-biased genetic risk, for diverse human traits and diseases.",
+  "authors": [
+    "Roskams-Hieter B",
+    "Labayle O",
+    "Tetley-Campbell K",
+    "van der Laan MJ",
+    "Ponting CP",
+    "Beentjes SV",
+    "Khamseh A"
+  ],
+  "published_date": "2025-09-29",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.09.28.25336826",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.09.28.25336826.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1092984",
+    "raw_record": {
+      "id": "PPR1092984",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1092984"
+        ]
+      },
+      "doi": "10.1101/2025.09.28.25336826",
+      "title": "Epistatic contributions to human traits via transcription factor mechanisms",
+      "authorString": "Roskams-Hieter B, Labayle O, Tetley-Campbell K, van der Laan MJ, Ponting CP, Beentjes SV, Khamseh A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Roskams-Hieter B",
+            "lastName": "Roskams-Hieter",
+            "firstName": "Breeshey",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1119-2576"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": ", 215 Euston Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Labayle O",
+            "lastName": "Labayle",
+            "firstName": "Olivier",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3708-3706"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Regeneration and Repair, , 4–5 Little France Drive , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tetley-Campbell K",
+            "lastName": "Tetley-Campbell",
+            "firstName": "Kelsey",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van der Laan MJ",
+            "lastName": "van der Laan",
+            "firstName": "Mark",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1432-5511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Public Health, , 2121 Berkeley Way , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ponting CP",
+            "lastName": "Ponting",
+            "firstName": "Chris",
+            "initials": "CP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0202-7816"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beentjes SV",
+            "lastName": "Beentjes",
+            "firstName": "Sjoerd",
+            "initials": "SV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7998-4262"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": "School of Public Health, , 2121 Berkeley Way , , ,"
+                },
+                {
+                  "affiliation": "School of Mathematics and , , Peter Guthrie Tait Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khamseh A",
+            "lastName": "Khamseh",
+            "firstName": "Ava",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5203-2205"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": "School of Public Health, , 2121 Berkeley Way , , ,"
+                },
+                {
+                  "affiliation": "School of Informatics, , 10 Crichton Street , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5203-2205"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1119-2576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3708-3706"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7998-4262"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0202-7816"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1432-5511"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Epistasis causes an individual’s genetic background to modulate a DNA variant’s effect on trait [1–6]. Epistatic interactions among different loci in human complex traits are expected to be widespread but have not been found [7]. This could be due to small interaction effect sizes, the statistical complexity of estimating interactions that is higher than marginal variant effects, and a substantial multiple testing burden in a genome-wide scan [8–11]. Targeting interacting variants that contribute to the same biological pathway could lighten this burden. Here we combined Targeted Machine Learning [12, 13] with experimentally verified differential binding variants across 9 nuclear hormone receptors (NHR) to identify 535 two-point DNA variant-variant and 185 three-point variant-variant-sex NHR interactions among 768 traits in the UK Biobank (UKB) at a false discovery rate per trait of less than 0.05. Significance testing combined k allele-specific components into a Hotelling’s T 2 test of Average Interaction Effect estimates at pairs/triples of loci ( k ≤ 4 or k ≤ 8 for 2- or 3-point interactions, respectively). Nearly a third of 2-point interactions replicated, as they involved the same DNA-binding site and human trait but different trans-acting DNA variants. These epistatic mechanisms of altered transcription factor binding provide both plausible molecular mechanisms of action, and insight into sex-biased genetic risk, for diverse human traits and diseases.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.28.25336826"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1092984"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1092984&type=FILE&fileName=EMS209333-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209333",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-10-01",
+      "firstPublicationDate": "2025-09-29",
+      "firstIndexDate": "2025-10-01",
+      "fullTextReceivedDate": "2025-10-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

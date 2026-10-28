@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42585774",
+  "title": "Key genetic biomarkers and therapeutic potential in multiple sclerosis: Insights from integrated bioinformatics and mendelian randomization.",
+  "authors": "Xu, Zhongbo; Xiong, Ke; Zhao, Dan",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-08-12",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过生信与孟德尔随机化筛选多发性硬化相关基因STAT6，并用分子对接和MD模拟验证STAT6-配体互作，但核心对象是蛋白-小分子而非蛋白-DNA互作，仅方法可部分借鉴。",
+  "abstract": "BACKGROUND AND OBJECTIVES: Multiple sclerosis (MS) is a chronic autoimmune disorder of the central nervous system characterized by inflammation, demyelination, and neurodegeneration. This study aimed to identify key genetic and immune-related biomarkers involved in MS pathogenesis and to explore structurally plausible therapeutic targets. MATERIALS AND METHODS: Publicly available gene-expression datasets were analyzed using an integrated computational framework. This framework comprised differential expression analysis, Mendelian randomization, immune-cell infiltration profiling, functional enrichment analysis, and drug-gene interaction screening. Candidate STAT6-ligand complexes were then examined by CB-Dock2 molecular docking, followed by 100 ns molecular dynamics (MD) simulation, MM-PBSA decomposition, per-residue energy analysis, and PCA-based free-energy landscape (FEL) analysis. RESULTS: Three MS-associated genes were prioritized: MS4A3, STAT6, and UBE2O. MS4A3 and STAT6 showed positive associations with MS risk, whereas UBE2O showed a protective association. Enrichment analyses implicated immune-regulatory and inflammatory pathways, including Th17 differentiation, Th1/Th2 differentiation, and ubiquitin-mediated proteolysis. Drug-gene interaction screening and CB-Dock2 docking identified STAT6-ligand interactions, particularly with methylprednisolone and Doxorubicin hydrochloride. Subsequent 100 ns MD simulations supported continued ligand association with the predicted STAT6 pocket. MM-PBSA and PCA-based free-energy analyses indicated favorable non-bonded interactions and distinct low-energy conformational ensembles, with methylprednisolone providing the more clinically interpretable STAT6-associated result. CONCLUSIONS: This study integrates transcriptomic, genetic-causal, immunological, and structural analyses to prioritize STAT6 as a potentially druggable MS-associated target. The additional MD, MM-PBSA, and PCA/FEL analyses strengthen the computational plausibility of STAT6-ligand interactions, especially for the clinically relevant STAT6-methylprednisolone complex. Nevertheless, all structural findings remain computational predictions and require experimental validation before clinical translation.",
+  "abstract_zh": "背景与目的：多发性硬化（multiple sclerosis, MS）是一种中枢神经系统的慢性自身免疫性疾病，其特征为炎症、脱髓鞘和神经退行性变。本研究旨在识别参与MS发病机制的关键遗传和免疫相关生物标志物，并探索结构上可行的治疗靶点。材料与方法：使用整合计算框架分析公开可用的基因表达数据集。该框架包括差异表达分析、孟德尔随机化、免疫细胞浸润谱分析、功能富集分析和药物-基因相互作用筛选。随后，通过CB-Dock2分子对接检查候选STAT6-配体复合物，并进行100 ns分子动力学（molecular dynamics, MD）模拟、MM-PBSA分解、逐残基能量分析和基于PCA的自由能景观（free-energy landscape, FEL）分析。结果：优先筛选出三个MS相关基因：MS4A3、STAT6和UBE2O。MS4A3和STAT6与MS风险呈正相关，而UBE2O呈保护性关联。富集分析涉及免疫调节和炎症通路，包括Th17分化、Th1/Th2分化和泛素介导的蛋白水解。药物-基因相互作用筛选和CB-Dock2对接识别出STAT6-配体相互作用，特别是与甲泼尼龙和盐酸多柔比星的相互作用。随后的100 ns MD模拟支持配体与预测的STAT6口袋持续结合。MM-PBSA和基于PCA的自由能分析表明存在有利的非键相互作用和不同的低能构象集合，其中甲泼尼龙提供了更具临床可解释性的STAT6相关结果。结论：本研究整合转录组、遗传因果、免疫学和结构分析，将STAT6优先确定为潜在可药用的MS相关靶点。额外的MD、MM-PBSA和PCA/FEL分析增强了STAT6-配体相互作用的计算合理性，尤其是临床相关的STAT6-甲泼尼龙复合物。然而，所有结构发现仍为计算预测，在临床转化前需实验验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42585774/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42585774/",
+  "paper_page_path": "papers/pubmed/42585774/index.html"
+}

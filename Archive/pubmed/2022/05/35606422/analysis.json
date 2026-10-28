@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35606422",
+  "title": "Prediction of protein-ligand binding affinity from sequencing data with interpretable machine learning.",
+  "authors": "Rube, H Tomas; Rastogi, Chaitanya; Feng, Siqian; Kribelbauer, Judith F; Li, Allyson; Becerra, Basheer; Melo, Lucas A N; Do, Bach Viet; Li, Xiaoting; Adam, Hammaad H; Shah, Neel H; Mann, Richard S; Bussemaker, Harmen J",
+  "journal": "Nature biotechnology",
+  "published_date": "2022-05-24",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出可解释机器学习方法ProBound，从测序数据中预测蛋白-配体（含TF-DNA）结合亲和力，并建模TF识别与复合物构象，核心聚焦TF-DNA互作且方法为AI，高度匹配本课题。",
+  "abstract": "Protein-ligand interactions are increasingly profiled at high throughput using affinity selection and massively parallel sequencing. However, these assays do not provide the biophysical parameters that most rigorously quantify molecular interactions. Here we describe a flexible machine learning method, called ProBound, that accurately defines sequence recognition in terms of equilibrium binding constants or kinetic rates. This is achieved using a multi-layered maximum-likelihood framework that models both the molecular interactions and the data generation process. We show that ProBound quantifies transcription factor (TF) behavior with models that predict binding affinity over a range exceeding that of previous resources; captures the impact of DNA modifications and conformational flexibility of multi-TF complexes; and infers specificity directly from in vivo data such as ChIP-seq without peak calling. When coupled with an assay called K(D)-seq, it determines the absolute affinity of protein-ligand interactions. We also apply ProBound to profile the kinetics of kinase-substrate interactions. ProBound opens new avenues for decoding biological networks and rationally engineering protein-ligand interactions.",
+  "abstract_zh": "蛋白质-配体相互作用正通过亲和选择和大规模并行测序以高通量方式日益被分析。然而，这些检测并未提供最严格量化分子相互作用的生物物理参数。在此，我们描述了一种灵活的机器学习方法，称为ProBound，它能以平衡结合常数或动力学速率精确定义序列识别。这是通过一个多层最大似然框架实现的，该框架同时模拟分子相互作用和数据生成过程。我们展示了ProBound通过模型量化转录因子（TF）行为，这些模型预测的结合亲和力范围超过以往资源；捕捉DNA修饰和多TF复合物构象灵活性的影响；并直接从体内数据（如ChIP-seq）推断特异性，无需峰值调用。当与一种名为K(D)-seq的检测方法结合时，它能确定蛋白质-配体相互作用的绝对亲和力。我们还应用ProBound来剖析激酶-底物相互作用的动力学。ProBound为解码生物网络和理性工程化蛋白质-配体相互作用开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35606422/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35606422/",
+  "paper_page_path": "papers/pubmed/35606422/index.html"
+}

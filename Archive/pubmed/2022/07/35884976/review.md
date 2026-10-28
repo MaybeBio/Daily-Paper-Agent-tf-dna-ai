@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, and discussion. No figures or supplementary materials were provided for inspection.
+- **Assessment boundary** The review is limited to the claims and evidence as presented in the text. Experimental data, statistical analyses, and computational results are assessed based on the descriptions provided, without access to raw data or figure panels.
+- **Shared manuscript claim summary** The authors report the identification of CDI, a small molecule that inhibits the FoxM1-DNA interaction, and demonstrate its anti-proliferative and pro-apoptotic effects in the MDA-MB-231 breast cancer cell line. They further provide transcriptomic and computational evidence to support a mechanism involving disruption of FoxM1 binding to DNA and downregulation of FoxM1 target genes.
+- **Visible evidence base** Text descriptions of TR-FRET binding assays, cell viability assays, apoptosis analysis, RT-qPCR, western blotting, RNA-Seq, GSEA, GO analysis, docking, and MD simulations. Figures are referenced but not available for direct inspection.
+- **Missing materials affecting confidence** Figures 1-7, supplementary data, raw RNA-Seq files, statistical output details, and computational simulation parameters are not provided. This limits verification of data quality, effect sizes, and the robustness of the computational predictions.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting small molecule inhibitor of FoxM1-DNA interaction with supporting in vitro and in silico data. The topic is of relevance to cancer biology and drug discovery. However, the evidence as described is incomplete in several key areas, particularly regarding target selectivity, mechanistic depth, and the interpretation of transcriptomic and computational results. The claims are plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in cancer biology, transcription factor pharmacology, and drug discovery would be interested. The identification of a new chemical scaffold targeting FoxM1-DNA binding could inform future therapeutic development, and the transcriptomic approach may be of interest to those studying FoxM1-regulated gene networks.
+- **Major strengths** The study addresses a clinically relevant target with an unmet need for selective inhibitors. The use of multiple orthogonal assays (biochemical, cellular, transcriptomic, and computational) is commendable. The authors also acknowledge the limitation of using a single cell line and suggest future animal studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target selectivity and specificity
+  - **Claim pointer** The authors claim that CDI specifically inhibits FoxM1-DNA interaction and that its effects are mediated through FoxM1, not other Fox family members such as FoxO.
+  - **Evidence pointer** Section 3.1, Section 3.5, Section 4 (Discussion)
+  - **Concern** The manuscript does not provide direct evidence that CDI selectively inhibits FoxM1 over other Forkhead box proteins. The TR-FRET assay uses only FoxM1-DBD. The RNA-Seq data show downregulation of FoxM1 target genes, but the authors do not demonstrate that this is due to direct FoxM1 inhibition rather than indirect effects or off-target activity. The comparison with FoxO target genes is based on a limited set of genes and does not rule out effects on other Fox proteins or unrelated transcription factors.
+  - **Why it matters** Selectivity is a core claim for a proposed therapeutic agent. Without evidence of selectivity, the mechanism of action remains ambiguous, and the potential for off-target effects undermines the translational relevance.
+  - **Resolution test** Provide direct binding or competition assays with other Fox family DBDs, or a cellular assay with FoxM1 knockdown/rescue to demonstrate that the observed effects are FoxM1-dependent. Alternatively, a broader transcriptomic analysis comparing FoxM1 and other Fox target gene signatures would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence for direct DNA-binding blockade
+  - **Claim pointer** The title and abstract state that CDI exerts anti-tumor effects by blocking the FoxM1-DNA interaction.
+  - **Evidence pointer** Section 3.1, Section 3.6
+  - **Concern** The TR-FRET assay demonstrates inhibition of FoxM1-DBD binding to a consensus DNA sequence, but this is an isolated biochemical assay. The docking and MD simulations suggest a binding site, but these are predictive and not experimentally validated. The manuscript does not show that CDI disrupts FoxM1 binding to endogenous chromatin targets in cells, which would be necessary to support the proposed mechanism.
+  - **Why it matters** The central mechanistic claim of the paper is that CDI blocks FoxM1-DNA interaction. Without cellular evidence of reduced FoxM1 occupancy at target gene promoters or enhancers, the mechanism remains correlative.
+  - **Resolution test** Perform ChIP-qPCR or ChIP-Seq for FoxM1 in the presence and absence of CDI to demonstrate reduced FoxM1 binding at known target loci. Alternatively, use a reporter assay with a FoxM1-responsive promoter to show transcriptional inhibition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Transcriptomic data interpretation
+  - **Claim pointer** The authors state that RNA-Seq and GSEA show that CDI downregulates FoxM1 target genes and that GO analysis reveals enrichment in cell cycle, apoptosis, and proliferation processes.
+  - **Evidence pointer** Section 3.5, Figures 5 and 6
+  - **Concern** The description of the RNA-Seq analysis is incomplete. The authors report 260 upregulated and 17 downregulated transcripts with a log2FC threshold of 1.5, but the criteria for significance are not fully described. The GSEA results are mentioned but not detailed, and the connection between the observed gene expression changes and FoxM1 regulation is not rigorously established. The authors do not provide a list of FoxM1 target genes used for GSEA or demonstrate that the downregulated genes are enriched for FoxM1 binding sites.
+  - **Why it matters** The transcriptomic data are used to support the mechanism of action. Without clear analytical details and a robust statistical framework, the conclusions drawn from these data are difficult to evaluate.
+  - **Resolution test** Provide full details of the differential expression analysis, including thresholds, multiple testing corrections, and the gene sets used for GSEA. Show that downregulated genes are significantly enriched for FoxM1 ChIP-Seq peaks.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational simulation validation
+  - **Claim pointer** The authors claim that docking and MD simulations indicate that CDI binds to the DNA interaction site of FoxM1-DBD and forms stable interactions.
+  - **Evidence pointer** Section 3.6, Figure 7
+  - **Concern** The docking and MD simulation results are presented as supportive evidence, but the methodology is not described in sufficient detail. The authors do not specify the docking scoring function, the force field parameters for the ligand, the simulation convergence criteria, or how the final binding site was selected. The claim that the binding site moved during MD simulation and became more stable is interesting but not validated experimentally.
+  - **Why it matters** Computational predictions are only as reliable as the methods used. Without detailed methodology and validation, the relevance of these simulations to the actual mechanism is uncertain.
+  - **Resolution test** Provide full computational details, including software versions, parameters, and convergence analysis. Ideally, validate the predicted binding site with mutagenesis or a biophysical binding assay.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.10, Section 3.2
+  - **Evidence pointer** Section 2.10, Section 3.2
+  - **Issue** The statistical methods are described, but the number of replicates and the exact statistical tests used for each figure are not consistently stated. For example, the IC50 values are reported with standard deviations, but it is unclear how many independent experiments were performed.
+  - **Required correction** Specify the number of biological and technical replicates for each experiment and clarify which comparisons were tested with which statistical tests.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 1-7
+  - **Evidence pointer** Figures 1-7
+  - **Issue** The figures are not available for review, and the text descriptions are not sufficient to assess data quality, such as the degree of variability, the clarity of western blot bands, or the quality of the RNA-Seq clustering.
+  - **Required correction** Ensure that all figures are of high resolution and include appropriate labels, error bars, and statistical annotations. Provide figure legends that fully explain the data presented.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text states "IC50 values: 28.6.1 ± 0.4 µM" for FDI-6, which appears to contain a typographical error.
+  - **Required correction** Correct the typographical error and verify all numerical values for accuracy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The authors acknowledge the lack of animal studies but do not discuss other limitations, such as the absence of selectivity data, the lack of cellular mechanistic validation, or the potential for off-target effects.
+  - **Required correction** Expand the discussion of limitations to include these points and suggest how future studies could address them.
+- **Technical failings that need to be addressed before the case is established** The lack of direct evidence for target selectivity (R1-M1) and the absence of cellular validation of FoxM1-DNA binding disruption (R1-M2) are the most significant technical gaps. The incomplete description of the transcriptomic and computational analyses (R1-M3, R1-M4) also needs to be addressed.
+- **Assessment against Nature-style criteria** Originality: The identification of a new small molecule inhibitor of FoxM1-DNA interaction is of some interest, but the concept of targeting transcription factor-DNA interactions is not new. Scientific importance: FoxM1 is a relevant cancer target, and the work has potential translational value, but the evidence is not yet strong enough to establish a clear therapeutic case. Interdisciplinary readership: The work bridges cancer biology, pharmacology, and computational chemistry, which could appeal to a broad audience. Technical soundness: The experimental design is reasonable, but key controls and validations are missing, and the computational methods are not fully described. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some technical sections could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence does not fully establish the mechanism of action or the selectivity of CDI. Addressing the major concerns would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that CDI specifically inhibits FoxM1 over other Fox family members is not supported by direct experimental evidence.
+- The claim that CDI blocks FoxM1-DNA interaction in cells is not supported by cellular binding data.
+- The computational docking and MD simulation results are presented without sufficient methodological detail to be fully evaluated.
+- The RNA-Seq and GSEA analyses are described without complete statistical and analytical details, making the conclusions difficult to assess.

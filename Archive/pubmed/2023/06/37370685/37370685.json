@@ -1,0 +1,460 @@
+{
+  "identity": {
+    "pmid": "37370685",
+    "doi": "10.3390/cancers15123074",
+    "title": "Radiogenomics Analysis Linking Multiparametric MRI and Transcriptomics in Prostate Cancer."
+  },
+  "content": {
+    "abstract": "Prostate cancer (PCa) is a highly prevalent cancer type with a heterogeneous prognosis. An accurate assessment of tumor aggressiveness can pave the way for tailored treatment strategies, potentially leading to better outcomes. While tumor aggressiveness is typically assessed based on invasive methods (e.g., biopsy), radiogenomics, combining diagnostic imaging with genomic information can help uncover aggressive (imaging) phenotypes, which in turn can provide non-invasive advice on individualized treatment regimens. In this study, we carried out a parallel analysis on both imaging and transcriptomics data in order to identify features associated with clinically significant PCa (defined as an ISUP grade >/= 3), subsequently evaluating the correlation between them. Textural imaging features were extracted from multi-parametric MRI sequences (T2W, DWI, and DCE) and combined with DCE-derived parametric pharmacokinetic maps obtained using magnetic resonance dispersion imaging (MRDI). A transcriptomic analysis was performed to derive functional features on transcription factors (TFs), and pathway activity from RNA sequencing data, here referred to as transcriptomic features. For both the imaging and transcriptomic features, different machine learning models were separately trained and optimized to classify tumors in either clinically insignificant or significant PCa. These models were validated in an independent cohort and model performance was used to isolate a subset of relevant imaging and transcriptomic features to be further investigated. A final set of 31 imaging features was correlated to 33 transcriptomic features obtained on the same tumors. Five significant correlations (p < 0.05) were found, of which, three had moderate strength (|r| >/= 0.5). The strongest significant correlations were seen between a perfusion-based imaging feature-MRDI A median-and the activities of the TFs STAT6 (-0.64) and TFAP2A (-0.50). A higher-order T2W textural feature was also significantly correlated to the activity of the TF STAT6 (-0.58). STAT6 plays an important role in controlling cell proliferation and migration. Loss of the AP2alpha protein expression, quantified by TFAP2A, has been strongly associated with aggressiveness and progression in PCa. According to our findings, a combination of texture features extracted from T2W and DCE, as well as perfusion-based pharmacokinetic features, can be considered for the prediction of clinically significant PCa, with the pharmacokinetic MRDI A feature being the most correlated with the underlying transcriptomic information. These results highlight a link between quantitative imaging features and the underlying transcriptomic landscape of prostate tumors.",
+    "keywords": [
+      "machine learning",
+      "magnetic resonance imaging",
+      "prostate cancer",
+      "radiogenomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dinis Fernandes, Catarina",
+        "Schaap, Annekoos",
+        "Kant, Joan",
+        "van Houdt, Petra",
+        "Wijkstra, Hessel",
+        "Bekers, Elise",
+        "Linder, Simon",
+        "Bergman, Andries M",
+        "van der Heide, Uulke",
+        "Mischi, Massimo",
+        "Zwart, Wilbert",
+        "Eduati, Federica",
+        "Turco, Simona"
+      ],
+      "short_names": [
+        "Dinis Fernandes C",
+        "Schaap A",
+        "Kant J",
+        "van Houdt P",
+        "Wijkstra H",
+        "Bekers E",
+        "Linder S",
+        "Bergman AM",
+        "van der Heide U",
+        "Mischi M",
+        "Zwart W",
+        "Eduati F",
+        "Turco S"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7633-9615",
+        "ORCID: 0009-0007-1837-5854",
+        "ORCID: 0000-0001-7431-8386",
+        "ORCID: 0000-0001-5223-2549",
+        "ORCID: 0000-0002-4146-6419",
+        "ORCID: 0000-0002-1179-5385",
+        "ORCID: 0000-0002-1520-3930"
+      ],
+      "affiliations": [
+        "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands.",
+        "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands.",
+        "Biomedical Engineering-Computational Biology Department, Eindhoven University of Technology, 5612 AZ Eindhoven, The Netherlands.",
+        "Department of Radiation Oncology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands.",
+        "Department of Urology, Amsterdam University Medical Centers, 1100 DD Amsterdam, The Netherlands.",
+        "Department of Pathology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Division of Oncogenomics, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Division of Oncogenomics, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Division of Medical Oncology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Department of Radiation Oncology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands.",
+        "Biomedical Engineering-Computational Biology Department, Eindhoven University of Technology, 5612 AZ Eindhoven, The Netherlands.",
+        "Division of Oncogenomics, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+        "Biomedical Engineering-Computational Biology Department, Eindhoven University of Technology, 5612 AZ Eindhoven, The Netherlands.",
+        "Institute for Complex Molecular Systems, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands.",
+        "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dinis Fernandes, Catarina",
+        "short_name": "Dinis Fernandes C",
+        "identifiers": [
+          "0009-0000-7633-9615"
+        ],
+        "affiliations": [
+          "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Schaap, Annekoos",
+        "short_name": "Schaap A",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kant, Joan",
+        "short_name": "Kant J",
+        "identifiers": [
+          "0009-0007-1837-5854"
+        ],
+        "affiliations": [
+          "Biomedical Engineering-Computational Biology Department, Eindhoven University of Technology, 5612 AZ Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Houdt, Petra",
+        "short_name": "van Houdt P",
+        "identifiers": [
+          "0000-0001-7431-8386"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wijkstra, Hessel",
+        "short_name": "Wijkstra H",
+        "identifiers": [],
+        "affiliations": [
+          "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands.",
+          "Department of Urology, Amsterdam University Medical Centers, 1100 DD Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bekers, Elise",
+        "short_name": "Bekers E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Linder, Simon",
+        "short_name": "Linder S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncogenomics, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bergman, Andries M",
+        "short_name": "Bergman AM",
+        "identifiers": [
+          "0000-0001-5223-2549"
+        ],
+        "affiliations": [
+          "Division of Oncogenomics, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+          "Division of Medical Oncology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van der Heide, Uulke",
+        "short_name": "van der Heide U",
+        "identifiers": [
+          "0000-0002-4146-6419"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Mischi, Massimo",
+        "short_name": "Mischi M",
+        "identifiers": [
+          "0000-0002-1179-5385"
+        ],
+        "affiliations": [
+          "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Zwart, Wilbert",
+        "short_name": "Zwart W",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Engineering-Computational Biology Department, Eindhoven University of Technology, 5612 AZ Eindhoven, The Netherlands.",
+          "Division of Oncogenomics, The Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Eduati, Federica",
+        "short_name": "Eduati F",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Engineering-Computational Biology Department, Eindhoven University of Technology, 5612 AZ Eindhoven, The Netherlands.",
+          "Institute for Complex Molecular Systems, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Turco, Simona",
+        "short_name": "Turco S",
+        "identifiers": [
+          "0000-0002-1520-3930"
+        ],
+        "affiliations": [
+          "Electrical Engineering Department, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancers"
+    ],
+    "journal_abbrev": [
+      "Cancers (Basel)"
+    ],
+    "pub_date": "2023 Jun 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/28 06:42",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "42340471",
+      "42015304",
+      "41583907",
+      "41386760",
+      "41374949",
+      "41162558",
+      "39616372",
+      "39535476",
+      "38937536",
+      "38672601",
+      "37987209"
+    ],
+    "refs": [
+      "36890837",
+      "36229464",
+      "35633866",
+      "35536148",
+      "35536144",
+      "34990929",
+      "34576134",
+      "34430923",
+      "34407909",
+      "33818764",
+      "33538338",
+      "33494937",
+      "33492473",
+      "33293078",
+      "33172724",
+      "32891051",
+      "32460795",
+      "31480766",
+      "31356111",
+      "31340985",
+      "31326219",
+      "31316185",
+      "31279442",
+      "31239107",
+      "31126321",
+      "31055874",
+      "31049614",
+      "30958743",
+      "30888866",
+      "30762223",
+      "30760274",
+      "30563651",
+      "30552940",
+      "30346837",
+      "29925878",
+      "29524506",
+      "29295995",
+      "29175542",
+      "29016610",
+      "28975929",
+      "28860628",
+      "28802037",
+      "28374077",
+      "27743920",
+      "27562202",
+      "27438142",
+      "27112799",
+      "26901012",
+      "26544944",
+      "26427566",
+      "25594174",
+      "25408104",
+      "24695404",
+      "24691142",
+      "23826159",
+      "23323831",
+      "23204542",
+      "23097687",
+      "22623539",
+      "22257792",
+      "22109293",
+      "21816040",
+      "21257890",
+      "21184082",
+      "20842279",
+      "17705178",
+      "16545965",
+      "15687360",
+      "10765096",
+      "10761458",
+      "8622765"
+    ],
+    "similar": [
+      "37370685",
+      "32328763",
+      "33483545",
+      "27975146",
+      "33263793",
+      "28157066",
+      "34748064",
+      "32676784",
+      "29633004",
+      "31776744",
+      "37019486",
+      "26242589",
+      "34891910",
+      "30994052",
+      "34223675",
+      "30917943",
+      "31470420",
+      "32052752",
+      "35867236",
+      "33638244",
+      "34467426",
+      "35706813",
+      "23751135",
+      "30358693",
+      "23875672",
+      "28850876",
+      "33818626",
+      "35242886",
+      "31283771",
+      "35140829",
+      "33970516",
+      "32449176",
+      "32935192",
+      "37048688",
+      "35510079",
+      "29238867",
+      "35965527",
+      "27990722",
+      "37370903",
+      "35676179",
+      "31495546",
+      "31356111",
+      "24972954",
+      "27071309",
+      "28845594",
+      "31307537",
+      "31468158",
+      "36536464",
+      "30958743",
+      "32770600",
+      "23011187",
+      "28092414",
+      "31602512",
+      "25100337",
+      "33810222",
+      "33080549",
+      "29571792",
+      "30773769",
+      "30540213",
+      "30647849",
+      "30420756",
+      "36738323",
+      "25656808",
+      "33614487",
+      "24817802",
+      "21933336",
+      "31547938",
+      "26651990",
+      "30230108",
+      "33793008",
+      "30701625",
+      "34913991",
+      "28374077",
+      "30575145",
+      "25060941",
+      "32058895",
+      "30712281",
+      "32192081",
+      "36578948",
+      "24560287",
+      "35024015",
+      "36085571",
+      "33078438",
+      "30363462",
+      "31736039",
+      "21924545",
+      "36826118",
+      "34660282",
+      "32630787",
+      "37615761",
+      "31480766",
+      "37640161",
+      "38751776",
+      "36553681",
+      "31482151",
+      "38102880",
+      "29556516",
+      "36711769"
+    ],
+    "review": [
+      "37370685",
+      "28157066",
+      "35867236",
+      "35140829",
+      "25656808"
+    ],
+    "pmc": [
+      "10296397"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cancers15123074",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37370685/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37370685",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT6-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

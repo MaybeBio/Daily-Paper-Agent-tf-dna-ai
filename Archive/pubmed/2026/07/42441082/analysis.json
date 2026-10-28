@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42441082",
+  "title": "caRBP-Pred: Leveraging Protein Language Models for the Prediction of Chromatin-Associated RNA-Binding Proteins.",
+  "authors": "Sun, Qiang; Yang, Feng; Sun, Hao; Wang, Huating; Chen, Xiaona",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2026-07-13",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型预测染色质相关RNA结合蛋白，虽涉及蛋白-DNA/染色质互作但非TF-DNA特异性结合，方法可迁移但对象和互作机制深度有限。",
+  "abstract": "RNA-binding proteins (RBPs) play pivotal roles in cellular processes ranging from RNA metabolism to 3-dimensional genome organization. A distinct subset, chromatin-associated RBPs (caRBPs), binds directly to chromatin to function as transcriptional regulators. However, experimental identification of caRBPs using techniques such as chromatin immunoprecipitation sequencing and mass spectrometry is labor-intensive and costly. Existing computational tools for DNA-binding protein and RBP prediction often rely on outdated Gene Ontology annotations and fail to capture the unique characteristics of chromatin association. Here, we introduce caRBP-Pred, a deep learning framework that integrates a pre-trained protein language model with convolutional neural networks and bidirectional long short-term memory networks. By leveraging full-length protein sequences and evolutionary embeddings from ProtT5-XL, caRBP-Pred significantly outperforms existing DNA- and RNA-binding protein predictors. Application of our model to the mouse proteome identified 41 high-confidence caRBP candidates. Multidimensional validation using the COMPARTMENTS database and InterProScan confirmed that a proportion of these candidates possess experimentally verified chromatin-binding domains or high-confidence nuclear localization. Collectively, caRBP-Pred is the first computational tool specifically designed for caRBP prediction, offering a valuable resource for investigating the regulatory roles of caRBPs in chromatin-related function.",
+  "abstract_zh": "RNA结合蛋白（RBPs）在从RNA代谢到三维基因组组织的细胞过程中扮演关键角色。一个独特的亚群，染色质相关RNA结合蛋白（caRBPs），直接结合染色质以发挥转录调控因子的作用。然而，使用染色质免疫沉淀测序和质谱等技术对caRBPs进行实验鉴定既费时又昂贵。现有的用于DNA结合蛋白和RBP预测的计算工具往往依赖过时的基因本体注释，未能捕捉染色质关联的独特特征。在此，我们介绍caRBP-Pred，一种深度学习框架，它整合了预训练蛋白质语言模型与卷积神经网络和双向长短期记忆网络。通过利用全长蛋白质序列和来自ProtT5-XL的进化嵌入，caRBP-Pred显著优于现有的DNA和RNA结合蛋白预测器。将我们的模型应用于小鼠蛋白质组，识别出41个高置信度的caRBP候选。使用COMPARTMENTS数据库和InterProScan进行的多维验证确认，这些候选中的一部分具有实验验证的染色质结合域或高置信度的核定位。总体而言，caRBP-Pred是首个专门设计用于caRBP预测的计算工具，为研究caRBPs在染色质相关功能中的调控作用提供了宝贵资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42441082/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42441082/",
+  "paper_page_path": "papers/pubmed/42441082/index.html"
+}

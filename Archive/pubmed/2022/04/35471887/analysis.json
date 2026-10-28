@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35471887",
+  "title": "How Deepbics Quantifies Intensities of Transcription Factor-DNA Binding and Facilitates Prediction of Single Nucleotide Variant Pathogenicity With a Deep Learning Model Trained On ChIP-Seq Data Sets.",
+  "authors": "Quan, Lijun; Chu, Xiaomin; Sun, Xiaoyu; Wu, Tingfang; Lyu, Qiang",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2022-04-27",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用基于ChIP-seq训练的深度学习语言模型deepBICS量化TF-DNA结合强度，并扩展至单核苷酸变异致病性预测，核心聚焦TF-DNA结合建模且方法为AI，高度匹配本课题。",
+  "abstract": "The binding of DNA sequences to cell type-specific transcription factors is essential for regulating gene expression in all organisms. Many variants occurring in these binding regions play crucial roles in human disease by disrupting the cis-regulation of gene expression. We first implemented a sequence-based deep learning model called deepBICS to quantify the intensity of transcription factors-DNA binding. The experimental results not only showed the superiority of deepBICS on ChIP-seq data sets but also suggested deepBICS as a language model could help the classification of disease-related and neutral variants. We then built a language model-based method called deepBICS4SNV to predict the pathogenicity of single nucleotide variants. The good performance of deepBICS4SNV on 2 tests related to Mendelian disorders and viral diseases shows the sequence contextual information derived from language models can improve prediction accuracy and generalization capability.",
+  "abstract_zh": "DNA序列与细胞类型特异性转录因子的结合对所有生物体中基因表达的调控至关重要。这些结合区域中发生的许多变异通过破坏基因表达的顺式调控，在人类疾病中扮演关键角色。我们首先实现了一个基于序列的深度学习模型，称为deepBICS，用于量化转录因子-DNA结合的强度。实验结果不仅展示了deepBICS在ChIP-seq数据集上的优越性，还表明deepBICS作为一种语言模型，有助于区分疾病相关变异和中性变异。随后，我们构建了一种基于语言模型的方法，称为deepBICS4SNV，用于预测单核苷酸变异的致病性。deepBICS4SNV在与孟德尔疾病和病毒疾病相关的两项测试中的良好表现表明，从语言模型中获得的序列上下文信息可以提高预测准确性和泛化能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35471887/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35471887/",
+  "paper_page_path": "papers/pubmed/35471887/index.html"
+}

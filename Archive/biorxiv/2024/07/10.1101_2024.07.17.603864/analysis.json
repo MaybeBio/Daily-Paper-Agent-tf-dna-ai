@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.17.603864",
+  "title": "Epigenetics is all you need: A Transformer to decode chromatin structural compartments from the epigenome",
+  "authors": "Dodero-Rojas E; Contessoto VG; Fehlis Y; Mayala N; Onuchic JN",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Transformer从表观组数据预测染色质亚区室结构，虽涉及TF结合谱但核心是染色质3D组织而非TF-DNA互作建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Chromatin within the nucleus adopts complex three-dimensional structures that are crucial for gene regulation and cellular function. Recent studies have revealed the presence of distinct chromatin subcompartments beyond the traditional A/B compartments (eu- and hetero-chromatin), each exhibiting unique structural and functional properties. Here, we introduce TECSAS (Transformer of Epigenetics to Chromatin Structural AnnotationS), a deep learning model based on the Transformer architecture, designed to predict chromatin subcompartment annotations directly from epigenomic data. TECSAS leverages information from histone modifications, transcription factor binding profiles, and RNA-Seq data to decode the relationship between the biochemical composition of chromatin and its 3D structural behavior. TECSAS achieves high accuracy in predicting subcompartment annotations and reveals the influence of long-range epigenomic context on chromatin organization. Furthermore, we demonstrate the model’s capability to predict the association of loci with nuclear bodies, such as the lamina, nucleoli, and speckles, providing insights into the role of these structures in shaping the 3D genome organization. This study highlights the potential of deep learning models for deciphering the complex interplay between epigenomic features and 3D genome organization, allowing us to better understand genome structure and function.",
+  "abstract_zh": "细胞核内的染色质采用复杂的三维结构，这些结构对基因调控和细胞功能至关重要。近期研究揭示了传统A/B区室（常染色质和异染色质）之外存在不同的染色质亚区室，每种亚区室展现出独特的结构和功能特性。在此，我们介绍TECSAS（表观遗传学到染色质结构注释的Transformer），一种基于Transformer架构的深度学习模型，旨在直接从表观基因组数据预测染色质亚区室注释。TECSAS利用组蛋白修饰、转录因子结合谱和RNA-Seq数据的信息，解码染色质生化组成与其三维结构行为之间的关系。TECSAS在预测亚区室注释方面实现了高精度，并揭示了长程表观基因组背景对染色质组织的影响。此外，我们展示了该模型预测位点与核体（如核纤层、核仁和核斑点）关联的能力，为这些结构在塑造三维基因组组织中的作用提供了见解。本研究强调了深度学习模型在解读表观基因组特征与三维基因组组织之间复杂相互作用方面的潜力，使我们能够更好地理解基因组结构和功能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603864",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603864",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.17.603864/index.html"
+}

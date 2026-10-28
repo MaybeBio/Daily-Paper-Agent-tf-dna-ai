@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.04.635413",
+  "title": "NanoBEP – A Machine Learning Based Tool for Nanobody Binding Energy Prediction",
+  "authors": "Soma Prasad Sahoo; Pratibha Manickavasagam; M. Hamsa Priya",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-07",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用随机森林预测纳米抗体-蛋白结合亲和力，属蛋白-蛋白互作而非蛋白-DNA互作，方法可迁移但对象不匹配。",
+  "abstract": "Nanobody is a special class of antibodies comprising only one variable heavy chain. Its small size and high stability over a wide range of temperature and pH, makes it an ideal candidate for biomedical applications. Designing a nanobody that can bind to a specific target protein, either for therapeutic or diagnostic purposes, requires a quick estimation of binding affinity of nanobody-protein complex. Many predictive models for protein-protein interactions have been developed leveraging the capability of machine learning techniques. The popular protein-protein interaction models, however, could not accurately predict the binding affinity of available nanobody-protein complexes. We, therefore, have developed a random forest based model that can predict the value of dissociation constant (log 10 K d ) at high accuracy with a Pearson’s correlation coefficient value of 0.95 and a mean absolute error of 0.44. Our cherry-picked model identifies the best protein features for the prediction through two stages of selection strategy that includes elimination of highly correlated features through graph network analysis, followed by the recursive feature elimination through random forest. Despite being a class of antibodies, a model trained only on antigen-antibody complexes couldn’t accurately predict the binding affinity of the nanobody-protein complexes. The predictability improved only when we included the data on monomeric protein complexes and some nanobody-protein complexes during training.",
+  "abstract_zh": "纳米抗体是一类仅包含单一可变重链的特殊抗体。其体积小，且在广泛的温度和pH范围内具有高稳定性，使其成为生物医学应用的理想候选。设计能够结合特定靶蛋白的纳米抗体，无论是用于治疗还是诊断目的，都需要快速估算纳米抗体-蛋白质复合物的结合亲和力。许多利用机器学习技术能力的蛋白质-蛋白质相互作用预测模型已被开发出来。然而，流行的蛋白质-蛋白质相互作用模型无法准确预测现有纳米抗体-蛋白质复合物的结合亲和力。因此，我们开发了一种基于随机森林的模型，能够以高精度预测解离常数（log 10 K d ）的值，其皮尔逊相关系数值为0.95，平均绝对误差为0.44。我们精心挑选的模型通过两阶段选择策略识别最佳蛋白质特征进行预测，该策略包括通过图网络分析消除高度相关特征，随后通过随机森林进行递归特征消除。尽管纳米抗体属于抗体类别，但仅基于抗原-抗体复合物训练的模型无法准确预测纳米抗体-蛋白质复合物的结合亲和力。只有当我们在训练中包含单体蛋白质复合物及一些纳米抗体-蛋白质复合物的数据时，预测能力才得到提升。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.04.635413",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.04.635413",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.04.635413/index.html"
+}

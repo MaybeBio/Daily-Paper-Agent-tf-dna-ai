@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42443147",
+  "title": "Mapping lncRNAs onto multilevel mRNA co‑expression modules in autism.",
+  "authors": "Lee, Chen-Ling; Hu, Geng-Ming; Li, Yi-Pei; Mai, Te-Lun",
+  "journal": "Translational psychiatry",
+  "published_date": "2026-07-14",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发无监督聚类框架MSCN分析ASD脑转录组共表达模块并映射lncRNA，虽涉及TF-lncRNA-mRNA轴预测，但核心是共表达网络而非蛋白质-DNA互作建模，且方法为传统聚类而非AI/物理模拟，仅边缘相关。",
+  "abstract": "Autism spectrum disorder (ASD) involves heterogeneous genetic and transcriptomic alterations, but how these changes are organized across hierarchical co-expression scales and linked to long noncoding RNAs (lncRNAs) remains incompletely understood. Here, we present Minimum Span Clustering Network (MSCN), an unsupervised, deterministic framework that constructs traceable multilevel mRNA co-expression hierarchies without requiring soft-thresholding powers, fixed module numbers, cut heights, or stochastic initialization. Applied to two independent ASD brain transcriptome cohorts, MSCN reveals hierarchical gene modules across four resolution levels, enabling the detection of transcriptional patterns ranging from low-level, specific signals to high-level, broader biological pathways. We uncovered modules enriched in neuronal/axonal, developmental, and immune-related pathways, reflecting interconnected neurodevelopmental and immune-dysregulation programs in ASD. Cross-method comparisons showed that MSCN complements WGCNA and MEGENA by preserving biologically concordant modules while providing an explicit parent-child hierarchy; simulation and benchmark analyses supported comparable module recovery, preservation, and enrichment performance. By mapping lncRNAs to MSCN-derived mRNA modules, we identified lncRNAs associated with ASD-related mRNA modules and evaluated them as candidate statistical mediators in downstream transcription factor (TF)-lncRNA-mRNA analyses. This analysis identified over 11,000 candidate TF-lncRNA-mRNA axes, including 644 axes involving 46 SFARI score 1 or 2 genes, four of which were syndromic genes, and 12 named lncRNA mediators. External transcriptomic evaluation further supported 789 axes, including representative HIF1A-STXBP5-AS1-CADPS, E2F1-PART1-SCN2A, and RELA-RFPL1S-GRIN2A relationships. Together, these findings establish MSCN as a scalable framework for decomposing ASD mRNA co-expression architecture, provide a hypothesis-generating resource linking coding and noncoding transcriptomic alterations, and help prioritize these relationships for future validation.",
+  "abstract_zh": "自闭症谱系障碍（ASD）涉及异质性的遗传和转录组改变，但这些变化如何在层级共表达尺度上组织，并与长链非编码RNA（lncRNAs）相关联，仍未被完全理解。在此，我们提出最小生成聚类网络（MSCN），这是一种无监督、确定性的框架，无需软阈值幂、固定模块数、切割高度或随机初始化，即可构建可追踪的多水平mRNA共表达层级。应用于两个独立的ASD脑转录组队列，MSCN在四个分辨率水平上揭示层级基因模块，能够检测从低水平、特异性信号到高水平、更广泛的生物学通路等转录模式。我们发现了富集于神经元/轴突、发育和免疫相关通路的模块，反映了ASD中相互关联的神经发育和免疫失调程序。跨方法比较显示，MSCN通过保留生物学一致的模块并提供明确的父子层级，补充了WGCNA和MEGENA；模拟和基准分析支持相当的模块恢复、保存和富集性能。通过将lncRNAs映射到MSCN衍生的mRNA模块，我们识别了与ASD相关mRNA模块关联的lncRNAs，并在下游转录因子（TF）-lncRNA-mRNA分析中将其评估为候选统计中介因子。该分析识别出超过11,000个候选TF-lncRNA-mRNA轴，包括涉及46个SFARI评分1或2基因的644个轴，其中四个为综合征基因，以及12个命名lncRNA中介因子。外部转录组评估进一步支持789个轴，包括代表性的HIF1A-STXBP5-AS1-CADPS、E2F1-PART1-SCN2A和RELA-RFPL1S-GRIN2A关系。综合这些发现，MSCN确立为分解ASD mRNA共表达架构的可扩展框架，提供连接编码和非编码转录组改变的假设生成资源，并有助于优先考虑这些关系以供未来验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42443147/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42443147/",
+  "paper_page_path": "papers/pubmed/42443147/index.html"
+}

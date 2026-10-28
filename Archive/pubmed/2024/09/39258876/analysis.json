@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39258876",
+  "title": "Predicting BRCA mutation and stratifying targeted therapy response using multimodal learning: a multicenter study.",
+  "authors": "Li, Yi; Xiong, Xiaomin; Liu, Xiaohua; Xu, Mengke; Yang, Boping; Li, Xiaoju; Li, Yu; Lin, Bo; Xu, Bo",
+  "journal": "Annals of medicine",
+  "published_date": "2024-09-11",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用多模态深度学习从病理图像预测BRCA突变和PARPi疗效，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: The status of BRCA1/2 genes plays a crucial role in the treatment decision-making process for multiple cancer types. However, due to high costs and limited resources, a demand for BRCA1/2 genetic testing among patients is currently unmet. Notably, not all patients with BRCA1/2 mutations achieve favorable outcomes with poly (ADP-ribose) polymerase inhibitors (PARPi), indicating the necessity for risk stratification. In this study, we aimed to develop and validate a multimodal model for predicting BRCA1/2 gene status and prognosis with PARPi treatment. METHODS: We included 1695 slides from 1417 patients with ovarian, breast, prostate, and pancreatic cancers across three independent cohorts. Using a self-attention mechanism, we constructed a multi-instance attention model (MIAM) to detect BRCA1/2 gene status from hematoxylin and eosin (H&E) pathological images. We further combined tissue features from the MIAM model, cell features, and clinical factors (the MIAM-C model) to predict BRCA1/2 mutations and progression-free survival (PFS) with PARPi therapy. Model performance was evaluated using area under the curve (AUC) and Kaplan-Meier analysis. Morphological features contributing to MIAM-C were analyzed for interpretability. RESULTS: Across the four cancer types, MIAM-C outperformed the deep learning-based MIAM in identifying the BRCA1/2 genotype. Interpretability analysis revealed that high-attention regions included high-grade tumors and lymphocytic infiltration, which correlated with BRCA1/2 mutations. Notably, high lymphocyte ratios appeared characteristic of BRCA1/2 mutations. Furthermore, MIAM-C predicted PARPi therapy response (log-rank p < 0.05) and served as an independent prognostic factor for patients with BRCA1/2-mutant ovarian cancer (p < 0.05, hazard ratio:0.4, 95% confidence interval: 0.16-0.99). CONCLUSIONS: The MIAM-C model accurately detected BRCA1/2 gene status and effectively stratified prognosis for patients with BRCA1/2 mutations.",
+  "abstract_zh": "背景：BRCA1/2基因状态在多种癌症类型的治疗决策过程中起着关键作用。然而，由于高成本和资源有限，患者对BRCA1/2基因检测的需求目前未得到满足。值得注意的是，并非所有携带BRCA1/2突变的患者都能从聚（ADP-核糖）聚合酶抑制剂（PARPi）治疗中获得良好结局，这表明风险分层的必要性。在本研究中，我们旨在开发并验证一种多模态模型，用于预测BRCA1/2基因状态及PARPi治疗的预后。方法：我们纳入了来自三个独立队列的1417例卵巢癌、乳腺癌、前列腺癌和胰腺癌患者的1695张切片。利用自注意力机制，我们构建了一个多实例注意力模型（MIAM），用于从苏木精-伊红（H&E）病理图像中检测BRCA1/2基因状态。我们进一步结合了MIAM模型的组织特征、细胞特征和临床因素（MIAM-C模型），以预测BRCA1/2突变及PARPi治疗的无进展生存期（PFS）。模型性能通过曲线下面积（AUC）和Kaplan-Meier分析进行评估。对MIAM-C的形态学特征进行了可解释性分析。结果：在四种癌症类型中，MIAM-C在识别BRCA1/2基因型方面优于基于深度学习的MIAM。可解释性分析显示，高注意力区域包括高级别肿瘤和淋巴细胞浸润，这些与BRCA1/2突变相关。值得注意的是，高淋巴细胞比例似乎是BRCA1/2突变的特征。此外，MIAM-C预测了PARPi治疗反应（log-rank p < 0.05），并作为BRCA1/2突变卵巢癌患者的独立预后因素（p < 0.05，风险比：0.4，95%置信区间：0.16-0.99）。结论：MIAM-C模型准确检测了BRCA1/2基因状态，并有效分层了BRCA1/2突变患者的预后。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39258876/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39258876/",
+  "paper_page_path": "papers/pubmed/39258876/index.html"
+}

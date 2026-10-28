@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39904740",
+  "title": "An Attention-Based Deep Neural Network Model to Detect Cis-Regulatory Elements at the Single-Cell Level From Multi-Omics Data.",
+  "authors": "Murakami, Ken; Iida, Keita; Okada, Mariko",
+  "journal": "Genes to cells : devoted to molecular & cellular mechanisms",
+  "published_date": "2025-02-05",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于注意力的深度神经网络，整合DNA序列与单细胞多组学数据检测顺式调控元件活性，虽涉及TF（SOX2、ZEB1）活性识别，但核心是cRE检测而非TF-DNA结合机制建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Cis-regulatory elements (cREs) play a crucial role in regulating gene expression and determining cell differentiation and state transitions. To capture the heterogeneous transitions of cell states associated with these processes, detecting cRE activity at the single-cell level is essential. However, current analytical methods can only capture the average behavior of cREs in cell populations, thereby obscuring cell-specific variations. To address this limitation, we proposed an attention-based deep neural network framework that integrates DNA sequences, genomic distances, and single-cell multi-omics data to detect cREs and their activities in individual cells. Our model shows higher accuracy in identifying cREs within single-cell multi-omics data from healthy human peripheral blood mononuclear cells than other existing methods. Furthermore, it clusters cells more precisely based on predicted cRE activities, enabling a finer differentiation of cell states. When applied to publicly available single-cell data from patients with glioma, the model successfully identified tumor-specific SOX2 activity. Additionally, it revealed the heterogeneous activation of the ZEB1 transcription factor, a regulator of epithelial-to-mesenchymal transition-related genes, which conventional methods struggle to detect. Overall, our model is a powerful tool for detecting cRE regulation at the single-cell level, which may contribute to revealing drug resistance mechanisms in cell sub-populations.",
+  "abstract_zh": "顺式调控元件（cis-regulatory elements, cREs）在调控基因表达及决定细胞分化和状态转换中发挥关键作用。为了捕捉与这些过程相关的细胞状态异质性转变，在单细胞水平检测cRE活性至关重要。然而，当前的分析方法仅能捕捉细胞群体中cRE的平均行为，从而掩盖了细胞特异性变异。为解决这一局限，我们提出了一种基于注意力的深度神经网络框架，该框架整合DNA序列、基因组距离和单细胞多组学数据，以检测单个细胞中的cRE及其活性。我们的模型在识别健康人外周血单核细胞单细胞多组学数据中的cRE方面，比现有其他方法具有更高的准确性。此外，它基于预测的cRE活性更精确地聚类细胞，从而实现更精细的细胞状态区分。当应用于公开的胶质瘤患者单细胞数据时，该模型成功识别了肿瘤特异性SOX2活性。同时，它揭示了ZEB1转录因子（上皮-间质转化相关基因的调控因子）的异质性激活，而传统方法难以检测到这一点。总体而言，我们的模型是在单细胞水平检测cRE调控的强大工具，可能有助于揭示细胞亚群中的耐药机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39904740/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39904740/",
+  "paper_page_path": "papers/pubmed/39904740/index.html"
+}

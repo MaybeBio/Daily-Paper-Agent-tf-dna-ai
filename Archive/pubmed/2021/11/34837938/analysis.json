@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34837938",
+  "title": "Predictive modeling of gene expression regulation.",
+  "authors": "Regondi, Chiara; Fratelli, Maddalena; Damia, Giovanna; Guffanti, Federica; Ganzinelli, Monica; Matteucci, Matteo; Masseroli, Marco",
+  "journal": "BMC bioinformatics",
+  "published_date": "2021-11-29",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用线性模型整合ENCODE/TCGA数据预测基因表达调控，涉及转录因子与靶基因关系，但无三维互作建模或AI/物理模拟方法，仅统计关联，深度不足。",
+  "abstract": "BACKGROUND: In-depth analysis of regulation networks of genes aberrantly expressed in cancer is essential for better understanding tumors and identifying key genes that could be therapeutically targeted. RESULTS: We developed a quantitative analysis approach to investigate the main biological relationships among different regulatory elements and target genes; we applied it to Ovarian Serous Cystadenocarcinoma and 177 target genes belonging to three main pathways (DNA REPAIR, STEM CELLS and GLUCOSE METABOLISM) relevant for this tumor. Combining data from ENCODE and TCGA datasets, we built a predictive linear model for the regulation of each target gene, assessing the relationships between its expression, promoter methylation, expression of genes in the same or in the other pathways and of putative transcription factors. We proved the reliability and significance of our approach in a similar tumor type (basal-like Breast cancer) and using a different existing algorithm (ARACNe), and we obtained experimental confirmations on potentially interesting results. CONCLUSIONS: The analysis of the proposed models allowed disclosing the relations between a gene and its related biological processes, the interconnections between the different gene sets, and the evaluation of the relevant regulatory elements at single gene level. This led to the identification of already known regulators and/or gene correlations and to unveil a set of still unknown and potentially interesting biological relationships for their pharmacological and clinical use.",
+  "abstract_zh": "背景：深入分析癌症中异常表达基因的调控网络，对于更好地理解肿瘤及识别可作为治疗靶点的关键基因至关重要。结果：我们开发了一种定量分析方法，以研究不同调控元件与靶基因之间的主要生物学关系；并将其应用于卵巢浆液性囊腺癌及属于与该肿瘤相关的三条主要通路（DNA修复、干细胞和葡萄糖代谢）的177个靶基因。结合ENCODE和TCGA数据集的数据，我们为每个靶基因的调控构建了预测性线性模型，评估其表达、启动子甲基化、同一或其它通路中基因的表达以及推定转录因子之间的关系。我们在类似的肿瘤类型（基底样乳腺癌）中验证了该方法的可靠性和显著性，并使用不同的现有算法（ARACNe）进行了验证，同时对潜在有趣的结果获得了实验确认。结论：对所提出模型的分析揭示了基因与其相关生物学过程之间的关系、不同基因集之间的相互联系，以及在单基因水平上对相关调控元件的评估。这导致识别了已知的调控因子和/或基因相关性，并揭示了一组尚不为人知且具有潜在药理学和临床用途的生物学关系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34837938/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34837938/",
+  "paper_page_path": "papers/pubmed/34837938/index.html"
+}

@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "36451478",
+    "doi": "10.1097/MD.0000000000032059",
+    "title": "Mechanism of Epimedium intervention in heart failure based on network pharmacology and molecular docking technology."
+  },
+  "content": {
+    "abstract": "To analyze the pharmacological mechanism of Epimedium in regulating heart failure (HF) based on the network pharmacology method, and to provide a reference for the clinical application of Epimedium in treating HF. Obtaining the main active ingredients and their targets of Epimedium through TCMSP (Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform) database. Access to major HF targets through Genecards, OMIM, PharmGKB, Therapeutic Target Database, Drug Bank database. Protein interaction analysis using String platform and construction of PPI network. Subsequently, Cytoscape software was used to construct the \"Epimedium active ingredient-heart failure target\" network. Finally, the molecular docking is verified through the Systems Dock Web Site. The core active ingredients of Epimedium to regulate HF are quercetin, luteolin, kaempferol, etc. The core targets are JUN, MYC, TP53, HIF1A, ESR1, RELA, MAPK1, etc. Molecular docking validation showed better binding activity of the major targets of HF to the core components of Epimedium. The biological pathways that Epimedium regulates HF mainly act on lipid and atherosclerotic pathways, PI3K-Akt signaling pathway, and chemoattractant-receptor activation. And its molecular functions are mainly DNA-binding transcription factor binding, RNA polymerase II-specific DNA-binding transcription factor binding, and neurotransmitter receptor activity. This study reveals the multi-component, multi-target and multi-pathway mechanism of action of Epimedium in regulating mental failure, and provides a basis for the clinical development and utilization of Epimedium to intervene in HF.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Epimedium",
+      "Network Pharmacology",
+      "Phosphatidylinositol 3-Kinases",
+      "Technology",
+      "*Heart Failure/drug therapy",
+      "Transcription Factors",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Boyang, Chen",
+        "Yuexing, Li",
+        "Yiping, Yan",
+        "Haiyang, Yu",
+        "Lingjie, Zhao",
+        "Liancheng, Guan",
+        "Xufei, Zhang",
+        "Jie, Zhao",
+        "Yunzhi, Chen"
+      ],
+      "short_names": [
+        "Boyang C",
+        "Yuexing L",
+        "Yiping Y",
+        "Haiyang Y",
+        "Lingjie Z",
+        "Liancheng G",
+        "Xufei Z",
+        "Jie Z",
+        "Yunzhi C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6199-4326"
+      ],
+      "affiliations": [
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "Second Affiliated Hospital, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China.",
+        "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Boyang, Chen",
+        "short_name": "Boyang C",
+        "identifiers": [
+          "0000-0001-6199-4326"
+        ],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yuexing, Li",
+        "short_name": "Yuexing L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yiping, Yan",
+        "short_name": "Yiping Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Haiyang, Yu",
+        "short_name": "Haiyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Lingjie, Zhao",
+        "short_name": "Lingjie Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Liancheng, Guan",
+        "short_name": "Liancheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Second Affiliated Hospital, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Xufei, Zhang",
+        "short_name": "Xufei Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Jie, Zhao",
+        "short_name": "Jie Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yunzhi, Chen",
+        "short_name": "Yunzhi C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Preclinical Medicine, Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2022 Nov 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/02 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "42528725",
+      "41430985"
+    ],
+    "refs": [],
+    "similar": [
+      "36451478",
+      "35442463",
+      "35837376",
+      "33645094",
+      "36044117",
+      "36338468",
+      "35616676",
+      "35984130",
+      "35227068",
+      "34159207",
+      "36281111",
+      "36452059",
+      "34660782",
+      "34889224",
+      "38007768",
+      "34872267",
+      "36246566",
+      "36451386",
+      "38007798",
+      "36164911",
+      "36550856",
+      "34549711",
+      "36158000",
+      "35178959",
+      "35430443",
+      "35069454",
+      "34746302",
+      "33645014",
+      "31090306",
+      "36003525",
+      "36105239",
+      "34692849",
+      "34349502",
+      "35303581",
+      "34994140",
+      "34951253",
+      "36280016",
+      "35265311",
+      "34873575",
+      "36401375",
+      "35571420",
+      "34738438",
+      "34353081",
+      "36440359",
+      "36091226",
+      "34149863",
+      "35178962",
+      "33382964",
+      "33376732",
+      "35341142",
+      "36793356",
+      "36046450",
+      "35730236",
+      "36051307",
+      "35667260",
+      "35528155",
+      "34746316",
+      "33496115",
+      "35035498",
+      "32928080",
+      "33849106",
+      "34605344",
+      "36386135",
+      "36467890",
+      "36338345",
+      "36064190",
+      "34693792",
+      "35899228",
+      "38481330",
+      "36316904",
+      "34908920",
+      "33204683",
+      "35851128",
+      "33634308",
+      "35856363",
+      "33496116",
+      "34246740",
+      "34791846",
+      "32237426",
+      "33350196",
+      "36267846",
+      "36032542",
+      "34185887",
+      "35960074",
+      "38780500",
+      "37328080",
+      "39011503",
+      "37732621",
+      "38958647",
+      "37077636",
+      "36762111",
+      "34285700",
+      "38734868",
+      "33194384",
+      "39161145",
+      "38931373",
+      "37525296",
+      "37564784"
+    ],
+    "review": [
+      "36451478",
+      "35303581"
+    ],
+    "pmc": [
+      "9704970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://www.ovid.com/36451478.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36451478/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36451478",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000032059",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

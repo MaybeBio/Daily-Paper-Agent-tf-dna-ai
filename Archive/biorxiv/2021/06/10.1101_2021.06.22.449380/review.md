@@ -1,0 +1,94 @@
+## Review setup
+
+- **Input scope** Full manuscript text (abstract, introduction, theory, methods, results, discussion, supporting information references)
+- **Assessment boundary** Scientific validity, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of formatting or editorial style beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors present a multiscale computational approach combining Markov state models (MSMs) from atomistic molecular dynamics (MD) simulations with Brownian dynamics (BD) simulations to compute gated ligand binding association rate constants. Applied to HIV-1 protease, they identify five macrostates, including a novel 'parted' conformation, and compute a gating factor γ = 0.75, indicating slow gating. Computed gated rate constants for eight inhibitors range ~0.5-5.7 × 10⁸ M⁻¹ s⁻¹, with only one inhibitor (B376) matching experimental values.
+- **Visible evidence base** Abstract, Introduction, Theory section, Materials and Methods, Results, Discussion and Conclusions, Supporting Information figure/table titles, data availability statement
+- **Missing materials affecting confidence** Full figures and tables (including Figure 3, Figure 4, Figure 5, Figure 6, Figure 7, Table 1, Supporting Figures S1-S4, Supporting Tables S1-S3) are referenced but not provided. Numerical values for experimental rate constants in the Discussion are incomplete (e.g., "However, the calculated gated rate constants (k g ) all lie within a narrow range from ~0.5-5.7 × 10 8 M −1 s −1 . Only one inhibitor (B376)..."). Specific values for experimental association constants in Table 1 are not visible. Lag time selection criteria and error estimates for MSM quantities are described but not fully quantified in the visible text.
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful multiscale framework for computing gated ligand binding kinetics. The combination of MSM-derived conformational kinetics with BD-derived diffusional association rates within a multi-state gating theory is a reasonable and novel synthesis. The application to HIV-1 protease is well-motivated and the identification of a new 'parted' conformation is intriguing. However, the central quantitative claims, particularly the gating factor γ = 0.75 and the comparison of computed versus experimental rate constants, cannot be fully evaluated from the provided text alone. The visible evidence base is insufficient to verify the accuracy of the MSM, the validity of the gating theory extension, or the reliability of the BD rate constants. The manuscript's conclusions about binding mechanisms for individual inhibitors rest on comparisons that are only partially presented. The approach's generalizability and scalability claims are plausible but not demonstrated beyond the single system studied.
+- **Who would be interested in the results, and why** Computational biophysicists and cheminformaticians working on ligand binding kinetics, particularly those studying conformationally dynamic proteins. Researchers developing multiscale simulation methods that bridge atomistic and coarse-grained approaches. The HIV-1 protease community, including those interested in inhibitor binding mechanisms and drug design. Methodologists interested in gating theory and its application to multi-state protein systems.
+- **Major strengths** The multiscale approach is a sensible and potentially powerful combination of established techniques (MSMs and BD) within a theoretical gating framework. The extension of gating theory from two-state to multi-state systems is a useful theoretical contribution. The application to HIV-1 protease is well-chosen given its conformational flexibility and clinical relevance. The identification of a novel 'parted' conformation with a potential role in product release is an interesting finding. The computational efficiency argument for scalability to high-throughput screening is compelling if the method performs as claimed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims a converged MSM with five kinetically distinct macrostates and a gating factor γ = 0.75, and uses these to compute gated rate constants for eight inhibitors.
+  - **Evidence pointer** Results section, Figure 3, Figure 4, Table 1; location not provided for specific numerical values
+  - **Concern** The central quantitative results are not verifiable from the provided text. The convergence of the MSM is asserted but the supporting data (implied timescale plots, Chapman-Kolmogorov test) are only referenced in figures not provided. The gating factor γ = 0.75 is stated but its derivation from the HMM transition rates is not shown numerically. The computed gated rate constants for the eight inhibitors are presented as a range, but the individual values, the experimental comparators, and the per-inhibitor comparison are not visible. Without these data, the core claims of the paper cannot be assessed.
+  - **Why it matters** The paper's primary contribution is a quantitative method for computing gated binding rate constants. If the underlying MSM is not demonstrably converged, or if the gating factor and rate constants are not transparently presented, the validity of the entire approach and its application to HIV-1 protease is called into question.
+  - **Resolution test** Provide the full data for Figure 3 (implied timescales vs lag time), Figure 4 (PMF and kinetic network), and Table 1 (per-inhibitor computed and experimental rate constants). Show the numerical values of the HMM transition rates used to compute γ. Demonstrate MSM convergence through explicit validation metrics (e.g., Chapman-Kolmogorov test results, implied timescale plateau).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The manuscript claims that the gating factor γ, derived from MSM transition rates, can be combined with BD-computed ungated rate constants to yield accurate gated rate constants, and that the approach can distinguish different binding mechanisms.
+  - **Evidence pointer** Theory section, Equations 10-17, Results section, Discussion; location not provided
+  - **Concern** The theoretical framework assumes that gating and diffusional association are independent processes that can be multiplicatively combined. This is a standard assumption in gating theory, but its validity for a multi-state system with multiple accessible states is not rigorously established. The manuscript does not address potential coupling between conformational transitions and ligand diffusion, nor does it discuss the regime of validity for the derived gating factor. Furthermore, the claim that the approach can dissect binding mechanisms (CS vs. IF vs. DC) is based on comparing computed k_g to experimental k_on, but the interpretation of discrepancies as evidence for specific mechanisms is speculative without additional validation.
+  - **Why it matters** The theoretical foundation is the core of the method. If the assumptions are not clearly stated and justified, or if the method's limitations are not acknowledged, the approach cannot be reliably applied to other systems. The mechanistic interpretations for individual inhibitors are a key selling point of the paper and require a solid theoretical basis.
+  - **Resolution test** Provide a more rigorous derivation or justification of the multi-state gating factor, including its assumptions and limitations. Discuss potential coupling effects and the conditions under which the multiplicative combination is valid. For the mechanistic interpretations, provide additional evidence (e.g., from MD simulations of ligand binding or experimental mutational studies) to support the proposed mechanisms for individual inhibitors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that BD simulations with rigid protein conformers and a simplified force field can produce reliable ungated association rate constants for a set of diverse inhibitors.
+  - **Evidence pointer** Materials and Methods, BD simulations subsection; Results, Table 1; location not provided
+  - **Concern** The BD methodology relies on several approximations: rigid protein conformers, a simplified electrostatic model (effective charge model), and a specific set of reaction criteria. The sensitivity of the computed rate constants to these choices is not discussed. The reaction criteria are derived from crystal structures of inhibitor-bound complexes, which may not be representative of the encounter complexes formed during diffusion. The manuscript does not report any validation of the BD method against known systems or experimental data beyond the comparison to the eight inhibitors studied.
+  - **Why it matters** The accuracy of the ungated rate constants is critical for the final gated rate constants. If the BD method is not robust or well-validated, the computed k_g values may be unreliable, undermining the comparison to experimental data and the mechanistic conclusions.
+  - **Resolution test** Provide a sensitivity analysis of the BD results to key parameters (e.g., number of reaction criteria, distance thresholds, force field parameters). Validate the BD method against a system with known diffusional association kinetics. Discuss the limitations of the rigid-body approximation and the potential impact of protein flexibility on the computed rate constants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The manuscript claims that the 'parted' conformation (C1) may play a role in product release, and that the relative stability of the wide-open state (C5) may be compatible with roles in RNA binding or mobility in crowded environments.
+  - **Evidence pointer** Results, Structural characterization; Discussion and Conclusions; location not provided
+  - **Concern** These functional interpretations are speculative and go beyond the data presented. The manuscript does not provide direct evidence for a role of C1 in product release, such as simulations of the product-bound state or experimental data on product release kinetics. Similarly, the suggestions about RNA binding and mobility in crowded environments are not supported by any simulations or experiments presented here.
+  - **Why it matters** While speculative interpretations can be valuable in a discussion, they should be clearly labeled as such and not presented as conclusions of the study. Overinterpretation of computational results can mislead readers and detract from the solid methodological contributions.
+  - **Resolution test** Clearly label these functional interpretations as speculative hypotheses. If possible, provide additional supporting evidence, such as simulations of product release or analysis of the C1 conformation in the context of known RNA-binding interfaces. Alternatively, temper the language to reflect the speculative nature of these suggestions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract, "yields gated rate constants in the range ~0.5-5.7 × 10 8 M −1 s −1"; Results, Table 1
+  - **Issue** The abstract states a range of gated rate constants but does not provide the corresponding experimental range for comparison. The statement "for many inhibitors either subsequent conformational transitions or alternate binding mechanisms may be rate-limiting" is vague.
+  - **Required correction** Provide the experimental range in the abstract for direct comparison. Specify which inhibitors are well-described by the model and which are not, and briefly state the proposed alternative mechanisms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "However, the calculated gated rate constants (k g ) all lie within a narrow range from ~0.5-5.7 × 10 8 M −1 s −1 . Only one inhibitor (B376), a small peptidomimetic ligand, exhibits a computed gated rate constant similar to the experimental association rate constant."
+  - **Issue** The sentence is incomplete. The experimental rate constants for the inhibitors are not provided in the visible text, making the comparison impossible to evaluate.
+  - **Required correction** Complete the sentence with the experimental values and provide a clear table or figure showing the comparison for all eight inhibitors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, MSM construction
+  - **Evidence pointer** Materials and Methods, Markov state model subsection
+  - **Issue** The choice of lag time (τ = 30 ns) is stated to be based on constant implied timescales, but the specific criteria for this choice are not detailed. The number of microstates (100) and the clustering method (k-means) are stated, but the sensitivity of the results to these choices is not discussed.
+  - **Required correction** Provide more detail on the lag time selection process, including the range of lag times tested and the criteria for convergence. Discuss the sensitivity of the macrostates and transition rates to the number of microstates and clustering method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, BD simulations
+  - **Evidence pointer** Materials and Methods, BD simulations subsection
+  - **Issue** The description of the BD simulation setup is incomplete. The force field parameters for the ligands, the specific settings for the SDA software, and the criteria for defining an encounter complex are described, but the exact parameters used (e.g., ionic strength, temperature, number of trajectories) are not all specified.
+  - **Required correction** Provide a complete list of BD simulation parameters, including all force field parameters, simulation settings, and analysis criteria, to ensure reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Theory section
+  - **Evidence pointer** Theory section, Equations 1-17
+  - **Issue** The theory section is dense and some equations are not fully explained. The derivation of the multi-state gating factor could be clearer, and the connection between the MSM transition rates and the gating factor is not immediately obvious.
+  - **Required correction** Expand the theory section to provide more context and explanation for the equations. Clearly define all variables and steps in the derivation.
+
+## Risk / unsupported claims
+
+- The claim that the 'parted' conformation (C1) may play a role in product release is unsupported by direct evidence in the provided text.
+- The claim that the wide-open state (C5) may modulate RNA binding or aid mobility in crowded environments is speculative and unsupported.
+- The claim that the approach can dissect binding mechanisms (CS, IF, DC) for individual inhibitors is not fully supported by the visible data, as the comparison between computed and experimental rate constants is incomplete.
+- The generalizability of the approach to other proteins and its scalability for high-throughput screening is plausible but not demonstrated beyond the single system studied.
+- The accuracy of the computed gated rate constants cannot be assessed without the full data in Table 1 and the associated experimental comparators.

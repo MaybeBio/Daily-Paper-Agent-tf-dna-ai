@@ -1,0 +1,239 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.09.653068",
+  "title": "Predicting Saturation Concentrations of Phase-Separating Proteins via Thermodynamic Integration",
+  "doi": "10.1101/2025.05.09.653068",
+  "abstract": "Phase separation of proteins and nucleic acids into biomolecular condensates contributes to the regulation of cellular compartmentalisation in membrane-less environments. A key parameter controlling the onset of biomolecular condensate formation via liquid—liquid phase separation is the saturation concentration ( C sat )— the threshold concentration above which condensation takes place. While measuring C sat for protein solutions in vitro is experimentally accessible, determining this quantity in simulations remains challenging due to the extremely low equilibrium concentrations at which many proteins phase separate. This occurs because the gold standard in simulations consists on combining a residue-resolution coarse-grained model with the Direct Coexistence simulation method, which yields poor estimates of the equilibrium concentrations of the dilute phase due to lack of statistics. In this work, we present two independent thermodynamic integration (TI) schemes which, when combined with Direct Coexistence simulations, enable accurate calculation of saturation concentrations and phase diagrams—facilitating direct comparison with experimental measurements across a wide range of conditions. Our methods, combined with the Mpipi-Recharged residue-resolution coarse-grained model, accurately estimate C sat for a wide range of intrinsically disordered and multi-domain proteins, including disease-associated RNA- and DNA-binding proteins involved in the formation of stress granules and P granules, as well as engineered mutants of hnRNPA1. Furthermore, we compare our TI methods against a computationally efficient machine-learning predictor trained to estimate saturation concentrations at sub-physiological temperatures. While both approaches yield realistic predictions, explicit molecular dynamics simulations enable the calculation of complete phase diagrams and provide insight into the molecular mechanisms and interactions driving phase-separation. Overall, our approach offers a robust, physically grounded framework for improving and validating coarse-grained models of biomolecular phase behaviour, effectively bridging the gap between simulation and experiment.",
+  "authors": [
+    "Pedraza E",
+    "Tejedor AR",
+    "Feito A",
+    "Gámez F",
+    "Collepardo-Guevara R",
+    "Sanz E",
+    "Espinosa JR"
+  ],
+  "published_date": "2025-05-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.653068",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.653068.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1020238",
+    "raw_record": {
+      "id": "PPR1020238",
+      "source": "PPR",
+      "doi": "10.1101/2025.05.09.653068",
+      "title": "Predicting Saturation Concentrations of Phase-Separating Proteins via Thermodynamic Integration",
+      "authorString": "Pedraza E, Tejedor AR, Feito A, Gámez F, Collepardo-Guevara R, Sanz E, Espinosa JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pedraza E",
+            "lastName": "Pedraza",
+            "firstName": "Eduardo",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0154-4643"
+            }
+          },
+          {
+            "fullName": "Tejedor AR",
+            "lastName": "Tejedor",
+            "firstName": "Andrés",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9437-6169"
+            }
+          },
+          {
+            "fullName": "Feito A",
+            "lastName": "Feito",
+            "firstName": "Alejandro",
+            "initials": "A"
+          },
+          {
+            "fullName": "Gámez F",
+            "lastName": "Gámez",
+            "firstName": "Francisco",
+            "initials": "F"
+          },
+          {
+            "fullName": "Collepardo-Guevara R",
+            "lastName": "Collepardo-Guevara",
+            "firstName": "Rosana",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1781-7351"
+            }
+          },
+          {
+            "fullName": "Sanz E",
+            "lastName": "Sanz",
+            "firstName": "Eduardo",
+            "initials": "E"
+          },
+          {
+            "fullName": "Espinosa JR",
+            "lastName": "Espinosa",
+            "firstName": "Jorge",
+            "initials": "JR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9530-2658"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6474-5835"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6937-9950"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9530-2658"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9437-6169"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0154-4643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1781-7351"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Phase separation of proteins and nucleic acids into biomolecular condensates contributes to the regulation of cellular compartmentalisation in membrane-less environments. A key parameter controlling the onset of biomolecular condensate formation via liquid—liquid phase separation is the saturation concentration (  C sat )— the threshold concentration above which condensation takes place. While measuring  C sat for protein solutions  in vitro is experimentally accessible, determining this quantity in simulations remains challenging due to the extremely low equilibrium concentrations at which many proteins phase separate. This occurs because the gold standard in simulations consists on combining a residue-resolution coarse-grained model with the Direct Coexistence simulation method, which yields poor estimates of the equilibrium concentrations of the dilute phase due to lack of statistics. In this work, we present two independent thermodynamic integration (TI) schemes which, when combined with Direct Coexistence simulations, enable accurate calculation of saturation concentrations and phase diagrams—facilitating direct comparison with experimental measurements across a wide range of conditions. Our methods, combined with the Mpipi-Recharged residue-resolution coarse-grained model, accurately estimate  C sat for a wide range of intrinsically disordered and multi-domain proteins, including disease-associated RNA- and DNA-binding proteins involved in the formation of stress granules and P granules, as well as engineered mutants of hnRNPA1. Furthermore, we compare our TI methods against a computationally efficient machine-learning predictor trained to estimate saturation concentrations at sub-physiological temperatures. While both approaches yield realistic predictions, explicit molecular dynamics simulations enable the calculation of complete phase diagrams and provide insight into the molecular mechanisms and interactions driving phase-separation. Overall, our approach offers a robust, physically grounded framework for improving and validating coarse-grained models of biomolecular phase behaviour, effectively bridging the gap between simulation and experiment.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Barcelona Supercomputing Center",
+            "grantId": "2024-3-0001",
+            "orderIn": 0
+          },
+          {
+            "agency": "Ministerio de Ciencia e Innovación",
+            "grantId": "PID2022-136919NB-C31",
+            "orderIn": 0
+          },
+          {
+            "agency": "Ministerio de Ciencia e Innovación",
+            "grantId": "PID2022-136919NA-C33",
+            "orderIn": 0
+          },
+          {
+            "agency": "University of Cambridge Research Computing Service - EPSRC",
+            "grantId": "EP/P020259/1-CS170",
+            "orderIn": 0
+          },
+          {
+            "agency": "Archer2 - EPSRC",
+            "grantId": "EP/P020259/e829",
+            "orderIn": 0
+          },
+          {
+            "agency": "Ministerio de Ciencia e Innovación",
+            "grantId": "RYC2021-030937-I",
+            "orderIn": 0
+          },
+          {
+            "agency": "Barcelona Supercomputing Center",
+            "grantId": "2025-1-0009",
+            "orderIn": 0
+          },
+          {
+            "agency": "Research and Innovation (UKRI) Engineering and Physical Sciences Research Council",
+            "grantId": "EP/Z002028/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/14/2025.05.09.653068.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.09.653068"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40970906",
+            "reference": "Journal of chemical theory and computation. 2025 Oct;21(19):9919-9934",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-05-16",
+      "firstPublicationDate": "2025-05-14",
+      "firstIndexDate": "2025-05-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

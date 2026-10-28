@@ -1,0 +1,345 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.622960",
+  "title": "System-level characterization of engineered and evolved formatotrophic E. coli strains",
+  "doi": "10.1101/2024.11.11.622960",
+  "abstract": "One-carbon compounds, such as formate, are promising and sustainable feedstocks for microbial bioproduction of fuels and chemicals. Growth of Escherichia coli on formate was recently achieved by introducing the reductive glycine pathway (rGlyP) into its genome, which is theoretically the most energy-efficient aerobic formate assimilation pathway. While adaptive laboratory evolution was used to enhance the growth rate and biomass yield significantly, still the best performing formatotrophic E. coli strain did not approach the theoretical optimal biomass yield of the rGlyP. In this study, we investigated these previously engineered formatotrophic E. coli strains to find out why the biomass yield was sub-optimal and how it may be improved. Through a combination of metabolic modelling, genomic and proteomic analysis, we identified several potential metabolic bottlenecks and future targets for optimization. This study also reveals further insights in the evolutionary mutations and related changes in proteome allocation that supported the already substantially improved growth of formatotrophic E. coli strain. This systems-level analysis provides key insights to realize high-yield, fast growing formatotrophic strains for future bioproduction.",
+  "authors": [
+    "Yilmaz S",
+    "Kanis B",
+    "Hogers RAH",
+    "Benito-Vaquerizo S",
+    "Kahnt J",
+    "Glatter T",
+    "Dronsella B",
+    "Erb TJ",
+    "Suarez-Diez M",
+    "Claassens NJ"
+  ],
+  "published_date": "2024-11-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622960",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622960.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR938829",
+    "raw_record": {
+      "id": "PPR938829",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR938829"
+        ]
+      },
+      "doi": "10.1101/2024.11.11.622960",
+      "title": "System-level characterization of engineered and evolved formatotrophic  <i>E. coli</i>  strains",
+      "authorString": "Yilmaz S, Kanis B, Hogers RAH, Benito-Vaquerizo S, Kahnt J, Glatter T, Dronsella B, Erb TJ, Suarez-Diez M, Claassens NJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yilmaz S",
+            "lastName": "Yilmaz",
+            "firstName": "Suzan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microbiology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kanis B",
+            "lastName": "Kanis",
+            "firstName": "Boas",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hogers RAH",
+            "lastName": "Hogers",
+            "firstName": "Rensco",
+            "initials": "RAH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-9734-5795"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benito-Vaquerizo S",
+            "lastName": "Benito-Vaquerizo",
+            "firstName": "Sara",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3936-9676"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic Biology, , ,"
+                },
+                {
+                  "affiliation": "Genome Biology Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kahnt J",
+            "lastName": "Kahnt",
+            "firstName": "Jörg",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5183-7009"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Core Facility for Mass Spectrometry and Proteomics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glatter T",
+            "lastName": "Glatter",
+            "firstName": "Timo",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8716-8516"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Core Facility for Mass Spectrometry and Proteomics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dronsella B",
+            "lastName": "Dronsella",
+            "firstName": "Beau",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5541-3289"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry and Synthetic Metabolism, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Erb TJ",
+            "lastName": "Erb",
+            "firstName": "Tobias",
+            "initials": "TJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3685-0894"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry and Synthetic Metabolism, , ,"
+                },
+                {
+                  "affiliation": "Center for Synthetic Microbiology, Marburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suarez-Diez M",
+            "lastName": "Suarez-Diez",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5845-146X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Systems and Synthetic Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Claassens NJ",
+            "lastName": "Claassens",
+            "firstName": "Nico",
+            "initials": "NJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1593-0377"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Microbiology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5845-146X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8716-8516"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5183-7009"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5541-3289"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1593-0377"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3685-0894"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3936-9676"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-9734-5795"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "One-carbon compounds, such as formate, are promising and sustainable feedstocks for microbial bioproduction of fuels and chemicals. Growth of  Escherichia coli on formate was recently achieved by introducing the reductive glycine pathway (rGlyP) into its genome, which is theoretically the most energy-efficient aerobic formate assimilation pathway. While adaptive laboratory evolution was used to enhance the growth rate and biomass yield significantly, still the best performing formatotrophic  E. coli strain did not approach the theoretical optimal biomass yield of the rGlyP. In this study, we investigated these previously engineered formatotrophic  E. coli strains to find out why the biomass yield was sub-optimal and how it may be improved. Through a combination of metabolic modelling, genomic and proteomic analysis, we identified several potential metabolic bottlenecks and future targets for optimization. This study also reveals further insights in the evolutionary mutations and related changes in proteome allocation that supported the already substantially improved growth of formatotrophic  E. coli strain. This systems-level analysis provides key insights to realize high-yield, fast growing formatotrophic strains for future bioproduction.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "024.003.019",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "VI.Veni.192.156",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.11.622960"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.11.622960"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR938829"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR938829&type=FILE&fileName=EMS200103-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS200103",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-14",
+      "firstPublicationDate": "2024-11-12",
+      "firstIndexDate": "2024-11-14",
+      "fullTextReceivedDate": "2024-11-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

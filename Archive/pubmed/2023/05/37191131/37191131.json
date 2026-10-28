@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "37191131",
+    "doi": "10.1039/d3cc01283b",
+    "title": "Applying deep learning to iterative screening of medium-sized molecules for protein-protein interaction-targeted drug discovery."
+  },
+  "content": {
+    "abstract": "We combined a library of medium-sized molecules with iterative screening using multiple machine learning algorithms that were ligand-based, which resulted in a large increase of the hit rate against a protein-protein interaction target. This was demonstrated by inhibition assays using a PPI target, Kelch-like ECH-associated protein 1/nuclear factor erythroid 2-related factor 2 (Keap1/Nrf2), and a deep neural network model based on the first-round assay data showed a highest hit rate of 27.3%. Using the models, we identified novel active and non-flat compounds far from public datasets, expanding the chemical space.",
+    "keywords": [],
+    "mesh_terms": [
+      "Kelch-Like ECH-Associated Protein 1/chemistry",
+      "*Deep Learning",
+      "NF-E2-Related Factor 2/chemistry/metabolism",
+      "Drug Discovery/methods",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shimizu, Yugo",
+        "Yonezawa, Tomoki",
+        "Bao, Yu",
+        "Sakamoto, Junichi",
+        "Yokogawa, Mariko",
+        "Furuya, Toshio",
+        "Osawa, Masanori",
+        "Ikeda, Kazuyoshi"
+      ],
+      "short_names": [
+        "Shimizu Y",
+        "Yonezawa T",
+        "Bao Y",
+        "Sakamoto J",
+        "Yokogawa M",
+        "Furuya T",
+        "Osawa M",
+        "Ikeda K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3647-7973",
+        "ORCID: 0000-0002-1285-4316",
+        "ORCID: 0000-0002-8433-8206"
+      ],
+      "affiliations": [
+        "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+        "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+        "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+        "Axcelead Drug Discovery Partners, Inc., 26-1, Muraoka-Higashi 2-chome, Fujisawa, Kanagawa 251-0012, Japan.",
+        "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+        "Drug Discovery Department, Research & Development Division, PharmaDesign, Inc., Hatchobori 2-19-8, Chuo-ku, Tokyo 104-0032, Japan.",
+        "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+        "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+        "HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama 230-0045, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shimizu, Yugo",
+        "short_name": "Shimizu Y",
+        "identifiers": [
+          "0000-0002-3647-7973"
+        ],
+        "affiliations": [
+          "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Yonezawa, Tomoki",
+        "short_name": "Yonezawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Bao, Yu",
+        "short_name": "Bao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Sakamoto, Junichi",
+        "short_name": "Sakamoto J",
+        "identifiers": [],
+        "affiliations": [
+          "Axcelead Drug Discovery Partners, Inc., 26-1, Muraoka-Higashi 2-chome, Fujisawa, Kanagawa 251-0012, Japan."
+        ]
+      },
+      {
+        "full_name": "Yokogawa, Mariko",
+        "short_name": "Yokogawa M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Furuya, Toshio",
+        "short_name": "Furuya T",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery Department, Research & Development Division, PharmaDesign, Inc., Hatchobori 2-19-8, Chuo-ku, Tokyo 104-0032, Japan."
+        ]
+      },
+      {
+        "full_name": "Osawa, Masanori",
+        "short_name": "Osawa M",
+        "identifiers": [
+          "0000-0002-1285-4316"
+        ],
+        "affiliations": [
+          "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Ikeda, Kazuyoshi",
+        "short_name": "Ikeda K",
+        "identifiers": [
+          "0000-0002-8433-8206"
+        ],
+        "affiliations": [
+          "Division of Physics for Life Functions, Keio University Faculty of Pharmacy, 1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512, Japan. ikeda-kz@pha.keio.ac.jp.",
+          "HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama 230-0045, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical communications (Cambridge, England)"
+    ],
+    "journal_abbrev": [
+      "Chem Commun (Camb)"
+    ],
+    "pub_date": "2023 May 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/16 13:10",
+    "fetched_at": "2026-09-29 00:42:24"
+  },
+  "links": {
+    "cites": [
+      "38794190"
+    ],
+    "refs": [],
+    "similar": [
+      "37191131",
+      "33795749",
+      "32233486",
+      "27031670",
+      "32564647",
+      "31851823",
+      "28801166",
+      "32668381",
+      "32120017",
+      "26935067",
+      "29255090",
+      "32672401",
+      "31726716",
+      "36263945",
+      "30068847",
+      "26653613",
+      "33683866",
+      "30973731",
+      "30122040",
+      "27690435",
+      "31509940",
+      "32902980",
+      "28746889",
+      "34705450",
+      "33818106",
+      "26551711",
+      "31283229",
+      "29233294",
+      "34252790",
+      "31682434",
+      "29118094",
+      "29750408",
+      "29745220",
+      "24130096",
+      "32866756",
+      "24512214",
+      "30822690",
+      "32152607",
+      "31411465",
+      "32046917",
+      "27474998",
+      "19808700",
+      "27312421",
+      "28315327",
+      "33774182",
+      "34229009",
+      "31412289",
+      "32437336",
+      "29037947",
+      "34526248",
+      "23647822",
+      "27086966",
+      "34299054",
+      "31511020",
+      "38408347",
+      "38037990",
+      "20486763",
+      "35467270",
+      "34526658",
+      "31220575",
+      "23562243",
+      "35721612",
+      "26721592",
+      "29117896",
+      "27839920",
+      "28638054",
+      "27573160",
+      "32219872",
+      "22156223",
+      "26878775",
+      "29428410",
+      "30735010",
+      "36525840",
+      "26459563",
+      "20446768",
+      "28842501",
+      "26551701",
+      "33166928",
+      "34500407",
+      "32032607",
+      "29306329",
+      "28515152",
+      "33990683",
+      "22107959",
+      "32422542",
+      "30576774",
+      "16872277",
+      "33080322",
+      "26348784",
+      "28282941",
+      "36128875",
+      "30746804",
+      "34071676",
+      "39333789",
+      "37327474",
+      "38642700",
+      "37337437"
+    ],
+    "review": [
+      "37191131",
+      "32233486",
+      "28801166",
+      "32668381",
+      "32120017",
+      "30068847",
+      "27690435",
+      "31509940",
+      "26551711",
+      "29233294",
+      "29118094",
+      "33774182",
+      "31511020",
+      "20486763",
+      "20446768",
+      "28842501",
+      "26551701",
+      "34500407",
+      "33080322",
+      "28282941",
+      "38642700"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d3cc01283b",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

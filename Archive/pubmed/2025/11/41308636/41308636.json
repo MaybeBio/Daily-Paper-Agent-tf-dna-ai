@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "41308636",
+    "doi": "10.1016/j.cell.2025.11.008",
+    "title": "Thermodynamic principles link in vitro transcription factor affinities to single-molecule chromatin states in cells."
+  },
+  "content": {
+    "abstract": "The molecular details governing transcription factor (TF) binding and the formation of accessible chromatin are not yet quantitatively understood-including how sequence context modulates affinity, how TFs search DNA, the kinetics of TF occupancy, and how motif grammars coordinate binding. To resolve these questions for a human TF, erythroid Kruppel-like factor (eKLF/KLF1), we quantitatively compare, in high throughput, in vitro TF binding rates and affinities with in vivo single-molecule TF and nucleosome occupancies and in vivo-derived deep learning models. We find that 40-fold flanking sequence effects on affinity are consistent with distal flanks tuning TF search parameters and captured by a linear energy model. Motif recognition probability, rather than time in the bound state, drives affinity changes, and in vitro and in nuclei measurements exhibit consistent, minutes-long TF residence times. Finally, in vitro biophysical parameters predict in vivo sequence preferences and single-molecule chromatin states for unseen motif grammars.",
+    "keywords": [
+      "biophysical models",
+      "chromatin accessibility",
+      "deep learning models",
+      "eKLF/KLF1",
+      "kinetics",
+      "single-molecule footprinting",
+      "target search",
+      "thermodynamics",
+      "transcription factor binding"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/metabolism/chemistry",
+      "Thermodynamics",
+      "*Kruppel-Like Transcription Factors/metabolism/chemistry",
+      "*Transcription Factors/metabolism",
+      "Protein Binding",
+      "Nucleosomes/metabolism",
+      "DNA/metabolism",
+      "Kinetics",
+      "Binding Sites",
+      "Nucleotide Motifs"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schaepe, Julia M",
+        "Fries, Torbjorn",
+        "Doughty, Benjamin R",
+        "Ramalingam, Vivekanandan",
+        "Liu, Betty B",
+        "Crocker, Olivia J",
+        "Marinov, Georgi K",
+        "Hinks, Michaela M",
+        "Marklund, Emil",
+        "Greenleaf, William J"
+      ],
+      "short_names": [
+        "Schaepe JM",
+        "Fries T",
+        "Doughty BR",
+        "Ramalingam V",
+        "Liu BB",
+        "Crocker OJ",
+        "Marinov GK",
+        "Hinks MM",
+        "Marklund E",
+        "Greenleaf WJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioengineering Department, Stanford University, Stanford, CA 94305, USA.",
+        "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden.",
+        "Genetics Department, Stanford University, Stanford, CA 94305, USA.",
+        "Genetics Department, Stanford University, Stanford, CA 94305, USA.",
+        "Bioengineering Department, Stanford University, Stanford, CA 94305, USA.",
+        "Genetics Department, Stanford University, Stanford, CA 94305, USA.",
+        "Genetics Department, Stanford University, Stanford, CA 94305, USA.",
+        "Bioengineering Department, Stanford University, Stanford, CA 94305, USA.",
+        "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden. Electronic address: emil.marklund@scilifelab.se.",
+        "Genetics Department, Stanford University, Stanford, CA 94305, USA; Department of Applied Physics, Stanford University, Stanford, CA 94205, USA. Electronic address: wjg@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schaepe, Julia M",
+        "short_name": "Schaepe JM",
+        "identifiers": [],
+        "affiliations": [
+          "Bioengineering Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Fries, Torbjörn",
+        "short_name": "Fries T",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Doughty, Benjamin R",
+        "short_name": "Doughty BR",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Ramalingam, Vivekanandan",
+        "short_name": "Ramalingam V",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Betty B",
+        "short_name": "Liu BB",
+        "identifiers": [],
+        "affiliations": [
+          "Bioengineering Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Crocker, Olivia J",
+        "short_name": "Crocker OJ",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Marinov, Georgi K",
+        "short_name": "Marinov GK",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Hinks, Michaela M",
+        "short_name": "Hinks MM",
+        "identifiers": [],
+        "affiliations": [
+          "Bioengineering Department, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Marklund, Emil",
+        "short_name": "Marklund E",
+        "identifiers": [],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden. Electronic address: emil.marklund@scilifelab.se."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics Department, Stanford University, Stanford, CA 94305, USA; Department of Applied Physics, Stanford University, Stanford, CA 94205, USA. Electronic address: wjg@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Jan 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/28 00:27",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [
+      "42595790",
+      "42538372",
+      "42533140",
+      "42489335",
+      "42139310",
+      "42039660",
+      "41511382",
+      "40777328"
+    ],
+    "refs": [
+      "40903577",
+      "39567683",
+      "39208807",
+      "39103447",
+      "38377994",
+      "38336958",
+      "38216391",
+      "37733848",
+      "37540844",
+      "37076620",
+      "37020022",
+      "36702896",
+      "36543143",
+      "35835866",
+      "35337845",
+      "35084952",
+      "34481381",
+      "34326481",
+      "34140313",
+      "34016970",
+      "33603233",
+      "33592625",
+      "33558533",
+      "33414013",
+      "33326746",
+      "33290745",
+      "32728250",
+      "32581356",
+      "32330456",
+      "32101712",
+      "31701148",
+      "31324449",
+      "31101674",
+      "30655336",
+      "30598445",
+      "30258225",
+      "29961580",
+      "29739754",
+      "29514181",
+      "29425488",
+      "29284749",
+      "29185740",
+      "28982762",
+      "28735898",
+      "28635963",
+      "28541545",
+      "28495970",
+      "28487148",
+      "28325876",
+      "28180284",
+      "26285121",
+      "26160164",
+      "25892221",
+      "25843630",
+      "25762553",
+      "25313048",
+      "25197097",
+      "25034201",
+      "24770696",
+      "24630727",
+      "23931323",
+      "23562153",
+      "23524394",
+      "23413354",
+      "22960375",
+      "22955990",
+      "22868264",
+      "22844090",
+      "22723426",
+      "22014521",
+      "21726817",
+      "21723826",
+      "21706015",
+      "21670263",
+      "21290164",
+      "21149679",
+      "20889499",
+      "20676097",
+      "20508144",
+      "19865164",
+      "19815308",
+      "18849996",
+      "18710946",
+      "18264089",
+      "17904406",
+      "17574024",
+      "17525339",
+      "16907618",
+      "15797194",
+      "15609997",
+      "15474298",
+      "15343339",
+      "12620113",
+      "11259590",
+      "11206552",
+      "11125145",
+      "11018012",
+      "9778250",
+      "9590696",
+      "9578568",
+      "9184235",
+      "9144164",
+      "8638105",
+      "8548797",
+      "7317363",
+      "6461856",
+      "4924006",
+      "2642903"
+    ],
+    "similar": [
+      "41308636",
+      "39975040",
+      "39567683",
+      "20098497",
+      "37214836",
+      "24353316",
+      "38352517",
+      "23805837",
+      "42056506",
+      "39695228",
+      "26291518",
+      "26285121",
+      "40848288",
+      "41724964",
+      "22955984",
+      "26818008",
+      "28750606",
+      "40020686",
+      "38966997",
+      "24942981",
+      "41656376",
+      "19956545",
+      "22955990",
+      "20838582",
+      "25775564",
+      "25892221",
+      "28212748",
+      "33263279",
+      "36688297",
+      "22482953",
+      "21473766",
+      "29588420",
+      "19652015",
+      "31484078",
+      "23595148",
+      "42288479",
+      "25762553",
+      "24039567",
+      "26772197",
+      "40764461",
+      "27567672",
+      "38654130",
+      "41679301",
+      "21737419",
+      "30423062",
+      "31818881",
+      "32574834",
+      "30700703",
+      "37805453",
+      "42555726",
+      "27899623",
+      "22189060",
+      "27104615",
+      "31253573",
+      "28334916",
+      "31639474",
+      "25433490",
+      "23990766",
+      "29326300",
+      "22098745",
+      "11018012",
+      "40780181",
+      "16873495",
+      "39217462",
+      "40795153",
+      "22534400",
+      "41511382",
+      "39893191",
+      "38991237",
+      "8288615",
+      "26490019",
+      "31114856",
+      "16286657",
+      "20637845",
+      "24185839",
+      "32660981",
+      "40811719",
+      "39208807",
+      "28538187",
+      "42114111",
+      "20172488",
+      "33892767",
+      "30395339",
+      "25957350",
+      "42392072",
+      "28472398",
+      "38940155",
+      "35971180",
+      "25559499",
+      "35831531",
+      "26675734",
+      "9737959",
+      "25304387",
+      "20844575",
+      "23523656",
+      "25242143",
+      "37650641",
+      "40777328",
+      "35377618",
+      "28137873"
+    ],
+    "review": [
+      "41308636",
+      "31639474",
+      "38991237",
+      "35831531"
+    ],
+    "pmc": [
+      "13397507"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(25)01300-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41308636/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

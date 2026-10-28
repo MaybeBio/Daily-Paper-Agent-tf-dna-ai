@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors used molecular dynamics simulations and Markov state modeling to investigate the conformational landscape of the quorum sensing receptor SdiA from enteropathogenic *Escherichia coli*, and report discovery of an unknown conformation not present in crystallographic structures, which they propose may represent the ligand-free inactive form and could be suitable for virtual screening.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, Markov model validation, or structural analysis are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation setup and parameters, force field details, trajectory lengths, Markov model construction and validation, structural comparisons with crystallographic data, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of molecular dynamics and Markov state modeling to a biologically relevant bacterial quorum sensing receptor. However, the evidence provided is insufficient to evaluate the validity of the central claim that an unknown conformation representing the inactive form was discovered. The abstract lacks essential methodological detail and any quantitative validation, making the case currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and structural biology interested in conformational dynamics of bacterial signaling proteins, and investigators working on anti-infective drug discovery targeting quorum sensing pathways, would find the potential identification of an inactive conformation useful for structure-based virtual screening efforts.
+- **Major strengths** The biological question is relevant and timely, given the importance of quorum sensing in bacterial virulence and biofilm formation. The combination of molecular dynamics with Markov state modeling is an appropriate and modern approach for exploring conformational ensembles beyond static crystallographic structures. The potential translational application to virtual screening is a practical and valuable motivation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "we find an unknown conformation after 24 molecular dynamics simulation runs with random initial velocities and Markov state modeling" and that "this unknown conformation could be the structure of the inactive form without a ligand."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no details on how the "unknown conformation" was identified, how it was distinguished from known crystallographic states, or how the Markov state model was constructed and validated. No metrics such as free energy differences, population fractions, or structural similarity measures are reported. The claim that this conformation "could be" the inactive form is speculative without experimental or computational validation, such as comparison to known inactive state structures or ligand binding assays.
+  - **Why it matters** The central conclusion of the manuscript rests on the identification and functional assignment of this conformation. Without quantitative evidence that the conformation is statistically significant, kinetically distinct, and structurally meaningful, the claim cannot be assessed. The functional interpretation as the inactive form requires additional support beyond structural novelty.
+  - **Resolution test** Provide a clear definition of the unknown conformation with structural descriptors, show its population and free energy relative to known states, demonstrate Markov model convergence and validation, and provide evidence supporting the inactive state assignment, such as comparison to experimentally characterized inactive conformations or ligand binding free energy calculations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state they "employ Markov modeling and molecular dynamics simulations to understand the behaviour of SdiA protein."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation parameters are reported, including force field, water model, temperature, pressure, salt concentration, simulation length per run, total sampling time, or software used. The number of runs (24) is mentioned but without context for whether this is sufficient sampling. No details on Markov model lag time selection, number of states, or implied timescale validation are given.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without these details, other researchers cannot replicate the simulations or assess whether the sampling was adequate to explore the conformational landscape. The validity of the Markov state model depends critically on these choices.
+  - **Resolution test** Report all simulation and analysis parameters in the full manuscript, including software versions, force field, solvent model, simulation length, temperature and pressure coupling, and provide a detailed description of Markov model construction, lag time selection, and model validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "current crystallographic structures for virtual screening may not be sufficient for molecular docking. So they are not very predictive, because the structures are in the active form" and that the obtained ensemble structures "could be used for virtual screening."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that crystallographic structures are not predictive for docking is presented without supporting evidence or citation. The assertion that the newly found conformation would improve virtual screening outcomes is not tested. No docking or screening results are presented to demonstrate improved performance.
+  - **Why it matters** The translational value of the work depends on demonstrating that the identified conformation is useful for virtual screening. Without a comparative docking study or enrichment analysis, the practical benefit remains speculative.
+  - **Resolution test** Perform a comparative virtual screening study using the identified conformation versus available crystallographic structures, and report metrics such as enrichment factors or docking performance against known ligands.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The background on SdiA regulation by 1-octanoyl-rac-glycerol is introduced without clear connection to the main study objective or the inactive form hypothesis.
+  - **Required correction** Clarify the relevance of 1-octanoyl-rac-glycerol to the conformational states studied, or remove it if not directly pertinent.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "unknown conformation"
+  - **Issue** The term "unknown conformation" is vague and could refer to a novel structure, a rarely populated state, or a state not previously deposited. The meaning is ambiguous.
+  - **Required correction** Define the term operationally, for example as a conformation with a distinct structural cluster not matching any crystallographic state within a specified RMSD threshold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Functional interpretation
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The statement that the unknown conformation "could be the structure of the inactive form without a ligand" is presented without discussion of alternative interpretations, such as an intermediate state or an artifact of the simulation conditions.
+  - **Required correction** Acknowledge alternative possibilities and describe what additional evidence would support the inactive form assignment.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate; the application of Markov state modeling to SdiA is novel but the approach itself is established. Scientific importance is potentially significant for anti-infective drug design, but the current evidence does not establish the functional relevance of the identified conformation. Interdisciplinary readership is plausible, spanning computational biology, microbiology, and drug discovery, but the abstract is too sparse to engage nonspecialists effectively. Technical soundness cannot be assessed from the abstract alone due to missing methodological details. Readability for nonspecialists is acceptable in the background but the results section is too brief to convey the significance clearly.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide the full manuscript with detailed methods, validation of the Markov state model, and quantitative evidence supporting the identification and functional assignment of the inactive conformation. If these technical concerns are resolved, the work could be of interest to the computational biology community.
+
+## Risk / unsupported claims
+- The claim that the identified conformation is the inactive form of SdiA is unsupported without experimental or computational validation.
+- The claim that crystallographic structures are not predictive for virtual screening is presented without evidence or citation.
+- The claim that the obtained ensemble structures could be used for virtual screening is speculative without docking or screening results.
+- The sufficiency of 24 simulation runs for adequate conformational sampling is not established.
+- The existence and statistical significance of the "unknown conformation" cannot be evaluated from the abstract alone.

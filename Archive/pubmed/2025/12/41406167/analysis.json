@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41406167",
+  "title": "A methodology to reduce the localization error in multi-loci microscopy provides new insights into enhancer biology.",
+  "authors": "Bohrer, Christopher H; Larson, Daniel R",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发了减少多基因座显微定位误差的LEAR方法，用于增强子-启动子空间邻近与转录关联分析，虽涉及染色质空间组织与基因调控，但核心是显微图像后处理，非蛋白质-DNA互作建模，且无AI或物理模拟方法，仅间接相关。",
+  "abstract": "Numerous functions hinge on the spatial arrangement of different genomic loci. Hence, microscopy techniques, such as chromatin tracing, have been developed to localize multiple loci in fixed cells. Depending on the throughput and specifics of the experiment, localization errors can still obscure the true spatial locations. We have developed a post-processing methodology to address this challenge without the need for additional experimentation: Loci Enabled Advanced Resolution (LEAR). By leveraging the fact that localization errors increase the variability of the displacements between loci, and given an approximation of the localization error, we can approximate the ground truth spatial variation for each pair of loci to guide an iterative error correction process. After validating our approach with simulation and experiment, we then applied our approach to existing chromatin tracing data that probed the relation between chromatin organization and Sox2 regulation, where previous work found no clear correlation between enhancer-promoter proximity and transcription bursts in individual cells. We discovered a correlation previously obscured by localization error, clearly demonstrating the need for the methodology. We then investigated the influence of loop-extrusion on higher order multi-way contact frequencies, which dramatically increased with the application of the LEAR method, finding that certain multi-way contacts were only present with loop-extrusion.",
+  "abstract_zh": "许多功能依赖于不同基因组位点的空间排列。因此，已开发出诸如染色质追踪 (chromatin tracing) 等显微镜技术，用于在固定细胞中定位多个位点。根据实验的通量和具体细节，定位误差仍可能掩盖真实的空间位置。我们开发了一种后处理方法，无需额外实验即可应对这一挑战：位点增强高级分辨率 (Loci Enabled Advanced Resolution, LEAR)。通过利用定位误差增加位点间位移变异性的这一事实，并在给定定位误差近似值的情况下，我们可以近似每对位点的真实空间变异，以指导迭代误差校正过程。在用模拟和实验验证我们的方法后，我们将该方法应用于现有的染色质追踪数据，这些数据探讨了染色质组织与Sox2调控之间的关系，而先前的研究未发现单个细胞中增强子-启动子邻近性与转录爆发之间存在明确相关性。我们发现了先前被定位误差掩盖的相关性，这清楚证明了该方法的必要性。随后，我们研究了环挤压 (loop-extrusion) 对高阶多向接触频率的影响，该频率在应用LEAR方法后显著增加，并发现某些多向接触仅在环挤压存在时出现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41406167/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41406167/",
+  "paper_page_path": "papers/pubmed/41406167/index.html"
+}

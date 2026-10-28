@@ -1,0 +1,234 @@
+{
+  "identity": {
+    "pmid": "39896110",
+    "doi": "10.1016/j.bbrep.2025.101920",
+    "title": "Integrative analysis of RNA-Seq data and machine learning approaches to identify Biomarkers for Rhizoctonia solani resistance in sugar beet."
+  },
+  "content": {
+    "abstract": "Rhizoctonia solani is a significant pathogen that causes crown and root rot in sugar beet (Beta vulgaris), leading to considerable yield losses. To develop resilient cultivars, it is crucial to understand the molecular mechanisms underlying both resistance and susceptibility. In this study, we employed RNA-Seq analysis alongside machine learning techniques to identify key biomarkers associated with resistance to R. solani. We ranked differentially expressed genes (DEGs) using feature-weighting algorithms, such as Relief and kernel-based methods, to model expression patterns between sensitive and tolerant cultivars. Our integrative approach identified several candidate genes, including Bv5g001004 (encoding Ethylene-responsive transcription factor 1A), Bv8g000842 (encoding 5'-adenylylsulfate reductase 1), and Bv7g000949 (encoding Heavy metal-associated isoprenylated plant protein 5). These genes are involved in stress signal transduction, sulfur metabolism, and disease resistance pathways. Graphical visualizations of the Random Forest and Decision Tree models illustrated the decision-making processes and gene interactions, enhancing our understanding of the complex relationships between sensitive and tolerant genotypes. This study demonstrates the effectiveness of integrating RNA-Seq and machine learning techniques for biomarker discovery and highlights potential targets for developing R. solani-resistant sugar beet cultivars. The findings provide a robust framework for improving crop enhancement strategies and contribute to sustainable agricultural practices by increasing stress resilience in economically important crops.",
+    "keywords": [
+      "Biomarker",
+      "Crown and root rot",
+      "Machine-learning",
+      "Sugar beet"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Panahi, Bahman",
+        "Hassani, Mahdi",
+        "Hosseinzaeh Gharajeh, Nahid"
+      ],
+      "short_names": [
+        "Panahi B",
+        "Hassani M",
+        "Hosseinzaeh Gharajeh N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genomics, Branch for Northwest & West Region, Agricultural Biotechnology Research Institute of Iran (ABRII), Agricultural Research, Education and Extension Organization (AREEO), Tabriz, 5156915-598, Iran.",
+        "Sugar Beet Seed Institute (SBSI), Agricultural Research, Education and Extension Organization (AREEO), Karaj, Iran.",
+        "Department of Genomics, Branch for Northwest & West Region, Agricultural Biotechnology Research Institute of Iran (ABRII), Agricultural Research, Education and Extension Organization (AREEO), Tabriz, 5156915-598, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Panahi, Bahman",
+        "short_name": "Panahi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genomics, Branch for Northwest & West Region, Agricultural Biotechnology Research Institute of Iran (ABRII), Agricultural Research, Education and Extension Organization (AREEO), Tabriz, 5156915-598, Iran."
+        ]
+      },
+      {
+        "full_name": "Hassani, Mahdi",
+        "short_name": "Hassani M",
+        "identifiers": [],
+        "affiliations": [
+          "Sugar Beet Seed Institute (SBSI), Agricultural Research, Education and Extension Organization (AREEO), Karaj, Iran."
+        ]
+      },
+      {
+        "full_name": "Hosseinzaeh Gharajeh, Nahid",
+        "short_name": "Hosseinzaeh Gharajeh N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genomics, Branch for Northwest & West Region, Agricultural Biotechnology Research Institute of Iran (ABRII), Agricultural Research, Education and Extension Organization (AREEO), Tabriz, 5156915-598, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry and biophysics reports"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Rep"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/03 12:23",
+    "fetched_at": "2026-09-30 10:52:49"
+  },
+  "links": {
+    "cites": [
+      "41550501",
+      "41455738"
+    ],
+    "refs": [
+      "39360583",
+      "39033952",
+      "38155945",
+      "37631227",
+      "35037208",
+      "34411543",
+      "33118051",
+      "32305536",
+      "30319669",
+      "28605449",
+      "28220591",
+      "27867390",
+      "22531002",
+      "19289445",
+      "15087314",
+      "12519996"
+    ],
+    "similar": [
+      "39896110",
+      "31298993",
+      "30708416",
+      "33118051",
+      "32976076",
+      "30754477",
+      "33101330",
+      "30708502",
+      "33092522",
+      "26735061",
+      "35392815",
+      "33203383",
+      "35163289",
+      "26988094",
+      "30764106",
+      "30682924",
+      "37755420",
+      "30722409",
+      "39690418",
+      "14678160",
+      "26851388",
+      "30727144",
+      "33835827",
+      "16637155",
+      "29545813",
+      "35053047",
+      "37762614",
+      "27143412",
+      "35390443",
+      "31775274",
+      "30722263",
+      "16988927",
+      "39810092",
+      "37152751",
+      "32040759",
+      "30823195",
+      "30769532",
+      "30727960",
+      "34884073",
+      "35095959",
+      "32188400",
+      "30686175",
+      "22429863",
+      "20528187",
+      "34752135",
+      "38653098",
+      "28877263",
+      "36882678",
+      "21948851",
+      "35052429",
+      "40148497",
+      "30796712",
+      "36522558",
+      "37152145",
+      "35887471",
+      "31070911",
+      "30818443",
+      "30780680",
+      "36343463",
+      "38448714",
+      "28486484",
+      "21269732",
+      "16346925",
+      "30727449",
+      "40124895",
+      "36076993",
+      "37488485",
+      "33383813",
+      "21416283",
+      "33803511",
+      "29780371",
+      "31054140",
+      "27871873",
+      "33829282",
+      "39139817",
+      "30781144",
+      "39516509",
+      "39716086",
+      "37620786",
+      "37233256",
+      "37358618",
+      "35127990",
+      "19046420",
+      "40293550",
+      "37332716",
+      "30029184",
+      "35771710",
+      "40328901",
+      "29196814",
+      "37459955",
+      "34615378",
+      "32424446",
+      "31841100",
+      "37511417",
+      "38625509",
+      "39352506",
+      "34421980",
+      "33380327",
+      "427651",
+      "39884855"
+    ],
+    "review": [
+      "39896110",
+      "37358618"
+    ],
+    "pmc": [
+      "11787693"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-5808(25)00007-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39896110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

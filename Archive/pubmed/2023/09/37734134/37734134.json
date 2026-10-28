@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "37734134",
+    "doi": "10.1016/j.compbiolchem.2023.107955",
+    "title": "Graph Attention Network based mapping of knowledge relations between chemical spaces of Nuclear factor kappa B and Centella asiatica."
+  },
+  "content": {
+    "abstract": "The confounding nature of the innate immunity target Nuclear Factor kappa B (NF-kappaB) and its interaction with Centella asiatica (CA) molecules necessitate the intervention of advanced technologies, such as deep learning methods. The integration of chemical space concepts with deep learning technologies is a new way of knowledge mapping used to explore drug-target interactions, especially in molecular libraries derived from traditional medicine based molecular sources. The current constraint of virtual screening for mechanistic target hunting is the use of a binary classification model that includes active and inactive molecules from in vitro experiments to explore drug-target interaction. This study aims to explore the regulatory nature of the molecules from the inhibition and activation of the NF-kappaB bioassay data set and map this information for a knowledge-based analysis against the molecules of CA, a low-growing tropical plant. This finding has led to a new direction in the field, transitioning from the conventional active-inactive framework to a more comprehensive active-inactive-regulatory model. This approach can be thoroughly explored by leveraging a graph-based deep learning system. The study presents an innovative approach using a Graph Attention Network (GAT) to rank CA molecules in chemical space based on their similarity with NF-kappaB bioassay molecules, enabling the efficient analysis of complex relationships between molecules and their regulatory function. Graph Attention Network (GAT) overcomes the limitations of traditional deep learning models such as Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) in handling non-Euclidean graph data and allows for a more precise understanding of similarity ranking by utilizing molecular graphs and attention behavior. By measuring similarity and arranging a matrix of similarity ranking based on GAT, deep neural ranking-based algorithms confirmed the regulatory behaviour of an innate immunity target NF-kappaB with the support of underlying inverse mapping in the surjective chemical spaces of NF-kappaB bioassays and CA molecular spaces. Overall, the study introduces new techniques for exploring the regulatory behaviour of complex targets like NF-kappaB. We then used t-SNE for clustering in chemical space and scaffold hunting for scaffold property analysis and identified nine CA molecules that exhibit regulatory behavior of NF-kappaB target and are recommended for further investigation.",
+    "keywords": [
+      "Centella asiatica",
+      "Chemical space",
+      "Deep Learning",
+      "Graph Attention Network",
+      "Innate immunity",
+      "NF-kappaB",
+      "Traditional medicine"
+    ],
+    "mesh_terms": [
+      "*NF-kappa B",
+      "*Centella",
+      "Neural Networks, Computer",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "P, Vivek",
+        "Mohanan, Mithun",
+        "U K, Shajil",
+        "E Pa, Sandesh",
+        "U C A, Jaleel"
+      ],
+      "short_names": [
+        "P V",
+        "Mohanan M",
+        "U K S",
+        "E Pa S",
+        "U C A J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "UL Research Center, UL Cyber Park Calicut, India.",
+        "UL Research Center, UL Cyber Park Calicut, India.",
+        "GGHSS Balussery, India.",
+        "UL Research Center, UL Cyber Park Calicut, India.",
+        "OSPF-NIAS Drug DIscovery Lab, National Institute of Advanced Studies, Indian Institute of Science Campus, Bengaluru, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "P, Vivek",
+        "short_name": "P V",
+        "identifiers": [],
+        "affiliations": [
+          "UL Research Center, UL Cyber Park Calicut, India."
+        ]
+      },
+      {
+        "full_name": "Mohanan, Mithun",
+        "short_name": "Mohanan M",
+        "identifiers": [],
+        "affiliations": [
+          "UL Research Center, UL Cyber Park Calicut, India."
+        ]
+      },
+      {
+        "full_name": "U K, Shajil",
+        "short_name": "U K S",
+        "identifiers": [],
+        "affiliations": [
+          "GGHSS Balussery, India."
+        ]
+      },
+      {
+        "full_name": "E Pa, Sandesh",
+        "short_name": "E Pa S",
+        "identifiers": [],
+        "affiliations": [
+          "UL Research Center, UL Cyber Park Calicut, India."
+        ]
+      },
+      {
+        "full_name": "U C A, Jaleel",
+        "short_name": "U C A J",
+        "identifiers": [],
+        "affiliations": [
+          "OSPF-NIAS Drug DIscovery Lab, National Institute of Advanced Studies, Indian Institute of Science Campus, Bengaluru, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/21 18:41",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37734134",
+      "29747743",
+      "37295572",
+      "33706810",
+      "35578674",
+      "35181485",
+      "37630234",
+      "35156325",
+      "37161255",
+      "31013288",
+      "35380622",
+      "39175133",
+      "36063562",
+      "36430688",
+      "34311260",
+      "31443612",
+      "34294047",
+      "36589020",
+      "37005531",
+      "37028032",
+      "31288752",
+      "35077363",
+      "28358324",
+      "36155474",
+      "35883487",
+      "35398673",
+      "39052623",
+      "38035201",
+      "31483271",
+      "35029831",
+      "30525594",
+      "37915858",
+      "30415122",
+      "34099048",
+      "34471921",
+      "30146787",
+      "33243142",
+      "32804365",
+      "32321421",
+      "32367110",
+      "29023018",
+      "27068291",
+      "32217482",
+      "37318144",
+      "32588370",
+      "36519623",
+      "34661237",
+      "23644021",
+      "35144197",
+      "32783631",
+      "37807013",
+      "34411448",
+      "37839522",
+      "36070624",
+      "34146224",
+      "37631817",
+      "34350247",
+      "31979314",
+      "33307360",
+      "33856980",
+      "33187537",
+      "37952340",
+      "33430988",
+      "32281154",
+      "35279211",
+      "34918594",
+      "36328750",
+      "35872410",
+      "32786700",
+      "36086201",
+      "25562200",
+      "32695655",
+      "30860285",
+      "33052851",
+      "37497802",
+      "35511108",
+      "34571537",
+      "21143809",
+      "36737143",
+      "38781184",
+      "36959539",
+      "35062026",
+      "34929418",
+      "36758178",
+      "26792751",
+      "37993764",
+      "32631230",
+      "33982027",
+      "37856269",
+      "36171550",
+      "37078739",
+      "36219663",
+      "35409140",
+      "37480968",
+      "35598401",
+      "35845890",
+      "20457244",
+      "38766198",
+      "38899023",
+      "33430986",
+      "38955124",
+      "39261848",
+      "38650016",
+      "39145203",
+      "38739853",
+      "34445805",
+      "38020385",
+      "39061726",
+      "33916824",
+      "38447575",
+      "38706318",
+      "39307460",
+      "37973879",
+      "38635519",
+      "38306704",
+      "38125287",
+      "33996896",
+      "38884259",
+      "38457767",
+      "36378788",
+      "38979856",
+      "37984202",
+      "38953249",
+      "38362268",
+      "38198864",
+      "38785627",
+      "38398141",
+      "34361624",
+      "38773619",
+      "36192463",
+      "38655845",
+      "38264717",
+      "37126486",
+      "39314716",
+      "39056941",
+      "38284618",
+      "35872811",
+      "38718155",
+      "38125869",
+      "39086693",
+      "38300511",
+      "38042202",
+      "37362739",
+      "32885113",
+      "39264358",
+      "33905327",
+      "38293574",
+      "37463673",
+      "39133584",
+      "38466793",
+      "33796820",
+      "24587838",
+      "39025883",
+      "36515968",
+      "39333789",
+      "34805702",
+      "39026630",
+      "39065749",
+      "34123016",
+      "15625110",
+      "38828925",
+      "30596144",
+      "39049122",
+      "34094392",
+      "24980525",
+      "38188589",
+      "38267505",
+      "39056873",
+      "39259256",
+      "38177839",
+      "39343054",
+      "36776822",
+      "39430484"
+    ],
+    "review": [
+      "37734134",
+      "36155474",
+      "38035201",
+      "32804365",
+      "32217482",
+      "34918594",
+      "39307460",
+      "39314716",
+      "38284618",
+      "38300511",
+      "32885113",
+      "37463673",
+      "39065749"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(23)00146-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "34321355",
+    "doi": "10.1073/pnas.2104624118",
+    "title": "Single-particle diffusional fingerprinting: A machine-learning framework for quantitative analysis of heterogeneous diffusion."
+  },
+  "content": {
+    "abstract": "Single-particle tracking (SPT) is a key tool for quantitative analysis of dynamic biological processes and has provided unprecedented insights into a wide range of systems such as receptor localization, enzyme propulsion, bacteria motility, and drug nanocarrier delivery. The inherently complex diffusion in such biological systems can vary drastically both in time and across systems, consequently imposing considerable analytical challenges, and currently requires an a priori knowledge of the system. Here we introduce a method for SPT data analysis, processing, and classification, which we term \"diffusional fingerprinting.\" This method allows for dissecting the features that underlie diffusional behavior and establishing molecular identity, regardless of the underlying diffusion type. The method operates by isolating 17 descriptive features for each observed motion trajectory and generating a diffusional map of all features for each type of particle. Precise classification of the diffusing particle identity is then obtained by training a simple logistic regression model. A linear discriminant analysis generates a feature ranking that outputs the main differences among diffusional features, providing key mechanistic insights. Fingerprinting operates by both training on and predicting experimental data, without the need for pretraining on simulated data. We found this approach to work across a wide range of simulated and experimentally diverse systems, such as tracked lipases on fat substrates, transcription factors diffusing in cells, and nanoparticles diffusing in mucus. This flexibility ultimately supports diffusional fingerprinting's utility as a universal paradigm for SPT diffusional analysis and prediction.",
+    "keywords": [
+      "fingerprinting",
+      "fluorescence microscopy",
+      "machine learning",
+      "single-particle tracking",
+      "stochastic processes"
+    ],
+    "mesh_terms": [
+      "Computer Simulation",
+      "Diffusion",
+      "Image Interpretation, Computer-Assisted",
+      "*Machine Learning",
+      "Movement",
+      "Particle Size",
+      "Single Molecule Imaging/*methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pinholt, Henrik D",
+        "Bohr, Soren S-R",
+        "Iversen, Josephine F",
+        "Boomsma, Wouter",
+        "Hatzakis, Nikos S"
+      ],
+      "short_names": [
+        "Pinholt HD",
+        "Bohr SS",
+        "Iversen JF",
+        "Boomsma W",
+        "Hatzakis NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4345-5334",
+        "ORCID: 0000-0002-8107-2465",
+        "ORCID: 0000-0002-3338-5870",
+        "ORCID: 0000-0002-8257-3827",
+        "ORCID: 0000-0003-4202-0328"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Department of Computer Science, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark; hatzakis@chem.ku.dk.",
+        "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Novo Nordisk Foundation Centre for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, 2200 Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pinholt, Henrik D",
+        "short_name": "Pinholt HD",
+        "identifiers": [
+          "0000-0002-4345-5334"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bohr, Søren S-R",
+        "short_name": "Bohr SS",
+        "identifiers": [
+          "0000-0002-8107-2465"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Iversen, Josephine F",
+        "short_name": "Iversen JF",
+        "identifiers": [
+          "0000-0002-3338-5870"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Boomsma, Wouter",
+        "short_name": "Boomsma W",
+        "identifiers": [
+          "0000-0002-8257-3827"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Hatzakis, Nikos S",
+        "short_name": "Hatzakis NS",
+        "identifiers": [
+          "0000-0003-4202-0328"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Copenhagen, 2100 Copenhagen, Denmark; hatzakis@chem.ku.dk.",
+          "Nanoscience Center, University of Copenhagen, 2100 Copenhagen, Denmark.",
+          "Novo Nordisk Foundation Centre for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, 2200 Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Aug 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/30 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42649639",
+      "42222567",
+      "42198724",
+      "42041554",
+      "41981204",
+      "41630923",
+      "41613758",
+      "41517839",
+      "41450466",
+      "40847404",
+      "40671948",
+      "40575297",
+      "40341204",
+      "40014572",
+      "39413793",
+      "39390745",
+      "39201346",
+      "39102540",
+      "38561398",
+      "38548891",
+      "38409214",
+      "38285015",
+      "38014323",
+      "37885178",
+      "37589409",
+      "37383069",
+      "37294385",
+      "37233553",
+      "37189378",
+      "36977778",
+      "36853329",
+      "36555532",
+      "36349113",
+      "36344559",
+      "35987792"
+    ],
+    "refs": [
+      "33138911",
+      "33076015",
+      "32906821",
+      "32768408",
+      "32541966",
+      "32203387",
+      "31951121",
+      "31827087",
+      "31804792",
+      "31748591",
+      "31700110",
+      "31640019",
+      "31499844",
+      "31308553",
+      "31280841",
+      "31263753",
+      "31108610",
+      "30979809",
+      "30385635",
+      "30274829",
+      "30255886",
+      "30204178",
+      "30011544",
+      "29739927",
+      "29539390",
+      "29531063",
+      "29300163",
+      "29255047",
+      "29236694",
+      "29045395",
+      "28818576",
+      "28520419",
+      "28250941",
+      "27855781",
+      "27782457",
+      "27141816",
+      "26473352",
+      "26065707",
+      "25858664",
+      "25353527",
+      "25243599",
+      "24870718",
+      "24441936",
+      "23767572",
+      "23486058",
+      "23481518",
+      "23396281",
+      "23308365",
+      "23277561",
+      "23199912",
+      "21326200",
+      "20108965",
+      "19905793",
+      "17532228",
+      "17483157",
+      "16123137",
+      "15335725",
+      "12634793",
+      "8020964"
+    ],
+    "similar": [
+      "34321355",
+      "23912807",
+      "20553227",
+      "27224489",
+      "31674905",
+      "35103967",
+      "29300163",
+      "36066004",
+      "33076015",
+      "36977778",
+      "27283314",
+      "32324946",
+      "34019541",
+      "36050025",
+      "33788586",
+      "19657701",
+      "33086040",
+      "33749684",
+      "39201346",
+      "30356068",
+      "32138519",
+      "31280841",
+      "36344559",
+      "36670094",
+      "38409214",
+      "38225387",
+      "31860874",
+      "32871158",
+      "23429424",
+      "21960183",
+      "33744965",
+      "30489640",
+      "30768280",
+      "31770925",
+      "31030884",
+      "29044896",
+      "31545311",
+      "37885178",
+      "34235926",
+      "31259529",
+      "20409476",
+      "31589406",
+      "28520419",
+      "24102535",
+      "26511974",
+      "32203387",
+      "22083848",
+      "35689015",
+      "27810469",
+      "32246331",
+      "26478013",
+      "20632416",
+      "25661585",
+      "29753778",
+      "20055917",
+      "21311722",
+      "20866658",
+      "31658271",
+      "16783923",
+      "33567600",
+      "38014323",
+      "38352328",
+      "27141816",
+      "22060416",
+      "29317715",
+      "23267182",
+      "33502895",
+      "30358693",
+      "23037408",
+      "22500769",
+      "21961607",
+      "35186271",
+      "25099798",
+      "26706136",
+      "22010709",
+      "31033950",
+      "29124453",
+      "24885944",
+      "22161496",
+      "32403391",
+      "16603503",
+      "31640019",
+      "28924664",
+      "31584618",
+      "22211585",
+      "24259401",
+      "32401664",
+      "28902508",
+      "30790020",
+      "18358822",
+      "16447978",
+      "31879902",
+      "25103878",
+      "32247784",
+      "29083400",
+      "26176413",
+      "30274829",
+      "7811944",
+      "25418303",
+      "34270479",
+      "32152988",
+      "22947879",
+      "31580655",
+      "35867381",
+      "37853693",
+      "36300161",
+      "35758534",
+      "35171646",
+      "38510172",
+      "37646323",
+      "31235182",
+      "39390745",
+      "25144347",
+      "36314284",
+      "31748591",
+      "36880553",
+      "35044771",
+      "36418026",
+      "37043294",
+      "24263676"
+    ],
+    "review": [
+      "34321355",
+      "39201346",
+      "32871158",
+      "21960183",
+      "31589406",
+      "28520419",
+      "26511974",
+      "20632416",
+      "29753778",
+      "23267182",
+      "30790020",
+      "35758534",
+      "37646323"
+    ],
+    "pmc": [
+      "8346862"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2104624118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34321355/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34321355",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34321355",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

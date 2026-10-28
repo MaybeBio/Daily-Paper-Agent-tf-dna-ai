@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "41278762",
+    "doi": "10.1101/2025.10.15.680306",
+    "title": "Large Numbers of New Human Paralogs Discovered."
+  },
+  "content": {
+    "abstract": "The identification of paralogs is critical for understanding protein evolution, function, and for drug design, yet many human proteins remain unannotated and poorly classified. Sequence-based homology detection alone often fails to detect distant paralogs, especially in the \"twilight zone\" or beyond, regarding sequence identity. Here we present an integrated homolog detection framework that combines results from BLASTp, MMseqs2, Foldseek, and the large protein language model-based tool PROST, followed by validation based on comparison of structures and for enzymes comparison of the specific structures of the catalytic residues. Using all-versus-all exhaustive comparisons across the 20,647 human proteins, we systematically identify novel paralogs and assess their catalytic residues for two serine protease clans. We discovered 14 previously uncharacterized human serine carboxypeptidases, validated against experimentally determined PDB structures, with 11 of these displaying conserved catalytic triads. We further identify 203 new paralogs for human kinases, with 163 of these in the major clusters that represent previously uncharacterized kinase subtypes and 30 putative novel human transcription factors. Across both serine protease subtypes, structural alignments enable the prediction of the previously unknown catalytic residues for those lacking UniProt annotations of active site residues. By integrating sequence, structure, and LPLM embedding-based approaches, the framework enables the discovery of surprisingly large numbers of unknown paralogs, permitting defining catalytic residues, and expands the understanding of protein functional landscapes. These findings provide the foundation for a large number of future functional, evolutionary, and therapeutic investigations.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bk, Pradeep",
+        "Deng, Weixia",
+        "Hemmat, Mahsa Askary",
+        "Daniels, Issak",
+        "Jernigan, Robert L"
+      ],
+      "short_names": [
+        "Bk P",
+        "Deng W",
+        "Hemmat MA",
+        "Daniels I",
+        "Jernigan RL"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-5246-1470",
+        "ORCID: 0009-0008-5073-1967",
+        "ORCID: 0000-0002-0577-2777",
+        "ORCID: 0009-0003-1320-0845",
+        "ORCID: 0000-0003-0996-8360"
+      ],
+      "affiliations": [
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bk, Pradeep",
+        "short_name": "Bk P",
+        "identifiers": [
+          "0009-0008-5246-1470"
+        ],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA."
+        ]
+      },
+      {
+        "full_name": "Deng, Weixia",
+        "short_name": "Deng W",
+        "identifiers": [
+          "0009-0008-5073-1967"
+        ],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA."
+        ]
+      },
+      {
+        "full_name": "Hemmat, Mahsa Askary",
+        "short_name": "Hemmat MA",
+        "identifiers": [
+          "0000-0002-0577-2777"
+        ],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA."
+        ]
+      },
+      {
+        "full_name": "Daniels, Issak",
+        "short_name": "Daniels I",
+        "identifiers": [
+          "0009-0003-1320-0845"
+        ],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA."
+        ]
+      },
+      {
+        "full_name": "Jernigan, Robert L",
+        "short_name": "Jernigan RL",
+        "identifiers": [
+          "0000-0003-0996-8360"
+        ],
+        "affiliations": [
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology Bioinformatics and Computational Biology Program Iowa State University Ames, IA 50011 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:21",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41278762",
+      "42475469",
+      "22624962",
+      "31053072",
+      "16011798",
+      "36321557",
+      "20980272",
+      "41757035",
+      "36827259",
+      "33001599",
+      "29408627",
+      "23617634",
+      "42508035",
+      "27367670",
+      "26956673",
+      "27882067",
+      "26426731",
+      "32470749",
+      "15842167",
+      "26207888",
+      "11743721",
+      "37693436",
+      "40895204",
+      "19132080",
+      "41055214",
+      "42252783",
+      "41108546",
+      "26042329",
+      "16790052",
+      "28554670",
+      "18190718",
+      "39150724",
+      "20003388",
+      "10966778",
+      "32449511",
+      "23148689",
+      "19671178",
+      "37017580",
+      "17584917",
+      "42059635",
+      "42465297",
+      "12043562",
+      "42257422",
+      "31589960",
+      "22978315",
+      "19508719",
+      "24319146",
+      "15771780",
+      "18523562",
+      "9261067",
+      "35593869",
+      "39974886",
+      "12139929",
+      "26228684",
+      "42123473",
+      "41251348",
+      "37205395",
+      "19422056",
+      "24145433",
+      "30714210",
+      "41283681",
+      "40993375",
+      "11897020",
+      "26925779",
+      "28152981",
+      "20551136",
+      "12012339",
+      "41542461",
+      "20158924",
+      "34674638",
+      "40762489",
+      "11933065",
+      "15720711",
+      "14698301",
+      "19558651",
+      "21787303",
+      "42126889",
+      "7535613",
+      "20356358",
+      "27028938",
+      "9719646",
+      "25467293",
+      "41660100",
+      "18096640",
+      "22481248",
+      "42478686",
+      "30626675",
+      "23277537",
+      "23213528",
+      "19374129",
+      "19055796",
+      "26912949",
+      "19472362",
+      "37905033",
+      "22125392",
+      "28174315",
+      "42563495",
+      "40893250",
+      "39852593",
+      "32234211"
+    ],
+    "review": [
+      "41278762",
+      "36321557",
+      "33001599",
+      "26207888",
+      "26042329",
+      "39150724",
+      "42123473"
+    ],
+    "pmc": [
+      "12632886"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41278762/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.15.680306",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

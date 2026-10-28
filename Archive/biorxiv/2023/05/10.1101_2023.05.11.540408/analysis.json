@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.11.540408",
+  "title": "Accelerating the Characterization of Dynamic DNA Origami Devices with Deep Neural Networks",
+  "authors": "Yuchen Wang; Xin Jin; Carlos Castro",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-14",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习处理动态DNA折纸器件的构象表征，虽涉及DNA结构动态，但非蛋白质-DNA互作体系，且无结合位点或互作机制建模，仅工程应用，与课题关联较弱。",
+  "abstract": "Mechanical characterization of dynamic DNA nanodevices is essential to facilitate their use in applications like molecular diagnostics, force sensing, and nanorobotics that rely on device reconfiguration and interactions with other materials. A common approach to evaluate the mechanical properties of dynamic DNA nanodevices is by quantifying conformational distributions, where the magnitude of fluctuations correlates to the stiffness. This is generally carried out through manual measurement from experimental images, which is a tedious process and a critical bottleneck in the characterization pipeline. While many tools to support analysis of static of molecular structures, there is a need for tools to facilitate the rapid characterization of dynamic DNA devices that undergo large conformational fluctuations. Here, we develop a data processing pipeline based on Deep Neural Networks (DNNs) to address this problem. The YOLOv5 and Resnet50 network architecture were used for the two key subtasks: particle detection and pose (i.e. conformation) estimation. We demonstrate effective network performance (F1 score of 0.85 in particle detection) and good agreement with experimental distributions with limited user input and small training sets. We also demonstrate this pipeline can be applied to multiple nanodevices, providing a robust approach for the rapid characterization of dynamic DNA devices.",
+  "abstract_zh": "动态DNA纳米器件的力学表征对于促进其在分子诊断、力传感和纳米机器人等依赖器件重构及与其他材料相互作用的领域中的应用至关重要。评估动态DNA纳米器件力学性能的常用方法是通过量化构象分布，其中波动幅度与刚度相关。这通常通过从实验图像中手动测量完成，这是一个繁琐的过程，也是表征流程中的关键瓶颈。尽管已有许多工具支持静态分子结构的分析，但仍需工具来促进经历大幅构象波动的动态DNA器件的快速表征。在此，我们开发了一种基于深度神经网络（DNNs）的数据处理流程来解决这一问题。YOLOv5和Resnet50网络架构被用于两个关键子任务：粒子检测和姿态（即构象）估计。我们展示了有效的网络性能（粒子检测中F1分数为0.85），并在有限的用户输入和小训练集条件下与实验分布良好吻合。我们还证明该流程可应用于多种纳米器件，为动态DNA器件的快速表征提供了一种稳健的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540408",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.11.540408",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.11.540408/index.html"
+}

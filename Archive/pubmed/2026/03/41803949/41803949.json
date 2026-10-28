@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41803949",
+    "doi": "10.1186/s12967-026-07979-5",
+    "title": "SMC4/SMAD3/NF-kappaB axis drives cervical cancer progression and radioresistance via DNA damage repair and immune modulation."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Cervical cancer remains a significant global health burden, with the molecular determinants of its progression and therapeutic resistance not fully elucidated. This study aimed to identify DNA damage-related genes with prognostic and functional significance. METHODS: Four cervical cancer GEO datasets were integrated and batch-corrected. Differential expression analysis and WGCNA were performed. Machine learning algorithms (LASSO, SVM, and Random Forest) were used to refine key genes. Functional roles of the pivotal gene SMC4 were investigated using in vitro experiments, including proliferation, colony formation, 3D spheroid assays, phalloidin staining, cell-cycle analysis, immunofluorescence, and analysis of DNA damage and immune-associated pathways under ionizing radiation. RESULTS: Integration of transcriptomic data revealed 16 candidate genes. Machine learning convergence identified five core genes (CCNB2, CDKN2A, CHEK1, TYMS, and SMC4), all of which were significantly upregulated in tumors. Among these, SMC4 was uniquely associated with poor overall and disease-specific survival. Functional assays demonstrated that SMC4 knockdown under ionizing radiation significantly inhibited cervical cancer cell proliferation, colony formation, invasion, and reduced S-phase cells, and impaired DNA damage repair. Mechanistically, SMC4 was found to upregulate SMAD3, activate NF-kappaB signaling, and promote PD-L1 expression. Single-cell analysis confirmed SMC4's predominant expression in epithelial cells and its association with an altered tumor immune context. CONCLUSION: Our study identifies SMC4 as a regulator that promotes radioresistance and potentially modulates the tumor immune microenvironment in cervical cancer, likely by coordinating DNA damage repair and activating the SMAD3-NF-kappaB pathway. These findings suggest that SMC4 could be a potential therapeutic target for radiosensitization and a candidate biomarker for patient stratification.",
+    "keywords": [
+      "Cervical cancer",
+      "DNA damage repair",
+      "Immune evasion",
+      "Radioresistance",
+      "SMC4"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Uterine Cervical Neoplasms/pathology/genetics/immunology/radiotherapy",
+      "*Radiation Tolerance/genetics",
+      "*DNA Repair/radiation effects/genetics",
+      "*NF-kappa B/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "*DNA Damage",
+      "*Disease Progression",
+      "Cell Proliferation/genetics/radiation effects",
+      "*Signal Transduction",
+      "*Smad3 Protein/metabolism",
+      "Cell Line, Tumor",
+      "*Chromosomal Proteins, Non-Histone/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Haixia",
+        "Yu, Yilin",
+        "Wang, Wei",
+        "Xu, Qin"
+      ],
+      "short_names": [
+        "Wu H",
+        "Yu Y",
+        "Wang W",
+        "Xu Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, 350014, China. haixiawu.fjmu@foxmail.com.",
+        "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, 350014, China.",
+        "Department of Thoracic Surgery, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China.",
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, 350014, China. xuqin@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Haixia",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, 350014, China. haixiawu.fjmu@foxmail.com."
+        ]
+      },
+      {
+        "full_name": "Yu, Yilin",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, 350014, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qin",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital (Fujian Branch of Fudan University Shanghai Cancer Center), Fuzhou, 350014, China. xuqin@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Mar 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/10 07:00",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42440783"
+    ],
+    "refs": [
+      "40976049",
+      "40802284",
+      "40422251",
+      "39941131",
+      "39817679",
+      "39611440",
+      "39206965",
+      "38881031",
+      "38867450",
+      "38655783",
+      "38572751",
+      "38567159",
+      "37397551",
+      "36313645",
+      "36071479",
+      "35719936",
+      "34868977",
+      "33078399",
+      "33038491",
+      "31126321",
+      "30952665",
+      "29141660",
+      "29130882",
+      "28351613",
+      "27765066",
+      "27549193",
+      "25822800",
+      "24138885",
+      "24113773",
+      "23494221",
+      "23323831",
+      "19114008"
+    ],
+    "similar": [
+      "41803949",
+      "34480271",
+      "41716413",
+      "42477639",
+      "39799334",
+      "41075009",
+      "42202548",
+      "31488179",
+      "40616092",
+      "41740833",
+      "42486346",
+      "41932527",
+      "40603761",
+      "41025546",
+      "38940672",
+      "40910254",
+      "42635083",
+      "39113410",
+      "42573925",
+      "42143313",
+      "42396657",
+      "41436831",
+      "39672175",
+      "41834519",
+      "40817807",
+      "41782040",
+      "42096959",
+      "40976049",
+      "41862958",
+      "32401379",
+      "42568485",
+      "41530756",
+      "41838238",
+      "21464397",
+      "40539049",
+      "42336904",
+      "42030890",
+      "40604866",
+      "42192326",
+      "39055884",
+      "38010897",
+      "31208444",
+      "31703572",
+      "41857615",
+      "38970106",
+      "41662797",
+      "37213675",
+      "41413822",
+      "42260484",
+      "38493128",
+      "41790063",
+      "21640102",
+      "42013787",
+      "41306984",
+      "41351424",
+      "39181686",
+      "40596054",
+      "39988478",
+      "42120461",
+      "40133221",
+      "42479091",
+      "42260337",
+      "31046897",
+      "40713656",
+      "41655531",
+      "41307447",
+      "42589685",
+      "33782039",
+      "41580703",
+      "41504052",
+      "40764361",
+      "38685522",
+      "39380995",
+      "39404933",
+      "37449209",
+      "39905145",
+      "42097620",
+      "33187536",
+      "37016173",
+      "25501238",
+      "40124621",
+      "38934786",
+      "42547009",
+      "31626590",
+      "40933894",
+      "31038361",
+      "40229676",
+      "41703117",
+      "41293954",
+      "41182793",
+      "40999361",
+      "32066835",
+      "31235251",
+      "39423024",
+      "41857664",
+      "42539625",
+      "42262225",
+      "35180863",
+      "35414780",
+      "39944694"
+    ],
+    "review": [
+      "41803949",
+      "42013787"
+    ],
+    "pmc": [
+      "13085404"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-07979-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41803949/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-333",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

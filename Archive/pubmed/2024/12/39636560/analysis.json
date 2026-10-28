@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39636560",
+  "title": "Identification of Oxidative Stress-Related Genes in Hyperlipidemia Based on Bioinformatic Analysis.",
+  "authors": "Wang, Rongyanqi; Hao, Wenzhi; Sun, Yanqiu; Liang, Bin; Xue, Feifei",
+  "journal": "Molecular biotechnology",
+  "published_date": "2024-12-05",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据筛选高脂血症氧化应激相关基因并构建miRNA/TF/药物网络，属纯转录组生信分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Oxidative stress (OS) is thought to mediate the processes of glycolipid disorders of a number of metabolic diseases and recent data suggest that OS may be involved in the pathophysiology of hyperlipidemia. The gene expression profiles of hyperlipidemia samples were downloaded from the Gene Expression Omnibus (GEO) database. Oxidative stress-related genes (ORGs) was the intersection of all valid data of discovery dataset and the ORGs in Genecards. The Differentially expressed genes (DEGs) between hyperlipidemia and control samples were obtained via \"limma\" R package, and differentially expressed oxidative stress-related genes (DEORGs) associated with hyperlipidemia were screened via OS gene sets. Gene Ontology (GO) and Kyoto encyclopaedia of Genes and Genomes (KEGG) enrichment analyses were performed to study the biological function of DEORGs, and protein-protein interaction (PPI) network analysis was conducted to screen hub genes. Then we constructed microRNA (miRNA), transcription factor (TF) and drug component targets network to explain the regulatory mechanism of ORGs in hyperlipidemia. After screening and evaluating we took GSE1010 as the discovery dataset and the GSE13985 as the validation set. There were 395 ORGs and 14 DEORGs retained from the hyperlipidemia. GO and KEGG results showed that DEORGs were mostly related to OS and lipid metabolism. Then, we used miRNA, TF, and drug component targets network to reveal the regulatory mechanism of hub genes. Finally, we verified expression of DEGs and hub gene in validation set. Our study has further confirmed the relationships between OS and hyperlipidemia, providing oxidative stress-related hub genes with possible function analysis and pathways summarized. These molecules might play a crucial role in the progression of hyperlipidemia and serve as potential biomarkers and therapeutic targets, giving us additional insight into the genes and the mechanism linking the OS system and metabolic disorders. We have not only proved hyperlipidemia is associated with OS but also gave foundation and reference for future researches.",
+  "abstract_zh": "氧化应激（OS）被认为介导多种代谢疾病中糖脂代谢紊乱的过程，近期数据提示OS可能参与高脂血症的病理生理机制。从基因表达综合数据库（GEO）下载高脂血症样本的基因表达谱。氧化应激相关基因（ORGs）为发现数据集所有有效数据与Genecards中ORGs的交集。通过“limma”R包获取高脂血症与对照样本间的差异表达基因（DEGs），并利用OS基因集筛选与高脂血症相关的差异表达氧化应激相关基因（DEORGs）。进行基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析以研究DEORGs的生物学功能，并通过蛋白质-蛋白质相互作用（PPI）网络分析筛选核心基因。随后，我们构建了微RNA（miRNA）、转录因子（TF）和药物成分靶点网络，以解释ORGs在高脂血症中的调控机制。经过筛选和评估，我们以GSE1010作为发现数据集，GSE13985作为验证集。从高脂血症中保留了395个ORGs和14个DEORGs。GO和KEGG结果显示DEORGs主要与OS和脂质代谢相关。接着，我们利用miRNA、TF和药物成分靶点网络揭示核心基因的调控机制。最后，我们在验证集中验证了DEGs和核心基因的表达。我们的研究进一步证实了OS与高脂血症之间的关系，提供了氧化应激相关核心基因及其可能的功能分析和通路总结。这些分子可能在高脂血症进展中发挥关键作用，并作为潜在生物标志物和治疗靶点，为我们深入理解连接OS系统与代谢紊乱的基因及机制提供了额外见解。我们不仅证明了高脂血症与OS相关，也为未来研究提供了基础和参考。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39636560/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39636560/",
+  "paper_page_path": "papers/pubmed/39636560/index.html"
+}

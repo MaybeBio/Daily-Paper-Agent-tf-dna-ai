@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "42426013",
+    "doi": "10.1038/s41467-026-75395-w",
+    "title": "Deep Learning Predicts Dissimilar DNA-DNA Binding and Engineers Hyperconnected Networks."
+  },
+  "content": {
+    "abstract": "Common frameworks in molecular bioengineering and synthetic biology focus on orthogonality, viewing weak or non-specific interactions as problems to avoid. This constrains the usable sequence space, limits scalability, and neglects scenarios where synthetic systems must operate within natural backgrounds of high sequence diversity. Harnessing the full space is difficult because models are lacking that can accurately and quickly predict non-orthogonal interactions and be validated against ground truth data. Here we develop BINND - Binding and Interaction Neural Network for DNA - using DNA-DNA interactions as a testbed. BINND combines an ultra-high throughput platform measuring millions of interactions with a deep learning model attaining accuracies above 80%, generalizing across diverse sequences and running 50 times faster than current models. We demonstrate its value with a searchable DNA network of fictitious storybook characters. BINND enables accurate prediction for diagnostics, bioengineering, and DNA origami, supporting a shift toward exploiting the full sequence space.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry/genetics",
+      "*Deep Learning",
+      "Neural Networks, Computer",
+      "Synthetic Biology/methods",
+      "Bioengineering/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matange, Karishma",
+        "Brihadiswaran, Gunavaran",
+        "Tomek, Kyle J",
+        "Volkel, Kevin",
+        "Townsend, Doug",
+        "Tuck, James M",
+        "Keung, Albert J"
+      ],
+      "short_names": [
+        "Matange K",
+        "Brihadiswaran G",
+        "Tomek KJ",
+        "Volkel K",
+        "Townsend D",
+        "Tuck JM",
+        "Keung AJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3257-9083",
+        "ORCID: 0000-0002-4086-3607",
+        "ORCID: 0000-0002-2417-836X",
+        "ORCID: 0000-0001-8975-0294",
+        "ORCID: 0000-0001-8958-1232"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA.",
+        "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA. jtuck@ncsu.edu.",
+        "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA. ajkeung@ncsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matange, Karishma",
+        "short_name": "Matange K",
+        "identifiers": [
+          "0000-0002-3257-9083"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Brihadiswaran, Gunavaran",
+        "short_name": "Brihadiswaran G",
+        "identifiers": [
+          "0000-0002-4086-3607"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Tomek, Kyle J",
+        "short_name": "Tomek KJ",
+        "identifiers": [
+          "0000-0002-2417-836X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Volkel, Kevin",
+        "short_name": "Volkel K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Townsend, Doug",
+        "short_name": "Townsend D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Tuck, James M",
+        "short_name": "Tuck JM",
+        "identifiers": [
+          "0000-0001-8975-0294"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA. jtuck@ncsu.edu."
+        ]
+      },
+      {
+        "full_name": "Keung, Albert J",
+        "short_name": "Keung AJ",
+        "identifiers": [
+          "0000-0001-8958-1232"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, USA. ajkeung@ncsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jul 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/10 00:36",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41647563",
+      "40777742",
+      "40640156",
+      "40107552",
+      "39838028",
+      "38849350",
+      "38803270",
+      "37058876",
+      "36256971",
+      "34654863",
+      "34620843",
+      "34362913",
+      "34112775",
+      "33247151",
+      "33004967",
+      "32910644",
+      "32544247",
+      "31341284",
+      "31117362",
+      "29269020",
+      "29256499",
+      "28191938",
+      "28103878",
+      "27034378",
+      "25417166",
+      "24708278",
+      "23804754",
+      "23396014",
+      "22730293",
+      "22558529",
+      "21636773",
+      "21150903",
+      "20192780",
+      "19841628",
+      "19723688",
+      "19171886",
+      "17994724",
+      "17522673",
+      "16593049",
+      "15139820",
+      "14735121",
+      "11034217",
+      "9592156",
+      "9465037",
+      "9265640",
+      "8948641",
+      "8639506",
+      "3459152"
+    ],
+    "similar": [
+      "42426013",
+      "42475469",
+      "40183298",
+      "34905768",
+      "30423062",
+      "39214282",
+      "34550967",
+      "41920894",
+      "40105319",
+      "40914361",
+      "28155662",
+      "33051704",
+      "33837387",
+      "39270885",
+      "40889326",
+      "31186519",
+      "36430386",
+      "35652477",
+      "29617928",
+      "32936825",
+      "37723425",
+      "35511057",
+      "30087331",
+      "39709643",
+      "29404850",
+      "34534646",
+      "40914877",
+      "39407104",
+      "41102156",
+      "39708837",
+      "39509303",
+      "41257586",
+      "28414914",
+      "35073170",
+      "38976468",
+      "39236563",
+      "41290782",
+      "42099803",
+      "38486095",
+      "36517468",
+      "41300809",
+      "32711843",
+      "40840725",
+      "38643080",
+      "41564724",
+      "29219068",
+      "38725076",
+      "38084744",
+      "30941889",
+      "40981009",
+      "32355169",
+      "40121399",
+      "39133828",
+      "39667220",
+      "41739380",
+      "39695955",
+      "40102719",
+      "33137083",
+      "34399797",
+      "30864313",
+      "36360220",
+      "34571539",
+      "33169146",
+      "39103447",
+      "31324140",
+      "33952199",
+      "32770026",
+      "28245811",
+      "39747934",
+      "40399818",
+      "31221760",
+      "30071670",
+      "32804365",
+      "31881828",
+      "40683255",
+      "37214836",
+      "39714563",
+      "33600435",
+      "41309366",
+      "33741075",
+      "32171151",
+      "33234095",
+      "41259183",
+      "39102450",
+      "38336958",
+      "41238423",
+      "34073705",
+      "39763197",
+      "36447211",
+      "34073774",
+      "41392472",
+      "34112161",
+      "31372637",
+      "40037172",
+      "36510125",
+      "40991422",
+      "31634140",
+      "36462664",
+      "41172803",
+      "41910880"
+    ],
+    "review": [
+      "42426013",
+      "33051704",
+      "35652477",
+      "39708837",
+      "33169146",
+      "32804365",
+      "41309366",
+      "33234095",
+      "41910880"
+    ],
+    "pmc": [
+      "13478463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-75395-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42426013/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

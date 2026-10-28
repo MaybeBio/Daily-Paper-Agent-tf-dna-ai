@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose OCT1/POU2F1 as a therapeutic target in hepatocellular carcinoma, describe the design of a novel small molecule inhibitor (SMIO-1), and report evidence from molecular docking, point mutation studies, and functional assays indicating that SMIO-1 suppresses OCT1 activity and reduces HCC cell proliferation and metastasis
+- **Visible evidence base** Abstract text only; specific experimental details, quantitative results, and statistical analyses are not available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical methods, compound characterization data, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting therapeutic concept targeting OCT1 in HCC with a novel small molecule inhibitor. However, the evidence described is largely qualitative and lacks the quantitative detail necessary to evaluate the strength of the claims. Several key assertions, including the specificity of SMIO-1 for OCT1, the mechanistic basis of cofactor disruption, and the functional outcomes, are not supported by sufficient data in the provided material. The work may be of interest to the liver cancer and drug discovery communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in hepatocellular carcinoma biology, transcription factor targeted therapy, and small molecule drug discovery would be interested. The potential to target a transcription factor with a small molecule inhibitor is conceptually appealing and could have broader implications for other OCT1 expressing cancers.
+- **Major strengths** The abstract addresses an important clinical problem, namely the limited efficacy of current targeted therapies in HCC. The focus on OCT1 as a therapeutic target is relatively novel, and the use of molecular docking combined with point mutation validation is a reasonable approach to support direct interaction. The reported functional outcomes, including repression of proliferation and metastasis, are clinically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that SMIO-1 is a novel small molecular inhibitor of OCT1 and that its interaction with OCT1 was confirmed via point mutation
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that interaction between SMIO-1 and OCT1 was confirmed via OCT1 point mutation, but no details are given regarding which residues were mutated, how the interaction was measured, or what controls were used. Without this information, the claim of direct binding is not verifiable.
+  - **Why it matters** Direct target engagement is the foundational claim of the study. If the interaction is not rigorously demonstrated, all downstream functional effects attributed to OCT1 inhibition are questionable.
+  - **Resolution test** Provide experimental details of the point mutation study, including the specific residues, assay type, binding affinity or functional readout, and appropriate negative controls. Show that mutation of the predicted binding site abolishes or significantly reduces SMIO-1 activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract claims that SMIO-1 represses OCT1 transcription factor activation by disrupting the interaction between OCT1 and its cofactors
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The mechanism of cofactor disruption is stated without any supporting data. It is unclear which cofactors are involved, how the disruption was measured, and whether this effect is specific to OCT1 or a general consequence of SMIO-1 treatment.
+  - **Why it matters** The proposed mechanism is central to the therapeutic rationale. Without evidence for cofactor disruption, the mode of action remains speculative.
+  - **Resolution test** Identify the specific cofactors, provide data from co-immunoprecipitation or similar assays showing reduced interaction upon SMIO-1 treatment, and demonstrate specificity using a control compound or a mutant OCT1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The abstract claims that SMIO-1 represses proliferation and metastasis of HCC cells and inhibits downstream genes
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative data are provided. There are no IC50 values, no effect sizes, no statistical significance values, and no information on the number of cell lines or experimental replicates. The claim of metastasis repression is particularly strong and requires in vitro and ideally in vivo evidence.
+  - **Why it matters** Without quantitative data, the magnitude and reproducibility of the effects cannot be assessed. The clinical relevance of the findings depends on the strength and consistency of the functional data.
+  - **Resolution test** Provide dose response curves, statistical comparisons, and data from multiple HCC cell lines. For metastasis, include migration and invasion assays with quantitative results, and if available, in vivo data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clinical correlation
+  - **Affected element** OCT1 expression and prognosis
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that higher OCT1 is associated with poorer prognosis in advanced HCC patients undergoing sorafenib treatment, but no statistical measures or cohort details are given.
+  - **Required correction** Provide hazard ratios, confidence intervals, p values, and a description of the patient cohort and analysis method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** SMIO-1
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not mention the chemical structure, purity, solubility, or any physicochemical properties of SMIO-1.
+  - **Required correction** Include basic compound characterization data and, if available, a structural figure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** OCT1 inhibition
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not address whether SMIO-1 affects other POU family transcription factors or unrelated targets.
+  - **Required correction** Provide selectivity data against related transcription factors or a broader panel of targets.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate, as targeting OCT1 in HCC is not widely explored, but the concept of transcription factor inhibition is not new. Scientific importance is potentially high if the therapeutic effect is robust, but the current evidence is insufficient to judge. Interdisciplinary readership is plausible, spanning oncology, pharmacology, and chemical biology. Technical soundness cannot be assessed from the abstract alone, and the lack of quantitative data is a major limitation. Readability for nonspecialists is acceptable, but the abstract is too brief to convey the necessary technical detail.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising direction, but the claims require substantial additional experimental detail and quantitative support before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that SMIO-1 is a novel inhibitor of OCT1 is unsupported without compound characterization and direct binding data.
+- The claim that SMIO-1 disrupts OCT1 cofactor interaction is unsupported without mechanistic experiments.
+- The claim that SMIO-1 represses proliferation and metastasis is unsupported without quantitative functional data.
+- The clinical correlation between OCT1 expression and prognosis is unverifiable without statistical details.
+- The overall therapeutic promise of SMIO-1 for HCC treatment is not established from the abstract alone.

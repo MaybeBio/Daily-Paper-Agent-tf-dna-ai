@@ -1,0 +1,416 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.13.499873",
+  "title": "Lokatt: A hybrid DNA nanopore basecaller with an explicit duration hidden Markov model and a residual LSTM network",
+  "doi": "10.1101/2022.07.13.499873",
+  "abstract": "Background Basecalling long DNA sequences is a crucial step in nanopore-based DNA sequencing protocols. In recent years, the CTC-RNN model has become the leading basecalling model, supplanting preceding hidden Markov models (HMMs) that relied on pre-segmenting ion current measurements. However, the CTC-RNN model operates independently of prior biological and physical insights. Results We present a novel basecaller named Lokatt : exp l icit durati o n Mar k ov model and residu a l-LS T M ne t work. It leverages an explicit duration HMM (EDHMM) designed to model the nanopore sequencing processes. Trained on a newly generated library with methylation-free Ecoli samples and MinION R 9 . 4 . 1 chemistry, the Lokatt basecaller achieves basecalling performances with a median single read identity score of 0 . 930 , a genome coverage ratio of 99 . 750% , on par with existing state-of-the-art structure when trained on the same datasets. Conclusion Our research underlines the potential of incorporating prior knowledge into the basecalling processes, particularly through integrating HMMs and recurrent neural networks. The Lokatt basecaller showcases the efficacy of a hybrid approach, emphasizing its capacity to achieve high-quality basecalling performance while accommodating the nuances of nanopore sequencing. These outcomes pave the way for advanced basecalling methodologies, with potential implications for enhancing the accuracy and efficiency of nanopore-based DNA sequencing protocols. Supplementary information Supplementary data are available online.",
+  "authors": [
+    "Xuechun Xu",
+    "Nayanika Bhalla",
+    "Patrik Ståhl",
+    "Joakim Jaldén"
+  ],
+  "published_date": "2022-07-14",
+  "updated_date": "2022-07-15T03:10:22Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499873",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499873.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:12:10Z",
+        "timestamp": 1768500730469,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            14
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 41,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Basecalling long DNA sequences is a crucial step in nanopore-based DNA sequencing protocols. In recent years, the CTC-RNN model has become the leading basecalling model, supplanting preceding hidden Markov models (HMMs) that relied on pre-segmenting ion current measurements. However, the CTC-RNN model operates independently of prior biological and physical insights.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We present a novel basecaller named\n                    <jats:bold>Lokatt</jats:bold>\n                    : exp\n                    <jats:underline>l</jats:underline>\n                    icit durati\n                    <jats:underline>o</jats:underline>\n                    n Mar\n                    <jats:underline>k</jats:underline>\n                    ov model and residu\n                    <jats:underline>a</jats:underline>\n                    l-LS\n                    <jats:underline>T</jats:underline>\n                    M ne\n                    <jats:underline>t</jats:underline>\n                    work. It leverages an explicit duration HMM (EDHMM) designed to model the nanopore sequencing processes. Trained on a newly generated library with methylation-free Ecoli samples and MinION R\n                    <jats:bold>9</jats:bold>\n                    .\n                    <jats:bold>4</jats:bold>\n                    .\n                    <jats:bold>1</jats:bold>\n                    chemistry, the Lokatt basecaller achieves basecalling performances with a median single read identity score of\n                    <jats:bold>0</jats:bold>\n                    .\n                    <jats:bold>930</jats:bold>\n                    , a genome coverage ratio of\n                    <jats:bold>99</jats:bold>\n                    .\n                    <jats:bold>750%</jats:bold>\n                    , on par with existing state-of-the-art structure when trained on the same datasets.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Our research underlines the potential of incorporating prior knowledge into the basecalling processes, particularly through integrating HMMs and recurrent neural networks. The Lokatt basecaller showcases the efficacy of a hybrid approach, emphasizing its capacity to achieve high-quality basecalling performance while accommodating the nuances of nanopore sequencing. These outcomes pave the way for advanced basecalling methodologies, with potential implications for enhancing the accuracy and efficiency of nanopore-based DNA sequencing protocols.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available online.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.07.13.499873",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2022-07-15T03:10:22Z",
+        "timestamp": 1657854622000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Lokatt: A hybrid DNA nanopore basecaller with an explicit duration hidden Markov model and a residual LSTM network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1850-0946",
+          "authenticated-orcid": false,
+          "given": "Xuechun",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6800-0432",
+          "authenticated-orcid": false,
+          "given": "Nayanika",
+          "family": "Bhalla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2207-7370",
+          "authenticated-orcid": false,
+          "given": "Patrik",
+          "family": "Ståhl",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6630-243X",
+          "authenticated-orcid": false,
+          "given": "Joakim",
+          "family": "Jaldén",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3423"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-016-1103-0"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1495"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbaa403"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-021-01108-x"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/mgen.0.000910"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1462-9"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13768"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3444"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.12688/f1000research.7201.1"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4189"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giy037"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.13",
+          "unstructured": "plc., O.N.T.: Nanoporetech/bonito: A Pytorch basecaller for Oxford Nanopore reads. https://github.com/nanoporetech/bonito (2020)"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2019.01332"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BIBM49941.2020.9313290"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCBB.2020.3039244"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.17",
+          "unstructured": "Ashish, V. , Noam, S. , Niki, P. , Jakob, U. , Llion, J. N G.A. , Lukasz, K. , Illia, P. : Attention is all you need 30 (2017)"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa953"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1711282114"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1727-y"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-10-5122-761"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2016.00020"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSP.2006.872540"
+        },
+        {
+          "issue": "1–2",
+          "key": "2023101908200689000_2022.07.13.499873v3.24",
+          "first-page": "1",
+          "article-title": "Graphical models, exponential families, and variational inference",
+          "volume": "1",
+          "year": "2008",
+          "journal-title": "Foundations and Trends® in Machine Learning"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.25",
+          "first-page": "140",
+          "volume-title": "In: Proceedings of the 12th IAPR International Conference on Pattern Recognition, Vol. 3-Conference C: Signal Processing (Cat. No. 94CH3440-5)",
+          "volume": "2",
+          "year": "1994"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.26",
+          "unstructured": "Riis, S. : Hidden Markov Models and Neural Networks for Speech Recognition. Technical University of Denmark [Department of Mathematical Modeling], ??? (1998)"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2305.11752"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-46493-038"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.650093"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1710.05941"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1702.03118"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2012.0021"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty191"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.34",
+          "unstructured": "Nvidia Vingelmann, P. , Fitzek, F.H.P. : CUDA, release: 10.2.89 (2020). https://developer.nvidia.com/cuda-toolkit"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.35",
+          "unstructured": "Abadi, M. , Agarwal, A. , Barham, P. , Brevdo, E. , Chen, Z. , Citro, C. , Corrado, G.S. , Davis, A. , Dean, J. , Devin, M. , Ghemawat, S. , Goodfellow, I. , Harp, A. , Irving, G. , Isard, M. , Jia, Y. , Jozefowicz, R. , Kaiser, L. , Kudlur, M. , Levenberg, J. , Mané, D. , Monga, R. , Moore, S. , Murray, D. , Olah, C. , Schuster, M. , Shlens, J. , Steiner, B. , Sutskever, I. , Talwar, K. , Tucker, P. , Vanhoucke, V. , Vasudevan, V. , Viégas, F. , Vinyals, O. , Warden, P. , Wattenberg, M. , Wicke, M. , Yu, Y. , Zheng, X. : TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. Software available from tensorflow.org (2015). https://www.tensorflow.org/"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.36",
+          "unstructured": "Diederik, K. , Jimmy, B. : Adam: A method for stochastic optimization. International Conference on Learning Representations (2014)"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1468075.1468121"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/375360.375365"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.39",
+          "unstructured": "John, L. , Andrew, M. C.N. P.F. : Conditional random fields: Probabilistic models for segmenting and labeling sequence (2001)"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0072-8"
+        },
+        {
+          "key": "2023101908200689000_2022.07.13.499873v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt086"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.07.13.499873",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:21:46Z",
+        "timestamp": 1768447306000
+      },
+      "score": 82.154366,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.07.13.499873"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            14
+          ]
+        ]
+      },
+      "references-count": 41,
+      "URL": "https://doi.org/10.1101/2022.07.13.499873",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s12859-023-05580-x",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

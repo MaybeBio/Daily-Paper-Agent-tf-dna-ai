@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, results, discussion) without supplementary figures or tables
+- **Assessment boundary** Technical soundness, methodological novelty, experimental validation, and clarity of claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose SFINN, a supervised deep learning framework combining a graph convolutional network and a fully connected neural network, to infer gene regulatory interactions and causal relationships from single-cell and spatial transcriptomic data. The method constructs cell–cell adjacency networks using a shared factor neighborhood strategy for expression data and integrates spatial location information when available. Performance is evaluated against existing GRN inference methods across eight single-cell and five spatial transcriptomic datasets.
+- **Visible evidence base** Main text sections 1–4, including dataset descriptions, method formulations, and reported performance metrics (AUROC/AUPRC) as described in text; references to Supplementary Figures S1–S32 and Tables 1 are noted but not directly inspectable
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S32, Table 1) are referenced but not provided; detailed hyperparameter settings, training procedures, and computational resource requirements are not fully specified; code repository is mentioned but not reviewed
+
+## Reviewer
+- **Overall assessment** The manuscript presents a reasonable and potentially useful contribution to the GRN inference field, combining established components (SFN, GCN, fully connected networks) in a supervised framework that can handle both single-cell and spatial transcriptomic data. The motivation is clear, and the evaluation across multiple datasets is commendable. However, the technical novelty is incremental, and several methodological details and validation aspects require clarification to fully establish the claimed advantages. The evidence presented in the text supports the feasibility of the approach, but the strength of the claims regarding superiority over existing methods is not fully substantiated without access to the supplementary results and statistical significance testing.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, particularly those interested in applying deep learning to single-cell and spatial transcriptomic data. The method's ability to integrate spatial information may also appeal to researchers studying tissue architecture and cell–cell communication.
+- **Major strengths** (1) The integration of spatial location information with expression-derived cell neighborhoods is a relevant and timely extension. (2) The evaluation across multiple datasets and tasks (interaction and causality) provides a broad assessment. (3) The ablation studies (Sections 3.7.1–3.7.3) are a good practice to isolate the contribution of key components. (4) The manuscript is generally well-written and accessible to a nonspecialist audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that SFINN "exhibits competitiveness and robustness" and "significantly outperforms" other methods on certain datasets (Sections 3.2–3.4).
+  - **Evidence pointer** Sections 3.2–3.4; Supplementary Figures S1–S26 (not provided)
+  - **Concern** The performance comparisons are described qualitatively in the text (e.g., "performs the best overall," "significantly outperforms"), but no statistical significance testing (e.g., paired tests across folds or datasets) is reported. The magnitude of differences and variability across cross-validation folds are not presented in the main text.
+  - **Why it matters** Without statistical assessment, it is unclear whether the observed performance differences are robust or within noise, especially given the small number of datasets and potential variability in GRN inference benchmarks.
+  - **Resolution test** Provide statistical significance tests (e.g., Wilcoxon signed-rank test across datasets or folds) for AUROC/AUPRC comparisons, and report mean ± standard deviation or confidence intervals for each method on each dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method is described as a "novel deep learning framework based on shared factor neighborhood and integrated neural network" (Abstract, Section 1).
+  - **Evidence pointer** Sections 2.3–2.4
+  - **Concern** The novelty is incremental. SFN is an existing method (Welch et al. 2019), and the combination of GCN and fully connected networks for GRN inference has been explored in prior work (e.g., CNNC, GCNG). The specific contribution of SFINN—beyond combining these components—is not clearly articulated. The manuscript does not discuss how SFINN differs conceptually from GCNG, which also uses a GCN with spatial information.
+  - **Why it matters** For a methods paper, the novelty claim is central. If the contribution is primarily an engineering combination, this should be stated explicitly, and the advantages over existing deep learning GRN methods should be demonstrated more rigorously.
+  - **Resolution test** Clearly delineate the novel aspects of SFINN (e.g., the specific use of SFN for neighborhood construction, the fusion strategy) and provide a direct comparison with GCNG and CNNC in terms of architecture and performance, highlighting where SFINN provides unique benefits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The method is claimed to be accessible via GitHub (Availability section), and the training/testing strategy is described in Section 2.2.
+  - **Evidence pointer** Section 2.2; Availability section
+  - **Concern** The manuscript does not specify key hyperparameters (e.g., learning rate, number of epochs, batch size, optimizer, dropout rates, number of hidden units in GCN and fully connected layers) or the computational resources required. The code repository is mentioned but not described in terms of dependencies or usage.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, other researchers cannot reliably implement or validate SFINN.
+  - **Resolution test** Provide a table of hyperparameters and training details in the main text or supplement, and ensure the GitHub repository includes clear documentation, dependencies, and example usage.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation rigor
+  - **Claim pointer** The manuscript claims that SFINN can predict "novel gene regulations" based on external database validation (Section 3.6).
+  - **Evidence pointer** Section 3.6; Supplementary Figure S31 (not provided)
+  - **Concern** The validation of novel predictions relies on a single external database (Harmonizome) and is limited to two TFs (ZNF143 and TBP). The criteria for selecting these TFs and the threshold for "top 10" predictions are not fully justified. The biological relevance of the validated interactions is not discussed in depth.
+  - **Why it matters** The claim of predicting novel regulations is a strong one that requires robust validation. A single database and a small set of TFs may not be sufficient to establish generalizability.
+  - **Resolution test** Expand the validation to more TFs and multiple independent databases or experimental evidence. Provide a more detailed analysis of the predicted novel interactions, including functional enrichment or literature support.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation (4)
+  - **Evidence pointer** Section 2.4
+  - **Issue** The loss function equation appears to have a formatting error: the term "1-log(1-SFINN(x))" is written as "(1-y_i)∑(y_i/(1-log(1-SFINN(x))))", which is ambiguous and likely incorrect.
+  - **Required correction** Rewrite the loss function clearly, e.g., L = -∑[y_i log(p_i) + (1-y_i) log(1-p_i)], where p_i = SFINN(x_i).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the SFN strategy is brief and assumes prior knowledge. A brief explanation of how the "shared factor neighborhood" is computed (e.g., the role of the factor with highest expression) would improve accessibility.
+  - **Required correction** Add a concise explanation of the SFN algorithm or refer readers to the original publication with a summary of the key steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text states "the corresponding ROC and PR curves of each method are shown as Supplementary Figs S1–S8" but does not summarize the key patterns or exceptions in the main text, making it hard for readers to interpret the results without accessing the supplement.
+  - **Required correction** Briefly describe the overall trends and any notable outliers or dataset-specific behaviors in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The preprocessing steps for the datasets (e.g., normalization, filtering, gene selection) are not described in the main text, only referenced to the supplement.
+  - **Required correction** Provide a brief summary of preprocessing steps in the main text or ensure the supplement contains complete details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical significance testing) and R1-M3 (insufficient reproducibility details) are the most critical. R1-M2 (novelty articulation) also needs to be addressed to clarify the contribution.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of SFN with a GCN and fully connected network is a reasonable extension, but the individual components are established. The manuscript does not clearly articulate a fundamentally new concept or mechanism.
+  - **Scientific importance** Moderate to high. GRN inference from single-cell and spatial data is an important problem, and methods that integrate spatial information are timely. However, the demonstrated improvements over existing methods are incremental based on the text.
+  - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational biologists and bioinformaticians. The biological insights are limited, and the method is not presented in a way that would attract a broad biological audience.
+  - **Technical soundness** The approach is technically plausible, but the lack of statistical validation and incomplete methodological details weaken the case. The ablation studies are a positive aspect.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the motivation is clear. However, some methodological sections (e.g., SFN, loss function) could be clearer for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The method has potential utility, but the current evidence does not fully establish its claimed advantages. Addressing the statistical rigor, reproducibility, and novelty articulation would strengthen the case.
+
+## Risk / unsupported claims
+- The claim that SFINN "significantly outperforms" other methods is not supported by statistical tests in the provided text.
+- The claim of predicting "novel gene regulations" is based on limited validation (two TFs, one database) and is not fully substantiated.
+- The assertion that SFINN is "robust" to sample size is based on qualitative observations of supplementary figures, which are not provided for verification.
+- The novelty of the framework relative to existing deep learning GRN methods (e.g., GCNG) is not clearly established.

@@ -1,0 +1,140 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.27.497767",
+  "title": "Prediction of mammalian tissue-specific CLOCK-BMAL1 binding to E-box motifs",
+  "doi": "10.1101/2022.06.27.497767",
+  "abstract": "<h4>ABSTRACT</h4> The mammalian circadian clock is based on a core intracellular gene regulatory network, coordinated by communication between the central nervous system and peripheral tissues like the liver. Transcriptional and translational feedback loops underlie the molecular mechanism of circadian oscillation and generate its 24 h periodicity. The Brain and muscle Arnt-like protein-1 (Bmal1) forms a heterodimer with Circadian Locomotor Output Cycles Kaput (Clock) that binds to E-box gene regulatory elements, activating transcription of clock genes. In this work we aimed to develop a predictive model of genome-wide CLOCK-BMAL1 binding to E-box motifs. We found over-representation of the canonical E-box motif CACGTG in BMAL1-bound regions in accessible chromatin of the mouse liver, heart and kidney. We developed three different tissue-specific machine learning models based on DNA sequence, DNA sequence plus DNA shape, and DNA sequence and shape plus histone modifications. Combining DNA sequence with DNA shape and histone modification features yielded improved transcription factor binding site prediction. Further, we identified the genomic and epigenomic features that best correlate to the binding of BMAL1 to DNA. The DNA shape features Electrostatic Potential, Minor Groove Width and Propeller Twist together with the histone modifications H3K27ac, H3K4me1, H3K36me3, and H3K4me3 were the features most highly predictive of DNA binding by BMAL1 across all three tissues.",
+  "authors": [
+    "Marri D",
+    "Filipovic D",
+    "Kana O",
+    "Tischkau S",
+    "Bhattacharya S"
+  ],
+  "published_date": "2022-06-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497767",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497767.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR512340",
+    "raw_record": {
+      "id": "PPR512340",
+      "source": "PPR",
+      "doi": "10.1101/2022.06.27.497767",
+      "title": "Prediction of mammalian tissue-specific CLOCK-BMAL1 binding to E-box motifs",
+      "authorString": "Marri D, Filipovic D, Kana O, Tischkau S, Bhattacharya S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Marri D",
+            "lastName": "Marri",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Filipovic D",
+            "lastName": "Filipovic",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4421-1654"
+            }
+          },
+          {
+            "fullName": "Kana O",
+            "lastName": "Kana",
+            "firstName": "Omar",
+            "initials": "O"
+          },
+          {
+            "fullName": "Tischkau S",
+            "lastName": "Tischkau",
+            "firstName": "Shelley",
+            "initials": "S"
+          },
+          {
+            "fullName": "Bhattacharya S",
+            "lastName": "Bhattacharya",
+            "firstName": "Sudin",
+            "initials": "S"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7109-1566"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4421-1654"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  The mammalian circadian clock is based on a core intracellular gene regulatory network, coordinated by communication between the central nervous system and peripheral tissues like the liver. Transcriptional and translational feedback loops underlie the molecular mechanism of circadian oscillation and generate its 24 h periodicity. The Brain and muscle Arnt-like protein-1 (Bmal1) forms a heterodimer with Circadian Locomotor Output Cycles Kaput (Clock) that binds to E-box gene regulatory elements, activating transcription of clock genes. In this work we aimed to develop a predictive model of genome-wide CLOCK-BMAL1 binding to E-box motifs. We found over-representation of the canonical E-box motif  CACGTG in BMAL1-bound regions in accessible chromatin of the mouse liver, heart and kidney. We developed three different tissue-specific machine learning models based on DNA sequence, DNA sequence plus DNA shape, and DNA sequence and shape plus histone modifications. Combining DNA sequence with DNA shape and histone modification features yielded improved transcription factor binding site prediction. Further, we identified the genomic and epigenomic features that best correlate to the binding of BMAL1 to DNA. The DNA shape features Electrostatic Potential, Minor Groove Width and Propeller Twist together with the histone modifications H3K27ac, H3K4me1, H3K36me3, and H3K4me3 were the features most highly predictive of DNA binding by BMAL1 across all three tissues.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.27.497767.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.06.27.497767"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-02",
+      "firstPublicationDate": "2022-06-30",
+      "firstIndexDate": "2022-07-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "38712066",
+    "doi": "10.1101/2024.04.25.591174",
+    "title": "Predicting gene expression responses to environment in Arabidopsis thaliana using natural variation in DNA sequence."
+  },
+  "content": {
+    "abstract": "The evolution of gene expression responses is a critical component of adaptation to variable environments. Predicting how DNA sequence influences expression is challenging because the genotype to phenotype map is not well resolved for cis regulatory elements, transcription factor binding, regulatory interactions, and epigenetic features, not to mention how these factors respond to environment. We tested if flexible machine learning models could learn some of the underlying cis-regulatory genotype to phenotype map. We tested this approach using cold-responsive transcriptome profiles in 5 diverse Arabidopsis thaliana accessions. We first tested for evidence that cis regulation plays a role in environmental response, finding 14 and 15 motifs that were significantly enriched within the up- and down-stream regions of cold-responsive differentially regulated genes (DEGs). We next applied convolutional neural networks (CNNs), which learn de novo cis-regulatory motifs in DNA sequences to predict expression response to environment. We found that CNNs predicted differential expression with moderate accuracy, with evidence that predictions were hindered by biological complexity of regulation and the large potential regulatory code. Overall, approaches to predict DEGs between specific environments based only on proximate DNA sequences require further development, and additional information may be required.",
+    "keywords": [
+      "evolution",
+      "gene expression prediction",
+      "genotype to phenotype map",
+      "low frequency variants",
+      "machine learning",
+      "regulatory elements"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takou, Margarita",
+        "Bellis, Emily S",
+        "Lasky, Jesse R"
+      ],
+      "short_names": [
+        "Takou M",
+        "Bellis ES",
+        "Lasky JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6066-1466"
+      ],
+      "affiliations": [
+        "Pennsylvania State University, University Park, 16802, USA.",
+        "Pennsylvania State University, University Park, 16802, USA.",
+        "Department of Computer Science, Arkansas State University, Jonesboro AR.",
+        "Pennsylvania State University, University Park, 16802, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takou, Margarita",
+        "short_name": "Takou M",
+        "identifiers": [],
+        "affiliations": [
+          "Pennsylvania State University, University Park, 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Bellis, Emily S",
+        "short_name": "Bellis ES",
+        "identifiers": [
+          "0000-0001-6066-1466"
+        ],
+        "affiliations": [
+          "Pennsylvania State University, University Park, 16802, USA.",
+          "Department of Computer Science, Arkansas State University, Jonesboro AR."
+        ]
+      },
+      {
+        "full_name": "Lasky, Jesse R",
+        "short_name": "Lasky JR",
+        "identifiers": [],
+        "affiliations": [
+          "Pennsylvania State University, University Park, 16802, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/07 06:42",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "41620995"
+    ],
+    "refs": [
+      "38997252",
+      "38289961",
+      "38036778",
+      "37733863",
+      "37528982",
+      "37036986",
+      "37002860",
+      "36973806",
+      "36805962",
+      "36683406",
+      "36608347",
+      "36462664",
+      "35799371",
+      "35460234",
+      "35258588",
+      "35226744",
+      "35046575",
+      "34918159",
+      "34865154",
+      "34791192",
+      "34735005",
+      "34606492",
+      "34583930",
+      "34322657",
+      "33760053",
+      "33658387",
+      "33575601",
+      "33565589",
+      "33413545",
+      "32321158",
+      "31986354",
+      "31937681",
+      "31781160",
+      "31551359",
+      "31420517",
+      "30842277",
+      "30561727",
+      "30358892",
+      "30092410",
+      "29532920",
+      "29300935",
+      "29203652",
+      "28338820",
+      "28096395",
+      "28044345",
+      "27432888",
+      "27293186",
+      "27247130",
+      "27189540",
+      "27035986",
+      "26953271",
+      "26873929",
+      "26604315",
+      "26256266",
+      "25600594",
+      "25428981",
+      "25039860",
+      "24850899",
+      "24136507",
+      "23874456",
+      "22705669",
+      "22392219",
+      "22143240",
+      "21670576",
+      "21483757",
+      "20921187",
+      "20472817",
+      "19505943",
+      "19139764",
+      "17764576",
+      "17324271",
+      "16844837",
+      "16642012",
+      "15728337",
+      "15229602",
+      "14745450",
+      "14681366",
+      "12777501",
+      "12172015"
+    ],
+    "similar": [
+      "38712066",
+      "41010053",
+      "15890746",
+      "16113229",
+      "24148294",
+      "24850899",
+      "17291162",
+      "25361952",
+      "31551359",
+      "34735005",
+      "24204023",
+      "33575601",
+      "40378751",
+      "19357200",
+      "25428981",
+      "22168340",
+      "19566593",
+      "15262804",
+      "34983397",
+      "32600430",
+      "34039279",
+      "37528982",
+      "30974345",
+      "35435921",
+      "22744985",
+      "38187729",
+      "35891778",
+      "30029596",
+      "28373393",
+      "24736505",
+      "30375060",
+      "17764576",
+      "22402413",
+      "17672917",
+      "36306157",
+      "24773781",
+      "17408486",
+      "26499213",
+      "40102719",
+      "21347314",
+      "24279975",
+      "24888606",
+      "22184637",
+      "12820902",
+      "21036669",
+      "34617196",
+      "37853316",
+      "21635767",
+      "34865154",
+      "21849619",
+      "26817596",
+      "29936576",
+      "19425157",
+      "18775899",
+      "31937681",
+      "30866818",
+      "40217159",
+      "35507656",
+      "21332978",
+      "25442502",
+      "9023378",
+      "34045707",
+      "32586356",
+      "40183298",
+      "40341395",
+      "34772949",
+      "23171377",
+      "31325381",
+      "39558360",
+      "36311095",
+      "36299783",
+      "23530833",
+      "18922165",
+      "23368633",
+      "26833485",
+      "32526881",
+      "29272536",
+      "28009483",
+      "27861992",
+      "15833119",
+      "35258588",
+      "23497496",
+      "36510125",
+      "32043966",
+      "23593031",
+      "23620480",
+      "24009676",
+      "21571672",
+      "29855387",
+      "26955946",
+      "31892538",
+      "41046334",
+      "28332702",
+      "23497159",
+      "16524982",
+      "27226169",
+      "27122321",
+      "17888165",
+      "40534525",
+      "17630278"
+    ],
+    "review": [
+      "38712066",
+      "34983397",
+      "26499213",
+      "34617196",
+      "32526881"
+    ],
+    "pmc": [
+      "11071634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38712066/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38712066",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.04.25.591174",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "identity": {
+    "pmid": "41365902",
+    "doi": "10.1038/s41467-025-67297-0",
+    "title": "Fragment-based discovery enables direct targeting of the melanoma oncogene MITF."
+  },
+  "content": {
+    "abstract": "Despite the improvement of therapeutic options, melanoma patients with advanced metastatic disease are still in high need of durable treatments. Analysis of clinical data from patients receiving targeted and/or immunotherapy, along with genetic and functional studies in preclinical melanoma models, demonstrates the key role of the microphthalmia-associated transcription factor (MITF) throughout disease progression, and provides a solid rationale for its therapeutic inhibition. However, direct targeting of MITF or other basic helix-loop-helix leucine zipper (bHLH-LZ) transcription factors is unprecedented. Here, we report on the discovery of ligands for the DNA binding domain of MITF, using fragment-based screening (FBS) by nuclear magnetic resonance (NMR). Initial fragments, binding the kink pocket of MITF very weakly, are optimized to sub-micromolar affinities by structure-based design enabled by X-ray crystallography and biophysics. Furthermore, NMR experiments and molecular dynamics simulations reveal a dynamic conformational exchange between helices in the asymmetric homodimer, a phenomenon that is perturbed by ligand binding. This work advances our knowledge on direct targeting of bHLH-LZ DNA binding domains and sets the basis to further explore pharmacological inhibition of MITF.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Microphthalmia-Associated Transcription Factor/metabolism/genetics/chemistry/antagonists & inhibitors",
+      "*Melanoma/genetics/drug therapy/metabolism",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Ligands",
+      "Crystallography, X-Ray",
+      "Protein Binding",
+      "Magnetic Resonance Spectroscopy",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Castelletti, Deborah",
+        "Hinrichs, Jurgen",
+        "Malojcic, Goran",
+        "Ji, Fei",
+        "Desplat, Aurore",
+        "Reimer, Bryn",
+        "Henry, Christelle",
+        "Porter, Kathryn A",
+        "Mermet-Meillon, Fanny",
+        "Wartmann, Markus",
+        "Wirth, Emmanuelle",
+        "Delmas, Cecile",
+        "Fernandez, Cesar",
+        "Mayer, Philipp H O",
+        "Schmiedeberg, Niko",
+        "Plattner, Simone",
+        "Brun, Jvan",
+        "Klausler, Stephan",
+        "Kurmann, Jessica",
+        "Yan, Kelly",
+        "Fuller, John",
+        "Schaeffer, Fanny",
+        "Maddalo, Danilo",
+        "Altorfer, Marc",
+        "Piperidou, Nikoletta",
+        "Pautrieux, Nicolas",
+        "Baysang, Frederic",
+        "Kaufmann, Markus",
+        "Cobos-Correa, Amanda",
+        "Wilcken, Rainer",
+        "Renatus, Martin",
+        "Vulpetti, Anna",
+        "Jahnke, Wolfgang"
+      ],
+      "short_names": [
+        "Castelletti D",
+        "Hinrichs J",
+        "Malojcic G",
+        "Ji F",
+        "Desplat A",
+        "Reimer B",
+        "Henry C",
+        "Porter KA",
+        "Mermet-Meillon F",
+        "Wartmann M",
+        "Wirth E",
+        "Delmas C",
+        "Fernandez C",
+        "Mayer PHO",
+        "Schmiedeberg N",
+        "Plattner S",
+        "Brun J",
+        "Klausler S",
+        "Kurmann J",
+        "Yan K",
+        "Fuller J",
+        "Schaeffer F",
+        "Maddalo D",
+        "Altorfer M",
+        "Piperidou N",
+        "Pautrieux N",
+        "Baysang F",
+        "Kaufmann M",
+        "Cobos-Correa A",
+        "Wilcken R",
+        "Renatus M",
+        "Vulpetti A",
+        "Jahnke W"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-8533-605X",
+        "ORCID: 0009-0002-1708-8240",
+        "ORCID: 0000-0003-4406-7197",
+        "ORCID: 0000-0001-6133-5785",
+        "ORCID: 0009-0007-9822-3112",
+        "ORCID: 0000-0002-0274-1537",
+        "ORCID: 0009-0004-6074-5087",
+        "ORCID: 0009-0006-4380-5599",
+        "ORCID: 0009-0003-7114-8715",
+        "ORCID: 0000-0002-6159-1460",
+        "ORCID: 0000-0002-3114-8679",
+        "ORCID: 0000-0002-7003-3305"
+      ],
+      "affiliations": [
+        "Novartis Biomedical Research, Basel, Switzerland. deborah.castelletti@novartis.com.",
+        "Novartis Biomedical Research, Basel, Switzerland. juergen.hinrichs@novartis.com.",
+        "Novartis Biomedical Research, Basel, Switzerland. goran.malojcic@novartis.com.",
+        "Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "University of Massachusetts Amherst, Amherst, MA, USA.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Cambridge, MA, USA.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Technical University of Munich, Munich, Germany.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "ETH Zurich, Zurich, Switzerland.",
+        "Novartis Biomedical Research, Emeryville, CA, USA.",
+        "Novartis Biomedical Research, Emeryville, CA, USA.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Genentech, South San Francisco, CA, USA.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland.",
+        "Curie.Bio, Cambridge, MA, USA.",
+        "Ridgeline Discovery, Basel, Switzerland.",
+        "Novartis Biomedical Research, Basel, Switzerland. anna.vulpetti@novartis.com.",
+        "Novartis Biomedical Research, Basel, Switzerland. wolfgang.jahnke@novartis.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Castelletti, Deborah",
+        "short_name": "Castelletti D",
+        "identifiers": [
+          "0009-0005-8533-605X"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland. deborah.castelletti@novartis.com."
+        ]
+      },
+      {
+        "full_name": "Hinrichs, Jürgen",
+        "short_name": "Hinrichs J",
+        "identifiers": [
+          "0009-0002-1708-8240"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland. juergen.hinrichs@novartis.com."
+        ]
+      },
+      {
+        "full_name": "Malojčić, Goran",
+        "short_name": "Malojčić G",
+        "identifiers": [
+          "0000-0003-4406-7197"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland. goran.malojcic@novartis.com."
+        ]
+      },
+      {
+        "full_name": "Ji, Fei",
+        "short_name": "Ji F",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Desplat, Aurore",
+        "short_name": "Desplat A",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Reimer, Bryn",
+        "short_name": "Reimer B",
+        "identifiers": [
+          "0000-0001-6133-5785"
+        ],
+        "affiliations": [
+          "University of Massachusetts Amherst, Amherst, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Henry, Christelle",
+        "short_name": "Henry C",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Porter, Kathryn A",
+        "short_name": "Porter KA",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mermet-Meillon, Fanny",
+        "short_name": "Mermet-Meillon F",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wartmann, Markus",
+        "short_name": "Wartmann M",
+        "identifiers": [
+          "0009-0007-9822-3112"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wirth, Emmanuelle",
+        "short_name": "Wirth E",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Delmas, Cécile",
+        "short_name": "Delmas C",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Fernández, César",
+        "short_name": "Fernández C",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mayer, Philipp H O",
+        "short_name": "Mayer PHO",
+        "identifiers": [
+          "0000-0002-0274-1537"
+        ],
+        "affiliations": [
+          "Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmiedeberg, Niko",
+        "short_name": "Schmiedeberg N",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Plattner, Simone",
+        "short_name": "Plattner S",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Brun, Jvan",
+        "short_name": "Brun J",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kläusler, Stephan",
+        "short_name": "Kläusler S",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kurmann, Jessica",
+        "short_name": "Kurmann J",
+        "identifiers": [],
+        "affiliations": [
+          "ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Yan, Kelly",
+        "short_name": "Yan K",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Emeryville, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fuller, John",
+        "short_name": "Fuller J",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Emeryville, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Schaeffer, Fanny",
+        "short_name": "Schaeffer F",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Maddalo, Danilo",
+        "short_name": "Maddalo D",
+        "identifiers": [],
+        "affiliations": [
+          "Genentech, South San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Altorfer, Marc",
+        "short_name": "Altorfer M",
+        "identifiers": [
+          "0009-0004-6074-5087"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Piperidou, Nikoletta",
+        "short_name": "Piperidou N",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pautrieux, Nicolas",
+        "short_name": "Pautrieux N",
+        "identifiers": [
+          "0009-0006-4380-5599"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Baysang, Frederic",
+        "short_name": "Baysang F",
+        "identifiers": [
+          "0009-0003-7114-8715"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kaufmann, Markus",
+        "short_name": "Kaufmann M",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Cobos-Correa, Amanda",
+        "short_name": "Cobos-Correa A",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wilcken, Rainer",
+        "short_name": "Wilcken R",
+        "identifiers": [
+          "0000-0002-6159-1460"
+        ],
+        "affiliations": [
+          "Curie.Bio, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Renatus, Martin",
+        "short_name": "Renatus M",
+        "identifiers": [],
+        "affiliations": [
+          "Ridgeline Discovery, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Vulpetti, Anna",
+        "short_name": "Vulpetti A",
+        "identifiers": [
+          "0000-0002-3114-8679"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland. anna.vulpetti@novartis.com."
+        ]
+      },
+      {
+        "full_name": "Jahnke, Wolfgang",
+        "short_name": "Jahnke W",
+        "identifiers": [
+          "0000-0002-7003-3305"
+        ],
+        "affiliations": [
+          "Novartis Biomedical Research, Basel, Switzerland. wolfgang.jahnke@novartis.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 01:47",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38658754",
+      "38565920",
+      "38254754",
+      "37805934",
+      "37400441",
+      "36588115",
+      "36564475",
+      "35728875",
+      "35716437",
+      "33020648",
+      "31777941",
+      "31714766",
+      "31527224",
+      "31123060",
+      "30967646",
+      "30705290",
+      "30388455",
+      "30295487",
+      "29743521",
+      "29334371",
+      "28753431",
+      "28753430",
+      "28450705",
+      "28374786",
+      "28187290",
+      "28177311",
+      "27663422",
+      "27417849",
+      "27124452",
+      "26592383",
+      "26583988",
+      "26574392",
+      "26569599",
+      "24938785",
+      "24265155",
+      "24103770",
+      "23675899",
+      "23207919",
+      "22817889",
+      "22582031",
+      "22522665",
+      "22227598",
+      "22012259",
+      "20726948",
+      "19702332",
+      "19650100",
+      "18814299",
+      "17975146",
+      "16862190",
+      "16001072",
+      "15915565",
+      "15815974",
+      "15116359",
+      "12812511",
+      "12395429",
+      "9447965"
+    ],
+    "similar": [
+      "41365902",
+      "23207919",
+      "29938923",
+      "28394346",
+      "24631970",
+      "31777941",
+      "25030625",
+      "36588115",
+      "31123060",
+      "21258399",
+      "30705290",
+      "32531202",
+      "21996743",
+      "19422606",
+      "33030907",
+      "28738256",
+      "27827304",
+      "41275493",
+      "23787126",
+      "38351314",
+      "26927636",
+      "12753399",
+      "22496449",
+      "15118077",
+      "19784067",
+      "37353163",
+      "40550963",
+      "15342239",
+      "11350962",
+      "30548162",
+      "15568981",
+      "40138313",
+      "26962685",
+      "18949049",
+      "27185926",
+      "16766266",
+      "30699982",
+      "37690682",
+      "27325430",
+      "10694430",
+      "23349796",
+      "41314510",
+      "35091687",
+      "25502142",
+      "20163701",
+      "28096186",
+      "21949374",
+      "14597395",
+      "32881934",
+      "21811243",
+      "20357005",
+      "37770430",
+      "7969144",
+      "23831555",
+      "26003288",
+      "20644734",
+      "30150413",
+      "35107169",
+      "10644012",
+      "34093521",
+      "16899407",
+      "23414473",
+      "11264169",
+      "30277012",
+      "39277608",
+      "18451137",
+      "28376192",
+      "30266801",
+      "41259997",
+      "27055402",
+      "21801332",
+      "31582381",
+      "42310652",
+      "9870544",
+      "25818589",
+      "42168173",
+      "35716437",
+      "22367038",
+      "19659611",
+      "25803486",
+      "15166150",
+      "20439467",
+      "29679610",
+      "20388797",
+      "23728343",
+      "28447210",
+      "39169200",
+      "25433395",
+      "30515787",
+      "30391358",
+      "15983061",
+      "26301891",
+      "20164056",
+      "17250547",
+      "27827420",
+      "28923400",
+      "26417640",
+      "17975146",
+      "39059491",
+      "37240204"
+    ],
+    "review": [
+      "41365902",
+      "31123060",
+      "38351314",
+      "12753399",
+      "15568981",
+      "26003288",
+      "35107169",
+      "16899407",
+      "23414473",
+      "9870544",
+      "25818589"
+    ],
+    "pmc": [
+      "12808237"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67297-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41365902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

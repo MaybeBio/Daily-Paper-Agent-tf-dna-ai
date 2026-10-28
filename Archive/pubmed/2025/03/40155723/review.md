@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, figure legends, and supplementary information descriptions
+- **Assessment boundary** Technical soundness, methodological novelty, evidence quality, and claims support based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present LigandMPNN, a deep-learning method for protein sequence design that explicitly models nonprotein atomic context (small molecules, nucleotides, metals). They claim significant improvements over Rosetta and ProteinMPNN in native sequence recovery near ligands, demonstrate sidechain packing capabilities, and report experimental validation through redesigned binders with improved affinity.
+- **Visible evidence base** Abstract, main text with four figures (Fig. 1 model architecture, Fig. 2 sequence recovery benchmarks, Fig. 3 sidechain packing benchmarks, Fig. 4 experimental binder redesign), methods section with algorithmic descriptions, supplementary figure descriptions
+- **Missing materials affecting confidence** Actual figure images, supplementary figures 1-8, source data files, reporting summary, code repository contents, detailed hyperparameter settings, full training dataset composition statistics
+
+## Reviewer
+- **Overall assessment** The manuscript describes a timely and practically important extension of the ProteinMPNN architecture to include nonprotein atomic context. The core idea is straightforward and well-motivated, and the reported benchmark improvements are substantial. However, the provided text lacks sufficient quantitative detail in several key areas, particularly regarding experimental validation procedures, statistical significance testing, and comparison fairness. The sidechain packing results show only marginal improvements over the no-context baseline, which weakens the claim of added value from ligand context for this task. The experimental validation section is described only qualitatively in the main text, with no clear presentation of binding affinity values, error bars, or replication statistics for the claimed 100-fold improvement. The manuscript would benefit from clearer presentation of the training data composition, especially regarding the balance of different ligand types and the potential for bias in the test set selection.
+- **Who would be interested in the results, and why** Computational protein designers, enzyme engineers, and structural biologists working on small-molecule binders, sensors, and nucleic-acid-binding proteins. The method addresses a clear gap in current deep-learning design tools, and the reported performance gains would be immediately useful to practitioners. The sidechain packing capability also extends the utility of the method beyond sequence design to structure prediction tasks.
+- **Major strengths** The methodological extension is conceptually clean and directly addresses a known limitation of existing tools. The benchmark results show consistent improvements across three ligand categories, and the ablation studies provide useful insights into feature importance. The inclusion of sidechain packing adds practical value. The reported experimental validation, while described briefly, suggests real-world utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation rigor
+  - **Claim pointer** "LigandMPNN has been used to design over 100 experimentally validated small-molecule and DNA-binding proteins with high affinity and high structural accuracy (as indicated by four X-ray crystal structures), and redesign of Rosetta small-molecule binder designs has increased binding affinity by as much as 100-fold."
+  - **Evidence pointer** Fig. 4, main text Results section, "location not provided" for specific affinity values
+  - **Concern** The experimental validation is described only qualitatively. No binding affinity values, dissociation constants, or quantitative structural comparison metrics (e.g., RMSD between design model and crystal structure) are provided in the visible text. The claim of "high affinity" and "high structural accuracy" cannot be evaluated without numerical data. The 100-fold improvement is mentioned without specifying the baseline affinity, the assay used, or the statistical significance.
+  - **Why it matters** For a methods paper in Nature Methods, experimental validation is a key differentiator. Without quantitative evidence, readers cannot assess the practical utility of the method or compare it to existing approaches. The claim of "over 100" validated designs is particularly strong and requires supporting data.
+  - **Resolution test** Provide a supplementary table with binding affinities (Kd or EC50 values) for all designed proteins, including baseline measurements for the original Rosetta designs, with error bars and replicate numbers. Include structural alignment metrics (RMSD, TM-score) for the four crystal structures compared to design models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical significance and comparison fairness
+  - **Claim pointer** "The median sequence recoveries (ten designed sequences per protein) near small molecules were 50.4% for Rosetta using the genpot energy function18, 50.4% for ProteinMPNN and 63.3% for LigandMPNN."
+  - **Evidence pointer** Fig. 2a, main text Results section
+  - **Concern** The manuscript reports median recovery values but does not provide confidence intervals, effect sizes, or statistical tests. The comparison with ProteinMPNN is described as "retrained on the same training dataset," but the text does not specify whether the retrained ProteinMPNN used identical hyperparameters, training duration, or architecture settings. The Rosetta comparison uses a specific energy function (genpot), and it is unclear if this is the optimal Rosetta protocol for these ligand types.
+  - **Why it matters** The claimed improvements need to be robust to hyperparameter choices and statistically meaningful. Without error bars or significance testing, the 13 percentage point improvement over ProteinMPNN could be within the range of random variation or dependent on specific training conditions.
+  - **Resolution test** Provide per-protein recovery distributions (e.g., box plots or violin plots) with statistical comparisons (e.g., paired Wilcoxon tests) between methods. Specify all hyperparameters used for retrained ProteinMPNN and justify the choice of Rosetta energy function. Consider reporting results across multiple random seeds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Sidechain packing added value
+  - **Claim pointer** "LigandMPNN generates not only sequences but also sidechain conformations to allow detailed evaluation of binding interactions."
+  - **Evidence pointer** Fig. 3, main text Results section, Supplementary Figs. 3-5
+  - **Concern** The sidechain packing results show LigandMPNN outperforming Rosetta, but the comparison with LigandMPNN-wo (without ligand context) shows only marginal improvements (86.1% vs 83.3% for chi1 near small molecules). The text acknowledges this: "only marginally better than LigandMPNN-wo... suggesting that most of the information about sidechain packing is coming from the protein context rather than from the ligand context." This raises questions about whether the added complexity of ligand context in the packing model is justified.
+  - **Why it matters** If the sidechain packing model does not substantially benefit from ligand context, the claim that it enables "detailed evaluation of binding interactions" is weakened. The marginal improvement may not justify the additional computational cost and model complexity.
+  - **Resolution test** Provide a more detailed analysis of cases where ligand context significantly improves sidechain prediction, particularly for residues directly contacting the ligand. Consider reporting performance stratified by distance to ligand. Discuss whether the marginal overall improvement masks important gains in specific interaction types.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalization and test set composition
+  - **Claim pointer** "LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% versus 50.4% and 50.5%), nucleotides (50.5% versus 35.2% and 34.0%) and metals (77.5% versus 36.0% and 40.6%)."
+  - **Evidence pointer** Fig. 2, main text Results section, "location not provided" for test set details
+  - **Concern** The test set composition is not described in sufficient detail. The text mentions 317 small-molecule, 74 nucleotide, and 83 metal-containing proteins, but does not specify how these were selected, whether they represent diverse ligand chemistries, or how they relate to the training set distribution. The much higher recovery for metals (77.5%) compared to nucleotides (50.5%) suggests potential differences in task difficulty that are not discussed.
+  - **Why it matters** Without understanding the test set composition and its relationship to training data, readers cannot assess whether the reported performance will generalize to novel ligand types or binding sites. The method's utility depends on its ability to handle diverse chemistry.
+  - **Resolution test** Provide a detailed breakdown of test set composition by ligand type, protein family, and binding site characteristics. Discuss potential biases and limitations. Consider reporting performance on a held-out set of novel ligand types not present in training.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model architecture description
+  - **Affected element** Methods section, Algorithm 11
+  - **Evidence pointer** Methods section, Algorithm 11
+  - **Issue** The description of the protein-ligand encoder architecture is somewhat unclear. The text states "two additional protein-ligand encoder layers" but the relationship between these layers and the standard ProteinMPNN encoder layers is not fully specified. The pseudocode in Algorithm 11 is helpful but lacks some implementation details.
+  - **Required correction** Clarify how the protein-ligand encoder layers interact with the standard encoder layers. Specify whether the ligand information is injected at all encoder layers or only the additional ones. Consider providing a more detailed diagram or pseudocode.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Runtime and computational cost
+  - **Affected element** Main text, Results section
+  - **Evidence pointer** Main text, "location not provided"
+  - **Issue** The manuscript does not report runtime or computational cost comparisons. The text mentions that LigandMPNN is "about 250 times faster" than Rosetta, but does not compare to ProteinMPNN or report absolute runtimes.
+  - **Required correction** Add a brief statement on computational cost, including training time, inference time, and memory usage compared to ProteinMPNN.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Temperature sampling details
+  - **Affected element** Methods section, Algorithm 13
+  - **Evidence pointer** Methods section, Algorithm 13
+  - **Issue** The temperature sampling procedure is described but the default temperature value used in the reported experiments is not specified. The text mentions "some temperate (T)" but does not state the value.
+  - **Required correction** Specify the default temperature value used for sequence generation in the reported benchmarks and experimental validations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Code availability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, GitHub link
+  - **Issue** The code is stated to be available on GitHub, but the manuscript does not specify the license, documentation status, or whether trained model weights are provided.
+  - **Required correction** Add a brief statement on code license, documentation, and availability of pretrained weights.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Comparison with other deep-learning methods
+  - **Affected element** Main text, Results section
+  - **Issue** The comparison is limited to Rosetta and ProteinMPNN. The authors do not discuss or compare to other recent deep-learning methods for ligand-aware design, such as those based on diffusion models or other graph neural network approaches.
+  - **Required correction** Add a brief discussion of how LigandMPNN compares to other recent methods, even if only qualitatively, to contextualize the contribution.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure quality and data presentation
+  - **Affected element** Fig. 2, Fig. 3
+  - **Issue** The figure legends describe the content but the actual figures are not visible in the provided text. The legends suggest that Fig. 2b shows per-protein comparisons, but the specific format (e.g., scatter plot, bar chart) is not described.
+  - **Required correction** Ensure that figures are self-explanatory with clear axis labels, error bars, and statistical annotations. Consider adding individual data points to box plots or violin plots.
+
+## Risk / unsupported claims
+- The claim of "over 100 experimentally validated" designs is not supported by any data presented in the visible text. No list of designs, validation methods, or success criteria is provided.
+- The "100-fold" improvement in binding affinity is mentioned without any supporting data, baseline values, or experimental details.
+- The claim that LigandMPNN "significantly outperforms" Rosetta and ProteinMPNN is not supported by statistical testing in the visible text.
+- The statement that "four X-ray crystal structures" confirm "high structural accuracy" is not supported by any quantitative structural comparison metrics.
+- The claim that LigandMPNN "has been used to design" proteins in external studies (Glasscock et al., Lee et al., An et al., Krishna et al.) is presented as validation but the specific contributions of LigandMPNN versus other methods in those studies are not clearly delineated.
+- The assertion that the method "will be widely useful" for designing "new binding proteins, sensors and enzymes" is speculative and not directly supported by the presented evidence.
+- The statement that LigandMPNN "significantly generalizes beyond the PDB training set" is based on only two examples (rocuronium and cholic acid) and requires more extensive validation.

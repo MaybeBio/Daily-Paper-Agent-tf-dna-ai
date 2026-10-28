@@ -1,0 +1,454 @@
+{
+  "identity": {
+    "pmid": "38806474",
+    "doi": "10.1038/s41467-024-48446-3",
+    "title": "A protein sequence-based deep transfer learning framework for identifying human proteome-wide deubiquitinase-substrate interactions."
+  },
+  "content": {
+    "abstract": "Protein ubiquitination regulates a wide range of cellular processes. The degree of protein ubiquitination is determined by the delicate balance between ubiquitin ligase (E3)-mediated ubiquitination and deubiquitinase (DUB)-mediated deubiquitination. In comparison to the E3-substrate interactions, the DUB-substrate interactions (DSIs) remain insufficiently investigated. To address this challenge, we introduce a protein sequence-based ab initio method, TransDSI, which transfers proteome-scale evolutionary information to predict unknown DSIs despite inadequate training datasets. An explainable module is integrated to suggest the critical protein regions for DSIs while predicting DSIs. TransDSI outperforms multiple machine learning strategies against both cross-validation and independent test. Two predicted DUBs (USP11 and USP20) for FOXP3 are validated by \"wet lab\" experiments, along with two predicted substrates (AR and p53) for USP22. TransDSI provides new functional perspective on proteins by identifying regulatory DSIs, and offers clues for potential tumor drug target discovery and precision drug application.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Proteome/metabolism",
+      "*Ubiquitination",
+      "*Deubiquitinating Enzymes/metabolism/genetics",
+      "Deep Learning",
+      "Ubiquitin Thiolesterase/metabolism/genetics/chemistry",
+      "Substrate Specificity",
+      "Forkhead Transcription Factors/metabolism/genetics",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Machine Learning",
+      "Protein Binding",
+      "Amino Acid Sequence",
+      "Thiolester Hydrolases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yuan",
+        "Li, Dianke",
+        "Zhang, Xin",
+        "Xia, Simin",
+        "Qu, Yingjie",
+        "Ling, Xinping",
+        "Li, Yang",
+        "Kong, Xiangren",
+        "Zhang, Lingqiang",
+        "Cui, Chun-Ping",
+        "Li, Dong"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Li D",
+        "Zhang X",
+        "Xia S",
+        "Qu Y",
+        "Ling X",
+        "Li Y",
+        "Kong X",
+        "Zhang L",
+        "Cui CP",
+        "Li D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9580-3292",
+        "ORCID: 0000-0002-1078-8802",
+        "ORCID: 0009-0009-4170-1464",
+        "ORCID: 0009-0009-7142-3071",
+        "ORCID: 0009-0006-5047-5583",
+        "ORCID: 0000-0002-2009-7079",
+        "ORCID: 0009-0005-6872-0367",
+        "ORCID: 0000-0002-9795-2141",
+        "ORCID: 0000-0003-0251-3259",
+        "ORCID: 0000-0002-8680-0468"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Farm Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, 100193, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "School of Basic Medical Sciences, Anhui Medical University, Hefei, 230032, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "College of Life Sciences, Hebei University, Baoding, 071002, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China. cui_chunping2000@aliyun.com.",
+        "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China. lidong.bprc@foxmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dianke",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0001-9580-3292"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+          "State Key Laboratory of Farm Animal Biotech Breeding, College of Biological Sciences, China Agricultural University, Beijing, 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-1078-8802"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Simin",
+        "short_name": "Xia S",
+        "identifiers": [
+          "0009-0009-4170-1464"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+          "School of Basic Medical Sciences, Anhui Medical University, Hefei, 230032, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Yingjie",
+        "short_name": "Qu Y",
+        "identifiers": [
+          "0009-0009-7142-3071"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Xinping",
+        "short_name": "Ling X",
+        "identifiers": [
+          "0009-0006-5047-5583"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China.",
+          "College of Life Sciences, Hebei University, Baoding, 071002, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-2009-7079"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Xiangren",
+        "short_name": "Kong X",
+        "identifiers": [
+          "0009-0005-6872-0367"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lingqiang",
+        "short_name": "Zhang L",
+        "identifiers": [
+          "0000-0002-9795-2141"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Chun-Ping",
+        "short_name": "Cui CP",
+        "identifiers": [
+          "0000-0003-0251-3259"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China. cui_chunping2000@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Li, Dong",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0002-8680-0468"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Medical Proteomics, Beijing Proteome Research Center, National Center for Protein Sciences (Beijing), Beijing Institute of Lifeomics, Beijing, 102206, China. lidong.bprc@foxmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 May 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/29 00:49",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "42680991",
+      "42375346",
+      "42226266",
+      "42161910",
+      "40820799",
+      "40666892",
+      "40641871",
+      "40549238",
+      "40158182",
+      "39514846"
+    ],
+    "refs": [
+      "36866529",
+      "36408920",
+      "35042991",
+      "34936860",
+      "34813758",
+      "34669962",
+      "34244144",
+      "33004065",
+      "32296023",
+      "32265580",
+      "31900465",
+      "31585088",
+      "31554694",
+      "31511647",
+      "31501885",
+      "31000580",
+      "30846554",
+      "29867130",
+      "29301960",
+      "28670958",
+      "28417539",
+      "28018215",
+      "27980099",
+      "27604640",
+      "27002218",
+      "26818456",
+      "26017442",
+      "25960197",
+      "25909224",
+      "25683611",
+      "25375928",
+      "25158761",
+      "24212651",
+      "24124579",
+      "23747746",
+      "23594911",
+      "23247105",
+      "22674548",
+      "22626734",
+      "22524983",
+      "21244603",
+      "21164525",
+      "20801913",
+      "20529915",
+      "20179076",
+      "19628854",
+      "19626045",
+      "19267400",
+      "19255331",
+      "18988848",
+      "18666234",
+      "18435502",
+      "18276468",
+      "17804750",
+      "17360525",
+      "17344234",
+      "16474402",
+      "16381927",
+      "14741005",
+      "11395416",
+      "10802651",
+      "2231712"
+    ],
+    "similar": [
+      "38806474",
+      "34669962",
+      "36733699",
+      "35935969",
+      "32150874",
+      "35737447",
+      "28167606",
+      "28801249",
+      "29274341",
+      "34063716",
+      "35055037",
+      "30067985",
+      "27292798",
+      "33136002",
+      "34529927",
+      "36082810",
+      "36991118",
+      "36385557",
+      "35764170",
+      "36350551",
+      "28498721",
+      "30373771",
+      "30686098",
+      "33007217",
+      "28839186",
+      "37794081",
+      "35042675",
+      "37858708",
+      "38158131",
+      "29732405",
+      "36446969",
+      "25471832",
+      "25827227",
+      "28945249",
+      "19202598",
+      "34549978",
+      "19440361",
+      "29748582",
+      "25451922",
+      "30242706",
+      "33498168",
+      "30415394",
+      "33919439",
+      "23750477",
+      "23184937",
+      "27285106",
+      "33531626",
+      "35414786",
+      "34416231",
+      "23436247",
+      "27316462",
+      "32943575",
+      "31432739",
+      "33105797",
+      "20924359",
+      "29995557",
+      "20436459",
+      "36237424",
+      "31745110",
+      "34391779",
+      "18687060",
+      "32636834",
+      "28233861",
+      "29576527",
+      "30850059",
+      "23973222",
+      "26238070",
+      "37935888",
+      "31504778",
+      "30733604",
+      "35585066",
+      "32957626",
+      "23603909",
+      "29326975",
+      "17897950",
+      "29147007",
+      "32719160",
+      "21746879",
+      "30926242",
+      "37573347",
+      "27694912",
+      "32747411",
+      "35836176",
+      "26195632",
+      "31253698",
+      "37880130",
+      "26419610",
+      "32512887",
+      "21731648",
+      "32865982",
+      "36291632"
+    ],
+    "review": [
+      "38806474",
+      "35935969",
+      "28801249",
+      "36385557",
+      "35764170",
+      "28498721",
+      "35042675",
+      "19202598",
+      "33498168",
+      "33919439",
+      "27285106",
+      "35414786",
+      "23436247",
+      "27316462",
+      "33105797",
+      "36237424",
+      "34391779",
+      "18687060",
+      "37935888",
+      "30733604",
+      "32957626",
+      "32512887"
+    ],
+    "pmc": [
+      "11133436"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-48446-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38806474/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38806474",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

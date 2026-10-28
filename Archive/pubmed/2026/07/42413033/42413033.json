@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "42413033",
+    "doi": "10.1093/plphys/kiag473",
+    "title": "A deep learning model captures position-specific effects of plant regulatory sequences and suggests genes under complex regulation."
+  },
+  "content": {
+    "abstract": "Deep neural networks can be trained to predict gene expression directly from genomic sequence, thereby implicitly learning regulatory sequence patterns from scratch, minimizing the bias imposed by prior assumptions. A challenging, yet promising prospect is the extraction of novel insights into gene-regulatory mechanisms by probing and interpreting such gene expression models. Using a branched convolutional neural network architecture trained on promoter and terminator sequences, we predict gene expression for allopolyploid Brassica napus and the closely related model organism Arabidopsis thaliana. We validate the model by comparing predicted and measured expression across ecotypes. We also show that deep learning models can successfully capture the positional binding preferences of some transcription factor families without having been trained on transcription factor binding data. Furthermore, we show that our model did not only detect local sequence patterns but was also able to determine their function based on their positional context. We also found that increased prediction error correlated with additional more distal or epigenetic regulatory input. Our results demonstrate that deep learning can be used to understand the regulatory architecture of gene expression in plants. A better understanding of gene regulation in the context of polyploid genomes is of particular economic importance due to their prevalence among major crops. In the future, we hope that such models may facilitate the targeted engineering of gene regulation in crops.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Arabidopsis/genetics",
+      "*Gene Expression Regulation, Plant",
+      "*Brassica napus/genetics",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Promoter Regions, Genetic/genetics",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rockenbach, Kevin C",
+        "Zanini, Silvia F",
+        "Tidy, Alison C",
+        "Morris, Richard J",
+        "Wells, Rachel",
+        "Golicz, Agnieszka A"
+      ],
+      "short_names": [
+        "Rockenbach KC",
+        "Zanini SF",
+        "Tidy AC",
+        "Morris RJ",
+        "Wells R",
+        "Golicz AA"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-2115-5441",
+        "ORCID: 0000-0002-9137-8783",
+        "ORCID: 0000-0002-3532-1782",
+        "ORCID: 0000-0003-3080-2613",
+        "ORCID: 0000-0002-1280-7472",
+        "ORCID: 0000-0002-9711-4826"
+      ],
+      "affiliations": [
+        "Department of Agrobioinformatics, Justus-Liebig-University, Heinrich-Buff-Ring 38, 35392 Giessen, Germany.",
+        "Department of Agrobioinformatics, Justus-Liebig-University, Heinrich-Buff-Ring 38, 35392 Giessen, Germany.",
+        "Division of Plant and Crop Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Sutton Bonington, LE12 5RD, Leicestershire, United Kingdom.",
+        "Department of Computational and Systems Biology, John Innes Centre, Norwich Research Park, Colney Lane, Norwich, NR4 7UH, Norfolk, United Kingdom.",
+        "Department of Crop Genetics, John Innes Centre, Norwich Research Park, Colney Lane, Norwich, NR4 7UH, Norfolk, United Kingdom.",
+        "Department of Agrobioinformatics, Justus-Liebig-University, Heinrich-Buff-Ring 38, 35392 Giessen, Germany.",
+        "Plant Breeding, Wageningen University & Research, Droevendaalsesteeg 1, Building 107, 6708 PB Wageningen, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rockenbach, Kevin C",
+        "short_name": "Rockenbach KC",
+        "identifiers": [
+          "0009-0006-2115-5441"
+        ],
+        "affiliations": [
+          "Department of Agrobioinformatics, Justus-Liebig-University, Heinrich-Buff-Ring 38, 35392 Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Zanini, Silvia F",
+        "short_name": "Zanini SF",
+        "identifiers": [
+          "0000-0002-9137-8783"
+        ],
+        "affiliations": [
+          "Department of Agrobioinformatics, Justus-Liebig-University, Heinrich-Buff-Ring 38, 35392 Giessen, Germany."
+        ]
+      },
+      {
+        "full_name": "Tidy, Alison C",
+        "short_name": "Tidy AC",
+        "identifiers": [
+          "0000-0002-3532-1782"
+        ],
+        "affiliations": [
+          "Division of Plant and Crop Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Sutton Bonington, LE12 5RD, Leicestershire, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Morris, Richard J",
+        "short_name": "Morris RJ",
+        "identifiers": [
+          "0000-0003-3080-2613"
+        ],
+        "affiliations": [
+          "Department of Computational and Systems Biology, John Innes Centre, Norwich Research Park, Colney Lane, Norwich, NR4 7UH, Norfolk, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wells, Rachel",
+        "short_name": "Wells R",
+        "identifiers": [
+          "0000-0002-1280-7472"
+        ],
+        "affiliations": [
+          "Department of Crop Genetics, John Innes Centre, Norwich Research Park, Colney Lane, Norwich, NR4 7UH, Norfolk, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Golicz, Agnieszka A",
+        "short_name": "Golicz AA",
+        "identifiers": [
+          "0000-0002-9711-4826"
+        ],
+        "affiliations": [
+          "Department of Agrobioinformatics, Justus-Liebig-University, Heinrich-Buff-Ring 38, 35392 Giessen, Germany.",
+          "Plant Breeding, Wageningen University & Research, Droevendaalsesteeg 1, Building 107, 6708 PB Wageningen, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Physiol"
+    ],
+    "pub_date": "2026 Aug 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/08 01:10",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [
+      "42636099"
+    ],
+    "refs": [
+      "41639451",
+      "41606153",
+      "41286201",
+      "40877448",
+      "40789919",
+      "40567159",
+      "40379636",
+      "40178590",
+      "40065399",
+      "39779956",
+      "39501128",
+      "39266765",
+      "39020164",
+      "38889146",
+      "38859587",
+      "38664394",
+      "38388963",
+      "37971967",
+      "37962376",
+      "37850036",
+      "37023129",
+      "36608347",
+      "36409894",
+      "35924336",
+      "34918159",
+      "34850121",
+      "34608324",
+      "34502060",
+      "34383745",
+      "34219317",
+      "34179082",
+      "34083762",
+      "33346817",
+      "33325516",
+      "33320174",
+      "33289112",
+      "33262328",
+      "32687525",
+      "32637053",
+      "32489650",
+      "32433972",
+      "32411167",
+      "32393884",
+      "31932676",
+      "31856220",
+      "31794845",
+      "30971806",
+      "30842277",
+      "30660610",
+      "30590436",
+      "29750242",
+      "29697369",
+      "29588361",
+      "29229750",
+      "28864470",
+      "28848243",
+      "28485207",
+      "27871221",
+      "27862469",
+      "27729530",
+      "27225844",
+      "27203113",
+      "27117388",
+      "27084946",
+      "27063780",
+      "26576614",
+      "26424858",
+      "25951770",
+      "25690850",
+      "25449722",
+      "24695404",
+      "24177688",
+      "23193258",
+      "23104886",
+      "22324618",
+      "22140109",
+      "21209072",
+      "20110278",
+      "20003500",
+      "19812181",
+      "17470060",
+      "11741530",
+      "11130711",
+      "9851916",
+      "9340487",
+      "8849441",
+      "7809040"
+    ],
+    "similar": [
+      "42413033",
+      "42475469",
+      "41920894",
+      "41544987",
+      "12820902",
+      "30039430",
+      "41429964",
+      "38750303",
+      "25361952",
+      "42140663",
+      "41514301",
+      "32329779",
+      "41708941",
+      "22989211",
+      "27503086",
+      "19493335",
+      "36510125",
+      "41782896",
+      "38664394",
+      "17291162",
+      "23148487",
+      "28575075",
+      "24148294",
+      "17764576",
+      "32996462",
+      "41010053",
+      "38889146",
+      "42216449",
+      "22058225",
+      "26939991",
+      "39133828",
+      "41639451",
+      "25194430",
+      "27608922",
+      "24555803",
+      "26071533",
+      "15316292",
+      "26059040",
+      "41634097",
+      "35258588",
+      "40983924",
+      "14526110",
+      "41303635",
+      "29855387",
+      "34157966",
+      "21571672",
+      "22898356",
+      "24755905",
+      "41620995",
+      "33234095",
+      "21515819",
+      "21044807",
+      "7865794",
+      "26739233",
+      "34039279",
+      "33137083",
+      "29362083",
+      "24045019",
+      "16027972",
+      "40082789",
+      "25361953",
+      "42236716",
+      "23620480",
+      "12631321",
+      "40474073",
+      "16204087",
+      "30231862",
+      "12490441",
+      "31318408",
+      "20840729",
+      "41937163",
+      "19098132",
+      "39740398",
+      "24243147",
+      "22683808",
+      "17827349",
+      "19357200",
+      "30958842",
+      "17090307",
+      "24914054",
+      "19400940",
+      "26474639",
+      "29588361",
+      "16113229",
+      "32586356",
+      "41801512",
+      "24205361",
+      "21078185",
+      "42401553",
+      "35891778",
+      "26659952",
+      "23368633",
+      "27322342",
+      "39964724",
+      "12090622",
+      "41943068",
+      "21694767",
+      "29511814",
+      "8018869",
+      "17672917"
+    ],
+    "review": [
+      "42413033",
+      "41429964",
+      "41620995",
+      "33234095"
+    ],
+    "pmc": [
+      "13436691"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42413033/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plphys/article-lookup/doi/10.1093/plphys/kiag473",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

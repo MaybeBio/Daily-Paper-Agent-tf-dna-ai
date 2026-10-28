@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38609714",
+  "title": "Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data.",
+  "authors": "Yuan, Qiuyue; Duren, Zhana",
+  "journal": "Nature biotechnology",
+  "published_date": "2024-04-13",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出LINGER方法，利用单细胞多组学数据与外部bulk数据推断基因调控网络，核心涉及转录因子基序与染色质可及性，属于TF-DNA结合位点预测的广义应用，但未深入三维互作建模，方法为AI且可迁移至TF-DNA研究。",
+  "abstract": "Existing methods for gene regulatory network (GRN) inference rely on gene expression data alone or on lower resolution bulk data. Despite the recent integration of chromatin accessibility and RNA sequencing data, learning complex mechanisms from limited independent data points still presents a daunting challenge. Here we present LINGER (Lifelong neural network for gene regulation), a machine-learning method to infer GRNs from single-cell paired gene expression and chromatin accessibility data. LINGER incorporates atlas-scale external bulk data across diverse cellular contexts and prior knowledge of transcription factor motifs as a manifold regularization. LINGER achieves a fourfold to sevenfold relative increase in accuracy over existing methods and reveals a complex regulatory landscape of genome-wide association studies, enabling enhanced interpretation of disease-associated variants and genes. Following the GRN inference from reference single-cell multiome data, LINGER enables the estimation of transcription factor activity solely from bulk or single-cell gene expression data, leveraging the abundance of available gene expression data to identify driver regulators from case-control studies.",
+  "abstract_zh": "现有的基因调控网络（GRN）推断方法仅依赖基因表达数据或较低分辨率的大块数据。尽管近期整合了染色质可及性和RNA测序数据，但从有限的独立数据点中学习复杂机制仍构成严峻挑战。在此，我们提出LINGER（基因调控的终身神经网络），一种从单细胞配对基因表达和染色质可及性数据中推断GRN的机器学习方法。LINGER整合了跨多种细胞背景的图谱级外部大块数据以及转录因子基序的先验知识，作为流形正则化。LINGER在准确性上相较于现有方法实现了四倍至七倍的相对提升，并揭示了全基因组关联研究的复杂调控景观，从而增强了对疾病相关变异和基因的解释能力。在从参考单细胞多组学数据推断GRN后，LINGER能够仅基于大块或单细胞基因表达数据估计转录因子活性，利用丰富的可用基因表达数据从病例对照研究中识别驱动调控因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38609714/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38609714/",
+  "paper_page_path": "papers/pubmed/38609714/index.html"
+}

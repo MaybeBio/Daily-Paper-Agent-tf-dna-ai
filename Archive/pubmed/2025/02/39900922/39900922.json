@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "39900922",
+    "doi": "10.1038/s41467-025-56475-9",
+    "title": "A mechanism-informed deep neural network enables prioritization of regulators that drive cell state transitions."
+  },
+  "content": {
+    "abstract": "Cells are regulated at multiple levels, from regulations of individual genes to interactions across multiple genes. Some recent neural network models can connect molecular changes to cellular phenotypes, but their design lacks modeling of regulatory mechanisms, limiting the decoding of regulations behind key cellular events, such as cell state transitions. Here, we present regX, a deep neural network incorporating both gene-level regulation and gene-gene interaction mechanisms, which enables prioritizing potential driver regulators of cell state transitions and providing mechanistic interpretations. Applied to single-cell multi-omics data on type 2 diabetes and hair follicle development, regX reliably prioritizes key transcription factors and candidate cis-regulatory elements that drive cell state transitions. Some regulators reveal potential new therapeutic targets, drug repurposing possibilities, and putative causal single nucleotide polymorphisms. This method to analyze single-cell multi-omics data demonstrates how the interpretable design of neural networks can better decode biological systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neural Networks, Computer",
+      "Single-Cell Analysis",
+      "Diabetes Mellitus, Type 2/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Transcription Factors/metabolism/genetics",
+      "Animals",
+      "Hair Follicle/metabolism/growth & development/cytology",
+      "Gene Expression Regulation",
+      "Polymorphism, Single Nucleotide",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xi, Xi",
+        "Li, Jiaqi",
+        "Jia, Jinmeng",
+        "Meng, Qiuchen",
+        "Li, Chen",
+        "Wang, Xiaowo",
+        "Wei, Lei",
+        "Zhang, Xuegong"
+      ],
+      "short_names": [
+        "Xi X",
+        "Li J",
+        "Jia J",
+        "Meng Q",
+        "Li C",
+        "Wang X",
+        "Wei L",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9207-1804",
+        "ORCID: 0000-0001-9038-9010",
+        "ORCID: 0000-0001-6013-9475",
+        "ORCID: 0000-0003-2965-8036",
+        "ORCID: 0000-0002-1546-6458",
+        "ORCID: 0000-0002-9684-5643"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.",
+        "School of Life Sciences, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xi, Xi",
+        "short_name": "Xi X",
+        "identifiers": [
+          "0000-0002-9207-1804"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaqi",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0001-9038-9010"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Jinmeng",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Qiuchen",
+        "short_name": "Meng Q",
+        "identifiers": [
+          "0000-0001-6013-9475"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowo",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0003-2965-8036"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Lei",
+        "short_name": "Wei L",
+        "identifiers": [
+          "0000-0002-1546-6458"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuegong",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-9684-5643"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics and Bioinformatics Division, BNRIST / Department of Automation, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.",
+          "School of Life Sciences, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Feb 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/04 00:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42352345",
+      "41674713",
+      "41643202",
+      "41303487",
+      "41282420",
+      "41269283",
+      "41224891",
+      "40999328",
+      "40860440"
+    ],
+    "refs": [
+      "39122941",
+      "38609714",
+      "38116584",
+      "37953380",
+      "37713619",
+      "37660105",
+      "37524865",
+      "37443338",
+      "37231096",
+      "37035220",
+      "36866529",
+      "36839169",
+      "36755098",
+      "36608654",
+      "36589234",
+      "36530175",
+      "36350656",
+      "36318249",
+      "36192604",
+      "36068320",
+      "36015105",
+      "35929791",
+      "35707823",
+      "35654811",
+      "35648859",
+      "35501393",
+      "35240291",
+      "34943978",
+      "34907913",
+      "34850907",
+      "34753799",
+      "34557778",
+      "34552244",
+      "34535759",
+      "34491912",
+      "34474345",
+      "34362918",
+      "34244796",
+      "34139169",
+      "34062119",
+      "33880624",
+      "33652748",
+      "33292863",
+      "33098772",
+      "33096023",
+      "33045745",
+      "32746932",
+      "32657418",
+      "32302527",
+      "32280378",
+      "32244185",
+      "31740966",
+      "31611697",
+      "31399863",
+      "31023625",
+      "30787437",
+      "30708140",
+      "30476243",
+      "30445434",
+      "29992946",
+      "29727686",
+      "29570991",
+      "29505029",
+      "29472102",
+      "29272356",
+      "29208468",
+      "28991892",
+      "28723413",
+      "28041957",
+      "27322403",
+      "27164028",
+      "26657631",
+      "26627735",
+      "25445538",
+      "24583012",
+      "24559927",
+      "24506867",
+      "24190582",
+      "23880309",
+      "23737756",
+      "23630438",
+      "23502468",
+      "23197416",
+      "22749234",
+      "22586588",
+      "22492648",
+      "22457355",
+      "20413507",
+      "19805515",
+      "19748811",
+      "19264802",
+      "18599525",
+      "17923767",
+      "17701901",
+      "17626015",
+      "17563455",
+      "17531086",
+      "17510498",
+      "17470511",
+      "17322896",
+      "15369676",
+      "12923059",
+      "12700406",
+      "12533516",
+      "12239572",
+      "11158595",
+      "10937514",
+      "10802651",
+      "9710595"
+    ],
+    "similar": [
+      "39900922",
+      "39904740",
+      "38950180",
+      "36064320",
+      "26576632",
+      "38896510",
+      "39376034",
+      "31985403",
+      "38609714",
+      "36335815",
+      "39704704",
+      "26966275",
+      "39207727",
+      "33874910",
+      "27716393",
+      "33031552",
+      "36307979",
+      "33513983",
+      "18684741",
+      "34962260",
+      "37244909",
+      "37582793",
+      "24340000",
+      "39800872",
+      "27556418",
+      "38653489",
+      "37889053",
+      "10498690",
+      "36527108",
+      "39284975",
+      "37740295",
+      "39058236",
+      "29237467",
+      "32578841",
+      "35062026",
+      "27490187",
+      "32450962",
+      "21536720",
+      "37904203",
+      "36525361",
+      "39326643",
+      "39570626",
+      "23620135",
+      "35980567",
+      "23702391",
+      "32054475",
+      "32679029",
+      "38710700",
+      "38342857",
+      "25076029",
+      "25887857",
+      "39968416",
+      "34424948",
+      "23955574",
+      "35849618",
+      "38582368",
+      "32295263",
+      "38856169",
+      "39751645",
+      "32188700",
+      "40037709",
+      "29587631",
+      "24635915",
+      "9811563",
+      "24400482",
+      "23531767",
+      "37939200",
+      "12648487",
+      "39161769",
+      "23281828",
+      "16464248",
+      "25433230",
+      "32029221",
+      "39644579",
+      "39125915",
+      "39273245",
+      "32685006",
+      "39519100",
+      "38956662",
+      "38670157",
+      "29297370",
+      "23123965",
+      "38754366",
+      "24402032",
+      "34244796",
+      "39135102",
+      "38123534",
+      "30661741",
+      "23011354",
+      "34650237",
+      "35396274",
+      "29675560",
+      "33167971",
+      "18590522",
+      "26164700",
+      "25371518",
+      "37862225",
+      "11286633",
+      "12839558",
+      "32270049"
+    ],
+    "review": [
+      "39900922",
+      "39207727",
+      "25076029",
+      "24400482",
+      "23281828",
+      "18590522"
+    ],
+    "pmc": [
+      "11790924"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-56475-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39900922/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

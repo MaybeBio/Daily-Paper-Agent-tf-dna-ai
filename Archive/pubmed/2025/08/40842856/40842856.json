@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40842856",
+    "doi": "10.2147/OARRR.S541568",
+    "title": "Identification of Key Glycolysis-Related Genes in Osteoarthritis and Their Correlation with Immune Infiltration Using Bioinformatics Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Osteoarthritis (OA) is a degenerative disorder associated with glycolysis. However, the precise mechanisms remain unclear. This study aimed to identify glycolysis-associated biomarkers and elucidate how glycolysis-related genes interact with the synovial immune microenvironment in OA progression. METHODS: Normal and OA synovial gene expression profile microarrays were obtained from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were identified using limma package. Gene Ontology (GO) and KEGG enrichment analyses were conducted to explore biological functions. Weighted Gene Co-expression Network Analysis (WGCNA) was used to identify OA-associated genes, which were intersected with glycolysis genes from The Molecular Signatures Database (MSigDB) and DEGs to obtain key genes. Lasso regression and random forest models were employed to establish a risk model, and its predictive performance was evaluated using nomogram, Receiver Operating Characteristic (ROC) analysis, and Decision Curve Analysis (DCA). Gene Set Enrichment Analysis (GSEA) and Cibersort analysis were conducted to explore pathways and immune infiltration correlations. RESULTS: A total of 239 OA-associated genes were identified through WGCNA. Six hub genes were obtained by intersecting with glycolysis genes and DEGs. Four key glycolytic genes were selected by Lasso regression and random forest models. The nomogram showed that three genes (DDIT4, SLC16A7, SLC2A3) could predict OA risk accurately. The ROC analysis demonstrated an area under the curve (AUC) of 0.85, indicating good predictive performance. Distinct immune cell distribution patterns were observed in OA groups. Interaction networks were constructed for the key genes with related miRNAs, transcription factors (TFs), and small molecule drugs. CONCLUSION: This study identified three key glycolysis-related genes (DDIT4, SLC16A7, SLC2A3) in OA, revealing their potential roles in disease progression and immune infiltration. These findings may provide new insights into the pathogenesis and therapeutic targets for OA, based on the identified genes and their interactions with the immune microenvironment.",
+    "keywords": [
+      "DEGs",
+      "bioinformatics",
+      "glycolysis",
+      "immune infiltration",
+      "machine learning",
+      "osteoarthritis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yifang",
+        "Deng, Lin",
+        "Xia, Junxiang",
+        "Yang, Jing",
+        "Zhao, Dan",
+        "Li, Min"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Deng L",
+        "Xia J",
+        "Yang J",
+        "Zhao D",
+        "Li M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1838-612X",
+        "ORCID: 0009-0003-2554-3327",
+        "ORCID: 0009-0009-2635-2593",
+        "ORCID: 0009-0005-5380-3442",
+        "ORCID: 0009-0009-2471-1118",
+        "ORCID: 0009-0008-0315-8985"
+      ],
+      "affiliations": [
+        "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China.",
+        "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China.",
+        "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China.",
+        "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China.",
+        "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China.",
+        "Department of Rheumatoid Osteoarthropathy, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yifang",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0002-1838-612X"
+        ],
+        "affiliations": [
+          "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Deng, Lin",
+        "short_name": "Deng L",
+        "identifiers": [
+          "0009-0003-2554-3327"
+        ],
+        "affiliations": [
+          "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xia, Junxiang",
+        "short_name": "Xia J",
+        "identifiers": [
+          "0009-0009-2635-2593"
+        ],
+        "affiliations": [
+          "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing",
+        "short_name": "Yang J",
+        "identifiers": [
+          "0009-0005-5380-3442"
+        ],
+        "affiliations": [
+          "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dan",
+        "short_name": "Zhao D",
+        "identifiers": [
+          "0009-0009-2471-1118"
+        ],
+        "affiliations": [
+          "Clinical Laboratory, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [
+          "0009-0008-0315-8985"
+        ],
+        "affiliations": [
+          "Department of Rheumatoid Osteoarthropathy, Sichuan Province Orthopedic Hospital, Chengdu, Sichuan, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Open access rheumatology : research and reviews"
+    ],
+    "journal_abbrev": [
+      "Open Access Rheumatol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/22 16:44",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [
+      "42302029",
+      "42072611",
+      "41983120"
+    ],
+    "refs": [
+      "40441253",
+      "40170391",
+      "40124471",
+      "39696988",
+      "39695788",
+      "39376171",
+      "38882183",
+      "38854686",
+      "38850799",
+      "38264652",
+      "38175691",
+      "38044289",
+      "38017477",
+      "37980493",
+      "37769593",
+      "37612746",
+      "37445948",
+      "37301122",
+      "36721767",
+      "36681837",
+      "36470235",
+      "36341411",
+      "36247875",
+      "35992546",
+      "35733917",
+      "35550528",
+      "35501580",
+      "34633248",
+      "34539843",
+      "34116684",
+      "34040390",
+      "33732318",
+      "33560326",
+      "33383189",
+      "33061855",
+      "32415067",
+      "31934153",
+      "31894109",
+      "30312603",
+      "28334504",
+      "27118398"
+    ],
+    "similar": [
+      "40842856",
+      "41146237",
+      "37503333",
+      "39695788",
+      "38509535",
+      "39403102",
+      "39839184",
+      "39484639",
+      "34113405",
+      "40628511",
+      "41393259",
+      "39086489",
+      "41316378",
+      "40442788",
+      "39142001",
+      "36699262",
+      "37454542",
+      "40406620",
+      "41044520",
+      "40216809",
+      "39779817",
+      "35651940",
+      "40500570",
+      "40022676",
+      "40332792",
+      "40589764",
+      "40592131",
+      "41219826",
+      "37986345",
+      "36082523",
+      "41300841",
+      "35473522",
+      "38734758",
+      "38767974",
+      "38650009",
+      "41479901",
+      "40630623",
+      "41164826",
+      "38371524",
+      "39552895",
+      "36777638",
+      "39953769",
+      "37860011",
+      "40646535",
+      "40520234",
+      "37359526",
+      "37138862",
+      "37659036",
+      "31988808",
+      "36468029",
+      "39754246",
+      "40532306",
+      "40997906",
+      "39263286",
+      "39713769",
+      "39173977",
+      "41432483",
+      "41291841",
+      "39586719",
+      "38127891",
+      "40374866",
+      "35996406",
+      "37805587",
+      "36081904",
+      "39396400",
+      "41324863",
+      "41170011",
+      "39639239",
+      "40078458",
+      "37769593",
+      "39697749",
+      "40804350",
+      "35783271",
+      "39438957",
+      "39341952",
+      "38863714",
+      "41013556",
+      "38987624",
+      "36148059",
+      "40809841",
+      "37619853",
+      "34736376",
+      "41120603",
+      "37153000",
+      "39026663",
+      "38951833",
+      "41165157",
+      "38544384",
+      "40263537",
+      "38987688",
+      "39139563",
+      "34670585",
+      "40319145",
+      "38291374",
+      "40055592",
+      "38384969",
+      "34583778",
+      "37325483",
+      "39375405",
+      "39640258"
+    ],
+    "review": [
+      "40842856"
+    ],
+    "pmc": [
+      "12366638"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40842856/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/OARRR.S541568",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

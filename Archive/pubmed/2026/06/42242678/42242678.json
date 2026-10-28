@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "42242678",
+    "doi": "10.1093/bib/bbag291",
+    "title": "Pathogenicity prediction for noncanonical splice-altering variants based on multimodal feature fusion."
+  },
+  "content": {
+    "abstract": "Splice-altering variants (SAVs) are the second most prevalent class of pathogenic genetic variants and are strongly associated with the occurrence and development of various diseases. However, current computational tools exhibit limited predictive capability beyond canonical GT-AG splice sites, making accurate assessment of noncanonical SAV pathogenicity a considerable challenge. To address this limitation, we developed MOSAIC (multimodal feature fusion for noncanonical splice-altering variants pathogenicity prediction), a deep learning framework designed for precise assessment of noncanonical SAV pathogenicity. MOSAIC integrates long-range contextual signals derived from a pretrained DNA language model, local sequence features captured from multi-scale convolutional neural networks, and functional annotations. By employing a transformer encoder and a gated fusion module, the model adaptively integrates these multimodal features. Benchmarking across multiple independent datasets demonstrated that MOSAIC consistently outperforms existing state-of-the-art methods, such as CADD and SpliceAI. It remains highly accurate and robust when evaluated on rare variants, gene-independent contexts, and the largest subset where all comparative methods yielded outputs. Furthermore, feature importance analysis revealed that long-range dependencies in DNA sequences and transformer-based integration were critical contributors to model performance. Interpretability analyses indicated that MOSAIC could identify key regulatory sequence motifs associated with transcription factors and RNA-binding proteins, offering mechanistic insight into how noncanonical SAVs disrupt splicing regulation and contribute to pathogenic processes. Overall, MOSAIC offers an accurate and interpretable framework for predicting the pathogenicity of noncanonical SAVs, thereby serving as a dependable computational tool for genetic diagnostics and precision medicine applications. MOSAIC source code and data are available at https://github.com/Lilab-genomics/MOSAIC.",
+    "keywords": [
+      "model interpretability",
+      "multimodal fusion",
+      "pathogenicity prediction",
+      "splicing variants",
+      "transformer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*RNA Splicing",
+      "*Genetic Variation",
+      "Deep Learning",
+      "Convolutional Neural Networks",
+      "RNA Splice Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiaoyan",
+        "Peng, Zhen",
+        "Zhao, Yiran",
+        "Wang, Shuhan",
+        "Zhou, Xingpeng",
+        "Luo, Xiongjian",
+        "Su, Yansen",
+        "Zheng, Chunhou",
+        "Xia, Junfeng"
+      ],
+      "short_names": [
+        "Li X",
+        "Peng Z",
+        "Zhao Y",
+        "Wang S",
+        "Zhou X",
+        "Luo X",
+        "Su Y",
+        "Zheng C",
+        "Xia J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8967-4663",
+        "ORCID: 0000-0002-3855-7133",
+        "ORCID: 0000-0003-3024-1705"
+      ],
+      "affiliations": [
+        "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, No. 220 Handan Road, Yangpu District, Shanghai, 200433, China.",
+        "Institutes of Physical Science and Information Technology, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "Department of Psychiatry and Psychosomatics, Zhongda Hospital, School of Medicine, Advanced Institute for Life and Health, Jiangsu Provincial Key Laboratory of Brain Science and Medicine, Southeast University, No. 87 Dingjiaqiao Road, Nanjing, Jiangsu, 210009, China.",
+        "School of Artificial Intelligence, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "School of Artificial Intelligence, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+        "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiaoyan",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0002-8967-4663"
+        ],
+        "affiliations": [
+          "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China.",
+          "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, No. 220 Handan Road, Yangpu District, Shanghai, 200433, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhen",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institutes of Physical Science and Information Technology, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yiran",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuhan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xingpeng",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xiongjian",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Psychosomatics, Zhongda Hospital, School of Medicine, Advanced Institute for Life and Health, Jiangsu Provincial Key Laboratory of Brain Science and Medicine, Southeast University, No. 87 Dingjiaqiao Road, Nanjing, Jiangsu, 210009, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yansen",
+        "short_name": "Su Y",
+        "identifiers": [
+          "0000-0002-3855-7133"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Chunhou",
+        "short_name": "Zheng C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Junfeng",
+        "short_name": "Xia J",
+        "identifiers": [
+          "0000-0003-3024-1705"
+        ],
+        "affiliations": [
+          "Information Materials and Intelligent Sensing Laboratory of Anhui Province and School of Life Sciences and Medical Engineering, Anhui University, No. 111 Jiulong Road, Hefei, Anhui, 230601, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 May 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 00:35",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40067713",
+      "40056912",
+      "39747647",
+      "39423073",
+      "39060028",
+      "38575818",
+      "38211594",
+      "38183205",
+      "37817060",
+      "37541186",
+      "37246737",
+      "37142848",
+      "36216757",
+      "35449021",
+      "35363263",
+      "34850907",
+      "34739835",
+      "34707284",
+      "34551312",
+      "33526779",
+      "33420369",
+      "32913098",
+      "32728246",
+      "32596782",
+      "32591774",
+      "31777943",
+      "31626773",
+      "31626751",
+      "30823901",
+      "30804562",
+      "30661751",
+      "30012835",
+      "29617666",
+      "28771251",
+      "28759686",
+      "28202748",
+      "26593421",
+      "25985083",
+      "25886982",
+      "25741868",
+      "25326635",
+      "25112293",
+      "24222354",
+      "24088041",
+      "23846655",
+      "23033978",
+      "17324271",
+      "16601727",
+      "7584402"
+    ],
+    "similar": [
+      "42242678",
+      "42475469",
+      "42127163",
+      "33942434",
+      "42328788",
+      "40251830",
+      "40646507",
+      "41299278",
+      "42281397",
+      "36376793",
+      "40056912",
+      "39852553",
+      "35976049",
+      "32704450",
+      "31881982",
+      "42174428",
+      "41762162",
+      "41950858",
+      "42185919",
+      "39550226",
+      "41476368",
+      "40772277",
+      "34289339",
+      "38334115",
+      "42174886",
+      "33618777",
+      "41634097",
+      "39510345",
+      "39060028",
+      "29931149",
+      "41564724",
+      "38701417",
+      "37817060",
+      "40569190",
+      "31131953",
+      "37198692",
+      "41176275",
+      "41399733",
+      "40613943",
+      "41520229",
+      "38643080",
+      "41354216",
+      "40302345",
+      "34632506",
+      "37878682",
+      "28245811",
+      "40988334",
+      "42177353",
+      "41921797",
+      "41257600",
+      "41299450",
+      "40462515",
+      "30012835",
+      "32696716",
+      "40553343",
+      "41977286",
+      "41791267",
+      "42001823",
+      "39701486",
+      "42235771",
+      "30038698",
+      "42362801",
+      "42151225",
+      "41877008",
+      "42243656",
+      "41576119",
+      "39489606",
+      "39214282",
+      "41962361",
+      "29668310",
+      "41725816",
+      "40996147",
+      "41749211",
+      "42045441",
+      "38599417",
+      "42338220",
+      "39096613",
+      "31074545",
+      "34252942",
+      "39900285",
+      "38674339",
+      "42587290",
+      "39350338",
+      "41857714",
+      "37328639",
+      "42330352",
+      "41803281",
+      "41653519",
+      "40914877",
+      "41627694",
+      "41448304",
+      "42332136",
+      "42574277",
+      "41762798",
+      "37353532",
+      "40977268",
+      "42347131",
+      "38129864",
+      "42095725",
+      "41679678"
+    ],
+    "review": [
+      "42242678",
+      "31131953"
+    ],
+    "pmc": [
+      "13365626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42242678/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-290",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag291",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

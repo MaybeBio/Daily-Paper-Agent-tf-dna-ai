@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose a deep learning architecture, hybridShape eDeepCNN, that integrates DNA sequence and shape features in a spatially aligned manner for transcription factor binding site (TFBS) prediction. The model uses multi-layer convolutional neural networks with an independent subnetwork for heterogeneous feature distributions and continuous embedding vectors for sequence representation. Performance is demonstrated on 20 in-vitro datasets from universal protein binding microarrays (uPBMs).
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or dataset descriptions are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, quantitative performance metrics, baseline comparisons, statistical significance tests, dataset preprocessing details, hyperparameter settings, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to TFBS prediction by combining sequence and shape features with explicit spatial alignment. The motivation is well grounded in existing literature on DNA shape effects on protein binding. However, the abstract provides no quantitative evidence, no comparison to existing methods, and insufficient methodological detail to assess technical soundness or reproducibility. The core claims of superiority and design logic validation cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, transcription factor binding prediction, and deep learning applications to genomics. Researchers developing sequence-based predictive models may find the spatial alignment strategy and the handling of heterogeneous feature distributions of interest. The work could also appeal to those studying DNA shape determinants of protein-DNA recognition.
+- **Major strengths** The problem is well motivated with reference to growing evidence on DNA shape influence on TF binding. The proposed architecture addresses a specific and relevant challenge, namely the distinct data distributions of sequence and shape features, through an independent subnetwork design. The emphasis on spatial alignment of sequence motifs and shape patterns is a conceptually sound approach. The use of continuous embedding vectors for sequence representation is a modern and reasonable choice.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims "we demonstrate the superiority of our proposed method and validate the underlying design logic" based on experiments on 20 in-vitro datasets.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative results are presented. There are no performance metrics, no baseline comparisons, no statistical tests, and no effect sizes. The claim of superiority is entirely unsupported by the visible evidence.  
+  - **Why it matters** A claim of superiority requires direct comparison against established methods with appropriate metrics and statistical rigor. Without any numbers, the reader cannot assess whether the improvement is meaningful, marginal, or absent.  
+  - **Resolution test** Provide performance metrics (e.g., AUC, AUPRC, F1) for the proposed method and at least one strong baseline across all 20 datasets, with measures of variance and statistical significance (e.g., paired tests).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract describes a "spatially aligned" fusion of sequence and shape information and an "independent subnetwork" for heterogeneous features.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The architectural details are too vague to assess technical soundness. How is spatial alignment achieved? How are sequence and shape features represented and fused? What is the structure of the independent subnetwork? How are continuous embeddings generated and integrated? None of these are specified.  
+  - **Why it matters** Without architectural clarity, the approach cannot be reproduced, and the claimed design logic cannot be evaluated. The novelty of the method relative to existing deep learning approaches for TFBS prediction is also unclear.  
+  - **Resolution test** Provide a detailed description of the architecture, including layer types, dimensions, fusion mechanisms, and training procedures, ideally with a diagram and pseudocode.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract states experiments were conducted on "20 in-vitro datasets derived from universal protein binding microarrays (uPBMs)."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are given on which specific datasets were used, how they were preprocessed, how train and test splits were constructed, or whether cross-validation was employed. The uPBM source is mentioned but not specified.  
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without dataset identifiers and preprocessing details, the experiments cannot be replicated or compared against.  
+  - **Resolution test** List the specific datasets, describe preprocessing steps, and specify train and test protocols in the methods section.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Comparative evaluation  
+  - **Claim pointer** The abstract implies the proposed method outperforms alternatives, but no comparators are named.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not mention which existing methods were compared against. Without named baselines, the reader cannot judge the significance of any reported improvement.  
+  - **Why it matters** Superiority claims are only meaningful relative to state-of-the-art methods. The absence of named baselines weakens the contribution.  
+  - **Resolution test** Specify the baseline methods used and justify their selection as appropriate comparators.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model name  
+  - **Evidence pointer** Abstract  
+  - **Issue** The name "hybridShape eDeepCNN" is unconventional in its capitalization and spacing, which may hinder searchability and readability.  
+  - **Required correction** Consider standardizing the name, e.g., "HybridShape-eDeepCNN" or "hybridShape-eDeepCNN," and use it consistently.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "binding mechanic"  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "binding mechanic" should be "binding mechanism."  
+  - **Required correction** Correct the typo.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Availability statement  
+  - **Evidence pointer** Abstract  
+  - **Issue** No mention of code or data availability, which is increasingly expected for computational methods papers.  
+  - **Required correction** Add a data and code availability statement in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient architectural detail), R1-M3 (lack of dataset and protocol details). These must be resolved before the claims of superiority and design logic validation can be assessed.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of spatially aligned fusion of sequence and shape is not entirely new, but the specific architectural choices may offer some novelty. This cannot be fully assessed from the abstract alone.  
+  - Scientific importance: TFBS prediction is an active and important area, and incorporating DNA shape is a relevant direction. The potential impact is moderate.  
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, which has a broad readership, but the abstract does not convey findings that would attract a wide audience beyond specialists.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative results prevents any judgment.  
+  - Readability for nonspecialists: The abstract is reasonably clear for a technical audience but uses jargon (e.g., "spatially aligned," "heterogeneous features") without sufficient explanation for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of superiority or design logic validation. A full review of the manuscript with methods and results would be required to make a more definitive assessment.
+
+## Risk / unsupported claims
+- The claim of "superiority" of the proposed method is unsupported by any quantitative data in the abstract.
+- The claim that the "underlying design logic" is validated is unsupported without ablation studies or comparative analyses.
+- The effectiveness of the "spatially aligned" fusion approach is not demonstrated.
+- The utility of continuous embedding vectors for sequence representation is asserted but not evidenced.
+- The generalizability of the method across the 20 datasets is claimed but not shown with any results.

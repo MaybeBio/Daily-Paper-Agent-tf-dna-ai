@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "36232996",
+    "doi": "10.3390/ijms231911695",
+    "title": "ALDH3A2, ODF2, QSOX2, and MicroRNA-503-5p Expression to Forecast Recurrence in TMPRSS2-ERG-Positive Prostate Cancer."
+  },
+  "content": {
+    "abstract": "Following radical surgery, patients may suffer a relapse. It is important to identify such patients so that therapy tactics can be modified appropriately. Existing stratification schemes do not display the probability of recurrence with enough precision since locally advanced prostate cancer (PCa) is classified as high-risk but is not ranked in greater detail. Between 40 and 50% of PCa cases belong to the TMPRSS2-ERG subtype that is a sufficiently homogeneous group for high-precision prognostic marker search to be possible. This study includes two independent cohorts and is based on high throughput sequencing and qPCR data. As a result, we have been able to suggest a perspective-trained model involving a deep neural network based on both qPCR data for mRNA and miRNA and clinicopathological criteria that can be used for recurrence risk forecasts in patients with TMPRSS2-ERG-positive, locally advanced PCa (the model uses ALDH3A2 + ODF2 + QSOX2 + hsa-miR-503-5p + ISUP + pT, with an AUC = 0.944). In addition to the prognostic model's use of identified differentially expressed genes and miRNAs, miRNA-target pairs were found that correlate with the prognosis and can be presented as an interactome network.",
+    "keywords": [
+      "RNA-Seq",
+      "TMPRSS2-ERG",
+      "expression",
+      "forecasting",
+      "miRNA-Seq",
+      "neural network",
+      "primary tumor",
+      "prostate cancer",
+      "recurrence",
+      "subtype"
+    ],
+    "mesh_terms": [
+      "Heat-Shock Proteins",
+      "Humans",
+      "Male",
+      "*MicroRNAs/genetics",
+      "Neoplasm Recurrence, Local/genetics/pathology",
+      "Oncogene Proteins, Fusion/genetics",
+      "Oxidoreductases Acting on Sulfur Group Donors",
+      "*Prostatic Neoplasms/metabolism",
+      "RNA, Messenger",
+      "Serine Endopeptidases",
+      "Transcriptional Regulator ERG"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kobelyatskaya, Anastasiya A",
+        "Kudryavtsev, Alexander A",
+        "Kudryavtseva, Anna V",
+        "Snezhkina, Anastasiya V",
+        "Fedorova, Maria S",
+        "Kalinin, Dmitry V",
+        "Pavlov, Vladislav S",
+        "Guvatova, Zulfiya G",
+        "Naberezhnev, Pavel A",
+        "Nyushko, Kirill M",
+        "Alekseev, Boris Y",
+        "Krasnov, George S",
+        "Bulavkina, Elizaveta V",
+        "Pudova, Elena A"
+      ],
+      "short_names": [
+        "Kobelyatskaya AA",
+        "Kudryavtsev AA",
+        "Kudryavtseva AV",
+        "Snezhkina AV",
+        "Fedorova MS",
+        "Kalinin DV",
+        "Pavlov VS",
+        "Guvatova ZG",
+        "Naberezhnev PA",
+        "Nyushko KM",
+        "Alekseev BY",
+        "Krasnov GS",
+        "Bulavkina EV",
+        "Pudova EA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3722-8207",
+        "ORCID: 0000-0002-4421-4364",
+        "ORCID: 0000-0002-6893-4673",
+        "ORCID: 0000-0002-2942-6393",
+        "ORCID: 0000-0003-3494-9807",
+        "ORCID: 0000-0002-6493-8378"
+      ],
+      "affiliations": [
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Vishnevsky Institute of Surgery, Ministry of Health of the Russian Federation, 117997 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "National Medical Research Radiological Center, Ministry of Health of the Russian Federation, 125284 Moscow, Russia.",
+        "National Medical Research Radiological Center, Ministry of Health of the Russian Federation, 125284 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kobelyatskaya, Anastasiya A",
+        "short_name": "Kobelyatskaya AA",
+        "identifiers": [],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kudryavtsev, Alexander A",
+        "short_name": "Kudryavtsev AA",
+        "identifiers": [],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kudryavtseva, Anna V",
+        "short_name": "Kudryavtseva AV",
+        "identifiers": [
+          "0000-0002-3722-8207"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Snezhkina, Anastasiya V",
+        "short_name": "Snezhkina AV",
+        "identifiers": [
+          "0000-0002-4421-4364"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Fedorova, Maria S",
+        "short_name": "Fedorova MS",
+        "identifiers": [
+          "0000-0002-6893-4673"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kalinin, Dmitry V",
+        "short_name": "Kalinin DV",
+        "identifiers": [],
+        "affiliations": [
+          "Vishnevsky Institute of Surgery, Ministry of Health of the Russian Federation, 117997 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Pavlov, Vladislav S",
+        "short_name": "Pavlov VS",
+        "identifiers": [
+          "0000-0002-2942-6393"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Guvatova, Zulfiya G",
+        "short_name": "Guvatova ZG",
+        "identifiers": [
+          "0000-0003-3494-9807"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Naberezhnev, Pavel A",
+        "short_name": "Naberezhnev PA",
+        "identifiers": [],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Nyushko, Kirill M",
+        "short_name": "Nyushko KM",
+        "identifiers": [],
+        "affiliations": [
+          "National Medical Research Radiological Center, Ministry of Health of the Russian Federation, 125284 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Alekseev, Boris Y",
+        "short_name": "Alekseev BY",
+        "identifiers": [],
+        "affiliations": [
+          "National Medical Research Radiological Center, Ministry of Health of the Russian Federation, 125284 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Krasnov, George S",
+        "short_name": "Krasnov GS",
+        "identifiers": [
+          "0000-0002-6493-8378"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Bulavkina, Elizaveta V",
+        "short_name": "Bulavkina EV",
+        "identifiers": [],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Pudova, Elena A",
+        "short_name": "Pudova EA",
+        "identifiers": [],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Oct 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/15 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "42690554",
+      "42291184",
+      "41465507",
+      "40433832",
+      "40376539",
+      "40190726",
+      "37298233",
+      "36713568"
+    ],
+    "refs": [
+      "34858968",
+      "34592197",
+      "34448651",
+      "34350181",
+      "34308351",
+      "34205581",
+      "33973623",
+      "33674602",
+      "33542230",
+      "33331954",
+      "33237311",
+      "33063634",
+      "32792861",
+      "31986411",
+      "31691815",
+      "31471104",
+      "30881377",
+      "30741252",
+      "30413482",
+      "30395331",
+      "30335862",
+      "29858674",
+      "29198331",
+      "29129398",
+      "28028835",
+      "27976428",
+      "27899662",
+      "27688707",
+      "27044421",
+      "26661513",
+      "26544944",
+      "26515982",
+      "25915839",
+      "25063298",
+      "24505269",
+      "24297251",
+      "22736790",
+      "22722839",
+      "22455463",
+      "21634111",
+      "21414208",
+      "20579941",
+      "19910308",
+      "19386263",
+      "19212347",
+      "17527075",
+      "15907591",
+      "12374789",
+      "9749478"
+    ],
+    "similar": [
+      "36232996",
+      "27630329",
+      "37298233",
+      "22505341",
+      "21378318",
+      "20068566",
+      "27910803",
+      "25780911",
+      "23201468",
+      "17108102",
+      "31210145",
+      "29127096",
+      "17059688",
+      "24378408",
+      "24186205",
+      "29773553",
+      "28849022",
+      "30301696",
+      "25239421",
+      "34205581",
+      "27191272",
+      "18676740",
+      "23918607",
+      "19029822",
+      "25007891",
+      "19494719",
+      "17971772",
+      "23669563",
+      "26670747",
+      "27271990",
+      "23480797",
+      "21394739",
+      "27299694",
+      "27377958",
+      "17637754",
+      "23558555",
+      "18283340",
+      "28467610",
+      "23352841",
+      "21584900",
+      "22736790",
+      "23948277",
+      "19584163",
+      "25973080",
+      "30718921",
+      "28189568",
+      "19597533",
+      "20303538",
+      "26990456",
+      "21814574",
+      "27285981",
+      "32677026",
+      "18483239",
+      "23321466",
+      "25252136",
+      "22821757",
+      "30900303",
+      "22674214",
+      "25939480",
+      "19649210",
+      "22821767",
+      "21669963",
+      "30545222",
+      "22313860",
+      "24195515",
+      "28445989",
+      "19664128",
+      "17172822",
+      "23708657",
+      "27170485",
+      "27753122",
+      "21680704",
+      "18694509",
+      "23728339",
+      "18642766",
+      "16951141",
+      "22860005",
+      "16820092",
+      "32573479",
+      "17385188",
+      "25263440",
+      "25015038",
+      "24931216",
+      "26959281"
+    ],
+    "review": [
+      "36232996",
+      "27910803",
+      "31210145",
+      "23558555",
+      "22736790"
+    ],
+    "pmc": [
+      "9569942"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms231911695",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36232996/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36232996",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

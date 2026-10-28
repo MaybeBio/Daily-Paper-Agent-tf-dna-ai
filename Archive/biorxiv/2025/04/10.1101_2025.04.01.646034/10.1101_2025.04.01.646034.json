@@ -1,0 +1,134 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.01.646034",
+  "title": "Improving interpretability of transcription factor binding models with DNA shape features",
+  "doi": "10.1101/2025.04.01.646034",
+  "abstract": "Deep learning models in genomics that predict molecular phenotypes from DNA sequence traditionally focus on one-hot encoded representations. Here, we develop a novel model that extends this approach by incorporating DNA structural attributes indicative of local shape alongside canonical sequence inputs. This augmentation provides an additional axis for model interpretability and aids in identifying regulatory patterns not apparent from sequence alone. Applying this approach to prediction of transcription factor binding (ChIP-seq) demonstrates that combining sequence and structural DNA data can improve the identification of regulatory elements to provide a more nuanced understanding of genomic function and regulation.",
+  "authors": [
+    "Keivanfar RL",
+    "Yang F",
+    "Pollard KS",
+    "Ioannidis NM"
+  ],
+  "published_date": "2025-04-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646034",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646034.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR999313",
+    "raw_record": {
+      "id": "PPR999313",
+      "source": "PPR",
+      "doi": "10.1101/2025.04.01.646034",
+      "title": "Improving interpretability of transcription factor binding models with DNA shape features",
+      "authorString": "Keivanfar RL, Yang F, Pollard KS, Ioannidis NM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Keivanfar RL",
+            "lastName": "Keivanfar",
+            "firstName": "Ryan",
+            "initials": "RL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-4102-7591"
+            }
+          },
+          {
+            "fullName": "Yang F",
+            "lastName": "Yang",
+            "firstName": "Forest",
+            "initials": "F"
+          },
+          {
+            "fullName": "Pollard KS",
+            "lastName": "Pollard",
+            "firstName": "Katherine",
+            "initials": "KS"
+          },
+          {
+            "fullName": "Ioannidis NM",
+            "lastName": "Ioannidis",
+            "firstName": "Nilah",
+            "initials": "NM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9628-8229"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9628-8229"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-1924-6067"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-4102-7591"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Deep learning models in genomics that predict molecular phenotypes from DNA sequence traditionally focus on one-hot encoded representations. Here, we develop a novel model that extends this approach by incorporating DNA structural attributes indicative of local shape alongside canonical sequence inputs. This augmentation provides an additional axis for model interpretability and aids in identifying regulatory patterns not apparent from sequence alone. Applying this approach to prediction of transcription factor binding (ChIP-seq) demonstrates that combining sequence and structural DNA data can improve the identification of regulatory elements to provide a more nuanced understanding of genomic function and regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.01.646034"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-04-07",
+      "firstPublicationDate": "2025-04-03",
+      "firstIndexDate": "2025-04-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

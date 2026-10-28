@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.14.654102",
+  "title": "DPAC: Prediction and Design of Protein-DNA Interactions via Sequence-Based Contrastive Learning",
+  "authors": "Leo Tianlai Chen; Rishab Pulugurta; Pranay Vure; Pranam Chatterjee",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-19",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于对比学习的DPAC模型，利用预训练蛋白和DNA语言模型在共享潜空间中对齐两种模态，实现TF-DNA结合预测与蛋白序列设计，方法新颖且聚焦TF-DNA互作，高度契合本课题。",
+  "abstract": "Interactions between DNA and proteins are pivotal in natural biological processes, and designing proteins that can bind to DNA with high specificity is crucial for advancing genomic technologies. Existing state-of-the-art models for both modeling and designing protein-DNA interactions primarily rely on structural information, facing limitations in scalability and efficiency for large-scale applications. Notable methods like AlphaFold 3 and RosettaTTAFold All-Atom exist, but they are inefficient and inherently struggle at modeling conformationally unstable proteins, such as transcription factors, which arguably represent the most important class of DNA-binding proteins. Here, we present DPAC 1 ( D NA- P rotein binding A lignment via C ontrastive learning), which leverages pre-trained protein and DNA language models via a contrastive loss to align the two modalities in a high-dimensional shared latent space. DPAC not only significantly accelerates the design process compared to current structure-based methods but also demonstrates a strong ability to differentiate real binders from non-binders. Our model achieves an AUC score of 0.591 on a low identity set, outperforming state-of-the-art structure-based methods. Additionally, DPAC integrates simulated annealing for the design of new protein sequences with optimized DNA binding affinity, successfully recovering binding affinity in engineered sequences by up to 20% in in silico tests. Our results highlight DPAC’s potential for facilitating the design and discovery of sequence-specific DNA-binding proteins, paving the way for advancements in genomic research and biotechnology applications.",
+  "abstract_zh": "DNA与蛋白质之间的相互作用在自然生物过程中至关重要，而设计能够以高特异性结合DNA的蛋白质对于推进基因组技术至关重要。现有的用于建模和设计蛋白质-DNA相互作用的先进模型主要依赖结构信息，在大规模应用中面临可扩展性和效率方面的限制。诸如AlphaFold 3和RosettaTTAFold All-Atom等著名方法存在，但它们效率低下，并且本质上难以建模构象不稳定的蛋白质，例如转录因子，这可以说是DNA结合蛋白中最重要的类别。在此，我们提出了DPAC 1（DNA-蛋白质结合对比学习对齐），通过对比损失利用预训练的蛋白质和DNA语言模型，在高维共享潜在空间中对齐这两种模态。DPAC不仅相比当前基于结构的方法显著加速了设计过程，而且展示了区分真实结合物与非结合物的强大能力。我们的模型在低同一性数据集上取得了0.591的AUC分数，优于最先进的基于结构的方法。此外，DPAC集成了模拟退火技术，用于设计具有优化DNA结合亲和力的新蛋白质序列，在计算机模拟测试中成功恢复了工程化序列中高达20%的结合亲和力。我们的结果突显了DPAC在促进序列特异性DNA结合蛋白设计和发现方面的潜力，为基因组研究和生物技术应用的进展铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.14.654102",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.14.654102",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.14.654102/index.html"
+}

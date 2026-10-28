@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report discovery of a novel small molecule, AT-1, described as a HIF-2alpha agonist. They claim AT-1 binds HIF-2alpha (KD 2.63 muM), stabilizes the HIF-2alpha-ARNT heterodimer, and enhances EPO transcription and secretion in cell lines. In zebrafish, AT-1 shows safety and, with Molidustat, mitigates doxorubicin-induced anemia. In a mouse CKD model, AT-1 plus Molidustat increases EPO and alleviates anemia more effectively than Molidustat alone.
+- **Visible evidence base** Abstract text only; no experimental details, figures, tables, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods, compound synthesis and characterization data, binding assay details, mutagenesis data, dose-response curves, animal welfare and ethics statements, statistical methods, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting pharmacological finding, but the evidence as described is insufficient to establish that AT-1 is a bona fide HIF-2alpha agonist with therapeutic relevance. Key mechanistic claims are supported only by indirect or incomplete evidence, and the in vivo data are presented without effect sizes, variability, or statistical validation. The work may be of interest to researchers in anemia and hypoxia signaling, but the current abstract does not provide enough detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers in renal anemia, hypoxia-inducible factor biology, and drug discovery for chronic kidney disease complications. The potential for a non-PHD inhibitor approach to augment EPO production could attract interest from pharmaceutical scientists focused on alternative mechanisms for anemia treatment.
+- **Major strengths** The abstract addresses an important clinical problem, CKD-related anemia, with a novel mechanism distinct from current PHD inhibitor strategies. The combination approach with Molidustat is a logical and potentially translational angle. The use of multiple model systems, from biochemical binding to zebrafish and mouse disease models, suggests a broad experimental effort.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validity
+  - **Claim pointer** AT-1 is described as a HIF-2alpha agonist that binds HIF-2alpha with KD 2.63 muM and enhances stability of the HIF-2alpha-ARNT heterodimer.
+  - **Evidence pointer** Abstract, binding and mutagenesis sections; location not provided
+  - **Concern** The term "agonist" for a transcription factor is unusual and mechanistically ambiguous. The abstract does not clarify whether AT-1 directly promotes HIF-2alpha activation, enhances ARNT dimerization, or acts through an allosteric mechanism. The KD of 2.63 muM is relatively weak for a lead compound, and no comparison to known HIF-2alpha binders or negative controls is provided.
+  - **Why it matters** Without a clear mechanism of action and evidence that AT-1 directly activates HIF-2alpha transcriptional activity, the central claim of the manuscript is not established. The distinction between a stabilizer, a dimerization enhancer, and a true agonist has major implications for therapeutic development and for interpreting downstream effects.
+  - **Resolution test** Provide detailed binding assays with appropriate controls, a clear definition of agonism in this context, and functional assays showing HIF-2alpha-dependent transcriptional activation that is separable from PHD inhibition or other indirect effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and specificity
+  - **Claim pointer** In the adenine-induced CKD mouse model, AT-1 plus Molidustat for 15 days produced stronger effects on increasing EPO levels and alleviating anemia than Molidustat alone.
+  - **Evidence pointer** Abstract, CKD mouse model section; location not provided
+  - **Concern** The abstract reports only that the combination was "stronger" without providing quantitative data, such as hemoglobin levels, EPO concentrations, reticulocyte counts, or statistical significance. No information is given on whether AT-1 alone had any effect, which is critical to determine whether the observed benefit is due to AT-1 activity or an artifact of combination dosing.
+  - **Why it matters** The therapeutic potential of AT-1 rests on this in vivo claim. Without effect sizes, variability, and statistical analysis, the claim is not evaluable. Additionally, the lack of an AT-1 monotherapy arm prevents assessment of whether AT-1 has intrinsic efficacy or only additive effects with Molidustat.
+  - **Resolution test** Provide full dose-response data for AT-1 alone and in combination, with statistical comparisons, and include key hematological parameters and EPO measurements with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Target specificity and off-target effects
+  - **Claim pointer** AT-1 bound to HIF-2alpha and enhanced the stability of the HIF-2alpha-ARNT heterodimer, with critical roles for His293 and Tyr307.
+  - **Evidence pointer** Abstract, molecular docking and mutagenesis sections; location not provided
+  - **Concern** The abstract does not address selectivity of AT-1 for HIF-2alpha over HIF-1alpha or other PAS domain proteins. Given the structural similarity between HIF-alpha isoforms, off-target effects could confound the observed EPO induction. The mutagenesis data are mentioned but not described in terms of functional impact on binding or transcriptional activity.
+  - **Why it matters** Selectivity is essential for a credible drug discovery claim. If AT-1 also activates HIF-1alpha or other pathways, the observed effects may not be attributable to HIF-2alpha agonism, and the therapeutic rationale weakens.
+  - **Resolution test** Include selectivity assays against HIF-1alpha and related proteins, and show that mutations at His293 and Tyr307 abolish or reduce AT-1 binding and functional activity in cellular assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "agonist" for HIF-2alpha
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The term "agonist" is typically reserved for receptors with endogenous ligands. HIF-2alpha is a transcription factor, and the abstract does not define what agonism means in this context.
+  - **Required correction** Define the mechanistic basis for calling AT-1 an agonist, or use more precise terminology such as "activator" or "stabilizer" with supporting evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dose and route consistency
+  - **Affected element** In vitro vs in vivo concentrations
+  - **Evidence pointer** Abstract, pharmacological studies and animal model sections; location not provided
+  - **Issue** In vitro concentrations are given in muM (10, 20, 40 muM), while in vivo dosing is given in mg/kg. The abstract does not discuss whether the in vivo doses achieve plasma or tissue concentrations consistent with the in vitro KD and effective concentrations.
+  - **Required correction** Provide pharmacokinetic data or a brief statement relating in vivo doses to in vitro active concentrations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model relevance
+  - **Affected element** Zebrafish anemia model
+  - **Evidence pointer** Abstract, zebrafish section; location not provided
+  - **Issue** The abstract states AT-1 combined with Molidustat "effectively mitigated" doxorubicin-induced anemia, but no quantitative endpoints are given, and the relevance of this model to human CKD anemia is not explained.
+  - **Required correction** Specify the measured endpoints and their changes, and justify the translational relevance of the zebrafish model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The mechanistic definition of agonism and the quantitative in vivo efficacy data are essential to establish the central claims. Without these, the manuscript does not support its conclusions.
+- **Assessment against Nature-style criteria** Originality: The concept of a direct HIF-2alpha agonist is potentially novel, but the abstract does not distinguish it clearly from known stabilizers or PHD inhibitors. Scientific importance: The clinical problem is significant, but the evidence presented is preliminary and does not yet demonstrate a meaningful advance over existing therapies. Interdisciplinary readership: The topic bridges pharmacology, nephrology, and hypoxia biology, which could attract broad interest if the claims are substantiated. Technical soundness: Not assessable from the abstract; key methods and controls are missing. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the central mechanistic and in vivo efficacy claims require substantial additional evidence. I would be supportive if the technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim that AT-1 is a HIF-2alpha agonist is unsupported without a clear mechanistic definition and functional evidence distinguishing it from indirect effects.
+- The claim that AT-1 enhances HIF-2alpha-ARRT heterodimer stability is not quantitatively supported in the abstract.
+- The in vivo claim of stronger effects in the CKD mouse model is unsupported without quantitative data and statistical analysis.
+- The claim of favorable safety profiles in zebrafish is not supported by specific endpoints or data.
+- The mutagenesis findings are mentioned but not described in sufficient detail to evaluate their validity.

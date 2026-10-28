@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41946881",
+    "doi": "10.1038/s42003-026-09962-8",
+    "title": "Machine and Deep Learning Reveal Sequence Determinants Encoding Bivalent Histone Modifications."
+  },
+  "content": {
+    "abstract": "Bivalent histone modifications, marked by the coexistence of activating and repressive histone marks, define a distinctive chromatin state with key roles in developmental gene regulation. However, the specific sequence features that distinguish bivalent chromatin regions remain unclear. Here we show that genome-wide profiling of H3K4me3, H3K27me3, and H3K9me3 in mouse embryonic stem cells revealed that bivalent domains have higher GC content and stronger evolutionary conservation than monovalent regions. Genes marked by bivalency were enriched in developmental signaling pathways, including Hippo, MAPK, and TGF-beta. Using machine learning models trained on k-mer sequence features, we accurately distinguished bivalent from monovalent regions. Feature analysis identified informative motifs such as TCTGAA and TCACAG, associated with pluripotency transcription factors including OCT4, SOX2, ESRRB, and TCFCP2l1. Deep learning models further improved predictive accuracy and uncovered motifs enriched at the boundaries of bivalent peaks, suggesting positional specificity. These findings reveal that bivalent chromatin states are encoded by distinct sequence features.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Histones/metabolism/genetics",
+      "*Histone Code",
+      "*Deep Learning",
+      "*Machine Learning",
+      "*Mouse Embryonic Stem Cells/metabolism",
+      "*Chromatin/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Xinyu",
+        "Wu, Jie",
+        "Che, Yingxue",
+        "Long, Chunshen",
+        "Xing, Yongqiang",
+        "Li, Hanshuang",
+        "Zuo, Yongchun"
+      ],
+      "short_names": [
+        "Zhao X",
+        "Wu J",
+        "Che Y",
+        "Long C",
+        "Xing Y",
+        "Li H",
+        "Zuo Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6987-7327",
+        "ORCID: 0000-0002-5068-4311",
+        "ORCID: 0000-0002-6065-7835"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China.",
+        "School of Life Science and Technology, Inner Mongolia University of Science and Technology, Baotou, China.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China. lhshuang@mail.imu.edu.cn.",
+        "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China. yczuo@imu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Xinyu",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jie",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Che, Yingxue",
+        "short_name": "Che Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Long, Chunshen",
+        "short_name": "Long C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Yongqiang",
+        "short_name": "Xing Y",
+        "identifiers": [
+          "0000-0001-6987-7327"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Inner Mongolia University of Science and Technology, Baotou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hanshuang",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0002-5068-4311"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China. lhshuang@mail.imu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zuo, Yongchun",
+        "short_name": "Zuo Y",
+        "identifiers": [
+          "0000-0002-6065-7835"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Reproductive Regulation and Breeding of Grassland Livestock, Institutes of Biomedical Sciences, School of Life Sciences, Inner Mongolia University, Hohhot, China. yczuo@imu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2026 Apr 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/08 00:30",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40251810",
+      "39587274",
+      "38840832",
+      "38491910",
+      "37223479",
+      "37191574",
+      "36772998",
+      "36189903",
+      "35850435",
+      "35803226",
+      "35652477",
+      "34849572",
+      "34669035",
+      "34417934",
+      "34172044",
+      "33316032",
+      "32946529",
+      "32728249",
+      "32572255",
+      "31818514",
+      "30967126",
+      "30755522",
+      "30224650",
+      "30224646",
+      "29686265",
+      "28881991",
+      "28716036",
+      "28645171",
+      "28223506",
+      "28035666",
+      "27626379",
+      "27560171",
+      "27209009",
+      "27079975",
+      "27058788",
+      "26590716",
+      "26582124",
+      "26355511",
+      "25953851",
+      "25765347",
+      "25693563",
+      "25240437",
+      "25239089",
+      "25187560",
+      "25033408",
+      "24905168",
+      "24227677",
+      "23788621",
+      "23566087",
+      "23021224",
+      "22517427",
+      "22388286",
+      "21414485",
+      "20479220",
+      "20436464",
+      "20110278",
+      "19884255",
+      "19542351",
+      "18798982",
+      "17603471",
+      "17567990",
+      "17512414",
+      "17324271",
+      "16630819",
+      "16570078",
+      "16100335"
+    ],
+    "similar": [
+      "41946881",
+      "29969988",
+      "26553936",
+      "39731917",
+      "36125264",
+      "20336069",
+      "41500515",
+      "39214979",
+      "38336688",
+      "23128397",
+      "23727241",
+      "29458328",
+      "26644406",
+      "42039627",
+      "28117006",
+      "35092310",
+      "22513113",
+      "27626379",
+      "40571950",
+      "32131813",
+      "27150236",
+      "29915027",
+      "28923849",
+      "37314930",
+      "27681438",
+      "20935159",
+      "41274922",
+      "40011786",
+      "38773546",
+      "27454738",
+      "36028557",
+      "32726618",
+      "16630819",
+      "31858687",
+      "18974828",
+      "29339543",
+      "31208436",
+      "27926531",
+      "20336603",
+      "30115682",
+      "24223747",
+      "21741376",
+      "22537144",
+      "34417934",
+      "27800026",
+      "28946896",
+      "20661424",
+      "26070559",
+      "41125591",
+      "25749033",
+      "24845830",
+      "30143598",
+      "26582124",
+      "18493325",
+      "25163646",
+      "30604769",
+      "39209535",
+      "23990805",
+      "39447008",
+      "21849501",
+      "33208095",
+      "19047520",
+      "28180283",
+      "34023782",
+      "41074186",
+      "22920947",
+      "30753586",
+      "36864100",
+      "38385532",
+      "26590716",
+      "23564346",
+      "41162361",
+      "30472157",
+      "31491936",
+      "29549165",
+      "31053165",
+      "23867747",
+      "32572255",
+      "33479238",
+      "24316986",
+      "41325801",
+      "25658386",
+      "38182582",
+      "35273399",
+      "27634286",
+      "41034520",
+      "25574027",
+      "28880717",
+      "34991687",
+      "41063505",
+      "23761442",
+      "34667120",
+      "42511625",
+      "42267784",
+      "21383318",
+      "32131873",
+      "23788621",
+      "38992624",
+      "40389726",
+      "31021473"
+    ],
+    "review": [
+      "41946881",
+      "26553936",
+      "28117006",
+      "22513113",
+      "28923849",
+      "36028557",
+      "34417934",
+      "38385532"
+    ],
+    "pmc": [
+      "13057473"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-026-09962-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41946881/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

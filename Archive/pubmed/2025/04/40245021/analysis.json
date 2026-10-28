@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40245021",
+  "title": "Association between hyperlipidemia and nephrolithiasis: A comprehensive bioinformatics analysis deciphering the potential common denominator pathogenesis.",
+  "authors": "Su, Zhikai; Ling, Zhenjie; Chen, Haoqiang; Hu, Lei; Xiang, Songtao; Li, Qian; Zhou, Jianfu",
+  "journal": "PloS one",
+  "published_date": "2025-04-17",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用生物信息学分析肾结石与高脂血症共病诊断基因，虽构建了TF-gene调控网络，但核心是表达谱与临床诊断，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: Evidence suggests that nephrolithiasis and hyperlipidemia are linked. The study is designed to identify diagnostic biomarkers for nephrolithiasis in conjunction with hyperlipidemia using bioinformatics analysis, while exploring the potential common denominator pathogenesis. METHODS: The NCBI Gene Expression Omnibus (GEO) database provided separate datasets for nephrolithiasis and hyperlipidemia. We employed the R limma package to detect differentially expressed genes (DEGs), which were subsequently analyzed for enrichment using Gene Set Enrichment Analysis (GSEA), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways. Immune cell infiltration was analyzed by the CIBERSORT method. The WGCNA-R package clustered genes with similar expression profiles, followed by an analysis of the associations between the modules and specific traits or phenotypes. The STRING database was utilized to establish a protein-protein interaction (PPI) network and key functional modules, which were then analyzed using Cytoscape software. Diagnostic genes for both diseases were screened from core hub genes using least absolute shrinkage and selection operator (Lasso) regression. Subsequently, we generated receiver operating characteristic (ROC) curves to validate the predictive ability of these diagnostic genes for diagnosing nephrolithiasis in combination with hyperlipidemia. Lastly, the Network Analyst platform facilitated the construction of transcription factor-gene (TF-gene) and TF-miRNA regulatory networks. RESULTS: Based on datasets of nephrolithiasis and hyperlipidemia, we identified 167 DEGs and 74 hub genes through WGCNA. Using PPI networks and machine learning techniques, we recognized three frequently diagnostic genes (HSP90AB1, HSPA5, and STUB1), which demonstrated high diagnostic validity. The functional enrichment of these three diagnostic genes primarily involved pathways related to cellular metabolism. CONCLUSIONS: Our study identified three candidate diagnostic genes that can predict nephrolithiasis in conjunction with hyperlipidemia, providing a solid foundation for further exploration into the pathogenesis of nephrolithiasis and hyperlipidemia.",
+  "abstract_zh": "目的：有证据表明肾结石病与高脂血症存在关联。本研究旨在通过生物信息学分析，识别与高脂血症并发的肾结石病的诊断生物标志物，同时探讨潜在共同发病机制。方法：从NCBI基因表达综合数据库（GEO）获取肾结石病和高脂血症的独立数据集。我们采用R语言limma包检测差异表达基因（DEGs），随后利用基因集富集分析（GSEA）、基因本体论（GO）和京都基因与基因组百科全书（KEGG）通路进行富集分析。通过CIBERSORT方法分析免疫细胞浸润。WGCNA-R包对表达谱相似的基因进行聚类，随后分析模块与特定性状或表型之间的关联。利用STRING数据库构建蛋白质-蛋白质相互作用（PPI）网络和关键功能模块，并使用Cytoscape软件进行分析。通过最小绝对收缩和选择算子（Lasso）回归从核心枢纽基因中筛选出两种疾病的诊断基因。随后，我们生成受试者工作特征（ROC）曲线，以验证这些诊断基因在诊断肾结石病合并高脂血症中的预测能力。最后，Network Analyst平台用于构建转录因子-基因（TF-gene）和TF-miRNA调控网络。结果：基于肾结石病和高脂血症的数据集，我们通过WGCNA识别出167个DEGs和74个枢纽基因。利用PPI网络和机器学习技术，我们确定了三个常见诊断基因（HSP90AB1、HSPA5和STUB1），这些基因显示出较高的诊断有效性。这三个诊断基因的功能富集主要涉及细胞代谢相关通路。结论：我们的研究识别出三个候选诊断基因，可预测肾结石病合并高脂血症，为进一步探索肾结石病和高脂血症的发病机制奠定了坚实基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40245021/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40245021/",
+  "paper_page_path": "papers/pubmed/40245021/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.11.01.466840",
+  "title": "Base-resolution prediction of transcription factor binding signals by a deep learning framework",
+  "authors": "Qinhu Zhang; Ying He; Siguo Wang; Zhanheng Chen; Zhenhao Guo; Zhen Cui; De-Shuang Huang",
+  "journal": "bioRxiv",
+  "published_date": "2021-11-04",
+  "window": {
+    "start": "2021-11-01",
+    "end": "2021-11-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全卷积神经网络FCN在碱基分辨率上预测TF-DNA结合信号，同时完成结合区判别、定位与motif预测，核心聚焦TF-DNA结合位点识别，方法为深度学习，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) play an important role in regulating gene expression, thus the identification of the sites bound by them has become a fundamental step for molecular and cellular biology. In this paper, we developed a deep learning framework leveraging existing fully convolutional neural networks (FCN) to predict TF-DNA binding signals at the base-resolution level, called FCNsignal. The proposed FCNsignal can simultaneously achieve the following tasks: (i) modeling the base-resolution signals of binding regions; (ii) discriminating binding or non-binding regions; (iii) locating TF-DNA binding regions; (iv) predicting binding motifs. The experimental results on 53 TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets show that our proposed framework outperforms some existing state-of-the-art methods. In addition, we explored to use the trained FCNsignal to locate all potential TF-DNA binding regions on a whole chromosome and predict DNA sequences of arbitrary length, and the results show that our framework can find most of the known binding regions and accept sequences of arbitrary length. Furthermore, we demonstrated the potential ability of our framework in discovering causal disease-associated single-nucleotide polymorphisms (SNPs) through a series of experiments. Author summary Identification of transcription factor binding sites (TFBSs) is fundamental to study gene regulatory networks in biological systems, as TFs activate or suppress the transcription of genes by binding to specific TFBSs. With the development of high-throughput sequencing technologies and deep learning (DL), several DL-based approaches have been developed for systematically studying TFBSs, achieving impressive performance. Nevertheless, these methods either excessively focus on discriminating binding or non-binding sequences or individually accomplish multiple TFBSs-associated tasks. In this work, we provide an integrated framework, which utilizes the FCN architecture to predict TF-DNA binding signals at the base-resolution level, to simultaneously study multiple TFBSs-associated tasks. More importantly, we also demonstrate that our proposed framework has the ability to locate all potential TF-DNA binding regions from DNA sequences of arbitrary length. We hope that our framework can provide a new perspective on studying the mechanism of TF-DNA binding and its related tasks.",
+  "abstract_zh": "转录因子（TFs）在调控基因表达中发挥重要作用，因此识别其结合位点已成为分子与细胞生物学的基础步骤。本文中，我们开发了一种深度学习框架，利用现有的全卷积神经网络（FCN）在碱基分辨率水平预测TF-DNA结合信号，称为FCNsignal。所提出的FCNsignal可同时实现以下任务：（i）建模结合区域的碱基分辨率信号；（ii）区分结合或非结合区域；（iii）定位TF-DNA结合区域；（iv）预测结合基序。在53个TF ChIP-seq数据集和6个染色质可及性ATAC-seq数据集上的实验结果表明，我们提出的框架优于一些现有的最先进方法。此外，我们探索使用训练好的FCNsignal定位整个染色体上所有潜在的TF-DNA结合区域，并预测任意长度的DNA序列，结果显示我们的框架能够找到大多数已知结合区域并接受任意长度的序列。进一步地，通过一系列实验，我们展示了该框架在发现疾病相关单核苷酸多态性（SNPs）方面的潜在能力。作者总结：识别转录因子结合位点（TFBSs）是研究生物系统中基因调控网络的基础，因为转录因子通过结合特定TFBSs来激活或抑制基因转录。随着高通量测序技术和深度学习（DL）的发展，已开发出多种基于DL的方法用于系统研究TFBSs，并取得了显著性能。然而，这些方法要么过度专注于区分结合或非结合序列，要么单独完成多个与TFBSs相关的任务。在本工作中，我们提供了一个集成框架，利用FCN架构在碱基分辨率水平预测TF-DNA结合信号，以同时研究多个与TFBSs相关的任务。更重要的是，我们还证明了所提出的框架具有从任意长度DNA序列中定位所有潜在TF-DNA结合区域的能力。我们希望我们的框架能为研究TF-DNA结合机制及其相关任务提供新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.11.01.466840",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.11.01.466840",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.11.01.466840/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40234426",
+  "title": "Predicting gene expression changes from chromatin structure modification.",
+  "authors": "Senapati, Swayamshree; Irshad, Inayat Ullah; Sharma, Ajeet K; Kumar, Hemant",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用HiC数据驱动的聚合物模型和马尔可夫链模拟染色质结构变化对基因表达的影响，涉及CTCF介导的TAD边界扰动，虽非直接TF-DNA结合建模，但属于蛋白质-DNA互作相关的染色质结构-基因调控机制研究，方法可迁移至TF-DNA互作建模。",
+  "abstract": "Spatial organization of chromatin plays a critical role in gene transcription, but connecting population-averaged HiC data to functional outcomes remains a challenge. We present a computational framework linking HiC contact map to gene transcription. Utilizing a bead-spring polymer model informed by HiC contact maps, we generate an ensemble of 3D conformations for a given genomic locus. These conformations are then coupled to gene transcription levels through a Markov chain model, with transition rates derived from molecular dynamics simulations. The efficacy of this framework is demonstrated by simulating the perturbation of a CTCF-mediated TAD boundary, impacting the expression of sox9 and kcnj2. Our model quantitatively reproduces experimentally observed changes in gene expression, revealing that the increased kcnj2 transcription is a consequence of enhancers within the sox9 TAD becoming accessible upon boundary disruption. Quantifying enhancer impact, our model can also identify functional enhancers. This framework enhances our understanding of the relationship between chromosome spatial architecture and gene regulation.",
+  "abstract_zh": "染色质的空间组织在基因转录中扮演关键角色，但将群体平均的HiC数据与功能结果联系起来仍是一个挑战。我们提出了一种计算框架，将HiC接触图与基因转录联系起来。利用由HiC接触图指导的珠-弹簧聚合物模型，我们为给定基因组位点生成一组三维构象。这些构象随后通过马尔可夫链模型与基因转录水平耦合，其中转移速率源自分子动力学模拟。该框架的有效性通过模拟CTCF介导的TAD边界扰动得以展示，该扰动影响sox9和kcnj2的表达。我们的模型定量重现了实验观察到的基因表达变化，揭示kcnj2转录增加是sox9 TAD内增强子在边界破坏后变得可及的结果。通过量化增强子影响，我们的模型还能识别功能性增强子。该框架增进了我们对染色体空间结构与基因调控之间关系的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40234426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40234426/",
+  "paper_page_path": "papers/pubmed/40234426/index.html"
+}

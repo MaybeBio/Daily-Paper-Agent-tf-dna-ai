@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce ChromBPNet, a deep learning model that factorizes assay-specific enzyme biases from regulatory sequence determinants in base-resolution chromatin accessibility data. They claim robust discovery of TF motif lexicons, cooperative motif syntax, and footprints across assays and sequencing depths; competitive performance against larger models for variant effect prediction on accessibility, pioneer TF binding, and reporter activity; and utility in prioritizing and interpreting regulatory variants linked to complex traits and rare diseases.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, dataset descriptions, or model architecture specifications are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark protocols, dataset identifiers, model hyperparameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable contribution to regulatory genomics, addressing a recognized challenge in separating technical enzyme bias from biological sequence determinants in chromatin accessibility assays. The proposed model appears lightweight yet claims competitiveness with larger models, which is noteworthy. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or generalizability of these claims. Key technical details, benchmark comparisons, and statistical rigor are not assessable from the supplied material. The clinical and trait-associated variant interpretation claims are particularly broad and would require substantial validation evidence.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics would be interested in the methodological advances in bias factorized modeling and footprint detection. Experimental biologists studying cis-regulatory element function, transcription factor binding, and chromatin dynamics would value improved variant effect prediction tools. Human geneticists studying complex trait and rare disease variants could benefit from enhanced variant prioritization and interpretation capabilities. The lightweight design may appeal to researchers with limited computational resources.
+- **Major strengths** The conceptual framing of explicitly deconvolving enzyme bias from regulatory sequence determinants addresses a well-known confound in ATAC-seq and DNase-seq analyses. The claim of competitive performance despite lightweight design suggests potential practical advantages in accessibility and scalability. The breadth of applications, from motif discovery to variant interpretation, indicates a versatile framework with potential broad utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model detects, learns, and deconvolves assay-specific enzyme biases from regulatory sequence determinants of accessibility, enabling robust discovery of compact TF motif lexicons, cooperative motif syntax, and precision footprints across assays and sequencing depths.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no description of the model architecture, training procedure, or the specific mechanism by which bias factorized learning is achieved. No validation metrics, comparison baselines, or statistical tests are presented to support the claim of robust discovery across assays and sequencing depths.
+  - **Why it matters** The central methodological contribution is the bias factorized approach. Without architectural details and quantitative validation, the reader cannot assess whether the deconvolution is genuinely novel, correctly implemented, or superior to existing bias correction methods. The claim of robustness across sequencing depths is particularly strong and requires explicit demonstration.
+  - **Resolution test** Provide model architecture diagrams, formal description of the bias factorized learning objective, and benchmark results showing motif discovery and footprint detection performance across at least two assay types and multiple sequencing depth conditions, with appropriate statistical comparisons against existing methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Extensive benchmarks show that ChromBPNet, despite its lightweight design, is competitive with much larger contemporary models at predicting variant effects on chromatin accessibility, pioneer TF binding, and reporter activity across assays, cell contexts, and ancestry.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims competitiveness with larger models but provides no quantitative comparison, no specification of which models were compared, no metrics, and no description of the benchmark datasets or evaluation protocols. The scope of "across assays, cell contexts, and ancestry" is stated without any supporting data.
+  - **Why it matters** The claim of competitive performance against larger models is a key selling point of the lightweight design. Without explicit benchmark numbers, model names, dataset descriptions, and statistical significance testing, this claim cannot be evaluated. The breadth of the claim across multiple dimensions increases the need for rigorous evidence.
+  - **Resolution test** Present benchmark tables with performance metrics for ChromBPNet and all comparator models on standardized datasets for each prediction task, including confidence intervals and significance tests. Specify the number of cell contexts and ancestry groups, and describe how these were selected to avoid bias.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** ChromBPNet also helps prioritize and interpret regulatory variants that influence complex traits and rare diseases, thereby providing a powerful lens to decode regulatory DNA and genetic variation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract makes a broad claim about utility in complex trait and rare disease variant interpretation without presenting any case studies, validation against known disease associated variants, or comparison with existing variant prioritization tools. No specific traits or diseases are mentioned, and no evidence of clinical or functional validation is provided.
+  - **Why it matters** Variant interpretation in complex traits and rare diseases is a high stakes application with substantial existing literature and established tools. Claims of utility in this domain require demonstration of improved accuracy, calibration, or novel biological insights beyond what existing methods provide. The abstract does not establish this.
+  - **Resolution test** Provide at least one detailed case study with known regulatory variants associated with a complex trait or rare disease, showing ChromBPNet based prioritization and interpretation, with experimental or independent validation, and comparison against established variant effect prediction tools.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses specialized terms such as "bias factorized," "motif lexicons," and "cooperative motif syntax" without brief definitions or context, which may limit accessibility for readers outside computational genomics.
+  - **Required correction** Add brief parenthetical explanations or contextual phrasing for these terms to improve accessibility for a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract scope statement
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "across assays, cell contexts, and ancestry" is broad and could be interpreted as exhaustive coverage. It is unclear whether this refers to a few representative conditions or a systematic survey.
+  - **Required correction** Specify the number and types of assays, cell contexts, and ancestry groups evaluated, or qualify the claim with terms such as "in a diverse set of" to avoid overgeneralization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model comparison claim
+  - **Evidence pointer** Abstract
+  - **Issue** The claim of being "competitive with much larger contemporary models" does not specify whether this refers to prediction accuracy, computational efficiency, or both.
+  - **Required correction** Clarify the dimensions on which competitiveness is claimed and provide specific metrics for each dimension.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient technical detail or quantitative evidence to establish the core methodological claims, the comparative performance claims, or the variant interpretation utility claims.
+- **Assessment against Nature-style criteria** Originality: The bias factorized approach appears conceptually novel, but the abstract does not provide enough detail to distinguish it from existing bias correction methods in chromatin accessibility modeling. Scientific importance: The potential to improve variant interpretation and motif discovery is significant, but the evidence provided is insufficient to establish importance beyond incremental advances. Interdisciplinary readership: The work bridges machine learning, genomics, and human genetics, which could attract broad interest, but the abstract is written primarily for specialists. Technical soundness: Not assessable from the abstract alone; no methodological details or validation results are provided. Readability for nonspecialists: The abstract is dense with jargon and would benefit from clearer framing of the problem and contributions for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising directions and plausible claims, but the absence of methodological detail, quantitative benchmarks, and validation studies prevents any assessment of technical soundness or scientific impact. A full manuscript review would be required to determine whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim of robust discovery of TF motif lexicons, cooperative motif syntax, and precision footprints across assays and sequencing depths is unsupported without benchmark data.
+- The claim of competitive performance with larger models is unsupported without specific model names, metrics, and datasets.
+- The claim of utility in prioritizing and interpreting regulatory variants for complex traits and rare diseases is unsupported without case studies or validation.
+- The claim of providing "a powerful lens to decode regulatory DNA and genetic variation" is an overstatement relative to the evidence presented in the abstract.
+- The generalizability of the model across ancestry groups is asserted without any description of the ancestral diversity in training or evaluation data.

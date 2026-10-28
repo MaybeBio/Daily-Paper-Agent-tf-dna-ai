@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "39198740",
+    "doi": "10.1186/s12859-024-05876-6",
+    "title": "Prediction of mutation-induced protein stability changes based on the geometric representations learned by a self-supervised method."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Thermostability is a fundamental property of proteins to maintain their biological functions. Predicting protein stability changes upon mutation is important for our understanding protein structure-function relationship, and is also of great interest in protein engineering and pharmaceutical design. RESULTS: Here we present mutDDG-SSM, a deep learning-based framework that uses the geometric representations encoded in protein structure to predict the mutation-induced protein stability changes. mutDDG-SSM consists of two parts: a graph attention network-based protein structural feature extractor that is trained with a self-supervised learning scheme using large-scale high-resolution protein structures, and an eXtreme Gradient Boosting model-based stability change predictor with an advantage of alleviating overfitting problem. The performance of mutDDG-SSM was tested on several widely-used independent datasets. Then, myoglobin and p53 were used as case studies to illustrate the effectiveness of the model in predicting protein stability changes upon mutations. Our results show that mutDDG-SSM achieved high performance in estimating the effects of mutations on protein stability. In addition, mutDDG-SSM exhibited good unbiasedness, where the prediction accuracy on the inverse mutations is as well as that on the direct mutations. CONCLUSION: Meaningful features can be extracted from our pre-trained model to build downstream tasks and our model may serve as a valuable tool for protein engineering and drug design.",
+    "keywords": [
+      "EXtreme Gradient Boosting model",
+      "Graph attention network",
+      "Mutation",
+      "Protein stability changes",
+      "Self-supervised learning"
+    ],
+    "mesh_terms": [
+      "*Protein Stability",
+      "*Mutation",
+      "*Proteins/chemistry/genetics/metabolism",
+      "Myoglobin/chemistry/genetics",
+      "Tumor Suppressor Protein p53/genetics/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Deep Learning",
+      "Supervised Machine Learning",
+      "Databases, Protein",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shan Shan",
+        "Liu, Zhao Ming",
+        "Li, Jiao",
+        "Ma, Yi Bo",
+        "Dong, Ze Yuan",
+        "Hou, Jun Wei",
+        "Shen, Fu Jie",
+        "Wang, Wei Bu",
+        "Li, Qi Ming",
+        "Su, Ji Guo"
+      ],
+      "short_names": [
+        "Li SS",
+        "Liu ZM",
+        "Li J",
+        "Ma YB",
+        "Dong ZY",
+        "Hou JW",
+        "Shen FJ",
+        "Wang WB",
+        "Li QM",
+        "Su JG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China.",
+        "National Engineering Center for New Vaccine Research, Beijing, China. liqiming189@163.com.",
+        "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China. liqiming189@163.com.",
+        "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China. jiguosu@hotmail.com.",
+        "National Engineering Center for New Vaccine Research, Beijing, China. jiguosu@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shan Shan",
+        "short_name": "Li SS",
+        "identifiers": [],
+        "affiliations": [
+          "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+          "National Engineering Center for New Vaccine Research, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhao Ming",
+        "short_name": "Liu ZM",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Center for New Vaccine Research, Beijing, China.",
+          "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+          "National Engineering Center for New Vaccine Research, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yi Bo",
+        "short_name": "Ma YB",
+        "identifiers": [],
+        "affiliations": [
+          "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+          "National Engineering Center for New Vaccine Research, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Ze Yuan",
+        "short_name": "Dong ZY",
+        "identifiers": [],
+        "affiliations": [
+          "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+          "National Engineering Center for New Vaccine Research, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Jun Wei",
+        "short_name": "Hou JW",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Center for New Vaccine Research, Beijing, China.",
+          "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Fu Jie",
+        "short_name": "Shen FJ",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Center for New Vaccine Research, Beijing, China.",
+          "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei Bu",
+        "short_name": "Wang WB",
+        "identifiers": [],
+        "affiliations": [
+          "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China.",
+          "National Engineering Center for New Vaccine Research, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qi Ming",
+        "short_name": "Li QM",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Center for New Vaccine Research, Beijing, China. liqiming189@163.com.",
+          "The Sixth Laboratory, National Vaccine and Serum Institute (NVSI), Beijing, China. liqiming189@163.com."
+        ]
+      },
+      {
+        "full_name": "Su, Ji Guo",
+        "short_name": "Su JG",
+        "identifiers": [],
+        "affiliations": [
+          "High Performance Computing Center, National Vaccine and Serum Institute (NVSI), Beijing, China. jiguosu@hotmail.com.",
+          "National Engineering Center for New Vaccine Research, Beijing, China. jiguosu@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2024 Aug 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:52",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "42687888",
+      "42428996",
+      "42412831",
+      "41795206",
+      "39945554"
+    ],
+    "refs": [
+      "37569449",
+      "36629451",
+      "35864134",
+      "35589837",
+      "35538084",
+      "35021190",
+      "34922207",
+      "34890132",
+      "34815338",
+      "34347784",
+      "34039967",
+      "33718626",
+      "33435356",
+      "33253214",
+      "32958805",
+      "32881105",
+      "32258884",
+      "31693276",
+      "31585087",
+      "31352058",
+      "31273374",
+      "31266447",
+      "31243847",
+      "30874800",
+      "30759982",
+      "30616716",
+      "30535291",
+      "30236283",
+      "29718330",
+      "29718106",
+      "29540703",
+      "29401000",
+      "28746339",
+      "28140371",
+      "27766851",
+      "27730551",
+      "27318206",
+      "27160393",
+      "27122231",
+      "26797105",
+      "26054434",
+      "25885774",
+      "25352545",
+      "24829462",
+      "24281696",
+      "23988151",
+      "23565140",
+      "21645855",
+      "21593128",
+      "21287615",
+      "19654118",
+      "15980478",
+      "12912846",
+      "4760134"
+    ],
+    "similar": [
+      "39198740",
+      "38508191",
+      "34058752",
+      "30417935",
+      "25957347",
+      "31693276",
+      "34347784",
+      "38501649",
+      "37897811",
+      "29994278",
+      "38285937",
+      "34101125",
+      "37643501",
+      "39115336",
+      "39179993",
+      "33450251",
+      "32203653",
+      "33378330",
+      "35838124",
+      "38801702",
+      "39043654",
+      "30759982",
+      "37598424",
+      "19561092",
+      "34050498",
+      "26493682",
+      "23064876",
+      "37184062",
+      "33267753",
+      "31216622",
+      "30939415",
+      "26361227",
+      "35973091",
+      "38084013",
+      "23369338",
+      "36801953",
+      "25243403",
+      "32727476",
+      "38743747",
+      "28710274",
+      "20232415",
+      "31412138",
+      "33993559",
+      "30946675",
+      "39125949",
+      "38718170",
+      "24564514",
+      "33253214",
+      "38032742",
+      "38612602",
+      "31819266",
+      "31273374",
+      "37283042",
+      "38166383",
+      "37695922",
+      "34944427",
+      "38003686",
+      "35501680",
+      "24281696",
+      "32401507",
+      "19054789",
+      "34021153",
+      "38416611",
+      "34236667",
+      "31906171",
+      "30530227",
+      "25229688",
+      "38291362",
+      "38643379",
+      "35189634",
+      "31380766",
+      "19840377",
+      "29949987",
+      "37356902",
+      "38564358",
+      "32375024",
+      "27914054",
+      "32149653",
+      "31304749",
+      "26804571",
+      "30945219",
+      "37696966",
+      "38728994",
+      "33035205",
+      "37448360",
+      "36124753",
+      "38979621",
+      "33435356",
+      "30419784",
+      "39092854",
+      "28056090",
+      "37547004",
+      "20598148",
+      "21787301",
+      "39020005",
+      "39191788",
+      "29889900",
+      "29540703",
+      "38137050",
+      "36519247",
+      "36261883",
+      "38039271",
+      "39026838"
+    ],
+    "review": [
+      "39198740",
+      "34101125",
+      "34050498",
+      "31273374",
+      "38643379"
+    ],
+    "pmc": [
+      "11360314"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05876-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39198740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.14.532539",
+  "title": "What is hidden in the darkness? Deep-learning assisted large-scale protein family curation uncovers novel protein families and folds",
+  "doi": "10.1101/2023.03.14.532539",
+  "abstract": "Driven by the development and upscaling of fast genome sequencing and assembly pipelines, the number of protein-coding sequences deposited in public protein sequence databases is increasing exponentially. Recently, the dramatic success of deep learning-based approaches applied to protein structure prediction has done the same for protein structures. We are now entering a new era in protein sequence and structure annotation, with hundreds of millions of predicted protein structures made available through the AlphaFold database. These models cover most of the catalogued natural proteins, including those difficult to annotate for function or putative biological role based on standard, homology-based approaches. In this work, we quantified how much of such “dark matter” of the natural protein universe was structurally illuminated by AlphaFold2 and modelled this diversity as an interactive sequence similarity network that can be navigated at https://uniprot3d.org/atlas/AFDB90v4 . In the process, we discovered multiple novel protein families by searching for novelties from sequence, structure, and semantic perspectives. We added a number of them to Pfam, and experimentally demonstrate that one of these belongs to a novel superfamily of translation-targeting toxin-antitoxin systems, TumE-TumA. This work highlights the role of large-scale, evolution-driven protein comparison efforts in combination with structural similarities, genomic context conservation, and deep-learning based function prediction tools for the identification of novel protein families, aiding not only annotation and classification efforts but also the curation and prioritisation of target proteins for experimental characterisation.",
+  "authors": [
+    "Durairaj J",
+    "Waterhouse AM",
+    "Mets T",
+    "Brodiazhenko T",
+    "Abdullah M",
+    "Studer G",
+    "Akdel M",
+    "Andreeva A",
+    "Bateman A",
+    "Tenson T",
+    "Tenson T",
+    "Hauryliuk V",
+    "Schwede T",
+    "Pereira J"
+  ],
+  "published_date": "2023-03-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.14.532539",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.14.532539.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR630600",
+    "raw_record": {
+      "id": "PPR630600",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR630600"
+        ]
+      },
+      "doi": "10.1101/2023.03.14.532539",
+      "title": "What is hidden in the darkness? Deep-learning assisted large-scale protein family curation uncovers novel protein families and folds",
+      "authorString": "Durairaj J, Waterhouse AM, Mets T, Brodiazhenko T, Abdullah M, Studer G, Akdel M, Andreeva A, Bateman A, Tenson T, Tenson T, Hauryliuk V, Schwede T, Pereira J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Durairaj J",
+            "lastName": "Durairaj",
+            "firstName": "Janani",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Switzerland"
+                },
+                {
+                  "affiliation": "SIB Swiss Institute of Bioinformatics, University of Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waterhouse AM",
+            "lastName": "Waterhouse",
+            "firstName": "Andrew",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-5717-6063"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Switzerland"
+                },
+                {
+                  "affiliation": "SIB Swiss Institute of Bioinformatics, University of Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mets T",
+            "lastName": "Mets",
+            "firstName": "Toomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6796-7000"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brodiazhenko T",
+            "lastName": "Brodiazhenko",
+            "firstName": "Tetiana",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abdullah M",
+            "lastName": "Abdullah",
+            "firstName": "Minhal",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6018-314X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Studer G",
+            "lastName": "Studer",
+            "firstName": "Gabriel",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0462-1456"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Switzerland"
+                },
+                {
+                  "affiliation": "SIB Swiss Institute of Bioinformatics, University of Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Akdel M",
+            "lastName": "Akdel",
+            "firstName": "Mehmet",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6092-3494"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "VantAI, New York, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andreeva A",
+            "lastName": "Andreeva",
+            "firstName": "Antonina",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0450-0091"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bateman A",
+            "lastName": "Bateman",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6982-4660"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tenson T",
+            "lastName": "Tenson",
+            "firstName": "Tanel",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2389-5057"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tenson T",
+            "lastName": "Tenson",
+            "firstName": "Tanel",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0260-3601"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hauryliuk V",
+            "lastName": "Hauryliuk",
+            "firstName": "Vasili",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Estonia"
+                },
+                {
+                  "affiliation": "Department of Experimental Medical Science, Lund University, Sweden"
+                },
+                {
+                  "affiliation": "Science for Life Laboratory, Lund, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schwede T",
+            "lastName": "Schwede",
+            "firstName": "Torsten",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2715-335X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Switzerland"
+                },
+                {
+                  "affiliation": "SIB Swiss Institute of Bioinformatics, University of Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pereira J",
+            "lastName": "Pereira",
+            "firstName": "Joana",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5588-6588"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, University of Basel, Switzerland"
+                },
+                {
+                  "affiliation": "SIB Swiss Institute of Bioinformatics, University of Basel, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0260-3601"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0450-0091"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5588-6588"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6018-314X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6092-3494"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6796-7000"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6982-4660"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0462-1456"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2389-5057"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2715-335X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-5717-6063"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Driven by the development and upscaling of fast genome sequencing and assembly pipelines, the number of protein-coding sequences deposited in public protein sequence databases is increasing exponentially. Recently, the dramatic success of deep learning-based approaches applied to protein structure prediction has done the same for protein structures. We are now entering a new era in protein sequence and structure annotation, with hundreds of millions of predicted protein structures made available through the AlphaFold database. These models cover most of the catalogued natural proteins, including those difficult to annotate for function or putative biological role based on standard, homology-based approaches. In this work, we quantified how much of such “dark matter” of the natural protein universe was structurally illuminated by AlphaFold2 and modelled this diversity as an interactive sequence similarity network that can be navigated at  https://uniprot3d.org/atlas/AFDB90v4 . In the process, we discovered multiple novel protein families by searching for novelties from sequence, structure, and semantic perspectives. We added a number of them to Pfam, and experimentally demonstrate that one of these belongs to a novel superfamily of translation-targeting toxin-antitoxin systems, TumE-TumA. This work highlights the role of large-scale, evolution-driven protein comparison efforts in combination with structural similarities, genomic context conservation, and deep-learning based function prediction tools for the identification of novel protein families, aiding not only annotation and classification efforts but also the curation and prioritisation of target proteins for experimental characterisation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/19/2023.03.14.532539.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.14.532539"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR630600"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR630600&type=FILE&fileName=EMS172659-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS172659",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-03-17",
+      "firstPublicationDate": "2023-03-15",
+      "firstIndexDate": "2023-03-17",
+      "fullTextReceivedDate": "2023-04-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

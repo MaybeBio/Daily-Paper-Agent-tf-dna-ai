@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results and Discussion, Materials and Methods, Conclusions) as provided by the user. No figures, tables, or supplementary files were available for inspection.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims as presented in the supplied text. Experimental data (e.g., EMSA gels, CD spectra, SEC chromatograms) are referenced but not directly visible.
+- **Shared manuscript claim summary** The authors use AlphaFold 3 to model the structures of ten rice DREB1 transcription factors and their DNA-binding domain (DBD) in complex with CRT, DRE, and GCC-box elements. They identify specific residues (R40, R55, R57, E66, R68, R76) predicted to mediate DNA recognition, validate binding via EMSA, and use mutagenesis to confirm the roles of R40 and E66. They propose a general DNA recognition mechanism for OsDREB1s and speculate on a conserved C-terminal amphipathic helix with potential transactivation function.
+- **Visible evidence base** Text descriptions of structure models (pIDDT, pTM, ipTM values), sequence alignments, EMSA results with estimated KD values, CD spectroscopy, SEC, and mutagenesis data. Figures and supplementary materials are referenced but not provided.
+- **Missing materials affecting confidence** All figures (Figures 1–6, S1–S17), tables (Tables S1–S2), raw EMSA gel images, CD spectra, SEC chromatograms, and AlphaFold 3 output files (e.g., PAE plots, per-residue confidence scores) are not available. This limits independent verification of the structural predictions and experimental results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in plant stress biology: how DREB1 transcription factors achieve DNA binding specificity. The use of AlphaFold 3 to generate testable hypotheses is timely, and the combination of computational prediction with experimental validation (EMSA, mutagenesis) is a reasonable approach. However, the study relies heavily on unvalidated structural predictions, and the experimental evidence is presented in a qualitative manner without full quantitative rigor. The claim that the identified mechanism explains why DREB1s but not ERFs recognize CRT/DRE elements is speculative and not directly tested. The manuscript is technically sound in its execution but the strength of the conclusions is limited by the lack of high-resolution experimental structures or comprehensive mutational scanning.
+- **Who would be interested in the results, and why** Plant molecular biologists and stress physiologists studying transcriptional regulation under abiotic stress, particularly those working on DREB/CBF pathways in crops. Computational biologists interested in the application of AlphaFold 3 to protein–DNA complexes may also find the approach useful. The potential implications for engineering stress tolerance in rice through targeted mutagenesis of DREB1 genes could attract applied researchers.
+- **Major strengths** 1) The study addresses a gap in understanding DREB1–DNA recognition at the structural level. 2) The use of AlphaFold 3 to model protein–DNA complexes is a modern and relevant approach. 3) The combination of computational prediction with experimental validation (EMSA, mutagenesis) strengthens the credibility of the key findings. 4) The identification of a conserved KRP/RAGR motif and its predicted role in minor groove binding is a novel contribution. 5) The manuscript is clearly written and logically organized.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence strength  
+    - **Claim pointer** The authors claim that AlphaFold 3 models of OsDREB1A DBD bound to CRT, DRE, and GCC-box have "high confidence scores, with both ipTM and pTM over 0.8" and that the predicted interactions are reliable enough to draw mechanistic conclusions.  
+    - **Evidence pointer** Section 2.2, Figures S11–S13 (not provided)  
+    - **Concern** The manuscript relies on AlphaFold 3 predictions as the primary structural evidence, but no experimental structures (e.g., X-ray, cryo-EM, NMR) are presented. AlphaFold 3 is known to have variable accuracy for protein–DNA complexes, and the authors themselves note that hydrogen bond patterns varied among the five generated models. The claim of "high confidence" based solely on ipTM/pTM scores may be insufficient, as these metrics do not guarantee accurate prediction of specific side-chain–base interactions.  
+    - **Why it matters** The central mechanistic conclusions (e.g., the role of R40 in minor groove binding, the differential recognition of CRT vs. DRE) depend on the accuracy of these predicted interactions. If the models are incorrect, the proposed mechanism would be unsupported.  
+    - **Resolution test** Provide experimental validation of the predicted interactions, such as site-directed mutagenesis of all six predicted DNA-contacting residues with quantitative binding assays (e.g., ITC or SPR) for all three DNA elements. Alternatively, obtain a high-resolution experimental structure of at least one OsDREB1–DNA complex to benchmark the AlphaFold 3 predictions.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Experimental rigor  
+    - **Claim pointer** The authors state that "OsDREB1A-DBD exhibits the highest affinity to CRT element" based on EMSA-derived KD values of 0.172 μM, 0.406 μM, and 0.712 μM for CRT, DRE, and GCC-box, respectively.  
+    - **Evidence pointer** Section 2.3, Figures 5D–F (not provided)  
+    - **Concern** The KD values are presented as single estimates without error bars, replicates, or statistical analysis. The differences between the three KD values (approximately 2.4-fold between CRT and DRE, 4.1-fold between CRT and GCC-box) may or may not be significant, but this cannot be assessed from the text. Additionally, the EMSA methodology (e.g., protein concentration range, DNA concentration, binding buffer conditions) is not described in sufficient detail to evaluate the reliability of the KD estimates.  
+    - **Why it matters** The claim of differential affinity is a key experimental result that supports the proposed mechanism. Without proper replicates and statistical analysis, the conclusion that OsDREB1A preferentially binds CRT over DRE and GCC-box is not robustly established.  
+    - **Resolution test** Repeat EMSA experiments with at least three independent replicates, report mean ± SD or SEM, and perform appropriate statistical tests (e.g., one-way ANOVA with post-hoc comparisons) to demonstrate significant differences in KD values. Provide full details of the EMSA protocol, including protein and DNA concentrations, binding buffer composition, and incubation conditions.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Claim scope  
+    - **Claim pointer** The authors speculate that "the DNA recognition mechanism found for OsDREB1A may be common for all OsDREB1s" based on sequence conservation and structural similarity.  
+    - **Evidence pointer** Section 2.2, Figure 3K  
+    - **Concern** The extrapolation from OsDREB1A to all ten OsDREB1s is based on sequence conservation of the predicted DNA-contacting residues and overall structural similarity of the AP2 domains. However, the authors note that E66 is substituted to Lys in OsDREB1D, which could alter DNA binding specificity or affinity. No experimental data are provided for any other OsDREB1 family member.  
+    - **Why it matters** The claim of a common mechanism across all OsDREB1s is broader than the evidence supports. If OsDREB1D or other members have different binding properties, the proposed general mechanism would be incomplete or incorrect.  
+    - **Resolution test** Perform EMSA or other binding assays with at least a subset of other OsDREB1 DBDs (e.g., OsDREB1B, OsDREB1D, OsDREB1H) against CRT, DRE, and GCC-box to test whether the binding preferences and residue requirements are conserved.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Functional relevance  
+    - **Claim pointer** The authors conclude that the study "provides information for manipulating crop gene expression network in response to abiotic stresses through gene editing."  
+    - **Evidence pointer** Conclusions section  
+    - **Concern** The manuscript does not include any functional assays (e.g., plant transformation, gene expression analysis, stress tolerance phenotyping) to demonstrate that the identified DNA recognition mechanism has biological relevance in planta. The link between the in vitro binding data and potential applications in crop improvement is speculative.  
+    - **Why it matters** The stated potential for gene editing applications is a key motivation for the study, but without functional validation, the practical implications remain uncertain.  
+    - **Resolution test** Conduct plant-based experiments, such as overexpression or CRISPR-edited mutants of OsDREB1A (or other OsDREB1s) in rice, and assess downstream gene expression and stress tolerance phenotypes to establish biological relevance.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Section 2.1, description of structural models  
+    - **Evidence pointer** Figure 1, Figures S1–S10  
+    - **Issue** The text states that "the overall pTM values for full-length OsDREB1s are around 0.5," which is generally considered low for reliable structural predictions. The authors do not discuss the implications of this low confidence for the full-length models, particularly for the disordered regions.  
+    - **Required correction** Add a brief discussion of the limitations of the full-length models and clarify that the high-confidence regions are limited to the AP2 domain and adjacent motifs.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Methodology detail  
+    - **Affected element** Section 3.4, EMSA  
+    - **Evidence pointer** Equation (1)  
+    - **Issue** The binding equation is presented as Y = Bmax * X / (KD + X), but the definition of Y (e.g., fraction bound, band intensity) and the fitting procedure are not fully described.  
+    - **Required correction** Clarify the meaning of Y and Bmax, and describe how the KD values were extracted from the fitted curves, including the number of data points and the goodness-of-fit metrics.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Data presentation  
+    - **Affected element** Section 2.3, mutation analysis  
+    - **Evidence pointer** Figure 6B  
+    - **Issue** The text states that R40A "nearly abolished" binding and E66A had "moderate impact," but no quantitative data (e.g., percentage of bound DNA relative to WT) are provided.  
+    - **Required correction** Provide quantitative measurements of binding for each mutant, such as the fraction of DNA bound at a fixed protein concentration or the KD values for mutants that retain measurable binding.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Literature context  
+    - **Affected element** Introduction  
+    - **Evidence pointer** References [17], [31], [32]  
+    - **Issue** The authors mention that the PKKPAGR motif in AtDREB1B is involved in DNA binding, but do not discuss whether any previous studies have examined the role of the corresponding motif in rice DREB1s.  
+    - **Required correction** Add a brief comparison with previous studies on DREB1 DNA binding, particularly any work on rice DREB1s, to better contextualize the novelty of the findings.  
+- **Technical failings that need to be addressed before the case is established**  
+  - Lack of experimental validation for the AlphaFold 3-predicted protein–DNA interactions beyond the limited mutagenesis of R40 and E66.  
+  - Insufficient quantitative rigor in the EMSA binding assays (no replicates, no statistical analysis).  
+  - No functional data linking the in vitro binding observations to in planta relevance.  
+  - The extrapolation of the mechanism to all OsDREB1s is not supported by experimental evidence for other family members.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of AlphaFold 3 to DREB1–DNA complexes is novel, but the overall question (how DREB1s recognize DNA) has been addressed previously in other plants. The identification of the KRP/RAGR motif's role is a new contribution.  
+  - **Scientific importance** Moderate. The findings could inform engineering of stress tolerance in rice, but the lack of functional validation limits the immediate impact.  
+  - **Interdisciplinary readership** Limited. The study is primarily of interest to plant molecular biologists and computational structural biologists. The broader readership may find the topic too specialized.  
+  - **Technical soundness** The computational approach is appropriate, and the experimental methods are standard. However, the lack of quantitative rigor in the binding assays and the absence of experimental structures weaken the technical foundation.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the heavy reliance on structural details and AlphaFold 3 terminology may be challenging for readers without a structural biology background.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has merit in its use of AlphaFold 3 to generate testable hypotheses about DREB1–DNA recognition, and the experimental validation, while incomplete, supports the core finding that R40 and E66 are important for binding. However, the manuscript requires substantial revisions to address the quantitative rigor of the binding assays, provide experimental validation of the predicted interactions for all key residues, and temper the claims about a general mechanism and practical applications. Without these changes, the conclusions are not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that AlphaFold 3 models have "high confidence" for the protein–DNA complexes is not fully supported, as the authors acknowledge variability in hydrogen bond patterns among the five generated models and no experimental structures are provided for benchmarking.
+- The claim that the DNA recognition mechanism is common to all ten OsDREB1s is unsupported, as only OsDREB1A was experimentally tested and OsDREB1D has a non-conserved residue at the E66 position.
+- The claim that the additional interaction between R40 and T2′ explains why DREB1s but not ERFs recognize CRT and DRE is speculative and not directly tested (e.g., by introducing R40 into an ERF or removing it from a DREB1).
+- The potential for gene editing applications is stated without any experimental evidence for functional relevance in planta.
+- The KD values for CRT, DRE, and GCC-box binding are presented without error estimates or statistical analysis, making the claimed differences in affinity unverifiable.

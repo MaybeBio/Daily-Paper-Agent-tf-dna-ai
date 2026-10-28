@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.19.436191",
+  "title": "Predicting TCR-epitope Binding Specificity Using Deep Metric Learning and Multimodal Learning",
+  "authors": "Alan M. Luu; Jacob R. Leistico; Tim Miller; Somang Kim; Jun S. Song",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-20",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度度量与多模态学习预测TCR-表位结合，虽涉及蛋白-肽互作，但对象为TCR-pMHC而非蛋白质-DNA，且无DNA结合建模，仅边缘相关。",
+  "abstract": "Understanding the recognition of specific epitopes by cytotoxic T cells is a central problem in immunology. Although predicting binding between peptides and the class I Major Histocompatibility Complex (MHC) has had success, predicting interactions between T cell receptors (TCRs) and MHC class I-peptide complexes (pMHC) remains elusive. This paper utilizes a convolutional neural network model employing deep metric learning and multimodal learning to perform two critical tasks in TCR-epitope binding prediction: identifying the TCRs that bind a given epitope from a TCR repertoire, and identifying the binding epitope of a given TCR from a list of candidate epitopes. Our model can perform both tasks simultaneously and reveals that inconsistent preprocessing of CDR3B sequences can confound binding prediction. Applying a neural network interpretation method identifies key amino acid sequence patterns and positions within the TCR important for binding specificity. Contrary to the common assumption, known crystal structures of TCR-pMHC complexes show that the predicted salient amino acid positions are not necessarily the closest to the epitopes, implying that physical proximity may not be a good proxy for importance in determining TCR-epitope specificity. Our work thus provides insight into the learned predictive features of TCR-epitope binding specificity and advances associated classification tasks.",
+  "abstract_zh": "理解细胞毒性T细胞对特定表位的识别是免疫学中的一个核心问题。尽管预测肽与I类主要组织相容性复合体（MHC）之间的结合已取得一定成功，但预测T细胞受体（TCRs）与MHC I类肽复合物（pMHC）之间的相互作用仍然难以实现。本文利用卷积神经网络模型，结合深度度量学习和多模态学习，执行TCR-表位结合预测中的两个关键任务：从TCR库中识别结合给定表位的TCR，以及从候选表位列表中识别给定TCR的结合表位。我们的模型能同时执行这两个任务，并揭示CDR3B序列预处理不一致可能混淆结合预测。应用神经网络解释方法，识别出TCR中与结合特异性相关的重要氨基酸序列模式和位置。与常见假设相反，已知的TCR-pMHC复合物晶体结构显示，预测的关键氨基酸位置不一定最接近表位，这意味着物理邻近性可能不是决定TCR-表位特异性的良好代理指标。因此，我们的工作为TCR-表位结合特异性的学习预测特征提供了见解，并推进了相关分类任务的发展。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436191",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.436191",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.19.436191/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.30.673246",
+  "title": "A deep learning model captures position-specific effects of plant regulatory sequences and suggests genes under complex regulation",
+  "authors": "Rockenbach KC; Zanini SF; Tidy AC; Morris RJ; Wells R; Golicz AA",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-04",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 7,
+  "one_liner_zh": "用分支卷积神经网络从启动子和终止子序列预测植物基因表达，并捕获转录因子位置特异性结合偏好，属于AI方法研究广义蛋白-DNA调控序列互作，虽非直接TF-DNA复合物建模，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Deep neural networks can be trained to predict gene expression directly from genomic sequence, thereby implicitly learning regulatory sequence patterns from scratch, minimizing the bias imposed by prior assumptions. A challenging, yet promising prospect is the extraction of novel insights into gene-regulatory mechanisms, by probing and interpreting such gene expression models. Using a branched convolutional neural network architecture trained on promoter and terminator sequences we predict gene expression for allopolyploid Brassica napus and the closely related model organism Arabidopsis thaliana . We validate the model by comparing predicted and measured expression across ecotypes. We also show that deep learning models can successfully capture the positional binding preferences of some transcription factor families, without having been trained on transcription factor binding data. Furthermore, we show that our model did not only detect local sequence patterns, but was also able to determine their function based on their positional context. We also found that increased prediction error correlated with additional more distal or epigenetic regulatory input. Our results demonstrate that deep learning can be used to understand the regulatory architecture of gene expression in plants. A better understanding of gene regulation in the context of polyploid genomes is of particular economic importance, due to their prevalence among major crops. In the future, we hope that such models may facilitate the targeted engineering of gene regulation in crops.",
+  "abstract_zh": "深度神经网络可以被训练来直接从基因组序列预测基因表达，从而从零开始隐式学习调控序列模式，最小化先前假设带来的偏差。一个具有挑战性但前景广阔的方向是通过探测和解释这类基因表达模型，提取关于基因调控机制的新见解。我们使用一个在启动子和终止子序列上训练的分支卷积神经网络架构，预测异源多倍体甘蓝型油菜（Brassica napus）及其近缘模式生物拟南芥（Arabidopsis thaliana）的基因表达。我们通过比较不同生态型中的预测与实测表达来验证模型。我们还表明，深度学习模型能够成功捕捉某些转录因子家族的位置结合偏好，而无需在转录因子结合数据上进行训练。此外，我们显示，我们的模型不仅检测到局部序列模式，还能根据其位置上下文确定其功能。我们还发现，预测误差的增加与额外的更远端或表观遗传调控输入相关。我们的结果表明，深度学习可用于理解植物基因表达的调控架构。鉴于多倍体基因组在主要作物中的普遍性，更好地理解多倍体基因组背景下的基因调控具有特别的经济重要性。未来，我们希望这类模型能促进作物基因调控的定向工程化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.30.673246",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.30.673246",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.30.673246/index.html"
+}

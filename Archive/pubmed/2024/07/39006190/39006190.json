@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "39006190",
+    "doi": "10.2147/DDDT.S436359",
+    "title": "Exploration of Berberine Against Ulcerative Colitis via TLR4/NF-kappaB/HIF-1alpha Pathway by Bioinformatics and Experimental Validation."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study aimed to delineate the molecular processes underlying the therapeutic effects of berberine on UC by employing network pharmacology tactics, molecular docking, and dynamic simulations supported by empirical validations both in vivo and in vitro. PATIENTS AND METHODS: We systematically screened potential targets and relevant pathways affected by berberine for UC treatment from comprehensive databases, including GeneCards, DisGeNET, and GEO. Molecular docking and simulation protocols were used to assess the interaction stability between berberine and its principal targets. The predictions were validated using both a DSS-induced UC mouse model and a lipopolysaccharide (LPS)-stimulated NCM460 cellular inflammation model. RESULTS: Network pharmacology analysis revealed the regulatory effect of the TLR4/NF-kappaB/HIF-1alpha pathway in the ameliorative action of berberine in UC. Docking and simulation studies predicted the high-affinity interactions of berberine with pivotal targets: TLR4, NF-kappaB, HIF-1alpha, and the HIF inhibitor KC7F2. Moreover, in vivo analyses demonstrated that berberine attenuates clinical severity, as reflected by decreased disease activity index (DAI) scores, reduced weight loss, and mitigated intestinal inflammation in DSS-challenged mice. These outcomes include suppression of the proinflammatory cytokines IL-6 and TNF-alpha and downregulation of TLR4/NF-kappaB/HIF-1alpha mRNA and protein levels. Correspondingly, in vitro findings indicate that berberine decreases cellular inflammatory injury and suppresses TLR4/NF-kappaB/HIF-1alpha signaling, with notable effectiveness similar to that of the HIF-1alpha inhibitor KC7F2. CONCLUSION: Through network pharmacology analysis and experimental substantiation, this study confirmed that berberine enhances UC treatment outcomes by inhibiting the TLR4/NF-kappaB/HIF-1alpha axis, thereby mitigating inflammatory reactions and improving colonic pathology.",
+    "keywords": [
+      "TLR4/NF-kappaB/HIF-1alpha",
+      "berberine",
+      "experimental validation",
+      "inhibitor",
+      "molecular docking",
+      "network pharmacology",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "*Berberine/pharmacology/chemistry",
+      "*Toll-Like Receptor 4/metabolism/antagonists & inhibitors",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/antagonists & inhibitors",
+      "*NF-kappa B/metabolism/antagonists & inhibitors",
+      "Animals",
+      "Mice",
+      "Humans",
+      "*Colitis, Ulcerative/drug therapy/metabolism/chemically induced/pathology",
+      "*Computational Biology",
+      "Molecular Docking Simulation",
+      "Lipopolysaccharides/pharmacology/antagonists & inhibitors",
+      "Male",
+      "Dextran Sulfate",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal",
+      "Network Pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jilei",
+        "Dan, Wenchao",
+        "Zhang, Chenchen",
+        "Liu, Nian",
+        "Wang, Yichong",
+        "Liu, Jixiang",
+        "Zhang, Shengsheng"
+      ],
+      "short_names": [
+        "Li J",
+        "Dan W",
+        "Zhang C",
+        "Liu N",
+        "Wang Y",
+        "Liu J",
+        "Zhang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0783-4449",
+        "ORCID: 0000-0002-0188-8262",
+        "ORCID: 0000-0002-7580-4906"
+      ],
+      "affiliations": [
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China.",
+        "Department of Dermatology, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China.",
+        "Beijing University of Chinese Medicine, Beijing, 100029, People's Republic of China.",
+        "Beijing University of Chinese Medicine, Beijing, 100029, People's Republic of China.",
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China.",
+        "Beijing University of Chinese Medicine, Beijing, 100029, People's Republic of China.",
+        "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jilei",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-0783-4449"
+        ],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dan, Wenchao",
+        "short_name": "Dan W",
+        "identifiers": [
+          "0000-0002-0188-8262"
+        ],
+        "affiliations": [
+          "Department of Dermatology, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chenchen",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, 100029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Nian",
+        "short_name": "Liu N",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, 100029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yichong",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-7580-4906"
+        ],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jixiang",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, 100029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengsheng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Disease Center, Beijing Hospital of Traditional Chinese Medicine, Capital Medical University, Beijing, 100010, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/15 06:42",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42614744",
+      "42589619",
+      "42589476",
+      "42529081",
+      "42515663",
+      "42422075",
+      "42357730",
+      "42352943",
+      "42088100",
+      "41829165",
+      "41597179",
+      "41480384",
+      "41465494",
+      "41465447",
+      "41375527",
+      "41078566",
+      "41031501",
+      "40481553"
+    ],
+    "refs": [
+      "38001450",
+      "36768744",
+      "36605573",
+      "36583115",
+      "36561763",
+      "36406639",
+      "36324421",
+      "36272033",
+      "36221815",
+      "35994200",
+      "35893243",
+      "35852392",
+      "35761150",
+      "35760072",
+      "35524552",
+      "35484567",
+      "35477319",
+      "35280677",
+      "35134488",
+      "35083737",
+      "34990125",
+      "34757143",
+      "34658125",
+      "34616144",
+      "33930606",
+      "33868286",
+      "33666891",
+      "33264402",
+      "33237311",
+      "33237286",
+      "32854986",
+      "32787472",
+      "32192346",
+      "32140391",
+      "32038240",
+      "31944416",
+      "31619442",
+      "31596960",
+      "31531901",
+      "31161213",
+      "31106366",
+      "30365030",
+      "29126136",
+      "27914657",
+      "27038922",
+      "24735618",
+      "24391846",
+      "23920032",
+      "21982300",
+      "20430828",
+      "19897548",
+      "19789328",
+      "19606504",
+      "19075767",
+      "8350599",
+      "7733288",
+      "5484882"
+    ],
+    "similar": [
+      "39006190",
+      "36653304",
+      "37210763",
+      "38380568",
+      "35085745",
+      "36075274",
+      "38024534",
+      "33301917",
+      "38005385",
+      "36806346",
+      "35901530",
+      "38976102",
+      "35319164",
+      "36868438",
+      "38955027",
+      "38797378",
+      "37421777",
+      "36504132",
+      "39044211",
+      "36691639",
+      "38503151",
+      "39151382",
+      "33845143",
+      "37100262",
+      "35868549",
+      "35843414",
+      "34367139",
+      "37356743",
+      "31210713",
+      "30743078",
+      "31780371",
+      "38280661",
+      "36030029",
+      "38488031",
+      "38621947",
+      "38176667",
+      "36764096",
+      "36070663",
+      "37187359",
+      "34253428",
+      "35661585",
+      "36195303",
+      "23900586",
+      "32688280",
+      "27444346",
+      "37175112",
+      "20400476",
+      "28119098",
+      "37216777",
+      "34284014",
+      "35331877",
+      "32687156",
+      "38910274",
+      "37327586",
+      "34590407",
+      "34523667",
+      "38761782",
+      "34675488",
+      "35660350",
+      "37776768",
+      "24992835",
+      "25239813",
+      "35044701",
+      "35464826",
+      "36152840",
+      "35699749",
+      "36768559",
+      "38732552",
+      "34915325",
+      "28275298",
+      "31863867",
+      "34118340",
+      "34804049",
+      "36619207",
+      "38537445",
+      "39280256",
+      "21887505",
+      "33422953",
+      "30477744",
+      "29632421",
+      "37504907",
+      "30504685",
+      "31916050",
+      "38640713",
+      "30915760",
+      "37952762",
+      "22155740",
+      "34435401",
+      "30878874",
+      "29078713",
+      "38913606",
+      "38554854",
+      "36577154",
+      "34583225",
+      "38677270",
+      "38892524",
+      "33595775",
+      "32360800",
+      "35777583",
+      "32574670",
+      "24912640",
+      "36332386",
+      "35489324",
+      "38851985",
+      "36535201",
+      "34729976",
+      "38252282",
+      "38992426",
+      "39274878",
+      "38584532",
+      "39068762",
+      "38981149",
+      "38819583",
+      "38995817",
+      "39395768",
+      "35812150",
+      "38906030",
+      "39303508",
+      "37488787",
+      "30736100",
+      "39171467",
+      "39222781",
+      "36406639",
+      "38387325",
+      "38908128",
+      "39219424",
+      "38941899",
+      "39278884",
+      "37795035",
+      "39430861",
+      "39144974",
+      "39101145",
+      "39369877",
+      "38981921",
+      "39027534",
+      "39388907",
+      "39405940"
+    ],
+    "review": [
+      "39006190"
+    ],
+    "pmc": [
+      "11246092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/DDDT.S436359?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39006190/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S436359",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39006190",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

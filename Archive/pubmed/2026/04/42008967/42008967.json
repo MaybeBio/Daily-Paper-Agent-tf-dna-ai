@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "42008967",
+    "doi": "10.1016/j.bpc.2026.107627",
+    "title": "Mechanistic insights into the anticancer potential of bergapten in non-small cell lung cancer: A network pharmacology, in-silico molecular docking and dynamics simulation study."
+  },
+  "content": {
+    "abstract": "Bergapten, a furocoumarin, was assessed for its potential as a therapeutic agent targeting non-small cell lung cancer (NSCLC) using comprehensive computational approaches. Geometry optimization and electronic property calculations were performed via Density Functional Theory (DFT) using Gaussian 16 with the B3LYP functional and 6-311G basis set. Physicochemical and ADMET profiles were predicted with SwissADME and ADMET-AI. Bergapten's pharmacological targets were identified from the CTD Database and intersected with NSCLC-related genes from GeneCards; overlapping genes underwent PPI analysis in STRING, hub gene ranking in Cytoscape, and enrichment analyses for Gene ontology and pathways. Differential expression and survival impacts of top hub genes (TP53, CASP3, AKT1) were evaluated using GEPIA2. Molecular docking was conducted with CB-Dock2 and post-docking flexibility examined using iMODS. Molecular dynamic simulation was executed with GROMACS software. DFT calculations suggested a stable molecular conformation for bergapten, highlighting reactive oxygen sites and enabling mapping of charge distribution relevant for biological interactions. Drug-likeness analysis predicted potentially high oral bioavailability, favorable physicochemical and ADMET profiles, minimal toxicity risks, and suitable synthetic accessibility. Target identification identified 33 NSCLC-associated genes that may interact with bergapten interactions, enriched for apoptosis, cell signaling, and inflammation. PPI analysis revealed a strongly interconnected network, with central regulatory hubs (muTP53, CASP3, AKT1) linked to key cancer pathways. GO and pathway enrichment mapped bergapten's action to proliferative and apoptotic mechanisms, platinum drug resistance, and inflammation. Survival analysis suggested that high muTP53 expression may be linked to reduce DFS, while AKT1 and CASP3 expression showed non-significant trends toward poorer and improved survival, respectively. Molecular docking predicted possible binding between bergapten and the three hub proteins, with iMODS confirming complex adaptability and structural stability. Collectively, RMSD, RMSF, SASA, and hydrogen bond analyses consistently predicted that Bergapten possibly forms a stable and well-accommodated complex with AKT1 during the 100 ns MD simulation. Bergapten exhibits molecular and pharmacokinetic characteristics with predicted regulatory interactions across NSCLC-associated networks that probabilistically support its classification as a potential lead candidate, warranting further experimental validation against lung cancer.",
+    "keywords": [
+      "Bergapten",
+      "Density functional theory",
+      "Drug-likeness",
+      "Molecular docking",
+      "NSCLC",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/pathology/metabolism",
+      "Humans",
+      "*Lung Neoplasms/drug therapy/pathology/metabolism",
+      "*Molecular Docking Simulation",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "*Molecular Dynamics Simulation",
+      "Network Pharmacology",
+      "Proto-Oncogene Proteins c-akt/genetics/metabolism",
+      "Tumor Suppressor Protein p53/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Liu",
+        "Cui, Yufeng",
+        "Cui, Shihan",
+        "Sun, Wei"
+      ],
+      "short_names": [
+        "Yang L",
+        "Cui Y",
+        "Cui S",
+        "Sun W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Laboratory, Siping City Central People's Hospital, Siping, Jilin 136000, China.",
+        "Department of Laboratory, Siping City Central People's Hospital, Siping, Jilin 136000, China.",
+        "Department of Laboratory, Siping City Central People's Hospital, Siping, Jilin 136000, China.",
+        "Department of Science and Education, Siping City Central People's Hospital, Siping, Jilin 136000, China. Electronic address: sunwei349870@outlook.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Liu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, Siping City Central People's Hospital, Siping, Jilin 136000, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yufeng",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, Siping City Central People's Hospital, Siping, Jilin 136000, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Shihan",
+        "short_name": "Cui S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory, Siping City Central People's Hospital, Siping, Jilin 136000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Wei",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Education, Siping City Central People's Hospital, Siping, Jilin 136000, China. Electronic address: sunwei349870@outlook.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/21 13:10",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42008967",
+      "39888361",
+      "38670393",
+      "39440778",
+      "41483318",
+      "41442003",
+      "40259252",
+      "40907729",
+      "41197925",
+      "42421348",
+      "41603923",
+      "40515965",
+      "41812938",
+      "38941043",
+      "40973399",
+      "39425858",
+      "41337159",
+      "41492010",
+      "41854859",
+      "40833599",
+      "41150817",
+      "40117728",
+      "41330962",
+      "40543694",
+      "39145086",
+      "40676786",
+      "41545576",
+      "37771185",
+      "34560213",
+      "37948293",
+      "40615101",
+      "36959600",
+      "40499802",
+      "38731403",
+      "37799727",
+      "40355237",
+      "37879505",
+      "39331210",
+      "37770919",
+      "38638040",
+      "41361311",
+      "41444324",
+      "38403323",
+      "41577731",
+      "38822913",
+      "39533773",
+      "40442126",
+      "41020943",
+      "41739945",
+      "39251712",
+      "41418734",
+      "42286162",
+      "42065764",
+      "37933017",
+      "41720062",
+      "39992538",
+      "39258670",
+      "36596057",
+      "35837112",
+      "40452077",
+      "38964628",
+      "42384725",
+      "41504316",
+      "42348584",
+      "40332431",
+      "40922324",
+      "40208786",
+      "41029040",
+      "41892845",
+      "37347115",
+      "38919088",
+      "38758858",
+      "41945951",
+      "42431013",
+      "42227389",
+      "38783288",
+      "36403742",
+      "39582546",
+      "41389163",
+      "41412234",
+      "40797463",
+      "40450982",
+      "41380825",
+      "41318403",
+      "39125368",
+      "41829818",
+      "40921007",
+      "37244150",
+      "41431059",
+      "39410900",
+      "39701786",
+      "40125411",
+      "39991083",
+      "40331978",
+      "38840248",
+      "41920244",
+      "38381309",
+      "37287284",
+      "39067352",
+      "40200025"
+    ],
+    "review": [
+      "42008967"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(26)00060-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

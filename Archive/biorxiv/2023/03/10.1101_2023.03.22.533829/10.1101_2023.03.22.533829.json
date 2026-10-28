@@ -1,0 +1,475 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.22.533829",
+  "title": "Discovery of a cryptic pocket in the AI-predicted structure of PPM1D phosphatase explains the binding site and potency of its allosteric inhibitors",
+  "doi": "10.1101/2023.03.22.533829",
+  "abstract": "Virtual screening is a widely used tool for drug discovery, but its predictive power can vary dramatically depending on how much structural data is available. In the best case, crystal structures of a ligand-bound protein can help find more potent ligands. However, virtual screens tend to be less predictive when only ligand-free crystal structures are available, and even less predictive if a homology model or other predicted structure must be used. Here, we explore the possibility that this situation can be improved by better accounting for protein dynamics, as simulations started from a single structure have a reasonable chance of sampling nearby structures that are more compatible with ligand binding. As a specific example, we consider the cancer drug target PPM1D/Wip1 phosphatase, a protein that lacks crystal structures. High-throughput screens have led to the discovery of several allosteric inhibitors of PPM1D, but their binding mode remains unknown. To enable further drug discovery efforts, we assessed the predictive power of an AlphaFold-predicted structure of PPM1D and a Markov state model (MSM) built from molecular dynamics simulations initiated from that structure. Our simulations reveal a cryptic pocket at the interface between two important structural elements, the flap and hinge regions. Using deep learning to predict the pose quality of each docked compound for the active site and cryptic pocket suggests that the inhibitors strongly prefer binding to the cryptic pocket, consistent with their allosteric effect. The predicted affinities for the dynamically uncovered cryptic pocket also recapitulate the relative potencies of the compounds (τ b =0.70) better than the predicted affinities for the static AlphaFold-predicted structure (τ b =0.42). Taken together, these results suggest that targeting the cryptic pocket is a good strategy for drugging PPM1D and, more generally, that conformations selected from simulation can improve virtual screening when limited structural data is available.",
+  "authors": [
+    "Artur Meller",
+    "Saulo de Oliveira",
+    "Aram Davtyan",
+    "Tigran Abramyan",
+    "Gregory R. Bowman",
+    "Henry van den Bedem"
+  ],
+  "published_date": "2023-03-24",
+  "updated_date": "2023-03-24T19:05:18Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.22.533829",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.22.533829.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:53:13Z",
+        "timestamp": 1768503193860,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            24
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Virtual screening is a widely used tool for drug discovery, but its predictive power can vary dramatically depending on how much structural data is available. In the best case, crystal structures of a ligand-bound protein can help find more potent ligands. However, virtual screens tend to be less predictive when only ligand-free crystal structures are available, and even less predictive if a homology model or other predicted structure must be used. Here, we explore the possibility that this situation can be improved by better accounting for protein dynamics, as simulations started from a single structure have a reasonable chance of sampling nearby structures that are more compatible with ligand binding. As a specific example, we consider the cancer drug target PPM1D/Wip1 phosphatase, a protein that lacks crystal structures. High-throughput screens have led to the discovery of several allosteric inhibitors of PPM1D, but their binding mode remains unknown. To enable further drug discovery efforts, we assessed the predictive power of an AlphaFold-predicted structure of PPM1D and a Markov state model (MSM) built from molecular dynamics simulations initiated from that structure. Our simulations reveal a cryptic pocket at the interface between two important structural elements, the flap and hinge regions. Using deep learning to predict the pose quality of each docked compound for the active site and cryptic pocket suggests that the inhibitors strongly prefer binding to the cryptic pocket, consistent with their allosteric effect. The predicted affinities for the dynamically uncovered cryptic pocket also recapitulate the relative potencies of the compounds (τ\n                  <jats:sub>b</jats:sub>\n                  =0.70) better than the predicted affinities for the static AlphaFold-predicted structure (τ\n                  <jats:sub>b</jats:sub>\n                  =0.42). Taken together, these results suggest that targeting the cryptic pocket is a good strategy for drugging PPM1D and, more generally, that conformations selected from simulation can improve virtual screening when limited structural data is available.\n                </jats:p>",
+      "DOI": "10.1101/2023.03.22.533829",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            24
+          ]
+        ],
+        "date-time": "2023-03-24T19:05:18Z",
+        "timestamp": 1679684718000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Discovery of a cryptic pocket in the AI-predicted structure of PPM1D phosphatase explains the binding site and potency of its allosteric inhibitors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5504-2684",
+          "authenticated-orcid": false,
+          "given": "Artur",
+          "family": "Meller",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Saulo",
+          "family": "de Oliveira",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6328-8361",
+          "authenticated-orcid": false,
+          "given": "Aram",
+          "family": "Davtyan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7224-6072",
+          "authenticated-orcid": false,
+          "given": "Tigran",
+          "family": "Abramyan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2083-4892",
+          "authenticated-orcid": false,
+          "given": "Gregory R.",
+          "family": "Bowman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2358-841X",
+          "authenticated-orcid": false,
+          "given": "Henry",
+          "family": "van den Bedem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci9003943"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-021-00597-z"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1417811112"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11060-007-9470-8"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature18621"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29324-2"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.08.18.504412"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.1427"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.11",
+          "unstructured": "Gniewek, P. , Worley, B. , Stafford, K. , van den Bedem, H. , and Anderson, B. (n.d.). Learning physics confers pose-sensitivity in structure-based virtual screening."
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1093-3263(98)00002-3"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2018.08.011"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09078-0"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb0902-646"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300604z"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACSCENTSCI.9B00909"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.C117.819110"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/S13321-018-0285-8/TABLES/4"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng888"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10555-008-9127-x"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-0917-9"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.11.23.517577"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/ELIFE.83602"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.06.28.497399"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29324-2"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/NRD.2018.201"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2010.06.002"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00109-017-1536-2"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac202"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JCIM.1C01250/ASSET/IMAGES/LARGE/CI1C01250_0005.JPEG"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00545"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00140"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-08-2403"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnagi.2017.00007"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm501603h"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1510.02855"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/ELIFE.74114"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/IJMS23094591/S1"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/MSB.202211081"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00737"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACSCENTSCI.7B00465/ASSET/IMAGES/OC-2017-004659_M006.GIF"
+        },
+        {
+          "key": "2023032711401131000_2023.03.22.533829v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41557-021-00707-0"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.22.533829",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:26:54Z",
+        "timestamp": 1768451214000
+      },
+      "score": 83.0636,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.22.533829"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            24
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2023.03.22.533829",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

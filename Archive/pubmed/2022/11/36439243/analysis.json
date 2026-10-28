@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36439243",
+  "title": "Streamlined single-molecule RNA-FISH of core clock mRNAs in clock neurons in whole mount Drosophila brains.",
+  "authors": "Yuan, Ye; Padilla, Marc-Antonio; Clark, Dunham; Yadlapalli, Swathi",
+  "journal": "Frontiers in physiology",
+  "published_date": "2022-11-29",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用smFISH和深度学习分割量化果蝇时钟神经元中Clock mRNA的亚细胞定位，虽涉及转录因子Clock的mRNA，但未研究蛋白-DNA互作或结合机制，仅提供可迁移的细胞分割方法，与课题关联较弱。",
+  "abstract": "Circadian clocks are  approximately 24-h timekeepers that control rhythms in almost all aspects of our behavior and physiology. While it is well known that subcellular localization of core clock proteins plays a critical role in circadian regulation, very little is known about the spatiotemporal organization of core clock mRNAs and its role in generating  approximately 24-h circadian rhythms. Here we describe a streamlined single molecule Fluorescence In Situ Hybridization (smFISH) protocol and a fully automated analysis pipeline to precisely quantify the number and subcellular location of mRNAs of Clock, a core circadian transcription factor, in individual clock neurons in whole mount Drosophila adult brains. Specifically, we used  approximately 48 fluorescent oligonucleotide probes that can bind to an individual Clock mRNA molecule, which can then be detected as a diffraction-limited spot. Further, we developed a machine learning-based approach for 3-D cell segmentation, based on a pretrained encoder-decoder convolutional neural network, to automatically identify the cytoplasm and nuclei of clock neurons. We combined our segmentation model with a spot counting algorithm to detect Clock mRNA spots in individual clock neurons. Our results demonstrate that the number of Clock mRNA molecules cycle in large ventral lateral clock neurons (lLNvs) with peak levels at ZT4 (4 h after lights are turned on) with  approximately 80 molecules/neuron and trough levels at ZT16 with  approximately 30 molecules/neuron. Our streamlined smFISH protocol and deep learning-based analysis pipeline can be employed to quantify the number and subcellular location of any mRNA in individual clock neurons in Drosophila brains. Further, this method can open mechanistic and functional studies into how spatiotemporal localization of clock mRNAs affect circadian rhythms.",
+  "abstract_zh": "昼夜节律钟是约24小时的时间保持器，控制着我们行为和生理几乎所有方面的节律。尽管众所周知核心时钟蛋白的亚细胞定位在昼夜节律调控中起着关键作用，但关于核心时钟mRNA的时空组织及其在产生约24小时昼夜节律中的作用却知之甚少。在此，我们描述了一种简化的单分子荧光原位杂交（smFISH）方案和全自动分析流程，用于精确量化核心昼夜节律转录因子Clock的mRNA在完整果蝇成虫脑内单个时钟神经元中的数量和亚细胞位置。具体而言，我们使用了约48个荧光寡核苷酸探针，这些探针能够结合单个Clock mRNA分子，随后可将其检测为衍射限制点。此外，我们开发了一种基于机器学习的三维细胞分割方法，基于预训练的编码器-解码器卷积神经网络，自动识别时钟神经元的细胞质和细胞核。我们将分割模型与点计数算法相结合，以检测单个时钟神经元中的Clock mRNA点。我们的结果表明，Clock mRNA分子的数量在大腹侧横向时钟神经元（lLNvs）中呈周期性变化，峰值出现在ZT4（光照开启后4小时），约为每个神经元80个分子，谷值出现在ZT16，约为每个神经元30个分子。我们的简化smFISH方案和基于深度学习的分析流程可用于量化果蝇脑中单个时钟神经元内任何mRNA的数量和亚细胞位置。此外，该方法可为时钟mRNA的时空定位如何影响昼夜节律的机制和功能研究开辟途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36439243/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36439243/",
+  "paper_page_path": "papers/pubmed/36439243/index.html"
+}

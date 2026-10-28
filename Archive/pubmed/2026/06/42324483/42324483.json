@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "42324483",
+    "doi": "10.1186/s12986-026-01160-x",
+    "title": "Integrating epidemiological and transcriptomic data reveals novel lipid metabolic drivers of obstructive sleep apnea."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Obstructive sleep apnea (OSA) is characterized by recurrent upper airway obstruction during sleep and is frequently accompanied by dyslipidemia. However, the molecular mechanisms linking lipid metabolism to OSA remain incompletely understood. This study aimed to investigate the association between blood lipid levels and OSA and explore potential underlying molecular pathways. METHODS: Data from the National Health and Nutrition Examination Survey (NHANES) 2005-2008 and 2015-2018 were analyzed to evaluate the associations between OSA and blood lipid parameters using multivariable regression and sensitivity analyses. Additionally, OSA-related transcriptomic data (GSE135917) were obtained from the Gene Expression Omnibus (GEO), and lipid metabolism-related genes were retrieved from the Molecular Signatures Database (MSigDB). Differentially expressed lipid metabolism-related genes (DELMRGs) were identified through data integration. Machine learning approaches, protein-protein interaction network analysis, and receiver operating characteristic analysis were applied to identify key genes. Gene set enrichment analysis (GSEA) was performed to elucidate associated biological pathways, and transcription factor-gene and gene-microRNA regulatory networks were constructed using NetworkAnalyst and Cytoscape. RESULTS: Analysis of NHANES data showed that triglyceride (TG) and low-density lipoprotein cholesterol (LDL-C) levels were positively associated with OSA, whereas high-density lipoprotein cholesterol (HDL-C) levels was inversely associated (all p < 0.001). A nonlinear, inverted U-shaped association between TG levels and OSA risk was also observed (p for nonlinearity < 0.05). Transcriptomic analysis identified 34 DELMRGs, among which CYP3A4, CYP4A22, and MED18 emerged as key genes. GSEA revealed pathways potentially involved in lipid metabolism and OSA pathophysiology, while regulatory network analyses further supported the biological relevance of these genes. CONCLUSIONS: This study demonstrates that dyslipidemia characterized by elevated TG and LDL-C levels and reduced HDL-C levels is associated with an increased likelihood of OSA, and identifies three DELMRGs that may be involved in OSA pathophysiology. These findings provide exploratory mechanistic insights and offer a basis for future studies to further investigate the role of lipid metabolism in OSA.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Lipid metabolism",
+      "NHANES",
+      "Obstructive sleep apnea",
+      "Triglyceride"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yanhui",
+        "Gong, Sisi",
+        "Wang, Jiaqi",
+        "Chen, Shanshan",
+        "Zeng, Yiming",
+        "Fan, Chunmei"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Gong S",
+        "Wang J",
+        "Chen S",
+        "Zeng Y",
+        "Fan C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pulmonary and Critical Care Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China.",
+        "Key Laboratory of Sleep Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China.",
+        "Clinical Lab and Medical Diagnostics Laboratory, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China.",
+        "The Graduate School of Fujian Medical University, Fuzhou, China.",
+        "Clinical Lab and Medical Diagnostics Laboratory, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China.",
+        "Department of Pulmonary and Critical Care Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China. zeng_yiming@fjmu.edu.cn.",
+        "Key Laboratory of Sleep Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China. zeng_yiming@fjmu.edu.cn.",
+        "NHC Key Laboratory of Etiological Epidemiology of Chronic Diseases with High Incidence in Fujian-Taiwan Area, Fujian Medical University, Fuzhou, China. zeng_yiming@fjmu.edu.cn.",
+        "Clinical Lab and Medical Diagnostics Laboratory, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China. 13600718981@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yanhui",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China.",
+          "Key Laboratory of Sleep Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Sisi",
+        "short_name": "Gong S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Lab and Medical Diagnostics Laboratory, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiaqi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Graduate School of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shanshan",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Lab and Medical Diagnostics Laboratory, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yiming",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China. zeng_yiming@fjmu.edu.cn.",
+          "Key Laboratory of Sleep Medicine, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China. zeng_yiming@fjmu.edu.cn.",
+          "NHC Key Laboratory of Etiological Epidemiology of Chronic Diseases with High Incidence in Fujian-Taiwan Area, Fujian Medical University, Fuzhou, China. zeng_yiming@fjmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fan, Chunmei",
+        "short_name": "Fan C",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Lab and Medical Diagnostics Laboratory, the Second Affiliated Hospital of Fujian Medical University, Quanzhou, China. 13600718981@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nutrition & metabolism"
+    ],
+    "journal_abbrev": [
+      "Nutr Metab (Lond)"
+    ],
+    "pub_date": "2026 Jun 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 00:44",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40773976",
+      "40764328",
+      "40612801",
+      "40604836",
+      "40442689",
+      "40206502",
+      "40197140",
+      "40118992",
+      "39994225",
+      "39968099",
+      "39667460",
+      "39609575",
+      "39529035",
+      "39279958",
+      "39076340",
+      "39060945",
+      "38606596",
+      "38600516",
+      "38339130",
+      "38228196",
+      "38171182",
+      "37736681",
+      "37556076",
+      "37532370",
+      "37230968",
+      "36707132",
+      "36329827",
+      "35245788",
+      "34185819",
+      "33087449",
+      "32882816",
+      "32649885",
+      "32436658",
+      "31199497",
+      "31131516",
+      "31114921",
+      "30931480",
+      "30411173",
+      "30320358",
+      "30285853",
+      "30219962",
+      "30133061",
+      "30048707",
+      "29420210",
+      "29156006",
+      "29148894",
+      "28363141",
+      "28177762",
+      "27568340",
+      "24088064",
+      "23333322",
+      "23288968",
+      "22534161",
+      "18006683",
+      "17690174",
+      "17447836",
+      "15650881"
+    ],
+    "similar": [
+      "42324483",
+      "40540134",
+      "40604836",
+      "40413493",
+      "39749311",
+      "40736303",
+      "41474729",
+      "42537010",
+      "34880901",
+      "39081807",
+      "41659337",
+      "40612801",
+      "41082129",
+      "41851819",
+      "39076499",
+      "35576500",
+      "41895505",
+      "42330814",
+      "38077447",
+      "37736681",
+      "36708260",
+      "40442689",
+      "39507054",
+      "40118992",
+      "39994225",
+      "30719767",
+      "42425908",
+      "41784837",
+      "32003732",
+      "38521370",
+      "41058921",
+      "38316731",
+      "42671505",
+      "40909887",
+      "42601758",
+      "24910548",
+      "41067291",
+      "40604728",
+      "26424733",
+      "41420237",
+      "40532306",
+      "36401059",
+      "42118406",
+      "41432483",
+      "42475469",
+      "42509823",
+      "31981042",
+      "41827276",
+      "40527802",
+      "41109884",
+      "36468038",
+      "38965618",
+      "42313509",
+      "30745937",
+      "26071656",
+      "40162052",
+      "37213066",
+      "42072050",
+      "40764361",
+      "41029080",
+      "34865634",
+      "25325596",
+      "41847390",
+      "34731825",
+      "40747360",
+      "37006942",
+      "33530245",
+      "41955235",
+      "41494330",
+      "40655952",
+      "41221287",
+      "29148894",
+      "35372438",
+      "41559995",
+      "24688164",
+      "41422298",
+      "34916831",
+      "34526807",
+      "41816470",
+      "42326009",
+      "40188804",
+      "41224728",
+      "39220737",
+      "27184822",
+      "40916281",
+      "40635026",
+      "29992456",
+      "42512882",
+      "37560208",
+      "42500234",
+      "42338983",
+      "41088684",
+      "41415264",
+      "33688499",
+      "26636516",
+      "39465775",
+      "34013438",
+      "41478820",
+      "38561714",
+      "39643888"
+    ],
+    "review": [
+      "42324483",
+      "24910548",
+      "25325596"
+    ],
+    "pmc": [
+      "13540859"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://nutritionandmetabolism.biomedcentral.com/articles/10.1186/s12986-026-01160-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42324483/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

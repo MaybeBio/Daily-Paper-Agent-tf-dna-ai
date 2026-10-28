@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "39641026",
+    "doi": "10.1016/j.heliyon.2024.e40494",
+    "title": "Domain architecture of the Mycobacterium tuberculosis MabR (Rv2242), a member of the PucR transcription factor family."
+  },
+  "content": {
+    "abstract": "MabR (Rv2242), a PucR-type transcription factor, plays a crucial role in regulating mycolic acid biosynthesis in Mycobacterium tuberculosis. To understand its regulatory mechanisms, we determined the crystal structures of its N-terminal and C-terminal domains. The N-terminal domain adopts a globin-like fold, while the C-terminal domain comprises an alpha/beta GGDEF domain and an all-alpha effector domain with a helix-turn-helix DNA-binding motif. This unique domain combination is specific to Actinomycetes. Biochemical and computational studies suggest that full-length MabR forms both dimeric and tetrameric assemblies in solution. Structural analysis revealed two distinct dimerization interfaces within the N- and C-terminal domains, further supporting a tetrameric organization. These findings provide valuable insights into the domain architecture, oligomeric state, and potential regulatory mechanisms of MabR.",
+    "keywords": [
+      "AlphaFold",
+      "DNA-Binding",
+      "Electron microscopy",
+      "FAS-II",
+      "Gel filtration",
+      "Mycolic acids",
+      "Oligomerization",
+      "SAXS",
+      "X-ray crystallography"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Megalizzi, Veronique",
+        "Tanina, Abdalkarim",
+        "Grosse, Camille",
+        "Mirgaux, Manon",
+        "Legrand, Pierre",
+        "Dias Mirandela, Gaetan",
+        "Wohlkonig, Alexandre",
+        "Bifani, Pablo",
+        "Wintjens, Rene"
+      ],
+      "short_names": [
+        "Megalizzi V",
+        "Tanina A",
+        "Grosse C",
+        "Mirgaux M",
+        "Legrand P",
+        "Dias Mirandela G",
+        "Wohlkonig A",
+        "Bifani P",
+        "Wintjens R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Universite Libre de Bruxelles, Belgium.",
+        "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Universite Libre de Bruxelles, Belgium.",
+        "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Universite Libre de Bruxelles, Belgium.",
+        "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Universite Libre de Bruxelles, Belgium.",
+        "Laboratoire de Chimie Biologique Structurale (CBS), Unite de Chimie Physique Theorique et Structurale (UCPTS), Department of Chemistry, Faculty of Sciences, University of Namur, Belgium.",
+        "Center of Microscopy and Molecular Imaging (CMMI), Biopark Charleroi, Universite Libre de Bruxelles, Gosselies, Belgium.",
+        "SOLEIL synchrotron, Gif-sur-Yvette, France.",
+        "Biology of Membrane Transport Laboratory, Molecular Biology Department, Faculty of Sciences, Universite Libre de Bruxelles, Belgium.",
+        "Center for Structural Biology, Vlaams Institute voor Biotechnology (VIB), Brussels, Belgium.",
+        "A *STAR Infectious Diseases Laboratory, Agency for Science, Technology and Research (A *STAR), Singapore.",
+        "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore.",
+        "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Universite Libre de Bruxelles, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Megalizzi, Véronique",
+        "short_name": "Megalizzi V",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Université Libre de Bruxelles, Belgium."
+        ]
+      },
+      {
+        "full_name": "Tanina, Abdalkarim",
+        "short_name": "Tanina A",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Université Libre de Bruxelles, Belgium."
+        ]
+      },
+      {
+        "full_name": "Grosse, Camille",
+        "short_name": "Grosse C",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Université Libre de Bruxelles, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mirgaux, Manon",
+        "short_name": "Mirgaux M",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Université Libre de Bruxelles, Belgium.",
+          "Laboratoire de Chimie Biologique Structurale (CBS), Unité de Chimie Physique Théorique et Structurale (UCPTS), Department of Chemistry, Faculty of Sciences, University of Namur, Belgium.",
+          "Center of Microscopy and Molecular Imaging (CMMI), Biopark Charleroi, Université Libre de Bruxelles, Gosselies, Belgium."
+        ]
+      },
+      {
+        "full_name": "Legrand, Pierre",
+        "short_name": "Legrand P",
+        "identifiers": [],
+        "affiliations": [
+          "SOLEIL synchrotron, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Dias Mirandela, Gaëtan",
+        "short_name": "Dias Mirandela G",
+        "identifiers": [],
+        "affiliations": [
+          "Biology of Membrane Transport Laboratory, Molecular Biology Department, Faculty of Sciences, Université Libre de Bruxelles, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wohlkönig, Alexandre",
+        "short_name": "Wohlkönig A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Structural Biology, Vlaams Institute voor Biotechnology (VIB), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Bifani, Pablo",
+        "short_name": "Bifani P",
+        "identifiers": [],
+        "affiliations": [
+          "A∗STAR Infectious Diseases Laboratory, Agency for Science, Technology and Research (A∗STAR), Singapore.",
+          "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore."
+        ]
+      },
+      {
+        "full_name": "Wintjens, René",
+        "short_name": "Wintjens R",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Microbiology, Bioorganic and Macromolecular Chemistry, Department of Research in Drug Development, Faculty of Pharmacy, Université Libre de Bruxelles, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2024 Nov 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/06 06:23",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "41599151"
+    ],
+    "refs": [
+      "38718835",
+      "38322719",
+      "37301605",
+      "37156916",
+      "36350672",
+      "35165190",
+      "35024098",
+      "34265844",
+      "33953265",
+      "32006276",
+      "31442477",
+      "31239393",
+      "30371978",
+      "29874600",
+      "29860391",
+      "29739979",
+      "28918447",
+      "28724694",
+      "28096490",
+      "27976597",
+      "27771482",
+      "27710936",
+      "27498163",
+      "27350398",
+      "26682969",
+      "26488279",
+      "26104214",
+      "23832629",
+      "23721164",
+      "23619693",
+      "22628654",
+      "22535208",
+      "22216317",
+      "21980284",
+      "21919503",
+      "21460447",
+      "21216948",
+      "20659288",
+      "20383000",
+      "20124692",
+      "20057044",
+      "19461840",
+      "17846036",
+      "17681537",
+      "17555433",
+      "17532150",
+      "16929101",
+      "16301540",
+      "15572765",
+      "15299926",
+      "14501111",
+      "12775759",
+      "12657046",
+      "12351820",
+      "9634230",
+      "9095194",
+      "8939881",
+      "7020376",
+      "6667333",
+      "2610349",
+      "2231712",
+      "2075190",
+      "382987"
+    ],
+    "similar": [
+      "39641026",
+      "28724694",
+      "29109186",
+      "24115125",
+      "37070717",
+      "18353359",
+      "38598903",
+      "20036253",
+      "9309218",
+      "17766384",
+      "21795602",
+      "20659288",
+      "39412527",
+      "11439029",
+      "30306715",
+      "18062777",
+      "17174327",
+      "28710792",
+      "31914416",
+      "18052041",
+      "9632804",
+      "29092908",
+      "23805258",
+      "11284685",
+      "18206906",
+      "21883526",
+      "17397863",
+      "18703019",
+      "22719899",
+      "12970756",
+      "30644844",
+      "24699733",
+      "32316259",
+      "34584743",
+      "24316821",
+      "26655023",
+      "36745138",
+      "24737322",
+      "19121323",
+      "10075916",
+      "7877174",
+      "26687415",
+      "10339551",
+      "15269221",
+      "22216317",
+      "11264583",
+      "24598755",
+      "38417748",
+      "25903135",
+      "10545328",
+      "34584737",
+      "23963455",
+      "10360980",
+      "17209554",
+      "15312761",
+      "10026784",
+      "30095229",
+      "11013219",
+      "20632993",
+      "24066695",
+      "16443380",
+      "20941840",
+      "32356522",
+      "33454013",
+      "12551896",
+      "27006398",
+      "16456033",
+      "16210314",
+      "12837783",
+      "30266832",
+      "9016718",
+      "40059638",
+      "36937295",
+      "28066922",
+      "38837712",
+      "29761048",
+      "30054276",
+      "24127574",
+      "16213523",
+      "17511470",
+      "20927338",
+      "19740754",
+      "11877432",
+      "12595552",
+      "26975212",
+      "26160178",
+      "29722065",
+      "14729670",
+      "11152481",
+      "26104214",
+      "11230123",
+      "26861878",
+      "9083114",
+      "35685361",
+      "28794035",
+      "26712005",
+      "24460624",
+      "19846792",
+      "34232702",
+      "33995893"
+    ],
+    "review": [
+      "39641026",
+      "36745138",
+      "10026784"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(24)16525-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39641026/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FAS-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-369",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

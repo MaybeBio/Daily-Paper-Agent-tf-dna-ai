@@ -1,0 +1,523 @@
+{
+  "identity": {
+    "pmid": "37100205",
+    "doi": "10.1016/j.annonc.2023.04.005",
+    "title": "Machine learning-based immune phenotypes correlate with STK11/KEAP1 co-mutations and prognosis in resectable NSCLC: a sub-study of the TNM-I trial."
+  },
+  "content": {
+    "abstract": "BACKGROUND: We aim to implement an immune cell score model in routine clinical practice for resected non-small-cell lung cancer (NSCLC) patients (NCT03299478). Molecular and genomic features associated with immune phenotypes in NSCLC have not been explored in detail. PATIENTS AND METHODS: We developed a machine learning (ML)-based model to classify tumors into one of three categories: inflamed, altered, and desert, based on the spatial distribution of CD8+ T cells in two prospective (n = 453; TNM-I trial) and retrospective (n = 481) stage I-IIIA NSCLC surgical cohorts. NanoString assays and targeted gene panel sequencing were used to evaluate the association of gene expression and mutations with immune phenotypes. RESULTS: Among the total of 934 patients, 24.4% of tumors were classified as inflamed, 51.3% as altered, and 24.3% as desert. There were significant associations between ML-derived immune phenotypes and adaptive immunity gene expression signatures. We identified a strong association of the nuclear factor-kappaB pathway and CD8+ T-cell exclusion through a positive enrichment in the desert phenotype. KEAP1 [odds ratio (OR) 0.27, Q = 0.02] and STK11 (OR 0.39, Q = 0.04) were significantly co-mutated in non-inflamed lung adenocarcinoma (LUAD) compared to the inflamed phenotype. In the retrospective cohort, the inflamed phenotype was an independent prognostic factor for prolonged disease-specific survival and time to recurrence (hazard ratio 0.61, P = 0.01 and 0.65, P = 0.02, respectively). CONCLUSIONS: ML-based immune phenotyping by spatial distribution of T cells in resected NSCLC is able to identify patients at greater risk of disease recurrence after surgical resection. LUADs with concurrent KEAP1 and STK11 mutations are enriched for altered and desert immune phenotypes.",
+    "keywords": [
+      "KEAP1",
+      "NF-kappaB",
+      "NSCLC",
+      "STK11",
+      "immune phenotypes",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/surgery",
+      "*Lung Neoplasms/genetics/surgery",
+      "Retrospective Studies",
+      "Kelch-Like ECH-Associated Protein 1/genetics",
+      "Prospective Studies",
+      "NF-E2-Related Factor 2/genetics/metabolism",
+      "Neoplasm Recurrence, Local",
+      "Prognosis",
+      "Phenotype",
+      "Mutation",
+      "AMP-Activated Protein Kinase Kinases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rakaee, M",
+        "Andersen, S",
+        "Giannikou, K",
+        "Paulsen, E-E",
+        "Kilvaer, T K",
+        "Busund, L-T R",
+        "Berg, T",
+        "Richardsen, E",
+        "Lombardi, A P",
+        "Adib, E",
+        "Pedersen, M I",
+        "Tafavvoghi, M",
+        "Wahl, S G F",
+        "Petersen, R H",
+        "Bondgaard, A L",
+        "Yde, C W",
+        "Baudet, C",
+        "Licht, P",
+        "Lund-Iversen, M",
+        "Gronberg, B H",
+        "Fjellbirkeland, L",
+        "Helland, A",
+        "Pohl, M",
+        "Kwiatkowski, D J",
+        "Donnem, T"
+      ],
+      "short_names": [
+        "Rakaee M",
+        "Andersen S",
+        "Giannikou K",
+        "Paulsen EE",
+        "Kilvaer TK",
+        "Busund LR",
+        "Berg T",
+        "Richardsen E",
+        "Lombardi AP",
+        "Adib E",
+        "Pedersen MI",
+        "Tafavvoghi M",
+        "Wahl SGF",
+        "Petersen RH",
+        "Bondgaard AL",
+        "Yde CW",
+        "Baudet C",
+        "Licht P",
+        "Lund-Iversen M",
+        "Gronberg BH",
+        "Fjellbirkeland L",
+        "Helland A",
+        "Pohl M",
+        "Kwiatkowski DJ",
+        "Donnem T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso. Electronic address: mehrdad.rakaee@uit.no.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Oncology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Division of Hematology and Oncology, Cancer and Blood Disease Institute, Children's Hospital Los Angeles, Los Angeles, USA.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Pulmonology, University Hospital of North Norway, Tromso.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Oncology, University Hospital of North Norway, Tromso, Norway.",
+        "Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway.",
+        "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Lank Center for Genitourinary Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, USA.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso.",
+        "Department of Community Medicine, UiT The Arctic University of Norway, Tromso.",
+        "Department of Oncology, St. Olav's Hospital, Trondheim University Hospital, Trondheim; Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway.",
+        "Department of Cardiothoracic Surgery, Copenhagen University Hospital, Rigshospitalet, Copenhagen; Department of Clinical Medicine, University of Copenhagen, Copenhagen.",
+        "Department of Pathology, Copenhagen University Hospital, Rigshospitalet, Copenhagen.",
+        "Center for Genomic Medicine, Copenhagen University Hospital, Rigshospitalet, Copenhagen.",
+        "Center for Genomic Medicine, Copenhagen University Hospital, Rigshospitalet, Copenhagen.",
+        "Department of Cardiothoracic Surgery, Odense University Hospital, Odense, Denmark.",
+        "Department of Pathology, The Norwegian Radium Hospital, Oslo University Hospital, Oslo.",
+        "Department of Oncology, St. Olav's Hospital, Trondheim University Hospital, Trondheim; Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway.",
+        "Department of Respiratory Medicine, Oslo University Hospital, University of Oslo, Oslo.",
+        "Department of Cancer Genetics, Institute for Cancer Research, Norwegian Radium Hospital, Oslo University Hospital, Oslo; Department of Oncology, Oslo University Hospital, Oslo; Department of Clinical Medicine, University of Oslo, Oslo, Norway.",
+        "Department of Oncology, Copenhagen University Hospital, Rigshospitalet, Copenhagen, Denmark.",
+        "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, USA.",
+        "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Oncology, University Hospital of North Norway, Tromso, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rakaee, M",
+        "short_name": "Rakaee M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso. Electronic address: mehrdad.rakaee@uit.no."
+        ]
+      },
+      {
+        "full_name": "Andersen, S",
+        "short_name": "Andersen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Oncology, University Hospital of North Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Giannikou, K",
+        "short_name": "Giannikou K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Division of Hematology and Oncology, Cancer and Blood Disease Institute, Children's Hospital Los Angeles, Los Angeles, USA."
+        ]
+      },
+      {
+        "full_name": "Paulsen, E-E",
+        "short_name": "Paulsen EE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Pulmonology, University Hospital of North Norway, Tromso."
+        ]
+      },
+      {
+        "full_name": "Kilvaer, T K",
+        "short_name": "Kilvaer TK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Oncology, University Hospital of North Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Busund, L-T R",
+        "short_name": "Busund LR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Berg, T",
+        "short_name": "Berg T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Richardsen, E",
+        "short_name": "Richardsen E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pathology, University Hospital of North Norway, Tromso; Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Lombardi, A P",
+        "short_name": "Lombardi AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, UiT The Arctic University of Norway, Tromso, Norway."
+        ]
+      },
+      {
+        "full_name": "Adib, E",
+        "short_name": "Adib E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Lank Center for Genitourinary Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, USA."
+        ]
+      },
+      {
+        "full_name": "Pedersen, M I",
+        "short_name": "Pedersen MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso."
+        ]
+      },
+      {
+        "full_name": "Tafavvoghi, M",
+        "short_name": "Tafavvoghi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Community Medicine, UiT The Arctic University of Norway, Tromso."
+        ]
+      },
+      {
+        "full_name": "Wahl, S G F",
+        "short_name": "Wahl SGF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, St. Olav's Hospital, Trondheim University Hospital, Trondheim; Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Petersen, R H",
+        "short_name": "Petersen RH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Copenhagen University Hospital, Rigshospitalet, Copenhagen; Department of Clinical Medicine, University of Copenhagen, Copenhagen."
+        ]
+      },
+      {
+        "full_name": "Bondgaard, A L",
+        "short_name": "Bondgaard AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Copenhagen University Hospital, Rigshospitalet, Copenhagen."
+        ]
+      },
+      {
+        "full_name": "Yde, C W",
+        "short_name": "Yde CW",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Medicine, Copenhagen University Hospital, Rigshospitalet, Copenhagen."
+        ]
+      },
+      {
+        "full_name": "Baudet, C",
+        "short_name": "Baudet C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Medicine, Copenhagen University Hospital, Rigshospitalet, Copenhagen."
+        ]
+      },
+      {
+        "full_name": "Licht, P",
+        "short_name": "Licht P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Odense University Hospital, Odense, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lund-Iversen, M",
+        "short_name": "Lund-Iversen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Norwegian Radium Hospital, Oslo University Hospital, Oslo."
+        ]
+      },
+      {
+        "full_name": "Grønberg, B H",
+        "short_name": "Grønberg BH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, St. Olav's Hospital, Trondheim University Hospital, Trondheim; Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Fjellbirkeland, L",
+        "short_name": "Fjellbirkeland L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Oslo University Hospital, University of Oslo, Oslo."
+        ]
+      },
+      {
+        "full_name": "Helland, Å",
+        "short_name": "Helland Å",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Genetics, Institute for Cancer Research, Norwegian Radium Hospital, Oslo University Hospital, Oslo; Department of Oncology, Oslo University Hospital, Oslo; Department of Clinical Medicine, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Pøhl, M",
+        "short_name": "Pøhl M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Copenhagen University Hospital, Rigshospitalet, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kwiatkowski, D J",
+        "short_name": "Kwiatkowski DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brigham and Women's Hospital, Harvard Medical School, Boston, USA; Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, USA."
+        ]
+      },
+      {
+        "full_name": "Donnem, T",
+        "short_name": "Donnem T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, UiT The Arctic University of Norway, Tromso; Department of Oncology, University Hospital of North Norway, Tromso, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of oncology : official journal of the European Society for Medical Oncology"
+    ],
+    "journal_abbrev": [
+      "Ann Oncol"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/27 00:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "42285213",
+      "42215484",
+      "42157309",
+      "42079655",
+      "41678173",
+      "41644763",
+      "41310476",
+      "41283988",
+      "41168799",
+      "40988453",
+      "40847227",
+      "40701847",
+      "40519901",
+      "40507370",
+      "40230809",
+      "40069556",
+      "39875799",
+      "39763611",
+      "39724105",
+      "38410612"
+    ],
+    "refs": [],
+    "similar": [
+      "37100205",
+      "34740862",
+      "37495171",
+      "35753125",
+      "33323404",
+      "38601319",
+      "37832364",
+      "37699269",
+      "31323387",
+      "29615460",
+      "33640623",
+      "36858519",
+      "34500370",
+      "36709038",
+      "35190375",
+      "37121400",
+      "32312757",
+      "35997519",
+      "31548347",
+      "38980931",
+      "34601169",
+      "38736875",
+      "33077574",
+      "32866624",
+      "36526124",
+      "31319993",
+      "35705448",
+      "34673143",
+      "36775193",
+      "37473958",
+      "32709715",
+      "34450259",
+      "22249257",
+      "33264619",
+      "24828662",
+      "17020408",
+      "33246647",
+      "34127019",
+      "35216730",
+      "33537171",
+      "35727053",
+      "27687306",
+      "35598205",
+      "35394121",
+      "38849167",
+      "35157996",
+      "35747993",
+      "33307193",
+      "39170614",
+      "20534738",
+      "34293517",
+      "37061249",
+      "36240971",
+      "34328274",
+      "36603171",
+      "29089357",
+      "28687838",
+      "27601007",
+      "31040157",
+      "38207230",
+      "31455821",
+      "27663899",
+      "37889752",
+      "36739576",
+      "38241355",
+      "35623683",
+      "37479333",
+      "34617407",
+      "30885352",
+      "29191602",
+      "22089114",
+      "29587953",
+      "35504291",
+      "35287068",
+      "34303275",
+      "34952628",
+      "31828882",
+      "20213688",
+      "35351670",
+      "23932319",
+      "34627293",
+      "34169426",
+      "37683526",
+      "33214079",
+      "37879763",
+      "36394791",
+      "26078391",
+      "36044718",
+      "30735010",
+      "26625312",
+      "30120041",
+      "34838441",
+      "34524570",
+      "32471566",
+      "35401554",
+      "36238302",
+      "29306329",
+      "30411339",
+      "38605929",
+      "29526543",
+      "36602799",
+      "22684020",
+      "32763065",
+      "32272498",
+      "26960398",
+      "39156705",
+      "37068173",
+      "37416990",
+      "37879772",
+      "38779006",
+      "37879773",
+      "36222846",
+      "35831213"
+    ],
+    "review": [
+      "37100205",
+      "33307193",
+      "34303275",
+      "37683526",
+      "36394791",
+      "34524570"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D37100205",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0923-7534(23)00147-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

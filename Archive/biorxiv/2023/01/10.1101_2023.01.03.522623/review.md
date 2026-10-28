@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, appendix) as provided
+- **Assessment boundary** Scientific and technical evaluation of the described method, its validation, and the claims made; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors propose PIsToN, a transformer-based deep learning approach that represents protein binding interfaces as 2D multi-channel images and combines them with empirical energy terms to distinguish native protein complexes from decoys, outperforming existing scoring functions on benchmark datasets
+- **Visible evidence base** Abstract, Introduction, Methods, Results, Discussion, Appendix, Table 1, Table 2, Figures 1-3, Supplementary Figures S1-S4, Supplementary Tables S1-S3 (referenced but not provided in full)
+- **Missing materials affecting confidence** Full supplementary figures and tables (S1-S4, S1-S3) not provided; exact equations for loss functions and interface map generation not fully specified; details of baseline model implementations and hyperparameter tuning not provided; statistical significance testing for performance differences not reported
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically interesting approach to protein interface scoring, combining 2D surface representations with transformer architectures and empirical energy terms. The incremental ablation analysis is commendable. However, the evidence provided is insufficient to fully support the claim of significant outperformance over state-of-the-art methods. Key methodological details are missing, statistical significance is not established, and the comparison with baselines appears incomplete. The work has potential but requires substantial additional validation and clarification before the central claims can be considered established.
+- **Who would be interested in the results, and why** Computational structural biologists, researchers developing scoring functions for protein-protein docking, and machine learning practitioners working on geometric deep learning for biomolecular applications. The 2D image representation of protein interfaces is a practical idea that could be adopted by others in the field, and the hybrid approach of combining learned representations with physics-based energy terms addresses a known limitation of purely data-driven methods.
+- **Major strengths** 1) The 2D interface map representation is a practical and potentially scalable alternative to 3D voxel grids, addressing computational cost concerns. 2) The multi-attention architecture with feature-level grouping is a thoughtful design that enables interpretability. 3) The contrastive learning strategy with prototypical layers is a novel contribution to this application domain. 4) The ablation study (Table S1) showing incremental improvements from each component is good scientific practice. 5) The authors address a real and important problem, namely the high false positive rate in docking predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The developed PIsToN model significantly outperforms existing state-of-the-art scoring functions on well-known datasets"
+  - **Evidence pointer** Table 1, Table 2, Results section "Comparison to Benchmark Tools"
+  - **Concern** The claim of significant outperformance is not supported by statistical testing. No confidence intervals, standard deviations, or significance tests (e.g., paired tests across complexes) are reported for the AUC, AP, balanced accuracy, or F1-score comparisons. The differences in Table 1 may be within noise, particularly given the modest test set sizes.
+  - **Why it matters** Without statistical significance, the central claim of the manuscript cannot be evaluated. The differences between methods could be due to random variation, especially given the challenging nature of the CAPRI dataset.
+  - **Resolution test** Provide confidence intervals or perform paired statistical tests (e.g., Wilcoxon signed-rank test across complexes) for all metrics in Table 1 and Table 2. Report effect sizes and discuss practical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The multi-attention transformer network is also endowed with explainability by highlighting the specific features and binding sites that were the most important for the classification decision"
+  - **Evidence pointer** Results section "Attention values and Explainability", Figure 3
+  - **Concern** The explainability analysis is anecdotal, based on a single example (PDB 1J3R). No systematic evaluation of explainability is provided, such as whether highlighted residues correspond to known hot spots across multiple complexes, or whether the attention maps provide information beyond what is already known from the energy terms. The z-score threshold of 1.96 is applied without correction for multiple testing across many pixels.
+  - **Why it matters** Explainability is presented as a key contribution, but the evidence is insufficient to establish that the attention mechanism provides biologically meaningful or novel insights. Without systematic validation, the explainability claim remains speculative.
+  - **Resolution test** Provide a systematic analysis across multiple complexes, comparing highlighted residues with known binding hot spots or mutagenesis data. Address multiple testing concerns in the significance threshold.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The model is trained on thousands of native and computationally-predicted protein complexes that contain challenging examples"
+  - **Evidence pointer** Methods section "Datasets", Methods section "Training process"
+  - **Concern** Critical details of the training data and protocol are missing. The manuscript states that 4,942 training complexes were used and that 100 docked models were generated per complex, but does not specify: (a) how the training complexes were selected and whether they overlap with test complexes at the protein family level, (b) the exact split between training and test sets, (c) whether the test complexes were seen during training in any form, and (d) how the "challenging examples" were defined. The potential for data leakage between training and test sets is a serious concern.
+  - **Why it matters** If the model has seen similar complexes during training, the reported performance could be inflated. The generalizability of the method to novel protein complexes cannot be assessed without clarity on data partitioning.
+  - **Resolution test** Provide a detailed description of data selection, including sequence or structure similarity thresholds between training and test sets. Report performance on a truly held-out set with no homology to training complexes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The PIsToN model significantly outperforms existing state-of-the-art scoring functions" and "PIsToN outperformed every other benchmarked scoring function" (from Table 2 discussion)
+  - **Evidence pointer** Methods section "Benchmarking", Table 1, Table 2
+  - **Concern** The comparison with baseline methods is incomplete and potentially unfair. For MaSIS-Search, the authors used a pre-trained model with "recommended parameters" but do not specify whether the same training data was used. For empirical methods, scores were obtained from an online server, which may not have been optimized for the specific test sets. The comparison with iScore, DOVE, and DeepRank on the CAPRI set relies on scores "extracted from the DeepRank study," which may have been computed under different conditions. No hyperparameter optimization was performed for baselines, while PIsToN appears to have been tuned on the validation set.
+  - **Why it matters** Unfair comparisons undermine the claim of superiority. If baselines are not given the same opportunity for optimization, the reported differences may reflect tuning effort rather than methodological advantage.
+  - **Resolution test** Provide a fair comparison where all methods are evaluated under identical conditions, including the same data splits and, where applicable, hyperparameter optimization on the same validation set. Report the specific configurations used for each baseline.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The training was guided with a contrastive learning process... The adaptations to the loss function are novel but due to space limitations, are explained in detail in the appendix"
+  - **Evidence pointer** Methods section "Training process", Appendix section "Contrastive Learning"
+  - **Concern** The loss function equations in the appendix are incomplete. The supervised contrastive loss equation is missing the summation over positive pairs, the margin ranking loss does not specify the margin value, and the final combined loss does not specify the weighting coefficients for each term. The temperature parameter is stated but the batch composition (how many complexes per batch, how many views per complex) is not described. The architecture details (number of transformer layers, heads, embedding dimensions, etc.) are not provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific contribution. Without complete methodological details, other researchers cannot implement or build upon this work.
+  - **Resolution test** Provide complete equations, all hyperparameter values, architecture specifications, and training details. Consider releasing the training code to facilitate reproduction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "significantly outperforms" without providing any numerical values. Readers cannot assess the magnitude of the claimed improvement.
+  - **Required correction** Include key performance numbers (e.g., AUC values) in the abstract to support the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, interface map generation
+  - **Evidence pointer** Methods section "Interface maps"
+  - **Issue** The description of the interface map generation is incomplete. The equation for pixel intensity is cut off, and the parameters for the MDS projection (number of dimensions, distance metric) are not specified. The choice of r_surf values (12, 16, 20 Å) is mentioned but the rationale is not explained.
+  - **Required correction** Complete the equation, specify all parameters, and justify the choice of surface radius values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, runtime analysis
+  - **Evidence pointer** Results section "Runtime", Figure S3
+  - **Issue** The runtime comparison with MaSIS is presented as a strength, but the hardware configuration is only partially described ("single CPU and 256GB RAM"). The CPU model is not specified, and no comparison is made with other deep learning methods.
+  - **Required correction** Specify the exact hardware used and include runtime comparisons with other methods where possible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement "it is not always necessary to invent new machine learning techniques for improved performance" is vague and not directly supported by the results presented.
+  - **Required correction** Either remove this statement or provide specific evidence from the ablation study that supports it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, training process
+  - **Evidence pointer** Methods section "Training process"
+  - **Issue** The manuscript states that models were labeled "acceptable" or "incorrect" based on CAPRI criteria, but the exact thresholds for these labels are not provided. The CAPRI criteria involve multiple metrics (FNAT, iRMSD, lRMSD) with different thresholds for different quality levels.
+  - **Required correction** Specify the exact CAPRI criteria used for labeling, including the thresholds for each metric.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, model selection
+  - **Evidence pointer** Results section "Model selection", Table S1
+  - **Issue** The ablation study in Table S1 is referenced but the table is not provided in the manuscript text. The incremental improvements are described but the reader cannot verify the claims.
+  - **Required correction** Include Table S1 in the main text or provide a summary of the key ablation results in the text.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, benchmarking
+  - **Evidence pointer** Methods section "Benchmarking"
+  - **Issue** The manuscript states that "all empirical-based scoring functions we executed on CCharrPPI online server" but does not specify which version of the server was used or whether default parameters were applied.
+  - **Required correction** Specify the server version and parameter settings for all empirical methods.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites AlphaFold [29] as motivation but does not discuss how the proposed method relates to or differs from AlphaFold's approach to protein structure prediction.
+  - **Required correction** Add a brief discussion of the relationship between the proposed method and AlphaFold, and clarify that the problem addressed (interface scoring) is distinct from structure prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical significance), R1-M2 (systematic validation of explainability), R1-M3 (data leakage assessment), R1-M4 (fair baseline comparison), R1-M5 (reproducibility of methods)
+- **Assessment against Nature-style criteria** Originality: The 2D image representation of protein interfaces combined with transformer architecture is a novel combination, though individual components (image-based representations, transformers, contrastive learning) are established. The hybrid approach of combining learned features with empirical energy terms is a reasonable contribution. Scientific importance: The problem of protein interface scoring is important for docking and drug discovery, and improvements in this area would be valuable. However, the demonstrated improvement over existing methods is not yet convincingly established. Interdisciplinary readership: The work bridges structural biology and deep learning, and the 2D image representation makes the approach accessible to a broad audience. Technical soundness: The approach is technically reasonable, but the validation is incomplete. Missing statistical tests, potential data leakage, and incomplete baseline comparisons undermine confidence. Readability for nonspecialists: The manuscript is generally well-written and the figures are helpful, but the methods section assumes familiarity with both structural biology and transformer architectures. The abstract and introduction are accessible to a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the technical direction is sound, but the central claims of significant outperformance and explainability require substantial additional validation. The authors should address the statistical testing, data leakage assessment, fair baseline comparison, and reproducibility concerns before the case can be considered established.

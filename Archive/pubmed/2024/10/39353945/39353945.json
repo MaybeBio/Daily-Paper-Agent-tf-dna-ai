@@ -1,0 +1,472 @@
+{
+  "identity": {
+    "pmid": "39353945",
+    "doi": "10.1038/s41467-024-52860-y",
+    "title": "Molecular architecture and functional dynamics of the pre-incision complex in nucleotide excision repair."
+  },
+  "content": {
+    "abstract": "Nucleotide excision repair (NER) is vital for genome integrity. Yet, our understanding of the complex NER protein machinery remains incomplete. Combining cryo-EM and XL-MS data with AlphaFold2 predictions, we build an integrative model of the NER pre-incision complex(PInC). Here TFIIH serves as a molecular ruler, defining the DNA bubble size and precisely positioning the XPG and XPF nucleases for incision. Using simulations and graph theoretical analyses, we unveil PInC's assembly, global motions, and partitioning into dynamic communities. Remarkably, XPG caps XPD's DNA-binding groove and bridges both junctions of the DNA bubble, suggesting a novel coordination mechanism of PInC's dual incision. XPA rigging interlaces XPF/ERCC1 with RPA, XPD, XPB, and 5' ssDNA, exposing XPA's crucial role in licensing the XPF/ERCC1 incision. Mapping disease mutations onto our models reveals clustering into distinct mechanistic classes, elucidating xeroderma pigmentosum and Cockayne syndrome disease etiology.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Repair",
+      "*DNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Humans",
+      "*Endonucleases/metabolism/genetics",
+      "Transcription Factor TFIIH/metabolism/chemistry/genetics",
+      "Xeroderma Pigmentosum Group D Protein/metabolism/genetics/chemistry",
+      "Cryoelectron Microscopy",
+      "Xeroderma Pigmentosum Group A Protein/metabolism/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Protein Binding",
+      "DNA/metabolism/chemistry/genetics",
+      "Replication Protein A/metabolism/genetics",
+      "Models, Molecular",
+      "DNA, Single-Stranded/metabolism/genetics",
+      "Excision Repair",
+      "Nuclear Proteins",
+      "DNA Excision Repair Protein ERCC-5"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Jina",
+        "Yan, Chunli",
+        "Paul, Tanmoy",
+        "Brewer, Lucas",
+        "Tsutakawa, Susan E",
+        "Tsai, Chi-Lin",
+        "Hamdan, Samir M",
+        "Tainer, John A",
+        "Ivanov, Ivaylo"
+      ],
+      "short_names": [
+        "Yu J",
+        "Yan C",
+        "Paul T",
+        "Brewer L",
+        "Tsutakawa SE",
+        "Tsai CL",
+        "Hamdan SM",
+        "Tainer JA",
+        "Ivanov I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8503-9435",
+        "ORCID: 0009-0008-5752-1700",
+        "ORCID: 0000-0002-4918-4571",
+        "ORCID: 0000-0002-0365-2405",
+        "ORCID: 0000-0001-5192-1852",
+        "ORCID: 0000-0003-1659-2429",
+        "ORCID: 0000-0002-5306-1005"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA.",
+        "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA.",
+        "Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Bioscience Program, Biological and Environmental Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.",
+        "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. jtainer@mdanderson.org.",
+        "Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. jtainer@mdanderson.org.",
+        "Department of Chemistry, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu.",
+        "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Jina",
+        "short_name": "Yu J",
+        "identifiers": [
+          "0000-0002-8503-9435"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Chunli",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Paul, Tanmoy",
+        "short_name": "Paul T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Brewer, Lucas",
+        "short_name": "Brewer L",
+        "identifiers": [
+          "0009-0008-5752-1700"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA."
+        ]
+      },
+      {
+        "full_name": "Tsutakawa, Susan E",
+        "short_name": "Tsutakawa SE",
+        "identifiers": [
+          "0000-0002-4918-4571"
+        ],
+        "affiliations": [
+          "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tsai, Chi-Lin",
+        "short_name": "Tsai CL",
+        "identifiers": [
+          "0000-0002-0365-2405"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Hamdan, Samir M",
+        "short_name": "Hamdan SM",
+        "identifiers": [
+          "0000-0001-5192-1852"
+        ],
+        "affiliations": [
+          "Bioscience Program, Biological and Environmental Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Tainer, John A",
+        "short_name": "Tainer JA",
+        "identifiers": [
+          "0000-0003-1659-2429"
+        ],
+        "affiliations": [
+          "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. jtainer@mdanderson.org.",
+          "Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. jtainer@mdanderson.org."
+        ]
+      },
+      {
+        "full_name": "Ivanov, Ivaylo",
+        "short_name": "Ivanov I",
+        "identifiers": [
+          "0000-0002-5306-1005"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu.",
+          "Center for Diagnostics and Therapeutics, Georgia State University, Atlanta, GA, USA. iivanov@gsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Oct 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 03:38",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42653251",
+      "42643815",
+      "42490432",
+      "42041999",
+      "41897370",
+      "41673165",
+      "41641700",
+      "41528811",
+      "41315283",
+      "40723898",
+      "40185232",
+      "40057514",
+      "40004560",
+      "39947477"
+    ],
+    "refs": [
+      "38806694",
+      "37179334",
+      "37076618",
+      "37040775",
+      "36893274",
+      "36477609",
+      "35969784",
+      "35637307",
+      "35076656",
+      "34853308",
+      "34265844",
+      "34099686",
+      "33685798",
+      "33166411",
+      "33007515",
+      "32821917",
+      "32522879",
+      "32111838",
+      "31925419",
+      "31253769",
+      "31110295",
+      "30575763",
+      "30516811",
+      "30174298",
+      "29664212",
+      "29581276",
+      "28902838",
+      "28653660",
+      "28230529",
+      "27994662",
+      "27766851",
+      "27300587",
+      "27294439",
+      "27193682",
+      "27035942",
+      "26884178",
+      "26715749",
+      "26583988",
+      "26574453",
+      "26488642",
+      "26384665",
+      "26340423",
+      "24954209",
+      "24910198",
+      "24086042",
+      "24061923",
+      "24051049",
+      "23303776",
+      "23295669",
+      "23070815",
+      "22982572",
+      "22572993",
+      "22217736",
+      "21592868",
+      "21571596",
+      "21496641",
+      "21097776",
+      "19934020",
+      "19279666",
+      "18510924",
+      "18470933",
+      "18079701",
+      "17948053",
+      "17882165",
+      "17290000",
+      "16600867",
+      "16200636",
+      "15719018",
+      "15590680",
+      "15264254",
+      "14517266",
+      "12644470",
+      "12060727",
+      "11927569",
+      "11238373",
+      "11156600",
+      "11037299",
+      "10940251",
+      "9734359",
+      "9618470",
+      "9372913",
+      "9034344",
+      "8990123",
+      "8652557",
+      "8483504",
+      "8465201",
+      "8090225",
+      "7657672"
+    ],
+    "similar": [
+      "39353945",
+      "31253769",
+      "9351836",
+      "18470933",
+      "23083890",
+      "38806694",
+      "30808711",
+      "21571596",
+      "36477609",
+      "38664429",
+      "11259578",
+      "36893274",
+      "37977600",
+      "33166411",
+      "8652557",
+      "27262611",
+      "35969784",
+      "14981083",
+      "19279666",
+      "17000769",
+      "17466626",
+      "25154395",
+      "18817897",
+      "12907715",
+      "17509950",
+      "11141066",
+      "8687116",
+      "37179334",
+      "15358100",
+      "28049704",
+      "20693538",
+      "31925419",
+      "27264556",
+      "25268380",
+      "21148310",
+      "21707758",
+      "21592868",
+      "18204222",
+      "18077223",
+      "32522879",
+      "40004560",
+      "17466625",
+      "19940136",
+      "39062528",
+      "8626644",
+      "28860187",
+      "21730288",
+      "17176115",
+      "33464383",
+      "18343204",
+      "33007515",
+      "16793370",
+      "37076618",
+      "12509251",
+      "15549133",
+      "31392348",
+      "30418489",
+      "9618470",
+      "10725665",
+      "26025908",
+      "10214908",
+      "17349973",
+      "30860024",
+      "25620205",
+      "41315283",
+      "21750170",
+      "22863773",
+      "16246722",
+      "32111838",
+      "17466619",
+      "26779634",
+      "35596054",
+      "30919937",
+      "16646069",
+      "18774935",
+      "9716411",
+      "7700386",
+      "8972858",
+      "17948053",
+      "23746523",
+      "29320546",
+      "31600675",
+      "31110295",
+      "35230528",
+      "30744808",
+      "31962067",
+      "19748547",
+      "37994737",
+      "25453469",
+      "17299578",
+      "26340423",
+      "7697716",
+      "25500814",
+      "10064601",
+      "26074087",
+      "23335232",
+      "20864414",
+      "22174697",
+      "27004399",
+      "17932351"
+    ],
+    "review": [
+      "39353945",
+      "21571596",
+      "37977600",
+      "27262611",
+      "8687116",
+      "27264556",
+      "21592868",
+      "18077223",
+      "40004560",
+      "18343204",
+      "33007515",
+      "10214908",
+      "17466619",
+      "35596054",
+      "30919937",
+      "31600675",
+      "35230528",
+      "17299578"
+    ],
+    "pmc": [
+      "11445577"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-52860-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39353945/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt801347fr",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

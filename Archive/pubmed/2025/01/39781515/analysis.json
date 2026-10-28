@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39781515",
+  "title": "SProtFP: a machine learning-based method for functional classification of small ORFs in prokaryotes.",
+  "authors": "Khanduja, Akshay; Mohanty, Debasisa",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习对原核小蛋白进行功能分类，其中包含DNA-binding类别，但未聚焦蛋白质-DNA互作机制或结合位点建模，仅作为分类标签之一，方法为浅层ANN和理化描述符，与TF-DNA互作建模课题关联较弱。",
+  "abstract": "Small proteins (</=100 amino acids) play important roles across all life forms, ranging from unicellular bacteria to higher organisms. In this study, we have developed SProtFP which is a machine learning-based method for functional annotation of prokaryotic small proteins into selected functional categories. SProtFP uses independent artificial neural networks (ANNs) trained using a combination of physicochemical descriptors for classifying small proteins into antitoxin type 2, bacteriocin, DNA-binding, metal-binding, ribosomal protein, RNA-binding, type 1 toxin and type 2 toxin proteins. We have also trained a model for identification of small open reading frame (smORF)-encoded antimicrobial peptides (AMPs). Comprehensive benchmarking of SProtFP revealed an average area under the receiver operator curve (ROC-AUC) of 0.92 during 10-fold cross-validation and an ROC-AUC of 0.94 and 0.93 on held-out balanced and imbalanced test sets. Utilizing our method to annotate bacterial isolates from the human gut microbiome, we could identify thousands of remote homologs of known small protein families and assign putative functions to uncharacterized proteins. This highlights the utility of SProtFP for large-scale functional annotation of microbiome datasets, especially in cases where sequence homology is low. SProtFP is freely available at http://www.nii.ac.in/sprotfp.html and can be combined with genome annotation tools such as ProsmORF-pred to uncover the functional repertoire of novel small proteins in bacteria.",
+  "abstract_zh": "小蛋白（≤100个氨基酸）在从单细胞细菌到高等生物的所有生命形式中扮演重要角色。在本研究中，我们开发了SProtFP，这是一种基于机器学习的方法，用于将原核小蛋白功能注释到选定的功能类别中。SProtFP使用独立的人工神经网络（ANNs），这些网络通过结合物理化学描述符进行训练，以将小蛋白分类为抗毒素2型、细菌素、DNA结合、金属结合、核糖体蛋白、RNA结合、1型毒素和2型毒素蛋白。我们还训练了一个模型，用于识别小开放阅读框（smORF）编码的抗菌肽（AMPs）。对SProtFP的全面基准测试显示，在10折交叉验证期间，接收者操作特征曲线下面积（ROC-AUC）平均为0.92，在保持的平衡和不平衡测试集上，ROC-AUC分别为0.94和0.93。利用我们的方法注释人类肠道微生物组中的细菌分离株，我们能够识别出数千个已知小蛋白家族的远程同源物，并为未表征的蛋白分配推定功能。这突显了SProtFP在微生物组数据集大规模功能注释中的实用性，尤其是在序列同源性较低的情况下。SProtFP可在http://www.nii.ac.in/sprotfp.html免费获取，并可结合基因组注释工具（如ProsmORF-pred）来揭示细菌中新型小蛋白的功能谱系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39781515/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39781515/",
+  "paper_page_path": "papers/pubmed/39781515/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report the identification and characterization of Tle3, a T6SS phospholipase effector from adherent-invasive Escherichia coli (AIEC), and its cognate immunity protein Tli3. They demonstrate PLA1 activity for Tle3, inhibition by Tli3, and determine the crystal structure of the complex using molecular replacement with an AlphaFold2-predicted model. They also provide evidence for interaction between Tle3 and the VgrG protein from AIEC.
+- **Visible evidence base** Abstract, main text, figure legends, table 1, supplementary figure legends, methods section
+- **Missing materials affecting confidence** Coordinates and structure factors not provided; electron density maps not shown; raw data for activity assays not provided; full supplementary figures and tables not accessible; PDB validation reports not available
+
+## Reviewer
+- **Overall assessment** This manuscript presents a useful biochemical and structural characterization of a T6SS phospholipase effector from the Tle3 family, which has not been previously characterized at the enzymatic or structural level. The work is technically sound in its core experiments, and the use of AlphaFold2 to enable structure solution is a notable methodological point. However, several concerns regarding data completeness, structural interpretation, and the strength of certain claims need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying bacterial competition, type VI secretion systems, effector biology, and phospholipase enzymes. The structural data on a Tle3 family member and its immunity protein will be of interest to the T6SS community, and the demonstration of AlphaFold2-assisted molecular replacement may interest structural biologists working with difficult crystals.
+- **Major strengths** First biochemical and structural characterization of a Tle3 family effector. Clear demonstration of PLA1 activity and specific inhibition by the cognate immunity protein. Successful structure solution using AlphaFold2 models after failure of experimental phasing. Evidence for effector-immunity complex stoichiometry and interaction with VgrG.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural data quality and validation
+  - **Claim pointer** The crystal structure of the Tle3/Tli3 complex is presented as determined at 3.6 Å resolution with R and Rfree factors of 23.4% and 26.8%.
+  - **Evidence pointer** Section 2.4, Table 1
+  - **Concern** The manuscript reports a 3.6 Å resolution structure but does not provide electron density maps, a PDB validation report, or any Ramachandran statistics beyond the statement that the catalytic serine is in a "special position." At this resolution, the interpretation of side chain conformations, the identification of the calcium ion, and the details of the catalytic triad geometry require careful validation. The authors should provide the relevant validation metrics and, ideally, representative electron density figures.
+  - **Why it matters** The structural model is central to the manuscript's claims about the inhibition mechanism and the catalytic site. Without adequate validation, the reliability of these structural interpretations cannot be assessed.
+  - **Resolution test** Provide PDB validation reports, Ramachandran statistics, and representative electron density maps for key regions including the catalytic triad and the Tli3 loop inserted into the active site cleft.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Completeness of structural model
+  - **Claim pointer** The authors state that 525 of 658 residues of Tle3 are identified in the electron density, with missing N- and C-termini and some loops. The Tli3 model has 30-33 N-terminal and 0-5 C-terminal residues missing.
+  - **Evidence pointer** Section 2.5
+  - **Concern** The manuscript does not specify which residues are missing in each chain, nor does it discuss how the missing regions might affect the interpretation of the complex interface. The N-terminal loop of Tle3 is proposed to be important for VgrG interaction, yet part of this region may be disordered. A clear description of the modeled versus unmodeled regions is necessary.
+  - **Why it matters** The completeness of the model affects the interpretation of the interaction interface and the functional conclusions drawn from the structure.
+  - **Resolution test** Provide a clear description of the residues modeled in each chain, and discuss the potential functional implications of the disordered regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for the VgrG interaction model
+  - **Claim pointer** The authors propose a model of the VgrG-Tle3 interaction based on AlphaFold2 prediction and manual adjustment, stating that the interaction is similar to that observed for the Tle1-VgrG complex.
+  - **Evidence pointer** Section 2.9, Figure 6
+  - **Concern** The docking model is based on an AlphaFold2 prediction with manual adjustment, and the authors acknowledge that AF2 was not able to identify the second anchoring point. The experimental evidence for the interaction is limited to a pull-down assay, which demonstrates binding but does not define the interface. The proposed model should be clearly labeled as speculative, and the limitations of the modeling approach should be discussed.
+  - **Why it matters** The proposed model is used to support a general mechanism of effector-VgrG interaction, but the evidence is not sufficient to establish the specific interface or the functional relevance of the predicted contacts.
+  - **Resolution test** Clearly distinguish experimental results from modeling predictions, and consider additional experimental validation such as mutagenesis of the predicted interface or cross-linking studies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Activity assay quantification and statistics
+  - **Claim pointer** The authors report specific activity of 7.65 nmol/min/mg for Tle3 PLA1 activity and inhibition by Tli3 in a dose-dependent manner.
+  - **Evidence pointer** Section 2.2, Figure 1C, 1D
+  - **Concern** The manuscript does not report the number of replicates, error bars, or statistical analysis for the activity assays. The inhibition data are presented as a single representative experiment. The specificity of the assay and the kinetic parameters (e.g., Km, kcat) are not reported.
+  - **Why it matters** Quantitative enzymatic data require appropriate replication and statistical treatment to support the claims of activity and inhibition.
+  - **Resolution test** Provide replicate data with error bars and statistical analysis, and report kinetic parameters if possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "The crystals exhibit a Vm of 17.4 Å3/Da for 1 complex per asymmetric unit."
+  - **Issue** This sentence is confusing. A Vm of 17.4 Å3/Da is unusually high and inconsistent with the subsequent statement that 4-8 complexes per asymmetric unit would give more reasonable Vm values. The authors likely mean that the calculated Vm assuming one complex is 17.4, which is unrealistic, hence the conclusion that there must be more complexes.
+  - **Required correction** Rewrite for clarity, e.g., "Assuming one complex per asymmetric unit, the Matthews coefficient would be 17.4 Å3/Da, which is unrealistically high, suggesting the presence of 4-8 complexes per asymmetric unit."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The completeness of the dataset is reported as 98.9% to 3.6 Å, but the overall completeness and the completeness in the highest resolution shell are not reported separately. The redundancy is described as "low" but the actual value is not given.
+  - **Required correction** Provide the full data collection statistics including completeness in the outer shell, redundancy, I/sigma, and CC1/2.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4.8
+  - **Evidence pointer** "Stretches of residues with pLDDT < 80 were removed from the model"
+  - **Issue** The threshold for removing residues from the AlphaFold2 model is stated, but the authors do not specify how many residues were removed or whether this threshold was applied to both Tle3 and Tli3.
+  - **Required correction** Specify the number of residues removed for each protein and justify the pLDDT threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The figure legends do not indicate how the electrostatic surface potential was calculated, and the orientation of the surface representations is not described.
+  - **Required correction** Add methodological details for surface calculations and describe the orientations shown.
+- **Technical failings that need to be addressed before the case is established** The absence of structural validation metrics (R1-M1) and the lack of statistical treatment of activity data (R1-M4) are the most significant technical issues. The structural model is central to the manuscript's conclusions, and the activity data support the functional claims. Both need to be addressed.
+- **Assessment against Nature-style criteria** Originality: The work is original in providing the first characterization of a Tle3 family effector, which fills a gap in the T6SS effector literature. Scientific importance: The findings are of moderate importance, contributing to the understanding of T6SS effector diversity and immunity mechanisms, but the broader significance is limited by the lack of in vivo functional data. Interdisciplinary readership: The work will primarily interest T6SS and structural biology researchers; the broader readership appeal is limited. Technical soundness: The core experiments are generally sound, but the structural validation and statistical treatment of activity data need improvement. Readability for nonspecialists: The manuscript is generally readable, though some sections assume familiarity with T6SS and structural biology terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a useful contribution to the field, but the structural validation and quantitative data presentation need to be improved before the claims are fully supported.
+
+## Risk / unsupported claims
+- The claim that Tli3 inhibits Tle3 by inserting a loop into the catalytic crevice is based on the crystal structure, but the functional relevance of this specific interaction is not experimentally tested.
+- The proposed model of the VgrG-Tle3 interaction is based on AlphaFold2 prediction with manual adjustment and should be considered speculative.
+- The statement that the calcium ion is "probably Ca2+" is not experimentally verified.
+- The claim that Tle3 has no cytotoxic activity on RAW 264.7 cells is based on a single assay with limited description of controls and replicates.
+- The statement that the Tli3 fold is "unique" is based on a Dali search with low Z-scores and should be tempered.

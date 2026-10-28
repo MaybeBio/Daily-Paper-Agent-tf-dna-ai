@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported findings. No assessment of publication ethics, authorship, or journal fit beyond stated criteria.
+- **Shared manuscript claim summary** The manuscript reports that a conserved apical proline (P64) in the *Helicobacter pylori* histone-like DNA binding protein (Hup) regulates DNA binding and local structural stability. A P64A variant was generated and characterized using biophysical methods (SEC, CD, fluorescence), NMR spectroscopy (chemical shift assignments, CSP, temperature coefficients, 15N relaxation), and molecular dynamics simulations. The authors conclude that P64A reduces DNA binding affinity approximately five-fold, increases local rigidity in the DNA binding domain, and does not alter global stability or dimer–monomer equilibrium.
+- **Visible evidence base** Full text including abstract, introduction, materials and methods, results, discussion, and conclusions. Figures and tables are referenced but not provided in the supplied material. Supplementary material is mentioned but not included.
+- **Missing materials affecting confidence** All figures, tables, and supplementary files (Figures S1–S11, Tables S1–S2) are referenced but not available for inspection. Raw NMR data, MD simulation trajectories, and statistical analyses are not provided. This limits verification of quantitative claims and data quality.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a focused and mechanistically relevant question regarding the role of a conserved proline residue in a nucleoid-associated protein. The experimental approach is multi-pronged and generally appropriate. However, the absence of the actual figures and tables prevents full evaluation of data quality and the strength of the conclusions. Several claims regarding structural changes, dynamics, and binding affinity are plausible but cannot be independently verified from the supplied text alone. The manuscript would benefit from clearer presentation of quantitative results and a more explicit link between observed biophysical changes and the proposed intercalation mechanism.
+- **Who would be interested in the results, and why** Researchers studying nucleoid-associated proteins, bacterial chromatin organization, DNA-binding protein structure–function relationships, and the molecular basis of *H. pylori* pathogenesis. The work may also interest those investigating the role of proline residues in protein–DNA interactions more broadly, given the proposed wedge/intercalation mechanism.
+- **Major strengths** The study combines multiple complementary techniques (biophysics, NMR, MD simulations) to characterize a single point mutant. The focus on a conserved residue with proposed functional significance is well justified. The authors attempt to connect local structural perturbations to functional outcomes (DNA binding) and discuss their results in the context of the broader HU protein family.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The manuscript claims that Hup-P64A exhibits approximately five-fold weaker DNA binding compared to wild-type (Kd = 2.6 ± 0.2 μM vs 0.5 ± 0.05 μM).
+  - **Evidence pointer** Results section, "Assessing the Global Structural Features and DNA Binding Potency of Hup-P64A Protein", Figure 2D–F. Figure not provided.
+  - **Concern** The quantitative binding data are central to the manuscript's main conclusion, yet the actual binding curves, replicates, and fitting details are not visible. The reported error bars are small, but without the raw data or at least representative titration curves, it is impossible to assess whether the difference is robust and whether the chosen model (double log plot from Stern–Volmer analysis) is appropriate for this system. The use of a Stern–Volmer relationship for binding affinity determination is unconventional and may not accurately reflect a true dissociation constant.
+  - **Why it matters** The five-fold difference in Kd is the primary functional evidence supporting the role of P64 in DNA binding. If this measurement is flawed or overinterpreted, the central conclusion is weakened.
+  - **Resolution test** Provide representative fluorescence quenching titration curves, show replicates, and justify the use of the Stern–Volmer-derived double log plot for Kd determination. Alternatively, use a more standard binding assay (e.g., electrophoretic mobility shift assay) to confirm the affinity difference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of structural and dynamic data
+  - **Claim pointer** The manuscript claims that P64A induces extension of β3 and β4 strands, reduces conformational dynamics, and increases local stability in the DNA binding domain, based on chemical shift indices, CSP, temperature coefficients, 15N relaxation, and MD simulations.
+  - **Evidence pointer** Results sections "Secondary Structure Preferences of P64A Protein", "Chemical Shift Perturbation (CSP) Analysis", "Analyzing the Hydrogen-Bonding Preferences", "Evaluating the Conformational Dynamics", Figures 4–9. Figures not provided.
+  - **Concern** The interpretation that β-strand extension occurs is based on chemical shift indices, which are indirect measures of secondary structure. Without the actual CSI plots or comparison to a validated structure, this claim is speculative. Similarly, the conclusion that the mutant is more rigid relies on relaxation data and MD simulations, but the actual data (R1, R2, NOE values, RMSF plots) are not shown. The MD simulation is described as 500 ns, but no convergence analysis or validation against experimental data is presented. The claim that increased local rigidity reduces DNA binding is mechanistically plausible but not directly demonstrated.
+  - **Why it matters** The structural and dynamic characterization is the mechanistic core of the paper. If the interpretation of these data is not robust, the proposed mechanism linking P64 to DNA binding via conformational control is not established.
+  - **Resolution test** Show the actual CSI, CSP, temperature coefficient, and relaxation data with proper error analysis. Provide MD simulation convergence metrics and compare simulated and experimental observables. Consider additional experiments (e.g., hydrogen/deuterium exchange mass spectrometry) to support the local stability claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and evolutionary claims
+  - **Claim pointer** The manuscript states that P64 is "fully conserved" across HU family members and implies that the findings for Hup can be generalized to the entire family.
+  - **Evidence pointer** Discussion section, "Molecular Insights into the Altered Structural and DNA Binding Characteristics", Figures S10–S11. Figures not provided.
+  - **Concern** The conservation analysis is based on 58 sequences from diverse taxa, but the alignment and phylogenetic tree are not shown. The claim of full conservation is strong and should be supported by the actual alignment. Even if P64 is conserved, the functional role may differ across species with different DNA-binding contexts. The manuscript does not discuss potential limitations of generalizing from a single mutant in a single species.
+  - **Why it matters** The evolutionary argument is used to elevate the significance of the findings beyond *H. pylori*. If the conservation claim is not rigorously supported, the broader relevance is overstated.
+  - **Resolution test** Provide the full sequence alignment highlighting P64 conservation. Discuss any exceptions and address whether the proposed mechanism is likely to be universal or context-dependent.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** DNA binding assay description
+  - **Evidence pointer** Materials and Methods, "DNA Binding Assay"
+  - **Issue** The description of the agarose gel-based DNA binding assay is brief. It is unclear how binding was quantified from gel images and whether the assay is semi-quantitative or qualitative.
+  - **Required correction** Provide more detail on the assay protocol, including DNA concentration, protein:DNA ratios, and how smearing was interpreted. Clarify whether this assay was used for the Kd determination or only for qualitative confirmation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Biophysical measurements
+  - **Evidence pointer** Materials and Methods, "Fluorescence Spectroscopy", "Circular Dichroism (CD) Spectroscopy"
+  - **Issue** The manuscript states that experiments were repeated twice, but no statistical analysis is reported. Error bars are shown in figures (not visible), but the number of independent replicates and the type of error (SD vs SEM) are not stated.
+  - **Required correction** State the number of independent replicates for each experiment and define error bars. Consider adding statistical tests where appropriate (e.g., for comparing Kd values).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "wedge mechanism" and "intercalation"
+  - **Evidence pointer** Discussion section
+  - **Issue** The terms "wedge," "intercalate," and "intercalation" are used somewhat interchangeably. Intercalation typically refers to insertion between base pairs, while wedging may involve minor groove insertion. The manuscript should be precise about the proposed mode of action.
+  - **Required correction** Define the proposed mechanism more precisely and use consistent terminology throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Discussion of proline in DNA-binding proteins
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion cites several examples of proline mutations affecting protein stability and function, but the connection to DNA-binding proteins specifically could be expanded. The comparison to pA104R is mentioned but not discussed in detail.
+  - **Required correction** Expand the comparison to pA104R and consider discussing other DNA-binding proteins where proline intercalation has been structurally characterized.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative binding data and the structural/dynamic interpretations are not verifiable from the supplied material. Without access to the figures and tables, the core claims cannot be fully assessed.
+- **Assessment against Nature-style criteria**
+  - **Originality** The study addresses a specific and relatively unexplored question regarding a conserved proline in a bacterial histone-like protein. The approach is not entirely novel, as similar mutagenesis studies have been performed on other HU family members, but the focus on *H. pylori* Hup and the combination of techniques adds some originality.
+  - **Scientific importance** The findings are of moderate importance. They provide mechanistic insight into a conserved residue in a protein family involved in DNA compaction, which is relevant to bacterial physiology and pathogenesis. However, the study does not reveal a fundamentally new principle or mechanism.
+  - **Interdisciplinary readership** The work is primarily of interest to structural biologists, biophysicists, and microbiologists. The use of NMR and MD simulations may appeal to computational biologists, but the overall scope is relatively narrow.
+  - **Technical soundness** The experimental design is generally sound, but the lack of visible data prevents full assessment. The use of Stern–Volmer analysis for Kd determination is questionable and should be justified or replaced. The interpretation of chemical shift indices as evidence for β-strand extension is speculative without additional validation.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with NMR spectroscopy and protein biophysics. The abstract is accessible, but the results and discussion sections may be challenging for nonspecialists. The logical flow is clear, but some terms and concepts could be better explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a valid question and the authors have employed a reasonable multi-technique approach. However, the blocking concerns regarding data visibility and interpretation must be addressed before the conclusions can be considered established. The authors should provide the actual figures and tables, justify their analytical methods, and temper their mechanistic claims where the evidence is indirect.
+
+## Risk / unsupported claims
+- The claim that P64 is "fully conserved" across HU family members is not verifiable without the sequence alignment.
+- The claim that P64A results in β-strand extension is based on indirect chemical shift index data and is not fully supported.
+- The claim that reduced conformational dynamics in the DNA binding domain directly explains the reduced DNA binding affinity is mechanistically plausible but not directly demonstrated.
+- The use of Stern–Volmer analysis to derive a dissociation constant (Kd) is unconventional and may not be valid; the reported Kd values should be treated with caution.
+- The statement that P64 is "presumed to be involved in the external leverage mechanism" is speculative and presented as a conclusion rather than a hypothesis.

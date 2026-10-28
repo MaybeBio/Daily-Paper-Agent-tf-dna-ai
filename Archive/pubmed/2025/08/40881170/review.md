@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Sections 2-6, Author contributions, Conflict of interest, Generative AI statement, Publisher's note, Supplementary material notice)
+- **Assessment boundary** Scientific content, technical accuracy, clarity, and support for claims as presented in the provided text. Supplementary tables (S1, S2) are referenced but not provided.
+- **Shared manuscript claim summary** The manuscript reviews experimental and computational methods for enhancer identification and characterization, with emphasis on machine learning and deep learning tools. It argues that these tools can decipher the regulatory logic of enhancers and have applications in understanding health and disease, with a specific focus on sepsis. The authors present a narrative of the state of the field, highlight key models (e.g., Enformer, BPNet, DeepSTARR), and discuss challenges and future directions.
+- **Visible evidence base** The manuscript text itself, including descriptions of methods, models, and cited literature. No figures, tables, or supplementary data were provided for direct inspection.
+- **Missing materials affecting confidence** Supplementary Tables S1 and S2, which are claimed to list salient features of deep learning models and 3D genome prediction tools, respectively. Figures (e.g., Figure 1) are referenced but not provided. The absence of these materials limits verification of the completeness and accuracy of the model summaries.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a broad, narrative review of enhancer biology and machine learning applications, with a specific emphasis on sepsis. The topic is timely and of potential interest to a wide audience. However, the review is largely descriptive and lacks critical depth. Several claims are made without sufficient supporting detail or critical evaluation. The focus on sepsis feels somewhat disconnected from the main body of the review, and the discussion of clinical applications is speculative. The manuscript would benefit from a more structured, critical analysis of the strengths and limitations of the discussed tools, and a clearer articulation of the specific contributions of machine learning to enhancer biology.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and genomics would find this review useful as an entry point to the field. Clinicians and researchers studying sepsis, particularly those interested in host immune response and potential biomarkers, may also find the discussion relevant. The review could serve as a teaching resource for graduate students or as a primer for researchers new to machine learning applications in genomics.
+- **Major strengths** The manuscript covers a wide range of relevant topics, from experimental methods for enhancer identification to state-of-the-art deep learning models. The inclusion of a section on model interpretation is valuable. The focus on sepsis as a potential application area is a distinctive angle that may attract readers from a clinical background. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that deep learning models such as Enformer, BPNet, and DeepSTARR are "state-of-the-art" and can predict enhancer activity and variant effects, and that they have led to the construction of synthetic enhancers.
+  - **Evidence pointer** Section 4, Supplementary Table S1 (not provided)
+  - **Concern** The manuscript makes strong claims about the capabilities and performance of specific models without providing a critical comparison or quantitative evidence. For example, the claim that Enformer and BPNet are "state-of-the-art" is presented without benchmarking against other methods or discussing their limitations. The description of how these models work is superficial and lacks technical detail. The claim about synthetic enhancers is mentioned but not elaborated upon, leaving the reader without a clear understanding of the methodology or its significance.
+  - **Why it matters** For a review to be useful, it must provide a balanced and critical assessment of the tools it describes. Simply listing models and their features without discussing their relative strengths, weaknesses, and appropriate use cases is insufficient. The lack of critical evaluation undermines the manuscript's authority and its utility to readers who may be seeking guidance on which tool to use for a specific problem.
+  - **Resolution test** The authors should provide a more detailed and critical comparison of the discussed models, including their architectural differences, training data requirements, performance on benchmark tasks, and known limitations. They should also provide specific examples of how these models have been used to generate novel biological insights, with citations to the primary literature. The claim about synthetic enhancers should be substantiated with a description of the approach and its implications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that machine learning approaches can aid in diagnosing and treating diseases, specifically sepsis, by identifying endotypes, circuits, and immune cell states.
+  - **Evidence pointer** Section 5
+  - **Concern** The discussion of sepsis applications is largely speculative and not well-integrated with the rest of the review. The authors mention a few studies (e.g., MAGICAL) but do not provide a critical assessment of their findings or their potential clinical utility. The claim that machine learning can aid in diagnosing and treating sepsis is not supported by concrete examples or a discussion of the challenges involved in translating such approaches to the clinic. The connection between enhancer biology and sepsis is not clearly established.
+  - **Why it matters** The focus on sepsis is a key differentiator for this review, but it is currently underdeveloped. If the authors intend to highlight sepsis as a key application area, they need to provide a more substantive and critical discussion of the current state of research, the specific challenges, and the potential impact. Without this, the section feels like an afterthought and weakens the overall impact of the manuscript.
+  - **Resolution test** The authors should either significantly expand the sepsis section to provide a critical and detailed review of the current literature, including specific examples of how enhancer-focused machine learning has been or could be applied, or they should reframe the manuscript to focus more broadly on disease applications, with sepsis as one example among several. The claims about clinical utility should be tempered and supported by evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to present machine learning tools for deciphering enhancer regulatory logic to a broad audience.
+  - **Evidence pointer** Sections 2, 3, and 4
+  - **Concern** The manuscript assumes a high level of familiarity with both genomics and machine learning concepts. Terms like "position-weighted matrices," "dilated convolution," "receptive field," and "autoencoders" are used without adequate explanation. The transition from experimental methods to computational methods is abrupt, and the logic connecting the two is not always clear. The section on 3D genome organization feels somewhat disconnected from the main narrative.
+  - **Why it matters** A review in a journal like Frontiers in Genetics is likely to be read by a diverse audience, including experimental biologists, clinicians, and computational scientists. The current level of technical detail may alienate readers who are not already experts in both fields. Improving accessibility would broaden the manuscript's impact.
+  - **Resolution test** The authors should provide brief, plain-language explanations of key technical terms and concepts. They should also improve the flow of the narrative, making explicit connections between the experimental methods, the computational tools, and the biological questions they address. A glossary or a "key concepts" box could be helpful.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and lists many topics without providing a clear summary of the review's main conclusions or contributions.
+  - **Required correction** The abstract should be revised to more clearly state the scope of the review, the key tools discussed, and the main takeaways for the reader.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, paragraph 2
+  - **Issue** The description of "shallow learning" methods is overly brief and dismissive. The statement that they "may miss patterns" is vague.
+  - **Required correction** Provide a more balanced description of the capabilities and limitations of non-deep learning methods, and clarify the specific scenarios where they may be insufficient.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5
+  - **Issue** The list of disease applications is brief and reads like a list of examples rather than a critical discussion.
+  - **Required correction** Expand the discussion of at least one or two specific disease examples to illustrate the potential and challenges of the approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 6
+  - **Evidence pointer** Section 6
+  - **Issue** The discussion of challenges is general and does not provide specific, actionable advice for researchers in the field.
+  - **Required correction** Provide more specific examples of challenges (e.g., data scarcity, model interpretability, validation) and discuss potential solutions or future directions.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of critical depth in the description and comparison of machine learning models. The manuscript lists models and their features but does not provide a rigorous analysis of their performance, limitations, or appropriate use cases. This is a fundamental issue for a review article, as it fails to provide the reader with the necessary information to make informed decisions. The sepsis section also lacks the depth needed to support the claim that machine learning can aid in diagnosis and treatment.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript is a review and does not present original research. Its originality lies in its specific focus on the intersection of enhancer biology, machine learning, and sepsis. However, this angle is not fully developed, and the content is largely a summary of existing literature.
+  - **Scientific importance** The topic is important, as understanding enhancer regulation is fundamental to gene expression and disease. The potential application to sepsis is clinically relevant. However, the manuscript does not make a strong case for the specific importance of the machine learning tools discussed, beyond stating that they are useful.
+  - **Interdisciplinary readership** The manuscript has the potential to appeal to a broad readership, including molecular biologists, computational biologists, and clinicians. However, the current level of technical detail may limit its accessibility to non-experts.
+  - **Technical soundness** The technical descriptions are generally accurate but lack critical depth. The manuscript does not provide a balanced assessment of the strengths and weaknesses of the discussed tools, which is a significant shortcoming for a review.
+  - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists due to the use of technical jargon without adequate explanation. The structure and flow could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has the potential to be a useful review, but it requires substantial revision to address the major concerns, particularly the lack of critical depth and the underdeveloped sepsis section. The authors should either significantly strengthen the critical analysis or reframe the scope to be more focused and impactful.
+
+## Risk / unsupported claims
+- The claim that deep learning models are "state-of-the-art" for enhancer prediction and variant effect prediction is not supported by a critical comparison or benchmarking data.
+- The claim that machine learning can aid in diagnosing and treating sepsis is speculative and not supported by specific, well-described examples.
+- The claim that the construction of synthetic enhancers is a "recent milestone" is mentioned but not elaborated upon, making it difficult to assess its significance.
+- The manuscript implies that epigenomics data are superior to transcriptomics data for patient stratification, citing a single study (Dinh et al., 2020), but this claim is presented without critical discussion of the context or generalizability.
+- The statement that "the stage is set for machine learning applications to delve into biological mechanisms and provide groundbreaking insights" is an unsupported, forward-looking assertion.

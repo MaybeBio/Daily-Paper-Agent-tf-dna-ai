@@ -1,0 +1,596 @@
+{
+  "identity": {
+    "pmid": "34625747",
+    "doi": "10.1038/s41594-021-00667-6",
+    "title": "A structural model of a Ras-Raf signalosome."
+  },
+  "content": {
+    "abstract": "The protein K-Ras functions as a molecular switch in signaling pathways regulating cell growth. In the human mitogen-activated protein kinase (MAPK) pathway, which is implicated in many cancers, multiple K-Ras proteins are thought to assemble at the cell membrane with Ras effector proteins from the Raf family. Here we propose an atomistic structural model for such an assembly. Our starting point was an asymmetric guanosine triphosphate-mediated K-Ras dimer model, which we generated using unbiased molecular dynamics simulations and verified with mutagenesis experiments. Adding further K-Ras monomers in a head-to-tail fashion led to a compact helical assembly, a model we validated using electron microscopy and cell-based experiments. This assembly stabilizes K-Ras in its active state and presents composite interfaces to facilitate Raf binding. Guided by existing experimental data, we then positioned C-Raf, the downstream kinase MEK1 and accessory proteins (Galectin-3 and 14-3-3sigma) on and around the helical assembly. The resulting Ras-Raf signalosome model offers an explanation for a large body of data on MAPK signaling.",
+    "keywords": [],
+    "mesh_terms": [
+      "Blood Proteins/chemistry/metabolism",
+      "DNA-Binding Proteins/chemistry/metabolism",
+      "Fluorescence Resonance Energy Transfer",
+      "GTPase-Activating Proteins/chemistry/metabolism",
+      "Galectins/chemistry/metabolism",
+      "Guanosine Triphosphate/chemistry/metabolism",
+      "HEK293 Cells",
+      "Humans",
+      "MAP Kinase Kinase 1/metabolism",
+      "Microscopy, Electron",
+      "Microscopy, Electron, Transmission",
+      "Molecular Dynamics Simulation",
+      "Multiprotein Complexes/chemistry/metabolism",
+      "Mutagenesis",
+      "Protein Multimerization",
+      "Proto-Oncogene Proteins c-raf/*chemistry/genetics/*metabolism",
+      "Proto-Oncogene Proteins p21(ras)/*chemistry/genetics/*metabolism",
+      "Reproducibility of Results",
+      "Signal Transduction",
+      "Transcription Factors/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mysore, Venkatesh P",
+        "Zhou, Zhi-Wei",
+        "Ambrogio, Chiara",
+        "Li, Lianbo",
+        "Kapp, Jonas N",
+        "Lu, Chunya",
+        "Wang, Qi",
+        "Tucker, Maxwell R",
+        "Okoro, Jeffrey J",
+        "Nagy-Davidescu, Gabriela",
+        "Bai, Xiaochen",
+        "Pluckthun, Andreas",
+        "Janne, Pasi A",
+        "Westover, Kenneth D",
+        "Shan, Yibing",
+        "Shaw, David E"
+      ],
+      "short_names": [
+        "Mysore VP",
+        "Zhou ZW",
+        "Ambrogio C",
+        "Li L",
+        "Kapp JN",
+        "Lu C",
+        "Wang Q",
+        "Tucker MR",
+        "Okoro JJ",
+        "Nagy-Davidescu G",
+        "Bai X",
+        "Pluckthun A",
+        "Janne PA",
+        "Westover KD",
+        "Shan Y",
+        "Shaw DE"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4122-701X",
+        "ORCID: 0000-0003-0107-7125",
+        "ORCID: 0000-0002-7308-559X",
+        "ORCID: 0000-0002-1606-8806",
+        "ORCID: 0000-0002-4234-5686",
+        "ORCID: 0000-0003-4191-5306",
+        "ORCID: 0000-0002-7821-4928",
+        "ORCID: 0000-0003-3653-5923",
+        "ORCID: 0000-0002-3865-8110",
+        "ORCID: 0000-0001-8265-5761"
+      ],
+      "affiliations": [
+        "D. E. Shaw Research, New York, NY, USA.",
+        "Departments of Biochemistry and Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Molecular Biotechnology and Health Sciences, Molecular Biotechnology Center, University of Turin, Turin, Italy.",
+        "Departments of Biochemistry and Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Respiratory Medicine, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "D. E. Shaw Research, New York, NY, USA.",
+        "D. E. Shaw Research, New York, NY, USA.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Belfer Center for Applied Cancer Science, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Departments of Biochemistry and Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "D. E. Shaw Research, New York, NY, USA. Yibing.Shan@DEShawResearch.com.",
+        "D. E. Shaw Research, New York, NY, USA. David.Shaw@DEShawResearch.com.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA. David.Shaw@DEShawResearch.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mysore, Venkatesh P",
+        "short_name": "Mysore VP",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhi-Wei",
+        "short_name": "Zhou ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Biochemistry and Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Ambrogio, Chiara",
+        "short_name": "Ambrogio C",
+        "identifiers": [
+          "0000-0003-4122-701X"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Molecular Biotechnology and Health Sciences, Molecular Biotechnology Center, University of Turin, Turin, Italy."
+        ]
+      },
+      {
+        "full_name": "Li, Lianbo",
+        "short_name": "Li L",
+        "identifiers": [
+          "0000-0003-0107-7125"
+        ],
+        "affiliations": [
+          "Departments of Biochemistry and Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Kapp, Jonas N",
+        "short_name": "Kapp JN",
+        "identifiers": [
+          "0000-0002-7308-559X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Lu, Chunya",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+          "Department of Respiratory Medicine, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Tucker, Maxwell R",
+        "short_name": "Tucker MR",
+        "identifiers": [
+          "0000-0002-1606-8806"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Okoro, Jeffrey J",
+        "short_name": "Okoro JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Nagy-Davidescu, Gabriela",
+        "short_name": "Nagy-Davidescu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Bai, Xiaochen",
+        "short_name": "Bai X",
+        "identifiers": [
+          "0000-0002-4234-5686"
+        ],
+        "affiliations": [
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Plückthun, Andreas",
+        "short_name": "Plückthun A",
+        "identifiers": [
+          "0000-0003-4191-5306"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Jänne, Pasi A",
+        "short_name": "Jänne PA",
+        "identifiers": [
+          "0000-0002-7821-4928"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Belfer Center for Applied Cancer Science, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Westover, Kenneth D",
+        "short_name": "Westover KD",
+        "identifiers": [
+          "0000-0003-3653-5923"
+        ],
+        "affiliations": [
+          "Departments of Biochemistry and Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Shan, Yibing",
+        "short_name": "Shan Y",
+        "identifiers": [
+          "0000-0002-3865-8110"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA. Yibing.Shan@DEShawResearch.com."
+        ]
+      },
+      {
+        "full_name": "Shaw, David E",
+        "short_name": "Shaw DE",
+        "identifiers": [
+          "0000-0001-8265-5761"
+        ],
+        "affiliations": [
+          "D. E. Shaw Research, New York, NY, USA. David.Shaw@DEShawResearch.com.",
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA. David.Shaw@DEShawResearch.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/10 06:00",
+    "fetched_at": "2026-09-28 00:35:07"
+  },
+  "links": {
+    "cites": [
+      "41373795",
+      "40654995",
+      "40517320",
+      "40015370",
+      "39374781",
+      "38990375",
+      "38946141",
+      "38334958",
+      "37938120",
+      "37721853",
+      "37682266",
+      "37681415",
+      "37643243",
+      "37371482",
+      "37029817",
+      "36990093",
+      "36614192",
+      "36607281",
+      "36518075",
+      "36304112",
+      "35961969",
+      "35845133",
+      "35831509",
+      "35614853",
+      "35595166",
+      "35525547",
+      "35522713",
+      "35462078",
+      "35245783",
+      "35205266",
+      "35139380",
+      "35091439",
+      "35046094",
+      "34356620",
+      "33802474",
+      "33672199",
+      "33392257",
+      "33172116",
+      "33046444"
+    ],
+    "refs": [
+      "33608534",
+      "32414921",
+      "32227412",
+      "31825828",
+      "31604311",
+      "31581174",
+      "29444439",
+      "29433126",
+      "29336889",
+      "28937668",
+      "28863262",
+      "28781083",
+      "28666118",
+      "28177880",
+      "28067274",
+      "27820802",
+      "27791178",
+      "27203110",
+      "27057007",
+      "26985062",
+      "26958889",
+      "26423697",
+      "26080442",
+      "26051715",
+      "25941399",
+      "25684575",
+      "25234412",
+      "25155755",
+      "24918548",
+      "24489522",
+      "24256730",
+      "24182003",
+      "24115726",
+      "23864426",
+      "23808890",
+      "23582320",
+      "23303910",
+      "23264757",
+      "23062351",
+      "23000701",
+      "22589270",
+      "22569482",
+      "22560614",
+      "22431598",
+      "22111949",
+      "22102901",
+      "22002721",
+      "21930707",
+      "21675921",
+      "21545110",
+      "20496934",
+      "20479006",
+      "20408171",
+      "20150892",
+      "20130576",
+      "19727074",
+      "19514729",
+      "19467855",
+      "19424291",
+      "19255437",
+      "18701484",
+      "18593145",
+      "18458061",
+      "18454158",
+      "18234837",
+      "18216768",
+      "17993263",
+      "17618274",
+      "17286520",
+      "17263520",
+      "16981200",
+      "16630891",
+      "16543601",
+      "16392929",
+      "16248982",
+      "16223883",
+      "15731001",
+      "15677339",
+      "15491620",
+      "15205467",
+      "15126348",
+      "14724630",
+      "14531054",
+      "12759902",
+      "12628188",
+      "11709720",
+      "11701921",
+      "11528387",
+      "11320243",
+      "10783161",
+      "10777480",
+      "10676816",
+      "10660519",
+      "10454553",
+      "9705288",
+      "9690470",
+      "9665134",
+      "9521730",
+      "9302992",
+      "9230043",
+      "9219684",
+      "8756686",
+      "8710867",
+      "8550565",
+      "8530446",
+      "8363559",
+      "7880841",
+      "3133369",
+      "1785141"
+    ],
+    "similar": [
+      "34625747",
+      "34625745",
+      "31931009",
+      "19638615",
+      "7630628",
+      "7799956",
+      "22605333",
+      "39138901",
+      "28630043",
+      "33653954",
+      "23360980",
+      "16086581",
+      "18273062",
+      "16169661",
+      "11812655",
+      "9593192",
+      "8019003",
+      "40126127",
+      "8503013",
+      "20130576",
+      "32414921",
+      "32106676",
+      "18374541",
+      "11313946",
+      "8396128",
+      "8196769",
+      "29429878",
+      "11746677",
+      "31606273",
+      "9856997",
+      "25684575",
+      "33608534",
+      "21930707",
+      "12206509",
+      "8378348",
+      "27503857",
+      "18296682",
+      "11358964",
+      "9388230",
+      "32086379",
+      "34356620",
+      "26051715",
+      "15528212",
+      "22532587",
+      "25941399",
+      "9727031",
+      "8327501",
+      "11511526",
+      "8643674",
+      "12509453",
+      "11292826",
+      "25999467",
+      "11948414",
+      "9127005",
+      "8332195",
+      "11435472",
+      "16041367",
+      "11233167",
+      "10945503",
+      "8114693",
+      "8642660",
+      "10234739",
+      "10464312",
+      "26262587",
+      "40671268",
+      "32336014",
+      "38747381",
+      "32605999",
+      "8973630",
+      "8756686",
+      "10938109",
+      "32393580",
+      "29185849",
+      "19776012",
+      "8617731",
+      "27368419",
+      "24371145",
+      "10866657",
+      "10712905",
+      "8388543",
+      "19720015",
+      "10358073",
+      "31042025",
+      "30104724",
+      "7935411",
+      "11587542",
+      "17210246",
+      "24038145",
+      "29721757",
+      "10933809",
+      "15205467",
+      "12640111",
+      "8887625",
+      "15711535",
+      "9199290",
+      "9727023",
+      "1466766",
+      "12202534",
+      "15140945",
+      "10321735"
+    ],
+    "review": [
+      "34625747",
+      "40671268"
+    ],
+    "pmc": [
+      "8643099"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41594-021-00667-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34625747/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34625747",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34625747",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAF1-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-808",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

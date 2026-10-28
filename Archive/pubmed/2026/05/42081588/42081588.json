@@ -1,0 +1,499 @@
+{
+  "identity": {
+    "pmid": "42081588",
+    "doi": "10.1371/journal.ppat.1014191",
+    "title": "SARS-CoV-2 Nsp1 suppresses the canonical NF-kappaB pathway by promoting ubiquitin-dependent degradation of TAK1 kinase."
+  },
+  "content": {
+    "abstract": "Immunoregulatory proteins expressed by SARS-CoV-2 interfere with host antiviral defences in infected cells and play critical roles in the pathogenesis and clinical manifestations of COVID-19. Here, we established a prediction algorithm by integrating a pretrained protein-language model and gene weights in immune-related pathways to quantify perturbations of SARS-CoV-2 proteins in host immunity. The results revealed that the canonical NF-kappaB pathway was dynamically regulated by SARS-CoV-2 infection and that nonstructural protein 1 (Nsp1) significantly suppressed the activation of the NF-kappaB pathway by other viral proteins and proinflammatory cytokines, such as IL-1beta. Nsp1 binds to TAK1 at the TAB1-binding domain, promoting TRIM21-mediated K48-linked ubiquitination and subsequent proteasomal protein degradation, leading to the inactivation of the NF-kappaB signalling pathway. This work presents a novel framework to identify viral immunoregulators at the pathway level and provides mechanistic insights into immune evasion by SARS-CoV-2.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*NF-kappa B/metabolism",
+      "*SARS-CoV-2",
+      "Signal Transduction",
+      "MAP Kinase Kinase Kinase 7",
+      "*Viral Nonstructural Proteins/metabolism",
+      "*MAP Kinase Kinase Kinases/metabolism",
+      "Ubiquitin/metabolism",
+      "*COVID-19/metabolism/immunology/virology",
+      "Ubiquitination",
+      "Proteolysis",
+      "Immune Evasion",
+      "HEK293 Cells",
+      "Adaptor Proteins, Signal Transducing/metabolism",
+      "TRIM21 Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Han-Cheng",
+        "Yang, Qingxin",
+        "Yang, Hong",
+        "Wang, Yu-Hang",
+        "Wang, Kai",
+        "Linghu, Kepan",
+        "Ogando, Natacha S",
+        "Huang, Xiaoya",
+        "Snijder, Eric J",
+        "Zhong, Yu",
+        "Chen, Yu",
+        "Yuan, Quan",
+        "Chen, Lu",
+        "Lin, Jing-Wen"
+      ],
+      "short_names": [
+        "Wei HC",
+        "Yang Q",
+        "Yang H",
+        "Wang YH",
+        "Wang K",
+        "Linghu K",
+        "Ogando NS",
+        "Huang X",
+        "Snijder EJ",
+        "Zhong Y",
+        "Chen Y",
+        "Yuan Q",
+        "Chen L",
+        "Lin JW"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3338-8788"
+      ],
+      "affiliations": [
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Public Health & School of Life Sciences, Xiamen University, Xiamen, China.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Molecular Virology Laboratory, Leiden University Center for Infectious Diseases (LUCID), Leiden University Medical Center, Leiden, The Netherlands.",
+        "State Key Laboratory of Virology, RNA Institute, College of Life Sciences and Frontier Science Center for Immunology and Metabolism, Wuhan University, Wuhan, China.",
+        "Molecular Virology Laboratory, Leiden University Center for Infectious Diseases (LUCID), Leiden University Medical Center, Leiden, The Netherlands.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Public Health & School of Life Sciences, Xiamen University, Xiamen, China.",
+        "Key Laboratory of Birth Defects and Related Diseases of Women and Children of MOE, Department of Laboratory Medicine, West China Second University Hospital, Sichuan University, Chengdu, China.",
+        "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Han-Cheng",
+        "short_name": "Wei HC",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qingxin",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hong",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu-Hang",
+        "short_name": "Wang YH",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Public Health & School of Life Sciences, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Linghu, Kepan",
+        "short_name": "Linghu K",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Ogando, Natacha S",
+        "short_name": "Ogando NS",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Virology Laboratory, Leiden University Center for Infectious Diseases (LUCID), Leiden University Medical Center, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaoya",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Virology, RNA Institute, College of Life Sciences and Frontier Science Center for Immunology and Metabolism, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Snijder, Eric J",
+        "short_name": "Snijder EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Virology Laboratory, Leiden University Center for Infectious Diseases (LUCID), Leiden University Medical Center, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Zhong, Yu",
+        "short_name": "Zhong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Quan",
+        "short_name": "Yuan Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Vaccines for Infectious Diseases, Xiang An Biomedicine Laboratory, School of Public Health & School of Life Sciences, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lu",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Birth Defects and Related Diseases of Women and Children of MOE, Department of Laboratory Medicine, West China Second University Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jing-Wen",
+        "short_name": "Lin JW",
+        "identifiers": [
+          "0000-0003-3338-8788"
+        ],
+        "affiliations": [
+          "Center of Infectious Diseases and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Center for Biological and Translational Research, Biosafety Laboratory of West China Hospital, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS pathogens"
+    ],
+    "journal_abbrev": [
+      "PLoS Pathog"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 18:33",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [
+      "42609363"
+    ],
+    "refs": [
+      "41839853",
+      "40879755",
+      "40047220",
+      "39680116",
+      "39400381",
+      "39343285",
+      "39179054",
+      "38572974",
+      "38548102",
+      "38514841",
+      "38366227",
+      "38192372",
+      "38131452",
+      "37956198",
+      "36894068",
+      "36880207",
+      "36817951",
+      "36468795",
+      "36447039",
+      "36271046",
+      "36266542",
+      "36059456",
+      "35856559",
+      "35590097",
+      "35511057",
+      "35322471",
+      "35075101",
+      "35033428",
+      "35022513",
+      "35002723",
+      "34996837",
+      "34942634",
+      "34881430",
+      "34866574",
+      "34858407",
+      "34844119",
+      "34750163",
+      "34714359",
+      "34676983",
+      "34584221",
+      "34559559",
+      "34557778",
+      "34536380",
+      "34535633",
+      "34480861",
+      "34480127",
+      "34188167",
+      "34183243",
+      "34166398",
+      "34146477",
+      "34110264",
+      "34107113",
+      "33962073",
+      "33953323",
+      "33947832",
+      "33895773",
+      "33682875",
+      "33548198",
+      "33469458",
+      "33362782",
+      "33188728",
+      "33159646",
+      "33101291",
+      "33097660",
+      "32979938",
+      "32908316",
+      "32890913",
+      "32706339",
+      "32535732",
+      "32459334",
+      "32353859",
+      "32325025",
+      "32268115",
+      "32081201",
+      "31501881",
+      "31054776",
+      "30423086",
+      "29295995",
+      "28903063",
+      "26189595",
+      "25516281",
+      "25146924",
+      "24675463",
+      "23950696",
+      "23770285",
+      "23606331",
+      "23222971",
+      "23147896",
+      "23104886",
+      "22641218",
+      "22433713",
+      "22406003",
+      "22084099",
+      "22069318",
+      "22057290",
+      "20038579",
+      "19855404",
+      "19754430",
+      "19399612",
+      "19345192",
+      "18084642",
+      "17406544",
+      "16285893",
+      "16250013",
+      "16064137",
+      "12547194",
+      "11460167",
+      "10592178"
+    ],
+    "similar": [
+      "42081588",
+      "39400381",
+      "33177202",
+      "23297344",
+      "39680116",
+      "40558091",
+      "35856559",
+      "33567255",
+      "18456659",
+      "28507161",
+      "26432169",
+      "28851847",
+      "34166398",
+      "41062071",
+      "25626907",
+      "34858407",
+      "27881655",
+      "26240016",
+      "26299341",
+      "33717111",
+      "30404796",
+      "41877189",
+      "31127032",
+      "38572974",
+      "34110264",
+      "21896478",
+      "38709105",
+      "25701827",
+      "33368679",
+      "11438700",
+      "22981905",
+      "33139544",
+      "29325713",
+      "32849529",
+      "31903660",
+      "42227768",
+      "22158122",
+      "41773861",
+      "20932476",
+      "32890913",
+      "40135893",
+      "35638730",
+      "40183543",
+      "39749701",
+      "42283627",
+      "16737960",
+      "21135874",
+      "36894068",
+      "37607059",
+      "42198770",
+      "27468689",
+      "16157589",
+      "41880208",
+      "39836751",
+      "38131452",
+      "10187861",
+      "22406003",
+      "19521662",
+      "15125833",
+      "17626013",
+      "41924271",
+      "32979938",
+      "19479062",
+      "16056267",
+      "22307082",
+      "28031360",
+      "31382996",
+      "40409630",
+      "39223933",
+      "17947236",
+      "38392902",
+      "20932475",
+      "22167179",
+      "41991649",
+      "25371197",
+      "23825189",
+      "20038579",
+      "41950081",
+      "33539010",
+      "41678235",
+      "42168570",
+      "12547194",
+      "35980206",
+      "24947323",
+      "34461896",
+      "38265236",
+      "33204339",
+      "36177032",
+      "40358464",
+      "16251197",
+      "15836773",
+      "42165681",
+      "40736574",
+      "37943055",
+      "38395305",
+      "25681446",
+      "33895773",
+      "16280329",
+      "34923116",
+      "32726803"
+    ],
+    "review": [
+      "42081588",
+      "33368679",
+      "21135874",
+      "16056267"
+    ],
+    "pmc": [
+      "13178978"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.ppat.1014191",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42081588/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42081588",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions.
+- **Assessment boundary** Evaluation of the scientific claims, methodological soundness, statistical analyses, and database utility as presented in the provided manuscript.
+- **Shared manuscript claim summary** The authors created a database of JC virus (JCV) non-coding control region (NCCR) sequences annotated with transcription factor binding sites (TFBSs) using computational prediction, and statistically compared TFBS possession rates and multiplicities between archetype (urine of healthy individuals) and prototype (CSF of PML patients) JCVs. They report that prototype NCCRs show loss of TFBSs mainly in regions D–F and duplication of TFBSs mainly in regions C and E, and that transcription factors binding these sites are expressed in peripheral tissues.
+- **Visible evidence base** Abstract, full methods (Sections 2.1–2.5), results (Sections 3.1–3.4), discussion, conclusions, figure legends referenced (Figures 1–4), tables referenced (Tables 1–4), and supplementary dataset references (S1–S4).
+- **Missing materials affecting confidence** The actual database files (Supplementary Datasets S1–S4) are not provided for inspection. The specific TFBS matrices, their sequences, and the full statistical outputs (e.g., effect sizes, confidence intervals) are not fully detailed in the text. The methods for sequence alignment and manual curation are described but not independently verifiable without the raw data.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful resource in the form of a curated database of JCV NCCR sequences with TFBS annotations, and applies appropriate statistical methods to identify patterns of TFBS loss and duplication in prototype versus archetype JCVs. The findings are potentially relevant to understanding JCV pathogenesis and NCCR rearrangement. However, the evidence base is limited by the lack of access to the database itself and the reliance on a single computational prediction tool (MatInspector) without experimental validation. The statistical analyses are generally sound but some claims, particularly regarding biological implications, are speculative and not fully supported by the data presented.
+- **Who would be interested in the results, and why** Researchers studying JCV biology, polyomavirus NCCR regulation, PML pathogenesis, and viral promoter architecture. The database could be a resource for those investigating transcription factor interactions with viral regulatory regions. Clinicians and virologists interested in JCV reactivation mechanisms may also find the statistical patterns informative.
+- **Major strengths** 1. The creation of a curated database from a large number of GenBank sequences (2337 downloaded, 223 unique NCCRs) is a valuable contribution. 2. The use of statistical methods (Fisher's exact test with Benjamini–Hochberg correction, Poisson regression) to analyze TFBS possession and multiplicity is appropriate and rigorous. 3. The identification of region-specific TFBS loss (D–F) and duplication (C, E) provides a clear and testable hypothesis about NCCR rearrangement patterns. 4. The integration of gene expression data from BioGPS adds a functional dimension to the TFBS analysis.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors claim that "the database allows the positions and sequences of any TFBS to be visualized and tabulated using standard genetic analysis software" and that it is a "suitable platform for analyzing JCV mutations and pathogenicity."  
+    - **Evidence pointer** Section 3.1, Figure 2, Supplementary Datasets S1–S4  
+    - **Concern** The database itself is not provided or described in sufficient detail for independent use or verification. The manuscript references supplementary datasets, but these are not included in the provided material. Without access to the actual sequences, annotations, and the specific TFBS matrices, the utility and accuracy of the database cannot be assessed.  
+    - **Why it matters** The central deliverable of this study is the database. If it is not accessible or reproducible, the primary contribution of the work is undermined.  
+    - **Resolution test** Provide the database files or a detailed schema with example entries, and demonstrate how the annotations were validated (e.g., by comparison with known JCV regulatory elements).  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors state that "the TFBSs highly conserved in the archetype NCCRs were analyzed by data science or statistics" and that "a limited number of TFBSs conserved in the NCCR sequences of archetype JCV were often lost or overlapped in prototype viruses."  
+    - **Evidence pointer** Sections 3.3 and 3.4, Tables 1 and 3, Figures 3 and 4  
+    - **Concern** The statistical analyses rely on MatInspector predictions, which are computational and may include false positives or negatives. The manuscript does not provide any experimental validation (e.g., electrophoretic mobility shift assays, reporter assays) to confirm the functional relevance of the identified TFBSs. The biological interpretation that TFBS loss or duplication affects promoter activity is speculative without such validation.  
+    - **Why it matters** The conclusions about TFBS patterns and their implications for JCV pathogenesis depend on the accuracy of the computational predictions. Without validation, the findings may not reflect true biological regulatory elements.  
+    - **Resolution test** Include experimental validation of at least a subset of the key TFBSs (e.g., those with significant possession or multiplicity differences) to confirm their binding and functional role.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Scientific importance  
+    - **Claim pointer** The authors suggest that "several TFBSs lost upon NCCR rearrangement might control the promoter activity of archetype JCV in CD34+ cells during latent or persistent infection and are not required for lytic infection of prototype JCV in the brain."  
+    - **Evidence pointer** Section 4, Table 2  
+    - **Concern** This claim is based on gene expression data from BioGPS showing that transcription factors binding to lost TFBSs are expressed in CD34+ cells. However, the expression data are from a microarray dataset and do not directly demonstrate that these transcription factors are active or relevant in JCV latency in CD34+ cells. The link between TFBS loss and cell-type-specific promoter activity is not experimentally tested.  
+    - **Why it matters** The claim extends beyond the data and could mislead readers about the mechanistic role of these TFBSs in JCV latency and PML pathogenesis.  
+    - **Resolution test** Provide direct evidence (e.g., chromatin immunoprecipitation, knockdown experiments) that the identified transcription factors regulate JCV promoter activity in CD34+ cells or other relevant cell types.
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Readability for nonspecialists  
+    - **Affected element** Abstract and Introduction  
+    - **Evidence pointer** Abstract, Section 1  
+    - **Issue** The abstract and introduction assume familiarity with JCV NCCR structure and terminology (e.g., archetype vs. prototype, regions A–F) without sufficient background for a general virology audience.  
+    - **Required correction** Provide a brief explanation of the NCCR organization and the archetype/prototype distinction in the introduction to improve accessibility.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Technical soundness  
+    - **Affected element** Section 2.1  
+    - **Evidence pointer** Section 2.1, Figure 1  
+    - **Issue** The description of the sequence alignment process is vague. The authors state that "alignments were performed using the genomic DNA sequence of the representative archetype JCV (CY strain) as a reference" and that "the sequences were roughly aligned using 20 sequences each, and the alignment was repeated by manually checking each sequence." This manual process is not reproducible.  
+    - **Required correction** Specify the alignment algorithm or software parameters used, and describe the criteria for manual checking and inclusion/exclusion of sequences.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Technical soundness  
+    - **Affected element** Section 2.4  
+    - **Evidence pointer** Section 2.4, Tables 1 and 3  
+    - **Issue** The Poisson regression analysis is mentioned but not described in detail. The authors do not state how overdispersion was handled or whether the model assumptions were checked.  
+    - **Required correction** Provide details on the Poisson regression model, including the offset used (if any), how overdispersion was assessed, and the goodness-of-fit measures.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Interdisciplinary readership  
+    - **Affected element** Section 3.3, Table 2  
+    - **Evidence pointer** Section 3.3, Table 2  
+    - **Issue** The gene expression data from BioFocus are presented as a table, but the criteria for "high expression" are not defined. The reader cannot assess the significance of the expression levels.  
+    - **Required correction** Define the threshold for high expression and provide the raw expression values or a statistical comparison across tissues.
+- **Technical failings that need to be addressed before the case is established**  
+  - Lack of access to the database files (Supplementary Datasets S1–S4) prevents verification of the core deliverable.  
+  - No experimental validation of computationally predicted TFBSs, which is critical for the biological claims.  
+  - The manual sequence curation process is not fully reproducible.  
+  - The Poisson regression model details are insufficient for replication.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study is moderately original in its compilation of a large JCV NCCR database with TFBS annotations and the application of statistical methods to identify region-specific patterns. However, the use of computational TFBS prediction is not novel, and the findings largely confirm prior observations about NCCR rearrangements.  
+  - **Scientific importance** The database could be a useful resource, but the biological significance of the findings is limited by the lack of experimental validation. The claims about JCV latency and PML pathogenesis are speculative.  
+  - **Interdisciplinary readership** The manuscript is primarily of interest to virologists and molecular biologists. The statistical methods are standard and would not attract a broader readership.  
+  - **Technical soundness** The statistical analyses are appropriate, but the reliance on a single prediction tool and the lack of validation weaken the technical robustness. The manual curation process is a potential source of bias.  
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes prior knowledge of JCV biology. The abstract and introduction could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful database, but the lack of access to the database, absence of experimental validation, and insufficient methodological details prevent a full assessment of the claims. The authors should address the major concerns, particularly by providing the database and validating key TFBS predictions, before the case is established.
+
+## Risk / unsupported claims
+- The claim that the database is a "suitable platform for analyzing JCV mutations and pathogenicity" is unsupported without access to the database and demonstration of its utility.  
+- The claim that TFBS loss in regions D–F is associated with control of promoter activity in CD34+ cells is speculative and not directly tested.  
+- The claim that TFBS duplication in regions C and E might facilitate JCV proliferation is not supported by functional data.  
+- The assertion that the total number of TFBSs is not significantly different between archetype and prototype JCVs is based on a comparison of means but lacks effect sizes or confidence intervals.  
+- The gene expression profiles from BioFocus are presented without clear criteria for relevance, making the interpretation of peripheral expression patterns weak.

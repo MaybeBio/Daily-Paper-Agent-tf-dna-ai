@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.02.446817",
+  "title": "Predicting localized affinity of RNA binding proteins to transcripts with convolutional neural networks",
+  "authors": "Alexander Kitaygorodsky; Emily Jin; Yufeng Shen",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-03",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN预测RNA结合蛋白与转录本的结合亲和力，虽属蛋白-核酸互作且用深度学习方法，但对象为RNA而非DNA，且无三维结构建模，与TF-DNA互作课题关联有限。",
+  "abstract": "RNA binding proteins (RBPs) are important regulators of transcriptional and post-transcriptional processes. Computational prediction of localized RBP binding affinity with transcripts is important for interpretation of genetic variation, especially variants outside of protein coding region. Here we describe POLARIS ( P rediction O f L ocalized A ffinity for R BPs I n S equence), a new deep-learning method for achieving fast, site-specific binding affinity predictions of RNA-binding proteins (RBPs) to the transcribed genome. POLARIS has two modules: 1. a convolutional neural network (CNN) to predict overall RBP binding within a region based on transcript sequence content and expression level; 2. a Gradient-weighted Class Activation Mapping (GradCAM) implementation for efficient signal backpropagation to individual sequence positions. We trained the model using enhanced crosslinking and immunoprecipitation (eCLIP) data from ENCODE. POLARIS has good performance with a median AUC ~ 0.96 for 160 RBPs across three different cell lines, substantially higher than selected popular published methods trained and tested on the same data sets. When tested on data from a different cell line with the same RBPs, the overall performance is maintained, supporting the ability of cell-type specific affinity prediction. Finally, the GradCAM module allows the model to identify the informative sites in a region that drive prediction. The localized prediction facilitates interpretation of the results and provides basis for inference of functional impact of noncoding variants.",
+  "abstract_zh": "RNA结合蛋白（RBPs）是转录及转录后过程的重要调控因子。对RNA结合蛋白与转录本局部结合亲和力的计算预测，对于解读遗传变异，尤其是蛋白质编码区之外的变异，具有重要意义。在此，我们描述了POLARIS（预测序列中RNA结合蛋白的局部亲和力），一种新的深度学习方法，用于实现对RNA结合蛋白（RBPs）与转录基因组快速、位点特异的结合亲和力预测。POLARIS包含两个模块：1. 一个卷积神经网络（CNN），基于转录本序列内容和表达水平预测区域内整体的RBP结合情况；2. 一个梯度加权类激活映射（GradCAM）实现，用于高效地将信号反向传播至单个序列位置。我们使用来自ENCODE的增强型交联和免疫沉淀（eCLIP）数据训练了该模型。POLARIS在三种不同细胞系中对160个RBPs的中位AUC约为0.96，性能良好，显著高于在相同数据集上训练和测试的若干已发表的流行方法。当在具有相同RBPs但不同细胞系的数据上进行测试时，整体性能得以保持，支持了细胞类型特异性亲和力预测的能力。最后，GradCAM模块使模型能够识别区域内驱动预测的信息位点。局部预测有助于解释结果，并为推断非编码变异的功能影响提供基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.02.446817",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.02.446817",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.02.446817/index.html"
+}

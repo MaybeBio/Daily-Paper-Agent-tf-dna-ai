@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "38968273",
+    "doi": "10.1371/journal.pone.0305343",
+    "title": "Network pharmacology and molecular-docking-based strategy to explore the potential mechanism of salidroside-inhibited oxidative stress in retinal ganglion cell."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Salidroside (SAL), the main component of Rhodiola rosea extract, is a flavonoid with biological activities, such as antioxidative stress, anti-inflammatory, and hypolipidemic. In this study, the potential therapeutic targets and mechanisms of SAL against oxidative stress in retinal ganglion cells (RGCs) were investigated on the basis of in-vitro experiments, network pharmacology, and molecular docking techniques. METHODS: RGC oxidative stress models were constructed, and cell activity, reactive oxygen species (ROS), and apoptosis levels were examined for differences. The genes corresponding to rhodopsin, RGCs, and oxidative stress were screened from GeneCards, TCMSP database, and an analysis platform. The intersection of the three was taken, and a Venn diagram was drawn. Protein interactions, GO functional enrichment, and KEGG pathway enrichment data were analyzed by STRING database, Cytohubba plugin, and Metascape database. The key factors in the screening pathway were validated using qRT-PCR. Finally, molecular docking prediction was performed using MOE 2019 software, molecular dynamic simulations was performed using Gromacs 2018 software. RESULTS: In the RGC oxidative stress model in vitro, the cell activity was enhanced, ROS was reduced, and apoptosis was decreased after SAL treatment. A total of 16 potential targets of oxidative stress in SAL RGCs were obtained, and the top 10 core targets were screened by network topology analysis. GO analysis showed that SAL retinal oxidative stress treatment mainly involved cellular response to stress, transcriptional regulatory complexes, and DNA-binding transcription factor binding. KEGG analysis showed that most genes were mainly enriched in multiple cancer pathways and signaling pathways in diabetic complications, nonalcoholic fatty liver, and lipid and atherosclerosis. Validation by PCR, molecular docking and molecular dynamic simulations revealed that SAL may attenuate oxidative stress and reduce apoptosis in RGCs by regulating SIRT1, NRF2, and NOS3. CONCLUSION: This study initially revealed the antioxidant therapeutic effects and molecular mechanisms of SAL on RGCs, providing a theoretical basis for subsequent studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Oxidative Stress/drug effects",
+      "*Molecular Docking Simulation",
+      "*Phenols/pharmacology/chemistry",
+      "*Retinal Ganglion Cells/drug effects/metabolism",
+      "*Glucosides/pharmacology/chemistry",
+      "*Apoptosis/drug effects",
+      "*Reactive Oxygen Species/metabolism",
+      "Animals",
+      "*Network Pharmacology",
+      "Rats",
+      "Molecular Dynamics Simulation",
+      "Antioxidants/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Peng",
+        "Zhao, Hongxin",
+        "Xia, Xiangping",
+        "Xiao, Hua",
+        "Han, Chong",
+        "You, Zhibo",
+        "Wang, Junjie",
+        "Cao, Fang"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Zhao H",
+        "Xia X",
+        "Xiao H",
+        "Han C",
+        "You Z",
+        "Wang J",
+        "Cao F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4900-8957"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China.",
+        "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongxin",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xia, Xiangping",
+        "short_name": "Xia X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Hua",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Han, Chong",
+        "short_name": "Han C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "You, Zhibo",
+        "short_name": "You Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junjie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Cao, Fang",
+        "short_name": "Cao F",
+        "identifiers": [
+          "0000-0002-4900-8957"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Zunyi Medical University, Zunyi City, Guizhou Province, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 18:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42165032",
+      "42120436",
+      "41798067",
+      "41177791",
+      "40732142",
+      "39301903"
+    ],
+    "refs": [
+      "36948107",
+      "36333711",
+      "36077582",
+      "35976554",
+      "35787281",
+      "35669855",
+      "35370972",
+      "35278902",
+      "34813774",
+      "34748770",
+      "34532015",
+      "34504429",
+      "34450210",
+      "34292604",
+      "33358866",
+      "32937849",
+      "32774670",
+      "32046582",
+      "31874248",
+      "31794423",
+      "31747547",
+      "31701353",
+      "31645123",
+      "31495284",
+      "31401159",
+      "31146723",
+      "30942428",
+      "28698499",
+      "26881021",
+      "26484802",
+      "26187353",
+      "24792589",
+      "24067127",
+      "20359479",
+      "16962364"
+    ],
+    "similar": [
+      "38968273",
+      "39370810",
+      "42421348",
+      "37530723",
+      "40715275",
+      "40543694",
+      "37287284",
+      "38619514",
+      "41634719",
+      "40109446",
+      "36604925",
+      "42456385",
+      "41203698",
+      "38286267",
+      "39192219",
+      "41159331",
+      "37382018",
+      "40151083",
+      "42302946",
+      "39251712",
+      "40266298",
+      "36280016",
+      "38243268",
+      "40570565",
+      "35590353",
+      "39440778",
+      "42653779",
+      "39093467",
+      "41697135",
+      "39871254",
+      "37499457",
+      "39917915",
+      "42480230",
+      "36401485",
+      "39503755",
+      "42227389",
+      "41330962",
+      "38776853",
+      "35730236",
+      "40676786",
+      "39746501",
+      "40766840",
+      "35837112",
+      "38847263",
+      "40414576",
+      "41492010",
+      "36386135",
+      "35040393",
+      "38696100",
+      "35430443",
+      "38775721",
+      "37879505",
+      "37340752",
+      "36403742",
+      "40800999",
+      "39974399",
+      "38114126",
+      "38321908",
+      "37080367",
+      "39259129",
+      "34746316",
+      "41609079",
+      "42524252",
+      "42405402",
+      "41774941",
+      "38964628",
+      "42377801",
+      "41184845",
+      "38588987",
+      "40615101",
+      "39492775",
+      "37799727",
+      "42019124",
+      "41475625",
+      "38670393",
+      "41150817",
+      "33243703",
+      "40728954",
+      "42011617",
+      "38783288",
+      "37469733",
+      "41799087",
+      "41547913",
+      "33208065",
+      "42163610",
+      "39099827",
+      "29031534",
+      "40452077",
+      "41706149",
+      "40721767",
+      "41172784",
+      "33164862",
+      "38245694",
+      "36872279",
+      "38032489",
+      "39442187",
+      "31146723",
+      "38759074",
+      "38850960",
+      "39310787"
+    ],
+    "review": [
+      "38968273",
+      "33243703"
+    ],
+    "pmc": [
+      "11226129"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0305343",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38968273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.13.499873",
+  "title": "Lokatt: A hybrid DNA nanopore basecaller with an explicit duration hidden Markov model and a residual LSTM network",
+  "authors": "Xuechun Xu; Nayanika Bhalla; Patrik Ståhl; Joakim Jaldén",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-14",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文开发纳米孔DNA测序碱基识别器Lokatt，结合HMM与LSTM，但对象为DNA序列碱基识别，非蛋白质-DNA互作，亦无结合建模或AI/物理模拟方法用于互作研究，与本课题无关。",
+  "abstract": "Background Basecalling long DNA sequences is a crucial step in nanopore-based DNA sequencing protocols. In recent years, the CTC-RNN model has become the leading basecalling model, supplanting preceding hidden Markov models (HMMs) that relied on pre-segmenting ion current measurements. However, the CTC-RNN model operates independently of prior biological and physical insights. Results We present a novel basecaller named Lokatt : exp l icit durati o n Mar k ov model and residu a l-LS T M ne t work. It leverages an explicit duration HMM (EDHMM) designed to model the nanopore sequencing processes. Trained on a newly generated library with methylation-free Ecoli samples and MinION R 9 . 4 . 1 chemistry, the Lokatt basecaller achieves basecalling performances with a median single read identity score of 0 . 930 , a genome coverage ratio of 99 . 750% , on par with existing state-of-the-art structure when trained on the same datasets. Conclusion Our research underlines the potential of incorporating prior knowledge into the basecalling processes, particularly through integrating HMMs and recurrent neural networks. The Lokatt basecaller showcases the efficacy of a hybrid approach, emphasizing its capacity to achieve high-quality basecalling performance while accommodating the nuances of nanopore sequencing. These outcomes pave the way for advanced basecalling methodologies, with potential implications for enhancing the accuracy and efficiency of nanopore-based DNA sequencing protocols. Supplementary information Supplementary data are available online.",
+  "abstract_zh": "背景 碱基识别（basecalling）长DNA序列是基于纳米孔的DNA测序流程中的关键步骤。近年来，CTC-RNN模型已成为领先的碱基识别模型，取代了依赖预分割离子电流测量的先前隐马尔可夫模型（HMMs）。然而，CTC-RNN模型的运行独立于先前的生物学和物理学见解。结果 我们提出了一种名为Lokatt的新型碱基识别器：显式持续时间马尔可夫模型和残差LSTM网络。它利用显式持续时间HMM（EDHMM）来建模纳米孔测序过程。在新生成的带有无甲基化Ecoli样本和MinION R 9.4.1化学试剂的文库上训练后，Lokatt碱基识别器实现了中位单读段身份评分0.930、基因组覆盖率为99.750%的碱基识别性能，与在相同数据集上训练的现有最先进结构相当。结论 我们的研究强调了将先验知识整合到碱基识别过程中的潜力，特别是通过结合HMMs和循环神经网络。Lokatt碱基识别器展示了混合方法的有效性，强调其在适应纳米孔测序细微差异的同时实现高质量碱基识别性能的能力。这些成果为先进的碱基识别方法铺平了道路，对提高基于纳米孔的DNA测序流程的准确性和效率具有潜在影响。补充信息 补充数据可在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499873",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499873",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.13.499873/index.html"
+}

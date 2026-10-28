@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, materials and methods, supplementary figure/table legends) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No line numbers were available; section and figure references are used as pointers.
+- **Shared manuscript claim summary** The authors apply the MAVISp structural bioinformatics framework, combined with molecular dynamics simulations, to interpret the structural and functional effects of missense variants in the DNA polymerases POLE and POLD1. They analyze over 60,000 variants, classify known pathogenic variants by mechanistic impact, and propose reclassification of ClinVar VUS using ACMG/AMP-compatible evidence.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion sections, Conclusions, Materials and Methods, supplementary figure and table legends, data availability statements
+- **Missing materials affecting confidence** Main-text figures and tables (Figures 1-10, Tables 1-2) were not provided. Supplementary figures and tables were referenced but not included. OSF repository contents and MAVISp database entries were not accessible for verification. Experimental validation data for proposed candidates were not included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale structural annotation effort for POLE and POLD1 variants, combining the MAVISp framework with MD simulations. The scope is ambitious and the resource potential is substantial. However, the manuscript as provided has significant limitations. The absence of main-text figures and tables makes it impossible to evaluate the central results. The text is dense and often descriptive rather than analytical, with several claims that appear to exceed what the described methods can support. The distinction between established findings and speculative interpretation is frequently blurred. The ACMG/AMP reclassification section, while potentially valuable, is presented with insufficient methodological detail to assess its validity. The manuscript would benefit from a more critical framing of the limitations of structure-based predictions for clinical variant interpretation.
+- **Who would be interested in the results, and why** Researchers in structural bioinformatics, protein engineering, and cancer genetics would find this resource useful. The catalogue of predicted structural impacts for POLE and POLD1 variants could inform experimental design for functional studies. Clinicians and molecular diagnosticians involved in variant interpretation for hereditary cancer syndromes may find the ACMG/AMP-oriented classification framework of interest, though they would need to treat the predictions with appropriate caution. The methodological developments for ensemble-based stability analysis and DNA-binding impact prediction could be of interest to method developers in the field.
+- **Major strengths** The manuscript addresses an important gap by providing structural context for a large number of variants in clinically relevant genes. The integration of multiple MAVISp modules is comprehensive. The use of MD simulations to assess conformational effects of specific variants is a valuable addition. The authors are transparent about the limitations of their approach in several places, particularly regarding the inability of ΔΔG predictors to account for backbone rearrangements. The data availability statement is thorough, with OSF and GitHub repositories specified.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript claims to provide a comprehensive structural interpretation of over 60,000 variants, with specific results presented in Figures 1-10 and Tables 1-2.
+  - **Evidence pointer** Figures 1-10, Tables 1-2 (not provided in the submitted material)
+  - **Concern** The central results of the manuscript are presented in figures and tables that were not included in the material provided for review. Without these, it is impossible to assess whether the claims made in the text are supported by the data. This includes the performance evaluation of VEPs (Table 1), the structural mechanisms of pathogenic variants (Figures 2-4), the characterization of VUS (Figures 6-8), and the ACMG/AMP reclassification results (Figure 10, Tables S2-S4).
+  - **Why it matters** The scientific case for the manuscript's conclusions rests entirely on these missing data. A review cannot establish the validity of the claims without examining the primary evidence.
+  - **Resolution test** Provide the main-text figures and tables, and the referenced supplementary materials, for evaluation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript states that the approach enabled classification of 364 VUS as PP3 evidence and 323 as BP4 evidence, and that a subset of 73 PP3 variants have PM1-like structural evidence.
+  - **Evidence pointer** Results section "Mechanistic Evidence and Reclassification Potential for ClinVar VUS", Tables S2-S4 (not provided)
+  - **Concern** The ACMG/AMP reclassification methodology is described only briefly. The calibration of PP3/BP4 thresholds is mentioned, but the specific thresholds, the distributions of scores for pathogenic versus benign variants, and the criteria for PM1-like evidence are not presented in the text. The claim that MAVISp can provide PP3/BP4 evidence is significant and requires transparent methodological detail.
+  - **Why it matters** ACMG/AMP classification has clinical implications. If the methodology is not transparent and reproducible, the reclassification claims cannot be evaluated or trusted by the community.
+  - **Resolution test** Provide the full calibration data, threshold values, and the decision rules for PP3, BP4, and PM1-like assignments. Show the distribution of scores for known pathogenic and benign variants to demonstrate separation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological limitation
+  - **Claim pointer** The manuscript claims that MD simulations of S297F and P436R variants show that these mutations cause conformational changes in the catalytic site, including increased distances between catalytic residues and altered orientations.
+  - **Evidence pointer** Results section "S297F and P436R are known likely pathogenic POLE variants...", Figure 4 (not provided)
+  - **Concern** The MD simulations were performed on a construct corresponding to residues 30-522 of POLE, in the absence of DNA and other binding partners. The authors acknowledge that the ΔΔG methods do not account for backbone rearrangements, but the claim that the simulations demonstrate a mechanism of pathogenicity requires more careful consideration. The simulations show structural changes in an isolated domain, but the connection to the observed mutator phenotype in cells is inferential.
+  - **Why it matters** The manuscript presents these variants as examples of how structural analysis can explain pathogenic mechanisms. If the structural changes observed in simulations are not clearly linked to functional outcomes, the interpretive framework is weakened.
+  - **Resolution test** Clarify the extent to which the observed conformational changes can be interpreted as functionally relevant given the limitations of the simulation system. Discuss whether the changes are within the range of thermal fluctuations expected for the wild-type protein.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript states that the framework provides a comprehensive catalogue for future studies and supports variant classification and prioritization across diverse biological contexts.
+  - **Evidence pointer** Abstract, Conclusions
+  - **Concern** The analysis is limited to the catalytic subunits of POLE and POLD1 in their free states, with the exception of specific DNA-bound structures for certain analyses. The authors note that the lack of DNA-bound human structures for POLD1 limits the analysis. The claim of comprehensiveness is therefore overstated. The functional impact of variants in the context of the full replication complex, including accessory subunits and DNA, cannot be fully captured by this approach.
+  - **Why it matters** The stated goal of providing a comprehensive structural catalogue is not fully met given the limitations described. Overstating the scope may mislead readers about the applicability of the results.
+  - **Resolution test** Revise the claims of comprehensiveness to accurately reflect the scope of the analysis. Clearly state the limitations in the abstract and conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that variants "can affect protein function by altering stability, catalysis, DNA binding, and interactions with other biomolecules." This is a general statement that does not distinguish between what was tested in this study and what is known from the literature.
+  - **Required correction** Clarify which of these mechanisms were directly assessed in this study and which are inferred from the literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "S297F and P436R are known likely pathogenic POLE variants..."
+  - **Evidence pointer** Section heading
+  - **Issue** The heading describes S297F and P436R as "known likely pathogenic" variants, but the text indicates that S297F is "known to be associated with autosomal dominant POLE-related disorders" and is a "recurrent cancer driver mutation." The term "likely pathogenic" is a specific ACMG/AMP classification and may not be accurate for all variants discussed.
+  - **Required correction** Use consistent terminology that reflects the actual classification status of each variant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the MD simulations lacks some details that would be needed for reproduction, such as the specific GROMACS version used for each simulation, the number of replicates, and the criteria for determining convergence.
+  - **Required correction** Provide complete simulation parameters, including software versions, force field parameters, and convergence criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Performance evaluation of MAVISp VEPs"
+  - **Evidence pointer** Table 1 (not provided)
+  - **Issue** The text reports performance metrics for VEPs but does not describe the statistical significance of differences between methods. Given the small number of well-characterized variants (37 for POLE, 12 for POLD1), confidence intervals for the metrics would be informative.
+  - **Required correction** Report confidence intervals or other measures of uncertainty for the performance metrics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "A group of VUS in POLE and POLD1 is potentially damaging for the catalytic site in the exonuclease domain"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that certain variants "could be suitable candidates for future investigation using MD simulations." This is a reasonable suggestion, but it is not clear why these specific variants were selected over others that also showed predicted effects on stability.
+  - **Required correction** Provide the criteria used to select the specific variants highlighted for future investigation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, "Computational Re-classification of ClinVar VUS"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the reclassification methodology mentions that PP3 overrides BP4, but does not describe how conflicting evidence from multiple predictors is resolved when some predictors indicate PP3 and others indicate BP4.
+  - **Required correction** Describe the decision rules for combining evidence from multiple predictors in cases of disagreement.
+
+## Risk / unsupported claims
+- The claim that 364 VUS can be classified as PP3 and 323 as BP4 is not verifiable without the calibration data and the full results tables.
+- The claim that S297F and P436R cause "a shift in the catalytic site conformation" based on MD simulations is not fully supported, as the simulations were performed on an isolated domain without DNA, and the authors acknowledge that the methods do not account for backbone rearrangements.
+- The claim that the framework provides a "comprehensive catalogue" for POLE and POLD1 variants is overstated given the limitations described, including the lack of DNA-bound structures for POLD1 and the exclusion of certain analyses in the ensemble mode.
+- The statement that MAVISp offers "a prioritization strategy for variants most likely to have damaging structural consequences" is reasonable, but the clinical relevance of these predictions is not established without experimental validation.
+- The performance comparison of VEPs is based on a small number of variants and should be interpreted with caution.

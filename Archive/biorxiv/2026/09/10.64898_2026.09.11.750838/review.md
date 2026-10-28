@@ -1,68 +1,86 @@
 ## Review setup
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence presented in the abstract
-- **Shared manuscript claim summary** The authors identify a novel nucleoid-associated protein, StIA, from *Streptococcus pneumoniae* that binds dsDNA in a sequence-independent manner, activates topoisomerase I (Topo I) by enhancing the DNA religation step, and forms higher-order nucleoprotein complexes. They propose StIA has a dual function in nucleoprotein assembly and Topo I regulation, with implications for antibacterial therapy.
-- **Visible evidence base** Abstract text only; no figures, tables, or methods are provided.
-- **Missing materials affecting confidence** Full manuscript, including all experimental data (e.g., binding assays, growth curves, enzymatic activity data, structural models), methods, and supplementary information.
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and support for claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The manuscript identifies Spr0488/StIA as a novel nucleoid-associated protein (NAP) in *Streptococcus pneumoniae* that binds double-stranded DNA (dsDNA) in a sequence-independent manner, forms oligomers, physically interacts with topoisomerase I (Topo I), and specifically stimulates Topo I activity by enhancing the religation step of its catalytic cycle. The authors further demonstrate that StIA levels modulate susceptibility to the Topo I inhibitor seconeolitsine (SCN) in vivo, and propose a dual function for StIA in promoting nucleoprotein complex assembly and regulating Topo I activity.
+- **Visible evidence base** Abstract; Introduction; Materials and Methods (Sections 2.1-2.10); Results (Sections 3.1-3.8); Discussion; Author contributions; Funding; Acknowledgements
+- **Missing materials affecting confidence** Figures 1-9 are referenced but not provided; Supplementary data are not provided; Unpublished nucleoid isolation data referenced in the Introduction are not accessible; Raw data for growth curves, Western blots, EMSA gels, and enzymatic assays are not available for independent verification
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially interesting discovery of a new nucleoid-associated protein that activates Topo I in *S. pneumoniae*. The claim of a dual function—nucleoprotein assembly and Topo I activation—is novel and could be of broad interest. However, the abstract lacks sufficient quantitative data and mechanistic detail to evaluate the strength of the evidence. Key claims, such as the specific enhancement of the religation step and the direct protein-protein interaction, are stated without supporting data. The assessment is therefore limited by the input scope.
-- **Who would be interested in the results, and why** Researchers in bacterial DNA topology, nucleoid-associated proteins, and antibiotic development would be interested. The identification of a new regulator of Topo I in a human pathogen could provide a target for novel antibacterial strategies, particularly given the link to seconeolitsine susceptibility.
-- **Major strengths** The identification of a previously uncharacterized protein with a specific function in Topo I regulation is a clear strength. The connection to antibiotic susceptibility (seconeolitsine) adds translational relevance. The proposed dual function (nucleoprotein assembly and enzyme activation) is conceptually interesting.
+- **Overall assessment** This manuscript presents a potentially interesting finding: the identification and functional characterization of a previously uncharacterized pneumococcal protein, StIA, as a NAP that activates Topo I. The combination of in vivo phenotypic data, in vitro biochemical assays, and structural modelling is commendable and the work addresses a relevant gap in understanding NAPs in Gram-positive organisms. However, the manuscript has several technical weaknesses that currently prevent the case from being fully established. The differential activity between the His-tagged and tag-cleaved protein forms is not adequately explained, the in vivo relevance of the proposed mechanism is inferred rather than directly demonstrated, and the structural modelling section lacks experimental validation. The claim that StIA is a bona fide NAP would be strengthened by direct evidence of chromosomal association in vivo beyond co-elution with nucleoid fractions. The manuscript is clearly written and the topic is of interest to the bacterial chromosome biology community, but the current evidence does not fully support all conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromosome organization, nucleoid-associated proteins, DNA topoisomerase regulation, and DNA supercoiling homeostasis would find these results of interest. The work is also relevant to those investigating novel antibiotic targets in *Streptococcus pneumoniae*, given the essential role of Topo I and the potential for StIA to modulate susceptibility to Topo I inhibitors. The identification of a new NAP in a Gram-positive pathogen with a proposed dual function in chromosome organization and topoisomerase regulation could inform comparative studies of NAPs across bacterial species.
+- **Major strengths** The study addresses a significant gap in knowledge regarding NAPs in *S. pneumoniae*, where only a limited number have been characterized. The combination of in vivo genetic experiments (deletion and overexpression), in vitro biochemical assays, and structural modelling provides a multi-pronged approach. The identification of a specific biochemical mechanism (enhancement of religation) is a notable strength. The manuscript is well-organized and clearly written, with appropriate attention to controls in the enzymatic assays.
 - **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence sufficiency
-    - **Claim pointer** StIA specifically stimulates Topo I activity without affecting DNA gyrase.
-    - **Evidence pointer** Abstract text; location not provided
-    - **Concern** The abstract states that StIA specifically stimulates Topo I but not DNA gyrase, but no data (e.g., activity assays, kinetic parameters) are presented to support this specificity. The claim of "specific" activation requires quantitative comparison of StIA's effect on both enzymes under identical conditions.
-    - **Why it matters** Specificity is central to the functional claim. If StIA also affects gyrase or other topoisomerases, the proposed mechanism and its potential as a drug target would be fundamentally different.
-    - **Resolution test** Provide in vitro activity assays (e.g., DNA relaxation or supercoiling assays) for both Topo I and DNA gyrase in the presence and absence of StIA, with appropriate controls and statistical analysis.
-
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Mechanistic support
-    - **Claim pointer** StIA specifically enhances the DNA religation step of Topo I's catalytic cycle.
-    - **Evidence pointer** Abstract text; location not provided
-    - **Concern** The abstract claims that StIA enhances the religation step, but no experimental data (e.g., cleavage/religation equilibrium assays, time-course experiments) are referenced. This is a detailed mechanistic claim that requires direct evidence.
-    - **Why it matters** The mechanism of activation is a core finding. Without evidence, the claim is unsupported and could be incorrect (e.g., StIA might affect DNA binding or cleavage instead).
-    - **Resolution test** Present data from assays that distinguish cleavage and religation, such as using a suicide substrate or measuring the rate of religation after cleavage complex formation, with and without StIA.
-
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence sufficiency
-    - **Claim pointer** StIA and Topo I physically associate in vitro, and structural modeling supports the formation of a StIA-Topo I complex.
-    - **Evidence pointer** Abstract text; location not provided
-    - **Concern** The abstract states that a direct protein-protein interaction is "likely" and that structural modeling supports it, but no details (e.g., method of interaction assay, model quality, confidence scores) are provided. The claim of physical association is critical for the proposed mechanism.
-    - **Why it matters** Without direct evidence of interaction (e.g., pull-down, co-immunoprecipitation, or surface plasmon resonance), the activation could be indirect or mediated by DNA. Structural modeling alone is insufficient to establish a physical interaction.
-    - **Resolution test** Provide experimental evidence for direct binding (e.g., purified protein interaction assays) and, for the model, include validation data (e.g., mutagenesis of predicted contact residues that disrupt interaction or activity).
-
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that StIA specifically stimulates Topo I activity, and that this stimulation is mediated through a direct protein-protein interaction. However, the differential activity between H6-StIA and StIA-D is not mechanistically explained. The authors report that H6-StIA requires 512 nM to produce an effect comparable to 32 nM of StIA-D, a 16-fold difference. This is a substantial difference that is not addressed. The His-tag is located at the N-terminus, and the authors suggest the N-terminal region is relevant to Topo I modulation, but no direct evidence is provided to explain why the tag would impair activity so dramatically. This discrepancy raises questions about whether the observed stimulation is a specific property of StIA or an artifact related to the tag removal process (e.g., partial denaturation, aggregation state changes, or residual thrombin activity).
+  - **Why it matters** The central claim of the manuscript is that StIA activates Topo I. If the activation is only observed with the tag-cleaved form and the mechanism of this differential activity is not understood, the physiological relevance of the observed stimulation is uncertain. The 16-fold difference in potency between the two forms suggests that the N-terminal region may be critical for the interaction, but this is not experimentally tested. Without a clear explanation, the possibility that the observed activation is an in vitro artifact cannot be excluded.
+  - **Resolution test** The authors should provide a direct comparison of the structural and biophysical properties of H6-StIA and StIA-D (e.g., circular dichroism, analytical ultracentrifugation, or limited proteolysis) to demonstrate that the tag removal does not induce major conformational changes. Additionally, they should test whether the N-terminal 20 residues (which are removed with the tag) are required for Topo I stimulation by generating a construct lacking only these residues without the His-tag. Alternatively, they could test whether a His-tag placed at the C-terminus of StIA preserves the stimulatory activity, which would confirm that the N-terminal tag specifically interferes with the interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript claims that StIA is a nucleoid-associated protein based on its co-elution with nucleoid fractions in gel filtration chromatography. However, the evidence presented is indirect. The authors state that StIA was identified in a previous unpublished nucleoid isolation study and confirm co-elution with nucleoid fractions in the current work, but no direct evidence of chromosomal association (e.g., chromatin immunoprecipitation, fluorescence microscopy, or subcellular localization) is provided. The co-elution of a DNA-binding protein with nucleoid fractions could reflect non-specific association or the formation of large aggregates that elute in the void volume, rather than specific chromosomal association.
+  - **Why it matters** The classification of StIA as a NAP is a central claim of the manuscript, reflected in the title. NAPs are defined by their association with the bacterial chromosome and their role in chromosome organization. Co-elution with nucleoid fractions is suggestive but not definitive evidence of NAP function. If StIA is not genuinely associated with the chromosome in vivo, the proposed dual function model and the broader implications for chromosome organization would be weakened.
+  - **Resolution test** The authors should provide direct evidence of StIA-chromosome association in vivo. This could be achieved through chromatin immunoprecipitation followed by sequencing or qPCR to demonstrate StIA binding to chromosomal loci, or through fluorescence microscopy to show co-localization of StIA with the nucleoid. Alternatively, a bacterial two-hybrid assay or in vivo cross-linking followed by pull-down of chromosomal DNA could provide more direct evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that structural modelling and docking identify a central StIA surface involved in Topo I interaction, with eight consensus residues. However, the modelling approach has limitations that are not fully acknowledged. The StIA dimer model was generated using ClusPro, a docking server, rather than a dedicated structure prediction method. The Topo I model is not described in terms of its template or quality. The docking results are presented as supporting evidence for the interaction, but no experimental validation of the predicted interface is provided. The statement that the catalytic Tyr314 of Topo I shows the same solvent accessibility before and after StIA addition is presented as meaningful, but the significance of this observation is unclear without a functional readout.
+  - **Why it matters** The structural modelling is used to support the proposed mechanism of StIA-mediated Topo I activation. If the models are not reliable or the predicted interface is not functionally relevant, the mechanistic model is weakened. The lack of experimental validation of the predicted interface means that the structural data are currently only correlative.
+  - **Resolution test** The authors should provide details on the quality of the Topo I model (e.g., template, sequence identity, and model confidence scores). They should also experimentally test the predicted interface by generating point mutations in the consensus residues (e.g., residues 35-54) and testing their effect on Topo I binding and stimulation. Alternatively, they could perform cross-linking mass spectrometry to identify the actual interaction interface between StIA and Topo I.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript claims that StIA modulates susceptibility to SCN in vivo, based on growth assays with the deletion mutant and overexpression strain. However, the data are presented only as growth curves and doubling times. The authors report that deletion of stIA impairs growth in the presence of SCN, while overexpression increases resistance. However, the magnitude of the effect is modest (doubling times of 76.7 vs 83.1 min for R1 vs ΔstIA, and 87.0 vs 108.4 min for overexpression vs control). The authors do not provide statistical analysis of these differences, and it is unclear whether the observed effects are biologically significant or within experimental variability.
+  - **Why it matters** The in vivo phenotypic data are used to support the physiological relevance of StIA-mediated Topo I regulation. If the effects are modest and not statistically robust, the claim that StIA is an important regulator of Topo I activity in vivo is weakened.
+  - **Resolution test** The authors should provide statistical analysis of the growth data (e.g., at least three independent biological replicates with error bars and appropriate statistical tests). They should also consider whether the modest effects could be explained by compensatory mechanisms or by the specific growth conditions used. A more direct test of the in vivo relevance would be to measure DNA supercoiling levels in the wild-type, ΔstIA, and overexpression strains.
 - **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Abstract text
-    - **Evidence pointer** Abstract text; location not provided
-    - **Issue** The phrase "nucleoid-associated with a dual function" appears to be missing the word "protein" (likely a typo: "nucleoid-associated protein with a dual function").
-    - **Required correction** Correct the typo to read "nucleoid-associated protein with a dual function."
-
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Context
-    - **Affected element** Abstract text
-    - **Evidence pointer** Abstract text; location not provided
-    - **Issue** The abstract mentions "seconeolitsine" as a Topo I inhibitor but does not explain its relevance or whether it is a known tool compound. This may confuse readers unfamiliar with the field.
-    - **Required correction** Briefly clarify the nature of seconeolitsine (e.g., "the Topo I inhibitor seconeolitsine") or provide a reference in the full text.
-
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of specificity, mechanistic detail, and direct interaction are not supported by the abstract alone.
-- **Assessment against Nature-style criteria** The work has potential **originality** (new protein, new function) and **scientific importance** (regulation of topoisomerase in a pathogen). **Interdisciplinary readership** is plausible (microbiology, biochemistry, drug discovery). However, **technical soundness** cannot be assessed from the abstract; the claims require rigorous experimental support. **Readability for nonspecialists** is adequate, though the typo and lack of context for seconeolitsine are minor issues. Overall, the concept is promising, but the evidence is insufficient.
-- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the key claims (specificity, mechanism, interaction) are unsupported. A full manuscript with detailed experimental data is required for evaluation.
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The description of the construction of the ΔstIA mutant and the complementation strain is brief. The authors state that the mutant was constructed by allelic replacement with a kanamycin resistance cassette, but do not provide details on the extent of the deletion, the primers used for verification, or whether the mutation was complemented in cis or in trans.
+  - **Required correction** The authors should provide a more detailed description of the mutant construction, including the deleted region, the verification method (e.g., PCR, Southern blot, or sequencing), and the genetic context of the complementation construct.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Section 2.8
+  - **Evidence pointer** Section 2.8, location not provided
+  - **Issue** The EMSA experiments use a 261-bp PCR fragment and short fluorescently labelled oligonucleotides. The binding conditions (e.g., buffer composition, incubation time, temperature) are not fully described. The stoichiometry values (128:1 for the 261-bp fragment and 30:1 for the short oligonucleotides) are reported, but the basis for these calculations is not explained.
+  - **Required correction** The authors should provide complete binding conditions and explain how the protein-to-DNA stoichiometry was calculated. They should also clarify whether the stoichiometry refers to StIA monomers or dimers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.8
+  - **Evidence pointer** Section 3.8, location not provided
+  - **Issue** The statement that the catalytic Tyr314 of Topo I shows the same solvent accessibility before and after StIA addition is presented without context. It is unclear why this observation is significant or how it supports the proposed mechanism.
+  - **Required correction** The authors should explain the significance of the Tyr314 solvent accessibility observation in the context of the proposed mechanism, or remove it if it does not add meaningful information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, location not provided
+  - **Issue** The text states that StIA levels were analyzed by Western blotting in the wild-type and complemented strains, but the quantification method is not described. The authors report that StIA levels increased 3- to 6-fold in the complemented strain, but it is unclear how this was quantified.
+  - **Required correction** The authors should describe the quantification method (e.g., densitometry) and provide representative blots with appropriate loading controls.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4 (Discussion)
+  - **Evidence pointer** Section 4, location not provided
+  - **Issue** The discussion of the potential role of StIA in phase separation of the nucleoid is speculative. The authors note that StIA has a predicted intrinsically disordered region and forms oligomers, but no experimental evidence for phase separation is provided.
+  - **Required correction** The authors should clearly label this section as speculative and avoid overstating the implications. If possible, they could perform simple in vitro phase separation assays to test this hypothesis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (differential activity of H6-StIA vs StIA-D not explained), R1-M2 (lack of direct in vivo evidence for nucleoid association), R1-M3 (unvalidated structural model), R1-M4 (lack of statistical analysis of growth data)
+- **Assessment against Nature-style criteria** Originality: The identification of a new NAP in *S. pneumoniae* with a specific function in activating Topo I is original and adds to the limited repertoire of characterized NAPs in Gram-positive bacteria. Scientific importance: The work is of moderate importance, as it contributes to understanding the regulation of DNA topology in a clinically relevant pathogen, but the broader implications for chromosome organization are not fully established. Interdisciplinary readership: The topic is primarily of interest to microbiologists and molecular biologists studying chromosome dynamics; the broader readership appeal is limited. Technical soundness: The biochemical assays are generally well-designed, but the unexplained differential activity between the tagged and untagged protein forms and the lack of direct in vivo evidence for nucleoid association are significant weaknesses. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the structural modelling section may be challenging for readers without a computational background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that StIA is a NAP that stimulates Topo I activity, is potentially interesting and the experimental approach is sound in principle. However, the concerns regarding the differential activity of the tagged versus untagged protein, the lack of direct in vivo evidence for nucleoid association, and the unvalidated structural model must be addressed before the case is fully established.
 
 ## Risk / unsupported claims
-- StIA specifically stimulates Topo I without affecting DNA gyrase (unsupported).
-- StIA enhances the DNA religation step of Topo I (unsupported).
-- StIA and Topo I physically associate in vitro (unsupported; structural modeling alone is insufficient).
-- The dual function of StIA in nucleoprotein complex assembly and Topo I activation (partially supported by DNA-binding claim, but the activation mechanism is unsupported).
+- The claim that StIA is a nucleoid-associated protein is not fully supported by the evidence presented, as only co-elution with nucleoid fractions is shown, without direct demonstration of chromosomal association in vivo.
+- The claim that StIA activates Topo I through a direct protein-protein interaction is supported by in vitro cross-linking and activity assays, but the mechanistic details are not fully established, particularly given the unexplained differential activity between H6-StIA and StIA-D.
+- The claim that StIA specifically enhances the religation step of the Topo I catalytic cycle is supported by the cleavage and religation assays, but the interpretation relies on the assumption that the observed effects are not due to non-specific protein-DNA interactions.
+- The structural model of the StIA-Topo I interaction is based on computational docking and is not experimentally validated; the claim that the model supports the proposed mechanism is therefore speculative.
+- The suggestion that StIA may contribute to phase separation of the nucleoid is speculative and not supported by experimental evidence.

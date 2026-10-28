@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) without figures, tables, or supplementary materials
+- **Assessment boundary** Technical soundness, methodological clarity, validation strategy, and claims as supported by the provided text
+- **Shared manuscript claim summary** The authors present DeepPNI, a deep learning regression model combining ESM-2 protein language model embeddings with an edge-aware relational graph convolutional network (RGCN) to predict mutation-induced changes in binding free energy (ΔΔG) for protein–nucleic acid interactions. The model is trained on 1754 mutations compiled from the NABE database and evaluated using five-fold cross-validation, temperature-stratified splits, and external blind datasets.
+- **Visible evidence base** Text descriptions of methods and results; performance metrics cited in text (PCC, MAE, RMSE) for cross-validation, subset analyses, and external validation
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and the Zenodo repository contents were not provided. These are essential for verifying the quantitative claims, assessing data quality, and evaluating the comparative analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of mutation effects on protein–nucleic acid binding energetics. The combination of a protein language model with a graph neural network is a reasonable architectural choice, and the compilation of a large training dataset is a useful contribution. However, the current text does not provide sufficient detail to fully evaluate the methodology or the robustness of the reported results. Several claims regarding state-of-the-art performance and generalizability require additional evidence and more rigorous benchmarking. The manuscript would benefit from clearer descriptions of the data curation process, the cross-validation protocol, and the statistical significance of performance differences.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein engineering, and structural bioinformatics would be interested in this work. The model could be useful for prioritizing mutations in protein–nucleic acid complexes for experimental validation, particularly in the context of disease-associated variants. The methodological combination of language models and graph neural networks may also be of interest to those developing deep learning approaches for biophysical property prediction.
+- **Major strengths**
+  - The use of a unified dataset spanning both protein–DNA and protein–RNA complexes is a strength, as many existing tools are limited to one type of interaction.
+  - The integration of sequence-level (ESM-2) and structure-level (RGCN) features is a sensible design that leverages complementary information.
+  - The evaluation includes multiple validation strategies, including external blind datasets and temperature-stratified splits, which strengthens the generalizability claims.
+  - The provision of a public web server is a practical contribution that increases the accessibility of the method.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data curation and leakage
+  - **Claim pointer** The authors claim the model was developed on a "comprehensive dataset of 1754 mutations" and that the dataset represents "one of the largest curated datasets for PNI binding free energy prediction."
+  - **Evidence pointer** Materials and methods, "Preparation of training and validation datasets"; Results, "Five-fold CV performance of DeepPNI"
+  - **Concern** The manuscript does not describe the redundancy reduction or sequence/structure similarity filtering applied to the dataset. If multiple mutations from the same protein or highly similar proteins appear in both training and test splits, the reported cross-validation performance could be optimistically biased. The text states that the dataset was divided based on mutations, not on protein structures, for the primary cross-validation. This is a critical methodological detail that needs clarification.
+  - **Why it matters** Without proper redundancy reduction, the model may be memorizing protein-specific features rather than learning generalizable principles of mutation effects. The reported PCC of 0.76 could substantially overestimate performance on truly novel protein–nucleic acid complexes.
+  - **Resolution test** The authors should clarify whether any sequence or structure similarity threshold was applied to ensure that training and test sets do not contain near-identical proteins. If not, the cross-validation should be repeated using structure-based splits, and the results should be reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative evaluation
+  - **Claim pointer** The authors state that "DeepPNI showed favourable performance across the evaluated benchmarks" and that it achieves "one of the highest reported PCC using five-fold or higher cross-validation among available PNI ΔΔG prediction methods."
+  - **Evidence pointer** Results, "DeepPNI performance in comparison with existing methods"
+  - **Concern** The comparative evaluation is incomplete. The authors compare with DeePNAP on the PN dataset and with DeePNAP and MutPNI on the MPR311 dataset. However, the comparison with MutPNI relies on previously reported results rather than a consistent re-evaluation. The PremPNI comparison is acknowledged to have training overlap, making it uninformative. The claim of "one of the highest reported PCC" is not substantiated by a systematic comparison with all relevant existing methods under identical conditions.
+  - **Why it matters** A claim of state-of-the-art performance requires a fair and comprehensive benchmark. Inconsistent evaluation protocols across methods can lead to misleading conclusions about relative performance.
+  - **Resolution test** The authors should either (a) re-evaluate all competing methods on the same datasets using the same cross-validation protocol, or (b) temper the claim to reflect the specific comparisons made. A table summarizing all methods, datasets, and metrics would be helpful.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical significance and error analysis
+  - **Claim pointer** The authors report performance metrics (PCC, MAE, RMSE) for various datasets and splits, including values such as PCC = 0.76 ± 0.03 for the PN dataset.
+  - **Evidence pointer** Results, "Five-fold CV performance of DeepPNI"; "Cross-validation performance on protein–DNA and protein–RNA datasets"; "Performance across temperature-based mutation groups"
+  - **Concern** The manuscript does not report confidence intervals for the performance metrics, nor does it provide statistical tests comparing DeepPNI with baseline methods. The standard deviations reported for cross-validation folds are useful, but they do not indicate whether the observed differences between models are statistically significant.
+  - **Why it matters** Without statistical significance testing, the claim that DeepPNI outperforms existing methods cannot be rigorously supported. The observed differences could be within the range of random variation.
+  - **Resolution test** The authors should provide confidence intervals for all reported metrics and perform appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test across folds) when comparing models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Feature contribution analysis
+  - **Claim pointer** The authors state that the L2 norm analysis of node-type embeddings showed that "nucleic acid atoms and target residue atoms contributed more strongly to the final graph representation than other protein atoms" and that the edge ablation study confirmed that "all six edge types contribute meaningfully to ΔΔG prediction."
+  - **Evidence pointer** Results, "Feature contribution within the graph representation"
+  - **Concern** The L2 norm of learned embeddings is a weak proxy for feature importance. High L2 norms do not necessarily indicate that a feature is important for the prediction task; they may simply reflect the scale of the learned representations. The edge ablation study is more informative, but the text does not report the full results of the ablation (e.g., the performance drop for each edge type in terms of all metrics).
+  - **Why it matters** The interpretability claims are a notable aspect of the manuscript. If the feature contribution analysis is not methodologically sound, the conclusions drawn from it are questionable.
+  - **Resolution test** The authors should either (a) use more rigorous feature attribution methods (e.g., gradient-based or perturbation-based approaches) or (b) temper the claims and present the L2 norm analysis as a preliminary observation rather than a definitive conclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Materials and methods, "Preparation of training and validation datasets"
+  - **Evidence pointer** Text description of dataset curation
+  - **Issue** The description of the dataset curation process is brief. It is unclear how the 1754 mutations were selected from the initial 1951 unique mutations after Z-score filtering, and what the distribution of mutations across protein families is.
+  - **Required correction** Provide a more detailed description of the data curation pipeline, including the number of mutations removed at each step and the distribution of mutations across protein families or complex types.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "Implementation"
+  - **Evidence pointer** Text description of software and hardware
+  - **Issue** The manuscript states that the model was implemented in PyTorch 2.0+ but does not provide the exact version or the versions of PyTorch Geometric and other dependencies. The random seed is fixed, but the specific data splitting procedure is not described in enough detail to be reproduced.
+  - **Required correction** Provide the exact software versions and a more detailed description of the data splitting procedure, including how the random seed was applied to the splitting process.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Web server functionality
+  - **Affected element** Materials and methods, "DeepPNI web server"
+  - **Evidence pointer** Text description of the web server
+  - **Issue** The manuscript describes the web server but does not provide information on the expected runtime for a typical prediction, the maximum number of concurrent users, or the server's availability guarantees.
+  - **Required correction** Add a brief description of the expected runtime and any usage limits for the web server.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Text
+  - **Issue** The term "protein–nucleic acid binding energetics" is used in the title, but the manuscript focuses on ΔΔG prediction. The relationship between ΔΔG and binding energetics should be clarified.
+  - **Required correction** Define ΔΔG in the context of binding energetics and clarify that the model predicts changes in binding free energy, not absolute binding affinities.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure references
+  - **Affected element** Results, "Five-fold CV performance of DeepPNI"
+  - **Evidence pointer** Text references to Figure 2B
+  - **Issue** The text refers to Figure 2B showing "a strong correlation between the experimental and average predicted ΔΔG values," but the figure itself was not provided for review.
+  - **Required correction** Ensure that the figure clearly displays the correlation and includes the line of identity or best fit, as appropriate.
+
+## Risk / unsupported claims
+- The claim that DeepPNI achieves "one of the highest reported PCC using five-fold or higher cross-validation among available PNI ΔΔG prediction methods" is not supported by the provided evidence, as a comprehensive comparison with all relevant methods is not presented.
+- The claim that the model "showed good performance on external blind datasets, with PCC values up to 0.81" is based on text descriptions only; the actual data and the criteria for selecting the four experimental method groups are not fully described.
+- The claim that the L2 norm analysis demonstrates the relative importance of node types is not methodologically robust and should be treated as preliminary.
+- The generalizability of the model to protein–nucleic acid complexes not represented in the training set is not established, given the lack of redundancy reduction details and the modest performance under structure-based splits.
+- The statement that DeepPNI is "one of the largest curated datasets for PNI binding free energy prediction" is plausible but cannot be verified without a comparison to other available datasets in the field.

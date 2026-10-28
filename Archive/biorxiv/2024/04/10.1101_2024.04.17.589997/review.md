@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, related work, background, methods, results, discussion, conclusions, appendix) as provided in the submission.
+- **Assessment boundary** Scientific and technical evaluation of the manuscript's claims, methodology, and evidence as presented. No assessment of code functionality or reproducibility beyond what is described in the text.
+- **Shared manuscript claim summary** The authors introduce ProteinReDiff, an equivariant diffusion-based generative model for redesigning ligand-binding proteins using only protein sequences and ligand SMILES strings. They claim improved ligand-binding affinity, sequence diversity, and structural preservation compared to existing methods, achieved through integration of AlphaFold2-derived attention modules and dual-domain (sequence and structure) denoising.
+- **Visible evidence base** Tables 1–5, Figures 1–9 (referenced but not all visible in the provided text), algorithmic pseudocode descriptions, and textual descriptions of experimental results and ablations.
+- **Missing materials affecting confidence** Actual figure images, full table data, appendix tables and figures referenced but not provided, training hyperparameters, dataset preprocessing details, and complete ablation results. The manuscript contains unresolved cross-references (e.g., "Appendix ??", "Section") that prevent full evaluation.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious framework that combines equivariant diffusion with AlphaFold2-inspired attention modules for ligand-binding protein redesign. The core idea of operating from sequences and SMILES strings without structural input is timely and potentially impactful. However, the evidence as presented is insufficient to fully substantiate the central claims. Key quantitative results are not fully visible, comparisons with baselines are incomplete, and several methodological details are either missing or ambiguously described. The work is promising but requires substantial revision and additional validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational protein designers, researchers in generative models for molecular biology, and drug discovery scientists would find this work relevant. The framework's ability to redesign binding proteins without structural information could appeal to those working on targets with poorly characterized structures or seeking rapid sequence exploration. The integration of AlphaFold2 modules into diffusion models may also interest the machine learning for biology community.
+- **Major strengths** The problem addressed is important and the proposed solution is conceptually novel, combining equivariant diffusion with AlphaFold2-derived attention mechanisms in a way not previously reported. The input requirements (sequence and SMILES only) are minimal and practical. The dual-domain denoising approach is a sensible extension of existing diffusion frameworks. The inclusion of multiple evaluation metrics (binding affinity, sequence diversity, structural preservation) is appropriate for the task.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that ProteinReDiff "enables the creation of high-affinity ligand-binding proteins" and that the 15% masking ratio "surpasses the performance of Inverse Folding (IF) models and the original DIF framework" in binding affinity.
+  - **Evidence pointer** Results and Discussion, Figure 6, Table 4
+  - **Concern** The quantitative evidence supporting the central claim of improved binding affinity is not fully visible in the provided text. Figure 6 is referenced but not shown, and Table 4 is mentioned but its contents are not described in sufficient detail. Without the actual numerical values, statistical significance tests, or error bars, the claim of superiority over baselines cannot be evaluated. The comparison with IF models and DIF is described qualitatively but lacks the necessary quantitative backing.
+  - **Why it matters** The primary contribution of the manuscript is the claimed improvement in binding affinity. If this cannot be verified from the presented evidence, the core value proposition of the work is unsubstantiated.
+  - **Resolution test** Provide the full data from Figure 6 and Table 4, including mean values, standard deviations, and sample sizes for all methods compared. Include statistical tests (e.g., paired t-tests or Wilcoxon signed-rank tests) demonstrating significant improvements over baselines. If the claim is based on a subset of targets, specify which and justify the selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript states that ProteinReDiff "utilizes only protein sequences and ligand SMILES strings, eliminating the need for detailed structural information" and that it performs "blind docking" without predefined binding site information.
+  - **Evidence pointer** Method sections, Figure 1, Figure 2
+  - **Concern** The methodological description is incomplete in several critical aspects. The exact architecture of the equivariant denoising network is not fully specified, particularly how the sequence and structure denoising are coupled. The "blind docking" capability is claimed but the mechanism by which the model predicts binding without any pocket information is not clearly explained. The stochastic masking procedure is described but the distribution and range of masking ratios during training are not specified. The integration of ESM-2 embeddings with the diffusion process lacks detail on how these representations are merged and updated.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or build upon the method, and reviewers cannot assess whether the design choices are sound.
+  - **Resolution test** Provide a complete architectural specification, including tensor shapes, layer counts, attention heads, and the exact equations for the sequence and structure denoising losses. Describe the masking procedure in full detail, including the probability distribution over masking ratios. Clarify how the model achieves blind docking, including any implicit assumptions about binding site location.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline comparison fairness
+  - **Claim pointer** The manuscript compares ProteinReDiff against MIF, MIF-ST, ProteinMPNN, Protein Generator, ESMIF, CARP, DIF, and LigandMPNN, claiming favorable performance.
+  - **Evidence pointer** Table 3, Table 4, Results and Discussion
+  - **Concern** The comparison with baselines is potentially unfair or incomplete. Several baselines (MIF, ProteinMPNN, ESMIF) are inverse folding methods that require structural input, while ProteinReDiff does not. This is acknowledged but the implications for interpretation are not discussed. More critically, the adaptation of DIF for this task is described as "modified" but the modifications are not specified. LigandMPNN requires binding pocket information, which is a different input regime. The manuscript does not clarify whether all methods were evaluated under identical conditions, including the same training data, compute budget, and evaluation protocol.
+  - **Why it matters** Unfair or incomparable baselines can lead to misleading conclusions about relative performance. The scientific community needs to know whether the reported improvements are due to the method itself or to differences in evaluation conditions.
+  - **Resolution test** Specify the exact evaluation protocol for each baseline, including any modifications made. Ensure all methods are evaluated on the same test set with the same metrics and computational budget. Discuss the implications of different input requirements for interpreting the comparisons. If possible, include additional baselines that operate under the same input conditions as ProteinReDiff.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation depth
+  - **Claim pointer** The manuscript claims that ProteinReDiff's redesigned proteins "maintain their original folds while significantly enhancing LBA" and that the approach has "potential applications in different settings to control the affinity of ligand binders."
+  - **Evidence pointer** Figure 7, Ablation Studies, Conclusions
+  - **Concern** The validation is limited to computational metrics. There is no experimental validation (e.g., expression, binding assays, structural characterization) of any redesigned protein. The claim that folds are maintained relies on predicted structures from Omegafold, which may not be accurate for novel sequences. The ablation studies are referenced but the full results are not presented in the provided text, making it impossible to assess the contribution of individual components.
+  - **Why it matters** Computational predictions of binding affinity and structure are known to be imperfect. Without experimental validation, the practical utility of the method for real drug discovery or protein engineering applications remains uncertain. The ablation results are critical for understanding which design choices matter.
+  - **Resolution test** Provide the complete ablation results, including all metrics for each ablated variant. If experimental validation is not possible, clearly state this limitation and temper the claims accordingly. Discuss the known limitations of computational binding affinity prediction and structural modeling in the context of the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that ProteinReDiff enables "creation of high-affinity ligand-binding proteins" but does not specify the evaluation metric or the magnitude of improvement. The phrase "without the need for detailed structural information" is repeated in the introduction and could be more precisely stated as "without requiring experimentally determined structures."
+  - **Required correction** Specify the evaluation metric (e.g., docking score) and the quantitative improvement in the abstract. Rephrase to avoid redundancy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Related Work
+  - **Evidence pointer** Related Work section
+  - **Issue** The related work section is brief and does not adequately cover recent advances in protein-ligand co-design, such as RFdiffusion, Chroma, or other diffusion-based protein generation methods. The positioning of ProteinReDiff relative to these methods is unclear.
+  - **Required correction** Expand the related work to include recent diffusion-based protein design methods and explicitly state the novelty of ProteinReDiff relative to each.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Background section on equivariant diffusion
+  - **Evidence pointer** Background, Equivariant Diffusion-based Generative Models
+  - **Issue** The mathematical notation in the background section is dense and contains undefined symbols (e.g., "Fsz t" in the conditional distribution formulation). The derivation from the forward process to the generative model is not fully explained.
+  - **Required correction** Define all symbols and provide a clearer step-by-step derivation or reference to the original DIF paper for the full derivation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, Figure 5
+  - **Issue** The discussion of Figure 5 mentions cases where "contact overlap appeared to be maintained, yet the RMSD is large and TM score is low" but does not explain why this occurs or what it implies for the method's utility. The interpretation is left to the reader.
+  - **Required correction** Provide an explanation for the observed discrepancy between local and global structural metrics and discuss its implications for the redesign strategy.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training Process
+  - **Evidence pointer** Training Process section
+  - **Issue** The training process description lacks specific hyperparameters (learning rate, batch size, number of epochs, optimizer, hardware) and does not state the total compute time. This information is essential for reproducibility.
+  - **Required correction** Provide a table of training hyperparameters and computational resources used.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Ablation Studies
+  - **Evidence pointer** Ablation Studies section
+  - **Issue** The ablation studies section contains unresolved cross-references (e.g., "Table ??", "Appendix ??", "Section") that prevent the reader from accessing the full results. The description of the "performance score" calculation is ambiguous.
+  - **Required correction** Resolve all cross-references and provide a clear formula for the performance score used in Figure 8.
+- **Technical failings that need to be addressed before the case is established** The manuscript lacks complete quantitative results for the primary claim of improved binding affinity (R1-M1). The methodological description is insufficient for reproducibility (R1-M2). The baseline comparisons are potentially unfair or incomplete (R1-M3). The validation is limited to computational predictions without experimental confirmation (R1-M4). These issues collectively prevent the central claims from being considered established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of equivariant diffusion with AlphaFold2-derived attention modules for sequence-only ligand-binding protein redesign is novel and not previously reported. The dual-domain denoising approach is a creative extension. However, the individual components are all established, and the novelty lies primarily in their integration.
+  - **Scientific importance** The problem of redesigning ligand-binding proteins without structural information is important for drug discovery and protein engineering. If the method works as claimed, it could have significant practical impact. However, the importance is contingent on the validity of the results, which is currently not fully established.
+  - **Interdisciplinary readership** The work bridges machine learning, structural biology, and drug discovery. The topic is of broad interest, but the presentation is heavily technical and may be challenging for non-specialists. The abstract is accessible, but the main text assumes significant background in diffusion models and protein design.
+  - **Technical soundness** The theoretical framework is sound in principle, but the incomplete methodological description and missing quantitative results prevent a full assessment of technical soundness. The evaluation protocol has potential issues with baseline fairness.
+  - **Readability for nonspecialists** The introduction and abstract are readable, but the methods and results sections are dense and contain unresolved cross-references. The manuscript would benefit from clearer explanations of the key innovations and their significance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the problem is important, but the current evidence is insufficient to establish the claims. The authors should provide complete quantitative results, full methodological details, fair baseline comparisons, and ideally some form of experimental validation or at least a clear discussion of the limitations of computational validation.
+
+## Risk / unsupported claims
+- The claim that ProteinReDiff "enables the creation of high-affinity ligand-binding proteins" is not quantitatively supported in the provided text.
+- The claim that the 15% masking ratio "surpasses the performance of Inverse Folding (IF) models and the original DIF framework" is not verifiable without the full data from Figure 6 and Table 4.
+- The claim that redesigned proteins "maintain their original folds" relies entirely on predicted structures from Omegafold, which is not experimentally validated.
+- The claim that the model performs "blind docking" without predefined binding site information is not fully explained mechanistically.
+- The ablation study results are referenced but not fully presented, making the claimed contributions of individual components unverifiable.
+- The comparison with LigandMPNN is potentially confounded by different input requirements (binding pocket information vs. sequence only), and the implications are not discussed.

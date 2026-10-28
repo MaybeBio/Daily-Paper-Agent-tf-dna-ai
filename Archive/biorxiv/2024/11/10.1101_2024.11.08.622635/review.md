@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided.
+- **Assessment boundary** Scientific soundness, methodological clarity, validity of claims relative to the provided evidence, and alignment with Nature-style criteria. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors present a computational approach for predicting in vivo transcription factor binding sites using handcrafted features (genomic, motif, cell type, cell-and-TF) plus DNA language model embeddings, trained with gradient-boosted decision trees. A two-stage transfer learning scheme (general model plus TF-tuned models) is claimed to outperform top ENCODE-DREAM challenge methods, and a general model is claimed to generalize to previously unseen TFs in a cross-TF, cross-cell type, cross-chromosomal setting.
+- **Visible evidence base** Abstract, Introduction, Results (sections on model overview, prediction accuracy, comparison to other methods, feature importance, example locus, performance indicators, unseen TF prediction), Discussion, Methods (data sources, feature extraction, model training, criss-cross training). Figures referenced but not provided: Fig 1a-e, Fig 2, Fig 3b-e, Fig 4a-c, Fig 5a-e, Fig 6a-b, Supplementary Fig 1.
+- **Missing materials affecting confidence** Figures and supplementary information are referenced but not included in the provided material. Exact numerical results (e.g., per-TF AUPR values, confidence intervals, statistical test details) are not fully specified. Code repository is mentioned but not reviewed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics with a pragmatic machine learning approach. The core idea of combining interpretable handcrafted features with DNA language model embeddings and a two-stage transfer learning scheme is sensible and potentially useful. However, the provided text lacks sufficient quantitative detail and figure evidence to fully evaluate the strength of the claims. The comparison to ENCODE-DREAM methods is promising but not fully substantiated without the actual performance numbers and statistical context. The generalization claim to unseen TFs is interesting but the evidence presented is limited. The manuscript would benefit from clearer reporting of experimental setup, baselines, and variability.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding prediction, regulatory genomics, and machine learning applications to genomics. The transfer learning approach and the use of DNA language models may also interest researchers developing foundation models for genomics. The analysis of feature importance and performance determinants (e.g., TF activity, expression entropy) could inform future model design.
+- **Major strengths** 1. The problem is well-motivated and practically important. 2. The feature engineering is biologically informed and the inclusion of DNA language model embeddings is timely. 3. The two-stage transfer learning scheme is a reasonable strategy to leverage multi-TF data. 4. The analysis of performance determinants (TF activity, expression entropy) adds insight beyond mere prediction. 5. The authors address a challenging and realistic scenario (unseen TFs, cell types, chromosomes).
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the proposed method achieves a mean AUPR of 0.51 in held-out cell types and chromosomes, outperforming top-ranked ENCODE-DREAM methods.
+  - **Evidence pointer** Results section "Accurate prediction of TF binding sites", Figure 1c-d; location not provided
+  - **Concern** The provided text states the mean AUPR values but does not include the actual figure or a table with per-TF and per-cell-type results. Without the figure or a detailed breakdown, it is impossible to assess the distribution of performance, variability across TFs, or whether the difference from other methods is statistically significant. The comparison to "top-ranked methods" is mentioned but the specific methods, their performance values, and the statistical testing are not described in the text.
+  - **Why it matters** The central claim of the paper is that the method outperforms existing state-of-the-art. This claim cannot be evaluated without the actual performance data and a proper comparison. The reader cannot judge whether the improvement is meaningful or within noise.
+  - **Resolution test** Provide the actual figure (Fig 1c-d) and a table with per-TF AUPR values for all compared methods. Include statistical significance testing (e.g., paired tests across TFs) and describe the compared methods clearly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** The claim that the general model generalizes to previously unseen TFs with a mean AUPR of 0.36, described as "state-of-the-art in a cross-TF, cross-cell type and cross-chromosomal setting."
+  - **Evidence pointer** Results section "Predicting previously-unseen TFs", Figure 6a-b; location not provided
+  - **Concern** The text describes the experimental setup (10 new TFs, two tissues) and reports a mean AUPR of 0.36. However, the figure is not provided, and the text does not include per-TF results, the range of AUPR values, or a comparison to any baseline or existing method in this specific setting. The term "state-of-the-art" is used without a clear definition of what it is compared against. The claim that the general model outperforms the ensemble of TF-specific models is stated but not supported with data in the text.
+  - **Why it matters** Generalization to unseen TFs is a key contribution and a difficult task. Without a clear baseline comparison and per-TF results, the claim of state-of-the-art performance is not substantiated. The reader cannot assess the practical utility of the model for new TFs.
+  - **Resolution test** Provide Figure 6 with per-TF AUPR values, include a comparison to at least one baseline (e.g., a simple motif-scanning approach or a previously published method), and define what "state-of-the-art" refers to in this context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The description of the "criss-cross" training scheme and its role in improving generalization.
+  - **Evidence pointer** Methods section "Criss-cross training"; location not provided
+  - **Concern** The criss-cross training is described briefly. It is unclear how the four models are combined (mean of probabilities? logits?), how the chromosome and tissue splits are chosen, and whether this scheme is applied to all models or only the TF+transformer models. The text mentions "with some modifications" to Li et al., but the modifications are not specified. The benefit of this approach is stated but not demonstrated with an ablation study.
+  - **Why it matters** The criss-cross scheme is presented as a key component for generalization. Without a clear description and an ablation analysis, the reader cannot determine its actual contribution to the reported performance.
+  - **Resolution test** Provide a detailed description of the criss-cross scheme, including the combination rule, and include an ablation study showing performance with and without this scheme.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that DNA language model embeddings improve performance.
+  - **Evidence pointer** Results section "Accurate prediction of TF binding sites", Figure 1c; location not provided
+  - **Concern** The text states that the TF+transformer model outperforms other models, but the specific contribution of the DNA language model embeddings is not isolated. It is unclear whether the improvement comes from the embeddings, the criss-cross training, or the combination. The text mentions that the TF+transformer model uses "in addition to the handcrafted features, 1024-dimensional embeddings," but no ablation is shown.
+  - **Why it matters** The use of DNA language models is a key novelty. Without an ablation study, the reader cannot assess whether the embeddings add value beyond the handcrafted features.
+  - **Resolution test** Include an ablation study comparing the TF+transformer model with and without the DNA language model embeddings, while keeping other factors constant.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "achieving a mean area under the precision-recall curve (AUPR) of 0.51 in held-out cell types and chromosomes in the ENCODE-DREAM in vivo TFBS prediction challenge, outperforming the top-ranked methods." The phrase "held-out cell types and chromosomes" is ambiguous. It is unclear whether the evaluation is on cell types and chromosomes that were both held out, or whether the model was trained on some cell types and tested on others, with chromosomes also split.
+  - **Required correction** Clarify the exact evaluation protocol in the abstract, e.g., "trained on a subset of cell types and chromosomes, and tested on held-out cell types and chromosomes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, model training
+  - **Evidence pointer** Methods section "Model training"; location not provided
+  - **Issue** The text states "Training parameters were set close to default values" but does not specify the exact values for all hyperparameters (e.g., learning rate, tree depth are given, but not the number of estimators for all models, subsample, column sample, etc.). The use of "close to default" is vague.
+  - **Required correction** Provide the exact hyperparameter values used for all models, or state that they are available in the code repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, performance comparison
+  - **Evidence pointer** Results section "Comparison to other methods"; location not provided
+  - **Issue** The comparison to other methods is described qualitatively ("our TF+transformer model's mean AUPR of 0.505 was the highest"). No confidence intervals or statistical tests are reported.
+  - **Required correction** Report confidence intervals or perform a statistical test (e.g., Wilcoxon signed-rank test across TFs) to support the claim of superiority.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, feature importance
+  - **Evidence pointer** Results section "Impact of different features", Figure 3b-e; location not provided
+  - **Issue** The text describes the impact of omitting feature sets but does not specify whether the analysis was performed on the general model, TF-tuned models, or both. The text says "we omitted subsets of features as opposed to single features" and reports average ΔAUPR, but the exact models and TFs used are not clear.
+  - **Required correction** Specify which models were used for the feature importance analysis and whether the results are averaged across all TFs or a subset.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, data processing
+  - **Evidence pointer** Methods section "Data processing and feature extraction"; location not provided
+  - **Issue** The text states "selected genomic regions' coordinates were transferred to hg19 using LiftOver" but does not specify the chain file or the exact parameters used. The criteria for labeling regions as bound, ambiguous, or unbound are described, but the thresholds (e.g., 40%, 20%, 30%) are given without justification.
+  - **Required correction** Provide the specific LiftOver chain file and version, and justify the chosen thresholds for labeling.
+- **Technical failings that need to be addressed before the case is established** 1. The lack of actual figures and tables with numerical results prevents verification of the main performance claims. 2. The comparison to other methods is not described in sufficient detail (which methods, what versions, how were they run). 3. The ablation studies for the DNA language model embeddings and the criss-cross training are missing. 4. The statistical significance of performance differences is not reported. 5. The description of the criss-cross training is incomplete.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of handcrafted features with DNA language model embeddings and a two-stage transfer learning scheme is somewhat novel, but the individual components are established. The originality is moderate.
+  - **Scientific importance** The problem of TF binding prediction is important, and improving generalization to unseen TFs is a valuable goal. However, the demonstrated improvement over existing methods is not fully substantiated in the provided text.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and machine learning researchers in genomics. The broader biological audience may find the results relevant but the technical detail may limit accessibility.
+  - **Technical soundness** The methodological approach is reasonable, but the lack of detailed results and ablations prevents a full assessment of technical soundness. The evaluation protocol needs to be clarified.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. However, some technical details (e.g., criss-cross training) could be explained more thoroughly for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the problem is relevant, but the current manuscript does not provide sufficient evidence to fully support the main claims. The authors should provide the missing figures, tables, and ablation studies, and clarify the evaluation protocol and statistical testing.
+
+## Risk / unsupported claims
+- The claim of outperforming top-ranked ENCODE-DREAM methods is unsupported without the actual comparison data and statistical testing.
+- The claim of "state-of-the-art" performance in cross-TF, cross-cell type, and cross-chromosomal settings is unsupported without a clear baseline comparison.
+- The claim that DNA language model embeddings improve performance is unsupported without an ablation study.
+- The claim that the criss-cross training improves generalization is unsupported without an ablation study.
+- The claim that TF activity and expression entropy are predictors of model performance is based on correlations reported in the text, but the exact correlation coefficients and p-values are not provided for all cases.

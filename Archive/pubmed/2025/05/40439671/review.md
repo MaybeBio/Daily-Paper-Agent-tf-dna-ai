@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the presented methodology, experimental design, results, and claims. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose PLM-DBPs, a deep learning framework integrating sequence-based (ProtT5) and structure-aware (SaProt) protein language model representations for plant DNA-binding protein prediction. They claim improved predictive performance over existing tools, including the plant-specific PlDBPred, and demonstrate generalizability on a newly curated independent test set.
+- **Visible evidence base** Main text tables (Tables 1, 2, 3, 4, 5, 6), figures (Figs 1, 2, 3, 4, 5, 6), and references to supplementary sections (S1, S2, S3) and supplementary tables (T1, T2, T3, T4). Supplementary material itself was not provided.
+- **Missing materials affecting confidence** Supplementary information (Sections S1, S2, S3; Tables T1, T2, T3, T4) was not available for review. Full dataset details, hyperparameter search spaces, per-fold results, and detailed comparison metrics for the multiclass dataset are therefore not assessable. Code repository was not inspected.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: plant-specific DNA-binding protein prediction using modern protein language models. The integration of sequence-based and structure-aware representations is a reasonable and potentially valuable direction. However, the current evidence base is insufficient to fully evaluate the claims. Several methodological details are missing or ambiguous, the comparison with existing tools is incomplete, and the statistical robustness of the reported improvements is not established. The work is promising but requires substantial revision and additional analysis before the claims can be considered supported.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein identification, and application of protein language models. Plant biologists and agricultural scientists interested in gene regulation and functional genomics may also find the tool useful. The methodological comparison of sequence-based vs. structure-aware PLMs could inform similar prediction tasks.
+- **Major strengths** (1) The problem is well-motivated, with clear practical relevance to plant biology and agriculture. (2) The exploration of multiple PLMs and fusion strategies is systematic. (3) The use of a temporally independent test set (post-2021 annotations) is a good practice for assessing generalization. (4) The manuscript is generally clearly written and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PLM-DBPs "achieves a notable improvement in predicting DBPs in plants outperforming previous state-of-the-art models" (Abstract; Results, Table 6).
+  - **Evidence pointer** Table 6; Section "Comparison with existing DNA-binding prediction tools"
+  - **Concern** The comparison with existing tools is incomplete and potentially unfair. The authors compare against published results from other tools, but it is unclear whether those tools were retrained on the same training set, whether the same test set was used for all tools, and whether hyperparameters were optimized for each tool. The reported metrics (Sn, Sp, ACC, Precision, F1, MCC) for existing tools are taken from their original publications, which may have used different data splits or evaluation protocols. A fair comparison requires either retraining all methods under identical conditions or clearly stating and justifying the use of published results.
+  - **Why it matters** The central claim of the paper is superiority over existing methods. If the comparison is not controlled, the claim is not substantiated.
+  - **Resolution test** Provide a controlled comparison where all baseline tools are retrained (or at least evaluated) on the same training/test split with the same evaluation protocol. Alternatively, clearly justify why published results are directly comparable and discuss potential biases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "the integration of structural information further enhances predictive accuracy" (Abstract; Results, Section "Ablation study on sequence-structure representation fusion strategies").
+  - **Evidence pointer** Table 5; Figure 4; Section "Ablation study on sequence-structure representation fusion strategies"
+  - **Concern** The improvement from adding structural information appears marginal. The text states score-level fusion gives "on-par results or outperforms other strategies," which is ambiguous. No statistical significance testing is reported. It is unclear whether the observed differences between the ProtT5-only model and the fused model are meaningful or within noise. Additionally, the comparison between fusion strategies (early, cross-attention, late) is descriptive only, with no error bars or significance tests.
+  - **Why it matters** The core novelty of the paper is the integration of structure-aware representations. If the added value is not statistically demonstrated, the contribution is weakened.
+  - **Resolution test** Report confidence intervals or perform statistical significance tests (e.g., paired bootstrap or McNemar's test) for the differences between the fused model and single-modality baselines across cross-validation folds. Provide per-fold results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model shows "better generalization and robustness as compared to existing approaches" based on the newly curated independent test set (Section "Comparison with the plant specific DNA-binding prediction tool (PlDBPred)").
+  - **Evidence pointer** Section "Comparison with the plant specific DNA-binding prediction tool (PlDBPred)"; Supplementary Tables T3 and T4
+  - **Concern** The independent test set contains only 20 positive sequences. This is a very small sample size, and the reported MCC of 85.9% is based on this tiny set. The comparison with PlDBPred on this set is described qualitatively ("identifies two additional DBPs with high confidence"), but no quantitative metrics for PlDBPred on this same set are provided. The selection of "the first 20 sequences" from 951 candidates is not described as random or stratified, which could introduce selection bias.
+  - **Why it matters** The claim of generalization is based on this small, potentially biased test set. The evidence is not sufficient to support the claim.
+  - **Resolution test** Provide a larger independent test set, or at least report confidence intervals for the metrics on the 20-sequence set. Describe the selection process more rigorously. Provide quantitative comparison with PlDBPred on the same independent set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The use of ProstT5-predicted 3Di sequences as a substitute for Foldseek-derived 3Di sequences (Section "Getting 3Di sequence from protein sequence and structure").
+  - **Evidence pointer** Section "Getting 3Di sequence from protein sequence and structure"; Figure 3
+  - **Concern** The authors state that in small-scale experiments, the difference between Foldseek-derived and ProstT5-predicted 3Di sequences was "negligible." However, no data from these experiments are shown. The choice of ProstT5 for the final model is therefore not fully justified. If the 3Di predictions are inaccurate for some proteins, the structural representation could be noisy, potentially affecting the model's performance and the validity of the structural integration claim.
+  - **Why it matters** The structural modality is a key component of the proposed method. If the proxy for structure is unreliable, the method's foundation is weakened.
+  - **Resolution test** Provide the small-scale comparison data. Report the accuracy of ProstT5-predicted 3Di sequences on the dataset (e.g., agreement with Foldseek). Discuss potential failure modes and their impact.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall reproducibility of the method.
+  - **Evidence pointer** Methods sections; Data availability
+  - **Concern** The manuscript does not provide sufficient detail for reproduction. The exact training procedure, loss function, optimizer, learning rate, batch size, number of epochs, early stopping criteria, and data augmentation (if any) are not specified. The hyperparameter search space is only referenced in supplementary materials, which were not provided. The code repository link is given, but it was not inspected.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without these details, other researchers cannot build upon or verify the work.
+  - **Resolution test** Provide full training details in the main text or supplementary. Ensure the code repository is complete, documented, and includes instructions for reproducing all results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Section "Dataset", Table 1
+  - **Issue** The description of the negative set balancing is unclear. The text says "The negative set was balanced by randomly selecting an equal number of non-DBPs," but it is not clear whether this was done once or as part of the cross-validation procedure (which could lead to data leakage if done before splitting).
+  - **Required correction** Clarify whether balancing was performed before or within the cross-validation splits. If before, discuss potential bias.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 5
+  - **Evidence pointer** Section "Analysis of features", Figure 5
+  - **Issue** The UMAP plots are described qualitatively. It is unclear how many points are shown, whether they are from the training or test set, and whether the separation is quantified.
+  - **Required correction** Provide quantitative measures of cluster separation (e.g., silhouette score) and specify the data source for the plots.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with PlDBPred
+  - **Evidence pointer** Section "Comparison with the plant specific DNA-binding prediction tool (PlDBPred)"
+  - **Issue** The comparison with PlDBPred on the independent test set is only qualitative. No metrics for PlDBPred on this set are given.
+  - **Required correction** Provide quantitative metrics for PlDBPred on the same independent test set to enable a direct comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Computational cost
+  - **Evidence pointer** Section "Computational efficiency and runtime analysis of model inference", Figure 6
+  - **Issue** The runtime analysis is presented, but it is unclear whether this includes the time for 3Di sequence prediction (via ProstT5) or only the final model inference. The total pipeline cost is not reported.
+  - **Required correction** Clarify what is included in the reported times. Provide end-to-end runtime including 3Di generation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary material
+  - **Evidence pointer** Throughout
+  - **Issue** Several key details are only in supplementary materials, which were not provided for review. This limits the ability to fully assess the work.
+  - **Required correction** Ensure all essential methodological details and results are in the main text or that supplementary materials are made available for review.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (uncontrolled comparison), R1-M2 (lack of statistical significance testing), R1-M3 (small and potentially biased independent test set), R1-M4 (unvalidated 3Di proxy).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of structure-aware PLMs to plant-specific DBP prediction is a reasonable extension of existing work, but the approach (late fusion of ProtT5 and SaProt) is not conceptually novel. The originality lies mainly in the specific application domain.
+  - **Scientific importance** Moderate. Plant DBP prediction has practical value, but the incremental improvement over existing methods is not clearly established. The work does not open a fundamentally new direction.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biologists and bioinformaticians. The plant biology application is mentioned but not deeply integrated.
+  - **Technical soundness** Currently insufficient. The main technical claims are not rigorously supported due to uncontrolled comparisons, lack of statistical testing, and a very small independent test set.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written, but some sections (e.g., fusion strategies) may be challenging for readers without a machine learning background. The abstract is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and has a reasonable methodological framework, but the key claims of improved performance and generalization are not rigorously supported. Major revisions are required, including controlled comparisons, statistical validation, and a more robust independent evaluation.
+
+## Risk / unsupported claims
+- The claim of "notable improvement" over state-of-the-art is not supported due to uncontrolled comparison methodology (R1-M1).
+- The claim that structural information "further enhances predictive accuracy" is not statistically validated (R1-M2).
+- The claim of "better generalization and robustness" based on a 20-sequence independent test set is not supported (R1-M3).
+- The claim that ProstT5-predicted 3Di sequences are equivalent to Foldseek-derived ones is not supported by presented data (R1-M4).
+- The performance on the multiclass general DBP dataset is mentioned but results are only in supplementary materials, which were not provided; this claim is not assessable.
+- The computational efficiency analysis is presented, but the total pipeline cost (including 3Di generation) is not reported, making the practical utility claim incomplete.

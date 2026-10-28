@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "40577785",
+    "doi": "10.1093/bioinformatics/btaf359",
+    "title": "AI-HOPE: an AI-driven conversational agent for enhanced clinical and genomic data integration in precision medicine research."
+  },
+  "content": {
+    "abstract": "MOTIVATION: The growing complexity of clinical cancer research has fueled a surge in demand for automated bioinformatics tools capable of integrating clinical and genomic data to accelerate discovery efforts. RESULTS: We present the Artificial Intelligence Agent for High-Optimization and Precision Medicine (AI-HOPE), an AI-driven system that enables domain experts to conduct integrative data analyses through natural language interactions. Powered by Large Language Models, AI-HOPE interprets user instructions, converts them into executable code, and autonomously analyzes locally stored data. It supports flexible association studies, subset comparisons, clinical prevalence assessments and survival analyses. In addition, AI-HOPE enables global variable scans to identify features significantly associated with a user-defined outcome, making a powerful and intuitive tool for advancing precision medicine research. Importantly, its closed-system design prevents clinical data leakage. To demonstrate its utility, AI-HOPE was applied to The Cancer Genome Atlas data to address two clinical questions. First, it identified significant enrichment of TP53 mutations in late-stage colorectal cancer compared to early-stage cases. Second, it uncovered a strong association between KRAS mutations and poorer progression-free survival in FOLFOX-treated patients. These findings align with established literature and demonstrate AI-HOPE's ability to generate meaningful insights independently, without prior assumptions. By removing programming barriers and simplifying complex analyses, AI-HOPE bridges the gap between data complexity and research needs. With its scalable and adaptable framework, AI-HOPE has the potential to support diverse biomedical research fields, driving innovation and efficiency in translational studies. AVAILABILITY AND IMPLEMENTATION: The AI-HOPE software and demonstration data is available at https://github.com/Velazquez-Villarreal-Lab/AI-HOPE.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Precision Medicine/methods",
+      "Humans",
+      "*Genomics/methods",
+      "*Artificial Intelligence",
+      "*Computational Biology/methods",
+      "Colorectal Neoplasms/genetics",
+      "Neoplasms/genetics",
+      "Tumor Suppressor Protein p53/genetics",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ei-Wen",
+        "Velazquez-Villarreal, Enrique"
+      ],
+      "short_names": [
+        "Yang EW",
+        "Velazquez-Villarreal E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3603-6414"
+      ],
+      "affiliations": [
+        "PolyAgent, San Francisco, CA 94102, United States.",
+        "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope Comprehensive Cancer Center, Duarte, CA 91010, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ei-Wen",
+        "short_name": "Yang EW",
+        "identifiers": [],
+        "affiliations": [
+          "PolyAgent, San Francisco, CA 94102, United States."
+        ]
+      },
+      {
+        "full_name": "Velazquez-Villarreal, Enrique",
+        "short_name": "Velazquez-Villarreal E",
+        "identifiers": [
+          "0000-0002-3603-6414"
+        ],
+        "affiliations": [
+          "Department of Integrative Translational Sciences, Beckman Research Institute, City of Hope Comprehensive Cancer Center, Duarte, CA 91010, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/27 18:28",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [
+      "42653117",
+      "42511540",
+      "42136725",
+      "42122184",
+      "42064947",
+      "42009269",
+      "41934711",
+      "41684025",
+      "41595212",
+      "41595159",
+      "41516350",
+      "41438031",
+      "41402855",
+      "41342165",
+      "41301724",
+      "41009631",
+      "40940961",
+      "40909853",
+      "40868090",
+      "40860720",
+      "40723258",
+      "40650262"
+    ],
+    "refs": [
+      "39361263",
+      "35672310",
+      "33864051",
+      "32444850",
+      "26014593",
+      "25928209",
+      "22588877",
+      "16524972"
+    ],
+    "similar": [
+      "40577785",
+      "41342165",
+      "40860720",
+      "42475469",
+      "40650262",
+      "40868090",
+      "40723258",
+      "41009631",
+      "41684025",
+      "41516350",
+      "36321557",
+      "40940961",
+      "41595159",
+      "41520911",
+      "41301724",
+      "42322793",
+      "42653117",
+      "42511540",
+      "40553344",
+      "42122184",
+      "41755349",
+      "41912385",
+      "42128801",
+      "42366266",
+      "42685611",
+      "42611956",
+      "38663471",
+      "27130330",
+      "41127930",
+      "33036834",
+      "41595212",
+      "42274624",
+      "39749734",
+      "42278514",
+      "42675339",
+      "41287637",
+      "41266662",
+      "42183196",
+      "40481323",
+      "39837431",
+      "41645653",
+      "41486076",
+      "42589412",
+      "36009026",
+      "42470832",
+      "41505790",
+      "42481850",
+      "29784537",
+      "40323323",
+      "40233719",
+      "40919911",
+      "41016012",
+      "41962624",
+      "41566376",
+      "40806492",
+      "41977200",
+      "42326815",
+      "40549427",
+      "39332994",
+      "41939694",
+      "40250704",
+      "40823249",
+      "41912303",
+      "40524056",
+      "40739240",
+      "42271624",
+      "42058982",
+      "40886665",
+      "40055986",
+      "39690112",
+      "42064947",
+      "40729959",
+      "40629334",
+      "40818204",
+      "41461109",
+      "41642593",
+      "38163336",
+      "40371349",
+      "39181953",
+      "39988670",
+      "31939734",
+      "40680990",
+      "39211867",
+      "42597794",
+      "42412809",
+      "41751160",
+      "41936855",
+      "40796214",
+      "41475690",
+      "40819118",
+      "39915780",
+      "41789982",
+      "41400327",
+      "32852654",
+      "41813232",
+      "42319798",
+      "39535891",
+      "42655921",
+      "42172616",
+      "40951387"
+    ],
+    "review": [
+      "40577785",
+      "36321557",
+      "41520911",
+      "42322793",
+      "41755349",
+      "41912385",
+      "42128801",
+      "42366266",
+      "42685611",
+      "42611956",
+      "38663471",
+      "42274624",
+      "39749734",
+      "42675339",
+      "41266662",
+      "42183196",
+      "39837431",
+      "41645653",
+      "42589412",
+      "36009026",
+      "42470832",
+      "41505790",
+      "42481850",
+      "29784537",
+      "40233719",
+      "41016012",
+      "41962624",
+      "40806492",
+      "40549427",
+      "41939694",
+      "40823249",
+      "41912303",
+      "40524056",
+      "42058982",
+      "40886665",
+      "40055986",
+      "40818204",
+      "41642593",
+      "38163336",
+      "40371349",
+      "39181953",
+      "39988670",
+      "40680990",
+      "41751160",
+      "41936855",
+      "40796214",
+      "41475690",
+      "39915780",
+      "41789982",
+      "41400327",
+      "32852654",
+      "41813232"
+    ],
+    "pmc": [
+      "12212640"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40577785.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40577785/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf359",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

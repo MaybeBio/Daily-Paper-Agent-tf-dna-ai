@@ -1,76 +1,85 @@
 ## Review setup
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and conclusions as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
-- **Shared manuscript claim summary** The authors report that the N-terminal domain (NTD) of the farnesoid X receptor (FXR) engages in interdomain contacts with other FXR domains and interacts directly with coregulator proteins. They identify a novel SXXLF motif in the NTD that mediates these interactions, based on mutagenesis, mammalian two-hybrid assays, mammalian one-hybrid assay, and molecular dynamics simulations. Mutation of the motif is reported to induce large changes in conformational and allosteric coupling in FXR, and the motif is proposed to modulate FXR transcriptional activity.
-- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are available
-- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental protocols, statistical details, sequence alignments, simulation parameters, and any supplementary information
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness based solely on the provided text. No supplementary figures, tables, or raw data were available for review.
+- **Shared manuscript claim summary** The authors report that the FXR N-terminal domain (NTD) engages in interdomain contacts with the ligand-binding domain (LBD) and interacts with coregulator proteins. They identify a novel SXXLF motif (SENLF) in the NTD that mediates these interactions, supported by luciferase reporter assays, mammalian two-hybrid and one-hybrid assays, fluorescence polarization binding, and molecular dynamics simulations.
+- **Visible evidence base** Main text figures referenced (Figures 1–5), methods section, and abstract. Supplementary tables (Table S1) and figures (Figure S2) are mentioned but not provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (Figure S2, Table S1), raw numerical data for luciferase assays, statistical details for all comparisons, MD simulation parameters and convergence metrics, AlphaFold 3 model confidence scores beyond the average, and details of the fluorescence polarization assay fitting.
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially interesting finding regarding a novel NTD motif in FXR with functional relevance to coregulator and interdomain interactions. However, the evidence base available for assessment is limited to the abstract, which precludes verification of the experimental rigor, data quality, and the strength of the conclusions. The claim of a "novel" motif and its functional significance is plausible but cannot be adequately evaluated without access to the underlying data. The abstract is concise and generally readable, but several key details are missing that would be necessary to assess the technical soundness of the work.
-- **Who would be interested in the results, and why** Researchers in the fields of nuclear receptor biology, transcriptional regulation, and structural biology would be interested. Specifically, those studying FXR function in metabolism, as well as those investigating intrinsically disordered regions and their roles in allosteric regulation, would find the identification of a new NR-interacting motif relevant. The work may also appeal to investigators interested in therapeutic targeting of nuclear receptor coactivator interactions.
-- **Major strengths** The study addresses a relatively understudied domain of FXR, the NTD, which is poorly conserved and often overlooked. The use of multiple complementary approaches (mutagenesis, mammalian two-hybrid, mammalian one-hybrid, and MD simulations) is a strength, as it suggests an attempt to validate findings across different levels of analysis. The identification of a specific motif with functional consequences for both coregulator binding and interdomain communication is a potentially valuable contribution to the field.
-- **Major Concerns**  
-  - **Concern ID** R1-M1  
-    **Severity** Major  
-    **Blocking** Yes  
-    **Axis** Evidence sufficiency  
-    **Claim pointer** The authors claim that the SXXLF motif "mediates interactions with both coregulators and the ligand binding domain" and that mutation "induces large changes in conformational and allosteric coupling in FXR."  
-    **Evidence pointer** Abstract; location not provided  
-    **Concern** The abstract does not provide any quantitative data, effect sizes, statistical significance, or controls to support the claim that the motif mediates these interactions. The phrase "large changes" is vague and unsupported without specific measurements.  
-    **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude or reliability of the reported effects. The claim of a novel functional motif requires robust experimental support, including appropriate negative controls and statistical validation.  
-    **Resolution test** Provide specific data (e.g., binding affinities, reporter assay values, MD-derived metrics) with statistical comparisons between wild-type and mutant constructs, and demonstrate specificity of the motif through alanine scanning or related controls.  
-  - **Concern ID** R1-M2  
-    **Severity** Major  
-    **Blocking** Yes  
-    **Axis** Methodological transparency  
-    **Claim pointer** The authors state that they used "mutagenesis, mammalian two-hybrid assays, mammalian one-hybrid assay, and molecular dynamics (MD) simulations" to identify and validate the motif.  
-    **Evidence pointer** Abstract; location not provided  
-    **Concern** No details are provided regarding the constructs used, the specific mutations introduced, the assay conditions, or the MD simulation parameters. Without this information, the reproducibility and validity of the methods cannot be evaluated.  
-    **Why it matters** The conclusions rest entirely on these methods. If the assays were not properly controlled or the simulations not adequately sampled, the conclusions could be artifacts.  
-    **Resolution test** Include full methodological details in the manuscript, including construct schematics, mutation sites, assay validation, and simulation convergence criteria.  
-  - **Concern ID** R1-M3  
-    **Severity** Major  
-    **Blocking** No  
-    **Axis** Functional significance  
-    **Claim pointer** The authors claim that the motif "modulates the transcriptional activity of FXR."  
-    **Evidence pointer** Abstract; location not provided  
-    **Concern** The abstract does not specify the direction or magnitude of the effect on transcriptional activity, nor does it indicate whether the effect is context-dependent (e.g., ligand-dependent or cell-type-specific).  
-    **Why it matters** Transcriptional activity is a complex readout that can be influenced by many factors. Without clarity on the nature of the effect, the biological relevance of the motif remains ambiguous.  
-    **Resolution test** Provide data showing the effect of motif mutation on transcriptional activity in a defined assay system, including dose-response or ligand-dependence where applicable.  
-- **Minor Comments**  
-  - **Concern ID** R1-m1  
-    **Severity** Minor  
-    **Axis** Clarity  
-    **Affected element** Abstract wording  
-    **Evidence pointer** Abstract; location not provided  
-    **Issue** The phrase "large changes in conformational and allosteric coupling" is imprecise and could be interpreted in multiple ways.  
-    **Required correction** Specify the nature of the conformational changes (e.g., domain rearrangement, altered dynamics) and the allosteric coupling (e.g., between which domains or regions).  
-  - **Concern ID** R1-m2  
-    **Severity** Minor  
-    **Axis** Contextualization  
-    **Affected element** Introduction of the motif  
-    **Evidence pointer** Abstract; location not provided  
-    **Issue** The abstract does not explain why the SXXLF motif is considered "novel" relative to known NR-interacting motifs, such as LXXLL or FXXLF.  
-    **Required correction** Briefly state how SXXLF differs from or is distinct from previously characterized motifs, or provide a reference to prior work that establishes novelty.  
-  - **Concern ID** R1-m3  
-    **Severity** Minor  
-    **Axis** Readability  
-    **Affected element** Abstract structure  
-    **Evidence pointer** Abstract; location not provided  
-    **Issue** The abstract moves from general NR background to FXR-specific findings without a clear logical bridge explaining why FXR NTD was chosen for study.  
-    **Required correction** Add a sentence linking the general importance of NTD functions to the specific rationale for studying FXR.  
-- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The lack of quantitative data and methodological detail prevents the establishment of the central claims. Additionally, the absence of any negative controls or alternative explanations in the abstract raises concerns about the robustness of the findings.
-- **Assessment against Nature-style criteria**  
-  - **Originality** The identification of a new SXXLF motif in the FXR NTD is potentially original, but the abstract does not provide enough context to confirm that this motif has not been previously described in other NRs or in FXR.  
-  - **Scientific importance** The findings could be important for understanding FXR regulation and NR NTD function, but the significance is not fully articulated in the abstract.  
-  - **Interdisciplinary readership** The topic is likely to appeal to a specialized audience in nuclear receptor biology and structural biology, but the abstract does not frame the work in a way that would attract a broader readership.  
-  - **Technical soundness** Cannot be assessed from the abstract alone. The methods listed are appropriate in principle, but their execution and validation are not described.  
-  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terminology (e.g., "mammalian two-hybrid," "allosteric coupling") without explanation, which may limit accessibility.  
-- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of quantitative data and methodological detail means the claims cannot be verified. The authors should be encouraged to provide the full manuscript for a complete assessment.
-
-## Risk / unsupported claims
-- The claim that the SXXLF motif "mediates interactions with both coregulators and the ligand binding domain" is unsupported by quantitative data in the abstract.
-- The claim that mutation "induces large changes in conformational and allosteric coupling" is vague and not substantiated with specific measurements.
-- The claim that the motif "modulates the transcriptional activity of FXR" is not supported by any functional data in the abstract.
-- The novelty of the SXXLF motif is asserted but not demonstrated relative to known NR motifs.
-- The overall functional significance of the motif in a physiological context is not addressed.
+- **Overall assessment** This manuscript addresses an understudied aspect of nuclear receptor biology, namely the function of the intrinsically disordered N-terminal domain of FXR. The identification of a novel SXXLF motif is potentially interesting and could have implications for understanding NR coregulator selectivity. However, the evidence presented is largely indirect (reporter assays, hybrid assays) and the direct physical interaction between the NTD and LBD or coregulators is not demonstrated. The MD simulations are suggestive but limited by the inherent challenges of modeling disordered regions. The manuscript would benefit from more direct biochemical validation and a clearer quantitative presentation of the data.
+- **Who would be interested in the results, and why** Researchers studying nuclear receptor signaling, particularly those focused on FXR biology, intrinsically disordered protein domains, and coregulator interactions. The identification of a new interaction motif may also be of interest to the broader transcription factor community and to those studying allosteric regulation in multidomain proteins.
+- **Major strengths** The manuscript tackles a genuinely understudied area (FXR NTD function) and proposes a novel motif with potential functional significance. The combination of cellular assays with MD simulations is a reasonable approach to study a disordered domain. The authors are appropriately cautious in some interpretations and acknowledge limitations of their assays.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct interaction
+  - **Claim pointer** The authors claim that the NTD "interacts directly with coregulator proteins" and that the SENLF motif "mediates interactions with both coregulators and the ligand binding domain."
+  - **Evidence pointer** Results sections "The FXR NTD Interacts With Other FXR Domains" and "The FXR NTD Interacts With NR Coregulators"; Figures 1C–D, 2B–F
+  - **Concern** The mammalian two-hybrid and one-hybrid assays are indirect measures of protein-protein interaction. They rely on transcriptional readouts and can be influenced by changes in protein stability, folding, or indirect bridging interactions. The fluorescence polarization assay (Figure 4B) is more direct, but the reported EC50 values (32.1 µM and 42.3 µM) are very weak and the difference between SENLF and SENAA peptides is modest. No direct binding assay (e.g., pull-down, ITC, or NMR) is presented to confirm a physical interaction between the NTD and LBD or between the NTD and coregulators.
+  - **Why it matters** The central claim of the paper is that the NTD physically engages with the LBD and coregulators. Without direct biochemical evidence, the possibility remains that the observed effects in the hybrid assays are due to indirect mechanisms or artifacts of the fusion protein constructs. The weak binding affinity in the fluorescence polarization assay further weakens the case for a specific, functionally relevant interaction.
+  - **Resolution test** Provide direct binding data, such as pull-down assays with purified NTD and LBD or coregulator fragments, or biophysical measurements (ITC, MST, NMR) demonstrating a specific interaction. Show that the SENLF peptide binds to the LBD with a reasonable affinity and that the SENAA mutation abolishes or significantly reduces this binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of the SENLF motif
+  - **Claim pointer** The authors claim that the SENLF motif is functionally important for FXR transcriptional activity, based on the reduced activity of the SENAA mutant compared to WT (Figure 3D).
+  - **Evidence pointer** Results section "A Novel SXXLF Motif in the FXR-NTD Mediates Interactions With the LBD"; Figure 3D
+  - **Concern** The SENAA mutation reduces but does not abolish transcriptional activity, and the reduction is not as severe as that observed with the ΔNTD mutant. The authors interpret this as evidence that the SENLF motif is one of several functional elements in the NTD. However, the data do not establish whether the reduced activity of SENAA is specifically due to loss of the SENLF-mediated interaction or to more general effects on NTD structure or stability. The manuscript does not provide a complementation experiment (e.g., restoring activity with a different motif) or a detailed structure-function analysis of the SENLF motif.
+  - **Why it matters** The claim that SENLF is a bona fide interaction motif with functional relevance requires evidence that the phenotype is specifically due to loss of the motif's interaction function, not to nonspecific disruption of the NTD. Without this, the physiological importance of the motif remains uncertain.
+  - **Resolution test** Perform a more detailed mutational analysis of the SENLF motif (e.g., alanine scanning, conservative substitutions) to map the residues critical for function. Use a complementation approach where a different interaction motif is inserted into the SENAA background to see if activity is restored. Alternatively, show that the SENAA mutation does not affect NTD expression levels or global NTD conformation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Robustness of MD simulation conclusions
+  - **Claim pointer** The authors claim that the SENAA mutation "induces a conformational rearrangement" and alters "allosteric coupling" between the NTD and LBD, based on MD simulations of AlphaFold 3 models.
+  - **Evidence pointer** Results section "SXXLF Mutation Influences Interdomain Contact and Coupling in Simulations"; Figure 5
+  - **Concern** MD simulations of intrinsically disordered regions are notoriously challenging. The AlphaFold 3 model of the NTD has a very low average confidence score (24.23), indicating that the predicted structure of this region is unreliable. The simulations are short (microsecond timescale) relative to the conformational dynamics expected for a disordered domain. The contact analysis shows "only a handful of minor differences" between WT and mutant, yet the authors draw strong conclusions about conformational rearrangements and altered allosteric coupling. The correlation analysis (Figure 5G) is presented without statistical validation.
+  - **Why it matters** The simulation results are used to support the mechanistic model that the SENLF motif mediates NTD-LBD interactions and that its mutation disrupts these interactions. If the simulations are not robust, this support is weakened. The low confidence of the starting model and the limited sampling undermine the reliability of the conclusions.
+  - **Resolution test** Provide evidence that the simulations have converged (e.g., block averaging, multiple independent runs with different initial velocities). Validate the simulation results against experimental data, such as the fluorescence polarization binding data. Use enhanced sampling methods (e.g., replica exchange, metadynamics) to more thoroughly explore the conformational landscape of the NTD. Present the correlation analysis with appropriate statistical tests.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the SENLF motif
+  - **Claim pointer** The authors claim that SXXLF is a "novel" interaction motif and imply that it may be a general feature of NR NTDs.
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The manuscript identifies SENLF in FXR and notes similarity to FQNLF in AR. However, no data are presented to show whether this motif is conserved across FXR orthologs or across other NRs. The claim of novelty rests on a single example. The functional significance of the motif is only tested in the context of full-length FXR, not in isolation or in a heterologous context.
+  - **Why it matters** The broader significance of the finding depends on whether SXXLF is a general NR interaction motif or a FXR-specific feature. Without comparative analysis, the novelty claim is overstated.
+  - **Resolution test** Perform a sequence alignment of NTDs across FXR orthologs and across the NR superfamily to assess conservation of the SXXLF motif. Test the function of the motif in a heterologous context (e.g., fused to a different NR or to a non-NR protein) to demonstrate its autonomous function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Luciferase assay data
+  - **Evidence pointer** Figures 1B, 2A, 3D, 4C
+  - **Issue** The manuscript states that p-values were calculated using ANOVA but does not report the number of independent experiments, the exact p-values, or the error bars' meaning in the figure legends. The text describes "significant" differences without providing the statistical details.
+  - **Required correction** Provide full statistical details in the figure legends or methods, including the number of biological replicates, the exact p-values, and the multiple comparison correction method used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fluorescence polarization assay
+  - **Evidence pointer** Figure 4B
+  - **Issue** The EC50 values are reported as 32.1 µM and 42.3 µM, but the manuscript does not report the confidence intervals or the goodness-of-fit for the binding curves. The difference between the two peptides is modest and may not be statistically significant.
+  - **Required correction** Report the 95% confidence intervals for the EC50 values and the R² values for the fits. Perform a statistical comparison of the two curves (e.g., extra sum-of-squares F test) to determine if the difference is significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** MD simulation setup
+  - **Evidence pointer** Methods section "MD Simulations"
+  - **Issue** The methods describe the simulation protocol but do not specify the temperature, pressure, or salt concentration used in the simulations. The number of atoms in the monomeric simulations is not stated. The methods for the heterodimer simulations on Anton 3 are described as "as described above" but the heating and equilibration protocol for Anton 3 is not detailed.
+  - **Required correction** Provide complete simulation parameters, including temperature, pressure, salt concentration, and system size for both monomeric and heterodimer simulations. Describe the Anton 3 simulation protocol separately if it differs from the classical MD protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction; Discussion
+  - **Issue** The introduction cites several NR NTD studies but does not discuss the known interaction motifs in other NRs in sufficient detail. The discussion of the AR FXXLF and WXXLF motifs is brief and does not compare the SENLF motif to these in terms of sequence, structure, or binding mode.
+  - **Required correction** Expand the discussion to provide a more detailed comparison of the SENLF motif with known NR interaction motifs, including sequence alignment and structural context if available.
+- **Technical failings that need to be addressed before the case is established** The lack of direct biochemical evidence for NTD-LBD and NTD-coregulator interactions (R1-M1) is the primary technical failing. The weak binding affinity in the fluorescence polarization assay and the absence of a positive control for this assay further weaken the case. The MD simulation results are not sufficiently validated to support the strong claims about conformational changes and allosteric coupling (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a novel SXXLF motif in the FXR NTD is original and could contribute to the understanding of NR NTD function. However, the concept of NTD-LBD interdomain interactions and NTD-coregulator interactions is not new, having been described for other NRs.
+  - **Scientific importance** The findings are potentially important for FXR biology and for the broader NR field, as they suggest a new mode of coregulator recognition. However, the importance is tempered by the lack of direct evidence and the uncertainty about the generality of the motif.
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, biochemists, and molecular biologists studying transcription regulation. The use of MD simulations may attract computational biologists. However, the manuscript is written in a fairly specialized manner and may not be accessible to a broad interdisciplinary audience.
+  - **Technical soundness** The cellular assays are standard and appear to be performed adequately, but the lack of direct binding data and the limitations of the MD simulations are significant technical weaknesses.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with NR biology and terminology. The abstract is clear, but the results section is dense and may be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and proposes a novel motif, but the central claims of direct NTD-LBD and NTD-coregulator interactions are not supported by direct experimental evidence. The weak binding affinity and the limitations of the MD simulations further weaken the case. The manuscript would be suitable for reconsideration after substantial revision, including direct biochemical validation of the interactions and a more rigorous analysis of the simulation data.

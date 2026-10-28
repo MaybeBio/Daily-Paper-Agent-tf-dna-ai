@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.18.745526",
+  "title": "Mechanistic Dissection of Entropic Penalty upon Ligand Binding and Molecular Flexibility via Molecular Dynamics Simulations and Machine Learning",
+  "authors": "Ta I Hung; Emily Vig; Chia-en Chang",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-20",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过MD模拟和机器学习量化配体结合时的熵惩罚与分子柔性，虽涉及蛋白-配体结合热力学，但对象非蛋白质-DNA互作，方法可部分借鉴于TF-DNA结合熵分析，关联度有限。",
+  "abstract": "Molecular flexibility governs how molecules behave, reorganize, and respond to their environment. Although experiments measure molar entropy for small molecules and molecular dynamics (MD) simulations capture molecular motions, quantifying configuration entropy and the concerted internal motions such as torsion rotations, angle bending, and their couplings are central to understanding thermodynamic behavior but remains challenging. To dissect these contributions, we used MD trajectories and developed an internal-coordinate PC-entropy (iPC-entropy) method to probe the origins of entropy and reveal how specific motions shape the thermodynamic landscape. The studies accurately captured molar entropy, identified key torsional motions as major contributors, and uncovered a critical angle–torsion coupling in which angle bending was strongly correlated with torsional rotation, a coupling that increases nonlinearly with molecular size. Evaluating entropic changes upon protein–ligand binding reveals that dominant entropic penalty arises from ligand dihedral rigidification rather than protein reorganization and highlights the specific dihedral rotations that become restricted. We also suggest systematic corrections for approaches considering solely rotamers to reliably reproduce the relative entropic penalty in computer-aided drug discovery. Together, our findings elucidate the molecular origins of entropy and entropy changes. In addition, we can quantify and illustrate the internal motions that strongly shape binding thermodynamics, thereby offering mechanistic insights to guide drug development.",
+  "abstract_zh": "分子灵活性决定了分子如何行为、重组并响应其环境。尽管实验测量小分子的摩尔熵，分子动力学（molecular dynamics, MD）模拟捕捉分子运动，但量化构型熵以及协同内部运动（如扭转旋转、角度弯曲及其耦合）对于理解热力学行为至关重要，然而这仍具挑战性。为剖析这些贡献，我们利用MD轨迹并开发了一种内坐标PC熵（iPC-entropy）方法，以探究熵的起源并揭示特定运动如何塑造热力学景观。研究准确捕捉了摩尔熵，识别出关键扭转运动为主要贡献者，并发现了一种关键的角度-扭转耦合，其中角度弯曲与扭转旋转强相关，且该耦合随分子尺寸非线性增加。评估蛋白质-配体结合时的熵变化揭示，主要熵惩罚源于配体二面角刚性化而非蛋白质重排，并突出了受限制的特定二面角旋转。我们还为仅考虑旋转异构体的方法提出了系统性修正，以在计算机辅助药物发现中可靠重现相对熵惩罚。综合来看，我们的发现阐明了熵及熵变化的分子起源。此外，我们能够量化并展示强烈塑造结合热力学的内部运动，从而为指导药物开发提供机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745526",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745526",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.18.745526/index.html"
+}

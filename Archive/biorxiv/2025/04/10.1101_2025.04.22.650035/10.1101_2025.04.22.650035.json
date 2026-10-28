@@ -1,0 +1,152 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.22.650035",
+  "title": "Programmatic design and editing of cis-regulatory elements",
+  "doi": "10.1101/2025.04.22.650035",
+  "abstract": "The development of modern genome editing tools has enabled researchers to make such edits with high precision but has left unsolved the problem of designing these edits. As a solution, we propose Ledidi, a computational approach that rephrases the design of genomic edits as a continuous optimization problem where the goal is to produce the desired outcome as measured by one or more predictive models using as few edits from an initial sequence as possible. When applied across dozens of pre-trained machine learning models, we find that Ledidi can quickly design edits to precisely control transcription factor binding, chromatin accessibility, transcription, and enhancer activity across several species. By using several models simultaneously, Ledidi can programatically design edits that exhibit multiple desired characteristics, and we demonstrate this capability by designing cell type-specific enhancers and accessible regions with controllable patterns of transcription factor binding. Finally, we introduce the concept of an affinity catalog, in which multiple sets of edits are designed that induce a spectrum of outcomes, and demonstrate the practical benefits of this approach for design tasks and scientific understanding.",
+  "authors": [
+    "Schreiber J",
+    "Lorbeer FK",
+    "Heinzl M",
+    "Lu Y",
+    "Stark A",
+    "Noble WS"
+  ],
+  "published_date": "2025-04-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.22.650035",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.22.650035.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1008802",
+    "raw_record": {
+      "id": "PPR1008802",
+      "source": "PPR",
+      "doi": "10.1101/2025.04.22.650035",
+      "title": "Programmatic design and editing of cis-regulatory elements",
+      "authorString": "Schreiber J, Lorbeer FK, Heinzl M, Lu Y, Stark A, Noble WS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Schreiber J",
+            "lastName": "Schreiber",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4230-6625"
+            }
+          },
+          {
+            "fullName": "Lorbeer FK",
+            "lastName": "Lorbeer",
+            "firstName": "Franziska Katharina",
+            "initials": "FK"
+          },
+          {
+            "fullName": "Heinzl M",
+            "lastName": "Heinzl",
+            "firstName": "Monika",
+            "initials": "M"
+          },
+          {
+            "fullName": "Lu Y",
+            "lastName": "Lu",
+            "firstName": "Yang",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Stark A",
+            "lastName": "Stark",
+            "firstName": "Alexander",
+            "initials": "A"
+          },
+          {
+            "fullName": "Noble WS",
+            "lastName": "Noble",
+            "firstName": "William Stafford",
+            "initials": "WS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7283-4715"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7283-4715"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4230-6625"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The development of modern genome editing tools has enabled researchers to make such edits with high precision but has left unsolved the problem of designing these edits. As a solution, we propose Ledidi, a computational approach that rephrases the design of genomic edits as a continuous optimization problem where the goal is to produce the desired outcome as measured by one or more predictive models using as few edits from an initial sequence as possible. When applied across dozens of pre-trained machine learning models, we find that Ledidi can quickly design edits to precisely control transcription factor binding, chromatin accessibility, transcription, and enhancer activity across several species. By using several models simultaneously, Ledidi can programatically design edits that exhibit multiple desired characteristics, and we demonstrate this capability by designing cell type-specific enhancers and accessible regions with controllable patterns of transcription factor binding. Finally, we introduce the concept of an affinity catalog, in which multiple sets of edits are designed that induce a spectrum of outcomes, and demonstrate the practical benefits of this approach for design tasks and scientific understanding.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/23/2025.04.22.650035.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.22.650035"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 13,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-04-25",
+      "firstPublicationDate": "2025-04-23",
+      "firstIndexDate": "2025-04-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

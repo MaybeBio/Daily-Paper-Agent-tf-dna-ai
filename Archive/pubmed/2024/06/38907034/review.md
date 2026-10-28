@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text as provided, including abstract, limitation statement, methods, and supplementary information references.
+- **Assessment boundary** The scientific content, methodology, and claims presented in the supplied text. No external data, figures, or supplementary files were available for inspection.
+- **Shared manuscript claim summary** The authors report a crystal structure of the MAGEA4 MHD domain in complex with a RAD18 R6BD peptide, revealing a binding mode that is flipped relative to the AlphaFold2 prediction. The authors acknowledge limitations regarding the use of a short peptide versus full-length RAD18 and the potential for alternative conformations in solution.
+- **Visible evidence base** Methods section describing protein expression, purification, peptide synthesis, crystallization, data collection, and model building. The abstract and limitation section are present but the abstract is empty in the provided text. No structural coordinates, figures, or detailed refinement statistics are provided.
+- **Missing materials affecting confidence** The abstract is empty. No figures, structural coordinates, electron density maps, refinement statistics, or validation reports are provided. The AlphaFold2 model comparison is referenced but not shown. No data on binding affinity or solution-state experiments are included.
+
+## Reviewer
+- **Overall assessment** The manuscript reports a novel crystal structure that challenges an AlphaFold2 prediction, which is of potential interest to the structural biology and cancer biology communities. However, the provided text is incomplete, lacking the abstract, figures, and key validation data. The methods are described in reasonable detail, but the absence of structural statistics and the explicit limitation statement weaken the current case. The claim of a flipped binding mode cannot be fully assessed without the structural comparison data.
+- **Who would be interested in the results, and why** Structural biologists studying MAGE family proteins and their interactions, cancer researchers focused on MAGEA4 and RAD18 in DNA damage repair pathways, and computational biologists interested in benchmarking AlphaFold2 predictions against experimental structures. The work may also interest those developing peptide-based inhibitors targeting protein-protein interactions.
+- **Major strengths** The study addresses a timely question about the accuracy of AlphaFold2 predictions in protein-peptide complexes. The crystal structure provides experimental evidence that can serve as a benchmark for computational methods. The methods for protein expression, purification, and crystallization are described with sufficient detail for reproducibility. The authors explicitly acknowledge the limitations of using a short peptide, which demonstrates scientific caution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims a crystal structure of MAGEA4 MHD-RAD18 R6BD revealing a flipped binding mode compared to AlphaFold2 prediction.
+  - **Evidence pointer** Abstract (empty), Methods section, location not provided for structural figures or coordinates
+  - **Concern** The core claim of a flipped binding mode cannot be evaluated because the structural data, including the crystal structure coordinates, electron density maps, and the AlphaFold2 model comparison, are not provided in the supplied text. The abstract is empty, and no figures or tables are referenced.
+  - **Why it matters** The central scientific contribution is the structural comparison. Without the actual structure and the AlphaFold2 model, the reader cannot verify the flipped binding mode or assess the quality of the experimental structure.
+  - **Resolution test** Provide the structural figures, coordinate files, and a direct overlay of the crystal structure with the AlphaFold2 model, along with RMSD values and interaction maps.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The final model has 96.9% residues in the favored region, 3.1% in the allowed region, and 0.0% in the outlier region of the Ramachandran plot.
+  - **Evidence pointer** Methods section, Data collection and model building
+  - **Concern** Only Ramachandran statistics are reported. No resolution, R-factor, R-free, or other refinement statistics are provided. The completeness of the diffraction data and the quality of the electron density for the peptide are not described.
+  - **Why it matters** Without these statistics, the quality of the crystal structure cannot be assessed, and the reliability of the binding mode interpretation is uncertain.
+  - **Resolution test** Report the resolution, R-work, R-free, data completeness, I/sigma, and provide a table of refinement statistics. Show electron density for the peptide and the binding interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The authors state that the binding mode of a small peptide might be affected by crystal packing, and the complex might exist in solution with alternative or multiple conformations.
+  - **Evidence pointer** Limitation of the current study
+  - **Concern** The limitation section appropriately acknowledges that the peptide may not represent full-length RAD18. However, the manuscript does not provide any solution-state data, such as NMR, ITC, or SAXS, to support or refute the relevance of the crystal structure in solution.
+  - **Why it matters** The biological relevance of the flipped binding mode depends on whether it occurs in solution with full-length RAD18. Without such data, the significance of the finding is limited.
+  - **Resolution test** Include binding affinity measurements, mutagenesis studies, or solution-state structural data to support the physiological relevance of the observed binding mode.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract section, location not provided
+  - **Issue** The abstract is empty in the provided text, which prevents a summary of the key findings and their significance.
+  - **Required correction** Provide a complete abstract that summarizes the structure, the flipped binding mode, and the comparison to AlphaFold2.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical reporting
+  - **Affected element** Methods, Data collection and model building
+  - **Evidence pointer** Methods section
+  - **Issue** The PDB ID for the search model is given as 7UOA, but no PDB deposition ID for the new structure is mentioned.
+  - **Required correction** State the PDB deposition ID for the new structure and any associated validation reports.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, RAD18 R6BD
+  - **Evidence pointer** Methods section
+  - **Issue** The peptide is described as C-terminally amidated, but the N-terminal modification and the exact purity percentage are not specified.
+  - **Required correction** Specify the N-terminal state, purity percentage, and any other modifications to ensure reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of structural data and refinement statistics prevents verification of the central claim. R1-M3 is non-blocking but important for biological relevance.
+- **Assessment against Nature-style criteria** Originality: The work is original in providing an experimental structure that contradicts an AlphaFold2 prediction, which is a valuable contribution. Scientific importance: The MAGEA4-RAD18 interaction is relevant to cancer biology, and the structural insight could inform therapeutic development, but the significance is tempered by the peptide-only system. Interdisciplinary readership: The findings will interest structural biologists, computational biologists, and cancer researchers, but the current presentation limits broader appeal. Technical soundness: The methods are described, but the lack of structural statistics undermines confidence. Readability for nonspecialists: The text is technical and assumes familiarity with structural biology; the empty abstract and missing figures reduce accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claim cannot be assessed without the structural data and refinement statistics. I am supportive if the technical concerns are resolved and the full data are provided.
+
+## Risk / unsupported claims
+- The flipped binding mode compared to AlphaFold2 is unsupported in the provided text because no structural comparison data are shown.
+- The quality of the crystal structure is unassessable due to missing refinement statistics.
+- The biological relevance of the binding mode to full-length RAD18 is acknowledged as uncertain by the authors and is not supported by any experimental data in the supplied text.

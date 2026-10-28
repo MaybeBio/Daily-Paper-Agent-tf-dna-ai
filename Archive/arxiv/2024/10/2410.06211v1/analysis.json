@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2410.06211v1",
+  "title": "A mechanistically interpretable neural network for regulatory genomics",
+  "authors": "Alex M. Tseng; Gokcen Eraslan; Tommaso Biancalani; Gabriele Scalia",
+  "journal": "",
+  "published_date": "2024-10-08",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出一种机制可解释的神经网络架构，直接编码并读取调控基因组中的基序及其语法，用于蛋白-DNA结合预测与从头基序发现，核心聚焦TF-DNA互作建模，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Deep neural networks excel in mapping genomic DNA sequences to associated readouts (e.g., protein-DNA binding). Beyond prediction, the goal of these networks is to reveal to scientists the underlying motifs (and their syntax) which drive genome regulation. Traditional methods that extract motifs from convolutional filters suffer from the uninterpretable dispersion of information across filters and layers. Other methods which rely on importance scores can be unstable and unreliable. Instead, we designed a novel mechanistically interpretable architecture for regulatory genomics, where motifs and their syntax are directly encoded and readable from the learned weights and activations. We provide theoretical and empirical evidence of our architecture's full expressivity, while still being highly interpretable. Through several experiments, we show that our architecture excels in de novo motif discovery and motif instance calling, is robust to variable sequence contexts, and enables fully interpretable generation of novel functional sequences.",
+  "abstract_zh": "深度神经网络在将基因组DNA序列映射到相关读出（如蛋白质-DNA结合）方面表现出色。除了预测之外，这些网络的目标是向科学家揭示驱动基因组调控的潜在基序（及其语法）。从卷积滤波器中提取基序的传统方法面临信息在滤波器和层间不可解释分散的问题。其他依赖重要性评分的方法可能不稳定且不可靠。因此，我们设计了一种新颖的机制可解释架构，用于调控基因组学，其中基序及其语法直接从学习到的权重和激活中编码并可读。我们提供了理论及实证证据，证明我们的架构具有完全的表达能力，同时保持高度可解释性。通过多项实验，我们展示了该架构在从头基序发现和基序实例调用方面表现出色，对可变序列上下文具有鲁棒性，并能实现全新功能序列的完全可解释生成。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2410.06211v1",
+  "source_url": "https://arxiv.org/abs/2410.06211v1",
+  "paper_page_path": "papers/arxiv/2410.06211v1/index.html"
+}

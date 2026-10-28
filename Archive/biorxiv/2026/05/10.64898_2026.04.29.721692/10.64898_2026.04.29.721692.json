@@ -1,0 +1,510 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.29.721692",
+  "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
+  "doi": "10.64898/2026.04.29.721692",
+  "abstract": "Protein dynamics play a critical role in protein function, yet such important information is missing in many protein language models (PLM). We introduce DPLM, a dynamics-aware protein language model that aligns sequence embeddings with molecular dynamics (MD) trajectory embeddings via contrastive learning. Using MD features encoded by a pretrained video model, DPLM learns sequence representations that correlate with residue-level flexibility and improve protein-level functional clustering compared to static sequence- and structure-based PLMs. Without task-specific training, DPLM outperforms ESM-based representations in zero-shot mutation-effect prediction on multiple deep mutational scanning datasets. When adapted with lightweight task-specific heads, DPLM further achieves top-tier performance on protein stability prediction and intrinsic disorder region identification, demon-strating that contrastive alignment with MD trajectories enables PLMs to capture biologically meaningful dynamic properties.",
+  "authors": [
+    "Yuexu Jiang",
+    "Duolin Wang",
+    "Ibrahim A. Imam",
+    "Dong Xu",
+    "Qing Shao"
+  ],
+  "published_date": "2026-05-04",
+  "updated_date": "2026-05-04T17:05:22Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721692",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721692.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:06:22Z",
+        "timestamp": 1785434782122,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                4
+              ]
+            ],
+            "date-time": "2026-05-04T00:00:00Z",
+            "timestamp": 1777852800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R01LM014510"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01LM014510"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein dynamics play a critical role in protein function, yet such important information is missing in many protein language models (PLM). We introduce DPLM, a dynamics-aware protein language model that aligns sequence embeddings with molecular dynamics (MD) trajectory embeddings via contrastive learning. Using MD features encoded by a pretrained video model, DPLM learns sequence representations that correlate with residue-level flexibility and improve protein-level functional clustering compared to static sequence- and structure-based PLMs. Without task-specific training, DPLM outperforms ESM-based representations in zero-shot mutation-effect prediction on multiple deep mutational scanning datasets. When adapted with lightweight task-specific heads, DPLM further achieves top-tier performance on protein stability prediction and intrinsic disorder region identification, demon-strating that contrastive alignment with MD trajectories enables PLMs to capture biologically meaningful dynamic properties.</jats:p>",
+      "DOI": "10.64898/2026.04.29.721692",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ],
+        "date-time": "2026-05-04T17:05:22Z",
+        "timestamp": 1777914322000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yuexu",
+          "family": "Jiang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Chemical and Materials Engineering Department, University of Kentucky, Lexington, Kentucky"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Duolin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Health Informatics Institute, University of South Florida, Tampa, Florida"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ibrahim A.",
+          "family": "Imam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chemical and Materials Engineering Department, University of Kentucky, Lexington, Kentucky"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dong",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Health Informatics Institute, University of South Florida, Tampa, Florida"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qing",
+          "family": "Shao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chemical and Materials Engineering Department, University of Kentucky, Lexington, Kentucky"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arnab, A. , Dehghani, M. , Heigold, G. , Sun, C. , Lučić, M. , and Schmid, C. ViViT: A Video Vision Transformer, 2021. URL https://arxiv.org/abs/2103.15691. Version Number: 2.",
+          "DOI": "10.1109/ICCV48922.2021.00676"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad928"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PRXLife.2.043013"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.5",
+          "unstructured": "Chen, T. , Kornblith, S. , Norouzi, M. , and Hinton, G. A Simple Framework for Contrastive Learning of Visual Representations, 2020. URL https://arxiv.org/abs/2002.05709. Version Number: 3."
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-024-00989-2"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26582"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3755548"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-12-151"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1749933"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.13",
+          "unstructured": "Gu, A. and Dao, T. Mamba: Linear-Time Sequence Modeling with Selective State Spaces, 2023. URL https://arxiv.org/abs/2312.00752. Version Number: 2."
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gpb.2019.01.004"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nargab/lqae150"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2018.08.011"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.17",
+          "unstructured": "Hou, C. and Shen, Y. SeqDance: A Protein Language Model for Representing Protein Dynamic Properties, October 2024. URL http://biorxiv.org/lookup/doi/10.1101/2024.10.11.617911."
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1902.00751"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hsu, C. , Verkuil, R. , Liu, J. , Lin, Z. , Hie, B. , Sercu, T. , Lerer, A. , and Rives, A. Learning inverse folding from millions of predicted structures, April 2022. URL http://biorxiv.org/lookup/doi/10.1101/2022.04.10.487779.",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2023.05.041"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.21",
+          "unstructured": "Jing, B. , Eismann, S. , Suriana, P. , Townshend, R. J. L. , and Dror, R. Learning from Protein Structure with Geometric Vector Perceptrons, 2020. URL https://arxiv.org/abs/2009.01411. Version Number: 3."
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.22",
+          "unstructured": "Jing, B. , Stärk, H. , Jaakkola, T. , and Berger, B. Generative Modeling of Molecular Dynamics Trajectories, 2024. URL https://arxiv.org/abs/2409.17808. Version Number: 1."
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kalifa, D. , Horvitz, E. , and Radinsky, K. Learning Protein Representations with Conformational Dynamics, October 2025. URL http://biorxiv.org/lookup/doi/10.1101/2025.10.06.680789.",
+          "DOI": "10.1101/2025.10.06.680789"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma, Y. , Xu, G. , Sun, X. , Yan, M. , Zhang, J. , and Ji, R. X-CLIP: End-to-End Multi-grained Contrastive Learning for Video-Text Retrieval, 2022. URL https://arxiv.org/abs/2207.07285. Version Number: 2.",
+          "DOI": "10.1145/3503161.3547910"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2015.08.015"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.70045"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meier, J. , Rao, R. , Verkuil, R. , Liu, J. , Sercu, T. , and Rives, A. Language models enable zero-shot prediction of the effects of mutations on protein function, July 2021. URL http://biorxiv.org/lookup/doi/10.1101/2021.07.09.450648.",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meng, D. and Pollastri, G. PUNCH2: explore the strategy for Intrinsically Disordered Protein predictor, October 2024. URL http://biorxiv.org/lookup/doi/10.1101/2024.10.03.616458.",
+          "DOI": "10.1101/2024.10.03.616458"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2009.02.010"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13001"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Murtada, M. H. , Brotzakis, Z. F. , and Vendruscolo, M. Language Models for Molecular Dynamics, November 2024. URL http://biorxiv.org/lookup/doi/10.1101/2024.11.25.625337.",
+          "DOI": "10.1101/2024.11.25.625337"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1035"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab555"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4466"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. , Liu, J. , Verkuil, R. , Meier, J. , Canny, J. F. , Abbeel, P. , Sercu, T. , and Rives, A. MSA Transformer, February 2021. URL http://biorxiv.org/lookup/doi/10.1101/2021.02.12.430858.",
+          "DOI": "10.1101/2021.02.12.430858"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0138-4"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1079"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2009.08.003"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1084"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gpb.2020.01.001"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08127-z"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-43720-2"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa925"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-024-00716-2"
+        },
+        {
+          "key": "2026050702550657000_2026.04.29.721692v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MedAI59581.2023.00025"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.29.721692",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T09:55:27Z",
+        "timestamp": 1778147727000
+      },
+      "score": 64.101425,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.29.721692"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.64898/2026.04.29.721692",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

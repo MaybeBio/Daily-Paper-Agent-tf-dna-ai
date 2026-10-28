@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, figure legends, supplementary information descriptions, and extended data descriptions
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with Nature-style criteria based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present Evo 2, a biological foundation model trained on 9.3 trillion tokens from a curated genomic atlas spanning all domains of life, with a 1 million token context window and single-nucleotide resolution. They claim accurate zero-shot prediction of functional impacts of genetic variation, including noncoding pathogenic mutations and BRCA1 variants; interpretable representations associated with biological features; genome-scale generative capabilities producing sequences with naturalness and coherence; and experimentally validated chromatin accessibility design via inference-time guidance.
+- **Visible evidence base** Abstract, main text sections describing architecture, training, data, variant effect prediction, interpretability, and generation; figure legends for Figures 1-6; extended data figure legends; supplementary information descriptions
+- **Missing materials affecting confidence** Methods section not fully visible; actual figures and data plots not viewable; quantitative results tables not accessible; Supplementary Data files 1-3 not available; Extended Data figures not viewable; code and model weights not accessible for verification
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial technical achievement in genomic foundation modeling, with scale and context length exceeding prior work. The breadth of evaluations across prediction, interpretability, and generation is commendable. However, the provided text alone does not permit full verification of several central claims, particularly regarding the statistical significance of improvements over baselines, the robustness of the interpretability analyses, and the experimental validation of chromatin accessibility designs. The work is likely of high interest to the computational biology and genomics communities, but the case for broad scientific significance across all domains of life requires stronger quantitative evidence than what is visible in the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers developing foundation models for biological sequences; genomics researchers studying variant effects, gene regulation, and genome annotation; synthetic biology and genome engineering communities interested in generative design; clinical genetics researchers evaluating variant interpretation tools; and researchers studying the mechanisms learned by large language models applied to biology.
+- **Major strengths** 1) The scale of the model and training data represents a clear advance over prior work, with a 1 million token context window at single-nucleotide resolution. 2) The breadth of evaluations across prediction, interpretability, and generation provides a comprehensive assessment of model capabilities. 3) The inclusion of experimental validation for chromatin accessibility designs strengthens the claims of practical utility. 4) The open release of model parameters, code, and data is commendable and aligns with reproducibility values. 5) The mechanistic interpretability analyses using sparse autoencoders represent a novel contribution for genomic language models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Evo 2 learns to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant BRCA1 variants—without task-specific fine-tuning."
+  - **Evidence pointer** Figure 3, Extended Data Figures 4-5, Supplementary Data 1
+  - **Concern** The claim of accurate prediction is stated broadly, but the visible text provides only AUROC values for a limited set of comparisons. For BRCA1, the zero-shot AUROC is not explicitly stated in the visible text, and the comparison to other models is described qualitatively. The clinical significance claim requires demonstration that performance is not driven by trivial sequence features or training data leakage, which cannot be assessed from the provided material.
+  - **Why it matters** The central value proposition of Evo 2 for clinical and research applications rests on its variant effect prediction accuracy. Without clear quantitative benchmarks against established methods, including statistical significance testing and calibration assessments, the claim of clinical utility is not established.
+  - **Resolution test** Provide explicit AUROC and AUPRC values with confidence intervals for all benchmark comparisons, include calibration plots, and demonstrate that performance is robust across variant types and genomic contexts. Show that performance is not attributable to sequence composition or conservation alone.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Mechanistic interpretability analyses reveal that Evo 2 learns representations associated with biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements and prophage genomic regions."
+  - **Evidence pointer** Figure 4, Extended Data Figures 6-8, Supplementary Data 2
+  - **Concern** The interpretability analyses are described qualitatively, with no quantitative metrics for feature specificity, precision, or recall. The claim that features are "associated with" biological features is weak without demonstrating that these associations are statistically significant and specific. The comparison to HOMER for motif discovery reports only a recall percentage (35%) without precision or false discovery rates.
+  - **Why it matters** Interpretability claims are increasingly scrutinized in the machine learning community. Without rigorous quantitative evaluation, the features could be spurious or reflect trivial sequence properties. The claim of "mechanistic" understanding requires demonstration that features are causally relevant, not merely correlational.
+  - **Resolution test** Provide quantitative metrics for feature specificity and sensitivity, including precision-recall curves for each biological feature class. Include statistical significance testing against null models and demonstrate that features are not redundant with simple sequence statistics. For motif discovery, report precision and false discovery rates alongside recall.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Evo 2 also generates experimentally validated chromatin accessibility patterns when guided by predictive models and inference-time search."
+  - **Evidence pointer** Figure 6, Extended Data Figures 10-11, Supplementary Data 3
+  - **Concern** The experimental validation is described with AUROC values, but the number of designs tested, the selection criteria for which designs were experimentally tested, and the statistical framework for assessing success are not fully specified. The Morse code demonstrations are compelling but may represent cherry-picked examples. The success rate for differential accessibility designs (17% with greater than twofold difference) is modest and requires discussion of whether this meets practical utility thresholds.
+  - **Why it matters** Experimental validation is the strongest evidence for practical utility, but the visible description does not permit assessment of whether the reported successes are representative or exceptional. The modest success rate for the more challenging differential accessibility task raises questions about the generalizability of the approach.
+  - **Resolution test** Specify the total number of designs generated, the criteria for selecting designs for experimental testing, and the full distribution of outcomes. Provide statistical analysis of success rates with confidence intervals. Discuss the practical implications of the observed success rates for real-world applications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Evo 2 uses a new multi-hybrid StripedHyena 2 architecture that relies on a combination of three different variants of input-dependent convolution operators and attention."
+  - **Evidence pointer** Figure 1f-g, Extended Data Figure 1b-e, Methods
+  - **Concern** The architectural innovations are described at a high level, but the visible text does not provide sufficient detail to assess the novelty or the specific contributions of each component. The comparison to Transformers and StripedHyena 1 shows improved throughput and loss scaling, but the computational cost of training and inference at the reported scale is not discussed.
+  - **Why it matters** The architectural claims are central to the technical contribution. Without clear description of the design choices, ablation studies, and computational requirements, the reproducibility and generalizability of the approach cannot be assessed.
+  - **Resolution test** Provide detailed architectural specifications, including hyperparameters, layer configurations, and the specific role of each operator type. Include ablation studies demonstrating the contribution of each architectural component. Report training and inference computational costs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1b
+  - **Evidence pointer** Figure 1b
+  - **Issue** The UMAP visualization of training data diversity is described but the interpretation is not clear. The highlighted species are listed but the figure legend does not explain what the visualization demonstrates about data composition or balance.
+  - **Required correction** Clarify what the UMAP shows regarding data diversity, including how the highlighted species were selected and what conclusions should be drawn about taxonomic coverage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion acknowledges that current evaluations do not guarantee in-cell function but does not systematically address other limitations, such as potential biases in the training data, failure modes of the model, or comparisons with other large genomic language models beyond those mentioned.
+  - **Required correction** Add a dedicated limitations paragraph addressing data biases, model failure modes, and a more comprehensive comparison with existing genomic foundation models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental validation details
+  - **Evidence pointer** Figure 6, Methods
+  - **Issue** The description of experimental validation for chromatin accessibility designs does not specify the number of biological replicates, the sequencing depth for ATAC-seq, or the computational pipeline for processing ATAC-seq data.
+  - **Required correction** Provide complete experimental details including replicates, sequencing metrics, and data processing parameters to enable reproduction and assessment of data quality.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Motif enrichment analyses
+  - **Evidence pointer** Extended Data Figure 11a, Supplementary Information B.6
+  - **Issue** The enrichment analyses for transcription factor motifs report p-values but do not specify the multiple testing correction applied across the many motifs and features tested.
+  - **Required correction** State the multiple testing correction method and report adjusted p-values or false discovery rates.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (variant effect prediction evidence), R1-M2 (interpretability quantification), R1-M3 (experimental validation rigor)
+- **Assessment against Nature-style criteria** Originality: The work extends prior genomic foundation models with substantially larger scale and context length, and introduces architectural innovations. The combination of prediction, interpretability, and generation in a single model is a notable contribution. Scientific importance: If the claims are fully supported, the model could have broad impact on genomics research, variant interpretation, and genome design. However, the demonstrated improvements over existing methods appear incremental in some benchmarks, and the clinical utility claims require stronger evidence. Interdisciplinary readership: The work bridges machine learning, genomics, and molecular biology, and the writing is generally accessible. Technical soundness: The architectural and training details are plausible, but the visible evidence is insufficient to fully verify the central claims. Readability for nonspecialists: The abstract and main text are well-written and accessible, though some sections assume familiarity with genomic language models and evaluation metrics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript describes a significant technical achievement with broad potential impact, but the current visible evidence does not fully establish the central claims of predictive accuracy, interpretability, and experimental validation. The authors should provide complete quantitative results, statistical analyses, and methodological details to address the concerns raised.
+
+## Risk / unsupported claims
+- The claim that Evo 2 "learns to accurately predict the functional impacts of genetic variation" is not fully supported by the visible quantitative evidence, particularly for noncoding variants and clinical applications.
+- The claim that interpretability analyses "reveal" representations associated with biological features is not quantitatively substantiated.
+- The claim that generated genome-scale sequences have "greater naturalness and coherence than previous methods" is stated without visible quantitative metrics.
+- The claim that the model "can also generate experimentally validated chromatin accessibility patterns" is supported by AUROC values, but the full experimental design and statistical framework are not visible.
+- The claim that Evo 2 is "one of the largest-scale fully open models thus far" is plausible but not verifiable from the provided material.
+- The safety and ethical claims regarding data exclusion and risk mitigation are described but not quantitatively evaluated in the visible text.

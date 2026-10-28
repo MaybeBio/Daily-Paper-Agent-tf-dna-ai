@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "39281570",
+    "doi": "10.1016/j.heliyon.2024.e36616",
+    "title": "Functional exploration and drug prediction on programmed cell death-related biomarkers in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Our study aims to perform functional exploration and drug prediction of programmed cell death (PCD)-related biomarkers in lung adenocarcinoma (LUAD). METHODS: UCSC-Xena obtained LUAD-related genes. DESeq2 screened PCD-specific differentially expressed genes (DEGs), and these DEGs were intersected with genes identified by weighted gene co-expression network analysis (WGCNA) to pinpoint the key genes. KOBAS-i was used for enrichment analysis. String and GeneMania were used to construct protein interaction networks and gene-gene interaction networks, respectively. Using two machine learning algorithms to screen for key genes, and taking the intersection as biomarkers, validating via receiver operating characteristic (ROC) and in vitro experiments. Building a diagnostic model with a nomogram. Construct transcription factor (TF) regulatory network. CIBERSORT was used for immune infiltration analysis. Enrichr predicts targeted drugs and AutodockTools simulates molecular docking. RESULTS: 120 hub genes related to PCD were identified, and an intersection of these genes with DEGs yielded 10 key genes, which were enriched in apoptosis-related pathways. Further machine learning screening of these genes led to the selection of 7 genes, among which 6 genes (FGR, LAPTM5, SIRPA, TLR4, ZEB2, and NLRC4) exhibited significant differences upon ROC validation, ultimately serving as biomarkers, in vitro experiments also confirmed. A nomogram demonstrated their excellent diagnostic performance. These six biomarkers are correlated with the infiltration status of most immune cells, suggesting that they affect LUAD through the immune system. TF regulation analysis identified the upstream miRNAs. Finally, drug prediction yielded three potential drugs: Lenvatinib, methadone, and trimethoprim. CONCLUSION: PCD-related biomarkers in LUAD were explored, which may contribute to further understanding on PCD in LUAD.",
+    "keywords": [
+      "Lung adenocarcinoma",
+      "Machine learning",
+      "Programmed cell death",
+      "Transcriptome sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xugang",
+        "Liu, Taorui",
+        "Hao, Ying",
+        "Guo, Huiqin",
+        "Li, Baozhong"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Liu T",
+        "Hao Y",
+        "Guo H",
+        "Li B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China.",
+        "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China.",
+        "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China.",
+        "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China.",
+        "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xugang",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Taorui",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Ying",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Huiqin",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China."
+        ]
+      },
+      {
+        "full_name": "Li, Baozhong",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Beijing Shijitan Hospital, Capital Medical University, Beijing, 100038, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2024 Sep 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:42",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "41889636",
+      "40860289"
+    ],
+    "refs": [
+      "38505063",
+      "38249888",
+      "38230766",
+      "38164168",
+      "37946181",
+      "37844448",
+      "37671155",
+      "37660060",
+      "37622116",
+      "37587450",
+      "37553698",
+      "37415164",
+      "37184590",
+      "37077542",
+      "37072352",
+      "36983658",
+      "36798925",
+      "36605187",
+      "36518216",
+      "36344162",
+      "36263628",
+      "35757748",
+      "35713779",
+      "35675043",
+      "35432318",
+      "35406531",
+      "35116717",
+      "34988891",
+      "34855201",
+      "34422829",
+      "34385702",
+      "34086934",
+      "33954048",
+      "33919517",
+      "33866228",
+      "33603130",
+      "33494181",
+      "33230811",
+      "32873928",
+      "32742444",
+      "32500672",
+      "31607746",
+      "31160735",
+      "30213077",
+      "29371589",
+      "29344893",
+      "27141961",
+      "25870306",
+      "25516281",
+      "23980093",
+      "23208128",
+      "22437869",
+      "22285168",
+      "21414208",
+      "20676804",
+      "19114008",
+      "18384431",
+      "18032029",
+      "11846609"
+    ],
+    "similar": [
+      "39281570",
+      "37378675",
+      "39264392",
+      "39364312",
+      "39082346",
+      "38851464",
+      "38245687",
+      "36699262",
+      "37662825",
+      "38682187",
+      "39139563",
+      "36823662",
+      "37325483",
+      "37409245",
+      "35399247",
+      "36777638",
+      "38987624",
+      "39142001",
+      "36532015",
+      "35958412",
+      "38274270",
+      "38371524",
+      "38988926",
+      "38973963",
+      "37996625",
+      "36189314",
+      "35833114",
+      "39071134",
+      "39108112",
+      "39130750",
+      "39086489",
+      "36325528",
+      "35651940",
+      "36993785",
+      "37205113",
+      "38544384",
+      "39262456",
+      "34256754",
+      "35911963",
+      "36032660",
+      "36311724",
+      "38800594",
+      "38755717",
+      "34301211",
+      "38863714",
+      "31698633",
+      "38186574",
+      "38629070",
+      "35865542",
+      "32741804",
+      "37265472",
+      "37671155",
+      "37008314",
+      "34775559",
+      "32642095",
+      "37582718",
+      "36923221",
+      "36336945",
+      "37259225",
+      "39069636",
+      "38044747",
+      "38699235",
+      "38764064",
+      "35205284",
+      "34321013",
+      "35764238",
+      "31322548",
+      "33451334",
+      "34781924",
+      "38028617",
+      "37637684",
+      "35261899",
+      "37359526",
+      "32556504",
+      "37732314",
+      "38007705",
+      "35675043",
+      "36341343",
+      "39006030",
+      "38178349",
+      "34107850",
+      "35713363",
+      "38815767",
+      "37063877",
+      "36018512",
+      "34880385",
+      "36389112",
+      "33648465",
+      "38563847",
+      "37056815",
+      "38509535",
+      "38384969",
+      "38476236",
+      "37153000",
+      "33520448",
+      "37386410",
+      "37760894",
+      "37434679",
+      "37115484",
+      "36300102",
+      "37075605"
+    ],
+    "review": [
+      "39281570"
+    ],
+    "pmc": [
+      "11401088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(24)12647-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39281570/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ZEB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

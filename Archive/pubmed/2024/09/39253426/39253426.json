@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "39253426",
+    "doi": "10.1101/2024.08.27.609789",
+    "title": "Temporally discordant chromatin accessibility and DNA demethylation define short and long-term enhancer regulation during cell fate specification."
+  },
+  "content": {
+    "abstract": "Epigenetic mechanisms govern the transcriptional activity of lineage-specifying enhancers; but recent work challenges the dogma that joint chromatin accessibility and DNA demethylation are prerequisites for transcription. To understand this paradox, we established a highly-resolved timeline of DNA demethylation, chromatin accessibility, and transcription factor occupancy during neural progenitor cell differentiation. We show thousands of enhancers undergo rapid, transient accessibility changes associated with distinct periods of transcription factor expression. However, most DNA methylation changes are unidirectional and delayed relative to chromatin dynamics, creating transiently discordant epigenetic states. Genome-wide detection of 5-hydroxymethylcytosine further revealed active demethylation begins ahead of chromatin and transcription factor activity, while enhancer hypomethylation persists long after these activities have dissipated. We demonstrate that these timepoint specific methylation states predict past, present and future chromatin accessibility using machine learning models. Thus, chromatin and DNA methylation collaborate on different timescales to mediate short and long-term enhancer regulation during cell fate specification.",
+    "keywords": [
+      "5-hydroxymethylation",
+      "6-base sequencing",
+      "ATAC-Me",
+      "Chromatin Accessibility",
+      "DNA Methylation",
+      "Differentiation",
+      "Enhancers",
+      "Epigenetics",
+      "Machine Learning",
+      "Neural Progenitor Cells"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guerin, Lindsey N",
+        "Scott, Timothy J",
+        "Yap, Jacqueline A",
+        "Johansson, Annelie",
+        "Puddu, Fabio",
+        "Charlesworth, Tom",
+        "Yang, Yilin",
+        "Simmons, Alan J",
+        "Lau, Ken S",
+        "Ihrie, Rebecca A",
+        "Hodges, Emily"
+      ],
+      "short_names": [
+        "Guerin LN",
+        "Scott TJ",
+        "Yap JA",
+        "Johansson A",
+        "Puddu F",
+        "Charlesworth T",
+        "Yang Y",
+        "Simmons AJ",
+        "Lau KS",
+        "Ihrie RA",
+        "Hodges E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2070-4481",
+        "ORCID: 0009-0000-9869-4044",
+        "ORCID: 0000-0001-8438-0319",
+        "ORCID: 0000-0003-0439-0141",
+        "ORCID: 0000-0001-6513-610X"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "biomodal, Chesterford Research Park, Cambridge, UK.",
+        "biomodal, Chesterford Research Park, Cambridge, UK.",
+        "biomodal, Chesterford Research Park, Cambridge, UK.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Department of Surgery, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Program in Chemical and Physical Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Department of Neurological Surgery, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Vanderbilt Brain Institute, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+        "Vanderbilt Genetics Institute, Vanderbilt University School of Medicine, Nashville, TN, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guerin, Lindsey N",
+        "short_name": "Guerin LN",
+        "identifiers": [
+          "0000-0002-2070-4481"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Scott, Timothy J",
+        "short_name": "Scott TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Yap, Jacqueline A",
+        "short_name": "Yap JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Johansson, Annelie",
+        "short_name": "Johansson A",
+        "identifiers": [],
+        "affiliations": [
+          "biomodal, Chesterford Research Park, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Puddu, Fabio",
+        "short_name": "Puddu F",
+        "identifiers": [],
+        "affiliations": [
+          "biomodal, Chesterford Research Park, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Charlesworth, Tom",
+        "short_name": "Charlesworth T",
+        "identifiers": [],
+        "affiliations": [
+          "biomodal, Chesterford Research Park, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Yang, Yilin",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0009-0000-9869-4044"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+          "Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Simmons, Alan J",
+        "short_name": "Simmons AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+          "Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Lau, Ken S",
+        "short_name": "Lau KS",
+        "identifiers": [
+          "0000-0001-8438-0319"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+          "Epithelial Biology Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Department of Surgery, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Program in Chemical and Physical Biology, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Ihrie, Rebecca A",
+        "short_name": "Ihrie RA",
+        "identifiers": [
+          "0000-0003-0439-0141"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+          "Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Department of Neurological Surgery, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Vanderbilt Brain Institute, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Hodges, Emily",
+        "short_name": "Hodges E",
+        "identifiers": [
+          "0000-0001-6513-610X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+          "Vanderbilt-Ingram Cancer Center, Vanderbilt University Medical Center, Nashville, TN, USA.",
+          "Vanderbilt Genetics Institute, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 06:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39180406",
+      "38825692",
+      "37962376",
+      "37858046",
+      "37852782",
+      "37414790",
+      "37343149",
+      "36758546",
+      "36747096",
+      "36635504",
+      "36474180",
+      "36304318",
+      "36195648",
+      "35883107",
+      "35880121",
+      "35858748",
+      "34919053",
+      "34910928",
+      "34663963",
+      "34341337",
+      "34158086",
+      "33982010",
+      "33767446",
+      "32963030",
+      "32848148",
+      "32816922",
+      "32616006",
+      "32514123",
+      "32471981",
+      "32203468",
+      "32200796",
+      "32111830",
+      "31999955",
+      "31755929",
+      "31752933",
+      "31681843",
+      "31631012",
+      "31399642",
+      "31363131",
+      "31286885",
+      "31028100",
+      "30905509",
+      "30886108",
+      "30423086",
+      "30262495",
+      "29925314",
+      "29921301",
+      "29394393",
+      "29358654",
+      "29203910",
+      "28823558",
+      "28614722",
+      "28473536",
+      "28408905",
+      "27869616",
+      "27500631",
+      "27466624",
+      "27462416",
+      "27428748",
+      "27153539",
+      "27151458",
+      "27091986",
+      "26675734",
+      "26524525",
+      "26257180",
+      "26000487",
+      "25959817",
+      "25861082",
+      "25822089",
+      "25765347",
+      "25516281",
+      "25263596",
+      "25071199",
+      "24799436",
+      "24735881",
+      "24679523",
+      "24340069",
+      "24324667",
+      "24227677",
+      "24220273",
+      "23995138",
+      "23925113",
+      "23812591",
+      "23811145",
+      "23664764",
+      "23435259",
+      "23293284",
+      "23104886",
+      "22841485",
+      "22466171",
+      "22466170",
+      "22455463",
+      "22373907",
+      "22170606",
+      "21925323",
+      "21924933",
+      "21913084",
+      "21817016",
+      "21778364",
+      "21731508",
+      "21689397",
+      "21624812",
+      "21496894",
+      "21295276",
+      "20543139",
+      "20110278",
+      "19906716",
+      "19829295",
+      "19505943",
+      "19252484",
+      "15456861",
+      "15318244",
+      "7731802"
+    ],
+    "similar": [
+      "39253426",
+      "40349339",
+      "31999955",
+      "36758546",
+      "34273410",
+      "29807547",
+      "35132236",
+      "36698218",
+      "37294468",
+      "31391075",
+      "38124496",
+      "29394393",
+      "28448736",
+      "31746740",
+      "37069576",
+      "36945732",
+      "21233399",
+      "30220521",
+      "35976093",
+      "32142172",
+      "28732548",
+      "35246225",
+      "34919053",
+      "38056211",
+      "23811145",
+      "24191285",
+      "21415370",
+      "15070670",
+      "39662466",
+      "27869616",
+      "25587943",
+      "35133623",
+      "31053165",
+      "22491032",
+      "26843651",
+      "32912294",
+      "30861354",
+      "34607603",
+      "38702584",
+      "25984238",
+      "33491647",
+      "33191916",
+      "36539889",
+      "38020976",
+      "29747586",
+      "26392366",
+      "37557175",
+      "34997955",
+      "28536147",
+      "36071173",
+      "28621576",
+      "28784721",
+      "31126739",
+      "22956495",
+      "29141961",
+      "32442533",
+      "37373098",
+      "31291575",
+      "34513307",
+      "31136738",
+      "33182325",
+      "39572230",
+      "32533974",
+      "30341348",
+      "33516170",
+      "30659195",
+      "33293480",
+      "23417056",
+      "34716243",
+      "25263596",
+      "26928226",
+      "33636105",
+      "31827285",
+      "32106888",
+      "31722751",
+      "27833659",
+      "38154461",
+      "37857083",
+      "22730288",
+      "34910919",
+      "32052445",
+      "30962180",
+      "30626398",
+      "37949841",
+      "26818008",
+      "29358650",
+      "31519704",
+      "29284524",
+      "38735044",
+      "39820860",
+      "25362550",
+      "33770473",
+      "37090616",
+      "26982363",
+      "36705030",
+      "28356342",
+      "23585276",
+      "30598689",
+      "33098772",
+      "30948010"
+    ],
+    "review": [
+      "39253426",
+      "37294468",
+      "32142172",
+      "25587943",
+      "35133623",
+      "22491032",
+      "22956495",
+      "32052445",
+      "39820860",
+      "25362550"
+    ],
+    "pmc": [
+      "11383056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39253426/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.27.609789",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

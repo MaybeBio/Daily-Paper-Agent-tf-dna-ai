@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, figure legends not fully provided)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no assessment of figures or supplementary data beyond what is described
+- **Shared manuscript claim summary** The authors identify ZFP462 as a novel regulator of H3K9me2/3-mediated gene silencing that targets transposon-derived enhancers, recruits G9A/GLP to establish heterochromatin, restricts OCT4/SOX2 binding, and thereby prevents aberrant endoderm gene expression during neural differentiation; they link this mechanism to ZNF462-associated neurodevelopmental pathology
+- **Visible evidence base** Text descriptions of CRISPR screen, proteomics (LC-MS), ChIP-seq, ATAC-seq, RNA-seq, RT-qPCR, immunostaining, and differentiation assays; specific figure references are mentioned but figures themselves are not visible
+- **Missing materials affecting confidence** Figures, supplementary tables, and detailed data analysis outputs are not provided; exact genomic coordinates of ZFP462 binding sites, quantification of ChIP-seq/ATAC-seq changes, and statistical details of the CRISPR screen are not assessable
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially important finding: ZFP462, a previously uncharacterized zinc finger protein linked to a human neurodevelopmental syndrome, functions as a sequence-specific targeting factor for G9A/GLP-dependent heterochromatin at transposon-derived enhancers. The work combines a well-designed genetic screen with biochemical, genomic, and differentiation assays to support a mechanistic model. The central claims are largely supported by the described evidence, though several technical details and quantitative validations are not fully visible. The link to human disease is speculative but appropriately framed. The study is likely to be of broad interest to chromatin biologists, developmental biologists, and those studying transcriptional regulation and transposable element biology.
+- **Who would be interested in the results, and why** Chromatin and epigenetics researchers studying heterochromatin establishment and lineage specification; developmental biologists interested in cell fate decisions and pluripotency; researchers studying transposable element regulation and their co-option into gene regulatory networks; clinical geneticists and neurobiologists interested in the molecular basis of neurodevelopmental disorders such as Weiss-Kruszka syndrome
+- **Major strengths** 1) Identification of ZFP462 through an unbiased genetic screen with a clear, quantifiable phenotype; 2) Integration of multiple complementary approaches (proteomics, ChIP-seq, ATAC-seq, RNA-seq, differentiation assays) to build a mechanistic model; 3) The finding that a sequence-specific zinc finger protein directs G9A/GLP to TE-derived enhancers provides a novel paradigm for how broadly expressed histone methyltransferases achieve locus specificity; 4) The connection between a human disease gene and a defined molecular mechanism in early development is clinically relevant; 5) The discussion of TE co-option and species-specificity is thoughtful and appropriately nuanced
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ZFP462 binds to thousands of transposable elements (TEs) that harbor ESC- and endoderm-specific transcription factor (TF) binding sites and act as enhancers"
+  - **Evidence pointer** Figure 5, Extended Data Figure 6, location not provided
+  - **Concern** The manuscript claims that ZFP462 binds to thousands of TEs and that these TEs act as enhancers, but the evidence for enhancer activity is not clearly described. The text mentions H3K27ac ChIP-seq and ATAC-seq, but it is not clear whether these marks are present at ZFP462-bound TEs in wild-type cells, or whether the enhancer activity is demonstrated functionally (e.g., by reporter assays or eRNA detection). The distinction between "bearing enhancer marks" and "acting as enhancers" is important and not fully resolved in the text.
+  - **Why it matters** The central model depends on ZFP462-bound TEs functioning as bona fide enhancers whose activity is restricted by heterochromatin. If the enhancer activity is inferred only from chromatin marks, the claim is weaker than stated. Functional validation of enhancer activity at a subset of ZFP462-bound TEs would substantially strengthen the model.
+  - **Resolution test** Provide functional evidence (e.g., reporter assays, STARR-seq, or eRNA quantification) for enhancer activity at a representative set of ZFP462-bound TEs, and show that this activity is increased upon ZFP462 loss.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Loss of ZFP462 in ESCs results in increased chromatin accessibility at target sites and ectopic expression of endodermal genes"
+  - **Evidence pointer** Figure 6, Extended Data Figure 7-8, location not provided
+  - **Concern** The text states that ZFP462 loss leads to increased chromatin accessibility and ectopic endoderm gene expression, but the quantitative extent of these changes is not described. For a mechanism involving "restriction" of TF binding, it is important to know whether the increased accessibility is modest or dramatic, and whether the ectopic expression is sufficient to drive the observed differentiation phenotype. Additionally, the text does not clarify whether the increased accessibility is observed at all ZFP462-bound TEs or only a subset.
+  - **Why it matters** The model proposes that ZFP462 restricts TF binding to prevent endoderm gene activation. The magnitude and specificity of the chromatin accessibility changes are critical for assessing whether this is a primary mechanism or a secondary consequence of differentiation. Without quantitative details, the strength of the causal link is unclear.
+  - **Resolution test** Provide quantitative comparisons of ATAC-seq signal at ZFP462-bound TEs between WT and KO cells, and show that increased accessibility precedes or correlates with TF binding and gene expression changes. Clarify the proportion of ZFP462-bound TEs that show significant accessibility changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Our results suggest that aberrant activation of endodermal genes in the neuronal lineage underlies ZNF462-associated neurodevelopmental pathology"
+  - **Evidence pointer** Discussion, location not provided
+  - **Concern** The link between the mouse ESC findings and the human neurodevelopmental phenotype is speculative. The authors show that ZFP462 is important for neural differentiation in vitro, but they do not provide evidence that the specific mechanism (TE-derived enhancer derepression leading to endoderm gene activation) operates in human cells or in vivo. The species-specificity of the TEs involved is acknowledged, which further complicates the direct translation.
+  - **Why it matters** The disease relevance is a major motivation for the study. While the authors appropriately frame this as a hypothesis, the gap between the mouse ESC data and the human condition is substantial. Overstating the connection could mislead readers.
+  - **Resolution test** Provide evidence from human cells (e.g., ZNF462 knockdown in human ESCs or neural progenitors) or patient-derived material showing similar derepression of endoderm genes or TE-derived enhancers. Alternatively, temper the claim to clearly state this as a hypothesis requiring further testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "ZFP462 targets heterochromatin through sequence-specific recruitment of G9A/GLP"
+  - **Evidence pointer** Figure 5, Extended Data Figure 6, location not provided
+  - **Concern** The text demonstrates that ZFP462 interacts with G9A/GLP and that its loss reduces H3K9me2 at target sites. However, the sequence specificity of ZFP462 binding is not directly demonstrated. The manuscript does not describe identification of the ZFP462 DNA binding motif or show that ZFP462 binds DNA directly. The claim of "sequence-specific recruitment" implies a direct DNA-protein interaction that is not fully established.
+  - **Why it matters** The model proposes that ZFP462 provides sequence specificity to the broadly expressed G9A/GLP complex. If ZFP462 binding is indirect (e.g., via protein-protein interactions with other DNA-binding factors), the model would need revision. Direct evidence of sequence-specific DNA binding is important for the mechanistic claim.
+  - **Resolution test** Identify the ZFP462 binding motif (e.g., by ChIP-seq motif analysis or in vitro binding assays such as SELEX or protein-binding microarrays) and demonstrate that ZFP462 binds DNA directly with sequence specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "ZFP462 targets heterochromatin to transposon-derived enhancers" but does not mention the intermediate step of G9A/GLP recruitment. This oversimplification could be misleading.
+  - **Required correction** Consider revising to "ZFP462 recruits G9A/GLP to establish heterochromatin at transposon-derived enhancers" for accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods, location not provided
+  - **Issue** The CRISPR screen description lacks details on the number of biological replicates, the depth of sequencing, and the statistical thresholds used for hit calling beyond the MAGeCK reference.
+  - **Required correction** Provide additional details on screen parameters, including replicate numbers, sequencing depth, and specific MAGeCK parameters used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results
+  - **Evidence pointer** Figure 3, location not provided
+  - **Issue** The text mentions "~1800 genes" and "~1400 genes" differentially expressed in homozygous and heterozygous mutants, respectively, but does not specify the direction of change or the overlap between genotypes.
+  - **Required correction** Clarify the number of up- and downregulated genes for each genotype and describe the overlap to help readers understand the dose-dependent effects.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of TE co-option and species-specificity is interesting but could benefit from a more explicit statement about the limitations of using mouse TEs to model human disease.
+  - **Required correction** Add a sentence acknowledging that the species-specific nature of TE insertions limits direct extrapolation to human ZNF462 function.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (enhancer activity not functionally demonstrated), R1-M2 (quantitative extent of accessibility changes not described), R1-M4 (sequence-specific DNA binding not directly demonstrated)
+- **Assessment against Nature-style criteria** Originality: High. The identification of ZFP462 as a sequence-specific targeting factor for G9A/GLP at TE-derived enhancers is a novel finding that advances understanding of how broadly expressed chromatin modifiers achieve locus specificity. Scientific importance: High. The work links a human disease gene to a defined molecular mechanism in early development and provides insight into TE regulation and lineage specification. Interdisciplinary readership: Moderate to high. The findings will appeal to chromatin biologists, developmental biologists, and clinical geneticists, though the technical depth may limit accessibility for a general audience. Technical soundness: Generally strong, but several key claims require additional validation (see Major Concerns). Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with chromatin biology and genomic techniques; the abstract is accessible, but the main text may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is novel and potentially important, but the manuscript requires additional experimental validation to fully establish the mechanistic model, particularly regarding enhancer activity, quantitative accessibility changes, and direct DNA binding.
+
+## Risk / unsupported claims
+- The claim that ZFP462-bound TEs "act as enhancers" is not fully supported without functional enhancer assays.
+- The claim that "aberrant activation of endodermal genes in the neuronal lineage underlies ZNF462-associated neurodevelopmental pathology" is speculative and not directly tested in human cells or in vivo.
+- The claim of "sequence-specific recruitment" of G9A/GLP by ZFP462 is not fully supported without demonstration of direct, sequence-specific DNA binding.
+- The quantitative extent and specificity of chromatin accessibility changes upon ZFP462 loss are not described in sufficient detail to assess the strength of the effect.
+- The statement that ZFP462 "safeguards neural lineage specification" is supported by in vitro differentiation data, but the in vivo relevance is not demonstrated.

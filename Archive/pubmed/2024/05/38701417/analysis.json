@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38701417",
+  "title": "BERT-TFBS: a novel BERT-based model for predicting transcription factor binding sites by transfer learning.",
+  "authors": "Wang, Kai; Zeng, Xuan; Zhou, Jingwen; Liu, Fei; Luan, Xiaoli; Wang, Xinglong",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-05-03",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于DNABERT-2和CNN/CBAM的BERT-TFBS模型，通过迁移学习预测转录因子结合位点，属于TF-DNA互作位点预测的AI方法，但仅基于序列、未涉及三维结构或动态机制建模。",
+  "abstract": "Transcription factors (TFs) are proteins essential for regulating genetic transcriptions by binding to transcription factor binding sites (TFBSs) in DNA sequences. Accurate predictions of TFBSs can contribute to the design and construction of metabolic regulatory systems based on TFs. Although various deep-learning algorithms have been developed for predicting TFBSs, the prediction performance needs to be improved. This paper proposes a bidirectional encoder representations from transformers (BERT)-based model, called BERT-TFBS, to predict TFBSs solely based on DNA sequences. The model consists of a pre-trained BERT module (DNABERT-2), a convolutional neural network (CNN) module, a convolutional block attention module (CBAM) and an output module. The BERT-TFBS model utilizes the pre-trained DNABERT-2 module to acquire the complex long-term dependencies in DNA sequences through a transfer learning approach, and applies the CNN module and the CBAM to extract high-order local features. The proposed model is trained and tested based on 165 ENCODE ChIP-seq datasets. We conducted experiments with model variants, cross-cell-line validations and comparisons with other models. The experimental results demonstrate the effectiveness and generalization capability of BERT-TFBS in predicting TFBSs, and they show that the proposed model outperforms other deep-learning models. The source code for BERT-TFBS is available at https://github.com/ZX1998-12/BERT-TFBS.",
+  "abstract_zh": "转录因子（TFs）是蛋白质，通过结合DNA序列中的转录因子结合位点（TFBSs）来调控基因转录，对基因表达至关重要。准确预测TFBSs有助于基于转录因子设计和构建代谢调控系统。尽管已有多种深度学习算法用于预测TFBSs，但预测性能仍有待提升。本文提出了一种基于双向编码器表示（BERT）的模型，称为BERT-TFBS，仅基于DNA序列预测TFBSs。该模型由预训练的BERT模块（DNABERT-2）、卷积神经网络（CNN）模块、卷积块注意力模块（CBAM）和输出模块组成。BERT-TFBS模型利用预训练的DNABERT-2模块，通过迁移学习方法获取DNA序列中的复杂长期依赖关系，并应用CNN模块和CBAM提取高阶局部特征。该模型基于165个ENCODE ChIP-seq数据集进行训练和测试。我们进行了模型变体实验、跨细胞系验证以及与其他模型的比较。实验结果表明，BERT-TFBS在预测TFBSs方面具有有效性和泛化能力，并显示该模型优于其他深度学习模型。BERT-TFBS的源代码可在https://github.com/ZX1998-12/BERT-TFBS获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38701417/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38701417/",
+  "paper_page_path": "papers/pubmed/38701417/index.html"
+}

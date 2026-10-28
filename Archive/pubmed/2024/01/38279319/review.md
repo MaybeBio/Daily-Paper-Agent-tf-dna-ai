@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report a genome-wide in silico screen for Heat Shock Response Elements (HSEs) in *Entamoeba histolytica* promoters, identifying 2578 HSEs across 1967 genes. They characterize the sequence composition of six known HSEs, analyze their distribution and co-occurrence with core promoter elements, perform Gene Ontology analysis, and use molecular docking to predict binding of three EhHSTF DNA-binding domains (as homotrimers) to these HSEs. They conclude that HSE-mediated regulation extends beyond heat shock to essential cellular processes.
+- **Visible evidence base** Full text including abstract, introduction, results, discussion, materials and methods, and conclusions. Figures and tables are referenced but not fully visible. Supplementary materials are mentioned but not provided.
+- **Missing materials affecting confidence** Figures 1-9 and Tables 1-5 are referenced but not visible. Supplementary Tables S1-S10 and Figures S1-S4 are mentioned but not provided. This limits verification of quantitative results, docking scores, and detailed interaction data.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive in silico analysis of HSEs in *E. histolytica*. The genome-wide screen is potentially useful as a resource, and the docking analysis is a reasonable exploratory step. However, the study is largely confirmatory of known HSE biology and does not provide functional validation. The claims about regulatory significance are inferred from sequence presence and docking scores, which is a significant logical gap. The manuscript would benefit from clearer presentation of methods, particularly regarding the screening criteria and the docking protocol, and from tempering conclusions to match the descriptive nature of the evidence.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in *E. histolytica* and other protozoan parasites. The genome-wide catalogue of putative HSE-containing promoters could serve as a starting point for experimental studies. Those interested in the evolution of stress response pathways might also find the comparative aspects relevant.
+- **Major strengths**
+    1.  The genome-wide screen provides a comprehensive catalogue of putative HSEs, which is a useful resource for the community.
+    2.  The inclusion of multiple known HSEs and the construction of position weight matrices is a systematic approach.
+    3.  The integration of transcriptomic data from different stress conditions adds a layer of biological context.
+    4.  The structural modelling and docking, while preliminary, is a step towards understanding the molecular basis of HSE recognition.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical soundness
+        - **Claim pointer** The authors claim that 2578 HSEs were identified in promoter regions, with 1412 in hypothetical genes and 1166 in coding genes.
+        - **Evidence pointer** Section 2.1, Figure 1, Table 1
+        - **Concern** The screening methodology is not described with sufficient detail to be reproducible or to assess its validity. The authors state that six HSE sequences were searched using FIMO with a p-value threshold of 1e-4, but the exact search parameters, the definition of a "promoter region" (e.g., how the -500 to +50 bp window was defined relative to the ATG), and how overlapping or partial matches were handled are not specified. The discrepancy between the number of HSEs (2578) and the number of genes (1967) is mentioned but not fully explained. It is unclear if a single gene can have multiple HSEs and how this was accounted for in the analysis.
+        - **Why it matters** Without a clear and reproducible screening protocol, the core quantitative results of the paper cannot be independently verified. The validity of all downstream analyses (GO, docking, expression correlation) depends on the accuracy of this initial screen.
+        - **Resolution test** The authors must provide a detailed step-by-step description of the screening process, including the exact FIMO settings, the definition of a promoter, and the criteria for counting an HSE. They should also clarify the relationship between the number of HSEs and the number of genes, and provide a breakdown of how many genes have 1, 2, 3, 4, or 5 HSEs.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Support for conclusions
+        - **Claim pointer** The authors conclude that the six HSEs "can potentially be recognized by three of the seven EhHSTFs present in this parasite and regulate expression efficiently under various conditions."
+        - **Evidence pointer** Section 2.11, Figure 9, Section 3
+        - **Concern** The conclusion that these HSEs are functionally recognized by the EhHSTFs is based solely on in silico docking scores. Docking scores are not evidence of biological binding or transcriptional regulation. The authors do not provide any experimental validation, such as electrophoretic mobility shift assays (EMSAs), chromatin immunoprecipitation (ChIP), or reporter gene assays, to support this claim. The statement that regulation is "efficient" is entirely unsupported.
+        - **Why it matters** The central hypothesis of the paper is that these HSEs are functional regulatory elements. The current evidence is purely correlative and predictive. Overstating the significance of docking results as proof of biological function is a major logical flaw.
+        - **Resolution test** The authors must either (a) provide experimental evidence of binding and function, or (b) substantially temper their conclusions to state that the docking results are *predictive* and require experimental validation. The word "efficiently" should be removed.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Technical soundness
+        - **Claim pointer** The authors state that the 3D models of the EhHSTF DBDs were validated using Ramachandran analysis, Prosa-Web, ERRAT, and VERIFY 3D, and that the results indicate "excellent structural integrity."
+        - **Evidence pointer** Section 2.10, Figure 8
+        - **Concern** The validation metrics are mentioned but the actual values are not presented in the text. The authors state that 100% of residues are in allowed regions, but this is a very weak criterion. The ERRAT score of ~86-90 is moderate, not "excellent." More importantly, the template used is human HS1 DBD, and the sequence identity is only 40-50%. The manuscript does not discuss how this moderate sequence identity might affect the accuracy of the models and the subsequent docking results.
+        - **Why it matters** The reliability of the docking predictions is entirely dependent on the quality of the 3D models. If the models are not accurate, the docking results are meaningless. The authors need to provide a more critical assessment of their model quality and discuss the limitations.
+        - **Resolution test** The authors should provide a table with all validation scores (Ramachandran, ERRAT, VERIFY 3D, QMEAN, etc.) and discuss the implications of the moderate sequence identity with the template. They should also consider using a more stringent validation criterion.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Scientific importance
+        - **Claim pointer** The authors claim this is "the first comprehensive study of HSEs in the genome of *E. histolytica*."
+        - **Evidence pointer** Section 3
+        - **Concern** While this may be the first genome-wide screen, the novelty of the findings is limited. The existence of HSEs in *E. histolytica* was already known, and the finding that they are widespread is not surprising. The study is largely descriptive and does not provide new mechanistic insights into how HSEs function or how they are regulated. The GO analysis is superficial and does not reveal any unexpected biological pathways.
+        - **Why it matters** For a journal with a broad readership, the study needs to offer more than a descriptive catalogue. The lack of functional validation and the absence of novel mechanistic hypotheses limit its impact.
+        - **Resolution test** The authors should either provide a more in-depth analysis that generates testable hypotheses, or frame the manuscript more explicitly as a resource paper, which would be a more appropriate claim.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Abstract
+        - **Evidence pointer** Abstract
+        - **Issue** The abstract states "We discovered 2578 HSEs, with 1412 in promoters of hypothetical genes and 1166 in coding genes." The term "discovered" is too strong for an in silico screen. "Identified" or "predicted" would be more accurate.
+        - **Required correction** Change "discovered" to "identified" or "predicted."
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Reproducibility
+        - **Affected element** Methods
+        - **Evidence pointer** Section 4.1
+        - **Issue** The authors state that the search was conducted using FIMO, but do not provide the version of the *E. histolytica* genome assembly used, nor the source of the promoter sequences. This is essential for reproducibility.
+        - **Required correction** Specify the genome assembly version (e.g., AmoebaDB v60) and how the promoter sequences were extracted.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Data presentation
+        - **Affected element** Results
+        - **Evidence pointer** Section 2.1, Figure 1
+        - **Issue** The text mentions "Figure 1a" and "Figure 1b" but the figure is not visible. The authors should ensure that the figure clearly shows the breakdown of HSEs in hypothetical vs. coding genes and the percentage of genes with HSEs.
+        - **Required correction** Ensure the figure is self-explanatory and clearly labelled.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Data interpretation
+        - **Affected element** Results
+        - **Evidence pointer** Section 2.9, Figure 6
+        - **Issue** The authors state that genes with HSEs show "significantly higher expression levels" in transcriptomes, but the statistical test used is not described. It is unclear if this is a simple fold-change comparison or a proper statistical analysis.
+        - **Required correction** Describe the statistical methods used to compare expression levels between genes with and without HSEs.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Discussion
+        - **Evidence pointer** Section 3
+        - **Issue** The discussion is somewhat repetitive and does not clearly distinguish between the authors' findings and those of previous studies. The comparison with the *T. aestivum* study is brief and could be expanded.
+        - **Required correction** Streamline the discussion and more clearly highlight the novel aspects of this study.
+    - **R1-m6**
+        - **Severity** Minor
+        - **Axis** Language
+        - **Affected element** Throughout
+        - **Evidence pointer** Various
+        - **Issue** There are several instances of awkward phrasing and minor grammatical errors (e.g., "uisng" in Section 4.4, "Lausana, Suiza" in Section 4.5).
+        - **Required correction** The manuscript should be carefully proofread by a native English speaker.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1 (screening methodology)
+    - R1-M2 (overstated conclusions from docking)
+    - R1-M3 (model validation and limitations)
+- **Assessment against Nature-style criteria**
+    - **Originality** Moderate. The genome-wide screen is a new resource for *E. histolytica*, but the approach is standard and the findings are largely confirmatory of known HSE biology.
+    - **Scientific importance** Low to moderate. The study is descriptive and does not provide significant new mechanistic insights into gene regulation or stress response. The lack of functional validation limits its importance.
+    - **Interdisciplinary readership** Limited. The topic is of primary interest to parasitologists and molecular biologists studying *E. histolytica*. The methods and findings are unlikely to appeal to a broader readership.
+    - **Technical soundness** The screening and docking methods are standard, but the lack of detail in the screening protocol and the uncritical acceptance of docking results as evidence of function are significant weaknesses.
+    - **Readability for nonspecialists** The manuscript is generally readable but contains jargon and assumes familiarity with the field. The abstract is clear, but the results section is dense and would be difficult for a nonspecialist to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful resource, but the technical details of the core screen are insufficient, and the main conclusions are not supported by the evidence presented. Major revisions and experimental validation, or a significant reframing as a descriptive resource, are required before the case is established.
+
+## Risk / unsupported claims
+- The claim that the identified HSEs "regulate expression efficiently" is unsupported by the data, as no functional assays were performed.
+- The claim that the docking results demonstrate that the HSEs are "recognized" by the EhHSTFs is an overstatement of predictive in silico data.
+- The statement that the 3D models have "excellent structural integrity" is not fully supported by the moderate validation scores and the low-to-moderate sequence identity with the template.
+- The biological significance inferred from the GO analysis is speculative, as the analysis is purely descriptive and does not include any statistical enrichment testing.
+- The correlation between HSE presence and gene expression levels is presented without a clear statistical framework, making the strength of this association unclear.

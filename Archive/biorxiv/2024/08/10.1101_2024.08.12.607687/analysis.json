@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.12.607687",
+  "title": "DeepAge: Harnessing Deep Neural Network for Epigenetic Age Estimation From DNA Methylation Data of human blood samples",
+  "authors": "Sajib Acharjee Dip; Da Ma; Liqing Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-15",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从DNA甲基化数据预测生物学年龄，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Accurate prediction of biological age from DNA methylation data is a critical endeavor in understanding the molecular mechanisms of aging and developing age-related disease interventions. Traditional epigenetic clocks rely on linear regression or basic machine learning models, which often fail to capture the complex, non-linear interactions within methylation data. This study introduces DeepAge, a novel deep learning framework utilizing Temporal Convolutional Networks (TCNs) to enhance the prediction of biological age from DNA methylation profiles using selected CpGs by a Dual-Correlation based apparoach. DeepAge leverages a sequence-based approach with dilated convolutions to effectively capture long-range dependencies between CpG sites, addressing the limitations of prior models by incorporating advanced network architectures including residual connections and dropout regularization. The dual correlation feature selection enhances our model’s predictive capabilities by identifying the most age-relevant CpG sites. Our model outperforms existing epigenetic clocks across multiple datasets, offering significant improvements in accuracy and providing deeper insights into the epigenetic determinants of aging. The proposed method not only sets a new standard in age estimation but also highlights the potential of deep learning in biologically relevant feature extraction and interpretation, contributing to the broader field of computational biology and precision medicine.",
+  "abstract_zh": "从DNA甲基化数据准确预测生物学年龄是理解衰老分子机制和开发年龄相关疾病干预措施的关键工作。传统的表观遗传时钟依赖线性回归或基础机器学习模型，往往无法捕捉甲基化数据中复杂的非线性相互作用。本研究引入了DeepAge，一种新颖的深度学习框架，利用时间卷积网络（TCNs）通过基于双相关（Dual-Correlation）方法选择的CpG位点来增强从DNA甲基化谱预测生物学年龄的能力。DeepAge采用基于序列的方法，结合扩张卷积，有效捕捉CpG位点之间的长程依赖性，并通过引入残差连接和dropout正则化等先进网络架构，解决了先前模型的局限性。双相关特征选择通过识别最与年龄相关的CpG位点，增强了我们模型的预测能力。我们的模型在多个数据集上优于现有的表观遗传时钟，在准确性上提供了显著改进，并对衰老的表观遗传决定因素提供了更深入的见解。所提出的方法不仅在年龄估计方面树立了新标准，还突显了深度学习在生物学相关特征提取和解释中的潜力，为计算生物学和精准医学的更广泛领域做出了贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.12.607687",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.12.607687",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.12.607687/index.html"
+}

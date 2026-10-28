@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose reg-eQTL, a computational method that integrates transcription factor (TF) effects and TF-by-variant interactions into eQTL analysis. The method defines a trio of genetic variant, target gene, and TF, and tests the trio's impact on gene transcription. The authors claim improved power in simulations for detecting regulatory single-nucleotide variants (rSNVs) with low population frequency, weak effects, and synergistic TF interactions, relative to traditional eQTL methods. Application to GTEx data from lung, brain, and whole blood is reported to uncover regulatory trios, increase the number of eQTLs shared across tissue types, and enable construction of regulatory networks.
+- **Visible evidence base** Abstract text only; no simulation details, no GTEx analysis results, no figures, no tables, no statistical measures, no software availability statement
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters and results, GTEx data processing and quality control details, definition of "traditional eQTL methods" used for comparison, effect size and significance thresholds, validation analyses, code availability, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful conceptual extension of eQTL analysis by explicitly modeling TF effects and TF-by-variant interactions. The idea of testing variant-gene-TF trios is biologically motivated and could advance the field beyond standard variant-gene association testing. However, the abstract provides insufficient detail to evaluate the method's validity, performance, or novelty relative to existing approaches. Key technical elements, including the statistical model, the source of TF data, the handling of multiple testing, and the definition of "improved power," are not described. The claims of improved detection and increased sharing of eQTLs across tissues are not supported by any quantitative evidence in the supplied material. The manuscript may be of interest to statistical geneticists and researchers studying regulatory genomics, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Statistical geneticists and computational biologists working on eQTL mapping and fine-mapping would be interested in a method that incorporates TF information to prioritize causal regulatory variants. Researchers studying gene regulation across tissues, particularly those using GTEx data, would be interested in the reported cross-tissue regulatory networks. Clinically oriented geneticists seeking to interpret noncoding variants in disease-associated loci may also find the approach relevant if the method improves causal variant identification.
+- **Major strengths** The conceptual framing of a variant-gene-TF trio is a clear and biologically plausible extension of standard eQTL analysis. The focus on low-frequency variants and weak effects addresses a recognized limitation in eQTL studies. The application to multiple GTEx tissues and the construction of regulatory networks suggest a potentially broad utility. The abstract is clearly written and accessible to a nonspecialist reader.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The method "incorporates TF effects and interactions with genetic variants into eQTL analysis" and "tests its impact on gene transcription."  
+  - **Evidence pointer** Abstract, Summary section; location not provided  
+  - **Concern** The abstract does not describe the statistical model, the likelihood or test statistic used, how TF effects are parameterized, or how TF-by-variant interactions are modeled. Without this information, the technical validity of the method cannot be assessed.  
+  - **Why it matters** A computational method's core value depends on its statistical formulation. If the model is misspecified or the test is not calibrated, the reported improvements in power could be artifacts.  
+  - **Resolution test** Provide a full methods section with the model equation, parameter estimation procedure, hypothesis test, and null distribution. Include a statement on how type I error is controlled.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** "In comprehensive simulations, reg-eQTL shows improved power of detecting rSNVs with low population frequency, weak effects, and synergetic interaction with TF as compared to traditional eQTL methods."  
+  - **Evidence pointer** Abstract, Summary section; location not provided  
+  - **Concern** No simulation results are presented. There are no effect sizes, power curves, false discovery rates, or comparisons with named alternative methods. The term "traditional eQTL methods" is undefined.  
+  - **Why it matters** The central performance claim is unquantified. Without specific numbers and a defined comparator, the reader cannot judge whether the improvement is meaningful or statistically sound.  
+  - **Resolution test** Include simulation figures with power and type I error rates across allele frequencies, effect sizes, and interaction strengths, and specify the comparator methods and their versions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "Application of reg-eQTL to GTEx data from lung, brain, and whole-blood tissues uncovered regulatory trios that include eQTLs and increased the number of eQTLs shared across tissue types."  
+  - **Evidence pointer** Abstract, Summary section; location not provided  
+  - **Concern** No GTEx analysis results are shown. There is no description of sample sizes, tissue-specific eQTL counts, the number of trios identified, the definition of "shared," or the statistical significance thresholds used.  
+  - **Why it matters** The claim of increased cross-tissue sharing is a key biological finding, but without quantitative results and a clear definition of sharing, it cannot be evaluated or reproduced.  
+  - **Resolution test** Provide tables or figures with eQTL and trio counts per tissue, a definition of sharing, and a comparison with standard eQTL results from the same data.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** The method is presented as a new contribution that "provides deeper insights into the regulatory mechanisms" beyond existing eQTL methods.  
+  - **Evidence pointer** Abstract, Summary section; location not provided  
+  - **Concern** The abstract does not discuss prior work on integrating TF binding or chromatin data into eQTL analysis, such as methods using TF motif information, chromatin accessibility, or interaction models. The novelty relative to existing approaches is not established.  
+  - **Why it matters** If similar methods already exist, the contribution may be incremental. The authors need to position their work within the existing literature.  
+  - **Resolution test** Add a related work section that explicitly compares reg-eQTL with existing methods that incorporate TF or regulatory annotations, and state the specific novel contribution.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "regulatory single-nucleotide variants"  
+  - **Evidence pointer** Abstract, Summary section; location not provided  
+  - **Issue** The term "rSNVs" is used without a formal definition of how they are distinguished from other noncoding variants.  
+  - **Required correction** Define rSNVs explicitly, for example as variants that alter TF binding or chromatin state, and state how this definition is operationalized in the method.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Software and code availability  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No statement is made about the availability of the reg-eQTL software, scripts, or documentation.  
+  - **Required correction** Include a data and code availability statement in the manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Description of regulatory networks  
+  - **Evidence pointer** Abstract, Summary section; location not provided  
+  - **Issue** The claim that "regulatory networks constructed on the basis of these trios reveal intricate gene regulation across tissue types" is vague. No network properties or examples are given.  
+  - **Required correction** Provide a brief description of network construction and one or two illustrative findings, or refer to a specific figure.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical model not described), R1-M2 (simulation results not provided), R1-M3 (GTEx results not provided). These are blocking because the core claims of method validity, improved power, and biological utility cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - Originality: The trio concept is potentially original, but the abstract does not demonstrate novelty relative to existing TF-aware eQTL methods. Not established.  
+  - Scientific importance: If validated, the method could improve causal variant identification in noncoding regions, which is a significant problem in human genetics. The potential importance is high, but it is not demonstrated.  
+  - Interdisciplinary readership: The work bridges statistical genetics, regulatory genomics, and computational biology. The abstract is written accessibly, but the lack of technical detail limits its appeal to methodologists.  
+  - Technical soundness: Cannot be assessed from the abstract. The statistical model, simulation design, and data analysis are not described.  
+  - Readability for nonspecialists: The abstract is clear and concise, with minimal jargon. A nonspecialist can understand the motivation and the general approach.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, and the manuscript may be supportive if the full text provides a rigorous statistical framework, quantitative simulation results, and detailed GTEx analyses. The abstract alone does not provide sufficient evidence to support the claims.
+
+## Risk / unsupported claims
+- Improved power for detecting rSNVs with low frequency, weak effects, and synergistic TF interactions is claimed but not quantified.
+- The increase in the number of eQTLs shared across tissue types is claimed but not supported by any data.
+- The construction of regulatory networks revealing "intricate gene regulation" is stated without evidence.
+- The method's ability to bring "one step closer to identifying potential causal variants" is an interpretive claim that is not directly tested in the abstract.
+- The novelty of the method relative to existing TF-aware eQTL approaches is not established.

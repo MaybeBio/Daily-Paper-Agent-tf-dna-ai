@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33784978",
+  "title": "Machine learning predicts nucleosome binding modes of transcription factors.",
+  "authors": "Kishan, K C; Subramanya, Sridevi K; Li, Rui; Cui, Feng",
+  "journal": "BMC bioinformatics",
+  "published_date": "2021-04-01",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习基于TF蛋白序列预测TF与核小体的结合模式，虽非直接TF-DNA结合位点预测，但聚焦TF与染色质互作，方法可迁移至TF-DNA互作建模。",
+  "abstract": "BACKGROUND: Most transcription factors (TFs) compete with nucleosomes to gain access to their cognate binding sites. Recent studies have identified several TF-nucleosome interaction modes including end binding (EB), oriented binding, periodic binding, dyad binding, groove binding, and gyre spanning. However, there are substantial experimental challenges in measuring nucleosome binding modes for thousands of TFs in different species. RESULTS: We present a computational prediction of the binding modes based on TF protein sequences. With a nested cross-validation procedure, our model outperforms several fine-tuned off-the-shelf machine learning (ML) methods in the multi-label classification task. Our binary classifier for the EB mode performs better than these ML methods with the area under precision-recall curve achieving 75%. The end preference of most TFs is consistent with low nucleosome occupancy around their binding site in GM12878 cells. The nucleosome occupancy data is used as an alternative dataset to confirm the superiority of our EB classifier. CONCLUSIONS: We develop the first ML-based approach for efficient and comprehensive analysis of nucleosome binding modes of TFs.",
+  "abstract_zh": "背景：大多数转录因子（TFs）与核小体竞争以获取其同源结合位点的访问权。近期研究已识别出几种TF-核小体相互作用模式，包括末端结合（EB）、定向结合、周期性结合、二联体结合、沟槽结合及环状跨越。然而，在不同物种中测量数千种TFs的核小体结合模式面临重大实验挑战。结果：我们提出了一种基于TF蛋白质序列的结合模式计算预测方法。通过嵌套交叉验证程序，我们的模型在多标签分类任务中优于多种微调后的现成机器学习（ML）方法。针对EB模式的二元分类器性能优于这些ML方法，精确率-召回率曲线下面积达到75%。大多数TFs的末端偏好与GM12878细胞中其结合位点周围的低核小体占有率一致。核小体占有率数据被用作替代数据集，以确认我们EB分类器的优越性。结论：我们开发了首个基于ML的方法，用于高效且全面地分析TFs的核小体结合模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33784978/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33784978/",
+  "paper_page_path": "papers/pubmed/33784978/index.html"
+}

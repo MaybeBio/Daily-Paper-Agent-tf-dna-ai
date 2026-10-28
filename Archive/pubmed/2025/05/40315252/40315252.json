@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "40315252",
+    "doi": "10.1371/journal.pcbi.1012382",
+    "title": "Structural and mechanistic diversity in p53-mediated regulation of organismal longevity across taxonomical orders."
+  },
+  "content": {
+    "abstract": "The link between p53 tumor suppressive functions and organismal lifespan is multifaceted. Its DNA-repair mechanism is longevity-enhancing while its role in cellular senescence pathways induces pro-aging phenotypes. To understand how p53 may regulate organismal lifespan, cross-species genotype-phenotype (GP) studies of the p53 DNA-binding domain (DBD) have been used to assess the correlation of amino acid changes to lifespan. Amino acid changes in non-DNA-binding regions such as the transactivation (TAD), proline-rich (PRD), regulatory (REG), and tetramerization (TET) are largely unexplored. In addition, existing GP correlation tools such as SigniSite do not account for phylogenetic relationships between aligned sequences in correlating genotypic differences to phenotypes such as lifespan. To identify phylogenetically significant, longevity-correlated residues in full-length p53 alignments, we developed a Python- and R-based workflow, Relative Evolutionary Scoring (RES). While RES-predicted longevity-associated residues (RPLARs) are concentrated primarily in the DBD, the PRD, TET, and REG domains also house RPLARs. While yeast functional assay enrichment reveals that RPLARs may be dispensable for p53-mediated transactivation, PEPPI and Rosetta-based protein-protein interaction prediction suggests a role for RPLARs in p53 stability and interaction interfaces of tumor suppressive protein-protein complexes. With experimental validation of the RPLARs' roles in p53 stability, transactivation, and involvement in senescence-regulatory pathways, we can gain crucial insights into mechanisms underlying dysregulated tumor suppression and accelerated aging.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Longevity/genetics/physiology",
+      "*Tumor Suppressor Protein p53/chemistry/genetics/metabolism",
+      "Humans",
+      "Animals",
+      "Phylogeny",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Osbourne, Romani",
+        "Thayer, Kelly M"
+      ],
+      "short_names": [
+        "Osbourne R",
+        "Thayer KM"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-3947-7509"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology & Biochemistry, Wesleyan University, Middletown, Connecticut, United States of America.",
+        "College of Integrative Sciences, Wesleyan University, Middletown, Connecticut, United States of America.",
+        "College of Integrative Sciences, Wesleyan University, Middletown, Connecticut, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Osbourne, Romani",
+        "short_name": "Osbourne R",
+        "identifiers": [
+          "0009-0000-3947-7509"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology & Biochemistry, Wesleyan University, Middletown, Connecticut, United States of America.",
+          "College of Integrative Sciences, Wesleyan University, Middletown, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Thayer, Kelly M",
+        "short_name": "Thayer KM",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Sciences, Wesleyan University, Middletown, Connecticut, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/02 18:29",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39148776",
+      "38718835",
+      "37721103",
+      "37685308",
+      "36461907",
+      "35662463",
+      "34445220",
+      "31400201",
+      "30988205",
+      "30971692",
+      "30240210",
+      "29557783",
+      "29247016",
+      "29192902",
+      "29165669",
+      "28886379",
+      "28337243",
+      "27864306",
+      "27766851",
+      "27759037",
+      "24704832",
+      "24278755",
+      "23885265",
+      "23536448",
+      "23296650",
+      "22178617",
+      "21779512",
+      "20952436",
+      "20932800",
+      "20657661",
+      "20221446",
+      "19561590",
+      "18560357",
+      "18410248",
+      "16916457",
+      "16543937",
+      "15318951",
+      "14871929",
+      "14517281",
+      "12826609",
+      "12427745",
+      "10553904",
+      "9707426",
+      "9659898",
+      "8023157"
+    ],
+    "similar": [
+      "40315252",
+      "39149312",
+      "42475469",
+      "34445220",
+      "40258446",
+      "33268555",
+      "18260640",
+      "33443163",
+      "39578215",
+      "28597880",
+      "40425537",
+      "40464633",
+      "8986812",
+      "30420502",
+      "23968395",
+      "25668429",
+      "23416979",
+      "17158931",
+      "22484427",
+      "30907059",
+      "18216268",
+      "19913028",
+      "29775409",
+      "7559631",
+      "20457560",
+      "41548730",
+      "17903248",
+      "17942417",
+      "15247009",
+      "31834974",
+      "11423991",
+      "29557783",
+      "10777217",
+      "32873634",
+      "23296650",
+      "26742101",
+      "35481640",
+      "40064360",
+      "26454170",
+      "23243311",
+      "18996393",
+      "29192902",
+      "11697899",
+      "28007599",
+      "33984364",
+      "17677004",
+      "18714371",
+      "19132120",
+      "24722987",
+      "19220000",
+      "19718706",
+      "27590526",
+      "15170359",
+      "42320297",
+      "23316052",
+      "25569532",
+      "22917970",
+      "40690375",
+      "35887312",
+      "21457718",
+      "23267009",
+      "42324545",
+      "9707426",
+      "28560849",
+      "21565614",
+      "18187580",
+      "16294021",
+      "11571642",
+      "41832603",
+      "21423206",
+      "18391200",
+      "19424414",
+      "27091942",
+      "28774266",
+      "15969767",
+      "12615976",
+      "26081755",
+      "18061646",
+      "11313981",
+      "9466932",
+      "30099987",
+      "26976603",
+      "42089576",
+      "17242983",
+      "30988205",
+      "33672023",
+      "35314772",
+      "11359905",
+      "17924139",
+      "19602281",
+      "24586177",
+      "19357310",
+      "26477317",
+      "32448505",
+      "16968311",
+      "18155245",
+      "27546791",
+      "9257185",
+      "32873579",
+      "40382899"
+    ],
+    "review": [
+      "40315252",
+      "40258446",
+      "39578215",
+      "23416979",
+      "20457560",
+      "17942417",
+      "15247009",
+      "23296650",
+      "29192902",
+      "16294021",
+      "27091942",
+      "35314772",
+      "16968311"
+    ],
+    "pmc": [
+      "12068700"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012382",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40315252/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1170",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

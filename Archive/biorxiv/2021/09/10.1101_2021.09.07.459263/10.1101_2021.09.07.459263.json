@@ -1,0 +1,175 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.09.07.459263",
+  "title": "Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers",
+  "doi": "10.1101/2021.09.07.459263",
+  "abstract": "Cancer is a disease of gene dysregulation, where cells acquire somatic and epigenetic alterations that drive aberrant cellular signaling. These alterations adversely impact transcriptional programs and cause profound changes in gene expression. Interpreting somatic alterations within context-specific transcriptional programs will facilitate personalized therapeutic decisions but is a monumental task. Toward this goal, we develop a partially interpretable neural network model called C hromatin-informed I nference of T ranscriptional R egulators U sing S elf-attention mechanism (CITRUS). CITRUS models the impact of somatic alterations on transcription factors and downstream transcriptional programs. Our approach employs a self-attention mechanism to model the contextual impact of somatic alterations. Furthermore, CITRUS uses a layer of hidden nodes to explicitly represent the state of transcription factors (TFs) to learn the relationships between TFs and their target genes based on TF binding motifs in the open chromatin regions of tumor samples. We apply CITRUS to genomic, transcriptomic, and epigenomic data from 17 cancer types profiled by The Cancer Genome Atlas. CITRUS predicts patient-specific TF activities and reveals transcriptional program variations between and within tumor types. We show that CITRUS yields biological insights into delineating TFs associated with somatic alterations in individual tumors. Thus, CITRUS is a promising tool for precision oncology.",
+  "authors": [
+    "Tao Y",
+    "Ma X",
+    "Palmer D",
+    "Schwartz R",
+    "Lu X",
+    "Osmanbeyoglu HU"
+  ],
+  "published_date": "2021-09-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.09.07.459263",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.09.07.459263.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR392559",
+    "raw_record": {
+      "id": "PPR392559",
+      "source": "PPR",
+      "doi": "10.1101/2021.09.07.459263",
+      "title": "Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers",
+      "authorString": "Tao Y, Ma X, Palmer D, Schwartz R, Lu X, Osmanbeyoglu HU.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tao Y",
+            "lastName": "Tao",
+            "firstName": "Yifeng",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5076-0081"
+            }
+          },
+          {
+            "fullName": "Ma X",
+            "lastName": "Ma",
+            "firstName": "Xiaojun",
+            "initials": "X"
+          },
+          {
+            "fullName": "Palmer D",
+            "lastName": "Palmer",
+            "firstName": "Drake",
+            "initials": "D"
+          },
+          {
+            "fullName": "Schwartz R",
+            "lastName": "Schwartz",
+            "firstName": "Russell",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4970-2252"
+            }
+          },
+          {
+            "fullName": "Lu X",
+            "lastName": "Lu",
+            "firstName": "Xinghua",
+            "initials": "X"
+          },
+          {
+            "fullName": "Osmanbeyoglu HU",
+            "lastName": "Osmanbeyoglu",
+            "firstName": "Hatice Ulku",
+            "initials": "HU"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5076-0081"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9205-8258"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3175-1777"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4970-2252"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8974-9792"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Cancer is a disease of gene dysregulation, where cells acquire somatic and epigenetic alterations that drive aberrant cellular signaling. These alterations adversely impact transcriptional programs and cause profound changes in gene expression. Interpreting somatic alterations within context-specific transcriptional programs will facilitate personalized therapeutic decisions but is a monumental task. Toward this goal, we develop a partially interpretable neural network model called  C hromatin-informed  I nference of  T ranscriptional  R egulators  U sing  S elf-attention mechanism (CITRUS). CITRUS models the impact of somatic alterations on transcription factors and downstream transcriptional programs. Our approach employs a self-attention mechanism to model the contextual impact of somatic alterations. Furthermore, CITRUS uses a layer of hidden nodes to explicitly represent the state of transcription factors (TFs) to learn the relationships between TFs and their target genes based on TF binding motifs in the open chromatin regions of tumor samples. We apply CITRUS to genomic, transcriptomic, and epigenomic data from 17 cancer types profiled by The Cancer Genome Atlas. CITRUS predicts patient-specific TF activities and reveals transcriptional program variations between and within tumor types. We show that CITRUS yields biological insights into delineating TFs associated with somatic alterations in individual tumors. Thus, CITRUS is a promising tool for precision oncology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/11/30/2021.09.07.459263.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.09.07.459263"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36243974",
+            "reference": "Nucleic acids research. 2022 Oct;50(19):10869-10881",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-09-10",
+      "firstPublicationDate": "2021-09-09",
+      "firstIndexDate": "2021-09-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

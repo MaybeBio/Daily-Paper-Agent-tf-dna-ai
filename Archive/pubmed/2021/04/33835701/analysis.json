@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33835701",
+  "title": "CODEX, a neural network approach to explore signaling dynamics landscapes.",
+  "authors": "Jacques, Marc-Antoine; Dobrzynski, Maciej; Gagliardi, Paolo Armando; Sznitman, Raphael; Pertz, Olivier",
+  "journal": "Molecular systems biology",
+  "published_date": "2021-04-10",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用CNN分析细胞信号动态轨迹，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "Current studies of cell signaling dynamics that use live cell fluorescent biosensors routinely yield thousands of single-cell, heterogeneous, multi-dimensional trajectories. Typically, the extraction of relevant information from time series data relies on predefined, human-interpretable features. Without a priori knowledge of the system, the predefined features may fail to cover the entire spectrum of dynamics. Here we present CODEX, a data-driven approach based on convolutional neural networks (CNNs) that identifies patterns in time series. It does not require a priori information about the biological system and the insights into the data are built through explanations of the CNNs' predictions. CODEX provides several views of the data: visualization of all the single-cell trajectories in a low-dimensional space, identification of prototypic trajectories, and extraction of distinctive motifs. We demonstrate how CODEX can provide new insights into ERK and Akt signaling in response to various growth factors, and we recapitulate findings in p53 and TGFbeta-SMAD2 signaling.",
+  "abstract_zh": "当前利用活细胞荧光生物传感器进行的细胞信号动力学研究，通常会生成数千条单细胞、异质性、多维度的轨迹。通常，从时间序列数据中提取相关信息依赖于预定义的、人类可解释的特征。在没有系统先验知识的情况下，预定义特征可能无法覆盖全部动力学谱。在此，我们提出CODEX，一种基于卷积神经网络（CNNs）的数据驱动方法，用于识别时间序列中的模式。它不需要关于生物系统的先验信息，对数据的洞察通过解释CNNs的预测来构建。CODEX提供数据的多种视图：在低维空间中可视化所有单细胞轨迹、识别原型轨迹，以及提取独特基序。我们展示了CODEX如何为响应各种生长因子的ERK和Akt信号提供新见解，并重现了p53和TGFbeta-SMAD2信号中的发现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33835701/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33835701/",
+  "paper_page_path": "papers/pubmed/33835701/index.html"
+}

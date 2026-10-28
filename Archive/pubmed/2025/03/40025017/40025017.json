@@ -1,0 +1,692 @@
+{
+  "identity": {
+    "pmid": "40025017",
+    "doi": "10.1038/s41467-025-57283-x",
+    "title": "Multimodal histopathologic models stratify hormone receptor-positive early breast cancer."
+  },
+  "content": {
+    "abstract": "The Oncotype DX(R) Recurrence Score (RS) is an assay for hormone receptor-positive early breast cancer with extensively validated predictive and prognostic value. However, its cost and lag time have limited global adoption, and previous attempts to estimate it using clinicopathologic variables have had limited success. To address this, we assembled 6172 cases across three institutions and developed Orpheus, a multimodal deep learning tool to infer the RS from H&E whole-slide images. Our model identifies TAILORx high-risk cases (RS > 25) with an area under the curve (AUC) of 0.89, compared to a leading clinicopathologic nomogram with 0.73. Furthermore, in patients with RS </= 25, Orpheus ascertains risk of metastatic recurrence more accurately than the RS itself (0.75 vs 0.49 mean time-dependent AUC). These findings have the potential to guide adjuvant therapy for high-risk cases and tailor surveillance for patients at elevated metastatic recurrence risk.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/metabolism/genetics/diagnosis",
+      "Female",
+      "Neoplasm Recurrence, Local/pathology",
+      "Middle Aged",
+      "*Receptors, Estrogen/metabolism",
+      "Prognosis",
+      "Nomograms",
+      "*Receptors, Progesterone/metabolism",
+      "Adult",
+      "Aged",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Boehm, Kevin M",
+        "El Nahhas, Omar S M",
+        "Marra, Antonio",
+        "Waters, Michele",
+        "Jee, Justin",
+        "Braunstein, Lior",
+        "Schultz, Nikolaus",
+        "Selenica, Pier",
+        "Wen, Hannah Y",
+        "Weigelt, Britta",
+        "Paul, Evan D",
+        "Cekan, Pavol",
+        "Erber, Ramona",
+        "Loeffler, Chiara M L",
+        "Guerini-Rocco, Elena",
+        "Fusco, Nicola",
+        "Frascarelli, Chiara",
+        "Mane, Eltjona",
+        "Munzone, Elisabetta",
+        "Dellapasqua, Silvia",
+        "Zagami, Paola",
+        "Curigliano, Giuseppe",
+        "Razavi, Pedram",
+        "Reis-Filho, Jorge S",
+        "Pareja, Fresia",
+        "Chandarlapaty, Sarat",
+        "Shah, Sohrab P",
+        "Kather, Jakob Nikolas"
+      ],
+      "short_names": [
+        "Boehm KM",
+        "El Nahhas OSM",
+        "Marra A",
+        "Waters M",
+        "Jee J",
+        "Braunstein L",
+        "Schultz N",
+        "Selenica P",
+        "Wen HY",
+        "Weigelt B",
+        "Paul ED",
+        "Cekan P",
+        "Erber R",
+        "Loeffler CML",
+        "Guerini-Rocco E",
+        "Fusco N",
+        "Frascarelli C",
+        "Mane E",
+        "Munzone E",
+        "Dellapasqua S",
+        "Zagami P",
+        "Curigliano G",
+        "Razavi P",
+        "Reis-Filho JS",
+        "Pareja F",
+        "Chandarlapaty S",
+        "Shah SP",
+        "Kather JN"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2426-5436",
+        "ORCID: 0000-0002-2542-2117",
+        "ORCID: 0000-0002-7310-7824",
+        "ORCID: 0000-0002-5416-5172",
+        "ORCID: 0000-0001-9783-0139",
+        "ORCID: 0000-0002-0131-4904",
+        "ORCID: 0000-0001-9927-1270",
+        "ORCID: 0000-0001-8806-9958",
+        "ORCID: 0000-0003-0315-1229",
+        "ORCID: 0000-0003-3371-3878",
+        "ORCID: 0000-0002-2687-6436",
+        "ORCID: 0000-0003-1781-2518",
+        "ORCID: 0000-0003-4236-0576",
+        "ORCID: 0000-0003-3748-8049",
+        "ORCID: 0000-0003-4532-8053",
+        "ORCID: 0000-0001-6402-523X",
+        "ORCID: 0000-0002-3730-5348"
+      ],
+      "affiliations": [
+        "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+        "Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Else Kroener Fresenius Center for Digital Health, Medical Faculty Carl Gustav Carus, Technical University Dresden, Fetscherstrasse 74, 01307, Dresden, Germany.",
+        "StratifAI GmbH, Suite 14500 Grossenhainer Str. 98, 01127, Dresden, Germany.",
+        "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+        "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+        "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Marie-Josee and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "MultiplexDX, s.r.o., Ilkovicova 8, 841 04 Karlova Ves, Comenius University Science Park, Bratislava, Slovakia.",
+        "MultiplexDX, Inc., One Research Court Suite 450, Rockville, MD, 20850, USA.",
+        "MultiplexDX, s.r.o., Ilkovicova 8, 841 04 Karlova Ves, Comenius University Science Park, Bratislava, Slovakia.",
+        "MultiplexDX, Inc., One Research Court Suite 450, Rockville, MD, 20850, USA.",
+        "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universitat Erlangen-Nurnberg, Comprehensive Cancer Center Erlangen-EMN (CCC ER-EMN), Krankenhausstrasse 8-10, 91054, Erlangen, Germany.",
+        "Else Kroener Fresenius Center for Digital Health, Medical Faculty Carl Gustav Carus, Technical University Dresden, Fetscherstrasse 74, 01307, Dresden, Germany.",
+        "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy.",
+        "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy.",
+        "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy.",
+        "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Division of Medical Senology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Division of Medical Senology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy.",
+        "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+        "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "AstraZeneca, 1 MedImmune Way, Gaithersburg, MD, 20878, USA.",
+        "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+        "Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA. chandars@mskcc.org.",
+        "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA. chandars@mskcc.org.",
+        "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA. shahs3@mskcc.org.",
+        "Else Kroener Fresenius Center for Digital Health, Medical Faculty Carl Gustav Carus, Technical University Dresden, Fetscherstrasse 74, 01307, Dresden, Germany. jakob_nikolas.kather@tu-dresden.de.",
+        "Medical Oncology, National Center for Tumor Diseases (NCT), University Hospital Heidelberg, Im Neuenheimer Feld 460, 69120, Heidelberg, Germany. jakob_nikolas.kather@tu-dresden.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Boehm, Kevin M",
+        "short_name": "Boehm KM",
+        "identifiers": [
+          "0000-0003-2426-5436"
+        ],
+        "affiliations": [
+          "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+          "Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "El Nahhas, Omar S M",
+        "short_name": "El Nahhas OSM",
+        "identifiers": [
+          "0000-0002-2542-2117"
+        ],
+        "affiliations": [
+          "Else Kroener Fresenius Center for Digital Health, Medical Faculty Carl Gustav Carus, Technical University Dresden, Fetscherstraße 74, 01307, Dresden, Germany.",
+          "StratifAI GmbH, Suite 14500 Großenhainer Str. 98, 01127, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Marra, Antonio",
+        "short_name": "Marra A",
+        "identifiers": [
+          "0000-0002-7310-7824"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+          "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Waters, Michele",
+        "short_name": "Waters M",
+        "identifiers": [
+          "0000-0002-5416-5172"
+        ],
+        "affiliations": [
+          "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Jee, Justin",
+        "short_name": "Jee J",
+        "identifiers": [
+          "0000-0001-9783-0139"
+        ],
+        "affiliations": [
+          "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Braunstein, Lior",
+        "short_name": "Braunstein L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schultz, Nikolaus",
+        "short_name": "Schultz N",
+        "identifiers": [
+          "0000-0002-0131-4904"
+        ],
+        "affiliations": [
+          "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA.",
+          "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+          "Marie-Josée and Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Selenica, Pier",
+        "short_name": "Selenica P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Hannah Y",
+        "short_name": "Wen HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Weigelt, Britta",
+        "short_name": "Weigelt B",
+        "identifiers": [
+          "0000-0001-9927-1270"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Paul, Evan D",
+        "short_name": "Paul ED",
+        "identifiers": [],
+        "affiliations": [
+          "MultiplexDX, s.r.o., Ilkovičova 8, 841 04 Karlova Ves, Comenius University Science Park, Bratislava, Slovakia.",
+          "MultiplexDX, Inc., One Research Court Suite 450, Rockville, MD, 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Cekan, Pavol",
+        "short_name": "Cekan P",
+        "identifiers": [
+          "0000-0001-8806-9958"
+        ],
+        "affiliations": [
+          "MultiplexDX, s.r.o., Ilkovičova 8, 841 04 Karlova Ves, Comenius University Science Park, Bratislava, Slovakia.",
+          "MultiplexDX, Inc., One Research Court Suite 450, Rockville, MD, 20850, USA."
+        ]
+      },
+      {
+        "full_name": "Erber, Ramona",
+        "short_name": "Erber R",
+        "identifiers": [
+          "0000-0003-0315-1229"
+        ],
+        "affiliations": [
+          "Institute of Pathology, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Comprehensive Cancer Center Erlangen-EMN (CCC ER-EMN), Krankenhausstraße 8-10, 91054, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Loeffler, Chiara M L",
+        "short_name": "Loeffler CML",
+        "identifiers": [],
+        "affiliations": [
+          "Else Kroener Fresenius Center for Digital Health, Medical Faculty Carl Gustav Carus, Technical University Dresden, Fetscherstraße 74, 01307, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Guerini-Rocco, Elena",
+        "short_name": "Guerini-Rocco E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+          "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Fusco, Nicola",
+        "short_name": "Fusco N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+          "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Frascarelli, Chiara",
+        "short_name": "Frascarelli C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+          "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Mane, Eltjona",
+        "short_name": "Mane E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Munzone, Elisabetta",
+        "short_name": "Munzone E",
+        "identifiers": [
+          "0000-0003-3371-3878"
+        ],
+        "affiliations": [
+          "Division of Medical Senology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Dellapasqua, Silvia",
+        "short_name": "Dellapasqua S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Medical Senology, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Zagami, Paola",
+        "short_name": "Zagami P",
+        "identifiers": [
+          "0000-0002-2687-6436"
+        ],
+        "affiliations": [
+          "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+          "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Curigliano, Giuseppe",
+        "short_name": "Curigliano G",
+        "identifiers": [
+          "0000-0003-1781-2518"
+        ],
+        "affiliations": [
+          "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Via Giuseppe Ripamonti 435, 20141, Milan, Italy.",
+          "Department of Oncology and Haemato-Oncology, University of Milano, Via Festa del Perdono 7, 20122, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Razavi, Pedram",
+        "short_name": "Razavi P",
+        "identifiers": [
+          "0000-0003-4236-0576"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Reis-Filho, Jorge S",
+        "short_name": "Reis-Filho JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA.",
+          "AstraZeneca, 1 MedImmune Way, Gaithersburg, MD, 20878, USA."
+        ]
+      },
+      {
+        "full_name": "Pareja, Fresia",
+        "short_name": "Pareja F",
+        "identifiers": [
+          "0000-0003-3748-8049"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chandarlapaty, Sarat",
+        "short_name": "Chandarlapaty S",
+        "identifiers": [
+          "0000-0003-4532-8053"
+        ],
+        "affiliations": [
+          "Department of Medicine, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA. chandars@mskcc.org.",
+          "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, 1275 York Avenue, New York, NY, USA. chandars@mskcc.org."
+        ]
+      },
+      {
+        "full_name": "Shah, Sohrab P",
+        "short_name": "Shah SP",
+        "identifiers": [
+          "0000-0001-6402-523X"
+        ],
+        "affiliations": [
+          "Computational Oncology Service, Memorial Sloan Kettering Cancer Center, 323 E 61 St, New York, NY, USA. shahs3@mskcc.org."
+        ]
+      },
+      {
+        "full_name": "Kather, Jakob Nikolas",
+        "short_name": "Kather JN",
+        "identifiers": [
+          "0000-0002-3730-5348"
+        ],
+        "affiliations": [
+          "Else Kroener Fresenius Center for Digital Health, Medical Faculty Carl Gustav Carus, Technical University Dresden, Fetscherstraße 74, 01307, Dresden, Germany. jakob_nikolas.kather@tu-dresden.de.",
+          "Medical Oncology, National Center for Tumor Diseases (NCT), University Hospital Heidelberg, Im Neuenheimer Feld 460, 69120, Heidelberg, Germany. jakob_nikolas.kather@tu-dresden.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 00:57",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42699500",
+      "42695096",
+      "42467849",
+      "42358410",
+      "42273545",
+      "42161927",
+      "42115215",
+      "42078387",
+      "41930306",
+      "41922613",
+      "41877749",
+      "41831466",
+      "41668703",
+      "41545684",
+      "41484927",
+      "41425594",
+      "41417992",
+      "41402342",
+      "41228318",
+      "41204749",
+      "40720005",
+      "40661301",
+      "40593633",
+      "40179582",
+      "39922065",
+      "39279830"
+    ],
+    "refs": [
+      "39747865",
+      "39285224",
+      "38341402",
+      "38101773",
+      "37950941",
+      "37652006",
+      "37594871",
+      "37592105",
+      "37478035",
+      "37308117",
+      "37198173",
+      "37014891",
+      "36929936",
+      "36635302",
+      "36586496",
+      "36250028",
+      "36220072",
+      "36190501",
+      "35964620",
+      "35952419",
+      "35944502",
+      "35775006",
+      "35764743",
+      "35439025",
+      "35416089",
+      "35183227",
+      "35124720",
+      "34914339",
+      "34875674",
+      "34671078",
+      "34663944",
+      "34273666",
+      "33152284",
+      "32881987",
+      "32408905",
+      "32385567",
+      "32007170",
+      "31928404",
+      "31561183",
+      "31312795",
+      "31146185",
+      "29860917",
+      "29846122",
+      "29628290",
+      "29573739",
+      "28890946",
+      "28664507",
+      "28388943",
+      "28192639",
+      "27599752",
+      "26617205",
+      "26607490",
+      "25801821",
+      "23947965",
+      "23550210",
+      "23503643",
+      "20212256",
+      "20005174",
+      "16720680",
+      "15591335",
+      "2720055"
+    ],
+    "similar": [
+      "40025017",
+      "31522959",
+      "28243897",
+      "40116474",
+      "39020239",
+      "39579550",
+      "23701403",
+      "32565110",
+      "31146185",
+      "30384581",
+      "21043825",
+      "30796885",
+      "28960862",
+      "30456680",
+      "31152079",
+      "27209424",
+      "31748278",
+      "29959613",
+      "32170635",
+      "38451415",
+      "22016474",
+      "38955698",
+      "38741425",
+      "32592992",
+      "26340863",
+      "32385567",
+      "23505515",
+      "29728098",
+      "35119458",
+      "40148997",
+      "20873988",
+      "29304138",
+      "34425579",
+      "27252417",
+      "21537874",
+      "33360027",
+      "32951186",
+      "40025384",
+      "31342377",
+      "24903080",
+      "31429016",
+      "35947048",
+      "23643806",
+      "35334240",
+      "29236174",
+      "29230662",
+      "25129366",
+      "29968028",
+      "24081457",
+      "32799886",
+      "31287883",
+      "22418568",
+      "25218592",
+      "31026440",
+      "30570850",
+      "38971641",
+      "38131531",
+      "18809056",
+      "29128896",
+      "30094484",
+      "31889145",
+      "30852142",
+      "26926676",
+      "35426541",
+      "31619259",
+      "32346902",
+      "39365509",
+      "31511599",
+      "21297447",
+      "40014208",
+      "27526056",
+      "36269526",
+      "21369717",
+      "38135156",
+      "21221771",
+      "27998227",
+      "26385397",
+      "32291973",
+      "38922548",
+      "26808222",
+      "27362843",
+      "35084624",
+      "33593381",
+      "28647915",
+      "36631400",
+      "40220739",
+      "29679201",
+      "21410584",
+      "28120435",
+      "30230113",
+      "21934103",
+      "39041867",
+      "29128898",
+      "36320066",
+      "33245987",
+      "30396812",
+      "29502370",
+      "33601299",
+      "27216742",
+      "39621968"
+    ],
+    "review": [
+      "40025017",
+      "35426541",
+      "32346902"
+    ],
+    "pmc": [
+      "11873197"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1156778",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-57283-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40025017/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40025017",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

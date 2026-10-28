@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.24.568570",
+  "title": "Benchmarking active learning protocols for ligand binding affinity prediction",
+  "authors": "Rohan Gorantla; Alžbeta Kubincová; Benjamin Suutari; Benjamin P. Cossins; Antonia S. J. S. Mey",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-24",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文基准测试主动学习协议用于配体结合亲和力预测，聚焦小分子-蛋白质结合，而非蛋白质-DNA互作或TF-DNA体系，且无三维互作建模，仅方法评估，与本课题关联较弱。",
+  "abstract": "Active learning (AL) has become a powerful tool in computational drug discovery, enabling the identification of top binders from vast molecular libraries with reduced costs for relative binding free energy calculations and experiments. To design a robust AL protocol, it is important to understand the influence of AL parameters, as well as the features of the datasets on the outcomes. We use four affinity datasets for different targets (TYK2, USP7, D2R, Mpro) to systematically evaluate the performance of machine learning models (Gaussian Process model, Chemprop), sample selection protocols, as well as the batch size based on metrics describing the overall predictive power of the model (R2, Spearman rank, RMSE) as well as the accurate identification of top 2% / 5% binders (Recall, F1 score). Both models have a comparable Recall of top binders on large datasets, but the GP models surpass Chemprop when training data is sparse. A larger initial batch size, especially on diverse datasets, increased the Recall of both models as well as overall correlation metrics. However, for subsequent cycles, smaller batch sizes of 20 or 30 compounds proved to be desirable. Furthermore, the presence of Gaussian noise to the data, up to a certain threshold, still allowed the model to identify clusters with top-scoring compounds. However, excessive noise (<1 σ ) did impact the model’s predictive and exploitative capabilities. Abstract Figure TOC Graphic",
+  "abstract_zh": "主动学习（active learning, AL）已成为计算药物发现中的强大工具，能够以降低相对结合自由能计算和实验成本的方式，从庞大的分子库中识别出顶级结合物。为了设计稳健的AL协议，理解AL参数以及数据集特征对结果的影响至关重要。我们使用针对不同靶标（TYK2、USP7、D2R、Mpro）的四个亲和力数据集，系统评估了机器学习模型（高斯过程模型、Chemprop）、样本选择协议以及批次大小，基于描述模型整体预测能力的指标（R2、Spearman秩、RMSE）以及准确识别前2%/5%结合物的指标（召回率、F1分数）。两种模型在大数据集上的顶级结合物召回率相当，但在训练数据稀疏时，GP模型优于Chemprop。较大的初始批次大小，尤其是在多样化的数据集上，提高了两种模型的召回率以及整体相关性指标。然而，对于后续循环，较小的批次大小（20或30个化合物）被证明更为可取。此外，数据中存在的高斯噪声，在达到一定阈值之前，仍允许模型识别出具有最高评分化合物的簇。然而，过度噪声（<1 σ）确实影响了模型的预测和开发能力。摘要图形TOC图形。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.24.568570",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.24.568570",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.24.568570/index.html"
+}

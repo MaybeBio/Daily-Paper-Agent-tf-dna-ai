@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "39103447",
+    "doi": "10.1038/s41592-024-02372-w",
+    "title": "Geometric deep learning of protein-DNA binding specificity."
+  },
+  "content": {
+    "abstract": "Predicting protein-DNA binding specificity is a challenging yet essential task for understanding gene regulation. Protein-DNA complexes usually exhibit binding to a selected DNA target site, whereas a protein binds, with varying degrees of binding specificity, to a wide range of DNA sequences. This information is not directly accessible in a single structure. Here, to access this information, we present Deep Predictor of Binding Specificity (DeepPBS), a geometric deep-learning model designed to predict binding specificity from protein-DNA structure. DeepPBS can be applied to experimental or predicted structures. Interpretable protein heavy atom importance scores for interface residues can be extracted. When aggregated at the protein residue level, these scores are validated through mutagenesis experiments. Applied to designed proteins targeting specific DNA sequences, DeepPBS was demonstrated to predict experimentally measured binding specificity. DeepPBS offers a foundation for machine-aided studies that advance our understanding of molecular interactions and guide experimental designs and synthetic biology.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*DNA/metabolism/chemistry",
+      "*Protein Binding",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Binding Sites",
+      "Computational Biology/methods",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitra, Raktim",
+        "Li, Jinsen",
+        "Sagendorf, Jared M",
+        "Jiang, Yibei",
+        "Cohen, Ari S",
+        "Chiu, Tsu-Pei",
+        "Glasscock, Cameron J",
+        "Rohs, Remo"
+      ],
+      "short_names": [
+        "Mitra R",
+        "Li J",
+        "Sagendorf JM",
+        "Jiang Y",
+        "Cohen AS",
+        "Chiu TP",
+        "Glasscock CJ",
+        "Rohs R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1182-3742",
+        "ORCID: 0000-0002-1015-5263",
+        "ORCID: 0009-0002-9785-3343",
+        "ORCID: 0000-0002-2472-6557",
+        "ORCID: 0000-0003-1752-1884"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu.",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu.",
+        "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mitra, Raktim",
+        "short_name": "Mitra R",
+        "identifiers": [
+          "0000-0003-1182-3742"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Jinsen",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-1015-5263"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sagendorf, Jared M",
+        "short_name": "Sagendorf JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yibei",
+        "short_name": "Jiang Y",
+        "identifiers": [
+          "0009-0002-9785-3343"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cohen, Ari S",
+        "short_name": "Cohen AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chiu, Tsu-Pei",
+        "short_name": "Chiu TP",
+        "identifiers": [
+          "0000-0002-2472-6557"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Glasscock, Cameron J",
+        "short_name": "Glasscock CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Rohs, Remo",
+        "short_name": "Rohs R",
+        "identifiers": [
+          "0000-0003-1752-1884"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu.",
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu.",
+          "Thomas Lord Department of Computer Science, University of Southern California, Los Angeles, CA, USA. rohs@usc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature methods"
+    ],
+    "journal_abbrev": [
+      "Nat Methods"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/06 00:41",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42601415",
+      "42483831",
+      "42345194",
+      "42239281",
+      "42190813",
+      "42100742",
+      "41997213",
+      "41974676",
+      "41863075",
+      "41799016",
+      "41795653",
+      "41673757",
+      "41648021",
+      "41512166",
+      "41499513",
+      "41308636",
+      "41244683",
+      "41000976",
+      "40990245",
+      "40973456",
+      "40953017",
+      "40940539",
+      "40874594",
+      "40673435",
+      "40669207",
+      "40584171",
+      "40517177",
+      "40486971",
+      "40246927",
+      "40126909",
+      "40034369",
+      "39987793",
+      "39975040",
+      "39896490",
+      "39891349",
+      "39833102",
+      "39494533",
+      "39122959",
+      "38352411"
+    ],
+    "refs": [
+      "38744917",
+      "38718835",
+      "38452047",
+      "38336958",
+      "37996753",
+      "36727436",
+      "36702896",
+      "36656856",
+      "36124796",
+      "36123148",
+      "34954608",
+      "34850907",
+      "34502060",
+      "34282049",
+      "34265844",
+      "33575598",
+      "33125078",
+      "33087930",
+      "29140464",
+      "25835573",
+      "25775564",
+      "25593323",
+      "25129887",
+      "25045190",
+      "24097433",
+      "24078250",
+      "23986568",
+      "23402381",
+      "23332764",
+      "22868264",
+      "22689783",
+      "22153072",
+      "22110706",
+      "21572177",
+      "21522129",
+      "21343182",
+      "20691397",
+      "20450920",
+      "20364130",
+      "20334529",
+      "19997485",
+      "19865164",
+      "19736561",
+      "19410540",
+      "19265799",
+      "19008249",
+      "18585360",
+      "18410249",
+      "17981120",
+      "17498742",
+      "16793544",
+      "14739342",
+      "12553908",
+      "11741530",
+      "11479122",
+      "10592235",
+      "9927650",
+      "9665172",
+      "9422515",
+      "3419502",
+      "1062791",
+      "838065"
+    ],
+    "similar": [
+      "39103447",
+      "38293168",
+      "26527718",
+      "21787304",
+      "29536446",
+      "34905768",
+      "34415020",
+      "34073705",
+      "33837387",
+      "30598073",
+      "23703214",
+      "29608705",
+      "35652477",
+      "24448651",
+      "17316627",
+      "25756377",
+      "34073774",
+      "22868682",
+      "24334394",
+      "28155662",
+      "14654694",
+      "19439068",
+      "16712732",
+      "22312425",
+      "30106688",
+      "18829719",
+      "27384774",
+      "38630609",
+      "15751119",
+      "38871095",
+      "33372147",
+      "16246914",
+      "19343221",
+      "38990514",
+      "35597551",
+      "23790211",
+      "21689482",
+      "34418678",
+      "32960766",
+      "10090291",
+      "11800559",
+      "23335013",
+      "19594868",
+      "9581503",
+      "39304807",
+      "15673715",
+      "39107889",
+      "38830995",
+      "9006933",
+      "26336137",
+      "34932484",
+      "30020551",
+      "29040720",
+      "18922190",
+      "30933978",
+      "26384429",
+      "29253082",
+      "17900341",
+      "37254800",
+      "31372637",
+      "34571539",
+      "30602422",
+      "38336958",
+      "37072397",
+      "25775564",
+      "33232622",
+      "15613596",
+      "38491248",
+      "19389725",
+      "12217688",
+      "15340913",
+      "27282833",
+      "27740495",
+      "21601080",
+      "11080623",
+      "25521807",
+      "32142788",
+      "29753757",
+      "31186519",
+      "23788679",
+      "28541224",
+      "27730230",
+      "26357085",
+      "26285121",
+      "17038333",
+      "26776208",
+      "17264128",
+      "35637310",
+      "36576775",
+      "38975896",
+      "38747369",
+      "38979621",
+      "16738662",
+      "38316843",
+      "11913374",
+      "34526500",
+      "29993783",
+      "16426048",
+      "25443958",
+      "22693214"
+    ],
+    "review": [
+      "39103447",
+      "35652477",
+      "25756377",
+      "23790211",
+      "9581503",
+      "29253082"
+    ],
+    "pmc": [
+      "11399107"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41592-024-02372-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39103447/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://rebase.neb.com/rebase/refs/39818.html",
+        "provider": "REBASE - The Restriction Enzyme Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "REBASE ref# 39818"
+      }
+    ],
+    "text_mined": []
+  }
+}

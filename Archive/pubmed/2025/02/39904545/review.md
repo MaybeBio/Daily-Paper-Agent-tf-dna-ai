@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or data are available for evaluation
+- **Shared manuscript claim summary** The authors propose that GRF-INTERACTING FACTOR (GIF) coactivators stabilize the DNA binding of GROWTH-REGULATING FACTOR (GRF) transcription factors. They further suggest, based on biochemical experiments and AlphaFold-predicted structural models, that the GIF-binding domain in GRFs may partially restrict their own DNA binding through direct interaction with the DNA-binding domain in the absence of GIFs.
+- **Visible evidence base** Abstract text only; no experimental details, figures, tables, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical analyses, AlphaFold model details, experimental replicates, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis regarding the GRF:GIF module, which is relevant to plant developmental biology and biotechnology. However, the evidence base is entirely inaccessible from the supplied material. The central claim that GIFs stabilize GRF DNA binding is stated without quantitative or qualitative experimental support visible to the reviewer. The proposed autoinhibitory mechanism involving intramolecular interaction between the GIF-binding domain and the DNA-binding domain is speculative and rests on AlphaFold predictions that cannot be assessed. The abstract is written clearly but the scientific case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Plant molecular biologists studying transcription factor regulation, researchers working on growth-regulating factors in crop improvement, and scientists interested in plant-specific transcriptional coactivator mechanisms. The potential agricultural applications of manipulating the GRF:GIF module would also attract biotechnologists.
+- **Major strengths** The research question is well defined and addresses a gap in understanding the biochemical consequences of GIF binding to GRFs. The proposed mechanism is mechanistically plausible and testable. The potential translational relevance to agriculture is clearly stated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that GIFs stabilize the DNA binding of GRFs.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central claim of the abstract is that GIFs stabilize GRF DNA binding, but no experimental data are presented in the supplied material. The abstract mentions "a combination of biochemical experiments" without specifying the assays used, the quantitative results, or the statistical significance of the findings.
+  - **Why it matters** This is the primary conclusion of the study. Without visible experimental evidence, the claim cannot be evaluated for validity, reproducibility, or robustness. The term "stabilize" implies a kinetic or thermodynamic effect that requires specific experimental demonstration.
+  - **Resolution test** Provide the full methods and results sections showing the DNA binding assays (for example, electrophoretic mobility shift assays or surface plasmon resonance) with appropriate controls, replicates, and statistical analysis demonstrating that GIFs increase the stability or affinity of GRF DNA binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors propose that the GIF-binding domain in GRFs may partially restrict their own DNA binding through direct interaction with the DNA-binding domain in the absence of GIFs.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The proposed autoinhibitory mechanism is based on AlphaFold-predicted structural models. AlphaFold predictions are computational and require experimental validation, particularly for intramolecular interactions that may be transient or conformation-dependent. The abstract does not indicate whether any mutagenesis or biochemical validation of this interaction was performed.
+  - **Why it matters** The mechanism is a key part of the proposed model. If the intramolecular interaction is not experimentally validated, the model remains speculative and the interpretation of the stabilization effect could be incorrect.
+  - **Resolution test** Provide experimental evidence such as mutagenesis of the predicted interface, crosslinking, or biophysical assays demonstrating the intramolecular interaction and its functional relevance to DNA binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that GIFs stabilize the DNA binding of GRFs, implying a general phenomenon across the family.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how many GRF and GIF family members were tested. The GRF family is plant-specific and contains multiple members with potentially divergent biochemical properties. If only one or a few pairs were tested, the generalizability of the claim is limited.
+  - **Why it matters** The conclusion is framed as a general property of the GRF:GIF module. If the effect is specific to certain family members, the conclusion would need to be qualified.
+  - **Resolution test** Specify the number of GRF and GIF proteins tested and show that the stabilizing effect is observed across multiple representative family members.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "play crucial role" is grammatically incorrect and should be "play a crucial role" or "play crucial roles."
+  - **Required correction** Revise to "play crucial roles" or "play a crucial role" for grammatical accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, statement on AlphaFold models
+  - **Issue** The phrase "AlphaFold-predicted structural models" is vague. It is unclear whether these are full-length protein models, domain-level models, or complexes. The confidence of the predictions is not stated.
+  - **Required correction** Specify the type of models used and include confidence metrics such as predicted aligned error or pLDDT scores.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, statement on stabilization
+  - **Issue** The term "stabilize" is used without defining whether it refers to increased binding affinity, reduced dissociation rate, or increased protein stability. These are distinct biochemical phenomena.
+  - **Required correction** Clarify the specific meaning of "stabilize" in the context of the experiments performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claim of GIF-mediated stabilization of GRF DNA binding requires direct experimental evidence that is not visible in the supplied material. The proposed autoinhibitory mechanism requires experimental validation beyond computational prediction.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed mechanism of GIF-mediated stabilization of GRF DNA binding and the autoinhibitory model are potentially original, but the abstract does not provide enough context to assess novelty relative to existing literature.
+  - Scientific importance: The GRF:GIF module is important for plant development and has agricultural relevance. If the claims are substantiated, the findings would be of interest to the plant biology community.
+  - Interdisciplinary readership: The topic is primarily of interest to plant molecular biologists and biotechnologists. The broader interdisciplinary appeal is limited.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of visible methods and data prevents evaluation of experimental rigor.
+  - Readability for nonspecialists: The abstract is clearly written and accessible to a broad biological audience, though some domain-specific terminology is used.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the absence of experimental data and methodological details prevents any assessment of the validity of the claims. The manuscript would need to be reviewed in full to determine whether the evidence supports the conclusions.
+
+## Risk / unsupported claims
+- The claim that GIFs stabilize the DNA binding of GRFs is unsupported in the supplied material.
+- The proposed autoinhibitory mechanism involving intramolecular interaction between the GIF-binding domain and the DNA-binding domain is unsupported and speculative without experimental validation.
+- The generalizability of the findings across the GRF and GIF families is not assessable from the abstract.
+- The statement that the findings "provide a basis for strategies to manipulate this module for agricultural and biotechnological applications" is an extrapolation that is not supported by the evidence presented in the abstract.

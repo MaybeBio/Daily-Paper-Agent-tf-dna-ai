@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35191481",
+  "title": "seqgra: principled selection of neural network architectures for genomics prediction tasks.",
+  "authors": "Krismer, Konstantin; Hammelman, Jennifer; Gifford, David K",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-02-23",
+  "window": {
+    "start": "2022-02-21",
+    "end": "2022-02-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出seqgra深度学习流程，通过规则模拟生物序列数据来评估基因组预测任务（含转录因子结合）的神经网络架构，虽涉及TF-DNA结合预测但侧重架构选择而非互作机制建模，方法可迁移至本课题。",
+  "abstract": "MOTIVATION: Sequence models based on deep neural networks have achieved state-of-the-art performance on regulatory genomics prediction tasks, such as chromatin accessibility and transcription factor binding. But despite their high accuracy, their contributions to a mechanistic understanding of the biology of regulatory elements is often hindered by the complexity of the predictive model and thus poor interpretability of its decision boundaries. To address this, we introduce seqgra, a deep learning pipeline that incorporates the rule-based simulation of biological sequence data and the training and evaluation of models, whose decision boundaries mirror the rules from the simulation process. RESULTS: We show that seqgra can be used to (i) generate data under the assumption of a hypothesized model of genome regulation, (ii) identify neural network architectures capable of recovering the rules of said model and (iii) analyze a model's predictive performance as a function of training set size and the complexity of the rules behind the simulated data. AVAILABILITY AND IMPLEMENTATION: The source code of the seqgra package is hosted on GitHub (https://github.com/gifford-lab/seqgra). seqgra is a pip-installable Python package. Extensive documentation can be found at https://kkrismer.github.io/seqgra. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：基于深度神经网络的序列模型在调控基因组学预测任务（如染色质可及性和转录因子结合）中已达到最先进性能。然而，尽管其准确性高，它们对调控元件生物学机制理解的贡献常因预测模型的复杂性及其决策边界可解释性差而受阻。为解决此问题，我们引入seqgra，一个深度学习流程，它结合了基于规则的生物序列数据模拟以及模型的训练和评估，其决策边界反映模拟过程中的规则。结果：我们展示seqgra可用于（i）在假设的基因组调控模型下生成数据，（ii）识别能够恢复该模型规则的神经网络架构，以及（iii）分析模型预测性能随训练集大小和模拟数据背后规则复杂性的变化。可用性和实现：seqgra包的源代码托管在GitHub（https://github.com/gifford-lab/seqgra）。seqgra是一个可通过pip安装的Python包。详细文档可在https://kkrismer.github.io/seqgra找到。补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35191481/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35191481/",
+  "paper_page_path": "papers/pubmed/35191481/index.html"
+}

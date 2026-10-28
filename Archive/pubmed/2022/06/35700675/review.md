@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figures (referenced but not provided), and references (cited but not listed in full)
+- **Assessment boundary** Scientific content, logical coherence, evidence quality, and alignment with the stated scope of a review article in *Current Opinion in Plant Biology*
+- **Shared manuscript claim summary** The manuscript argues that tissue-specific gene expression in plants is poorly understood at a mechanistic level; that current experimental and computational methods can identify candidate cis-regulatory elements but often fail to establish sufficiency for tissue-specific expression; and that synthetic biology offers a promising bottom-up approach to test and engineer tissue-specific promoters, though significant technical and conceptual challenges remain.
+- **Visible evidence base** The manuscript cites numerous primary research articles and reviews, but the full reference list is not provided. Figures are referenced (Figures 1, 2, 3) but not included in the supplied material. Table 1 is referenced but not provided.
+- **Missing materials affecting confidence** Full reference list, all figures, and Table 1 are not available. This limits verification of specific claims about prior work, the accuracy of figure content, and the completeness of the computational tools and databases summarized in Table 1.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and clearly written review that addresses an important and timely topic: the molecular basis of tissue-specific gene expression in plants and the potential role of synthetic biology in deciphering and engineering it. The authors provide a logical progression from classical molecular genetics approaches to epigenetics, computational methods, and synthetic biology, and they highlight key gaps in current knowledge. The manuscript is likely to be of interest to plant molecular biologists, synthetic biologists, and computational biologists. However, the review is largely descriptive and does not critically evaluate the limitations of the cited studies in sufficient depth. The central claim that synthetic biology can help decipher tissue-specific expression is plausible but not fully developed, and the manuscript would benefit from a more explicit synthesis of how the different approaches (genetics, epigenetics, computation, synthetic biology) can be integrated. The absence of figures and Table 1 in the provided material limits a full assessment, but the text alone suggests a competent and useful review.
+- **Who would be interested in the results, and why** Plant molecular geneticists and developmental biologists interested in gene regulation and cell identity; synthetic biologists working on promoter engineering and genetic circuits; computational biologists developing predictive models of gene expression; and crop scientists interested in targeted manipulation of gene expression for trait improvement. The review provides a useful overview of current methods and highlights open questions, making it a good entry point for researchers new to the field.
+- **Major strengths** The manuscript is clearly organized and well written, with a logical flow from problem statement to methodological overview to future directions. The authors effectively summarize a broad range of techniques, from classical promoter bashing to single-cell approaches and machine learning, and they highlight important limitations of current methods, such as the failure of CRE stacking to always produce tissue-specific expression and the species-specific behavior of some elements. The discussion of synthetic biology, particularly the use of Boolean logic gates and the zebrafish example, is informative and provides concrete examples of what has been achieved and what remains challenging. The concluding remarks appropriately emphasize the need for high-throughput assays and predictive models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual synthesis
+  - **Claim pointer** The manuscript claims that synthetic biology can help decipher the molecular basis of tissue-specific gene expression, but the argument is not fully developed. The authors describe individual studies but do not provide a clear framework for how synthetic biology approaches can be systematically used to test hypotheses about promoter architecture and tissue specificity.
+  - **Evidence pointer** Sections "Synthetic biology approaches" and "Concluding remarks", location not provided
+  - **Concern** The review would be strengthened by a more explicit synthesis of how synthetic biology can be used to address the specific gaps identified earlier in the manuscript. For example, the authors note that CRE stacking does not always produce tissue-specific expression, but they do not discuss how synthetic biology could be used to systematically vary CRE combinations, spacing, or context to uncover the rules governing tissue specificity. A more detailed discussion of design principles, such as the use of minimal promoters, insulator elements, or chromatin-modulating domains, would help the reader understand the practical steps needed to move from candidate CREs to functional tissue-specific promoters.
+  - **Why it matters** The central thesis of the review is that synthetic biology can help decipher tissue-specific expression, but without a clear articulation of how this can be achieved, the manuscript risks being a summary of existing work rather than a forward-looking perspective. A more explicit framework would increase the impact and utility of the review.
+  - **Resolution test** The authors should add a section or expand the concluding remarks to outline a concrete workflow or set of design principles for using synthetic biology to test and engineer tissue-specific promoters, including how high-throughput assays and machine learning could be integrated into this workflow.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical evaluation of cited work
+  - **Claim pointer** The manuscript describes several studies as "groundbreaking" or "exciting" but does not critically evaluate their limitations or the generalizability of their findings.
+  - **Evidence pointer** Sections "Synthetic biology approaches" and "Computational methods", location not provided
+  - **Concern** For example, the Brophy et al. study is described as "groundbreaking," but the authors do not discuss potential limitations, such as the use of transient expression assays, the specificity of the synthetic DBDs, or the extent to which the logic gates function in stable transformants across different tissues and developmental stages. Similarly, the discussion of machine learning methods would benefit from a more critical assessment of the challenges of training models on limited or biased datasets, and the risk of overfitting.
+  - **Why it matters** A review that does not critically evaluate the evidence it presents is less useful to readers who need to assess the reliability and applicability of the described methods. A more balanced treatment would increase the credibility of the review.
+  - **Resolution test** The authors should add brief critical commentary on the limitations of key studies, including potential technical issues, the scope of validation, and the generalizability of findings across species or conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Integration of epigenetics and synthetic biology
+  - **Claim pointer** The manuscript discusses epigenetic mechanisms and synthetic biology in separate sections but does not adequately connect them, despite the stated importance of chromatin state for tissue-specific expression.
+  - **Evidence pointer** Sections "Epigenetic approaches" and "Synthetic biology approaches", location not provided
+  - **Concern** The authors note that chromatin accessibility and histone modifications are key determinants of tissue-specific expression, but they do not discuss how synthetic biology approaches could be used to manipulate or test the role of epigenetic state in promoter function. For example, could synthetic promoters be designed to recruit specific chromatin remodelers or histone modifiers? Could epigenetic editing be used to test the sufficiency of candidate CREs in a native chromatin context? These questions are not addressed.
+  - **Why it matters** The manuscript's stated goal is to understand the molecular basis of tissue-specific expression, which includes both transcription factor binding and epigenetic regulation. A more integrated discussion would provide a more complete picture and suggest novel experimental strategies.
+  - **Resolution test** The authors should add a paragraph or section that explicitly discusses how synthetic biology and epigenetic approaches could be combined, for example, by using synthetic transcription factors fused to epigenetic modifiers or by engineering promoters that respond to endogenous chromatin state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is somewhat dense and could be more accessible to a broad readership. The phrase "the general rules of nature driving promoter architecture" is vague and could be more specific.
+  - **Required correction** Consider rephrasing to something like "the general principles governing promoter architecture" and briefly specifying what these principles might be (e.g., CRE spacing, context, chromatin state).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** Table 1 is referenced but not provided. It presumably lists databases and tools, but the text does not describe the criteria for inclusion or how readers should use the table.
+  - **Required correction** Add a sentence in the text describing the scope of Table 1 and the criteria for inclusion of databases and tools.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section "Synthetic biology approaches"
+  - **Evidence pointer** Section "Synthetic biology approaches", location not provided
+  - **Issue** The term "bottom-up" is used to describe the construction of synthetic promoters from individual CREs, but this term is not defined in the context of this review. It may be unclear to readers unfamiliar with synthetic biology terminology.
+  - **Required correction** Define "bottom-up" and "top-down" approaches when first used, or provide a brief explanation of the distinction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Computational methods"
+  - **Evidence pointer** Section "Computational methods", location not provided
+  - **Issue** The section on computational methods is somewhat brief and could benefit from a more detailed explanation of how machine learning models are trained and validated, particularly for readers not familiar with these methods.
+  - **Required correction** Add a few sentences describing the general workflow of training a machine learning model for CRE prediction, including data sources, feature engineering, and validation strategies.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The manuscript is a review, and the technical claims are appropriately attributed to cited primary literature. However, the absence of figures and Table 1 limits verification of specific technical details.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript addresses a timely topic and offers a perspective that is not commonly found in the literature, namely the application of synthetic biology to understand tissue-specific expression. However, the core ideas are not entirely novel, as similar arguments have been made in other contexts. The originality lies in the specific focus on plants and the synthesis of recent work.
+  - **Scientific importance** The topic is important, as understanding tissue-specific gene regulation is fundamental to plant biology and has practical applications in crop improvement. The review highlights key gaps and suggests future directions, which is valuable.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to a broad readership, including molecular biologists, synthetic biologists, computational biologists, and crop scientists. The writing is generally accessible, though some sections may be dense for nonspecialists.
+  - **Technical soundness** The technical content appears sound based on the text, but the absence of figures and Table 1 limits full verification. The authors appropriately cite primary literature, and the descriptions of methods and studies are consistent with current knowledge.
+  - **Readability for nonspecialists** The manuscript is generally well written and accessible, but some sections, particularly the computational and synthetic biology parts, may be challenging for readers without a background in these areas. The authors could improve accessibility by defining key terms and providing more context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript is a competent and useful review, but it would benefit from a more explicit synthesis of how synthetic biology can be used to address the gaps in our understanding of tissue-specific expression, a more critical evaluation of cited studies, and a clearer integration of epigenetic and synthetic biology approaches. These changes would strengthen the manuscript and increase its impact.
+
+## Risk / unsupported claims
+- The claim that "synthetic biology shows great promise" for deciphering tissue-specific expression is plausible but not fully supported by the evidence presented, as the authors do not provide a detailed framework for how this can be achieved.
+- The claim that "little progress has been made to date in understanding plant promoter architecture from the perspective of tissue specificity" is stated without a systematic comparison of the literature, and the absence of a full reference list limits verification.
+- The description of the Brophy et al. study as "groundbreaking" is an editorial judgment that is not critically evaluated.
+- The statement that "the obvious limitation of the zebrafish study by Smith et al. is that the 6bp putative CREs are likely to harbor only half-sites for a majority of dimeric TFs" is speculative and not directly supported by evidence cited in the text.
+- The claim that "transient expression in protoplasts, tobacco leaf epidermis, or Arabidopsis seedlings is limited to only some tissues and is impractical for the types of work aiming to identify cell-specific elements" is presented as a general statement but may not apply to all experimental contexts.

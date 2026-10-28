@@ -1,0 +1,539 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.02.514835",
+  "title": "Subscaling of a cytosolic RNA binding protein governs cell size homeostasis in the multiple fission alga Chlamydomonas",
+  "doi": "10.1101/2022.11.02.514835",
+  "abstract": "Coordination of growth and division in eukaryotic cells is essential for populations of proliferating cells to maintain size homeostasis, but the underlying mechanisms that govern cell size have only been investigated in a few taxa. The green alga Chlamydomonas reinhardtii (Chlamydomonas) proliferates using a multiple fission cell cycle that involves a long G1 phase followed by a rapid series of successive S and M phases (S/M) that produces 2 n daughter cells. Two control points show cell-size dependence: Commitment in mid-G1 phase requires attainment of a minimum size to enable at least one mitotic division during S/M, and the S/M control point where mother cell size governs cell division number (n), ensuring that daughter distributions are uniform. tny1 mutants pass Commitment at a smaller size than wild type and undergo extra divisions during S/M phase to produce small daughters, indicating that TNY1 functions to inhibit size-dependent cell cycle progression. TNY1 encodes a cytosolic hnRNP A- related RNA binding protein and is produced once per cell cycle during S/M phase where it is apportioned to daughter cells, and then remains at constant absolute abundance as cells grow, a property known as subscaling (1). Altering the dosage of TNY1 in heterozygous diploids or through overexpression increased Commitment cell size and daughter cell size, indicating that TNY1 is a limiting factor for both size control checkpoints. Epistasis placed TNY1 function upstream of the retinoblastoma tumor suppressor complex (RBC) and one of its regulators, Cyclin-Dependent Kinase G1 (CDKG1) (2). Moreover, CDKG1 protein and mRNA were found to over-accumulate in tny1 cells suggesting that CDKG1 may be a direct target of repression by TNY1. Our data expand the potential roles of subscaling proteins outside the nucleus and imply a control mechanism that ties TNY1 accumulation to pre-division mother cell size. Author Summary Size control is a fundamental property of cells which requires balancing cell growth with cell division, but the mechanisms used by cells to achieve this balance are only partly understood. The best-characterized mechanisms for size control to date involve fixed amounts of nuclear- DNA-bound inhibitory factors which repress cell division until cells grow past a minimum size threshold to overcome the inhibition. The unicellular green alga Chlamydomonas and many other algae and protists use a non-canonical cell cycle where cells can grow by many-fold in size before dividing, and then undergo multiple fission which involves successive rapid divisions to produce a uniform-sized population of daughters. In Chlamydomonas an unknown size homeostasis mechanism couples mother cell size to division number such that larger mother cells divide more times than smaller mother cells. Here, we identified and characterized a key factor governing size control in Chlamydomonas, a cytoplasmic RNA-binding protein and division inhibitor, TNY1, that is produced in a fixed amount in daughter cells and does not increase with cell growth, a property called sub-scaling. We found that TNY1 represses production of a cell cycle activator, CDKG1, during multiple fission to control daughter cell size. TNY1 is the first example of a cytosolic cell cycle inhibitor that does not depend on nuclear DNA binding to govern sub-scaling.",
+  "authors": [
+    "Dianyi Liu",
+    "Cristina Lopez-Paz",
+    "Yubing Li",
+    "Xiaohong Zhuang",
+    "James G. Umen"
+  ],
+  "published_date": "2022-11-02",
+  "updated_date": "2022-11-02T16:15:11Z",
+  "journal": "bioRxiv",
+  "category": "Cell Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.02.514835",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.02.514835.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Cell Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cell Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            27
+          ]
+        ],
+        "date-time": "2026-03-27T16:11:24Z",
+        "timestamp": 1774627884456,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            2
+          ]
+        ]
+      },
+      "group-title": "Cell Biology",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Coordination of growth and division in eukaryotic cells is essential for populations of proliferating cells to maintain size homeostasis, but the underlying mechanisms that govern cell size have only been investigated in a few taxa. The green alga\n                  <jats:italic>Chlamydomonas reinhardtii</jats:italic>\n                  (Chlamydomonas) proliferates using a multiple fission cell cycle that involves a long G1 phase followed by a rapid series of successive S and M phases (S/M) that produces 2\n                  <jats:sup>n</jats:sup>\n                  daughter cells. Two control points show cell-size dependence: Commitment in mid-G1 phase requires attainment of a minimum size to enable at least one mitotic division during S/M, and the S/M control point where mother cell size governs cell division number (n), ensuring that daughter distributions are uniform.\n                  <jats:italic>tny1</jats:italic>\n                  mutants pass Commitment at a smaller size than wild type and undergo extra divisions during S/M phase to produce small daughters, indicating that TNY1 functions to inhibit size-dependent cell cycle progression.\n                  <jats:italic>TNY1</jats:italic>\n                  encodes a cytosolic hnRNP A- related RNA binding protein and is produced once per cell cycle during S/M phase where it is apportioned to daughter cells, and then remains at constant absolute abundance as cells grow, a property known as subscaling (1). Altering the dosage of\n                  <jats:italic>TNY1</jats:italic>\n                  in heterozygous diploids or through overexpression increased Commitment cell size and daughter cell size, indicating that TNY1 is a limiting factor for both size control checkpoints. Epistasis placed\n                  <jats:italic>TNY1</jats:italic>\n                  function upstream of the retinoblastoma tumor suppressor complex (RBC) and one of its regulators, Cyclin-Dependent Kinase G1 (CDKG1) (2). Moreover, CDKG1 protein and mRNA were found to over-accumulate in\n                  <jats:italic>tny1</jats:italic>\n                  cells suggesting that CDKG1 may be a direct target of repression by TNY1. Our data expand the potential roles of subscaling proteins outside the nucleus and imply a control mechanism that ties TNY1 accumulation to pre-division mother cell size.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>Size control is a fundamental property of cells which requires balancing cell growth with cell division, but the mechanisms used by cells to achieve this balance are only partly understood. The best-characterized mechanisms for size control to date involve fixed amounts of nuclear- DNA-bound inhibitory factors which repress cell division until cells grow past a minimum size threshold to overcome the inhibition. The unicellular green alga Chlamydomonas and many other algae and protists use a non-canonical cell cycle where cells can grow by many-fold in size before dividing, and then undergo multiple fission which involves successive rapid divisions to produce a uniform-sized population of daughters. In Chlamydomonas an unknown size homeostasis mechanism couples mother cell size to division number such that larger mother cells divide more times than smaller mother cells. Here, we identified and characterized a key factor governing size control in Chlamydomonas, a cytoplasmic RNA-binding protein and division inhibitor, TNY1, that is produced in a fixed amount in daughter cells and does not increase with cell growth, a property called sub-scaling. We found that TNY1 represses production of a cell cycle activator, CDKG1, during multiple fission to control daughter cell size. TNY1 is the first example of a cytosolic cell cycle inhibitor that does not depend on nuclear DNA binding to govern sub-scaling.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.11.02.514835",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2022-11-02T16:15:11Z",
+        "timestamp": 1667405711000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Subscaling of a cytosolic RNA binding protein governs cell size homeostasis in the multiple fission alga Chlamydomonas"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Dianyi",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Cristina",
+          "family": "Lopez-Paz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yubing",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaohong",
+          "family": "Zhuang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4094-9045",
+          "authenticated-orcid": false,
+          "given": "James G.",
+          "family": "Umen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2015.10.006"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li Y , Liu D , López-Paz C , Olson BJSC , Umen JG . A new class of cyclin dependent kinase in Chlamydomonas is required for coupling cell size to cell division. eLife. 2016;5:e10767.",
+          "DOI": "10.7554/eLife.10767"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a019083"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1016/j.coisb.2017.08.010",
+          "article-title": "Controlling cell size through sizer mechanisms",
+          "volume": "5",
+          "year": "2017",
+          "journal-title": "Current Opinion in Systems Biology"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-112618-043602"
+        },
+        {
+          "issue": "19",
+          "key": "2022110409500565000_2022.11.02.514835v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "R1127",
+          "DOI": "10.1016/j.cub.2021.08.031",
+          "article-title": "Cell-size control: Chromatin-based titration primes inhibitor dilution",
+          "volume": "31",
+          "year": "2021",
+          "journal-title": "Current Biology"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abb4348"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schmoller KM , Lanz MC , Kim J , Koivomagi M , Qu Y , Tang C , et al. Whi5 is diluted and protein synthesis does not dramatically increase in pre-Start G1. Molecular Biology of the Cell. 2022;33(5):lt1.",
+          "DOI": "10.1091/mbc.E21-01-0029"
+        },
+        {
+          "issue": "23",
+          "key": "2022110409500565000_2022.11.02.514835v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "4861",
+          "DOI": "10.1016/j.molcel.2021.10.007",
+          "article-title": "Transcriptional and chromatin-based partitioning mechanisms uncouple protein scaling from cell size",
+          "volume": "81",
+          "year": "2021",
+          "journal-title": "Molecular Cell"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz6213"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.12795"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2005.06.001"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "96",
+          "DOI": "10.1016/j.pbi.2018.08.003",
+          "article-title": "Sizing up the cell cycle: systems and quantitative approaches in Chlamydomonas",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Current Opinion in Plant Biology"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.892101"
+        },
+        {
+          "issue": "10",
+          "key": "2022110409500565000_2022.11.02.514835v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "e167",
+          "DOI": "10.1371/journal.pgen.0020167",
+          "article-title": "Cell size checkpoint control by the retinoblastoma tumor suppressor pathway",
+          "volume": "2",
+          "year": "2006",
+          "journal-title": "PLOS Genetics"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.110.076067"
+        },
+        {
+          "issue": "D1",
+          "key": "2022110409500565000_2022.11.02.514835v1.17",
+          "first-page": "D1178",
+          "article-title": "Phytozome: a comparative platform for green plant genomics",
+          "volume": "40",
+          "year": "2011",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0955-0674(99)80051-9"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.02.009"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1522866113"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.15.00498"
+        },
+        {
+          "issue": "6",
+          "key": "2022110409500565000_2022.11.02.514835v1.22",
+          "first-page": "201815238",
+          "article-title": "Multiomics resolution of molecular events during a day in the life of Chlamydomonas",
+          "volume": "116",
+          "year": "2019",
+          "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+        },
+        {
+          "issue": "8",
+          "key": "2022110409500565000_2022.11.02.514835v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "655",
+          "DOI": "10.1016/j.tcb.2022.05.003",
+          "article-title": "Mechanisms of cellular mRNA transcript homeostasis",
+          "volume": "32",
+          "year": "2022",
+          "journal-title": "Trends Cell Biol"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.24"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-1119(01)00616-3"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.108.088971"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-6380-5_7"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Einarson MB , Pugacheva EN , Orlinick JR . Preparation of GST Fusion Proteins. CSH Protoc. 2007;2007:pdb.prot4738.",
+          "DOI": "10.1101/pdb.prot4738"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14908"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006548"
+        },
+        {
+          "issue": "4",
+          "key": "2022110409500565000_2022.11.02.514835v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1469",
+          "DOI": "10.1093/genetics/157.4.1469",
+          "article-title": "Isolation and characterization of WHI3, a size-control gene of Saccharomyces cerevisiae",
+          "volume": "157",
+          "year": "2001",
+          "journal-title": "Genetics"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.203501"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7600022"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M804604200"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/bmc.2010.005"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-16-2728"
+        },
+        {
+          "issue": "Pt 7",
+          "key": "2022110409500565000_2022.11.02.514835v1.37",
+          "first-page": "1355",
+          "article-title": "Musashi: a translational regulator of cell fate",
+          "volume": "115",
+          "year": "2002",
+          "journal-title": "J Cell Sci"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.46.1.83"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Harris EH . 2 - Culture and Storage Methods. In: Harris EH , editor. The Chlamydomonas Sourcebook. San Diego: Academic Press; 1989. p. 25–63.",
+          "DOI": "10.1016/B978-0-12-326880-8.50007-9"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Harris EH . 10 - Genetic Analysis. In: Harris EH , editor. The Chlamydomonas Sourcebook. San Diego: Academic Press; 1989. p. 399–446.",
+          "DOI": "10.1016/B978-0-12-326880-8.50015-8"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.04.028"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.107.085977"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.54.6.1665"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.87.3.1228"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2007.425"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2144/000112556"
+        },
+        {
+          "issue": "4",
+          "key": "2022110409500565000_2022.11.02.514835v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "534",
+          "DOI": "10.2144/04374BM01",
+          "article-title": "PCR-based assay for mating type and diploidy in Chlamydomonas",
+          "volume": "37",
+          "year": "2004",
+          "journal-title": "Biotechniques"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv318"
+        },
+        {
+          "issue": "1",
+          "key": "2022110409500565000_2022.11.02.514835v1.49",
+          "first-page": "291",
+          "article-title": "ModelTest-NG: A New and Scalable Tool for the Selection of DNA and Protein Evolutionary Models",
+          "volume": "37",
+          "year": "2019",
+          "journal-title": "Molecular Biology and Evolution"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw256"
+        },
+        {
+          "key": "2022110409500565000_2022.11.02.514835v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-313X.1999.00526.x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.02.514835",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:49:16Z",
+        "timestamp": 1768448956000
+      },
+      "score": 85.97576,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.02.514835"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            2
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2022.11.02.514835",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pgen.1010503",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

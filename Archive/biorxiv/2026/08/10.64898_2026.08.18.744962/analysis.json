@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.18.744962",
+  "title": "SpY-C: Supervised Learning of Phosphopeptide Sequence Constraints Enables Global Prediction of SH2 Domain Binding",
+  "authors": "Alekhya Kandoor; Anny Carolline Silva Oliveira; Kazuya Machida; Blagoy Blagoev; Kristen M. Naegle",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-19",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用监督学习分类SH2结构域与磷酸化酪氨酸肽段的结合潜力，虽属蛋白-肽互作预测，但非TF-DNA体系且无三维互作建模，仅部分方法可借鉴。",
+  "abstract": "Tyrosine kinase signaling for cell development and homeostasis in multicelluar organisms and a major biochemical contribution is by driving interactions between phosphorylated tyrosines (pY) and SH2 domain containing proteins. This assembly is so important to driving cell outcomes that a wide variety of experimental and computational approaches have been used to understand which SH2-pY interactions occur, which still remains a challenge given the immensity (more than 45,000 pY and 120 SH2 domains in the human proteome). Based on biophysical constraints suggested by comprehensive contact mapping, here, we ask whether an approach might consider first asking if pY sequences conform to the shared rules of SH2 domain recognition by developing a classification approach that combines diverse training data. A wide range of validation suggests this approach, SpY-C, can classify pY sites as having the potential, or not, to be involved in SH2 domain interactions. We find that a relatively small set of representative SH2 binders, integrated from different experimental techniques, provides good classification. We use this classifier to annotate the human phosphoproteome and individual experiments, to explore the consequences of using super-SH2 domain reagents for pY enrichment, and to analyze the effects of mutations in altering pY site function. SpY-C provides a helpful step to more rapidly annotating pY function and for possibly improving machine learning approaches focused on specific SH2-pY interactions downstream of a first pass classification approach.",
+  "abstract_zh": "酪氨酸激酶信号传导在多细胞生物的细胞发育和稳态中起重要作用，其主要生化贡献在于驱动磷酸化酪氨酸（pY）与含SH2结构域蛋白之间的相互作用。这种组装对驱动细胞结局至关重要，因此已采用多种实验和计算方法来理解哪些SH2-pY相互作用发生，但由于人类蛋白质组中pY位点（超过45,000个）和SH2结构域（120个）的庞大数量，这仍然是一个挑战。基于全面接触图谱所提示的生物物理约束，我们在此探讨一种方法是否可以先通过开发结合多样化训练数据的分类策略，来询问pY序列是否符合SH2结构域识别的共享规则。广泛的验证表明，该方法SpY-C能够将pY位点分类为具有或不具有参与SH2结构域相互作用的潜力。我们发现，从不同实验技术整合而来的相对较小的代表性SH2结合物集合，能够提供良好的分类效果。我们利用该分类器注释人类磷酸化蛋白质组和单个实验，探索使用超SH2结构域试剂进行pY富集的后果，并分析突变对改变pY位点功能的影响。SpY-C为更快速地注释pY功能，以及可能改进针对第一轮分类方法下游特定SH2-pY相互作用的机器学习方法，提供了有益的一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.744962",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.744962",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.18.744962/index.html"
+}

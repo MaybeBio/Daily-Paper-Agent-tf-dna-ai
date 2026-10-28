@@ -1,0 +1,704 @@
+{
+  "identity": {
+    "pmid": "36706754",
+    "doi": "10.1016/j.xcrm.2023.100919",
+    "title": "Severe hematopoietic stem cell inflammation compromises chronic granulomatous disease gene therapy."
+  },
+  "content": {
+    "abstract": "X-linked chronic granulomatous disease (CGD) is associated with defective phagocytosis, life-threatening infections, and inflammatory complications. We performed a clinical trial of lentivirus-based gene therapy in four patients (NCT02757911). Two patients show stable engraftment and clinical benefits, whereas the other two have progressively lost gene-corrected cells. Single-cell transcriptomic analysis reveals a significantly lower frequency of hematopoietic stem cells (HSCs) in CGD patients, especially in the two patients with defective engraftment. These two present a profound change in HSC status, a high interferon score, and elevated myeloid progenitor frequency. We use elastic-net logistic regression to identify a set of 51 interferon genes and transcription factors that predict the failure of HSC engraftment. In one patient, an aberrant HSC state with elevated CEBPbeta expression drives HSC exhaustion, as demonstrated by low repopulation in a xenotransplantation model. Targeted treatments to protect HSCs, coupled to targeted gene expression screening, might improve clinical outcomes in CGD.",
+    "keywords": [
+      "chronic granulomatous disease",
+      "chronic inflammation",
+      "exhaustion",
+      "gene therapy",
+      "hematopoietic stem cells",
+      "inborn errors of immunity",
+      "machine learning",
+      "single-cell RNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Genetic Therapy/adverse effects",
+      "*Granulomatous Disease, Chronic/diagnosis/genetics/therapy",
+      "*Hematopoietic Stem Cell Transplantation",
+      "Hematopoietic Stem Cells/metabolism",
+      "Inflammation/metabolism",
+      "Interferons/metabolism"
+    ],
+    "pub_types": [
+      "Clinical Trial",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sobrino, Steicy",
+        "Magnani, Alessandra",
+        "Semeraro, Michaela",
+        "Martignetti, Loredana",
+        "Cortal, Akira",
+        "Denis, Adeline",
+        "Couzin, Chloe",
+        "Picard, Capucine",
+        "Bustamante, Jacinta",
+        "Magrin, Elisa",
+        "Joseph, Laure",
+        "Roudaut, Cecile",
+        "Gabrion, Aurelie",
+        "Soheili, Tayebeh",
+        "Cordier, Corinne",
+        "Lortholary, Olivier",
+        "Lefrere, Francois",
+        "Rieux-Laucat, Frederic",
+        "Casanova, Jean-Laurent",
+        "Bodard, Sylvain",
+        "Boddaert, Nathalie",
+        "Thrasher, Adrian J",
+        "Touzot, Fabien",
+        "Taque, Sophie",
+        "Suarez, Felipe",
+        "Marcais, Ambroise",
+        "Guilloux, Agathe",
+        "Lagresle-Peyrou, Chantal",
+        "Galy, Anne",
+        "Rausell, Antonio",
+        "Blanche, Stephane",
+        "Cavazzana, Marina",
+        "Six, Emmanuelle"
+      ],
+      "short_names": [
+        "Sobrino S",
+        "Magnani A",
+        "Semeraro M",
+        "Martignetti L",
+        "Cortal A",
+        "Denis A",
+        "Couzin C",
+        "Picard C",
+        "Bustamante J",
+        "Magrin E",
+        "Joseph L",
+        "Roudaut C",
+        "Gabrion A",
+        "Soheili T",
+        "Cordier C",
+        "Lortholary O",
+        "Lefrere F",
+        "Rieux-Laucat F",
+        "Casanova JL",
+        "Bodard S",
+        "Boddaert N",
+        "Thrasher AJ",
+        "Touzot F",
+        "Taque S",
+        "Suarez F",
+        "Marcais A",
+        "Guilloux A",
+        "Lagresle-Peyrou C",
+        "Galy A",
+        "Rausell A",
+        "Blanche S",
+        "Cavazzana M",
+        "Six E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Human Lymphohematopoiesis Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "Clinical Investigation Center CIC 1419, Necker-Enfants Malades Hospital, GH Paris Centre, Universite Paris Cite, AP-HP, Paris, France.",
+        "Clinical Bioinformatics Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Clinical Bioinformatics Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Human Lymphohematopoiesis Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "Study Center for Primary Immunodeficiencies, Necker-Enfants Malades Hospital, AP-HP, Universite Paris Cite, Paris, France; Lymphocyte Activation and Susceptibility to EBV Infection Laboratory, INSERM UMR 1163, Imagine Institute, Paris, France; Centre de References des Deficits Immunitaires Hereditaires (CEREDIH), Necker-Enfants Malades Hospital, AP-HP, Paris, France.",
+        "Study Center for Primary Immunodeficiencies, Necker-Enfants Malades Hospital, AP-HP, Universite Paris Cite, Paris, France; Human Genetics of Infectious Diseases Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France; St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, NY, USA.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "Human Lymphohematopoiesis Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Plateforme de Cytometrie en Flux, Structure Federative de Recherche Necker, INSERM US24-CNRS UAR3633, Paris, France.",
+        "Necker-Pasteur Center for Infectious Diseases and Tropical Medicine, Necker-Enfants Malades Hospital, AP-HP, Universite Paris Cite, Imagine Institute, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Department of Adult Hematology, Necker-Enfants Malades Hospital, AP-HP, Paris, France.",
+        "Immunogenetics of Pediatric Autoimmune Diseases Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France.",
+        "Human Genetics of Infectious Diseases Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France; St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, NY, USA.",
+        "Department of Adult Radiology, Necker Enfants-Malades Hospital, AP-HP, Universite Paris Cite, Paris, France; Laboratoire d'Imagerie Biomedicale, LIB, Sorbonne Universite, CNRS, INSERM, Paris, France.",
+        "Departement de Radiologie Pediatrique, INSERM UMR 1163 and UMR 1299, Imagine Institute, AP-HP, Necker-Enfants Malades Hospital, Paris, France.",
+        "UCL Great Ormond Street Institute of Child Health, London, UK; Great Ormond Street Hospital for Children NHS Foundation Trust, London, UK.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "CHU de Rennes, Departement de Pediatrie, Rennes, France.",
+        "Necker-Pasteur Center for Infectious Diseases and Tropical Medicine, Necker-Enfants Malades Hospital, AP-HP, Universite Paris Cite, Imagine Institute, Paris, France; Imagine Institute, Universite Paris Cite, Paris, France.",
+        "Necker-Pasteur Center for Infectious Diseases and Tropical Medicine, Necker-Enfants Malades Hospital, AP-HP, Universite Paris Cite, Imagine Institute, Paris, France.",
+        "Mathematics and Modelization Laboratory, CNRS, Universite Paris-Saclay, Universite d'Evry, Evry, France.",
+        "Human Lymphohematopoiesis Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France.",
+        "Genethon, Evry-Courcouronnes, France; Universite Paris-Saclay, University Evry, Inserm, Genethon (UMR_S951), Evry-Courcouronnes, France.",
+        "Clinical Bioinformatics Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France; Service de Medecine Genomique des Maladies Rares, AP-HP, Necker-Enfants Malades Hospital, Paris, France.",
+        "Department of Pediatric Immunology, Hematology, and Rheumatology, Necker-Enfants Malades Hospital, AP-HP, Paris, France.",
+        "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France; Imagine Institute, Universite Paris Cite, Paris, France. Electronic address: m.cavazzana@aphp.fr.",
+        "Human Lymphohematopoiesis Laboratory, Universite Paris Cite, Imagine Institute, INSERM UMR 1163, Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sobrino, Steicy",
+        "short_name": "Sobrino S",
+        "identifiers": [],
+        "affiliations": [
+          "Human Lymphohematopoiesis Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Magnani, Alessandra",
+        "short_name": "Magnani A",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Semeraro, Michaela",
+        "short_name": "Semeraro M",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Investigation Center CIC 1419, Necker-Enfants Malades Hospital, GH Paris Centre, Université Paris Cité, AP-HP, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Martignetti, Loredana",
+        "short_name": "Martignetti L",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Bioinformatics Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Cortal, Akira",
+        "short_name": "Cortal A",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Bioinformatics Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Denis, Adeline",
+        "short_name": "Denis A",
+        "identifiers": [],
+        "affiliations": [
+          "Human Lymphohematopoiesis Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Couzin, Chloé",
+        "short_name": "Couzin C",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Picard, Capucine",
+        "short_name": "Picard C",
+        "identifiers": [],
+        "affiliations": [
+          "Study Center for Primary Immunodeficiencies, Necker-Enfants Malades Hospital, AP-HP, Université Paris Cité, Paris, France; Lymphocyte Activation and Susceptibility to EBV Infection Laboratory, INSERM UMR 1163, Imagine Institute, Paris, France; Centre de Références des Déficits Immunitaires Héréditaires (CEREDIH), Necker-Enfants Malades Hospital, AP-HP, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bustamante, Jacinta",
+        "short_name": "Bustamante J",
+        "identifiers": [],
+        "affiliations": [
+          "Study Center for Primary Immunodeficiencies, Necker-Enfants Malades Hospital, AP-HP, Université Paris Cité, Paris, France; Human Genetics of Infectious Diseases Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France; St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Magrin, Elisa",
+        "short_name": "Magrin E",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Joseph, Laure",
+        "short_name": "Joseph L",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Roudaut, Cécile",
+        "short_name": "Roudaut C",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Gabrion, Aurélie",
+        "short_name": "Gabrion A",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Soheili, Tayebeh",
+        "short_name": "Soheili T",
+        "identifiers": [],
+        "affiliations": [
+          "Human Lymphohematopoiesis Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Cordier, Corinne",
+        "short_name": "Cordier C",
+        "identifiers": [],
+        "affiliations": [
+          "Plateforme de Cytométrie en Flux, Structure Fédérative de Recherche Necker, INSERM US24-CNRS UAR3633, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lortholary, Olivier",
+        "short_name": "Lortholary O",
+        "identifiers": [],
+        "affiliations": [
+          "Necker-Pasteur Center for Infectious Diseases and Tropical Medicine, Necker-Enfants Malades Hospital, AP-HP, Université Paris Cité, Imagine Institute, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lefrere, François",
+        "short_name": "Lefrere F",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Department of Adult Hematology, Necker-Enfants Malades Hospital, AP-HP, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Rieux-Laucat, Frédéric",
+        "short_name": "Rieux-Laucat F",
+        "identifiers": [],
+        "affiliations": [
+          "Immunogenetics of Pediatric Autoimmune Diseases Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Casanova, Jean-Laurent",
+        "short_name": "Casanova JL",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genetics of Infectious Diseases Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France; St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Bodard, Sylvain",
+        "short_name": "Bodard S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Adult Radiology, Necker Enfants-Malades Hospital, AP-HP, Université Paris Cité, Paris, France; Laboratoire d'Imagerie Biomédicale, LIB, Sorbonne Université, CNRS, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Boddaert, Nathalie",
+        "short_name": "Boddaert N",
+        "identifiers": [],
+        "affiliations": [
+          "Département de Radiologie Pédiatrique, INSERM UMR 1163 and UMR 1299, Imagine Institute, AP-HP, Necker-Enfants Malades Hospital, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Thrasher, Adrian J",
+        "short_name": "Thrasher AJ",
+        "identifiers": [],
+        "affiliations": [
+          "UCL Great Ormond Street Institute of Child Health, London, UK; Great Ormond Street Hospital for Children NHS Foundation Trust, London, UK."
+        ]
+      },
+      {
+        "full_name": "Touzot, Fabien",
+        "short_name": "Touzot F",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Taque, Sophie",
+        "short_name": "Taque S",
+        "identifiers": [],
+        "affiliations": [
+          "CHU de Rennes, Département de Pédiatrie, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Suarez, Felipe",
+        "short_name": "Suarez F",
+        "identifiers": [],
+        "affiliations": [
+          "Necker-Pasteur Center for Infectious Diseases and Tropical Medicine, Necker-Enfants Malades Hospital, AP-HP, Université Paris Cité, Imagine Institute, Paris, France; Imagine Institute, Université Paris Cité, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Marcais, Ambroise",
+        "short_name": "Marcais A",
+        "identifiers": [],
+        "affiliations": [
+          "Necker-Pasteur Center for Infectious Diseases and Tropical Medicine, Necker-Enfants Malades Hospital, AP-HP, Université Paris Cité, Imagine Institute, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Guilloux, Agathe",
+        "short_name": "Guilloux A",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematics and Modelization Laboratory, CNRS, Université Paris-Saclay, Université d'Evry, Evry, France."
+        ]
+      },
+      {
+        "full_name": "Lagresle-Peyrou, Chantal",
+        "short_name": "Lagresle-Peyrou C",
+        "identifiers": [],
+        "affiliations": [
+          "Human Lymphohematopoiesis Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Galy, Anne",
+        "short_name": "Galy A",
+        "identifiers": [],
+        "affiliations": [
+          "Genethon, Evry-Courcouronnes, France; Université Paris-Saclay, University Evry, Inserm, Genethon (UMR_S951), Evry-Courcouronnes, France."
+        ]
+      },
+      {
+        "full_name": "Rausell, Antonio",
+        "short_name": "Rausell A",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Bioinformatics Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France; Service de Médecine Génomique des Maladies Rares, AP-HP, Necker-Enfants Malades Hospital, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Blanche, Stephane",
+        "short_name": "Blanche S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Immunology, Hematology, and Rheumatology, Necker-Enfants Malades Hospital, AP-HP, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Cavazzana, Marina",
+        "short_name": "Cavazzana M",
+        "identifiers": [],
+        "affiliations": [
+          "Biotherapy Department, Necker-Enfants Malades Hospital, AP-HP, Paris, France; Biotherapy Clinical Investigation Center, Groupe Hospitalier Universitaire Ouest, AP-HP, INSERM, Paris, France; Imagine Institute, Université Paris Cité, Paris, France. Electronic address: m.cavazzana@aphp.fr."
+        ]
+      },
+      {
+        "full_name": "Six, Emmanuelle",
+        "short_name": "Six E",
+        "identifiers": [],
+        "affiliations": [
+          "Human Lymphohematopoiesis Laboratory, Université Paris Cité, Imagine Institute, INSERM UMR 1163, Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Medicine"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Med"
+    ],
+    "pub_date": "2023 Feb 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Clinical Trial",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/28 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "42637892",
+      "42629477",
+      "42460416",
+      "41358590",
+      "41257973",
+      "40952774",
+      "40943725",
+      "40169559",
+      "39844821",
+      "38862518",
+      "38701783",
+      "37980903",
+      "37846903",
+      "37732933",
+      "37275907",
+      "37220178",
+      "36865308"
+    ],
+    "refs": [
+      "35246744",
+      "35148846",
+      "34671122",
+      "34525349",
+      "33927417",
+      "33731850",
+      "33010230",
+      "33003308",
+      "32877590",
+      "32614953",
+      "32386557",
+      "32048120",
+      "31988463",
+      "31953710",
+      "31681257",
+      "31438843",
+      "30617341",
+      "30574147",
+      "30416070",
+      "30092289",
+      "29664709",
+      "29649002",
+      "29535429",
+      "28736216",
+      "28461481",
+      "28330619",
+      "28325279",
+      "28319093",
+      "27926863",
+      "27264973",
+      "27122128",
+      "27111842",
+      "26983962",
+      "26925094",
+      "26853280",
+      "26771021",
+      "26653891",
+      "25707806",
+      "25537876",
+      "25516281",
+      "25342713",
+      "24985400",
+      "24751955",
+      "24518205",
+      "24048477",
+      "23870668",
+      "23716674",
+      "22078471",
+      "21633090",
+      "21441445",
+      "21045810",
+      "20972332",
+      "20673987",
+      "20535209",
+      "20098431",
+      "19483695",
+      "19381301",
+      "19324903",
+      "19212321",
+      "17581586",
+      "16751774",
+      "16582916",
+      "16199517",
+      "15163413",
+      "11339891",
+      "9342375",
+      "8395250",
+      "7538527"
+    ],
+    "similar": [
+      "36706754",
+      "33003308",
+      "26853280",
+      "24869932",
+      "36274229",
+      "26680691",
+      "28264583",
+      "29168144",
+      "17584034",
+      "25748127",
+      "15335310",
+      "31988463",
+      "21195301",
+      "40796771",
+      "7517218",
+      "20978475",
+      "25245086",
+      "21045810",
+      "12393624",
+      "22365772",
+      "12201957",
+      "38309448",
+      "37620741",
+      "28752258",
+      "33010230",
+      "15528159",
+      "28077679",
+      "20008254",
+      "31693599",
+      "10234875",
+      "31208508",
+      "39413163",
+      "41466007",
+      "32524254",
+      "29135572",
+      "11045425",
+      "32849547",
+      "25394312",
+      "10695656",
+      "23826567",
+      "18034646",
+      "23390946",
+      "33717137",
+      "21497887",
+      "25981636",
+      "26950749",
+      "10695016",
+      "9057660",
+      "14583668",
+      "35842407",
+      "32643199",
+      "35033700",
+      "38290608",
+      "25264161",
+      "31111420",
+      "25288370",
+      "33740872",
+      "20493396",
+      "24557920",
+      "27622481",
+      "27701760",
+      "23566838",
+      "36646382",
+      "26943834",
+      "23727445",
+      "29746680",
+      "35140711",
+      "38927642",
+      "12829597",
+      "41046057",
+      "23937637",
+      "29664709",
+      "26781279",
+      "40383433",
+      "12393596",
+      "27753160",
+      "27885760",
+      "29746676",
+      "34939923",
+      "31066249",
+      "40090009",
+      "17728796",
+      "38905634",
+      "18217895",
+      "31626946",
+      "9694155",
+      "35771399",
+      "21878903",
+      "18640747",
+      "17941061",
+      "19965657",
+      "26865172",
+      "40259451",
+      "23870668",
+      "16582916",
+      "20813896",
+      "35531956",
+      "8395049",
+      "27299584",
+      "8547675"
+    ],
+    "review": [
+      "36706754",
+      "26680691",
+      "29168144",
+      "17584034",
+      "25748127",
+      "15335310",
+      "21195301",
+      "25245086",
+      "21045810",
+      "20008254",
+      "31693599",
+      "32524254",
+      "29135572",
+      "25394312",
+      "10695656",
+      "18034646",
+      "23390946",
+      "21497887",
+      "10695016",
+      "14583668",
+      "32643199",
+      "25264161",
+      "20493396",
+      "23566838",
+      "36646382",
+      "29746680",
+      "12393596",
+      "29746676",
+      "31066249",
+      "18217895",
+      "18640747"
+    ],
+    "pmc": [
+      "9975109"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3791(23)00004-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stemcells.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stem Cells"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36706754/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36706754",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-3791(23)00004-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36706754",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

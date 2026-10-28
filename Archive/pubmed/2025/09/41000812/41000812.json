@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "41000812",
+    "doi": "10.1101/2025.09.19.677475",
+    "title": "Predicting dynamic expression patterns in budding yeast with a fungal DNA language model."
+  },
+  "content": {
+    "abstract": "Predicting gene expression from DNA sequence remains challenging due to complex regulatory codes. We introduce a masked DNA language model pretrained on 165 fungal genomes closely related to budding yeast that captures conserved regulatory grammar. Fine-tuning the LM on yeast RNA-seq data-including high-resolution transcriptional regulator induction time courses generated in this study-yielded Shorkie, a model that substantially improves gene expression prediction compared to baselines trained without self-supervision. Shorkie identified canonical transcription factor (TF) binding motifs and tracked their usage across induction experiments. Furthermore, Shorkie accurately predicted variant effects, outperforming leading sequence-to-expression models in cis-eQTL classification and achieving high concordance with massively parallel reporter assays. Interpretability analyses revealed Shorkie's ability to resolve promoter dynamics, splicing signals, and temporal changes in regulatory motif usage. This framework demonstrates that evolutionary-scale pretraining combined with transfer learning substantially improves our ability to decode gene regulation from sequence, providing insights into noncoding variants and regulatory networks.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chao, Kuan-Hao",
+        "Magzoub, Majed Mohamed",
+        "Stoops, Emily",
+        "Hackett, Sean",
+        "Linder, Johannes",
+        "Kelley, David R"
+      ],
+      "short_names": [
+        "Chao KH",
+        "Magzoub MM",
+        "Stoops E",
+        "Hackett S",
+        "Linder J",
+        "Kelley DR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0099-0692",
+        "ORCID: 0000-0001-9455-8221",
+        "ORCID: 0000-0002-8620-1916",
+        "ORCID: 0000-0002-9553-4341",
+        "ORCID: 0000-0001-7782-3548"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Center for Computational Biology, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Calico Life Sciences LLC, South San Francisco, CA 94080, USA.",
+        "Calico Life Sciences LLC, South San Francisco, CA 94080, USA.",
+        "Calico Life Sciences LLC, South San Francisco, CA 94080, USA.",
+        "Calico Life Sciences LLC, South San Francisco, CA 94080, USA.",
+        "Calico Life Sciences LLC, South San Francisco, CA 94080, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chao, Kuan-Hao",
+        "short_name": "Chao KH",
+        "identifiers": [
+          "0000-0003-0099-0692"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Johns Hopkins University, Baltimore, MD 21218, USA.",
+          "Center for Computational Biology, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Magzoub, Majed Mohamed",
+        "short_name": "Magzoub MM",
+        "identifiers": [
+          "0000-0001-9455-8221"
+        ],
+        "affiliations": [
+          "Calico Life Sciences LLC, South San Francisco, CA 94080, USA."
+        ]
+      },
+      {
+        "full_name": "Stoops, Emily",
+        "short_name": "Stoops E",
+        "identifiers": [
+          "0000-0002-8620-1916"
+        ],
+        "affiliations": [
+          "Calico Life Sciences LLC, South San Francisco, CA 94080, USA."
+        ]
+      },
+      {
+        "full_name": "Hackett, Sean",
+        "short_name": "Hackett S",
+        "identifiers": [
+          "0000-0002-9553-4341"
+        ],
+        "affiliations": [
+          "Calico Life Sciences LLC, South San Francisco, CA 94080, USA."
+        ]
+      },
+      {
+        "full_name": "Linder, Johannes",
+        "short_name": "Linder J",
+        "identifiers": [],
+        "affiliations": [
+          "Calico Life Sciences LLC, South San Francisco, CA 94080, USA."
+        ]
+      },
+      {
+        "full_name": "Kelley, David R",
+        "short_name": "Kelley DR",
+        "identifiers": [
+          "0000-0001-7782-3548"
+        ],
+        "affiliations": [
+          "Calico Life Sciences LLC, South San Francisco, CA 94080, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 06:31",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39818825",
+      "39609566",
+      "39541441",
+      "39530598",
+      "38778243",
+      "38613393",
+      "38566111",
+      "37909046",
+      "37883436",
+      "37235661",
+      "36927031",
+      "36702895",
+      "36562559",
+      "35264797",
+      "35190730",
+      "34608324",
+      "34570750",
+      "34096681",
+      "33692541",
+      "33538820",
+      "33436076",
+      "32300014",
+      "32181581",
+      "31792407",
+      "31373614",
+      "30415838",
+      "29750242",
+      "29643504",
+      "29373581",
+      "29233850",
+      "28079019",
+      "27396326",
+      "27323842",
+      "26921390",
+      "26490019",
+      "26385964",
+      "26059717",
+      "25801168",
+      "25751057",
+      "24170807",
+      "23203985",
+      "23104886",
+      "22609971",
+      "22308403",
+      "22153082",
+      "22102575",
+      "21329885",
+      "21115740",
+      "20110278",
+      "19940020",
+      "19505943",
+      "19487574",
+      "19458158",
+      "19124666",
+      "18842628",
+      "18816399",
+      "18655704",
+      "18552845",
+      "17570669",
+      "17130146",
+      "17050570",
+      "16581789",
+      "16544271",
+      "15966770",
+      "15961478",
+      "15692568",
+      "15620355",
+      "15616569",
+      "15616568",
+      "15466158",
+      "15343339",
+      "15084257",
+      "14759262",
+      "12399584",
+      "12150908",
+      "12089449",
+      "11932772",
+      "11179418",
+      "11102521",
+      "10698627",
+      "10542411",
+      "10487868",
+      "9171357",
+      "9003326",
+      "8668157",
+      "8641288",
+      "7809947",
+      "3552247",
+      "3525846",
+      "2172928"
+    ],
+    "similar": [
+      "41000812",
+      "41282136",
+      "42475469",
+      "42635208",
+      "41022589",
+      "31206543",
+      "35435921",
+      "42234579",
+      "39779956",
+      "41676719",
+      "26291518",
+      "41920894",
+      "42492189",
+      "42487110",
+      "40841702",
+      "38517697",
+      "29654070",
+      "40465350",
+      "19943917",
+      "33179598",
+      "22189060",
+      "41544987",
+      "39829783",
+      "23512712",
+      "32043966",
+      "42140663",
+      "31053165",
+      "37214836",
+      "42448854",
+      "25887857",
+      "15890068",
+      "19008939",
+      "41801512",
+      "42478686",
+      "31871587",
+      "26279577",
+      "42395544",
+      "23303791",
+      "33137083",
+      "23619145",
+      "41278993",
+      "41639451",
+      "19158363",
+      "15113405",
+      "40791531",
+      "34650237",
+      "42413033",
+      "40489624",
+      "34486522",
+      "41318386",
+      "41952336",
+      "15262804",
+      "41618434",
+      "17964271",
+      "27567672",
+      "38566111",
+      "39705007",
+      "42242678",
+      "37889080",
+      "37528982",
+      "18193940",
+      "23184988",
+      "32770026",
+      "40567341",
+      "39131276",
+      "31884638",
+      "22456606",
+      "26399482",
+      "42384944",
+      "29617928",
+      "38354497",
+      "29183975",
+      "40672290",
+      "40060626",
+      "24649509",
+      "19543377",
+      "16723008",
+      "40119908",
+      "31228310",
+      "26587879",
+      "31372637",
+      "38605640",
+      "19426448",
+      "42549902",
+      "37490428",
+      "42099803",
+      "28212748",
+      "39761555",
+      "19594885",
+      "28204611",
+      "23921661",
+      "40501927",
+      "19758441",
+      "40102719",
+      "22928635",
+      "31985403",
+      "39152038",
+      "33055256",
+      "30423062",
+      "40894641"
+    ],
+    "review": [
+      "41000812",
+      "42492189",
+      "31884638"
+    ],
+    "pmc": [
+      "12458288"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41000812/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.19.677475",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

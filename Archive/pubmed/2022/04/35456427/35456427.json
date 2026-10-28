@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "35456427",
+    "doi": "10.3390/genes13040621",
+    "title": "InsuLock: A Weakly Supervised Learning Approach for Accurate Insulator Prediction, and Variant Impact Quantification."
+  },
+  "content": {
+    "abstract": "Mapping chromatin insulator loops is crucial to investigating genome evolution, elucidating critical biological functions, and ultimately quantifying variant impact in diseases. However, chromatin conformation profiling assays are usually expensive, time-consuming, and may report fuzzy insulator annotations with low resolution. Therefore, we propose a weakly supervised deep learning method, InsuLock, to address these challenges. Specifically, InsuLock first utilizes a Siamese neural network to predict the existence of insulators within a given region (up to 2000 bp). Then, it uses an object detection module for precise insulator boundary localization via gradient-weighted class activation mapping (~40 bp resolution). Finally, it quantifies variant impacts by comparing the insulator score differences between the wild-type and mutant alleles. We applied InsuLock on various bulk and single-cell datasets for performance testing and benchmarking. We showed that it outperformed existing methods with an AUROC of ~0.96 and condensed insulator annotations to ~2.5% of their original size while still demonstrating higher conservation scores and better motif enrichments. Finally, we utilized InsuLock to make cell-type-specific variant impacts from brain scATAC-seq data and identified a schizophrenia GWAS variant disrupting an insulator loop proximal to a known risk gene, indicating a possible new mechanism of action for the disease.",
+    "keywords": [
+      "3D chromatin structure",
+      "CTCF mediated insulator loops",
+      "brain disorders",
+      "deep learning",
+      "gene regulation"
+    ],
+    "mesh_terms": [
+      "CCCTC-Binding Factor/genetics",
+      "*Chromatin",
+      "Genome",
+      "*Neural Networks, Computer",
+      "Supervised Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Srinivasan, Shushrruth Sai",
+        "Gong, Yanwen",
+        "Xu, Siwei",
+        "Hwang, Ahyeon",
+        "Xu, Min",
+        "Girgenti, Matthew J",
+        "Zhang, Jing"
+      ],
+      "short_names": [
+        "Srinivasan SS",
+        "Gong Y",
+        "Xu S",
+        "Hwang A",
+        "Xu M",
+        "Girgenti MJ",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0635-9068",
+        "ORCID: 0000-0002-2828-3706",
+        "ORCID: 0000-0002-0881-5891",
+        "ORCID: 0000-0002-5970-0509"
+      ],
+      "affiliations": [
+        "Computer Science Department, University of California, Irvine, CA 92697, USA.",
+        "Mathematical, Computational & Systems Biology, University of California, Irvine, CA 92697, USA.",
+        "Computer Science Department, University of California, Irvine, CA 92697, USA.",
+        "Mathematical, Computational & Systems Biology, University of California, Irvine, CA 92697, USA.",
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Department of Psychiatry, School of Medicine, Yale University, New Haven, CT 06520, USA.",
+        "Computer Science Department, University of California, Irvine, CA 92697, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Srinivasan, Shushrruth Sai",
+        "short_name": "Srinivasan SS",
+        "identifiers": [
+          "0000-0003-0635-9068"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of California, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Gong, Yanwen",
+        "short_name": "Gong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematical, Computational & Systems Biology, University of California, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Siwei",
+        "short_name": "Xu S",
+        "identifiers": [
+          "0000-0002-2828-3706"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of California, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Hwang, Ahyeon",
+        "short_name": "Hwang A",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematical, Computational & Systems Biology, University of California, Irvine, CA 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Min",
+        "short_name": "Xu M",
+        "identifiers": [
+          "0000-0002-0881-5891"
+        ],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Girgenti, Matthew J",
+        "short_name": "Girgenti MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, School of Medicine, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-5970-0509"
+        ],
+        "affiliations": [
+          "Computer Science Department, University of California, Irvine, CA 92697, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Mar 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/24 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34850907",
+      "33767413",
+      "33637727",
+      "33634313",
+      "33633365",
+      "33232622",
+      "33106633",
+      "32728249",
+      "32728247",
+      "32728046",
+      "32294452",
+      "32216817",
+      "31753851",
+      "31197269",
+      "31068683",
+      "30835229",
+      "30351403",
+      "30310060",
+      "29949986",
+      "28861108",
+      "28536180",
+      "28408976",
+      "28369554",
+      "27869826",
+      "27706140",
+      "27064255",
+      "26940867",
+      "26700815",
+      "26053496",
+      "25959774",
+      "25678793",
+      "25645053",
+      "25497547",
+      "25315429",
+      "25043047",
+      "24794443",
+      "24703711",
+      "22610855",
+      "21948517",
+      "21629438",
+      "21330290",
+      "19815776",
+      "19247990",
+      "18675948",
+      "16024819",
+      "15788730",
+      "12652298"
+    ],
+    "similar": [
+      "35456427",
+      "35883430",
+      "33634313",
+      "34252960",
+      "30996085",
+      "35997565",
+      "34413016",
+      "33232622",
+      "29437965",
+      "29976663",
+      "27798106",
+      "23358822",
+      "34702695",
+      "20813760",
+      "37133976",
+      "34303169",
+      "31653198",
+      "19210964",
+      "30875678",
+      "20024537",
+      "34735550",
+      "33187878",
+      "21194420",
+      "34915195",
+      "34006570",
+      "29514910",
+      "25385081",
+      "35410161",
+      "22722341",
+      "30310060",
+      "21852534",
+      "23333867",
+      "35385732",
+      "16474142",
+      "33113374",
+      "12878173",
+      "32847102",
+      "34460852",
+      "30456521",
+      "30044963",
+      "19056695",
+      "30031214",
+      "24094345",
+      "32676841",
+      "31484154",
+      "29593713",
+      "25247414",
+      "35077535",
+      "32293303",
+      "27067545",
+      "34769020",
+      "26499245",
+      "28680483",
+      "29199022",
+      "35632655",
+      "18347100",
+      "19712444",
+      "19322193",
+      "29437926",
+      "17382889",
+      "14759373",
+      "31878887",
+      "32674042",
+      "29056226",
+      "34735894",
+      "30851541",
+      "32232161",
+      "33677262",
+      "32387926",
+      "34717189",
+      "17267480",
+      "30459231",
+      "21829357",
+      "30060743",
+      "23706817",
+      "32721843",
+      "30717603",
+      "35121377",
+      "22829947",
+      "31911579",
+      "32931437",
+      "32885250",
+      "34645863",
+      "30310129",
+      "33046896",
+      "39399542",
+      "36567710"
+    ],
+    "review": [
+      "35456427",
+      "30875678",
+      "33187878",
+      "23333867",
+      "30456521",
+      "30044963",
+      "30031214"
+    ],
+    "pmc": [
+      "9026820"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13040621",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35456427/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35456427",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9kz7p81q",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

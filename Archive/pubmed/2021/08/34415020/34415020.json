@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "34415020",
+    "doi": "10.1093/bib/bbab336",
+    "title": "DNAgenie: accurate prediction of DNA-type-specific binding residues in protein sequences."
+  },
+  "content": {
+    "abstract": "Efforts to elucidate protein-DNA interactions at the molecular level rely in part on accurate predictions of DNA-binding residues in protein sequences. While there are over a dozen computational predictors of the DNA-binding residues, they are DNA-type agnostic and significantly cross-predict residues that interact with other ligands as DNA binding. We leverage a custom-designed machine learning architecture to introduce DNAgenie, first-of-its-kind predictor of residues that interact with A-DNA, B-DNA and single-stranded DNA. DNAgenie uses a comprehensive physiochemical profile extracted from an input protein sequence and implements a two-step refinement process to provide accurate predictions and to minimize the cross-predictions. Comparative tests on an independent test dataset demonstrate that DNAgenie outperforms the current methods that we adapt to predict residue-level interactions with the three DNA types. Further analysis finds that the use of the second (refinement) step leads to a substantial reduction in the cross predictions. Empirical tests show that DNAgenie's outputs that are converted to coarse-grained protein-level predictions compare favorably against recent tools that predict which DNA-binding proteins interact with double-stranded versus single-stranded DNAs. Moreover, predictions from the sequences of the whole human proteome reveal that the results produced by DNAgenie substantially overlap with the known DNA-binding proteins while also including promising leads for several hundred previously unknown putative DNA binders. These results suggest that DNAgenie is a valuable tool for the sequence-based characterization of protein functions. The DNAgenie's webserver is available at http://biomine.cs.vcu.edu/servers/DNAgenie/.",
+    "keywords": [
+      "A-DNA",
+      "B-DNA",
+      "DNA-binding residues",
+      "double-stranded DNA",
+      "prediction",
+      "protein-DNA interactions",
+      "single-stranded DNA"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*Base Sequence",
+      "*Binding Sites",
+      "Computational Biology/*methods",
+      "DNA/*chemistry/genetics",
+      "DNA-Binding Proteins/chemistry/*metabolism",
+      "Databases, Genetic",
+      "Machine Learning",
+      "Models, Molecular",
+      "Protein Binding",
+      "Reproducibility of Results",
+      "*Software",
+      "Structure-Activity Relationship",
+      "Web Browser"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jian",
+        "Ghadermarzi, Sina",
+        "Katuwawala, Akila",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Ghadermarzi S",
+        "Katuwawala A",
+        "Kurgan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer and Information Technology at the Xinyang Normal University, No.237, Nanhu Road, Xinyang 464000, Henan Province, P.R. China.",
+        "Department of Computer Science at the Virginia Commonwealth University, 401 West Main Street, Room E4225, Richmond, Virginia 23284, USA.",
+        "Department of Computer Science from the Virginia Commonwealth University, 401 West Main Street, Room E4225, Richmond, Virginia 23284, USA.",
+        "Department of Computer Science at the Virginia Commonwealth University, 401 West Main Street, Room E4225, Richmond, Virginia 23284, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Technology at the Xinyang Normal University, No.237, Nanhu Road, Xinyang 464000, Henan Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ghadermarzi, Sina",
+        "short_name": "Ghadermarzi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science at the Virginia Commonwealth University, 401 West Main Street, Room E4225, Richmond, Virginia 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Katuwawala, Akila",
+        "short_name": "Katuwawala A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science from the Virginia Commonwealth University, 401 West Main Street, Room E4225, Richmond, Virginia 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science at the Virginia Commonwealth University, 401 West Main Street, Room E4225, Richmond, Virginia 23284, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2021 Nov 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/21 06:00",
+    "fetched_at": "2026-09-27 22:24:28"
+  },
+  "links": {
+    "cites": [
+      "42636031",
+      "42598852",
+      "42126889",
+      "41097050",
+      "40601256",
+      "40391089",
+      "40145846",
+      "39833102",
+      "39811792",
+      "39718987",
+      "39334850",
+      "39202449",
+      "38739759",
+      "38315248",
+      "38281252",
+      "38048333",
+      "35356546"
+    ],
+    "refs": [],
+    "similar": [
+      "34415020",
+      "31510679",
+      "30602422",
+      "28132027",
+      "36519304",
+      "34487138",
+      "38048333",
+      "26109352",
+      "32860044",
+      "25935161",
+      "34290238",
+      "31870849",
+      "28334258",
+      "34905768",
+      "32696351",
+      "29253082",
+      "30099775",
+      "21689482",
+      "27787828",
+      "29536446",
+      "22689782",
+      "36458437",
+      "22868682",
+      "28841194",
+      "32946833",
+      "17237068",
+      "19439068",
+      "32142788",
+      "15720719",
+      "34572550",
+      "29295714",
+      "30102367",
+      "33381815",
+      "28155654",
+      "27307636",
+      "16712732",
+      "35536812",
+      "37140058",
+      "27740495",
+      "38491248",
+      "16845003",
+      "30598073",
+      "33660783",
+      "23788679",
+      "19594868",
+      "26176857",
+      "32961749",
+      "28606086",
+      "30871477",
+      "29753757",
+      "21787304",
+      "30040656",
+      "26527718",
+      "25113160",
+      "31046040",
+      "14654694",
+      "36621533",
+      "17526530",
+      "31888057",
+      "25075531",
+      "39237195",
+      "37709009",
+      "19786483",
+      "17316627",
+      "39103447",
+      "14990443",
+      "26457920",
+      "23703214",
+      "15655071",
+      "11478868",
+      "22312425",
+      "30668479",
+      "32621220",
+      "29281004",
+      "30536635",
+      "15725347",
+      "30933978",
+      "31693872",
+      "16568445",
+      "21143803",
+      "27115648",
+      "29608705",
+      "33454744",
+      "32920048",
+      "25708089",
+      "34247234",
+      "33119734",
+      "17646316",
+      "29273005",
+      "34559595",
+      "27730230",
+      "38295475",
+      "29806170",
+      "19594872",
+      "26540053",
+      "28349426",
+      "10669611",
+      "30329008",
+      "20003388",
+      "22174808",
+      "24448651",
+      "27787829",
+      "27044036",
+      "19343221",
+      "25756377",
+      "14681398",
+      "36727436",
+      "34025946",
+      "31814842",
+      "35597551",
+      "34932484",
+      "35709747",
+      "17284455",
+      "31642118",
+      "36044786",
+      "38927611",
+      "22693214",
+      "34459488",
+      "36629262",
+      "21601080",
+      "39079742",
+      "37193676",
+      "28881974",
+      "35753699",
+      "38960405",
+      "29287069",
+      "20706794",
+      "34293799",
+      "35615015",
+      "34637380",
+      "38739759",
+      "35098379",
+      "35402609",
+      "37031187",
+      "37996753",
+      "36374048",
+      "36699419",
+      "36178627",
+      "37438349",
+      "38801070",
+      "37933852"
+    ],
+    "review": [
+      "34415020",
+      "25935161",
+      "28334258",
+      "29253082",
+      "30102367",
+      "32961749",
+      "26540053",
+      "25756377",
+      "38739759",
+      "35402609"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34415020.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab336",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

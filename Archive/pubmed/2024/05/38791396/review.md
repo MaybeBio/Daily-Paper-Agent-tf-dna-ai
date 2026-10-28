@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and conclusions.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated evidence. No assessment of grammar or stylistic preferences beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors report a virtual screening workflow combining fragment molecular orbital (FMO) analysis, molecular dynamics (MD) simulations, shape-based screening, and MM-GBSA calculations to identify novel non-covalent inhibitors of the TEAD lipid binding pocket. They report hit compound BC-001 (IC50 = 3.7 μM) and optimized analog BC-011 (IC50 = 72.43 nM) in a TEAD reporter assay, with additional cellular validation in H226 cells.
+- **Visible evidence base** Figures 1–13, Tables 1 and S1–S6, and supplementary schemes as referenced in the text. Experimental details for synthesis, computational methods, and cellular assays are provided.
+- **Missing materials affecting confidence** Raw data for dose-response curves, statistical analysis details for cellular assays, compound purity and characterization data for synthesized compounds, and full details of the FMO fragmentation and MD simulation parameters are not fully described. The manuscript does not provide a full experimental section for the reporter assay or cell viability assay beyond brief descriptions.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally driven hit identification and optimization campaign targeting the TEAD lipid binding pocket. The integration of FMO, MD, and MM-GBSA is methodologically interesting and the identification of a nanomolar inhibitor with cellular activity is a notable result. However, several technical concerns regarding the validation of the computational predictions, the robustness of the cellular data, and the clarity of the structure-activity relationship (SAR) discussion need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in drug discovery, particularly those focused on the Hippo signaling pathway, TEAD inhibitors, and computational virtual screening methodologies. The work may also interest medicinal chemists seeking novel scaffolds for non-covalent TEAD inhibition and computational chemists applying FMO and MM-GBSA in structure-based drug design.
+- **Major strengths** The study combines multiple computational methods in a logical workflow, from FMO analysis of reference complexes to shape-based screening and MM-GBSA ranking. The identification of a novel scaffold with nanomolar activity and cellular target engagement is a significant advance over prior computational studies in this area. The retrospective validation of the MM-GBSA approach against known inhibitors from other groups adds credibility to the methodology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational predictions
+  - **Claim pointer** The authors claim that the MM-GBSA single-conformer approach is sufficient for ranking compounds in virtual screening, and that the identified hits are validated by the reporter assay.
+  - **Evidence pointer** Section 2.3, Figure 6, Section 2.6, Figure 10
+  - **Concern** The manuscript does not provide a clear correlation between the MM-GBSA ΔG values and the experimental IC50 values for the identified hits or the reference compounds. While the retrospective analysis in Section 2.6 shows qualitative agreement for a few compounds, the predictive power of the single-conformer MM-GBSA approach is not quantitatively assessed. The enrichment calculations (Figure S1) are mentioned but not described in detail, and the performance metrics (e.g., AUC, enrichment factor) are not reported.
+  - **Why it matters** The central claim of the paper is that the computational workflow can identify potent TEAD inhibitors. Without a demonstrated quantitative correlation between predicted binding energies and experimental activities, the reliability of the screening approach is not established. This is critical for the broader applicability of the method.
+  - **Resolution test** Provide a scatter plot of MM-GBSA ΔG values versus experimental IC50 (or pIC50) for all tested compounds, with a correlation coefficient and statistical significance. Report enrichment metrics for the shape-based screening. If the correlation is weak, discuss the limitations and justify the use of the method for ranking.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and data robustness
+  - **Claim pointer** The authors claim that BC-011 inhibits H226 cell viability with an IC50 of 488.5 nM and downregulates Ctgf and Cyr61 expression.
+  - **Evidence pointer** Section 2.8, Figure 12
+  - **Concern** The cell viability assay is described only briefly, and the manuscript does not report the number of replicates, error bars, or statistical analysis for the IC50 values. The mRNA expression data are shown for a single concentration (or a limited range), and the dose-response relationship is not established. Additionally, the manuscript does not discuss potential off-target effects or the selectivity of BC-011 across TEAD1-4.
+  - **Why it matters** The cellular data are the key experimental validation of the computational predictions. Without proper statistical reporting and dose-response analysis, the robustness of the claims is questionable. Selectivity data are important for a pan-TEAD inhibitor claim.
+  - **Resolution test** Provide full dose-response curves with error bars and statistical analysis for the cell viability assays. Include a dose-response for mRNA expression or justify the single concentration used. Discuss selectivity across TEAD paralogs or provide data on TEAD1-4 activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** SAR interpretation and compound characterization
+  - **Claim pointer** The authors state that the SAR study of BC-001 analogs led to the identification of BC-011 with improved potency.
+  - **Evidence pointer** Section 2.5, Section 2.7, Table 1, Figure 11
+  - **Concern** The SAR discussion is largely qualitative, and the manuscript does not provide a clear structure-activity relationship analysis. The rationale for specific substitutions (e.g., replacing hydrazine with amine) is not fully explained. Additionally, the purity and characterization data for the synthesized compounds are not provided, which is essential for medicinal chemistry claims.
+  - **Why it matters** A clear SAR is necessary to support the optimization strategy and to guide future medicinal chemistry efforts. Compound purity and characterization are standard requirements for reporting new chemical entities.
+  - **Resolution test** Provide a table summarizing the structural modifications and their corresponding activities, with a discussion of the electronic and steric effects. Include HPLC purity and HRMS or NMR data for all final compounds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Section 4.2, FMO calculations
+  - **Evidence pointer** Section 4.2
+  - **Issue** The basis set is described as "6-31**" which is ambiguous. The standard notation is 6-31G(d,p) or 6-31G**.
+  - **Required correction** Clarify the basis set notation and specify the level of theory for the FMO calculations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 12
+  - **Evidence pointer** Section 2.8, Figure 12
+  - **Issue** The figure legend does not specify the number of replicates or the statistical test used for the mRNA expression data.
+  - **Required correction** Add statistical details to the figure legend, including the number of independent experiments and the test used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion does not address the limitations of the MM-GBSA approach, such as the lack of entropy contributions and the sensitivity to the choice of solvation model.
+  - **Required correction** Add a paragraph discussing the limitations of the computational methods and how they might affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative correlation between MM-GBSA predictions and experimental activities (R1-M1) and the incomplete reporting of cellular assay data (R1-M2) are the primary technical failings. These need to be resolved to support the central claims of the paper.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of FMO, MD, and MM-GBSA in a virtual screening workflow is not entirely novel, but the application to the TEAD lipid binding pocket and the identification of a new scaffold with nanomolar activity is a meaningful contribution.
+  - **Scientific importance** The Hippo pathway is a relevant cancer target, and new inhibitors with cellular activity are of interest. However, the study is incremental in nature, as several TEAD inhibitors are already in clinical trials.
+  - **Interdisciplinary readership** The work bridges computational chemistry, medicinal chemistry, and cancer biology, which could appeal to a broad audience. However, the technical depth may limit accessibility to non-specialists.
+  - **Technical soundness** The computational methods are generally sound, but the lack of quantitative validation and incomplete experimental reporting weaken the technical case.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written, but the methods section is dense and may be challenging for readers without a computational background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the identification of a nanomolar inhibitor is a valuable result. However, the manuscript requires substantial revisions to address the quantitative validation of the computational approach and the robustness of the experimental data.
+
+## Risk / unsupported claims
+- The claim that the single-conformer MM-GBSA approach is "reasonable" for ranking compounds is not quantitatively supported.
+- The claim that BC-011 downregulates Ctgf and Cyr61 expression is based on limited data without dose-response or statistical analysis.
+- The claim that the SAR study led to a clear optimization trajectory is not fully supported by the presented data.
+- The selectivity of BC-011 across TEAD1-4 is not assessed, despite the claim of pan-TEAD inhibition.

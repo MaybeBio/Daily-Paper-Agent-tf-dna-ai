@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "42657920",
+    "doi": "10.1111/1759-7714.70383",
+    "title": "Apigenin Alleviates Pyroptosis in Lung Adenocarcinoma Cells by Modulating TNF-alpha/NF-kappaB Signaling and AIM2 Inflammasome Activation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pyroptosis-related signaling contributes to lung adenocarcinoma (LUAD) progression and prognosis. Apigenin (AP) has anti-inflammatory and cytoprotective properties, but its effects on pyroptosis-associated signaling in injured LUAD cells remain unclear. METHODS: A549 cells were treated with carbonyl cyanide m-chlorophenyl hydrazone (CCCP) and ferrous sulfate (FeSO(4)) to establish a cellular injury model. Cell morphology, Cell Counting Kit-8 signals, and pyroptosis-associated proteins were assessed after AP treatment. Network pharmacology, molecular docking, molecular dynamics simulations, and analyses of The Cancer Genome Atlas and Gene Expression Omnibus datasets were used to prioritize candidate targets, characterize pyroptosis-related genes, and develop a prognostic signature. RESULTS: CCCP/FeSO(4) reduced CCK-8 signals and induced morphological injury, whereas AP partially reversed these changes. AP also reduced alterations in GSDMD-N, caspase-1, IL-1beta, TNF-alpha/NF-kappaB pathway proteins, AIM2, and ASC. TNF was prioritized as a candidate target, and computational analyses predicted a potentially stable AP-TNF interaction without demonstrating direct binding. Bioinformatic analyses identified distinct pyroptosis-related LUAD subgroups and generated a prognostic signature that stratified survival in training and external validation cohorts. AIM2 was additionally prioritized as a LUAD- and stress-associated candidate. CONCLUSION: AP attenuated CCCP/FeSO(4)-induced injury and pyroptosis-associated molecular changes in A549 cells, potentially through TNF-alpha/NF-kappaB and AIM2-related signaling. Further mechanistic validation is required.",
+    "keywords": [
+      "AIM2 inflammasome",
+      "NF-kappaB signaling",
+      "apigenin",
+      "lung adenocarcinoma",
+      "pyroptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pyroptosis/drug effects",
+      "*NF-kappa B/metabolism",
+      "*Adenocarcinoma of Lung/drug therapy/pathology/metabolism",
+      "*Inflammasomes/metabolism",
+      "*Tumor Necrosis Factor-alpha/metabolism",
+      "*Apigenin/pharmacology",
+      "Signal Transduction",
+      "*Lung Neoplasms/drug therapy/pathology/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "A549 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Kairui",
+        "Mu, Yulong",
+        "Su, Zhenguo",
+        "Yue, Zhen",
+        "Wu, Dongyang",
+        "Qu, Guiwu",
+        "Jiang, Chenyang",
+        "Li, Qing",
+        "Li, Youjie",
+        "Xie, Ning"
+      ],
+      "short_names": [
+        "Zhu K",
+        "Mu Y",
+        "Su Z",
+        "Yue Z",
+        "Wu D",
+        "Qu G",
+        "Jiang C",
+        "Li Q",
+        "Li Y",
+        "Xie N"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3374-1318",
+        "ORCID: 0009-0002-1108-8047"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, Yantaishan Hospital Affiliated to Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Clinical Laboratory, The Second Medical College of Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Oncology, Yantaishan Hospital Affiliated to Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China.",
+        "Department of Thoracic Surgery, Yantaishan Hospital Affiliated to Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Kairui",
+        "short_name": "Zhu K",
+        "identifiers": [
+          "0009-0002-3374-1318"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Yantaishan Hospital Affiliated to Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Yulong",
+        "short_name": "Mu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Su, Zhenguo",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second Medical College of Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Zhen",
+        "short_name": "Yue Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Dongyang",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Guiwu",
+        "short_name": "Qu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chenyang",
+        "short_name": "Jiang C",
+        "identifiers": [
+          "0009-0002-1108-8047"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qing",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Yantaishan Hospital Affiliated to Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Youjie",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ning",
+        "short_name": "Xie N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Yantaishan Hospital Affiliated to Shandong Medical and Pharmaceutical University, Yantai, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Thoracic cancer"
+    ],
+    "journal_abbrev": [
+      "Thorac Cancer"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 12:36",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42099277",
+      "41662962",
+      "41455695",
+      "41291696",
+      "40959087",
+      "40517166",
+      "40319304",
+      "40122586",
+      "40081220",
+      "38572751",
+      "37526050",
+      "37141464",
+      "36473401",
+      "36370105",
+      "31941010",
+      "30953357",
+      "30875872",
+      "27291964",
+      "26375003",
+      "25605792",
+      "19499576",
+      "14597658"
+    ],
+    "similar": [
+      "42657920",
+      "42508544",
+      "42166861",
+      "31766230",
+      "41889065",
+      "41039595",
+      "17207890",
+      "41302385",
+      "41500685",
+      "41814794",
+      "39534992",
+      "40578952",
+      "35692206",
+      "26091790",
+      "42433942",
+      "42197115",
+      "42033182",
+      "40406122",
+      "42114575",
+      "37572566",
+      "31540489",
+      "42284764",
+      "37075579",
+      "41361467",
+      "34582005",
+      "42226110",
+      "35806134",
+      "29915579",
+      "36115602",
+      "37018977",
+      "36732683",
+      "36213326",
+      "41651331",
+      "37393521",
+      "40350907",
+      "36069386",
+      "39547017",
+      "41776083",
+      "40020626",
+      "40338445",
+      "37054825",
+      "34794890",
+      "30161099",
+      "36077522",
+      "29886252",
+      "42404904",
+      "41605374",
+      "42447973",
+      "30606988",
+      "42025248",
+      "41795298",
+      "41372379",
+      "38380569",
+      "40690148",
+      "42495647",
+      "41437307",
+      "40330488",
+      "12162440",
+      "42120779",
+      "38367422",
+      "36055550",
+      "42530247",
+      "40756265",
+      "39136510",
+      "36877049",
+      "39307808",
+      "32001670",
+      "24867094",
+      "30121641",
+      "41181093",
+      "29207489",
+      "38972239",
+      "38869352",
+      "41943078",
+      "36653304",
+      "41176909",
+      "15131058",
+      "41621764",
+      "42052827",
+      "42079738",
+      "35281058",
+      "37894738",
+      "40684492",
+      "15954894",
+      "33592257",
+      "41655547",
+      "41946008",
+      "41511660",
+      "39939033",
+      "41988197",
+      "40424980",
+      "39670672",
+      "42046060",
+      "36104978",
+      "28398673",
+      "37798663",
+      "41838238",
+      "38342335",
+      "40682067",
+      "40902396"
+    ],
+    "review": [
+      "42657920",
+      "41176909"
+    ],
+    "pmc": [
+      "13520787"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42657920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/1759-7714.70383",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3636",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

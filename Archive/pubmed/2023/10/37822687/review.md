@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, description, extended data description, and acknowledgments
+- **Assessment boundary** Bioinformatic evidence presented for protein function prediction; no experimental validation is claimed or included
+- **Shared manuscript claim summary** The manuscript claims that Gohir.A02G039501.1 encodes a protein (GhLSH4L-A0A1U8MC48) that is a nuclear, DNA-binding ALOG family member involved in gene regulation during organ boundary specification, based on sequence features, homology, and structural modeling
+- **Visible evidence base** Sequence analysis (InterPro, LOCALIZER, Y-Loc, Plant-mPLoc, Plant-mSubP), multi-sequence alignment, PhyloGenes phylogenetic analysis, BLASTp pairwise alignment, AlphaFold2 structural model, DALI structural comparison, UCSF ChimeraX analyses, ConSurf conservation analysis
+- **Missing materials affecting confidence** The actual figures (Figure 1A-G) are not provided; the ConSurf extended data is referenced but not included; no experimental data (expression, localization, binding assays) are presented; the manuscript does not include methods details for several tools used
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward bioinformatic characterization of a previously uncharacterized cotton protein, proposing its membership in the ALOG family and a potential role in DNA binding. The evidence is largely consistent with the conclusions drawn, but the work is entirely computational and the functional claims extend beyond what the data can directly support. The manuscript is clearly written and appropriate for a short-format publication, though the strength of the conclusions should be tempered to match the evidence level.
+- **Who would be interested in the results, and why** Researchers studying plant development, particularly those interested in the ALOG family and organ boundary specification, may find this useful as a preliminary annotation of a cotton gene. The work may also be of interest to the cotton genomics community and to educators using course-based research to generate functional hypotheses for uncharacterized genes. The structural comparison to XerC/D-like recombinases could interest those studying the evolutionary origins of plant transcription factors.
+- **Major strengths** The manuscript is concise and clearly organized. The use of multiple complementary bioinformatic tools strengthens the confidence in the ALOG family assignment. The structural modeling with AlphaFold2 and comparison to a known DNA-binding protein provides a plausible mechanistic hypothesis. The authors appropriately note the temporary nature of the protein name pending experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract states the protein is "involved in gene regulation during organ boundary specification and maintenance"
+  - **Evidence pointer** Abstract; Description sections on Sequence Features, Homology, and Structure Features
+  - **Concern** The claim of involvement in organ boundary specification is inferred solely from homology to Arabidopsis LSH3/LSH4, which have been experimentally studied. No functional data for this cotton protein are presented, and the phylogenetic analysis shows clustering with LSH4 but does not establish functional equivalence. The leap from sequence similarity to functional involvement in a specific developmental process is not supported by the evidence presented.
+  - **Why it matters** This claim overstates what bioinformatic analysis can establish. Functional annotation based on homology is hypothesis-generating, not confirmatory. Readers may mistake this predicted function for experimentally validated function, which could mislead downstream research.
+  - **Resolution test** Revise the claim to state that the protein is "predicted to be involved" or "may function in" organ boundary specification based on homology. Alternatively, add explicit language throughout that all functional statements are predictions requiring experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The conclusion states the protein "binds to DNA to function as a transcription factor or recruiter of chromatin remodeling"
+  - **Evidence pointer** Structure Features section; Figure 1D-G (figures not provided)
+  - **Concern** The DNA-binding claim rests on structural analogy to CRE recombinase and conservation of predicted DNA-contacting residues. However, no direct binding assay, electrophoretic mobility shift assay, or any experimental demonstration of DNA interaction is presented. The AlphaFold2 model is predictive, and the DALI comparison, while suggestive, does not confirm function. The electrostatic potential analysis is consistent with but not proof of DNA binding.
+  - **Why it matters** DNA binding is a specific biochemical property that can be tested experimentally. Presenting this as a conclusion rather than a hypothesis based on structural prediction may overstate the evidence. The distinction matters for how the community uses this annotation.
+  - **Resolution test** Reframe the conclusion as a testable hypothesis. State that the structural features are "consistent with" or "suggestive of" DNA-binding capability, and explicitly note that experimental validation is required.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** The manuscript reports results from multiple bioinformatic tools and analyses
+  - **Evidence pointer** Sequence Features, Homology, and Structure Features sections; Figure 1A-G
+  - **Concern** The figures are not available in the provided material, and several analyses lack sufficient methodological detail to be reproduced. For example, the specific parameters for the AlphaFold2 run, the DALI search settings, the ConSurf analysis parameters, and the exact sequences used in the MSA are not described. The UCSF ChimeraX MatchMaker alignment parameters are also not specified.
+  - **Why it matters** Reproducibility is a core scientific principle. Without adequate methods detail, other researchers cannot verify or build upon these findings. The absence of figures also prevents assessment of the visual evidence supporting the claims.
+  - **Resolution test** Provide the figures and add a methods section or supplementary information detailing all tool versions, parameters, and access dates. If the journal format does not allow a full methods section, include these details in the extended data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "was studied using sequence and structure bioinformatic tools" is awkwardly constructed and could be simplified for readability.
+  - **Required correction** Revise to something like "was analyzed using sequence and structure bioinformatics tools" or "was investigated with computational sequence and structure analysis."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Description section, first paragraph
+  - **Evidence pointer** Description section, first paragraph
+  - **Issue** The gene identifier is given as Gohir.A02G039501.1 in the title and abstract, but the description refers to "Gohir.A02G039501_UTX-TM1_v2.1" and "LOC107943309." The relationship between these identifiers is not explained.
+  - **Required correction** Clarify the relationship between the different gene identifiers, or use a single consistent identifier throughout with a note explaining the others.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Formatting
+  - **Affected element** Description section, first paragraph
+  - **Evidence pointer** Description section, first paragraph
+  - **Issue** The species name "G ossypium hirsutum" contains a space within the genus name, likely a typographical error.
+  - **Required correction** Correct to "Gossypium hirsutum."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Citation completeness
+  - **Affected element** Structure Features section
+  - **Evidence pointer** Structure Features section
+  - **Issue** The DALI search is cited as (Holm, 2022), but the specific version or web server URL is not provided. Similarly, the UCSF ChimeraX version is not stated.
+  - **Required correction** Add version numbers and access details for all software tools used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Extended Data section
+  - **Evidence pointer** Extended Data section
+  - **Issue** The ConSurf results are provided as extended data, but the full MSA and the AlphaFold2 model are not made available. These would be valuable for readers to verify the claims.
+  - **Required correction** Consider depositing the MSA and the AlphaFold2 model in a public repository and providing links in the manuscript.
+
+## Risk / unsupported claims
+- The claim that the protein is "involved in gene regulation during organ boundary specification and maintenance" is unsupported by direct evidence and is inferred solely from homology to Arabidopsis LSH3/LSH4
+- The claim that the protein "binds to DNA" is not supported by any experimental binding data; it is a structural prediction
+- The claim that the protein may function as "a transcription factor or recruiter of chromatin remodeling" is speculative and goes beyond the evidence presented
+- The statement that the protein "contains the necessary sequence and structure for localization to the nucleus and subsequent DNA-binding" is presented as established fact rather than prediction
+- The functional significance of the conserved residues in the modeled DNA-binding regions is inferred from structural analogy and is not experimentally validated
+- The phylogenetic placement and its implications for function are based on a pre-computed tree and limited pairwise comparisons; the robustness of this analysis is not fully assessed

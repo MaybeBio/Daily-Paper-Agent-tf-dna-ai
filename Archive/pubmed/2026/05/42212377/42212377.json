@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "42212377",
+    "doi": "10.3892/mmr.2026.13919",
+    "title": "FOSL2 drives transcriptional activation of super‑enhancer-regulated DYNC1H1 to promote hypoxia‑induced oral squamous cell carcinoma progression."
+  },
+  "content": {
+    "abstract": "Hypoxia is a hallmark of oral squamous cell carcinoma (OSCC) and plays a critical role in driving tumor progression. However, the mechanisms by which OSCC cells respond to hypoxic signaling to promote malignant phenotypes remain unclear. The present study aimed to identify the key regulatory factors governing hypoxic adaptation in OSCC. Based on bulk RNA‑sequencing (RNA‑seq) data from The Cancer Genome Atlas (TCGA) database, hypoxia was identified as a prognostic risk factor for OSCC. Hierarchical clustering revealed 'glycolysis' and 'hypoxia' as the most strongly associated cancer hallmarks. Using single‑cell RNA‑seq data from the Gene Expression Omnibus (GEO) database, 104 hypoxia‑ and glycolysis‑associated genes were identified. Integration of bulk RNA‑seq data from TCGA and GEO databases enabled the development of an optimized prognostic model [stepwise Cox (backward) + elastic network (alpha=0.8)] through machine learning and highlighted four core genes: Heparan sulfate proteoglycan 2, immunoglobulin superfamily member 3, dihydrouridine synthase 1‑like and dynein cytoplasmic 1 heavy chain 1 (DYNC1H1). Further analysis of chromatin immunoprecipitation sequencing data from GEO database identified DYNC1H1 as the sole super‑enhancer (SE)‑regulated gene among these candidates, characterized by hypoxia‑responsive upregulation. DYNC1H1 knockdown significantly abrogated hypoxia‑induced proliferation, invasion, glucose uptake and lactate production in OSCC cells. Hypoxia‑responsive transcription factor FOS‑like 2 (FOSL2) activated DYNC1H1 transcription by binding to enhancer regions. Functional validation established that the FOSL2/DYNC1H1 axis was a pivotal regulatory hub for hypoxia‑driven malignant phenotypes in OSCC. Overall, DYNC1H1 is an SE‑regulated hypoxia‑responsive gene that undergoes transcriptional activation via FOSL2‑specific binding to typical enhancer and SE regions. The FOSL2/DYNC1H1 axis drives the hypoxia‑induced malignant progression of OSCC. The present study therefore establishes a novel target for precision therapies targeting the hypoxic tumor microenvironment in OSCC.",
+    "keywords": [
+      "FOS‑like 2",
+      "dynein cytoplasmic 1 heavy chain 1",
+      "hypoxia",
+      "oral squamous cell carcinoma",
+      "super‑enhancer"
+    ],
+    "mesh_terms": [
+      "*Fos-Related Antigen-2/metabolism",
+      "*Transcriptional Activation",
+      "Enhancer Elements, Genetic",
+      "*Cytoplasmic Dyneins/genetics",
+      "*Squamous Cell Carcinoma of Head and Neck/genetics/metabolism/pathology",
+      "*Mouth Neoplasms/genetics/metabolism/pathology",
+      "Disease Progression",
+      "*Gene Expression Regulation, Neoplastic",
+      "Hypoxia/genetics/metabolism/pathology",
+      "Single-Cell Gene Expression Analysis",
+      "Tumor Microenvironment",
+      "*Cell Hypoxia",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Linyu",
+        "Zhang, Jing",
+        "Wang, Wenjing",
+        "Zhang, Nan",
+        "Liu, Yang",
+        "Tian, Alin",
+        "Yin, Weiwei",
+        "Qiu, Yongle"
+      ],
+      "short_names": [
+        "Jin L",
+        "Zhang J",
+        "Wang W",
+        "Zhang N",
+        "Liu Y",
+        "Tian A",
+        "Yin W",
+        "Qiu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Stomatology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Medical Periodical Press, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Stomatology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Stomatology, The Second Hospital of Shijiazhuang, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Stomatology, The Second Hospital of Shijiazhuang, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Stomatology, Children's Hospital of Hebei Province, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Stomatology, Children's Hospital of Hebei Province, Shijiazhuang, Hebei 050000, P.R. China.",
+        "Department of Stomatology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Linyu",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Periodical Press, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenjing",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Nan",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Second Hospital of Shijiazhuang, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Second Hospital of Shijiazhuang, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Tian, Alin",
+        "short_name": "Tian A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Children's Hospital of Hebei Province, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yin, Weiwei",
+        "short_name": "Yin W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Children's Hospital of Hebei Province, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yongle",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Fourth Hospital of Hebei Medical University, Shijiazhuang, Hebei 050000, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular medicine reports"
+    ],
+    "journal_abbrev": [
+      "Mol Med Rep"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:46",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39427969",
+      "39055398",
+      "39025270",
+      "38485986",
+      "38104183",
+      "38021163",
+      "37535729",
+      "37501079",
+      "37351178",
+      "37248301",
+      "37226190",
+      "37095487",
+      "37059730",
+      "36973261",
+      "36905928",
+      "36797231",
+      "36122307",
+      "36012427",
+      "35972800",
+      "35867798",
+      "35840558",
+      "35659268",
+      "35351136",
+      "34840068",
+      "34717919",
+      "34663944",
+      "34359884",
+      "34289530",
+      "34217360",
+      "34093993",
+      "32541515",
+      "32503591",
+      "32128448",
+      "32114978",
+      "31904426",
+      "31711497",
+      "30781344",
+      "30643250",
+      "30143634",
+      "29379481",
+      "28741521",
+      "27243824",
+      "27196599",
+      "26581505",
+      "26217180",
+      "26096876",
+      "26095926",
+      "25784597",
+      "25750696",
+      "25517091",
+      "23473601",
+      "23389635",
+      "21358745",
+      "21160525",
+      "17173037",
+      "16724055",
+      "11980639",
+      "11846609",
+      "8898198"
+    ],
+    "similar": [
+      "42212377",
+      "41502523",
+      "41715179",
+      "38923759",
+      "36335317",
+      "41320992",
+      "41318417",
+      "41430036",
+      "42483177",
+      "40597017",
+      "39722007",
+      "40582585",
+      "39849233",
+      "40135589",
+      "40017157",
+      "32756466",
+      "41452436",
+      "41800238",
+      "42035373",
+      "41322418",
+      "41193984",
+      "41716413",
+      "41080548",
+      "42208160",
+      "42196541",
+      "40976901",
+      "35935989",
+      "41180476",
+      "36768316",
+      "36789977",
+      "35232899",
+      "38853186",
+      "40839565",
+      "39343952",
+      "41423010",
+      "37541622",
+      "35428233",
+      "41455509",
+      "40128149",
+      "40530493",
+      "37451513",
+      "34967281",
+      "41235252",
+      "33318296",
+      "39580787",
+      "41253731",
+      "35432823",
+      "34709988",
+      "40064955",
+      "32705252",
+      "32526707",
+      "36321868",
+      "36251494",
+      "40452077",
+      "39673637",
+      "39376501",
+      "39244857",
+      "36813147",
+      "33969929",
+      "40097332",
+      "34664331",
+      "42372894",
+      "31582727",
+      "28030842",
+      "35365168",
+      "41974881",
+      "42471471",
+      "34368860",
+      "33941139",
+      "32302508",
+      "41850175",
+      "41151687",
+      "35922788",
+      "28485478",
+      "39726033",
+      "28174608",
+      "38625978",
+      "40748969",
+      "36113774",
+      "41026775",
+      "33869632",
+      "42034254",
+      "39915978",
+      "32998265",
+      "36012427",
+      "34406843",
+      "35042463",
+      "40119074",
+      "42263482",
+      "42380675",
+      "38640322",
+      "32985688",
+      "25996585",
+      "40555855",
+      "41410182",
+      "37045786",
+      "40721755",
+      "38265150",
+      "40933995",
+      "38301874"
+    ],
+    "review": [
+      "42212377"
+    ],
+    "pmc": [
+      "13237520"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/oralcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Oral Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42212377/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.spandidos-publications.com/10.3892/mmr.2026.13919",
+        "provider": "Spandidos Publications",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

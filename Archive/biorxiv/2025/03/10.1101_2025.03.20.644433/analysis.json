@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.20.644433",
+  "title": "A structure-guided approach to non-coding variant evaluation for transcription factor binding using AlphaFold 3",
+  "authors": "Lukas Gerasimavicius; Simon C. Biddie; Joseph A. Marsh",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用AlphaFold 3建模TF-DNA复合物并结合FoldX评估非编码SNV对转录因子结合的影响，核心聚焦TF-DNA互作机制与结构建模，方法为AI结构预测与物理能量评估，高度匹配本课题。",
+  "abstract": "Non-coding single-nucleotide variants (SNVs) that alter transcription factor (TF) binding can affect gene expression and contribute to disease. Sequence-based methods can excel at predicting TF binding, but rely on training data and can exhibit TF-specific biases. Here we propose a structure-guided approach for non-coding SNVs, using AlphaFold 3 (AF3) to model TF-DNA complexes and FoldX for downstream physics-based assessment. Benchmarked against SNP-SELEX data for six TFs (SPIB, ELK3, ETV4, SF-1, PAX5 and MEIS2), the FoldX-based strategy showed good agreement with experimental allele preferences. Interestingly, differences in AF3’s interface predicted template modelling (ipTM) score aligned even more closely with SNP-SELEX results, generally surpassing energy-based metrics. Application to known disease-associated variants recapitulated most reported effects for TFs including NKX2-5, GATA3 and USF2A-USF1. In these examples, considering both ΔipTM and FoldX energies proved more reliable than either metric alone. While less accurate than state-of-the-art sequence-based methods, this work demonstrates that structural modelling can yield interpretable insights into how non-coding variants influence TF binding. By highlighting both the promise and limitations of AF3 in this context, our study provides a framework for complementary structural evaluation of regulatory variants.",
+  "abstract_zh": "改变转录因子（TF）结合的非编码单核苷酸变异（SNVs）可影响基因表达并导致疾病。基于序列的方法在预测TF结合方面表现出色，但依赖训练数据，并可能表现出TF特异性偏差。在此，我们提出一种结构引导的非编码SNVs分析方法，利用AlphaFold 3（AF3）建模TF-DNA复合物，并结合FoldX进行下游基于物理的评估。针对六个TF（SPIB、ELK3、ETV4、SF-1、PAX5和MEIS2）的SNP-SELEX数据进行基准测试，基于FoldX的策略与实验等位基因偏好表现出良好一致性。有趣的是，AF3界面预测模板建模（ipTM）评分的差异与SNP-SELEX结果更为吻合，通常优于基于能量的指标。应用于已知疾病相关变异时，该方法重现了包括NKX2-5、GATA3和USF2A-USF1在内的TF的大多数已报道效应。在这些例子中，同时考虑ΔipTM和FoldX能量比单独使用任一指标更为可靠。尽管不如最先进的基于序列的方法准确，本研究证明结构建模能为非编码变异如何影响TF结合提供可解释的见解。通过强调AF3在此背景下的潜力和局限性，我们的研究为调控变异的互补结构评估提供了一个框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.20.644433",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.20.644433",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.20.644433/index.html"
+}

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and computational methods. Figures, extended data figures, and supplementary tables are referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided text. No assessment of formatting, grammar, or editorial style.
+- **Shared manuscript claim summary** The authors identify transcription factors (TFs) that regulate CD8+ T cell exhaustion via pooled overexpression screens, map their effects using perturb-SHARE-seq, and propose RUNX as a "master collaborator" that cooperates with KLF2 to control exhaustion-associated programs. They further demonstrate that synthetic tethering of RUNX2 and KLF2 amplifies repression of exhaustion, suggesting a framework for engineering T cell state.
+- **Visible evidence base** Text descriptions of results, methods, and figure references. No actual figures, tables, or numerical data are provided in the supplied material.
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary tables, and numerical results are absent. This severely limits the ability to verify statistical claims, effect sizes, and the robustness of the presented analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant question in T cell biology and immunotherapy, and the authors present a technically ambitious approach combining pooled screens, single-cell multi-omics, and deep learning. However, the absence of all figures and data tables makes it impossible to evaluate the core claims. The conceptual framework of "master collaborator" TFs is interesting, but the evidence as described is insufficient to establish this as a general principle. The manuscript has potential, but the current submission is not evaluable in its provided form.
+- **Who would be interested in the results, and why** Researchers in immunology, particularly those studying T cell differentiation, exhaustion, and cancer immunotherapy. Also relevant to computational biologists developing methods for single-cell multi-omic analysis and TF network inference. The potential clinical implications for CAR-T therapy design would interest translational researchers.
+- **Major strengths** The study combines multiple cutting-edge techniques (pooled TF screens, perturb-SHARE-seq, seq2PRINT, CRISPRi tiling) in a single workflow. The focus on TF collaboration rather than individual TFs is conceptually novel. The identification of KLF2 as a predictor of CAR-T response provides a clinically relevant anchor. The use of structural modeling (AlphaFold 3) to predict and validate protein-protein interfaces is forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim identification of 82 exhaustion-specific regulators and 38 reproducible regulatory programs from perturb-SHARE-seq across 702,314 cells.
+  - **Evidence pointer** Figures 1D-H, 2A-D, Extended Data Figures 2-5, Extended Tables 1-2 (not provided)
+  - **Concern** The core results of the screen and single-cell profiling are presented without any of the supporting figures or tables. No effect sizes, statistical significance values, or quality control metrics are visible. The claim of 702,314 cells is unverifiable, and the criteria for "reproducible" programs are not stated.
+  - **Why it matters** These data form the foundation of the entire manuscript. Without them, the reader cannot assess whether the identified TFs are genuinely state-specific, whether the programs are robust, or whether the perturbation assignments are accurate. The scale of the dataset is impressive, but scale alone does not establish validity.
+  - **Resolution test** Provide all figures and tables with clear statistical annotations, including effect sizes, confidence intervals, and quality control metrics for the single-cell data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that RUNX is a "master collaborator" based on its frequent appearance in composite motifs, and that RUNX2:KLF2 collaboration specifically controls exhaustion-associated programs.
+  - **Evidence pointer** Figures 3A-E, 4A-J, Extended Data Figures 6-8 (not provided)
+  - **Concern** The designation of RUNX as a "master collaborator" appears to be based on motif co-occurrence frequencies, but the statistical framework for this designation is not described. The functional validation of the RUNX2:KLF2 interaction relies on mutagenesis and tethering experiments, but the phenotypic readouts are only described qualitatively. The claim that the RUNX2:KLF2 interface is "required" for KLF2 function is strong and requires robust loss-of-function evidence.
+  - **Why it matters** The central thesis of the paper is that TF collaboration, exemplified by RUNX2:KLF2, is a mechanistic unit of cell state control. If the evidence for this is not quantitatively rigorous, the conclusion is not established. The distinction between correlation (motif co-occurrence) and causation (functional requirement) must be clearly demonstrated.
+  - **Resolution test** Provide quantitative data for the mutagenesis and tethering experiments, including effect sizes and statistical tests. Clarify the statistical criteria for "master collaborator" designation. Show that the RUNX2:KLF2 interaction is necessary and sufficient for the observed phenotypic effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that perturb-SHARE-seq is a scalable and mechanistically informative readout, and that seq2PRINT identifies de novo motifs with high confidence.
+  - **Evidence pointer** Methods sections "perturb-SHARE-seq" and "Bulk seq2PRINT training", Extended Data Figure 2 (not provided)
+  - **Concern** The performance of perturb-SHARE-seq is not benchmarked against existing methods. The perturbation assignment rate (47% of cells) is mentioned, but the accuracy of these assignments is not validated. For seq2PRINT, the use of a modified clustering algorithm (RBConfigurationVertexPartition with resolution 20) is described, but no comparison to default settings or alternative methods is provided. The false discovery rate for motif discovery is not reported.
+  - **Why it matters** Both methods are central to the study's conclusions. If perturbation assignments are inaccurate, all downstream analyses are compromised. If motif discovery has a high false positive rate, the identification of composite motifs and the "master collaborator" designation may be artifacts.
+  - **Resolution test** Provide benchmarking of perturb-SHARE-seq against established methods (e.g., CITE-seq, Perturb-seq). Report the accuracy of perturbation assignment using known controls. Provide FDR estimates for motif discovery and compare seq2PRINT performance to existing motif discovery tools.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance
+  - **Claim pointer** The authors claim that KLF2 expression is predictive of positive response to CAR-T therapy, based on analysis of a published dataset.
+  - **Evidence pointer** Figure 2E-G (not provided)
+  - **Concern** The analysis of the Fraietta et al. dataset is described, but the statistical approach is not detailed. The grouping of patients into "positive" and "negative" responders is a simplification that may obscure important differences. The predictive power of KLF2 is not quantified (e.g., AUC, hazard ratio). The authors do not address potential confounders such as cell composition or prior treatment history.
+  - **Why it matters** This claim has direct clinical implications. If KLF2 is proposed as a biomarker, the evidence must be statistically robust and account for known confounders. Overstating predictive value could mislead future clinical trial design.
+  - **Resolution test** Provide detailed statistical analysis, including receiver operating characteristic curves, multivariate models, and validation in an independent cohort.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence "Transcription factors (TFs) collaborate to regulate gene expression programs that define cell fate" is a general statement that does not clearly frame the specific gap addressed by this study.
+  - **Required correction** Consider revising to more directly state the specific question, such as how TF collaboration can be systematically mapped and engineered in T cells.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "mORF TF-wide screen"
+  - **Evidence pointer** Methods section, paragraph 2
+  - **Issue** The description of the screen timeline is somewhat unclear, particularly the transition from Day 9 to Day 10 for expanded versus exhausted cells.
+  - **Required correction** Provide a clearer step-by-step timeline, possibly with a schematic, to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "A TF-wide gain-of-function screen reveals regulators of TOX"
+  - **Evidence pointer** Results section, paragraph 1
+  - **Issue** The threshold for significance (p-adj<0.05, |log2FC|>0.5) is stated, but the rationale for these cutoffs is not provided.
+  - **Required correction** Justify the chosen thresholds or cite precedent for their use in similar screens.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "TF collaboration enables precise state-specific regulatory control in exhaustion"
+  - **Evidence pointer** Results section, paragraph 3
+  - **Issue** The statement that composite motifs are "more state-specific than monomers" is interesting but the biological interpretation is not fully developed.
+  - **Required correction** Discuss potential mechanisms, such as cooperative binding kinetics or chromatin context, that could explain this observation.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and data tables is the primary technical failing. Additionally, the lack of benchmarking for perturb-SHARE-seq and seq2PRINT, and the absence of quantitative details for the mutagenesis and tethering experiments, prevent assessment of the core claims.
+- **Assessment against Nature-style criteria** Originality: The concept of systematically mapping TF collaboration and engineering it via tethering is novel and goes beyond single-factor studies. Scientific importance: The potential to improve CAR-T therapy and understand T cell exhaustion is high. Interdisciplinary readership: The work bridges immunology, genomics, and computational biology, which would appeal to a broad audience. Technical soundness: Cannot be assessed without the data. Readability for nonspecialists: The text is generally clear, but the methods are highly technical and would be challenging for non-experts to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has significant potential, but the absence of all supporting data makes it impossible to evaluate the claims. I would be supportive if the technical concerns are resolved and the data are provided.
+
+## Risk / unsupported claims
+- The claim of 82 exhaustion-specific regulators and 38 reproducible regulatory programs is unsupported without the underlying data.
+- The designation of RUNX as a "master collaborator" is not statistically justified in the text.
+- The claim that KLF2 is predictive of CAR-T response is not quantitatively supported.
+- The functional requirement of the RUNX2:KLF2 interface for KLF2-mediated repression is not demonstrated with sufficient detail.
+- The scalability and accuracy of perturb-SHARE-seq are not benchmarked.
+- The performance of seq2PRINT for de novo motif discovery is not validated with FDR estimates or comparisons to existing tools.

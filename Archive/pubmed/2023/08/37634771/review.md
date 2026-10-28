@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate how sequence composition and location of catabolite response elements (CREs) affect binding of the Bacillus catabolite control protein (CcpA). Using molecular docking and free energy calculations on mutants of a CRE motif from the alpha-amylase promoter, they report that disruption of conserved nucleotides, alteration of symmetric structure, and changes in the relative position of displaced CRE motifs near the transcription start site weaken CcpA-dependent regulation. They further report construction of an engineered promoter with high transcription levels and elevated extracellular enzyme activities in Bacillus amyloliquefaciens.
+- **Visible evidence base** Abstract text only; no methods, numerical results, figures, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, docking and free energy calculation details, promoter engineering data, enzyme activity measurements, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful study on the sequence determinants of CcpA-CRE binding, with an applied component in promoter engineering. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the computational methods, the robustness of the experimental validations, or the statistical support for the reported enzyme activity improvements. The central mechanistic claims are stated qualitatively without quantitative evidence. The applied outcome, while interesting, is not connected to the mechanistic findings in a way that is assessable from the abstract.
+- **Who would be interested in the results, and why** Researchers in bacterial gene regulation, particularly those studying catabolite repression and transcription factor-DNA binding specificity. Also of interest to synthetic biologists and metabolic engineers working on promoter engineering in Bacillus species for industrial enzyme production, given the reported improvements in extracellular enzyme yields.
+- **Major strengths** The study addresses a relevant and under-explored question, namely how sequence and structural variations in CRE motifs modulate CcpA binding. The combination of computational prediction (docking, free energy) with experimental promoter engineering is a useful approach. The potential practical outcome, improved enzyme production in B. amyloliquefaciens, gives the work translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular docking and free energy calculations reveal insights into binding ability between CRE sequence composition and CcpA protein.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the docking methodology, scoring functions, force fields, or free energy calculation approach (e.g., MM-PBSA, MM-GBSA, thermodynamic integration). Without this information, the reliability and accuracy of the computational predictions cannot be assessed.
+  - **Why it matters** Computational binding predictions are highly method-dependent. If the docking and free energy approaches are not validated against experimental binding data, the mechanistic conclusions drawn from them may be unsupported.
+  - **Resolution test** Provide full methods for docking and free energy calculations, including software versions, parameters, and validation against known CcpA-CRE binding affinities or experimental binding assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that disruption of conserved nucleotides, alteration of symmetric structure, and changes in relative position of displaced CRE motifs weaken CcpA-dependent regulation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states these factors "contribute to some extent" to weakening regulation, but no quantitative data are presented. There are no effect sizes, statistical tests, or comparisons across mutants. The phrase "to some extent" is vague and does not establish the magnitude or significance of the effects.
+  - **Why it matters** Without quantitative support, the central mechanistic claims remain anecdotal. The relative importance of each factor (nucleotide identity, symmetry, position) cannot be evaluated, and the claim that these are "main factors" is not justified.
+  - **Resolution test** Present quantitative binding or regulatory data for each mutant, with appropriate statistical comparisons and effect sizes, to support the relative contributions of each factor.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-support gap
+  - **Claim pointer** The authors claim that an engineered promoter with high transcription levels was obtained and that elevated extracellular enzyme activity was achieved for alkaline protease, keratinase, aminopeptidase, and acid-stable alpha amylase.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the magnitude of the transcription increase or the enzyme activity improvements. No comparison to wild-type or reference promoters is given, and no statistical analysis is mentioned. The connection between the mechanistic CRE findings and the engineered promoter outcome is not explained.
+  - **Why it matters** The applied claim is a key selling point of the study. Without quantitative comparisons and a clear link to the mechanistic findings, the practical significance cannot be assessed, and the claim that the study "provides a reference" for other promoters is not supported.
+  - **Resolution test** Provide fold-change data for transcription and enzyme activities relative to appropriate controls, with statistical analyses, and explicitly describe how the engineered promoter design was informed by the mechanistic findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "the influence of the changes in sequence and structure of CREs on recognition and binding for CcpA has yet to be unclear" is grammatically awkward and ambiguous.
+  - **Required correction** Revise to a clearer statement, for example, "the influence of sequence and structural changes in CREs on CcpA recognition and binding remains unclear."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "CRE motifts" in the final sentence is a typographical error.
+  - **Required correction** Correct to "CRE motifs."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the number of CRE mutants analyzed, the range of sequence variations tested, or the specific positions of the CRE motifs relative to the transcription start site.
+  - **Required correction** Add brief details on the mutant set and the positional variations tested to improve reproducibility and context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (computational methodology not described), R1-M2 (no quantitative data for mechanistic claims), R1-M3 (no quantitative data for applied claims and no link between mechanism and application).
+- **Assessment against Nature-style criteria** Originality: moderate. The question of CRE sequence determinants is not entirely new, but the systematic mutant analysis and the link to promoter engineering add some novelty. Scientific importance: moderate. The findings could inform both basic understanding of CcpA-DNA recognition and applied promoter design, but the significance is not established from the abstract alone. Interdisciplinary readership: limited. The study is primarily of interest to microbiologists and protein-DNA interaction specialists, with some appeal to biotechnologists. Technical soundness: not assessable from the abstract. The computational and experimental methods are not described in sufficient detail. Readability for nonspecialists: the abstract is understandable but contains jargon and lacks context for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the lack of quantitative data and methodological detail prevents assessment of the central claims. A revised manuscript with full methods, quantitative results, and statistical analyses would be needed to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that molecular docking and free energy calculations provide insights into CcpA-CRE binding is unsupported without methodological details.
+- The claim that disruption of conserved nucleotides, altered symmetry, and positional changes weaken CcpA-dependent regulation is unsupported without quantitative data.
+- The claim that an engineered promoter with high transcription and elevated enzyme activities was achieved is unsupported without quantitative comparisons.
+- The claim that the study provides a reference for other promoters with CRE motifs is not assessable from the abstract.

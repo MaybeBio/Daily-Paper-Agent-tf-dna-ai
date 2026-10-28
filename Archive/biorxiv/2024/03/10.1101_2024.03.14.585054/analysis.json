@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.14.585054",
+  "title": "Transcription factor prediction using protein 3D secondary structures",
+  "authors": "Liebold J; Neuhaus F; Geiser J; Kurtz S; Baumbach J; Newaz K",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-15",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用蛋白质3D二级结构特征通过深度学习预测转录因子，虽聚焦TF识别而非TF-DNA结合位点或互作机制，但方法可迁移至TF-DNA互作建模，具有一定参考价值。",
+  "abstract": "<h4>Motivation</h4> Transcription factors (TFs) are DNA-binding proteins that regulate gene expression. Traditional methods predict a protein as a TF if the protein contains any DNA-binding domains (DBDs) of known TFs. However, this approach fails to identify a novel TF that does not contain any known DBDs. Recently proposed TF prediction methods do not rely on DBDs. Such methods use features of protein sequences to train a machine learning model, and then use the trained model to predict whether a protein is a TF or not. Because the 3-dimensional (3D) structure of a protein captures more information than its sequence, using 3D protein structures will likely allow for more accurate prediction of novel TFs. <h4>Results</h4> We propose a deep learning-based TF prediction method (StrucTFactor) , which is the first method to utilize 3D secondary structural information of proteins. We compare StrucTFactor with recent state-of-the-art TF prediction methods based on ∼ 525 000 proteins across 12 datasets, capturing different aspects of data bias (including sequence redundancy) possibly influencing a method’s performance. We find that StrucTFactor significantly ( p -value < 0.001) outperforms the existing TF prediction methods, improving the performance over its closest competitor by up to 17% based on Matthews correlation coefficient. <h4>Availability</h4> Data and source code are available at https://github.com/lieboldj/StrucTFactor and on our website at https://apps.cosy.bio/StrucTFactor/ <h4>Contact</h4> khalique.newaz@uni-hamburg.de <h4>Supplementary information</h4> Included",
+  "abstract_zh": "<h4>动机</h4> 转录因子（TFs）是调控基因表达的DNA结合蛋白。传统方法若蛋白质含有已知转录因子的任何DNA结合域（DBDs），则将其预测为转录因子。然而，这种方法无法识别不含任何已知DBDs的新型转录因子。近期提出的转录因子预测方法不依赖于DBDs。此类方法利用蛋白质序列特征训练机器学习模型，随后使用训练好的模型预测蛋白质是否为转录因子。由于蛋白质的三维（3D）结构比其序列包含更多信息，使用3D蛋白质结构可能有助于更准确地预测新型转录因子。<h4>结果</h4> 我们提出了一种基于深度学习的转录因子预测方法（StrucTFactor），这是首个利用蛋白质3D二级结构信息的方法。我们将StrucTFactor与近期最先进的转录因子预测方法进行比较，基于12个数据集中约525,000个蛋白质，涵盖可能影响方法性能的不同数据偏差方面（包括序列冗余性）。我们发现StrucTFactor显著（p值<0.001）优于现有转录因子预测方法，基于马修斯相关系数，其性能比最接近的竞争者提高了最多17%。<h4>可用性</h4> 数据和源代码可在https://github.com/lieboldj/StrucTFactor 及我们的网站https://apps.cosy.bio/StrucTFactor/ 获取。<h4>联系方式</h4> khalique.newaz@uni-hamburg.de <h4>补充信息</h4> 已包含",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585054",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585054",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.14.585054/index.html"
+}

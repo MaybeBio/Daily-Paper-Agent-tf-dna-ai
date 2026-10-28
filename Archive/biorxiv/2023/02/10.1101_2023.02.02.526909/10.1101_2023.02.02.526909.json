@@ -1,0 +1,131 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.02.526909",
+  "title": "Structure Primed Embedding on the Transcription Factor Manifold Enables Transparent Model Architectures for Gene Regulatory Network and Latent Activity Inference",
+  "doi": "10.1101/2023.02.02.526909",
+  "abstract": "The modeling of gene regulatory networks (GRNs) is limited due to a lack of direct measurements of regulatory features in genome-wide screens. Most GRN inference methods are therefore forced to model relationships between regulatory genes and their targets with expression as a proxy for the upstream independent features, complicating validation and predictions produced by modeling frameworks. Separating covariance and regulatory influence requires aggregation of independent and complementary sets of evidence, such as transcription factor (TF) binding and target gene expression. However, the complete regulatory state of the system, e.g . TF activity (TFA) is unknown due to a lack of experimental feasibility, making regulatory relations difficult to infer. Some methods attempt to account for this by modeling TFA as a latent feature, but these models often use linear frameworks that are unable to account for non-linearities such as saturation, TF-TF interactions, and other higher order features. Deep learning frameworks may offer a solution, as they are capable of modeling complex interactions and capturing higher-order latent features. However, these methods often discard central concepts in biological systems modeling, such as sparsity and latent feature interpretability, in favor of increased model complexity. We propose a novel deep learning autoencoder-based framework, StrUcture Primed Inference of Regulation using latent Factor ACTivity (SupirFactor), that scales to single cell genomic data and maintains interpretability to perform GRN inference and estimate TFA as a latent feature. We demonstrate that SupirFactor outperforms current leading GRN inference methods, predicts biologically relevant TFA and elucidates functional regulatory pathways through aggregation of TFs.",
+  "authors": [
+    "Tjärnberg A",
+    "Beheler-Amass M",
+    "Jackson CA",
+    "Christiaen LA",
+    "Gresham D",
+    "Bonneau R"
+  ],
+  "published_date": "2023-02-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.02.526909",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.02.526909.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR612462",
+    "raw_record": {
+      "id": "PPR612462",
+      "source": "PPR",
+      "doi": "10.1101/2023.02.02.526909",
+      "title": "Structure Primed Embedding on the Transcription Factor Manifold Enables Transparent Model Architectures for Gene Regulatory Network and Latent Activity Inference",
+      "authorString": "Tjärnberg A, Beheler-Amass M, Jackson CA, Christiaen LA, Gresham D, Bonneau R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tjärnberg A",
+            "lastName": "Tjärnberg",
+            "firstName": "Andreas",
+            "initials": "A"
+          },
+          {
+            "fullName": "Beheler-Amass M",
+            "lastName": "Beheler-Amass",
+            "firstName": "Maggie",
+            "initials": "M"
+          },
+          {
+            "fullName": "Jackson CA",
+            "lastName": "Jackson",
+            "firstName": "Christopher",
+            "initials": "CA"
+          },
+          {
+            "fullName": "Christiaen LA",
+            "lastName": "Christiaen",
+            "firstName": "Lionel",
+            "initials": "LA"
+          },
+          {
+            "fullName": "Gresham D",
+            "lastName": "Gresham",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Bonneau R",
+            "lastName": "Bonneau",
+            "firstName": "Richard",
+            "initials": "R"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The modeling of gene regulatory networks (GRNs) is limited due to a lack of direct measurements of regulatory features in genome-wide screens. Most GRN inference methods are therefore forced to model relationships between regulatory genes and their targets with expression as a proxy for the upstream independent features, complicating validation and predictions produced by modeling frameworks. Separating covariance and regulatory influence requires aggregation of independent and complementary sets of evidence, such as transcription factor (TF) binding and target gene expression. However, the complete regulatory state of the system,  e.g . TF activity (TFA) is unknown due to a lack of experimental feasibility, making regulatory relations difficult to infer. Some methods attempt to account for this by modeling TFA as a latent feature, but these models often use linear frameworks that are unable to account for non-linearities such as saturation, TF-TF interactions, and other higher order features. Deep learning frameworks may offer a solution, as they are capable of modeling complex interactions and capturing higher-order latent features. However, these methods often discard central concepts in biological systems modeling, such as sparsity and latent feature interpretability, in favor of increased model complexity. We propose a novel deep learning autoencoder-based framework,  StrUcture Primed Inference of Regulation using latent Factor ACTivity (SupirFactor), that scales to single cell genomic data and maintains interpretability to perform GRN inference and estimate TFA as a latent feature. We demonstrate that SupirFactor outperforms current leading GRN inference methods, predicts biologically relevant TFA and elucidates functional regulatory pathways through aggregation of TFs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.02.526909"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38238840",
+            "reference": "Genome biology. 2024 Jan;25(1):24",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-02-07",
+      "firstPublicationDate": "2023-02-03",
+      "firstIndexDate": "2023-02-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

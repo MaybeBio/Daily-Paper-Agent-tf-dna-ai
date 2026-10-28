@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40936337",
+  "title": "Identifying Gene Predictors of Chemicals Linked With Breast Cancer: A Machine Learning Analysis of MCF7 Cellular Transcriptomic Screening Data.",
+  "authors": "Koval, Lauren E; Judson, Richard; Rager, Julia E",
+  "journal": "Environmental and molecular mutagenesis",
+  "published_date": "2025-09-12",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习分析MCF7细胞转录组数据预测与乳腺癌相关的化学物，虽涉及RUNX2等转录因子基因，但核心是化学物风险分类而非蛋白质-DNA互作建模，方法为纯转录组统计，无三维互作或结合机制研究。",
+  "abstract": "Breast cancer is the most prevalent cancer in women and has been linked to exposure to environmental chemicals. However, many chemicals have not been evaluated for relationships with this outcome. In this study, we analyzed RNA sequencing data from human breast cancer-derived MCF7 cells exposed to hundreds of individual chemicals. These chemicals were binned into three categories: (1) chemicals with known associations to breast cancer (BCs); (2) chemicals with a lack of relationship to breast cancer (NBCs); and (3) chemicals that remain understudied for breast cancer risk (UCs). Machine learning models were trained to discriminate between BCs and NBCs based on transcriptomic and physicochemical property data. The best model yielded a balanced accuracy of 80% and was applied to the UCs. A total of 170 genes were found to contribute to model performance, including Claspin (CLSPN), Runt-related Transcription Factor 2 (RUNX2), and Ubinuclein 2 (UBN2). These genes further informed enriched pathways relevant to inflammation, ferroptosis signaling, and cell proliferation. Additionally, 97 UCs were predicted to be more analogous to BCs, including select biocides and dyes. To ground results in human population data, expression profiles for the 170 genes were assessed in tumor samples from The Cancer Genome Atlas, yielding overlap in human cancer-relevant alterations and in vitro chemical-induced alterations. Collectively, this study addresses a gap related to understanding which chemicals may be of interest for further characterization of breast cancer risk by prioritizing chemicals and underlying mechanisms using high-throughput transcriptomic screening data.",
+  "abstract_zh": "乳腺癌是女性中最常见的癌症，并与环境化学物质暴露相关联。然而，许多化学物质尚未评估其与此结局的关系。在本研究中，我们分析了暴露于数百种单一化学物质的人乳腺癌来源MCF7细胞的RNA测序数据。这些化学物质被分为三类：（1）已知与乳腺癌相关的化学物质（BCs）；（2）与乳腺癌缺乏关联的化学物质（NBCs）；（3）在乳腺癌风险方面仍研究不足的化学物质（UCs）。基于转录组和理化性质数据，训练了机器学习模型以区分BCs和NBCs。最佳模型实现了80%的平衡准确率，并将其应用于UCs。共发现170个基因对模型性能有贡献，包括Claspin (CLSPN)、Runt相关转录因子2 (RUNX2)和Ubinuclein 2 (UBN2)。这些基因进一步提示了与炎症、铁死亡信号传导和细胞增殖相关的富集通路。此外，预测有97个UCs更类似于BCs，包括特定的杀生物剂和染料。为了将结果与人类群体数据相结合，评估了来自癌症基因组图谱的肿瘤样本中这170个基因的表达谱，发现人类癌症相关改变与体外化学诱导改变之间存在重叠。总体而言，本研究通过使用高通量转录组筛选数据优先排序化学物质及其潜在机制，填补了关于哪些化学物质可能值得进一步表征乳腺癌风险方面的空白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40936337/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40936337/",
+  "paper_page_path": "papers/pubmed/40936337/index.html"
+}

@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results and Discussion, Materials and Methods, Conclusions) as provided by the user. No supplementary files, figures, or tables were supplied.
+- **Assessment boundary** The review is limited to the content of the provided manuscript text. Claims regarding experimental procedures, computational parameters, and results are assessed based on what is stated in the text. No external validation of data or methods was performed.
+- **Shared manuscript claim summary** The authors claim that evodiamine (EVO) and rutaecarpine (RUT), two alkaloids from *Evodia rutaecarpa*, are potential anticancer compounds acting as topoisomerase 1 (TOP1) inhibitors. This is supported by density functional theory (DFT) calculations, molecular docking, molecular dynamics (MD) simulations, and binding free energy analyses. The authors further claim that EVO has stronger binding affinity and antitumor activity than RUT, and that the computational results explain the structure-activity relationship and antitumor mechanism at the molecular level.
+- **Visible evidence base** The manuscript text includes descriptions of DFT-optimized geometries, NPA charges, MEP maps, FMO energies, reactivity descriptors, molecular docking poses, MD simulation trajectories (RMSD, RMSF, radius of gyration, surface analysis), and MM/GBSA binding free energies. Tables and figures are referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** All figures (Figures 1-5, S1-S9) and tables (Tables 1, S1-S6) are referenced but not included. Experimental details for the MTT assay are incomplete (e.g., drug concentrations, incubation times, statistical methods). The docking scoring function, MD simulation convergence criteria, and force field parameters are only partially described. The manuscript text contains an apparent internal contradiction in Section 2.1 that cannot be resolved without the original data.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational study of two natural compounds, EVO and RUT, as potential TOP1 inhibitors. The combination of DFT, docking, and MD simulations is a reasonable approach for generating hypotheses about drug-target interactions. However, the manuscript has several significant issues that undermine the strength of its conclusions. The most serious problem is an internal contradiction in Section 2.1, where the text states that "the anti-tumor activity of RUT was stronger than that of RUT," which is logically impossible and contradicts the subsequent conclusion that EVO has stronger activity. The computational methods are described with insufficient detail to assess their validity, and the connection between computational predictions and biological activity is asserted rather than demonstrated. The manuscript would benefit from a more cautious interpretation of the results and a clearer acknowledgment of the limitations of computational predictions.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, natural product chemistry, and medicinal chemistry would find this study of interest. The work provides a computational framework for evaluating the potential of natural alkaloids as TOP1 inhibitors, which could inform future experimental studies. The DFT analysis of electronic properties and the MD-based binding free energy calculations are techniques that are widely applicable in the field. However, the interest would be primarily methodological and hypothesis-generating, rather than providing definitive evidence of anticancer activity.
+- **Major strengths** The study combines multiple computational techniques (DFT, docking, MD, MM/GBSA) to provide a comprehensive analysis of the two compounds. The use of a known inhibitor (CPT) as a comparison is appropriate. The authors attempt to link electronic properties (FMO energies, reactivity descriptors) with binding affinity, which is a useful approach. The MD simulations over 100 ns are reasonably long for this type of study, and the analysis of binding free energy components (polar vs. nonpolar) provides insight into the driving forces of binding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency and data reporting
+  - **Claim pointer** The authors claim that "the anti-tumor activity of RUT was stronger than that of RUT" in Section 2.1, which is a direct contradiction. The same section reports inhibition rates of 40.00 ± 6.16% for EVO and 10.70 ± 1.65% for RUT at 100 μmol/L, which would indicate EVO has stronger activity, not RUT.
+  - **Evidence pointer** Section 2.1, Figure S1 (not provided)
+  - **Concern** The text in Section 2.1 contains a logical error. The sentence "This showed that the anti-tumor activity of RUT was stronger than that of RUT" is nonsensical. Based on the reported inhibition rates, the correct conclusion should be that EVO has stronger activity than RUT. This error is not a minor typographical issue; it affects the interpretation of the experimental data and the subsequent comparison with computational results.
+  - **Why it matters** The manuscript's central claim is that EVO has stronger antitumor activity than RUT, and this is used to validate the computational predictions. If the experimental data are misreported or misinterpreted, the entire validation framework collapses. The reader cannot determine which compound actually showed stronger activity in the MTT assay, and this uncertainty propagates through the rest of the manuscript.
+  - **Resolution test** The authors must correct the statement in Section 2.1 to accurately reflect the data in Figure S1. The corrected text should clearly state which compound showed higher inhibition rates and at which concentrations. The corrected conclusion must be consistent with the reported numerical values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and claim support
+  - **Claim pointer** The authors claim that EVO and RUT "may be potential TOP1 inhibitors" and that the computational results "elucidated the structure-activity relationship and the antitumor mechanism of EVO and RUT at the molecular level."
+  - **Evidence pointer** Sections 2.3, 2.4, 2.5, 2.6; Figures 4-5, S2-S9; Tables S3-S6 (not provided)
+  - **Concern** The manuscript relies entirely on computational predictions to support the claim of TOP1 inhibition. No experimental validation of TOP1 inhibition is presented. The MTT assay measures cell viability, which is a downstream effect that could be caused by many mechanisms unrelated to TOP1 inhibition. The docking and MD simulations predict binding, but they do not demonstrate functional inhibition. The authors do not discuss the limitations of computational predictions or acknowledge that the predicted binding modes have not been experimentally confirmed.
+  - **Why it matters** The title and abstract present EVO and RUT as "potential anticancer compounds" and the manuscript claims to clarify their "antitumor mechanism." However, the evidence presented is purely computational. Without experimental validation of TOP1 inhibition (e.g., a topoisomerase relaxation assay), the mechanistic claims are speculative. The manuscript overstates the strength of the conclusions relative to the evidence provided.
+  - **Resolution test** The authors should either (a) provide experimental data demonstrating TOP1 inhibition, or (b) substantially revise the claims to clearly state that the results are computational predictions that require experimental validation. The title and abstract should be adjusted to reflect the level of evidence presented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The authors describe DFT calculations at the B3LYP/6-311++G (d, p) level, molecular docking with AUTODOCK 4.2, and MD simulations with AMBER 12 using the ff14SB and GAFF force fields.
+  - **Evidence pointer** Sections 3.2, 3.3, 3.4, 3.5
+  - **Concern** The methods section lacks critical details needed for reproducibility. For the DFT calculations, the authors do not specify whether dispersion corrections were applied, which is important for systems with significant pi-pi stacking interactions. For the docking, the grid box dimensions are given (44 x 44 x 44 points, 0.375 Å spacing), but the center of the grid is not specified. The docking scoring function is not identified. For the MD simulations, the equilibration protocol is described, but the production run temperature and pressure coupling methods are not stated. The MM/GBSA calculations are described, but the salt concentration and internal dielectric constant are not specified.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of methodological detail prevents other researchers from replicating the calculations or assessing the validity of the results. The choice of dispersion correction, docking scoring function, and MM/GBSA parameters can significantly affect the results, and the authors do not provide sufficient information for the reader to evaluate these choices.
+  - **Resolution test** The authors should provide a complete description of all computational parameters, including dispersion corrections, docking scoring function, grid center coordinates, MD production run conditions, and MM/GBSA parameters. If these details are provided in the supplementary materials, they should be explicitly referenced.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of computational results
+  - **Claim pointer** The authors claim that "the binding free energy of EVO with TOP1 was −8.79 kcal·mol−1, which is lower than that of −8.32 kcal·mol−1 for RUT, thereby indicating that EVO might be a better inhibitor of TOP1 than RUT." They also report MM/GBSA binding free energies of −35.97 kcal·mol−1 for EVO and −33.34 kcal·mol−1 for RUT.
+  - **Evidence pointer** Sections 2.3, 2.5; Tables S3, S4 (not provided)
+  - **Concern** The manuscript reports two different binding free energy values for the same complexes: docking scores (−8.79 and −8.32 kcal·mol−1) and MM/GBSA values (−35.97 and −33.34 kcal·mol−1). The relationship between these two sets of values is not explained. The difference of 0.47 kcal·mol−1 in docking scores is small and may not be statistically significant, yet the authors use this difference to conclude that EVO is a better inhibitor. The MM/GBSA values are much more negative than typical experimental binding free energies, which suggests that the calculations may be overestimating the binding affinity. The authors do not discuss the uncertainty in these calculations or compare them to experimental binding affinities.
+  - **Why it matters** The conclusion that EVO is a better inhibitor than RUT is based on small differences in computed binding energies. Without an assessment of the statistical significance of these differences or a comparison to experimental data, the conclusion is not well supported. The large discrepancy between docking scores and MM/GBSA values also raises questions about the reliability of the calculations.
+  - **Resolution test** The authors should provide error estimates for the binding free energy calculations (e.g., standard deviations from multiple MD trajectories or bootstrap analysis). They should also discuss the relationship between docking scores and MM/GBSA values and compare their computed binding affinities to any available experimental data for EVO, RUT, or related compounds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and accuracy of writing
+  - **Affected element** Section 2.1, last sentence
+  - **Evidence pointer** Section 2.1
+  - **Issue** The sentence "This showed that the anti-tumor activity of RUT was stronger than that of RUT" is a clear typographical error. Based on the reported data, it should read "EVO was stronger than RUT" or similar.
+  - **Required correction** Correct the sentence to accurately reflect the data. For example: "This showed that the anti-tumor activity of EVO was stronger than that of RUT."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of experimental description
+  - **Affected element** Section 3.1, MTT assay
+  - **Evidence pointer** Section 3.1
+  - **Issue** The MTT assay description is incomplete. The authors state that cells were treated with "different kinds and concentrations of drugs" but do not specify the concentration range, the number of replicates, the incubation time for drug treatment, or the statistical analysis method used. The wavelength for absorbance reading is given as 450 nm, but the reference wavelength is not mentioned.
+  - **Required correction** Provide a complete description of the MTT assay, including drug concentrations, treatment duration, number of replicates, and statistical analysis methods. If this information is in the supplementary materials, reference it explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Sections 2.2.1, 2.2.2, 2.2.3, 2.2.4
+  - **Issue** The manuscript uses both "N6" and "N13" to refer to nitrogen atoms in the compounds, and "O5" appears in the NPA analysis. The atom numbering is not defined or shown in a figure. This makes it difficult for the reader to follow the discussion of specific atoms.
+  - **Required correction** Define the atom numbering system, either by referencing Figure 1 (which is not provided) or by including a numbered structure in the text. Ensure consistent use of atom labels throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of DFT results
+  - **Affected element** Section 2.2.4
+  - **Evidence pointer** Section 2.2.4, Table S2 (not provided)
+  - **Issue** The authors state that "the values of χ, δ, and ω for EVO were higher than those of RUT, while η for EVO was lower than that of RUT" and use this to predict stronger interactions with the receptor. However, the connection between these global reactivity descriptors and specific binding affinity to a protein target is not straightforward. The authors do not discuss the limitations of using gas-phase or implicit solvent DFT descriptors to predict protein binding.
+  - **Required correction** Add a brief discussion of the limitations of using global reactivity descriptors for predicting protein-ligand binding, and avoid overinterpreting small differences in these values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure and table referencing
+  - **Affected element** All figures and tables
+  - **Evidence pointer** Figures 1-5, S1-S9; Tables 1, S1-S6 (not provided)
+  - **Issue** The manuscript references many figures and tables, but none are provided in the submitted material. It is impossible to verify the claims made in the text without seeing the actual data. For example, the docking poses in Figure 4 and the MD trajectories in Figure 5 are critical for evaluating the results.
+  - **Required correction** Ensure that all figures and tables are included in the submission and are of sufficient quality to support the claims made in the text. If the manuscript is under review, the reviewers should have access to all supplementary materials.
+
+## Risk / unsupported claims
+- The claim that EVO and RUT "may be potential TOP1 inhibitors" is unsupported by direct experimental evidence. The computational predictions suggest binding, but no functional assay data are presented.
+- The claim that "EVO outperformed RUT in antitumor activity" is based on a single MTT assay at a single time point, and the text contains a contradictory statement about which compound showed stronger activity.
+- The claim that the computational results "elucidated the structure-activity relationship and the antitumor mechanism" is overstated. The results provide hypotheses, not elucidation, in the absence of experimental validation.
+- The relationship between the DFT-derived reactivity descriptors (χ, η, δ, ω) and the observed or predicted biological activity is asserted but not rigorously established.
+- The statement that "the binding free energy of EVO with TOP1 was −8.79 kcal·mol−1" is presented as a definitive value, but docking scores are not true binding free energies and should be interpreted with caution.
+- The claim that "the polar terms for EVO/TOP1 and RTP/TOP1 were 18.70 kcal/mol and 15.46 kcal/mol, respectively" and the interpretation that "polar interactions are unfavorable for their binding" is presented without discussion of the uncertainty in these MM/GBSA calculations.
+- The manuscript states that "the anti-tumor activity of RUT was stronger than that of RUT," which is a nonsensical claim that cannot be evaluated.
+
+## Assessment against Nature-style criteria
+- **Originality** The study applies well-established computational methods (DFT, docking, MD, MM/GBSA) to two known natural compounds. The combination of methods is not novel, and the compounds have been previously studied for anticancer activity. The originality is limited to the specific application to EVO and RUT as TOP1 inhibitors, which has been partially explored in prior literature. The study does not introduce new methods or concepts.
+- **Scientific importance** The potential of natural products as anticancer agents is of general interest, and TOP1 is a validated anticancer target. However, the study provides only computational predictions without experimental validation. The scientific importance is therefore limited to hypothesis generation. The conclusions are not sufficiently supported to have a significant impact on the field.
+- **Interdisciplinary readership** The study bridges computational chemistry, structural biology, and medicinal chemistry. It could appeal to researchers in these fields. However, the presentation is heavily focused on computational details, and the biological implications are not developed in sufficient depth to attract a broader readership. The manuscript would be of interest primarily to specialists in computational drug discovery.
+- **Technical soundness** The computational methods are standard and generally appropriate for the questions asked. However, the lack of methodological detail (e.g., dispersion corrections, docking scoring function, MD production conditions, MM/GBSA parameters) prevents a full assessment of technical soundness. The internal contradiction in Section 2.1 raises concerns about the reliability of the data reporting. The interpretation of small differences in binding energies as significant is not justified.
+- **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with computational chemistry methods. The introduction provides some context, but the results and discussion sections are dense and would be difficult for nonspecialists to follow. The lack of clear definitions for atom numbering and the absence of figures in the submitted material further reduce readability.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript has a fundamental internal contradiction in the reporting of experimental results (Section 2.1), which undermines confidence in the data. The central claims of TOP1 inhibition and differential antitumor activity are based on computational predictions without experimental validation. The methods are described with insufficient detail to assess their validity. The manuscript would require major revisions, including correction of the contradictory statement, substantial expansion of methodological details, and a more cautious interpretation of the results, before the claims could be considered established. The study may be suitable for a specialized computational journal after these revisions, but it does not meet the standards of significance and rigor expected for a high-impact general journal.

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary material references)
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality as presented in the provided text
+- **Shared manuscript claim summary** The authors present a coarse-grained nucleosome-resolution model (NICG) that incorporates epigenetic modifications (acetylation, H1, BRD4) to simulate chromatin domain dynamics. They apply this model to the Pou5f1 and Sox2 loci in mouse embryonic stem cells and report that epigenetic-driven nucleosome interactions alone can produce sub-TAD-scale compartmentalization, dynamic liquid-like domains, and transient enhancer-promoter contacts.
+- **Visible evidence base** Main text figures referenced (Figs 1-8), supplementary figures (S1-S13), supplementary methods, simulation trajectories and scripts deposited in BSMA and GitHub
+- **Missing materials affecting confidence** Figures and supplementary figures themselves are not viewable in the provided text; supplementary methods details are referenced but not fully included; exact simulation parameters and analysis code outputs cannot be independently verified from the text alone
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially valuable computational model addressing the relationship between epigenetic marks and chromatin 3D organization. The NICG model is thoughtfully designed, with parameterization grounded in experimental data and validation against phase separation behavior. The application to two biologically relevant loci (Pou5f1 and Sox2) demonstrates the model's utility. However, several concerns regarding the strength of the central claims, the interpretation of in silico perturbation experiments, and the generalizability of the findings require careful consideration. The manuscript would benefit from clearer articulation of the model's limitations and more rigorous statistical treatment of the comparisons between simulation and experiment.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetics, genome organization, and computational biophysics would find this work relevant. The model offers a computationally efficient tool for exploring how epigenetic modifications influence chromatin folding, which could be of interest to those studying gene regulation, enhancer-promoter communication, and the physical principles underlying genome architecture. The methodological approach may also appeal to developers of coarse-grained polymer models.
+- **Major strengths** The model is computationally efficient yet retains sufficient molecular detail to capture nucleosome-level interactions. The parameterization strategy, grounded in multiple experimental datasets (DNA persistence length, nucleosome unwrapping, sedimentation coefficients), is rigorous. The validation against liquid-liquid phase separation behavior and the checkerboard pattern in alternating modification arrays strengthens confidence in the model. The application to real genomic loci with experimentally derived epigenetic data demonstrates practical utility. The in silico perturbation studies provide systematic exploration of individual factor contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract states that the model "captures the essential features of chromatin organization over multiple scales: from nucleosome dynamics to chromatin fiber folding, and liquid-liquid phase separation."
+  - **Evidence pointer** Results sections "Nucleosome interactions induce 10-kilobase scale compartmentalization" and "Chromatin forms highly dynamic domains"; Figure 4 and 5
+  - **Concern** The claim of capturing organization "over multiple scales" is only partially supported. While the model reproduces fiber-level compaction and domain formation, the connection to liquid-liquid phase separation is validated only in simplified in vitro-like conditions (45 copies of 12-nucleosome fibers), not in the context of the full genomic loci simulations. The leap from these validation simulations to the claim of capturing phase separation in the Pou5f1 and Sox2 loci is not fully justified. Additionally, the timescale of 0.7-1.4 seconds may be insufficient to observe true phase separation equilibration, and the authors do not demonstrate that the observed domains represent equilibrium phase-separated states rather than kinetically trapped configurations.
+  - **Why it matters** The multi-scale claim is central to the paper's significance. If the model does not genuinely capture phase separation behavior in the genomic context, the interpretation of the observed domains as "liquid-like" and the subsequent conclusions about enhancer-promoter communication would be weakened.
+  - **Resolution test** Provide quantitative evidence that the domains observed in the Pou5f1 and Sox2 simulations meet established criteria for phase-separated condensates (e.g., concentration profiles, surface tension measurements, or scaling analysis). Alternatively, temper the claim to specify that the model captures phase separation in simplified systems and that the genomic simulations show domain formation consistent with, but not definitive proof of, phase separation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "PCA of the normalized contact map identifies 2 compartments, characterized by either high or low acetylation levels, with PC1 being correlated with acetylation (Fig. 4B, r = 0.55, P = 1.3 × 10–10)."
+  - **Evidence pointer** Results section "Nucleosome interactions induce 10-kilobase scale compartmentalization"; Figure 4B
+  - **Concern** The correlation between PC1 and acetylation is reported with a p-value, but the manuscript does not describe how statistical significance was assessed. Given that the contact map is derived from a single simulation trajectory (or a small number of replicas), the effective sample size for this correlation is unclear. Spatial autocorrelation in the contact map could inflate the apparent significance. The comparison with experimental data (r = 0.08, p = 0.38) similarly lacks methodological detail.
+  - **Why it matters** The statistical comparison between simulation and experiment is a key piece of evidence for the model's validity. Without proper statistical treatment, the reader cannot assess whether the lack of significant correlation with experimental data undermines the model or reflects methodological limitations.
+  - **Resolution test** Describe the statistical method used to compute p-values for correlations involving spatially autocorrelated data. Consider using permutation tests or block bootstrap approaches that account for spatial structure. Report confidence intervals for correlation coefficients.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Our simulations reveal that chromatin folds into liquid-like domains characterized by similar histone modifications. These domains are highly dynamic, driving the formation of direct contacts between distant cis-regulatory regions."
+  - **Evidence pointer** Results sections on Pou5f1 and Sox2 loci; Figures 4, 5, 8
+  - **Concern** The manuscript reports results from only two loci (Pou5f1 and Sox2), both of which are active, acetylated loci in mESCs. The claim that the model reveals general principles of epigenetic-driven chromatin organization would be strengthened by application to loci with different epigenetic states (e.g., repressed, poised, or heterochromatic regions). The authors acknowledge this limitation in the discussion but do not address how the model would perform for such regions, where H1 and acetylation patterns differ substantially.
+  - **Why it matters** The broader significance of the work depends on whether the model captures general principles or is specific to active loci. Without testing on diverse epigenetic contexts, the conclusions may not generalize.
+  - **Resolution test** Apply the model to at least one additional locus with a different epigenetic state (e.g., a repressed or bivalent locus) and show that the model produces distinct, experimentally consistent domain organization. Alternatively, clearly frame the conclusions as specific to active loci and discuss what would be needed to extend the model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** "The calculated equilibrium constant of spontaneous nucleosome unwrapping, 0.10 ± 0.01, was consistent with the experimental value at physiological conditions reported by Li and Widom (0.02-0.1), but somewhat smaller than the estimate by Koopmans et al. (0.2-0.6)."
+  - **Evidence pointer** Methods section "Force field parametrization and validation"; Supplementary Figure S1B
+  - **Concern** The manuscript reports agreement with one experimental measurement but acknowledges discrepancy with another. The authors do not discuss the implications of this discrepancy for the model's predictive power regarding nucleosome dynamics. The factor of 2-6 difference from the Koopmans estimate could affect conclusions about nucleosome mobility and domain dynamics.
+  - **Why it matters** Nucleosome unwrapping is a key dynamic process in the model. If the unwrapping equilibrium is underestimated, the model may underestimate chromatin accessibility and overestimate domain stability.
+  - **Resolution test** Discuss the source of the discrepancy (e.g., differences in experimental conditions, salt concentrations, or nucleosome positioning). Perform sensitivity analysis showing how the unwrapping equilibrium constant affects the main conclusions about domain dynamics and enhancer-promoter contacts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Pou5f1 and Sox2 loci model"
+  - **Evidence pointer** "Nucleosome positions were determined by peak calling based on the chemical mapping scores, resulting in an average NRL of 195 bp, which is larger than the peak in the distribution of genomic distance between neighboring nucleosomes."
+  - **Issue** The sentence is ambiguous regarding whether the average NRL of 195 bp is a property of the experimental data or a consequence of the peak calling procedure. The phrase "which is larger than the peak in the distribution" is unclear.
+  - **Required correction** Clarify whether 195 bp is the mean of the called nucleosome positions or the mode of the distribution. Specify the peak value for comparison and explain the biological or methodological significance of the difference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Epigenetic-dependent nucleosomes clutches along the chromatin fiber"
+  - **Evidence pointer** "Stacking was found to make up about 20% of all nearest-neighbor interactions, but only about 3% for pairs of acetylated nucleosomes."
+  - **Issue** The manuscript does not report the statistical uncertainty or variability of these percentages across replicas or time points. Given the dynamic nature of the system, these values may fluctuate considerably.
+  - **Required correction** Report standard deviations or ranges for these percentages across replicas and time points. If the values are stable, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** "Our results also rationalize the surprising observation that gene activation state appears to be mostly uncoupled from the underlying chromatin structure."
+  - **Issue** This statement is presented as a conclusion from the simulations, but the connection between the simulation results and this specific experimental observation is not clearly articulated. The simulations do not directly model transcription or gene activation.
+  - **Required correction** Explain more explicitly how the simulation results (e.g., transient enhancer-promoter contacts, dynamic domains) provide a mechanistic explanation for the observed uncoupling between gene activation and chromatin structure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Coarse-grained simulation"
+  - **Evidence pointer** "A uniform mass of one unit was assigned to all bead types."
+  - **Issue** The manuscript does not specify the unit system used for mass, length, and energy in the simulations. This information is essential for reproducing the simulations.
+  - **Required correction** Specify the unit system (e.g., reduced units, SI units) and provide conversion factors if applicable.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section "Nucleosome interactions induce 10-kilobase scale compartmentalization"
+  - **Evidence pointer** "The simulation successfully captured dynamical fluctuations of chromatin structures (Supplementary Movie 1)."
+  - **Issue** The manuscript references supplementary movies but does not describe what is shown in them or how they support the claims. Readers without access to the movies cannot evaluate this evidence.
+  - **Required correction** Provide a brief description of what is shown in each supplementary movie and how it supports the specific claims made in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (multi-scale claim not fully supported), R1-M2 (statistical methods for correlation analysis not described)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work presents a novel integration of epigenetic marks into a nucleosome-resolution coarse-grained model. While individual components (coarse-grained chromatin models, phase separation simulations) exist, the specific combination and application to real genomic loci with experimentally derived epigenetic data is original.
+  - Scientific importance: The question of how epigenetic marks shape 3D genome organization is of high importance. The model offers a computationally tractable approach that could be widely used. However, the demonstration that the model provides new biological insights beyond what is already known from experiments is not fully established.
+  - Interdisciplinary readership: The work bridges chromatin biology, epigenetics, and computational biophysics. The writing is generally accessible, though some sections assume familiarity with polymer physics concepts. The biological implications are clearly articulated.
+  - Technical soundness: The parameterization strategy is sound and grounded in experimental data. The validation against phase separation behavior is appropriate. However, the statistical treatment of some comparisons and the sensitivity of conclusions to model parameters need more attention.
+  - Readability for nonspecialists: The abstract and introduction are accessible. The results section is dense but generally clear. Some methodological details are relegated to supplementary materials, which is appropriate for the target audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The model is potentially valuable and the application to real loci is compelling. However, the multi-scale claim needs to be tempered or better supported, and the statistical methods need to be clarified. The manuscript would benefit from application to additional loci with diverse epigenetic states to establish generalizability.
+
+## Risk / unsupported claims
+- The claim that the model captures "liquid-liquid phase separation" in the context of the full genomic loci simulations is not directly demonstrated; phase separation is validated only in simplified in vitro-like conditions.
+- The statement that "epigenetics alone cannot fully explain the experimental Pou5f1 contact map" is supported by the reported correlation (r = 0.08, p = 0.38), but the statistical methodology is not described, making the strength of this claim uncertain.
+- The claim that "in silico mutation studies further clarify the roles of individual epigenetic factors" is presented in the abstract but the detailed results of these mutation studies are not fully described in the provided text.
+- The assertion that the model "allows the study of 100 kb genomic regions on a timescale of seconds with moderate resources" is stated but the computational cost is not quantified in the provided text.
+- The statement that "stacking interactions appear more prominent compared to that observed in human T-lymphoblasts from cryo-ET" is presented without quantitative comparison or statistical assessment.

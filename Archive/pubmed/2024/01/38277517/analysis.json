@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38277517",
+  "title": "Identification of potential biomarkers in the peripheral blood of neonates with bronchopulmonary dysplasia using WGCNA and machine learning algorithms.",
+  "authors": "Luo, Liyan; Luo, Fei; Wu, Chuyan; Zhang, Hong; Jiang, Qiaozhi; He, Sixiang; Li, Weibi; Zhang, Wenlong; Cheng, Yurong; Yang, Pengcheng; Li, Zhenghu; Li, Min; Bao, Yunlei; Jiang, Feng",
+  "journal": "Medicine",
+  "published_date": "2024-01-26",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用WGCNA和机器学习筛选新生儿支气管肺发育不良外周血生物标志物，仅涉及转录因子分析预测调控机制，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关系微弱。",
+  "abstract": "Bronchopulmonary dysplasia (BPD) is often seen as a pulmonary complication of extreme preterm birth, resulting in persistent respiratory symptoms and diminished lung function. Unfortunately, current diagnostic and treatment options for this condition are insufficient. Hence, this study aimed to identify potential biomarkers in the peripheral blood of neonates affected by BPD. The Gene Expression Omnibus provided the expression dataset GSE32472 for BPD. Initially, using this database, we identified differentially expressed genes (DEGs) in GSE32472. Subsequently, we conducted gene set enrichment analysis on the DEGs and employed weighted gene co-expression network analysis (WGCNA) to screen the most relevant modules for BPD. We then mapped the DEGs to the WGCNA module genes, resulting in a gene intersection. We conducted detailed functional enrichment analyses on these overlapping genes. To identify hub genes, we used 3 machine learning algorithms, including SVM-RFE, LASSO, and Random Forest. We constructed a diagnostic nomogram model for predicting BPD based on the hub genes. Additionally, we carried out transcription factor analysis to predict the regulatory mechanisms and identify drugs associated with these biomarkers. We used differential analysis to obtain 470 DEGs and conducted WGCNA analysis to identify 1351 significant genes. The intersection of these 2 approaches yielded 273 common genes. Using machine learning algorithms, we identified CYYR1, GALNT14, and OLAH as potential biomarkers for BPD. Moreover, we predicted flunisolide, budesonide, and beclomethasone as potential anti-BPD drugs. The genes CYYR1, GALNT14, and OLAH have the potential to serve as diagnostic biomarkers for BPD. This may prove beneficial in clinical diagnosis and prevention of BPD.",
+  "abstract_zh": "支气管肺发育不良（bronchopulmonary dysplasia, BPD）常被视为极度早产的一种肺部并发症，导致持续性呼吸症状和肺功能下降。遗憾的是，目前针对该疾病的诊断和治疗方法尚不充分。因此，本研究旨在识别受BPD影响的新生儿外周血中的潜在生物标志物。基因表达综合数据库（Gene Expression Omnibus）提供了用于BPD的表达数据集GSE32472。首先，利用该数据库，我们在GSE32472中鉴定了差异表达基因（differentially expressed genes, DEGs）。随后，我们对DEGs进行了基因集富集分析，并采用加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）筛选与BPD最相关的模块。接着，我们将DEGs映射至WGCNA模块基因，得到基因交集。我们对这些重叠基因进行了详细的功能富集分析。为识别核心基因，我们使用了3种机器学习算法，包括SVM-RFE、LASSO和随机森林（Random Forest）。我们基于核心基因构建了用于预测BPD的诊断列线图模型。此外，我们进行了转录因子分析以预测调控机制，并识别与这些生物标志物相关的药物。通过差异分析，我们获得了470个DEGs，并通过WGCNA分析识别了1351个显著基因。这两种方法的交集产生了273个共同基因。利用机器学习算法，我们确定了CYYR1、GALNT14和OLAH作为BPD的潜在生物标志物。此外，我们预测氟尼缩松（flunisolide）、布地奈德（budesonide）和倍氯米松（beclomethasone）为潜在的抗BPD药物。基因CYYR1、GALNT14和OLAH有潜力作为BPD的诊断生物标志物。这可能对BPD的临床诊断和预防有所裨益。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38277517/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38277517/",
+  "paper_page_path": "papers/pubmed/38277517/index.html"
+}

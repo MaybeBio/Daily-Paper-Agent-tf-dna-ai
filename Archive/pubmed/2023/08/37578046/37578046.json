@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "37578046",
+    "doi": "10.1080/07391102.2023.2246566",
+    "title": "Computational exploration of natural compounds targeting Staphylococcus aureus: inhibiting AgrA promoter binding for antimicrobial intervention."
+  },
+  "content": {
+    "abstract": "Staphylococcus aureus is a highly virulent nosocomial pathogen that poses a significant threat to individuals exposed to healthcare settings. Due to its sophisticated machinery for producing virulence factors, S. aureus can cause severe and potentially fatal infections in humans. This study focuses on the response regulator AgrA, which plays a crucial role in regulating the production of virulence factors in S. aureus. The objective is to identify natural compounds that can inhibit the binding of AgrA to its promoter site, thus inhibiting the expression of virulence genes. To achieve this, a pharmacophore model was generated using known drugs and applied to screen the ZINC natural product database. The resulting compounds were subjected to molecular docking-based virtual screening against the C-terminal DNA binding domain of AgrA. Three compounds, namely ZINC000077269178, ZINC000051012304, and ZINC000004266026, were shortlisted based on their strong affinity for key residues involved in DNA binding and transcription initiation. Subsequently, the unbound and ligand-bound complexes were subjected to a 200 ns molecular dynamics simulation to assess their conformational stability. Various analyses, including RMSD, RMSF, Rg, SASA, Principal Component Analysis, and Gibbs free energy landscape, were conducted on the simulation trajectory. The RMSD profile indicated similar fluctuations in both bound and unbound structures, while the Rg profile demonstrated the compactness of the protein without any unfolding during the simulation. Furthermore, Principal component analysis revealed that ligand binding reduced the overall atomic motion of the protein whereas free energy landscape suggested the energy variations obtained in complexes.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Virtual screening",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "natural compounds",
+      "virulence factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Anti-Bacterial Agents/pharmacology/chemistry",
+      "*Bacterial Proteins/chemistry/metabolism/antagonists & inhibitors/genetics",
+      "Binding Sites",
+      "*Biological Products/pharmacology/chemistry/metabolism",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "*Promoter Regions, Genetic",
+      "Protein Binding",
+      "*Staphylococcus aureus/drug effects/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saha, Subhadip",
+        "Ghosh, Monidipa"
+      ],
+      "short_names": [
+        "Saha S",
+        "Ghosh M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, National Institute of Technology Durgapur, Durgapur, India.",
+        "Department of Biotechnology, National Institute of Technology Durgapur, Durgapur, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saha, Subhadip",
+        "short_name": "Saha S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology Durgapur, Durgapur, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Monidipa",
+        "short_name": "Ghosh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Technology Durgapur, Durgapur, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/14 12:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42035380",
+      "39991110",
+      "39411322",
+      "39328594"
+    ],
+    "refs": [],
+    "similar": [
+      "37578046",
+      "40033499",
+      "39328594",
+      "37615425",
+      "37166373",
+      "34096457",
+      "42450107",
+      "42390567",
+      "40973684",
+      "41465468",
+      "42448417",
+      "38319034",
+      "28605994",
+      "38321959",
+      "33164832",
+      "41780347",
+      "39967191",
+      "41704643",
+      "38810547",
+      "41739381",
+      "33421024",
+      "39501412",
+      "32471245",
+      "38523540",
+      "40812197",
+      "38147401",
+      "39033680",
+      "38088773",
+      "34770835",
+      "31358609",
+      "40353417",
+      "30688165",
+      "37753798",
+      "37517062",
+      "40153475",
+      "41061444",
+      "40685718",
+      "37199273",
+      "41045435",
+      "42448416",
+      "31234337",
+      "36799050",
+      "37897196",
+      "37468720",
+      "34833903",
+      "38659576",
+      "40146432",
+      "38133950",
+      "38379380",
+      "37646649",
+      "41045314",
+      "39265696",
+      "42086791",
+      "40047244",
+      "42043606",
+      "39273596",
+      "37993988",
+      "34443556",
+      "41188391",
+      "31965918",
+      "37993985",
+      "40616908",
+      "39378822",
+      "24895275",
+      "28627969",
+      "37776007",
+      "37646701",
+      "34709133",
+      "37965748",
+      "34662260",
+      "40494088",
+      "31355691",
+      "35174764",
+      "39078379",
+      "39769078",
+      "40764363",
+      "39976031",
+      "24945495",
+      "41020634",
+      "28486912",
+      "39938176",
+      "39918712",
+      "37608545",
+      "26119984",
+      "38407814",
+      "42485399",
+      "37549730",
+      "42192177",
+      "37642215",
+      "38230450",
+      "30555803",
+      "15516566",
+      "38497784",
+      "40192570",
+      "37545341",
+      "42054342",
+      "41592470",
+      "41503904",
+      "39411322",
+      "41713229"
+    ],
+    "review": [
+      "37578046"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2246566?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2246566",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

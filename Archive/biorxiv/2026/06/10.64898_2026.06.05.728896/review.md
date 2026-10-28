@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, References) as provided. Figures, tables, and supplementary materials referenced but not fully available.
+- **Assessment boundary** Scientific content, experimental logic, evidence quality, and alignment with claims. Not assessed: editorial formatting, reference completeness, or author contributions.
+- **Shared manuscript claim summary** The authors propose that oxidative stress-induced 8-oxoguanine (8-oxoGua) formation in the EBV genome recruits OGG1 to viral promoter regions, where OGG1 acts as a transcriptional co-regulator independent of its glycosylase activity, thereby promoting EBV lytic reactivation. Pharmacological inhibition of OGG1-DNA binding suppresses lytic gene expression across latency types I-III.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (sections 2.1-2.9), Results (sections 3.1-3.4), Discussion, and figure legends referenced in text. Figures 1-4 and Supplementary Figures S1-S3 are referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** All figures and tables (including Figure 1-4, Figure S1-S3, Table 1-2) are referenced but not included. This substantially limits verification of quantitative results, statistical analyses, and experimental quality. No raw data, statistical outputs, or replicate information are available.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question: whether oxidative DNA damage and the repair enzyme OGG1 play a role in EBV reactivation from latency. The hypothesis is mechanistically plausible and builds on prior work implicating OGG1 as a transcriptional co-regulator beyond its canonical repair function. However, the evidence presented in the text alone is insufficient to establish the central claims. Key experiments are described only in narrative form without visible data, and several logical gaps remain. The pharmacological approach is reasonable given the stated technical challenges with genetic manipulation, but the specificity and on-target effects of the inhibitors require more rigorous validation. The manuscript would benefit from clearer presentation of quantitative data, additional mechanistic depth, and direct evidence linking 8-oxoGua formation in the EBV genome to OGG1 recruitment and transcriptional activation.
+- **Who would be interested in the results, and why** Virologists studying EBV latency and reactivation, particularly those interested in host-virus interactions and stress responses. Researchers in the DNA damage and repair field, especially those studying non-canonical functions of DNA repair proteins. Clinicians and translational researchers focused on EBV-associated malignancies, as the manuscript suggests OGG1 as a potential therapeutic target. The broader oxidative stress and epigenetics community may also find the proposed mechanism of interest.
+- **Major strengths** 1. The hypothesis is well-motivated and builds logically on prior literature. 2. The use of three latency-type models (I, II, III) is a thoughtful experimental design. 3. The distinction between OGG1-DNA binding and glycosylase activity using structurally distinct inhibitors is a clever approach. 4. The manuscript acknowledges limitations candidly, including the lack of genetic manipulation and the need for further mechanistic studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "OGG1 is recruited to EBV regulatory regions under oxidative stress conditions and is associated with the transcriptional activation of immediate-early and early lytic genes."
+  - **Evidence pointer** Section 3.4, Figure 4A-B (not provided)
+  - **Concern** The central claim of OGG1 recruitment to EBV promoters relies entirely on ChIP-qPCR data presented in Figure 4, which is not available for review. The text reports fold enrichment values but provides no information on antibody specificity, ChIP efficiency, biological replicates, or statistical significance. Without these data, the recruitment claim cannot be evaluated.
+  - **Why it matters** This is the foundational observation upon which the entire mechanistic model rests. If OGG1 is not demonstrably enriched at EBV promoters during reactivation, the proposed mechanism collapses.
+  - **Resolution test** Provide the ChIP-qPCR data with appropriate controls (e.g., IgG background, input normalization, positive and negative genomic regions), replicate numbers, and statistical analysis. Ideally, include a validation of the OGG1 antibody for ChIP applications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "Pharmacological inhibition of OGG1 DNA binding significantly suppressed EBV lytic gene expression, supporting a functional role for OGG1 in viral reactivation."
+  - **Evidence pointer** Section 3.2, Figure 2C-K (not provided)
+  - **Concern** The manuscript relies exclusively on pharmacological inhibitors (TH5487, SU0268) to establish causality. While the authors justify this by citing technical challenges with genetic manipulation, the lack of any genetic validation (e.g., siRNA, CRISPR, or overexpression of a binding-deficient OGG1 mutant) leaves open the possibility of off-target effects. The text does not report inhibitor specificity controls, such as rescue experiments or validation in OGG1-deficient cells.
+  - **Why it matters** Pharmacological inhibitors can have pleiotropic effects. Without genetic corroboration or rigorous specificity controls, the conclusion that OGG1 binding specifically drives lytic gene expression is not fully established.
+  - **Resolution test** Include at least one genetic approach (e.g., siRNA-mediated knockdown or CRISPR knockout) with appropriate controls, or provide evidence that the inhibitors do not affect OGG1 expression levels or other DNA repair pathways. A rescue experiment with an OGG1 variant that binds DNA but lacks glycosylase activity would strengthen the causal claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "OGG1 may contribute to EBV lytic activation through a noncanonical mechanism independent of its glycosylase activity."
+  - **Evidence pointer** Section 3.2, Figure 2C-K; Section 3.3, Figure 3B, D (not provided)
+  - **Concern** The conclusion that OGG1 acts independently of its glycosylase activity is based on the observation that O8, a glycosylase inhibitor, does not suppress lytic gene expression. However, the text does not demonstrate that O8 effectively inhibits OGG1 enzymatic activity under the experimental conditions used. Additionally, the claim that OGG1 functions as a transcriptional co-regulator is speculative, as no direct evidence of transcription factor recruitment, chromatin remodeling, or transcriptional complex assembly is presented.
+  - **Why it matters** The noncanonical mechanism is a key novelty of the manuscript. Without direct evidence of the proposed mechanism, the study's contribution is limited to a correlative observation.
+  - **Resolution test** Provide data showing O8 effectively inhibits OGG1 glycosylase activity in the cell systems used (e.g., in vitro activity assays or accumulation of abasic sites). Include experiments demonstrating that OGG1 binding to 8-oxoGua in promoters leads to recruitment of transcriptional machinery or chromatin modifiers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "In Akata-EBV, TPA+NaB induced BZLF1 after a 12 h incubation period and reached a maximum (>70-fold) ~20 h post-treatment."
+  - **Evidence pointer** Section 3.1, Figure 1A-L (not provided)
+  - **Concern** The text reports fold changes and temporal patterns of gene expression but provides no statistical analysis, error bars, or replicate information. The oscillatory pattern described in C666-1 cells is intriguing but unexplained. Without quantitative rigor, the reliability of these observations cannot be assessed.
+  - **Why it matters** The characterization of reactivation kinetics across latency types is foundational to the study. If the expression data are not robust, subsequent conclusions are weakened.
+  - **Resolution test** Provide full quantitative data with means, standard deviations or SEM, statistical tests, and replicate numbers for all time points and cell lines.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of 8-oxoGua
+  - **Claim pointer** "OGG1 binds to the 8-oxoGua within EBV promoter sequences and facilitates the expression of BZLF1, consequently BALF2, and BMRF1."
+  - **Evidence pointer** Section 3.4, Figure 4C-F (not provided)
+  - **Concern** The EMSA experiments use synthetic oligonucleotides with 8-oxoGua placed at specific positions. While this demonstrates that OGG1 can bind 8-oxoGua-containing DNA in vitro, it does not establish that 8-oxoGua is actually formed at these specific promoter regions in cells under TPA+NaB treatment. The manuscript does not include any direct detection of 8-oxoGua in the EBV genome (e.g., by DNA immunoprecipitation with 8-oxoGua antibodies or by sequencing-based methods).
+  - **Why it matters** The model requires that oxidative damage occurs at EBV regulatory regions. Without direct evidence of 8-oxoGua formation at these sites, the link between oxidative stress and OGG1 recruitment remains correlative.
+  - **Resolution test** Include experiments detecting 8-oxoGua at EBV promoter regions (e.g., ChIP with anti-8-oxoGua antibody, or quantitative lesion-specific approaches) under the same treatment conditions used for OGG1 ChIP.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, EMSA methods
+  - **Evidence pointer** Section 2.4
+  - **Issue** The sentence "The binding assay was performed for 10 minutes at 4[." appears incomplete. The temperature unit is missing.
+  - **Required correction** Complete the sentence, e.g., "at 4°C."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2, Cell culture
+  - **Evidence pointer** Section 2.2
+  - **Issue** The source and authentication of cell lines (Akata-EBV, C666-1, B95.8) are not described. Mycoplasma testing status is not mentioned.
+  - **Required correction** Add a statement on cell line authentication and mycoplasma testing, as is standard for studies using established cell lines.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.2, Figure 2L-M
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text states that O8 "increased levels of Akata-EBV along with protein levels of Zta and EA-D substantially but not significantly." This is an interesting observation that is not discussed in the context of the proposed model. If O8 stabilizes OGG1-DNA complexes, one might expect increased transcriptional activity, which would support the model. This point deserves explicit discussion.
+  - **Required correction** Add a brief discussion of the O8-induced increase in lytic gene expression and its implications for the proposed mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.9, Statistical analysis
+  - **Evidence pointer** Section 2.9
+  - **Issue** Only Student's t-test is mentioned. For multi-group or multi-time-point comparisons, ANOVA or appropriate multiple-comparison corrections would be more appropriate.
+  - **Required correction** Specify the statistical tests used for each experiment and justify the choice. If multiple comparisons were performed, describe the correction method.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4, EMSA
+  - **Evidence pointer** Section 3.4, Figure 4C-F
+  - **Issue** The text mentions that OGG1 binding was "in a DNA base composition manner" but does not explain what this means or how it was determined. The relationship between 8-oxoGua position and binding affinity is described only qualitatively.
+  - **Required correction** Clarify the term "DNA base composition manner" and provide quantitative binding data (e.g., apparent Kd values) if available.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of OGG1's role in CpG methylation and TET recruitment is speculative and not supported by data in this manuscript. While this is framed as a hypothesis, it should be clearly distinguished from findings.
+  - **Required correction** Clearly label speculative mechanisms as hypotheses and avoid presenting them as established conclusions.
+
+## Risk / unsupported claims
+- The claim that OGG1 is recruited to EBV regulatory regions under oxidative stress is unsupported without the ChIP data (Figure 4A-B).
+- The claim that OGG1 promotes lytic gene expression through a non-canonical mechanism independent of glycosylase activity is not fully established, as the O8 experiments do not demonstrate effective inhibition of OGG1 enzymatic activity in the cellular context.
+- The claim that 8-oxoGua is formed in EBV promoter sequences under TPA+NaB treatment is not directly demonstrated.
+- The statement that "OGG1 may contribute to regulation of the EBV lytic cycle" is presented as a conclusion but is more appropriately framed as a hypothesis given the correlative nature of the evidence.
+- The claim that pharmacological inhibition of OGG1 "may represent a potential strategy for reducing EBV reactivation" is speculative and requires in vivo validation.
+- The quantitative results (fold changes, percentages of inhibition) are not verifiable without the figures and raw data.

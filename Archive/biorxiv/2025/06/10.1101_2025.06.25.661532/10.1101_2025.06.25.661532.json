@@ -1,0 +1,327 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.25.661532",
+  "title": "AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model",
+  "doi": "10.1101/2025.06.25.661532",
+  "abstract": "Deep learning models that predict functional genomic measurements from DNA sequence are powerful tools for deciphering the genetic regulatory code. Existing methods trade off between input sequence length and prediction resolution, thereby limiting their modality scope and performance. We present AlphaGenome, which takes as input 1 megabase of DNA sequence and predicts thousands of functional genomic tracks up to single base pair resolution across diverse modalities – including gene expression, transcription initiation, chromatin accessibility, histone modifications, transcription factor binding, chro- matin contact maps, splice site usage, and splice junction coordinates and strength. Trained on human and mouse genomes, AlphaGenome matches or exceeds the strongest respective available external models on 24 out of 26 evaluations on variant effect prediction. AlphaGenome’s ability to simultaneously score variant effects across all modalities accurately recapitulates the mechanisms of clinically-relevant variants near the TAL1 oncogene. To facilitate broader use, we provide tools for making genome track and variant effect predictions from sequence.",
+  "authors": [
+    "Avsec Ž",
+    "Latysheva N",
+    "Cheng J",
+    "Novati G",
+    "Taylor KR",
+    "Ward T",
+    "Bycroft C",
+    "Nicolaisen L",
+    "Arvaniti E",
+    "Pan J",
+    "Thomas R",
+    "Dutordoir V",
+    "Perino M",
+    "De S",
+    "Karollus A",
+    "Gayoso A",
+    "Sargeant T",
+    "Mottram A",
+    "Wong LH",
+    "Drotár P",
+    "Kosiorek A",
+    "Senior A",
+    "Tanburn R",
+    "Applebaum T",
+    "Basu S",
+    "Hassabis D",
+    "Kohli P"
+  ],
+  "published_date": "2025-06-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1043300",
+    "raw_record": {
+      "id": "PPR1043300",
+      "source": "PPR",
+      "doi": "10.1101/2025.06.25.661532",
+      "title": "AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model",
+      "authorString": "Avsec Ž, Latysheva N, Cheng J, Novati G, Taylor KR, Ward T, Bycroft C, Nicolaisen L, Arvaniti E, Pan J, Thomas R, Dutordoir V, Perino M, De S, Karollus A, Gayoso A, Sargeant T, Mottram A, Wong LH, Drotár P, Kosiorek A, Senior A, Tanburn R, Applebaum T, Basu S, Hassabis D, Kohli P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Avsec Ž",
+            "lastName": "Avsec",
+            "firstName": "Žiga",
+            "initials": "Ž"
+          },
+          {
+            "fullName": "Latysheva N",
+            "lastName": "Latysheva",
+            "firstName": "Natasha",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3119-0567"
+            }
+          },
+          {
+            "fullName": "Cheng J",
+            "lastName": "Cheng",
+            "firstName": "Jun",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5573-9791"
+            }
+          },
+          {
+            "fullName": "Novati G",
+            "lastName": "Novati",
+            "firstName": "Guido",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0681-4892"
+            }
+          },
+          {
+            "fullName": "Taylor KR",
+            "lastName": "Taylor",
+            "firstName": "Kyle",
+            "initials": "KR"
+          },
+          {
+            "fullName": "Ward T",
+            "lastName": "Ward",
+            "firstName": "Tom",
+            "initials": "T"
+          },
+          {
+            "fullName": "Bycroft C",
+            "lastName": "Bycroft",
+            "firstName": "Clare",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1139-0732"
+            }
+          },
+          {
+            "fullName": "Nicolaisen L",
+            "lastName": "Nicolaisen",
+            "firstName": "Lauren",
+            "initials": "L"
+          },
+          {
+            "fullName": "Arvaniti E",
+            "lastName": "Arvaniti",
+            "firstName": "Eirini",
+            "initials": "E"
+          },
+          {
+            "fullName": "Pan J",
+            "lastName": "Pan",
+            "firstName": "Joshua",
+            "initials": "J"
+          },
+          {
+            "fullName": "Thomas R",
+            "lastName": "Thomas",
+            "firstName": "Raina",
+            "initials": "R"
+          },
+          {
+            "fullName": "Dutordoir V",
+            "lastName": "Dutordoir",
+            "firstName": "Vincent",
+            "initials": "V"
+          },
+          {
+            "fullName": "Perino M",
+            "lastName": "Perino",
+            "firstName": "Matteo",
+            "initials": "M"
+          },
+          {
+            "fullName": "De S",
+            "lastName": "De",
+            "firstName": "Soham",
+            "initials": "S"
+          },
+          {
+            "fullName": "Karollus A",
+            "lastName": "Karollus",
+            "firstName": "Alexander",
+            "initials": "A"
+          },
+          {
+            "fullName": "Gayoso A",
+            "lastName": "Gayoso",
+            "firstName": "Adam",
+            "initials": "A"
+          },
+          {
+            "fullName": "Sargeant T",
+            "lastName": "Sargeant",
+            "firstName": "Toby",
+            "initials": "T"
+          },
+          {
+            "fullName": "Mottram A",
+            "lastName": "Mottram",
+            "firstName": "Anne",
+            "initials": "A"
+          },
+          {
+            "fullName": "Wong LH",
+            "lastName": "Wong",
+            "firstName": "Lai Hong",
+            "initials": "LH"
+          },
+          {
+            "fullName": "Drotár P",
+            "lastName": "Drotár",
+            "firstName": "Pavol",
+            "initials": "P"
+          },
+          {
+            "fullName": "Kosiorek A",
+            "lastName": "Kosiorek",
+            "firstName": "Adam",
+            "initials": "A"
+          },
+          {
+            "fullName": "Senior A",
+            "lastName": "Senior",
+            "firstName": "Andrew",
+            "initials": "A"
+          },
+          {
+            "fullName": "Tanburn R",
+            "lastName": "Tanburn",
+            "firstName": "Richard",
+            "initials": "R"
+          },
+          {
+            "fullName": "Applebaum T",
+            "lastName": "Applebaum",
+            "firstName": "Taylor",
+            "initials": "T"
+          },
+          {
+            "fullName": "Basu S",
+            "lastName": "Basu",
+            "firstName": "Souradeep",
+            "initials": "S"
+          },
+          {
+            "fullName": "Hassabis D",
+            "lastName": "Hassabis",
+            "firstName": "Demis",
+            "initials": "D"
+          },
+          {
+            "fullName": "Kohli P",
+            "lastName": "Kohli",
+            "firstName": "Pushmeet",
+            "initials": "P"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5573-9791"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1139-0732"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0681-4892"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3119-0567"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Deep learning models that predict functional genomic measurements from DNA sequence are powerful tools for deciphering the genetic regulatory code. Existing methods trade off between input sequence length and prediction resolution, thereby limiting their modality scope and performance. We present AlphaGenome, which takes as input 1 megabase of DNA sequence and predicts thousands of functional genomic tracks up to single base pair resolution across diverse modalities – including gene expression, transcription initiation, chromatin accessibility, histone modifications, transcription factor binding, chro- matin contact maps, splice site usage, and splice junction coordinates and strength. Trained on human and mouse genomes, AlphaGenome matches or exceeds the strongest respective available external models on 24 out of 26 evaluations on variant effect prediction. AlphaGenome’s ability to simultaneously score variant effects across all modalities accurately recapitulates the mechanisms of clinically-relevant variants near the  TAL1 oncogene. To facilitate broader use, we provide tools for making genome track and variant effect predictions from sequence.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/27/2025.06.25.661532.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.25.661532"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41606153",
+            "reference": "Nature. 2026 Jan;649(8099):1206-1218",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 58,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-06-29",
+      "firstPublicationDate": "2025-06-27",
+      "firstIndexDate": "2025-06-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2023)
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence as presented in the provided text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors present ChromDL, a deep learning architecture combining BiGRU, CNN, and BiLSTM layers, which they claim outperforms existing models (DeepSEA, DanQ, DanQ-JASPAR) in predicting transcription factor binding sites, histone modifications, and DNase-I hypersensitive sites from DNA sequence. They further claim improved detection of low-affinity TF binding, accurate motif identification, and utility in enhancer prediction and regulatory variant effect quantification, validated using raQTL data.
+- **Visible evidence base** Main text, methods, results, discussion, figure and table references (Fig 1-5, S1-S14; Tables 1-3, S1-S18), and a GitHub repository link.
+- **Missing materials affecting confidence** Full figures and tables, supplementary methods, exact hyperparameter details, training/validation curves, code implementation, and the raQTL dataset details were not available in the provided text. These are essential for full reproducibility and verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a substantial and systematic effort in neural architecture search for regulatory DNA classification. The reported performance improvements over established models are plausible and potentially valuable. However, the current text lacks sufficient detail in several critical areas, including statistical rigor, dataset handling, and validation methodology, which prevents full confidence in the claims as stated. The work is of interest to the computational genomics community, but the evidence as presented is not yet fully convincing.
+- **Who would be interested in the results, and why** Computational biologists, machine learning researchers working on genomics, and experimentalists studying gene regulation. The model's claimed ability to detect weak TF binding and predict regulatory variant effects has direct applications in variant interpretation and regulatory genomics.
+- **Major strengths** 1) Large-scale architecture search over thousands of models is a rigorous approach to model selection. 2) The combination of BiGRU, CNN, and BiLSTM layers is a novel and biologically motivated architecture. 3) The use of multiple evaluation metrics (auROC, auPRC) and comparison against several baselines is commendable. 4) The inclusion of an external validation using raQTL data is a strong point, as it tests functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reproducibility
+  - **Claim pointer** The claim that ChromDL "significantly improves upon a range of prediction metrics compared to its predecessors" across TFBS, HM, and DHS detection.
+  - **Evidence pointer** Results section, Tables 1-3, Figures 2, S7-S9. Location not provided for specific statistical tests.
+  - **Concern** The manuscript reports performance metrics (auROC, auPRC) but does not provide confidence intervals, standard deviations, or statistical significance tests (e.g., paired tests across multiple seeds or cross-validation folds) for the comparisons against DeepSEA, DanQ, and DanQ-JASPAR. The claim of "significant" improvement is therefore not statistically substantiated.
+  - **Why it matters** Without measures of variance, it is impossible to determine if the observed improvements are robust or due to chance, particularly given the stochastic nature of neural network training. This is a fundamental requirement for establishing a new state-of-the-art model.
+  - **Resolution test** Provide performance metrics (auROC, auPRC) with standard deviations or confidence intervals from at least 3-5 independent training runs. Perform and report paired statistical tests (e.g., Wilcoxon signed-rank test) between ChromDL and each baseline for each category of regulatory features.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data leakage and evaluation integrity
+  - **Claim pointer** The model's performance on the test set (chromosomes 8 and 9) is used to claim generalizable predictive accuracy.
+  - **Evidence pointer** Methods, Model Architecture and Training. Location not provided.
+  - **Concern** The manuscript states that the model was trained on "the rest of the autosomal chromosomes" and tested on chromosomes 8 and 9. However, it is not clear if the validation set (chromosome 7) was used for early stopping or hyperparameter selection, and if so, how this was done without peeking at the test set. More critically, the text does not specify whether the architecture search itself was performed using the validation set or the test set. If the test set was used to guide architecture selection, the reported performance is optimistically biased.
+  - **Why it matters** Data leakage or improper use of the test set during model development invalidates the reported performance and the claim of generalizability. This is a critical methodological flaw if present.
+  - **Resolution test** Clearly describe the model selection process, including how the validation set was used. Confirm that the test set (chromosomes 8 and 9) was used only once for final evaluation. If architecture search was guided by test performance, re-evaluate the final model on a truly held-out set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of functional claims
+  - **Claim pointer** The claim that the ChromDL-based enhancer predictor can "accurately predict" regulatory variants, validated by raQTL data.
+  - **Evidence pointer** Results, Reporter assay QTL validation; Figure 5. Location not provided.
+  - **Concern** The raQTL validation shows an enrichment trend (higher delta scores correlating with higher density in enhancer regions), but the manuscript does not report quantitative metrics such as the area under the ROC curve for variant effect prediction, or a comparison against a null model or other variant effect predictors. The claim of "accurate prediction" is therefore not fully supported by the presented evidence.
+  - **Why it matters** The utility of the model for variant interpretation is a key selling point. Without quantitative performance metrics and a baseline comparison, the practical value of the model for this task is unclear.
+  - **Resolution test** Provide quantitative metrics for variant effect prediction (e.g., auROC for distinguishing raQTLs from non-raQTLs), and compare against a simple sequence-based baseline or other published predictors. Report the correlation between predicted delta scores and experimentally measured effect sizes, if available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, Model Architecture and Training
+  - **Evidence pointer** Location not provided.
+  - **Issue** The loss function equation is mentioned but not displayed in the text provided. The description of the architecture, while detailed, would benefit from a clear summary table of layer types, output dimensions, and activation functions.
+  - **Required correction** Include the loss function equation and a supplementary table summarizing the full architecture with layer-wise specifications.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Model Architecture and Training
+  - **Evidence pointer** Location not provided.
+  - **Issue** The text mentions "random sampling and semi-supervised architecture design" for the architecture search, but the exact search space, sampling strategy, and number of models evaluated in each phase are not fully specified.
+  - **Required correction** Provide a detailed description of the architecture search procedure, including the search space, sampling method, and criteria for selecting the final architecture.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Accurate Prediction of TF binding
+  - **Evidence pointer** Figure 3, Tables S4-S6. Location not provided.
+  - **Concern** The p-value threshold for significance is stated as <1E-05, but the number of tests performed (across bins, FPR thresholds, and cell lines) is not reported. This raises the risk of multiple testing issues.
+  - **Required correction** Report the total number of statistical tests performed and apply a multiple testing correction (e.g., Bonferroni or FDR) where appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, ChromDL-based Enhancer Predictor
+  - **Evidence pointer** Figure S12, Table S18. Location not provided.
+  - **Concern** The statement that "weaker" enhancer groups result in "more accurate ChromDL classification according to the auPRC metric" is confusing. Higher auPRC for weaker enhancers is interpreted as better classification, but this could also be an artifact of the definition of positive and negative sets.
+  - **Required correction** Clarify the interpretation of auPRC differences across enhancer definitions and discuss potential confounding factors, such as the difficulty of the classification task for different definitions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical significance testing) and R1-M2 (potential data leakage in model selection) are the primary technical failings. R1-M3 (insufficient validation of variant effect prediction) also needs to be addressed to support the functional claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The architecture combining BiGRU, CNN, and BiLSTM layers is a novel contribution, and the systematic architecture search is a methodological strength. However, the individual components are well-established, and the novelty is incremental rather than paradigm-shifting.
+  - **Scientific importance** The work addresses a central problem in regulatory genomics and reports improved performance over widely used models. If validated, it could be a useful tool for the community. However, the importance is moderate, as it does not introduce a fundamentally new biological insight or a completely new type of model.
+  - **Interdisciplinary readership** The topic is of interest to computational biologists and genomics researchers, but the manuscript is written in a technical style that may be less accessible to a broader biological audience. The potential applications to variant interpretation could attract clinical genetics readers, but this is not emphasized strongly.
+  - **Technical soundness** The architecture search is extensive, but the lack of statistical rigor and potential data leakage issues are significant concerns. The validation using raQTL data is a positive aspect, but the quantitative analysis is incomplete.
+  - **Readability for nonspecialists** The manuscript is generally well-structured, but the methods section is dense and assumes familiarity with deep learning and genomics terminology. The abstract and introduction are accessible, but the results and discussion could be clearer for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and reported results are promising, but the manuscript requires substantial revisions to address the statistical and methodological issues before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim of "significant" improvement over baselines is unsupported without statistical tests and variance estimates.
+- The claim that ChromDL can "accurately predict" regulatory variants is not fully supported by the presented raQTL enrichment analysis, which lacks quantitative performance metrics.
+- The claim that ChromDL has the "potential to accurately predict TF binding affinities" is speculative and not directly tested in the presented experiments.
+- The statement that ChromDL is "the most accurate regulatory classifier to date" is an overstatement given the limited comparison set and lack of external benchmarking on independent datasets.
+- The performance of the enhancer predictor is only reported for a subset of cell lines and definitions, and the generalizability of these results is unclear.

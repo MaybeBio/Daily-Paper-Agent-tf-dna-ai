@@ -1,0 +1,447 @@
+{
+  "identity": {
+    "pmid": "41136446",
+    "doi": "10.1038/s41598-025-20997-5",
+    "title": "The impact of PANoptosis-related genes on immune profiles and subtype classification in ischemic stroke."
+  },
+  "content": {
+    "abstract": "Ischemic stroke (IS) is an acute neurological disorder causing brain dysfunction, with high mortality and disability. PANoptosis is a synchronized sort of regulated cell demise that combines the characteristics of pyroptosis, apoptosis, and necroptosis. However, its role in ischemic stroke remains unclear. We downloaded the ischemic stroke-related microarray dataset GSE58294 from the Gene Expression Omnibus (GEO) database and identified Differentially expressed PANoptosis-related genes (DE-PRGs). We utilized three algorithms to identify diagnostic DE-PRGs, constructed a nomogram for diagnostic modeling, and evaluated their diagnostic performance with receiver operating characteristic (ROC) analysis. Additionally, we develop interaction networks linking genes with miRNAs, transcription factors, and drugs. We also analyzed gene expression in different cell subgroups using the GSE174574 single-cell dataset. We applied consensus clustering to classify stroke samples into subtypes and compared immune microenvironment differences. Ultimately, we verified the gene expression patterns of candidate markers through the MCAO model. We pinpointed seven diagnostic DE-PRGs, with CASP1, PIK3R5, AVEN, and PSMC3 showing significant protein expression differences. Single-cell transcriptome analysis revealed the link between stroke and immune cells. Furthermore, consensus clustering revealed two clusters with unique immune infiltration patterns and functional characteristics. Our study may provide new theoretical insights for the early diagnosis and targeted therapy of IS and offer support for the clinical application of PANoptosis in IS.",
+    "keywords": [
+      "Immune cell",
+      "Immune infiltration",
+      "Ischemic stroke",
+      "Machine learning",
+      "Molecular cluster",
+      "PANoptosis"
+    ],
+    "mesh_terms": [
+      "*Ischemic Stroke/genetics/immunology/classification/diagnosis",
+      "Humans",
+      "Gene Expression Profiling",
+      "Animals",
+      "Gene Regulatory Networks",
+      "Transcriptome",
+      "*Necroptosis/genetics",
+      "Databases, Genetic",
+      "Pyroptosis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Xinrui",
+        "Ren, Yu",
+        "Wu, Haiyun",
+        "Tan, Yongjun",
+        "Zhou, Li",
+        "Wang, Yilin",
+        "Yang, Qinghuan",
+        "Wang, Jiani",
+        "Tang, Hao",
+        "Wen, Jun",
+        "Zhao, Yong",
+        "Wang, Ling",
+        "Xu, Xinlei",
+        "Huang, Jiagui",
+        "Yang, Qin"
+      ],
+      "short_names": [
+        "Cai X",
+        "Ren Y",
+        "Wu H",
+        "Tan Y",
+        "Zhou L",
+        "Wang Y",
+        "Yang Q",
+        "Wang J",
+        "Tang H",
+        "Wen J",
+        "Zhao Y",
+        "Wang L",
+        "Xu X",
+        "Huang J",
+        "Yang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China.",
+        "Department of Neurology, the Second People's Hospital of Yibin, Beida Street No 96, Yibin, 644000, China. shjwhg@126.com.",
+        "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China. xyqh200@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Xinrui",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Yu",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Haiyun",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yongjun",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Li",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yilin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qinghuan",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiani",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Hao",
+        "short_name": "Tang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Jun",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yong",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ling",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xinlei",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jiagui",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the Second People's Hospital of Yibin, Beida Street No 96, Yibin, 644000, China. shjwhg@126.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Qin",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, the First Affiliated Hospital of Chongqing Medical University, 1 Youyi Road, Yuzhong District, Chongqing, 400016, China. xyqh200@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/25 00:30",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39819824",
+      "39484776",
+      "38720074",
+      "38581999",
+      "38461413",
+      "38452414",
+      "38145013",
+      "38125299",
+      "38110868",
+      "37874480",
+      "37823450",
+      "37745718",
+      "37398672",
+      "37267949",
+      "37256937",
+      "36998052",
+      "36782083",
+      "36685889",
+      "36505799",
+      "35900425",
+      "35754829",
+      "35420915",
+      "35370546",
+      "35178127",
+      "35017436",
+      "35008440",
+      "34794383",
+      "34496660",
+      "34434229",
+      "34241907",
+      "33964435",
+      "33794304",
+      "33453207",
+      "32960432",
+      "32629174",
+      "32391806",
+      "32298652",
+      "32219729",
+      "32174916",
+      "32042968",
+      "32001644",
+      "31850239",
+      "31601801",
+      "31412755",
+      "30944313",
+      "30931480",
+      "30890116",
+      "30871944",
+      "29319160",
+      "28445506",
+      "28101327",
+      "25791715",
+      "25605792",
+      "25036109",
+      "24550298",
+      "24526841",
+      "22878108",
+      "22751129",
+      "22723969",
+      "22661091",
+      "22455463",
+      "20837969",
+      "20427518",
+      "19393318",
+      "18323496",
+      "17496320",
+      "16163296",
+      "14743453",
+      "14676838",
+      "12359312",
+      "11717354",
+      "11283404",
+      "10850488",
+      "10439442",
+      "2643202"
+    ],
+    "similar": [
+      "41136446",
+      "39650656",
+      "39512836",
+      "39394418",
+      "39814753",
+      "41160218",
+      "41369928",
+      "41479901",
+      "39697326",
+      "38587531",
+      "40091022",
+      "40119397",
+      "40274384",
+      "39743646",
+      "41291841",
+      "40663577",
+      "40891136",
+      "39128418",
+      "40958910",
+      "39393431",
+      "38778086",
+      "38282154",
+      "41468372",
+      "40350654",
+      "37032832",
+      "39870964",
+      "38701259",
+      "40786625",
+      "41009972",
+      "39402203",
+      "38281281",
+      "40918470",
+      "37386410",
+      "41208987",
+      "39287311",
+      "37667921",
+      "40613560",
+      "40977739",
+      "40151638",
+      "38652339",
+      "39636891",
+      "40311345",
+      "37664853",
+      "38650649",
+      "40317125",
+      "39888480",
+      "40659785",
+      "39960563",
+      "39480805",
+      "39074415",
+      "39072329",
+      "38957709",
+      "40016488",
+      "41177381",
+      "39177862",
+      "38653998",
+      "39104814",
+      "40932643",
+      "38742112",
+      "38914792",
+      "39798044",
+      "39674432",
+      "39853491",
+      "40313968",
+      "40261608",
+      "39744560",
+      "37008939",
+      "40118372",
+      "41438490",
+      "40612110",
+      "37891634",
+      "41473675",
+      "41432483",
+      "40849873",
+      "36127654",
+      "40333895",
+      "38034011",
+      "39251701",
+      "41029687",
+      "39586719",
+      "41432823",
+      "41214111",
+      "41401161",
+      "41039349",
+      "40207230",
+      "41171494",
+      "39478056",
+      "38052584",
+      "40044828",
+      "40340571",
+      "32744319",
+      "40943452",
+      "39663269",
+      "41444657",
+      "36110207",
+      "39862324",
+      "39841296",
+      "39438534",
+      "36186438",
+      "39299659"
+    ],
+    "review": [
+      "41136446"
+    ],
+    "pmc": [
+      "12552703"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-20997-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41136446/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3856",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

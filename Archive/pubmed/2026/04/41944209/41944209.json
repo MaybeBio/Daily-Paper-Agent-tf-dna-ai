@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41944209",
+    "doi": "10.1111/cas.70380",
+    "title": "ROWVA: A Structure-Based Metric for Predicting the Pathogenicity of Protein Variants Using Alphafold2."
+  },
+  "content": {
+    "abstract": "p53, an important tumor suppressor protein, functions as a tetramer. Therefore, malignant variants in the tetramer-forming domain increase the likelihood of p53 dysfunction. Recent developments in genome analysis technology have expanded our understanding of malignant variants. However, variants of uncertain significance are also being increasingly identified. Hence, methods to assess the pathogenicity of these variants are required. In this study, we aimed to examine whether AlphaFold2 can be used to evaluate the functional impacts of p53 variants based on predicted three-dimensional (3D) structural information. For each variant present in datasets of p53 functional score, we performed 3D structural prediction using AlphaFold2. We analyzed the correlations among multiple AlphaFold2-derived scores to predict functional scores, such as protein stability and pathogenicity labels, for each dataset. The root-mean-square deviation obtained by comparing the 3D structures predicted by AlphaFold2 for the wild-type and variant structures showed a high correlation with each functional score. Overall, these findings indicate that AlphaFold2 can be used to evaluate variants.",
+    "keywords": [
+      "3D protein structural prediction",
+      "AlphaFold2",
+      "p53",
+      "tumor suppressor",
+      "variants of uncertain significance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Suppressor Protein p53/genetics/chemistry",
+      "Protein Conformation",
+      "Models, Molecular",
+      "Protein Stability",
+      "Genetic Variation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Furutani, Taiki",
+        "Okusha, Yuka",
+        "Nagami, Hiroki",
+        "Hanafusa, Hiroko",
+        "Tomida, Shuta",
+        "Sawada, Ryusuke",
+        "Hosono, Yasuyuki",
+        "Nakatochi, Masahiro"
+      ],
+      "short_names": [
+        "Furutani T",
+        "Okusha Y",
+        "Nagami H",
+        "Hanafusa H",
+        "Tomida S",
+        "Sawada R",
+        "Hosono Y",
+        "Nakatochi M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3786-936X",
+        "ORCID: 0000-0002-1838-4837"
+      ],
+      "affiliations": [
+        "Public Health Informatics Unit, Department of Integrated Health Sciences, Nagoya University Graduate School of Medicine, Nagoya, Japan.",
+        "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan.",
+        "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan.",
+        "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan.",
+        "Center for Comprehensive Genomic Medicine, Okayama University Hospital, Okayama, Japan.",
+        "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan.",
+        "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan.",
+        "Public Health Informatics Unit, Department of Integrated Health Sciences, Nagoya University Graduate School of Medicine, Nagoya, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Furutani, Taiki",
+        "short_name": "Furutani T",
+        "identifiers": [],
+        "affiliations": [
+          "Public Health Informatics Unit, Department of Integrated Health Sciences, Nagoya University Graduate School of Medicine, Nagoya, Japan."
+        ]
+      },
+      {
+        "full_name": "Okusha, Yuka",
+        "short_name": "Okusha Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagami, Hiroki",
+        "short_name": "Nagami H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Hanafusa, Hiroko",
+        "short_name": "Hanafusa H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomida, Shuta",
+        "short_name": "Tomida S",
+        "identifiers": [
+          "0000-0003-3786-936X"
+        ],
+        "affiliations": [
+          "Center for Comprehensive Genomic Medicine, Okayama University Hospital, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Sawada, Ryusuke",
+        "short_name": "Sawada R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Hosono, Yasuyuki",
+        "short_name": "Hosono Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Graduate School of Medicine, Dentistry & Pharmaceutical Sciences, Okayama University, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakatochi, Masahiro",
+        "short_name": "Nakatochi M",
+        "identifiers": [
+          "0000-0002-1838-4837"
+        ],
+        "affiliations": [
+          "Public Health Informatics Unit, Department of Integrated Health Sciences, Nagoya University Graduate School of Medicine, Nagoya, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer science"
+    ],
+    "journal_abbrev": [
+      "Cancer Sci"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/07 12:33",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41944209",
+      "40233742",
+      "37208601",
+      "39140857",
+      "40464633",
+      "36593954",
+      "24100332",
+      "42657169",
+      "39430403",
+      "37084271",
+      "40806592",
+      "21457718",
+      "12606942",
+      "41764184",
+      "38370976",
+      "38222458",
+      "42644679",
+      "39840793",
+      "39337622",
+      "38211594",
+      "42309794",
+      "35659507",
+      "27197052",
+      "37037235",
+      "15060172",
+      "23468845",
+      "38275755",
+      "20978130",
+      "17113101",
+      "18996393",
+      "35778488",
+      "38854010",
+      "38373700",
+      "41606170",
+      "36637199",
+      "41684033",
+      "39989617",
+      "34358547",
+      "10488156",
+      "42199731",
+      "25728495",
+      "40758722",
+      "19815500",
+      "10097082",
+      "41639767",
+      "37201251",
+      "42694451",
+      "36479776",
+      "39603375",
+      "38791287",
+      "40251890",
+      "39090739",
+      "10493578",
+      "32000721",
+      "30995449",
+      "33255942",
+      "39595115",
+      "41173509",
+      "10397274",
+      "40233741",
+      "34469019",
+      "40696837",
+      "40486492",
+      "29664915",
+      "38865109",
+      "34997144",
+      "27565432",
+      "8023159",
+      "17401432",
+      "35842895",
+      "34768775",
+      "17419939",
+      "41009698",
+      "39940038",
+      "8622853",
+      "26477317",
+      "31216622",
+      "34749799",
+      "37108442",
+      "41454828",
+      "34906512",
+      "24687952",
+      "42220229",
+      "39096911",
+      "40704418",
+      "37041640",
+      "31861340",
+      "30765603",
+      "10944184",
+      "19558493",
+      "37243972",
+      "37693462",
+      "30676783",
+      "40160862",
+      "33051313",
+      "37288801",
+      "35739160",
+      "38902252",
+      "9891044",
+      "18076077"
+    ],
+    "review": [
+      "41944209",
+      "35778488",
+      "34358547",
+      "39090739",
+      "33255942",
+      "40233741",
+      "17401432",
+      "17419939",
+      "8622853"
+    ],
+    "pmc": [
+      "13580829"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41944209/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cas.70380",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

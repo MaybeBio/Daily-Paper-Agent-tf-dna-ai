@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "36773087",
+    "doi": "10.1007/s11030-023-10611-z",
+    "title": "Discovery of novel BRD4-BD2 inhibitors via in silico approaches: QSAR techniques, molecular docking, and molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Bromodomain-containing protein 4(BRD4) plays an important role in the occurrence and development of various malignant tumors, which has attracted the attention of scientific research institutions and pharmaceutical companies. The structural modification of most currently available BRD4 inhibitors is relatively simple, but the drug effectiveness is limited. Research has found that the inhibition of BD1 may promote the differentiation of oligodendrocyte progenitor cell; however, the inhibition of BD2 will not cause this outcome. Therefore, newly potential drugs which target BRD4-BD2 need further research. Herein, we initially built QSAR models out of 49 compounds using HQSAR, CoMFA, CoMSIA, and Topomer CoMFA technology. All of the models have shown suitable reliabilities (q(2) = 0.778, 0.533, 0.640, 0.702, respectively) and predictive abilities (r(2)(pred) = 0.716, 0.6289, 0.6153, 0.7968, respectively) for BRD4-BD2 inhibitors. On the basis of QSAR results and the search of the R-group in the topomer search module, we designed 20 new compounds with high activity that showed appropriate docking score and suitable ADMET. Docking studies and MD simulation were carried out to reveal the amino acid residues (Asn351, Cys347, Tyr350, Pro293, and Asp299) at the active site of BRD4-BD2. Free energy calculations and free energy landscapes verified the stable binding results and indicated stable conformations of the complexes. These theoretical studies provide guidance and theoretical basis for designing and developing novel BRD4-BD2 inhibitors.",
+    "keywords": [
+      "3D/2D-QSAR",
+      "ADMET",
+      "BRD4 inhibitors",
+      "Free energy landscape",
+      "MM/PBSA",
+      "Molecular docking",
+      "Molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Bromodomain Containing Proteins/antagonists & inhibitors",
+      "Cell Cycle Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "Drug Design",
+      "*Drug Discovery/methods",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "Nuclear Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "Protein Binding",
+      "*Quantitative Structure-Activity Relationship",
+      "Transcription Factors/antagonists & inhibitors/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tong, Jian-Bo",
+        "Xiao, Xue-Chun",
+        "Luo, Ding",
+        "Xu, Hai-Yin",
+        "Xing, Yi-Chuang",
+        "Gao, Peng",
+        "Liu, Yuan"
+      ],
+      "short_names": [
+        "Tong JB",
+        "Xiao XC",
+        "Luo D",
+        "Xu HY",
+        "Xing YC",
+        "Gao P",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China. jianbotong@aliyun.com.",
+        "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China. jianbotong@aliyun.com.",
+        "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+        "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surfaces and Fujian Provincial Key Laboratory of Theoretical and Computational Chemistry, Xiamen, 361005, People's Republic of China.",
+        "College of Chemistry and Chemical Engineering, Xiamen University, Xiamen, 361005, People's Republic of China.",
+        "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+        "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China.",
+        "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+        "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China.",
+        "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+        "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China.",
+        "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+        "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tong, Jian-Bo",
+        "short_name": "Tong JB",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China. jianbotong@aliyun.com.",
+          "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China. jianbotong@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xue-Chun",
+        "short_name": "Xiao XC",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+          "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ding",
+        "short_name": "Luo D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surfaces and Fujian Provincial Key Laboratory of Theoretical and Computational Chemistry, Xiamen, 361005, People's Republic of China.",
+          "College of Chemistry and Chemical Engineering, Xiamen University, Xiamen, 361005, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hai-Yin",
+        "short_name": "Xu HY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+          "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xing, Yi-Chuang",
+        "short_name": "Xing YC",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+          "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Peng",
+        "short_name": "Gao P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+          "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Chemical Engineering, Shaanxi University of Science and Technology, Xi'an,, 710021, People's Republic of China.",
+          "Shaanxi Key Laboratory of Chemical Additives for Industry, Xi'an, 710021, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/12 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "40004216"
+    ],
+    "refs": [
+      "34845959",
+      "34688663",
+      "33851008",
+      "33719136",
+      "33662213",
+      "33392965",
+      "33124448",
+      "32860796",
+      "32805558",
+      "32659629",
+      "32410504",
+      "32340562",
+      "32324999",
+      "32197324",
+      "30890362",
+      "30884225",
+      "30542529",
+      "28458007",
+      "23832629",
+      "20401516",
+      "20197040",
+      "19499576",
+      "12829472",
+      "11517324"
+    ],
+    "similar": [
+      "36773087",
+      "37656159",
+      "33637650",
+      "34845959",
+      "33392965",
+      "35156677",
+      "29941841",
+      "30411639",
+      "38425011",
+      "29139214",
+      "34105560",
+      "38675678",
+      "37570684",
+      "31085426",
+      "30926312",
+      "30260047",
+      "38317535",
+      "36841551",
+      "31587361",
+      "27494802",
+      "28466681",
+      "33475043",
+      "38749341",
+      "33820450",
+      "38675594",
+      "39274873",
+      "28821780",
+      "37424193",
+      "32698753",
+      "35423696",
+      "37272892",
+      "24976024",
+      "27266999",
+      "34139120",
+      "32149490",
+      "33974175",
+      "30423939",
+      "32324999",
+      "32860796",
+      "37338041",
+      "31385775",
+      "36524430",
+      "31556340",
+      "30916624",
+      "31916502",
+      "21673924",
+      "32688011",
+      "37744850",
+      "33183176",
+      "38159453",
+      "32657160",
+      "31701109",
+      "36841617",
+      "35545728",
+      "35510607",
+      "31009872",
+      "37334701",
+      "29511885",
+      "26343829",
+      "39292752",
+      "32502863",
+      "29475176",
+      "32883643",
+      "36215732",
+      "36234844",
+      "25341687",
+      "26501259",
+      "31969702",
+      "28901664",
+      "25266565",
+      "30160214",
+      "30421269",
+      "23941500",
+      "25401514",
+      "30175693",
+      "18500820",
+      "30359866",
+      "22272100",
+      "30079805",
+      "36644887",
+      "35011350",
+      "36695085",
+      "31075399",
+      "31838955",
+      "28610981",
+      "28629184",
+      "34982556",
+      "34232650",
+      "36907648",
+      "28586718",
+      "31931654",
+      "32375589",
+      "37211823",
+      "37402749",
+      "38923279",
+      "27335214",
+      "28361711",
+      "37668086",
+      "36000144",
+      "29656650",
+      "38876177",
+      "33638254",
+      "37446009",
+      "34338597",
+      "39264908",
+      "38838751",
+      "38175809",
+      "36016519",
+      "39310674",
+      "39271631",
+      "27782467",
+      "38968781",
+      "39219068",
+      "39259687",
+      "38006801",
+      "39220497",
+      "38923997",
+      "34878263",
+      "38887699",
+      "39069741",
+      "38153295",
+      "36190786",
+      "39302888",
+      "39124901",
+      "37807412",
+      "39032457",
+      "36824856",
+      "35745588",
+      "36865465",
+      "38771194"
+    ],
+    "review": [
+      "36773087",
+      "32502863",
+      "39219068"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-023-10611-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1598",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.31.728572",
+  "title": "Genotype-Informed Interaction Landscape of the Dengue Envelope Glycoprotein with Host Cellular Proteins: Structural Dynamics, Thermodynamic Cooperativity, and Binding Specificity",
+  "doi": "10.64898/2026.05.31.728572",
+  "abstract": "1 Abstract Dengue virus (DENV) entry has historically been viewed as a receptor-centric process in which viral envelope proteins engage isolated host factors to initiate infection. However, mounting evidence reveals that viral attachment, internalization, and intracellular trafficking occur within complex molecular environments where multiple interacting host proteins shape the infection landscape. Here we introduce vectorial host interaction fields—a framework that represents intermolecular contacts as directional vectors embedded within host protein interaction networks, providing structural and systems-level insight into viral entry. Docking analyses were performed across sixteen dengue envelope genotype variants, whereas molecular dynamics and MM/GBSA analyses were conducted on representative complexes selected from this genotype-informed screening. We characterized dengue envelope interactions with thirteen host proteins involved in membrane attachment, receptor signaling, cytoskeletal transport, vesicular trafficking, proteostasis, and immune regulation. Our multiscale approach integrated protein–protein docking, 200 ns molecular dynamics simulations of representative complexes, MM/GBSA binding free energy analysis, and vectorial hydrogen-bond formalism encoding orientation, persistence, and angular entropy. We identified four recurrent viral interface architectures: multivalent anchoring (BiP/GRP78, Betaglycan), electrostatic sliding (Glypican-1), focal regulation (Claudin-1, SUMO), and conserved cytoskeletal modules (Actin, Rab5). Ternary docking analyses revealed that viral stability is strongly conditioned by local network context, with conditional ΔΔ G values ranging from approximately −3.4 to +6.9 kcal mol −1 depending on neighboring proteins and assembly sequence. These findings support a systems-level model of dengue entry driven by layered host interaction fields rather than a single dominant receptor, but they should be interpreted as computational structural hypotheses requiring biochemical, biophysical, and cellular validation. Detailed structural datasets, molecular dynamics trajectories, vectorial analyses, and per-residue MM/GBSA decomposition are provided in the companion Supplementary Material, which includes extended Results and Discussion, comprehensive Limitations assessment, and VectorPROT pipeline documentation supporting these findings.",
+  "authors": [
+    "Daniel Ferreira de Lima Neto",
+    "Juan Philippe Teixeira",
+    "Marcus Alexandre Finzi Corat",
+    "Miklos Maximiliano Bajay",
+    "Gustavo Henrique Goulart Trossini",
+    "Daniel Santos Mansur",
+    "Elcio de Souza Leal",
+    "Luiz Mario Ramos Janini",
+    "Caio Cesar de Melo Freire"
+  ],
+  "published_date": "2026-06-03",
+  "updated_date": "2026-06-03T20:00:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.31.728572",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.31.728572.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2026-06-06T20:58:49Z",
+        "timestamp": 1780779529567,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 18,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                3
+              ]
+            ],
+            "date-time": "2026-06-03T00:00:00Z",
+            "timestamp": 1780444800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:label>1</jats:label>\n                <jats:title>Abstract</jats:title>\n                <jats:p>Dengue virus (DENV) entry has historically been viewed as a receptor-centric process in which viral envelope proteins engage isolated host factors to initiate infection. However, mounting evidence reveals that viral attachment, internalization, and intracellular trafficking occur within complex molecular environments where multiple interacting host proteins shape the infection landscape. Here we introduce vectorial host interaction fields—a framework that represents intermolecular contacts as directional vectors embedded within host protein interaction networks, providing structural and systems-level insight into viral entry.</jats:p>\n                <jats:p>\n                  Docking analyses were performed across sixteen dengue envelope genotype variants, whereas molecular dynamics and MM/GBSA analyses were conducted on representative complexes selected from this genotype-informed screening. We characterized dengue envelope interactions with thirteen host proteins involved in membrane attachment, receptor signaling, cytoskeletal transport, vesicular trafficking, proteostasis, and immune regulation. Our multiscale approach integrated protein–protein docking, 200 ns molecular dynamics simulations of representative complexes, MM/GBSA binding free energy analysis, and vectorial hydrogen-bond formalism encoding orientation, persistence, and angular entropy. We identified four recurrent viral interface architectures: multivalent anchoring (BiP/GRP78, Betaglycan), electrostatic sliding (Glypican-1), focal regulation (Claudin-1, SUMO), and conserved cytoskeletal modules (Actin, Rab5). Ternary docking analyses revealed that viral stability is strongly conditioned by local network context, with conditional ΔΔ\n                  <jats:italic>G</jats:italic>\n                  values ranging from approximately −3.4 to +6.9 kcal mol\n                  <jats:sup>−1</jats:sup>\n                  depending on neighboring proteins and assembly sequence.\n                </jats:p>\n                <jats:p>These findings support a systems-level model of dengue entry driven by layered host interaction fields rather than a single dominant receptor, but they should be interpreted as computational structural hypotheses requiring biochemical, biophysical, and cellular validation. Detailed structural datasets, molecular dynamics trajectories, vectorial analyses, and per-residue MM/GBSA decomposition are provided in the companion Supplementary Material, which includes extended Results and Discussion, comprehensive Limitations assessment, and VectorPROT pipeline documentation supporting these findings.</jats:p>",
+      "DOI": "10.64898/2026.05.31.728572",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2026-06-03T20:00:14Z",
+        "timestamp": 1780516814000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Genotype-Informed Interaction Landscape of the Dengue Envelope Glycoprotein with Host Cellular Proteins: Structural Dynamics, Thermodynamic Cooperativity, and Binding Specificity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Daniel Ferreira",
+          "family": "de Lima Neto",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratory of Immunobiology, Department of Microbiology, Immunology and Parasitology, Center of Biological Sciences, Federal University of Santa Catarina (UFSC), Av. Prof. Henrique da Silva Fontes 2754, Florianópolis, SC 88040-900, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Juan Philippe",
+          "family": "Teixeira",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Graduate Program in Animal Science and Department of Fishery Engineering and Biological Sciences, Santa Catarina State University (UDESC), Rua Beloni Trombeta Zanini 680, Chapecó, SC 89815-630, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marcus Alexandre",
+          "family": "Finzi Corat",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Multidisciplinary Center for Biological Research on Laboratory Animal Science (CEMIB), University of Campinas (UNICAMP), Rua 5 de Junho 250, Campinas, SP 13083-970, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Miklos Maximiliano",
+          "family": "Bajay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Graduate Program in Animal Science and Department of Fishery Engineering and Biological Sciences, Santa Catarina State University (UDESC), Rua Beloni Trombeta Zanini 680, Chapecó, SC 89815-630, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gustavo Henrique",
+          "family": "Goulart Trossini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory for the Integration of Experimental and Computational Techniques (LITEC), Department of Pharmacy, School of Pharmaceutical Sciences, University of São Paulo (USP), Av. Prof. Lineu Prestes 580, São Paulo, SP 05508-000, Brazil"
+            },
+            {
+              "name": "Institute of Advanced Studies of the University of São Paulo, University of São Paulo, Praça do Relógio 109, Ground floor, Cidade Universitária, São Paulo, SP 05508-050, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel Santos",
+          "family": "Mansur",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Immunobiology, Department of Microbiology, Immunology and Parasitology, Center of Biological Sciences, Federal University of Santa Catarina (UFSC), Av. Prof. Henrique da Silva Fontes 2754, Florianópolis, SC 88040-900, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elcio",
+          "family": "de Souza Leal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Virology, Institute of Biological Sciences, Federal University of Pará (UFPA), Belém, PA, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luiz Mario",
+          "family": "Ramos Janini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Retrovirology, Department of Microbiology, Immunology and Parasitology, Escola Paulista de Medicina, Federal University of São Paulo (UNIFESP), São Paulo, SP, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Caio Cesar",
+          "family": "de Melo Freire",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Genetics and Evolution, Center of Biological and Health Sciences, Federal University of São Carlos (UFSCar), Rod. Washington Luís, km 235, São Carlos, SP 13565-905, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12060"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(02)00660-8"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02165"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nm0897-866"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00705-003-0263-x"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jmv.20786"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pntd.0000809"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07207"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd2985"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.virol.2013.08.009"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2021.617251"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v16121884"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.0802806"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3213"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpbi.3"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2026060613050634000_2026.05.31.728572v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx407"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.31.728572",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2026-06-06T20:05:13Z",
+        "timestamp": 1780776313000
+      },
+      "score": 59.27379,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.31.728572"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ]
+      },
+      "references-count": 18,
+      "URL": "https://doi.org/10.64898/2026.05.31.728572",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

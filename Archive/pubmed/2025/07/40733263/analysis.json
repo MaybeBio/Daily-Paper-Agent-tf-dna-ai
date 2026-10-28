@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40733263",
+  "title": "Selective Cleaning Enhances Machine Learning Accuracy for Drug Repurposing: Multiscale Discovery of MDM2 Inhibitors.",
+  "authors": "Akmal, Mohammad Firdaus; Wong, Ming Wah",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2025-07-30",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文聚焦MDM2小分子抑制剂药物重定位，核心是蛋白-配体互作，而非蛋白质-DNA互作或TF-DNA结合体系，虽含AI与MD方法但对象不匹配，仅边缘相关。",
+  "abstract": "Cancer remains one of the most formidable challenges to human health; hence, developing effective treatments is critical for saving lives. An important strategy involves reactivating tumor suppressor genes, particularly p53, by targeting their negative regulator MDM2, which is essential in promoting cell cycle arrest and apoptosis. Leveraging a drug repurposing approach, we screened over 24,000 clinically tested molecules to identify new MDM2 inhibitors. A key innovation of this work is the development and application of a selective cleaning algorithm that systematically filters assay data to mitigate noise and inconsistencies inherent in large-scale bioactivity datasets. This approach significantly improved the predictive accuracy of our machine learning model for pIC(50) values, reducing RMSE by 21.6% and achieving state-of-the-art performance (R(2) = 0.87)-a substantial improvement over standard data preprocessing pipelines. The optimized model was integrated with structure-based virtual screening via molecular docking to prioritize repurposing candidate compounds. We identified two clinical CB1 antagonists, MePPEP and otenabant, and the statin drug atorvastatin as promising repurposing candidates based on their high predicted potency and binding affinity toward MDM2. Interactions with the related proteins MDM4 and BCL2 suggest these compounds may enhance p53 restoration through multi-target mechanisms. Quantum mechanical (ONIOM) optimizations and molecular dynamics simulations confirmed the stability and favorable interaction profiles of the selected protein-ligand complexes, resembling that of navtemadlin, a known MDM2 inhibitor. This multiscale, accuracy-boosted workflow introduces a novel data-curation strategy that substantially enhances AI model performance and enables efficient drug repurposing against challenging cancer targets.",
+  "abstract_zh": "癌症仍然是人类健康面临的最严峻挑战之一，因此开发有效疗法对于挽救生命至关重要。一项重要策略是通过靶向其负调控因子MDM2来重新激活肿瘤抑制基因，尤其是p53，这在促进细胞周期停滞和凋亡中至关重要。利用药物重定位方法，我们筛选了超过24,000种经临床测试的分子，以识别新的MDM2抑制剂。本工作的一项关键创新是开发并应用了一种选择性清洗算法，该算法系统性地过滤测定数据，以减轻大规模生物活性数据集中固有的噪声和不一致性。该方法显著提高了我们机器学习模型对pIC(50)值的预测准确性，将RMSE降低了21.6%，并达到了最先进性能（R(2) = 0.87）——相较于标准数据预处理流程有大幅改进。优化后的模型与基于结构的虚拟筛选（通过分子对接）相结合，以优先排序重定位候选化合物。我们识别出两种临床CB1拮抗剂MePPEP和otenabant，以及他汀类药物阿托伐他汀，作为有前景的重定位候选药物，依据是它们对MDM2的高预测效力和结合亲和力。与相关蛋白MDM4和BCL2的相互作用表明，这些化合物可能通过多靶点机制增强p53恢复。量子力学（ONIOM）优化和分子动力学模拟确认了所选蛋白质-配体复合物的稳定性和有利相互作用特征，与已知MDM2抑制剂navtemadlin相似。这种多尺度、精度提升的工作流程引入了一种新颖的数据整理策略，显著增强了AI模型性能，并能够针对具有挑战性的癌症靶点实现高效药物重定位。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40733263/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40733263/",
+  "paper_page_path": "papers/pubmed/40733263/index.html"
+}

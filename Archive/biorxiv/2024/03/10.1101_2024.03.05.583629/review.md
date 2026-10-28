@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, and figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific claims, methodological soundness, data interpretation, and generalizability of conclusions as presented in the text
+- **Shared manuscript claim summary** The authors present PADIT-seq, a novel high-throughput in vitro method for measuring TF-DNA binding affinities with greater sensitivity than existing approaches. Using HOXD13 and EGR1, they identify many lower-affinity binding sites and propose that overlapping binding sites, created by nucleotides flanking high-affinity motifs, collectively modulate TF genomic occupancy in vivo. They further suggest this "weavability" is an inherent property of TF binding sites and has implications for interpreting noncoding variants.
+- **Visible evidence base** Main text, methods, figure legends (Figures 1-8, S1-S12), references to deposited data (GEO: GSE250601) and code (GitHub)
+- **Missing materials affecting confidence** Actual figures and supplementary figures not provided; raw sequencing data not independently analyzed; detailed statistical parameters for some analyses not fully described; complete SNP-SELEX and MPRA datasets not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable new technology (PADIT-seq) for sensitive detection of TF-DNA interactions and a novel conceptual framework regarding overlapping binding sites. The methodological innovation is significant, and the sensitivity improvements over existing approaches appear well-supported. However, the central conceptual claim that overlapping lower-affinity sites "underlie" TF genomic occupancy requires stronger direct evidence. The correlative analyses presented are suggestive but do not establish causality. The manuscript would benefit from more rigorous quantitative modeling and direct experimental validation of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, and computational genomics would be interested. The PADIT-seq method itself will be of broad utility to the field. The concept of overlapping binding sites and "weavability" will interest those studying cis-regulatory logic, noncoding variant interpretation, and TF binding specificity. The findings on lower-affinity binding sites have implications for understanding developmental gene regulation and disease-associated variants.
+- **Major strengths** 1) Novel methodological advance (PADIT-seq) with demonstrated sensitivity improvements over existing approaches. 2) Comprehensive benchmarking against multiple orthogonal methods (PBM, HT-SELEX, MITOMI). 3) Integration of in vitro binding data with in vivo ChIP-seq data to derive biologically meaningful insights. 4) The "weavability" concept is novel and potentially important for understanding TF binding site architecture. 5) Practical implications for interpreting noncoding variants, with clinical relevance demonstrated through ClinVar analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PADIT-seq significantly outperforms existing high-throughput technologies in identification of lower affinity TF-DNA binding sites"
+  - **Evidence pointer** Figure 1D-E, Figure S3-S5
+  - **Concern** The claim of superior sensitivity is based on comparisons to PBM and HT-SELEX data that were not generated in the same experimental conditions or analyzed with the same computational pipeline. The HT-SELEX re-analysis uses a different analysis package (SELEX R package) than what was used in the original publications. The comparison may not be apples-to-apples, and the apparent superiority could partly reflect differences in data processing rather than true methodological advantages.
+  - **Why it matters** The central value proposition of PADIT-seq rests on this sensitivity claim. If the comparison is confounded by analysis differences, the methodological advance may be overstated.
+  - **Resolution test** The authors should demonstrate that PADIT-seq identifies additional true binding sites using an orthogonal validation method (e.g., electrophoretic mobility shift assay or surface plasmon resonance) on a representative sample of the newly identified lower-affinity sites. Additionally, they should re-analyze HT-SELEX data using the same computational pipeline as PADIT-seq data to ensure fair comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for central claim
+  - **Claim pointer** "nucleotides flanking high affinity DNA binding sites create overlapping lower affinity sites that together modulate TF genomic occupancy in vivo"
+  - **Evidence pointer** Figure 2, Figure 3, Figure S6-S9
+  - **Concern** The central claim that overlapping binding sites "modulate TF genomic occupancy in vivo" is supported primarily by correlative analyses. The authors show that ChIP-seq peaks contain consecutive active k-mers and that these regions are conserved, but they do not directly demonstrate that the overlapping lower-affinity sites contribute to occupancy. The in vitro experiments (Figure 3) show that overlapping sites increase binding signal, but this does not establish that this mechanism operates in vivo. The AUROC analysis (Figure S6A) actually shows that lower-affinity sites do not improve discrimination of bound vs. unbound regions, which somewhat undermines the claim of their importance.
+  - **Why it matters** The conceptual framework of overlapping binding sites as a general mechanism for modulating TF occupancy is the main scientific contribution beyond the methodological advance. Without direct evidence, this remains a hypothesis rather than an established finding.
+  - **Resolution test** The authors should perform mutagenesis experiments in vivo (e.g., in cell lines or transgenic reporters) where they disrupt overlapping lower-affinity sites while preserving the high-affinity site, and measure the effect on TF occupancy and gene expression. Alternatively, they could use a quantitative model that predicts occupancy from the sum of overlapping site affinities and test this against independent ChIP-seq data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "the 'weavability' of TF binding sites is an inherent property of diverse metazoan TF classes"
+  - **Evidence pointer** Figure 4, methods section on network analysis
+  - **Concern** The generalizability claim is based on analysis of only two TFs (HOXD13 and EGR1) with PADIT-seq data, and then extrapolated to 200 TFs using PBM data. The PBM-based analysis uses a fixed threshold (top 500 8-mers with E-score > 0.35) that may not be appropriate for all TF families. The network analysis showing high connectivity may be a trivial property of sequence space rather than a biologically meaningful feature, since any set of similar k-mers will show high overlap connectivity.
+  - **Why it matters** The claim of generalizability is important for the broad relevance of the findings. If the "weavability" property is not universal, the conclusions would be limited to specific TF families.
+  - **Resolution test** The authors should validate the weavability concept with PADIT-seq data for additional TFs from different families. They should also demonstrate that the network connectivity observed is non-trivial by comparing to appropriate null models (e.g., random k-mer sets with similar GC content and complexity).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Variant interpretation
+  - **Claim pointer** "noncoding variants influence gene expression by modulating multiple, consecutive active k-mers"
+  - **Evidence pointer** Figure 6, Figure 7
+  - **Concern** The analysis of noncoding variants is based on computational predictions from PADIT-seq data, with validation limited to comparison with SNP-SELEX results. The MPRA analysis shows a modest enrichment (91/149 variants with concordant direction), and the binomial test p-value (0.00853) is not highly significant given the multiple testing burden. The claim that variants act by "modulating multiple, consecutive active k-mers" is inferred from the computational analysis but not directly tested.
+  - **Why it matters** The clinical and translational relevance of the work depends on the reliability of variant effect predictions. Overstated confidence in the predictive power could mislead downstream applications.
+  - **Resolution test** The authors should validate a larger set of predicted variant effects using an independent experimental assay (e.g., luciferase reporters or electrophoretic mobility shift assays) for a representative sample of variants, including those predicted to have small effects through overlapping site disruption.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A description
+  - **Evidence pointer** Figure 1A
+  - **Issue** The description of the PADIT-seq mechanism in the main text is brief and relies heavily on the figure. The role of the "minimal D1 T7 promoter" and how the anti-ALFA nanobody recruitment specifically enhances reporter expression could be clearer.
+  - **Required correction** Expand the description of the PADIT-seq mechanism in the main text or provide a more detailed figure legend that explains the molecular logic of the assay.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2D, 2F conservation analysis
+  - **Evidence pointer** Figure 2D, 2F
+  - **Issue** The conservation analysis uses paired Wilcoxon tests but does not specify how the "flanking genomic regions" were defined or matched for confounding factors such as GC content and repeat density.
+  - **Required correction** Provide details on the selection of flanking regions and any matching procedures. Consider additional controls for local sequence composition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of "energetic sink"
+  - **Evidence pointer** Discussion section
+  - **Issue** The concept of an "energetic sink" for TF binding is introduced in the Discussion without quantitative support. The thermodynamic implications of overlapping sites acting as a sink are not developed.
+  - **Required correction** Either provide a quantitative framework for the energetic sink concept or temper the language to avoid overinterpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section on network analysis
+  - **Evidence pointer** Methods, network analysis
+  - **Issue** The description of the network analysis is brief. The criteria for defining edges (7-bp overlap) and the permutation test for assessing connectivity significance are not fully described.
+  - **Required correction** Provide more detail on the network construction, including how directionality (if any) was handled and the exact permutation procedure used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 7A insets
+  - **Evidence pointer** Figure 7A
+  - **Issue** The insets showing the large number of predicted variant effects are difficult to interpret without clear axis labels and thresholds.
+  - **Required correction** Ensure all insets have clear axis labels and that the thresholds for "differential binding" are explicitly stated in the legend.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (fairness of sensitivity comparison), R1-M2 (lack of direct causal evidence for the central claim), R1-M3 (generalizability without additional TF validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. PADIT-seq is a novel methodological approach, and the concept of overlapping binding sites as a general feature of TF binding architecture is original.
+  - Scientific importance: Moderate to high. If the central claims are substantiated, the work would have broad implications for understanding TF binding, cis-regulatory logic, and variant interpretation. However, the current evidence is largely correlative.
+  - Interdisciplinary readership: Moderate. The work will appeal primarily to molecular biologists and computational biologists studying gene regulation. The methodological advance may attract a broader readership interested in high-throughput assays.
+  - Technical soundness: Moderate. The PADIT-seq method appears well-constructed, but the comparative analyses and the causal claims require additional validation.
+  - Readability for nonspecialists: Good. The manuscript is clearly written, and the conceptual framework is accessible. The figures, if as described, should aid comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The methodological advance is significant and the conceptual framework is intriguing, but the central claims require stronger direct evidence. The authors should address the fairness of the sensitivity comparison, provide direct experimental validation of the overlapping binding site mechanism, and demonstrate generalizability with additional TFs before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that PADIT-seq "significantly outperforms" existing technologies is not fully supported due to potential confounds in the comparison (R1-M1).
+- The claim that overlapping binding sites "modulate TF genomic occupancy in vivo" is not directly demonstrated; current evidence is correlative (R1-M2).
+- The claim that "weavability" is an inherent property of diverse metazoan TF classes is extrapolated from two TFs with PADIT-seq data and indirect PBM analysis (R1-M3).
+- The claim that noncoding variants act by "modulating multiple, consecutive active k-mers" is inferred from computational predictions and limited experimental validation (R1-M4).
+- The "energetic sink" concept in the Discussion is speculative and not quantitatively supported.
+- The statement that extended recognition sequences are "present in almost all of the bound genomic regions" is not quantified in the text provided.

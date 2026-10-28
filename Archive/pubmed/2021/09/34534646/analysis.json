@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34534646",
+  "title": "Evaluation of deep learning approaches for modeling transcription factor sequence specificity.",
+  "authors": "Zhang, Yonglin; Mo, Qi; Xue, Li; Luo, Jiesi",
+  "journal": "Genomics",
+  "published_date": "2021-09-18",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统比较多种深度学习架构在转录因子结合位点预测中的表现，聚焦TF-DNA序列特异性建模，与本课题高度匹配。",
+  "abstract": "As a key component of gene regulation, transcription factors (TFs) play an important role in a number of biological processes. To fully understand the underlying mechanism of TF-mediated gene regulation, it is therefore critical to accurately identify TF binding sites and predict their affinities. Recently, deep learning (DL) algorithms have achieved promising results in the prediction of DNA-TF binding, however, various deep learning architectures have not been systematically compared, and the relative merit of each architecture remains unclear. To address this problem, we applied four different deep learning architectures to SELEX-seq and HT-SELEX data, covering three species and 35 families. We evaluated and compared the performance of different deep neural models using 10-fold cross-validation. Our results indicate that the hybrid CNN + DNN model shows the best performances. We expect that our study will be broadly applicable to modeling and predicting TF binding specificity when more high-throughput affinity data are available.",
+  "abstract_zh": "作为基因调控的关键组成部分，转录因子（TFs）在众多生物过程中扮演着重要角色。为了全面理解TF介导的基因调控机制，准确识别TF结合位点并预测其亲和力至关重要。近年来，深度学习（DL）算法在DNA-TF结合预测方面取得了显著成果，然而，不同的深度学习架构尚未得到系统性比较，各架构的相对优势仍不明确。为解决此问题，我们应用四种不同的深度学习架构于SELEX-seq和HT-SELEX数据，覆盖三个物种和35个家族。我们采用10折交叉验证评估并比较了不同深度神经模型的性能。结果表明，混合CNN + DNN模型表现最佳。我们预期，当更多高通量亲和力数据可用时，我们的研究将广泛适用于TF结合特异性的建模与预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34534646/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34534646/",
+  "paper_page_path": "papers/pubmed/34534646/index.html"
+}

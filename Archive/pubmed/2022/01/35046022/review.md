@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, figure legends not provided separately)
+- **Assessment boundary** Scientific content, experimental design, data analysis, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present a spatiotemporal transcriptomic analysis of the Arabidopsis root response to nitrate across five cell types and four time points. They identify the endodermis as a cell type enriched in regulatory interactions and propose ABF2 and ABF3 as key transcription factor hubs controlling endodermal gene expression and lateral root growth in response to nitrate, linking nitrate signaling to the ABA pathway.
+- **Visible evidence base** Main text figures referenced (Figs 1–5), supplementary figures referenced (Figs S1–S13), datasets referenced (Datasets S1–S7), methods descriptions
+- **Missing materials affecting confidence** Actual figure panels and data values, supplementary datasets, detailed statistical outputs, ChIP-seq and RNA-seq quality metrics, raw data files, detailed experimental protocols for FACS sorting and protoplast isolation
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable and comprehensive spatiotemporal dataset of the nitrate response in Arabidopsis roots. The integration of cell-type-specific and time-resolved transcriptomics with regulatory network inference is methodologically sound and represents a significant resource for the plant nutrition community. The identification of ABF2 and ABF3 as novel regulators of the endodermal nitrate response is interesting and potentially important. However, several technical concerns regarding data validation, network inference methodology, and the strength of the functional evidence need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Plant molecular biologists studying nitrate signaling and root development; researchers interested in cell-type-specific transcriptional regulation; the broader plant nutrition and ABA signaling communities. The spatiotemporal dataset will be a useful resource for those studying root responses to environmental stimuli.
+- **Major strengths** 1) The spatiotemporal resolution of the transcriptomic data is a significant advance over previous whole-root analyses. 2) The integration of multiple data types (transcriptomics, ChIP-seq, TARGET, Y1H) to build and validate regulatory networks is rigorous. 3) The identification of ABF2/ABF3 as novel nitrate-responsive regulators connecting to ABA signaling is conceptually interesting. 4) The data are made publicly available, which will benefit the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data validation
+  - **Claim pointer** The authors claim that their spatiotemporal analysis captures the nitrate response without artifacts from the protoplast isolation procedure.
+  - **Evidence pointer** Results section "Spatiotemporal Analysis of the Root Nitrate Response"; SI Appendix Fig S2 and S4
+  - **Concern** The validation of the protoplast system relies on a single correlation analysis (Spearman = 0.92) between isolated cells and whole roots, and on expression comparison of only four marker genes. The temporal comparison with whole-root data (SI Fig S4A) is described but the actual statistical comparison is not shown. The concern is whether the 1-hour protoplast generation period, which is longer than the earliest time point (12 min), could systematically affect the detection of very early nitrate responses.
+  - **Why it matters** If the protoplast isolation procedure introduces artifacts or delays the detection of early responses, the temporal resolution claimed in the study could be compromised, affecting the validity of the time-course analysis and the network inference that depends on it.
+  - **Resolution test** Provide a more comprehensive validation, including: (1) genome-wide comparison of protoplast vs whole-root expression at multiple time points, (2) demonstration that the 1-hour incubation does not alter the ranking of early response genes, (3) statistical comparison of the temporal profiles between protoplast and whole-root data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Network inference
+  - **Claim pointer** The authors claim that their predicted GRN contains bona fide TF–target interactions and that the spatiotemporal filtering improves network accuracy.
+  - **Evidence pointer** Results section "The Endodermis Has the Largest and Most Highly Connected Nitrate GRN"; SI Appendix Fig S5
+  - **Concern** The AUPR analysis uses TARGET data from Brooks et al. (9) as a gold standard, but the overlap between the TARGET dataset and the TF–target interactions predicted from the AGRIS, Plant Cistrome, and CIS-BP databases is not described. If the gold standard covers only a small fraction of the predicted interactions, the AUPR value may not be a reliable measure of network quality. Additionally, the comparison to a network "that lacks the filters" is described, but the details of this control network are not provided.
+  - **Why it matters** The validity of the GRN and the subsequent identification of ABF2/ABF3 as key hubs depend on the reliability of the network inference. If the validation is not robust, the centrality of ABF2/ABF3 in the network may be overstated.
+  - **Resolution test** Provide: (1) the overlap statistics between the gold standard TARGET data and the predicted network, (2) a detailed description of the control network used for comparison, (3) an analysis of how the AUPR value changes with different correlation thresholds and gold standard datasets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Functional validation
+  - **Claim pointer** The authors claim that ABF2 and ABF3 control lateral root growth in response to nitrate, based on mutant phenotypes.
+  - **Evidence pointer** Results section "ABF2 and ABF3 Control LR Growth in Response to Changes in Nitrate Availability"; Figure 4
+  - **Concern** The phenotypic analysis of abf2, abf3, and abf2/abf3 mutants is described only briefly. Key details are missing: (a) the number of biological replicates and plants measured, (b) the statistical tests used and effect sizes, (c) whether the mutants were in the same ecotype background as the WT control, (d) whether complementation or rescue experiments were performed to confirm that the phenotype is due to the ABF mutations. The statement that the "altered LR response was similar in abf mutants and abf2/abf3 double mutants" suggests a lack of additivity, but this is not discussed in terms of potential genetic redundancy or interaction.
+  - **Why it matters** The functional claim that ABF2/ABF3 control LR growth is a central conclusion of the paper. Without rigorous phenotypic data and genetic validation, the link between the transcriptomic findings and the physiological outcome is not firmly established.
+  - **Resolution test** Provide: (1) full details of the phenotypic analysis including n numbers, statistical methods, and effect sizes, (2) confirmation of mutant backgrounds and segregation, (3) complementation experiments or at least expression analysis of the mutant alleles, (4) a more detailed discussion of the single vs double mutant phenotypes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Interpretation
+  - **Claim pointer** The authors propose a model in which nitrate increases ABA levels in the endodermis, leading to ABF2/ABF3-mediated transcriptional changes and LR growth.
+  - **Evidence pointer** Discussion section; Figure 5
+  - **Concern** The proposed model linking nitrate to ABA biosynthesis/catabolism in the endodermis is based on the observation that CYP707A3, AO1, and ABA3 are nitrate-regulated in this cell type. However, no direct measurements of ABA levels or ABA signaling activity in the endodermis are provided. The connection between the transcriptomic data and the proposed mechanism remains speculative.
+  - **Why it matters** The model is presented as a key conceptual advance, but without direct experimental support for changes in ABA levels or signaling, the mechanistic claim is not fully substantiated.
+  - **Resolution test** Provide direct evidence for nitrate-induced changes in ABA levels in the endodermis (e.g., ABA biosensors, ABA quantification in cell-type-specific samples) or demonstrate that ABA signaling is required for the observed ABF2/ABF3-mediated effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section "Spatiotemporal Analysis of the Root Nitrate Response"
+  - **Issue** The description of Figure 1 is dense and the reader is referred to multiple panels without clear guidance on the main message of each panel.
+  - **Required correction** Consider restructuring the figure description to highlight the key findings in each panel and provide a clearer narrative of the spatiotemporal patterns.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods - ChIP-seq
+  - **Evidence pointer** Methods section "ChIP Assays and Data Analysis"
+  - **Issue** The ChIP-seq analysis is described as using pooled samples from three independent experiments, but the rationale for pooling and the potential loss of biological replication information is not discussed.
+  - **Required correction** Clarify why pooling was chosen over individual replicate analysis and discuss the implications for statistical power and reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods - TARGET assay
+  - **Evidence pointer** Methods section "TARGET TF-Perturbation Assay in Isolated Root Cells"
+  - **Issue** The TARGET assay is described as using cycloheximide to block translation, but the effectiveness of this treatment and the potential for indirect effects on gene expression are not discussed.
+  - **Required correction** Provide validation of the cycloheximide treatment and discuss the limitations of the approach for identifying direct targets.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the broader implications of the findings for understanding nitrate signaling in other contexts (e.g., different nitrogen sources, stress conditions) is limited.
+  - **Required correction** Consider expanding the discussion to place the findings in a broader context and address potential generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (protoplast validation), R1-M2 (network validation), R1-M3 (phenotypic analysis rigor)
+- **Assessment against Nature-style criteria** Originality: High. The spatiotemporal resolution of the nitrate response is a novel contribution. Scientific importance: Moderate to high. The identification of ABF2/ABF3 as novel regulators is significant, but the mechanistic depth is limited. Interdisciplinary readership: Moderate. The work will appeal primarily to plant biologists and those interested in nutrient signaling. Technical soundness: Moderate. The transcriptomic and network analyses are generally sound, but validation concerns (R1-M1, R1-M2) and the limited phenotypic analysis (R1-M3) weaken the overall technical rigor. Readability for nonspecialists: Moderate. The manuscript is clearly written but assumes familiarity with plant biology and transcriptomic methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset and the identification of ABF2/ABF3 are valuable contributions, but the validation of the protoplast system, the network inference, and the phenotypic analysis need to be strengthened to fully support the central claims.
+
+## Risk / unsupported claims
+- The claim that ABF2 and ABF3 regulate "nearly half of the nitrate-responsive genes in the endodermis" is based on the overlap of ChIP-seq and TARGET data, but the calculation and the denominator for this percentage are not clearly described.
+- The statement that "the endodermis is the most nitrate-responsive tissue" is based on the number of regulated genes, but this could be influenced by the sensitivity of detection in different cell types and should be validated with additional metrics.
+- The proposed model of nitrate-induced ABA biosynthesis in the endodermis is speculative and not directly supported by ABA measurements.
+- The claim that the protoplast system does not affect the temporality of the nitrate response is based on limited validation (four marker genes) and requires more comprehensive evidence.

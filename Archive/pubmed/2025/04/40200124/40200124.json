@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "40200124",
+    "doi": "10.1038/s41401-025-01550-6",
+    "title": "Identification of indoles as potential endogenous ligands of ERRgamma and their modulation on drug binding."
+  },
+  "content": {
+    "abstract": "Estrogen-related receptor gamma (ERRgamma) is an orphan nuclear receptor in the ERR subfamily that plays a crucial role in regulating energy metabolism. To date, no endogenous ligand has been identified for ERRgamma, posing a challenge for developing targeted therapeutics. Here, we identified that indole and skatole produced by the gut microbiota are potential endogenous ligands of ERRgamma using biochemical, cellular, structural, and computational approaches. Indole and skatole increased ERRgamma thermostability and directly bound to the ligand-binding domain (LBD) with a K(d) of approximately 1-2 muM but had no significant effect or weak inhibitory activity on the transcriptional efficiency. However, RNA sequencing revealed that ERRgamma could coregulate several lipid metabolism- and immune-related genes with indole, suggesting a role for ERRgamma in the indole pathway. Interestingly, indole and skatole differentially attenuated the activities of ERRgamma ligands: they both neutralized the agonistic activity of GSK4716, while indole reduced the antagonistic activity of 4-hydroxytamoxifen (4OHT) and GSK5182, and skatole affected the agonistic activity of endocrine disruptor bisphenol A (BPA). We further screened additional indole metabolites and analogs, resolved the complex structures of ERRgamma-LBD with these compounds, and conducted molecular dynamics simulations to determine their binding site and elucidate their binding mechanisms. This study identified potential endogenous ligands of ERRgamma, suggesting a novel link between the energy metabolism regulation and the indole pathway. Our findings highlight the need to consider endogenous ligands when designing and optimizing ERRgamma-targeted drugs.",
+    "keywords": [
+      "ERRgamma",
+      "endogenous ligand",
+      "indole",
+      "metabolites",
+      "nuclear receptor"
+    ],
+    "mesh_terms": [
+      "*Receptors, Estrogen/metabolism/chemistry/genetics",
+      "Humans",
+      "Ligands",
+      "*Indoles/metabolism/pharmacology/chemistry",
+      "Tamoxifen/analogs & derivatives/pharmacology/metabolism",
+      "Benzhydryl Compounds/metabolism/pharmacology",
+      "Phenols/metabolism/pharmacology",
+      "HEK293 Cells",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Animals",
+      "Molecular Docking Simulation",
+      "Bisphenol A Compounds"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shuai, Yuan-Yuan",
+        "Zhang, Hong-Yang",
+        "Chen, Rui",
+        "Wang, Bai-Ling",
+        "Ding, Ping",
+        "Dong, Yan",
+        "Sun, Ming-Ze",
+        "Wu, Xi-Shan",
+        "Xu, Yong",
+        "Zhang, Yan",
+        "Liu, Jin-Song",
+        "Wang, Na",
+        "Xu, Ting-Ting"
+      ],
+      "short_names": [
+        "Shuai YY",
+        "Zhang HY",
+        "Chen R",
+        "Wang BL",
+        "Ding P",
+        "Dong Y",
+        "Sun MZ",
+        "Wu XS",
+        "Xu Y",
+        "Zhang Y",
+        "Liu JS",
+        "Wang N",
+        "Xu TT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230026, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "School of Life Science and Biopharmaceutics, Shenyang Pharmaceutical University, Shenyang, 117004, China.",
+        "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "Key Laboratory of Structure-Based Drug Design and Discovery, Ministry of Education, Shenyang Pharmaceutical University, Shenyang, 110016, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+        "Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230026, China. liu_jinsong@gibh.ac.cn.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. liu_jinsong@gibh.ac.cn.",
+        "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. liu_jinsong@gibh.ac.cn.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. wang_na@gibh.ac.cn.",
+        "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. wang_na@gibh.ac.cn.",
+        "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. xu_tingting@gibh.ac.cn.",
+        "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. xu_tingting@gibh.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shuai, Yuan-Yuan",
+        "short_name": "Shuai YY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230026, China.",
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong-Yang",
+        "short_name": "Zhang HY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Biopharmaceutics, Shenyang Pharmaceutical University, Shenyang, 117004, China.",
+          "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Rui",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bai-Ling",
+        "short_name": "Wang BL",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China.",
+          "Key Laboratory of Structure-Based Drug Design and Discovery, Ministry of Education, Shenyang Pharmaceutical University, Shenyang, 110016, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ping",
+        "short_name": "Ding P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yan",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Ming-Ze",
+        "short_name": "Sun MZ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xi-Shan",
+        "short_name": "Wu XS",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yong",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jin-Song",
+        "short_name": "Liu JS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230026, China. liu_jinsong@gibh.ac.cn.",
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. liu_jinsong@gibh.ac.cn.",
+          "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. liu_jinsong@gibh.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Na",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. wang_na@gibh.ac.cn.",
+          "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. wang_na@gibh.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Ting-Ting",
+        "short_name": "Xu TT",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Respiratory Disease, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. xu_tingting@gibh.ac.cn.",
+          "Guangdong Provincial Key Laboratory of Biocomputing, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, 510530, China. xu_tingting@gibh.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 10:11",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "41536281"
+    ],
+    "refs": [
+      "38555524",
+      "38474504",
+      "37915857",
+      "37741527",
+      "36944284",
+      "35806352",
+      "35784338",
+      "35577989",
+      "34966278",
+      "34029468",
+      "33002526",
+      "31226432",
+      "31127318",
+      "30922124",
+      "30120222",
+      "30109749",
+      "27381092",
+      "26940882",
+      "26583988",
+      "26115970",
+      "25910584",
+      "25727910",
+      "25065623",
+      "23897484",
+      "23874451",
+      "21460454",
+      "21460441",
+      "21274867",
+      "20956526",
+      "20383002",
+      "20070374",
+      "20057045",
+      "18664618",
+      "17720764",
+      "17488637",
+      "16990259",
+      "16307879",
+      "15857113",
+      "11447273",
+      "11297507",
+      "7630882"
+    ],
+    "similar": [
+      "40200124",
+      "24978476",
+      "31127318",
+      "25098505",
+      "15149736",
+      "15161930",
+      "16889744",
+      "16990259",
+      "38350536",
+      "17049190",
+      "32105061",
+      "26771593",
+      "37023008",
+      "20542892",
+      "32173553",
+      "24744145",
+      "21056663",
+      "34918738",
+      "14751226",
+      "26404484",
+      "18582436",
+      "30831350",
+      "32998264",
+      "17964775",
+      "27236015",
+      "31491697",
+      "30022450",
+      "19304792",
+      "41381727",
+      "35947429",
+      "39158951",
+      "25910584",
+      "28209382",
+      "26348907",
+      "36805944",
+      "22298789",
+      "31195007",
+      "23373633",
+      "23973438",
+      "33434621",
+      "19690166",
+      "18197296",
+      "28189393",
+      "16307879",
+      "17761695",
+      "18336360",
+      "22935422",
+      "35303621",
+      "24083978",
+      "39507056",
+      "33615540",
+      "26338896",
+      "40412923",
+      "12767224",
+      "29152682",
+      "33612148",
+      "27455076",
+      "24684682",
+      "24466039",
+      "18005256",
+      "15857113",
+      "36613556",
+      "28479375",
+      "25971350",
+      "39159854",
+      "33961950",
+      "22549789",
+      "40379080",
+      "35099937",
+      "25799048",
+      "38927044",
+      "21757507",
+      "22890857",
+      "26243273",
+      "12736255",
+      "12180985",
+      "26363202",
+      "41317415",
+      "30005570",
+      "34191077",
+      "31912162",
+      "39708599",
+      "28616630",
+      "30811808",
+      "19324883",
+      "40918468",
+      "23050013",
+      "23874451",
+      "42520089",
+      "11705994",
+      "20427257",
+      "40346756",
+      "19746993",
+      "22281313",
+      "9292936",
+      "41536281",
+      "27805390",
+      "11447273",
+      "31391291",
+      "20542653"
+    ],
+    "review": [
+      "40200124",
+      "28209382",
+      "39159854",
+      "41536281"
+    ],
+    "pmc": [
+      "12373922"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41401-025-01550-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40200124/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

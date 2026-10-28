@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that FgNR1, a type-1 nuclear receptor from *Fasciola gigantica*, is activated by the bile salts taurocholic acid (TCA) and glycocholic acid (GCA) based on a luciferase reporter assay in a double-stable mammalian cell system and molecular docking analyses. They propose FgNR1-LBD as a parasite-specific drug target.
+- **Visible evidence base** Sequence analysis of FgNR1-LBD; luciferase reporter assay results; molecular docking analyses
+- **Missing materials affecting confidence** Full methods, experimental details of the reporter assay (e.g., cell lines, controls, dose-response data, statistical analysis), docking methodology and scoring functions, sequence alignment details, and any validation of FgNR1 expression or function in the parasite
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible hypothesis and preliminary evidence that FgNR1 responds to bile salts, which would be a novel finding for this parasite. However, the evidence base as described is thin and lacks critical controls and quantitative details. The claim of a "tractable, parasite-specific molecular target" is premature given the absence of functional validation in the parasite and limited mechanistic insight. The work is of interest to the parasitology and drug discovery communities but requires substantial additional evidence to establish the case.
+- **Who would be interested in the results, and why** Researchers studying trematode biology, host-parasite interactions, nuclear receptor signaling in invertebrates, and those seeking new therapeutic targets for fasciolosis. The potential link between bile salt sensing and parasite adaptation to the bile duct is conceptually appealing and could inform drug development strategies.
+- **Major strengths** The hypothesis is well-motivated by the parasite's ecological niche. The use of a luciferase reporter assay provides direct functional readout of transcriptional activation. The combination of experimental and computational approaches is appropriate for an initial characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the bile salts taurocholic acid (TCA) and glycocholic acid (GCA) significantly activate FgNR1-LBD-dependent transcriptional activity"
+  - **Evidence pointer** Luciferase reporter assay, details not provided
+  - **Concern** The abstract does not specify the concentration range of bile salts tested, the magnitude of activation, or whether dose-response relationships were established. It is unclear if the observed activation is physiologically relevant given bile salt concentrations in the bile duct. Additionally, no information is provided on negative controls (e.g., a reporter construct lacking FgNR1-LBD, or a mutated LBD) to confirm specificity.
+  - **Why it matters** Without dose-response data and appropriate controls, the claim of "significant activation" cannot be evaluated for biological relevance or specificity. Bile salts can have nonspecific effects on mammalian cells, and the double-stable cell system may introduce artifacts.
+  - **Resolution test** Provide dose-response curves for TCA and GCA, include negative controls (e.g., empty vector, LBD-deleted or point-mutated FgNR1), and report statistical comparisons with effect sizes and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "molecular docking analyses showed strong binding affinities of these bile salts within the predicted ligand-binding pocket of FgNR1-LBD"
+  - **Evidence pointer** Molecular docking analyses, details not provided
+  - **Concern** The abstract does not describe the docking methodology, scoring function, or how the ligand-binding pocket was predicted. "Strong binding affinities" is a qualitative statement without numerical values (e.g., docking scores, estimated Kd) or comparison to known ligands or decoys. Docking results alone are insufficient to establish functional binding.
+  - **Why it matters** Docking predictions are highly dependent on the protein structure model and scoring functions. Without validation (e.g., mutagenesis of pocket residues, or biophysical binding assays), the docking results do not substantiate the claim of bile salt binding.
+  - **Resolution test** Provide docking scores, describe the receptor model and its validation, include control ligands, and ideally support docking with mutagenesis or a binding assay (e.g., thermal shift, ITC, or SPR).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "this study establishes FgNR1-LBD as a tractable, parasite-specific molecular target"
+  - **Evidence pointer** Not provided
+  - **Concern** The abstract provides no evidence that FgNR1 is essential for parasite biology, that it is druggable, or that it is sufficiently distinct from host nuclear receptors to be "parasite-specific." No functional data in the parasite (e.g., gene knockdown, phenotypic assays) are presented.
+  - **Why it matters** The claim of a drug target requires demonstration of biological relevance and selectivity. Without such evidence, the conclusion overreaches the data presented.
+  - **Resolution test** Provide evidence of FgNR1 expression and function in the parasite, selectivity assays against host nuclear receptors, and ideally phenotypic data from RNAi or inhibitor treatment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, "type-1 nuclear receptor" and "signature motif (Ttau)"
+  - **Issue** The terms "type-1 nuclear receptor" and "Ttau" are used without definition or context, which may confuse readers unfamiliar with nuclear receptor nomenclature.
+  - **Required correction** Briefly define "type-1 nuclear receptor" and spell out or explain "Ttau" (e.g., the conserved TFLLR motif or similar) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Sequence analysis claim
+  - **Evidence pointer** Abstract, "shares high homology with bile salt-responsive nuclear receptors in mammals"
+  - **Issue** "High homology" is vague; no sequence identity or similarity values are given, and homology is often misused to mean similarity.
+  - **Required correction** Report specific sequence identity/similarity percentages and specify the comparison method (e.g., BLAST or structural alignment).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, "double-stable mammalian cell system"
+  - **Issue** The nature of the double-stable system is not explained, which may obscure the experimental logic for readers outside the field.
+  - **Required correction** Briefly describe the system (e.g., stable expression of FgNR1-LBD-GAL4 fusion and a GAL4-responsive reporter) in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of dose-response and controls), R1-M2 (unvalidated docking), R1-M3 (overreach on drug target claim)
+- **Assessment against Nature-style criteria** Originality: The finding of bile salt activation of a nuclear receptor in a trematode is novel and potentially significant. Scientific importance: Moderate to high if validated, as it could open new avenues for fasciolosis treatment, but current evidence is preliminary. Interdisciplinary readership: The topic bridges parasitology, endocrinology, and drug discovery, but the abstract is too specialized and lacks context for broad appeal. Technical soundness: Not yet established from the abstract; key experimental details and controls are missing. Readability for nonspecialists: The abstract is accessible in structure but uses jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the preliminary data are suggestive, but the abstract lacks the quantitative and control data needed to support the central claims. I would be supportive if the technical concerns are resolved with full experimental details and additional validation.
+
+## Risk / unsupported claims
+- "Significant activation" of FgNR1-LBD by TCA and GCA is unsupported without dose-response data, effect sizes, and negative controls.
+- "Strong binding affinities" from docking are unsupported without numerical scores, model validation, or orthogonal binding assays.
+- "Parasite-specific molecular target" is unsupported without selectivity data against host receptors and evidence of functional relevance in the parasite.
+- "Essential for parasite biology" is implied but not tested.
+- The claim of "conserved ligand recognition mechanisms" based on sequence homology is speculative without functional comparison to mammalian receptors.

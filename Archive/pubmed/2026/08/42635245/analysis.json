@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42635245",
+  "title": "Chiron3D: an interpretable deep learning framework for understanding the DNA code of chromatin looping.",
+  "authors": "Honig, Sebastian; Grover, Aayush; Neri, Piero; Surdez, Didier; Boeva, Valentina",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-08-24",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释深度学习框架预测CTCF介导的染色质环，虽聚焦染色质结构而非直接TF-DNA结合，但涉及CTCF-DNA识别与三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "MOTIVATION: Three-dimensional folding of the genome into structures such as chromatin loops is essential for gene regulation. Current experimental methods for mapping these structures, like Hi-C and HiChIP, are labor-intensive and require repeated assays to test hypothesized mutation effects. This motivates the need for predictive approaches that reveal the sequence determinants of chromatin loops. RESULTS: In this work, we present a novel and interpretable computational pipeline for predicting CTCF-mediated chromatin loops. We propose Chiron3D, a DNA-only model trained in a cell-type specific manner to predict CTCF HiChIP contact maps. By leveraging pre-trained embeddings from a foundation model, our approach is competitive with baselines that take CTCF ChIP-seq as additional input, while enabling nucleotide-level attribution to the input DNA sequence. Using our framework, we provide likely mechanistic insights into the physical control of loop dynamics. Specifically, we find that the strength of the loop extrusion anchorage site is largely governed by the amount and binding affinity of CTCF sites at the boundaries. Furthermore, we reveal that loop stability is regulated by the amount of intra-loop CTCF binding sites, where fewer intra-loop sites are associated with greater loop stability. Using targeted, single-nucleotide edit simulations with Chiron3D, we show that both loop strength and stability can be precisely controlled. Together, these results provide novel mechanistic insights into the physical control of genome organization and highlight the potential of decoding the DNA sequence logic in silico. AVAILABILITY: The Chiron3D pipeline is made available at https://github.com/BoevaLab/Chiron3D.",
+  "abstract_zh": "动机：基因组三维折叠形成染色质环等结构对基因调控至关重要。当前用于绘制这些结构的实验方法，如Hi-C和HiChIP，劳动强度大，且需要重复实验来测试假设的突变效应。这促使需要预测性方法来揭示染色质环的序列决定因素。结果：在本工作中，我们提出了一种新颖且可解释的计算流程，用于预测CTCF介导的染色质环。我们提出了Chiron3D，一种仅基于DNA的模型，以细胞类型特异方式训练，用于预测CTCF HiChIP接触图。通过利用基础模型的预训练嵌入，我们的方法与以CTCF ChIP-seq作为额外输入的基线方法相比具有竞争力，同时能够对输入DNA序列进行核苷酸级别的归因。利用我们的框架，我们提供了对环动力学物理控制的可能机制性见解。具体来说，我们发现环挤出锚定位点的强度主要由边界处CTCF位点的数量和结合亲和力决定。此外，我们揭示环稳定性受环内CTCF结合位点数量调控，其中较少的环内位点与更高的环稳定性相关。通过使用Chiron3D进行靶向单核苷酸编辑模拟，我们展示了环强度和稳定性均可被精确控制。综合这些结果，我们提供了对基因组组织物理控制的新机制性见解，并强调了在计算机中解码DNA序列逻辑的潜力。可用性：Chiron3D流程可在https://github.com/BoevaLab/Chiron3D获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42635245/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42635245/",
+  "paper_page_path": "papers/pubmed/42635245/index.html"
+}

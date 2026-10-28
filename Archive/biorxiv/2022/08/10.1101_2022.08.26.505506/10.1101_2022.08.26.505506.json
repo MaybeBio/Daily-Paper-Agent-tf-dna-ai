@@ -1,0 +1,383 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.26.505506",
+  "title": "MOLECULAR INSIGHTS INTO BINDING BEHAVIOUR OF LAMOTRIGINE WITH INITIATION FACTOR 2 PROTEIN: AN INTEGRATED COMPUTATIONAL STUDIES",
+  "doi": "10.1101/2022.08.26.505506",
+  "abstract": "CONSPECTUS Aims The ribosomal protein (r-protein) of bacteria is composed of 2.6 MDa ribonucleoproteins of the 30S and 50S subunits, which are essential elements for protein translation. The translational initiation step is an intensive regulated multi-step reaction in protein biosynthesis. During bacterial protein synthesis, the correct reading frame of the mRNA defines when the initiator fMet-tRNAiMet binds to the start codon AUG at the P-site of the 30S subunit. The formation of the P-site of the 30S subunit initiation complex (30S-IC) is governed by three ubiquitous initiation factors (IFs) such as IF1, IF2, and IF3. IF2 protein is an essential player that plays during the last stage of the initiation process. Earlier, Stokes and his co-workers studied chemicals probes using 30K diverse drugs that induced cold-sensitive growth inhibition in the bacterium. The assay studies revealed, Lamotrigine (LTG) effectively binds at domain II of IF2 protein. In our research, we took an attempt in identifying promising active residues that could responsible for anti-bacterial bioactivity with help of computational studies. Computational Methods In the present study, initially, we performed C-α backbone alignment with the retrieved IF2 chain from AlphaFold. Further, we utilized SiteMap and CastP for the identification of plausible active binding sites. Further, we bound LTG with the designated domain(s) of IF2 protein and studied its binding affinity potential with help of adaptive molecular dynamics simulations at atomic levels using Desmond. Key Findings Our research findings have shown accurate results and we could able to prove the assertion in contrast with the findings of Stokes and his co-workers where the LTG bind at domain II of IF2 protein. The key interacting residue Glu179 was revealed to have strong hydrogen bonding contacts with LTG at the sub-nanomolar range. In addition, we predicted the alternative promising site I Further, we gained in-depth analysis for studying multiple sites, to understand the synergism inhibitory activity. Promisingly, LTG could be able to bound with at Site 1 showing better affinity over the proposed domain II and other predicted sites. The adaptive molecular dynamics studies confirmed the promising active residues Significance The binding site predictions approach provides an insight for further development of anti-bacterial therapeutics that might helpful for bacteria disease management and exhibiting inhibitory activity against various strains.",
+  "authors": [
+    "Smriti Arora",
+    "Jeevan Patra"
+  ],
+  "published_date": "2022-08-29",
+  "updated_date": "2022-08-30T01:00:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.26.505506",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.26.505506.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:20:54Z",
+        "timestamp": 1768501254297,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 36,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>CONSPECTUS</jats:title>\n                <jats:sec>\n                  <jats:title>Aims</jats:title>\n                  <jats:p>The ribosomal protein (r-protein) of bacteria is composed of 2.6 MDa ribonucleoproteins of the 30S and 50S subunits, which are essential elements for protein translation. The translational initiation step is an intensive regulated multi-step reaction in protein biosynthesis. During bacterial protein synthesis, the correct reading frame of the mRNA defines when the initiator fMet-tRNAiMet binds to the start codon AUG at the P-site of the 30S subunit. The formation of the P-site of the 30S subunit initiation complex (30S-IC) is governed by three ubiquitous initiation factors (IFs) such as IF1, IF2, and IF3. IF2 protein is an essential player that plays during the last stage of the initiation process. Earlier, Stokes and his co-workers studied chemicals probes using 30K diverse drugs that induced cold-sensitive growth inhibition in the bacterium. The assay studies revealed, Lamotrigine (LTG) effectively binds at domain II of IF2 protein. In our research, we took an attempt in identifying promising active residues that could responsible for anti-bacterial bioactivity with help of computational studies.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Computational Methods</jats:title>\n                  <jats:p>In the present study, initially, we performed C-α backbone alignment with the retrieved IF2 chain from AlphaFold. Further, we utilized SiteMap and CastP for the identification of plausible active binding sites. Further, we bound LTG with the designated domain(s) of IF2 protein and studied its binding affinity potential with help of adaptive molecular dynamics simulations at atomic levels using Desmond.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key Findings</jats:title>\n                  <jats:p>Our research findings have shown accurate results and we could able to prove the assertion in contrast with the findings of Stokes and his co-workers where the LTG bind at domain II of IF2 protein. The key interacting residue Glu179 was revealed to have strong hydrogen bonding contacts with LTG at the sub-nanomolar range. In addition, we predicted the alternative promising site I Further, we gained in-depth analysis for studying multiple sites, to understand the synergism inhibitory activity. Promisingly, LTG could be able to bound with at Site 1 showing better affinity over the proposed domain II and other predicted sites. The adaptive molecular dynamics studies confirmed the promising active residues</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Significance</jats:title>\n                  <jats:p>The binding site predictions approach provides an insight for further development of anti-bacterial therapeutics that might helpful for bacteria disease management and exhibiting inhibitory activity against various strains.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.08.26.505506",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            30
+          ]
+        ],
+        "date-time": "2022-08-30T01:00:13Z",
+        "timestamp": 1661821213000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "MOLECULAR INSIGHTS INTO BINDING BEHAVIOUR OF LAMOTRIGINE WITH INITIATION FACTOR 2 PROTEIN: AN INTEGRATED COMPUTATIONAL STUDIES"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3422-3512",
+          "authenticated-orcid": false,
+          "given": "Smriti",
+          "family": "Arora",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jeevan",
+          "family": "Patra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.03.023"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bowers, K. J. , Chow, D. E. , Xu, H. , Dror, R. O. , Eastwood, M. P. , Gregersen, B. A. , Klepeis, J. L. , Kolossvary, I. , Moraes, M. A. , & Sacerdoti, F. D. (2006). Scalable algorithms for molecular dynamics simulations on commodity clusters. SC’06: Proceedings of the 2006 ACM/IEEE Conference on Supercomputing,",
+          "DOI": "10.1145/1188455.1188544"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.02.036"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.4",
+          "unstructured": "Chow, E. , Rendleman, C. A. , Bowers, K. J. , Dror, R. O. , Hughes, D. H. , Gullingsrud, J. , Sacerdoti, F. D. , & Shaw, D. E. (2008). Desmond performance on a cluster of multicore processors. DE Shaw Research Technical Report DESRES/TR--2008-01."
+        },
+        {
+          "issue": "1",
+          "key": "2022090106200456000_2022.08.26.505506v1.5",
+          "first-page": "82",
+          "article-title": "Pymol: An open-source molecular graphics tool",
+          "volume": "40",
+          "year": "2002",
+          "journal-title": "CCP4 Newsl. Protein Crystallogr"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1309360110"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/sqb.2001.66.363"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci800324m"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1001095"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "1",
+          "key": "2022090106200456000_2022.08.26.505506v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "101",
+          "DOI": "10.1128/MMBR.69.1.101-123.2005",
+          "article-title": "Initiation of protein synthesis in bacteria",
+          "volume": "69",
+          "year": "2005",
+          "journal-title": "Microbiology and molecular biology reviews : MMBR"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2308"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.00030-08"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583505004026"
+        },
+        {
+          "issue": "43",
+          "key": "2022090106200456000_2022.08.26.505506v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "9954",
+          "DOI": "10.1021/jp003020w",
+          "article-title": "Structure and Dynamics of the TIP3P, SPC, and SPC/E Water Models at 298 K",
+          "volume": "105",
+          "year": "2001",
+          "journal-title": "The Journal of Physical Chemistry A"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2009.06.008"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.463940"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.467468"
+        },
+        {
+          "issue": "1",
+          "key": "2022090106200456000_2022.08.26.505506v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1146/annurev-biophys-050511-102314",
+          "article-title": "How Should We Think About the Ribosome?",
+          "volume": "41",
+          "year": "2012",
+          "journal-title": "Annual Review of Biophysics"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20033"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1309578110"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-008-8416-4"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07192"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.1501502"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.1501502"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.275.4.2447"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.03574"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1208245"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.044"
+        },
+        {
+          "issue": "D1",
+          "key": "2022090106200456000_2022.08.26.505506v1.34",
+          "first-page": "D439",
+          "article-title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models",
+          "volume": "50",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2022090106200456000_2022.08.26.505506v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "issue": "W1",
+          "key": "2022090106200456000_2022.08.26.505506v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "W322",
+          "DOI": "10.1093/nar/gkz397",
+          "article-title": "HawkDock: a web server to predict and analyze the protein-protein complex based on computational docking and MM/GBSA",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Res"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.26.505506",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:32:34Z",
+        "timestamp": 1768447954000
+      },
+      "score": 122.33846,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.26.505506"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            29
+          ]
+        ]
+      },
+      "references-count": 36,
+      "URL": "https://doi.org/10.1101/2022.08.26.505506",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

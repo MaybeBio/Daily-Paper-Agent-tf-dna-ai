@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "41386265",
+    "doi": "10.1093/bioinformatics/btaf653",
+    "title": "Benchmarking large language models for identifying transcription factor regulatory interactions."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Transcription factors (TFs) and their target genes form regulatory networks that control gene expression and influence diverse biological processes and disease outcomes. Although multiple computational methods and curated databases have been developed to identify TF-target interactions, they often require specialized expertise. Large language models (LLMs) chatbots offer a more accessible alternative for querying TF-target interactions. In this study, we benchmarked four prominent LLMs, Anthropic's Claude 3.5 Sonnet, Google's Gemini 1.0 Pro, OpenAI's GPT-4o, and Meta's Llama3 8b, using 8432 literature-curated human TF-target interactions. We examined four regulatory categories: bidirectional, ambiguous, self-regulated, and unidirectional interactions. RESULTS: Under single-turn queries, Claude 3.5 Sonnet and GPT-4o outperformed the others, with balanced accuracies reaching 50.0 +/- 7.6% (GPT-4o, self-regulated) and 48.2 +/- 1.0% (Claude 3.5 Sonnet, unidirectional). Zero-temperature settings generally enhanced reproducibility, and multi-turn prompting improved performance for most models, increasing Claude 3.5 Sonnet's accuracy on self-regulated pairs by 32.6%. Excluding TF-target pairs with all unknown regulation types also generally improved accuracy, with unidirectional regulation reaching near 70% balanced accuracy in some cases. We also benchmarked Anthropic's Claude 3.5 Sonnet, Google's Gemini 2.0 Flash, OpenAI's GPT-4o, and Meta's Llama3 using 5148 experimentally derived TF-target interactions. Claude 3.5 Sonnet consistently outperformed the other models across conditions. Our findings highlight that prompt engineering and strategic use of model parameters consistently influence LLM chatbots' performance on TF-target identifications. This study establishes a benchmarking framework and demonstrates the potential of pre-trained general-purpose LLMs to support regulatory biology research, especially for researchers without extensive computational expertise. AVAILABILITY AND IMPLEMENTATION: The literature-based TF-target interactions ground truth were obtained from TRRUST v2 human dataset (www.grnpedia.org/trrust). The experimental derived TF-target interactions ground truth were obtained from TFLink Home Sapiens small-scale interaction table (https://tflink.net/). Processed TF-target interactions data and the analytical pipeline has been compiled as an interactive Python notebook file and is available at https://github.com/pengpclab/LLM-TF-interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/genetics",
+      "Humans",
+      "Benchmarking",
+      "*Computational Biology/methods",
+      "*Gene Regulatory Networks",
+      "*Programming Languages",
+      "Large Language Models"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Noel, Lake",
+        "Hsiao, Yi-Wen",
+        "He, Yimeng",
+        "Hung, Andrew",
+        "Cui, Xiaojiang",
+        "Ray, Edward",
+        "Moore, Jason H",
+        "Peng, Pei-Chen",
+        "Huang, Xiuzhen"
+      ],
+      "short_names": [
+        "Noel L",
+        "Hsiao YW",
+        "He Y",
+        "Hung A",
+        "Cui X",
+        "Ray E",
+        "Moore JH",
+        "Peng PC",
+        "Huang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5004-4322",
+        "ORCID: 0000-0003-0498-3131"
+      ],
+      "affiliations": [
+        "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Biomedical Imaging Research Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Urology, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+        "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Noel, Lake",
+        "short_name": "Noel L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Yi-Wen",
+        "short_name": "Hsiao YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "He, Yimeng",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States.",
+          "Biomedical Imaging Research Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Hung, Andrew",
+        "short_name": "Hung A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaojiang",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Ray, Edward",
+        "short_name": "Ray E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Moore, Jason H",
+        "short_name": "Moore JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Peng, Pei-Chen",
+        "short_name": "Peng PC",
+        "identifiers": [
+          "0000-0002-5004-4322"
+        ],
+        "affiliations": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiuzhen",
+        "short_name": "Huang X",
+        "identifiers": [
+          "0000-0003-0498-3131"
+        ],
+        "affiliations": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/13 00:32",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39565209",
+      "37843125",
+      "37794249",
+      "37769024",
+      "37711605",
+      "37443040",
+      "37087108",
+      "36812645",
+      "36699385",
+      "36124642",
+      "34314098",
+      "33231677",
+      "32858223",
+      "31340985",
+      "31061989",
+      "29425488",
+      "29087512",
+      "28359978",
+      "23387820",
+      "21324878"
+    ],
+    "similar": [
+      "41386265",
+      "40281318",
+      "40550134",
+      "42168963",
+      "40938561",
+      "42475469",
+      "42417979",
+      "41779493",
+      "41094133",
+      "42228942",
+      "39248152",
+      "40400723",
+      "42374405",
+      "41875309",
+      "40998658",
+      "39395898",
+      "41618251",
+      "40984701",
+      "39905358",
+      "41118647",
+      "40876082",
+      "42008616",
+      "42054257",
+      "41838894",
+      "32054475",
+      "41435997",
+      "40650735",
+      "40669074",
+      "41224529",
+      "40768757",
+      "40420705",
+      "40351113",
+      "41404998",
+      "41462454",
+      "40235070",
+      "40392576",
+      "40510808",
+      "42361337",
+      "41288963",
+      "38954192",
+      "41717624",
+      "41539675",
+      "26066708",
+      "42128506",
+      "40742581",
+      "39923296",
+      "41125815",
+      "41032884",
+      "42371624",
+      "41237352",
+      "41879927",
+      "42498040",
+      "24228871",
+      "42166792",
+      "41941887",
+      "40516314",
+      "38508682",
+      "42107669",
+      "41426306",
+      "40497825",
+      "41904507",
+      "31340985",
+      "40196917",
+      "42362056",
+      "39807977",
+      "38606229",
+      "39789057",
+      "41052265",
+      "31857203",
+      "41696659",
+      "42296704",
+      "29087512",
+      "42000844",
+      "39403651",
+      "40447746",
+      "40658983",
+      "40880236",
+      "40532199",
+      "40319086",
+      "40819090",
+      "24565265",
+      "40873373",
+      "40385316",
+      "41068861",
+      "39832824",
+      "37845713",
+      "42121209",
+      "41181570",
+      "42104391",
+      "40815310",
+      "40428214",
+      "41231698",
+      "40830600",
+      "41252614",
+      "37682477",
+      "42210248",
+      "40923845",
+      "41628437",
+      "41092067",
+      "33631799"
+    ],
+    "review": [
+      "41386265",
+      "40550134"
+    ],
+    "pmc": [
+      "12766914"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41386265.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41386265/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf653",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

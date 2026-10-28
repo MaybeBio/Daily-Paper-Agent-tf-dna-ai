@@ -1,0 +1,763 @@
+{
+  "identity": {
+    "pmid": "39227502",
+    "doi": "10.1007/s00401-024-02789-9",
+    "title": "Association of quantitative histopathology measurements with antemortem medial temporal lobe cortical thickness in the Alzheimer's disease continuum."
+  },
+  "content": {
+    "abstract": "The medial temporal lobe (MTL) is a hotspot for neuropathology, and measurements of MTL atrophy are often used as a biomarker for cognitive decline associated with neurodegenerative disease. Due to the aggregation of multiple proteinopathies in this region, the specific relationship of MTL atrophy to distinct neuropathologies is not well understood. Here, we develop two quantitative algorithms using deep learning to measure phosphorylated tau (p-tau) and TDP-43 (pTDP-43) pathology, which are both known to accumulate in the MTL and are associated with MTL neurodegeneration. We focus on these pathologies in the context of Alzheimer's disease (AD) and limbic predominant age-related TDP-43 encephalopathy (LATE) and apply our deep learning algorithms to distinct histology sections, on which MTL subregions were digitally annotated. We demonstrate that both quantitative pathology measures show high agreement with expert visual ratings of pathology and discriminate well between pathology stages. In 140 cases with antemortem MR imaging, we compare the association of semi-quantitative and quantitative postmortem measures of these pathologies in the hippocampus with in vivo structural measures of the MTL and its subregions. We find widespread associations of p-tau pathology with MTL subregional structural measures, whereas pTDP-43 pathology had more limited associations with the hippocampus and entorhinal cortex. Quantitative measurements of p-tau pathology resulted in a significantly better model of antemortem structural measures than semi-quantitative ratings and showed strong associations with cortical thickness and volume. By providing a more granular measure of pathology, the quantitative p-tau measures also showed a significant negative association with structure in a severe AD subgroup where semi-quantitative ratings displayed a ceiling effect. Our findings demonstrate the advantages of using quantitative neuropathology to understand the relationship of pathology to structure, particularly for p-tau, and motivate the use of quantitative pathology measurements in future studies.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Quantitative neuropathology",
+      "TDP-43",
+      "Tau"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/pathology",
+      "*Temporal Lobe/pathology/diagnostic imaging",
+      "Male",
+      "Female",
+      "Aged",
+      "*tau Proteins/metabolism",
+      "Aged, 80 and over",
+      "Deep Learning",
+      "DNA-Binding Proteins/metabolism",
+      "Atrophy/pathology",
+      "Middle Aged",
+      "Magnetic Resonance Imaging/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Denning, Amanda E",
+        "Ittyerah, Ranjit",
+        "Levorse, Lisa M",
+        "Sadeghpour, Niyousha",
+        "Athalye, Chinmayee",
+        "Chung, Eunice",
+        "Ravikumar, Sadhana",
+        "Dong, Mengjin",
+        "Duong, Michael Tran",
+        "Li, Yue",
+        "Ilesanmi, Ademola",
+        "Sreepada, Lasya P",
+        "Sabatini, Philip",
+        "Lowe, MaKayla",
+        "Bahena, Alejandra",
+        "Zablah, Jamila",
+        "Spencer, Barbara E",
+        "Watanabe, Ryohei",
+        "Kim, Boram",
+        "Sorensen, Maja Hojvang",
+        "Khandelwal, Pulkit",
+        "Brown, Christopher",
+        "Hrybouski, Stanislau",
+        "Xie, Sharon X",
+        "de Flores, Robin",
+        "Robinson, John L",
+        "Schuck, Theresa",
+        "Ohm, Daniel T",
+        "Arezoumandan, Sanaz",
+        "Porta, Silvia",
+        "Detre, John A",
+        "Insausti, Ricardo",
+        "Wisse, Laura E M",
+        "Das, Sandhitsu R",
+        "Irwin, David J",
+        "Lee, Edward B",
+        "Wolk, David A",
+        "Yushkevich, Paul A"
+      ],
+      "short_names": [
+        "Denning AE",
+        "Ittyerah R",
+        "Levorse LM",
+        "Sadeghpour N",
+        "Athalye C",
+        "Chung E",
+        "Ravikumar S",
+        "Dong M",
+        "Duong MT",
+        "Li Y",
+        "Ilesanmi A",
+        "Sreepada LP",
+        "Sabatini P",
+        "Lowe M",
+        "Bahena A",
+        "Zablah J",
+        "Spencer BE",
+        "Watanabe R",
+        "Kim B",
+        "Sorensen MH",
+        "Khandelwal P",
+        "Brown C",
+        "Hrybouski S",
+        "Xie SX",
+        "de Flores R",
+        "Robinson JL",
+        "Schuck T",
+        "Ohm DT",
+        "Arezoumandan S",
+        "Porta S",
+        "Detre JA",
+        "Insausti R",
+        "Wisse LEM",
+        "Das SR",
+        "Irwin DJ",
+        "Lee EB",
+        "Wolk DA",
+        "Yushkevich PA"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-2531-9346"
+      ],
+      "affiliations": [
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA. amanda.denning@pennmedicine.upenn.edu.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA, USA.",
+        "UMR-S U1237, PhIND \"Physiopathology and Imaging of Neurological Disorders\", Institut Blood and Brain @ Caen-Normandie, INSERM, Caen-Normandie University, GIP Cyceron, Caen, France.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Human Neuroanatomy Lab, University of Castilla La Mancha, Albacete, Spain.",
+        "Department of Clinical Sciences Lund, Lund University, Lund, Sweden.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Denning, Amanda E",
+        "short_name": "Denning AE",
+        "identifiers": [
+          "0009-0005-2531-9346"
+        ],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA. amanda.denning@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Ittyerah, Ranjit",
+        "short_name": "Ittyerah R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Levorse, Lisa M",
+        "short_name": "Levorse LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Sadeghpour, Niyousha",
+        "short_name": "Sadeghpour N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Athalye, Chinmayee",
+        "short_name": "Athalye C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Chung, Eunice",
+        "short_name": "Chung E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ravikumar, Sadhana",
+        "short_name": "Ravikumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Dong, Mengjin",
+        "short_name": "Dong M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Duong, Michael Tran",
+        "short_name": "Duong MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yue",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ilesanmi, Ademola",
+        "short_name": "Ilesanmi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Sreepada, Lasya P",
+        "short_name": "Sreepada LP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Sabatini, Philip",
+        "short_name": "Sabatini P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lowe, MaKayla",
+        "short_name": "Lowe M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bahena, Alejandra",
+        "short_name": "Bahena A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Zablah, Jamila",
+        "short_name": "Zablah J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Spencer, Barbara E",
+        "short_name": "Spencer BE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Ryohei",
+        "short_name": "Watanabe R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Boram",
+        "short_name": "Kim B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Sørensen, Maja Højvang",
+        "short_name": "Sørensen MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Khandelwal, Pulkit",
+        "short_name": "Khandelwal P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Brown, Christopher",
+        "short_name": "Brown C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Hrybouski, Stanislau",
+        "short_name": "Hrybouski S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Sharon X",
+        "short_name": "Xie SX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "de Flores, Robin",
+        "short_name": "de Flores R",
+        "identifiers": [],
+        "affiliations": [
+          "UMR-S U1237, PhIND \"Physiopathology and Imaging of Neurological Disorders\", Institut Blood and Brain @ Caen-Normandie, INSERM, Caen-Normandie University, GIP Cyceron, Caen, France."
+        ]
+      },
+      {
+        "full_name": "Robinson, John L",
+        "short_name": "Robinson JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Schuck, Theresa",
+        "short_name": "Schuck T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ohm, Daniel T",
+        "short_name": "Ohm DT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Arezoumandan, Sanaz",
+        "short_name": "Arezoumandan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Porta, Sílvia",
+        "short_name": "Porta S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Detre, John A",
+        "short_name": "Detre JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Insausti, Ricardo",
+        "short_name": "Insausti R",
+        "identifiers": [],
+        "affiliations": [
+          "Human Neuroanatomy Lab, University of Castilla La Mancha, Albacete, Spain."
+        ]
+      },
+      {
+        "full_name": "Wisse, Laura E M",
+        "short_name": "Wisse LEM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Sciences Lund, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Das, Sandhitsu R",
+        "short_name": "Das SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Irwin, David J",
+        "short_name": "Irwin DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Edward B",
+        "short_name": "Lee EB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Center for Neurodegenerative Disease Research, Institute On Aging, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Wolk, David A",
+        "short_name": "Wolk DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Yushkevich, Paul A",
+        "short_name": "Yushkevich PA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta neuropathologica"
+    ],
+    "journal_abbrev": [
+      "Acta Neuropathol"
+    ],
+    "pub_date": "2024 Sep 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 01:01",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42418450",
+      "42392339",
+      "42309984",
+      "42265282",
+      "42046390",
+      "41952326",
+      "41509294",
+      "41366514",
+      "41092763",
+      "40952471",
+      "40722878",
+      "40673357",
+      "40613479",
+      "40448161",
+      "40437594",
+      "40423231",
+      "39985478",
+      "39867392"
+    ],
+    "refs": [
+      "38161595",
+      "38110981",
+      "38050662",
+      "37767219",
+      "37592884",
+      "37459141",
+      "37248900",
+      "37245084",
+      "37082959",
+      "36512061",
+      "36449413",
+      "36316708",
+      "36002965",
+      "35733234",
+      "35697880",
+      "35314672",
+      "34919645",
+      "34720998",
+      "34689831",
+      "34289895",
+      "34259858",
+      "34009663",
+      "33990226",
+      "33725124",
+      "33433877",
+      "33018256",
+      "32845545",
+      "32753441",
+      "32661099",
+      "32518145",
+      "32323446",
+      "31929165",
+      "31757868",
+      "31562527",
+      "31517022",
+      "31495603",
+      "31092819",
+      "31039256",
+      "31034738",
+      "30784812",
+      "30776649",
+      "30770886",
+      "30604226",
+      "30549331",
+      "30453234",
+      "29982501",
+      "29916037",
+      "29878075",
+      "29560382",
+      "29538658",
+      "29100980",
+      "28919059",
+      "28592453",
+      "28282807",
+      "28279988",
+      "28265813",
+      "28130640",
+      "28050342",
+      "27836336",
+      "27694152",
+      "26810071",
+      "26659578",
+      "26538548",
+      "26327235",
+      "26195068",
+      "25936807",
+      "25758940",
+      "25181316",
+      "24784800",
+      "24659241",
+      "24612177",
+      "24407427",
+      "24335532",
+      "24240737",
+      "23978324",
+      "23900711",
+      "23686809",
+      "23147505",
+      "23117491",
+      "22749065",
+      "22101365",
+      "22018896",
+      "21935637",
+      "21897434",
+      "21810889",
+      "21245183",
+      "20600995",
+      "19759102",
+      "19041724",
+      "18234698",
+      "17579875",
+      "17356379",
+      "16399212",
+      "15325352",
+      "15275931",
+      "7566337",
+      "1759558"
+    ],
+    "similar": [
+      "39227502",
+      "32323446",
+      "39985478",
+      "34289895",
+      "39675237",
+      "34689831",
+      "33731446",
+      "33990226",
+      "29192126",
+      "35086906",
+      "40709494",
+      "40243675",
+      "39285454",
+      "41388838",
+      "40671047",
+      "41451842",
+      "32845545",
+      "26836175",
+      "39279366",
+      "39254209",
+      "38839876",
+      "40512809",
+      "31562527",
+      "40116643",
+      "28879085",
+      "39868491",
+      "40734544",
+      "34009663",
+      "41407844",
+      "41168814",
+      "27836336",
+      "37578787",
+      "33725124",
+      "40894164",
+      "39080151",
+      "29518752",
+      "37037195",
+      "39657969",
+      "18525127",
+      "41145530",
+      "32119112",
+      "33341654",
+      "39956951",
+      "28675901",
+      "27444967",
+      "31495603",
+      "34531286",
+      "38762725",
+      "9447442",
+      "35609990",
+      "36934675",
+      "37248900",
+      "35156715",
+      "38676563",
+      "32252068",
+      "40448161",
+      "35435938",
+      "31207390",
+      "39898436",
+      "31272512",
+      "31831066",
+      "30851133",
+      "32739558",
+      "37082959",
+      "39560002",
+      "40968282",
+      "34720998",
+      "39160362",
+      "16311757",
+      "41237676",
+      "27567809",
+      "34116150",
+      "24133269",
+      "34740075",
+      "37794477",
+      "21692882",
+      "37789559",
+      "28269774",
+      "40665478",
+      "40087672",
+      "41637763",
+      "41482168",
+      "32896913",
+      "31034738",
+      "35691047",
+      "40281595",
+      "32929366",
+      "29878075",
+      "40619807",
+      "34373896",
+      "36464907",
+      "38578498",
+      "27136311",
+      "39799781",
+      "40174910",
+      "38050082",
+      "35122358",
+      "32380523",
+      "28919059",
+      "40836826"
+    ],
+    "review": [
+      "39227502",
+      "39985478",
+      "39279366",
+      "32119112"
+    ],
+    "pmc": [
+      "11371872"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39227502/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00401-024-02789-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

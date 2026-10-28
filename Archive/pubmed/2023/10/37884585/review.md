@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure/table legends as provided.
+- **Assessment boundary** Assessment is limited to the scientific content, methodological rigor, and validity of claims as presented in the provided text. No assessment of editorial quality or journal fit beyond Nature-style criteria is implied.
+- **Shared manuscript claim summary** The authors used molecular dynamics simulations to model the missing N-Myc fragment (residues 19–60) in the Aurora A kinase (AurA)–N-Myc complex (PDB 5g1x), and claim that completion of the AurA interaction region (AIR) stabilizes the complex, with the N-terminal lobe of AurA serving as a key binding surface. They further propose that the N-terminal lobe is a superior target for therapeutic intervention compared to the central region.
+- **Visible evidence base** Abstract, Introduction, Results (including Figures 1–8 and Tables 1–3), Discussion, Methods, and Supplementary Information references as embedded in the text.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S7), Supplementary Video S1, and full methodological details for modeling and simulation protocols are referenced but not provided. This limits verification of key claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in cancer biology, namely the structural basis of the AurA–N-Myc interaction, which is a promising therapeutic target in neuroblastoma. The computational approach is reasonable, and the authors provide a plausible model for the missing N-Myc region. However, the study is entirely computational, and the claims of stabilization and therapeutic relevance rest on simulation data that are not experimentally validated. Several methodological details are missing, and the interpretation of binding free energy results is weakened by the omission of entropic contributions. The novelty is moderate, as the interaction has been studied before, and the claim of a "new" binding surface requires stronger evidence. Overall, the manuscript is technically sound in its execution but overstates the significance of its findings given the lack of experimental corroboration.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational biophysics, and cancer biology, particularly those focused on MYC family proteins, Aurora kinases, and protein–protein interaction inhibitors. The study may also interest medicinal chemists seeking new targetable surfaces on AurA for neuroblastoma therapy.
+- **Major strengths** The study addresses a clear gap in the structural understanding of the AurA–N-Myc complex. The use of multiple simulation replicates and the inclusion of several comparative complexes (TPX2, MB0, fused constructs) strengthen the analysis. The identification of two surface tunnels on AurA provides a concrete and potentially actionable structural insight. The authors are transparent about the limitations of their binding free energy calculations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of central claim
+  - **Claim pointer** The authors claim that "the complete AIR of N-Myc stabilizes the complex" and that the N-terminal lobe of AurA is a key binding site for the missing N-Myc fragment.
+  - **Evidence pointer** Results section, Figures 2–4, Table 2
+  - **Concern** The central claim of stabilization is based solely on MD simulations and MM-GBSA binding free energy estimates. The binding free energy values are not experimentally validated, and the omission of the entropy term (TΔS) is acknowledged by the authors but not addressed in the interpretation. The claim that the N-terminal lobe is the binding site for the missing N-Myc fragment is inferred from modeling, not from direct experimental evidence such as mutagenesis or cross-linking. The authors themselves note that the 61–89 fragment in the crystal structure may be stabilized by crystal packing, which undermines the comparison between the incomplete and complete complexes.
+  - **Why it matters** The central conclusion of the paper, namely that the complete AIR forms a stable complex and that the N-terminal lobe is a viable drug target, rests on computational predictions that are not experimentally confirmed. Without validation, the claims remain speculative and cannot support the proposed therapeutic implications.
+  - **Resolution test** Provide experimental validation, such as mutagenesis of key residues (e.g., L24, L61, E54) followed by binding assays, or cross-linking mass spectrometry to confirm the predicted interface. Alternatively, use enhanced sampling or free energy perturbation methods to corroborate the MM-GBSA results and include entropic contributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "the missing N-Myc (19–60) fragment was modeled utilizing the N-terminal lobe of AurA as the protein–protein interaction surface."
+  - **Evidence pointer** Methods section, "Completing the Aurora kinase A and N-Myc complex structure"
+  - **Concern** The modeling procedure is described only briefly. It is unclear how the N-Myc fragment was placed on the N-terminal lobe, what template or constraints were used, and whether multiple conformations were sampled. The choice of the TPX2-bound structure (3e5a) as a template is mentioned, but the rationale for this choice and the alignment procedure are not detailed. This lack of detail limits reproducibility.
+  - **Why it matters** The model is the foundation of the entire study. If the modeling procedure is not reproducible or is biased by the choice of template, the subsequent simulation results and conclusions are compromised.
+  - **Resolution test** Provide a detailed step-by-step description of the modeling protocol, including the software, alignment method, and any manual adjustments. Include validation of the model, such as Ramachandran plots or comparison to known interaction motifs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of simulation results
+  - **Claim pointer** The authors state that "the 61–89 fragment of N-Myc in the 5g1x complex repeatedly showed partial dissociation" and that this indicates instability.
+  - **Evidence pointer** Results section, Figures 3–4, Supplementary Figure S2
+  - **Concern** The observation of partial dissociation in MD simulations is interpreted as evidence of instability of the 61–89 fragment. However, the authors also note that the fragment may be stabilized by crystal packing in the original structure. The simulations may be capturing an artifact of the simulation setup rather than a biologically relevant behavior. Additionally, the use of only two snapshots (first and last) for the distance analysis in Figure 4b is a limited approach that may not capture the full dynamics.
+  - **Why it matters** The interpretation of the 61–89 fragment as unstable is used to argue that the complete AIR is necessary for stability. If this interpretation is flawed, the comparison between the incomplete and complete complexes is weakened.
+  - **Resolution test** Perform a more rigorous analysis of the dissociation event, such as time-resolved distance plots or free energy profiles along the dissociation coordinate. Consider running simulations with different initial velocities or force fields to confirm the reproducibility of the dissociation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 legend
+  - **Issue** The PCA score plot in Figure 1a is described, but the criteria for selecting the six structures are not clearly stated. The reader cannot determine why these specific structures were chosen over others.
+  - **Required correction** Add a clear description of the selection criteria in the figure legend or main text, including the threshold for PC1 scores or other metrics used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The MM-GBSA binding free energy values are presented as mean ± SD, but the number of samples (n) is not stated. It is unclear how many MD snapshots were used for each calculation.
+  - **Required correction** State the number of snapshots used for each calculation in the table legend or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The term "partial dissociation" is used to describe the behavior of the 61–89 fragment, but the extent of dissociation is not quantified. This makes it difficult to assess the significance of the observation.
+  - **Required correction** Provide a quantitative measure of dissociation, such as the minimum distance between the fragment and AurA over time, or the fraction of time the fragment remains bound.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction cites several studies on MYCN and N-Myc but does not cite recent structural studies on the AurA–N-Myc complex beyond the two crystal structures mentioned. This may omit relevant work.
+  - **Required correction** Include recent structural and functional studies on the AurA–N-Myc interaction to provide a more complete context.
+- **Technical failings that need to be addressed before the case is established** The lack of experimental validation for the predicted binding interface and the omission of entropic contributions in binding free energy calculations are the primary technical shortcomings. Additionally, the modeling procedure is not described in sufficient detail to be reproducible, and the analysis of dissociation events relies on limited sampling.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The study applies established computational methods to a known interaction, and the identification of a new binding surface on the N-terminal lobe is somewhat novel, but the overall approach is not groundbreaking.
+  - **Scientific importance** Moderate to high. The AurA–N-Myc interaction is a validated therapeutic target in neuroblastoma, and a more complete structural model could inform drug design. However, the lack of experimental validation limits the immediate impact.
+  - **Interdisciplinary readership** The study will appeal to structural biologists, computational chemists, and cancer biologists, but may not attract a broader audience due to its narrow focus and lack of experimental data.
+  - **Technical soundness** The MD simulations appear to be executed properly, but the modeling procedure and binding free energy calculations have limitations that are not fully addressed.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the heavy reliance on simulation data and specialized terminology may limit comprehension for readers outside the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has merit, but the central claims require experimental validation and the methodological details need to be clarified. If these issues are addressed, the manuscript could make a useful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the complete AIR of N-Myc stabilizes the complex is unsupported by experimental evidence and relies on simulation data with acknowledged limitations.
+- The identification of the N-terminal lobe of AurA as the binding site for the missing N-Myc fragment is based on modeling and is not experimentally confirmed.
+- The assertion that the N-terminal lobe is a better target for therapeutic intervention than the central region is speculative and not supported by functional data.
+- The statement that the 61–89 fragment "partially dissociates" from AurA is based on limited simulation analysis and may not reflect biologically relevant behavior.

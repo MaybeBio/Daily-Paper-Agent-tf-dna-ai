@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figures referenced but not provided, supplementary files referenced but not provided)
+- **Assessment boundary** Scientific soundness, methodological clarity, validity of claims relative to provided evidence, and suitability for a computational biology journal
+- **Shared manuscript claim summary** The authors present DeepEPI, a CNN-transformer hybrid model that predicts enhancer-promoter interactions (EPIs) from DNA sequence alone. They claim improved performance over existing tools across six cell lines, introduce an embedding-based OneHot encoding to reduce memory usage, and use multihead attention to extract transcription factor (TF) motifs and TF-TF interactions, validated against external databases.
+- **Visible evidence base** Main text with methods descriptions, results narrative, and references to Figures 1-6 and Tables 1-3. No actual figures, tables, or supplementary files were provided for inspection.
+- **Missing materials affecting confidence** All figures, tables, and supplementary files (Files 1-9) are referenced but not included. Quantitative performance data, hyperparameter values, dataset statistics, and validation details are therefore not directly verifiable from the supplied material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics and proposes a reasonable architecture combining CNNs and transformers. The motivation is clear and the writing is generally accessible. However, the evidence base provided is insufficient to evaluate the core claims. Key quantitative results, model details, and validation procedures are only referenced in figures or supplementary files that were not supplied. The TF interaction extraction and validation section is particularly difficult to assess without the referenced heatmaps, tables, and database comparison details. The novelty relative to existing transformer-based EPI predictors is not clearly delineated. The manuscript has potential but requires substantial additional evidence and clarification before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, specifically those developing or applying deep learning methods for enhancer-promoter interaction prediction, transcription factor binding site identification, and interpretable models for gene regulation. The memory-efficient encoding approach and the attention-based TF interaction extraction may also interest researchers focused on model interpretability and resource-constrained applications.
+- **Major strengths** The problem is well motivated and clinically relevant. The architecture combining CNNs and transformers is sensible for sequence-based EPI prediction. The explicit focus on interpretability through attention-based TF and TF-TF interaction extraction is a valuable direction. The comparison of multiple encoding strategies and the introduction of a memory-efficient OneHot embedding are practical contributions. The use of multiple cell lines and external validation databases strengthens the biological relevance of the work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that DeepEPI consistently outperforms prior approaches across six cell lines, with specific gains over EPIVAN (2.4% AUPR with DNA2Vec, 4% AUPR and 1.9% AUROC with OneHot).
+  - **Evidence pointer** Section 3.4, Figure 4, Table 2, File 3 (location not provided)
+  - **Concern** The quantitative performance claims are presented in the text but the actual data are only in Figure 4 and supplementary File 3, neither of which was provided. Without the underlying numbers, standard deviations, or statistical significance tests, the claim of consistent outperformance cannot be verified. It is also unclear how many independent runs were performed and whether the reported improvements are statistically significant.
+  - **Why it matters** The central claim of the paper is that DeepEPI improves upon existing methods. If this is not supported by transparent, complete quantitative evidence, the contribution is not established.
+  - **Resolution test** Provide the full performance table for all models and cell lines, including means, standard deviations, and significance tests. Make Figure 4 and File 3 available for inspection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The model architecture is described in Section 2.2 and Figure 1, with hyperparameters in Table 3.
+  - **Evidence pointer** Section 2.2, Figure 1, Table 3 (location not provided)
+  - **Concern** The architecture description is high-level and omits critical details. The exact number of transformer layers, attention heads, embedding dimensions, convolutional filter counts, kernel sizes, and the dimensionality of the merged representation are not stated in the text. Table 3 is referenced but not provided. The preprocessing steps for the DNA2Vec encoding are not described. The training procedure, including learning rate schedule, number of epochs, early stopping criteria, and regularization specifics, is not given.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without complete architectural and training details, other researchers cannot implement or build upon DeepEPI.
+  - **Resolution test** Provide a complete architecture specification in the text or a table, including all layer dimensions, hyperparameters, and training details. Make Table 3 available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that TF-TF interactions extracted from attention heads are biologically meaningful, with 75.6% supported as physical interactions in BioGRID, and that the approach narrows the search space for experimental validation.
+  - **Evidence pointer** Sections 2.4 and 3.5, Figure 5, Files 4-8 (location not provided)
+  - **Concern** The TF extraction and interaction validation methodology is described only in general terms. The process of converting attention weights to PWMs and then to TF identities via TOMCAT is not detailed. The criteria for selecting the top 5-8 scores are not justified. The 75.6% support rate is stated without context: what is the expected baseline rate for random TF pairs? How many of the 172 interactions were tested against BioGRID, and were all interaction types (physical, genetic, indirect) equally weighted? The biological significance section (3.7) is largely qualitative and does not provide a systematic comparison to known EPI-associated TF networks.
+  - **Why it matters** The interpretability and biological discovery aspects are a key differentiator of this work. If the validation is not rigorous or the methodology is not reproducible, this contribution is weakened.
+  - **Resolution test** Provide a detailed step-by-step description of the PWM construction and TF identification pipeline. Include a statistical comparison of the observed BioGRID support rate against a suitable random expectation. Make Files 4-8 available for inspection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty
+  - **Claim pointer** The introduction states that existing transformer-based models lack interpretability features and that DeepEPI addresses this gap.
+  - **Evidence pointer** Section 1, Introduction (location not provided)
+  - **Concern** The novelty claim is not fully substantiated. The authors mention EPI-Trans and a transformer-based model by Ahmed et al. (2024) but do not provide a detailed comparison of architectural differences or performance relative to these methods. The claim that DeepEPI is the first to combine interpretability with transformer-based EPI prediction is not explicitly made, but the implication is present. A more thorough literature comparison is needed to position the contribution.
+  - **Why it matters** For a methods paper, clearly articulating the novel contribution relative to the state of the art is essential.
+  - **Resolution test** Add a dedicated comparison section or table contrasting DeepEPI with existing transformer-based EPI models, highlighting architectural and interpretability differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Data description
+  - **Evidence pointer** Section 2.1, Table 2 (location not provided)
+  - **Issue** The data section states that the dataset is from TargetFinder and describes the positive-negative ratio, but does not specify the total number of samples per cell line or the genomic coordinates of the enhancer and promoter regions.
+  - **Required correction** Provide the sample counts and a brief description of the genomic coordinate ranges for each cell line.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2.1, Embed-OneHot encoding
+  - **Evidence pointer** Section 2.2.1 (location not provided)
+  - **Issue** The term "embed-OneHot encoding" is introduced but the mechanism is not fully explained. It is stated that an embedding layer is used with a OneHot dictionary and the trainable parameter is set to false, but it is unclear how this differs from a standard OneHot encoding in terms of the actual input representation.
+  - **Required correction** Clarify the exact input representation and how the embedding layer reduces memory compared to a standard OneHot encoding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1, Data augmentation results
+  - **Evidence pointer** Section 3.1 (location not provided)
+  - **Issue** The comparison between data augmentation and class-weighted loss is reported for a single cell line (HUVEC). It is unclear whether this pattern holds across all cell lines.
+  - **Required correction** Report the comparison for all six cell lines or state why HUVEC is representative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.6, TF binding site validation
+  - **Evidence pointer** Section 3.6, Figure 6, File 9 (location not provided)
+  - **Issue** The validation section reports percentages of TFs with ENCODE support but does not specify the total number of TFs tested per cell line or the criteria for "significant overlap."
+  - **Required correction** Provide the total counts and define the overlap threshold used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Availability section
+  - **Evidence pointer** Availability section (location not provided)
+  - **Issue** The code repository is provided, but there is no mention of a DOI, version, or instructions for reproducing the exact results in the paper.
+  - **Required correction** Add a version tag or release DOI and include a brief reproducibility statement.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary files makes it impossible to verify the core quantitative claims. The architecture description is insufficient for reproduction. The TF interaction validation lacks statistical context. These issues must be resolved before the manuscript's claims can be accepted.
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of CNN and transformer for EPI prediction is not entirely new, but the focus on interpretable TF interaction extraction adds some novelty. Scientific importance: Moderate. EPI prediction is an active field, and improved interpretability is valuable, but the demonstrated gains over existing methods are not yet verifiable. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and bioinformaticians; the biological validation is not deep enough to attract a broader genomics audience. Technical soundness: Not assessable from the provided material. The architecture is plausible but under-specified, and the evaluation is not transparent. Readability for nonspecialists: Acceptable. The writing is clear and the motivation is well explained, though some sections assume familiarity with deep learning terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the approach is promising, but the missing figures, tables, and supplementary data prevent verification of the central claims. The authors should be invited to resubmit a revised version with complete evidence and clarified methodology.
+
+## Risk / unsupported claims
+- The claim that DeepEPI consistently outperforms prior approaches across six cell lines is unsupported without the underlying data in Figure 4 and File 3.
+- The specific performance improvements over EPIVAN (2.4% AUPR with DNA2Vec, 4% AUPR and 1.9% AUROC with OneHot) are not verifiable.
+- The claim that 75.6% of identified TF-TF interactions are supported as physical interactions in BioGRID is not assessable without the interaction list and comparison methodology.
+- The biological significance of recovered TF interactions (Section 3.7) is presented qualitatively without systematic evidence.
+- The memory savings of the embed-OneHot encoding are stated but not quantified in the provided text.
+- The claim that existing transformer-based models lack interpretability features is not fully substantiated with a detailed literature comparison.

@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "40399768",
+    "doi": "10.1002/pbc.31797",
+    "title": "Prediction of B/T Subtype and ETV6-RUNX1 Translocation in Pediatric Acute Lymphoblastic Leukemia by Deep Learning Analysis of Giemsa-Stained Whole Slide Images of Bone Marrow Aspirates."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Accurate determination of B/T-cell lineage and the presence of the ETV6-RUNX1 translocation is critical for diagnosing acute lymphoblastic leukemia (ALL), as these factors influence treatment decisions and outcomes. However, these diagnostic processes often rely on advanced tools unavailable in low-resource settings, creating a need for alternative solutions. PROCEDURE: We developed a deep learning pipeline to analyze Giemsa-stained bone marrow (BM) aspirate smears. The models were trained to distinguish between ALL, acute myeloid leukemia (AML), and non-leukemic BM samples, predict B- and T-cell lineage in ALL, and detect the presence of the ETV6-RUNX1 translocation. The performance was evaluated using cross-validation (CV) and an external validation cohort. RESULTS: The models achieved a statistically significant area under the curve (AUC) of 0.99 in distinguishing ALL from AML and control samples. In cross-validation (CV), the models achieved a cross-validation AUC of 0.74 for predicting B/T subtypes. For predicting ETV6-RUNX1 translocation, the models achieved an AUC of 0.80. External cohort validation confirmed significant AUCs of 0.72 for B/T subtype classification and 0.69 for ETV6-RUNX1 translocation prediction. CONCLUSIONS: Convolutional neural networks (CNNs) demonstrate potential as a diagnostic tool for pediatric ALL, enabling the identification of B/T lineage and ETV6-RUNX1 translocation from Giemsa-stained smears. These results pave the way for future utilization of CNNs as a diagnostic modality for pediatric leukemia in low-resource settings, where access to advanced diagnostic techniques is limited.",
+    "keywords": [
+      "B/T lineage classification",
+      "ETV6-RUNX1 translocation",
+      "deep learning",
+      "giemsa-stained bone marrow smears",
+      "pediatric acute lymphoblastic leukemia"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Oncogene Proteins, Fusion/genetics",
+      "*Core Binding Factor Alpha 2 Subunit/genetics",
+      "Child",
+      "*Translocation, Genetic",
+      "*Precursor Cell Lymphoblastic Leukemia-Lymphoma/genetics/pathology/diagnosis",
+      "Male",
+      "Child, Preschool",
+      "Female",
+      "Adolescent",
+      "*Bone Marrow/pathology",
+      "Infant",
+      "Prognosis",
+      "ETS Translocation Variant 6 Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piven, Arkadi",
+        "Shamai, Gil",
+        "Elitzur, Sarah",
+        "Berger, Galit Pinto",
+        "Binenbaum, Yoav",
+        "Kimmel, Ron",
+        "Elhasid, Ronit"
+      ],
+      "short_names": [
+        "Piven A",
+        "Shamai G",
+        "Elitzur S",
+        "Berger GP",
+        "Binenbaum Y",
+        "Kimmel R",
+        "Elhasid R"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-6348-835X",
+        "ORCID: 0000-0002-8099-3027",
+        "ORCID: 0000-0002-3495-7578",
+        "ORCID: 0000-0001-9901-7782",
+        "ORCID: 0000-0002-3180-7961",
+        "ORCID: 0000-0002-5663-6919"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Technion Israel Institute of Technology, Haifa, Israel.",
+        "Department of Computer Science, Technion Israel Institute of Technology, Haifa, Israel.",
+        "Department of Hematology and Oncology, Schneider Children's Medical Center of Israel, Petah Tikva, Israel.",
+        "Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel.",
+        "Department of Oncology, St. Jude Children's Hospital, Memphis, Tennessee, USA.",
+        "Department of Hematology and Oncology, Schneider Children's Medical Center of Israel, Petah Tikva, Israel.",
+        "Division of Pediatric Hematology-Oncology, Boston Children's Hospital, Boston, Massachusetts, USA.",
+        "Department of Pediatric Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA.",
+        "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, Massachusetts, USA.",
+        "Department of Computer Science, Technion Israel Institute of Technology, Haifa, Israel.",
+        "Department of Electrical and Computer Engineering, Technion Israel Institute of Technology, Haifa, Israel.",
+        "Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel.",
+        "Pediatric Hemato-Oncology Department, Sourasky Medical Center, Tel Aviv, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piven, Arkadi",
+        "short_name": "Piven A",
+        "identifiers": [
+          "0009-0002-6348-835X"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Technion Israel Institute of Technology, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Shamai, Gil",
+        "short_name": "Shamai G",
+        "identifiers": [
+          "0000-0002-8099-3027"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Technion Israel Institute of Technology, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Elitzur, Sarah",
+        "short_name": "Elitzur S",
+        "identifiers": [
+          "0000-0002-3495-7578"
+        ],
+        "affiliations": [
+          "Department of Hematology and Oncology, Schneider Children's Medical Center of Israel, Petah Tikva, Israel.",
+          "Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel.",
+          "Department of Oncology, St. Jude Children's Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Berger, Galit Pinto",
+        "short_name": "Berger GP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology and Oncology, Schneider Children's Medical Center of Israel, Petah Tikva, Israel."
+        ]
+      },
+      {
+        "full_name": "Binenbaum, Yoav",
+        "short_name": "Binenbaum Y",
+        "identifiers": [
+          "0000-0001-9901-7782"
+        ],
+        "affiliations": [
+          "Division of Pediatric Hematology-Oncology, Boston Children's Hospital, Boston, Massachusetts, USA.",
+          "Department of Pediatric Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA.",
+          "Wyss Institute for Biologically Inspired Engineering at Harvard University, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Kimmel, Ron",
+        "short_name": "Kimmel R",
+        "identifiers": [
+          "0000-0002-3180-7961"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Technion Israel Institute of Technology, Haifa, Israel.",
+          "Department of Electrical and Computer Engineering, Technion Israel Institute of Technology, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Elhasid, Ronit",
+        "short_name": "Elhasid R",
+        "identifiers": [
+          "0000-0002-5663-6919"
+        ],
+        "affiliations": [
+          "Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel.",
+          "Pediatric Hemato-Oncology Department, Sourasky Medical Center, Tel Aviv, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pediatric blood & cancer"
+    ],
+    "journal_abbrev": [
+      "Pediatr Blood Cancer"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/22 00:28",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42115215"
+    ],
+    "refs": [],
+    "similar": [
+      "40399768",
+      "26711002",
+      "38246140",
+      "39851542",
+      "27506214",
+      "39498293",
+      "23694795",
+      "32836179",
+      "36766699",
+      "37670323",
+      "28395118",
+      "33987955",
+      "40873269",
+      "26580398",
+      "17889709",
+      "28004528",
+      "24740533",
+      "30381299",
+      "23077088",
+      "26625756",
+      "31034759",
+      "24339741",
+      "24241490",
+      "40089289",
+      "18328947",
+      "33218352",
+      "39880832",
+      "36565795",
+      "21869842",
+      "26185316",
+      "26852652",
+      "19100516",
+      "31602594",
+      "19713226",
+      "21628403",
+      "40243620",
+      "30115129",
+      "15217836",
+      "15104290",
+      "25388957",
+      "16914570",
+      "29778230",
+      "39936197",
+      "22373549",
+      "30986496",
+      "18021563",
+      "27393278",
+      "39316653",
+      "33333691",
+      "33070555",
+      "34101758",
+      "23859904",
+      "18241254",
+      "29290585",
+      "32812094",
+      "16875937",
+      "18728978",
+      "27650541",
+      "15193447",
+      "11129441",
+      "20930648",
+      "26269126",
+      "24006408",
+      "32118299",
+      "28299660",
+      "36411286",
+      "30689137",
+      "32114371",
+      "28954346",
+      "19665068",
+      "15162063",
+      "17854676",
+      "16213362",
+      "20658612",
+      "31429529",
+      "40362196",
+      "31952221",
+      "36226493",
+      "22580999",
+      "11550288",
+      "11167742",
+      "21145270",
+      "18455790",
+      "20713965",
+      "19081626",
+      "39589495",
+      "17956600",
+      "40634509",
+      "15704129",
+      "26520622",
+      "34999180",
+      "34982829",
+      "28598545",
+      "26856288",
+      "17972957",
+      "20513752",
+      "19010836",
+      "26237075",
+      "14695996",
+      "27374714"
+    ],
+    "review": [
+      "40399768",
+      "32836179",
+      "36766699",
+      "28299660"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40399768.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pbc.31797",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose a mechanistic model of HP1alpha chromo shadow domain (CSD) oligomerization, in which monomeric state tail dynamics favor dimerization at the alpha-helix face, KAP1 binding via the PxVxL motif and flanking residues modulates interface selection, and subsequent beta-sheet face dimerization is driven by specific hydrophobic and polar contacts
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, validation metrics, or structural analyses are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation protocols, force field parameters, convergence analyses, replica or repeat information, structural figures, quantitative interaction energy data, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting model of HP1alpha CSD oligomerization regulated by KAP1 binding. The proposed sequence of events, from monomeric tail dynamics to interface selection and KAP1-dependent remodeling, is internally coherent. However, the abstract alone provides no quantitative evidence, no methodological detail, and no validation against experimental or structural data. The central claims are therefore plausible but currently unverifiable from the supplied material. The work could be of interest to the chromatin biology and biophysical simulation communities, but the evidence base is insufficient to assess technical soundness or to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers studying heterochromatin organization, HP1 family proteins, phase separation, and chromatin compaction would find the proposed regulatory mechanism relevant. Computational biophysicists interested in protein-protein interaction interfaces, oligomerization dynamics, and the influence of partner motifs on conformational ensembles would also be engaged. The work bridges molecular simulation and chromatin biology, which may attract a cross-disciplinary readership.
+- **Major strengths** The abstract articulates a clear and stepwise mechanistic hypothesis. The distinction between alpha-helix and beta-sheet dimerization interfaces, and the proposed role of KAP1 flanking residues in lateral stabilization, are specific and testable. The emphasis on dynamic tail behavior as a regulatory element is conceptually appealing and aligns with emerging views of intrinsically disordered regions in chromatin regulators.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations reveal specific interactions, including hydrophobic contacts mediated by L139 and L150 and polar contacts mediated by R115, as critical for beta-sheet face dimerization
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are provided. The reader cannot assess force field choice, water model, salt concentration, temperature, simulation length, number of replicas, or convergence criteria. Without this information, the reliability of the interaction-specific claims cannot be evaluated.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup. Claims about specific residue-level contacts being "critical" require evidence of reproducibility across independent simulations and adequate sampling. The abstract provides no basis for judging whether the observed interactions are robust or artifacts of the chosen parameters.
+  - **Resolution test** Provide full methods including force field, water model, ion conditions, simulation length, number of independent runs, and convergence metrics. Show that the key interactions are consistently observed across replicates and are not dependent on a single trajectory or parameter set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that KAP1 binding suppresses C-tail-beta-sheet interactions and promotes N-tail flexibility, thereby making the beta-sheet face available for dimerization
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these effects as findings but provides no quantitative measures. No free energy differences, contact probability changes, or flexibility metrics are reported. The directional claims (suppression, promotion, opening) are presented without numerical support.
+  - **Why it matters** The proposed allosteric mechanism depends on demonstrable changes in conformational ensembles upon KAP1 binding. Without quantitative comparison between KAP1-bound and unbound states, the claim that KAP1 drives structural rearrangements is not established.
+  - **Resolution test** Report quantitative metrics such as contact probability maps, root mean square fluctuation differences, and free energy estimates for the relevant states. Show statistical significance of the differences between bound and unbound conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validity
+  - **Claim pointer** The authors imply that the simulation-derived mechanism explains HP1 function as an adaptable molecular scaffold in heterochromatin formation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No experimental validation or comparison with existing structural or biochemical data is mentioned. The abstract does not reference known experimental results on HP1 oligomerization, KAP1 binding, or mutational studies that could support or challenge the simulation findings.
+  - **Why it matters** Simulation predictions gain credibility when contextualized against experimental evidence. Without any link to experimental observations, the biological relevance of the proposed mechanism remains speculative.
+  - **Resolution test** Compare simulation results with published experimental structures, mutagenesis data, or binding assays. Discuss consistency or discrepancies explicitly. If experimental validation is not included, state this limitation clearly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "flanking residues" is used without definition. It is unclear whether this refers to residues immediately adjacent to the PxVxL motif in KAP1, residues in the HP1 CSD, or both.
+  - **Required correction** Define "flanking residues" explicitly at first use, specifying the protein and sequence context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state which systems were simulated. It is unclear whether the study includes only the CSD dimer, the CSD with KAP1 peptide, or larger constructs including the chromodomain or full-length HP1.
+  - **Required correction** Specify the molecular systems simulated, including construct boundaries and any truncations or modifications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Causal language
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "KAP1 binding drives structural rearrangements" implies causality. Simulation data can show correlation or coupled changes but cannot establish causality without perturbation analysis.
+  - **Required correction** Use language consistent with correlational or mechanistic inference from simulations, such as "is associated with" or "is coupled to," unless perturbation simulations are performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no simulation methodology), R1-M2 (no quantitative evidence for key claims), R1-M3 (no experimental contextualization)
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed mechanism, particularly the role of tail dynamics in interface selection and the lateral stabilization by KAP1 flanking residues, has elements of conceptual novelty. However, without full context it is difficult to assess how much this advances beyond existing models of HP1 oligomerization.
+  - Scientific importance: HP1 oligomerization is a central process in heterochromatin biology. A validated mechanistic model would be valuable. The importance is high if the claims are robust, but the abstract alone does not establish this.
+  - Interdisciplinary readership: The topic bridges computational biophysics and chromatin biology, which could attract readers from both communities. The abstract is written in a way that is largely accessible to both, though some domain knowledge is assumed.
+  - Technical soundness: Not assessable from the abstract. No methodological detail, no validation, no quantitative results are provided.
+  - Readability for nonspecialists: The abstract is reasonably clear and follows a logical narrative. However, terms such as "chromo shadow domain" and "PxVxL motif" are used without explanation, which may limit accessibility for readers outside the chromatin field.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic model is interesting and potentially valuable, but the abstract provides no basis for assessing technical soundness or the robustness of the claims. A supportive recommendation would require full methods, quantitative results, and ideally some connection to experimental data.
+
+## Risk / unsupported claims
+- The claim that specific residues (L139, L150, R115) are "critical" for beta-sheet face dimerization is unsupported without quantitative interaction analysis or mutation studies.
+- The claim that KAP1 binding "drives" structural rearrangements is unsupported without perturbation analysis or free energy calculations.
+- The claim that the proposed mechanism explains HP1 function as an "adaptable molecular scaffold" in heterochromatin formation is an extrapolation beyond the simulation data described.
+- The overall mechanistic sequence (monomer to alpha-helix dimer to KAP1-bound state to beta-sheet dimer) is presented as a coherent narrative but is not verifiable from the abstract alone.

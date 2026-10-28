@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41632825",
+  "title": "BiCLUM: Bilateral contrastive learning for unpaired single-cell multi-omics integration.",
+  "authors": "Guo, Yin; Mallona, Izaskun; Robinson, Mark D; Li, Limin",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-02-03",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出单细胞多组学整合的双边对比学习方法，虽涉及染色质可及性与基因表达关联及转录因子活性推断，但核心是单细胞数据整合而非蛋白质-DNA互作建模，且无AI/物理模拟方法用于TF-DNA结合机制研究。",
+  "abstract": "The integration of single-cell multi-omics data provides a powerful approach for understanding the complex interplay between different molecular modalities, such as RNA expression, chromatin accessibility and protein abundance, measured through assays like scRNA-seq, scATAC-seq and CITE-seq, at single-cell resolution. However, most existing single-cell technologies focus on individual modalities, limiting a comprehensive understanding of their interconnections. Integrating such diverse and often unpaired datasets remains a challenging task due to unknown cell correspondences across distinct feature spaces and limited insights into cell-type-specific activities in non-scRNA-seq modalities. In this work, we propose BiCLUM, a Bilateral Contrastive Learning approach for Unpaired single-cell Multi-omics integration, which simultaneously enforces cell-level and feature-level alignment across modalities. BiCLUM first transforms one modality, such as scATAC-seq, into the data space of another modality, such as scRNA-seq, using prior genomic knowledge. It then learns cell and gene embeddings simultaneously through a bilateral contrastive learning framework, incorporating both cell-level and feature-level contrastive losses. Across multiple RNA+ATAC and RNA+protein datasets, BiCLUM consistently outperforms or matches existing integration methods in both visualization and quantitative benchmarks. Importantly, BiCLUM embeddings preserve biologically meaningful regulatory relationships between chromatin accessibility and gene expression, as evidenced by significantly higher gene-peak correlations than random controls. Downstream analyses further demonstrate that BiCLUM-derived embeddings facilitate transcription factor activity inference, identification of cell-type-specific marker genes, functional enrichment, and cell-cell interaction mapping. Comprehensive hyperparameter sensitivity and ablation analyses further establish BiCLUM as a robust and interpretable framework that not only achieves effective cross-modal alignment but also retains the underlying regulatory and functional landscape across single-cell modalities.",
+  "abstract_zh": "单细胞多组学数据的整合为理解不同分子模态之间的复杂相互作用提供了一种强有力的方法，例如通过scRNA-seq、scATAC-seq和CITE-seq等检测手段，在单细胞分辨率下测量RNA表达、染色质可及性和蛋白质丰度。然而，现有的大多数单细胞技术仅聚焦于单一模态，限制了对它们之间相互联系的全面理解。整合这些多样且通常未配对的数据集仍是一项具有挑战性的任务，原因在于不同特征空间中的细胞对应关系未知，以及对非scRNA-seq模态中细胞类型特异性活动的洞察有限。在本工作中，我们提出了BiCLUM，一种用于未配对单细胞多组学整合的双边对比学习方法，该方法同时强制实现跨模态的细胞水平和特征水平对齐。BiCLUM首先利用先验基因组知识，将一种模态（如scATAC-seq）转换到另一种模态（如scRNA-seq）的数据空间中。随后，它通过双边对比学习框架，结合细胞水平和特征水平的对比损失，同时学习细胞和基因嵌入。在多个RNA+ATAC和RNA+蛋白质数据集中，BiCLUM在可视化和定量基准测试中均持续优于或匹配现有整合方法。重要的是，BiCLUM嵌入保留了染色质可及性与基因表达之间具有生物学意义的调控关系，这通过显著高于随机对照的基因-峰相关性得以证明。下游分析进一步表明，BiCLUM衍生的嵌入有助于转录因子活性推断、细胞类型特异性标记基因识别、功能富集以及细胞-细胞相互作用映射。全面的超参数敏感性和消融分析进一步确立了BiCLUM作为一个稳健且可解释的框架，不仅实现了有效的跨模态对齐，还保留了跨单细胞模态的潜在调控和功能景观。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41632825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41632825/",
+  "paper_page_path": "papers/pubmed/41632825/index.html"
+}

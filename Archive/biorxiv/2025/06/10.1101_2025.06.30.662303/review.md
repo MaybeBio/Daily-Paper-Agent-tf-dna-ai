@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, data availability, author contributions, competing interests, acknowledgments, footnotes)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text. No assessment of formatting, grammar, or editorial style beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors use extensive unbiased molecular dynamics simulations (277 µs total) to show that MBD2 binds methylated CpG DNA via a two-state (bistable) equilibrium: a primary state matching the X-ray structure and a secondary state with reduced affinity but retained selectivity. The residue S189 is proposed as a macro-switch, with its interaction with the methylcytosine backbone stabilizing the primary state. S189A mutation shifts the equilibrium toward the secondary state, confirmed by NMR (selectivity retained) and fluorescence polarization (reduced affinity). The authors generalize that alternative bound-state equilibria may be a common feature of specific protein–DNA complexes.
+- **Visible evidence base** Full text of abstract, introduction, methods, results, discussion, conclusions, data availability, author contributions, competing interests, acknowledgments, footnotes. No supplementary figures, tables, or extended data were provided.
+- **Missing materials affecting confidence** Supplementary Information (Table S1, Figures S1–S28), simulation parameter files, force field details, convergence analyses, and raw experimental data (NMR spectra, FP binding curves) were not provided. These are essential for verifying the statistical robustness of the MD results and the quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically ambitious study combining long-timescale MD simulations with experimental validation to propose a bistable binding equilibrium for MBD2 on methylated CpG DNA. The central claim, that S189 acts as a macro-switch between two stable bound states, is novel and potentially significant for understanding epigenetic readout mechanisms. However, the evidence as presented is incomplete. The manuscript relies heavily on simulation data, but the provided text lacks sufficient detail on convergence, sampling adequacy, and statistical analysis to fully support the claim of two distinct stable states. The experimental validation is limited to a single mutation and does not directly probe the secondary state in the wild-type protein. The generalization to other protein–DNA complexes is speculative and not supported by direct evidence. The work is of interest to the biophysics, structural biology, and epigenetics communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of protein–DNA recognition, epigenetic regulation, and computational biophysics. The study addresses a fundamental question about how a DNA-binding protein balances high-affinity, specific recognition with conformational adaptability. The identification of a bistable equilibrium and a specific residue (S189) as a switch could inform future experimental studies on MBD2 and related MBD family members, and may have implications for understanding pathogenic mutations in MeCP2. The methodological approach, using long unbiased simulations to capture binding transitions, will also be of interest to the molecular dynamics community.
+- **Major strengths** 1. The use of extensive unbiased MD simulations (277 µs total) to observe spontaneous binding transitions is a significant technical achievement and a strength of the study. 2. The identification of a specific residue (S189) as a structural macro-switch is a clear, testable hypothesis. 3. The combination of simulation with experimental validation (NMR, FP) for the S189A mutant strengthens the link between the computational model and physical reality. 4. The reproduction of the bistable behavior with a second, biologically relevant DNA sequence adds robustness to the central claim. 5. The manuscript is generally well-written and the logic of the argument is clear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Statistical rigor
+  - **Claim pointer** The manuscript claims that MBD2 adopts "two distinct stable conformations" upon binding mCpG, and that these are separated states in a bistable equilibrium.
+  - **Evidence pointer** Section 3.4, Figures 2C, 3A, S6, S7, S8, S9 (location not provided for figures)
+  - **Concern** The claim of two distinct stable states is based on clustering of MD trajectories. However, the provided text does not include sufficient details on the clustering methodology, the choice of cutoffs, or the statistical significance of the separation between clusters. The manuscript states that the secondary state "can persist over multiple microseconds," but does not provide quantitative measures of state populations, transition rates, or free energy differences between the states from the unbiased simulations. Without this information, it is not possible to assess whether the secondary state is a genuinely stable thermodynamic state or a kinetically trapped intermediate. The convergence of the simulations, particularly for the secondary state, is not demonstrated.
+  - **Why it matters** The central thesis of the paper rests on the existence of two stable states. If the secondary state is not a true thermodynamic minimum, the interpretation of S189 as a "macro-switch" and the entire bistable equilibrium model would be undermined. The lack of quantitative population analysis prevents the reader from evaluating the relative importance of the two states.
+  - **Resolution test** Provide a detailed analysis of the free energy landscape along relevant reaction coordinates (e.g., using umbrella sampling or metadynamics without funnel restraints), including error bars on state populations and free energy differences. Show that the two states are separated by a free energy barrier that is significantly higher than the thermal energy (kBT) and that the simulations are converged with respect to state populations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Experimental validation
+  - **Claim pointer** The manuscript claims that the S189A mutation "shifts the equilibrium toward the secondary state" and that this is consistent with reduced binding affinity measured by FP.
+  - **Evidence pointer** Section 3.5, Figures 5C, 5D, 5E
+  - **Concern** The experimental validation is indirect. The NMR experiment (Figure 5C) shows that the S189A mutation does not alter the chemical shifts of three specific residues (G169, R166, A172) that are markers of mCpG selectivity. This is interpreted as evidence that selectivity is retained. However, the NMR experiment does not directly probe the conformational state of the protein–DNA complex. The FP experiment (Figure 5D) measures a 10-fold reduction in binding affinity, which is consistent with the loss of a hydrogen bond, but this is a macroscopic measurement and does not directly confirm that the complex adopts the secondary state. The claim that the mutation "shifts the equilibrium" is a simulation-based inference that is not directly validated by the experiments.
+  - **Why it matters** The experimental data are presented as validation of the simulation model. However, the experiments only show that the mutation reduces affinity and retains selectivity, which is consistent with, but does not uniquely prove, the bistable equilibrium model. The link between the experimental observations and the specific structural model of the secondary state is not established.
+  - **Resolution test** Perform experiments that directly probe the conformational state of the protein–DNA complex, such as FRET, DEER spectroscopy, or hydrogen-deuterium exchange mass spectrometry, on both wild-type and S189A mutant complexes. Alternatively, use NMR to measure residual dipolar couplings or other structural restraints that could distinguish between the primary and secondary states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Generalizability
+  - **Claim pointer** The manuscript concludes that "alternative bound-state equilibria may represent an inherent feature of specific protein–DNA complexes."
+  - **Evidence pointer** Section 4 (Discussion), Section 5 (Conclusions)
+  - **Concern** This is a broad generalization based on a single protein–DNA system and one reference to a previous study on the WRKY domain. While the authors acknowledge this is a suggestion, the statement is presented as a key conclusion. The evidence from this study alone is insufficient to support such a general claim. The WRKY study is cited as evidence, but the connection between the two systems is not discussed in detail.
+  - **Why it matters** Overgeneralization can mislead the field and dilute the specific, well-supported findings of this study. The claim is not necessary for the main message and could be seen as speculative.
+  - **Resolution test** Either remove or significantly soften the general claim, or provide a more detailed comparative analysis of the MBD2 and WRKY systems, identifying common structural or dynamic features that would support the generalizability of the observation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Force field validation
+  - **Claim pointer** The manuscript relies on MD simulations using AMBER force fields (ff14SB for protein, parmbsc1 for DNA) and a specific parameter set for 5-methylcytosine.
+  - **Evidence pointer** Section 2.1 (Methods)
+  - **Concern** The choice of force field parameters for 5mC is critical for the accuracy of the simulations. The manuscript cites a combined protocol and partial charges from a specific source, but does not provide any validation of these parameters for the system under study. The sensitivity of the results to the choice of force field is not discussed. Given that the central claim is about a subtle conformational equilibrium, the results could be highly sensitive to force field details.
+  - **Why it matters** If the force field parameters for 5mC are not accurate, the predicted secondary state could be an artifact. The lack of validation or discussion of force field sensitivity weakens the confidence in the simulation results.
+  - **Resolution test** Provide a validation of the 5mC parameters (e.g., comparison to quantum mechanical calculations or experimental data on 5mC-containing DNA). Perform at least one additional set of simulations with an alternative force field (e.g., CHARMM or a different 5mC parameter set) to demonstrate that the bistable equilibrium is not force field dependent.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of the funnel potential parameters (MINS, MAXS, Zcc) is vague. The manuscript states they were "set individually for each of three systems via manual inspection," but does not provide the actual values or a rationale for the choices. This makes it difficult to reproduce the SMD simulations.
+  - **Required correction** Provide the specific values of MINS, MAXS, and Zcc for each system in the Supplementary Information, along with a brief justification for the chosen values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / Data presentation
+  - **Affected element** Section 3.4, Figure 3D
+  - **Evidence pointer** Section 3.4, Figure 3D
+  - **Issue** The manuscript states that Y178 forms a "strong water-mediated hydrogen bond interaction" in the primary state but not in the secondary state. The evidence for this is presented as distance distributions in Figure S12, which is not provided. The text does not quantify the difference or provide a statistical test.
+  - **Required correction** Provide the distance distributions in the main text or a clear summary of the statistical difference (e.g., mean and standard deviation of the distances in each state) to support the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.2, Figure S3
+  - **Evidence pointer** Section 3.2
+  - **Issue** The distinction between the NMR and X-ray structures is described, but the significance of this difference for the reader is not immediately clear. The text could benefit from a brief explanation of why the NMR structure might be less accurate for MD simulations.
+  - **Required correction** Add a sentence explaining that the NMR structure was partially modeled on B-DNA due to low proton density, which may not represent the true bound conformation, and that this is why the X-ray structure is used as the reference.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness / Statistical analysis
+  - **Affected element** Section 3.5, Figure 5E
+  - **Evidence pointer** Section 3.5, Figure 5E
+  - **Issue** The free energy differences from umbrella sampling are reported with error bars, but the methodology for calculating these errors is not described. The manuscript states that the median and SEM were calculated from ten intervals, but does not specify how the intervals were chosen or whether the error bars represent the uncertainty in the free energy difference or the variability between intervals.
+  - **Required correction** Provide a brief description of the error analysis methodology in the Methods section, including how the intervals were defined and what the error bars represent.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity / Terminology
+  - **Affected element** Section 3.4, Figure 4A
+  - **Evidence pointer** Section 3.4
+  - **Issue** The term "macro-switch" is used to describe S189, but it is not formally defined. The text implies it is a residue whose interaction state determines the conformational state, but a clear definition would help the reader.
+  - **Required correction** Define "macro-switch" in the text, e.g., "a residue whose specific interaction with the DNA backbone is the primary determinant of which stable conformational state the complex adopts."
+
+## Risk / unsupported claims
+- The claim that the secondary state is a "stable" state with a well-defined free energy minimum is not fully supported by the provided evidence, as no free energy landscape or population analysis is shown.
+- The claim that the S189A mutation "shifts the equilibrium" is an inference from simulations that is not directly validated by the experimental data presented.
+- The general claim that "alternative bound-state equilibria may represent an inherent feature of specific protein–DNA complexes" is speculative and not supported by direct evidence from this study.
+- The quantitative agreement between the computed binding free energy differences and the experimental FP measurement is presented as "strong agreement," but the error bars on the computed values are large and the experimental measurement is a single value, making the comparison qualitative at best.
+- The claim that the secondary state "retains comparable selectivity for mCpG" is based on the retention of three specific hydrogen bonds in the simulation, but this is not directly tested experimentally for the secondary state.

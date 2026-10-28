@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38643066",
+  "title": "MMGAT: a graph attention network framework for ATAC-seq motifs finding.",
+  "authors": "Wu, Xiaotian; Hou, Wenju; Zhao, Ziqi; Huang, Lan; Sheng, Nan; Yang, Qixing; Zhang, Shuangquan; Wang, Yan",
+  "journal": "BMC bioinformatics",
+  "published_date": "2024-04-21",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于图注意力网络MMGAT从ATAC-seq数据中识别转录因子结合位点基序，属于AI方法用于TF-DNA结合位点预测，但未涉及三维互作建模或动态机制。",
+  "abstract": "BACKGROUND: Motif finding in Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) data is essential to reveal the intricacies of transcription factor binding sites (TFBSs) and their pivotal roles in gene regulation. Deep learning technologies including convolutional neural networks (CNNs) and graph neural networks (GNNs), have achieved success in finding ATAC-seq motifs. However, CNN-based methods are limited by the fixed width of the convolutional kernel, which makes it difficult to find multiple transcription factor binding sites with different lengths. GNN-based methods has the limitation of using the edge weight information directly, makes it difficult to aggregate the neighboring nodes' information more efficiently when representing node embedding. RESULTS: To address this challenge, we developed a novel graph attention network framework named MMGAT, which employs an attention mechanism to adjust the attention coefficients among different nodes. And then MMGAT finds multiple ATAC-seq motifs based on the attention coefficients of sequence nodes and k-mer nodes as well as the coexisting probability of k-mers. Our approach achieved better performance on the human ATAC-seq datasets compared to existing tools, as evidenced the highest scores on the precision, recall, F1_score, ACC, AUC, and PRC metrics, as well as finding 389 higher quality motifs. To validate the performance of MMGAT in predicting TFBSs and finding motifs on more datasets, we enlarged the number of the human ATAC-seq datasets to 180 and newly integrated 80 mouse ATAC-seq datasets for multi-species experimental validation. Specifically on the mouse ATAC-seq dataset, MMGAT also achieved the highest scores on six metrics and found 356 higher-quality motifs. To facilitate researchers in utilizing MMGAT, we have also developed a user-friendly web server named MMGAT-S that hosts the MMGAT method and ATAC-seq motif finding results. CONCLUSIONS: The advanced methodology MMGAT provides a robust tool for finding ATAC-seq motifs, and the comprehensive server MMGAT-S makes a significant contribution to genomics research. The open-source code of MMGAT can be found at https://github.com/xiaotianr/MMGAT , and MMGAT-S is freely available at https://www.mmgraphws.com/MMGAT-S/ .",
+  "abstract_zh": "背景：在利用测序技术进行的转座酶可及染色质分析（ATAC-seq）数据中寻找基序，对于揭示转录因子结合位点（TFBSs）及其在基因调控中的关键作用至关重要。深度学习技术，包括卷积神经网络（CNNs）和图神经网络（GNNs），在寻找ATAC-seq基序方面已取得成功。然而，基于CNN的方法受限于卷积核的固定宽度，这使得难以找到长度不同的多个转录因子结合位点。基于GNN的方法存在直接使用边权重信息的局限性，使得在表示节点嵌入时难以更有效地聚合相邻节点的信息。结果：为应对这一挑战，我们开发了一种新颖的图注意力网络框架，名为MMGAT，它采用注意力机制来调整不同节点之间的注意力系数。随后，MMGAT基于序列节点和k-mer节点的注意力系数以及k-mer的共存概率，找到多个ATAC-seq基序。与现有工具相比，我们的方法在人类ATAC-seq数据集上取得了更好的性能，体现在精确度、召回率、F1分数、ACC、AUC和PRC指标上得分最高，并找到了389个更高质量的基序。为验证MMGAT在更多数据集上预测TFBSs和寻找基序的性能，我们将人类ATAC-seq数据集的数量扩大至180个，并新整合了80个小鼠ATAC-seq数据集进行多物种实验验证。具体在小鼠ATAC-seq数据集上，MMGAT同样在六项指标上取得了最高分，并找到了356个更高质量的基序。为便于研究人员使用MMGAT，我们还开发了一个用户友好的网络服务器，名为MMGAT-S，该服务器托管MMGAT方法和ATAC-seq基序寻找结果。结论：先进的方法MMGAT为寻找ATAC-seq基序提供了强大的工具，而全面的服务器MMGAT-S对基因组学研究做出了重要贡献。MMGAT的开源代码可在https://github.com/xiaotianr/MMGAT 获取，MMGAT-S可在https://www.mmgraphws.com/MMGAT-S/ 免费访问。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38643066/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38643066/",
+  "paper_page_path": "papers/pubmed/38643066/index.html"
+}

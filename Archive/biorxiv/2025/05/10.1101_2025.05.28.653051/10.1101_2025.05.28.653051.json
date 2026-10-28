@@ -1,0 +1,375 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.28.653051",
+  "title": "LlamaAffinity: A Predictive Antibody–Antigen Binding Model Integrating Antibody Sequences with Llama3 Backbone Architecture",
+  "doi": "10.1101/2025.05.28.653051",
+  "abstract": "Antibody-facilitated immune responses are central to the body’s defense against pathogens, viruses, and other foreign invaders. The ability of antibodies to specifically bind and neutralize antigens is vital for maintaining immunity. Over the past few decades, bioengineering advancements have significantly accelerated therapeutic antibody development. These antibody-derived drugs have shown remarkable efficacy, particularly in treating Cancer, SARS-Cov-2, autoimmune disorders, and infectious diseases. Traditionally, experimental methods for affinity measurement have been time-consuming and expensive. With the realm of Artificial Intelligence, in silico medicine has revolutionized; recent developments in machine learning, particularly the use of large language models (LLMs) for representing antibodies, have opened up new avenues for AI-based designing and improving affinity prediction. Herein, we present an advanced antibody-antigen binding affinity prediction model (LlamaAffinity), leveraging an open-source Llama 3 backbone and antibody sequence data employed from the Observed Antibody Space (OAS) database. The proposed approach significantly improved over existing state-of-the-art (SOTA) approaches (AntiFormer, AntiBERTa, AntiBERTy) across multiple evaluation metrics. Specifically, the model achieved an accuracy of 0.9640, an F1-score of 0.9643, a precision of 0.9702, a recall of 0.9586, and an AUC-ROC of 0.9936. Moreover, this strategy unveiled higher computational efficiency, with a five-fold average cumulative training time of only 0.46 hours, significantly lower than previous studies. LlamaAffinity defines a new benchmark for antibody-antigen binding affinity prediction, achieving advanced performance in the immunotherapies and immunoinformatics field. Furthermore, it can effectively assess binding affinities following novel antibody design, accelerating the discovery and optimization of therapeutic candidates.",
+  "authors": [
+    "Delower Hossain",
+    "Ehsan Saghapour",
+    "Kevin Song",
+    "Jake Y. Chen"
+  ],
+  "published_date": "2025-05-28",
+  "updated_date": "2025-05-28T23:35:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.28.653051",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.28.653051.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2026-07-29T13:43:35Z",
+        "timestamp": 1785332615510,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            28
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                28
+              ]
+            ],
+            "date-time": "2025-05-28T00:00:00Z",
+            "timestamp": 1748390400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH",
+          "award": [
+            "UMITR004771"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "UMITR004771"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Antibody-facilitated immune responses are central to the body’s defense against pathogens, viruses, and other foreign invaders. The ability of antibodies to specifically bind and neutralize antigens is vital for maintaining immunity. Over the past few decades, bioengineering advancements have significantly accelerated therapeutic antibody development. These antibody-derived drugs have shown remarkable efficacy, particularly in treating Cancer, SARS-Cov-2, autoimmune disorders, and infectious diseases. Traditionally, experimental methods for affinity measurement have been time-consuming and expensive. With the realm of Artificial Intelligence, in silico medicine has revolutionized; recent developments in machine learning, particularly the use of large language models (LLMs) for representing antibodies, have opened up new avenues for AI-based designing and improving affinity prediction. Herein, we present an advanced antibody-antigen binding affinity prediction model (LlamaAffinity), leveraging an open-source Llama 3 backbone and antibody sequence data employed from the Observed Antibody Space (OAS) database. The proposed approach significantly improved over existing state-of-the-art (SOTA) approaches (AntiFormer, AntiBERTa, AntiBERTy) across multiple evaluation metrics. Specifically, the model achieved an accuracy of 0.9640, an F1-score of 0.9643, a precision of 0.9702, a recall of 0.9586, and an AUC-ROC of 0.9936. Moreover, this strategy unveiled higher computational efficiency, with a five-fold average cumulative training time of only 0.46 hours, significantly lower than previous studies. LlamaAffinity defines a new benchmark for antibody-antigen binding affinity prediction, achieving advanced performance in the immunotherapies and immunoinformatics field. Furthermore, it can effectively assess binding affinities following novel antibody design, accelerating the discovery and optimization of therapeutic candidates.</jats:p>",
+      "DOI": "10.1101/2025.05.28.653051",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2025-05-28T23:35:15Z",
+        "timestamp": 1748475315000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "LlamaAffinity: A Predictive Antibody–Antigen Binding Model Integrating Antibody Sequences with Llama3 Backbone Architecture"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5380-6604",
+          "authenticated-orcid": false,
+          "given": "Delower",
+          "family": "Hossain",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, The University of Alabama at Birmingham, Birmingham, AL, US"
+            },
+            {
+              "name": "Systems Pharmacology AI Research Center, The University of Alabama at Birmingham, AL, US"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ehsan",
+          "family": "Saghapour",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Informatics and Data Science, The University of Alabama at Birmingham, Birmingham, AL, US"
+            },
+            {
+              "name": "Systems Pharmacology AI Research Center, The University of Alabama at Birmingham, AL, US"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8991-4973",
+          "authenticated-orcid": false,
+          "given": "Kevin",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Engineering, The University of Alabama at Birmingham, Birmingham, AL, US"
+            },
+            {
+              "name": "Systems Pharmacology AI Research Center, The University of Alabama at Birmingham, AL, US"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8829-7504",
+          "authenticated-orcid": false,
+          "given": "Jake Y.",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, The University of Alabama at Birmingham, Birmingham, AL, US"
+            },
+            {
+              "name": "Department of Biomedical Informatics and Data Science, The University of Alabama at Birmingham, Birmingham, AL, US"
+            },
+            {
+              "name": "Systems Pharmacology AI Research Center, The University of Alabama at Birmingham, AL, US"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/abt/tbac021"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/d43747-024-00030-w"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers15153886"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12943-024-01963-7"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2022.12.005"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12929-019-0592-z"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39022-2"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules29245923"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2024.103984"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40364-025-00764-4"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patter.2022.100513"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.2112.07782"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-38063-x"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioadv/vbac046"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.2409.06090"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae403"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae579"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2022.1053617"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae304"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab762"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.2407.21783"
+        },
+        {
+          "key": "2026041123500334000_2025.05.28.653051v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4205"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.28.653051",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T06:50:13Z",
+        "timestamp": 1775976613000
+      },
+      "score": 86.1879,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.28.653051"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            28
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.1101/2025.05.28.653051",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

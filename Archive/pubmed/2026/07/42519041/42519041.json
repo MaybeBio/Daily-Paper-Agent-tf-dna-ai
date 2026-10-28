@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "42519041",
+    "doi": "10.1016/j.isci.2026.116774",
+    "title": "Multiomics identifies a prognostic signature and SPIB as a potential regulator of gastric cancer lymph node metastasis."
+  },
+  "content": {
+    "abstract": "The heterogeneity within the same AJCC TNM stage of gastric cancer necessitates robust prognostic biomarkers beyond conventional staging. By integrating transcriptomic data from 1,613 patients across eight cohorts, we developed an 11-gene lymph node metastasis gene signature (LMGS) using an ensemble learning strategy to overcome the instability of traditional models. LMGS robustly predicted survival (mean C-index = 0.619), providing incremental prognostic value beyond conventional AJCC staging. Single-cell and spatial transcriptomic analyses revealed LMGS enrichment in epithelial/immune cells at the tumor-normal interface. Integrative analysis nominated the transcription factor SPIB as a candidate regulator, which was specifically overexpressed in metastatic lesions. Our study provides a clinically relevant prognostic tool and identifies SPIB as a molecular marker associated with lymphatic dissemination.",
+    "keywords": [
+      "biomarker",
+      "gastric cancer",
+      "lymph node metastasis",
+      "machine learning",
+      "prognostic model",
+      "tumor heterogeneity"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duan, Zhijie",
+        "He, Keyu",
+        "Chen, Dianjie",
+        "Lin, Lifan",
+        "Cao, Ming",
+        "Zhang, Shaowei",
+        "Zhuang, Junbo",
+        "Zhu, Yintong",
+        "Shen, Guodong",
+        "Hu, Yanfeng"
+      ],
+      "short_names": [
+        "Duan Z",
+        "He K",
+        "Chen D",
+        "Lin L",
+        "Cao M",
+        "Zhang S",
+        "Zhuang J",
+        "Zhu Y",
+        "Shen G",
+        "Hu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "Department of Surgery, Tongchuan Maternal and Child Health Care Hospital, Tongchuan, Shaanxi 727000, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "The First School of Clinical Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China.",
+        "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duan, Zhijie",
+        "short_name": "Duan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "He, Keyu",
+        "short_name": "He K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dianjie",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Lifan",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Ming",
+        "short_name": "Cao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Tongchuan Maternal and Child Health Care Hospital, Tongchuan, Shaanxi 727000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaowei",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Junbo",
+        "short_name": "Zhuang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yintong",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Guodong",
+        "short_name": "Shen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yanfeng",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Guangdong Provincial Key Laboratory of Precision Medicine for Gastrointestinal Tumor, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2026 Aug 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 18:35",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41145665",
+      "39626665",
+      "39289562",
+      "38889909",
+      "38572751",
+      "37636564",
+      "37539033",
+      "37274228",
+      "37231261",
+      "37100777",
+      "36028490",
+      "35969172",
+      "35716132",
+      "35525247",
+      "35184420",
+      "35145098",
+      "34530056",
+      "34260682",
+      "34141615",
+      "33951459",
+      "33209209",
+      "33125859",
+      "32898332",
+      "32861308",
+      "32732091",
+      "32650804",
+      "32561888",
+      "31740819",
+      "31126321",
+      "31092729",
+      "31067475",
+      "30971501",
+      "30643263",
+      "30454049",
+      "30341162",
+      "30117315",
+      "30098163",
+      "30049748",
+      "29567714",
+      "29567713",
+      "29409532",
+      "29361917",
+      "29141660",
+      "29130882",
+      "28114287",
+      "28052254",
+      "27765066",
+      "27708434",
+      "27549193",
+      "26960711",
+      "26940869",
+      "26912905",
+      "26903580",
+      "26426650",
+      "25822800",
+      "25750696",
+      "25605792",
+      "25286920",
+      "25070814",
+      "25053837",
+      "24202397",
+      "24113773",
+      "24027076",
+      "23579076",
+      "22706340",
+      "22419253",
+      "21821401",
+      "21269502",
+      "21062763",
+      "20300207",
+      "19349980",
+      "19244389",
+      "19114008",
+      "15583020",
+      "15094809",
+      "11470218"
+    ],
+    "similar": [
+      "42519041",
+      "41246350",
+      "40787454",
+      "40977710",
+      "41656832",
+      "30772302",
+      "42107026",
+      "42317342",
+      "32869748",
+      "42327341",
+      "40460484",
+      "42211756",
+      "42344700",
+      "42500284",
+      "41114433",
+      "29492917",
+      "36999785",
+      "42035196",
+      "42352501",
+      "41795065",
+      "42445388",
+      "41099090",
+      "41656803",
+      "37583026",
+      "42510824",
+      "41220724",
+      "42053674",
+      "42495647",
+      "41436831",
+      "40963600",
+      "30370512",
+      "19760318",
+      "25913059",
+      "41378044",
+      "20428770",
+      "19885750",
+      "42106773",
+      "39731070",
+      "41249595",
+      "42104431",
+      "41049291",
+      "34691808",
+      "41409294",
+      "41740484",
+      "39908058",
+      "36336725",
+      "30010108",
+      "32754268",
+      "41235257",
+      "34413861",
+      "38467827",
+      "41342434",
+      "42151087",
+      "42419189",
+      "28380037",
+      "40543274",
+      "29492916",
+      "40250037",
+      "41132978",
+      "42558886",
+      "40766310",
+      "41290867",
+      "39372713",
+      "42564958",
+      "25914908",
+      "40258731",
+      "35461201",
+      "41685312",
+      "42180849",
+      "24477743",
+      "31711617",
+      "28226354",
+      "42147810",
+      "41597371",
+      "42492364",
+      "42180916",
+      "42134246",
+      "40770460",
+      "35912894",
+      "42359574",
+      "42121358",
+      "42421501",
+      "25430029",
+      "41782869",
+      "42435052",
+      "42591545",
+      "41861432",
+      "39441098",
+      "39753715",
+      "41249133",
+      "39516442",
+      "40993666",
+      "41267892",
+      "30721261",
+      "42457640",
+      "40308576",
+      "36175896",
+      "41049174",
+      "42510777",
+      "42180883"
+    ],
+    "review": [
+      "42519041",
+      "25914908"
+    ],
+    "pmc": [
+      "13383869"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)02152-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42519041/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

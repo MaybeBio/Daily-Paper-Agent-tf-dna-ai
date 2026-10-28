@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41740271",
+  "title": "MRI-based deep learning and radiomics for preoperative prediction of P53abn endometrial cancer: A multicenter study.",
+  "authors": "Wang, Ke; Song, Xiaoli; Liu, Xiaoyi; Lin, Xuqing; Luo, Hongjian; Gou, Xinyi; Hong, Nan; Wang, Yi; Zhou, Rong; Cheng, Jin",
+  "journal": "European journal of radiology",
+  "published_date": "2026-02-26",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用MRI深度学习和影像组学预测子宫内膜癌P53异常亚型，属于纯医学影像分类，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "PURPOSE: To develop and validate a non-invasive magnetic resonance imaging (MRI)-based deep learning and radiomics approach for the preoperative differentiation of p53 abnormal (P53abn) endometrial cancer, facilitating refined risk stratification for personalized treatment planning. METHODS: In this retrospective multi-institutional analysis, we examined data from 920 patients with histologically confirmed endometrial cancer who underwent preoperative MRI. A two-stage deep learning architecture (V-Net followed by VB-Net) was developed to automate tumor delineation across three participating centers. Extracted radiomic features from these segmented regions were leveraged to build machine learning classifiers-support vector machines (SVM), random forests (RF), logistic regression (LR), and decision trees (DT)-aimed at distinguishing p53-abnormal tumors from other molecular subtypes. Model efficacy was assessed using the Dice similarity coefficient (DSC) for segmentation accuracy and the area under the receiver operating characteristic curve (AUC) for classification performance. RESULTS: The automated segmentation achieved Dice similarity coefficients (DSC) of 77.4%, 84.9%, and 80.1% on T2-weighted imaging (T2WI), diffusion-weighted imaging (DWI), and contrast-enhanced T1-weighted imaging (CE-T1WI) sequences, respectively. Among the four classification models developed, the RF classifier demonstrated the highest AUC values in both internal CV cohort (0.924) and external test cohort (0.863). No statistically significant differences were observed between automated and manual segmentation results across all models (P = 0.109-0.454). CONCLUSION: The integrated deep learning and radiomics pipeline developed in this study provides a promising non-invasive approach for preoperative risk stratification of endometrial cancer. The model has demonstrated high performance in identifying the P53abn subtype, offering a valuable tool to support personalized treatment planning.",
+  "abstract_zh": "目的：开发并验证一种基于无创磁共振成像（MRI）的深度学习和影像组学方法，用于术前区分p53异常（P53abn）子宫内膜癌，以促进个体化治疗计划中的精细化风险分层。方法：在这项回顾性多机构分析中，我们检查了920例经组织学确诊的子宫内膜癌患者的术前MRI数据。开发了一种两阶段深度学习架构（V-Net后接VB-Net），用于在三个参与中心自动进行肿瘤勾画。从这些分割区域提取的影像组学特征被用于构建机器学习分类器——支持向量机（SVM）、随机森林（RF）、逻辑回归（LR）和决策树（DT）——旨在区分p53异常肿瘤与其他分子亚型。模型效能通过Dice相似系数（DSC）评估分割准确性，并通过受试者工作特征曲线下面积（AUC）评估分类性能。结果：自动分割在T2加权成像（T2WI）、扩散加权成像（DWI）和对比增强T1加权成像（CE-T1WI）序列上分别达到了77.4%、84.9%和80.1%的Dice相似系数（DSC）。在开发的四个分类模型中，RF分类器在内部交叉验证队列（0.924）和外部测试队列（0.863）中均表现出最高的AUC值。所有模型中，自动分割与手动分割结果之间未观察到统计学显著差异（P = 0.109-0.454）。结论：本研究开发的集成深度学习和影像组学流程为子宫内膜癌的术前风险分层提供了一种有前景的无创方法。该模型在识别P53abn亚型方面表现出高性能，为支持个体化治疗计划提供了有价值的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41740271/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41740271/",
+  "paper_page_path": "papers/pubmed/41740271/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39922197",
+  "title": "reg-eQTL: Integrating transcription factor effects to unveil regulatory variants.",
+  "authors": "Mudappathi, Rekha; Patton, Tatiana; Chen, Hai; Yang, Ping; Sun, Zhifu; Wang, Panwen; Shi, Chang-Xin; Wang, Junwen; Liu, Li",
+  "journal": "American journal of human genetics",
+  "published_date": "2025-02-09",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出reg-eQTL方法，整合TF效应与遗传变异进行eQTL分析，虽涉及TF-DNA结合调控，但核心是统计关联而非三维互作建模，方法为传统统计而非AI/物理模拟，属于广义蛋白-DNA互作相关但深度不足。",
+  "abstract": "Regulatory single-nucleotide variants (rSNVs) in noncoding regions of the genome play a crucial role in gene transcription by altering transcription factor (TF) binding, chromatin states, and other epigenetic modifications. Existing expression quantitative trait locus (eQTL) methods identify genomic loci associated with gene-expression changes, but they often fall short in pinpointing causal variants. We introduce reg-eQTL, a computational method that incorporates TF effects and interactions with genetic variants into eQTL analysis. This approach provides deeper insights into the regulatory mechanisms, bringing us one step closer to identifying potential causal variants by uncovering how TFs interact with SNVs to influence gene expression. This method defines a trio consisting of a genetic variant, a target gene, and a TF and tests its impact on gene transcription. In comprehensive simulations, reg-eQTL shows improved power of detecting rSNVs with low population frequency, weak effects, and synergetic interaction with TF as compared to traditional eQTL methods. Application of reg-eQTL to GTEx data from lung, brain, and whole-blood tissues uncovered regulatory trios that include eQTLs and increased the number of eQTLs shared across tissue types. Regulatory networks constructed on the basis of these trios reveal intricate gene regulation across tissue types.",
+  "abstract_zh": "基因组非编码区域中的调控性单核苷酸变异（rSNVs）通过改变转录因子（TF）结合、染色质状态及其他表观遗传修饰，在基因转录中发挥关键作用。现有的表达数量性状基因座（eQTL）方法能够识别与基因表达变化相关的基因组位点，但往往难以精确定位因果变异。我们引入了reg-eQTL，一种将转录因子效应及其与遗传变异的相互作用纳入eQTL分析的计算方法。该方法为调控机制提供了更深入的见解，通过揭示转录因子如何与SNVs相互作用以影响基因表达，使我们向识别潜在因果变异迈进了一步。此方法定义了一个由遗传变异、靶基因和转录因子组成的三元组，并检验其对基因转录的影响。在全面模拟中，与传统eQTL方法相比，reg-eQTL在检测低群体频率、弱效应及与转录因子协同作用的rSNVs方面显示出更高的功效。将reg-eQTL应用于来自肺、脑和全血组织的GTEx数据，揭示了包含eQTL的调控三元组，并增加了跨组织类型共享的eQTL数量。基于这些三元组构建的调控网络揭示了跨组织类型的复杂基因调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39922197/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39922197/",
+  "paper_page_path": "papers/pubmed/39922197/index.html"
+}

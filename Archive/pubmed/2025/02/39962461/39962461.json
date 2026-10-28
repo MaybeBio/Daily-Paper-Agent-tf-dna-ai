@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "39962461",
+    "doi": "10.1186/s12885-025-13714-y",
+    "title": "Integrated analysis of single-cell and bulk transcriptomics reveals cellular subtypes and molecular features associated with osteosarcoma prognosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma (OS) is the most common primary bone malignancy with variable molecular biology and prognosis. However, our understanding of the association between cell types and OS progression remains poor. METHODS: We generated a human OS cell atlas by integrating over 110,000 single cells from 17 samples. Multiple machine learning algorithms were applied to develop tumor purity prediction models based on transcriptomic profile of OS. The Scissor algorithm and gene enrichment analyses were conducted to delve into cell-intrinsic molecular characteristics linked to OS prognosis. Moreover, the study investigated the impact of ATF6alpha in OS aggressiveness through genetic and pharmacological loss of function analyses. Lastly, the CellChat algorithm was employed to investigate cell-cell communications. RESULTS: Utilizing the high-quality human OS cell atlas, we identified tumor purity as a prognostic indicator and developed a robust tumor purity prediction model. We respectively delineated cancer cell- and immune cell-intrinsic molecular characteristics associated with OS prognosis at single-cell resolution. Interestingly, tumor cells with activated unfolded protein response (UPR) pathway were significantly associated with disease aggressiveness. Notably, ATF6alpha emerged as the top-activated transcription factor for this tumor subcluster. Subsequently, we confirmed that ATF6alpha was markedly associated with OS progression, while both genetic and pharmacological inhibition of ATF6alpha impaired the survival of HOS cells. Lastly, we depicted the landscape of signal crosstalk between the UPR-related subcluster and other cell types within the tumor microenvironment. CONCLUSION: In summary, our work provides novel insights into the molecular biology of OS, and offers valuable resource for OS biomarker discovery and treatment strategy development.",
+    "keywords": [
+      "ATF6alpha",
+      "Osteosarcoma",
+      "Prognosis",
+      "Single-cell RNA-seq",
+      "Unfolded protein response"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteosarcoma/genetics/pathology/mortality",
+      "*Single-Cell Analysis/methods",
+      "Prognosis",
+      "*Bone Neoplasms/genetics/pathology/mortality",
+      "*Transcriptome",
+      "Unfolded Protein Response/genetics",
+      "Gene Expression Profiling",
+      "Activating Transcription Factor 6/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor/genetics",
+      "Machine Learning",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Feng",
+        "Zhang, Tingting",
+        "Yang, Yongqiang",
+        "Wang, Kailun",
+        "Wei, Jinlan",
+        "Shi, Ji-Hua",
+        "Zhang, Dong",
+        "Sheng, Xia",
+        "Zhang, Yi",
+        "Zhou, Jing",
+        "Zhao, Faming"
+      ],
+      "short_names": [
+        "Liu F",
+        "Zhang T",
+        "Yang Y",
+        "Wang K",
+        "Wei J",
+        "Shi JH",
+        "Zhang D",
+        "Sheng X",
+        "Zhang Y",
+        "Zhou J",
+        "Zhao F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hand/Foot/Ankle Surgery, Qujing Affiliated Hospital of Kunming Medical University, Qujing, 655099, China.",
+        "School of Life and Health Sciences, Hainan University, Haikou, 570228, China.",
+        "Department of Hand/Foot/Ankle Surgery, Qujing Affiliated Hospital of Kunming Medical University, Qujing, 655099, China.",
+        "School of Life and Health Sciences, Hainan University, Haikou, 570228, China.",
+        "School of Life and Health Sciences, Hainan University, Haikou, 570228, China.",
+        "Department of Orthopaedic Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China.",
+        "Department of Breast and Thyroid Surgery, Shandong Provincial Hospital, Shandong First Medical University, Jinan, 250021, China.",
+        "Department of Hand/Foot/Ankle Surgery, Qujing Affiliated Hospital of Kunming Medical University, Qujing, 655099, China.",
+        "School of Life and Health Sciences, Hainan University, Haikou, 570228, China.",
+        "Department of Orthopaedic Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China. zhangyi@zzu.edu.cn.",
+        "Department of Breast and Thyroid Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China. jzhou_whuh@foxmail.com.",
+        "School of Life and Health Sciences, Hainan University, Haikou, 570228, China. famingzhao@foxmail.com.",
+        "Department of Biomedical Engineering, Oregon Health & Science University, Portland, OR, USA. famingzhao@foxmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Feng",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hand/Foot/Ankle Surgery, Qujing Affiliated Hospital of Kunming Medical University, Qujing, 655099, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tingting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life and Health Sciences, Hainan University, Haikou, 570228, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yongqiang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hand/Foot/Ankle Surgery, Qujing Affiliated Hospital of Kunming Medical University, Qujing, 655099, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kailun",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life and Health Sciences, Hainan University, Haikou, 570228, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jinlan",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life and Health Sciences, Hainan University, Haikou, 570228, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Ji-Hua",
+        "short_name": "Shi JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dong",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Shandong Provincial Hospital, Shandong First Medical University, Jinan, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Xia",
+        "short_name": "Sheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hand/Foot/Ankle Surgery, Qujing Affiliated Hospital of Kunming Medical University, Qujing, 655099, China.",
+          "School of Life and Health Sciences, Hainan University, Haikou, 570228, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, 450052, China. zhangyi@zzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jing",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast and Thyroid Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China. jzhou_whuh@foxmail.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Faming",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life and Health Sciences, Hainan University, Haikou, 570228, China. famingzhao@foxmail.com.",
+          "Department of Biomedical Engineering, Oregon Health & Science University, Portland, OR, USA. famingzhao@foxmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Feb 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/18 06:22",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42558163",
+      "42091739",
+      "42074248",
+      "42022572",
+      "42013315",
+      "41987302",
+      "41612311",
+      "41379383",
+      "41228282",
+      "41154810",
+      "41037662"
+    ],
+    "refs": [
+      "39418984",
+      "38879588",
+      "38418544",
+      "38287304",
+      "37894474",
+      "37535729",
+      "37285835",
+      "36607288",
+      "36588108",
+      "36551309",
+      "36418292",
+      "36368318",
+      "36352227",
+      "35963997",
+      "35646538",
+      "35619328",
+      "35469013",
+      "35343090",
+      "35095893",
+      "34914499",
+      "34844217",
+      "34764492",
+      "34595167",
+      "34367994",
+      "34021032",
+      "33937273",
+      "33637019",
+      "33608497",
+      "33597522",
+      "33545035",
+      "33408242",
+      "33303760",
+      "32655131",
+      "32190007",
+      "32112719",
+      "31029032",
+      "30816440",
+      "30679434",
+      "30271205",
+      "29228567",
+      "29066513",
+      "28991892",
+      "28754819",
+      "27322546",
+      "26665241",
+      "26633383",
+      "26626558",
+      "25319867",
+      "24803583",
+      "24113773",
+      "22544022",
+      "22513401",
+      "22116877",
+      "20551950"
+    ],
+    "similar": [
+      "39962461",
+      "39742274",
+      "40045162",
+      "39108264",
+      "40241525",
+      "39431237",
+      "39015570",
+      "40321814",
+      "38649690",
+      "38684858",
+      "39324133",
+      "38839983",
+      "39712023",
+      "35095893",
+      "39412757",
+      "29066513",
+      "31029032",
+      "40128298",
+      "34828292",
+      "39014082",
+      "39733097",
+      "39673552",
+      "39466820",
+      "40165145",
+      "40188527",
+      "39932553",
+      "40023306",
+      "38812298",
+      "33082842",
+      "40072643",
+      "39462063",
+      "40098972",
+      "39134603",
+      "38315381",
+      "32448271",
+      "38367852",
+      "38847690",
+      "34225733",
+      "38700505",
+      "39983416",
+      "33959121",
+      "39703515",
+      "39896800",
+      "27724924",
+      "38877061",
+      "30657551",
+      "29407229",
+      "35967366",
+      "35300639",
+      "34922489",
+      "38819212",
+      "39037571",
+      "38250759",
+      "40075313",
+      "39936154",
+      "38755647",
+      "37889617",
+      "40292920",
+      "33371790",
+      "32234710",
+      "39654890",
+      "32854645",
+      "37858131",
+      "38512709",
+      "40089239",
+      "38742843",
+      "38774995",
+      "39033966",
+      "26633383",
+      "39164791",
+      "28506242",
+      "34337075",
+      "39759507",
+      "34335109",
+      "38775859",
+      "34795663",
+      "39507529",
+      "38983852",
+      "38747739",
+      "40064955",
+      "36569869",
+      "33308057",
+      "39346916",
+      "39762460",
+      "36189307",
+      "40279002",
+      "30720085",
+      "32155139",
+      "27455247",
+      "34016089",
+      "40066455",
+      "38862526",
+      "38824904",
+      "26617868",
+      "38629071",
+      "39575251",
+      "35102149",
+      "35966586",
+      "40330458",
+      "39115605"
+    ],
+    "review": [
+      "39962461"
+    ],
+    "pmc": [
+      "11834279"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-13714-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39962461/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

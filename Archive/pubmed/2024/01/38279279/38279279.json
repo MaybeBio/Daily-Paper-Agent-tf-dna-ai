@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "38279279",
+    "doi": "10.3390/ijms25021280",
+    "title": "STAG2: Computational Analysis of Missense Variants Involved in Disease."
+  },
+  "content": {
+    "abstract": "The human STAG2 protein is an essential component of the cohesin complex involved in cellular processes of gene expression, DNA repair, and genomic integrity. Somatic mutations in the STAG2 sequence have been associated with various types of cancer, while congenital variants have been linked to developmental disorders such as Mullegama-Klein-Martinez syndrome, X-linked holoprosencephaly-13, and Cornelia de Lange syndrome. In the cohesin complex, the direct interaction of STAG2 with DNA and with NIPBL, RAD21, and CTCF proteins has been described. The function of STAG2 within the complex is still unknown, but it is related to its DNA binding capacity and is modulated by its binding to the other three proteins. Every missense variant described for STAG2 is located in regions involved in one of these interactions. In the present work, we model the structure of 12 missense variants described for STAG2, as well as two other variants of NIPBl and two of RAD21 located at STAG2 interaction zone, and then analyze their behavior through molecular dynamic simulations, comparing them with the same simulation of the wild-type protein. This will allow the effects of variants to be rationalized at the atomic level and provide clues as to how STAG2 functions in the cohesin complex.",
+    "keywords": [
+      "Cornelia de Lange syndrome",
+      "NIPBL",
+      "RAD21",
+      "STAG2",
+      "molecular modeling",
+      "variant rationalization"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "CCCTC-Binding Factor/genetics",
+      "Cell Cycle Proteins/genetics/metabolism",
+      "*Cohesins/genetics",
+      "De Lange Syndrome/genetics",
+      "DNA",
+      "Mutation",
+      "Mutation, Missense",
+      "*Developmental Disabilities/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ros-Pardo, David",
+        "Gomez-Puertas, Paulino",
+        "Marcos-Alcalde, Inigo"
+      ],
+      "short_names": [
+        "Ros-Pardo D",
+        "Gomez-Puertas P",
+        "Marcos-Alcalde I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8934-8585",
+        "ORCID: 0000-0003-3131-729X",
+        "ORCID: 0000-0002-0674-6423"
+      ],
+      "affiliations": [
+        "Centro de Biologia Molecular Severo Ochoa, Consejo Superior de Investigaciones Cientificas-Universidad Autonoma de Madrid (CSIC-UAM), C/Nicolas Cabrera, 1, 28049 Madrid, Spain.",
+        "Centro de Biologia Molecular Severo Ochoa, Consejo Superior de Investigaciones Cientificas-Universidad Autonoma de Madrid (CSIC-UAM), C/Nicolas Cabrera, 1, 28049 Madrid, Spain.",
+        "Centro de Biologia Molecular Severo Ochoa, Consejo Superior de Investigaciones Cientificas-Universidad Autonoma de Madrid (CSIC-UAM), C/Nicolas Cabrera, 1, 28049 Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ros-Pardo, David",
+        "short_name": "Ros-Pardo D",
+        "identifiers": [
+          "0000-0002-8934-8585"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa, Consejo Superior de Investigaciones Científicas-Universidad Autónoma de Madrid (CSIC-UAM), C/Nicolás Cabrera, 1, 28049 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Gómez-Puertas, Paulino",
+        "short_name": "Gómez-Puertas P",
+        "identifiers": [
+          "0000-0003-3131-729X"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa, Consejo Superior de Investigaciones Científicas-Universidad Autónoma de Madrid (CSIC-UAM), C/Nicolás Cabrera, 1, 28049 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Marcos-Alcalde, Íñigo",
+        "short_name": "Marcos-Alcalde Í",
+        "identifiers": [
+          "0000-0002-0674-6423"
+        ],
+        "affiliations": [
+          "Centro de Biología Molecular Severo Ochoa, Consejo Superior de Investigaciones Científicas-Universidad Autónoma de Madrid (CSIC-UAM), C/Nicolás Cabrera, 1, 28049 Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Jan 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/27 12:44",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42156894",
+      "41965752",
+      "41770211",
+      "41300816",
+      "41153423",
+      "40943189",
+      "40593079",
+      "40410387",
+      "39409131",
+      "38988293"
+    ],
+    "refs": [
+      "37805934",
+      "37381036",
+      "37377026",
+      "37340948",
+      "37062615",
+      "36898992",
+      "35048511",
+      "34580287",
+      "34202641",
+      "33619735",
+      "32409525",
+      "32193685",
+      "31905366",
+      "31334757",
+      "30733374",
+      "30447054",
+      "30158690",
+      "30109982",
+      "29788355",
+      "29263825",
+      "29217591",
+      "29165669",
+      "28607419",
+      "28296084",
+      "28191890",
+      "27134029",
+      "26583988",
+      "26574453",
+      "25950237",
+      "25173175",
+      "23644419",
+      "22633399",
+      "19056890",
+      "15857510",
+      "15318951",
+      "15146185",
+      "8744570"
+    ],
+    "similar": [
+      "38279279",
+      "31516082",
+      "28855971",
+      "23760082",
+      "22633399",
+      "32687945",
+      "32335880",
+      "24378232",
+      "29155047",
+      "32193685",
+      "30447054",
+      "28296084",
+      "32433956",
+      "30125677",
+      "35476527",
+      "37062615",
+      "24550742",
+      "30716475",
+      "31704779",
+      "36898992",
+      "24038889",
+      "34827619",
+      "30606125",
+      "24874887",
+      "37377026",
+      "34315879",
+      "30158690",
+      "21934712",
+      "34035299",
+      "23920377",
+      "32219834",
+      "22885700",
+      "27576763",
+      "33930311",
+      "32778134",
+      "28679547",
+      "22353942",
+      "39084219",
+      "25655089",
+      "35446447",
+      "29261648",
+      "22039349",
+      "33277604",
+      "20727427",
+      "20553708",
+      "16604071",
+      "26463496",
+      "26701315",
+      "18996922",
+      "23313159",
+      "24918291",
+      "23254390",
+      "26581180",
+      "25447906",
+      "17909832",
+      "28548707",
+      "35371307",
+      "38735830",
+      "32074972",
+      "17413424",
+      "34326454",
+      "35563565",
+      "24403048",
+      "20358602",
+      "31320616",
+      "26206533",
+      "34462321",
+      "27125329",
+      "27120001",
+      "31334757",
+      "24756084",
+      "17106445",
+      "36424654",
+      "30515000",
+      "32856424",
+      "39286962",
+      "17273969",
+      "25125236",
+      "28425213",
+      "19793304",
+      "29379197",
+      "38705393",
+      "28752682",
+      "16770807",
+      "35959892",
+      "19701948",
+      "26871722",
+      "25899772",
+      "23955599",
+      "29867216",
+      "15318302",
+      "20687500",
+      "35887945",
+      "27291393",
+      "22140011",
+      "27164022",
+      "19763162",
+      "30098241",
+      "22241092",
+      "34006846"
+    ],
+    "review": [
+      "38279279",
+      "31516082",
+      "32687945",
+      "30125677",
+      "37062615",
+      "31704779",
+      "24038889",
+      "27576763",
+      "27120001",
+      "32856424",
+      "39286962",
+      "19793304",
+      "20687500"
+    ],
+    "pmc": [
+      "10816197"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38279279/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25021280",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/developmentaldisabilities.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Developmental Disabilities"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38279279/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38279279",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NIPBL-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

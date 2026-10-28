@@ -1,0 +1,239 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.10.687690",
+  "title": "Deep Learning links TP53 genotype to expression-defined transcriptional program in Acute Myeloid Leukemia",
+  "doi": "10.1101/2025.11.10.687690",
+  "abstract": "Acute myeloid leukemia (AML) is a hematological cancer characterized by genetic diversity and poor clinical outcomes. Among various genetic mutations in AML, TP53 mutations have relatively low prevalence and present very dismal survival rates. While the genetic features of AML are well understood, the transcriptional programs associated with TP53 dysfunction are less clear, especially across different clinical groups. To fill this gap, we used deep learning on four bulk RNA-seq datasets grouped by p53 expression and a single-cell TARGET-seq dataset classified by TP53 genotype. The bulk data revealed disruptions in chromatin regulation, DNA repair, and immune pathways, with the low-p53 state showing activation of chemokine and interleukin signaling. In the single-cell data, deep learning classifiers successfully distinguished WT from multi-hit TP53-mutant cells, while heterozygous TP53 cells remained transcriptionally similar to WT. Comparing bulk and single-cell results, we found a strong positive correlation between p53-low expression states and TP53-inactive genotypes, linking the expression-based and mutation-based axes of p53 activity. Our study identifies a consistent TP53-related transcriptional signature that connects p53-low expression patterns with underlying TP53 AML.",
+  "authors": [
+    "Tsesmelis M",
+    "Andersson R",
+    "Perez AF",
+    "Vazquez SM",
+    "Carolina Florian M",
+    "Mulaw MA"
+  ],
+  "published_date": "2025-11-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687690",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687690.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1117733",
+    "raw_record": {
+      "id": "PPR1117733",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1117733"
+        ]
+      },
+      "doi": "10.1101/2025.11.10.687690",
+      "title": "Deep Learning links TP53 genotype to expression-defined transcriptional program in Acute Myeloid Leukemia",
+      "authorString": "Tsesmelis M, Andersson R, Perez AF, Vazquez SM, Carolina Florian M, Mulaw MA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tsesmelis M",
+            "lastName": "Tsesmelis",
+            "firstName": "Miltiadis",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7438-580X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unit for Single-cell Genomics, Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andersson R",
+            "lastName": "Andersson",
+            "firstName": "Rebecca",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3765-5038"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Stem Cell Aging Group, Regenerative Medicine Program, , L’Hospitalet de Llobregat,"
+                },
+                {
+                  "affiliation": "Program for advancing the Clinical Translation of Regenerative Medicine of Catalonia, P-CMR[C], Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perez AF",
+            "lastName": "Perez",
+            "firstName": "Alba Ferrer",
+            "initials": "AF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Stem Cell Aging Group, Regenerative Medicine Program, , L’Hospitalet de Llobregat,"
+                },
+                {
+                  "affiliation": "Program for advancing the Clinical Translation of Regenerative Medicine of Catalonia, P-CMR[C], Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vazquez SM",
+            "lastName": "Vazquez",
+            "firstName": "Sara Montserrat",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Stem Cell Aging Group, Regenerative Medicine Program, , L’Hospitalet de Llobregat,"
+                },
+                {
+                  "affiliation": "Program for advancing the Clinical Translation of Regenerative Medicine of Catalonia, P-CMR[C], Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carolina Florian M",
+            "lastName": "Carolina Florian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Stem Cell Aging Group, Regenerative Medicine Program, , L’Hospitalet de Llobregat,"
+                },
+                {
+                  "affiliation": "Program for advancing the Clinical Translation of Regenerative Medicine of Catalonia, P-CMR[C], Spain"
+                },
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mulaw MA",
+            "lastName": "Mulaw",
+            "firstName": "Medhanie",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unit for Single-cell Genomics, Medical Faculty, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7438-580X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3765-5038"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Acute myeloid leukemia (AML) is a hematological cancer characterized by genetic diversity and poor clinical outcomes. Among various genetic mutations in AML, TP53 mutations have relatively low prevalence and present very dismal survival rates. While the genetic features of AML are well understood, the transcriptional programs associated with TP53 dysfunction are less clear, especially across different clinical groups. To fill this gap, we used deep learning on four bulk RNA-seq datasets grouped by p53 expression and a single-cell TARGET-seq dataset classified by TP53 genotype. The bulk data revealed disruptions in chromatin regulation, DNA repair, and immune pathways, with the low-p53 state showing activation of chemokine and interleukin signaling. In the single-cell data, deep learning classifiers successfully distinguished WT from multi-hit TP53-mutant cells, while heterozygous TP53 cells remained transcriptionally similar to WT. Comparing bulk and single-cell results, we found a strong positive correlation between p53-low expression states and TP53-inactive genotypes, linking the expression-based and mutation-based axes of p53 activity. Our study identifies a consistent TP53-related transcriptional signature that connects p53-low expression patterns with underlying TP53 AML.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101002453",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.10.687690"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1117733"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1117733&type=FILE&fileName=EMS210640-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210640",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-13",
+      "firstPublicationDate": "2025-11-12",
+      "firstIndexDate": "2025-11-13",
+      "fullTextReceivedDate": "2025-11-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

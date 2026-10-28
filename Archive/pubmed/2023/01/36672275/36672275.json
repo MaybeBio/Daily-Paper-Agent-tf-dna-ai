@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "36672275",
+    "doi": "10.3390/cells12020340",
+    "title": "Multiomics Study of a Novel Naturally Derived Small Molecule, NSC772864, as a Potential Inhibitor of Proto-Oncogenes Regulating Cell Cycle Progression in Colorectal Cancer."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) is one of the most prevalent malignant tumors, and it contributes to high numbers of deaths globally. Although advances in understanding CRC molecular mechanisms have shed significant light on its pathogenicity, current treatment options, including combined chemotherapy and molecular-targeted agents, are still limited due to resistance, with almost 25% of patients developing distant metastasis. Therefore, identifying novel biomarkers for early diagnosis is crucial, as they will also influence strategies for new targeted therapies. The proto-oncogene, c-Met, a tyrosine kinase that promotes cell proliferation, motility, and invasion; c-MYC, a transcription factor associated with the modulation of the cell cycle, proliferation, apoptosis; and cyclin D1 (CCND1), an essential regulatory protein in the cell cycle, all play crucial roles in cancer progression. In the present study, we explored computational simulations through bioinformatics analysis and identified the overexpression of c-Met/GSK3beta/MYC/CCND1 oncogenic signatures that were associated with cancer progression, drug resistance, metastasis, and poor clinical outcomes in CRC. We further demonstrated the anticancer activities of our newly synthesized quinoline-derived compound, NSC772864, against panels of the National Cancer Institute's human CRC cell lines. The compound exhibited cytotoxic activities against various CRC cell lines. Using target prediction tools, we found that c-Met/GSK3beta/MYC/CCND1 were target genes for the NSC772864 compound. Subsequently, we performed in silico molecular docking to investigate protein-ligand interactions and discovered that NSC772864 exhibited higher binding affinities with these oncogenes compared to FDA-approved drugs. These findings strongly suggest that NSC772864 is a novel and potential antiCRC agent.",
+    "keywords": [
+      "colorectal cancer",
+      "drug resistance",
+      "molecular docking simulation",
+      "protein-ligand interaction",
+      "small molecule"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Glycogen Synthase Kinase 3 beta/genetics",
+      "*Multiomics",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Cell Cycle/genetics",
+      "Proto-Oncogenes",
+      "*Colorectal Neoplasms/drug therapy/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mokgautsi, Ntlotlang",
+        "Kuo, Yu-Cheng",
+        "Chen, Chien-Hsin",
+        "Huang, Yan-Jiun",
+        "Wu, Alexander T H",
+        "Huang, Hsu-Shan"
+      ],
+      "short_names": [
+        "Mokgautsi N",
+        "Kuo YC",
+        "Chen CH",
+        "Huang YJ",
+        "Wu ATH",
+        "Huang HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2076-9768",
+        "ORCID: 0000-0002-5920-0053",
+        "ORCID: 0000-0002-0178-6530",
+        "ORCID: 0000-0001-6193-5182"
+      ],
+      "affiliations": [
+        "Ph.D. Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+        "Graduate Institute for Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Department of Pharmacology, School of Medicine, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "School of Post-baccalaureate Chinese Medicine, College of Chinese Medicine, China Medical University, Taichung 40402, Taiwan.",
+        "Department of Colorectal Surgery, Wan Fang Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Department of Surgery, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Division of Colorectal Surgery, Department of Surgery, Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "The Ph.D. Program of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Clinical Research Center, Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "T.M.U. Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 11490, Taiwan.",
+        "Ph.D. Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+        "Graduate Institute for Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 11490, Taiwan.",
+        "School of Pharmacy, National Defense Medical Center, Taipei 11490, Taiwan.",
+        "Ph.D. Program in Drug Discovery and Development Industry, College of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mokgautsi, Ntlotlang",
+        "short_name": "Mokgautsi N",
+        "identifiers": [
+          "0000-0003-2076-9768"
+        ],
+        "affiliations": [
+          "Ph.D. Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+          "Graduate Institute for Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kuo, Yu-Cheng",
+        "short_name": "Kuo YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "School of Post-baccalaureate Chinese Medicine, College of Chinese Medicine, China Medical University, Taichung 40402, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Chien-Hsin",
+        "short_name": "Chen CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Wan Fang Hospital, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Yan-Jiun",
+        "short_name": "Huang YJ",
+        "identifiers": [
+          "0000-0002-5920-0053"
+        ],
+        "affiliations": [
+          "Department of Surgery, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Division of Colorectal Surgery, Department of Surgery, Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Alexander T H",
+        "short_name": "Wu ATH",
+        "identifiers": [
+          "0000-0002-0178-6530"
+        ],
+        "affiliations": [
+          "The Ph.D. Program of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Clinical Research Center, Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+          "T.M.U. Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 11490, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsu-Shan",
+        "short_name": "Huang HS",
+        "identifiers": [
+          "0000-0001-6193-5182"
+        ],
+        "affiliations": [
+          "Ph.D. Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+          "Graduate Institute for Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 11490, Taiwan.",
+          "School of Pharmacy, National Defense Medical Center, Taipei 11490, Taiwan.",
+          "Ph.D. Program in Drug Discovery and Development Industry, College of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2023 Jan 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/22 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "40244518",
+      "39852063",
+      "39310264",
+      "37443779"
+    ],
+    "refs": [
+      "35020204",
+      "35008426",
+      "34795238",
+      "34626691",
+      "34290403",
+      "34187771",
+      "34063946",
+      "33807717",
+      "33671112",
+      "33524794",
+      "33436641",
+      "33115942",
+      "32875562",
+      "32796813",
+      "32731413",
+      "32331235",
+      "31885322",
+      "31849331",
+      "31562303",
+      "31512514",
+      "30983885",
+      "30931480",
+      "30808873",
+      "30480806",
+      "30476243",
+      "30054853",
+      "30010797",
+      "29790900",
+      "29576428",
+      "28990511",
+      "28931623",
+      "28847964",
+      "28843992",
+      "28732212",
+      "28560804",
+      "28399679",
+      "28256516",
+      "28248238",
+      "27779808",
+      "27695879",
+      "27421137",
+      "27380959",
+      "27218427",
+      "27100886",
+      "27099521",
+      "26838127",
+      "26742008",
+      "26503729",
+      "26437589",
+      "26426996",
+      "26159851",
+      "26005025",
+      "25921073",
+      "25897210",
+      "25659145",
+      "25651787",
+      "25593032",
+      "25561720",
+      "25495981",
+      "25492499",
+      "25458785",
+      "24815459",
+      "24614649",
+      "24290754",
+      "24225001",
+      "24122793",
+      "24024839",
+      "23574779",
+      "23325601",
+      "23258844",
+      "22936063",
+      "22889332",
+      "22810696",
+      "22588877",
+      "22438566",
+      "22100139",
+      "21502544",
+      "21428893",
+      "21102609",
+      "21074634",
+      "20876746",
+      "20430828",
+      "20401516",
+      "20064923",
+      "20032439",
+      "19804981",
+      "19524285",
+      "19339720",
+      "18955458",
+      "18571928",
+      "18421054",
+      "18281498",
+      "17927489",
+      "17784955",
+      "17681183",
+      "16990858",
+      "16945480",
+      "16862193",
+      "16724056",
+      "15857122",
+      "15297421",
+      "15211354",
+      "15175435",
+      "14961975",
+      "12738738",
+      "12615961",
+      "12234972",
+      "12001990",
+      "11597015",
+      "11494229",
+      "11259830",
+      "11058041",
+      "10540384",
+      "9815967",
+      "9727977",
+      "9499189",
+      "8707853",
+      "8012933",
+      "7610482",
+      "2738938"
+    ],
+    "similar": [
+      "36672275",
+      "34440739",
+      "31175057",
+      "29258530",
+      "33533172",
+      "33671112",
+      "29523145",
+      "36672201",
+      "34802869",
+      "38318835",
+      "24151146",
+      "36674871",
+      "26792278",
+      "30472235",
+      "33087032",
+      "28833099",
+      "32356241",
+      "34050266",
+      "35203586",
+      "30831484",
+      "27932034",
+      "33495409",
+      "25800793",
+      "29628506",
+      "36288887",
+      "31888761",
+      "25192188",
+      "36230970",
+      "31758608",
+      "34063946",
+      "31014355",
+      "30541550",
+      "24303084",
+      "23803691",
+      "36113195",
+      "29802196",
+      "33831429",
+      "36382656",
+      "34352441",
+      "31545548",
+      "33581651",
+      "31196027",
+      "32387836",
+      "33754045",
+      "30253791",
+      "31338937",
+      "23704319",
+      "27835604",
+      "31982491",
+      "30618098",
+      "29901203",
+      "28803443",
+      "25381815",
+      "25659031",
+      "32640404",
+      "25600769",
+      "34224057",
+      "29706624",
+      "37461816",
+      "34303896",
+      "30417481",
+      "32800944",
+      "28957811",
+      "30036625",
+      "34623601",
+      "25379021",
+      "30551544",
+      "35008426",
+      "37175741",
+      "30226594",
+      "33428899",
+      "24971456",
+      "32132307",
+      "31118579",
+      "34569368",
+      "27481517",
+      "29386092",
+      "31991293",
+      "32843066",
+      "22965873",
+      "34512327",
+      "38454764",
+      "29472532",
+      "28356111",
+      "31675755",
+      "32877639",
+      "29554905",
+      "32629830",
+      "29734178",
+      "29103204",
+      "31734632",
+      "31186036",
+      "28537875",
+      "32678196",
+      "34008277",
+      "37058941",
+      "38159835",
+      "25818893",
+      "38804588",
+      "37696461",
+      "36859558",
+      "37719843",
+      "38743842",
+      "38099190",
+      "39004679",
+      "39143504",
+      "38352299",
+      "38026650"
+    ],
+    "review": [
+      "36672275",
+      "38804588",
+      "37696461",
+      "36859558",
+      "37719843"
+    ],
+    "pmc": [
+      "9856482"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells12020340",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36672275/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36672275",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

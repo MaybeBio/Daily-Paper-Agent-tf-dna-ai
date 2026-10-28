@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "38884001",
+    "doi": "10.1093/biomethods/bpae039",
+    "title": "Mapping adipocyte interactome networks by HaloTag-enrichment-mass spectrometry."
+  },
+  "content": {
+    "abstract": "Mapping protein interaction complexes in their natural state in vivo is arguably the Holy Grail of protein network analysis. Detection of protein interaction stoichiometry has been an important technical challenge, as few studies have focused on this. This may, however, be solved by artificial intelligence (AI) and proteomics. Here, we describe the development of HaloTag-based affinity purification mass spectrometry (HaloMS), a high-throughput HaloMS assay for protein interaction discovery. The approach enables the rapid capture of newly expressed proteins, eliminating tedious conventional one-by-one assays. As a proof-of-principle, we used HaloMS to evaluate the protein complex interactions of 17 regulatory proteins in human adipocytes. The adipocyte interactome network was validated using an in vitro pull-down assay and AI-based prediction tools. Applying HaloMS to probe adipocyte differentiation facilitated the identification of previously unknown transcription factor (TF)-protein complexes, revealing proteome-wide human adipocyte TF networks and shedding light on how different pathways are integrated.",
+    "keywords": [
+      "HaloMS",
+      "adipocyte",
+      "interaction mapping",
+      "network analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yazaki, Junshi",
+        "Yamanashi, Takashi",
+        "Nemoto, Shino",
+        "Kobayashi, Atsuo",
+        "Han, Yong-Woon",
+        "Hasegawa, Tomoko",
+        "Iwase, Akira",
+        "Ishikawa, Masaki",
+        "Konno, Ryo",
+        "Imami, Koshi",
+        "Kawashima, Yusuke",
+        "Seita, Jun"
+      ],
+      "short_names": [
+        "Yazaki J",
+        "Yamanashi T",
+        "Nemoto S",
+        "Kobayashi A",
+        "Han YW",
+        "Hasegawa T",
+        "Iwase A",
+        "Ishikawa M",
+        "Konno R",
+        "Imami K",
+        "Kawashima Y",
+        "Seita J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0697-8320",
+        "ORCID: 0000-0001-6169-1659",
+        "ORCID: 0000-0003-3294-7939",
+        "ORCID: 0000-0002-7451-4982"
+      ],
+      "affiliations": [
+        "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Faculty of Agriculture, Laboratory for Genome Biology, Setsunan University, Osaka, 573-0101, Japan.",
+        "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Medical Data Deep Learning Team, Advanced Data Science Project, RIKEN Information R&D and Strategy Headquarters, RIKEN, Tokyo, 103-0027, Japan.",
+        "School of Integrative and Global Majors, University of Tsukuba, Tsukuba, 305-8577, Japan.",
+        "Laboratory for Intestinal Ecosystem, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Cell Function Research Team, RIKEN Center for Sustainable Resource Science, Yokohama, 230-0045, Japan.",
+        "Department of Applied Genomics, Technology Development Team, Kazusa DNA Research Institute, Kisarazu, 292-0818, Japan.",
+        "Department of Applied Genomics, Technology Development Team, Kazusa DNA Research Institute, Kisarazu, 292-0818, Japan.",
+        "Proteome Homeostasis Research Unit, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Department of Applied Genomics, Technology Development Team, Kazusa DNA Research Institute, Kisarazu, 292-0818, Japan.",
+        "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+        "Medical Data Deep Learning Team, Advanced Data Science Project, RIKEN Information R&D and Strategy Headquarters, RIKEN, Tokyo, 103-0027, Japan.",
+        "School of Integrative and Global Majors, University of Tsukuba, Tsukuba, 305-8577, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yazaki, Junshi",
+        "short_name": "Yazaki J",
+        "identifiers": [
+          "0000-0002-0697-8320"
+        ],
+        "affiliations": [
+          "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+          "Faculty of Agriculture, Laboratory for Genome Biology, Setsunan University, Osaka, 573-0101, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamanashi, Takashi",
+        "short_name": "Yamanashi T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+          "Medical Data Deep Learning Team, Advanced Data Science Project, RIKEN Information R&D and Strategy Headquarters, RIKEN, Tokyo, 103-0027, Japan.",
+          "School of Integrative and Global Majors, University of Tsukuba, Tsukuba, 305-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Nemoto, Shino",
+        "short_name": "Nemoto S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Intestinal Ecosystem, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Kobayashi, Atsuo",
+        "short_name": "Kobayashi A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Han, Yong-Woon",
+        "short_name": "Han YW",
+        "identifiers": [
+          "0000-0001-6169-1659"
+        ],
+        "affiliations": [
+          "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Hasegawa, Tomoko",
+        "short_name": "Hasegawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwase, Akira",
+        "short_name": "Iwase A",
+        "identifiers": [
+          "0000-0003-3294-7939"
+        ],
+        "affiliations": [
+          "Cell Function Research Team, RIKEN Center for Sustainable Resource Science, Yokohama, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishikawa, Masaki",
+        "short_name": "Ishikawa M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Genomics, Technology Development Team, Kazusa DNA Research Institute, Kisarazu, 292-0818, Japan."
+        ]
+      },
+      {
+        "full_name": "Konno, Ryo",
+        "short_name": "Konno R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Genomics, Technology Development Team, Kazusa DNA Research Institute, Kisarazu, 292-0818, Japan."
+        ]
+      },
+      {
+        "full_name": "Imami, Koshi",
+        "short_name": "Imami K",
+        "identifiers": [
+          "0000-0002-7451-4982"
+        ],
+        "affiliations": [
+          "Proteome Homeostasis Research Unit, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Kawashima, Yusuke",
+        "short_name": "Kawashima Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Genomics, Technology Development Team, Kazusa DNA Research Institute, Kisarazu, 292-0818, Japan."
+        ]
+      },
+      {
+        "full_name": "Seita, Jun",
+        "short_name": "Seita J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Integrative Genomics, RIKEN Center for Integrative Medical Sciences, Yokohama, 230-0045, Japan.",
+          "Medical Data Deep Learning Team, Advanced Data Science Project, RIKEN Information R&D and Strategy Headquarters, RIKEN, Tokyo, 103-0027, Japan.",
+          "School of Integrative and Global Majors, University of Tsukuba, Tsukuba, 305-8577, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology methods & protocols"
+    ],
+    "journal_abbrev": [
+      "Biol Methods Protoc"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 12:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "38447790",
+      "37334842",
+      "36927031",
+      "36843575",
+      "36344848",
+      "35992805",
+      "35881696",
+      "35799506",
+      "35758175",
+      "35637307",
+      "35579296",
+      "35563538",
+      "35522919",
+      "35013218",
+      "34878901",
+      "34732716",
+      "34293799",
+      "34265844",
+      "34100954",
+      "33777816",
+      "33659418",
+      "33510441",
+      "33504048",
+      "33383989",
+      "33292104",
+      "33262292",
+      "33240938",
+      "33237286",
+      "33200826",
+      "32514122",
+      "32214105",
+      "32094914",
+      "32019862",
+      "31779068",
+      "31766606",
+      "31752022",
+      "31133760",
+      "31085992",
+      "31010880",
+      "30921635",
+      "30671891",
+      "30511960",
+      "30510204",
+      "30415952",
+      "30404011",
+      "30200638",
+      "30106517",
+      "30071041",
+      "29930091",
+      "29530978",
+      "29467282",
+      "29409532",
+      "29309590",
+      "28935776",
+      "28784777",
+      "28611215",
+      "28256459",
+      "28123941",
+      "27830366",
+      "27503845",
+      "27357687",
+      "27251423",
+      "27240637",
+      "26577786",
+      "26344197",
+      "25921091",
+      "25848531",
+      "25609649",
+      "25566082",
+      "25512789",
+      "25416956",
+      "25132062",
+      "25002143",
+      "24910439",
+      "24857652",
+      "23708642",
+      "23652116",
+      "22654837",
+      "22589225",
+      "22304920",
+      "22257883",
+      "22079269",
+      "21798944",
+      "21779027",
+      "21414488",
+      "21280222",
+      "21145461",
+      "20833368",
+      "20156986",
+      "19358089",
+      "19116613",
+      "19060904",
+      "19060903",
+      "18719252",
+      "17314511",
+      "17303782",
+      "17226766",
+      "17212793",
+      "17167471",
+      "15063647",
+      "12477934",
+      "11823631",
+      "11704758",
+      "11511861"
+    ],
+    "similar": [
+      "38884001",
+      "27357687",
+      "37968396",
+      "30106517",
+      "33961781",
+      "18719252",
+      "18304937",
+      "25046345",
+      "29530978",
+      "16284124",
+      "37230567",
+      "22729399",
+      "15822902",
+      "28439867",
+      "29061110",
+      "23568022",
+      "25281560",
+      "24013128",
+      "21911578",
+      "33289315",
+      "37071953",
+      "27158474",
+      "30520642",
+      "33923221",
+      "31763793",
+      "22028663",
+      "21877275",
+      "33843278",
+      "35615014",
+      "22711593",
+      "27896772",
+      "29054129",
+      "26966684",
+      "36707755",
+      "35788411",
+      "32462592",
+      "28730490",
+      "28946872",
+      "20939868",
+      "36610523",
+      "23275444",
+      "35138191",
+      "31868867",
+      "17426018",
+      "28713027",
+      "38737506",
+      "26988354",
+      "24432003",
+      "29736714",
+      "21447707",
+      "16003372",
+      "24573087",
+      "20445003",
+      "22845868",
+      "23330791",
+      "36445175",
+      "26515650",
+      "37682473",
+      "28514442",
+      "38183057",
+      "35140242",
+      "25974629",
+      "25363814",
+      "27142060",
+      "20438650",
+      "18218781",
+      "27975227",
+      "31736480",
+      "25765699",
+      "26648978",
+      "23168686",
+      "20812759",
+      "19164585",
+      "30969422",
+      "30713425",
+      "25053490",
+      "18314965",
+      "16991196",
+      "12096120",
+      "31616248",
+      "27132685",
+      "17409382",
+      "28918672",
+      "30902665",
+      "31731769",
+      "31467278",
+      "30995488",
+      "18947249",
+      "32778839",
+      "33257578",
+      "34214469",
+      "19070972",
+      "28188527",
+      "32380953",
+      "32539344"
+    ],
+    "review": [
+      "38884001",
+      "22729399",
+      "33289315",
+      "37071953",
+      "27158474",
+      "33923221",
+      "22711593",
+      "24432003",
+      "20445003",
+      "23330791",
+      "36445175",
+      "25974629",
+      "27975227",
+      "26648978",
+      "16991196",
+      "28918672",
+      "30902665"
+    ],
+    "pmc": [
+      "11180226"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38884001/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38884001",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/biomethods/article-lookup/doi/10.1093/biomethods/bpae039",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

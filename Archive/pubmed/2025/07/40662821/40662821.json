@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "40662821",
+    "doi": "10.1093/bioinformatics/btaf217",
+    "title": "Prediction of gene regulatory connections with joint single-cell foundation models and graph-based learning."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Single-cell RNA sequencing (scRNA-seq) data offers unprecedented opportunities to infer gene regulatory networks (GRNs) at a fine-grained resolution, shedding light on cellular phenotypes at the molecular level. However, the high sparsity, noise, and dropout events inherent in scRNA-seq data pose significant challenges for accurate and reliable GRN inference. The rapid growth in experimentally validated transcription factor-DNA binding data has enabled supervised machine learning methods, which rely on known regulatory interactions to learn patterns, and achieve high accuracy in GRN inference by framing it as a gene regulatory link prediction task. This study addresses the gene regulatory link prediction problem by learning vectorized representations at the gene level to predict missing regulatory interactions. However, a higher performance of supervised learning methods requires a large amount of known TF-DNA binding data, which is often experimentally expensive and therefore limited in amount. Advances in large-scale pre-training and transfer learning provide a transformative opportunity to address this challenge. In this study, we leverage large-scale pre-trained models, trained on extensive scRNA-seq datasets and known as single-cell foundation models (scFMs). These models are combined with joint graph-based learning to establish a robust foundation for gene regulatory link prediction. RESULTS: We propose scRegNet, a novel and effective framework that leverages scFMs with joint graph-based learning for gene regulatory link prediction. scRegNet achieves state-of-the-art results in comparison with nine baseline methods on seven scRNA-seq benchmark datasets. Additionally, scRegNet is more robust than the baseline methods on noisy training data. AVAILABILITY AND IMPLEMENTATION: The source code is available at https://github.com/sindhura-cs/scRegNet.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Gene Regulatory Networks",
+      "*Machine Learning",
+      "*Computational Biology/methods",
+      "Sequence Analysis, RNA/methods",
+      "Transcription Factors/metabolism",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kommu, Sindhura",
+        "Wang, Yizhi",
+        "Wang, Yue",
+        "Wang, Xuan"
+      ],
+      "short_names": [
+        "Kommu S",
+        "Wang Y",
+        "Wang Y",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9456-0743",
+        "ORCID: 0000-0002-1788-1102",
+        "ORCID: 0000-0002-1381-8958"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24060, United States.",
+        "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, VA 22203, United States.",
+        "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, VA 22203, United States.",
+        "Department of Computer Science, Virginia Tech, Blacksburg, VA 24060, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kommu, Sindhura",
+        "short_name": "Kommu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24060, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Yizhi",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-9456-0743"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, VA 22203, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-1788-1102"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Virginia Tech, Arlington, VA 22203, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuan",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-1381-8958"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Tech, Blacksburg, VA 24060, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 12:30",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42632029",
+      "42234838",
+      "40923764"
+    ],
+    "refs": [
+      "38844628",
+      "38409223",
+      "37985457",
+      "37258680",
+      "36070863",
+      "35961023",
+      "34424948",
+      "32362720",
+      "31907445",
+      "31822622",
+      "30953525",
+      "30712510",
+      "30445495",
+      "30413482",
+      "26403471",
+      "26278974",
+      "25301070",
+      "24836921",
+      "23154415",
+      "22955616",
+      "20927193",
+      "19951693",
+      "17510665",
+      "16801560"
+    ],
+    "similar": [
+      "40662821",
+      "39975293",
+      "37985457",
+      "39960893",
+      "35961023",
+      "40251476",
+      "38950180",
+      "39487083",
+      "38980373",
+      "41288963",
+      "40062616",
+      "41191474",
+      "42653305",
+      "41871930",
+      "42265576",
+      "37004161",
+      "40956752",
+      "41534143",
+      "39417321",
+      "41317402",
+      "41896196",
+      "39939367",
+      "41206950",
+      "42059479",
+      "40708222",
+      "39062480",
+      "41883144",
+      "42475469",
+      "40116659",
+      "38896510",
+      "39934680",
+      "38810116",
+      "41554051",
+      "36070863",
+      "42337558",
+      "37991248",
+      "38261340",
+      "40315689",
+      "41052197",
+      "37531858",
+      "42464099",
+      "37085776",
+      "41329984",
+      "42332576",
+      "35050715",
+      "39708840",
+      "40838782",
+      "41325188",
+      "42378449",
+      "40511990",
+      "40654959",
+      "42056283",
+      "36734596",
+      "41489955",
+      "40699953",
+      "39508444",
+      "38778003",
+      "39504481",
+      "39311699",
+      "38892162",
+      "39494609",
+      "42225598",
+      "39694856",
+      "41981652",
+      "31243426",
+      "42308421",
+      "40713495",
+      "40409400",
+      "42599963",
+      "38342857",
+      "41786602",
+      "40426257",
+      "37897702",
+      "42560939",
+      "33535230",
+      "39401117",
+      "30547796",
+      "37313714",
+      "36825817",
+      "39992219",
+      "42398025",
+      "33026066",
+      "32174324",
+      "40689508",
+      "34424948",
+      "40484997",
+      "40069807",
+      "37015582",
+      "38128706",
+      "39957720",
+      "41033661",
+      "41557577",
+      "36869836",
+      "39504287",
+      "40037709",
+      "41544912",
+      "37122068",
+      "31566233",
+      "41917934",
+      "36626328"
+    ],
+    "review": [
+      "40662821",
+      "39939367"
+    ],
+    "pmc": [
+      "12261397"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40662821/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf217",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

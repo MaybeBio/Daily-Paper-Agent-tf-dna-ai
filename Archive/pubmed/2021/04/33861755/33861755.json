@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "33861755",
+    "doi": "10.1371/journal.pcbi.1008909",
+    "title": "Identification of long regulatory elements in the genome of Plasmodium falciparum and other eukaryotes."
+  },
+  "content": {
+    "abstract": "Long regulatory elements (LREs), such as CpG islands, polydA:dT tracts or AU-rich elements, are thought to play key roles in gene regulation but, as opposed to conventional binding sites of transcription factors, few methods have been proposed to formally and automatically characterize them. We present here a computational approach named DExTER (Domain Exploration To Explain gene Regulation) dedicated to the identification of candidate LREs (cLREs) and apply it to the analysis of the genomes of P. falciparum and other eukaryotes. Our analyses show that all tested genomes contain several cLREs that are somewhat conserved along evolution, and that gene expression can be predicted with surprising accuracy on the basis of these long regions only. Regulation by cLREs exhibits very different behaviours depending on species and conditions. In P. falciparum and other Apicomplexan organisms as well as in Dictyostelium discoideum, the process appears highly dynamic, with different cLREs involved at different phases of the life cycle. For multicellular organisms, the same cLREs are involved in all tissues, but a dynamic behavior is observed along embryonic development stages. In P. falciparum, whose genome is known to be strongly depleted of transcription factors, cLREs are predictive of expression with an accuracy above 70%, and our analyses show that they are associated with both transcriptional and post-transcriptional regulation signals. Moreover, we assessed the biological relevance of one LRE discovered by DExTER in P. falciparum using an in vivo reporter assay. The source code (python) of DExTER is available at https://gite.lirmm.fr/menichelli/DExTER.",
+    "keywords": [],
+    "mesh_terms": [
+      "Eukaryota/genetics",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "Genes, Reporter",
+      "*Genome, Protozoan",
+      "Histones/metabolism",
+      "Plasmodium falciparum/*genetics",
+      "RNA Processing, Post-Transcriptional",
+      "RNA, Antisense/genetics",
+      "RNA, Messenger/genetics",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Menichelli, Christophe",
+        "Guitard, Vincent",
+        "Martins, Rafael M",
+        "Lebre, Sophie",
+        "Lopez-Rubio, Jose-Juan",
+        "Lecellier, Charles-Henri",
+        "Brehelin, Laurent"
+      ],
+      "short_names": [
+        "Menichelli C",
+        "Guitard V",
+        "Martins RM",
+        "Lebre S",
+        "Lopez-Rubio JJ",
+        "Lecellier CH",
+        "Brehelin L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9161-3715",
+        "ORCID: 0000-0003-3025-0978",
+        "ORCID: 0000-0001-7449-0696",
+        "ORCID: 0000-0003-3444-2416",
+        "ORCID: 0000-0002-0555-1122",
+        "ORCID: 0000-0002-0229-5434",
+        "ORCID: 0000-0002-2582-2831"
+      ],
+      "affiliations": [
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+        "Laboratory of Pathogen-Host Interactions (LPHI), UMR5235, CNRS, Montpellier University, INSERM, Montpellier, France.",
+        "Laboratory of Pathogen-Host Interactions (LPHI), UMR5235, CNRS, Montpellier University, INSERM, Montpellier, France.",
+        "IMAG, Univ. Montpellier, CNRS, Montpellier, France.",
+        "Univ. Paul-Valery-Montpellier 3, Montpellier, France.",
+        "Laboratory of Pathogen-Host Interactions (LPHI), UMR5235, CNRS, Montpellier University, INSERM, Montpellier, France.",
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+        "Institut de Genetique Moleculaire de Montpellier, University of Montpellier, CNRS, Montpellier, France.",
+        "LIRMM, Univ Montpellier, CNRS, Montpellier, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Menichelli, Christophe",
+        "short_name": "Menichelli C",
+        "identifiers": [
+          "0000-0001-9161-3715"
+        ],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Guitard, Vincent",
+        "short_name": "Guitard V",
+        "identifiers": [
+          "0000-0003-3025-0978"
+        ],
+        "affiliations": [
+          "Laboratory of Pathogen-Host Interactions (LPHI), UMR5235, CNRS, Montpellier University, INSERM, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Martins, Rafael M",
+        "short_name": "Martins RM",
+        "identifiers": [
+          "0000-0001-7449-0696"
+        ],
+        "affiliations": [
+          "Laboratory of Pathogen-Host Interactions (LPHI), UMR5235, CNRS, Montpellier University, INSERM, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Lèbre, Sophie",
+        "short_name": "Lèbre S",
+        "identifiers": [
+          "0000-0003-3444-2416"
+        ],
+        "affiliations": [
+          "IMAG, Univ. Montpellier, CNRS, Montpellier, France.",
+          "Univ. Paul-Valéry-Montpellier 3, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Lopez-Rubio, Jose-Juan",
+        "short_name": "Lopez-Rubio JJ",
+        "identifiers": [
+          "0000-0002-0555-1122"
+        ],
+        "affiliations": [
+          "Laboratory of Pathogen-Host Interactions (LPHI), UMR5235, CNRS, Montpellier University, INSERM, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Lecellier, Charles-Henri",
+        "short_name": "Lecellier CH",
+        "identifiers": [
+          "0000-0002-0229-5434"
+        ],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France.",
+          "Institut de Génétique Moléculaire de Montpellier, University of Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Bréhélin, Laurent",
+        "short_name": "Bréhélin L",
+        "identifiers": [
+          "0000-0002-2582-2831"
+        ],
+        "affiliations": [
+          "LIRMM, Univ Montpellier, CNRS, Montpellier, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Apr",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/17 06:00",
+    "fetched_at": "2026-09-27 16:06:43"
+  },
+  "links": {
+    "cites": [
+      "39879549",
+      "39735654",
+      "38987807"
+    ],
+    "refs": [
+      "33406418",
+      "33406384",
+      "33154111",
+      "32433972",
+      "32255425",
+      "32194521",
+      "31856220",
+      "31783898",
+      "31676866",
+      "31509524",
+      "30728393",
+      "30709337",
+      "30599046",
+      "30078561",
+      "30016465",
+      "30013180",
+      "29985403",
+      "29722874",
+      "29720659",
+      "29649445",
+      "29588361",
+      "29417875",
+      "29360019",
+      "29293496",
+      "28836940",
+      "28818938",
+      "28812710",
+      "28634346",
+      "28618269",
+      "28531310",
+      "28416533",
+      "28389662",
+      "28081440",
+      "28060840",
+      "28033404",
+      "27768892",
+      "27381095",
+      "27084946",
+      "26886793",
+      "26837845",
+      "26678037",
+      "26642241",
+      "26531826",
+      "26525978",
+      "26417110",
+      "26301843",
+      "25493618",
+      "25359557",
+      "25121746",
+      "24880488",
+      "24572369",
+      "24572359",
+      "24559473",
+      "24413563",
+      "24243018",
+      "23715323",
+      "23601558",
+      "23186104",
+      "23136377",
+      "22495300",
+      "22129310",
+      "21576262",
+      "21558492",
+      "21330290",
+      "21187892",
+      "21060817",
+      "20513432",
+      "20195509",
+      "20141604",
+      "20078850",
+      "19730695",
+      "19458158",
+      "19270070",
+      "19218088",
+      "19208466",
+      "17964271",
+      "17612404",
+      "17381235",
+      "16901558",
+      "16645617",
+      "16493140",
+      "16391004",
+      "16199517",
+      "16040597",
+      "14764558",
+      "12929205",
+      "12893887",
+      "12823820",
+      "12016061",
+      "11891299",
+      "11175784",
+      "7862676",
+      "7584402"
+    ],
+    "similar": [
+      "33861755",
+      "18257930",
+      "14747145",
+      "24559473",
+      "26607328",
+      "25281558",
+      "20015349",
+      "29985403",
+      "29360019",
+      "16380193",
+      "27381095",
+      "32867812",
+      "30016465",
+      "28836940",
+      "25373614",
+      "26896950",
+      "24657575",
+      "15138065",
+      "32079470",
+      "12929205",
+      "34792144",
+      "15256513",
+      "30632244",
+      "28830512",
+      "23070076",
+      "33225957",
+      "22129310",
+      "16042788",
+      "22360617",
+      "24885191",
+      "24040327",
+      "17083741",
+      "34068393",
+      "23320541",
+      "33960872",
+      "18541913",
+      "25425018",
+      "12966140",
+      "15663925",
+      "18477411",
+      "26578577",
+      "27555062",
+      "32552779",
+      "32513207",
+      "15703443",
+      "28351924",
+      "9001213",
+      "33272860",
+      "19144114",
+      "26043001",
+      "15850701",
+      "23468622",
+      "15515182",
+      "12095684",
+      "18325124",
+      "15747257",
+      "15246528",
+      "16389297",
+      "19849836",
+      "16026866",
+      "21689454",
+      "20078850",
+      "24551185",
+      "10613702",
+      "17612404",
+      "28698275",
+      "15637271",
+      "19336444",
+      "21187892",
+      "19422698",
+      "16493140",
+      "18692528",
+      "24267660",
+      "16183147",
+      "18637022",
+      "16044241",
+      "17976625",
+      "31220857",
+      "26299885",
+      "28531310",
+      "15520293",
+      "24522451",
+      "33765271",
+      "33906919",
+      "38128025",
+      "23601558",
+      "23823717",
+      "33546698",
+      "17010454",
+      "21275233",
+      "11839180",
+      "31964736",
+      "20708104",
+      "15582522",
+      "30723152",
+      "29716542",
+      "20054063",
+      "31158524",
+      "19765590",
+      "28644560"
+    ],
+    "review": [
+      "33861755",
+      "16380193",
+      "30632244",
+      "22360617",
+      "34068393",
+      "12966140",
+      "18637022",
+      "31220857",
+      "21275233"
+    ],
+    "pmc": [
+      "8081344"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1008909",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33861755/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33861755",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33861755",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

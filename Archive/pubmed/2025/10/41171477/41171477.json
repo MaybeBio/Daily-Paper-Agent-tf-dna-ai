@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "41171477",
+    "doi": "10.1007/s10238-025-01880-z",
+    "title": "The ferroptosis-related gene MAFG screened by machine learning is associated with the diagnosis and prognosis of sepsis."
+  },
+  "content": {
+    "abstract": "Ferroptosis is a novel form of cell death induced by ferrous ions and lipid peroxidation. However, the mechanisms of ferroptosis-related genes (FRGs) in sepsis have not been studied thoroughly. We performed differential analysis using GSE65682, and the differentially expressed genes (DEGs) were intersected with FRGs to obtain the differentially expressed FRGs. We constructed a random forest model to explore characteristic FRGs for sepsis diagnosis using the training set and verified its predictive efficacy using the testing set. There are 43 differentially expressed FRGs and the top five FRGs in the model are MAFG, QSOX1, KLF2, TXN, and PEBP1. Meanwhile, three genes remained after the univariate Cox analysis, survival analysis and nomogram, but only MAFG was validated to be associated with sepsis prognosis. MAFG was selected as the most diagnostically and prognostically significant FRG based on the following evidence: (1) consistently significant overexpression across multiple datasets, (2) the highest MeanDecreaseGini score in the random forest model, (3) the largest hazard ratio in univariate Cox regression analysis, (4) a strong association with patient survival demonstrated by the nomogram, and (5) an AUC of 0.64 (p < 0.05) in GSE185263 in the ROC analysis for sepsis prognosis. Subsequently, TXN was predicted as a ferroptosis-related potential target for the transcription factor MAFG, and their elevation in sepsis was confirmed by RT-qPCR. Ultimately, we discovered that MAFG was mainly localized in monocytes by single-cell RNA-sequencing analysis, which was significantly upregulated in sepsis and non-survivors of sepsis. In this study, we identified MAFG as a potential candidate FRG related to the diagnosis and prognosis of sepsis, although further validation is required, which broadens novel insights into the therapeutic targets of sepsis and the role of ferroptosis in sepsis.",
+    "keywords": [
+      "Ferroptosis",
+      "MAFG",
+      "Machine learning",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "*Sepsis/diagnosis/genetics/mortality",
+      "Humans",
+      "*Machine Learning",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Nomograms",
+      "Male",
+      "Survival Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Lin",
+        "Lv, Shanshan",
+        "He, Daosheng",
+        "Chen, Xiangren",
+        "Liu, Leping",
+        "Song, Xiaohong",
+        "Zhang, Junhua",
+        "Qiao, Zhenrong",
+        "Luo, Yanwei"
+      ],
+      "short_names": [
+        "Du L",
+        "Lv S",
+        "He D",
+        "Chen X",
+        "Liu L",
+        "Song X",
+        "Zhang J",
+        "Qiao Z",
+        "Luo Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+        "Department of Blood Transfusion, Affiliated Hospital of Southwest Jiaotong University, The Third People's Hospital of Chengdu, Chengdu, 610031, Sichuan, China.",
+        "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+        "Department of Blood Transfusion, Weifang People's Hospital, Weifang, 261041, Shandong, China.",
+        "GuiGang City People's Hospital, GuiGang, 537100, Guangxi, China.",
+        "GuiGang City People's Hospital, GuiGang, 537100, Guangxi, China.",
+        "Department of Pediatrics, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+        "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+        "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+        "Department of Hematology, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China. 13574105582@163.com.",
+        "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China. royalway@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Lin",
+        "short_name": "Du L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+          "Department of Blood Transfusion, Affiliated Hospital of Southwest Jiaotong University, The Third People's Hospital of Chengdu, Chengdu, 610031, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Shanshan",
+        "short_name": "Lv S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China.",
+          "Department of Blood Transfusion, Weifang People's Hospital, Weifang, 261041, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "He, Daosheng",
+        "short_name": "He D",
+        "identifiers": [],
+        "affiliations": [
+          "GuiGang City People's Hospital, GuiGang, 537100, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiangren",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "GuiGang City People's Hospital, GuiGang, 537100, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Leping",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xiaohong",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junhua",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Zhenrong",
+        "short_name": "Qiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China. 13574105582@163.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Yanwei",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Blood Transfusion, The Third Xiangya Hospital, Central South University, Changsha, 410013, Hunan, China. royalway@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental medicine"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Med"
+    ],
+    "pub_date": "2025 Oct 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/31 18:30",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "41569313"
+    ],
+    "refs": [
+      "41342567",
+      "41159414",
+      "40449845",
+      "40391960",
+      "40237936",
+      "38924427",
+      "38876456",
+      "38844964",
+      "38685023",
+      "38168953",
+      "38016474",
+      "37671148",
+      "37346041",
+      "37269668",
+      "37017187",
+      "36918563",
+      "36736642",
+      "36470828",
+      "36369321",
+      "36305834",
+      "36209190",
+      "36182039",
+      "35932693",
+      "35902564",
+      "35779691",
+      "35637949",
+      "35510185",
+      "35391558",
+      "35027333",
+      "34933101",
+      "34901991",
+      "34885019",
+      "34463709",
+      "34441862",
+      "34415804",
+      "33978684",
+      "33974977",
+      "33959955",
+      "33868783",
+      "33839742",
+      "33808771",
+      "33591001",
+      "33514910",
+      "33495651",
+      "33348637",
+      "33268902",
+      "33181462",
+      "32846217",
+      "32541831",
+      "32538180",
+      "32505253",
+      "32464324",
+      "32347939",
+      "32067993",
+      "32051591",
+      "31954465",
+      "31906144",
+      "31671729",
+      "31002870",
+      "30948788",
+      "30768188",
+      "30053382",
+      "29733835",
+      "29532063",
+      "27886531",
+      "26414292",
+      "26403645",
+      "25439323",
+      "23499374",
+      "22721719"
+    ],
+    "similar": [
+      "41171477",
+      "40124361",
+      "40830558",
+      "39764891",
+      "39793232",
+      "39735547",
+      "39586719",
+      "34284753",
+      "39707003",
+      "37957905",
+      "38780016",
+      "34506683",
+      "38286859",
+      "39107713",
+      "39763654",
+      "34539737",
+      "37081490",
+      "41089329",
+      "40246772",
+      "34418989",
+      "40129981",
+      "41186509",
+      "41106766",
+      "40024299",
+      "34256754",
+      "37645416",
+      "41992345",
+      "41475687",
+      "35787932",
+      "41782887",
+      "42025819",
+      "35422048",
+      "38774759",
+      "42530267",
+      "34672420",
+      "40399425",
+      "34979993",
+      "40224981",
+      "41825713",
+      "33674956",
+      "40613196",
+      "40028203",
+      "34734046",
+      "38214321",
+      "34115610",
+      "34422642",
+      "36275721",
+      "41013727",
+      "40973872",
+      "36399105",
+      "42398170",
+      "42536548",
+      "35663048",
+      "40948782",
+      "37555866",
+      "34868391",
+      "34861872",
+      "41023110",
+      "38741149",
+      "41010056",
+      "41940395",
+      "40362543",
+      "37378023",
+      "41257951",
+      "42060917",
+      "41872824",
+      "40022042",
+      "39904039",
+      "37712959",
+      "40763838",
+      "34853622",
+      "41735888",
+      "40362233",
+      "36733386",
+      "41508240",
+      "36479114",
+      "41826889",
+      "33889544",
+      "34499810",
+      "42219468",
+      "38649061",
+      "35598038",
+      "34868393",
+      "40823359",
+      "41624884",
+      "38755712",
+      "37647346",
+      "37940859",
+      "41331889",
+      "37752199",
+      "35935576",
+      "35282071",
+      "34764976",
+      "38404591",
+      "41611834",
+      "41200172",
+      "41798945",
+      "41425595",
+      "39953444",
+      "34708125"
+    ],
+    "review": [
+      "41171477"
+    ],
+    "pmc": [
+      "12578776"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41171477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10238-025-01880-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PEBP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3884",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

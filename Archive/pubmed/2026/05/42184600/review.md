@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full text of a review article (opinion/perspective) submitted to Current Opinion in Structural Biology, including abstract, main text, figure legends (referenced but not provided), and acknowledgements.
+- **Assessment boundary** Scientific content, logical coherence, support for claims, and suitability for the target journal. No assessment of formatting, grammar, or reference accuracy beyond what is visible.
+- **Shared manuscript claim summary** The authors argue that the polymeric nature of DNA, specifically its bending and supercoiling, is an underappreciated determinant of gene regulation. They propose that DNA mechanics and topology act in concert with biochemical recognition, introducing non-local, long-range effects ("telestability") that constitute an additional layer of information ("Physical Genomics"). They advocate for hybrid models combining physics and biochemistry to understand gene regulation.
+- **Visible evidence base** Abstract, main text sections (The importance of DNA as a long polymer has been overlooked; DNA is bent and twisted (supercoiled) in cells; Bending and supercoiling change DNA structure and dynamics; Bending and twisting affect DNA recognition, and vice versa; How can we understand the additional information content of long polymeric DNA?), references cited in text (numbers only, no full list), and figure legends (referenced as Figure 1, 2, 3, Box 1, but not provided).
+- **Missing materials affecting confidence** Full reference list, all figure panels and legends, Box 1 content, and any supplementary materials. These are essential for verifying specific claims and assessing the depth of evidence.
+
+## Reviewer
+- **Overall assessment** This is a well-written, thought-provoking perspective that synthesizes recent advances in single-molecule imaging, cryo-EM, and atomistic simulations to argue for a greater appreciation of DNA polymer physics in gene regulation. The authors present a coherent narrative, moving from the overlooked nature of DNA as a long polymer, through the physical consequences of supercoiling, to the implications for protein recognition and the proposal of "Physical Genomics" as a conceptual framework. The manuscript is likely to stimulate discussion and is appropriate for a review-oriented journal. However, the strength of the argument relies heavily on the interpretation of selected studies, and the absence of the figures and full reference list limits a complete evaluation. The central claim that supercoiling is a "hidden factor" in gene regulation is plausible but presented more as a synthesis of existing evidence than as a novel, testable hypothesis. The manuscript would benefit from a clearer articulation of what "Physical Genomics" adds beyond existing concepts like "topological epigenetics" and from a more critical discussion of the limitations of current models.
+- **Who would be interested in the results, and why** Researchers in biophysics, molecular biology, and computational biology, particularly those studying DNA-protein interactions, chromatin structure, gene regulation, and genome organization. The review bridges disciplines and would appeal to those interested in the physical basis of biological function. The discussion of supercoiling in disease contexts (e.g., eccDNA in cancer) may also attract a broader biomedical audience.
+- **Major strengths** The manuscript provides a timely and accessible synthesis of recent experimental and computational work. The authors effectively highlight the limitations of studying short, linear DNA fragments and make a compelling case for considering the polymeric context. The use of specific examples (e.g., minicircle simulations, transcription-coupled supercoiling in E. coli) grounds the discussion. The proposal of "Physical Genomics" as a unifying term is potentially useful for framing future research.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for central claim
+  - **Claim pointer** The authors claim that "supercoiling is the hidden factor in the relationship between chromatin structure and function, in both bacteria and humans."
+  - **Evidence pointer** Section "How can we understand the additional information content of long polymeric DNA?", references 53 and 60.
+  - **Concern** This is a strong, sweeping claim. While the authors cite studies mapping supercoiling in bacteria and humans, the evidence presented in the text is largely correlative. For example, the mapping of supercoils at TAD boundaries in human cells (ref 53) shows an association with chromatin state, but does not demonstrate a causal role for supercoiling in regulating that state. The claim that supercoiling is "the hidden factor" overstates the current evidence, which may be more consistent with supercoiling being one of several contributing factors.
+  - **Why it matters** The central thesis of the manuscript rests on this claim. If overstated, it weakens the overall argument and the proposed concept of "Physical Genomics." A more nuanced statement, acknowledging that supercoiling is an important and often overlooked factor, would be more defensible.
+  - **Resolution test** The authors should either provide direct experimental evidence for a causal role of supercoiling in the cited studies, or temper the claim to reflect the correlative nature of the evidence. For example, rephrase to "supercoiling is a frequently overlooked factor that correlates with and may contribute to chromatin structure and function."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and conceptual contribution
+  - **Claim pointer** The authors introduce the term "Physical Genomics" to describe "the extra information content that the mechanical status of DNA contains, relative to just the chemistry of DNA."
+  - **Evidence pointer** Section "How can we understand the additional information content of long polymeric DNA?"
+  - **Concern** The concept of "Physical Genomics" is presented as a new framework, but the authors themselves note the alternative term "Topological Epigenetics" (ref 59). The manuscript does not clearly delineate what "Physical Genomics" adds beyond this existing concept or beyond the well-established field of DNA supercoiling research. The novelty appears to be primarily terminological rather than conceptual.
+  - **Why it matters** For a perspective article, the conceptual contribution is a key element. If the term is merely a rebranding of existing ideas, its value is limited. The authors need to articulate a distinct research agenda or predictive framework that "Physical Genomics" enables.
+  - **Resolution test** The authors should explicitly compare and contrast "Physical Genomics" with "Topological Epigenetics" and other related concepts, and provide a concrete example of a question or prediction that this new framework uniquely generates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of evidence
+  - **Claim pointer** The manuscript relies heavily on specific examples from simulations and experiments (e.g., minicircle kinking, bubble formation, nucleosome storage of supercoils).
+  - **Evidence pointer** Sections "Bending and supercoiling change DNA structure and dynamics" and "Bending and twisting affect DNA recognition, and vice versa", Figures 1 and 2, Box 1.
+  - **Concern** The figures and Box 1 are referenced but not provided. This is a significant limitation for evaluation. The text descriptions of the figures are insufficient to assess whether the visual evidence supports the claims. For example, the claim that "simulations of larger ~200 base pair circles reveal a complex phase diagram" (ref 30, 31) cannot be verified without seeing the phase diagram or the simulation details.
+  - **Why it matters** The figures are likely central to illustrating the key concepts and evidence. Without them, the reader cannot fully evaluate the strength of the presented data. This is a technical issue that must be resolved before publication.
+  - **Resolution test** The authors must provide the figures and Box 1 content for review. The figures should clearly show the described phenomena (e.g., kinks, bubbles, plectonemes) and be consistent with the text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "tug of war" in the title
+  - **Evidence pointer** Title
+  - **Issue** The title's metaphor "tug of war" is catchy but may be misleading. The text describes a cooperative and complex interplay, not necessarily a zero-sum competition. The metaphor could be interpreted as implying that polymer physics and biochemistry are opposing forces, which is not the authors' argument.
+  - **Required correction** Consider a more precise title, such as "Physical Genomics: The Interplay of Polymer Physics and Biochemistry in Gene Regulation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Support for a specific claim
+  - **Affected element** Statement on "telestability"
+  - **Evidence pointer** Section "Bending and twisting affect DNA recognition, and vice versa", reference 57.
+  - **Issue** The term "telestability" is introduced and defined, but the supporting evidence is not described in the text. The authors state that models have shown collective behavior, but do not explain how this relates to the original concept of telestability.
+  - **Required correction** Provide a brief explanation of the original telestability concept and how it has been extended or supported by recent work.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion of "twin supercoiling domain model"
+  - **Evidence pointer** Section "DNA is bent and twisted (supercoiled) in cells", Figure 1.
+  - **Issue** The description of the twin supercoiling domain model is concise but may be difficult for a nonspecialist to visualize. The text mentions positive and negative supercoils ahead and behind the polymerase, but does not explain why this occurs.
+  - **Required correction** Add a sentence explaining the physical basis (e.g., the polymerase tracking along the helix generates torsional stress).
+- **Technical failings that need to be addressed before the case is established** The absence of figures and Box 1 is a critical technical failing that prevents full evaluation. The authors must provide these materials. Additionally, the full reference list is missing, which is essential for verifying the cited studies.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript offers a synthesis of existing ideas rather than a fundamentally new concept. The term "Physical Genomics" is new, but its conceptual novelty is not clearly established. The originality is moderate for a review.
+  - **Scientific importance** The topic is of high importance, as understanding gene regulation is a central problem in biology. The authors highlight a potentially underappreciated aspect (polymer physics), which could have significant implications.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to a broad readership, including biophysicists, molecular biologists, and computational biologists. The writing is generally accessible, though some sections may be dense for nonspecialists.
+  - **Technical soundness** The technical content appears sound based on the text, but the lack of figures and full references limits a complete assessment. The authors' interpretations of cited studies are plausible but not independently verifiable from the provided material.
+  - **Readability for nonspecialists** The manuscript is well-written and generally clear. However, some concepts (e.g., supercoiling, telestability) may require prior knowledge. The abstract is accessible, but the main text could benefit from more explicit explanations of key physical concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable perspective that is likely to be of interest to the readership of Current Opinion in Structural Biology. The central argument is coherent and well-supported by the cited literature, but the missing figures and references must be provided for a complete evaluation. The authors should also address the concerns regarding the overstatement of the central claim and the novelty of the proposed framework.
+
+## Risk / unsupported claims
+- The claim that supercoiling is "the hidden factor" in chromatin structure and function (R1-M1) is not fully supported by the evidence presented in the text.
+- The claim that "telestability" describes a "form of long-range communication" that is "capable of storing information and adapting to environmental change" is presented as a conclusion but is not directly supported by specific evidence in the text.
+- The statement that "the native level of superhelical stress maintained in bacterial cells is on the threshold of being sufficient to produce denaturation bubbles" is presented as a fact, but the supporting evidence is not described in detail.
+- The assertion that "changes in chromatin state during cellular or developmental processes may be regulated by supercoiling" is speculative and not directly supported by the cited studies as described.
+- The claim that "the response of chromatin to supercoiling forces can be understood from the supercoiling-dependent mechanics of protein-DNA recognition" is a broad generalization that may not hold for all chromatin contexts.

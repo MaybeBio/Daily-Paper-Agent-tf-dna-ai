@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "34431696",
+    "doi": "10.1128/mSphere.00443-21",
+    "title": "Machine Learning of Bacterial Transcriptomes Reveals Responses Underlying Differential Antibiotic Susceptibility."
+  },
+  "content": {
+    "abstract": "In vitro antibiotic susceptibility testing often fails to accurately predict in vivo drug efficacies, in part due to differences in the molecular composition between standardized bacteriologic media and physiological environments within the body. Here, we investigate the interrelationship between antibiotic susceptibility and medium composition in Escherichia coli K-12 MG1655 as contextualized through machine learning of transcriptomics data. Application of independent component analysis, a signal separation algorithm, shows that complex phenotypic changes induced by environmental conditions or antibiotic treatment are directly traced to the action of a few key transcriptional regulators, including RpoS, Fur, and Fnr. Integrating machine learning results with biochemical knowledge of transcription factor activation reveals medium-dependent shifts in respiration and iron availability that drive differential antibiotic susceptibility. By extension, the data generation and data analytics workflow used here can interrogate the regulatory state of a pathogen under any measured condition and can be applied to any strain or organism for which sufficient transcriptomics data are available. IMPORTANCE Antibiotic resistance is an imminent threat to global health. Patient treatment regimens are often selected based on results from standardized antibiotic susceptibility testing (AST) in the clinical microbiology lab, but these in vitro tests frequently misclassify drug effectiveness due to their poor resemblance to actual host conditions. Prior attempts to understand the combined effects of drugs and media on antibiotic efficacy have focused on physiological measurements but have not linked treatment outcomes to transcriptional responses on a systems level. Here, application of machine learning to transcriptomics data identified medium-dependent responses in key regulators of bacterial iron uptake and respiratory activity. The analytical workflow presented here is scalable to additional organisms and conditions and could be used to improve clinical AST by identifying the key regulatory factors dictating antibiotic susceptibility.",
+    "keywords": [
+      "RNA-seq",
+      "antibiotics",
+      "independent component analysis",
+      "iron regulation",
+      "machine learning",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Anti-Bacterial Agents/*pharmacology",
+      "Culture Media/chemistry/pharmacology",
+      "Drug Resistance, Bacterial/*genetics",
+      "Escherichia coli K12/*drug effects/*genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Bacterial/drug effects/genetics",
+      "Humans",
+      "Iron/metabolism",
+      "*Machine Learning",
+      "Microbial Sensitivity Tests",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sastry, Anand V",
+        "Dillon, Nicholas",
+        "Anand, Amitesh",
+        "Poudel, Saugat",
+        "Hefner, Ying",
+        "Xu, Sibei",
+        "Szubin, Richard",
+        "Feist, Adam M",
+        "Nizet, Victor",
+        "Palsson, Bernhard"
+      ],
+      "short_names": [
+        "Sastry AV",
+        "Dillon N",
+        "Anand A",
+        "Poudel S",
+        "Hefner Y",
+        "Xu S",
+        "Szubin R",
+        "Feist AM",
+        "Nizet V",
+        "Palsson B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Pediatrics, University of California-San Diego, La Jolla, California, USA.",
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Biological Sciences, University of Texas at Dallas, Richardson, Texas, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Lyngby, Denmark.",
+        "Department of Pediatrics, University of California-San Diego, La Jolla, California, USA.",
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+        "Department of Pediatrics, University of California-San Diego, La Jolla, California, USA.",
+        "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Lyngby, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sastry, Anand V",
+        "short_name": "Sastry AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Dillon, Nicholas",
+        "short_name": "Dillon N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California-San Diego, La Jolla, California, USA.",
+          "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California-San Diego, La Jolla, California, USA.",
+          "Department of Biological Sciences, University of Texas at Dallas, Richardson, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Anand, Amitesh",
+        "short_name": "Anand A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Poudel, Saugat",
+        "short_name": "Poudel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Hefner, Ying",
+        "short_name": "Hefner Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Sibei",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Szubin, Richard",
+        "short_name": "Szubin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Feist, Adam M",
+        "short_name": "Feist AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+          "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Nizet, Victor",
+        "short_name": "Nizet V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California-San Diego, La Jolla, California, USA.",
+          "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California-San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard",
+        "short_name": "Palsson B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California-San Diego, La Jolla, California, USA.",
+          "Department of Pediatrics, University of California-San Diego, La Jolla, California, USA.",
+          "Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mSphere"
+    ],
+    "journal_abbrev": [
+      "mSphere"
+    ],
+    "pub_date": "2021 Aug 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/26 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "42597922",
+      "41909945",
+      "41805196",
+      "41626695",
+      "41041937",
+      "39494532",
+      "37993418",
+      "37713311",
+      "37303796",
+      "36658396",
+      "35243261"
+    ],
+    "refs": [
+      "33529205",
+      "33311500",
+      "33045728",
+      "32710928",
+      "32616573",
+      "31797920",
+      "31651953",
+      "31353294",
+      "31080069",
+      "30971496",
+      "30596642",
+      "30361388",
+      "29538378",
+      "29522744",
+      "29394395",
+      "29264917",
+      "29133393",
+      "28579300",
+      "28494870",
+      "28115345",
+      "27222539",
+      "27135538",
+      "26288841",
+      "26258987",
+      "26100898",
+      "25516281",
+      "25251995",
+      "25222563",
+      "25092529",
+      "25063442",
+      "24803433",
+      "24699140",
+      "24145547",
+      "23471410",
+      "23471409",
+      "23193258",
+      "22522900",
+      "20064380",
+      "19334595",
+      "19144806",
+      "17353933",
+      "16495256",
+      "16394265",
+      "15105154",
+      "11423658",
+      "11397910",
+      "9990723",
+      "8636997",
+      "1108614"
+    ],
+    "similar": [
+      "34431696",
+      "25063442",
+      "25940639",
+      "31768064",
+      "39320197",
+      "30389380",
+      "20086164",
+      "21940899",
+      "26907100",
+      "24412198",
+      "25222563",
+      "26670385",
+      "18552189",
+      "15659690",
+      "29338696",
+      "28816060",
+      "31247256",
+      "27349222",
+      "32048461",
+      "32604604",
+      "38499536",
+      "29949970",
+      "33468696",
+      "30753956",
+      "36718533",
+      "32616264",
+      "34704829",
+      "35306876",
+      "26204448",
+      "30578262",
+      "27854150",
+      "32551597",
+      "30381421",
+      "24121552",
+      "34468178",
+      "17250759",
+      "33318204",
+      "19091747",
+      "39349551",
+      "31138575",
+      "21980479",
+      "32591383",
+      "35107359",
+      "26581035",
+      "30916881",
+      "27375130",
+      "29746997",
+      "28520511",
+      "27801293",
+      "32942846",
+      "35398511",
+      "37713610",
+      "21272324",
+      "32661079",
+      "27246574",
+      "28264991",
+      "18158608",
+      "31555989",
+      "25724987",
+      "28893783",
+      "33095005",
+      "24338093",
+      "29795704",
+      "34812714",
+      "28342718",
+      "23089747",
+      "20479007",
+      "29514937",
+      "34882354",
+      "33045728",
+      "17298366",
+      "28579300",
+      "18407759",
+      "32350096",
+      "33385683",
+      "15805507",
+      "34655136",
+      "31375931",
+      "29089428",
+      "23979754",
+      "21774834",
+      "17720788",
+      "35357210",
+      "18174134",
+      "32098819",
+      "35599112",
+      "32868761",
+      "31080069",
+      "30115066",
+      "36867448",
+      "38431108",
+      "38577619",
+      "32440258",
+      "28123098",
+      "33780444",
+      "36451115",
+      "35045296",
+      "38825177",
+      "36017903",
+      "36787531",
+      "37968359",
+      "35524013",
+      "39211203",
+      "36130481",
+      "35201873",
+      "34518677"
+    ],
+    "review": [
+      "34431696",
+      "30381421",
+      "34882354",
+      "36451115"
+    ],
+    "pmc": [
+      "8386450"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mSphere.00443-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34431696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34431696",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt8v5092hc",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34431696",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse159494",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

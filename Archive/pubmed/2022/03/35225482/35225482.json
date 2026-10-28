@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "35225482",
+    "doi": "10.31557/APJCP.2022.23.2.683",
+    "title": "ACAN, MDFI, and CHST1 as Candidate Genes in Gastric Cancer: A Comprehensive Insilco Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer (GC) is a complex disorder with an inadequate response to treatment. Although many efforts have been made to clarify the development of GC, the exact etiology and molecular mechanisms of this malignancy remain unclear. This study was designed to identify and characterize essential associated genes with GC to construct a prognostic model. METHODS: In this Insilco study, the gene expression microarray dataset GSE122401 was downloaded from the Gene Expression Omnibus (GEO). The raw data were processed and quantile-normalized with the edgeR package of R ver.3.5.3. The module-trait relationship and hub-genes associated with GC were analyzed with Weighted Gene Co-expression Network Analysis (WGCNA). Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed by Cluepedia and Enrichr Database. Finally, hub-genes were screened and validated by GEPIA online database. RESULTS: According to the WGCNA results, the blue module was found to be strongly correlated with the GC (r=0.91, p-value=1e-57). DEGs analysis was performed by edgeR package of R and indicated a total of 47 genes as hub-genes. Verifying the hub-genes expression using GEPIA online database showed a significantly increased level of ACAN gene expression in primary cancer cell line compared to metastatic cell line. On the other hand, the expression of MDFI and CHST1 genes in primary cell lines were lower compared to metastatic cancer cell lines. CONCLUSIONS: This study provides a framework of the co-expression gene modules ACAN, MDFI, and CHST1 as hub-genes. These hub-genes might offer candidate biomarkers to targeted therapy against GC. Further experiment validation and animal models are needed to reveal the exact mechanism of the above-mentioned genes in the pathogenesis and prognoses of GC.",
+    "keywords": [
+      "Biomarkers",
+      "Hub-genes",
+      "Systems biology",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Aggrecans/*genetics",
+      "Biomarkers, Tumor/genetics",
+      "Computer Simulation",
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Microarray Analysis",
+      "Myogenic Regulatory Factors/*genetics",
+      "Prognosis",
+      "Stomach Neoplasms/*genetics",
+      "Sulfotransferases/*economics",
+      "Carbohydrate Sulfotransferases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vafaeie, Farzane",
+        "Nomiri, Samira",
+        "Ranjbaran, Javad",
+        "Safarpour, Hossein"
+      ],
+      "short_names": [
+        "Vafaeie F",
+        "Nomiri S",
+        "Ranjbaran J",
+        "Safarpour H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology, Faculty of science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Department of Biochemistry, Faculty of Medicine, Birjand University of medical sciences, Birjand, Iran.",
+        "Department of Biochemistry, Faculty of Medicine, Birjand University of medical sciences, Birjand, Iran.",
+        "Cellular & Molecular Research Center, Birjand University of Medical Sciences, Birjand, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vafaeie, Farzane",
+        "short_name": "Vafaeie F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of science, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Nomiri, Samira",
+        "short_name": "Nomiri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Medicine, Birjand University of medical sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Ranjbaran, Javad",
+        "short_name": "Ranjbaran J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Medicine, Birjand University of medical sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Safarpour, Hossein",
+        "short_name": "Safarpour H",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular & Molecular Research Center, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Asian Pacific journal of cancer prevention : APJCP"
+    ],
+    "journal_abbrev": [
+      "Asian Pac J Cancer Prev"
+    ],
+    "pub_date": "2022 Feb 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/01 06:00",
+    "fetched_at": "2026-09-28 05:51:03"
+  },
+  "links": {
+    "cites": [
+      "42475371",
+      "41220734",
+      "39944327",
+      "39636180",
+      "39392257",
+      "39071813",
+      "38467737",
+      "38375821",
+      "38283191",
+      "36672162"
+    ],
+    "refs": [
+      "34661385",
+      "34239017",
+      "34222004",
+      "33975684",
+      "33828156",
+      "33780170",
+      "33664460",
+      "33463119",
+      "33441952",
+      "33193668",
+      "32915770",
+      "32605588",
+      "32457453",
+      "32444850",
+      "32135645",
+      "32117452",
+      "30645970",
+      "30530050",
+      "29515038",
+      "29435418",
+      "28782576",
+      "28407145",
+      "26867769",
+      "19114008",
+      "18669619",
+      "17306971",
+      "17064770",
+      "11238923"
+    ],
+    "similar": [
+      "35225482",
+      "30975489",
+      "37359529",
+      "33437215",
+      "34968391",
+      "33780362",
+      "32590738",
+      "30323620",
+      "31822116",
+      "32959187",
+      "32036224",
+      "33582701",
+      "31987036",
+      "31949544",
+      "32135645",
+      "34261404",
+      "34686186",
+      "36576616",
+      "29921304",
+      "35485356",
+      "33501609",
+      "32180586",
+      "32219571",
+      "32485038",
+      "31135068",
+      "31758680",
+      "34182903",
+      "34476011",
+      "31747387",
+      "30825595",
+      "35128826",
+      "33099311",
+      "35111402",
+      "33282955",
+      "34840971",
+      "34435051",
+      "33470887",
+      "30266498",
+      "34856750",
+      "32596300",
+      "31233342",
+      "32455133",
+      "33451334",
+      "34749208",
+      "34852788",
+      "34338150",
+      "31894266",
+      "31934786",
+      "38325291",
+      "30805585",
+      "25982683",
+      "32598174",
+      "34949204",
+      "35069594",
+      "33754626",
+      "36090322",
+      "33495829",
+      "31562292",
+      "32742331",
+      "34257537",
+      "35278479",
+      "32598242",
+      "32578582",
+      "36735714",
+      "33240582",
+      "35123417",
+      "31612481",
+      "32444534",
+      "34215202",
+      "32323816",
+      "32626989",
+      "32853947",
+      "33767726",
+      "34167437",
+      "33470885",
+      "35016690",
+      "33102593",
+      "31059139",
+      "33446695",
+      "28432618",
+      "33519905",
+      "35799780",
+      "33640831",
+      "32902196",
+      "32219041",
+      "28669080",
+      "29845250",
+      "35570548",
+      "34591389",
+      "34338989",
+      "32627011",
+      "34266404",
+      "35620387",
+      "31950035",
+      "35403252",
+      "33564675",
+      "35154512",
+      "35571562",
+      "36984548",
+      "36996495",
+      "36505315",
+      "32558489",
+      "36092962",
+      "32595417",
+      "37022096",
+      "35813617",
+      "37970111",
+      "36863706",
+      "37653798",
+      "36510452",
+      "36523311",
+      "38702677",
+      "38817876",
+      "33881965",
+      "35874515",
+      "36034995",
+      "31481902",
+      "37482618",
+      "35318719",
+      "39138291",
+      "33052139",
+      "36569220",
+      "35845513",
+      "37000492",
+      "37548115",
+      "38477438",
+      "37689006",
+      "36553500",
+      "37164163",
+      "37594635",
+      "30123134",
+      "34232888",
+      "35923697",
+      "36814477"
+    ],
+    "review": [
+      "35225482"
+    ],
+    "pmc": [
+      "9272619"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35225482/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35225482",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://journal.waocp.org/?sid=Entrez:PubMed&id=pmid:35225482&key=2022.23.2.683",
+        "provider": "Asian Pacific Organization for Cancer Prevention",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

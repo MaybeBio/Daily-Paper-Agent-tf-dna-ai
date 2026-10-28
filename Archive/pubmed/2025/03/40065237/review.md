@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, implementation, results, discussion, conclusion, availability)
+- **Assessment boundary** Scientific validity, technical soundness, methodological clarity, benchmarking rigor, and claims as supported by the provided text. No code execution, no supplementary file inspection, no web server testing.
+- **Shared manuscript claim summary** The authors present SNPeBoT, a CNN-based tool that predicts whether a SNP causes gain, loss, or no change in transcription factor binding. The model is trained on ChIP-seq-derived allele-specific binding (ASB) data from ADASTRA, paired with PBM-derived E-score profiles from CISBP for matched TF DNA-binding domains. The authors claim improved accuracy and ASB recall over MotifbreakR and atSNP, and demonstrate generalizability on eY1H and AlleleDB data.
+- **Visible evidence base** Main text only: Figures 1-6, Table 1, and descriptions of data processing, model architecture, benchmarking, and post-hoc filtering. Supplementary materials referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (e.g., S. Figure 7, full family-level results, AlleleDB test details), code repository contents, exact hyperparameter values, full confusion matrices, and details of the eY1H dataset processing. These omissions limit independent verification of several claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics: predicting the functional impact of SNPs on TF binding. The use of PBM E-score profiles as input features is a reasonable and potentially informative choice, and the authors have made the tool accessible via both web server and standalone package. However, the manuscript has several technical weaknesses that need to be addressed before the core claims are fully established. The benchmarking methodology has ambiguities, the post-hoc filter's contribution is not rigorously isolated, and the generalizability claims rest on limited evidence. The writing is generally clear but some methodological details are underspecified.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, variant interpretation, and GWAS follow-up studies would be interested. The tool offers a user-friendly interface for prioritizing non-coding SNPs that may affect TF binding, which is directly relevant to disease variant discovery. The comparative benchmarking against existing tools is also of interest to method developers in this space.
+- **Major strengths** (1) The problem is clinically and biologically relevant. (2) The use of PBM E-score profiles as features is a novel and biologically grounded approach compared to purely sequence-based methods. (3) The tool is made available in two forms (web server and standalone), lowering the barrier for adoption. (4) The benchmarking includes multiple established tools and multiple thresholds, which is a thorough approach. (5) The authors explicitly test generalization to unseen SNPs, unseen TFs, and an independent dataset (AlleleDB).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves 81% accuracy and 62% ASB recall on holdout testing, and 80%/61% on unseen SNPs, and 83% accuracy on unseen TFs.
+  - **Evidence pointer** Results and discussion, first paragraph; Figure 4; Table 1
+  - **Concern** The reported performance metrics are presented without confidence intervals or statistical significance testing. The differences between SNPeBoT and the baseline tools (MotifbreakR, atSNP) are not quantified with error bars or p-values. Given the class imbalance in the test set (e.g., 5438 no-change vs 1140 gain and 1822 loss), accuracy alone can be misleading. The authors do not report precision, recall, or F1-score per class, nor do they report the confusion matrix in the main text. The claim of "increased accuracy and ASB recall" is therefore not rigorously supported.
+  - **Why it matters** Without uncertainty quantification and per-class metrics, the reader cannot assess whether the observed improvements are statistically meaningful or practically significant. This is critical for a tool intended for downstream variant prioritization.
+  - **Resolution test** Provide confidence intervals (e.g., bootstrap) for all reported metrics, report per-class precision/recall/F1, and include a statistical test (e.g., McNemar's test) comparing SNPeBoT to each baseline at matched thresholds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The post-hoc filter improves performance, with the highest accuracy implementation at 85% accuracy and 55% ASB recall.
+  - **Evidence pointer** Results and discussion, first paragraph; Figure 4
+  - **Concern** The contribution of the post-hoc filter is not isolated. The authors state that the filter improves performance, but they do not show a direct comparison of the CNN alone vs. CNN+filter at the same operating point. The filter labels SNPs without significant FIMO hits as "no-change," which trivially increases accuracy if the test set is dominated by no-change cases. The authors do not report how many predictions were reclassified by the filter, nor do they analyze the trade-off between accuracy and recall introduced by the filter.
+  - **Why it matters** The post-hoc filter is a key component of the final tool. Without a clear ablation study, the reader cannot determine whether the CNN or the filter is responsible for the reported performance. This also affects the interpretability of the model's predictions.
+  - **Resolution test** Provide an ablation analysis: report performance of the CNN alone, the filter alone, and the combined system on the same test set. Report the number of reclassified predictions and the impact on per-class metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The model was trained on 18,211 data points, with a train/validation/test split of 8,877/934/8,400.
+  - **Evidence pointer** Model architecture and training data, Data section; Figure 2
+  - **Concern** The data splitting procedure is not fully described. The authors state that the dataset was split by selecting 70% of the smallest class (gain) and matching these with data from the remaining classes. It is unclear whether the split was done at the SNP level or the TF level. If the same SNP appears in multiple TFs, or if the same TF appears in both train and test, there is a risk of data leakage. The authors mention that "SNPs were allowed even when they occurred in the training data set if the TF applied was unique," but this is only for the test set. The train/validation split procedure is not described.
+  - **Why it matters** Data leakage can inflate performance estimates. The described split procedure is unusual and needs clarification to ensure the reported metrics are unbiased.
+  - **Resolution test** Clearly describe the splitting procedure, including whether it was stratified by TF or SNP, and whether any filtering was applied to prevent overlapping TF-SNP pairs between train and test. Provide a diagram or pseudocode of the split.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** SNPeBoT achieved 70% accuracy and 56% ASB recall on eY1H data, and 88% accuracy when considering only predicted ASB cases.
+  - **Evidence pointer** Results and discussion, Generalizability section
+  - **Concern** The eY1H dataset is described as "novel data type," but the details of this dataset are not provided. The number of SNPs, the TFs involved, and the definition of ground truth (gain/loss/no-change) are not specified. The authors note a large number of false negatives, which they attribute to training on ChIP-seq data, but this hypothesis is not tested. The AlleleDB test is only mentioned in the supplementary, which is not available for review.
+  - **Why it matters** Generalizability is a key claim of the manuscript. Without details on the external datasets, the reader cannot assess whether the reported performance is meaningful or an artifact of dataset construction.
+  - **Resolution test** Provide full details of the eY1H and AlleleDB datasets, including sample sizes, TF composition, and ground truth definitions. Report per-class metrics for these datasets and discuss the false negative pattern in more depth.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Input/output section, Web server
+  - **Evidence pointer** Implementation, Web server
+  - **Issue** The description of the web server input formats is clear, but the limit of 15 SNPs for sequence format and 1 for RSID format is not justified. The rationale for these limits is not provided.
+  - **Required correction** Add a sentence explaining the computational or practical reasons for these limits.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model architecture and training data, CNN model
+  - **Evidence pointer** Implementation, CNN model
+  - **Issue** The hyperparameter tuning is described as using "keras tuner" with "validation accuracy" as the objective, but the search space and the final selected hyperparameters are not reported.
+  - **Required correction** Provide the final hyperparameter values (e.g., number of filters, kernel sizes, learning rate, batch size, number of epochs) in the main text or a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Benchmarking
+  - **Evidence pointer** Benchmarking section
+  - **Issue** The conversion of MotifbreakR and atSNP outputs to a binary format for ROC curve generation is described, but the details of this conversion are vague. The authors state that "no-change classifications for atSNP and motifbreakR were any cases that did not return significant predictions," which is a reasonable approach, but the exact threshold for significance is not stated.
+  - **Required correction** Specify the significance thresholds used for both tools and describe how the binary probabilities were derived.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results and discussion, Benchmarking results
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 is difficult to interpret. The row and column labels are clear, but the numbers are not normalized, making it hard to compare across tools with different total counts.
+  - **Required correction** Consider presenting normalized confusion matrices (percentages) or adding a summary row/column with totals.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Data processing
+  - **Evidence pointer** Implementation, Data processing
+  - **Issue** The description of how E-scores are derived for each SNP is somewhat confusing. The text states that "for every 8-mer that includes the SNP we can derive an E-score," but the exact window size and how the 16 E-scores are obtained (8 for reference, 8 for alternate?) is not clear.
+  - **Required correction** Clarify the exact procedure for extracting the 16 E-scores and how they are arranged into the 8x4 matrix.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical rigor in benchmarking), R1-M2 (ablation of post-hoc filter), R1-M3 (data split ambiguity). These are the primary issues that prevent the core claims from being fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The use of PBM E-score profiles as input features for a CNN is a novel contribution, but the overall approach (deep learning for SNP effect prediction) is not entirely new. The originality lies in the feature representation rather than the model architecture.
+  - **Scientific importance** High. The problem of non-coding variant interpretation is of significant importance to human genetics. A tool that improves ASB prediction could have practical utility in variant prioritization.
+  - **Interdisciplinary readership** Moderate. The manuscript will appeal to computational biologists, bioinformaticians, and geneticists. The writing is accessible, but the methodological details may be less accessible to experimental biologists without computational background.
+  - **Technical soundness** Currently insufficient. The benchmarking lacks statistical rigor, the post-hoc filter's contribution is not isolated, and the data split is ambiguous. These issues need to be resolved.
+  - **Readability for nonspecialists** Good. The background and conclusion are clearly written. The methods section is dense but understandable with effort. The figures are helpful, though Figure 2 could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the tool is potentially useful, but the current evidence does not fully support the claims of improved performance. The authors should address the statistical rigor, ablation, and data split issues before the manuscript is ready for publication.
+
+## Risk / unsupported claims
+- The claim of "increased accuracy and ASB recall" compared to MotifbreakR and atSNP is not statistically supported (no confidence intervals, no significance tests).
+- The claim that the post-hoc filter improves performance is not supported by an ablation study.
+- The generalizability claim based on eY1H data is weakened by the lack of dataset details and the acknowledged high false negative rate.
+- The claim that the model "generalizes quite well" to unseen TFs is based on a single accuracy number (83%) without per-class breakdown or uncertainty quantification.
+- The statement that SNPeBoT "opens the door to further development" is speculative and not a claim that can be evaluated from the data.

@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41265260",
+    "doi": "10.1016/j.phymed.2025.157548",
+    "title": "Tanshinone IIA attenuates cerebral-ischemia-reperfusion-induced neuroinflammation by inhibiting the TLR4/NF-kappaB signaling cascade: A study integrating network pharmacology, bioinformatics, and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Tanshinone IIA is the primary compound of Salvia miltiorrhiza, has neuroprotective and antioxidant properties. However, its anti-inflammatory role in cerebral ischemia-reperfusion injury is not well understood. PURPOSE: To determine whether Tanshinone IIA alleviates inflammation in CIRI via the TLR4/NF-kappaB signaling pathway. METHODS: Bioinformatics and network pharmacology analysis revealedCIRI-related targets of Tanshinone IIA. Furthermore, CytoHubba was employed to assess the Protein-protein interaction networks and hub targets. Moreover, molecular docking and 100 ns molecular dynamics simulations assessed Tanshinone IIA binding to core proteins. For in vivo, an MCAO/R rat model, and in vitro, OGD/R-injured HUVECs were used to evaluate neurological function, infarct size, histopathology (TTC, HE, TUNEL), cytokine levels (ELISA), and molecular markers (RT-qPCR, Western blot). RESULTS: The data revealed 10 hub targets including TLR4 and NFKB1, which were enriched in inflammatory pathways such as the \"Toll-like receptor signaling pathway\" and \"NF-kappaB signaling pathway\". Furthermore, it was observed that Tanshinone IIA stably interacted with TLR4/NFKB1 (binding energy < -5 kcal/mol) and maintained structural stability in MD simulations. In vivo, Tanshinone IIA improved neurological outcomes, reduced infarct volume, and suppressed IL-1beta, IL-6, and TNF-alpha expression, while also downregulating TLR4 and MyD88 expression, inhibiting NF-kappaB p65 phosphorylation, and preventing IkappaB degradation (p < 0.05). In vitro, it attenuated OGD/R-induced apoptosis and TLR4/NF-kappaB activation by reducing TLR4 and MyD88 expression, suppressing NF-kappaB p65 phosphorylation, and stabilizing IkappaB (p < 0.05). CONCLUSION: This study revealed that Tanshinone IIA exert anti-inflammatory and neuroprotective effects in cerebral ischemia-reperfusion injury by targeting the TLR4/NF-kappaB pathway, supporting its therapeutic potential.",
+    "keywords": [
+      "Cerebral ischemia reperfusion injury",
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Network pharmacology",
+      "TLR4/NF-kappaB signaling pathway",
+      "Tanshinone IIA"
+    ],
+    "mesh_terms": [
+      "*Abietanes/pharmacology",
+      "*Toll-Like Receptor 4/metabolism",
+      "Animals",
+      "Signal Transduction/drug effects",
+      "*Reperfusion Injury/drug therapy",
+      "*NF-kappa B/metabolism",
+      "Male",
+      "Network Pharmacology",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "Molecular Docking Simulation",
+      "Humans",
+      "Computational Biology",
+      "Neuroprotective Agents/pharmacology",
+      "*Brain Ischemia/drug therapy",
+      "*Neuroinflammatory Diseases/drug therapy",
+      "Human Umbilical Vein Endothelial Cells",
+      "Anti-Inflammatory Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Chenxi",
+        "Yu, Zhexuan",
+        "Chen, Tianxue",
+        "Chen, Qianqian",
+        "Zhang, Yangyang",
+        "Cai, Jiawei",
+        "Xu, Cenglin",
+        "Yu, Li"
+      ],
+      "short_names": [
+        "Zhou C",
+        "Yu Z",
+        "Chen T",
+        "Chen Q",
+        "Zhang Y",
+        "Cai J",
+        "Xu C",
+        "Yu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou 310006, China. Electronic address: zhouchenxi@zcmu.edu.cn.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: 15888922618@163.com.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: chentx28@163.com.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: cqq2846428966@126.com.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: zyy950909@126.com.",
+        "School of Public Health, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China. Electronic address: cai_jiawei2024@126.com.",
+        "Zhejiang Collaborative Innovation Center for the Brain Diseases with Integrative Medicine, Zhejiang Key Laboratory of Neuropsychopharmacology, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China. Electronic address: xucenglin5zz@zju.edu.cn.",
+        "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou 310006, China; School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: yuli9119@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Chenxi",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou 310006, China. Electronic address: zhouchenxi@zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhexuan",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: 15888922618@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Tianxue",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: chentx28@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Qianqian",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: cqq2846428966@126.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yangyang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: zyy950909@126.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Jiawei",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China. Electronic address: cai_jiawei2024@126.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Cenglin",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Collaborative Innovation Center for the Brain Diseases with Integrative Medicine, Zhejiang Key Laboratory of Neuropsychopharmacology, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China. Electronic address: xucenglin5zz@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yu, Li",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Hangzhou 310006, China; School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, Zhejiang Province, 310053, China; Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, Zhejiang Province, 310053, China. Electronic address: yuli9119@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/21 00:27",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42368404",
+      "42325927",
+      "42262678",
+      "42198428",
+      "42148273",
+      "42105002",
+      "42072613",
+      "42064800",
+      "41980519",
+      "41900914",
+      "41861631",
+      "41857240",
+      "41823534",
+      "41807879",
+      "41727553",
+      "41724772",
+      "41663815",
+      "41660119",
+      "41595754"
+    ],
+    "refs": [],
+    "similar": [
+      "41265260",
+      "40992457",
+      "38493721",
+      "39580135",
+      "38184025",
+      "40924979",
+      "31678414",
+      "40398794",
+      "33390110",
+      "40614585",
+      "38669967",
+      "41005470",
+      "34196587",
+      "38527567",
+      "31912804",
+      "38549714",
+      "33536742",
+      "37766966",
+      "28119924",
+      "38697555",
+      "40461201",
+      "36087844",
+      "33628116",
+      "38114218",
+      "32410871",
+      "40542887",
+      "39847949",
+      "32860868",
+      "29524303",
+      "40876124",
+      "33985878",
+      "33383282",
+      "41198056",
+      "26639663",
+      "29198964",
+      "33054814",
+      "39207074",
+      "37094696",
+      "31440938",
+      "30485844",
+      "39146784",
+      "39245241",
+      "37132060",
+      "28624894",
+      "40915437",
+      "27590301",
+      "33186709",
+      "33834937",
+      "38588987",
+      "35964408",
+      "33007731",
+      "27286958",
+      "34358627",
+      "37904689",
+      "37230196",
+      "34988203",
+      "38910274",
+      "26607471",
+      "27064547",
+      "40907985",
+      "28753906",
+      "29630125",
+      "41169176",
+      "38493723",
+      "38057100",
+      "30570395",
+      "38996953",
+      "28320107",
+      "40449697",
+      "40378509",
+      "40905779",
+      "27167824",
+      "38542434",
+      "38552431",
+      "37528661",
+      "38850784",
+      "31887543",
+      "32212827",
+      "39357688",
+      "39218334",
+      "38284293",
+      "40176744",
+      "41265218",
+      "37812891",
+      "27468961",
+      "32657248",
+      "30292407",
+      "31526384",
+      "32007631",
+      "22768247",
+      "32729095",
+      "41311552",
+      "31373750",
+      "24099731",
+      "39006190",
+      "24157079",
+      "40449268",
+      "39677283",
+      "38972239",
+      "33953677"
+    ],
+    "review": [
+      "41265260",
+      "37230196"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01184-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

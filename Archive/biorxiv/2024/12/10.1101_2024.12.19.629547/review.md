@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, results, discussion, conclusions, methods, data/code availability statements)
+- **Assessment boundary** Scientific and technical evaluation of the method, validation analyses, and claims as presented in the provided manuscript text. No evaluation of supplementary figures or tables beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors present LEPAE, a neural network-based method that scores pairwise associations between genomic loci using epigenomic and TF binding data. They claim the score captures biologically meaningful relationships, validated through gene annotations, chromatin states, TADs, and fine-mapped GWAS variants.
+- **Visible evidence base** Results sections describing predictive performance (AUROC), correlation with distance, gene boundary analyses, chromatin state pair analyses, TAD comparisons, and fine-mapping analyses. Methods sections describing data sources, model architecture, training procedures, and validation approaches.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Supplementary Figs. 1-7, Supplementary Table 1) were not provided. Actual data values, effect sizes, and confidence intervals for key comparisons are not reported in the text. Figure contents are described but not visible.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational resource for scoring pairwise genomic associations. The core idea of adapting the LECIF framework to within-species pairwise association scoring is reasonable and the scale of application (thousands of datasets, hundreds of millions of pairs) is substantial. However, the validation strategy has significant weaknesses. The primary validation relies on comparisons to annotations (genes, chromatin states, TADs) that are either partially derived from the same input data or expected to correlate with the input features by construction. The comparison to Hi-C is underpowered by the authors' own admission of low correlation. The fine-mapping analysis, while conceptually strong, is presented with insufficient statistical detail to assess significance. The manuscript would benefit from clearer demonstration that LEPAE captures information beyond what simpler correlation-based methods could provide, particularly given the moderate Jaccard index correlations reported.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, enhancer-promoter interactions, and regulatory genomics would find the LEPAE resource potentially useful. The score could complement existing Hi-C based approaches by providing an epigenomic-data-driven measure of pairwise association. Computational biologists developing methods for genomic feature integration would also be interested in the methodological adaptation of the LECIF framework.
+- **Major strengths** 1) The scale of the resource is substantial, with scores for over 300 million pairs at 1-kb resolution. 2) The Siamese network architecture is appropriate for the pairwise symmetric prediction task. 3) The ensemble approach across adjacent distances is a sensible variance reduction strategy. 4) The validation using multiple independent annotation types is a reasonable first step. 5) The method is presented as a resource, which is appropriate given the exploratory nature of the analyses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** "We present evidence using additional data that LEPAE captures biologically meaningful pairwise relationships between genomic loci"
+  - **Evidence pointer** Results sections on gene annotations, chromatin states, TADs, and fine-mapped variants
+  - **Concern** The validation analyses do not adequately demonstrate that LEPAE captures associations beyond what could be obtained from simpler methods. The comparison to Jaccard index shows only moderate correlation (PCC 0.16-0.39), yet the manuscript does not provide a clear demonstration of what additional information LEPAE provides. The gene boundary analysis compares LEPAE to Hi-C and Jaccard index, but the actual effect sizes are not reported. The chromatin state analysis shows expected patterns (same-state pairs score high, quiescent-transcription pairs score low), but these patterns may reflect the input features rather than learned associations. The TAD analysis shows modest agreement (93/100 distances significant), but the magnitude of the effect is not quantified. The fine-mapping analysis is the most compelling, but the statistical framework is not described in sufficient detail.
+  - **Why it matters** The central claim of the manuscript is that LEPAE provides a useful resource for studying pairwise genomic associations. Without a clear demonstration that LEPAE adds value beyond existing correlation-based approaches or provides information complementary to Hi-C, the utility of the resource is not established.
+  - **Resolution test** Provide quantitative comparisons showing LEPAE outperforms or complements existing approaches. For example, report effect sizes for the gene boundary and TAD analyses. For the fine-mapping analysis, provide a statistical test comparing LEPAE performance to Jaccard index and Hi-C, with appropriate multiple testing correction. Consider a direct comparison to a correlation-based baseline using the same input features.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "73 to 78 traits had a higher LEPAE score for the original pairs compared to the control pairs" and "p <10^-7"
+  - **Evidence pointer** Fine-mapping analysis section
+  - **Concern** The statistical analysis of the fine-mapping results is inadequately described. The p-value of p <10^-7 is stated but the test used to derive it is not specified. It is unclear whether this is a binomial test across traits, a permutation test, or some other procedure. The comparison to "47 expected by chance" suggests a binomial test, but the details are not provided. Additionally, the analysis does not account for potential confounding factors such as LD structure or genomic distance, which could affect both LEPAE scores and the probability of co-localization of fine-mapped variants.
+  - **Why it matters** The fine-mapping analysis is potentially the strongest validation of LEPAE's biological utility. Without proper statistical description, the significance of these results cannot be evaluated.
+  - **Resolution test** Clearly describe the statistical test used, including the null hypothesis, test statistic, and how the expected number under the null was calculated. Consider additional analyses to control for LD and distance. Report confidence intervals for the proportion of traits showing higher LEPAE scores.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological novelty
+  - **Claim pointer** "LEPAE's approach is an adaption of the 'Learning Evidence of Conservation from Integrated Functional genomics data' (LECIF) method"
+  - **Evidence pointer** Background section, Overview of LEPAE
+  - **Concern** The manuscript does not clearly articulate what novel methodological contributions LEPAE makes beyond the direct adaptation of LECIF from cross-species conservation to within-species pairwise association. The Siamese architecture and training procedure appear to be carried over directly. The key difference seems to be the training data construction (pairs at fixed distances vs. orthologous regions), but the implications of this change for what the model learns are not discussed in depth.
+  - **Why it matters** For a methods-focused manuscript, the novelty of the approach needs to be clearly established. If LEPAE is primarily an application of an existing method to a new problem, the manuscript should frame it as such and focus on the resource value rather than methodological novelty.
+  - **Resolution test** Provide a more detailed comparison of LEPAE to LECIF, highlighting specific architectural or training modifications and their rationale. Discuss what types of associations LEPAE might capture that LECIF would not, given the different training data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability
+  - **Claim pointer** "LEPAE scores to be a complementary resource to existing genomic annotations and datasets for understanding relationships among genomic loci"
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not provide sufficient interpretation of what the LEPAE score actually represents biologically. The score is described as "evidence of association," but the nature of this association is not characterized. Does a high score indicate physical interaction, co-regulation, shared regulatory elements, or something else? The low correlation with Hi-C suggests it is not primarily capturing physical interactions, but the alternative interpretations are not explored.
+  - **Why it matters** For the score to be useful as a resource, users need to understand what it measures. Without biological interpretation, the score is a black box that may be misused or misinterpreted.
+  - **Resolution test** Provide additional analyses to characterize what LEPAE captures. For example, examine whether high-scoring pairs are enriched for specific functional categories, correlate with expression QTLs, or show cell-type-specific patterns. Discuss the biological implications of the low Hi-C correlation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Defining genomic windows
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript states that all autosomal chromosomes and chrX were binned, but it is unclear whether chrX was included in training, validation, and test sets or only for prediction. The text later states "chrX was excluded from training, validation, and test, but included for prediction and downstream analyses," which is clear, but the initial description could be more explicit.
+  - **Required correction** Clarify in the "Defining genomic windows" section that chrX is included in the binning but excluded from training, validation, and test sets.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Classifier
+  - **Evidence pointer** Methods section
+  - **Issue** The hyperparameter search is described as random search with 10 random combinations, but the specific ranges for each hyperparameter are not provided. This limits reproducibility.
+  - **Required correction** Provide the ranges for each hyperparameter in the random search, or reference a configuration file in the code repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Predictive performance
+  - **Evidence pointer** Results section
+  - **Issue** AUROC values are reported as means, but variability across chromosomes or distance bins is not reported. Given that the model is trained on some chromosomes and tested on others, reporting the range or standard deviation would be informative.
+  - **Required correction** Report the range or standard deviation of AUROC values across test chromosomes or provide a supplementary figure showing the distribution.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Chromatin state analysis
+  - **Evidence pointer** Results section
+  - **Issue** The chromatin state analysis is described for 1-kb resolution but the 10-kb resolution results are only mentioned in a supplementary figure. Given that the 10-kb model covers larger distances, it would be informative to include at least a brief description of the 10-kb results in the main text.
+  - **Required correction** Add a brief description of the 10-kb chromatin state analysis results in the main text or clarify why they are omitted.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Resource description
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement mentions that LEPAE scores are available in a GitHub repository, but does not specify the format, size, or how to access specific subsets of the data.
+  - **Required correction** Provide additional details about the data format and access, such as file naming conventions, coordinate system, and any associated metadata files.
+- **Technical failings that need to be addressed before the case is established** 1) The statistical framework for the fine-mapping analysis is not described (R1-M2). 2) The validation analyses lack quantitative effect sizes and confidence intervals (R1-M1). 3) The manuscript does not demonstrate that LEPAE provides information beyond simpler baselines (R1-M1). 4) The biological interpretation of the score is not established (R1-M4).
+- **Assessment against Nature-style criteria** Originality: Moderate. The adaptation of LECIF to within-species pairwise association is incremental, though the scale of application is notable. Scientific importance: Moderate. The resource could be useful, but the validation does not yet establish clear biological utility. Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational genomics researchers. Technical soundness: Adequate in implementation but insufficient in validation statistics. Readability for nonspecialists: The manuscript is generally clear but assumes familiarity with epigenomic data types and neural network architectures.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful resource, but the validation strategy needs substantial strengthening to support the claims of biological meaningfulness. The authors should address the statistical rigor of the fine-mapping analysis, provide quantitative comparisons to baselines, and offer clearer biological interpretation of the score.
+
+## Risk / unsupported claims
+- The claim that LEPAE "captures biologically meaningful pairwise relationships" is not fully supported by the presented validation, which lacks quantitative effect sizes and appropriate statistical comparisons.
+- The claim that LEPAE scores are "largely distinct from 1D genomic distance" is based on modest correlations (PCC -0.18 to -0.26) that are not contextualized against what would be expected for a useful resource.
+- The claim that LEPAE "better highlighted pairs of the same state, states from the same state group, and states associated with active promoters, transcription, or enhancers" compared to Hi-C and Jaccard index is not quantified in the text.
+- The statement that "73 to 78 traits had a higher LEPAE score" is presented without the statistical framework needed to assess its significance.
+- The expectation that "LEPAE scores to be a resource" is reasonable but the utility of the resource is not yet demonstrated.

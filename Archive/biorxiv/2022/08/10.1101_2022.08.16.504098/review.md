@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose TFscope, a machine learning approach that identifies DNA features (core motif, nucleotide environment, co-factor motifs) explaining binding differences between two ChIP-seq experiments, either for the same TF across cell types or treatments, or for paralogous TFs. They report application to over 350 pairs, claim accuracy, and observe that distinguishing features vary by TF and condition, with co-factors and nucleotide environment dominating for cell type or treatment differences, and core motif differences dominating for paralogous TFs.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, validation details, or dataset descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, source code repository contents, and any statistical or benchmarking details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful framework for a biologically and clinically relevant problem, namely explaining context-dependent TF binding. The scope of application to over 350 pairs is commendable. However, the abstract lacks quantitative evidence, methodological detail, and validation specifics. The central claims of accuracy and the observed feature dominance patterns are not assessable from the provided material. The work may be of interest to computational biologists and experimentalists studying gene regulation, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists developing methods for regulatory genomics, experimentalists studying TF binding specificity across cell types or paralog families, and researchers interested in the mechanistic basis of cell-specific gene expression. The approach could inform ChIP-seq analysis workflows and hypothesis generation for follow-up experiments.
+- **Major strengths** The problem addressed is important and timely, as standard motif models often fail to explain context-dependent binding. The systematic consideration of three feature categories (core motif, nucleotide environment, co-factor motifs) is a reasonable and comprehensive framework. The large-scale application to over 350 pairs suggests potential generalizability, and the public availability of code and data is a positive feature for reproducibility.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "the approach is accurate" and that TFscope "provides the main DNA features that have been detected, and the contribution of each of these features to explain the binding differences."  
+  - **Evidence pointer** Abstract only; no performance metrics, benchmarking, or validation results are provided  
+  - **Concern** No quantitative evidence is presented to support the accuracy claim. There is no mention of how accuracy was measured, what baseline or alternative methods were compared, or what the error rates or confidence intervals are.  
+  - **Why it matters** Without a defined accuracy metric and comparison to existing approaches, the reader cannot judge whether TFscope offers any advantage over current methods or whether the reported feature attributions are reliable.  
+  - **Resolution test** Provide in the full manuscript a clear definition of accuracy (e.g., area under the ROC curve, precision-recall, or classification accuracy on held-out data), benchmark against at least one established method, and report confidence intervals or statistical significance for the performance comparison.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that "for TFs in different cell types or with different treatments, co-factors and nucleotide environment often explain most of the binding-site differences, while for paralogous TFs, subtle differences in the core motif seem to be the main reason for the observed differences in our experiments."  
+  - **Evidence pointer** Abstract only; no data, figures, or statistical tests are provided  
+  - **Concern** This is a central biological finding, but it is presented without any supporting statistics, effect sizes, or examples. The phrase "seem to be" indicates uncertainty, yet no confidence measures are given.  
+  - **Why it matters** The claim has broad implications for understanding TF binding mechanisms, but if not rigorously supported, it could mislead subsequent research. The distinction between cell type and paralog scenarios is a key contribution, but it must be backed by quantitative evidence.  
+  - **Resolution test** In the full manuscript, provide statistical summaries (e.g., proportion of pairs where each feature category dominates, with confidence intervals) and at least one detailed example per scenario, including the specific features identified and their contribution scores.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that TFscope "systematically investigates differences in i) core motif, ii) nucleotide environment around the binding site and iii) presence and location of co-factor motifs."  
+  - **Evidence pointer** Abstract only; no methodological details are provided  
+  - **Concern** The abstract does not describe how these three feature categories are defined, extracted, or integrated into the machine learning model. There is no mention of the model architecture, training procedure, feature encoding, or how the contribution of each feature is computed.  
+  - **Why it matters** Reproducibility and assessment of methodological soundness are impossible without these details. The novelty of the approach cannot be evaluated.  
+  - **Resolution test** In the full manuscript, provide a detailed methods section describing the feature definitions, model architecture, training and validation procedures, and the method for computing feature contributions (e.g., SHAP values, permutation importance, or similar).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "TFscope has been applied to more than 350 pairs of ChIP-seq."  
+  - **Evidence pointer** Abstract only; no dataset description is provided  
+  - **Concern** The nature of these 350 pairs is unspecified. It is unclear how many are same-TF-different-condition versus paralogous TF pairs, what cell types or treatments are covered, and whether the data are publicly available or newly generated.  
+  - **Why it matters** The generalizability of the findings depends on the diversity and representativeness of the dataset. Without this information, the reader cannot assess potential biases or limitations.  
+  - **Resolution test** In the full manuscript, provide a table listing all ChIP-seq datasets used, their sources, the number of pairs per category, and the criteria for inclusion or exclusion.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract uses terms like "core motif" and "co-factor motifs" without brief definitions, which may hinder accessibility for readers outside the immediate field.  
+  - **Required correction** Add a brief parenthetical definition for these terms in the abstract or ensure the full manuscript introduces them clearly in the introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not mention the potential biological or clinical implications of the findings, which could broaden interest beyond computational biology.  
+  - **Required correction** Add one sentence in the abstract or discussion noting how the identified features could inform understanding of disease-associated TF binding or guide experimental validation.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The phrase "several samples are presented and discussed" is vague and does not indicate the depth or representativeness of these examples.  
+  - **Required correction** Specify in the abstract or full manuscript how many examples are shown and whether they are representative or selected for illustrative purposes.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative performance metrics, statistical support for the main biological claim, methodological detail, and dataset description collectively prevent the case from being established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a novel integration of three feature categories into a single framework, which is potentially original. However, without methodological detail, the degree of novelty relative to existing tools cannot be assessed.  
+  - **Scientific importance** The problem of context-dependent TF binding is of high importance, and the proposed distinction between cell type and paralog scenarios could be significant if rigorously supported. The current evidence is insufficient to confirm this.  
+  - **Interdisciplinary readership** The topic bridges computational biology, genomics, and molecular biology, and could attract a broad audience. The abstract is accessible but lacks the depth needed to engage specialists.  
+  - **Technical soundness** Not assessable from the abstract. The lack of any quantitative or methodological detail is a major gap.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses field-specific terms without definition. The writing is concise and direct.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework and a potentially important observation, but the absence of quantitative results, methodological detail, and dataset description means the claims cannot be evaluated. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that "the approach is accurate" is unsupported by any quantitative evidence in the abstract.
+- The claim that "co-factors and nucleotide environment often explain most of the binding-site differences" for cell type or treatment scenarios is unsupported by statistical data.
+- The claim that "subtle differences in the core motif seem to be the main reason" for paralogous TF differences is presented with uncertainty and without supporting evidence.
+- The applicability to "more than 350 pairs" is stated but the composition and quality of this dataset are not described, making the generalizability claim unassessable.

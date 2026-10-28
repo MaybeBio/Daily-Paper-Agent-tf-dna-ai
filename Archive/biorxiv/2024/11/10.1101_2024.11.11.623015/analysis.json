@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.11.623015",
+  "title": "A Genomic Language Model for Zero-Shot Prediction of Promoter Variant Effects",
+  "authors": "Shearer CA; Orenbuch R; Teufel F; Steinmetz CJ; Ritter D; Xie E; Gazizov A; Spinner A; Frazer J; Frazer J; Dias M; Dias M; Notin P; Marks DS",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-12",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基因组语言模型LOL-EVE，零样本预测启动子变异（含indel）效应并评估转录因子结合位点破坏，虽聚焦启动子而非TF-DNA复合物建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Disease-associated genetic variants occur extensively in noncoding regions like promoters, but current methods focus primarily on single nucleotide variants (SNVs) that typically have small regulatory effect sizes. Expanding beyond single nucleotide events is essential with insertions and deletions (indels) representing the logical next step as they are readily identifiable in population data and more likely to disrupt regulatory elements. However, existing methods struggle with indel prediction, and clinical interpretation often requires assessing complete promoter haplotypes rather than individual variants. We present LOL-EVE (Language Of Life for Evolutionary Variant Effects), a conditional autoregressive transformer trained on 13.6 million mammalian promoter sequences that enables both zero-shot indel prediction and complete promoter sequence scoring. We introduce three benchmarks for promoter indel prediction: ultra rare variant prioritization, causal eQTL identification, and transcription factor binding site disruption analysis. LOL-EVE’s superior performance demonstrates that evolutionary patterns learned from indels enable accurate assessment of broader promoter function. Application to Genomics England clinical data shows that LOL-EVE can prioritize promoter haplotypes in known developmental disorder genes, suggesting potential utility for clinical variant assessment. LOL-EVE bridges individual variant prediction with haplotype-level analysis, demonstrating how evolution-based genomic language models may assist in evaluating regulatory variants in complex genetic cases.",
+  "abstract_zh": "疾病相关的遗传变异广泛存在于启动子等非编码区域，但当前方法主要聚焦于单核苷酸变异（SNVs），这些变异通常具有较小的调控效应量。超越单核苷酸事件至关重要，插入和缺失（indels）作为逻辑上的下一步，因为它们在群体数据中易于识别，且更可能破坏调控元件。然而，现有方法在indel预测方面存在困难，且临床解读往往需要评估完整的启动子单倍型，而非单个变异。我们提出LOL-EVE（Language Of Life for Evolutionary Variant Effects），一种在1360万个哺乳动物启动子序列上训练的条件自回归变换器，能够实现零样本indel预测和完整启动子序列评分。我们引入了三个用于启动子indel预测的基准：超罕见变异优先级排序、因果eQTL识别和转录因子结合位点破坏分析。LOL-EVE的优越性能表明，从indel中学习到的进化模式能够准确评估更广泛的启动子功能。应用于Genomics England临床数据显示，LOL-EVE能够优先排序已知发育障碍基因中的启动子单倍型，提示其在临床变异评估中的潜在用途。LOL-EVE桥接了单个变异预测与单倍型水平分析，展示了基于进化的基因组语言模型如何在复杂遗传病例中辅助评估调控变异。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.11.623015",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.623015",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.11.623015/index.html"
+}

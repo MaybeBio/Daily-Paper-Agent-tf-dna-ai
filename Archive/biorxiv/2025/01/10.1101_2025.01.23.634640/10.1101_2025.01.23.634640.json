@@ -1,0 +1,532 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.23.634640",
+  "title": "HIV-1 subtype C LTR Sp1IIIT5A mutant enhances transcription activity and Sp1 binding affinity",
+  "doi": "10.1101/2025.01.23.634640",
+  "abstract": "Background Genetic variation within HIV-1 subtype C (HIV-1C) long terminal repeat (LTR) transmitted/founder viruses influences transcription activation and clinical disease outcomes. The role of specific mutations such as thymine-to-adenine (T5A) mutation at position five of the Specificity protein 1 (Sp1) III motif (Sp1IIIT5A) remains underexplored. This study investigates the impact of Sp1IIIT5A on HIV-1C LTR transcription activity and Sp1 binding affinity. Methods The Sp1IIIT5A mutant and consensus HIV-1C LTR sequences were cloned into the pGL3 Luciferase Basic reporter vector, sequenced, and transfected into SVG and Jurkat cell lines, independently. Transcription activity and Sp1 expression were assessed via luciferase assays and Western blot. Structural models of Sp1IIIT5A, consensus LTRs and Sp1 were generated, and docking scores calculated using HDOCK, HADDOCK, and pyDockDNA. Molecular dynamics simulations analyzed stability and interactions of Sp1IIIT5A LTR-Sp1 complexes. Results and Discussion The Sp1III5A mutant significantly increased basal (SVG: p<0.0001; Jurkat: p=0.0052) and Tat-mediated (SVG and Jurkat: p<0.0001) HIV-1C LTR transcription activity in both cell lines, with stronger effects in SVG cells. Sp1 expression levels remained similar across cell lines (p=0.0814). Sp1III5A exhibited higher binding affinity (-332.7, -174.6, and -279.2 kcal/mol) than the canonical sequence (-311.4, -157.0, and -247.3 kcal/mol). Conclusion The Sp1IIIT5A mutation significantly enhances HIV-1C LTR transcription activity and Sp1 binding affinity, indicating its potential tole in modulating HIV-1C transcription and pathogenesis. Further investigation is needed to elucidate its impact on HIV-1C latency. Importance In this study we show that the thymine-to-adenine (T5A) mutation at position five of the Sp1 III motif (Sp1IIIT5A) within the HIV-1 subtype C (HIV-1C) long terminal repeat (LTR) increases viral transcription. This mutation enhances the interaction between HIV-1C and the cellular transcription factor Sp1, promoting the viral strain’s ability to replicate. Our findings provide insight into why certain HIV-1C strains behave differently, potentially leading to heterogenous rates of disease progression. Understanding the Sp1IIIT5A mutation could lead to improved strategies for controlling HIV-1C and developing cure strategies to clear the infection or result in virus remission.",
+  "authors": [
+    "Nomcebo Msthali",
+    "Ibrahim Kehinde",
+    "Rene Khan",
+    "Mahmoud Soliman",
+    "Thumbi Ndung’u",
+    "Paradise Madlala"
+  ],
+  "published_date": "2025-01-24",
+  "updated_date": "2025-01-24T06:55:12Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.23.634640",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.23.634640.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T05:55:04Z",
+        "timestamp": 1775886904576,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            24
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                24
+              ]
+            ],
+            "date-time": "2025-01-24T00:00:00Z",
+            "timestamp": 1737676800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Genetic variation within HIV-1 subtype C (HIV-1C) long terminal repeat (LTR) transmitted/founder viruses influences transcription activation and clinical disease outcomes. The role of specific mutations such as thymine-to-adenine (T5A) mutation at position five of the Specificity protein 1 (Sp1) III motif (Sp1IIIT5A) remains underexplored. This study investigates the impact of Sp1IIIT5A on HIV-1C LTR transcription activity and Sp1 binding affinity.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The Sp1IIIT5A mutant and consensus HIV-1C LTR sequences were cloned into the pGL3 Luciferase Basic reporter vector, sequenced, and transfected into SVG and Jurkat cell lines, independently. Transcription activity and Sp1 expression were assessed via luciferase assays and Western blot. Structural models of Sp1IIIT5A, consensus LTRs and Sp1 were generated, and docking scores calculated using HDOCK, HADDOCK, and pyDockDNA. Molecular dynamics simulations analyzed stability and interactions of Sp1IIIT5A LTR-Sp1 complexes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results and Discussion</jats:title>\n                  <jats:p>The Sp1III5A mutant significantly increased basal (SVG: p&lt;0.0001; Jurkat: p=0.0052) and Tat-mediated (SVG and Jurkat: p&lt;0.0001) HIV-1C LTR transcription activity in both cell lines, with stronger effects in SVG cells. Sp1 expression levels remained similar across cell lines (p=0.0814). Sp1III5A exhibited higher binding affinity (-332.7, -174.6, and -279.2 kcal/mol) than the canonical sequence (-311.4, -157.0, and -247.3 kcal/mol).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The Sp1IIIT5A mutation significantly enhances HIV-1C LTR transcription activity and Sp1 binding affinity, indicating its potential tole in modulating HIV-1C transcription and pathogenesis. Further investigation is needed to elucidate its impact on HIV-1C latency.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>In this study we show that the thymine-to-adenine (T5A) mutation at position five of the Sp1 III motif (Sp1IIIT5A) within the HIV-1 subtype C (HIV-1C) long terminal repeat (LTR) increases viral transcription. This mutation enhances the interaction between HIV-1C and the cellular transcription factor Sp1, promoting the viral strain’s ability to replicate. Our findings provide insight into why certain HIV-1C strains behave differently, potentially leading to heterogenous rates of disease progression. Understanding the Sp1IIIT5A mutation could lead to improved strategies for controlling HIV-1C and developing cure strategies to clear the infection or result in virus remission.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.01.23.634640",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2025-01-24T06:55:12Z",
+        "timestamp": 1737701712000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "HIV-1 subtype C LTR Sp1IIIT5A mutant enhances transcription activity and Sp1 binding affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Nomcebo",
+          "family": "Msthali",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "HIV Pathogenesis Programme, The Doris Duke Medical Research Institute, Nelson R. Mandela School of Medicine, University of KwaZulu-Natal, Durban, South Africa,"
+            },
+            {
+              "name": "School of Laboratory Medicine and Medical Sciences, University of KwaZulu-Natal, Durban, South Africa,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ibrahim",
+          "family": "Kehinde",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular Bio-Computation and Drug Design Lab, School of Health Sciences, University of KwaZulu-Natal, Durban 4000, South Africa,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rene",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Laboratory Medicine and Medical Sciences, University of KwaZulu-Natal, Durban, South Africa,"
+            },
+            {
+              "name": "Discipline of Medical Biochemistry, School of Laboratory Medicine and Medical Science, College of Health Sciences, University of KwaZulu-Natal, Durban, South Africa,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mahmoud",
+          "family": "Soliman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular Bio-Computation and Drug Design Lab, School of Health Sciences, University of KwaZulu-Natal, Durban 4000, South Africa,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2962-3992",
+          "authenticated-orcid": false,
+          "given": "Thumbi",
+          "family": "Ndung’u",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "HIV Pathogenesis Programme, The Doris Duke Medical Research Institute, Nelson R. Mandela School of Medicine, University of KwaZulu-Natal, Durban, South Africa,"
+            },
+            {
+              "name": "School of Laboratory Medicine and Medical Sciences, University of KwaZulu-Natal, Durban, South Africa,"
+            },
+            {
+              "name": "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology, and Harvard University, Cambridge, Massachusetts, United States of America,"
+            },
+            {
+              "name": "Africa Health Research Institute (AHRI), Durban, South Africa,"
+            },
+            {
+              "name": "Division of Infection and Immunity, University College London, London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0641-1452",
+          "authenticated-orcid": false,
+          "given": "Paradise",
+          "family": "Madlala",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "HIV Pathogenesis Programme, The Doris Duke Medical Research Institute, Nelson R. Mandela School of Medicine, University of KwaZulu-Natal, Durban, South Africa,"
+            },
+            {
+              "name": "School of Laboratory Medicine and Medical Sciences, University of KwaZulu-Natal, Durban, South Africa,"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shoko C , Chikobvu D . 2019. A superiority of viral load over CD4 cell count when predicting mortality in HIV patients on therapy. BMC Infectious Diseases 19.",
+          "DOI": "10.1186/s12879-019-3781-1"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.74.8.3740-3751.2000"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.78.7.3675-3683.2004"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v5071633"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/00002030-199204000-00001"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.18.6.3234"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(93)90664-C"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.8",
+          "unstructured": "Verma A. 2015. Functional characterization of a subtype-specific NF-kB motif in HIV-1 subtype C viral promoter and its association with the proximal and subtype-specific Sp1siteJawaharlal Nehru Centre for Advanced Scientific Research."
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.00308-16"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/archdischild-2013-304340"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.11",
+          "first-page": "67",
+          "article-title": "Regulation of HIV-1 transcription",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Gene expression"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.12",
+          "first-page": "217",
+          "article-title": "Sequential steps in Tat trans-activation of HIV-1 mediated through cellular DNA, RNA, and protein binding factors",
+          "volume": "5",
+          "year": "2018",
+          "journal-title": "Gene expression"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/aid.2013.0153"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.397158"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.74.8.3740-3751.2000"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003135"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2010.03.001"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1743-422X-11-92"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jneuroim.2004.08.021"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Giovanetti M , Ciccozzi M , Parolin C , Borsetti A . 2020. Molecular Epidemiology of HIV-1 in African Countries: A Comprehensive Overview. Pathogens 9.",
+          "DOI": "10.3390/pathogens9121072"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1473-3099(18)30647-9"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1011194"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CHOM.2019.05.002"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12977-015-0230-0"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/viro.1997.8586"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep34532"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx407"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2022.988996"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2018.12.010"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/aid.2012.0138"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.11.1044"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1135"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAD1011"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky427"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909042073"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.3290"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.40",
+          "first-page": "262",
+          "article-title": "[An extension strategy of Discovery Studio 2.0 for non-bonded interaction energy automatic calculation at the residue level]",
+          "volume": "32",
+          "year": "2011",
+          "journal-title": "Dongwuxue Yanjiu"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41596-020-0312-X"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-024-01011-0"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang ZW , Lu WC . 2023. AmberMDrun: A Scripting Tool for Running Amber MD in an Easy Way. Biomolecules 13.",
+          "DOI": "10.3390/biom13040635"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01153"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-9752-7_2"
+        },
+        {
+          "key": "2026041022352446000_2025.01.23.634640v1.46",
+          "first-page": "198",
+          "article-title": "An overview of the Amber biomolecular simulation package",
+          "volume": "3",
+          "year": "2012",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.01.23.634640",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T05:35:35Z",
+        "timestamp": 1775885735000
+      },
+      "score": 84.49418,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.01.23.634640"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            24
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2025.01.23.634640",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

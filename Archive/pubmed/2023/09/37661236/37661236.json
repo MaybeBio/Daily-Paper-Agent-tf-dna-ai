@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "37661236",
+    "doi": "10.1007/s11103-023-01376-y",
+    "title": "Functional investigation of five R2R3-MYB transcription factors associated with wood development in Eucalyptus using DAP-seq-ML."
+  },
+  "content": {
+    "abstract": "A multi-tiered transcriptional network regulates xylem differentiation and secondary cell wall (SCW) formation in plants, with evidence of both conserved and lineage-specific SCW network architecture. We aimed to elucidate the roles of selected R2R3-MYB transcription factors (TFs) linked to Eucalyptus wood formation by identifying genome-wide TF binding sites and direct target genes through an improved DAP-seq protocol combined with machine learning for target gene assignment (DAP-seq-ML). We applied this to five TFs including a well-studied SCW master regulator (EgrMYB2; homolog of AtMYB83), a repressor of lignification (EgrMYB1; homolog of AtMYB4), a TF affecting SCW thickness and vessel density (EgrMYB137; homolog of PtrMYB074) and two TFs with unclear roles in SCW regulation (EgrMYB135 and EgrMYB122). Each DAP-seq TF peak set (average 12,613 peaks) was enriched for canonical R2R3-MYB binding motifs. To improve the reliability of target gene assignment to peaks, a random forest classifier was developed from Arabidopsis DAP-seq, RNA-seq, chromatin, and conserved noncoding sequence data which demonstrated significantly higher precision and recall to the baseline method of assigning genes to proximal peaks. EgrMYB1, EgrMYB2 and EgrMYB137 predicted targets showed clear enrichment for SCW-related biological processes. As validation, EgrMYB137 overexpression in transgenic Eucalyptus hairy roots increased xylem lignification, while its dominant repression in transgenic Arabidopsis and Populus reduced xylem lignification, stunted growth, and caused downregulation of SCW genes. EgrMYB137 targets overlapped significantly with those of EgrMYB2, suggesting partial functional redundancy. Our results show that DAP-seq-ML identified biologically relevant R2R3-MYB targets supported by the finding that EgrMYB137 promotes SCW lignification in planta.",
+    "keywords": [
+      "DAP-seq",
+      "Eucalyptus",
+      "Machine learning",
+      "R2R3-MYB",
+      "Secondary cell wall",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "*Eucalyptus/genetics/growth & development/metabolism",
+      "*Wood/growth & development/genetics/metabolism",
+      "*Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "*Plant Proteins/genetics/metabolism",
+      "Xylem/genetics/growth & development/metabolism",
+      "Cell Wall/metabolism",
+      "Machine Learning",
+      "Arabidopsis/genetics",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takawira, Lazarus T",
+        "Hadj Bachir, Ines",
+        "Ployet, Raphael",
+        "Tulloch, Jade",
+        "San Clemente, Helene",
+        "Christie, Nanette",
+        "Ladouce, Nathalie",
+        "Dupas, Annabelle",
+        "Rai, Avanish",
+        "Grima-Pettenati, Jacqueline",
+        "Myburg, Alexander A",
+        "Mizrachi, Eshchar",
+        "Mounet, Fabien",
+        "Hussey, Steven G"
+      ],
+      "short_names": [
+        "Takawira LT",
+        "Hadj Bachir I",
+        "Ployet R",
+        "Tulloch J",
+        "San Clemente H",
+        "Christie N",
+        "Ladouce N",
+        "Dupas A",
+        "Rai A",
+        "Grima-Pettenati J",
+        "Myburg AA",
+        "Mizrachi E",
+        "Mounet F",
+        "Hussey SG"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9007-094X",
+        "ORCID: 0000-0002-1652-6184",
+        "ORCID: 0000-0003-4809-5988",
+        "ORCID: 0000-0002-1864-6577",
+        "ORCID: 0000-0003-4331-2103",
+        "ORCID: 0000-0003-2177-8084",
+        "ORCID: 0000-0003-0295-4599",
+        "ORCID: 0000-0002-2902-8838",
+        "ORCID: 0000-0003-4272-9767",
+        "ORCID: 0000-0003-0644-5003",
+        "ORCID: 0000-0002-3126-9593",
+        "ORCID: 0000-0001-6632-3070",
+        "ORCID: 0000-0002-1079-8373"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Laboratoire de Recherche en Sciences Vegetales, Universite Toulouse, CNRS, INP, Castanet-Tolosan, France.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Laboratoire de Recherche en Sciences Vegetales, Universite Toulouse, CNRS, INP, Castanet-Tolosan, France.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Laboratoire de Recherche en Sciences Vegetales, Universite Toulouse, CNRS, INP, Castanet-Tolosan, France.",
+        "Laboratoire de Recherche en Sciences Vegetales, Universite Toulouse, CNRS, INP, Castanet-Tolosan, France.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Laboratoire de Recherche en Sciences Vegetales, Universite Toulouse, CNRS, INP, Castanet-Tolosan, France.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa.",
+        "Laboratoire de Recherche en Sciences Vegetales, Universite Toulouse, CNRS, INP, Castanet-Tolosan, France. fabien.mounet@univ-tlse3.fr.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa. steven.hussey@fabi.up.ac.za."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takawira, Lazarus T",
+        "short_name": "Takawira LT",
+        "identifiers": [
+          "0000-0001-9007-094X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Hadj Bachir, Ines",
+        "short_name": "Hadj Bachir I",
+        "identifiers": [
+          "0000-0002-1652-6184"
+        ],
+        "affiliations": [
+          "Laboratoire de Recherche en Sciences Végétales, Université Toulouse, CNRS, INP, Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Ployet, Raphael",
+        "short_name": "Ployet R",
+        "identifiers": [
+          "0000-0003-4809-5988"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Tulloch, Jade",
+        "short_name": "Tulloch J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "San Clemente, Helene",
+        "short_name": "San Clemente H",
+        "identifiers": [
+          "0000-0002-1864-6577"
+        ],
+        "affiliations": [
+          "Laboratoire de Recherche en Sciences Végétales, Université Toulouse, CNRS, INP, Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Christie, Nanette",
+        "short_name": "Christie N",
+        "identifiers": [
+          "0000-0003-4331-2103"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Ladouce, Nathalie",
+        "short_name": "Ladouce N",
+        "identifiers": [
+          "0000-0003-2177-8084"
+        ],
+        "affiliations": [
+          "Laboratoire de Recherche en Sciences Végétales, Université Toulouse, CNRS, INP, Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Dupas, Annabelle",
+        "short_name": "Dupas A",
+        "identifiers": [
+          "0000-0003-0295-4599"
+        ],
+        "affiliations": [
+          "Laboratoire de Recherche en Sciences Végétales, Université Toulouse, CNRS, INP, Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Rai, Avanish",
+        "short_name": "Rai A",
+        "identifiers": [
+          "0000-0002-2902-8838"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Grima-Pettenati, Jacqueline",
+        "short_name": "Grima-Pettenati J",
+        "identifiers": [
+          "0000-0003-4272-9767"
+        ],
+        "affiliations": [
+          "Laboratoire de Recherche en Sciences Végétales, Université Toulouse, CNRS, INP, Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Myburg, Alexander A",
+        "short_name": "Myburg AA",
+        "identifiers": [
+          "0000-0003-0644-5003"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Mizrachi, Eshchar",
+        "short_name": "Mizrachi E",
+        "identifiers": [
+          "0000-0002-3126-9593"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Mounet, Fabien",
+        "short_name": "Mounet F",
+        "identifiers": [
+          "0000-0001-6632-3070"
+        ],
+        "affiliations": [
+          "Laboratoire de Recherche en Sciences Végétales, Université Toulouse, CNRS, INP, Castanet-Tolosan, France. fabien.mounet@univ-tlse3.fr."
+        ]
+      },
+      {
+        "full_name": "Hussey, Steven G",
+        "short_name": "Hussey SG",
+        "identifiers": [
+          "0000-0002-1079-8373"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria, 0002, South Africa. steven.hussey@fabi.up.ac.za."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant molecular biology"
+    ],
+    "journal_abbrev": [
+      "Plant Mol Biol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/04 00:41",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "41357141",
+      "40236784"
+    ],
+    "refs": [
+      "35152419",
+      "35064997",
+      "35008808",
+      "34567045",
+      "34313722",
+      "33808132",
+      "33793955",
+      "33709105",
+      "33663680",
+      "32943464",
+      "32890394",
+      "32329779",
+      "32111623",
+      "31871072",
+      "31626358",
+      "31156026",
+      "31063599",
+      "30952851",
+      "30887522",
+      "30774644",
+      "30755461",
+      "30446657",
+      "30030488",
+      "29784790",
+      "29440562",
+      "28726847",
+      "28655750",
+      "27713753",
+      "27559336",
+      "27500520",
+      "27261064",
+      "27203113",
+      "26663392",
+      "26636625",
+      "26579999",
+      "26297385",
+      "26124769",
+      "25717192",
+      "25684249",
+      "25533953",
+      "25385212",
+      "25294860",
+      "25250741",
+      "24984711",
+      "24919147",
+      "24431500",
+      "24391722",
+      "24280390",
+      "24199943",
+      "23781226",
+      "23335732",
+      "23161857",
+      "22955991",
+      "22912568",
+      "22905077",
+      "22708996",
+      "22197883",
+      "21988539",
+      "21874349",
+      "21399993",
+      "21070416",
+      "20955415",
+      "20833576",
+      "20674465",
+      "19930550",
+      "19891705",
+      "19808805",
+      "19674407",
+      "19625489",
+      "19385720",
+      "19122102",
+      "18952777",
+      "18798982",
+      "18695688",
+      "17988087",
+      "17950657",
+      "16098109",
+      "15972284",
+      "15377757",
+      "15276452",
+      "14675440",
+      "14612585",
+      "12787253",
+      "11080161",
+      "10645718",
+      "7599647",
+      "7584402"
+    ],
+    "similar": [
+      "37661236",
+      "31063599",
+      "28611454",
+      "40799089",
+      "30576529",
+      "25250741",
+      "24885077",
+      "27500520",
+      "38991593",
+      "26579999",
+      "30806711",
+      "30030488",
+      "20955415",
+      "17397551",
+      "25534543",
+      "38901779",
+      "39031878",
+      "38339982",
+      "25659405",
+      "25957781",
+      "29078399",
+      "34879821",
+      "32943464",
+      "37422947",
+      "35563457",
+      "28083709",
+      "25577568",
+      "29808599",
+      "35016103",
+      "30968143",
+      "31878092",
+      "33808132",
+      "40032095",
+      "23939552",
+      "34440740",
+      "24852237",
+      "23922694",
+      "25388807",
+      "24280390",
+      "38366549",
+      "23539153",
+      "21429757",
+      "41308185",
+      "24204619",
+      "39756755",
+      "35152419",
+      "30866808",
+      "24786865",
+      "41557152",
+      "39216584",
+      "23781226",
+      "28499078",
+      "24821954",
+      "33440425",
+      "35151454",
+      "31125440",
+      "21908685",
+      "40653242",
+      "32880001",
+      "38298604",
+      "31821470",
+      "30544851",
+      "28720072",
+      "23521840",
+      "30887522",
+      "34313722",
+      "29266248",
+      "32344718",
+      "25903933",
+      "37848837",
+      "19091872",
+      "20427511",
+      "28117379",
+      "38970694",
+      "28349287",
+      "35445881",
+      "33328495",
+      "16098109",
+      "40278505",
+      "39508995",
+      "23936468",
+      "28633295",
+      "26340415",
+      "25260963",
+      "31914923",
+      "32291329",
+      "19426563",
+      "32659969",
+      "34440718",
+      "24394777",
+      "33908063",
+      "25676073",
+      "31521213",
+      "39934964",
+      "19549133",
+      "25613160",
+      "39585973",
+      "33218627",
+      "23815789",
+      "40491095"
+    ],
+    "review": [
+      "37661236",
+      "33808132"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11103-023-01376-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40593827",
+  "title": "Dissecting crosstalk induced by cell-cell communication using single-cell transcriptomic data.",
+  "authors": "Hou, Jiawen; Zhao, Wei; Nie, Qing",
+  "journal": "Nature communications",
+  "published_date": "2025-07-02",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习（超图学习）分析单细胞转录组中细胞通讯通路间的串扰，涉及受体-转录因子-靶基因调控关系，但核心是信号通路串扰而非TF-DNA结合机制，方法可迁移但非直接聚焦。",
+  "abstract": "During cell-cell communication (CCC), pathways activated by different ligand-receptor pairs may have crosstalk with each other. While multiple methods have been developed to infer CCC networks and their downstream response using single-cell RNA-seq data (scRNA-seq), the potential crosstalk between pathways connecting CCC with its downstream targets has been ignored. Here we introduce a machine learning-based method SigXTalk to analyze the crosstalk using scRNA-seq data by quantifying signal fidelity and specificity, two critical quantities measuring the effect of crosstalk. Specifically, a hypergraph learning method is used to encode the higher-order relations among receptors, transcription factors and target genes within regulatory pathways. Benchmarking of SigXTalk using simulation and real-world data shows the effectiveness, robustness, and accuracy in identifying key shared molecules among crosstalk pathways and their roles in transferring shared CCC information. Analysis of disease data shows SigXTalk's capability in identifying crucial signals, targets, regulatory networks, and CCC patterns that distinguish different disease conditions. Applications to the data with multiple time points reveals SigXTalk's capability in tracking the evolution of crosstalk pathways over time. Together our studies provide a systematic analysis of CCC-induced regulatory networks from the perspective of crosstalk between pathways.",
+  "abstract_zh": "在细胞间通讯（CCC）过程中，由不同配体-受体对激活的信号通路之间可能存在相互串扰。尽管已有多种方法利用单细胞RNA测序数据（scRNA-seq）推断CCC网络及其下游响应，但连接CCC与其下游靶点之间的通路潜在串扰却被忽视。在此，我们介绍一种基于机器学习的方法SigXTalk，通过量化信号保真度和特异性（衡量串扰效应的两个关键量）来分析scRNA-seq数据中的串扰。具体而言，采用超图学习方法编码调控通路中受体、转录因子和靶基因之间的高阶关系。使用模拟和真实数据对SigXTalk进行基准测试，展示了其在识别串扰通路中关键共享分子及其在传递共享CCC信息中作用方面的有效性、稳健性和准确性。对疾病数据的分析表明，SigXTalk能够识别区分不同疾病状态的关键信号、靶点、调控网络和CCC模式。对多时间点数据的应用揭示了SigXTalk在追踪串扰通路随时间演变方面的能力。综合来看，我们的研究从通路间串扰的视角对CCC诱导的调控网络进行了系统分析。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40593827/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40593827/",
+  "paper_page_path": "papers/pubmed/40593827/index.html"
+}

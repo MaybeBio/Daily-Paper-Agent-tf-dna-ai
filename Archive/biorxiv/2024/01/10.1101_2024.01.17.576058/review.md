@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures beyond what is stated
+- **Shared manuscript claim summary** The abstract reports structural and dynamic characterization of the BCL11A ZnF456 domain by X-ray crystallography and NMR, identifies ZnF6 as having a special role in DNA binding and γ-globin repression, and links the findings to rare promoter mutations causing hereditary persistence of fetal hemoglobin (HPFH), with implications for therapeutic design in sickle cell disease and β-thalassemia.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, crystallographic and NMR data, structural coordinates, experimental details, statistical analyses, and any validation of functional assays
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important advance in understanding BCL11A DNA recognition, with clear biomedical relevance. However, the evidence base is limited to the abstract, and several claims are stated without sufficient detail to assess their validity. The claim that ZnF6 plays a "special role" is central but not substantiated in the abstract. The link to HPFH mutations is intriguing but requires explicit structural and functional correlation. Overall, the work appears promising, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, zinc finger protein biology, hemoglobin switching, and erythroid development would find these results relevant. Clinicians and drug developers focused on sickle cell disease and β-thalassemia would also be interested, given the therapeutic implications. Structural biologists using NMR and crystallography may value the methodological integration.
+- **Major strengths** The combination of X-ray crystallography and NMR to study both DNA-bound and free states is a rigorous approach. The focus on a clinically relevant transcription factor with a clear phenotypic outcome (HbF levels) adds translational significance. The identification of ZnF6 as a key contributor could refine models of BCL11A function and inform mutation interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "we discovered that the last zinc finger of BCL11A (ZnF6) plays a special role in DNA binding and γ-globin gene repression"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a special role for ZnF6 but provides no specific data, comparisons, or functional experiments to support this claim. It is unclear whether this role is based on structural contacts, mutagenesis, binding affinity differences, or cellular assays.
+  - **Why it matters** This is the central novel claim of the work. Without supporting evidence, the claim cannot be evaluated, and the significance of the study is diminished.
+  - **Resolution test** Provide quantitative DNA binding data for ZnF6 versus other zinc fingers, structural evidence of ZnF6-specific contacts, or functional repression assays showing ZnF6 dependence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** "Our findings help account for some rare γ-globin gene promoter mutations that perturb BCL11A binding and lead to increased HbF in adults"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which mutations are addressed, how they map to the ZnF456 structure, or what experimental or computational evidence links the structural data to the mutational effects.
+  - **Why it matters** This claim connects the structural work to human genetics and clinical phenotype. Without explicit mapping and validation, the connection remains speculative.
+  - **Resolution test** List the specific promoter mutations, show their positions relative to the ZnF456-DNA interface, and provide binding or reporter assay data demonstrating the effect of each mutation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** "we report comprehensive investigation of ZnF456, leveraging X-ray crystallography and NMR to determine the structures in both the presence and absence of DNA"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state resolution of crystal structures, NMR assignment completeness, or whether the DNA-bound and free states are compared under equivalent conditions. Dynamics are mentioned but not described.
+  - **Why it matters** Structural claims require quality metrics to be credible. The absence of these details prevents assessment of technical soundness.
+  - **Resolution test** Provide crystallographic resolution and R factors, NMR assignment statistics, and a description of dynamics experiments (e.g., relaxation dispersion, R1, R2, heteronuclear NOE).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "triple zinc finger domain, designated ZnF456" is used, but the abstract later refers to "ZnF6" as the last zinc finger. It is unclear whether ZnF6 is part of ZnF456 or a separate domain.
+  - **Required correction** Clarify the domain architecture, including numbering and whether ZnF6 is the third finger of ZnF456 or a distinct element.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Therapeutic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement about "strategic, structure-based design of novel therapeutics" is broad and not tied to any specific finding in the abstract.
+  - **Required correction** Either remove or specify how the structural insights directly inform therapeutic design, or state this as a future direction rather than an outcome.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Mutation reference
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "some rare γ-globin gene promoter mutations" without naming them, making it impossible to cross-reference with existing literature.
+  - **Required correction** Name the specific mutations or provide a reference to a table or figure in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of ZnF6 special role and mutation correlation are not supported by the abstract alone. R1-M3 is non-blocking but necessary for technical credibility.
+- **Assessment against Nature-style criteria**  
+  - Originality: The work appears original in its focus on ZnF6 and the combined structural approach, but the abstract does not clearly differentiate from prior BCL11A structural studies.  
+  - Scientific importance: High, given the role of BCL11A in hemoglobin switching and the clinical relevance to hemoglobinopathies.  
+  - Interdisciplinary readership: Likely to appeal to structural biologists, transcription factor researchers, and hematologists, but the abstract is accessible.  
+  - Technical soundness: Cannot be fully assessed from the abstract; structural quality metrics and experimental details are missing.  
+  - Readability for nonspecialists: The abstract is generally clear, though the domain terminology could be confusing.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is significant and the approach is appropriate, but the abstract does not provide enough evidence to establish the central claims. Full manuscript review is necessary.
+
+## Risk / unsupported claims
+- The special role of ZnF6 in DNA binding and repression is unsupported in the abstract.
+- The link to specific γ-globin promoter mutations is unsupported without naming the mutations or providing data.
+- The claim of "comprehensive investigation" is not verifiable from the abstract.
+- The therapeutic design implication is stated without a clear mechanistic basis in the abstract.

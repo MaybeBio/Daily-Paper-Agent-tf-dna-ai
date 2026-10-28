@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38863714",
+  "title": "Integrated bioinformatics combined with machine learning to analyze shared biomarkers and pathways in psoriasis and cervical squamous cell carcinoma.",
+  "authors": "Liu, Luyu; Yin, Pan; Yang, Ruida; Zhang, Guanfei; Wu, Cong; Zheng, Yan; Wu, Shaobo; Liu, Meng",
+  "journal": "Frontiers in immunology",
+  "published_date": "2024-06-12",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用机器学习分析银屑病与宫颈鳞癌共享生物标志物，虽涉及转录因子调控网络但非蛋白质-DNA互作建模核心，方法为常规组学分析，与本课题关联弱。",
+  "abstract": "BACKGROUND: Psoriasis extends beyond its dermatological inflammatory manifestations, encompassing systemic inflammation. Existing studies have indicated a potential risk of cervical cancer among patients with psoriasis, suggesting a potential mechanism of co-morbidity. This study aims to explore the key genes, pathways, and immune cells that may link psoriasis and cervical squamous cell carcinoma (CESC). METHODS: The cervical squamous cell carcinoma dataset (GSE63514) was downloaded from the Gene Expression Omnibus (GEO). Two psoriasis-related datasets (GSE13355 and GSE14905) were merged into one comprehensive dataset after removing batch effects. Differentially expressed genes were identified using Limma and co-expression network analysis (WGCNA), and machine learning random forest algorithm (RF) was used to screen the hub genes. We analyzed relevant gene enrichment pathways using GO and KEGG, and immune cell infiltration in psoriasis and CESC samples using CIBERSORT. The miRNA-mRNA and TFs-mRNA regulatory networks were then constructed using Cytoscape, and the biomarkers for psoriasis and CESC were determined. Potential drug targets were obtained from the cMAP database, and biomarker expression levels in hela and psoriatic cell models were quantified by RT-qPCR. RESULTS: In this study, we identified 27 key genes associated with psoriasis and cervical squamous cell carcinoma. NCAPH, UHRF1, CDCA2, CENPN and MELK were identified as hub genes using the Random Forest machine learning algorithm. Chromosome mitotic region segregation, nucleotide binding and DNA methylation are the major enrichment pathways for common DEGs in the mitotic cell cycle. Then we analyzed immune cell infiltration in psoriasis and cervical squamous cell carcinoma samples using CIBERSORT. Meanwhile, we used the cMAP database to identify ten small molecule compounds that interact with the central gene as drug candidates for treatment. By analyzing miRNA-mRNA and TFs-mRNA regulatory networks, we identified three miRNAs and nine transcription factors closely associated with five key genes and validated their expression in external validation datasets and clinical samples. Finally, we examined the diagnostic effects with ROC curves, and performed experimental validation in hela and psoriatic cell models. CONCLUSIONS: We identified five biomarkers, NCAPH, UHRF1, CDCA2, CENPN, and MELK, which may play important roles in the common pathogenesis of psoriasis and cervical squamous cell carcinoma, furthermore predict potential therapeutic agents. These findings open up new perspectives for the diagnosis and treatment of psoriasis and squamous cell carcinoma of the cervix.",
+  "abstract_zh": "背景：银屑病不仅表现为皮肤炎症性病变，还涉及全身性炎症。已有研究表明银屑病患者存在宫颈癌的潜在风险，提示可能存在共病机制。本研究旨在探索可能连接银屑病与宫颈鳞状细胞癌（cervical squamous cell carcinoma, CESC）的关键基因、通路及免疫细胞。方法：从基因表达综合数据库（Gene Expression Omnibus, GEO）下载宫颈鳞状细胞癌数据集（GSE63514）。将两个银屑病相关数据集（GSE13355和GSE14905）在去除批次效应后合并为一个综合数据集。使用Limma和共表达网络分析（WGCNA）鉴定差异表达基因，并采用机器学习随机森林算法（RF）筛选核心基因。我们利用GO和KEGG分析相关基因富集通路，并使用CIBERSORT分析银屑病和CESC样本中的免疫细胞浸润。随后使用Cytoscape构建miRNA-mRNA和TFs-mRNA调控网络，确定银屑病和CESC的生物标志物。从cMAP数据库获取潜在药物靶点，并通过RT-qPCR定量检测hela和银屑病细胞模型中生物标志物的表达水平。结果：在本研究中，我们鉴定了27个与银屑病和宫颈鳞状细胞癌相关的关键基因。通过随机森林机器学习算法，NCAPH、UHRF1、CDCA2、CENPN和MELK被确定为核心基因。染色体有丝分裂区域分离、核苷酸结合和DNA甲基化是常见差异表达基因在有丝分裂细胞周期中的主要富集通路。随后，我们使用CIBERSORT分析了银屑病和宫颈鳞状细胞癌样本中的免疫细胞浸润。同时，我们利用cMAP数据库鉴定了十个与核心基因相互作用的小分子化合物，作为潜在治疗药物候选。通过分析miRNA-mRNA和TFs-mRNA调控网络，我们鉴定了与五个关键基因密切相关的三个miRNA和九个转录因子，并在外部验证数据集和临床样本中验证了其表达。最后，我们使用ROC曲线检验了诊断效果，并在hela和银屑病细胞模型中进行了实验验证。结论：我们鉴定了五个生物标志物NCAPH、UHRF1、CDCA2、CENPN和MELK，它们可能在银屑病和宫颈鳞状细胞癌的共同发病机制中发挥重要作用，并进一步预测潜在的治疗药物。这些发现为银屑病和宫颈鳞状细胞癌的诊断和治疗开辟了新的视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38863714/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38863714/",
+  "paper_page_path": "papers/pubmed/38863714/index.html"
+}

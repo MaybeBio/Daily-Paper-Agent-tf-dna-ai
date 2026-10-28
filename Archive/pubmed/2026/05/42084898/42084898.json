@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "42084898",
+    "doi": "10.1093/gigascience/giag029",
+    "title": "SCSEQ: A web tool for analyzing single-cell RNA-seq data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Single-cell RNA sequencing has emerged as a powerful approach to reveal cellular heterogeneity within biological systems. With the continuous advancement of high-throughput sequencing technologies, studies are generating vast amounts of complex data, posing a significant challenge for researchers in effective data processing and analysis. RESULTS: To address this issue, we developed SCSEQ, an interactive web-based bioinformatics analysis platform. This platform enables even users without programming expertise to conveniently process and analyze sequencing data. SCSEQ provides a comprehensive workflow encompassing data preprocessing, normalization, clustering, dimension reduction, differential expression analysis, cell type identification, and downstream analyses. The downstream analysis tasks include gene enrichment analysis, transcription factor analysis, cell-cell communication analysis, copy number variation detection, trajectory inference, and pan-cancer analysis. SCSEQ facilitates information transfer between different workflows, accepts various input formats, and generates graphical and tabular outputs. As a user-friendly platform, we enhance user experience through detailed parameter settings and dynamic interactions. This enables users to precisely regulate research processes and customize result figures. Additionally, we provide comprehensive user manuals to assist with parameter configuration and workflow execution. CONCLUSIONS: SCSEQ provides an intuitive and convenient solution for single-cell transcriptome sequencing data analysis. Our platform has successfully completed full-process analyses on real-world data with reliable results, demonstrating its applicability in practical scenarios. The platform is available at https://scseq.com.cn/.",
+    "keywords": [
+      "data analysis platform",
+      "machine learning",
+      "single-cell RNA sequencing",
+      "web-based tool"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Software",
+      "Single-Cell Gene Expression Analysis",
+      "Humans",
+      "Internet",
+      "*Computational Biology/methods",
+      "*RNA-Seq/methods",
+      "*Sequence Analysis, RNA/methods",
+      "Gene Expression Profiling/methods",
+      "High-Throughput Nucleotide Sequencing/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Shiyu",
+        "Sun, Pengcheng",
+        "Shen, Li",
+        "He, Jian"
+      ],
+      "short_names": [
+        "Du S",
+        "Sun P",
+        "Shen L",
+        "He J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1426-7799"
+      ],
+      "affiliations": [
+        "Qingdao Institute of Software, College of Computer Science and Technology, China University of Petroleum (East China), Shandong Key Laboratory of Intelligent Oil & Gas Industrial Software, Qingdao 266580, China.",
+        "Qingdao Institute of Software, College of Computer Science and Technology, China University of Petroleum (East China), Shandong Key Laboratory of Intelligent Oil & Gas Industrial Software, Qingdao 266580, China.",
+        "State Key Laboratory of Systems Medicine for Cancer, Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China.",
+        "State Key Laboratory of Systems Medicine for Cancer, Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Shiyu",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Institute of Software, College of Computer Science and Technology, China University of Petroleum (East China), Shandong Key Laboratory of Intelligent Oil & Gas Industrial Software, Qingdao 266580, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Pengcheng",
+        "short_name": "Sun P",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Institute of Software, College of Computer Science and Technology, China University of Petroleum (East China), Shandong Key Laboratory of Intelligent Oil & Gas Industrial Software, Qingdao 266580, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Li",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Systems Medicine for Cancer, Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China."
+        ]
+      },
+      {
+        "full_name": "He, Jian",
+        "short_name": "He J",
+        "identifiers": [
+          "0000-0002-1426-7799"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Systems Medicine for Cancer, Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "GigaScience"
+    ],
+    "journal_abbrev": [
+      "Gigascience"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/05 12:37",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41888157",
+      "40971592",
+      "40627366",
+      "39851300",
+      "39704704",
+      "39447176",
+      "39252823",
+      "39172544",
+      "38991851",
+      "38961061",
+      "38868333",
+      "38839954",
+      "38528186",
+      "38412834",
+      "37231261",
+      "35549406",
+      "35536286",
+      "35422041",
+      "34715899",
+      "33782609",
+      "33597522",
+      "33068522",
+      "31740819",
+      "31217225",
+      "31024627",
+      "30951143",
+      "29409532",
+      "28991892",
+      "28825705",
+      "28821273",
+      "28541377",
+      "27124452",
+      "25042786",
+      "20478246",
+      "19349980",
+      "16199517"
+    ],
+    "similar": [
+      "42084898",
+      "40609640",
+      "41241215",
+      "31619158",
+      "38658838",
+      "41231930",
+      "41677189",
+      "33835452",
+      "33835454",
+      "31455220",
+      "28541377",
+      "32600310",
+      "26847232",
+      "34115950",
+      "39237193",
+      "33736596",
+      "40067633",
+      "31316748",
+      "40045664",
+      "42129640",
+      "29982379",
+      "33835439",
+      "42793120",
+      "41495899",
+      "41408153",
+      "36476060",
+      "38782298",
+      "39900759",
+      "39900764",
+      "29536443",
+      "36929075",
+      "34906205",
+      "33835453",
+      "30763315",
+      "27553427",
+      "38889133",
+      "41719583",
+      "32532794",
+      "31566233",
+      "41325426",
+      "39893178",
+      "37889009",
+      "30909881",
+      "38907923",
+      "31068142",
+      "33835450",
+      "33835449",
+      "40055635",
+      "40037523",
+      "39671349",
+      "41068610",
+      "39561511",
+      "40188497",
+      "38913513",
+      "39992219",
+      "42092983",
+      "41941899",
+      "26758513",
+      "30849608",
+      "40133780",
+      "29202807",
+      "39487083",
+      "41403052",
+      "35195064",
+      "29036318",
+      "40770264",
+      "40391086",
+      "40057293",
+      "39504481",
+      "40977264",
+      "40850998",
+      "24894665",
+      "30841853",
+      "30758823",
+      "29534677",
+      "28893418",
+      "42252976",
+      "40579791",
+      "29949981",
+      "33023248",
+      "42172220",
+      "40455150",
+      "38831386",
+      "42763849",
+      "29767357",
+      "39402696",
+      "40731055",
+      "29536451",
+      "26600239",
+      "33606257",
+      "34991454",
+      "41222189",
+      "30567491",
+      "37994351",
+      "32306927",
+      "35086932",
+      "39579314",
+      "41068566",
+      "41028272",
+      "32825786"
+    ],
+    "review": [
+      "42084898",
+      "28893418"
+    ],
+    "pmc": [
+      "13142160"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42084898/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gigascience/article-lookup/doi/10.1093/gigascience/giag029",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

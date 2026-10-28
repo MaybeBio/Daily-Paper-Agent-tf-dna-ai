@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary material list)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report the crystal structure of AcrIE9, a type I-E anti-CRISPR protein from Pseudomonas aeruginosa, at 1.73 Å resolution. They describe a homodimeric assembly in the crystal, a unique α/β fold, and stable dimeric and monomeric states in solution. In vitro binding assays with individually purified P. aeruginosa type I-E Cas subunits, including Cas7e, did not detect direct interaction with AcrIE9. The authors propose that AcrIE9 may recognize a composite interface formed only within the intact Cascade complex, supported by AlphaFold3 predictions of multivalent interactions with Cas7e subunits.
+- **Visible evidence base** Crystal structure (Table I, Figs. 1–2, supplementary Figs. S2–S4), analytical SEC data (Fig. 1, Fig. 3, supplementary Figs. S7–S9), AlphaFold3 predictions (supplementary Figs. S5–S6, S10), DALI search results (described in text)
+- **Missing materials affecting confidence** Coordinates and structure factors (PDB deposition not yet accessible), supplementary figures S1–S11 (referenced but not provided in the text), full experimental details for AlphaFold3 modeling (e.g., input sequences, MSA depth), raw SEC chromatograms with molecular weight standards, and any negative control data for binding assays
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-executed structural determination of AcrIE9, a previously uncharacterized anti-CRISPR protein. The crystal structure at 1.73 Å resolution is of high quality, and the identification of a novel fold is a valuable contribution. However, the central mechanistic claim, that AcrIE9 inhibits Cascade via a composite interface involving multiple Cas7e subunits, is not directly supported by the experimental data presented. The binding assays show no interaction with individual subunits, and the AlphaFold3 prediction, while suggestive, is not experimentally validated. The manuscript is technically sound in its structural aspects but falls short of establishing the proposed inhibitory mechanism.
+- **Who would be interested in the results, and why** Researchers in the fields of CRISPR biology, phage-bacteria coevolution, and protein structure-function relationships. The novel fold and structural characterization of AcrIE9 will be of interest to structural biologists studying anti-CRISPR proteins. The proposed mechanism, if validated, would have implications for understanding how Acr proteins target multi-subunit complexes.
+- **Major strengths** 1. High-resolution crystal structure (1.73 Å) with clear experimental phasing via SeMet SAD. 2. Identification of a novel protein fold, which is a significant structural finding. 3. Careful analysis of the oligomeric state, including SEC and crystallographic data. 4. Honest discussion of the limitations of the binding assays and the uncertainty regarding the biological oligomeric state.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** "These findings suggest that AcrIE9 may recognize a composite interface formed only within the intact Cascade complex, consistent with the AlphaFold3 prediction of multivalent interactions with Cas7e subunits."
+  - **Evidence pointer** Results and Discussion, "In vitro binding assays of AcrIE9 with type I-E Cas proteins"; Fig. 3; supplementary Figs. S7–S10
+  - **Concern** The central mechanistic conclusion, that AcrIE9 targets a composite interface on the intact Cascade complex, is based on negative results (no binding to individual subunits) and an unvalidated AlphaFold3 prediction. The absence of interaction with individual subunits does not provide positive evidence for a composite interface. The AlphaFold3 model, while plausible, is a prediction and has not been experimentally tested. No experiments were performed with the intact Cascade complex to directly test the proposed mechanism.
+  - **Why it matters** The manuscript's primary claim of a novel inhibitory mechanism rests on this unsupported inference. Without direct experimental evidence, such as binding assays with the intact Cascade complex or mutagenesis of the predicted interface, the mechanism remains speculative.
+  - **Resolution test** Provide experimental evidence of AcrIE9 binding to the intact P. aeruginosa Cascade complex, or demonstrate that mutations in the predicted Cas7e interface residues abolish inhibition. Alternatively, present a co-crystal structure of AcrIE9 with Cascade or a Cascade subcomplex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Oligomeric state
+  - **Claim pointer** "These findings indicate that AcrIE9 is likely to form a stable homodimer."
+  - **Evidence pointer** Results and Discussion, "AcrIE9 forms a homodimer in solution and crystal"; Fig. 1
+  - **Concern** The claim of a stable homodimer is based on SEC data showing that isolated dimeric and monomeric fractions retain their respective states. However, the analytical SEC was performed at a single concentration (20 μM), and no concentration-dependent analysis was performed to assess the dissociation constant. The crystallographic dimer may be a artifact of high protein concentration, as the authors themselves note. The biological relevance of the dimer is therefore not firmly established.
+  - **Why it matters** The oligomeric state is relevant to the proposed mechanism, as the authors suggest the dimer may be important for multivalent interactions. If the dimer is not biologically relevant, the proposed mechanism would need revision.
+  - **Resolution test** Perform analytical ultracentrifugation or multi-angle light scattering across a range of protein concentrations to determine the dissociation constant and establish the physiological oligomeric state.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical reproducibility
+  - **Claim pointer** "The final structure was completed using alternate cycles of manual fitting in Coot and refinement in PHENIX."
+  - **Evidence pointer** Materials and Methods, "X-ray crystallography"; Table I
+  - **Concern** The manuscript does not report key crystallographic statistics beyond resolution, such as R-free, R-work, and Ramachandran statistics, in the main text. While Table I is referenced, its contents are not described in the provided text. The completeness of the data and the quality of the electron density are not assessable from the text alone.
+  - **Why it matters** For a structural manuscript, the quality of the model is paramount. Without these statistics, the reliability of the structure and the conclusions drawn from it cannot be fully evaluated.
+  - **Resolution test** Provide the full crystallographic data collection and refinement statistics in Table I, including R-work, R-free, RMSD bonds/angles, Ramachandran outliers, and coordinate error.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "AcrIE9 exists as both monomer and dimer in solution" but does not specify the relative proportions or conditions under which each state is favored.
+  - **Required correction** Clarify the conditions (e.g., concentration, buffer) under which each state is observed, or state that the proportions were not quantified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods, "AlphaFold3 modeling"
+  - **Issue** The description of AlphaFold3 modeling is minimal. No details are provided on the input sequences, whether the full Cascade complex was modeled, or how the model was validated.
+  - **Required correction** Provide details on the input sequences, the modeling protocol, and any confidence metrics beyond pTM and ipTM.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, "AcrIE9 adopts a unique α/β fold"
+  - **Issue** The authors note a secondary-structure switch between protomers (η2 vs β5) but do not discuss whether this is a crystallographic artifact or has functional relevance.
+  - **Required correction** Add a brief discussion of the potential significance of this conformational difference, or state that its relevance is unknown.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Fig. 3; supplementary Figs. S7–S9
+  - **Issue** The SEC binding assays are described qualitatively. No quantitative analysis (e.g., stoichiometry, binding affinity) is provided.
+  - **Required correction** Provide quantitative analysis of the SEC data, such as elution volumes and estimated molecular weights, to support the interpretation.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of direct experimental evidence for the proposed composite interface mechanism (R1-M1). 2. Incomplete assessment of the biological oligomeric state (R1-M2). 3. Missing crystallographic statistics in the main text (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The novel fold of AcrIE9 is original and of interest. Scientific importance: The structural characterization is valuable, but the mechanistic insight is limited by the lack of functional validation. Interdisciplinary readership: The topic will appeal to structural biologists, microbiologists, and CRISPR researchers, but the narrow focus may limit broader appeal. Technical soundness: The structural work appears sound, but the biochemical data are insufficient to support the central claim. Readability for nonspecialists: The manuscript is generally clear, but the discussion of AlphaFold3 metrics (pTM, ipTM, PAE) may be dense for non-specialists.
+
+## Risk / unsupported claims
+- The claim that AcrIE9 recognizes a composite interface on the intact Cascade complex is unsupported by direct experimental evidence.
+- The claim that the dimer is the biologically relevant form is not fully established, given the lack of concentration-dependent studies.
+- The AlphaFold3 prediction of multivalent interactions with Cas7e subunits is presented as consistent with the proposed mechanism but is not experimentally validated.
+- The statement that "it is too early to draw definitive conclusions" from the binding assays is appropriate, but the manuscript still presents the composite interface model as a leading hypothesis without sufficient support.

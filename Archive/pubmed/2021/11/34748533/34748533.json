@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "34748533",
+    "doi": "10.1371/journal.pcbi.1009547",
+    "title": "The Impact of the HydroxyMethylCytosine epigenetic signature on DNA structure and function."
+  },
+  "content": {
+    "abstract": "We present a comprehensive, experimental and theoretical study of the impact of 5-hydroxymethylation of DNA cytosine. Using molecular dynamics, biophysical experiments and NMR spectroscopy, we found that Ten-Eleven translocation (TET) dioxygenases generate an epigenetic variant with structural and physical properties similar to those of 5-methylcytosine. Experiments and simulations demonstrate that 5-methylcytosine (mC) and 5-hydroxymethylcytosine (hmC) generally lead to stiffer DNA than normal cytosine, with poorer circularization efficiencies and lower ability to form nucleosomes. In particular, we can rule out the hypothesis that hydroxymethylation reverts to unmodified cytosine physical properties, as hmC is even more rigid than mC. Thus, we do not expect dramatic changes in the chromatin structure induced by differences in physical properties between d(mCpG) and d(hmCpG). Conversely, our simulations suggest that methylated-DNA binding domains (MBDs), associated with repression activities, are sensitive to the substitution d(mCpG) ➔ d(hmCpG), while MBD3 which has a dual activation/repression activity is not sensitive to the d(mCpG) d(hmCpG) change. Overall, while gene activity changes due to cytosine methylation are the result of the combination of stiffness-related chromatin reorganization and MBD binding, those associated to 5-hydroxylation of methylcytosine could be explained by a change in the balance of repression/activation pathways related to differential MBD binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "5-Methylcytosine/*analogs & derivatives/chemistry/metabolism",
+      "Binding Sites",
+      "Biophysical Phenomena",
+      "Computational Biology",
+      "DNA/*chemistry/genetics/*metabolism",
+      "*DNA Methylation",
+      "*Epigenesis, Genetic",
+      "Humans",
+      "Magnetic Resonance Spectroscopy",
+      "Models, Biological",
+      "Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Battistini, Federica",
+        "Dans, Pablo D",
+        "Terrazas, Montserrat",
+        "Castellazzi, Chiara L",
+        "Portella, Guillem",
+        "Labrador, Mireia",
+        "Villegas, Nuria",
+        "Brun-Heath, Isabelle",
+        "Gonzalez, Carlos",
+        "Orozco, Modesto"
+      ],
+      "short_names": [
+        "Battistini F",
+        "Dans PD",
+        "Terrazas M",
+        "Castellazzi CL",
+        "Portella G",
+        "Labrador M",
+        "Villegas N",
+        "Brun-Heath I",
+        "Gonzalez C",
+        "Orozco M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7544-0938",
+        "ORCID: 0000-0002-5927-372X",
+        "ORCID: 0000-0001-8614-5777",
+        "ORCID: 0000-0002-7105-1054",
+        "ORCID: 0000-0001-9323-0697",
+        "ORCID: 0000-0002-5828-0020",
+        "ORCID: 0000-0001-8796-1282"
+      ],
+      "affiliations": [
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Department of Biological Sciences, CENUR Litoral Norte, Universidad de la Republica (UdelaR), Salto, Uruguay.",
+        "Functional Genomics Lab., Institut Pasteur of Montevideo, Montevideo, Uruguay.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Chemistry Department, University of Cambridge, Cambridge, United Kingdom.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Instituto Quimica Fisica Rocasolano, Consejo Superior de Investigaciones Cientificas (CSIC), Madrid, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biology, University of Barcelona, Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Battistini, Federica",
+        "short_name": "Battistini F",
+        "identifiers": [
+          "0000-0002-7544-0938"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Dans, Pablo D",
+        "short_name": "Dans PD",
+        "identifiers": [
+          "0000-0002-5927-372X"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Department of Biological Sciences, CENUR Litoral Norte, Universidad de la República (UdelaR), Salto, Uruguay.",
+          "Functional Genomics Lab., Institut Pasteur of Montevideo, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Terrazas, Montserrat",
+        "short_name": "Terrazas M",
+        "identifiers": [
+          "0000-0001-8614-5777"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Castellazzi, Chiara L",
+        "short_name": "Castellazzi CL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Portella, Guillem",
+        "short_name": "Portella G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Chemistry Department, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Labrador, Mireia",
+        "short_name": "Labrador M",
+        "identifiers": [
+          "0000-0002-7105-1054"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Villegas, Núria",
+        "short_name": "Villegas N",
+        "identifiers": [
+          "0000-0001-9323-0697"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Brun-Heath, Isabelle",
+        "short_name": "Brun-Heath I",
+        "identifiers": [
+          "0000-0002-5828-0020"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "González, Carlos",
+        "short_name": "González C",
+        "identifiers": [
+          "0000-0001-8796-1282"
+        ],
+        "affiliations": [
+          "Instituto Química Física Rocasolano, Consejo Superior de Investigaciones Científicas (CSIC), Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Orozco, Modesto",
+        "short_name": "Orozco M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Department of Biochemistry and Molecular Biology, University of Barcelona, Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/09 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "42686850",
+      "42342657",
+      "41536432",
+      "41439494",
+      "41127530",
+      "37639434",
+      "37050377"
+    ],
+    "refs": [
+      "34050148",
+      "33838135",
+      "31624840",
+      "30746092",
+      "30541032",
+      "28757950",
+      "28471184",
+      "28088759",
+      "27084952",
+      "26905257",
+      "26708341",
+      "26612862",
+      "26569599",
+      "25927341",
+      "25263161",
+      "25223784",
+      "25136104",
+      "24906882",
+      "24307175",
+      "24278005",
+      "24122444",
+      "23498661",
+      "23434322",
+      "23064414",
+      "23012264",
+      "22980977",
+      "22961382",
+      "22824278",
+      "22820989",
+      "22641018",
+      "22608086",
+      "22539555",
+      "22362737",
+      "22196727",
+      "22180536",
+      "22083101",
+      "21817016",
+      "21778364",
+      "21750410",
+      "21731508",
+      "21721093",
+      "21552279",
+      "21514197",
+      "21496894",
+      "21460836",
+      "21460036",
+      "21451870",
+      "21407207",
+      "21151123",
+      "20946778",
+      "20583021",
+      "19625494",
+      "19372393",
+      "19372391",
+      "18829715",
+      "18463664",
+      "17985896",
+      "17708532",
+      "17046689",
+      "16403636",
+      "15264254",
+      "14581192",
+      "12740577",
+      "12610534",
+      "11746690",
+      "11274056",
+      "10677281",
+      "10322130",
+      "9736707",
+      "9395433",
+      "9037027",
+      "8744570",
+      "7079182",
+      "5040245"
+    ],
+    "similar": [
+      "34748533",
+      "23548903",
+      "29369386",
+      "25625845",
+      "21155562",
+      "27689340",
+      "34009612",
+      "27372762",
+      "30230311",
+      "31055566",
+      "26905257",
+      "28225433",
+      "28637186",
+      "32822034",
+      "38205583",
+      "24045206",
+      "24253310",
+      "21451870",
+      "31114894",
+      "35157801",
+      "30867120",
+      "24469454",
+      "24835990",
+      "24942948",
+      "27826845",
+      "27890639",
+      "28331549",
+      "32375881",
+      "25274704",
+      "26404510",
+      "25579174",
+      "28100914",
+      "31777919",
+      "24594098",
+      "26841909",
+      "25675106",
+      "25886653",
+      "29026078",
+      "34009615",
+      "23940045",
+      "24607898",
+      "28437360",
+      "33337470",
+      "27805810",
+      "34009611",
+      "27289557",
+      "26093090",
+      "26984631",
+      "25431943",
+      "31996072",
+      "28349832",
+      "22272626",
+      "23969133",
+      "30980593",
+      "24789765",
+      "33524365",
+      "28750404",
+      "23963698",
+      "31033072",
+      "28977475",
+      "26476235",
+      "24307175",
+      "27849519",
+      "25531248",
+      "27489048",
+      "25862091",
+      "24524199",
+      "27164004",
+      "26186463",
+      "18772889",
+      "30074219",
+      "30571101",
+      "25205307",
+      "29629447",
+      "27918559",
+      "32037456",
+      "27911867",
+      "27826844",
+      "23498661",
+      "20569209",
+      "23042784",
+      "30194838",
+      "33694104",
+      "25932923",
+      "32822018",
+      "24390346",
+      "28448110",
+      "27035984",
+      "29364877",
+      "26355596",
+      "33065111",
+      "29323674",
+      "30837678",
+      "28866733",
+      "27383905",
+      "37010548",
+      "34214627",
+      "24278005",
+      "32752914",
+      "25449535",
+      "32020534",
+      "33601517",
+      "34911281"
+    ],
+    "review": [
+      "34748533",
+      "29369386",
+      "31055566",
+      "28225433",
+      "38205583",
+      "24045206",
+      "24253310",
+      "27826845",
+      "27890639",
+      "32375881",
+      "25274704",
+      "25579174",
+      "25431943",
+      "31033072",
+      "25205307",
+      "27911867",
+      "27826844",
+      "23498661",
+      "33694104",
+      "32822018"
+    ],
+    "pmc": [
+      "8601608"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009547",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34748533/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34748533",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

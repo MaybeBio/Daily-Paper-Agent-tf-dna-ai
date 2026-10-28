@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Structural biology claims regarding topoisomerase V DNA complexes, DNA binding mode, conformational changes, and proposed relaxation mechanism
+- **Shared manuscript claim summary** The authors present crystal structures of a 97 kDa fragment of topoisomerase V (Topo-97(ΔRS2)) in complex with DNA containing abasic sites. They report four crystal forms, including asymmetric and symmetric DNA complexes. The structures reveal that (HhH)2 domains wrap around DNA in a loop-like configuration, a conformational change in a linker helix exposes the topoisomerase active site, DNA bends sharply and melts at the active site entry, and the (HhH)2 domains may act as a processivity factor. The authors propose that type IC topoisomerases employ a relaxation mechanism distinct from type IB enzymes.
+- **Visible evidence base** Text descriptions of structures, crystallographic statistics referenced in Tables II-IV (not provided), Figure references (Figures 1-4 and supplements, not provided), prior biochemical data cited from Rajan et al. 2013, 2014, 2016
+- **Missing materials affecting confidence** All figures and figure supplements, all tables including crystallographic data collection and refinement statistics, electron density maps, PDB accession numbers listed as placeholders (XX1-XX4), DNA sequences used in crystallization, detailed refinement parameters
+
+## Reviewer
+- **Overall assessment** This manuscript presents the first structures of topoisomerase V in complex with DNA, addressing a significant gap in understanding type IC topoisomerases. The finding that tandem (HhH)2 domains wrap around DNA in a loop-like configuration is novel and potentially important. However, the manuscript as provided cannot be fully evaluated because all figures, tables, and supplementary materials are missing. The crystallographic data quality, particularly the anisotropic diffraction and moderate resolutions reported, raises concerns about the robustness of detailed mechanistic conclusions. The claim of a "novel relaxation mechanism" is intriguing but requires stronger experimental support than currently visible in the text. The manuscript would benefit from additional biochemical validation of the proposed processivity role and the single-stranded DNA melting mechanism.
+- **Who would be interested in the results, and why** Structural biologists studying DNA topoisomerases, researchers interested in DNA-protein interactions and DNA repair mechanisms, and investigators studying archaeal proteins adapted to extreme environments. The unusual architecture of topoisomerase V and its combination of topoisomerase and repair activities in one polypeptide will attract broad interest in the DNA metabolism field.
+- **Major strengths** The manuscript addresses a long-standing gap in the field by providing the first DNA complex structures of a type IC topoisomerase. The use of multiple DNA constructs, including symmetric and asymmetric designs, is thoughtful. The observation that (HhH)2 domains form a loop around DNA is novel and provides a plausible explanation for the processivity enhancement observed in previous biochemical studies. The identification of a single conformational change in a linker helix that exposes the active site is elegant and mechanistically satisfying. The comparison with type IB enzymes is well considered and highlights important differences.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the structures reveal a "novel relaxation mechanism" involving DNA melting and single-stranded DNA entry into the active site, distinct from type IB enzymes.
+  - **Evidence pointer** Results sections "Structure of the DNA in the complexes" and "Active Site"; Discussion section; Figures 2-4 (not provided)
+  - **Concern** The proposed relaxation mechanism relies on the observation of DNA melting and sharp bending at the active site entry. However, the reported resolutions are moderate (2.92-3.24 Å in the best direction with significant anisotropy), and the manuscript text indicates that the 3' end of the DNA is not fully resolved. The claim that DNA melts and that this is mechanistically relevant requires high-confidence density for the single-stranded region. Without seeing the electron density maps or the actual DNA conformation in the figures, it is not possible to assess whether the observed melting is a crystallization artifact, a consequence of the abasic site, or a genuine mechanistic feature. The authors also acknowledge that the abasic site was not visible in the asymmetric complex, which weakens the argument that these structures capture a physiologically relevant lesion recognition state.
+  - **Why it matters** The central claim of a novel relaxation mechanism distinct from type IB enzymes depends on the interpretation of the DNA conformation at the active site. If the melting is not robustly supported by the density, the mechanistic conclusions are overstated. This is the primary advance claimed by the manuscript.
+  - **Resolution test** Provide clear electron density figures for the DNA at the active site entry, including the melted region. Show that the melting is consistent across multiple crystal forms and DNA constructs. Ideally, include a structure with a cleavable substrate or a trapped covalent intermediate to demonstrate that the melted single-stranded conformation is on the catalytic pathway. If the melting is only observed in one crystal form, temper the mechanistic claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the (HhH)2 domains act as a processivity factor by encircling DNA, based on the observation that they wrap around the DNA in a loop-like structure.
+  - **Evidence pointer** Results section "Overall structure of topoisomerase V with symmetric DNA"; Discussion section; Figures 1-2 (not provided)
+  - **Concern** The processivity claim is inferred from the static structure of a truncated construct (Topo-97(ΔRS2)) that lacks the last two (HhH)2 domains. The authors state that the missing domains would likely continue the path and completely enclose the DNA, but this is speculative. The structure shows that the (HhH)2 domains surround the DNA with few direct contacts, and the authors note that many repeats do not contact the DNA directly. The functional relevance of this "encirclement" for processivity is not demonstrated. Previous biochemical data (Rajan et al. 2010) showed that constructs with fewer repeats have reduced activity, but this does not directly demonstrate a processivity mechanism. The comparison to sliding clamps is suggestive but may be misleading given the very different architecture and the lack of a demonstrated clamp-loading mechanism.
+  - **Why it matters** The processivity factor claim is a major conceptual advance of the paper. If the encirclement is not functionally validated, the significance of the structural observation is diminished. The field needs to know whether this is a true processivity clamp or simply a DNA binding surface.
+  - **Resolution test** Perform biochemical experiments to directly test processivity, such as single-turnover or single-molecule experiments comparing DNA binding and release rates for constructs with different numbers of (HhH)2 domains. Alternatively, show that the full-length protein forms a completely closed ring around DNA and that this ring is required for processive relaxation. If such experiments are not possible, soften the processivity claim and present the encirclement as a structural observation with possible functional implications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the structures "bring our understanding of type IC enzymes to a similar level as for all other topoisomerases" and that type IC enzymes are "fundamentally different from all other topoisomerases."
+  - **Evidence pointer** Discussion section; Abstract
+  - **Concern** This claim is overstated given the current data. The structures are of a truncated construct, not the full-length protein, and the resolution is moderate. The mechanistic conclusions about the relaxation mechanism are inferred from a single conformational state. The statement that type IC enzymes are "fundamentally different" from all other topoisomerases is a strong claim that would require comparative functional studies, not just structural observations. The authors themselves note that the active site residues are arranged differently from other topoisomerases, but this was already known from previous structures of the isolated domain.
+  - **Why it matters** Overstated significance claims can mislead readers and reduce the credibility of the work. The structures are important, but they represent a step forward, not a complete understanding. The field would benefit from a more measured assessment of what is new and what remains unknown.
+  - **Resolution test** Revise the discussion to more carefully delineate what is definitively established by the current structures versus what remains speculative. Avoid global statements about "fundamental differences" without comparative experimental data. Focus on the specific new insights provided by the DNA complexes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract and introduction assume significant familiarity with topoisomerase nomenclature and mechanisms. Terms such as "(HhH)2 domains," "AP lyase," and "controlled rotation/swiveling mechanism" are used without brief explanations. The significance of the work for a broader readership would be enhanced by a sentence or two providing context on why topoisomerase V is unusual and why its mechanism matters.
+  - **Required correction** Add brief definitions or context for key terms in the abstract and introduction. For example, explain that (HhH)2 domains are DNA binding motifs, that AP lyase activity is involved in DNA repair, and that the swiveling mechanism is one of the two major strategies for DNA relaxation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Crystallization of complexes of topoisomerase V with DNA"
+  - **Evidence pointer** Results section; Materials and Methods
+  - **Issue** The manuscript states that the asymmetric DNA complex was crystallized with a 38 bp oligonucleotide containing a single abasic site, but later states that the abasic site was not visible in the structure. This is confusing. If the abasic site was not visible, how was it confirmed that the DNA contained the abasic site in the crystal? Was the site disordered, or was it possibly lost during crystallization?
+  - **Required correction** Clarify the status of the abasic site in the asymmetric complex. If it is disordered, state this explicitly. If it was not confirmed in the crystal, acknowledge this limitation and discuss the implications for interpreting the structure as a lesion recognition complex.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Active Site"
+  - **Evidence pointer** Results section; Figure 4 (not provided)
+  - **Issue** The manuscript states that Lys218 is close enough to Tyr226 to contact the P0 phosphate, but also states that Lys218 is not making contacts with DNA. This is somewhat contradictory. If Lys218 is positioned to contact P0 when present, it should be described as poised for interaction rather than not contacting DNA.
+  - **Required correction** Clarify the positioning of Lys218 relative to the active site. If it is positioned to interact with P0 when present, state this clearly. If it is too far even for a modeled P0, state the distance and explain why it is still considered important.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the differences between type IB and IC mechanisms is interesting but would benefit from a more explicit statement of what experimental evidence would distinguish between the proposed models. The authors suggest that the single-stranded region facilitates swiveling, but do not propose a testable hypothesis.
+  - **Required correction** Add a paragraph suggesting specific experiments that could test the proposed mechanism, such as mutational analysis of residues involved in DNA melting, single-molecule FRET to monitor strand separation, or crosslinking studies to capture the swiveling intermediate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (DNA melting claim requires higher confidence density or additional experimental support); R1-M2 (processivity claim requires functional validation); R1-M3 (overstated significance claims should be tempered). Additionally, the manuscript text alone is insufficient for full evaluation; all figures and tables must be provided.
+- **Assessment against Nature-style criteria** 
+  - Originality: The structures are the first for a type IC topoisomerase in complex with DNA, and the observed loop-like wrapping of (HhH)2 domains around DNA is novel. This is a genuine advance.
+  - Scientific importance: The work addresses a fundamental question in topoisomerase biology and provides a structural framework for understanding a unique enzyme. However, the importance is somewhat diminished by the lack of functional validation of the proposed mechanism.
+  - Interdisciplinary readership: The work will appeal to structural biologists, enzymologists, and researchers studying DNA metabolism. The broader significance for fields such as DNA repair and archaeal biology is clear but could be better articulated.
+  - Technical soundness: The crystallographic work appears carefully done based on the text, but the moderate resolutions and anisotropy limit the confidence in detailed mechanistic conclusions. The lack of visible figures and tables prevents full assessment.
+  - Readability for nonspecialists: The manuscript is clearly written for a specialist audience. The abstract and introduction could be more accessible with brief explanations of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structures are valuable and the manuscript addresses an important question. However, the central mechanistic claims require stronger support, either through improved structural data or complementary biochemical experiments. The manuscript should be revised to temper overstatements and to clearly separate established findings from speculative interpretations.
+
+## Risk / unsupported claims
+- The claim that the (HhH)2 domains act as a processivity factor is inferred from the structure but not directly tested. This is plausible but unsupported by the data presented.
+- The claim that DNA melting at the active site is mechanistically relevant to relaxation is based on a single crystal form and requires validation.
+- The statement that type IC enzymes are "fundamentally different from all other topoisomerases" is too broad and not supported by comparative functional data.
+- The assertion that the structures "bring our understanding of type IC enzymes to a similar level as for all other topoisomerases" is overstated given the moderate resolution and lack of mechanistic validation.
+- The manuscript states that the abasic site was introduced to target the repair domain, but the structures do not show direct engagement of the repair domain with the abasic site. The relationship between the observed DNA binding mode and lesion recognition remains unclear.

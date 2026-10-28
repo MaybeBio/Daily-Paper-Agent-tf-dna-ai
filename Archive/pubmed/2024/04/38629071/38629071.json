@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "38629071",
+    "doi": "10.3389/fimmu.2024.1362970",
+    "title": "Single-cell RNA-seq reveals T cell exhaustion and immune response landscape in osteosarcoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: T cell exhaustion in the tumor microenvironment has been demonstrated as a substantial contributor to tumor immunosuppression and progression. However, the correlation between T cell exhaustion and osteosarcoma (OS) remains unclear. METHODS: In our present study, single-cell RNA-seq data for OS from the GEO database was analysed to identify CD8+ T cells and discern CD8+ T cell subsets objectively. Subgroup differentiation trajectory was then used to pinpoint genes altered in response to T cell exhaustion. Subsequently, six machine learning algorithms were applied to develop a prognostic model linked with T cell exhaustion. This model was subsequently validated in the TARGETs and Meta cohorts. Finally, we examined disparities in immune cell infiltration, immune checkpoints, immune-related pathways, and the efficacy of immunotherapy between high and low TEX score groups. RESULTS: The findings unveiled differential exhaustion in CD8+ T cells within the OS microenvironment. Three genes related to T cell exhaustion (RAD23A, SAC3D1, PSIP1) were identified and employed to formulate a T cell exhaustion model. This model exhibited robust predictive capabilities for OS prognosis, with patients in the low TEX score group demonstrating a more favorable prognosis, increased immune cell infiltration, and heightened responsiveness to treatment compared to those in the high TEX score group. CONCLUSION: In summary, our research elucidates the role of T cell exhaustion in the immunotherapy and progression of OS, the prognostic model constructed based on T cell exhaustion-related genes holds promise as a potential method for prognostication in the management and treatment of OS patients.",
+    "keywords": [
+      "T cell exhaustion",
+      "immunotherapy",
+      "osteosarcoma",
+      "prognosis",
+      "tumor immune microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Single-Cell Gene Expression Analysis",
+      "T-Cell Exhaustion",
+      "*Osteosarcoma/genetics",
+      "*Bone Neoplasms/genetics",
+      "Immunity",
+      "Tumor Microenvironment/genetics",
+      "DNA-Binding Proteins",
+      "DNA Repair Enzymes"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Qizhi",
+        "Wang, Yiyan",
+        "Cheng, Jun",
+        "Pan, Boyu",
+        "Zang, Xiaofang",
+        "Liu, Renfeng",
+        "Deng, Youwen"
+      ],
+      "short_names": [
+        "Fan Q",
+        "Wang Y",
+        "Cheng J",
+        "Pan B",
+        "Zang X",
+        "Liu R",
+        "Deng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Orthopedics, Third Hospital of Changsha, Changsha, China.",
+        "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Qizhi",
+        "short_name": "Fan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yiyan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jun",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Boyu",
+        "short_name": "Pan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Hospital of Changsha, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zang, Xiaofang",
+        "short_name": "Zang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Renfeng",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Youwen",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Third Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/17 06:41",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42621985",
+      "42321664",
+      "42179886",
+      "42091739",
+      "41953014",
+      "41683786",
+      "41596454",
+      "41553639",
+      "41399767",
+      "41231422",
+      "41154810",
+      "41112263",
+      "41048788",
+      "40948800",
+      "40941025",
+      "40824419",
+      "40697225",
+      "40672949",
+      "40387572",
+      "40264164",
+      "40170852",
+      "40070565",
+      "40066455",
+      "40027882",
+      "39991153",
+      "39896817",
+      "38909054"
+    ],
+    "refs": [
+      "37345057",
+      "37332039",
+      "37160171",
+      "37154991",
+      "36807566",
+      "36635413",
+      "36612267",
+      "36350991",
+      "35975527",
+      "35967384",
+      "35962453",
+      "35934010",
+      "35799780",
+      "35356464",
+      "35226758",
+      "34642484",
+      "34500044",
+      "33574607",
+      "32958939",
+      "32810311",
+      "32686768",
+      "32401702",
+      "31616443",
+      "31207604",
+      "31113486",
+      "30676822",
+      "29923370",
+      "29050367",
+      "28988646",
+      "28824656",
+      "28650338",
+      "28420326",
+      "28359318",
+      "28251903",
+      "28104840",
+      "28052254",
+      "27956380",
+      "27723811",
+      "27613096",
+      "26962757",
+      "26304877",
+      "26033801",
+      "24113773",
+      "24046840",
+      "23890059",
+      "23460533",
+      "23291864",
+      "21867926",
+      "21739672",
+      "20688898",
+      "19247441",
+      "18846098",
+      "18838617",
+      "17156269",
+      "12091876",
+      "11861606",
+      "10623627",
+      "9490418"
+    ],
+    "similar": [
+      "38629071",
+      "38280005",
+      "39697729",
+      "37889617",
+      "40066455",
+      "42047819",
+      "39431237",
+      "39742274",
+      "37006257",
+      "38169731",
+      "41530714",
+      "38684858",
+      "40433364",
+      "41656832",
+      "40474808",
+      "41681090",
+      "40045162",
+      "40151638",
+      "40141028",
+      "41206435",
+      "40321814",
+      "40383808",
+      "41034982",
+      "37528306",
+      "40895569",
+      "39899181",
+      "37263064",
+      "39983416",
+      "37858131",
+      "39405927",
+      "37090691",
+      "39904693",
+      "40777041",
+      "36816742",
+      "36511103",
+      "40438115",
+      "37936457",
+      "39436466",
+      "38212768",
+      "36973787",
+      "37493251",
+      "39478575",
+      "41425595",
+      "37957420",
+      "41235257",
+      "32854645",
+      "40891683",
+      "40241525",
+      "39614426",
+      "38495503",
+      "37669584",
+      "40105167",
+      "37575253",
+      "40406147",
+      "37457713",
+      "40374042",
+      "41325182",
+      "35967366",
+      "39604668",
+      "40672941",
+      "38078879",
+      "39962461",
+      "41438751",
+      "41234865",
+      "40064955",
+      "40247837",
+      "39136009",
+      "39108264",
+      "41798945",
+      "40230854",
+      "37285835",
+      "40316986",
+      "39174890",
+      "42183229",
+      "41474172",
+      "38225273",
+      "40057601",
+      "38983852",
+      "41558300",
+      "39712023",
+      "39569192",
+      "36275664",
+      "37650991",
+      "33777046",
+      "40356050",
+      "40607387",
+      "37207222",
+      "36189307",
+      "37292257",
+      "38402299",
+      "37465666",
+      "39849233",
+      "35606755",
+      "40165145",
+      "35961204",
+      "38812298",
+      "41631009",
+      "37284314",
+      "35783358",
+      "36065454"
+    ],
+    "review": [
+      "38629071"
+    ],
+    "pmc": [
+      "11018946"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38629071/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38629071",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3664",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1362970",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

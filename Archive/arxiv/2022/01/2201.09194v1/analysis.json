@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2201.09194v1",
+  "title": "Distributed Learning of Generalized Linear Causal Networks",
+  "authors": "Qiaoling Ye; Arash A. Amini; Qing Zhou",
+  "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024 (Early Access)",
+  "published_date": "2022-01-23",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 4,
+  "one_liner_zh": "提出分布式因果网络学习方法DARLS，应用于蛋白-DNA结合网络建模，但核心是因果结构学习而非TF-DNA互作机制建模，方法为统计优化而非AI/物理模拟。",
+  "abstract": "We consider the task of learning causal structures from data stored on multiple machines, and propose a novel structure learning method called distributed annealing on regularized likelihood score (DARLS) to solve this problem. We model causal structures by a directed acyclic graph that is parameterized with generalized linear models, so that our method is applicable to various types of data. To obtain a high-scoring causal graph, DARLS simulates an annealing process to search over the space of topological sorts, where the optimal graphical structure compatible with a sort is found by a distributed optimization method. This distributed optimization relies on multiple rounds of communication between local and central machines to estimate the optimal structure. We establish its convergence to a global optimizer of the overall score that is computed on all data across local machines. To the best of our knowledge, DARLS is the first distributed method for learning causal graphs with such theoretical guarantees. Through extensive simulation studies, DARLS has shown competing performance against existing methods on distributed data, and achieved comparable structure learning accuracy and test-data likelihood with competing methods applied to pooled data across all local machines. In a real-world application for modeling protein-DNA binding networks with distributed ChIP-Sequencing data, DARLS also exhibits higher predictive power than other methods, demonstrating a great advantage in estimating causal networks from distributed data.",
+  "abstract_zh": "我们考虑从存储在多个机器上的数据中学习因果结构的任务，并提出一种新颖的结构学习方法，称为基于正则化似然得分的分布式退火算法（DARLS），以解决此问题。我们通过有向无环图对因果结构进行建模，并使用广义线性模型进行参数化，从而使我们的方法适用于各种类型的数据。为获得高评分的因果图，DARLS模拟退火过程以在拓扑排序空间中进行搜索，其中与某排序兼容的最优图形结构通过分布式优化方法找到。这种分布式优化依赖于本地机器与中央机器之间的多轮通信来估计最优结构。我们证明了其收敛到全局优化器，该优化器基于所有本地机器上的全部数据计算总体得分。据我们所知，DARLS是首个具有此类理论保证的分布式因果图学习方法。通过广泛的模拟研究，DARLS在分布式数据上展现出与现有方法相竞争的性能，并在结构学习准确性和测试数据似然方面，与应用于所有本地机器汇总数据的竞争方法达到了相当水平。在利用分布式ChIP-Sequencing数据建模蛋白质-DNA结合网络的实际应用中，DARLS也表现出比其他方法更高的预测能力，展示了从分布式数据估计因果网络的巨大优势。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2201.09194v1",
+  "source_url": "https://arxiv.org/abs/2201.09194v1",
+  "paper_page_path": "papers/arxiv/2201.09194v1/index.html"
+}

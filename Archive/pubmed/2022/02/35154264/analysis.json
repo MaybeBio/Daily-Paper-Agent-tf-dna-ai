@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35154264",
+  "title": "Identify DNA-Binding Proteins Through the Extreme Gradient Boosting Algorithm.",
+  "authors": "Zhao, Ziye; Yang, Wen; Zhai, Yixiao; Liang, Yingjian; Zhao, Yuming",
+  "journal": "Frontiers in genetics",
+  "published_date": "2022-02-15",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用XGBoost和序列特征预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但无TF-DNA特异性结合或三维互作建模，方法为传统机器学习，可借鉴但深度有限。",
+  "abstract": "The exploration of DNA-binding proteins (DBPs) is an important aspect of studying biological life activities. Research on life activities requires the support of scientific research results on DBPs. The decline in many life activities is closely related to DBPs. Generally, the detection method for identifying DBPs is achieved through biochemical experiments. This method is inefficient and requires considerable manpower, material resources and time. At present, several computational approaches have been developed to detect DBPs, among which machine learning (ML) algorithm-based computational techniques have shown excellent performance. In our experiments, our method uses fewer features and simpler recognition methods than other methods and simultaneously obtains satisfactory results. First, we use six feature extraction methods to extract sequence features from the same group of DBPs. Then, this feature information is spliced together, and the data are standardized. Finally, the extreme gradient boosting (XGBoost) model is used to construct an effective predictive model. Compared with other excellent methods, our proposed method has achieved better results. The accuracy achieved by our method is 78.26% for PDB2272 and 85.48% for PDB186. The accuracy of the experimental results achieved by our strategy is similar to that of previous detection methods.",
+  "abstract_zh": "DNA结合蛋白（DNA-binding proteins, DBPs）的探索是研究生物生命活动的重要方面。生命活动的研究需要DBPs科研成果的支持。许多生命活动的衰退与DBPs密切相关。通常，识别DBPs的检测方法通过生化实验实现，这种方法效率低下，需要大量人力、物力和时间。目前，已有多种计算方法被开发用于检测DBPs，其中基于机器学习（machine learning, ML）算法的计算技术表现出优异性能。在我们的实验中，与其他方法相比，我们的方法使用更少的特征和更简单的识别方式，同时获得了令人满意的结果。首先，我们使用六种特征提取方法从同一组DBPs中提取序列特征。然后，将这些特征信息拼接在一起，并对数据进行标准化处理。最后，使用极端梯度提升（extreme gradient boosting, XGBoost）模型构建有效的预测模型。与其他优秀方法相比，我们提出的方法取得了更好的结果。我们的方法在PDB2272上达到的准确率为78.26%，在PDB186上为85.48%。我们策略所实现的实验结果准确率与先前检测方法相似。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35154264/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35154264/",
+  "paper_page_path": "papers/pubmed/35154264/index.html"
+}

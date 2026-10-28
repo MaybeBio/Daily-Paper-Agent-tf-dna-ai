@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors identify two clusters of LxxLL motifs in NIPBL that regulate NIPBL dynamics, interactome, and transcriptional programs. One cluster interacts with MAU2 and maintains the NIPBL–MAU2 heterodimer. The second cluster binds to ligand-binding domains of steroid receptors. For glucocorticoid receptor (GR), the authors use AlphaFold2 and molecular docking to propose a GR–NIPBL–MAU2 ternary complex and assert its importance in GR-dependent gene regulation. They further state that multiple transcription factors interact with NIPBL–MAU2, likely via interfaces distinct from those characterized for GR.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, detailed methods, statistical reporting, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis linking transcription factors to cohesin loader localization at enhancers. However, the claims as stated are largely qualitative and cannot be evaluated for technical soundness without access to the underlying data. The central assertion of a ternary complex is based on computational predictions, and the functional relevance is asserted without visible quantitative support. The manuscript may hold value for the chromatin biology and nuclear receptor fields, but the current evidence base is insufficient to assess whether the conclusions are established.
+- **Who would be interested in the results, and why** Researchers studying genome architecture, cohesin biology, enhancer function, and steroid receptor signaling would be interested. The proposed mechanism connecting transcription factors to cohesin loading at enhancers could inform understanding of how nuclear receptors influence long-range chromatin interactions and gene regulation. The identification of LxxLL motifs in NIPBL may also interest those studying protein interaction modules in chromatin regulators.
+- **Major strengths** The abstract addresses a significant open question in genome biology, namely how cohesin is targeted to specific chromatin sites. The identification of distinct LxxLL motif clusters with separable functions is a conceptually clean framework. The focus on a ternary complex involving a transcription factor and the cohesin loader is mechanistically appealing and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that AlphaFold2 and molecular docking uncover a GR–NIPBL–MAU2 ternary complex and describe its importance in GR-dependent gene regulation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The existence and functional relevance of the ternary complex are presented as established findings, but the abstract provides no information on experimental validation. Computational predictions from AlphaFold2 and docking are not sufficient to demonstrate that such a complex forms in cells. No mutagenesis, biochemical reconstitution, or cellular validation is described in the abstract.
+  - **Why it matters** The central mechanistic claim of the paper rests on this ternary complex. If the complex is only predicted in silico and not experimentally verified, the conclusion that transcription factors localize cohesin via this specific complex is not supported.
+  - **Resolution test** Provide experimental evidence such as co-immunoprecipitation of endogenous or overexpressed proteins, proximity ligation assays, or mutagenesis of predicted interfaces that disrupt the complex and abolish downstream transcriptional effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that one LxxLL motif cluster interacts with MAU2 and is necessary for maintenance of the NIPBL–MAU2 heterodimer, and that the second cluster binds to ligand-binding domains of steroid receptors.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states these interactions and their functional consequences without presenting any quantitative data. No binding affinities, mutation effects, or phenotypic readouts are visible. The claim that these clusters "regulate NIPBL dynamics, interactome, and NIPBL-dependent transcriptional programs" is broad and unsupported by any specific results in the abstract.
+  - **Why it matters** These claims form the foundation for the proposed mechanism. Without visible evidence for the interaction specificity, the separation of functions between the two clusters, and the downstream transcriptional consequences, the case is not established.
+  - **Resolution test** Present binding data (for example, pull-down or isothermal titration calorimetry), mutation studies showing loss of interaction, and transcriptomic or chromatin analyses demonstrating that these clusters are required for NIPBL-dependent gene regulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that multiple transcription factors interact with NIPBL–MAU2, likely using interfaces other than those characterized for GR.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This claim extends the findings beyond GR to a broad class of transcription factors, but no data are shown to support this generalization. The abstract does not specify which transcription factors were tested, how many, or what methods were used.
+  - **Why it matters** The title and abstract imply a general mechanism for transcription factor-mediated cohesin localization. If the evidence only supports GR, the broader claim is overreaching and could mislead readers about the generality of the mechanism.
+  - **Resolution test** Provide a list of transcription factors tested, the interaction assay used, and the results. If only a small number were tested, temper the claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "we and others have proposed" is vague and does not clarify what is novel in this manuscript versus what is prior hypothesis.
+  - **Required correction** Specify which aspects are newly demonstrated here and which were previously proposed, with appropriate citations in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions AlphaFold2 and molecular docking but gives no indication of the specific algorithms, scoring functions, or validation criteria used.
+  - **Required correction** In the full text, provide detailed methods for the computational pipeline, including any filtering thresholds and independent validation of predicted interfaces.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "localize"
+  - **Evidence pointer** Title and abstract
+  - **Issue** The title states that transcription factors "localize cohesin at enhancers," but the abstract only describes interactions with the loader complex NIPBL/MAU2, not direct evidence of cohesin localization changes.
+  - **Required correction** Clarify whether the manuscript directly measures cohesin localization at enhancers or only infers it from loader interactions. Adjust the title or abstract wording if direct localization data are not presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental evidence to support the existence of the ternary complex, the functional separation of the two LxxLL clusters, or the generalization to multiple transcription factors.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism is conceptually novel in linking transcription factor interactions with the cohesin loader to enhancer targeting. Scientific importance: The question of cohesin targeting is fundamental to genome architecture and gene regulation, so the topic is significant. Interdisciplinary readership: The work would appeal to chromatin biologists, transcription factor researchers, and structural biologists, but the abstract does not make the case accessible to a broader readership. Technical soundness: Cannot be assessed from the abstract alone; computational predictions without visible experimental validation are a concern. Readability for nonspecialists: The abstract is reasonably clear but relies on domain-specific terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient data to support the central claims. A decision would require full access to the manuscript and its experimental validation.
+
+## Risk / unsupported claims
+- The existence of a GR–NIPBL–MAU2 ternary complex is unsupported by the abstract, as only computational predictions are mentioned.
+- The claim that the LxxLL motif clusters regulate NIPBL dynamics, interactome, and transcriptional programs is not supported by any visible quantitative data.
+- The generalization that multiple transcription factors interact with NIPBL–MAU2 via distinct interfaces is unsupported, as no specific factors or data are listed.
+- The title's assertion that transcription factors "localize cohesin at enhancers" is not directly supported by the abstract, which only describes interactions with the loader complex.

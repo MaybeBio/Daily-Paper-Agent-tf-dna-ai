@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and internal consistency of the reported computational study
+- **Shared manuscript claim summary** The authors combine molecular dynamics simulations, self-organizing maps, and protein–DNA docking to characterize the conformational impact of six missense variants in the FOXP1 forkhead DNA-binding domain associated with FOXP1 syndrome, and propose that this integrated pipeline offers a generalizable framework for interpreting missense variant pathogenicity.
+- **Visible evidence base** Main text including Methods, Results, Discussion; references to Supporting Figures 1–7 and Supporting Table S1; no supplementary material was provided for inspection
+- **Missing materials affecting confidence** Supplementary figures and tables (Supporting Figures 1–7, Supporting Table S1); raw MD trajectory data; docking scoring distributions; validation metrics for the SOM clustering; experimental data cited but not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational investigation of six FOXP1 missense variants using MD simulations, SOM-based conformational analysis, and protein–DNA docking. The methodological pipeline is thoughtfully designed and the use of SOMs to dissect conformational macrostates is a commendable approach. However, the study is largely descriptive and the central claim that this framework offers a generalizable paradigm for variant interpretation is not fully established from the evidence provided. Several technical details require clarification, and the link between simulated conformational changes and functional pathogenicity remains speculative in places. The manuscript would benefit from stronger quantitative validation of the SOM clustering, clearer presentation of docking results, and a more cautious framing of the predictive claims.
+- **Who would be interested in the results, and why** Computational biologists and structural bioinformaticians working on variant effect prediction, particularly those interested in transcription factor DNA-binding domains and the application of machine learning to MD data. Clinicians and geneticists studying FOXP1 syndrome may also find the structural insights relevant, though the translational utility is currently limited by the absence of experimental validation.
+- **Major strengths** The integration of MD, SOMs, and docking is methodologically novel and well-motivated. The use of multiple independent MD replicas (10 × 200 ns per system) is a robust sampling strategy. The authors appropriately acknowledge the limitations of their approach, including the use of an isolated domain and in silico substitution of variants. The discussion of the aromatic core around F502 and the identification of candidate structural hotspots is a useful hypothesis-generating contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that SOM analysis "identified distinct conformational macrostates" and that these macrostates differ between WT and mutant systems in a way that reflects functional impact.
+  - **Evidence pointer** Results section "Self-Organizing Maps Identified Different Structural Behavior in FOXP1 FKH Domain"; Figure 3 (referenced but not shown)
+  - **Concern** The SOM clustering is presented as a central analytical outcome, but the manuscript does not provide quantitative validation of the clustering. No metrics such as silhouette scores, cluster stability across independent SOM initializations, or statistical significance of differential cluster occupancy between WT and mutants are reported. The claim that specific clusters correspond to functionally relevant macrostates is therefore not rigorously supported.
+  - **Why it matters** Without quantitative validation, the SOM-based separation of conformational states could be an artifact of the specific training parameters or initialization. The central methodological contribution of the paper depends on the reliability of this clustering.
+  - **Resolution test** Provide silhouette scores or equivalent clustering quality metrics, demonstrate cluster stability across multiple SOM training runs with different random seeds, and report statistical tests (e.g., bootstrapped confidence intervals) for differences in cluster occupancy between WT and each variant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that "mutations residing in helix H3 of the DNA-binding domain" show "reduced interactions with the DNA" and that this is a key finding of the study.
+  - **Evidence pointer** Abstract; Results section "Mutations Impact Helix Propensity and DNA-Binding Competence"; Figure 4 (referenced but not shown); Supporting Figure 7
+  - **Concern** The docking results are described qualitatively. The manuscript reports that clusters A and B "display conformations that do not appear to be favorable for DNA binding" and that F502L shows "docking performance comparable to WT," but no quantitative docking scores, error estimates, or statistical comparisons are provided. The validation MD simulations of the WT, F502L, and R514P complexes are mentioned but only summarized in a supporting figure. The claim of reduced DNA-binding competence for H3 variants is therefore not quantitatively established.
+  - **Why it matters** The reduced DNA-binding interaction is a central conclusion of the paper. Without quantitative docking metrics and statistical comparison across variants, the claim is not supported by the evidence presented.
+  - **Resolution test** Report DockQ score distributions (mean, SD, or median with IQR) for each cluster and each variant, with statistical tests comparing WT to each mutant. Provide time-averaged native contact counts and RMSD values from the complex MD simulations with appropriate error bars.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the same DNA duplex has also been employed to experimentally quantify FOXP1-DNA binding (PMID: 21416545), reinforcing its validity as a FOXP1 forkhead-binding substrate."
+  - **Evidence pointer** Materials and Methods section "Protein–DNA Molecular Docking"
+  - **Concern** The cited reference (PMID: 21416545) is used to justify the choice of DNA sequence for docking. However, the authors do not specify whether the DNA sequence used in their docking is identical to that used in the cited experimental study, nor do they describe how the DNA was modeled (e.g., ideal B-DNA, taken from the crystal structure, or generated de novo). The sequence and structural context of the DNA are critical determinants of docking outcomes.
+  - **Why it matters** If the DNA sequence or structural model differs from the experimentally validated construct, the relevance of the docking results to FOXP1 biology is weakened. Reproducibility requires clear specification of the DNA model.
+  - **Resolution test** State the exact DNA sequence used, its structural source, and confirm that it matches the sequence used in the cited experimental study. If a different sequence was used, justify the choice and discuss potential implications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors speculate that "over longer biological time scales, this core instability will ultimately compromise the global architecture of the FKH domain, leading to impaired DNA recognition or premature protein degradation (turnover) in vivo" for the F502L variant.
+  - **Evidence pointer** Discussion section
+  - **Concern** This statement extends the simulation findings to in vivo consequences without direct experimental evidence. While the authors acknowledge this is speculative, the phrasing in the Discussion could be read as a stronger claim than the data support. The manuscript would benefit from clearly distinguishing between simulation-derived hypotheses and experimentally established facts.
+  - **Why it matters** Overinterpretation of computational results can mislead readers, particularly those less familiar with the limitations of MD simulations. The distinction between hypothesis and established finding is important for scientific accuracy.
+  - **Resolution test** Rephrase to explicitly label this as a hypothesis requiring experimental testing, and consider adding a sentence on what experimental evidence would be needed to confirm the prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods section "Prioritization of FOXP1 Missense Genetic Variants for the Modeling"
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "as reported by Trelles et al., six de novo missense variants were identified within the forkhead-binding domain in patients clinically diagnosed with FOXP1 syndrome" is missing a citation. The reference to Trelles et al. is mentioned in the text but not formally cited.
+  - **Required correction** Add the full citation for Trelles et al. in the reference list and ensure it is properly cited in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods section "Molecular Dynamics (MD)"
+  - **Evidence pointer** Location not provided
+  - **Issue** The equilibration protocol describes a gradual reduction of positional restraints, but the final step before production is described as "a second 10 ns equilibration phase commenced, during which the restraints were reduced to 50 kJ mol–1 and nm–2." The phrase "50 kJ mol–1 and nm–2" is ambiguous; it should be "50 kJ mol–1 nm–2."
+  - **Required correction** Correct the units to "50 kJ mol–1 nm–2" for consistency with the rest of the protocol.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "The DNA-Binding Domain of FOXP1 Carrying Patient-Specific Mutations Shows Altered Local Flexibility"
+  - **Evidence pointer** Figure 1 (referenced but not shown)
+  - **Issue** The text states "We also included V513A, which was classified with conflicting interpretation" but does not explain why this variant was included despite the conflicting classification. A brief justification would strengthen the variant selection rationale.
+  - **Required correction** Add one or two sentences explaining the rationale for including V513A despite its conflicting clinical classification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods section "Self-Organizing Maps (SOMs)"
+  - **Evidence pointer** Location not provided
+  - **Issue** The PathDetect-SOM software is cited, but the specific version and any non-default parameters beyond the grid size and toroidal topology are not described. For reproducibility, the training parameters (e.g., learning rate, neighborhood function, number of training epochs) should be specified.
+  - **Required correction** Provide the software version and all relevant training parameters, or state that default parameters were used and specify what those defaults are.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "Mutations Impact Helix Propensity and DNA-Binding Competence"
+  - **Evidence pointer** Supporting Figure 7
+  - **Issue** The validation MD simulations of the WT, F502L, and R514P complexes are described as confirming docking-based trends, but no quantitative metrics are reported in the main text. The reader is referred to a supporting figure without any summary statistics.
+  - **Required correction** Include a brief summary of the key quantitative results from the complex MD simulations in the main text (e.g., mean native contact counts with standard deviations) to support the stated conclusions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction section
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction states that "no clear genotype-phenotype correlations have been established" for FOXP1 syndrome, but does not cite the specific studies that have attempted such correlations. Adding citations would strengthen the claim and provide context.
+  - **Required correction** Add appropriate citations for studies that have examined genotype-phenotype correlations in FOXP1 syndrome.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SOM clustering validation), R1-M2 (quantitative docking and complex MD metrics), R1-M3 (DNA model specification)
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of MD, SOMs, and docking for variant effect analysis is a novel methodological integration, though each individual component is well-established. The application to FOXP1 variants is new.
+  - **Scientific importance** The work addresses a relevant problem in variant interpretation, but the conclusions are largely descriptive and the generalizability claim is not fully demonstrated. The importance is moderate and would be strengthened by experimental validation or application to additional protein systems.
+  - **Interdisciplinary readership** The work bridges computational biophysics, machine learning, and clinical genetics, which could appeal to a broad audience. However, the presentation is heavily technical and may be challenging for readers without a computational background.
+  - **Technical soundness** The MD simulation protocol is standard and appropriate. The SOM methodology is reasonable but lacks quantitative validation. The docking approach is sound in principle but the results are not presented with sufficient quantitative detail.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes familiarity with MD simulations, SOMs, and docking. The abstract and introduction are accessible, but the methods and results sections would benefit from additional context for nonspecialist readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The methodological framework is promising and the study addresses a relevant problem, but the central claims require stronger quantitative support and clearer presentation of the evidence.
+
+## Risk / unsupported claims
+- The claim that SOM analysis identifies "distinct conformational macrostates" that differ between WT and variants is not quantitatively validated (no clustering quality metrics or statistical tests).
+- The claim that H3 mutations show "reduced interactions with the DNA" is not supported by quantitative docking scores or statistical comparisons.
+- The speculation that F502L will lead to "impaired DNA recognition or premature protein degradation in vivo" is not supported by experimental evidence and should be clearly labeled as a hypothesis.
+- The statement that the DNA duplex from PMID: 21416545 is a valid substrate for FOXP1 docking is not fully substantiated without confirming sequence identity and structural context.
+- The generalizability claim that the pipeline "can be readily applied to other protein systems" is not demonstrated beyond the single FOXP1 case presented.

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report development of machine learning and deep learning models for predicting DNA-interacting residues in proteins, trained on 646 DNA-binding proteins and evaluated on an independent set of 46 proteins with less than 30% sequence similarity to the training set. They report best AUROC values of 0.77 (XGBoost, PSSM) and 0.79 (1D-CNN, combined features), and claim outperformance of existing methods. Software and web server are provided.
+- **Visible evidence base** Abstract text only; no dataset details, model architecture specifics, hyperparameters, performance metrics beyond AUROC, or comparison methodology are provided
+- **Missing materials affecting confidence** Full methods, dataset composition and redundancy filtering details, feature encoding specifics, model training and validation procedures, baseline method implementations, statistical significance tests, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the field of protein-DNA interaction prediction, with a reasonable dataset size and an independent evaluation set. However, the evidence provided is insufficient to assess the technical soundness of the approach or the validity of the claimed outperformance. The lack of methodological detail and statistical rigor limits the current evaluability of the work.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, DNA-binding site prediction, and machine learning applications in structural biology. The availability of a web server and standalone software may also interest experimentalists seeking predictive tools for functional characterization of proteins.
+- **Major strengths** The use of an independent test set with low sequence similarity to training data is a commendable design choice for assessing generalization. The comparison of traditional machine learning and deep learning approaches across multiple feature types is a systematic strategy. The provision of accessible software tools is a practical strength for community adoption.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that the proposed method outperformed all existing methods on the independent dataset  
+  - **Evidence pointer** Abstract, performance comparison statement; location not provided  
+  - **Concern** The abstract states that the proposed method outperformed all existing methods, but no details are given on which methods were compared, how they were implemented, whether hyperparameters were optimized fairly, or whether statistical significance of performance differences was assessed.  
+  - **Why it matters** Without a transparent and fair comparison protocol, the claim of superiority cannot be verified. Differences in AUROC of 0.02 (0.77 vs 0.79) may not be statistically meaningful, and the absence of confidence intervals or significance testing undermines the robustness of the conclusion.  
+  - **Resolution test** Provide a detailed comparison table with multiple existing methods, describe implementation and tuning procedures, and report statistical significance tests (e.g., DeLong test for AUROC) with p-values or confidence intervals.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The description of model development using "binary, physicochemical properties and PSSM/evolutionary profiles"  
+  - **Evidence pointer** Abstract, methods description; location not provided  
+  - **Concern** The abstract does not specify the exact feature encoding schemes, the architecture of the 1D-CNN (number of layers, filter sizes, pooling, regularization), or the training procedure (optimizer, loss function, early stopping, class imbalance handling). The dataset is highly imbalanced (15,636 positive vs 298,503 negative residues), and no mention is made of how this was addressed.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other researchers cannot replicate the models or assess whether the reported performance is due to methodological choices or artifacts of implementation.  
+  - **Resolution test** Provide full model architecture, training hyperparameters, feature construction details, and a clear description of class imbalance handling in the methods section.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Evaluation rigor  
+  - **Claim pointer** The reported AUROC values of 0.77 and 0.79 on the independent dataset  
+  - **Evidence pointer** Abstract, results; location not provided  
+  - **Concern** Only AUROC is reported. For an imbalanced classification problem, AUROC can be overly optimistic, and additional metrics such as precision, recall, F1-score, Matthews correlation coefficient, and precision-recall AUC are needed to assess practical utility.  
+  - **Why it matters** AUROC alone does not reflect performance at the operating threshold relevant for biological discovery. A model with high AUROC may still have poor precision, limiting its usefulness for predicting DNA-interacting residues in practice.  
+  - **Resolution test** Report a comprehensive set of evaluation metrics, including precision-recall AUC, and discuss threshold selection and its implications for users.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dataset representativeness  
+  - **Claim pointer** The independent dataset of 46 proteins with less than 30% sequence similarity to the training set  
+  - **Evidence pointer** Abstract, dataset description; location not provided  
+  - **Concern** The abstract does not describe how the independent dataset was constructed, whether it covers diverse protein families and structural classes, or whether the sequence similarity threshold was applied consistently across the entire training set.  
+  - **Why it matters** A biased or non-representative independent set could inflate or deflate performance estimates. The generalizability of the model to unseen protein families depends on the diversity of the evaluation set.  
+  - **Resolution test** Describe the construction of the independent dataset, including source databases, redundancy removal procedure, and distribution of protein families or folds.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, feature description  
+  - **Evidence pointer** Abstract, "binary, physicochemical properties and PSSM/evolutionary profiles"  
+  - **Issue** The term "binary" is ambiguous; it could refer to binary encoding of amino acid identity or binary labels.  
+  - **Required correction** Clarify what "binary" features represent in the methods section.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Accessibility  
+  - **Affected element** Web server and software availability  
+  - **Evidence pointer** Abstract, URL provided  
+  - **Issue** The abstract states the tools are accessible, but no license, operating system requirements, or usage examples are mentioned.  
+  - **Required correction** Provide a brief description of software dependencies, installation instructions, and a usage example in the main text or supplementary material.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Performance comparison  
+  - **Evidence pointer** Abstract, AUROC values  
+  - **Issue** The difference between 0.77 and 0.79 is small, and no variance or confidence intervals are reported.  
+  - **Required correction** Report standard deviations or confidence intervals for performance metrics, ideally from multiple runs or cross-validation.
+
+## Risk / unsupported claims
+- The claim of outperforming all existing methods is unsupported without a detailed comparison protocol and statistical testing.
+- The reported AUROC values cannot be independently verified without access to the full results and evaluation code.
+- The generalizability of the model beyond the described datasets is not assessable from the abstract alone.
+- The practical utility of the tool for end users cannot be evaluated without additional performance metrics and usability documentation.

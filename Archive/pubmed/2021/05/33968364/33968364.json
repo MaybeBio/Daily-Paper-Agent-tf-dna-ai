@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "33968364",
+    "doi": "10.12688/f1000research.50850.3",
+    "title": "Identifying potential drug targets and candidate drugs for COVID-19: biological networks and structural modeling approaches."
+  },
+  "content": {
+    "abstract": "Background: Coronavirus (CoV) is an emerging human pathogen causing severe acute respiratory syndrome (SARS) around the world. Earlier identification of biomarkers for SARS can facilitate detection and reduce the mortality rate of the disease. Thus, by integrated network analysis and structural modeling approach, we aimed to explore the potential drug targets and the candidate drugs for coronavirus medicated SARS. Methods: Differentially expression (DE) analysis of CoV infected host genes (HGs) expression profiles was conducted by using the Limma. Highly integrated DE-CoV-HGs were selected to construct the protein-protein interaction (PPI) network.  Results: Using the Walktrap algorithm highly interconnected modules include module 1 (202 nodes); module 2 (126 nodes) and module 3 (121 nodes) modules were retrieved from the PPI network. MYC, HDAC9, NCOA3, CEBPB, VEGFA, BCL3, SMAD3, SMURF1, KLHL12, CBL, ERBB4, and CRKL were identified as potential drug targets (PDTs), which are highly expressed in the human respiratory system after CoV infection. Functional terms growth factor receptor binding, c-type lectin receptor signaling, interleukin-1 mediated signaling, TAP dependent antigen processing and presentation of peptide antigen via MHC class I, stimulatory T cell receptor signaling, and innate immune response signaling pathways, signal transduction and cytokine immune signaling pathways were enriched in the modules. Protein-protein docking results demonstrated the strong binding affinity (-314.57 kcal/mol) of the ERBB4-3cLpro complex which was selected as a drug target. In addition, molecular dynamics simulations indicated the structural stability and flexibility of the ERBB4-3cLpro complex. Further, Wortmannin was proposed as a candidate drug to ERBB4 to control SARS-CoV-2 pathogenesis through inhibit receptor tyrosine kinase-dependent macropinocytosis, MAPK signaling, and NF-kb singling pathways that regulate host cell entry, replication, and modulation of the host immune system. Conclusion: We conclude that CoV drug target \"ERBB4\" and candidate drug \"Wortmannin\" provide insights on the possible personalized therapeutics for emerging COVID-19.",
+    "keywords": [
+      "Biological network analysis",
+      "COVID-19",
+      "ERBB4",
+      "Limma",
+      "SARS-CoV-2",
+      "Walktrap algorithm",
+      "drug targets",
+      "growth factor receptor binding",
+      "protein-protein docking",
+      "signal transduction pathways",
+      "wortmannin"
+    ],
+    "mesh_terms": [
+      "Adaptor Proteins, Signal Transducing",
+      "*COVID-19",
+      "Humans",
+      "Nuclear Receptor Coactivator 3",
+      "*Pharmaceutical Preparations",
+      "Protein Binding",
+      "Protein Interaction Maps",
+      "SARS-CoV-2",
+      "Ubiquitin-Protein Ligases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Selvaraj, Gurudeeban",
+        "Kaliamurthi, Satyavani",
+        "Peslherbe, Gilles H",
+        "Wei, Dong-Qing"
+      ],
+      "short_names": [
+        "Selvaraj G",
+        "Kaliamurthi S",
+        "Peslherbe GH",
+        "Wei DQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7223-3853",
+        "ORCID: 0000-0002-3604-8810"
+      ],
+      "affiliations": [
+        "Centre for Research in Molecular Modeling, Concordia University, Montreal, Quebec, H4B 1R6, Canada.",
+        "Centre of Interdisciplinary Science-Computational Life Sciences, College of Chemistry and Chemical Engineering,, Henan University of Technology, Zhengzhou, Henan, 450001, China.",
+        "Centre for Research in Molecular Modeling, Concordia University, Montreal, Quebec, H4B 1R6, Canada.",
+        "Centre of Interdisciplinary Science-Computational Life Sciences, College of Chemistry and Chemical Engineering,, Henan University of Technology, Zhengzhou, Henan, 450001, China.",
+        "Centre for Research in Molecular Modeling, Concordia University, Montreal, Quebec, H4B 1R6, Canada.",
+        "Centre of Interdisciplinary Science-Computational Life Sciences, College of Chemistry and Chemical Engineering,, Henan University of Technology, Zhengzhou, Henan, 450001, China.",
+        "The State Key Laboratory of Microbial Metabolism, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, Shanghai, 200240, China.",
+        "IASIA (International Association of Scientists in the Interdisciplinary Areas), 125 Boul. de Bromont, Quebec, J2L 2K7, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Selvaraj, Gurudeeban",
+        "short_name": "Selvaraj G",
+        "identifiers": [
+          "0000-0002-7223-3853"
+        ],
+        "affiliations": [
+          "Centre for Research in Molecular Modeling, Concordia University, Montreal, Quebec, H4B 1R6, Canada.",
+          "Centre of Interdisciplinary Science-Computational Life Sciences, College of Chemistry and Chemical Engineering,, Henan University of Technology, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Kaliamurthi, Satyavani",
+        "short_name": "Kaliamurthi S",
+        "identifiers": [
+          "0000-0002-3604-8810"
+        ],
+        "affiliations": [
+          "Centre for Research in Molecular Modeling, Concordia University, Montreal, Quebec, H4B 1R6, Canada.",
+          "Centre of Interdisciplinary Science-Computational Life Sciences, College of Chemistry and Chemical Engineering,, Henan University of Technology, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Peslherbe, Gilles H",
+        "short_name": "Peslherbe GH",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Research in Molecular Modeling, Concordia University, Montreal, Quebec, H4B 1R6, Canada."
+        ]
+      },
+      {
+        "full_name": "Wei, Dong-Qing",
+        "short_name": "Wei DQ",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Interdisciplinary Science-Computational Life Sciences, College of Chemistry and Chemical Engineering,, Henan University of Technology, Zhengzhou, Henan, 450001, China.",
+          "The State Key Laboratory of Microbial Metabolism, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, Shanghai, 200240, China.",
+          "IASIA (International Association of Scientists in the Interdisciplinary Areas), 125 Boul. de Bromont, Quebec, J2L 2K7, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "F1000Research"
+    ],
+    "journal_abbrev": [
+      "F1000Res"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/28 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "40760666",
+      "40353411",
+      "39234462",
+      "39222407",
+      "38866560",
+      "38575325",
+      "37814484",
+      "37759595",
+      "37360529",
+      "37109050",
+      "37084641",
+      "36913345",
+      "36016137",
+      "35728510",
+      "35390032",
+      "35282650",
+      "35277538",
+      "34209188"
+    ],
+    "refs": [],
+    "similar": [
+      "33968364",
+      "33553808",
+      "37026010",
+      "33469663",
+      "33691446",
+      "33606519",
+      "35751199",
+      "35277538",
+      "32522207",
+      "33567255",
+      "33711981",
+      "33726831",
+      "33801464",
+      "34535131",
+      "35409008",
+      "32646047",
+      "33333742",
+      "33500022",
+      "33550350",
+      "32738306",
+      "33860983",
+      "32599245",
+      "33847347",
+      "33744846",
+      "32604730",
+      "35069542",
+      "32805314",
+      "33158276",
+      "33073355",
+      "32895641",
+      "33839760",
+      "34712201",
+      "38365632",
+      "38263024",
+      "33413329",
+      "34177566",
+      "34911854",
+      "34394108",
+      "35727093",
+      "36048718",
+      "38370514",
+      "34580601",
+      "34058750",
+      "33645482",
+      "33957338",
+      "34348612",
+      "37140561",
+      "33941085",
+      "35603378",
+      "33611340",
+      "35290538",
+      "34228437",
+      "33965637",
+      "34826456",
+      "34105503",
+      "39045234",
+      "34902553",
+      "34496960",
+      "34004362",
+      "37070032",
+      "37017853",
+      "35033428",
+      "34832669",
+      "32714115",
+      "36124586",
+      "35663983",
+      "35519104",
+      "33244381",
+      "34791019",
+      "38694063",
+      "34441862",
+      "34892188",
+      "34181169",
+      "32838020",
+      "35215201",
+      "34399157",
+      "37597114",
+      "34832615",
+      "34020127",
+      "36859360",
+      "36721384",
+      "32393985",
+      "35885993",
+      "35464051",
+      "35601483",
+      "35646907",
+      "27663205",
+      "37463554",
+      "32802131",
+      "34539756",
+      "37606960",
+      "36543855",
+      "35947116",
+      "36192392",
+      "34966926",
+      "24128261",
+      "34567845",
+      "35839768",
+      "35676404",
+      "38187394",
+      "33230386",
+      "32579065",
+      "33565875",
+      "35224468",
+      "33719051",
+      "33209992",
+      "34803696",
+      "35434729",
+      "38675393",
+      "36267550",
+      "32511379",
+      "35480316",
+      "33263073",
+      "35992221",
+      "33364445",
+      "33330858",
+      "34635287",
+      "32994058",
+      "34230027",
+      "37636076",
+      "34710952",
+      "34611658",
+      "37822585",
+      "33762960",
+      "33225405",
+      "33769268",
+      "37602463",
+      "34278363",
+      "36389817",
+      "33666902",
+      "35923315",
+      "33635496",
+      "35027394",
+      "35677421",
+      "34154830",
+      "37503262",
+      "36493355",
+      "36974157",
+      "33083801",
+      "34188330",
+      "35329141",
+      "36483456",
+      "34127975",
+      "33096221",
+      "35422702",
+      "36243968",
+      "33550030",
+      "35837004",
+      "33173863",
+      "34522848",
+      "34261299",
+      "34312434",
+      "33853780",
+      "37397625",
+      "19740696",
+      "33838999",
+      "24827872"
+    ],
+    "review": [
+      "33968364",
+      "33860983",
+      "32604730",
+      "33073355",
+      "38263024",
+      "35033428",
+      "36192392",
+      "33230386",
+      "33263073",
+      "34230027"
+    ],
+    "pmc": [
+      "8080978"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/medicines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Medicines"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33968364/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33968364",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1256",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://f1000research.com/articles/10.12688/f1000research.50850.3/doi",
+        "provider": "F1000 Research Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33968364",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33968364",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

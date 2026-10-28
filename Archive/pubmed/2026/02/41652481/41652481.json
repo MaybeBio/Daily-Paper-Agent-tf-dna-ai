@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "41652481",
+    "doi": "10.1186/s40001-026-04000-z",
+    "title": "Identification of glycosylation-related gene signatures associated with coronary artery disease via integrated transcriptomic and machine learning analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: On a global scale, coronary artery disease (CAD) continues to be one of the leading causes of morbidity and death. Glycosylation, a vital post-translational modification, has been linked to a range of cardiovascular conditions, including CAD. This study aims to systematically identify and validate glycosylation-based prognostic biomarkers for CAD, with the ultimate goal of developing a novel clinical diagnostic tool. METHODS: We sourced and pre-processed CAD data sets (GSE20680, GSE20681, GSE42148) from the Gene Expression Omnibus (GEO) database, which comprised 199 CAD samples and 162 control samples post batch effect removal. DE analysis was executed using the R software to pinpoint glycosylation-related differentially expressed genes (GRDEGs), whose functional enrichment analysis was conducted subsequently. Risk scores were calculated using a diagnostic model that was built employing logistic regression (LR), support vector machine (SVM) algorithms, and least absolute shrinkage and selection operator (LASSO) regression analysis. The model further underwent validation employing receiver operating characteristic (ROC) curves, calibration plots, as well as decision curve analysis (DCA). The infiltrated abundance of the immune cells between the high-risk group (HRG) and low-risk group (LRG) was then analyzed by ssGSEA to explore the effect of the GRDEG-based prognostic signatures on the immune response. Furthermore, the interaction networks were constructed to explore the potential regulatory mechanisms and therapy approaches based on the GRDEGs. Finally, the levels of the GRDEG-based prognostic signatures in CAD samples were detected using qRT-PCR and western blotting. RESULTS: Thirty-nine GRDEGs were significantly and differently expressed between the CAD and control groups, which predominantly participate in protein glycosylation and N-Glycan biosynthesis pathways. Among these genes, seven GRDEGs were identified as the prognostic risk signatures, including F5, MGAT4A, HSPG2, ARSB, TUBB3, ST6GAL1, and CAMLG. Based on these genes, the CAD samples were separated into HRG and LRG, and the ICI between HRG and LRG were shown to be significantly different. The constructed interaction networks further suggested that the seven GRDEGs were regulated by several microRNAs (miRNAs), transcription factors (TFs), and RNA-binding proteins (RBPs), and they were the target genes of some chemical drugs. Finally, the outcomes of qRT-PCR and western blotting demonstrated that there were significant variations in expressing these seven key genes in CAD. CONCLUSIONS: This study establishes the critical role of GRDEGs in CAD pathogenesis and presents a robust diagnostic model with potential clinical utility. Furthermore, our findings reveal novel molecular targets that may inform future therapeutic strategies for CAD.",
+    "keywords": [
+      "Biomarker",
+      "Coronary artery disease",
+      "Glycosylation",
+      "Prognostic risk model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Kangjun",
+        "Wang, Meng",
+        "Zhang, Lin",
+        "Li, Zhaoshui",
+        "Wang, Hongjing",
+        "Jiang, Ting"
+      ],
+      "short_names": [
+        "Fan K",
+        "Wang M",
+        "Zhang L",
+        "Li Z",
+        "Wang H",
+        "Jiang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiac Surgery Department, Affiliated Hospital of Jining Medical University, Jining, China.",
+        "Outpatient Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China.",
+        "Heart Center Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China.",
+        "Department of Cardiac Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. 2021010101@qdu.edu.cn.",
+        "Heart Center Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China. wanghongjingqd@163.com.",
+        "Heart Center Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China. jiangting@qdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Kangjun",
+        "short_name": "Fan K",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiac Surgery Department, Affiliated Hospital of Jining Medical University, Jining, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Meng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Outpatient Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Heart Center Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhaoshui",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiac Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. 2021010101@qdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongjing",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Heart Center Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China. wanghongjingqd@163.com."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ting",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Heart Center Department, Qingdao Traditional Chinese Medicine Hospital, Qingdao Hiser Hospital Affiliated of Qingdao University, Qingdao, China. jiangting@qdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2026 Feb 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/07 06:33",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41652481",
+      "41257878",
+      "41151411",
+      "38987688",
+      "36684561",
+      "38573982",
+      "41006883",
+      "36743388",
+      "38880872",
+      "28760552",
+      "41291841",
+      "40376515",
+      "41324863",
+      "39586719",
+      "40918403",
+      "41407774",
+      "39507054",
+      "41415264",
+      "41409744",
+      "38629070",
+      "40901831",
+      "39974385",
+      "41102315",
+      "41388523",
+      "39341981",
+      "39403102",
+      "36532015",
+      "39875572",
+      "39346078",
+      "40379803",
+      "35709926",
+      "41049291",
+      "34530741",
+      "41322408",
+      "41432483",
+      "34552349",
+      "38076334",
+      "37662825",
+      "40830558",
+      "35151267",
+      "37783761",
+      "36222281",
+      "39509434",
+      "39396400",
+      "40785668",
+      "37691276",
+      "39142001",
+      "40124544",
+      "41472876",
+      "41342434",
+      "40855234",
+      "37608687",
+      "41563994",
+      "39953122",
+      "39080630",
+      "40804485",
+      "35928610",
+      "41078717",
+      "35713363",
+      "41200172",
+      "39958919",
+      "39827515",
+      "41120378",
+      "38951833",
+      "36064568",
+      "34532380",
+      "41188996",
+      "40374840",
+      "39965388",
+      "39650552",
+      "39891059",
+      "37821907",
+      "39904830",
+      "40949924",
+      "36792688",
+      "41305834",
+      "40207815",
+      "39556279",
+      "40360670",
+      "40084401",
+      "40759870",
+      "38229693",
+      "35934844",
+      "40205433",
+      "39263286",
+      "41583295",
+      "41479901",
+      "36915125",
+      "39697326",
+      "41316378",
+      "31803536",
+      "38291374",
+      "39742022",
+      "40860289",
+      "35938015",
+      "36948405",
+      "40747105",
+      "36620624",
+      "40034693",
+      "39959641"
+    ],
+    "review": [
+      "41652481",
+      "34530741"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-026-04000-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-466",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

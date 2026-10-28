@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "42636658",
+    "doi": "10.1016/j.tranon.2026.102983",
+    "title": "Single-cell and bulk transcriptomic profiling of M2-like tumor-associated macrophages reveals a prognostic signature and an inflammation-metabolism crosstalk program in multiple myeloma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: M2-like tumor-associated macrophages (TAMs) contribute to multiple myeloma (MM) progression and treatment resistance, yet their internal heterogeneity remains poorly understood. We used single-cell RNA sequencing (scRNA-seq) with bulk transcriptomic cohorts to resolve MM-specific M2-TAM subpopulations and develop a prognostic signature. METHODS: scRNA-seq data from MM and normal bone marrow (GSE124310, GSE278230) were processed after quality filtering and Harmony batch correction. M2 macrophages were sub-clustered; MM-restricted subclusters (MM-M2) were identified by Ro/e analysis and SCENIC. Intercellular signaling was characterized via CellChat and CellCall; trajectories were reconstructed with Monocle 2. hdWGCNA co-expression modules were intersected with differentially expressed genes (GSE6477), and candidates were evaluated across 101 configurations of ten machine learning algorithms to build a consensus prognostic model (MRGs). GSE9782 served as training; GSE57317 as validation. Immune infiltration was estimated with ESTIMATE and six deconvolution tools; drug sensitivity via CTRP and PRISM. RESULTS: Seven M2 subclusters were nearly absent in normal marrow but enriched in MM (MM-M2), each with a distinct transcription factor profile. Ligand-receptor signaling involving MM-M2 cells, plasma cells, and stromal cells was markedly stronger in MM. MRGs stratified patients by survival in both cohorts: high-risk patients showed an immune-depleted microenvironment; low-risk patients had greater immune infiltration. Drug sensitivity also differed between risk groups. MM-M2 macrophages showed a hypoxia-associated transcriptional pattern, with higher hypoxia scores and lower oxidative-phosphorylation scores, that correlated with inflammatory pathway scores at both the single-cell and patient levels. CONCLUSION: This study identified a previously unrecognized MM-specific M2-TAM subpopulation and derived a prognostic signature (MRGs) predicting survival, reflecting immune microenvironment composition, and nominating candidate therapeutic compounds for more precise MM risk stratification.",
+    "keywords": [
+      "Hypoxia",
+      "Immunometabolism",
+      "Inflammation-metabolism crosstalk",
+      "M2 tumor-associated macrophages",
+      "Machine learning",
+      "Multiple myeloma",
+      "Single-cell RNA sequencing",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Hui",
+        "Kang, Jing",
+        "Ouyang, Huiling",
+        "Lv, Xiaye",
+        "Huang, Ziying",
+        "Zhao, Bingni",
+        "Wang, Kai"
+      ],
+      "short_names": [
+        "Zhao H",
+        "Kang J",
+        "Ouyang H",
+        "Lv X",
+        "Huang Z",
+        "Zhao B",
+        "Wang K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China.",
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China.",
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China.",
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China.",
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China.",
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China.",
+        "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China. Electronic address: wangkaiceleron@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Hui",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Jing",
+        "short_name": "Kang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Huiling",
+        "short_name": "Ouyang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Xiaye",
+        "short_name": "Lv X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ziying",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bingni",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Oncology and Radiotherapy, Honghui Hospital, Xi'an Jiaotong University, Xi'an, 710000, Shaanxi, China. Electronic address: wangkaiceleron@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational oncology"
+    ],
+    "journal_abbrev": [
+      "Transl Oncol"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/24 23:34",
+    "fetched_at": "2026-10-02 04:26:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42636658",
+      "41656832",
+      "41601657",
+      "41234865",
+      "41716413",
+      "40764361",
+      "42529293",
+      "42392347",
+      "41766871",
+      "41704537",
+      "42445388",
+      "36177006",
+      "42227003",
+      "42305453",
+      "42639041",
+      "42035196",
+      "41948724",
+      "41208987",
+      "42510824",
+      "41425595",
+      "41535649",
+      "41314067",
+      "41660555",
+      "42495647",
+      "42180849",
+      "40936758",
+      "41006377",
+      "42169914",
+      "42422066",
+      "42539625",
+      "42500577",
+      "42079608",
+      "41498033",
+      "40842994",
+      "41235257",
+      "40496864",
+      "41859299",
+      "36973787",
+      "41567189",
+      "42180956",
+      "42467357",
+      "38886907",
+      "40438115",
+      "42439349",
+      "40873572",
+      "39762897",
+      "42359574",
+      "39221762",
+      "40092698",
+      "41756290",
+      "39799269",
+      "42180968",
+      "39877420",
+      "42564958",
+      "38802881",
+      "41840566",
+      "42468280",
+      "40201390",
+      "40330458",
+      "41710887",
+      "41201629",
+      "40936936",
+      "40064955",
+      "41693709",
+      "41242266",
+      "41943031",
+      "39904693",
+      "41049291",
+      "41268553",
+      "41491450",
+      "42420840",
+      "42211756",
+      "41736104",
+      "40821793",
+      "41050668",
+      "42694321",
+      "38023180",
+      "35247207",
+      "37675100",
+      "42079738",
+      "42265520",
+      "42212140",
+      "41436831",
+      "42292420",
+      "42183963",
+      "42079653",
+      "42591570",
+      "40330470",
+      "41657770",
+      "40029500",
+      "39938577",
+      "40382612",
+      "41665790",
+      "42591770",
+      "41612311",
+      "42391672",
+      "41674779",
+      "42255486",
+      "42040898",
+      "41944114"
+    ],
+    "review": [
+      "42636658"
+    ],
+    "pmc": [
+      "13542500"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1936-5233(26)00319-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42636658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CALR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1936-5233(26)00319-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

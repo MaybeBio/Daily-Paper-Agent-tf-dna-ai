@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a discrete-state stochastic model to describe the search and binding of AHL-bound LuxR-type proteins to specific DNA target sites in quorum-sensing Gram-negative bacteria. They claim that the rate of AHL-bound LuxR formation, its dissociation to free AHL, AHL diffusion in and out of cells, positive feedback loops, and cell population density significantly influence the protein target search and gene regulation. They also report that Monte Carlo simulations supplement their analytical calculations and that the model provides physical insights into the underlying mechanisms.
+- **Visible evidence base** Abstract text only; no equations, parameter values, simulation details, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model derivation, simulation methodology, parameter choices, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting theoretical framework for a biologically relevant problem, namely how quorum-sensing dynamics might couple to intracellular protein-DNA search processes. However, the abstract alone provides insufficient detail to evaluate the validity, novelty, or robustness of the model. The claims are broad and qualitative, and the evidence base is not accessible. The work may be of interest to biophysicists and systems biologists, but the current submission cannot be assessed for technical soundness or scientific impact without the full manuscript.
+- **Who would be interested in the results, and why** Biophysicists studying protein-DNA target search mechanisms, systems biologists working on bacterial quorum sensing and gene regulatory networks, and researchers interested in stochastic models of intracellular processes. The potential link between population-level signaling and single-molecule search dynamics could attract a cross-disciplinary audience.
+- **Major strengths** The topic addresses a relevant and under-explored intersection of quorum sensing and protein-DNA search dynamics. The use of a discrete-state stochastic approach with Monte Carlo simulations suggests a rigorous methodological intent. The abstract identifies multiple biologically plausible factors that could modulate search efficiency, which may generate testable predictions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that several factors, including the rate of AHL-bound LuxR formation, dissociation to free AHL, AHL diffusion in and out of cells, positive feedback loops, and cell population density, "play important roles in the protein target search and can control the gene regulation processes."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract provides no quantitative results, no model equations, no parameter values, and no simulation outcomes that would substantiate this claim. It is unclear how each factor was varied, what the magnitude of the effects was, or whether the effects were synergistic or independent.  
+  - **Why it matters** Without quantitative evidence, the claim that these factors "play important roles" is unsupported. The reader cannot assess whether the model predictions are robust, biologically plausible, or distinguishable from null expectations.  
+  - **Resolution test** Provide specific model predictions, such as how the mean search time or binding probability changes with each factor, and include simulation results that confirm the analytical findings.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that their "theoretical model provides physical insights into the complex mechanisms of protein target search in quorum-sensing cells."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not articulate what these physical insights are. No mechanistic explanation is given for why, for example, cell population density should affect a single-cell intracellular search process. The claim of insight is therefore vague and unverifiable from the provided material.  
+  - **Why it matters** The stated importance of the work rests on the novelty and depth of the physical insights. If these are not clearly presented, the contribution to the field cannot be evaluated.  
+  - **Resolution test** Clearly state at least one new mechanistic principle or prediction that emerges from the model, and explain how it advances beyond existing protein-DNA search theories.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract implies that the model is relevant to both biophysical and microbiological audiences, given the focus on quorum sensing and protein search.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract uses specialized terminology (e.g., "discrete-state stochastic approach," "AHL-bound LuxR-type proteins") without sufficient context for a nonspecialist reader. The biological significance of the search process in the context of quorum sensing is not explained in accessible terms.  
+  - **Why it matters** For a journal with broad readership, the abstract should make the problem and its significance understandable to both biophysicists and microbiologists. The current text assumes prior knowledge of both fields.  
+  - **Resolution test** Rewrite the abstract to define key terms and explicitly state why the coupling between quorum sensing and protein search matters for bacterial behavior or infection outcomes.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract, first sentence  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The opening sentence defines quorum sensing but does not explain why the protein search for DNA targets is relevant to this process.  
+  - **Required correction** Add a brief statement linking quorum sensing to gene regulation and the role of DNA-binding proteins in that context.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract, mention of Monte Carlo simulations  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that calculations are "supplemented by Monte Carlo computer simulations" but gives no indication of the simulation scope, number of runs, or how they validate the analytical results.  
+  - **Required correction** Provide one or two quantitative examples of simulation outcomes that match or deviate from analytical predictions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract, final sentence  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The claim of "physical insights" is not supported by any specific example in the abstract.  
+  - **Required correction** Replace the general statement with a concrete example of a predicted effect, such as a nonmonotonic dependence of search time on cell density.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or mechanistic detail to establish the validity or significance of the model. Without access to the full manuscript, the technical soundness of the stochastic approach and the simulations cannot be verified.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a novel coupling between quorum sensing and protein-DNA search, but the originality cannot be assessed without a comparison to existing models of facilitated diffusion or quorum-sensing gene regulation.  
+  - **Scientific importance** The potential importance is real, but the abstract does not demonstrate why the coupling matters beyond a general statement. The impact on understanding bacterial gene regulation is not quantified or contextualized.  
+  - **Interdisciplinary readership** The topic has cross-disciplinary appeal, but the abstract is not written to be accessible to both biophysicists and microbiologists.  
+  - **Technical soundness** Cannot be evaluated from the abstract alone. The lack of equations, parameters, and simulation details prevents any assessment of the model's correctness or robustness.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with both stochastic modeling and quorum-sensing biology. It would benefit from clearer motivation and explanation of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not allow a fair assessment of the work's validity or significance. A full manuscript review would be required to determine whether the model is technically sound and whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that specific factors "play important roles" in the protein search is unsupported by any quantitative data in the abstract.
+- The claim that the model provides "physical insights" is vague and unverifiable from the abstract.
+- The statement that Monte Carlo simulations supplement the calculations is unverifiable without simulation details.
+- The overall relevance of the model to quorum-sensing biology is asserted but not demonstrated with specific predictions or comparisons to experimental observations.

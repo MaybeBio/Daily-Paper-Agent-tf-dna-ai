@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supporting information references)
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as presented in the provided text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors integrate single-cell multi-omics data (snRNA-seq, ATAC-seq, chromatin interaction) to predict cell-type-specific gene regulatory networks (GRNs) for four brain cell types in Alzheimer's disease (AD) and controls. They characterize network topology, hierarchy, motifs, regulatory logic, and modules; use network proximity for drug repurposing; and apply network-based machine learning to prioritize AD-risk genes and predict clinical phenotypes.
+- **Visible evidence base** Main text figures referenced (Fig 1–6), supplementary figures and tables (Fig A1–N, Tables S1–S9, S1–S9 Data), methods descriptions, and cited literature
+- **Missing materials affecting confidence** No code, no processed data files, no detailed parameter settings for several analyses, no full figure panels visible, no supplementary file contents accessible, no details on the independent replication dataset beyond citation, no information on confounder adjustment in phenotype prediction
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial computational effort to construct cell-type-specific gene regulatory networks in AD and applies them to drug repurposing and phenotype prediction. The integration of multiple omics modalities is commendable and the focus on cell-type resolution addresses an important gap. However, several methodological details are insufficiently described, validation is incomplete, and some claims exceed what the evidence supports. The work is potentially valuable but requires major revisions to establish its conclusions.
+- **Who would be interested in the results, and why** Researchers in AD genomics and systems biology, computational biologists working on gene regulatory network inference, and investigators interested in drug repurposing approaches. The cell-type-specific network resource could be useful for hypothesis generation in AD research.
+- **Major strengths** 1) Integration of multiple single-cell omics data types (expression, chromatin accessibility, chromatin interaction) to infer GRNs is methodologically ambitious and appropriate. 2) The focus on cell-type-specific regulatory changes in AD addresses a recognized gap in the field. 3) The combination of network analysis with drug repurposing and phenotype prediction demonstrates practical translational potential. 4) Validation using an independent dataset for phenotype prediction is a positive feature. 5) The manuscript is generally clearly written and well-organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their GRN inference approach integrates chromatin interaction, open chromatin, and expression data to predict "gene regulatory networks" with high confidence.
+  - **Evidence pointer** Methods section "Gene regulatory network inference for brain cell types from multi-omics"; Results section "Hubs of the brain cell type gene regulatory networks"
+  - **Concern** The GRN inference pipeline (scGRNom) is referenced but not described in sufficient detail. The elastic net regression approach for linking TFs to target genes is mentioned, but key parameters (e.g., regularization strength, cross-validation scheme, threshold selection) are not specified. More critically, the integration of chromatin interaction and ATAC-seq data is described only superficially. How exactly are these data used to constrain or weight TF-target edges? Without this detail, the reproducibility of the networks is questionable.
+  - **Why it matters** The entire downstream analysis depends on the quality and validity of the inferred GRNs. If the inference procedure is not transparent and reproducible, all subsequent claims about hubs, modules, drug targets, and phenotype prediction are undermined.
+  - **Resolution test** Provide a complete, step-by-step description of the scGRNom pipeline, including all parameters, thresholds, and data preprocessing steps. Ideally, make the code publicly available. Include a sensitivity analysis showing how network properties change with different parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The authors state that their network-based machine learning approach "systematically prioritized cell type risk genes likely involved in AD" and that top-ranked genes "can predict clinical phenotypes (e.g., cognitive impairment) of AD with reasonable accuracy."
+  - **Evidence pointer** Results section "Network-based machine learning prioritizes cell-type AD-risk genes and predicts clinical phenotypes"; Figure 6
+  - **Concern** The validation of the machine learning model is incomplete. The authors report accuracy for predicting clinical phenotypes (cogdx, braak, cerad) but do not provide details on the number of samples in each class, whether class imbalance was addressed, or how the random forest hyperparameters were optimized. More importantly, the comparison to "randomly selected genes" as a baseline is mentioned but not shown. The claim of "reasonable accuracy" is vague without a clear benchmark or comparison to existing methods.
+  - **Why it matters** Without rigorous validation, the claim that these genes can predict clinical phenotypes is not established. The translational relevance of the approach depends on demonstrating that the predictions are meaningful and not an artifact of the model or data.
+  - **Resolution test** Provide full details of the machine learning setup, including sample sizes, class distributions, hyperparameter tuning, and baseline comparisons. Report additional metrics (sensitivity, specificity, AUC) and perform external validation on an independent cohort if possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report "significant" changes in network cohesiveness for GO biological process terms and "significant" enrichment of AD-risk genes in modules.
+  - **Evidence pointer** Results section "Coregulated gene modules for AD pathology and drug repurposing"; Figure 5
+  - **Concern** The statistical methods for assessing significance of cohesiveness changes and module enrichment are not fully described. The permutation-based P-value threshold of 0.001 is mentioned, but the number of permutations, the null model, and how multiple testing was handled are unclear. For module enrichment, the hypergeometric test is mentioned, but the background set and multiple testing correction are not fully specified.
+  - **Why it matters** The biological interpretations drawn from these analyses depend on the statistical validity of the significance claims. Inflated significance could lead to overinterpretation of cell-type-specific effects.
+  - **Resolution test** Clearly describe the null models, number of permutations, and multiple testing correction procedures. Consider reporting effect sizes alongside P-values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim their approach is "validated using an independent dataset" for phenotype prediction.
+  - **Evidence pointer** Results section "Network-based machine learning prioritizes cell-type AD-risk genes and predicts clinical phenotypes"; Methods section "Prediction of clinical phenotypes"
+  - **Concern** The "independent dataset" used for validation is the ROSMAP cohort, which is also used for training the phenotype prediction model. This is not truly independent validation. The authors train on the microglia AD network features and then evaluate on ROSMAP data, but the features themselves are derived from the same ROSMAP samples used for training. This circularity undermines the validation claim.
+  - **Why it matters** The claim of independent validation is central to the credibility of the phenotype prediction results. If the validation is circular, the reported accuracy may be optimistically biased.
+  - **Resolution test** Use a truly independent dataset for validation, or at minimum, perform a proper train/test split within ROSMAP and clearly describe the separation. If no independent data are available, temper the claim accordingly.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that "hub TFs are largely common across cell types" and that "AD-related changes are relatively more prominent in some cell types (e.g., microglia)."
+  - **Evidence pointer** Results section "Hubs of the brain cell type gene regulatory networks"; Figure 2
+  - **Concern** The interpretation of hub overlap and cell-type-specific changes is largely descriptive. The authors do not provide a statistical framework to assess whether the observed overlap is greater than expected by chance, or whether the differences between cell types are significant. The claim that microglia show more prominent changes appears to be based on visual inspection of figures rather than quantitative comparison.
+  - **Why it matters** The cell-type-specific conclusions are a key contribution of the paper. Without statistical support, these claims are not robust.
+  - **Resolution test** Provide statistical tests for hub overlap (e.g., permutation tests) and for differences in network properties between cell types and conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2C
+  - **Evidence pointer** Results section "Hubs of the brain cell type gene regulatory networks"
+  - **Issue** The scatter plot in Figure 2C is described as showing "clear differential in the in-degrees" but the axes and color coding are not described in the text.
+  - **Required correction** Add a clear figure legend explaining all axes, colors, and symbols.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Drug repurposing results
+  - **Evidence pointer** Results section "Coregulated gene modules for AD pathology and drug repurposing"
+  - **Issue** The drug repurposing analysis identifies candidate drugs but does not discuss potential mechanisms of action or how these drugs might be tested experimentally.
+  - **Required correction** Add a brief discussion of the biological plausibility of the top drug candidates and suggest experimental validation strategies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Machine learning features
+  - **Evidence pointer** Methods section "Machine-learning model for AD-gene prioritization"
+  - **Issue** The feature matrix is described as containing edge scores from the GRN, but it is unclear whether features from all cell types were combined or used separately.
+  - **Required correction** Clarify whether the model was trained separately for each cell type or on a combined feature set.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "hub TFs," "master regulators," and "top-level regulators" are used somewhat interchangeably, which could confuse readers.
+  - **Required correction** Define these terms clearly and use them consistently throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Single-cell data sources and data processing"
+  - **Issue** The description of data preprocessing is brief and assumes familiarity with specific tools (Seurat, MAGIC) without providing version numbers or key parameters.
+  - **Required correction** Provide software versions and key parameters for all preprocessing steps.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (GRN inference transparency), R1-M2 (validation rigor), R1-M4 (circular validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The integration of multiple single-cell omics for cell-type-specific GRN inference in AD is a novel combination, though each individual component has been previously described.
+  - Scientific importance: Moderate to high. Cell-type-specific regulatory networks in AD could provide valuable insights, and the drug repurposing angle has translational relevance.
+  - Interdisciplinary readership: Moderate. The work bridges computational biology, genomics, and AD research, but the methods may be too specialized for a broad general audience.
+  - Technical soundness: Currently insufficient. Key methodological details are missing, and validation is incomplete or circular.
+  - Readability for nonspecialists: Acceptable. The manuscript is generally well-written, but the methods section assumes significant computational expertise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the resource could be valuable, but the current manuscript does not fully establish the validity of the networks or the predictive claims. Major revisions addressing the GRN inference transparency, validation rigor, and statistical support for cell-type-specific claims are required.
+
+## Risk / unsupported claims
+- The claim that the GRN inference approach produces "high confidence" networks is not supported by any direct validation of individual edges (e.g., ChIP-seq, perturbation data).
+- The claim that top-ranked genes "can predict clinical phenotypes with reasonable accuracy" is not fully supported due to circular validation and lack of baseline comparison.
+- The claim that "AD-related changes are relatively more prominent in microglia" lacks statistical support.
+- The claim that the drug repurposing analysis suggests "cell-type candidate drugs" is preliminary and not experimentally validated.
+- The statement that the approach "provides a comprehensive map linking genes, regulatory networks, cell types and drug targets" overstates the completeness of the analysis given the limited number of cell types and the reliance on computational predictions.

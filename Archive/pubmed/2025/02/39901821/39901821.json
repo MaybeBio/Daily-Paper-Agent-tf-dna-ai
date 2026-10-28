@@ -1,0 +1,602 @@
+{
+  "identity": {
+    "pmid": "39901821",
+    "doi": "10.1093/cvr/cvaf013",
+    "title": "Circular RNAs increase during vascular cell differentiation and are biomarkers for vascular disease."
+  },
+  "content": {
+    "abstract": "AIMS: The role of circular RNAs (circRNAs) and their regulation in health and disease are poorly understood. Here, we systematically investigated the temporally resolved transcriptomic expression of circRNAs during differentiation of human induced pluripotent stem cells (iPSCs) into vascular endothelial cells (ECs) and smooth muscle cells (SMCs) and explored their potential as biomarkers for human vascular disease. METHODS AND RESULTS: Using high-throughput RNA sequencing and a de novo circRNA detection pipeline, we quantified the daily levels of 31 369 circRNAs in a 2-week differentiation trajectory from human stem cells to proliferating mesoderm progenitors to quiescent, differentiated EC and SMC. We detected a significant global increase in RNA circularization, with 397 and 214 circRNAs up-regulated greater than two-fold (adjusted P < 0.05) in mature EC and SMC, compared with undifferentiated progenitor cells. This global increase in circRNAs was associated with up-regulation of host genes and their promoters and a parallel down-regulation of splicing factors. Underlying this switch, the proliferation-regulating transcription factor MYC decreased as vascular cells matured, and inhibition of MYC led to down-regulation of splicing factors such as SRSF1 and SRSF2 and changes in vascular circRNA levels. Examining the identified circRNAs in arterial tissue samples and in peripheral blood mononuclear cells (PBMCs) from patients, we found that circRNA levels decreased in atherosclerotic disease, in contrast to their increase during iPSC maturation into EC and SMC. Using machine learning, we determined that a set of circRNAs derived from COL4A1, COL4A2, HSPG2, and YPEL2 discriminated atherosclerotic from healthy tissue with an area under the receiver operating characteristic curve (AUC) of 0.79. circRNAs from HSPG2 and YPEL2 in blood PBMC samples detected atherosclerosis with an AUC of 0.73. CONCLUSION: Time-resolved transcriptional profiling of linear and circRNA species revealed that circRNAs provide granular molecular information for disease profiling. The identified circRNAs may serve as blood biomarkers for atherosclerotic vascular disease.",
+    "keywords": [
+      "Aneurysm",
+      "Atherosclerosis",
+      "Biomarker",
+      "Blood",
+      "Circular RNA (circRNA)",
+      "Differentiation",
+      "Endothelial cells (ECs)",
+      "Induced pluripotent stem cells (iPSCs)",
+      "Single-cell",
+      "Smooth muscle cells (SMCs)",
+      "Splicing",
+      "Transcription",
+      "Transcriptomics",
+      "Vascular"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*RNA, Circular/genetics/metabolism",
+      "*Cell Differentiation",
+      "*Induced Pluripotent Stem Cells/metabolism/pathology",
+      "*Endothelial Cells/metabolism/pathology",
+      "*Myocytes, Smooth Muscle/metabolism/pathology",
+      "Cells, Cultured",
+      "*Atherosclerosis/genetics/pathology/metabolism",
+      "Transcriptome",
+      "Biomarkers/metabolism",
+      "Male",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Northoff, Bernd H",
+        "Herbst, Andreas",
+        "Wenk, Catharina",
+        "Weindl, Lena",
+        "Gabel, Gabor",
+        "Brezski, Andre",
+        "Zarnack, Kathi",
+        "Kupper, Alina",
+        "Dimmeler, Stefanie",
+        "Moretti, Alessandra",
+        "Laugwitz, Karl-Ludwig",
+        "Engelhardt, Stefan",
+        "Maegdefessel, Lars",
+        "Boon, Reinier A",
+        "Doppler, Stefanie",
+        "Dressen, Martina",
+        "Lahm, Harald",
+        "Lange, Rudiger",
+        "Krane, Markus",
+        "Krohn, Knut",
+        "Kohlmaier, Alexander",
+        "Holdt, Lesca M",
+        "Teupser, Daniel"
+      ],
+      "short_names": [
+        "Northoff BH",
+        "Herbst A",
+        "Wenk C",
+        "Weindl L",
+        "Gabel G",
+        "Brezski A",
+        "Zarnack K",
+        "Kupper A",
+        "Dimmeler S",
+        "Moretti A",
+        "Laugwitz KL",
+        "Engelhardt S",
+        "Maegdefessel L",
+        "Boon RA",
+        "Doppler S",
+        "Dressen M",
+        "Lahm H",
+        "Lange R",
+        "Krane M",
+        "Krohn K",
+        "Kohlmaier A",
+        "Holdt LM",
+        "Teupser D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7333-3231",
+        "ORCID: 0000-0003-3527-3378",
+        "ORCID: 0000-0002-1045-2436",
+        "ORCID: 0000-0001-5782-7832",
+        "ORCID: 0000-0001-5378-8661",
+        "ORCID: 0000-0003-2200-6254",
+        "ORCID: 0000-0002-4477-3406",
+        "ORCID: 0000-0001-9843-0145"
+      ],
+      "affiliations": [
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Department of Vascular Medicine, HELIOS Klinikum Krefeld, Krefeld, Germany.",
+        "Buchmann Institute for Molecular Life Sciences (BMLS), Faculty of Biological Sciences, Goethe University Frankfurt, Frankfurt, Germany.",
+        "Buchmann Institute for Molecular Life Sciences (BMLS), Faculty of Biological Sciences, Goethe University Frankfurt, Frankfurt, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Institute of Cardiovascular Regeneration, Centre of Molecular Medicine, Goethe University, Frankfurt, Germany.",
+        "Department of Internal Medicine I, Cardiology, Klinikum rechts der Isar, School of Medicine and Health, Technical University of Munich (TUM), Munich, Germany.",
+        "Department of Internal Medicine I, Cardiology, Klinikum rechts der Isar, School of Medicine and Health, Technical University of Munich (TUM), Munich, Germany.",
+        "Institute of Pharmacology and Toxicology, Technical University of Munich (TUM), Munich, Germany.",
+        "Department of Vascular and Endovascular Surgery, Technical University Munich, Munich, Germany.",
+        "Institute of Cardiovascular Regeneration, Centre of Molecular Medicine, Goethe University, Frankfurt, Germany.",
+        "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "DZHK (German Center for Cardiovascular Research), Partner Site Munich Heart Alliance, Munich, Germany.",
+        "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+        "DZHK (German Center for Cardiovascular Research), Partner Site Munich Heart Alliance, Munich, Germany.",
+        "Division of Cardiac Surgery, Department of Surgery, Yale School of Medicine, New Haven, CT, USA.",
+        "Core Unit DNA Technologies, Medical Faculty, University of Leipzig, Leipzig, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany.",
+        "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Northoff, Bernd H",
+        "short_name": "Northoff BH",
+        "identifiers": [
+          "0000-0002-7333-3231"
+        ],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Herbst, Andreas",
+        "short_name": "Herbst A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Wenk, Catharina",
+        "short_name": "Wenk C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Weindl, Lena",
+        "short_name": "Weindl L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Gäbel, Gabor",
+        "short_name": "Gäbel G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Medicine, HELIOS Klinikum Krefeld, Krefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Brezski, Andre",
+        "short_name": "Brezski A",
+        "identifiers": [],
+        "affiliations": [
+          "Buchmann Institute for Molecular Life Sciences (BMLS), Faculty of Biological Sciences, Goethe University Frankfurt, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Zarnack, Kathi",
+        "short_name": "Zarnack K",
+        "identifiers": [
+          "0000-0003-3527-3378"
+        ],
+        "affiliations": [
+          "Buchmann Institute for Molecular Life Sciences (BMLS), Faculty of Biological Sciences, Goethe University Frankfurt, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Küpper, Alina",
+        "short_name": "Küpper A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Dimmeler, Stefanie",
+        "short_name": "Dimmeler S",
+        "identifiers": [
+          "0000-0002-1045-2436"
+        ],
+        "affiliations": [
+          "Institute of Cardiovascular Regeneration, Centre of Molecular Medicine, Goethe University, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Moretti, Alessandra",
+        "short_name": "Moretti A",
+        "identifiers": [
+          "0000-0001-5782-7832"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine I, Cardiology, Klinikum rechts der Isar, School of Medicine and Health, Technical University of Munich (TUM), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Laugwitz, Karl-Ludwig",
+        "short_name": "Laugwitz KL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine I, Cardiology, Klinikum rechts der Isar, School of Medicine and Health, Technical University of Munich (TUM), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Engelhardt, Stefan",
+        "short_name": "Engelhardt S",
+        "identifiers": [
+          "0000-0001-5378-8661"
+        ],
+        "affiliations": [
+          "Institute of Pharmacology and Toxicology, Technical University of Munich (TUM), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Maegdefessel, Lars",
+        "short_name": "Maegdefessel L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, Technical University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Boon, Reinier A",
+        "short_name": "Boon RA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cardiovascular Regeneration, Centre of Molecular Medicine, Goethe University, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Doppler, Stefanie",
+        "short_name": "Doppler S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Dreßen, Martina",
+        "short_name": "Dreßen M",
+        "identifiers": [
+          "0000-0003-2200-6254"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Lahm, Harald",
+        "short_name": "Lahm H",
+        "identifiers": [
+          "0000-0002-4477-3406"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Lange, Rüdiger",
+        "short_name": "Lange R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "DZHK (German Center for Cardiovascular Research), Partner Site Munich Heart Alliance, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Krane, Markus",
+        "short_name": "Krane M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "Institute for Translational Cardiac Surgery (INSURE), German Heart Center Munich, Technical University Munich, Munich, Germany.",
+          "DZHK (German Center for Cardiovascular Research), Partner Site Munich Heart Alliance, Munich, Germany.",
+          "Division of Cardiac Surgery, Department of Surgery, Yale School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Krohn, Knut",
+        "short_name": "Krohn K",
+        "identifiers": [],
+        "affiliations": [
+          "Core Unit DNA Technologies, Medical Faculty, University of Leipzig, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Kohlmaier, Alexander",
+        "short_name": "Kohlmaier A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Holdt, Lesca M",
+        "short_name": "Holdt LM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Teupser, Daniel",
+        "short_name": "Teupser D",
+        "identifiers": [
+          "0000-0001-9843-0145"
+        ],
+        "affiliations": [
+          "Institute of Laboratory Medicine, LMU University Hospital, LMU Munich, Marchioninistr. 15, 81377 Munich, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cardiovascular research"
+    ],
+    "journal_abbrev": [
+      "Cardiovasc Res"
+    ],
+    "pub_date": "2025 Apr 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/04 06:21",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42598439",
+      "42179210",
+      "42094010",
+      "42081726",
+      "41908043",
+      "41878824",
+      "41634368",
+      "41516041",
+      "41510160"
+    ],
+    "refs": [
+      "38761795",
+      "38639096",
+      "38145972",
+      "37606389",
+      "36578771",
+      "36417861",
+      "36417849",
+      "35688820",
+      "35109671",
+      "34694888",
+      "34615376",
+      "34433968",
+      "33627876",
+      "33619382",
+      "33326796",
+      "33299176",
+      "33171109",
+      "33040646",
+      "32962412",
+      "32071436",
+      "31591603",
+      "31582413",
+      "31395983",
+      "31395740",
+      "30973806",
+      "30892142",
+      "30735636",
+      "30654892",
+      "30413482",
+      "30159442",
+      "30054853",
+      "29748594",
+      "29520052",
+      "29385543",
+      "29191809",
+      "29174924",
+      "29116363",
+      "28729454",
+      "28714968",
+      "28594838",
+      "28157508",
+      "27739534",
+      "27540175",
+      "27539542",
+      "27365365",
+      "27068474",
+      "26735015",
+      "26657629",
+      "26485708",
+      "26450910",
+      "26310581",
+      "26214132",
+      "26073943",
+      "25970242",
+      "25921068",
+      "25714049",
+      "25624062",
+      "25516281",
+      "25070500",
+      "24807918",
+      "24512684",
+      "24039610",
+      "23861667",
+      "23446348",
+      "23249747",
+      "23104886",
+      "22388286",
+      "22319583",
+      "21593866",
+      "21151960",
+      "20010808",
+      "14536091",
+      "11598018",
+      "11240971"
+    ],
+    "similar": [
+      "39901821",
+      "32992193",
+      "42565562",
+      "29523209",
+      "33174379",
+      "28842720",
+      "36578771",
+      "28628273",
+      "34059381",
+      "21945499",
+      "34907911",
+      "29986945",
+      "29653750",
+      "33207953",
+      "28676412",
+      "22095729",
+      "36655574",
+      "32698686",
+      "40913267",
+      "32674599",
+      "30153084",
+      "33896374",
+      "39109944",
+      "20537494",
+      "31261517",
+      "28618429",
+      "32434411",
+      "31596149",
+      "15838487",
+      "35757392",
+      "40143812",
+      "30455306",
+      "28395271",
+      "38957984",
+      "29448254",
+      "32635460",
+      "40120433",
+      "32450175",
+      "29844435",
+      "30046991",
+      "40355900",
+      "38868941",
+      "40821807",
+      "38851155",
+      "34306317",
+      "30714679",
+      "38409514",
+      "23283491",
+      "40183359",
+      "38289873",
+      "39533172",
+      "33493415",
+      "17913848",
+      "39675550",
+      "30614051",
+      "29248507",
+      "22941255",
+      "28248004",
+      "39126580",
+      "36081509",
+      "38621622",
+      "15300192",
+      "29283313",
+      "40886368",
+      "24718260",
+      "36229933",
+      "28207177",
+      "33875631",
+      "31502677",
+      "39571545",
+      "36617710",
+      "36585921",
+      "40474527",
+      "38824241",
+      "40594478",
+      "31961470",
+      "28957794",
+      "19028801",
+      "32962412",
+      "37662218",
+      "29042195",
+      "25516496",
+      "40098005",
+      "32212852",
+      "36076262",
+      "23582880",
+      "31103880",
+      "39497470",
+      "33649864",
+      "23761629",
+      "41767389",
+      "25085858",
+      "36446168",
+      "32547599",
+      "39181944",
+      "33169172",
+      "31344511",
+      "38591551",
+      "31254341",
+      "34670246"
+    ],
+    "review": [
+      "39901821",
+      "33896374",
+      "32450175",
+      "34306317",
+      "36617710"
+    ],
+    "pmc": [
+      "12038242"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://www.ovid.com/39901821.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39901821/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/cardiovascres/article-lookup/doi/10.1093/cvr/cvaf013",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

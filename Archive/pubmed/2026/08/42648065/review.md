@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full text of a review article (title, abstract, introduction, main sections, conclusions, acknowledgements) submitted to Current Opinion in Plant Biology.
+- **Assessment boundary** Scientific content, structure, and claims as presented in the provided manuscript. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors argue that the field of plant transcriptional regulation has progressed from single-gene studies to network-level investigation, and that multi-omics integration and AI-based methods are transforming the prediction of transcriptional regulators and their targets. They further claim that these developments are moving the field toward predictive models of gene regulation with applications in crop improvement and synthetic biology.
+- **Visible evidence base** The manuscript includes three figures (referenced but not provided in detail), a reference list (not provided), and a narrative synthesis of published studies. Specific examples cited include GENIE3, WGCNA, MINI-EX, MINI-AC, NEEDLE, Cheng et al. (XGBoost for NUE), Tu et al. (protoplast ChIP-seq in maize), Moore et al. (Random Forest/SVM for specialized metabolism), DeFine (CNN), TADA network, AlphaFold, ESM, AgroNT, PlantCaduceus, PlantConnectome, and CropGPT.
+- **Missing materials affecting confidence** Figure contents and legends are not provided. The reference list is not provided. No quantitative benchmarks or comparative evaluations are included. The manuscript does not provide methodological details for the AI tools discussed beyond brief descriptions.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and readable review that provides a useful synthesis of recent developments in plant transcriptional regulation, with a particular focus on the role of AI. The authors successfully frame the historical progression from coexpression networks to multi-omics integration and AI-based prediction. The manuscript is likely to be of interest to plant biologists and computational biologists seeking an overview of current approaches. However, the review is largely descriptive and lacks critical evaluation of the methods discussed. Several claims about the capabilities of AI approaches are presented without supporting evidence or caveats. The absence of figures and references in the provided material limits a full assessment, but based on the text alone, the scientific case is reasonable yet not deeply critical.
+- **Who would be interested in the results, and why** Plant molecular biologists, computational biologists, and researchers working on gene regulatory networks will find this review useful as an entry point to the field. Those interested in applying AI to plant biology, particularly for crop improvement and synthetic biology, will also benefit from the overview of current tools and approaches. The review is written at a level accessible to nonspecialists, which broadens its potential readership.
+- **Major strengths** The manuscript provides a clear and logical structure that guides the reader from foundational network approaches to emerging AI methods. The authors effectively contextualize the shift from single-gene to systems-level analysis. The inclusion of specific examples, such as NEEDLE and the TADA network, adds concreteness. The discussion of challenges, including data limitations and context dependence, is appropriate and balanced.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical evaluation
+  - **Claim pointer** The authors state that AI approaches "promise greater accuracy and scalability" and that they are "reshaping how transcriptional regulators, targets, and regulatory relationships are predicted in plants."
+  - **Evidence pointer** Abstract and section "Artificial intelligence in transcriptional target prediction"
+  - **Concern** The manuscript presents AI methods as transformative without critically assessing their actual performance relative to traditional approaches. No benchmarks, comparative studies, or failure cases are discussed. The claim of "greater accuracy" is not substantiated with quantitative evidence or references to evaluations.
+  - **Why it matters** A review in a high-impact venue should provide a balanced assessment, including limitations and unresolved issues. Without critical evaluation, the reader may overestimate the readiness and reliability of AI-based predictions, which could mislead experimental design.
+  - **Resolution test** Add a subsection or paragraph that explicitly compares AI-based methods with traditional approaches, citing at least one benchmark or comparative study. Discuss known limitations, such as overfitting, transferability across species, and the need for experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Depth of technical detail
+  - **Claim pointer** The authors state that "deep learning models have been used to predict transcript abundance and regulatory variation from genomic sequence" and that "transformer-based approaches have been used to prioritize candidate genes."
+  - **Evidence pointer** Section "Artificial intelligence in transcriptional target prediction"
+  - **Concern** The descriptions of AI methods are superficial. For example, the distinction between machine learning, deep learning, and foundation models is mentioned but not explained in terms of their respective strengths and weaknesses for regulatory prediction. The reader is not told what types of input data, architectures, or training strategies are used, nor what performance metrics are reported.
+  - **Why it matters** For a review aimed at a broad audience, technical clarity is essential. Without sufficient detail, the reader cannot assess the suitability of these methods for their own research or understand the basis for the authors' claims.
+  - **Resolution test** Expand the descriptions of at least two AI methods to include input features, model architecture, training data, and reported performance. Add a table summarizing key tools, their inputs, outputs, and limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for forward-looking claims
+  - **Claim pointer** The authors state that "the next step is to build models that can predict how transcriptional programs respond to genetic perturbation or environmental change at a mechanistic level" and that "predictive regulatory frameworks may ultimately support precision breeding."
+  - **Evidence pointer** Section "Toward predictive regulatory models of plant transcriptional networks"
+  - **Concern** The forward-looking claims are plausible but are not supported by any concrete examples of successful predictive modeling in plants. The CropGPT project is mentioned but not described in sufficient detail to evaluate its relevance or success.
+  - **Why it matters** The review's conclusion rests on the feasibility of predictive modeling. Without evidence that such models have been developed or validated, the claims remain speculative.
+  - **Resolution test** Provide at least one example of a predictive model that has been tested in plants, including its performance and limitations. If none exist, state this explicitly and frame the claims as aspirational.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "network-enabled gene discovery" is used without prior definition. The reader may not immediately understand what this encompasses.
+  - **Required correction** Define "network-enabled gene discovery" in the abstract or early in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Integrating multi-omics data to predict transcriptional regulators"
+  - **Evidence pointer** Section "Integrating multi-omics data to predict transcriptional regulators"
+  - **Issue** The section mentions single-cell and spatial transcriptomics but does not discuss the challenges of data integration, such as batch effects, data sparsity, or computational cost.
+  - **Required correction** Add a sentence or two acknowledging these challenges and how they are being addressed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section "Artificial intelligence in transcriptional target prediction"
+  - **Evidence pointer** Section "Artificial intelligence in transcriptional target prediction"
+  - **Issue** The term "foundation models" is introduced but not clearly defined. The distinction between foundation models and other deep learning approaches is not explained.
+  - **Required correction** Provide a brief definition of foundation models and explain how they differ from earlier deep learning approaches.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Toward predictive regulatory models of plant transcriptional networks"
+  - **Evidence pointer** Section "Toward predictive regulatory models of plant transcriptional networks"
+  - **Issue** The section is short and somewhat abstract. The connection between the described methods and the proposed predictive models is not fully developed.
+  - **Required correction** Expand this section with a concrete example or a more detailed explanation of how the described approaches could be combined.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The manuscript is a review and does not present new experimental data. The technical concerns raised above relate to depth and critical evaluation rather than methodological errors.
+- **Assessment against Nature-style criteria** Originality: The manuscript offers a useful synthesis but does not present a novel framework or perspective that would distinguish it from existing reviews. Scientific importance: The topic is timely and relevant, but the lack of critical evaluation limits its impact. Interdisciplinary readership: The manuscript is accessible to both plant biologists and computational researchers, which is a strength. Technical soundness: The descriptions are accurate but superficial; no technical errors were identified. Readability for nonspecialists: The writing is clear and well organized, though some terms could be better defined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript provides a competent overview but would benefit from deeper critical analysis and more concrete examples. The concerns raised are addressable through revision and do not undermine the fundamental value of the review.
+
+## Risk / unsupported claims
+- The claim that AI methods "promise greater accuracy and scalability" is unsupported by quantitative evidence or comparative benchmarks.
+- The claim that "predictive regulatory frameworks may ultimately support precision breeding" is speculative and not supported by examples of validated predictive models in plants.
+- The statement that "foundation models are beginning to learn regulatory grammar" is presented without evidence of their performance or applicability to plant systems.
+- The claim that "multi-omics integration can improve the prediction of context-dependent transcriptional regulators" is plausible but not substantiated with specific examples or performance metrics.

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use in silico methods, primarily molecular dynamics simulations and Anisotropic Network Model analysis, to evaluate the structural and dynamic consequences of two MEF2B missense variants (K4E and Y69H) on DNA binding. They report variant-specific DNA-binding residue repertoires, differential conformational fluctuations in the alpha1 and alpha3 regions, hydrogen bond occupancy patterns, and a potential functional implication for Y69H in p300 co-activator recruitment.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, statistical analyses, or structural figures are provided
+- **Missing materials affecting confidence** Full methods, simulation duration and force field parameters, convergence criteria, structural coordinates, hydrogen bond occupancy data, ANM fluctuation profiles, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a clinically relevant question, namely the structural basis of MEF2B mutations in lymphoma. However, the claims are largely qualitative and cannot be evaluated for technical rigor without access to the underlying simulation details and quantitative results. The abstract does not establish the case for the stated conclusions from the provided evidence alone.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, molecular dynamics simulation, and lymphoma genetics would be interested. The study addresses a gap in understanding how specific MEF2B mutations affect DNA binding, which could inform therapeutic targeting strategies. The findings may also be relevant to those studying transcription factor DNA recognition mechanisms.
+- **Major strengths** The study addresses a clinically important and understudied problem. The use of multiple computational approaches (MD simulations and ANM) is appropriate for probing dynamic behavior. The authors identify variant-specific DNA-binding residue patterns, which is a potentially useful observation. The consideration of functional implications beyond DNA binding, such as p300 recruitment, adds biological context.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that specific residues mediate DNA binding in each variant, e.g., "in MEF2B(K4E), DNA binding is facilitated by Gly2, Arg3 and Arg91 (alpha3) residues" and "in MEF2B(Y69H), Arg3, Lys5, Ser78, Arg79 and Asn81 residues mediate DNA binding."  
+  - **Evidence pointer** Abstract text; no supporting data provided  
+  - **Concern** The claim that specific residues "mediate" DNA binding is a strong functional assertion. The abstract provides no quantitative metrics such as per-residue interaction energies, contact frequencies, or hydrogen bond occupancy percentages to support this assignment. Without such data, it is unclear whether these residues are identified based on proximity, interaction persistence, or energetic contribution.  
+  - **Why it matters** The central conclusion of the study rests on identifying which residues are functionally important for DNA binding in each variant. If the identification criteria are not rigorous or are based on arbitrary thresholds, the entire structural interpretation is compromised.  
+  - **Resolution test** Provide quantitative per-residue interaction data (e.g., contact maps, interaction energies, or hydrogen bond occupancy percentages with defined cutoffs) and statistical comparisons across simulation replicates to substantiate the residue assignments.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "DNA binding induces pronounced conformational readjustments in MEF2B(WT)-specific alpha1-N-terminal loop region, while MEF2B(Y69H) and MEF2B(K4E) exhibit fluctuations in both alpha1 and alpha3."  
+  - **Evidence pointer** Abstract text; no quantitative fluctuation data provided  
+  - **Concern** The claim of differential conformational fluctuations is presented without any numerical measures such as root-mean-square fluctuation (RMSF) values, principal component analysis results, or statistical significance testing. The phrase "pronounced" is subjective and cannot be assessed.  
+  - **Why it matters** The differential dynamics between variants is a key finding that supports the proposed structural basis for altered DNA binding. Without quantitative evidence, the claim is not verifiable.  
+  - **Resolution test** Provide RMSF or equivalent fluctuation profiles for each system, with error bars or replicate analysis, and state the criteria for "pronounced" differences.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "Hydrogen (H)-bond occupancy analysis reveals a similar DNA binding behavior for MEF2(WT) and MEF2B(Y69H), compared to MEF2B(K4E) structure."  
+  - **Evidence pointer** Abstract text; no occupancy data provided  
+  - **Concern** The hydrogen bond occupancy analysis is mentioned as a key comparative result, but no occupancy values, thresholds, or statistical comparisons are given. The claim of "similar" behavior is not quantified.  
+  - **Why it matters** This comparison is used to suggest that Y69H may not significantly alter DNA binding, which is a nuanced conclusion. Without quantitative occupancy data, the similarity claim is unsupported.  
+  - **Resolution test** Provide hydrogen bond occupancy percentages for key residue pairs in each system, with defined criteria for similarity and any statistical tests used.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that "MEF2B(WT) and MEF2B(K4E), Tyr69 residue is involved in p300 binding thus possible influence of Y69H variation in the functions other than DNA binding, such as p300 co-activator recruitment may explain the reduced transcriptional activation of MEF2B(Y69H)."  
+  - **Evidence pointer** Abstract text; no experimental or structural evidence for p300 binding provided  
+  - **Concern** The claim regarding p300 binding is speculative and appears to be extrapolated from prior knowledge rather than from the current study's data. The abstract does not present any simulation or experimental evidence that Tyr69 interacts with p300, nor does it test the effect of Y69H on such an interaction.  
+  - **Why it matters** This claim extends the study's relevance beyond DNA binding to transcriptional regulation, which is a significant functional assertion. If unsupported, it overstates the study's implications.  
+  - **Resolution test** Either remove this speculation or provide direct evidence (e.g., docking, co-immunoprecipitation, or mutagenesis data) that Tyr69 is involved in p300 binding and that Y69H disrupts this interaction.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract describes "molecular dynamics simulation assays" and "Anisotropic Network Model analysis" as the methods used.  
+  - **Evidence pointer** Abstract text; no methods details provided  
+  - **Concern** The abstract lacks essential methodological details such as simulation length, force field, water model, temperature/pressure coupling, equilibration protocol, and the specific implementation of ANM. Without these, the study cannot be reproduced or evaluated for technical adequacy.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of these details prevents assessment of whether the simulations were sufficiently converged and whether the ANM analysis was appropriately applied.  
+  - **Resolution test** Provide full methods in the manuscript, including all simulation parameters and analysis protocols, and state convergence criteria.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "MEF2(WT)" appears in the hydrogen bond occupancy sentence, while the rest of the abstract uses "MEF2B(WT)". This inconsistency may confuse readers.  
+  - **Required correction** Use "MEF2B(WT)" consistently throughout.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract is dense and combines multiple findings without clear logical transitions, making it difficult for nonspecialists to follow the progression from methods to results to implications.  
+  - **Required correction** Restructure the abstract to clearly separate methods, key results, and implications, with explicit linking phrases.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract conclusion  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The final sentence claims the study "may provide a structural basis of DNA recognition" and "may contribute in the identification of novel therapeutic strategies." These statements are overly broad and not directly supported by the presented findings.  
+  - **Required correction** Temper the conclusion to reflect the specific findings of the study, such as identifying variant-specific dynamic differences, without overgeneralizing to therapeutic implications.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The absence of quantitative data, methodological details, and direct evidence for the p300 claim means the core conclusions are not currently established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study addresses a specific and clinically relevant question, but the approach of using MD simulations to study transcription factor mutations is not novel in itself. The originality lies in the specific system and variants, which is moderate.  
+  - **Scientific importance** The topic is important given the role of MEF2B mutations in lymphoma. However, the abstract does not demonstrate that the findings significantly advance understanding beyond what is already known, and the speculative p300 claim weakens the importance.  
+  - **Interdisciplinary readership** The study may appeal to computational biologists and lymphoma researchers, but the abstract is written in a way that is not accessible to a broader readership, and the lack of quantitative context limits its appeal.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The absence of simulation parameters, convergence checks, and statistical analyses is a major limitation.  
+  - **Readability for nonspecialists** The abstract is technical and assumes familiarity with molecular dynamics and structural biology concepts. It is not written for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative or methodological detail to support the claims. A supportive recommendation would require access to the full manuscript with rigorous data presentation and validation.
+
+## Risk / unsupported claims
+- The claim that specific residues "mediate" DNA binding in each variant is unsupported without quantitative interaction data.
+- The claim of "pronounced" conformational differences between variants is unsupported without fluctuation metrics.
+- The claim of "similar" hydrogen bond behavior between MEF2B(WT) and MEF2B(Y69H) is unsupported without occupancy values.
+- The claim regarding Tyr69 involvement in p300 binding and the functional consequence of Y69H is speculative and not supported by data presented in the abstract.
+- The overall conclusion that the study provides a structural basis for DNA recognition and therapeutic strategies is not supported by the abstract-level evidence.

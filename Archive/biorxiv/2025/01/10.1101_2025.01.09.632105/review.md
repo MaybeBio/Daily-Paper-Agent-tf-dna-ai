@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present TFBSFootprinter, a multiomics tool for predicting transcription factor binding sites (TFBSs) in 124 vertebrate species. The tool integrates multiple human genomic and transcriptomic data types, uses Ensembl transcript IDs for input, and is benchmarked against curated experimental TFBS data, reportedly outperforming DeepBind, FIMO, and traditional PWM. The authors also claim to identify optimal multiomic data combinations per TF and provide the tool as Conda and Python packages.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, methods description, benchmarking dataset details, statistical analyses, figure legends, and supplementary information; without these, the quantitative claims cannot be independently verified
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful tool that addresses a real gap in cross-species TFBS prediction. The integration of multiple regulatory data types is conceptually sound and the reported performance improvements are promising. However, the abstract alone provides insufficient detail to evaluate the methodology, the benchmarking rigor, or the generalizability of the claims. Several key aspects, such as how multiomic data are combined, how the 124 species are handled given that most data types are human-specific, and how the per-TF optimal combinations were determined, remain unclear. The claims of superiority over existing tools require careful scrutiny of the benchmarking design, which is not visible here.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and comparative genomics would be interested, particularly those studying promoter architecture across vertebrate species. The tool could also appeal to scientists working on model organisms, livestock genomics, and evolutionary studies of transcription factor binding. The multiomics integration approach may interest method developers seeking to improve TFBS prediction accuracy.
+- **Major strengths** The tool addresses a genuine gap in automated cross-species TFBS analysis. The integration of diverse regulatory data types (conservation, chromatin accessibility, expression correlation, eQTLs, CpG content) is a thoughtful approach to improving functional relevance. The reported benchmarking against experimentally verified TFBSs is appropriate, and the availability as Conda and Python packages supports usability and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The tool predicts TFBSs in 124 vertebrate species, yet the multiomic data types listed (GERP, FANTOM5, GTRD, ENCODE, GTEx, Ensembl CpG) are predominantly human-specific.
+  - **Evidence pointer** Abstract, Methodology and Findings section
+  - **Concern** The abstract states that TFBSFootprinter combines multiomic data for 124 vertebrate species, but the data sources listed are human-centric. It is unclear how these human-derived data are applied to non-human species, whether orthologous mappings are used, or whether the tool falls back to sequence-only predictions for species lacking such data.
+  - **Why it matters** If the multiomic data are not available for most of the 124 species, the claimed advantage of multiomics integration may not hold beyond human or closely related species. This directly affects the tool's stated utility across vertebrates.
+  - **Resolution test** Provide a clear description of how each data type is mapped or adapted to each of the 124 species, or state explicitly which species benefit from which data types. A supplementary table showing data availability per species would be sufficient.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Benchmarking produced superior results (AUC 0.881 with all data, 0.910 with best combination) compared with DeepBind (0.798), FIMO (0.817), and PWM (0.854).
+  - **Evidence pointer** Abstract, Methodology and Findings section
+  - **Concern** The benchmarking methodology is not described. It is unclear which dataset was used, how many TFBS instances were included, how the positive and negative sets were defined, whether the comparison tools were run with default or optimized parameters, and whether the same genomic regions were used for all tools.
+  - **Why it matters** Without this information, the reported AUC differences could arise from dataset composition, parameter choices, or evaluation biases rather than genuine methodological superiority. The claim of outperforming established tools cannot be assessed.
+  - **Resolution test** Provide a detailed benchmarking section including dataset construction, tool versions, parameter settings, cross-validation strategy, and statistical significance testing of AUC differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The results were further improved by selecting the best overall combination of multiomic data (0.910), and combinations of multiomic data that provide the best model of binding for each TF were determined.
+  - **Evidence pointer** Abstract, Methodology and Findings section
+  - **Concern** The abstract does not explain how the "best" combination was selected, whether this selection was performed on the same data used for evaluation (which would risk overfitting), or how per-TF combinations were derived and validated.
+  - **Why it matters** If the optimal combination is chosen based on the test set, the reported AUC of 0.910 may be optimistically biased. Similarly, per-TF combinations need external validation to be credible.
+  - **Resolution test** Describe the feature selection procedure, clarify whether selection was nested within cross-validation, and provide evidence that per-TF combinations generalize to held-out data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Tool name and description
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The name "TFBSFootprinter" suggests a footprinting method, but the tool appears to predict TFBSs using multiomic data rather than performing footprinting in the traditional sense.
+  - **Required correction** Clarify the rationale for the name or adjust the description to avoid potential misinterpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, Methodology and Findings section
+  - **Issue** Only AUC is reported. Precision-recall curves, sensitivity at fixed specificity, or other metrics would provide a more complete picture, especially if the dataset is imbalanced.
+  - **Required correction** Report additional performance metrics or justify the exclusive use of AUC.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Usability
+  - **Affected element** Input requirements
+  - **Evidence pointer** Abstract, Methodology and Findings section
+  - **Issue** The tool requires an Ensembl transcript ID as input. It is unclear how users would obtain these IDs for non-model species or whether the tool supports batch input.
+  - **Required correction** Describe the input format, supported species, and any batch processing capabilities.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cross-species applicability of multiomic data), R1-M2 (benchmarking methodology transparency), R1-M3 (risk of overfitting in data combination selection)
+- **Assessment against Nature-style criteria** Originality: The multiomics integration approach is a reasonable extension of existing TFBS prediction methods, but the abstract does not demonstrate a fundamentally novel concept. Scientific importance: The tool addresses a practical need in cross-species regulatory genomics, which is relevant to a broad community. Interdisciplinary readership: The topic bridges genomics, bioinformatics, and molecular biology, and the abstract is accessible to nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the benchmarking and cross-species claims require full methodological detail. Readability for nonspecialists: The abstract is clearly written and understandable, though some terms (e.g., GERP, FIMO) assume background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising tool, but the key claims regarding cross-species utility and benchmarking superiority cannot be verified without the full manuscript. I would be supportive if the technical concerns regarding data applicability across species and benchmarking rigor are resolved in the full paper.
+
+## Risk / unsupported claims
+- The claim of superior performance over DeepBind, FIMO, and PWM is unsupported without benchmarking details.
+- The claim of applicability to 124 vertebrate species is unsupported given the human-centric data sources listed.
+- The claim of improved performance via "best overall combination" and per-TF combinations is unsupported and may be subject to overfitting.
+- The statement that "no tools currently exist" for automatic multi-species TFBS analysis is a strong claim that cannot be verified from the abstract alone.

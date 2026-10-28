@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "36873907",
+    "doi": "10.1016/j.patter.2022.100674",
+    "title": "Deep learning for detecting and elucidating human T-cell leukemia virus type 1 integration in the human genome."
+  },
+  "content": {
+    "abstract": "Human T-cell leukemia virus type 1 (HTLV-1), a retrovirus, is the causative agent for adult T cell leukemia/lymphoma and many other human diseases. Accurate and high throughput detection of HTLV-1 virus integration sites (VISs) across the host genomes plays a crucial role in the prevention and treatment of HTLV-1-associated diseases. Here, we developed DeepHTLV, the first deep learning framework for VIS prediction de novo from genome sequence, motif discovery, and cis-regulatory factor identification. We demonstrated the high accuracy of DeepHTLV with more efficient and interpretive feature representations. Decoding the informative features captured by DeepHTLV resulted in eight representative clusters with consensus motifs for potential HTLV-1 integration. Furthermore, DeepHTLV revealed interesting cis-regulatory elements in regulation of VISs that have significant association with the detected motifs. Literature evidence demonstrated nearly half (34) of the predicted transcription factors enriched with VISs were involved in HTLV-1-associated diseases. DeepHTLV is freely available at https://github.com/bsml320/DeepHTLV.",
+    "keywords": [
+      "HTLV-1",
+      "T cell leukemia/lymphoma",
+      "deep learning",
+      "motif",
+      "viral integration sites"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Haodong",
+        "Jia, Johnathan",
+        "Jeong, Hyun-Hwan",
+        "Zhao, Zhongming"
+      ],
+      "short_names": [
+        "Xu H",
+        "Jia J",
+        "Jeong HH",
+        "Zhao Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA.",
+        "MD Anderson UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA.",
+        "MD Anderson UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA.",
+        "Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN 37203, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Haodong",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Jia, Johnathan",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA.",
+          "MD Anderson UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Jeong, Hyun-Hwan",
+        "short_name": "Jeong HH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhongming",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, UTHealth Science Center at Houston, Houston, TX 77030, USA.",
+          "MD Anderson UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA.",
+          "Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN 37203, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Patterns (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Patterns (N Y)"
+    ],
+    "pub_date": "2023 Feb 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/07 06:00",
+    "fetched_at": "2026-09-28 21:16:04"
+  },
+  "links": {
+    "cites": [
+      "41844667",
+      "40431676",
+      "40124487"
+    ],
+    "refs": [
+      "35216000",
+      "34557778",
+      "34233610",
+      "34092254",
+      "34009299",
+      "33977077",
+      "33757561",
+      "33581335",
+      "33059369",
+      "32001437",
+      "31835460",
+      "31701148",
+      "31598702",
+      "31251786",
+      "30307560",
+      "30303535",
+      "30295703",
+      "30129235",
+      "29659719",
+      "29379481",
+      "29186194",
+      "28811663",
+      "28534499",
+      "28260789",
+      "27377064",
+      "27256574",
+      "27197224",
+      "26828513",
+      "26213851",
+      "25699093",
+      "25263741",
+      "24960164",
+      "24735963",
+      "24041428",
+      "23966985",
+      "23717618",
+      "23409198",
+      "23293287",
+      "23060610",
+      "22696638",
+      "22493372",
+      "22017217",
+      "21228324",
+      "21119600",
+      "20810260",
+      "20110278",
+      "20102225",
+      "19458158",
+      "19110638",
+      "18559673",
+      "18369476",
+      "18071306",
+      "17535924",
+      "16731699",
+      "16048490",
+      "15840694",
+      "15471956",
+      "15284899",
+      "15155851",
+      "14668816",
+      "11988758",
+      "11237011",
+      "11145887",
+      "11080798",
+      "10702386",
+      "9680111",
+      "9376596",
+      "9209281",
+      "9147818",
+      "8995656",
+      "8350410",
+      "1906155",
+      "1899734",
+      "1454515"
+    ],
+    "similar": [
+      "36873907",
+      "41451538",
+      "33977077",
+      "15072587",
+      "1318468",
+      "24403582",
+      "26581997",
+      "19761585",
+      "31598702",
+      "27322308",
+      "28263674",
+      "14722305",
+      "8350410",
+      "35958554",
+      "40866237",
+      "6326131",
+      "40015031",
+      "15840694",
+      "40103572",
+      "35504920",
+      "8261424",
+      "26929370",
+      "26819304",
+      "6290401",
+      "29186194",
+      "36108787",
+      "25355872",
+      "36593730",
+      "6951204",
+      "2827811",
+      "6100640",
+      "14991527",
+      "21796326",
+      "31618639",
+      "24735963",
+      "24389072",
+      "31864373",
+      "31315992",
+      "12176906",
+      "25210182",
+      "26690203",
+      "41361471",
+      "11008104",
+      "36072598",
+      "24316494",
+      "31883457",
+      "33425776",
+      "28137248",
+      "6300254",
+      "10987310",
+      "34818069",
+      "22405461",
+      "40111035",
+      "15129647",
+      "19602286",
+      "33200368",
+      "14983878",
+      "6315604",
+      "34349058",
+      "7581028",
+      "30087673",
+      "32508789",
+      "33869030",
+      "17715223",
+      "24156738",
+      "1970111",
+      "18316517",
+      "37661566",
+      "2054528",
+      "34073995",
+      "6100652",
+      "8631013",
+      "8543390",
+      "36546414",
+      "15943569",
+      "9557617",
+      "35062342",
+      "40915004",
+      "16883437",
+      "31842935",
+      "28724766",
+      "31315993",
+      "29941091",
+      "30258009",
+      "22507774",
+      "10666261",
+      "16276549",
+      "12706085",
+      "2825353",
+      "7949164",
+      "17409138",
+      "6330224",
+      "41213277",
+      "31142665",
+      "10397475",
+      "8600320",
+      "8763995",
+      "6280175",
+      "21994794",
+      "27776189"
+    ],
+    "review": [
+      "36873907",
+      "27322308",
+      "28263674",
+      "40866237",
+      "40015031",
+      "36593730",
+      "21796326",
+      "26690203",
+      "36072598",
+      "24316494",
+      "33425776",
+      "22405461",
+      "15129647",
+      "33200368",
+      "30087673",
+      "32508789",
+      "33869030",
+      "1970111",
+      "2054528",
+      "34073995",
+      "36546414",
+      "9557617",
+      "35062342",
+      "40915004",
+      "16276549",
+      "12706085",
+      "21994794"
+    ],
+    "pmc": [
+      "9982299"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3899(22)00321-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36873907/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36873907",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

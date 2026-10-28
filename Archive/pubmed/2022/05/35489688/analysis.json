@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35489688",
+  "title": "Machine-learning from Pseudomonas putida KT2440 transcriptomes reveals its transcriptional regulatory network.",
+  "authors": "Lim, Hyun Gyu; Rychel, Kevin; Sastry, Anand V; Bentley, Gayle J; Mueller, Joshua; Schindel, Heidi S; Larsen, Peter E; Laible, Philip D; Guss, Adam M; Niu, Wei; Johnson, Christopher W; Beckham, Gregg T; Feist, Adam M; Palsson, Bernhard O",
+  "journal": "Metabolic engineering",
+  "published_date": "2022-05-01",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习（ICA）从转录组数据推断细菌转录调控网络，但仅基于表达谱统计推断TF-基因关联，缺乏TF-DNA结合位点预测、三维互作建模或分子模拟，属于纯序列/表达层面的调控网络分析，与TF-DNA互作机制建模关系较远。",
+  "abstract": "Bacterial gene expression is orchestrated by numerous transcription factors (TFs). Elucidating how gene expression is regulated is fundamental to understanding bacterial physiology and engineering it for practical use. In this study, a machine-learning approach was applied to uncover the genome-scale transcriptional regulatory network (TRN) in Pseudomonas putida KT2440, an important organism for bioproduction. We performed independent component analysis of a compendium of 321 high-quality gene expression profiles, which were previously published or newly generated in this study. We identified 84 groups of independently modulated genes (iModulons) that explain 75.7% of the total variance in the compendium. With these iModulons, we (i) expand our understanding of the regulatory functions of 39 iModulon associated TFs (e.g., HexR, Zur) by systematic comparison with 1993 previously reported TF-gene interactions; (ii) outline transcriptional changes after the transition from the exponential growth to stationary phases; (iii) capture group of genes required for utilizing diverse carbon sources and increased stationary response with slower growth rates; (iv) unveil multiple evolutionary strategies of transcriptome reallocation to achieve fast growth rates; and (v) define an osmotic stimulon, which includes the Type VI secretion system, as coordination of multiple iModulon activity changes. Taken together, this study provides the first quantitative genome-scale TRN for P. putida KT2440 and a basis for a comprehensive understanding of its complex transcriptome changes in a variety of physiological states.",
+  "abstract_zh": "细菌基因表达由众多转录因子（TFs）协调控制。阐明基因表达如何被调控，对于理解细菌生理学并将其工程化应用于实际至关重要。本研究采用机器学习方法，揭示恶臭假单胞菌（Pseudomonas putida）KT2440（一种重要的生物生产菌株）的基因组规模转录调控网络（TRN）。我们对321个高质量基因表达谱（其中部分为先前发表或本研究新生成）进行了独立成分分析。我们鉴定出84组独立调控基因模块（iModulons），这些模块解释了数据集中总方差的75.7%。利用这些iModulons，我们：（i）通过与1993个先前报道的TF-基因相互作用进行系统比较，扩展了对39个iModulon相关转录因子（如HexR、Zur）调控功能的理解；（ii）概述了从指数生长期向稳定期转变后的转录变化；（iii）捕获了利用多种碳源所需的基因群，并观察到随生长速率降低而增强的稳定期响应；（iv）揭示了转录组重新分配以实现快速生长速率的多种进化策略；（v）定义了一个渗透刺激子（osmotic stimulon），其中包括VI型分泌系统，作为多个iModulon活性变化的协调结果。综上所述，本研究为恶臭假单胞菌KT2440提供了首个定量基因组规模TRN，并为其在多种生理状态下复杂转录组变化的全面理解奠定了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35489688/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35489688/",
+  "paper_page_path": "papers/pubmed/35489688/index.html"
+}

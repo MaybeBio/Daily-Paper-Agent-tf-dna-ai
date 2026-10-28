@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38559255",
+  "title": "Dissection of core promoter syntax through single nucleotide resolution modeling of transcription initiation.",
+  "authors": "He, Adam Y; Danko, Charles G",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-04-01",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型CLIPNET从DNA序列预测转录起始位置和数量，并解析核心启动子语法中的DNA-蛋白互作，虽涉及TF-DNA结合位点预测但未聚焦三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "How the DNA sequence of cis-regulatory elements encode transcription initiation patterns remains poorly understood. Here we introduce CLIPNET, a deep learning model trained on population-scale PRO-cap data that predicts the position and quantity of transcription initiation with single nucleotide resolution from DNA sequence more accurately than existing approaches. Interpretation of CLIPNET revealed a complex regulatory syntax consisting of DNA-protein interactions in five major positions between -200 and +50 bp relative to the transcription start site, as well as more subtle positional preferences among transcriptional activators. Transcriptional activator and core promoter motifs work non-additively to encode distinct aspects of initiation, with the former driving initiation quantity and the latter initiation position. We identified core promoter motifs that explain initiation patterns in the majority of promoters and enhancers, including DPR motifs and AT-rich TBP binding sequences in TATA-less promoters. Our results provide insights into the sequence architecture governing transcription initiation.",
+  "abstract_zh": "顺式调控元件的DNA序列如何编码转录起始模式，目前仍知之甚少。在此，我们介绍了CLIPNET，一种基于群体规模PRO-cap数据训练的深度学习模型，它能以单核苷酸分辨率从DNA序列预测转录起始的位置和数量，且准确性优于现有方法。对CLIPNET的解析揭示了一种复杂的调控语法，涉及转录起始位点相对-200至+50 bp区域内五个主要位置的DNA-蛋白质相互作用，以及转录激活因子之间更细微的位置偏好。转录激活因子和核心启动子基序以非加性方式编码起始的不同方面，前者驱动起始数量，后者决定起始位置。我们识别出核心启动子基序，这些基序解释了大多数启动子和增强子中的起始模式，包括DPR基序和无TATA启动子中富含AT的TBP结合序列。我们的结果提供了对调控转录起始的序列架构的深入见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38559255/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38559255/",
+  "paper_page_path": "papers/pubmed/38559255/index.html"
+}

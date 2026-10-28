@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "39920908",
+    "doi": "10.1016/j.meegid.2025.105725",
+    "title": "Diamonds in the rif: Alignment-free comparative genomics analysis reveals strain-transcendent Plasmodium falciparum antigens amidst extensive genetic diversity."
+  },
+  "content": {
+    "abstract": "The repetitive interspersed family (rif) and subtelomeric variable open reading frames (stevor) are highly diverse multi-gene families in the malaria parasite Plasmodium falciparum. Embedded on the surface of infected erythrocytes, RIFIN and STEVOR proteins are involved in cytoadherence and immune evasion, but the extent of family-wide sequence diversity across strains has yet to be comprehensively investigated in light of improved resolution of the subtelomeric genome sequences. Using a k-mer frequency approach, we analyzed long-read genomic sequence data from 18 geographically diverse P. falciparum genome assemblies, including lab strains and clinical isolates. We hypothesized that k-mer sequence comparison can identify existing RIFIN and STEVOR subgroups, identify novel subgroups, and generate more robust and reliable estimates of family-wide sequence diversity. Full-length RIFIN and STEVOR proteins shared on average 49.5% and 61.1% amino acid k-mer similarity, respectively, which fell to 25.1% and 20% in the hypervariable regions alone. Despite this diversity, we identified 11 RIFINs and five STEVORs that were conserved across strains above expected thresholds. A subset of these strain-transcendent genes was similar and syntenic to genes in related Plasmodium species, suggesting an ancient origin. Additionally, in silico structural predictions from AlphaFold showed that three-dimensional structures of RIFIN receptor-binding regions were more conserved than their sequences suggested. Evolutionarily constrained RIFINs and STEVORs may have critical functions in parasite survival or pathogenesis. This study provides a framework for investigating diversity in highly variable multi-gene families and highlights the potential of strain-transcendent RIFIN and STEVOR proteins as vaccine candidates.",
+    "keywords": [
+      "Comparative genomics",
+      "Malaria",
+      "Plasmodium falciparum",
+      "RIFIN",
+      "STEVOR",
+      "Variant surface antigens"
+    ],
+    "mesh_terms": [
+      "*Plasmodium falciparum/genetics/classification/immunology",
+      "*Antigens, Protozoan/genetics/chemistry",
+      "*Genetic Variation",
+      "*Protozoan Proteins/genetics/chemistry",
+      "Genomics/methods",
+      "Humans",
+      "Genome, Protozoan",
+      "Phylogeny",
+      "Malaria, Falciparum/parasitology",
+      "Telomere-Binding Proteins/genetics",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lawton, Jonathan G",
+        "Zhou, Albert E",
+        "Stucke, Emily M",
+        "Takala-Harrison, Shannon",
+        "Silva, Joana C",
+        "Travassos, Mark A"
+      ],
+      "short_names": [
+        "Lawton JG",
+        "Zhou AE",
+        "Stucke EM",
+        "Takala-Harrison S",
+        "Silva JC",
+        "Travassos MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA.",
+        "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA.",
+        "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA.",
+        "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, 670 West Baltimore Street 3rd Floor, Baltimore, MD 21201, USA; Global Health and Tropical Medicine (GHTM), Instituto de Higiene e Medicina Tropical (IHMT), Universidade NOVA de Lisboa (NOVA), 100 Rua da Junqueira, Lisbon 1349-008, Portugal.",
+        "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA. Electronic address: mtravass@som.umaryland.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lawton, Jonathan G",
+        "short_name": "Lawton JG",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Albert E",
+        "short_name": "Zhou AE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Stucke, Emily M",
+        "short_name": "Stucke EM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Takala-Harrison, Shannon",
+        "short_name": "Takala-Harrison S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Silva, Joana C",
+        "short_name": "Silva JC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine, 670 West Baltimore Street 3rd Floor, Baltimore, MD 21201, USA; Global Health and Tropical Medicine (GHTM), Instituto de Higiene e Medicina Tropical (IHMT), Universidade NOVA de Lisboa (NOVA), 100 Rua da Junqueira, Lisbon 1349-008, Portugal."
+        ]
+      },
+      {
+        "full_name": "Travassos, Mark A",
+        "short_name": "Travassos MA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Vaccine Development and Global Health, University of Maryland School of Medicine, 685 West Baltimore Street Room 480, Baltimore, MD 21201, USA. Electronic address: mtravass@som.umaryland.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Infection, genetics and evolution : journal of molecular epidemiology and evolutionary genetics in infectious diseases"
+    ],
+    "journal_abbrev": [
+      "Infect Genet Evol"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/08 19:54",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42031913",
+      "41929691",
+      "41314148"
+    ],
+    "refs": [
+      "37774136",
+      "36918126",
+      "36515978",
+      "34991452",
+      "34718728",
+      "34340541",
+      "34265844",
+      "33790470",
+      "33648633",
+      "33647792",
+      "32650338",
+      "32477363",
+      "32055709",
+      "31915075",
+      "30337594",
+      "29862326",
+      "29784978",
+      "29674705",
+      "29459776",
+      "29186116",
+      "28968734",
+      "28847005",
+      "28642573",
+      "28637923",
+      "28351419",
+      "28030753",
+      "27994033",
+      "27907004",
+      "27667267",
+      "27136945",
+      "26714011",
+      "26700814",
+      "25953851",
+      "25751816",
+      "25589738",
+      "25482433",
+      "25011110",
+      "23186785",
+      "22235345",
+      "22106347",
+      "21718533",
+      "20862303",
+      "20164152",
+      "19682502",
+      "19558642",
+      "19162031",
+      "19151095",
+      "18651957",
+      "18197962",
+      "18028313",
+      "17719658",
+      "17555442",
+      "16938359",
+      "16025132",
+      "15849316",
+      "15520249",
+      "15034147",
+      "14740874",
+      "14729922",
+      "14573641",
+      "12518849",
+      "12368864",
+      "10562315",
+      "10430943",
+      "9879895",
+      "7606788",
+      "6383092",
+      "6380022",
+      "6352321",
+      "3299700",
+      "3056740",
+      "1599043"
+    ],
+    "similar": [
+      "39920908",
+      "21332983",
+      "30348135",
+      "34991452",
+      "30894432",
+      "41314148",
+      "38910420",
+      "19769795",
+      "26173856",
+      "17148488",
+      "19558642",
+      "23166704",
+      "28603279",
+      "32477363",
+      "23259643",
+      "26022315",
+      "9879895",
+      "19020666",
+      "21718533",
+      "29770278",
+      "31363031",
+      "35460670",
+      "19375460",
+      "19229319",
+      "34433057",
+      "31821735",
+      "34244481",
+      "19162031",
+      "12438381",
+      "16938359",
+      "17719658",
+      "28109696",
+      "18197962",
+      "26867816",
+      "22174947",
+      "10562315",
+      "22306282",
+      "29162636",
+      "10477185",
+      "17517129",
+      "29186116",
+      "31954917",
+      "23725540",
+      "15501792",
+      "18433451",
+      "40562206",
+      "29376283",
+      "18474651",
+      "40928987",
+      "27692771",
+      "15306707",
+      "29128519",
+      "23295064",
+      "17931459",
+      "28030753",
+      "10430943",
+      "17555442",
+      "18395207",
+      "34340541",
+      "24691798",
+      "18031585",
+      "26296605",
+      "39018754",
+      "39216830",
+      "30445995",
+      "26231699",
+      "18651957",
+      "30367656",
+      "23557839",
+      "22799500",
+      "33647792",
+      "29716542",
+      "9804551",
+      "25011110",
+      "15287581",
+      "1281968",
+      "32650338",
+      "23747831",
+      "15140830",
+      "32471507",
+      "23181845",
+      "24060540",
+      "33257570",
+      "21401937",
+      "40650822",
+      "14651636",
+      "40112571",
+      "38808064",
+      "16896206",
+      "28233866",
+      "22325817",
+      "36918126",
+      "23446319",
+      "14747138",
+      "24930015",
+      "23133397",
+      "27345719",
+      "33790470",
+      "11295182",
+      "39218629"
+    ],
+    "review": [
+      "39920908",
+      "38910420",
+      "28603279",
+      "19375460",
+      "28109696",
+      "24691798",
+      "40112571"
+    ],
+    "pmc": [
+      "12032969"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-1348(25)00014-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39920908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

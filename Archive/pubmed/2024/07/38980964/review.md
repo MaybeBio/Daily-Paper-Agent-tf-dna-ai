@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a computational design study in which the charged linker of the bis-intercalator TOTO (propane-1,3-diammonium) is replaced with a neutral peroxodisulphuric acid linker. Using molecular modeling and 500 ns molecular dynamics simulations (3 replicas), they claim improved DNA binding (assessed via MM-PBSA and Delphi methods) and enhanced membrane translocation permeability for the designed molecule, with anticipated reduced off-target binding due to lower overall charge. The authors conclude that peroxodisulphuric linker-based bis-intercalators may be promising for future design.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, methodological parameters, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup details, convergence criteria, binding free energy values, permeability calculation methods, error estimates, and any comparative statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting computational hypothesis regarding neutral linker-based bis-intercalators. However, the evidence base is insufficient to evaluate the validity of the central claims. The abstract lacks quantitative results, methodological transparency, and any form of statistical or error analysis. The claim of improved DNA binding and membrane permeability cannot be assessed from the provided material. The work may have potential interest, but the current evidence does not establish the case.
+- **Who would be interested in the results, and why** Computational chemists and medicinal chemists working on DNA-targeting agents, particularly those interested in bis-intercalator design and the balance between DNA affinity and cellular uptake. Researchers in drug delivery and nucleic acid binding may also find the concept of neutral linkers relevant, as it addresses a known limitation of highly charged intercalators.
+- **Major strengths** The conceptual motivation is clear and addresses a real limitation in bis-intercalator design, namely the trade-off between DNA binding affinity and cellular permeability. The choice of a neutral peroxodisulphuric acid linker is a specific and testable design modification. The use of multiple simulation replicas (3 replicas of 500 ns) suggests some awareness of sampling concerns.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims "improved DNA binding (as assessed through MM-PBSA and Delphi methods)" for the designed bis-intercalator compared to the control.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No quantitative binding free energy values, error bars, or statistical comparisons are reported. MM-PBSA is known to be highly sensitive to parameter choices, and the Delphi method (Poisson-Boltzmann) results are not presented. Without numerical data and uncertainty estimates, the claim of "improved" binding cannot be evaluated.  
+  - **Why it matters** The central conclusion of the study rests on this comparative claim. If the binding improvement is within error or dependent on arbitrary parameter choices, the design rationale collapses.  
+  - **Resolution test** Provide MM-PBSA and Delphi binding free energy values for both the designed and control molecules, with standard deviations across replicas, and demonstrate a statistically significant difference.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims "membrane translocation permeability" is improved for the designed molecule.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No method for assessing membrane permeability is described. No permeability coefficient, free energy barrier, or comparative metric is provided. The term "membrane translocation permeability" is vague and could refer to any number of computational approaches, none of which are specified.  
+  - **Why it matters** The stated motivation for the design is to overcome poor cellular uptake. Without a defined and validated permeability assessment, the second half of the design rationale is unsupported.  
+  - **Resolution test** Specify the method used (e.g., umbrella sampling, Martini coarse-grained simulations, or a scoring function), report the relevant quantitative metric for both molecules, and show a clear improvement.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that "significantly less off-target binding of the designed molecule is also anticipated" due to reduced overall charge.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** This is presented as an anticipated outcome, not a measured or simulated result. No off-target binding data, no control experiments, and no computational assessment of off-target interactions are described.  
+  - **Why it matters** The claim of reduced off-target effects is a key potential advantage of the design. If it is only speculative, it should be clearly labeled as such and not presented as a finding.  
+  - **Resolution test** Either remove this claim or provide computational or experimental evidence of off-target binding profiles for both molecules.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract implies that the designed molecule functions as a bis-intercalator based on 500 ns simulations with 3 replicas.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No structural data, intercalation geometry, base pair stacking analysis, or binding mode verification is presented. The abstract does not state whether the designed molecule actually intercalates at two distinct sites, nor whether the neutral linker permits the required conformational flexibility.  
+  - **Why it matters** The term "bis-intercalator" is a structural claim. If the designed molecule does not adopt a bis-intercalative binding mode, the entire premise of the study is invalid.  
+  - **Resolution test** Provide structural evidence from the simulations, such as distance and angle distributions between the intercalating moieties and the DNA base pairs, and demonstrate stable dual-site intercalation across all replicas.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract introduction  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The opening sentences are overly general and could be condensed. The definition of bis-intercalators is standard knowledge for the target audience.  
+  - **Required correction** Shorten the introductory background and move directly to the specific design problem.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation methodology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not specify the force field, water model, salt concentration, or temperature used in the simulations.  
+  - **Required correction** Include these details in the abstract or indicate that they are provided in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The concluding statement about the "future design of bis-intercalators" is speculative and not directly supported by the presented results.  
+  - **Required correction** Rephrase the conclusion to be more cautious and directly tied to the reported findings.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Chemical validity  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The peroxodisulphuric acid linker is described as "neutral," but the chemical structure and protonation state at physiological pH are not discussed. Peroxodisulphuric acid has two acidic protons, and its neutral form may not be the relevant species under biological conditions.  
+  - **Required correction** Clarify the protonation state and charge distribution of the linker under the simulated conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative binding data, permeability metrics, structural verification of bis-intercalation, and any off-target assessment means that none of the central claims can be verified from the provided material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of replacing a charged linker with a neutral one in a bis-intercalator is a reasonable design idea, but it is not highly novel. Similar approaches have been explored for other DNA-binding agents. The originality is moderate.  
+  - **Scientific importance** The problem of balancing DNA binding and cellular uptake is relevant, but the abstract does not demonstrate that the proposed solution works. The importance of the findings cannot be assessed without data.  
+  - **Interdisciplinary readership** The topic sits at the interface of computational chemistry, biophysics, and medicinal chemistry. The abstract is written in a way that is accessible to a broad audience, but the lack of technical detail limits its usefulness to specialists.  
+  - **Technical soundness** The technical soundness cannot be evaluated from the abstract alone. The absence of methodological details and quantitative results is a major limitation.  
+  - **Readability for nonspecialists** The abstract is readable and the motivation is clear. However, the lack of specific results makes it difficult for any reader to judge the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but no verifiable results. The authors should provide the full manuscript with quantitative data, methodological transparency, and statistical analysis before the claims can be considered.
+
+## Risk / unsupported claims
+- The claim of "improved DNA binding" is unsupported due to the absence of quantitative MM-PBSA and Delphi results.
+- The claim of "membrane translocation permeability" improvement is unsupported because no method or metric is described.
+- The claim of "significantly less off-target binding" is speculative and presented as anticipation, not as a measured result.
+- The structural claim that the designed molecule acts as a bis-intercalator is unverified without structural simulation data.
+- The overall conclusion that peroxodisulphuric linker-based bis-intercalators "can potentially target DNA effectively" is not supported by the evidence presented in the abstract.

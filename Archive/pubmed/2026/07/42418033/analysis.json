@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42418033",
+  "title": "Mechanisms of the binding of camptothecin derivatives with topoisomerase I: Molecular docking, molecular dynamics simulations, and binding free energy calculations.",
+  "authors": "Liu, Jingli; Qu, Jingyu; Xue, Yingying; Shi, Yajun; Shi, Mingsong",
+  "journal": "Journal of molecular modeling",
+  "published_date": "2026-07-08",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过分子对接、MD模拟和MM/GBSA研究喜树碱衍生物与拓扑异构酶I-DNA三元复合物的结合机制，虽涉及蛋白-DNA互作和物理模拟方法，但对象为药物-蛋白-DNA体系而非TF-DNA，方法可迁移但非核心聚焦。",
+  "abstract": "CONTEXT: Topoisomerase 1 (TOP1) is a key anticancer target, and camptothecin (CPT) and its derivatives are typical TOP1 inhibitors. Among them, the 7-aminourea and 7-aminothiourea derivatives of CPT (XSJ07 and XSJ05, respectively) exhibit potent inhibitory activity, yet their binding mechanisms remain unclear. In this study, we investigated the interactions of XSJ05 and XSJ07 with TOP1 to clarify their molecular recognition behavior. Both compounds intercalated into the cleaved-DNA-binding site to form stable TOP1-DNA-ligand ternary complexes. The calculated binding free energies of the XSJ05/TOP1 and XSJ07/TOP1 systems were -58.34 and -51.60 kcal/mol, respectively. These findings provide mechanistic insights into the binding of CPT derivatives to TOP1 and may guide the rational design of novel CPT-based inhibitors. METHODS: Molecular docking, molecular dynamics (MD) simulations, and binding free energy calculations were employed to characterize the interactions of XSJ05 and XSJ07 with TOP1. Ligand structures were optimized at the B3LYP/6-311++G(d,p) level, and partial atomic charges were derived using the RESP protocol based on HF/6-31G calculations in Gaussian 16. Docking was performed using AutoDock 4.2 with grid parameters defined from the TPT/TOP1 crystal structure. MD simulations of the ligand-TOP1-DNA ternary complexes were conducted using AMBER24 with the ff19SB force field for TOP1 and DNA, GAFF2 for the ligands, and explicit TIP3P water. Each system was equilibrated and simulated for 500 ns in triplicate. Binding free energies and per-residue energy decompositions were calculated using the MM/GBSA method implemented in AMBER Tools, with analysis performed using the CPPTRAJ module.",
+  "abstract_zh": "拓扑异构酶1（TOP1）是重要的抗癌靶点，喜树碱（CPT）及其衍生物是典型的TOP1抑制剂。其中，CPT的7-氨基脲和7-氨基硫脲衍生物（分别为XSJ07和XSJ05）表现出强效抑制活性，但其结合机制尚不清楚。在本研究中，我们探讨了XSJ05和XSJ07与TOP1的相互作用，以阐明其分子识别行为。两种化合物均插入切割DNA结合位点，形成稳定的TOP1-DNA-配体三元复合物。XSJ05/TOP1和XSJ07/TOP1体系的计算结合自由能分别为-58.34和-51.60 kcal/mol。这些发现为CPT衍生物与TOP1的结合提供了机制性见解，并可能指导新型基于CPT的抑制剂的合理设计。方法：采用分子对接、分子动力学（molecular dynamics）模拟和结合自由能计算来表征XSJ05和XSJ07与TOP1的相互作用。配体结构在B3LYP/6-311++G(d,p)水平下优化，部分原子电荷基于Gaussian 16中的HF/6-31G计算，使用RESP协议推导。对接使用AutoDock 4.2进行，网格参数根据TPT/TOP1晶体结构定义。配体-TOP1-DNA三元复合物的MD模拟使用AMBER24进行，TOP1和DNA采用ff19SB力场，配体采用GAFF2，并使用显式TIP3P水模型。每个体系平衡后，进行三次重复的500 ns模拟。结合自由能和逐残基能量分解使用AMBER Tools中实现的MM/GBSA方法计算，分析使用CPPTRAJ模块进行。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42418033/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42418033/",
+  "paper_page_path": "papers/pubmed/42418033/index.html"
+}

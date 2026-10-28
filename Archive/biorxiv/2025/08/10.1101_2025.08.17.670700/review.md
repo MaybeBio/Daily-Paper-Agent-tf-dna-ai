@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, related work, methods, experiments, limitations, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented in the supplied text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors introduce NucEL, described as the first ELECTRA-style pre-training framework for genomic foundation models. They claim that replaced token detection (RTD) with single-nucleotide tokenization and ModernBERT-style hybrid attention yields state-of-the-art performance on multiple genomic benchmarks, with superior efficiency, interpretability, and cross-species transferability compared to MLM-based models such as DNABERT and Nucleotide Transformer.
+- **Visible evidence base** Abstract; Sections 1 through 6; Tables 1, 2, 3, 4; Figures 1, 2, 3, 4 (referenced but not shown); Appendix (referenced but not provided)
+- **Missing materials affecting confidence** Figures and tables are referenced but not included in the supplied text; Appendix details on architecture, benchmark protocols, and attention analyses are not provided; no code, hyperparameters for fine-tuning, or training curves are available; statistical significance testing is not described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable contribution by adapting the ELECTRA pre-training objective to genomic sequences, an approach that is conceptually sound and could address known inefficiencies of MLM-based genomic language models. The reported results, if accurate and reproducible, would be of interest to the genomic machine learning community. However, the provided text lacks sufficient detail to verify the central claims. Key figures and tables are referenced but not shown, the Appendix is not available, and several methodological aspects (e.g., exact data splits, hyperparameter choices, baseline configurations) are underspecified. The cross-species generalization claim, in particular, requires careful scrutiny given the single-species pre-training. The interpretability analysis is creative but its biological significance is not fully established. Overall, the case is promising but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers developing genomic foundation models and deep learning methods for regulatory genomics would be the primary audience. The work is also relevant to computational biologists interested in efficient pre-training strategies, tokenization choices, and model interpretability for DNA sequences. The efficiency gains and parameter reduction relative to large models like Nucleotide Transformer could make the approach attractive for groups with limited computational resources.
+- **Major strengths** The conceptual motivation is clear and well-articulated. Adapting ELECTRA's RTD objective to genomics is a sensible and potentially impactful idea that addresses a real limitation of MLM-based pre-training. The use of single-nucleotide tokenization, combined with hybrid attention, is a thoughtful design choice that balances resolution and computational cost. The reported performance across multiple benchmarks, if confirmed, suggests the model is competitive with much larger models. The attention-based interpretability analysis is a valuable addition that goes beyond simple performance benchmarking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims state-of-the-art performance across multiple benchmarks (Tables 1, 2, 3) and superior interpretability (Figure 4), but the actual data supporting these claims are not visible in the supplied text.
+  - **Evidence pointer** Tables 1, 2, 3, 4; Figures 1, 2, 3, 4; Appendix
+  - **Concern** The core results are presented only as references to tables and figures that are not included in the provided material. Without the actual numbers, error bars, and statistical comparisons, the performance claims cannot be evaluated. The Appendix, which presumably contains critical details on architecture, benchmark protocols, and attention analyses, is also absent.
+  - **Why it matters** The central claims of the manuscript rest entirely on these results. A review cannot assess whether the stated conclusions are supported without seeing the data.
+  - **Resolution test** Provide the full tables and figures with all values, standard deviations, and statistical significance tests. Include the Appendix or a detailed methods supplement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript claims that NucEL achieves state-of-the-art performance and superior efficiency, but the experimental setup is not fully described. Baseline configurations, data splits, and evaluation protocols are referenced to prior work or the Appendix without sufficient detail.
+  - **Evidence pointer** Section 4; Tables 1, 2, 3; Appendix
+  - **Concern** The text states that protocols from DNABERT2, Caduceus, and Nucleotide Transformer were followed, but the specifics of how these were adapted for NucEL are not given. For example, it is unclear whether the same data splits, sequence lengths, and fine-tuning regimes were used for all models. The choice of MCC as the primary metric is reasonable, but the lack of detail on how it was computed and whether class imbalances were handled consistently across models is a concern.
+  - **Why it matters** Without a fully specified experimental protocol, the comparisons may not be fair or reproducible, undermining the validity of the performance claims.
+  - **Resolution test** Provide a complete description of the experimental setup, including data splits, hyperparameters, training duration, and evaluation metrics for all models compared. Clarify whether any model-specific tuning was performed and how this was controlled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that NucEL demonstrates "remarkable performance" on non-human species (mouse, yeast, virus) despite being pre-trained only on the human genome, and that this indicates universal genomic representations.
+  - **Evidence pointer** Section 4.1; Table 1
+  - **Concern** The cross-species results are presented as a key finding, but the number of tasks and species is limited (one task each for mouse, yeast, and virus). The claim of "universal genomic representations" is a strong interpretation that may not be warranted from such a narrow evaluation. Additionally, the text does not discuss potential confounders, such as sequence similarity between human and mouse regulatory regions, or whether the tasks are trivially easy.
+  - **Why it matters** Overinterpreting limited cross-species results could mislead the community about the model's true generalization capabilities.
+  - **Resolution test** Expand the cross-species evaluation to include more tasks and species, or temper the claims to match the evidence. Provide analysis of task difficulty and potential confounders.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that NucEL's attention patterns are more interpretable and biologically meaningful than those of NT2-100M, based on a synthetic motif-order task.
+  - **Evidence pointer** Section 4.7; Figure 4; Appendix
+  - **Concern** The synthetic task is a reasonable starting point, but the claim of "superior capacity to distinguish motif signals from noise" is based on a single synthetic scenario. It is unclear how this translates to real biological data, where motifs are degenerate, overlapping, and context-dependent. The biological relevance of the attention SNR metric is not established.
+  - **Why it matters** Interpretability is a stated contribution of the work, but the evidence provided is preliminary and may not generalize to real regulatory genomics problems.
+  - **Resolution test** Validate the interpretability findings on real biological datasets, such as ChIP-seq or eQTL data, and compare against established motif discovery methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, loss equations
+  - **Evidence pointer** Section 3.1
+  - **Issue** The loss equations are referenced but not displayed in the supplied text. The description of the generator-discriminator framework is clear conceptually, but the exact formulation of the combined loss and the role of the weighting factor λ = 50.0 would benefit from being shown explicitly.
+  - **Required correction** Include the full equations for the generator and discriminator losses and clarify the rationale for the chosen λ value.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.4, training details
+  - **Evidence pointer** Section 3.4
+  - **Issue** The training details mention 50 epochs, batch size 192, and 8 A100 GPUs, but the total number of training steps, the learning rate schedule beyond warmup, and the exact data sampling procedure are not specified.
+  - **Required correction** Provide a complete training configuration, including total steps, learning rate decay, and data shuffling details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4.6, embedding analysis
+  - **Evidence pointer** Section 4.6; Table 4
+  - **Issue** The embedding analysis uses t-SNE and XGBoost, but the text does not specify the dimensionality of the embeddings, the number of sequences per biotype, or the train/test split for the classifier.
+  - **Required correction** Add these details to the methods or Appendix.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5, limitations
+  - **Evidence pointer** Section 5
+  - **Issue** The limitations section is brief and focuses only on the human-genome pre-training. Other potential limitations, such as the lack of reverse-complement awareness or the fixed sequence length, are not discussed.
+  - **Required correction** Expand the limitations section to address additional potential weaknesses of the approach.
+
+## Risk / unsupported claims
+- The claim that NucEL is "the first ELECTRA-style genomic foundation model" is a strong priority claim that cannot be verified from the supplied text alone.
+- The claim of "state-of-the-art performance" across benchmarks is unsupported in the provided text because the actual results are not visible.
+- The claim of "universal genomic representations" based on three cross-species tasks is an overinterpretation of limited evidence.
+- The claim of "superior interpretability" based on a single synthetic task is not sufficiently validated.
+- The efficiency comparison (Figure 2B) is referenced but not shown, so the quantitative efficiency claims cannot be assessed.
+- The statement that RTD yields a "supervision ratio of approximately 6.67" is a simple arithmetic derivation from the 15% masking rate and is not a novel or validated metric.

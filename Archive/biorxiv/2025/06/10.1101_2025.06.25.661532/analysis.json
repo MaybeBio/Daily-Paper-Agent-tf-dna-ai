@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.25.661532",
+  "title": "AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model",
+  "authors": "Avsec Ž; Latysheva N; Cheng J; Novati G; Taylor KR; Ward T; Bycroft C; Nicolaisen L; Arvaniti E; Pan J; Thomas R; Dutordoir V; Perino M; De S; Karollus A; Gayoso A; Sargeant T; Mottram A; Wong LH; Drotár P; Kosiorek A; Senior A; Tanburn R; Applebaum T; Basu S; Hassabis D; Kohli P",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出AlphaGenome统一DNA序列模型，预测多种功能基因组轨道包括转录因子结合，用于调控变异效应预测，虽非直接TF-DNA互作建模，但方法可迁移至TF-DNA结合位点预测与变异效应研究。",
+  "abstract": "Deep learning models that predict functional genomic measurements from DNA sequence are powerful tools for deciphering the genetic regulatory code. Existing methods trade off between input sequence length and prediction resolution, thereby limiting their modality scope and performance. We present AlphaGenome, which takes as input 1 megabase of DNA sequence and predicts thousands of functional genomic tracks up to single base pair resolution across diverse modalities – including gene expression, transcription initiation, chromatin accessibility, histone modifications, transcription factor binding, chro- matin contact maps, splice site usage, and splice junction coordinates and strength. Trained on human and mouse genomes, AlphaGenome matches or exceeds the strongest respective available external models on 24 out of 26 evaluations on variant effect prediction. AlphaGenome’s ability to simultaneously score variant effects across all modalities accurately recapitulates the mechanisms of clinically-relevant variants near the TAL1 oncogene. To facilitate broader use, we provide tools for making genome track and variant effect predictions from sequence.",
+  "abstract_zh": "深度学习模型从DNA序列预测功能基因组测量值，是解读基因调控编码的有力工具。现有方法在输入序列长度和预测分辨率之间权衡取舍，从而限制了其模态范围与性能。我们提出AlphaGenome，它以1兆碱基的DNA序列为输入，预测数千个功能基因组轨道，分辨率可达单碱基对，涵盖多种模态——包括基因表达、转录起始、染色质可及性、组蛋白修饰、转录因子结合、染色质接触图谱、剪接位点使用，以及剪接连接坐标和强度。在人类和小鼠基因组上训练后，AlphaGenome在26项变异效应预测评估中的24项上，达到或超过各自最强现有外部模型的性能。AlphaGenome同时跨所有模态评分变异效应的能力，准确重现了TAL1癌基因附近临床相关变异的机制。为促进更广泛使用，我们提供了从序列进行基因组轨道和变异效应预测的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.25.661532/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present Dbert2_LR, a hybrid deep-learning framework combining DNABERT-2 with bidirectional RNN and LSTM networks, for classifying promoters, enhancers, and non-regulatory sequences in Arabidopsis thaliana and upland cotton. They report macro-averaged F1 scores of 0.890 and 0.637, respectively, and claim that in-silico saturation mutagenesis (ISM) confirms dependence on known transcription factor binding motifs, supporting biological interpretability. They also state the development of user-friendly prediction systems A_cre and C_cre.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, benchmark specifications, statistical analyses, or code availability are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction and preprocessing details, model architecture specifications, training and hyperparameter settings, benchmark model descriptions, ISM methodology and results, cross-validation or independent test procedures, and software implementation details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful application of a pretrained genomic foundation model to cis-regulatory element prediction in crops. The reported performance metrics are modest, particularly for cotton, and the claims of interpretability and practical utility cannot be evaluated from the abstract alone. The core novelty relative to existing CRE prediction tools is not clearly articulated, and the evidence base is insufficient to assess technical soundness or generalizability.
+- **Who would be interested in the results, and why** Plant molecular biologists and crop geneticists interested in functional annotation of regulatory elements in complex genomes, computational biologists working on deep learning applications to genomics, and researchers involved in crop breeding programs that may use promoter or enhancer predictions for targeted genetic modification.
+- **Major strengths** The integration of a pretrained genomic foundation model with recurrent architectures is a reasonable design choice for capturing both long-range and local sequence features. The inclusion of ISM to link model decisions to known motifs is a positive step toward interpretability. The development of user-facing prediction systems, if functional and accessible, would enhance practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves macro-averaged F1 scores of 0.890 and 0.637 on Arabidopsis thaliana and upland cotton, respectively, and outperforms multiple benchmark models.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on dataset composition, class balance, sequence length, genome assembly versions, or how negative (non-regulatory) sequences were defined. The F1 scores, particularly the cotton value of 0.637, are presented without confidence intervals, statistical comparisons, or details on the benchmark models used. Without these details, the reported performance cannot be interpreted or reproduced.
+  - **Why it matters** Performance claims in machine learning for genomics are highly sensitive to dataset construction and evaluation protocols. A macro-averaged F1 of 0.637 for cotton may reflect genuine difficulty or may result from class imbalance, label leakage, or an overly stringent negative set. The absence of methodological detail prevents assessment of whether the reported improvements are meaningful.
+  - **Resolution test** Provide full dataset descriptions, class distributions, train/validation/test splits, benchmark model names and versions, and statistical significance testing (e.g., bootstrapped confidence intervals or paired tests) for all reported F1 scores.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** In-silico saturation mutagenesis analysis confirmed that the model's decisions strongly depend on known transcription factor binding motifs such as TATA-box, DOF, and E-box, revealing its biological interpretability.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that ISM confirmed dependence on known motifs, but provides no quantitative results, no comparison to control or shuffled motifs, and no explanation of how "strongly depend" was measured. ISM can show that a model attends to certain positions, but this does not establish biological interpretability without demonstrating that the identified motifs are enriched relative to background or that the model's predictions align with independent functional data.
+  - **Why it matters** The claim of overcoming the "black-box" nature of deep learning is a central selling point of the work. If the ISM analysis is not rigorously quantified and compared against appropriate controls, the interpretability claim is overstated and could mislead users who rely on the model for biological inference.
+  - **Resolution test** Provide ISM methodology, including mutation strategy, scoring metric, background model, and statistical enrichment analysis of identified motifs against known databases. Show that motif importance scores are significantly higher for known motifs than for random or shuffled sequences, and ideally validate against independent experimental data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and positioning
+  - **Claim pointer** The study provides a powerful new tool for functional annotation of complex crop genomes and lays the foundation for CRE-based molecular breeding design.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not clearly state how Dbert2_LR differs from existing CRE prediction tools, such as those based on convolutional networks, traditional machine learning, or other transformer-based models. The novelty claim is therefore not substantiated. Additionally, the claim of laying a foundation for breeding design is speculative without demonstration of downstream utility.
+  - **Why it matters** For a field with many existing CRE predictors, the contribution must be clearly differentiated. Without a comparative discussion of prior work and a clear statement of what is new, the scientific contribution is difficult to assess.
+  - **Resolution test** In the full manuscript, include a systematic comparison with state-of-the-art CRE prediction methods on the same datasets, and articulate the specific architectural or methodological advances. Provide a realistic discussion of how the tool could be used in breeding, with concrete examples or pilot applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and architecture description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The name "Dbert2_LR" is not self-explanatory, and the abstract does not specify what "LR" denotes or how the bidirectional RNN and LSTM components are combined with DNABERT-2.
+  - **Required correction** Define the acronym and provide a brief architectural diagram or textual description of how the components are integrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions user-friendly A_cre and C_cre prediction systems but does not state whether code, models, or web servers are publicly accessible.
+  - **Required correction** State data and code availability, including URLs or repository identifiers, and specify whether the prediction systems are web-based or standalone.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Species scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract evaluates the model on only two species, one dicot and one monocot-like crop, and does not discuss whether the model would generalize to other crops with different genome structures.
+  - **Required correction** Add a discussion of model transferability and, if available, preliminary results on additional species.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claims and the interpretability claims are the two central pillars of the work, and neither can be evaluated from the provided material. Without full methodological transparency and quantitative evidence, the case for the model's utility and biological relevance is not established.
+- **Assessment against Nature-style criteria** Originality: The combination of a pretrained genomic foundation model with recurrent layers is not inherently novel, and the abstract does not demonstrate a clear advance over existing methods. Scientific importance: Accurate CRE prediction in crops is a relevant problem, but the modest performance on cotton and the lack of demonstrated downstream utility limit the perceived importance. Interdisciplinary readership: The work may appeal to computational biologists and plant scientists, but the abstract is too brief to engage a broader readership. Technical soundness: Cannot be assessed from the abstract; the reported metrics lack statistical context and methodological detail. Readability for nonspecialists: The abstract is generally clear but uses jargon without sufficient explanation, and the significance of the results is not made accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach and some positive results, but the absence of methodological detail, statistical rigor, and a clear novelty statement prevents a supportive recommendation. The authors should be invited to resubmit a full manuscript that addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that Dbert2_LR "outperforms multiple benchmark models" is unsupported without benchmark names, datasets, and statistical comparisons.
+- The claim that ISM "confirmed" dependence on known motifs is unsupported without quantitative results and controls.
+- The claim that the model "efficiently captures" both deep contextual dependencies and local sequence patterns is not substantiated by any efficiency or ablation analysis.
+- The claim that the study "lays the foundation for CRE-based molecular breeding design" is speculative and not supported by any application or validation in a breeding context.
+- The generalizability of the model to other crops is not assessable from the abstract.

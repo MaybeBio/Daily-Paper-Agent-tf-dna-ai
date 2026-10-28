@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "35782725",
+    "doi": "10.1016/j.csbj.2022.06.031",
+    "title": "DESSO-DB: A web database for sequence and shape motif analyses and identification."
+  },
+  "content": {
+    "abstract": "Cis-regulatory motif (motif for short) identification and analyses are essential steps in detecting gene regulatory mechanisms. Deep learning (DL) models have shown substantial advances in motif prediction. In parallel, intuitive and integrative web databases are needed to make effective use of DL models and ensure easy access to the identified motifs. Here, we present DESSO-DB, a web database developed to allow efficient access to the identified motifs and diverse motif analyses. DESSO-DB provides motif prediction results and visualizations of 690 ENCODE human Chromatin Immunoprecipitation sequencing (ChIP-seq) data (including 161 transcription factors (TFs) in 91 cell lines) and 1,677 human ChIP-seq data (including 547 TFs in 359 cell lines) from Cistrome DB using DESSO, which is an in-house developed DL tool for motif prediction. It also provides online motif finding and scanning functions for new ChIP-seq/ATAC-seq datasets and downloadable motif results of the above 690 DECODE datasets, 126 cancer ChIP-seq, 55 RNA Crosslinking-Immunoprecipitation and high-throughput sequencing (CLIP-seq) data. DESSO-DB is deployed on the Google Cloud Platform, providing stabilized and efficient resources freely to the public. DESSO-DB is free and available at http://cloud.osubmi.com/DESSO/.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaoying",
+        "Wang, Cankun",
+        "Li, Lang",
+        "Ma, Qin",
+        "Ma, Anjun",
+        "Liu, Bingqiang"
+      ],
+      "short_names": [
+        "Wang X",
+        "Wang C",
+        "Li L",
+        "Ma Q",
+        "Ma A",
+        "Liu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematics, Shandong University, Shandong, China.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Mathematics, Shandong University, Shandong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaoying",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Shandong University, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cankun",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Lang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Qin",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Anjun",
+        "short_name": "Ma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Bingqiang",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, Shandong University, Shandong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/06 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34607350",
+      "31890140",
+      "31511663",
+      "31372637",
+      "30955888",
+      "30696980",
+      "30462313",
+      "29140464",
+      "28245811",
+      "26531826",
+      "25199790",
+      "23703209",
+      "22955987",
+      "22482508",
+      "20339533",
+      "18662377",
+      "17324271",
+      "15173120",
+      "8871566"
+    ],
+    "similar": [
+      "35782725",
+      "31372637",
+      "34607350",
+      "30462313",
+      "21486936",
+      "26971251",
+      "31138617",
+      "30416387",
+      "24555784",
+      "30957858",
+      "27789702",
+      "25179504",
+      "38189539",
+      "36012247",
+      "31942977",
+      "27519564",
+      "31070745",
+      "28334268",
+      "37971305",
+      "24322294",
+      "21543442",
+      "28529706",
+      "36688700",
+      "34383745",
+      "25442502",
+      "34284136",
+      "21859476",
+      "25070602",
+      "29621972",
+      "33584814",
+      "25927199",
+      "24974934",
+      "31742324",
+      "31653198",
+      "31899481",
+      "24927817",
+      "25341390",
+      "23762209",
+      "23161675",
+      "35193506",
+      "34755879",
+      "25477382",
+      "30598100",
+      "24532725",
+      "20736340",
+      "25486472",
+      "35240993",
+      "32321568",
+      "29281953",
+      "35318951",
+      "20056654",
+      "26886732",
+      "24253304",
+      "23748563",
+      "25957351",
+      "27008019",
+      "21138948",
+      "34974623",
+      "24875471",
+      "28336542",
+      "23732275",
+      "20158869",
+      "23790213",
+      "22955990",
+      "24162561",
+      "25953800",
+      "33975951",
+      "32143622",
+      "20375099",
+      "22973536",
+      "29722874",
+      "28240320",
+      "32424069",
+      "30016502",
+      "32858223",
+      "25058159",
+      "34273560",
+      "23272209",
+      "31665223",
+      "23461573",
+      "32976105",
+      "26016777",
+      "27557775",
+      "33860225",
+      "36544470",
+      "38931140",
+      "38487805",
+      "37033469",
+      "38837557"
+    ],
+    "review": [
+      "35782725",
+      "24555784",
+      "28334268",
+      "31742324",
+      "25486472"
+    ],
+    "pmc": [
+      "9233226"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00242-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35782725/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35782725",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

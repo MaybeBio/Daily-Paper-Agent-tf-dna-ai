@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "41865690",
+    "doi": "10.1016/j.phymed.2026.158049",
+    "title": "Asiaticoside attenuates renal fibrosis by targeting STAT3 to restore Th17/Treg homeostasis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Renal fibrosis (RF) is a progressive pathological process driven by chronic inflammation and Th17/Treg imbalance. Asiaticoside (AS), a triterpenoid compound from Centella asiatica (L.) Urb., exhibits anti-inflammatory and antifibrotic activities, though its molecular mechanism remains unclear. OBJECTIVE: This study aimed to investigate whether AS alleviates RF by targeting Signal transducer and activator of transcription 3 (STAT3) through a \"bind to destabilize\" mechanism to restore Th17/Treg homeostasis. METHODS: An integrated approach combining network pharmacology, transcriptomics, and multimodal experimental validation was applied. UUO mice were treated with AS (10, 50, 100mg/kg/d) for 10 days. Histopathology, RNA‑seq, flow cytometry, immunofluorescence, Luminex, qPCR, DARTS‑LC‑MS/MS, molecular docking/dynamics simulations and SPR were performed. Pharmacological interventions using Stattic (STAT3 inhibitor) and Colivelin (STAT3 agonist) were included to functionally validate the role of STAT3. RESULTS: Network pharmacology identified STAT3 as the core target, with Th17 differentiation as the key pathway. AS treatment significantly attenuated RF, improved renal function, and rebalanced Th17/Treg ratios in UUO mice, accompanied by reduced IL-17A and elevated IL-10. Transcriptomic analysis revealed enriched Th17 cell differentiation genes, validated by qPCR. DARTS-LC-MS/MS confirmed direct binding of AS to STAT3 and identified a peptide derived from the SH2 domain (residues 582-602), indicating conformational destabilization. SPR showed high affinity binding to both human and murine STAT3. Molecular docking and dynamics simulations demonstrated a \"local anchoring-allosteric effect\" mode within the SH2 domain. qPCR analysis showed that AS significantly inhibited the mRNA expression of both IL-17A and total STAT3 in the renal tissues of UUO mice. Immunofluorescence revealed reduced STAT3 and p-STAT3 expression in kidneys. STAT3 inhibitor Stattic mimicked AS's antifibrotic and Th17 suppressive effects, whereas agonist Colivelin exacerbated fibrosis and was partially rescued by AS. CONCLUSION: AS alleviates RF via a novel \"bind to destabilize\" allosteric degradation mechanism that directly targets the STAT3 SH2 domain. This interaction induces conformational instability, suppresses STAT3 activation and transcriptional activity, restores Th17/Treg homeostasis, and ultimately mitigates renal inflammation and fibrosis. Collectively, these findings establish a new therapeutic strategy for STAT3-driven fibrotic diseases.",
+    "keywords": [
+      "Asiaticoside",
+      "CKD",
+      "Inflammation",
+      "Renal fibrosis",
+      "STAT3",
+      "Th17/Treg"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*STAT3 Transcription Factor/metabolism/antagonists & inhibitors",
+      "*Th17 Cells/drug effects",
+      "*Triterpenes/pharmacology",
+      "*T-Lymphocytes, Regulatory/drug effects",
+      "Fibrosis/drug therapy",
+      "Male",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Mice, Inbred C57BL",
+      "Kidney/pathology/drug effects",
+      "Homeostasis/drug effects",
+      "*Kidney Diseases/drug therapy/pathology",
+      "Network Pharmacology",
+      "Cyclic S-Oxides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Li-Jun",
+        "Wei, Qing",
+        "Ni, Hai-Feng",
+        "Jiang, Wei",
+        "Ni, Wei-Jie",
+        "Wang, Bo",
+        "Fu, Yu-Qi",
+        "Chen, Si-Jie",
+        "Zhang, Yi-Lin",
+        "Yang, Qin",
+        "Wen, Yi",
+        "Tang, Tao-Tao",
+        "Lv, Lin-Li",
+        "Wang, Bin",
+        "Liu, Bi-Cheng"
+      ],
+      "short_names": [
+        "Xie LJ",
+        "Wei Q",
+        "Ni HF",
+        "Jiang W",
+        "Ni WJ",
+        "Wang B",
+        "Fu YQ",
+        "Chen SJ",
+        "Zhang YL",
+        "Yang Q",
+        "Wen Y",
+        "Tang TT",
+        "Lv LL",
+        "Wang B",
+        "Liu BC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China. Electronic address: wangbinhewei@126.comx.",
+        "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China. Electronic address: liubc64@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Li-Jun",
+        "short_name": "Xie LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Qing",
+        "short_name": "Wei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Hai-Feng",
+        "short_name": "Ni HF",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Wei",
+        "short_name": "Jiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Wei-Jie",
+        "short_name": "Ni WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yu-Qi",
+        "short_name": "Fu YQ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Si-Jie",
+        "short_name": "Chen SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi-Lin",
+        "short_name": "Zhang YL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qin",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yi",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Tao-Tao",
+        "short_name": "Tang TT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Lin-Li",
+        "short_name": "Lv LL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bin",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China. Electronic address: wangbinhewei@126.comx."
+        ]
+      },
+      {
+        "full_name": "Liu, Bi-Cheng",
+        "short_name": "Liu BC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nephrology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, Jiangsu 210009, China. Electronic address: liubc64@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/23 01:33",
+    "fetched_at": "2026-10-01 17:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41865690",
+      "37301184",
+      "42097338",
+      "38908493",
+      "39367511",
+      "41308714",
+      "40498423",
+      "41327447",
+      "41785726",
+      "42083525",
+      "41904851",
+      "41802508",
+      "41619559",
+      "42392819",
+      "41068844",
+      "42242601",
+      "41997441",
+      "40274348",
+      "29454913",
+      "37861962",
+      "33640781",
+      "36906159",
+      "41043315",
+      "40550295",
+      "41544688",
+      "41320114",
+      "41688903",
+      "41101067",
+      "40858660",
+      "40936263",
+      "40471463",
+      "39296670",
+      "39871379",
+      "40088035",
+      "39786880",
+      "38356020",
+      "40562184",
+      "34031696",
+      "40812665",
+      "40916037",
+      "41747788",
+      "41621761",
+      "42233023",
+      "28213589",
+      "34465981",
+      "28693431",
+      "38460358",
+      "40031093",
+      "39647466",
+      "39179058",
+      "40916281",
+      "39472803",
+      "41839286",
+      "41124707",
+      "38471370",
+      "40609386",
+      "24688026",
+      "38409842",
+      "41490553",
+      "40186900",
+      "38742812",
+      "41308385",
+      "41887697",
+      "25625352",
+      "30213685",
+      "17493959",
+      "33112058",
+      "40133025",
+      "40279968",
+      "42275747",
+      "31281526",
+      "42083361",
+      "41072781",
+      "37451490",
+      "40659145",
+      "39490709",
+      "39427523",
+      "35863614",
+      "39819717",
+      "36470978",
+      "37186366",
+      "41786057",
+      "40768808",
+      "41936306",
+      "34342041",
+      "29673911",
+      "40435839",
+      "41106101",
+      "30630513",
+      "31177080",
+      "37335900",
+      "22943202",
+      "33994251",
+      "41763788",
+      "40397998",
+      "30551499",
+      "42235313",
+      "30240636",
+      "42080568",
+      "42278429"
+    ],
+    "review": [
+      "41865690"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00285-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneydiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Diseases"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-169",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

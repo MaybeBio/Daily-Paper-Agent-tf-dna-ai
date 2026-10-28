@@ -1,0 +1,551 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.16.575935",
+  "title": "Advancing Transcription Factor Binding Site Prediction Using DNA Breathing Dynamics and Sequence Transformers via Cross Attention",
+  "doi": "10.1101/2024.01.16.575935",
+  "abstract": "Understanding the impact of genomic variants on transcription factor binding and gene regulation remains a key area of research, with implications for unraveling the complex mechanisms underlying various functional effects. Our study delves into the role of DNA’s biophysical properties, including thermodynamic stability, shape, and flexibility in transcription factor (TF) binding. We developed a multi-modal deep learning model integrating these properties with DNA sequence data. Trained on ChIP-Seq (chromatin immunoprecipitation sequencing) data in vivo involving 690 TF-DNA binding events in human genome, our model significantly improves prediction performance in over 660 binding events, with up to 9.6% increase in AUROC metric compared to the baseline model when using no DNA biophysical properties explicitly. Further, we expanded our analysis to in vitro high-throughput Systematic Evolution of Ligands by Exponential enrichment (SELEX) and Protein Binding Microarray (PBM) datasets, comparing our model with established frameworks. The inclusion of DNA breathing features consistently improved TF binding predictions across different cell lines in these datasets. Notably, for complex ChIP-Seq datasets, integrating DNABERT2 with a cross-attention mechanism provided greater predictive capabilities and insights into the mechanisms of disease-related non-coding variants found in genome-wide association studies. This work highlights the importance of DNA biophysical characteristics in TF binding and the effectiveness of multi-modal deep learning models in gene regulation studies.",
+  "authors": [
+    "Anowarul Kabir",
+    "Manish Bhattarai",
+    "Kim Ø. Rasmussen",
+    "Amarda Shehu",
+    "Alan R Bishop",
+    "Boian Alexandrov",
+    "Anny Usheva"
+  ],
+  "published_date": "2024-01-20",
+  "updated_date": "2024-01-20T09:10:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.16.575935",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.16.575935.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T21:04:42Z",
+        "timestamp": 1775077482207,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 45,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Understanding the impact of genomic variants on transcription factor binding and gene regulation remains a key area of research, with implications for unraveling the complex mechanisms underlying various functional effects. Our study delves into the role of DNA’s biophysical properties, including thermodynamic stability, shape, and flexibility in transcription factor (TF) binding. We developed a multi-modal deep learning model integrating these properties with DNA sequence data. Trained on ChIP-Seq (chromatin immunoprecipitation sequencing) data\n                  <jats:italic>in vivo</jats:italic>\n                  involving 690 TF-DNA binding events in human genome, our model significantly improves prediction performance in over 660 binding events, with up to 9.6% increase in AUROC metric compared to the baseline model when using no DNA biophysical properties explicitly. Further, we expanded our analysis to\n                  <jats:italic>in vitro</jats:italic>\n                  high-throughput Systematic Evolution of Ligands by Exponential enrichment (SELEX) and Protein Binding Microarray (PBM) datasets, comparing our model with established frameworks. The inclusion of DNA breathing features consistently improved TF binding predictions across different cell lines in these datasets. Notably, for complex ChIP-Seq datasets, integrating DNABERT2 with a cross-attention mechanism provided greater predictive capabilities and insights into the mechanisms of disease-related non-coding variants found in genome-wide association studies. This work highlights the importance of DNA biophysical characteristics in TF binding and the effectiveness of multi-modal deep learning models in gene regulation studies.\n                </jats:p>",
+      "DOI": "10.1101/2024.01.16.575935",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            20
+          ]
+        ],
+        "date-time": "2024-01-20T09:10:16Z",
+        "timestamp": 1705741816000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Advancing Transcription Factor Binding Site Prediction Using DNA Breathing Dynamics and Sequence Transformers via Cross Attention"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Anowarul",
+          "family": "Kabir",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Manish",
+          "family": "Bhattarai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kim Ø.",
+          "family": "Rasmussen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amarda",
+          "family": "Shehu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alan R",
+          "family": "Bishop",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Boian",
+          "family": "Alexandrov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anny",
+          "family": "Usheva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.62.2755"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/0951-7715/17/2/R01"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.4",
+          "unstructured": "Poland, D. and Scheraga, H. A. (1970) Theory of helix-coil transitions in biopolymers: statistical mechanical theory of order-disorder transitions in biological macromolecules. (No Title),."
+        },
+        {
+          "issue": "5",
+          "key": "2024021901100427000_2024.01.16.575935v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "050901",
+          "DOI": "10.1103/PhysRevE.74.050901",
+          "article-title": "Bubble statistics and dynamics in double-stranded DNA",
+          "volume": "74",
+          "year": "2006",
+          "journal-title": "Physical review E"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp016"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp1084"
+        },
+        {
+          "issue": "5",
+          "key": "2024021901100427000_2024.01.16.575935v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e19800",
+          "DOI": "10.1371/journal.pone.0019800",
+          "article-title": "DNA dynamics is likely to be a factor in the genomic nucleotide repeats expansions related to diseases",
+          "volume": "6",
+          "author": "Usheva",
+          "year": "2011",
+          "journal-title": "PloS one"
+        },
+        {
+          "issue": "9",
+          "key": "2024021901100427000_2024.01.16.575935v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2679",
+          "DOI": "10.1364/BOE.2.002679",
+          "article-title": "Non-thermal effects of terahertz radiation on gene expression in mouse stem cells",
+          "volume": "2",
+          "year": "2011",
+          "journal-title": "Biomedical Optics Express"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks758"
+        },
+        {
+          "issue": "1",
+          "key": "2024021901100427000_2024.01.16.575935v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1184",
+          "DOI": "10.1038/srep01184",
+          "article-title": "Specificity and heterogeneity of terahertz radiation effect on gene expression in mouse mesenchymal stem cells",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0844-1"
+        },
+        {
+          "issue": "1",
+          "key": "2024021901100427000_2024.01.16.575935v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "9731",
+          "DOI": "10.1038/s41598-017-09537-y",
+          "article-title": "Evaluating the role of coherent delocalized phonon-like modes in DNA cyclization",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alexandrov, B. S. , Wille, L. T. , Rasmussen, K. Ø. , Bishop, A. R. , and Blagoev, K. B. (November, 2006) Bubble statistics and dynamics in double-stranded DNA. Physical Review E, 74(5).",
+          "DOI": "10.1103/PhysRevE.74.050901"
+        },
+        {
+          "issue": "3",
+          "key": "2024021901100427000_2024.01.16.575935v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000313",
+          "DOI": "10.1371/journal.pcbi.1000313",
+          "article-title": "Toward a Detailed Description of the Thermally Induced Dynamics of the Core Promoter",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alexandrov, L. B. , Bishop, A. R. , Rasmussen, K. Ø. , and Alexandrov, B. S. (February, 2016) The role of structural parameters in DNA cyclization. BMC Bioinformatics, 17(1).",
+          "DOI": "10.1186/s12859-016-0897-9"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alexandrov, L. B. , Rasmussen, K. Ø. , Bishop, A. R. , and Alexandrov, B. S. (August, 2017) Evaluating the role of coherent delocalized phonon-like modes in DNA cyclization. Scientific Reports, 7(1).",
+          "DOI": "10.1038/s41598-017-09537-y"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt221"
+        },
+        {
+          "issue": "4",
+          "key": "2024021901100427000_2024.01.16.575935v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1093",
+          "DOI": "10.1016/j.celrep.2013.03.014",
+          "article-title": "Genomic Regions Flanking E-Box Binding Sites Influence DNA Binding Specificity of bHLH Transcription Factors through DNA Shape",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "issue": "10",
+          "key": "2024021901100427000_2024.01.16.575935v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning–based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hassanzadeh, H. R. and Wang, M. D. (2016) DeeperBind: Enhancing prediction of sequence specificities of DNA binding proteins. In 2016 IEEE International conference on bioinformatics and biomedicine (BIBM) IEEE pp. 178–183.",
+          "DOI": "10.1109/BIBM.2016.7822515"
+        },
+        {
+          "issue": "2",
+          "key": "2024021901100427000_2024.01.16.575935v2.24",
+          "first-page": "679",
+          "article-title": "Weakly-supervised convolutional neural network architecture for predicting protein-DNA binding",
+          "volume": "17",
+          "year": "2018",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "issue": "Supplement 2",
+          "key": "2024021901100427000_2024.01.16.575935v2.25",
+          "first-page": "i634",
+          "article-title": "DeepSELEX: inferring DNA-binding preferences from HT-SELEX data using multi-class CNNs",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "4",
+          "key": "2024021901100427000_2024.01.16.575935v2.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1184",
+          "DOI": "10.1109/TCBB.2018.2819660",
+          "article-title": "High-Order Convolutional Neural Network Architecture for Predicting DNA-Protein Binding Sites",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2024021901100427000_2024.01.16.575935v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "13413",
+          "DOI": "10.1038/s41598-020-70218-4",
+          "article-title": "Enhancing the interpretability of transcription factor binding site prediction using attention mechanism",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-04034-6"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.29",
+          "unstructured": "Vaswani, A. , Shazeer, N. , Parmar, N. , Uszkoreit, J. , Jones, L. , Gomez, N. , Kaiser, L. , and Polosukhin, I. Attention Is All You Need. (2023)."
+        },
+        {
+          "issue": "15",
+          "key": "2024021901100427000_2024.01.16.575935v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1093/bioinformatics/btab083",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1422023112"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20167238"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1145"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt437"
+        },
+        {
+          "issue": "2",
+          "key": "2024021901100427000_2024.01.16.575935v2.35",
+          "first-page": "667",
+          "article-title": "Predicting in-vitro transcription factor binding sites using DNA sequence+ shape",
+          "volume": "18",
+          "year": "2019",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "issue": "16",
+          "key": "2024021901100427000_2024.01.16.575935v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "9105",
+          "DOI": "10.1093/nar/gkac708",
+          "article-title": "DNAffinity: a machine-learning approach to predict DNA binding affinities of transcription factors",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kabir, A. , Bhattarai, M. , Rasmussen, K. Ø. ., Shehu, A. , Usheva, A. , Bishop, A. R. , and Alexandrov, B. (November, 2023) Examining DNA breathing with pyDNA-EPBD. Bioinformatics, 39(11).",
+          "DOI": "10.1093/bioinformatics/btad699"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, L. , Orenstein, Y. , Jolma, A. , Yin, Y. , Taipale, J. , Shamir, R. , and Rohs, R. (February, 2017) Transcription factor family-specific ¡scp¿DNA¡/scp¿ shape readout revealed by quantitative specificity models. Molecular Systems Biology, 13(2).",
+          "DOI": "10.15252/msb.20167238"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1145"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.YMETH.2019.03.020"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.43",
+          "unstructured": "Zhou, Z. , Ji, Y. , Li, W. , Dutta, P. , Davuluri, R. , and Liu, H. DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome. (2023)."
+        },
+        {
+          "issue": "D1",
+          "key": "2024021901100427000_2024.01.16.575935v2.44",
+          "first-page": "D165",
+          "article-title": "JASPAR 2022: the 9th release of the open-access database of transcription factor binding profiles",
+          "volume": "50",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024021901100427000_2024.01.16.575935v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.16.575935",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:48:58Z",
+        "timestamp": 1768456138000
+      },
+      "score": 174.2478,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.16.575935"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            20
+          ]
+        ]
+      },
+      "references-count": 45,
+      "URL": "https://doi.org/10.1101/2024.01.16.575935",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

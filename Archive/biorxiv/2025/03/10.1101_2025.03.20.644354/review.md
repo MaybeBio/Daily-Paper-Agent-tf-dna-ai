@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors benchmark PWM and SVM-based models for TFBS prediction using human ChIP-seq data from ENCODE, evaluating training set size, sequence length, kernel functions, and synthetic versus biological background data, and provide a database of pretrained SVM models
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or dataset descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary information, dataset access details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and potentially useful comparative benchmarking study of PWM and SVM-based TFBS prediction models. The topic is of interest to the regulatory genomics community, and the proposed resource of pretrained SVM models could be a practical contribution. However, the abstract lacks any quantitative results, specific performance metrics, or methodological specifics that would allow assessment of the study's validity or significance. The claims are broad and largely descriptive, and the evidence base is insufficient to evaluate the technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding site prediction, regulatory genomics, and machine learning applications in genomics. Practitioners seeking practical guidance on model selection for TFBS prediction would also be interested, particularly given the proposed pretrained model database.
+- **Major strengths** The study addresses a relevant and practical question, namely the comparative performance of established PWM methods versus more flexible SVM approaches under varying conditions. The systematic evaluation of factors such as training set size, sequence length, and kernel functions is sensible. The provision of a pretrained SVM model database is a potentially valuable community resource.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the analysis "highlights strengths and limitations of both PWM and SVM-based approaches under different conditions, providing practical guidance for selecting and tailoring models to specific biological datasets."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative results, performance metrics, or comparative outcomes. There is no indication of the magnitude of performance differences, the conditions under which one method outperforms the other, or the statistical significance of any observed effects. The claim of providing "practical guidance" is unsupported without specific findings.
+  - **Why it matters** Without concrete results, the reader cannot evaluate whether the conclusions are justified or whether the guidance offered is reliable. The central purpose of a benchmarking study is to report comparative performance, and the absence of any such data in the abstract undermines the ability to assess the study's contribution.
+  - **Resolution test** The full manuscript should provide specific performance metrics (e.g., AUC, precision-recall) for PWM and SVM models across the evaluated conditions, with appropriate statistical comparisons. The abstract should summarize key quantitative findings.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that the study "systematically benchmarks the predictive performance of PWM and SVM-based models across different scenarios" and evaluates "the impact of key factors such as training dataset size, sequence length, and kernel functions."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the number of TFs or cell lines analyzed, the range of training set sizes or sequence lengths tested, the specific SVM kernels compared, or the nature of the synthetic background data. The term "systematically" implies a comprehensive design, but no details are provided to support this.
+  - **Why it matters** Reproducibility and generalizability depend on knowing the scope of the evaluation. Without these details, it is impossible to determine whether the conclusions are robust or limited to specific conditions.
+  - **Resolution test** The full manuscript should describe the complete experimental design, including the number and identity of TFs, the range of parameters tested, and the generation of synthetic data. The abstract should include at least the scale of the study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Resource accessibility
+  - **Claim pointer** The abstract claims the presentation of "a comprehensive database of pretrained SVM models for TFBS detection, trained on human ChIP-seq data from diverse cell lines and tissues."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No information is provided about the database's size, scope, access mechanism, or validation status. The term "comprehensive" is undefined, and there is no indication of how the models were validated or how users would access and apply them.
+  - **Why it matters** A database is only useful if it is accessible, documented, and validated. Without these details, the claimed resource cannot be evaluated or used by the community.
+  - **Resolution test** The full manuscript should describe the database contents, access URL, model format, and validation results. The abstract should state the number of models and the access point.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "synthetic versus real biological background data" is ambiguous. It is unclear whether this refers to the sequence background used for negative examples, the genomic context, or something else.
+  - **Required correction** Clarify the meaning of "background data" in the abstract, for example by specifying "negative training sequences" or "genomic background models."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Abstract motivation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that PWMs "face significant limitations, such as their inability to capture positional dependencies or model complex interactions," but does not explain why SVM-based models are expected to address these limitations specifically.
+  - **Required correction** Add a brief statement on how SVM-based models are expected to overcome PWM limitations, such as through the use of kernel functions that capture sequence features.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract conclusions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state any specific conclusion or recommendation, despite claiming to provide "practical guidance."
+  - **Required correction** Include at least one concrete takeaway message, such as a condition under which one method is preferred.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological scope details, and resource accessibility information means the core claims cannot be evaluated from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The comparative benchmarking of PWM and SVM methods is not novel in itself, but the systematic evaluation across multiple factors and the provision of a pretrained model database may offer some originality. This cannot be fully assessed from the abstract.
+  - Scientific importance: The question of model selection for TFBS prediction is practically important, but the abstract does not demonstrate that the findings are of broad significance beyond incremental benchmarking.
+  - Interdisciplinary readership: The topic is relevant to computational biology and genomics, but the abstract is written in a way that is accessible to specialists in the field. Broader appeal is not evident.
+  - Technical soundness: Cannot be assessed. No methodological details or results are provided.
+  - Readability for nonspecialists: The abstract is reasonably clear for a specialist audience, but terms such as "position weight matrices" and "kernel functions" are used without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful study, but the absence of quantitative results, methodological scope, and resource details prevents any assessment of validity or significance. A decision would require the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the analysis "highlights strengths and limitations of both PWM and SVM-based approaches" is unsupported because no results are presented.
+- The claim of providing "practical guidance for selecting and tailoring models" is unsupported without specific findings.
+- The claim of a "comprehensive database of pretrained SVM models" is unverifiable without details on size, access, or validation.
+- The statement that PWMs "face significant limitations" is presented as fact but is not substantiated with references or data in the abstract.

@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40646269",
+    "doi": "10.1038/s41598-025-10416-0",
+    "title": "Treatment of non-small cell lung cancer using chem-bioinformatics-driven engineering of exosomal cargo-vehicle for telmisartan and pioglitazone targeted-delivery."
+  },
+  "content": {
+    "abstract": "The activation of the PPARG transcription factor is linked to reduced non-small cell lung cancer (NSCLC) growth. Bioinformatics, cheminformatics, and molecular docking/dynamics studies assessing pioglitazone and telmisartan as repurposed PPARG agonists for treating NSCLC with a targeted delivery system was done. Bioinformatics confirmed that the expression of the PPARG gene can predict outcomes in lung adenocarcinoma and is related to immune cells present in the tumor. Cheminformatics data showed that pioglitazone and telmisartan have a strong attraction to the PPARG receptor, with good efficiency as ligands. Both drugs were found to be lipophilic, suggesting compatibility with a targeted delivery formulation that may include albumin. Further cheminformatics predictions highlighted systemic toxicity values and the need for targeted delivery to minimize toxic side effects. Molecular docking and dynamics simulations showed that the telmisartan-MyoVc cargo domain complex was strong and stable during an 18 ns simulation period. Bioinformatics and cheminformatics data support pioglitazone and telmisartan as promising repurposed drugs for LUAC, highlighting their lipophilicity and compatibility with exosomal components like albumin. Cheminformatics also pointed out potential off-target effects and hepatotoxicity, emphasizing the importance of exosomal targeted delivery. Molecular docking and MD simulations confirmed the affinity and stability of drug-exosomal vehicle complexes. The proposed engineering of exosomal cargo for targeted delivery of these drugs to lung cells could enhance NSCLC treatment and address drug resistance while minimizing systemic toxicity.",
+    "keywords": [
+      "Bioinformatics",
+      "Cheminformatics",
+      "Exosomes",
+      "In Silico drug repurposing",
+      "Lung adenocarcinoma",
+      "Molecular Docking",
+      "PPARG",
+      "Pioglitazone",
+      "Targeted delivery",
+      "Telmisartan"
+    ],
+    "mesh_terms": [
+      "*Telmisartan/chemistry/pharmacology/administration & dosage",
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/metabolism/pathology",
+      "*Lung Neoplasms/drug therapy/metabolism/pathology",
+      "*Pioglitazone/chemistry/pharmacology/administration & dosage",
+      "Molecular Docking Simulation",
+      "Computational Biology/methods",
+      "Molecular Dynamics Simulation",
+      "Drug Delivery Systems",
+      "PPAR gamma/metabolism/agonists/genetics/chemistry",
+      "*Exosomes/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hamdy, Nadia M",
+        "Sanad, Eman F",
+        "Kassab, Shaymaa E",
+        "Essam, Merhan",
+        "Guirguis, Monica A",
+        "Basalious, Emad B",
+        "Sultan, Ahmed S"
+      ],
+      "short_names": [
+        "Hamdy NM",
+        "Sanad EF",
+        "Kassab SE",
+        "Essam M",
+        "Guirguis MA",
+        "Basalious EB",
+        "Sultan AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2105-107X",
+        "ORCID: 0000-0002-4789-2662"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Faculty of Pharmacy, Ain Shams University, Abassia, 11566, Cairo, Egypt. nadia_hamdy@pharma.asu.edu.eg.",
+        "Department of Biochemistry, Faculty of Pharmacy, Ain Shams University, Abassia, 11566, Cairo, Egypt.",
+        "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Damanhour University, Damanhour, 22516, Egypt. shaymaa.kassab@pharm.dmu.edu.eg.",
+        "Protac Scientific, Drug Discovery Pro LLC, Cairo, 11627, Egypt. shaymaa.kassab@pharm.dmu.edu.eg.",
+        "Department of Biochemistry, Faculty of Pharmacy, Ain Shams University, Abassia, 11566, Cairo, Egypt.",
+        "Biochemistry Department, Faculty of Science, Alexandria University, El- Shatbi, 21568, Alexandria, Egypt.",
+        "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Al Kasr AlAiny, Cairo, 11562, Egypt.",
+        "Biochemistry Department, Faculty of Science, Alexandria University, El- Shatbi, 21568, Alexandria, Egypt.",
+        "Department of Oncology, Lombardi Comprehensive Cancer Center, Georgetown University Medical Center, Washington, DC, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hamdy, Nadia M",
+        "short_name": "Hamdy NM",
+        "identifiers": [
+          "0000-0003-2105-107X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Pharmacy, Ain Shams University, Abassia, 11566, Cairo, Egypt. nadia_hamdy@pharma.asu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Sanad, Eman F",
+        "short_name": "Sanad EF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Pharmacy, Ain Shams University, Abassia, 11566, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Kassab, Shaymaa E",
+        "short_name": "Kassab SE",
+        "identifiers": [
+          "0000-0002-4789-2662"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, Faculty of Pharmacy, Damanhour University, Damanhour, 22516, Egypt. shaymaa.kassab@pharm.dmu.edu.eg.",
+          "Protac Scientific, Drug Discovery Pro LLC, Cairo, 11627, Egypt. shaymaa.kassab@pharm.dmu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Essam, Merhan",
+        "short_name": "Essam M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Pharmacy, Ain Shams University, Abassia, 11566, Cairo, Egypt."
+        ]
+      },
+      {
+        "full_name": "Guirguis, Monica A",
+        "short_name": "Guirguis MA",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry Department, Faculty of Science, Alexandria University, El- Shatbi, 21568, Alexandria, Egypt."
+        ]
+      },
+      {
+        "full_name": "Basalious, Emad B",
+        "short_name": "Basalious EB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Al Kasr AlAiny, Cairo, 11562, Egypt."
+        ]
+      },
+      {
+        "full_name": "Sultan, Ahmed S",
+        "short_name": "Sultan AS",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry Department, Faculty of Science, Alexandria University, El- Shatbi, 21568, Alexandria, Egypt.",
+          "Department of Oncology, Lombardi Comprehensive Cancer Center, Georgetown University Medical Center, Washington, DC, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/12 16:44",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42059408",
+      "41983167",
+      "41659252",
+      "41389163",
+      "41154602",
+      "40806280"
+    ],
+    "refs": [
+      "39674644",
+      "38901687",
+      "38797720",
+      "38724725",
+      "38612715",
+      "38419843",
+      "38397426",
+      "38185054",
+      "38151840",
+      "37447156",
+      "37053313",
+      "36922504",
+      "36841046",
+      "36621949",
+      "36577970",
+      "36560421",
+      "36514378",
+      "35456678",
+      "35078134",
+      "34923243",
+      "34475041",
+      "34321199",
+      "34211166",
+      "33893803",
+      "33430990",
+      "33363470",
+      "33297908",
+      "33177929",
+      "33118813",
+      "33116714",
+      "32754790",
+      "32274301",
+      "31263479",
+      "31106366",
+      "31027492",
+      "30903160",
+      "30738975",
+      "30598075",
+      "30204469",
+      "29929000",
+      "29552215",
+      "29092952",
+      "28407145",
+      "28109944",
+      "27639619",
+      "27251372",
+      "26603933",
+      "26476454",
+      "26434508",
+      "24718721",
+      "24715979",
+      "24097982",
+      "23175614",
+      "22711850",
+      "22357520",
+      "21403641",
+      "20576703",
+      "19623674",
+      "18726085",
+      "17553829",
+      "17181137",
+      "16835228",
+      "16381952",
+      "16381927",
+      "16381872",
+      "16250640",
+      "15799829",
+      "15667143",
+      "15367687",
+      "15116359",
+      "14712215",
+      "12743361",
+      "12391285",
+      "11900497",
+      "11891036",
+      "10753637",
+      "10706135"
+    ],
+    "similar": [
+      "40646269",
+      "39508791",
+      "31027492",
+      "38685811",
+      "39888361",
+      "30105672",
+      "34341904",
+      "33456577",
+      "39216444",
+      "40594875",
+      "34475041",
+      "31632022",
+      "40973399",
+      "24578472",
+      "40738921",
+      "41442003",
+      "38217310",
+      "40355237",
+      "39596129",
+      "33570734",
+      "15799829",
+      "29378193",
+      "31323446",
+      "40907729",
+      "37715109",
+      "39300843",
+      "40966776",
+      "29493460",
+      "33896827",
+      "33781830",
+      "40070330",
+      "18516296",
+      "27602589",
+      "41410190",
+      "41308848",
+      "41043671",
+      "38575817",
+      "40198404",
+      "29622583",
+      "39914199",
+      "39425858",
+      "34244990",
+      "26739763",
+      "34718336",
+      "32540278",
+      "24032744",
+      "40921007",
+      "30508725",
+      "34736259",
+      "40442126",
+      "38670393",
+      "39931859",
+      "39679694",
+      "37948295",
+      "39415176",
+      "40712494",
+      "29960010",
+      "40252017",
+      "40450982",
+      "40971053",
+      "35256890",
+      "39034037",
+      "39085755",
+      "39440769",
+      "39078025",
+      "32901857",
+      "37771185",
+      "22700587",
+      "40499802",
+      "40008494",
+      "32187019",
+      "40716309",
+      "34321461",
+      "40523994",
+      "24603556",
+      "41394854",
+      "38509870",
+      "40935114",
+      "35384056",
+      "33542625",
+      "38960258",
+      "29107617",
+      "39627783",
+      "40320521",
+      "39223601",
+      "22145026",
+      "36826424",
+      "41405767",
+      "40345505",
+      "38625505",
+      "22463586",
+      "33939301",
+      "29929000",
+      "39639019",
+      "33461557",
+      "41465234",
+      "31465829",
+      "31182116",
+      "40453095",
+      "31605736"
+    ],
+    "review": [
+      "40646269",
+      "40523994"
+    ],
+    "pmc": [
+      "12254229"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-10416-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40646269/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

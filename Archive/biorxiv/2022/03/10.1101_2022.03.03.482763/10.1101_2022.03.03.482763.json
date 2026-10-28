@@ -1,0 +1,301 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.03.03.482763",
+  "title": "Deep Learning for MYC binding site recognition",
+  "doi": "10.1101/2022.03.03.482763",
+  "abstract": "Motivation The definition of the genome distribution of the Myc transcription factor is extremely important since it may help predict its transcriptional activity particularly in the context of cancer. Myc is among the most powerful oncogenes involved in the occurrence and development of more than 80% of different types of pediatric and adult cancers. Myc regulates thousands of genes which can be in part different, depending on the type of tissues and tumours. Myc distribution along the genome has been determined experimentally through chromatin immunoprecipitation This approach, although powerful, is very time consuming and cannot be routinely applied to tumours of individual patients. Thus, it becomes of paramount importance to develop in-silico tools that can effectively and rapidly predict its distribution on a given cell genome. New advanced computational tools (DeeperBind) can then be successfully employed to determine the function of Myc in a specific tumour, and may help to devise new directions and approaches to experiments first and personalized and more effective therapeutic treatments for a single patient later on. Results The use of DeeperBind with DeepRAM on Colab platform can effectively predict the binding sites for the MYC factor with an accuracy above 0.96 AUC, when trained with multiple cell lines. The analysis of the filters in DeeperBind trained models shows, besides the consensus sequence CACGTG classically associated to the MYC factor, also the other consensus sequences G/C box or TGGGA, respectively bound by the SP1 and MIZ-1 transcription factors, which are known to mediate the MYC repressive response. Overall, our findings suggest a stronger sinergy between the machine learning tools as DeeperBind and biological experiments, which may reduce the time consuming experiments by providing a direction to guide them.",
+  "authors": [
+    "R. Fioresi",
+    "P. Demurtas",
+    "G. Perini"
+  ],
+  "published_date": "2022-03-05",
+  "updated_date": "2022-03-05T12:00:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.03.03.482763",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.03.03.482763.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T19:42:51Z",
+        "timestamp": 1789674171042,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>The definition of the genome distribution of the Myc transcription factor is extremely important since it may help predict its transcriptional activity particularly in the context of cancer. Myc is among the most powerful oncogenes involved in the occurrence and development of more than 80% of different types of pediatric and adult cancers. Myc regulates thousands of genes which can be in part different, depending on the type of tissues and tumours. Myc distribution along the genome has been determined experimentally through chromatin immunoprecipitation This approach, although powerful, is very time consuming and cannot be routinely applied to tumours of individual patients. Thus, it becomes of paramount importance to develop in-silico tools that can effectively and rapidly predict its distribution on a given cell genome. New advanced computational tools (DeeperBind) can then be successfully employed to determine the function of Myc in a specific tumour, and may help to devise new directions and approaches to experiments first and personalized and more effective therapeutic treatments for a single patient later on.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The use of DeeperBind with DeepRAM on Colab platform can effectively predict the binding sites for the MYC factor with an accuracy above 0.96 AUC, when trained with multiple cell lines. The analysis of the filters in DeeperBind trained models shows, besides the consensus sequence CACGTG classically associated to the MYC factor, also the other consensus sequences G/C box or TGGGA, respectively bound by the SP1 and MIZ-1 transcription factors, which are known to mediate the MYC repressive response. Overall, our findings suggest a stronger sinergy between the machine learning tools as DeeperBind and biological experiments, which may reduce the time consuming experiments by providing a direction to guide them.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.03.03.482763",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            5
+          ]
+        ],
+        "date-time": "2022-03-05T12:00:13Z",
+        "timestamp": 1646481613000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Deep Learning for MYC binding site recognition"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4075-7641",
+          "authenticated-orcid": false,
+          "given": "R.",
+          "family": "Fioresi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Demurtas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Perini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0910668107"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/310655a0"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng0993-56"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2006410"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad928101"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patrec.2005.10.010"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2014-15-1-r1"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hassanzadeh, H. R. and Wang, M. D. (2016). Deeperbind: Enhancing prediction of sequence specificities of dna binding proteins. In 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pages 178–183. IEEE.",
+          "DOI": "10.1109/BIBM.2016.7822515"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/1947601910379012"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1001/jama.2018.11100"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.11",
+          "unstructured": "Hinton, G. E. , McClelland, J. L. , and Rumelhart, D. E. (1990). Distributed representations. In The Philosophy ofArtificial Intelligence."
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.2006.18.7.1527"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1053/j.seminoncol.2006.04.012"
+        },
+        {
+          "issue": "2",
+          "key": "2022030806100664000_2022.03.03.482763v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "404",
+          "DOI": "10.1158/0008-5472.CAN-10-2627",
+          "article-title": "A sp1/miz1/mycn repression complex recruits hdac1 at the trka and promoters and affects neuroblastoma malignancybyinhibitingthecellresponsetongf",
+          "volume": "71",
+          "year": "2011",
+          "journal-title": "Cancerresearch"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lourenco, C. , Resetca, D. , Redel, C. , Lin, P. , MacDonald, A. S. , Ciaccio, R. , Kenney, T. M. , Wei, Y. , Andrews, D. W. , Sunnerhagen, M. , et al. (2021). Myc protein interactors in gene transcription and cancer. Nature Reviews Cancer, pages 1–13.",
+          "DOI": "10.1038/s41568-021-00367-9"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-230X(08)60470-4"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0409097102"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13537"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3287615"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "key": "2022030806100664000_2022.03.03.482763v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1269"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.03.482763",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:45:59Z",
+        "timestamp": 1768445159000
+      },
+      "score": 133.88257,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.03.03.482763"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            5
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.1101/2022.03.03.482763",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

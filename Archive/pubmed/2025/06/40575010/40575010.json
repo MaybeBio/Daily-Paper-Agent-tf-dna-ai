@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "40575010",
+    "doi": "10.7717/peerj-cs.2880",
+    "title": "RBI: a novel algorithm for regulatory-metabolic network model in designing the optimal mutant strain."
+  },
+  "content": {
+    "abstract": "Over the last 20 years, researchers have proposed regulatory-metabolic network models to integrate gene regulatory networks (GRNs) and metabolic networks in in silico metabolic engineering, aiming to enhance the production rate of desired metabolites. However, the proposed models are unable to comprehensively include the Boolean rules in the empirical gene regulatory networks (GRNs) and gene-protein-reaction (GPR) interactions. Thus, the types of gene interactions, such as inhibition and activation, are disregarded from the analysis. This may result in sub-optimal model performance. Hence, this article presented a novel model using reliability theory to include Boolean rules in empirical GRNs and GPR rules in the integrating process. The proposed algorithm of this model is termed as a reliability-based integrating (RBI) algorithm. The suggested algorithm had three variants: RBI-T1, RBI-T2, and RBI-T3. The performance of the RBI algorithms was assessed by comparing them with the existing algorithms, using empirical results and validated transcription factors (TF) knockout schemes, and their complexity time was identified. Also, the RBI method was implemented in the design of optimal mutant strains of Escherichia coli and Saccharomyces cerevisiae. The simulation results indicated that the effectiveness and efficiency of the RBI algorithms are adequately strong and competitive relative to the existing algorithms. Furthermore, the RBI algorithm effectively identified eight schemes capable of enhancing succinate and ethanol production rates by maintaining the survival of microbial strains. Those results demonstrated that the RBI algorithms are recommended for the construction of optimum mutant strains in in silico metabolic engineering.",
+    "keywords": [
+      "Flux balance analysis",
+      "Gene regulatory networks",
+      "In silico metabolic engineering",
+      "Metabolic networks",
+      "Mutant strain",
+      "Reliability theory"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ananda, Ridho",
+        "Daud, Kauthar Mohd",
+        "Zainudin, Suhaila"
+      ],
+      "short_names": [
+        "Ananda R",
+        "Daud KM",
+        "Zainudin S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Kajang, Selangor, Malaysia.",
+        "Industrial Engineering, Telkom University, Purwokerto, Jawa Tengah, Indonesia.",
+        "Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Kajang, Selangor, Malaysia.",
+        "Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Kajang, Selangor, Malaysia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ananda, Ridho",
+        "short_name": "Ananda R",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Kajang, Selangor, Malaysia.",
+          "Industrial Engineering, Telkom University, Purwokerto, Jawa Tengah, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Daud, Kauthar Mohd",
+        "short_name": "Daud KM",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Kajang, Selangor, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Zainudin, Suhaila",
+        "short_name": "Zainudin S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Kajang, Selangor, Malaysia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ. Computer science"
+    ],
+    "journal_abbrev": [
+      "PeerJ Comput Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/27 06:27",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38170658",
+      "38031061",
+      "37876626",
+      "37790242",
+      "37579861",
+      "37506818",
+      "36695505",
+      "36476223",
+      "36293133",
+      "35725732",
+      "35654811",
+      "35625545",
+      "35318143",
+      "35243375",
+      "35135622",
+      "34976313",
+      "34780908",
+      "34761179",
+      "34564422",
+      "33796877",
+      "33539514",
+      "33119417",
+      "32978375",
+      "32099803",
+      "31450056",
+      "31050661",
+      "30849073",
+      "30462289",
+      "30301737",
+      "29468121",
+      "28899034",
+      "28065897",
+      "26878126",
+      "26618656",
+      "23921448",
+      "23417801",
+      "23349810",
+      "22640729",
+      "21943338",
+      "21383419",
+      "20876091",
+      "19363119",
+      "18957198",
+      "18621757",
+      "17640796",
+      "17437026",
+      "16606697",
+      "15129285",
+      "12006566",
+      "3800960"
+    ],
+    "similar": [
+      "40575010",
+      "30849073",
+      "30547796",
+      "20426856",
+      "23226565",
+      "21943338",
+      "19038030",
+      "38007732",
+      "20403172",
+      "20195367",
+      "37889991",
+      "28984191",
+      "24718686",
+      "25244077",
+      "30758766",
+      "22937832",
+      "34348418",
+      "38861487",
+      "22929591",
+      "16375763",
+      "38648878",
+      "24669835",
+      "25462325",
+      "32716928",
+      "28748400",
+      "25047076",
+      "20522257",
+      "31950997",
+      "31450056",
+      "26510838",
+      "30267898",
+      "23626708",
+      "28482795",
+      "25807392",
+      "28065897",
+      "31185246",
+      "23892659",
+      "27479082",
+      "32776925",
+      "9572511",
+      "37079737",
+      "17626641",
+      "29714955",
+      "20303369",
+      "18399066",
+      "25969749",
+      "23284654",
+      "33513105",
+      "27716031",
+      "30217144",
+      "22578364",
+      "39151090",
+      "28785315",
+      "26369755",
+      "34748537",
+      "30961611",
+      "34963205",
+      "33828122",
+      "22080176",
+      "31881937",
+      "24846739",
+      "38509145",
+      "31581091",
+      "25080304",
+      "23388063",
+      "33054712",
+      "34986805",
+      "37085776",
+      "20927193",
+      "16782788",
+      "30925047",
+      "23777625",
+      "20416071",
+      "26697103",
+      "23702542",
+      "22300313",
+      "37950851",
+      "20338053",
+      "39884083",
+      "27605107",
+      "28243601",
+      "34495484",
+      "20946602",
+      "25216804",
+      "40542815",
+      "30359263",
+      "22369588",
+      "24278007",
+      "25408191",
+      "19449977",
+      "16286362",
+      "20485743",
+      "31263873",
+      "28294630",
+      "29993839",
+      "22088843",
+      "24551058",
+      "25397773",
+      "25890175",
+      "22909053"
+    ],
+    "review": [
+      "40575010"
+    ],
+    "pmc": [
+      "12199197"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40575010/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

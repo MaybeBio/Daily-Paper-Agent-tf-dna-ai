@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39713364",
+  "title": "L2G: Repurposing Language Models for Genomics Tasks.",
+  "authors": "Cheng, Wenduo; Shen, Junhong; Khodak, Mikhail; Ma, Jian; Talwalkar, Ameet",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-12-23",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文将预训练语言模型重用于基因组任务，虽涉及转录因子基序识别，但核心是通用基因组任务而非TF-DNA互作建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "Pre-trained language models have transformed the field of natural language processing (NLP), and their success has inspired efforts in genomics to develop domain-specific foundation models (FMs). However, creating high-quality genomic FMs from scratch is resource-intensive, requiring significant computational power and high-quality pre-training data. The success of large language models (LLMs) in NLP has largely been driven by industrial-scale efforts leveraging vast, diverse corpora and massive computing infrastructure. In this work, we aim to bypass the data and computational bottlenecks of creating genomic FMs from scratch and instead propose repurposing existing LLMs for genomics tasks. Inspired by the recently observed 'cross-modal transfer' phenomenon - where transformers pre-trained on natural language can generalize to other modalities - we introduce L2G, which adapts a pre-trained LLM architecture for genomics using neural architecture search (NAS) and a novel three-stage training procedure. Remarkably, without requiring extensive pre-training on DNA sequence data, L2G achieves superior performance to fine-tuned genomic FMs and task-specific models on more than half of tasks across multiple genomics benchmarks. In an enhancer activity prediction task, L2G further demonstrates its capacity to identify significant transcription factor motifs. Our work not only highlights the generalizability and efficacy of language models in out-of-domain tasks such as genomics, but also opens new avenues for more efficient and less resource-intensive methodologies in genomic research.",
+  "abstract_zh": "预训练语言模型已经变革了自然语言处理（NLP）领域，其成功也激发了基因组学领域开发领域特定基础模型（FMs）的努力。然而，从零开始构建高质量的基因组基础模型资源密集，需要大量的计算能力和高质量的预训练数据。NLP中大型语言模型（LLMs）的成功主要得益于工业级规模的努力，利用庞大且多样化的语料库和巨大的计算基础设施。在本工作中，我们旨在绕过从零创建基因组基础模型的数据和计算瓶颈，转而提出将现有LLMs重新用于基因组学任务。受近期观察到的“跨模态迁移”现象启发——即预训练于自然语言的变换器能够泛化到其他模态——我们引入了L2G，它通过神经架构搜索（NAS）和一种新颖的三阶段训练流程，将预训练的LLM架构适配于基因组学。值得注意的是，无需在DNA序列数据上进行广泛的预训练，L2G在多个基因组学基准测试中超过一半的任务上，其性能优于微调的基因组基础模型和任务特定模型。在增强子活性预测任务中，L2G进一步展示了其识别重要转录因子基序的能力。我们的工作不仅突显了语言模型在基因组学等域外任务中的泛化性和有效性，还为基因组研究中更高效、资源消耗更少的方法开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39713364/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39713364/",
+  "paper_page_path": "papers/pubmed/39713364/index.html"
+}

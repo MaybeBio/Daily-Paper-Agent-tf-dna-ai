@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "38254688",
+    "doi": "10.3390/biom14010088",
+    "title": "Differential Gene Expression in Human Fibroblasts Simultaneously Exposed to Ionizing Radiation and Simulated Microgravity."
+  },
+  "content": {
+    "abstract": "During future space missions, astronauts will be exposed to cosmic radiation and microgravity (muG), which are known to be health risk factors. To examine the differentially expressed genes (DEG) and their prevalent biological processes and pathways as a response to these two risk factors simultaneously, 1BR-hTERT human fibroblast cells were cultured under 1 gravity (1G) or simulated muG for 48 h in total and collected at 0 (sham irradiated), 3 or 24 h after 1 Gy of X-ray or Carbon-ion (C-ion) irradiation. A three-dimensional clinostat was used for the simulation of muG and the simultaneous radiation exposure of the samples. The RNA-seq method was used to produce lists of differentially expressed genes between different environmental conditions. Over-representation analyses were performed and the enriched biological pathways and targeting transcription factors were identified. Comparing sham-irradiated cells under simulated muG and 1G conditions, terms related to response to oxygen levels and muscle contraction were identified. After irradiation with X-rays or C-ions under 1G, identified DEGs were found to be involved in DNA damage repair, signal transduction by p53 class mediator, cell cycle arrest and apoptosis pathways. The same enriched pathways emerged when cells were irradiated under simulated muG condition. Nevertheless, the combined effect attenuated the transcriptional response to irradiation which may pose a subtle risk in space flights.",
+    "keywords": [
+      "cosmic radiation",
+      "differentially expressed genes",
+      "gene networks",
+      "microgravity",
+      "space flight"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Weightlessness/adverse effects",
+      "Radiation, Ionizing",
+      "Fibroblasts",
+      "Computer Simulation",
+      "Gene Expression"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malatesta, Polina",
+        "Kyriakidis, Konstantinos",
+        "Hada, Megumi",
+        "Ikeda, Hiroko",
+        "Takahashi, Akihisa",
+        "Saganti, Premkumar B",
+        "Georgakilas, Alexandros G",
+        "Michalopoulos, Ioannis"
+      ],
+      "short_names": [
+        "Malatesta P",
+        "Kyriakidis K",
+        "Hada M",
+        "Ikeda H",
+        "Takahashi A",
+        "Saganti PB",
+        "Georgakilas AG",
+        "Michalopoulos I"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-3266-8258",
+        "ORCID: 0000-0002-1696-4838",
+        "ORCID: 0000-0002-8523-9111",
+        "ORCID: 0000-0001-9129-7433",
+        "ORCID: 0000-0002-9960-2153",
+        "ORCID: 0000-0002-2456-210X",
+        "ORCID: 0000-0002-5971-0010",
+        "ORCID: 0000-0001-8991-8712"
+      ],
+      "affiliations": [
+        "Center of Systems Biology, Biomedical Research Foundation of the Academy of Athens, 11527 Athens, Greece.",
+        "DNA Damage Laboratory, Physics Department, School of Applied Mathematical and Physical Sciences, National Technical University of Athens, 15780 Athens, Greece.",
+        "Center of Systems Biology, Biomedical Research Foundation of the Academy of Athens, 11527 Athens, Greece.",
+        "Laboratory of Pharmacology, School of Pharmacy, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece.",
+        "UC Santa Cruz Genomics Institute, Santa Cruz, CA 95060, USA.",
+        "Radiation Institute for Science & Engineering, Prairie View A&M University, Prairie View, TX 77446, USA.",
+        "Department of Life Science, Faculty of Science and Engineering, Kindai University, Higashiosaka 577-8502, Japan.",
+        "Gunma University Heavy Ion Medical Center, Maebashi 371-8511, Japan.",
+        "Radiation Institute for Science & Engineering, Prairie View A&M University, Prairie View, TX 77446, USA.",
+        "DNA Damage Laboratory, Physics Department, School of Applied Mathematical and Physical Sciences, National Technical University of Athens, 15780 Athens, Greece.",
+        "Center of Systems Biology, Biomedical Research Foundation of the Academy of Athens, 11527 Athens, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malatesta, Polina",
+        "short_name": "Malatesta P",
+        "identifiers": [
+          "0009-0007-3266-8258"
+        ],
+        "affiliations": [
+          "Center of Systems Biology, Biomedical Research Foundation of the Academy of Athens, 11527 Athens, Greece.",
+          "DNA Damage Laboratory, Physics Department, School of Applied Mathematical and Physical Sciences, National Technical University of Athens, 15780 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Kyriakidis, Konstantinos",
+        "short_name": "Kyriakidis K",
+        "identifiers": [
+          "0000-0002-1696-4838"
+        ],
+        "affiliations": [
+          "Center of Systems Biology, Biomedical Research Foundation of the Academy of Athens, 11527 Athens, Greece.",
+          "Laboratory of Pharmacology, School of Pharmacy, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece.",
+          "UC Santa Cruz Genomics Institute, Santa Cruz, CA 95060, USA."
+        ]
+      },
+      {
+        "full_name": "Hada, Megumi",
+        "short_name": "Hada M",
+        "identifiers": [
+          "0000-0002-8523-9111"
+        ],
+        "affiliations": [
+          "Radiation Institute for Science & Engineering, Prairie View A&M University, Prairie View, TX 77446, USA."
+        ]
+      },
+      {
+        "full_name": "Ikeda, Hiroko",
+        "short_name": "Ikeda H",
+        "identifiers": [
+          "0000-0001-9129-7433"
+        ],
+        "affiliations": [
+          "Department of Life Science, Faculty of Science and Engineering, Kindai University, Higashiosaka 577-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Akihisa",
+        "short_name": "Takahashi A",
+        "identifiers": [
+          "0000-0002-9960-2153"
+        ],
+        "affiliations": [
+          "Gunma University Heavy Ion Medical Center, Maebashi 371-8511, Japan."
+        ]
+      },
+      {
+        "full_name": "Saganti, Premkumar B",
+        "short_name": "Saganti PB",
+        "identifiers": [
+          "0000-0002-2456-210X"
+        ],
+        "affiliations": [
+          "Radiation Institute for Science & Engineering, Prairie View A&M University, Prairie View, TX 77446, USA."
+        ]
+      },
+      {
+        "full_name": "Georgakilas, Alexandros G",
+        "short_name": "Georgakilas AG",
+        "identifiers": [
+          "0000-0002-5971-0010"
+        ],
+        "affiliations": [
+          "DNA Damage Laboratory, Physics Department, School of Applied Mathematical and Physical Sciences, National Technical University of Athens, 15780 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Michalopoulos, Ioannis",
+        "short_name": "Michalopoulos I",
+        "identifiers": [
+          "0000-0001-8991-8712"
+        ],
+        "affiliations": [
+          "Center of Systems Biology, Biomedical Research Foundation of the Academy of Athens, 11527 Athens, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2024 Jan 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 06:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42725837",
+      "41481712",
+      "41102553",
+      "40246171"
+    ],
+    "refs": [
+      "36866529",
+      "36672184",
+      "36370105",
+      "36300620",
+      "36293126",
+      "36243972",
+      "35888186",
+      "35357290",
+      "35328492",
+      "34183377",
+      "34007284",
+      "33546472",
+      "33117095",
+      "32381292",
+      "32144208",
+      "31900461",
+      "31561588",
+      "31114916",
+      "31059022",
+      "30583489",
+      "30574452",
+      "30395178",
+      "30367560",
+      "29287774",
+      "28877474",
+      "28649634",
+      "28263959",
+      "28212708",
+      "27756721",
+      "27312411",
+      "27018778",
+      "26925227",
+      "26904506",
+      "26771021",
+      "26388666",
+      "26082923",
+      "25841996",
+      "25769184",
+      "25516281",
+      "25374842",
+      "25370382",
+      "25358794",
+      "25117625",
+      "24324275",
+      "24227677",
+      "23867277",
+      "23704371",
+      "23104886",
+      "22914218",
+      "22679557",
+      "22383865",
+      "21436608",
+      "21196407",
+      "19843460",
+      "19505943",
+      "18922902",
+      "18393449",
+      "18391973",
+      "17585201",
+      "17331072",
+      "17069989",
+      "16257130",
+      "12686136",
+      "12005538",
+      "11828469",
+      "11539498",
+      "10749838",
+      "10616214",
+      "10336885",
+      "9623998",
+      "5474144",
+      "5246001",
+      "2894756"
+    ],
+    "similar": [
+      "38254688",
+      "31561588",
+      "30583489",
+      "27203085",
+      "37089489",
+      "28212708",
+      "22347458",
+      "29901426",
+      "31987473",
+      "39864910",
+      "36672184",
+      "16026806",
+      "40143237",
+      "29156538",
+      "22614095",
+      "32927618",
+      "32907548",
+      "39864902",
+      "37087176",
+      "24859186",
+      "40746898",
+      "15658895",
+      "32945420",
+      "24361401",
+      "38069265",
+      "19428367",
+      "39286254",
+      "33317046",
+      "32931891",
+      "27538114",
+      "28088539",
+      "35065767",
+      "37481305",
+      "34936031",
+      "8987564",
+      "11780615",
+      "26553641",
+      "25769184",
+      "35044657",
+      "34638848",
+      "33546472",
+      "33612181",
+      "34540035",
+      "28254518",
+      "34571251",
+      "33819748",
+      "30797428",
+      "34769342",
+      "41599278",
+      "16523345",
+      "18253936",
+      "34533653",
+      "30721627",
+      "40247135",
+      "39506968",
+      "38409284",
+      "9052686",
+      "36068491",
+      "36672205",
+      "17511301",
+      "27035921",
+      "25118949",
+      "30962723",
+      "35940684",
+      "29198309",
+      "20819157",
+      "34888245",
+      "30469384",
+      "37231921",
+      "30216505",
+      "16619267",
+      "38699144",
+      "40375695",
+      "16760899",
+      "28427408",
+      "24655584",
+      "19415677",
+      "29053152",
+      "39902202",
+      "31443374",
+      "28248986",
+      "39926601",
+      "41378968",
+      "31850027",
+      "31709515",
+      "33298974",
+      "31611649",
+      "38230953",
+      "26820575",
+      "26553637",
+      "32290466",
+      "28212705",
+      "32178397",
+      "26942125",
+      "29630478",
+      "41303625",
+      "40473848",
+      "35806469",
+      "30395761",
+      "16297999"
+    ],
+    "review": [
+      "38254688",
+      "33317046",
+      "32931891",
+      "34638848",
+      "30797428",
+      "16523345",
+      "40247135",
+      "40375695",
+      "29053152",
+      "39926601",
+      "41378968",
+      "31611649",
+      "38230953",
+      "32178397",
+      "26942125"
+    ],
+    "pmc": [
+      "10812944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom14010088",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38254688/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38254688",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41946881",
+  "title": "Machine and Deep Learning Reveal Sequence Determinants Encoding Bivalent Histone Modifications.",
+  "authors": "Zhao, Xinyu; Wu, Jie; Che, Yingxue; Long, Chunshen; Xing, Yongqiang; Li, Hanshuang; Zuo, Yongchun",
+  "journal": "Communications biology",
+  "published_date": "2026-04-08",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习/深度学习从序列特征预测二价组蛋白修饰区域，虽涉及转录因子基序但核心是染色质状态而非蛋白质-DNA互作建模，方法可借鉴但对象与互作轴偏离。",
+  "abstract": "Bivalent histone modifications, marked by the coexistence of activating and repressive histone marks, define a distinctive chromatin state with key roles in developmental gene regulation. However, the specific sequence features that distinguish bivalent chromatin regions remain unclear. Here we show that genome-wide profiling of H3K4me3, H3K27me3, and H3K9me3 in mouse embryonic stem cells revealed that bivalent domains have higher GC content and stronger evolutionary conservation than monovalent regions. Genes marked by bivalency were enriched in developmental signaling pathways, including Hippo, MAPK, and TGF-beta. Using machine learning models trained on k-mer sequence features, we accurately distinguished bivalent from monovalent regions. Feature analysis identified informative motifs such as TCTGAA and TCACAG, associated with pluripotency transcription factors including OCT4, SOX2, ESRRB, and TCFCP2l1. Deep learning models further improved predictive accuracy and uncovered motifs enriched at the boundaries of bivalent peaks, suggesting positional specificity. These findings reveal that bivalent chromatin states are encoded by distinct sequence features.",
+  "abstract_zh": "二价组蛋白修饰，以激活性和抑制性组蛋白标记共存为特征，定义了一种独特的染色质状态，在发育基因调控中发挥关键作用。然而，区分二价染色质区域的具体序列特征仍不清楚。在此，我们展示了对小鼠胚胎干细胞中H3K4me3、H3K27me3和H3K9me3的全基因组分析，揭示二价结构域相比单价区域具有更高的GC含量和更强的进化保守性。标记有二价性的基因富集于发育信号通路，包括Hippo、MAPK和TGF-beta。利用基于k-mer序列特征训练的机器学习模型，我们准确区分了二价与单价区域。特征分析识别出信息性基序，如TCTGAA和TCACAG，这些基序与多能性转录因子相关，包括OCT4、SOX2、ESRRB和TCFCP2l1。深度学习模型进一步提高了预测准确性，并揭示了富集于二价峰边界的基序，提示位置特异性。这些发现表明，二价染色质状态由独特的序列特征编码。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41946881/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41946881/",
+  "paper_page_path": "papers/pubmed/41946881/index.html"
+}

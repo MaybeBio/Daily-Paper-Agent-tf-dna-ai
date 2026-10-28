@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41288889",
+    "doi": "10.1007/s12094-025-04141-3",
+    "title": "Multi-omics and bulk sequencing analyses reveal the roles of prognosis and immune aspects of super-enhancer-induced ZBED2 in pan-cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: ZBED2 is a member of the C2H2-zinc-finger BED-type zinc-finger protein family. However, the clinical significance and potential functions of ZBED2 in various cancers have not been systematically explored. METHODS: In this article, we comprehensively analyzed multi-omics and bulk sequencing data to explore the characteristics of ZBED2 in pan-cancer and its potential utility in cancer treatment. We investigated the expression pattern, association with prognosis, possible functions, correlation with tumor immunity, tumor-associated mutations, and drug sensitivity of ZBED2. RESULTS: ZBED2 was significantly differentially expressed in more than 60% of the cancer types (p < 0.05). High expression of ZBED2 was an independent risk factor for a poor prognosis in many cancer patients (p < 0.05 and Hazard Ratio > 1). ZBED2 functional enrichment analysis revealed that ZBED2 expression was associated with pathways, such as immune and lipid metabolism pathways. ZBED2 expression was positively correlated with a hot immune microenvironment and was significantly correlated with immunotherapy response (p < 0.05). In addition, the overexpression of ZBED2 was negatively correlated with DNA methylation. More importantly, P300-mediated super-enhancer activity drove ZBED2 expression. Finally, we used R software to screen out 16 drugs likely to bind to ZBED2 (correlation coefficients < -0.2 and p < 0.0001) and performed molecular docking, and molecular dynamics simulation for the top six drugs. CONCLUSIONS: Collectively, by bioinformatics analysis, this study regards ZBED2 as a potential diagnostic, prognostic biomarker for many cancers and a predictive biomarker for immunotherapy, providing new insights for the application of ZBED2 in tumor targeted therapy.",
+    "keywords": [
+      "Biomarker",
+      "Immune therapy",
+      "Pan-cancer",
+      "Super-enhancer",
+      "ZBED2"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Prognosis",
+      "*Neoplasms/genetics/immunology/mortality",
+      "*Transcription Factors/genetics/metabolism/physiology",
+      "Tumor Microenvironment/immunology",
+      "Biomarkers, Tumor/genetics",
+      "Immunotherapy",
+      "Mutation",
+      "Gene Expression Regulation, Neoplastic",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Jiao",
+        "Zhang, Na",
+        "Zhu, Luoyu",
+        "Zhang, Jinglei",
+        "Ma, Xiaolin",
+        "Zhang, Xiuxiu",
+        "Li, Jiaqiu",
+        "Cai, Jinwei"
+      ],
+      "short_names": [
+        "Ren J",
+        "Zhang N",
+        "Zhu L",
+        "Zhang J",
+        "Ma X",
+        "Zhang X",
+        "Li J",
+        "Cai J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2292-6651"
+      ],
+      "affiliations": [
+        "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China.",
+        "Department of Medical Oncology, Rizhao Central Hospital, Rizhao, 276800, Shandong, China.",
+        "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China.",
+        "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China.",
+        "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China.",
+        "Department of Medical Oncology, Rizhao Central Hospital, Rizhao, 276800, Shandong, China. qingjianxiu@163.com.",
+        "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China. lijq@sdsmu.edu.cn.",
+        "Department of Oncology, People's Hospital of Kecheng District, Quzhou, 324003, Zhejiang, China. imvp16@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Jiao",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Na",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Rizhao Central Hospital, Rizhao, 276800, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Luoyu",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinglei",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaolin",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiuxiu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Rizhao Central Hospital, Rizhao, 276800, Shandong, China. qingjianxiu@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaqiu",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0002-2292-6651"
+        ],
+        "affiliations": [
+          "Department of Oncology, School of Clinical Medicine, Affiliated Hospital of Shandong Second Medical University, Shandong Second Medical University, Weifang, 261053, Shandong, China. lijq@sdsmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cai, Jinwei",
+        "short_name": "Cai J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, People's Hospital of Kecheng District, Quzhou, 324003, Zhejiang, China. imvp16@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Oncol"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 13:55",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39695006",
+      "39558165",
+      "39429873",
+      "38868713",
+      "38763973",
+      "38706955",
+      "38552610",
+      "38329371",
+      "37783508",
+      "37668528",
+      "37615242",
+      "37582362",
+      "36549921",
+      "35629316",
+      "35395670",
+      "34977835",
+      "34390166",
+      "34321199",
+      "34079102",
+      "33179754",
+      "32824207",
+      "32444850",
+      "32385160",
+      "31806698",
+      "31504780",
+      "31114875",
+      "30676822",
+      "30670076",
+      "30236283",
+      "30127393",
+      "29790900",
+      "29730197",
+      "28718439",
+      "27629931",
+      "27388699",
+      "27069014",
+      "26980513",
+      "25613900",
+      "24799088",
+      "24297251",
+      "24119843",
+      "23582323",
+      "23180760",
+      "23105677",
+      "22588877",
+      "22356776",
+      "20381334",
+      "10592235"
+    ],
+    "similar": [
+      "41288889",
+      "40423850",
+      "40655141",
+      "38682182",
+      "39695006",
+      "39031404",
+      "40729863",
+      "37275857",
+      "41372399",
+      "41153357",
+      "39923580",
+      "40696616",
+      "40777041",
+      "40895540",
+      "41286333",
+      "41640009",
+      "41700140",
+      "40098960",
+      "41514449",
+      "39455949",
+      "31074374",
+      "39737177",
+      "37358720",
+      "41993135",
+      "41646843",
+      "39810215",
+      "39748320",
+      "39405927",
+      "40129060",
+      "39034028",
+      "40075453",
+      "40084262",
+      "41668766",
+      "41207909",
+      "40898423",
+      "39123194",
+      "41346611",
+      "39333254",
+      "39926600",
+      "39747410",
+      "39863609",
+      "39735553",
+      "36717836",
+      "40529377",
+      "39703515",
+      "33373169",
+      "38709280",
+      "40124611",
+      "40971672",
+      "41931575",
+      "37801920",
+      "36248785",
+      "40275154",
+      "40730958",
+      "39896800",
+      "40842984",
+      "41844531",
+      "40375999",
+      "40597847",
+      "34762107",
+      "40208307",
+      "41624853",
+      "39747578",
+      "38639057",
+      "41846290",
+      "41145757",
+      "40076932",
+      "41202314",
+      "36761737",
+      "40586938",
+      "40213543",
+      "40646089",
+      "40625743",
+      "40200221",
+      "38296907",
+      "33679809",
+      "41630479",
+      "38584561",
+      "40607419",
+      "40565566",
+      "42001433",
+      "41819525",
+      "38688977",
+      "40574864",
+      "40688078",
+      "39031628",
+      "34290693",
+      "39286258",
+      "39198775",
+      "38663913",
+      "41425715",
+      "41083700",
+      "35069601",
+      "32385160",
+      "33691171",
+      "41502505",
+      "40539054",
+      "40046044",
+      "41246332",
+      "41383604"
+    ],
+    "review": [
+      "41288889"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12094-025-04141-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

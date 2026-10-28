@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38915713",
+  "title": "Iterative deep learning-design of human enhancers exploits condensed sequence grammar to achieve cell type-specificity.",
+  "authors": "Yin, Christopher; Hair, Sebastian Castillo; Byeon, Gun Woo; Bromley, Peter; Meuleman, Wouter; Seelig, Georg",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-06-25",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用迭代深度学习设计细胞类型特异性人工增强子，嵌入TFBS基序并实验验证，虽聚焦增强子而非直接TF-DNA结合建模，但TFBS设计与互作机制分析对TF-DNA结合位点预测有方法借鉴价值。",
+  "abstract": "An important and largely unsolved problem in synthetic biology is how to target gene expression to specific cell types. Here, we apply iterative deep learning to design synthetic enhancers with strong differential activity between two human cell lines. We initially train models on published datasets of enhancer activity and chromatin accessibility and use them to guide the design of synthetic enhancers that maximize predicted specificity. We experimentally validate these sequences, use the measurements to re-optimize the predictor, and design a second generation of enhancers with improved specificity. Our design methods embed relevant transcription factor binding site (TFBS) motifs with higher frequencies than comparable endogenous enhancers while using a more selective motif vocabulary, and we show that enhancer activity is correlated with transcription factor expression at the single cell level. Finally, we characterize causal features of top enhancers via perturbation experiments and show enhancers as short as 50bp can maintain specificity.",
+  "abstract_zh": "合成生物学中一个重要且尚未解决的关键问题是如何将基因表达靶向特定细胞类型。在此，我们应用迭代深度学习来设计在两种人类细胞系之间具有强差异活性的合成增强子。我们最初在已发表的增强子活性和染色质可及性数据集上训练模型，并利用这些模型指导设计能最大化预测特异性的合成增强子。我们通过实验验证这些序列，利用测量结果重新优化预测器，并设计出具有改进特异性的第二代增强子。我们的设计方法以比相应内源增强子更高的频率嵌入相关转录因子结合位点（TFBS）基序，同时使用更选择性的基序词汇表，并表明增强子活性与单细胞水平的转录因子表达相关。最后，我们通过扰动实验表征了顶级增强子的因果特征，并显示短至50bp的增强子也能维持特异性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38915713/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38915713/",
+  "paper_page_path": "papers/pubmed/38915713/index.html"
+}

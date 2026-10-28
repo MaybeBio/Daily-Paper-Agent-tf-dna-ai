@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "42169065",
+    "doi": "10.1186/s12931-026-03724-0",
+    "title": "Single-cell N4-acetylcytidine regulatory landscape identifies ARIH1 as a ferroptosis-suppressive oncogenic driver in lung adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: N4-acetylcytidine (ac4C) is an emerging post-transcriptional RNA modification implicated in cancer biology, yet its cellular distribution, prognostic value, and functional relevance in lung adenocarcinoma (LUAD) remain insufficiently characterized. This study aimed to systematically define the ac4C-related regulatory landscape in LUAD and identify functionally and clinically relevant targets. METHODS: A single-cell RNA-sequencing dataset comprising 87,634 cells was reanalyzed to quantify ac4C-related gene (acRG) activity across major cellular compartments using AUCell scoring. Prognostic acRGs were identified through differential expression analysis and univariate Cox regression, followed by integrative machine-learning modeling using LASSO and random survival forest algorithms. The biological function of ARIH1 was examined through cell proliferation assays, ferroptosis-related biochemical measurements, and mechanistic analyses including cycloheximide chase, co-immunoprecipitation, and ubiquitination assays. RESULTS: Epithelial cells displayed the highest acRG activity within the LUAD tumor ecosystem. A prognostic acRG-based signature was established, identifying ARIH1 as a high-risk factor associated with unfavorable survival outcomes. ARIH1 knockdown significantly inhibited LUAD cell growth and tumorigenic potential. Mechanistically, ARIH1 interacted with NCOA4 and promoted its K48-linked ubiquitination and proteasomal degradation, thereby suppressing ferritinophagy and ferroptosis. ARIH1 loss resulted in iron accumulation, lipid peroxidation, glutathione depletion, and ferroptotic cell death. Additionally, ARIH1 depletion markedly enhanced cisplatin-induced ferroptosis. CONCLUSIONS: These findings map the single-cell ac4C regulatory architecture of LUAD and identify ARIH1 as a ferroptosis-suppressive E3 ubiquitin ligase, highlighting a potential therapeutic target to enhance ferroptosis-based and chemotherapy-based interventions.",
+    "keywords": [
+      "ARIH1",
+      "Ferritinophagy",
+      "Ferroptosis",
+      "Lung adenocarcinoma",
+      "NCOA4",
+      "ac4C-related genes"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/physiology/genetics",
+      "Humans",
+      "*Adenocarcinoma of Lung/genetics/metabolism/pathology",
+      "*Lung Neoplasms/genetics/metabolism/pathology",
+      "Animals",
+      "Cell Line, Tumor",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic",
+      "Mice, Nude",
+      "Nuclear Receptor Coactivators"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Min",
+        "Li, Guoqing",
+        "Wang, Lisi",
+        "Jian, Ying",
+        "Teng, Cai",
+        "Tu, Jing"
+      ],
+      "short_names": [
+        "Tang M",
+        "Li G",
+        "Wang L",
+        "Jian Y",
+        "Teng C",
+        "Tu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China.",
+        "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China.",
+        "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China.",
+        "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China.",
+        "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China.",
+        "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China. tujing@cqu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Min",
+        "short_name": "Tang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Guoqing",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lisi",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jian, Ying",
+        "short_name": "Jian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Teng, Cai",
+        "short_name": "Teng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Tu, Jing",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Chongqing General Hospital, Chongqing University, No.118, Xingguang Avenue, Liangjiang New Area, Chongqing, 401147, P.R. China. tujing@cqu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Respiratory research"
+    ],
+    "journal_abbrev": [
+      "Respir Res"
+    ],
+    "pub_date": "2026 May 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 06:34",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41311809",
+      "41256852",
+      "40751717",
+      "40597807",
+      "40285603",
+      "40076671",
+      "39700692",
+      "39353532",
+      "39327441",
+      "39142278",
+      "39097198",
+      "38593779",
+      "38453898",
+      "38366038",
+      "37834062",
+      "37735472",
+      "37479810",
+      "37473500",
+      "37429863",
+      "36752571",
+      "36379355",
+      "35020204",
+      "34833470",
+      "34751163",
+      "34485285",
+      "34445366",
+      "33340175",
+      "32804006",
+      "31907372",
+      "30930742",
+      "30925886",
+      "29183778",
+      "26482881",
+      "20887192",
+      "19648524",
+      "19096318"
+    ],
+    "similar": [
+      "42169065",
+      "39181476",
+      "41641368",
+      "42520529",
+      "42471072",
+      "39366066",
+      "37728413",
+      "41341805",
+      "41888600",
+      "42495647",
+      "40694989",
+      "42419403",
+      "41186509",
+      "41578226",
+      "42524437",
+      "40506397",
+      "40917063",
+      "39988436",
+      "41653617",
+      "39983667",
+      "40682067",
+      "39722009",
+      "41751942",
+      "40469299",
+      "41409290",
+      "40700945",
+      "42445428",
+      "33897873",
+      "41383634",
+      "41838238",
+      "41496578",
+      "34256754",
+      "34648954",
+      "41634895",
+      "42050844",
+      "40429829",
+      "42079738",
+      "41286767",
+      "41443404",
+      "40767887",
+      "39516442",
+      "41339815",
+      "41930176",
+      "42238572",
+      "42530242",
+      "41999926",
+      "40083935",
+      "39289660",
+      "39139574",
+      "41293164",
+      "39243550",
+      "42134293",
+      "39780110",
+      "41663460",
+      "42565568",
+      "38700533",
+      "42089585",
+      "41169393",
+      "40122823",
+      "41985273",
+      "39928150",
+      "41085600",
+      "39987127",
+      "36359768",
+      "39026029",
+      "42268896",
+      "41782112",
+      "39806313",
+      "40803458",
+      "41194553",
+      "42219071",
+      "41382187",
+      "41937164",
+      "42336010",
+      "41344497",
+      "41345972",
+      "34029572",
+      "40767620",
+      "39127833",
+      "39394098",
+      "39143031",
+      "41540361",
+      "38831092",
+      "42003422",
+      "40993741",
+      "41350729",
+      "35883650",
+      "40765833",
+      "37691861",
+      "33432837",
+      "42122127",
+      "37378675",
+      "41271034",
+      "39779775",
+      "41491011",
+      "40936758",
+      "42469385",
+      "40594106",
+      "41583466",
+      "34115610"
+    ],
+    "review": [
+      "42169065"
+    ],
+    "pmc": [
+      "13404878"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://respiratory-research.biomedcentral.com/articles/10.1186/s12931-026-03724-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42169065/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:42169065",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

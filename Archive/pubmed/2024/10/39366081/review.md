@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that phosphorylation at D56 of the MtrA response regulator in Mycobacterium tuberculosis increases protein compactness, stabilizes inter-domain interactions, reduces anti-correlated domain motions, and enhances DNA binding affinity, leading them to propose pD56-MtrA as the active conformation.
+- **Visible evidence base** Abstract text only; no simulation parameters, force field details, convergence metrics, docking protocols, or quantitative binding free energy values are provided
+- **Missing materials affecting confidence** Full methods, simulation trajectory analyses, structural figures, docking scores, MMPBSA energy components, statistical error estimates, and any validation against experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a relevant question in mycobacterial signal transduction. The central claim that D56 phosphorylation enhances DNA binding via inter-domain stabilization is mechanistically reasonable, but the evidence base visible in the abstract is insufficient to evaluate technical rigor. Key quantitative results are mentioned without values, and no validation against experimental structures or binding data is described. The study may be of interest to the tuberculosis and two-component signaling communities, but the case for pD56-MtrA as the active conformation is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying two-component signal transduction in mycobacteria, structural biologists interested in response regulator activation mechanisms, and computational chemists developing phosphorylation-sensitive simulation protocols. The potential therapeutic angle for tuberculosis drug design would also attract medicinal chemists, though this is speculative at the current stage.
+- **Major strengths** The study addresses a genuine knowledge gap regarding phosphorylation-induced conformational changes in MtrA. The use of multiple phosphorylation conditions and the combination of MD simulation with docking and MMPBSA analysis represents a reasonable multi-pronged computational approach. The specific identification of a high-occupancy hydrogen bond (Arg200-Asn100) provides a concrete mechanistic hypothesis that could be tested experimentally.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that pD56-MtrA has higher DNA binding affinity than uMtrA, supported by molecular docking and MD simulation followed by MMPBSA analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports no quantitative binding free energy values, no docking scores, and no statistical uncertainties. Without these numbers, the reader cannot assess whether the reported affinity difference is meaningful or within simulation error. MMPBSA results are highly sensitive to parameter choices and trajectory length, and the abstract provides no indication of convergence or error analysis.
+  - **Why it matters** The central conclusion that pD56-MtrA is the active conformation rests on this affinity comparison. If the difference is small relative to error bars or dependent on arbitrary parameter selection, the conclusion is unsupported.
+  - **Resolution test** Provide binding free energy values with standard errors, show convergence of MMPBSA estimates over simulation time, and demonstrate that the affinity ranking is robust to reasonable variations in dielectric constant and entropy estimation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that phosphorylation at D56 increases compactness and stabilizes inter-domain interaction, based on all-atom MD simulations
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation length, force field, water model, temperature/pressure coupling scheme, or equilibration protocol is described. The abstract does not state how many independent replicates were performed or how statistical significance was assessed for the compactness and hydrogen bond occupancy differences. The 95 percent occupancy claim for Arg200-Asn100 is presented without a definition of the occupancy cutoff or the trajectory window used.
+  - **Why it matters** MD simulation results are only meaningful if the sampling is sufficient and the system is properly equilibrated. Without these details, the structural conclusions cannot be evaluated or reproduced.
+  - **Resolution test** Specify simulation length, number of replicates, force field and water model, and provide RMSD convergence plots and block error analysis for the reported observables.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that pD56-MtrA is the possible active conformation of the MtrA protein
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no comparison to any experimentally determined active conformation of MtrA or homologous response regulators. The term "active conformation" implies a functional state, but the study only shows computational predictions of structure and binding affinity. No experimental validation, such as phosphorylation assays, DNA binding experiments, or mutagenesis of Arg200 or Asn100, is mentioned.
+  - **Why it matters** Without experimental anchoring, the assignment of a specific phosphorylated state as "the active conformation" is speculative. The field has established that response regulator activation involves complex domain rearrangements, and computational prediction alone cannot establish biological relevance.
+  - **Resolution test** Compare the predicted pD56-MtrA structure to known active structures of homologous regulators, and either cite existing experimental data supporting this conformation or clearly frame the claim as a testable prediction rather than an established finding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "anti-correlated motions" and "dynamic cross-correlation analysis" without brief explanation, which may hinder readers outside the computational biophysics community.
+  - **Required correction** Add a short parenthetical explanation of what correlated versus anti-correlated motions indicate functionally, or rephrase in more accessible language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Hydrogen bond occupancy claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "higher occupancy H-bond (over 95 percent)" but does not specify the hydrogen bond definition used, such as distance and angle cutoffs, or whether this occupancy was averaged over all replicates.
+  - **Required correction** Specify the geometric criteria for hydrogen bond detection and report the occupancy with standard deviation across replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Therapeutic claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The final sentence suggests the findings "might help in designing novel therapeutics against tuberculosis," but no connection is made between the specific structural findings and any druggable target or inhibition strategy.
+  - **Required correction** Either remove the therapeutic speculation or provide a concrete rationale for how the identified inter-domain interface could be targeted.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, simulation protocol details, and experimental validation collectively prevent the core claims from being assessed.
+- **Assessment against Nature-style criteria** Originality: moderate. The application of MD simulation to MtrA phosphorylation is not entirely novel, but the specific focus on D56 and the inter-domain hydrogen bond is a useful contribution. Scientific importance: moderate. The question of MtrA activation is relevant to tuberculosis pathogenesis, but the abstract does not demonstrate broader significance beyond a single regulator. Interdisciplinary readership: limited. The abstract is written for computational biophysicists and would not readily engage experimental microbiologists or structural biologists without additional context. Technical soundness: not assessable from the abstract alone. The missing methodological details and quantitative results prevent evaluation. Readability for nonspecialists: acceptable but could be improved with brief explanations of key computational terms.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a relevant question and the computational approach is reasonable, but the abstract lacks the quantitative detail and methodological transparency needed to support the central claims. I would be supportive if the full manuscript provides binding free energy values with error estimates, simulation convergence data, and a clear framing of the active conformation claim as a prediction rather than an established finding.
+
+## Risk / unsupported claims
+- The claim that pD56-MtrA is "the possible active conformation" is unsupported without experimental validation or comparison to known active structures.
+- The claim of "higher DNA binding affinity" is unquantified and cannot be evaluated without numerical values and error estimates.
+- The claim that the findings "might help in designing novel therapeutics" is speculative and not connected to any specific druggable element.
+- The 95 percent hydrogen bond occupancy claim is unverifiable without the trajectory window and geometric criteria used.

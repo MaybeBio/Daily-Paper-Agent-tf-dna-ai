@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "42050573",
+    "doi": "10.1186/s13062-026-00814-3",
+    "title": "Integrative transcriptomic profiling reveals NK cell exhaustion-associated prognostic genes and identifies CSF1 as a key immunoregulatory target in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) features a complex tumor immune microenvironment (TIME) where natural killer cell exhaustion (NKEX) facilitates immune evasion. Its regulatory networks and prognostic value remain insufficiently understood. METHODS: We integrated single-cell (GSE149614) and bulk RNA-seq (TCGA-LIHC) data. Following Seurat-based clustering, we utilized CellChat and pySCENIC for communication and transcription factor analysis. NKEX-associated modules were identified via gene set variation analysis and weighted gene co-expression network analysis. A prognostic signature was developed using LASSO-Cox regression and validated in an external cohort (ICGC). CSF1 was prioritized for validation through clinical immunohistochemistry, siRNA knockdown, and Western Blotting. Candidate compounds identified via reverse network pharmacology were validated through CCK-8 assays, docking, western blotting and quantitative PCR. RESULTS: Single-cell analysis revealed pronounced NKEX and disrupted communication in HCC. A four-gene prognostic signature (AKR1B1, SMS, CSF1, CFL1) demonstrated robust predictive performance in both TCGA (1-year AUC: 0.759) and external validation cohorts. High-risk patients showed significantly poorer survival. CSF1 was markedly upregulated in HCC tissues; its silencing inhibited Huh7 cell migration and invasion while upregulating CXCL10 in Huh7 cells and CXCR3 in NK92 cells. Molecular docking and CCK-8 assays justified the dosage and identified punicalagin and evoden as potent inhibitors that significantly suppressed CSF1 expression at both mRNA and protein levels. CONCLUSION: Through integrated multi-omics and experimental validation, we characterized NKEX in HCC and established a robust prognostic signature. CSF1 emerged as a key immunomodulatory target. Punicalagin and evoden were identified as potential lead compounds to modulate the CSF1, offering a promising strategy to restore antitumor immunity in HCC.",
+    "keywords": [
+      "Hepatocellular carcinoma",
+      "NK cell exhaustion",
+      "Single-cell sequencing",
+      "Tumor immune microenvironment",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/genetics/immunology",
+      "Humans",
+      "*Liver Neoplasms/genetics/immunology",
+      "*Killer Cells, Natural/immunology/metabolism",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "*Transcriptome",
+      "Macrophage Colony-Stimulating Factor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yu",
+        "Xu, Xiaoyan",
+        "Qi, Yu",
+        "Zhang, Yiling",
+        "Ding, Long",
+        "Li, Zhuang",
+        "Long, Shuqin",
+        "Yang, Guohua",
+        "Sun, Rui",
+        "Guo, Xiaohong"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Xu X",
+        "Qi Y",
+        "Zhang Y",
+        "Ding L",
+        "Li Z",
+        "Long S",
+        "Yang G",
+        "Sun R",
+        "Guo X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1770-0639"
+      ],
+      "affiliations": [
+        "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "Hubei Shizhen Laboratory, Wuhan, 430065, China.",
+        "Department of Pathology, College of Basic Medical Sciences, Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous Region, 010059, China.",
+        "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "Hubei Shizhen Laboratory, Wuhan, 430065, China.",
+        "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "Hubei Shizhen Laboratory, Wuhan, 430065, China.",
+        "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "Hubei Shizhen Laboratory, Wuhan, 430065, China.",
+        "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+        "Hubei Shizhen Laboratory, Wuhan, 430065, China.",
+        "Department of Stomatology, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China.",
+        "Wuhan BioEagle Biological Science and Technology Co.,Ltd., Wuhan, 430073, China.",
+        "Department of Stomatology, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China. sunrui@sxbqeh.com.cn.",
+        "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China. judyguo313@hbucm.edu.cn.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China. judyguo313@hbucm.edu.cn.",
+        "Hubei Shizhen Laboratory, Wuhan, 430065, China. judyguo313@hbucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "Hubei Shizhen Laboratory, Wuhan, 430065, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoyan",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, College of Basic Medical Sciences, Inner Mongolia Medical University, Hohhot, Inner Mongolia Autonomous Region, 010059, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yu",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "Hubei Shizhen Laboratory, Wuhan, 430065, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiling",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "Hubei Shizhen Laboratory, Wuhan, 430065, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Long",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "Hubei Shizhen Laboratory, Wuhan, 430065, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhuang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China.",
+          "Hubei Shizhen Laboratory, Wuhan, 430065, China."
+        ]
+      },
+      {
+        "full_name": "Long, Shuqin",
+        "short_name": "Long S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guohua",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Wuhan BioEagle Biological Science and Technology Co.,Ltd., Wuhan, 430073, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Rui",
+        "short_name": "Sun R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China. sunrui@sxbqeh.com.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaohong",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0003-1770-0639"
+        ],
+        "affiliations": [
+          "Center of Traditional Chinese Medicine Modernization for Liver Diseases, Hubei University of Chinese Medicine, Wuhan, 430065, China. judyguo313@hbucm.edu.cn.",
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, 430065, China. judyguo313@hbucm.edu.cn.",
+          "Hubei Shizhen Laboratory, Wuhan, 430065, China. judyguo313@hbucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology direct"
+    ],
+    "journal_abbrev": [
+      "Biol Direct"
+    ],
+    "pub_date": "2026 Apr 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/29 06:36",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40780499",
+      "40468083",
+      "40250780",
+      "40246292",
+      "39363344",
+      "39117605",
+      "39022338",
+      "38999981",
+      "38903205",
+      "38896142",
+      "38721960",
+      "38331327",
+      "38283757",
+      "38097948",
+      "38065972",
+      "38022646",
+      "37480215",
+      "37443338",
+      "37279078",
+      "37231261",
+      "37203277",
+      "37097499",
+      "36811396",
+      "36729264",
+      "36408934",
+      "36221879",
+      "36164981",
+      "35574365",
+      "35498536",
+      "35219791",
+      "35092406",
+      "35078134",
+      "35008303",
+      "34979895",
+      "34673115",
+      "34613810",
+      "34288020",
+      "34249476",
+      "33849569",
+      "33784016",
+      "33754039",
+      "33689775",
+      "33597234",
+      "33538338",
+      "33385611",
+      "33277307",
+      "32940862",
+      "32600231",
+      "32117218",
+      "31729307",
+      "31675496",
+      "31265893",
+      "30944315",
+      "30643263",
+      "30061739",
+      "29757143",
+      "29608179",
+      "29307467",
+      "27264685",
+      "23323831",
+      "23152061",
+      "21148815",
+      "18903631"
+    ],
+    "similar": [
+      "42050573",
+      "42486346",
+      "42244292",
+      "41674779",
+      "40416605",
+      "41293954",
+      "42227003",
+      "40312525",
+      "41436831",
+      "40330470",
+      "41716413",
+      "41019083",
+      "38896142",
+      "42580240",
+      "39814999",
+      "39712016",
+      "40485623",
+      "41685312",
+      "42136961",
+      "41200185",
+      "42177711",
+      "40458412",
+      "41659855",
+      "41766871",
+      "40662145",
+      "41268553",
+      "39798003",
+      "39428564",
+      "40533802",
+      "41050691",
+      "39904693",
+      "41371106",
+      "39507529",
+      "39850878",
+      "42392347",
+      "41895243",
+      "41357200",
+      "41288681",
+      "42332538",
+      "41366455",
+      "40374855",
+      "37006257",
+      "41731179",
+      "37649103",
+      "41661103",
+      "42196419",
+      "41235257",
+      "40074769",
+      "40255404",
+      "41558300",
+      "36177006",
+      "41699549",
+      "39447409",
+      "41993211",
+      "41009979",
+      "41235234",
+      "38760515",
+      "41601671",
+      "42183188",
+      "38868777",
+      "42169914",
+      "41656832",
+      "40317014",
+      "39542805",
+      "40307857",
+      "41971124",
+      "39433650",
+      "39085893",
+      "41634343",
+      "40302343",
+      "40599775",
+      "39044829",
+      "39530087",
+      "39346916",
+      "40621461",
+      "40909272",
+      "37674210",
+      "41388436",
+      "38774870",
+      "40764361",
+      "38568083",
+      "40014188",
+      "39525025",
+      "41423668",
+      "40211257",
+      "39537209",
+      "40719833",
+      "40645977",
+      "39137630",
+      "40918134",
+      "40956822",
+      "40330476",
+      "42147807",
+      "38679407",
+      "40525440",
+      "37540264",
+      "41703614",
+      "41388523",
+      "41986494",
+      "41208981"
+    ],
+    "review": [
+      "42050573"
+    ],
+    "pmc": [
+      "13267415"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biologydirect.biomedcentral.com/articles/10.1186/s13062-026-00814-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42050573/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3701",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "40444411",
+    "doi": "10.1002/cbin.70041",
+    "title": "Cancer Classification Through p53 Hotspot Mutations: An Ensemble Learning Approach."
+  },
+  "content": {
+    "abstract": "Tumor suppressor protein p53 is attracting a lot of attention in cancer research because of its role in both tumor cell survival and apoptosis. The most frequently altered tumor suppressor gene in human cancer is TP53. TP53 mutations affecting residues in the protein's DNA binding domain (102-292) account for 80% of the alterations detected in tumors. These are called hotspot mutations because they lose their wild-type function and acquire oncogenic functions that accelerate cancer progression. These functions include promoting the growth, migration, invasion, and initiation of cancer cells and granting drug resistance to cancer cells. Six residues of the p53 protein (Arg175, Gly245, Arg249, Arg248, Arg273, and Arg282) are often altered in human cancer, known as hotspot mutations. Based on these hotspot codons, we identified the cancer types and stability of protein p53 in this study. This study aims to classify cancer types with a high degree of accuracy and precision. The main contribution of this study is that our work presented mutation data (clinically and biologically meaningful features and the role of hotspot codon of protein p53) to classify types of cancer by learning from the labeled data using an ensemble approach. Our research on the classification of cancer types outperformed using the Extreme Gradient boosting classifier (XGBoost) with an accuracy of 99.85%, precision of 99.80%, area under the curve of 100%, MCC of 99. 85%, and F1 of 99.80%.",
+    "keywords": [
+      "Acc- accuracy",
+      "DNA binding domain",
+      "MCC-Matthew's correlation coefficient",
+      "extreme gradient boosting (XGBoost)",
+      "hotspot codon",
+      "missense mutation",
+      "tumor suppressor protein P53"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/genetics/metabolism",
+      "Humans",
+      "*Neoplasms/genetics/classification",
+      "*Mutation/genetics",
+      "Machine Learning",
+      "Ensemble Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patil, Manisha R",
+        "Bihari, Anand"
+      ],
+      "short_names": [
+        "Patil MR",
+        "Bihari A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2651-1613"
+      ],
+      "affiliations": [
+        "School of Computer Science Engineering and Information System, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Department of Computational Intelligence, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patil, Manisha R",
+        "short_name": "Patil MR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science Engineering and Information System, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Bihari, Anand",
+        "short_name": "Bihari A",
+        "identifiers": [
+          "0000-0002-2651-1613"
+        ],
+        "affiliations": [
+          "Department of Computational Intelligence, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell biology international"
+    ],
+    "journal_abbrev": [
+      "Cell Biol Int"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/30 08:24",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40444411",
+      "36555140",
+      "18453682",
+      "29500733",
+      "27341992",
+      "24603336",
+      "29099487",
+      "27836911",
+      "27101868",
+      "35589715",
+      "31216622",
+      "29979965",
+      "26024390",
+      "35383292",
+      "34439241",
+      "32484602",
+      "39390510",
+      "30508182",
+      "40223808",
+      "19336573",
+      "18550490",
+      "35320355",
+      "24374933",
+      "22824795",
+      "9926936",
+      "32350249",
+      "22373952",
+      "30126368",
+      "31780779",
+      "19881536",
+      "40835511",
+      "28277540",
+      "18996393",
+      "36700982",
+      "35948006",
+      "27197156",
+      "41397879",
+      "38018912",
+      "17496437",
+      "15958617",
+      "36499604",
+      "34907344",
+      "20978130",
+      "10690522",
+      "38199451",
+      "36964217",
+      "35361963",
+      "24687952",
+      "25669829",
+      "38358025",
+      "27166782",
+      "39658610",
+      "30578766",
+      "41320175",
+      "9723023",
+      "31067569",
+      "11793474",
+      "18465328",
+      "24662829",
+      "32000721",
+      "40458924",
+      "24100332",
+      "14519637",
+      "31637714",
+      "15534934",
+      "40504558",
+      "24395704",
+      "27258787",
+      "23359294",
+      "31536751",
+      "23625637",
+      "35043155",
+      "32942535",
+      "38194777",
+      "36637878",
+      "35454137",
+      "10064694",
+      "8344493",
+      "40683332",
+      "24768524",
+      "28445466",
+      "22028641",
+      "33555293",
+      "20182618",
+      "39684639",
+      "21726666",
+      "39082342",
+      "24612173",
+      "39450536",
+      "23737287",
+      "40076854",
+      "34484205",
+      "24726728",
+      "28483946",
+      "27517620",
+      "30496442",
+      "36730675",
+      "31835684",
+      "24590827",
+      "28052007"
+    ],
+    "review": [
+      "40444411",
+      "29099487",
+      "27836911",
+      "26024390",
+      "35383292",
+      "34439241",
+      "39390510",
+      "30508182",
+      "18550490",
+      "41397879",
+      "17496437",
+      "38199451",
+      "35361963",
+      "27166782",
+      "39658610",
+      "41320175",
+      "24395704",
+      "38194777",
+      "35454137",
+      "24768524",
+      "20182618",
+      "39684639",
+      "39082342",
+      "39450536",
+      "23737287",
+      "34484205",
+      "24726728",
+      "30496442",
+      "31835684"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1002/cbin.70041",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37173345",
+  "title": "Prediction of mammalian tissue-specific CLOCK-BMAL1 binding to E-box DNA motifs.",
+  "authors": "Marri, Daniel; Filipovic, David; Kana, Omar; Tischkau, Shelley; Bhattacharya, Sudin",
+  "journal": "Scientific reports",
+  "published_date": "2023-05-13",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用可解释机器学习模型预测组织特异性CLOCK-BMAL1对E-box DNA基序的结合，整合序列、DNA形状和组蛋白修饰特征，聚焦TF-DNA结合位点预测与机制解析，高度契合本课题。",
+  "abstract": "The Brain and Muscle ARNTL-Like 1 protein (BMAL1) forms a heterodimer with either Circadian Locomotor Output Cycles Kaput (CLOCK) or Neuronal PAS domain protein 2 (NPAS2) to act as a master regulator of the mammalian circadian clock gene network. The dimer binds to E-box gene regulatory elements on DNA, activating downstream transcription of clock genes. Identification of transcription factor binding sites and genomic features that correlate to DNA binding by BMAL1 is a challenging problem, given that CLOCK-BMAL1 or NPAS2-BMAL1 bind to several distinct binding motifs (CANNTG) on DNA. Using three different types of tissue-specific machine learning models with features based on (1) DNA sequence, (2) DNA sequence plus DNA shape, and (3) DNA sequence and shape plus histone modifications, we developed an interpretable predictive model of genome-wide BMAL1 binding to E-box motifs and dissected the mechanisms underlying BMAL1-DNA binding. Our results indicated that histone modifications, the local shape of the DNA, and the flanking sequence of the E-box motif are sufficient predictive features for BMAL1-DNA binding. Our models also provide mechanistic insights into tissue specificity of DNA binding by BMAL1.",
+  "abstract_zh": "脑和肌肉ARNTL样1蛋白（BMAL1）与昼夜运动输出周期kaput蛋白（CLOCK）或神经元PAS结构域蛋白2（NPAS2）形成异二聚体，作为哺乳动物昼夜节律时钟基因网络的主要调控因子。该二聚体与DNA上的E-box基因调控元件结合，激活时钟基因的下游转录。鉴于CLOCK-BMAL1或NPAS2-BMAL1与DNA上的多个不同结合基序（CANNTG）结合，识别与BMAL1 DNA结合相关的转录因子结合位点和基因组特征是一个具有挑战性的问题。利用三种不同类型的组织特异性机器学习模型，其特征基于（1）DNA序列，（2）DNA序列加DNA形状，以及（3）DNA序列和形状加组蛋白修饰，我们开发了一个可解释的预测模型，用于全基因组范围内BMAL1与E-box基序的结合，并解析了BMAL1-DNA结合的机制。我们的结果表明，组蛋白修饰、DNA的局部形状以及E-box基序的侧翼序列是BMAL1-DNA结合的充分预测特征。我们的模型还提供了对BMAL1 DNA结合组织特异性的机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37173345/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37173345/",
+  "paper_page_path": "papers/pubmed/37173345/index.html"
+}

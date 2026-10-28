@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2412.05723v3",
+  "title": "Training-Free Bayesianization for Low-Rank Adapters of Large Language Models",
+  "authors": "Haizhou Shi; Yibin Wang; Ligong Han; Huan Zhang; Hao Wang",
+  "journal": "",
+  "published_date": "2024-12-07",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究大语言模型低秩适配器的无训练贝叶斯化方法，用于不确定性估计，不涉及蛋白质-DNA互作或相关建模，与本课题无关。",
+  "abstract": "Estimating the uncertainty of responses from Large Language Models (LLMs) remains a critical challenge. While recent Bayesian methods have demonstrated effectiveness in quantifying uncertainty through low-rank weight updates, they typically require complex fine-tuning or post-training procedures. In this paper, we propose Training-Free Bayesianization (TFB), a simple yet theoretically grounded framework that efficiently transforms trained low-rank adapters into Bayesian ones without additional training. TFB systematically searches for the maximally acceptable level of variance in the weight posterior, constrained within a family of low-rank isotropic Gaussian distributions. Our theoretical analysis shows that under mild conditions, this search process is equivalent to KL-regularized variational optimization, a generalized form of variational inference. Through comprehensive experiments, we show that TFB achieves superior uncertainty estimation and generalization compared to existing methods while eliminating the need for complex Bayesianization training procedures. Code will be available at https://github.com/Wang-ML-Lab/bayesian-peft.",
+  "abstract_zh": "大型语言模型（LLMs）响应不确定性的估计仍然是一个关键挑战。尽管最近的贝叶斯方法通过低秩权重更新在量化不确定性方面展示了有效性，但它们通常需要复杂的微调或训练后处理流程。在本文中，我们提出了一种无需训练的贝叶斯化方法（Training-Free Bayesianization, TFB），这是一个简单且具有理论基础的框架，能够高效地将训练好的低秩适配器转换为贝叶斯适配器，而无需额外训练。TFB系统性地搜索权重后验中最大可接受的方差水平，并将其限制在低秩各向同性高斯分布族内。我们的理论分析表明，在温和条件下，这一搜索过程等价于KL正则化的变分优化，这是变分推断的一种广义形式。通过综合实验，我们展示了TFB在不确定性估计和泛化方面优于现有方法，同时消除了对复杂贝叶斯化训练流程的需求。代码将在 https://github.com/Wang-ML-Lab/bayesian-peft 提供。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2412.05723v3",
+  "source_url": "https://arxiv.org/abs/2412.05723v3",
+  "paper_page_path": "papers/arxiv/2412.05723v3/index.html"
+}

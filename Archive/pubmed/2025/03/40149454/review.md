@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological rigor, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use a combination of bioinformatics and AI-based tools to identify deleterious nonsynonymous SNPs (nsSNPs) in the STAT1 gene, predict their effects on protein stability and function, and propose six variants (R602W, I648T, V642D, L600P, I578N, W504C) as potentially pathogenic.
+- **Visible evidence base** Full text including abstract, introduction, methods, results, discussion, and conclusions. Figures and tables are referenced but not fully visible in the provided material.
+- **Missing materials affecting confidence** Figures 1–7 and Tables 1–8 are referenced but not provided. Supplementary data, detailed tool parameters, and raw SNP lists are not available. Experimental validation data are absent.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational pipeline for identifying potentially deleterious STAT1 variants, combining multiple prediction tools. While the approach is systematic, the study is entirely in silico and lacks experimental validation. The novelty is limited given the existence of similar bioinformatics studies on STAT1 and other genes. The manuscript has several methodological inconsistencies and overstates its conclusions relative to the evidence provided.
+- **Who would be interested in the results, and why** Researchers studying STAT1-related immunodeficiencies, particularly chronic mucocutaneous candidiasis and Mendelian susceptibility to mycobacterial disease, may find the candidate variant list useful for prioritization in future functional studies. Computational biologists interested in variant effect prediction pipelines may also take interest, though the methods are largely standard.
+- **Major strengths** 
+  - Systematic use of multiple complementary prediction tools (sequence-based, structure-based, and AI-based).
+  - Inclusion of AlphaMissense, a state-of-the-art AI method, adds contemporary relevance.
+  - Identification of one previously reported pathogenic variant (L600P) provides partial internal validation.
+  - Clear presentation of the workflow in Figure 1 (referenced).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that six variants "destabilized the STAT1 protein" based on three stability prediction tools.
+  - **Evidence pointer** Section 3.4, Table 4
+  - **Concern** The three stability tools (I-Mutant, MUpro, DDMUT) are all computational predictors with known limitations and variable concordance. The manuscript does not report the actual predicted ΔΔG values or confidence scores, only a binary "destabilizing" classification. Moreover, the criteria for calling a variant "destabilizing" when tools disagree are not stated. The claim of destabilization is therefore not quantitatively supported.
+  - **Why it matters** Protein stability predictions are inherently uncertain, and overinterpretation can mislead downstream functional studies. Without reporting numerical outputs and agreement criteria, the central claim of the paper is not reproducible.
+  - **Resolution test** Provide the numerical ΔΔG predictions and confidence scores from each tool for all six variants, and specify the consensus rule used to classify a variant as destabilizing. If tools disagree, discuss the discrepancies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state "this is the first comprehensive study in which we analyze STAT1 gene variants using both bioinformatics and artificial-intelligence-based model tools."
+  - **Evidence pointer** Abstract, Conclusions
+  - **Concern** This novelty claim is not substantiated. The authors do not provide a literature search or comparison with prior studies on STAT1 variant prediction. Given the extensive literature on STAT1 mutations and the widespread use of tools like SIFT, PolyPhen, and AlphaMissense, the claim of "first comprehensive study" is implausible without a systematic review.
+  - **Why it matters** Overclaiming novelty undermines the scientific credibility of the manuscript and misrepresents the state of the field.
+  - **Resolution test** Conduct and report a systematic literature search on STAT1 in silico variant analysis. Either provide evidence supporting the novelty claim or revise it to accurately reflect prior work.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "all the pathogenic nsSNPs that were predicted by the previous tools were also classified as pathogenic in Alpha-Missense."
+  - **Evidence pointer** Section 3.5, Table 5
+  - **Concern** The manuscript does not report the AlphaMissense scores or classification thresholds used. It is unclear whether "pathogenic" corresponds to AlphaMissense's "likely pathogenic" or "pathogenic" categories, and whether the threshold was pre-specified or adjusted post hoc. Without these details, the concordance claim is not verifiable.
+  - **Why it matters** Reproducibility requires exact tool versions, parameters, and thresholds. The current description is insufficient for readers to replicate the analysis.
+  - **Resolution test** Report the AlphaMissense score for each variant, the version used, and the exact classification criteria. Clarify whether any variants were borderline or discordant.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the identified variants "may have an impact on disease" and "might be helpful in future studies."
+  - **Evidence pointer** Discussion, Conclusions
+  - **Concern** The manuscript does not connect the six identified variants to any specific disease phenotype or clinical context beyond the general mention of STAT1-related immunodeficiencies. For five of the six variants, no prior clinical or functional evidence is cited. The discussion of disease relevance is speculative.
+  - **Why it matters** The translational value of the findings is unclear without linking variants to specific phenotypes or pathways. The paper would benefit from a more focused discussion of which diseases these variants might affect and why.
+  - **Resolution test** For each variant, discuss known disease associations, allele frequencies in population databases, and potential mechanistic links to STAT1 function. If no such data exist, state this explicitly and temper the disease relevance claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction is dense and assumes familiarity with JAK-STAT signaling and variant prediction tools. A brief primer on STAT1 structure-function relationships and the clinical relevance of STAT1 mutations would improve accessibility.
+  - **Required correction** Add 2–3 sentences explaining why STAT1 variants matter clinically and what domains are functionally critical.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of tool usage is inconsistent. For example, P-Mut is described as using a neural network, but the version and default parameters are not specified. Similarly, the exact input format for each tool is not described.
+  - **Required correction** Provide a supplementary table listing tool versions, URLs, access dates, and key parameters for all tools used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Section 3.2
+  - **Issue** The filtering process from 247 nsSNPs to 64 (SIFT) to 33 (four tools) to 9 (eight tools) is described, but the criteria for inclusion at each step are not fully specified. For example, it is unclear whether "deleterious" required all four tools to agree or a majority.
+  - **Required correction** Clarify the consensus rule at each filtering step, and report the number of variants passing each tool individually.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of previously reported STAT1 mutations (L706S, Q463H, E320Q, etc.) is brief and does not explain how these relate to the six identified variants. The relevance of these comparisons is unclear.
+  - **Required correction** Either expand the comparison to show how the identified variants differ from or overlap with known pathogenic mutations, or remove the tangential discussion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2.10
+  - **Issue** The STRING analysis is described as predicting protein–protein interactions, but the confidence threshold and the specific interaction network are not described. Figure 7 is referenced but not visible.
+  - **Required correction** Report the STRING confidence score threshold and list the top interacting partners with their scores.
+- **Technical failings that need to be addressed before the case is established** 
+  - Lack of quantitative data for stability predictions (R1-M1)
+  - Unsubstantiated novelty claim (R1-M2)
+  - Insufficient reporting of AlphaMissense parameters and scores (R1-M3)
+  - Incomplete description of filtering criteria and tool parameters (R1-m2, R1-m3)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Limited. The use of multiple prediction tools is standard practice, and the specific combination is not novel. The claim of being "first" is unsubstantiated.
+  - **Scientific importance** Moderate. Identifying candidate STAT1 variants is useful, but the lack of experimental validation and disease-specific context limits the impact.
+  - **Interdisciplinary readership** Narrow. The manuscript is primarily of interest to computational biologists and STAT1 researchers. It does not bridge to broader immunology or clinical audiences.
+  - **Technical soundness** Weak. The methods are described at a high level, but key parameters, thresholds, and numerical outputs are missing, preventing reproducibility.
+  - **Readability for nonspecialists** Below average. The introduction and methods assume significant background knowledge, and the results are presented without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions to address the technical reporting gaps and to temper overclaimed conclusions. If the authors provide the missing quantitative data, clarify their methods, and revise the novelty claim, the work could become a useful contribution to the field of STAT1 variant analysis.
+
+## Risk / unsupported claims
+- The claim that six variants "destabilized" STAT1 is unsupported without numerical ΔΔG values and consensus criteria.
+- The claim of being the "first comprehensive study" using both bioinformatics and AI tools for STAT1 is unsupported without a literature review.
+- The statement that "all" variants were classified as pathogenic by AlphaMissense is unverifiable without scores and thresholds.
+- The suggestion that these variants "may have an impact on disease" is speculative and not tied to specific phenotypes or clinical data.
+- The assertion that the study "provides all the information and analysis needed for the identification of the most damaging nsSNPs" is overstated given the lack of experimental validation.

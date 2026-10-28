@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "42032605",
+    "doi": "10.1186/s12967-026-08132-y",
+    "title": "S100P mediates IL-13/ATF4-driven epithelial barrier dysfunction in eosinophilic asthma: a potential biomarker and therapeutic target."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In allergic asthma, a detrimental cycle of epithelial barrier destruction, driven predominantly by type 2 inflammation, facilitates allergen exposure to deeper tissues. However, the precise mechanisms underlying this process remain poorly understood. METHODS: A bioinformatics analysis was performed using public datasets and an independent cohort of asthma patients. Single-cell profiling further elucidated the role of S100 calcium-binding protein P (S100P) in this condition. To investigate the impact of S100P on barrier integrity, human bronchial epithelial cells (16HBE) were stimulated with interleukin-13 (IL-13). The functional interaction between S100P and potential therapeutic compounds was evaluated by molecular docking and dynamics simulation. RESULTS: Our findings revealed significant alterations in the transcriptional regulation of the S100P, with protein levels correlating closely with lung function and eosinophilic inflammation. S100P was predominantly localized in airway epithelial cells (AECs), particularly in the goblet and club cells. It acts as a pivotal signal in maintaining epithelial barrier integrity by regulating tight junction proteins, such as ZO-1 and occludin, and altering transepithelial electrical resistance. Mechanistically, IL-13 markedly upregulated S100P expression in AECs, likely via activation of transcription factor 4 (ATF4). Molecular docking and dynamics simulations demonstrated that S100P interacts with the clinically established antihistamine astemizole and the immunosuppressant celastrol, both of which protect against S100P-induced barrier disruption. CONCLUSIONS: Our work identified S100P as a key mediator of airway epithelial barrier dysfunction in asthma, shedding light on the crucial signaling of the IL-13/ATF4/S100P axis. These findings highlight the dual potential of S100P as both a biomarker and a therapeutic target, offering promising strategies for barrier protection in clinical asthma management.",
+    "keywords": [
+      "ATF4",
+      "Asthma",
+      "Eosinophil",
+      "Epithelial barrier",
+      "S100P"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Asthma/pathology/metabolism/therapy/physiopathology",
+      "Biomarkers/metabolism",
+      "*Epithelial Cells/pathology/metabolism",
+      "Molecular Docking Simulation",
+      "*Interleukin-13/metabolism",
+      "*Activating Transcription Factor 4/metabolism",
+      "*Neoplasm Proteins/metabolism/chemistry/genetics",
+      "*Eosinophils/pathology",
+      "*Molecular Targeted Therapy",
+      "Cell Line",
+      "Calcium-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Dengke",
+        "Yin, Yuan",
+        "Hao, Ruizhi",
+        "Ren, Yesong",
+        "Gu, Shengwei",
+        "Wang, Hongyu",
+        "Han, Lu",
+        "Ye, Sheng",
+        "Li, Lingshu",
+        "Yao, Xin",
+        "Zeng, Xiaoning"
+      ],
+      "short_names": [
+        "Li D",
+        "Yin Y",
+        "Hao R",
+        "Ren Y",
+        "Gu S",
+        "Wang H",
+        "Han L",
+        "Ye S",
+        "Li L",
+        "Yao X",
+        "Zeng X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Respiratory Medicine, Taikang Xianlin Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China. yaoxin@njmu.edu.cn.",
+        "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China. zeng_xiao_ning@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Dengke",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Yuan",
+        "short_name": "Yin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Ruizhi",
+        "short_name": "Hao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Yesong",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Shengwei",
+        "short_name": "Gu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongyu",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Han, Lu",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Sheng",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+          "Department of Respiratory Medicine, Taikang Xianlin Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lingshu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xin",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China. yaoxin@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xiaoning",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary & Critical Care Medicine, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China. zeng_xiao_ning@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Apr 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/25 00:34",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41623094",
+      "41566510",
+      "41461936",
+      "41185013",
+      "40598593",
+      "40347887",
+      "40211698",
+      "40016948",
+      "39962262",
+      "39779666",
+      "39577524",
+      "39465893",
+      "39429873",
+      "39298836",
+      "39062464",
+      "38981012",
+      "38453256",
+      "38453246",
+      "38426720",
+      "38341182",
+      "38311978",
+      "38280333",
+      "37026502",
+      "36682372",
+      "35865542",
+      "35222395",
+      "35108405",
+      "35093168",
+      "34762602",
+      "34285336",
+      "34089725",
+      "33917163",
+      "33711259",
+      "33542055",
+      "33495651",
+      "32319104",
+      "31209336",
+      "30578807",
+      "30290132",
+      "29988039",
+      "29383839",
+      "27746262",
+      "27312821",
+      "26751474",
+      "25990557",
+      "25763605",
+      "25176396",
+      "24681956",
+      "23314903",
+      "23135761",
+      "22431641",
+      "21057005",
+      "20509035",
+      "19499576",
+      "19483109",
+      "19287191",
+      "16211538",
+      "16199517",
+      "15520816"
+    ],
+    "similar": [
+      "42032605",
+      "42259240",
+      "41566510",
+      "38687777",
+      "41540423",
+      "41755794",
+      "42391816",
+      "28392332",
+      "38713619",
+      "28558721",
+      "42215885",
+      "41920083",
+      "29902480",
+      "40497542",
+      "30481486",
+      "41620621",
+      "25840724",
+      "38941668",
+      "29225050",
+      "29522849",
+      "21996340",
+      "23632299",
+      "42167662",
+      "40689016",
+      "34111662",
+      "34215278",
+      "24681956",
+      "31706310",
+      "42157237",
+      "41394833",
+      "41806939",
+      "32303124",
+      "27215490",
+      "39493276",
+      "42176509",
+      "39395376",
+      "38373665",
+      "39580628",
+      "42305044",
+      "41799700",
+      "41266120",
+      "25998793",
+      "27338192",
+      "41570784",
+      "39447011",
+      "41760554",
+      "38898476",
+      "36106993",
+      "31082457",
+      "27864285",
+      "38035662",
+      "39650157",
+      "34871316",
+      "29350877",
+      "41824268",
+      "20624652",
+      "41633491",
+      "24665390",
+      "40187003",
+      "40397997",
+      "41633280",
+      "26453516",
+      "41621761",
+      "42394489",
+      "41786057",
+      "30998987",
+      "39467462",
+      "27383524",
+      "41708397",
+      "39893427",
+      "38422887",
+      "35093168",
+      "42090232",
+      "27192552",
+      "40613239",
+      "25957295",
+      "27312821",
+      "41564656",
+      "39254378",
+      "38996949",
+      "41197183",
+      "41555513",
+      "29875205",
+      "29676620",
+      "34341336",
+      "42195233",
+      "40275330",
+      "42228185",
+      "42322763",
+      "40383489",
+      "41772919",
+      "40849658",
+      "42189350",
+      "27035254",
+      "37924784",
+      "26227965",
+      "27883241",
+      "30382768",
+      "42503369",
+      "23671562"
+    ],
+    "review": [
+      "42032605",
+      "42189350"
+    ],
+    "pmc": [
+      "13255357"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-08132-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42032605/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

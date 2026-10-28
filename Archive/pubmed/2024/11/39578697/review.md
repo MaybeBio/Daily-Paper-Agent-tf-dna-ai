@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, data support, and presentation of the miRStart 2.0 database as described in the manuscript
+- **Shared manuscript claim summary** The authors present miRStart 2.0, an updated database for miRNA transcription start site (TSS) annotation, integrating over 4500 high-throughput datasets across five data types, using a deep learning-based CNN model to identify 28,828 putative TSSs for 1745 human and 1181 mouse miRNAs, and providing over 6 million tissue-specific TF–miRNA interactions with network visualization tools
+- **Visible evidence base** Abstract, Introduction, System overview and database content, Methods and results, Web interface, Case study, Discussion, Data availability
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S5) referenced but not provided; detailed model architecture and hyperparameters not fully described; benchmark dataset construction details incomplete; web interface not accessible for verification
+
+## Reviewer
+- **Overall assessment** The manuscript describes a substantial update to a miRNA TSS database, with a clear focus on integrating multi-modal data and a deep learning approach. The resource has potential value for the miRNA research community. However, several technical aspects require clarification and strengthening, particularly regarding model evaluation methodology, benchmark comparisons, and the biological validation of predicted TSSs. The claims of superior performance need more rigorous support, and the case study would benefit from deeper functional validation.
+- **Who would be interested in the results, and why** Researchers studying miRNA transcriptional regulation, miRNA biogenesis, and miRNA involvement in disease. The database could be useful for those investigating TF–miRNA regulatory networks, designing CRISPR-based miRNA perturbation experiments, and exploring tissue-specific miRNA expression control. The resource may also interest bioinformaticians developing TSS prediction tools.
+- **Major strengths**
+  - Integration of multiple high-throughput data types (CAGE-seq, TSS-seq, ChIP-seq, DNase-seq) provides a comprehensive evidence base
+  - The deep learning approach is a modern and appropriate methodology for the problem
+  - The database covers both human and mouse, increasing its utility
+  - The web interface with visualization tools and network representations enhances accessibility
+  - The inclusion of TF–miRNA interactions with confidence scoring adds practical value
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "miRStart 2.0 consistently outperforms these methods across key metrics for both human and mouse datasets, demonstrating its accuracy and robustness in TSS identification"
+  - **Evidence pointer** Figure 2A and 2B; Methods and results section, "miRNA TSSs annotation" subsection
+  - **Concern** The comparison with existing tools (primiTSS, D-miRT, DeepTSS) is described only in general terms. The specific evaluation metrics, the composition of the test dataset (2000 PCT samples), and the criteria for "successful identification" are not fully detailed. The claim of consistent outperformance requires a more transparent and rigorous benchmarking protocol, including statistical significance testing and consideration of potential biases in the test set.
+  - **Why it matters** Without a clear and reproducible evaluation methodology, the central claim of superior performance cannot be independently verified. This is critical for establishing the database as a reliable resource.
+  - **Resolution test** Provide a detailed description of the evaluation protocol, including the exact metrics used (e.g., precision, recall, F1, area under the precision-recall curve), the construction of the test set, and statistical tests for significance. Ideally, make the evaluation code and test data publicly available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "28,828 putative TSSs for 1745 human and 1181 mouse miRNAs, supported by sequencing-based transcription initiation signals"
+  - **Evidence pointer** Methods and results section, "miRNA TSSs annotation" subsection; Supplementary Figure S2
+  - **Concern** The validation of predicted TSSs against experimentally verified data is described for only 24 non-cell-specific and 61 hESC-specific miRNAs. This is a very small fraction of the total predicted TSSs. The manuscript does not describe any additional validation strategies, such as comparison with independent CAGE-seq data, promoter-associated chromatin marks, or evolutionary conservation, for the broader set of predictions.
+  - **Why it matters** The accuracy of the vast majority of the 28,828 predicted TSSs is not directly assessed. The generalizability of the model's performance from a small benchmark set to the full database is an unsupported assumption.
+  - **Resolution test** Expand the validation to include a larger, independent set of experimentally supported miRNA TSSs, or provide additional lines of evidence (e.g., correlation with H3K4me3 peaks, RNA polymerase II occupancy, or cross-species conservation) for a random sample of predicted TSSs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The presence of these 10 TFs in the regulatory regions of miR-21 highlights a complex interaction network... This likely contributes to tumorigenesis, metastasis and therapy resistance"
+  - **Evidence pointer** Case study section
+  - **Concern** The case study identifies 10 TFs potentially regulating miR-21 in breast tissue, but the functional significance is inferred from previous literature rather than demonstrated. The claim that this "likely contributes to tumorigenesis, metastasis and therapy resistance" is speculative and not supported by any experimental data presented in this manuscript.
+  - **Why it matters** While a case study can illustrate database utility, over-interpretation of predicted interactions as functionally relevant without experimental validation weakens the scientific rigor of the manuscript.
+  - **Resolution test** Either temper the language to clearly state these are hypotheses generated from the database, or include a minimal experimental validation (e.g., ChIP-qPCR for one or two TFs at the miR-21 promoter in a breast cancer cell line).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and System overview
+  - **Evidence pointer** Introduction section, paragraphs 1–3
+  - **Issue** The introduction assumes familiarity with miRNA biogenesis and TSS concepts. A brief, clear explanation of why miRNA TSS identification is challenging and why it matters would improve accessibility.
+  - **Required correction** Add a short paragraph in the Introduction explaining the biological significance of miRNA TSSs and the technical challenges in identifying them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Methods and results section, "miRNA TSSs annotation" subsection
+  - **Issue** The deep learning model architecture is described only as "two convolutional layers and three fully connected layers." Key hyperparameters (e.g., kernel sizes, number of filters, learning rate, regularization) and training details are not provided in the main text.
+  - **Required correction** Provide a full description of the model architecture and training procedure, either in the main text or in a supplementary methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** TF–miRNA interaction confidence score
+  - **Evidence pointer** Web interface section, paragraph 1
+  - **Issue** The "Confidence" score is described as a "normalized summation" of significance, DNase overlap, and conservation, but the exact formula and normalization method are not specified.
+  - **Required correction** Provide the precise formula for the confidence score and describe how each component is normalized.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Case study
+  - **Evidence pointer** Case study section, paragraph 2
+  - **Issue** The description of CRISPR/dCas9-based methods is brief and may not be clear to readers outside the gene editing field.
+  - **Required correction** Expand slightly on how the TSS annotations guide sgRNA design, perhaps with a simple schematic or a more detailed textual explanation.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Insufficient detail on benchmarking methodology and statistical rigor
+  - R1-M2: Inadequate validation of the majority of predicted TSSs
+  - R1-M3: Over-interpretation of case study findings without experimental support
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The integration of a deep learning model with multi-modal data for miRNA TSS prediction is a reasonable incremental advance over existing tools, but the approach is not conceptually novel.
+  - **Scientific importance** Moderate. The database has potential utility for the miRNA research community, but the lack of broad validation limits its immediate impact.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to molecular biologists and bioinformaticians working on miRNA regulation. The presentation is not tailored to a broader readership.
+  - **Technical soundness** Currently insufficient. The evaluation methodology and validation strategy are not described with enough detail or rigor to fully support the central claims.
+  - **Readability for nonspecialists** Acceptable but could be improved with clearer explanations of key concepts and methods.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful resource, but the technical concerns regarding benchmarking and validation must be addressed before the claims of superior performance and broad utility can be accepted.
+
+## Risk / unsupported claims
+- The claim of "consistent outperformance" over existing tools is not fully supported due to incomplete benchmarking details.
+- The general accuracy of the 28,828 predicted TSSs is not established beyond a small benchmark set.
+- The functional significance of the identified TF–miRNA interactions in the case study is speculative and not experimentally validated.
+- The statement that the database provides "systems-level insights into gene regulation and disease mechanisms" is an overstatement given the lack of functional validation.

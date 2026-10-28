@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that transthyretin (TTR) directly binds heterogeneous nuclear ribonucleoprotein A2B1 (hnRNPA2B1) in human retinal microvascular endothelial cells (hRECs) under hyperglycemic conditions, and that this interaction is required for TTR-mediated inhibition of proliferation, migration, and tube formation, acting through the STAT-4/miR-223-3p/FBXW7 signaling pathway.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions beyond the techniques named
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical methods, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between TTR and hnRNPA2B1 in diabetic retinopathy, with a plausible signaling cascade. However, the evidence as summarized is insufficient to evaluate the rigor of the experimental design, the validity of the interaction data, the functional significance of the mutants, or the statistical robustness of the conclusions. The claim of a new pathway is intriguing but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in diabetic retinopathy, retinal vascular biology, and transthyretin biology would be interested. The proposed TTR-hnRNPA2B1 interaction and its downstream signaling could inform therapeutic strategies targeting neovascularization. The work may also appeal to those studying RNA-binding proteins in endothelial cell function.
+- **Major strengths** The abstract identifies a novel putative binding partner for TTR in a disease-relevant cell type. The use of multiple complementary techniques (IP, MS, co-IP, ZDOCK, recombinant mutants, functional assays) suggests a systematic approach. The proposed pathway integrates a known signaling axis with a new molecular interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that TTR directly binds hnRNPA2B1 and that this interaction is functionally required for TTR's inhibitory effects on hREC proliferation, migration, and tube formation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that the interaction was "screened" and "confirmed" but provides no quantitative or qualitative data, such as binding affinities, IP efficiency, or controls for nonspecific binding. The functional assays are described only as "in vitro" with no mention of dose, time, or replicate numbers. The mutant design is based on ZDOCK simulation, but no validation of the structural model or the specificity of the disrupted residues is shown.
+  - **Why it matters** Without these details, the reader cannot assess whether the observed effects are specific to the TTR-hnRNPA2B1 interaction or could arise from off-target effects, experimental artifacts, or insufficient statistical power. The central claim of direct binding and functional necessity is not verifiable from the abstract.
+  - **Resolution test** Provide representative IP/MS data with appropriate controls, quantitative binding data (e.g., surface plasmon resonance or isothermal titration calorimetry), and full dose-response and time-course functional assays with statistical analysis. Show that mutant TTRs retain overall structural integrity and that the disrupted interaction is the sole cause of the loss of function.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract proposes a "TTR-hnRNPA2B1/STAT-4/miR-223-3p/FBXW7" pathway and states that TTR mutants could not regulate STAT-4, miR-223-3p, FBXW7, p-Akt, and Notch1.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract lists several downstream molecules but does not specify how they were measured, whether the changes were consistent across all mutants, or whether the effects were specific to the TTR-hnRNPA2B1 disruption. The direction of regulation (up or down) is not stated for any molecule. The pathway is presented as linear, but no evidence is given for the order of events or for causal relationships among the components.
+  - **Why it matters** A proposed pathway requires evidence of each step, including temporal dynamics and epistasis. Without these, the pathway is speculative and could be an oversimplification of a more complex network. The lack of directionality and quantification undermines the mechanistic claim.
+  - **Resolution test** Show quantitative measurements (e.g., qPCR, Western blot) for each molecule under control, TTR wild-type, and TTR mutant conditions, with statistical comparisons. Include experiments that manipulate individual pathway components to establish the proposed order and causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** The abstract implies that five soluble mutants were prepared and that "several" disrupted the interaction, but the functional consequences are described only for "several mutated TTRs."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how many mutants were tested in each assay, which mutants were effective, or whether the results were consistent across biological replicates. The phrase "several" is vague and does not allow the reader to determine the robustness of the findings.
+  - **Why it matters** Reproducibility is a core requirement for a mechanistic claim. If only a subset of mutants showed the expected phenotype, the interpretation may be complicated by residual function or partial disruption. The lack of specificity prevents assessment of the strength of the evidence.
+  - **Resolution test** Provide a table listing each mutant, its expression, solubility, binding status, and functional outcome in all assays, with replicate numbers and statistical tests.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Pathway nomenclature
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The proposed pathway name "TTR-hnRNPA2B1/STAT-4/miR-223-3p/FBXW7" is ambiguous. It is unclear whether hnRNPA2B1 is upstream of STAT-4 or acts in parallel, and whether p-Akt and Notch1 are downstream of FBXW7 or independent branches.
+  - **Required correction** Clarify the pathway architecture with a schematic or a clear textual description of the proposed order and relationships among all components.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Direct binding"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "direct binding" is used, but the evidence described (IP, co-IP, ZDOCK) does not establish direct physical contact. IP and co-IP can detect indirect interactions, and ZDOCK is a computational prediction.
+  - **Required correction** Use "interaction" or "association" unless direct binding is demonstrated by a biophysical method (e.g., surface plasmon resonance, pull-down with purified proteins).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Clinical relevance statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The final sentence claims a "theoretical basis for clinical diagnosis, therapy and further application," but no clinical data or translational context is presented in the abstract.
+  - **Required correction** Either temper the claim to reflect the preclinical nature of the work or provide a brief rationale for how the findings could inform future clinical efforts.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative data, controls, and pathway validation means the core claims are not supported by the provided evidence. R1-M3 is non-blocking but should be addressed for completeness.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed TTR-hnRNPA2B1 interaction is novel and could be of interest, but the abstract does not demonstrate how this advances beyond prior work on TTR in diabetic retinopathy.  
+  - Scientific importance: The potential relevance to diabetic retinopathy is significant, but the importance is not established without robust mechanistic evidence.  
+  - Interdisciplinary readership: The topic may appeal to vascular biologists, ophthalmology researchers, and protein interaction specialists, but the abstract is too narrow in its current form to attract a broad audience.  
+  - Technical soundness: Not assessable from the abstract; the described methods are appropriate in principle, but the absence of data and controls prevents evaluation.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with the signaling pathway and techniques; it would benefit from clearer context and a more explicit statement of the key finding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting mechanism, but the lack of experimental detail and quantitative support means the claims cannot be evaluated. A revised manuscript with full data, controls, and statistical analysis would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of direct binding between TTR and hnRNPA2B1 is unsupported; IP and co-IP do not prove direct contact, and ZDOCK is predictive.
+- The proposed pathway "TTR-hnRNPA2B1/STAT-4/miR-223-3p/FBXW7" is unsupported; no data are shown for the order, direction, or causality of the molecular changes.
+- The statement that TTR mutants "could not regulate" the listed molecules is unsupported without quantitative measurements and statistical comparisons.
+- The clinical relevance claim is unsupported by any translational or patient-derived data.

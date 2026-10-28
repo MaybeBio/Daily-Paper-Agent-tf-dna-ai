@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40362469",
+  "title": "TFProtBert: Detection of Transcription Factors Binding to Methylated DNA Using ProtBert Latent Space Representation.",
+  "authors": "Gaffar, Saima; Chong, Kil To; Tayara, Hilal",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-05-14",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用ProtBert蛋白语言模型和SVM预测转录因子及其与甲基化DNA结合的偏好，属于TF-DNA互作预测的AI方法，但未涉及三维结构或结合机制建模，深度有限。",
+  "abstract": "Transcription factors (TFs) are fundamental regulators of gene expression and perform diverse functions in cellular processes. The management of 3-dimensional (3D) genome conformation and gene expression relies primarily on TFs. TFs are crucial regulators of gene expression, performing various roles in biological processes. They attract transcriptional machinery to the enhancers or promoters of specific genes, thereby activating or inhibiting transcription. Identifying these TFs is a significant step towards understanding cellular gene expression mechanisms. Due to the time-consuming and labor-intensive nature of experimental methods, the development of computational models is essential. In this work, we introduced a two-layer prediction framework based on a support vector machine (SVM) using the latent space representation of a protein language model, ProtBert. The first layer of the method reliably predicts and identifies transcription factors (TFs), and in the second layer, the proposed method predicts and identifies transcription factors that prefer binding to methylated deoxyribonucleic acid (TFPMs). In addition, we also tested the proposed method on an imbalanced database. In detecting TFs and TFPMs, the proposed model consistently outperformed state-of-the-art approaches, as demonstrated by performance comparisons via empirical cross-validation analysis and independent tests.",
+  "abstract_zh": "转录因子（TFs）是基因表达的基本调控因子，在细胞过程中执行多种功能。三维（3D）基因组构象和基因表达的管理主要依赖于转录因子。转录因子是基因表达的关键调控因子，在生物过程中扮演多种角色。它们将转录机制吸引至特定基因的增强子或启动子，从而激活或抑制转录。识别这些转录因子是理解细胞基因表达机制的重要步骤。由于实验方法耗时且劳动密集，开发计算模型至关重要。在本工作中，我们引入了一种基于支持向量机（SVM）的两层预测框架，利用蛋白质语言模型ProtBert的潜在空间表示。该方法的第一层可靠地预测并识别转录因子（TFs），在第二层中，所提方法预测并识别偏好结合甲基化脱氧核糖核酸（TFPMs）的转录因子。此外，我们还在不平衡数据库上测试了所提方法。在检测TFs和TFPMs时，所提模型始终优于最先进的方法，这通过经验交叉验证分析和独立测试的性能比较得以证明。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40362469/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40362469/",
+  "paper_page_path": "papers/pubmed/40362469/index.html"
+}

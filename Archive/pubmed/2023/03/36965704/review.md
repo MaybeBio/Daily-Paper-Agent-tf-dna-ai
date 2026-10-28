@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** The review is limited to the scientific content, experimental design, data interpretation, and claims presented in the provided manuscript. No external data, unpublished results, or additional literature beyond what is cited in the text were consulted.
+- **Shared manuscript claim summary** The manuscript reports that the Ada2 SWIRM domain is required for tethering the HAT module to the SAGA complex, that deletion of this domain does not affect nucleosome binding or intrinsic HAT activity, and that loss of the HAT module reduces SAGA DUB activity under multiple-turnover conditions, suggesting a role for the HAT module in modulating DUB catalytic efficiency.
+- **Visible evidence base** Mass spectrometry quantification of SAGA subunits, western blots for Gcn5 and Spt7, acetyltransferase activity assays on peptide and nucleosome substrates, DUB activity assays under multiple- and single-turnover conditions, EMSA binding assays, and AlphaFold-Multimer structural predictions with crosslink validation.
+- **Missing materials affecting confidence** Raw mass spectrometry data, replicate numbers for key experiments, statistical analysis details, uncropped western blots, and the full AlphaFold model coordinates are not provided. The supplementary figures are referenced but not included in the supplied material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of transcriptional regulation, specifically the role of the Ada2 SWIRM domain in SAGA architecture and the functional interplay between the HAT and DUB modules. The biochemical data are largely consistent with the conclusions, and the use of AlphaFold-Multimer to generate a structural model is a reasonable addition. However, several technical details and quantitative analyses are incomplete, and the mechanistic interpretation of the DUB activity data would benefit from additional controls and kinetic analysis. The claims are generally supported by the data, but the strength of the conclusions is limited by the lack of statistical rigor and the absence of key experimental details.
+- **Who would be interested in the results, and why** Researchers studying chromatin modification complexes, particularly those interested in SAGA structure-function relationships, histone acetylation and deubiquitination crosstalk, and the role of accessory domains in multi-subunit complex assembly. The findings may also be of interest to structural biologists using predictive modeling to interpret biochemical data.
+- **Major strengths** The study provides quantitative evidence for the role of the SWIRM domain in SAGA tethering, which had previously only been suggested by qualitative pull-down experiments. The demonstration that the HAT module influences DUB activity adds a new layer to the understanding of intra-complex regulation. The AlphaFold-Multimer model is a useful tool for generating testable hypotheses, and the crosslink validation adds credibility to the predicted architecture.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that deletion of the SWIRM domain leads to an approximately seven-fold depletion of the HAT module from SAGA, and that this is the basis for the observed reduction in acetyltransferase activity.
+  - **Evidence pointer** Figure 1A, Figure 2A-C, Supplemental Figure 1A-B
+  - **Concern** The quantification of HAT module depletion relies on mass spectrometry, but the method for determining the "seven-fold" depletion is not described in sufficient detail. It is unclear whether this is based on spectral counts, label-free quantification, or TMT ratios, and whether the values were normalized to a reference protein. Additionally, the western blot in Supplemental Figure 1A shows Gcn5 levels at equimolar SAGA concentrations, but the quantification is not shown, and the claim that a seven-fold higher concentration restores Gcn5 to wild-type levels is not supported by a quantitative comparison.
+  - **Why it matters** The central conclusion that the SWIRM domain tethers the HAT module depends on accurate quantification of subunit stoichiometry. If the depletion is overestimated or underestimated, the interpretation of the subsequent activity assays could be affected. Without clear quantification methods, the reader cannot assess the reliability of the key finding.
+  - **Resolution test** Provide a detailed description of the mass spectrometry quantification method, including normalization and statistical analysis. Show quantified western blot data with error bars and statistical tests for the Gcn5 and Spt7 comparisons. Ideally, include a titration of wild-type SAGA to demonstrate that the activity of the ΔSWIRM SAGA at seven-fold higher concentration matches that of wild-type SAGA at the standard concentration.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the HAT module modulates SAGA DUB activity by lowering the KM for nucleosomes, based on a three-fold reduction in the rate of deubiquitination under multiple-turnover conditions and no difference under single-turnover conditions.
+  - **Evidence pointer** Figure 4A-B
+  - **Concern** The DUB activity assays are described as "multiple-turnover" and "single-turnover" conditions, but the kinetic parameters (KM and kcat) are not directly measured. The conclusion that the effect is due to a change in KM is inferred from the difference between the two conditions, but this is not a rigorous kinetic analysis. The manuscript does not report the substrate concentrations used, the time courses, or whether the reactions were linear with respect to time and enzyme concentration. Additionally, the use of HeLa nucleosomes with a mixed population of PTMs in the single-turnover experiment introduces variability that is not controlled for.
+  - **Why it matters** The claim of a KM effect is a mechanistic interpretation that goes beyond the data presented. Without direct kinetic measurements, alternative explanations, such as changes in substrate binding affinity or processivity, cannot be excluded. This is a key conclusion of the paper, and the evidence should be more robust.
+  - **Resolution test** Perform steady-state kinetic analysis of DUB activity with varying concentrations of ubiquitinated nucleosomes for both wild-type and ΔSWIRM SAGA, and fit the data to the Michaelis-Menten equation to obtain KM and kcat values. Include appropriate controls for enzyme concentration and reaction linearity. If a KM effect is confirmed, the claim would be supported; otherwise, the interpretation should be revised.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The manuscript claims that the direction of crosstalk between the HAT and DUB modules, specifically the HAT module modulating DUB activity, has not been previously reported.
+  - **Evidence pointer** Introduction, Discussion
+  - **Concern** While the direction of crosstalk may be novel, the manuscript does not discuss or cite any studies that have examined the effect of the HAT module on DUB activity in other systems or contexts. The claim of novelty would be strengthened by a more thorough literature review and a clear statement of what is known and what is new.
+  - **Why it matters** The novelty of the finding is a key selling point of the manuscript. If similar observations have been made in other complexes or organisms, the claim of novelty would be weakened. A more comprehensive discussion of the literature would help the reader understand the context and significance of the finding.
+  - **Resolution test** Add a paragraph in the Discussion that explicitly addresses prior work on HAT-DUB crosstalk, including any studies that may have indirectly suggested a role for the HAT module in DUB regulation. Clarify what is unique about the current findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms without definition, which may limit accessibility for readers outside the chromatin field.
+  - **Required correction** Consider adding brief definitions or context for terms such as "SWIRM domain" and "DUB module" in the abstract, or rephrasing to make the main findings more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Acetylation kinetics"
+  - **Evidence pointer** Methods section
+  - **Issue** The acetylation kinetics assay description is incomplete. The manuscript states that a radioactive filter binding assay was used, but does not specify the range of substrate concentrations tested, the number of replicates for each concentration, or how the kinetic parameters were calculated.
+  - **Required correction** Provide a more detailed description of the assay, including substrate concentration ranges, replicate numbers, and the method used to fit the data to obtain kcat and KM values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Deubiquitinating assay"
+  - **Evidence pointer** Methods section
+  - **Issue** The DUB assay description mentions modifications to a published protocol, but the original protocol is not cited in the text. This makes it difficult for the reader to understand the exact conditions used.
+  - **Required correction** Cite the original protocol and describe the modifications in sufficient detail to allow replication.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "The Ada2 SWIRM domain tethers the HAT module to the yeast SAGA complex"
+  - **Evidence pointer** Figure 1B
+  - **Issue** The finding that Spt8 remains associated with the HAT module in the ΔSWIRM pull-down is presented as unexpected, but the significance of this observation is not discussed. It is unclear whether this is a reproducible finding or a potential artifact.
+  - **Required correction** Add a brief discussion of the Spt8 result, including possible explanations and whether this observation has implications for SAGA architecture.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion is somewhat repetitive and could be more focused on the key implications of the findings.
+  - **Required correction** Streamline the Discussion to highlight the main conclusions and their significance, avoiding repetition of results already presented.
+- **Technical failings that need to be addressed before the case is established** The lack of detailed quantification methods for mass spectrometry and western blots, the absence of direct kinetic measurements for DUB activity, and the incomplete description of the acetylation kinetics assay are the main technical issues that need to be addressed.
+- **Assessment against Nature-style criteria** The manuscript addresses a question of moderate originality, as the role of the SWIRM domain in SAGA tethering has been suggested before, but the quantitative analysis and the demonstration of HAT-DUB crosstalk add new information. The scientific importance is moderate, as the findings are relevant to understanding SAGA function but do not represent a major conceptual advance. The interdisciplinary readership is limited, as the topic is specific to chromatin biology. The technical soundness is currently insufficient due to the issues described above. The readability for nonspecialists is adequate but could be improved with clearer explanations of key terms and concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially interesting, but the manuscript requires additional experimental detail and more rigorous kinetic analysis to fully support the claims.
+
+## Risk / unsupported claims
+- The claim that the SWIRM domain does not play an important role in HAT activity of intact SAGA is supported by the activity recovery experiment, but the quantification is not shown.
+- The claim that the HAT module modulates DUB activity by lowering KM is not directly supported by kinetic measurements and is therefore an interpretation that requires further validation.
+- The AlphaFold-Multimer model is presented as a structural basis for the biochemical data, but the model is not experimentally validated, and the authors appropriately note this limitation.
+- The observation that Spt8 remains associated with the HAT module in the ΔSWIRM pull-down is not explained and may be an artifact or a novel finding that requires further investigation.

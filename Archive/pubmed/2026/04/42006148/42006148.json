@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "42006148",
+    "doi": "10.1155/humu/9501547",
+    "title": "A Combined Transcriptomic and Machine Learning Study Reveals PAX8 as a Promising Diagnostic Biomarker in Endometriosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endometriosis (EM) is a chronic, estrogen-dependent disease that lacks reliable noninvasive diagnostic biomarkers. This study was aimed at evaluating the diagnostic value of PAX8 using integrated transcriptomic and machine learning analyses. METHODS: Transcriptomic data from the GSE141549 dataset were analyzed to identify differentially expressed genes (DEGs). Weighted gene coexpression network analysis (WGCNA), immune infiltration profiling, and functional enrichment (GO, KEGG, and GSEA) were conducted. Random forest (RF), support vector machine (SVM), and logistic regression (LR) models were trained and validated through five-fold cross-validation. RESULTS: A total of 887 DEGs were identified, among which PAX8 was significantly downregulated in ectopic tissues and identified as a key diagnostic feature by both RF and WGCNA. GSEA revealed that PAX8-related gene sets were enriched in biological processes such as cilium organization and wound healing, and KEGG analysis indicated involvement in calcium signaling, JAK-STAT signaling, and focal adhesion pathways. Immune infiltration analysis further supported an immunomodulatory role of PAX8.",
+    "keywords": [
+      "biomarker",
+      "endometriosis",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometriosis/genetics/diagnosis/metabolism",
+      "*PAX8 Transcription Factor/genetics/metabolism",
+      "*Machine Learning",
+      "Gene Expression Profiling",
+      "*Biomarkers/metabolism",
+      "*Transcriptome",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Gene Expression Regulation",
+      "Random Forest",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xiaoli",
+        "Zhong, Li",
+        "Xu, Yanlin",
+        "Zou, Yuanxia",
+        "Liu, Manyun",
+        "Tong, Xiaoqian"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Zhong L",
+        "Xu Y",
+        "Zou Y",
+        "Liu M",
+        "Tong X"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-8774-0884"
+      ],
+      "affiliations": [
+        "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China.",
+        "Department of Gynaecology and Obstetrics, Shangrao People's Hospital, Shangrao, Jiangxi, China.",
+        "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China.",
+        "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Changsha Medical University, Changsha, Hunan, China.",
+        "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xiaoli",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Li",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Shangrao People's Hospital, Shangrao, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yanlin",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yuanxia",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Manyun",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Changsha Medical University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Xiaoqian",
+        "short_name": "Tong X",
+        "identifiers": [
+          "0009-0004-8774-0884"
+        ],
+        "affiliations": [
+          "Department of Gynaecology and Obstetrics, Yingtan 184 Hospital, China RongTong Medical Healthcare Group Co. Ltd., Yingtan, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/20 13:10",
+    "fetched_at": "2026-10-01 19:03:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39237940",
+      "36869723",
+      "36660246",
+      "36624343",
+      "36532015",
+      "36499654",
+      "35350465",
+      "34681634",
+      "32859947",
+      "32570986",
+      "32542449",
+      "32436195",
+      "32430717",
+      "32212520",
+      "32154564",
+      "31488888",
+      "30527836",
+      "30165449",
+      "26919512",
+      "22644304"
+    ],
+    "similar": [
+      "42006148",
+      "41200172",
+      "41432483",
+      "42642681",
+      "41137290",
+      "42123756",
+      "39341981",
+      "40046872",
+      "40097519",
+      "40406126",
+      "40313958",
+      "41013556",
+      "36532015",
+      "38863714",
+      "36524127",
+      "41716396",
+      "42255426",
+      "40374866",
+      "42510870",
+      "42730994",
+      "41388523",
+      "41006883",
+      "42274933",
+      "41052072",
+      "41424583",
+      "40725485",
+      "41120378",
+      "41146237",
+      "41703488",
+      "41760060",
+      "41080564",
+      "39142001",
+      "40596702",
+      "39351221",
+      "41789070",
+      "41265166",
+      "41665764",
+      "42064079",
+      "40312440",
+      "42326009",
+      "39870856",
+      "40924862",
+      "42154423",
+      "38711508",
+      "41826854",
+      "42305536",
+      "41479901",
+      "42363518",
+      "41104127",
+      "41316541",
+      "42123445",
+      "38755717",
+      "40374840",
+      "41816342",
+      "41660070",
+      "42306043",
+      "42654744",
+      "39351239",
+      "36011263",
+      "39375405",
+      "38767974",
+      "40596265",
+      "42059276",
+      "42589294",
+      "40997906",
+      "41988156",
+      "39559355",
+      "41291841",
+      "40129981",
+      "41595448",
+      "40967560",
+      "41320776",
+      "38456992",
+      "42327749",
+      "41816328",
+      "41168872",
+      "41184495",
+      "42565562",
+      "42139760",
+      "38649912",
+      "42247642",
+      "40362669",
+      "40830558",
+      "42024670",
+      "41548166",
+      "39139563",
+      "42698445",
+      "41300841",
+      "41029776",
+      "41826822",
+      "41632386",
+      "40901474",
+      "41327289",
+      "41021591",
+      "40034711",
+      "41291978",
+      "41611834",
+      "40836320",
+      "39735547",
+      "34107850"
+    ],
+    "review": [
+      "42006148"
+    ],
+    "pmc": [
+      "13087501"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42006148/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/9501547",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.22.529579",
+  "title": "The contributions of DNA accessibility and transcription factor occupancy to enhancer activity during cellular differentiation",
+  "doi": "10.1101/2023.02.22.529579",
+  "abstract": "The upregulation of gene expression by enhancers depends upon the interplay between the binding of sequence-specific transcription factors (TFs) and DNA accessibility. DNA accessibility is thought to limit the ability of TFs to bind to their sites, while TFs can increase accessibility to recruit additional factors that upregulate gene expression. Given this interplay, the causative regulatory events underlying the modulation of gene expression during cellular differentiation remain unknown for the vast majority of genes. We investigated the binding-site resolution dynamics of DNA accessibility and the expression dynamics of the enhancers of an important neutrophil gene, Cebpa , during macrophage-neutrophil differentiation. Reporter genes were integrated in a site-specific manner in PUER cells, which are progenitors that can be differentiated into neutrophils or macrophages in vitro by activating the pan-leukocyte TF PU.1. Time series data show that two enhancers upregulate reporter expression during the first 48 hours of neutrophil differentiation. Surprisingly, there is little or no increase in the total accessibility, measured by ATAC-Seq, of the enhancers during the same time period. Conversely, total accessibility peaks 96 hrs after PU.1 activation—consistent with its role as a pioneer—but the enhancers do not upregulate gene expression. Combining deeply sequenced ATAC-Seq data with a new bias-correction method allowed the profiling of acces-sibility at single-nucleotide resolution and revealed protected regions in the enhancers that match all previously characterized TF binding sites and ChIP-Seq data. Although the accessibility of most positions does not change during early differentiation, that of positions neighboring TF binding sites, an indicator of TF occupancy, did in-crease significantly. The localized accessibility changes are limited to nucleotides neighboring C/EBP-family TF binding sites, showing that the upregulation of enhancer activity during early differentiation is driven by C/EBP-family TF binding. These results show that increasing the total accessibility of enhancers is not sufficient for upregulating their activity and other events such as TF binding are necessary for upregulation. Also, TF binding can cause upregulation without a perceptible increase in total accessibility. Finally, this study demonstrates the feasibility of comprehensively mapping individual TF binding sites as footprints using high coverage ATAC-Seq and inferring the sequence of events in gene regulation by combining with time-series gene expression data.",
+  "authors": [
+    "Trevor Long",
+    "Tapas Bhattacharyya",
+    "Andrea Repele",
+    "Madison Naylor",
+    "Sunil Nooti",
+    "Shawn Krueger",
+    "Manu"
+  ],
+  "published_date": "2023-02-23",
+  "updated_date": "2023-02-23T14:25:18Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.22.529579",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.22.529579.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ],
+        "date-time": "2026-06-25T17:00:43Z",
+        "timestamp": 1782406843722,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            23
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The upregulation of gene expression by enhancers depends upon the interplay between the binding of sequence-specific transcription factors (TFs) and DNA accessibility. DNA accessibility is thought to limit the ability of TFs to bind to their sites, while TFs can increase accessibility to recruit additional factors that upregulate gene expression. Given this interplay, the causative regulatory events underlying the modulation of gene expression during cellular differentiation remain unknown for the vast majority of genes. We investigated the binding-site resolution dynamics of DNA accessibility and the expression dynamics of the enhancers of an important neutrophil gene,\n                  <jats:italic>Cebpa</jats:italic>\n                  , during macrophage-neutrophil differentiation. Reporter genes were integrated in a site-specific manner in PUER cells, which are progenitors that can be differentiated into neutrophils or macrophages\n                  <jats:italic>in vitro</jats:italic>\n                  by activating the pan-leukocyte TF PU.1. Time series data show that two enhancers upregulate reporter expression during the first 48 hours of neutrophil differentiation. Surprisingly, there is little or no increase in the total accessibility, measured by ATAC-Seq, of the enhancers during the same time period. Conversely, total accessibility peaks 96 hrs after PU.1 activation—consistent with its role as a pioneer—but the enhancers do not upregulate gene expression. Combining deeply sequenced ATAC-Seq data with a new bias-correction method allowed the profiling of acces-sibility at single-nucleotide resolution and revealed protected regions in the enhancers that match all previously characterized TF binding sites and ChIP-Seq data. Although the accessibility of most positions does not change during early differentiation, that of positions neighboring TF binding sites, an indicator of TF occupancy, did in-crease significantly. The localized accessibility changes are limited to nucleotides neighboring C/EBP-family TF binding sites, showing that the upregulation of enhancer activity during early differentiation is driven by C/EBP-family TF binding. These results show that increasing the total accessibility of enhancers is not sufficient for upregulating their activity and other events such as TF binding are necessary for upregulation. Also, TF binding can cause upregulation without a perceptible increase in total accessibility. Finally, this study demonstrates the feasibility of comprehensively mapping individual TF binding sites as footprints using high coverage ATAC-Seq and inferring the sequence of events in gene regulation by combining with time-series gene expression data.\n                </jats:p>",
+      "DOI": "10.1101/2023.02.22.529579",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            23
+          ]
+        ],
+        "date-time": "2023-02-23T14:25:18Z",
+        "timestamp": 1677162318000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "The contributions of DNA accessibility and transcription factor occupancy to enhancer activity during cellular differentiation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Trevor",
+          "family": "Long",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tapas",
+          "family": "Bhattacharyya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea",
+          "family": "Repele",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Madison",
+          "family": "Naylor",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sunil",
+          "family": "Nooti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shawn",
+          "family": "Krueger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7677-7228",
+          "authenticated-orcid": false,
+          "family": "Manu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3207"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2013.09.003"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Choi J , Lysakovskaia K , Stik G , Demel C , Söding J , Tian TV , et al. Evidence for additive and synergistic action of mammalian enhancers during cell fate determination. Elife. 2021 03;10.",
+          "DOI": "10.7554/eLife.65381"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2012-13-8-418"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09380"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.10.042"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.cellbio.8.1.563"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.20.10741"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2005.06.023"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.12.014"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11232"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2688"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1305399110"
+        },
+        {
+          "issue": "10",
+          "key": "2023041312001062000_2023.02.22.529579v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2496",
+          "DOI": "10.1002/j.1460-2075.1996.tb00607.x",
+          "article-title": "Tissue-specific factors additively increase the probability of the all-or-none formation of a hypersensitive site",
+          "volume": "15",
+          "year": "1996",
+          "journal-title": "EMBO J"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.15.3.1405"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1003243"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0126385"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0217580"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0408031102"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kim DS , Risca VI , Reynolds DL , Chappell J , Rubin AJ , Jung N , et al. The dynamic, combinatorial cisregulatory lexicon of epidermal differentiation.;53:1564–1576.",
+          "DOI": "10.1038/s41588-021-00947-3"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Farley EK , Olson KM , Zhang W , Brandt AJ , Rokhsar DS , Levine MS . Suboptimization of developmental enhancers.; 350:325–328.",
+          "DOI": "10.1126/science.aac6948"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.2.569"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/21.8.1735"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.948702"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1104"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lattin JE , Schroder K , Su AI , Walker JR , Zhang J , Wiltshire T , et al. Expression analysis of G Protein-Coupled Receptors in mouse macrophages. Immunome Res. 2008 Apr;4:5.",
+          "DOI": "10.1186/1745-7580-4-5"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.8079170"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ni973"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M117.811109"
+        },
+        {
+          "issue": "3",
+          "key": "2023041312001062000_2023.02.22.529579v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0150809",
+          "DOI": "10.1371/journal.pone.0150809",
+          "article-title": "In Vivo Deletion of the Cebpa +37 kb Enhancer Markedly Reduces Cebpa mRNA in Myeloid Progenitors but Not in Non-Hematopoietic Tissues to Impair Granulopoiesis",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2016.02.030"
+        },
+        {
+          "issue": "5",
+          "key": "2023041312001062000_2023.02.22.529579v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0217604",
+          "DOI": "10.1371/journal.pone.0217604",
+          "article-title": "HoxA9 binds and represses the Cebpa +8 kb enhancer",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-7613(02)00452-1"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.06.052"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.04.006"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-13960-2"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2010.02.008"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0711961105"
+        },
+        {
+          "issue": "8",
+          "key": "2023041312001062000_2023.02.22.529579v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1710",
+          "DOI": "10.1016/j.celrep.2017.05.003",
+          "article-title": "Bivariate Genomic Footprinting Detects Changes in Transcription Factor Activity",
+          "volume": "19",
+          "year": "2017",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "issue": "1",
+          "key": "2023041312001062000_2023.02.22.529579v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "4267",
+          "DOI": "10.1038/s41467-020-18035-1",
+          "article-title": "ATAC-seq footprinting unravels kinetics of transcription factor binding during zygotic genome activation",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1164-8"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Klemm SL , Shipony Z , Greenleaf WJ . Chromatin accessibility and the regulatory epigenome.; 20:207–220.",
+          "DOI": "10.1038/s41576-018-0089-8"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Coux RX , Owens NDL , Navarro P. Chromatin accessibility and transcription factor binding through the perspective of mitosis.; 11:236–240.",
+          "DOI": "10.1080/21541264.2020.1825907"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0913805107"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.22.20.7147-7157.2002"
+        },
+        {
+          "issue": "1",
+          "key": "2023041312001062000_2023.02.22.529579v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1186/s13059-019-1654-y",
+          "article-title": "Reproducible inference of transcription factor footprints in ATAC-seq and DNase-seq datasets using protocol-specific bias modeling",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu519"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku810"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3772"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3646"
+        },
+        {
+          "issue": "8",
+          "key": "2023041312001062000_2023.02.22.529579v2.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "190116",
+          "DOI": "10.1098/rsob.190116",
+          "article-title": "Biochemical analysis of nucleosome targeting by Tn5 transposase",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Open Biol"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1642-2"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2018.07.077"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms6795"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Onimaru K , Tatsumi K , Tanegashima C , Kadota M , Nishimura O , Kuraku S . Developmental hourglass and heterochronic shifts in fin and limb development. Elife. 2021 02;10.",
+          "DOI": "10.7554/eLife.62865"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gray LT , Yao Z , Nguyen TN , Kim TK , Zeng H , Tasic B . Layer-specific chromatin accessibility landscapes reveal regulatory networks in adult mouse visual cortex. Elife. 2017 01;6.",
+          "DOI": "10.7554/eLife.21883"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2011-12-397091"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.07.030"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr024"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2016-05-716480"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1189/jlb.2AB0314-145R"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Matys V , Kel-Margoulis OV , Fricke E , Liebich I , Land S , Barre-Dirrie A , et al. TRANSFAC and its module TRANSCompel: transcriptional gene regulation in eukaryotes. Nucleic Acids Res. 2006 Jan;34(Database issue):D108–10.",
+          "DOI": "10.1093/nar/gkj143"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.03.035"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marinić M , Aktas T , Ruf S , Spitz F. An Integrated Holo-Enhancer Unit Defines Tissue and Gene Specificity of the Fgf8 Regulatory Landscape. Developmental Cell. 2013 12;(0):–. Available from: http://www.sciencedirect.com/science/article/pii/S1534580713000737.",
+          "DOI": "10.1016/j.devcel.2013.01.025"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1160631"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00032-10"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2013.01.004"
+        },
+        {
+          "issue": "1",
+          "key": "2023041312001062000_2023.02.22.529579v2.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "1307",
+          "DOI": "10.1038/s41467-021-21534-4",
+          "article-title": "Chromatin information content landscapes inform transcription factor and DNA interactions",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.276025.121"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-022-04570-Y"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2013.143"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003118"
+        },
+        {
+          "key": "2023041312001062000_2023.02.22.529579v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg585"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.02.22.529579",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:18:26Z",
+        "timestamp": 1768450706000
+      },
+      "score": 83.81983,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.02.22.529579"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            23
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1101/2023.02.22.529579",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/g3journal/jkad269",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

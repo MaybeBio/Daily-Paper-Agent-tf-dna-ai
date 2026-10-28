@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report that ParA2, the Walker-type ATPase required for segregation of Vibrio cholerae chromosome 2, forms an asymmetric dynamic gradient in vivo, binds ATP as a dimer, undergoes a slow conformational change to an active DNA-binding state, and that DNA catalyzes further conformational change enabling cooperative higher-order oligomer formation on DNA. They further report slow nucleotide exchange rates and faster overall ATP cycling and DNA-rebinding rates compared with plasmid ParA homologs, proposing that these kinetic features may be shared among chromosomal ParA proteins to enable transport of larger DNA cargo.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental methods, statistical details, strain and construct information, raw kinetic data, and any control experiments. The absence of these materials prevents independent verification of any quantitative claim.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting kinetic characterization of a chromosomal ParA protein, with claims that distinguish it from better-studied plasmid ParA systems. The central findings, namely the slow conformational change to an active DNA-binding state and the DNA-catalyzed cooperative oligomerization, are plausible and consistent with prior work on P1 ParA. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental support. The comparative claim regarding faster ATP cycling and DNA-rebinding rates in ParA2 versus plasmid ParAs is particularly difficult to assess without knowing the experimental conditions, the specific plasmid ParA comparators, and the statistical treatment. The suggestion that these features may be shared among chromosomal ParAs is speculative and presented without comparative data from other chromosomal systems.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromosome segregation, ParABS systems, Walker-type ATPases, and the biophysical mechanisms of protein-DNA interactions. The work may also interest those investigating how molecular motors adapted for small plasmid cargo are repurposed for much larger chromosome cargo, and those working on Vibrio cholerae biology given the essentiality of Chr2 segregation for viability and pathogenicity.
+- **Major strengths** The study addresses a biologically important question, namely how a ParA protein adapted for plasmid segregation functions in the context of a much larger chromosome. The combination of in vivo imaging with biochemical and biophysical approaches is appropriate for the question. The finding that DNA catalyzes the conformational change leading to cooperative oligomerization is mechanistically interesting and connects to established models of ParA function. The comparison of kinetic parameters between chromosomal and plasmid ParA proteins is a useful framing that could generate testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ParA2 showed faster overall ATP cycling and DNA-rebinding rates than plasmid ParAs, suggesting shared kinetic features among chromosomal ParAs.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The comparative claim rests on kinetic measurements that are not described in the abstract. No information is provided on which plasmid ParA proteins were used as comparators, under what buffer and temperature conditions the measurements were made, how many independent replicates were performed, or what statistical analysis was applied. Without this information, the claim of "faster" rates cannot be evaluated for significance or generalizability.
+  - **Why it matters** The central novelty of the work appears to be the identification of kinetic features that distinguish chromosomal ParA from plasmid ParA. If the comparison is not rigorously controlled, the conclusion is unsupported. Furthermore, the extrapolation to "shared kinetic features among chromosomal ParAs" is made from a single chromosomal system and is therefore speculative.
+  - **Resolution test** Provide the full kinetic data with conditions, comparators, replicates, and statistical tests. If the claim is to be generalized to chromosomal ParAs, include data from at least one additional chromosomal ParA system or clearly frame the statement as a hypothesis requiring further testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ParA2 dimers bind ATP and undergo a slow conformational change to an active DNA-binding state, and that DNA catalyzes the conformational change to allow cooperative binding of active dimers to form higher-order oligomers on DNA.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract states these findings without describing the assays used to measure conformational change, the kinetic rate constants obtained, or the evidence for cooperativity. It is unclear whether the conformational change was measured by stopped-flow fluorescence, FRET, proteolysis sensitivity, or another method. The evidence for DNA-catalyzed conformational change and cooperative oligomerization is not described. Without methodological detail, the reader cannot assess whether the interpretations are well supported or whether alternative explanations were excluded.
+  - **Why it matters** These claims constitute the mechanistic core of the paper. If the assays are not described or are inadequately controlled, the mechanistic model cannot be accepted. The distinction between a slow conformational change and other possible rate-limiting steps, and the claim that DNA specifically catalyzes the conformational change rather than stabilizing the active state, require careful experimental discrimination.
+  - **Resolution test** Provide the full methods and results for the kinetic and conformational measurements, including the specific assays, the rate constants obtained, and the controls performed to establish that DNA catalyzes rather than merely stabilizes the conformational change.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The authors state that slow nucleotide exchange rates provide a control of ParA2 recruitment and dynamic localizations.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The connection between slow nucleotide exchange and the control of recruitment and dynamic localization is asserted but not explained. It is unclear how slow exchange would produce the observed asymmetric gradient or how it would regulate the timing of ParA2 localization relative to the cell cycle. The abstract does not describe any perturbation experiments, such as mutants with altered exchange rates, that would test this proposed regulatory role.
+  - **Why it matters** The claim links a biochemical parameter to a cellular phenotype. Without a mechanistic explanation or experimental support for this link, the statement remains an assertion rather than a demonstrated conclusion.
+  - **Resolution test** Provide either a quantitative model showing how slow exchange rates generate the observed dynamics, or experimental data from mutants or altered conditions that directly test the proposed regulatory role.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "active DNA-binding state" is used without definition. It is unclear whether this refers to a specific conformational state, a particular oligomeric state, or a state with a specific nucleotide occupancy.
+  - **Required correction** Define the term explicitly in the abstract or refer to a specific measurable property that defines the active state.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparative framing
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract states that ParA2 is "similar to P1 ParA" in undergoing a slow conformational change, but then claims faster overall ATP cycling than plasmid ParAs. The relationship between these two statements is not clarified. If ParA2 is similar to P1 ParA in one respect but faster in others, the reader needs to know which specific plasmid ParAs were compared and in which specific steps the differences arose.
+  - **Required correction** Clarify which plasmid ParA proteins were used for comparison and specify which kinetic steps were faster and which were similar.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Quantitative claims
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract uses qualitative terms such as "slow" and "faster" without reporting any numerical values. For a kinetics paper, the absence of rate constants in the abstract is a notable omission.
+  - **Required correction** Include representative rate constants or a range of values for the key kinetic steps described.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient methodological detail to evaluate the central kinetic and mechanistic claims. R1-M3 is non-blocking but requires additional support to establish the proposed regulatory role of slow nucleotide exchange.
+- **Assessment against Nature-style criteria** Originality: The work addresses a question of potential interest, namely how a chromosomal ParA differs kinetically from plasmid ParA homologs. However, the abstract does not establish clear novelty beyond the specific system studied. Scientific importance: The segregation of V. cholerae Chr2 is biologically important, and understanding ParA2 function has implications for bacterial chromosome dynamics. The importance is moderate and system-specific. Interdisciplinary readership: The work bridges cell biology, biochemistry, and biophysics, and could appeal to readers across these fields. Technical soundness: Cannot be assessed from the abstract alone. The absence of methodological detail and quantitative data prevents evaluation of the rigor of the experiments. Readability for nonspecialists: The abstract is generally readable but uses specialized terminology without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and preliminary findings, but the absence of methodological detail and quantitative data prevents verification of the central claims. The manuscript may become publishable if the full text provides adequate experimental support for the kinetic and mechanistic conclusions, particularly the comparative claims regarding plasmid versus chromosomal ParA proteins.

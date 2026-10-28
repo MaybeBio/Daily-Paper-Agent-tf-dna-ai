@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "41648502",
+    "doi": "10.64898/2026.01.17.700093",
+    "title": "Fundamental limitations of genomic language models for realistic sequence generation."
+  },
+  "content": {
+    "abstract": "Large language models (LLMs) have shown remarkable success in natural language processing, prompting interest in their application to genomic sequence analysis. Genomic Language Models (gLMs) based on similar architectures offer a promising avenue for synthetic genome generation and characterization. However, their effectiveness for biological sequence modeling remains poorly characterized. We present a comprehensive evaluation of genomic language models that explicitly aim to generate entire synthetic genomes. We tested Evo 2 on diverse prokaryotic, eukaryotic and viral genomes, and megaDNA on bacteriophage genomes, and assessed performance across key biological features and organizational patterns. Our results reveal systematic failures in gLM-based genomic reconstruction. While the synthetic sequences captured local sequence statistics, they consistently failed to preserve long-range genomic organization, repeat and k-mer composition, transcription factor binding site architecture, and evolutionary constraints. Generated sequences exhibited violations of natural genomic patterns and models showed particular difficulty with repetitive elements. To assess the quality of genome generation, we trained a convolutional neural network that reliably distinguished synthetic from natural sequences, achieving AUROC values up to 0.97 in eukaryotes and 0.82 in prokaryotes, with classification accuracy increasing monotonically with genomic distance from the seed. These findings suggest fundamental limitations in current gLM architectures for capturing the long-range, hierarchical nature of genomic sequences. Our work highlights the need for specialized architectures that explicitly model evolutionary constraints rather than relying solely on statistical patterns, with important implications for computational biology applications requiring realistic sequence generation and for biosafety assessments that depend on the distinguishability of synthetic and natural genomic sequences.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tzanakakis, Alexandros",
+        "Mouratidis, Ioannis",
+        "Georgakopoulos-Soares, Ilias"
+      ],
+      "short_names": [
+        "Tzanakakis A",
+        "Mouratidis I",
+        "Georgakopoulos-Soares I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1025-8780",
+        "ORCID: 0000-0003-3641-1488"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Tzanakakis, Alexandros",
+        "short_name": "Tzanakakis A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mouratidis, Ioannis",
+        "short_name": "Mouratidis I",
+        "identifiers": [
+          "0000-0002-1025-8780"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Georgakopoulos-Soares, Ilias",
+        "short_name": "Georgakopoulos-Soares I",
+        "identifiers": [
+          "0000-0003-3641-1488"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/06 13:18",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41648502",
+      "39296932",
+      "41555097",
+      "41537311",
+      "40605274",
+      "39753409",
+      "41073788",
+      "39695938",
+      "39070037",
+      "33001599",
+      "41539675",
+      "41283681",
+      "40745106",
+      "41262460",
+      "32043966",
+      "33119236",
+      "39998912",
+      "39477977",
+      "41000926",
+      "40501585",
+      "35639931",
+      "41377119",
+      "39541441",
+      "40489722",
+      "23912807",
+      "41261132",
+      "38464101",
+      "40732431",
+      "41158510",
+      "40258923",
+      "40370585",
+      "40112290",
+      "39978047",
+      "40660356",
+      "39974356",
+      "39696434",
+      "40674251",
+      "40876082",
+      "36734516",
+      "41758138",
+      "34843033",
+      "41541793",
+      "39713364",
+      "34680967",
+      "41632593",
+      "31695060",
+      "39212609",
+      "40499132",
+      "37863817",
+      "15297601",
+      "33119230",
+      "40997586",
+      "40155693",
+      "39650606",
+      "32028880",
+      "18485226",
+      "41675712",
+      "41256441",
+      "40192716",
+      "25800747",
+      "31847804",
+      "23880222",
+      "41427357",
+      "39396423",
+      "26514350",
+      "18688272",
+      "21266061",
+      "41757065",
+      "41354659",
+      "30266658",
+      "40163820",
+      "41426347",
+      "40292012",
+      "40601248",
+      "39214282",
+      "38657567",
+      "38587879",
+      "41672471",
+      "38091509",
+      "31146681",
+      "41781614",
+      "12671005",
+      "31714956",
+      "18976482",
+      "37508462",
+      "23376349",
+      "40627556",
+      "40662798",
+      "34991450",
+      "33539511",
+      "18031571",
+      "41438004",
+      "39423368",
+      "40207938",
+      "40424107",
+      "40752409",
+      "40840437",
+      "36353213",
+      "11230160",
+      "41667632"
+    ],
+    "review": [
+      "41648502",
+      "41555097",
+      "41537311",
+      "39753409",
+      "33001599",
+      "41262460",
+      "33119236",
+      "39998912",
+      "40489722",
+      "41158510",
+      "37863817",
+      "33119230",
+      "40997586",
+      "39650606",
+      "30266658",
+      "40292012",
+      "41672471",
+      "31714956",
+      "37508462"
+    ],
+    "pmc": [
+      "12871140"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41648502/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.01.17.700093",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

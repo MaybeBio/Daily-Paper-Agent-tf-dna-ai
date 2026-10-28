@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38906116",
+  "title": "A high-throughput synthetic biology approach for studying combinatorial chromatin-based transcriptional regulation.",
+  "authors": "Alcantar, Miguel A; English, Max A; Valeri, Jacqueline A; Collins, James J",
+  "journal": "Molecular cell",
+  "published_date": "2024-06-22",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用合成生物学高通量平台研究染色质调控因子对转录活性的影响，并辅以机器学习预测，但核心是染色质调控而非TF-DNA直接互作建模，方法可迁移性有限。",
+  "abstract": "The construction of synthetic gene circuits requires the rational combination of multiple regulatory components, but predicting their behavior can be challenging due to poorly understood component interactions and unexpected emergent behaviors. In eukaryotes, chromatin regulators (CRs) are essential regulatory components that orchestrate gene expression. Here, we develop a screening platform to investigate the impact of CR pairs on transcriptional activity in yeast. We construct a combinatorial library consisting of over 1,900 CR pairs and use a high-throughput workflow to characterize the impact of CR co-recruitment on gene expression. We recapitulate known interactions and discover several instances of CR pairs with emergent behaviors. We also demonstrate that supervised machine learning models trained with low-dimensional amino acid embeddings accurately predict the impact of CR co-recruitment on transcriptional activity. This work introduces a scalable platform and machine learning approach that can be used to study how networks of regulatory components impact gene expression.",
+  "abstract_zh": "合成基因回路的构建需要多种调控元件的合理组合，但由于对元件间相互作用理解不足以及意外涌现行为的出现，预测其行为可能具有挑战性。在真核生物中，染色质调控因子（chromatin regulators, CRs）是调控基因表达的关键调控元件。在此，我们开发了一个筛选平台，以研究CR配对对酵母中转录活性的影响。我们构建了一个包含超过1,900个CR配对的组合文库，并利用高通量工作流程来表征CR共招募对基因表达的影响。我们重现了已知的相互作用，并发现了若干具有涌现行为的CR配对实例。我们还证明，使用低维氨基酸嵌入训练的监督机器学习模型能够准确预测CR共招募对转录活性的影响。这项工作引入了一个可扩展的平台和机器学习方法，可用于研究调控元件网络如何影响基因表达。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38906116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38906116/",
+  "paper_page_path": "papers/pubmed/38906116/index.html"
+}

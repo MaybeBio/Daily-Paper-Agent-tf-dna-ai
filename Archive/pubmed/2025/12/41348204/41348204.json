@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "41348204",
+    "doi": "10.1007/s00210-025-04830-4",
+    "title": "An integrated approach combining computational analyses and experimental validation deciphers the mechanism and active substance basis of Huazhuo Ningfu decoction in treating psoriasis."
+  },
+  "content": {
+    "abstract": "This study aims to elucidate the mechanism of HZD in treating psoriasis and identify its active components through a comprehensive approach combining tandem mass tag (TMT)-based quantitative proteomics with machine learning and molecular docking analysis. An integrated strategy was employed, combining tandem mass tag (TMT)-based quantitative proteomics and machine learning to identify critical targets in an imiquimod (IMQ)-induced mouse model of psoriasis. Key findings were then experimentally validated using the human immortalized keratinocyte (HaCaT) cell model and HZD-treated mice through techniques including 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT), quantitative real-time PCR (qPCR), Western blot (WB), and immunofluorescence (IF). Furthermore, molecular docking and dynamics simulations were utilized to investigate interactions between HZD's bioactive components and the identified targets. Our findings demonstrate that HZD alleviates psoriasis primarily by inhibiting the Notch signaling pathway and upregulating keratin 77 (KRT77), thereby normalizing keratinocyte function. The identification of nuciferine as a key multi-target constituent, along with its structural analogs, provides a pharmacological basis for HZD's efficacy and reveals promising leads for novel psoriasis therapeutics.",
+    "keywords": [
+      "HZD",
+      "Keratinocyte",
+      "Psoriasis"
+    ],
+    "mesh_terms": [
+      "*Psoriasis/drug therapy/chemically induced/metabolism/pathology",
+      "Animals",
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Imiquimod",
+      "Mice",
+      "Disease Models, Animal",
+      "Keratinocytes/drug effects/metabolism",
+      "HaCaT Cells",
+      "Proteomics/methods",
+      "Male",
+      "Signal Transduction/drug effects",
+      "Machine Learning",
+      "Receptors, Notch/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guan, Zitong",
+        "Han, Mengxue",
+        "Wang, Xiaolin",
+        "Ma, Wenke",
+        "Shi, Shasha",
+        "Jiang, Hao",
+        "Sun, Jiazheng",
+        "Cao, Ping",
+        "Man, Shuai"
+      ],
+      "short_names": [
+        "Guan Z",
+        "Han M",
+        "Wang X",
+        "Ma W",
+        "Shi S",
+        "Jiang H",
+        "Sun J",
+        "Cao P",
+        "Man S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Innovation Research Institute of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Innovation Research Institute of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Innovation Research Institute of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China.",
+        "Experimental Center, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China. 13615422589@163.com.",
+        "Key Laboratory of Traditional Chinese Medicine for Classical Theory, Ministry of Education, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China. 13615422589@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guan, Zitong",
+        "short_name": "Guan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Research Institute of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Han, Mengxue",
+        "short_name": "Han M",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Research Institute of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaolin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wenke",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Research Institute of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Shasha",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hao",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jiazheng",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Ping",
+        "short_name": "Cao P",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacy School, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China."
+        ]
+      },
+      {
+        "full_name": "Man, Shuai",
+        "short_name": "Man S",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Center, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China. 13615422589@163.com.",
+          "Key Laboratory of Traditional Chinese Medicine for Classical Theory, Ministry of Education, Shandong University of Traditional Chinese Medicine, Jinan, 250355, China. 13615422589@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/05 13:07",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41494282",
+      "41330015",
+      "40546661",
+      "40124706",
+      "40120312",
+      "39732166",
+      "39605071",
+      "39603462",
+      "38316220",
+      "38104875",
+      "37690289",
+      "36936475",
+      "36671751",
+      "36572666",
+      "36552535",
+      "36260751",
+      "35770727",
+      "35154781",
+      "34961421",
+      "34930402",
+      "34801352",
+      "33388426",
+      "33185688",
+      "33153894",
+      "32170886",
+      "31539577",
+      "30923009",
+      "30584247",
+      "30293051",
+      "29784039",
+      "29302927",
+      "28278663",
+      "25139105",
+      "24653547",
+      "24469516",
+      "24330353",
+      "24296353",
+      "24057875",
+      "23722817",
+      "23161900",
+      "23074543",
+      "22747436",
+      "22703878",
+      "22197545",
+      "21606479",
+      "20880987",
+      "17521629",
+      "16782342",
+      "15872205",
+      "9843014",
+      "7700998"
+    ],
+    "similar": [
+      "41348204",
+      "38316220",
+      "40849737",
+      "41253925",
+      "40516287",
+      "38554853",
+      "38835124",
+      "40507893",
+      "40945883",
+      "41785726",
+      "41825206",
+      "41873121",
+      "41539635",
+      "39876988",
+      "32493482",
+      "40089261",
+      "34281197",
+      "30658103",
+      "39515792",
+      "37392066",
+      "40916281",
+      "40316055",
+      "40197419",
+      "34664681",
+      "33757812",
+      "27473420",
+      "40609281",
+      "29933541",
+      "39279255",
+      "40412778",
+      "34785109",
+      "39779965",
+      "38552435",
+      "40018935",
+      "34233233",
+      "41795538",
+      "38761783",
+      "40457335",
+      "40546661",
+      "39547364",
+      "39862794",
+      "38832986",
+      "31790685",
+      "30166108",
+      "39153275",
+      "32736045",
+      "32835761",
+      "41376224",
+      "34639115",
+      "40532325",
+      "40339488",
+      "29382533",
+      "41166908",
+      "37473822",
+      "39993869",
+      "39278850",
+      "40158831",
+      "40862458",
+      "40063187",
+      "39007937",
+      "39983433",
+      "34464701",
+      "32576538",
+      "38579666",
+      "38914920",
+      "41797086",
+      "40934693",
+      "29349514",
+      "41022608",
+      "40968516",
+      "33081840",
+      "35216231",
+      "39365309",
+      "35960313",
+      "38838402",
+      "40409105",
+      "40945031",
+      "31182284",
+      "32236445",
+      "30591370",
+      "25720416",
+      "39158742",
+      "40295788",
+      "39388894",
+      "34243099",
+      "32823074",
+      "35491357",
+      "38284293",
+      "32622642",
+      "34025642",
+      "38532341",
+      "26046540",
+      "32515468",
+      "39470475",
+      "31866405",
+      "41330058",
+      "37573659",
+      "40461662",
+      "38655652",
+      "39354758"
+    ],
+    "review": [
+      "41348204"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-025-04830-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

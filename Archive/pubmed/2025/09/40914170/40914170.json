@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "40914170",
+    "doi": "10.1016/j.medj.2025.100840",
+    "title": "Machine learning-based identification of a transcriptomic blood signature discriminating between systemic autoimmunity and infection."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pathogenic responses against self and foreign antigens in systemic autoimmunity and infection, respectively, engage similar immunologic components, thus lacking distinguishing diagnostic biomarkers. Herein, we tested whether whole-blood transcriptome analysis discriminates autoimmune from infectious diseases. METHODS: We applied nested cross-validation methodology to tune and validate random forests, k-nearest neighbors, and support vector machines, using a new preprocessing method on 22 publicly available datasets, including 594 patients with a broad spectrum of systemic autoimmune diseases and 615 patients with diverse viral, bacterial, and parasitic infections. FINDINGS: Our preprocessing method tackled RNA sequencing batch effects by sorting the genes within each sample according to individual relative expression values and discriminated between the corresponding pathologies with 98% accuracy versus 63% when using raw values. This model was further tested in external datasets comprising various autoimmune diseases and infections new to its training process, yielding accuracies ranging between 80% and 96%. Enrichment analyses of 457 of the most informative genes identified SAP1, ELF1/4, and FLI1 transcription factors among the significant upstream regulators and revealed several key processes and pathways, such as autophagy, DNA damage response, and NOTCH signaling. A subset of 24 genes, including the inflammation-related genes RPL7, TLK2, and ANK2, distinguished between autoimmune and infectious diseases with 89% accuracy. CONCLUSIONS: Using a novel batch-correction algorithm, this analysis may provide a new mechanistic understanding of the pathogenic autoimmune response, as well as biomarkers for differential diagnoses of the corresponding pathologies in patients presenting with inflammatory disorders. FUNDING: This work was funded by the European Regional Development Fund NSRF 2014-2020, no. MIS5002802.",
+    "keywords": [
+      "RNA sequencing",
+      "Translation to patients",
+      "autoimmune disease",
+      "biomarkers",
+      "infection",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autoimmune Diseases/diagnosis/genetics/blood",
+      "*Machine Learning",
+      "*Transcriptome",
+      "Biomarkers/blood",
+      "*Gene Expression Profiling/methods",
+      "*Autoimmunity/genetics",
+      "*Communicable Diseases/genetics/diagnosis/blood",
+      "Diagnosis, Differential",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verrou, Kleio-Maria",
+        "Vlachogiannis, Nikolaos I",
+        "Theofilopoulos, Argyrios N",
+        "Tektonidou, Maria",
+        "Kollias, Georgios",
+        "Nikolaou, Christoforos",
+        "Sfikakis, Petros P"
+      ],
+      "short_names": [
+        "Verrou KM",
+        "Vlachogiannis NI",
+        "Theofilopoulos AN",
+        "Tektonidou M",
+        "Kollias G",
+        "Nikolaou C",
+        "Sfikakis PP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Centre of New Biotechnologies and Precision Medicine (CNBPM), School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece.",
+        "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece.",
+        "Department of Immunology, Scripps Clinic and Research Foundation, 10666 North Torrey Pines Road, La Jolla, CA 92037, USA.",
+        "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece.",
+        "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Centre of New Biotechnologies and Precision Medicine (CNBPM), School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Institute for Bioinnovation, Biomedical Sciences Research Center \"Alexander Fleming\", 16672 Vari, Greece; Department of Physiology, Medical School, National and Kapodistrian University of Athens, 11527 Athens, Greece.",
+        "Institute for Bioinnovation, Biomedical Sciences Research Center \"Alexander Fleming\", 16672 Vari, Greece.",
+        "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Centre of New Biotechnologies and Precision Medicine (CNBPM), School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece. Electronic address: psfikakis@med.uoa.gr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Verrou, Kleio-Maria",
+        "short_name": "Verrou KM",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Centre of New Biotechnologies and Precision Medicine (CNBPM), School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Vlachogiannis, Nikolaos I",
+        "short_name": "Vlachogiannis NI",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Theofilopoulos, Argyrios N",
+        "short_name": "Theofilopoulos AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Scripps Clinic and Research Foundation, 10666 North Torrey Pines Road, La Jolla, CA 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Tektonidou, Maria",
+        "short_name": "Tektonidou M",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Kollias, Georgios",
+        "short_name": "Kollias G",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Centre of New Biotechnologies and Precision Medicine (CNBPM), School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Institute for Bioinnovation, Biomedical Sciences Research Center \"Alexander Fleming\", 16672 Vari, Greece; Department of Physiology, Medical School, National and Kapodistrian University of Athens, 11527 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Nikolaou, Christoforos",
+        "short_name": "Nikolaou C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Bioinnovation, Biomedical Sciences Research Center \"Alexander Fleming\", 16672 Vari, Greece."
+        ]
+      },
+      {
+        "full_name": "Sfikakis, Petros P",
+        "short_name": "Sfikakis PP",
+        "identifiers": [],
+        "affiliations": [
+          "Joint Academic Rheumatology Program, School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece; Centre of New Biotechnologies and Precision Medicine (CNBPM), School of Medicine, National and Kapodistrian University of Athens, 11527 Athens, Greece. Electronic address: psfikakis@med.uoa.gr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Med (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Med"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/07 00:37",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "42312031",
+      "42193171"
+    ],
+    "refs": [],
+    "similar": [
+      "40914170",
+      "41316541",
+      "42024670",
+      "41200172",
+      "41449193",
+      "39351238",
+      "41265166",
+      "41611834",
+      "39622968",
+      "39735547",
+      "37597512",
+      "34875061",
+      "41659414",
+      "42233387",
+      "36119721",
+      "41852002",
+      "40677720",
+      "40830558",
+      "42120650",
+      "40313967",
+      "40796355",
+      "41548166",
+      "41287009",
+      "42175497",
+      "42161063",
+      "39543487",
+      "41320776",
+      "41424060",
+      "41305834",
+      "40406126",
+      "34917078",
+      "40552285",
+      "40766309",
+      "40275506",
+      "33808774",
+      "39081100",
+      "40967560",
+      "36321557",
+      "42123756",
+      "41790636",
+      "39415336",
+      "40487315",
+      "39507054",
+      "34824337",
+      "41816342",
+      "40305445",
+      "27552617",
+      "39427825",
+      "40124361",
+      "35906002",
+      "30866799",
+      "41345436",
+      "40421012",
+      "32184234",
+      "39281688",
+      "28771541",
+      "41257259",
+      "38649912",
+      "41432807",
+      "35864917",
+      "31118040",
+      "41054110",
+      "38951638",
+      "41578471",
+      "42212141",
+      "38863714",
+      "41933744",
+      "41405396",
+      "39754246",
+      "41006883",
+      "40901474",
+      "42088521",
+      "39295860",
+      "35922752",
+      "41760060",
+      "42123445",
+      "42040898",
+      "40304918",
+      "41065575",
+      "40276515",
+      "40362669",
+      "40740938",
+      "41052072",
+      "42098401",
+      "41080564",
+      "40315768",
+      "41324863",
+      "37212262",
+      "40360670",
+      "41219826",
+      "41327289",
+      "41425595",
+      "31881961",
+      "41557688",
+      "41388523",
+      "38690269",
+      "39351221",
+      "35184750",
+      "39430765",
+      "26556803"
+    ],
+    "review": [
+      "40914170",
+      "34917078",
+      "36321557",
+      "35922752"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-6340(25)00267-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autoimmunediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autoimmune Diseases"
+      }
+    ],
+    "text_mined": []
+  }
+}

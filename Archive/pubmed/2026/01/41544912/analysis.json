@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41544912",
+  "title": "DMDGRN: A data augmentation-based multilayer directed graph convolutional network for gene regulatory network inference.",
+  "authors": "Wei, Pi-Jing; Sun, Mingzhu; Ding, Zheng; Cao, Rui-Fen; Gao, Zhen; Zheng, Chun-Hou",
+  "journal": "Journal of biomedical informatics",
+  "published_date": "2026-01-17",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于数据增强的多层有向图卷积网络DMDGRN推断基因调控网络，虽以TF-靶基因调控为核心，但主要聚焦网络推断而非TF-DNA三维结合机制，方法可迁移至TF-DNA互作建模。",
+  "abstract": "OBJECTIVE: Gene regulatory networks (GRNs) provide a graphical representation of the regulatory interactions between transcription factors (TFs) and their target genes, governing transcriptional states that define cell identity and function. Deciphering GRNs is fundamental for deciphering disease pathogenesis and remains a central challenge in systems biology. Graph neural network-based methods have made significant progress in GRN inference in recent years due to their exceptional ability to model graph-structured biological data. However, the inherent characteristics of GRNs usually have been ignored, including the directionality, the sparsity and abundant high-order regulatory interactions of GRNs. METHODS: In this study, we propose DMDGRN, a data augmentation-based multilayer directed graph convolutional network for GRN inference. To capture the direction of GRNs, DMDGRN employs phase matrix to construct the Laplacian operator, which can track message propagation pathways. Considering the inherent sparsity of known GRNs, DMDGRN incorporates data augmentation techniques to overcome the network sparsity. Moreover, DMDGRN adopts a multilayer directed network architecture with residual connections to extract higher-order neighborhood information. RESULTS: Comprehensive evaluations on benchmark datasets demonstrate that DMDGRN significantly improves GRN inference accuracy. Notably, the application on breast cancer shows that our framework successfully identifies relevant therapeutic candidates for human breast cancer. CONCLUSIONS: The findings demonstrate that the strategies we adopted are effective for inferring GRNs. The successful application to breast cancer data further highlights its potential of DMDGRN in uncovering disease-relevant regulatory mechanisms and identifying therapeutic targets, making it a promising tool for advancing both computational biology and translational medicine.",
+  "abstract_zh": "目的：基因调控网络（GRNs）提供了转录因子（TFs）与其靶基因之间调控相互作用的图形表示，这些相互作用控制着定义细胞身份和功能的转录状态。解析GRNs对于理解疾病发病机制至关重要，并且仍是系统生物学中的核心挑战。基于图神经网络的方法近年来在GRN推断方面取得了显著进展，这得益于其卓越的建模图结构生物数据的能力。然而，GRNs的固有特性通常被忽视，包括其方向性、稀疏性以及丰富的高阶调控相互作用。方法：在本研究中，我们提出了DMDGRN，一种基于数据增强的多层有向图卷积网络，用于GRN推断。为捕捉GRNs的方向性，DMDGRN采用相位矩阵构建拉普拉斯算子，从而能够追踪消息传播路径。考虑到已知GRNs的固有稀疏性，DMDGRN结合数据增强技术以克服网络稀疏性问题。此外，DMDGRN采用带有残差连接的多层有向网络架构，以提取高阶邻域信息。结果：在基准数据集上的综合评估表明，DMDGRN显著提高了GRN推断的准确性。值得注意的是，在乳腺癌上的应用显示，我们的框架成功识别了人类乳腺癌的相关治疗候选靶点。结论：研究结果表明，我们采用的策略对于推断GRNs是有效的。在乳腺癌数据上的成功应用进一步凸显了DMDGRN在揭示疾病相关调控机制和识别治疗靶点方面的潜力，使其成为推进计算生物学和转化医学的有前景工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41544912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41544912/",
+  "paper_page_path": "papers/pubmed/41544912/index.html"
+}

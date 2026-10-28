@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42007520",
+  "title": "NyxBind: enhancing deep neural representations for transcription factor binding site prediction via contrastive learning.",
+  "authors": "Yang, Xu; Xiao, Qingfa; Xu, Yucheng; Yang, Jixin; Hou, Yusen; Long, Weicai; Huang, Miaojun; Zhang, Yanlin",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-04-20",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于对比学习的NyxBind模型，增强预训练基因组语言模型对转录因子结合位点（TFBS）的判别性表征，在159个TFBS预测任务上超越DNABERT2，核心聚焦TF-DNA结合位点预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Although pretrained genomic language models effectively capture general DNA sequence patterns through masked language modeling, they often struggle to discriminate subtle yet biologically critical differences among transcription factor binding site (TFBS) motifs. Recent studies suggest that contrastive learning can enhance the discriminative power of embeddings by explicitly modeling inter-instance similarities and differences. Building on this insight, we introduce NyxBind, a TFBS prediction model that applies contrastive learning across multiple TFBS types to enhance regulatory sequence representations. Across 159 TFBS prediction tasks, NyxBind achieves the best performance on all evaluation metrics and improves Matthews Correlation Coefficient by 4.71 percentage points over DNABERT2. NyxBind supports both full-parameter and parameter-efficient fine-tuning while maintaining strong performance. It also enables accurate motif visualization, with results closely matching experimentally validated transcription factor binding profiles.",
+  "abstract_zh": "尽管预训练的基因组语言模型通过掩码语言建模能够有效捕捉通用的DNA序列模式，但它们往往难以区分转录因子结合位点（TFBS）基序之间微妙但生物学上关键的差异。近期研究表明，对比学习可以通过显式建模实例间的相似性和差异性来增强嵌入的判别能力。基于这一见解，我们引入了NyxBind，一种TFBS预测模型，该模型在多种TFBS类型上应用对比学习，以增强调控序列表示。在159项TFBS预测任务中，NyxBind在所有评估指标上均达到最佳性能，并将Matthews相关系数相较于DNABERT2提高了4.71个百分点。NyxBind支持全参数和参数高效微调，同时保持强劲性能。它还实现了准确的基序可视化，其结果与实验验证的转录因子结合谱高度吻合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42007520/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42007520/",
+  "paper_page_path": "papers/pubmed/42007520/index.html"
+}

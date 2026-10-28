@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "38246999",
+    "doi": "10.1186/s12967-023-04840-x",
+    "title": "Integrating network pharmacology and animal experimental validation to investigate the action mechanism of oleanolic acid in obesity."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Obesity, a condition associated with the development of widespread cardiovascular disease, metabolic disorders, and other health complications, has emerged as a significant global health issue. Oleanolic acid (OA), a pentacyclic triterpenoid compound that is widely distributed in various natural plants, has demonstrated potential anti-inflammatory and anti-atherosclerotic properties. However, the mechanism by which OA fights obesity has not been well studied. METHOD: Network pharmacology was utilized to search for potential targets and pathways of OA against obesity. Molecular docking and molecular dynamics simulations were utilized to validate the interaction of OA with core targets, and an animal model of obesity induced by high-fat eating was then employed to confirm the most central of these targets. RESULTS: The network pharmacology study thoroughly examined 42 important OA targets for the treatment of obesity. The key biological processes (BP), cellular components (CC), and molecular functions (MF) of OA for anti-obesity were identified using GO enrichment analysis, including intracellular receptor signaling, intracellular steroid hormone receptor signaling, chromatin, nucleoplasm, receptor complex, endoplasmic reticulum membrane, and RNA polymerase II transcription Factor Activity. The KEGG/DAVID database enrichment study found that metabolic pathways, PPAR signaling pathways, cancer pathways/PPAR signaling pathways, insulin resistance, and ovarian steroidogenesis all play essential roles in the treatment of obesity and OA. The protein-protein interaction (PPI) network was used to screen nine main targets: PPARG, PPARA, MAPK3, NR3C1, PTGS2, CYP19A1, CNR1, HSD11B1, and AGTR1. Using molecular docking technology, the possible binding mechanism and degree of binding between OA and each important target were validated, demonstrating that OA has a good binding potential with each target. The molecular dynamics simulation's Root Mean Square Deviation (RMSD), and Radius of Gyration (Rg) further demonstrated that OA has strong binding stability with each target. Additional animal studies confirmed the significance of the core target PPARG and the core pathway PPAR signaling pathway in OA anti-obesity. CONCLUSION: Overall, our study utilized a multifaceted approach to investigate the value and mechanisms of OA in treating obesity, thereby providing a novel foundation for the identification and development of natural drug treatments.",
+    "keywords": [
+      "Lipid accumulation",
+      "Molecular dynamics",
+      "Network pharmacology",
+      "Obesity",
+      "Oleanolic acid",
+      "PPAR signaling pathway",
+      "PPARG/PPAR"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Molecular Docking Simulation",
+      "Network Pharmacology",
+      "*Oleanolic Acid/pharmacology/therapeutic use",
+      "PPAR gamma",
+      "*Cardiovascular Diseases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Tianfeng",
+        "Wang, Jiliang",
+        "Tong, Ying",
+        "Wu, Lele",
+        "Xie, Ying",
+        "He, Ping",
+        "Lin, Shujue",
+        "Hu, Xuguang"
+      ],
+      "short_names": [
+        "Liu T",
+        "Wang J",
+        "Tong Y",
+        "Wu L",
+        "Xie Y",
+        "He P",
+        "Lin S",
+        "Hu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1785-5593"
+      ],
+      "affiliations": [
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China.",
+        "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China. hxguang21@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Tianfeng",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiliang",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Ying",
+        "short_name": "Tong Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lele",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ying",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "He, Ping",
+        "short_name": "He P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shujue",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xuguang",
+        "short_name": "Hu X",
+        "identifiers": [
+          "0000-0003-1785-5593"
+        ],
+        "affiliations": [
+          "School of Chinese Materia Medica, Guangdong Pharmaceutical University, Waihuan East Road, Guangzhou, 510006, Guangdong, China. hxguang21@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2024 Jan 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/22 00:42",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42487140",
+      "42429384",
+      "42385689",
+      "42338899",
+      "42303923",
+      "42280428",
+      "42254442",
+      "42042066",
+      "41970029",
+      "41868937",
+      "41832547",
+      "41737038",
+      "41645330",
+      "41630209",
+      "41516215",
+      "41473244",
+      "41460377",
+      "41440909",
+      "41226211",
+      "41060464",
+      "41036756",
+      "40947696",
+      "40670965",
+      "40630478",
+      "40600543",
+      "40547857",
+      "40445525",
+      "40438591",
+      "40415317",
+      "40255470",
+      "40243616",
+      "40111015",
+      "40077474",
+      "40061954",
+      "39942843",
+      "39817123",
+      "39660341",
+      "39065817"
+    ],
+    "refs": [
+      "36394728",
+      "36195252",
+      "36154703",
+      "36029846",
+      "35937803",
+      "35586687",
+      "35584732",
+      "35559247",
+      "35458168",
+      "35325185",
+      "35248171",
+      "34883426",
+      "34826599",
+      "34703880",
+      "34681767",
+      "34664288",
+      "34626851",
+      "34514612",
+      "34496833",
+      "34393781",
+      "34265844",
+      "34127848",
+      "33950214",
+      "33900317",
+      "33887197",
+      "33736684",
+      "33628171",
+      "33296814",
+      "33237311",
+      "33237286",
+      "33211854",
+      "33163484",
+      "33151290",
+      "33140889",
+      "32576977",
+      "32047914",
+      "32031298",
+      "31678001",
+      "31636017",
+      "31450844",
+      "31364228",
+      "31106366",
+      "30781794",
+      "30372819",
+      "30253139",
+      "30037087",
+      "29996502",
+      "29966735",
+      "29909009",
+      "29879443",
+      "29860994",
+      "29793333",
+      "29704660",
+      "29685454",
+      "29662003",
+      "29500098",
+      "29156181",
+      "28915321",
+      "28849786",
+      "28723250",
+      "28604169",
+      "28380374",
+      "28302472",
+      "28098353",
+      "27636731",
+      "27322403",
+      "26843885",
+      "26579441",
+      "26479079",
+      "25451770",
+      "25450203",
+      "24924286",
+      "24735618",
+      "23036787",
+      "22587831",
+      "20188082",
+      "19723493",
+      "16741586",
+      "16400329",
+      "15466942",
+      "14597658",
+      "12517229",
+      "11818483",
+      "11739957",
+      "11585645",
+      "8847885",
+      "8536636"
+    ],
+    "similar": [
+      "38246999",
+      "34560213",
+      "39208245",
+      "36626454",
+      "39251712",
+      "36803762",
+      "38619514",
+      "37345246",
+      "36714956",
+      "34723038",
+      "36471978",
+      "38822913",
+      "36526095",
+      "32928080",
+      "37799727",
+      "37287284",
+      "37308949",
+      "38032489",
+      "35578843",
+      "39125368",
+      "37807411",
+      "36281111",
+      "38775721",
+      "37382018",
+      "39222242",
+      "37556042",
+      "37084637",
+      "38670393",
+      "37201662",
+      "35616676",
+      "39259129",
+      "38206683",
+      "37576085",
+      "37340752",
+      "35040393",
+      "37592794",
+      "37308028",
+      "36424782",
+      "37169318",
+      "36401485",
+      "37282941",
+      "34746316",
+      "34997010",
+      "37092194",
+      "37683540",
+      "36386135",
+      "36076592",
+      "36471753",
+      "33645094",
+      "38322942",
+      "39205203",
+      "38761877",
+      "36049411",
+      "38812235",
+      "36604925",
+      "34808299",
+      "38555283",
+      "35430443",
+      "37353066",
+      "39192219",
+      "36923645",
+      "38982082",
+      "34873575",
+      "38005265",
+      "37499457",
+      "33645090",
+      "35992697",
+      "38816744",
+      "33350196",
+      "38914662",
+      "39310787",
+      "36389420",
+      "39049631",
+      "38615996",
+      "39085510",
+      "38040415",
+      "38964628",
+      "37879505",
+      "38776853",
+      "39346898",
+      "36872279",
+      "38310989",
+      "35496280",
+      "37635236",
+      "37282910",
+      "36535207",
+      "38297292",
+      "34047082",
+      "39074420",
+      "39099827",
+      "35706803",
+      "35069454",
+      "35937803",
+      "33358854",
+      "37439907",
+      "39076092",
+      "37605567",
+      "39127115",
+      "33299870",
+      "29879443"
+    ],
+    "review": [
+      "38246999",
+      "33358854"
+    ],
+    "pmc": [
+      "10802007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-04840-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38246999/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38246999",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

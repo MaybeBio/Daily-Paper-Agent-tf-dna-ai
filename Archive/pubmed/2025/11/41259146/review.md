@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance, Results, Discussion, Materials and Methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based on the provided manuscript text; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors propose a tripartite protein complex comprising ComEC, ComFA, and ComFC that mediates ssDNA import during natural transformation in Firmicutes, using AlphaFold3 structural modeling and experimental validation in Streptococcus pneumoniae, with extension to Helicobacter pylori for ComEC conservation
+- **Visible evidence base** AlphaFold3 structural models, targeted mutagenesis and transformation assays in S. pneumoniae, similar assays in H. pylori, Western blot analysis, split-luciferase interaction assays, sequence conservation analyses, structural alignments across Firmicute species
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (SI Appendix Figs. S1-S21, Tables S1-S6) were not provided; detailed strain construction protocols and Western blot quantification methods are in SI Appendix; raw data for transformation frequencies and statistical analyses are not fully presented in the main text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling integration of AI-based structural prediction with in vivo functional validation to address a long-standing question in bacterial transformation. The use of AlphaFold3 to generate testable hypotheses about a membrane-associated DNA transport complex is innovative and the experimental follow-through is generally rigorous. The key claims regarding the tripartite complex and its functional importance are supported by the data presented, though several concerns about the interpretation of mutational effects and the generalizability of the model warrant attention. The work will be of interest to the bacterial genetics and horizontal gene transfer communities, and demonstrates a valuable template for applying structural prediction to membrane protein complexes.
+- **Who would be interested in the results, and why** Researchers studying natural transformation, horizontal gene transfer, bacterial competence, and membrane protein complexes. The methodological approach combining AlphaFold3 with functional assays will also interest structural biologists and those developing AI-based structural prediction applications. The conservation analysis across Firmicutes and the H. pylori data extend relevance to those studying diverse bacterial pathogens.
+- **Major strengths** The study addresses a fundamental and previously intractable problem in bacterial transformation, namely the molecular architecture of the DNA import machinery. The integration of AlphaFold3 predictions with targeted mutagenesis and functional assays is a powerful and timely approach. The cumulative effects observed in double-mutant combinations provide strong genetic evidence for the model. The demonstration of functional conservation of key residues across both monoderm and diderm species significantly strengthens the generalizability of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of mutational effects
+  - **Claim pointer** The manuscript claims that specific residues in SpComEC (Y116, Y157, R292, K297) and SpComFC (K83, R156) are important for ssDNA interaction based on reduced transformation efficiencies of mutants.
+  - **Evidence pointer** Results sections "ComEC Is a Conserved Transmembrane Channel..." and "A Positively Charged Groove on SpComFC...", Figures 2F, 2G, 4B
+  - **Concern** The interpretation that reduced transformation efficiency directly reflects disrupted ssDNA binding is not fully established. Mutations could affect protein stability, membrane localization, or oligomerization rather than specifically disrupting DNA interactions. While the authors state that mutants were chosen to minimize structural disruption and that protein stability was verified for some mutants, this is not systematically demonstrated for all mutants. The lack of direct biochemical evidence for ssDNA binding (e.g., electrophoretic mobility shift assays or surface plasmon resonance) leaves alternative explanations viable.
+  - **Why it matters** The central claim that specific residues mediate ssDNA interaction underpins the mechanistic model. Without direct binding data, the conclusion that these residues are "key for ssDNA interaction" is an inference from transformation phenotypes, which could arise from multiple mechanisms.
+  - **Resolution test** Provide direct biochemical evidence of ssDNA binding for wild-type and mutant proteins (e.g., in vitro binding assays with purified components), or demonstrate that mutant proteins retain normal localization, stability, and membrane integration while specifically losing DNA interaction capability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural model validation
+  - **Claim pointer** The manuscript claims that the AlphaFold3 model of the tripartite complex is reliable and that the predicted interfaces are biologically relevant.
+  - **Evidence pointer** Results section "Structural Model of a Tripartite Protein Complex...", Figures 1B, 1C, SI Appendix Figures S1-S5, Tables S1, S2
+  - **Concern** While the model confidence metrics (ipTM = 0.74, pTM = 0.82) are reported as relatively high, the manuscript does not provide independent experimental validation of the overall complex architecture. The validation relies on targeted mutations at predicted interfaces, which is indirect. The low confidence in protein-ssDNA interactions (ipTM 0.27-0.45) is acknowledged but the implications for the model's reliability regarding DNA path are not fully discussed. No cryo-EM, cross-linking, or other structural validation is presented.
+  - **Why it matters** The entire study is built on the AlphaFold3 model. If the predicted complex architecture is incorrect, the interpretation of all mutational data would be compromised. The field would benefit from independent structural validation or at least a more thorough discussion of model limitations.
+  - **Resolution test** Provide orthogonal validation of the complex architecture (e.g., cross-linking mass spectrometry, co-purification of the complex, or single-particle analysis), or clearly delineate which conclusions are robust to model uncertainty and which are model-dependent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The manuscript claims that the tripartite complex is conserved across Firmicutes and that the hook-pocket interaction between ComEC and ComFC is a conserved feature of this phylum.
+  - **Evidence pointer** Results section "A Strong Interaction Between ComEC and ComFC...", Figures 6D-6F, SI Appendix Table S4
+  - **Concern** The conservation analysis is based on structural models from 10 Firmicute species, but the functional validation is limited to S. pneumoniae. The claim of conservation would be strengthened by functional data from at least one additional Firmicute species. Additionally, the statement that the hook is "exclusively conserved in Firmicutes" is based on the absence of this feature in non-Firmicute species, which is an argument from absence and may reflect limitations in the modeling rather than true absence.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the complex is not functionally conserved across Firmicutes, the impact of the study is substantially reduced.
+  - **Resolution test** Provide functional validation of the complex in at least one additional Firmicute species (e.g., Bacillus subtilis), or temper the conservation claims to reflect the current evidence base.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data presentation
+  - **Claim pointer** The manuscript reports specific fold-decreases in transformation efficiency for various mutants (e.g., "~ninefold decrease", "~1,200-fold reduction", "~40-fold decrease").
+  - **Evidence pointer** Results sections throughout, Figures 2F, 2G, 4B, 6B, 6C, 7C, 7D
+  - **Concern** The manuscript does not provide statistical analysis of the transformation efficiency data. No error bars, confidence intervals, or significance tests are presented in the main text figures. The number of biological replicates is only stated for the split-luciferase assay (nine independent repeats), not for transformation assays. This limits the ability to assess the reliability and reproducibility of the reported effects.
+  - **Why it matters** Quantitative claims about the magnitude of mutational effects are central to the conclusions. Without statistical rigor, it is difficult to distinguish genuine biological effects from experimental noise, particularly for the smaller effects (e.g., two- to five-fold changes).
+  - **Resolution test** Provide statistical analysis of transformation efficiency data, including number of replicates, error measures, and significance testing for all reported comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model confidence discussion
+  - **Affected element** Results section "Structural Model of a Tripartite Protein Complex..."
+  - **Evidence pointer** Figure 1, SI Appendix Figures S1, S2
+  - **Issue** The manuscript reports model confidence metrics but does not clearly explain what these metrics mean for readers unfamiliar with AlphaFold3. The implications of the relatively low confidence in protein-ssDNA interactions are not fully discussed.
+  - **Required correction** Add a brief explanation of ipTM and pTM metrics and their interpretation, and explicitly discuss how the lower confidence in DNA interactions affects the strength of conclusions drawn from the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of negative controls
+  - **Affected element** Split-luciferase assay
+  - **Evidence pointer** Results section "Interaction Between SpComFA and SpComFC...", Figure 4E
+  - **Issue** The split-luciferase assay includes a wild-type strain lacking either fusion as a negative control, but it is unclear whether a strain expressing only one fusion protein (e.g., SpComFA-LgBit alone) was included as an additional control for non-specific complementation.
+  - **Required correction** Clarify whether single-fusion controls were included, or add them to demonstrate that the observed luminescence requires both fusion proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraphs 2-4
+  - **Issue** The discussion does not address alternative models for how ssDNA might be transported, such as a channel formed by multiple ComEC monomers or involvement of additional unidentified components.
+  - **Required correction** Add a brief discussion of alternative models and why the presented data favor the proposed tripartite complex model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of mutant naming
+  - **Affected element** Throughout Results
+  - **Evidence pointer** Figures 2, 4, 6, 7
+  - **Issue** Mutants are sometimes referred to by amino acid change (e.g., SpComECF152D) and sometimes by descriptive terms (e.g., "the double mutant"). This could cause confusion when multiple mutants are discussed.
+  - **Required correction** Use consistent nomenclature throughout, preferably the amino acid change designation, and define abbreviations at first use.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical analysis on transformation efficiency data (R1-M4) is the most significant technical gap. Additionally, the absence of direct biochemical evidence for ssDNA binding (R1-M1) weakens the mechanistic claims. The manuscript would be substantially strengthened by addressing these points.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The application of AlphaFold3 to model a tripartite DNA transport complex and the subsequent experimental validation represents a novel approach to a long-standing problem. The identification of specific residues mediating complex formation and DNA interaction is new.
+  - Scientific importance: High. Natural transformation is a fundamental mechanism of horizontal gene transfer with implications for bacterial evolution and the spread of antibiotic resistance. Understanding the molecular architecture of the DNA import machinery addresses a key gap in the field.
+  - Interdisciplinary readership: Moderate. The work will primarily appeal to microbiologists, bacterial geneticists, and structural biologists. The methodological aspects may attract those interested in AI-based structural prediction, but the broader cell biology community may find the topic specialized.
+  - Technical soundness: Generally sound but with gaps. The experimental design is logical and the use of multiple mutant combinations is rigorous. However, the lack of statistical analysis and direct binding data are notable weaknesses.
+  - Readability for nonspecialists: Good. The manuscript is clearly written and the significance of the work is well explained. The use of figures to illustrate the model and experimental results aids comprehension. Some sections assume familiarity with bacterial transformation, but the introduction and significance sections provide adequate context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and important, but the manuscript would benefit from addressing the statistical analysis gap and providing additional evidence for direct ssDNA binding. The conservation claims should be tempered or supported with additional functional data.
+
+## Risk / unsupported claims
+- The claim that the hook-pocket interaction is "exclusively conserved in Firmicutes" is based on absence of this feature in non-Firmicute models and may reflect modeling limitations rather than true biological absence
+- The assertion that specific residues "are key for ssDNA interaction" is inferred from transformation phenotypes without direct binding data
+- The claim that the tripartite complex is "conserved across Firmicutes" is based on structural modeling and sequence analysis, with functional validation only in S. pneumoniae
+- The statement that the model shows ssDNA "traversing a narrow channel within a SpComEC monomer" is based solely on AlphaFold3 predictions without experimental structural validation
+- The suggestion that the complex formation is not dependent on active transformation is based on one experimental condition (absence of tDNA) and may not fully exclude other dependencies

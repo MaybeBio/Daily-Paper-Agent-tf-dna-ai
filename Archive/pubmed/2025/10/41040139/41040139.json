@@ -1,0 +1,554 @@
+{
+  "identity": {
+    "pmid": "41040139",
+    "doi": "10.1101/2025.09.24.676871",
+    "title": "The nascent transcriptome delineates the regulatory landscape in human health and disease."
+  },
+  "content": {
+    "abstract": "Transcriptional regulatory elements (TREs) orchestrate gene expression programs fundamental to cellular identity and transitions across physiological and pathological states. Here, we present a high-resolution atlas of RNA Polymerase II-engaged TREs (enhancers and promoters) across all major human organ systems and a broad spectrum of developmental and disease states. This atlas is generated using PRO-cap, a highly sensitive method that detects nascent RNA at transcription initiation sites, a critical feature of active TREs. The base-pair resolution of PRO-cap enables systematic dissection of transcription initiation architecture, revealing associations among tissue specificity, evolutionary constraint, transcription factor usage, and regulatory connectivity. Integration with deep learning models such as ProCapNet further provides a framework for prioritizing noncoding variants from GWAS and eQTL studies. Moreover, this tissue-resolved atlas identifies lineage-specific regulatory programs and their alterations in diseases such as metastatic cancer, where TRE landscapes capture regulatory signatures reflecting both tissue of origin and adaptive responses to distant niches. Together, these findings establish transcription initiation at regulatory elements as a defining and mechanistically informative layer of gene regulation across development, physiology, and disease.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shah, Sagar R",
+        "Chen, You",
+        "Leung, Alden K",
+        "Navarro, Priscila V Castilho",
+        "Paramo, Mauricio I",
+        "Gupta, Juhi",
+        "Gurumurthy, Aishwarya",
+        "Fite, Rebuma F",
+        "Weimer, Annika K",
+        "Cochran, Kelly",
+        "Wang, Austin",
+        "Du, Qian",
+        "Mohyeldin, Ahmed M",
+        "Egli, Dieter",
+        "Kundaje, Anshul",
+        "Creusot, Remi J",
+        "Ryan, Russell J H",
+        "Snyder, Michael P",
+        "Clark, Andrew G",
+        "Lis, John T",
+        "Yu, Haiyuan"
+      ],
+      "short_names": [
+        "Shah SR",
+        "Chen Y",
+        "Leung AK",
+        "Navarro PVC",
+        "Paramo MI",
+        "Gupta J",
+        "Gurumurthy A",
+        "Fite RF",
+        "Weimer AK",
+        "Cochran K",
+        "Wang A",
+        "Du Q",
+        "Mohyeldin AM",
+        "Egli D",
+        "Kundaje A",
+        "Creusot RJ",
+        "Ryan RJH",
+        "Snyder MP",
+        "Clark AG",
+        "Lis JT",
+        "Yu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4869-4104",
+        "ORCID: 0000-0002-9518-1881",
+        "ORCID: 0000-0002-0812-6412",
+        "ORCID: 0000-0001-8174-3962",
+        "ORCID: 0000-0001-7597-6049"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Department of Computational Biology, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI.",
+        "Columbia Center for Translational Immunology and Department of Medicine, Columbia University Medical Center, New York, NY.",
+        "Naomi Berrie Diabetes Center, Columbia University Medical Center, New York, NY.",
+        "Departments of Medicine and Microbiology & Immunology, Norman Fleischer Institute of Diabetes and Metabolism, Albert Einstein College of Medicine, New York, NY.",
+        "Department of Genetics, Stanford School of Medicine, Stanford, CA.",
+        "Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Pediatrics, Columbia University, New York, NY.",
+        "Department of Neurological Surgery, University of California, Irvine, CA.",
+        "Department of Pediatrics, Columbia University, New York, NY.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Columbia Center for Translational Immunology and Department of Medicine, Columbia University Medical Center, New York, NY.",
+        "Naomi Berrie Diabetes Center, Columbia University Medical Center, New York, NY.",
+        "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI.",
+        "Department of Genetics, Stanford School of Medicine, Stanford, CA.",
+        "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+        "Department of Computational Biology, Cornell University, Ithaca, NY, USA.",
+        "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+        "Department of Computational Biology, Cornell University, Ithaca, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shah, Sagar R",
+        "short_name": "Shah SR",
+        "identifiers": [
+          "0000-0003-4869-4104"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, You",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Leung, Alden K",
+        "short_name": "Leung AK",
+        "identifiers": [],
+        "affiliations": [
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+          "Department of Computational Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Navarro, Priscila V Castilho",
+        "short_name": "Navarro PVC",
+        "identifiers": [],
+        "affiliations": [
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Paramo, Mauricio I",
+        "short_name": "Paramo MI",
+        "identifiers": [
+          "0000-0002-9518-1881"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Juhi",
+        "short_name": "Gupta J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI."
+        ]
+      },
+      {
+        "full_name": "Gurumurthy, Aishwarya",
+        "short_name": "Gurumurthy A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI."
+        ]
+      },
+      {
+        "full_name": "Fite, Rebuma F",
+        "short_name": "Fite RF",
+        "identifiers": [],
+        "affiliations": [
+          "Columbia Center for Translational Immunology and Department of Medicine, Columbia University Medical Center, New York, NY.",
+          "Naomi Berrie Diabetes Center, Columbia University Medical Center, New York, NY.",
+          "Departments of Medicine and Microbiology & Immunology, Norman Fleischer Institute of Diabetes and Metabolism, Albert Einstein College of Medicine, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Weimer, Annika K",
+        "short_name": "Weimer AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford School of Medicine, Stanford, CA.",
+          "Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA."
+        ]
+      },
+      {
+        "full_name": "Cochran, Kelly",
+        "short_name": "Cochran K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Austin",
+        "short_name": "Wang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Du, Qian",
+        "short_name": "Du Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Columbia University, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Mohyeldin, Ahmed M",
+        "short_name": "Mohyeldin AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurological Surgery, University of California, Irvine, CA."
+        ]
+      },
+      {
+        "full_name": "Egli, Dieter",
+        "short_name": "Egli D",
+        "identifiers": [
+          "0000-0002-0812-6412"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Columbia University, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Creusot, Remi J",
+        "short_name": "Creusot RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Columbia Center for Translational Immunology and Department of Medicine, Columbia University Medical Center, New York, NY.",
+          "Naomi Berrie Diabetes Center, Columbia University Medical Center, New York, NY."
+        ]
+      },
+      {
+        "full_name": "Ryan, Russell J H",
+        "short_name": "Ryan RJH",
+        "identifiers": [
+          "0000-0001-8174-3962"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan Medical School, Ann Arbor, MI."
+        ]
+      },
+      {
+        "full_name": "Snyder, Michael P",
+        "short_name": "Snyder MP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford School of Medicine, Stanford, CA."
+        ]
+      },
+      {
+        "full_name": "Clark, Andrew G",
+        "short_name": "Clark AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+          "Department of Computational Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lis, John T",
+        "short_name": "Lis JT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA.",
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Haiyuan",
+        "short_name": "Yu H",
+        "identifiers": [
+          "0000-0001-7597-6049"
+        ],
+        "affiliations": [
+          "Weill Institute for Cell and Molecular Biology, Cornell University, Ithaca, NY, USA.",
+          "Department of Computational Biology, Cornell University, Ithaca, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 06:32",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41185025",
+      "40424361",
+      "40281430",
+      "40205447",
+      "40180945",
+      "40164603",
+      "40067173",
+      "39309442",
+      "39020164",
+      "38963856",
+      "38662817",
+      "38658544",
+      "38197272",
+      "37962376",
+      "37220626",
+      "36350827",
+      "35947745",
+      "35501419",
+      "35275975",
+      "35177836",
+      "34774128",
+      "34650237",
+      "34127860",
+      "33973014",
+      "33828297",
+      "33502116",
+      "33270111",
+      "33214558",
+      "32958950",
+      "32913098",
+      "32912294",
+      "32728249",
+      "32155413",
+      "31691815",
+      "31578185",
+      "30423086",
+      "30349116",
+      "29632380",
+      "29483654",
+      "29337990",
+      "28974775",
+      "28658209",
+      "27708057",
+      "27442863",
+      "27019113",
+      "26773131",
+      "26771021",
+      "26414678",
+      "25799441",
+      "25693563",
+      "25642630",
+      "25593989",
+      "25516281",
+      "25502805",
+      "25383968",
+      "25363779",
+      "24670763",
+      "24038352",
+      "23636943",
+      "23430654",
+      "23328393",
+      "23104886",
+      "22955828",
+      "21596820",
+      "21177961",
+      "21160473",
+      "20943633",
+      "20513432",
+      "20495556",
+      "20485488",
+      "20393465",
+      "19858363",
+      "18340362",
+      "17653185",
+      "17324271",
+      "17130149",
+      "16645617",
+      "16199517",
+      "12076271",
+      "11807979",
+      "8199015",
+      "2297573"
+    ],
+    "similar": [
+      "41040139",
+      "42475469",
+      "38853896",
+      "37551428",
+      "42478686",
+      "36993726",
+      "41118769",
+      "42210302",
+      "41146606",
+      "27095295",
+      "38253712",
+      "40826469",
+      "41676679",
+      "32994224",
+      "27681123",
+      "28193859",
+      "40281430",
+      "25383968",
+      "26170447",
+      "35751107",
+      "29378629",
+      "42505097",
+      "30755505",
+      "41801512",
+      "41540114",
+      "34541447",
+      "40784520",
+      "42365320",
+      "41951735",
+      "41810371",
+      "24531765",
+      "31477927",
+      "29030344",
+      "40767619",
+      "21750106",
+      "30349116",
+      "24002785",
+      "41984591",
+      "37805492",
+      "38559193",
+      "39196209",
+      "36121513",
+      "30549021",
+      "33849996",
+      "40131776",
+      "34215580",
+      "42276034",
+      "27585846",
+      "41757112",
+      "42281968",
+      "41237668",
+      "26099271",
+      "34108683",
+      "42234579",
+      "41509364",
+      "42602988",
+      "41389208",
+      "8288596",
+      "30139328",
+      "41735542",
+      "42308288",
+      "34390642",
+      "41605892",
+      "30247654",
+      "24752179",
+      "42517641",
+      "42271487",
+      "42339731",
+      "28332981",
+      "42734742",
+      "42074555",
+      "41937210",
+      "41300707",
+      "41034720",
+      "39464031",
+      "34468849",
+      "42678990",
+      "29273624",
+      "28973462",
+      "28811569",
+      "15981475",
+      "30598689",
+      "41279701",
+      "41991903",
+      "25799441",
+      "27806702",
+      "42182259",
+      "37868033",
+      "41684930",
+      "41862973",
+      "41318386",
+      "33910955",
+      "29807547",
+      "24670763",
+      "37961418",
+      "30593493",
+      "30892142",
+      "41566606",
+      "25517091",
+      "34400476"
+    ],
+    "review": [
+      "41040139",
+      "41540114",
+      "30549021",
+      "42276034",
+      "41605892",
+      "34468849",
+      "15981475",
+      "41862973"
+    ],
+    "pmc": [
+      "12485982"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41040139/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41040139",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.24.676871",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text as provided
+- **Assessment boundary** Scientific content, methodology, data interpretation, and conclusions as presented in the supplied text
+- **Shared manuscript claim summary** The authors propose, based on in silico docking and activity prediction, that quercetin can promote HIF1α degradation by enhancing its interaction with pVHL, and can also modulate HIF1α interactions with FIH and PHD2, thereby regulating HIF1α expression through the ubiquitin-proteasome pathway.
+- **Visible evidence base** Abstract, Background, Objective, Methods, Results, Discussion, Conclusion sections as provided. No figures, tables, or supplementary materials were included in the supplied text.
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Table 1, Table 2, Figure 1) were not provided. Detailed docking parameters, software versions, validation metrics, and raw output data are absent. No statistical analysis or error estimates are reported.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding the molecular mechanism of quercetin in regulating HIF1α degradation. However, the evidence presented is insufficient to support the conclusions drawn. The study relies entirely on docking scores and predicted activity values without adequate validation, statistical treatment, or consideration of methodological limitations. The interpretation of docking results as evidence of functional promotion of protein-protein interactions is not justified. The manuscript requires substantial revision and additional evidence before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in cancer biology, natural product pharmacology, and hypoxia signaling might find the topic relevant. The potential role of quercetin in modulating HIF1α degradation could be of interest to those studying dietary compounds in cancer prevention. However, the current evidence level is preliminary and would primarily interest computational biologists or those specifically focused on in silico screening methods.
+- **Major strengths** The manuscript addresses a gap in understanding quercetin's mechanism of action beyond protein synthesis inhibition. The use of multiple computational tools (PASS, SwissDock, ClusPro) is appropriate for a preliminary screening study. The authors acknowledge the need for further in vitro and in vivo validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that quercetin "could directly promote HIF1α and pVHL interaction" based on docking results.
+  - **Evidence pointer** Results section, Table 2 (not provided)
+  - **Concern** The central conclusion is based on a comparison of docking scores between HIF1α-pVHL complexes in the presence versus absence of quercetin. However, the reported values are center-weighted scores from a single docking run without any measure of variability, statistical significance, or validation. The difference between -699.4 kJ/mol and -728.1 kJ/mol is presented as meaningful, but no error bars, replicate runs, or statistical tests are reported. Furthermore, the mechanism by which quercetin, a small molecule, would enhance a protein-protein interaction is not explained mechanistically. The docking of quercetin to individual proteins (pVHL, FIH, PHD2) does not demonstrate that quercetin simultaneously binds and stabilizes the HIF1α-pVHL complex.
+  - **Why it matters** The conclusion that quercetin promotes HIF1α degradation through enhanced pVHL interaction is the primary novel claim of the manuscript. Without robust evidence, this claim cannot be supported. Docking scores are predictive tools, not experimental measurements, and their interpretation as evidence of functional promotion requires substantial additional support.
+  - **Resolution test** Provide replicate docking runs with standard deviations, demonstrate that the observed differences are statistically significant, and include a mechanistic model showing how quercetin binding to pVHL enhances its interaction with HIF1α. Alternatively, provide experimental validation such as co-immunoprecipitation or ubiquitination assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that quercetin binding to FIH at the pVHL interaction site "could promote FIH and pVHL interaction."
+  - **Evidence pointer** Results section, Table 1, Figure 1 (not provided)
+  - **Concern** The claim that quercetin binding to FIH at the pVHL interaction site would promote FIH-pVHL interaction is counterintuitive. If quercetin occupies the pVHL interaction site on FIH, it would be expected to block, not promote, the interaction. The authors do not provide a mechanistic explanation for this claim. Additionally, the docking energy values for quercetin with pVHL, FIH, and PHD2 (38.996, 37.104, and 30.885 kJ/mol respectively) are positive values, which typically indicate unfavorable binding, yet the authors interpret these as meaningful interactions without addressing this apparent contradiction.
+  - **Why it matters** The interpretation of the docking results is inconsistent with basic biophysical principles. Positive binding energies suggest that the interactions are not thermodynamically favorable, which undermines the proposed mechanism. The claim about promoting FIH-pVHL interaction contradicts the stated binding location.
+  - **Resolution test** Clarify the units and sign convention of the docking scores. Provide a structural model showing how quercetin binding at the pVHL interaction site on FIH could enhance rather than block pVHL binding. Address why positive binding energies are interpreted as favorable interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that quercetin "could indirectly repressed HIF1α expression by fostering interaction between HIF1α and PHD2 and suppress HIF1α transactivation by promoting its interaction with FIH."
+  - **Evidence pointer** Results section, Table 2 (not provided)
+  - **Concern** The data presented do not support the conclusion that quercetin fosters or promotes interactions between HIF1α and PHD2 or FIH. The reported changes in center-weighted scores are minimal (e.g., -650.5 to -650.5 kJ/mol for HIF1α-PHD2, showing no change at all in one case) and the number of hydrogen bonds decreases in both cases (12 to 5 for FIH, 15 to 10 for PHD2). A decrease in hydrogen bonds typically indicates weaker interaction, not stronger. The authors interpret reduced binding energy as increased interaction, but the reduction is marginal and the hydrogen bond data contradict the interpretation.
+  - **Why it matters** The conclusion about indirect repression of HIF1α through PHD2 and FIH interactions is a key part of the proposed mechanism. The evidence is internally inconsistent, with hydrogen bond counts decreasing while the authors claim enhanced interaction. This undermines the validity of the entire proposed mechanism.
+  - **Resolution test** Provide a clear explanation of how reduced hydrogen bond counts are consistent with enhanced interaction. Show that the changes in docking scores are meaningful beyond numerical noise. Consider whether the data might actually indicate that quercetin weakens these interactions, and discuss the implications of that alternative interpretation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use the PASS prediction score (Pa = 0.969) for "HIF1α expression inhibitor" as evidence supporting their hypothesis.
+  - **Evidence pointer** Results section, Biological activity of quercetin
+  - **Concern** The PASS server predicts biological activity based on structural similarity to known compounds, but the prediction of "HIF1α expression inhibitor" activity does not provide mechanistic information. The authors use this prediction to justify their docking study, but the prediction itself is not validated experimentally. Additionally, the authors state that "If the score of Pa is more than 0.7, the laboratory experiments result will be similar to computational prediction results," but this threshold is presented without citation or justification.
+  - **Why it matters** The PASS prediction is used as a foundational justification for the study. If the prediction is not reliable or the threshold is arbitrary, the rationale for the study is weakened. The authors need to justify the use of this prediction and its threshold.
+  - **Resolution test** Provide a citation for the Pa threshold claim. Discuss the limitations of PASS predictions and how they relate to the specific claim about HIF1α inhibition. Consider whether the prediction adds meaningful evidence beyond the docking results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Background section
+  - **Issue** The background section provides general information about cancer and HIF1α but does not clearly state the specific gap in knowledge that this study addresses. The transition from general background to the specific hypothesis is abrupt.
+  - **Required correction** Revise the background to more clearly articulate the specific gap in understanding quercetin's mechanism of action and how this in silico study addresses that gap.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section
+  - **Issue** The methods section lacks critical details about the docking procedures. No information is provided about the preparation of protein structures, the definition of binding sites, the number of docking runs, or the scoring functions used. The software versions are not specified.
+  - **Required correction** Provide detailed methods including software versions, docking parameters, binding site definitions, and any preprocessing steps. This is essential for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, Table 1
+  - **Issue** The docking energy values for quercetin with pVHL, FIH, and PHD2 are reported as positive values (38.996, 37.104, 30.885 kJ/mol), which is unusual for binding energies. The sign convention is not explained.
+  - **Required correction** Clarify the sign convention for the reported energies. If these are not binding energies in the conventional sense, explain what they represent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is largely a restatement of the results without critical interpretation. The authors do not discuss limitations of the in silico approach or alternative interpretations of the data.
+  - **Required correction** Expand the discussion to include limitations of the computational approach, potential alternative interpretations, and how the results compare with previous experimental findings on quercetin and HIF1α.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion section
+  - **Evidence pointer** Conclusion section
+  - **Issue** The conclusion states that quercetin "could directly promote HIF1α and pVHL interaction" but this is presented as a definitive finding rather than a hypothesis generated by computational analysis.
+  - **Required correction** Frame the conclusion as a hypothesis that requires experimental validation, and clearly state the preliminary nature of in silico findings.
+
+## Risk / unsupported claims
+- The claim that quercetin "directly promotes" HIF1α-pVHL interaction is unsupported. Docking scores alone cannot establish functional promotion of protein-protein interactions.
+- The claim that quercetin binding to FIH at the pVHL interaction site would promote FIH-pVHL interaction is unsupported and mechanistically questionable.
+- The interpretation of reduced hydrogen bond counts as evidence of enhanced interaction is unsupported and internally inconsistent.
+- The claim that quercetin "could indirectly repress HIF1α expression" through PHD2 and FIH interactions is unsupported by the presented data.
+- The use of positive docking energy values as evidence of favorable interactions is unexplained and potentially misleading.
+- The Pa score threshold of 0.7 for predicting experimental similarity is presented without citation or justification.
+- The LD50 prediction of 3.02 mol/kg is reported without context or comparison to known values for quercetin.
+- The overall conclusion that quercetin regulates HIF1α degradation through the ubiquitin pathway is not established from the provided evidence.

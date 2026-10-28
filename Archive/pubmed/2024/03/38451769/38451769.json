@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "38451769",
+    "doi": "10.1109/TCBB.2024.3374430",
+    "title": "PPRTGI: A Personalized PageRank Graph Neural Network for TF-Target Gene Interaction Detection."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) regulation is required for the vast majority of biological processes in living organisms. Some diseases may be caused by improper transcriptional regulation. Identifying the target genes of TFs is thus critical for understanding cellular processes and analyzing disease molecular mechanisms. Computational approaches can be challenging to employ when attempting to predict potential interactions between TFs and target genes. In this paper, we present a novel graph model (PPRTGI) for detecting TF-target gene interactions using DNA sequence features. Feature representations of TFs and target genes are extracted from sequence embeddings and biological associations. Then, by combining the aggregated node feature with graph structure, PPRTGI uses a graph neural network with personalized PageRank to learn interaction patterns. Finally, a bilinear decoder is applied to predict interaction scores between TF and target gene nodes. We designed experiments on six datasets from different species. The experimental results show that PPRTGI is effective in regulatory interaction inference, with our proposed model achieving an area under receiver operating characteristic score of 93.87% and an area under precision-recall curves score of 88.79% on the human dataset. This paper proposes a new method for predicting TF-target gene interactions, which provides new insights into modeling molecular networks and can thus be used to gain a better understanding of complex biological systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*Computational Biology/methods",
+      "Humans",
+      "*Transcription Factors/genetics/metabolism",
+      "Algorithms",
+      "Gene Regulatory Networks/genetics",
+      "Animals",
+      "Databases, Genetic",
+      "Sequence Analysis, DNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Ke",
+        "Li, Jiawei",
+        "Zhao, Mengyuan",
+        "Zamit, Ibrahim",
+        "Lin, Bin",
+        "Guo, Fei",
+        "Tang, Jijun"
+      ],
+      "short_names": [
+        "Ma K",
+        "Li J",
+        "Zhao M",
+        "Zamit I",
+        "Lin B",
+        "Guo F",
+        "Tang J"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Ke",
+        "short_name": "Ma K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Jiawei",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhao, Mengyuan",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zamit, Ibrahim",
+        "short_name": "Zamit I",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lin, Bin",
+        "short_name": "Lin B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Guo, Fei",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tang, Jijun",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2024 May-Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/07 18:42",
+    "fetched_at": "2026-09-29 16:31:10"
+  },
+  "links": {
+    "cites": [
+      "42244099",
+      "41978381",
+      "41142752",
+      "39633440"
+    ],
+    "refs": [],
+    "similar": [
+      "38451769",
+      "38342857",
+      "35511108",
+      "18426580",
+      "32054475",
+      "32174324",
+      "22849367",
+      "39401117",
+      "24565025",
+      "33243142",
+      "20942926",
+      "30844478",
+      "36037084",
+      "40102719",
+      "29187152",
+      "29325558",
+      "33631799",
+      "38354497",
+      "32970681",
+      "24228871",
+      "21496241",
+      "37682477",
+      "37161255",
+      "22499684",
+      "35150255",
+      "21172055",
+      "30547796",
+      "34706640",
+      "22165960",
+      "23272209",
+      "39446541",
+      "39086148",
+      "22456606",
+      "23497388",
+      "25707768",
+      "18366607",
+      "22784627",
+      "38877401",
+      "40174317",
+      "20704747",
+      "24407294",
+      "19956545",
+      "38935070",
+      "31598675",
+      "39426693",
+      "29051499",
+      "29769331",
+      "30395277",
+      "33003522",
+      "21750739",
+      "35108355",
+      "31369568",
+      "26611531",
+      "31995498",
+      "39968416",
+      "39062464",
+      "39704704",
+      "34251621",
+      "19786497",
+      "19961622",
+      "34983363",
+      "18752680",
+      "34661237",
+      "39721415",
+      "34864886",
+      "29675796",
+      "35322335",
+      "21375730",
+      "26679776",
+      "32181581",
+      "39451156",
+      "37803124",
+      "27035433",
+      "36305458",
+      "36395130",
+      "35428964",
+      "31881824",
+      "37030839",
+      "38950180",
+      "37448360",
+      "35757392",
+      "18713790",
+      "33372147",
+      "34398763",
+      "40251476",
+      "30578913",
+      "37643105",
+      "31114921",
+      "39096613",
+      "29272447",
+      "22106333",
+      "23093926",
+      "38653489",
+      "37985457",
+      "20085649",
+      "31480350",
+      "39408682",
+      "30709337",
+      "38710353",
+      "32367110"
+    ],
+    "review": [
+      "38451769"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2024.3374430",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2024.3374430",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

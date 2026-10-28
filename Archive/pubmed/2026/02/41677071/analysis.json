@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41677071",
+  "title": "PlantCTCIP: Chromatin Interaction Prediction Using Convolutional Neural Network and Transformer in Plants.",
+  "authors": "Wang, Zhenye; Zhou, Siyu; Guo, Ze; Ning, Zilan; Cai, Jiaqi; Zhao, Ran; Xie, Ao; Li, Quan; Zhang, Jiangling; Zhao, Yongsheng; Li, Peizhang; Si, Haiping; Yan, Jianbing; Peng, Yong; Liu, Jianxiao",
+  "journal": "Plant biotechnology journal",
+  "published_date": "2026-02-12",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用CNN和Transformer预测植物染色质互作，虽涉及TF富集分析但核心是染色质构象而非TF-DNA结合建模，方法可迁移至TF-DNA互作预测。",
+  "abstract": "Chromatin interactions establish spatial proximity between distant regulatory elements and their target genes, significantly influencing gene expression, and phenotypic traits. In this study, we present a plant chromatin interaction prediction model called PlantCTCIP based on Convolutional Neural Networks and Transformer. PlantCTCIP demonstrated superior performance compared to the conventional models. Specifically, PlantCTCIP improved the average AUC of chromatin interaction predictions by 14.56% across the four species in PPI (proximal promoter interaction) mode. Similarly, PlantCTCIP improved the average AUC of chromatin interaction predictions by 9.6% in the PDI (distal promoter interaction) mode. We constructed genome-wide chromatin interaction maps for four plants (maize, rice, cotton and wheat) through PlantCTCIP, further used the Hi-C experiment to validate correctness of the predicted PPIs and PDIs. Some key motifs that influence chromatin interactions are identified, and they are significantly enriched in expression quantitative trait loci (eQTLs) and open chromatin regions. We also analysed the enrichment and species specificity of the transcription factors (TF) and synergistic network of TFs that affect PPIs and PDIs of four crops. Using cloned genes (ZmRAVL1, ZmRPG, ZmRap2.7 and GaFZ) of maize and cotton as examples, PlantCTCIP can assist in identifying target genes regulated by distal elements and mining functional sites combined with chromatin conformation capture (3C) experiments. This research helps to analyse the regulatory mechanism of gene expression and provides novel perspectives for intelligent design breeding of diverse crops. PlantCTCIP is available at http://www.plantctcip.com.",
+  "abstract_zh": "染色质相互作用建立了远距离调控元件与其靶基因之间的空间邻近性，显著影响基因表达及表型性状。在本研究中，我们提出了一种基于卷积神经网络和Transformer的植物染色质相互作用预测模型，称为PlantCTCIP。PlantCTCIP相较于传统模型表现出更优的性能。具体而言，在PPI（近端启动子相互作用）模式下，PlantCTCIP在四个物种中将染色质相互作用预测的平均AUC提高了14.56%。类似地，在PDI（远端启动子相互作用）模式下，PlantCTCIP将染色质相互作用预测的平均AUC提高了9.6%。我们通过PlantCTCIP构建了四种植物（玉米、水稻、棉花和小麦）的全基因组染色质相互作用图谱，并进一步使用Hi-C实验验证了预测的PPIs和PDIs的正确性。我们识别出了一些影响染色质相互作用的关键基序，这些基序在表达数量性状位点（eQTLs）和开放染色质区域中显著富集。我们还分析了影响四种作物PPIs和PDIs的转录因子（TF）的富集性、物种特异性以及TF的协同网络。以玉米和棉花的克隆基因（ZmRAVL1、ZmRPG、ZmRap2.7和GaFZ）为例，PlantCTCIP可辅助识别由远端元件调控的靶基因，并结合染色质构象捕获（3C）实验挖掘功能性位点。这项研究有助于分析基因表达的调控机制，并为多种作物的智能设计育种提供了新视角。PlantCTCIP可在http://www.plantctcip.com获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41677071/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41677071/",
+  "paper_page_path": "papers/pubmed/41677071/index.html"
+}

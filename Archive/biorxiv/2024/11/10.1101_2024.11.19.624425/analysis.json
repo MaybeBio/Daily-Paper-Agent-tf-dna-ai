@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.19.624425",
+  "title": "Machine learning application to predict binding affinity between peptide containing non-canonical amino acids and HLA0201",
+  "authors": "Shan Jiang; Zhaoqian Su; Nathaniel Bloodworth; Yunchao Liu; Cristina Martina; David G. Harrison; Jens Meiler",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-21",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测含非天然氨基酸肽段与MHC-I的结合亲和力，虽涉及肽-蛋白互作，但对象为MHC-I抗原呈递而非TF-DNA，且无三维互作建模，仅序列水平预测，与本课题关联较弱。",
+  "abstract": "Class 1 major histocompatibility complexes (MHC-I), encoded by the highly polymorphic HLA-A, HLA-B, and HLA-C genes in humans, are expressed on all nucleated cells. Both self and foreign proteins are processed to peptides of 8 to 10 amino acids, loaded into MCH-1 within the endoplasmic reticulum and then presented on the cell surface. Foreign peptides presented in this fashion activate CD8+ T cells and their immunogenicity correlates with their affinity for the MHC-1 binding groove. Thus, predicting antigen binding affinity for MHC-I is a valuable tool for identifying potentially immunogenic antigens. While quite a few predictors for MHC-I binding exist, there are no currently available tools that can predict antigen/MHC-I binding affinity for antigens with explicitly labeled post-translational modifications or unusual/non-canonical amino acids (NCAAs). However, such modifications are increasingly recognized as critical mediators of peptide immunogenicity. In this work, we propose a machine learning application that quantifies the binding affinity of epitopes containing NCAAs to MHC-I and compares its performance with other commonly used regressors. Our model demonstrates robust performance, with 5-fold cross-validation yielding an R 2 value of 0.477 and a root-mean-square error (RMSE) of 0.735, indicating strong predictive capability for peptides with NCAAs. This work provides a valuable tool for the computational design and optimization of peptides incorporating NCAAs, potentially accelerating the development of novel peptide-based therapeutics with enhanced properties and efficacy.",
+  "abstract_zh": "I类主要组织相容性复合体（MHC-I），由人类高度多态的HLA-A、HLA-B和HLA-C基因编码，在所有有核细胞上表达。自身蛋白和外来蛋白均被加工为8至10个氨基酸的肽段，在内质网中装载到MHC-I上，然后呈递至细胞表面。以这种方式呈递的外来肽激活CD8+ T细胞，其免疫原性与它们对MHC-I结合槽的亲和力相关。因此，预测抗原对MHC-I的结合亲和力是识别潜在免疫原性抗原的有价值工具。尽管已有不少MHC-I结合预测器，但目前尚无工具能够预测带有明确标记的翻译后修饰或非标准/非典型氨基酸（NCAAs）的抗原/MHC-I结合亲和力。然而，这类修饰日益被认为是肽免疫原性的关键调节因子。在本工作中，我们提出了一种机器学习应用，用于量化含有NCAAs的表位与MHC-I的结合亲和力，并将其性能与其他常用回归器进行比较。我们的模型表现出稳健的性能，5折交叉验证得出R²值为0.477，均方根误差（RMSE）为0.735，表明对含有NCAAs的肽具有强大的预测能力。这项工作为整合NCAAs的肽的计算设计和优化提供了有价值的工具，可能加速具有增强特性和效力的新型肽类疗法的开发。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.19.624425",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.19.624425",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.19.624425/index.html"
+}

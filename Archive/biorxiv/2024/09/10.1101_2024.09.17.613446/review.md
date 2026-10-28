@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure captions referenced, table references, supporting information list, acknowledgements, footnotes)
+- **Assessment boundary** Scientific claims, methodology, evidence consistency, and interpretation as presented in the supplied text. No external data, figures, or tables were available for direct inspection.
+- **Shared manuscript claim summary** The authors assert that palmatine binds to DNA predominantly via intercalation, based on long-range molecular dynamics simulations, MM/PBSA and MM/GBSA calculations, and umbrella sampling free energy profiles. They report thermodynamic and kinetic evidence favoring intercalation over minor groove binding, with major groove binding being transient. They also describe structural and solvation differences between binding modes and propose a mechanistic pathway for intercalation.
+- **Visible evidence base** Text descriptions of RMSD analysis (Figure S1), helical parameters (Table 1), hydrogen bond and radial distribution function analyses (Figure 2, Figure S2), MM/PBSA and MM/GBSA results (Table 2), umbrella sampling free energy profiles (Figure 5, Figure S3, Table S1), and overlap checks (Figure S4). No actual numerical data, plots, or tables were provided in the supplied material.
+- **Missing materials affecting confidence** All figures, tables, and supporting information files are referenced but not included. This prevents independent verification of quantitative results, statistical uncertainties, convergence criteria, and the quality of the umbrella sampling overlap. The exact simulation parameters, force field details, and system preparation protocols are only summarized as "Computational Details" in the ESI, which was not available.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the binding mode of palmatine to DNA, with potential implications for photodynamic therapy. The combination of equilibrium MD, end-point free energy methods, and enhanced sampling is appropriate. However, the evidence as presented is incomplete and partly inconsistent. The claim of "unequivocally" identifying intercalation as the dominant mode is not fully supported by the visible material, particularly because key quantitative data are missing and some reported values appear internally inconsistent. The mechanistic interpretation is plausible but requires stronger validation.
+- **Who would be interested in the results, and why** Researchers in computational chemistry, biophysics, and medicinal chemistry, particularly those studying DNA-ligand interactions, protoberberine alkaloids, and photodynamic therapy. The methodological approach may also interest practitioners of enhanced sampling simulations for ligand-DNA binding.
+- **Major strengths** The study combines multiple computational techniques to address a debated question. The use of two different DNA sequences adds some generality. The comparison with experimental calorimetry data is a positive feature. The discussion of solvation and hydrogen bonding differences between binding modes provides mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness and reproducibility
+  - **Claim pointer** The authors claim "unequivocally identify that intercalation is the dominant binding mode" based on MD, MM/PBSA, and umbrella sampling.
+  - **Evidence pointer** Tables 1 and 2, Figures 2, 5, S1-S4, and ESI "Computational Details" (location not provided)
+  - **Concern** The manuscript references multiple figures and tables that are not included in the supplied material. Without these, the quantitative basis for the central claim cannot be assessed. Specifically, the RMSD time series (Figure S1), helical parameter values (Table 1), MM/PBSA and MM/GBSA numbers (Table 2), PMF profiles (Figure 5), and overlap histograms (Figure S4) are all essential but unavailable. Additionally, the text states that MM/PBSA gives -17 kcal/mol for intercalation and -11 kcal/mol for minor groove, but later states the difference is "approximately 6 kcal/mol", which is inconsistent (the difference is 6 kcal/mol, but the text says "approximately 6 kcal/mol" after stating values that differ by exactly 6). This inconsistency is minor but suggests a lack of careful proofreading.
+  - **Why it matters** The central conclusion rests entirely on quantitative results that are not visible. Without access to the actual data, the reader cannot verify convergence, statistical error, or the magnitude of the reported free energy differences. The claim of "unequivocal" identification is therefore not justified from the supplied material.
+  - **Resolution test** Provide the actual figures and tables with numerical values, error bars, and convergence metrics. Clarify the discrepancy in the reported energy difference. Ensure that the ESI contains full simulation parameters and analysis details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor and validation
+  - **Claim pointer** The authors state that umbrella sampling yields a total binding free energy of -10.3 kcal/mol for intercalation and -5.4 kcal/mol for minor groove binding, and that these "compare well" with experimental values of -7.03 and -5.36 kcal/mol.
+  - **Evidence pointer** Table 2, Figure 5, Figure S3, Table S1 (location not provided)
+  - **Concern** The reported PMF values differ from experimental values by 3.3 kcal/mol for intercalation and 0.04 kcal/mol for minor groove. The claim of "compare well" is not quantitatively justified for intercalation, where the discrepancy is substantial. Moreover, the text does not report statistical uncertainties for the PMF values, nor does it discuss the choice of collective variable or the convergence of the umbrella sampling. The absence of a free energy barrier is stated but no quantitative evidence (e.g., barrier heights, error bars) is provided. The statement that "no free energy barrier was observed" is qualitative and cannot be evaluated without the PMF plots.
+  - **Why it matters** The kinetic argument (barrierless intercalation) is a key part of the claim. Without quantitative PMF data and uncertainty estimates, the reader cannot judge whether the absence of a barrier is real or an artifact of insufficient sampling or poor overlap.
+  - **Resolution test** Provide PMF profiles with error bars, discuss convergence (e.g., block averaging, multiple independent runs), and report the statistical significance of the difference between computed and experimental values. Justify the claim of "compare well" with a quantitative metric.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and generalizability
+  - **Claim pointer** The authors state that "intercalation is the dominant binding mode of palmatine with DNA, from either a thermodynamic and kinetic point of view" and generalize this to DNA without sequence qualification.
+  - **Evidence pointer** Main text, Tables 1-2, Figures 2, 5 (location not provided)
+  - **Concern** The study uses only two DNA sequences (AATT and AGTC). The authors do not discuss whether these sequences are representative of genomic DNA or whether the binding preference could vary with sequence context. The claim of "dominant binding mode" is made without a systematic exploration of sequence effects. Additionally, the text mentions that major groove binding is transient, but no quantitative data (e.g., residence times, binding free energies) are provided to support this.
+  - **Why it matters** If the binding mode is sequence-dependent, the conclusion may not generalize. The claim of dominance should be qualified by the sequence space explored.
+  - **Resolution test** Either limit the claim to the studied sequences or provide additional simulations on diverse sequences. Report quantitative metrics for major groove binding (e.g., occupancy, free energy) to support the "transient" characterization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Text in the paragraph on MM/PBSA results
+  - **Evidence pointer** Main text, paragraph beginning "As summarized in Table 2"
+  - **Issue** The text states "an enthalpic contribution of -17 kcal/mol is estimated for the latter mode, significantly more favorable the one for minor groove and major groove bindings, amounting at -11 kcal/mol and -4 kcal/mol, respectivel." The phrase "significantly more favorable the one" is grammatically incorrect and should read "significantly more favorable than that for". Also, "respectivel" is a typo for "respectively".
+  - **Required correction** Correct the grammar and spelling. Also, clarify whether the -17 kcal/mol value is for intercalation or minor groove, as the sentence structure is ambiguous.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Text in the paragraph on hydrogen bonding
+  - **Evidence pointer** Main text, paragraph beginning "Upon intercalation, the number of hydrogen bonds"
+  - **Issue** The text states "this fact is mainly due to the displacement of water molecules" and "the analyzed hydrogen atoms on these residues develop strongers interaction". "strongers" should be "stronger". Also, "this fact" is awkward; "this" would suffice.
+  - **Required correction** Correct the typo and rephrase for clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Text in the abstract and conclusion
+  - **Evidence pointer** Abstract, last sentence; main text, last paragraph
+  - **Issue** The abstract states "we unequivocally identify" but the main text later says "provide compelling evidence". The word "unequivocally" is too strong given the missing data and the acknowledged semi-quantitative nature of MM/PBSA. The conclusion also mentions "facile and barrierless intercalation" which is not directly supported by the visible data.
+  - **Required correction** Soften the language in the abstract to match the level of evidence presented. Avoid overclaiming.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** References to experimental data
+  - **Evidence pointer** Main text, paragraph on PMF results
+  - **Issue** The authors compare their computed free energies to experimental values from reference 12 but do not specify the experimental conditions (e.g., temperature, ionic strength, buffer). This omission makes the comparison difficult to evaluate.
+  - **Required correction** Provide the experimental conditions or cite the original source for the values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of actual data (figures, tables) and the lack of quantitative uncertainty analysis prevent the central claim from being verified. The inconsistency in the reported energy difference (6 kcal/mol vs. "approximately 6") also needs correction.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of palmatine binding mode is not new, but the combination of long-range MD with enhanced sampling and the focus on kinetic barriers adds some novelty. However, the approach is standard in computational chemistry.  
+  - Scientific importance: The result is of interest to the photodynamic therapy community, but the impact is moderate. The study does not provide new experimental insights or a new methodology.  
+  - Interdisciplinary readership: The topic bridges chemistry, biology, and medicine, but the presentation is heavily computational and may not be accessible to experimentalists without additional context.  
+  - Technical soundness: The methodology is appropriate, but the lack of visible data and uncertainty quantification undermines confidence. The reported inconsistencies and typos suggest a lack of careful review.  
+  - Readability for nonspecialists: The text is generally clear but includes jargon and references to methods that are not explained. The abstract is accessible, but the main text assumes familiarity with MD, MM/PBSA, and umbrella sampling.  
+  Overall, the manuscript does not currently meet the bar for a high-impact general journal. It may be suitable for a specialized computational chemistry or biophysics journal after major revisions.
+- **Recommendation posture** Currently not established from the provided evidence. The central claim cannot be verified without the missing data and uncertainty analysis. The manuscript requires major revisions, including the provision of all figures and tables, quantitative error bars, and a more cautious interpretation of the results.
+
+## Risk / unsupported claims
+- The claim of "unequivocally" identifying intercalation as the dominant binding mode is unsupported given the missing data and the semi-quantitative nature of the methods.
+- The statement that computed PMF values "compare well" with experimental data is not quantitatively justified for intercalation (3.3 kcal/mol discrepancy).
+- The claim of "no free energy barrier" for either binding mode is unverifiable without the PMF plots and convergence analysis.
+- The generalization of the binding preference to DNA in general is unsupported, as only two sequences were studied.
+- The statement that major groove binding is "transient" is unsupported by quantitative data.

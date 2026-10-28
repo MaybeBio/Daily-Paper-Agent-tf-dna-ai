@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "41714304",
+    "doi": "10.1111/jnc.70377",
+    "title": "Unraveling Network Pharmacology-Based Therapeutics of Anthranilate Sulfonamides via Sirtuins/FOXO3a Cascade in Alzheimer's Disease."
+  },
+  "content": {
+    "abstract": "Sulfonamide-based compounds have been a clinically attractive scaffold for drug development and proven as antioxidant and antimicrobial agents, but their pharmacological derivatives containing anthranilates (SA1-4) and therapeutic targets are not clearly clarified. To unravel the neuroprotective roles and underlying mechanisms of SA1-4 against oxidative injury and healthy longevity crosstalk, a combination of in vitro experiments, in silico modeling, and network pharmacology was employed. Pretreatment with SA1-4 in human neuronal SH-SY5Y cells significantly regulated sirtuins (SIRTs)/forkhead box class O 3a (FOXO3a)-mediated longevity signaling pathway via targeting endogenous antioxidant enzymes (i.e., superoxide dismutase 2 [SOD2] and catalase [CAT]), apoptotic cascades (i.e., Bcl-2-associated X-protein [BAX] and B-cell lymphoma-2 [BCL-2]), mitochondrial balance, and ultimately led to the neuronal rescue. Molecular docking simulations support the possibility of the SA1-4 modulatory effect within the active binding site of SIRT1. Importantly, in silico predictions of pharmacokinetic profiles suggested that the synthetic compounds possessed preferable drug-like properties, good oral bioavailability, and safety profiles. Network pharmacology also revealed the involvement of SA1-4 and key targets-regulated SIRTs in neurodegeneration, including non-amyloidogenic cascade, tau phosphorylation, calcium homeostasis, insulin-mediated glucose uptake, and neuroinflammation. Therefore, SA1-4 exert promising multi-target therapeutic strategies against oxidative damage, potentially offering alternative anti-Alzheimer candidates for further clinical neurodegenerative and anti-aging therapeutics.",
+    "keywords": [
+      "Alzheimer's disease",
+      "anthranilic acid",
+      "network pharmacology",
+      "neuroprotection",
+      "sirtuins/FOXO3a cascade",
+      "sulfonamide"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/drug therapy/metabolism",
+      "*Forkhead Box Protein O3/metabolism",
+      "*ortho-Aminobenzoates/pharmacology/therapeutic use/chemistry",
+      "*Sulfonamides/pharmacology/therapeutic use/chemistry",
+      "*Sirtuins/metabolism",
+      "*Network Pharmacology/methods",
+      "Molecular Docking Simulation",
+      "*Neuroprotective Agents/pharmacology/therapeutic use",
+      "Cell Line, Tumor",
+      "Signal Transduction/drug effects/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruankham, Waralee",
+        "Prachayasittikul, Veda",
+        "Pingaew, Ratchanok",
+        "Jeungprasopsuk, Wilasinee",
+        "Tantimongcolwat, Tanawut",
+        "Prachayasittikul, Virapong",
+        "Prachayasittikul, Supaluk",
+        "Phopin, Kamonrat"
+      ],
+      "short_names": [
+        "Ruankham W",
+        "Prachayasittikul V",
+        "Pingaew R",
+        "Jeungprasopsuk W",
+        "Tantimongcolwat T",
+        "Prachayasittikul V",
+        "Prachayasittikul S",
+        "Phopin K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2100-3780",
+        "ORCID: 0000-0001-6338-3721",
+        "ORCID: 0000-0003-4977-5854",
+        "ORCID: 0000-0002-9515-3012",
+        "ORCID: 0000-0002-7589-1288",
+        "ORCID: 0000-0001-7942-1083",
+        "ORCID: 0000-0002-5395-396X",
+        "ORCID: 0000-0002-5569-1860"
+      ],
+      "affiliations": [
+        "Department of Clinical Chemistry, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Department of Chemistry, Faculty of Science, Srinakharinwirot University, Bangkok, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Department of Clinical Microbiology and Applied Technology, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+        "Department of Clinical Microbiology and Applied Technology, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruankham, Waralee",
+        "short_name": "Ruankham W",
+        "identifiers": [
+          "0000-0003-2100-3780"
+        ],
+        "affiliations": [
+          "Department of Clinical Chemistry, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Prachayasittikul, Veda",
+        "short_name": "Prachayasittikul V",
+        "identifiers": [
+          "0000-0001-6338-3721"
+        ],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Pingaew, Ratchanok",
+        "short_name": "Pingaew R",
+        "identifiers": [
+          "0000-0003-4977-5854"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, Srinakharinwirot University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Jeungprasopsuk, Wilasinee",
+        "short_name": "Jeungprasopsuk W",
+        "identifiers": [
+          "0000-0002-9515-3012"
+        ],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Tantimongcolwat, Tanawut",
+        "short_name": "Tantimongcolwat T",
+        "identifiers": [
+          "0000-0002-7589-1288"
+        ],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Prachayasittikul, Virapong",
+        "short_name": "Prachayasittikul V",
+        "identifiers": [
+          "0000-0001-7942-1083"
+        ],
+        "affiliations": [
+          "Department of Clinical Microbiology and Applied Technology, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Prachayasittikul, Supaluk",
+        "short_name": "Prachayasittikul S",
+        "identifiers": [
+          "0000-0002-5395-396X"
+        ],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      },
+      {
+        "full_name": "Phopin, Kamonrat",
+        "short_name": "Phopin K",
+        "identifiers": [
+          "0000-0002-5569-1860"
+        ],
+        "affiliations": [
+          "Center for Research Innovation and Biomedical Informatics, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand.",
+          "Department of Clinical Microbiology and Applied Technology, Faculty of Medical Technology, Mahidol University, Bangkok, Thailand."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neurochemistry"
+    ],
+    "journal_abbrev": [
+      "J Neurochem"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 00:32",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42255617",
+      "42141806"
+    ],
+    "refs": [
+      "40657099",
+      "39931414",
+      "38107906",
+      "37852105",
+      "37784171",
+      "37266370",
+      "36983254",
+      "36918870",
+      "36918389",
+      "36677832",
+      "36235072",
+      "35935335",
+      "35909290",
+      "35865092",
+      "35675895",
+      "35614479",
+      "35575089",
+      "35516416",
+      "35342092",
+      "34938365",
+      "34265406",
+      "34117784",
+      "33893803",
+      "32781866",
+      "32288696",
+      "32117898",
+      "31606477",
+      "31275108",
+      "30929586",
+      "30301280",
+      "30260518",
+      "30205595",
+      "29710787",
+      "29417471",
+      "28256516",
+      "28241062",
+      "27882448",
+      "27857672",
+      "27766221",
+      "27764514",
+      "27154268",
+      "26109052",
+      "25860834",
+      "25076872",
+      "24591156",
+      "21219587",
+      "12036371",
+      "11934588",
+      "10746014"
+    ],
+    "similar": [
+      "41714304",
+      "33149812",
+      "41794256",
+      "32389853",
+      "30929586",
+      "42139977",
+      "40055645",
+      "42307826",
+      "41207328",
+      "39392030",
+      "42259474",
+      "42421348",
+      "39009828",
+      "41212470",
+      "41136693",
+      "42589300",
+      "42166973",
+      "42392749",
+      "41968216",
+      "41879392",
+      "42456907",
+      "41793494",
+      "42272280",
+      "42511539",
+      "35616676",
+      "36394096",
+      "40231534",
+      "42263916",
+      "40975041",
+      "40759849",
+      "40879814",
+      "41275722",
+      "41082993",
+      "42588443",
+      "42496889",
+      "42497520",
+      "41261300",
+      "41440909",
+      "41120087",
+      "40412586",
+      "40076984",
+      "41196440",
+      "42588505",
+      "37608672",
+      "39828396",
+      "41460031",
+      "39910202",
+      "40615101",
+      "39969345",
+      "38795753",
+      "39684911",
+      "41814823",
+      "41106565",
+      "40943466",
+      "42295684",
+      "41616469",
+      "39644364",
+      "40346444",
+      "39298035",
+      "41997458",
+      "35155508",
+      "41490553",
+      "31638783",
+      "39914143",
+      "40675430",
+      "38492794",
+      "40237798",
+      "38145859",
+      "41463396",
+      "37802813",
+      "38645989",
+      "24606795",
+      "38676511",
+      "27721157",
+      "42109914",
+      "29417471",
+      "38837094",
+      "39787692",
+      "41479381",
+      "41973126",
+      "41643607",
+      "42152268",
+      "41671842",
+      "40684044",
+      "27882448",
+      "40615099",
+      "41604898",
+      "39986226",
+      "26523980",
+      "41930874",
+      "41920384",
+      "42051019",
+      "40057579",
+      "42320774",
+      "39625499",
+      "40899340",
+      "36474082",
+      "41963454",
+      "36999542",
+      "41326063"
+    ],
+    "review": [
+      "41714304",
+      "42588443",
+      "42497520",
+      "40237798",
+      "41479381",
+      "27882448"
+    ],
+    "pmc": [
+      "12920268"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41714304/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/jnc.70377",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-472",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

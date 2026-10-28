@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "42151513",
+    "doi": "10.1038/s41598-026-53075-5",
+    "title": "An explainable AI framework integrating machine and deep learning models for multi-species DNA functional group classification."
+  },
+  "content": {
+    "abstract": "DNA functional group classification across species plays a crucial role in understanding genetic diversity, evolutionary relationships and biological function. The increasing availability of genomic data has led to the use of machine learning and deep learning methods for identifying functional patterns within DNA sequences. However, the interpretability of these models remains a challenge in validating biological relevance. This study presents an explainable AI framework that integrates machine learning and deep learning models for multi-species DNA functional group classification. The functional groups represent gene families, including transcription factors and kinases, and the classification task is carried out on Human, Chimpanzee, Dog, and a custom Combined dataset merging sequences from all three species. The DNA sequences were transformed into k-mers to capture local compositional patterns before training. Following a controlled hyperparameter tuning strategy, the Logistic Regression model consistently achieved the highest MCC and F1-scores across all evaluated datasets. While deep learning architectures captured longer motif dependencies, classical models showed stronger generalization across species. A multi-level XAI analysis was conducted using techniques such as Feature Importance, Saliency Maps, Integrated Gradients, GradientSHAP, and Attention Heatmaps. The analysis identified consensus motifs, cross-dataset and cross-model motif patterns, and evaluated model stability based on motif overlap and Jaccard similarity, as well as model fidelity based on performance drops after masking model-identified motifs.",
+    "keywords": [
+      "Attention heatmaps",
+      "Bioinformatics",
+      "DNA functional group classification",
+      "Deep learning",
+      "Explainable AI framework",
+      "Healthcare AI",
+      "Machine learning",
+      "k-mers"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Deep Learning",
+      "Humans",
+      "Dogs",
+      "*DNA/genetics/classification",
+      "*Machine Learning",
+      "Pan troglodytes/genetics",
+      "Classification Algorithms",
+      "Sequence Analysis, DNA/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakraborty, Pratik",
+        "Shanthi, P B"
+      ],
+      "short_names": [
+        "Chakraborty P",
+        "Shanthi PB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, India. pratikchakra18@gmail.com.",
+        "Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, India. shanthi.moorkoth@manipal.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakraborty, Pratik",
+        "short_name": "Chakraborty P",
+        "identifiers": [],
+        "affiliations": [
+          "Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, India. pratikchakra18@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Shanthi, P B",
+        "short_name": "Shanthi PB",
+        "identifiers": [],
+        "affiliations": [
+          "Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, India. shanthi.moorkoth@manipal.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 May 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 00:27",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39897059",
+      "38352901",
+      "37916871",
+      "37745853",
+      "36738712",
+      "36192604",
+      "35863177",
+      "35417351",
+      "34839075",
+      "34764607",
+      "34306171",
+      "33834200",
+      "33538820",
+      "33407114",
+      "33015010",
+      "29382253",
+      "20409503",
+      "17579989",
+      "16855295",
+      "8639166"
+    ],
+    "similar": [
+      "42151513",
+      "42475469",
+      "41957161",
+      "42129448",
+      "42351902",
+      "38796034",
+      "40751377",
+      "42514178",
+      "41021995",
+      "40887506",
+      "39135093",
+      "41352488",
+      "41191081",
+      "41735399",
+      "41449395",
+      "42045389",
+      "41419964",
+      "42427937",
+      "41484760",
+      "42014904",
+      "40597254",
+      "42399867",
+      "41862532",
+      "42380674",
+      "41154716",
+      "41381695",
+      "38581445",
+      "40570739",
+      "38977750",
+      "40309751",
+      "42050907",
+      "42487110",
+      "41820213",
+      "41535484",
+      "39576667",
+      "42457879",
+      "42365531",
+      "41181843",
+      "40598008",
+      "39696434",
+      "40595253",
+      "42002567",
+      "42351452",
+      "41591137",
+      "41216267",
+      "42078445",
+      "41140625",
+      "42536504",
+      "42483770",
+      "38096313",
+      "41449383",
+      "40563969",
+      "41575322",
+      "41998703",
+      "41529257",
+      "41514940",
+      "41444906",
+      "41820212",
+      "41925147",
+      "41257660",
+      "41265065",
+      "41904288",
+      "41772028",
+      "41545932",
+      "41196832",
+      "40249992",
+      "42449811",
+      "42155534",
+      "40292890",
+      "41735486",
+      "41500778",
+      "42427209",
+      "40952788",
+      "42235465",
+      "40300435",
+      "41839829",
+      "42443634",
+      "41931572",
+      "41258065",
+      "42094198",
+      "41034712",
+      "41991376",
+      "41814294",
+      "42112224",
+      "41667529",
+      "37866126",
+      "40128875",
+      "42046675",
+      "40275204",
+      "41253851",
+      "39823821",
+      "42049919",
+      "42386830",
+      "42341346",
+      "42056187",
+      "41957753",
+      "40574309",
+      "42096457",
+      "41946801",
+      "42374059"
+    ],
+    "review": [
+      "42151513",
+      "41449395",
+      "42399867",
+      "41265065",
+      "42112224",
+      "42341346"
+    ],
+    "pmc": [
+      "13389324"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-53075-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42151513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

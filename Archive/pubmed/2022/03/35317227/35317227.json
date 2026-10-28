@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "35317227",
+    "doi": "10.1016/j.csbj.2022.02.025",
+    "title": "The auto-inhibition mechanism of transcription factor Ets-1 induced by phosphorylation on the intrinsically disordered region."
+  },
+  "content": {
+    "abstract": "As the most abundant post-translation modifications (PTMs), the phosphorylation usually occurred on the intrinsically disordered regions (IDRs). The regulation on the structures and interactions of IDRs induced by phosphorylation is critical to the function performing. The eukaryotic transcription factor 1 (Ets-1) is a member of transcription factor family, which participates in many important biological processes. The DNA-binding ability of Ets-1 is auto-inhibited by a disordered serine-rich region (SRR) on the Ets-1. The inhibition ability of SRR is greatly enhanced by the phosphorylation of the serine on the SRR. Nevertheless, the molecular mechanisms of the phosphorylation regulation on the structure and activity of Ets-1 are still unclear and under debates. By using both of the molecular simulations and biochemical experiments, we studied the molecule mechanism of phosphorylation regulation on the auto-inhibition of the Ets-1. The reasons of stabilization of Ets-1 core by phosphorylation on SRR region were elucidated. More important, the free energy landscapes (FEL) show that both of the steric hindrance and allosteric regulation are responsible for the DNA-binding inhibitory induced by phosphorylation, but the steric effects contribute greater than the allosteric regulation. The phosphorylation not only enhances the electrostatic interactions to facilitate the steric impedance, but also promotes the formation of hydrophobic residue clusters, which provide major driven force for the allosteric regulation. The structural basis of auto-inhibition of Ets-1 induced by the phosphorylation revealed in this study would great help the developing of inhibitor for the cancer therapy.",
+    "keywords": [
+      "BE, Biased-exchange",
+      "CD, Circular dichroism",
+      "CS, Chemical shift",
+      "DCC, Dynamic correlation coefficient",
+      "EMSA, Electrophoretic mobility shift assay",
+      "FEL, Free energy landscape",
+      "HRC, Hydrophobic residue clusters",
+      "IDRs, Intrinsically disordered regions",
+      "IM, Inhibitory module",
+      "PT-WTE, Parallel tempering Well-Tempered Ensemble",
+      "PTMs, Post-translation modifications",
+      "RMSE, Root-mean-square error",
+      "SRR, Serine-rich region"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ning, Shangbo",
+        "Chao, Hong-Jun",
+        "Li, Shuangli",
+        "Zhou, Rui",
+        "Zou, Lei",
+        "Zhang, Xu",
+        "Liu, Jun",
+        "Yan, Dazhong",
+        "Duan, Mojie"
+      ],
+      "short_names": [
+        "Ning S",
+        "Chao HJ",
+        "Li S",
+        "Zhou R",
+        "Zou L",
+        "Zhang X",
+        "Liu J",
+        "Yan D",
+        "Duan M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+        "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China.",
+        "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China.",
+        "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China.",
+        "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China.",
+        "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China.",
+        "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China.",
+        "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China.",
+        "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China.",
+        "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ning, Shangbo",
+        "short_name": "Ning S",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+          "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chao, Hong-Jun",
+        "short_name": "Chao HJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuangli",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Rui",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zou, Lei",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jun",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Dazhong",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Duan, Mojie",
+        "short_name": "Duan M",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Magnetic Resonance in Wuhan, State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan 430071, Hubei, People's Republic of China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/24 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "41889773",
+      "41599722",
+      "41511382",
+      "41145444",
+      "40909693",
+      "39523439",
+      "39192607",
+      "39141165",
+      "38870936",
+      "36358908"
+    ],
+    "refs": [
+      "36703366",
+      "30786234",
+      "30597162",
+      "29466338",
+      "29443972",
+      "29309620",
+      "29100108",
+      "28493424",
+      "27819658",
+      "27818261",
+      "26851279",
+      "26851275",
+      "26606473",
+      "26588950",
+      "26119340",
+      "25533957",
+      "25531225",
+      "25024220",
+      "24253305",
+      "23364837",
+      "23264757",
+      "22806145",
+      "21940109",
+      "21448735",
+      "20866953",
+      "20495563",
+      "20378371",
+      "19662155",
+      "19253033",
+      "18784729",
+      "18692067",
+      "17703195",
+      "17419610",
+      "17212484",
+      "16200636",
+      "15994560",
+      "15738986",
+      "15591056",
+      "12221090",
+      "11749371",
+      "11483993",
+      "11460554"
+    ],
+    "similar": [
+      "35317227",
+      "29309620",
+      "18692067",
+      "30597162",
+      "25024220",
+      "27362745",
+      "35298814",
+      "10594011",
+      "31709918",
+      "24333486",
+      "36703366",
+      "8745408",
+      "39206127",
+      "33076213",
+      "25670864",
+      "25533957",
+      "15591056",
+      "23912807",
+      "39186607",
+      "28161714",
+      "34320339",
+      "29626537",
+      "31951234",
+      "26851279",
+      "22174274",
+      "8628272",
+      "14507917",
+      "38705823",
+      "26307970",
+      "31632982",
+      "28867216",
+      "31707710",
+      "27179590",
+      "29722136",
+      "28092832",
+      "36648282",
+      "31441158",
+      "37905972",
+      "32696391",
+      "18566588",
+      "11682477",
+      "34825861",
+      "33243935",
+      "9111309",
+      "10194767",
+      "10673508",
+      "8552081",
+      "38605029",
+      "38915510",
+      "33567297",
+      "17127463",
+      "25490397",
+      "29100108",
+      "33267376",
+      "33122085",
+      "15994560",
+      "35139468",
+      "11689571",
+      "33791275",
+      "29719201",
+      "33406091",
+      "31908009",
+      "27807972",
+      "26742101",
+      "38250404",
+      "7569926",
+      "34527192",
+      "12034715",
+      "36929465",
+      "30802457",
+      "21494553",
+      "23861868",
+      "10594012",
+      "35174713",
+      "29945970",
+      "37657994",
+      "34303077",
+      "21544627",
+      "25866208",
+      "33194509",
+      "31048376",
+      "37333393",
+      "10913304",
+      "26661739",
+      "12221090",
+      "32824743",
+      "9431810",
+      "16263717",
+      "36265487",
+      "39093570",
+      "15469934",
+      "20079749",
+      "10760799",
+      "36833360",
+      "25374254",
+      "26242913",
+      "25017730",
+      "16682805"
+    ],
+    "review": [
+      "35317227",
+      "31709918",
+      "39206127",
+      "26851279",
+      "38705823",
+      "31707710",
+      "29722136",
+      "36648282",
+      "31441158",
+      "33243935",
+      "33567297",
+      "29100108",
+      "35139468",
+      "33791275",
+      "37657994",
+      "34303077",
+      "33194509",
+      "36265487",
+      "39093570"
+    ],
+    "pmc": [
+      "8902471"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00065-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35317227/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35317227",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1206",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

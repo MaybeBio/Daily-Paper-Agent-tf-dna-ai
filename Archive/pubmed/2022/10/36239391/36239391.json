@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "36239391",
+    "doi": "10.1093/bib/bbac438",
+    "title": "AgingBank: a manually curated knowledgebase and high-throughput analysis platform that provides experimentally supported multi-omics data relevant to aging in multiple species."
+  },
+  "content": {
+    "abstract": "Discovering the biological basis of aging is one of the greatest remaining challenges for biomedical field. Work on the biology of aging has discovered a range of interventions and pathways that control aging rate. Thus, we developed AgingBank (http://bio-bigdata.hrbmu.edu.cn/AgingBank) which was a manually curated comprehensive database and high-throughput analysis platform that provided experimentally supported multi-omics data relevant to aging in multiple species. AgingBank contained 3771 experimentally verified aging-related multi-omics entries from studies across more than 50 model organisms, including human, mice, worms, flies and yeast. The records included genome (single nucleotide polymorphism, copy number variation and somatic mutation), transcriptome [mRNA, long non-coding RNA (lncRNA), microRNA (miRNA) and circular RNA (circRNA)], epigenome (DNA methylation and histone modification), other modification and regulation elements (transcription factor, enhancer, promoter, gene silence, alternative splicing and RNA editing). In addition, AgingBank was also an online computational analysis platform containing five useful tools (Aging Landscape, Differential Expression Analyzer, Data Heat Mapper, Co-Expression Network and Functional Annotation Analyzer), nearly 112 high-throughput experiments of genes, miRNAs, lncRNAs, circRNAs and methylation sites related with aging. Cancer & Aging module was developed to explore the relationships between aging and cancer. Submit & Analysis module allows users upload and analyze their experiments data. AginBank is a valuable resource for elucidating aging-related biomarkers and relationships with other diseases.",
+    "keywords": [
+      "aging",
+      "database",
+      "diseases",
+      "multi-omics",
+      "multiple species"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mice",
+      "Animals",
+      "DNA Copy Number Variations",
+      "*RNA, Long Noncoding/genetics/metabolism",
+      "RNA, Circular",
+      "*MicroRNAs/genetics",
+      "*Neoplasms/genetics",
+      "Knowledge Bases",
+      "Aging/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Yue",
+        "Shang, Shipeng",
+        "Guo, Shuang",
+        "Wang, Xinyue",
+        "Zhou, Hanxiao",
+        "Sun, Yue",
+        "Gan, Jing",
+        "Zhang, Yakun",
+        "Li, Xia",
+        "Ning, Shangwei",
+        "Zhang, Yunpeng"
+      ],
+      "short_names": [
+        "Gao Y",
+        "Shang S",
+        "Guo S",
+        "Wang X",
+        "Zhou H",
+        "Sun Y",
+        "Gan J",
+        "Zhang Y",
+        "Li X",
+        "Ning S",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9794-2648",
+        "ORCID: 0000-0003-4079-8945",
+        "ORCID: 0000-0002-3709-3656"
+      ],
+      "affiliations": [
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Yue",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Shipeng",
+        "short_name": "Shang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China.",
+          "School of Basic Medicine, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Shuang",
+        "short_name": "Guo S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hanxiao",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yue",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Jing",
+        "short_name": "Gan J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yakun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xia",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0002-9794-2648"
+        ],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Shangwei",
+        "short_name": "Ning S",
+        "identifiers": [
+          "0000-0003-4079-8945"
+        ],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunpeng",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-3709-3656"
+        ],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Nov 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/15 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "40659676",
+      "39796714",
+      "39769433",
+      "39695922",
+      "38040715",
+      "38017182",
+      "37850649",
+      "37533767",
+      "36794708",
+      "36601431"
+    ],
+    "refs": [],
+    "similar": [
+      "36239391",
+      "33219685",
+      "33219661",
+      "31799597",
+      "31713618",
+      "26578591",
+      "30128795",
+      "36736440",
+      "30407549",
+      "30025927",
+      "33112702",
+      "26481356",
+      "29069510",
+      "31155677",
+      "31792500",
+      "35690768",
+      "34570220",
+      "35809855",
+      "29194536",
+      "32105730",
+      "34743709",
+      "28985416",
+      "36653322",
+      "37850649",
+      "36355332",
+      "37843156",
+      "26612864",
+      "30476305",
+      "24297251",
+      "33859751",
+      "32751923",
+      "23161675",
+      "33219686",
+      "33529633",
+      "30329098",
+      "36187128",
+      "33557879",
+      "23175614",
+      "36321659",
+      "34738881",
+      "31726968",
+      "35427215",
+      "30945202",
+      "30695714",
+      "29788225",
+      "33010163",
+      "33181824",
+      "23193281",
+      "32756901",
+      "31390943",
+      "34044218",
+      "35676786",
+      "35757392",
+      "34049287",
+      "35524165",
+      "34850125",
+      "39128019",
+      "32232674",
+      "30689723",
+      "36203142",
+      "34850920",
+      "27651464",
+      "31125116",
+      "35799021",
+      "37819033",
+      "26424084",
+      "29106642",
+      "35672672",
+      "35860558",
+      "36912931",
+      "34414701",
+      "32228580",
+      "32019413",
+      "38788333",
+      "34898376",
+      "30138363",
+      "35313353",
+      "36330950",
+      "34014398",
+      "26040787",
+      "35524814",
+      "30269358",
+      "34530446",
+      "29939204",
+      "31781648",
+      "28836827",
+      "30692017",
+      "32675050",
+      "29322451",
+      "37099972",
+      "37897359",
+      "27924020",
+      "36300619",
+      "30759219",
+      "34140474",
+      "37811897",
+      "39175079",
+      "37650649",
+      "38613826",
+      "36446819",
+      "36300629",
+      "34788843",
+      "36200838",
+      "39420633",
+      "38330823",
+      "36847572",
+      "37941124",
+      "36271790",
+      "37730627",
+      "34718720",
+      "37805704",
+      "35761387",
+      "34900127",
+      "39329269",
+      "39417483",
+      "26342919",
+      "37027007",
+      "37870473",
+      "36243976",
+      "38164175",
+      "39351883",
+      "37372118",
+      "35586569",
+      "38357003"
+    ],
+    "review": [
+      "36239391",
+      "31155677",
+      "35427215",
+      "32756901",
+      "29939204"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/36239391.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36239391",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac438",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

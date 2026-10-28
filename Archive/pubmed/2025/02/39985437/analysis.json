@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39985437",
+  "title": "NABhClassifier Server: A Tool for the Identification of Helical Nucleic Acid-Binding Sequences in Proteins.",
+  "authors": "Margis, Rogerio; Macedo, Iara; Rodrigues, Nureyev F; Dias-Oliveira, Mateus; Lazzarotto, Fernanda; Trindade de Souza, Diego; Zanatta, Geancarlo",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-02-22",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了一个基于八种机器学习模型的网络服务器，用于预测蛋白质中螺旋核酸结合序列，属于广义蛋白-DNA/RNA互作位点识别，方法可迁移至TF-DNA结合位点预测，但未聚焦TF-DNA体系且缺乏三维互作建模。",
+  "abstract": "Engineered proteins capable of binding and transporting nucleic acids hold significant potential for advancing disease control in both the medical and agricultural fields. However, identifying small nucleic acid-binding domains remains challenging, as existing predictors primarily classify entire proteins as binders or nonbinders rather than targeting specific binding regions. Here, we introduce NABhClassifier, a highly efficient and precise web server designed to detect small helical sequences with nucleic acid-binding potential. Featuring an intuitive interface and a fully automated prediction pipeline, NABhClassifier integrates eight machine learning models for rapid analysis, delivering results in seconds per protein sequence. Predictions are summarized in the NABh index, a consensus score that combines outputs from all models for enhanced reliability. The server's accuracy has been validated on data sets of DNA-binding and single- and double-stranded RNA-binding proteins from various species. NABhClassifier provides a powerful tool for identifying small helices with nucleic acid-binding capacity, facilitating the discovery of novel biotechnological applications. The server, along with tutorials, is freely accessible at http://143.54.25.149.",
+  "abstract_zh": "能够结合并转运核酸的工程化蛋白质在医学和农业领域推进疾病控制方面具有显著潜力。然而，识别小型核酸结合域仍具挑战性，因为现有预测器主要将整个蛋白质分类为结合剂或非结合剂，而非针对特定结合区域。在此，我们介绍NABhClassifier，一个高效且精确的网络服务器，旨在检测具有核酸结合潜力的小型螺旋序列。凭借直观界面和全自动预测流程，NABhClassifier整合了八种机器学习模型以进行快速分析，每个蛋白质序列在数秒内即可获得结果。预测结果汇总于NABh指数中，这是一个结合所有模型输出的共识评分，以增强可靠性。该服务器的准确性已在来自不同物种的DNA结合蛋白及单链和双链RNA结合蛋白数据集上得到验证。NABhClassifier为识别具有核酸结合能力的小型螺旋提供了强大工具，有助于发现新型生物技术应用。该服务器及其教程可免费访问，网址为http://143.54.25.149。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39985437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39985437/",
+  "paper_page_path": "papers/pubmed/39985437/index.html"
+}

@@ -1,0 +1,684 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.09.687492",
+  "title": "Clustering of Direct and Indirect DNA Binding Motifs of Human and Mouse Transcription Factors: X-TFBS Compendium from ChIP-seq",
+  "doi": "10.1101/2025.11.09.687492",
+  "abstract": "Uncovering networks of gene expression regulation requires knowledge of specific DNA-binding motifs of transcription factors (TFs). Most TFs have multiple DNA motifs enriched in its ChIP-seq peak regions because of protein interaction and spatial correlation between TFs and cofactors. To capture both direct binding and indirect association of TFs with specific DNA locations, all-against-all relations are identified here between TFs and DNA-binding motifs by the reanalysis of 8027 human and 2820 mouse ChIP-seq experiments from GEO. DNA motifs were analyzed with CisFinder and then clustered using the new k-mean algorithm tailored for this kind of data. Additional clusters of motifs were found by filtering ChIP-seq peaks based on their location in promoters, enhancers, and repeat-depleted regions. The new X-TFBS compendium, which includes 1157 human and 536 mouse clusters bound by 459 orthologous human-mouse pairs of TFs, 1038 human-only, and 165 mouse-only TFs, is the largest among existing databases. Most orthologous TFs in human and mouse have nearly identical DNA-binding motifs. Clustering helps to annotate TF-binding motifs and evaluate interactions between TFs that are associated with the same motif. Visual comparison of large sets of DNA motifs is simplified by using sequence script instead of sequence logo.",
+  "authors": [
+    "Alexei A. Sharov"
+  ],
+  "published_date": "2025-11-11",
+  "updated_date": "2025-11-11T15:40:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.09.687492",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.09.687492.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:38:38Z",
+        "timestamp": 1768527518891,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 89,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2025-11-11T00:00:00Z",
+            "timestamp": 1762819200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Uncovering networks of gene expression regulation requires knowledge of specific DNA-binding motifs of transcription factors (TFs). Most TFs have multiple DNA motifs enriched in its ChIP-seq peak regions because of protein interaction and spatial correlation between TFs and cofactors. To capture both direct binding and indirect association of TFs with specific DNA locations, all-against-all relations are identified here between TFs and DNA-binding motifs by the reanalysis of 8027 human and 2820 mouse ChIP-seq experiments from GEO. DNA motifs were analyzed with CisFinder and then clustered using the new k-mean algorithm tailored for this kind of data. Additional clusters of motifs were found by filtering ChIP-seq peaks based on their location in promoters, enhancers, and repeat-depleted regions. The new X-TFBS compendium, which includes 1157 human and 536 mouse clusters bound by 459 orthologous human-mouse pairs of TFs, 1038 human-only, and 165 mouse-only TFs, is the largest among existing databases. Most orthologous TFs in human and mouse have nearly identical DNA-binding motifs. Clustering helps to annotate TF-binding motifs and evaluate interactions between TFs that are associated with the same motif. Visual comparison of large sets of DNA motifs is simplified by using sequence script instead of sequence logo.</jats:p>",
+      "DOI": "10.1101/2025.11.09.687492",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2025-11-11T15:40:13Z",
+        "timestamp": 1762875613000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Clustering of Direct and Indirect DNA Binding Motifs of Human and Mouse Transcription Factors: X-TFBS Compendium from ChIP-seq"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2540-7646",
+          "authenticated-orcid": false,
+          "given": "Alexei A.",
+          "family": "Sharov",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2012.04.006"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-01996-3"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Angelis, N. , A. Baulies , F. Hubl , A. Kucharska , G. Kelly , M. Llorian , S. Boeing , and V.S.W. Li . 2024. Loss of ARID3A perturbs intestinal epithelial proliferation-differentiation ratio and regeneration. J Exp Med 221.",
+          "DOI": "10.1084/jem.20232279"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.330837.119"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Blazevits, O. , N. Bolshette , D. Vecchio , A. Guijarro , O. Croci , S. Campaner , and B. Grimaldi . 2020. MYC-Associated Factor MAX is a Regulator of the Circadian Clock. Int J Mol Sci 21.",
+          "DOI": "10.3390/ijms21072294"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.08.020"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1745-6150-5-55"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e13053",
+          "DOI": "10.1111/pim.13053",
+          "article-title": "Circadian Regulation of Leishmania Parasite Internalisation in Macrophages and Downstream Cellular Events",
+          "volume": "46",
+          "year": "2024",
+          "journal-title": "Parasite Immunol"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2017.02.017"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.04.043"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "9918",
+          "DOI": "10.1038/s41598-025-94533-w",
+          "article-title": "Cohesin and condensin regulate chromosome topology and play an essential role in maintaining pluripotency in embryonic stem cells",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imm.12888"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0087942"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2023.10.012"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0203833",
+          "DOI": "10.1371/journal.pone.0203833",
+          "article-title": "TFDP3 regulates the apoptosis and autophagy in breast cancer cell line MDA-MB-231",
+          "volume": "13",
+          "year": "2018",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2826.2008.01651.x"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.17",
+          "first-page": "e27521",
+          "article-title": "STAT2 and IRF9: Beyond ISGF3",
+          "volume": "2",
+          "year": "2014",
+          "journal-title": "JAKSTAT"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.01523-13"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa197"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/bbrc.2001.4931"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1471-4159.2002.01249.x"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.24",
+          "first-page": "625",
+          "article-title": "Chromatin accessibility and pioneer factor FOXA1 restrict glucocorticoid receptor action in prostate cancer",
+          "volume": "52",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2108/zsj.21.359"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.ctdb.2016.01.004"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.leu.2400723"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-6088-0"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature21683"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-86544-0"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-018-2972-z"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang, K. , Y. Choi , H. Moon , C. You , M. Seo , G. Kwon , J. Yun , and B. Beck . 2021. Epigenomic Analysis of RAD51 ChIP-seq Data Reveals cis-regulatory Elements Associated with Autophagy in Cancer Cell Lines. Cancers (Basel) 13.",
+          "DOI": "10.3390/cancers13112547"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-12-405943-6.00010-5"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.26.14553"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.35",
+          "first-page": "133",
+          "article-title": "Deep Learning of Sequence Patterns for CCCTC-Binding Factor-Mediated Chromatin Loop Formation",
+          "volume": "28",
+          "year": "2020",
+          "journal-title": "J Comput Biol"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab185"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.22.21.7439-7448.2002"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.275472.121"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0411-1"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1005882"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M110.133603"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "240329",
+          "DOI": "10.1098/rsob.240329",
+          "article-title": "Kaiso mediates transcription and RNA splicing in colorectal carcinoma: role of BRCA1 in the Kaiso enhanceosome",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Open Biol"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Maissan, P. and C. Carlberg . 2025. Circadian Regulation of Vitamin D Target Genes Reveals a Network Shaped by Individual Responsiveness. Nutrients 17.",
+          "DOI": "10.3390/nu17071204"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1350705"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1016/j.leukres.2016.04.006",
+          "article-title": "The miR-17 approximately 92 cluster contributes to MLL leukemia through the repression of MEIS1 competitor PKNOX1",
+          "volume": "46",
+          "year": "2016",
+          "journal-title": "Leuk Res"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/onc.2010.47"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Miyazono, K.I. , S. Moriwaki , T. Ito , A. Kurisaki , M. Asashima , and M. Tanokura . 2018. Hydrophobic patches on SMAD2 and SMAD3 determine selective binding to cofactors. Sci Signal 11.",
+          "DOI": "10.1126/scisignal.aao7227"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-neuro-060909-153128"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr572"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1005375"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2008.10.025"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.53",
+          "first-page": "279",
+          "article-title": "Recent advances in ChIP-seq analysis: from quality management to whole-genome annotation",
+          "volume": "18",
+          "year": "2016",
+          "journal-title": "Brief Bioinform"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.54",
+          "first-page": "D1046",
+          "article-title": "The UCSC Genome Browser database: 2021 update",
+          "volume": "49",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11212"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1145"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/leu.2016.27"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2641"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "E804",
+          "DOI": "10.1152/ajpendo.00438.2024",
+          "article-title": "FOXM1 cooperates with ERalpha to regulate functional beta-cell mass",
+          "volume": "328",
+          "year": "2025",
+          "journal-title": "Am J Physiol Endocrinol Metab"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.6b00171"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1039"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.62",
+          "first-page": "502",
+          "article-title": "Transcription Elongation Machinery Is a Druggable Dependency and Potentiates Immunotherapy in Glioblastoma Stem Cells",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cancer Discov"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1059"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1718426115"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-1119(99)00180-8"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/en.2014-1101"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0801273105"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccr.2012.06.007"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/jc.2004-0817"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/dnares/dsp014"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.19.4.3051"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1002072"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.3076"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2007.06.128"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2528-x"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00477-15"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1077"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-8-23"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1109023108"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/me.13.8.1373"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.82",
+          "first-page": "1018",
+          "article-title": "TGIF1 is a negative regulator of MLL-rearranged acute myeloid leukemia",
+          "volume": "29",
+          "year": "2014",
+          "journal-title": "Leukemia"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-19205-x"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.84",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2219352120",
+          "DOI": "10.1073/pnas.2219352120",
+          "article-title": "Targeting the PHF8/YY1 axis suppresses cancer cell growth through modulation of ROS",
+          "volume": "121",
+          "year": "2024",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-11297-3"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.0486-14.2014"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2017.07.026"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.88",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yu, C.P. , C.H. Kuo , C.W. Nelson , C.A. Chen , Z.T. Soh , J.J. Lin , R.X. Hsiao , C.Y. Chang , and W.H. Li . 2021. Discovering unknown human and mouse transcription factor binding sites and their characteristics from ChIP-seq data. Proc Natl Acad Sci U S A 118.",
+          "DOI": "10.1073/pnas.2026754118"
+        },
+        {
+          "key": "2025111309252721000_2025.11.09.687492v1.89",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, X. , Y. Wei , X. Li , C. Li , L. Zhang , Z. Liu , Y. Cao , W. Li , J. Zhang , M. Shen et al. 2022. The Corticosterone-Glucocorticoid Receptor-AP1/CREB Axis Inhibits the Luteinizing Hormone Receptor Expression in Mouse Granulosa Cells. Int J Mol Sci 23.",
+          "DOI": "10.3390/ijms232012454"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.09.687492",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:00:12Z",
+        "timestamp": 1768471212000
+      },
+      "score": 160.08868,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.09.687492"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "references-count": 89,
+      "URL": "https://doi.org/10.1101/2025.11.09.687492",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

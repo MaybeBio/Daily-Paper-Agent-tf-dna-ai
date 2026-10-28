@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40382774",
+  "title": "Machine-guided cell-fate engineering.",
+  "authors": "Appleton, Evan; Tao, Jenhan; Liu, Songlei; Glass, Christopher; Fonseca, Gregory; Church, George",
+  "journal": "Cell reports",
+  "published_date": "2025-05-18",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习设计转录因子组合实现细胞重编程，虽涉及TF但核心是细胞命运工程而非TF-DNA结合机制建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "The creation of induced pluripotent stem cells (iPSCs) has enabled scientists to explore the function, mechanisms, and differentiation processes of many types of cells. One of the fastest and most efficient approaches is transcription factor (TF) over-expression. However, finding the right combination of TFs to over-express to differentiate iPSCs directly into other cell types is a difficult task. Here, we describe a machine-learning (ML) pipeline, called CellCartographer, that uses chromatin accessibility and transcriptomics data to design multiplex TF pooled-screening experiments for cell-type conversions that then may be iteratively refined. We validate this method by differentiating iPSCs into twelve cell types at low efficiency in preliminary screens and iteratively refine our TF combinations to achieve high-efficiency differentiation for six of these cell types in <6 days. Finally, we functionally characterize iPSC-derived cytotoxic T cells (iCytoTs), regulatory T cells (iTregs), type II astrocytes (iAstIIs), and hepatocytes (iHeps) to validate functionally accurate differentiation.",
+  "abstract_zh": "诱导多能干细胞（iPSCs）的创建使科学家能够探索多种细胞类型的功能、机制和分化过程。最快且最高效的方法之一是转录因子（TF）过表达。然而，找到合适的TF组合以将iPSCs直接分化为其他细胞类型是一项艰巨的任务。在此，我们描述了一种名为CellCartographer的机器学习（ML）流程，该流程利用染色质可及性和转录组学数据来设计用于细胞类型转换的多重TF混合筛选实验，并可进行迭代优化。我们通过将iPSCs在初步筛选中以低效率分化为十二种细胞类型来验证此方法，并迭代优化我们的TF组合，在<6天内实现其中六种细胞类型的高效分化。最后，我们对iPSC来源的细胞毒性T细胞（iCytoTs）、调节性T细胞（iTregs）、II型星形胶质细胞（iAstIIs）和肝细胞（iHeps）进行功能表征，以验证功能准确的分化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40382774/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40382774/",
+  "paper_page_path": "papers/pubmed/40382774/index.html"
+}

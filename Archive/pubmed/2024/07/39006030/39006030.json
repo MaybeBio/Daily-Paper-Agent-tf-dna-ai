@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "39006030",
+    "doi": "10.7717/peerj.17690",
+    "title": "Molecular insights into programmed cell death in esophageal squamous cell carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Esophageal squamous cell carcinoma (ESCC) is a deadly type of esophageal cancer. Programmed cell death (PCD) is an important pathway of cellular self-extermination and is closely involved in cancer progression. A detailed study of its mechanism may contribute to ESCC treatment. METHODS: We obtained expression profiling data of ESCC patients from public databases and genes related to 12 types of PCD from previous studies. Hub genes in ESCC were screened from PCD-related genes applying differential expression analysis, machine learning analysis, linear support vector machine (SVM), random forest and Least Absolute Shrinkage and Selection Operator (LASSO) regression analysis. In addition, based on the HTFtarget and TargetScan databases, transcription factors (TFs) and miRNAs interacting with the hub genes were selected. The relationship between hub genes and immune cells were analyzed using the CIBERSORT algorithm. Finally, to verify the potential impact of the screened hub genes on ESCC occurrence and development, a series of in vitro cell experiments were conducted. RESULTS: We screened 149 PCD-related DEGs, of which five DEGs (INHBA, LRRK2, HSP90AA1, HSPB8, and EIF2AK2) were identified as the hub genes of ESCC. The area under the curve (AUC) of receiver operating characteristic (ROC) curve of the integrated model developed using the hub genes reached 0.997, showing a noticeably high diagnostic accuracy. The number of TFs and miRNAs regulating hub genes was 105 and 22, respectively. INHBA, HSP90AA1 and EIF2AK2 were overexpressed in cancer tissues and cells of ESCC. Notably, INHBA knockdown suppressed ECSS cell migration and invasion and altered the expression of important apoptotic and survival proteins. CONCLUSION: This study identified significant molecules with promising accuracy for the diagnosis of ESCC, which may provide a new perspective and experimental basis for ESCC research.",
+    "keywords": [
+      "Diagnosis",
+      "Esophageal squamous cell carcinoma",
+      "Machine learning",
+      "Programmed cell death",
+      "Transcription factors",
+      "miRNAs"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Esophageal Neoplasms/genetics/pathology",
+      "*Esophageal Squamous Cell Carcinoma/genetics/pathology/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "*MicroRNAs/genetics/metabolism",
+      "*Apoptosis/genetics",
+      "Gene Expression Profiling",
+      "HSP90 Heat-Shock Proteins/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Transcription Factors/genetics/metabolism",
+      "Cell Movement/genetics",
+      "Cell Proliferation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Min",
+        "Qi, Yijun",
+        "Zhang, Shenghua",
+        "Du, Yubo",
+        "Cheng, Haodong",
+        "Gao, Shegan"
+      ],
+      "short_names": [
+        "Chen M",
+        "Qi Y",
+        "Zhang S",
+        "Du Y",
+        "Cheng H",
+        "Gao S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Information Engineering, Henan University of Science and Technology, Luoyang, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+        "Medical College of Henan University of Science and Technology, Luoyang, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+        "Medical College of Henan University of Science and Technology, Luoyang, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+        "Medical College of Henan University of Science and Technology, Luoyang, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+        "Medical College of Henan University of Science and Technology, Luoyang, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+        "Medical College of Henan University of Science and Technology, Luoyang, China.",
+        "School of Information Engineering, Henan University of Science and Technology, Luoyang, China.",
+        "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+        "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+        "Medical College of Henan University of Science and Technology, Luoyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Min",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Henan University of Science and Technology, Luoyang, China.",
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+          "Medical College of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yijun",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+          "Medical College of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shenghua",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+          "Medical College of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yubo",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+          "Medical College of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Haodong",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+          "Medical College of Henan University of Science and Technology, Luoyang, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Shegan",
+        "short_name": "Gao S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Henan University of Science and Technology, Luoyang, China.",
+          "State Key Laboratory of Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Microbiome and Esophageal Cancer Prevention and Treatment, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Henan Key Laboratory of Cancer Epigenetics, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "Cancer Hospital, The First Affiliated Hospital of Henan University of Science and Technology, Luoyang, China.",
+          "College of Clinical Medicine, Henan University of Science and Technology, Luoyang, China.",
+          "Medical College of Henan University of Science and Technology, Luoyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/15 06:42",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "41465929",
+      "40313394",
+      "39264392"
+    ],
+    "refs": [
+      "38101299",
+      "37819735",
+      "37564206",
+      "37528145",
+      "37479864",
+      "37460991",
+      "37233869",
+      "36400750",
+      "36341760",
+      "36264868",
+      "36153105",
+      "36104120",
+      "35963853",
+      "35950752",
+      "35671803",
+      "35521666",
+      "35090469",
+      "34929286",
+      "34557778",
+      "34294701",
+      "34226297",
+      "33906557",
+      "33718151",
+      "33602210",
+      "33562660",
+      "33270111",
+      "32963620",
+      "32858223",
+      "31951974",
+      "31443682",
+      "31139019",
+      "30385537",
+      "30157855",
+      "30153855",
+      "30034909",
+      "29950896",
+      "29560608",
+      "28823862",
+      "28052061",
+      "27357603",
+      "26267216",
+      "25862945",
+      "25822800",
+      "25605792",
+      "24769072",
+      "23916833",
+      "23084476",
+      "22158022",
+      "22078876",
+      "21414208",
+      "21269502",
+      "19351640",
+      "19240652",
+      "14597658",
+      "11846609"
+    ],
+    "similar": [
+      "39006030",
+      "39344350",
+      "42287557",
+      "32662828",
+      "39082346",
+      "40860289",
+      "42700277",
+      "38738730",
+      "35317779",
+      "33650665",
+      "39516222",
+      "32323771",
+      "41972154",
+      "37402652",
+      "40087784",
+      "40474064",
+      "31383552",
+      "39537222",
+      "31017699",
+      "38436783",
+      "39837946",
+      "32653032",
+      "40967941",
+      "36636641",
+      "30779074",
+      "31778020",
+      "42518368",
+      "40462237",
+      "41731722",
+      "34488675",
+      "36380664",
+      "32583000",
+      "40496864",
+      "31277149",
+      "40211342",
+      "35522362",
+      "42353827",
+      "41766902",
+      "34232175",
+      "35616822",
+      "30862136",
+      "31236983",
+      "39401765",
+      "33416144",
+      "32375686",
+      "40771797",
+      "39196978",
+      "42364031",
+      "34404882",
+      "42754824",
+      "39535578",
+      "26316588",
+      "35799142",
+      "35064360",
+      "41074443",
+      "33125097",
+      "31512786",
+      "41039452",
+      "39604874",
+      "27407092",
+      "27358073",
+      "36872359",
+      "40037870",
+      "41966513",
+      "30387125",
+      "38975629",
+      "30537034",
+      "25637514",
+      "36585184",
+      "38682192",
+      "33232284",
+      "30119241",
+      "37796690",
+      "38816411",
+      "30938888",
+      "42030890",
+      "33080677",
+      "30219035",
+      "40155014",
+      "39093516",
+      "39382613",
+      "31775815",
+      "39324651",
+      "41006771",
+      "40157366",
+      "40740774",
+      "39840762",
+      "29304493",
+      "42244292",
+      "40830558",
+      "21426561",
+      "29693138",
+      "38867541",
+      "34162562",
+      "39051085",
+      "38914958",
+      "34162127",
+      "39486174",
+      "41449178",
+      "38429756"
+    ],
+    "review": [
+      "39006030",
+      "33080677"
+    ],
+    "pmc": [
+      "11246021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39006030/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.17690",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "38684225",
+    "doi": "10.1021/acssynbio.3c00761",
+    "title": "Dynamic Multiplexed Control and Modeling of Optogenetic Systems Using the High-Throughput Optogenetic Platform, Lustro."
+  },
+  "content": {
+    "abstract": "The ability to control cellular processes using optogenetics is inducer-limited, with most optogenetic systems responding to blue light. To address this limitation, we leverage an integrated framework combining Lustro, a powerful high-throughput optogenetics platform, and machine learning tools to enable multiplexed control over blue light-sensitive optogenetic systems. Specifically, we identify light induction conditions for sequential activation as well as preferential activation and switching between pairs of light-sensitive split transcription factors in the budding yeast, Saccharomyces cerevisiae. We use the high-throughput data generated from Lustro to build a Bayesian optimization framework that incorporates data-driven learning, uncertainty quantification, and experimental design to enable the prediction of system behavior and the identification of optimal conditions for multiplexed control. This work lays the foundation for designing more advanced synthetic biological circuits incorporating optogenetics, where multiple circuit components can be controlled using designer light induction programs, with broad implications for biotechnology and bioengineering.",
+    "keywords": [
+      "MoClo",
+      "automation",
+      "high throughput",
+      "machine learning",
+      "modeling",
+      "multiplexing",
+      "neural network",
+      "optogenetics",
+      "synthetic transcription factors",
+      "yeast"
+    ],
+    "mesh_terms": [
+      "*Optogenetics/methods",
+      "*Saccharomyces cerevisiae/genetics/metabolism",
+      "*Bayes Theorem",
+      "Synthetic Biology/methods",
+      "Light",
+      "Transcription Factors/metabolism/genetics",
+      "Machine Learning",
+      "High-Throughput Screening Assays/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harmer, Zachary P",
+        "Thompson, Jaron C",
+        "Cole, David L",
+        "Venturelli, Ophelia S",
+        "Zavala, Victor M",
+        "McClean, Megan N"
+      ],
+      "short_names": [
+        "Harmer ZP",
+        "Thompson JC",
+        "Cole DL",
+        "Venturelli OS",
+        "Zavala VM",
+        "McClean MN"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2200-1963",
+        "ORCID: 0000-0002-5744-7378",
+        "ORCID: 0000-0002-1141-4802"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Biomedical Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Bacteriology, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "Mathematics and Computer Science Division, Argonne National Laboratory, Lemont, Illinois 60439. United States.",
+        "Department of Biomedical Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+        "University of Wisconsin Carbone Cancer Center, University of Wisconsin School of Medicine and Public Health, Madison, Wisconsin 53706, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Harmer, Zachary P",
+        "short_name": "Harmer ZP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Thompson, Jaron C",
+        "short_name": "Thompson JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Cole, David L",
+        "short_name": "Cole DL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Venturelli, Ophelia S",
+        "short_name": "Venturelli OS",
+        "identifiers": [
+          "0000-0003-2200-1963"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+          "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+          "Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+          "Department of Bacteriology, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Zavala, Victor M",
+        "short_name": "Zavala VM",
+        "identifiers": [
+          "0000-0002-5744-7378"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+          "Mathematics and Computer Science Division, Argonne National Laboratory, Lemont, Illinois 60439. United States."
+        ]
+      },
+      {
+        "full_name": "McClean, Megan N",
+        "short_name": "McClean MN",
+        "identifiers": [
+          "0000-0002-1141-4802"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Wisconsin-Madison, Madison, Wisconsin 53706, United States.",
+          "University of Wisconsin Carbone Cancer Center, University of Wisconsin School of Medicine and Public Health, Madison, Wisconsin 53706, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2024 May 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/30 00:42",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42420727",
+      "41124034",
+      "40930281",
+      "40586302",
+      "40092664",
+      "39431801"
+    ],
+    "refs": [
+      "38383558",
+      "38270583",
+      "37773951",
+      "37590537",
+      "37434272",
+      "37087734",
+      "35973993",
+      "35738948",
+      "35690608",
+      "35298924",
+      "35071213",
+      "34879263",
+      "34611168",
+      "34592347",
+      "34431694",
+      "34351122",
+      "33835777",
+      "33432140",
+      "33174843",
+      "32898473",
+      "31932632",
+      "31788779",
+      "31719930",
+      "31673669",
+      "31433995",
+      "31235951",
+      "29562237",
+      "27869816",
+      "27187075",
+      "27065233",
+      "25871405",
+      "25708714",
+      "25561173",
+      "25350266",
+      "25019686",
+      "24937068",
+      "24413462",
+      "23992349",
+      "23601651",
+      "22327833",
+      "21037589",
+      "19801976",
+      "19749742",
+      "17401334"
+    ],
+    "similar": [
+      "38684225",
+      "38187522",
+      "37434272",
+      "37590537",
+      "38371319",
+      "31788779",
+      "37066312",
+      "39724341",
+      "41124034",
+      "33119964",
+      "34346207",
+      "30065085",
+      "28210796",
+      "39003745",
+      "39531032",
+      "33835777",
+      "38906116",
+      "39912663",
+      "33492138",
+      "34561433",
+      "23226369",
+      "35398205",
+      "34445244",
+      "33232598",
+      "38696739",
+      "39068346",
+      "35481893",
+      "34431694",
+      "36534043",
+      "30955324",
+      "25343333",
+      "33620312",
+      "29596741",
+      "31086330",
+      "32105734",
+      "41335555",
+      "36814715",
+      "39951366",
+      "29562237",
+      "25403319",
+      "33899477",
+      "35271387",
+      "34592347",
+      "28287505",
+      "38468104",
+      "37047499",
+      "30511843",
+      "31269201",
+      "28715701",
+      "29442428",
+      "40344052",
+      "32651914",
+      "40216553",
+      "40990943",
+      "29775585",
+      "32651916",
+      "39995158",
+      "29913065",
+      "28035051",
+      "36914087",
+      "32809194",
+      "24937068",
+      "26423970",
+      "39772912",
+      "28273648",
+      "35973993",
+      "32719316",
+      "24477515",
+      "31021593",
+      "36367334",
+      "37944792",
+      "35660240",
+      "30643713",
+      "34791201",
+      "31961670",
+      "35579776",
+      "30905749",
+      "41284662",
+      "40384364",
+      "30901519",
+      "32651917",
+      "25788334",
+      "33107225",
+      "24090449",
+      "29700485",
+      "33377035",
+      "26965114",
+      "33021199",
+      "37298488",
+      "25787711",
+      "41036479",
+      "27805047",
+      "31947320",
+      "26022242",
+      "25651158",
+      "40108186",
+      "33904398",
+      "39676667",
+      "38811857",
+      "30633858"
+    ],
+    "review": [
+      "38684225",
+      "41124034",
+      "28210796",
+      "39912663",
+      "35398205",
+      "33899477",
+      "34592347",
+      "28715701",
+      "28273648",
+      "37944792",
+      "35660240",
+      "30643713",
+      "34791201",
+      "33107225",
+      "25787711",
+      "41036479"
+    ],
+    "pmc": [
+      "11106771"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38684225/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38684225",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.3c00761",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

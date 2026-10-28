@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "42625565",
+    "doi": "10.3389/fcimb.2026.1885877",
+    "title": "NN-assisted image analysis for quantifying intracellular Trypanosoma cruzi infection."
+  },
+  "content": {
+    "abstract": "Quantification of intracellular Trypanosoma cruzi infection remains a central, yet methodologically challenging step in Chagas disease research and early-stage drug discovery. Current approaches largely rely on manual microscopy-based counting or on genetically modified parasites, both of which present limitations in scalability, reproducibility, or accessibility. Here, we developed and validated a neural network (NN)-based pipeline for the automated quantification of infection rates and parasite burden in mammalian cells using images stained exclusively with DNA-binding fluorescent dyes. Two independently refined deep-learning models were fine-tuned to segment host cell nuclei and intracellular amastigotes, respectively, and subsequently integrated into a unified algorithm that assigns each parasite to its nearest host cell. The pipeline was evaluated using confocal images from six mammalian cell lines infected with two T. cruzi strains and compared against blinded manual quantification. Automated detection of both host nuclei and parasites showed high concordance with manual counts, with median deviations around 5% and similar distributions of parasite burden per cell. In contrast to morphology-based image analysis methods, our NN-based approach demonstrated improved robustness across diverse cell types and staining conditions, reduced parameter dependency, and independent segmentation of host and parasite objects, minimizing error propagation. Although minor biases in parasite-to-cell assignment were observed, the automated workflow accurately quantified the percentage of infected cells and the number of amastigotes per cell, demonstrating high detection performance and strong agreement with manual quantification as assessed by precision/recall metrics and Bland-Altman analysis. This accessible and scalable AI-assisted workflow provides a reproducible alternative to manual quantification and represents a methodological advance for standardized phenotypic screening of intracellular T. cruzi, supporting more robust and harmonized drug discovery efforts in Chagas disease.",
+    "keywords": [
+      "automated image analysis",
+      "chagas disease",
+      "deep learning",
+      "drug development",
+      "intracellular infection quantification",
+      "neural networks"
+    ],
+    "mesh_terms": [
+      "*Trypanosoma cruzi",
+      "*Image Processing, Computer-Assisted/methods",
+      "*Neural Networks, Computer",
+      "*Chagas Disease/parasitology",
+      "Animals",
+      "Humans",
+      "Cell Line",
+      "Microscopy, Confocal",
+      "Algorithms",
+      "Cell Nucleus/parasitology",
+      "Staining and Labeling",
+      "Reproducibility of Results",
+      "*Parasite Load/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iolster, Joaquin",
+        "Vilchez Larrea, Salome Catalina",
+        "Alonso, Guillermo Daniel"
+      ],
+      "short_names": [
+        "Iolster J",
+        "Vilchez Larrea SC",
+        "Alonso GD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Instituto de Investigaciones en Ingenieria Genetica y Biologia Molecular \"Dr. Hector N. Torres\" (INGEBI), Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Buenos Aires, Argentina.",
+        "Departamento de Fisiologia, Biologia Molecular y Celular, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina.",
+        "Instituto de Investigaciones en Ingenieria Genetica y Biologia Molecular \"Dr. Hector N. Torres\" (INGEBI), Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Buenos Aires, Argentina.",
+        "Departamento de Fisiologia, Biologia Molecular y Celular, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina.",
+        "Instituto de Investigaciones en Ingenieria Genetica y Biologia Molecular \"Dr. Hector N. Torres\" (INGEBI), Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Buenos Aires, Argentina.",
+        "Departamento de Fisiologia, Biologia Molecular y Celular, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iolster, Joaquín",
+        "short_name": "Iolster J",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones en Ingeniería Genética y Biología Molecular \"Dr. Héctor N. Torres\" (INGEBI), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Buenos Aires, Argentina.",
+          "Departamento de Fisiología, Biología Molecular y Celular, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Vilchez Larrea, Salomé Catalina",
+        "short_name": "Vilchez Larrea SC",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones en Ingeniería Genética y Biología Molecular \"Dr. Héctor N. Torres\" (INGEBI), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Buenos Aires, Argentina.",
+          "Departamento de Fisiología, Biología Molecular y Celular, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Alonso, Guillermo Daniel",
+        "short_name": "Alonso GD",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones en Ingeniería Genética y Biología Molecular \"Dr. Héctor N. Torres\" (INGEBI), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Buenos Aires, Argentina.",
+          "Departamento de Fisiología, Biología Molecular y Celular, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cellular and infection microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Infect Microbiol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/21 05:35",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41709083",
+      "41658561",
+      "41629315",
+      "41562666",
+      "41440600",
+      "41345235",
+      "41300419",
+      "38444798",
+      "37337597",
+      "36344832",
+      "35204741",
+      "34806703",
+      "34434238",
+      "33318659",
+      "31444481",
+      "28930616",
+      "26913759",
+      "25474364",
+      "24831235",
+      "24503652",
+      "22970330"
+    ],
+    "similar": [
+      "42625565",
+      "40232944",
+      "24503652",
+      "20547819",
+      "25553972",
+      "42059631",
+      "36321557",
+      "25615687",
+      "24831235",
+      "40183298",
+      "30236162",
+      "29176805",
+      "29991586",
+      "32221941",
+      "34985339",
+      "29281741",
+      "32221954",
+      "34154418",
+      "35815998",
+      "38016388",
+      "32196491",
+      "30418976",
+      "32753495",
+      "35073735",
+      "20688189",
+      "28851417",
+      "36840555",
+      "42213317",
+      "30543114",
+      "30980310",
+      "22982466",
+      "22609548",
+      "30868525",
+      "42155335",
+      "32117793",
+      "42415050",
+      "34712620",
+      "29438066",
+      "42096492",
+      "38988814",
+      "31440849",
+      "32535113",
+      "21408103",
+      "36414228",
+      "27038796",
+      "30240395",
+      "36695605",
+      "27046031",
+      "37956215",
+      "24454974",
+      "21625474",
+      "31992200",
+      "23350002",
+      "36389843",
+      "29684709",
+      "38791565",
+      "25861375",
+      "29601585",
+      "37866547",
+      "17967460",
+      "26272680",
+      "39165920",
+      "34891815",
+      "41114509",
+      "35932843",
+      "24147166",
+      "27283847",
+      "21884886",
+      "26771702",
+      "19238193",
+      "41291252",
+      "41941935",
+      "25340519",
+      "18511053",
+      "32695105",
+      "36004334",
+      "25712770",
+      "33321060",
+      "29178839",
+      "16192635",
+      "36190410",
+      "30562700",
+      "29608569",
+      "40876769",
+      "40871820",
+      "35073983",
+      "40956360",
+      "40576831",
+      "21331788",
+      "41713554",
+      "19087356",
+      "35230611",
+      "39135121",
+      "31310832",
+      "33429173",
+      "26114876",
+      "38424216",
+      "21788388",
+      "38673904",
+      "16943767"
+    ],
+    "review": [
+      "42625565",
+      "36321557"
+    ],
+    "pmc": [
+      "13489841"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/chagasdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chagas Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42625565/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcimb.2026.1885877",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

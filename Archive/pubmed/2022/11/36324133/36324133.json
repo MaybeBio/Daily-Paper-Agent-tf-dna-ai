@@ -1,0 +1,579 @@
+{
+  "identity": {
+    "pmid": "36324133",
+    "doi": "10.1186/s12885-022-10160-y",
+    "title": "Clinical application of artificial neural network (ANN) modeling to predict BRCA1/2 germline deleterious variants in Chinese bilateral primary breast cancer patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bilateral breast cancer (BBC), as well as ovarian cancer, are significantly associated with germline deleterious variants in BRCA1/2, while BRCA1/2 germline deleterious variants carriers can exquisitely benefit from poly (ADP-ribose) polymerase (PARP) inhibitors. However, formal genetic testing could not be carried out for all patients due to extensive use of healthcare resources, which in turn results in high medical costs. To date, existing BRCA1/2 deleterious variants prediction models have been developed in women of European or other descent who are quite genetically different from Asian population. Therefore, there is an urgent clinical need for tools to predict the frequency of BRCA1/2 deleterious variants in Asian BBC patients balancing the increased demand for and cost of cancer genetics services. METHODS: The entire coding region of BRCA1/2 was screened for the presence of germline deleterious variants by the next generation sequencing in 123 Chinese BBC patients. Chi-square test, univariate and multivariate logistic regression were used to assess the relationship between BRCA1/2 germline deleterious variants and clinicopathological characteristics. The R software was utilized to develop artificial neural network (ANN) and nomogram modeling for BRCA1/2 germline deleterious variants prediction. RESULTS: Among 123 BBC patients, we identified a total of 20 deleterious variants in BRCA1 (8; 6.5%) and BRCA2 (12; 9.8%). c.5485del in BRCA1 is novel frameshift deleterious variant. Deleterious variants carriers were younger at first diagnosis (P = 0.0003), with longer interval between two tumors (P = 0.015), at least one medullary carcinoma (P = 0.001), and more likely to be hormone receptor negative (P = 0.006) and HER2 negative (P = 0.001). Area under the receiver operating characteristic curve was 0.903 in ANN and 0.828 in nomogram modeling individually (P = 0.02). CONCLUSION: This study shows the spectrum of the BRCA1/2 germline deleterious variants in Chinese BBC patients and indicates that the ANN can accurately predict BRCA deleterious variants than conventional statistical linear approach, which confirms the BRCA1/2 deleterious variants carriers at the lowest costs without adding any additional examinations.",
+    "keywords": [
+      "Artificial neural network",
+      "BRCA1",
+      "BRCA2",
+      "Bilateral breast cancer",
+      "Germline deleterious variant"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology",
+      "Germ-Line Mutation",
+      "Genetic Predisposition to Disease",
+      "BRCA1 Protein/genetics",
+      "BRCA2 Protein/genetics",
+      "*Ovarian Neoplasms/pathology",
+      "Germ Cells/pathology",
+      "Neural Networks, Computer",
+      "China"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yan",
+        "Chen, Lili",
+        "Lv, Jinxing",
+        "Chen, Xiaobin",
+        "Zeng, Bangwei",
+        "Chen, Minyan",
+        "Guo, Wenhui",
+        "Lin, Yuxiang",
+        "Yu, Liuwen",
+        "Hou, Jialin",
+        "Li, Jing",
+        "Zhou, Peng",
+        "Zhang, Wenzhe",
+        "Li, Shengmei",
+        "Jin, Xuan",
+        "Cai, Weifeng",
+        "Zhang, Kun",
+        "Huang, Yeyuan",
+        "Wang, Chuan",
+        "Fu, Fangmeng"
+      ],
+      "short_names": [
+        "Li Y",
+        "Chen L",
+        "Lv J",
+        "Chen X",
+        "Zeng B",
+        "Chen M",
+        "Guo W",
+        "Lin Y",
+        "Yu L",
+        "Hou J",
+        "Li J",
+        "Zhou P",
+        "Zhang W",
+        "Li S",
+        "Jin X",
+        "Cai W",
+        "Zhang K",
+        "Huang Y",
+        "Wang C",
+        "Fu F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Sichuan Cancer Center, School of Medicine, Sichuan Cancer Hospital & Institute, University of Electronic Science and Technology of China, 610000, Chengdu, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Nosocomial Infection Control Branch, Fujian Medical University Union Hospital, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China. chuanwang1968@outlook.com.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China. chuanwang1968@outlook.com.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China. chuanwang1968@outlook.com.",
+        "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China. ffm@fjmu.edu.cn.",
+        "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China. ffm@fjmu.edu.cn.",
+        "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China. ffm@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lili",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Jinxing",
+        "short_name": "Lv J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China.",
+          "Sichuan Cancer Center, School of Medicine, Sichuan Cancer Hospital & Institute, University of Electronic Science and Technology of China, 610000, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaobin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Bangwei",
+        "short_name": "Zeng B",
+        "identifiers": [],
+        "affiliations": [
+          "Nosocomial Infection Control Branch, Fujian Medical University Union Hospital, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Minyan",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Wenhui",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yuxiang",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Liuwen",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Jialin",
+        "short_name": "Hou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Peng",
+        "short_name": "Zhou P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenzhe",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shengmei",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Xuan",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Weifeng",
+        "short_name": "Cai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kun",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yeyuan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Medical University, 350001, Fuzhou, Fujian Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chuan",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China. chuanwang1968@outlook.com.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China. chuanwang1968@outlook.com.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China. chuanwang1968@outlook.com."
+        ]
+      },
+      {
+        "full_name": "Fu, Fangmeng",
+        "short_name": "Fu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, Fujian Medical University Union Hospital, No.29, Xin Quan Road, Gulou District, 350001, Fuzhou, Fujian Province, China. ffm@fjmu.edu.cn.",
+          "Department of General Surgery, Fujian Medical University Union Hospital, 350001, Fuzhou, Fujian Province, China. ffm@fjmu.edu.cn.",
+          "Breast Cancer Institute, Fujian Medical University, 350001, Fuzhou, Fujian Province, China. ffm@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2022 Nov 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/04 06:00",
+    "fetched_at": "2026-09-28 15:43:17"
+  },
+  "links": {
+    "cites": [
+      "42683451"
+    ],
+    "refs": [
+      "35209950",
+      "35143328",
+      "32163106",
+      "32072338",
+      "31957001",
+      "31807867",
+      "31308460",
+      "31208050",
+      "30720863",
+      "28724667",
+      "28715532",
+      "28294317",
+      "27393621",
+      "26268697",
+      "26183948",
+      "25863477",
+      "25789811",
+      "25741868",
+      "25151137",
+      "24234437",
+      "22105824",
+      "21945313",
+      "21450091",
+      "20665107",
+      "20409605",
+      "19241424",
+      "19190627",
+      "19127556",
+      "18779604",
+      "17878475",
+      "15381934",
+      "15319244",
+      "11896095",
+      "11309764",
+      "11125122",
+      "9443863",
+      "9024725",
+      "3203132"
+    ],
+    "similar": [
+      "36324133",
+      "30078507",
+      "27257965",
+      "35143328",
+      "26852015",
+      "35918668",
+      "26848529",
+      "21614564",
+      "28664449",
+      "29297111",
+      "22684231",
+      "32772980",
+      "38167124",
+      "27907908",
+      "36232564",
+      "30683677",
+      "27025497",
+      "28176296",
+      "30103829",
+      "33726785",
+      "28294317",
+      "30606148",
+      "36367610",
+      "31825140",
+      "29409476",
+      "32072338",
+      "20807450",
+      "31907386",
+      "22507745",
+      "31464824",
+      "26181175",
+      "33629534",
+      "35908255",
+      "34254208",
+      "37895014",
+      "27914478",
+      "32164585",
+      "38100492",
+      "28439188",
+      "36881271",
+      "32986223",
+      "29979200",
+      "31090900",
+      "30607632",
+      "27393621",
+      "32091409",
+      "38098088",
+      "35779836",
+      "38900213",
+      "32284662",
+      "18489799",
+      "19200354",
+      "29681614",
+      "32339256",
+      "31409081",
+      "38866043",
+      "29116469",
+      "28477318",
+      "32894085",
+      "38365640",
+      "35778884",
+      "11304778",
+      "30702160",
+      "27793035",
+      "35381651",
+      "28765325",
+      "30175445",
+      "16324400",
+      "14722926",
+      "35802266",
+      "31768816",
+      "29356917",
+      "35020120",
+      "38041901",
+      "28993434",
+      "31002019",
+      "29275357",
+      "26541979",
+      "23706288",
+      "30972954",
+      "38308422",
+      "32862574",
+      "32997669",
+      "17624602",
+      "37517399",
+      "24728189",
+      "27869447",
+      "30979843",
+      "33428613",
+      "33507482",
+      "38886516",
+      "36029389",
+      "32879886",
+      "32318955",
+      "35286153",
+      "29236234",
+      "28407998",
+      "38914840",
+      "22970155",
+      "29867226",
+      "37119509",
+      "39208751",
+      "37460658",
+      "37523182",
+      "38054407",
+      "39356394",
+      "38905575",
+      "38061009",
+      "36065483",
+      "39272813",
+      "37174000",
+      "39237557",
+      "39430730",
+      "39311051"
+    ],
+    "review": [
+      "36324133",
+      "26848529",
+      "31825140",
+      "31409081",
+      "31002019",
+      "27869447",
+      "29867226",
+      "37119509",
+      "39208751",
+      "38061009"
+    ],
+    "pmc": [
+      "9628090"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-022-10160-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36324133/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36324133",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

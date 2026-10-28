@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "40911995",
+    "doi": "10.1016/j.intimp.2025.115487",
+    "title": "Bone marrow immune remodeling in depression: TNF/NF-kappaB mediated leukocyte redistribution and construction of an interpretable predictive model."
+  },
+  "content": {
+    "abstract": "Environmental stress contributes to the development of depression through neuro-immune interactions, yet the underlying molecular mechanisms and associated clinical diagnostic biomarkers remain unclear. We established a psychosocial stress mouse model and systematically investigated the immune dysregulation induced by stress through integrated analysis of blood cell profiles, leukocyte transcriptomics, protein-protein interaction networks, single-cell RNA sequencing, and targeted pharmacological intervention. Additionally, we constructed and validated a depression predictive model using multiparametric peripheral blood data and machine learning, and assessed feature importance using the SHapley Additive exPlanations (SHAP) analysis. The results show that stressed mice exhibited increased neutrophils and decreased lymphocytes, which were positively correlated with depressive-like behaviors. Differential expression analysis identified 127 differentially genes enriched in pathways related to immune response, inflammation regulation, and hematopoietic dysfunction. Hub-genes (Rel, Cd274, Icam1, Tnf, Maff, Nfkbia) were upregulated and drove leukocyte redistribution via inflammatory cascades and adhesion mechanisms, whereas TNF/NF-kappaB pathway inhibition (Etanercept/Infliximab) reversed bone marrow immune imbalance and ameliorated depressive-like behavior. The random forest (RF) model trained with RF-mean features and random oversampling resampling based on blood cell parameters achieved 91.60 % accuracy and an AUC of 0.65. SHAP analysis identified RDW, MOPCT, PLTSI, SII, and NPR as biomarkers. In short, this study elucidates the regulatory role of bone marrow immune remodeling in stress-induced depression and proposes a feasible predictive strategy based on multiparametric peripheral blood profiling.",
+    "keywords": [
+      "Bone marrow",
+      "Depressive",
+      "Lymphocytes",
+      "Machine learning",
+      "Neutrophils",
+      "Stress"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-kappa B/metabolism/immunology",
+      "Mice",
+      "*Depression/immunology",
+      "*Leukocytes/immunology",
+      "*Tumor Necrosis Factor-alpha/metabolism/immunology",
+      "Male",
+      "Disease Models, Animal",
+      "*Bone Marrow/immunology",
+      "Mice, Inbred C57BL",
+      "*Stress, Psychological/immunology",
+      "Signal Transduction",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Weihao",
+        "Shi, Rui",
+        "Li, Xiang",
+        "Cong, Jingze",
+        "An, Yuchuan",
+        "He, Mengting",
+        "Zhang, Guowei",
+        "Wang, Yang",
+        "Li, Shujin",
+        "Shi, Weibo",
+        "Cong, Bin"
+      ],
+      "short_names": [
+        "Zhu W",
+        "Shi R",
+        "Li X",
+        "Cong J",
+        "An Y",
+        "He M",
+        "Zhang G",
+        "Wang Y",
+        "Li S",
+        "Shi W",
+        "Cong B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hebei Medical University Postdoctoral Research Station in Basic Medicine, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China; Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "The 71st Group Army Hospital of the Chinese People's Liberation Army Ground Force, Huaihai Hospital Affiliated to Xuzhou Medical University, No. 236 Tongshan Road, Yunlong District, 221000 Xuzhou, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China.",
+        "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China. Electronic address: shiweibo@hebmu.edu.cn.",
+        "Hebei Medical University Postdoctoral Research Station in Basic Medicine, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China; Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China. Electronic address: cong6406@hebmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Weihao",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Medical University Postdoctoral Research Station in Basic Medicine, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China; Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Rui",
+        "short_name": "Shi R",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Jingze",
+        "short_name": "Cong J",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "An, Yuchuan",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "He, Mengting",
+        "short_name": "He M",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guowei",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The 71st Group Army Hospital of the Chinese People's Liberation Army Ground Force, Huaihai Hospital Affiliated to Xuzhou Medical University, No. 236 Tongshan Road, Yunlong District, 221000 Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shujin",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Weibo",
+        "short_name": "Shi W",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China. Electronic address: shiweibo@hebmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cong, Bin",
+        "short_name": "Cong B",
+        "identifiers": [],
+        "affiliations": [
+          "Hebei Medical University Postdoctoral Research Station in Basic Medicine, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China; Hebei Key Laboratory of Forensic Medicine, Collaborative Innovation Center of Forensic Medical Molecular Identification, College of Forensic Medicine, Hebei Medical University, No. 361 Zhongshan Dong Road, 050017 Shijiazhuang, China. Electronic address: cong6406@hebmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 18:33",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40911995",
+      "40550295",
+      "30699879",
+      "40609281",
+      "40389582",
+      "22727761",
+      "40552285",
+      "41197934",
+      "30544065",
+      "29765402",
+      "29684396",
+      "40967560",
+      "40453075",
+      "41322408",
+      "15946255",
+      "40330488",
+      "12574385",
+      "28093255",
+      "38705530",
+      "40644858",
+      "30862474",
+      "40858047",
+      "35669778",
+      "21726630",
+      "30610044",
+      "36401752",
+      "38305705",
+      "40758384",
+      "29940243",
+      "40701122",
+      "24382349",
+      "40836407",
+      "28842306",
+      "41242308",
+      "40139275",
+      "39938176",
+      "24892805",
+      "40963602",
+      "41458557",
+      "41438766",
+      "41154264",
+      "29458298",
+      "34743948",
+      "39116349",
+      "41080564",
+      "34119591",
+      "31134075",
+      "40830558",
+      "38914192",
+      "28983072",
+      "32298740",
+      "41328587",
+      "40977740",
+      "40131336",
+      "40830794",
+      "39434463",
+      "30962417",
+      "24373231",
+      "25577468",
+      "28699284",
+      "40611098",
+      "40220405",
+      "32241292",
+      "27132513",
+      "40382939",
+      "37001682",
+      "37676534",
+      "21729739",
+      "14656721",
+      "40603761",
+      "29655569",
+      "15722350",
+      "35016190",
+      "17641670",
+      "31796867",
+      "31622746",
+      "40846098",
+      "29727715",
+      "29156532",
+      "40406924",
+      "25015829",
+      "30658416",
+      "31981962",
+      "24215713",
+      "14975591",
+      "25712896",
+      "32175843",
+      "39069636",
+      "35995035",
+      "27109786",
+      "24441549",
+      "19363130",
+      "38104877",
+      "40665334",
+      "31536729",
+      "35131015",
+      "40414904",
+      "24859830",
+      "39128305",
+      "17210719"
+    ],
+    "review": [
+      "40911995"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)01478-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/depression.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Depression"
+      },
+      {
+        "url": "https://www.ovid.com/40911995.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

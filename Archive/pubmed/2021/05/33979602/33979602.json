@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "33979602",
+    "doi": "10.1016/j.stemcr.2021.04.008",
+    "title": "Deep neural net tracking of human pluripotent stem cells reveals intrinsic behaviors directing morphogenesis."
+  },
+  "content": {
+    "abstract": "Lineage tracing is a powerful tool in developmental biology to interrogate the evolution of tissue formation, but the dense, three-dimensional nature of tissue limits the assembly of individual cell trajectories into complete reconstructions of development. Human induced pluripotent stem cells (hiPSCs) can recapitulate aspects of developmental processes, providing an in vitro platform to assess the dynamic collective behaviors directing tissue morphogenesis. Here, we trained an ensemble of neural networks to track individual hiPSCs in time-lapse microscopy, generating longitudinal measures of cell and cellular neighborhood properties on timescales from minutes to days. Our analysis reveals that, while individual cell parameters are not strongly affected by pluripotency maintenance conditions or morphogenic cues, regional changes in cell behavior predict cell fate and colony organization. By generating complete multicellular reconstructions of hiPSC behavior, our tracking pipeline enables fine-grained understanding of morphogenesis by elucidating the role of regional behavior in early tissue formation.",
+    "keywords": [
+      "cell migration",
+      "cell segmentation",
+      "cell tracking",
+      "deep learning",
+      "differentiation",
+      "human pluripotent stem cells",
+      "morphogenesis",
+      "neural net",
+      "time-lapse imaging"
+    ],
+    "mesh_terms": [
+      "Bone Morphogenetic Protein 4/pharmacology",
+      "Cell Count",
+      "Cell Differentiation/drug effects",
+      "Cell Lineage/drug effects",
+      "Cell Movement/drug effects",
+      "Cell Tracking",
+      "Cells, Cultured",
+      "Humans",
+      "Image Processing, Computer-Assisted",
+      "Induced Pluripotent Stem Cells/*cytology/drug effects",
+      "*Morphogenesis/drug effects",
+      "*Neural Networks, Computer",
+      "Smad Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Joy, David A",
+        "Libby, Ashley R G",
+        "McDevitt, Todd C"
+      ],
+      "short_names": [
+        "Joy DA",
+        "Libby ARG",
+        "McDevitt TC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "UC Berkeley-UC San Francisco Graduate Program in Bioengineering, San Francisco, CA, USA; Gladstone Institutes, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Developmental and Stem Cell Biology PhD Program, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA, USA; Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA. Electronic address: todd.mcdevitt@gladstone.ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Joy, David A",
+        "short_name": "Joy DA",
+        "identifiers": [],
+        "affiliations": [
+          "UC Berkeley-UC San Francisco Graduate Program in Bioengineering, San Francisco, CA, USA; Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Libby, Ashley R G",
+        "short_name": "Libby ARG",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Developmental and Stem Cell Biology PhD Program, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "McDevitt, Todd C",
+        "short_name": "McDevitt TC",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA, USA; Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA. Electronic address: todd.mcdevitt@gladstone.ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell reports"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Reports"
+    ],
+    "pub_date": "2021 May 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/13 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "42179090",
+      "40951704",
+      "40898353",
+      "40644508",
+      "39026707",
+      "38771829",
+      "38411343",
+      "38377138",
+      "38173776",
+      "37986746",
+      "37357747",
+      "37354899",
+      "36352045",
+      "36290317",
+      "36236117"
+    ],
+    "refs": [
+      "34142711",
+      "31759947",
+      "31636459",
+      "31133758",
+      "30763802",
+      "30559429",
+      "30298816",
+      "30291250",
+      "30038253",
+      "29523654",
+      "29083403",
+      "28870989",
+      "28797548",
+      "28768204",
+      "27796013",
+      "27452175",
+      "27415420",
+      "27144686",
+      "27144363",
+      "27003939",
+      "26812020",
+      "26658353",
+      "26546401",
+      "26501515",
+      "26017442",
+      "25750229",
+      "24973948",
+      "24672759",
+      "24143253",
+      "23817127",
+      "23576737",
+      "23516345",
+      "23257984",
+      "22974990",
+      "19252484",
+      "17189361",
+      "16477039",
+      "15950214",
+      "12672811",
+      "6684600"
+    ],
+    "similar": [
+      "33979602",
+      "27667015",
+      "33340351",
+      "31466320",
+      "36473419",
+      "29681444",
+      "31675487",
+      "30660482",
+      "31239243",
+      "33979603",
+      "32112486",
+      "38994744",
+      "30298816",
+      "28167799",
+      "28191760",
+      "30404017",
+      "30776728",
+      "23326500",
+      "26933039",
+      "28528574",
+      "19688839",
+      "34940121",
+      "33352307",
+      "20734356",
+      "33891867",
+      "21151107",
+      "27345135",
+      "33130086",
+      "21882976",
+      "25676894",
+      "30880077",
+      "27591570",
+      "26914600",
+      "26095427",
+      "29305588",
+      "21494607",
+      "27402757",
+      "30038020",
+      "23896987",
+      "23119085",
+      "21298309",
+      "27550649",
+      "27810911",
+      "28139961",
+      "30565686",
+      "27660325",
+      "28011833",
+      "32971117",
+      "27591478",
+      "29337120",
+      "24101719",
+      "20888316",
+      "25207966",
+      "30566050",
+      "28760810",
+      "25468424",
+      "33341735",
+      "25551762",
+      "31020634",
+      "37747346",
+      "27793669",
+      "29390875",
+      "28088670",
+      "27138845",
+      "27530160",
+      "34239021",
+      "21965612",
+      "30292671",
+      "30518391",
+      "28726548",
+      "20126639",
+      "27754603",
+      "21569778",
+      "21364915",
+      "31615734",
+      "24746960",
+      "31492046",
+      "26712580",
+      "30621308",
+      "19620713",
+      "26172574",
+      "33743349",
+      "27392793",
+      "31501056",
+      "24070570",
+      "28213969",
+      "34075124",
+      "36951064",
+      "26972950",
+      "23232509",
+      "35953203",
+      "24715528",
+      "31148385",
+      "31124102",
+      "24510784",
+      "28849348",
+      "29321139",
+      "33463241",
+      "23884641",
+      "24549638",
+      "33559469",
+      "34989675",
+      "38102756",
+      "39018974",
+      "38032125",
+      "39040638"
+    ],
+    "review": [
+      "33979602",
+      "30565686",
+      "25468424"
+    ],
+    "pmc": [
+      "8185472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-6711(21)00203-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33979602/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33979602",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt19f8z418",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33979602",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33979602",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

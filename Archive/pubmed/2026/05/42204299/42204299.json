@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "42204299",
+    "doi": "10.1038/s41401-026-01827-4",
+    "title": "The solute carrier transporter SLCO5A1 as a novel therapeutic target for the treatment of myocardial infarction-induced heart failure."
+  },
+  "content": {
+    "abstract": "Heart failure (HF) following myocardial infarction (MI) remains a major threat to health worldwide. While transcriptomics has revealed numerous genes whose expression is altered in HF, distinguishing therapeutic targets remains challenging. In this study, we aimed to identify novel therapeutic targets for HF and explore potential pharmacological interventions. We integrated human HF datasets with weighted gene coexpression network analysis (WGCNA) and machine learning (LASSO/SVM-RFE) to screen for candidate genes and applied Mendelian randomization (MR) to assess causality. SLCO5A1 emerged as a prioritized candidate, as it showed a genetically supported protective association with HF and was consistently downregulated in the ischemic failing myocardium. In mice, cardiomyocyte-targeted SLCO5A1 overexpression attenuated post-MI systolic dysfunction and pathological remodeling. Using drug-gene signature mining followed by biophysical and cellular validation, we identified 3-iodothyronamine (T1AM) as a small molecule that directly binds to SLCO5A1 and increases SLCO5A1 protein levels. Pharmacological administration of T1AM increased post-MI survival, improved cardiac function and reduced fibrosis; these benefits were markedly weakened by cardiomyocyte-specific SLCO5A1 knockdown, supporting a functional requirement for SLCO5A1. Mechanistically, SLCO5A1 reduced cardiomyocyte transforming growth factor beta 1 (TGF‑beta1) secretion, thereby limiting fibroblast Smad3 activation and myofibroblast marker expression in conditioned-medium assays. In conclusion, our findings demonstrate that SLCO5A1 is a cardioprotective regulator of cardiomyocyte-fibroblast communication in post-MI HF and support a pharmacological increase in SLCO5A1 levels as a potential therapeutic strategy. SLCO5A1 serves as a novel therapeutic target for heart failure. Enhancing SLCO5A1 expression protects against MI-induced HF by inhibiting TGF-beta1/Smad3-mediated cardiomyocyte-fibroblast crosstalk.",
+    "keywords": [
+      "3‑iodothyronamine",
+      "SLCO5A1",
+      "TGF beta 1",
+      "heart failure",
+      "myocardial infarction"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Myocardial Infarction/complications/metabolism/drug therapy",
+      "*Heart Failure/drug therapy/etiology/metabolism",
+      "Humans",
+      "Mice",
+      "Male",
+      "Myocytes, Cardiac/metabolism/drug effects",
+      "Transforming Growth Factor beta1/metabolism",
+      "*Organic Anion Transporters/metabolism/genetics",
+      "Mice, Inbred C57BL",
+      "Smad3 Protein/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Ke-Yu",
+        "Gong, Ke",
+        "Fang, Fang",
+        "Chen, Qing-Hua",
+        "Xu, Jin-Rong",
+        "Zhang, Liang-Qing",
+        "Chen, Wen-Liang"
+      ],
+      "short_names": [
+        "Liu KY",
+        "Gong K",
+        "Fang F",
+        "Chen QH",
+        "Xu JR",
+        "Zhang LQ",
+        "Chen WL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5141-325X"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+        "School of Obstetrics and Pediatrics, Guangdong Medical University, Zhanjiang, 524023, China.",
+        "Translational Medicine Center, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+        "Translational Medicine Center, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+        "Medical Interdisciplinary Science Research Center of Western Guangdong, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+        "Key Laboratory for Research on Organ Interactions in Major Diseases, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+        "Department of Cardiovascular Medicine, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. zjeyxjr@163.com.",
+        "Department of Anesthesiology, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Zhangliangqing@gdmu.edu.cn.",
+        "Translational Medicine Center, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Chenwl@gdmu.edu.cn.",
+        "Medical Interdisciplinary Science Research Center of Western Guangdong, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Chenwl@gdmu.edu.cn.",
+        "Key Laboratory for Research on Organ Interactions in Major Diseases, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Chenwl@gdmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Ke-Yu",
+        "short_name": "Liu KY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Ke",
+        "short_name": "Gong K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Obstetrics and Pediatrics, Guangdong Medical University, Zhanjiang, 524023, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Fang",
+        "short_name": "Fang F",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Center, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qing-Hua",
+        "short_name": "Chen QH",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Medicine Center, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+          "Medical Interdisciplinary Science Research Center of Western Guangdong, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China.",
+          "Key Laboratory for Research on Organ Interactions in Major Diseases, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jin-Rong",
+        "short_name": "Xu JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. zjeyxjr@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liang-Qing",
+        "short_name": "Zhang LQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Zhangliangqing@gdmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Wen-Liang",
+        "short_name": "Chen WL",
+        "identifiers": [
+          "0000-0001-5141-325X"
+        ],
+        "affiliations": [
+          "Translational Medicine Center, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Chenwl@gdmu.edu.cn.",
+          "Medical Interdisciplinary Science Research Center of Western Guangdong, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Chenwl@gdmu.edu.cn.",
+          "Key Laboratory for Research on Organ Interactions in Major Diseases, The Second Affiliated Hospital of Guangdong Medical University, Guangdong Medical University, Zhanjiang, 524003, China. Chenwl@gdmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 00:29",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [
+      "42216070"
+    ],
+    "refs": [
+      "40726388",
+      "40351394",
+      "40148036",
+      "40000880",
+      "39506064",
+      "38868333",
+      "38817644",
+      "38734270",
+      "38351317",
+      "38329809",
+      "38151579",
+      "37395147",
+      "37355450",
+      "37188676",
+      "36933828",
+      "36056082",
+      "35280406",
+      "35265713",
+      "35235343",
+      "35150240",
+      "34857953",
+      "34733168",
+      "34426474",
+      "32162616",
+      "30947518",
+      "29795235",
+      "28069537",
+      "26953178",
+      "25560320",
+      "24376674",
+      "23989716",
+      "23506880",
+      "22452346",
+      "22031514",
+      "22013971",
+      "21786214",
+      "20739399",
+      "20623079",
+      "20602915",
+      "19125327",
+      "18790787",
+      "16632515",
+      "7737999",
+      "7539890"
+    ],
+    "similar": [
+      "42204299",
+      "30590389",
+      "40974637",
+      "40540261",
+      "34916608",
+      "41362745",
+      "31694459",
+      "26138247",
+      "26487518",
+      "34830222",
+      "29535165",
+      "41371162",
+      "40258553",
+      "37046278",
+      "33971401",
+      "20874717",
+      "30639224",
+      "40374047",
+      "41687759",
+      "20613497",
+      "41241334",
+      "27614871",
+      "40944191",
+      "42396776",
+      "40585970",
+      "27542406",
+      "40220403",
+      "41575474",
+      "29668847",
+      "39357681",
+      "29229611",
+      "37351157",
+      "41930815",
+      "37345556",
+      "36778114",
+      "29510381",
+      "41238175",
+      "31177814",
+      "31299216",
+      "32885678",
+      "42251941",
+      "39527465",
+      "42019016",
+      "41224193",
+      "39373248",
+      "41078122",
+      "30307485",
+      "36610170",
+      "29620209",
+      "32959533",
+      "41448259",
+      "41452878",
+      "40448227",
+      "24907870",
+      "42062031",
+      "41814834",
+      "41457201",
+      "40357546",
+      "40975504",
+      "42366636",
+      "39232846",
+      "25125302",
+      "42208843",
+      "33560342",
+      "41808820",
+      "33430631",
+      "37509108",
+      "25104350",
+      "38043608",
+      "39145385",
+      "41294183",
+      "33356362",
+      "41525913",
+      "42537737",
+      "41909150",
+      "34674708",
+      "31743747",
+      "28818206",
+      "26659007",
+      "33092465",
+      "40673870",
+      "40099370",
+      "41264320",
+      "30473557",
+      "30317638",
+      "41518994",
+      "41198559",
+      "40252995",
+      "29487197",
+      "29487140",
+      "42144210",
+      "33409963",
+      "28559372",
+      "28683966",
+      "34725565",
+      "31297506",
+      "40957316",
+      "41645902",
+      "31220942",
+      "40471706"
+    ],
+    "review": [
+      "42204299"
+    ],
+    "pmc": [
+      "13486707"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41401-026-01827-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42204299/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

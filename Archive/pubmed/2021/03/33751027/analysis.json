@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33751027",
+  "title": "iDHS-Deep: an integrated tool for predicting DNase I hypersensitive sites by deep neural network.",
+  "authors": "Dao, Fu-Ying; Lv, Hao; Su, Wei; Sun, Zi-Jie; Huang, Qin-Lai; Lin, Hao",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-03-23",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测DNase I超敏位点（DHS），DHS虽含转录因子结合位点，但预测对象是染色质开放区域而非TF-DNA互作本身，缺乏结合机制建模，与本课题关联较弱。",
+  "abstract": "DNase I hypersensitive site (DHS) refers to the hypersensitive region of chromatin for the DNase I enzyme. It is an important part of the noncoding region and contains a variety of regulatory elements, such as promoter, enhancer, and transcription factor-binding site, etc. Moreover, the related locus of disease (or trait) are usually enriched in the DHS regions. Therefore, the detection of DHS region is of great significance. In this study, we develop a deep learning-based algorithm to identify whether an unknown sequence region would be potential DHS. The proposed method showed high prediction performance on both training datasets and independent datasets in different cell types and developmental stages, demonstrating that the method has excellent superiority in the identification of DHSs. Furthermore, for the convenience of related wet-experimental researchers, the user-friendly web-server iDHS-Deep was established at http://lin-group.cn/server/iDHS-Deep/, by which users can easily distinguish DHS and non-DHS and obtain the corresponding developmental stage ofDHS.",
+  "abstract_zh": "DNase I超敏感位点（DHS）指的是染色质对DNase I酶具有超敏感性的区域。它是非编码区域的重要组成部分，包含多种调控元件，如启动子、增强子及转录因子结合位点等。此外，疾病（或性状）相关的位点通常富集于DHS区域。因此，检测DHS区域具有重要意义。在本研究中，我们开发了一种基于深度学习算法的工具，用于识别未知序列区域是否为潜在的DHS。该方法在不同细胞类型和发育阶段的训练数据集及独立数据集上均表现出高预测性能，证明其在DHS识别方面具有显著优势。此外，为了方便相关湿实验研究人员，我们建立了用户友好的网络服务器iDHS-Deep，网址为http://lin-group.cn/server/iDHS-Deep/，用户可通过该服务器轻松区分DHS与非DHS，并获取相应的DHS发育阶段信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33751027/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33751027/",
+  "paper_page_path": "papers/pubmed/33751027/index.html"
+}

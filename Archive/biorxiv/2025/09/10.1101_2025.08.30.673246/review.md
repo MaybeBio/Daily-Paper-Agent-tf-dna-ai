@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and declarations
+- **Assessment boundary** Scientific validity, technical soundness, and significance of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present a branched convolutional neural network (CNN) named nemo that predicts median gene expression from proximal promoter and terminator sequences in allotetraploid Brassica napus and Arabidopsis thaliana. They claim state-of-the-art performance (r² = 0.53) without ensemble modeling, demonstrate that the model captures position-specific effects of transcription factor binding motifs, and show that prediction errors correlate with genes under additional regulatory control such as super-enhancers and H3K27me3 marks.
+- **Visible evidence base** Abstract, full results narrative, discussion, conclusion, methods, figure legends referenced but figures not visible, supplementary figure references, GitHub code availability
+- **Missing materials affecting confidence** Figures and supplementary figures not provided; no quantitative performance metrics beyond r² values; no baseline comparisons with other published plant models beyond Xpresso; no details on dataset sizes, gene counts, or train/validation/test splits; no statistical significance values for enrichment analyses; no hyperparameter tables (referenced as Tab. S2-S8 but not visible)
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically competent application of deep learning to gene expression prediction in a polyploid crop species, with a thoughtful approach to data partitioning and model interpretation. The claim that the model captures position-specific TF effects is intriguing and potentially valuable. However, the evidence base as presented is incomplete, with key figures and supplementary materials absent, making several central claims difficult to fully evaluate. The manuscript would benefit from clearer presentation of model performance relative to existing methods, more rigorous statistical validation of the biological findings, and additional discussion of limitations in the motif insertion analysis.
+- **Who would be interested in the results, and why** Researchers in plant regulatory genomics, computational biology, and crop genetics would find this work relevant. The demonstration that CNNs can be effectively trained on polyploid genomes and that interpretability methods can extract biologically meaningful position-specific TF effects has broad applicability. The identification of genes under complex regulation via prediction errors could be useful for prioritizing candidates for functional validation in crop improvement programs.
+- **Major strengths** The manuscript addresses an important problem: extracting biological insight from deep learning models of gene expression. The use of gene family-guided partitioning to prevent data leakage is methodologically sound and addresses a known pitfall in genomic deep learning. The cross-species validation between B. napus and A. thaliana adds robustness. The finding that C2C2-GATA position-specific effects are recapitulated by the model without explicit training on TF binding data is a compelling demonstration of the model's interpretability. The analysis of prediction errors to identify genes under complex regulation is a creative and potentially useful approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim state-of-the-art performance (r² = 0.53) and that nemo outperforms Xpresso when trained and tested on the same data.
+  - **Evidence pointer** Results section, Figure 2A (not visible)
+  - **Concern** The performance comparison with Xpresso is presented without statistical significance testing. The r² difference between 0.53 and 0.49 may or may not be meaningful given the stochastic nature of neural network training. The authors trained 10 instances of each model, which should allow for a paired statistical test, but none is reported. Additionally, the comparison with the recently published transformer-based architecture from Li et al. [38] is only qualitative, and no direct comparison on the same data is provided.
+  - **Why it matters** The central claim of state-of-the-art performance underpins the manuscript's significance. Without statistical validation, the reader cannot assess whether the improvement over Xpresso is robust or within the range of training variability. The lack of direct comparison with the transformer architecture weakens the claim of state-of-the-art status.
+  - **Resolution test** Report mean and standard deviation of r² across the 10 training runs for both nemo and Xpresso, and provide a paired statistical test (e.g., Wilcoxon signed-rank test). If possible, also train the transformer-based architecture from Li et al. [38] on the same data for a direct comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the model captures position-specific effects of TF binding motifs, specifically that C2C2-GATA motifs inserted downstream of the TSS lead to increased predicted expression.
+  - **Evidence pointer** Results section, Figure 5D,E (not visible)
+  - **Concern** The in silico motif insertion analysis is a key result, but the methodology has potential confounders that are not addressed. Inserting a motif at a random position changes the local sequence context, which could affect predictions through mechanisms other than TF binding (e.g., changes in GC content, creation of cryptic splice sites, or disruption of existing regulatory elements). The authors do not report control experiments with scrambled motifs or motifs with known neutral effects. Additionally, the choice of 1000 moderately expressed genes and the criteria for "moderately expressed" are not clearly defined.
+  - **Why it matters** The position-specific effect of C2C2-GATA is presented as a validation of the model's biological interpretability. If the effect is an artifact of sequence composition rather than TF binding, the interpretation would be incorrect. The lack of appropriate controls undermines confidence in this central biological claim.
+  - **Resolution test** Include control insertions of scrambled motifs (same nucleotide composition, different order) and motifs from TF families with no known position-specific effects. Report the distribution of predicted expression changes for these controls and demonstrate that the C2C2-GATA effect is significantly different. Also, clearly define the criteria for selecting moderately expressed genes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that genes underpredicted by the model are enriched for super-enhancer associations, and overpredicted genes are enriched for H3K27me3 marks.
+  - **Evidence pointer** Results section, Figure 6A,B (not visible)
+  - **Concern** The enrichment analysis is described qualitatively without reporting effect sizes, confidence intervals, or multiple testing corrections. The χ² test is mentioned for the super-enhancer comparison, but no test statistic or p-value is given for the H3K27me3 comparison. The choice of the median absolute error as the threshold for defining well-predicted vs. poorly predicted genes is arbitrary and could influence the results. It is unclear whether the enrichment is specific to the direction of prediction error or simply reflects differences in expression levels between the gene sets.
+  - **Why it matters** The claim that prediction errors identify genes under complex regulation is a novel contribution with potential practical utility. If the enrichment is not statistically robust or is confounded by expression level, the claim would be substantially weakened.
+  - **Resolution test** Report odds ratios with confidence intervals and p-values corrected for multiple testing for both enrichment analyses. Perform a sensitivity analysis with different error thresholds (e.g., quartiles, deciles) to show the results are robust. Include expression level as a covariate in the analysis to rule out confounding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the model was trained on 36 RNA-seq samples from B. napus covering 8 tissues, with 1 to 3 biological replicates each.
+  - **Evidence pointer** Methods section, Gene expression data
+  - **Concern** The dataset is relatively small for training a deep learning model with ~7 million parameters. The authors do not report the number of genes used for training, the distribution of expression values, or the potential for overfitting beyond a single comparison of training vs. validation performance (referenced as Fig. S4B, not visible). The use of median expression across tissues reduces the effective sample size and may obscure tissue-specific regulatory patterns.
+  - **Why it matters** The generalizability of the model depends on the quality and size of the training data. If the model is overfit to the specific set of 36 samples, the biological interpretations may not generalize to other conditions or genotypes. The small dataset also raises questions about the stability of the attribution analyses.
+  - **Resolution test** Report the number of genes in the training set, the distribution of expression values, and the train/validation performance gap. If possible, validate the model on an independent dataset from a different B. napus cultivar or a related Brassica species. Discuss the limitations of using median expression and the potential impact on the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name presentation
+  - **Evidence pointer** Results section, first paragraph
+  - **Issue** The model name "nemo" is presented with inconsistent formatting ("n emo" in the text, "nemo" in the code repository). This is distracting and could cause confusion.
+  - **Required correction** Use consistent formatting throughout, preferably "nemo" in italics or a distinct font to indicate it is a model name.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Hyperparameter optimization
+  - **Evidence pointer** Methods section, Hyperparameter optimization
+  - **Issue** The hyperparameter optimization process is described in detail, but the final hyperparameter values are only provided in supplementary tables (Tab. S8) that are not visible. Without these values, the model cannot be reproduced.
+  - **Required correction** Include the final hyperparameter values in the main text or ensure the supplementary tables are accessible to reviewers and readers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cross-species comparison
+  - **Evidence pointer** Results section, Figure 2B-D
+  - **Concern** The cross-species comparison is described, but the rationale for why A. thaliana models perform better on B. napus data than vice versa is not fully explained. The authors attribute this to annotation quality, but other factors such as regulatory complexity or evolutionary distance could also play a role.
+  - **Required correction** Expand the discussion of the cross-species results to consider alternative explanations and acknowledge the limitations of the comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code availability
+  - **Evidence pointer** Code availability section
+  - **Issue** The code repository is mentioned, but there is no statement about data availability. The RNA-seq data from unpublished samples should be deposited in a public repository to enable reproduction.
+  - **Required correction** Add a data availability statement specifying where all RNA-seq data, including unpublished samples, can be accessed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section, Figure 1 (not visible)
+  - **Issue** The architecture diagram is referenced but not visible. Given the complexity of the branched CNN architecture, a clear visual representation is essential for understanding the model.
+  - **Required correction** Ensure Figure 1 is included in the manuscript and clearly labeled with all architectural components.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation of performance claims), R1-M2 (controls for motif insertion analysis), R1-M3 (statistical rigor of enrichment analyses)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of a branched CNN to polyploid plant genomes and the use of attribution methods to extract position-specific TF effects is a novel combination, though individual components have been published separately. The identification of genes under complex regulation via prediction errors is a creative contribution.
+  - **Scientific importance** Understanding regulatory architecture in polyploid crops has significant implications for agriculture and basic plant biology. The potential to identify genes under complex regulation could inform breeding strategies. However, the importance is somewhat limited by the focus on median expression rather than tissue-specific or condition-specific regulation.
+  - **Interdisciplinary readership** The work bridges deep learning, plant genomics, and regulatory biology, and would appeal to researchers in all three areas. The clear writing and contextualization of results in terms of biological significance enhance accessibility.
+  - **Technical soundness** The methodology is generally sound, with careful attention to data partitioning and overfitting. However, the lack of statistical validation for key comparisons and the absence of appropriate controls in the motif insertion analysis are significant weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and accessible, with clear explanations of deep learning concepts and their biological relevance. The use of figures (though not visible) and supplementary materials supports understanding. Some sections, particularly the hyperparameter optimization details, may be dense for nonspecialists but are appropriately placed in the methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially valuable contribution to plant regulatory genomics, but the central claims require stronger statistical validation and appropriate controls before they can be fully accepted.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is not fully supported without statistical comparison with existing methods on the same data.
+- The claim that the model captures position-specific TF effects is not fully supported without appropriate control experiments in the motif insertion analysis.
+- The claim that prediction errors identify genes under complex regulation is not fully supported without robust statistical analysis and sensitivity testing.
+- The cross-species generalization claims are based on comparisons that are described only qualitatively and lack statistical validation.
+- The assertion that the model can help distinguish genes under proximal versus distal/epigenetic control is intriguing but requires more direct validation.
+- The performance comparison with human data (Xpresso, r² = 0.59) is presented as a rough indication but is not directly comparable due to differences in data preprocessing, as the authors acknowledge.

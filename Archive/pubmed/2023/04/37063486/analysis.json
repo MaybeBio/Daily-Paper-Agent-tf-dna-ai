@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37063486",
+  "title": "Unsupervised domain adaptation methods for cross-species transfer of regulatory code signals.",
+  "authors": "Latyshev, Pavel; Pavlov, Fedor; Herbert, Alan; Poptsova, Maria",
+  "journal": "Frontiers in big data",
+  "published_date": "2023-04-18",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用无监督域适应方法实现跨物种调控信号（含TF结合位点）预测，虽聚焦迁移学习而非直接互作机制建模，但方法可迁移至TF-DNA结合位点预测，与课题相关。",
+  "abstract": "Due to advances in NGS technologies whole-genome maps of various functional genomic elements were generated for a dozen of species, however experiments are still expensive and are not available for many species of interest. Deep learning methods became the state-of-the-art computational methods to analyze the available data, but the focus is often only on the species studied. Here we take advantage of the progresses in Transfer Learning in the area of Unsupervised Domain Adaption (UDA) and tested nine UDA methods for prediction of regulatory code signals for genomes of other species. We tested each deep learning implementation by training the model on experimental data from one species, then refined the model using the genome sequence of the target species for which we wanted to make predictions. Among nine tested domain adaptation architectures non-adversarial methods Minimum Class Confusion (MCC) and Deep Adaptation Network (DAN) significantly outperformed others. Conditional Domain Adversarial Network (CDAN) appeared as the third best architecture. Here we provide an empirical assessment of each approach using real world data. The different approaches were tested on ChIP-seq data for transcription factor binding sites and histone marks on human and mouse genomes, but is generalizable to any cross-species transfer of interest. We tested the efficiency of each method using species where experimental data was available for both. The results allows us to assess how well each implementation will work for species for which only limited experimental data is available and will inform the design of future experiments in these understudied organisms. Overall, our results proved the validity of UDA methods for generation of missing experimental data for histone marks and transcription factor binding sites in various genomes and highlights how robust the various approaches are to data that is incomplete, noisy and susceptible to analytic bias.",
+  "abstract_zh": "由于NGS技术的进步，已为十几种物种生成了多种功能基因组元件的全基因组图谱，然而实验仍然昂贵，且对许多感兴趣的物种不可用。深度学习方法成为分析现有数据的最先进计算方法，但焦点往往仅限于已研究的物种。在此，我们利用无监督域适应（UDA）领域迁移学习的进展，测试了九种UDA方法，用于预测其他物种基因组的调控代码信号。我们通过在一个物种的实验数据上训练模型，然后使用我们想要预测的目标物种的基因组序列对模型进行微调，来测试每种深度学习实现。在九种测试的域适应架构中，非对抗性方法最小类混淆（MCC）和深度适应网络（DAN）显著优于其他方法。条件域对抗网络（CDAN）作为第三佳架构出现。在此，我们使用真实世界数据对每种方法进行了实证评估。不同方法在人类和小鼠基因组的转录因子结合位点和组蛋白修饰的ChIP-seq数据上进行了测试，但可推广到任何感兴趣的跨物种转移。我们使用实验数据对两个物种都可用的情况测试了每种方法的效率。结果使我们能够评估每种实现在仅有限实验数据可用的物种上的表现，并将为这些研究不足的生物体未来实验设计提供信息。总体而言，我们的结果证明了UDA方法在生成各种基因组中组蛋白修饰和转录因子结合位点缺失实验数据方面的有效性，并强调了各种方法对不完整、嘈杂且易受分析偏差影响的数据的鲁棒性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37063486/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37063486/",
+  "paper_page_path": "papers/pubmed/37063486/index.html"
+}

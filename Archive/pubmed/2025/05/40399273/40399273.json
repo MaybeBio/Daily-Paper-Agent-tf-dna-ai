@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40399273",
+    "doi": "10.1038/s41467-025-58348-7",
+    "title": "Deciphering the history of ERK activity from fixed-cell immunofluorescence measurements."
+  },
+  "content": {
+    "abstract": "The RAS/ERK pathway plays a central role in diagnosis and therapy for many cancers. ERK activity is highly dynamic within individual cells and drives cell proliferation, metabolism, and other processes through effector proteins including c-Myc, c-Fos, Fra-1, and Egr-1. These proteins are sensitive to the dynamics of ERK activity, but it is not clear to what extent the pattern of ERK activity in an individual cell determines effector protein expression, or how much information about ERK dynamics is embedded in the pattern of effector expression. Here, we evaluate these relationships using live-cell biosensor measurements of ERK activity, multiplexed with immunofluorescence staining for downstream target proteins of the pathway. Combining these datasets with linear regression, machine learning, and differential equation models, we develop an interpretive framework for immunofluorescence data, wherein Fra-1 and pRb levels imply long-term activation of ERK signaling, while Egr-1 and c-Myc indicate more recent activation. Analysis of multiple cancer cell lines reveals a distorted relationship between ERK activity and cell state in malignant cells. We show that this framework can infer various classes of ERK dynamics from effector protein stains within a heterogeneous population, providing a basis for annotating ERK dynamics within fixed cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Proto-Oncogene Proteins c-fos/metabolism",
+      "*MAP Kinase Signaling System",
+      "Early Growth Response Protein 1/metabolism",
+      "Proto-Oncogene Proteins c-myc/metabolism",
+      "Cell Line, Tumor",
+      "*Fluorescent Antibody Technique/methods",
+      "*Extracellular Signal-Regulated MAP Kinases/metabolism",
+      "Biosensing Techniques",
+      "Machine Learning",
+      "Fos-Related Antigen 1"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ram, Abhineet",
+        "Pargett, Michael",
+        "Choi, Yongin",
+        "Murphy, Devan",
+        "Teragawa, Carolyn",
+        "Cabel, Markhus",
+        "Kosaisawe, Nont",
+        "Quon, Gerald",
+        "Albeck, John G"
+      ],
+      "short_names": [
+        "Ram A",
+        "Pargett M",
+        "Choi Y",
+        "Murphy D",
+        "Teragawa C",
+        "Cabel M",
+        "Kosaisawe N",
+        "Quon G",
+        "Albeck JG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3241-0042",
+        "ORCID: 0009-0006-4838-1449",
+        "ORCID: 0000-0002-1716-0153",
+        "ORCID: 0000-0003-2688-8653"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA. jgalbeck@ucdavis.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ram, Abhineet",
+        "short_name": "Ram A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pargett, Michael",
+        "short_name": "Pargett M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Yongin",
+        "short_name": "Choi Y",
+        "identifiers": [
+          "0000-0002-3241-0042"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Murphy, Devan",
+        "short_name": "Murphy D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Teragawa, Carolyn",
+        "short_name": "Teragawa C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cabel, Markhus",
+        "short_name": "Cabel M",
+        "identifiers": [
+          "0009-0006-4838-1449"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kosaisawe, Nont",
+        "short_name": "Kosaisawe N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Quon, Gerald",
+        "short_name": "Quon G",
+        "identifiers": [
+          "0000-0002-1716-0153"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Albeck, John G",
+        "short_name": "Albeck JG",
+        "identifiers": [
+          "0000-0003-2688-8653"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA. jgalbeck@ucdavis.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 May 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/22 00:28",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42239294",
+      "41912620",
+      "41650216"
+    ],
+    "refs": [
+      "39556370",
+      "38368368",
+      "38038975",
+      "37029196",
+      "36161508",
+      "36113484",
+      "35926467",
+      "35857483",
+      "35175328",
+      "35050327",
+      "34739875",
+      "34338283",
+      "34081908",
+      "33795873",
+      "33741929",
+      "33113355",
+      "33073539",
+      "32940599",
+      "32726596",
+      "32576977",
+      "32559497",
+      "32241885",
+      "30166458",
+      "30072512",
+      "29199017",
+      "28910386",
+      "28892491",
+      "28826673",
+      "28730471",
+      "28468958",
+      "28100485",
+      "27979909",
+      "27241748",
+      "26613961",
+      "26466562",
+      "25668746",
+      "24140422",
+      "23469182",
+      "23219535",
+      "22206868",
+      "21921160",
+      "21596316",
+      "20823850",
+      "20818844",
+      "20493519",
+      "20228812",
+      "18641657",
+      "17978004",
+      "17450133",
+      "16782007",
+      "15928662",
+      "14673150",
+      "12134156",
+      "11175749",
+      "9858557"
+    ],
+    "similar": [
+      "40399273",
+      "38405841",
+      "19920183",
+      "29199017",
+      "20543861",
+      "16448624",
+      "14625389",
+      "31996375",
+      "16899113",
+      "21874050",
+      "9813041",
+      "36884295",
+      "11689211",
+      "21233203",
+      "27531745",
+      "21562256",
+      "27913436",
+      "16137228",
+      "26725216",
+      "15528212",
+      "20562914",
+      "9950805",
+      "38925807",
+      "31536726",
+      "20711231",
+      "16123044",
+      "26472107",
+      "17699159",
+      "17082637",
+      "19789336",
+      "27220889",
+      "15930308",
+      "28826819",
+      "22461507",
+      "16987560",
+      "19889638",
+      "17111371",
+      "17223854",
+      "25294825",
+      "25073112",
+      "25703330",
+      "28730469",
+      "19623651",
+      "39502045",
+      "19349923",
+      "21933022",
+      "11758828",
+      "15899869",
+      "15707584",
+      "30471098",
+      "11756554",
+      "29535732",
+      "24043311",
+      "15773551",
+      "22028782",
+      "15492254",
+      "17510413",
+      "12202534",
+      "23893412",
+      "15389548",
+      "12644307",
+      "21512137",
+      "16527552",
+      "34992218",
+      "20978205",
+      "7543194",
+      "27513954",
+      "11570821",
+      "22090358",
+      "16464862",
+      "33184870",
+      "24011934",
+      "16964983",
+      "27286066",
+      "19098123",
+      "19258520",
+      "14654778",
+      "16686604",
+      "28075459",
+      "16585179",
+      "20471474",
+      "20432446",
+      "16596619",
+      "12809691",
+      "21706057",
+      "24164897",
+      "22940826",
+      "17226786",
+      "15721299",
+      "38834572",
+      "18479823",
+      "18765415",
+      "38038974",
+      "24216609",
+      "29141367",
+      "16781847",
+      "32974862",
+      "18793719",
+      "27316323",
+      "34192548"
+    ],
+    "review": [
+      "40399273",
+      "25073112"
+    ],
+    "pmc": [
+      "12095524"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58348-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40399273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

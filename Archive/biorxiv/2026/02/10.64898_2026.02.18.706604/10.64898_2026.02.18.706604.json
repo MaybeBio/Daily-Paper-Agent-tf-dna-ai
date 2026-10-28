@@ -1,0 +1,444 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.18.706604",
+  "title": "Neural Representational Geometry of Feature Binding Operations",
+  "doi": "10.64898/2026.02.18.706604",
+  "abstract": "The brain faces the feature binding problem: how are multiple stimulus features and variables combined into coherent representations that support flexible behavior? A key finding from neuroscience is that some brain regions employ factorized representations, where distinct features are encoded in neural state space in such a way that enables independent readout and robust generalization. Various algebraic operations have been proposed to model multi-variable representations, but despite extensive study of their theoretical properties (e.g., capacity, noise robustness), it remains unclear which operations produce the representational geometries observed in neural recordings. We systematically evaluate six binding operations implemented in recurrent spiking neural networks performing a working memory task. We find that only superposition and binding with slot-filler structure produce factorized geometry with favorable scaling, while the alternatives do not. These results provide a taxonomy linking algebraic binding operations to neural representational signatures, offering guidance for both computational modelers and experimentalists.",
+  "authors": [
+    "Laura Sainz Villalba",
+    "P. Michael Furlong",
+    "Madeleine Bartlett",
+    "Nicole Sandra-Yaffa Dumont"
+  ],
+  "published_date": "2026-02-19",
+  "updated_date": "2026-02-20T09:25:16Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706604",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706604.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            23
+          ]
+        ],
+        "date-time": "2026-02-23T19:53:33Z",
+        "timestamp": 1771876413228,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 31,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                19
+              ]
+            ],
+            "date-time": "2026-02-19T00:00:00Z",
+            "timestamp": 1771459200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The brain faces the feature binding problem: how are multiple stimulus features and variables combined into coherent representations that support flexible behavior? A key finding from neuroscience is that some brain regions employ factorized representations, where distinct features are encoded in neural state space in such a way that enables independent readout and robust generalization. Various algebraic operations have been proposed to model multi-variable representations, but despite extensive study of their theoretical properties (e.g., capacity, noise robustness), it remains unclear which operations produce the representational geometries observed in neural recordings. We systematically evaluate six binding operations implemented in recurrent spiking neural networks performing a working memory task. We find that only superposition and binding with slot-filler structure produce factorized geometry with favorable scaling, while the alternatives do not. These results provide a taxonomy linking algebraic binding operations to neural representational signatures, offering guidance for both computational modelers and experimentalists.</jats:p>",
+      "DOI": "10.64898/2026.02.18.706604",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            20
+          ]
+        ],
+        "date-time": "2026-02-20T09:25:16Z",
+        "timestamp": 1771579516000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Neural Representational Geometry of Feature Binding Operations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1554-509X",
+          "authenticated-orcid": false,
+          "given": "Laura Sainz",
+          "family": "Villalba",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Neuroinformatics, ETH Zurich and University of Zurich"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9503-8498",
+          "authenticated-orcid": false,
+          "given": "P. Michael",
+          "family": "Furlong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Waterloo Collaboration Centre, National Research Council of Canada"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1084-0938",
+          "authenticated-orcid": false,
+          "given": "Madeleine",
+          "family": "Bartlett",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Waterloo Collaboration Centre, National Research Council of Canada"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5041-1527",
+          "authenticated-orcid": false,
+          "given": "Nicole Sandra-Yaffa",
+          "family": "Dumont",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Neuroinformatics, ETH Zurich and University of Zurich"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "2026022310550992000_2026.02.18.706604v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "613",
+          "DOI": "10.1162/NECO_a_00826",
+          "article-title": "Vector symbolic spiking neural network model of hippocampal subarea ca1 novelty detection functionality",
+          "volume": "28",
+          "year": "2016",
+          "journal-title": "Neural Computation"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.09.031"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2024.01.021"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.4",
+          "article-title": "Understanding disentangling in β-vae",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.5",
+          "unstructured": "Carzaniga, F. S. , Hersche, M. , Schindler, K. , & Rahimi, A. (2025). Practical lessons on vector-symbolic architectures in deep learning-inspired environments. 19th International Conference on Neurosymbolic Learning and Reasoning."
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.6",
+          "article-title": "Capacity analysis of vector symbolic architectures",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07799-x"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.8",
+          "unstructured": "Dumont, N. S.-Y. , Orchard, J. , & Eliasmith, C. (2022). A model of path integration that connects neural and symbolic representation. Proceedings of the Annual Meeting of the Cognitive Science Society, 44(44)."
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2021.07.011"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eliasmith, C. (2013). How to build a brain: A neural architecture for biological cognition. OUP USA.",
+          "DOI": "10.1093/acprof:oso/9780199794546.001.0001"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.11",
+          "unstructured": "Eliasmith, C. , & Anderson, C. H. (2003). Neural engineering: Computation, representation, and dynamics in neurobiological systems. MIT press."
+        },
+        {
+          "issue": "6",
+          "key": "2026022310550992000_2026.02.18.706604v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s11571-023-10031-7",
+          "article-title": "Modelling neural probabilistic computation using vector symbolic architectures",
+          "volume": "18",
+          "year": "2024",
+          "journal-title": "Cognitive Neurodynamics"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao, P. , Trautmann, E. , Yu, B. , Santhanam, G. , Ryu, S. , Shenoy, K. , & Ganguli, S. (2017). A theory of multineuronal dimensionality, dynamics and measurement. BioRxiv, 214262.",
+          "DOI": "10.1101/214262"
+        },
+        {
+          "issue": "5",
+          "key": "2026022310550992000_2026.02.18.706604v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "849",
+          "DOI": "10.1162/neco_a_01179",
+          "article-title": "Vector-derived transformation binding: An improved binding operation for deep symbol-like processing in neural networks",
+          "volume": "31",
+          "year": "2019",
+          "journal-title": "Neural computation"
+        },
+        {
+          "issue": "10",
+          "key": "2026022310550992000_2026.02.18.706604v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1538",
+          "DOI": "10.1109/JPROC.2022.3209104",
+          "article-title": "Vector symbolic architectures as a computing framework for emerging hardware",
+          "volume": "110",
+          "year": "2022",
+          "journal-title": "Proceedings of the IEEE"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.16",
+          "first-page": "414",
+          "volume-title": "Artificial general intelligence",
+          "volume": "2008",
+          "year": "2008"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.17",
+          "unstructured": "Locatello, F. , Bauer, S. , Lucic, M. , Raetsch, G. , Gelly, S. , Schölkopf, B. , & Bachem, O. (2019). Challenging common assumptions in the unsupervised learning of disentangled representations. international conference on machine learning, 4114–4124."
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Low, R. J. , Lewallen, S. , Aronov, D. , Nevers, R. , & Tank, D. W. (2018). Probing variability in a cognitive map using manifold inference from neural dynamics. BioRxiv, 418939.",
+          "DOI": "10.1101/418939"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adq5874"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.20",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "the Journal of machine Learning research"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/72.377968"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.22",
+          "first-page": "1",
+          "article-title": "Sparse vector binding on spiking neuromorphic hardware using synaptic delays",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "Proceedings of the International Conference on Neuromorphic Systems"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sainz Villalba, L. , Calangiu, I. , Boehringer, R. , Mante, V. , & Grewe, B. F. (2025). Category learning disentangles representation of trial events in hippocampus ca1. bioRxiv, 2025–12.",
+          "DOI": "10.64898/2025.12.01.690977"
+        },
+        {
+          "issue": "6",
+          "key": "2026022310550992000_2026.02.18.706604v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "4523",
+          "DOI": "10.1007/s10462-021-10110-3",
+          "article-title": "A comparison of vector symbolic architectures",
+          "volume": "55",
+          "year": "2022",
+          "journal-title": "Artificial Intelligence Review"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0004-3702(90)90007-M"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Soll, M. , Hinz, T. , Magg, S. , & Wermter, S. (2019). Evaluating defensive distillation for defending text processing neural networks against adversarial examples. International conference on artificial neural networks, 685–696.",
+          "DOI": "10.1007/978-3-030-30508-6_54"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.27",
+          "unstructured": "Stewart, T. , Choo, F.-X. , & Eliasmith, C. (2012). Spaun: A perception-cognition-action model using spiking neurons. Proceedings of the Annual Meeting of the Cognitive Science Society, 34(34)."
+        },
+        {
+          "issue": "2",
+          "key": "2026022310550992000_2026.02.18.706604v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1080/09540091.2011.571761",
+          "article-title": "Neural representations of compositional structures: Representing and manipulating vector spaces with spiking neurons",
+          "volume": "23",
+          "year": "2011",
+          "journal-title": "Connection Science"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1613/jair.1.12664",
+          "article-title": "A theoretical perspective on hyperdimensional computing",
+          "volume": "72",
+          "year": "2021",
+          "journal-title": "Journal of Artificial Intelligence Research"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zadeh, A. , Chen, M. , Poria, S. , Cambria, E. , & Morency, L.-P. (2017). Tensor fusion network for multimodal sentiment analysis. Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, 1103–1114.",
+          "DOI": "10.18653/v1/D17-1115"
+        },
+        {
+          "key": "2026022310550992000_2026.02.18.706604v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3606367"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.18.706604",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            23
+          ]
+        ],
+        "date-time": "2026-02-23T18:55:20Z",
+        "timestamp": 1771872920000
+      },
+      "score": 96.3092,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.18.706604"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ]
+      },
+      "references-count": 31,
+      "URL": "https://doi.org/10.64898/2026.02.18.706604",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

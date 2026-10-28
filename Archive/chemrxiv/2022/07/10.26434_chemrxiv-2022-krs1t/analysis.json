@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2022-krs1t",
+  "title": "Active learning guided drug design lead optimization based on relative binding free energy modeling",
+  "authors": "Filipp Gusev; Evgeny Gutkin; Maria G. Kurnikova; Olexandr Isayev",
+  "journal": "ChemRxiv",
+  "published_date": "2022-07-11",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用主动学习结合相对结合自由能模拟优化小分子抑制剂，虽涉及蛋白-配体结合，但对象为蛋白-小分子而非蛋白-DNA，方法可迁移性有限，与TF-DNA互作课题关联较弱。",
+  "abstract": "In silico identification of potent protein inhibitors commonly requires prediction of a ligand binding free energy (BFE). Thermodynamics integration (TI) based on molecular dynamics (MD) simulations is a BFE calculation method capable of predicting accurate BFE, but it is computationally expensive and time-consuming. In this work, we developed an efficient automated workflow for identifying compounds with the lowest BFE among thousands of congeneric ligands which requires only hundreds of TI calculations. Automated Machine Learning (AutoML) orchestrated by Active Learning (AL) in AL-AutoML workflow allows unbiased and efficient search for a small set of best performing molecules. We applied this workflow to select inhibitors of the SARS-CoV-2 papain-like protease. Our work resulted in predicting 133 compounds with improved binding affinity among which 16 compounds with better than 100-fold binding affinity improvement. The hit rate obtained here is better than that of traditional projects where molecule selection is guided by an expert medicinal chemist. We demonstrated that a combination of an AL protocol provides at least 20x the common brute force approaches.",
+  "abstract_zh": "计算机模拟识别高效蛋白质抑制剂通常需要预测配体结合自由能（BFE）。基于分子动力学（MD）模拟的热力学积分（TI）是一种能够预测准确BFE的BFE计算方法，但其计算成本高且耗时。在本工作中，我们开发了一种高效的自动化工作流程，用于在数千个同源配体中识别具有最低BFE的化合物，该流程仅需数百次TI计算。由主动学习（AL）编排的自动化机器学习（AutoML）在AL-AutoML工作流程中实现了对少量最佳性能分子的无偏且高效搜索。我们将此工作流程应用于选择SARS-CoV-2木瓜蛋白酶样蛋白酶的抑制剂。我们的工作预测出133种具有改善结合亲和力的化合物，其中16种化合物的结合亲和力改善超过100倍。此处获得的命中率优于传统项目中由专家药物化学家指导分子选择的命中率。我们证明，结合AL协议的方法至少比常见的暴力方法快20倍。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2022-krs1t",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2022-krs1t",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2022-krs1t/index.html"
+}

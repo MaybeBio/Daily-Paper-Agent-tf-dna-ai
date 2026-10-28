@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "41265166",
+    "doi": "10.1016/j.identj.2025.104028",
+    "title": "Machine Learning-Based Transcriptomic Diagnosis of Periodontitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Periodontitis, a prevalent chronic inflammatory disease, remains a global health challenge with conventional diagnostic methods hindered by subjectivity and low sensitivity. This study aimed to develop a machine learning (ML)-based diagnostic framework using transcriptomic data to enhance diagnostic accuracy and efficiency. METHODS: Transcriptomic datasets from 616 samples (452 periodontitis, 164 healthy controls) were retrieved from the Gene Expression Omnibus (GEO). Differentially expressed genes (DEGs) were identified, and functional enrichment, weighted gene co-expression network analysis (WGCNA), and immune infiltration profiling were performed. Key biomarkers were refined using Boruta and Least Absolute Shrinkage and Selection Operator (LASSO) algorithms. Independent six ML models were constructed and validated. A nomogram for risk prediction, transcription factor networks, and drug-target interactions were analysed. RESULTS: Five diagnostic biomarkers (CSF2RB, COL15A1, MME, NEFM, CYP24A1) were identified, with robust performance across datasets. The Random Forest (RF) and eXtreme Gradient Boosting (XGBoost) achieved perfect classification in training and high accuracy in external validation. Immune infiltration analysis revealed significant correlations between biomarkers and immune cell populations (eg, dendritic cells, T cells). Transcription factor networks highlighted NFYA and SP1 as central regulators. Drug prediction identified re-purposable candidates with validated molecular docking affinity. CONCLUSION: This study establishes a ML-driven diagnostic framework for periodontitis, integrating transcriptomic, immune, and regulatory network insights. These gene biomarkers may provide novel insight into periodontitis pathogenesis, while our diagnostic models show potential for clinical utility in personalised diagnosis, targeted intervention, and therapeutic development. PLAIN LANGUAGE SUMMARY: Periodontitis is a common, serious condition often diagnosed too late using traditional methods that can be subjective. To improve detection, we developed an machine learning (ML) tool that analyses genetic activity in gum tissue. Using data from 616 patient samples, we identified five key genes (CSF2RB, COL15A1, MME, NEFM, CYP24A1) that act as biological 'flags' for gum disease. These genes are linked to immune responses that drive gum inflammation. Our ML models - especially two types called Random Forest and XGBoost - perfectly spotted gum disease in initial tests and remained highly accurate in new patient groups. We also created a simple scoring chart (nomogram) to predict individual risk. The genes we found interact with immune cells and vitamin D pathways, revealing new disease mechanisms. This work provides a faster, more objective way to diagnose gum disease and opens doors for personalised treatments.",
+    "keywords": [
+      "Artificial intelligence",
+      "Diagnostic models",
+      "Machine learning",
+      "Periodontitis",
+      "Precision medicine",
+      "Statistical"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Periodontitis/diagnosis/genetics",
+      "*Gene Expression Profiling",
+      "*Transcriptome",
+      "Biomarkers",
+      "Gene Regulatory Networks",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Ya'nan",
+        "Yang, Haiqiong",
+        "Mo, Hui",
+        "Xu, Pu"
+      ],
+      "short_names": [
+        "Cheng Y",
+        "Yang H",
+        "Mo H",
+        "Xu P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China.",
+        "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China.",
+        "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China.",
+        "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China. Electronic address: liilylee@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Ya'nan",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haiqiong",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Hui",
+        "short_name": "Mo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Pu",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Implantation, Haikou Affiliated Hospital of Central South University Xiangya School of Medicine, Haikou, Hainan Province, China. Electronic address: liilylee@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International dental journal"
+    ],
+    "journal_abbrev": [
+      "Int Dent J"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/21 00:26",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40902506",
+      "40639137",
+      "40074616",
+      "40011130",
+      "39755729",
+      "39688907",
+      "39679199",
+      "39488987",
+      "39455942",
+      "39363152",
+      "38719020",
+      "38688802",
+      "38318171",
+      "38168591",
+      "37541918",
+      "37335832",
+      "37311930",
+      "36321868",
+      "36232701",
+      "35843524",
+      "35483374",
+      "35121879",
+      "34839889",
+      "34703508",
+      "34093848",
+      "34001208",
+      "33504568",
+      "33495604",
+      "33289191",
+      "31685798",
+      "31103772",
+      "30883878",
+      "30617339",
+      "30198129",
+      "28489317",
+      "27377463",
+      "25534621",
+      "18498582"
+    ],
+    "similar": [
+      "41265166",
+      "39142001",
+      "42475469",
+      "41200172",
+      "41316541",
+      "42313235",
+      "42123756",
+      "40830558",
+      "40997906",
+      "40374866",
+      "41432483",
+      "40129981",
+      "41013556",
+      "41052072",
+      "41388523",
+      "41310117",
+      "41716396",
+      "41146237",
+      "39139563",
+      "41333919",
+      "42064079",
+      "42015036",
+      "39507054",
+      "41760060",
+      "41291841",
+      "39295860",
+      "42292668",
+      "42123445",
+      "38863714",
+      "40273141",
+      "40500570",
+      "35342071",
+      "41789070",
+      "42088521",
+      "42631563",
+      "40821793",
+      "38711508",
+      "40313958",
+      "42327749",
+      "40406126",
+      "39717623",
+      "40496857",
+      "42154423",
+      "41611834",
+      "40532306",
+      "41266415",
+      "39351221",
+      "41021591",
+      "39735547",
+      "41009952",
+      "42634206",
+      "41665627",
+      "40374840",
+      "41424060",
+      "39544937",
+      "40097519",
+      "39697326",
+      "41460373",
+      "42429909",
+      "41080564",
+      "40552285",
+      "42558367",
+      "41415264",
+      "42133007",
+      "41548166",
+      "42233387",
+      "41816342",
+      "41029776",
+      "40233623",
+      "42175497",
+      "40406620",
+      "42326009",
+      "40819095",
+      "42537010",
+      "42059276",
+      "41479901",
+      "40703651",
+      "40046872",
+      "42302029",
+      "41257259",
+      "41351083",
+      "40836320",
+      "41214111",
+      "42363518",
+      "39923303",
+      "42642681",
+      "39616855",
+      "40619516",
+      "40617086",
+      "40093012",
+      "40016711",
+      "38649912",
+      "42236612",
+      "38951833",
+      "40119397",
+      "41703488",
+      "42274933",
+      "42024670",
+      "40963625",
+      "41324863"
+    ],
+    "review": [
+      "41265166",
+      "41665627"
+    ],
+    "pmc": [
+      "12666856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020-6539(25)03311-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41265166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3481",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0020-6539(25)03311-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "42549326",
+    "doi": "10.3389/fpls.2026.1891189",
+    "title": "Integrated transcriptomic and metabolomic profiling reveals coordinated regulatory networks associated with mosaic disease resistance in sugarcane."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Sugarcane mosaic disease (SCMD) poses a severe threat to global sugarcane yield. Since conventional field management is insufficient to restrict viral transmission, unraveling the underlying defense mechanisms is imperative for targeted breeding. The primary objective of this study was to delineate the molecular and metabolic networks governing SCMD resistance by comparing highly resistant (XIDAZHE10-19, YT94-128) and susceptible (HP, XTT22) cultivars. METHODS: We employed metabolomic profiling and integrated transcriptomic data to investigate the genetic basis driving host responses. To further elucidate the functional and regulatory mechanics of identified key hub genes, we conducted weighted gene co-expression network analysis (WGCNA) alongside AlphaFold-driven structural predictions and interactome profiling. RESULTS: Metabolomic profiling identified critical defense-associated metabolites --including alcoholamines and glycerol derivatives --that strongly correlate with disease incidence. Transcriptomic integration yielded two major findings. First, pathway enrichment revealed a striking dichotomy in defense strategies: XIDAZHE10-19 preferentially orchestrated the autophagy pathway and aromatic amino acid biosynthesis, whereas YT94-128 relied heavily on calcium signaling and peroxisome-mediated reactive oxygen species (ROS) homeostasis. Second, WGCNA pinpointed ShNDK as a core hub gene exhibiting robust upregulation in susceptible cultivars. AlphaFold predictions further revealed that ShNDK potentially assembles into dimers and physically associates with canonical immune transcription factors (e.g., bZIP, Dof) and pathogenesis-related (PR) proteins. DISCUSSION: The novelty of this work lies in uncovering divergent, cultivar-specific defense strategies and identifying novel genetic hubs through a multi-omics and structural biology approach. Together, these findings unveil a complex, multi-layered defense network against SCMD. The characterization of ShNDK and the elucidation of cultivar-specific synergistic crosstalk provide a crucial mechanistic foundation and promising genetic targets for developing sugarcane cultivars with heritable, broad-spectrum resistance.",
+    "keywords": [
+      "autophagy",
+      "cultivar-specific resistance",
+      "multi-omics integration",
+      "peroxisome homeostasis",
+      "sugarcane mosaic disease"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "You, Mingjie",
+        "Li, Hui",
+        "Xie, Yan",
+        "Liu, Ze",
+        "Wei, Xuelu",
+        "Wu, Jiahe",
+        "Xu, Yi",
+        "Zhang, Qing",
+        "Zhang, Jisen",
+        "Xu, Qiutao",
+        "Shang, Heyang"
+      ],
+      "short_names": [
+        "You M",
+        "Li H",
+        "Xie Y",
+        "Liu Z",
+        "Wei X",
+        "Wu J",
+        "Xu Y",
+        "Zhang Q",
+        "Zhang J",
+        "Xu Q",
+        "Shang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "College of Life Science and Technology, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China.",
+        "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+        "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "You, Mingjie",
+        "short_name": "You M",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yan",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ze",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xuelu",
+        "short_name": "Wei X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiahe",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yi",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science and Technology, Guangxi University, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qing",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jisen",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qiutao",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Heyang",
+        "short_name": "Shang H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Sugarcane Bio-breeding Laboratory, State Key Laboratory for Conservation and Utilization of Subtropical Agro-bioresources, College of Agriculture, Guangxi University, Nanning, Guangxi, China.",
+          "Guangxi Key Lab of Agricultural Resources Chemistry and Biotechnology, Yulin Normal University, Yulin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 12:46",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41689381",
+      "41626339",
+      "41267209",
+      "41081541",
+      "40886618",
+      "40817670",
+      "40702180",
+      "39753769",
+      "39521065",
+      "36541703",
+      "36386635",
+      "36215693",
+      "35620698",
+      "35134243",
+      "34576879",
+      "33587125",
+      "33079018",
+      "32362901",
+      "32269383",
+      "32197052",
+      "31757957",
+      "31375807",
+      "31291600",
+      "31232654",
+      "31152467",
+      "30663237",
+      "30451842",
+      "29995566",
+      "29788355",
+      "29495448",
+      "28777926",
+      "26904058",
+      "25516281",
+      "24720847",
+      "24695404",
+      "24227677",
+      "23574941",
+      "22554242",
+      "22325868",
+      "21983270",
+      "20388126",
+      "19114008",
+      "18635760",
+      "18612074",
+      "18438601",
+      "14597658",
+      "14581623",
+      "12506203",
+      "11846609",
+      "11768307",
+      "10802651",
+      "10521342",
+      "10198077",
+      "9847135"
+    ],
+    "similar": [
+      "42549326",
+      "42115335",
+      "42475469",
+      "37851522",
+      "41281310",
+      "41366299",
+      "41358349",
+      "41602518",
+      "33161528",
+      "41029505",
+      "42231157",
+      "42223712",
+      "41771761",
+      "42580237",
+      "42088035",
+      "41764423",
+      "33228528",
+      "42100030",
+      "41601671",
+      "41965501",
+      "42006143",
+      "42510801",
+      "42317361",
+      "41801512",
+      "42204464",
+      "42221888",
+      "42468400",
+      "42565562",
+      "26475271",
+      "40148754",
+      "39543476",
+      "42404879",
+      "42299342",
+      "41634560",
+      "42233387",
+      "36142681",
+      "40941833",
+      "42401621",
+      "41424570",
+      "38516670",
+      "42157054",
+      "41963789",
+      "42123445",
+      "41716413",
+      "34938304",
+      "42231189",
+      "42156530",
+      "42415100",
+      "41424060",
+      "40806488",
+      "39874886",
+      "40947854",
+      "41857515",
+      "41163151",
+      "41986815",
+      "41157679",
+      "41107929",
+      "42158856",
+      "42338983",
+      "41883188",
+      "41559552",
+      "41442003",
+      "42445847",
+      "41892269",
+      "41591671",
+      "42108495",
+      "41942869",
+      "41456081",
+      "41053565",
+      "41144129",
+      "41540362",
+      "38132756",
+      "42204669",
+      "40331937",
+      "42479019",
+      "42454935",
+      "42227003",
+      "40580204",
+      "41465130",
+      "41966416",
+      "41415264",
+      "41015345",
+      "42141428",
+      "36325538",
+      "40764951",
+      "41132929",
+      "41884430",
+      "41768069",
+      "40574839",
+      "42421348",
+      "41584679",
+      "41716396",
+      "41593318",
+      "40764361",
+      "42353144",
+      "40639612",
+      "39713769",
+      "36430189",
+      "33888060",
+      "39771194"
+    ],
+    "review": [
+      "42549326",
+      "34938304"
+    ],
+    "pmc": [
+      "13431650"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42549326/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DLC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2026.1891189",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

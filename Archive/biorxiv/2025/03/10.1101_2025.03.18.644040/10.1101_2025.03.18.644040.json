@@ -1,0 +1,117 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.18.644040",
+  "title": "Genomic Language Model for Predicting Enhancers and Their Allele-Specific Activity in the Human Genome",
+  "doi": "10.1101/2025.03.18.644040",
+  "abstract": "<h4>ABSTRACT</h4> Predicting and deciphering the regulatory logic of enhancers is a challenging problem, due to the intricate sequence features and lack of consistent genetic or epigenetic signatures that can accurately discriminate enhancers from other genomic regions. Recent machine-learning based methods have spotlighted the importance of extracting nucleotide composition of enhancers but failed to learn the sequence context and perform suboptimally. Motivated by advances in genomic language models, we developed DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. We trained two different models, using large collection of enhancers curated from the ENCODE registry of candidate cis-Regulatory Elements. The best fine-tuned model achieved 88.05% accuracy with Matthews correlation coefficient of 76% on independent set aside data. Further, we present the analysis of the predicted enhancers for all chromosomes of the human genome by comparing with the enhancer regions reported in publicly available databases. Finally, we applied DNABERT-Enhancer along with other DNABERT based regulatory genomic region prediction models to predict candidate SNPs with allele-specific enhancer and transcription factor binding activity. The genome-wide enhancer annotations and candidate loss-of-function genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies.",
+  "authors": [
+    "Sathian R",
+    "Dutta P",
+    "Ay F",
+    "Davuluri RV"
+  ],
+  "published_date": "2025-03-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.18.644040",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.18.644040.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR991354",
+    "raw_record": {
+      "id": "PPR991354",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.18.644040",
+      "title": "Genomic Language Model for Predicting Enhancers and Their Allele-Specific Activity in the Human Genome",
+      "authorString": "Sathian R, Dutta P, Ay F, Davuluri RV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sathian R",
+            "lastName": "Sathian",
+            "firstName": "Rekha",
+            "initials": "R"
+          },
+          {
+            "fullName": "Dutta P",
+            "lastName": "Dutta",
+            "firstName": "Pratik",
+            "initials": "P"
+          },
+          {
+            "fullName": "Ay F",
+            "lastName": "Ay",
+            "firstName": "Ferhat",
+            "initials": "F"
+          },
+          {
+            "fullName": "Davuluri RV",
+            "lastName": "Davuluri",
+            "firstName": "Ramana",
+            "initials": "RV"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Predicting and deciphering the regulatory logic of enhancers is a challenging problem, due to the intricate sequence features and lack of consistent genetic or epigenetic signatures that can accurately discriminate enhancers from other genomic regions. Recent machine-learning based methods have spotlighted the importance of extracting nucleotide composition of enhancers but failed to learn the sequence context and perform suboptimally. Motivated by advances in genomic language models, we developed DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. We trained two different models, using large collection of enhancers curated from the ENCODE registry of candidate cis-Regulatory Elements. The best fine-tuned model achieved 88.05% accuracy with Matthews correlation coefficient of 76% on independent set aside data. Further, we present the analysis of the predicted enhancers for all chromosomes of the human genome by comparing with the enhancer regions reported in publicly available databases. Finally, we applied DNABERT-Enhancer along with other DNABERT based regulatory genomic region prediction models to predict candidate SNPs with allele-specific enhancer and transcription factor binding activity. The genome-wide enhancer annotations and candidate loss-of-function genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.18.644040"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42723633",
+            "reference": "Bioinformatics (Oxford, England). \n    2026 Sep;:btag456",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-21",
+      "firstPublicationDate": "2025-03-18",
+      "firstIndexDate": "2025-03-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

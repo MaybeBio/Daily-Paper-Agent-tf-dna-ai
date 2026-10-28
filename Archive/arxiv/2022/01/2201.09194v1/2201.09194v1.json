@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2201.09194v1",
+  "title": "Distributed Learning of Generalized Linear Causal Networks",
+  "doi": "10.1109/TPAMI.2024.3381860",
+  "abstract": "We consider the task of learning causal structures from data stored on multiple machines, and propose a novel structure learning method called distributed annealing on regularized likelihood score (DARLS) to solve this problem. We model causal structures by a directed acyclic graph that is parameterized with generalized linear models, so that our method is applicable to various types of data. To obtain a high-scoring causal graph, DARLS simulates an annealing process to search over the space of topological sorts, where the optimal graphical structure compatible with a sort is found by a distributed optimization method. This distributed optimization relies on multiple rounds of communication between local and central machines to estimate the optimal structure. We establish its convergence to a global optimizer of the overall score that is computed on all data across local machines. To the best of our knowledge, DARLS is the first distributed method for learning causal graphs with such theoretical guarantees. Through extensive simulation studies, DARLS has shown competing performance against existing methods on distributed data, and achieved comparable structure learning accuracy and test-data likelihood with competing methods applied to pooled data across all local machines. In a real-world application for modeling protein-DNA binding networks with distributed ChIP-Sequencing data, DARLS also exhibits higher predictive power than other methods, demonstrating a great advantage in estimating causal networks from distributed data.",
+  "authors": [
+    "Qiaoling Ye",
+    "Arash A. Amini",
+    "Qing Zhou"
+  ],
+  "published_date": "2022-01-23T06:33:25Z",
+  "updated_date": "2022-01-23T06:33:25Z",
+  "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024 (Early Access)",
+  "category": "stat.ME, cs.LG, stat.CO",
+  "landing_url": "https://arxiv.org/abs/2201.09194v1",
+  "pdf_url": "https://arxiv.org/pdf/2201.09194v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "stat.ME",
+    "cs.LG",
+    "stat.CO"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2201.09194v1",
+    "raw_categories": [
+      "stat.ME",
+      "cs.LG",
+      "stat.CO"
+    ],
+    "journal_ref": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024 (Early Access)"
+  }
+}

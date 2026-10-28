@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "40555562",
+    "doi": "10.1136/jitc-2024-011036",
+    "title": "Ectopic expression of GDF15 in cancer-associated fibroblasts enhances melanoma immunosuppression via the GFRAL/RET cascade."
+  },
+  "content": {
+    "abstract": "BACKGROUND: A key aspect of tumor biology is the involvement of cancer-associated fibroblasts (CAFs) in shaping the immunosuppressive microenvironment. However, the dynamic and complex key roles of CAFs in the melanoma immune microenvironment have not been elucidated. METHODS: The CAFs landscape in melanoma was characterized using single-cell RNA-seq and spatial transcriptomics. Molecular dynamics simulations were employed to validate the interactions between CAFs and melanoma cells. Bulk RNA-seq was used to establish a prognostic model. To validate the expression of key targets, western blotting, quantitative real-time PCR, and ELISA were performed. The molecular interactions were confirmed via co-immunoprecipitation, chromatin immunoprecipitation, and luciferase gene reporter assays. In-depth molecular mechanisms were explored using lentiviral transfection, cell co-culture experiments, recombinant protein rescue experiments, flow cytometry, knockout mice, and Cre-loxP system mice. RESULTS: This study identified a unique group of CAFs expressing high levels of growth differentiation factor 15 (GDF15). The paracrine secretion of GDF15 was regulated by the transcription factor FOXP1, which subsequently binds to the TGFBR2 receptor on melanoma cells, driving their proliferation and metastatic capacity. In addition, CAFs-derived GDF15 interacts with the GFRAL receptor on melanoma cells, thereby promoting RET phosphorylation and triggering downstream signaling axes, inducing increased tumor cell stemness and secretion of inflammatory factors CCL18 and TGF-beta. This cascade reaction ultimately induces macrophage polarization to the immunosuppressive M2 phenotype, assists in the establishment of an immunosuppressive microenvironment, and leads to accelerated melanoma lung metastasis. CONCLUSION: By integrating single-cell RNA-seq, spatial transcriptomics, bulk RNA-seq, molecular dynamics simulation and complete experimental design, this study comprehensively characterized that ectopic expression of CAFs-derived GDF15 can act as an accomplice in melanoma progression by inducing increased tumor cell stemness and macrophage M2 polarization, reshaping the immune landscape of melanoma, and providing new ideas and new targets for precision immunotherapy of melanoma.",
+    "keywords": [
+      "Biomarker",
+      "Immunosuppression",
+      "Macrophages",
+      "Melanoma",
+      "Tumor microenvironment - TME"
+    ],
+    "mesh_terms": [
+      "*Cancer-Associated Fibroblasts/metabolism/immunology",
+      "*Growth Differentiation Factor 15/metabolism/genetics",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Melanoma/pathology/immunology/genetics/metabolism",
+      "*Proto-Oncogene Proteins c-ret/metabolism",
+      "Tumor Microenvironment/immunology",
+      "*Glial Cell Line-Derived Neurotrophic Factor Receptors/metabolism",
+      "Cell Line, Tumor",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Zhijie",
+        "Cai, Huabao",
+        "Nie, Wenyang",
+        "Wang, Xiaojing",
+        "Zhao, Zhenzhen",
+        "Zhao, Fu",
+        "Chen, Yisheng",
+        "Luo, Zhiwen",
+        "Lin, Zhiheng",
+        "Lin, Li",
+        "Ding, Yantao"
+      ],
+      "short_names": [
+        "Zhao Z",
+        "Cai H",
+        "Nie W",
+        "Wang X",
+        "Zhao Z",
+        "Zhao F",
+        "Chen Y",
+        "Luo Z",
+        "Lin Z",
+        "Lin L",
+        "Ding Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5587-8855"
+      ],
+      "affiliations": [
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai JiaoTong University, Shanghai, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Center for Scientific Research of Anhui Medical University, Anhui Medical University, Hefei, Anhui, China.",
+        "Institute of Health and Medicine, Hefei Comprehensive National Science Center, Hefei, Anhui, China.",
+        "The First Clinical Medical College of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "Department of Rheumatology and Immunology, Tongren Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "The First Clinical Medical College of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou, Guangdong, China.",
+        "Fujian Key Laboratory of Toxicant and Drug Toxicology, Medical College, Ningde Normal University, Ningde, Fujian, China.",
+        "Department of Sport Medicine, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Gynecology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai JiaoTong University, Shanghai, China yantaoding@ahmu.edu.cn linli991@alumni.sjtu.edu.cn.",
+        "Department of Dermatology, The First Affiliated Hospital, Anhui, Medical University, Hefei, Anhui, China yantaoding@ahmu.edu.cn linli991@alumni.sjtu.edu.cn.",
+        "Key Laboratory of Dermatology (Anhui Medical University), Ministry of Education, Hefei, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Zhijie",
+        "short_name": "Zhao Z",
+        "identifiers": [
+          "0000-0001-5587-8855"
+        ],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai JiaoTong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Huabao",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+          "Center for Scientific Research of Anhui Medical University, Anhui Medical University, Hefei, Anhui, China.",
+          "Institute of Health and Medicine, Hefei Comprehensive National Science Center, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Wenyang",
+        "short_name": "Nie W",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaojing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Tongren Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhenzhen",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Fu",
+        "short_name": "Zhao F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yisheng",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Toxicant and Drug Toxicology, Medical College, Ningde Normal University, Ningde, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhiwen",
+        "short_name": "Luo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sport Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhiheng",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Li",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai JiaoTong University, Shanghai, China yantaoding@ahmu.edu.cn linli991@alumni.sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ding, Yantao",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital, Anhui, Medical University, Hefei, Anhui, China yantaoding@ahmu.edu.cn linli991@alumni.sjtu.edu.cn.",
+          "Key Laboratory of Dermatology (Anhui Medical University), Ministry of Education, Hefei, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal for immunotherapy of cancer"
+    ],
+    "journal_abbrev": [
+      "J Immunother Cancer"
+    ],
+    "pub_date": "2025 Jun 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/25 00:27",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [
+      "42708972",
+      "42643588",
+      "42614523",
+      "42602551",
+      "42546666",
+      "42535370",
+      "42529293",
+      "42509862",
+      "42411443",
+      "42292420",
+      "42183174",
+      "42119173",
+      "42099633",
+      "42093975",
+      "42088520",
+      "42079653",
+      "42071201",
+      "41972161",
+      "41958675",
+      "41824089",
+      "41562074",
+      "41526921",
+      "41489183",
+      "41432914",
+      "41159025",
+      "41080535",
+      "40936936",
+      "40860838",
+      "40777026"
+    ],
+    "refs": [
+      "39138551",
+      "38715072",
+      "38704692",
+      "38685406",
+      "38673829",
+      "38614213",
+      "38562556",
+      "38511143",
+      "38417447",
+      "38365757",
+      "38228495",
+      "38017134",
+      "37982173",
+      "37875042",
+      "37847069",
+      "37833788",
+      "37832398",
+      "37553786",
+      "37364528",
+      "37130456",
+      "36525138",
+      "36324128",
+      "35982296",
+      "35883004",
+      "35589688",
+      "35523176",
+      "35080810",
+      "34944793",
+      "34638245",
+      "34276814",
+      "34195849",
+      "33340526",
+      "33330441",
+      "32724891",
+      "32614434",
+      "31753116",
+      "31588021",
+      "31172564",
+      "31155355",
+      "29625051",
+      "29532857",
+      "27347125",
+      "26120082",
+      "25929720",
+      "25730371",
+      "25189527",
+      "22469345",
+      "22210179",
+      "16822996"
+    ],
+    "similar": [
+      "40555562",
+      "39639678",
+      "32661391",
+      "37926835",
+      "40616092",
+      "38768671",
+      "41034527",
+      "41423274",
+      "28052009",
+      "33172749",
+      "40307786",
+      "41455368",
+      "36463188",
+      "28846097",
+      "39448199",
+      "32310257",
+      "38746869",
+      "41035818",
+      "29129392",
+      "41082840",
+      "40210238",
+      "40607411",
+      "39924882",
+      "29885461",
+      "30999932",
+      "39566403",
+      "39238647",
+      "29636108",
+      "39672019",
+      "38173195",
+      "40598415",
+      "30941836",
+      "39907315",
+      "41019085",
+      "41383633",
+      "40855439",
+      "33407730",
+      "41203604",
+      "41205579",
+      "40788933",
+      "40124621",
+      "39707456",
+      "34635121",
+      "39897553",
+      "34836750",
+      "32269145",
+      "27643489",
+      "37017344",
+      "34942400",
+      "40311910",
+      "39002521",
+      "40646615",
+      "31544590",
+      "30685336",
+      "40375605",
+      "39966869",
+      "40771797",
+      "39237779",
+      "31613004",
+      "28846098",
+      "40639051",
+      "40534854",
+      "31152154",
+      "40688078",
+      "38855156",
+      "35794563",
+      "40538300",
+      "30816272",
+      "39608751",
+      "28846099",
+      "33228454",
+      "33651283",
+      "39722014",
+      "39265444",
+      "29325547",
+      "40609836",
+      "39267037",
+      "39308864",
+      "34256095",
+      "30285793",
+      "40272927",
+      "39703515",
+      "32075803",
+      "40983344",
+      "39966876",
+      "40781483",
+      "40329335",
+      "21803025",
+      "31428105",
+      "39090759",
+      "40668214",
+      "34653794",
+      "31818187",
+      "40263422",
+      "40918451",
+      "31825725",
+      "39827226",
+      "37833788",
+      "34195849",
+      "28097809"
+    ],
+    "review": [
+      "40555562",
+      "33172749",
+      "41455368",
+      "32310257",
+      "39907315",
+      "34635121",
+      "34836750",
+      "40311910",
+      "40534854",
+      "33228454",
+      "40272927",
+      "31428105"
+    ],
+    "pmc": [
+      "12198796"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jitc.bmj.com/lookup/pmidlookup?view=long&pmid=40555562",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40555562/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

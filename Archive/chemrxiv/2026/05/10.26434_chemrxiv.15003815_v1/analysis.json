@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15003815/v1",
+  "title": "Predicting DNA Aptamer-Ligand Binding Affinities with DeltaGzip",
+  "authors": "Tao Liu; Aron A. Shoara; Emily Hoi Pui Chao; Minh-Dat Nguyen; Sophia C. Vetrici; Philip E. Johnson; Philippe Dauphin-Ducharme; Lena Simine",
+  "journal": "ChemRxiv",
+  "published_date": "2026-05-24",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟结合Gzip压缩预测DNA适配体-配体结合亲和力，虽非TF-DNA体系，但属于蛋白质-DNA互作可迁移的物理模拟方法，对TF-DNA结合建模有借鉴价值。",
+  "abstract": "Accurately predicting DNA–ligand binding affinities is critical for the scalable design of DNA aptamer-based sensors, yet the field lacks computational tools in virtual screening that balance computational efficiency with experiment-level accuracy. Here, we adapt DeltaGzip, an affinity prediction protocol combining molecular dynamics simulation with Gzip lossless compression, to DNA aptamer–ligand systems. To this end we refined the calculation of enthalpy, performed representation learning to improve the entropy calculation, and introduced a pre-screening step to filter out non-binding ligands. In the absence of suitable datasets for method validation, we have performed isothermal titration calorimetry (ITC) measurements of the binding free energy for a dopamine-binding DNA aptamer binding 22 different molecular ligands with varying affinity. Our experiments show that DeltaGzip’s predictions agree with the ITC measurements, both qualitatively and quantitatively.",
+  "abstract_zh": "准确预测DNA-配体结合亲和力对于基于DNA适体传感器的可扩展设计至关重要，然而该领域在虚拟筛选中缺乏能够在计算效率与实验级准确性之间取得平衡的计算工具。在此，我们将DeltaGzip——一种结合分子动力学模拟与Gzip无损压缩的亲和力预测协议——适配于DNA适体-配体系统。为此，我们优化了焓的计算，进行了表示学习以改进熵的计算，并引入了一个预筛选步骤以过滤掉非结合配体。在缺乏合适数据集进行方法验证的情况下，我们对一个结合多巴胺的DNA适体与22种不同亲和力的分子配体的结合自由能进行了等温滴定量热法（ITC）测量。我们的实验表明，DeltaGzip的预测与ITC测量结果在定性和定量上均一致。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15003815/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15003815/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15003815_v1/index.html"
+}

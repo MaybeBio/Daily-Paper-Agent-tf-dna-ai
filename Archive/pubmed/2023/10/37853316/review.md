@@ -1,0 +1,119 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, background, results, discussion, methods, and supplementary file descriptions
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present a computational pipeline integrating root epidermal-specific time-series transcriptomic data with DNA motif information and logistic regression with LASSO to identify putative regulators of iron deficiency response in Arabidopsis thaliana. They report that cell-specific data with time-matched controls reveals early epidermal responses masked in whole-root data, and that their approach identifies transcription factors not differentially expressed but potentially post-transcriptionally regulated.
+- **Visible evidence base** Results sections describing DEG set comparisons, clustering, mutual information-based network inference, and logistic regression feature selection; figures referenced (Fig. 1-6); supplementary tables S01-S09 described
+- **Missing materials affecting confidence** Raw data files, complete figure images, supplementary tables S01-S09 contents, exact statistical outputs, code availability, and validation datasets were not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in iron deficiency research by focusing on cell-type-specific responses in the root epidermis. The combination of time-series transcriptomics with interpretable machine learning is timely and potentially valuable. However, the evidence presented is largely descriptive and computational, with limited experimental validation. Several methodological details are underspecified, and the biological conclusions extend beyond what the data can support. The work is of interest to the plant iron homeostasis community but requires substantial revision to establish the claims made.
+- **Who would be interested in the results, and why** Researchers studying iron homeostasis in plants, particularly those focused on transcriptional regulation and cell-type-specific responses. The methodological approach may also interest computational biologists working on gene regulatory network inference and integration of static and dynamic data. The identification of putative post-transcriptionally regulated regulators could inform targeted functional studies.
+- **Major strengths** The use of cell-type-specific data with time-matched controls is a clear improvement over whole-root analyses. The integration of multiple data types (transcriptomics, motif information) with interpretable machine learning is innovative. The focus on non-differentially expressed regulators is a thoughtful departure from standard approaches. The mutual information sampling method addresses a real limitation of centroid-based network inference.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the mutual information sampling method with a threshold of alpha = 0.1775 identifies meaningful inter-cluster relationships
+  - **Evidence pointer** Results section "Expression analysis and inter-cluster GRN", Figure 2
+  - **Concern** The threshold selection for accepting inter-cluster connections is based on visual inspection of a distribution (Fig. 2C) with no statistical justification. The choice of the 90th percentile of the MI distribution as the alpha score is arbitrary. No null model, permutation test, or false discovery rate control is described. The claim that this approach identifies "33 potential interactions" lacks any measure of confidence or significance.
+  - **Why it matters** The entire network inference and subsequent biological interpretation depend on the validity of these connections. Without statistical rigor, the network may contain numerous false positives, undermining all downstream claims about regulatory relationships.
+  - **Resolution test** Provide a statistical framework for threshold selection, such as permutation testing or comparison against a null distribution of MI scores from randomized data. Report precision/recall metrics if any ground truth is available, or at minimum provide confidence intervals for the identified connections.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that logistic regression with LASSO identifies motifs and transcription factors important for predicting differential expression
+  - **Evidence pointer** Results section "Predictive models identify TFs that may be post-transcriptionally regulated", Figure 4, Supplementary Tables S04-S05
+  - **Concern** The machine learning pipeline is described at a high level but critical details are missing. The manuscript does not specify the train/test split, cross-validation scheme, class imbalance handling, hyperparameter tuning for the LASSO penalty, or performance metrics (accuracy, AUC, precision, recall). The statement that motifs were "consistent predictors across all runs" is not quantified. No evaluation of model predictive performance is provided, making it impossible to assess whether the identified features are genuinely informative or artifacts of overfitting.
+  - **Why it matters** Without proper model validation, the 29 identified motifs and associated transcription factors cannot be distinguished from noise. The central claim of identifying novel regulators depends entirely on the reliability of this model.
+  - **Resolution test** Provide complete model evaluation details including cross-validated performance metrics, feature selection stability analysis, and comparison against baseline models (e.g., random features, no regularization). Report the distribution of coefficients across the 20 runs and how consistency was defined.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that identified non-differentially expressed transcription factors "may be post-transcriptionally regulated" and represent "high-level regulators" of iron deficiency response
+  - **Evidence pointer** Results section "Non-differentially expressed regulators are associated with iron-related pathways and activity", Figure 5
+  - **Concern** The manuscript provides no direct evidence of post-transcriptional regulation for the identified factors. Literature citations for four factors (DOF family, CUC1, PIF7, LHY1) are suggestive but do not establish that these factors are post-transcriptionally regulated specifically in the context of iron deficiency in the root epidermis. The claim that these are "high-level regulators" is speculative, as no functional validation, mutant analysis, or chromatin immunoprecipitation data are presented.
+  - **Why it matters** The central novelty of the paper rests on identifying regulators that would be missed by standard transcriptomic approaches. If the post-transcriptional regulation claim is unsupported, the contribution reduces to a computational prediction exercise without biological validation.
+  - **Resolution test** Provide experimental evidence for at least a subset of the identified factors, such as protein-level measurements under iron deficiency, translation inhibitor experiments, or validated target gene expression changes following perturbation. Alternatively, substantially temper the claims to reflect the speculative nature of these predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "developmental regulatory processes may act upstream of well-known Fe-specific responses" based on the inter-cluster network
+  - **Evidence pointer** Results section "Expression analysis and inter-cluster GRN", Figure 3
+  - **Concern** The directionality of the proposed regulatory relationships is inferred from time-lagged mutual information, but the manuscript does not explain how directionality is determined from this metric. Mutual information is symmetric and does not inherently provide causal direction. The use of a 6-hour time lag may suggest temporal ordering, but this is not a rigorous causal inference method. The claim of "upstream" regulation requires additional support.
+  - **Why it matters** The proposed hierarchical model of developmental regulators acting upstream of iron-specific responses is a key conceptual contribution. If the directionality is not methodologically sound, this conclusion is unsupported.
+  - **Resolution test** Clarify the causal inference framework. If time-lagged MI is used, explain how directionality is assigned. Consider complementary approaches such as Granger causality, dynamic Bayesian networks, or perturbation experiments to support the proposed hierarchy.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "approximately 50% of the epidermis-specific iron response DEGs" would be missed when using whole-root data
+  - **Evidence pointer** Results section "Cell-specific experimental data uncovers genes associated with -Fe response in the epidermis", Figure 1A
+  - **Concern** The comparison between whole-root microarray and epidermal RNA-seq data is confounded by platform differences. The manuscript acknowledges this but dismisses the effect as "negligible" without quantitative support. Microarray platforms have limited probe coverage and dynamic range compared to RNA-seq, which could account for a substantial portion of the observed differences. The 50% figure may therefore overstate the biological significance of cell-type-specific responses.
+  - **Why it matters** This quantitative claim is used to justify the need for cell-type-specific approaches. If inflated by technical artifacts, the argument is weakened.
+  - **Resolution test** Provide a direct comparison using the same platform (e.g., RNA-seq for both whole root and epidermis) or at minimum a technical replication analysis. Quantify the platform contribution to observed differences, for example by comparing genes represented on the microarray to those detected only by RNA-seq.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Background, first paragraph
+  - **Issue** The background assumes substantial prior knowledge of iron deficiency response mechanisms and Arabidopsis root biology. Terms such as "Strategy I iron acquisition" and "bHLH transcriptional regulators" are introduced without brief definitions for readers outside the immediate field.
+  - **Required correction** Add brief contextual definitions or a short primer on iron acquisition mechanisms to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, differential expression analysis
+  - **Evidence pointer** Methods section
+  - **Issue** The differential expression criteria are not fully specified. The manuscript states a minimum log fold change threshold of 0.75 and FDR of 0.05 but does not describe the normalization method, dispersion estimation, or whether biological replicates were used for each time point.
+  - **Required correction** Provide complete details of the edgeR analysis parameters, including normalization method, dispersion estimation approach, and replicate structure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, clustering
+  - **Evidence pointer** Methods section, DPGP clustering
+  - **Issue** The DPGP clustering parameters are not described. The number of clusters (50) appears to be specified a priori, but the manuscript does not explain how this number was chosen or whether alternative cluster numbers were evaluated.
+  - **Required correction** Justify the choice of 50 clusters and describe any sensitivity analysis performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Figure 6
+  - **Evidence pointer** Figure 6 legend
+  - **Issue** The hypothesized model in Figure 6 is described only in the legend and discussion. A dedicated results subsection explaining the model components and their proposed relationships would improve clarity.
+  - **Required correction** Add a brief results paragraph describing the model and its key predictions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, motif analysis
+  - **Evidence pointer** Methods section, AME analysis
+  - **Issue** The AME analysis parameters are not specified, including the background model used, the significance threshold for motif enrichment, and how multiple testing was handled.
+  - **Required correction** Provide complete AME parameters and enrichment statistics.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The discussion mentions "several avenues of future inquiry" but does not prioritize or specify the most promising experimental validations. A more focused set of testable predictions would strengthen the paper.
+  - **Required correction** Highlight 2-3 specific, high-priority experiments that would validate the key predictions of the model.
+
+## Risk / unsupported claims
+- The claim that identified transcription factors are "post-transcriptionally regulated" is unsupported by direct evidence; literature citations are suggestive but not specific to the iron deficiency context
+- The claim that developmental regulators act "upstream" of iron-specific responses is unsupported due to lack of a rigorous causal inference framework
+- The claim that approximately 50% of epidermis-specific DEGs would be missed using whole-root data is confounded by platform differences between microarray and RNA-seq
+- The biological significance of the 33 predicted inter-cluster interactions is unvalidated; no experimental confirmation is provided for any novel predicted regulatory relationship
+- The claim that the logistic regression model identifies "putative regulators" is based on motif presence alone, without evidence that these motifs are functional in the iron deficiency context
+- The statement that "this effect is negligible" regarding platform differences between microarray and RNA-seq is asserted without quantitative support
+- The proposed threshold of alpha = 0.1775 for network connections is presented without statistical justification or validation
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The combination of cell-type-specific transcriptomics with interpretable machine learning for iron deficiency research is a novel application, though the individual components are established. The focus on non-differentially expressed regulators is a creative angle.
+- **Scientific importance** Moderate. The work addresses a real gap in understanding cell-type-specific iron responses, but the lack of experimental validation limits the immediate impact. The findings are primarily hypothesis-generating.
+- **Interdisciplinary readership** Limited. The work will primarily interest plant iron homeostasis researchers and computational biologists. The methods are not broadly applicable beyond the specific biological context without substantial adaptation.
+- **Technical soundness** Weak. The statistical framework for network inference is underdeveloped, the machine learning pipeline lacks validation details, and the causal claims are not methodologically supported. Several analyses are described at a level insufficient for replication.
+- **Readability for nonspecialists** Moderate. The writing is generally clear but assumes substantial domain knowledge. The methods sections are dense and would benefit from additional context for readers outside computational biology.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents an interesting computational framework and hypothesis-generating results, but the central claims require substantial additional support. The statistical rigor of the network inference must be established, the machine learning pipeline requires proper validation, and the biological claims need either experimental confirmation or significant tempering. The work has potential but is not yet suitable for publication in its current form.

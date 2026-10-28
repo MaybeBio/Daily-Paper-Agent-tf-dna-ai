@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "42549987",
+    "doi": "10.1111/cbdd.70363",
+    "title": "Multi-Omics Integration Reveals That SN-011 Targets JUNB to Upregulate ADGRE5 and Restore Vascular Endothelial Cell Communication in Ischemic Stroke."
+  },
+  "content": {
+    "abstract": "Ischemic stroke (IS) is a cerebrovascular disease with high mortality and disability rates, currently lacking effective therapeutic targets. The STING inhibitor SN-011 shows potential in IS treatment, but its mechanism of action remains unclear. This study aims to explore the key molecular mechanisms of SN-011 in treating IS through bioinformatics approaches. IS transcriptome datasets were analyzed to identify differentially expressed genes. Mendelian randomization using brain eQTL and IS-GWAS data identified genes with causal relationships to IS. Single-cell transcriptome, pseudo-time trajectory, intercellular communication, and transcription factor regulatory network analyzes were performed. Molecular docking and DARTS-WB assay validated SN-011 binding to transcription factors. Transcriptomic analysis identified 77 intersecting genes. Mendelian randomization revealed ADGRE5 as a protective gene for IS (OR < 1), significantly downregulated in venous endothelial cells (vECs) during disease progression. Cell communication analysis showed ADGRE5-high vECs interact with immune, glial, and stromal cells via LAMININ (Lamb2-CD44, Lamb2-Itga6+Itgb1, Lamb2-Dag1 pair) and JAM signaling pathways. Transcription factor analysis identified JUNB as a negative regulator of ADGRE5. Molecular docking (-6.8 kcal/mol) combined with an in vitro DARTS-WB assay confirmed the interaction between SN-011 and JUNB. In OGD-induced endothelial cell injury models, SN-011 suppressed JUNB expression, restored ADGRE5 expression inhibited by JUNB overexpression, reversed the downregulation of LAMB2 and CD44, and reduced the expression of the pro-inflammatory cytokines IL-6 and IL-1beta. Notably, blockade of LAMB2 largely abolished these protective effects, indicating that the anti-inflammatory and endothelial-protective activities of SN-011 are mediated, at least in part, through restoration of the LAMB2-CD44 signaling axis. ADGRE5 downregulation in vECs may impair vascular repair by disrupting LAMININ-mediated intercellular communication. SN-011 may exert neuroprotective effects by targeting JUNB to upregulate ADGRE5 expression and restore the vEC-centered cellular communication network, providing a theoretical basis for SN-011 as a potential IS therapeutic.",
+    "keywords": [
+      "ADGRE5",
+      "JUNB",
+      "SN-011",
+      "ischemic stroke"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ischemic Stroke/metabolism/drug therapy/pathology",
+      "*Up-Regulation/drug effects",
+      "*Transcription Factors/metabolism/genetics/antagonists & inhibitors",
+      "*Cell Communication/drug effects",
+      "Molecular Docking Simulation",
+      "*Endothelial Cells/metabolism/drug effects/cytology",
+      "Animals",
+      "Signal Transduction/drug effects",
+      "Multiomics",
+      "Human Umbilical Vein Endothelial Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ou, XiangLing",
+        "Gong, ZunKe"
+      ],
+      "short_names": [
+        "Ou X",
+        "Gong Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-7000-3674"
+      ],
+      "affiliations": [
+        "The Affiliated Xuzhou Rehabilitation Hospital of Xuzhou Medical University, Xuzhou, Jiangsu Province, China.",
+        "The Affiliated Xuzhou Rehabilitation Hospital of Xuzhou Medical University, Xuzhou, Jiangsu Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ou, XiangLing",
+        "short_name": "Ou X",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Xuzhou Rehabilitation Hospital of Xuzhou Medical University, Xuzhou, Jiangsu Province, China."
+        ]
+      },
+      {
+        "full_name": "Gong, ZunKe",
+        "short_name": "Gong Z",
+        "identifiers": [
+          "0009-0005-7000-3674"
+        ],
+        "affiliations": [
+          "The Affiliated Xuzhou Rehabilitation Hospital of Xuzhou Medical University, Xuzhou, Jiangsu Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical biology & drug design"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Drug Des"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 12:46",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40862763",
+      "40294830",
+      "40274801",
+      "39825429",
+      "39709905",
+      "39694424",
+      "38637850",
+      "38049580",
+      "37601974",
+      "37049669",
+      "36973481",
+      "36862550",
+      "36180795",
+      "35452223",
+      "34467853",
+      "34099558",
+      "33745949",
+      "33187730",
+      "32540968",
+      "32507747",
+      "32142645",
+      "31899686",
+      "31485123",
+      "31371381",
+      "30799039",
+      "30796134",
+      "30706626",
+      "30568238",
+      "30566866",
+      "30296662",
+      "30165150",
+      "29425920",
+      "29386200",
+      "29268096",
+      "28991892",
+      "28931565",
+      "28874664",
+      "28358422",
+      "26997758",
+      "25741341",
+      "25472994",
+      "24449944",
+      "23749882",
+      "23695165",
+      "23245604",
+      "22797060",
+      "22140417",
+      "21858771",
+      "19601881",
+      "18086926",
+      "15576472",
+      "14734715",
+      "14568745",
+      "10838568",
+      "10660111",
+      "9389316",
+      "8939648",
+      "8063876"
+    ],
+    "similar": [
+      "42549987",
+      "42035096",
+      "40916281",
+      "40302336",
+      "41724289",
+      "42411478",
+      "42375348",
+      "42510881",
+      "40682944",
+      "41756274",
+      "37789643",
+      "41354822",
+      "42061088",
+      "39694424",
+      "38493721",
+      "42236612",
+      "41371106",
+      "42208355",
+      "41254784",
+      "41342434",
+      "41792142",
+      "41444617",
+      "41101222",
+      "42278279",
+      "38951468",
+      "41291570",
+      "42265520",
+      "41191606",
+      "42172707",
+      "41703488",
+      "37080367",
+      "42260484",
+      "40839986",
+      "41186507",
+      "39488873",
+      "41918402",
+      "41202080",
+      "40624693",
+      "40207230",
+      "42123319",
+      "42192059",
+      "39714965",
+      "29521586",
+      "42202914",
+      "41716413",
+      "41895505",
+      "42431282",
+      "42421947",
+      "41293954",
+      "42530267",
+      "26860974",
+      "42530051",
+      "40245961",
+      "41621766",
+      "40633838",
+      "41699623",
+      "41963573",
+      "40708520",
+      "41986576",
+      "34146216",
+      "32382040",
+      "41303615",
+      "40819780",
+      "42565562",
+      "41016300",
+      "42486346",
+      "41622144",
+      "40849856",
+      "41556698",
+      "41632363",
+      "42421348",
+      "40764361",
+      "40216809",
+      "41944069",
+      "42069160",
+      "42512067",
+      "40918148",
+      "40953791",
+      "41770679",
+      "39874886",
+      "41673363",
+      "38948219",
+      "41771998",
+      "42260332",
+      "36587875",
+      "42167662",
+      "41269448",
+      "38546384",
+      "41246341",
+      "41038150",
+      "40615099",
+      "41314046",
+      "41699549",
+      "39894416",
+      "34582494",
+      "42226110",
+      "39733802",
+      "42197164",
+      "39615770",
+      "34367186"
+    ],
+    "review": [
+      "42549987",
+      "41101222"
+    ],
+    "pmc": [
+      "13435820"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42549987/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cbdd.70363",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

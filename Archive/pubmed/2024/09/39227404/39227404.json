@@ -1,0 +1,559 @@
+{
+  "identity": {
+    "pmid": "39227404",
+    "doi": "10.1038/s41467-024-52076-0",
+    "title": "Molecular mechanism of IKK catalytic dimer docking to NF-kappaB substrates."
+  },
+  "content": {
+    "abstract": "The inhibitor of kappaB (IkappaB) kinase (IKK) is a central regulator of NF-kappaB signaling. All IKK complexes contain hetero- or homodimers of the catalytic IKKbeta and/or IKKalpha subunits. Here, we identify a YDDPhixPhi motif, which is conserved in substrates of canonical (IkappaBalpha, IkappaBbeta) and alternative (p100) NF-kappaB pathways, and which mediates docking to catalytic IKK dimers. We demonstrate a quantitative correlation between docking affinity and IKK activity related to IkappaBalpha phosphorylation/degradation. Furthermore, we show that phosphorylation of the motif's conserved tyrosine, an event previously reported to promote IkappaBalpha accumulation and inhibition of NF-kappaB gene expression, suppresses the docking interaction. Results from integrated structural analyzes indicate that the motif binds to a groove at the IKK dimer interface. Consistently, suppression of IKK dimerization also abolishes IkappaBalpha substrate binding. Finally, we show that an optimized bivalent motif peptide inhibits NF-kappaB signaling. This work unveils a function for IKKalpha/beta dimerization in substrate motif recognition.",
+    "keywords": [],
+    "mesh_terms": [
+      "*I-kappa B Kinase/metabolism/chemistry/genetics",
+      "Humans",
+      "*NF-kappa B/metabolism",
+      "Phosphorylation",
+      "*Protein Multimerization",
+      "*Amino Acid Motifs",
+      "Protein Binding",
+      "Signal Transduction",
+      "NF-KappaB Inhibitor alpha/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "HEK293 Cells",
+      "Substrate Specificity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Changqing",
+        "Moro, Stefano",
+        "Shostak, Kateryna",
+        "O'Reilly, Francis J",
+        "Donzeau, Mariel",
+        "Graziadei, Andrea",
+        "McEwen, Alastair G",
+        "Desplancq, Dominique",
+        "Poussin-Courmontagne, Pierre",
+        "Bachelart, Thomas",
+        "Fiskin, Mert",
+        "Berrodier, Nicolas",
+        "Pichard, Simon",
+        "Brillet, Karl",
+        "Orfanoudakis, Georges",
+        "Poterszman, Arnaud",
+        "Torbeev, Vladimir",
+        "Rappsilber, Juri",
+        "Davey, Norman E",
+        "Chariot, Alain",
+        "Zanier, Katia"
+      ],
+      "short_names": [
+        "Li C",
+        "Moro S",
+        "Shostak K",
+        "O'Reilly FJ",
+        "Donzeau M",
+        "Graziadei A",
+        "McEwen AG",
+        "Desplancq D",
+        "Poussin-Courmontagne P",
+        "Bachelart T",
+        "Fiskin M",
+        "Berrodier N",
+        "Pichard S",
+        "Brillet K",
+        "Orfanoudakis G",
+        "Poterszman A",
+        "Torbeev V",
+        "Rappsilber J",
+        "Davey NE",
+        "Chariot A",
+        "Zanier K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9946-3536",
+        "ORCID: 0000-0001-9258-0150",
+        "ORCID: 0000-0003-4484-3512",
+        "ORCID: 0000-0003-4813-6882",
+        "ORCID: 0009-0008-9765-4006",
+        "ORCID: 0000-0002-7900-8923",
+        "ORCID: 0000-0002-6702-5777",
+        "ORCID: 0000-0001-5999-1310",
+        "ORCID: 0000-0002-7183-7356"
+      ],
+      "affiliations": [
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Laboratory of Cancer Biology, GIGA Cancer, University of Liege, CHU, Sart-Tilman, 4000, Liege, Belgium.",
+        "Institute of Biotechnology, Technische Universitat Berlin, Gustav-Meyer-Allee 25, Berlin, Germany.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Institute of Biotechnology, Technische Universitat Berlin, Gustav-Meyer-Allee 25, Berlin, Germany.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Universite de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Universite de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Universite de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Universite de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France.",
+        "Institut Biologie Moleculaire et Cellulaire (IBMC), CNRS UPR9002, 2 allee Konrad Roentgen, 67000, Strasbourg, France.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Universite de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France.",
+        "Institute of Biotechnology, Technische Universitat Berlin, Gustav-Meyer-Allee 25, Berlin, Germany.",
+        "Division of Cancer Biology, The Institute of Cancer Research, 237 Fulham Road, London, SW3 6JB, UK.",
+        "Laboratory of Cancer Biology, GIGA Cancer, University of Liege, CHU, Sart-Tilman, 4000, Liege, Belgium.",
+        "WELBIO department, WEL Research Institute, avenue Pasteur, 6, 1300, Wavre, Belgium.",
+        "Biotechnology and Cell Signaling (CNRS/Universite de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sebastien Brant, 67400, Illkirch, France. zanier@unistra.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Changqing",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Moro, Stefano",
+        "short_name": "Moro S",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Shostak, Kateryna",
+        "short_name": "Shostak K",
+        "identifiers": [
+          "0000-0002-9946-3536"
+        ],
+        "affiliations": [
+          "Laboratory of Cancer Biology, GIGA Cancer, University of Liege, CHU, Sart-Tilman, 4000, Liege, Belgium."
+        ]
+      },
+      {
+        "full_name": "O'Reilly, Francis J",
+        "short_name": "O'Reilly FJ",
+        "identifiers": [
+          "0000-0001-9258-0150"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Technische Universität Berlin, Gustav-Meyer-Allee 25, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Donzeau, Mariel",
+        "short_name": "Donzeau M",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Graziadei, Andrea",
+        "short_name": "Graziadei A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, Technische Universität Berlin, Gustav-Meyer-Allee 25, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "McEwen, Alastair G",
+        "short_name": "McEwen AG",
+        "identifiers": [
+          "0000-0003-4484-3512"
+        ],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Université de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Desplancq, Dominique",
+        "short_name": "Desplancq D",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Poussin-Courmontagne, Pierre",
+        "short_name": "Poussin-Courmontagne P",
+        "identifiers": [
+          "0000-0003-4813-6882"
+        ],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Université de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Bachelart, Thomas",
+        "short_name": "Bachelart T",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Fiskin, Mert",
+        "short_name": "Fiskin M",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Berrodier, Nicolas",
+        "short_name": "Berrodier N",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Université de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Pichard, Simon",
+        "short_name": "Pichard S",
+        "identifiers": [
+          "0009-0008-9765-4006"
+        ],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Université de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Brillet, Karl",
+        "short_name": "Brillet K",
+        "identifiers": [
+          "0000-0002-7900-8923"
+        ],
+        "affiliations": [
+          "Institut Biologie Moléculaire et Cellulaire (IBMC), CNRS UPR9002, 2 allée Konrad Roentgen, 67000, Strasbourg, France."
+        ]
+      },
+      {
+        "full_name": "Orfanoudakis, Georges",
+        "short_name": "Orfanoudakis G",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Poterszman, Arnaud",
+        "short_name": "Poterszman A",
+        "identifiers": [
+          "0000-0002-6702-5777"
+        ],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC) / INSERM UMR-S 1258 / CNRS UMR7104/ Université de Strasbourg, 1 rue Laurent Fries, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Torbeev, Vladimir",
+        "short_name": "Torbeev V",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Rappsilber, Juri",
+        "short_name": "Rappsilber J",
+        "identifiers": [
+          "0000-0001-5999-1310"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Technische Universität Berlin, Gustav-Meyer-Allee 25, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Davey, Norman E",
+        "short_name": "Davey NE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cancer Biology, The Institute of Cancer Research, 237 Fulham Road, London, SW3 6JB, UK."
+        ]
+      },
+      {
+        "full_name": "Chariot, Alain",
+        "short_name": "Chariot A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Biology, GIGA Cancer, University of Liege, CHU, Sart-Tilman, 4000, Liege, Belgium.",
+          "WELBIO department, WEL Research Institute, avenue Pasteur, 6, 1300, Wavre, Belgium."
+        ]
+      },
+      {
+        "full_name": "Zanier, Katia",
+        "short_name": "Zanier K",
+        "identifiers": [
+          "0000-0002-7183-7356"
+        ],
+        "affiliations": [
+          "Biotechnology and Cell Signaling (CNRS/Université de Strasbourg, UMR7242), Ecole Superieure de Biotechnologie de Strasbourg, Boulevard Sébastien Brant, 67400, Illkirch, France. zanier@unistra.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Sep 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 01:01",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42650798",
+      "42638579",
+      "42575968",
+      "42482368",
+      "42421949",
+      "42277399",
+      "42135680",
+      "42113347",
+      "42004597",
+      "41930149",
+      "41922847",
+      "41896578",
+      "41608629",
+      "41437194",
+      "41383632",
+      "41379302",
+      "41234869",
+      "40729545",
+      "40616977",
+      "40555280",
+      "40489926",
+      "40243616",
+      "39833632"
+    ],
+    "refs": [
+      "37371061",
+      "35477005",
+      "35339487",
+      "35132103",
+      "34395534",
+      "33422358",
+      "31588918",
+      "31556486",
+      "31243359",
+      "31091078",
+      "30374081",
+      "30142927",
+      "29544874",
+      "29379212",
+      "29128367",
+      "29021733",
+      "28387819",
+      "27851956",
+      "27586688",
+      "27055097",
+      "26785684",
+      "26410586",
+      "26385339",
+      "25866210",
+      "25524420",
+      "24375677",
+      "23792959",
+      "23776406",
+      "23047924",
+      "22633953",
+      "22619329",
+      "22505256",
+      "22127214",
+      "22017429",
+      "21423167",
+      "20399103",
+      "20383002",
+      "20300203",
+      "20159461",
+      "20124692",
+      "19805123",
+      "19763089",
+      "19648011",
+      "19303852",
+      "19136968",
+      "18836453",
+      "17164524",
+      "16612387",
+      "15743772",
+      "15466857",
+      "15367631",
+      "15264254",
+      "15140882",
+      "12789343",
+      "12789342",
+      "12167702",
+      "11782428",
+      "11520989",
+      "11285229",
+      "10968790",
+      "10837071",
+      "10823818",
+      "10593898",
+      "9751060",
+      "9721103",
+      "9657155",
+      "9575145",
+      "9351830",
+      "9346241",
+      "2156225",
+      "1478777"
+    ],
+    "similar": [
+      "39227404",
+      "32017069",
+      "15618150",
+      "37100289",
+      "35029639",
+      "17977820",
+      "17047224",
+      "11158290",
+      "25386663",
+      "36528060",
+      "19666475",
+      "15784689",
+      "24085292",
+      "20195534",
+      "23455325",
+      "17244613",
+      "10837071",
+      "12054687",
+      "21143809",
+      "12459277",
+      "16611882",
+      "33539010",
+      "26776306",
+      "18401342",
+      "21423167",
+      "40320073",
+      "18957422",
+      "21784860",
+      "20797629",
+      "26089539",
+      "33915176",
+      "24747121",
+      "15856023",
+      "21474453",
+      "20507646",
+      "24375677",
+      "20600852",
+      "27701768",
+      "17240450",
+      "18949366",
+      "25510414",
+      "18579519",
+      "24215713",
+      "9721103",
+      "34582005",
+      "16258173",
+      "40024405",
+      "12221085",
+      "18456659",
+      "22633953",
+      "17709380",
+      "16547522",
+      "10391945",
+      "16207722",
+      "17121808",
+      "12612076",
+      "10438454",
+      "28499869",
+      "26334375",
+      "23294515",
+      "25096806",
+      "10469655",
+      "21816815",
+      "11815618",
+      "26296658",
+      "16684768",
+      "24266532",
+      "23593410",
+      "17533369",
+      "9346241",
+      "22891964",
+      "19088076",
+      "24242761",
+      "21810613",
+      "30445257",
+      "28673044",
+      "10775461",
+      "11865184",
+      "16181613",
+      "16950795",
+      "18626576",
+      "17000764",
+      "17684021",
+      "9891086",
+      "24721172",
+      "17313484",
+      "25946971",
+      "30887112",
+      "32853772",
+      "12556537",
+      "10783893",
+      "21622571",
+      "19422324",
+      "10359587",
+      "18161870",
+      "9632633",
+      "25938234",
+      "30619291",
+      "29139553",
+      "21138416"
+    ],
+    "review": [
+      "39227404",
+      "17047224",
+      "10837071",
+      "24375677",
+      "24242761",
+      "11865184"
+    ],
+    "pmc": [
+      "11371828"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-52076-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/2268/321940",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39227404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

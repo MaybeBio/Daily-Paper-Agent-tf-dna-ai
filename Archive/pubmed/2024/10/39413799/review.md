@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results presentation, discussion, case study, conclusion) for the manuscript "Mut-Map: Comprehensive Computational Pipeline for Structural Mapping and Analysis of Cancer-Associated Mutations" by Alsulami, published in Briefings in Bioinformatics (2024), DOI 10.1093/bib/bbae514.
+- **Assessment boundary** Evaluation is limited to the scientific and technical content presented in the provided manuscript text. Claims regarding web server functionality, database contents, and pipeline performance are assessed based on the descriptions provided, not on independent testing or access to the live server.
+- **Shared manuscript claim summary** The manuscript describes Mut-Map (also referred to as Map-Mut), a computational pipeline that integrates COSMIC mutation data with PDB and AlphaFold structural data. The pipeline accepts a UniProt ID, maps mutations onto structures, renumbers residues, calculates solvent accessibility, categorizes mutations by structural context (core, interface, ligand-binding, dimer, DNA-binding, zinc coordination), and generates mutant models using Modeller. A web server implementation is described. A case study on TP53 is presented, reporting structural coverage, disorder percentage, mutation counts, and hotspot mutations at the DNA interface and around the zinc ion.
+- **Visible evidence base** The manuscript text includes descriptions of pipeline components, a TP53 case study with specific numerical results, and references to figures (Fig. 1, Fig. 2B–D, Fig. 3). No figures, tables, or supplementary data are provided in the submitted material. No quantitative validation metrics, benchmarking results, or comparisons with existing tools are presented beyond qualitative statements.
+- **Missing materials affecting confidence** Figures and tables referenced in the text are not available for inspection. No performance benchmarks, accuracy assessments, or validation datasets are provided. The web server URL is given but its functionality, data completeness, and user interface cannot be independently verified from the manuscript. No details on the COSMIC data version, retrieval dates, or filtering criteria are provided. The case study results are presented without statistical analysis or comparison to known literature values.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful web-based tool for mapping cancer-associated mutations onto protein structures. The pipeline integrates several established resources and addresses a real need in the field. However, the manuscript is largely descriptive and lacks quantitative validation. The case study on TP53 provides illustrative results but does not demonstrate the pipeline's accuracy, reliability, or advantage over existing tools in a rigorous manner. The writing contains inconsistencies in tool naming (Mut-Map vs. Map-Mut) and some methodological details are underspecified. The scientific case for novelty and utility is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, structural biology, and bioinformatics who need to interpret the structural context of somatic mutations would find this tool relevant. Clinicians and translational researchers working on personalized medicine may also benefit from a user-friendly interface for visualizing mutations on protein structures. The pipeline's gene-level approach, covering all PDB structures and AlphaFold models, could be attractive to those studying genes with multiple structural conformations or incomplete experimental coverage.
+- **Major strengths** The pipeline addresses a clear and important problem: mapping mutations to protein structures in a comprehensive, gene-level manner. The integration of AlphaFold models to cover regions lacking experimental structures is a sensible and timely feature. The automated workflow, from UniProt ID to structural annotation, reduces manual effort and potential errors. The web-based implementation with a database backend suggests practical usability. The TP53 case study, while limited, demonstrates the pipeline's ability to identify biologically relevant mutation hotspots at functional interfaces.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims the pipeline provides "accurate mapping" and "precise renumbering" of residues, and that it generates "high-quality homology models" using Modeller.
+  - **Evidence pointer** Methods section, "Pipeline development" subsection; location not provided
+  - **Concern** No validation of the renumbering accuracy, mutation mapping correctness, or model quality is presented. The claim of "high-quality" models is unsupported by any quality metrics (e.g., DOPE scores, RMSD to experimental structures, or visual inspection criteria). The manuscript does not describe how the accuracy of mutation placement is verified, nor does it compare its mapping results against a gold standard or existing tools.
+  - **Why it matters** The core utility of the pipeline depends on the reliability of its structural annotations. If residue renumbering or mutation mapping is inaccurate, all downstream analyses and user interpretations would be compromised. Without validation, users cannot trust the output, and the scientific contribution is not established.
+  - **Resolution test** Provide a validation section with quantitative results, such as comparison of renumbered residues against known PDB numbering for a set of test proteins, assessment of mutation mapping accuracy against manually curated datasets, and quality scores for generated mutant models. Benchmark against existing tools (e.g., COSMIC-3D, MutationMapper) on the same input set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims Mut-Map offers a "comprehensive and integrated solution" and is superior to existing tools like MutationMapper and COSMIC-3D, which "do not offer the same level of integration and gene-level analysis."
+  - **Evidence pointer** Discussion section, paragraph 3; location not provided
+  - **Concern** The comparative claims are made without any systematic benchmarking or quantitative comparison. The manuscript does not provide data on runtime, coverage, accuracy, or user experience relative to existing tools. The claim that COSMIC-3D has "sometimes inaccurate" renumbering is anecdotal and not supported by evidence. The novelty of the pipeline is not clearly articulated beyond the combination of existing components.
+  - **Why it matters** For a tool to be adopted, its advantages over existing resources must be demonstrated. Without a rigorous comparison, the scientific contribution and practical value of Mut-Map are unclear. Reviewers and readers cannot assess whether the tool represents a meaningful advance or a redundant implementation.
+  - **Resolution test** Conduct a head-to-head comparison with existing tools on a set of test genes, reporting quantitative metrics such as mapping accuracy, coverage, processing time, and user task completion. Provide a clear statement of what is novel about the pipeline's methodology or features.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the pipeline calculates the coverage of the target gene, identifying regions with and without structural data" and "assesses the disorder percentage of the target gene."
+  - **Evidence pointer** Methods section, "Pipeline development" subsection; location not provided
+  - **Concern** The methods for calculating coverage and disorder percentage are not described. It is unclear which disorder prediction tool is used (e.g., IUPred, DISOPRED), what constitutes "coverage," and how these calculations are integrated into the pipeline. The criteria for classifying residues as core, interface, or noninterface are given (solvent accessibility thresholds), but the rationale for these thresholds and the validation of their biological relevance are not provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational tools. Without detailed methodological descriptions, other researchers cannot replicate the pipeline or understand the basis of its outputs. The choice of disorder prediction method and coverage definition could significantly affect results.
+  - **Resolution test** Provide detailed descriptions of all algorithms and tools used, including versions and parameters. Justify the chosen thresholds with references or validation data. Make the pipeline code and configuration publicly available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript claims the pipeline is "user-friendly" and accessible to researchers and clinicians.
+  - **Evidence pointer** Web server development section and Discussion; location not provided
+  - **Concern** The manuscript does not provide any usability testing, user feedback, or documentation of the web interface. The description of the user experience is limited to a general statement about a "responsive and user-friendly interface." No information is given on input validation, error handling, or the learning curve for non-bioinformaticians.
+  - **Why it matters** The stated goal of making the tool accessible to a broad audience, including clinicians, requires evidence that the interface is indeed usable by non-experts. Without usability data, the claim of accessibility is unsubstantiated.
+  - **Resolution test** Provide user documentation, tutorial materials, and results from usability testing with representative users. Include screenshots or a video walkthrough of the interface.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, last paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The tool is referred to as both "Mut-Map" and "Map-Mut" inconsistently throughout the manuscript. This creates confusion for the reader.
+  - **Required correction** Standardize the tool name to "Mut-Map" throughout the manuscript, including the abstract, methods, and discussion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Pipeline development" subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The distance cutoffs for defining ligand-binding (6 Å) and dimer/DNA/zinc interactions (5 Å) are stated without justification or reference. The choice of cutoff can significantly affect classification results.
+  - **Required correction** Provide a rationale for the chosen cutoffs, citing relevant literature or sensitivity analyses demonstrating their appropriateness.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Case study section
+  - **Evidence pointer** Location not provided
+  - **Issue** The case study reports that 93 mutants appear at the protein-DNA interface for PDB ID 2ADY, but the total number of mutations mapped to this structure is not stated. The proportion of interface mutations relative to all mutations on this structure is unclear.
+  - **Required correction** Report the total number of mutations mapped to PDB 2ADY and the percentage that fall at the interface, to provide context for the 93 mutants.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison with COSMIC-3D mentions "sometimes inaccurate" renumbering, but no specific examples or references are given.
+  - **Required correction** Provide specific examples or a reference documenting the inaccuracies in COSMIC-3D renumbering, or soften the claim if evidence is not available.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract states the pipeline "categorizes mutations based on structural context" but does not define the categories. A brief enumeration would help readers understand the scope.
+  - **Required correction** Add a brief list of the structural context categories (e.g., core, interface, ligand-binding, DNA-binding, dimer, zinc coordination) in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of validation of mapping accuracy and model quality) and R1-M2 (lack of benchmarking against existing tools) are the primary technical failings. The manuscript's central claims of accuracy, comprehensiveness, and superiority over existing tools cannot be assessed without these data. R1-M3 (underspecified methods) also needs to be addressed for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The pipeline combines existing tools and databases in a new workflow, but the individual components are well-established. The gene-level approach and integration of AlphaFold models are somewhat novel, but the overall concept is not groundbreaking.
+  - Scientific importance: The problem addressed is important, and a reliable tool would be valuable. However, the manuscript does not demonstrate that Mut-Map provides new biological insights or significantly improves upon existing resources.
+  - Interdisciplinary readership: The tool has potential appeal across cancer biology, structural biology, and clinical genomics. However, the manuscript is written primarily for a bioinformatics audience and does not sufficiently explain the biological significance of the structural categorizations for non-specialists.
+  - Technical soundness: The described methods are plausible, but the lack of validation and benchmarking is a major weakness. The manuscript does not provide sufficient evidence that the pipeline works correctly and reliably.
+  - Readability for nonspecialists: The manuscript is generally clear but contains jargon and inconsistent terminology. The abstract and introduction could be more accessible, but the methods section is appropriately technical.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the lack of validation, benchmarking, and methodological detail prevents a positive recommendation. The author should be encouraged to revise the manuscript to include quantitative evidence of the pipeline's accuracy and utility, and to address the minor comments.
+
+## Risk / unsupported claims
+- The claim that Mut-Map provides "accurate mapping" and "precise renumbering" is unsupported by any validation data.
+- The claim that Modeller generates "high-quality homology models" is unsupported by quality metrics.
+- The claim that Mut-Map is superior to existing tools like MutationMapper and COSMIC-3D is unsupported by comparative benchmarking.
+- The claim that COSMIC-3D has "sometimes inaccurate" renumbering is anecdotal and not referenced.
+- The specific numerical results from the TP53 case study (e.g., 93 interface mutants, 12 zinc-coordinating mutations, 41% disorder) are presented without statistical context or comparison to literature, making their significance unassessable.
+- The statement that the pipeline "ensures comprehensive coverage" by using AlphaFold models is plausible but not quantitatively demonstrated.
+- The claim that the pipeline can be "seamlessly incorporated into NGS workflows" is speculative and not supported by any integration testing or example use case.

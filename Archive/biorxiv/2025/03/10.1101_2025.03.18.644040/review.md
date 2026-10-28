@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data access, author contributions, acknowledgements)
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present DNABERT-Enhancer, a fine-tuned DNABERT language model for predicting enhancer regions in the human genome. They report superior performance over baseline classifiers and existing enhancer prediction methods, genome-wide enhancer annotation, and identification of candidate allele-specific enhancer and transcription factor binding disruptive variants.
+- **Visible evidence base** Abstract, introduction, results narrative, methods description, references to supplementary figures and tables (not provided), and one in-text table (Table 1) referenced but not shown
+- **Missing materials affecting confidence** All supplementary figures (S1–S5), supplementary tables (ST1–ST12), Table 1, Figure 1–4, benchmark dataset details, hyperparameter tuning results, and code repository contents were not provided. These are essential for verifying the reported performance metrics, comparisons, and genome-wide analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics, namely enhancer prediction and variant effect prioritization, using a genomic language model approach. The core idea of fine-tuning DNABERT on a large ENCODE-derived enhancer set is reasonable and timely. However, the provided text alone does not contain sufficient quantitative evidence to evaluate the validity of the central claims. Key performance numbers are stated in the abstract and results, but the corresponding figures, tables, and methodological details needed for verification are not included in the supplied material. The comparison with existing methods appears incomplete, and the genome-wide and variant effect analyses lack the necessary detail to assess their rigor. The manuscript is potentially of interest to computational biologists and genomics researchers, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational genomics researchers, machine learning practitioners working on regulatory genomics, and geneticists interested in noncoding variant interpretation would find this work relevant. The proposed model and predicted variant resources could be useful for prioritizing functional noncoding variants in disease studies.
+- **Major strengths** The use of a large, experimentally curated enhancer dataset from ENCODE for fine-tuning is a strength. The application of the model to genome-wide prediction and variant effect analysis addresses a practical need. The authors also compare against multiple baseline classifiers and recent enhancer prediction methods, which is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that DNABERT-Enhancer achieves 88.05% accuracy and 76.22% MCC on independent test data, and outperforms baseline classifiers and existing methods.
+  - **Evidence pointer** Results section, "DNABERT-Enhancer precisely predicts enhancer regions" and "DNABERT-Enhancer fine-tuned models outperform baseline classifiers"; Table 1 and Supplementary Figure S3A referenced but not provided
+  - **Concern** The reported performance metrics are stated in the text, but the actual data (confusion matrices, ROC/PR curves, confidence intervals, statistical significance tests) are not available in the supplied material. The comparison with baseline classifiers is described qualitatively, and Table 1, which presumably contains the quantitative comparison, is not provided. Without these data, the performance claims cannot be independently assessed.
+  - **Why it matters** The central claim of the manuscript is that DNABERT-Enhancer is a superior enhancer prediction method. This claim rests entirely on the reported metrics and comparisons, which are not verifiable from the provided text.
+  - **Resolution test** Provide Table 1 and Supplementary Figure S3A with full performance metrics, including standard deviations or confidence intervals, and statistical tests for significance of differences against baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The claim that DNABERT-Enhancer outperforms recent enhancer prediction methods (iEnhancer-ELM, iEnhancer-DCLA, iEnhancer-ECNN).
+  - **Evidence pointer** Results section, "DNABERT-Enhancer outperforms recent enhancer prediction methods"; Supplementary Table ST1 and Figure 2 referenced but not provided
+  - **Concern** The comparison with existing methods is described, but the evaluation protocol is not fully specified. It is unclear whether the existing methods were retrained on the same data, whether the same train/test splits were used, and whether hyperparameters were optimized for each method. The referenced Supplementary Table ST1 and Figure 2 are not provided, so the actual comparison results cannot be examined.
+  - **Why it matters** A fair and reproducible comparison with existing methods is essential to support the claim of superior performance. Without details on the evaluation protocol and the actual results, the claim is not substantiated.
+  - **Resolution test** Describe the exact evaluation protocol, including data splits, retraining procedures, and hyperparameter settings for all compared methods. Provide Supplementary Table ST1 and Figure 2 with full results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of genome-wide predictions
+  - **Claim pointer** The claim that genome-wide predictions capture known enhancers, with ~79% of ENCODE SCREEN enhancers recovered and ~99% of novel predictions intersecting with at least one external database.
+  - **Evidence pointer** Results section, "DNABERT-Enhancer successfully captures the known enhancers in the human genome"; Figure 3 and Supplementary Tables ST2–ST6 referenced but not provided
+  - **Concern** The genome-wide analysis is described in terms of overlap percentages with external databases, but the details of the overlap criteria, the choice of thresholds, and the handling of multiple testing are not specified. The referenced Figure 3 and Supplementary Tables ST2–ST6 are not provided, so the actual overlap results and the statistical significance of the enrichments cannot be evaluated.
+  - **Why it matters** The claim that the model captures known enhancers and identifies novel ones is a key part of the manuscript's contribution. Without the detailed results and appropriate statistical controls, this claim is not verifiable.
+  - **Resolution test** Provide Figure 3 and Supplementary Tables ST2–ST6 with clear definitions of overlap criteria, thresholds, and statistical tests used to assess enrichment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Variant effect prediction validity
+  - **Claim pointer** The claim that DNABERT-Enhancer identifies candidate allele-specific enhancer and transcription factor binding disruptive variants, including examples with known clinical associations.
+  - **Evidence pointer** Results section, "DNABERT-Enhancer predicts candidate genetic variant effects in SCREEN enhancer regions"; Figure 4 and Supplementary Tables ST7–ST12 referenced but not provided
+  - **Concern** The variant effect prediction methodology is described briefly, but the details of the scoring scheme, the thresholds for calling a variant "disruptive," and the validation of the predicted effects are not provided. The referenced Figure 4 and Supplementary Tables ST7–ST12 are not available, so the specific variants and their predicted effects cannot be examined. The clinical relevance of the examples is asserted but not demonstrated with supporting evidence.
+  - **Why it matters** The variant effect predictions are presented as a practical application of the model. Without a clear methodology and validation, the reliability of these predictions is uncertain, and the clinical claims are not supported.
+  - **Resolution test** Provide a detailed description of the variant effect scoring methodology, including thresholds and validation steps. Provide Figure 4 and Supplementary Tables ST7–ST12 with the specific variants and their predicted effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Variant effect prediction"
+  - **Evidence pointer** Methods section, "Variant effect prediction"
+  - **Issue** The formula for log odds ratio is mentioned but not written out. The sentence is incomplete: "The Log odds ratio shows the association of two events, calculated by ." The formula is missing.
+  - **Required correction** Provide the complete formula for the log odds ratio calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Fine-tuning of DNABERT pre-trained model"
+  - **Evidence pointer** Methods section, "Fine-tuning of DNABERT pre-trained model"
+  - **Issue** The hyperparameter tuning process is described, but the final hyperparameter values for the best models are not stated. The text mentions learning rates, warm-up steps, and weight decay ranges, but not the specific values used for the final models.
+  - **Required correction** State the final hyperparameter values for both DNABERT-Enhancer-201 and DNABERT-Enhancer-350.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data description
+  - **Affected element** Methods, "Data sources"
+  - **Evidence pointer** Methods section, "Data sources"
+  - **Issue** The number of negative sequences is given as "∼6,8750,000" which appears to be a typo. It is unclear whether this is 6,875,000 or 68,750,000.
+  - **Required correction** Correct the number of negative sequences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "DNABERT-Enhancer precisely predicts enhancer regions"
+  - **Evidence pointer** Results section, "DNABERT-Enhancer precisely predicts enhancer regions"
+  - **Issue** The text states that "evaluation based on DNA sequence composition properties showed that the predicted enhancer sequences have higher C and G content, CpG scores and WeSt_Fraction than the non-enhancer sequences." However, no statistical test is mentioned to support this claim.
+  - **Required correction** Add statistical tests (e.g., Mann-Whitney U test) to support the claim of significant differences in sequence composition.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of the referenced figures, tables, and supplementary materials prevents verification of the central performance claims, the comparison with existing methods, the genome-wide validation, and the variant effect predictions.
+- **Assessment against Nature-style criteria** Originality: The application of a genomic language model to enhancer prediction is not entirely novel, as similar approaches have been explored for other regulatory elements. The specific focus on allele-specific activity and variant effect prediction adds some originality. Scientific importance: Enhancer prediction and noncoding variant interpretation are important problems, and a reliable method would be valuable. However, the importance of this specific contribution is not yet established given the missing evidence. Interdisciplinary readership: The work is primarily of interest to computational biologists and genomics researchers. The clinical implications mentioned in the discussion could broaden the audience, but the evidence for clinical relevance is not provided. Technical soundness: The methodological approach is plausible, but the technical soundness cannot be fully assessed without the missing data and details. Readability for nonspecialists: The manuscript is written in a technical style that is appropriate for a specialist audience, but some sections, particularly the results, would benefit from clearer explanations of the methods and findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the approach is reasonable, but the central claims cannot be verified without the missing figures, tables, and methodological details. The authors should be invited to provide the complete set of results and a more detailed description of the evaluation protocols.
+
+## Risk / unsupported claims
+- The claim of 88.05% accuracy and 76.22% MCC is unsupported without the actual test data and evaluation details.
+- The claim of outperforming baseline classifiers and existing methods is unsupported without Table 1, Supplementary Table ST1, and Figure 2.
+- The claim that ~79% of ENCODE SCREEN enhancers are recovered and ~99% of novel predictions intersect with external databases is unsupported without Figure 3 and Supplementary Tables ST2–ST6.
+- The claim of identifying 62,592 disruptive variants and 15,693 transcription factor binding site disruptive variants is unsupported without Supplementary Tables ST7–ST12.
+- The claim that the model can be applied to rodent and non-human primate genomes without separate fine-tuning is speculative and not supported by any data in the provided text.
+- The clinical relevance of the two example variants is asserted but not demonstrated with supporting evidence.

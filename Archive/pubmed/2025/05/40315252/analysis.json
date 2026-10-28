@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40315252",
+  "title": "Structural and mechanistic diversity in p53-mediated regulation of organismal longevity across taxonomical orders.",
+  "authors": "Osbourne, Romani; Thayer, Kelly M",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-05-02",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过跨物种p53序列比对与进化评分预测长寿相关残基，并借助蛋白互作预测探讨p53稳定性与互作界面，虽涉及蛋白-DNA结合域但未聚焦TF-DNA结合机制，方法以序列统计和结构预测为主，对TF-DNA互作建模有间接借鉴。",
+  "abstract": "The link between p53 tumor suppressive functions and organismal lifespan is multifaceted. Its DNA-repair mechanism is longevity-enhancing while its role in cellular senescence pathways induces pro-aging phenotypes. To understand how p53 may regulate organismal lifespan, cross-species genotype-phenotype (GP) studies of the p53 DNA-binding domain (DBD) have been used to assess the correlation of amino acid changes to lifespan. Amino acid changes in non-DNA-binding regions such as the transactivation (TAD), proline-rich (PRD), regulatory (REG), and tetramerization (TET) are largely unexplored. In addition, existing GP correlation tools such as SigniSite do not account for phylogenetic relationships between aligned sequences in correlating genotypic differences to phenotypes such as lifespan. To identify phylogenetically significant, longevity-correlated residues in full-length p53 alignments, we developed a Python- and R-based workflow, Relative Evolutionary Scoring (RES). While RES-predicted longevity-associated residues (RPLARs) are concentrated primarily in the DBD, the PRD, TET, and REG domains also house RPLARs. While yeast functional assay enrichment reveals that RPLARs may be dispensable for p53-mediated transactivation, PEPPI and Rosetta-based protein-protein interaction prediction suggests a role for RPLARs in p53 stability and interaction interfaces of tumor suppressive protein-protein complexes. With experimental validation of the RPLARs' roles in p53 stability, transactivation, and involvement in senescence-regulatory pathways, we can gain crucial insights into mechanisms underlying dysregulated tumor suppression and accelerated aging.",
+  "abstract_zh": "p53肿瘤抑制功能与生物体寿命之间的联系是多方面的。其DNA修复机制具有延长寿命的作用，而其在细胞衰老通路中的角色则诱导促衰老表型。为理解p53如何调控生物体寿命，已采用跨物种的p53 DNA结合域（DBD）基因型-表型（GP）研究来评估氨基酸变化与寿命的相关性。非DNA结合区域（如反式激活域（TAD）、脯氨酸富集域（PRD）、调控域（REG）和四聚化域（TET））中的氨基酸变化在很大程度上尚未被探索。此外，现有的GP相关性工具（如SigniSite）在将基因型差异与寿命等表型相关联时，未考虑比对序列之间的系统发育关系。为在全长p53比对中识别具有系统发育意义且与寿命相关的残基，我们开发了一个基于Python和R的工作流程，即相对进化评分（RES）。虽然RES预测的寿命相关残基（RPLARs）主要集中在DBD中，但PRD、TET和REG域也包含RPLARs。尽管酵母功能分析富集显示RPLARs可能对p53介导的反式激活非必需，但基于PEPPI和Rosetta的蛋白质-蛋白质相互作用预测表明，RPLARs在p53稳定性及肿瘤抑制蛋白复合物的相互作用界面中发挥作用。通过实验验证RPLARs在p53稳定性、反式激活及衰老调控通路参与中的角色，我们可获得关于肿瘤抑制失调和加速衰老机制的关键见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40315252/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40315252/",
+  "paper_page_path": "papers/pubmed/40315252/index.html"
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, and supplementary information list
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and theoretical modeling as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that a BAF-LEM2 protein-DNA co-condensate forms a load-bearing surface hydrogel at the nuclear envelope, which mechanically reinforces the nucleus, protects DNA from force-induced melting, and reduces mechanically induced DNA damage.
+- **Visible evidence base** Optical tweezer measurements on DNA-BAF-LEM2 co-condensates, cryo-electron tomography observations of a ~14 nm layer at the inner nuclear membrane, AFM indentation experiments on cell nuclei, RNAi depletion experiments, and a theoretical model (REMM surface hydrogel)
+- **Missing materials affecting confidence** Extended Data Figures 1-10, Supplementary Note 1, Supplementary Note 2, Supplementary Videos 1-6, and detailed Materials and Methods are referenced but not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and novel hypothesis that a BAF-LEM2 protein-DNA co-condensate forms a mechanically reinforcing surface hydrogel at the nuclear envelope. The in vitro optical tweezer experiments are well conceived and provide strong evidence for a protective role of the co-condensate against DNA melting. The theoretical model is elegant and provides a quantitative framework connecting molecular-scale measurements to cellular-scale mechanics. However, the manuscript as presented has significant gaps in the evidence base, particularly regarding the in vivo relevance of the proposed mechanism. The cryo-ET observations are indirect, the RNAi experiments show correlative rather than causal effects, and the model relies on several assumptions that are not fully validated. The claim that this mechanism operates at the nuclear surface in cells is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in nuclear mechanics, chromatin organization, biomolecular condensates, and mechanobiology would find these results highly relevant. The work bridges molecular biophysics and cell biology, and the proposed mechanism of a load-bearing surface hydrogel could have broad implications for understanding how cells protect their genome from mechanical stress. The findings may also interest researchers studying phase separation and its functional roles beyond classical liquid-liquid phase separation.
+- **Major strengths** The optical tweezer experiments are rigorous and provide quantitative measurements of co-condensate mechanics. The observation that BAF-LEM2 co-condensates protect DNA beyond its melting point is striking and novel. The theoretical model is well developed and provides a mechanistic framework that connects molecular-scale parameters to cellular-scale outcomes. The combination of in vitro reconstitution, cellular experiments, and theory is ambitious and potentially transformative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for in vivo claim
+  - **Claim pointer** The authors claim that the BAF-LEM2 surface hydrogel operates at the nuclear surface in cells and protects the genome from mechanical stress-induced damage.
+  - **Evidence pointer** Extended Data Fig. 5, Fig. 3, Extended Data Fig. 9
+  - **Concern** The in vivo evidence for the surface hydrogel is indirect. The cryo-ET observations show an amorphous ~14 nm layer beneath the inner nuclear membrane, but the authors do not directly demonstrate that this layer contains BAF and LEM2, nor that it has the mechanical properties predicted by the model. The RNAi experiments show that LEM2 depletion leads to changes in nuclear mechanics and morphology, but these could be due to other functions of LEM2 unrelated to the proposed hydrogel mechanism. The causal link between the molecular-scale co-condensate behavior and the cellular-scale phenotypes is not established.
+  - **Why it matters** The central claim of the manuscript is that the surface hydrogel protects the genome in cells. Without direct evidence for the hydrogel's existence and function in vivo, the physiological relevance of the in vitro findings remains speculative.
+  - **Resolution test** The authors should provide direct evidence that the ~14 nm layer contains BAF and LEM2, for example by immunolabeling or correlative light-electron microscopy. They should also demonstrate that the mechanical properties of the nuclear surface change in a manner consistent with the model when BAF-LEM2 assembly is perturbed, and that the observed DNA damage phenotypes are specifically due to loss of the hydrogel rather than other LEM2 functions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The REst-length Mismatched Multicomponent (REMM) surface hydrogel model quantitatively recapitulates nuclear surface mechanics and morphology using parameters obtained from molecular-scale measurements.
+  - **Evidence pointer** Fig. 3, Supplementary Note 1
+  - **Concern** The model is presented as a quantitative framework, but the validation appears to rely on fitting parameters (rest length mismatch, relaxed surface area, bare area elastic modulus) rather than predicting outcomes from independently measured values. The claim that the model "can account for" the observed changes is not equivalent to a predictive validation. The model also assumes that the BAF-LEM2 springs act in parallel with the lamin network, but this geometry is not directly demonstrated.
+  - **Why it matters** The quantitative agreement between model and experiment is a key strength of the manuscript. If the model is not rigorously validated, the claim that molecular-scale parameters can explain cellular-scale mechanics is weakened.
+  - **Resolution test** The authors should perform a predictive test of the model, for example by varying LEM2 concentration in a controlled manner and comparing the predicted and measured changes in nuclear mechanics and morphology. They should also provide evidence for the assumed parallel arrangement of BAF-LEM2 springs and the lamin network.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The protective effect of the co-condensate is dependent on the intrinsically disordered region (IDR) of LEM2.
+  - **Evidence pointer** Fig. 1, Extended Data Fig. 1
+  - **Concern** The authors show that a LEM2 mutant (LEM2 MUT) that cannot undergo phase separation has a reduced effect on co-condensate mechanics. However, the specific role of the IDR in generating the reinforcing response is not dissected. It is unclear whether the IDR-IDR interactions are necessary for the mechanical reinforcement or whether other parts of LEM2 contribute. The claim that the IDR is specifically responsible for the protective effect is not fully supported.
+  - **Why it matters** The manuscript proposes a specific molecular mechanism involving IDR-IDR interactions. Without a clear demonstration that these interactions are necessary and sufficient for the reinforcing response, the mechanistic claim is incomplete.
+  - **Resolution test** The authors should perform experiments with LEM2 variants that specifically disrupt IDR-IDR interactions while preserving BAF binding, and vice versa. They should also test whether the reinforcing response can be reconstituted with synthetic IDR-containing proteins to demonstrate sufficiency.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Fig. 1j
+  - **Evidence pointer** Fig. 1j
+  - **Issue** The percentage of DNA remaining within the co-condensate when the melting tension is crossed is presented as a key result, but the definition of "remaining within the co-condensate" is not clearly stated.
+  - **Required correction** Provide a clear operational definition of how DNA localization within the co-condensate is determined from the optical tweezer data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 3d
+  - **Evidence pointer** Fig. 3d
+  - **Issue** The reduction in area elastic modulus upon LEM2 depletion is reported as 19.6 ± 9.2%, but the number of independent experiments and the statistical test used are not stated in the text.
+  - **Required correction** Report the number of biological and technical replicates, the statistical test used, and the p-value for each comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Parameter justification
+  - **Affected element** Supplementary Note 1
+  - **Evidence pointer** Supplementary Note 1
+  - **Issue** The model parameters (e.g., rest length mismatch, spring constant per LEM2 molecule) are stated, but the source of these values and their uncertainty are not discussed.
+  - **Required correction** Provide a table of model parameters with their sources and estimated uncertainties, and discuss how sensitive the model predictions are to parameter variations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of controls
+  - **Affected element** Extended Data Fig. 9
+  - **Evidence pointer** Extended Data Fig. 9
+  - **Issue** The DNA damage experiments under compression use LEM2-depleted cells, but it is not clear whether the compression protocol itself causes DNA damage in control cells, and whether the effect is specific to mechanical stress.
+  - **Required correction** Include a control where cells are compressed without LEM2 depletion, and a control where LEM2 is depleted without compression, to demonstrate the specificity of the effect.
+- **Technical failings that need to be addressed before the case is established** The in vivo evidence for the surface hydrogel is correlative and indirect. The model validation relies on fitting rather than prediction. The specific role of the IDR in the reinforcing response is not dissected. The statistical reporting is incomplete in several places.
+- **Assessment against Nature-style criteria** Originality: High. The concept of a load-bearing surface hydrogel formed by BAF-LEM2 at the nuclear envelope is novel and extends the functional repertoire of biomolecular condensates. Scientific importance: High. The work addresses a fundamental question about how the nucleus protects the genome from mechanical stress, with implications for aging-related diseases. Interdisciplinary readership: Broad. The work bridges biophysics, cell biology, and materials science, and would appeal to a wide audience. Technical soundness: The in vitro experiments are technically rigorous, but the in vivo evidence and model validation are not yet at the level required to fully support the claims. Readability for nonspecialists: The manuscript is generally well written, but the theoretical model section may be challenging for readers without a physics background. The abstract is clear and accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The in vitro findings are novel and compelling, and the theoretical framework is promising. However, the in vivo relevance of the proposed mechanism is not yet established, and the model validation needs to be strengthened. These issues must be addressed before the case for a nuclear surface hydrogel is fully made.
+
+## Risk / unsupported claims
+- The claim that the ~14 nm layer observed in cryo-ET contains BAF and LEM2 is not directly supported by the provided evidence.
+- The claim that the REMM surface hydrogel model quantitatively recapitulates nuclear mechanics using molecular-scale parameters is not fully validated, as the model appears to rely on fitted parameters.
+- The claim that the protective effect is specifically dependent on the IDR of LEM2 is not fully dissected.
+- The claim that the surface hydrogel protects the genome in cells is correlative and not causally established.
+- The claim that the free energy for the reinforcing response derives from molecular-scale assembly processes is speculative and not directly measured.

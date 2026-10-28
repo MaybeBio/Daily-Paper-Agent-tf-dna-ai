@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "40981615",
+    "doi": "10.1002/mc.70041",
+    "title": "Novel Metabolic-Prognostic Integration Reveals TCF21-Mediated Mitochondrial Regulation in Endometrial Cancer."
+  },
+  "content": {
+    "abstract": "Despite endometrial cancer (EC) being a malignancy linked to metabolic disorders such as diabetes and obesity, its prognostic markers and metabolic dysregulation remain incompletely understood. Gene expression profiles and clinical data were obtained from TCGA. Metabolism-regulating genes (MRGs) were identified by intersecting genes linked to diabetes, obesity, and EC prognosis. A prognostic MRG-model was developed using LASSO Cox regression. Functional pathway features of the MRG-model were analyzed for prognostic signals, immune status, and antitumor therapy using methods such as gene set enrichment analysis, GSVA, ssGSEA, EPIC, CIBERSORT, and others. Machine learning algorithms identified the optimal MRG, TCF21, for in vivo and in vitro validation through experiments including colony formation, CCK8 assays, wound healing, Transwell assays, measurement of reactive oxygen species and ATP levels. We identified 72 candidate genes related to EC metabolism and progression. The MRG-model effectively distinguished high-risk from low-risk EC patients and demonstrated strong prognostic predictive capacity. Significant differences were observed between the two groups in clinical factors, functional pathways, immune characteristics, mutation profiles, and treatment recommendations. TCF21, with optimal performance, was selected for further study. TCF21 expression was significantly downregulated in EC and correlated with DNA methylation. As a tumor suppressor, TCF21 regulates proliferation, migration, invasion, and mitochondrial metabolism in EC via PDE2A. The MRG-model can serve as a robust tool for prognostic prediction and support personalized EC treatment, enhancing its clinical potential. TCF21 is methylated in EC, and its regulation of PDE2A governs the malignant phenotype and mitochondrial metabolism.",
+    "keywords": [
+      "TCF21",
+      "endometrial cancer",
+      "metabolism",
+      "risk model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/genetics/metabolism/pathology",
+      "Prognosis",
+      "*Mitochondria/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "Animals",
+      "Mice",
+      "Cell Proliferation",
+      "DNA Methylation",
+      "Cell Line, Tumor",
+      "Cell Movement",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Ciren",
+        "Zheng, Jianfeng",
+        "Lin, Xuefen",
+        "Ye, Xiafei",
+        "Jiang, Xinyan",
+        "Sun, Yang"
+      ],
+      "short_names": [
+        "Guo C",
+        "Zheng J",
+        "Lin X",
+        "Ye X",
+        "Jiang X",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1587-9797"
+      ],
+      "affiliations": [
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Tumor Biotherapy, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Tumor Biotherapy, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+        "Fujian Provincial Key Laboratory of Tumor Biotherapy, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Ciren",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jianfeng",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+          "Fujian Provincial Key Laboratory of Tumor Biotherapy, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xuefen",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+          "Fujian Provincial Key Laboratory of Tumor Biotherapy, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Xiafei",
+        "short_name": "Ye X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xinyan",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0002-1587-9797"
+        ],
+        "affiliations": [
+          "Department of Gynecology, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China.",
+          "Fujian Provincial Key Laboratory of Tumor Biotherapy, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular carcinogenesis"
+    ],
+    "journal_abbrev": [
+      "Mol Carcinog"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/22 12:45",
+    "fetched_at": "2026-10-01 02:40:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40981615",
+      "38720279",
+      "41761968",
+      "40898098",
+      "32894095",
+      "40703517",
+      "40217155",
+      "40354443",
+      "41813383",
+      "40810785",
+      "41566326",
+      "39773448",
+      "41917876",
+      "40382612",
+      "40746552",
+      "41670819",
+      "38763954",
+      "39654198",
+      "41832427",
+      "41798945",
+      "37259038",
+      "41566505",
+      "41694334",
+      "39353384",
+      "40136361",
+      "38817665",
+      "39789247",
+      "35242299",
+      "41351424",
+      "42477639",
+      "42244292",
+      "41106766",
+      "42530245",
+      "40804485",
+      "42287557",
+      "42192326",
+      "39806429",
+      "41774333",
+      "40034693",
+      "41219819",
+      "41716413",
+      "38616327",
+      "39380996",
+      "42129451",
+      "41413871",
+      "39079199",
+      "42343374",
+      "38011892",
+      "41613113",
+      "42370567",
+      "40330470",
+      "40496857",
+      "37387559",
+      "39324703",
+      "42151383",
+      "40496864",
+      "41293172",
+      "40956482",
+      "41568472",
+      "40528483",
+      "40463372",
+      "39885513",
+      "39852234",
+      "38979884",
+      "41491011",
+      "41551444",
+      "41895243",
+      "39737177",
+      "41634895",
+      "41851738",
+      "41413822",
+      "39165353",
+      "41249691",
+      "36180956",
+      "38840928",
+      "41495747",
+      "41383604",
+      "41006685",
+      "35337291",
+      "41535649",
+      "35581606",
+      "41267103",
+      "41233664",
+      "41747848",
+      "32314193",
+      "41208987",
+      "34763648",
+      "30296564",
+      "41777895",
+      "41663976",
+      "40386064",
+      "39465767",
+      "33350104",
+      "40898536",
+      "41184628",
+      "41025546",
+      "41704537",
+      "40898185",
+      "39983416",
+      "41814329"
+    ],
+    "review": [
+      "40981615"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40981615.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/mc.70041",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

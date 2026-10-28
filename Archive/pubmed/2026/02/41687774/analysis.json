@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41687774",
+  "title": "eccDNA2Ca: an ensemble deep learning framework for interpretable prediction of cancer-associated extrachromosomal circular DNA.",
+  "authors": "Zhou, Lina; Wang, Mengxi; Zou, Lingyun",
+  "journal": "Journal of advanced research",
+  "published_date": "2026-02-14",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用集成深度学习预测癌症相关eccDNA，虽涉及DNA序列和转录因子结合位点富集，但核心对象非蛋白质-DNA互作，且无结合建模或机制研究，仅间接相关。",
+  "abstract": "BACKGROUND: Extrachromosomal circular DNA (eccDNA) is increasingly recognized as a critical driver of oncogene amplification, therapeutic resistance, and intratumoral heterogeneity in cancer. However, existing computational approaches predominantly focus on eccDNA detection and structural identification, without addressing their functional or clinical significance in oncogenesis. METHODS: We developed eccDNA2Ca, an interpretable ensemble learning framework that integrates extreme gradient boosting (XGBoost) with deep neural networks (CNN and LSTM) to predict cancer-associated eccDNAs directly from raw sequences. A manually curated dataset comprising 465 experimentally validated human eccDNAs across 16 cancer types was compiled from 21 studies. Models were trained using both engineered genomic features and deep sequence encodings. Interpretability was achieved through SHAP analysis and motif discovery. The final ensemble model was validated on external datasets and implemented as an open-source command-line tool. RESULTS: eccDNA2Ca demonstrated superior performance (AUC > 0.96, AUPR > 0.95) across cross-validation and independent test sets, outperforming conventional classifiers. Feature interpretation revealed the dominant contribution of repeat content and specific k-mer frequencies, while motif analysis identified enrichment of zinc finger transcription factor binding sites among cancer-specific eccDNAs. Pan-cancer validation using TCGA data showed strong associations between predicted eccDNAs and tumor mutational burden, immune infiltration, microsatellite instability, and patient survival. Importantly, the model demonstrated robust generalizability across tumor types and eccDNA size categories. CONCLUSIONS: eccDNA2Ca represents the first interpretable and publicly available computational framework specifically designed to prioritize cancer-relevant eccDNAs after experimental detection based on sequence features. By enabling scalable and biologically informed prioritization of eccDNAs, eccDNA2Ca provides a valuable resource for eccDNA functional studies, cancer biomarker discovery, and translational cancer genomics. Source code and datasets are freely available at: https://github.com/bread1006/eccDNA2Ca. An interactive web server implementing eccDNA2Ca is accessible at: http://43.138.143.50:5000/en.",
+  "abstract_zh": "背景：染色体外环状DNA（eccDNA）日益被认为是癌症中癌基因扩增、治疗耐药性和瘤内异质性的关键驱动因素。然而，现有计算方法主要聚焦于eccDNA检测和结构识别，未涉及其在肿瘤发生中的功能或临床意义。方法：我们开发了eccDNA2Ca，一种可解释的集成学习框架，结合极端梯度提升（XGBoost）与深度神经网络（CNN和LSTM），直接从原始序列预测癌症相关eccDNA。从21项研究中汇编了一个手动整理的数据集，包含16种癌症类型的465个经实验验证的人类eccDNA。模型使用工程化基因组特征和深度序列编码进行训练。通过SHAP分析和基序发现实现可解释性。最终集成模型在外部数据集上验证，并作为开源命令行工具实现。结果：eccDNA2Ca在交叉验证和独立测试集上表现出优越性能（AUC > 0.96，AUPR > 0.95），优于传统分类器。特征解释揭示了重复内容和特定k-mer频率的主导贡献，而基序分析识别出癌症特异性eccDNA中锌指转录因子结合位点的富集。使用TCGA数据的泛癌验证显示，预测的eccDNA与肿瘤突变负荷、免疫浸润、微卫星不稳定性和患者生存率之间存在强关联。重要的是，该模型在肿瘤类型和eccDNA大小类别中表现出稳健的泛化能力。结论：eccDNA2Ca是首个可解释且公开可用的计算框架，专门设计用于在实验检测后基于序列特征优先排序癌症相关eccDNA。通过实现eccDNA的可扩展和生物学知情优先排序，eccDNA2Ca为eccDNA功能研究、癌症生物标志物发现和转化癌症基因组学提供了宝贵资源。源代码和数据集可在以下网址免费获取：https://github.com/bread1006/eccDNA2Ca。实现eccDNA2Ca的交互式网络服务器可访问：http://43.138.143.50:5000/en。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41687774/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41687774/",
+  "paper_page_path": "papers/pubmed/41687774/index.html"
+}

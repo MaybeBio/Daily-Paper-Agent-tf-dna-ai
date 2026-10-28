@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "40472507",
+    "doi": "10.1016/j.compbiomed.2025.110433",
+    "title": "A holistic computational exploration of AZD7762 as a potent selective modulator of LXRalpha, LXRbeta and FXR: An underexplored pathway in cancer therapeutics."
+  },
+  "content": {
+    "abstract": "Cancer remains one of the leading causes of global mortality, necessitating novel therapeutic strategies. Liver X Receptors (LXRalpha and LXRbeta) and the Farnesoid X Receptor (FXR) are nuclear receptors that regulate lipid and cholesterol homeostasis, bile acid metabolism, inflammation, and immune response pathways intricately linked to cellular dysregulation in oncogenesis. Despite their therapeutic potential, these receptors remain underexplored targets in cancer research. This study implements an extensive suite of computational strategies to identify and evaluate potential modulators of LXRalpha/beta and FXR, through virtual screening using resveratrol as the lead scaffold, followed by drug-likeness evaluation and toxicity profiling. Molecular docking (MVD, AutoDock and ML-PLIC) identified C144 (AZD7762), a well-established CHK1 kinase inhibitor, as the top-ranked ligand, demonstrating superior binding affinity and conformational stability via convergent interaction mechanisms. Additionally, reactivity descriptors derived from density functional theory (DFT) and frontier molecular orbital (FMO) analyses further substantiated its favorable electronic properties and chemical stability. Structural pharmacophore mapping using LigandScout confirmed pharmacophoric alignment with receptor active sites, while bioactivity profiles predicted high efficacy. Extensive quantum mechanical analyses (MEP, NBO, Mulliken/NPA, NCI, RDG, ELF, LOL, BSA, HAS) revealed favorable electronic characteristics, stability, charge distribution, and interaction potential. CLC-Pred, biotransformation (RA), pharmacokinetic profiling, molecular dynamics simulations, MM/PBSA and Shermo-based thermodynamic predictions further validated its biostability and systemic compatibility. These findings position C144 (AZD7762) as a promising anticancer candidate targeting LXRalpha, LXRbeta, and FXR pathways. Further optimization and validation through in vitro and in vivo studies are essential for advancing these findings toward clinical application.",
+    "keywords": [
+      "AZD7762",
+      "Cancer",
+      "Farnesoid X receptor (FXR)",
+      "Liver X receptors (LXRalpha/beta)",
+      "Molecular docking",
+      "Molecular dynamics",
+      "Quantum mechanical calculation"
+    ],
+    "mesh_terms": [
+      "*Liver X Receptors/chemistry/metabolism/antagonists & inhibitors",
+      "Humans",
+      "*Receptors, Cytoplasmic and Nuclear/metabolism/chemistry/antagonists & inhibitors",
+      "*Molecular Docking Simulation",
+      "*Neoplasms/drug therapy/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "Receptor, Farnesoid X-Activated"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singha, Basanta",
+        "Gogoi, Partha Pratim",
+        "Longkumer, Penlisola",
+        "Ahmed, Benzir",
+        "Boruah, Nichan",
+        "Bezbaruah, Bipul",
+        "Sinha, Upasana Bora"
+      ],
+      "short_names": [
+        "Singha B",
+        "Gogoi PP",
+        "Longkumer P",
+        "Ahmed B",
+        "Boruah N",
+        "Bezbaruah B",
+        "Sinha UB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India.",
+        "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India.",
+        "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India.",
+        "Department of Applied Sciences, Gauhati University, Jalukbari, 781014, Guwahati, Assam, India.",
+        "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India.",
+        "Department of Applied Sciences, Gauhati University, Jalukbari, 781014, Guwahati, Assam, India.",
+        "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India. Electronic address: upasanabsinha@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singha, Basanta",
+        "short_name": "Singha B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India."
+        ]
+      },
+      {
+        "full_name": "Gogoi, Partha Pratim",
+        "short_name": "Gogoi PP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India."
+        ]
+      },
+      {
+        "full_name": "Longkumer, Penlisola",
+        "short_name": "Longkumer P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Benzir",
+        "short_name": "Ahmed B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Sciences, Gauhati University, Jalukbari, 781014, Guwahati, Assam, India."
+        ]
+      },
+      {
+        "full_name": "Boruah, Nichan",
+        "short_name": "Boruah N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India."
+        ]
+      },
+      {
+        "full_name": "Bezbaruah, Bipul",
+        "short_name": "Bezbaruah B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Sciences, Gauhati University, Jalukbari, 781014, Guwahati, Assam, India."
+        ]
+      },
+      {
+        "full_name": "Sinha, Upasana Bora",
+        "short_name": "Sinha UB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Nagaland University, Lumami, 798627, Nagaland, India. Electronic address: upasanabsinha@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 00:27",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42434274",
+      "42344908"
+    ],
+    "refs": [],
+    "similar": [
+      "40472507",
+      "41337159",
+      "33616795",
+      "34246806",
+      "40397226",
+      "40239487",
+      "40117728",
+      "16825483",
+      "23707573",
+      "35787453",
+      "40465091",
+      "11254888",
+      "27596062",
+      "39510639",
+      "31192592",
+      "37715109",
+      "29867043",
+      "39079973",
+      "12897188",
+      "11792716",
+      "30359008",
+      "24685112",
+      "40803552",
+      "29660435",
+      "30353976",
+      "25228339",
+      "30026040",
+      "24372550",
+      "21504366",
+      "38055145",
+      "17177110",
+      "40617050",
+      "39368576",
+      "40095214",
+      "24463082",
+      "20827719",
+      "34443556",
+      "33850196",
+      "32991173",
+      "33831422",
+      "24953769",
+      "41027177",
+      "41187366",
+      "16869726",
+      "29119352",
+      "40907799",
+      "34091148",
+      "32818571",
+      "38063080",
+      "38964206",
+      "41465587",
+      "40013562",
+      "15464433",
+      "31842697",
+      "41155587",
+      "40172823",
+      "29633919",
+      "33113499",
+      "12523656",
+      "40120151",
+      "11068052",
+      "25787676",
+      "36995071",
+      "40114577",
+      "26369990",
+      "30718981",
+      "33444723",
+      "41033550",
+      "23656455",
+      "28736297",
+      "30275017",
+      "34799646",
+      "28749691",
+      "40549449",
+      "37003047",
+      "40199406",
+      "19356704",
+      "32687365",
+      "27372840",
+      "31176999",
+      "19913492",
+      "39921842",
+      "28057729",
+      "38542850",
+      "38197431",
+      "37695635",
+      "41172603",
+      "38299565",
+      "40316604",
+      "28424617",
+      "23101941",
+      "36358960",
+      "35163821",
+      "16325781",
+      "29428525",
+      "32711354",
+      "23835330",
+      "40108914",
+      "33049605",
+      "35091108"
+    ],
+    "review": [
+      "40472507",
+      "11254888",
+      "11792716",
+      "38964206",
+      "12523656"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)00784-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-922",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)00784-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

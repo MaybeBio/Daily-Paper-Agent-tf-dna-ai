@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "41135078",
+    "doi": "10.1615/CritRevEukaryotGeneExpr.2025059856",
+    "title": "Screening of miRNAs Characterizing Spinal Tuberculosis and Construction of Its Regulatory Network."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Spinal tuberculosis (ST) poses a significant health risk as a severe infectious disease. MicroRNAs (miRNAs), key regulatory molecules, are implicated in the initiation and progression of ST. However, a comprehensive understanding of miRNA networks and their regulatory roles in ST remains insufficient. METHODS: Differential expression analysis of miRNAs between ST and healthy control (HC) samples was conducted using the GSE225679 dataset from the GEO database. Functional enrichment and transcription factor analyses were performed with FunRich software. To evaluate the diagnostic potential of the identified miRNAs, four machine learning models-support vector machine (SVM), random forest (RF), generalized linear model (GLM), and extreme gradient boosting (XGB)- were employed. A nomogram model was developed based on the optimal SVM results. In addition, in vitro experiments examined the impact of miR-1229-3p inhibition on cell proliferation, osteoclast formation (via TRAP staining), and the expression of inflammatory cytokines (IL-6, TNF-alpha, IL-1beta, IL-17) using CCK-8, RT-qPCR, and Western blot techniques. RESULTS: A total of 257 differentially expressed miRNAs were identified, with 143 upregulated and 114 downregulated. Among the four models, SVM demonstrated the highest diagnostic accuracy, identifying five key miRNAs associated with ST (hsa-miR-4305, hsa-miR-3686, hcmv-miR-UL148D, ebv-miR-BHRF1-1, and hsa-miR-1229-3p). A miRNA-mRNA regulatory network was constructed, comprising 116 interaction pairs, involving three upregulated miRNAs and 57 downregulated target mRNAs. Additionally, a network of target genes and molecular drugs was established, which included 11 target genes and 224 candidate drugs. In vitro data showed that inhibiting miR-1229-3p significantly decreased cell proliferation, osteoclast formation, and the expression of IL-6, TNF-alpha, IL-1beta, and IL-17 in tuberculin-stimulated cells. CONCLUSION: This study offers new insights into the miRNA-mediated regulatory mechanisms in ST and highlights potential miRNA biomarkers for disease characterization.",
+    "keywords": [],
+    "mesh_terms": [
+      "*MicroRNAs/genetics",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Tuberculosis, Spinal/genetics",
+      "Cell Proliferation/genetics",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "Cytokines/genetics/metabolism",
+      "Gene Expression Regulation",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Wenxin",
+        "Zhang, Shichao",
+        "Xu, Lei",
+        "Dong, Yi"
+      ],
+      "short_names": [
+        "Ma W",
+        "Zhang S",
+        "Xu L",
+        "Dong Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Spinal Orthopedics, General Hospital of Ningxia Medical University, Yinchuan, China.",
+        "Graduate School of Ningxia Medical University, Yinchuan, China.",
+        "Graduate School of Ningxia Medical University, Yinchuan, China.",
+        "General Hospital of Ningxia Medical University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Wenxin",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Orthopedics, General Hospital of Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shichao",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Ningxia Medical University, Yinchuan, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yi",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "General Hospital of Ningxia Medical University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Critical reviews in eukaryotic gene expression"
+    ],
+    "journal_abbrev": [
+      "Crit Rev Eukaryot Gene Expr"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/24 18:27",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42010406"
+    ],
+    "refs": [],
+    "similar": [
+      "41135078",
+      "41102315",
+      "39512836",
+      "41053192",
+      "33639954",
+      "36291136",
+      "41471397",
+      "34840985",
+      "35300139",
+      "39080630",
+      "30258285",
+      "30390708",
+      "34434654",
+      "35313857",
+      "40783296",
+      "28939059",
+      "41163216",
+      "35813414",
+      "39238649",
+      "31632001",
+      "40789248",
+      "32013934",
+      "40166907",
+      "41345488",
+      "39028999",
+      "29255496",
+      "37821907",
+      "38176923",
+      "39464889",
+      "29032608",
+      "25189652",
+      "31541491",
+      "33390802",
+      "37528851",
+      "40374866",
+      "39881138",
+      "34530741",
+      "35877019",
+      "32236623",
+      "35249869",
+      "41272849",
+      "33413425",
+      "36398070",
+      "38839916",
+      "35832124",
+      "40068024",
+      "32299382",
+      "37515735",
+      "30602391",
+      "27535859",
+      "31123908",
+      "34335744",
+      "27807800",
+      "38444712",
+      "39232183",
+      "36204659",
+      "38393632",
+      "38850957",
+      "28895405",
+      "30666640",
+      "39516222",
+      "27350400",
+      "36656441",
+      "35322101",
+      "41291813",
+      "32429001",
+      "38914980",
+      "27809691",
+      "40629361",
+      "32714975",
+      "40425498",
+      "33274225",
+      "28498428",
+      "22180714",
+      "36798788",
+      "35949853",
+      "38855608",
+      "34797582",
+      "40625748",
+      "34777635",
+      "31770330",
+      "30268144",
+      "32982206",
+      "35872873",
+      "38609925",
+      "36647068",
+      "22260379",
+      "35545337",
+      "34916825",
+      "38767504",
+      "37322932",
+      "35757478",
+      "38054996",
+      "32377460",
+      "39270754",
+      "38511055",
+      "30605755",
+      "31082644",
+      "36187128",
+      "28919164"
+    ],
+    "review": [
+      "41135078",
+      "34530741"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://www.begellhouse.com/journals/6dbf508d3b17c437,6b924d6f5521c33e,561cd46736825e80.html",
+        "provider": "BegellHouse Publisher, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

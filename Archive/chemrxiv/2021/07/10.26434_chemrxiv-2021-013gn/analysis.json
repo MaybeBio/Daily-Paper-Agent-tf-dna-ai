@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2021-013gn",
+  "title": "BiRDS - Binding Residue Detection from Protein Sequences using Deep ResNets",
+  "authors": "Vineeth Chelur; U. Deva Priyakumar",
+  "journal": "ChemRxiv",
+  "published_date": "2021-07-15",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度残差网络从蛋白序列预测药物结合位点残基，虽涉及蛋白-配体互作而非蛋白-DNA，且无三维互作建模，但结合位点预测方法对TF-DNA界面残基预测有参考价值。",
+  "abstract": "Protein-drug interactions play important roles in many biological processes and therapeutics. Prediction of the active binding site of a protein helps discover and optimise these interactions leading to the design of better ligand molecules. The tertiary structure of a protein determines the binding sites available to the drug molecule. A quick and accurate prediction of the binding site from sequence alone without utilising the three-dimensional structure is challenging. Deep Learning has been used in a variety of biochemical tasks and has been hugely successful. In this paper, a Residual Neural Network (leveraging skip connections) is implemented to predict a protein's most active binding site. An Annotated Database of Druggable Binding Sites from the Protein DataBank, sc-PDB, is used for training the network. Features extracted from the Multiple Sequence Alignments (MSAs) of the protein generated using DeepMSA, such as Position-Specific Scoring Matrix (PSSM), Secondary Structure (SS3), and Relative Solvent Accessibility (RSA), are provided as input to the network. A weighted binary cross-entropy loss function is used to counter the substantial imbalance in the two classes of binding and non-binding residues. The network performs very well on single-chain proteins, providing a pocket that has good interactions with a ligand.",
+  "abstract_zh": "蛋白质-药物相互作用在许多生物过程和治疗方法中扮演重要角色。预测蛋白质的活性结合位点有助于发现和优化这些相互作用，从而设计出更好的配体分子。蛋白质的三级结构决定了药物分子可用的结合位点。仅从序列出发而不利用三维结构进行快速准确的结合位点预测具有挑战性。深度学习已应用于多种生化任务并取得了巨大成功。本文实现了一种残差神经网络（利用跳跃连接）来预测蛋白质最活跃的结合位点。使用来自蛋白质数据库（Protein DataBank）的可成药结合位点注释数据库sc-PDB来训练网络。从使用DeepMSA生成的蛋白质多序列比对（Multiple Sequence Alignments, MSAs）中提取的特征，如位置特异性评分矩阵（Position-Specific Scoring Matrix, PSSM）、二级结构（Secondary Structure, SS3）和相对溶剂可及性（Relative Solvent Accessibility, RSA），作为网络的输入。采用加权二元交叉熵损失函数来应对结合和非结合残基两类之间显著的不平衡。该网络在单链蛋白质上表现优异，能够提供与配体具有良好相互作用的口袋。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2021-013gn",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2021-013gn",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2021-013gn/index.html"
+}

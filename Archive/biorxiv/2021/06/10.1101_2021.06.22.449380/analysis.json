@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.22.449380",
+  "title": "A multiscale approach for computing gated ligand binding from molecular dynamics and Brownian dynamics simulations",
+  "authors": "S. Kashif Sadiq; Abraham Muñiz Chicharro; Patrick Friedrich; Rebecca C. Wade",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-23",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD和布朗动力学模拟构建马尔可夫模型，研究HIV-1蛋白酶多构象门控配体结合动力学，虽非TF-DNA体系，但多构象门控与结合速率建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "We develop an approach to characterise the effects of gating by a multi-conformation protein consisting of macrostate conformations that are either accessible or inaccessible to ligand binding. We first construct a Markov state model of the apo-protein from atomistic molecular dynamics simulations from which we identify macrostates and their conformations, compute their relative macrostate populations and interchange kinetics, and structurally characterise them in terms of ligand accessibility. We insert the calculated first-order rate constants for conformational transitions into a multi-state gating theory from which we derive a gating factor γ that quantifies the degree of conformational gating. Applied to HIV-1 protease, our approach yields a kinetic network of three accessible (semi-open, open and wide-open) and two inaccessible (closed and a newly identified, ‘parted’) macrostate conformations. The ‘parted’ conformation sterically partitions the active site, suggesting a possible role in product release. We find that the binding kinetics of drugs and drug-like inhibitors to HIV-1 protease falls in the slow gating regime. However, because γ =0.75, conformational gating only modestly slows ligand binding. Brownian dynamics simulations of the diffusional association of eight inhibitors to the protease - that have a wide range of experimental association constants (~10 4 - 10 10 M −1 s −1 ) - yields gated rate constants in the range ~0.5-5.7 × 10 8 M −1 s −1 . This indicates that, whereas the association rate of some inhibitors could be described by the model, for many inhibitors either subsequent conformational transitions or alternate binding mechanisms may be rate-limiting. For systems known to be modulated by conformational gating, the approach could be scaled computationally efficiently to screen association kinetics for a large number of ligands. Graphical TOC Entry",
+  "abstract_zh": "我们开发了一种方法来表征由多构象蛋白质门控效应，该蛋白质由对配体结合可及或不可及的大状态构象组成。我们首先从原子级分子动力学模拟中构建脱辅基蛋白的马尔可夫状态模型，从中识别大状态及其构象，计算它们相对的大状态群体和互换动力学，并根据配体可及性对其进行结构表征。我们将计算得到的构象转变一级速率常数插入多状态门控理论，由此推导出门控因子γ，用于量化构象门控的程度。应用于HIV-1蛋白酶时，我们的方法产生了一个由三个可及（半开放、开放和宽开放）和两个不可及（闭合和新识别的‘分离’）大状态构象组成的动力学网络。‘分离’构象在空间上分隔活性位点，暗示其在产物释放中可能的作用。我们发现药物和类药抑制剂与HIV-1蛋白酶的结合动力学属于慢门控区域。然而，由于γ=0.75，构象门控仅适度减缓配体结合。对八种抑制剂与蛋白酶扩散结合的布朗动力学模拟——这些抑制剂具有广泛的实验结合常数范围（~10^4 - 10^10 M^-1 s^-1）——产生门控速率常数在约0.5-5.7 × 10^8 M^-1 s^-1范围内。这表明，尽管某些抑制剂的结合速率可以用模型描述，但对许多抑制剂而言，后续构象转变或替代结合机制可能是限速步骤。对于已知受构象门控调节的系统，该方法可在计算上高效扩展，以筛选大量配体的结合动力学。图形化目录条目",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449380",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449380",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.22.449380/index.html"
+}

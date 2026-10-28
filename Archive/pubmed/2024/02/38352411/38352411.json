@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "38352411",
+    "doi": "10.1101/2024.01.24.577115",
+    "title": "Predicting the DNA binding specificity of transcription factor mutants using family-level biophysically interpretable machine learning."
+  },
+  "content": {
+    "abstract": "Sequence-specific interactions of transcription factors (TFs) with genomic DNA underlie many cellular processes. High-throughput in vitro binding assays coupled with machine learning have made it possible to accurately define such molecular recognition in a biophysically interpretable way for hundreds of TFs across many structural families, providing new avenues for predicting how the sequence preference of a TF is impacted by disease-associated mutations in its DNA binding domain. We developed a method based on a reference-free tetrahedral representation of variation in base preference within a given structural family that can be used to accurately predict the effect of mutations in the protein sequence of the TF. Using the basic helix-loop-helix (bHLH) and homeodomain families as test cases, our results demonstrate the feasibility of accurately predicting the shifts (DeltaDeltaDeltaG/RT) in binding free energy associated with TF mutants by leveraging high-quality DNA binding models for sets of homologous wild-type TFs.",
+    "keywords": [
+      "DNA binding specificity",
+      "basic helix-loop-helix (bHLH)",
+      "biophysically interpretable machine learning",
+      "functional impact of missense mutations",
+      "high-throughput SELEX",
+      "homeodomain",
+      "protein binding microarray (PBM)",
+      "transcription factors (TFs)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Shaoxun",
+        "Gomez-Alcala, Pilar",
+        "Leemans, Christ",
+        "Glassford, William J",
+        "Melo, Lucas A N",
+        "Lu, Xiang-Jun",
+        "Mann, Richard S",
+        "Bussemaker, Harmen J"
+      ],
+      "short_names": [
+        "Liu S",
+        "Gomez-Alcala P",
+        "Leemans C",
+        "Glassford WJ",
+        "Melo LAN",
+        "Lu XJ",
+        "Mann RS",
+        "Bussemaker HJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0997-3485",
+        "ORCID: 0000-0002-3271-840X",
+        "ORCID: 0000-0003-4007-6731",
+        "ORCID: 0000-0002-4749-2765",
+        "ORCID: 0000-0002-7274-5277"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA.",
+        "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+        "Department of Systems Biology, Columbia University, New York, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Shaoxun",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0003-0997-3485"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Gomez-Alcala, Pilar",
+        "short_name": "Gomez-Alcala P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Leemans, Christ",
+        "short_name": "Leemans C",
+        "identifiers": [
+          "0000-0002-3271-840X"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Glassford, William J",
+        "short_name": "Glassford WJ",
+        "identifiers": [
+          "0000-0003-4007-6731"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Melo, Lucas A N",
+        "short_name": "Melo LAN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Xiang-Jun",
+        "short_name": "Lu XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mann, Richard S",
+        "short_name": "Mann RS",
+        "identifiers": [
+          "0000-0002-4749-2765"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Bussemaker, Harmen J",
+        "short_name": "Bussemaker HJ",
+        "identifiers": [
+          "0000-0002-7274-5277"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Columbia University, New York, NY, USA.",
+          "Department of Systems Biology, Columbia University, New York, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Apr 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/14 06:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39482734",
+      "39103447",
+      "38867914",
+      "38718835",
+      "38600112",
+      "36924867",
+      "36702896",
+      "36408920",
+      "36124796",
+      "36123148",
+      "35778382",
+      "35606422",
+      "33876751",
+      "33439489",
+      "33340452",
+      "33125078",
+      "31992738",
+      "31689433",
+      "31406384",
+      "31283382",
+      "31133749",
+      "31126231",
+      "29610332",
+      "29095143",
+      "28473536",
+      "28379348",
+      "28180284",
+      "28167566",
+      "27869816",
+      "27013732",
+      "26701911",
+      "26571099",
+      "26472909",
+      "26464018",
+      "25756377",
+      "25557079",
+      "25362070",
+      "25215497",
+      "25151169",
+      "24697967",
+      "23562153",
+      "23332764",
+      "22955616",
+      "22689783",
+      "22539651",
+      "22153072",
+      "21593126",
+      "21335608",
+      "20180275",
+      "19736561",
+      "19632181",
+      "19274049",
+      "19265799",
+      "18600227",
+      "18586699",
+      "18585360",
+      "18585359",
+      "18296747",
+      "17981120",
+      "17311525",
+      "16873464",
+      "15812812",
+      "12419259",
+      "12192032",
+      "10198117",
+      "9581503",
+      "9570129",
+      "9354759",
+      "9303313",
+      "8181063",
+      "7979246"
+    ],
+    "similar": [
+      "38352411",
+      "40874594",
+      "25775564",
+      "39482734",
+      "22189060",
+      "33340452",
+      "23812975",
+      "41131660",
+      "38168434",
+      "37214836",
+      "20838582",
+      "34884664",
+      "34502060",
+      "38517697",
+      "28167566",
+      "26291518",
+      "12897250",
+      "26285121",
+      "31341088",
+      "31267468",
+      "42134988",
+      "37707797",
+      "36043696",
+      "37805453",
+      "29588420",
+      "21335608",
+      "29617928",
+      "40598892",
+      "28810832",
+      "10757985",
+      "35606422",
+      "7669760",
+      "37990674",
+      "41863075",
+      "41176615",
+      "40149012",
+      "21557082",
+      "21896508",
+      "12679534",
+      "22863142",
+      "16873497",
+      "37529292",
+      "38262408",
+      "35881019",
+      "39605368",
+      "23562153",
+      "42475469",
+      "29326300",
+      "36888663",
+      "2006410",
+      "15593070",
+      "24214955",
+      "29363433",
+      "37398193",
+      "25158938",
+      "32053778",
+      "28623580",
+      "19088121",
+      "36943132",
+      "42099803",
+      "40631206",
+      "16267080",
+      "26160164",
+      "19841254",
+      "34534646",
+      "16998473",
+      "24500199",
+      "37126718",
+      "7926781",
+      "31114870",
+      "19956545",
+      "34778747",
+      "9199284",
+      "27546793",
+      "39858648",
+      "41518500",
+      "39605729",
+      "7774807",
+      "39523297",
+      "27628341",
+      "15112319",
+      "7739539",
+      "8052536",
+      "9488464",
+      "33413545",
+      "26701911",
+      "20158869",
+      "42106138",
+      "12923186",
+      "39541188",
+      "16520375",
+      "40848288",
+      "27567672",
+      "8861960",
+      "36123148",
+      "26818008",
+      "35681170",
+      "16040025",
+      "12213201",
+      "39803441"
+    ],
+    "review": [
+      "38352411",
+      "34884664",
+      "34502060"
+    ],
+    "pmc": [
+      "10862739"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38352411/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38352411",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.01.24.577115",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

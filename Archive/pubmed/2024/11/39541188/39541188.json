@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "39541188",
+    "doi": "10.1093/bib/bbae581",
+    "title": "Predicting bacterial transcription factor binding sites through machine learning and structural characterization based on DNA duplex stability."
+  },
+  "content": {
+    "abstract": "Transcriptional factors (TFs) in bacteria play a crucial role in gene regulation by binding to specific DNA sequences, thereby assisting in the activation or repression of genes. Despite their central role, deciphering shape recognition of bacterial TFs-DNA interactions remains an intricate challenge. A deeper understanding of DNA secondary structures could greatly enhance our knowledge of how TFs recognize and interact with DNA, thereby elucidating their biological function. In this study, we employed machine learning algorithms to predict transcription factor binding sites (TFBS) and classify them as directed-repeat (DR) or inverted-repeat (IR). To accomplish this, we divided the set of TFBS nucleotide sequences by size, ranging from 8 to 20 base pairs, and converted them into thermodynamic data known as DNA duplex stability (DDS). Our results demonstrate that the Random Forest algorithm accurately predicts TFBS with an average accuracy of over 82% and effectively distinguishes between IR and DR with an accuracy of 89%. Interestingly, upon converting the base pairs of several TFBS-IR into DDS values, we observed a symmetric profile typical of the palindromic structure associated with these architectures. This study presents a novel TFBS prediction model based on a DDS characteristic that may indicate how respective proteins interact with base pairs, thus providing insights into molecular mechanisms underlying bacterial TFs-DNA interaction.",
+    "keywords": [
+      "DNA duplex stability",
+      "machine learning",
+      "transcription factor binding site"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "Binding Sites",
+      "DNA, Bacterial/metabolism/chemistry/genetics",
+      "Algorithms",
+      "DNA/metabolism/chemistry",
+      "Nucleic Acid Conformation",
+      "Computational Biology/methods",
+      "Bacterial Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Bacteria/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Borges Farias, Andre",
+        "Sganzerla Martinez, Gustavo",
+        "Galan-Vasquez, Edgardo",
+        "Nicolas, Marisa Fabiana",
+        "Perez-Rueda, Ernesto"
+      ],
+      "short_names": [
+        "Borges Farias A",
+        "Sganzerla Martinez G",
+        "Galan-Vasquez E",
+        "Nicolas MF",
+        "Perez-Rueda E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4699-0199",
+        "ORCID: 0000-0002-7656-0579",
+        "ORCID: 0000-0002-9165-1241",
+        "ORCID: 0000-0002-5437-2737",
+        "ORCID: 0000-0002-6879-0673"
+      ],
+      "affiliations": [
+        "Laboratorio Nacional de Computacao Cientifica - LNCC, Avenida Getulio Vargas, Petropolis, Rio de Janeiro 25651075, Brazil.",
+        "Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, Universidad Nacional Autonoma de Mexico, Unidad Academica del Estado de Yucatan, Carretera Sierra Papacal, Merida 97302, Yucatan, Mexico.",
+        "Microbiology and Immunology, Dalhousie University, 5850 College Street, Halifax B3H 4H7, Nova Scotia, Canada.",
+        "Departamento de Ingenieria de Sistemas Computacionales y Automatizacion, Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, Universidad Nacional Autonoma de Mexico, Ciudad Universitaria, Circuito Escolar S/N, Mexico City 01000, Mexico.",
+        "Laboratorio Nacional de Computacao Cientifica - LNCC, Avenida Getulio Vargas, Petropolis, Rio de Janeiro 25651075, Brazil.",
+        "Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, Universidad Nacional Autonoma de Mexico, Unidad Academica del Estado de Yucatan, Carretera Sierra Papacal, Merida 97302, Yucatan, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Borges Farias, André",
+        "short_name": "Borges Farias A",
+        "identifiers": [
+          "0000-0002-4699-0199"
+        ],
+        "affiliations": [
+          "Laboratório Nacional de Computação Científica - LNCC, Avenida Getúlio Vargas, Petrópolis, Rio de Janeiro 25651075, Brazil.",
+          "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Universidad Nacional Autónoma de México, Unidad Académica del Estado de Yucatán, Carretera Sierra Papacal, Mérida 97302, Yucatán, México."
+        ]
+      },
+      {
+        "full_name": "Sganzerla Martinez, Gustavo",
+        "short_name": "Sganzerla Martinez G",
+        "identifiers": [
+          "0000-0002-7656-0579"
+        ],
+        "affiliations": [
+          "Microbiology and Immunology, Dalhousie University, 5850 College Street, Halifax B3H 4H7, Nova Scotia, Canada."
+        ]
+      },
+      {
+        "full_name": "Galán-Vásquez, Edgardo",
+        "short_name": "Galán-Vásquez E",
+        "identifiers": [
+          "0000-0002-9165-1241"
+        ],
+        "affiliations": [
+          "Departamento de Ingeniería de Sistemas Computacionales y Automatización, Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Universidad Nacional Autónoma de México, Ciudad Universitaria, Circuito Escolar S/N, Mexico City 01000, México."
+        ]
+      },
+      {
+        "full_name": "Nicolás, Marisa Fabiana",
+        "short_name": "Nicolás MF",
+        "identifiers": [
+          "0000-0002-5437-2737"
+        ],
+        "affiliations": [
+          "Laboratório Nacional de Computação Científica - LNCC, Avenida Getúlio Vargas, Petrópolis, Rio de Janeiro 25651075, Brazil."
+        ]
+      },
+      {
+        "full_name": "Pérez-Rueda, Ernesto",
+        "short_name": "Pérez-Rueda E",
+        "identifiers": [
+          "0000-0002-6879-0673"
+        ],
+        "affiliations": [
+          "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Universidad Nacional Autónoma de México, Unidad Académica del Estado de Yucatán, Carretera Sierra Papacal, Mérida 97302, Yucatán, México."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/14 18:29",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "41533566",
+      "41142628",
+      "40843963",
+      "40504771"
+    ],
+    "refs": [
+      "39097662",
+      "38871173",
+      "38385146",
+      "37428913",
+      "37114659",
+      "37091301",
+      "36868685",
+      "36720898",
+      "36370103",
+      "35584008",
+      "35538405",
+      "35263332",
+      "34850907",
+      "34850133",
+      "34798408",
+      "34713600",
+      "34314098",
+      "33009392",
+      "31372637",
+      "31152742",
+      "30622249",
+      "29556010",
+      "29425488",
+      "28359978",
+      "28286728",
+      "28160603",
+      "27690309",
+      "27084946",
+      "26301843",
+      "26213851",
+      "26151451",
+      "25953851",
+      "25378322",
+      "24503515",
+      "24243859",
+      "24234444",
+      "22868264",
+      "21085639",
+      "19264798",
+      "18761103",
+      "17646310",
+      "17438293",
+      "17287355",
+      "15562006",
+      "15173120",
+      "15139820",
+      "12126620",
+      "11917033",
+      "11296236",
+      "11266612",
+      "10734204",
+      "9581503",
+      "8996793",
+      "8948641",
+      "8594589",
+      "7897660",
+      "3627268",
+      "3459152"
+    ],
+    "similar": [
+      "39541188",
+      "27567672",
+      "42475469",
+      "40914877",
+      "21124945",
+      "21193520",
+      "25775564",
+      "38701417",
+      "26681693",
+      "35652477",
+      "27052996",
+      "26151451",
+      "16267080",
+      "31896348",
+      "42099803",
+      "24926895",
+      "30447332",
+      "39051143",
+      "26130577",
+      "20661307",
+      "28642456",
+      "11448880",
+      "40577318",
+      "28119470",
+      "18229707",
+      "37099664",
+      "21059262",
+      "36082286",
+      "18320590",
+      "32822422",
+      "41053219",
+      "40874594",
+      "32989300",
+      "40702706",
+      "24078250",
+      "20838582",
+      "41099699",
+      "10802742",
+      "33372147",
+      "31406384",
+      "24091402",
+      "42478686",
+      "29974999",
+      "28777072",
+      "23317703",
+      "28750606",
+      "12364607",
+      "41247408",
+      "18485226",
+      "25313048",
+      "41518500",
+      "27106869",
+      "28849563",
+      "16362910",
+      "36057196",
+      "41863075",
+      "19586888",
+      "17377845",
+      "25957350",
+      "29165643",
+      "27654939",
+      "28623591",
+      "25917392",
+      "18428685",
+      "40536257",
+      "40889326",
+      "40138198",
+      "27209209",
+      "24349230",
+      "28715997",
+      "18922190",
+      "29617876",
+      "20529874",
+      "28472398",
+      "38258978",
+      "1768648",
+      "24564277",
+      "24448651",
+      "36123148",
+      "26818008",
+      "31713614",
+      "23526890",
+      "28439033",
+      "41920894",
+      "25559499",
+      "20360861",
+      "25306102",
+      "29852200",
+      "31074373",
+      "33904398",
+      "28670937",
+      "19956545",
+      "38902964",
+      "23209563",
+      "15853890",
+      "22943312",
+      "29323785",
+      "12218191",
+      "17623704",
+      "39047028"
+    ],
+    "review": [
+      "39541188",
+      "35652477",
+      "30447332",
+      "37099664",
+      "29974999",
+      "36057196",
+      "19586888",
+      "25306102"
+    ],
+    "pmc": [
+      "11562833"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39541188.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39541188/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae581",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

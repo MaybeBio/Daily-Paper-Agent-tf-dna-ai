@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38241144",
+  "title": "Brewing COFFEE: A Sequence-Specific Coarse-Grained Energy Function for Simulations of DNA-Protein Complexes.",
+  "authors": "Chakraborty, Debayan; Mondal, Balaka; Thirumalai, D",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-01-19",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出序列特异性粗粒化能量函数COFFEE，用于模拟DNA-蛋白复合物，涵盖TF-DNA类互作的结构与动态机制，方法上结合统计势与粗粒化建模，高度契合本课题。",
+  "abstract": "DNA-protein interactions are pervasive in a number of biophysical processes ranging from transcription and gene expression to chromosome folding. To describe the structural and dynamic properties underlying these processes accurately, it is important to create transferable computational models. Toward this end, we introduce Coarse-grained Force Field for Energy Estimation, COFFEE, a robust framework for simulating DNA-protein complexes. To brew COFFEE, we integrated the energy function in the self-organized polymer model with side-chains for proteins and the three interaction site model for DNA in a modular fashion, without recalibrating any of the parameters in the original force-fields. A unique feature of COFFEE is that it describes sequence-specific DNA-protein interactions using a statistical potential (SP) derived from a data set of high-resolution crystal structures. The only parameter in COFFEE is the strength (lambda(DNAPRO)) of the DNA-protein contact potential. For an optimal choice of lambda(DNAPRO), the crystallographic B-factors for DNA-protein complexes with varying sizes and topologies are quantitatively reproduced. Without any further readjustments to the force-field parameters, COFFEE predicts scattering profiles that are in quantitative agreement with small-angle X-ray scattering experiments, as well as chemical shifts that are consistent with NMR. We also show that COFFEE accurately describes the salt-induced unraveling of nucleosomes. Strikingly, our nucleosome simulations explain the destabilization effect of ARG to LYS mutations, which do not alter the balance of electrostatic interactions but affect chemical interactions in subtle ways. The range of applications attests to the transferability of COFFEE, and we anticipate that it would be a promising framework for simulating DNA-protein complexes at the molecular length-scale.",
+  "abstract_zh": "DNA-蛋白质相互作用广泛存在于从转录、基因表达到染色体折叠等多种生物物理过程中。为了准确描述这些过程背后的结构和动态特性，开发可转移的计算模型至关重要。为此，我们引入了用于能量估计的粗粒化力场COFFEE，这是一个模拟DNA-蛋白质复合物的稳健框架。为构建COFFEE，我们以模块化方式整合了自组织聚合物模型中的能量函数（含蛋白质侧链）和DNA的三相互作用位点模型，且未重新校准原始力场中的任何参数。COFFEE的一个独特之处在于，它利用从高分辨率晶体结构数据集中推导出的统计势（SP）来描述序列特异性DNA-蛋白质相互作用。COFFEE中唯一的参数是DNA-蛋白质接触势的强度（λ(DNAPRO)）。对于λ(DNAPRO)的最优选择，不同大小和拓扑结构的DNA-蛋白质复合物的晶体学B因子可被定量重现。无需进一步调整力场参数，COFFEE预测的散射谱与小角X射线散射实验定量一致，同时预测的化学位移与NMR结果相符。我们还展示了COFFEE能准确描述盐诱导的核小体解折叠。值得注意的是，我们的核小体模拟解释了ARG到LYS突变导致的去稳定化效应，这些突变不改变静电相互作用的平衡，但以微妙方式影响化学相互作用。应用范围的广泛性证明了COFFEE的可转移性，我们预期它将成为在分子尺度上模拟DNA-蛋白质复合物的一个有前景的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38241144/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38241144/",
+  "paper_page_path": "papers/pubmed/38241144/index.html"
+}

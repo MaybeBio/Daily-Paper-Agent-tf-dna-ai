@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "34801826",
+    "doi": "10.1016/j.bmc.2021.116500",
+    "title": "Structure-based screening combined with computational and biochemical analyses identified the inhibitor targeting the binding of DNA Ligase 1 to UHRF1."
+  },
+  "content": {
+    "abstract": "The accumulation of epigenetic alterations is one of the major causes of tumorigenesis. Aberrant DNA methylation patterns cause genome instability and silencing of tumor suppressor genes in various types of tumors. Therefore, drugs that target DNA methylation-regulating factors have great potential for cancer therapy. Ubiquitin-like containing PHD and RING finger domain 1 (UHRF1) is an essential factor for DNA methylation maintenance. UHRF1 is overexpressed in various cancer cells and down-regulation of UHRF1 in these cells reactivates the expression of tumor suppressor genes, thus UHRF1 is a promising target for cancer therapy. We have previously shown that interaction between the tandem Tudor domain (TTD) of UHRF1 and DNA ligase 1 (LIG1) di/trimethylated on Lys126 plays a key role in the recruitment of UHRF1 to replication sites and replication-coupled DNA methylation maintenance. An arginine binding cavity (Arg-binding cavity) of the TTD is essential for LIG1 interaction, thus the development of inhibitors that target the Arg-binding cavity could potentially repress UHRF1 function in cancer cells. To develop such an inhibitor, we performed in silico screening using not only static but also dynamic metrics based on all-atom molecular dynamics simulations, resulting in efficient identification of 5-amino-2,4-dimethylpyridine (5A-DMP) as a novel TTD-binding compound. Crystal structure of the TTD in complex with 5A-DMP revealed that the compound stably bound to the Arg-binding cavity of the TTD. Furthermore, 5A-DMP inhibits the full-length UHRF1:LIG1 interaction in Xenopus egg extracts. Our study uncovers a UHRF1 inhibitor which can be the basis of future experiments for cancer therapy.",
+    "keywords": [
+      "Cancer",
+      "DNA methylation",
+      "Drug discovery",
+      "Epigenetics",
+      "MD simulation",
+      "Tudor domain",
+      "UHRF1",
+      "X-ray crystallography"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "CCAAT-Enhancer-Binding Proteins/*antagonists & inhibitors/genetics/metabolism",
+      "Cell Line, Tumor",
+      "DNA Ligase ATP/*antagonists & inhibitors/metabolism",
+      "Dose-Response Relationship, Drug",
+      "Drug Evaluation, Preclinical",
+      "Enzyme Inhibitors/chemistry/*pharmacology",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Molecular Structure",
+      "Pyridines/chemistry/*pharmacology",
+      "Structure-Activity Relationship",
+      "Ubiquitin-Protein Ligases/*antagonists & inhibitors/genetics/metabolism",
+      "Xenopus"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kori, Satomi",
+        "Shibahashi, Yuki",
+        "Ekimoto, Toru",
+        "Nishiyama, Atsuya",
+        "Yoshimi, Sae",
+        "Yamaguchi, Kosuke",
+        "Nagatoishi, Satoru",
+        "Ohta, Masateru",
+        "Tsumoto, Kouhei",
+        "Nakanishi, Makoto",
+        "Defossez, Pierre-Antoine",
+        "Ikeguchi, Mitsunori",
+        "Arita, Kyohei"
+      ],
+      "short_names": [
+        "Kori S",
+        "Shibahashi Y",
+        "Ekimoto T",
+        "Nishiyama A",
+        "Yoshimi S",
+        "Yamaguchi K",
+        "Nagatoishi S",
+        "Ohta M",
+        "Tsumoto K",
+        "Nakanishi M",
+        "Defossez PA",
+        "Ikeguchi M",
+        "Arita K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Structural Biology Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.",
+        "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.",
+        "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.",
+        "Division of Cancer Cell Biology, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.",
+        "Structural Biology Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.",
+        "Univ. Paris, Epigenetics and Cell Fate, UMR 7216 CNRS, 75013 Paris, France.",
+        "Institute of Medical Sciences, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.",
+        "HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama 230-0045, Japan.",
+        "Institute of Medical Sciences, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan; Department of Bioengineering, School of Engineering, The University of Tokyo, 7-3-1, Hongo, Bunkyo-ku, Tokyo 113-8656, Japan.",
+        "Division of Cancer Cell Biology, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan.",
+        "Univ. Paris, Epigenetics and Cell Fate, UMR 7216 CNRS, 75013 Paris, France.",
+        "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan; HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama 230-0045, Japan.",
+        "Structural Biology Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan. Electronic address: aritak@yokohama-cu.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kori, Satomi",
+        "short_name": "Kori S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Shibahashi, Yuki",
+        "short_name": "Shibahashi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Ekimoto, Toru",
+        "short_name": "Ekimoto T",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishiyama, Atsuya",
+        "short_name": "Nishiyama A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cancer Cell Biology, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshimi, Sae",
+        "short_name": "Yoshimi S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamaguchi, Kosuke",
+        "short_name": "Yamaguchi K",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Paris, Epigenetics and Cell Fate, UMR 7216 CNRS, 75013 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Nagatoishi, Satoru",
+        "short_name": "Nagatoishi S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Sciences, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohta, Masateru",
+        "short_name": "Ohta M",
+        "identifiers": [],
+        "affiliations": [
+          "HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsumoto, Kouhei",
+        "short_name": "Tsumoto K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Sciences, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan; Department of Bioengineering, School of Engineering, The University of Tokyo, 7-3-1, Hongo, Bunkyo-ku, Tokyo 113-8656, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakanishi, Makoto",
+        "short_name": "Nakanishi M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cancer Cell Biology, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Defossez, Pierre-Antoine",
+        "short_name": "Defossez PA",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Paris, Epigenetics and Cell Fate, UMR 7216 CNRS, 75013 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Ikeguchi, Mitsunori",
+        "short_name": "Ikeguchi M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan; HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Arita, Kyohei",
+        "short_name": "Arita K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Laboratory, Graduate School of Medical Life Science, Yokohama City University, 1-7-29, Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan. Electronic address: aritak@yokohama-cu.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic & medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Med Chem"
+    ],
+    "pub_date": "2021 Dec 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/22 06:00",
+    "fetched_at": "2026-09-28 02:10:34"
+  },
+  "links": {
+    "cites": [
+      "42665556",
+      "41560473",
+      "41197730",
+      "40622840",
+      "40595593",
+      "40567248",
+      "40202581",
+      "39592582",
+      "38580649",
+      "38366231",
+      "38020304",
+      "37630248",
+      "37587144",
+      "36821822",
+      "36216533",
+      "35625988"
+    ],
+    "refs": [],
+    "similar": [
+      "34801826",
+      "30639225",
+      "23161542",
+      "32428527",
+      "33097091",
+      "29562800",
+      "28803780",
+      "31481468",
+      "34766381",
+      "29656054",
+      "29395786",
+      "27049577",
+      "33441849",
+      "37593997",
+      "29074623",
+      "21496237",
+      "37247564",
+      "33795533",
+      "36458887",
+      "35143176",
+      "33922029",
+      "31322780",
+      "30956060",
+      "32448288",
+      "38898124",
+      "31064417",
+      "31018966",
+      "34465029",
+      "25323766",
+      "33340746",
+      "22837395",
+      "35429693",
+      "38446667",
+      "30392931",
+      "21489993",
+      "30392929",
+      "32609811",
+      "24134914",
+      "26065575",
+      "32312517",
+      "32034755",
+      "33170271",
+      "38767734",
+      "23297342",
+      "26102039",
+      "28467809",
+      "27489107",
+      "29507645",
+      "24013172",
+      "38580649",
+      "36681316",
+      "22100450",
+      "17673620",
+      "28100769",
+      "23537643",
+      "19943104",
+      "36420895",
+      "38649007",
+      "21745816",
+      "36372834",
+      "21777816",
+      "30710064",
+      "38725075",
+      "26299963",
+      "16195352",
+      "23788677",
+      "37407562",
+      "22096602",
+      "21351083",
+      "31782885",
+      "22064703",
+      "39112494",
+      "26147747",
+      "22330138",
+      "27839516",
+      "23752590",
+      "37630248",
+      "34522170",
+      "25900245",
+      "19501055",
+      "19077538",
+      "30696879",
+      "31964471",
+      "23022729",
+      "27507047",
+      "30905812",
+      "24368767",
+      "29899856",
+      "31238111",
+      "30840873",
+      "29506131",
+      "23201574",
+      "25272010",
+      "37246786",
+      "33568199",
+      "32084194",
+      "35951156",
+      "21598301",
+      "24486181",
+      "18945682",
+      "24813945",
+      "36537722",
+      "34558642",
+      "32726623",
+      "35566130",
+      "36734974",
+      "29849118",
+      "28112929",
+      "34196368",
+      "21214517",
+      "33465813",
+      "35695611",
+      "22411829",
+      "30104358",
+      "32379550",
+      "30995416",
+      "25550546",
+      "37380646",
+      "18772889",
+      "30669400",
+      "23982143",
+      "30357346",
+      "29268763",
+      "23943380",
+      "25572953",
+      "29157076",
+      "31582837",
+      "35472067",
+      "38285887",
+      "31624244",
+      "36302855",
+      "35666346",
+      "39362877",
+      "36166308",
+      "35324392",
+      "39051184",
+      "35991572",
+      "36216533",
+      "37225425",
+      "36762644",
+      "32213189",
+      "37406020",
+      "18931436",
+      "38868925",
+      "38020304",
+      "36332388",
+      "38643728",
+      "38773738",
+      "35262949",
+      "27798843",
+      "36566325",
+      "35672463",
+      "34387595",
+      "34897340",
+      "39341501",
+      "35440090",
+      "38405904",
+      "35243267",
+      "35656341",
+      "18981420",
+      "39223706",
+      "31231040",
+      "37788997",
+      "38896336",
+      "33859388",
+      "24950375",
+      "36865496",
+      "36918565",
+      "28881702",
+      "33444456",
+      "36077796",
+      "35996525",
+      "36593255",
+      "37873068",
+      "38835125",
+      "36654750",
+      "35643159",
+      "38570859",
+      "34907338",
+      "39374888"
+    ],
+    "review": [
+      "34801826",
+      "21496237",
+      "33922029",
+      "24134914",
+      "32034755",
+      "36372834",
+      "38725075",
+      "27839516",
+      "37630248",
+      "19501055",
+      "29899856",
+      "31238111",
+      "30669400",
+      "39051184",
+      "36216533",
+      "38020304"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pubmed.jsp?pubmed_submit=Search&pubmed=34801826",
+        "provider": "BindingDB",
+        "category": "Chemical Information",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0896(21)00508-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1495",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34801826",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

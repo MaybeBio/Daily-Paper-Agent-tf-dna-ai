@@ -3,7 +3,7 @@
   "source_id": "10.64898/2026.09.10.750674",
   "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
   "doi": "10.64898/2026.09.10.750674",
-  "abstract": "Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses. However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites. Using the Qbeta; bacteriophage as a proof-of-concept system, we constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments. We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone. When repeatedly trained and tested with these geometric descriptors on different subsets of the benchmark dataset, the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation. To evaluate whether the model can predict RNA binding sites without experimental structures, we applied it to local geometric features derived from AlphaFold-predicted RNA structures. Despite substantial structural differences between predicted and experimentally determined models, the classifier retained considerable predictive performance (AUC = 0.75), indicating that approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction. Furthermore, the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors beyond static RNA conformations. In summary, our findings provide new mechanistic insights into RNA-capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses.",
+  "abstract": "Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses. However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites. Using the Qβ bacteriophage as a proof-of-concept system, we constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments. We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone. When repeatedly trained and tested with these geometric descriptors on different subsets of the benchmark dataset, the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation. To evaluate whether the model can predict RNA binding sites without experimental structures, we applied it to local geometric features derived from AlphaFold-predicted RNA structures. Despite substantial structural differences between predicted and experimentally determined models, the classifier retained considerable predictive performance (AUC = 0.75), indicating that approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction. Furthermore, the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors beyond static RNA conformations. In summary, our findings provide new mechanistic insights into RNA–capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses.",
   "authors": [
     "Yunong Melody Wu",
     "Junjie Zhang"
@@ -37,12 +37,12 @@
           [
             2026,
             9,
-            12
+            17
           ]
         ],
-        "date-time": "2026-09-12T05:08:14Z",
-        "timestamp": 1789189694524,
-        "version": "build-2803163510"
+        "date-time": "2026-09-17T15:32:12Z",
+        "timestamp": 1789659132645,
+        "version": "4.0.1"
       },
       "posted": {
         "date-parts": [
@@ -54,7 +54,7 @@
         ]
       },
       "group-title": "Biophysics",
-      "reference-count": 0,
+      "reference-count": 24,
       "publisher": "openRxiv",
       "license": [
         {
@@ -98,7 +98,14 @@
           "name": "Center for Phage Technology"
         },
         {
-          "name": "Texas A&M University ADM grant"
+          "name": "Texas A&M University ADM grant",
+          "id": [
+            {
+              "id": "https://ror.org/01f5ytq51",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
         }
       ],
       "content-domain": {
@@ -114,7 +121,7 @@
           ]
         ]
       },
-      "abstract": "<jats:p>Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses. However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites. Using the Qbeta; bacteriophage as a proof-of-concept system, we constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments. We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone. When repeatedly trained and tested with these geometric descriptors on different subsets of the benchmark dataset, the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation. To evaluate whether the model can predict RNA binding sites without experimental structures, we applied it to local geometric features derived from AlphaFold-predicted RNA structures. Despite substantial structural differences between predicted and experimentally determined models, the classifier retained considerable predictive performance (AUC = 0.75), indicating that approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction. Furthermore, the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors beyond static RNA conformations. In summary, our findings provide new mechanistic insights into RNA-capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses.</jats:p>",
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses. However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites. Using the Qβ bacteriophage as a proof-of-concept system, we constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments. We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone. When repeatedly trained and tested with these geometric descriptors on different subsets of the benchmark dataset, the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation. To evaluate whether the model can predict RNA binding sites without experimental structures, we applied it to local geometric features derived from AlphaFold-predicted RNA structures. Despite substantial structural differences between predicted and experimentally determined models, the classifier retained considerable predictive performance (AUC = 0.75), indicating that approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction. Furthermore, the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors beyond static RNA conformations. In summary, our findings provide new mechanistic insights into RNA–capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses.</jats:p>",
       "DOI": "10.64898/2026.09.10.750674",
       "type": "posted-content",
       "created": {
@@ -141,7 +148,7 @@
           "sequence": "first",
           "affiliation": [
             {
-              "name": "Rye Country Day School, Rye, NY 10580;"
+              "name": "Rye Country Day School, Rye, NY 10580"
             }
           ],
           "role": [
@@ -159,7 +166,7 @@
           "sequence": "additional",
           "affiliation": [
             {
-              "name": "TAMU"
+              "name": "Center for Phage Technology, Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843"
             }
           ],
           "role": [
@@ -171,6 +178,170 @@
         }
       ],
       "member": "54368",
+      "reference": [
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Modrow, S. , et al., Viruses with Single-Stranded, Positive-Sense RNA Genomes. Molecular Virology, 2013: p. 185–349.",
+          "DOI": "10.1007/978-3-642-20718-1_14"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Salvi, V ., et al., SARS-CoV-2-associated ssRNAs activate inflammation and immunity via TLR7/8. JCI Insight, 2021. 6(18).",
+          "DOI": "10.1172/jci.insight.150542"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.vaccine.2008.07.039"
+        },
+        {
+          "issue": "1",
+          "key": "2026091608150941000_2026.09.10.750674v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "17006",
+          "DOI": "10.1038/nrdp.2017.6",
+          "article-title": "Hepatitis C virus infection",
+          "volume": "3",
+          "year": "2017",
+          "journal-title": "Nature Reviews Disease Primers"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lundstrom, K ., RNA Viruses as Tools in Gene Therapy and Vaccine Development. Genes (Basel), 2019. 10(3).",
+          "DOI": "10.3390/genes10030189"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-physchem-040214-121637"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ye, L. , et al., RNA Structures and Their Role in Selective Genome Packaging. Viruses, 2021. 13(9).",
+          "DOI": "10.3390/v13091788"
+        },
+        {
+          "issue": "1",
+          "key": "2026091608150941000_2026.09.10.750674v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1038/s41392-022-00916-0",
+          "article-title": "Cryo-EM advances in RNA structure determination",
+          "volume": "7",
+          "year": "2022",
+          "journal-title": "Signal Transduction and Targeted Therapy"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13062-015-0090-5"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kagaya, Y. , B. Liu , and D. Kihara , Computational approaches for RNA structure prediction and design. Cell Reports Physical Science, 2026. 7(2).",
+          "DOI": "10.1016/j.xcrp.2026.103097"
+        },
+        {
+          "issue": "11",
+          "key": "2026091608150941000_2026.09.10.750674v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1860",
+          "DOI": "10.1016/j.str.2024.08.015",
+          "article-title": "Advances in the field of RNA 3D structure prediction and modeling, with purely theoretical approaches, and with the use of experimental data",
+          "volume": "32",
+          "year": "2024",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chang, J.Y. , et al., Structural Assembly of Qβ Virion and Its Diverse Forms of Virus-like Particles. Viruses, 2022. 14(2).",
+          "DOI": "10.3390/v14020225"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Reed, R. and R.J. Marks , Neural Smithing: Supervised Learning in Feedforward Artificial Neural Networks. 1999: The MIT Press.",
+          "DOI": "10.7551/mitpress/4937.001.0001"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.14",
+          "unstructured": "Kingma, D.P. and J. Ba , Adam: A Method for Stochastic Optimization. 2015."
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.15",
+          "unstructured": "Abadi, M. , et al., TensorFlow: a system for large-scale machine learning, in Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation. 2016, USENIX Association: Savannah, GA, USA. p. 265–283."
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "issue": "4",
+          "key": "2026091608150941000_2026.09.10.750674v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "424",
+          "DOI": "10.1177/2192568218778294",
+          "article-title": "ROC Solid: Receiver Operator Characteristic (ROC) Curves as a Foundation for Better Diagnostic Tests",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Global Spine Journal"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Christen, P. , D.J. Hand , and N. Kirielle , A Review of the F-Measure: Its History, Properties, Criticism, and Alternatives. ACM Comput. Surv., 2023. 56(3): p. Article 73.",
+          "DOI": "10.1145/3606367"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13040-023-00322-4"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.20",
+          "first-page": "1471",
+          "article-title": "Training and Testing Low-degree Polynomial Data Mappings via Linear SVM",
+          "volume": "11",
+          "year": "2010",
+          "journal-title": "J. Mach. Learn. Res"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tian, L. , W. Wu , and T. Yu , Graph Random Forest: A Graph Embedded Algorithm for Identifying Highly Connected Important Features. Biomolecules, 2023. 13(7).",
+          "DOI": "10.3390/biom13071153"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, C. , et al., 3D-equivariant graph neural networks for protein model quality assessment. Bioinformatics, 2023. 39(1).",
+          "DOI": "10.1093/bioinformatics/btad030"
+        },
+        {
+          "key": "2026091608150941000_2026.09.10.750674v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cui, Z ., et al., Structures of Qβ virions, virus-like particles, and the Qβ–MurA complex reveal internal coat proteins and the mechanism of host lysis, Proc. Natl. Acad. Sci. U.S.A. 114 (44) 11697–11702.",
+          "DOI": "10.1073/pnas.1707102114"
+        },
+        {
+          "issue": "4",
+          "key": "2026091608150941000_2026.09.10.750674v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "424",
+          "DOI": "10.1177/2192568218778294",
+          "article-title": "ROC Solid: Receiver Operator Characteristic (ROC) Curves as a Foundation for Better Diagnostic Tests",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Global Spine J"
+        }
+      ],
       "link": [
         {
           "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.09.10.750674",
@@ -184,13 +355,13 @@
           [
             2026,
             9,
-            12
+            16
           ]
         ],
-        "date-time": "2026-09-12T04:50:17Z",
-        "timestamp": 1789188617000
+        "date-time": "2026-09-16T15:15:24Z",
+        "timestamp": 1789571724000
       },
-      "score": 111.637085,
+      "score": 110.623535,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.09.10.750674"
@@ -205,7 +376,7 @@
           ]
         ]
       },
-      "references-count": 0,
+      "references-count": 24,
       "URL": "https://doi.org/10.64898/2026.09.10.750674",
       "published": {
         "date-parts": [

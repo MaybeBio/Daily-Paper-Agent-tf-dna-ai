@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35094119",
+  "title": "Deep learning analysis of contrast-enhanced spectral mammography to determine histoprognostic factors of malignant breast tumours.",
+  "authors": "Dominique, Caroline; Callonnec, Francoise; Berghian, Anca; Defta, Diana; Vera, Pierre; Modzelewski, Romain; Decazes, Pierre",
+  "journal": "European radiology",
+  "published_date": "2022-01-31",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用深度学习分析增强光谱乳腺X线摄影预测乳腺癌组织预后因子，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "OBJECTIVE: To evaluate if a deep learning model can be used to characterise breast cancers on contrast-enhanced spectral mammography (CESM). METHODS: This retrospective mono-centric study included biopsy-proven invasive cancers with an enhancement on CESM. CESM images include low-energy images (LE) comparable to digital mammography and dual-energy subtracted images (DES) showing tumour angiogenesis. For each lesion, histologic type, tumour grade, estrogen receptor (ER) status, progesterone receptor (PR) status, HER-2 status, Ki-67 proliferation index, and the size of the invasive tumour were retrieved. The deep learning model used was a CheXNet-based model fine-tuned on CESM dataset. The area under the curve (AUC) of the receiver operating characteristic (ROC) curve was calculated for the different models: images by images and then by majority voting combining all the incidences for one tumour. RESULTS: In total, 447 invasive breast cancers detected on CESM with pathological evidence, in 389 patients, which represented 2460 images analysed, were included. Concerning the ER, the deep learning model on the DES images had an AUC of 0.83 with the image-by-image analysis and of 0.85 for the majority voting. For the triple-negative analysis, a high AUC was observable for all models, in particularity for the model on LE images with an AUC of 0.90 for the image-by-image analysis and 0.91 for the majority voting. The AUC for the other histoprognostic factors was lower. CONCLUSION: Deep learning analysis on CESM has the potential to determine histoprognostic tumours makers, notably estrogen receptor status, and triple-negative receptor status. KEY POINTS: * A deep learning model developed for chest radiography was adapted by fine-tuning to be used on contrast-enhanced spectral mammography. * The adapted models allowed to determine for invasive breast cancers the status of estrogen receptors and triple-negative receptors. * Such models applied to contrast-enhanced spectral mammography could provide rapid prognostic and predictive information.",
+  "abstract_zh": "目的：评估深度学习模型能否用于在对比增强能谱乳腺摄影（CESM）上表征乳腺癌。方法：本回顾性单中心研究纳入了经活检证实且在CESM上有强化的浸润性癌症。CESM图像包括与数字乳腺摄影相当的低能量图像（LE）和显示肿瘤血管生成的双能减影图像（DES）。对每个病灶，收集组织学类型、肿瘤分级、雌激素受体（ER）状态、孕激素受体（PR）状态、HER-2状态、Ki-67增殖指数及浸润性肿瘤大小。所用深度学习模型为基于CheXNet的模型，并在CESM数据集上进行了微调。计算不同模型的受试者工作特征（ROC）曲线下面积（AUC）：先逐图像分析，再通过多数投票结合单个肿瘤的所有投照。结果：共纳入389例患者中在CESM上检测到且有病理证据的447例浸润性乳腺癌，对应分析图像2460张。关于ER，基于DES图像的深度学习模型在逐图像分析中的AUC为0.83，在多数投票中为0.85。对于三阴性分析，所有模型均显示出较高的AUC，尤其是基于LE图像的模型，在逐图像分析中AUC为0.90，在多数投票中为0.91。其他组织预后因素的AUC较低。结论：CESM上的深度学习分析有潜力确定组织预后肿瘤标志物，尤其是雌激素受体状态和三阴性受体状态。关键点：* 为胸部X线摄影开发的深度学习模型通过微调被适配用于对比增强能谱乳腺摄影。* 适配后的模型能够确定浸润性乳腺癌的雌激素受体和三阴性受体状态。* 此类模型应用于对比增强能谱乳腺摄影可提供快速的预后和预测信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35094119/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35094119/",
+  "paper_page_path": "papers/pubmed/35094119/index.html"
+}

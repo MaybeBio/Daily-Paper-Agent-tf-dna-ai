@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40624807",
+  "title": "Comparison of Random Survival Forest Based-Overall Survival With Deep Learning and Cox Proportional Hazard Models in HER-2-Positive HR-Negative Breast Cancer.",
+  "authors": "Cai, Wenqi; Qi, Yan; Zheng, Linhui; Wu, Huachao; Yang, Chunqian; Zhang, Runze; Wu, Chaoyan; Yu, Haijun",
+  "journal": "Cancer reports (Hoboken, N.J.)",
+  "published_date": "2025-07-08",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 0,
+  "one_liner_zh": "该文比较RSF、DeepSurv与CoxPH在HER2阳性乳腺癌生存预测中的表现，纯临床生存分析，无蛋白质-DNA互作体系、无结合建模，亦无AI/物理模拟方法用于分子互作，与本课题无关。",
+  "abstract": "BACKGROUND: Traditional CoxPH models are limited in handling real-world data complexities. While machine learning models like RSF and DeepSurv show promise, their application and comparative evaluation in the HER2-positive/HR-negative breast cancer subtype require further validation. AIMS: This study aims to build a survival prediction model for breast cancer patients based on different methods. The optimal model will provide more accurate survival predictions for clinical decision-making of HER2 positive and HR negative cancer patients. METHODS AND RESULTS: This study analyzed 8,119 HER2-positive HR-negative breast cancer patients from the SEER database, randomly allocated to training/validation/test cohorts (7:1:2 ratio). Predictive models were developed using five feature sets and three algorithms (Cox PH, RSF, DeepSurv), with feature selection optimized via Concordance index (C-index). Evaluation revealed: The C-index of the DeepSurv models constructed using the training set is greater than 0.8, performing better than both the RSF and CoxPH models. However, CoxPH outperforms DeepSurv in terms of C-index when testset. The Brier scores for all models were below 0.25. Which indicates that the models predicted with high accuracy. Based on the training set, the Deepsurv model predicted the highest ROC-AUCs of 0.91, 0.863, and 0.855 for 1-, 3-, and 5-year overall survival (OS), respectively. The RSF model achieved the highest AUCs, specifically 0.876, 0.861, and 0.845, for 1-, 3-, and 5-year overall survival in the test group. The calibration graphs indicate that of the three models forecasting overall survival at 1, 3, and 5 years, the RSF model demonstrated the greatest level of agreement between predictions and actual observations, trailed by the DeepSurv model. There was poor agreement between CoxPH model predictions and observed data. Optimal Clinical Net Benefits at 1, 3, and 5 Years for DCA of the Deepsurv Model in the Training Set Data. However, in the test set, compared to other models, RSF showed better Optimal Clinical Net Benefits. CONCLUSIONS: In conclusion, compared to conventional prognostic models, the Random Survival Forest (RSF) model serves as a reliable tool for predicting long-term survival in breast cancer patients, demonstrating consistent performance across diverse datasets. Furthermore, the feature set selected via RSF-Variable Importance (VIMP) (compared with LASSO regression and Cox regression) significantly enhances the performance of prognostic models. Our findings may offer practical guidance for future development of long-term prognostic models tailored to breast cancer subtypes.",
+  "abstract_zh": "背景：传统的CoxPH模型在处理真实世界数据的复杂性方面存在局限。尽管诸如RSF和DeepSurv等机器学习模型展现出潜力，但它们在HER2阳性/HR阴性乳腺癌亚型中的应用及比较评估仍需进一步验证。目的：本研究旨在基于不同方法构建乳腺癌患者的生存预测模型。最优模型将为HER2阳性和HR阴性癌症患者的临床决策提供更准确的生存预测。方法与结果：本研究分析了来自SEER数据库的8,119名HER2阳性HR阴性乳腺癌患者，随机分配至训练/验证/测试队列（比例为7:1:2）。使用五个特征集和三种算法（Cox PH、RSF、DeepSurv）开发预测模型，并通过一致性指数（Concordance index, C-index）优化特征选择。评估结果显示：使用训练集构建的DeepSurv模型的C-index大于0.8，表现优于RSF和CoxPH模型。然而，在测试集中，CoxPH在C-index方面优于DeepSurv。所有模型的Brier分数均低于0.25，表明模型预测具有高准确性。基于训练集，DeepSurv模型在1年、3年和5年总生存期（OS）的ROC-AUC分别预测最高，为0.91、0.863和0.855。RSF模型在测试组中1年、3年和5年总生存期取得了最高AUC，分别为0.876、0.861和0.845。校准图显示，在预测1年、3年和5年总生存期的三个模型中，RSF模型在预测与实际观察之间的一致性最高，其次是DeepSurv模型。CoxPH模型的预测与观察数据之间一致性较差。训练集数据中，DeepSurv模型在1年、3年和5年的DCA中表现出最优临床净收益。然而，在测试集中，与其他模型相比，RSF显示出更好的最优临床净收益。结论：总之，与传统预后模型相比，随机生存森林（Random Survival Forest, RSF）模型作为预测乳腺癌患者长期生存的可靠工具，在不同数据集上展现出稳定的性能。此外，通过RSF-变量重要性（Variable Importance, VIMP）选择的特征集（与LASSO回归和Cox回归相比）显著增强了预后模型的性能。我们的发现可能为未来针对乳腺癌亚型开发长期预后模型提供实用指导。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40624807/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40624807/",
+  "paper_page_path": "papers/pubmed/40624807/index.html"
+}

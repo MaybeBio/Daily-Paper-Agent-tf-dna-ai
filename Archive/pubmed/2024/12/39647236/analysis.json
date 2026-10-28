@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39647236",
+  "title": "Screening and identification of gene expression in large cohorts of clinical tissue samples unveils the major involvement of EZH2 and SOX2 in lung cancer.",
+  "authors": "Niharika; Roy, Ankan; Sadhukhan, Ratan; Patra, Samir Kumar",
+  "journal": "Cancer genetics",
+  "published_date": "2024-12-09",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基于临床样本转录组筛选肺癌相关基因SOX2/EZH2并进行分子对接预测EZH2抑制剂，虽涉及转录因子SOX2与DNA结合及EZH2对接，但核心是表达分析和药物筛选，缺乏TF-DNA互作建模与AI/物理模拟方法深度。",
+  "abstract": "Lung adenocarcinoma (LUAD), the primary subtype of Non-Small Cell Lung Cancer (NSCLC), accounts for 80 % to 85 % of cases. Due to suboptimal screening method, LUAD is often detected in late stage, leading to aggressive progression and poor outcomes. Therefore, early disease prognosis for the LUAD is high priority. In order to identify early detection biomarkers, we conducted a meta-analysis of mRNA expression TCGA and GTEx datasets from LUAD patients. A total of 795 differentially expressed genes (DEGs) were identified by exploring the Network-Analyst tool and utilizing combined effect size methods. DEGs refer to genes whose expression levels are significantly different (either higher or lower) compared to their normal baseline expression levels. KEGG pathway enrichment analysis highlighted the TNF signaling pathway as being prominently associated with these DEGs. Subsequently, using the MCODE and CytoHubba plugins in Cytoscape software, we filtered out the top 10 genes. Among these, SOX2 was the only gene exhibiting higher expression, while the others were downregulated. Consequently, our subsequent research focused on SOX2. Further transcription factor-gene network analysis revealed that enhancer of zeste homolog 2 (EZH2) is a significant partner of SOX2, potentially playing a crucial role in euchromatin-heterochromatin dynamics. Structure of SOX2 protein suggest that it is a non-druggable transcription factor, literature survey suggests the same. SOX2 is considered challenging to target directly, or \"non-druggable,\" because of several intrinsic properties that make it difficult to design effective therapeutic agents against it. The primary function of SOX2 is to bind DNA and regulates gene expression. Unlike enzymes or receptors with defined active sites or binding pockets, transcription factors typically have relatively flat or diffuse surfaces that do not offer obvious \"pockets\" for small molecules to bind effectively. Hence, we drove our focus to investigate on potential drug(s) targeting EZH2. Molecular docking analyses predicted most probable inhibitors of EZH2. We employed several predictive analysis tools and identified GSK343, as a promising inhibitor of EZH2.",
+  "abstract_zh": "肺腺癌（LUAD）是非小细胞肺癌（NSCLC）的主要亚型，占病例的80%至85%。由于筛查方法欠佳，LUAD常在晚期才被检出，导致侵袭性进展和不良预后。因此，LUAD的早期疾病预后评估具有高度优先性。为识别早期检测生物标志物，我们对来自LUAD患者的mRNA表达TCGA和GTEx数据集进行了荟萃分析。通过探索Network-Analyst工具并利用合并效应量方法，共鉴定出795个差异表达基因（DEGs）。DEGs指其表达水平与正常基线表达水平相比存在显著差异（更高或更低）的基因。KEGG通路富集分析突出显示TNF信号通路与这些DEGs显著相关。随后，使用Cytoscape软件中的MCODE和CytoHubba插件，我们筛选出前10个基因。其中，SOX2是唯一表达上调的基因，其余均下调。因此，我们后续研究聚焦于SOX2。进一步的转录因子-基因网络分析揭示，zeste homolog 2增强子（EZH2）是SOX2的重要伙伴，可能在常染色质-异染色质动态中发挥关键作用。SOX2蛋白的结构表明它是一种不可成药（non-druggable）的转录因子，文献调查也支持这一观点。SOX2被认为难以直接靶向，或“不可成药”，因其多种内在特性使得设计有效治疗药物变得困难。SOX2的主要功能是结合DNA并调控基因表达。与具有明确活性位点或结合口袋的酶或受体不同，转录因子通常具有相对平坦或弥散的表面，不提供明显的“口袋”供小分子有效结合。因此，我们将研究重点转向寻找靶向EZH2的潜在药物。分子对接分析预测了EZH2最可能的抑制剂。我们采用多种预测分析工具，并鉴定出GSK343作为EZH2的有前景抑制剂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39647236/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39647236/",
+  "paper_page_path": "papers/pubmed/39647236/index.html"
+}

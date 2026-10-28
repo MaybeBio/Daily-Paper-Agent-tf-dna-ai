@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.09.11.749989",
+  "title": "Environment-Aware DNA Language Model for Stress-Responsive Genomic Prioritization in Maize",
+  "authors": "Debasmita Pal; Aaron Odell; Anuradha Singh; Addie Thompson; Arun Ross; Anne Thessen",
+  "journal": "bioRxiv",
+  "published_date": "2026-09-12",
+  "window": {
+    "start": "2026-09-07",
+    "end": "2026-09-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用环境感知DNA语言模型对玉米胁迫响应基因组区域进行优先级排序，虽涉及转录因子家族与调控基序分析，但核心是基因组区域筛选而非TF-DNA结合互作建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "Abiotic stresses such as heat and drought severely reduce maize productivity, yet identifying genomic regions that confer stress resilience remains a challenge. Inspired by advances in Large Language Models (LLMs), Genomic Foundation Models (GFMs) have recently emerged as a promising approach for capturing regulatory patterns through large-scale pre-training on DNA sequences. However, their application to plant stress-response analysis remains unexplored. This study presents an environment-aware DNA-LLM that adapts AgroNT, a transformer-based GFM pre-trained on diverse plant genomes, by incorporating stress-specific prompt tokens. Through parameter-efficient fine-tuning, the model learns stress-conditioned sequence representations that form distinct clusters in the embedding space across environmental contexts. By combining stress-induced shifts in these sequence representations relative to control conditions with transformer attention patterns, we prioritized putative heat- and drought-responsive genomic regions associated with grain yield in the Genomes-to-Fields (G2F) panel. Prioritized regions were supported by spatiotemporal differential gene-expression evidence and overlap with stress-associated quantitative trait loci. They were further characterized through transcription-factor family analysis and regulatory motif enrichment. Attention-guided analysis additionally identified stress-associated motifs enriched within model-emphasized sequence regions. Overall, the prioritized loci were proximal to genes involved in transcriptional regulation, signaling, and metabolic pathways relevant to abiotic-stress adaptation, demonstrating the potential of stress-conditioned transformer-based sequence modeling for environment-aware genome-to-phenome analysis. Availability and Implementation https://github.com/iPRoBe-lab/Environment_Aware_DNA_LLM.git",
+  "abstract_zh": "高温和干旱等非生物胁迫严重降低玉米产量，然而识别赋予胁迫韧性的基因组区域仍是一项挑战。受大语言模型（Large Language Models, LLMs）进展的启发，基因组基础模型（Genomic Foundation Models, GFMs）近期作为一种通过在大规模DNA序列上预训练来捕获调控模式的有前景方法而出现。然而，其在植物胁迫响应分析中的应用尚未被探索。本研究提出了一种环境感知的DNA-LLM，通过纳入胁迫特异性提示标记，适配AgroNT——一种基于Transformer的、在多种植物基因组上预训练的GFM。通过参数高效微调，模型学习到胁迫条件下的序列表示，这些表示在嵌入空间中跨环境背景形成不同聚类。通过将这些序列表示相对于对照条件的胁迫诱导变化与Transformer注意力模式相结合，我们优先筛选了与Genomes-to-Fields (G2F) 面板中籽粒产量相关的推定热和干旱响应基因组区域。优先区域得到时空差异基因表达证据的支持，并与胁迫相关数量性状位点重叠。它们进一步通过转录因子家族分析和调控基序富集进行表征。注意力引导分析还识别了模型强调序列区域内富集的胁迫相关基序。总体而言，优先位点邻近参与转录调控、信号传导以及与 abiotic-stress 适应相关的代谢途径的基因，展示了基于胁迫条件的Transformer序列建模在环境感知的基因组到表型组分析中的潜力。可用性和实现 https://github.com/iPRoBe-lab/Environment_Aware_DNA_LLM.git",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.09.11.749989",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.11.749989",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.09.11.749989/index.html"
+}

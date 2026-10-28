@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods) as provided
+- **Assessment boundary** Scientific validity, technical soundness, and claims as supported by the provided text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present Mahi, a multi-modal tissue-aware graph neural network that integrates chromatin accessibility, transcription factor binding, histone modifications, and protein structure features with tissue-specific functional networks to learn context-aware gene embeddings across 290 tissues and cell types. They claim superior performance over sequence-based models in predicting gene essentiality across 1,183 cancer cell lines, interpretable tissue-specific embedding structure, and the ability to model in silico perturbation responses that recover disease-relevant pathways.
+- **Visible evidence base** Abstract, Introduction, Results (four subsections), Discussion, Methods (data processing, Mahi framework, prediction and analysis details), figure legends referenced but figures not provided
+- **Missing materials affecting confidence** Figures and supplementary tables (Table S1, S2, S3; Figures S1, S2, S3) not provided; no code or data repository contents verified; no baseline model performance numbers for comparison beyond stated means; no details on hyperparameter search results; no ablation studies; no statistical test details beyond t-test mention
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a technically ambitious and potentially valuable framework for tissue-aware gene representation learning. The core idea of integrating multi-modal molecular features with tissue-specific network topology is timely and relevant. However, the evidence provided in the text is insufficient to fully evaluate several key claims. The essentiality prediction results are reported as aggregate means without variance across cell lines or comparison to a non-graph baseline using the same features. The perturbation analysis, while biologically plausible in the examples given, lacks quantitative validation against known perturbation databases or experimental datasets. The interpretability claims are supported only by qualitative inspection of PCA plots and selected gene examples. The methodological description is incomplete in places, particularly regarding the pretraining procedure and the integration of sequence and graph embeddings. The manuscript would benefit from clearer reporting of experimental design, additional baseline comparisons, and quantitative validation of perturbation predictions.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene function prediction, network biology, and representation learning would be the primary audience. Researchers in functional genomics and precision medicine interested in tissue-specific gene dependencies and in silico perturbation modeling would also find the framework relevant. The public availability of embeddings and code increases potential utility for the broader genomics community.
+- **Major strengths** The multi-modal integration of diverse molecular features with tissue-specific networks is a novel and sensible design choice. The scale of the framework (290 tissues, 19,073 genes) is impressive. The demonstration of superior performance over sequence-based models on a large-scale essentiality prediction task is a meaningful result. The perturbation analysis framework, with its ability to recover tissue-specific pathways, has clear translational potential. The public release of embeddings and code is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Mahi achieves consistently strong predictive accuracy across diverse cancer cell lines (test ROCAUC = 0.921 ± 0.012, PRAUC = 0.638 ± 0.035, CV ROCAUC = 0.917 ± 0.011, PRAUC = 0.638 ± 0.031)"
+  - **Evidence pointer** Results section "Mahi accurately predicts cell-line-specific gene essentiality", Figure 2B, Figure S2
+  - **Concern** The reported performance metrics are aggregate means across cell lines, but no information is provided on the distribution of performance across individual cell lines, the number of genes in the test set, or the variance across cell lines. More critically, the comparison to baselines (Figure 2C, 2D) reports only that Mahi "significantly outperformed" alternatives, without providing the actual performance numbers for the baselines or the effect sizes. Without this information, it is impossible to assess the magnitude of the improvement or whether the difference is practically meaningful. Additionally, the choice of XGBoost as the downstream predictor is not justified, and no comparison is made to a simple linear model or to using the raw input features without graph propagation.
+  - **Why it matters** The central claim of the paper is that integrating multi-modal features with tissue-specific networks improves prediction. Without transparent reporting of baseline performance and effect sizes, this claim cannot be properly evaluated. The lack of variance information prevents assessment of robustness across the diverse set of 1,183 cell lines.
+  - **Resolution test** Provide per-cell-line performance distributions (e.g., box plots or histograms), report baseline performance numbers with statistical significance values and effect sizes, and include an ablation that removes the graph component to isolate its contribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In silico gene knockout perturbations demonstrate Mahi's ability to model intricate perturbation responses, identifying disease-relevant pathways and therapeutic targets."
+  - **Evidence pointer** Results section "Mahi provides an interpretable framework for modeling context-specific perturbation responses", Figure 4, Methods "Perturbation analysis"
+  - **Concern** The perturbation analysis is described qualitatively, with selected examples (ALPK3, DMD, CFTR) showing enrichment of expected pathways. However, there is no quantitative validation of these predictions against experimental perturbation data, known genetic interaction databases, or curated pathway databases. The choice of the top 1,000 genes for enrichment analysis is arbitrary and not justified. The normalization procedure using 200 random knockouts is described but no assessment of the stability or sensitivity of the results to this choice is provided. The biological interpretation of the CFTR results across tissues is presented as a key finding, but the statistical significance of the tissue-specific differences in pathway enrichment is not assessed.
+  - **Why it matters** The claim that Mahi can model perturbation responses and identify disease-relevant pathways is a major selling point of the framework. Without quantitative validation against known biology or experimental data, these results remain anecdotal. The lack of statistical rigor in the enrichment analysis undermines confidence in the specificity of the findings.
+  - **Resolution test** Validate perturbation predictions against experimental datasets (e.g., CRISPR screens, perturbation databases like LINCS), provide a quantitative comparison of predicted vs. known pathway responses, and include statistical assessment of enrichment significance across tissues and perturbations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "All embeddings and the framework are publicly available to facilitate use by the scientific community."
+  - **Evidence pointer** Data availability and Code availability sections
+  - **Concern** While the authors state that code and embeddings are available, the manuscript does not provide sufficient detail for reproduction. The pretraining procedure is described at a high level but lacks specifics on data splits, masking strategy, and evaluation of the pretraining task. The hyperparameter search is mentioned but the search space and final selected hyperparameters are not reported. The exact procedure for mapping cell lines to tissues is not fully described. The version of the code and the exact data files are not specified.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. The lack of detailed methodological reporting makes it difficult for other groups to reproduce the results or apply the framework to their own data, despite the stated availability.
+  - **Resolution test** Provide a detailed methods section with all hyperparameters, data processing steps, and evaluation protocols. Include a link to a versioned code release with clear documentation and a demonstration notebook or tutorial.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Generating per-gene sequence embeddings"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of genomic embedding generation states that 41,800 bps are extracted and fed into DeepSEA in overlapping 2,000 bp windows sliding every 200 bp. This would produce approximately 200 windows, not the stated 2002 chromatin features per window. The relationship between window count and feature count is unclear.
+  - **Required correction** Clarify the relationship between the number of windows and the resulting feature dimension. Specify whether the 2002 features are per window or aggregated across windows.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Mahi embeddings capture tissue-specific gene functionality"
+  - **Evidence pointer** Results section, Figure 3
+  - **Issue** The PCA visualization is described as showing "distinct clustering patterns across tissues," but no quantitative measure of cluster separation or quality is provided. The convex hull analysis is applied to tissue-specific genes, but the number of genes in each category and the overlap between categories are not reported.
+  - **Required correction** Provide quantitative measures of cluster separation (e.g., silhouette score) and report the number of genes in each category used for the convex hull analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Predicting downstream functional tasks & analysis of embedding space"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the XGBoost model training mentions 5-fold cross-validation for tuning but does not specify which hyperparameters were tuned, the range of values explored, or the final selected values. The choice of learning rate, tree depth, and number of trees is stated as fixed but no justification is provided.
+  - **Required correction** Report the hyperparameter search space, the tuning procedure, and the final hyperparameter values. Justify the choice of fixed parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Mahi outperforms sequence-, expression-, and graph-based embeddings"
+  - **Evidence pointer** Results section, Figure 2D
+  - **Issue** The comparison across thresholds for context essential genes is described but the number of genes in each threshold category is not reported. The statistical test used for comparing Mahi to baselines is mentioned as a paired t-test but the number of paired observations (cell lines) and the degrees of freedom are not stated.
+  - **Required correction** Report the number of genes in each threshold category and provide full statistical details including sample sizes, test statistics, and p-values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is brief and does not address potential biases in the training data, the choice of 35 representative tissues for pretraining, or the generalizability to non-cancer contexts.
+  - **Required correction** Expand the discussion of limitations, including potential sources of bias and the scope of applicability of the framework.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient baseline reporting and effect sizes), R1-M2 (lack of quantitative validation of perturbation predictions), R1-M3 (incomplete methodological detail for reproducibility)
+- **Assessment against Nature-style criteria**
+  - **Originality** The integration of multi-modal molecular features with tissue-specific network topology in a graph neural network framework is a novel contribution. The pretraining strategy on tissue-specific networks followed by multi-modal feature integration is a creative approach. However, the individual components (graph neural networks, sequence embeddings, tissue-specific networks) are established, and the novelty lies primarily in their combination.
+  - **Scientific importance** The problem of tissue-specific gene function prediction and perturbation modeling is of high importance for understanding disease mechanisms and identifying therapeutic targets. The potential to move beyond sequence-only models toward context-aware representations addresses a recognized gap in the field.
+  - **Interdisciplinary readership** The work bridges computational biology, functional genomics, and precision medicine. The framework and embeddings could be of interest to researchers in multiple disciplines, though the technical complexity may limit accessibility to those without deep learning expertise.
+  - **Technical soundness** The overall approach is technically sound in concept, but the evidence presented is insufficient to fully evaluate the claims. The lack of detailed baseline comparisons, variance reporting, and quantitative validation of perturbation predictions are significant gaps. The methodological description is incomplete in several areas.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the main concepts are explained clearly. However, the methods section assumes significant familiarity with graph neural networks and representation learning. The biological examples in the perturbation analysis help make the results accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The framework addresses an important problem and the initial results are promising, but the current evidence is insufficient to fully establish the claims. The authors should provide more detailed baseline comparisons, quantitative validation of perturbation predictions, and complete methodological reporting.
+
+## Risk / unsupported claims
+- The claim that Mahi "outperforms" all sequence-, expression-, and graph-based baselines is unsupported without reporting actual performance numbers for the baselines.
+- The claim that in silico perturbations "identify disease-relevant pathways and therapeutic targets" is not quantitatively validated against known biology or experimental data.
+- The claim that the embedding space "reveals tissue-specific functional organization" is supported only by qualitative PCA inspection and selected examples, without quantitative cluster quality metrics.
+- The claim that Mahi is "scalable" is not supported by any runtime, memory, or scaling analysis.
+- The claim that the framework "can be extended to incorporate sequence variation or transcript isoform differences" is speculative and not demonstrated.
+- The specific p-value reported for the convex hull analysis (p < 1e-4) is stated without details on the bootstrap procedure, number of samples, or multiple testing correction.
+- The choice of 35 representative tissues for pretraining is not justified, and the impact of this choice on downstream performance is not assessed.

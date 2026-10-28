@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence alignment as presented in the supplied text; no external data or figures were available for verification
+- **Shared manuscript claim summary** The authors present a multiomic single-nucleus ATAC-seq and RNA-seq atlas of systemic sclerosis-associated interstitial lung disease (SSc-ILD) and control lungs, identifying altered chromatin accessibility and transcription factor (TF) binding dynamics in fibroblasts and SPP1hi macrophages. Using ChromBPNet and a novel algorithm HALO, they infer increased TF binding of AP-1, RUNX, and EGR families in fibrotic fibroblasts and bHLH-ZIP, AP-1, and EGR in macrophages, and construct TF-regulatory element-gene networks linking these TFs to profibrotic genes.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only, no figures or tables), Discussion, Methods (snATAC-seq/multiome analysis, ChromBPNet analysis, HALO metacell construction, TF-CRE-gene linkage construction)
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and statistical outputs are referenced but not provided. No quantitative results (effect sizes, p-values, confidence intervals) are visible in the text. The GWAS overlay and network visualizations are described but not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important gap in understanding transcriptional regulation in fibrotic lung disease by applying advanced computational methods to a substantial multiomic dataset. The conceptual framework is sound and the integration of ChromBPNet with a novel metacell approach (HALO) is potentially valuable. However, the current text provides insufficient quantitative evidence to evaluate the robustness of the key claims. The results section is descriptive without reporting effect sizes, statistical significance, or validation metrics. The novelty of HALO is asserted but not benchmarked against existing methods. The link between inferred TF binding and functional consequences remains correlative. The manuscript would benefit from clearer presentation of validation steps, quantitative comparisons, and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in pulmonary fibrosis, scleroderma, and fibrotic disease biology would be interested in the cell-type-specific regulatory landscape and candidate TFs. Computational biologists developing single-cell multiomic integration tools would be interested in the HALO and ChromBPNet application. Those studying TF networks in disease would value the TF-CRE-gene linkage resource. The potential therapeutic implications for targeting AP-1, RUNX, or EGR pathways could attract translational researchers.
+- **Major strengths** 1) Addresses a significant gap in understanding transcriptional control in fibrosis using primary human tissue. 2) Integrates multiple state-of-the-art computational tools (ChromBPNet, TF-MoDISco, HALO) in a coherent pipeline. 3) Provides a potentially valuable resource of TF regulatory networks in healthy and fibrotic lungs. 4) Identifies specific TF families with plausible biological relevance to fibrosis. 5) Includes orthogonal validation through gene expression correlation and pathway analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ChromBPNet inferred increased TF binding at single base pair resolution to profibrotic genes, including CTHRC1 and ADAM12, in fibroblasts and SPP1 and CCL18 in macrophages.
+  - **Evidence pointer** Results section "Enhanced AP-1, RUNX and EGR transcription factors by fibrotic fibroblasts"; Figure 3 (not provided)
+  - **Concern** The claim of increased TF binding is based on ChromBPNet contribution scores, but no quantitative data are presented in the text. It is unclear how many replicates were used, how significance was determined, what the magnitude of the changes was, and whether these changes were consistent across samples. The authors state that "scores were higher in nearly every cluster for SSc fibroblasts" but do not provide statistical tests or effect sizes. Without this information, the central claim of altered TF binding cannot be evaluated.
+  - **Why it matters** The entire premise of the paper rests on the identification of differentially bound TFs. If the contribution score differences are small, variable, or not statistically robust, the downstream network construction and biological interpretations are compromised.
+  - **Resolution test** Provide quantitative summary statistics for contribution score differences between SSc and control for each TF family, including confidence intervals, p-values, and effect sizes. Show per-sample or per-donor consistency. Include a comparison of ChromBPNet predictions against an independent method (e.g., ChIP-seq, or at least motif footprinting from an orthogonal tool).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that HALO confirmed AP-1, RUNX, and EGR TF activity and established TF-regulatory element-gene networks.
+  - **Evidence pointer** Results section "Gene regulatory network construction"; Figure 6 (not provided)
+  - **Concern** HALO is described as a novel algorithm, but no details are provided on its architecture, training procedure, hyperparameters, or how it differs from existing methods. The claim that HALO "confirmed" ChromBPNet findings is circular if both methods rely on the same underlying data and similar assumptions. No benchmarking against existing tools (e.g., SCENIC, CellOracle, DIRECT-NET alone) is presented. The metacell construction and network inference steps are not validated.
+  - **Why it matters** The novelty of the paper partly rests on HALO. Without proper description and benchmarking, readers cannot assess whether the network predictions are reliable or whether the method adds value over existing approaches. The confirmatory claim is weakened if the two methods are not independent.
+  - **Resolution test** Provide a detailed description of HALO's architecture and training. Benchmark HALO against at least one established method on the same data or a public dataset. Show that the TF-CRE-gene links are supported by independent evidence (e.g., eQTL, ChIP-seq, or CRISPR perturbation). Clarify the independence of ChromBPNet and HALO predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors claim to have generated the largest multiomic lung cell atlas of both control and fibrotic ILD.
+  - **Evidence pointer** Results section "Epigenomic markers of healthy and SSc-ILD lung cell populations"; Methods section
+  - **Concern** The dataset size is stated as 67,446 nuclei from 16 samples, but the breakdown by condition, chemistry, and cell type is not provided in the text. The authors mention that 16 samples were partially enriched for mesenchymal cells, but the impact of this enrichment on cell type proportions and downstream analyses is not discussed. No information is provided on data availability, accession numbers, or code availability.
+  - **Why it matters** Reproducibility is a core requirement for a resource paper. Without clear data and code availability, the claimed atlas cannot be used by the community. The enrichment strategy may introduce biases that affect the interpretation of cell-type-specific findings.
+  - **Resolution test** Provide a detailed sample table with condition, chemistry, enrichment status, and quality metrics. Deposit processed data and code in a public repository with accession numbers. Discuss the potential impact of mesenchymal enrichment on cell type proportion estimates and differential analyses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and interpretation
+  - **Claim pointer** The authors state that AP-1, RUNX, and EGR TF activity controls profibrotic gene programs and that this provides a TF action atlas with comprehensive insights.
+  - **Evidence pointer** Discussion section
+  - **Concern** The causal language ("drive", "control") is not supported by the correlative computational analyses presented. The authors acknowledge the need for functional validation but do not provide any. The discussion of mechanisms (e.g., AP-1 binding differences) is speculative and not tied to specific testable hypotheses. The relationship between the identified TFs and known fibrosis pathways is discussed but not systematically integrated with existing literature.
+  - **Why it matters** Overstating causal claims from observational data can mislead the field and lead to inappropriate therapeutic targeting. The paper would be stronger if it clearly distinguished between hypothesis-generating and hypothesis-testing findings.
+  - **Resolution test** Soften causal language throughout. Add a section explicitly stating which claims are correlative and which require functional validation. If possible, include at least one orthogonal validation (e.g., a small perturbation experiment, or comparison with published ChIP-seq data in similar cell types).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, ChromBPNet Analysis
+  - **Evidence pointer** Methods section
+  - **Issue** The description of ChromBPNet training is incomplete. The authors state that models were trained on non-accessible regions and then on accessible regions, but do not specify the number of training epochs, learning rate, batch size, or how overfitting was addressed. The choice of 50,000 seqlets for TF-MoDISco is not justified.
+  - **Required correction** Provide full training details and justify the seqlet sampling number. If these details are in a prior publication, cite it explicitly and state which parameters were used here.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, differential accessibility analyses
+  - **Evidence pointer** Results section "Altered Chromatin accessibility of fibrotic mesenchymal cell populations in SSc-ILD"
+  - **Issue** The text reports numbers of DARs (e.g., 6,002 more accessible in SSc vs 6,693 in control) but does not state the statistical threshold, multiple testing correction method, or whether these were adjusted for covariates such as age, sex, or smoking status.
+  - **Required correction** State the significance threshold, correction method, and covariates included in the model. Consider sensitivity analyses without adjustment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, comparison with prior work
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors mention prior scRNA-seq studies but do not systematically compare their findings with published ATAC-seq or ChIP-seq data in fibrosis. The statement that this is the first large snATAC-seq study of adult healthy and fibrotic lungs should be verified against the literature.
+  - **Required correction** Add a paragraph comparing findings with relevant published datasets and acknowledge any prior snATAC-seq studies in fibrotic tissue.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, overall structure
+  - **Evidence pointer** Results section
+  - **Issue** The results section is dense and lacks clear signposting. The transition from fibroblast to macrophage analyses is abrupt. The use of cluster numbers without biological context makes it difficult for nonspecialists to follow.
+  - **Required correction** Add a brief summary at the end of each subsection. Provide a table listing cluster numbers with corresponding cell types and key markers. Consider a schematic figure summarizing the analytical pipeline.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for TF binding changes), R1-M2 (HALO validation and benchmarking), R1-M3 (data availability and sample metadata)
+- **Assessment against Nature-style criteria** Originality: The combination of ChromBPNet with a novel metacell approach and the focus on TF dynamics in SSc-ILD is original, though the individual components are established. Scientific importance: The question of transcriptional control in fibrosis is important, and a well-validated TF atlas would be a valuable resource. Interdisciplinary readership: The work bridges computational biology and pulmonary fibrosis research, which could attract a broad audience if the methods are made accessible. Technical soundness: Currently not established from the provided text due to missing quantitative details, lack of benchmarking, and incomplete method descriptions. Readability for nonspecialists: The narrative is generally clear but relies heavily on computational jargon and cluster numbers without sufficient biological context.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework and dataset are promising, but the manuscript requires substantial revision to provide quantitative support for the central claims, validate the novel method, and ensure reproducibility. I would be supportive if these technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that ChromBPNet inferred increased TF binding to profibrotic genes is unsupported without quantitative data.
+- The claim that HALO confirmed TF activity is unsupported without method details and benchmarking.
+- The claim of being the largest multiomic lung cell atlas is unverifiable without sample-level metadata and comparison to existing datasets.
+- The causal language ("drive", "control") in the title and discussion is not supported by the correlative analyses presented.
+- The statement that AP-1 binding sites appear as "islands of enhancer binding" without adjacent TF binding is an interpretation not directly testable from the provided text.
+- The relevance of specific genes (e.g., CTHRC1, ADAM12, SPP1, CCL18) is asserted but not quantitatively demonstrated in the visible text.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in silico study of HPV16 E6 reference and five variant proteins docked against a domain-focused model of DLG1 in phosphorylated and non-phosphorylated states. They claim variant-dependent differences in predicted binding affinity, with E-C188/G350 and AAa variants showing stronger predicted binding to non-phosphorylated DLG1, all variants showing reduced affinity for phosphorylated DLG1, and the reference E6 showing comparatively higher predicted binding to phosphorylated DLG1. They interpret these results as suggesting preferential interaction of variants with the cytoplasmic non-phosphorylated DLG1 pool and of the reference with phosphorylated DLG1, and they frame the work as providing predictive structural insights and a framework for future experimental validation.
+- **Visible evidence base** Abstract text only; no methodological details, docking scores, statistical analyses, or structural figures are available
+- **Missing materials affecting confidence** Full text, methods section, docking protocols, scoring functions, validation metrics, structural coordinates, statistical analyses, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting in silico investigation of HPV16 E6 variant interactions with DLG1 in different phosphorylation states. However, the evidence base is limited to a summary of predicted binding affinities with no quantitative data, no methodological detail, and no validation. The central claims are therefore not assessable for technical soundness, and the interpretive leap from docking predictions to biological preference is not supported by the provided material. The work may be of interest to the HPV and PDZ-domain communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying HPV16 oncoprotein variants and their role in cervical cancer, particularly those focused on PDZ-domain interactions and phosphorylation-dependent signaling. The study may also interest computational biologists working on protein-protein docking and variant effect prediction, as it addresses a clinically relevant polymorphism set.
+- **Major strengths** The study addresses a clinically relevant question, namely the differential interaction of HPV16 E6 variants with a key cellular polarity regulator. The inclusion of phosphorylation states adds a biologically meaningful dimension. The focus on non-phosphorylated versus phosphorylated DLG1 pools is a useful framing that could guide experimental design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim variant-dependent differences in predicted binding affinity, with specific variants showing stronger binding to non-phosphorylated DLG1 and reduced affinity for phosphorylated DLG1.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data are presented. The abstract reports qualitative statements such as "stronger predicted binding" and "reduced predicted affinity" without any docking scores, confidence intervals, or statistical comparisons. There is no indication of how many docking runs were performed, which scoring functions were used, or whether the differences exceed the noise of the method.  
+  - **Why it matters** Protein-protein docking predictions are highly sensitive to protocol and scoring function. Without quantitative results and error estimates, the claimed differences cannot be distinguished from methodological artifacts. The central conclusion of variant-dependent binding preference rests entirely on these unquantified predictions.  
+  - **Resolution test** Provide docking scores for all variants and both phosphorylation states, including standard deviations or confidence intervals, and demonstrate that the reported differences are statistically significant and reproducible across multiple scoring functions or docking protocols.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance and interpretation  
+  - **Claim pointer** The authors state that the observations suggest a preferential predicted interaction of E6 variants with the cytoplasmic, non-phosphorylated pool of DLG1, whereas the reference E6 may preferentially interact with phosphorylated DLG1.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract makes an interpretive leap from in silico docking predictions to a biological preference for specific cellular pools of DLG1. Docking predictions do not account for cellular context, local concentrations, competing interactions, or post-translational modifications beyond the single phosphorylation state modeled. The claim of "preferential interaction" is not supported by the evidence presented.  
+  - **Why it matters** The biological interpretation is the main selling point of the study. If the authors wish to claim differential pool preference, they need to either provide additional computational evidence (e.g., free energy calculations, molecular dynamics stability) or clearly frame the results as hypotheses requiring experimental testing. As written, the abstract overstates the implications of the docking results.  
+  - **Resolution test** Rewrite the interpretation to explicitly state that the results are predictive and hypothesis-generating, and either add supporting computational analyses or clearly defer biological interpretation to future experimental validation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness and reproducibility  
+  - **Claim pointer** The study uses "a domain-focused model of DLG1 in phosphorylated and non-phosphorylated states."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are provided on the construction of the DLG1 model, the specific PDZ domain used, the phosphorylation site modeled, or the source of the E6 structures. The choice of a domain-focused model rather than the full-length protein is a significant simplification that could affect the relevance of the results, but the abstract does not justify this choice or describe its limitations.  
+  - **Why it matters** The validity of the docking results depends entirely on the quality and appropriateness of the structural models. Without this information, the reader cannot assess whether the model is representative of the physiological interaction.  
+  - **Resolution test** Provide a detailed description of the model construction, including the specific PDZ domain, the phosphorylation site, the template structures, and a validation of the model against known experimental data.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract uses terms such as "domain-focused model" and "predicted binding affinity" without defining them for readers who may not be familiar with structural biology or docking methodology.  
+  - **Required correction** Briefly define these terms or provide context in the abstract to make the study accessible to a broader readership.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of variant nomenclature  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The variant names "E-C188/G350" and "AAa" are used without explanation of what these designations refer to. Readers unfamiliar with HPV16 E6 variant nomenclature may not understand the significance of these specific variants.  
+  - **Required correction** Provide a brief explanation of the variant nomenclature or a reference to a prior publication that defines these variants.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract does not state how many variants were studied in total beyond the five mentioned, nor does it specify which variants were included in the "all variants" statements.  
+  - **Required correction** Clarify the full list of variants and ensure that statements about "all variants" are unambiguous.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative docking data), R1-M2 (overinterpretation of docking results), R1-M3 (insufficient model description). These are all blocking because the central claims cannot be evaluated without addressing them.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study addresses a specific variant set and phosphorylation state, which is a reasonable niche contribution, but the approach is standard docking and does not introduce a novel methodology. Originality is moderate.  
+  - **Scientific importance** The topic is relevant to HPV biology and cervical cancer, but the abstract does not establish why these specific variants or the phosphorylation state distinction are of broad importance beyond a narrow specialist audience. Importance is moderate.  
+  - **Interdisciplinary readership** The work sits at the interface of virology, structural biology, and computational biology, but the abstract is written in a way that may not attract readers outside these fields. Interdisciplinary appeal is limited.  
+  - **Technical soundness** Not assessable from the abstract. The lack of quantitative data and methodological detail prevents any evaluation of technical rigor.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses jargon without definition, which limits accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but does not provide sufficient quantitative or methodological detail to support the claims. The authors should be encouraged to resubmit with full data, including docking scores, model validation, and a more cautious interpretation of the biological implications.
+
+## Risk / unsupported claims
+- The claim that specific variants show "stronger predicted binding" to non-phosphorylated DLG1 is unsupported because no quantitative docking scores are provided.
+- The claim that "all variants exhibited reduced predicted affinity" for phosphorylated DLG1 is unsupported for the same reason.
+- The claim that the reference E6 "may preferentially interact with phosphorylated DLG1" is an interpretation that goes beyond the docking data presented.
+- The claim that the results "establish a framework for future experimental validation" is reasonable as a statement of intent but is not a scientific claim supported by evidence.
+- The biological interpretation of "preferential interaction with the cytoplasmic, non-phosphorylated pool" is not supported by the abstract-level evidence.

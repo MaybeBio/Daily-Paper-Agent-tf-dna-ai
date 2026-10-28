@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.14.549004",
+  "title": "tfboot: Bootstrapping and statistical analysis for transcription factor binding site-disrupting variants in gene sets",
+  "authors": "Stephen D. Turner; Kathleen Morrill; Gregory Gedman; Alexander J. Titus",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-16",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发R包tfboot，基于motifbreakR对基因集上游启动子区变异进行TFBS破坏的统计评估与自助抽样分析，虽涉及TF-DNA结合位点变异影响，但主要聚焦统计检验而非AI或物理模拟建模，方法可迁移性有限。",
+  "abstract": "Motivation Genetic variants in noncoding regions can drive changes in phenotype disrupting transcription factor binding site (TFBS) motifs. Other tools including motifbreakR have been developed to assess the impact of TFBS-disrupting variants. Here we introduce the tfboot package for statistically evaluating the TFBS disruption across a set of variants in upstream promoter regions. Results The tfboot package builds on motifbreakR, plyranges, and GenomicRanges to provide methods for bootstrapping TFBS disruption to statistically quantify the impact across gene sets of interest compared to an empirical null distribution. We demonstrate the analysis here on variants in the elephant genome. The tfboot package readily integrates with Bioconductor and tidyverse-based workflows. Availability The tfboot package is implemented as an R package and is released under the MIT license at https://github.com/colossal-compsci/tfboot .",
+  "abstract_zh": "动机 非编码区域的遗传变异可通过破坏转录因子结合位点（TFBS）基序来驱动表型变化。包括motifbreakR在内的其他工具已被开发用于评估TFBS破坏性变异的影响。在此，我们介绍tfboot包，用于对上游启动子区域中一组变异的TFBS破坏进行统计评估。结果 tfboot包基于motifbreakR、plyranges和GenomicRanges构建，提供对TFBS破坏进行自助抽样（bootstrapping）的方法，以统计量化与经验零分布相比，目标基因集上的影响。我们在此以大象基因组中的变异为例进行分析。tfboot包可轻松与Bioconductor及基于tidyverse的工作流程集成。可用性 tfboot包以R包形式实现，并在MIT许可下发布，网址为https://github.com/colossal-compsci/tfboot。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.14.549004",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.14.549004",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.14.549004/index.html"
+}

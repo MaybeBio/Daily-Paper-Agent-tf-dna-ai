@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "38261152",
+    "doi": "10.1007/s12033-023-01045-x",
+    "title": "Integrating Machine Learning and Mendelian Randomization Determined a Functional Neurotrophin-Related Gene Signature in Patients with Lower-Grade Glioma."
+  },
+  "content": {
+    "abstract": "Recent researches reported that neurotrophins can promote glioma growth/invasion but the relevant model for predicting patients' survival in Lower-Grade Gliomas (LGGs) lacked. In this study, we adopted univariate Cox analysis, LASSO regression, and multivariate Cox analysis to determine a signature including five neurotrophin-related genes (NTGs), CLIC1, SULF2, TGIF1, TTF2, and WEE1. Two-sample Mendelian Randomization (MR) further explored whether these prognostic-related genes were genetic variants that increase the risk of glioma. A total of 1306 patients have been included in this study, and the results obtained from the training set can be verified by four independent validation sets. The low-risk subgroup had longer overall survival in five datasets, and its AUC values all reached above 0.7. The risk groups divided by the NTGs signature exhibited a distinct difference in targeted therapies from the copy-number variation, somatic mutation, LGG's surrounding microenvironment, and drug response. MR corroborated that TGIF1 was a potential causal target for increasing the risk of glioma. Our study identified a five-NTGs signature that presented an excellent survival prediction and potential biological function, providing new insight for the selection of LGGs therapy.",
+    "keywords": [
+      "Biomarker",
+      "Drug response",
+      "Immunotherapy",
+      "Lower-grade gliomas",
+      "Neurotrophin",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioma/genetics/pathology",
+      "*Machine Learning",
+      "*Mendelian Randomization Analysis",
+      "Nerve Growth Factors/genetics/metabolism",
+      "Brain Neoplasms/genetics/pathology",
+      "Female",
+      "Prognosis",
+      "Male",
+      "DNA Copy Number Variations",
+      "Gene Expression Regulation, Neoplastic",
+      "Sulfotransferases/genetics",
+      "Neoplasm Grading",
+      "Homeodomain Proteins/genetics",
+      "Polymorphism, Single Nucleotide",
+      "Proportional Hazards Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Cong",
+        "Lai, Guichuan",
+        "Deng, Jielian",
+        "Li, Kangjie",
+        "Chen, Liuyi",
+        "Zhong, Xiaoni",
+        "Xie, Biao"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Lai G",
+        "Deng J",
+        "Li K",
+        "Chen L",
+        "Zhong X",
+        "Xie B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7474-4868"
+      ],
+      "affiliations": [
+        "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China.",
+        "The Fifth People's Hospital of Chongqing, Renji Road, Chongqing, 400062, China.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China. zhongxiaoni@cqmu.edu.cn.",
+        "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China. kybiao@cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Cong",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Guichuan",
+        "short_name": "Lai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jielian",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kangjie",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Liuyi",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "The Fifth People's Hospital of Chongqing, Renji Road, Chongqing, 400062, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Xiaoni",
+        "short_name": "Zhong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China. zhongxiaoni@cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xie, Biao",
+        "short_name": "Xie B",
+        "identifiers": [
+          "0000-0002-7474-4868"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Health Statistics, School of Public Health, Chongqing Medical University, Yixue Road, Chongqing, 400016, China. kybiao@cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 12:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42627616",
+      "40474102"
+    ],
+    "refs": [
+      "36549921",
+      "36233273",
+      "35764888",
+      "35569122",
+      "35013211",
+      "34058053",
+      "33959130",
+      "33823014",
+      "33079727",
+      "31881853",
+      "31151904",
+      "30636076",
+      "30127394",
+      "29625067",
+      "29452419",
+      "29328365",
+      "29096244",
+      "29016926",
+      "28959975",
+      "28636851",
+      "28129544",
+      "28052254",
+      "26559592",
+      "25913192",
+      "25765070",
+      "25537019",
+      "22293178",
+      "21376230",
+      "19845400",
+      "19299076",
+      "18710659",
+      "18669428",
+      "18175076",
+      "17696644",
+      "17570034",
+      "17154271",
+      "8450561"
+    ],
+    "similar": [
+      "38261152",
+      "34081618",
+      "33363544",
+      "31247469",
+      "29794476",
+      "32412186",
+      "27738332",
+      "35186111",
+      "31853837",
+      "27840009",
+      "36405708",
+      "33591634",
+      "30077762",
+      "38738989",
+      "33028081",
+      "38824202",
+      "30853516",
+      "31097021",
+      "27677590",
+      "33459509",
+      "39256832",
+      "34726238",
+      "31475440",
+      "34121368",
+      "37748218",
+      "33875619",
+      "33167941",
+      "26369702",
+      "34876094",
+      "31828414",
+      "29016839",
+      "38578883",
+      "30362964",
+      "38658591",
+      "30392137",
+      "33105486",
+      "31408440",
+      "27764782",
+      "29204839",
+      "29729273",
+      "33186124",
+      "29502292",
+      "38573391",
+      "34697421",
+      "36110851",
+      "24614622",
+      "36343057",
+      "34455959",
+      "35115572",
+      "31533943",
+      "31167546",
+      "27052952",
+      "39352539",
+      "37718518",
+      "32757451",
+      "19602686",
+      "39213054",
+      "30894197",
+      "31691122",
+      "33553434",
+      "24204956",
+      "33879726",
+      "24874469",
+      "36045691",
+      "36096781",
+      "28340142",
+      "23119009",
+      "38847472",
+      "34270479",
+      "26191187",
+      "34539626",
+      "34288803",
+      "35964070",
+      "39183405",
+      "32802843",
+      "32065545",
+      "29556911",
+      "24279471",
+      "33760360",
+      "33047900",
+      "32572951",
+      "33750353",
+      "30529899",
+      "25001988",
+      "32964017",
+      "24585490",
+      "32754268",
+      "27811370",
+      "26261539",
+      "25220188",
+      "26614510",
+      "32193643",
+      "23529798",
+      "33228806",
+      "34659218",
+      "35677036",
+      "33063446",
+      "34597473"
+    ],
+    "review": [
+      "38261152",
+      "36045691"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-023-01045-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CLIC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1393",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

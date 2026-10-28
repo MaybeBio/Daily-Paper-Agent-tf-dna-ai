@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "38402348",
+    "doi": "10.1038/s41598-024-55199-y",
+    "title": "Biomarker screening using integrated bioinformatics for the development of \"normal-impaired glucose intolerance-type 2 diabetes mellitus\"."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes mellitus (T2DM) is a progressive disease. We utilized bioinformatics analysis and experimental research to identify biomarkers indicative of the progression of T2DM, aiming for early detection of the disease and timely clinical intervention. Integrating Mfuzz analysis with differential expression analysis, we identified 76 genes associated with the progression of T2DM, which were primarily enriched in signaling pathways such as apoptosis, p53 signaling, and necroptosis. Subsequently, using various analytical methods, including machine learning, we further narrowed down the hub genes to STK17A and CCT5. Based on the hub genes, we calculated the risk score for samples and interestingly found that the score correlated with multiple programmed cell death (PCD) pathways. Animal experiments revealed that the diabetes model exhibited higher levels of MDA and LDH, with lower expression of SOD, accompanied by islet cell apoptosis. In conclusion, our study suggests that during the progression of diabetes, STK17A and CCT5 may contribute to the advancement of the disease by regulating oxidative stress, programmed cell death pathways, and critical signaling pathways such as p53 and MAPK, thereby promoting the death of islet cells. This provides substantial evidence in support of further disease prevention and treatment strategies.",
+    "keywords": [
+      "Bioinformatics",
+      "Developmental process",
+      "Impaired glucose tolerance",
+      "Oxidative stress",
+      "Type 2 diabetes"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Diabetes Mellitus, Type 2/metabolism",
+      "*Glucose Intolerance/metabolism",
+      "Tumor Suppressor Protein p53/genetics",
+      "Biomarkers",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Dongqiang",
+        "Gao, Xiaolu",
+        "Zhu, Xianqiong",
+        "Xu, Jiongbo",
+        "Gao, Pengfei",
+        "Zou, Jiayi",
+        "Fan, Qiaoming",
+        "Xu, Ying",
+        "Liu, Tian"
+      ],
+      "short_names": [
+        "Luo D",
+        "Gao X",
+        "Zhu X",
+        "Xu J",
+        "Gao P",
+        "Zou J",
+        "Fan Q",
+        "Xu Y",
+        "Liu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China.",
+        "Yunkang School of Medicine and Health, Nanfang College Guangzhou, Guangzhou, 510000, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China.",
+        "Foshan Hospital of Traditional Chinese Medicine, Foshan, 528000, China.",
+        "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China.",
+        "Foshan Hospital of Traditional Chinese Medicine, Foshan, 528000, China. liutianfzy@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Dongqiang",
+        "short_name": "Luo D",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaolu",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xianqiong",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jiongbo",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Pengfei",
+        "short_name": "Gao P",
+        "identifiers": [],
+        "affiliations": [
+          "Yunkang School of Medicine and Health, Nanfang College Guangzhou, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Jiayi",
+        "short_name": "Zou J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Qiaoming",
+        "short_name": "Fan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Foshan Hospital of Traditional Chinese Medicine, Foshan, 528000, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ying",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou University of Chinese Medicine, Guangzhou, 510000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tian",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Foshan Hospital of Traditional Chinese Medicine, Foshan, 528000, China. liutianfzy@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Feb 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/25 00:42",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "42094611",
+      "40993627",
+      "39850446",
+      "39702812"
+    ],
+    "refs": [
+      "38868713",
+      "37455460",
+      "36300620",
+      "35601830",
+      "35562334",
+      "35503215",
+      "35432196",
+      "35298263",
+      "33748504",
+      "32778143",
+      "32681241",
+      "31441146",
+      "31434711",
+      "30655319",
+      "30342374",
+      "29248440",
+      "29179880",
+      "28985560",
+      "28845211",
+      "28190580",
+      "28180059",
+      "27973759",
+      "27927749",
+      "27446402",
+      "27225690",
+      "26947067",
+      "26923269",
+      "25995452",
+      "25743109",
+      "25605792",
+      "24684389",
+      "23993415",
+      "23720375",
+      "23612981",
+      "23323831",
+      "23161153",
+      "23041314",
+      "23006423",
+      "22333133",
+      "20808728",
+      "20652307",
+      "18084642",
+      "16821082",
+      "16756490",
+      "15807660",
+      "15001782",
+      "14759162",
+      "14597658",
+      "12525261",
+      "12519996",
+      "11333990",
+      "10592173",
+      "9786912",
+      "7773752"
+    ],
+    "similar": [
+      "38402348",
+      "38851464",
+      "36675322",
+      "40202151",
+      "18832086",
+      "36470401",
+      "39936105",
+      "38532421",
+      "16125528",
+      "33728329",
+      "17686259",
+      "38703871",
+      "32159245",
+      "19843874",
+      "39375405",
+      "38034011",
+      "39501130",
+      "32229246",
+      "17209802",
+      "26739974",
+      "36828194",
+      "37556419",
+      "25994591",
+      "32554484",
+      "32705173",
+      "31018536",
+      "39804507",
+      "31822116",
+      "27740930",
+      "38169604",
+      "31219767",
+      "34245428",
+      "39080630",
+      "39634181",
+      "39915429",
+      "31746360",
+      "37512131",
+      "39633111",
+      "37688646",
+      "29185012",
+      "30592787",
+      "31025261",
+      "28316001",
+      "26623647",
+      "39691970",
+      "37140844",
+      "20509034",
+      "27197857",
+      "39749331",
+      "31088900",
+      "32846191",
+      "39733138",
+      "40211718",
+      "23973197",
+      "29723228",
+      "23620135",
+      "29432659",
+      "26020947",
+      "31728736",
+      "34678488",
+      "39654602",
+      "31828159",
+      "35271662",
+      "40019588",
+      "28489279",
+      "33957209",
+      "36368953",
+      "28365312",
+      "34391847",
+      "40304990",
+      "29305826",
+      "35402578",
+      "39015570",
+      "24931701",
+      "38886539",
+      "40300201",
+      "20147607",
+      "22136882",
+      "36232497",
+      "31815137",
+      "32041280",
+      "39837449",
+      "39798693",
+      "27613337",
+      "39213224",
+      "20697688",
+      "38218538",
+      "39627301",
+      "33636476",
+      "19375581",
+      "30455334",
+      "27356529",
+      "37223013",
+      "36096037",
+      "38452412",
+      "34623331",
+      "35650387",
+      "19118408",
+      "34185410",
+      "31524257"
+    ],
+    "review": [
+      "38402348",
+      "30592787",
+      "28489279",
+      "22136882"
+    ],
+    "pmc": [
+      "10894242"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-55199-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38402348/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38402348",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

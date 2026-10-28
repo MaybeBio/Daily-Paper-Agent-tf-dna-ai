@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.15.694070",
+  "title": "Regulatory network hubs guide dynamic human lineage specification",
+  "doi": "10.64898/2025.12.15.694070",
+  "abstract": "Transcription factors (TFs), including DNA binding proteins and epigenetic co-regulators, control the timing of gene programs during lineage commitment 1 . However, systematically defining the dynamic activities of the human genome’s nearly 2000 TFs during development remains challenging 2,3 . Here, we use Perturb-Seq to map the transcriptional impact of nearly all human TFs and a subset of enhancers during cardiomyocyte differentiation. Our results suggest that developmental regulatory networks are distributed across highly connected hub TFs 4–6 that are dynamic across lineage and time, rather than organizing into top-down hierarchies directed by “master regulators”. We also identify distinct TF ensembles that regulate sequential decision points during cardiac cell-fate specification by coordinating lineage-specific activation with alternate lineage repression. Separately, analysis of TF-TF cooperativity uncovers a dynamic interaction between MEF2 family TFs 7 and members of the Polycomb Repressive complex 1 8–10 to execute alternative fate repression. Building on these regulatory interactions, we construct a deep learning transformer model to accurately predict perturbed TFs driving altered regulatory networks in patient-derived transcriptomes. Together, our results define the regulatory network architecture of human lineage specification and provide a platform for predicting TF function and interpreting disease mechanisms.",
+  "authors": [
+    "Takeuchi C",
+    "Sivakumar S",
+    "Sundarrajan A",
+    "Wang Y",
+    "Goetsch SC",
+    "Zhao H",
+    "Wang L",
+    "Nzima M",
+    "Deng M",
+    "Kulkarni KN",
+    "Xu L",
+    "Wu J",
+    "Posner BA",
+    "Chahrour MH",
+    "Kraus WL",
+    "Munshi NV",
+    "Hon GC"
+  ],
+  "published_date": "2025-12-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694070",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694070.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1229085",
+    "raw_record": {
+      "id": "PPR1229085",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.15.694070",
+      "title": "Regulatory network hubs guide dynamic human lineage specification",
+      "authorString": "Takeuchi C, Sivakumar S, Sundarrajan A, Wang Y, Goetsch SC, Zhao H, Wang L, Nzima M, Deng M, Kulkarni KN, Xu L, Wu J, Posner BA, Chahrour MH, Kraus WL, Munshi NV, Hon GC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Takeuchi C",
+            "lastName": "Takeuchi",
+            "firstName": "Chikara",
+            "initials": "C"
+          },
+          {
+            "fullName": "Sivakumar S",
+            "lastName": "Sivakumar",
+            "firstName": "Sushama",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sundarrajan A",
+            "lastName": "Sundarrajan",
+            "firstName": "Anjana",
+            "initials": "A"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yihan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Goetsch SC",
+            "lastName": "Goetsch",
+            "firstName": "Sean",
+            "initials": "SC"
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Huan",
+            "initials": "H"
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Lei",
+            "initials": "L"
+          },
+          {
+            "fullName": "Nzima M",
+            "lastName": "Nzima",
+            "firstName": "Mpathi",
+            "initials": "M"
+          },
+          {
+            "fullName": "Deng M",
+            "lastName": "Deng",
+            "firstName": "Minnie",
+            "initials": "M"
+          },
+          {
+            "fullName": "Kulkarni KN",
+            "lastName": "Kulkarni",
+            "firstName": "Kartik",
+            "initials": "KN"
+          },
+          {
+            "fullName": "Xu L",
+            "lastName": "Xu",
+            "firstName": "Lin",
+            "initials": "L"
+          },
+          {
+            "fullName": "Wu J",
+            "lastName": "Wu",
+            "firstName": "Jun",
+            "initials": "J"
+          },
+          {
+            "fullName": "Posner BA",
+            "lastName": "Posner",
+            "firstName": "Bruce",
+            "initials": "BA"
+          },
+          {
+            "fullName": "Chahrour MH",
+            "lastName": "Chahrour",
+            "firstName": "Maria",
+            "initials": "MH"
+          },
+          {
+            "fullName": "Kraus WL",
+            "lastName": "Kraus",
+            "firstName": "Lee",
+            "initials": "WL"
+          },
+          {
+            "fullName": "Munshi NV",
+            "lastName": "Munshi",
+            "firstName": "Nikhil",
+            "initials": "NV"
+          },
+          {
+            "fullName": "Hon GC",
+            "lastName": "Hon",
+            "firstName": "Gary",
+            "initials": "GC"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Transcription factors (TFs), including DNA binding proteins and epigenetic co-regulators, control the timing of gene programs during lineage commitment  1 . However, systematically defining the dynamic activities of the human genome’s nearly 2000 TFs during development remains challenging  2,3 . Here, we use Perturb-Seq to map the transcriptional impact of nearly all human TFs and a subset of enhancers during cardiomyocyte differentiation. Our results suggest that developmental regulatory networks are distributed across highly connected hub TFs  4–6 that are dynamic across lineage and time, rather than organizing into top-down hierarchies directed by “master regulators”. We also identify distinct TF ensembles that regulate sequential decision points during cardiac cell-fate specification by coordinating lineage-specific activation with alternate lineage repression. Separately, analysis of TF-TF cooperativity uncovers a dynamic interaction between MEF2 family TFs  7 and members of the Polycomb Repressive complex 1  8–10 to execute alternative fate repression. Building on these regulatory interactions, we construct a deep learning transformer model to accurately predict perturbed TFs driving altered regulatory networks in patient-derived transcriptomes. Together, our results define the regulatory network architecture of human lineage specification and provide a platform for predicting TF function and interpreting disease mechanisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.15.694070"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-17",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

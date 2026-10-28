@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusions) as provided by the user. No supplementary files, figures, or tables were accessible.
+- **Assessment boundary** The review is limited to the content of the supplied text. Claims regarding figures, tables, and supplementary materials are assessed based on their description in the text only, as the actual data were not available for inspection.
+- **Shared manuscript claim summary** The authors report the computational screening of a 59,319-member peptide library against the YAP-TEAD4 interface using a pharmacophore model, molecular docking, and interaction analysis. Four candidate peptides were selected, and peptide-4 was reported to have the lowest dissociation constant (Kd = 5.08 ± 0.42 nM) for TEAD4 as measured by microscale thermophoresis (MST), stable binding in 50 ns molecular dynamics simulations, an IC50 of 0.65 ± 0.04 μM against AML-193 cells in MTT assays, and downregulation of CTGF and CYR61 mRNA expression in RT-qPCR experiments. The authors conclude that peptide-4 is a promising candidate for disrupting YAP-TEAD4 interaction in AML.
+- **Visible evidence base** Text descriptions of methods and results. No raw data, figures, tables, or supplementary information were provided for direct verification.
+- **Missing materials affecting confidence** All figures (Figures 1–7), tables (Tables 1–2, S1–S4), and supplementary figures (Figure S1–S2) were not provided. Raw MST binding curves, docking scores, MD trajectory analyses, MTT dose-response data, and RT-qPCR quantification data were not accessible. Statistical details (exact p-values, error bar definitions, number of replicates) were not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the development of peptide inhibitors targeting the YAP-TEAD4 protein-protein interaction for acute myeloid leukaemia. The computational workflow combining pharmacophore modelling, virtual screening, and molecular docking is reasonable and follows established practices in the field. However, the experimental validation is limited to a single cell line (AML-193) and a narrow set of assays. The most significant weakness is the absence of a direct demonstration that peptide-4 disrupts the YAP-TEAD4 interaction in cells, such as co-immunoprecipitation, cellular thermal shift assay, or a YAP/TEAD reporter assay. The link between the reported Kd value and the observed anti-proliferative effect is therefore correlative rather than mechanistic. The manuscript would be strengthened by additional orthogonal binding assays, a broader cellular panel, and evidence of on-target engagement.
+- **Who would be interested in the results, and why** Researchers working on YAP/TEAD biology, protein-protein interaction inhibitors, peptide therapeutics, and targeted therapies for acute myeloid leukaemia. The computational screening approach may also be of interest to investigators in structure-based drug design. The findings could inform future medicinal chemistry efforts aimed at optimising peptide-4 or related analogues.
+- **Major strengths** The study addresses a clinically relevant target with a clear rationale for peptide-based intervention. The computational screening strategy is systematic and includes model validation metrics (enrichment factor, GH score). The use of multiple computational methods (pharmacophore, docking, MD, MM/PBSA) provides a layered approach to candidate selection. The identification of specific binding residues (Gln246, Asp249, Lys250, Lys274, Tyr406) offers a useful framework for future optimisation. The reported Kd value in the low nanomolar range is encouraging if reproducible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and mechanistic evidence
+  - **Claim pointer** The authors claim that peptide-4 disrupts the YAP-TEAD4 interaction and exhibits anti-AML activity based on binding affinity and cell viability data.
+  - **Evidence pointer** MST assay (Methods), MTT assay (Results), RT-qPCR (Results)
+  - **Concern** The manuscript does not provide direct evidence that peptide-4 disrupts the YAP-TEAD4 interaction in a cellular context. The Kd value measured by MST demonstrates binding to recombinant TEAD4 protein, but this does not establish that the peptide can compete with full-length YAP for TEAD4 binding inside cells. No co-immunoprecipitation, pull-down, fluorescence polarisation competition assay, or YAP/TEAD transcriptional reporter assay was described. The observed reduction in CTGF and CYR61 mRNA levels is consistent with YAP-TEAD inhibition but could also result from off-target effects or general cytotoxicity.
+  - **Why it matters** The central premise of the manuscript is that peptide-4 acts by disrupting the YAP-TEAD4 interaction. Without direct evidence of on-target engagement in cells, the mechanism of action remains unsubstantiated. This is a critical gap that affects the interpretation of all downstream cellular data.
+  - **Resolution test** Provide a competition assay (e.g., fluorescence polarisation or MST with unlabelled YAP peptide) demonstrating that peptide-4 competes with YAP for TEAD4 binding. In cells, show that peptide-4 disrupts the YAP-TEAD4 complex by co-immunoprecipitation or proximity ligation assay. Alternatively, use a TEAD luciferase reporter assay to demonstrate pathway inhibition at concentrations consistent with the IC50.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** The authors imply that peptide-4 is a selective inhibitor of the YAP-TEAD4 interaction, but no selectivity data are presented.
+  - **Evidence pointer** MST assay (Methods), MTT assay (Results)
+  - **Concern** No experiments were performed to assess the selectivity of peptide-4 for TEAD4 over other TEAD family members (TEAD1, TEAD2, TEAD3) or other YAP-binding partners. Given that YAP interacts with multiple transcription factors and that TEAD proteins share high sequence homology in their YAP-binding domains, selectivity is a significant concern. Additionally, the MTT assay was performed only on AML-193 cells; no non-malignant control cell line was included to assess general cytotoxicity.
+  - **Why it matters** A lack of selectivity data makes it impossible to determine whether the observed anti-proliferative effects are due to YAP-TEAD4 inhibition or to broader, non-specific effects. This is essential for evaluating the therapeutic potential of the peptide.
+  - **Resolution test** Measure binding of peptide-4 to TEAD1, TEAD2, TEAD3, and TEAD4 by MST or surface plasmon resonance. Include a non-malignant cell line (e.g., normal haematopoietic cells or a non-AML cell line) in the MTT assays to assess selectivity for cancer cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors report specific numerical values for Kd, IC50, and binding free energies, but the underlying data are not available for verification.
+  - **Evidence pointer** Tables 2, Figure S1, Figure S2, Figure 5
+  - **Concern** The manuscript refers to figures and tables that were not provided. Key data, including MST binding curves, dose-response curves, MD trajectory plots, and MM/PBSA energy components, are not accessible. The statistical analysis section is brief and does not specify the number of independent experiments, the statistical test used for each comparison, or how error bars were calculated.
+  - **Why it matters** Without access to the primary data, the reliability of the reported values cannot be assessed. This limits the ability of reviewers and readers to evaluate the robustness of the findings.
+  - **Resolution test** Provide all figures and tables in a reviewable format. Specify the number of replicates, the statistical tests used, and the definition of error bars for each experiment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance of the cellular model
+  - **Claim pointer** The authors conclude that peptide-4 has anti-AML activity based on studies in a single AML cell line.
+  - **Evidence pointer** MTT assay (Methods), RT-qPCR (Results)
+  - **Concern** The study uses only one AML cell line (AML-193). No other AML cell lines, primary patient samples, or in vivo models were tested. AML is a heterogeneous disease, and responses to therapeutic agents can vary widely across genetic subtypes. The use of a single cell line is insufficient to support the conclusion that peptide-4 has general anti-AML activity.
+  - **Why it matters** The conclusion that peptide-4 is a promising anti-AML candidate requires evidence that its activity is not cell-line-specific. Broader testing is needed to establish generalisability.
+  - **Resolution test** Test peptide-4 in additional AML cell lines representing different genetic subtypes (e.g., MOLM-13, MV4-11, THP-1) and, if possible, in primary AML patient samples. Include a non-AML haematopoietic cell line as a control.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states that peptide-4 "may serve as a promising candidate" but does not mention the limitations of the study, such as the lack of cellular mechanistic data. The introduction contains some redundancy in describing the challenges of targeting YAP-TEAD4.
+  - **Required correction** Briefly note in the abstract that the mechanism of action in cells remains to be established. Streamline the introduction to avoid repetition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MST assay section
+  - **Evidence pointer** Methods, MST assay
+  - **Concern** The MST assay description lacks important experimental details, such as the concentration range of the peptide, the concentration of labelled TEAD4, the buffer composition, and the number of independent replicates.
+  - **Required correction** Provide full experimental conditions for the MST assay, including protein concentration, peptide concentration range, buffer composition, and replicate number.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5
+  - **Concern** The description of Figure 5 panels (F) and (G) is unclear. The text states that these panels show residue-specific energy contributions, but it is not clear whether these are per-residue decomposition values or averaged over the simulation.
+  - **Required correction** Clarify the exact quantity plotted in Figure 5(F) and (G) and describe how these values were calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistics section
+  - **Evidence pointer** Statistics section
+  - **Concern** The statistics section states that one-way ANOVA was used, but it does not specify which comparisons were made, whether post-hoc tests were performed, or how the data met the assumptions of ANOVA.
+  - **Required correction** Provide a detailed description of the statistical analysis, including the comparisons tested, post-hoc corrections, and the number of replicates per condition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The phrase "the core sequence of YAP that interacts with TEAD4 is P85MRLRKLPDSFFKPP99" is presented without a citation or experimental validation in this study. The relevance of this sequence to the design of peptide-4 is not clearly explained.
+  - **Required correction** Provide a citation for the YAP core sequence and explain how this sequence informed the design or selection of peptide-4.
+- **Technical failings that need to be addressed before the case is established** The absence of direct evidence for YAP-TEAD4 disruption in cells (R1-M1) is the primary technical failing. The lack of selectivity data (R1-M2) is a secondary but important gap. The limited cellular model (R1-M4) further weakens the conclusions. These issues must be addressed before the claim that peptide-4 is a promising anti-AML candidate can be considered established.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of pharmacophore-based virtual screening to identify YAP-TEAD4 peptide inhibitors is not entirely novel, as similar approaches have been reported for other PPIs. However, the specific focus on AML and the identification of a new peptide sequence may offer some novelty.
+  - Scientific importance: Moderate. YAP-TEAD4 is a validated cancer target, and improved inhibitors are of interest. However, the study does not provide a significant conceptual advance or a substantially improved inhibitor compared to existing tools.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to researchers in drug discovery, peptide chemistry, and YAP/TEAD biology. It is unlikely to attract broad readership across disciplines.
+  - Technical soundness: The computational methods are standard and appear sound, but the experimental validation is incomplete. The lack of cellular mechanistic data and selectivity assessment are significant technical weaknesses.
+  - Readability for nonspecialists: The manuscript is generally readable, but some sections (e.g., MM/PBSA calculations) assume familiarity with computational chemistry concepts. The abstract could be clearer about the limitations of the study.
+- **Recommendation posture** Currently not established from the provided evidence. The computational findings are promising, but the experimental validation is insufficient to support the central claim that peptide-4 disrupts YAP-TEAD4 interaction and has anti-AML activity. The manuscript would require major revisions, including additional experiments, before the case is made.
+
+## Risk / unsupported claims
+- The claim that peptide-4 "disrupts the YAP-TEAD4 interaction" is not directly supported by any experiment. The MST data show binding to TEAD4, but not competition with YAP.
+- The claim that peptide-4 has "anti-AML cell activity" is based on a single cell line (AML-193) and a single assay (MTT). This is insufficient to establish anti-AML activity.
+- The claim that peptide-4 downregulates CTGF and CYR61 mRNA expression is presented, but the data are not available for verification, and the mechanistic link to YAP-TEAD4 disruption is not established.
+- The statement that peptide-4 has "favourable physicochemical properties" is based on computational predictions only, which have not been experimentally validated.
+- The conclusion that peptide-4 is a "promising candidate for anti-AML therapy" is overstated given the limited experimental evidence.

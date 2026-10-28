@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "40860289",
+    "doi": "10.1155/humu/1743829",
+    "title": "Computational Analyses Identified Three Diagnostic Biomarkers Associated With Programmed Cell Death for Lung Adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Background: The high morbidity and mortality of lung adenocarcinoma (LUAD) are partly caused by a lack of sensitive and reliable molecular markers for early diagnosis. Programmed cell death (PCD) is a crucial process involved in tumorigenesis and immune regulation, and identifying PCD-correlated genes may contribute to the precision diagnosis and targeted therapy of LUAD. Methods: LUAD samples were acquired from UCSC Xena and Gene Expression Omnibus (GEO) database. PCD-correlated module genes were identified by WGCNA. \"Limma\" package was employed for screening differentially expressed genes (DEGs) between LUAD and control samples, followed by conducting functional enrichment analysis with \"ClusterProfiler\" package. Hub genes were selected through machine learning algorithms. Biomarkers for LUAD were screened and further validated by receiver operating characteristic (ROC) analysis. The robustness of the diagnostic model was verified by the confusion matrix. Immune cell infiltration was assessed employing \"ESTIMATE\" and \"GSVA\" packages. HALLMARK pathway score was calculated with the \"GSVA\" package. Transcription factor (TF)-biomarker-chemical network was established using NetworkAnalyst and Cytoscape software. The expressions of the biomarkers in LUAD cells were detected by in vitro experiments. The viability, migration, and invasion of the LUAD cells were measured by CCK-8, wound healing, and Transwell assays. Results: We identified 160 module genes and 5934 DEGs. Then, eight hub genes were selected applying LASSO and support vector machine-recursive feature elimination (SVM-RFE) analyses. Further, FGR, TLR4, and NLRC4, which showed an area under the ROC curve (AUC) > 0.7, were determined as the diagnostic biomarkers for LUAD. Interestingly, they were all low expressed in LUAD samples. We developed a diagnostic model that demonstrated robust performance in distinguishing LUAD samples from normal controls. The three biomarkers showed positive correlation to the infiltration of most immune cells and enrichment in HALLMARK pathways associated with inflammation, immune regulation, and cytokine signaling. Moreover, nine TFs and nine small-molecule compounds targeting the three biomarkers were predicted to construct a TF-biomarker-chemical network. Functional validation revealed that all the three biomarkers were significantly downregulated in LUAD cells. Notably, FGR overexpression markedly suppressed LUAD cell proliferation, migration, and invasion. Conclusion: This study identified three PCD-related biomarkers for LUAD diagnosis, providing new potential therapeutic targets.",
+    "keywords": [
+      "biomarker",
+      "diagnostic model",
+      "immune cell infiltration",
+      "lung adenocarcinoma",
+      "machine learning",
+      "programmed cell death"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Adenocarcinoma of Lung/genetics/diagnosis/pathology/metabolism",
+      "*Biomarkers, Tumor/genetics",
+      "*Lung Neoplasms/genetics/diagnosis/pathology/metabolism",
+      "*Computational Biology/methods",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "*Apoptosis/genetics",
+      "Gene Expression Profiling",
+      "Cell Line, Tumor",
+      "ROC Curve",
+      "Cell Movement/genetics",
+      "Toll-Like Receptor 4/genetics/metabolism",
+      "Databases, Genetic",
+      "Cell Proliferation/genetics",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Ting",
+        "Jia, Bin",
+        "Lv, Hui",
+        "Zeng, Lili",
+        "Zhong, Diansheng"
+      ],
+      "short_names": [
+        "Gong T",
+        "Jia B",
+        "Lv H",
+        "Zeng L",
+        "Zhong D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9839-9747",
+        "ORCID: 0000-0002-3712-9225",
+        "ORCID: 0000-0002-2685-2442"
+      ],
+      "affiliations": [
+        "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Lung Cancer, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Ting",
+        "short_name": "Gong T",
+        "identifiers": [
+          "0000-0002-9839-9747"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Bin",
+        "short_name": "Jia B",
+        "identifiers": [
+          "0000-0002-3712-9225"
+        ],
+        "affiliations": [
+          "Department of Lung Cancer, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin's Clinical Research Center for Cancer, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Hui",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Lili",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Diansheng",
+        "short_name": "Zhong D",
+        "identifiers": [
+          "0000-0002-2685-2442"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human mutation"
+    ],
+    "journal_abbrev": [
+      "Hum Mutat"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 20:46",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39302522",
+      "39281570",
+      "39264392",
+      "38829148",
+      "38765119",
+      "38711508",
+      "38682187",
+      "38601619",
+      "38409471",
+      "38389415",
+      "38348277",
+      "38225945",
+      "38182978",
+      "37985432",
+      "37974210",
+      "37969280",
+      "37962376",
+      "37902887",
+      "37722290",
+      "37715019",
+      "37671155",
+      "37650010",
+      "37565732",
+      "37559628",
+      "37454542",
+      "37424293",
+      "37378675",
+      "37123398",
+      "37077542",
+      "37034213",
+      "36876834",
+      "36437954",
+      "36419650",
+      "36341760",
+      "36246613",
+      "36233273",
+      "36169237",
+      "35820363",
+      "35713779",
+      "35685240",
+      "35675043",
+      "35432318",
+      "35426771",
+      "35194016",
+      "35135563",
+      "34498165",
+      "34131259",
+      "33839701",
+      "32705271",
+      "30948788",
+      "29559623",
+      "28521455",
+      "28484456",
+      "28052254",
+      "25758555"
+    ],
+    "similar": [
+      "40860289",
+      "39553728",
+      "40313958",
+      "38848833",
+      "41169155",
+      "39823156",
+      "39082346",
+      "39375639",
+      "39928198",
+      "39281570",
+      "39071134",
+      "41409294",
+      "38755183",
+      "41430351",
+      "33398330",
+      "41285333",
+      "40320470",
+      "33134373",
+      "37378675",
+      "35713363",
+      "34397869",
+      "33029085",
+      "30777071",
+      "40594106",
+      "40830558",
+      "40221448",
+      "32769881",
+      "40595823",
+      "32741804",
+      "38910478",
+      "40307363",
+      "40181976",
+      "38142454",
+      "32556504",
+      "39333719",
+      "41184881",
+      "39390580",
+      "32323809",
+      "40997906",
+      "40953006",
+      "38764064",
+      "34017995",
+      "32578582",
+      "41500779",
+      "39375405",
+      "41409293",
+      "39312319",
+      "39068752",
+      "40826767",
+      "41310864",
+      "41239716",
+      "39586719",
+      "33979320",
+      "34175738",
+      "39516442",
+      "38514598",
+      "41300841",
+      "40901831",
+      "40412340",
+      "39334033",
+      "40256740",
+      "39438534",
+      "40936767",
+      "34774014",
+      "32384511",
+      "41495694",
+      "41445727",
+      "41205056",
+      "39220139",
+      "40686517",
+      "39346927",
+      "33130972",
+      "40594252",
+      "40341189",
+      "32298601",
+      "41162544",
+      "39177130",
+      "41423496",
+      "40469299",
+      "38863714",
+      "40682067",
+      "40330698",
+      "40547013",
+      "31698633",
+      "38682187",
+      "41479901",
+      "41169393",
+      "34335635",
+      "40936758",
+      "41044520",
+      "33387038",
+      "38268224",
+      "34592886",
+      "39344317",
+      "33126397",
+      "39142001",
+      "34112123",
+      "41146237",
+      "40171815",
+      "39780110"
+    ],
+    "review": [
+      "40860289"
+    ],
+    "pmc": [
+      "12375862"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40860289/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1155/humu/1743829",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

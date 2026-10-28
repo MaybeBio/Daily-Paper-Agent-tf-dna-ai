@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "35400998",
+    "doi": "10.2147/COPD.S352392",
+    "title": "ZNF143 Expression is Associated with COPD and Tumor Microenvironment in Non-Small Cell Lung Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic obstructive pulmonary disease (COPD) is an inflammatory-related disease highly associated with increased lung cancer risk. Studies have explored the tumor promoting roles for zinc finger protein 143 (ZNF143). However, the role of ZNF143 in COPD and tumor microenvironment of non-small cell lung cancer (NSCLC) has not been fully elucidated. METHODS: COPD-related key genes were identified by differential gene expression evaluation, WGCNA and SVM-RFE analysis using mRNA expression data retrieved from public databases. ROC analysis was conducted to evaluate the diagnostic value of ZNF143. Correlation between ZNF143 and clinic-pathological features, associations with tumor-infiltrating immune cells (TICs) and the relationship with predictors of immunotherapy efficacy were explored. ZNF143 gene expression was validated by qRT-PCR using an independent cohort. RESULTS: Bioinformatic and machine learning analysis showed that ZNF143 was a COPD-related gene. ZNF143 expression was significantly upregulated in COPD and is a potential diagnostic biomarker in COPD with AUC > 0.85. ZNF143 expression was significantly upregulated in lung squamous cell carcinoma (LUSC) and lung adenocarcinoma (LUAD). ZNF143 expression levels were significantly higher in LUAD patients with COPD relative to the levels in patients only with LUAD. Upregulation of ZNF143 in patients with comorbidity of NSCLC and COPD was further confirmed by qRT-PCR analysis. High expression of ZNF143 was significantly correlated with advanced TNM stage in LUSC. High ZNF143 expression was associated with activated TICs in both LUAD and LUSC samples. Moreover, ZNF143 expression was significantly correlated with the levels of several known predictors of immunotherapy efficacy, including PD-L1, PD-L2, TMB and TIDE in NSCLC. CONCLUSION: ZNF143 is a novel COPD biomarker. High expression level of ZNF143 is associated with immune microenvironment and high risk of progression of COPD to NSCLC.",
+    "keywords": [
+      "COPD",
+      "NSCLC",
+      "PD-L1",
+      "ZNF143",
+      "bioinformatic",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "*Adenocarcinoma of Lung/genetics",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/pathology",
+      "*Carcinoma, Squamous Cell/pathology",
+      "Humans",
+      "*Lung Neoplasms/pathology",
+      "Prognosis",
+      "*Pulmonary Disease, Chronic Obstructive/diagnosis/genetics",
+      "Trans-Activators/genetics",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Zhenxing",
+        "Yin, Yan",
+        "Liu, Bin",
+        "Wang, Lei",
+        "Chen, Miaomiao",
+        "Zhu, Yue",
+        "Zhang, Hong",
+        "Sun, Daqiang",
+        "Qin, Jianwen"
+      ],
+      "short_names": [
+        "Feng Z",
+        "Yin Y",
+        "Liu B",
+        "Wang L",
+        "Chen M",
+        "Zhu Y",
+        "Zhang H",
+        "Sun D",
+        "Qin J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Department of Radiology, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Department of Thoracic Surgery, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China.",
+        "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Zhenxing",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Yan",
+        "short_name": "Yin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Miaomiao",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yue",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Daqiang",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qin, Jianwen",
+        "short_name": "Qin J",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory and Critical Care Medicine, Tianjin Chest Hospital, Tianjin, 300222, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of chronic obstructive pulmonary disease"
+    ],
+    "journal_abbrev": [
+      "Int J Chron Obstruct Pulmon Dis"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/12 06:00",
+    "fetched_at": "2026-09-28 07:22:03"
+  },
+  "links": {
+    "cites": [
+      "42351012",
+      "41863663",
+      "41339427",
+      "41137279",
+      "39845878",
+      "39677829",
+      "38610929",
+      "37423952",
+      "37057359"
+    ],
+    "refs": [
+      "35116426",
+      "34682416",
+      "33816230",
+      "33791201",
+      "33717076",
+      "33576264",
+      "33449451",
+      "33442399",
+      "33402498",
+      "33122306",
+      "32753902",
+      "32730093",
+      "32528874",
+      "32318100",
+      "31912902",
+      "31414580",
+      "30564892",
+      "30392114",
+      "30181337",
+      "30127393",
+      "29518341",
+      "29065970",
+      "28934595",
+      "28912897",
+      "28420421",
+      "28341226",
+      "28287180",
+      "28252315",
+      "28192620",
+      "28038981",
+      "27445471",
+      "27434033",
+      "27300529",
+      "27174888",
+      "27006378",
+      "26477306",
+      "26412456",
+      "26176936",
+      "26028407",
+      "25838373",
+      "24736586",
+      "24272431",
+      "22588877",
+      "21940491",
+      "20860770",
+      "19196816",
+      "19114008"
+    ],
+    "similar": [
+      "35400998",
+      "39390580",
+      "35150321",
+      "37091844",
+      "31159869",
+      "35951452",
+      "36536539",
+      "34112123",
+      "33549049",
+      "35212236",
+      "38867248",
+      "32965722",
+      "34745015",
+      "38851806",
+      "30066858",
+      "32795325",
+      "36308553",
+      "37985446",
+      "29722145",
+      "31290993",
+      "33256552",
+      "32209727",
+      "29518341",
+      "27623992",
+      "35126788",
+      "34887858",
+      "33979899",
+      "35068350",
+      "31746315",
+      "32944405",
+      "32742444",
+      "35140113",
+      "34257525",
+      "34172784",
+      "34238200",
+      "30391462",
+      "34781123",
+      "37395022",
+      "37158648",
+      "33084541",
+      "34923982",
+      "33717076",
+      "33910273",
+      "33582208",
+      "37398676",
+      "24571613",
+      "34992687",
+      "35918384",
+      "31546072",
+      "31931443",
+      "35770846",
+      "28223168",
+      "34539658",
+      "38422959",
+      "32437446",
+      "37567864",
+      "36544755",
+      "34746975",
+      "34764821",
+      "39113235",
+      "19841986",
+      "36612193",
+      "34175739",
+      "34729658",
+      "30626401",
+      "34245041",
+      "34887263",
+      "31644929",
+      "35842613",
+      "36008393",
+      "32120230",
+      "31837325",
+      "34250747",
+      "35399232",
+      "29650000",
+      "36944625",
+      "32602900",
+      "33214079",
+      "35331963",
+      "30317601",
+      "29191607",
+      "33059196",
+      "34298439",
+      "34117717",
+      "36272177",
+      "31812070",
+      "30575913",
+      "30267840",
+      "30253973",
+      "38627776",
+      "29510096",
+      "27655285",
+      "31553229",
+      "32700817",
+      "36922519",
+      "30638934",
+      "33949150",
+      "33230935",
+      "32222046",
+      "38273291",
+      "29269008",
+      "29088286",
+      "33973529",
+      "36105402",
+      "30549039",
+      "29394946",
+      "35173484",
+      "33860055",
+      "36232866",
+      "35584864",
+      "35611464",
+      "36831334",
+      "33869018",
+      "35367835",
+      "36224612",
+      "37046851",
+      "36151890",
+      "30956762",
+      "36992839",
+      "35398839",
+      "36695131",
+      "35509603",
+      "36439484",
+      "36652866",
+      "36746116",
+      "37186387",
+      "36099831",
+      "39427851",
+      "20860770",
+      "37388220",
+      "36817452",
+      "35780101",
+      "35087143",
+      "37197572",
+      "36931148",
+      "38610929",
+      "39202030",
+      "38466508",
+      "39080685",
+      "36232544",
+      "36358727",
+      "37199872",
+      "36012199",
+      "36400019",
+      "37761019",
+      "37816110",
+      "36776604",
+      "30061830",
+      "36675976"
+    ],
+    "review": [
+      "35400998",
+      "38867248",
+      "31290993",
+      "32944405",
+      "34238200",
+      "33230935",
+      "38610929"
+    ],
+    "pmc": [
+      "8986213"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/COPD.S352392?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35400998/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35400998",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/COPD.S352392",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

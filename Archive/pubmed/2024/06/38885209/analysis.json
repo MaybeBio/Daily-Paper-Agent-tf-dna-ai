@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38885209",
+  "title": "Ferroptosis-related gene MAPK3 is associated with the neurological outcome after cardiac arrest.",
+  "authors": "Hou, Hong Xiang; Pang, Li; Zhao, Liang; Xing, Jihong",
+  "journal": "PloS one",
+  "published_date": "2024-06-17",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究心脏骤停后神经预后相关的铁死亡基因MAPK3，属于纯表达谱与临床预后分析，无蛋白质-DNA互作体系、无结合建模，亦无AI或物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Neuronal ferroptosis is closely related to the disease of the nervous system, and the objective of the present study was to recognize and verify the potential ferroptosis-related genes to forecast the neurological outcome after cardiac arrest. METHODS: Cardiac Arrest-related microarray datasets GSE29540 and GSE92696 were downloaded from GEO and batch normalization of the expression data was performed using \"sva\" of the R package. GSE29540 was analyzed to identify DEGs. Venn diagram was applied to recognize ferroptosis-related DEGs from the DEGs. Subsequently, The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were performed, and PPI network was applied to screen hub genes. Receiver operating characteristic (ROC) curves were adopted to determine the predictive value of the biomarkers, and the GSE92696 dataset was applied to further evaluate the diagnostic efficacy of the biomarkers. We explore transcription factors and miRNAs associated with hub genes. The \"CIBERSORT\" package of R was utilized to analyse the proportion infiltrating immune cells. Finally, validated by a series of experiments at the cellular level. RESULTS: 112 overlapping ferroptosis-related DEGs were further obtained via intersecting these DEGs and ferroptosis-related genes. The GO and KEGG analysis demonstrate that ferroptosis-related DEGs are mainly involved in response to oxidative stress, ferroptosis, apoptosis, IL-17 signalling pathway, autophagy, toll-like receptor signalling pathway. The top 10 hub genes were selected, including HIF1A, MAPK3, PPARA, IL1B, PTGS2, RELA, TLR4, KEAP1, SREBF1, SIRT6. Only MAPK3 was upregulated in both GSE29540 and GAE92696. The AUC values of the MAPK3 are 0.654 and 0.850 in GSE29540 and GSE92696 respectively. The result of miRNAs associated with hub genes indicates that hsa-miR-214-3p and hsa-miR-483-5p can regulate the expression of MAPK3. MAPK3 was positively correlated with naive B cells, macrophages M0, activated dendritic cells and negatively correlated with activated CD4 memory T cells, CD8 T cells, and memory B cells. Compared to the OGD4/R24 group, the OGD4/R12 group had higher MAPK3 expression at both mRNA and protein levels and more severe ferroptosis. CONCLUSION: In summary, the MAPK3 ferroptosis-related gene could be used as a biomarker to predict the neurological outcome after cardiac arrest. Potential biological pathways provide novel insights into the pathogenesis of cardiac arrest.",
+  "abstract_zh": "背景：神经元铁死亡（ferroptosis）与神经系统疾病密切相关，本研究旨在识别并验证潜在的铁死亡相关基因，以预测心脏骤停后的神经学结局。方法：从GEO下载心脏骤停相关微阵列数据集GSE29540和GSE92696，并使用R包的“sva”对表达数据进行批次归一化。分析GSE29540以识别差异表达基因（DEGs）。应用维恩图从DEGs中识别铁死亡相关DEGs。随后，进行基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析，并应用蛋白质-蛋白质相互作用（PPI）网络筛选核心基因。采用受试者工作特征（ROC）曲线确定生物标志物的预测价值，并应用GSE92696数据集进一步评估生物标志物的诊断效能。我们探索与核心基因相关的转录因子和miRNAs。利用R的“CIBERSORT”包分析浸润免疫细胞的比例。最后，通过一系列细胞水平实验进行验证。结果：通过将这些DEGs与铁死亡相关基因相交，进一步获得112个重叠的铁死亡相关DEGs。GO和KEGG分析表明，铁死亡相关DEGs主要涉及氧化应激反应、铁死亡、凋亡、IL-17信号通路、自噬、toll样受体信号通路。筛选出前10个核心基因，包括HIF1A、MAPK3、PPARA、IL1B、PTGS2、RELA、TLR4、KEAP1、SREBF1、SIRT6。仅MAPK3在GSE29540和GSE92696中均上调。MAPK3的AUC值在GSE29540和GSE92696中分别为0.654和0.850。与核心基因相关的miRNAs结果表明，hsa-miR-214-3p和hsa-miR-483-5p可调控MAPK3的表达。MAPK3与初始B细胞、M0巨噬细胞、活化树突状细胞呈正相关，与活化CD4记忆T细胞、CD8 T细胞和记忆B细胞呈负相关。与OGD4/R24组相比，OGD4/R12组在mRNA和蛋白水平上均具有更高的MAPK3表达，且铁死亡更严重。结论：总之，MAPK3铁死亡相关基因可作为预测心脏骤停后神经学结局的生物标志物。潜在的生物学通路为心脏骤停的发病机制提供了新的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38885209/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38885209/",
+  "paper_page_path": "papers/pubmed/38885209/index.html"
+}

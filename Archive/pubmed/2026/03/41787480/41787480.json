@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "41787480",
+    "doi": "10.1186/s12967-026-07970-0",
+    "title": "A small‑molecule HDAC/PDE modulator activates human adipocyte UCP1 and resolves inflammatory signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Obesity-associated inflammation in white adipose tissue (WAT) drives insulin resistance and type 2 diabetes. While UCP1-mediated thermogenesis is a therapeutic target, most browning agents lack anti-inflammatory activity. We aimed to identify small molecules that induce browning and suppress inflammation in human adipocytes. METHODS: Human cohorts and cell line models were analyzed for inflammatory markers. We generated an in-house multicomponent reaction (MCR)-based chemical library and developed a proprietary high-throughput screening platform to identify UCP1 activators in human adipocytes. Lead compound CDC1011 was evaluated for effects on thermogenesis, mitochondrial respiration, glucose uptake, glycolysis, lipolysis, NF-kappaB signaling, cytokine secretion, and monocyte chemotaxis. Mechanistic studies assessed cyclic-nucleotide signaling, phosphodiesterase (PDE) inhibition, histone deacetylase (HDAC) modulation, and docking-based predictions. RESULTS: CDC1011 induced UCP1 expression and mitochondrial respiration, enhanced glucose uptake and lipolysis, and suppressed NF-kappaB activation, cytokine secretion, and monocyte recruitment. Mechanistically, CDC1011 elevated cAMP/PKA and cGMP signaling via PDE inhibition and attenuated HDAC activity, reprogramming adipocytes toward a thermogenic, anti-inflammatory phenotype. CONCLUSIONS: CDC1011 is a first-in-class small molecule with dual thermogenic and anti-inflammatory actions in human adipocytes, offering a promising pharmacological strategy for obesity-related metabolic disorders.",
+    "keywords": [
+      "Adipocyte browning",
+      "HDAC",
+      "Inflammation",
+      "Obesity",
+      "PDE",
+      "Thermogenesis",
+      "UCP1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Uncoupling Protein 1/metabolism",
+      "*Inflammation/pathology/metabolism",
+      "*Signal Transduction/drug effects",
+      "*Adipocytes/metabolism/drug effects",
+      "*Histone Deacetylases/metabolism",
+      "Mitochondria/metabolism/drug effects",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "*Phosphoric Diester Hydrolases/metabolism",
+      "Glucose/metabolism",
+      "Thermogenesis/drug effects",
+      "NF-kappa B/metabolism",
+      "*Phosphodiesterase Inhibitors/pharmacology",
+      "Cyclic AMP/metabolism",
+      "Lipolysis/drug effects",
+      "Cytokines/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rammah, Mayyasa",
+        "Romero, Atilio Reyes",
+        "Halabi, Najeeb",
+        "Abuaqel, Sirin",
+        "Guennoun, Andrea",
+        "Domling, Alexander",
+        "Shan, Jingxuan",
+        "Chouchane, Lotfi"
+      ],
+      "short_names": [
+        "Rammah M",
+        "Romero AR",
+        "Halabi N",
+        "Abuaqel S",
+        "Guennoun A",
+        "Domling A",
+        "Shan J",
+        "Chouchane L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2082-7924"
+      ],
+      "affiliations": [
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+        "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA.",
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+        "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA.",
+        "Institute of Molecular and Translational Medicine, Faculty of Medicine and Dentistry Palacky University Olomouc, Olomouc, Czech Republic.",
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+        "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA.",
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+        "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA.",
+        "Institute of Molecular and Translational Medicine, Faculty of Medicine and Dentistry Palacky University Olomouc, Olomouc, Czech Republic.",
+        "Department of Drug Design, University of Groningen, Groningen, 9713 AV, The Netherlands.",
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar. jis2015@qatar-med.cornell.edu.",
+        "Department of Genetic Medicine, Weill Cornell Medicine, New York, USA. jis2015@qatar-med.cornell.edu.",
+        "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar. loc2008@qatar-med.cornell.edu.",
+        "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA. loc2008@qatar-med.cornell.edu.",
+        "Department of Genetic Medicine, Weill Cornell Medicine, New York, USA. loc2008@qatar-med.cornell.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rammah, Mayyasa",
+        "short_name": "Rammah M",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+          "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Romero, Atilio Reyes",
+        "short_name": "Romero AR",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+          "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA.",
+          "Institute of Molecular and Translational Medicine, Faculty of Medicine and Dentistry Palacky University Olomouc, Olomouc, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Halabi, Najeeb",
+        "short_name": "Halabi N",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+          "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Abuaqel, Sirin",
+        "short_name": "Abuaqel S",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Guennoun, Andrea",
+        "short_name": "Guennoun A",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar.",
+          "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Dömling, Alexander",
+        "short_name": "Dömling A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular and Translational Medicine, Faculty of Medicine and Dentistry Palacky University Olomouc, Olomouc, Czech Republic.",
+          "Department of Drug Design, University of Groningen, Groningen, 9713 AV, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Shan, Jingxuan",
+        "short_name": "Shan J",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar. jis2015@qatar-med.cornell.edu.",
+          "Department of Genetic Medicine, Weill Cornell Medicine, New York, USA. jis2015@qatar-med.cornell.edu."
+        ]
+      },
+      {
+        "full_name": "Chouchane, Lotfi",
+        "short_name": "Chouchane L",
+        "identifiers": [
+          "0000-0002-2082-7924"
+        ],
+        "affiliations": [
+          "Genetic Intelligence Laboratory, Weill Cornell Medicine-Qatar, Education City, Qatar Foundation, P.O. Box 24144, Doha, Qatar. loc2008@qatar-med.cornell.edu.",
+          "Department of Microbiology and Immunology, Weill Cornell Medicine, New York, USA. loc2008@qatar-med.cornell.edu.",
+          "Department of Genetic Medicine, Weill Cornell Medicine, New York, USA. loc2008@qatar-med.cornell.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Mar 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 08:57",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40076419",
+      "39892489",
+      "39342273",
+      "39289339",
+      "39244523",
+      "38747241",
+      "38227542",
+      "38110164",
+      "37908064",
+      "37796527",
+      "37410022",
+      "37099421",
+      "37012544",
+      "36875455",
+      "36339432",
+      "36092796",
+      "35873320",
+      "35557960",
+      "35251704",
+      "35149557",
+      "34878840",
+      "34861155",
+      "34100382",
+      "34012704",
+      "34002097",
+      "33854178",
+      "33755728",
+      "33625476",
+      "33567185",
+      "33536213",
+      "33458707",
+      "32803970",
+      "32210919",
+      "32202085",
+      "31419785",
+      "30995798",
+      "30707567",
+      "30568302",
+      "30427862",
+      "30386231",
+      "30229891",
+      "30089714",
+      "29958910",
+      "29541361",
+      "29348496",
+      "29129392",
+      "29118013",
+      "29083197",
+      "28458470",
+      "28118051",
+      "28052251",
+      "27942529",
+      "27840590",
+      "27795551",
+      "27555662",
+      "27101398",
+      "26972823",
+      "26826276",
+      "26787627",
+      "26655722",
+      "26616665",
+      "26473018",
+      "26207742",
+      "26011238",
+      "25925588",
+      "25781614",
+      "25681456",
+      "25565203",
+      "25516548",
+      "25056438",
+      "24549398",
+      "24336805",
+      "24177060",
+      "24059847",
+      "23744289",
+      "23717507",
+      "23306429",
+      "23303211",
+      "23104886",
+      "22992175",
+      "22539672",
+      "22307324",
+      "22210924",
+      "22087588",
+      "21982300",
+      "21951333",
+      "21741267",
+      "21147638",
+      "20716671",
+      "19952371",
+      "19910308",
+      "19401428",
+      "19359377",
+      "19357407",
+      "19357405",
+      "18519110",
+      "17229936",
+      "16823477",
+      "16257373",
+      "16199517",
+      "16106106",
+      "12808457",
+      "12581209",
+      "12414803",
+      "12007528",
+      "11369767",
+      "11259554",
+      "10766252",
+      "9184477",
+      "9133667"
+    ],
+    "similar": [
+      "41787480",
+      "32855239",
+      "33683213",
+      "41506434",
+      "31094212",
+      "36840853",
+      "27461561",
+      "38734719",
+      "40369420",
+      "42557944",
+      "23092914",
+      "27436609",
+      "23454373",
+      "42511758",
+      "31401979",
+      "28242620",
+      "39515102",
+      "24627558",
+      "27124181",
+      "31281493",
+      "30132867",
+      "39107469",
+      "39454826",
+      "27431894",
+      "34547509",
+      "39884417",
+      "41596563",
+      "35063533",
+      "30635550",
+      "37321371",
+      "25474091",
+      "39799670",
+      "39260136",
+      "33610548",
+      "29428596",
+      "37974549",
+      "27686967",
+      "33248294",
+      "27372851",
+      "34718029",
+      "30340811",
+      "31382214",
+      "24828250",
+      "30624981",
+      "22307324",
+      "28949928",
+      "39799892",
+      "41679690",
+      "24566854",
+      "37699387",
+      "24219284",
+      "15242813",
+      "42298764",
+      "32755263",
+      "32273338",
+      "29547798",
+      "32767856",
+      "30022159",
+      "34502211",
+      "27900262",
+      "24530356",
+      "27795551",
+      "34953210",
+      "31965068",
+      "26525534",
+      "29264745",
+      "27218607",
+      "24368730",
+      "35598846",
+      "40354118",
+      "41696894",
+      "42530711",
+      "37607030",
+      "33049408",
+      "29890133",
+      "38382361",
+      "33477525",
+      "29651293",
+      "10825155",
+      "40912399",
+      "34748921",
+      "38035937",
+      "29715464",
+      "37640195",
+      "30599906",
+      "41896271",
+      "31714796",
+      "23736373",
+      "34018016",
+      "29102386",
+      "27974179",
+      "29396369",
+      "37011871",
+      "35016977",
+      "27621315",
+      "32927882",
+      "33042284",
+      "32416448",
+      "33917607",
+      "31841959"
+    ],
+    "review": [
+      "41787480",
+      "42511758",
+      "28949928",
+      "42298764"
+    ],
+    "pmc": [
+      "12980868"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-07970-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41787480/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends referenced but figures not provided)
+- **Assessment boundary** Scientific and technical evaluation of the software's claims, design, and demonstrated applications; code availability and documentation are noted but not independently verified
+- **Shared manuscript claim summary** The authors present inMOTIFin, a Python-based, modular, end-to-end simulation software for regulatory DNA sequences. The software supports simulation of background sequences, simulation or import of TF binding motifs, insertion of motif instances following user-defined grammars (including co-occurrence and spacing rules), and direct modification of real sequences. The authors claim the software addresses gaps in existing simulators by providing flexibility, ease of integration, and modularity, and they demonstrate applications in de novo motif discovery benchmarking, cooperative TF analysis, and deep learning model explainability.
+- **Visible evidence base** Main text sections 1–5; figure legends referenced (Figs 1–10) but figures not provided; supplementary sections referenced but not provided; code repositories and documentation URLs listed
+- **Missing materials affecting confidence** Figures 1–10; all supplementary sections and figures; the actual codebase and its documentation; results of the Polygraph analysis beyond the brief summary in Section 3; details of the use case experiments (parameters, datasets, evaluation metrics)
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful software tool for simulating regulatory sequences with controlled motif grammars. The design philosophy is sound, and the modular architecture built on DagSim is a reasonable choice. However, the manuscript as presented is largely a software description with illustrative use cases rather than a rigorous evaluation. The central claims of flexibility, ease of integration, and utility for benchmarking are plausible but not fully substantiated from the provided material. The absence of figures and supplementary data limits the ability to assess the quality of the demonstrations. The writing is generally clear, though some sections are dense and would benefit from more explicit explanation of the simulation workflow.
+- **Who would be interested in the results, and why** Researchers developing or benchmarking computational methods for regulatory genomics, including motif discovery tools, TF cooperativity analysis, and deep learning interpretability frameworks. The software's ability to generate controlled synthetic data with known ground truth would be of interest to those needing reproducible benchmarks. The integration with JASPAR and the provision of a Python API and command-line interface broaden its potential user base.
+- **Major strengths** The software addresses a real need for flexible, end-to-end simulation in regulatory genomics. The modular design and use of DagSim provide a principled framework. The inclusion of direct sequence modification capabilities (e.g., masking, shifting) is a distinctive feature. The demonstrated use cases cover relevant applications, and the availability on PyPI, Docker Hub, and Zenodo supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that inMOTIFin sequences are "at least as real as" sequences from other tools (FastSeqProp, AdaLead, Simulated Annealing) based on Polygraph analysis.
+  - **Evidence pointer** Section 3, Figures 3 and 4 (not provided)
+  - **Concern** The claim of sequence realism is central to the software's utility, but the evidence is presented only as a brief summary. The figures and supplementary details are not available, so the reader cannot assess the methodology of the Polygraph comparison, the statistical significance of the results, or the specific configurations used for each tool. Without this, the claim is not verifiable.
+  - **Why it matters** If the realism claim is not robustly supported, the software's advantage over existing simulators for benchmarking purposes is weakened. The comparison to other tools is a key differentiator and must be rigorously demonstrated.
+  - **Resolution test** Provide the full Polygraph analysis results, including the specific metrics used, the number of sequences evaluated, the statistical tests applied, and the configurations of all compared tools. The figures must be included and clearly annotated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the time performance of the simulation modules is O(n).
+  - **Evidence pointer** Section 2.3, Figures 11–13 (not provided)
+  - **Concern** The complexity claim is made without any supporting data in the main text. The referenced figures are not available. It is unclear what "n" refers to (sequence length, number of motifs, number of sequences) and whether the claim holds across all modules and use cases.
+  - **Why it matters** Performance is a stated advantage of the software ("lightweight"), and a formal complexity claim requires empirical validation. Without evidence, the claim is unsubstantiated.
+  - **Resolution test** Provide the performance benchmarks, including the experimental setup, the range of parameters tested, and the measured scaling behavior. Clarify the definition of "n" and specify which modules were tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "Identical simulated data can be created by running the code at https://bitbucket.org/CBGR/inmotifin_evaluation/src/main/."
+  - **Evidence pointer** Data availability section
+  - **Concern** The statement implies full reproducibility, but the manuscript does not specify the exact versions of the software, dependencies, or the configuration files used for each use case. Without a clear record of the parameters and environment, reproducing the exact datasets may be difficult.
+  - **Why it matters** Reproducibility is a core requirement for benchmarking tools. The claim of identical data creation must be backed by precise instructions and versioned code.
+  - **Resolution test** Provide a detailed reproducibility guide, including software versions, dependency lists, and the exact configuration files for each use case. Consider using a container or a workflow management tool to ensure reproducibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, description of the simulation workflow
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of the simulation workflow is dense and would benefit from a step-by-step summary or a pseudocode outline. The role of DagSim in the workflow is mentioned but not explained for readers unfamiliar with it.
+  - **Required correction** Add a concise workflow diagram or a numbered list of steps in the simulation process. Briefly explain how DagSim is used and why it was chosen.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4, use cases
+  - **Evidence pointer** Sections 4.1–4.3
+  - **Issue** The use cases are described at a high level, but the specific parameters, datasets, and evaluation metrics are not provided in the main text. The reader cannot assess the validity or significance of the results without the supplementary material.
+  - **Required correction** Summarize the key experimental settings and results for each use case in the main text, or ensure the supplementary material is clearly referenced and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3, modeling biology
+  - **Evidence pointer** Section 3
+  - **Concern** The description of the Polygraph analysis is brief and assumes familiarity with the tool. The term "as real as" is vague and could be misinterpreted.
+  - **Required correction** Define what "real" means in this context (e.g., similarity to genomic sequences based on specific metrics) and briefly describe the Polygraph methodology.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Documentation
+  - **Affected element** Availability and implementation section
+  - **Evidence pointer** Availability and implementation section
+  - **Issue** The manuscript lists URLs for PyPI, Docker Hub, and documentation, but does not mention the software license or the supported Python versions.
+  - **Required correction** Add the license information and specify the minimum and tested Python versions.
+- **Technical failings that need to be addressed before the case is established** The lack of access to figures and supplementary data prevents verification of the central claims regarding sequence realism, performance, and the outcomes of the use cases. The manuscript must include these materials or clearly state where they can be accessed. The performance claim of O(n) requires empirical support. The reproducibility claim requires versioned code and detailed configuration records.
+- **Assessment against Nature-style criteria** Originality: The software combines existing concepts (simulation of background sequences, motif insertion, grammar specification) into a single, modular package, which is a useful contribution but not conceptually novel. Scientific importance: The tool addresses a practical need in benchmarking and evaluation of regulatory genomics methods, which is of importance to the field. Interdisciplinary readership: The primary audience is computational biologists and bioinformaticians; the manuscript is unlikely to attract a broader readership. Technical soundness: The design is reasonable, but the lack of evidence for key claims (realism, performance) undermines confidence. Readability for nonspecialists: The manuscript is written for a specialized audience and assumes familiarity with motif discovery, deep learning interpretability, and simulation frameworks; it is not accessible to nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The software appears to fill a genuine gap, and the use cases are relevant. However, the manuscript must provide the missing evidence (figures, supplementary data, performance benchmarks) and clarify the reproducibility and realism claims before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that inMOTIFin sequences are "at least as real as" sequences from other tools is unsupported without the Polygraph analysis details and figures.
+- The claim of O(n) time performance is unsupported without benchmark data.
+- The claim that "Identical simulated data can be created" is not fully verifiable without versioned code and configuration details.
+- The assertion that no existing package provides end-to-end simulation with the described features is a strong claim that is not systematically substantiated with a comprehensive comparison of existing tools beyond a brief reference to supplementary material.

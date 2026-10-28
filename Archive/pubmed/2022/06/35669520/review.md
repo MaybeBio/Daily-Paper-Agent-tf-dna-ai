@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of the claims as presented in the provided text. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that H-NS DBDs contact DNA at the same irregularly spaced sites in both bridged and linear filaments, supporting a hemi-sequestration model for linear-to-bridged switching, and that these contacts are determined by DNA sequence features rather than fixed spacing.
+- **Visible evidence base** Experimental data from ·OH footprinting, TEN-map assays, MD simulations, statistical modeling, EMSA, and in vitro transcription assays, as described in the text and referenced figures.
+- **Missing materials affecting confidence** Figures, tables, and supplemental data referenced but not provided. Specific numerical values, statistical outputs, and methodological details for some assays are not fully available in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and technically sophisticated approach to mapping H-NS DBD contacts on DNA, combining experimental and computational methods. The central claim that DBD contacts are identical in bridged and linear filaments is supported by the data as described, though the evidence base is incomplete without access to the figures and supplemental materials. The irregular spacing of contacts and the role of sequence features are plausible and well-argued, but the statistical and modeling components require closer scrutiny to fully validate the conclusions.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromatin structure, gene silencing mechanisms, and H-NS family proteins. The methodological advance (TEN-map) will also interest those developing chemical nuclease-based mapping techniques for protein-DNA interactions.
+- **Major strengths** The combination of multiple orthogonal methods (footprinting, TEN-map, MD, statistical modeling) is a significant strength. The study directly addresses a long-standing question about H-NS filament architecture and provides a testable model. The use of a chemical nuclease tethered to the DBD is an innovative approach that could be broadly applicable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that TEN-map and ·OH footprinting data, combined with MD simulations, reliably identify DBD contact sites and orientations.
+  - **Evidence pointer** Results sections "Tethered-nuclease mapping (TEN-map) reveals H-NS DBD locations in H-NS filaments" and "MD simulation and statistical modeling reveal H-NS DBD spacing and orientation"; Figures 2, 5, 6.
+  - **Concern** The statistical methodology for matching predicted cleavage patterns to experimental data is described, but the text does not provide sufficient detail on how the MD simulations were validated against the experimental data. The p-value calculations from Monte Carlo permutation tests are mentioned, but the specific parameters, number of permutations, and handling of multiple testing are not fully described. Without these details, it is difficult to assess the robustness of the reported contact site assignments.
+  - **Why it matters** The central conclusion that DBD contacts are identical in bridged and linear filaments depends on the reliability of the contact site mapping. If the statistical matching is not rigorous, the conclusion may be overstated.
+  - **Resolution test** Provide full details of the statistical model, including priors, convergence diagnostics, and sensitivity analyses. Include the distribution of p-values and a clear description of how the combined p-values were calculated. Ideally, provide a validation of the MD-predicted cleavage patterns against an independent experimental method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the TEN-map assay reports DBD positions in bridged filaments, based on the observation that Fe2+·EDTA-H-NS is constitutively bridged.
+  - **Evidence pointer** Results section "Tethered-nuclease mapping (TEN-map) reveals H-NS DBD locations in H-NS filaments"; Figures 1E, 1F, S2.
+  - **Concern** The text states that Fe2+·EDTA-H-NS forms only bridged filaments, even at high concentrations, and that this is consistent with constitutive bridging. However, the possibility that the conjugation of Fe2+·EDTA alters H-NS function or DNA-binding properties beyond inducing bridging is not fully addressed. The in vitro transcription assay shows that Fe2+·EDTA-H-NS stimulates pausing, but it is unclear whether the magnitude of this effect is comparable to wild-type H-NS. If the modified protein has altered activity, the TEN-map results may not accurately reflect native H-NS behavior.
+  - **Why it matters** The interpretation of TEN-map data as representative of native H-NS filaments requires that the modified protein behaves similarly to wild-type H-NS, aside from the intended bridging phenotype. If the modification has unintended effects, the conclusions about DBD positioning may be compromised.
+  - **Resolution test** Provide a more detailed comparison of Fe2+·EDTA-H-NS and wild-type H-NS in terms of DNA-binding affinity, filament formation, and effects on transcription. Consider testing a control where Fe2+·EDTA is tethered to a position that does not affect bridging, if possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the findings support a hemi-sequestration model of linear-to-bridged H-NS switching.
+  - **Evidence pointer** Discussion section "H-NS DBD contacts to DNA do not change in the switch from bridged to linear conformations"; Figures 4, 8.
+  - **Concern** The hemi-sequestration model is presented as a key outcome, but the evidence for it is indirect. The observation that DBD contact sites are unchanged in bridged and linear filaments is consistent with the model, but it does not directly demonstrate that one DBD per dimer is sequestered in the linear form. The authors acknowledge this limitation, but the model is presented as a validated conclusion rather than a hypothesis supported by the data.
+  - **Why it matters** The hemi-sequestration model has implications for understanding how H-NS switches between functional states. If the evidence is not direct, the model should be framed more cautiously to avoid overinterpretation.
+  - **Resolution test** Provide additional experimental evidence, such as crosslinking or single-molecule studies, that directly tests the sequestration of DBDs in linear filaments. Alternatively, clearly state that the model is a hypothesis consistent with the data, not a proven mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "irregularly spaced sites" is used without defining what "irregular" means in this context. It could be interpreted as random, which is not the intended meaning.
+  - **Required correction** Clarify that "irregular" refers to non-uniform spacing that is nonetheless sequence-determined, to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "MD simulation of Fe2+·EDTA–H-NS bound to DNA"
+  - **Issue** The description of the MD simulation setup is brief. The force field parameters for Fe2+·EDTA are stated to be generated "by analogy," but the specific analogies and validation of these parameters are not described.
+  - **Required correction** Provide more detail on the parameterization of Fe2+·EDTA, including the source of the analogies and any validation against experimental data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results
+  - **Evidence pointer** Results section "TA steps, A/T content, minor groove width, and electrostatic potential best predict DBD locations"
+  - **Issue** The LASSO regression model is described, but the text does not specify how the model's predictive performance was evaluated beyond a general statement. The figure legend for Figure 7C is not provided.
+  - **Required correction** Include a description of the model evaluation metrics, such as area under the ROC curve or cross-validated accuracy, and clarify what is shown in Figure 7C.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The statistical rigor of the contact site mapping and the potential artifacts of the Fe2+·EDTA modification must be addressed to fully support the central claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The TEN-map approach is novel, and the combination of methods is creative.
+  - **Scientific importance** Moderate to high. The findings advance understanding of H-NS filament architecture, but the broader implications for gene regulation are not fully explored.
+  - **Interdisciplinary readership** Moderate. The work will appeal to biochemists, biophysicists, and molecular biologists, but may be too specialized for a general audience.
+  - **Technical soundness** Currently not fully established. The statistical and modeling components need more detail and validation.
+  - **Readability for nonspecialists** The text is generally clear, but the methods and results sections are dense and may be challenging for readers without a background in biophysical chemistry.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the data, as described, are suggestive but not yet conclusive. The authors should address the statistical rigor and the potential artifacts of the modified H-NS protein before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that DBD contacts are identical in bridged and linear filaments is supported by the data as described, but the statistical basis for this claim is not fully transparent.
+- The hemi-sequestration model is presented as a conclusion, but the evidence is indirect and should be framed as a hypothesis.
+- The predictive power of the LASSO model for DBD locations is stated but not quantitatively demonstrated in the text.
+- The generalizability of the findings beyond the single DNA fragment (bgl DRE) is not established.

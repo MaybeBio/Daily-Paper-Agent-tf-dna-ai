@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40672207",
+  "title": "GAME: Genomic API for Model Evaluation.",
+  "authors": "Luthra, Ishika; Priyadarshi, Satyam; Guo, Rui; Mahieu, Lukas; Kempynck, Niklas; Dooley, Damion; Penzar, Dmitry; Vorontsov, Ilya; Sheng, Yilun; Tu, Xinming; Klie, Adam; Drusinsky, Shiron; Floren, Alexander; Armand, Ethan; Alasoo, Kaur; Seelig, Georg; Tewhey, Ryan; Koo, Peter; Agarwal, Vikram; Gosai, Sager; Pinello, Luca; White, Michael A; Lal, Avantika; Zeitlinger, Julia; Pollard, Katherine S; Libbrecht, Maxwell; Carter, Hannah; Mostafavi, Sara; Kulakovskiy, Ivan; Hsiao, Will; Aerts, Stein; Zhou, Jian; de Boer, Carl G",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-07-17",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍GAME系统，用于标准化评估基因组序列到活性模型（含DNA结合预测），虽涉及DNA结合任务但非聚焦TF-DNA互作机制，方法上以LLM辅助基准匹配为主，缺乏三维互作建模或物理模拟，故为中档匹配。",
+  "abstract": "The rapid expansion of genomics datasets and the application of machine learning has produced sequence-to-activity genomics models with ever-expanding capabilities. However, benchmarking these models on practical applications has been challenging because individual projects evaluate their models in ad hoc ways, and there is substantial heterogeneity of both model architectures and benchmarking tasks. To address this challenge, we have created GAME, a system for large-scale, community-led standardized model benchmarking on user-defined evaluation tasks. We borrow concepts from the Application Programming Interface (API) paradigm to allow for seamless communication between pre-trained models and benchmarking tasks, ensuring consistent evaluation protocols. Because all models and benchmarks are inherently compatible in this framework, the continual addition of new models and new benchmarks is easy. We also developed a Matcher module powered by a large language model (LLM) to automate ambiguous task alignment between benchmarks and models. Containerization of these modules enhances reproducibility and facilitates the deployment of models and benchmarks across computing platforms. By focusing on predicting underlying biochemical phenomena (e.g. gene expression, open chromatin, DNA binding), we ensure that tasks remain technology-independent. We provide examples of benchmarks and models implementing this framework, and anticipate that the community will contribute their own, leading to an ever-expanding and evolving set of models and evaluation tasks. This resource will accelerate genomics research by illuminating the best models for a given task, motivating novel functional genomic benchmarks, and providing a more nuanced understanding of model abilities.",
+  "abstract_zh": "基因组学数据集的快速扩展和机器学习的应用，催生了功能日益强大的序列到活性基因组学模型。然而，在实践应用中对这些模型进行基准测试一直颇具挑战，因为各个项目以临时方式评估其模型，且模型架构和基准测试任务之间存在显著异质性。为应对这一挑战，我们创建了GAME，一个用于在用户定义评估任务上进行大规模、社区主导的标准化模型基准测试的系统。我们借鉴了应用程序编程接口（API）范式的概念，以实现预训练模型与基准测试任务之间的无缝通信，确保评估协议的一致性。由于在此框架中所有模型和基准天然兼容，因此持续添加新模型和新基准变得容易。我们还开发了一个由大语言模型（LLM）驱动的Matcher模块，以自动化处理基准与模型之间模糊的任务对齐。这些模块的容器化增强了可复现性，并促进了模型和基准在不同计算平台上的部署。通过专注于预测潜在生化现象（如基因表达、开放染色质、DNA结合），我们确保任务保持技术无关性。我们提供了实现此框架的基准和模型示例，并预期社区将贡献自己的内容，从而形成一个不断扩展和演进的模型及评估任务集合。这一资源将通过为特定任务揭示最佳模型、激发新型功能基因组学基准，以及提供对模型能力的更细致理解，来加速基因组学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40672207/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40672207/",
+  "paper_page_path": "papers/pubmed/40672207/index.html"
+}

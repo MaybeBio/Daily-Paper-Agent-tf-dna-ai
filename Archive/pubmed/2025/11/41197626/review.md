@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text including Summary, Introduction, Results, Discussion, Limitations, Methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and alignment with Nature-style criteria. Not assessed: editorial quality, formatting, or literature completeness beyond what is visible.
+- **Shared manuscript claim summary** The authors present Micro Capture-C ultra (MCCu), a chromosome conformation capture method achieving base-pair resolution contact maps. They report cell-type-specific interactions between transcription factor binding sites within nucleosome-depleted regions at promoters and enhancers, show that Mediator complex components affect nanoscale promoter structure, demonstrate that nucleosome-depleted regions partition chromatin into nanoscale domains, and integrate experimental data with coarse-grained molecular dynamics simulations to propose a unified model where biophysical properties of chromatin orchestrate cis-regulatory element contacts.
+- **Visible evidence base** Results sections describing MCCu development and application to 15 promoters and 25 enhancers across three murine cell types; degron-based perturbation experiments for Mediator components and transcription factors; molecular dynamics simulations of 16-nucleosome arrays; super-resolution imaging of histone modifications; supplementary figure descriptions (S1–S6); methods for 3C library preparation, capture, sequencing, and analysis.
+- **Missing materials affecting confidence** Raw sequencing data, full supplementary figures and tables, detailed statistical outputs, complete simulation parameters, validation metrics for MCCu against orthogonal methods, and full image data. The manuscript text references figures and supplementary items not fully visible in the provided material.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial technical advance in chromosome conformation capture, achieving base-pair resolution that enables visualization of contacts between individual transcription factor binding sites. The integration of experimental perturbation, computational analysis, and molecular dynamics simulation is ambitious and potentially field-advancing. However, several claims extend beyond what the presented evidence can support, particularly regarding the unified model and the causal role of nucleosome depletion in enhancer-promoter contacts. The statistical framework and validation of the new method require closer scrutiny. The work is likely to interest a broad readership in gene regulation, chromatin biology, and biophysics, but the strength of the conclusions needs to be tempered or better supported.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, chromatin architecture, enhancer-promoter communication, and 3D genome organization would find the methodological advance and the proposed model of considerable interest. The base-pair resolution approach opens new possibilities for linking chromatin structure to transcription factor binding at unprecedented detail. The integration with molecular dynamics simulations will appeal to computational biophysicists working on chromatin. The findings on Mediator function and nucleosome dynamics are relevant to those investigating transcriptional mechanisms and epigenetic regulation.
+- **Major strengths** 1) The methodological advance of MCCu to base-pair resolution is significant and could enable new types of questions in gene regulation. 2) The combination of experimental Hi-C-like data with chemically specific coarse-grained simulations is innovative and provides a framework for interpreting structural data. 3) The observation of nanoscale domains partitioned by nucleosome-depleted regions is novel and potentially important. 4) The degron-based perturbation experiments provide causal evidence for Mediator involvement in fine-scale promoter architecture. 5) The contact sequence reconstruction approach to identify specific transcription factor motif interactions is clever and well-motivated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validity of the method
+  - **Claim pointer** The claim that MCCu generates contact maps at base-pair resolution that resolve chromatin structure at the scale of individual transcription factor binding sites.
+  - **Evidence pointer** Results section "MCCu generates data with significantly greater resolution than other available methods"; Figures 1A–1E; Supplementary Figures S1A–S1D, S2A–S2G
+  - **Concern** The manuscript does not provide sufficient validation that the base-pair resolution contacts reflect true biological proximity rather than artifacts of the MNase digestion, ligation, or bioinformatic processing. The comparison to Micro-C and RCMC is qualitative, and no quantitative metrics (e.g., reproducibility, signal-to-noise, false discovery rates) are presented. The contact sequence reconstruction method is described but its accuracy and error rates are not systematically evaluated.
+  - **Why it matters** The central advance of the paper rests on the reliability of base-pair resolution contacts. If the method produces artifacts or the reconstruction misassigns contacts, all downstream biological conclusions are compromised.
+  - **Resolution test** Provide quantitative validation: (1) reproducibility between biological replicates at base-pair resolution; (2) comparison of MCCu contacts with known protein-DNA structures or binding sites from independent methods (e.g., ChIP-exo, crystal structures); (3) spike-in or dilution experiments to assess signal-to-noise; (4) systematic evaluation of the contact sequence reconstruction accuracy using simulated or known sequences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the unified model
+  - **Claim pointer** The proposal of a unified model in which biophysical properties of chromatin orchestrate contacts between cis-regulatory elements, with nucleosome-depleted regions coalescing above the surface of acetylated nucleosomes.
+  - **Evidence pointer** Discussion section; Figures 6A–6E, 7A–7D; Supplementary Figures S6A–S6B
+  - **Concern** The unified model is presented as a synthesis of experimental and simulation data, but the causal chain is not established. The molecular dynamics simulations show that acetylation and nucleosome depletion can produce domain formation in silico, and the experimental data show correlations between these features and contact patterns. However, the manuscript does not demonstrate that the proposed biophysical mechanism is necessary or sufficient in vivo. Alternative explanations, such as loop extrusion or specific protein-protein interactions, are not experimentally excluded.
+  - **Why it matters** The title and abstract promise a "unified model," which is a strong claim. If the model is speculative or one of several possibilities, the framing overstates the findings.
+  - **Resolution test** (1) Perform perturbations that specifically alter nucleosome biophysical properties without changing factor binding (e.g., histone mutations affecting acetylation mimicry) and test predictions of the model; (2) test whether the model predicts contact patterns at additional loci beyond those examined; (3) provide quantitative comparison of model predictions with experimental data across all 15 promoters and 25 enhancers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of perturbation analyses
+  - **Claim pointer** The claim that MED14 and MED13 depletion significantly alters nanoscale contacts within nucleosome-depleted regions, while MED1 depletion does not.
+  - **Evidence pointer** Results section "Depletion of Mediator components leaves large-scale contacts intact but causes disruption of nanoscale topology within nucleosome-depleted regions"; Figures 4A–4C; Supplementary Figures S4A–S4J
+  - **Concern** The statistical framework (basepairC) is described but the specific statistical tests, effect sizes, and multiple testing corrections are not fully detailed in the visible text. The number of biological replicates, the magnitude of changes, and the biological significance thresholds are not clearly stated. The comparison between MED14, MED13, and MED1 effects appears qualitative.
+  - **Why it matters** The differential effects of Mediator subunits are used to argue for specific roles in promoter architecture. Without rigorous statistics, these conclusions are not firmly established.
+  - **Resolution test** Provide full statistical details: number of replicates, test statistics, effect sizes with confidence intervals, and clear criteria for calling significant changes. Show that the basepairC package has been validated on simulated or benchmark data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The claim that the observed principles apply broadly to cis-regulatory element interactions across the genome.
+  - **Evidence pointer** Results sections describing 15 promoters and 25 enhancers; Discussion
+  - **Concern** The analysis is limited to a small number of loci (15 promoters, 25 enhancers) in three cell types. The manuscript does not demonstrate genome-wide applicability of the findings, yet the title and abstract imply a general model. The selection criteria for these loci are not described, raising the possibility of selection bias.
+  - **Why it matters** A "unified model" requires evidence that the principles hold broadly, not just at selected loci.
+  - **Resolution test** (1) Apply MCCu to a larger, unbiased set of loci; (2) demonstrate that the observed patterns (nanoscale domains, nucleosome-depleted region contacts) are general features across many promoters and enhancers; (3) provide statistical evidence that the selected loci are representative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of method description
+  - **Affected element** MCCu protocol
+  - **Evidence pointer** Methods section "3C library manufacture"
+  - **Issue** The description of the MCCu protocol is dense and some steps are ambiguous, particularly the titration of MNase and the criteria for choosing the optimal digestion condition.
+  - **Required correction** Provide a clearer step-by-step protocol with specific quality control metrics for digestion efficiency and library complexity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of simulation results
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Results section "Nanoscale domains can be replicated using molecular dynamics simulations"; Figures 6A–6E
+  - **Issue** The comparison between simulated and experimental heatmaps is described as showing "remarkable correlation," but the quantitative measure of correlation is not provided.
+  - **Required correction** Report the correlation coefficient and the method used to compute it, along with appropriate statistical significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1–7
+  - **Evidence pointer** All figures
+  - **Issue** The figure legends are not fully visible in the provided material, making it difficult to assess the specific data shown in each panel.
+  - **Required correction** Ensure all figure legends are complete and self-explanatory, including definitions of all abbreviations and color scales.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** "Nanoscale domains"
+  - **Evidence pointer** Results and Discussion
+  - **Issue** The term "nanoscale domains" is used to describe structures that are 100- to 1,000-fold smaller than TADs, but the size range is not precisely defined.
+  - **Required correction** Provide a quantitative definition of the size range of these domains and clarify how they relate to previously described structures such as sub-TADs or contact domains.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (method validation) and R1-M2 (causal support for the model) are the primary technical failings. The manuscript cannot be considered to have established its central claims without addressing these. R1-M3 (statistical rigor) also needs attention.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The base-pair resolution approach and the integration with molecular dynamics simulations represent a novel combination. The concept of nanoscale domains partitioned by nucleosome-depleted regions is original.
+  - **Scientific importance** Potentially high. If validated, the findings could reshape understanding of how cis-regulatory elements interact and how chromatin biophysics contributes to gene regulation. The methodological advance could enable many downstream studies.
+  - **Interdisciplinary readership** The work bridges genomics, biophysics, and computational biology, and would appeal to readers across these fields. The unified model has conceptual appeal beyond a narrow specialist audience.
+  - **Technical soundness** Currently not fully established. The method validation is insufficient, and the statistical framework needs more detail. The simulation approach is sound in principle but the comparison to experiment needs quantitative rigor.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the conceptual narrative is accessible. However, the methods section is dense and would be challenging for nonspecialists. The figures are likely to be informative but cannot be fully assessed from the provided material.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially important advance, but the current evidence does not fully support the strength of the claims. The authors should be encouraged to revise with additional validation and more measured conclusions.
+
+## Risk / unsupported claims
+- The claim of a "unified model" of cis-regulatory element interactions is not fully supported by the evidence presented; the model is plausible but speculative.
+- The claim that MCCu resolves contacts at base-pair resolution is not quantitatively validated.
+- The claim that nucleosome depletion "plays a critical role in mediating enhancer-promoter contacts" is inferred from correlation and simulation, not directly demonstrated causally.
+- The claim that Mediator operates at the level of transcription complex stabilization rather than architectural linking is supported for the tested loci but may not generalize.
+- The claim that acetylation leads to domain formation is supported by simulation but the in vivo causal link is not established.
+- The generalizability of findings from 15 promoters and 25 enhancers to genome-wide principles is not demonstrated.

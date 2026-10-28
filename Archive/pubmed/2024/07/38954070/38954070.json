@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "38954070",
+    "doi": "10.1007/s11030-024-10921-w",
+    "title": "Exploring putative drug properties associated with TNF-alpha inhibition and identification of potential targets in cardiovascular disease using machine learning-assisted QSAR modeling and virtual reverse pharmacology approach."
+  },
+  "content": {
+    "abstract": "Cardiovascular disease is a chronic inflammatory disease with high mortality rates. TNF-alpha is pro-inflammatory and associated with the disease, but current medications have adverse effects. Therefore, efficient inhibitors are urgently needed as alternatives. This study represents a structural-activity relationship investigation of TNF-alpha, curated from the ChEMBL database. Exploratory data analysis was performed to visualize the physicochemical properties of different bioactivity groups. The extracted molecules were subjected to PubChem and SubStructure fingerprints, and a QSAR-based Random Forest (QSAR-RF) model was generated using the WEKA tool. The QSAR random Forest model was built based on the SubStructure fingerprint with a correlation coefficient of 0.992 and 0.716 as the respective tenfold cross-validation scores. The variance important plot (VIP) method was used to extract the important features for TNF-alpha inhibition. The Substructure-based QSAR-RF (SS-QSAR-RF) model was validated using molecules from PubChem and ZINC databases. The generated model also predicts the pIC(50) value of the molecules selected from the docking study followed by molecular dynamic simulation with the time step of 100 ns. Through virtual reverse pharmacology, we determined the main drug targets from the top four hit compounds obtained via molecular docking study. Our analysis included an integrated bioinformatics approach to pinpoint crucial targets like EGRF, HSP900A1, STAT3, PSEN1, AKT1, and MDM2. Further, GO and KEGG pathways analysis identified relevant cardiovascular disease-related pathways for the hub gene involved. However, this study provides valuable insights, it is important to note that it lacks experimental application. Future research may benefit from conducting in-vitro and in-vivo studies.",
+    "keywords": [
+      "Autoimmune",
+      "Machine learning",
+      "QSAR",
+      "TNF-alpha",
+      "TNF-alpha inhibitor"
+    ],
+    "mesh_terms": [
+      "*Quantitative Structure-Activity Relationship",
+      "*Cardiovascular Diseases/drug therapy",
+      "*Tumor Necrosis Factor-alpha/antagonists & inhibitors/metabolism",
+      "*Machine Learning",
+      "*Molecular Docking Simulation",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "STAT3 Transcription Factor/antagonists & inhibitors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shah, Manisha",
+        "Arumugam, Sivakumar"
+      ],
+      "short_names": [
+        "Shah M",
+        "Arumugam S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bio-Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India.",
+        "Department of Bio-Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India. siva_kumar.a@vit.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shah, Manisha",
+        "short_name": "Shah M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio-Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India."
+        ]
+      },
+      {
+        "full_name": "Arumugam, Sivakumar",
+        "short_name": "Arumugam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio-Sciences, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India. siva_kumar.a@vit.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/02 14:43",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42369765",
+      "41341997",
+      "40008135"
+    ],
+    "refs": [
+      "38418571",
+      "38233089",
+      "38027387",
+      "37924124",
+      "37614297",
+      "37144459",
+      "36844574",
+      "36705087",
+      "36700976",
+      "36520660",
+      "36359837",
+      "36355505",
+      "35976206",
+      "34376030",
+      "33610690",
+      "33309174",
+      "33262408",
+      "33237311",
+      "32585463",
+      "31727292",
+      "31709266",
+      "30944313",
+      "30874284",
+      "30834317",
+      "29662033",
+      "29359673",
+      "28863942",
+      "27827902",
+      "27051863",
+      "25521941",
+      "25428349",
+      "24792161",
+      "24525312",
+      "23635324",
+      "22534664",
+      "22067908",
+      "21455239",
+      "21425294",
+      "21044572",
+      "20635000",
+      "20131845",
+      "19854715",
+      "19499576",
+      "19442066",
+      "19399780",
+      "18503085",
+      "18319304",
+      "18172173",
+      "16284179",
+      "15639482",
+      "15019530",
+      "14960460",
+      "14685694",
+      "14593697",
+      "12824325",
+      "12605321",
+      "11524388",
+      "11333967",
+      "11026650",
+      "10592235",
+      "10433867",
+      "5232444"
+    ],
+    "similar": [
+      "38954070",
+      "30047845",
+      "37058997",
+      "39382544",
+      "38418571",
+      "39045026",
+      "30149308",
+      "37462852",
+      "33034255",
+      "32348219",
+      "39210743",
+      "34800858",
+      "38403464",
+      "39310787",
+      "33915968",
+      "36234844",
+      "34944476",
+      "33319692",
+      "37470920",
+      "38760437",
+      "27542119",
+      "36841313",
+      "38779737",
+      "38697440",
+      "37021352",
+      "35352175",
+      "28486912",
+      "37144753",
+      "27766319",
+      "37144217",
+      "38169205",
+      "26416560",
+      "33671607",
+      "39066538",
+      "32664863",
+      "32898834",
+      "35451916",
+      "26587754",
+      "36757039",
+      "26804643",
+      "30415122",
+      "33105703",
+      "35073829",
+      "30114965",
+      "31336592",
+      "34909066",
+      "31167344",
+      "38914662",
+      "33415518",
+      "30938574",
+      "30404161",
+      "37043162",
+      "37424193",
+      "37836625",
+      "36214962",
+      "37597062",
+      "30324898",
+      "32705954",
+      "34463213",
+      "35846777",
+      "38675594",
+      "37409931",
+      "33565001",
+      "37439907",
+      "27668885",
+      "34577052",
+      "36597611",
+      "25003344",
+      "27515040",
+      "34861473",
+      "30321850",
+      "29268664",
+      "34598068",
+      "36012627",
+      "34560213",
+      "24564425",
+      "38589405",
+      "31647392",
+      "27916850",
+      "37741229",
+      "26636371",
+      "34727985",
+      "34809538",
+      "39075002",
+      "36441444",
+      "28705120",
+      "27809674",
+      "37812986",
+      "38964628",
+      "38114219",
+      "33172092",
+      "35812153",
+      "34946760",
+      "36970779",
+      "24245755",
+      "34581863",
+      "36762704",
+      "30822195",
+      "35909285",
+      "25521775"
+    ],
+    "review": [
+      "38954070",
+      "32348219",
+      "36841313"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-024-10921-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

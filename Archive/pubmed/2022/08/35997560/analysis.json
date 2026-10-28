@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35997560",
+  "title": "NetTIME: a multitask and base-pair resolution framework for improved transcription factor binding site prediction.",
+  "authors": "Yi, Ren; Cho, Kyunghyun; Bonneau, Richard",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-08-24",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 8,
+  "one_liner_zh": "提出多任务学习框架NetTIME，以碱基对分辨率预测细胞类型特异性TF结合位点，并利用CRF优化分类，核心聚焦TF-DNA结合位点预测且方法为AI深度学习，高度匹配课题。",
+  "abstract": "MOTIVATION: Machine learning models for predicting cell-type-specific transcription factor (TF) binding sites have become increasingly more accurate thanks to the increased availability of next-generation sequencing data and more standardized model evaluation criteria. However, knowledge transfer from data-rich to data-limited TFs and cell types remains crucial for improving TF binding prediction models because available binding labels are highly skewed towards a small collection of TFs and cell types. Transfer prediction of TF binding sites can potentially benefit from a multitask learning approach; however, existing methods typically use shallow single-task models to generate low-resolution predictions. Here, we propose NetTIME, a multitask learning framework for predicting cell-type-specific TF binding sites with base-pair resolution. RESULTS: We show that the multitask learning strategy for TF binding prediction is more efficient than the single-task approach due to the increased data availability. NetTIME trains high-dimensional embedding vectors to distinguish TF and cell-type identities. We show that this approach is critical for the success of the multitask learning strategy and allows our model to make accurate transfer predictions within and beyond the training panels of TFs and cell types. We additionally train a linear-chain conditional random field (CRF) to classify binding predictions and show that this CRF eliminates the need for setting a probability threshold and reduces classification noise. We compare our method's predictive performance with two state-of-the-art methods, Catchitt and Leopard, and show that our method outperforms previous methods under both supervised and transfer learning settings. AVAILABILITY AND IMPLEMENTATION: NetTIME is freely available at https://github.com/ryi06/NetTIME and the code is also archived at https://doi.org/10.5281/zenodo.6994897. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：得益于下一代测序数据可用性的增加以及更标准化的模型评估标准，用于预测细胞类型特异性转录因子（TF）结合位点的机器学习模型已变得越来越准确。然而，由于可用的结合标签高度偏向于少数转录因子和细胞类型，从数据丰富到数据有限的转录因子和细胞类型的知识迁移对于改进转录因子结合预测模型仍然至关重要。转录因子结合位点的迁移预测可能受益于多任务学习方法；然而，现有方法通常使用浅层单任务模型生成低分辨率预测。在此，我们提出NetTIME，一个用于以碱基对分辨率预测细胞类型特异性转录因子结合位点的多任务学习框架。结果：我们表明，由于数据可用性的增加，用于转录因子结合预测的多任务学习策略比单任务方法更高效。NetTIME训练高维嵌入向量以区分转录因子和细胞类型身份。我们表明，这种方法对于多任务学习策略的成功至关重要，并允许我们的模型在转录因子和细胞类型的训练面板内及之外做出准确的迁移预测。我们还训练了一个线性链条件随机场（CRF）来分类结合预测，并表明该CRF消除了设置概率阈值的需求，并减少了分类噪声。我们将我们方法的预测性能与两种最先进的方法Catchitt和Leopard进行比较，并表明我们的方法在监督学习和迁移学习设置下均优于先前方法。可用性和实现：NetTIME可在https://github.com/ryi06/NetTIME免费获取，代码也已存档于https://doi.org/10.5281/zenodo.6994897。补充信息：补充数据可在《生物信息学》在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35997560/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35997560/",
+  "paper_page_path": "papers/pubmed/35997560/index.html"
+}

@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "42589714",
+    "doi": "10.3390/ijms27157064",
+    "title": "In Vitro and In Silico Insights into the Antiproliferative Activity of Sesquiterpenes from Dittrichia viscosa (L.) Greuter."
+  },
+  "content": {
+    "abstract": "Four sesquiterpenes, namely tomentosin, 11alpha,13-dihydrotomentosin, inuviscolide, and alpha-costic acid, were isolated from the aerial parts of the medicinal plant Dittrichia viscosa (L.) Greuter and evaluated for antiproliferative activity against HCT116 colorectal and A549 lung cancer cells. All compounds reduced cell viability in a concentration-dependent manner, with tomentosin and inuviscolide exhibiting the greatest activity among the tested compounds and IC(50) values in the moderate micromolar range. Evaluation in non-malignant human neonatal dermal fibroblasts (HDFn) revealed compound- and cancer-type-dependent selectivity, with inuviscolide showing greater selectivity toward HCT116 cells and tomentosin showing moderate selectivity toward both cancer cell lines. In silico ADMET and DFT analyses characterized the predicted drug-likeness, pharmacokinetic, toxicity-related, and electronic properties of the compounds, particularly tomentosin and inuviscolide. Network pharmacology prioritized STAT3, ESR1, and PTGS2 as candidate hub targets associated with both cancer types, while enrichment analyses identified pathways related to tumor proliferation, inflammation, immune regulation, and cellular stress. Noncovalent molecular docking, 200 ns molecular dynamics simulations, and MM/GBSA calculations supported possible modeled interactions of tomentosin and inuviscolide with these proteins, with tomentosin displaying the most favorable predicted binding profile. Covalent docking further identified structurally feasible STAT3 CYS687-linked poses with the two sesquiterpenes, although covalent adduct formation and direct target engagement remain to be experimentally validated. Overall, the integrated findings prioritize tomentosin and inuviscolide as D. viscosa-derived natural-product scaffolds with moderate antiproliferative activity for further structural optimization, selectivity assessment, and experimental mechanistic validation.",
+    "keywords": [
+      "Dittrichia viscosa",
+      "anticancer activity",
+      "covalent molecular docking",
+      "inuviscolide",
+      "network pharmacology",
+      "sesquiterpenes",
+      "tomentosin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sesquiterpenes/pharmacology/chemistry",
+      "*Cell Proliferation/drug effects",
+      "Molecular Docking Simulation",
+      "*Asteraceae/chemistry",
+      "HCT116 Cells",
+      "*Antineoplastic Agents, Phytogenic/pharmacology/chemistry",
+      "A549 Cells",
+      "STAT3 Transcription Factor/metabolism/chemistry",
+      "Cyclooxygenase 2/metabolism/chemistry",
+      "Plant Extracts/pharmacology/chemistry",
+      "Cell Survival/drug effects",
+      "Lactones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Salvatore, Maria Michela",
+        "Masi, Marco",
+        "Suleman, Muhammad",
+        "Kalath, Haritha",
+        "Karousa, Mai M",
+        "Ayoub, Maha M",
+        "Shaito, Abdullah A",
+        "Andolfi, Anna"
+      ],
+      "short_names": [
+        "Salvatore MM",
+        "Masi M",
+        "Suleman M",
+        "Kalath H",
+        "Karousa MM",
+        "Ayoub MM",
+        "Shaito AA",
+        "Andolfi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8318-3065",
+        "ORCID: 0000-0003-0609-8902",
+        "ORCID: 0009-0006-5214-9087",
+        "ORCID: 0009-0008-1596-5928",
+        "ORCID: 0000-0003-3524-7962",
+        "ORCID: 0000-0001-8949-3654"
+      ],
+      "affiliations": [
+        "Department of Veterinary Medicine and Animal Production, University of Naples Federico II, 80137 Naples, Italy.",
+        "Department of Chemical Science, University of Naples Federico II, 80126 Naples, Italy.",
+        "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "College of Medicine, Qatar University, QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+        "Department of Chemical Science, University of Naples Federico II, 80126 Naples, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Salvatore, Maria Michela",
+        "short_name": "Salvatore MM",
+        "identifiers": [
+          "0000-0001-8318-3065"
+        ],
+        "affiliations": [
+          "Department of Veterinary Medicine and Animal Production, University of Naples Federico II, 80137 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Masi, Marco",
+        "short_name": "Masi M",
+        "identifiers": [
+          "0000-0003-0609-8902"
+        ],
+        "affiliations": [
+          "Department of Chemical Science, University of Naples Federico II, 80126 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Suleman, Muhammad",
+        "short_name": "Suleman M",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar."
+        ]
+      },
+      {
+        "full_name": "Kalath, Haritha",
+        "short_name": "Kalath H",
+        "identifiers": [
+          "0009-0006-5214-9087"
+        ],
+        "affiliations": [
+          "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar."
+        ]
+      },
+      {
+        "full_name": "Karousa, Mai M",
+        "short_name": "Karousa MM",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+          "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha P.O. Box 2713, Qatar."
+        ]
+      },
+      {
+        "full_name": "Ayoub, Maha M",
+        "short_name": "Ayoub MM",
+        "identifiers": [
+          "0009-0008-1596-5928"
+        ],
+        "affiliations": [
+          "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+          "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha P.O. Box 2713, Qatar."
+        ]
+      },
+      {
+        "full_name": "Shaito, Abdullah A",
+        "short_name": "Shaito AA",
+        "identifiers": [
+          "0000-0003-3524-7962"
+        ],
+        "affiliations": [
+          "Biomedical Research Center (BRC), QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+          "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha P.O. Box 2713, Qatar.",
+          "College of Medicine, Qatar University, QU Health, Qatar University, Doha P.O. Box 2713, Qatar."
+        ]
+      },
+      {
+        "full_name": "Andolfi, Anna",
+        "short_name": "Andolfi A",
+        "identifiers": [
+          "0000-0001-8949-3654"
+        ],
+        "affiliations": [
+          "Department of Chemical Science, University of Naples Federico II, 80126 Naples, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Aug 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 05:35",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41829818",
+      "41097370",
+      "40214725",
+      "39766227",
+      "39336114",
+      "39035692",
+      "38898093",
+      "38675685",
+      "37866421",
+      "37834370",
+      "36879343",
+      "36512705",
+      "36457332",
+      "36359261",
+      "36230807",
+      "35408507",
+      "35163692",
+      "34356677",
+      "34278794",
+      "34208907",
+      "34015367",
+      "33293618",
+      "33237311",
+      "33125081",
+      "32858871",
+      "31882993",
+      "31867160",
+      "31715132",
+      "31143772",
+      "31106366",
+      "30917517",
+      "30774861",
+      "29785435",
+      "28256516",
+      "27996267",
+      "27710942",
+      "26592383",
+      "26583988",
+      "26305108",
+      "26218649",
+      "25860834",
+      "25835573",
+      "25521941",
+      "25436094",
+      "23783276",
+      "23740750",
+      "23595664",
+      "23275693",
+      "22842992",
+      "22674838",
+      "19499576",
+      "17919456",
+      "16200636",
+      "15870208",
+      "9875847",
+      "8289285",
+      "1066687"
+    ],
+    "similar": [
+      "42589714",
+      "41829818",
+      "42595923",
+      "40907729",
+      "40214725",
+      "35125087",
+      "34015367",
+      "42384725",
+      "39888361",
+      "39698882",
+      "42398391",
+      "34643251",
+      "39876565",
+      "42123459",
+      "39304868",
+      "42588416",
+      "38715184",
+      "42451649",
+      "42008967",
+      "40818522",
+      "42065764",
+      "41490553",
+      "42431013",
+      "41406019",
+      "31136898",
+      "39532479",
+      "41070604",
+      "40615101",
+      "28410869",
+      "41683526",
+      "25522525",
+      "40991529",
+      "37948293",
+      "38840248",
+      "36382772",
+      "41977209",
+      "33501684",
+      "42107349",
+      "42371974",
+      "27922187",
+      "41709507",
+      "42401652",
+      "39256453",
+      "39698883",
+      "41748763",
+      "42302947",
+      "35243708",
+      "39666225",
+      "41754187",
+      "34579370",
+      "41828663",
+      "41155677",
+      "34356677",
+      "40468803",
+      "41812938",
+      "42054874",
+      "32145350",
+      "41495854",
+      "21109433",
+      "40939147",
+      "32248516",
+      "39878119",
+      "42176170",
+      "42070106",
+      "41320730",
+      "41039037",
+      "39331833",
+      "21441864",
+      "40780127",
+      "42235269",
+      "28598409",
+      "41796619",
+      "42450244",
+      "38994626",
+      "40299153",
+      "38735699",
+      "41006588",
+      "36359261",
+      "39278295",
+      "41471388",
+      "31418584",
+      "31445194",
+      "11921538",
+      "40571228",
+      "42589713",
+      "39425858",
+      "27919107",
+      "39067352",
+      "23376285",
+      "41101548",
+      "40077896",
+      "12221601",
+      "39671784",
+      "41023226",
+      "25690283",
+      "22440261",
+      "39522840",
+      "40076902",
+      "39786519",
+      "40975960"
+    ],
+    "review": [
+      "42589714",
+      "36359261"
+    ],
+    "pmc": [
+      "13467573"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27157064",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42589714/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

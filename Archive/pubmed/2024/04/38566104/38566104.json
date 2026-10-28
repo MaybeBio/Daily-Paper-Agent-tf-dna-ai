@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "38566104",
+    "doi": "10.1186/s13073-024-01323-6",
+    "title": "Race-specific coregulatory and transcriptomic profiles associated with DNA methylation and androgen receptor in prostate cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Prostate cancer is a significant health concern, particularly among African American (AA) men who exhibit higher incidence and mortality compared to European American (EA) men. Understanding the molecular mechanisms underlying these disparities is imperative for enhancing clinical management and achieving better outcomes. METHODS: Employing a multi-omics approach, we analyzed prostate cancer in both AA and EA men. Using Illumina methylation arrays and RNA sequencing, we investigated DNA methylation and gene expression in tumor and non-tumor prostate tissues. Additionally, Boolean analysis was utilized to unravel complex networks contributing to racial disparities in prostate cancer. RESULTS: When comparing tumor and adjacent non-tumor prostate tissues, we found that DNA hypermethylated regions are enriched for PRC2/H3K27me3 pathways and EZH2/SUZ12 cofactors. Olfactory/ribosomal pathways and distinct cofactors, including CTCF and KMT2A, were enriched in DNA hypomethylated regions in prostate tumors from AA men. We identified race-specific inverse associations of DNA methylation with expression of several androgen receptor (AR) associated genes, including the GATA family of transcription factors and TRIM63. This suggests that race-specific dysregulation of the AR signaling pathway exists in prostate cancer. To investigate the effect of AR inhibition on race-specific gene expression changes, we generated in-silico patient-specific prostate cancer Boolean networks. Our simulations revealed prolonged AR inhibition causes significant dysregulation of TGF-beta, IDH1, and cell cycle pathways specifically in AA prostate cancer. We further quantified global gene expression changes, which revealed differential expression of genes related to microtubules, immune function, and TMPRSS2-fusion pathways, specifically in prostate tumors of AA men. Enrichment of these pathways significantly correlated with an altered risk of disease progression in a race-specific manner. CONCLUSIONS: Our study reveals unique signaling networks underlying prostate cancer biology in AA and EA men, offering potential insights for clinical management strategies tailored to specific racial groups. Targeting AR and associated pathways could be particularly beneficial in addressing the disparities observed in prostate cancer outcomes in the context of AA and EA men. Further investigation into these identified pathways may lead to the development of personalized therapeutic approaches to improve outcomes for prostate cancer patients across different racial backgrounds.",
+    "keywords": [],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Receptors, Androgen/genetics",
+      "DNA Methylation",
+      "*Prostatic Neoplasms/genetics/pathology",
+      "Gene Expression Profiling",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramakrishnan, Swathi",
+        "Cortes-Gomez, Eduardo",
+        "Athans, Sarah R",
+        "Attwood, Kristopher M",
+        "Rosario, Spencer R",
+        "Kim, Se Jin",
+        "Mager, Donald E",
+        "Isenhart, Emily G",
+        "Hu, Qiang",
+        "Wang, Jianmin",
+        "Woloszynska, Anna"
+      ],
+      "short_names": [
+        "Ramakrishnan S",
+        "Cortes-Gomez E",
+        "Athans SR",
+        "Attwood KM",
+        "Rosario SR",
+        "Kim SJ",
+        "Mager DE",
+        "Isenhart EG",
+        "Hu Q",
+        "Wang J",
+        "Woloszynska A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5279-9414"
+      ],
+      "affiliations": [
+        "Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Biostatistics, SUNY University at Buffalo, Kimball Tower, Buffalo, NY, 14214, USA.",
+        "Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Pharmaceutical Sciences, SUNY University at Buffalo, Buffalo, NY, 14214, USA.",
+        "Department of Pharmaceutical Sciences, SUNY University at Buffalo, Buffalo, NY, 14214, USA.",
+        "Enhanced Pharmacodynamics, LLC, Buffalo, NY, 14203, USA.",
+        "Department of Cancer Genetics and Genomics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+        "Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA. anna.woloszynska-read@roswellpark.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramakrishnan, Swathi",
+        "short_name": "Ramakrishnan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Cortes-Gomez, Eduardo",
+        "short_name": "Cortes-Gomez E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA.",
+          "Department of Biostatistics, SUNY University at Buffalo, Kimball Tower, Buffalo, NY, 14214, USA."
+        ]
+      },
+      {
+        "full_name": "Athans, Sarah R",
+        "short_name": "Athans SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Attwood, Kristopher M",
+        "short_name": "Attwood KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Rosario, Spencer R",
+        "short_name": "Rosario SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Se Jin",
+        "short_name": "Kim SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, SUNY University at Buffalo, Buffalo, NY, 14214, USA."
+        ]
+      },
+      {
+        "full_name": "Mager, Donald E",
+        "short_name": "Mager DE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, SUNY University at Buffalo, Buffalo, NY, 14214, USA.",
+          "Enhanced Pharmacodynamics, LLC, Buffalo, NY, 14203, USA."
+        ]
+      },
+      {
+        "full_name": "Isenhart, Emily G",
+        "short_name": "Isenhart EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Genetics and Genomics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Qiang",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianmin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA."
+        ]
+      },
+      {
+        "full_name": "Woloszynska, Anna",
+        "short_name": "Woloszynska A",
+        "identifiers": [
+          "0000-0001-5279-9414"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, Roswell Park Comprehensive Cancer Center, Buffalo, NY, 14263, USA. anna.woloszynska-read@roswellpark.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2024 Apr 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/03 00:44",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "41838984",
+      "41509387",
+      "41171711",
+      "41057544",
+      "41022596",
+      "40952000",
+      "40321218",
+      "40104216",
+      "39990314"
+    ],
+    "refs": [
+      "37279148",
+      "36837903",
+      "36662526",
+      "36633525",
+      "35721307",
+      "35565203",
+      "35164900",
+      "35143040",
+      "35040965",
+      "34953525",
+      "34853020",
+      "33772584",
+      "33664492",
+      "33013201",
+      "32503656",
+      "32360600",
+      "32033573",
+      "32019272",
+      "31846689",
+      "31704810",
+      "30762872",
+      "30733688",
+      "30561471",
+      "30537516",
+      "30013048",
+      "29660369",
+      "29483650",
+      "29449534",
+      "28826481",
+      "28473536",
+      "28412973",
+      "27557938",
+      "27270079",
+      "27268795",
+      "27060149",
+      "26544944",
+      "26443432",
+      "26381235",
+      "25972926",
+      "25864488",
+      "25516281",
+      "25263941",
+      "25260700",
+      "25066126",
+      "25032733",
+      "24478339",
+      "24423874",
+      "24019458",
+      "23826159",
+      "23396013",
+      "23345608",
+      "23323831",
+      "22743226",
+      "22456196",
+      "22300766",
+      "22257669",
+      "22235860",
+      "22155872",
+      "22144167",
+      "21915096",
+      "21546393",
+      "20878952",
+      "20661912",
+      "20478527",
+      "19505943",
+      "19451168",
+      "19289445",
+      "18674639",
+      "17010675",
+      "15082523",
+      "12692786",
+      "11926890"
+    ],
+    "similar": [
+      "38566104",
+      "32059012",
+      "35731919",
+      "36937425",
+      "34193246",
+      "26443432",
+      "20606036",
+      "24694733",
+      "26553749",
+      "26089375",
+      "37279148",
+      "34529278",
+      "38294689",
+      "20338164",
+      "30850708",
+      "30917865",
+      "26890396",
+      "30181178",
+      "31266828",
+      "24948877",
+      "32487321",
+      "39044302",
+      "25535400",
+      "25864488",
+      "10910077",
+      "32721098",
+      "28039468",
+      "32089544",
+      "22495974",
+      "26195723",
+      "27742740",
+      "33141952",
+      "9850055",
+      "28050800",
+      "19372581",
+      "32450824",
+      "30367117",
+      "25132193",
+      "22275114",
+      "29670000",
+      "28756535",
+      "26036626",
+      "27814623",
+      "25537508",
+      "27546619",
+      "31901908",
+      "27378372",
+      "31111520",
+      "33115829",
+      "23012352",
+      "14532783",
+      "21500190",
+      "33430890",
+      "34446369",
+      "35864178",
+      "35509021",
+      "24681825",
+      "34557219",
+      "20053773",
+      "11299720",
+      "26181434",
+      "19289629",
+      "35333400",
+      "33037017",
+      "11880477",
+      "17319238",
+      "33450964",
+      "25327559",
+      "21047772",
+      "25860954",
+      "34197212",
+      "31068457",
+      "31358900",
+      "23549870",
+      "32819446",
+      "23449888",
+      "27578002",
+      "8883219",
+      "35239955",
+      "11992622",
+      "30027545",
+      "25203674",
+      "11140692",
+      "39098988",
+      "24777847",
+      "30391079",
+      "27550197",
+      "23365759",
+      "37900138",
+      "22158653",
+      "20807808",
+      "36923279",
+      "17218635",
+      "24648349",
+      "34572596",
+      "16276440",
+      "21324924",
+      "29949537",
+      "24925673",
+      "32282098",
+      "35682963",
+      "36837903",
+      "36810713",
+      "32414099",
+      "36036607",
+      "38902476",
+      "39175940",
+      "37483698",
+      "39246442",
+      "34873462",
+      "39347576",
+      "35164900"
+    ],
+    "review": [
+      "38566104",
+      "36937425",
+      "27814623",
+      "34446369",
+      "17319238",
+      "35682963"
+    ],
+    "pmc": [
+      "10988846"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-024-01323-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38566104/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38566104",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3715",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse237995",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

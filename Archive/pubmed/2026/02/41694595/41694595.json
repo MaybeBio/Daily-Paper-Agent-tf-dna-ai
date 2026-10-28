@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41694595",
+    "doi": "10.7150/ijbs.127341",
+    "title": "CCL24 recruits CCR3(+) TAMs to promote immunosuppression via YAP1 activation and serves as a therapeutic target for Gracillin in colorectal cancer."
+  },
+  "content": {
+    "abstract": "Background: CC chemokines orchestrate intercellular communication and modulate tumor microenvironment. This study investigates the role of C-C motif chemokine ligand 24 (CCL24) in immune regulation in colorectal cancer (CRC). Methods: CCL24 expression and its clinical relevance in CRC were analyzed via bioinformatics and tissue microarrays. Genetic knockout of CCL24, or antibody-mediated inhibition of CCL24 was performed in AOM/DSS-induced mouse CRC models. CCL24 knockout (CCL24(ko)) CRC cells were co-cultured with macrophages or CD8(+) T cells. Mouse MC38 CRC cells with CCL24(ko) were implanted into C57BL/6 mice to generate subcutaneous or metastasis models. Molecular docking was conducted to identify potential pharmacological inhibitors of CCL24. Results: CCL24 is abundantly expressed in CRC tissues and linked to T cell dysfunction and unfavorable patient survival. Inhibition or knockout of CCL24 suppressed AOM/DSS-induced colorectal tumorigenesis in mice, reduced the population of tumor-associated macrophages (TAMs), and increased CD8(+) T cell numbers. While the morphology of CCL24(ko) cells showed minimal changes in vitro, their tumorigenic ability was reduced in immunocompetent but not in immunodeficient mice. CCL24 did not directly alter CD8(+) T cell populations; instead, CCL24(+) tumor cells recruited CCR3(+) TAMs, which promote immunosuppression by promoting nuclear translocation of YAP1, a key transcription factor of the Hippo pathway. Gracillin, a natural compound, was identified as a CCL24 inhibitor and synergized with 5-fluorouracil and programmed cell death 1 monoclonal antibody therapies in allograft-bearing mice. Conclusion: CCL24 facilitates recruitment of CCR3(+) TAMs, enhancing the immunosuppressive TME in CRC. Targeting CCL24 with agents like gracillin represents a promising therapeutic strategy.",
+    "keywords": [
+      "CCL24",
+      "CCR3",
+      "Colorectal cancer",
+      "Gracillin",
+      "Immune evasion",
+      "TAMs"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Colorectal Neoplasms/metabolism/immunology/drug therapy",
+      "Mice",
+      "YAP-Signaling Proteins",
+      "Mice, Inbred C57BL",
+      "Tumor Microenvironment",
+      "Humans",
+      "Mice, Knockout",
+      "Cell Line, Tumor",
+      "*Adaptor Proteins, Signal Transducing/metabolism/genetics",
+      "*Macrophages/metabolism",
+      "Chemokines, CC/metabolism",
+      "CD8-Positive T-Lymphocytes/metabolism",
+      "*Tumor-Associated Macrophages/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Shiyu",
+        "Lin, Wanqiong",
+        "Ding, Xu",
+        "Shi, Jinjun",
+        "Liu, Fei",
+        "Wang, Guoqing",
+        "Gao, Chanchan",
+        "Su, Xiangyu"
+      ],
+      "short_names": [
+        "Huang S",
+        "Lin W",
+        "Ding X",
+        "Shi J",
+        "Liu F",
+        "Wang G",
+        "Gao C",
+        "Su X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Southeast University, Nanjing, China.",
+        "School of Medicine, Southeast University, Nanjing, China.",
+        "School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Ultrasound, Zhongda Hospital, Medical School, Southeast University, Nanjing, China.",
+        "Department of Medical Oncology, Luhe People's Hospital of Nanjing, Nanjing, Jiangsu, China.",
+        "Department of Pathology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Oncology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Oncology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Shiyu",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Wanqiong",
+        "short_name": "Lin W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xu",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jinjun",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Zhongda Hospital, Medical School, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Luhe People's Hospital of Nanjing, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guoqing",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Chanchan",
+        "short_name": "Gao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Su, Xiangyu",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/16 12:31",
+    "fetched_at": "2026-10-01 14:25:20"
+  },
+  "links": {
+    "cites": [
+      "42644391"
+    ],
+    "refs": [
+      "40740238",
+      "40055528",
+      "39630608",
+      "38909530",
+      "38747103",
+      "38572751",
+      "38112903",
+      "37547969",
+      "36902858",
+      "36830713",
+      "36828759",
+      "36479120",
+      "36334389",
+      "36131165",
+      "35844605",
+      "35392243",
+      "35354939",
+      "35143424",
+      "35047983",
+      "34944765",
+      "34855209",
+      "34630074",
+      "34532114",
+      "34450029",
+      "34445193",
+      "34286443",
+      "34140764",
+      "33909517",
+      "33848627",
+      "33619259",
+      "33365025",
+      "33259114",
+      "33182504",
+      "32555376",
+      "32296018",
+      "32024970",
+      "31941605",
+      "31926547",
+      "30894861",
+      "30886395",
+      "30810243",
+      "30483271",
+      "29900041",
+      "29655658",
+      "29634943",
+      "29443964",
+      "29249569",
+      "29051319",
+      "28974887",
+      "28194798",
+      "28055103",
+      "28042950",
+      "27834814",
+      "26657310",
+      "25140457",
+      "22736917",
+      "21376230",
+      "20371344",
+      "17908961",
+      "9182688"
+    ],
+    "similar": [
+      "41694595",
+      "41290259",
+      "41735002",
+      "40665874",
+      "39162797",
+      "41038145",
+      "41692233",
+      "41016295",
+      "41403876",
+      "34976223",
+      "42082463",
+      "32376804",
+      "39744236",
+      "39946200",
+      "41240714",
+      "42050706",
+      "39285586",
+      "36978108",
+      "41246306",
+      "42003528",
+      "41381524",
+      "41188869",
+      "41208881",
+      "41145614",
+      "41571298",
+      "30927925",
+      "37531900",
+      "39815258",
+      "37987774",
+      "41260904",
+      "41177238",
+      "38759889",
+      "41407401",
+      "41469036",
+      "41535933",
+      "41484641",
+      "41461662",
+      "40424660",
+      "40664447",
+      "41633116",
+      "41769787",
+      "31678303",
+      "39828144",
+      "42317337",
+      "41021279",
+      "40812610",
+      "27864128",
+      "41964031",
+      "40876126",
+      "39642461",
+      "32653013",
+      "39000110",
+      "40955564",
+      "36104099",
+      "42315252",
+      "37329188",
+      "29991744",
+      "41801294",
+      "41196020",
+      "42018103",
+      "40448626",
+      "40346580",
+      "41211891",
+      "33838681",
+      "40783744",
+      "35615815",
+      "33359746",
+      "33390170",
+      "41592892",
+      "41690452",
+      "41223612",
+      "39353381",
+      "41881501",
+      "21559338",
+      "40842027",
+      "41827010",
+      "42213779",
+      "32228612",
+      "39263734",
+      "40187756",
+      "39080766",
+      "41160952",
+      "41111063",
+      "40317043",
+      "31775909",
+      "38719169",
+      "41597201",
+      "32705303",
+      "28241877",
+      "40418093",
+      "30810243",
+      "37286115",
+      "40095110",
+      "34025668",
+      "41309249",
+      "35577506",
+      "41621766",
+      "33537094",
+      "41644269",
+      "38315285"
+    ],
+    "review": [
+      "41694595",
+      "41769787"
+    ],
+    "pmc": [
+      "12905639"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41694595/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v22p2157.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

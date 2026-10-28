@@ -1,0 +1,481 @@
+{
+  "identity": {
+    "pmid": "42543505",
+    "doi": "10.1002/cam4.72161",
+    "title": "TFE3-DualNet: An Interpretable Foundation Model-Based Deep Learning Ensemble for Diagnosing TFE3-Rearranged Renal Cell Carcinoma From Whole-Slide Images in a Two-Center Cohort."
+  },
+  "content": {
+    "abstract": "BACKGROUND: TFE3-rearranged renal cell carcinoma (TFE3-rRCC) is a rare, aggressive subtype that predominantly affects adolescents and young adults. Its marked morphologic heterogeneity can delay recognition and downstream confirmatory testing. METHODS: We assembled a two-center retrospective cohort of patients < 30 years with renal cell carcinoma (n = 228; 59 TFE3-rRCC), using fluorescence in situ hybridization (FISH) as the reference standard. Model development was performed in a development cohort (n = 129), followed by independent external validation (n = 99). We developed TFE3-DualNet, an ensemble of weakly supervised CLAM models trained on routine hematoxylin and eosin (H&E) whole-slide images (WSIs) using patch embeddings extracted from two pathology foundation models (UNI and CHIEF). We compared performance with three immunohistochemistry (IHC) scoring methods and a feature-fusion CLAM baseline using concatenated H&E-derived UNI and CHIEF features, and assessed interpretability by attention mapping. RESULTS: In the external validation cohort, TFE3-DualNet achieved an area under the receiver operating characteristic curve (AUROC) of 0.932, with accuracy 0.879, sensitivity 0.893, and specificity 0.873. The model outperformed IHC scoring methods (AUROC 0.793-0.819; all p < 0.05) and exceeded the feature-fusion baseline (AUROC 0.906). Attention hotspots localized to diagnostically relevant tumor regions and showed concordance with TFE3 IHC patterns. CONCLUSIONS: TFE3-DualNet showed encouraging performance as an interpretable H&E WSI-based screening model for TFE3-rRCC in young patients, supporting its potential use to prioritize confirmatory testing and pathologist review in routine diagnostic workflows.",
+    "keywords": [
+      "TFE3-rearranged renal cell carcinoma",
+      "computational pathology",
+      "foundation model",
+      "whole-slide image"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/genetics/diagnosis/pathology",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/genetics",
+      "*Kidney Neoplasms/genetics/diagnosis/pathology",
+      "Female",
+      "Male",
+      "Retrospective Studies",
+      "In Situ Hybridization, Fluorescence",
+      "*Deep Learning",
+      "Adult",
+      "*Gene Rearrangement",
+      "Immunohistochemistry",
+      "Young Adult",
+      "Adolescent"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yu-Hang",
+        "Xu, Quan-Hui",
+        "Yao, Hao-Hua",
+        "Liu, Ke-Zhi",
+        "Gui, Cheng-Peng",
+        "Fu, Liang-Min",
+        "Wang, Ying-Han",
+        "Zhu, Jiang-Quan",
+        "Li, Jun-Cai",
+        "Chen, Min-Yu",
+        "Huang, Kang-Bo",
+        "Lin, Han-Sen",
+        "Liao, Bing",
+        "Cao, Yun",
+        "Wei, Jin-Huan",
+        "Li, Peng-Ju",
+        "Luo, Jun-Hang",
+        "Cao, Jia-Zheng"
+      ],
+      "short_names": [
+        "Chen YH",
+        "Xu QH",
+        "Yao HH",
+        "Liu KZ",
+        "Gui CP",
+        "Fu LM",
+        "Wang YH",
+        "Zhu JQ",
+        "Li JC",
+        "Chen MY",
+        "Huang KB",
+        "Lin HS",
+        "Liao B",
+        "Cao Y",
+        "Wei JH",
+        "Li PJ",
+        "Luo JH",
+        "Cao JZ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2931-9934",
+        "ORCID: 0000-0001-5560-0861",
+        "ORCID: 0000-0003-0970-1295",
+        "ORCID: 0000-0003-4894-3713",
+        "ORCID: 0000-0001-8038-4742",
+        "ORCID: 0000-0001-9502-7721",
+        "ORCID: 0009-0005-1458-2106",
+        "ORCID: 0000-0003-4613-7929",
+        "ORCID: 0000-0003-0179-6250",
+        "ORCID: 0000-0002-5706-0990",
+        "ORCID: 0000-0002-6916-5503"
+      ],
+      "affiliations": [
+        "Department of Genitourinary Oncology, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Department of Pathology, New York University Grossman School of Medicine, New York, New York, USA.",
+        "Department of Urology, Guangdong Provincial People's Hospital, Guangzhou, Guangdong, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, The First Affiliated Hospital, Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Urology, The Second Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, Guangzhou Women and Children's Medical Center, Guangdong Provincial Clinical Research Center for Child Health, Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pediatric Surgery, Guangzhou Institute of Pediatrics, Guangdong Provincial Key Laboratory of Research in Structural Birth Defect Disease, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "First Clinical Medical College, Tianjin Medical University, Tianjin, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, Cancer Center, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, Cancer Center, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Institute of Precision Medicine, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+        "Department of Urology, Jiangmen Central Hospital, Jiangmen, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yu-Hang",
+        "short_name": "Chen YH",
+        "identifiers": [
+          "0000-0002-2931-9934"
+        ],
+        "affiliations": [
+          "Department of Genitourinary Oncology, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin's Clinical Research Center for Cancer, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Quan-Hui",
+        "short_name": "Xu QH",
+        "identifiers": [
+          "0000-0001-5560-0861"
+        ],
+        "affiliations": [
+          "Department of Pathology, New York University Grossman School of Medicine, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Yao, Hao-Hua",
+        "short_name": "Yao HH",
+        "identifiers": [
+          "0000-0003-0970-1295"
+        ],
+        "affiliations": [
+          "Department of Urology, Guangdong Provincial People's Hospital, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ke-Zhi",
+        "short_name": "Liu KZ",
+        "identifiers": [
+          "0000-0003-4894-3713"
+        ],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Gui, Cheng-Peng",
+        "short_name": "Gui CP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital, Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Liang-Min",
+        "short_name": "Fu LM",
+        "identifiers": [
+          "0000-0001-8038-4742"
+        ],
+        "affiliations": [
+          "Department of Urology, The Second Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying-Han",
+        "short_name": "Wang YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jiang-Quan",
+        "short_name": "Zhu JQ",
+        "identifiers": [
+          "0000-0001-9502-7721"
+        ],
+        "affiliations": [
+          "Department of Urology, Guangzhou Women and Children's Medical Center, Guangdong Provincial Clinical Research Center for Child Health, Guangzhou Medical University, Guangzhou, Guangdong, China.",
+          "Department of Pediatric Surgery, Guangzhou Institute of Pediatrics, Guangdong Provincial Key Laboratory of Research in Structural Birth Defect Disease, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jun-Cai",
+        "short_name": "Li JC",
+        "identifiers": [
+          "0009-0005-1458-2106"
+        ],
+        "affiliations": [
+          "First Clinical Medical College, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Min-Yu",
+        "short_name": "Chen MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Kang-Bo",
+        "short_name": "Huang KB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Cancer Center, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Han-Sen",
+        "short_name": "Lin HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Bing",
+        "short_name": "Liao B",
+        "identifiers": [
+          "0000-0003-4613-7929"
+        ],
+        "affiliations": [
+          "Department of Pathology, Cancer Center, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yun",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jin-Huan",
+        "short_name": "Wei JH",
+        "identifiers": [
+          "0000-0003-0179-6250"
+        ],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peng-Ju",
+        "short_name": "Li PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jun-Hang",
+        "short_name": "Luo JH",
+        "identifiers": [
+          "0000-0002-5706-0990"
+        ],
+        "affiliations": [
+          "Department of Urology, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China.",
+          "Institute of Precision Medicine, First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Jia-Zheng",
+        "short_name": "Cao JZ",
+        "identifiers": [
+          "0000-0002-6916-5503"
+        ],
+        "affiliations": [
+          "Department of Urology, Jiangmen Central Hospital, Jiangmen, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/03 06:36",
+    "fetched_at": "2026-10-02 03:09:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40381702",
+      "39309216",
+      "39232164",
+      "39085357",
+      "39061821",
+      "39039250",
+      "38926757",
+      "38778098",
+      "38504018",
+      "38504017",
+      "38104891",
+      "35980471",
+      "35853783",
+      "35180736",
+      "33649564",
+      "33514585",
+      "32286325",
+      "31175325",
+      "30851332",
+      "28415646",
+      "27565001",
+      "27164577",
+      "26972595",
+      "25758327",
+      "23625974",
+      "23598965",
+      "22498819",
+      "21773754",
+      "21044043",
+      "20034980",
+      "12766578",
+      "3203132"
+    ],
+    "similar": [
+      "42543505",
+      "41121311",
+      "33514585",
+      "40381702",
+      "39470841",
+      "38477529",
+      "41930555",
+      "23828314",
+      "32701515",
+      "40754899",
+      "41171468",
+      "39912368",
+      "38971946",
+      "23715164",
+      "38926757",
+      "40865922",
+      "41546988",
+      "33197836",
+      "41906257",
+      "39111254",
+      "39966236",
+      "23598965",
+      "40057038",
+      "31175325",
+      "32286325",
+      "38852815",
+      "38104891",
+      "34148064",
+      "25984679",
+      "36695651",
+      "40339759",
+      "27934879",
+      "37500159",
+      "39862330",
+      "30908700",
+      "35149286",
+      "24228124",
+      "40239600",
+      "39169706",
+      "40485553",
+      "22498819",
+      "33004995",
+      "40578488",
+      "30107660",
+      "39762166",
+      "38387043",
+      "35912477",
+      "35975764",
+      "41212280",
+      "31955345",
+      "39593216",
+      "28296677",
+      "41716419",
+      "31043488",
+      "40836233",
+      "28315422",
+      "31277953",
+      "26045774",
+      "40050998",
+      "27733182",
+      "40791094",
+      "26169997",
+      "38261736",
+      "41999268",
+      "31892340",
+      "35980471",
+      "28840857",
+      "34358382",
+      "28106924",
+      "26880493",
+      "37499055",
+      "28415646",
+      "25544614",
+      "35118587",
+      "21773754",
+      "36656224",
+      "37770905",
+      "26415891",
+      "42494157",
+      "41841638",
+      "22037260",
+      "20683695",
+      "41790060",
+      "26975036",
+      "41243505",
+      "41083966",
+      "26972595",
+      "40820012",
+      "41574499",
+      "27893792",
+      "33854184",
+      "23628822",
+      "41192013",
+      "42536557",
+      "30695864",
+      "42588692",
+      "29968390",
+      "28208226",
+      "21602817",
+      "25955396"
+    ],
+    "review": [
+      "42543505",
+      "33197836",
+      "30908700",
+      "40239600",
+      "35912477",
+      "40836233",
+      "37499055",
+      "36656224",
+      "26972595"
+    ],
+    "pmc": [
+      "13429883"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42543505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.72161",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

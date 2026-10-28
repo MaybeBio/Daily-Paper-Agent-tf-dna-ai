@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "41527854",
+    "doi": "10.1093/bib/bbaf721",
+    "title": "EpiXFormer: a cross-attention neural network for predicting cell type-specific transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) bind to specific sequences in the genome to regulate gene expression and specify cell states. TF binding sites (TFBSs) are cell type-specific, which can be attributed to epigenomic contexts. Comprehensive profiling of TFBSs across various cell types through experimental approaches is neither practical nor cost-friendly. Accurately identifying cell type-specific TFBSs through computational approaches remains challenging. Here, we develop EpiXFormer, a novel transformer-based neural network for cell type-specific TFBS prediction. EpiXFormer achieves exceptional performance in predicting binding sites of DNA-binding proteins (DBPs) across a diverse collection of cell types. It models the effects of proximal and distal epigenomic information on DBP binding and learns the identified motifs of the examined TFs and their potential co-occurring proteins. Moreover, we demonstrate that EpiXFormer can infer pioneer factors during cell type transition and delineate the cell type-specific regulatory functions of TFs. Overall, EpiXFormer enables cell type-specific TFBS prediction in the examined cell lines and is readily applied to other cell types of interest. It provides a robust, scalable framework for characterizing and interpreting multimodal genomic data.",
+    "keywords": [
+      "cross attention",
+      "epigenetic state",
+      "pioneer factor",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Transcription Factors/metabolism",
+      "*Neural Networks, Computer",
+      "Humans",
+      "*Computational Biology/methods",
+      "Protein Binding",
+      "Animals",
+      "DNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Yonglin",
+        "Liu, Xinhua",
+        "Wu, Jun",
+        "Lin, Sang",
+        "Zhan, Shengxuan",
+        "Li, Hua",
+        "Wang, Ju",
+        "Zhao, Xiaodong"
+      ],
+      "short_names": [
+        "Peng Y",
+        "Liu X",
+        "Wu J",
+        "Lin S",
+        "Zhan S",
+        "Li H",
+        "Wang J",
+        "Zhao X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3381-2561",
+        "ORCID: 0000-0002-6514-0923",
+        "ORCID: 0000-0002-2630-7161"
+      ],
+      "affiliations": [
+        "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, 2318 Yuhangtang Road, Yuhang, Hangzhou, Zhejiang 311121, China.",
+        "The Center for Bioinformatics and Computational Biology, Shanghai Key Laboratory of Regulatory Biology, the Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, 500 Dongchuan Road, Minhang District, Shanghai 200241, China.",
+        "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China.",
+        "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China.",
+        "Jiangsu Province Engineering Research Center of Development and Translation of Key Technologies for Chronic Disease Prevention and Control, Suzhou Vocational Health College, 28 Kehua Road, Huqiu District, Suzhou, Jiangsu 215009, China.",
+        "School of Biomedical Engineering, Tianjin Medical University, 22 Qixiangtai Road, Heping District, Tianjin 300070, China.",
+        "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Yonglin",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinhua",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, 2318 Yuhangtang Road, Yuhang, Hangzhou, Zhejiang 311121, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jun",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0002-3381-2561"
+        ],
+        "affiliations": [
+          "The Center for Bioinformatics and Computational Biology, Shanghai Key Laboratory of Regulatory Biology, the Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, 500 Dongchuan Road, Minhang District, Shanghai 200241, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Sang",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Shengxuan",
+        "short_name": "Zhan S",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Engineering Research Center of Development and Translation of Key Technologies for Chronic Disease Prevention and Control, Suzhou Vocational Health College, 28 Kehua Road, Huqiu District, Suzhou, Jiangsu 215009, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ju",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-6514-0923"
+        ],
+        "affiliations": [
+          "School of Biomedical Engineering, Tianjin Medical University, 22 Qixiangtai Road, Heping District, Tianjin 300070, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaodong",
+        "short_name": "Zhao X",
+        "identifiers": [
+          "0000-0002-2630-7161"
+        ],
+        "affiliations": [
+          "Shanghai Center for Systems Biomedicine, Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Jiao Tong University, 800 Dongchuan Road, Minhang District, Shanghai 200240, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/13 07:42",
+    "fetched_at": "2026-10-05 04:45:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39236156",
+      "37940484",
+      "37381036",
+      "37365273",
+      "37023129",
+      "36719906",
+      "36216888",
+      "35264768",
+      "34508258",
+      "33741685",
+      "33603233",
+      "33522898",
+      "32330476",
+      "32085783",
+      "31907445",
+      "31713622",
+      "30922998",
+      "30630522",
+      "30567711",
+      "30343899",
+      "29425488",
+      "28111071",
+      "27301576",
+      "26883003",
+      "26213851",
+      "25820421",
+      "25707927",
+      "25693563",
+      "24335803",
+      "23934153",
+      "22955616",
+      "21330290",
+      "20436461",
+      "20133600",
+      "19815308",
+      "17540862"
+    ],
+    "similar": [
+      "41527854",
+      "31336830",
+      "38701417",
+      "42099803",
+      "27567672",
+      "36155619",
+      "28623591",
+      "20158869",
+      "34272562",
+      "34929739",
+      "28750606",
+      "27503086",
+      "42145197",
+      "40889326",
+      "40914877",
+      "33522898",
+      "40102719",
+      "24386279",
+      "32770026",
+      "27871221",
+      "35042722",
+      "36484687",
+      "41634097",
+      "34486522",
+      "39402535",
+      "23272209",
+      "30447332",
+      "24042128",
+      "34613923",
+      "27311443",
+      "39701486",
+      "19158363",
+      "34752400",
+      "33372147",
+      "29617928",
+      "23382538",
+      "22504445",
+      "24238150",
+      "38940155",
+      "30380113",
+      "20360861",
+      "27307632",
+      "22955984",
+      "30709337",
+      "38216534",
+      "34174819",
+      "40702706",
+      "28485207",
+      "27106869",
+      "36057196",
+      "21193520",
+      "38732207",
+      "33498086",
+      "23144600",
+      "41247408",
+      "34073774",
+      "40740140",
+      "21059262",
+      "19586888",
+      "40411397",
+      "27052996",
+      "41518506",
+      "17914226",
+      "24926895",
+      "26285121",
+      "32155318",
+      "33413545",
+      "30142147",
+      "39922842",
+      "39623329",
+      "38733561",
+      "28849563",
+      "22534400",
+      "29363433",
+      "37803120",
+      "32920048",
+      "24039567",
+      "30567711",
+      "40279252",
+      "41518500",
+      "31754708",
+      "27153645",
+      "31634140",
+      "32043966",
+      "39076052",
+      "22672438",
+      "26703974",
+      "26721389",
+      "37805453",
+      "28359978",
+      "18426580",
+      "19730699",
+      "19403457",
+      "18627598",
+      "41035197",
+      "30629513",
+      "18922190",
+      "31855461",
+      "23527292",
+      "24942981"
+    ],
+    "review": [
+      "41527854",
+      "30447332",
+      "36057196",
+      "19586888"
+    ],
+    "pmc": [
+      "12796812"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41527854.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41527854/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf721",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

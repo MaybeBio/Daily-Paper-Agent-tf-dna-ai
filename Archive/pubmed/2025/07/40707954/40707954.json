@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "40707954",
+    "doi": "10.1186/s12967-025-06659-0",
+    "title": "A multi-omic single-cell landscape reveals transcription and epigenetic regulatory features of t(8;21) AML."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Comprehensive analysis of single-cell transcriptome and chromatin accessibility will contribute to interpret the heterogeneity of acute myeloid leukemia (AML). We hypothesize that integrating single-cell transcriptomic and chromatin accessibility landscapes underlying t(8;21) AML will provide valuable insights into its heterogeneous cellular properties and gene regulatory programs. METHODS: Here, we conducted paired single-cell RNA-sequencing (scRNA-seq) and single-cell ATAC sequencing on bone marrow samples from newly diagnosed t(8;21) AML patients and healthy controls. Genetic signatures extracted from scRNA-seq were built and validated across three independent cohorts (German AMLCG1999, GSE106291 and TCGA LAML). RESULTS: We identified TCF12, a core component of AML1-ETO-containing transcription factor complex (AETFC), as the most active transcription factor in blast cells, driving a universally repressed chromatin state. Furthermore, we delineated two functionally distinct T cell subsets, revealing that EOMES-mediated transcriptional regulation promotes the expansion of a cytotoxic T cell population (T cells_2; high GNLY, NKG7 and GZMB expression), with an increased clonality and a tendency for drug resistance. In addition, we discovered a novel leukemic CMP-like cluster characterized by high TPSAB1, HPGD and FCER1A expression. Leveraging machine learning-based integration of multi-omic profiles, we identified a robust 9-gene prognostic signature, which demonstrated significant predictive value for AML outcomes across three independent cohorts. CONCLUSIONS: This multi-omics study provides unprecedented insights into the transcriptional and epigenetic heterogeneity of t(8;21) AML, providing a potential actionable tool for clinical risk stratification.",
+    "keywords": [
+      "T(8;21) AML",
+      "TCR repertoire",
+      "scATAC-seq",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/genetics/pathology",
+      "*Epigenesis, Genetic",
+      "*Single-Cell Analysis",
+      "*Chromosomes, Human, Pair 8/genetics",
+      "*Translocation, Genetic/genetics",
+      "*Transcription, Genetic",
+      "*Chromosomes, Human, Pair 21/genetics",
+      "Male",
+      "Female",
+      "Gene Expression Regulation, Leukemic",
+      "Chromatin/metabolism",
+      "Middle Aged",
+      "Reproducibility of Results",
+      "Adult",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xue-Ping",
+        "Gao, Yan",
+        "Zhao, Bai-Tian",
+        "Dai, Yu-Ting",
+        "Mao, Jia-Ying",
+        "Liang, Yang",
+        "Jiang, Lu"
+      ],
+      "short_names": [
+        "Li XP",
+        "Gao Y",
+        "Zhao BT",
+        "Dai YT",
+        "Mao JY",
+        "Liang Y",
+        "Jiang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4588-065X"
+      ],
+      "affiliations": [
+        "Department of Hematologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+        "Department of Hematologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China. liangyang@sysucc.org.cn.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China. liangyang@sysucc.org.cn.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, China. jl11891@rjh.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xue-Ping",
+        "short_name": "Li XP",
+        "identifiers": [
+          "0000-0002-4588-065X"
+        ],
+        "affiliations": [
+          "Department of Hematologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yan",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bai-Tian",
+        "short_name": "Zhao BT",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China.",
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yu-Ting",
+        "short_name": "Dai YT",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Jia-Ying",
+        "short_name": "Mao JY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yang",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China. liangyang@sysucc.org.cn.",
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, China. liangyang@sysucc.org.cn."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lu",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200025, China. jl11891@rjh.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Jul 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/25 00:28",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "41898298",
+      "41703594",
+      "41694344",
+      "41398141",
+      "41316485"
+    ],
+    "refs": [
+      "40076539",
+      "39841459",
+      "39661948",
+      "39284810",
+      "39086485",
+      "38871999",
+      "38647535",
+      "38582082",
+      "38071226",
+      "37977148",
+      "37543948",
+      "37479893",
+      "36918717",
+      "35797463",
+      "35236415",
+      "35062949",
+      "34798898",
+      "34017124",
+      "33633365",
+      "33597522",
+      "33053331",
+      "32747558",
+      "31375813",
+      "30827681",
+      "30643263",
+      "30593567",
+      "30531897",
+      "29608179",
+      "29344090",
+      "28622514",
+      "28179282",
+      "28123722",
+      "28091601",
+      "27798847",
+      "26445707",
+      "25591928",
+      "23812588",
+      "22455463",
+      "22343733",
+      "19917777",
+      "19204326",
+      "18587391",
+      "17356713",
+      "16909099",
+      "15333839",
+      "11595161"
+    ],
+    "similar": [
+      "40707954",
+      "41671045",
+      "39086485",
+      "40435135",
+      "40781784",
+      "40409464",
+      "20376082",
+      "8639850",
+      "32323795",
+      "9234595",
+      "37845689",
+      "39558215",
+      "22740448",
+      "11920209",
+      "39888372",
+      "33152396",
+      "40577680",
+      "40038518",
+      "18206229",
+      "32977829",
+      "38647535",
+      "33958724",
+      "42524819",
+      "42074532",
+      "20460523",
+      "40482912",
+      "40660382",
+      "26546158",
+      "26397705",
+      "25860287",
+      "31533028",
+      "25928846",
+      "41284982",
+      "33717140",
+      "27231175",
+      "41230160",
+      "32741803",
+      "41139200",
+      "41622032",
+      "40781032",
+      "40133836",
+      "41874839",
+      "26980726",
+      "38664790",
+      "40225861",
+      "41815171",
+      "41318446",
+      "22343733",
+      "22031861",
+      "27851970",
+      "12760263",
+      "20208555",
+      "40889732",
+      "42023218",
+      "19001502",
+      "41685312",
+      "41340131",
+      "42475469",
+      "40557150",
+      "42213195",
+      "41221736",
+      "28611288",
+      "41155287",
+      "42420449",
+      "24342949",
+      "41601657",
+      "33218352",
+      "42309401",
+      "23022987",
+      "12393465",
+      "42213171",
+      "32747558",
+      "39090256",
+      "42123320",
+      "30251205",
+      "33509276",
+      "41601671",
+      "26043758",
+      "39905485",
+      "36943152",
+      "28538183",
+      "8916934",
+      "25101977",
+      "39641872",
+      "41838954",
+      "7507193",
+      "26449661",
+      "29518627",
+      "16465716",
+      "40102789",
+      "23616623",
+      "41120274",
+      "36607615",
+      "41035636",
+      "39033303",
+      "42231444",
+      "39737198",
+      "40496864",
+      "30922328",
+      "38966636"
+    ],
+    "review": [
+      "40707954",
+      "9234595",
+      "42074532",
+      "40889732"
+    ],
+    "pmc": [
+      "12288317"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06659-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40707954/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

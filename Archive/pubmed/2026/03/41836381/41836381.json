@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "41836381",
+    "doi": "10.3389/fimmu.2026.1771161",
+    "title": "Ziyuglycoside II ameliorates chemotherapy-induced neutropenia by promoting neutrophil differentiation and functional recovery via SPI1 and C/EBPϵ transcriptional regulation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chemotherapy-induced neutropenia (CIN) remains a major dose-limiting toxicity associated with myelosuppressive chemotherapy regimens. The development of therapeutic strategies capable of effectively restoring neutrophil production and function could address a critical unmet clinical issue. ZGSII, a bioactive compound derived from Sanguisorba officinalis, has shown potential in ameliorating leukopenia. To further evaluate its therapeutic applicability for CIN, a comprehensive understanding of its underlying mechanisms is essential. This study aims to assess the efficacy of ZGSII in mitigating cyclophosphamide-induced neutropenia and myelosuppression and to elucidate the underlying mechanism involved through transcriptome sequencing, protein-protein interaction network construction, and functional validation assays. METHODS: A murine model of cyclophosphamide-induced neutropenia and the human promyelocytic leukemia cell line NB4 were employed to evaluate the effects of ZGSII alleviating chemotherapy-induced neutropenia and promoting neutrophil differentiation, through blood cell count, flow cytometry analysis, and Wright-Giemsa staining. The underlying molecular mechanisms of ZGSII in treatment CIN were systematically investigated through integrated approaches including transcriptomics profiling, computational simulations, and in vivo function validation. RESULTS: This study demonstrated that ZGSII effectively alleviates cyclophosphamide-induced neutropenia and bone marrow suppression in murine models, promoting neutrophil reconstitution without inducing excessive bone marrow mobilization. Transcriptomic analysis revealed that ZGSII restores neutrophil-related transcriptional programs, enriched pathways associated with leukocyte migration, myeloid cell activation, and inflammatory regulation. Integration of publicly granulopoiesis datasets enabled the identification of 37 key genes associated with neutrophil differentiation and maturation. Mechanistically, computational modeling suggests potential interaction of ZGSII with SPI1 and C/EBPϵ, restoring their protein expression and driving granulocytic differentiation. Functional assays further confirmed that ZGSII enhances neutrophil phagocytosis activity, reactive oxygen species (ROS) production, and cytokine homeostasis. Notably, administration of ZGSII conferred significant survival advantages in neutropenic mice following challenge with Staphylococcus aureus. CONCLUSIONS: ZGSII alleviates CIN by regulating SPI1 and C/EBPϵ transcriptional activity to promote neutrophil differentiation and functional recovery. These findings provides a preclinical proof for ZGSII as a therapeutic adjuvant or alternative treatment option for CIN.",
+    "keywords": [
+      "C/EBPϵ",
+      "SPI1",
+      "Ziyuglycoside II",
+      "chemotherapy-induced neutropenia",
+      "neutrophil differentiation",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Neutropenia/chemically induced/drug therapy",
+      "*Neutrophils/drug effects/metabolism/immunology",
+      "Mice",
+      "Humans",
+      "Cell Differentiation/drug effects",
+      "Cyclophosphamide/adverse effects",
+      "Proto-Oncogene Protein Spi-1",
+      "*Saponins/pharmacology/therapeutic use",
+      "*CCAAT-Enhancer-Binding Proteins/genetics/metabolism",
+      "Gene Expression Regulation/drug effects",
+      "Disease Models, Animal",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Lingdi",
+        "Lei, Huan",
+        "Chen, Luqi",
+        "Cao, Chunye",
+        "He, Haolin",
+        "Zhang, Yanfeng",
+        "Zhang, Lin",
+        "Peng, Liang",
+        "Yang, Yuxiu",
+        "Feng, Yulin",
+        "Fang, Haihong"
+      ],
+      "short_names": [
+        "Li L",
+        "Lei H",
+        "Chen L",
+        "Cao C",
+        "He H",
+        "Zhang Y",
+        "Zhang L",
+        "Peng L",
+        "Yang Y",
+        "Feng Y",
+        "Fang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China.",
+        "The National Pharmaceutical Engineering Center for Solid Preparation in Chinese Herbal Medicine, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Lingdi",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Huan",
+        "short_name": "Lei H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Luqi",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Chunye",
+        "short_name": "Cao C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "He, Haolin",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanfeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Liang",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuxiu",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Yulin",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "The National Pharmaceutical Engineering Center for Solid Preparation in Chinese Herbal Medicine, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Haihong",
+        "short_name": "Fang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Jiangxi Science and Technology Normal University, Nanchang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/16 21:57",
+    "fetched_at": "2026-10-01 16:35:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41115156",
+      "40410065",
+      "40308599",
+      "39286626",
+      "39108738",
+      "38603860",
+      "38566827",
+      "38440978",
+      "37941896",
+      "37260161",
+      "36706933",
+      "35928272",
+      "35785754",
+      "35028801",
+      "34887853",
+      "34785413",
+      "34494505",
+      "34278794",
+      "33505167",
+      "33299642",
+      "33069969",
+      "32936637",
+      "32719519",
+      "32579887",
+      "31941367",
+      "31029785",
+      "30952671",
+      "30407218",
+      "29636422",
+      "29495641",
+      "29466759",
+      "28939926",
+      "28718964",
+      "28514439",
+      "28329729",
+      "28249548",
+      "27586820",
+      "25881459",
+      "25835573",
+      "25822800",
+      "25516281",
+      "24530056",
+      "22388286",
+      "21816040",
+      "21224471",
+      "20864248",
+      "18390930",
+      "15642259",
+      "12515729",
+      "12060844"
+    ],
+    "similar": [
+      "41836381",
+      "41369377",
+      "37266765",
+      "33421903",
+      "33069969",
+      "32822868",
+      "12515729",
+      "34075619",
+      "40619172",
+      "34101878",
+      "23243275",
+      "42421348",
+      "39742788",
+      "41432050",
+      "27737899",
+      "28432529",
+      "19109189",
+      "32299910",
+      "40769436",
+      "12522000",
+      "42475469",
+      "41016300",
+      "16500901",
+      "9326225",
+      "40874937",
+      "21504247",
+      "27942017",
+      "40764361",
+      "41451234",
+      "38232908",
+      "11438745",
+      "25514379",
+      "15686465",
+      "15664994",
+      "19925846",
+      "12384420",
+      "41101075",
+      "36156473",
+      "41303615",
+      "41740292",
+      "40440957",
+      "40632337",
+      "11493431",
+      "31811421",
+      "40370462",
+      "38924929",
+      "38324036",
+      "21689417",
+      "41317432",
+      "40523519",
+      "30114705",
+      "39588369",
+      "29083488",
+      "20864248",
+      "21456630",
+      "33569051",
+      "41228500",
+      "23686134",
+      "41330171",
+      "40414048",
+      "40187604",
+      "11861297",
+      "41540461",
+      "41832498",
+      "41355542",
+      "42462530",
+      "37905415",
+      "42475966",
+      "40816582",
+      "37344102",
+      "9376579",
+      "37538353",
+      "42418040",
+      "42107891",
+      "42155822",
+      "40486124",
+      "28360858",
+      "40186900",
+      "18728026",
+      "16684888",
+      "10233885",
+      "41716413",
+      "21668998",
+      "17254333",
+      "40220409",
+      "41316271",
+      "11239167",
+      "25568349",
+      "30157922",
+      "15673544",
+      "41554453",
+      "42007397",
+      "42196261",
+      "23246696",
+      "41625479",
+      "30978457",
+      "18832658",
+      "7760844",
+      "35547875",
+      "41039452"
+    ],
+    "review": [
+      "41836381",
+      "21504247",
+      "21456630",
+      "37905415",
+      "11239167"
+    ],
+    "pmc": [
+      "12979075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41836381/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1771161",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.15.643417",
+  "title": "Novel Driver Mutations in GCB Lymphoma Patients That Affect Transcription Factors Binding",
+  "doi": "10.1101/2025.03.15.643417",
+  "abstract": "Mutations in the DNA can affect cancer development and progression not only by changing the amino acid chain but also by affecting different regulatory elements such as transcription factors. This study introduces a novel pipeline to identify “mutation blocks” - small genomic areas with high mutation rates that potentially influence transcription factors binding. By analyzing GCB lymphoma patient data, mutations blocks were identified that correlated with gene expression changes and were linked to transcription factor activity. These mutation blocks suggest a selection for mutations that alter gene regulation, contributing to lymphoma development. The analysis identified 56 mutation blocks in germinal center B-cell like diffuse large B-cell lymphoma (GCB DLBCL) patients’ genomes, affecting genes such as BCL2, MYC, SGK1, and PIM1, and linked to transcription factors including MSC, TCFL5, HOXB7, FOXP3, and ZBTB6. A machine learning model that used gene ontology data suggested further potential transcription factors-gene pairs influencing cancer. These findings highlight the role of synonymous and silent mutations in altering transcription factors binding and gene expression, offering insights into the mechanisms of GCB lymphoma.",
+  "authors": [
+    "Ofek Shami-Schnitzer",
+    "Tamir Tuller"
+  ],
+  "published_date": "2025-03-17",
+  "updated_date": "2025-03-19T16:49:11Z",
+  "journal": "bioRxiv",
+  "category": "Systems Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.15.643417",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.15.643417.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Systems Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Systems Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T07:45:14Z",
+        "timestamp": 1775979914562,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            17
+          ]
+        ]
+      },
+      "group-title": "Systems Biology",
+      "reference-count": 45,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                17
+              ]
+            ],
+            "date-time": "2025-03-17T00:00:00Z",
+            "timestamp": 1742169600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Mutations in the DNA can affect cancer development and progression not only by changing the amino acid chain but also by affecting different regulatory elements such as transcription factors. This study introduces a novel pipeline to identify “mutation blocks” - small genomic areas with high mutation rates that potentially influence transcription factors binding. By analyzing GCB lymphoma patient data, mutations blocks were identified that correlated with gene expression changes and were linked to transcription factor activity. These mutation blocks suggest a selection for mutations that alter gene regulation, contributing to lymphoma development. The analysis identified 56 mutation blocks in germinal center B-cell like diffuse large B-cell lymphoma (GCB DLBCL) patients’ genomes, affecting genes such as BCL2, MYC, SGK1, and PIM1, and linked to transcription factors including MSC, TCFL5, HOXB7, FOXP3, and ZBTB6. A machine learning model that used gene ontology data suggested further potential transcription factors-gene pairs influencing cancer. These findings highlight the role of synonymous and silent mutations in altering transcription factors binding and gene expression, offering insights into the mechanisms of GCB lymphoma.</jats:p>",
+      "DOI": "10.1101/2025.03.15.643417",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2025-03-19T16:49:11Z",
+        "timestamp": 1742402951000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Novel Driver Mutations in GCB Lymphoma Patients That Affect Transcription Factors Binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ofek",
+          "family": "Shami-Schnitzer",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel-Aviv, 69978, Israel"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4194-7068",
+          "authenticated-orcid": false,
+          "given": "Tamir",
+          "family": "Tuller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Engineering, the Engineering Faculty, Tel Aviv University, Tel-Aviv, 69978, Israel"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc1299"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/emmm.201506055"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41525-021-00229-1"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43018-020-00114-3"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg775"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41540-024-00351-7"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1304227110"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shami-Schnitzer, O. , Zafir, Z. , Tuller, T. : Novel Driver Synonymous Mutations in the Coding Regions of GCB Lymphoma Patients Improve the Transcription Levels of BCL2. In: Bebis, G. , Alekseyev, M. , Cho, H. , Gevertz, J. , and Rodriguez Martinez, M. (eds.) Mathematical and Computational Oncology. pp. 108−118. Springer International Publishing, Cham (2020).",
+          "DOI": "10.1007/978-3-030-64511-3_11"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1012685"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0300-483X(02)00269-X"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-019-0196-7"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-14644-y"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3335"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1006207"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc883"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/335440a0"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1121343109"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3109/10428199909083379"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/117693510700300004"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13045-021-01111-4"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2013-05-498329"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Slack, G.W. , Gascoyne, R.D. : MYC and Aggressive B-cell Lymphomas. Adv. Anat. Pathol. 18, (2011).",
+          "DOI": "10.1097/PAP.0b013e3182169948"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fonc.2020.608722"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood.2020010432"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/13543784.2012.668527"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/bjc.2012.272"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.18.6.3130"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/leu.2008.70"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1878-0261.13085"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-15-3444"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood.V104.11.4266.4266"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/onc.2010.174"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3892/ol.2020.11374"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/icb.2014.20"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/iyad031"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2188-x"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2939672.2939754"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.39",
+          "unstructured": "Ke, G. , Meng, Q. , Finley, T. , Wang, T. , Chen, W. , Ma, W. , Ye, Q. , Liu, T.-Y. : LightGBM: A Highly Efficient Gradient Boosting Decision Tree. In: Guyon, I. , Luxburg, U.V. , Bengio, S. , Wallach, H. , Fergus, R. , Vishwanathan, S. , and Garnett, R. (eds.) Advances in Neural Information Processing Systems. Curran Associates, Inc. (2017)."
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0055-9"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.229102. Article published online before print in May 2002"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1015"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt997"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2653"
+        },
+        {
+          "key": "2026041200014383000_2025.03.15.643417v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.15.643417",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T07:01:51Z",
+        "timestamp": 1775977311000
+      },
+      "score": 94.565895,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.15.643417"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            17
+          ]
+        ]
+      },
+      "references-count": 45,
+      "URL": "https://doi.org/10.1101/2025.03.15.643417",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

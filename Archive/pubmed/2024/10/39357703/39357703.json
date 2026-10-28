@@ -1,0 +1,213 @@
+{
+  "identity": {
+    "pmid": "39357703",
+    "doi": "10.1016/j.ijbiomac.2024.136147",
+    "title": "PDNAPred: Interpretable prediction of protein-DNA binding sites based on pre-trained protein language models."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play critical roles in various biological processes and are essential for drug discovery. However, traditional experimental methods are labor-intensive and unable to keep pace with the increasing volume of protein sequences, leading to a substantial number of proteins lacking DNA-binding annotations. Therefore, developing an efficient computational method to identify protein-DNA binding sites is crucial. Unfortunately, most existing computational methods rely on manually selected features or protein structure information, making these methods inapplicable to large-scale prediction tasks. In this study, we introduced PDNAPred, a sequence-based method that combines two pre-trained protein language models with a designed CNN-GRU network to identify DNA-binding sites. Additionally, to tackle the issue of imbalanced dataset samples, we employed focal loss. Our comprehensive experiments demonstrated that PDNAPred significantly improved the accuracy of DNA-binding site prediction, outperforming existing state-of-the-art sequence-based methods. Remarkably, PDNAPred also achieved results comparable to advanced structure-based methods. The designed CNN-GRU network enhances its capability to detect DNA-binding sites accurately. Furthermore, we validated the versatility of PDNAPred by training it on RNA-binding site datasets, showing its potential as a general framework for amino acid binding site prediction. Finally, we conducted model interpretability analysis to elucidate the reasons behind PDNAPred's outstanding performance.",
+    "keywords": [
+      "Model interpretability",
+      "Pre-trained protein language model",
+      "Protein-DNA binding site"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA/metabolism/chemistry",
+      "Protein Binding",
+      "DNA-Binding Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lingrong",
+        "Liu, Taigang"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Liu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "College of Information Technology, Shanghai Ocean University, Shanghai 201306, China. Electronic address: tgliu@shou.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lingrong",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Taigang",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Technology, Shanghai Ocean University, Shanghai 201306, China. Electronic address: tgliu@shou.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 00:42",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42598852",
+      "42012716",
+      "41959628",
+      "40919912",
+      "40917099",
+      "40628826",
+      "40601248",
+      "40333592",
+      "39833102"
+    ],
+    "refs": [],
+    "similar": [
+      "39357703",
+      "39214282",
+      "39270885",
+      "29536446",
+      "38975896",
+      "38986796",
+      "39244557",
+      "25756377",
+      "24448651",
+      "38349057",
+      "34073774",
+      "39528950",
+      "39456153",
+      "29753757",
+      "38171929",
+      "32920048",
+      "33837387",
+      "21689482",
+      "34073705",
+      "38491248",
+      "25935161",
+      "32960766",
+      "35652477",
+      "22868682",
+      "38830995",
+      "27740495",
+      "35709747",
+      "34415020",
+      "37824738",
+      "32946833",
+      "39103447",
+      "39121938",
+      "29182548",
+      "39304807",
+      "30943723",
+      "30598073",
+      "32689927",
+      "19008251",
+      "24475169",
+      "21787304",
+      "31725778",
+      "16568445",
+      "39107889",
+      "19091029",
+      "23788679",
+      "22312425",
+      "15720719",
+      "18922190",
+      "39489606",
+      "30668479",
+      "17316627",
+      "25521807",
+      "34571539",
+      "34272562",
+      "26563228",
+      "36136096",
+      "23166753",
+      "30106688",
+      "39471921",
+      "20838582",
+      "34929739",
+      "22591482",
+      "39067351",
+      "28841194",
+      "38679191",
+      "35378437",
+      "27282833",
+      "38724906",
+      "19439068",
+      "29608705",
+      "19105805",
+      "33267753",
+      "19911048",
+      "39457474",
+      "39121059",
+      "38630609",
+      "31888057",
+      "14654694",
+      "16246914",
+      "25113160",
+      "35768792",
+      "27384774",
+      "20144209",
+      "39322150",
+      "31123959",
+      "31046040",
+      "37254800",
+      "38375921",
+      "34905768",
+      "34455627",
+      "11478868",
+      "17275170",
+      "23703214",
+      "39506806",
+      "29097781",
+      "39478454",
+      "39189466",
+      "28132027",
+      "29253082",
+      "20733060"
+    ],
+    "review": [
+      "39357703",
+      "25756377",
+      "25935161",
+      "35652477",
+      "39067351"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)06956-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

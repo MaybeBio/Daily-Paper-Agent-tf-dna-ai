@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "41755638",
+    "doi": "10.1093/nar/gkag181",
+    "title": "Mechanism of interaction between the transactivation domain of N-myc and the DNA-binding surface of TFIIIC5."
+  },
+  "content": {
+    "abstract": "N-myc is a transcription factor, a powerful driver of cellular growth and an important oncoprotein. N-myc interacts with many factors, including the RNA Polymerase III assembly factor, TFIIIC, a six-subunit complex that is essential for the transcription of small, structured RNA. TFIIIC and N-myc mutually restrict each other's chromatin association, and their complex contributes to quality control in mRNA transcription. We previously demonstrated that the intrinsically disordered transactivation domain of N-myc interacts directly with a sub-complex of TFIIIC, tauA. Structural studies by others show that DNA binding of tauA is largely mediated by TFIIIC3, leaving open the role of the DNA-binding domain of TFIIIC5. Here, we demonstrate that this domain is a binding site for two regions in the transactivation domain of N-myc, through an integrated approach combining NMR spectroscopy, hydrogen-deuterium exchange mass spectrometry, and interaction assays (pull-downs, ITC, fluorescence polarization, and co-immunoprecipitation). AlphaFold modelling predicts with high-confidence a binding mode for the higher affinity N-myc motif that overlaps with the predicted intramolecular binding site of the C-terminal acidic plug of TFIIIC5, removal of which enhances the binding of N-myc. This model elucidates how the N-myc:TFIIIC5 interaction competes with DNA and other interactions, providing a basis for their mutual regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Protein Binding",
+      "Transcriptional Activation",
+      "*Transcription Factors, TFIII/chemistry/metabolism/genetics",
+      "*Proto-Oncogene Proteins c-myc/chemistry/metabolism/genetics",
+      "Transcription Factor TFIIIC",
+      "*DNA/metabolism/chemistry",
+      "Humans",
+      "Models, Molecular",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leen, Eoin",
+        "Yeoh, Sharon",
+        "Sahak, Eka",
+        "Mitchell, Ellie",
+        "Wildsmith, Gemma",
+        "Batchelor, Matthew",
+        "Calabrese, Antonio N",
+        "Buchel, Gabriele",
+        "Bayliss, Richard"
+      ],
+      "short_names": [
+        "Leen E",
+        "Yeoh S",
+        "Sahak E",
+        "Mitchell E",
+        "Wildsmith G",
+        "Batchelor M",
+        "Calabrese AN",
+        "Buchel G",
+        "Bayliss R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1845-5949",
+        "ORCID: 0000-0001-7070-7341",
+        "ORCID: 0000-0003-0604-2773"
+      ],
+      "affiliations": [
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Theodor Boveri Institute, Department of Biochemistry and Molecular Biology, Biocenter, University of Wurzburg, 97074 Wurzburg, Germany.",
+        "Comprehensive Cancer Center Mainfranken, 97080 Wurzburg, Germany.",
+        "Mildred Scheel Early Career Center, University Hospital Wurzburg, 97080 Wurzburg, Germany.",
+        "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leen, Eoin",
+        "short_name": "Leen E",
+        "identifiers": [
+          "0000-0002-1845-5949"
+        ],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+          "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Yeoh, Sharon",
+        "short_name": "Yeoh S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+          "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Sahak, Eka",
+        "short_name": "Sahak E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Mitchell, Ellie",
+        "short_name": "Mitchell E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wildsmith, Gemma",
+        "short_name": "Wildsmith G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+          "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Batchelor, Matthew",
+        "short_name": "Batchelor M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+          "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Calabrese, Antonio N",
+        "short_name": "Calabrese AN",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+          "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Büchel, Gabriele",
+        "short_name": "Büchel G",
+        "identifiers": [
+          "0000-0001-7070-7341"
+        ],
+        "affiliations": [
+          "Theodor Boveri Institute, Department of Biochemistry and Molecular Biology, Biocenter, University of Würzburg, 97074 Würzburg, Germany.",
+          "Comprehensive Cancer Center Mainfranken, 97080 Würzburg, Germany.",
+          "Mildred Scheel Early Career Center, University Hospital Würzburg, 97080 Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bayliss, Richard",
+        "short_name": "Bayliss R",
+        "identifiers": [
+          "0000-0003-0604-2773"
+        ],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+          "Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Feb 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42233780",
+      "41979917"
+    ],
+    "refs": [
+      "39657784",
+      "39370942",
+      "39177021",
+      "38907034",
+      "38907031",
+      "38811792",
+      "38718835",
+      "37941901",
+      "37684250",
+      "37418517",
+      "37402369",
+      "37020022",
+      "35637307",
+      "35244724",
+      "35120642",
+      "35081348",
+      "35013218",
+      "34723319",
+      "34265844",
+      "33904398",
+      "32999288",
+      "32715994",
+      "31686052",
+      "30415952",
+      "29596783",
+      "29525204",
+      "29467282",
+      "29358508",
+      "29262328",
+      "28904013",
+      "27837025",
+      "26060179",
+      "23921640",
+      "23021216",
+      "23021215",
+      "22457068",
+      "20434984",
+      "18538660",
+      "17353931",
+      "17314511",
+      "16200636",
+      "15992821",
+      "15815974",
+      "15723054",
+      "15723053",
+      "12930823",
+      "12553908",
+      "12529648",
+      "10837031",
+      "9372943",
+      "8520220",
+      "6888561",
+      "6719137",
+      "4047115",
+      "3367995",
+      "2684647",
+      "2251503",
+      "2233723",
+      "1730411",
+      "1474578"
+    ],
+    "similar": [
+      "41755638",
+      "39370942",
+      "8755740",
+      "24705139",
+      "17242204",
+      "29262328",
+      "9696045",
+      "8076603",
+      "7729426",
+      "15663936",
+      "29695509",
+      "36174765",
+      "31918747",
+      "22457068",
+      "18393360",
+      "39538178",
+      "20843307",
+      "10319872",
+      "27926480",
+      "35685361",
+      "12167641",
+      "12821782",
+      "7623799",
+      "15992821",
+      "30222246",
+      "25883140",
+      "7862146",
+      "42235792",
+      "32999288",
+      "12080043",
+      "8378092",
+      "16705173",
+      "34019285",
+      "38264995",
+      "10567530",
+      "1406955",
+      "12748187",
+      "12930823",
+      "31686052",
+      "26060179",
+      "24309437",
+      "39657784",
+      "8290253",
+      "16461347",
+      "26559831",
+      "9632804",
+      "16893186",
+      "28620032",
+      "16287840",
+      "33450250",
+      "16880507",
+      "22496415",
+      "33443163",
+      "38424045",
+      "27859590",
+      "1497659",
+      "19432426",
+      "8294427",
+      "17611671",
+      "15003254",
+      "40762516",
+      "30139745",
+      "16115780",
+      "11514548",
+      "9797456",
+      "37230389",
+      "24067369",
+      "21068393",
+      "10601024",
+      "22815918",
+      "34320339",
+      "39993237",
+      "10653699",
+      "23921640",
+      "7651436",
+      "19818711",
+      "37971402",
+      "37418517",
+      "1620120",
+      "12529648",
+      "11282029",
+      "15723054",
+      "12477864",
+      "11741971",
+      "15298704",
+      "12533520",
+      "31149037",
+      "41898606",
+      "30639410",
+      "12177005",
+      "15655249",
+      "22496461",
+      "18059478",
+      "8524218",
+      "7729686",
+      "18174357",
+      "26522729",
+      "17148437",
+      "17885207",
+      "8146655"
+    ],
+    "review": [
+      "41755638",
+      "28620032"
+    ],
+    "pmc": [
+      "12956345"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41755638/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag181",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/239207/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

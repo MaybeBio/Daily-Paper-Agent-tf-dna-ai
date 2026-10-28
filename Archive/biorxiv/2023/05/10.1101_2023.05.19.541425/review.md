@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external validation or replication of experiments was performed.
+- **Shared manuscript claim summary** The authors propose that VirB, a transcriptional activator of virulence in Shigella flexneri and a ParB homolog, binds and hydrolyzes CTP as a cofactor, undergoes CTP-dependent clamp closure, and that DNA stimulates this closure in a largely sequence-nonspecific manner, suggesting a role for CTP in VirB function potentially involving elusive accessory factors for in vivo targeting.
+- **Visible evidence base** Abstract, Introduction, Results (including descriptions of Figures 1, 2, 3, and S1-S3), Discussion, and Materials and Methods. No raw data, full figures, or supplementary files were available for direct inspection.
+- **Missing materials affecting confidence** Full figures and supplementary data (Figures S1-S3) were not provided. Raw ITC data, hydrolysis kinetics, crosslinking quantification, and plasmid entrapment assay results were not accessible. Experimental replicates and statistical details beyond those described in text were not available.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially significant finding that VirB, a ParB-like transcriptional regulator, uses CTP as a cofactor, expanding the known functional repertoire of CTP-binding proteins beyond chromosome partitioning. The biochemical evidence described is suggestive but incomplete, and several claims require stronger experimental support and clearer presentation. The work is of interest to the bacterial gene regulation and DNA partitioning communities, but the current evidence does not fully establish the physiological relevance of CTP binding and hydrolysis for VirB function in virulence regulation.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcriptional regulation, particularly mechanisms of H-NS counteraction and virulence gene expression in Shigella and related pathogens. Also, investigators working on ParB/ParABS systems and CTP-dependent molecular clamps will find the evolutionary and mechanistic implications relevant. The work may attract interest from those studying nucleotide cofactor usage in DNA-binding proteins.
+- **Major strengths** The study addresses a timely and important question about the molecular mechanism of VirB, a key virulence regulator. The connection to ParB and CTP-dependent clamp formation is conceptually novel and well-motivated. The use of multiple biochemical assays (ITC, hydrolysis, crosslinking, plasmid entrapment) is commendable. The authors are transparent about limitations, such as the lack of sequence specificity in clamp closure, and discuss alternative interpretations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for CTP binding specificity
+  - **Claim pointer** The claim that VirB specifically binds CTP with high affinity (Kd ~1 μM) and not other ribonucleotides.
+  - **Evidence pointer** Results section, Figure 2A (ITC data described in text; raw data not provided)
+  - **Concern** The ITC data are described only in text, and no representative thermograms, binding isotherms, or control experiments (e.g., competition with other NTPs, titration of CTP into buffer alone) are shown. The specificity of CTP binding over other ribonucleotides is a central claim, but the evidence is not fully presented. Additionally, the Kd value is stated without error estimates or replicate information.
+  - **Why it matters** If CTP binding is not specific or is of lower affinity than claimed, the model of VirB as a CTP-dependent clamp is weakened. Specificity is essential to distinguish CTP from other NTPs, which are abundant in the cell.
+  - **Resolution test** Provide full ITC data including raw thermograms, fitted isotherms, Kd values with standard deviations from at least three independent titrations, and control titrations with CTP into buffer and with other NTPs (ATP, GTP, UTP) into protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of CTP hydrolysis
+  - **Claim pointer** The claim that CTP hydrolysis is slow but detectable and mildly stimulated by virS DNA, and that this is relevant to VirB function.
+  - **Evidence pointer** Results section, Figure 2B (hydrolysis data described; raw data not provided)
+  - **Concern** The hydrolysis rate is very low (~1 CTP per 16 min per monomer), and the stimulation by virS DNA is only ~2-fold. The authors do not provide a clear link between this biochemical activity and the proposed role in transcriptional regulation. No mutants defective in CTP binding or hydrolysis are presented to test functional significance. The physiological relevance of such a slow hydrolysis rate is unclear.
+  - **Why it matters** Without demonstrating that CTP hydrolysis is functionally important for VirB activity in vivo, the claim that CTP is a cofactor for transcriptional regulation remains speculative. The slow rate could be a background activity or an in vitro artifact.
+  - **Resolution test** Generate VirB mutants predicted to disrupt CTP binding (e.g., in the GxxR motif) or hydrolysis (e.g., in conserved acidic residues) and test their effects on CTP binding, hydrolysis, clamp closure, and, crucially, on VirB-dependent transcriptional activation in a Shigella reporter assay. Show that these mutants are properly folded and bind DNA normally.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of DNA-stimulated clamp closure
+  - **Claim pointer** The claim that DNA stimulates VirB clamp closure in a largely sequence-nonspecific manner, and that this is distinct from ParB behavior.
+  - **Evidence pointer** Results section, Figure 3B (crosslinking data described; raw data not provided)
+  - **Concern** The crosslinking data are described qualitatively, with percentages of closed clamp stated but no representative gels or quantification details shown. The comparison between specific (virS) and nonspecific DNA is based on a single set of conditions. The authors note that nonspecific DNA stimulates closure, which is surprising and could indicate that the in vitro system lacks important regulatory factors. The claim that this is "largely sequence-nonspecific" is not rigorously supported without testing multiple DNA sequences and concentrations.
+  - **Why it matters** If clamp closure is not specifically stimulated by virS, the model of VirB loading at specific sites is challenged. The authors themselves raise this issue, but the data as presented do not resolve it.
+  - **Resolution test** Provide full crosslinking gels with densitometry quantification from at least three independent experiments, testing a panel of DNA sequences (specific, mutated, scrambled, and nonspecific) at multiple concentrations. Include a DNA-free control and a time course to assess kinetics. Show that the effect is not due to DNA-induced protein aggregation or nonspecific binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance and targeting mechanism
+  - **Claim pointer** The claim that VirB may require elusive accessory factors to prevent off-site clamping in vivo, and that CTP-dependent clamp formation is relevant to VirB function in cells.
+  - **Evidence pointer** Discussion section; no direct in vivo evidence provided
+  - **Concern** The manuscript lacks any in vivo experiments to support the proposed model. The authors speculate about accessory factors but provide no data on VirB localization, focus formation, or CTP dependence in Shigella cells. The connection between the biochemical observations and the known role of VirB in counteracting H-NS silencing is not experimentally addressed.
+  - **Why it matters** The title and abstract imply a functional role for CTP in VirB-mediated virulence regulation, but the evidence is entirely in vitro. Without in vivo validation, the physiological significance of the findings remains uncertain.
+  - **Resolution test** Perform in vivo experiments, such as testing VirB mutants defective in CTP binding or hydrolysis in a Shigella virulence assay (e.g., invasion of epithelial cells or expression of a VirB-dependent reporter). Use fluorescence microscopy to assess whether VirB focus formation depends on CTP binding. Alternatively, test whether CTP depletion affects VirB function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results section, paragraph on clamp closure
+  - **Evidence pointer** "IF this observation directly translates to cell" (typo, should be "to the cell")
+  - **Issue** There is a typographical error in the text.
+  - **Required correction** Correct the typo to "to the cell".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure legends and supplementary figures
+  - **Evidence pointer** Figures S1-S3 are referenced but not provided
+  - **Issue** The supplementary figures are not available for review, making it difficult to assess the sequence alignment, structural models, and additional data.
+  - **Required correction** Ensure all supplementary figures are included in the final submission and referenced clearly in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, ITC section
+  - **Evidence pointer** "The equation:" with no equation shown
+  - **Issue** The equation for ITC fitting is mentioned but not displayed.
+  - **Required correction** Include the full equation in the Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on CTP hydrolysis
+  - **Issue** The authors state that the acidic residues for CTP hydrolysis in ParB are not found in VirB, but they do not discuss what this means for the catalytic mechanism or whether alternative residues might fulfill this role.
+  - **Required correction** Add a brief discussion of the potential catalytic mechanism in VirB, given the absence of conserved acidic residues.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph on ParB
+  - **Issue** The introduction could benefit from a more explicit comparison of VirB with other ParB-like proteins beyond Noc, such as those involved in gene regulation or other functions.
+  - **Required correction** Add a sentence or two mentioning other ParB-like regulators, if any, to strengthen the context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (CTP binding specificity and affinity data not fully shown), R1-M2 (no functional link between CTP hydrolysis and VirB activity), R1-M3 (crosslinking data not fully quantified or controlled), R1-M4 (no in vivo validation of the proposed model).
+- **Assessment against Nature-style criteria** Originality: High. The finding that a transcriptional regulator uses CTP as a cofactor is novel and extends the known functions of CTP-binding proteins. Scientific importance: Moderate to high. If validated, this work could reveal a new mechanism of transcriptional regulation and expand the understanding of CTP signaling in bacteria. Interdisciplinary readership: Moderate. The work will primarily appeal to microbiologists and biochemists, with potential interest from structural biologists. Technical soundness: Currently insufficient. The key claims are based on in vitro assays that are not fully documented, and the lack of in vivo experiments limits the strength of the conclusions. Readability for nonspecialists: Acceptable. The writing is generally clear, but the significance of the findings could be better framed for a broader audience. Overall, the manuscript has potential but requires substantial additional evidence to meet the standards of a high-impact journal.
+- **Recommendation posture** Currently not established from the provided evidence. The biochemical observations are intriguing, but the manuscript lacks the necessary data to support the central claims of CTP specificity, functional relevance, and in vivo significance. I would be supportive if the authors provide complete data for the in vitro assays, add functional experiments with mutants, and include in vivo validation of the proposed model.
+
+## Risk / unsupported claims
+- The claim that VirB specifically binds CTP with Kd ~1 μM is unsupported without full ITC data and controls.
+- The claim that CTP hydrolysis is stimulated by virS DNA is weakly supported, as the effect is small and raw data are not shown.
+- The claim that DNA stimulates clamp closure in a largely sequence-nonspecific manner is not fully supported without comprehensive crosslinking data.
+- The speculation about elusive accessory factors preventing off-site clamping in vivo is unsupported by any experimental evidence.
+- The proposal that CTP binding and hydrolysis play a role in transcriptional regulation by VirB is not directly tested and remains speculative.
+- The statement that VirB shares multiple features with ParB proteins, including the nucleotide-binding domain, is based on structural predictions and sequence alignments that are not fully presented.

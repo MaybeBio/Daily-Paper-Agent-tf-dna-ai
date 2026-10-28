@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the supplied material
+- **Shared manuscript claim summary** The authors implement three graph neural network architectures (GCN, GAT, GraphSAGE) within the DeepZ framework to predict Z-DNA forming regions (Z-flipons) in human and mouse genomes, and report that GNN models outperform the prior RNN-based DeepZ model in recall for whole-genome prediction.
+- **Visible evidence base** Abstract, introduction, methods, results and discussion, conclusion, references, and a code availability link
+- **Missing materials affecting confidence** No figures or tables are provided; no quantitative performance metrics beyond a few recall and F1 values; no hyperparameter details; no dataset preprocessing specifics; no statistical significance tests; no baseline comparisons beyond the RNN model; no details on negative class construction beyond a general description
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of graph neural networks to genomic Z-DNA prediction, but the current form is insufficient to establish the claimed advantages. The evidence base is incomplete, with key figures and tables referenced but not provided, and the reported performance improvements are described without sufficient statistical or methodological context. The work is at a preliminary stage and would require substantial additional analysis and validation to support its conclusions.
+- **Who would be interested in the results, and why** Researchers working on non-B DNA structure prediction, deep learning applications in genomics, and those interested in graph-based representation learning for regulatory element prediction. The work may also be of interest to computational biologists developing methods for integrating sequence and omics data.
+- **Major strengths** The manuscript addresses a relevant problem in genomics, namely the prediction of non-B DNA structures such as Z-DNA, which is under-explored relative to other regulatory elements. The exploration of multiple GNN architectures is a reasonable approach, and the code availability is a positive feature for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that GNN models outperform the RNN model from the initial DeepZ implementation, with recall increases of 2.3 to 2.6 times for whole-genome prediction.
+  - **Evidence pointer** Tables 1-4, Figure 1, Figure 2 (location not provided)
+  - **Concern** The manuscript references Tables 1-4 and Figures 1-2 as the primary evidence for performance comparisons, but none of these are included in the provided material. Without these, the central claims of improved recall and overall performance cannot be evaluated.
+  - **Why it matters** The core conclusion of the manuscript rests entirely on quantitative comparisons presented in the missing tables. The reader cannot verify the reported improvements, assess the magnitude of differences, or understand the experimental setup without these data.
+  - **Resolution test** Provide all tables and figures with full performance metrics, including precision, recall, F1, and any confidence intervals, for all models and datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that the negative class was composed of randomly selected segments without Z-DNA and that several ratios of negative to positive classes were tested.
+  - **Evidence pointer** Section II.B (Training), location not provided
+  - **Concern** The description of negative class construction is insufficient. It is unclear how "without Z-DNA" was determined, whether the negative segments were matched for genomic features such as GC content or repeat density, and how the random selection was performed. The class ratios tested are not specified, nor is the final ratio used for the reported results.
+  - **Why it matters** Class imbalance and negative set construction are known to strongly influence model performance in genomic prediction tasks. Without this information, the reported performance differences between architectures cannot be interpreted, and the results may not be reproducible.
+  - **Resolution test** Provide a detailed description of negative set construction, including filtering criteria, matching strategy, and the specific class ratios tested and used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors report that GNN models outperform the RNN baseline, with specific recall values (e.g., 0.27 vs 0.62 for human, 0.16 vs 0.416 for mouse).
+  - **Evidence pointer** Section III (Results and Discussion), location not provided
+  - **Concern** No statistical significance testing is reported for any of the performance comparisons. It is unclear whether the observed differences are stable across multiple runs, random seeds, or cross-validation folds. The manuscript does not report variance or confidence intervals for any metric.
+  - **Why it matters** Without measures of variability or significance, the reported improvements could be due to chance, particularly given the small training sets described. The claim of superiority for GNN architectures is not statistically supported.
+  - **Resolution test** Report performance across multiple independent runs with different seeds, include standard deviations or confidence intervals, and perform appropriate statistical tests for model comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that all models were implemented with torch_geometric using RMSprop optimizer and NLLLoss loss function.
+  - **Evidence pointer** Section II.C (Graph neural networks), location not provided
+  - **Concern** The description of model architectures is incomplete. The number of hidden units, dropout rates, learning rates, batch sizes, and other hyperparameters are not reported. The training procedure is described only as taking 25 epochs with hyperparameters selected according to F1 score, but the search space and selection procedure are not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without full architectural and training details, other researchers cannot replicate the experiments or build upon the work.
+  - **Resolution test** Provide complete hyperparameter settings for all models, including architecture dimensions, optimization parameters, and the hyperparameter search procedure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that GNN models "outperformed current state-of the art RNN model" but does not specify the metric or the magnitude of improvement. The term "state-of the art" is also used without citation or definition.
+  - **Required correction** Specify the metric(s) used for comparison and provide the quantitative improvement. Define what is meant by "state-of the art" in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Section I (Introduction), location not provided
+  - **Issue** The term "GAN" is used in the introduction to refer to Graph Attention Network, but GAN is commonly used for Generative Adversarial Network. This could cause confusion.
+  - **Required correction** Use the standard abbreviation GAT for Graph Attention Network throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Typographical
+  - **Affected element** Methods
+  - **Evidence pointer** Section II.B (Training), location not provided
+  - **Issue** The text states "3- and 4-layes models" which appears to be a typographical error for "3- and 4-layer models."
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Section III (Results and Discussion), location not provided
+  - **Issue** The statement "in individual experiments, DeepZ and various GNN models predict true functional Z-DNA regions that are present in the training set, yielding considerably higher metrics" is unclear. It is not specified what "individual experiments" means or how these metrics differ from the whole-genome predictions.
+  - **Required correction** Clarify the distinction between whole-genome prediction and the "individual experiments" setting, and explain why metrics are higher in the latter.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Section II.A (Data), location not provided
+  - **Issue** The description of the human dataset mentions 385 Z-DNA regions and 1054 omics features, but the source of the omics features is not described. The mouse dataset is described as having 874 omics features, but again the nature of these features is not specified.
+  - **Required correction** Provide a description of the omics features used, including their types and sources.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing tables and figures), R1-M2 (insufficient negative set description), R1-M3 (no statistical validation), R1-M4 (incomplete model details)
+
+## Risk / unsupported claims
+- The claim that GNN models outperform the RNN baseline is unsupported without the referenced tables and figures.
+- The claim that GraphSAGE is better for small datasets is not supported by any quantitative evidence in the provided material.
+- The claim that GNNs outperform CNNs and RNNs due to their ability to aggregate features from neighboring nodes is presented as an explanation but is not tested or validated.
+- The statement that "all three networks outperformed RNN" in the conclusion is not verifiable from the provided material.
+- The claim that the low F-metric at the whole-genome level is explained by incomplete experimental data is speculative and not supported by any analysis.

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose NetREm, a network-constrained regression embedding method that integrates prior knowledge of TF-TF protein-protein interactions with single-cell gene expression data to infer cell-type-specific TF coordination for target gene regulation. They report validation via simulations, benchmarks against gold standard TF-TG networks in four systems, application to PBMC subtypes, extension to CNS and PNS cell types and Alzheimer's disease, and validation of top predictions using Cut&Run, knockout data, eQTL, and GWAS.
+- **Visible evidence base** Abstract text only; no quantitative results, figures, tables, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation details, benchmark results, validation datasets, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational framework for inferring cell-type-specific TF coordination from single-cell data. The conceptual integration of PPI priors with network-constrained regression is reasonable and could interest researchers in gene regulation and computational biology. However, the abstract provides no quantitative evidence, no methodological specifics, and no clear statement of performance relative to existing methods. The breadth of applications is impressive but the lack of any reported metrics or effect sizes prevents assessment of whether the claims are supported. The validation strategy is described only in general terms, and the link from TF coordination to genetic variants is asserted without demonstration.
+- **Who would be interested in the results, and why** Computational biologists developing methods for gene regulatory network inference; researchers studying transcription factor cooperativity in development and disease; investigators using single-cell transcriptomics to understand cell-type-specific regulation; and those interested in linking regulatory mechanisms to genetic variants in complex traits such as Alzheimer's disease.
+- **Major strengths** The method addresses a relevant gap by connecting TF-TF coordination to target gene regulation in a cell-type-specific manner. The use of prior PPI knowledge to constrain regression is a sensible strategy that could improve interpretability. The range of applications from stem cells to nervous system and disease contexts suggests broad utility. The inclusion of orthogonal validation approaches (Cut&Run, knockout, eQTL, GWAS) is commendable in principle.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that NetREm "leverages network-constrained regularization using prior knowledge of direct and/or indirect PPIs among TFs to analyze single-cell gene expression data" and that it was "tested by simulation data and benchmarked in 4 real-world applications."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are given for how the network constraint is implemented, how the regression is formulated, how cell-type specificity is achieved, or how the prior PPI information is weighted relative to expression data. No simulation results or benchmark metrics are reported.
+  - **Why it matters** Without these details, the reader cannot evaluate whether the method is novel, correctly implemented, or performs adequately. The claim of benchmarking against gold standard networks is unverifiable without performance statistics.
+  - **Resolution test** Provide the full methods section, simulation results with error rates or accuracy metrics, and benchmark comparisons with appropriate baselines, including quantitative measures such as AUROC or precision-recall.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for claims
+  - **Claim pointer** The abstract states that "Our findings uncover cell-type coordinating TFs and identify new TF-TG candidate links" and that "We validate our top predictions using Cut&Run and knockout loss-of-function expression data."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No specific findings are reported. No examples of identified coordinating TFs, no number of new candidate links, no validation statistics, and no description of how validation was quantified are provided.
+  - **Why it matters** The central claims of the work are the discoveries and their validation. Without any reported outcomes, the abstract does not establish that the method produces biologically meaningful results.
+  - **Resolution test** Report specific validated predictions, including the number of tested and confirmed links, the validation criteria, and the statistical significance of enrichment or concordance with orthogonal data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability and relevance of downstream analysis
+  - **Claim pointer** The abstract claims to "link genetic variants (SNPs) to TF coordination" using eQTL and GWAS data.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The logical and statistical connection between TF coordination inferred from single-cell expression and genetic variant associations is not explained. No example of such a link is given, and no enrichment or colocalization analyses are described.
+  - **Why it matters** This is a potentially high-impact claim, but without a clear analytical framework or example, it is not possible to assess whether the link is meaningful or merely correlative.
+  - **Resolution test** Describe the analytical approach for linking variants to TF coordination, provide at least one concrete example with statistical support, and clarify whether the link is causal or associative.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists many applications and validations without prioritizing the most important results, making it difficult to identify the key advance.
+  - **Required correction** Reorganize the abstract to state the main finding or methodological advance first, then summarize supporting evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "simulated human (hESCs)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "simulated human (hESCs)" is ambiguous. It is unclear whether the data are simulated, the cells are human, or both.
+  - **Required correction** Clarify whether the hESC data are real or simulated, and if simulated, describe the simulation approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Validation description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions validation in "rat/mouse models" but does not specify which species for which predictions or whether the models are relevant to the human applications.
+  - **Required correction** Specify the species and model systems used for each validation and justify their relevance to the human cell types studied.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail, quantitative results, or validation evidence to establish that the method works as claimed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using PPI-constrained regression on single-cell data for TF coordination inference appears potentially novel, but the abstract does not distinguish it clearly from existing network inference methods.
+  - Scientific importance: The questions addressed are important for understanding cell-type-specific gene regulation, but the abstract does not demonstrate that the findings advance fundamental understanding.
+  - Interdisciplinary readership: The work could appeal to computational biologists, molecular biologists, and geneticists, but the abstract is too technical in places and too vague in others to engage a broad audience.
+  - Technical soundness: Not assessable from the abstract alone; no methodological or statistical details are provided.
+  - Readability for nonspecialists: The abstract assumes familiarity with TF, PPI, eQTL, GWAS, and single-cell terminology, and does not explain the biological significance of the findings in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially valuable approach, but the absence of any quantitative results, methodological specifics, or concrete validated findings means the core claims cannot be evaluated. A full manuscript with detailed methods, benchmark results, and validation statistics would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that NetREm "reveals cell-type TF-TF coordination activities" is unsupported without demonstration of specific outputs.
+- The claim of benchmarking against gold standard networks is unverifiable without performance metrics.
+- The claim of validation using Cut&Run and knockout data is unsupported without results.
+- The claim of linking SNPs to TF coordination via eQTL and GWAS is unsupported without an analytical description or example.
+- The claim of applicability to Alzheimer's disease is unsupported without any disease-specific findings.
+- The novelty of the method relative to existing approaches is not established.

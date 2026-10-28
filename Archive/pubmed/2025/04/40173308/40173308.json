@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "40173308",
+    "doi": "10.1021/acs.jpcb.4c08495",
+    "title": "MD Multi-Sector Selector: Recursive Extraction and Refinement of Molecular Dynamics Based Sectors Yields Two Sectors in p53 Tumor Suppressor Protein."
+  },
+  "content": {
+    "abstract": "Allosteric signaling in proteins allows perturbations at one locale to modulate activity at an orthosteric distant site. This may explain how distal mutations disrupt protein activity and offer pathways for the development of allosteric therapeutics, a novel class of restorative compounds to reactivate native function. Despite the ubiquitous presence of allosteric control in nature and the promises that it holds for treating currently untreatable diseases, quantitative theory of the mechanism of allostery is lacking. Working to fill this critical gap, we have developed a novel method to identify groups of covarying residues which the sector hypothesis suggests are capable of transmitting allosteric signals in proteins. A major problem with sectors computed from covariance measures is the selection relies upon a full covariance matrix rather than on the covariance among the residues posited to be in the sector. We demonstrate a novel method which constructs sectors on the basis of cohesion within the residues in the sector to eliminate the incongruity between the sector idea and the way it is calculated. Furthermore, the refinement can be iteratively applied, enabling the extraction of more than one sector in a well-defined, systematic manner. In this study, we report on the development of MD multi-sector selector and its application to allosteric signaling in the tumor suppressor protein p53. We consider the implications of our findings on our long-term goal of allosterically reactivating mutant p53 as a means of curing cancer, and critically assess the broader applicability of MD multi-sector selector across diverse fields.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Allosteric Regulation",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chiu, Christopher A",
+        "Stetson, Sean",
+        "Thayer, Kelly M"
+      ],
+      "short_names": [
+        "Chiu CA",
+        "Stetson S",
+        "Thayer KM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7437-9517"
+      ],
+      "affiliations": [
+        "Quantitative Analysis CenterWesleyan University, Allbritton Center, 222 Church Street, Middletown, Connecticut 06459, United States.",
+        "Mathematics and Computer Science, Wesleyan University 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States.",
+        "Quantitative Analysis CenterWesleyan University, Allbritton Center, 222 Church Street, Middletown, Connecticut 06459, United States.",
+        "Mathematics and Computer Science, Wesleyan University 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States.",
+        "Molecular Biophysics Program, Wesleyan University, 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States.",
+        "College of Integrative Sciences, Wesleyan University, 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chiu, Christopher A",
+        "short_name": "Chiu CA",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Analysis CenterWesleyan University, Allbritton Center, 222 Church Street, Middletown, Connecticut 06459, United States."
+        ]
+      },
+      {
+        "full_name": "Stetson, Sean",
+        "short_name": "Stetson S",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematics and Computer Science, Wesleyan University 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States."
+        ]
+      },
+      {
+        "full_name": "Thayer, Kelly M",
+        "short_name": "Thayer KM",
+        "identifiers": [
+          "0000-0001-7437-9517"
+        ],
+        "affiliations": [
+          "Quantitative Analysis CenterWesleyan University, Allbritton Center, 222 Church Street, Middletown, Connecticut 06459, United States.",
+          "Mathematics and Computer Science, Wesleyan University 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States.",
+          "Molecular Biophysics Program, Wesleyan University, 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States.",
+          "College of Integrative Sciences, Wesleyan University, 54 Lawn Avenue, Hall-Atwater Laboratories, Chemistry Station, Middletown, Connecticut 06459, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Apr 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/02 18:24",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36643471",
+      "36626697",
+      "35352025",
+      "35097279",
+      "34878270",
+      "31262238",
+      "31063633",
+      "30368859",
+      "29668343",
+      "29556064",
+      "29080700",
+      "29030241",
+      "28648526",
+      "28135092",
+      "27551077",
+      "27254668",
+      "26592383",
+      "26583988",
+      "26574453",
+      "25500675",
+      "24742712",
+      "24667124",
+      "24516370",
+      "24469799",
+      "24021665",
+      "23742907",
+      "23711993",
+      "23422432",
+      "22582031",
+      "22570416",
+      "22196731",
+      "20884293",
+      "20856692",
+      "19679084",
+      "18706817",
+      "18593145",
+      "18410249",
+      "16906160",
+      "15326025",
+      "15116359",
+      "12007217",
+      "11343904",
+      "10836130",
+      "9399837",
+      "8744570",
+      "8023157",
+      "6544679"
+    ],
+    "similar": [
+      "40173308",
+      "36643471",
+      "36245142",
+      "39309126",
+      "40725138",
+      "30339916",
+      "24191708",
+      "36321557",
+      "31262238",
+      "35659507",
+      "42089576",
+      "31881526",
+      "38737036",
+      "41082588",
+      "23912807",
+      "34403252",
+      "41271583",
+      "33315226",
+      "41606807",
+      "41284820",
+      "26244575",
+      "40769488",
+      "38116743",
+      "31793290",
+      "29735732",
+      "35351887",
+      "24785005",
+      "36073904",
+      "7850419",
+      "37272574",
+      "30160791",
+      "8632013",
+      "32471245",
+      "29072601",
+      "30652534",
+      "40864864",
+      "35097279",
+      "39150724",
+      "30056475",
+      "33315218",
+      "36799896",
+      "41008647",
+      "22949826",
+      "27503952",
+      "32737291",
+      "28135092",
+      "26823083",
+      "31589429",
+      "41898392",
+      "33984364",
+      "40852883",
+      "40396628",
+      "29235352",
+      "38549219",
+      "26794122",
+      "36077492",
+      "34132193",
+      "35234033",
+      "24858256",
+      "29260852",
+      "41552434",
+      "31216622",
+      "30775734",
+      "24100332",
+      "37943025",
+      "34612239",
+      "27285999",
+      "40671606",
+      "32741308",
+      "40053865",
+      "25099811",
+      "38991149",
+      "40464633",
+      "35099676",
+      "35841931",
+      "29852734",
+      "29604117",
+      "39264222",
+      "28813011",
+      "28489401",
+      "29594786",
+      "30827842",
+      "31640986",
+      "25437403",
+      "21339981",
+      "25340971",
+      "38801229",
+      "40565298",
+      "31535860",
+      "41218722",
+      "31968162",
+      "40409706",
+      "40563459",
+      "11382762",
+      "27797456",
+      "18996393",
+      "31899864",
+      "36700982",
+      "39285201",
+      "22071506"
+    ],
+    "review": [
+      "40173308",
+      "39309126",
+      "36321557",
+      "31793290",
+      "29735732",
+      "39150724",
+      "22949826",
+      "29260852",
+      "27285999"
+    ],
+    "pmc": [
+      "12010330"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40173308/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c08495",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

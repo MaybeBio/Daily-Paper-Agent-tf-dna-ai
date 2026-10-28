@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the first complete structure of human Transcription Termination Factor 1 (TTF1) constructed via ab initio modelling, validated by molecular dynamics simulations, with identification of two central residue clusters in the oligomerization and C-terminal domains that are proposed to be critical for structural stability.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation metrics, or structural coordinates provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, trajectory analysis details, clustering methodology, centrality analysis specifics, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant claim of being the first complete structure of an essential mammalian protein, TTF1, using ab initio modelling. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the modelling approach, the validity of the structural predictions, or the robustness of the stability analyses. The claim of "first" is plausible but unverifiable from the supplied material. The biological relevance is well motivated, but the structural insights claimed cannot be assessed without detailed results.
+- **Who would be interested in the results, and why** Researchers in structural biology, particularly those studying transcription termination, DNA replication fork arrest, and chromatin remodelling. Cancer biologists may also be interested given the reported link between TTF1 dysregulation and oncogenic transformation. Computational biologists working on ab initio protein structure prediction would find the methodology relevant, especially for large multi-domain mammalian proteins lacking homologues.
+- **Major strengths** The study addresses a clear gap in knowledge, as the complete structure of human TTF1 has not been previously reported. The use of ab initio modelling is justified by the lack of suitable homologues in the PDB. The integration of MD simulations and residue interaction network analysis to identify functionally important residues is a reasonable approach for validating and interpreting predicted structures.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "the complete structure of human TTF1 was constructed by ab initio modelling" and that this is "the first to report the complete structure of this essential mammalian protein."
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract provides no details on the ab initio modelling method used, such as the specific algorithm (e.g., Rosetta, QUARK, I-TASSER), the sequence length, the number of models generated, or the confidence scores (e.g., pLDDT, TM-score) for the final model. Without these, the reliability of the predicted structure cannot be assessed.
+  - **Why it matters** Ab initio modelling of large multi-domain proteins is notoriously challenging, and the accuracy of such models is highly variable. A claim of a complete structure for an essential protein requires rigorous validation metrics to establish credibility. The absence of any such metrics in the abstract undermines confidence in the central claim.
+  - **Resolution test** The full manuscript must provide detailed modelling protocols, model quality scores, and comparison with any available experimental data (e.g., cross-linking, mutagenesis) to demonstrate that the predicted structure is reliable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "the structural stability was determined with molecular dynamics (MD) simulations in explicit solvent, and trajectory analyses" and that "two residue clusters... were found to be central to the structural stability."
+  - **Evidence pointer** Abstract, methods and results description; location not provided
+  - **Concern** No details are given on the MD simulation length, force field, water model, temperature/pressure coupling, or the criteria used to assess stability (e.g., RMSD, RMSF, radius of gyration). The identification of "central residues" via centrality analyses of a residue interaction network is mentioned, but the methodology for constructing the network and the statistical significance of the centrality measures are not described.
+  - **Why it matters** MD simulations are only meaningful if they are sufficiently long and well-equilibrated to sample relevant conformational states. The claim that specific residue clusters are "central to structural stability" requires quantitative evidence, such as free energy calculations or mutational analysis, to support a causal role rather than mere correlation.
+  - **Resolution test** The full manuscript must report simulation parameters, convergence criteria, and statistical analyses of the trajectory. The centrality analysis must be described in detail, and ideally supported by additional validation such as alanine scanning or experimental mutagenesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that "the results obtained herein will provide structural insights for future research including that in cancer biology and related studies."
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Concern** The abstract does not specify what these structural insights are or how they relate to cancer biology. The link between TTF1 dysregulation and oncogenic transformation is stated, but no specific structural features (e.g., binding sites, conformational changes) are identified that would inform cancer-related studies.
+  - **Why it matters** For a broad readership, the significance of the work must be clearly articulated. A vague claim of future insights without concrete examples reduces the perceived impact of the study.
+  - **Resolution test** The full manuscript should discuss specific structural features that could be targeted in cancer research, such as potential interaction interfaces or druggable pockets, and relate them to known functional data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, background
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The abstract lists multiple functions of TTF1 (transcription, replication fork arrest, DNA damage repair, chromatin remodelling) without explaining how a single protein can perform such diverse roles. This may confuse nonspecialist readers.
+  - **Required correction** Briefly explain that TTF1 is a multi-domain protein with distinct functional regions, or provide a single sentence on its modular architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, methods
+  - **Evidence pointer** Abstract, "ab initio modelling"; location not provided
+  - **Issue** The term "ab initio modelling" is used without specifying whether this refers to template-free modelling or de novo prediction. These terms are sometimes used interchangeably but can imply different methodologies.
+  - **Required correction** Clarify the specific approach used, e.g., "template-free modelling" or "de novo prediction," to avoid ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, conclusion
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The claim of being "the first to report the complete structure" is not accompanied by a statement on how this was verified against existing literature, such as a search of structural databases or prior computational studies.
+  - **Required correction** Add a brief statement that a comprehensive literature and database search was performed to confirm the novelty of the structure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of modelling details and MD simulation parameters means the central claims of a complete structure and identification of stability-critical residues cannot be evaluated. The full manuscript must provide these details to establish technical soundness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim of a first complete structure for TTF1 is potentially original, but the abstract does not provide enough context to confirm that no prior partial structures or homology models exist. This is a weakness in the current form.
+  - Scientific importance: The biological role of TTF1 is well established, and a complete structure would be valuable. However, the abstract does not demonstrate how the structure advances mechanistic understanding beyond what is already known from domain-level studies.
+  - Interdisciplinary readership: The topic bridges structural biology, computational biology, and cancer biology, which could attract a broad audience. However, the abstract is too technical in places and lacks explanatory context for nonspecialists.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail is a major concern.
+  - Readability for nonspecialists: The abstract is generally clear but could benefit from a brief explanation of TTF1's multi-domain nature and the significance of the identified residue clusters.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially important study, but the lack of methodological detail and validation metrics prevents a supportive recommendation. The authors should be encouraged to resubmit with a revised abstract that includes key technical parameters and a clearer articulation of the structural insights, or the full manuscript should be reviewed to assess the claims.
+
+## Risk / unsupported claims
+- The claim of being "the first to report the complete structure" is unverifiable from the abstract alone and requires confirmation of a thorough literature and database search.
+- The claim that two residue clusters are "central to the structural stability" is unsupported without quantitative stability data or mutational validation.
+- The statement that the results "will provide structural insights for future research including that in cancer biology" is speculative and not substantiated with specific examples in the abstract.

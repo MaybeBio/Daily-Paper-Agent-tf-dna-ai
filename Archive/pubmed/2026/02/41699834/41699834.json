@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "41699834",
+    "doi": "10.12659/AOT.950289",
+    "title": "Identification and Validation of Liver Transplantation-Induced Acute Lung Injury Biomarkers Using a Bioinformatics and Experimental Approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND Acute lung injury (ALI) after liver transplantation (LT) is a critical complication negatively affecting transplant outcomes and patient survival. However, effective biomarkers for early diagnosis remain unidentified. This study aimed to identify hub biomarkers and signaling pathways involved in post-LT ALI through integrated bioinformatics and machine-learning analyses and to validate their diagnostic potential. MATERIAL AND METHODS Differential gene expression analysis identified 27 differentially expressed genes (DEGs). Functional enrichment analyses revealed significant involvement in cytokine-mediated signaling, particularly within the NF-kB and TNF pathways. Single-sample gene set enrichment analysis (ssGSEA) evaluated immune infiltration. Machine-learning algorithms identified crucial biomarkers for ALI prediction. Transcription factor-hub gene and competitive endogenous RNA (ceRNA) networks were constructed. Single-cell RNA sequencing (scRNA-seq) and enzyme-linked immunosorbent assay (ELISA) analyses validated biomarker expression patterns in relation to ALI. RESULTS Hub biomarkers identified included CXCL3, CD48, and IRAK3. ssGSEA revealed prominent macrophage and neutrophil infiltration associated with ALI. Machine-learning models confirmed CXCL3, CD48, and IRAK3 as reliable predictive biomarkers, which were incorporated into a robust diagnostic nomogram. scRNA-seq analysis showed cell-type-specific expression patterns for CXCL3, CD48, and IRAK3, with heterogeneous associations across datasets. ELISA validated significantly altered protein levels of CXCL3, CD48, and IRAK3 in post-transplant ALI cases compared with controls. CONCLUSIONS CXCL3, CD48, and IRAK3 are novel and promising diagnostic biomarkers for predicting post-LT ALI. These findings provide foundational insights that could support improved diagnosis, prevention strategies, and targeted therapeutic interventions, ultimately enhancing patient outcomes after liver transplantation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Liver Transplantation/adverse effects",
+      "Humans",
+      "*Acute Lung Injury/etiology/diagnosis/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "Computational Biology/methods",
+      "Machine Learning",
+      "Gene Expression Profiling",
+      "Interleukin-1 Receptor-Associated Kinases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guiting, Yang",
+        "Zhang, Shengfeng",
+        "Ji, Liu",
+        "Lv, Chengmei",
+        "Zhao, Chen",
+        "Ling, Maoyao",
+        "Liao, Xiaoting",
+        "Pan, Linghui"
+      ],
+      "short_names": [
+        "Guiting Y",
+        "Zhang S",
+        "Ji L",
+        "Lv C",
+        "Zhao C",
+        "Ling M",
+        "Liao X",
+        "Pan L"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-9532-1150"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China.",
+        "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+        "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+        "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+        "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+        "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China.",
+        "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+        "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+        "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+        "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+        "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+        "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+        "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China.",
+        "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+        "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+        "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+        "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guiting, Yang",
+        "short_name": "Guiting Y",
+        "identifiers": [
+          "0009-0005-9532-1150"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+          "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China.",
+          "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+          "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+          "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengfeng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Liu",
+        "short_name": "Ji L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+          "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+          "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+          "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Chengmei",
+        "short_name": "Lv C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Nanning, Guangxi, China.",
+          "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China.",
+          "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+          "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+          "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chen",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, the People's Hospital of Guangxi Zhuang Autonomous Region, Guangxi Academy of Medical Sciences, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Maoyao",
+        "short_name": "Ling M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+          "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+          "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+          "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Xiaoting",
+        "short_name": "Liao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+          "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+          "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+          "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Linghui",
+        "short_name": "Pan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Guangxi Medical University Cancer Hospital, Nanning, Guangxi, China.",
+          "Guangxi Engineering Research Center for Tissue and Organ Injury and Repair Medicine, Nanning, Guangxi, China.",
+          "Guangxi Health Commission Hub Laboratory of Basic Science and Prevention of Perioperative Organ Disfunction, Nanning, Guangxi, China.",
+          "Guangxi Clinical Research Center for Anesthesiology, Nanning, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of transplantation"
+    ],
+    "journal_abbrev": [
+      "Ann Transplant"
+    ],
+    "pub_date": "2026 Feb 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/17 06:31",
+    "fetched_at": "2026-10-01 14:25:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38972239",
+      "38503014",
+      "38291374",
+      "37978185",
+      "37816761",
+      "37688916",
+      "37463445",
+      "37051524",
+      "36982193",
+      "36969166",
+      "36880752",
+      "36513690",
+      "36496993",
+      "36455323",
+      "36334381",
+      "36300620",
+      "36252699",
+      "36229053",
+      "36070788",
+      "36070787",
+      "35967320",
+      "35641717",
+      "34905179",
+      "34850920",
+      "34685693",
+      "34597539",
+      "34248968",
+      "34217425",
+      "33764576",
+      "33131523",
+      "33015591",
+      "32735885",
+      "32253243",
+      "31730848",
+      "30635296",
+      "30395331",
+      "29761233",
+      "29605075",
+      "29087512",
+      "28928065",
+      "28792873",
+      "28406724",
+      "27859399",
+      "26926492",
+      "26760198",
+      "26116507",
+      "25595781",
+      "24703371",
+      "24297251",
+      "20833258",
+      "20397011",
+      "20199666",
+      "20042589",
+      "19139171",
+      "19075961",
+      "18774390",
+      "17573487",
+      "17290046",
+      "16917541",
+      "16861384",
+      "16024587",
+      "14607702",
+      "14597658",
+      "12496974",
+      "12464676",
+      "12150927",
+      "11513145",
+      "9893294",
+      "9761367",
+      "9418191",
+      "9235917",
+      "8929458",
+      "7509706",
+      "6372668"
+    ],
+    "similar": [
+      "41699834",
+      "40918148",
+      "42258310",
+      "42247642",
+      "41706425",
+      "41665627",
+      "41291841",
+      "42123445",
+      "42234716",
+      "40967560",
+      "41044520",
+      "42305536",
+      "39481313",
+      "41316541",
+      "40374840",
+      "38440722",
+      "41756296",
+      "42065196",
+      "40406126",
+      "40340571",
+      "40503237",
+      "40751069",
+      "41733593",
+      "41436831",
+      "39616855",
+      "41826854",
+      "41142807",
+      "37603512",
+      "41758834",
+      "40024421",
+      "42158856",
+      "38987624",
+      "41146237",
+      "38867322",
+      "40591166",
+      "33521809",
+      "40500570",
+      "38690269",
+      "39754246",
+      "40761790",
+      "39512836",
+      "39697326",
+      "42509823",
+      "40421173",
+      "42465770",
+      "40969769",
+      "40328901",
+      "41964403",
+      "42172251",
+      "42059276",
+      "42397093",
+      "41789070",
+      "40313958",
+      "42510870",
+      "42024670",
+      "41198554",
+      "40830558",
+      "40084401",
+      "38484574",
+      "42327749",
+      "40914702",
+      "40360670",
+      "41200172",
+      "40165133",
+      "41145553",
+      "41878449",
+      "36341343",
+      "39923303",
+      "39559355",
+      "39096939",
+      "40694561",
+      "41686563",
+      "41013727",
+      "40598145",
+      "39814871",
+      "39509434",
+      "41137290",
+      "42195052",
+      "38499050",
+      "42353759",
+      "42083957",
+      "41234880",
+      "38815767",
+      "41760060",
+      "42302029",
+      "42139760",
+      "38873611",
+      "40860289",
+      "39341981",
+      "40892227",
+      "41107929",
+      "41392162",
+      "41432483",
+      "40450287",
+      "40374866",
+      "41262249",
+      "42363518",
+      "39081100",
+      "41052072",
+      "41312366"
+    ],
+    "review": [
+      "41699834",
+      "41665627"
+    ],
+    "pmc": [
+      "12928173"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.annalsoftransplantation.com/abstract/index/idArt/950289",
+        "provider": "International Scientific Literature, Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livertransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Transplantation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41699834/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1199",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

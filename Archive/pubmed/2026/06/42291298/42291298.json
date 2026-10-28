@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "42291298",
+    "doi": "10.3389/fcimb.2026.1800050",
+    "title": "Machine learning identifies PPARG as a diagnostic biomarker for sepsis linked to CD14/NF-kappaB signaling: integrated transcriptomics and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis is a life-threatening organ dysfunction caused by a dysregulated host response to infection. Early diagnosis remains challenging due to substantial clinical and biological heterogeneity. CD14 is a central pattern-recognition receptor in innate immune activation, but the downstream network linking CD14 to immunometabolic regulation remains incompletely defined. We aimed to identify CD14-associated blood-based diagnostic biomarkers for sepsis and explore potential regulatory mechanisms. METHODS: Whole-blood transcriptomic datasets were retrieved from the Gene Expression Omnibus. GSE236713 was the discovery cohort and GSE65682 the external validation cohort. Candidate genes were identified through overlap of differentially expressed genes between CD14-high and CD14-low samples and sepsis-related WGCNA modules. Hub genes were prioritized by protein-protein interaction analysis, and feature genes were identified by LASSO and random forest. Multiple machine learning algorithms were compared, and an artificial neural network (ANN) classifier was established. Clinical associations, immune cell composition (CIBERSORT), and pathway activity (GSEA) were assessed. Mechanistic validation was performed in LPS-stimulated RAW264.7 macrophages using CD14 knockout/overexpression and SN50-mediated inhibition of NF-kappaB nuclear translocation. RESULTS: Five feature genes (MMP9, PPARG, C1QC, MS4A4A, and ARG1) were identified. Among seven algorithms, the ANN achieved the best performance (internal AUC = 0.974, external AUC = 0.953). PPARG showed the strongest single-gene diagnostic ability (AUC = 0.994) and correlated with SOFA score (r = 0.50, P = 1.5 x 10(-)(2)(9)), and was prioritized as a diagnostic biomarker. In a Cox model, PPARG was associated with ICU short-term outcome risk (HR = 1.64, 95% CI 1.34-2.01, P = 1.3 x 10(-6)). GSEA indicated enrichment of NF-kappaB-related pathways in samples with low PPARG expression. CIBERSORT suggested the strongest correlation between PPARG and monocyte proportion (r = 0.328, P = 1.06 x 10(-6)). In vitro, LPS-induced PPARG downregulation was CD14-dependent, and SN50 partially reversed PPARG suppression and reduced TNF-alpha secretion in CD14-overexpressing cells. CONCLUSION: By integrating machine learning with experimental validation, this study prioritized PPARG as a diagnostic biomarker for sepsis and provided supportive evidence for its association with CD14/NF-kappaB signaling. These findings offer a basis for developing host-response-based diagnostic signatures and further investigation of PPARG-related immunometabolic regulation in sepsis.",
+    "keywords": [
+      "CD14",
+      "NF-kappaB",
+      "PPARG",
+      "diagnostic biomarker",
+      "immunometabolism",
+      "machine learning",
+      "sepsis"
+    ],
+    "mesh_terms": [
+      "*Sepsis/diagnosis/genetics",
+      "Humans",
+      "*Machine Learning",
+      "*Biomarkers/blood",
+      "*Lipopolysaccharide Receptors/metabolism/genetics",
+      "*Signal Transduction",
+      "*NF-kappa B/metabolism",
+      "*PPAR gamma/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Animals",
+      "Mice",
+      "Transcriptome",
+      "Macrophages/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Yingying",
+        "Xiao, Xin",
+        "Li, Yanou",
+        "Meng, Hua",
+        "Huang, Fang",
+        "Wang, Jun"
+      ],
+      "short_names": [
+        "Ji Y",
+        "Xiao X",
+        "Li Y",
+        "Meng H",
+        "Huang F",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Yingying",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xin",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanou",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Hua",
+        "short_name": "Meng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fang",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cellular and infection microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Infect Microbiol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 12:51",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [
+      "42650855"
+    ],
+    "refs": [
+      "40805999",
+      "40674716",
+      "40238896",
+      "40094187",
+      "39915460",
+      "39805448",
+      "39222142",
+      "38823951",
+      "38513649",
+      "38332914",
+      "38168953",
+      "38142478",
+      "36968575",
+      "36877030",
+      "36840585",
+      "36724366",
+      "36235633",
+      "36209190",
+      "35011604",
+      "34897469",
+      "34864825",
+      "33294123",
+      "33057840",
+      "32791172",
+      "32460750",
+      "32166242",
+      "31954465",
+      "31511662",
+      "31135705",
+      "30944313",
+      "30020428",
+      "29932449",
+      "29550910",
+      "29368185",
+      "29225343",
+      "28864056",
+      "28562479",
+      "26903338",
+      "16127449"
+    ],
+    "similar": [
+      "42291298",
+      "41611834",
+      "42247642",
+      "42305536",
+      "41789070",
+      "42123445",
+      "40973872",
+      "42597971",
+      "42326009",
+      "40129981",
+      "40830558",
+      "42056344",
+      "41716413",
+      "40362669",
+      "41735888",
+      "42123756",
+      "41388523",
+      "42154423",
+      "41833346",
+      "42148128",
+      "42099899",
+      "39763654",
+      "41081959",
+      "41415264",
+      "41512388",
+      "42024670",
+      "39430765",
+      "37115484",
+      "42292468",
+      "42589294",
+      "42579704",
+      "42347208",
+      "41424060",
+      "42266692",
+      "41812506",
+      "41527570",
+      "41895505",
+      "42292668",
+      "41548166",
+      "41665627",
+      "42088521",
+      "42234716",
+      "41570698",
+      "41107929",
+      "42435052",
+      "40362233",
+      "38880160",
+      "41013556",
+      "42520338",
+      "41534756",
+      "41013727",
+      "38573982",
+      "42429909",
+      "41826854",
+      "41656832",
+      "41044520",
+      "42195052",
+      "39586719",
+      "40768057",
+      "39695788",
+      "42233387",
+      "42509823",
+      "35739592",
+      "42306043",
+      "42265520",
+      "35184762",
+      "42098401",
+      "41733593",
+      "40165133",
+      "41760060",
+      "41320776",
+      "41324863",
+      "41146237",
+      "41624837",
+      "42015036",
+      "39735547",
+      "40540134",
+      "41795298",
+      "35685286",
+      "41109923",
+      "41326582",
+      "42327749",
+      "41479901",
+      "41089329",
+      "42143937",
+      "42064079",
+      "42217408",
+      "42248330",
+      "42274933",
+      "41858783",
+      "41988156",
+      "37921181",
+      "41254473",
+      "42148089",
+      "42208328",
+      "41886545",
+      "38863714",
+      "40936892",
+      "40406126",
+      "37398680"
+    ],
+    "review": [
+      "42291298",
+      "41665627"
+    ],
+    "pmc": [
+      "13253277"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42291298/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcimb.2026.1800050",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

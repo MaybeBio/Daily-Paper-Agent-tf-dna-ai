@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "41181146",
+    "doi": "10.3389/fimmu.2025.1665648",
+    "title": "Bioinformatics based exploration of the anti-liver fibrosis mechanism of Pien Tze Huang via EGFR/JAK1/STAT3 pathway."
+  },
+  "content": {
+    "abstract": "OBJECT: Liver fibrosis is a key stage in chronic liver disease, but targeted treatments are scarce. Pien Tze Huang (PZH), a traditional Chinese medicine, shows anti-fibrotic potential, though its mechanisms are not fully understood. METHOD: A liver fibrosis model was created in C57BL/6 mice using carbon tetrachloride (CCL(4)). PZH's effects were assessed via liver morphology, serum/liver biomarkers, transaminase levels, and histopathology. PZH's chemical components were identified through database and literature research. Network pharmacology, molecular docking and molecular dynamics simulation were used to investigate the underlying mechanisms, which were validated in vivo and in vitro with immunofluorescence and Western blot analyses. RESULTS: PZH significantly attenuated hepatic transaminase disorders, reduced serum procollagen III/IV, alleviated fibrotic liver histopathology, and suppressed macrophage markers and hepatic inflammation. Through multi-database integration, 24 bioactive compounds were identified in PZH, including ginsenoside Rh2. Further investigation showed that PZH ameliorates liver fibrosis by modulating key targets, including AKT1, EGFR, and STAT3. Molecular docking analysis and molecular dynamics simulation demonstrated a significantly high binding affinity between ginsenoside Rh2 and the target proteins EGFR, JAK1, and STAT3. In vitro and in vivo experiments confirmed that PZH and ginsenoside Rh2, reduced RAW264.7 inflammatory mediators, inhibited M1 polarization, and downregulated EGFR/JAK1/STAT3. CONCLUSION: The findings reveal that PZH ameliorates liver fibrosis by inhibiting macrophage-mediated inflammation via blockade of the EGFR/JAK1/STAT3 signaling axis, providing a mechanistic foundation for its clinical application.",
+    "keywords": [
+      "EGFR/JAK1/STAT3 signaling pathway",
+      "Pien Tze Huang",
+      "liver fibrosis",
+      "liver inflammation",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*STAT3 Transcription Factor/metabolism",
+      "Mice",
+      "ErbB Receptors/metabolism",
+      "Signal Transduction/drug effects",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry/therapeutic use",
+      "*Janus Kinase 1/metabolism",
+      "Molecular Docking Simulation",
+      "*Liver Cirrhosis/drug therapy/metabolism/pathology/chemically induced",
+      "Mice, Inbred C57BL",
+      "Computational Biology/methods",
+      "Male",
+      "Carbon Tetrachloride",
+      "Disease Models, Animal",
+      "Molecular Dynamics Simulation",
+      "Liver/pathology/drug effects/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Xiaoting",
+        "Ye, Yonghua",
+        "Lin, Chunfeng",
+        "Zheng, Miaolan",
+        "Lin, Fan",
+        "Xiong, Qing",
+        "Xu, Wei",
+        "Li, Huang",
+        "Zhang, Yuqin",
+        "Zheng, Haiyin"
+      ],
+      "short_names": [
+        "Hong X",
+        "Ye Y",
+        "Lin C",
+        "Zheng M",
+        "Lin F",
+        "Xiong Q",
+        "Xu W",
+        "Li H",
+        "Zhang Y",
+        "Zheng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China.",
+        "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Xiaoting",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yonghua",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Chunfeng",
+        "short_name": "Lin C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Miaolan",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Fan",
+        "short_name": "Lin F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Qing",
+        "short_name": "Xiong Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wei",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuqin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural Pharmacology & Traditional Chinese Medicine (TCM) Chemical Biology, Fujian Key Laboratory of Chinese Materia Medica, College of Pharmacy, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Haiyin",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Medicine, Fujian University of Traditional Chinese Medicine, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/03 13:42",
+    "fetched_at": "2026-10-01 05:36:52"
+  },
+  "links": {
+    "cites": [
+      "42605623",
+      "41884831"
+    ],
+    "refs": [
+      "40388634",
+      "40189989",
+      "40015207",
+      "39971227",
+      "39747812",
+      "39262130",
+      "39156500",
+      "39146879",
+      "39131493",
+      "38860173",
+      "38678021",
+      "38130997",
+      "38042390",
+      "37978263",
+      "37406390",
+      "37380136",
+      "37094423",
+      "36821519",
+      "36573077",
+      "36521660",
+      "36188553",
+      "35550529",
+      "35484116",
+      "34907906",
+      "34850941",
+      "34417500",
+      "34352998",
+      "34290403",
+      "33893003",
+      "33658028",
+      "33649861",
+      "32962386",
+      "32557917",
+      "32260126",
+      "31891799",
+      "31181334",
+      "30959141",
+      "30902670",
+      "30476243",
+      "29889899",
+      "29674694",
+      "29447108",
+      "29106634",
+      "29066712",
+      "28642059",
+      "27322403",
+      "26598167",
+      "25428349",
+      "24850022",
+      "24735618",
+      "24661007",
+      "22330337",
+      "19785456",
+      "19399780",
+      "17942826",
+      "17212484",
+      "16211538",
+      "11356104",
+      "9738022"
+    ],
+    "similar": [
+      "41181146",
+      "30959141",
+      "32681257",
+      "36188553",
+      "36004475",
+      "34417500",
+      "23843018",
+      "35848969",
+      "30464391",
+      "29845215",
+      "41314270",
+      "41296792",
+      "22218594",
+      "40316154",
+      "41087767",
+      "39461065",
+      "40876792",
+      "40139075",
+      "12530469",
+      "40414578",
+      "38634065",
+      "39322020",
+      "39914691",
+      "33658028",
+      "37280673",
+      "39869574",
+      "40876793",
+      "23027374",
+      "32569681",
+      "38169205",
+      "25653118",
+      "38216838",
+      "40617363",
+      "39362322",
+      "35185580",
+      "38696100",
+      "39730994",
+      "33344655",
+      "29682587",
+      "41411887",
+      "40414577",
+      "41197924",
+      "38190954",
+      "35947230",
+      "41033411",
+      "32474674",
+      "40998926",
+      "41058947",
+      "40693722",
+      "35057680",
+      "41038150",
+      "39278295",
+      "39321687",
+      "37003405",
+      "32721552",
+      "26938521",
+      "38212499",
+      "35550529",
+      "41344519",
+      "41254156",
+      "39603398",
+      "15027814",
+      "39716274",
+      "39591719",
+      "32479885",
+      "40260261",
+      "25422078",
+      "38754816",
+      "40759297",
+      "41199095",
+      "29550579",
+      "40452107",
+      "37704113",
+      "39615770",
+      "40480397",
+      "39032663",
+      "41260554",
+      "40976125",
+      "38925513",
+      "40013962",
+      "40615099",
+      "30132246",
+      "41135015",
+      "41015321",
+      "36529247",
+      "39299533",
+      "41412261",
+      "38583728",
+      "23948302",
+      "40724913",
+      "40466879",
+      "41270641",
+      "38309092",
+      "39020410",
+      "22891040",
+      "41077317",
+      "32783983",
+      "38872438",
+      "39094440",
+      "27400477"
+    ],
+    "review": [
+      "41181146",
+      "33658028"
+    ],
+    "pmc": [
+      "12575103"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41181146/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1665648",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

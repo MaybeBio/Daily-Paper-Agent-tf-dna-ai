@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "38592541",
+    "doi": "10.1007/s10549-024-07303-z",
+    "title": "Clinical evaluation of deep learning-based risk profiling in breast cancer histopathology and comparison to an established multigene assay."
+  },
+  "content": {
+    "abstract": "PURPOSE: To evaluate the Stratipath Breast tool for image-based risk profiling and compare it with an established prognostic multigene assay for risk profiling in a real-world case series of estrogen receptor (ER)-positive and human epidermal growth factor receptor 2 (HER2)-negative early breast cancer patients categorized as intermediate risk based on classic clinicopathological variables and eligible for chemotherapy. METHODS: In a case series comprising 234 invasive ER-positive/HER2-negative tumors, clinicopathological data including Prosigna results and corresponding HE-stained tissue slides were retrieved. The digitized HE slides were analysed by Stratipath Breast. RESULTS: Our findings showed that the Stratipath Breast analysis identified 49.6% of the clinically intermediate tumors as low risk and 50.4% as high risk. The Prosigna assay classified 32.5%, 47.0% and 20.5% tumors as low, intermediate and high risk, respectively. Among Prosigna intermediate-risk tumors, 47.3% were stratified as Stratipath low risk and 52.7% as high risk. In addition, 89.7% of Stratipath low-risk cases were classified as Prosigna low/intermediate risk. The overall agreement between the two tests for low-risk and high-risk groups (N = 124) was 71.0%, with a Cohen's kappa of 0.42. For both risk profiling tests, grade and Ki67 differed significantly between risk groups. CONCLUSION: The results from this clinical evaluation of image-based risk stratification shows a considerable agreement to an established gene expression assay in routine breast pathology.",
+    "keywords": [
+      "Breast cancer",
+      "Deep learning",
+      "Digital pathology",
+      "Gene expression profiling",
+      "Prosigna"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology",
+      "Female",
+      "Middle Aged",
+      "*Deep Learning",
+      "*Biomarkers, Tumor/genetics",
+      "Adult",
+      "Aged",
+      "*Erb-b2 Receptor Tyrosine Kinases/genetics/metabolism",
+      "*Receptors, Estrogen/metabolism",
+      "Risk Assessment/methods",
+      "Prognosis",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yinxi",
+        "Sun, Wenwen",
+        "Karlsson, Emelie",
+        "Kang Lovgren, Sandy",
+        "Acs, Balazs",
+        "Rantalainen, Mattias",
+        "Robertson, Stephanie",
+        "Hartman, Johan"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Sun W",
+        "Karlsson E",
+        "Kang Lovgren S",
+        "Acs B",
+        "Rantalainen M",
+        "Robertson S",
+        "Hartman J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "Stratipath AB, Nanna Svartz vag 4, Stockholm, 171 65, Sweden.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "Stratipath AB, Nanna Svartz vag 4, Stockholm, 171 65, Sweden.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+        "MedTechLabs, BioClinicum, Karolinska University Hospital, Stockholm, Sweden.",
+        "Stratipath AB, Nanna Svartz vag 4, Stockholm, 171 65, Sweden. stephanie.robertson@ki.se.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden. stephanie.robertson@ki.se.",
+        "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+        "MedTechLabs, BioClinicum, Karolinska University Hospital, Stockholm, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yinxi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+          "Stratipath AB, Nanna Svartz väg 4, Stockholm, 171 65, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sun, Wenwen",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+          "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Karlsson, Emelie",
+        "short_name": "Karlsson E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Kang Lövgren, Sandy",
+        "short_name": "Kang Lövgren S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+          "Stratipath AB, Nanna Svartz väg 4, Stockholm, 171 65, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ács, Balázs",
+        "short_name": "Ács B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+          "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rantalainen, Mattias",
+        "short_name": "Rantalainen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden.",
+          "MedTechLabs, BioClinicum, Karolinska University Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Robertson, Stephanie",
+        "short_name": "Robertson S",
+        "identifiers": [],
+        "affiliations": [
+          "Stratipath AB, Nanna Svartz väg 4, Stockholm, 171 65, Sweden. stephanie.robertson@ki.se.",
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden. stephanie.robertson@ki.se."
+        ]
+      },
+      {
+        "full_name": "Hartman, Johan",
+        "short_name": "Hartman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden.",
+          "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+          "MedTechLabs, BioClinicum, Karolinska University Hospital, Stockholm, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research and treatment"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res Treat"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/09 12:43",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "42650034",
+      "42070246",
+      "41919095",
+      "41831466",
+      "41064593",
+      "40661301",
+      "40179582"
+    ],
+    "refs": [
+      "38012314",
+      "37494846",
+      "37380659",
+      "37059742",
+      "36658418",
+      "36631400",
+      "36482272",
+      "35982331",
+      "35729220",
+      "35681597",
+      "35595235",
+      "35439025",
+      "35122049",
+      "34827609",
+      "34756513",
+      "34341074",
+      "34242744",
+      "34196797",
+      "33803148",
+      "33763651",
+      "33369635",
+      "33360027",
+      "33108242",
+      "32572716",
+      "32572199",
+      "32128929",
+      "31992350",
+      "31161190",
+      "30224757",
+      "29450494",
+      "29369732",
+      "29230662",
+      "29203879",
+      "27782306",
+      "27130929",
+      "26412349",
+      "25935792",
+      "25332252",
+      "24520097",
+      "24347518",
+      "23816962",
+      "22098854",
+      "20804570",
+      "18490649",
+      "18465348",
+      "17401012",
+      "17079448",
+      "16478745"
+    ],
+    "similar": [
+      "38592541",
+      "41380230",
+      "39143539",
+      "42750049",
+      "42148109",
+      "26610383",
+      "41831466",
+      "28423537",
+      "41327380",
+      "42708797",
+      "32372329",
+      "41584881",
+      "39083015",
+      "41895875",
+      "40347583",
+      "41965577",
+      "42488884",
+      "40845255",
+      "40997745",
+      "41886167",
+      "41270247",
+      "32253134",
+      "42190396",
+      "32284770",
+      "40560329",
+      "41995722",
+      "22418568",
+      "29137653",
+      "39854658",
+      "40903695",
+      "41006089",
+      "33444922",
+      "41493657",
+      "31026440",
+      "39960127",
+      "42203036",
+      "34090143",
+      "40593633",
+      "40043195",
+      "28739750",
+      "41162228",
+      "41526910",
+      "28404972",
+      "40227228",
+      "41691575",
+      "35955851",
+      "26631838",
+      "42431147",
+      "32601800",
+      "30570850",
+      "26971372",
+      "30053900",
+      "41316480",
+      "41061345",
+      "26633571",
+      "39506855",
+      "31434940",
+      "39985907",
+      "39576843",
+      "31933152",
+      "40597935",
+      "41791000",
+      "41920490",
+      "41528926",
+      "29133514",
+      "41898839",
+      "33028590",
+      "42674815",
+      "42302265",
+      "29128896",
+      "41697472",
+      "42329472",
+      "40184873",
+      "33558657",
+      "41074908",
+      "42159964",
+      "32385567",
+      "41942928",
+      "40014208",
+      "41632146",
+      "42497534",
+      "39365509",
+      "27743431",
+      "23614365",
+      "40684412",
+      "41653522",
+      "42218834",
+      "39924532",
+      "41466313",
+      "40168945",
+      "27568021",
+      "42176177",
+      "39031010",
+      "30097312",
+      "32170635",
+      "40348609",
+      "42310258",
+      "41238982",
+      "29310037",
+      "39545625"
+    ],
+    "review": [
+      "38592541",
+      "39960127",
+      "41074908"
+    ],
+    "pmc": [
+      "11182789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38592541/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10549-024-07303-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38592541",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

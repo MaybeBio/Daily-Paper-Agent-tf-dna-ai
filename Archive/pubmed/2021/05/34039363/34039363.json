@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "34039363",
+    "doi": "10.1186/s12943-021-01368-w",
+    "title": "A new KSRP-binding compound suppresses distant metastasis of colorectal cancer by targeting the oncogenic KITENIN complex."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Distant metastasis is the major cause of death in patients with colorectal cancer (CRC). Previously, we identified KITENIN as a metastasis-enhancing gene and suggested that the oncogenic KITENIN complex is involved in metastatic dissemination of KITENIN-overexpressing CRC cells. Here, we attempted to find substances targeting the KITENIN complex and test their ability to suppress distant metastasis of CRC. METHODS: We screened a small-molecule compound library to find candidate substances suppressing the KITENIN complex in CRC cells. We selected a candidate compound and examined its effects on the KITENIN complex and distant metastasis through in vitro assays, a molecular docking model, and in vivo tumor models. RESULTS: Among several compounds, we identified DKC1125 (Disintegrator of KITENIN Complex #1125) as the best candidate. DKC1125 specifically suppressed KITENIN gain of function. After binding KH-type splicing regulatory protein (KSRP), DKC1125 degraded KITENIN and Dvl2 by recruiting RACK1 and miRNA-124, leading to the disintegration of the functional KITENIN-KSRP-RACK1-Dvl2 complex. A computer docking model suggested that DKC1125 specifically interacted with the binding pocket of the fourth KH-domain of KSRP. KITENIN-overexpressing CRC cells deregulated certain microRNAs and were resistant to 5-fluorouracil, oxaliplatin, and cetuximab. DKC1125 restored sensitivity to these drugs by normalizing expression of the deregulated microRNAs, including miRNA-124. DKC1125 effectively suppressed colorectal liver metastasis in a mouse model. Interestingly, the combination of DKC1125 with 5-fluorouracil suppressed metastasis more effectively than either drug alone. CONCLUSION: DKC1125 targets the KITENIN complex and could therefore be used as a novel therapeutic to suppress liver metastasis in CRC expressing high levels of KITENIN.",
+    "keywords": [
+      "Colorectal cancer",
+      "KITENIN complex",
+      "KSRP",
+      "Metastasis",
+      "microRNA"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Antineoplastic Agents/chemistry/*pharmacology",
+      "Carrier Proteins/*drug effects",
+      "Colorectal Neoplasms/*pathology",
+      "Drug Discovery",
+      "Humans",
+      "Membrane Proteins/*drug effects",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Neoplasm Metastasis/pathology",
+      "RNA-Binding Proteins/antagonists & inhibitors/*drug effects/*metabolism",
+      "Trans-Activators/antagonists & inhibitors/*drug effects/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bae, Jeong A",
+        "Bae, Woo Kyun",
+        "Kim, Sung Jin",
+        "Ko, Yoo-Seung",
+        "Kim, Keon Young",
+        "Park, So-Yeon",
+        "Yu, Young Hyun",
+        "Kim, Eun Ae",
+        "Chung, Ik Joo",
+        "Kim, Hangun",
+        "Ha, Hyung-Ho",
+        "Kim, Kyung Keun"
+      ],
+      "short_names": [
+        "Bae JA",
+        "Bae WK",
+        "Kim SJ",
+        "Ko YS",
+        "Kim KY",
+        "Park SY",
+        "Yu YH",
+        "Kim EA",
+        "Chung IJ",
+        "Kim H",
+        "Ha HH",
+        "Kim KK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7346-9526"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+        "Department of Hematology-Oncology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+        "Immunotherapy Innovation Center, Chonnam National University Medical School and Hwasun Hospital, Hwasun, South Korea.",
+        "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+        "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+        "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+        "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea.",
+        "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea.",
+        "College of Pharmacy, Chosun University, Gwangju, South Korea.",
+        "Department of Hematology-Oncology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+        "Immunotherapy Innovation Center, Chonnam National University Medical School and Hwasun Hospital, Hwasun, South Korea.",
+        "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea. hangunkim@sunchon.ac.kr.",
+        "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea. hhha@sunchon.ac.kr.",
+        "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea. kimkk@chonnam.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bae, Jeong A",
+        "short_name": "Bae JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea."
+        ]
+      },
+      {
+        "full_name": "Bae, Woo Kyun",
+        "short_name": "Bae WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology-Oncology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+          "Immunotherapy Innovation Center, Chonnam National University Medical School and Hwasun Hospital, Hwasun, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sung Jin",
+        "short_name": "Kim SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ko, Yoo-Seung",
+        "short_name": "Ko YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Keon Young",
+        "short_name": "Kim KY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea."
+        ]
+      },
+      {
+        "full_name": "Park, So-Yeon",
+        "short_name": "Park SY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea."
+        ]
+      },
+      {
+        "full_name": "Yu, Young Hyun",
+        "short_name": "Yu YH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Eun Ae",
+        "short_name": "Kim EA",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chosun University, Gwangju, South Korea."
+        ]
+      },
+      {
+        "full_name": "Chung, Ik Joo",
+        "short_name": "Chung IJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology-Oncology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea.",
+          "Immunotherapy Innovation Center, Chonnam National University Medical School and Hwasun Hospital, Hwasun, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hangun",
+        "short_name": "Kim H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea. hangunkim@sunchon.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Ha, Hyung-Ho",
+        "short_name": "Ha HH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Sunchon National University, Jungangro 225, Sunchon, 57922, South Korea. hhha@sunchon.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Kyung Keun",
+        "short_name": "Kim KK",
+        "identifiers": [
+          "0000-0002-7346-9526"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Chonnam National University Medical School, Baekseoro 160, Dong-Ku, Gwangju, 61469, South Korea. kimkk@chonnam.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer"
+    ],
+    "pub_date": "2021 May 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/28 06:00",
+    "fetched_at": "2026-09-27 18:07:38"
+  },
+  "links": {
+    "cites": [
+      "42676039",
+      "42639267",
+      "42592425",
+      "42157238",
+      "41688273",
+      "40849355",
+      "40699755",
+      "40546670",
+      "39223155",
+      "39030594",
+      "38665668",
+      "38393059",
+      "37824394",
+      "37553596",
+      "36632223",
+      "35853101",
+      "35563788",
+      "35524790"
+    ],
+    "refs": [
+      "31754405",
+      "31322820",
+      "31313286",
+      "30925923",
+      "30532125",
+      "30360226",
+      "30191973",
+      "30071644",
+      "29895829",
+      "29788355",
+      "29035371",
+      "28902489",
+      "28754000",
+      "27648936",
+      "27129200",
+      "26865249",
+      "26845449",
+      "26574453",
+      "26527747",
+      "26272180",
+      "26107137",
+      "25950237",
+      "25918280",
+      "25805136",
+      "25605251",
+      "24909917",
+      "24893630",
+      "24882575",
+      "24845017",
+      "23913938",
+      "23178464",
+      "22840317",
+      "22115124",
+      "22065899",
+      "21978545",
+      "21935400",
+      "21473287",
+      "21418393",
+      "21262816",
+      "20944126",
+      "20422689",
+      "20358939",
+      "20332102",
+      "20171980",
+      "19499576",
+      "19474385",
+      "18653728",
+      "17437720",
+      "17401365",
+      "17218951",
+      "16230673",
+      "16204073",
+      "15689586",
+      "15637400",
+      "15205336",
+      "15116359",
+      "12724731"
+    ],
+    "similar": [
+      "34039363",
+      "35853101",
+      "27648936",
+      "24909917",
+      "24893630",
+      "18653728",
+      "39030594",
+      "37553596",
+      "26496979",
+      "28847731",
+      "30360226",
+      "15205336",
+      "22065899",
+      "21418393",
+      "19166844",
+      "26527747",
+      "33291076",
+      "16204073",
+      "27855613",
+      "35563788",
+      "28871057",
+      "21934092",
+      "31313286",
+      "14657238",
+      "17998247",
+      "31741141",
+      "30578289",
+      "28460469",
+      "31754405",
+      "17089048",
+      "29366806",
+      "32188489",
+      "20944126",
+      "30551544",
+      "21935887",
+      "30890168",
+      "25193986",
+      "29207180",
+      "30542696",
+      "24244461",
+      "31953889",
+      "31404541",
+      "26631623",
+      "25381815",
+      "31269460",
+      "25991585",
+      "21488189",
+      "27906093",
+      "28275056",
+      "26259252",
+      "27145368",
+      "34968454",
+      "27286257",
+      "21473287",
+      "31281520",
+      "30666650",
+      "20422689",
+      "34599680",
+      "22615562",
+      "29635904",
+      "34440739",
+      "24642628",
+      "25514904",
+      "31511826",
+      "19623659",
+      "22847996",
+      "25605251",
+      "34952201",
+      "31588243",
+      "27492459",
+      "34062216",
+      "25531324",
+      "24171926",
+      "32670264",
+      "21329876",
+      "16126846",
+      "37451400",
+      "26352220",
+      "29728998",
+      "22840317",
+      "30037330",
+      "32756469",
+      "34303896",
+      "30662328",
+      "19775426",
+      "23788041",
+      "23201162",
+      "21935400",
+      "27729020",
+      "33429333",
+      "30119236",
+      "29127290",
+      "22832932",
+      "22593189",
+      "27259250",
+      "31675755",
+      "23142982",
+      "37824394",
+      "38275664"
+    ],
+    "review": [
+      "34039363",
+      "35563788"
+    ],
+    "pmc": [
+      "8152081"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-021-01368-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34039363/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34039363",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34039363",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://scite.ai/reports/34039363",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors use a novel coarse-grained model and molecular dynamics simulations to show that nucleosome breathing dynamics, featuring repeated wrap-unwrap transitions and stochastic DNA bulge diffusion, facilitate cooperative binding of Sox2 and Oct4 to the entry-exit region of a nucleosome. They propose a "dissociation-compensated-association" mechanism where Oct4 binding is facilitated by Sox2 association, with cooperativity arising from an entropy change due to altered nucleosome dynamics upon TF binding. They state the binding pattern is consistent with a live-cell single-particle tracking experiment.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, simulation details, model parameters, validation data, experimental methods, quantitative results, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant computational study addressing a fundamental question in gene regulation, namely how transcription factors access nucleosome-enriched chromatin regions. The proposed mechanism is novel and the connection to live-cell experiments is appealing. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the model, the robustness of the simulation results, or the strength of the experimental comparison. Several claims are stated without quantitative support, and the mechanistic interpretation rests on assumptions that cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, transcription regulation, and computational biophysics would be interested. The work addresses a long-standing question about how pluripotency factors access nucleosomal DNA, which is relevant to understanding developmental gene regulation and the function of cis-regulatory elements. The proposed coarse-grained approach may also interest method developers in molecular simulation.
+- **Major strengths** The study addresses a biologically important and mechanistically elusive problem. The use of a coarse-grained model to capture nucleosome breathing heterogeneity is a reasonable and potentially powerful approach. The proposed "dissociation-compensated-association" mechanism is conceptually novel and provides a testable framework. The attempt to connect simulation results to live-cell single-particle tracking data strengthens the biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "captures the conformational heterogeneity of nucleosome breathing dynamics that features repeated wrap-unwrap transitions of a DNA segment from one end of the nucleosome."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on the coarse-grained model construction, force field parameters, simulation length, sampling methodology, or validation against experimental or atomistic data. Without this information, it is impossible to assess whether the observed breathing dynamics are physically realistic or an artifact of the model.
+  - **Why it matters** The entire mechanistic interpretation depends on the fidelity of the simulated nucleosome dynamics. If the model does not accurately reproduce known nucleosome breathing behavior, the subsequent conclusions about TF binding cooperativity are not reliable.
+  - **Resolution test** Provide model details, validation against experimental nucleosome dynamics data, and convergence analyses in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "The overall search kinetics of the TF pair follows a 'dissociation-compensated-association' mechanism, where Oct4 binding is facilitated by the association of Sox2."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states this mechanism without presenting any quantitative kinetic data, such as binding rates, dissociation rates, or free energy profiles. The term "dissociation-compensated-association" is introduced but not defined operationally. No comparison to alternative mechanisms is shown.
+  - **Why it matters** The central mechanistic claim of the paper cannot be evaluated without quantitative support. A reader cannot determine whether the proposed mechanism is uniquely supported by the data or is one of several possible interpretations.
+  - **Resolution test** Present quantitative kinetic and thermodynamic data from simulations, including rate constants and free energy changes, and compare to alternative binding models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental consistency
+  - **Claim pointer** "The binding pattern is consistent with a live-cell single-particle tracking experiment."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which experiment is referenced, what the experimental binding pattern was, or how the comparison was made. No quantitative metrics of agreement are provided.
+  - **Why it matters** The claim of experimental consistency is a key part of the paper's significance. Without details on the comparison, the claim is unverifiable and may overstate the agreement between simulation and experiment.
+  - **Resolution test** Specify the experimental study, describe the comparison methodology, and provide quantitative measures of agreement in the full manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "The cooperativity stems from a change in entropy caused by an alteration in the nucleosome dynamics upon TF binding."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The entropy-based explanation is stated as a conclusion, but no entropic calculations or decomposition of free energy contributions are described. The direction and magnitude of the entropy change are not quantified.
+  - **Why it matters** Entropic arguments can be difficult to validate and are often sensitive to model assumptions. Without explicit calculation, this claim remains speculative.
+  - **Resolution test** Provide entropy calculations from simulations, including error estimates and a decomposition of enthalpic and entropic contributions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, mechanism description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "dissociation-compensated-association" is not defined and its meaning is not immediately clear.
+  - **Required correction** Define the term explicitly when first used, with a brief mechanistic description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state whether the model and simulation code are publicly available.
+  - **Required correction** State data and code availability in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Broader implications claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that the mechanism "has broader implications in understanding gene regulation" is stated without discussion of how generalizable the findings are to other TF pairs or chromatin contexts.
+  - **Required correction** Add a brief statement in the discussion about the expected generality and limitations of the mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The model validity, quantitative support for the kinetic mechanism, and experimental comparison are all unsubstantiated from the abstract alone.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the proposed mechanism and the combination of coarse-grained simulation with single-particle tracking comparison appear novel. Scientific importance is substantial given the relevance to developmental gene regulation and TF access to chromatin. Interdisciplinary readership is plausible, spanning biophysics, chromatin biology, and computational biology. Technical soundness cannot be assessed from the abstract due to missing methodological detail. Readability for nonspecialists is moderate, as the abstract uses specialized terminology without sufficient context, though the overall narrative is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible computational framework, but the absence of methodological detail, quantitative results, and experimental comparison details prevents evaluation of the central claims. A full manuscript with these elements could be supportive.
+
+## Risk / unsupported claims
+- The claim that the model "captures the conformational heterogeneity of nucleosome breathing dynamics" is unsupported without model validation details.
+- The "dissociation-compensated-association" mechanism is unsupported without quantitative kinetic data.
+- The entropy-based origin of cooperativity is unsupported without explicit entropy calculations.
+- The consistency with a live-cell single-particle tracking experiment is unverifiable without specification of the experiment and comparison method.
+- The broader implications for gene regulation are speculative without evidence of generalizability.

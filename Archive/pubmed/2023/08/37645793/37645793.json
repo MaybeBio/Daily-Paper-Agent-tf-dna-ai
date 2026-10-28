@@ -1,0 +1,502 @@
+{
+  "identity": {
+    "pmid": "37645793",
+    "doi": "10.21203/rs.3.rs-3164817/v1",
+    "title": "Competition between transcription and loop extrusion modulates promoter and enhancer dynamics."
+  },
+  "content": {
+    "abstract": "The spatiotemporal configuration of genes with distal regulatory elements, and the impact of chromatin mobility on transcription, remain unclear. Loop extrusion is an attractive model for bringing genetic elements together, but how this functionally interacts with transcription is also largely unknown. We combine live tracking of genomic loci and nascent transcripts with molecular dynamics simulations to assess the spatiotemporal arrangement of the Sox2 gene and its enhancer, in response to a battery of perturbations. We find a close link between chromatin mobility and transcriptional status: active elements display more constrained mobility, consistent with confinement within specialized nuclear sites, and alterations in enhancer mobility distinguish poised from transcribing alleles. Strikingly, we find that whereas loop extrusion and transcription factor-mediated clustering contribute to promoter-enhancer proximity, they have antagonistic effects on chromatin dynamics. This provides an experimental framework for the underappreciated role of chromatin dynamics in genome regulation.",
+    "keywords": [
+      "Chromatin dynamics",
+      "anomalous diffusion",
+      "enhancer",
+      "live imaging",
+      "molecular dynamics",
+      "transcription"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sexton, Tom",
+        "Platania, Angeliki",
+        "Erb, Cathie",
+        "Barbieri, Mariano",
+        "Molcrette, Bastien",
+        "Grandgirard, Erwan",
+        "de Kort, Marit",
+        "Meabum, Karen",
+        "Taylor, Tiegh",
+        "Shchuka, Virlana",
+        "Kocanova, Silvia",
+        "Oliveira, Guilherme",
+        "Mitchell, Jennifer",
+        "Soutoglou, Evi",
+        "Lenstra, Tineke",
+        "Molina, Nacho",
+        "Papantonis, Argyris",
+        "Bystricky, Keratin"
+      ],
+      "short_names": [
+        "Sexton T",
+        "Platania A",
+        "Erb C",
+        "Barbieri M",
+        "Molcrette B",
+        "Grandgirard E",
+        "de Kort M",
+        "Meabum K",
+        "Taylor T",
+        "Shchuka V",
+        "Kocanova S",
+        "Oliveira G",
+        "Mitchell J",
+        "Soutoglou E",
+        "Lenstra T",
+        "Molina N",
+        "Papantonis A",
+        "Bystricky K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7147-4604",
+        "ORCID: 0000-0002-4440-9962",
+        "ORCID: 0000-0001-7551-1073",
+        "ORCID: 0000-0001-6717-3721"
+      ],
+      "affiliations": [
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "University Medical Center Gottingen.",
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "MGH.",
+        "Genome Damage and Stability Centre.",
+        "University of Toronto.",
+        "University of Toronto.",
+        "Centre of Integrative Biology.",
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "University of Toronto.",
+        "Genome Damage and Stability Centre.",
+        "Netherlands Cancer Institute.",
+        "IGBMC (Institute of Genetics and Molecular and Cellular Biology).",
+        "University Medical Center Goettingen.",
+        "University of Toulouse -CNRS."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sexton, Tom",
+        "short_name": "Sexton T",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "Platania, Angeliki",
+        "short_name": "Platania A",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "Erb, Cathie",
+        "short_name": "Erb C",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "Barbieri, Mariano",
+        "short_name": "Barbieri M",
+        "identifiers": [],
+        "affiliations": [
+          "University Medical Center Gottingen."
+        ]
+      },
+      {
+        "full_name": "Molcrette, Bastien",
+        "short_name": "Molcrette B",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "Grandgirard, Erwan",
+        "short_name": "Grandgirard E",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "de Kort, Marit",
+        "short_name": "de Kort M",
+        "identifiers": [],
+        "affiliations": [
+          "MGH."
+        ]
+      },
+      {
+        "full_name": "Meabum, Karen",
+        "short_name": "Meabum K",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Damage and Stability Centre."
+        ]
+      },
+      {
+        "full_name": "Taylor, Tiegh",
+        "short_name": "Taylor T",
+        "identifiers": [],
+        "affiliations": [
+          "University of Toronto."
+        ]
+      },
+      {
+        "full_name": "Shchuka, Virlana",
+        "short_name": "Shchuka V",
+        "identifiers": [],
+        "affiliations": [
+          "University of Toronto."
+        ]
+      },
+      {
+        "full_name": "Kocanova, Silvia",
+        "short_name": "Kocanova S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Integrative Biology."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Guilherme",
+        "short_name": "Oliveira G",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "Mitchell, Jennifer",
+        "short_name": "Mitchell J",
+        "identifiers": [
+          "0000-0002-7147-4604"
+        ],
+        "affiliations": [
+          "University of Toronto."
+        ]
+      },
+      {
+        "full_name": "Soutoglou, Evi",
+        "short_name": "Soutoglou E",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Damage and Stability Centre."
+        ]
+      },
+      {
+        "full_name": "Lenstra, Tineke",
+        "short_name": "Lenstra T",
+        "identifiers": [
+          "0000-0002-4440-9962"
+        ],
+        "affiliations": [
+          "Netherlands Cancer Institute."
+        ]
+      },
+      {
+        "full_name": "Molina, Nacho",
+        "short_name": "Molina N",
+        "identifiers": [],
+        "affiliations": [
+          "IGBMC (Institute of Genetics and Molecular and Cellular Biology)."
+        ]
+      },
+      {
+        "full_name": "Papantonis, Argyris",
+        "short_name": "Papantonis A",
+        "identifiers": [
+          "0000-0001-7551-1073"
+        ],
+        "affiliations": [
+          "University Medical Center Goettingen."
+        ]
+      },
+      {
+        "full_name": "Bystricky, Keratin",
+        "short_name": "Bystricky K",
+        "identifiers": [
+          "0000-0001-6717-3721"
+        ],
+        "affiliations": [
+          "University of Toulouse -CNRS."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2023 Aug 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/30 06:48",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [
+      "38781242"
+    ],
+    "refs": [
+      "38509385",
+      "38048351",
+      "37012454",
+      "36717694",
+      "36482254",
+      "36471076",
+      "36471071",
+      "36261017",
+      "36097291",
+      "35710842",
+      "35710138",
+      "35621159",
+      "35420890",
+      "35418676",
+      "35410381",
+      "34702821",
+      "34678064",
+      "34661296",
+      "34002095",
+      "33795867",
+      "33767413",
+      "33575580",
+      "33422933",
+      "33398174",
+      "33334380",
+      "33202367",
+      "32976797",
+      "32958948",
+      "32304901",
+      "32038719",
+      "31905366",
+      "31863747",
+      "31494034",
+      "31124784",
+      "31086298",
+      "30824489",
+      "30799036",
+      "30554876",
+      "30374068",
+      "30344096",
+      "30038397",
+      "29988121",
+      "29967174",
+      "29930091",
+      "29930090",
+      "29800273",
+      "29501423",
+      "29371426",
+      "29131164",
+      "29094699",
+      "29053968",
+      "28985562",
+      "28978433",
+      "28826674",
+      "28712725",
+      "28525758",
+      "28436944",
+      "27867070",
+      "27863249",
+      "27405443",
+      "27078492",
+      "26527277",
+      "26092696",
+      "25959774",
+      "25768903",
+      "25605792",
+      "25497547",
+      "25271374",
+      "25270877",
+      "24625580",
+      "24446482",
+      "24077391",
+      "23828889",
+      "23592796",
+      "23103767",
+      "22955621",
+      "22743774",
+      "22682246",
+      "22495300",
+      "22265598",
+      "21278739",
+      "20010836",
+      "19261174",
+      "19001483",
+      "18497825",
+      "18195100",
+      "17522680",
+      "16669701",
+      "14517543",
+      "11739961"
+    ],
+    "similar": [
+      "37645793",
+      "37162887",
+      "36897969",
+      "34197738",
+      "33885786",
+      "37126401",
+      "35710138",
+      "32958948",
+      "25631878",
+      "31226276",
+      "39306948",
+      "31124784",
+      "8825558",
+      "22234890",
+      "25512558",
+      "23124110",
+      "35691341",
+      "35517868",
+      "27067007",
+      "37858706",
+      "37537334",
+      "30867326",
+      "32293525",
+      "30763343",
+      "37857083",
+      "34099014",
+      "38238628",
+      "35864475",
+      "26170447",
+      "27638884",
+      "28982762",
+      "26590168",
+      "25340767",
+      "22537144",
+      "38781242",
+      "28366641",
+      "32680543",
+      "23921639",
+      "29155818",
+      "38194964",
+      "36842325",
+      "33594051",
+      "12488456",
+      "10523648",
+      "8809063",
+      "36350004",
+      "25537195",
+      "9012660",
+      "29335803",
+      "31740773",
+      "38717453",
+      "36698204",
+      "31514731",
+      "23550086",
+      "16772529",
+      "31421124",
+      "23698277",
+      "31177910",
+      "35501845",
+      "38352568",
+      "12504020",
+      "9611237",
+      "32249388",
+      "33972799",
+      "10805748",
+      "15809261",
+      "36323252",
+      "30461303",
+      "28938112",
+      "2218723",
+      "34635154",
+      "20351094",
+      "32213323",
+      "37770717",
+      "35710842",
+      "27004515",
+      "29140466",
+      "31829768",
+      "11161205",
+      "26240285",
+      "37738673",
+      "23221643",
+      "36018818",
+      "19322193",
+      "12971721",
+      "24213634",
+      "32619460",
+      "19843609",
+      "27311442",
+      "29775582",
+      "10871404",
+      "37012454",
+      "8406005",
+      "23912807",
+      "38755928",
+      "27402708"
+    ],
+    "review": [
+      "37645793",
+      "31226276",
+      "39306948",
+      "23124110",
+      "35691341",
+      "26590168",
+      "36842325",
+      "36350004",
+      "15809261",
+      "31829768",
+      "36018818",
+      "12971721"
+    ],
+    "pmc": [
+      "10462181"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37645793/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37645793",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-3164817/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

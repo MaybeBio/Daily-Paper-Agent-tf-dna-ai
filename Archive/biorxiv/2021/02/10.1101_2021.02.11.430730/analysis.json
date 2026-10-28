@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.11.430730",
+  "title": "White-box Deep Neural Network Prediction of Genome-Wide Transcriptome Signatures",
+  "authors": "Magnusson R; Tegnér JN; Gustafsson M",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-12",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用白盒神经网络从转录因子表达预测全基因组转录组，虽涉及TF-基因调控关系，但核心是转录组预测而非TF-DNA结合位点或互作机制建模，方法上无AI/物理模拟用于蛋白-DNA互作，故匹配度较低。",
+  "abstract": "Prediction algorithms for protein or gene structures, including transcription factor binding from sequence information, have been transformative in understanding gene regulation. Here we ask whether human transcriptomic profiles can be predicted solely from the expression of transcription factors (TFs). To this end, we explore whether a neural network (NN) could predict the transcriptome from TFs. Using at least one hidden layer, we find that the expression of 1,600 TFs can explain >95% of variance in 25,000 genes. Using the light-up technique to inspect the trained NN, we find an overrepresentation of known TF-gene regulations. Furthermore, the learned prediction network has a hierarchical organization. A smaller set of around 125 core TFs could explain close to 80% of the variance. Interestingly, reducing the number of TFs below 500 induces a rapid decline in prediction performance. Next, we evaluated the prediction model using transcriptional data from 22 human diseases. The TFs were sufficient to predict the target genes’ dysregulation (rho=0.61, P < 10 −216 ). By inspecting the model, key causative TFs could be extracted for subsequent validation using disease-associated genetic variants. In conclusion, we demonstrate the construction of an interpretable neural network predictor. Analysis of the predictors revealed key TFs that were inducing transcriptional changes during disease.",
+  "abstract_zh": "蛋白质或基因结构的预测算法，包括从序列信息预测转录因子结合，已在理解基因调控方面产生了变革性影响。在此，我们探讨是否仅凭转录因子（TFs）的表达就能预测人类转录组谱。为此，我们研究神经网络（NN）能否从TFs预测转录组。使用至少一个隐藏层，我们发现1,600个TFs的表达可以解释25,000个基因中>95%的方差。通过光启技术检查训练后的NN，我们发现已知TF-基因调控的过度表达。此外，学习到的预测网络具有层级组织结构。约125个核心TFs的较小集合能解释接近80%的方差。有趣的是，将TFs数量减少至500以下会导致预测性能迅速下降。接下来，我们使用来自22种人类疾病的转录数据评估了预测模型。TFs足以预测目标基因的失调（rho=0.61，P < 10 −216 ）。通过检查模型，可以提取关键致病TFs，用于后续使用疾病相关遗传变异进行验证。总之，我们展示了可解释神经网络预测器的构建。对预测器的分析揭示了在疾病期间诱导转录变化的关键TFs。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.11.430730",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.11.430730",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.11.430730/index.html"
+}

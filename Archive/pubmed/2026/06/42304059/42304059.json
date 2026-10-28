@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "42304059",
+    "doi": "10.1038/s41598-026-57734-5",
+    "title": "Identification of compounds that repress DUX4 expression in facioscapulohumeral muscular dystrophy."
+  },
+  "content": {
+    "abstract": "Facioscapulohumeral muscular dystrophy (FSHD) is caused by epigenetic dysregulation of the disease locus, leading to pathogenic misexpression of DUX4 in skeletal muscle. Thus, most FSHD therapeutic approaches target DUX4. Our previous study identified the chromatin remodeling factor BAZ1A (bromodomain adjacent to zinc finger domain protein 1A) as a promising target for therapeutic development. Here we used an artificial intelligence-based screening pipeline to identify molecules predicted to bind the BAZ1A bromodomain, and validated hit compounds using FSHD-specific assays in FSHD myocytes. One compound, termed C06, emerged as a potent repressor of DUX4 and DUX4 target gene expression. Interestingly, while C06 exhibited binding to BAZ1A in vitro, it can also inhibit multiple kinases, including p38alpha, an upstream activator of DUX4. Despite this, at low doses C06 was an equally effective and more specific repressor of DUX4 than losmapimod, which is a robust and specific p38 inhibitor. At low concentrations, C06 returns the DUX4 gene expression signature to a healthier profile without major effects on the muscle transcriptome. Thus, C06 is a useful tool for potent and specific DUX4 suppression, and a viable candidate for further development. Our results highlight both the utility and limitations of AI for targeted drug discovery, and the importance of using an FSHD-specific functional screening strategy for selecting relevant candidates.",
+    "keywords": [
+      "AI-based drug screen",
+      "D4Z4",
+      "Double Homeobox 4",
+      "Drug development",
+      "Epigenetic regulation",
+      "Targeting chromatin regulators"
+    ],
+    "mesh_terms": [
+      "*Muscular Dystrophy, Facioscapulohumeral/genetics/drug therapy/metabolism/pathology",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "Humans",
+      "*Gene Expression Regulation/drug effects",
+      "Transcription Factors/metabolism",
+      "Animals",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Ning",
+        "Moore, Hannah P",
+        "Himeda, Charis L",
+        "O'Brien, Terrence E",
+        "Thomas, William",
+        "Roshanravan, Baback",
+        "Jones, Takako I",
+        "Jones, Peter L"
+      ],
+      "short_names": [
+        "Chang N",
+        "Moore HP",
+        "Himeda CL",
+        "O'Brien TE",
+        "Thomas W",
+        "Roshanravan B",
+        "Jones TI",
+        "Jones PL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA.",
+        "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA.",
+        "The Department of Pathology, Johns Hopkins University School of Medicine, 720 Rutland Ave, Baltimore, MD, 21205, USA.",
+        "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA.",
+        "Atomwise Inc., San Francisco, CA, 94103, USA.",
+        ", Wyckoff, USA.",
+        "Division of Nephrology, Genome Biomedical Sciences Facility, University of California Davis, 451 Health Sciences Drive, Ste 5321, Sacramento, CA, 95616, USA.",
+        "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA.",
+        "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA. peterjones@med.unr.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Ning",
+        "short_name": "Chang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Hannah P",
+        "short_name": "Moore HP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA.",
+          "The Department of Pathology, Johns Hopkins University School of Medicine, 720 Rutland Ave, Baltimore, MD, 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Himeda, Charis L",
+        "short_name": "Himeda CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Terrence E",
+        "short_name": "O'Brien TE",
+        "identifiers": [],
+        "affiliations": [
+          "Atomwise Inc., San Francisco, CA, 94103, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, William",
+        "short_name": "Thomas W",
+        "identifiers": [],
+        "affiliations": [
+          ", Wyckoff, USA."
+        ]
+      },
+      {
+        "full_name": "Roshanravan, Baback",
+        "short_name": "Roshanravan B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Genome Biomedical Sciences Facility, University of California Davis, 451 Health Sciences Drive, Ste 5321, Sacramento, CA, 95616, USA."
+        ]
+      },
+      {
+        "full_name": "Jones, Takako I",
+        "short_name": "Jones TI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA."
+        ]
+      },
+      {
+        "full_name": "Jones, Peter L",
+        "short_name": "Jones PL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Center for Molecular Medicine/MS-0318, University of Nevada, Reno School of Medicine, 1664 N. Virginia St., Reno, NV, 89557, USA. peterjones@med.unr.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/17 00:36",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42600180",
+      "41649965",
+      "40893163",
+      "40580827",
+      "39488616",
+      "39337718",
+      "39201751",
+      "38631764",
+      "38565852",
+      "35743650",
+      "35121673",
+      "34687171",
+      "34484861",
+      "34131248",
+      "33931884",
+      "33862457",
+      "33511244",
+      "33374516",
+      "33333161",
+      "33331820",
+      "32576599",
+      "32467133",
+      "32314958",
+      "31189728",
+      "31018108",
+      "30328811",
+      "29759937",
+      "29718206",
+      "29533181",
+      "27938661",
+      "27906130",
+      "27841748",
+      "27626031",
+      "27153398",
+      "26527377",
+      "25904990",
+      "23206257",
+      "23143600",
+      "22798623",
+      "21060811",
+      "20724583",
+      "20033039",
+      "19355820",
+      "19353518",
+      "19244237",
+      "18833193",
+      "16644098",
+      "14634647",
+      "14561087",
+      "10433963",
+      "9230310",
+      "8111371",
+      "1975852",
+      "1363881"
+    ],
+    "similar": [
+      "42304059",
+      "41889948",
+      "29759937",
+      "31189728",
+      "39627769",
+      "29899111",
+      "39488616",
+      "32576599",
+      "28870238",
+      "27816329",
+      "25326393",
+      "30122154",
+      "37298453",
+      "35158020",
+      "26527377",
+      "42066431",
+      "24861551",
+      "40855454",
+      "32278354",
+      "21060811",
+      "22053214",
+      "41513943",
+      "23206257",
+      "22798623",
+      "37021550",
+      "26113644",
+      "23108159",
+      "34151531",
+      "32796277",
+      "39556762",
+      "24278031",
+      "40591405",
+      "29255294",
+      "37899061",
+      "31067297",
+      "28637492",
+      "31018108",
+      "24636994",
+      "31979100",
+      "30445587",
+      "23593020",
+      "37184373",
+      "37703175",
+      "40627547",
+      "39201751",
+      "30107443",
+      "37703328",
+      "33863674",
+      "31844661",
+      "34943834",
+      "22718021",
+      "27378237",
+      "32467133",
+      "28915324",
+      "19607661",
+      "26041815",
+      "30312408",
+      "34338285",
+      "33004076",
+      "38777608",
+      "34880230",
+      "41510809",
+      "20490329",
+      "28754837",
+      "37893058",
+      "21734574",
+      "29478599",
+      "29329560",
+      "33511244",
+      "41408398",
+      "33712050",
+      "21446026",
+      "33987655",
+      "27906075",
+      "28171552",
+      "28916757",
+      "33436523",
+      "40893163",
+      "39000102",
+      "39009417",
+      "32213627",
+      "25564732",
+      "33068777",
+      "24838473",
+      "30644821",
+      "36401032",
+      "37973788",
+      "22892954",
+      "30361930",
+      "40580827",
+      "21951698",
+      "26575099",
+      "26860865",
+      "31722199",
+      "29415061",
+      "29533181",
+      "25904990",
+      "32365093",
+      "32242220",
+      "41944163"
+    ],
+    "review": [
+      "42304059",
+      "27816329",
+      "37298453",
+      "35158020",
+      "42066431",
+      "40855454",
+      "26113644",
+      "34151531",
+      "32796277",
+      "31018108",
+      "31979100",
+      "39201751",
+      "33863674",
+      "34943834",
+      "22718021",
+      "28915324",
+      "28754837",
+      "21734574",
+      "29478599",
+      "33712050",
+      "39009417",
+      "22892954",
+      "30361930"
+    ],
+    "pmc": [
+      "13534418"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-57734-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42304059/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

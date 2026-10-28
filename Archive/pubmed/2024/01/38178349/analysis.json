@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38178349",
+  "title": "Identification of Anesthetic-Induced Cardiovascular Biomarkers in Off-Pump Coronary Artery Bypass Grafting Surgery Using Weighted Gene Co-Expression Network Analysis and Machine Learning.",
+  "authors": "Hou, Jinxiu; Li, Jing",
+  "journal": "The heart surgery forum",
+  "published_date": "2024-01-05",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用WGCNA和机器学习筛选OPCABG麻醉相关锌指蛋白生物标志物，虽涉及转录因子调控网络，但核心是心血管生物标志物发现，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联弱。",
+  "abstract": "BACKGROUND: This study aimed to select anesthesia-induced zinc finger protein-related gene biomarkers that predict cardiovascular function during off-pump coronary artery bypass grafting (OPCABG). METHODS: Gene expression data from GSE4386 included 20 post-anesthesia and 20 pre-anesthesia atrial tissue samples. Zinc finger protein-related genes (ZFPRGs) were searched in the UniProt database and anesthesia-induced differentially expressed genes (DEGs) were identified Weighted gene co-expression network analysis (WGCNA) was used to screen hub genes, and three machine learning algorithms were used to further screen for cardiovascular biomarkers. Diagnostic accuracy was evaluated using a nomogram model. Gene set enrichment analysis was used to analyze the pathways enriched by the biomarkers. A microRNA (miRNA)-mRNA-transcription factor (TF) regulatory network was established to explore the potential regulatory mechanisms of these biomarkers. Disease-related drugs were predicted using the Comparative Toxicogenomics Database (CTD). RESULTS: A total of 1102 cardioprotection-related DEGs were selected between the pre- and post-anesthesia groups. Additionally, 1095 hub genes were obtained based on WGCNA, and 2274 ZFPRGs were downloaded from the UniProt database. After Venn analysis and machine learning, ZNF420, RNF135, and BNC2 were selected as cardioprotection-related zinc finger biomarkers during OPCABG. Receiver operating characteristic (ROC) curves and nomogram models confirmed the diagnostic value and accuracy of the three cardioprotective biomarkers. Pathway enrichment analysis revealed that ZNF420 is involved in the cell cycle and the tricarboxylic acid cycle. RNF135 and BNC2 were enriched in the oxidative phosphorylation pathway. In the constructed miRNA-mRNA-TF network, miR-182-5p and miR-16-5p simultaneously regulated three cardioprotective biomarkers. CONCLUSION: Three cardioprotection-related zinc finger protein biomarkers (ZNF420, RNF135, and BNC2) were identified using OPCABG samples.",
+  "abstract_zh": "背景：本研究旨在筛选麻醉诱导的锌指蛋白相关基因生物标志物，以预测非体外循环冠状动脉旁路移植术（OPCABG）期间的心血管功能。方法：来自GSE4386的基因表达数据包括20个麻醉后和20个麻醉前心房组织样本。在UniProt数据库中检索锌指蛋白相关基因（ZFPRGs），并鉴定麻醉诱导的差异表达基因（DEGs）。使用加权基因共表达网络分析（WGCNA）筛选核心基因，并采用三种机器学习算法进一步筛选心血管生物标志物。通过列线图模型评估诊断准确性。使用基因集富集分析来解析生物标志物富集的通路。建立microRNA（miRNA）-mRNA-转录因子（TF）调控网络，以探索这些生物标志物的潜在调控机制。使用比较毒物基因组学数据库（CTD）预测疾病相关药物。结果：在麻醉前和麻醉后组之间共筛选出1102个心脏保护相关DEGs。此外，基于WGCNA获得1095个核心基因，并从UniProt数据库下载了2274个ZFPRGs。经Venn分析和机器学习，ZNF420、RNF135和BNC2被选为OPCABG期间心脏保护相关的锌指生物标志物。受试者工作特征（ROC）曲线和列线图模型确认了这三种心脏保护生物标志物的诊断价值和准确性。通路富集分析显示，ZNF420参与细胞周期和三羧酸循环。RNF135和BNC2富集于氧化磷酸化通路。在构建的miRNA-mRNA-TF网络中，miR-182-5p和miR-16-5p同时调控三种心脏保护生物标志物。结论：使用OPCABG样本鉴定了三种心脏保护相关锌指蛋白生物标志物（ZNF420、RNF135和BNC2）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38178349/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38178349/",
+  "paper_page_path": "papers/pubmed/38178349/index.html"
+}

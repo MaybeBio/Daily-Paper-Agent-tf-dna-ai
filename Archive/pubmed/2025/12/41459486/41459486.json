@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "41459486",
+    "doi": "10.3389/fimmu.2025.1728290",
+    "title": "Tertiary lymphoid structure drives allograft rejection via IFN-gamma-JAK-STAT-dependent atypical memory B cell differentiation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Tertiary lymphoid structure (TLS) is a neogenized, ectopic lymphoid aggregate found in infected, autoimmune and tumour tissues with an activated adaptive immune response. However, a comprehensive understanding of the pathological role, function, and formation of TLS in allograft rejection remains incomplete. METHODS: We enrolled two large retrospective cohorts of liver biopsy (LB) after pediatric living donor liver transplantation (LDLT) and developed a deep learning pathomics (DLP) model. Gene expression profiles and corresponding clinical information of 590 cases were enrolled from three transcriptomic databases, including cohort-GSE193135 (n=337), cohort-GSE145780 (n=235), cohort-Renji (n=18). ESTIMATE, CIBERSORT, XCELL and MCP analyses were performed to visualize the immune landscape. Single-cell RNA-sequencing (scRNA-seq) analysis of 11 LBs after LDLT and multiplexed immunohistochemistry (mIHC) were performed to validate the discoveries of bioinformatics analysis. RESULTS: We provided evidence that increased TLS in the liver was closely correlated with allograft rejection, fibrosis, and declined liver function. ScRNA-seq and in vitro co-culture analysis revealed that TLS form through the differentiation of atypical memory B (AtM B) cells via the JAK-STAT signalling pathway, stimulated by IFN-gamma from exhausted CD8(+) T effector memory (T(EM)) cells. The presence of TLS resulted in IgG accumulation, initiating pathological antibody-dependent cell-mediated phagocytosis (ADCP) of apoptotic hepatocytes by CD68(+) macrophages. Preclinically, blocking JAK1/3 or knocking out Lta in mice limited TLS formation and attenuated allograft rejection in mouse orthotopic liver transplantation models, informing novel therapeutics for allograft rejection pathology. CONCLUSION: We proposed an efficient DLP model for predicting allograft rejection, and revealed an unexpected immunological mechanism of TLS in allograft rejection livers and clarified an IFN-gamma-JAK-STAT-dependent circuit that could be targeted with drugs and transformed AtM B cells into potent instigators of hepatocellular injury in allograft rejection.",
+    "keywords": [
+      "atypical memory B cell",
+      "living donor liver transplantation",
+      "post-transplant liver fibrosis",
+      "post-transplant liver rejection",
+      "tertiary lymphoid structure"
+    ],
+    "mesh_terms": [
+      "*Graft Rejection/immunology/pathology/metabolism",
+      "*Liver Transplantation/adverse effects",
+      "Humans",
+      "Animals",
+      "*Tertiary Lymphoid Structures/immunology/pathology",
+      "*Interferon-gamma/metabolism/immunology",
+      "*Janus Kinases/metabolism",
+      "Mice",
+      "Cell Differentiation/immunology",
+      "Male",
+      "Female",
+      "*Memory B Cells/immunology/metabolism",
+      "*STAT Transcription Factors/metabolism",
+      "Signal Transduction",
+      "Retrospective Studies",
+      "Immunologic Memory",
+      "Liver/pathology/immunology",
+      "Child",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Lijie",
+        "Gong, Shiming",
+        "Fang, Jianchen",
+        "Feng, Mingxuan",
+        "Zhan, Zhenzhen",
+        "Xia, Qiang"
+      ],
+      "short_names": [
+        "Ma L",
+        "Gong S",
+        "Fang J",
+        "Feng M",
+        "Zhan Z",
+        "Xia Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Institute of Transplantation, Shanghai, China.",
+        "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China.",
+        "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Institute of Transplantation, Shanghai, China.",
+        "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China.",
+        "Department of Pathology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Institute of Transplantation, Shanghai, China.",
+        "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China.",
+        "Shanghai Institute of Transplantation, Shanghai, China.",
+        "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+        "Shanghai Institute of Transplantation, Shanghai, China.",
+        "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Lijie",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Institute of Transplantation, Shanghai, China.",
+          "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Shiming",
+        "short_name": "Gong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Institute of Transplantation, Shanghai, China.",
+          "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Jianchen",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Mingxuan",
+        "short_name": "Feng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Institute of Transplantation, Shanghai, China.",
+          "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Zhenzhen",
+        "short_name": "Zhan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Transplantation, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Qiang",
+        "short_name": "Xia Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China.",
+          "Shanghai Institute of Transplantation, Shanghai, China.",
+          "Shanghai Engineering Research Centre of Transplantation and Immunology, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/29 07:08",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40543512",
+      "40421010",
+      "40185093",
+      "40127186",
+      "39889319",
+      "39419536",
+      "39239518",
+      "39198425",
+      "39137726",
+      "39117919",
+      "39075284",
+      "38890530",
+      "38696569",
+      "38510071",
+      "38498682",
+      "38461883",
+      "38271512",
+      "37917987",
+      "37779239",
+      "37483592",
+      "37208107",
+      "37208106",
+      "37046081",
+      "36845096",
+      "36411952",
+      "36245289",
+      "35619708",
+      "35365796",
+      "35231421",
+      "34725107",
+      "34164907",
+      "34120305",
+      "33741556",
+      "33526609",
+      "33391465",
+      "33193293",
+      "33042271",
+      "32538534",
+      "32103204",
+      "31729155",
+      "31631918",
+      "30234149",
+      "29371592",
+      "28991892",
+      "26663361",
+      "25505279",
+      "21982511",
+      "21073873",
+      "15707405",
+      "11207279"
+    ],
+    "similar": [
+      "41459486",
+      "38954463",
+      "41217598",
+      "33395585",
+      "9346725",
+      "11207279",
+      "24531847",
+      "39710149",
+      "39962553",
+      "40982212",
+      "38445519",
+      "26095713",
+      "29319177",
+      "26140903",
+      "18671680",
+      "39736469",
+      "34335608",
+      "11313402",
+      "40992783",
+      "40073102",
+      "40607252",
+      "20345976",
+      "34367152",
+      "40669521",
+      "10478716",
+      "25286244",
+      "10910289",
+      "37072348",
+      "39188155",
+      "20064084",
+      "33643325",
+      "33526609",
+      "26254561",
+      "12654360",
+      "41265130",
+      "10030293",
+      "40787867",
+      "17359505",
+      "27575691",
+      "19027921",
+      "31541681",
+      "29254929",
+      "32983177",
+      "27163757",
+      "30798069",
+      "28232114",
+      "32798537",
+      "31729155",
+      "33925529",
+      "23664593",
+      "41128888",
+      "40345627",
+      "19951284",
+      "41284316",
+      "32761753",
+      "38888968",
+      "9707166",
+      "27020853",
+      "16906023",
+      "19944758",
+      "29340620",
+      "10438971",
+      "24323580",
+      "30792213",
+      "41063979",
+      "19755159",
+      "7530874",
+      "24058178",
+      "39552515",
+      "23481562",
+      "39925813",
+      "21427633",
+      "21268016",
+      "40610502",
+      "40977677",
+      "28742217",
+      "30144432",
+      "40440077",
+      "33995416",
+      "41262256",
+      "11499903",
+      "28681958",
+      "40552421",
+      "17617854",
+      "18475193",
+      "39901202",
+      "38625657",
+      "25606781",
+      "11673565",
+      "19155477",
+      "27988211",
+      "31024566",
+      "41033459",
+      "18930950",
+      "30397035",
+      "28719070",
+      "33347951",
+      "7839435",
+      "40065365",
+      "19044209"
+    ],
+    "review": [
+      "41459486",
+      "33395585",
+      "34335608",
+      "32983177",
+      "30798069"
+    ],
+    "pmc": [
+      "12738316"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livertransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Transplantation"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41459486/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1251",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1728290",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

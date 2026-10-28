@@ -1,0 +1,213 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.27.582305",
+  "title": "FLYNC: A Machine Learning-Driven Framework for Discovering Long Non-Coding RNAs in Drosophila melanogaster",
+  "doi": "10.1101/2024.02.27.582305",
+  "abstract": "<h4>ABSTRACT</h4> Non-coding RNAs have increasingly recognized roles in critical molecular mechanisms of disease. However, the non-coding genome of Drosophila melanogaster , one of the most powerful disease model organisms, has been understudied. Here, we present FLYNC – FLY Non-Coding discovery and classification – a novel machine learning-based model that predicts the probability of a newly identified RNA transcript being a long non-coding RNA (lncRNA). Integrated into an end-to-end bioinformatics pipeline capable of processing single-cell or bulk RNA sequencing data, FLYNC outputs potential new non-coding RNA genes. FLYNC leverages large-scale genomic and transcriptomic datasets to identify patterns and features that distinguish non-coding genes from protein-coding genes, thereby facilitating lncRNA prediction. We demonstrate the application of FLYNC to publicly available Drosophila adult head bulk transcriptome and single-cell transcriptomic data from Drosophila neural stem cell lineages and identify several novel tissue- and cell-specific lncRNAs. We have further experimentally validated the existence of a set of FLYNC positive hits by qPCR. Overall, our findings demonstrate that FLYNC serves as a robust tool for identifying lncRNAs in Drosophila melanogaster , transcending current limitations in ncRNA identification and harnessing the potential of machine learning.",
+  "authors": [
+    "dos Santos RF",
+    "Baptista T",
+    "Marques GS",
+    "Homem CCF"
+  ],
+  "published_date": "2024-03-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.27.582305",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.27.582305.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR813139",
+    "raw_record": {
+      "id": "PPR813139",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR813139"
+        ]
+      },
+      "doi": "10.1101/2024.02.27.582305",
+      "title": "FLYNC: A Machine Learning-Driven Framework for Discovering Long Non-Coding RNAs in  <i>Drosophila melanogaster</i>",
+      "authorString": "dos Santos RF, Baptista T, Marques GS, Homem CCF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "dos Santos RF",
+            "lastName": "dos Santos",
+            "firstName": "Ricardo",
+            "initials": "RF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iNOVA4Health, NOVA Medical School, Faculdade de Ciências Médicas, NMS, FCM, Universidade Nova de Lisboa, Lisbon, Portugal"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baptista T",
+            "lastName": "Baptista",
+            "firstName": "Tiago",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3196-8308"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iNOVA4Health, NOVA Medical School, Faculdade de Ciências Médicas, NMS, FCM, Universidade Nova de Lisboa, Lisbon, Portugal"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marques GS",
+            "lastName": "Marques",
+            "firstName": "Graça",
+            "initials": "GS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iNOVA4Health, NOVA Medical School, Faculdade de Ciências Médicas, NMS, FCM, Universidade Nova de Lisboa, Lisbon, Portugal"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Homem CCF",
+            "lastName": "Homem",
+            "firstName": "Catarina",
+            "initials": "CCF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iNOVA4Health, NOVA Medical School, Faculdade de Ciências Médicas, NMS, FCM, Universidade Nova de Lisboa, Lisbon, Portugal"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3196-8308"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Non-coding RNAs have increasingly recognized roles in critical molecular mechanisms of disease. However, the non-coding genome of  Drosophila melanogaster , one of the most powerful disease model organisms, has been understudied. Here, we present FLYNC – FLY Non-Coding discovery and classification – a novel machine learning-based model that predicts the probability of a newly identified RNA transcript being a long non-coding RNA (lncRNA). Integrated into an end-to-end bioinformatics pipeline capable of processing single-cell or bulk RNA sequencing data, FLYNC outputs potential new non-coding RNA genes. FLYNC leverages large-scale genomic and transcriptomic datasets to identify patterns and features that distinguish non-coding genes from protein-coding genes, thereby facilitating lncRNA prediction. We demonstrate the application of FLYNC to publicly available  Drosophila adult head bulk transcriptome and single-cell transcriptomic data from  Drosophila neural stem cell lineages and identify several novel tissue- and cell-specific lncRNAs. We have further experimentally validated the existence of a set of FLYNC positive hits by qPCR. Overall, our findings demonstrate that FLYNC serves as a robust tool for identifying lncRNAs in  Drosophila melanogaster , transcending current limitations in ncRNA identification and harnessing the potential of machine learning.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "759853",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "208581/Z/17/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/01/2024.02.27.582305.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.27.582305"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR813139"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR813139&type=FILE&fileName=EMS194503-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41551930",
+            "reference": "NAR genomics and bioinformatics. 2026 Mar;8(1):lqaf216",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194503",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-03-02",
+      "firstPublicationDate": "2024-03-01",
+      "firstIndexDate": "2024-03-02",
+      "fullTextReceivedDate": "2024-03-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

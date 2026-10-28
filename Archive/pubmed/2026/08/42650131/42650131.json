@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "42650131",
+    "doi": "10.3390/genes17080938",
+    "title": "Integrated Transcriptomic and Machine-Learning Analyses Identify Shared Na(+) Overload-Related Gene Signatures in Inflammatory Bowel Disease and Ankylosing Spondylitis."
+  },
+  "content": {
+    "abstract": "Background: Ankylosing Spondylitis (AS) and inflammatory bowel disease (IBD) exhibit substantial pathophysiological overlap, including dysregulated innate immunity, barrier dysfunction, and Th17-mediated inflammation. However, whether Na(+) overload-related genes (NRGs) exhibit shared transcriptional alterations in IBD and AS remains unclear. This study aimed to characterize the expression patterns of NRGs across IBD and AS and to identify candidate genes associated with both diseases. Methods: Differential expression analysis was performed to identify differentially expressed NRGs (DE-NRGs) in diseased tissues relative to normal tissues. Shared DE-NRGs between IBD and AS were screened and defined as common differentially expressed NRGs (Co-DE-NRGs). We then analyzed the correlations of these Co-DE-NRGs and explored their relationships with immune cell infiltration in target tissues. Four machine learning algorithms were applied to screen key NRGs associated with both IBD and AS. Potential therapeutic agents targeting these core biomarkers were predicted using drug-gene interaction databases, and molecular docking was conducted for further validation. Results: A total of 32 shared Co-DE-NRGs were identified for IBD and AS, with nine key regulatory NRGs recognized: CALR, CD63, CYBA, DYSF, HYOU1, IL1B, JAK1, MMP9, and STAT3. Exploratory MR analysis identified disease-specific associations between genetically predicted expression of NRGs and CD, UC, and AS. Genetically predicted STAT3 expression showed positive associations with CD and UC but an inverse association with AS and therefore did not represent a consistent risk factor across the three diseases. Furthermore, transcriptome-based drug-response analysis identified four candidate agents shared between AS and at least one IBD dataset: ciclosporin, BCL-LZH-4, BRD-K79669418, and CID-5951923. Exploratory molecular docking generated STAT3 binding poses for BCL-LZH-4 and CID-5951923, with DOCK Grid Scores of -35.321896 and -28.361128, respectively. CID-5951923 was selected for representative visualization of its predicted interaction with STAT3. Single-cell RNA-sequencing analysis identified tissue- and cell-type-specific STAT3 mRNA expression patterns in the analyzed IBD colonic and AS peripheral-blood datasets, with monocytes representing a major cell population exhibiting detected STAT3 expression in the AS dataset. Conclusions: These findings identify shared NRG-related transcriptional alterations in IBD and AS, with STAT3 emerging as a candidate gene associated with both diseases. Further experimental studies are required to determine whether these alterations reflect the involvement of NECSO and to evaluate their potential diagnostic or therapeutic relevance.",
+    "keywords": [
+      "ankylosing spondylitis",
+      "drug-response prediction",
+      "inflammatory bowel disease",
+      "machine learning algorithm",
+      "molecular docking",
+      "necrosis by sodium overload"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Spondylitis, Ankylosing/genetics/metabolism",
+      "Machine Learning",
+      "*Inflammatory Bowel Diseases/genetics/metabolism",
+      "*Transcriptome/genetics",
+      "Gene Expression Profiling",
+      "STAT3 Transcription Factor/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Luojin",
+        "Ou, Chenghao",
+        "Liu, Xuan",
+        "Yan, Miaohan",
+        "Guan, Jinghan",
+        "Wang, Xinfeng",
+        "Mao, Liming",
+        "Xu, Qiuyun",
+        "Liu, Zhaoxiu"
+      ],
+      "short_names": [
+        "Wu L",
+        "Ou C",
+        "Liu X",
+        "Yan M",
+        "Guan J",
+        "Wang X",
+        "Mao L",
+        "Xu Q",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9740-820X"
+      ],
+      "affiliations": [
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Gastroenterology and Hepatology, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Hematology, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong 226019, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Basic Medical Research Center, Medical School of Nantong University, Nantong 226019, China.",
+        "Jiangsu Province Key Laboratory in University for Inflammation and Molecular Drug Target, Nantong University, Nantong 226019, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+        "Department of Gastroenterology and Hepatology, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong 226001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Luojin",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Chenghao",
+        "short_name": "Ou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+          "Department of Gastroenterology and Hepatology, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Miaohan",
+        "short_name": "Yan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Jinghan",
+        "short_name": "Guan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinfeng",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong 226019, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Liming",
+        "short_name": "Mao L",
+        "identifiers": [
+          "0000-0002-9740-820X"
+        ],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+          "Basic Medical Research Center, Medical School of Nantong University, Nantong 226019, China.",
+          "Jiangsu Province Key Laboratory in University for Inflammation and Molecular Drug Target, Nantong University, Nantong 226019, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qiuyun",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaoxiu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Medical School of Nantong University, Nantong 226001, China.",
+          "Department of Gastroenterology and Hepatology, Affiliated Hospital of Nantong University, Medical School of Nantong University, Nantong 226001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Aug 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 05:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41507162",
+      "41447846",
+      "41390760",
+      "41096659",
+      "41094656",
+      "41022715",
+      "40956482",
+      "40865520",
+      "40829260",
+      "40752698",
+      "40689619",
+      "40633890",
+      "40611294",
+      "40589936",
+      "40571769",
+      "40534879",
+      "40457634",
+      "40350268",
+      "40307548",
+      "40114208",
+      "39995931",
+      "39987261",
+      "39972407",
+      "39915626",
+      "39759509",
+      "39465814",
+      "39364475",
+      "39031474",
+      "38656456",
+      "38482005",
+      "38433839",
+      "38303006",
+      "37984040",
+      "36685554",
+      "36608709",
+      "36386830",
+      "36270658",
+      "35995859",
+      "35705632",
+      "35259122",
+      "35017061",
+      "34880646",
+      "33452867",
+      "33029007",
+      "32271844",
+      "31278139",
+      "29454792",
+      "29131987",
+      "25881983",
+      "23999006",
+      "21364948",
+      "19603192",
+      "19026144",
+      "18574600",
+      "16777576",
+      "9209972"
+    ],
+    "similar": [
+      "42650131",
+      "41010056",
+      "41595424",
+      "42123445",
+      "40304766",
+      "42295138",
+      "40406126",
+      "39680254",
+      "40421012",
+      "38660311",
+      "42584099",
+      "42421947",
+      "41703488",
+      "39993996",
+      "38433839",
+      "40149491",
+      "40822862",
+      "38482005",
+      "42123319",
+      "42113191",
+      "36643579",
+      "42631563",
+      "39893753",
+      "42558367",
+      "42015036",
+      "40296690",
+      "41981777",
+      "37740761",
+      "40821793",
+      "42435052",
+      "42265520",
+      "42233387",
+      "40093802",
+      "40830794",
+      "40428318",
+      "41052072",
+      "38451044",
+      "42611775",
+      "42577419",
+      "39238649",
+      "42292668",
+      "42510881",
+      "42344920",
+      "42074514",
+      "42158856",
+      "41326462",
+      "40929101",
+      "41895505",
+      "38774864",
+      "42469985",
+      "40611294",
+      "40808866",
+      "40496857",
+      "40588645",
+      "42024670",
+      "37063924",
+      "41479901",
+      "42634206",
+      "31009124",
+      "38736878",
+      "42175497",
+      "41516018",
+      "41508240",
+      "41088263",
+      "41816342",
+      "42536689",
+      "42553137",
+      "38802459",
+      "42569390",
+      "42004467",
+      "40374866",
+      "40216809",
+      "38863714",
+      "41624856",
+      "42450069",
+      "40532306",
+      "36049413",
+      "42192776",
+      "37386410",
+      "40210785",
+      "41211506",
+      "42642681",
+      "42530267",
+      "36405733",
+      "41242266",
+      "41716401",
+      "41459671",
+      "42099592",
+      "42643694",
+      "41107929",
+      "39139563",
+      "38698841",
+      "39712025",
+      "42358961",
+      "41611834",
+      "39131703",
+      "42653145",
+      "39328405",
+      "40916281",
+      "38493695"
+    ],
+    "review": [
+      "42650131",
+      "42344920"
+    ],
+    "pmc": [
+      "13512338"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17080938",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ankylosingspondylitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ankylosing Spondylitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42650131/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CALR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1281",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "37011004",
+    "doi": "10.1080/07391102.2023.2191122",
+    "title": "The targeted next-generation sequence revealed SMAD4, AKT1, and TP53 mutations from circulating cell-free DNA of breast cancer and its effect on protein structure - A computational approach."
+  },
+  "content": {
+    "abstract": "Breast cancer biomarkers that detect marginally advanced stages are still challenging. The detection of specific abnormalities, targeted therapy selection, prognosis, and monitoring of treatment effectiveness over time are all made possible by circulating free DNA (cfDNA) analysis. The proposed study will detect specific genetic abnormalities from the plasma cfDNA of a female breast cancer patient by sequencing a cancer-related gene panel (MGM455 - Oncotrack Ultima), including 56 theranostic genes (SNVs and small INDELs). Initially, we determined the pathogenicity of the observed mutations using PredictSNP, iStable, Align-GVGD, and ConSurf servers. As a next step, molecular dynamics (MD) was implemented to determine the functional significance of SMAD4 mutation (V465M). Lastly, the mutant gene relationships were examined using the Cytoscape plug-in GeneMANIA. Using ClueGO, we determined the gene's functional enrichment and integrative analysis. The structural characteristics of SMAD4 V465M protein by MD simulation analysis further demonstrated that the mutation was deleterious. The simulation showed that the native structure was more significantly altered by the SMAD4 (V465M) mutation. Our findings suggest that SMAD4 V465M mutation might be significantly associated with breast cancer, and other patient-found mutations (AKT1-E17K and TP53-R175H) are synergistically involved in the process of SMAD4 translocate to nuclease, which affects the target gene translation. Therefore, this combination of gene mutations could alter the TGF-beta signaling pathway in BC. We further proposed that the SMAD4 protein loss may contribute to an aggressive phenotype by inhibiting the TGF-beta signaling pathway. Thus, breast cancer's SMAD4 (V465M) mutation might increase their invasive and metastatic capabilities.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "AKT1",
+      "SMAD4",
+      "TP53",
+      "breast cancer",
+      "cfDNA",
+      "circulating-tumor DNA",
+      "molecular dynamics simulations",
+      "mutation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/genetics/pathology",
+      "Biomarkers, Tumor/genetics",
+      "Smad4 Protein/genetics",
+      "Mutation",
+      "*Cell-Free Nucleic Acids",
+      "Transforming Growth Factor beta/genetics",
+      "Tumor Suppressor Protein p53/genetics",
+      "Proto-Oncogene Proteins c-akt/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balasundaram, Ambritha",
+        "Kumar S, Udhaya",
+        "D, Thirumal Kumar",
+        "Anil Dedge, Aditi",
+        "R, Gnanasambandan",
+        "K, Satish Srinivas",
+        "R, Siva",
+        "C, George Priya Doss"
+      ],
+      "short_names": [
+        "Balasundaram A",
+        "Kumar S U",
+        "D TK",
+        "Anil Dedge A",
+        "R G",
+        "K SS",
+        "R S",
+        "C GPD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Meenakshi Academy of Higher Education and Research (Deemed to be University), Chennai, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Department of Radiation Oncology, Sri Ramachandra Institute of Higher Education and Research, Porur, Chennai, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balasundaram, Ambritha",
+        "short_name": "Balasundaram A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Kumar S, Udhaya",
+        "short_name": "Kumar S U",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "D, Thirumal Kumar",
+        "short_name": "D TK",
+        "identifiers": [],
+        "affiliations": [
+          "Meenakshi Academy of Higher Education and Research (Deemed to be University), Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Anil Dedge, Aditi",
+        "short_name": "Anil Dedge A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "R, Gnanasambandan",
+        "short_name": "R G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "K, Satish Srinivas",
+        "short_name": "K SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Sri Ramachandra Institute of Higher Education and Research, Porur, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "R, Siva",
+        "short_name": "R S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "C, George Priya Doss",
+        "short_name": "C GPD",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/04 06:00",
+    "fetched_at": "2026-09-28 22:39:13"
+  },
+  "links": {
+    "cites": [
+      "42003932",
+      "41764533",
+      "41760667",
+      "41476671",
+      "40642481"
+    ],
+    "refs": [],
+    "similar": [
+      "37011004",
+      "27270325",
+      "36563059",
+      "29482551",
+      "37344660",
+      "40943438",
+      "25185240",
+      "31221662",
+      "30634138",
+      "28229982",
+      "30212483",
+      "32020432",
+      "33599171",
+      "32896616",
+      "31698236",
+      "36513244",
+      "38092180",
+      "21835029",
+      "20565773",
+      "30730996",
+      "37948293",
+      "32314446",
+      "28489509",
+      "22208613",
+      "23888070",
+      "27265061",
+      "29980281",
+      "40437613",
+      "28099251",
+      "27515171",
+      "36555140",
+      "33303690",
+      "29202330",
+      "24687952",
+      "31277699",
+      "35180531",
+      "32436611",
+      "32312891",
+      "35251373",
+      "25979954",
+      "27034166",
+      "33001984",
+      "27940449",
+      "35399143",
+      "26667234",
+      "31101027",
+      "40192953",
+      "16489022",
+      "38387111",
+      "35393784",
+      "32650988",
+      "10969799",
+      "28188630",
+      "29103024",
+      "33168853",
+      "34670536",
+      "40343619",
+      "32151199",
+      "40403210",
+      "35122700",
+      "25423558",
+      "28301567",
+      "40528743",
+      "26085511",
+      "31056731",
+      "35974365",
+      "32088208",
+      "40597213",
+      "27248174",
+      "35971249",
+      "33347393",
+      "32412177",
+      "27628192",
+      "34073316",
+      "11809701",
+      "32919527",
+      "37685923",
+      "28427202",
+      "39264897",
+      "39695441",
+      "31867841",
+      "32451180",
+      "33303972",
+      "31328403",
+      "25009010",
+      "33075187",
+      "33428109",
+      "29703253",
+      "23470568",
+      "34403504",
+      "31254045",
+      "40440828",
+      "27432539",
+      "24465802",
+      "27753011",
+      "37871897",
+      "33485488",
+      "23139211",
+      "11244507",
+      "27785980"
+    ],
+    "review": [
+      "37011004",
+      "31101027"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2191122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2191122",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "39236711",
+    "doi": "10.1016/j.cels.2024.08.004",
+    "title": "Discovery of therapeutic targets in cancer using chromatin accessibility and transcriptomic data."
+  },
+  "content": {
+    "abstract": "Most cancer types lack targeted therapeutic options, and when first-line targeted therapies are available, treatment resistance is a huge challenge. Recent technological advances enable the use of assay for transposase-accessible chromatin with sequencing (ATAC-seq) and RNA sequencing (RNA-seq) on patient tissue in a high-throughput manner. Here, we present a computational approach that leverages these datasets to identify drug targets based on tumor lineage. We constructed gene regulatory networks for 371 patients of 22 cancer types using machine learning approaches trained with three-dimensional genomic data for enhancer-to-promoter contacts. Next, we identified the key transcription factors (TFs) in these networks, which are used to find therapeutic vulnerabilities, by direct targeting of either TFs or the proteins that they interact with. We validated four candidates identified for neuroendocrine, liver, and renal cancers, which have a dismal prognosis with current therapeutic options.",
+    "keywords": [
+      "ATAC-seq",
+      "cancer",
+      "drug repurposing",
+      "functional genomics",
+      "networks",
+      "regulatory networks",
+      "therapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/genetics/metabolism",
+      "*Neoplasms/genetics/therapy/drug therapy",
+      "*Transcriptome/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Regulatory Networks/genetics",
+      "Gene Expression Regulation, Neoplastic/genetics",
+      "Machine Learning",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Forbes, Andre Neil",
+        "Xu, Duo",
+        "Cohen, Sandra",
+        "Pancholi, Priya",
+        "Khurana, Ekta"
+      ],
+      "short_names": [
+        "Forbes AN",
+        "Xu D",
+        "Cohen S",
+        "Pancholi P",
+        "Khurana E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA; Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA; Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA.",
+        "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA.",
+        "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA.",
+        "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA; Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA; Caryl and Israel Englander Institute for Precision Medicine, New York Presbyterian Hospital, Weill Cornell Medicine, New York, NY 10065, USA. Electronic address: ekk2003@med.cornell.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Forbes, Andre Neil",
+        "short_name": "Forbes AN",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA; Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Duo",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA; Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Cohen, Sandra",
+        "short_name": "Cohen S",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Pancholi, Priya",
+        "short_name": "Pancholi P",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Khurana, Ekta",
+        "short_name": "Khurana E",
+        "identifiers": [],
+        "affiliations": [
+          "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY 10065, USA; Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA; Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA; Caryl and Israel Englander Institute for Precision Medicine, New York Presbyterian Hospital, Weill Cornell Medicine, New York, NY 10065, USA. Electronic address: ekk2003@med.cornell.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2024 Sep 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/06 01:02",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "41269283",
+      "40854817"
+    ],
+    "refs": [
+      "37673071",
+      "35617398",
+      "34930405",
+      "34818047",
+      "33859415",
+      "33521700",
+      "33434495",
+      "33125076",
+      "32937430",
+      "32930584",
+      "32908135",
+      "32868907",
+      "32679107",
+      "32613204",
+      "32514112",
+      "31701147",
+      "31601994",
+      "31511663",
+      "31395879",
+      "31370857",
+      "31287989",
+      "31068700",
+      "30606771",
+      "30510198",
+      "30478887",
+      "30361341",
+      "30210453",
+      "30190462",
+      "30154579",
+      "29617660",
+      "29535388",
+      "29458961",
+      "29429977",
+      "29195078",
+      "29192179",
+      "29156001",
+      "29126249",
+      "29083409",
+      "28890946",
+      "28846090",
+      "28753430",
+      "28750683",
+      "28585546",
+      "28404197",
+      "28397828",
+      "28162975",
+      "28052061",
+      "27688470",
+      "27368099",
+      "26859414",
+      "26855148",
+      "26771021",
+      "26387954",
+      "26248648",
+      "25854182",
+      "25846096",
+      "25300490",
+      "25215497",
+      "25010665",
+      "24900694",
+      "24441470",
+      "24375440",
+      "23873081",
+      "23552377",
+      "23498934",
+      "23269278",
+      "23172872",
+      "23018234",
+      "22955619",
+      "22955618",
+      "22955616",
+      "22300468",
+      "22236224",
+      "22020339",
+      "21639808",
+      "21566535",
+      "21124904",
+      "20943645",
+      "20651033",
+      "20395165",
+      "20371346",
+      "19917249",
+      "19801978",
+      "19703994",
+      "19563623",
+      "18825690",
+      "18054006",
+      "18003960",
+      "17690249",
+      "17308102",
+      "17158781",
+      "16860993",
+      "16723010",
+      "16254181",
+      "16247484",
+      "16199517",
+      "15785739",
+      "14534183",
+      "12808457",
+      "12750453",
+      "12218176",
+      "11870247",
+      "11152667",
+      "11071626",
+      "10722742",
+      "9747868",
+      "9153396",
+      "8661132",
+      "8259518",
+      "7909868",
+      "7795640",
+      "1451710"
+    ],
+    "similar": [
+      "39236711",
+      "39501301",
+      "39326643",
+      "32143622",
+      "31554806",
+      "33371906",
+      "25679813",
+      "40029523",
+      "30580963",
+      "30361341",
+      "39207727",
+      "40167783",
+      "39768207",
+      "39082647",
+      "39349998",
+      "38838009",
+      "31053165",
+      "42172220",
+      "34251624",
+      "32336246",
+      "35858748",
+      "41862973",
+      "37673071",
+      "24053776",
+      "33418426",
+      "35848835",
+      "28005952",
+      "31631012",
+      "41511815",
+      "39483964",
+      "36078081",
+      "33191916",
+      "30696696",
+      "31916476",
+      "41120274",
+      "38990734",
+      "34426111",
+      "41465103",
+      "30795793",
+      "34395436",
+      "39747019",
+      "35604124",
+      "34016988",
+      "35046932",
+      "41218606",
+      "31164146",
+      "39848509",
+      "36738683",
+      "29558892",
+      "32431014",
+      "29133016",
+      "30844478",
+      "33564857",
+      "32619460",
+      "25058159",
+      "36719906",
+      "30598101",
+      "21167036",
+      "41299571",
+      "34251618",
+      "40564927",
+      "32376693",
+      "34488759",
+      "38664790",
+      "28129557",
+      "32029002",
+      "29273624",
+      "38863714",
+      "35895229",
+      "27008018",
+      "28070596",
+      "30598689",
+      "39894182",
+      "40754687",
+      "34593797",
+      "36232500",
+      "31050198",
+      "27807826",
+      "29879919",
+      "28428271",
+      "40328901",
+      "41721429",
+      "41734447",
+      "31611697",
+      "37107573",
+      "40432571",
+      "32213349",
+      "41984952",
+      "36881507",
+      "38745318",
+      "40141276",
+      "37405386",
+      "40771813",
+      "32241264",
+      "39127768",
+      "39987573",
+      "38980373",
+      "32591361",
+      "40406126",
+      "38715516"
+    ],
+    "review": [
+      "39236711",
+      "39207727",
+      "41862973",
+      "33418426",
+      "31916476",
+      "28129557",
+      "28070596",
+      "31050198",
+      "28428271"
+    ],
+    "pmc": [
+      "11415227"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(24)00212-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39236711/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

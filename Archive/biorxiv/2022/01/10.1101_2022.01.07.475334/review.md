@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusion, methods, and supplemental information description.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated conclusions. No assessment of formatting or editorial style beyond readability.
+- **Shared manuscript claim summary** The authors propose a machine-learning protocol combining random forest (RF) supervised classification with time-lagged independent component analysis (TICA) to assign protein conformations to ligand-bound and unbound states in molecular dynamics (MD) simulations. They demonstrate this on two systems: cytochrome P450 (induced-fit binding) and L99A T4 Lysozyme (conformational selection). They claim the protocol resolves conformational plasticity, identifies key residue pairs for binding, and reveals distal allosteric sites.
+- **Visible evidence base** Abstract, full text of introduction, results and discussion, conclusion, methods, and description of supplemental figures. No raw data, trajectory files, or code are provided.
+- **Missing materials affecting confidence** No access to the actual MD trajectories, feature matrices, RF feature importance scores, TICA projections beyond described figures, or quantitative validation metrics (e.g., accuracy of classification, statistical significance of separation). Supplemental figures are referenced but not included in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in biomolecular simulation analysis: reconciling protein conformational plasticity with ligand binding states. The proposed combination of RF and TICA is conceptually interesting and the contrast between two binding mechanisms (induced-fit vs. conformational selection) provides a useful test case. However, the evidence presented is largely qualitative and descriptive. Key claims about the superiority of the supervised-unsupervised hybrid approach, the identification of allosteric residues, and the generalizability of the protocol are not quantitatively supported. The manuscript would benefit from clearer metrics, statistical validation, and a more rigorous comparison against alternative methods.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, molecular dynamics simulation analysis, and machine learning applied to biomolecular systems. Those studying protein-ligand binding mechanisms, conformational ensembles, and allostery would find the methodological framework relevant. The work may also interest method developers seeking interpretable ML approaches for high-dimensional simulation data.
+- **Major strengths** The problem is well-motivated and the choice of two systems with contrasting binding mechanisms is apt. The proposed workflow is clearly described and reproducible in principle. The identification of distal residues with potential allosteric relevance is a valuable outcome, especially given prior experimental and theoretical support. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the RF-TICA hybrid approach successfully demarcates ligand-bound from unbound states in all three trajectories of L99A T4 Lysozyme, whereas unsupervised TICA alone fails in two of three trajectories.
+  - **Evidence pointer** Results and Discussion, Figures 5 and 7; location not provided
+  - **Concern** The separation of bound and unbound states in Figure 7 is described qualitatively as "mutually segregated," but no quantitative measure (e.g., overlap coefficient, silhouette score, or classification accuracy) is provided. Without such metrics, it is unclear whether the improvement over unsupervised TICA is statistically meaningful or merely visually apparent. Additionally, the choice of the 0.5 nm distance cutoff for defining bound/unbound states in the RF training is not justified, and the sensitivity of results to this threshold is not explored.
+  - **Why it matters** The central claim of the paper is that the hybrid approach resolves a limitation of unsupervised methods. This claim requires quantitative evidence that the separation is robust and not an artifact of threshold selection or visual interpretation.
+  - **Resolution test** Provide quantitative metrics for state separation (e.g., overlap of distributions, classification accuracy, or mutual information) for both the unsupervised and hybrid approaches across all trajectories. Perform a sensitivity analysis on the distance cutoff used for labeling bound/unbound states.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RF-identified residue pairs include distal sites that are allosterically important for ligand binding, supported by prior experimental and theoretical studies.
+  - **Evidence pointer** Results and Discussion, Figure 8; location not provided
+  - **Concern** The identification of "important" residue pairs is based on Gini importance from a single RF model. No cross-validation, permutation-based significance testing, or comparison with null models is provided. The connection between RF importance and allosteric relevance is inferred but not mechanistically demonstrated. The network analysis in Figure 8 is descriptive, and the differences between trajectories are not quantified or linked to specific binding pathways.
+  - **Why it matters** Allostery is a strong claim that requires evidence beyond feature importance ranking. Without statistical validation or mechanistic analysis, the distal residues may be spurious correlates rather than functionally relevant.
+  - **Resolution test** Validate RF feature importance with permutation tests or bootstrap resampling. Correlate identified residues with known allosteric sites from literature or additional simulations. Provide quantitative comparison of network changes between bound and unbound states across trajectories.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the protocol is generalizable to other protein-ligand systems with conformational plasticity.
+  - **Evidence pointer** Conclusion; location not provided
+  - **Concern** The study is limited to two systems, and the success of the method is demonstrated only for L99A T4 Lysozyme after RF intervention. No discussion of potential failure modes, parameter sensitivity, or computational cost is provided. The generalizability claim is therefore speculative.
+  - **Why it matters** The broader impact of the work depends on whether the protocol can be applied beyond the two test cases. Without evidence of robustness or guidance on parameter choices, the method's utility is uncertain.
+  - **Resolution test** Apply the protocol to additional systems with known binding mechanisms, or provide a detailed discussion of expected limitations and parameter guidelines based on the current results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Figure 1
+  - **Evidence pointer** Introduction, Figure 1; location not provided
+  - **Issue** The concept of conformational plasticity is introduced with a schematic but the figure is not described in the text. The distinction between the two proposed reasons for the inability to assign conformations is clear but could be more explicitly tied to the two case studies.
+  - **Required correction** Add a brief description of Figure 1 in the text and explicitly state which reason applies to each system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, RF parameters
+  - **Evidence pointer** Methods, RF algorithm description; location not provided
+  - **Issue** The RF parameters (n_estimators=1000, bootstrap=True) are stated, but no information is given on the number of trees tested, the train-test split, or whether hyperparameter tuning was performed. The choice of Gini importance over other metrics is not justified.
+  - **Required correction** Provide details on model validation, including any hyperparameter search, and justify the choice of importance metric.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, TICA parameters
+  - **Evidence pointer** Methods, TICA description; location not provided
+  - **Issue** The lag time for TICA is stated as 10 ns, but no justification or convergence analysis is provided. The number of TIC dimensions used for projection is not specified beyond the first two for visualization.
+  - **Required correction** Provide a convergence check for TICA lag time and state how many dimensions were retained for analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results and Discussion, Figure 6
+  - **Evidence pointer** Results and Discussion, Figure 6; location not provided
+  - **Issue** The implied time-scale analysis is mentioned but not described in detail. The figure is referenced but not explained in the text.
+  - **Required correction** Add a description of Figure 6 in the text, including how the time scales were computed and what they imply for the binding mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative validation for state separation and the absence of statistical rigor in feature importance undermine the core claims. Additionally, the manuscript does not provide sufficient detail on the RF training procedure (e.g., data splitting, class balance) to assess potential overfitting.
+- **Assessment against Nature-style criteria** Originality: The combination of RF and TICA for this specific purpose is novel, though both methods are individually well-established. Scientific importance: The problem of conformational plasticity in ligand binding is significant, and a robust solution would be valuable. However, the current evidence does not establish the method's superiority or generalizability. Interdisciplinary readership: The work bridges simulation and ML, which could appeal to a broad audience, but the presentation is somewhat specialized. Technical soundness: The methodology is plausible but under-validated. Readability for nonspecialists: The text is generally clear, but some figures are not adequately described, and the ML concepts may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the blocking concerns must be resolved with quantitative validation and additional analysis before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim that the RF-TICA hybrid approach successfully demarcates bound and unbound states in all three trajectories of L99A T4 Lysozyme is unsupported without quantitative metrics.
+- The claim that RF-identified distal residues are allosterically important is unsupported without statistical validation or mechanistic evidence.
+- The claim of generalizability to other systems is speculative and not supported by the current data.
+- The assertion that the protocol "resolves inherent protein motion from that of ligand motion" is not demonstrated with quantitative evidence.

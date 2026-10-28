@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, methodological validity, internal consistency, and support of claims by presented evidence; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors introduce Local Spatial Pattern (LSP) alignment-based Protein Residue Networks (PRNs) as a computational tool to evaluate conformational entropy in proteins. Using CAP as a case study, they report that Degree Centrality (DC) captures entropic changes consistent with the experimentally established dynamics-driven negative cooperativity of cAMP binding, and that Betweenness Centrality (BC) identifies known allosteric connectors. They propose DC as a practical proxy for conformational entropy and the method as broadly applicable to allosteric systems.
+- **Visible evidence base** Main text figures (Figures 1–6 as referenced), supplementary figures (S1, S2 as referenced), methods description for MD simulation and LSP-based PRN construction, and prior publications cited for method development
+- **Missing materials affecting confidence** Figures and supplementary material not provided; no raw data, statistical details, or code; no details on force field parameters, system setup validation, or convergence criteria beyond brief method description; no explicit comparison of DC values to experimental entropy data beyond qualitative agreement
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach that addresses a challenging problem: estimating conformational entropy contributions to allostery from short MD simulations. The CAP system is well chosen as a benchmark given the existing NMR evidence for dynamics-driven allostery. The central hypothesis, that LSP-based DC reflects local stability and thus entropy, is plausible and the qualitative agreement with prior experimental findings is encouraging. However, the manuscript as provided does not fully establish the validity of DC as a quantitative entropy proxy. The comparison to NMR-derived order parameters is presented as weak correlation, which is acknowledged but not deeply analyzed. The statistical treatment, validation of the method against known entropic quantities, and demonstration of generalizability beyond CAP remain incomplete. The claims of methodological advancement are somewhat overstated relative to the evidence presented. The manuscript would benefit from clearer articulation of what exactly is validated versus what remains conjectural.
+- **Who would be interested in the results, and why** Researchers studying allostery, particularly dynamics-driven allostery, would find this approach of interest as a potentially fast computational alternative to NMR. Computational biophysicists developing network-based methods for protein analysis would also be interested. The method's claimed applicability to non-protein entities (nucleotides, lipids, ligands) could attract a broader structural biology audience. However, the current evidence base is primarily a single case study, which limits immediate generalizability claims.
+- **Major strengths** The choice of CAP as a well-characterized benchmark with existing NMR data is appropriate. The method is computationally efficient relative to full entropy calculations. The use of both DC and BC provides complementary views of local stability and global connectivity. The authors acknowledge limitations of their approach and the complexity of quantifying entropy from DC. The observation of convergence of centrality values over 10 ns windows is practically useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of DC as entropy proxy
+  - **Claim pointer** The manuscript claims that "Degree Centrality can also capture entropic changes to explain the negative cooperativity of cAMP binding" and that DC "can serve as a practical estimator of the entropic characteristics of proteins."
+  - **Evidence pointer** Results section "Comparing Degree Centrality values with previous entropy estimates", Figure 4
+  - **Concern** The central claim that DC reflects conformational entropy is not quantitatively validated. The comparison to NMR-derived order parameters (ΔS2) shows no strong correlation (as stated by the authors), yet the conclusion is that DC follows the same trend. A weak or absent correlation with the only available experimental entropy proxy is a fundamental problem for the claim that DC measures entropy. The authors attribute discrepancies to differences in what is measured (side chain vs. backbone), but this is not tested. The manuscript does not provide any calibration of DC against known entropic quantities, nor does it demonstrate that DC distinguishes between entropic and enthalpic contributions. Without such validation, the claim that DC is a proxy for entropy remains unsupported.
+  - **Why it matters** The entire premise of the method as a tool for studying entropy-driven allostery rests on the validity of DC as an entropy measure. If DC does not reliably reflect entropy, the conclusions about CAP allostery and the method's broader applicability are not established.
+  - **Resolution test** Provide a quantitative comparison of DC with experimentally or computationally derived entropy estimates (e.g., from NMR relaxation dispersion, ITC, or quasi-harmonic analysis) across multiple systems. Demonstrate a statistically significant correlation. Alternatively, provide a theoretical derivation or simulation-based validation showing that DC is proportional to configurational entropy under defined conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical significance and robustness
+  - **Claim pointer** The manuscript states that "the detected values of DC are very robust and allow for the calculation of statistical significance of these values" and presents ΔDCA-apo values as "statistically significant" in specific regions.
+  - **Evidence pointer** Results section "Measuring Degree Centrality in CAP", Figure 3
+  - **Concern** The statistical analysis is not described. No details are provided on how statistical significance was calculated, what test was used, how multiple comparisons were handled, or what the sample size was (number of independent MD simulations, number of 10 ns windows). The claim of robustness is not supported by any quantitative measure of variance or confidence intervals. The manuscript mentions six 10 ns intervals from a single 410 ns trajectory, but it is unclear whether these are treated as independent samples, which would be statistically problematic given they are from the same trajectory.
+  - **Why it matters** Without proper statistical treatment, the reported differences in DC between states cannot be distinguished from noise. The central observation of asymmetric ΔDCA-apo between CNBD-A and CNBD-B, which is key to the allostery conclusion, may not be statistically reliable.
+  - **Resolution test** Provide a detailed description of the statistical methods used, including the number of independent simulations, how windows were sampled, the test used, and how multiple testing was corrected. Show confidence intervals or error bars for DC values. Ideally, perform replicate independent MD simulations to assess run-to-run variability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and method validation
+  - **Claim pointer** The manuscript claims that "the methods presented here mark a significant advancement in the field, positioning them as vital tools for a fast, cost-effective, and accurate analysis of entropy-driven allostery and identification of allosteric hotspots."
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The method is validated on a single protein system (CAP). While CAP is a good benchmark, the claim of broad applicability and "significant advancement" is not supported by evidence from other systems. The manuscript does not discuss potential limitations of the method for different protein classes, sizes, or dynamic regimes. The claim of "accuracy" is particularly problematic given the lack of quantitative validation against experimental entropy data.
+  - **Why it matters** Overstated claims of generalizability and accuracy could mislead readers into applying the method in contexts where it may not be valid. The scientific community needs evidence of performance across diverse systems before accepting the method as a general tool.
+  - **Resolution test** Apply the method to at least one additional allosteric system with known dynamics-driven allostery and demonstrate that DC changes correlate with experimental observations. Discuss limitations and potential failure modes of the method. Moderate the claims to reflect the current evidence base.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological details and reproducibility
+  - **Claim pointer** The methods section describes the construction of LSP-based PRNs and the calculation of centrality measures.
+  - **Evidence pointer** Materials and Methods section "Construction of LSP-based PRNs"
+  - **Concern** The description of the LSP alignment method is brief and relies heavily on prior publications. Key parameters (e.g., cutoff values, weighting scheme) are given, but the rationale for these choices is not explained. The manuscript does not describe how the number of 10 ns windows was chosen, how convergence was assessed quantitatively, or how the results depend on the choice of trajectory length. The method for converting weights to distances for betweenness calculation (D = −log W) is stated but not justified. The manuscript does not provide the code or a detailed pseudocode for the LSP alignment adapted for MD, which limits reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without sufficient detail, other researchers cannot implement or verify the method. The lack of sensitivity analysis for key parameters raises questions about the robustness of the results.
+  - **Resolution test** Provide a more detailed description of the LSP alignment algorithm as applied to MD trajectories, including a pseudocode or reference to publicly available code. Perform and report a sensitivity analysis for key parameters (e.g., cutoffs, window length). Justify the choice of D = −log W for weight-to-distance conversion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2 description
+  - **Evidence pointer** Results section "Linking Degree Centrality to protein entropy", Figure 2
+  - **Issue** The description of Figure 2 is somewhat abstract. It is not clear how the schematic illustration of high vs. low DC regions relates to the actual CAP structure and the quantitative results presented later.
+  - **Required correction** Clarify the connection between the schematic in Figure 2 and the actual data. Consider showing a structural representation of CAP with DC values mapped onto the structure for one of the three states.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion of ΔDCA-apo in CNBD-A C-terminus
+  - **Evidence pointer** Results section "Measuring Degree Centrality in CAP", Figure 3C
+  - **Issue** The manuscript notes statistically significant negative ΔDCA-apo values at the C-terminus of CNBD-A (residues 127–135) but does not discuss the functional implications of this observation. This could be relevant to understanding the allosteric mechanism.
+  - **Required correction** Add a brief discussion of the potential significance of destabilization at the CNBD-A C-terminus upon cAMP binding, or explain why this is not considered important.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison with prior work
+  - **Affected element** Discussion of Rodgers et al. findings
+  - **Evidence pointer** Results section "Measuring Degree Centrality in CAP"
+  - **Issue** The agreement with Rodgers et al. regarding L61 and V131 is mentioned, but the comparison is brief. It would be helpful to understand how the two methods differ and what the agreement adds beyond confirmation.
+  - **Required correction** Expand the comparison with Rodgers et al. to clarify the distinct contributions of the present method and what new information it provides.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** MD simulation details
+  - **Evidence pointer** Materials and Methods section "Molecular dynamics simulation"
+  - **Issue** The description of the MD simulation is brief. Key details such as the force field used, the temperature and pressure coupling schemes, the total simulation time for each condition, and the number of replicates are not fully specified. The statement "These simulations were conducted in triplicate for each construct for 10 ns" is ambiguous regarding whether the 410 ns simulation is one of the triplicates or an additional run.
+  - **Required correction** Provide complete details of the MD simulation protocol, including force field, ensemble, thermostats/barostats, total simulation times, and how the 410 ns trajectory relates to the triplicate 10 ns simulations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of BC changes
+  - **Affected element** Discussion of BC changes upon cAMP binding
+  - **Evidence pointer** Results section "Measuring Betweenness Centrality in CAP", Figure 5
+  - **Issue** The interpretation of BC changes is somewhat speculative. The statement that new connection points "are located at the PBC that makes direct contacts with cAMP" is reasonable, but the functional significance of decreased BC at residues like Y41, D68, F69, and L116 is not explored.
+  - **Required correction** Provide a more detailed interpretation of what decreased BC at these residues might mean for allosteric communication, or acknowledge the limits of interpretation.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative validation of DC as an entropy proxy (R1-M1) and the insufficient statistical description (R1-M2) are the primary technical issues that prevent the case from being established. The generalizability claim (R1-M3) and reproducibility concerns (R1-M4) are secondary but important.
+- **Assessment against Nature-style criteria** Originality: The approach of using LSP-based PRNs and centrality measures to estimate conformational entropy is novel in its specific combination, though it builds on existing network-based methods. Scientific importance: If validated, the method could provide a fast and accessible tool for studying entropy-driven allostery, which is a topic of growing interest. However, the current single-case validation limits the immediate impact. Interdisciplinary readership: The method bridges graph theory, molecular dynamics, and allostery, which could appeal to a broad readership, but the technical nature may limit accessibility. Technical soundness: The core idea is plausible, but the lack of quantitative validation and statistical rigor undermines the technical soundness as presented. Readability for nonspecialists: The manuscript is generally well written, but the methods section assumes familiarity with graph theory and network analysis, which may be challenging for some readers.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising idea with encouraging qualitative results, but the central claim that DC reflects conformational entropy is not quantitatively validated, and the statistical treatment is insufficient. Major revisions addressing these concerns are required before the case can be made.
+
+## Risk / unsupported claims
+- The claim that DC "can serve as a practical estimator of the entropic characteristics of proteins" is unsupported by quantitative validation against experimental or computational entropy measures.
+- The claim that the method is "accurate" for analysis of entropy-driven allostery is not supported by the evidence presented.
+- The claim of "significant advancement in the field" and positioning as "vital tools" is overstated given the single-case validation.
+- The statement that "the detected values of DC are very robust" is not supported by any quantitative measure of variance or statistical analysis.
+- The interpretation of BC changes as reflecting allosteric communication is plausible but not directly validated by experimental data.
+- The claim that the method "can be easily extended to include dynamics of small organic molecules, polynucleotides, or other allosteric proteins" is plausible but not demonstrated in this study.

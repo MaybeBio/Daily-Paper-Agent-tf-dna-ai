@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "38319987",
+    "doi": "10.1080/15257770.2024.2310044",
+    "title": "The role of differentially expressed genes and immune cell infiltration in the progression of nonalcoholic steatohepatitis (NASH) to hepatocellular carcinoma (HCC): a new exploration based on bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Nonalcoholic fatty liver disease (NAFLD) is a spectrum of chronic liver disease characterized. The condition ranges from isolated excessive hepatocyte triglyceride accumulation and steatosis (nonalcoholic fatty liver (NAFL), to hepatic triglyceride accumulation plus inflammation and hepatocyte injury (nonalcoholic steatohepatitis (NASH)) and finally to hepatic fibrosis and cirrhosis and/or hepatocellular carcinoma (HCC). However, the mechanism driving this process is not yet clear. Obtain sample microarray from the GEO database. Extract 6 healthy liver samples, 74 nonalcoholic hepatitis samples, 8 liver cirrhosis samples, and 53 liver cancer samples from the GSE164760 dataset. We used the GEO2R tool for differentially expressed genes (DEGs) analysis of disease progression (nonalcoholic hepatitis healthy group, cirrhosis nonalcoholic hepatitis group, and liver cancer cirrhosis group) and necroptosis gene set. Gene set variation analysis (GSVA) is used to evaluate the association between biological pathways and gene features. The STRING database and Cytoscape software were used to establish and visualize protein-protein interaction (PPI) networks and identify the key functional modules of DEGs, drawn factor-target genes regulatory network. Gene Ontology (GO) and KEGG pathway enrichment analyses of DEGs were also performed. Additionally, immune infiltration patterns were analyzed using the cibersort, and the correlation between immune cell-type abundance and DEGs expression was investigated. We further screened and obtained a total of 152 intersecting DEGs from three groups. 23 key genes were obtained through the MCODE plugin. Transcription factors regulating common differentially expressed genes were obtained in the hTFtarget database, and a TF target network diagram was drawn. There are 118 nodes, 251 edges, and 4 clusters in the PPI network. The key genes of the four modules include METAP2, RPL14, SERBP1, EEF2; HR4A1; CANX; ARID1A, UBE2K. METAP2, RPL14, SERBP1 and EEF2 was identified as the key hub genes. CREB1 was identified as the hub TF interacting with those gens by taking the intersection of potential TFs. The types of key gene changes were genetic mutations. It can be seen that the incidence of key gene mutations is 1.7% in EEF2, 0.8% in METAP2, and 0.3% in RPL14, respectively. Finally, We found that the most significant expression differences of the immune infiltrating cells among the three groups, were Tregs and M2, M0 type macrophages. We identified four hub genes METAP2, RPL14, SERBP1 and EEF2 being the most closely with the process from NASH to cirrhosis to HCC. It is beneficial to examine and understand the interaction between hub DEGs and potential regulatory molecules in the process. This knowledge may provide a novel theoretical foundation for the development of diagnostic biomarkers and gene-related therapy targets in the process.",
+    "keywords": [
+      "Hepatocellular carcinoma (HCC)",
+      "cirrhosis",
+      "immune cell infiltration",
+      "network",
+      "nonalcoholic fatty liver disease (NAFLD)",
+      "nonalcoholic steatohepatitis (NASH)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Non-alcoholic Fatty Liver Disease/genetics/immunology",
+      "*Carcinoma, Hepatocellular/genetics/immunology/pathology",
+      "*Liver Neoplasms/genetics/immunology/pathology",
+      "*Computational Biology/methods",
+      "*Disease Progression",
+      "*Protein Interaction Maps/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yang",
+        "Yu, Xiaohan",
+        "Wang, Yuegu",
+        "Wu, Jinge",
+        "Feng, Bo",
+        "Li, Meng"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Yu X",
+        "Wang Y",
+        "Wu J",
+        "Feng B",
+        "Li M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Dandong Central Hospital, Dandong, Liaoning, China.",
+        "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China.",
+        "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China.",
+        "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China.",
+        "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China.",
+        "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Dandong Central Hospital, Dandong, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiaohan",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuegu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jinge",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Bo",
+        "short_name": "Feng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Dandong Central Hospital, Dandong, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleosides, nucleotides & nucleic acids"
+    ],
+    "journal_abbrev": [
+      "Nucleosides Nucleotides Nucleic Acids"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/06 18:42",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [
+      "42291266",
+      "41547876",
+      "41488134",
+      "41390973",
+      "41227349",
+      "40853920",
+      "40655111"
+    ],
+    "refs": [],
+    "similar": [
+      "38319987",
+      "32184169",
+      "34552988",
+      "34257537",
+      "37194229",
+      "35762549",
+      "33102593",
+      "31043166",
+      "28432618",
+      "30825595",
+      "39350187",
+      "34233850",
+      "30525236",
+      "34603487",
+      "39118438",
+      "34758532",
+      "32623384",
+      "39351239",
+      "33376723",
+      "39789929",
+      "35462486",
+      "33053978",
+      "28302149",
+      "31974594",
+      "33324350",
+      "37715392",
+      "32443377",
+      "37089050",
+      "30702595",
+      "33564675",
+      "30341252",
+      "31822116",
+      "32567431",
+      "30602391",
+      "26125269",
+      "39697329",
+      "29962817",
+      "29658607",
+      "39875572",
+      "31064721",
+      "31746405",
+      "34257558",
+      "32598174",
+      "34337056",
+      "36464255",
+      "30268144",
+      "39764737",
+      "33658475",
+      "30542696",
+      "28640074",
+      "39586719",
+      "39143741",
+      "32210020",
+      "33603714",
+      "32384023",
+      "28901494",
+      "30272310",
+      "38238845",
+      "30135001",
+      "34737677",
+      "39961942",
+      "33083497",
+      "32770081",
+      "31987036",
+      "37697333",
+      "31737652",
+      "32769939",
+      "29436633",
+      "32000807",
+      "36378050",
+      "30705088",
+      "31633428",
+      "30964207",
+      "35790963",
+      "38476236",
+      "38469144",
+      "40093012",
+      "32102237",
+      "37753698",
+      "26845596",
+      "32627011",
+      "33083480",
+      "34931168",
+      "34803493",
+      "35016690",
+      "36503447",
+      "30720105",
+      "34777255",
+      "39341981",
+      "27454179",
+      "37501756",
+      "29795057",
+      "38017425",
+      "31801935",
+      "33574818",
+      "34257549",
+      "39013959",
+      "29620197",
+      "24048683",
+      "35226336"
+    ],
+    "review": [
+      "38319987",
+      "32770081",
+      "32102237"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15257770.2024.2310044?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/15257770.2024.2310044",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

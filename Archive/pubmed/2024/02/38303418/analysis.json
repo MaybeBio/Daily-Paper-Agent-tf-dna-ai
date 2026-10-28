@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38303418",
+  "title": "Identification of DNA-protein binding residues through integration of Transformer encoder and Bi-directional Long Short-Term Memory.",
+  "authors": "Zhao, Haipeng; Zhu, Baozhong; Jiang, Tengsheng; Cui, Zhiming; Wu, Hongjie",
+  "journal": "Mathematical biosciences and engineering : MBE",
+  "published_date": "2024-02-02",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Transformer编码器与双向LSTM结合卷积网络，基于PSSM和二级结构预测DNA-蛋白结合残基，属于广义蛋白-DNA互作位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性结合。",
+  "abstract": "DNA-protein binding is crucial for the normal development and function of organisms. The significance of accurately identifying DNA-protein binding sites lies in its role in disease prevention and the development of innovative approaches to disease treatment. In the present study, we introduce a precise and robust identifier for DNA-protein binding residues. In the context of protein representation, we combine the evolutionary information of the protein, represented by its position-specific scoring matrix, with the spatial information of the protein's secondary structure, enriching the overall informational content. This approach initially employs a combination of Bi-directional Long Short-Term Memory and Transformer encoder to jointly extract the interdependencies among residues within the protein sequence. Subsequently, convolutional operations are applied to the resulting feature matrix to capture local features of the residues. Experimental results on the benchmark dataset demonstrate that our method exhibits a higher level of competitiveness when compared to contemporary classifiers. Specifically, our method achieved an MCC of 0.349, SP of 96.50%, SN of 44.03% and ACC of 94.59% on the PDNA-41 dataset.",
+  "abstract_zh": "DNA-蛋白质结合对于生物体的正常发育和功能至关重要。准确识别DNA-蛋白质结合位点的意义在于其在疾病预防和开发创新疾病治疗方法中的作用。在本研究中，我们介绍了一种精确且稳健的DNA-蛋白质结合残基识别器。在蛋白质表示方面，我们将蛋白质的进化信息（由其位置特异性评分矩阵表示）与蛋白质二级结构的空间信息相结合，丰富了整体信息内容。该方法首先采用双向长短期记忆网络与Transformer编码器的组合，共同提取蛋白质序列中残基间的相互依赖性。随后，对所得特征矩阵应用卷积操作以捕获残基的局部特征。在基准数据集上的实验结果表明，与当代分类器相比，我们的方法展现出更高的竞争力。具体而言，在PDNA-41数据集上，我们的方法实现了MCC为0.349，SP为96.50%，SN为44.03%，ACC为94.59%。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38303418/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38303418/",
+  "paper_page_path": "papers/pubmed/38303418/index.html"
+}

@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "38653998",
+    "doi": "10.1038/s41598-024-53327-2",
+    "title": "Molecular subtype identification of cerebral ischemic stroke based on ferroptosis-related genes."
+  },
+  "content": {
+    "abstract": "Cerebral ischemic stroke (CIS) has the characteristics of a high incidence, disability, and mortality rate. Here, we aimed to explore the potential pathogenic mechanisms of ferroptosis-related genes (FRGs) in CIS. Three microarray datasets from the Gene Expression Omnibus (GEO) database were utilized to analyze differentially expressed genes (DEGs) between CIS and normal controls. FRGs were obtained from a literature report and the FerrDb database. Weighted gene co-expression network analysis (WGCNA) and protein-protein interaction (PPI) network were used to screen hub genes. The receiver operating characteristic (ROC) curve was adopted to evaluate the diagnostic value of key genes in CIS, followed by analysis of immune microenvironment, transcription factor (TF) regulatory network, drug prediction, and molecular docking. In total, 128 CIS samples were divided into 2 subgroups after clustering analysis. Compared with cluster A, 1560 DEGs were identified in cluster B. After the construction of the WGCNA and PPI network, 5 hub genes, including MAPK3, WAS, DNAJC5, PRKCD, and GRB2, were identified for CIS. Interestingly, MAPK3 was a FRG that differentially expressed between cluster A and cluster B. The expression levels of 5 hub genes were all specifically highly in cluster A subtype. It is noted that neutrophils were the most positively correlated with all 5 real hub genes. PRKCD was one of the target genes of FASUDIL. In conclusion, five real hub genes were identified as potential diagnostic markers, which can distinguish the two subtypes well.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "Humans",
+      "*Ischemic Stroke/genetics",
+      "*Gene Regulatory Networks",
+      "*Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Molecular Docking Simulation",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yufeng",
+        "Xu, Xinjuan",
+        "Shui, Xinjun",
+        "Ren, Ruilin",
+        "Liu, Yu"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Xu X",
+        "Shui X",
+        "Ren R",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China. wangyufeng1979@126.com.",
+        "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China.",
+        "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China.",
+        "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China.",
+        "Department of Surgical, Peking University First Hospital Taiyuan, Taiyuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yufeng",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China. wangyufeng1979@126.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Xinjuan",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Shui, Xinjun",
+        "short_name": "Shui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Ruilin",
+        "short_name": "Ren R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Shanxi Cardiovascular Hospital, No.18, Yifen Street, Taiyuan City, 030024, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical, Peking University First Hospital Taiyuan, Taiyuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Apr 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/24 01:43",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "41969666"
+    ],
+    "refs": [
+      "37616312",
+      "37351420",
+      "36908209",
+      "36793330",
+      "36370105",
+      "36300620",
+      "35325185",
+      "35145551",
+      "35102454",
+      "34924755",
+      "34922114",
+      "34801531",
+      "34707562",
+      "34634471",
+      "34629895",
+      "34439518",
+      "34257829",
+      "34182129",
+      "34118948",
+      "34064579",
+      "33880887",
+      "33815136",
+      "33733478",
+      "33495651",
+      "33268902",
+      "33237278",
+      "33127469",
+      "32945445",
+      "32793720",
+      "32760210",
+      "32219729",
+      "32219413",
+      "32203170",
+      "32185666",
+      "32015325",
+      "31477170",
+      "31296369",
+      "30468665",
+      "30267379",
+      "29087512",
+      "28955984",
+      "28857241",
+      "28837206",
+      "28826602",
+      "28508374",
+      "28260801",
+      "28110342",
+      "26712630",
+      "25822800",
+      "25605792",
+      "24128653",
+      "23050260",
+      "22257669",
+      "22226402",
+      "21857909",
+      "20685377",
+      "20427518",
+      "19589182",
+      "19131956",
+      "19114008",
+      "18986552",
+      "15295022",
+      "15096454",
+      "11456315",
+      "10592173",
+      "7997267"
+    ],
+    "similar": [
+      "38653998",
+      "38885209",
+      "36011284",
+      "36335193",
+      "35637927",
+      "37957905",
+      "37530128",
+      "38650009",
+      "38875180",
+      "36110200",
+      "32945445",
+      "34218797",
+      "35100981",
+      "38650155",
+      "35558576",
+      "31886571",
+      "38637126",
+      "38649061",
+      "36802116",
+      "36440700",
+      "33622336",
+      "34510961",
+      "37919056",
+      "37752199",
+      "37275855",
+      "39170609",
+      "37645416",
+      "37035738",
+      "38062833",
+      "36407421",
+      "33816621",
+      "34861826",
+      "39165204",
+      "35787932",
+      "36689408",
+      "35381314",
+      "32626985",
+      "37837870",
+      "32756534",
+      "34659450",
+      "31984950",
+      "37920499",
+      "31987036",
+      "36854280",
+      "38268224",
+      "35901060",
+      "34215202",
+      "36421842",
+      "37305039",
+      "37878496",
+      "38660311",
+      "32537629",
+      "38229237",
+      "34522169",
+      "36699262",
+      "38850201",
+      "34949204",
+      "34856750",
+      "37576602",
+      "37163321",
+      "34603487",
+      "34565282",
+      "36106017",
+      "36627660",
+      "38360841",
+      "38995420",
+      "35128826",
+      "31562292",
+      "37386410",
+      "35739592",
+      "36837498",
+      "37316756",
+      "36060663",
+      "37100862",
+      "38701300",
+      "38527674",
+      "36405745",
+      "32048869",
+      "34506683",
+      "37144125",
+      "35185791",
+      "33437215",
+      "34233597",
+      "37942417",
+      "35731466",
+      "35860189",
+      "35047008",
+      "35691413",
+      "37550393",
+      "36035208",
+      "33407587",
+      "35016690",
+      "30542696",
+      "38664443",
+      "32746852",
+      "29257295",
+      "30654001",
+      "35473522",
+      "35278479",
+      "33827531",
+      "34555052",
+      "38402377",
+      "38814177",
+      "38198162",
+      "39299659",
+      "37983626"
+    ],
+    "review": [
+      "38653998"
+    ],
+    "pmc": [
+      "11039763"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-53327-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38653998/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38653998",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GRB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38653998",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

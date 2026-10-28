@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40359455",
+  "title": "iProtDNA-SMOTE: Enhancing protein-DNA binding sites prediction through imbalanced graph neural networks.",
+  "authors": "Huang, Ruiyan; Qiu, Wangren; Xiao, Xuan; Lin, Weizhong",
+  "journal": "PloS one",
+  "published_date": "2025-05-13",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用非平衡图神经网络结合预训练蛋白语言模型预测蛋白-DNA结合残基，虽非典型TF-DNA体系，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "Protein-DNA interactions play a crucial role in cellular biology, essential for maintaining life processes and regulating cellular functions. We propose a method called iProtDNA-SMOTE, which utilizes non-equilibrium graph neural networks along with pre-trained protein language models to predict DNA binding residues. This approach effectively addresses the class imbalance issue in predicting protein-DNA binding sites by leveraging unbalanced graph data, thus enhancing model's generalization and specificity. We trained the model on two datasets, TR646 and TR573, and conducted a series of experiments to evaluate its performance. The model achieved AUC values of 0.850, 0.896, and 0.858 on the independent test datasets TE46, TE129, and TE181, respectively. These results indicate that iProtDNA-SMOTE outperforms existing methods in terms of accuracy and generalization for predicting DNA binding sites, offering reliable and effective predictions to minimize errors. The model has been thoroughly validated for its ability to predict protein-DNA binding sites with high reliability and precision. For the convenience of the scientific community, the benchmark datasets and codes are publicly available at https://github.com/primrosehry/iProtDNA-SMOTE.",
+  "abstract_zh": "蛋白质-DNA相互作用在细胞生物学中扮演着关键角色，对维持生命过程和调控细胞功能至关重要。我们提出了一种名为iProtDNA-SMOTE的方法，该方法利用非平衡图神经网络结合预训练蛋白质语言模型来预测DNA结合残基。该方法通过利用不平衡图数据，有效解决了预测蛋白质-DNA结合位点中的类别不平衡问题，从而增强了模型的泛化能力和特异性。我们在两个数据集TR646和TR573上训练了模型，并进行了一系列实验以评估其性能。模型在独立测试数据集TE46、TE129和TE181上分别取得了0.850、0.896和0.858的AUC值。这些结果表明，iProtDNA-SMOTE在预测DNA结合位点的准确性和泛化能力方面优于现有方法，提供了可靠且有效的预测以减少误差。该模型在预测蛋白质-DNA结合位点方面已得到充分验证，具有高可靠性和精确性。为了方便科学界使用，基准数据集和代码已在https://github.com/primrosehry/iProtDNA-SMOTE公开提供。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40359455/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40359455/",
+  "paper_page_path": "papers/pubmed/40359455/index.html"
+}

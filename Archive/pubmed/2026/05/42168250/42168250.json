@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "42168250",
+    "doi": "10.1038/s41598-026-49012-1",
+    "title": "RRM2 as a biomarker and therapeutic target in letrozole resistant estrogen receptor positive breast cancer."
+  },
+  "content": {
+    "abstract": "Letrozole is a first-line aromatase inhibitor for estrogen receptor-positive (ER +) breast cancer, yet resistance occurs in 20-30% of patients, significantly limiting therapeutic benefit. The absence of reliable pretreatment biomarkers remains a major barrier to precision therapy. This study aimed to identify robust prognostic biomarkers and elucidate molecular mechanisms underlying letrozole resistance through integrative bioinformatics, molecular docking, and cell-based functional assays. Weighted gene co-expression network analysis of transcriptomic datasets revealed a module strongly associated with nonresponse. From this, seven candidate genes (BUB1B, CENPU, KIF11, RRM2, NUSAP1, TRIP13, PRC1) were identified as significantly overexpressed in tumors and consistently correlated with poor survival in ER + breast cancer. Among them, RRM2 emerged as the most clinically relevant marker. Molecular docking demonstrated a potential competitive interaction between RRM2 and letrozole, implicating disruption of aromatase inhibition and DNA replication pathways in resistance, while functional assays in ER + cell lines showed that RRM2 modulates proliferation and MYC-CCND1 signaling. Validation in an independent letrozole-treated cohort confirmed the strong prognostic value of RRM2. These findings provide novel mechanistic insights into endocrine resistance and establish RRM2 as a pivotal prognostic biomarker and therapeutic target. This work offers a strong foundation for biomarker-guided strategies to optimize treatment and overcome resistance in ER + breast cancer.",
+    "keywords": [
+      "Estrogen receptor-positive breast cancer",
+      "Letrozole resistance",
+      "Molecular docking",
+      "Prognostic biomarkers",
+      "RRM2",
+      "Weighted gene coexpression network analysis (WGCNA)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Letrozole/pharmacology/therapeutic use",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Breast Neoplasms/drug therapy/metabolism/genetics/pathology",
+      "Female",
+      "*Biomarkers, Tumor/metabolism/genetics",
+      "*Ribonucleoside Diphosphate Reductase/metabolism/genetics/chemistry",
+      "*Receptors, Estrogen/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Prognosis",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Aromatase Inhibitors/pharmacology",
+      "Antineoplastic Agents/pharmacology",
+      "Cell Proliferation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hung, Wan-Yu",
+        "Huang, Shih-Chun",
+        "Chen, Shou-Tung",
+        "Lin, Chi-Chen",
+        "Hou, Ming-Hon"
+      ],
+      "short_names": [
+        "Hung WY",
+        "Huang SC",
+        "Chen ST",
+        "Lin CC",
+        "Hou MH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery of Taichung Municipal Geriatric Rehabilitation General Hospital, Taichung, Taiwan.",
+        "Graduate Institute of Genomics and Bioinformatics, Ph. D. Program in Medical Biotechnology, National Chung-Hsing University40227No, 145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan.",
+        "Ph.D. Program in Translational Medicine, National Chung Hsing University, Taichung, Taiwan.",
+        "Graduate Institute of Genomics and Bioinformatics, Ph. D. Program in Medical Biotechnology, National Chung-Hsing University40227No, 145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan.",
+        "Comprehensive Breast Cancer Center, Changhua Christian Hospital, Changhua, Taiwan.",
+        "Ph.D. Program in Translational Medicine, National Chung Hsing University, Taichung, Taiwan. chichenlin1@gmail.com.",
+        "Graduate Institute of Biomedical Science, College of Life Sciences, National Chung-Hsing University, 40227No.145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan. chichenlin1@gmail.com.",
+        "Graduate Institute of Genomics and Bioinformatics, Ph. D. Program in Medical Biotechnology, National Chung-Hsing University40227No, 145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan. mhho@nchu.edu.tw.",
+        "Ph.D. Program in Translational Medicine, National Chung Hsing University, Taichung, Taiwan. mhho@nchu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hung, Wan-Yu",
+        "short_name": "Hung WY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery of Taichung Municipal Geriatric Rehabilitation General Hospital, Taichung, Taiwan.",
+          "Graduate Institute of Genomics and Bioinformatics, Ph. D. Program in Medical Biotechnology, National Chung-Hsing University40227No, 145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan.",
+          "Ph.D. Program in Translational Medicine, National Chung Hsing University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Shih-Chun",
+        "short_name": "Huang SC",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Genomics and Bioinformatics, Ph. D. Program in Medical Biotechnology, National Chung-Hsing University40227No, 145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Shou-Tung",
+        "short_name": "Chen ST",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Breast Cancer Center, Changhua Christian Hospital, Changhua, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Chi-Chen",
+        "short_name": "Lin CC",
+        "identifiers": [],
+        "affiliations": [
+          "Ph.D. Program in Translational Medicine, National Chung Hsing University, Taichung, Taiwan. chichenlin1@gmail.com.",
+          "Graduate Institute of Biomedical Science, College of Life Sciences, National Chung-Hsing University, 40227No.145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan. chichenlin1@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Hou, Ming-Hon",
+        "short_name": "Hou MH",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Genomics and Bioinformatics, Ph. D. Program in Medical Biotechnology, National Chung-Hsing University40227No, 145 Xingda Rd., South Dist., R.O.C. 402, Taichung, Taiwan. mhho@nchu.edu.tw.",
+          "Ph.D. Program in Translational Medicine, National Chung Hsing University, Taichung, Taiwan. mhho@nchu.edu.tw."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 May 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 00:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38943828",
+      "38424239",
+      "38283191",
+      "37835383",
+      "36084384",
+      "35740608",
+      "34217908",
+      "33692409",
+      "33277589",
+      "33206458",
+      "33133722",
+      "32613540",
+      "32289273",
+      "32256828",
+      "31871135",
+      "31670920",
+      "30191138",
+      "30078354",
+      "29963233",
+      "28077403",
+      "27670139",
+      "27077332",
+      "26344764",
+      "24774538",
+      "23714450",
+      "23023562",
+      "22494857",
+      "21388883",
+      "18413732",
+      "17912636",
+      "17912633",
+      "17052904",
+      "12628359",
+      "11257103",
+      "10747958"
+    ],
+    "similar": [
+      "42168250",
+      "25633049",
+      "29581135",
+      "25213022",
+      "25756514",
+      "31506496",
+      "24886537",
+      "34406386",
+      "21658239",
+      "32430040",
+      "23650283",
+      "24472707",
+      "26585578",
+      "26026468",
+      "25625755",
+      "30795773",
+      "36997866",
+      "27602955",
+      "27246191",
+      "20054641",
+      "30616553",
+      "21346144",
+      "23704778",
+      "27228187",
+      "22550166",
+      "40597935",
+      "21420993",
+      "32684154",
+      "25888249",
+      "31878959",
+      "20646288",
+      "40097769",
+      "22706627",
+      "30898978",
+      "40808956",
+      "30328006",
+      "23493347",
+      "25016594",
+      "31471836",
+      "26333382",
+      "38849889",
+      "41720449",
+      "40233410",
+      "39980051",
+      "32093034",
+      "40812074",
+      "34391846",
+      "32922202",
+      "41029829",
+      "38381406",
+      "39777474",
+      "25530422",
+      "32385899",
+      "33517263",
+      "31892336",
+      "32344635",
+      "28751448",
+      "41918119",
+      "26763249",
+      "29921289",
+      "26795347",
+      "22939887",
+      "30712236",
+      "22608253",
+      "15967659",
+      "39593108",
+      "38827320",
+      "28320353",
+      "39567714",
+      "29141657",
+      "42142055",
+      "17113978",
+      "26277097",
+      "25358600",
+      "40345424",
+      "21707964",
+      "25683269",
+      "35270029",
+      "23075476",
+      "33109739",
+      "41258078",
+      "34623477",
+      "24634384",
+      "30996073",
+      "19238537",
+      "27650553",
+      "16263272",
+      "34610415",
+      "18611244",
+      "20054642",
+      "24223121",
+      "21984694",
+      "30306428",
+      "40664624",
+      "21362200",
+      "20569503",
+      "17555561",
+      "36334189",
+      "22879364",
+      "24060333"
+    ],
+    "review": [
+      "42168250",
+      "25213022",
+      "22706627",
+      "26277097"
+    ],
+    "pmc": [
+      "13503690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-49012-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42168250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-725",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

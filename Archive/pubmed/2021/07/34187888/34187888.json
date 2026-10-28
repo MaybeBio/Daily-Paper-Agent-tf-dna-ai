@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "34187888",
+    "doi": "10.1073/pnas.2022838118",
+    "title": "Deep representation learning improves prediction of LacI-mediated transcriptional repression."
+  },
+  "content": {
+    "abstract": "Recent progress in DNA synthesis and sequencing technology has enabled systematic studies of protein function at a massive scale. We explore a deep mutational scanning study that measured the transcriptional repression function of 43,669 variants of the Escherichia coli LacI protein. We analyze structural and evolutionary aspects that relate to how the function of this protein is maintained, including an in-depth look at the C-terminal domain. We develop a deep neural network to predict transcriptional repression mediated by the lac repressor of Escherichia coli using experimental measurements of variant function. When measured across 10 separate training and validation splits using 5,009 single mutations of the lac repressor, our best-performing model achieved a median Pearson correlation of 0.79, exceeding any previous model. We demonstrate that deep representation learning approaches, first trained in an unsupervised manner across millions of diverse proteins, can be fine-tuned in a supervised fashion using lac repressor experimental datasets to more effectively predict a variant's effect on repression. These findings suggest a deep representation learning model may improve the prediction of other important properties of proteins.",
+    "keywords": [
+      "deep representation learning",
+      "lac repressor",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Epistasis, Genetic",
+      "Escherichia coli Proteins/genetics/*metabolism",
+      "Lac Repressors/genetics/*metabolism",
+      "Mutation/genetics",
+      "Protein Domains",
+      "Reproducibility of Results",
+      "*Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garruss, Alexander S",
+        "Collins, Katherine M",
+        "Church, George M"
+      ],
+      "short_names": [
+        "Garruss AS",
+        "Collins KM",
+        "Church GM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6483-3958",
+        "ORCID: 0000-0003-3535-2076"
+      ],
+      "affiliations": [
+        "Department of Genetics, Harvard Medical School, Boston, MA 02115; garruss@fas.harvard.edu.",
+        "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138.",
+        "Program in Bioinformatics and Integrative Genomics, Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115.",
+        "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138.",
+        "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Boston, MA 02139.",
+        "Department of Genetics, Harvard Medical School, Boston, MA 02115.",
+        "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138.",
+        "Program in Bioinformatics and Integrative Genomics, Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garruss, Alexander S",
+        "short_name": "Garruss AS",
+        "identifiers": [
+          "0000-0001-6483-3958"
+        ],
+        "affiliations": [
+          "Department of Genetics, Harvard Medical School, Boston, MA 02115; garruss@fas.harvard.edu.",
+          "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138.",
+          "Program in Bioinformatics and Integrative Genomics, Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115."
+        ]
+      },
+      {
+        "full_name": "Collins, Katherine M",
+        "short_name": "Collins KM",
+        "identifiers": [],
+        "affiliations": [
+          "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138.",
+          "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Boston, MA 02139."
+        ]
+      },
+      {
+        "full_name": "Church, George M",
+        "short_name": "Church GM",
+        "identifiers": [
+          "0000-0003-3535-2076"
+        ],
+        "affiliations": [
+          "Department of Genetics, Harvard Medical School, Boston, MA 02115.",
+          "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA 02138.",
+          "Program in Bioinformatics and Integrative Genomics, Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Jul 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/01 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "42249116",
+      "39957913",
+      "39952349",
+      "38537640",
+      "38231868",
+      "38128482",
+      "37905112",
+      "37348466",
+      "36226916",
+      "35675441"
+    ],
+    "refs": [
+      "33828272",
+      "33390682",
+      "31636460",
+      "31209395",
+      "31209393",
+      "30716072",
+      "30304492",
+      "30250057",
+      "28134345",
+      "28092658",
+      "27193686",
+      "26752632",
+      "26689263",
+      "26410588",
+      "26039992",
+      "24142950",
+      "23650500",
+      "23277561",
+      "22163331",
+      "21802129",
+      "21187238",
+      "17103112",
+      "16591435",
+      "14631033",
+      "14630648",
+      "13718526",
+      "11266612",
+      "10700279",
+      "10647179",
+      "10350470",
+      "9092630",
+      "8794873",
+      "8638105",
+      "8046748",
+      "8038163"
+    ],
+    "similar": [
+      "34187888",
+      "23658223",
+      "39077947",
+      "21715082",
+      "22965134",
+      "22594825",
+      "26878689",
+      "25771873",
+      "20512969",
+      "23834731",
+      "38465475",
+      "23825963",
+      "33091377",
+      "28295806",
+      "27064119",
+      "31351028",
+      "29856839",
+      "29962051",
+      "17205140",
+      "25034688",
+      "32138729",
+      "26763930",
+      "23406418",
+      "28524655",
+      "34213850",
+      "38019859",
+      "24507611",
+      "26039992",
+      "20804152",
+      "24598256",
+      "33744956",
+      "26689263",
+      "27598336",
+      "9360635",
+      "39277794",
+      "30064218",
+      "23143103",
+      "19818797",
+      "21806940",
+      "23587523",
+      "20484380",
+      "21410208",
+      "28591599",
+      "9491388",
+      "29529243",
+      "35188572",
+      "29365152",
+      "23486479",
+      "34076313",
+      "9837708",
+      "12598694",
+      "21404246",
+      "1563343",
+      "31958546",
+      "9858738",
+      "31980824",
+      "38860425",
+      "23028500",
+      "22968444",
+      "23241389",
+      "8046748",
+      "29318690",
+      "10899129",
+      "34953812",
+      "29584872",
+      "21802129",
+      "25035932",
+      "8709149",
+      "28402875",
+      "25209146",
+      "33511418",
+      "23230569",
+      "24194930",
+      "21936772",
+      "26531007",
+      "24344307",
+      "22253602",
+      "21829165",
+      "11733069",
+      "21928765",
+      "25341013",
+      "19502396",
+      "27008630",
+      "35960846",
+      "12399040",
+      "7641704",
+      "30485404",
+      "33784029",
+      "19269243",
+      "29335877",
+      "21459098",
+      "9570323",
+      "8638105",
+      "9171422",
+      "9600838",
+      "8805532",
+      "15867195",
+      "22723426",
+      "11910022",
+      "10066473",
+      "10556029",
+      "39386603",
+      "37161576",
+      "38074467"
+    ],
+    "review": [
+      "34187888",
+      "19269243",
+      "8805532"
+    ],
+    "pmc": [
+      "8271634"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2022838118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34187888/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34187888",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1163",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34187888",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse175456",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

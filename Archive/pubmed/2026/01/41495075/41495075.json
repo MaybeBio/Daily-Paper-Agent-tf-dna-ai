@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41495075",
+    "doi": "10.1038/s41467-025-68239-6",
+    "title": "DNA actively regulates the \"safety-belt\" dynamics of condensin during loop extrusion."
+  },
+  "content": {
+    "abstract": "Condensin plays an essential role in genome folding through its active DNA loop extrusion activity. Condensin contains a binding interface between its Ycg1 HEAT-repeat subunit and the Brn1 kleisin, together forming a \"safety-belt\" DNA-binding groove. This safety-belt architecture traps DNA inside the structural maintenance of chromosomes complex and prevents its dissociation during loop extrusion. The entrapment of DNA within the binding pocket of the complex is crucial for ATPase activity and loop extrusion. However, the molecular mechanism underlying DNA entrapment remains unclear. Here, we employ a multiscale computational approach to understand how DNA modulates yeast condensin's safety-belt dynamics. Using all-atom simulations combined with AlphaFold3 predictions, we demonstrate that DNA binding stabilizes the Ycg1-Brn1 safety belt. Coarse-grained simulations capture the entire DNA-entrapment process and reveal an active regulatory role for DNA: outside the safety belt, DNA triggers opening, whereas once inside, it promotes closure and stabilizes the complex. Kinetic analyses show that the rate-limiting step in DNA entrapment depends on the tightness of the safety belt. A loose safety belt makes the stable closure of its \"latch\" and \"buckle\" components rate-limiting, whereas a tighter safety belt shifts the barrier to initial DNA entry.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Adenosine Triphosphatases/metabolism/chemistry/genetics",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Multiprotein Complexes/metabolism/chemistry/genetics",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry/genetics",
+      "*DNA/metabolism/chemistry",
+      "Protein Binding",
+      "Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation",
+      "*DNA, Fungal/metabolism/chemistry",
+      "Kinetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jinyu",
+        "Feng, Cibo",
+        "Wang, Yong",
+        "Chu, Xiakun"
+      ],
+      "short_names": [
+        "Chen J",
+        "Feng C",
+        "Wang Y",
+        "Chu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7039-9091",
+        "ORCID: 0000-0001-9156-0377",
+        "ORCID: 0000-0003-3166-7070"
+      ],
+      "affiliations": [
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China.",
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China.",
+        "College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China. xiakunchu@hkust-gz.edu.cn.",
+        "Guangzhou Municipal Key Laboratory of Materials Informatics, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China. xiakunchu@hkust-gz.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jinyu",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-7039-9091"
+        ],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Cibo",
+        "short_name": "Feng C",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-9156-0377"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Xiakun",
+        "short_name": "Chu X",
+        "identifiers": [
+          "0000-0003-3166-7070"
+        ],
+        "affiliations": [
+          "Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China. xiakunchu@hkust-gz.edu.cn.",
+          "Guangzhou Municipal Key Laboratory of Materials Informatics, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China. xiakunchu@hkust-gz.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/07 01:11",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42369874",
+      "41902470"
+    ],
+    "refs": [
+      "40614722",
+      "40345853",
+      "40324744",
+      "40063003",
+      "39952928",
+      "39824185",
+      "39488545",
+      "39270162",
+      "39163334",
+      "38876465",
+      "38718835",
+      "38072605",
+      "37409946",
+      "37177996",
+      "37137166",
+      "37076626",
+      "36961997",
+      "36791746",
+      "36511239",
+      "35797408",
+      "35739160",
+      "35653469",
+      "35648833",
+      "35477004",
+      "35349345",
+      "35238773",
+      "35016058",
+      "34620869",
+      "34586825",
+      "34388673",
+      "34365508",
+      "34329301",
+      "34265844",
+      "33767413",
+      "33597753",
+      "32930661",
+      "32916125",
+      "32755595",
+      "32661420",
+      "32514329",
+      "32445620",
+      "32409525",
+      "32250245",
+      "31780627",
+      "31753851",
+      "31577909",
+      "31396917",
+      "31226277",
+      "30109982",
+      "29754816",
+      "29472443",
+      "29194442",
+      "29118001",
+      "29044255",
+      "28988770",
+      "28882993",
+      "28855250",
+      "27909798",
+      "27872142",
+      "27819658",
+      "27799150",
+      "27737959",
+      "27333362",
+      "27322406",
+      "27309278",
+      "27117417",
+      "27075410",
+      "26919425",
+      "26725510",
+      "26605738",
+      "26575522",
+      "25414305",
+      "25362344",
+      "25361282",
+      "25145851",
+      "25002491",
+      "24934155",
+      "24837193",
+      "24128758",
+      "24116642",
+      "24043820",
+      "24028092",
+      "22753508",
+      "21943426",
+      "21765419",
+      "21500218",
+      "20434561",
+      "20334529",
+      "19580743",
+      "18596691",
+      "17066080",
+      "16907618",
+      "16633335",
+      "15178741",
+      "9288743",
+      "9080195",
+      "8744570"
+    ],
+    "similar": [
+      "41495075",
+      "28988770",
+      "31226277",
+      "40744502",
+      "34329301",
+      "21765419",
+      "32989304",
+      "24837193",
+      "41631486",
+      "39078528",
+      "29118001",
+      "34723504",
+      "28882993",
+      "29472443",
+      "32445620",
+      "32661420",
+      "34951453",
+      "40324744",
+      "29452641",
+      "28825700",
+      "33080019",
+      "29791843",
+      "31548377",
+      "40560727",
+      "35045152",
+      "32132705",
+      "18635352",
+      "26686624",
+      "39690240",
+      "39690239",
+      "33767413",
+      "27463097",
+      "40118039",
+      "25922992",
+      "34309513",
+      "31629658",
+      "33005926",
+      "40770194",
+      "28238653",
+      "41664839",
+      "31072933",
+      "19481522",
+      "18959191",
+      "34270553",
+      "29949571",
+      "29370184",
+      "32354834",
+      "31204167",
+      "23084836",
+      "35653469",
+      "38985672",
+      "16507999",
+      "22645654",
+      "31350339",
+      "29079757",
+      "29474070",
+      "32259483",
+      "33119737",
+      "29970489",
+      "41395907",
+      "22465956",
+      "17268547",
+      "18508626",
+      "12773391",
+      "16055730",
+      "14662740",
+      "35835864",
+      "18844972",
+      "32396063",
+      "16100111",
+      "34191293",
+      "37058545",
+      "31162048",
+      "19141609",
+      "17825050",
+      "39671477",
+      "24286828",
+      "23546018",
+      "30207827",
+      "17935355",
+      "15190202",
+      "30100265",
+      "17079686",
+      "39700017",
+      "25634470",
+      "29912867",
+      "33078399",
+      "19362534",
+      "31615333",
+      "34739874",
+      "11909539",
+      "27909798",
+      "19387493",
+      "26299966",
+      "17573776",
+      "32184229",
+      "30595435",
+      "21923481",
+      "25392932",
+      "15952899"
+    ],
+    "review": [
+      "41495075",
+      "33767413",
+      "40118039",
+      "33005926",
+      "41664839",
+      "29370184",
+      "18844972",
+      "23546018",
+      "39700017",
+      "27909798",
+      "21923481"
+    ],
+    "pmc": [
+      "12891707"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-68239-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41495075/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

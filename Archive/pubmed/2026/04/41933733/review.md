@@ -1,0 +1,121 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No assessment of figures or supplementary data beyond what is described in the text.
+- **Shared manuscript claim summary** The manuscript claims that fortilin binds specifically to the N-terminal region of MEF2C, stabilizes it by protecting against ubiquitin-proteasome-mediated degradation, promotes its activating phosphorylation at Ser59, and thereby enhances MEF2C-dependent transcription of CTNNA3, a cardiomyocyte structural and survival protein.
+- **Visible evidence base** RT-qPCR data (Fig. 1A, Fig. S1), MST binding assays (Fig. 1B-E), co-IP Western blots (Fig. 1F-J, Fig. 2B, Fig. S1G), PLA (Fig. 1K-L, Fig. 5A-B), protein degradation assays (Fig. 3A-D, Fig. S3), ubiquitination assays (Fig. 3E-F), phosphorylation assays (Fig. 4A-J, Fig. S4), luciferase reporter assays (Fig. 5D-E), ChIP-qPCR (Fig. 5G-H), and computational docking/MD simulations (Fig. 2D-G)
+- **Missing materials affecting confidence** Actual figure images, uncropped blots, raw MST traces, statistical source data, plasmid maps, validation of antibody specificity, and full experimental replicates are not visible in the text provided. The manuscript states that figures are available but they are not included in this submission.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting mechanism linking fortilin to MEF2C stabilization and CTNNA3 transcription. The core claim that fortilin binds MEF2C and protects it from proteasomal degradation is supported by multiple complementary approaches. However, several technical concerns and missing controls weaken the strength of the conclusions, particularly regarding the phosphorylation mechanism and the physiological relevance of the findings. The study is largely descriptive and would benefit from additional mechanistic depth and in vivo validation.
+- **Who would be interested in the results, and why** Researchers studying cardiac biology, particularly those interested in cardiomyocyte survival pathways, transcriptional regulation in the heart, and protein-protein interactions that modulate transcription factor stability. The fortilin-MEF2C-CTNNA3 axis may also be of interest to scientists studying catenin family proteins and their roles in cell structure and survival.
+- **Major strengths** 1) The study addresses a clear gap in knowledge regarding how fortilin regulates CTNNA3 at the transcriptional level. 2) The combination of biochemical, cellular, and computational approaches provides multiple lines of evidence for the fortilin-MEF2C interaction. 3) The use of a fortilin point mutant (D25A) to demonstrate binding-dependent effects is a thoughtful experimental design. 4) The inclusion of both forward and reverse co-IP experiments strengthens the interaction data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that fortilin promotes MEF2C phosphorylation at Ser59 in a binding-dependent manner, and that this phosphorylation is essential for MEF2C transcriptional activity.
+  - **Evidence pointer** Fig. 4A-J, Fig. S4
+  - **Concern** The phosphorylation data rely heavily on a single phospho-specific antibody (anti-phospho-Ser59-MEF2C) and Pro-Q Diamond staining. The specificity of the phospho-Ser59 antibody is not validated with peptide competition or phospho-null/phospho-mimetic mutants. Additionally, the Pro-Q Diamond staining shown in Fig. 4A-B appears to lack appropriate phospho-protein standards within the same gel to confirm staining specificity. The claim that fortilin promotes phosphorylation "in a binding-dependent manner" is based on the D25A mutant, but the data in Fig. 4H-J show only approximately 40% reduction in phosphorylation index, which may not fully support the strength of the claim.
+  - **Why it matters** The phosphorylation mechanism is a central pillar of the proposed model. If the phospho-Ser59 antibody cross-reacts with other phosphorylated residues or the phosphorylation changes are not directly attributable to fortilin binding, the mechanistic model would be substantially weakened.
+  - **Resolution test** The authors should validate the phospho-Ser59 antibody using peptide competition assays and/or MEF2C mutants (S59A, S59D). They should also include phospho-protein standards in the Pro-Q Diamond gels and provide quantification from at least three independent biological replicates with appropriate statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that fortilin protects MEF2C from ubiquitin-proteasome-mediated degradation in a binding-dependent manner.
+  - **Evidence pointer** Fig. 3A-H, Fig. S3
+  - **Concern** The degradation assays use cycloheximide chase experiments with detection by the JESS capillary system. While this is a valid approach, the manuscript does not report the half-life calculations or provide statistical comparisons of degradation rates between conditions. The ubiquitination assay (Fig. 3E-F) shows increased ubiquitination in KO cells, but the ubiquitination index calculation is not clearly described, and the authors do not distinguish between polyubiquitination (which targets for degradation) and monoubiquitination or other ubiquitin linkages. The claim that the D25A mutant fails to protect MEF2C from degradation is based on a single time point (12 h) in Fig. 3G-H.
+  - **Why it matters** The stabilization of MEF2C by fortilin is a key mechanistic claim. Without rigorous quantification of degradation kinetics and characterization of the ubiquitin linkage type, the conclusion that fortilin specifically protects against proteasomal degradation is not fully established.
+  - **Resolution test** The authors should provide degradation curves with multiple time points, calculate half-lives, and perform statistical comparisons. They should also characterize the ubiquitin linkage using linkage-specific antibodies or ubiquitin mutants. Additional time points for the D25A rescue experiment would strengthen the conclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the fortilin-MEF2C-CTNNA3 axis sustains myocardial structural integrity, implying physiological relevance.
+  - **Evidence pointer** Discussion section, Fig. 6
+  - **Concern** The physiological relevance of the proposed mechanism is not experimentally addressed. All experiments are performed in cultured cell lines (THP1, 293T, HEK293T). No experiments in cardiomyocytes, cardiac tissue, or animal models are presented. The connection to myocardial structural integrity is purely speculative based on the known functions of CTNNA3.
+  - **Why it matters** The title and discussion imply a role in myocardial integrity, but the data do not support this claim. Overstating the physiological significance without experimental evidence weakens the manuscript's impact.
+  - **Resolution test** The authors should either temper the claims about myocardial structural integrity or provide at least preliminary evidence in a relevant cardiac cell model or in vivo system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that fortilin specifically binds MEF2C but not MEF2A, MEF2B, or MEF2D, based on MST and co-IP experiments.
+  - **Evidence pointer** Fig. 1B-E, Fig. 1F-I
+  - **Concern** The MST data show a Kd of 50.17 ± 0.11 nM for fortilin-MEF2C, but the authors do not report MST data for the other MEF2 isoforms in the text. The co-IP experiments in Fig. 1F-I show that MEF2A, MEF2B, and MEF2D do not co-immunoprecipitate with fortilin, but the input levels of these isoforms are not clearly described. The specificity claim would be strengthened by showing comparable expression levels of all MEF2 isoforms in the input.
+  - **Why it matters** The specificity of fortilin for MEF2C over other MEF2 family members is a key claim that distinguishes this interaction from potential broader MEF2 regulation. If the other isoforms are not expressed at comparable levels, the specificity conclusion may be premature.
+  - **Resolution test** The authors should provide MST data for all four MEF2 isoforms and show input levels for the co-IP experiments to demonstrate comparable expression.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that computational docking and molecular dynamics simulations support a stable fortilin-MEF2C interaction involving specific residues including Asp25 of fortilin.
+  - **Evidence pointer** Fig. 2D-G
+  - **Concern** The computational results are presented as supporting evidence, but the methods for the docking and MD simulations are described only briefly. The HADDOCK scores are reported as negative values (e.g., -55.60 ± 6.50 for MEF2C), which is unusual as HADDOCK scores are typically reported as positive values where lower is better. The MD simulation parameters and convergence criteria are not described in sufficient detail. The functional validation of the docking model relies on a single point mutant (D25A).
+  - **Why it matters** Computational predictions are only as reliable as their experimental validation. The unusual reporting of HADDOCK scores and the limited description of MD methods make it difficult to assess the quality of the computational work.
+  - **Resolution test** The authors should clarify the HADDOCK score reporting, provide more detailed methods for the MD simulations, and ideally validate the docking model with additional point mutations or biochemical binding assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses specialized terminology without sufficient context for a general reader. The sentence "Fortilin, a 172 amino acid modulator protein that positively regulates survival and growth pathways, is one of the most abundantly expressed proteins in the heart" could be simplified.
+  - **Required correction** Consider restructuring the abstract to provide more context for non-specialists, perhaps by briefly explaining the role of MEF2C and CTNNA3 in cardiac biology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Fig. 1A
+  - **Evidence pointer** Fig. 1A
+  - **Issue** The RT-qPCR data in Fig. 1A show approximately 60% reduction in CTNNA3 mRNA in KO cells, but the statistical test used is not specified in the figure legend.
+  - **Required correction** Specify the statistical test used and report exact p-values in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Fig. 3E-F
+  - **Evidence pointer** Fig. 3E-F
+  - **Issue** The ubiquitination assay shows a smear of high-molecular-weight species, which is typical for polyubiquitinated proteins, but the authors do not confirm that the observed ubiquitination is K48-linked (canonical proteasomal targeting).
+  - **Required correction** Consider using linkage-specific ubiquitin antibodies or performing a ubiquitin mutant analysis to confirm K48-linked polyubiquitination.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Fig. 5G-H
+  - **Evidence pointer** Fig. 5G-H
+  - **Issue** The ChIP-qPCR data show TBP and Pol II occupancy at the CTNNA3 locus, but the authors do not report the primer efficiency or demonstrate that the signal is specific to the CTNNA3 promoter region.
+  - **Required correction** Provide primer efficiency data and consider including a negative control region (e.g., a gene desert or an untranscribed region) to demonstrate specificity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion is somewhat repetitive and could be more focused. The comparison of fortilin's effects on different MEF2 family members is interesting but could be more concise.
+  - **Required correction** Consider condensing the discussion and focusing on the most important implications of the findings.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental procedures
+  - **Evidence pointer** Experimental procedures
+  - **Issue** The MST experiments are described briefly, and the labeling efficiency of the fluorescent dye is not reported.
+  - **Required correction** Provide details on the labeling efficiency and the MST instrument settings used.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Fig. 2H
+  - **Evidence pointer** Fig. 2H
+  - **Issue** The co-IP experiment with the D25A mutant shows reduced binding, but the quantification of this reduction is not provided.
+  - **Required correction** Provide quantification of the co-IP results from at least three independent experiments.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure legends
+  - **Issue** The figure legends are extremely long and contain excessive detail that could be moved to the methods section.
+  - **Required correction** Consider shortening the figure legends and moving detailed experimental descriptions to the methods section.
+
+## Risk / unsupported claims
+- The claim that fortilin "drives transcription of the cell structural and survival protein CTNNA3" is supported by the data, but the title's implication of a direct driving role may be overstated given that the effect is mediated through MEF2C.
+- The claim that the fortilin-MEF2C-CTNNA3 axis "sustains myocardial structural integrity" is not experimentally supported and is speculative.
+- The claim that fortilin promotes MEF2C phosphorylation at Ser59 "in a binding-dependent manner" is only partially supported, as the D25A mutant shows only a 40% reduction in phosphorylation index.
+- The specificity of fortilin for MEF2C over other MEF2 isoforms is not fully established due to potential differences in expression levels in the co-IP experiments.
+- The computational docking results are presented as supporting evidence, but the unusual reporting of HADDOCK scores and limited methodological detail make the results difficult to fully evaluate.

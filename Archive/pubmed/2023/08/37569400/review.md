@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence presented in the manuscript. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors present DeepSATA, a deep learning-based sequence analyzer that incorporates transcription factor binding affinity into a three-dimensional input representation, for cross-species prediction of chromatin accessibility. They claim improved prediction accuracy over DeepSEA and Baset across five species, reliable cross-species predictions, effective prioritization of non-coding variants associated with pig economic traits, and improved genomic prediction accuracy when using DeepSATA-identified regulatory SNPs.
+- **Visible evidence base** Results sections 2.1–2.6, Tables 1–3, Supplementary Tables S1–S11 (referenced but not provided), Figures 1–6 (referenced but not provided), Materials and Methods sections 4.1–4.7.
+- **Missing materials affecting confidence** Figures 1–6, Supplementary Tables S1–S11, and all supplementary data files are referenced but not provided. This limits verification of quantitative results, statistical analyses, and methodological details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in non-coding variant interpretation, particularly for species with limited epigenomic data. The core idea of incorporating TF binding affinity as an additional input dimension is conceptually interesting. However, the evidence presented is insufficient to fully support the claims of improved performance and biological utility. Key methodological details are missing, statistical rigor is unclear, and the comparison with existing tools may be confounded by differences in training data and architecture. The cross-species prediction results are promising but require stronger validation. The manuscript would benefit from clearer reporting of model training, evaluation protocols, and statistical tests.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and livestock genetics would be interested. The tool addresses a practical need for annotating non-coding variants in non-model species, and the cross-species prediction approach could be valuable for species with scarce epigenomic data. The application to pig breeding traits may also interest the animal genetics community.
+- **Major strengths** The problem is well-motivated and practically relevant. The idea of incorporating TF binding affinity into a deep learning model is a reasonable and potentially useful extension. The authors evaluate across multiple species and tissues, and include a downstream application to genomic prediction, which adds practical value. The discussion of factors affecting model performance (e.g., bin number, coverage, TF ratio) is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepSATA consistently outperforms DeepSEA and Baset in AUC across all species and chromatin features.
+  - **Evidence pointer** Section 2.2, Figure 2, Supplementary Table S3
+  - **Concern** The comparison may be confounded by differences in training data, model architecture, and hyperparameters. It is unclear whether the performance gains are due to the TF binding affinity input or to other differences in model design or training procedure. The authors do not report whether DeepSEA and Baset were retrained on the same data with the same protocol, or whether pre-trained models were used. Without a controlled comparison, the claimed superiority is not established.
+  - **Why it matters** The central claim of the manuscript is that the TF binding affinity incorporation improves prediction. If the comparison is not controlled, the improvement cannot be attributed to the proposed innovation.
+  - **Resolution test** Provide a controlled comparison where DeepSEA and Baset are trained and evaluated on the same data splits, with the same preprocessing and hyperparameter tuning protocol. Report performance differences with confidence intervals and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepSATA achieves reliable cross-species predictions.
+  - **Evidence pointer** Section 2.3, Figure 3, Supplementary Table S4
+  - **Concern** The cross-species evaluation uses a model trained on mice to predict chromatin accessibility in pigs, cattle, and chickens. However, the choice of the mice model is based on its highest same-species performance, which may introduce selection bias. The authors do not report whether the cross-species predictions are statistically better than a null model or a model trained on a different source species. The claim of "reliable" is not quantified with confidence intervals or error bars.
+  - **Why it matters** Cross-species prediction is a key contribution. Without rigorous evaluation, the reliability claim is unsupported.
+  - **Resolution test** Report cross-species prediction performance with confidence intervals, compare against a null model (e.g., random predictions), and test sensitivity to the choice of source species.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DeepSATA-identified regulatory SNPs improve genomic prediction accuracy.
+  - **Evidence pointer** Section 2.6, Figure 6, Supplementary Table S6
+  - **Concern** The genomic prediction analysis uses a subset of SNPs selected by DeepSATA or DeepSEA, but the selection procedure is not fully described. It is unclear how the threshold for "significant impact on open chromatin" was chosen, and whether the comparison with array SNPs is fair given differences in SNP number and genomic distribution. The improvement in PCC (0.417 vs. 0.402) is small and no statistical significance is reported.
+  - **Why it matters** The claim of improved genomic prediction is a key practical application. Without proper statistical testing and a clear description of the SNP selection procedure, the improvement may be due to chance or confounding factors.
+  - **Resolution test** Describe the SNP selection procedure in detail, report the number of SNPs used in each set, and provide statistical significance tests for the difference in PCC values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that DeepSATA is a usable tool with a defined training and evaluation protocol.
+  - **Evidence pointer** Section 4.2, Section 4.3
+  - **Concern** The Materials and Methods section lacks critical details for reproducibility. The model architecture is described only at a high level (three convolutional layers with 320, 480, and 960 kernels), but no information is provided on kernel sizes, strides, padding, batch size, number of epochs, optimization algorithm, loss function, or data augmentation. The selection of N=10 TFs is stated but the ranking procedure is not fully specified. The training/validation/test split is described only as chromosome-based, but the exact chromosomes used for validation and testing are not stated.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without these details, other researchers cannot implement or validate the method.
+  - **Resolution test** Provide a complete description of the model architecture, training hyperparameters, and data splits. Consider releasing code and trained models.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the TF binding affinity incorporation is a novel and valuable contribution.
+  - **Evidence pointer** Section 1, Section 2.1
+  - **Concern** The novelty of the approach is not clearly positioned relative to existing methods. The authors mention DeepSEA and Baset but do not discuss other methods that incorporate TF binding information or motif features into deep learning models. The specific contribution of the TF binding affinity encoding is not isolated and tested in an ablation study.
+  - **Why it matters** The scientific contribution depends on the novelty and demonstrated value of the proposed innovation. Without an ablation study, it is unclear whether the TF binding affinity input is the source of improvement.
+  - **Resolution test** Perform an ablation study where the model is trained with and without the TF binding affinity input, and report the performance difference.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, description of the three-dimensional input encoding
+  - **Evidence pointer** Section 2.1, Figure 1
+  - **Issue** The description of the three-dimensional input matrix is confusing. The text states "each successive two-dimensional layer encodes the binding affinity and location of a specific TF," but the relationship between the layers and the one-hot encoding is not clear. The example in Figure 1 is referenced but not visible.
+  - **Required correction** Clarify the exact structure of the input tensor, including how the one-hot encoding and TF binding affinity layers are concatenated or stacked. Provide a clear schematic or pseudocode.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.2, AUC comparisons
+  - **Evidence pointer** Section 2.2, Figure 2, Supplementary Table S3
+  - **Issue** The manuscript reports average AUC values but does not provide standard deviations, confidence intervals, or statistical tests for the differences between models.
+  - **Required correction** Report variability and statistical significance for all performance comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, threshold selection
+  - **Evidence pointer** Section 2.4, Figure 4C,D
+  - **Issue** The threshold for distinguishing open from closed chromatin is described as "optimal balance between sensitivity and specificity," but the exact criterion (e.g., Youden's J) is not stated.
+  - **Required correction** Specify the exact method used to determine the threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.1, data sources
+  - **Evidence pointer** Section 4.1, Supplementary Table S1
+  - **Issue** The data sources are listed but the number of biological replicates, sequencing depth, and quality control steps are not described.
+  - **Required correction** Provide details on data preprocessing, quality control, and replicate handling.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The phrase "serval limitations" appears to be a typo for "several limitations."
+  - **Required correction** Correct the typo.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (controlled comparison), R1-M2 (cross-species validation), R1-M3 (genomic prediction significance), R1-M4 (reproducibility details).
+- **Assessment against Nature-style criteria**
+  - **Originality** The idea of incorporating TF binding affinity as an additional input dimension is a reasonable extension of existing deep learning approaches for regulatory genomics. However, the novelty is not clearly established relative to prior work that uses motif features or TF binding information. An ablation study is needed to demonstrate the unique contribution.
+  - **Scientific importance** The problem of cross-species prediction of regulatory activity is important, particularly for non-model species. The potential application to livestock breeding adds practical value. However, the importance is tempered by the lack of rigorous validation and the small performance gains reported.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to computational biologists, genomicists, and animal geneticists. The writing is generally accessible, but the methods section requires more detail for reproducibility.
+  - **Technical soundness** The technical approach is plausible, but the evaluation is not sufficiently rigorous. The comparison with existing tools is not controlled, the cross-species validation lacks statistical rigor, and the genomic prediction analysis does not report significance. The model training details are incomplete.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results and methods sections are more technical and would benefit from clearer explanations of the model architecture and evaluation procedures.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims require substantial additional validation and methodological clarity. The authors should address the major concerns, particularly the controlled comparison, cross-species validation, and reproducibility, before the case for DeepSATA's utility is convincing.
+
+## Risk / unsupported claims
+- The claim that DeepSATA consistently outperforms DeepSEA and Baset is not supported without a controlled comparison.
+- The claim of "reliable" cross-species predictions is not supported without confidence intervals and statistical tests.
+- The claim that DeepSATA-identified regulatory SNPs improve genomic prediction accuracy is not supported without significance testing and a clear description of the SNP selection procedure.
+- The claim that the TF binding affinity input is the source of improvement is not supported without an ablation study.
+- The performance of DeepSATA on human data is reported but not discussed in detail, and the relevance of the human results to the cross-species claims is unclear.

@@ -1,0 +1,635 @@
+{
+  "identity": {
+    "pmid": "36640767",
+    "doi": "10.1016/j.neuron.2022.12.026",
+    "title": "Machine learning dissection of human accelerated regions in primate neurodevelopment."
+  },
+  "content": {
+    "abstract": "Using machine learning (ML), we interrogated the function of all human-chimpanzee variants in 2,645 human accelerated regions (HARs), finding 43% of HARs have variants with large opposing effects on chromatin state and 14% on neurodevelopmental enhancer activity. This pattern, consistent with compensatory evolution, was confirmed using massively parallel reporter assays in chimpanzee and human neural progenitor cells. The species-specific enhancer activity of HARs was accurately predicted from the presence and absence of transcription factor footprints in each species. Despite these striking cis effects, activity of a given HAR sequence was nearly identical in human and chimpanzee cells. This suggests that HARs did not evolve to compensate for changes in the trans environment but instead altered their ability to bind factors present in both species. Thus, ML prioritized variants with functional effects on human neurodevelopment and revealed an unexpected reason why HARs may have evolved so rapidly.",
+    "keywords": [
+      "ATAC-seq",
+      "ChIP-seq",
+      "Hi-C",
+      "MPRA",
+      "accelerated regions",
+      "enhancers",
+      "evolution",
+      "gene regulation",
+      "machine learning",
+      "neurodevelopment"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Chromatin",
+      "*Enhancer Elements, Genetic",
+      "Machine Learning",
+      "*Pan troglodytes/metabolism",
+      "Transcription Factors/genetics",
+      "*Brain/growth & development"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Whalen, Sean",
+        "Inoue, Fumitaka",
+        "Ryu, Hane",
+        "Fair, Tyler",
+        "Markenscoff-Papadimitriou, Eirene",
+        "Keough, Kathleen",
+        "Kircher, Martin",
+        "Martin, Beth",
+        "Alvarado, Beatriz",
+        "Elor, Orry",
+        "Laboy Cintron, Dianne",
+        "Williams, Alex",
+        "Hassan Samee, Md Abul",
+        "Thomas, Sean",
+        "Krencik, Robert",
+        "Ullian, Erik M",
+        "Kriegstein, Arnold",
+        "Rubenstein, John L",
+        "Shendure, Jay",
+        "Pollen, Alex A",
+        "Ahituv, Nadav",
+        "Pollard, Katherine S"
+      ],
+      "short_names": [
+        "Whalen S",
+        "Inoue F",
+        "Ryu H",
+        "Fair T",
+        "Markenscoff-Papadimitriou E",
+        "Keough K",
+        "Kircher M",
+        "Martin B",
+        "Alvarado B",
+        "Elor O",
+        "Laboy Cintron D",
+        "Williams A",
+        "Hassan Samee MA",
+        "Thomas S",
+        "Krencik R",
+        "Ullian EM",
+        "Kriegstein A",
+        "Rubenstein JL",
+        "Shendure J",
+        "Pollen AA",
+        "Ahituv N",
+        "Pollard KS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gladstone Institutes, San Francisco, CA 94158, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA; Pharmaceutical Sciences and Pharmacogenomics Graduate Program, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA; Department of Neurology, University of California, San Francisco, San Francisco, CA 94158, USA.",
+        "Department of Psychiatry, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA 94158, USA; Pharmaceutical Sciences and Pharmacogenomics Graduate Program, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Berlin Institute of Health at Charite - Universitatsmedizin Berlin, 10117 Berlin, Germany; Institute of Human Genetics, University Medical Center Schleswig-Holstein, University of Lubeck, 23562 Lubeck, Germany.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA.",
+        "Gladstone Institutes, San Francisco, CA 94158, USA.",
+        "Gladstone Institutes, San Francisco, CA 94158, USA.",
+        "Gladstone Institutes, San Francisco, CA 94158, USA.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX, USA.",
+        "Departments of Ophthalmology and Physiology, University of California, San Francisco, San Francisco, CA, USA; Kavli Institute for Fundamental Neuroscience, University of California, San Francisco, San Francisco, CA, USA.",
+        "Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA; Department of Neurology, University of California, San Francisco, San Francisco, CA 94158, USA.",
+        "Department of Psychiatry, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA.",
+        "Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA; Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA; Department of Neurology, University of California, San Francisco, San Francisco, CA 94158, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA. Electronic address: nadav.ahituv@ucsf.edu.",
+        "Gladstone Institutes, San Francisco, CA 94158, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA; Department of Epidemiology and Biostatistics and Institute for Computational Health Sciences, University of California, San Francisco, San Francisco, CA, USA; Chan-Zuckerberg Biohub, San Francisco, CA, USA. Electronic address: katherine.pollard@gladstone.ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Whalen, Sean",
+        "short_name": "Whalen S",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Inoue, Fumitaka",
+        "short_name": "Inoue F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ryu, Hane",
+        "short_name": "Ryu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA; Pharmaceutical Sciences and Pharmacogenomics Graduate Program, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fair, Tyler",
+        "short_name": "Fair T",
+        "identifiers": [],
+        "affiliations": [
+          "Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA; Department of Neurology, University of California, San Francisco, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Markenscoff-Papadimitriou, Eirene",
+        "short_name": "Markenscoff-Papadimitriou E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Keough, Kathleen",
+        "short_name": "Keough K",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA 94158, USA; Pharmaceutical Sciences and Pharmacogenomics Graduate Program, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kircher, Martin",
+        "short_name": "Kircher M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Berlin Institute of Health at Charité - Universitätsmedizin Berlin, 10117 Berlin, Germany; Institute of Human Genetics, University Medical Center Schleswig-Holstein, University of Lübeck, 23562 Lübeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Martin, Beth",
+        "short_name": "Martin B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Alvarado, Beatriz",
+        "short_name": "Alvarado B",
+        "identifiers": [],
+        "affiliations": [
+          "Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Elor, Orry",
+        "short_name": "Elor O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Laboy Cintron, Dianne",
+        "short_name": "Laboy Cintron D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Alex",
+        "short_name": "Williams A",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Hassan Samee, Md Abul",
+        "short_name": "Hassan Samee MA",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Sean",
+        "short_name": "Thomas S",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Krencik, Robert",
+        "short_name": "Krencik R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Ullian, Erik M",
+        "short_name": "Ullian EM",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Ophthalmology and Physiology, University of California, San Francisco, San Francisco, CA, USA; Kavli Institute for Fundamental Neuroscience, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kriegstein, Arnold",
+        "short_name": "Kriegstein A",
+        "identifiers": [],
+        "affiliations": [
+          "Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA; Department of Neurology, University of California, San Francisco, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Rubenstein, John L",
+        "short_name": "Rubenstein JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shendure, Jay",
+        "short_name": "Shendure J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Pollen, Alex A",
+        "short_name": "Pollen AA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA; Eli and Edythe Broad Center of Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, CA 94143, USA; Department of Neurology, University of California, San Francisco, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Ahituv, Nadav",
+        "short_name": "Ahituv N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA. Electronic address: nadav.ahituv@ucsf.edu."
+        ]
+      },
+      {
+        "full_name": "Pollard, Katherine S",
+        "short_name": "Pollard KS",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, CA 94158, USA; Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA; Department of Epidemiology and Biostatistics and Institute for Computational Health Sciences, University of California, San Francisco, San Francisco, CA, USA; Chan-Zuckerberg Biohub, San Francisco, CA, USA. Electronic address: katherine.pollard@gladstone.ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuron"
+    ],
+    "journal_abbrev": [
+      "Neuron"
+    ],
+    "pub_date": "2023 Mar 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/15 06:00",
+    "fetched_at": "2026-10-04 21:32:11"
+  },
+  "links": {
+    "cites": [
+      "42686907",
+      "42478603",
+      "42169411",
+      "42119152",
+      "42071237",
+      "42014795",
+      "42014606",
+      "41984952",
+      "41861825",
+      "41610256",
+      "41507769",
+      "41422267",
+      "41318326",
+      "41087375",
+      "41063341",
+      "40802760",
+      "40595532",
+      "40543151",
+      "40404660",
+      "40369080",
+      "40056383",
+      "40011774",
+      "39889695",
+      "39801370",
+      "39631398",
+      "39591813",
+      "39549607",
+      "39423803",
+      "39337329",
+      "39312666",
+      "39302728",
+      "39270593",
+      "39241178",
+      "39217658",
+      "39208805",
+      "39091792",
+      "39019033",
+      "38955465",
+      "38924416",
+      "38898293",
+      "38897852",
+      "38872220",
+      "38715516",
+      "38712228",
+      "38604126",
+      "38559085",
+      "38514807",
+      "38365907",
+      "38352419",
+      "38234800",
+      "38045264",
+      "37938705",
+      "37507490",
+      "37104607",
+      "37104592",
+      "36902467",
+      "36834916",
+      "36824845",
+      "36792753",
+      "36774380",
+      "36737647",
+      "36070559",
+      "35866592"
+    ],
+    "refs": [
+      "36639739",
+      "35817977",
+      "35264797",
+      "35027568",
+      "34751401",
+      "34662402",
+      "34608324",
+      "34478631",
+      "34017130",
+      "34002096",
+      "33885362",
+      "33850016",
+      "33372131",
+      "33177664",
+      "33057195",
+      "32998764",
+      "32819422",
+      "32814038",
+      "32610082",
+      "32385526",
+      "32268104",
+      "31949148",
+      "31835028",
+      "31631012",
+      "31619793",
+      "31367015",
+      "31066453",
+      "30818990",
+      "30735633",
+      "30617256",
+      "30545857",
+      "30478444",
+      "30353506",
+      "30013180",
+      "29700475",
+      "29120462",
+      "28969617",
+      "28969442",
+      "28966121",
+      "28761083",
+      "28540026",
+      "28475861",
+      "28111201",
+      "27940260",
+      "27831498",
+      "27760116",
+      "27667684",
+      "27467249",
+      "27452274",
+      "27043002",
+      "26432245",
+      "26392547",
+      "26072433",
+      "25751142",
+      "25723102",
+      "25710529",
+      "25702574",
+      "25605792",
+      "25156517",
+      "25086003",
+      "25035418",
+      "24967590",
+      "24509632",
+      "24218637",
+      "24097267",
+      "23715323",
+      "23591430",
+      "23558742",
+      "23408798",
+      "23193063",
+      "22955989",
+      "22237537",
+      "22075116",
+      "21993624",
+      "21177690",
+      "20494938",
+      "19801965",
+      "18772437",
+      "17701901",
+      "17151600",
+      "17130149",
+      "17086198",
+      "17082449",
+      "17040131",
+      "16915236",
+      "16035403",
+      "10719140",
+      "9468348"
+    ],
+    "similar": [
+      "36640767",
+      "33372131",
+      "34478631",
+      "39091792",
+      "39889695",
+      "36070559",
+      "37104607",
+      "40011774",
+      "40369080",
+      "40802760",
+      "38924416",
+      "24218637",
+      "41357990",
+      "31631012",
+      "36835010",
+      "27667684",
+      "23512712",
+      "38358392",
+      "35623238",
+      "22371084",
+      "38271204",
+      "31228310",
+      "31493975",
+      "35410163",
+      "31106481",
+      "32610082",
+      "35887306",
+      "35866592",
+      "33044128",
+      "41247408",
+      "31359064",
+      "32819422",
+      "38365907",
+      "35435921",
+      "34605404",
+      "35027568",
+      "39241178",
+      "35858748",
+      "39716078",
+      "41185025",
+      "34898596",
+      "36030022",
+      "37600946",
+      "25702574",
+      "38604126",
+      "32689977",
+      "40404660",
+      "26072433",
+      "39005466",
+      "40543151",
+      "37833414",
+      "30033119",
+      "29608722",
+      "28120510",
+      "38645099",
+      "30375457",
+      "31799619",
+      "38781390",
+      "23019145",
+      "38712228",
+      "39778579",
+      "37071996",
+      "31503413",
+      "30286077",
+      "28973438",
+      "36705030",
+      "40189474",
+      "34874265",
+      "18772437",
+      "27831498",
+      "38870532",
+      "24496624",
+      "29335803",
+      "22537144",
+      "37387536",
+      "39127768",
+      "33516170",
+      "40551231",
+      "39019033",
+      "36872184",
+      "26807951",
+      "40403730",
+      "31693674",
+      "37312570",
+      "33509077",
+      "32431014",
+      "25679813",
+      "37645832",
+      "32548603",
+      "34666684",
+      "39535534",
+      "40205616",
+      "37557175",
+      "32142172",
+      "41571655",
+      "32029002",
+      "22412940",
+      "35173300",
+      "36711646",
+      "30962180"
+    ],
+    "review": [
+      "36640767",
+      "36070559",
+      "36835010",
+      "26072433",
+      "40543151",
+      "36872184",
+      "37312570"
+    ],
+    "pmc": [
+      "10023452"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://ccr.coriell.org/Sections/Search/PubSamples.aspx?PgId=516&id=36640767&lvl=0",
+        "provider": "Coriell Cell Repositories",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0896-6273(22)01123-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36640767/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36640767",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-679",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt45j3b4vn",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

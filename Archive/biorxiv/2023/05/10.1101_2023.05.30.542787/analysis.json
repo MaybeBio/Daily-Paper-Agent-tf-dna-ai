@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.30.542787",
+  "title": "ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction",
+  "authors": "Yi-Heng Zhu; Dong-Jun Yu",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-30",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出ULDNA方法，利用多源无监督语言模型与LSTM-注意力网络从序列预测蛋白-DNA结合位点，核心聚焦蛋白质-DNA互作位点预测，方法为深度学习，虽非TF-DNA特异体系但高度相关。",
+  "abstract": "Accurate identification of protein-DNA interactions is critical to understand the molecular mechanisms of proteins and design new drugs. We proposed a novel deeplearning method, ULDNA, to predict DNA-binding sites from protein sequences through a LSTM-attention architecture embedded with three unsupervised language models pretrained in multiple large-scale sequence databases. The method was systematically tested on 1287 proteins with DNA-binding site annotation from Protein Data Bank. Experimental results showed that ULDNA achieved a significant increase of the DNA-binding site prediction accuracy compared to the state-of-the-art approaches. Detailed data analyses showed that the major advantage of ULDNA lies in the utilization of three pre-trained transformer language models which can extract the complementary DNA-binding patterns buried in evolution diversity-based feature embeddings in residue-level. Meanwhile, the designed LSTM-attention network could further enhance the correlation between evolution diversity and protein-DNA interaction. These results demonstrated a new avenue for high-accuracy deep-learning DNA-binding site prediction that is applicable to large-scale protein-DNA binding annotation from sequence alone.",
+  "abstract_zh": "准确识别蛋白质-DNA相互作用对于理解蛋白质的分子机制和设计新药至关重要。我们提出了一种新颖的深度学习方法ULDNA，通过嵌入三个在多个大规模序列数据库中预训练的无监督语言模型的LSTM-注意力架构，从蛋白质序列预测DNA结合位点。该方法在来自蛋白质数据银行（Protein Data Bank）的1287个具有DNA结合位点注释的蛋白质上进行了系统测试。实验结果表明，与最先进的方法相比，ULDNA在DNA结合位点预测准确性上实现了显著提升。详细数据分析显示，ULDNA的主要优势在于利用三个预训练的Transformer语言模型，这些模型能够提取残基水平上基于进化多样性特征嵌入中隐藏的互补DNA结合模式。同时，设计的LSTM-注意力网络进一步增强了进化多样性与蛋白质-DNA相互作用之间的关联。这些结果展示了高精度深度学习DNA结合位点预测的新途径，该方法仅从序列即可适用于大规模蛋白质-DNA结合注释。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.30.542787",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.30.542787",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.30.542787/index.html"
+}

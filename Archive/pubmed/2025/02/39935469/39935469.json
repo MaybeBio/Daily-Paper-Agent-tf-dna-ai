@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "39935469",
+    "doi": "10.3389/fimmu.2025.1517646",
+    "title": "Identification of WDR74 and TNFRSF12A as biomarkers for early osteoarthritis using machine learning and immunohistochemistry."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is a chronic joint condition that causes pain, limited mobility, and reduced quality of life, posing a threat to healthy aging. Early detection is crucial for improving prognosis. Recent research has focused on the role of ubiquitination-related genes (URGs) in early OA prediction. This study aims to integrate URG expression data with machine learning (ML) to identify biomarkers that improve diagnosis and prognosis in the early stages of OA. METHODS: OA single-cell RNA sequencing datasets were collected from the GEO database. Single-cell analysis was performed to investigate the composition and relationships of chondrocytes in OA. The potential intercellular communication mechanisms were explored using the CellChat R package. URGs were retrieved from GeneCards, and ubiquitination scores were calculated using the AUCell package. Gene module analysis based on co-expression network analysis was conducted to identify core genes. Additionally, ML analysis was performed to identify core URGs and construct a diagnostic model. We employed XGBoost, a gradient-boosting ML algorithm, to identify core URGs and construct a diagnostic model. The model's performance was evaluated using the area under the curve (AUC) of the receiver operating characteristic (ROC) curve. In addition, we explored the relationship between core URGs and immune processes. The ChEA3 database was utilized to predict the transcription factors regulated by core ubiquitination-related genes. The expression of select URGs was validated using qRT-PCR and immunohistochemistry (IHC). RESULTS: We identified WDR74 and TNFRSF12A as pivotal ubiquitination-related genes associated with OA, exhibiting considerable differential expression. The diagnostic model constructed with URGs exhibited remarkable accuracy, with area under the curve (AUC) values consistently exceeding 0.9. The expression levels of WDR74 and TNFRSF12A were significantly higher in the IL-1beta-induced group in an in vitro qPCR experiment. The IHC validation on human knee joint specimens confirmed the upregulation of WDR74 and TNFRSF12A in OA tissues, corroborating their potential as diagnostic biomarkers. CONCLUSIONS: WDR74 and TNFRSF12A as principal biomarkers highlighted their attractiveness as therapeutic targets. The identification of core biomarkers might facilitate early intervention options, potentially modifying the illness trajectory and enhancing patient outcomes.",
+    "keywords": [
+      "diagnosis",
+      "machine learning",
+      "osteoarthritis",
+      "single-cell RNA sequencing",
+      "ubiquitination"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "*Osteoarthritis/diagnosis/metabolism/genetics",
+      "Immunohistochemistry",
+      "*TNF Receptor-Associated Factor 2/metabolism/genetics",
+      "Chondrocytes/metabolism",
+      "Female",
+      "Ubiquitination"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yiwei",
+        "Lin, Jiali",
+        "Shi, Detong",
+        "Miao, Yu",
+        "Xue, Feng",
+        "Liu, Kexin",
+        "Wang, Xiaotao",
+        "Zhang, Changqing"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Lin J",
+        "Shi D",
+        "Miao Y",
+        "Xue F",
+        "Liu K",
+        "Wang X",
+        "Zhang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China.",
+        "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China.",
+        "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China.",
+        "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yiwei",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jiali",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Detong",
+        "short_name": "Shi D",
+        "identifiers": [],
+        "affiliations": [
+          "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Yu",
+        "short_name": "Miao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Feng",
+        "short_name": "Xue F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Kexin",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaotao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Obstetrics and Gynecology Hospital, Institute of Reproduction and Development, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Changqing",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Institute of Microsurgery on Extremities, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/12 06:21",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42688319",
+      "42461218",
+      "42434722",
+      "42367783",
+      "42344274",
+      "42103860",
+      "41930700",
+      "41209382"
+    ],
+    "refs": [
+      "39432678",
+      "39167845",
+      "38816888",
+      "38583240",
+      "37359559",
+      "36828839",
+      "36737426",
+      "36354073",
+      "36261249",
+      "36127328",
+      "36121967",
+      "36063025",
+      "35873013",
+      "35733354",
+      "35716253",
+      "35364311",
+      "34553072",
+      "34534661",
+      "34518686",
+      "34465902",
+      "34353698",
+      "34284715",
+      "34013375",
+      "33560326",
+      "33383189",
+      "33242603",
+      "33208917",
+      "33159851",
+      "33122845",
+      "33036932",
+      "32409323",
+      "31249675",
+      "31203465",
+      "31061532",
+      "31034380",
+      "30976107",
+      "30705282",
+      "30467459",
+      "28928488",
+      "28416111",
+      "28232144",
+      "28124466",
+      "27939622",
+      "27734845",
+      "27539668",
+      "26528972",
+      "26195338",
+      "25948244",
+      "25916966",
+      "25452156",
+      "25266449",
+      "23689231",
+      "23641259",
+      "21435232"
+    ],
+    "similar": [
+      "39935469",
+      "38645862",
+      "39695788",
+      "40216809",
+      "38997894",
+      "39779817",
+      "38767974",
+      "37503333",
+      "37378023",
+      "37723556",
+      "39640258",
+      "37454542",
+      "39418100",
+      "39268080",
+      "38428406",
+      "39849508",
+      "36929359",
+      "39469643",
+      "40022676",
+      "39484639",
+      "39148085",
+      "40247403",
+      "39026663",
+      "39676743",
+      "39086489",
+      "37138862",
+      "38637111",
+      "37986345",
+      "35733917",
+      "39282111",
+      "38175691",
+      "38293780",
+      "33747150",
+      "40164659",
+      "39733138",
+      "39799234",
+      "39697326",
+      "37866944",
+      "40097519",
+      "39176085",
+      "39512836",
+      "40260566",
+      "38423139",
+      "33914773",
+      "39938337",
+      "38313020",
+      "40060994",
+      "36685513",
+      "38292759",
+      "39639239",
+      "37805587",
+      "37594094",
+      "39173977",
+      "36641761",
+      "39612274",
+      "36359826",
+      "38505924",
+      "38720455",
+      "39839184",
+      "35783271",
+      "39585570",
+      "37803031",
+      "39509434",
+      "38509535",
+      "32571421",
+      "39224598",
+      "36123926",
+      "34113405",
+      "29255496",
+      "35651940",
+      "39975557",
+      "38098472",
+      "32415284",
+      "39438957",
+      "29247798",
+      "39432678",
+      "39649418",
+      "36999051",
+      "39157341",
+      "40254557",
+      "40287984",
+      "38918843",
+      "37035017",
+      "39965388",
+      "38741149",
+      "39754246",
+      "36685836",
+      "40273141",
+      "39139563",
+      "33782454",
+      "35967352",
+      "39616855",
+      "38370978",
+      "37809099",
+      "40034747",
+      "31712854",
+      "27118120",
+      "40089565",
+      "38333254",
+      "40276515"
+    ],
+    "review": [
+      "39935469"
+    ],
+    "pmc": [
+      "11810735"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39935469/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1517646",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

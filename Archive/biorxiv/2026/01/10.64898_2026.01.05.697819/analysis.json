@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.05.697819",
+  "title": "Protein Language Models and Structure-Based Machine Learning for Prediction of Allosteric Binding Sites in Protein Kinases: An Explainable AI Framework Grounded in Energy Landscape-Encoded Frustration",
+  "authors": "Kamila Riedlová; Vít Škrhák; Will Gatlin; Max Ludwick; Lucas Turano; Marian Novotný; David Hoksza; Gennady M. Verkhivker",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-06",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用蛋白语言模型预测激酶别构位点，虽涉及蛋白-配体结合位点预测，但对象为激酶-配体而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法可部分借鉴。",
+  "abstract": "Reliable identification of allosteric binding sites remains a major bottleneck in structure-based drug discovery, particularly in protein kinase families where such sites are often structurally cryptic, evolutionarily non-conserved, and sparsely populated. In this work, we present a systematic analysis of binding site prediction across a rigorously curated dataset of human kinase–ligand complexes, encompassing 453 kinases and spanning five inhibitor classes: Type I, Type I.5, and Type II (orthosteric ATP-competitive) and Type III/IV (non-ATP allosteric) modulators. We employed the pretrained protein language model (PLM) ESM2-650M model that was fine-tuned for prediction of protein-ligand binding sites by replacing the original masked language modeling head with a token-level classification head that acts as a projection layer that maps the high-dimensional latent representation of each residue to a scalar probability score for a given protein residue to be part of the binding site. We employed this fine-tuned sequence-based PLM and structure-based detection approach P2Rank for identification of orthosteric and allosteric binding sites in protein kinases. Our analysis reveals a stark performance divergence: while both methods achieve high precision-recall (AUPR = 0.64-0.76) on orthosteric sites, PLM performance collapses on allosteric sites (AUPR = 0.06), despite retaining moderate ranking ability (AUROC = 0.70). This deficit persists even after strict control for sequence similarity, structural redundancy, and extreme class imbalance (allosteric residues constitute <3% of the kinase domain). To mechanistically interpret this discrepancy, we integrate large-scale local frustration analysis, a physics-based framework derived from energy landscape theory that quantifies the energetic stability of residue-residue interactions under mutational and conformational perturbations. We find that, although the global frustration landscape is conserved across kinase states dominated by neutral frustration (55-75% of residues), local binding sites exhibit fundamentally distinct mutational constraints. Orthosteric pockets are enriched in minimally frustrated residues, whereas allosteric sites are characterized by neutral mutational frustration, indicating evolutionary permissiveness and sequence degeneracy. This study reframes the performance of AI approaches in predicting protein binding sites as a reflection of functional design that can be rationalized through lens of the landscape-encoded protein frustration as an explainable AI framework.",
+  "abstract_zh": "在基于结构的药物发现中，变构结合位点的可靠识别仍是一个主要瓶颈，尤其是在蛋白激酶家族中，这些位点通常在结构上隐蔽、进化上不保守且分布稀疏。在本研究中，我们对一个严格筛选的人类激酶-配体复合物数据集进行了结合位点预测的系统分析，该数据集涵盖453种激酶，并跨越五类抑制剂：I型、I.5型和II型（正构ATP竞争性）以及III/IV型（非ATP变构）调节剂。我们采用了预训练的蛋白质语言模型（PLM）ESM2-650M模型，该模型通过将原始掩码语言建模头替换为令牌级分类头进行微调，以预测蛋白质-配体结合位点，该分类头作为投影层，将每个残基的高维潜在表示映射为标量概率分数，指示给定蛋白质残基是否属于结合位点。我们使用这种微调后的基于序列的PLM和基于结构的检测方法P2Rank来识别蛋白激酶中的正构和变构结合位点。我们的分析揭示了显著的性能差异：虽然两种方法在正构位点上均达到高精确率-召回率（AUPR = 0.64-0.76），但PLM在变构位点上的性能急剧下降（AUPR = 0.06），尽管保留了中等排序能力（AUROC = 0.70）。即使在严格控制序列相似性、结构冗余和极端类别不平衡（变构残基占激酶结构域<3%）后，这一缺陷仍然存在。为机制性解释这一差异，我们整合了大规模局部挫折分析，这是一种基于能量景观理论的物理框架，用于量化残基-残基相互作用在突变和构象扰动下的能量稳定性。我们发现，尽管全局挫折景观在激酶状态中保守，以中性挫折为主（占残基的55-75%），但局部结合位点表现出根本不同的突变约束。正构口袋富含最小挫折残基，而变构位点则以中性突变挫折为特征，表明进化宽容性和序列简并性。本研究将AI方法在预测蛋白质结合位点中的性能重新定义为功能设计的反映，可通过景观编码的蛋白质挫折作为可解释AI框架的视角进行合理化解释。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697819",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697819",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.05.697819/index.html"
+}

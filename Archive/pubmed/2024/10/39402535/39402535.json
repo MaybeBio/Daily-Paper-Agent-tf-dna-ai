@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "39402535",
+    "doi": "10.1186/s12864-024-10859-1",
+    "title": "Identifying transcription factors with cell-type specific DNA binding signatures."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors (TFs) bind to different parts of the genome in different types of cells, but it is usually assumed that the inherent DNA-binding preferences of a TF are invariant to cell type. Yet, there are several known examples of TFs that switch their DNA-binding preferences in different cell types, and yet more examples of other mechanisms, such as steric hindrance or cooperative binding, that may result in a \"DNA signature\" of differential binding. RESULTS: To survey this phenomenon systematically, we developed a deep learning method we call SigTFB (Signatures of TF Binding) to detect and quantify cell-type specificity in a TF's known genomic binding sites. We used ENCODE ChIP-seq data to conduct a wide scale investigation of 169 distinct TFs in up to 14 distinct cell types. SigTFB detected statistically significant DNA binding signatures in approximately two-thirds of TFs, far more than might have been expected from the relatively sparse evidence in prior literature. We found that the presence or absence of a cell-type specific DNA binding signature is distinct from, and indeed largely uncorrelated to, the degree of overlap between ChIP-seq peaks in different cell types, and tended to arise by two mechanisms: using established motifs in different frequencies, and by selective inclusion of motifs for distint TFs. CONCLUSIONS: While recent results have highlighted cell state features such as chromatin accessibility and gene expression in predicting TF binding, our results emphasize that, for some TFs, the DNA sequences of the binding sites contain substantial cell-type specific motifs.",
+    "keywords": [
+      "Cell-type specificity",
+      "Deep learning",
+      "Differential binding",
+      "Transcription factor binding"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "Humans",
+      "Binding Sites",
+      "*DNA/metabolism",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Protein Binding",
+      "Nucleotide Motifs",
+      "Deep Learning",
+      "Organ Specificity",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Awdeh, Aseel",
+        "Turcotte, Marcel",
+        "Perkins, Theodore J"
+      ],
+      "short_names": [
+        "Awdeh A",
+        "Turcotte M",
+        "Perkins TJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electrical Engineering and Compute Science, University of Ottawa, 800 King Edward Ave., Ottawa, K1N 6N5, Ontario, Canada.",
+        "Regenerative Medicine Program, Ottawa Hospital Research Institute, 501 Smyth Rd., Ottawa, K1H 8L6, Ontario, Canada.",
+        "School of Electrical Engineering and Compute Science, University of Ottawa, 800 King Edward Ave., Ottawa, K1N 6N5, Ontario, Canada.",
+        "School of Electrical Engineering and Compute Science, University of Ottawa, 800 King Edward Ave., Ottawa, K1N 6N5, Ontario, Canada. tperkins@ohri.ca.",
+        "Regenerative Medicine Program, Ottawa Hospital Research Institute, 501 Smyth Rd., Ottawa, K1H 8L6, Ontario, Canada. tperkins@ohri.ca.",
+        "Ottawa Institute of Systems Biology, Department of Biochemistry, Microbiology and Immunology, University of Ottawa, 451 Smyth Rd., Ottawa, K1H 8M5, Ontario, Canada. tperkins@ohri.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Awdeh, Aseel",
+        "short_name": "Awdeh A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Compute Science, University of Ottawa, 800 King Edward Ave., Ottawa, K1N 6N5, Ontario, Canada.",
+          "Regenerative Medicine Program, Ottawa Hospital Research Institute, 501 Smyth Rd., Ottawa, K1H 8L6, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Turcotte, Marcel",
+        "short_name": "Turcotte M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Compute Science, University of Ottawa, 800 King Edward Ave., Ottawa, K1N 6N5, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Perkins, Theodore J",
+        "short_name": "Perkins TJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering and Compute Science, University of Ottawa, 800 King Edward Ave., Ottawa, K1N 6N5, Ontario, Canada. tperkins@ohri.ca.",
+          "Regenerative Medicine Program, Ottawa Hospital Research Institute, 501 Smyth Rd., Ottawa, K1H 8L6, Ontario, Canada. tperkins@ohri.ca.",
+          "Ottawa Institute of Systems Biology, Department of Biochemistry, Microbiology and Immunology, University of Ottawa, 451 Smyth Rd., Ottawa, K1H 8M5, Ontario, Canada. tperkins@ohri.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 Oct 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/15 00:20",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "41937145",
+      "40702706",
+      "40501721",
+      "39895280"
+    ],
+    "refs": [
+      "38733561",
+      "38701417",
+      "38092917",
+      "37723425",
+      "37328639",
+      "36192604",
+      "35858839",
+      "35719916",
+      "35685455",
+      "35263332",
+      "34850907",
+      "34616075",
+      "34616068",
+      "34607350",
+      "34579793",
+      "34272562",
+      "33796819",
+      "33741685",
+      "33712417",
+      "33522898",
+      "32978299",
+      "32574834",
+      "32551184",
+      "32393327",
+      "31974574",
+      "31958521",
+      "31701148",
+      "31639474",
+      "31510655",
+      "31161194",
+      "31036827",
+      "30999923",
+      "30971806",
+      "30922998",
+      "30630522",
+      "30016497",
+      "29140464",
+      "28591841",
+      "27880914",
+      "27197224",
+      "27108804",
+      "27084946",
+      "26213851",
+      "26045254",
+      "25953851",
+      "25179504",
+      "25121490",
+      "24335146",
+      "24076218",
+      "23731550",
+      "23650640",
+      "23498934",
+      "22955990",
+      "22955984",
+      "22955616",
+      "22829947",
+      "22464321",
+      "22260696",
+      "22153082",
+      "22090374",
+      "21938619",
+      "20356413",
+      "19893493",
+      "18006571",
+      "17324271",
+      "16601267",
+      "16381825",
+      "15797194",
+      "14718926",
+      "11547334",
+      "11535600",
+      "11340173",
+      "10592259",
+      "10376527",
+      "8356095"
+    ],
+    "similar": [
+      "39402535",
+      "37805453",
+      "22955984",
+      "38654130",
+      "22955990",
+      "35681170",
+      "26285121",
+      "32825662",
+      "31138617",
+      "28750606",
+      "38987807",
+      "25070602",
+      "20838582",
+      "24564277",
+      "23935523",
+      "37650641",
+      "31372637",
+      "31742324",
+      "31639474",
+      "33372147",
+      "26550823",
+      "19956545",
+      "24927817",
+      "22863112",
+      "38966997",
+      "36484687",
+      "29363433",
+      "31723409",
+      "32574834",
+      "27311443",
+      "26291518",
+      "28334916",
+      "34272562",
+      "27567672",
+      "33975951",
+      "31093693",
+      "26703974",
+      "34174819",
+      "26818008",
+      "22534400",
+      "28240320",
+      "22189060",
+      "25957350",
+      "34465294",
+      "35263332",
+      "23272209",
+      "37873361",
+      "24564528",
+      "28718849",
+      "19158363",
+      "25319995",
+      "25215497",
+      "26160164",
+      "28726847",
+      "30380113",
+      "35971180",
+      "31481462",
+      "28472398",
+      "23805837",
+      "23748563",
+      "32424069",
+      "23847101",
+      "29326300",
+      "37486787",
+      "30709337",
+      "35410161",
+      "25294828",
+      "20870645",
+      "24039567",
+      "20158869",
+      "30517703",
+      "28359978",
+      "31053864",
+      "35042722",
+      "32770026",
+      "28957653",
+      "33603233",
+      "25179504",
+      "34486522",
+      "31653198",
+      "26105820",
+      "26679776",
+      "35293310",
+      "35240993",
+      "31754708",
+      "25129887",
+      "29325176",
+      "32660981",
+      "32960766",
+      "31974574",
+      "28849563",
+      "25927199",
+      "32976105",
+      "28623580",
+      "31053165",
+      "31483104",
+      "29605182",
+      "30957858",
+      "29385521",
+      "28439033"
+    ],
+    "review": [
+      "39402535",
+      "31742324",
+      "31639474",
+      "31093693",
+      "28359978",
+      "26105820"
+    ],
+    "pmc": [
+      "11472444"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10859-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39402535/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

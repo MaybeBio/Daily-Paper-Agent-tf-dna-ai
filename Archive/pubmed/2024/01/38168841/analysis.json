@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38168841",
+  "title": "SilenceREIN: seeking silencers on anchors of chromatin loops by deep graph neural networks.",
+  "authors": "Pan, Jian-Hua; Du, Pu-Feng",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度图神经网络整合染色质环锚点结构信息预测沉默子，虽涉及转录调控和蛋白-DNA互作相关元件，但核心是调控元件识别而非TF-DNA结合机制建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "Silencers are repressive cis-regulatory elements that play crucial roles in transcriptional regulation. Experimental methods for identifying silencers are always costly and time-consuming. Computational methods, which relies on genomic sequence features, have been introduced as alternative approaches. However, silencers do not have significant epigenomic signature. Therefore, we explore a new way to computationally identify silencers, by incorporating chromatin structural information. We propose the SilenceREIN method, which focuses on finding silencers on anchors of chromatin loops. By using graph neural networks, we extracted chromatin structural information from a regulatory element interaction network. SilenceREIN integrated the chromatin structural information with linear genomic signatures to find silencers. The predictive performance of SilenceREIN is comparable or better than other states-of-the-art methods. We performed a genome-wide scanning to systematically find silencers in human genome. Results suggest that silencers are widespread on anchors of chromatin loops. In addition, enrichment analysis of transcription factor binding motif support our prediction results. As far as we can tell, this is the first attempt to incorporate chromatin structural information in finding silencers. All datasets and source codes of SilenceREIN have been deposited in a GitHub repository (https://github.com/JianHPan/SilenceREIN).",
+  "abstract_zh": "沉默子是抑制性的顺式调控元件，在转录调控中发挥关键作用。实验方法识别沉默子通常成本高昂且耗时。计算方法，依赖于基因组序列特征，已被引入作为替代途径。然而，沉默子没有显著的表观基因组特征。因此，我们探索了一种新方法，通过整合染色质结构信息来以计算方式识别沉默子。我们提出了SilenceREIN方法，专注于在染色质环的锚点上寻找沉默子。通过使用图神经网络，我们从调控元件相互作用网络中提取了染色质结构信息。SilenceREIN将染色质结构信息与线性基因组特征相结合，以寻找沉默子。SilenceREIN的预测性能与最先进的方法相当或更优。我们进行了全基因组扫描，系统性地在人类基因组中寻找沉默子。结果表明，沉默子在染色质环的锚点上广泛分布。此外，转录因子结合基序的富集分析支持了我们的预测结果。据我们所知，这是首次尝试将染色质结构信息纳入沉默子识别中。SilenceREIN的所有数据集和源代码已存放在GitHub仓库中（https://github.com/JianHPan/SilenceREIN）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38168841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38168841/",
+  "paper_page_path": "papers/pubmed/38168841/index.html"
+}

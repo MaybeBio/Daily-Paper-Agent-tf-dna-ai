@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "41213461",
+    "doi": "10.1016/j.canlet.2025.218123",
+    "title": "KLF7 as a biomarker for the pre-metastatic state promotes colorectal cancer liver metastasis via TGFbeta autocrine signaling."
+  },
+  "content": {
+    "abstract": "Although metastasis-initiating cells drive metastasis, only a certain subpopulation of these cells can successfully disseminate from the primary tumor to colonize metastatic sites. The identification and characterization of this subpopulation remain poorly studied. We designated this specific subpopulation as pre-metastatic state (PMS) cells. Identifying biomarkers and understanding the mechanisms underlying PMS formation are vital for preventing metastasis. In this research, we employed machine learning and bioinformatics techniques, integrating data from human cell lines, bulk RNA sequencing, single-cell sequencing, and spatial transcriptomics, to pinpoint PMS and classify its subtypes (PMS1 and PMS2). We revealed that PMS1 exhibits high epithelial-mesenchymal transition (EMT) characteristics and is associated with poor prognosis, while PMS2 is associated with tumor stemness. Notably, KLF7 was identified as a key biomarker of PMS, highly expressed in PMS1 and colorectal cancer liver metastasis (CRLM) lesions. Through dual-luciferase reporter assays and both in vitro and in vivo experiments, we demonstrated that KLF7 promotes EMT characteristics in CRC via TGFbeta autocrine signaling, thereby facilitating CRLM. Moreover, it was determined that the small molecule drug epigallocatechin gallate (EGCG) can inhibit the transcriptional activity of KLF7, thereby suppressing the TGFbeta signaling and EMT. This result highlights EGCG as a promising compound for the treatment of colorectal cancer (CRC) with high KLF7 expression. Through this research, we established a systematic framework defining two PMS subtypes and identified KLF7 as a pivotal driver of CRLM through TGFbeta autocrine signaling.",
+    "keywords": [
+      "Metastasis-initiating cells (MICs)",
+      "Molecular mechanism",
+      "Therapeutic drugs",
+      "Transcriptional regulation multi-omics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Liver Neoplasms/secondary/genetics/metabolism",
+      "*Kruppel-Like Transcription Factors/metabolism/genetics",
+      "*Colorectal Neoplasms/pathology/genetics/metabolism",
+      "*Transforming Growth Factor beta/metabolism/genetics",
+      "Epithelial-Mesenchymal Transition",
+      "Animals",
+      "*Biomarkers, Tumor/metabolism/genetics",
+      "Mice",
+      "Autocrine Communication",
+      "Cell Line, Tumor",
+      "Signal Transduction",
+      "Gene Expression Regulation, Neoplastic",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Xiaozhuang",
+        "Huang, Hongyu",
+        "Zhao, Zize",
+        "Yang, Luoxinyi",
+        "Huang, Fan",
+        "Li, Jiayi",
+        "Meng, Ziqi",
+        "He, Shichu",
+        "Li, Tianyou",
+        "Yang, Shaokui",
+        "Suo, Mengying",
+        "Lv, Jianying",
+        "Chen, Yanan",
+        "Zhang, Chunze",
+        "Li, Na"
+      ],
+      "short_names": [
+        "Fang X",
+        "Huang H",
+        "Zhao Z",
+        "Yang L",
+        "Huang F",
+        "Li J",
+        "Meng Z",
+        "He S",
+        "Li T",
+        "Yang S",
+        "Suo M",
+        "Lv J",
+        "Chen Y",
+        "Zhang C",
+        "Li N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China.",
+        "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, PR China. Electronic address: chunze.zhang@nankai.edu.cn.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China. Electronic address: lina08@nankai.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Xiaozhuang",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hongyu",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zize",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Luoxinyi",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fan",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiayi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Meng, Ziqi",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Shichu",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Tianyou",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shaokui",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Suo, Mengying",
+        "short_name": "Suo M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Lv, Jianying",
+        "short_name": "Lv J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yanan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chunze",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, PR China. Electronic address: chunze.zhang@nankai.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Na",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, PR China. Electronic address: lina08@nankai.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer letters"
+    ],
+    "journal_abbrev": [
+      "Cancer Lett"
+    ],
+    "pub_date": "2026 Feb 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/11 00:27",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [
+      "42238893"
+    ],
+    "refs": [],
+    "similar": [
+      "41213461",
+      "29719292",
+      "40804742",
+      "40225580",
+      "38657117",
+      "33408771",
+      "39806334",
+      "39061061",
+      "40505846",
+      "28095858",
+      "39097779",
+      "38916406",
+      "30927925",
+      "36242728",
+      "40928719",
+      "23441134",
+      "31629952",
+      "30898152",
+      "40474298",
+      "33429327",
+      "40412277",
+      "34773477",
+      "31064356",
+      "33537093",
+      "31931030",
+      "28427243",
+      "40784570",
+      "41028408",
+      "32698890",
+      "30662328",
+      "41260514",
+      "33389821",
+      "41017455",
+      "39379686",
+      "25653118",
+      "40134019",
+      "30887697",
+      "31988275",
+      "40574852",
+      "36087740",
+      "41051794",
+      "25252758",
+      "41574400",
+      "39979806",
+      "39987565",
+      "38923313",
+      "38335276",
+      "33875786",
+      "39587482",
+      "38062276",
+      "32127004",
+      "32843066",
+      "25516649",
+      "39620395",
+      "25884904",
+      "39587606",
+      "29794466",
+      "29426364",
+      "41303528",
+      "26320172",
+      "35114275",
+      "34857888",
+      "41115563",
+      "39540351",
+      "21929801",
+      "37147666",
+      "41015146",
+      "34265287",
+      "38816600",
+      "31825725",
+      "28213952",
+      "33607955",
+      "39164758",
+      "26619963",
+      "30541610",
+      "26820227",
+      "41502509",
+      "41335176",
+      "38693428",
+      "38801926",
+      "24755295",
+      "23076549",
+      "33023613",
+      "30365128",
+      "21123622",
+      "29776371",
+      "37898647",
+      "38822625",
+      "40952278",
+      "41342434",
+      "28387757",
+      "27578191",
+      "33153498",
+      "37851521",
+      "32092599",
+      "40389046",
+      "32552762",
+      "34145399",
+      "32281284",
+      "40553883"
+    ],
+    "review": [
+      "41213461"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3835(25)00695-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PMS1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0304-3835(25)00695-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

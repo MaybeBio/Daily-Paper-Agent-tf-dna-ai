@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "36949544",
+    "doi": "10.1186/s13059-023-02885-1",
+    "title": "Evidence for the role of transcription factors in the co-transcriptional regulation of intron retention."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alternative splicing is a widespread regulatory phenomenon that enables a single gene to produce multiple transcripts. Among the different types of alternative splicing, intron retention is one of the least explored despite its high prevalence in both plants and animals. The recent discovery that the majority of splicing is co-transcriptional has led to the finding that chromatin state affects alternative splicing. Therefore, it is plausible that transcription factors can regulate splicing outcomes. RESULTS: We provide evidence for the hypothesis that transcription factors are involved in the regulation of intron retention by studying regions of open chromatin in retained and excised introns. Using deep learning models designed to distinguish between regions of open chromatin in retained introns and non-retained introns, we identified motifs enriched in IR events with significant hits to known human transcription factors. Our model predicts that the majority of transcription factors that affect intron retention come from the zinc finger family. We demonstrate the validity of these predictions using ChIP-seq data for multiple zinc finger transcription factors and find strong over-representation for their peaks in intron retention events. CONCLUSIONS: This work opens up opportunities for further studies that elucidate the mechanisms by which transcription factors affect intron retention and other forms of splicing. AVAILABILITY: Source code available at https://github.com/fahadahaf/chromir.",
+    "keywords": [
+      "Alternative splicing",
+      "Deep learning",
+      "Intron retention"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Introns",
+      "*Transcription Factors/genetics",
+      "*Alternative Splicing",
+      "RNA Splicing",
+      "Chromatin/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ullah, Fahad",
+        "Jabeen, Saira",
+        "Salton, Maayan",
+        "Reddy, Anireddy S N",
+        "Ben-Hur, Asa"
+      ],
+      "short_names": [
+        "Ullah F",
+        "Jabeen S",
+        "Salton M",
+        "Reddy ASN",
+        "Ben-Hur A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8269-6942"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Colorado State University, Fort Collins, CO, USA.",
+        "Department of Computer Science, Colorado State University, Fort Collins, CO, USA.",
+        "Biochemistry and Molecular Biology Department, The Hebrew University Faculty of Medicine, Jerusalem, Israel.",
+        "Department of Biology, Colorado State University, Fort Collins, CO, USA.",
+        "Department of Computer Science, Colorado State University, Fort Collins, CO, USA. asa@colostate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ullah, Fahad",
+        "short_name": "Ullah F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Jabeen, Saira",
+        "short_name": "Jabeen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Salton, Maayan",
+        "short_name": "Salton M",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry and Molecular Biology Department, The Hebrew University Faculty of Medicine, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Reddy, Anireddy S N",
+        "short_name": "Reddy ASN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Colorado State University, Fort Collins, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Ben-Hur, Asa",
+        "short_name": "Ben-Hur A",
+        "identifiers": [
+          "0000-0001-8269-6942"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, CO, USA. asa@colostate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2023 Mar 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/24 06:00",
+    "fetched_at": "2026-09-28 21:52:00"
+  },
+  "links": {
+    "cites": [
+      "42680754",
+      "42113741",
+      "41676893",
+      "41043426",
+      "40870034",
+      "40563429",
+      "40515561",
+      "40504371",
+      "39804791",
+      "39792954",
+      "39717006",
+      "39149613",
+      "38745948",
+      "38260419",
+      "37894886",
+      "37373404"
+    ],
+    "refs": [
+      "35817977",
+      "35449021",
+      "34608324",
+      "34316716",
+      "34263910",
+      "33950192",
+      "33832990",
+      "33558242",
+      "33381816",
+      "31724706",
+      "31701148",
+      "31510640",
+      "31427470",
+      "31244866",
+      "30837461",
+      "30661751",
+      "29873782",
+      "29856907",
+      "29483921",
+      "29304739",
+      "29208628",
+      "29087512",
+      "28882000",
+      "28881977",
+      "28739339",
+      "28395661",
+      "28245811",
+      "28234893",
+      "28157508",
+      "27794551",
+      "27197224",
+      "27153584",
+      "27107644",
+      "27020755",
+      "26612485",
+      "26508757",
+      "26467480",
+      "26437032",
+      "26213851",
+      "26034889",
+      "25837375",
+      "25693563",
+      "25525159",
+      "25258385",
+      "25215497",
+      "24931975",
+      "24352796",
+      "23887936",
+      "23846655",
+      "23793028",
+      "23502848",
+      "23060610",
+      "22955617",
+      "22955616",
+      "22645572",
+      "22293517",
+      "21921927",
+      "21106903",
+      "20224298",
+      "20133523",
+      "19305407",
+      "19304878",
+      "17324271",
+      "17222076",
+      "15173120",
+      "15126509",
+      "12540921",
+      "9377276",
+      "3052270",
+      "212715"
+    ],
+    "similar": [
+      "36949544",
+      "29304739",
+      "31470809",
+      "17324281",
+      "27683223",
+      "29642843",
+      "36626906",
+      "40870034",
+      "31759129",
+      "29959282",
+      "15341630",
+      "33887804",
+      "28298237",
+      "32541953",
+      "24520158",
+      "31760161",
+      "24398628",
+      "20573210",
+      "26194054",
+      "28419974",
+      "29508942",
+      "29236736",
+      "24476532",
+      "19341785",
+      "34984976",
+      "7890647",
+      "29483921",
+      "40105117",
+      "34440770",
+      "36435176",
+      "40407709",
+      "29975766",
+      "15100430",
+      "18194514",
+      "36648241",
+      "33291060",
+      "21592350",
+      "36409390",
+      "19683670",
+      "28364390",
+      "22033331",
+      "34082065",
+      "20163725",
+      "36354002",
+      "28391524",
+      "35182478",
+      "28961236",
+      "31948480",
+      "21749978",
+      "25934563",
+      "32312846",
+      "36942934",
+      "33040717",
+      "21415568",
+      "35447236",
+      "25110928",
+      "41097056",
+      "33055097",
+      "21698366",
+      "33073477",
+      "25631371",
+      "29299619",
+      "40776630",
+      "20610656",
+      "28480880",
+      "19446035",
+      "37443198",
+      "34308490",
+      "22156210",
+      "15552403",
+      "36369064",
+      "23172860",
+      "16971948",
+      "39265192",
+      "25710723",
+      "36754576",
+      "40748383",
+      "33274830",
+      "27152651",
+      "32028886",
+      "26113877",
+      "25771198",
+      "23097425",
+      "25833469",
+      "33832989",
+      "19656867",
+      "19858364",
+      "12022225",
+      "16980712",
+      "35618415",
+      "16650605",
+      "26454178",
+      "36040194",
+      "40315850",
+      "32816606",
+      "32708427",
+      "20357345",
+      "10219960",
+      "21859475",
+      "26612485"
+    ],
+    "review": [
+      "36949544",
+      "40870034",
+      "33887804",
+      "29508942",
+      "34440770",
+      "36648241",
+      "33291060",
+      "28391524",
+      "33040717",
+      "33073477",
+      "29299619",
+      "40776630",
+      "25710723",
+      "40748383"
+    ],
+    "pmc": [
+      "10031921"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02885-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36949544/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36949544",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

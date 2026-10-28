@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary material description.
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency with stated conclusions. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The manuscript claims that MMPP acts as a PPARγ agonist by binding to the PPARγ ligand binding domain, promoting adipogenesis and glucose uptake in 3T3-L1 MBX cells, and may serve as a potential therapeutic agent for type 2 diabetes and metabolic disorders.
+- **Visible evidence base** Docking studies, transcriptional activity assays, Oil Red O staining, 2-deoxyglucose uptake assays, RT-PCR, quantitative real-time PCR, immunoblot analyses, and cell viability assays.
+- **Missing materials affecting confidence** Original immunoblot images, full dose-response curves for MMPP, statistical details for all comparisons, raw data for docking scores, and information on antibody validation. Supplementary material referenced but not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward investigation of MMPP as a putative PPARγ agonist with effects on adipogenesis and glucose uptake. The topic is of interest to the metabolic disease community, and the work addresses a relevant gap in identifying safer alternatives to TZDs. However, the evidence provided is largely correlative and lacks mechanistic depth. The docking study is preliminary and not supported by experimental binding assays. The transcriptional activity assay is performed in a heterologous system without dose-response analysis. The adipogenesis and glucose uptake data are consistent with PPARγ activation but do not exclude off-target effects. The signaling pathway claims are based on single time-point immunoblots without quantification or appropriate controls. Overall, the conclusions are plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in metabolic disease, particularly those studying PPARγ biology, adipocyte differentiation, and insulin sensitization. The potential of MMPP as a novel PPARγ agonist with fewer side effects than TZDs would interest drug discovery groups focused on type 2 diabetes therapeutics.
+- **Major strengths** The study addresses a clinically relevant problem, namely the adverse effects of TZDs, and proposes a candidate compound. The experimental design includes multiple complementary assays, such as docking, transcriptional activity, lipid accumulation, gene expression, and glucose uptake. The use of rosiglitazone as a positive control is appropriate. The data are presented clearly, and the figures appear to support the described trends.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The manuscript claims that MMPP binds directly to the PPARγ ligand binding domain based solely on molecular docking studies.
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Concern** The claim of direct binding is supported only by in silico docking. No experimental validation, such as surface plasmon resonance, isothermal titration calorimetry, or competitive binding assays, is provided. Docking scores are reported as binding affinities, which is an overinterpretation of computational results.
+  - **Why it matters** Direct binding to PPARγ is the central mechanistic claim of the manuscript. Without experimental confirmation, the conclusion that MMPP acts as a PPARγ agonist is not established. Docking alone cannot distinguish true binders from false positives.
+  - **Resolution test** Provide experimental binding data, such as a competitive ligand binding assay or biophysical measurement, demonstrating direct interaction between MMPP and the PPARγ LBD with appropriate affinity constants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose-response and specificity
+  - **Claim pointer** The manuscript claims that MMPP increases PPARγ transcriptional activity and promotes adipogenesis and glucose uptake, but no dose-response analysis is presented.
+  - **Evidence pointer** Sections 3.2, 3.4, Figures 2, 4
+  - **Concern** All functional assays are performed at a single concentration of MMPP (15 μg/ml, with one additional concentration of 7.5 μg/ml for lipid accumulation). No dose-response curves are shown for transcriptional activity, glucose uptake, or gene expression. This limits the ability to assess potency, efficacy, and specificity of MMPP effects.
+  - **Why it matters** A single concentration does not establish a pharmacological relationship. Without dose-response data, it is unclear whether the observed effects are specific to PPARγ activation or could result from off-target effects at high concentrations.
+  - **Resolution test** Perform dose-response experiments for MMPP in transcriptional activity, adipogenesis, and glucose uptake assays, and report EC50 values where applicable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Signaling pathway evidence
+  - **Claim pointer** The manuscript claims that MMPP enhances phosphorylation of AKT, GSK3, and AMPKα, and that this leads to increased C/EBPβ expression and adipogenesis.
+  - **Evidence pointer** Section 3.6, Figure 6
+  - **Concern** The immunoblot data for phosphorylated proteins are presented without quantification, loading controls for the phosphorylated forms are not clearly shown, and only a single time point (1 h) is examined. The link between these phosphorylation events and C/EBPβ upregulation is inferred but not mechanistically tested, for example, using inhibitors or knockdown approaches.
+  - **Why it matters** The proposed signaling pathway is a key part of the mechanistic model. Without quantitative data, appropriate controls, and functional perturbation experiments, the pathway claim remains speculative.
+  - **Resolution test** Provide quantified immunoblot data with proper loading controls, time-course experiments, and functional validation using pathway inhibitors or genetic manipulation to demonstrate causality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that differences are statistically significant at p < 0.05, but statistical details are not provided for most experiments.
+  - **Evidence pointer** Sections 2.11, 3.4, 3.5, 3.6, Figures 4, 5, 6
+  - **Concern** The statistical methods section describes one-way ANOVA with Tukey's test, but the figures do not consistently show error bars, individual data points, or significance indicators. The number of independent experiments is stated as at least three, but this is not always evident from the data presentation.
+  - **Why it matters** Without clear statistical reporting, the reliability of the conclusions cannot be assessed. The reader cannot determine whether the observed differences are robust and reproducible.
+  - **Resolution test** Revise all figures to include error bars, significance markers, and sample sizes. Provide detailed statistical results in the figure legends or supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Issue** The docking figure is not described in sufficient detail. The specific interactions, such as hydrogen bonds and hydrophobic contacts, are listed in the text but not clearly annotated in the figure.
+  - **Required correction** Add annotations to Figure 1 to highlight the key residues and interactions described in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Section 4
+  - **Issue** The term "MBX cells" is used in the title and abstract, but the cell line is described as 3T3-L1 MBX. The distinction between 3T3-L1 and 3T3-L1 MBX is not explained.
+  - **Required correction** Clarify the origin or characteristics of the 3T3-L1 MBX cell line in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Concentration units
+  - **Affected element** Methods and Results
+  - **Evidence pointer** Sections 2.2, 3.4
+  - **Issue** MMPP concentrations are given in μg/ml, but the molecular weight of MMPP is not provided. This prevents conversion to molar concentrations, which is standard for pharmacological studies.
+  - **Required correction** Provide the molecular weight of MMPP and report concentrations in molar units where possible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, Discussion
+  - **Issue** The discussion cites a World Health Organization report from 2021 for obesity prevalence data from 2016. The citation is appropriate, but the text could be updated to reflect more recent data if available.
+  - **Required correction** Consider updating the obesity prevalence statistics with more recent data, or clarify the timeframe.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 4, 5, 6
+  - **Evidence pointer** Sections 3.4, 3.5, 3.6
+  - **Issue** The immunoblot and PCR images appear to be cropped and may not show full molecular weight markers or appropriate controls.
+  - **Required correction** Provide full images with molecular weight markers and include negative controls where applicable.
+
+## Risk / unsupported claims
+- The claim that MMPP binds directly to the PPARγ LBD is unsupported by experimental evidence and relies solely on docking simulations.
+- The claim that MMPP improves insulin sensitivity is inferred from glucose uptake data but is not directly tested, for example, by measuring insulin-stimulated signaling or glucose disposal in vivo.
+- The proposed signaling pathway involving AKT, GSK3, and AMPKα is not mechanistically validated.
+- The statement that MMPP may be a potential drug for type 2 diabetes without severe adverse effects is speculative and not supported by in vivo or toxicity data.
+- The reduction in IL-6 mRNA is presented as a beneficial effect, but the functional consequences are not explored.

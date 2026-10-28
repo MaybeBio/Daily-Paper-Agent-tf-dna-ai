@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38538531",
+  "title": "Calculations of Absolute Free Energies, Enthalpies, and Entropies for Drug Binding.",
+  "authors": "Summa, Christopher M; Langford, Dillon P; Dinshaw, Sam H; Webb, Jennifer; Rick, Steven W",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-03-28",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用增强采样与自由能计算研究药物-蛋白结合的热力学量，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模。",
+  "abstract": "Computer simulation methods can aid in the rational design of drugs aimed at a specific target, typically a protein. The affinity of a drug for its target is given by the free energy of binding. Binding can be further characterized by the enthalpy and entropy changes in the process. Methods exist to determine exact free energies, enthalpies, and entropies that are dependent only on the quality of the potential model and adequate sampling of conformational degrees of freedom. Entropy and enthalpy are roughly an order of magnitude more difficult to calculate than the free energy. This project combines a replica exchange method for enhanced sampling, designed to be efficient for protein-sized systems, with free energy calculations. This approach, replica exchange with dynamical scaling (REDS), uses two conventional simulations at different temperatures so that the entropy can be found from the temperature dependence of the free energy. A third replica is placed between them, with a modified Hamiltonian that allows it to span the temperature range of the conventional replicas. REDS provides temperature-dependent data and aids in sampling. It is applied to the bromodomain-containing protein 4 (BRD4) system. We find that for the force fields used, the free energies are accurate but the entropies and enthalpies are not, with the entropic contribution being too positive. Reproducing the entropy and enthalpy of binding appears to be a more stringent test of the force fields than reproducing the free energy.",
+  "abstract_zh": "计算机模拟方法可以辅助针对特定靶标（通常是蛋白质）的药物的理性设计。药物与其靶标的亲和力由结合自由能（free energy of binding）决定。结合过程可通过该过程中的焓变和熵变进一步表征。存在一些方法可以确定精确的自由能、焓和熵，这些量仅依赖于势能模型的质量以及对构象自由度进行充分采样。熵和焓的计算难度大约比自由能高一个数量级。本项目将一种用于增强采样的副本交换方法（旨在对蛋白质大小的系统高效运行）与自由能计算相结合。这种方法，即动态标度副本交换（replica exchange with dynamical scaling, REDS），使用两个不同温度下的常规模拟，从而可以通过自由能对温度的依赖性来确定熵。第三个副本置于两者之间，采用修改后的哈密顿量，使其能够跨越常规副本的温度范围。REDS提供温度依赖的数据并有助于采样。该方法被应用于含溴结构域蛋白4（bromodomain-containing protein 4, BRD4）系统。我们发现，对于所使用的力场，自由能是准确的，但熵和焓并不准确，其中熵贡献过于正。重现结合的熵和焓似乎比重现自由能更能严格检验力场的性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38538531/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38538531/",
+  "paper_page_path": "papers/pubmed/38538531/index.html"
+}

@@ -1,0 +1,519 @@
+{
+  "identity": {
+    "pmid": "37307876",
+    "doi": "10.1016/j.modpat.2023.100247",
+    "title": "Predicting Prostate Cancer Molecular Subtype With Deep Learning on Histopathologic Images."
+  },
+  "content": {
+    "abstract": "Microscopic examination of prostate cancer has failed to reveal a reproducible association between molecular and morphologic features. However, deep-learning algorithms trained on hematoxylin and eosin (H&E)-stained whole slide images (WSI) may outperform the human eye and help to screen for clinically-relevant genomic alterations. We created deep-learning algorithms to identify prostate tumors with underlying ETS-related gene (ERG) fusions or PTEN deletions using the following 4 stages: (1) automated tumor identification, (2) feature representation learning, (3) classification, and (4) explainability map generation. A novel transformer-based hierarchical architecture was trained on a single representative WSI of the dominant tumor nodule from a radical prostatectomy (RP) cohort with known ERG/PTEN status (n = 224 and n = 205, respectively). Two distinct vision transformer-based networks were used for feature extraction, and a distinct transformer-based model was used for classification. The ERG algorithm performance was validated across 3 RP cohorts, including 64 WSI from the pretraining cohort (AUC, 0.91) and 248 and 375 WSI from 2 independent RP cohorts (AUC, 0.86 and 0.89, respectively). In addition, we tested the ERG algorithm performance in 2 needle biopsy cohorts comprised of 179 and 148 WSI (AUC, 0.78 and 0.80, respectively). Focusing on cases with homogeneous (clonal) PTEN status, PTEN algorithm performance was assessed using 50 WSI reserved from the pretraining cohort (AUC, 0.81), 201 and 337 WSI from 2 independent RP cohorts (AUC, 0.72 and 0.80, respectively), and 151 WSI from a needle biopsy cohort (AUC, 0.75). For explainability, the PTEN algorithm was also applied to 19 WSI with heterogeneous (subclonal) PTEN loss, where the percentage tumor area with predicted PTEN loss correlated with that based on immunohistochemistry (r = 0.58, P = .0097). These deep-learning algorithms to predict ERG/PTEN status prove that H&E images can be used to screen for underlying genomic alterations in prostate cancer.",
+    "keywords": [
+      "ERG",
+      "PTEN",
+      "artificial intelligence",
+      "deep-learning",
+      "prostate"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Prostatic Neoplasms/pathology/genetics",
+      "Male",
+      "*PTEN Phosphohydrolase/genetics",
+      "Transcriptional Regulator ERG/genetics",
+      "Biomarkers, Tumor/genetics/analysis",
+      "Image Interpretation, Computer-Assisted",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Erak, Eric",
+        "Oliveira, Lia DePaula",
+        "Mendes, Adrianna A",
+        "Dairo, Oluwademilade",
+        "Ertunc, Onur",
+        "Kulac, Ibrahim",
+        "Baena-Del Valle, Javier A",
+        "Jones, Tracy",
+        "Hicks, Jessica L",
+        "Glavaris, Stephanie",
+        "Guner, Gunes",
+        "Vidal, Igor Damasceno",
+        "Markowski, Mark",
+        "de la Calle, Claire",
+        "Trock, Bruce J",
+        "Meena, Avaneesh",
+        "Joshi, Uttara",
+        "Kondragunta, Chaith",
+        "Bonthu, Saikiran",
+        "Singhal, Nitin",
+        "De Marzo, Angelo M",
+        "Lotan, Tamara L"
+      ],
+      "short_names": [
+        "Erak E",
+        "Oliveira LD",
+        "Mendes AA",
+        "Dairo O",
+        "Ertunc O",
+        "Kulac I",
+        "Baena-Del Valle JA",
+        "Jones T",
+        "Hicks JL",
+        "Glavaris S",
+        "Guner G",
+        "Vidal ID",
+        "Markowski M",
+        "de la Calle C",
+        "Trock BJ",
+        "Meena A",
+        "Joshi U",
+        "Kondragunta C",
+        "Bonthu S",
+        "Singhal N",
+        "De Marzo AM",
+        "Lotan TL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Suleyman Demirel University, Turkey.",
+        "Koc University School of Medicine, Turkey.",
+        "Fundacion Santa Fe de Bogota University Hospital, Columbia.",
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Johns Hopkins University School of Medicine.",
+        "Hacettepe University, Turkey.",
+        "Department of Pathology, University of Alabama School of Medicine, Alabama.",
+        "Department of Oncology, Johns Hopkins University School of Medicine.",
+        "Department of Urology, Johns Hopkins University School of Medicine.",
+        "Department of Urology, Johns Hopkins University School of Medicine.",
+        "AIRA Matrix Private Limited, India.",
+        "AIRA Matrix Private Limited, India.",
+        "AIRA Matrix Private Limited, India.",
+        "AIRA Matrix Private Limited, India.",
+        "AIRA Matrix Private Limited, India.",
+        "Department of Pathology, Johns Hopkins University School of Medicine; Department of Oncology, Johns Hopkins University School of Medicine; Department of Urology, Johns Hopkins University School of Medicine.",
+        "Department of Pathology, Johns Hopkins University School of Medicine; Department of Oncology, Johns Hopkins University School of Medicine; Department of Urology, Johns Hopkins University School of Medicine. Electronic address: tlotan1@jhmi.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Erak, Eric",
+        "short_name": "Erak E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Lia DePaula",
+        "short_name": "Oliveira LD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Mendes, Adrianna A",
+        "short_name": "Mendes AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Dairo, Oluwademilade",
+        "short_name": "Dairo O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Ertunc, Onur",
+        "short_name": "Ertunc O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Suleyman Demirel University, Turkey."
+        ]
+      },
+      {
+        "full_name": "Kulac, Ibrahim",
+        "short_name": "Kulac I",
+        "identifiers": [],
+        "affiliations": [
+          "Koç University School of Medicine, Turkey."
+        ]
+      },
+      {
+        "full_name": "Baena-Del Valle, Javier A",
+        "short_name": "Baena-Del Valle JA",
+        "identifiers": [],
+        "affiliations": [
+          "Fundacion Santa Fe de Bogota University Hospital, Columbia."
+        ]
+      },
+      {
+        "full_name": "Jones, Tracy",
+        "short_name": "Jones T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Hicks, Jessica L",
+        "short_name": "Hicks JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Glavaris, Stephanie",
+        "short_name": "Glavaris S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Guner, Gunes",
+        "short_name": "Guner G",
+        "identifiers": [],
+        "affiliations": [
+          "Hacettepe University, Turkey."
+        ]
+      },
+      {
+        "full_name": "Vidal, Igor Damasceno",
+        "short_name": "Vidal ID",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Alabama School of Medicine, Alabama."
+        ]
+      },
+      {
+        "full_name": "Markowski, Mark",
+        "short_name": "Markowski M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "de la Calle, Claire",
+        "short_name": "de la Calle C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Trock, Bruce J",
+        "short_name": "Trock BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Meena, Avaneesh",
+        "short_name": "Meena A",
+        "identifiers": [],
+        "affiliations": [
+          "AIRA Matrix Private Limited, India."
+        ]
+      },
+      {
+        "full_name": "Joshi, Uttara",
+        "short_name": "Joshi U",
+        "identifiers": [],
+        "affiliations": [
+          "AIRA Matrix Private Limited, India."
+        ]
+      },
+      {
+        "full_name": "Kondragunta, Chaith",
+        "short_name": "Kondragunta C",
+        "identifiers": [],
+        "affiliations": [
+          "AIRA Matrix Private Limited, India."
+        ]
+      },
+      {
+        "full_name": "Bonthu, Saikiran",
+        "short_name": "Bonthu S",
+        "identifiers": [],
+        "affiliations": [
+          "AIRA Matrix Private Limited, India."
+        ]
+      },
+      {
+        "full_name": "Singhal, Nitin",
+        "short_name": "Singhal N",
+        "identifiers": [],
+        "affiliations": [
+          "AIRA Matrix Private Limited, India."
+        ]
+      },
+      {
+        "full_name": "De Marzo, Angelo M",
+        "short_name": "De Marzo AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine; Department of Oncology, Johns Hopkins University School of Medicine; Department of Urology, Johns Hopkins University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Lotan, Tamara L",
+        "short_name": "Lotan TL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University School of Medicine; Department of Oncology, Johns Hopkins University School of Medicine; Department of Urology, Johns Hopkins University School of Medicine. Electronic address: tlotan1@jhmi.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc"
+    ],
+    "journal_abbrev": [
+      "Mod Pathol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/13 01:14",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42534734",
+      "41857178",
+      "41808601",
+      "41388186",
+      "41093269",
+      "40760335",
+      "40557542",
+      "40442579",
+      "40301933",
+      "39845415",
+      "39759153",
+      "39422817",
+      "39232875",
+      "39041628",
+      "38593808"
+    ],
+    "refs": [
+      "36828361",
+      "36720077",
+      "36591888",
+      "36006048",
+      "35513774",
+      "35233002",
+      "34493825",
+      "34246347",
+      "34191807",
+      "33626496",
+      "33387492",
+      "32795228",
+      "32343890",
+      "31160815",
+      "31085757",
+      "30231311",
+      "30224757",
+      "30037818",
+      "29849114",
+      "29052810",
+      "29029453",
+      "28341589",
+      "27617307",
+      "27477529",
+      "27433846",
+      "27174589",
+      "26615022",
+      "26058959",
+      "26000489",
+      "25154392",
+      "25056375",
+      "23695019",
+      "23545904",
+      "23222491",
+      "21878536",
+      "21677539",
+      "20878952",
+      "20590547",
+      "20104229",
+      "18500259",
+      "18208804",
+      "17991527",
+      "17804708",
+      "17385188",
+      "16253017"
+    ],
+    "similar": [
+      "37307876",
+      "30291535",
+      "27562498",
+      "35513774",
+      "39995242",
+      "23545904",
+      "23348902",
+      "27738792",
+      "32432709",
+      "28753869",
+      "24378408",
+      "35050902",
+      "32634262",
+      "23018874",
+      "32884130",
+      "36576468",
+      "22460813",
+      "24083995",
+      "25265431",
+      "33627383",
+      "23887301",
+      "35982181",
+      "31826177",
+      "30993692",
+      "26612463",
+      "40471393",
+      "31075299",
+      "31359337",
+      "27477529",
+      "20590547",
+      "31318977",
+      "25724568",
+      "32620540",
+      "30181067",
+      "24380696",
+      "39943631",
+      "29844131",
+      "21178509",
+      "19407851",
+      "26959281",
+      "25964175",
+      "24762546",
+      "26615022",
+      "31502941",
+      "26030748",
+      "22260502",
+      "23196798",
+      "27913052",
+      "32350606",
+      "39549395",
+      "27189342",
+      "25517949",
+      "26202067",
+      "24510842",
+      "18500259",
+      "34533858",
+      "32393768",
+      "29225123",
+      "31209634",
+      "38820715",
+      "24606912",
+      "22705054",
+      "26383228",
+      "24516518",
+      "30825345",
+      "31754047",
+      "29029032",
+      "25015038",
+      "26424596",
+      "31992350",
+      "30138215",
+      "27880722",
+      "23653096",
+      "25131421",
+      "39466503",
+      "38256434",
+      "25056375",
+      "35233002",
+      "25897494",
+      "33754616",
+      "30430607",
+      "38964997",
+      "33328045",
+      "31164324",
+      "26331372",
+      "32015092",
+      "36828362",
+      "27693448",
+      "26178158",
+      "20104229",
+      "40637064",
+      "39654117",
+      "34311724",
+      "26725250",
+      "30101374",
+      "26614400",
+      "19396168",
+      "27910803",
+      "31277777",
+      "23817021"
+    ],
+    "review": [
+      "37307876",
+      "31359337",
+      "39943631",
+      "29225123",
+      "34311724"
+    ],
+    "pmc": [
+      "11225718"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0893-3952(23)00152-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37307876/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

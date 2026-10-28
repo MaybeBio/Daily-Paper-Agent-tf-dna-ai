@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "37909716",
+    "doi": "10.1128/msystems.01037-23",
+    "title": "Ribosome profiling reveals the fine-tuned response of Escherichia coli to mild and severe acid stress."
+  },
+  "content": {
+    "abstract": "Bacteria react very differently to survive in acidic environments, such as the human gastrointestinal tract. Escherichia coli is one of the extremely acid-resistant bacteria and has a variety of acid-defense mechanisms. Here, we provide the first genome-wide overview of the adaptations of E. coli K-12 to mild and severe acid stress at both the transcriptional and translational levels. Using ribosome profiling and RNA sequencing, we uncover novel adaptations to different degrees of acidity, including previously hidden stress-induced small proteins and novel key transcription factors for acid defense, and report mRNAs with pH-dependent differential translation efficiency. In addition, we distinguish between acid-specific adaptations and general stress response mechanisms using denoising autoencoders. This workflow represents a powerful approach that takes advantage of next-generation sequencing techniques and machine learning to systematically analyze bacterial stress responses.",
+    "keywords": [
+      "RNA-Seq",
+      "acid resistance",
+      "machine learning",
+      "ribosome profiling",
+      "small proteins",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Escherichia coli/genetics",
+      "Ribosome Profiling",
+      "*Escherichia coli Proteins/genetics",
+      "Transcription Factors/genetics",
+      "RNA, Messenger/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schumacher, Kilian",
+        "Gelhausen, Rick",
+        "Kion-Crosby, Willow",
+        "Barquist, Lars",
+        "Backofen, Rolf",
+        "Jung, Kirsten"
+      ],
+      "short_names": [
+        "Schumacher K",
+        "Gelhausen R",
+        "Kion-Crosby W",
+        "Barquist L",
+        "Backofen R",
+        "Jung K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4751-301X",
+        "ORCID: 0000-0003-4161-4394",
+        "ORCID: 0000-0001-9401-9340",
+        "ORCID: 0000-0003-0779-6841"
+      ],
+      "affiliations": [
+        "Faculty of Biology, Microbiology, Ludwig-Maximilians-Universitat Munchen, Martinsried, Germany.",
+        "Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-Universitat Freiburg, Freiburg, Germany.",
+        "Helmholtz Institute for RNA-based Infection Research (HIRI)/Helmholtz Centre for Infection Research (HZI), Wurzburg, Germany.",
+        "University of Wurzburg, Faculty of Medicine, Wurzburg, Germany.",
+        "Helmholtz Institute for RNA-based Infection Research (HIRI)/Helmholtz Centre for Infection Research (HZI), Wurzburg, Germany.",
+        "University of Wurzburg, Faculty of Medicine, Wurzburg, Germany.",
+        "Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-Universitat Freiburg, Freiburg, Germany.",
+        "Signalling Research Centres BIOSS and CIBSS, University of Freiburg, Freiburg, Germany.",
+        "Faculty of Biology, Microbiology, Ludwig-Maximilians-Universitat Munchen, Martinsried, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schumacher, Kilian",
+        "short_name": "Schumacher K",
+        "identifiers": [
+          "0000-0002-4751-301X"
+        ],
+        "affiliations": [
+          "Faculty of Biology, Microbiology, Ludwig-Maximilians-Universität München, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Gelhausen, Rick",
+        "short_name": "Gelhausen R",
+        "identifiers": [
+          "0000-0003-4161-4394"
+        ],
+        "affiliations": [
+          "Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-Universität Freiburg, Freiburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kion-Crosby, Willow",
+        "short_name": "Kion-Crosby W",
+        "identifiers": [
+          "0000-0001-9401-9340"
+        ],
+        "affiliations": [
+          "Helmholtz Institute for RNA-based Infection Research (HIRI)/Helmholtz Centre for Infection Research (HZI), Würzburg, Germany.",
+          "University of Würzburg, Faculty of Medicine, Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Barquist, Lars",
+        "short_name": "Barquist L",
+        "identifiers": [],
+        "affiliations": [
+          "Helmholtz Institute for RNA-based Infection Research (HIRI)/Helmholtz Centre for Infection Research (HZI), Würzburg, Germany.",
+          "University of Würzburg, Faculty of Medicine, Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Backofen, Rolf",
+        "short_name": "Backofen R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-Universität Freiburg, Freiburg, Germany.",
+          "Signalling Research Centres BIOSS and CIBSS, University of Freiburg, Freiburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jung, Kirsten",
+        "short_name": "Jung K",
+        "identifiers": [
+          "0000-0003-0779-6841"
+        ],
+        "affiliations": [
+          "Faculty of Biology, Microbiology, Ludwig-Maximilians-Universität München, Martinsried, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mSystems"
+    ],
+    "journal_abbrev": [
+      "mSystems"
+    ],
+    "pub_date": "2023 Dec 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/01 12:43",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "42535649",
+      "42513961",
+      "42383251",
+      "42190913",
+      "41874162",
+      "41626690",
+      "41588955",
+      "41014134",
+      "40639917",
+      "40588570",
+      "40492708",
+      "40114376",
+      "39724052",
+      "39668401",
+      "39519284",
+      "39372736",
+      "39370430",
+      "39027639",
+      "38651876"
+    ],
+    "refs": [
+      "39027639",
+      "37713610",
+      "37223747",
+      "37223733",
+      "37223003",
+      "37069644",
+      "36468870",
+      "35917154",
+      "35906711",
+      "35695420",
+      "35637307",
+      "35610252",
+      "35464957",
+      "35393532",
+      "35283428",
+      "35239434",
+      "35037022",
+      "34914967",
+      "34672568",
+      "34557778",
+      "34516282",
+      "34339296",
+      "34309401",
+      "34281389",
+      "34265844",
+      "34125582",
+      "34061833",
+      "33587641",
+      "33460557",
+      "33187233",
+      "33175953",
+      "33172971",
+      "32601270",
+      "32561799",
+      "32482722",
+      "32419108",
+      "32382758",
+      "32190714",
+      "31936081",
+      "31841667",
+      "31809503",
+      "31763789",
+      "31728529",
+      "31651953",
+      "31197038",
+      "30904393",
+      "30837344",
+      "30753697",
+      "30724162",
+      "30254741",
+      "30137486",
+      "30037969",
+      "29967506",
+      "29643375",
+      "29440576",
+      "29031842",
+      "28611217",
+      "28611214",
+      "28526842",
+      "28494014",
+      "28342718",
+      "28300180",
+      "28061857",
+      "27572972",
+      "27312411",
+      "26935582",
+      "26641532",
+      "26279566",
+      "26258987",
+      "26055706",
+      "26054770",
+      "26003933",
+      "25516281",
+      "25015645",
+      "24898062",
+      "24766808",
+      "24626854",
+      "24227677",
+      "24136347",
+      "23812753",
+      "23701194",
+      "23300708",
+      "23239623",
+      "23045643",
+      "22995042",
+      "22939840",
+      "22930834",
+      "22908215",
+      "22836135",
+      "21944167",
+      "21639793",
+      "21398541",
+      "20472543",
+      "19919618",
+      "19573695",
+      "19505943",
+      "19478995",
+      "19363495",
+      "19213877",
+      "18953042",
+      "18922164",
+      "18546601",
+      "18302792",
+      "18039771",
+      "17545292",
+      "17406207",
+      "17007876",
+      "16769691",
+      "16738554",
+      "16223443",
+      "15601715",
+      "15508892",
+      "15494746",
+      "15489450",
+      "15342572",
+      "15308767",
+      "12748194",
+      "12670971",
+      "12486035",
+      "12107143",
+      "11238978",
+      "11021910",
+      "10421978",
+      "10395466",
+      "10348866",
+      "10094700",
+      "9254694",
+      "9228026",
+      "9098055",
+      "8712275",
+      "7777530",
+      "7642535",
+      "6792201",
+      "4870599",
+      "4626532",
+      "4580569",
+      "4268692",
+      "3316209",
+      "3076173",
+      "3027031",
+      "2447068",
+      "2162192",
+      "1917834"
+    ],
+    "similar": [
+      "37909716",
+      "29031842",
+      "35138139",
+      "29183994",
+      "34544284",
+      "38651876",
+      "35181503",
+      "15342588",
+      "36453903",
+      "32965213",
+      "32434841",
+      "26258987",
+      "29861158",
+      "38217649",
+      "38319100",
+      "31540875",
+      "28851853",
+      "30779773",
+      "40621900",
+      "35311583",
+      "36214449",
+      "27834201",
+      "26857681",
+      "27924019",
+      "37987904",
+      "17669427",
+      "32934077",
+      "35015630",
+      "28573789",
+      "34662240",
+      "34906996",
+      "26908653",
+      "39780230",
+      "30724162",
+      "26546513",
+      "29632209",
+      "38047591",
+      "25118243",
+      "39607923",
+      "39633055",
+      "34798057",
+      "31053575",
+      "28826393",
+      "29150605",
+      "29194454",
+      "20709847",
+      "28301469",
+      "38980083",
+      "35695420",
+      "41269562",
+      "23190053",
+      "15522079",
+      "23419647",
+      "21091502",
+      "27737709",
+      "36409084",
+      "41171059",
+      "15494397",
+      "40521885",
+      "21944167",
+      "40857353",
+      "30914510",
+      "25843707",
+      "27698081",
+      "28918899",
+      "21501346",
+      "25336583",
+      "37039668",
+      "39201531",
+      "26776510",
+      "11601857",
+      "14527658",
+      "40298396",
+      "38451091",
+      "19969548",
+      "32546194",
+      "24927582",
+      "30305394",
+      "39535229",
+      "25096872",
+      "34694904",
+      "16968693",
+      "27235429",
+      "33770074",
+      "34488454",
+      "31552449",
+      "29853171",
+      "27112822",
+      "15743942",
+      "27789694",
+      "20413502",
+      "26003933",
+      "30131361",
+      "29140975",
+      "16237004",
+      "31235565",
+      "31501867",
+      "29669858",
+      "26025365",
+      "28484043"
+    ],
+    "review": [
+      "37909716",
+      "26003933"
+    ],
+    "pmc": [
+      "10746267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/msystems.01037-23?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG11544",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "gadE"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37909716/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37909716",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse219022",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.30.657075",
+  "title": "An atlas of TF driven gene programs across human cells",
+  "doi": "10.1101/2025.05.30.657075",
+  "abstract": "Combinations of transcription factors (TFs) regulate gene expression and determine cell fate. Much effort has been devoted to understanding TF activity in different tissues and how tissue-specificity is achieved. However, ultimately gene regulation occurs at the single cell level and the recent explosion in the availability of single cell gene expression data now makes it possible to understand TF activity at this granular level of resolution. Here, we leverage a large collection of Human Cell Atlas (HCA) single cell data to explore TF activity by examining cell-type and tissue-specific sets of target genes, or regulons. We compile a regulon atlas, CellRegulon, and map the activity of TFs in an extensive set of healthy adult and foetal tissues spanning hundreds of cell types. Using CellRegulon, we describe dynamic patterns of co-regulation, associate TF-modules with different cellular functions and characterise the distribution of active TFs and TF families across cell types. We show that CellRegulon can link disease gene expression signatures to cell types and TFs relevant to the disease. Finally, using a newly generated multiome dataset of the adult lung, we show how CellRegulon can be extended into an enhancer-gene regulatory network (eGRN) to improve cell-type associations with genetic risk loci for diseases, such as childhood onset asthma, COPD and IPF, and to identify high risk gene modules. Our database for easy download and interactive exploration allows researchers to understand key gene modules activated at cell type transitions and will therefore be valuable for tasks such as cell type engineering ( https://www.cellregulondb.org ).",
+  "authors": [
+    "Pett JP",
+    "Prete M",
+    "Pham D",
+    "England N",
+    "Yuan H",
+    "Prigmore E",
+    "Tuck L",
+    "Oszlanczi A",
+    "To K",
+    "Xu C",
+    "Suo C",
+    "Dann E",
+    "He P",
+    "Kedlian V",
+    "Kanemaru K",
+    "Cranley J",
+    "Yang L",
+    "Elmentaite R",
+    "Oliver AJ",
+    "Cujba A",
+    "Cakir B",
+    "Murray S",
+    "Mahbubani KT",
+    "Saeb-Parsy K",
+    "Gambardella L",
+    "Kasper M",
+    "Haniffa M",
+    "Nawijn MC",
+    "Teichmann SA",
+    "Meyer KB"
+  ],
+  "published_date": "2025-06-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.30.657075",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.30.657075.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1029189",
+    "raw_record": {
+      "id": "PPR1029189",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1029189"
+        ]
+      },
+      "doi": "10.1101/2025.05.30.657075",
+      "title": "An atlas of TF driven gene programs across human cells",
+      "authorString": "Pett JP, Prete M, Pham D, England N, Yuan H, Prigmore E, Tuck L, Oszlanczi A, To K, Xu C, Suo C, Dann E, He P, Kedlian V, Kanemaru K, Cranley J, Yang L, Elmentaite R, Oliver AJ, Cujba A, Cakir B, Murray S, Mahbubani KT, Saeb-Parsy K, Gambardella L, Kasper M, Haniffa M, Nawijn MC, Teichmann SA, Meyer KB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pett JP",
+            "lastName": "Pett",
+            "firstName": "Patrick",
+            "initials": "JP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5249-444X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prete M",
+            "lastName": "Prete",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5946-821X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pham D",
+            "lastName": "Pham",
+            "firstName": "Duy",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7753-8744"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "England N",
+            "lastName": "England",
+            "firstName": "Nick",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yuan H",
+            "lastName": "Yuan",
+            "firstName": "Hao",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4200-3600"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Cell and Molecular Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prigmore E",
+            "lastName": "Prigmore",
+            "firstName": "Elena",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tuck L",
+            "lastName": "Tuck",
+            "firstName": "Liz",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oszlanczi A",
+            "lastName": "Oszlanczi",
+            "firstName": "Agnes",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6148-6591"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "To K",
+            "lastName": "To",
+            "firstName": "Ken",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                },
+                {
+                  "affiliation": "Department of Surgery, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu C",
+            "lastName": "Xu",
+            "firstName": "Chuan",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6265-999X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suo C",
+            "lastName": "Suo",
+            "firstName": "Chenqu",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                },
+                {
+                  "affiliation": ", Department of Paediatrics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dann E",
+            "lastName": "Dann",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Genetics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "He P",
+            "lastName": "He",
+            "firstName": "Peng",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Pathology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kedlian V",
+            "lastName": "Kedlian",
+            "firstName": "Veronika",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kanemaru K",
+            "lastName": "Kanemaru",
+            "firstName": "Kazumasa",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cranley J",
+            "lastName": "Cranley",
+            "firstName": "James",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0408-5801"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang L",
+            "lastName": "Yang",
+            "firstName": "Ling",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elmentaite R",
+            "lastName": "Elmentaite",
+            "firstName": "Rasa",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": "Ensocell Therapeutics, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oliver AJ",
+            "lastName": "Oliver",
+            "firstName": "Amanda",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cujba A",
+            "lastName": "Cujba",
+            "firstName": "Ana-Maria",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cakir B",
+            "lastName": "Cakir",
+            "firstName": "Batuhan",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murray S",
+            "lastName": "Murray",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahbubani KT",
+            "lastName": "Mahbubani",
+            "firstName": "Krishnaa",
+            "initials": "KT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saeb-Parsy K",
+            "lastName": "Saeb-Parsy",
+            "firstName": "Kourosh",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gambardella L",
+            "lastName": "Gambardella",
+            "firstName": "Laure",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5771-1565"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kasper M",
+            "lastName": "Kasper",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Cell and Molecular Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haniffa M",
+            "lastName": "Haniffa",
+            "firstName": "Muzlifah",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Biosciences Institute, Faculty of Medical Sciences, ,"
+                },
+                {
+                  "affiliation": "Newcastle Hospitals NHS Foundation Trust, Department of Dermatology and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nawijn MC",
+            "lastName": "Nawijn",
+            "firstName": "Martijn",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Dept Pathology and Medical Biology, GRIAC research institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Teichmann SA",
+            "lastName": "Teichmann",
+            "firstName": "Sarah",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6294-6366"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                },
+                {
+                  "affiliation": ", Cambridge Stem Cell Institute, ,"
+                },
+                {
+                  "affiliation": ", Department of Medicine, ,"
+                },
+                {
+                  "affiliation": "Cambridge Centre for AI in Medicine (CCAIM), Department of Applied Mathematics and Theoretical Physics, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer KB",
+            "lastName": "Meyer",
+            "firstName": "Kerstin",
+            "initials": "KB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cellular Genetics, Wellcome Genome Campus , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5771-1565"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6148-6591"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0408-5801"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4200-3600"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5249-444X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5946-821X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6265-999X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6294-6366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7753-8744"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Combinations of transcription factors (TFs) regulate gene expression and determine cell fate. Much effort has been devoted to understanding TF activity in different tissues and how tissue-specificity is achieved. However, ultimately gene regulation occurs at the single cell level and the recent explosion in the availability of single cell gene expression data now makes it possible to understand TF activity at this granular level of resolution. Here, we leverage a large collection of Human Cell Atlas (HCA) single cell data to explore TF activity by examining cell-type and tissue-specific sets of target genes, or regulons. We compile a regulon atlas, CellRegulon, and map the activity of TFs in an extensive set of healthy adult and foetal tissues spanning hundreds of cell types. Using CellRegulon, we describe dynamic patterns of co-regulation, associate TF-modules with different cellular functions and characterise the distribution of active TFs and TF families across cell types. We show that CellRegulon can link disease gene expression signatures to cell types and TFs relevant to the disease. Finally, using a newly generated multiome dataset of the adult lung, we show how CellRegulon can be extended into an enhancer-gene regulatory network (eGRN) to improve cell-type associations with genetic risk loci for diseases, such as childhood onset asthma, COPD and IPF, and to identify high risk gene modules. Our database for easy download and interactive exploration allows researchers to understand key gene modules activated at cell type transitions and will therefore be valuable for tasks such as cell type engineering (  https://www.cellregulondb.org ).",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT206194",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220540/Z/20/A",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT211276/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/01/2025.05.30.657075.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.30.657075"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1029189"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1029189&type=FILE&fileName=EMS206114-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206114",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gwas",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-06-02",
+      "firstPublicationDate": "2025-06-01",
+      "firstIndexDate": "2025-06-02",
+      "fullTextReceivedDate": "2025-06-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

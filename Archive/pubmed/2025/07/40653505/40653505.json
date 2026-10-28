@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "40653505",
+    "doi": "10.1038/s41598-025-09924-w",
+    "title": "A comprehensive analysis of transcription factors identified TCF3 as a prognostic target for glioma."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are pivotal in tumor initiation and progression, regulating downstream gene expression and modulating cellular processes. In this study, we conducted a comprehensive analysis of TF gene sets to define the molecular subtypes of gliomas. Using nonnegative matrix factorization (NMF), we identified two distinct glioma subtypes characterized by significant differences in survival outcomes and clinical features. Additionally, we identified TF gene sets with differential expression across gliomas of various World Health Organization (WHO) states, followed by protein‒protein interaction (PPI) network analysis. By applying 101 machine learning models, five key genes (EZH2, TWIST1, EGR1, FOSL2, and TCF3) involved in glioma were identified. Among these genes, TCF3 has emerged as a potential key prognostic marker because of its distinct expression patterns and functional relevance. By performing multi-omics and multi-dataset analyses, we explored the aberrant expression of TCF3 across multiple cancers, with robust validation at both the cellular and tissue levels. Furthermore, our analysis revealed a strong association between TCF3 mutation and glioma prognosis, underscoring its potential as a therapeutic target. In summary, this study not only introduces a novel method for the molecular subtyping of glioma but also highlights TCF3 as a promising target for precision medicine. Our findings provide crucial insights into the molecular mechanisms of glioma and offer a foundation for the development of novel therapeutic strategies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Glioma/genetics/metabolism/pathology/mortality",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "*Biomarkers, Tumor/genetics",
+      "*Brain Neoplasms/genetics/metabolism/pathology/mortality",
+      "Protein Interaction Maps",
+      "*Transcription Factors/genetics/metabolism",
+      "Mutation",
+      "Gene Expression Profiling",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Basic Helix-Loop-Helix Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Qiao",
+        "Feng, Peng",
+        "Liu, Shangyu",
+        "Tian, Goupeng",
+        "Yuan, Guoqiang",
+        "Pan, Yawen"
+      ],
+      "short_names": [
+        "Li Q",
+        "Feng P",
+        "Liu S",
+        "Tian G",
+        "Yuan G",
+        "Pan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+        "Department of Neurosurgery, Second Hospital of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+        "Key Laboratory of Neurology of Gansu Province, Lanzhou University, Lanzhou, Gansu, 730030, People's Republic of China.",
+        "Academician Workstation of The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Gansu, People's Republic of China.",
+        "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+        "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+        "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+        "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. yuangq08@lzu.edu.cn.",
+        "Department of Neurosurgery, Second Hospital of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. yuangq08@lzu.edu.cn.",
+        "Key Laboratory of Neurology of Gansu Province, Lanzhou University, Lanzhou, Gansu, 730030, People's Republic of China. yuangq08@lzu.edu.cn.",
+        "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. pyw@lzu.edu.cn.",
+        "Department of Neurosurgery, Second Hospital of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. pyw@lzu.edu.cn.",
+        "Key Laboratory of Neurology of Gansu Province, Lanzhou University, Lanzhou, Gansu, 730030, People's Republic of China. pyw@lzu.edu.cn.",
+        "Academician Workstation of The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Gansu, People's Republic of China. pyw@lzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Qiao",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+          "Department of Neurosurgery, Second Hospital of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China.",
+          "Key Laboratory of Neurology of Gansu Province, Lanzhou University, Lanzhou, Gansu, 730030, People's Republic of China.",
+          "Academician Workstation of The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Gansu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Feng, Peng",
+        "short_name": "Feng P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shangyu",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tian, Goupeng",
+        "short_name": "Tian G",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Guoqiang",
+        "short_name": "Yuan G",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. yuangq08@lzu.edu.cn.",
+          "Department of Neurosurgery, Second Hospital of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. yuangq08@lzu.edu.cn.",
+          "Key Laboratory of Neurology of Gansu Province, Lanzhou University, Lanzhou, Gansu, 730030, People's Republic of China. yuangq08@lzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Pan, Yawen",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Medical College of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. pyw@lzu.edu.cn.",
+          "Department of Neurosurgery, Second Hospital of Lanzhou University, Lanzhou, 730030, Gansu, People's Republic of China. pyw@lzu.edu.cn.",
+          "Key Laboratory of Neurology of Gansu Province, Lanzhou University, Lanzhou, Gansu, 730030, People's Republic of China. pyw@lzu.edu.cn.",
+          "Academician Workstation of The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, Gansu, People's Republic of China. pyw@lzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 00:28",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39417505",
+      "38347631",
+      "38309692",
+      "38123029",
+      "36669712",
+      "36354097",
+      "36350010",
+      "36244530",
+      "36113627",
+      "35421923",
+      "35197112",
+      "35020204",
+      "34894431",
+      "34276676",
+      "34073538",
+      "33882368",
+      "33705973",
+      "33692541",
+      "33662628",
+      "33141183",
+      "33066460",
+      "32603306",
+      "32478924",
+      "31784426",
+      "31769419",
+      "31441146",
+      "31296961",
+      "31114875",
+      "30903160",
+      "30366279",
+      "30277538",
+      "30274984",
+      "29224777",
+      "29102237",
+      "28291232",
+      "27105323",
+      "26789870",
+      "26087963",
+      "25872784",
+      "25135958",
+      "25031032",
+      "24113773",
+      "22385965",
+      "21376230",
+      "20445000",
+      "19114008",
+      "17098937",
+      "16530701",
+      "10592173"
+    ],
+    "similar": [
+      "40653505",
+      "39845963",
+      "40210748",
+      "41504052",
+      "40269178",
+      "41013216",
+      "40593136",
+      "40826752",
+      "40108265",
+      "40397299",
+      "28742165",
+      "40019588",
+      "39962318",
+      "40821817",
+      "40286967",
+      "40257572",
+      "34475426",
+      "33879726",
+      "40450791",
+      "40656950",
+      "34840971",
+      "35446002",
+      "24311645",
+      "40293672",
+      "38286348",
+      "39537233",
+      "41258386",
+      "40197219",
+      "22649212",
+      "40130175",
+      "38674418",
+      "27105323",
+      "26526635",
+      "40258838",
+      "39620895",
+      "40640380",
+      "39975552",
+      "41315505",
+      "40208514",
+      "38613802",
+      "39205642",
+      "26502731",
+      "34076982",
+      "40646078",
+      "33167941",
+      "28952134",
+      "41169364",
+      "38711090",
+      "41123727",
+      "41327009",
+      "40513332",
+      "38958838",
+      "30009411",
+      "40058165",
+      "26708597",
+      "39075640",
+      "26663173",
+      "39340957",
+      "41035644",
+      "33363544",
+      "34686327",
+      "40124371",
+      "39866232",
+      "33969375",
+      "40629190",
+      "30015885",
+      "25659031",
+      "39924494",
+      "27725228",
+      "40052358",
+      "39090168",
+      "40278822",
+      "32894165",
+      "29787563",
+      "40774998",
+      "40561176",
+      "40307749",
+      "38836983",
+      "39978096",
+      "26868851",
+      "40270974",
+      "34288803",
+      "39348350",
+      "31377983",
+      "40764354",
+      "33327771",
+      "32583303",
+      "40595030",
+      "39994800",
+      "40838069",
+      "33635875",
+      "34211612",
+      "30077762",
+      "35115572",
+      "39562821",
+      "32406502",
+      "27840009",
+      "24204956",
+      "32725165",
+      "23529798"
+    ],
+    "review": [
+      "40653505"
+    ],
+    "pmc": [
+      "12256590"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-09924-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40653505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

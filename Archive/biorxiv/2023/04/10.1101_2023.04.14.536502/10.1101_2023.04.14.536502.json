@@ -1,0 +1,155 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.14.536502",
+  "title": "Deep flanking sequence engineering for efficient promoter design",
+  "doi": "10.1101/2023.04.14.536502",
+  "abstract": "Human experts are good at summarizing explicit strong patterns from small samples, while deep learning models can learn implicit weak patterns from big data. Biologists have traditionally described the sequence patterns of promoters via transcription factor binding sites (TFBSs), while the flanking sequences among TFBSs, which can also significantly influence promoter activity and function, remain largely uncharacterized. Thus, current synthetic promoters are mainly designed by the manipulation of TFBSs, while the flanking sequence is often chosen arbitrarily or by previous experience due to a lack of well-summarized optimization criteria. Here, we introduced an AI-aided promoter design framework, DeepSEED, that employs expert knowledge and deep learning methods to efficiently design synthetic promoters that have various desirable functions. DeepSEED incorporates the user-defined cis-regulatory sequences as ‘seeds’ and generates flanking sequences that match the ‘seeds’. We showed that DeepSEED can automatically capture k-mer frequencies and DNA shape features from active promoters in the training set and efficiently optimize the flanking sequences to better match desired properties in synthetic promoters. We validated the effectiveness of this framework for diverse synthetic promoter design tasks in both prokaryotic and eukaryotic cells. DeepSEED successfully designed E. coli constitutive, isopropyl-beta-D-1-thiogalactopyranoside (IPTG)-inducible, and mammalian cell doxycycline (Dox)-inducible promoters with significant performance improvements, suggesting that DeepSEED has potential as an efficient AI-aided flanking sequence optimization approach for promoter design that may be of great benefit in synthetic biology applications. <h4>Availability</h4> https://github.com/WangLabTHU/deepseed",
+  "authors": [
+    "Zhang P",
+    "Wang H",
+    "Xu H",
+    "Wei L",
+    "Hu Z",
+    "Wang X"
+  ],
+  "published_date": "2023-04-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536502",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536502.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR647307",
+    "raw_record": {
+      "id": "PPR647307",
+      "source": "PPR",
+      "doi": "10.1101/2023.04.14.536502",
+      "title": "Deep flanking sequence engineering for efficient promoter design",
+      "authorString": "Zhang P, Wang H, Xu H, Wei L, Hu Z, Wang X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Pengcheng",
+            "initials": "P"
+          },
+          {
+            "fullName": "Wang H",
+            "lastName": "Wang",
+            "firstName": "Haochen",
+            "initials": "H"
+          },
+          {
+            "fullName": "Xu H",
+            "lastName": "Xu",
+            "firstName": "Hanwen",
+            "initials": "H"
+          },
+          {
+            "fullName": "Wei L",
+            "lastName": "Wei",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1546-6458"
+            }
+          },
+          {
+            "fullName": "Hu Z",
+            "lastName": "Hu",
+            "firstName": "Zhirui",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "Xiaowo",
+            "initials": "X"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1546-6458"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Human experts are good at summarizing explicit strong patterns from small samples, while deep learning models can learn implicit weak patterns from big data. Biologists have traditionally described the sequence patterns of promoters via transcription factor binding sites (TFBSs), while the flanking sequences among TFBSs, which can also significantly influence promoter activity and function, remain largely uncharacterized. Thus, current synthetic promoters are mainly designed by the manipulation of TFBSs, while the flanking sequence is often chosen arbitrarily or by previous experience due to a lack of well-summarized optimization criteria. Here, we introduced an AI-aided promoter design framework, DeepSEED, that employs expert knowledge and deep learning methods to efficiently design synthetic promoters that have various desirable functions. DeepSEED incorporates the user-defined cis-regulatory sequences as ‘seeds’ and generates flanking sequences that match the ‘seeds’. We showed that DeepSEED can automatically capture k-mer frequencies and DNA shape features from active promoters in the training set and efficiently optimize the flanking sequences to better match desired properties in synthetic promoters. We validated the effectiveness of this framework for diverse synthetic promoter design tasks in both prokaryotic and eukaryotic cells. DeepSEED successfully designed  E. coli constitutive, isopropyl-beta-D-1-thiogalactopyranoside (IPTG)-inducible, and mammalian cell doxycycline (Dox)-inducible promoters with significant performance improvements, suggesting that DeepSEED has potential as an efficient AI-aided flanking sequence optimization approach for promoter design that may be of great benefit in synthetic biology applications.  <h4>Availability</h4>  https://github.com/WangLabTHU/deepseed",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/16/2023.04.14.536502.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.14.536502"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37813854",
+            "reference": "Nature communications. 2023 Oct;14(1):6309",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-04-21",
+      "firstPublicationDate": "2023-04-16",
+      "firstIndexDate": "2023-04-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

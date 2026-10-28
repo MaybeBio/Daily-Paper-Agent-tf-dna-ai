@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "37569400",
+    "doi": "10.3390/ijms241512023",
+    "title": "DeepSATA: A Deep Learning-Based Sequence Analyzer Incorporating the Transcription Factor Binding Affinity to Dissect the Effects of Non-Coding Genetic Variants."
+  },
+  "content": {
+    "abstract": "Utilizing large-scale epigenomics data, deep learning tools can predict the regulatory activity of genomic sequences, annotate non-coding genetic variants, and uncover mechanisms behind complex traits. However, these tools primarily rely on human or mouse data for training, limiting their performance when applied to other species. Furthermore, the limited exploration of many species, particularly in the case of livestock, has led to a scarcity of comprehensive and high-quality epigenetic data, posing challenges in developing reliable deep learning models for decoding their non-coding genomes. The cross-species prediction of the regulatory genome can be achieved by leveraging publicly available data from extensively studied organisms and making use of the conserved DNA binding preferences of transcription factors within the same tissue. In this study, we introduced DeepSATA, a novel deep learning-based sequence analyzer that incorporates the transcription factor binding affinity for the cross-species prediction of chromatin accessibility. By applying DeepSATA to analyze the genomes of pigs, chickens, cattle, humans, and mice, we demonstrated its ability to improve the prediction accuracy of chromatin accessibility and achieve reliable cross-species predictions in animals. Additionally, we showcased its effectiveness in analyzing pig genetic variants associated with economic traits and in increasing the accuracy of genomic predictions. Overall, our study presents a valuable tool to explore the epigenomic landscape of various species and pinpoint regulatory deoxyribonucleic acid (DNA) variants associated with complex traits.",
+    "keywords": [
+      "chromatin accessibility",
+      "cross-species prediction",
+      "deep learning",
+      "genomic prediction",
+      "non-coding variants",
+      "transcription factor binding affinity"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Cattle",
+      "Swine",
+      "Mice",
+      "*Deep Learning",
+      "Chickens/genetics",
+      "Chromatin/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Wenlong",
+        "Fu, Yang",
+        "Bao, Yongzhou",
+        "Wang, Zhen",
+        "Lei, Bowen",
+        "Zheng, Weigang",
+        "Wang, Chao",
+        "Liu, Yuwen"
+      ],
+      "short_names": [
+        "Ma W",
+        "Fu Y",
+        "Bao Y",
+        "Wang Z",
+        "Lei B",
+        "Zheng W",
+        "Wang C",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction of Ministry of Education & Key Lab of Swine Genetics and Breeding of Ministry of Agriculture and Rural Affairs, Huazhong Agricultural University, Wuhan 430070, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction of Ministry of Education & Key Lab of Swine Genetics and Breeding of Ministry of Agriculture and Rural Affairs, Huazhong Agricultural University, Wuhan 430070, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction of Ministry of Education & Key Lab of Swine Genetics and Breeding of Ministry of Agriculture and Rural Affairs, Huazhong Agricultural University, Wuhan 430070, China.",
+        "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+        "Kunpeng Institute of Modern Agriculture at Foshan, Chinese Academy of Agricultural Sciences, Foshan 528226, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Wenlong",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yang",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Yongzhou",
+        "short_name": "Bao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Bowen",
+        "short_name": "Lei B",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction of Ministry of Education & Key Lab of Swine Genetics and Breeding of Ministry of Agriculture and Rural Affairs, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Weigang",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction of Ministry of Education & Key Lab of Swine Genetics and Breeding of Ministry of Agriculture and Rural Affairs, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Key Laboratory of Agricultural Animal Genetics, Breeding and Reproduction of Ministry of Education & Key Lab of Swine Genetics and Breeding of Ministry of Agriculture and Rural Affairs, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuwen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Branch, Guangdong Laboratory for Lingnan Modern Agriculture, Key Laboratory of Livestock and Poultry Multi-Omics of MARA, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Innovation Group of Pig Genome Design and Breeding, Research Centre for Animal Genome, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen 518124, China.",
+          "Kunpeng Institute of Modern Agriculture at Foshan, Chinese Academy of Agricultural Sciences, Foshan 528226, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Jul 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/12 10:44",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "41189647",
+      "40448907",
+      "40013759",
+      "39901471",
+      "39124917"
+    ],
+    "refs": [
+      "36104777",
+      "35692822",
+      "35293310",
+      "34850907",
+      "34850103",
+      "34615879",
+      "34601209",
+      "34282453",
+      "34048560",
+      "33850120",
+      "33758196",
+      "33590861",
+      "33522898",
+      "33420081",
+      "32687525",
+      "32216817",
+      "31346172",
+      "30971806",
+      "30661751",
+      "30478442",
+      "30427726",
+      "30286077",
+      "30100085",
+      "27197224",
+      "26301843",
+      "25887635",
+      "25693563",
+      "25559105",
+      "24590227",
+      "22962707",
+      "22955991",
+      "22955828",
+      "22868264",
+      "21903627",
+      "21330290",
+      "21167468",
+      "20150147",
+      "20110278"
+    ],
+    "similar": [
+      "37569400",
+      "35293310",
+      "33028202",
+      "30227846",
+      "33300042",
+      "39090688",
+      "36030022",
+      "38691895",
+      "30967126",
+      "33758196",
+      "26301843",
+      "33232622",
+      "35666736",
+      "35435921",
+      "34078253",
+      "29069282",
+      "31590652",
+      "35576194",
+      "36510125",
+      "35471887",
+      "33832990",
+      "34037796",
+      "39076052",
+      "37598467",
+      "33372147",
+      "34048560",
+      "39276327",
+      "37803123",
+      "36317479",
+      "30835229",
+      "34534646",
+      "33990600",
+      "31544924",
+      "24997396",
+      "33381816",
+      "25944915",
+      "26291518",
+      "37294468",
+      "37178007",
+      "37525091",
+      "30922998",
+      "32687525",
+      "33522898",
+      "28750606",
+      "36902216",
+      "39026761",
+      "37669132",
+      "29618048",
+      "33196774",
+      "26340055",
+      "21473766",
+      "36495179",
+      "16767079",
+      "31362726",
+      "35263332",
+      "36050782",
+      "36057196",
+      "32770026",
+      "22479205",
+      "29855387",
+      "26818008",
+      "29081688",
+      "35389435",
+      "34287908",
+      "37361042",
+      "22482953",
+      "34326396",
+      "34491989",
+      "34494283",
+      "33686069",
+      "30601980",
+      "35310161",
+      "34689829",
+      "28683716",
+      "37428306",
+      "35288750",
+      "33096239",
+      "35640981",
+      "27923386",
+      "37868039",
+      "37007588",
+      "37666948",
+      "35832620",
+      "39318505",
+      "33153777",
+      "37224527",
+      "38074467",
+      "38594933",
+      "37402191",
+      "36466610",
+      "38036790",
+      "31563852",
+      "31737053",
+      "37873118",
+      "36993652",
+      "37954573"
+    ],
+    "review": [
+      "37569400",
+      "39276327",
+      "37294468",
+      "36057196",
+      "29081688",
+      "34494283",
+      "37666948",
+      "35832620",
+      "33153777",
+      "38594933"
+    ],
+    "pmc": [
+      "10418434"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms241512023",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37569400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37569400",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

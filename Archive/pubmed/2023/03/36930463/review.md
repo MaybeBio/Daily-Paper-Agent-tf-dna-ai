@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, computational methodology, and alignment of claims with presented evidence
+- **Shared manuscript claim summary** The authors propose that glutamate residue E187 in human mitochondrial transcription factor A (TFAM) facilitates the β-elimination step of AP-lyase reactions at abasic sites in DNA, working synergistically with the key lysine residue K186. This claim is supported by biochemical assays with TFAM variants, kinetic simulations, and molecular dynamics simulations.
+- **Visible evidence base** Full text with results sections, figures referenced (Figs. 1-6), tables (Tables 1-5), supplementary figures (Figs. S1-S12), and supplementary tables (Tables S1-S6)
+- **Missing materials affecting confidence** Raw experimental data, uncropped gel images, mass spectrometry spectra, MD simulation trajectory files, and complete parameter files for kinetic simulations were not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a focused and methodical investigation into the role of a specific glutamate residue in TFAM-mediated AP-lyase activity. The combination of biochemical, kinetic, and computational approaches is appropriate and generally well-executed. The central claim that E187 facilitates β-elimination is supported by multiple lines of evidence, though some concerns regarding the interpretation of kinetic data and the generalizability of the MD simulation findings warrant attention. The work extends previous findings on TFAM AP-lyase activity and provides a plausible mechanistic rationale for the high glutamate content in TFAM. However, the physiological relevance of the observed activity and the quantitative contribution of E187 relative to other factors remain incompletely established.
+- **Who would be interested in the results, and why** Researchers studying mitochondrial DNA maintenance and damage response, DNA repair mechanisms involving AP-lyase enzymes, TFAM structure-function relationships, and the molecular basis of mtDNA turnover. The findings may also interest investigators working on protein-DNA cross-link formation and the role of basic residues in DNA-processing enzymes.
+- **Major strengths** The study combines multiple complementary approaches (biochemical assays, kinetic modeling, MD simulations) to address a specific mechanistic question. The use of a Cys-null variant to simplify the analysis of DPC formation is a thoughtful experimental design. The kinetic simulations provide quantitative support for the role of E187 in β-elimination. The MD simulations offer structural insights into the conformational dynamics of AP sites in TFAM-DNA complexes. The control experiments with a different AP substrate position strengthen the specificity of the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that E187 facilitates β-elimination based on differences in DPCin/DPCcl ratios and kinetic parameters between 2CS and 2CSEA variants.
+  - **Evidence pointer** Table 1, Table 2, Table 3, Figs. 3, 4, S2, S3
+  - **Concern** The interpretation of the kinetic data relies heavily on the assumption that the observed differences between 2CS and 2CSEA are specifically due to the loss of E187's catalytic role in β-elimination. However, the E187A mutation could also affect protein stability, DNA binding affinity, or the conformational dynamics of the TFAM-DNA complex in ways that indirectly influence the reaction kinetics. The authors report Kd,DNA values for wt and 2CS but do not provide Kd,DNA for 2CSEA. If the E187A mutation alters DNA binding, the interpretation of kinetic differences becomes ambiguous.
+  - **Why it matters** Without establishing that 2CSEA retains similar DNA binding properties to 2CS, the attribution of kinetic differences specifically to the catalytic role of E187 in β-elimination is not fully justified. This is central to the main claim of the manuscript.
+  - **Resolution test** Provide Kd,DNA measurements for 2CSEA under the same conditions used for wt and 2CS. If DNA binding is affected, perform kinetic analyses under conditions where the fraction of bound DNA is normalized, or use single-turnover experiments to isolate the chemical step.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology
+  - **Claim pointer** The authors state that MD simulations showed the AP lesion adopts an extrahelical conformation approximately 55% of the time, and that this conformation facilitates Schiff base formation by shortening the distance between the carbonyl group and the ε-amino group of K186.
+  - **Evidence pointer** Fig. 6, Fig. S11
+  - **Concern** The MD simulations were performed with a single starting structure (PDB 3TQ6) and a single trajectory of 200 ns. The observation that the AP lesion transitions to an extrahelical conformation after 90 ns and remains there for the rest of the simulation may reflect a single rare event rather than a thermodynamically favored state. The authors do not report replicate simulations or free energy calculations to establish the relative stability of the intrahelical versus extrahelical conformations. Additionally, the distance analysis between E187 and the C1′ hydrogen (closest 6.9 Å) is used to argue against direct hydrogen abstraction, but the authors do not explore whether water-mediated proton transfer is feasible at these distances.
+  - **Why it matters** The MD simulation results are used to support the proposed mechanism and to argue that the extrahelical conformation is relevant for Schiff base formation. Without replicate simulations or enhanced sampling, the statistical significance of the observed conformational transition is unclear. The interpretation of the E187 distances also requires more rigorous analysis to support the proposed water-mediated mechanism.
+  - **Resolution test** Perform multiple independent MD simulations (at least 3-5 replicates) with different initial velocities, or use enhanced sampling methods (e.g., umbrella sampling, metadynamics) to calculate the free energy profile for AP lesion flipping. Provide distance distribution analysis between E187 and the relevant protons over the entire trajectory, and test whether water molecules can bridge the gap between E187 and the C2′ position.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Kinetic modeling
+  - **Claim pointer** The authors claim that kinetic simulations support the role of E187 in β-elimination, with rate constants for β-elimination being 4-fold lower for 2CSEA compared to 2CS in the presence of NaBH3CN, and 2-fold lower in its absence.
+  - **Evidence pointer** Table 5, Table S6, Fig. 5
+  - **Concern** The kinetic model shown in Figure 5A is a simplified representation that embeds noncovalent binding and dissociation into the Schiff base formation step. While the authors acknowledge this limitation, the interpretation of the extracted rate constants for β-elimination (k4) depends on the validity of this simplification. The authors do not report whether alternative kinetic models were tested or whether the data could be fit equally well with different rate constant assignments. Additionally, the confidence intervals for some rate constants appear broad (as shown in Table 5), and the authors do not discuss whether the 4-fold difference in k4 between 2CS and 2CSEA is statistically significant given these uncertainties.
+  - **Why it matters** The kinetic simulations provide quantitative support for the central claim. If the model is not uniquely constrained by the data, or if the differences in k4 are within the uncertainty of the fit, the strength of the conclusion is weakened.
+  - **Resolution test** Perform model discrimination by testing alternative kinetic models (e.g., including explicit binding steps, allowing for multiple Schiff base formation pathways). Report the full confidence intervals for all rate constants and perform statistical tests (e.g., comparing fits with k4 fixed to the 2CS value vs. free) to establish that the difference is significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "implying the breadth of this process across different species" is vague. The authors do not present comparative data across species in this manuscript.
+  - **Required correction** Either remove this statement or provide specific evidence or references supporting the cross-species conservation of the K/E cluster in TFAM homologs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Methods, mass spectrometry
+  - **Evidence pointer** Methods section, "Identification of cross-linking amino acid residues"
+  - **Issue** The methods state that mass spectrometry was performed "according to published procedures" but do not specify the mass spectrometer model, resolution settings, or data analysis software used. This limits reproducibility.
+  - **Required correction** Provide additional details on the mass spectrometry instrumentation and data analysis parameters, or include this information in the supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 3A
+  - **Evidence pointer** Fig. 3A
+  - **Issue** The DPCin/DPCcl ratio is plotted over time, but the error bars are not defined in the figure legend. It is unclear whether they represent standard deviation, standard error, or confidence intervals from replicate experiments.
+  - **Required correction** Define error bars in the figure legend and specify the number of independent replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 3
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "the abundance of TFAM in nucleoids and our detection of elevated TFAM-DPCs upon inducing mitochondrial AP sites in HeLa and HEK293 cells argue the involvement TFAM in processing AP sites in mitochondria." This statement conflates correlation with causation. Elevated TFAM-DPCs could result from increased AP site formation rather than active TFAM involvement in AP processing.
+  - **Required correction** Soften the language to indicate that the data are consistent with, but do not prove, TFAM involvement in AP processing in cells.
+- **Technical failings that need to be addressed before the case is established** The lack of Kd,DNA measurements for the 2CSEA variant is a notable gap that should be addressed to rule out indirect effects of the mutation on DNA binding. Additionally, the MD simulation results are based on a single trajectory, which limits the statistical confidence in the observed conformational behavior. Replicate simulations or enhanced sampling would strengthen the computational evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study addresses a specific and previously unexplored question regarding the role of glutamate residues in TFAM-mediated AP-lyase activity. While the general concept of AP-lyase activity in DNA-binding proteins is established, the focus on a specific residue pair (K186/E187) and the combination of experimental and computational approaches provides a degree of novelty.
+  - **Scientific importance** The findings contribute to understanding the molecular basis of mtDNA turnover and the potential role of TFAM in AP site processing. However, the physiological significance of TFAM's AP-lyase activity relative to other repair pathways remains unclear, and the study does not directly address this broader question.
+  - **Interdisciplinary readership** The work bridges biochemistry, DNA repair, and computational biophysics. The MD simulation component may appeal to computational biologists, while the biochemical assays will interest experimentalists. The topic is likely to attract readers from the mitochondrial biology and DNA damage response communities.
+  - **Technical soundness** The experimental design is generally sound, with appropriate controls and the use of multiple complementary methods. However, the concerns regarding the kinetic model simplification and the single MD trajectory limit the robustness of the conclusions. The lack of Kd,DNA data for the key variant is a technical gap.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. The figures are well-designed and support the text. The introduction provides sufficient background for readers unfamiliar with AP-lyase chemistry. However, some sections of the kinetic analysis may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claim is plausible and supported by multiple lines of evidence, but the concerns regarding the kinetic interpretation and the MD simulation methodology should be addressed to strengthen the case. The manuscript would benefit from additional experiments to rule out indirect effects of the E187A mutation and from more robust computational sampling.
+
+## Risk / unsupported claims
+- The claim that "the high abundance of Glu in TFAM and the large fraction of Glu clustered with Lys suggest a general role of Glu in facilitating AP-lyase reactions" is speculative and not directly tested in this manuscript. The authors only demonstrate a role for E187, and the generalizability to other Glu residues is inferred, not established.
+- The statement in the abstract that the findings "imply the breadth of this process across different species" is not supported by data presented in this manuscript.
+- The claim that "the extrahelical conformation of the AP lesion likely facilitates the Schiff base formation" is based on a single MD trajectory and should be considered preliminary.
+- The physiological relevance of TFAM-mediated AP-lyase activity in mtDNA turnover is discussed but not directly tested, and the statement that TFAM-DPCs "could potentially serve as signals for recruiting additional factors" is speculative.

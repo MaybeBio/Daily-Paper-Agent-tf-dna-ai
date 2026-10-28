@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41453294",
+    "doi": "10.1016/j.phymed.2025.157688",
+    "title": "Periplocin and bufalin induce cardiotoxicity by regulating AMPK/SIRT1/PGC-1alpha pathway to inhibit energy metabolism and trigger autophagy."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Periplocin (PE) and bufalin (BU)-active ingredients of traditional Chinese medicine-exhibit diverse biological activities, including cardiotonic and antitumor effects. However, their clinical application is limited by dose-dependent cardiotoxicity, the specific mechanisms of which remain unclear. METHODS: The cardiotoxicity of PE and BU was evaluated using cardiomyoblasts and zebrafish as models. Epitranscriptomics, computational simulation techniques, and cellular thermal shift assays (CETSA) were employed for target prediction. Fluorescent probes, biochemical assays, quantitative real-time polymerase chain reaction (RT-qPCR), and western blotting were used to detect indicators related to mitochondrial function, energy metabolism, and autophagy. Functional validation was conducted via gene knockdown and pharmacological rescue experiments. RESULTS: Exposure to PE or BU caused cardiotoxicity, characterized by energy metabolism dysfunction, mitochondrial damage, and excessive autophagy. Epitranscriptomic analysis revealed dysregulated expression of genes related to these processes because of altered N6-methyladenosine (m6A) modification. Mechanistically, knockdown of the m6A reader YTH domain-containing protein 1 (YTHDC1) or of the eraser alkB homolog 5 (ALKBH5) attenuated mitochondrial dysfunction and autophagic activation. Furthermore, cytotoxicity was alleviated by AMP-activated protein kinase (AMPK) activator A-769662 and autophagy inhibitor 3-methyladenine (3-MA). CONCLUSION: PE and BU impair mitochondrial function and energy metabolism via the m6A-modified AMPK/sirtuin 1 (SIRT1)/peroxisome proliferator-activated receptor-gamma coactivator-1alpha (PGC-1alpha) axis, leading to excessive autophagy and cardiotoxicity. These findings reveal potential therapeutic targets for alleviating the cardiotoxicity of PE and BU.",
+    "keywords": [
+      "Autophagy",
+      "Bufalin",
+      "Cardiotoxicity",
+      "Energy metabolism",
+      "Periplocin"
+    ],
+    "mesh_terms": [
+      "*Bufanolides/toxicity/pharmacology",
+      "Animals",
+      "*Autophagy/drug effects",
+      "AMP-Activated Protein Kinases/metabolism",
+      "Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha/metabolism",
+      "*Energy Metabolism/drug effects",
+      "Sirtuin 1/metabolism",
+      "*Cardiotoxicity/etiology",
+      "Zebrafish",
+      "Signal Transduction/drug effects",
+      "Rats",
+      "Humans",
+      "Mitochondria/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Xinyue",
+        "Zhang, Jian",
+        "Lin, Yifan",
+        "Tian, Kun",
+        "Tu, Jionghong",
+        "Wu, Zekai",
+        "Lv, Xiaoqi",
+        "Hu, Hong",
+        "Liu, Xuyang",
+        "Lin, Shiyu",
+        "Zhu, An"
+      ],
+      "short_names": [
+        "Gao X",
+        "Zhang J",
+        "Lin Y",
+        "Tian K",
+        "Tu J",
+        "Wu Z",
+        "Lv X",
+        "Hu H",
+        "Liu X",
+        "Lin S",
+        "Zhu A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China; Department of Preventive Medicine, School of Public Health, Fujian Medical University, Fuzhou 350122, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Cell Proliferation and Differentiation of the Ministry of Education, Peking University Genome Editing Research Center, College of Life Sciences, Peking University, Beijing 100871, China.",
+        "Department of Preventive Medicine, School of Public Health, Fujian Medical University, Fuzhou 350122, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China.",
+        "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China; Department of Preventive Medicine, School of Public Health, Fujian Medical University, Fuzhou 350122, China. Electronic address: zhuan@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Xinyue",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China; Department of Preventive Medicine, School of Public Health, Fujian Medical University, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yifan",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Kun",
+        "short_name": "Tian K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Jionghong",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zekai",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Xiaoqi",
+        "short_name": "Lv X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Cell Proliferation and Differentiation of the Ministry of Education, Peking University Genome Editing Research Center, College of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hong",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Preventive Medicine, School of Public Health, Fujian Medical University, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuyang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shiyu",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, An",
+        "short_name": "Zhu A",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Gastrointestinal Cancer (Fujian Medical University), Ministry of Education, Fuzhou 350108, China; Department of Preventive Medicine, School of Public Health, Fujian Medical University, Fuzhou 350122, China. Electronic address: zhuan@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/27 00:54",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [
+      "42568515",
+      "42196362"
+    ],
+    "refs": [],
+    "similar": [
+      "41453294",
+      "32835596",
+      "39645099",
+      "40220403",
+      "39341266",
+      "40250033",
+      "30910451",
+      "27613156",
+      "31916911",
+      "31144160",
+      "37611465",
+      "39094439",
+      "33391490",
+      "40825385",
+      "35240662",
+      "39090182",
+      "41268687",
+      "39325807",
+      "27793739",
+      "41344517",
+      "40415428",
+      "40848413",
+      "41296099",
+      "39580863",
+      "25940958",
+      "39520951",
+      "33130079",
+      "39089090",
+      "38981225",
+      "31832001",
+      "40019682",
+      "40945633",
+      "41046081",
+      "28554169",
+      "29804119",
+      "39482340",
+      "38035937",
+      "20015518",
+      "22117073",
+      "20616029",
+      "30384366",
+      "29723566",
+      "31830513",
+      "40043828",
+      "34098144",
+      "40532802",
+      "30172748",
+      "24941909",
+      "33810216",
+      "33902605",
+      "39994309",
+      "37946007",
+      "24582596",
+      "26650960",
+      "28364603",
+      "33985371",
+      "36250265",
+      "41172919",
+      "19276888",
+      "34684660",
+      "23139024",
+      "28770830",
+      "31800607",
+      "36430183",
+      "30809769",
+      "29329611",
+      "40268458",
+      "31730422",
+      "40125832",
+      "32446297",
+      "35240708",
+      "39832686",
+      "38872258",
+      "40754087",
+      "41273494",
+      "31028741",
+      "39265716",
+      "38261146",
+      "39641138",
+      "25445048",
+      "39684318",
+      "27554679",
+      "34411320",
+      "31702508",
+      "30359677",
+      "39697018",
+      "40595858",
+      "26124049",
+      "30656599",
+      "39733803",
+      "30021212",
+      "40624432",
+      "40976145",
+      "20438809",
+      "25051362",
+      "39884486",
+      "23297307",
+      "40752794",
+      "36436616",
+      "21778691"
+    ],
+    "review": [
+      "41453294",
+      "41268687",
+      "40019682",
+      "19276888",
+      "31702508"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01323-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=41453294",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

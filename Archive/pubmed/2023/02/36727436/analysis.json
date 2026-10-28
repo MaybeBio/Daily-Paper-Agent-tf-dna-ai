@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36727436",
+  "title": "Structural predictions of protein-DNA binding: MELD-DNA.",
+  "authors": "Esmaeeli, Reza; Bauza, Antonio; Perez, Alberto",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出MELD-DNA方法，结合分子动力学模拟与贝叶斯推断预测蛋白-DNA复合物结构，聚焦TF-DNA结合模式与序列依赖性识别，与本课题高度匹配。",
+  "abstract": "Structural, regulatory and enzymatic proteins interact with DNA to maintain a healthy and functional genome. Yet, our structural understanding of how proteins interact with DNA is limited. We present MELD-DNA, a novel computational approach to predict the structures of protein-DNA complexes. The method combines molecular dynamics simulations with general knowledge or experimental information through Bayesian inference. The physical model is sensitive to sequence-dependent properties and conformational changes required for binding, while information accelerates sampling of bound conformations. MELD-DNA can: (i) sample multiple binding modes; (ii) identify the preferred binding mode from the ensembles; and (iii) provide qualitative binding preferences between DNA sequences. We first assess performance on a dataset of 15 protein-DNA complexes and compare it with state-of-the-art methodologies. Furthermore, for three selected complexes, we show sequence dependence effects of binding in MELD predictions. We expect that the results presented herein, together with the freely available software, will impact structural biology (by complementing DNA structural databases) and molecular recognition (by bringing new insights into aspects governing protein-DNA interactions).",
+  "abstract_zh": "结构、调控和酶促蛋白与DNA相互作用以维持健康和功能性的基因组。然而，我们对蛋白质如何与DNA相互作用的结构理解仍然有限。我们提出了MELD-DNA，一种预测蛋白质-DNA复合物结构的新型计算方法。该方法通过贝叶斯推断结合分子动力学模拟与一般知识或实验信息。物理模型对序列依赖特性和结合所需的构象变化敏感，而信息加速了结合构象的采样。MELD-DNA能够：（i）采样多种结合模式；（ii）从集合中识别出优先结合模式；以及（iii）提供DNA序列之间的定性结合偏好。我们首先在15个蛋白质-DNA复合物的数据集上评估性能，并与最先进的方法进行比较。此外，对于三个选定的复合物，我们展示了MELD预测中结合的序列依赖性效应。我们预期本文呈现的结果，连同免费提供的软件，将影响结构生物学（通过补充DNA结构数据库）和分子识别（通过为蛋白质-DNA相互作用的调控方面带来新见解）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36727436/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36727436/",
+  "paper_page_path": "papers/pubmed/36727436/index.html"
+}

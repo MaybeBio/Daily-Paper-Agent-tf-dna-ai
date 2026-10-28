@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40598243",
+    "doi": "10.1186/s12967-025-06741-7",
+    "title": "Translational medicine research on the role of key gene network modulation mediated by procyanidin B2 in the precise diagnosis and treatment of multiple sclerosis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The present study aimed to investigate the potential role and molecular mechanism of procyanidin B2 (PCB2) in the treatment of multiple sclerosis (MS), with the hope of providing novel strategies for the precision treatment of MS. METHODS: The target genes of PCB2 and the disease-related target genes of MS were gathered from databases like GEO, GeneCards, OMIM, and DisGeNET. R language was employed for the identification of differentially expressed genes (DEGs), unsupervised clustering analysis, immune infiltration analysis, weighted gene co-expression network analysis (WGCNA), Gene Ontology (GO) analysis, and gene set enrichment analysis (GSEA). Eight machine learning algorithms were employed to screen key genes, and nomograms and ROC curves were constructed to assess the value of the screened biomarker genes in MS diagnosis. Through these analyses, four key genes closely associated with the pathogenesis of MS were selected, namely potassium ion channel subfamily H member 2 (KCNH2), prostaglandin-endoperoxide synthase 1 (PTGS1), estrogen receptor 1 (ESR1), and vascular endothelial growth factor A (VEGFA). These genes were significantly enriched in biological processes related to oxidative stress and served as potential targets for PCB2 in treating MS. Moreover, a key gene-transcription factor (TFs)-microRNA (miRNA) regulatory network was established to preliminarily explore the upstream regulatory mechanisms of these genes. Meanwhile, molecular docking and single-gene GSEA enrichment analysis were carried out to verify the interaction between PCB2 and these key genes. Finally, a CPZ (cuprizone)-induced mouse model of MS was set up, and the effects of PCB2 in MS treatment were verified by means of behavioral tests, pathological staining, immunofluorescence staining, ELISA, RT-PCR, and Western blot detection methods. RESULTS: PCB2 significantly improved behavioral performance in CPZ-induced MS mice, including enhanced motor coordination, reduced anxiety and hyperactivity, and improved spatial learning and memory. Additionally, PCB2 could promote myelin repair and decrease the levels of inflammatory response and oxidative stress in the mouse brain. Specifically, the expression levels of inflammatory factors such as TNF-alpha, IL-1beta, and IL-6 decreased significantly, while the expression level of the anti-inflammatory factor IL-10 increased, and the activities of antioxidant enzymes like CAT, SOD, and GSH-Px increased notably. More importantly, PCB2 could upregulate the expression levels of the KCNH2, PTGS1, ESR1, and VEGFA genes and their related proteins, which may played significant roles in biological processes related to oxidative stress. CONCLUSION: This study disclosed the potential role of PCB2 in MS treatment by regulating the expression of key genes, providing a theoretical basis and potential therapeutic targets for personalized treatment of MS. PCB2 demonstrates good application prospects in MS treatment. Future research will further validate the clinical application value of these key genes and deeply explore the specific mechanism of PCB2 in MS treatment, aiming to develop more effective treatment regimens for MS.",
+    "keywords": [
+      "Animal model",
+      "Enrichment analysis",
+      "Immune infiltration",
+      "Multiple sclerosis",
+      "Procyanidin B2",
+      "Unsupervised clustering"
+    ],
+    "mesh_terms": [
+      "*Proanthocyanidins/therapeutic use/pharmacology",
+      "*Gene Regulatory Networks/drug effects",
+      "*Biflavonoids/therapeutic use/pharmacology",
+      "Animals",
+      "*Catechin/therapeutic use/pharmacology",
+      "*Multiple Sclerosis/genetics/diagnosis/drug therapy/therapy",
+      "Humans",
+      "Mice",
+      "*Translational Research, Biomedical",
+      "Gene Ontology",
+      "Gene Expression Profiling",
+      "Cluster Analysis",
+      "ROC Curve",
+      "Gene Expression Regulation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jian",
+        "Pu, Meng",
+        "Guo, Di",
+        "Xiao, Ying",
+        "Yin, Jin-Zhu",
+        "Ma, Dong",
+        "Ma, Cun-Gen",
+        "Wang, Qing"
+      ],
+      "short_names": [
+        "Liu J",
+        "Pu M",
+        "Guo D",
+        "Xiao Y",
+        "Yin JZ",
+        "Ma D",
+        "Ma CG",
+        "Wang Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8300-968X"
+      ],
+      "affiliations": [
+        "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China.",
+        "Caidian District People's Hospital, Wuhan City, 430100, Hubei Province, China.",
+        "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China.",
+        "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China.",
+        "Caidian District People's Hospital, Wuhan City, 430100, Hubei Province, China.",
+        "Department of Neurosurgery, The Key Laboratory of Prevention and Treatment of Neurological Disease of Shanxi Provincial Health Commission, Sinopharm Tongmei General Hospital, Datong, 037003, Shanxi Province, China.",
+        "Department of Neurosurgery, The Key Laboratory of Prevention and Treatment of Neurological Disease of Shanxi Provincial Health Commission, Sinopharm Tongmei General Hospital, Datong, 037003, Shanxi Province, China.",
+        "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China. macungen@sxtcm.edu.cn.",
+        "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China. 4024771456@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0009-0008-8300-968X"
+        ],
+        "affiliations": [
+          "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China.",
+          "Caidian District People's Hospital, Wuhan City, 430100, Hubei Province, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Meng",
+        "short_name": "Pu M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Di",
+        "short_name": "Guo D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Ying",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Caidian District People's Hospital, Wuhan City, 430100, Hubei Province, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Jin-Zhu",
+        "short_name": "Yin JZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Key Laboratory of Prevention and Treatment of Neurological Disease of Shanxi Provincial Health Commission, Sinopharm Tongmei General Hospital, Datong, 037003, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Dong",
+        "short_name": "Ma D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Key Laboratory of Prevention and Treatment of Neurological Disease of Shanxi Provincial Health Commission, Sinopharm Tongmei General Hospital, Datong, 037003, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Cun-Gen",
+        "short_name": "Ma CG",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China. macungen@sxtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Qing",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center of Neurobiology, the Key Research Laboratory of Benefiting Qi for Acting Blood Circulation Method to Treat Multiple, Sclerosis of State Administration of Traditional Chinese Medicine, Shanxi University of Chinese Medicine, Jinzhong, 030619, Shanxi Province, China. 4024771456@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38897145",
+      "38316552",
+      "38101906",
+      "37311820",
+      "36995411",
+      "36607588",
+      "36552611",
+      "36517604",
+      "36031304",
+      "35284989",
+      "35184353",
+      "33795012",
+      "33091175",
+      "32771668",
+      "32614160",
+      "32492806",
+      "32454942",
+      "32197226",
+      "31882398",
+      "31734402",
+      "31083577",
+      "30811744",
+      "30760327",
+      "30300457",
+      "28714395",
+      "27364743",
+      "26432481",
+      "25639799",
+      "24871874",
+      "24698730",
+      "24174971",
+      "23872599",
+      "23840922",
+      "23473637",
+      "23216836",
+      "22379455",
+      "22265211",
+      "21212348",
+      "19931190",
+      "19029990",
+      "18571839",
+      "18323559",
+      "17898760",
+      "17261780",
+      "16847777",
+      "15657292",
+      "12401408",
+      "3287615"
+    ],
+    "similar": [
+      "40598243",
+      "42475469",
+      "40916281",
+      "42284764",
+      "42565562",
+      "42421348",
+      "41508240",
+      "40968556",
+      "40091022",
+      "41940395",
+      "37246327",
+      "39004032",
+      "40967560",
+      "36532015",
+      "38679696",
+      "28088699",
+      "41094572",
+      "41895505",
+      "40078458",
+      "39586719",
+      "40628511",
+      "40374840",
+      "42327749",
+      "42377012",
+      "40216809",
+      "39172048",
+      "40754871",
+      "42015036",
+      "34536521",
+      "38650009",
+      "36193154",
+      "39403102",
+      "42537010",
+      "39341981",
+      "33215883",
+      "41866576",
+      "38696100",
+      "35709926",
+      "40332792",
+      "39556279",
+      "40406126",
+      "39756776",
+      "41909133",
+      "41342434",
+      "42518995",
+      "41816328",
+      "41044520",
+      "41151450",
+      "39351239",
+      "40196107",
+      "41107929",
+      "38549107",
+      "42520680",
+      "35877019",
+      "37128203",
+      "39512836",
+      "40836320",
+      "40574839",
+      "41324863",
+      "40312440",
+      "39512681",
+      "40918403",
+      "38062833",
+      "29874961",
+      "26151119",
+      "42363518",
+      "38994368",
+      "33517563",
+      "42166566",
+      "39870856",
+      "41418349",
+      "40790764",
+      "35278479",
+      "40975473",
+      "41362005",
+      "40859027",
+      "40186271",
+      "39466354",
+      "37033969",
+      "39075002",
+      "39975557",
+      "41291978",
+      "40241169",
+      "41162503",
+      "40331191",
+      "40821793",
+      "40694561",
+      "41189222",
+      "39391879",
+      "40151199",
+      "27256343",
+      "41052072",
+      "39062794",
+      "40775242",
+      "40804350",
+      "40289127",
+      "41902830",
+      "40901831",
+      "30142454",
+      "40263537"
+    ],
+    "review": [
+      "40598243"
+    ],
+    "pmc": [
+      "12217209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06741-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplesclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Sclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40598243/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-472",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

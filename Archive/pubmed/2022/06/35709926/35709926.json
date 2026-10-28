@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "35709926",
+    "doi": "10.1016/j.ygeno.2022.110403",
+    "title": "Identification and validation of HOXD3 and UNC5C as molecular signatures in keloid based on weighted gene co-expression network analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Keloid is a benign proliferative disease characterized by excessive deposition of extracellular matrix collagen during skin wound healing. The mechanisms of keloid formation have not been fully elucidated, and the current treatment methods are not effective for all keloid patients. Therefore, there is an urgent need to find more effective therapies, and our research focused on identifying characteristic molecular signatures of keloid to explore potential therapeutic targets. METHODS: Gene expression profiles of keloid and control group samples were retrieved from the GEO database. Taking the GSE113619 dataset as the training set, the dataset collected skin tissues from non-lesion sites of healthy and keloid-prone individuals, denoted as Day0. The second sampling was performed 42 days later at the original sampling site of control and keloid groups, denoted as Day42.The 'limma' package and Venn diagram identified differentially expressed genes (DEGs) specific to keloid day42 versus day0 samples. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), Reactome pathway functional enrichment, and annotation of the characteristic genes were conducted on the Metascape website. Ingenuity canonical pathways, disease & function enrichment analysis and gene interaction network were performed and predicted in Ingenuity Pathway Analysis (IPA) software. Key module genes related to keloid were filtered out by Weighted Gene Co-expression Network Analysis (WGCNA). We utilized the Least Absolute Shrinkage and Selection Operator (LASSO) algorithm to screen the characteristic genes in keloid by the 'glmnet' package. The area under the curve (AUC) of receiver operating characteristic (ROC) was utilized to determine the effectiveness of potential signatures in discriminating keloid samples from normal samples and performed by using the 'pROC' package. The enrich scores of 24 immune cells in each sample were calculated by the single-sample gene set enrichment analysis (ssGSEA) algorithm， and then the Gene Set Variation Analysis (GSVA) was performed. Finally, RNA from 4 normal and 6 keloid samples was extracted, and RT-qPCR and Western Blot validated the expression of characteristic genes. RESULTS: A total of 640 DEGs specific to keloid day42 versus day0 samples were detected. 69 key module genes were uncovered and implicated in 'NCAM signaling for neurite out-growth', 'oncogenic MAPK signaling', 'transmission across chemical synapses' pathways, and the mitotic cell cycle-related processes. Five characteristic genes (MTUS1, UNC5C, CEP57, NAA35, and HOXD3) of keloid were identified by LASSO, and among which UNC5C and HOXD3 were validated by ROC plot in external dataset, RT-qPCR and Western Blot in validation samples. The result of ssGSEA indicated that the infiltration of neutrophils showed a relatively higher abundance and natural killer cells with relatively low enrichment in the keloid group compared to the control group. UNC5C was correlated with more immune cells compared with other characteristic genes. CONCLUSION: In this study, characteristic genes associated with keloid were identified by bioinformatic approaches and verified in clinical validation samples, providing potential targets for the diagnosis and treatment of keloid.",
+    "keywords": [
+      "Characteristic genes",
+      "Immune infiltration",
+      "Keloid",
+      "LASSO",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "Gene Expression Regulation",
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "Homeodomain Proteins/*metabolism",
+      "Humans",
+      "*Keloid/drug therapy/genetics/pathology",
+      "Microtubule-Associated Proteins/genetics/therapeutic use",
+      "Netrin Receptors/genetics",
+      "Nuclear Proteins/genetics",
+      "Transcription Factors/*metabolism",
+      "Tumor Suppressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hanwen",
+        "Zhou, Ziheng",
+        "Liu, Yiling",
+        "Wang, Peng",
+        "Chen, Lei",
+        "Qi, Shaohai",
+        "Xie, Julin",
+        "Tang, Jinming"
+      ],
+      "short_names": [
+        "Wang H",
+        "Zhou Z",
+        "Liu Y",
+        "Wang P",
+        "Chen L",
+        "Qi S",
+        "Xie J",
+        "Tang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: wanghw56@mail.sysu.edu.cn.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: zhouzih2@mail2.sysu.edu.cn.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: wangp276@mail.sysu.edu.cn.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: chenlei8@mail.sysu.edu.cn.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: xiejulin@mail.sysu.edu.cn.",
+        "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: tangjinm@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hanwen",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: wanghw56@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ziheng",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: zhouzih2@mail2.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Yiling",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Peng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: wangp276@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Lei",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: chenlei8@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qi, Shaohai",
+        "short_name": "Qi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xie, Julin",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: xiejulin@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Jinming",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn Surgery, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, Guangdong 510080, People's Republic of China. Electronic address: tangjinm@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics"
+    ],
+    "journal_abbrev": [
+      "Genomics"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/17 06:00",
+    "fetched_at": "2026-09-28 09:44:06"
+  },
+  "links": {
+    "cites": [
+      "42479414",
+      "41562866",
+      "40658082",
+      "39478700",
+      "37973792",
+      "37605780"
+    ],
+    "refs": [],
+    "similar": [
+      "35709926",
+      "39586719",
+      "35278479",
+      "37359526",
+      "39341981",
+      "39403102",
+      "40312440",
+      "36532015",
+      "34600545",
+      "40821971",
+      "36148059",
+      "40374840",
+      "39923303",
+      "40110435",
+      "35938015",
+      "36225941",
+      "40406620",
+      "40901831",
+      "40051702",
+      "40861493",
+      "39670237",
+      "39874886",
+      "38650009",
+      "40313958",
+      "38951833",
+      "40860289",
+      "40628511",
+      "34110956",
+      "39466354",
+      "38755717",
+      "38718074",
+      "41146237",
+      "34964740",
+      "40263537",
+      "39713769",
+      "36829193",
+      "37659036",
+      "37499902",
+      "40078458",
+      "35313524",
+      "36701151",
+      "40598145",
+      "35713363",
+      "39290707",
+      "41044520",
+      "40918403",
+      "41479901",
+      "37359529",
+      "40216809",
+      "41006883",
+      "39344316",
+      "33860039",
+      "41384025",
+      "39086489",
+      "36203997",
+      "36699262",
+      "40500570",
+      "38260098",
+      "38926732",
+      "41324863",
+      "39501535",
+      "37622114",
+      "35280428",
+      "37008314",
+      "40790764",
+      "39556279",
+      "34321013",
+      "40245021",
+      "40612574",
+      "39853851",
+      "41367897",
+      "38941397",
+      "37179305",
+      "40597456",
+      "37091145",
+      "39142001",
+      "41200172",
+      "38384969",
+      "38774864",
+      "38329682",
+      "40091022",
+      "40560938",
+      "35558576",
+      "37409245",
+      "41432483",
+      "37883387",
+      "36193326",
+      "36438903",
+      "39609718",
+      "36689018",
+      "41120603",
+      "39394121",
+      "35911963",
+      "40561071",
+      "33200804",
+      "40849369",
+      "40307356",
+      "39014455",
+      "41013556",
+      "39182484"
+    ],
+    "review": [
+      "35709926"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0888-7543(22)00148-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/35709926/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NCAM1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3846",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

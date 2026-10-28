@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "38094309",
+    "doi": "10.1093/nargab/lqad106",
+    "title": "A Bayesian noisy logic model for inference of transcription factor activity from single cell and bulk transcriptomic data."
+  },
+  "content": {
+    "abstract": "The advent of high-throughput sequencing has made it possible to measure the expression of genes at relatively low cost. However, direct measurement of regulatory mechanisms, such as transcription factor (TF) activity is still not readily feasible in a high-throughput manner. Consequently, there is a need for computational approaches that can reliably estimate regulator activity from observable gene expression data. In this work, we present a noisy Boolean logic Bayesian model for TF activity inference from differential gene expression data and causal graphs. Our approach provides a flexible framework to incorporate biologically motivated TF-gene regulation logic models. Using simulations and controlled over-expression experiments in cell cultures, we demonstrate that our method can accurately identify TF activity. Moreover, we apply our method to bulk and single cell transcriptomics measurements to investigate transcriptional regulation of fibroblast phenotypic plasticity. Finally, to facilitate usage, we provide user-friendly software packages and a web-interface to query TF activity from user input differential gene expression data: https://umbibio.math.umb.edu/nlbayes/.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arriojas, Argenis",
+        "Patalano, Susan",
+        "Macoska, Jill",
+        "Zarringhalam, Kourosh"
+      ],
+      "short_names": [
+        "Arriojas A",
+        "Patalano S",
+        "Macoska J",
+        "Zarringhalam K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0479-1300",
+        "ORCID: 0000-0003-4265-5083",
+        "ORCID: 0000-0001-8471-2221",
+        "ORCID: 0000-0002-5108-8108"
+      ],
+      "affiliations": [
+        "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Department of Physics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+        "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arriojas, Argenis",
+        "short_name": "Arriojas A",
+        "identifiers": [
+          "0000-0002-0479-1300"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+          "Department of Physics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      },
+      {
+        "full_name": "Patalano, Susan",
+        "short_name": "Patalano S",
+        "identifiers": [
+          "0000-0003-4265-5083"
+        ],
+        "affiliations": [
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      },
+      {
+        "full_name": "Macoska, Jill",
+        "short_name": "Macoska J",
+        "identifiers": [
+          "0000-0001-8471-2221"
+        ],
+        "affiliations": [
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      },
+      {
+        "full_name": "Zarringhalam, Kourosh",
+        "short_name": "Zarringhalam K",
+        "identifiers": [
+          "0000-0002-5108-8108"
+        ],
+        "affiliations": [
+          "Department of Mathematics, University of Massachusetts Boston, Boston, MA 02125, USA.",
+          "Center for Personalized Cancer Therapy, University of Massachusetts Boston, Boston, MA 02125, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/14 06:41",
+    "fetched_at": "2026-10-04 22:46:56"
+  },
+  "links": {
+    "cites": [
+      "41348604",
+      "40661601",
+      "38200898"
+    ],
+    "refs": [
+      "36775059",
+      "36699385",
+      "36336232",
+      "35986369",
+      "35396533",
+      "34903606",
+      "34764023",
+      "34728784",
+      "34631571",
+      "34242623",
+      "34193535",
+      "34175897",
+      "34118488",
+      "33994367",
+      "33993470",
+      "33866450",
+      "33753923",
+      "33116572",
+      "32847860",
+      "32296329",
+      "31870423",
+      "31728204",
+      "31701125",
+      "31178118",
+      "31114921",
+      "30566875",
+      "30413482",
+      "29664468",
+      "29579454",
+      "29472636",
+      "29073372",
+      "29022597",
+      "28799433",
+      "28288100",
+      "27553489",
+      "27434301",
+      "27322546",
+      "27153652",
+      "26721596",
+      "26458763",
+      "26112290",
+      "26096166",
+      "26066708",
+      "26056275",
+      "25161226",
+      "24909161",
+      "24434011",
+      "24336805",
+      "24155666",
+      "24078682",
+      "23980595",
+      "23644553",
+      "23498934",
+      "23193258",
+      "23173053",
+      "22934649",
+      "22355083",
+      "22348444",
+      "21903631",
+      "21367870",
+      "21071392",
+      "21037926",
+      "20385836",
+      "19910308",
+      "19851314",
+      "19233245",
+      "18940858",
+      "18572414",
+      "18460200",
+      "16686963",
+      "16525643",
+      "16273092",
+      "16199517",
+      "16159925",
+      "15936931",
+      "15784747",
+      "14871865",
+      "14597652",
+      "14555958",
+      "12740579",
+      "12023297",
+      "11911796",
+      "11752324",
+      "11473015",
+      "10675351",
+      "10592173",
+      "8425219"
+    ],
+    "similar": [
+      "38094309",
+      "37205561",
+      "38653489",
+      "41288963",
+      "28961802",
+      "31701125",
+      "39833103",
+      "38886006",
+      "40654959",
+      "27519564",
+      "37079737",
+      "29178844",
+      "36326081",
+      "38940155",
+      "30547796",
+      "26678566",
+      "21172055",
+      "38861487",
+      "31099391",
+      "29769331",
+      "32409786",
+      "36790055",
+      "35783282",
+      "32858223",
+      "31790679",
+      "15166027",
+      "37607190",
+      "15784747",
+      "39082649",
+      "25957350",
+      "22647244",
+      "39679439",
+      "19036135",
+      "29506475",
+      "37537644",
+      "41022541",
+      "38771253",
+      "34251625",
+      "40832173",
+      "26679776",
+      "28294630",
+      "38252636",
+      "32615918",
+      "28617232",
+      "22931563",
+      "28068916",
+      "39574035",
+      "18426580",
+      "22563068",
+      "23079107",
+      "31842743",
+      "30725469",
+      "16131521",
+      "36147664",
+      "32690031",
+      "33821788",
+      "32174324",
+      "23161675",
+      "37577525",
+      "40662784",
+      "32804082",
+      "19045834",
+      "18586698",
+      "17500587",
+      "33877766",
+      "37546848",
+      "32357166",
+      "39570626",
+      "35392802",
+      "30573378",
+      "29051499",
+      "36779846",
+      "25707768",
+      "41231930",
+      "22106333",
+      "31455220",
+      "31964336",
+      "22456606",
+      "28666320",
+      "36778259",
+      "38806476",
+      "37938594",
+      "21586587",
+      "35961023",
+      "34039282",
+      "26072483",
+      "24565265",
+      "31857203",
+      "39705007",
+      "40661601",
+      "32054475",
+      "28587632",
+      "15890068",
+      "30458000",
+      "17244365",
+      "41067887",
+      "37682477",
+      "24608172",
+      "40205447",
+      "41310253"
+    ],
+    "review": [
+      "38094309",
+      "36147664",
+      "33877766"
+    ],
+    "pmc": [
+      "10716740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38094309/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38094309",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqad106",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

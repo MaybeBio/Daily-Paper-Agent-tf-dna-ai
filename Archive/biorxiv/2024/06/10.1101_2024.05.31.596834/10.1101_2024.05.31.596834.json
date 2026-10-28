@@ -1,0 +1,998 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.31.596834",
+  "title": "Transcription factor binding site divergence across maize inbred lines drives transcriptional and phenotypic variation",
+  "doi": "10.1101/2024.05.31.596834",
+  "abstract": "Regulatory elements are important constituents of plant genomes that have shaped ancient and modern crops. Their identification, function, and diversity in crop genomes however are poorly characterized, thus limiting our ability to harness their power for further agricultural advances using induced or natural variation. Here, we use DNA affinity purification-sequencing (DAP-seq) to map transcription factor (TF) binding events for 200 maize TFs belonging to 30 distinct families and heterodimer pairs in two distinct inbred lines historically used for maize hybrid plant production, providing empirical binding site annotation for 5.3% of the maize genome. TF binding site comparison in B73 and Mo17 inbreds reveals widespread differences, driven largely by structural variation, that correlate with gene expression changes. TF binding site presence-absence variation helps clarify complex QTL such as vgt1 , an important determinant of maize flowering time, and DICE, a distal enhancer involved in herbivore resistance. Modification of TF binding regions via CRISPR-Cas9 mediated editing alters target gene expression and phenotype. Our functional catalog of maize TF binding events enables collective and comparative TF binding analysis, and highlights its value for agricultural improvement.",
+  "authors": [
+    "Mary Galli",
+    "Zongliang Chen",
+    "Tara Ghandour",
+    "Amina Chaudhry",
+    "Jason Gregory",
+    "Miaomiao Li",
+    "Xuan Zhang",
+    "Yinxin Dong",
+    "Gaoyuan Song",
+    "Justin W. Walley",
+    "George Chuck",
+    "Clinton Whipple",
+    "Heidi F. Kaeppler",
+    "Shao-shan Carol Huang",
+    "Andrea Gallavotti"
+  ],
+  "published_date": "2024-06-03",
+  "updated_date": "2024-06-03T12:10:58Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596834",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596834.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:47:01Z",
+        "timestamp": 1782280021699,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            3
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 103,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Regulatory elements are important constituents of plant genomes that have shaped ancient and modern crops. Their identification, function, and diversity in crop genomes however are poorly characterized, thus limiting our ability to harness their power for further agricultural advances using induced or natural variation. Here, we use DNA affinity purification-sequencing (DAP-seq) to map transcription factor (TF) binding events for 200 maize TFs belonging to 30 distinct families and heterodimer pairs in two distinct inbred lines historically used for maize hybrid plant production, providing empirical binding site annotation for 5.3% of the maize genome. TF binding site comparison in B73 and Mo17 inbreds reveals widespread differences, driven largely by structural variation, that correlate with gene expression changes. TF binding site presence-absence variation helps clarify complex QTL such as\n                  <jats:italic>vgt1</jats:italic>\n                  , an important determinant of maize flowering time, and DICE, a distal enhancer involved in herbivore resistance. Modification of TF binding regions via CRISPR-Cas9 mediated editing alters target gene expression and phenotype. Our functional catalog of maize TF binding events enables collective and comparative TF binding analysis, and highlights its value for agricultural improvement.\n                </jats:p>",
+      "DOI": "10.1101/2024.05.31.596834",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2024-06-03T12:10:58Z",
+        "timestamp": 1717416658000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Transcription factor binding site divergence across maize inbred lines drives transcriptional and phenotypic variation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7413-9409",
+          "authenticated-orcid": false,
+          "given": "Mary",
+          "family": "Galli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1469-3699",
+          "authenticated-orcid": false,
+          "given": "Zongliang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tara",
+          "family": "Ghandour",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amina",
+          "family": "Chaudhry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jason",
+          "family": "Gregory",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2132-6168",
+          "authenticated-orcid": false,
+          "given": "Miaomiao",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yinxin",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gaoyuan",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7553-2237",
+          "authenticated-orcid": false,
+          "given": "Justin W.",
+          "family": "Walley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "George",
+          "family": "Chuck",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7879-235X",
+          "authenticated-orcid": false,
+          "given": "Clinton",
+          "family": "Whipple",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Heidi F.",
+          "family": "Kaeppler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7811-0398",
+          "authenticated-orcid": false,
+          "given": "Shao-shan Carol",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1901-2971",
+          "authenticated-orcid": false,
+          "given": "Andrea",
+          "family": "Gallavotti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adi5222"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.05.021"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bang, S. , X. Zhang , J. Gregory , Z. Chen , M. Galli , A. Gallavotti , and R.J. Schmitz. WUSCHEL-dependent chromatin regulation in maize inflorescence development at single-cell resolution bioRxiv 2024.05.13.593957",
+          "DOI": "10.1101/2024.05.13.593957"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad2257"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "40",
+          "DOI": "10.1016/j.tplants.2023.06.023",
+          "article-title": "Plant-TFClass: a structural classification for plant transcription factors",
+          "volume": "29",
+          "year": "2024",
+          "journal-title": "Trends Plant Sci"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.12.027"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1174276"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.12623"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cahn, Jonathan , Michael Regulski , Jason Lynn , Evan Ernst , Cristiane de Santis Alves , Srividya Ramakrishnan , Kapeel Chougule , Sharon Wei , Zhenyuan Lu , Xiaosa Xu , Jorg Drenkow , Melissa Kramer , Arun Seetharam , Matthew B. Hufford , W. Richard McCombie , Doreen Ware , David Jackson , Michael C. Schatz , Thomas R. Gingeras , and Robert A. Martienssen . 2024. ‘MaizeCODE reveals bi-directionally expressed enhancers that harbor molecular signatures of maize domestication’, bioRxiv: 2024.02.22.581585.",
+          "DOI": "10.1101/2024.02.22.581585"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "805",
+          "DOI": "10.1534/g3.114.010686",
+          "article-title": "A MITE transposon insertion is associated with differential methylation at the maize flowering time QTL Vgt1",
+          "volume": "4",
+          "year": "2014",
+          "journal-title": "G3 (Bethesda)"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1038/s41586-023-06045-0",
+          "article-title": "’A genomic mutational constraint map using variation in 76,156 human genomes’",
+          "volume": "625",
+          "author": "Consortium Genome Aggregation Database",
+          "year": "2024",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1407401112"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.067793"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2010250117"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "5366",
+          "DOI": "10.1038/s41467-022-33055-9",
+          "article-title": "Paternal imprinting of dosage-effect defective1 contributes to seed weight xenia in maize",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "de Martin, X. , R. Sodaei , and G. Santpere . 2021. ‘Mechanisms of Binding Specificity among bHLH Transcription Factors’, Int J Mol Sci, 22.",
+          "DOI": "10.3390/ijms22179150"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr070"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-02914-z"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2005014117"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.111.174748"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.23",
+          "first-page": "08",
+          "article-title": "Phenotypic variation in maize can be largely explained by genetic variation at transcription factor binding sites",
+          "volume": "2023",
+          "year": "2023",
+          "journal-title": "bioRxiv"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.106.047506"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "286",
+          "DOI": "10.1186/s12859-022-04823-7",
+          "article-title": "qRAT: an R-based stand-alone application for relative expression analysis of RT-qPCR data",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.277.5326.696"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gaillochet, C. , T. Stiehl , C. Wenzl , J. J. Ripoll , L. J. Bailey-Steinitz , L. Li , A. Pfeiffer , A. Miotk , J. P. Hakenjos , J. Forner , M. F. Yanofsky , A. Marciniak-Czochra , and J. U. Lohmann . 2017. ‘Control of plant cell fate transitions by transcriptional and hormonal signals’, Elife, 6.",
+          "DOI": "10.7554/eLife.30135"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03148"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "4526",
+          "DOI": "10.1038/s41467-018-06977-6",
+          "article-title": "The DNA binding landscape of the maize AUXIN RESPONSE FACTOR family",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/BIOINFORMATICS/BTZ931"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.111.090944"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1911-0"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.011510"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw313"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "e43",
+          "DOI": "10.1002/imt2.43",
+          "article-title": "Complex heatmap visualization",
+          "volume": "1",
+          "year": "2022",
+          "journal-title": "iMeta"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "785",
+          "DOI": "10.1038/s41586-023-06053-0",
+          "article-title": "A pan-grass transcriptome reveals patterns of cellular divergence in crops",
+          "volume": "617",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002638"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "102232",
+          "DOI": "10.1016/j.pbi.2022.102232",
+          "article-title": "Elucidating the biology of transcription factor-DNA interaction for accurate identification of cis-regulatory elements",
+          "volume": "68",
+          "year": "2022",
+          "journal-title": "Curr Opin Plant Biol"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msg088"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.40",
+          "first-page": "88",
+          "article-title": "The Arabidopsis NIMIN proteins affect NPR1 differentially",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Front Plant Sci"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abg5289"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1821",
+          "DOI": "10.1093/jxb/ery099",
+          "article-title": "MADS transcription factors cooperate: complexities of complex formation",
+          "volume": "69",
+          "year": "2018",
+          "journal-title": "J Exp Bot"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0322-6"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jores, T. , J. Tonnies , N. A. Mueth , A. Romanowski , S. Fields , J. T. Cuperus , and C. Queitsch . 2024. ‘Plant enhancers exhibit both cooperative and additive interactions among their functional elements’, Plant Cell.",
+          "DOI": "10.1093/plcell/koae088"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1711",
+          "DOI": "10.1002/prot.26257",
+          "article-title": "Applying and improving AlphaFold at CASP14",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.113985.110"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.12.032"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa729"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-12-323"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "2600",
+          "DOI": "10.1038/s41467-023-38096-2",
+          "article-title": "Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/nph.15512"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "1250",
+          "DOI": "10.1038/s41477-019-0548-z",
+          "article-title": "The prevalence, evolution and chromatin signatures of plant regulatory elements",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr189"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-012-9907-0"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2010.09.009"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-arplant-070122-030236"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.107.098558"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41592-022-01488-1"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Noshay, J. M. , Z. Liang , P. Zhou , P. A. Crisp , A. P. Marand , C. N. Hirsch , R. J. Schmitz , and N. M. Springer . 2021. ‘Stability of DNA methylation and chromatin accessibility in structurally diverse maize genomes’, G3 (Bethesda), 11.",
+          "DOI": "10.1093/g3journal/jkab190"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.08.063"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1273-4"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-02070-8"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "50",
+          "DOI": "10.1007/s11032-021-01241-0",
+          "article-title": "Genome-wide association studies of leaf angle in maize",
+          "volume": "41",
+          "year": "2021",
+          "journal-title": "Mol Breed"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku365"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "1237",
+          "DOI": "10.1038/s41477-019-0547-0",
+          "article-title": "Widespread long-range cis-regulatory elements in the maize genome",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "2505",
+          "DOI": "10.1093/plcell/koac081",
+          "article-title": "The power of classic maize mutants: Driving forward our fundamental understanding of plants",
+          "volume": "34",
+          "year": "2022",
+          "journal-title": "Plant Cell"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv007"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1754"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1525244113"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.08.030"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0704145104"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009689",
+          "DOI": "10.1371/journal.pgen.1009689",
+          "article-title": "The native cistrome and sequence motif families of the maize ear",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koab281"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa476"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "1639",
+          "DOI": "10.1093/bioinformatics/btaa1016",
+          "article-title": "Liftoff: accurate mapping of gene annotations",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.79",
+          "first-page": "1521",
+          "article-title": "’Differences in DNA Binding Specificity of Floral Homeotic Protein Complexes Predict Organ-Specific Target Genes’, Plant Cell, 29: 1822-35. Soneson, C., M. I. Love, and M. D. Robinson. 2015. ‘Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences’",
+          "volume": "4",
+          "year": "2017",
+          "journal-title": "F1000Res"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.266528.120"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.81",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Song, B. , S. Marco-Sola , M. Moreto , L. Johnson , E. S. Buckler , and M. C. Stitzer . 2022. ‘AnchorWave: Sensitive alignment of genomes with high sequence diversity, extensive structural polymorphism, and whole-genome duplication’, Proc Natl Acad Sci U S A, 119.",
+          "DOI": "10.1073/pnas.2113075119"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddw205"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2019.07.004"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0182-0"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-02063-7"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18832-8"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004845"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-120116-024846"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.109.073536"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1093/plcell/koad247",
+          "article-title": "NAKED ENDOSPERM1, NAKED ENDOSPERM2, and OPAQUE2 interact to regulate gene networks in maize endosperm development",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Plant Cell"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1902593116"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "eabm6835",
+          "DOI": "10.1126/sciadv.abm6835",
+          "article-title": "’Boundary domain genes were recruited to suppress bract growth and promote branching in maize’",
+          "volume": "8",
+          "year": "2022",
+          "journal-title": "Sci Adv"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12870-014-0327-y"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.95",
+          "doi-asserted-by": "crossref",
+          "first-page": "108",
+          "DOI": "10.1038/s41477-017-0095-4",
+          "article-title": "Control of auxin-induced callus formation by bZIP59-LBD complex in Arabidopsis regeneration",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.108.128579"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pbi.2021.102139"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv145"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.18.00392"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.275658.121"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt730"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/erv192"
+        },
+        {
+          "key": "2024060513151102000_2024.05.31.596834v1.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molp.2018.12.015"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.05.31.596834",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:55:10Z",
+        "timestamp": 1782276910000
+      },
+      "score": 100.0117,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.05.31.596834"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            3
+          ]
+        ]
+      },
+      "references-count": 103,
+      "URL": "https://doi.org/10.1101/2024.05.31.596834",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41477-025-02007-8",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, or tables were provided for evaluation
+- **Shared manuscript claim summary** The review argues that bacterial transcription factors (TFs) are promising but underexploited targets for infection control, and it surveys therapeutic strategies including small molecules, transcription factor decoys, peptides targeting TF interactions, and sigma factor targeting, while noting challenges such as target identification, intervention design, side effects, and resistance. It also claims that artificial intelligence, multidisciplinary collaboration, and policy will advance this field.
+- **Visible evidence base** Abstract text only; no citations, experimental data, case studies, or methodological details are visible
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, reference list, and any detailed examples or case studies referenced in the abstract
+
+## Reviewer
+- **Overall assessment** This is a topical and potentially useful review on an important subject, namely the exploitation of bacterial transcription factors as therapeutic targets in the era of antimicrobial resistance. The abstract conveys a clear scope and lists several intervention modalities. However, the abstract alone provides no substantive evidence, no critical evaluation of the primary literature, and no assessment of the maturity of the proposed strategies. The scientific case for the central claim, that these approaches are promising and tractable, is not established from the supplied material. The review may be of interest to specialists in bacterial gene regulation and antimicrobial drug discovery, but its value will depend entirely on the depth and rigor of the full text, which cannot be assessed here.
+- **Who would be interested in the results, and why** Researchers in bacterial pathogenesis, transcriptional regulation, antimicrobial drug discovery, and antibiotic resistance mechanisms would find this review relevant. Those working on transcription factor decoys, small molecule inhibitors of protein DNA interactions, or sigma factor targeting would also be interested. The inclusion of artificial intelligence applications may attract computational biologists and those interested in drug target prediction. The review could serve as an entry point for newcomers to the field, but its utility for experts will depend on the depth of the full text.
+- **Major strengths** The topic is timely and important given the global antibiotic resistance crisis. The abstract clearly delineates the scope and lists multiple therapeutic strategies, which suggests a structured and comprehensive approach. The inclusion of artificial intelligence and policy considerations indicates a forward looking perspective that may broaden the appeal beyond purely molecular studies.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that targeting bacterial transcription factors is a promising therapeutic strategy and that the discussed approaches, including small molecules, decoys, peptides, and sigma factor targeting, are viable avenues for infection control.  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Concern** The abstract asserts promise and viability for these strategies without presenting any supporting data, case studies, or comparative analysis. No evidence is provided for the efficacy, specificity, or in vivo feasibility of any of the proposed approaches. The claim that these strategies are "promising" is an assertion, not a demonstrated conclusion.  
+  - **Why it matters** A review that makes claims about therapeutic potential must ground those claims in the primary literature, with examples of proof of concept, limitations, and comparative assessment. Without such evidence, the central thesis is unsupported and the review risks being a list of possibilities rather than a critical synthesis.  
+  - **Resolution test** The full text must provide specific examples from the literature, with data on target validation, compound activity, selectivity, and any in vivo or clinical evidence. The review should critically assess the strength of the evidence for each strategy and clearly distinguish between established findings and speculative possibilities.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scope and depth of critical evaluation  
+  - **Claim pointer** The abstract states that the review discusses challenges including target identification, intervention design, side effects, and resistance patterns.  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Concern** The abstract lists challenges but provides no indication of how these challenges are analyzed or whether the review offers any novel insights or synthesis. Listing challenges is not the same as critically evaluating them. The abstract does not indicate whether the review compares the relative merits of different strategies, identifies knowledge gaps, or proposes priorities for future research.  
+  - **Why it matters** A review that merely enumerates challenges without analysis does not advance the field. The value of a review lies in its critical synthesis, which should help readers understand which approaches are most mature, which are most promising, and where the key bottlenecks lie.  
+  - **Resolution test** The full text should provide a structured analysis of each challenge, with examples, and should offer a comparative assessment of the strategies. The review should identify specific unresolved questions and propose testable hypotheses or research priorities.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty and added value  
+  - **Claim pointer** The abstract claims that artificial intelligence contributes to these efforts and may be exploited in the future.  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Concern** The mention of artificial intelligence is generic and does not specify which AI methods are relevant, how they have been applied, or what specific contributions they have made. The abstract does not indicate whether the review provides a substantive discussion of AI applications or merely mentions them in passing.  
+  - **Why it matters** The inclusion of AI is potentially a distinguishing feature of this review, but only if it is treated with the same rigor as the biological content. A superficial treatment would add little value and could mislead readers about the maturity of AI based approaches.  
+  - **Resolution test** The full text should provide specific examples of AI applications, such as drug target interaction prediction, structure based design, or resistance prediction, with an assessment of their current capabilities and limitations.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity and precision  
+  - **Affected element** Abstract, "ABSTRACT" section  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Issue** The abstract uses the term "transcription factor decoys" and defines it as "oligonucleotides that compete with promoters for TF binding," but it does not clarify whether this refers to double stranded DNA decoys, RNA aptamers, or other formats. The term "transcription factor decoying" in the abbreviations list is also ambiguous.  
+  - **Required correction** Define the molecular nature of the decoys more precisely in the abstract or ensure the full text provides a clear operational definition early in the review.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of scope  
+  - **Affected element** Abstract, "ABSTRACT" section  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Issue** The abstract mentions "peptides that target the interaction between the bacterial TF and other factors, such as RNA polymerase," but does not indicate whether this includes peptidomimetics, stapled peptides, or other chemical modifications.  
+  - **Required correction** Clarify the chemical nature of the peptides discussed, or state that the review covers peptide based approaches broadly.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract, "ABSTRACT" section  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Issue** The abstract lists many abbreviations, some of which are not defined in the abstract itself, such as CNN, DTI, MSA, and PROTACs. While these are defined in the abbreviations list, the abstract text uses "AI" without defining it in the abstract body.  
+  - **Required correction** Define "AI" at first use in the abstract, and consider whether all abbreviations in the list are necessary for the abstract or whether some can be moved to the full text.  
+- **Technical failings that need to be addressed before the case is established** The abstract provides no technical evidence, no data, and no critical analysis. The case for the central claim, that bacterial transcription factors are promising targets and that the discussed strategies are viable, is not established from the supplied material. The full text must provide a rigorous, evidence based synthesis of the primary literature to support this claim.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The topic is not new, as transcription factors have been discussed as drug targets in various contexts. The originality of this review will depend on whether it offers a novel synthesis, new frameworks, or fresh insights. From the abstract alone, no originality is evident.  
+  - **Scientific importance** The subject is important given the antibiotic resistance crisis. However, importance of the topic does not automatically confer importance on the review. The review must demonstrate that it provides a critical and useful synthesis that advances understanding or guides research.  
+  - **Interdisciplinary readership** The abstract touches on microbiology, molecular biology, drug discovery, and artificial intelligence, which could attract a broad readership. However, the abstract does not indicate whether the review is accessible to nonspecialists in each of these areas.  
+  - **Technical soundness** Not assessable from the abstract. The full text must be evaluated for accuracy of the biological claims, appropriate citation of the literature, and correct representation of the primary data.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses many abbreviations and assumes familiarity with bacterial transcription mechanisms. The full text will need to provide sufficient background for readers outside the immediate field.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract indicates a potentially useful review, but the scientific case for the central claims cannot be assessed without the full text. A recommendation would require access to the complete manuscript, including figures, tables, and references.
+
+## Risk / unsupported claims
+- The claim that targeting bacterial transcription factors is a promising therapeutic strategy is unsupported in the abstract, as no evidence is provided.
+- The claim that the discussed strategies, including small molecules, decoys, peptides, and sigma factor targeting, are viable avenues for infection control is unsupported.
+- The claim that artificial intelligence contributes to these efforts is unsupported, as no specific applications or results are mentioned.
+- The claim that the review discusses challenges such as side effects and resistance patterns is not verifiable from the abstract, as no analysis is presented.
+- The overall scope and depth of the review cannot be evaluated from the abstract alone.

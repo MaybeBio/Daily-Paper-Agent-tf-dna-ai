@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that DPPA3 dissociates from the PPHD domain of UHRF1 via three distinct helix-unfolding modes, identify key residue pairs and potential drug-targeting residues, and propose that these findings inform novel cancer therapeutic design targeting UHRF1.
+- **Visible evidence base** Abstract text only; methods named include SMD, cMD, SOM, TRFDA, Gromacs, and AMBER FF14SB
+- **Missing materials affecting confidence** Full methods, simulation parameters, convergence criteria, force field validation, system setup, replica details, all quantitative results, figures, tables, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on the dissociation mechanism of the UHRF1-DPPA3 complex, which is relevant to epigenetic regulation and cancer biology. However, the abstract provides insufficient methodological detail and no quantitative evidence to support the central claims. The three dissociation modes, key residue pairs, and drug-targeting residues are asserted without any reported metrics, error estimates, or validation. The study cannot be evaluated for technical soundness or reproducibility from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics, structural biologists studying epigenetic reader proteins, and medicinal chemists interested in protein-protein interaction inhibitors targeting UHRF1 for cancer therapy. The topic bridges epigenetic maintenance mechanisms and drug discovery, which may attract a broad readership in structural and chemical biology.
+- **Major strengths** The biological question is well motivated, linking DPPA3-mediated UHRF1 displacement to potential cancer therapeutic strategies. The use of multiple enhanced sampling and analysis techniques (SMD, cMD, SOM, TRFDA) suggests a comprehensive computational approach. The focus on dissociation pathways and residue-level binding patterns is mechanistically meaningful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The study reveals that DPPA3 undergoes dissociation from the C-terminal through three different modes of helix unfolding.
+  - **Evidence pointer** Abstract, methods section; location not provided
+  - **Concern** The abstract asserts three distinct helix-unfolding modes but provides no quantitative descriptors of these modes, such as structural metrics, free energy profiles, or time scales. No criteria are given for how the modes were distinguished or whether they were reproducibly observed across replicas.
+  - **Why it matters** Without defined structural or energetic criteria, the claim of three modes is not falsifiable. The central mechanistic conclusion of the study depends entirely on this classification.
+  - **Resolution test** Provide a clear operational definition of each unfolding mode, with representative structural snapshots, order parameters, and statistical reproducibility across independent replicas. Report free energy barriers or work values associated with each mode.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Key residue pairs involved in the dissociation process and potential drug-targeting residues have been identified.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract names no specific residue pairs or residues. No interaction energies, contact maps, or binding free energy contributions are reported. The term "potential drug-targeting residues" is used without any druggability assessment, such as solvent accessibility, pocket analysis, or ligandability scoring.
+  - **Why it matters** The translational claim of informing drug design requires specific, validated residue-level targets. Without named residues and supporting energetics, the claim is unfalsifiable and cannot guide experimental follow-up.
+  - **Resolution test** List the specific residue pairs with their interaction energies and persistence times. For drug-targeting residues, provide pocket analysis, solvent accessibility, and comparison with known druggable sites.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study employed SMD, cMD, SOM, and TRFDA with the AMBER FF14SB force field in Gromacs.
+  - **Evidence pointer** Abstract, methods section; location not provided
+  - **Concern** No simulation parameters are reported, including system size, water model, salt concentration, temperature coupling, pressure coupling, simulation length, number of replicas, pulling velocity or force constant for SMD, and parameters for SOM and TRFDA. No convergence or equilibration criteria are stated.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup. Without these details, the study cannot be reproduced or assessed for methodological adequacy.
+  - **Resolution test** Provide a complete methods section with all simulation parameters, system composition, and convergence checks. Include error analysis and replica counts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, context section
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "hinders the nuclear localization of UHRF1" is imprecise. DPPA3 binding to the PPHD domain is described as disrupting UHRF1 function, but the mechanistic link between nuclear localization and the PPHD interaction is not clarified.
+  - **Required correction** Specify whether DPPA3 binding directly blocks nuclear import signals or indirectly affects UHRF1 stability or chromatin association.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, methods section
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The term "time-resolved force distribution analysis" is used without definition or citation. This is not a standard method name in the field.
+  - **Required correction** Provide a brief definition or a citation to the original method paper.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, context section
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract states that drugs mimicking the DPPA3-PPHD binding pattern could offer a cancer treatment approach, but no rationale is given for why disrupting UHRF1-DNMT1 recruitment would be therapeutically beneficial in cancer.
+  - **Required correction** Add one sentence explaining the oncogenic role of UHRF1-mediated methylation maintenance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims are unsupported by quantitative evidence, and the methods are insufficiently described for reproducibility.
+- **Assessment against Nature-style criteria** Originality: moderate. The application of multi-replica MD with SOM and TRFDA to the UHRF1-DPPA3 complex is somewhat novel, but the general approach of studying protein-protein dissociation via SMD is well established. Scientific importance: potentially high given the epigenetic cancer relevance, but the abstract does not demonstrate biological validation or novel mechanistic insight beyond what is already known about DPPA3-mediated UHRF1 displacement. Interdisciplinary readership: the topic could attract structural biologists, computational chemists, and cancer biologists, but the abstract is too technical and lacks accessible context for nonspecialists. Technical soundness: not assessable from the abstract due to missing parameters and quantitative results. Readability for nonspecialists: poor. The abstract assumes familiarity with multiple specialized methods and does not explain the biological significance in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible but unverified claims. A supportive recommendation would require full access to the manuscript to assess simulation quality, statistical rigor, and the specificity of the identified residues.
+
+## Risk / unsupported claims
+- The claim of three distinct helix-unfolding modes is unsupported by any reported structural or energetic criteria.
+- The identification of key residue pairs and drug-targeting residues is unsupported by specific data.
+- The translational claim that findings inform novel drug design is speculative without experimental validation or druggability analysis.
+- The methodological adequacy of the simulations cannot be assessed due to missing parameters and convergence information.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods described in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors identify human-specific neuronal mutations within transcription factor binding sites (TFBS) in neuropsychiatric enhancers associated with autism spectrum disorder, schizophrenia, and bipolar disorder. They use molecular dynamics simulation to assess the impact of these mutations on transcription factor binding affinities, and they analyze signals of positive selection in the same enhancers, correlating selection with differential binding between human-specific and ancestral alleles.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or data are presented
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical analyses, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely hypothesis linking human-specific regulatory mutations to neuropsychiatric disease risk through altered transcription factor binding. However, the abstract provides no quantitative results, no methodological specifics, and no evidence that the stated aims were achieved. The scientific case is currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in evolutionary genomics, regulatory biology, and psychiatric genetics would be interested if the findings robustly link human-specific enhancer mutations to functional changes in transcription factor binding and positive selection. Clinicians and translational neuroscientists might also follow this work if it clarifies mechanisms of psychiatric disease risk.
+- **Major strengths** The topic is of high relevance to understanding human brain evolution and psychiatric disease etiology. The combination of evolutionary analysis (positive selection) with functional prediction (molecular dynamics) is a reasonable conceptual approach. The focus on empirically confirmed enhancers is a positive feature, assuming this is verified in the full text.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that human-specific neuronal mutations within TFBS in neuropsychiatric enhancers were identified and that their impact on binding affinities was studied via molecular dynamics simulation.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no results, no numbers, no statistical measures, and no description of the simulation outcomes. It is impossible to assess whether the mutations were actually identified, whether binding affinity changes were observed, or whether any correlation with positive selection was found.  
+  - **Why it matters** Without any reported outcomes, the core claims of the study are unverifiable. The abstract does not demonstrate that the study achieved its stated objectives.  
+  - **Resolution test** The full text must present quantitative results for mutation identification, binding affinity changes (e.g., energy differences, confidence intervals), and selection signals (e.g., test statistics, p-values), with appropriate controls and statistical rigor.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract implies that molecular dynamics simulation was used to assess binding affinity impacts and that positive selection signals were correlated with binding differences.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No methodological details are given, such as which transcription factors were studied, how enhancers were selected, how mutations were defined as human-specific, how simulations were set up and validated, or how positive selection was detected. Without this information, the reliability and reproducibility of the approach cannot be evaluated.  
+  - **Why it matters** The validity of the conclusions depends entirely on the appropriateness of the methods. The abstract does not allow any assessment of technical soundness.  
+  - **Resolution test** The full text must provide a complete methods section with clear criteria for enhancer selection, mutation calling, simulation parameters, validation of simulation results, and statistical methods for selection detection and correlation analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract states that human-specific sequence acceleration in CREs has "strongly increased the risk of developing psychiatric disorders" and that alterations in CREs have had a "drastic effect" on brain evolution.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** These statements are presented as established facts, but no evidence is provided in the abstract to support them. They appear to be background assertions rather than findings of this study, yet they are stated with strong causal language.  
+  - **Why it matters** Overstated background claims can mislead readers about the strength of existing evidence and the contribution of this study. The abstract should distinguish established knowledge from the authors' own findings.  
+  - **Resolution test** The full text should cite appropriate literature for these background claims and ensure that the abstract's language reflects the actual evidence level, avoiding unsupported causal assertions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first two sentences  
+  - **Issue** The phrase "drastic effect" is vague and not quantified.  
+  - **Required correction** Replace with a more precise description, such as "significant functional consequences" or cite specific evidence.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract mentions correlation between positive selection and binding differences but does not state the direction or significance of this correlation.  
+  - **Required correction** Provide a brief summary of the correlation result, including direction and statistical support, in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "human-specific neuronal mutations"  
+  - **Evidence pointer** Abstract, third sentence  
+  - **Issue** The term "neuronal mutations" is ambiguous; it could mean mutations in neurons or mutations affecting neuronal function.  
+  - **Required correction** Clarify the definition, e.g., "somatic mutations in neuronal genomes" or "germline mutations affecting neuronal enhancers," as appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract provides no results, no methods, and no evidence for the causal claims. The case is not established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of linking human-specific enhancer mutations to psychiatric disease via transcription factor binding is not entirely novel, but the specific combination of molecular dynamics with positive selection analysis could offer a fresh angle. Originality cannot be fully assessed without the full text.  
+  - **Scientific importance** If the findings are robust, the work could be important for understanding human brain evolution and psychiatric disease mechanisms. However, the abstract does not demonstrate the significance of the results.  
+  - **Interdisciplinary readership** The topic bridges evolutionary biology, genomics, and psychiatry, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, but the lack of results limits its appeal.  
+  - **Technical soundness** Not assessable from the abstract. No methodological details or validation are provided.  
+  - **Readability for nonspecialists** The abstract is generally readable, but some terms (e.g., "cis-regulatory elements," "transcription factor binding sites") are used without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the claims made. A decision would require the full manuscript with detailed methods, results, and statistical analyses.
+
+## Risk / unsupported claims
+- The claim that human-specific sequence acceleration in CREs "strongly increased the risk of developing psychiatric disorders" is unsupported in the abstract and appears to be a background assertion presented as fact.
+- The claim that alterations in CREs had a "drastic effect" on brain evolution is unsupported in the abstract.
+- The claim that human-specific neuronal mutations within TFBS were identified and their impact on binding affinities was studied is unverifiable without results.
+- The claim of positive selection signals in the enhancers and their correlation with binding differences is unverifiable without statistical evidence.

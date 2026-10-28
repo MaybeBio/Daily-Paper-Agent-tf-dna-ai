@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supporting information references)
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity as presented in the provided text; no external literature verification performed
+- **Shared manuscript claim summary** The authors use in silico homology modeling, molecular docking, molecular dynamics (MD) simulations, binding free energy calculations, and channel accessibility analysis to argue that pig CYP1A2 (pCYP1A2) has high binding affinity and hydroxylation potential toward both DiCDD and TCDD, but that closure of access channels (2a and S) upon ligand binding traps substrates and metabolites in the active site, explaining inefficient TCDD biodegradation.
+- **Visible evidence base** Results sections 2.1–2.5, Tables 1–4, Figures 1–8, S1–S8 Tables/Figures, Methods section 4.1–4.5
+- **Missing materials affecting confidence** Raw MD trajectory data, force field parameter files, docking pose coordinates, convergence metrics, error bars or standard deviations for binding free energies, statistical replicates, and the full set of Ramachandran/ProSA/VERIFY3D output plots are not provided. No experimental validation data are included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational investigation into the potential role of pig CYP1A2 in dioxin metabolism. The work extends the authors' prior in silico studies on CYP1A1 and CYP1B1, and the methodological pipeline is internally consistent. However, the central conclusion that channel closure "traps" metabolites and explains inefficient TCDD biodegradation is inferred from indirect metrics (channel opening frequencies) rather than direct observation of ligand egress. The absence of experimental validation, limited statistical treatment, and lack of comparison with known experimental kinetic data for CYP1A2-mediated dioxin metabolism substantially weaken the strength of the claims. The manuscript is technically sound in its computational execution but overinterprets correlative simulation data as mechanistic evidence.
+- **Who would be interested in the results, and why** Researchers in computational toxicology, cytochrome P450 enzymology, and environmental health sciences would find this work relevant. Those studying species differences in dioxin metabolism and the molecular basis of TCDD persistence in livestock animals may use these structural predictions to guide future experimental work. The comparative aspect across CYP1 family members (CYP1A1, CYP1A2, CYP1B1) in pigs is of interest to veterinary pharmacologists and food safety researchers concerned with dioxin accumulation in food-producing animals.
+- **Major strengths** The study addresses a relevant question about species-specific dioxin metabolism in pigs, an agriculturally important species. The methodological pipeline is comprehensive, combining homology modeling, docking, MD simulations, binding free energy calculations, and channel analysis. The comparison across CYP1 family members and between two dioxin congeners with different toxicity profiles is a logical design. The manuscript is clearly written and the figures appear to support the described results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that "the undesired changes in the behavior of access channels prevail over the hydroxylating potential of CYP1A2 towards TCDD and the favorable distances, ultimately trapping the metabolites at the enzyme's active site."
+  - **Evidence pointer** Section 2.5, Table 4, Figure 7
+  - **Concern** The conclusion that metabolites are "trapped" is based solely on the observation that channel S and 2a remain closed during MD simulations. No direct measurement of ligand egress, unbinding kinetics, or free energy barriers for channel opening was performed. Channel opening frequencies are indirect proxies for ligand release capability. The authors do not demonstrate that the closed channels are rate-limiting for product release, nor do they compare their simulation timescales with experimentally known catalytic turnover rates for CYP1A2.
+  - **Why it matters** The central mechanistic claim of the paper rests on this inference. Without direct evidence of trapping or a quantitative free energy analysis of the egress pathway, the conclusion remains speculative. The claim that TCDD is "sequestered" and therefore protected from other detoxifying enzymes is an extrapolation that requires experimental support.
+  - **Resolution test** The authors should either (a) perform enhanced sampling simulations (e.g., metadynamics, umbrella sampling) to compute free energy profiles for ligand egress through the identified channels, (b) provide direct evidence of ligand residence times from long-timescale simulations, or (c) temper the conclusion to state that channel closure is "consistent with" but not proof of trapping. Experimental validation using reconstituted enzyme assays with recombinant pCYP1A2 would be the definitive test.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The authors state that "pCYP1A2 demonstrated higher affinity towards DiCDD and TCDD than other pCYP1 enzymes" and imply this indicates a greater contribution of CYP1A2 to dioxin biodegradation.
+  - **Evidence pointer** Section 2.4, Table 2, S3 Table
+  - **Concern** The binding free energies are computed from a single MD simulation per complex with no reported error estimates, no replicate simulations, and no convergence analysis. The comparison with "other pCYP1 enzymes" relies on previously published data from the same group, but the methodological conditions (force field, simulation length, water model) may differ between studies, making direct comparison problematic. No experimental binding affinity data (e.g., IC50, Ki, spectral binding constants) are provided to validate the computational predictions.
+  - **Why it matters** The claim of higher affinity is a quantitative comparative statement. Without error bars or replicate simulations, the differences between complexes (e.g., -13.671 vs -12.778 kcal/mol) may not be statistically significant. The biological interpretation that higher affinity translates to greater metabolic contribution requires experimental confirmation, as binding affinity alone does not determine catalytic efficiency.
+  - **Resolution test** Provide at least three independent MD simulations per complex with standard deviations for binding free energies. Perform statistical significance testing (e.g., t-test or ANOVA) for comparisons across complexes. If possible, include experimental binding or metabolism data from recombinant pCYP1A2 to validate the computational predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The authors claim the homology model is "highly reliable" based on Ramachandran plot (94.2% favored), ProSA Z-score (-9.34), and VERIFY3D (94.0% > 0.2).
+  - **Evidence pointer** Section 2.1, S2 Figure
+  - **Concern** While the validation metrics are reported, the template selection rationale is not fully justified. The human CYP1A2 structure (2HI4) shares 81.4% sequence identity with pCYP1A2, which is reasonable, but the authors do not discuss whether the template's ligand-bound or substrate-free state was used, nor how this choice affects the docking results. The active site volume calculation (436.98 Å³) is presented without comparison to experimentally determined volumes for CYP1A2 from other species.
+  - **Why it matters** The reliability of all downstream docking and MD results depends on the quality of the homology model. If the template structure represents a different conformational state than what is relevant for dioxin binding, the predicted binding modes and channel dynamics could be artifacts.
+  - **Resolution test** Provide a detailed description of the template selection process, including alignment quality metrics (e.g., QMEAN, GMQE). Compare the active site volume with experimentally determined CYP1A2 structures. Consider performing MD simulations of the apo enzyme to assess model stability before ligand binding studies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors suggest that "the sequestration of TCDD within the pCYP1A2 may foreclose the dioxin molecule from being detoxified by other enzymes, which may be partially responsible for high toxicity of TCDD."
+  - **Evidence pointer** Section 3, Discussion
+  - **Concern** This statement extends the computational findings to a toxicological mechanism without any supporting data. The idea that CYP1A2 binding "protects" TCDD from other enzymes is speculative and not directly tested. No consideration is given to the fact that CYP1A2 is primarily hepatic and that TCDD accumulates in adipose tissue, which would require transport mechanisms not addressed here.
+  - **Why it matters** This claim has toxicological implications that go beyond the scope of the computational data. If presented without appropriate caveats, it could be misinterpreted as an established mechanism rather than a hypothesis.
+  - **Resolution test** Either remove this speculation or clearly label it as a hypothesis requiring experimental testing. If retained, the authors should discuss alternative explanations for TCDD persistence, such as slow off-rates, enterohepatic recirculation, or partitioning into lipid stores.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that channels were "closed upon binding the majority of the examined dioxins" but does not specify which dioxins did not induce closure. This is relevant because the exception may provide insight into structural determinants of channel dynamics.
+  - **Required correction** Specify which dioxin(s) did not induce channel closure and briefly note the structural basis for this difference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.4, Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** Binding free energies are reported as single values with ± values that appear to be standard errors from the BAR estimator, but the number of independent simulations is not stated. The precision implied by values like ±0.020 kcal/mol seems overly optimistic for MD-based free energy calculations.
+  - **Required correction** State the number of independent simulations and whether the reported uncertainty reflects run-to-run variability or the BAR statistical error. Consider reporting block-averaged uncertainties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The residues involved in stabilizing each dioxin are listed, but the table does not indicate which interactions are conserved across all dioxins versus specific to particular congeners. This information would help identify key anchoring residues.
+  - **Required correction** Add a column or annotation indicating which residues are common to all complexes and which are dioxin-specific.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The MD simulation protocol states 300 ns per complex but does not specify the number of replicate simulations. For a study drawing conclusions about channel dynamics, multiple independent simulations are essential to assess the robustness of the observed channel opening/closing behavior.
+  - **Required correction** State the number of replicates and, if only one simulation per complex was performed, acknowledge this as a limitation and temper the confidence in the channel dynamics conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Comparative analysis
+  - **Affected element** Section 2.3, S4 Figure
+  - **Evidence pointer** S4 Figure
+  - **Issue** The human CYP1A2 simulations are presented as a comparison, but the results are not discussed in the main text beyond a brief mention. If the human enzyme shows different channel behavior, this could be informative for understanding species differences.
+  - **Required correction** Either expand the discussion of human CYP1A2 results or remove them if they do not contribute to the main conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (trapping claim requires direct evidence or significant tempering), R1-M2 (binding affinity comparisons require error estimates and statistical testing), R1-M3 (model validation needs more detail on template selection and conformational state)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of a computational pipeline to pig CYP1A2 is novel in the species context, but the approach closely mirrors the authors' prior publications on CYP1A1 and CYP1B1, limiting conceptual novelty. Scientific importance: Moderate. The work addresses a real problem (dioxin persistence in pigs) but provides no experimental data to confirm the computational predictions, limiting immediate impact. Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational enzymologists and toxicologists; the lack of experimental validation reduces its accessibility to a broader biological audience. Technical soundness: Adequate for the computational methods employed, but the absence of replicate simulations, error analysis, and direct egress measurements undermines the strength of the central conclusion. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the significance of the findings for dioxin toxicity in pigs is not made compelling for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The computational work is competently executed, but the central mechanistic claim of metabolite trapping is not directly supported by the data presented. The manuscript would benefit from either (a) additional computational analyses (enhanced sampling, free energy profiles for egress), (b) experimental validation with recombinant enzyme assays, or (c) substantial tempering of the conclusions to match the indirect nature of the evidence. If the authors can address the blocking concerns, the work could be suitable for a specialized computational biology or toxicology journal, though it does not currently meet the bar for broad-interest publication.
+
+## Risk / unsupported claims
+- The claim that metabolites are "trapped" in the CYP1A2 active site is unsupported by direct evidence; channel closure is an indirect proxy.
+- The claim that CYP1A2 binding may "foreclose" TCDD detoxification by other enzymes is speculative and not tested.
+- The comparative statement that pCYP1A2 shows "higher affinity" than other pCYP1 enzymes lacks statistical validation and may not be robust given single simulations.
+- The assertion that the homology model is "highly reliable" is based on standard validation metrics but does not address whether the template conformational state is appropriate for the binding studies performed.
+- The functional significance of the measured distances (3.36-3.50 Å) for hydroxylation potential is inferred from literature thresholds but not experimentally confirmed for this enzyme-substrate pair.

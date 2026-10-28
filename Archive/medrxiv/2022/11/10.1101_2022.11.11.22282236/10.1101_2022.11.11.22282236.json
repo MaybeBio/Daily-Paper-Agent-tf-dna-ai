@@ -1,0 +1,491 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.11.11.22282236",
+  "title": "Integrative analysis of GWAS and co-localisation data suggests novel genes associated with age-related multimorbidity",
+  "doi": "10.1101/2022.11.11.22282236",
+  "abstract": "Advancing age is the greatest risk factor for developing multiple age-related diseases. When developing therapeutics, using a Geroscience approach to target the shared underlying pathways of ageing, rather than individual diseases, may be an effective way to treat and prevent age-related morbidity while potentially reducing the burden of polypharmacy. We harness the Open Targets Platform and Open Targets Genetics Portal to perform a systematic analysis of nearly 1,400 genome-wide association studies (GWAS) mapped to 34 age-related diseases and traits to identify genetic signals that appear to be shared between two or more of these traits. We identify 995 targets with shared genetic links to these age-related diseases and traits, which are enriched in mechanisms of ageing and include known ageing and longevity-related genes. Of these 995 genes, 128 are the target of an approved or investigational drug, 526 have experimental evidence of binding pockets or are predicted to be tractable by small molecule or antibody modality approaches, and 341 have no existing tractability evidence, representing underexplored genes which may reveal novel biological insights and therapeutic opportunities. We present these candidate targets in a web application, TargetAge, to enable the exploration and prioritisation of possible novel drug targets for age-related multimorbidity.",
+  "authors": [
+    "West CE",
+    "Karim M",
+    "Falaguera MJ",
+    "Speidel L",
+    "Green CJ",
+    "Logie L",
+    "Logie L",
+    "Schwartzentruber J",
+    "Ochoa D",
+    "Lord JM",
+    "Ferguson MAJ",
+    "Bountra C",
+    "Wilkinson GF",
+    "Vaughan B",
+    "Leach AR",
+    "Dunham I",
+    "Marsden BD"
+  ],
+  "published_date": "2022-11-13",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.11.11.22282236",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.11.11.22282236.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR570676",
+    "raw_record": {
+      "id": "PPR570676",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR570676"
+        ]
+      },
+      "doi": "10.1101/2022.11.11.22282236",
+      "title": "Integrative analysis of GWAS and co-localisation data suggests novel genes associated with age-related multimorbidity",
+      "authorString": "West CE, Karim M, Falaguera MJ, Speidel L, Green CJ, Logie L, Logie L, Schwartzentruber J, Ochoa D, Lord JM, Ferguson MAJ, Bountra C, Wilkinson GF, Vaughan B, Leach AR, Dunham I, Marsden BD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "West CE",
+            "lastName": "West",
+            "firstName": "Clare",
+            "initials": "CE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5677-8215"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, University of Oxford, Oxford, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karim M",
+            "lastName": "Karim",
+            "firstName": "Mohd",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5357-4193"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Falaguera MJ",
+            "lastName": "Falaguera",
+            "firstName": "Maria",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Speidel L",
+            "lastName": "Speidel",
+            "firstName": "Leo",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4644-8033"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Francis Crick Institute, London, UK"
+                },
+                {
+                  "affiliation": "Genetics Institute, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Green CJ",
+            "lastName": "Green",
+            "firstName": "Charlotte",
+            "initials": "CJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Drug Discovery Unit, University of Dundee, Dundee, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Logie L",
+            "lastName": "Logie",
+            "firstName": "Lisa",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4955-7427"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Drug Discovery Unit, University of Dundee, Dundee, UK"
+                },
+                {
+                  "affiliation": "Medicines Discovery Catapult, 35 Mereside Alderley Park, Macclesfield, Cheshire, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Logie L",
+            "lastName": "Logie",
+            "firstName": "Lisa",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-1148-7956"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Drug Discovery Unit, University of Dundee, Dundee, UK"
+                },
+                {
+                  "affiliation": "Medicines Discovery Catapult, 35 Mereside Alderley Park, Macclesfield, Cheshire, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schwartzentruber J",
+            "lastName": "Schwartzentruber",
+            "firstName": "Jeremy",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6183-2092"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ochoa D",
+            "lastName": "Ochoa",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lord JM",
+            "lastName": "Lord",
+            "firstName": "Janet",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research, Institute of Inflammation and Ageing, University of Birmingham, Birmingham, UK"
+                },
+                {
+                  "affiliation": "NIHR Birmingham Biomedical Research Centre, University Hospitals Birmingham NHS Foundation Trust and University of Birmingham, Birmingham, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ferguson MAJ",
+            "lastName": "Ferguson",
+            "firstName": "Michael",
+            "initials": "MAJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1321-8714"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Drug Discovery Unit, University of Dundee, Dundee, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bountra C",
+            "lastName": "Bountra",
+            "firstName": "Chas",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilkinson GF",
+            "lastName": "Wilkinson",
+            "firstName": "Graeme",
+            "initials": "GF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medicines Discovery Catapult, 35 Mereside Alderley Park, Macclesfield, Cheshire, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vaughan B",
+            "lastName": "Vaughan",
+            "firstName": "Beverley",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leach AR",
+            "lastName": "Leach",
+            "firstName": "Andrew",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8178-0253"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dunham I",
+            "lastName": "Dunham",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2525-5598"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsden BD",
+            "lastName": "Marsden",
+            "firstName": "Brian",
+            "initials": "BD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, University of Oxford, Oxford, UK"
+                },
+                {
+                  "affiliation": "Kennedy Institute of Rheumatology, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5677-8215"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8178-0253"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4644-8033"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5357-4193"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6183-2092"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1321-8714"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2525-5598"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4955-7427"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-1148-7956"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Advancing age is the greatest risk factor for developing multiple age-related diseases. When developing therapeutics, using a Geroscience approach to target the shared underlying pathways of ageing, rather than individual diseases, may be an effective way to treat and prevent age-related morbidity while potentially reducing the burden of polypharmacy. We harness the Open Targets Platform and Open Targets Genetics Portal to perform a systematic analysis of nearly 1,400 genome-wide association studies (GWAS) mapped to 34 age-related diseases and traits to identify genetic signals that appear to be shared between two or more of these traits. We identify 995 targets with shared genetic links to these age-related diseases and traits, which are enriched in mechanisms of ageing and include known ageing and longevity-related genes. Of these 995 genes, 128 are the target of an approved or investigational drug, 526 have experimental evidence of binding pockets or are predicted to be tractable by small molecule or antibody modality approaches, and 341 have no existing tractability evidence, representing underexplored genes which may reveal novel biological insights and therapeutic opportunities. We present these candidate targets in a web application, TargetAge, to enable the exploration and prioritisation of possible novel drug targets for age-related multimorbidity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206194",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/11/13/2022.11.11.22282236.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.11.22282236"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR570676"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR570676&type=FILE&fileName=EMS157072-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37749083",
+            "reference": "Scientific data. 2023 Sep;10(1):655",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS157072",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-11-14",
+      "firstPublicationDate": "2022-11-13",
+      "firstIndexDate": "2022-11-14",
+      "fullTextReceivedDate": "2022-11-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

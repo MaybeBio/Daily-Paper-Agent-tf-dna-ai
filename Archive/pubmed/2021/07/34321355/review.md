@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends referenced but not provided in full, supplementary material referenced but not provided)
+- **Assessment boundary** Assessment is limited to the provided manuscript text. Figures, tables, and supplementary appendices are referenced but not available for direct inspection. Statistical details, model architectures, and hyperparameters are described only in text.
+- **Shared manuscript claim summary** The authors propose a machine-learning framework, "single-particle diffusional fingerprinting," that extracts 17 features from single-particle tracking (SPT) trajectories, uses logistic regression with linear discriminant analysis (LDA) projection for classification and feature ranking, and demonstrates its utility across simulated data and three experimental systems (lipase variants, transcription factors, and nanoparticles in mucus).
+- **Visible evidence base** Main text descriptions of methods and results, including reported classification accuracies, F1 scores, and feature rankings. References to figures (Figs. 1–4) and supplementary materials (SI Appendix, Figs. S1–S17, Table S2) are made but their contents are not directly assessable.
+- **Missing materials affecting confidence** Full figure contents, supplementary figures and tables, detailed methods for simulation and experimental data acquisition, code implementation details, and statistical analysis specifics are not provided. This limits verification of reported quantitative results and methodological rigor.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and potentially useful framework for analyzing heterogeneous diffusion in SPT data. The idea of a unified feature-based fingerprint with interpretable feature ranking is timely and could benefit a broad community. However, the evidence provided in the text alone is insufficient to fully establish the method's robustness, generalizability, and superiority over existing approaches. Several claims regarding performance and mechanistic insight require closer scrutiny, particularly given the limited detail on validation procedures and the absence of full figure data.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, cell biology, and biophysics who use SPT to study dynamic processes such as enzyme activity, transcription factor binding, and nanoparticle transport. The framework's promise of label-agnostic, interpretable classification could appeal to those seeking to compare diffusion behaviors across systems or conditions without extensive prior modeling. Methodologists in machine learning applied to biological imaging may also find the feature engineering and benchmarking aspects relevant.
+- **Major strengths** The framework addresses a real need for generalizable, interpretable analysis of heterogeneous SPT data. The use of HMM-derived features is a thoughtful addition to capture state-shifting dynamics. The demonstration across multiple diverse systems (simulated, enzymatic, cellular, and nanoparticle) suggests potential broad applicability. The stress test against a CNN is a commendable effort to benchmark performance, even if the comparison is acknowledged as imperfect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the 17-feature set "captures most of these phenomena" (heterogeneous diffusion behaviors) and that the method "accurately classified simulated particles exhibiting different, yet overlapping speeds with varying degrees of confinement."
+  - **Evidence pointer** Results section, Concept Validation; Figures 2A–H; SI Appendix Figs. S2–S7
+  - **Concern** The text reports high classification accuracies (e.g., F1 scores of 95.7% and 91.1%) on simulated data, but the details of the simulation parameters, the range of conditions tested, and the statistical variability across replicates are not provided. The claim that the features "capture most" relevant phenomena is not quantitatively supported; no ablation study is shown to demonstrate the necessity or sufficiency of the 17 features. The stress test results are only summarized in text, with no error bars or confidence intervals reported, making it impossible to assess the robustness of the performance claims.
+  - **Why it matters** Without rigorous validation on a well-characterized simulation benchmark with known ground truth, the method's reliability for real-world SPT data remains uncertain. The lack of ablation or feature importance analysis undermines the claim that the specific feature set is optimal or comprehensive.
+  - **Resolution test** Provide full simulation details, including parameter ranges, number of replicates, and variability metrics. Include an ablation study removing individual features or feature groups to show their contribution. Report stress test results with error bars and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that fingerprinting "deconvolutes" the overlapping step-length distributions of native and L3 lipase variants, and that the mechanistic insight (L3 showing antichemotactic behavior) is a key strength of the method.
+  - **Evidence pointer** Results section, "Fingerprinting Allows for Precise Identification of Enzymes with Identical Catalytic Efficiency"; Figures 3A–E; SI Appendix Figs. S11–S12
+  - **Concern** The classification accuracy of ~82–85% for the lipase variants, while above chance, is not overwhelmingly high, and the F1 score of 65.7% is notably lower due to label imbalance. The claim that the method provides "precise identification" is overstated given these numbers. The mechanistic interpretation (antichemotaxis) is speculative and not directly tested; the link between diffusion features and enzymatic function is inferred but not experimentally validated. The comparison with LSTM and CNN shows only marginal improvement, which raises questions about the added value of the interpretable features over black-box models.
+  - **Why it matters** The scientific importance hinges on whether the method yields biologically meaningful and novel insights beyond what simpler analyses could provide. If the classification is only moderately accurate and the mechanistic conclusions are not experimentally verified, the impact is diminished.
+  - **Resolution test** Provide a more nuanced interpretation of classification performance, including discussion of error sources. Design experiments to directly test the antichemotaxis hypothesis (e.g., product inhibition assays). Compare the interpretable features against a null model or simpler baseline to demonstrate added value.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the method "generalizes across systems" based on results from three diverse experimental datasets (lipase on substrates, transcription factors in cells, nanoparticles in mucus).
+  - **Evidence pointer** Results section, "Universal Application of Fingerprinting on Multiple Diverse Systems"; Figures 4A–I; SI Appendix Figs. S13–S17
+  - **Concern** The text reports varying classification accuracies across systems (e.g., 85.1% for lipase substrates, 72.7% for transcription factors, 93% for nanoparticles), but the reasons for these differences are not systematically analyzed. The transcription factor case shows notably lower accuracy, and the authors attribute this to inherent overlap, but no quantitative analysis of feature distributions or overlap is provided. The nanoparticle case is described with mechanistic interpretations (lifting of subdiffusive state) that are not directly supported by experimental evidence beyond the feature rankings.
+  - **Why it matters** Generalizability is a central claim, but the heterogeneous performance across systems suggests the method may not be uniformly applicable. Without a deeper analysis of why performance varies, the framework's utility for new systems is uncertain.
+  - **Resolution test** Provide a systematic comparison of feature distributions and classification performance across all systems, including analysis of failure cases. Discuss potential reasons for performance differences and how the method might be adapted for systems with lower separability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Methods description
+  - **Evidence pointer** Results section, "Concept Validation"
+  - **Issue** The description of the 17 features is brief and assumes familiarity with SPT analysis. Terms like "Gaussianity," "trappedness," and "dimension" are not defined for a broader audience.
+  - **Required correction** Provide a brief definition or intuitive explanation for each feature, perhaps in a table or supplementary text, to make the framework accessible to nonspecialists.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Results section, "Concept Validation" and "Universal Application"
+  - **Issue** Reported accuracies and F1 scores are given as point estimates without confidence intervals or standard deviations. The number of replicates or cross-validation folds is mentioned but not detailed.
+  - **Required correction** Report variability metrics (e.g., standard deviation across folds or replicates) and specify the exact cross-validation scheme used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions potential improvements but does not critically address the method's limitations, such as sensitivity to trajectory length, localization error, or the choice of HMM state number.
+  - **Required correction** Add a dedicated limitations paragraph discussing these factors and how they might affect the method's applicability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of detailed simulation validation and the overinterpretation of classification performance on real data undermine the core claims. The mechanistic insights are not experimentally verified, and the generalizability claim is weakened by inconsistent performance across systems.
+- **Assessment against Nature-style criteria** Originality: The concept of a unified, interpretable feature-based fingerprint for SPT is novel and addresses a gap in the field. Scientific importance: Potentially high, as it could standardize SPT analysis, but the current evidence does not fully demonstrate transformative impact. Interdisciplinary readership: The framework could appeal to biophysicists, cell biologists, and machine learning researchers, but the presentation needs to be more accessible. Technical soundness: The approach is reasonable, but validation is incomplete, and performance claims are not fully supported. Readability for nonspecialists: The text is generally clear but lacks definitions of key terms and sufficient context for those outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The framework has clear potential, but the manuscript requires substantial additional validation and more cautious interpretation of results before the claims are fully established.
+
+## Risk / unsupported claims
+- The claim that the 17 features "capture most" heterogeneous diffusion phenomena is unsupported without an ablation study or comparison to a comprehensive feature set.
+- The mechanistic interpretation of antichemotaxis for L3 lipase is speculative and not experimentally tested.
+- The claim that the method "precisely resolved" the transcription factor overlap is not supported by the reported accuracy of 72.7% and the asymmetric classification performance.
+- The generalizability claim is weakened by the lack of systematic analysis of performance variability across systems.
+- The stress test comparison to a CNN is described only in text, with no quantitative details or statistical analysis, making the claim of "on par" performance unverifiable.

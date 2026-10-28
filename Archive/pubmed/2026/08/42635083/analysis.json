@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42635083",
+  "title": "Deciphering HPV-Associated Immune Evasion in Cervical Cancer Through Multi-Omics Profiling and Computational Screening.",
+  "authors": "Guo, Rui; He, Wenting; Liu, Xia; Zhang, Na",
+  "journal": "Analytical cellular pathology (Amsterdam)",
+  "published_date": "2026-08-24",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过多组学与机器学习筛选HPV阳性宫颈癌免疫逃逸基因，但核心是转录组与湿实验验证，缺乏蛋白质-DNA互作建模或TF-DNA结合机制研究，仅构建TF-miRNA调控网络，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Human papillomavirus (HPV) infection is a major contributor to cervical cancer (CC), yet the molecular mechanisms driving HPV-associated immune evasion remain largely undefined. METHODS: Bulk RNA-seq (The Cancer Genome Atlas [TCGA]-CESC) and single-cell RNA-seq datasets (GSE171894, GSE197461) were analyzed to elucidate transcriptional and immune landscape differences between HPV-positive and HPV-negative cervical tumors. Differentially expressed genes (DEGs) were identified using DESeq2. Functional enrichment analyses were conducted through gene set enrichment analysis (GSEA), gene ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) methodologies. Immune evasion feature genes were selected employing LASSO, Random Forest, and SVM-RFE techniques. Regulatory networks for transcription factors and miRNAs were constructed. Immune infiltration was evaluated using CIBERSORT and ssGSEA. Validation of key signature genes was performed in CC cell lines (HeLa, SiHa, C33A, and W12) via real-time quantitative polymerase chain reaction (RT-qPCR) and Western blot. The functional roles of IFNGR1 were examined through siRNA-mediated knockdown, complemented by CCK-8, colony formation, Transwell migration/invasion, and flow cytometry apoptosis assays. RESULTS: A total of 6266 DEGs effectively differentiated HPV-positive from HPV-negative tumors. HPV-positive tumors exhibited enrichment in viral infection and immune response pathways, while HPV-negative tumors demonstrated activation of oncogenic signaling. Machine learning algorithms identified IFNGR1, TRADD, and PSMB9 as immune evasion feature genes associated with HPV. Regulatory network analysis emphasized IRF1/IRF2 and several miRNAs as critical modulators. Immune infiltration analysis indicated increased infiltration of Dendritic and Plasma cells in HPV-positive tumors, correlating with TRADD expression. Kaplan-Meier analysis further showed a trend toward worse overall survival among HPV-positive patients with high IFNGR1 expression (hazard ratio [HR] = 1.78, 95% confidence interval [CI]: 0.86-3.68; log-rank p = 0.113). Notably, IFNGR1 was significantly upregulated in HPV-positive CC cell lines at both mRNA and protein levels. IFNGR1 knockdown markedly inhibited proliferation, colony formation, migration, and invasion, while enhancing apoptosis in HeLa and SiHa cells, thereby confirming its essential role in the progression of HPV-associated CC. CONCLUSION: This study identified IFNGR1 as a key immune evasion-related gene in HPV-positive CC, elucidating its regulatory network and functional contributions, while positioning it as a potential therapeutic target for HPV-associated tumors.",
+  "abstract_zh": "背景：人乳头瘤病毒（HPV）感染是宫颈癌（CC）的主要诱因，然而驱动HPV相关免疫逃逸的分子机制仍 largely 未明确。方法：分析批量RNA测序（癌症基因组图谱 [TCGA]-CESC）和单细胞RNA测序数据集（GSE171894, GSE197461），以阐明HPV阳性和HPV阴性宫颈肿瘤之间的转录及免疫景观差异。使用DESeq2鉴定差异表达基因（DEGs）。通过基因集富集分析（GSEA）、基因本体论（GO）和京都基因与基因组百科全书（KEGG）方法进行功能富集分析。采用LASSO、随机森林和SVM-RFE技术筛选免疫逃逸特征基因。构建转录因子和miRNA的调控网络。使用CIBERSORT和ssGSEA评估免疫浸润。通过实时定量聚合酶链反应（RT-qPCR）和Western blot在CC细胞系（HeLa、SiHa、C33A和W12）中验证关键特征基因。通过siRNA介导的敲低，辅以CCK-8、集落形成、Transwell迁移/侵袭和流式细胞术凋亡实验，检测IFNGR1的功能作用。结果：共6266个DEGs有效区分HPV阳性和HPV阴性肿瘤。HPV阳性肿瘤富集于病毒感染和免疫反应通路，而HPV阴性肿瘤显示致癌信号激活。机器学习算法将IFNGR1、TRADD和PSMB9鉴定为与HPV相关的免疫逃逸特征基因。调控网络分析强调IRF1/IRF2和多个miRNA为关键调控因子。免疫浸润分析显示HPV阳性肿瘤中树突细胞和浆细胞浸润增加，并与TRADD表达相关。Kaplan-Meier分析进一步显示，高IFNGR1表达的HPV阳性患者总生存期呈较差趋势（风险比 [HR] = 1.78，95%置信区间 [CI]：0.86-3.68；log-rank p = 0.113）。值得注意的是，IFNGR1在HPV阳性CC细胞系中在mRNA和蛋白水平均显著上调。IFNGR1敲低显著抑制HeLa和SiHa细胞的增殖、集落形成、迁移和侵袭，同时增强凋亡，从而确认其在HPV相关CC进展中的关键作用。结论：本研究将IFNGR1鉴定为HPV阳性CC中关键的免疫逃逸相关基因，阐明其调控网络和功能贡献，并将其定位为HPV相关肿瘤的潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42635083/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42635083/",
+  "paper_page_path": "papers/pubmed/42635083/index.html"
+}

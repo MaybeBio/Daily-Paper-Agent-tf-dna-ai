@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "41042728",
+    "doi": "10.1371/journal.pone.0333478",
+    "title": "Revealing the molecular mechanisms underlying Xuebijing against sepsis and septic acute kidney injury via bioinformatics and experimental approaches."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis and its related complication acute kidney injury (septic-AKI) are associated with high mortality and morbidity, and have become a global health challenge. Xuebijing (XBJ) injection prepared from five traditional Chinese medicines (TCM) is commonly used for clinical treatment of sepsis and septic-AKI. Yet, the underlying therapeutic mechanism of XBJ is remain elusive. This study aims to unveil the underlying mechanisms of XBJ in treating sepsis and septic-AKI. METHODS: In this study, we used network pharmacology and molecular docking to screen the core drug-disease targets and predict the potential mechanism involving in XBJ against sepsis and septic AKI. Furthermore, in vitro experiments were performed to verify the predicted results and clarify the underlying mechanism. RESULTS: Five hub targets including MMP9, TNF, IL-6, STAT3 and TP53 were identified by constructing and analyzing protein-protein interaction network. Eight key active components linking to five hub targets were also reversely screened. The results of gene ontology (GO) and pathway enrichment analysis showed that on the list of top 10 significant GO terms and pathways, most were inflammatory signaling pathways. The molecular docking results suggested that eight active components more preferentially bound to MMP9 and TNFalpha with the highest affinity. In vitro, XBJ significantly decreased the mRNA and protein levels of IL-1beta, IL-6, TNFalpha and MMP9 in HEK-293 cells exposed to lipopolysaccharides (LPS). CONCLUSIONS: XBJ exerted therapeutic effects on sepsis and septic-AKI through suppression IL-1beta/MMP9, IL-6/MMP9 and TNFalpha/MMP9 at both mRNA and protein level. This study provides a pharmacological basis for further validating the therapeutic mechanism of XBJ in treating sepsis and septic-AKI by in vitro and in vivo experiments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Sepsis/drug therapy/metabolism/genetics/complications",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use/chemistry",
+      "*Acute Kidney Injury/drug therapy/metabolism/genetics/etiology",
+      "Molecular Docking Simulation",
+      "Humans",
+      "*Computational Biology/methods",
+      "Animals",
+      "Protein Interaction Maps/drug effects",
+      "Matrix Metalloproteinase 9/metabolism/genetics",
+      "Signal Transduction/drug effects",
+      "Tumor Necrosis Factor-alpha/metabolism/genetics",
+      "Male",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "Interleukin-6/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xing",
+        "Ren, Kaiqi",
+        "Baran, Michal R",
+        "Tang, Juan",
+        "Wang, Le",
+        "Tchivelekete, Gabriel Mbuta",
+        "Guo, Yi",
+        "Bai, Yang",
+        "Yan, Weijian",
+        "Shu, Xinhua"
+      ],
+      "short_names": [
+        "Li X",
+        "Ren K",
+        "Baran MR",
+        "Tang J",
+        "Wang L",
+        "Tchivelekete GM",
+        "Guo Y",
+        "Bai Y",
+        "Yan W",
+        "Shu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3760-3019"
+      ],
+      "affiliations": [
+        "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+        "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+        "Department of Nephrology, Shaoyang University Affiliated Second Hospital, Shaoyang, Hunan, China.",
+        "Department of Biological and Biomedical Sciences, Glasgow Caledonian University, Glasgow, United Kingdom.",
+        "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+        "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+        "Department of Biological and Biomedical Sciences, Glasgow Caledonian University, Glasgow, United Kingdom.",
+        "Department of Marine Biology, Faculty of Natural Science, University of Namibe, Mocamedes, Angola.",
+        "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+        "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+        "Department of Nephrology, Shaoyang University Affiliated Second Hospital, Shaoyang, Hunan, China.",
+        "Department of Biological and Biomedical Sciences, Glasgow Caledonian University, Glasgow, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xing",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Kaiqi",
+        "short_name": "Ren K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China.",
+          "Department of Nephrology, Shaoyang University Affiliated Second Hospital, Shaoyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Baran, Michal R",
+        "short_name": "Baran MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological and Biomedical Sciences, Glasgow Caledonian University, Glasgow, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tang, Juan",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Le",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Tchivelekete, Gabriel Mbuta",
+        "short_name": "Tchivelekete GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological and Biomedical Sciences, Glasgow Caledonian University, Glasgow, United Kingdom.",
+          "Department of Marine Biology, Faculty of Natural Science, University of Namibe, Moçâmedes, Angola."
+        ]
+      },
+      {
+        "full_name": "Guo, Yi",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yang",
+        "short_name": "Bai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Innovation and Technology, PuAi Medical School, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Weijian",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Shaoyang University Affiliated Second Hospital, Shaoyang, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Xinhua",
+        "short_name": "Shu X",
+        "identifiers": [
+          "0000-0003-3760-3019"
+        ],
+        "affiliations": [
+          "Department of Biological and Biomedical Sciences, Glasgow Caledonian University, Glasgow, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 18:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40475962",
+      "39949667",
+      "39720615",
+      "39256145",
+      "39180042",
+      "39125273",
+      "39074714",
+      "39012564",
+      "38910321",
+      "38773142",
+      "38730983",
+      "38387744",
+      "38385073",
+      "38267547",
+      "38191855",
+      "38163126",
+      "37658104",
+      "37126332",
+      "37028271",
+      "37002984",
+      "36859359",
+      "36858276",
+      "36823168",
+      "36744251",
+      "36563867",
+      "36235488",
+      "36044827",
+      "36012420",
+      "35656442",
+      "35631398",
+      "35322092",
+      "35237379",
+      "35210424",
+      "34824200",
+      "34561691",
+      "34001724",
+      "33885157",
+      "33879883",
+      "33860080",
+      "33552315",
+      "33436632",
+      "33264547",
+      "32957369",
+      "32870741",
+      "32860891",
+      "32641132",
+      "32631717",
+      "32505253",
+      "31943245",
+      "31487867",
+      "31162191",
+      "30923500",
+      "30777117",
+      "30613914",
+      "30062633",
+      "29937192",
+      "29855534",
+      "29405201",
+      "29173024",
+      "28859117",
+      "27566305",
+      "27229106",
+      "26903338",
+      "26162677",
+      "21454251",
+      "20844022"
+    ],
+    "similar": [
+      "41042728",
+      "40148079",
+      "40210177",
+      "37382018",
+      "39869574",
+      "39755185",
+      "40088739",
+      "40783107",
+      "37211841",
+      "33989736",
+      "40220405",
+      "33799226",
+      "39839500",
+      "39742571",
+      "39066538",
+      "33082858",
+      "40316154",
+      "38188548",
+      "38812235",
+      "39181287",
+      "40683426",
+      "38579905",
+      "33357725",
+      "40482862",
+      "32860891",
+      "31918290",
+      "39041101",
+      "28987599",
+      "40754029",
+      "37219401",
+      "33513419",
+      "37802787",
+      "33441867",
+      "40526272",
+      "40651727",
+      "27666960",
+      "40914309",
+      "39075002",
+      "38704482",
+      "40501235",
+      "39623713",
+      "40013962",
+      "40593998",
+      "23524166",
+      "40350871",
+      "26313171",
+      "29568906",
+      "37650558",
+      "40427511",
+      "34545331",
+      "37454750",
+      "31238257",
+      "39278295",
+      "40456967",
+      "41489113",
+      "38640713",
+      "39004032",
+      "25269519",
+      "40988247",
+      "33511217",
+      "40237043",
+      "41242596",
+      "39623712",
+      "40197419",
+      "40557053",
+      "26255011",
+      "34333083",
+      "33251769",
+      "38395179",
+      "36706631",
+      "39326136",
+      "39470475",
+      "41261616",
+      "40237055",
+      "39686429",
+      "40499803",
+      "37816419",
+      "39686413",
+      "37957903",
+      "40916281",
+      "41471355",
+      "39617073",
+      "34756923",
+      "39923957",
+      "40991986",
+      "39747465",
+      "25653103",
+      "33454441",
+      "40485414",
+      "39259129",
+      "39499411",
+      "39914692",
+      "28391160",
+      "36544058",
+      "40004956",
+      "29334668",
+      "39356317",
+      "40151127",
+      "40304823",
+      "37287284"
+    ],
+    "review": [
+      "41042728",
+      "32860891"
+    ],
+    "pmc": [
+      "12494294"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0333478",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41042728/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

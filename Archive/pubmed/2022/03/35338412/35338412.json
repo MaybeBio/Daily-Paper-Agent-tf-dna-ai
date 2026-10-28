@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "35338412",
+    "doi": "10.1007/s10549-022-06569-5",
+    "title": "Targeting HIF1-alpha/miR-326/ITGA5 axis potentiates chemotherapy response in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "PURPOSE: Triple-negative breast cancer (TNBC) is the most aggressive subtype of breast cancer that is frequently treated with chemotherapy. However, many patients exhibit either de novo chemoresistance or ultimately develop resistance to chemotherapy, leading to significantly high mortality rates. Therefore, increasing the efficacy of chemotherapy has potential to improve patient outcomes. METHODS: Here, we performed whole transcriptome sequencing (both RNA and small RNA-sequencing), coupled with network simulations and patient survival data analyses to build a novel miRNA-mRNA interaction network governing chemoresistance in TNBC. We performed cell proliferation assay, Western blotting, RNAi/miRNA mimic experiments, FN coating, 3D cultures, and ChIP assays to validate the interactions in the network, and their functional roles in chemoresistance. We developed xenograft models to test the therapeutic potential of the identified key miRNA/proteins in potentiating chemoresponse in vivo. We also analyzed several patient datasets to evaluate the clinical relevance of our findings. RESULTS: We identified fibronectin (FN1) as a central chemoresistance driver gene. Overexpressing miR-326 reversed FN1-driven chemoresistance by targeting FN1 receptor, ITGA5. miR-326 was downregulated by increased hypoxia/HIF1A and ECM stiffness in chemoresistant tumors, leading to upregulation of ITGA5 and activation of the downstream FAK/Src signaling pathways. Overexpression of miR-326 or inhibition of ITGA5 overcame FN1-driven chemotherapy resistance in vitro by inhibiting FAK/Src pathway and potentiated the efficacy of chemotherapy in vivo. Importantly, lower expression of miR-326 or higher levels of predicted miR-326 target genes was significantly associated with worse overall survival in chemotherapy-treated TNBC patients. CONCLUSION: FN1 is central in chemoresistance. In chemoresistant tumors, hypoxia and resulting ECM stiffness repress the expression of the tumor suppressor miRNA, miR-326. Hence, re-expression of miR-326 or inhibition of its target ITGA5 reverses FN1-driven chemoresistance making them attractive therapeutic approaches to enhance chemotherapy response in TNBCs.",
+    "keywords": [
+      "Chemoresistance",
+      "ECM stiffness",
+      "Fibronectin",
+      "Hypoxia",
+      "Integrin",
+      "TNBC",
+      "miR-326",
+      "miRNA-mRNA network"
+    ],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Gene Expression Regulation, Neoplastic",
+      "Humans",
+      "Hypoxia/genetics",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/genetics",
+      "*Integrins/genetics",
+      "*MicroRNAs/genetics",
+      "Signal Transduction",
+      "*Triple Negative Breast Neoplasms/drug therapy/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Assidicky, Ridho",
+        "Tokat, Unal Metin",
+        "Tarman, Ibrahim Oguzhan",
+        "Saatci, Ozge",
+        "Ersan, Pelin Gulizar",
+        "Raza, Umar",
+        "Ogul, Hasan",
+        "Riazalhosseini, Yasser",
+        "Can, Tolga",
+        "Sahin, Ozgur"
+      ],
+      "short_names": [
+        "Assidicky R",
+        "Tokat UM",
+        "Tarman IO",
+        "Saatci O",
+        "Ersan PG",
+        "Raza U",
+        "Ogul H",
+        "Riazalhosseini Y",
+        "Can T",
+        "Sahin O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8033-7089"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey.",
+        "Department of Drug Discovery and Biomedical Sciences, University of South Carolina, Columbia, SC, 29208, USA.",
+        "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey.",
+        "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey.",
+        "Faculty of Computer Sciences, Ostfold University College, NO-1757, Halden, Norway.",
+        "McGill University Genome Centre, Montreal, QC, H3A 0G1, Canada.",
+        "Department of Human Genetics, McGill University, Montreal, QC, H3A 1B1, Canada.",
+        "Department of Computer Engineering, Middle East Technical University, 06800, Ankara, Turkey.",
+        "Department of Drug Discovery and Biomedical Sciences, University of South Carolina, Columbia, SC, 29208, USA. sahinozgur@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Assidicky, Ridho",
+        "short_name": "Assidicky R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Tokat, Unal Metin",
+        "short_name": "Tokat UM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Tarman, Ibrahim Oguzhan",
+        "short_name": "Tarman IO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Saatci, Ozge",
+        "short_name": "Saatci O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Discovery and Biomedical Sciences, University of South Carolina, Columbia, SC, 29208, USA."
+        ]
+      },
+      {
+        "full_name": "Ersan, Pelin Gulizar",
+        "short_name": "Ersan PG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Raza, Umar",
+        "short_name": "Raza U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Faculty of Science, Bilkent University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ogul, Hasan",
+        "short_name": "Ogul H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Computer Sciences, Østfold University College, NO-1757, Halden, Norway."
+        ]
+      },
+      {
+        "full_name": "Riazalhosseini, Yasser",
+        "short_name": "Riazalhosseini Y",
+        "identifiers": [],
+        "affiliations": [
+          "McGill University Genome Centre, Montreal, QC, H3A 0G1, Canada.",
+          "Department of Human Genetics, McGill University, Montreal, QC, H3A 1B1, Canada."
+        ]
+      },
+      {
+        "full_name": "Can, Tolga",
+        "short_name": "Can T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Middle East Technical University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Sahin, Ozgur",
+        "short_name": "Sahin O",
+        "identifiers": [
+          "0000-0002-8033-7089"
+        ],
+        "affiliations": [
+          "Department of Drug Discovery and Biomedical Sciences, University of South Carolina, Columbia, SC, 29208, USA. sahinozgur@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research and treatment"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res Treat"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/27 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "42036520",
+      "41752017",
+      "41613793",
+      "41267094",
+      "41132152",
+      "41051702",
+      "40917751",
+      "40585272",
+      "40426238",
+      "40410450",
+      "40243917",
+      "40131387",
+      "40076546",
+      "40066228",
+      "39759512",
+      "39529543",
+      "39375732",
+      "39043186",
+      "38994057",
+      "38818409",
+      "38468244",
+      "38355819",
+      "38355583",
+      "38189822",
+      "37681908",
+      "37583933",
+      "36999964",
+      "36897549",
+      "36676955",
+      "36248244",
+      "36151071"
+    ],
+    "refs": [
+      "34994984",
+      "33711961",
+      "32415208",
+      "32259782",
+      "32118030",
+      "31417861",
+      "31379925",
+      "31209222",
+      "31043590",
+      "30889378",
+      "30825473",
+      "30786188",
+      "30737233",
+      "30373556",
+      "30345906",
+      "30207593",
+      "29910657",
+      "29907753",
+      "29899867",
+      "29391599",
+      "29386221",
+      "29304770",
+      "28988530",
+      "28754000",
+      "28713953",
+      "28529556",
+      "28213554",
+      "28166248",
+      "27871300",
+      "27864348",
+      "27685444",
+      "27409664",
+      "27184417",
+      "26865249",
+      "26840018",
+      "26267216",
+      "26226356",
+      "25887482",
+      "24216697",
+      "24059244",
+      "23097228",
+      "23012306",
+      "22899222",
+      "21884641",
+      "21782234",
+      "21778573",
+      "21771909",
+      "21466972",
+      "21364938",
+      "20690820",
+      "20627072",
+      "20020197",
+      "19883630",
+      "18987634",
+      "18250347",
+      "17438091",
+      "16909208",
+      "16532342",
+      "16301537",
+      "12615733",
+      "11181773",
+      "11056166",
+      "7929152"
+    ],
+    "similar": [
+      "35338412",
+      "32415208",
+      "32495883",
+      "37081516",
+      "29964204",
+      "39327614",
+      "38355583",
+      "34935899",
+      "24788655",
+      "38396746",
+      "35985176",
+      "28054302",
+      "29971628",
+      "35703312",
+      "37378935",
+      "34863149",
+      "36949468",
+      "30336071",
+      "31926937",
+      "29748184",
+      "33918859",
+      "29258605",
+      "29310680",
+      "26799586",
+      "25888956",
+      "35130632",
+      "28571042",
+      "28423652",
+      "34685504",
+      "34062009",
+      "34624276",
+      "30945294",
+      "31473252",
+      "32939659",
+      "33648498",
+      "32125723",
+      "32866906",
+      "28036267",
+      "34324278",
+      "28629464",
+      "30098551",
+      "32292495",
+      "25069832",
+      "30092563",
+      "28213554",
+      "32174262",
+      "33428601",
+      "28038450",
+      "25583261",
+      "31841197",
+      "36999964",
+      "28173803",
+      "30744636",
+      "35179718",
+      "31196010",
+      "32629026",
+      "30362543",
+      "32972039",
+      "32058222",
+      "31692053",
+      "32074085",
+      "30497491",
+      "28086946",
+      "24632568",
+      "30269739",
+      "29126392",
+      "31402756",
+      "27842518",
+      "30618083",
+      "34326372",
+      "31693779",
+      "35706019",
+      "30042152",
+      "25228385",
+      "29281678",
+      "33664322",
+      "34162418",
+      "31004703",
+      "26825173",
+      "25889892",
+      "31295851",
+      "33042272",
+      "31310241",
+      "35345380",
+      "29793177",
+      "29864933",
+      "34969360",
+      "33495420",
+      "25920936",
+      "25451164",
+      "28724364",
+      "32104496",
+      "34440380",
+      "33461524",
+      "31308851",
+      "34061013",
+      "29924958",
+      "30624764",
+      "34168046",
+      "27404381",
+      "37716956",
+      "29662198",
+      "36552834",
+      "38982317",
+      "37114737",
+      "38081808",
+      "37458908",
+      "38383964",
+      "38480932",
+      "34326467",
+      "38969157",
+      "37559469",
+      "37443843",
+      "32471192",
+      "37424802",
+      "32784600",
+      "38639712",
+      "38536720",
+      "38472332",
+      "36050724",
+      "33674749",
+      "36791960",
+      "39043186",
+      "38254917",
+      "36041072",
+      "39306311",
+      "37791818",
+      "34359598",
+      "36358602",
+      "36479603",
+      "38868025",
+      "37397377",
+      "33053607",
+      "35672622",
+      "38672098",
+      "36824282",
+      "37391408",
+      "37196783",
+      "36230801",
+      "39390250",
+      "38133750",
+      "36483054",
+      "38357275",
+      "38047085",
+      "36798328",
+      "39037997",
+      "38929724",
+      "34225729",
+      "34195085",
+      "30487436",
+      "38510751",
+      "39336151",
+      "38798673",
+      "33718202",
+      "33316872",
+      "37873727",
+      "36307663",
+      "38153570",
+      "36686836"
+    ],
+    "review": [
+      "35338412",
+      "34440380",
+      "37114737",
+      "38639712",
+      "36791960",
+      "39306311",
+      "34359598",
+      "37397377",
+      "37196783",
+      "34225729",
+      "34195085",
+      "30487436",
+      "38510751",
+      "33718202"
+    ],
+    "pmc": [
+      "9389626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35338412/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10549-022-06569-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35338412",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1785",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

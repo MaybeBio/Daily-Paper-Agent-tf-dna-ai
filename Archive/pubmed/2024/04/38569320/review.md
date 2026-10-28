@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose a combined in silico and in vitro screening approach for natural ligands of red seabream aryl hydrocarbon receptor isoforms (rsAHR1 and rsAHR2). They report in vitro reporter gene assay results for 10 natural ligands, homology model-based docking energy calculations, correlations between docking energy and transcriptional activity, and application of Tox21 big data to validate the predictive model.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical outputs are provided
+- **Missing materials affecting confidence** Full methods, detailed experimental protocols, raw data, statistical analysis details, homology model validation metrics, docking parameters, Tox21 data processing steps, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful integrative approach for screening natural AHR ligands in a marine fish species. The combination of in vitro reporter assays, homology modeling, and Tox21 data is conceptually sound and addresses a gap in marine fish toxicology. However, the abstract lacks sufficient methodological detail and statistical context to fully evaluate the robustness of the claims. The reported correlations and group differences are promising but require verification against full data and methods.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, particularly those studying AHR-mediated effects in fish species; scientists involved in natural product screening for therapeutic or protective agents; regulatory toxicologists interested in predictive models for chemical risk assessment in marine organisms.
+- **Major strengths** The study addresses an understudied area, namely natural AHR ligand responses in marine fish. The integration of in vitro and in silico approaches with Tox21 big data is innovative and potentially transferable to other species. The use of two AHR isoforms (rsAHR1 and rsAHR2) allows for isoform-specific profiling, which is biologically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims significant correlations between docking energy and transcriptional activity (R2=0.74 for rsAHR1, R2=0.83 for rsAHR2) and a significant difference (p<0.001) between U_dock values of active and inactive compounds from Tox21 data.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports correlation coefficients and p-values without providing any information on sample sizes, statistical methods, or confidence intervals. For the correlation between docking energy and EC50, the number of compounds used is not stated. For the Tox21 comparison, the abstract states 775 active and 1085 inactive compounds, but the statistical test used is not specified. Additionally, the R2=0.45 correlation between AC50 and U_dock for human AHR is mentioned without context on the number of compounds or model fit diagnostics.
+  - **Why it matters** Without these details, the reader cannot assess whether the correlations are driven by outliers, whether the statistical assumptions are met, or whether the predictive power is practically meaningful. Overstated correlations could lead to overconfidence in the screening model.
+  - **Resolution test** Provide full statistical details including sample sizes, correlation methods (e.g., Pearson vs. Spearman), p-values with confidence intervals, and scatter plots or residual analyses. For the Tox21 comparison, specify the statistical test (e.g., Mann-Whitney U) and report effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that homology models of rsAHR1 and rsAHR2 ligand binding domains were constructed and used for docking energy calculations.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is provided on how the homology models were built, validated, or which template structures were used. The quality of homology models is critical for the reliability of docking results. Without validation metrics (e.g., Ramachandran plots, RMSD to template, or model quality scores), the docking energies may be unreliable.
+  - **Why it matters** Docking results are highly sensitive to model quality. If the homology models are poorly constructed or not validated, the reported correlations and predictive claims are not trustworthy.
+  - **Resolution test** Describe the homology modeling procedure, template selection, and model validation. Provide quality scores and, if possible, compare docking performance against known crystal structures or experimental data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that an in vitro reporter gene assay was constructed for rsAHR1 and rsAHR2 and used to measure responses of 10 natural ligands in COS-7 cells.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the assay conditions, such as ligand concentrations tested, exposure duration, cell passage number, or whether the assays were performed in replicates. The EC50 values are mentioned but not provided. Without these details, the in vitro results cannot be reproduced or compared with other studies.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The lack of experimental detail prevents independent verification and limits the utility of the data for other researchers.
+  - **Resolution test** Provide full assay protocols, including concentration ranges, number of replicates, and statistical analysis of dose-response curves. Report EC50 values with confidence intervals for each compound and isoform.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "U_dock values" is used without definition. It is unclear whether this refers to a specific docking scoring function or a custom energy calculation.
+  - **Required correction** Define U_dock explicitly, including the software and scoring function used, and clarify the units.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound list
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract lists 10 natural ligands but does not specify which compounds were used for the correlation analysis versus the Tox21 validation. It is unclear whether the same set of compounds was used for both.
+  - **Required correction** Clearly state which compounds were used in each analysis and whether the correlation was based on the 10 tested ligands or a larger set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Isoform-specific claims
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that some compounds showed isoform-specific responses, but the biological significance of these differences is not discussed. It is unclear whether these differences are statistically significant or within experimental variability.
+  - **Required correction** Provide statistical comparison of EC50 values between isoforms for each compound and discuss the potential biological implications.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical details), R1-M2 (homology model validation), R1-M3 (assay reproducibility)
+- **Assessment against Nature-style criteria** Originality: The approach of combining in vitro assays, homology modeling, and Tox21 data for a marine fish AHR is novel and addresses a clear gap. Scientific importance: The work has potential implications for environmental risk assessment and natural product screening, but the importance is not fully established from the abstract alone. Interdisciplinary readership: The topic bridges toxicology, computational biology, and marine science, which could attract a broad audience. Technical soundness: Currently not fully assessable due to missing methodological details; the reported correlations and group differences need verification. Readability for nonspecialists: The abstract is generally clear but uses technical terms (e.g., U_dock, Tox21) without sufficient explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the lack of methodological detail and statistical context prevents a full evaluation. Supportive if technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that the homology model can be utilized to predict potential transactivation of ligands is not fully supported without model validation details.
+- The claim of a significant difference (p<0.001) between active and inactive compounds is not verifiable without specifying the statistical test and effect size.
+- The claim of a significant correlation (R2=0.45) between AC50 and U_dock for human AHR is not assessable without sample size and model fit details.
+- The statement that the screening model can be a powerful tool for quantitative estimation is an overreach given the limited validation presented in the abstract.

@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "36891511",
+    "doi": "10.3389/fcell.2023.1034604",
+    "title": "Deciphering transcription factors and their corresponding regulatory elements during inhibitory interneuron differentiation using deep neural networks."
+  },
+  "content": {
+    "abstract": "During neurogenesis, the generation and differentiation of neuronal progenitors into inhibitory gamma-aminobutyric acid-containing interneurons is dependent on the combinatorial activity of transcription factors (TFs) and their corresponding regulatory elements (REs). However, the roles of neuronal TFs and their target REs in inhibitory interneuron progenitors are not fully elucidated. Here, we developed a deep-learning-based framework to identify enriched TF motifs in gene REs (eMotif-RE), such as poised/repressed enhancers and putative silencers. Using epigenetic datasets (e.g., ATAC-seq and H3K27ac/me3 ChIP-seq) from cultured interneuron-like progenitors, we distinguished between active enhancer sequences (open chromatin with H3K27ac) and non-active enhancer sequences (open chromatin without H3K27ac). Using our eMotif-RE framework, we discovered enriched motifs of TFs such as ASCL1, SOX4, and SOX11 in the active enhancer set suggesting a cooperativity function for ASCL1 and SOX4/11 in active enhancers of neuronal progenitors. In addition, we found enriched ZEB1 and CTCF motifs in the non-active set. Using an in vivo enhancer assay, we showed that most of the tested putative REs from the non-active enhancer set have no enhancer activity. Two of the eight REs (25%) showed function as poised enhancers in the neuronal system. Moreover, mutated REs for ZEB1 and CTCF motifs increased their in vivo activity as enhancers indicating a repressive effect of ZEB1 and CTCF on these REs that likely function as repressed enhancers or silencers. Overall, our work integrates a novel framework based on deep learning together with a functional assay that elucidated novel functions of TFs and their corresponding REs. Our approach can be applied to better understand gene regulation not only in inhibitory interneuron differentiation but in other tissue and cell types.",
+    "keywords": [
+      "convolution neuronal networks",
+      "deep-learning",
+      "inhibitory interneuron progenitors",
+      "non-active enhancers",
+      "predicted TF motifs",
+      "repressed enhancers"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alatawneh, Rawan",
+        "Salomon, Yahel",
+        "Eshel, Reut",
+        "Orenstein, Yaron",
+        "Birnbaum, Ramon Y"
+      ],
+      "short_names": [
+        "Alatawneh R",
+        "Salomon Y",
+        "Eshel R",
+        "Orenstein Y",
+        "Birnbaum RY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Life Sciences, Faculty of Natural Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "The Zlotowski Center for Neuroscience, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Life Sciences, Faculty of Natural Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "The Zlotowski Center for Neuroscience, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Computer Science, Bar-Ilan University, Ramat Gan, Israel.",
+        "The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, Israel.",
+        "Department of Life Sciences, Faculty of Natural Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "The Zlotowski Center for Neuroscience, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alatawneh, Rawan",
+        "short_name": "Alatawneh R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "The Zlotowski Center for Neuroscience, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Salomon, Yahel",
+        "short_name": "Salomon Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Eshel, Reut",
+        "short_name": "Eshel R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "The Zlotowski Center for Neuroscience, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Orenstein, Yaron",
+        "short_name": "Orenstein Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "Department of Computer Science, Bar-Ilan University, Ramat Gan, Israel.",
+          "The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, Israel."
+        ]
+      },
+      {
+        "full_name": "Birnbaum, Ramon Y",
+        "short_name": "Birnbaum RY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "The Zlotowski Center for Neuroscience, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cell and developmental biology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Dev Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/10 06:00",
+    "fetched_at": "2026-09-28 21:16:04"
+  },
+  "links": {
+    "cites": [
+      "42371607",
+      "41276918",
+      "40789027",
+      "39548084"
+    ],
+    "refs": [
+      "35366798",
+      "35132236",
+      "35105669",
+      "34975398",
+      "34898596",
+      "34272393",
+      "33005921",
+      "32978299",
+      "32905524",
+      "32810208",
+      "32728217",
+      "32273485",
+      "32197056",
+      "32142172",
+      "32103011",
+      "32094912",
+      "31303471",
+      "31116980",
+      "31086315",
+      "31057715",
+      "30858607",
+      "30661772",
+      "30590588",
+      "30530042",
+      "30445463",
+      "30123079",
+      "29846656",
+      "28525758",
+      "28193886",
+      "28025176",
+      "27473064",
+      "27307608",
+      "27288444",
+      "26430153",
+      "26045254",
+      "25953851",
+      "25650801",
+      "25569346",
+      "24814534",
+      "24243019",
+      "24135681",
+      "24097267",
+      "23928500",
+      "23811145",
+      "23354101",
+      "22936215",
+      "22378879",
+      "21543442",
+      "21536733",
+      "20513432",
+      "20356413",
+      "20110278",
+      "19451168",
+      "18798982",
+      "18403418",
+      "17324271",
+      "16845028",
+      "16261181",
+      "15219739",
+      "14624852",
+      "12094208",
+      "11784856",
+      "7584402",
+      "7079182"
+    ],
+    "similar": [
+      "36891511",
+      "34093640",
+      "34486522",
+      "22537144",
+      "35105669",
+      "35997250",
+      "29396371",
+      "30033119",
+      "37595278",
+      "27490187",
+      "24924197",
+      "32695760",
+      "21415370",
+      "34245617",
+      "29273624",
+      "24714811",
+      "33488675",
+      "28716036",
+      "32548603",
+      "28916725",
+      "32655276",
+      "33044128",
+      "30867030",
+      "33623376",
+      "22759862",
+      "34915843",
+      "21106759",
+      "37090616",
+      "35410161",
+      "27899510",
+      "31997540",
+      "31118064",
+      "27678375",
+      "35781353",
+      "30590588",
+      "32193341",
+      "26377945",
+      "29421235",
+      "33705711",
+      "29618724",
+      "27833659",
+      "33581335",
+      "21160473",
+      "22412381",
+      "36520922",
+      "32039697",
+      "24167291",
+      "36495874",
+      "36114445",
+      "35939709",
+      "24967590",
+      "30375457",
+      "34309923",
+      "32689977",
+      "24885402",
+      "34367256",
+      "24496624",
+      "31307522",
+      "35976093",
+      "31659164",
+      "35082832",
+      "23019145",
+      "28792889",
+      "35085847",
+      "26945717",
+      "30598689",
+      "30445463",
+      "35895229",
+      "29133016",
+      "22421546",
+      "31399133",
+      "24603674",
+      "24217919",
+      "25887857",
+      "29335803",
+      "33046126",
+      "30962180",
+      "32143622",
+      "25035418",
+      "33419386",
+      "33154111",
+      "32249388",
+      "30979870",
+      "39420601",
+      "38817966",
+      "39354714",
+      "31565573",
+      "35452598",
+      "38559211",
+      "37650118",
+      "38014229",
+      "39184348",
+      "36791193",
+      "37539835",
+      "37760334",
+      "38915713",
+      "38187673",
+      "39131276",
+      "36945628",
+      "38827400",
+      "39091835",
+      "36824858",
+      "34135941",
+      "38292477",
+      "39282388",
+      "37131697",
+      "32761099"
+    ],
+    "review": [
+      "36891511"
+    ],
+    "pmc": [
+      "9986276"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36891511/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36891511",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1536",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcell.2023.1034604",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse218668",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

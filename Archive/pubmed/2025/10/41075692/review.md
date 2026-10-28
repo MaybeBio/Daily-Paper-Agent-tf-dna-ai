@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, and supplementary figure list
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided text
+- **Shared manuscript claim summary** The authors report 5-microsecond molecular dynamics simulations of thyroid hormone receptor alpha (TRα) with and without DNA, claiming that DNA binding induces a helix-to-unwound coil transition in the polycationic hinge domain, that the hinge interacts directly with the DNA minor groove, that this interaction contributes to multivalent DNA binding, and that DNA binding induces a global closed-to-open conformational change reducing DBD-LBD contacts.
+- **Visible evidence base** Abstract, Introduction, Systems and Methods, Results and Discussion, Concluding Remarks, Supplementary Material list
+- **Missing materials affecting confidence** Figures 1-5 and Supplementary Figures S1-S6 are referenced but not provided; simulation parameter details (e.g., exact thermostat coupling, equilibration protocol, force field validation) are partially described but not fully specified; convergence analysis is referenced but not shown; alternative DNA response element simulation is mentioned but data are not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of TRα conformational dynamics in the presence and absence of DNA, with a focus on the intrinsically disordered hinge domain. The work addresses a relevant question in nuclear receptor biology, namely the role of disordered regions in DNA recognition and allosteric regulation. The simulations are long by current standards (5 μs) and the analysis is thoughtful, employing multiple complementary approaches including contact maps, network metrics, and machine learning-based dimensionality reduction. However, the manuscript has several significant limitations that affect the strength of the conclusions. The lack of experimental validation, the reliance on a single simulation per system, the absence of quantitative error analysis, and the limited discussion of force field limitations for disordered proteins are notable concerns. The claim of a helix-to-unwound transition is interesting but the evidence presented in the text is largely qualitative. The manuscript would benefit from clearer presentation of the structural ensembles, quantitative measures of the transition, and a more critical discussion of the limitations of the computational approach.
+- **Who would be interested in the results, and why** Researchers in the nuclear receptor field, particularly those interested in the role of intrinsically disordered regions in transcription factor function; computational biophysicists studying protein-DNA interactions and conformational dynamics of multidomain proteins; investigators studying allosteric regulation in nuclear receptors and the mechanism of DNA binding cooperativity. The work may also be of interest to those studying the general principles of disordered protein regions in transcriptional regulation.
+- **Major strengths** 1) The study addresses a biologically important and understudied question regarding the role of the disordered hinge domain in nuclear receptor DNA binding. 2) The simulation length (5 μs) is substantial and appropriate for studying conformational transitions in disordered regions. 3) The analysis is methodologically diverse, combining traditional contact analysis with network theory and machine learning approaches. 4) The authors make a reasonable effort to connect their findings to previous experimental observations, particularly the calorimetric studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DNA binding induces a helix-to-unwound coil transition in the hinge domain, and that this transition is functionally significant for TRα activation.
+  - **Evidence pointer** Results and Discussion, section "Helix-to-unwound coil transition of hinge segments upon DNA binding secure activation"; Figure 4
+  - **Concern** The evidence for the helix-to-unwound transition is presented qualitatively. The text describes changes in DSSP-derived secondary structure states and iPCA analysis, but no quantitative measures of the transition are provided. For example, the fraction of time spent in helical versus unwound states, the free energy difference between states, or the population distribution along the transition coordinate are not reported. The claim that this transition "secures activation" is speculative and not directly supported by the simulation data.
+  - **Why it matters** The central claim of the manuscript rests on this transition. Without quantitative characterization, the reader cannot assess the statistical significance or the thermodynamic driving force of the proposed conformational change. The functional interpretation (activation) requires experimental validation or at least a more direct mechanistic link.
+  - **Resolution test** Provide quantitative measures of secondary structure populations (e.g., time series of helix content, distributions of DSSP states) for the hinge region in both DNA-bound and DNA-free simulations. Report the free energy landscape along a relevant reaction coordinate (e.g., radius of gyration, end-to-end distance, or a contact-based coordinate). If possible, compute the population shift between helical and unwound states and estimate the statistical significance of the difference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the poly-Arg segment of the hinge has a direct and significant influence on DNA conformation, specifically inducing a bent DNA phosphate backbone.
+  - **Evidence pointer** Results and Discussion, section "The hinge-DNA interaction assists in the association of DBD and DNA"; Figure 2
+  - **Concern** The claim that the hinge induces DNA bending is based on a single simulation. The text reports reduced phosphate-phosphate distances (less than 6.2 Å compared to 6.5-7.0 Å in canonical B-form) but does not provide error estimates, comparison to control simulations (e.g., DNA alone), or analysis of the statistical significance of the observed bending. The functional relevance of this bending is also not established.
+  - **Why it matters** DNA bending by proteins is a well-studied phenomenon with important functional consequences. However, the observation of bending in a single simulation does not establish that this is a robust property of the TRα-DNA interaction. The claim of "significant influence" requires statistical support and ideally comparison with experimental data on DNA bending.
+  - **Resolution test** Perform additional simulations (at least 3 independent replicates) of the TRα-DNA complex and DNA alone. Report the distribution of phosphate-phosphate distances and bending angles with error bars. Compare the DNA conformation in the presence and absence of protein to establish that the bending is protein-induced. If possible, compare with experimental DNA bending data for TRα or related nuclear receptors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the simulations are converged and that the systems are relaxed into stable states during the 5-μs simulation.
+  - **Evidence pointer** Results and Discussion, section "Helix-to-unwound coil transition of hinge segments upon DNA binding secure activation"; Figure 5c; Supplementary Figure S6
+  - **Concern** The convergence assessment is based on visual inspection of a time-dependent projection (Figure 5c) and a root-mean-square plot (Figure S6). No quantitative convergence metrics are provided, such as block averaging, autocorrelation times, or split-sample analysis. For a disordered protein region, 5 μs may not be sufficient to achieve equilibrium sampling, and the authors do not address this possibility.
+  - **Why it matters** The conclusions about conformational transitions and population shifts depend critically on the assumption that the simulations have adequately sampled the relevant conformational space. If the simulations are not converged, the observed differences between DNA-bound and DNA-free states may reflect incomplete sampling rather than genuine physical differences.
+  - **Resolution test** Provide quantitative convergence metrics, such as the autocorrelation time of key order parameters, block-averaged estimates of observables with error bars, and a comparison of the first and second halves of the trajectory. Consider performing additional independent simulations starting from different initial conformations to assess sampling robustness.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their results "provide insight into the mechanism of DNA recognition and the resulting conformational dynamics of the TRα-DNA complex" and that the findings are applicable to both TRα and TRβ.
+  - **Evidence pointer** Abstract; Concluding Remarks
+  - **Concern** The broader significance of the findings is not clearly articulated. The authors do not discuss how their results relate to the functional outcomes of TRα activation, such as transcriptional activity, or how the proposed mechanism might be tested experimentally. The claim of applicability to TRβ is based on sequence conservation but is not directly tested.
+  - **Why it matters** For a computational study to have impact, the authors should clearly articulate the testable predictions that arise from their work and how these predictions could be validated experimentally. The current manuscript is largely descriptive and does not provide a clear path for experimental verification.
+  - **Resolution test** Add a section discussing specific experimental predictions (e.g., mutations in the hinge that would disrupt the helix-to-unwound transition and their expected effects on DNA binding or transcriptional activity). Discuss how the proposed mechanism could be tested using experimental techniques such as FRET, HDX-MS, or single-molecule studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The introduction assumes significant background knowledge in nuclear receptor biology. Terms such as "half-site," "response element," and "AF2 region" are used without adequate explanation for a general biophysics audience.
+  - **Required correction** Provide brief definitions or explanations of these terms when first introduced, or add a short background paragraph on nuclear receptor structure and function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Systems and Methods, section "Atomistic molecular dynamics simulation"
+  - **Issue** The manuscript states that "continuous simulations were chosen instead of multiple replicas of short-time simulations" but does not provide a justification for this choice or discuss the trade-offs. For disordered proteins, multiple replicas can often provide better sampling efficiency.
+  - **Required correction** Add a brief justification for the single-trajectory approach and discuss the limitations of this choice for sampling disordered regions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Systems and Methods, section "Atomistic molecular dynamics simulation"
+  - **Issue** The force field used for DNA is stated as bsc0, which is a refinement of the AMBER parm99 force field. However, the authors do not discuss the known limitations of this force field for DNA conformational dynamics, particularly regarding backbone and sugar pucker sampling.
+  - **Required correction** Add a brief discussion of force field limitations for DNA simulations and how these might affect the conclusions about DNA bending.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, section "Allostery and interdomain interaction modulated by DNA binding"
+  - **Issue** The authors report a decrease in DBD-LBD contacts upon DNA binding and interpret this as a closed-to-open transition. However, the functional significance of this transition is not discussed in detail, and the connection to the calorimetric studies is only briefly mentioned.
+  - **Required correction** Expand the discussion of the closed-to-open transition and its potential functional implications. Provide a more detailed comparison with the calorimetric data, including a discussion of the expected enthalpy and entropy changes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, section "The hinge-DNA interaction assists in the association of DBD and DNA"
+  - **Issue** The description of the contact analysis and network metrics is dense and may be difficult for readers unfamiliar with these methods to follow.
+  - **Required correction** Provide a brief intuitive explanation of the network metrics (eigenvector centrality, clustering coefficients) and what they measure in the context of protein structure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative characterization of the helix-to-unwound transition), R1-M2 (statistical support for DNA bending claim), R1-M3 (convergence assessment)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work addresses a question that has received limited attention, namely the role of the disordered hinge domain in nuclear receptor DNA binding. The application of machine learning methods to analyze conformational ensembles of disordered regions is a novel aspect. However, the overall concept of DNA-induced conformational changes in transcription factors is not new.
+  - **Scientific importance** The nuclear receptor family is of significant biological and medical importance, and understanding the mechanisms of DNA recognition and allosteric regulation has broad implications. However, the current study is largely descriptive and does not provide a clear mechanistic model that could be tested experimentally. The importance is moderate but not exceptional.
+  - **Interdisciplinary readership** The work is likely to appeal to a specialized audience of nuclear receptor biologists and computational biophysicists. The methods used (MD simulation, network analysis, machine learning) are of interest to computational biologists, but the presentation may not be accessible to a broader readership.
+  - **Technical soundness** The simulations are long and the analysis is methodologically diverse, but the lack of quantitative error analysis, convergence assessment, and multiple replicates weakens the technical foundation. The use of a single trajectory per system is a significant limitation for studying disordered regions.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes significant background knowledge in nuclear receptor biology and computational methods. The abstract is clear, but the results section is dense and may be difficult for nonspecialists to follow.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question and presents a plausible hypothesis, but the current evidence is insufficient to firmly establish the central claims. The authors should provide quantitative characterization of the proposed conformational transition, statistical support for the DNA bending observation, and a more rigorous convergence assessment. With these additions, the manuscript could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the helix-to-unwound transition "secures activation" is not directly supported by the simulation data and requires experimental validation.
+- The claim that the observed DNA bending is "significant" is not supported by statistical analysis.
+- The claim that the results are applicable to TRβ is based on sequence conservation but is not directly tested.
+- The claim that the simulations are converged is not supported by quantitative convergence metrics.
+- The statement that "the present projection provides a clear qualitative picture" of the closed-to-open dynamics is subjective and not supported by quantitative analysis.
+- The claim that the findings "corroborate previous calorimetric binding studies" is based on a qualitative comparison and requires more detailed analysis.

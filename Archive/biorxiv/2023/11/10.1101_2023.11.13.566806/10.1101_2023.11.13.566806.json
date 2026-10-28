@@ -1,0 +1,658 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.13.566806",
+  "title": "Discovering cryptic pocket opening and binding of a stimulant derivative in a vestibular site of the 5-HT <sub>3</sub> <i> <sub>A</sub> </i> receptor",
+  "doi": "10.1101/2023.11.13.566806",
+  "abstract": "Ligand-gated ion channels propagate electrochemical signals in the nervous system. A diverse set of modulators including stimulants, anesthetics, and lipids regulate their function; however, structures of ligand-bound complexes can be difficult to capture by experimental methods, particularly when binding is dynamic or transient. Here, we used computational methods and electrophysiology to identify a possible bound state of a modulatory stimulant derivative in a cryptic vestibular pocket, distinct from the orthosteric neurotransmitter binding site, of a mammalian serotonin-3A receptor. Starting from a closed-pocket experimental structure, we first applied a molecular dynamics simulations-based goal-oriented adaptive sampling method to identify possible open-pocket conformations. To find plausible ligand-binding poses, we performed Boltzmann docking, which combines traditional docking with Markov state modeling, of the newly sampled conformations. Clustering and analysis of stability and accessibility of docked poses supported a preferred binding site; we further validated this site by mutagenesis and electrophysiology, suggesting a mechanism of potentiation by stabilizing intersubunit contacts. Given the pharmaceutical relevance of serotonin-3 receptors in emesis, psychiatric and gastrointestinal diseases, characterizing relatively unexplored modulatory sites such as these could open valuable avenues to understanding conformational cycling and designing state-dependent drugs. Significance 5-HT 3A receptors receive the chemical signals of excitatory neurotransmission across the synapse in the central and peripheral nervous systems, and are involved in conditions including emesis, pain, psychiatric disorders, drug abuse, and irritable bowel syndrome. Given their pharmaceutical importance, there is great interest in understanding how and where ligands interact with these receptors. A pocket facing the extracellular vestibule of this membrane protein has been proposed as a modulatory site, but it remains largely uncharacterized in the context of structural modeling or pharmacologically relevant ligands. Here, we are able to identify and investigate binding of a stimulant derivative, 4-bromoamphetamine, in this site by using an integrative computational and experimental approach that is able to account for conformational flexibility.",
+  "authors": [
+    "Nandan Haloi",
+    "Emelia Karlsson",
+    "Marc Delarue",
+    "Rebecca J. Howard",
+    "Erik Lindahl"
+  ],
+  "published_date": "2023-11-14",
+  "updated_date": "2023-11-14T19:05:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.13.566806",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.13.566806.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:28:03Z",
+        "timestamp": 1768508883381,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            14
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 62,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Ligand-gated ion channels propagate electrochemical signals in the nervous system. A diverse set of modulators including stimulants, anesthetics, and lipids regulate their function; however, structures of ligand-bound complexes can be difficult to capture by experimental methods, particularly when binding is dynamic or transient. Here, we used computational methods and electrophysiology to identify a possible bound state of a modulatory stimulant derivative in a cryptic vestibular pocket, distinct from the orthosteric neurotransmitter binding site, of a mammalian serotonin-3A receptor. Starting from a closed-pocket experimental structure, we first applied a molecular dynamics simulations-based goal-oriented adaptive sampling method to identify possible open-pocket conformations. To find plausible ligand-binding poses, we performed Boltzmann docking, which combines traditional docking with Markov state modeling, of the newly sampled conformations. Clustering and analysis of stability and accessibility of docked poses supported a preferred binding site; we further validated this site by mutagenesis and electrophysiology, suggesting a mechanism of potentiation by stabilizing intersubunit contacts. Given the pharmaceutical relevance of serotonin-3 receptors in emesis, psychiatric and gastrointestinal diseases, characterizing relatively unexplored modulatory sites such as these could open valuable avenues to understanding conformational cycling and designing state-dependent drugs.</jats:p>\n                <jats:sec id=\"s1\">\n                  <jats:title>Significance</jats:title>\n                  <jats:p>\n                    5-HT\n                    <jats:sub>3A</jats:sub>\n                    receptors receive the chemical signals of excitatory neurotransmission across the synapse in the central and peripheral nervous systems, and are involved in conditions including emesis, pain, psychiatric disorders, drug abuse, and irritable bowel syndrome. Given their pharmaceutical importance, there is great interest in understanding how and where ligands interact with these receptors. A pocket facing the extracellular vestibule of this membrane protein has been proposed as a modulatory site, but it remains largely uncharacterized in the context of structural modeling or pharmacologically relevant ligands. Here, we are able to identify and investigate binding of a stimulant derivative, 4-bromoamphetamine, in this site by using an integrative computational and experimental approach that is able to account for conformational flexibility.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.11.13.566806",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            14
+          ]
+        ],
+        "date-time": "2023-11-14T19:05:11Z",
+        "timestamp": 1699988711000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Discovering cryptic pocket opening and binding of a stimulant derivative in a vestibular site of the 5-HT\n                  <sub>3</sub>\n                  <i>\n                    <sub>A</sub>\n                  </i>\n                  receptor"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3542-333X",
+          "authenticated-orcid": false,
+          "given": "Nandan",
+          "family": "Haloi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emelia",
+          "family": "Karlsson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Marc",
+          "family": "Delarue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2049-3378",
+          "authenticated-orcid": false,
+          "given": "Rebecca J.",
+          "family": "Howard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2734-2794",
+          "authenticated-orcid": false,
+          "given": "Erik",
+          "family": "Lindahl",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tins.2004.04.002"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.2",
+          "first-page": "160",
+          "article-title": "Principles of agonist recognition in Cys-loop receptors",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Frontiers in physiology"
+        },
+        {
+          "issue": "10",
+          "key": "2024052008000661000_2023.11.13.566806v3.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1131",
+          "DOI": "10.1016/j.str.2020.07.004",
+          "article-title": "The binding of palonosetron and other antiemetic drugs to the serotonin 5-HT3 receptor",
+          "volume": "28",
+          "year": "2020",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2018.03.006"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/pr.117.014449"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2654-5"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu, H. , Nemecz, Á , Van Renterghem, C. , Fourati, Z. , Sauguet, L. , Corringer, P.-J. , Delarue, M. : Crystal structures of a pentameric ion channel gated by alkaline pH show a widely open pore and identify a cavity for modulation. Proceedings of the National Academy of Sciences 115(17) (2018)",
+          "DOI": "10.1073/pnas.1717700115"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.05.02.592243"
+        },
+        {
+          "issue": "44",
+          "key": "2024052008000661000_2023.11.13.566806v3.9",
+          "first-page": "3028",
+          "article-title": "Pentameric ligand-gated ion channel ELIC is activated by GABA and modulated by benzodiazepines",
+          "volume": "109",
+          "year": "2012",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "issue": "12",
+          "key": "2024052008000661000_2023.11.13.566806v3.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "2447",
+          "DOI": "10.1113/JP283765",
+          "article-title": "Fumarate as positive modulator of allosteric transitions in the pentameric ligand-gated ion channel GLIC: Requirement of an intact vestibular pocket",
+          "volume": "601",
+          "year": "2023",
+          "journal-title": "The Journal of physiology"
+        },
+        {
+          "issue": "7",
+          "key": "2024052008000661000_2023.11.13.566806v3.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "668",
+          "DOI": "10.1107/S205979832000772X",
+          "article-title": "Structural evidence for the binding of monocarboxylates and dicarboxylates at pharmacologically relevant extracellular sites of a pentameric ligand-gated ion channel",
+          "volume": "76",
+          "year": "2020",
+          "journal-title": "Acta crystallographica section D: Structural Biology"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Renterghem, C.V. , Nemecz, A. , Madjebeur, K. , Corringer, P.-J .: Short-chain mono-carboxylates as negative modulators of allosteric transitions in glic, and impact of a pre-β5 strand (loop ω) double mutation on crotonate, not butyrate effect. Physiological reports 12, 15916 (2024)",
+          "DOI": "10.14814/phy2.15916"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brams, M. , Govaerts, C. , Kambara, K. , Price, K.L. , Spurny, R. , Gharpure, A. , Pardon, E. , Evans, G.L. , Bertrand, D. , Lummis, S.C. , Hibbs, R.E. , Steyaert, J. , Ulens, C .: Modulation of the Erwinia ligand-gated ion channel (ELIC) and the 5-HT3 receptor via a common vestibule site. eLife 9, 51511 (2020)",
+          "DOI": "10.7554/eLife.51511"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19785"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0081-7"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14853"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13552"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b05425"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meller, A. , Ward, M.D. , Borowsky, J.H. , Lotthammer, J.M. , Kshirsagar, M. , Oviedo, F. , Ferres, J.L. , Bowman, G .: Predicting the locations of cryptic pockets from single protein structures using the PocketMiner graph neural network. Biophysical journal 122(3), 445 (2023)",
+          "DOI": "10.1016/j.bpj.2022.11.2400"
+        },
+        {
+          "issue": "14",
+          "key": "2024052008000661000_2023.11.13.566806v3.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "4355",
+          "DOI": "10.1021/acs.jctc.2c01189",
+          "article-title": "Accelerating cryptic pocket discovery using AlphaFold",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "issue": "3",
+          "key": "2024052008000661000_2023.11.13.566806v3.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1021/acs.accounts.9b00613",
+          "article-title": "Investigating cryptic binding sites by molecular dynamics simulations",
+          "volume": "53",
+          "year": "2020",
+          "journal-title": "Accounts of chemical research"
+        },
+        {
+          "issue": "12",
+          "key": "2024052008000661000_2023.11.13.566806v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "5747",
+          "DOI": "10.1021/acs.jctc.5b00737",
+          "article-title": "FAST conformational searches by balancing exploration/exploitation trade-offs",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-1"
+        },
+        {
+          "issue": "7730",
+          "key": "2024052008000661000_2023.11.13.566806v3.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1038/s41586-018-0660-7",
+          "article-title": "Cryo-EM reveals two distinct serotonin-bound conformations of full-length 5-HT3A receptor",
+          "volume": "563",
+          "year": "2018",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hart, K.M. , Ho, C.M. , Dutta, S. , Gross, M.L. , Bowman, G.R .: Modelling proteins’ hidden conformations to predict antibiotic resistance. Nature communications 7(1), 12965 (2016)",
+          "DOI": "10.1038/ncomms12965"
+        },
+        {
+          "issue": "1",
+          "key": "2024052008000661000_2023.11.13.566806v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1038/nmeth.4067",
+          "article-title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci3003649"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21367"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300363c"
+        },
+        {
+          "issue": "1",
+          "key": "2024052008000661000_2023.11.13.566806v3.30",
+          "first-page": "528",
+          "article-title": "ff19SB: Amino-acid-specific protein backbone parameters trained against quantum mechanics energy surfaces in solution",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, X. , Man, V.H. , Yang, W. , Lee, T.-S. , Wang, J .: A fast and high-quality charge model for the next generation general AMBER force field. The Journal of chemical physics 153(11) (2020)",
+          "DOI": "10.1063/5.0019056"
+        },
+        {
+          "issue": "10",
+          "key": "2024052008000661000_2023.11.13.566806v3.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1002708",
+          "DOI": "10.1371/journal.pcbi.1002708",
+          "article-title": "CAVER 3.0: a tool for the analysis of transport pathways in dynamic protein structures",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "7730",
+          "key": "2024052008000661000_2023.11.13.566806v3.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "275",
+          "DOI": "10.1038/s41586-018-0672-3",
+          "article-title": "Conformational transitions of the serotonin 5-HT3 receptor",
+          "volume": "563",
+          "year": "2018",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167128"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cruz, M.A. , Frederick, T.E. , Mallimadugula, U.L. , Singh, S. , Vithani, N. , Zimmerman, M.I. , Porter, J.R. , Moeder, K.E. , Amarasinghe, G.K. , Bowman, G.R .: A cryptic pocket in ebola VP35 allosterically controls RNA binding. Nature Communications 13(2269) (2022)",
+          "DOI": "10.1038/s41467-022-29927-9"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "651",
+          "DOI": "10.1038/s41557-021-00707-0",
+          "article-title": "SARS-CoV-2 simulations go exascale to predict dramatic spike opening and cryptic pockets across the proteome",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Nature Chemistry"
+        },
+        {
+          "issue": "615",
+          "key": "2024052008000661000_2023.11.13.566806v3.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "7315",
+          "DOI": "10.1126/scisignal.aay7315",
+          "article-title": "Spatial and temporal alterations in protein structure by EGF regulate cryptic cysteine oxidation",
+          "volume": "13",
+          "year": "2020",
+          "journal-title": "Science signaling"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0269881113482532"
+        },
+        {
+          "issue": "3",
+          "key": "2024052008000661000_2023.11.13.566806v3.40",
+          "first-page": "581",
+          "article-title": "Comparison between the neurotoxic and serotonin-depleting effects of various halogenated derivatives of amphetamine in the rat",
+          "volume": "202",
+          "year": "1977",
+          "journal-title": "Journal of pharmacology and experimental therapeutics"
+        },
+        {
+          "issue": "10",
+          "key": "2024052008000661000_2023.11.13.566806v3.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "739",
+          "DOI": "10.1016/0028-3908(75)90099-4",
+          "article-title": "Comparison of 4-chloro-, 4-bromo- and 4-fluoroamphetamine in rats: drug levels in brain and effects on brain serotonin metabolism",
+          "volume": "14",
+          "year": "1975",
+          "journal-title": "Neuropharmacology"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1007/s13181-013-0295-x",
+          "article-title": "2c or not 2c: phenethylamine designer drug review",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of Medical Toxicology"
+        },
+        {
+          "issue": "1",
+          "key": "2024052008000661000_2023.11.13.566806v3.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "130",
+          "DOI": "10.1016/j.str.2019.10.019",
+          "article-title": "A refined open state of the glycine receptor obtained via molecular dynamics simulations",
+          "volume": "28",
+          "year": "2020",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-070317-033349"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2017.10.017"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20945"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c01388"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0909088106"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bowman, G.R. , Pande, V.S. , Nóe, F. : An introduction to markov state models and their application to long timescale molecular simulation. Springer Science & Business Media 797 (2013)",
+          "DOI": "10.1007/978-94-007-7606-7"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0905466106"
+        },
+        {
+          "issue": "11",
+          "key": "2024052008000661000_2023.11.13.566806v3.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "5525",
+          "DOI": "10.1021/acs.jctc.5b00743",
+          "article-title": "PyEMMA 2: A software package for estimation, validation, and analysis of Markov models",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0018516"
+        },
+        {
+          "issue": "23",
+          "key": "2024052008000661000_2023.11.13.566806v3.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "7830",
+          "DOI": "10.1021/jp101759q",
+          "article-title": "Update of the CHARMM all-atom additive force field for lipids: validation on six lipid types",
+          "volume": "114",
+          "year": "2010",
+          "journal-title": "The journal of physical chemistry B"
+        },
+        {
+          "issue": "7",
+          "key": "2024052008000661000_2023.11.13.566806v3.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "3908",
+          "DOI": "10.1021/acs.jctc.1c00219",
+          "article-title": "Accuracy of alternate nonpolarizable force fields for the determination of protein-ligand binding affinities dominated by cation-π interactions",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.45.1196"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bussi, G. , Donadio, D. , Parrinello, M .: Canonical sampling through velocity rescaling. The Journal of chemical physics 126(1), 014101 (2007)",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "issue": "1",
+          "key": "2024052008000661000_2023.11.13.566806v3.61",
+          "first-page": "82",
+          "article-title": "PyMOL: An open-source molecular graphics tool",
+          "volume": "40",
+          "year": "2002",
+          "journal-title": "CCP4 Newsl. Protein Crystallogr"
+        },
+        {
+          "key": "2024052008000661000_2023.11.13.566806v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.9.11.1106"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.13.566806",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:31:01Z",
+        "timestamp": 1768455061000
+      },
+      "score": 83.15765,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.13.566806"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            14
+          ]
+        ]
+      },
+      "references-count": 62,
+      "URL": "https://doi.org/10.1101/2023.11.13.566806",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

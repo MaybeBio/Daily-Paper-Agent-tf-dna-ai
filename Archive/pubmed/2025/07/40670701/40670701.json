@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40670701",
+    "doi": "10.1038/s41698-025-01039-9",
+    "title": "Identifying the crucial oncogenic mechanisms of DDX56 based on a machine learning-based integration model of RNA-binding proteins."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins (RBPs) play a fundamental role in cellular metabolism, with their disturbance leading to large-scale transcriptomic dysregulation. RBP dysregulation is highly prevalent in human cancers; however, its role in lung adenocarcinoma (LUAD) has not been systematically investigated. To establish a more effective and robust risk model, a machine learning integration program was used to screen hub prognostic RBPs. Our risk model C-index performed extremely well among 103 published signatures. The high-risk group had a lower immune score and worse immunotherapy effects. As one of the members of the RNA helicase family, DDX56 can interact with certain transcription factors, thereby regulating the expression of its downstream targets. DDX56 exerts an anti-apoptotic effect and reduces the sensitivity to carboplatin treatment by promoting Bcl-2 transcription in LUAD cells. Additionally, DDX56 activates NF-kB signaling pathways, which may be related to DDX56-mediated promotion of Bcl-2 transcription, proliferation, migration, and invasion in LUAD patients.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Hui",
+        "Zheng, Haotian",
+        "Zhao, Xinjie",
+        "Xiang, Yunzhi",
+        "Li, Jiahao",
+        "Wang, Kai",
+        "Wang, Guanghui",
+        "Du, Jiajun"
+      ],
+      "short_names": [
+        "Jiang H",
+        "Zheng H",
+        "Zhao X",
+        "Xiang Y",
+        "Li J",
+        "Wang K",
+        "Wang G",
+        "Du J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Healthcare Respiratory Medicine, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. wangguanghui66@email.sdu.edu.cn.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. wangguanghui66@email.sdu.edu.cn.",
+        "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. dujiajun@sdu.edu.cn.",
+        "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. dujiajun@sdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Hui",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Haotian",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xinjie",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Yunzhi",
+        "short_name": "Xiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiahao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Healthcare Respiratory Medicine, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guanghui",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. wangguanghui66@email.sdu.edu.cn.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. wangguanghui66@email.sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Du, Jiajun",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. dujiajun@sdu.edu.cn.",
+          "Institute of Oncology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China. dujiajun@sdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ precision oncology"
+    ],
+    "journal_abbrev": [
+      "NPJ Precis Oncol"
+    ],
+    "pub_date": "2025 Jul 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 04:41",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "42256294"
+    ],
+    "refs": [
+      "37469018",
+      "37029300",
+      "36568395",
+      "36168636",
+      "35581936",
+      "35145098",
+      "35022268",
+      "34801937",
+      "34518686",
+      "34260682",
+      "34216543",
+      "33538338",
+      "33153817",
+      "32649874",
+      "32303702",
+      "32300195",
+      "31390121",
+      "31187116",
+      "31126321",
+      "30609930",
+      "29364287",
+      "29141660",
+      "29130882",
+      "29092952",
+      "27908289",
+      "27765066",
+      "26632259",
+      "25822800",
+      "25365966",
+      "25079552",
+      "23044990",
+      "21779027",
+      "21272652",
+      "19811770",
+      "18281659",
+      "18056200",
+      "16141059",
+      "15868425",
+      "15574591",
+      "15020613",
+      "11704864",
+      "11416181"
+    ],
+    "similar": [
+      "40670701",
+      "35723050",
+      "35647031",
+      "36568395",
+      "34446021",
+      "31390121",
+      "36168636",
+      "41409294",
+      "41341805",
+      "37265698",
+      "39696439",
+      "33109765",
+      "38685772",
+      "41164195",
+      "36699466",
+      "40993741",
+      "40376515",
+      "39850883",
+      "21411523",
+      "38958523",
+      "39145093",
+      "36090064",
+      "32671031",
+      "40316986",
+      "33850871",
+      "38827395",
+      "37728413",
+      "40594106",
+      "41158314",
+      "39516442",
+      "37865004",
+      "40976828",
+      "41342545",
+      "40552290",
+      "40844260",
+      "35852407",
+      "40941008",
+      "39662082",
+      "32703285",
+      "39845190",
+      "39895784",
+      "41430351",
+      "39267056",
+      "35757722",
+      "40860289",
+      "38591820",
+      "39911153",
+      "41164190",
+      "41445727",
+      "34976013",
+      "39318995",
+      "41326474",
+      "39346927",
+      "40517220",
+      "38558328",
+      "31445188",
+      "40610605",
+      "40948515",
+      "39455097",
+      "37671155",
+      "36524130",
+      "40008397",
+      "39953119",
+      "39580462",
+      "38616208",
+      "37583701",
+      "40474806",
+      "36939925",
+      "40629330",
+      "40761262",
+      "40169440",
+      "39298078",
+      "41168822",
+      "40612112",
+      "36936970",
+      "39434164",
+      "40936758",
+      "40406122",
+      "34446056",
+      "32071816",
+      "40034678",
+      "41246332",
+      "41234864",
+      "39369230",
+      "34922148",
+      "37799714",
+      "41439305",
+      "39935429",
+      "40547013",
+      "39987127",
+      "41267103",
+      "39602465",
+      "39991096",
+      "33749700",
+      "38017020",
+      "33287830",
+      "38146901",
+      "40904599",
+      "39856156",
+      "27821284"
+    ],
+    "review": [
+      "40670701"
+    ],
+    "pmc": [
+      "12267507"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41698-025-01039-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40670701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

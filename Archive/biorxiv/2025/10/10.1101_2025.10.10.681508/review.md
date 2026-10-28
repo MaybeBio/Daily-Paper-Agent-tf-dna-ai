@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text including summary, introduction, results, discussion, methods, and supplemental figure descriptions
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency of the presented evidence
+- **Shared manuscript claim summary** The authors identify a core promoter region in WHI5 (located -126 to -75 bp upstream of the start codon) containing an array of Fkh1/Fkh2 transcription factor binding sites that drives sub-scaling (size-independent) transcription. They propose that cooperative binding of a Fkh1/Fkh2 heteropolymer to this array maintains constant WHI5 mRNA levels regardless of cell size, contributing to cell size control at the G1/S transition.
+- **Visible evidence base** Promoter truncation and mutation experiments, FKH1/FKH2 deletion and dimerization-deficient mutant experiments, ChIP-qPCR, RT-qPCR, mathematical modeling, AlphaFold3 structural predictions, proteomics data, and time-lapse imaging
+- **Missing materials affecting confidence** Figures and supplemental figures referenced but not provided in the submitted text; specific numerical data for many experiments not included; full strain list and key resource table not provided; supplemental tables not accessible
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in cell size control: the molecular mechanism underlying sub-scaling transcription of WHI5. The identification of a Fkh1/Fkh2 binding site array in the WHI5 core promoter as the driver of size-independent expression is a potentially significant advance. The combination of promoter mutagenesis, genetic perturbations, mathematical modeling, and structural prediction is commendable. However, the manuscript as presented has several critical gaps. The most significant concern is that the central mechanistic claim, cooperative binding of a Fkh1/Fkh2 heteropolymer, is supported primarily by indirect evidence. Direct biochemical demonstration of cooperative binding is absent. The mathematical model is acknowledged by the authors to be tentative due to unknown parameters. The structural predictions, while suggestive, are not validated experimentally. The proteomics analysis appears to be a negative result that does not strongly support the main claim. The functional significance of the identified mechanism for cell size control is demonstrated, but the mechanistic detail of how the binding site array achieves sub-scaling transcription remains incompletely resolved.
+- **Who would be interested in the results, and why** Researchers studying cell size control, cell cycle regulation, transcriptional scaling with cell size, and transcription factor cooperativity. The work is also relevant to those interested in promoter architecture and its role in scaling gene expression. The identification of a specific promoter element that confers size-independent expression could inform studies in other organisms where similar scaling phenomena exist.
+- **Major strengths** The study addresses a well-defined and important question with a clear hypothesis. The experimental approach is systematic, combining promoter dissection with genetic perturbations. The use of multiple complementary methods (RT-qPCR, imaging, ChIP, modeling, structural prediction) strengthens the overall argument. The finding that WHI5 has the highest number of repeated Fkh binding sites across the yeast genome provides a compelling rationale for its unique scaling behavior. The demonstration that disrupting this mechanism reduces G1/S size control provides functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The authors claim that cooperative binding of a Fkh1/Fkh2 heteropolymer to the binding site array drives sub-scaling transcription.
+  - **Evidence pointer** Results sections on promoter mutations, FKH deletions, and dimerization mutants; mathematical model section; structural prediction section
+  - **Concern** The central mechanistic claim of cooperative Fkh1/Fkh2 heteropolymer binding is not directly demonstrated. The evidence is indirect: mutations in binding sites reduce sub-scaling, deletion of FKH1 or FKH2 reduces sub-scaling, and dimerization-deficient mutations reduce sub-scaling. However, no direct biochemical or biophysical evidence for cooperative binding is presented. The mathematical model is explicitly acknowledged as tentative due to unknown parameters. The structural predictions from AlphaFold3 are not experimentally validated. The authors do not show that Fkh1 and Fkh2 actually form heteropolymers on the WHI5 promoter in vivo or in vitro.
+  - **Why it matters** The title and central conclusion of the manuscript rest on the specific claim of cooperative heteropolymer binding. Without direct evidence for this mechanism, alternative explanations remain possible. For example, the binding site array could simply increase local Fkh concentration or affect chromatin structure without requiring cooperative protein-protein interactions. The distinction matters because it determines the generality of the proposed mechanism and its applicability to other promoters.
+  - **Resolution test** Direct demonstration of cooperative binding would require experiments such as electrophoretic mobility shift assays with purified Fkh1/Fkh2 proteins and DNA fragments containing the binding site array, showing that binding affinity increases with the number of sites and that Fkh1 and Fkh2 can bind simultaneously. Alternatively, in vivo crosslinking followed by immunoprecipitation could demonstrate Fkh1-Fkh2 interaction on the WHI5 promoter. Fluorescence recovery after photobleaching or single-molecule imaging could show altered binding dynamics at the array compared to single sites.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data availability
+  - **Claim pointer** The authors claim that the core promoter region is responsible for sub-scaling expression and that specific mutations weaken this sub-scaling.
+  - **Evidence pointer** Figures 2E, 3A, 3D, S2E, S3A; location not provided for specific numerical values
+  - **Concern** The manuscript text describes results but the actual figures and numerical data are not provided in the submitted material. The reader cannot assess the magnitude of the reported effects, the statistical significance, or the variability between replicates. For example, the claim that "mutation of any of these sites weakens sub-scaling" requires knowing the effect sizes and whether they are comparable across different mutations. The claim that fkh1Δ and fkh2Δ have similar effects requires quantitative comparison. The imaging data in Figure 2G and the proteomics data in Figure 6 are described but their quality and statistical power cannot be evaluated.
+  - **Why it matters** The strength of the conclusions depends entirely on the quality and magnitude of the quantitative effects. Without access to the actual data, the claims cannot be verified. This is particularly important for the central claim that the core promoter is both necessary and sufficient for sub-scaling, which requires comparing effect sizes across multiple constructs.
+  - **Resolution test** The figures and supplemental data must be provided for evaluation. The authors should report effect sizes with confidence intervals, the number of biological replicates, and the statistical tests used. For the imaging experiments, the number of cells analyzed and the consistency across experiments should be reported.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The mathematical model shows that cooperative binding can drive sub-scaling expression and that the binding site array results in saturation of occupancy.
+  - **Evidence pointer** Figure 4, methods section on mathematical modeling
+  - **Concern** The mathematical model is presented as supporting the cooperative binding mechanism, but the authors acknowledge that the parameters are unknown. The model assumes that Fkh concentration increases with cell size due to dilution of background binding sites, but this assumption is not experimentally tested. The model also assumes that transcription is directly proportional to occupancy, which is not demonstrated. The model is not fitted to any experimental data, so it cannot be used to distinguish between alternative mechanisms.
+  - **Why it matters** The model is used to argue that the binding site array leads to saturation of occupancy, which would explain sub-scaling transcription. If the model assumptions are incorrect, the conclusion may not hold. The model also does not address alternative mechanisms, such as the involvement of chromatin structure or other transcription factors.
+  - **Resolution test** The model should be validated by measuring Fkh1/Fkh2 occupancy at the WHI5 promoter in cells of different sizes, for example using ChIP-qPCR or ChIP-seq in sorted cell populations. The model predictions should be compared quantitatively with the experimental measurements of WHI5 transcription as a function of cell size. The model should also be tested against alternative mechanisms, such as a simple Michaelis-Menten saturation model without cooperativity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural prediction validation
+  - **Claim pointer** The authors claim that AlphaFold3 structural models are consistent with Fkh1 and Fkh2 multimeric binding to the WHI5 promoter.
+  - **Evidence pointer** Figure 5, methods section on AlphaFold3
+  - **Concern** The AlphaFold3 predictions are presented as supporting the feasibility of simultaneous binding by multiple Fkh proteins. However, the predictions are not experimentally validated. The authors do not test whether the predicted protein-DNA contacts are functionally important. The FKH1-DBD mutation is tested, but the FKH2-DBD mutation shows a much smaller effect, which is not fully explained. The structural models are not compared with any experimental structural data.
+  - **Why it matters** Structural predictions from AlphaFold3, while useful for generating hypotheses, are not evidence for the actual binding mode. The differential effects of FKH1-DBD and FKH2-DBD mutations are not explained by the structural model. Without experimental validation, the structural analysis remains speculative.
+  - **Resolution test** The authors should validate the structural predictions by testing additional mutations in the predicted protein-DNA interface and showing that they affect binding and sub-scaling. Ideally, an experimentally determined structure of Fkh1/Fkh2 bound to the WHI5 promoter would be obtained, or at minimum, hydrogen-deuterium exchange or hydroxyl radical footprinting could be used to map the binding interface.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance
+  - **Claim pointer** The authors claim that replacing WHI5's core promoter reduces cell size control in G1.
+  - **Evidence pointer** Figure 7
+  - **Concern** The functional significance experiment shows a reduction in the inverse correlation between G1 growth and birth size in the core promoter swapped strain. However, the magnitude of the effect is not reported in the text. The experiment is performed in a bck2Δ background, which removes an additional size control pathway. The authors do not report whether the effect is statistically significant or how it compares to the effect of completely removing WHI5 sub-scaling. The imaging analysis is described but the number of cells and the consistency across replicates are not reported.
+  - **Why it matters** The functional significance of the identified mechanism is a key part of the manuscript's importance. If the effect on cell size control is small or not statistically significant, the biological relevance of the mechanism would be weakened. The use of the bck2Δ background complicates interpretation because it may not reflect the situation in wild-type cells.
+  - **Resolution test** The authors should report the effect size with confidence intervals and the statistical test used. They should also consider performing the experiment in a wild-type background, or at least discuss why the bck2Δ background is necessary. The number of cells analyzed and the reproducibility across experiments should be reported.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The sentence "Here, show that the core promoter of WHI5" appears to be missing a subject.
+  - **Required correction** Change to "Here, we show that the core promoter of WHI5."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section on proteomics
+  - **Evidence pointer** Results section "Proteomic analysis shows sub-scaling expression across the genome is not generally Fkh-dependent"
+  - **Issue** The proteomics analysis is described but the number of proteins detected, the criteria for reliable detection, and the statistical methods for determining changes in size scaling are not described in the text.
+  - **Required correction** Add details on the number of proteins quantified, the filtering criteria, and the statistical approach for comparing size slopes between conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of FKH2-DBD results
+  - **Evidence pointer** Results section on structural models, Figure 5D
+  - **Issue** The FKH2-DBD mutation shows a much smaller effect than FKH1-DBD, but this is not discussed. The authors should address whether this reflects a smaller role for Fkh2 in binding or a difference in the importance of the specific residues mutated.
+  - **Required correction** Add a sentence discussing the differential effects of FKH1-DBD and FKH2-DBD mutations and possible explanations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Mathematical model
+  - **Evidence pointer** Methods section on mathematical modeling
+  - **Issue** The model assumes that Fkh1 and Fkh2 are equivalent and can be treated as a single species. Given the differential effects of FKH1 and FKH2 deletions, this assumption may not be valid.
+  - **Required correction** Discuss the validity of this assumption or extend the model to include two distinct Fkh species.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section on proteomics
+  - **Issue** The text states that "most proteins exhibited a similar size-dependence in wild-type, fkh1Δ, and fkh2Δ cells" but the figure is not provided. The reader cannot assess the distribution of changes or the criteria for identifying the small group of changed proteins.
+  - **Required correction** Provide the figure and describe the criteria for identifying proteins with altered size scaling.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct evidence for cooperative binding), R1-M2 (access to quantitative data), R1-M3 (model validation), R1-M4 (structural prediction validation)
+- **Assessment against Nature-style criteria** Originality: The identification of a specific promoter element that confers sub-scaling transcription is a novel contribution. While cooperative transcription factor binding is a known phenomenon, its application to cell size-dependent scaling is new. Scientific importance: The work addresses a fundamental question in cell biology, the mechanism of cell size control, and provides a molecular explanation for a key component of this process. The findings could have implications for understanding size control in other organisms. Interdisciplinary readership: The work is primarily of interest to cell biologists and molecular biologists. The mathematical modeling and structural prediction components may attract readers from biophysics and computational biology, but the overall appeal is likely limited to specialists. Technical soundness: The experimental design is generally sound, but the central mechanistic claim lacks direct biochemical support. The mathematical model is acknowledged as tentative. The structural predictions are not validated. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow. The use of figures is appropriate, though the figures were not available for review. The abstract and summary provide a clear overview of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible mechanism, but the central claim of cooperative Fkh1/Fkh2 heteropolymer binding requires direct experimental support. The quantitative data must be made available for evaluation. The mathematical model should be validated against experimental measurements. The structural predictions should be tested with additional mutations or experimental structural data.
+
+## Risk / unsupported claims
+- The claim that Fkh1 and Fkh2 form a heteropolymer on the WHI5 promoter is not directly supported by the presented evidence.
+- The claim that cooperative binding drives sub-scaling transcription is inferred from indirect genetic experiments and a model with unconstrained parameters.
+- The claim that the WHI5 promoter has the highest number of repeated Fkh binding sites across the genome is stated but the analysis is not shown.
+- The claim that the core promoter swap into the ACT1 promoter did not lead to sub-scaling is described but the data are not shown.
+- The claim that the FKH2-DBD mutation has a smaller effect than FKH1-DBD is not discussed or explained.
+- The proteomics analysis is described as showing no global effect of FKH deletion on sub-scaling, but the data are not shown and the statistical power is not reported.
+- The functional significance experiment in Figure 7 is described but the effect size and statistical significance are not reported.

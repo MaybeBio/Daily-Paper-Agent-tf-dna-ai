@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "41731832",
+    "doi": "10.1097/MD.0000000000047724",
+    "title": "Identification and validation of paraptosis-related prognostic biomarkers in lung adenocarcinoma: An observational study based on transcriptomics and clinical outcomes."
+  },
+  "content": {
+    "abstract": "Paraptosis plays a critical role in mediating anti-tumor effects by inducing cell death in cancer cells. However, its specific involvement in lung adenocarcinoma (LUAD) remains inadequately understood. This study aims to systematically investigate the prognostic significance and underlying mechanisms of paraptosis-related genes (PRGs) in LUAD. Differentially expressed genes were identified between LUAD and control samples from the training set and cross-referenced with PRGs to generate candidate genes (CGs). Prognostic genes were selected from CGs using regression analysis, leading to the development of a LUAD risk model, which was validated in an independent validation set. Clinical characteristics were analyzed to identify independent prognostic factors for constructing a nomogram. Functional and immune infiltration analyses were performed on high-/low-risk cohorts from the training set. Drug predictions related to prognostic genes were made and subsequently validated through molecular docking. Polymerase chain reaction was performed to validate the expression of prognostic genes. Four prognostic genes (CDKN3, PEBP1, TNFRSF19, and PHB) were identified from 27 CGs through regression analysis. The prognostic risk model demonstrated robust predictive capacity for LUAD prognosis and exhibited generalizability. Significant associations were observed between risk scores and clinical features, including age, TNM.stage, T-stage, and N-stage (P < .05). These risk scores served as independent prognostic factors for the nomogram model, offering strong predictive power for LUAD. Vorinostat and raloxifene exhibited notable binding affinity for PEBP1. Elevated CDKN3 expression was observed in LUAD, while PEBP1 and TNFRSF19 expressions were reduced. This study highlights the prognostic value of PRGs, specifically CDKN3, PEBP1, TNFRSF19, and PHB. CDKN3 and PHB emerged as risk factors for LUAD prognosis, whereas PEBP1 and TNFRSF19 did not. In-depth analysis of the tumor microenvironment revealed the distribution and correlations of immune cell types influenced by PRGs and risk score. Furthermore, an independent prognostic model for LUAD was developed, enhancing our understanding of high-/low-risk cohorts' functional pathways. Drug prediction results provided valuable insights into potential therapeutic strategies for LUAD, warranting further investigation.",
+    "keywords": [
+      "immune infiltration",
+      "lung adenocarcinoma",
+      "paraptosis",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Prognosis",
+      "*Adenocarcinoma of Lung/genetics/pathology",
+      "*Lung Neoplasms/genetics/pathology",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Paraptosis/genetics",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Transcriptome/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Nomograms",
+      "Repressor Proteins/genetics",
+      "Prohibitins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Observational Study",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tao",
+        "Tang, Shugeng",
+        "Guo, Quanwei",
+        "Kuang, Jun",
+        "Yan, Jun",
+        "Mo, Yijun",
+        "Tan, Jianfeng",
+        "Wu, Mengxi",
+        "Li, Dongfang",
+        "Zhang, Jianhua"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Tang S",
+        "Guo Q",
+        "Kuang J",
+        "Yan J",
+        "Mo Y",
+        "Tan J",
+        "Wu M",
+        "Li D",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-6721-7941",
+        "ORCID: 0009-0000-9011-5431",
+        "ORCID: 0000-0003-3337-9849"
+      ],
+      "affiliations": [
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "The First School of Clinical Medicine, Southern Medical University, Guangzhou, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tao",
+        "short_name": "Zhang T",
+        "identifiers": [
+          "0009-0003-6721-7941"
+        ],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Tang, Shugeng",
+        "short_name": "Tang S",
+        "identifiers": [
+          "0009-0000-9011-5431"
+        ],
+        "affiliations": [
+          "The First School of Clinical Medicine, Southern Medical University, Guangzhou, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Guo, Quanwei",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Jun",
+        "short_name": "Kuang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jun",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Mo, Yijun",
+        "short_name": "Mo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jianfeng",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Mengxi",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongfang",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianhua",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0003-3337-9849"
+        ],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Hospital, Southern Medical University, Shenzhen, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2026 Feb 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Observational Study",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 06:32",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39806313",
+      "39394087",
+      "39383787",
+      "38996537",
+      "38943975",
+      "38708996",
+      "38659391",
+      "38509996",
+      "38445368",
+      "38233752",
+      "38047807",
+      "37715003",
+      "37660060",
+      "37622116",
+      "37400733",
+      "37397502",
+      "36919162",
+      "36495751",
+      "36293001",
+      "36159575",
+      "34970479",
+      "34808341",
+      "34781982",
+      "34650921",
+      "34615984",
+      "34557778",
+      "34335635",
+      "34301211",
+      "34273294",
+      "34182217",
+      "34109216",
+      "33911215",
+      "33641784",
+      "33457102",
+      "31904399",
+      "31698633",
+      "31126313",
+      "30337686",
+      "29141660",
+      "28521411",
+      "28414306",
+      "26372210",
+      "25516281",
+      "24420151",
+      "23775190",
+      "20856874",
+      "20830744",
+      "20808728",
+      "20133800",
+      "17562483",
+      "16990774",
+      "15886315",
+      "15823758",
+      "15195070",
+      "15075390",
+      "15020679",
+      "10809768"
+    ],
+    "similar": [
+      "41731832",
+      "38445368",
+      "41430351",
+      "39251701",
+      "42469385",
+      "39438534",
+      "42079738",
+      "39806313",
+      "41339815",
+      "38682187",
+      "41239716",
+      "41583466",
+      "41500779",
+      "41634895",
+      "34256754",
+      "39488588",
+      "41044260",
+      "39383787",
+      "33028329",
+      "41217578",
+      "40936758",
+      "33314730",
+      "41815152",
+      "40547013",
+      "41383634",
+      "40746552",
+      "42488648",
+      "41342621",
+      "41663976",
+      "41486187",
+      "40469299",
+      "42495647",
+      "39478862",
+      "40682067",
+      "35833114",
+      "38475658",
+      "40598621",
+      "42003422",
+      "41345972",
+      "39735553",
+      "41094022",
+      "38910478",
+      "42186940",
+      "40181976",
+      "39431237",
+      "40405133",
+      "40170009",
+      "40953006",
+      "42238598",
+      "41822495",
+      "40936767",
+      "39995671",
+      "32003059",
+      "38965505",
+      "41342545",
+      "34256900",
+      "41556052",
+      "38949986",
+      "39988436",
+      "40672941",
+      "41164190",
+      "39506421",
+      "41164195",
+      "41948338",
+      "42163810",
+      "38757752",
+      "40412340",
+      "39850883",
+      "39794414",
+      "39312319",
+      "36400857",
+      "40490831",
+      "39890699",
+      "41419978",
+      "41326474",
+      "39522011",
+      "41760693",
+      "36311724",
+      "41423496",
+      "34175738",
+      "40034678",
+      "39489517",
+      "34918689",
+      "38647237",
+      "39780110",
+      "41556056",
+      "41495694",
+      "34416861",
+      "38594917",
+      "38862217",
+      "42070266",
+      "39369095",
+      "39411951",
+      "41058683",
+      "39769336",
+      "41225436",
+      "31488089",
+      "37516981",
+      "41601635",
+      "41798945"
+    ],
+    "review": [
+      "41731832"
+    ],
+    "pmc": [
+      "12928938"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=105&issue=8&spage=e47724&aulast=Zhang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41731832/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PEBP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-423",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000047724",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "42412843",
+    "doi": "10.1093/bioinformatics/btag232",
+    "title": "NPBIP: predicting binding preferences of uncharacterized nucleic-acid-binding proteins."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Nucleic-acid-binding proteins (NBPs) are crucial regulators of gene expression, recognizing specific RNA or DNA binding sites. While high-throughput experiments have generated vast amounts of binding data, a significant challenge remains in predicting binding affinities of a novel query NBP to any nucleic-acid sequence. Current computational methods often require prior experimental data for the query NBP or are limited to predictions over predefined short RNA or DNA sequences. RESULTS: We present New Protein Binding Intensity Predictor (NPBIP), a new method to predict the binding of a query NBP to any RNA or DNA sequence by integrating two complementary components: (i) a similarity-based method that computes a weighted mean of binding predictions over the training NBPs; and (ii) a deep-learning model that combines a large protein language model with a hybrid convolutional-transformer network to predict binding directly. We trained and evaluated NPBIP on 420 RNA-binding protein (RBP) experiments and 464 DNA-binding protein (DBP) experiments. NPBIP significantly outperformed each of its components and all competing baselines, achieving a mean Pearson correlation of 0.414+/-0.20 and 0.581+/-0.22 over the RNA- and DNA-binding experiments, respectively. This prediction performance was statistically comparable to an experimental k-mer upper bound over RBPs and statistically superior to an upper bound over DBPs. Furthermore, our interpretability analysis demonstrates that NPBIP recovers canonical binding motifs for both RBPs and DBPs, providing biological validation for the model's predictions. AVAILABILITY AND IMPLEMENTATION: Source code and datasets are publicly available at https://github.com/OrensteinLab/NPBIP.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "*RNA-Binding Proteins/metabolism/chemistry",
+      "Binding Sites",
+      "Protein Binding",
+      "*Computational Biology/methods",
+      "DNA/metabolism/chemistry",
+      "RNA/metabolism/chemistry",
+      "Prediction Algorithms",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shimshoviz, Noam",
+        "Butto, Safwan",
+        "Orenstein, Yaron"
+      ],
+      "short_names": [
+        "Shimshoviz N",
+        "Butto S",
+        "Orenstein Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-5197-6515",
+        "ORCID: 0000-0002-3583-3112"
+      ],
+      "affiliations": [
+        "The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, 5290002, Israel.",
+        "Department of Computer Science, Bar-Ilan University, Ramat Gan, 5290002, Israel.",
+        "The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, 5290002, Israel.",
+        "Department of Computer Science, Bar-Ilan University, Ramat Gan, 5290002, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shimshoviz, Noam",
+        "short_name": "Shimshoviz N",
+        "identifiers": [
+          "0009-0006-5197-6515"
+        ],
+        "affiliations": [
+          "The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, 5290002, Israel."
+        ]
+      },
+      {
+        "full_name": "Butto, Safwan",
+        "short_name": "Butto S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Bar-Ilan University, Ramat Gan, 5290002, Israel."
+        ]
+      },
+      {
+        "full_name": "Orenstein, Yaron",
+        "short_name": "Orenstein Y",
+        "identifiers": [
+          "0000-0002-3583-3112"
+        ],
+        "affiliations": [
+          "The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, 5290002, Israel.",
+          "Department of Computer Science, Bar-Ilan University, Ramat Gan, 5290002, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/07 18:58",
+    "fetched_at": "2026-10-05 05:44:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34265844",
+      "33125078",
+      "32573679",
+      "31133749",
+      "30423078",
+      "27466627",
+      "26571099",
+      "25378322",
+      "25158938",
+      "23846655",
+      "21548782",
+      "20176964",
+      "18342629",
+      "17230196",
+      "16998473"
+    ],
+    "similar": [
+      "42412843",
+      "32920048",
+      "31483777",
+      "29970003",
+      "32573679",
+      "34905768",
+      "39833102",
+      "28245811",
+      "40646507",
+      "34932484",
+      "39804669",
+      "29722865",
+      "41045511",
+      "38856168",
+      "29529991",
+      "40544633",
+      "34571539",
+      "39214282",
+      "41962361",
+      "33334313",
+      "41172803",
+      "34073774",
+      "40601256",
+      "26467480",
+      "42099803",
+      "40914361",
+      "32808039",
+      "38830995",
+      "36044786",
+      "42636031",
+      "25935161",
+      "31323206",
+      "40439671",
+      "35150250",
+      "28977546",
+      "32142788",
+      "39695955",
+      "34297803",
+      "26776208",
+      "41723392",
+      "40719555",
+      "39576589",
+      "29253082",
+      "30423078",
+      "42605800",
+      "42598852",
+      "38491248",
+      "42635213",
+      "42235771",
+      "41714110",
+      "35451938",
+      "22574904",
+      "40919912",
+      "39357703",
+      "28575488",
+      "33837387",
+      "19487258",
+      "33780341",
+      "40391089",
+      "40069726",
+      "35378437",
+      "26540053",
+      "39520544",
+      "36935548",
+      "42409279",
+      "26965268",
+      "41791267",
+      "40914406",
+      "20838582",
+      "31513916",
+      "40359455",
+      "35768792",
+      "41566703",
+      "28274760",
+      "35471886",
+      "31931434",
+      "39153682",
+      "40399037",
+      "31537716",
+      "28315749",
+      "41168713",
+      "40997583",
+      "34415289",
+      "37028092",
+      "30933978",
+      "42707507",
+      "24217996",
+      "40957717",
+      "35652477",
+      "40794872",
+      "38316843",
+      "19091029",
+      "41134132",
+      "25474259",
+      "35189638",
+      "24475169",
+      "38381315",
+      "29753757",
+      "20483814",
+      "40848288"
+    ],
+    "review": [
+      "42412843",
+      "39833102",
+      "40544633",
+      "25935161",
+      "29253082",
+      "26540053",
+      "28315749",
+      "24217996",
+      "35652477"
+    ],
+    "pmc": [
+      "13341135"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42412843/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag232",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

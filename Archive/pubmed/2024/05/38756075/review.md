@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report a structure-based virtual screening of 100 natural compounds against the DNA-binding domain (DBD) of FOXM1, followed by molecular docking, pharmacokinetic profiling, and 100 ns molecular dynamics (MD) simulations. They identify four compounds (Withaferin A, Bryophyllin A, Silybin B, Sanguinarine) plus a control (Troglitazone) as promising FOXM1 inhibitors, with Bryophyllin A showing the highest complex stability. The authors conclude these compounds may induce senescence in GBM stem cells and support structure-based design of FOXM1 inhibitors for glioblastoma therapy.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, docking scores, pharmacokinetic parameters, MD simulation trajectories, stability metrics (e.g., RMSD, RMSF, binding free energies), compound structures, experimental validation data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow for identifying FOXM1 inhibitors, but the evidence provided is insufficient to evaluate the technical rigor or validity of the findings. The inconsistency in the number of compounds (five vs. four) and the unsupported leap to senescence induction in GBM stem cells are significant weaknesses. The work may be of interest to computational drug discovery researchers, but the case for novel, validated inhibitors is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, medicinal chemistry, and glioblastoma biology may find the identified compounds and docking workflow of interest as a starting point for further experimental validation. The focus on FOXM1, a cancer-relevant transcription factor, could attract those studying cancer stem cell biology and therapy resistance.
+- **Major strengths** The study addresses a clinically relevant target (FOXM1) in a challenging disease (GBM). The use of multiple in silico filters (docking, pharmacokinetics, MD simulations) is a reasonable strategy to prioritize compounds. The inclusion of a control compound (Troglitazone) is a positive methodological feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract states "five compounds were promising candidates" in the Methods, but the Results list "Four compounds, such as Withaferin A, Bryophyllin A, Silybin B, Sanguinarine and Troglitazone (control compound)" which is actually five items. This discrepancy undermines the clarity of the reported findings.
+  - **Evidence pointer** Abstract, Methods and Results sections
+  - **Concern** The number of identified candidates is inconsistent. The Methods mention five compounds, while the Results list four compounds plus a control, but the text includes five named substances. It is unclear whether Troglitazone is counted among the four or is an additional control.
+  - **Why it matters** Inconsistent reporting of the primary outcome (number of hits) prevents accurate interpretation of the study's main result and could reflect errors in the screening or analysis pipeline.
+  - **Resolution test** The authors must clarify the exact number of compounds selected after docking and pharmacokinetic profiling, and specify whether Troglitazone is a control or a candidate. This should be consistent across Methods, Results, and Conclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The conclusion states the identified compounds "can induce senescence in GBM stem cells," but the abstract provides no experimental or in vitro data supporting this functional claim.
+  - **Evidence pointer** Abstract, Conclusion section; no experimental data provided
+  - **Concern** The conclusion extends beyond the computational evidence. Docking and MD simulations can suggest binding affinity and stability, but they do not demonstrate biological activity such as senescence induction in GBM stem cells.
+  - **Why it matters** This overreach could mislead readers into believing the compounds have validated anti-GBM activity, which is not supported by the presented data. It also conflates computational predictions with experimental proof.
+  - **Resolution test** The authors should either remove the senescence claim or provide experimental evidence (e.g., cell-based assays) demonstrating this effect. If such data exist in the full manuscript, they must be explicitly referenced in the abstract.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims "the FOXM1- Bryophyllin A complex was found to maintain the highest stability" based on MD simulations over 100 ns, but no quantitative metrics are provided.
+  - **Evidence pointer** Abstract, Results section; MD simulation details not provided
+  - **Concern** The basis for "highest stability" is not described. Without RMSD, RMSF, binding free energy, or other stability measures, the claim is unverifiable. Additionally, a single 100 ns simulation may be insufficient to assess complex stability for a protein-ligand system.
+  - **Why it matters** The central finding of the study relies on the MD simulation outcome. Lack of quantitative data prevents assessment of whether the stability difference is meaningful or statistically robust.
+  - **Resolution test** The authors must report specific stability metrics (e.g., RMSD trajectories, binding free energies) and justify the simulation length. If multiple replicates were run, these should be described.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound selection criteria
+  - **Evidence pointer** Abstract, Methods section
+  - **Issue** The abstract does not specify the criteria for selecting the five compounds from the initial 100, beyond "molecular docking analysis and pharmacokinetic profiling."
+  - **Required correction** Briefly state the key selection thresholds (e.g., docking score cutoff, ADMET properties) to improve reproducibility and transparency.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Natural compounds"
+  - **Evidence pointer** Abstract, Methods section
+  - **Issue** The term "natural compounds" is used, but the source or library of these compounds is not described.
+  - **Required correction** Specify the compound library or database used and the criteria for defining "natural."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, Conclusion section
+  - **Issue** The conclusion mentions "structure-based designing strategies" but does not explain how the findings inform such strategies beyond identifying hits.
+  - **Required correction** Clarify the specific structural insights (e.g., key binding residues or interactions) that could guide future inhibitor design.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (inconsistent compound count), R1-M2 (unsupported biological claim), R1-M3 (lack of quantitative MD data)
+- **Assessment against Nature-style criteria** Originality: The target (FOXM1) and approach (virtual screening of natural compounds) are not novel in themselves, but the specific compound set may offer incremental value. Scientific importance: FOXM1 is a relevant cancer target, but the abstract does not demonstrate a significant advance over existing inhibitors. Interdisciplinary readership: The work bridges computational chemistry and oncology, but the abstract lacks sufficient detail to engage a broad audience. Technical soundness: The described methods are standard, but the lack of quantitative results and internal inconsistency prevent assessment of rigor. Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "DBD," "MD simulations") without explanation, and the compound count confusion detracts from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract contains promising computational findings, but the internal inconsistency, unsupported biological conclusion, and missing quantitative data preclude a positive recommendation. The authors should revise the abstract to align claims with evidence and provide essential methodological details.
+
+## Risk / unsupported claims
+- The claim that the identified compounds "can induce senescence in GBM stem cells" is unsupported by the abstract's evidence, which is purely computational.
+- The assertion that Bryophyllin A maintains "the highest stability" is unverifiable without quantitative MD metrics.
+- The identification of "four compounds" versus "five compounds" is internally inconsistent and cannot be resolved from the supplied text.
+- The general conclusion that the findings "contribute to developing structure-based designing strategies" is vague and not substantiated by specific structural data in the abstract.

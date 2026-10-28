@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "40048012",
+    "doi": "10.1007/s12020-025-04205-y",
+    "title": "Consensus nonnegative matrix factorization reveals metastatic gene expression program and identifies E74-like ETS transcription factor 3 confers to the lymph nodes metastasis in papillary thyroid cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Advanced papillary thyroid carcinoma (PTC) exhibits significant heterogeneity. Understanding the gene expression programs underlying tumor heterogeneity is crucial for improving diagnostic and therapeutic strategies. METHODS: We integrated single-cell RNA sequencing (scRNA-seq) and bulk RNA-seq data to explore transcriptional heterogeneity in PTC. Using consensus nonnegative matrix factorization (cNMF), we identified gene expression programs (GEPs) within malignant cells. A machine learning framework was applied to establish a lymph node metastasis (LNM) signature. Functional validation of key genes was performed through in vitro experiments, and drug screening was conducted to identify potential therapeutic candidates. RESULTS: We identified an epithelial-mesenchymal transition (EMT)-related gene expression program, GEP3, which was strongly associated with LNM and poor clinical outcomes in PTC. Within the GEP3(high) subcluster, we pinpointed ELF3 as a hub gene driving tumor invasiveness and angiogenesis. Notably, BRAF V600E mutations were associated with higher GEP3 expression levels, indicating that ELF3 may be a pivotal marker for aggressive disease progression, especially in BRAF-mutant PTC. Functional assays confirmed that ELF3 knockdown suppressed EMT and angiogenesis, reducing PTC cell migration and invasion. Regardless of whether they are positive or negative for BRAF V600E mutations, showed increased sensitivity to vemurafenib in higher ELF3 expression group. CONCLUSIONS: This study highlights the critical role of GEP and ELF3 in driving PTC progression and metastasis. Drug screening revealed that tanespimycin and vemurafenib were effective in targeting GEP3(high) cells, offering therapeutic potential for aggressive PTC. These insights advance precision strategies for managing metastatic and heterogeneous PTC by targeting ELF3-driven pathways.",
+    "keywords": [
+      "Consensus nonnegative matrix factorization",
+      "Drug sensitivity",
+      "ELF3",
+      "Gene expression programs",
+      "Lymph node metastasis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Thyroid Cancer, Papillary/genetics/pathology/metabolism/secondary",
+      "*Thyroid Neoplasms/genetics/pathology/metabolism",
+      "*Lymphatic Metastasis/genetics",
+      "*Transcription Factors/genetics/metabolism",
+      "*Proto-Oncogene Proteins c-ets/genetics/metabolism",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tao, Mei",
+        "Wu, Shuping",
+        "Liu, Yimeng",
+        "Ruan, Xianhui",
+        "Zhang, Wei",
+        "Luo, Wei",
+        "Yu, Jialong",
+        "Zeng, Yu",
+        "Ning, Junya",
+        "Zheng, Xiangqian",
+        "Gao, Ming"
+      ],
+      "short_names": [
+        "Tao M",
+        "Wu S",
+        "Liu Y",
+        "Ruan X",
+        "Zhang W",
+        "Luo W",
+        "Yu J",
+        "Zeng Y",
+        "Ning J",
+        "Zheng X",
+        "Gao M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Head and Neck Surgery, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, No. 420 Fuma Road, Jin'an District, Fuzhou, Fujian, 350014, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Tianjin Key Laboratory of General Surgery in Construction, Tianjin Union Medical Center, Tianjin, 300121, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. 15032210069@163.com.",
+        "Department of Thyroid and Breast Surgery, Tianjin Union Medical Center, Tianjin, 300121, China. 15032210069@163.com.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. xzheng05@tmu.edu.cn.",
+        "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. headandneck2008@126.com.",
+        "Tianjin Key Laboratory of General Surgery in Construction, Tianjin Union Medical Center, Tianjin, 300121, China. headandneck2008@126.com.",
+        "Department of Thyroid and Breast Surgery, Tianjin Union Medical Center, Tianjin, 300121, China. headandneck2008@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tao, Mei",
+        "short_name": "Tao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shuping",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Head and Neck Surgery, Clinical Oncology School of Fujian Medical University, Fujian Cancer Hospital, No. 420 Fuma Road, Jin'an District, Fuzhou, Fujian, 350014, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yimeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Xianhui",
+        "short_name": "Ruan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China.",
+          "Tianjin Key Laboratory of General Surgery in Construction, Tianjin Union Medical Center, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Wei",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jialong",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yu",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Junya",
+        "short_name": "Ning J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. 15032210069@163.com.",
+          "Department of Thyroid and Breast Surgery, Tianjin Union Medical Center, Tianjin, 300121, China. 15032210069@163.com."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xiangqian",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. xzheng05@tmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Gao, Ming",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thyroid and Neck Tumor, Tianjin Medical University Cancer Institute & Hospital, National Clinical Research Center for Cancer, Tianjin's Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin, 300060, China. headandneck2008@126.com.",
+          "Tianjin Key Laboratory of General Surgery in Construction, Tianjin Union Medical Center, Tianjin, 300121, China. headandneck2008@126.com.",
+          "Department of Thyroid and Breast Surgery, Tianjin Union Medical Center, Tianjin, 300121, China. headandneck2008@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine"
+    ],
+    "journal_abbrev": [
+      "Endocrine"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/06 12:35",
+    "fetched_at": "2026-09-30 12:52:11"
+  },
+  "links": {
+    "cites": [
+      "42488635",
+      "40996711"
+    ],
+    "refs": [
+      "39036382",
+      "39013860",
+      "38164151",
+      "37648786",
+      "37647391",
+      "37489084",
+      "37258682",
+      "37165194",
+      "37053016",
+      "36104333",
+      "35628655",
+      "35271818",
+      "35198054",
+      "35136031",
+      "34911571",
+      "34663816",
+      "34179011",
+      "33597522",
+      "32988401",
+      "32686767",
+      "32323855",
+      "32046148",
+      "31740819",
+      "31668701",
+      "31668133",
+      "31664609",
+      "31394194",
+      "31378850",
+      "31327527",
+      "31322645",
+      "31282856",
+      "30501571",
+      "30365150",
+      "30200227",
+      "29691435",
+      "28963614",
+      "28187284",
+      "27572288",
+      "26408708",
+      "25691441",
+      "24658644",
+      "24580837",
+      "24374157",
+      "24048068",
+      "23489023",
+      "16199517",
+      "15774780",
+      "15181088",
+      "11715049"
+    ],
+    "similar": [
+      "40048012",
+      "41789084",
+      "38146045",
+      "30365150",
+      "39744439",
+      "38858612",
+      "38990290",
+      "30814512",
+      "39327245",
+      "41398964",
+      "33860836",
+      "32381353",
+      "39206986",
+      "41069144",
+      "40454923",
+      "39996468",
+      "31568662",
+      "41421038",
+      "33554894",
+      "28199976",
+      "39810624",
+      "34866540",
+      "30265861",
+      "31104013",
+      "33760216",
+      "30999281",
+      "30175973",
+      "31758408",
+      "32593310",
+      "40715934",
+      "29523781",
+      "41646983",
+      "39370684",
+      "35647194",
+      "38627967",
+      "33107403",
+      "32982961",
+      "40742091",
+      "39183149",
+      "40517210",
+      "32596748",
+      "41263302",
+      "32319586",
+      "31332712",
+      "34148127",
+      "32881051",
+      "26636651",
+      "41681096",
+      "38696857",
+      "40696971",
+      "40651298",
+      "40945694",
+      "32315324",
+      "40628509",
+      "35123502",
+      "41957879",
+      "33077306",
+      "30535496",
+      "30706537",
+      "27863429",
+      "41656803",
+      "39425895",
+      "34307677",
+      "34687203",
+      "38797942",
+      "18676742",
+      "41723511",
+      "31160577",
+      "34273152",
+      "31211500",
+      "29882471",
+      "26487287",
+      "29560564",
+      "30244634",
+      "38705933",
+      "32969138",
+      "32857728",
+      "39162997",
+      "33419089",
+      "38047112",
+      "39152570",
+      "21385081",
+      "40702447",
+      "40427523",
+      "29935011",
+      "32940082",
+      "33293429",
+      "40138447",
+      "31300059",
+      "41675640",
+      "41152817",
+      "28030816",
+      "32000400",
+      "31696481",
+      "32495885",
+      "25755776",
+      "39379360",
+      "32308106",
+      "40430098",
+      "35784548"
+    ],
+    "review": [
+      "40048012",
+      "35647194"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12020-025-04205-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BRAF-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

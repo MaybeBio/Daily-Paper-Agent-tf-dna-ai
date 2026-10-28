@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.08.425855",
+  "title": "DeepHBV: A deep learning model to predict hepatitis B virus (HBV) integration sites",
+  "authors": "Wu C; Guo X; Li M; Fu X; Hou Z; Zhai M; Shen J; Qiu X; Cui Z; Xie H; Qin P; Weng X; Hu Z; Liang J",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-08",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用注意力深度学习模型预测HBV整合位点，虽涉及转录因子结合位点富集分析，但核心是病毒整合位点预测而非TF-DNA互作建模，方法可迁移但对象和互作轴匹配度中等。",
+  "abstract": "Hepatitis B virus (HBV) is one of the main causes for viral hepatitis and liver cancer. Previous studies showed HBV can integrate into host genome and further promote malignant transformation. In this study, we developed an attention-based deep learning model DeepHBV to predict HBV integration sites by learning local genomic features automatically. We trained and tested DeepHBV using the HBV integration sites data from dsVIS database. Initially, DeepHBV showed AUROC of 0.6363 and AUPR of 0.5471 on the dataset. Adding repeat peaks and TCGA Pan Cancer peaks can significantly improve the model performance, with an AUROC of 0.8378 and 0.9430 and an AUPR of 0.7535 and 0.9310, respectively. On independent validation dataset of HBV integration sites from VISDB, DeepHBV with HBV integration sequences plus TCGA Pan Cancer (AUROC of 0.7603 and AUPR of 0.6189) performed better than HBV integration sequences plus repeat peaks (AUROC of 0.6657 and AUPR of 0.5737). Next, we found the transcriptional factor binding sites (TFBS) were significantly enriched near genomic positions that were paid attention to by convolution neural network. The binding sites of AR-halfsite, Arnt, Atf1, bHLHE40, bHLHE41, BMAL1, CLOCK, c-Myc, COUP-TFII, E2A, EBF1, Erra and Foxo3 were highlighted by DeepHBV attention mechanism in both dsVIS dataset and VISDB dataset, revealing the HBV integration preference. In summary, DeepHBV is a robust and explainable deep learning model not only for the prediction of HBV integration sites but also for further mechanism study of HBV induced cancer. <h4>Author summary</h4> Hepatitis B virus (HBV) is one of the main causes for viral hepatitis and liver cancer. Previous studies showed HBV can integrate into host genome and further promote malignant transformation. In this study, we developed an attention-based deep learning model DeepHBV to predict HBV integration sites by learning local genomic features automatically. The performance of DeepHBV model significantly improves after adding genomic features, with an AUROC of 0.9430 and an AUPR of 0.9310. Furthermore, we enriched the transcriptional factor binding sites of proteins by convolution neural network. In summary, DeepHBV is a robust and explainable deep learning model not only for the prediction of HBV integration sites but also for the further study of HBV integration mechanism.",
+  "abstract_zh": "乙型肝炎病毒（HBV）是病毒性肝炎和肝癌的主要原因之一。既往研究表明，HBV能够整合到宿主基因组中，并进一步促进恶性转化。在本研究中，我们开发了一种基于注意力机制的深度学习模型DeepHBV，通过自动学习局部基因组特征来预测HBV整合位点。我们使用来自dsVIS数据库的HBV整合位点数据对DeepHBV进行了训练和测试。最初，DeepHBV在该数据集上显示出AUROC为0.6363，AUPR为0.5471。加入重复峰和TCGA泛癌峰可显著提升模型性能，AUROC分别达到0.8378和0.9430，AUPR分别达到0.7535和0.9310。在来自VISDB的独立验证数据集上，使用HBV整合序列加TCGA泛癌峰的DeepHBV（AUROC为0.7603，AUPR为0.6189）表现优于使用HBV整合序列加重复峰的模型（AUROC为0.6657，AUPR为0.5737）。接下来，我们发现转录因子结合位点（TFBS）在卷积神经网络关注的基因组位置附近显著富集。在dsVIS数据集和VISDB数据集中，DeepHBV的注意力机制均突出显示了AR-halfsite、Arnt、Atf1、bHLHE40、bHLHE41、BMAL1、CLOCK、c-Myc、COUP-TFII、E2A、EBF1、Erra和Foxo3的结合位点，揭示了HBV整合的偏好性。总之，DeepHBV是一个稳健且可解释的深度学习模型，不仅可用于预测HBV整合位点，还可用于进一步研究HBV诱导癌症的机制。<h4>作者总结</h4>乙型肝炎病毒（HBV）是病毒性肝炎和肝癌的主要原因之一。既往研究表明，HBV能够整合到宿主基因组中，并进一步促进恶性转化。在本研究中，我们开发了一种基于注意力机制的深度学习模型DeepHBV，通过自动学习局部基因组特征来预测HBV整合位点。加入基因组特征后，DeepHBV模型的性能显著提升，AUROC达到0.9430，AUPR达到0.9310。此外，我们通过卷积神经网络富集了蛋白质的转录因子结合位点。总之，DeepHBV是一个稳健且可解释的深度学习模型，不仅可用于预测HBV整合位点，还可用于进一步研究HBV整合机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425855",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425855",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.08.425855/index.html"
+}

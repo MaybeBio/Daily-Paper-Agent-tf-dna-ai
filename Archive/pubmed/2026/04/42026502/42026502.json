@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "42026502",
+    "doi": "10.1186/s12870-026-08796-0",
+    "title": "Integration of metabolomics and proteomics reveals the mechanisms of seasonal accumulation and key regulatory networks of polysaccharides in Polygonatum odoratum."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Polysaccharides are the primary active components responsible for the immunomodulatory and other pharmacological effects of Polygonatum odoratum. The seasonal dynamics of this medicinal herb directly influence its quality assessment and harvesting strategies. However, the accumulation patterns of polysaccharides across different growth stages and their underlying molecular regulatory mechanisms remain poorly understood. This study aims to systematically decipher the spatiotemporal dynamics of polysaccharide accumulation in Polygonatum odoratum rhizomes via broad-target metabolomics and proteomics technologies combined with machine learning algorithms, thereby determining the optimal harvest period and revealing the underlying biological mechanisms involved. RESULTS: The polysaccharide content of Polygonatum odoratum rhizomes peaked in spring (13.3%) before declining through summer and fall. Multiomics correlation analysis revealed a distinct \"source‒sink\" conversion mechanism: spring presented significant upregulation of alpha-amylase (AMY) and invertase (INV), facilitating the conversion of overwintering starch reserves into polysaccharides and resulting in markedly elevated polysaccharide levels. In contrast, although summer presented the highest metabolic enzyme activities (e.g., significant upregulation of sucrose synthase (SUS) and UDP-N-acetylglucosamine pyrophosphorylase (UAP1)), metabolic flux was primarily directed toward cell wall construction (glycosaminoglycan synthesis) and putative immune defense, presenting a \"high synthesis, high consumption\" characteristic. This rationally explains the \"spatiotemporal mismatch\" between peak enzyme activity and peak polysaccharide accumulation. Random forest (RF) analysis prioritized UDP-glucuronic acid decarboxylase (UXS1-3) and AMY-2 as highly potential candidate proteins influencing polysaccharide synthesis. UXS1-3 expression was negatively correlated with polysaccharide content, suggesting that nucleotide sugar conversion is putatively associated with a key rate-limiting step. Furthermore, weighted correlation network analysis (WGCNA) revealed the transcription factor C3H-2 as a putative pivotal regulator highly associated with UXS1-3, while the AP2/ERF and NAC families participated in the environmental signal response and coregulation. CONCLUSION: This study confirms that spring is the peak period for polysaccharide accumulation in Polygonatum odoratum, establishing scientific grounds for its optimal harvest timing. This study elucidates Polygonatum odoratum's adaptation to seasonal changes through a metabolic trade-off strategy of \"spring reserve mobilization and summer growth consumption\". The identified key enzymes (UXS1-3, AMY-2) and transcription factor (C3H-2) provide genetic resources for future molecular breeding targeting high polysaccharide contents and theoretical support for establishing biomarker-based precision harvesting strategies.",
+    "keywords": [
+      "Polygonatum odoratum",
+      "Metabolomics",
+      "Polysaccharides",
+      "Proteomics"
+    ],
+    "mesh_terms": [
+      "*Polygonatum/metabolism/genetics",
+      "*Polysaccharides/metabolism",
+      "Seasons",
+      "Metabolomics",
+      "Proteomics",
+      "Rhizome/metabolism",
+      "Plant Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yifan",
+        "Liang, Shuang",
+        "Fu, Dannuo",
+        "Fu, Hongwei",
+        "Zhao, Hongxin"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Liang S",
+        "Fu D",
+        "Fu H",
+        "Zhao H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China.",
+        "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China.",
+        "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China.",
+        "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China. fhw668@zju.edu.cn.",
+        "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China. bxxbj2003@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yifan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liang, Shuang",
+        "short_name": "Liang S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Fu, Dannuo",
+        "short_name": "Fu D",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Fu, Hongwei",
+        "short_name": "Fu H",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China. fhw668@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongxin",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Plant Secondary Metabolism and Regulation, College of Life Sciences and Medicine, Zhejiang Sci-Tech University, Hangzhou, 310018, P. R. China. bxxbj2003@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC plant biology"
+    ],
+    "journal_abbrev": [
+      "BMC Plant Biol"
+    ],
+    "pub_date": "2026 Apr 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/24 00:32",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40335673",
+      "39270910",
+      "39030489",
+      "39006032",
+      "38792110",
+      "38731567",
+      "38330691",
+      "38067620",
+      "37944729",
+      "37629123",
+      "37478968",
+      "37397599",
+      "37340801",
+      "36985345",
+      "36529733",
+      "36204377",
+      "36142587",
+      "36099721",
+      "35983486",
+      "35708960",
+      "35586333",
+      "35303649",
+      "35251091",
+      "35011276",
+      "34255862",
+      "33257825",
+      "32636341",
+      "32224272",
+      "31872584",
+      "31374363",
+      "30800137",
+      "29262679",
+      "28981786",
+      "25926837",
+      "25732536",
+      "25643998",
+      "25408694",
+      "24579990",
+      "23898339",
+      "23487525",
+      "22552276",
+      "22140247",
+      "22125650",
+      "18518825",
+      "18042724",
+      "17379537",
+      "15862090"
+    ],
+    "similar": [
+      "42026502",
+      "39006032",
+      "41900052",
+      "32224272",
+      "42475469",
+      "39759229",
+      "36247596",
+      "41833884",
+      "39942775",
+      "41344518",
+      "36914038",
+      "28895881",
+      "42589684",
+      "30627860",
+      "35225655",
+      "35059935",
+      "36099721",
+      "39771157",
+      "39030489",
+      "41565130",
+      "35850794",
+      "42548765",
+      "42000311",
+      "40561134",
+      "35272619",
+      "32415926",
+      "32424844",
+      "40187464",
+      "39046970",
+      "41783094",
+      "34364388",
+      "35866988",
+      "39519821",
+      "41987035",
+      "39427987",
+      "30989944",
+      "41225350",
+      "40403932",
+      "30428630",
+      "42301476",
+      "22937629",
+      "35365083",
+      "29262679",
+      "31132986",
+      "41754273",
+      "40907918",
+      "37047050",
+      "39422183",
+      "39888911",
+      "41611834",
+      "38587108",
+      "38046616",
+      "41961877",
+      "37038712",
+      "41749084",
+      "38792110",
+      "42589571",
+      "41965501",
+      "42353192",
+      "39596295",
+      "42042029",
+      "25643998",
+      "38727802",
+      "39312515",
+      "41204071",
+      "42115948",
+      "40820132",
+      "40413959",
+      "37629123",
+      "41506304",
+      "41492750",
+      "29246502",
+      "37352696",
+      "38542911",
+      "41408136",
+      "42147287",
+      "40547857",
+      "37917721",
+      "41992093",
+      "40957363",
+      "38698337",
+      "35586333",
+      "39062607",
+      "40588146",
+      "42150704",
+      "36608864",
+      "38091818",
+      "40538301",
+      "41295318",
+      "32237415",
+      "41401585",
+      "38443808",
+      "36062790",
+      "29728056",
+      "34495423",
+      "32237445",
+      "32028238",
+      "42388312",
+      "37970373",
+      "25093173"
+    ],
+    "review": [
+      "42026502",
+      "40907918",
+      "41492750",
+      "29246502"
+    ],
+    "pmc": [
+      "13237921"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-026-08796-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42026502/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3891",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

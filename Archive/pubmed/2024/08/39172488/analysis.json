@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39172488",
+  "title": "LineageVAE: reconstructing historical cell states and transcriptomes toward unobserved progenitors.",
+  "authors": "Majima, Koichiro; Kojima, Yasuhiro; Minoura, Kodai; Abe, Ko; Hirose, Haruka; Shimamura, Teppei",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2024-08-22",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度生成模型重建单细胞谱系轨迹，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "MOTIVATION: Single-cell RNA sequencing (scRNA-seq) enables comprehensive characterization of the cell state. However, its destructive nature prohibits measuring gene expression changes during dynamic processes such as embryogenesis or cell state divergence due to injury or disease. Although recent studies integrating scRNA-seq with lineage tracing have provided clonal insights between progenitor and mature cells, challenges remain. Because of their experimental nature, observations are sparse, and cells observed in the early state are not the exact progenitors of cells observed at later time points. To overcome these limitations, we developed LineageVAE, a novel computational methodology that utilizes deep learning based on the property that cells sharing barcodes have identical progenitors. RESULTS: LineageVAE is a deep generative model that transforms scRNA-seq observations with identical lineage barcodes into sequential trajectories toward a common progenitor in a latent cell state space. This method enables the reconstruction of unobservable cell state transitions, historical transcriptomes, and regulatory dynamics at a single-cell resolution. Applied to hematopoiesis and reprogrammed fibroblast datasets, LineageVAE demonstrated its ability to restore backward cell state transitions and infer progenitor heterogeneity and transcription factor activity along differentiation trajectories. AVAILABILITY AND IMPLEMENTATION: The LineageVAE model was implemented in Python using the PyTorch deep learning library. The code is available on GitHub at https://github.com/LzrRacer/LineageVAE/.",
+  "abstract_zh": "动机：单细胞RNA测序（scRNA-seq）能够全面表征细胞状态。然而，其破坏性本质阻碍了在动态过程（如胚胎发生或因损伤或疾病导致的细胞状态分化）中测量基因表达变化。尽管近期将scRNA-seq与谱系追踪相结合的研究提供了祖细胞与成熟细胞之间的克隆见解，但仍存在挑战。由于其实验性质，观测数据稀疏，且早期状态观察到的细胞并非后期时间点观察到的细胞的精确祖细胞。为克服这些限制，我们开发了LineageVAE，一种新颖的计算方法，利用基于共享条形码细胞具有相同祖细胞这一特性的深度学习。结果：LineageVAE是一种深度生成模型，将具有相同谱系条形码的scRNA-seq观测转化为潜在细胞状态空间中朝向共同祖细胞的连续轨迹。该方法能够重建在单细胞分辨率下不可观测的细胞状态转变、历史转录组和调控动态。应用于造血和重编程成纤维细胞数据集时，LineageVAE展示了其恢复反向细胞状态转变、推断祖细胞异质性以及沿分化轨迹的转录因子活性的能力。可用性与实现：LineageVAE模型使用Python中的PyTorch深度学习库实现。代码可在GitHub上获取，网址为https://github.com/LzrRacer/LineageVAE/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39172488/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39172488/",
+  "paper_page_path": "papers/pubmed/39172488/index.html"
+}

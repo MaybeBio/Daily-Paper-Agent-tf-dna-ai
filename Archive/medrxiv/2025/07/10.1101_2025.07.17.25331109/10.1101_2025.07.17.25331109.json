@@ -1,0 +1,1034 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.07.17.25331109",
+  "title": "A comprehensive framework for the interpretation of TTN missense variants",
+  "doi": "10.1101/2025.07.17.25331109",
+  "abstract": "<h4>Background</h4> Missense variants in TTN pose a major challenge in genetic diagnostics due to their high frequency in the general population, the large size of the gene, and the complex multidomain architecture of the titin protein. While the contribution of truncating variants (TTNtv) to titinopathies is well established, the role of rare TTN missense variants remains poorly defined. Advances in computational prediction and functional testing offer new tools to assess their potential pathogenicity, which however are currently not fully utilized for clinical application. <h4>Methods</h4> We analyzed an international cohort of unsolved myopathy cases selected based on the presence of a rare missense variant in trans with a TTNtv. Clinical data were collected from neuromuscular centers worldwide. In silico predictions were generated using AlphaMissense and complemented by MAF and exon usage information. Additional inclusion criteria were based on a Minor Allele Frequency < 0.010 and an AlphaMissense score ≥ 0.792 for the missense variant, in accordance with the latest ClinGen guidelines. Selected missense variants were characterized in vitro through protein expression and cell imaging assays to assess their effects on domain solubility and aggregation. <h4>Results</h4> Thirty patients with TTNtv/missense combinations were identified, presenting with heterogeneous myopathic phenotypes, ranging from congenital to adult onset. An in-depth analysis on AlphaMissense predictions highlighted those changes most frequently predicted as possibly pathogenic. Functional assays showed that three selected variants with changes to proline, located in β-sheets of Ig domains, led to impaired folding, cytoplasmic aggregation and co-localisation with proteostasis markers. In our cohort, all non-proline mutations occurred at buried sites, while some proline substitutions affected exposed residues. Notably, the variant p.(Gln7023Pro) was identified in 5 unrelated families sharing a conserved haplotype, indicating a common ancestor. This variant and the previously reported p.(Arg25480Pro) variant have been reclassified as likely pathogenic. <h4>Conclusions</h4> By integrating clinical, computational, and functional evidence, we propose a framework for interpreting TTN missense variants. Combining multiple lines of evidence is essential for variants’ classification and interpretation, especially given TTN complexity. Advancing diagnostic accuracy will require tailored interpretation guidelines and a global effort in data sharing and functional validation.",
+  "authors": [
+    "Di Feo MF",
+    "Rees M",
+    "Lillback V",
+    "Kho AL",
+    "Meybatova A",
+    "Holt M",
+    "Jungbluth H",
+    "Muntoni F",
+    "Baranello G",
+    "Sarkozy A",
+    "Fiorillo C",
+    "Baratto S",
+    "Bruno C",
+    "Traverso M",
+    "Iacomino M",
+    "Pedemonte M",
+    "Brolatti N",
+    "Faravelli F",
+    "Zara F",
+    "Mandarà GL",
+    "Beggs AH",
+    "Genetti CA",
+    "Barraza-Flores P",
+    "Rodolico C",
+    "Messina S",
+    "Schnabel F",
+    "Balogh I",
+    "Szakszon K",
+    "Sarv S",
+    "Õunap K",
+    "Ricci FS",
+    "Mussa A",
+    "Malfatti E",
+    "Bertini ES",
+    "D’Amico A",
+    "Diodato D",
+    "Catteruccia M",
+    "Ravenscroft G",
+    "Johari M",
+    "Kurbatov SA",
+    "Chausova P",
+    "Murtazina A",
+    "Kuchina A",
+    "Shchagina O",
+    "Drakos M",
+    "Spilioti M",
+    "Evangeliou AE",
+    "Zaganas I",
+    "Zhong H",
+    "Luo S",
+    "Merlini L",
+    "Nguyen C",
+    "Tasca G",
+    "Reeves T",
+    "Mörner S",
+    "Danielsson O",
+    "Udd B",
+    "Gautel M",
+    "Savarese M"
+  ],
+  "published_date": "2025-07-18",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.07.17.25331109",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.07.17.25331109.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1053897",
+    "raw_record": {
+      "id": "PPR1053897",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1053897"
+        ]
+      },
+      "doi": "10.1101/2025.07.17.25331109",
+      "title": "A comprehensive framework for the interpretation of <i>TTN</i> missense variants",
+      "authorString": "Di Feo MF, Rees M, Lillback V, Kho AL, Meybatova A, Holt M, Jungbluth H, Muntoni F, Baranello G, Sarkozy A, Fiorillo C, Baratto S, Bruno C, Traverso M, Iacomino M, Pedemonte M, Brolatti N, Faravelli F, Zara F, Mandarà GL, Beggs AH, Genetti CA, Barraza-Flores P, Rodolico C, Messina S, Schnabel F, Balogh I, Szakszon K, Sarv S, Õunap K, Ricci FS, Mussa A, Malfatti E, Bertini ES, D’Amico A, Diodato D, Catteruccia M, Ravenscroft G, Johari M, Kurbatov SA, Chausova P, Murtazina A, Kuchina A, Shchagina O, Drakos M, Spilioti M, Evangeliou AE, Zaganas I, Zhong H, Luo S, Merlini L, Nguyen C, Tasca G, Reeves T, Mörner S, Danielsson O, Udd B, TTN study group, Gautel M, Savarese M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Di Feo MF",
+            "lastName": "Di Feo",
+            "firstName": "Maria Francesca",
+            "initials": "MF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4090-9521"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Folkhälsan Research Center, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Department of Medical Genetics, Medicum, , Haartmaninkatu 8 , , ,"
+                },
+                {
+                  "affiliation": "Department of Neuroscience, Rehabilitation, Ophthalmology, Genetics, and Maternal and Child Health (DINOGMI), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rees M",
+            "lastName": "Rees",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2361-5828"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell & Molecular Biophysics, School of Basic & Medical Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lillback V",
+            "lastName": "Lillback",
+            "firstName": "Victoria",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-3092-5520"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Folkhälsan Research Center, Helsinki, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kho AL",
+            "lastName": "Kho",
+            "firstName": "Ay Lin",
+            "initials": "AL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9753-2091"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell & Molecular Biophysics, School of Basic & Medical Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meybatova A",
+            "lastName": "Meybatova",
+            "firstName": "Angelina",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell & Molecular Biophysics, School of Basic & Medical Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holt M",
+            "lastName": "Holt",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell & Molecular Biophysics, School of Basic & Medical Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jungbluth H",
+            "lastName": "Jungbluth",
+            "firstName": "Heinz",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Children’s Neuroscience Centre, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muntoni F",
+            "lastName": "Muntoni",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9102-5232"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Dubowitz Neuromuscular Unit, Great Ormond Street Institute of Child Health, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baranello G",
+            "lastName": "Baranello",
+            "firstName": "Giovanni",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4871-6692"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Dubowitz Neuromuscular Unit, Great Ormond Street Institute of Child Health, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sarkozy A",
+            "lastName": "Sarkozy",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Dubowitz Neuromuscular Unit, Great Ormond Street Institute of Child Health, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fiorillo C",
+            "lastName": "Fiorillo",
+            "firstName": "Chiara",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Rehabilitation, Ophthalmology, Genetics, and Maternal and Child Health (DINOGMI), , ,"
+                },
+                {
+                  "affiliation": "Child Neuropsychiatry Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baratto S",
+            "lastName": "Baratto",
+            "firstName": "Serena",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Translational and Experimental Myology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bruno C",
+            "lastName": "Bruno",
+            "firstName": "Claudio",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Rehabilitation, Ophthalmology, Genetics, and Maternal and Child Health (DINOGMI), , ,"
+                },
+                {
+                  "affiliation": "Centre of Translational and Experimental Myology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Traverso M",
+            "lastName": "Traverso",
+            "firstName": "Monica",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Genetics Unit, Giannina Gaslini Hospital, Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iacomino M",
+            "lastName": "Iacomino",
+            "firstName": "Michele",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Genetics Unit, Giannina Gaslini Hospital, Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pedemonte M",
+            "lastName": "Pedemonte",
+            "firstName": "Marina",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Pediatric Neurology and Muscle Diseases Unit, Giannina Gaslini Hospital, Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brolatti N",
+            "lastName": "Brolatti",
+            "firstName": "Noemi",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre of Translational and Experimental Myology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Faravelli F",
+            "lastName": "Faravelli",
+            "firstName": "Francesca",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical Genetics and Genomics Unit, Giannina Gaslini Hospital, Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zara F",
+            "lastName": "Zara",
+            "firstName": "Federico",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Rehabilitation, Ophthalmology, Genetics, and Maternal and Child Health (DINOGMI), , ,"
+                },
+                {
+                  "affiliation": "Medical Genetics Unit, Giannina Gaslini Hospital, Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mandarà GL",
+            "lastName": "Mandarà",
+            "firstName": "G.M. Luana",
+            "initials": "GL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Maria Paternò Arezzo Hospital, Ragusa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beggs AH",
+            "lastName": "Beggs",
+            "firstName": "Alan",
+            "initials": "AH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Genetics and Genomics, The Manton Center for Orphan Disease Research, , Harvard Medical School, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Genetti CA",
+            "lastName": "Genetti",
+            "firstName": "Casie",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Genetics and Genomics, The Manton Center for Orphan Disease Research, , Harvard Medical School, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barraza-Flores P",
+            "lastName": "Barraza-Flores",
+            "firstName": "Pamela",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Genetics and Genomics, The Manton Center for Orphan Disease Research, , Harvard Medical School, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rodolico C",
+            "lastName": "Rodolico",
+            "firstName": "Carmelo",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Experimental Medicine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Messina S",
+            "lastName": "Messina",
+            "firstName": "Sonia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Experimental Medicine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnabel F",
+            "lastName": "Schnabel",
+            "firstName": "Franziska",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Center, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Balogh I",
+            "lastName": "Balogh",
+            "firstName": "Istvan",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Faculty of Medicine, Department of Medical Genetics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Szakszon K",
+            "lastName": "Szakszon",
+            "firstName": "Katalin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Faculty of Medicine, Institute of Paediatrics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sarv S",
+            "lastName": "Sarv",
+            "firstName": "Siiri",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genetic and Personalized Medicine Clinic, and Institute of Clinical Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Õunap K",
+            "lastName": "Õunap",
+            "firstName": "Katrin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genetic and Personalized Medicine Clinic, and Institute of Clinical Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ricci FS",
+            "lastName": "Ricci",
+            "firstName": "Federica Silvia",
+            "initials": "FS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Public Health and Pediatrics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mussa A",
+            "lastName": "Mussa",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Public Health and Pediatrics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malfatti E",
+            "lastName": "Malfatti",
+            "firstName": "Edoardo",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", U955, , Reference Center for Neuromuscular Disorders, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bertini ES",
+            "lastName": "Bertini",
+            "firstName": "Enrico Silvio",
+            "initials": "ES",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit of Neuromuscular and Neurodegenerative Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "D’Amico A",
+            "lastName": "D’Amico",
+            "firstName": "Adele",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit of Neuromuscular and Neurodegenerative Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diodato D",
+            "lastName": "Diodato",
+            "firstName": "Daria",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit of Neuromuscular and Neurodegenerative Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Catteruccia M",
+            "lastName": "Catteruccia",
+            "firstName": "Michela",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit of Neuromuscular and Neurodegenerative Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ravenscroft G",
+            "lastName": "Ravenscroft",
+            "firstName": "Gianina",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johari M",
+            "lastName": "Johari",
+            "firstName": "Mridul",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kurbatov SA",
+            "lastName": "Kurbatov",
+            "firstName": "Sergei",
+            "initials": "SA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chausova P",
+            "lastName": "Chausova",
+            "firstName": "Polina",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murtazina A",
+            "lastName": "Murtazina",
+            "firstName": "Aysylu",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuchina A",
+            "lastName": "Kuchina",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shchagina O",
+            "lastName": "Shchagina",
+            "firstName": "Olga",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Drakos M",
+            "lastName": "Drakos",
+            "firstName": "Minas",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7384-1861"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurology/Neurogenetics Laboratory, Medical School,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spilioti M",
+            "lastName": "Spilioti",
+            "firstName": "Martha",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "1st Neurology Department, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evangeliou AE",
+            "lastName": "Evangeliou",
+            "firstName": "Athanasios",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Child Neurology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zaganas I",
+            "lastName": "Zaganas",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhong H",
+            "lastName": "Zhong",
+            "firstName": "Huahua",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Huashan Rare Disease Centre and Department of Neurology, , Shanghai Medical College, National Centre for Neurological Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luo S",
+            "lastName": "Luo",
+            "firstName": "Sushan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Huashan Rare Disease Centre and Department of Neurology, , Shanghai Medical College, National Centre for Neurological Disorders, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Merlini L",
+            "lastName": "Merlini",
+            "firstName": "Luciano",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical and Neuromotor Science, DIBINEM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen C",
+            "lastName": "Nguyen",
+            "firstName": "Cam-Tu-Emilie",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tasca G",
+            "lastName": "Tasca",
+            "firstName": "Giorgio",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0849-9144"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The John Walton Muscular Dystrophy Research Centre, Translational and Clinical Research Institute, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reeves T",
+            "lastName": "Reeves",
+            "firstName": "Tara",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The John Walton Muscular Dystrophy Research Centre, Translational and Clinical Research Institute, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mörner S",
+            "lastName": "Mörner",
+            "firstName": "Stellan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Public Health and Clinical Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Danielsson O",
+            "lastName": "Danielsson",
+            "firstName": "Olof",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Neurology, Department of Biomedical and Clinical Sciences, Faculty of Medicine and Health Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Udd B",
+            "lastName": "Udd",
+            "firstName": "Bjarne",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Folkhälsan Research Center, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Neuromuscular Research Center, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "TTN study group"
+          },
+          {
+            "fullName": "Gautel M",
+            "lastName": "Gautel",
+            "firstName": "Mathias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell & Molecular Biophysics, School of Basic & Medical Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Savarese M",
+            "lastName": "Savarese",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Folkhälsan Research Center, Helsinki, Finland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7384-1861"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4090-9521"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9102-5232"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9753-2091"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0849-9144"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2361-5828"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4871-6692"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-3092-5520"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Background</h4>  Missense variants in TTN pose a major challenge in genetic diagnostics due to their high frequency in the general population, the large size of the gene, and the complex multidomain architecture of the titin protein. While the contribution of truncating variants (TTNtv) to titinopathies is well established, the role of rare TTN missense variants remains poorly defined. Advances in computational prediction and functional testing offer new tools to assess their potential pathogenicity, which however are currently not fully utilized for clinical application. <h4>Methods</h4>  We analyzed an international cohort of unsolved myopathy cases selected based on the presence of a rare missense variant in trans with a TTNtv. Clinical data were collected from neuromuscular centers worldwide. In silico predictions were generated using AlphaMissense and complemented by MAF and exon usage information. Additional inclusion criteria were based on a Minor Allele Frequency < 0.010 and an AlphaMissense score ≥ 0.792 for the missense variant, in accordance with the latest ClinGen guidelines. Selected missense variants were characterized in vitro through protein expression and cell imaging assays to assess their effects on domain solubility and aggregation. <h4>Results</h4>  Thirty patients with TTNtv/missense combinations were identified, presenting with heterogeneous myopathic phenotypes, ranging from congenital to adult onset. An in-depth analysis on AlphaMissense predictions highlighted those changes most frequently predicted as possibly pathogenic. Functional assays showed that three selected variants with changes to proline, located in β-sheets of Ig domains, led to impaired folding, cytoplasmic aggregation and co-localisation with proteostasis markers. In our cohort, all non-proline mutations occurred at buried sites, while some proline substitutions affected exposed residues. Notably, the variant p.(Gln7023Pro) was identified in 5 unrelated families sharing a conserved haplotype, indicating a common ancestor. This variant and the previously reported p.(Arg25480Pro) variant have been reclassified as likely pathogenic. <h4>Conclusions</h4>  By integrating clinical, computational, and functional evidence, we propose a framework for interpreting TTN missense variants. Combining multiple lines of evidence is essential for variants’ classification and interpretation, especially given TTN complexity. Advancing diagnostic accuracy will require tailored interpretation guidelines and a global effort in data sharing and functional validation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "CH/08/001/25300",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.17.25331109"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1053897"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1053897&type=FILE&fileName=EMS207501-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207501",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-07-24",
+      "firstPublicationDate": "2025-07-18",
+      "firstIndexDate": "2025-07-24",
+      "fullTextReceivedDate": "2025-08-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.10.483780",
+  "title": "Identifying transcription factor-DNA interactions using machine learning",
+  "authors": "Sohyun Bang; Mary Galli; Peter A. Crisp; Andrea Gallavotti; Robert J. Schmitz",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-12",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习方法（k-mer编码+逻辑回归）预测玉米和大豆中ARF转录因子与DNA的结合位点，聚焦TF-DNA互作识别，但方法较传统、跨物种泛化有限，对课题有参考价值。",
+  "abstract": "Machine learning approaches have been applied to identify transcription factor (TF)-DNA interaction important for gene regulation and expression. However, due to the enormous search space of the genome, it is challenging to build models capable of surveying entire reference genomes, especially in species where models were not trained. In this study, we surveyed a variety of methods for classification of epigenomics data in an attempt to improve the detection for 12 members of the Auxin Response Factor (ARF) binding DNAs from maize and soybean as assessed by DNA Affinity Purification and sequencing (DAP-seq). We used the classification for prediction by minimizing the genome search space by only surveying unmethylated regions (UMRs). For identification of DAP-seq binding events within the UMRs, we achieved 93.54% accuracy, 6.2% false positive, and a 43.29% false negative rate across 12 members of ARFs of maize on average by encoding DNA with count vectorization for k-mer with a logistic regression classifier with up-sampling and feature selection. Importantly, feature selection helps to uncover known and potentially novel ARF binding motifs. This demonstrates an independent method for identification of transcription factor binding sites. Finally, we tested the model built with maize DAP-seq data and applied it directly to the soybean genome and found unacceptably high false positive rates, which accounted for more than 40% across the ARF TFs tested. The findings in this study suggest the potential use of various methods to predict TF-DNA interactions within and between species with varying degrees of success.",
+  "abstract_zh": "机器学习方法已被应用于识别对基因调控和表达至关重要的转录因子（TF）-DNA相互作用。然而，由于基因组的巨大搜索空间，构建能够扫描整个参考基因组的模型面临挑战，尤其是在未训练模型的物种中。在本研究中，我们考察了多种表观基因组数据分类方法，旨在改进对玉米和大豆中12个生长素响应因子（ARF）成员结合DNA的检测，这些检测通过DNA亲和纯化与测序（DAP-seq）进行评估。我们通过仅扫描未甲基化区域（UMRs）来最小化基因组搜索空间，从而使用分类进行预测。在UMRs内识别DAP-seq结合事件时，通过使用k-mer的计数向量化编码DNA，并结合逻辑回归分类器、上采样和特征选择，我们在玉米的12个ARF成员中平均实现了93.54%的准确率、6.2%的假阳性率和43.29%的假阴性率。重要的是，特征选择有助于揭示已知和潜在的ARF结合基序。这展示了一种独立的转录因子结合位点识别方法。最后，我们测试了用玉米DAP-seq数据构建的模型，并将其直接应用于大豆基因组，发现假阳性率高得不可接受，在测试的ARF转录因子中超过40%。本研究的结果表明，各种方法在物种内和物种间预测TF-DNA相互作用方面具有潜在应用价值，但成功程度各异。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.10.483780",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.10.483780",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.10.483780/index.html"
+}

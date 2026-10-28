@@ -1,0 +1,448 @@
+{
+  "identity": {
+    "pmid": "42153654",
+    "doi": "10.1128/mbio.00148-26",
+    "title": "Structural basis of the AlgU-MucA(cyto) interaction and SspB-mediated degradation in Pseudomonas aeruginosa stress response."
+  },
+  "content": {
+    "abstract": "In Pseudomonas aeruginosa, the sigma factor AlgU functions as a critical stress-responsive regulator governing essential physiological processes. This study assessed algU-dependent phenotypes through targeted gene knockout, including effects on alginate secretion and host cell invasion. Furthermore, an innovative fusion protein strategy addressed complex preparation challenges, enabling the determination of a high-resolution (2.101 A) structure of the AlgU-MucA(cyto) complex and revealing an exceptionally low backbone deviation of merely 0.01 A relative to the reported 6IN7 complex. Structural analysis revealed an extensive mutation-resistant interaction network at the binding interface, stabilized primarily by salt bridges, hydrogen bonds, and hydrophobic interactions. Subsequent mutational validation confirmed that triple or sextuple alanine substitutions at critical interaction sites maintained complex binding integrity while significantly compromising thermal stability, indicating that although dispensable for binding, these residues are indispensable for complex stability. Crucially, pull-down assays identified SspB as the essential adaptor bridging the AlgU-MucA(cyto) complex to the ClpX/ClpP protease; AlphaFold3 modeling and quantitative BLI measurements reveal that SspB engages AlgU via its N-terminal domain and binds ClpX through its disordered C-terminus, enabling substrate delivery and proteolysis-coupled AlgU release. Collectively, these findings elucidate a dual-safeguard regulatory mechanism: inherent mutation resistance at the binding interface prevents aberrant AlgU activation by common clinical mucA mutations, while SspB-mediated proteolysis ensures stimulus-responsive AlgU liberation. This evolutionary adaptation confers resistance against detrimental AlgU overactivation in P. aeruginosa and provides novel therapeutic targets. IMPORTANCE: Deletion of the algU gene affected the production of pyoverdine, pyocyanin, and alginate in Pseudomonas aeruginosa, as well as its cell invasiveness. By fusing AlgU and MucA(cyto), we were able to obtain an AlgU-MucA(cyto) protein complex with both high yield and purity, and successfully obtained a crystal structure of the AlgU-MucA(cyto) complex. Structural analysis revealed an extensive and robust network of salt bridges, hydrogen bonds, and charge interactions between the two proteins. Multi-site alanine substitutions (up to sextuple mutations) in interfacial charged clusters of the AlgU-MucA(cyto) complex fail to disrupt binding but severely impair thermal stability, revealing that these residues are binding-redundant yet stability-essential. Structural modeling and BLI measurements identify SspB as a dual-interface adaptor: its N-terminal domain recognizes the preassembled AlgU-MucA(cyto) complex (via the AlgU hairpin surface), whereas its flexible C-terminal tail engages ClpX, thereby bridging AlgU-MucA(cyto) to ClpXP and positioning MucA(cyto) for proteolysis-coupled AlgU release.",
+    "keywords": [
+      "ClpX/ClpP protease",
+      "MucA-RIP",
+      "Pseudomonas aeruginosa",
+      "alginate",
+      "virulence factors, SspB adaptor",
+      "sigma factor AlgU"
+    ],
+    "mesh_terms": [
+      "*Pseudomonas aeruginosa/genetics/physiology/metabolism/chemistry",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "*Sigma Factor/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "*Stress, Physiological",
+      "Alginates/metabolism",
+      "Proteolysis",
+      "Models, Molecular",
+      "Protein Conformation",
+      "Gene Knockout Techniques"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tao",
+        "Wang, Yingzhi",
+        "Zhao, Ninglin",
+        "Ge, Chunlei",
+        "Wu, Cuiling",
+        "Li, Ke",
+        "Li, Li",
+        "Wang, Zhiqiang",
+        "Chen, Ying",
+        "Chen, Zhenpu",
+        "Li, Weike",
+        "Liu, Yang",
+        "Wang, Zhonghui",
+        "Sha, Yun",
+        "Yao, Hong",
+        "Zhu, Yibo",
+        "Bao, Rui"
+      ],
+      "short_names": [
+        "Li T",
+        "Wang Y",
+        "Zhao N",
+        "Ge C",
+        "Wu C",
+        "Li K",
+        "Li L",
+        "Wang Z",
+        "Chen Y",
+        "Chen Z",
+        "Li W",
+        "Liu Y",
+        "Wang Z",
+        "Sha Y",
+        "Yao H",
+        "Zhu Y",
+        "Bao R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5930-2757",
+        "ORCID: 0000-0002-8014-6696",
+        "ORCID: 0000-0002-6083-8716"
+      ],
+      "affiliations": [
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "University-Town Hospital of Chongqing Medical University, Chongqing, China.",
+        "Center of Infectious Diseases, Division of Infectious Diseases in State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Department of Radiation Oncology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China.",
+        "Center of Infectious Diseases, Division of Infectious Diseases in State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Accurate Biotechnology (Hunan) Co., Ltd., Changsha, China.",
+        "Center of Infectious Diseases, Division of Infectious Diseases in State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tao",
+        "short_name": "Li T",
+        "identifiers": [
+          "0000-0001-5930-2757"
+        ],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingzhi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "University-Town Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ninglin",
+        "short_name": "Zhao N",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Infectious Diseases, Division of Infectious Diseases in State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Chunlei",
+        "short_name": "Ge C",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Cuiling",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiqiang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ying",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhenpu",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weike",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhonghui",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Sha, Yun",
+        "short_name": "Sha Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Hong",
+        "short_name": "Yao H",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biotherapy Center & Cancer Research Institute, Yunnan Cancer Hospital, The Third Affiliated Hospital of Kunming Medical University, Peking University Cancer Hospital Yunnan, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yibo",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0002-8014-6696"
+        ],
+        "affiliations": [
+          "Center of Infectious Diseases, Division of Infectious Diseases in State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Accurate Biotechnology (Hunan) Co., Ltd., Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Rui",
+        "short_name": "Bao R",
+        "identifiers": [
+          "0000-0002-6083-8716"
+        ],
+        "affiliations": [
+          "Center of Infectious Diseases, Division of Infectious Diseases in State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2026 Jun 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 12:35",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36730206",
+      "34663323",
+      "34067186",
+      "33622718",
+      "33010891",
+      "32747658",
+      "31772069",
+      "31297938",
+      "31270321",
+      "31158231",
+      "31142499",
+      "29500457",
+      "29259588",
+      "28348410",
+      "27593394",
+      "26639779",
+      "26492139",
+      "26451486",
+      "26206672",
+      "24428834",
+      "24187093",
+      "23991093",
+      "23335756",
+      "22951447",
+      "21361996",
+      "21036998",
+      "20817772",
+      "19298369",
+      "18599839",
+      "17470813",
+      "16428425",
+      "15972536",
+      "15813726",
+      "15525508",
+      "15516570",
+      "15371343",
+      "12149328",
+      "10984043",
+      "9457868",
+      "9207792",
+      "8698507",
+      "7768826",
+      "7639755",
+      "1539148"
+    ],
+    "similar": [
+      "42153654",
+      "31297938",
+      "18599839",
+      "39287400",
+      "10792719",
+      "39566124",
+      "33905139",
+      "8195094",
+      "19168621",
+      "22842599",
+      "15516570",
+      "27091153",
+      "7768826",
+      "9387225",
+      "8759866",
+      "22497280",
+      "7961422",
+      "16000715",
+      "30936375",
+      "32747658",
+      "33622718",
+      "20817772",
+      "24913916",
+      "32747430",
+      "7559357",
+      "23533140",
+      "19298369",
+      "29784885",
+      "8412698",
+      "9171421",
+      "24138584",
+      "21036998",
+      "8550474",
+      "22589289",
+      "32316259",
+      "19332805",
+      "8606151",
+      "12533483",
+      "9284161",
+      "19226327",
+      "23991093",
+      "11722923",
+      "17020580",
+      "37141849",
+      "10411261",
+      "39827548",
+      "41711968",
+      "28258142",
+      "11092861",
+      "25968647",
+      "38854061",
+      "42475469",
+      "25336469",
+      "35980488",
+      "22210761",
+      "22154939",
+      "27270273",
+      "8981997",
+      "20236169",
+      "8432708",
+      "14536077",
+      "8378309",
+      "30322853",
+      "11807066",
+      "11073894",
+      "8698507",
+      "17317664",
+      "20348252",
+      "17470813",
+      "40980994",
+      "37967103",
+      "10792721",
+      "17258768",
+      "29382736",
+      "41347780",
+      "23848942",
+      "20045914",
+      "27325679",
+      "29091392",
+      "22088575",
+      "42390567",
+      "24187093",
+      "25433393",
+      "29339431",
+      "17981963",
+      "33932986",
+      "9159526",
+      "41353338",
+      "35963160",
+      "39621812",
+      "41538966",
+      "37328957",
+      "29923820",
+      "8759865",
+      "8312973",
+      "7961421",
+      "27957853",
+      "7644517",
+      "15371343",
+      "32184248"
+    ],
+    "review": [
+      "42153654",
+      "22497280",
+      "41711968"
+    ],
+    "pmc": [
+      "13251409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.00148-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42153654/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

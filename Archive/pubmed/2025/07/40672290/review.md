@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2025.07.11.659973)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No external data or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors present a multi-platform approach combining in vitro and in vivo massively parallel reporter assays (MPRAs) with interpretable deep-learning models to characterize context-dependent regulatory effects of late-onset Alzheimer's disease (LOAD) associated noncoding variants across immune and neural cell states. They report cell-type- and immune-state-specific variant effects, identify regulatory hotspots, and use CRISPRi to functionally validate an enhancer at the SEC63-OSTM1 locus.
+- **Visible evidence base** Abstract, Results, Discussion, Methods, Extended Data figure legends (as referenced), Supplementary table legends (as referenced). No raw data, figures, or supplementary files were available for direct inspection.
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary tables, and raw sequencing data. Statistical details for many comparisons are not fully described in the text. The GEO accession number is not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely problem: the functional interpretation of noncoding risk variants in a complex disease (LOAD) with attention to cell-type and cellular-state context. The integration of MPRA across multiple immune states and brain regions, combined with deep-learning model interpretation and CRISPRi validation, represents a substantial technical effort. The central claims—that variant effects are context-dependent, that common variants act more in immune contexts while rare variants act more in neural contexts, and that a specific enhancer at SEC63-OSTM1 gates inflammatory responses—are interesting and potentially important. However, the strength of the conclusions is limited by the reliance on cell lines and mouse models as proxies for human disease-relevant states, the modest number of validated variants, and the lack of direct evidence linking the prioritized variants to disease mechanism. The manuscript is well-written and the methods are described in considerable detail, but several technical and interpretive issues need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in neurogenetics, regulatory genomics, and Alzheimer's disease biology. The work provides a framework for interpreting noncoding variants in a cell-type- and state-specific manner, which is broadly relevant to complex disease genetics. The SEC63-OSTM1 enhancer finding may be of interest to those studying inflammation and amyloidogenesis in LOAD.
+- **Major strengths** 1) The combination of in vitro and in vivo MPRA across multiple immune states and brain regions is a rigorous and comprehensive approach. 2) The integration of interpretable deep-learning models with experimental validation is a powerful strategy for variant prioritization and mechanistic interpretation. 3) The identification of context-dependent, including opposing, allelic effects across cell types is an important contribution. 4) The CRISPRi validation at SEC63-OSTM1 provides functional evidence for a specific enhancer's role in inflammation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The manuscript claims that MPRA identified expression-modulating variants (emVars) with high confidence across immune and neural contexts, and that these effects are cell-type- and state-specific.
+  - **Evidence pointer** Results sections "Context-dependent MPRA identified LOAD-risk enhancers..." and "Context-dependent MPRA identified regulatory LOAD variants..."; Methods "MPRA Experiments" and "MPRA Data Analysis"
+  - **Concern** The MPRA is performed in THP-1 macrophages, HMC3 microglia, and mouse brain tissue. The authors do not provide a clear demonstration that the MPRA results are reproducible across biological replicates or that the chosen statistical thresholds (FDR < 0.05) are robust given the number of variants tested and the inherent noise in MPRA, particularly in vivo. The text mentions Pearson's r ≈ 0.8–0.9 in vitro and r ≈ 0.6–0.7 in vivo for enhancer activity, but the correlation of allelic effects (the key readout) is not reported. Furthermore, the use of a single cell line (THP-1) and a single mouse strain limits the generalizability of the findings.
+  - **Why it matters** The core conclusions of the paper rest on the reliability of the MPRA measurements. If the allelic effects are not reproducible or are driven by technical noise, the subsequent analyses and biological interpretations are compromised.
+  - **Resolution test** Provide a detailed analysis of MPRA reproducibility, including correlation of allelic effects between replicates, and a power analysis or justification for the chosen thresholds. Ideally, validate a subset of emVars in an orthogonal assay (e.g., transient transfection reporter assays in primary cells or iPSC-derived microglia).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Support for claims
+  - **Claim pointer** The manuscript claims that common LOAD variants tend to exert stronger effects in immune cells, whereas rare variants have greater functional consequences in neural contexts.
+  - **Evidence pointer** Results section "Context-dependent MPRA identified regulatory LOAD variants across immune and neural contexts"; Figure 3b
+  - **Concern** This is a central and interesting claim, but the evidence presented in the text is modest. The authors state the effect is "modest" and the figure shows a trend. The statistical significance of this difference (common vs. rare variant effect sizes in immune vs. neural contexts) is not explicitly stated in the text. The classification of variants as "common" or "rare" is not clearly defined in the provided text.
+  - **Why it matters** This claim has implications for how we think about the genetic architecture of LOAD and which variants to prioritize in functional studies. If the evidence is weak, the claim should be tempered.
+  - **Resolution test** Provide a clear statistical test comparing the effect sizes of common vs. rare variants in immune vs. neural contexts. Define the allele frequency thresholds used. If the effect is not statistically significant, soften the claim in the abstract and discussion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Interpretation
+  - **Claim pointer** The manuscript claims that CRISPRi silencing of an enhancer within the SEC63-OSTM1 locus reveals its "gatekeeper role in inflammation and amyloidogenesis."
+  - **Evidence pointer** Results section "Mechanistic interpretation of functional regulatory variants at BIN1, MS4A, and SEC63-OSTM1 loci"; Figure 6e, 6f
+  - **Concern** The functional validation is limited to a single enhancer in a single cell type (THP-1 macrophages). The claim of a "gatekeeper role" is strong and implies a broad regulatory function. The text states that silencing the enhancer elevated GSAP and SSH1 expression and shifted cells toward an M1-like state, but the direct link to amyloidogenesis is inferred from GSAP's known role, not directly demonstrated here. The specificity of the CRISPRi effect (i.e., off-target effects) is not discussed.
+  - **Why it matters** Overstating the functional significance of a single enhancer based on limited validation could mislead the field. The "gatekeeper" claim needs to be supported by more direct evidence of the enhancer's role in disease-relevant processes.
+  - **Resolution test** Provide additional validation, such as rescue experiments or a more detailed characterization of the downstream pathways affected. Consider testing the enhancer's role in a more disease-relevant cell type, such as iPSC-derived microglia. Soften the "gatekeeper" language if the evidence is not definitive.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The manuscript claims that the deep-learning models "accurately predicted chromatin accessibility in holdout data" and that in silico mutagenesis could distinguish variants with strong versus weak regulatory effects.
+  - **Evidence pointer** Results section "Deep-learning models interpret cell-type- and immune-state-specific variant effects"; Methods "Machine Learning Model Training and Prediction"
+  - **Concern** The description of the model training and evaluation is incomplete. The text mentions Spearman's ρ ≈ 0.8 for matched cell types, but does not provide details on the model architecture, hyperparameter tuning, or the performance on the test set for the variant effect prediction task. The method for generating null distributions for variant effect significance is described, but the calibration of these p-values is not assessed. The claim that the models "can identify significant regulatory variants that align with MPRA data" needs a quantitative comparison (e.g., AUC or enrichment) rather than just a qualitative statement.
+  - **Why it matters** The deep-learning component is a key part of the paper's contribution. Without a rigorous evaluation, the utility of these models for variant prioritization is unclear.
+  - **Resolution test** Provide a more detailed description of the model and its evaluation, including performance metrics for the variant effect prediction task. Show a quantitative comparison between model predictions and MPRA results (e.g., ROC curves or enrichment analysis).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods, "MPRA Plasmid Library Design"
+  - **Evidence pointer** Methods section "Prioritization of late-onset Alzheimer's disease (LOAD) Genetic Variants"
+  - **Issue** The criteria for including variants from "patient family studies" are not described. It is unclear if all variants from these studies were included or only those meeting specific criteria.
+  - **Required correction** Clarify the inclusion criteria for variants from patient family studies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Context-dependent MPRA identified LOAD-risk enhancers..."
+  - **Evidence pointer** Results section; Figure 2c
+  - **Issue** The statement "Activity profiles clustered by cell type, strongly correlated within immune or neural contexts but moderately across them" is vague. The correlation values are not provided.
+  - **Required correction** Provide the correlation coefficients or a visual representation of the clustering to support this statement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Interpretation
+  - **Affected element** Results, "Mechanistic interpretation..."
+  - **Evidence pointer** Results section; Figure 6
+  - **Issue** The description of the BIN1 results is complex and could be clearer. The text states that peak-centered constructs "unexpectedly revealed T allele-driven transcriptional repression," but the relationship between this finding and the previous literature (which suggested activation) is not fully reconciled.
+  - **Required correction** Provide a clearer explanation of how these new findings relate to and extend previous work on the BIN1 locus.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "CRISPRi Experiments"
+  - **Evidence pointer** Methods section "Guide RNA Design"
+  - **Issue** The text states that "Two safe-targeting and one non-targeting sgRNAs were selected from published sources." The specific sources and the criteria for "safe-targeting" are not provided.
+  - **Required correction** Provide citations for the control sgRNAs and describe the criteria used to define them as "safe-targeting."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the "unexpected enrichment of sensory genes" is interesting but speculative. The link to "early LOAD deficits" is not well-developed.
+  - **Required correction** Either provide more evidence or context for this finding, or temper the speculation.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of detailed MPRA reproducibility analysis for allelic effects. 2) Incomplete description of the deep-learning model evaluation, particularly for variant effect prediction. 3) The statistical basis for the common vs. rare variant claim is not fully presented. 4) The CRISPRi validation is limited to a single enhancer and cell type, and the "gatekeeper" claim is not fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its combination of techniques and its focus on context-dependent effects across immune and neural states. The use of interpretable deep-learning models to dissect MPRA results is a notable methodological contribution.
+  - **Scientific importance** The findings have the potential to be important for the field of LOAD genetics by providing a framework for functional interpretation of noncoding variants. The identification of context-dependent effects, including opposing allelic effects, is a significant conceptual advance. However, the importance is currently tempered by the limitations in validation and the modest effect sizes.
+  - **Interdisciplinary readership** The work will appeal to a broad readership, including geneticists, genomicists, neurobiologists, and computational biologists. The methods and concepts are relevant beyond LOAD.
+  - **Technical soundness** The experimental design is generally sound, but the lack of detailed reproducibility and model evaluation data is a concern. The statistical rigor of some key claims needs to be strengthened.
+  - **Readability for nonspecialists** The manuscript is well-written and the concepts are explained clearly. The abstract is accessible. However, the methods section is dense and may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and approach are promising, and the data are potentially valuable. However, the manuscript in its current form does not fully establish the central claims due to the concerns outlined above. The authors should be encouraged to address the technical issues and strengthen the statistical support for their conclusions.
+
+## Risk / unsupported claims
+- The claim that common variants act more in immune contexts and rare variants in neural contexts is based on a "modest" effect and needs stronger statistical support.
+- The "gatekeeper role" of the SEC63-OSTM1 enhancer in inflammation and amyloidogenesis is an overstatement based on the limited validation presented.
+- The claim that the deep-learning models "can identify significant regulatory variants that align with MPRA data" is not quantitatively supported in the text.
+- The generalizability of the findings from THP-1 cells and mouse brain to human disease is assumed but not directly demonstrated.

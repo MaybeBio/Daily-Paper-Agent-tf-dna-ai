@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "41867535",
+    "doi": "10.1021/acsomega.5c10598",
+    "title": "Exploration of Agonist and Antagonist Binding Sites within the Cytosolic AHR Complex Using Molecular Modeling."
+  },
+  "content": {
+    "abstract": "The aryl hydrocarbon receptor (AHR) is a ligand-activated transcription factor involved in metabolism, cell motility, development, and immune responses. Its dysregulation is linked to various diseases, including cancer, in which it can enhance tumor progression and suppress immune responses. High-resolution cryo-electron microscopy (cryo-EM) structures of the human cytosolic AHR complex have recently been solved and have provided insights into its agonist-binding mechanisms. However, our understanding of AHR antagonist binding remains limited. Our computational study, using the structure of the indirubin-bound human cytosolic AHR complex together with state-of-the-art docking algorithms and molecular dynamics simulations, suggests that AHR antagonists may bind either to the ligand-binding pocket or to alternative, as yet unexplored, sites outside of the ligand-binding pocket. These findings suggest novel molecular mechanisms of AHR inhibition and provide the foundation for experimental evaluation to advance our understanding of the therapeutic potential of current AHR inhibitors and to support future drug development efforts.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karabogdan, Ivana",
+        "Yanqui-Rivera, Francisco",
+        "Sayeeram, Deepak",
+        "Sadik, Ahmed",
+        "Miller, Aubry K",
+        "Trump, Saskia",
+        "Rohrig, Ute F",
+        "Opitz, Christiane A"
+      ],
+      "short_names": [
+        "Karabogdan I",
+        "Yanqui-Rivera F",
+        "Sayeeram D",
+        "Sadik A",
+        "Miller AK",
+        "Trump S",
+        "Rohrig UF",
+        "Opitz CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4676-4087",
+        "ORCID: 0000-0001-5575-9821"
+      ],
+      "affiliations": [
+        "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany. RINGGOLD: 28333",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany. RINGGOLD: 28333",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany. RINGGOLD: 28333",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany. RINGGOLD: 28333",
+        "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany.",
+        "Cancer Drug Development, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Molecular Epidemiology Unit, Berlin Institute of Health at Charite and the German Cancer Consortium (DKTK), Partner Site Berlin, a partnership between DKFZ and Charite -Universitatsmedizin Berlin, 10117 Berlin, Germany. RINGGOLD: 522475",
+        "Molecular Modelling Group, SIB Swiss Institute of Bioinformatics, CH-1015 Lausanne, Switzerland. RINGGOLD: 30489",
+        "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany. RINGGOLD: 28333",
+        "Neurology Clinic and National Center for Tumor Diseases, 69120 Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karabogdan, Ivana",
+        "short_name": "Karabogdan I",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Yanqui-Rivera, Francisco",
+        "short_name": "Yanqui-Rivera F",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sayeeram, Deepak",
+        "short_name": "Sayeeram D",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sadik, Ahmed",
+        "short_name": "Sadik A",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany.",
+          "Faculty of Bioscience, Heidelberg University, 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Miller, Aubry K",
+        "short_name": "Miller AK",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Drug Development, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Trump, Saskia",
+        "short_name": "Trump S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Epidemiology Unit, Berlin Institute of Health at Charité and the German Cancer Consortium (DKTK), Partner Site Berlin, a partnership between DKFZ and Charité -Universitätsmedizin Berlin, 10117 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Röhrig, Ute F",
+        "short_name": "Röhrig UF",
+        "identifiers": [
+          "0000-0002-4676-4087"
+        ],
+        "affiliations": [
+          "Molecular Modelling Group, SIB Swiss Institute of Bioinformatics, CH-1015 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Opitz, Christiane A",
+        "short_name": "Opitz CA",
+        "identifiers": [
+          "0000-0001-5575-9821"
+        ],
+        "affiliations": [
+          "German Cancer Research Center (DKFZ), Heidelberg, Division of Metabolic Crosstalk in Cancer and the German Cancer Consortium (DKTK), DKFZ Core Center Heidelberg, 69120 Heidelberg, Germany.",
+          "Neurology Clinic and National Center for Tumor Diseases, 69120 Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2026 Mar 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/23 06:32",
+    "fetched_at": "2026-10-01 17:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39952059",
+      "39900897",
+      "39813730",
+      "39415055",
+      "38992915",
+      "38680494",
+      "38135181",
+      "37963637",
+      "37958638",
+      "37951956",
+      "37853543",
+      "37797832",
+      "37774136",
+      "37719171",
+      "37696456",
+      "37285197",
+      "37169746",
+      "36649707",
+      "36385050",
+      "36305167",
+      "36270778",
+      "35139353",
+      "34950569",
+      "34278794",
+      "34223158",
+      "33582577",
+      "33515530",
+      "33396563",
+      "33348604",
+      "33214553",
+      "32962386",
+      "32881101",
+      "32818467",
+      "32782249",
+      "32354640",
+      "31337850",
+      "31119183",
+      "30962630",
+      "30718831",
+      "30513921",
+      "30201897",
+      "30003042",
+      "29760532",
+      "29533786",
+      "29343438",
+      "28710774",
+      "28602820",
+      "28396409",
+      "28001342",
+      "27837168",
+      "26620784",
+      "26619985",
+      "26558715",
+      "26041783",
+      "25657351",
+      "25568920",
+      "25329374",
+      "25159092",
+      "24655296",
+      "24591650",
+      "24001774",
+      "23908379",
+      "23407358",
+      "23341755",
+      "22361730",
+      "21995607",
+      "21982300",
+      "21981577",
+      "21976023",
+      "21967751",
+      "21645855",
+      "21493753",
+      "20868221",
+      "20684613",
+      "20634293",
+      "19996281",
+      "19499576",
+      "19486540",
+      "19444816",
+      "18540824",
+      "17918282",
+      "17223691",
+      "17212484",
+      "16540597",
+      "16211538",
+      "12213385",
+      "12213383",
+      "10836146",
+      "10592235",
+      "9841714",
+      "9446600",
+      "8937476",
+      "7493958"
+    ],
+    "similar": [
+      "41867535",
+      "38135181",
+      "36385050",
+      "25329374",
+      "42475469",
+      "36649707",
+      "24136190",
+      "31292129",
+      "38457778",
+      "37797832",
+      "32526934",
+      "40481006",
+      "36705144",
+      "41091398",
+      "24591650",
+      "33182092",
+      "30248327",
+      "36266304",
+      "38499054",
+      "24200861",
+      "26377202",
+      "38992456",
+      "22507882",
+      "31337850",
+      "37963637",
+      "27288759",
+      "34782204",
+      "21967751",
+      "21493753",
+      "36183684",
+      "25642729",
+      "29626056",
+      "26727491",
+      "31370872",
+      "29266750",
+      "28497129",
+      "27226639",
+      "8794892",
+      "14742684",
+      "30201897",
+      "29279331",
+      "10620335",
+      "34915497",
+      "15794642",
+      "32316498",
+      "42385421",
+      "27907195",
+      "10619402",
+      "19456125",
+      "20000589",
+      "23711559",
+      "30299652",
+      "37106727",
+      "20957046",
+      "39900897",
+      "20875740",
+      "42290011",
+      "9789953",
+      "38612627",
+      "38569320",
+      "38992915",
+      "20634293",
+      "29860352",
+      "33374508",
+      "40562410",
+      "17223691",
+      "20231332",
+      "31026283",
+      "42505552",
+      "15342792",
+      "32252465",
+      "35421413",
+      "29262535",
+      "39454560",
+      "34463909",
+      "12527811",
+      "27295348",
+      "28681081",
+      "22903824",
+      "29487603",
+      "34280616",
+      "29351992",
+      "40308029",
+      "10101030",
+      "10692406",
+      "36732021",
+      "7980646",
+      "8954578",
+      "39246744",
+      "12058065",
+      "25349783",
+      "38533374",
+      "37298290",
+      "25159092",
+      "34746229",
+      "31488157",
+      "7984872",
+      "1846511",
+      "19719119",
+      "11005382"
+    ],
+    "review": [
+      "41867535",
+      "37797832",
+      "42385421",
+      "23711559",
+      "30299652",
+      "37106727",
+      "42290011",
+      "9789953",
+      "38612627",
+      "33374508",
+      "42505552",
+      "29487603",
+      "36732021",
+      "38533374",
+      "34746229",
+      "31488157"
+    ],
+    "pmc": [
+      "13000621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41867535/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=2951",
+        "provider": "Guide to Pharmacology",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "aryl hydrocarbon receptor - data and references"
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.5c10598",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

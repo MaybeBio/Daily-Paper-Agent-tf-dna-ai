@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41272294",
+    "doi": "10.1038/s41598-025-29151-7",
+    "title": "Identification of potential anti-biofilm agents targeting LasR in Pseudomonas aeruginosa through machine learning-driven screening, molecular docking, and dynamics simulations."
+  },
+  "content": {
+    "abstract": "Antimicrobial resistance (AMR) remains a major worldwide health concern, with biofilm-forming bacteria playing an important role in the persistence of chronic infections and the evasion of host immune responses. Pseudomonas aeruginosa, a common biofilm-forming bacteria, is notorious for causing a wide range of infections, particularly in immunocompromised people, and is highly resistant to standard treatment drugs. This work aims to find new anti-biofilm compounds that target the Pseudomonas aeruginosa LasR quorum-sensing system, which is an important regulator of biofilm development and pathogenicity. In this study machine learning-based virtual screening, molecular docking, and dynamics simulations were combined. Initially, a selection of 324 decoys and 116 known LasR inhibitors were selected and used to train a number of machine learning models. Random Forest (RF) outperformed other models with an accuracy of 0.98. Leveraging the predictive power of the RF model, a library of 9000 phytochemicals was screened using RF model, predicting 367 active compounds as potential LasR inhibitors. After that compounds were evaluated for drug-likeness using Lipinski's Rule of Five and 155 potential candidates were identified. Following molecular docking experiments, PubChem 3,795,981, PubChem 42,607,867, and PubChem 6,971,066 emerged as the top candidates, with binding energy scores of -12.0, -12.0, and - 11.8 kcal/mol, respectively. These compounds established persistent interactions with critical residues in the LasR binding site, mostly by hydrogen bonding and pi-pi stacking. Further molecular dynamics simulations and MMPBSA analysis indicate compounds PubChem 3,795,981 (-36.95 kcal/mol) and PubChem 42,607,867 (-38.58 kcal/mol) as the most favorable LasR inhibitor with minimal structural deviations, emphasizing their potential as anti-biofilm agent against resistant P. aeruginosa strains. This integrated pipeline helped to identify potential inhibitors providing theoretical basis for the development of anti-bacterial agents against Pseudomonas aeruginosa. Further research is needed to determine the therapeutic usefulness of these findings.",
+    "keywords": [
+      "Active compounds",
+      "Anti-Biofilm",
+      "Antimicrobial resistance",
+      "Biofilms",
+      "Machine learning",
+      "Pseudomonas aeruginosa"
+    ],
+    "mesh_terms": [
+      "*Pseudomonas aeruginosa/drug effects/physiology",
+      "*Trans-Activators/antagonists & inhibitors/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "*Bacterial Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "*Machine Learning",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Biofilms/drug effects",
+      "Drug Evaluation, Preclinical",
+      "Quorum Sensing/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Almatroudi, Ahmad"
+      ],
+      "short_names": [
+        "Almatroudi A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, 51452, Buraydah, Saudi Arabia. aamtrody@qu.edu.sa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Almatroudi, Ahmad",
+        "short_name": "Almatroudi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, 51452, Buraydah, Saudi Arabia. aamtrody@qu.edu.sa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/22 00:28",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42075287",
+      "41751475"
+    ],
+    "refs": [
+      "39737751",
+      "39029321",
+      "38988475",
+      "38682189",
+      "38596408",
+      "37626747",
+      "37234545",
+      "37144757",
+      "37021492",
+      "36991325",
+      "36704556",
+      "36644848",
+      "36421272",
+      "36232307",
+      "34586825",
+      "33778771",
+      "33198233",
+      "32948964",
+      "32869826",
+      "32608431",
+      "32227880",
+      "32190768",
+      "30817887",
+      "30723263",
+      "27681445",
+      "25448759",
+      "24002091",
+      "23341755",
+      "23146088",
+      "22716043",
+      "20300895",
+      "19778724",
+      "19499576",
+      "19442063",
+      "18047717",
+      "17145705",
+      "16211538",
+      "16121184",
+      "15956210",
+      "15602552",
+      "14632445",
+      "12881415",
+      "12644476",
+      "12563302",
+      "10334980",
+      "9150205",
+      "8278364",
+      "1902216"
+    ],
+    "similar": [
+      "41272294",
+      "38379380",
+      "40884678",
+      "39693924",
+      "37642215",
+      "40153475",
+      "40261876",
+      "28351711",
+      "40088808",
+      "40199129",
+      "42427189",
+      "37096792",
+      "38385459",
+      "39921728",
+      "39855517",
+      "42461034",
+      "40389180",
+      "28818490",
+      "39976031",
+      "42086791",
+      "41751921",
+      "29076756",
+      "32824118",
+      "39566032",
+      "35451916",
+      "32163399",
+      "40996594",
+      "35869653",
+      "42379012",
+      "40617383",
+      "23203920",
+      "30849491",
+      "28386534",
+      "29526565",
+      "40358894",
+      "28065820",
+      "35075974",
+      "29135250",
+      "40413369",
+      "37552115",
+      "32235775",
+      "28712963",
+      "39153575",
+      "32622078",
+      "42556624",
+      "41043246",
+      "40124560",
+      "35585729",
+      "42653968",
+      "39794611",
+      "41452360",
+      "39303517",
+      "42390567",
+      "33713665",
+      "39046261",
+      "38739212",
+      "26048802",
+      "41708724",
+      "41065783",
+      "41529483",
+      "30039322",
+      "24002091",
+      "27825554",
+      "31787031",
+      "38679246",
+      "39864373",
+      "41520905",
+      "41562599",
+      "40790162",
+      "26358567",
+      "41717737",
+      "42492863",
+      "34833903",
+      "29571725",
+      "30290269",
+      "31773197",
+      "37904338",
+      "39085766",
+      "35961070",
+      "42334695",
+      "41109536",
+      "41616526",
+      "42520521",
+      "28453568",
+      "42742729",
+      "29735954",
+      "30913464",
+      "29524516",
+      "38528442",
+      "31284940",
+      "40205343",
+      "37485898",
+      "37551016",
+      "41708876",
+      "42406057",
+      "34494853",
+      "30201815",
+      "32851551",
+      "41011755",
+      "34789810"
+    ],
+    "review": [
+      "41272294",
+      "42653968"
+    ],
+    "pmc": [
+      "12749182"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-29151-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41272294/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

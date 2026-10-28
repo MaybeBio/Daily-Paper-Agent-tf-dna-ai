@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "38984486",
+    "doi": "10.21037/cco-23-151",
+    "title": "Identification of most representative hub-genes for diagnosis, prognosis, and therapies of hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related deaths globally. To reduce HCC-related mortality, early diagnosis and therapeutic improvement are essential. Hub differentially expressed genes (HubGs) may serve as potential diagnostic and prognostic biomarkers, also offering therapeutic targets for precise therapies. Therefore, we aimed to identify top-ranked hub genes for the diagnosis, prognosis, and therapy of HCC. METHODS: Through a systematic literature review, 202 HCC-related HubGs were derived from 59 studies, yet consistent detection across these was lacking. Then, we identified top-ranked HubGs (tHubGs) by integrated bioinformatics analysis, highlighting their functions, pathways, and regulators that might be more representative of the diagnosis, prognosis, and therapies of HCC. RESULTS: In this study, eight HubGs (CDK1, AURKA, CDC20, CCNB2, TOP2A, PLK1, BUB1B, and BIRC5) were identified as the tHubGs through the protein-protein interaction (PPI) network and survival analysis. Their differential expression in different stages of HCC, validated using The Cancer Genome Atlas (TCGA) Program database, suggests their potential as early HCC markers. The enrichment analyses revealed some important roles in HCC-related biological processes (BPs), molecular functions (MFs), cellular components (CCs), and signaling pathways. Moreover, the gene regulatory network analysis highlighted key transcription factors (TFs) and microRNAs (miRNAs) that regulate these tHubGs at transcriptional and post-transcriptional. Finally, we selected three drugs (CD437, avrainvillamide, and LRRK2-IN-1) as candidate drugs for HCC treatment as they showed strong binding with all of our proposed and published protein receptors. CONCLUSIONS: The findings of this study may provide valuable resources for early diagnosis, prognosis, and therapies for HCC.",
+    "keywords": [
+      "Hepatocellular carcinoma (HCC)",
+      "drug repurposing",
+      "hub-genes",
+      "molecular docking (MD)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/therapy",
+      "*Liver Neoplasms/genetics/therapy",
+      "Prognosis",
+      "Protein Interaction Maps",
+      "Computational Biology/methods",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Systematic Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hossen, Md Alim",
+        "Reza, Md Selim",
+        "Rana, Md Masud",
+        "Hossen, Md Bayazid",
+        "Shoaib, Muhammad",
+        "Mollah, Md Nurul Haque",
+        "Han, Chunsheng"
+      ],
+      "short_names": [
+        "Hossen MA",
+        "Reza MS",
+        "Rana MM",
+        "Hossen MB",
+        "Shoaib M",
+        "Mollah MNH",
+        "Han C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China; Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China; Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China; The University of Chinese Academy of Sciences, Beijing, China.",
+        "Tulane Center of Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, USA.",
+        "The University of Chinese Academy of Sciences, Beijing, China; CAS Key Laboratory of Genomic and Precision Medicine, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing, China; China National Center for Bioinformation (CNCB), Beijing, China.",
+        "Department of Agricultural and Applied Statistics, Bangladesh Agricultural University, Mymensingh, Bangladesh.",
+        "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China; Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China; Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China; The University of Chinese Academy of Sciences, Beijing, China.",
+        "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh.",
+        "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China; Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China; Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China; The University of Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hossen, Md Alim",
+        "short_name": "Hossen MA",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China; Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China; Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China; The University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Reza, Md Selim",
+        "short_name": "Reza MS",
+        "identifiers": [],
+        "affiliations": [
+          "Tulane Center of Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, USA."
+        ]
+      },
+      {
+        "full_name": "Rana, Md Masud",
+        "short_name": "Rana MM",
+        "identifiers": [],
+        "affiliations": [
+          "The University of Chinese Academy of Sciences, Beijing, China; CAS Key Laboratory of Genomic and Precision Medicine, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing, China; China National Center for Bioinformation (CNCB), Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hossen, Md Bayazid",
+        "short_name": "Hossen MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural and Applied Statistics, Bangladesh Agricultural University, Mymensingh, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Shoaib, Muhammad",
+        "short_name": "Shoaib M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China; Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China; Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China; The University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, Department of Statistics, University of Rajshahi, Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Han, Chunsheng",
+        "short_name": "Han C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China; Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China; Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China; The University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chinese clinical oncology"
+    ],
+    "journal_abbrev": [
+      "Chin Clin Oncol"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Systematic Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/10 06:41",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "42295646",
+      "41885285",
+      "41787910",
+      "41476662",
+      "40715580",
+      "40662137",
+      "40530148",
+      "39906820",
+      "39764737",
+      "39313900"
+    ],
+    "refs": [],
+    "similar": [
+      "38984486",
+      "37893423",
+      "35762549",
+      "35994213",
+      "34603487",
+      "34257537",
+      "32627011",
+      "34337056",
+      "36786134",
+      "31043166",
+      "33376723",
+      "31746405",
+      "32722976",
+      "32598174",
+      "31737652",
+      "31822116",
+      "33620260",
+      "36464255",
+      "31987036",
+      "36120772",
+      "31633428",
+      "33946043",
+      "30825595",
+      "35390032",
+      "33053978",
+      "30864827",
+      "34257549",
+      "30268144",
+      "30525236",
+      "32457285",
+      "33390802",
+      "33102593",
+      "30602391",
+      "32769939",
+      "29658607",
+      "34426790",
+      "32046048",
+      "30705088",
+      "38017425",
+      "32296612",
+      "34737677",
+      "34315286",
+      "34167617",
+      "32213663",
+      "31886176",
+      "29207133",
+      "35409328",
+      "28432618",
+      "32715976",
+      "34218795",
+      "34587436",
+      "33942202",
+      "33564675",
+      "25753876",
+      "28302149",
+      "29843214",
+      "32537629",
+      "30341252",
+      "29728556",
+      "32955083",
+      "33767726",
+      "36317111",
+      "32567431",
+      "34794761",
+      "34737790",
+      "28901457",
+      "32443377",
+      "35322101",
+      "32275843",
+      "33004423",
+      "34687371",
+      "34187556",
+      "34784846",
+      "33665036",
+      "31633379",
+      "39239087",
+      "32210020",
+      "37453621",
+      "36244757",
+      "27567667",
+      "34087888",
+      "33552715",
+      "38816744",
+      "33232580",
+      "32623384",
+      "31679233",
+      "31730575",
+      "32934298",
+      "36553600",
+      "24083576",
+      "34596112",
+      "29298665",
+      "32200915",
+      "33466191",
+      "32598242",
+      "33562824",
+      "31990034",
+      "37050894",
+      "31805030",
+      "34467992",
+      "34968391",
+      "35637248",
+      "36345011",
+      "39430152",
+      "39029376"
+    ],
+    "review": [
+      "38984486",
+      "29207133",
+      "25753876"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38984486.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/cco-23-151",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1341",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

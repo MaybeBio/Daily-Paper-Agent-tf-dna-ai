@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present "append editing," a genome editing approach that uses the bacterial toxin DarT2 to ADP-ribosylate thymines at programmed genomic sites. In bacteria, this modification triggers homologous recombination with a provided repair template, enabling flexible, scar-free edits. In eukaryotes (yeast, plants, human cells), the same approach drives base mutagenesis at the modified thymine, predominantly converting T to A or C. The authors propose this as a new modality distinct from existing base editors.
+- **Visible evidence base** In vitro polymerase arrest assays; E. coli kanamycin resistance reversion assays with various editor configurations; E. coli deletion strain experiments; yeast colony screening with Sanger sequencing; N. benthamiana agroinfiltration with NGS; human HEK293T and U2OS cell transfections with NGS; whole-genome off-target analysis in E. coli
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; Table S1-S4 contents not visible; specific NGS read counts and statistical outputs not shown; plasmid maps and construct details not fully described; raw sequencing data not assessable
+
+## Reviewer
+- **Overall assessment** This manuscript introduces a conceptually novel approach to genome editing by leveraging DNA ADP-ribosylation, a modification previously unexplored for this purpose. The work is ambitious in scope, spanning bacteria, yeast, plants, and human cells, and the observed species-dependent divergence in repair outcomes is scientifically interesting. However, the manuscript as presented has several technical gaps that limit confidence in the central claims. The mechanistic basis for the differential outcomes between bacteria and eukaryotes is not fully established, the quantitative data supporting key conclusions are not visible, and some experimental controls appear incomplete. The potential utility of the approach is real but currently not fully demonstrated.
+- **Who would be interested in the results, and why** Genome editing researchers, particularly those developing base editing technologies and seeking new modalities for precise DNA modification. Synthetic biologists and bacterial geneticists interested in novel recombination-based editing tools. DNA repair biologists studying how different organisms process covalent DNA adducts, as the species-dependent outcomes reported here bear on fundamental repair pathway differences. Researchers working on anti-phage defense systems, as DarT2 biology is of interest in that community.
+- **Major strengths** 1) Conceptual novelty: the use of an "additive" DNA modification (ADP-ribosylation) for genome editing is genuinely new and distinct from subtractive approaches used by existing base editors. 2) Breadth of organisms tested: demonstrating activity across bacteria, yeast, plants, and human cells in a single study is impressive and suggests broad applicability. 3) The observed species-dependent divergence in repair outcomes (recombination in bacteria vs. mutagenesis in eukaryotes) is a notable finding that could inform fundamental DNA repair biology. 4) The engineering effort to attenuate DarT2 toxicity while maintaining editing activity is thoughtful and addresses a real practical concern.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that append editing drives efficient homologous recombination in bacteria, outperforming Cas9-based approaches
+  - **Evidence pointer** Figure 1g, Figure 2b, Methods "kanR* reversion"
+  - **Concern** The central quantitative claim of editing efficiency in E. coli is presented as colony counts and percentages, but the actual data are not visible in the provided text. The comparison to Cas9 (66% vs 96% kanamycin-resistant colonies) is striking, but without seeing the raw data, statistical details, or experimental replicates, it is not possible to assess whether this difference is robust. Additionally, the statement that append editing "outperformed traditional Cas9-based approaches" requires more careful qualification, as the Cas9 condition involves double-strand break repair which may have different kinetics and outcomes.
+  - **Why it matters** The efficiency comparison to existing methods is a key selling point of the approach. If the advantage over Cas9 is not robustly demonstrated, the practical utility of append editing in bacteria is weakened.
+  - **Resolution test** Provide the raw colony counts, replicate numbers, and full statistical analysis for all conditions in Figures 1g and 2b. Include a direct comparison of editing outcomes (not just colony survival) between append editing and Cas9 under matched conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that the species-dependent outcomes (recombination in bacteria, mutagenesis in eukaryotes) reflect distinct repair pathway engagement
+  - **Evidence pointer** Figures 3a-d, 4c-d, Discussion
+  - **Concern** The manuscript reports a striking divergence in outcomes between bacteria and eukaryotes but does not provide direct mechanistic evidence for which repair pathways are engaged. The authors speculate about homologous recombination in bacteria and translesion synthesis or base excision repair in eukaryotes, but no experiments are presented to test these hypotheses. For example, no data are shown using repair-deficient eukaryotic cell lines (beyond TARG1) or with inhibitors of specific pathways. The claim that "homologous recombination can at least be excluded" in eukaryotes is not supported by any direct experimental test.
+  - **Why it matters** Understanding the mechanism is essential for predicting how the approach will behave in different cell types and for engineering improvements. Without mechanistic data, the generalizability of the findings is uncertain.
+  - **Resolution test** Perform experiments with eukaryotic cell lines deficient in specific repair pathways (e.g., RAD51, XPA, POLH, or REV1 knockdowns) to identify which pathways mediate the observed mutagenesis. Similarly, test bacterial strains deficient in RecFOR or RecBCD components to confirm the recombination mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The claim that base mutagenesis in human cells reaches up to 39% at target sites
+  - **Evidence pointer** Figure 4e, Methods "Next-generation sequencing for mammalian cells"
+  - **Concern** The maximum editing frequency of 39% in human cells is presented, but the distribution across the 16 target sites is not described. It is unclear whether this is an outlier or representative. The variability between sites, the relationship between editing frequency and target site sequence context, and the reproducibility across biological replicates are not reported. Additionally, the gating strategy for defining "editing" (what counts as a substitution versus an indel or other mutation) is not fully specified.
+  - **Why it matters** For a genome editing tool, consistency and predictability across target sites are critical. If editing efficiency varies widely by site, the practical utility is limited.
+  - **Resolution test** Provide per-site editing frequencies with standard deviations, a description of the sequence features that correlate with efficiency, and a clear definition of how editing events were classified from NGS data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity assessment
+  - **Claim pointer** The claim that append editing offers a favorable off-target profile
+  - **Evidence pointer** Figure 1i, Table S1, Methods "Whole genome off-target assay in E. coli"
+  - **Concern** The off-target analysis is only performed in E. coli and only for a single editor configuration. No off-target analysis is presented for yeast, plants, or human cells, where the editing outcomes are different and potentially more concerning. The whole-genome sequencing analysis in E. coli is described but the results are not visible, and the criteria for identifying off-target mutations are not fully specified.
+  - **Why it matters** Off-target effects are a primary safety concern for any genome editing tool. The lack of off-target data in eukaryotic systems is a significant gap, particularly given that the mutagenic outcomes in eukaryotes could occur at off-target sites.
+  - **Resolution test** Perform targeted amplicon sequencing or whole-genome sequencing on edited human cells and plants to assess off-target mutagenesis. At minimum, provide the full off-target analysis results for E. coli with clear criteria for variant calling.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Control adequacy
+  - **Claim pointer** The claim that observed effects are specifically due to ADP-ribosylation by DarT2
+  - **Evidence pointer** Figures 1c-d, 1g, 3a-d, 4c-d
+  - **Concern** The manuscript uses a catalytically dead DarT2 (dDarT2, E170A) as a control in some experiments, which is appropriate. However, it is not clear whether the E170A mutation fully abolishes ADP-ribosylation activity or whether residual activity could contribute to observed effects. Additionally, the manuscript does not appear to include a control where the DarT2 recognition motif is mutated in the target sequence to confirm that editing depends on the specific motif, beyond the initial in vitro polymerase arrest assay.
+  - **Why it matters** Establishing that the observed editing is specifically due to ADP-ribosylation at the target site is fundamental to the entire approach. Without this control, alternative explanations (e.g., protein-protein interactions, steric effects) cannot be excluded.
+  - **Resolution test** Include a target site with a mutated DarT2 recognition motif as a negative control in the editing assays. Confirm that the E170A mutation abolishes ADP-ribosylation activity using a sensitive biochemical assay.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "append editing" is introduced, but the abbreviation "ADPr-TAE" is used inconsistently throughout. The relationship between "append editing" as a general concept and "ADPr-TAE" as a specific implementation should be clarified early in the manuscript.
+  - **Required correction** Define both terms clearly in the introduction and use them consistently throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 1g, 2b, 2e, 3f-g, 4c-e
+  - **Issue** The statistical tests are described in the Methods, but the figure legends do not indicate which comparisons were tested, what the p-values were, or how many replicates were performed. This makes it difficult to interpret the significance of the reported differences.
+  - **Required correction** Add statistical details to each figure legend, including the test used, the number of replicates, and the p-values for each comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary data
+  - **Evidence pointer** Table S1-S4
+  - **Issue** The manuscript references four supplementary tables, but their contents are not described in the text. It is unclear what data are contained in each table and how they support the main findings.
+  - **Required correction** Add a brief description of each supplementary table in the main text or in a table legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods "Plasmid construction"
+  - **Issue** The methods describe plasmid construction but do not provide sufficient detail on the DarT2 variants used. Specifically, the E170A mutation is mentioned, but the G49D mutation and the combination of mutations in DarT2 DLAA are not fully described in terms of their structural or functional rationale.
+  - **Required correction** Provide a clear description of all DarT2 variants used, including the specific mutations and their predicted effects, and reference the relevant structural or sequence alignment data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on TARG1
+  - **Issue** The discussion of TARG1 as a barrier to append editing in human cells is interesting but speculative. The authors suggest potential strategies to overcome this barrier but do not provide any preliminary data to support these suggestions.
+  - **Required correction** Either provide preliminary data on TARG1 inhibition or clearly label these suggestions as future directions requiring experimental validation.
+- **Technical failings that need to be addressed before the case is established** 1) The quantitative data supporting the central efficiency claims (Figures 1g, 2b, 3f-g, 4c-e) are not visible in the provided text, making it impossible to assess statistical robustness. 2) The mechanistic basis for species-dependent outcomes is not experimentally tested. 3) Off-target analysis is limited to E. coli and not extended to eukaryotic systems. 4) The specificity of DarT2 for the target motif is not confirmed in vivo with a mutated motif control. 5) The relationship between ADP-ribosylation levels and editing outcomes is not quantified.
+- **Assessment against Nature-style criteria** Originality: High. The use of ADP-ribosylation for genome editing is genuinely novel and distinct from existing base editing approaches. Scientific importance: Moderate to high. If the findings are robust, this could expand the genome editing toolbox and provide new insights into DNA repair pathway differences across species. However, the practical utility in eukaryotes is currently limited by the need for TARG1 disruption and the relatively modest editing efficiencies. Interdisciplinary readership: Moderate. The work bridges genome editing, DNA repair, and bacterial toxin biology, which could attract readers from multiple fields. Technical soundness: Currently insufficient. The lack of visible quantitative data, incomplete mechanistic experiments, and limited off-target analysis prevent full assessment. Readability for nonspecialists: Good. The manuscript is generally well-written and the conceptual framework is accessible, though some sections assume familiarity with DNA repair pathways.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is real and the breadth of organisms tested is commendable. However, the manuscript as presented does not fully establish the mechanistic claims or the practical utility of the approach. The authors should provide the missing quantitative data, add mechanistic experiments to support the species-dependent outcomes, and extend off-target analysis to eukaryotic systems before the case is fully made.
+
+## Risk / unsupported claims
+- The claim that append editing "outperformed traditional Cas9-based approaches" in bacteria is not fully supported without visible comparative data and statistical analysis.
+- The claim that homologous recombination is the sole mechanism in bacteria is not directly tested; the authors note that base editing was not detected but do not exclude other repair pathways.
+- The claim that base mutagenesis in eukaryotes is the predominant outcome is supported by the described data, but the mechanistic basis (which repair pathways are involved) is not established.
+- The claim that TARG1 is the primary barrier to append editing in human cells is inferred from the TARG1 knockout data but not directly demonstrated (e.g., by TARG1 overexpression or inhibition experiments).
+- The potential clinical or therapeutic utility of append editing in human cells is speculative and not supported by the current data, given the need for TARG1 disruption and the modest editing efficiencies.
+- The claim that append editing could access pathogenic mutations in the ClinDB database is a forward-looking statement based on sequence analysis, not experimental validation.

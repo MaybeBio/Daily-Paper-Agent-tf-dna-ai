@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusions, and supplementary figure/table references
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and suitability for a Nature-style journal
+- **Shared manuscript claim summary** The authors developed and evaluated machine learning, deep learning, and hybrid approaches for gene regulatory network (GRN) prediction using transcriptomic data from Arabidopsis thaliana, poplar, and maize. They report that hybrid CNN-ML models outperform traditional methods, achieve over 95% accuracy on holdout test sets, identify known lignin biosynthesis pathway regulators, and that transfer learning improves cross-species prediction performance.
+- **Visible evidence base** Methods descriptions for data preprocessing, ML, DL, and hybrid architectures; results for hyperparameter tuning, cross-validation, holdout test accuracy, and transfer learning; tables referenced (Tables 1-4); figures referenced (Figs 1-7); supplementary materials referenced (Figs S1-S5, Tables S1-S3)
+- **Missing materials affecting confidence** Actual data tables (Tables 1-4) and figures (Figs 1-7) are referenced but not provided in the manuscript text; supplementary figures and tables are referenced but not included; no quantitative results are presented in the text itself; no code or data availability verification possible from the provided material
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in plant systems biology, namely the prediction of gene regulatory networks from transcriptomic data using supervised learning approaches. The authors compare multiple ML, DL, and hybrid architectures across three plant species and report promising results, particularly for hybrid CNN-ML models and transfer learning. However, the manuscript as provided lacks the actual quantitative results, figures, and tables that would be necessary to evaluate the validity of the central claims. The methods are described in reasonable detail, but the absence of presented data prevents verification of the reported performance metrics, statistical significance, or biological relevance of the findings. The conceptual framing is sound and the potential impact is meaningful, but the evidence base is incomplete in the provided material.
+- **Who would be interested in the results, and why** Researchers in plant genomics, systems biology, and computational biology would be interested in this work. Specifically, those working on GRN inference, lignin biosynthesis regulation, cross-species model transfer, and application of deep learning to transcriptomic data would find the methodological comparisons and transfer learning results relevant. The work also has potential relevance for researchers studying non-model plant species where experimentally validated regulatory data are scarce.
+- **Major strengths** The study addresses a relevant and timely problem with practical implications for plant biotechnology and basic regulatory biology. The systematic comparison of multiple ML, DL, and hybrid approaches across three species is a useful contribution. The inclusion of transfer learning as a strategy for data-scarce species is conceptually valuable. The use of multiple evaluation datasets, including experimentally validated Y2H data and pathway-specific test sets, is a strength in principle. The authors also acknowledge limitations related to data availability and the assumption of cross-species regulatory conservation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that hybrid models achieved over 95% accuracy on holdout test datasets and outperformed traditional methods across multiple metrics.
+  - **Evidence pointer** Results section, Tables 2-4, Figures 2-6; location not provided
+  - **Concern** The central quantitative claims of the paper are not verifiable from the provided material. All tables and figures are referenced but their contents are not included in the manuscript text. No accuracy values, precision, recall, F1 scores, AUC values, or statistical comparisons are presented in the text itself. The reader cannot assess whether the reported performance is real, statistically significant, or meaningfully better than baselines.
+  - **Why it matters** The primary contribution of this work is empirical, namely demonstrating that hybrid approaches outperform alternatives. Without the actual data, the core claims are unsubstantiated and the scientific contribution cannot be evaluated.
+  - **Resolution test** Provide all tables and figures with actual numerical values, including performance metrics with confidence intervals or statistical tests, and ensure the text reports the key quantitative results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript claims that transfer learning from Arabidopsis to poplar and maize significantly improved prediction performance.
+  - **Evidence pointer** Results section, Figure 7; location not provided
+  - **Concern** The transfer learning results are described qualitatively in the text, with only F1 and AUC values mentioned for poplar and maize. However, the experimental design for transfer learning is not fully specified. It is unclear what constitutes the "without transfer learning" baseline, how many training samples were used for poplar and maize, whether the same network architecture was used, and how hyperparameters were selected for the target species. The claim of "significant" improvement requires statistical testing that is not described.
+  - **Why it matters** Transfer learning is a key claimed contribution. If the comparison is not properly controlled, the improvement could be due to other factors such as architecture differences, training duration, or data preprocessing rather than knowledge transfer per se.
+  - **Resolution test** Clearly describe the baseline model, training data sizes, hyperparameter selection, and provide statistical tests comparing transfer learning versus no-transfer conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data and label validity
+  - **Claim pointer** The manuscript states that negative training pairs were generated by randomly pairing TFs with other genes, excluding known positive pairs.
+  - **Evidence pointer** Methods, Preparation of training data sets; location not provided
+  - **Concern** The negative pair generation strategy is a critical methodological choice. Random pairing of TFs with non-target genes may create an unrealistically easy classification problem, as most random TF-gene pairs are indeed non-interacting. This can inflate accuracy metrics and does not reflect the difficulty of distinguishing true regulatory interactions from the much larger space of possible but non-functional TF-gene combinations. The authors do not discuss this limitation or compare against more realistic negative sampling strategies.
+  - **Why it matters** The reported accuracy values may not translate to real-world GRN inference performance, where the ratio of true to false regulatory pairs is extremely imbalanced and where many non-interacting pairs may show correlated expression by chance.
+  - **Resolution test** Discuss the limitations of random negative sampling, consider alternative negative sampling strategies, and report performance metrics that account for class imbalance, such as precision-recall curves or balanced accuracy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** The manuscript claims that hybrid models identified a greater number of known regulators of the lignin biosynthesis pathway and ranked master regulators such as MYB46 and MYB83 at the top of candidate lists.
+  - **Evidence pointer** Results, Testing hybrid models using Arabidopsis Transcriptomic Test Data Set 1; Table 3; location not provided
+  - **Concern** The biological validation is limited to checking whether known regulators appear in the top predictions. This is a useful sanity check, but it does not demonstrate that the models can discover novel regulatory relationships. The manuscript does not report any experimental validation of novel predictions, nor does it compare the full ranked list of predictions against comprehensive gold-standard regulatory databases beyond the specific pathway genes used.
+  - **Why it matters** For the method to be useful in practice, it must not only recover known regulators but also generate testable novel hypotheses. The current evaluation does not establish this capability.
+  - **Resolution test** Provide a more comprehensive evaluation against gold-standard regulatory interaction databases, and discuss the potential for novel predictions with examples that could be experimentally tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Machine learning section
+  - **Evidence pointer** Methods, Machine learning; location not provided
+  - **Issue** The manuscript lists the ML methods used but does not specify the feature representation for the ML models. It is unclear whether the ML models operate on raw expression values, engineered features, or some other representation. This is essential for reproducibility.
+  - **Required correction** Specify the exact input features used for each ML model, including any feature engineering or dimensionality reduction steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Deep learning section
+  - **Evidence pointer** Methods, Deep learning; location not provided
+  - **Issue** The description of the CNN architecture is incomplete. The number of convolutional layers, filter sizes, pooling strategies, activation functions, and the architecture of the dense layers are not fully specified. The manuscript mentions that the final architecture was selected based on iterative optimization, but the search space and selection criteria are not described.
+  - **Required correction** Provide a complete architectural description, including layer-by-layer specifications, and describe the hyperparameter search procedure and selection criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Hyperparameter tuning and testing ML models
+  - **Evidence pointer** Results, Figure 2; location not provided
+  - **Issue** The cross-validation results are described as boxplots, but no statistical comparison between models is reported. It is unclear whether performance differences between models are statistically significant.
+  - **Required correction** Report statistical tests comparing model performances, such as paired tests across cross-validation folds, and include effect sizes or confidence intervals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Testing hybrid models using Arabidopsis Transcriptomic Test Data Set 2
+  - **Evidence pointer** Results, Table 4; location not provided
+  - **Issue** The manuscript notes that hybrid models showed slightly lower accuracy and precision at fixed thresholds despite higher AUC. This is an important observation, but the explanation is brief. The authors should clarify whether this reflects a calibration issue and whether threshold selection was optimized for each model.
+  - **Required correction** Discuss the threshold selection procedure and consider reporting performance at the optimal operating point for each model, or provide precision-recall curves.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Data collection and preprocessing
+  - **Evidence pointer** Methods, Data collection and preprocessing; location not provided
+  - **Issue** The manuscript states that raw RNA-seq data were retrieved from SRA and processed, but does not specify the reference genome versions, gene annotation versions, or the criteria for including samples in the compendium datasets. The number of samples per species is given, but the diversity of conditions and tissues is not described.
+  - **Required correction** Provide details on genome and annotation versions, sample inclusion criteria, and a summary of the conditions and tissues represented in each compendium dataset.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Hybrid architecture
+  - **Evidence pointer** Methods, Hybrid architecture, Figure 1; location not provided
+  - **Issue** The hybrid architecture is described as combining CNN feature extraction with ML classifiers, but the exact procedure for extracting features from the CNN and feeding them to the ML models is not fully specified. It is unclear whether the CNN is trained end-to-end with a classification head and then features are extracted from an intermediate layer, or whether the CNN is trained in a different manner.
+  - **Required correction** Clarify the feature extraction procedure, including which layer's activations are used and whether the CNN is trained jointly or separately from the ML classifier.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence completeness), R1-M2 (methodological rigor of transfer learning comparison), R1-M3 (validity of negative sampling strategy)
+- **Assessment against Nature-style criteria** Originality: The combination of hybrid CNN-ML approaches with transfer learning for plant GRN inference has some novelty, though individual components are established. The application to multiple plant species including non-model species is a useful contribution. Scientific importance: GRN inference is a central problem in systems biology, and improved methods with demonstrated cross-species transferability would be valuable. However, the importance is somewhat incremental given existing GRN inference methods. Interdisciplinary readership: The work bridges machine learning and plant biology, which could appeal to both computational and experimental researchers. Technical soundness: Cannot be fully assessed from the provided material due to missing quantitative results and incomplete methodological details. The described approach is plausible, but the negative sampling strategy raises concerns about inflated performance estimates. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and context. However, some methodological sections assume familiarity with ML terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the conceptual approach is promising, but the central quantitative claims cannot be verified from the provided material. The authors must provide the actual data tables and figures, address the methodological concerns regarding negative sampling and transfer learning baselines, and clarify several implementation details before the scientific case can be properly evaluated.
+
+## Risk / unsupported claims
+- The claim of over 95% accuracy on holdout test datasets is unsupported because the actual data are not provided in the manuscript text.
+- The claim that hybrid models outperformed traditional methods is unsupported without the actual performance metrics and statistical comparisons.
+- The claim that transfer learning significantly improved performance is unsupported without a clear description of the baseline and statistical testing.
+- The claim that hybrid models identified a greater number of known regulators is unsupported without the contents of Table 3 and Figure 5.
+- The claim that motif analysis confirmed biological relevance is unsupported without the actual enrichment results.
+- The generalizability of the findings to other pathways and species beyond those tested is not established.
+- The statement that the approach offers a "scalable framework" is not supported by any runtime, scalability, or complexity analysis.

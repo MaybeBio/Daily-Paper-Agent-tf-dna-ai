@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "38733561",
+    "doi": "10.1021/acs.jcim.3c02088",
+    "title": "MulTFBS: A Spatial-Temporal Network with Multichannels for Predicting Transcription Factor Binding Sites."
+  },
+  "content": {
+    "abstract": "Revealing the mechanisms that influence transcription factor binding specificity is the key to understanding gene regulation. In previous studies, DNA double helix structure and one-hot embedding have been used successfully to design computational methods for predicting transcription factor binding sites (TFBSs). However, DNA sequence as a kind of biological language, the method of word embedding representation in natural language processing, has not been considered properly in TFBS prediction models. In our work, we integrate different types of features of DNA sequence to design a multichanneled deep learning framework, namely MulTFBS, in which independent one-hot encoding, word embedding encoding, which can incorporate contextual information and extract the global features of the sequences, and double helix three-dimensional structural features have been trained in different channels. To extract sequence high-level information effectively, in our deep learning framework, we select the spatial-temporal network by combining convolutional neural networks and bidirectional long short-term memory networks with attention mechanism. Compared with six state-of-the-art methods on 66 universal protein-binding microarray data sets of different transcription factors, MulTFBS performs best on all data sets in the regression tasks, with the average R(2) of 0.698 and the average PCC of 0.833, which are 5.4% and 3.2% higher, respectively, than the suboptimal method CRPTS. In addition, we evaluate the classification performance of MulTFBS for distinguishing bound or unbound regions on TF ChIP-seq data. The results show that our framework also performs well in the TFBS classification tasks.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/chemistry",
+      "Binding Sites",
+      "Deep Learning",
+      "DNA/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuang, Jujuan",
+        "Huang, Xinru",
+        "Liu, Shuhan",
+        "Gao, Wanquan",
+        "Su, Rui",
+        "Feng, Kexin"
+      ],
+      "short_names": [
+        "Zhuang J",
+        "Huang X",
+        "Liu S",
+        "Gao W",
+        "Su R",
+        "Feng K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1483-4738",
+        "ORCID: 0009-0009-1757-1524"
+      ],
+      "affiliations": [
+        "The School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "The School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "The School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "The School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "The School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "The School of Science, Dalian Maritime University, Dalian 116026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuang, Jujuan",
+        "short_name": "Zhuang J",
+        "identifiers": [
+          "0000-0003-1483-4738"
+        ],
+        "affiliations": [
+          "The School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xinru",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shuhan",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wanquan",
+        "short_name": "Gao W",
+        "identifiers": [
+          "0009-0009-1757-1524"
+        ],
+        "affiliations": [
+          "The School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Su, Rui",
+        "short_name": "Su R",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Kexin",
+        "short_name": "Feng K",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 May 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/11 19:48",
+    "fetched_at": "2026-09-29 19:53:25"
+  },
+  "links": {
+    "cites": [
+      "41601205",
+      "39402535"
+    ],
+    "refs": [],
+    "similar": [
+      "38733561",
+      "38701417",
+      "34073774",
+      "40102719",
+      "39350338",
+      "37328639",
+      "34929739",
+      "40334196",
+      "39214282",
+      "30835229",
+      "31634140",
+      "31336830",
+      "39701486",
+      "34613923",
+      "34664074",
+      "30323198",
+      "39107889",
+      "34272562",
+      "24927817",
+      "33837387",
+      "38798191",
+      "32770026",
+      "33767912",
+      "27567672",
+      "35676633",
+      "35605495",
+      "19586888",
+      "34752400",
+      "29970003",
+      "30106688",
+      "29993783",
+      "31372637",
+      "33808317",
+      "36748992",
+      "37598467",
+      "35189635",
+      "34882561",
+      "21059262",
+      "33334313",
+      "33498086",
+      "38732207",
+      "27106869",
+      "35652477",
+      "36155619",
+      "24039567",
+      "34534646",
+      "20838582",
+      "33137083",
+      "30447332",
+      "33527980",
+      "40302345",
+      "31847804",
+      "32960766",
+      "36057196",
+      "24472686",
+      "27896980",
+      "39457474",
+      "40065237",
+      "31186519",
+      "35263332",
+      "33539511",
+      "28881969",
+      "30629513",
+      "36094959",
+      "28849563",
+      "35719916",
+      "39227799",
+      "39270885",
+      "27503086",
+      "29617928",
+      "38975896",
+      "20158869",
+      "38236675",
+      "18627598",
+      "39076052",
+      "38644393",
+      "17914226",
+      "29757349",
+      "35780100",
+      "34571539",
+      "36376800",
+      "25775564",
+      "35462009",
+      "29617876",
+      "37919990",
+      "40174317",
+      "29993581",
+      "31714956",
+      "19091030",
+      "37723425",
+      "31406384",
+      "38049725",
+      "33372147",
+      "20360861",
+      "26285121",
+      "39541188",
+      "38871095",
+      "24386279",
+      "39223474",
+      "27045826"
+    ],
+    "review": [
+      "38733561",
+      "19586888",
+      "35652477",
+      "30447332",
+      "36057196"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c02088",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

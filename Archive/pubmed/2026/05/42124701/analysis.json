@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42124701",
+  "title": "The ChIP-FRiP pipeline quantifies co-binding and reveals how antibody background contributes to cohesin ChIP-seq patterns.",
+  "authors": "Xiao, Yao; Anderson, Erika C; Rahmaninejad, Hadi; Nora, Elphege; Fudenberg, Geoffrey",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-13",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发ChIP-FRiP流程量化蛋白共定位，结合生物物理模拟校正ChIP-seq背景，虽涉及CTCF/cohesin与DNA互作，但核心是技术性ChIP-seq分析，非TF-DNA结合建模，方法可迁移但深度有限。",
+  "abstract": "Quantitative interpretation of ChIP-seq data is instrumental to derive insight into chromatin and transcription factor biology. Here we developed ChIP-FRiP, an end-to-end pipeline enabling systematic comparison of pairwise protein positioning, and applied it to the study of cohesin. In mammalian interphase, loop extruding cohesin complexes are positioned by CTCF barriers to generate locus-specific 3D genome folding patterns. Many aspects of our understanding of cohesin loop extrusion come from interpreting the amount of cohesin ChIP-seq signal at CTCF barriers, which has been reported to change variably after perturbing cohesin co-factors, such as NIPBL, PDS5A/B, and WAPL. Using ChIP-FRiP to homogeneously process 140 cohesin ChIP-seq datasets from 13 publicly available studies, we observed substantial variation attributable to technical effects, obscuring biological interpretability. To better understand how technical considerations, such as antibody specificity, influence apparent cohesin binding patterns, we integrated technical aspects of ChIP-seq into biophysical simulations of loop extrusion. Leveraging a simple biochemical model for background ChIP-seq signal, we derived a strategy to estimate and correct for the background using paired spike-in ChIP-seq data from wild-type and depletion conditions. Our results establish a framework for reliable comparative analysis, demonstrating that accurate background correction is requisite for interpreting the roles of cohesin cofactors in cohesin positioning.",
+  "abstract_zh": "ChIP-seq数据的定量解读对于理解染色质和转录因子生物学至关重要。为此，我们开发了ChIP-FRiP，一个端到端的流程，能够系统比较成对蛋白质定位，并将其应用于cohesin的研究。在哺乳动物间期，环挤压cohesin复合物由CTCF屏障定位，以生成位点特异性的三维基因组折叠模式。我们对cohesin环挤压理解的许多方面，源于对CTCF屏障处cohesin ChIP-seq信号量的解读，该信号量在扰动cohesin辅助因子（如NIPBL、PDS5A/B和WAPL）后，据报道会以不同方式变化。利用ChIP-FRiP对来自13项公开研究的140个cohesin ChIP-seq数据集进行均一化处理，我们观察到由技术效应引起的显著变异，这掩盖了生物学可解释性。为更好地理解抗体特异性等技术因素如何影响表观cohesin结合模式，我们将ChIP-seq的技术方面整合到环挤压的生物物理模拟中。利用一个简单的生化模型来描述背景ChIP-seq信号，我们推导出一种策略，通过来自野生型和耗竭条件的配对spike-in ChIP-seq数据来估计并校正背景。我们的结果建立了一个可靠比较分析的框架，表明准确的背景校正对于解读cohesin辅助因子在cohesin定位中的作用是必需的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42124701/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42124701/",
+  "paper_page_path": "papers/pubmed/42124701/index.html"
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose that AFP forms a complex with RARbeta, identify interaction residues via protein-protein docking, define an AFP active site, screen FDA-approved kinase inhibitors by molecular docking, and report Lapatinib as a candidate that binds stably to AFP based on molecular dynamics and MM-PBSA calculations, suggesting potential for disrupting AFP-RARbeta complex formation in AFP-positive HCC.
+- **Visible evidence base** Abstract text only; no numerical results, docking scores, simulation parameters, or validation data provided
+- **Missing materials affecting confidence** Full methods, docking and simulation result tables, structural figures, statistical analyses, experimental validation data, and any comparison with known inhibitors
+
+## Reviewer
+- **Overall assessment** The abstract presents a computational drug repurposing hypothesis with a plausible rationale linking AFP-RARbeta interaction to HCC progression. However, the evidence base is entirely in silico and lacks quantitative results, methodological detail, and experimental validation. The central claim that Lapatinib can disrupt the AFP-RARbeta complex is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational drug repurposing, structural biology of AFP, and HCC therapeutics may find the hypothesis of interest as a starting point for further investigation. Clinicians focused on molecularly stratified HCC treatment might also note the potential relevance, though the lack of experimental data limits immediate translational value.
+- **Major strengths** The rationale linking AFP's intracellular role to RAR/RXR signaling is biologically coherent. The focus on repurposing FDA-approved kinase inhibitors is pragmatic and clinically relevant. The use of multiple computational approaches (docking, MD, MM-PBSA) is methodologically appropriate for a preliminary screening study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking with kinase inhibitors revealed Lapatinib as a candidate drug of the AFP-RARbeta complex."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No docking scores, ranking criteria, or comparison with other inhibitors are provided. The selection of Lapatinib as the top candidate is not justified with quantitative data.
+  - **Why it matters** Without numerical docking results and a defined selection threshold, the claim that Lapatinib is a candidate cannot be evaluated or reproduced.
+  - **Resolution test** Provide docking scores for all screened inhibitors, the selection criteria, and a ranked list showing Lapatinib's position.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular dynamics simulations and binding energy calculations, employing MM-PBSA, confirmed Lapatinib's stability with AFP."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation duration, force field parameters, convergence criteria, or MM-PBSA binding energy values are reported. The term "confirmed" is unsupported without these details.
+  - **Why it matters** Stability claims require quantitative metrics such as RMSD, RMSF, and binding free energy with error estimates. Absence of these data makes the conclusion unverifiable.
+  - **Resolution test** Report simulation setup, trajectory analysis metrics, and MM-PBSA energies with standard deviations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The study suggests Lapatinib's potential in disrupting the AFP-RARbeta complex, providing a promising avenue for treating molecularly stratified AFP-positive HCC."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no experimental evidence that Lapatinib disrupts the AFP-RARbeta complex in cells or in vivo. The functional consequence of binding is inferred but not demonstrated.
+  - **Why it matters** Computational binding does not equate to functional disruption. Without cellular or biochemical validation, the therapeutic implication is speculative.
+  - **Resolution test** Include experimental data such as co-immunoprecipitation, cellular assays, or animal studies showing complex disruption and phenotypic effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "provoked us to target AFP as a drug candidate" is informal and unclear in a scientific context.
+  - **Required correction** Rephrase to state the scientific rationale objectively, e.g., "This prompted us to investigate AFP as a therapeutic target."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Active site definition
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that interaction residues "guided the definition of AFP's active site" but does not specify how this active site was validated or whether it overlaps with known functional regions.
+  - **Required correction** Clarify the method for active site definition and provide validation or comparison with known AFP functional domains.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Kinase inhibitor rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The rationale for screening kinase inhibitors against AFP, a non-kinase protein, is not explained. This may confuse readers unfamiliar with the repurposing logic.
+  - **Required correction** Add a sentence explaining why kinase inhibitors were chosen, e.g., structural similarity or prior evidence of off-target binding.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative docking and simulation data, and the lack of experimental validation, prevent the core claims from being assessed.
+- **Assessment against Nature-style criteria** Originality: moderate, as computational repurposing is common, though the AFP-RARbeta target is relatively novel. Scientific importance: potentially relevant to HCC treatment, but not established without experimental support. Interdisciplinary readership: limited, as the abstract is computational and lacks context for broader biological or clinical audiences. Technical soundness: not assessable from the abstract alone; key parameters and results are missing. Readability for nonspecialists: generally clear but contains informal phrasing and unexplained rationale.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if the authors provide full computational details, quantitative results, and experimental validation of complex disruption.
+
+## Risk / unsupported claims
+- The claim that Lapatinib is a candidate drug for the AFP-RARbeta complex is unsupported without docking scores and selection criteria.
+- The claim that MD and MM-PBSA "confirmed" stability is unsupported without simulation parameters and energy values.
+- The claim that Lapatinib has potential in disrupting the AFP-RARbeta complex and treating AFP-positive HCC is unsupported without functional or in vivo evidence.
+- The definition of AFP's active site is not verifiable from the abstract.

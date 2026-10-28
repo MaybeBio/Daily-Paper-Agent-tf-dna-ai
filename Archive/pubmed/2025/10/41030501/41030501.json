@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "41030501",
+    "doi": "10.3389/fbinf.2025.1613136",
+    "title": "Discovering biomarkers for chronic sinusitis with nasal polyps: a study integrating bioinformatics analysis and experimental validation of macrophage polarization and metabolism-related genes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Macrophages play a critical role in chronic rhinosinusitis with nasal polyps (CRSwNP), and their functional imbalance may cause metabolic disturbances. However, the mechanisms of their role in CRSwNP remain unclear. This study aimed to identify CRSwNP biomarkers related to macrophage polarization and metabolism, and elucidate their molecular regulatory mechanisms. METHODS: In this study, transcriptomic data of chronic rhinosinusitis with nasal polyps (CRSwNP) were obtained from public databases. Differentially expressed genes (DEGs) were screened via differential expression analysis. Subsequently, weighted gene co-expression network analysis (WGCNA) was used to identify key module genes related to macrophage polarization-related genes (MP-RGs), which were then cross-referenced with metabolism-related genes to screen for candidate genes. After that, two machine learning methods-least absolute shrinkage and selection operator (LASSO) and random forest (RF)-were applied to further screen these candidate genes. Receiver operating characteristic (ROC) curves for the training set and validation set were constructed, and gene expression validation was conducted to finally determine the biomarkers. Finally, reverse transcription-quantitative polymerase chain reaction (RT-qPCR) was used to verify the expression levels of prognostic genes. RESULTS: ALOX5, HMOX1, and PLA2G7 were identified as biomarkers for CRSwNP, with AUC >0.7 in both training and validation sets, showing strong diagnostic potential. A nomogram, built on these three biomarkers, exhibited superior diagnostic performance. Enrichment analysis suggested that these biomarkers might be implicated in immune pathways. Furthermore, all three biomarkers were found to be correlated with asthma. Selenium was identified as a co-target of ALOX5 and HMOX1, presenting potential therapeutic targets for CRSwNP. A total of 10 key miRNAs regulating these biomarkers were identified, and the upstream long non-coding RNAs of hsa-miR-642a-5p, including FOXC1 and NEAT1, were predicted. Additionally, the transcription factor FOXC1 was found to concurrently regulate all three biomarkers. RT-qPCR results validated that the expression levels of ALOX5, HMOX1, and PLA2G7 were significantly elevated in CRSwNP patients, corroborating the findings from bioinformatics analyses. CONCLUSION: ALOX5, HMOX1, and PLA2G7 were identified as biomarkers linked to macrophage polarization and metabolism in CRSwNP. These findings offer new insights for early prevention strategies and clinical drug development in CRSwNP.",
+    "keywords": [
+      "biomarkers",
+      "chronic rhinosinusitis with nasal polyps",
+      "machine learning",
+      "macrophage polarisation",
+      "metabolism"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Juan",
+        "Wang, Huan",
+        "Wang, Jin",
+        "Zhou, Fuming"
+      ],
+      "short_names": [
+        "Zhou J",
+        "Wang H",
+        "Wang J",
+        "Zhou F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China.",
+        "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China.",
+        "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China.",
+        "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Juan",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Fuming",
+        "short_name": "Zhou F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Affliated Hospital of Yunnan University (Second People's Hospital of Yunnan Province, Yunnan Eye Hospital), Kunming, Yunnan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/01 12:01",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42684665"
+    ],
+    "refs": [
+      "39871287",
+      "39644500",
+      "39641584",
+      "39285673",
+      "39142719",
+      "38634789",
+      "38272562",
+      "38202704",
+      "38070374",
+      "38062004",
+      "37745856",
+      "37740428",
+      "37538404",
+      "37348233",
+      "37330650",
+      "37302367",
+      "37111387",
+      "36915741",
+      "36840491",
+      "36495895",
+      "36466903",
+      "36174990",
+      "36103960",
+      "35990621",
+      "35880175",
+      "35845045",
+      "35790774",
+      "35769467",
+      "35751589",
+      "35740385",
+      "35498043",
+      "35210449",
+      "34864868",
+      "34731634",
+      "34250093",
+      "33941654",
+      "33568052",
+      "33422684",
+      "33149752",
+      "32923133",
+      "31140638",
+      "30686944",
+      "30385537",
+      "29122079",
+      "27298369",
+      "25516281",
+      "23600541",
+      "23323831",
+      "23131200",
+      "22455463",
+      "21955027",
+      "21760589",
+      "21414208",
+      "20576203",
+      "20479152",
+      "19457088",
+      "19114008",
+      "11846609"
+    ],
+    "similar": [
+      "41030501",
+      "40158428",
+      "39644500",
+      "40461517",
+      "38965846",
+      "35572732",
+      "41327642",
+      "36466903",
+      "34124144",
+      "38965844",
+      "36915741",
+      "39830981",
+      "40894073",
+      "40406620",
+      "39473384",
+      "39440241",
+      "40442788",
+      "38229690",
+      "41432483",
+      "39923303",
+      "40089249",
+      "37920240",
+      "36829193",
+      "39464338",
+      "38402873",
+      "39871287",
+      "39142001",
+      "38416565",
+      "40544669",
+      "41340627",
+      "39156601",
+      "40374840",
+      "33603773",
+      "39624449",
+      "41291841",
+      "41052072",
+      "39328210",
+      "35697826",
+      "35494315",
+      "39072329",
+      "36968495",
+      "38363325",
+      "38142640",
+      "40927188",
+      "32047813",
+      "41070131",
+      "40280274",
+      "36532015",
+      "34482268",
+      "31439685",
+      "38445296",
+      "40078458",
+      "41486802",
+      "40997906",
+      "36255469",
+      "39345724",
+      "39954661",
+      "39596842",
+      "28870448",
+      "41013556",
+      "41378129",
+      "31326962",
+      "32637070",
+      "40720416",
+      "40821971",
+      "40765736",
+      "37466964",
+      "41243474",
+      "40370665",
+      "40755781",
+      "37179305",
+      "39347549",
+      "41031858",
+      "31611936",
+      "40691969",
+      "39552895",
+      "38756779",
+      "39730379",
+      "40849369",
+      "40626038",
+      "35008009",
+      "34608897",
+      "39107122",
+      "37385124",
+      "39396400",
+      "39507054",
+      "38563173",
+      "36222281",
+      "38371524",
+      "41221285",
+      "40110435",
+      "38260098",
+      "39403102",
+      "40124361",
+      "41415264",
+      "39723414",
+      "37622120",
+      "40901831",
+      "39914590",
+      "40830558"
+    ],
+    "review": [
+      "41030501"
+    ],
+    "pmc": [
+      "12477252"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41030501/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3928",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1613136",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

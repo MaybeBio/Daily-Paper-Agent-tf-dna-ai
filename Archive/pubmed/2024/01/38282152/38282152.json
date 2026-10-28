@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "38282152",
+    "doi": "10.1002/jgm.3651",
+    "title": "Unveiling Anoikis-related genes: A breakthrough in the prognosis of bladder cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bladder cancer (BLCA) is a prevalent malignancy worldwide. Anoikis remains a new form of cell death. It is necessary to explore Anoikis-related genes in the prognosis of BLCA. METHODS: We obtained RNA expression profiles from the The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus databases for dimensionality reduction analysis and isolated epithelial cells, T cells and fibroblasts for copy number variation analysis, pseudotime analysis and transcription factor analysis based on R package. We integrated machine-learning algorithms to develop the artificial intelligence-derived prognostic signature (AIDPS). RESULTS: The performance of AIDPS with clinical indicators was stable and robust in predicting BLCA and showed better performance in every validation dataset compared to other models. Mendelian randomization analysis was conducted. Single nucleotide polymorphism (SNP) sites of rs3100578 (HK2) and rs66467677 (HSP90B1) exhibited significant correlation of bladder problem (not cancer) and bladder cancer, whereasSNP sites of rs3100578 (HK2) and rs947939 (BAD) had correlation between bladder stone and bladder cancer. The immune infiltration analysis of the TCGA-BLCA cohort was calculated via the ESTIMATE (i.e. Estimation of STromal and Immune cells in MAlignantTumours using Expression data) algorithm which contains stromal, immune and estimate scores. We also found significant differences in the IC(50) values of Bortezomib_1191, Docetaxel_1007, Staurosporine_1034 and Rapamycin_1084 among the high- and low-risk groups. CONCLUSIONS: In conclusion, these findings indicated Anoikis-related prognostic genes in BLCA and constructed an innovative machine-learning model of AIDPS with high prognostic value for BLCA.",
+    "keywords": [
+      "AIDPS",
+      "Anoikis",
+      "Mendelian randomization",
+      "bladder cancer",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Anoikis/genetics",
+      "Artificial Intelligence",
+      "DNA Copy Number Variations",
+      "*Urinary Bladder Neoplasms/genetics",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Shen",
+        "Yang, Xiping",
+        "Lin, Yang",
+        "Liu, Yunfei",
+        "Tran, Lisa Jia",
+        "Zhang, Jing",
+        "Qiu, Chengjun",
+        "Ye, Fangdie",
+        "Sun, Zhou"
+      ],
+      "short_names": [
+        "Jiang S",
+        "Yang X",
+        "Lin Y",
+        "Liu Y",
+        "Tran LJ",
+        "Zhang J",
+        "Qiu C",
+        "Ye F",
+        "Sun Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-2428-9679"
+      ],
+      "affiliations": [
+        "Jilin Cancer Hospital, Changchun, Jilin, China.",
+        "Department of Urology, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Jilin Cancer Hospital, Changchun, Jilin, China.",
+        "Jilin Cancer Hospital, Changchun, Jilin, China.",
+        "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany.",
+        "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany.",
+        "Division of Basic Biomedical Sciences, The University of South Dakota Sanford School of Medicine, Vermillion, South Dakota, USA.",
+        "Department of Urology, The First People's Hospital of Jiangxia District, Wuhan, Hubei, China.",
+        "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Urology, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Department of Urology, The First People's Hospital of Jiangxia District, Wuhan, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Shen",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Jilin Cancer Hospital, Changchun, Jilin, China.",
+          "Department of Urology, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiping",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Jilin Cancer Hospital, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yang",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jilin Cancer Hospital, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yunfei",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Tran, Lisa Jia",
+        "short_name": "Tran LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Biomedical Sciences, The University of South Dakota Sanford School of Medicine, Vermillion, South Dakota, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chengjun",
+        "short_name": "Qiu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First People's Hospital of Jiangxia District, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Fangdie",
+        "short_name": "Ye F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhou",
+        "short_name": "Sun Z",
+        "identifiers": [
+          "0009-0000-2428-9679"
+        ],
+        "affiliations": [
+          "Department of Urology, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+          "Department of Urology, The First People's Hospital of Jiangxia District, Wuhan, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of gene medicine"
+    ],
+    "journal_abbrev": [
+      "J Gene Med"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/29 00:42",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "40370437",
+      "40270615",
+      "40129923",
+      "40079009",
+      "40051564",
+      "39949776",
+      "39911380",
+      "39882240",
+      "39867898",
+      "39840028",
+      "39026674",
+      "38983852",
+      "38947325",
+      "38817605",
+      "38660305"
+    ],
+    "refs": [],
+    "similar": [
+      "38282152",
+      "38049825",
+      "38332160",
+      "37275895",
+      "39029056",
+      "38217031",
+      "40376515",
+      "39664392",
+      "38341586",
+      "38336764",
+      "40122457",
+      "39749345",
+      "37647346",
+      "34930465",
+      "34706720",
+      "34738881",
+      "41139554",
+      "40259382",
+      "37632832",
+      "34802433",
+      "41685329",
+      "37942553",
+      "39816541",
+      "38064272",
+      "41809777",
+      "34112144",
+      "40057601",
+      "35581606",
+      "39995998",
+      "37064115",
+      "36569221",
+      "40918470",
+      "40330458",
+      "40735323",
+      "36973787",
+      "38581187",
+      "39789383",
+      "40547707",
+      "41584451",
+      "38518167",
+      "33747201",
+      "41409300",
+      "37152941",
+      "41727459",
+      "39234248",
+      "39790460",
+      "34512722",
+      "38507233",
+      "40959568",
+      "41252049",
+      "32117435",
+      "39431237",
+      "36505486",
+      "39033778",
+      "39157397",
+      "37872487",
+      "39816229",
+      "40643718",
+      "40528211",
+      "37178049",
+      "35450397",
+      "37954600",
+      "38172792",
+      "30048970",
+      "40762284",
+      "39260052",
+      "36569935",
+      "37301098",
+      "37006317",
+      "36090967",
+      "36357874",
+      "41427247",
+      "34418989",
+      "38305808",
+      "33888644",
+      "39075554",
+      "37402968",
+      "37960960",
+      "40615671",
+      "41153362",
+      "37790935",
+      "39991573",
+      "41019085",
+      "38572916",
+      "33894748",
+      "40665008",
+      "38023241",
+      "37594617",
+      "37115085",
+      "34315402",
+      "38759695",
+      "31333338",
+      "36814419",
+      "35237505",
+      "34579753",
+      "39034722",
+      "34668652",
+      "34975891",
+      "39340434",
+      "40108724"
+    ],
+    "review": [
+      "38282152"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38282152.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jgm.3651",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAD-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1278",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

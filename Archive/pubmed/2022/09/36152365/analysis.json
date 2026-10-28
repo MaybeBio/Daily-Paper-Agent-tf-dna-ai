@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36152365",
+  "title": "Predicting bioconcentration factor and estrogen receptor bioactivity of bisphenol a and its analogues in adult zebrafish by directed message passing neural networks.",
+  "authors": "Yang, Liping; Chen, Pengyu; He, Keyan; Wang, Ruihan; Chen, Geng; Shan, Guoqiang; Zhu, Lingyan",
+  "journal": "Environment international",
+  "published_date": "2022-09-25",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用DMPNN预测双酚A类化合物的生物富集因子和雌激素受体生物活性，虽涉及ERalpha结合但非蛋白质-DNA互作，且无结合位点或互作机制建模，仅属边缘相关。",
+  "abstract": "The bioconcentration factor (BCF) is a key parameter for bioavailability assessment of environmental pollutants in regulatory frameworks. The comparative toxicology and mechanism of action of congeners are also of concern. However, there are limitations to acquire them by conducting field and laboratory experiments while machinelearning is emerging as a promising predictive tool to fill the gap. In this study, the Direct Message Passing Neural Network (DMPNN) was applied to predict logBCFs of bisphenol A (BPA) and its four analogues (bisphenol AF (BPAF), bisphenol B (BPB), bisphenol F (BPF) and bisphenol S (BPS)). For the test set, the Pearson correlation coefficient (PCC) and mean square error (MSE) were 0.85 and 0.52 respectively, suggesting a good predictive performance. The predicted logBCFs values by the DMPNN ranging from 0.35 (BPS) to 2.14 (BPAF) coincided well with those by the classical EPI Suite (BCFBAF model). Besides, estrogen receptor alpha (ERalpha) bioactivity of these bisphenols was also predicted well by the DMPNN, with a probability of 97.0 % (BPB) to 99.7 % (BPAF), which was validated by the extent of vitellogenin (VTG) induction in male zebrafish as a biomarker except BPS. Thus, with little need for expert knowledge, DMPNN is confirmed to be a useful tool to accurately predict logBCF and screen for estrogenic activity from molecular structures. Moreover, a gender difference was noted in the changes of three endpoints (logBCF, ER binding affinity and VTG levels), the rank order of which was BPAF > BPB > BPA > BPF > BPS consistently, and abnormal amino acid metabolism is featured as an omics signature of abnormal hormone protein expression.",
+  "abstract_zh": "生物浓缩因子（BCF）是监管框架中评估环境污染物生物可利用性的关键参数。同类物的比较毒理学及作用机制亦受关注。然而，通过实地和实验室实验获取这些数据存在局限性，而机器学习正作为一种有前景的预测工具来填补这一空白。本研究应用直接消息传递神经网络（DMPNN）预测双酚A（BPA）及其四种类似物（双酚AF（BPAF）、双酚B（BPB）、双酚F（BPF）和双酚S（BPS））的logBCF值。对于测试集，皮尔逊相关系数（PCC）和均方误差（MSE）分别为0.85和0.52，表明预测性能良好。DMPNN预测的logBCF值范围从0.35（BPS）到2.14（BPAF），与经典EPI Suite（BCFBAF模型）的结果吻合良好。此外，DMPNN还准确预测了这些双酚类化合物的雌激素受体α（ERalpha）生物活性，概率从97.0%（BPB）到99.7%（BPAF），并通过雄性斑马鱼中卵黄蛋白原（VTG）诱导程度作为生物标志物进行了验证，BPS除外。因此，DMPNN在几乎无需专家知识的情况下，被证实是一种能够从分子结构准确预测logBCF并筛选雌激素活性的有用工具。此外，在三个终点（logBCF、ER结合亲和力和VTG水平）的变化中观察到性别差异，其排序一致为BPAF > BPB > BPA > BPF > BPS，且异常氨基酸代谢被作为异常激素蛋白表达的组学特征。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36152365/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36152365/",
+  "paper_page_path": "papers/pubmed/36152365/index.html"
+}

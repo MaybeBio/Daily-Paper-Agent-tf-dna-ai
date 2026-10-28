@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.12.487999",
+  "title": "Model evolution in SARS-CoV-2 spike protein sequences using a generative neural network",
+  "authors": "Anup Kumar",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-12",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用生成式神经网络建模SARS-CoV-2刺突蛋白序列的进化，但对象为病毒蛋白序列进化，非蛋白质-DNA互作体系，且无结合建模或AI/物理模拟方法用于互作研究，与本课题关联微弱。",
+  "abstract": "Modelling evolutionary elements inherent in protein sequences, emerging from one clade into another of the SARS-CoV-2 virus, would provide insights to augment our understanding of its impact on public health and may help in formulating better strategies to contain its spread. Deep learning methods have been used to model protein sequences for SARS-CoV-2 viruses. A few significant drawbacks in these studies include being deficient in modelling end-to-end protein sequences, modelling only those genomic positions that show high activity and upsampling the number of sequences at each genomic position for balancing the frequency of mutations. To mitigate such drawbacks, the current approach uses a generative model, an encoder-decoder neural network, to learn the natural progression of spike protein sequences through adjacent clades of the phylogenetic tree of Nextstrain clades. Encoder transforms a set of spike protein sequences from the source clade (20A) into its latent representation. Decoder uses the latent representation, along with Gaussian distributed noise, to generate a different set of protein sequences that are closer to the target clade (20B). The source and target clades are adjacent nodes in the phylogenetic tree of different evolving clades of the SARS-CoV-2 virus. Sequences of amino acids are generated, for the entire length, at each genomic position using the latent representation of the amino acid generated at a previous step. Using trained models, protein sequences from the source clade are used to generate sequences that form a collection of evolved sequences belonging to all children clades of the source clade. A comparison of this predicted evolution (between source and generated sequences) of proteins with the true evolution (between source and target sequences) shows a high pearson correlation (> 0.7). Moreover, the distribution of the frequencies of substitutions per genomic position, including high- and low-frequency positions, in source-target sequences and source-generated sequences exhibit a high resemblance (pearson correlation > 0.7). In addition, the model partially predicts a few substitutions at specific genomic positions for the sequences of unseen clades (20J (Gamma)) where they show little activity during training. These outcomes show the potential of this approach in learning the latent mechanism of evolution of SARS-CoV-2 viral sequences. Codebase https://github.com/anuprulez/clade_prediction",
+  "abstract_zh": "对SARS-CoV-2病毒蛋白质序列中固有的进化要素进行建模，这些要素从一个进化枝出现到另一个进化枝，将提供见解以增强我们对其对公共卫生影响的理解，并可能有助于制定更好的策略来控制其传播。深度学习方法已被用于对SARS-CoV-2病毒的蛋白质序列进行建模。这些研究中一些显著的缺点包括：缺乏对端到端蛋白质序列的建模，仅对表现出高活性的基因组位置进行建模，以及为平衡突变频率而对每个基因组位置的序列数量进行上采样。为缓解这些缺点，当前方法使用生成模型，即编码器-解码器神经网络，来学习刺突蛋白序列通过Nextstrain进化枝系统发育树中相邻进化枝的自然进展。编码器将来自源进化枝（20A）的一组刺突蛋白序列转换为其潜在表示。解码器使用潜在表示，结合高斯分布噪声，生成一组更接近目标进化枝（20B）的不同蛋白质序列。源进化枝和目标进化枝是SARS-CoV-2病毒不同进化枝系统发育树中的相邻节点。氨基酸序列在整个长度上，使用前一步生成的氨基酸的潜在表示，在每个基因组位置生成。使用训练好的模型，来自源进化枝的蛋白质序列用于生成序列，这些序列形成属于源进化枝所有子进化枝的进化序列集合。将这种预测的蛋白质进化（源序列与生成序列之间）与真实进化（源序列与目标序列之间）进行比较，显示出较高的皮尔逊相关性（> 0.7）。此外，源-目标序列和源-生成序列中每个基因组位置替换频率的分布，包括高频率和低频率位置，表现出高度相似性（皮尔逊相关性 > 0.7）。另外，该模型部分预测了未见进化枝（20J (Gamma)）序列在特定基因组位置的一些替换，尽管这些位置在训练期间表现出很少的活性。这些结果表明了该方法在学习SARS-CoV-2病毒序列进化的潜在机制方面的潜力。代码库 https://github.com/anuprulez/clade_prediction",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.12.487999",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.487999",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.12.487999/index.html"
+}

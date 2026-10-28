@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2512.02908v2",
+  "title": "Imperfect molecular detection can renormalize apparent kinetic rates in stochastic gene regulatory networks",
+  "authors": "Iryna Zabaikina; Ramon Grima",
+  "journal": "",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究随机基因调控网络中分子检测不完善对表观动力学速率的影响，虽涉及转录因子结合与基因调控，但核心是技术噪声的统计重正化，而非蛋白质-DNA互作机制或AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "Imperfect molecular detection in single-cell experiments introduces technical noise that obscures the true stochastic dynamics of gene regulatory networks. While binomial models of molecular capture provide a principled description of imperfect detection, they have so far been analyzed only for simple gene-expression models that do not explicitly account for regulation. Here, we extend binomial models of capture to general gene regulatory networks to understand how imperfect capture reshapes the observed time-dependent statistics of molecular counts. Our results reveal when capture effects correspond to a renormalization of a subset of the kinetic rates and when they cannot be absorbed into effective rates, providing a systematic basis for interpreting noisy single-cell measurements. In particular, we show that rate renormalization depends on the level of regulatory detail in the model. For implicit regulatory models based on promoter state transitions, it arises whenever gene product synthesis does not trigger a promoter state change, as in the absence of promoter-proximal pausing or when pausing is short-lived. For models with explicit transcription factor binding, the same condition holds, together with sufficiently high transcription factor abundance, which in practice requires only a few tens of molecules per cell. In these cases, technical noise reduces the apparent mean burst size of synthesized gene products and accelerates the apparent rates of transcription factor binding reactions. This acceleration becomes stronger as the number of protein species and/or molecules involved in promoter switching increases. These effects hold for gene regulatory networks of arbitrary connectivity and remain valid under time-dependent kinetic rates.",
+  "abstract_zh": "单细胞实验中的不完美分子检测引入了技术噪声，掩盖了基因调控网络真实的随机动力学。尽管分子捕获的二项模型为不完美检测提供了原理性描述，但迄今为止，它们仅针对未明确考虑调控的简单基因表达模型进行了分析。在此，我们将捕获的二项模型扩展到一般基因调控网络，以理解不完美捕获如何重塑观察到的分子计数时间依赖统计量。我们的结果揭示了捕获效应何时对应于动力学速率子集的重整化，以及何时无法被吸收为有效速率，为解释嘈杂的单细胞测量提供了系统基础。特别地，我们表明速率重整化取决于模型中调控细节的水平。对于基于启动子状态转换的隐式调控模型，当基因产物合成不触发启动子状态变化时（如缺乏启动子近端暂停或暂停短暂存在），重整化就会出现。对于具有显式转录因子结合的模型，相同条件成立，同时需要转录因子丰度足够高，在实践中这仅需每个细胞几十个分子即可。在这些情况下，技术噪声降低了合成基因产物表观平均爆发大小，并加速了转录因子结合反应的表观速率。这种加速随着参与启动子切换的蛋白质种类和/或分子数量的增加而增强。这些效应适用于任意连接性的基因调控网络，并在时间依赖动力学速率下仍然有效。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2512.02908v2",
+  "source_url": "https://arxiv.org/abs/2512.02908v2",
+  "paper_page_path": "papers/arxiv/2512.02908v2/index.html"
+}

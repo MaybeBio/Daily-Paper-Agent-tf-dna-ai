@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "38500596",
+    "doi": "10.1093/narcan/zcae013",
+    "title": "XPA tumor variant leads to defects in NER that sensitize cells to cisplatin."
+  },
+  "content": {
+    "abstract": "Nucleotide excision repair (NER) reduces efficacy of treatment with platinum (Pt)-based chemotherapy by removing Pt lesions from DNA. Previous study has identified that missense mutation or loss of the NER genes Excision Repair Cross Complementation Group 1 and 2 (ERCC1 and ERCC2) leads to improved patient outcomes after treatment with Pt-based chemotherapies. Although most NER gene alterations found in patient tumors are missense mutations, the impact of mutations in the remaining nearly 20 NER genes is unknown. Towards this goal, we previously developed a machine learning strategy to predict genetic variants in an essential NER protein, Xeroderma Pigmentosum Complementation Group A (XPA), that disrupt repair. In this study, we report in-depth analyses of a subset of the predicted variants, including in vitro analyses of purified recombinant protein and cell-based assays to test Pt agent sensitivity in cells and determine mechanisms of NER dysfunction. The most NER deficient variant Y148D had reduced protein stability, weaker DNA binding, disrupted recruitment to damage, and degradation. Our findings demonstrate that tumor mutations in XPA impact cell survival after cisplatin treatment and provide valuable mechanistic insights to improve variant effect prediction. Broadly, these findings suggest XPA tumor variants should be considered when predicting chemotherapy response.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blee, Alexandra M",
+        "Gallagher, Kaitlyn S",
+        "Kim, Hyun-Suk",
+        "Kim, Mihyun",
+        "Kharat, Suhas S",
+        "Troll, Christina R",
+        "D'Souza, Areetha",
+        "Park, Jiyoung",
+        "Neufer, P Drew",
+        "Scharer, Orlando D",
+        "Chazin, Walter J"
+      ],
+      "short_names": [
+        "Blee AM",
+        "Gallagher KS",
+        "Kim HS",
+        "Kim M",
+        "Kharat SS",
+        "Troll CR",
+        "D'Souza A",
+        "Park J",
+        "Neufer PD",
+        "Scharer OD",
+        "Chazin WJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4959-5466"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea.",
+        "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea.",
+        "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Department of Chemistry, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea.",
+        "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+        "Department of Chemistry, Vanderbilt University, Nashville, TN 37240, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blee, Alexandra M",
+        "short_name": "Blee AM",
+        "identifiers": [
+          "0000-0003-4959-5466"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      },
+      {
+        "full_name": "Gallagher, Kaitlyn S",
+        "short_name": "Gallagher KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyun-Suk",
+        "short_name": "Kim HS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Mihyun",
+        "short_name": "Kim M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea.",
+          "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kharat, Suhas S",
+        "short_name": "Kharat SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      },
+      {
+        "full_name": "Troll, Christina R",
+        "short_name": "Troll CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      },
+      {
+        "full_name": "D'Souza, Areetha",
+        "short_name": "D'Souza A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Jiyoung",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Neufer, P Drew",
+        "short_name": "Neufer PD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      },
+      {
+        "full_name": "Schärer, Orlando D",
+        "short_name": "Schärer OD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Genomic Integrity, Institute for Basic Science, Ulsan 44919, Republic of Korea.",
+          "Department of Biological Sciences, Ulsan National Institute of Science and Technology, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chazin, Walter J",
+        "short_name": "Chazin WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37205, USA.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240, USA.",
+          "Department of Chemistry, Vanderbilt University, Nashville, TN 37240, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR cancer"
+    ],
+    "journal_abbrev": [
+      "NAR Cancer"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/19 06:43",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41373427",
+      "40398419",
+      "39763583"
+    ],
+    "refs": [
+      "37668528",
+      "35969784",
+      "35687855",
+      "35617695",
+      "35076656",
+      "33165832",
+      "33128031",
+      "33116284",
+      "32786887",
+      "31962067",
+      "31925419",
+      "31372632",
+      "31092331",
+      "30605127",
+      "30208165",
+      "29980530",
+      "29617664",
+      "28882207",
+      "28860187",
+      "28817566",
+      "28668116",
+      "28573164",
+      "27310333",
+      "25096233",
+      "24954209",
+      "24086042",
+      "23550210",
+      "22588877",
+      "21445039",
+      "20418188",
+      "20354512",
+      "19940136",
+      "17406547",
+      "17406473",
+      "17406391",
+      "17276014",
+      "16464005",
+      "15901925",
+      "14726016",
+      "12644470",
+      "12082027",
+      "11953324",
+      "11511374",
+      "11410931",
+      "11328886",
+      "10563794",
+      "9871680",
+      "9699634",
+      "9592168",
+      "9016585",
+      "8756462",
+      "8636155",
+      "7937961",
+      "7565690",
+      "4373650"
+    ],
+    "similar": [
+      "38500596",
+      "37425789",
+      "11212280",
+      "26939044",
+      "14676109",
+      "29980530",
+      "23272099",
+      "15820060",
+      "36893274",
+      "21148310",
+      "28860187",
+      "33208343",
+      "25115435",
+      "17948053",
+      "38300970",
+      "21751198",
+      "27307058",
+      "10493501",
+      "12897146",
+      "12208738",
+      "12509227",
+      "15289314",
+      "19940136",
+      "21643554",
+      "38387709",
+      "35969784",
+      "18634906",
+      "18240296",
+      "31392348",
+      "16413230",
+      "15358100",
+      "29124689",
+      "19586908",
+      "10699759",
+      "10074455",
+      "20670893",
+      "14706347",
+      "22174697",
+      "21707758",
+      "36496984",
+      "16849332",
+      "16756962",
+      "34546339",
+      "18329831",
+      "32235701",
+      "31925419",
+      "17825393",
+      "26865925",
+      "24084170",
+      "16315315",
+      "23746523",
+      "14668933",
+      "27247238",
+      "16962818",
+      "21696631",
+      "17616660",
+      "11376684",
+      "25795128",
+      "30066234",
+      "30327428",
+      "26447614",
+      "15844177",
+      "16540648",
+      "34420242",
+      "27660069",
+      "31906898",
+      "19056823",
+      "10022133",
+      "19197159",
+      "34148871",
+      "28704716",
+      "19317621",
+      "39735668",
+      "12396616",
+      "10833384",
+      "18470933",
+      "11695546",
+      "20410141",
+      "32243652",
+      "33291532",
+      "23567189",
+      "20864414",
+      "25056193",
+      "7891694",
+      "21385444",
+      "14563950",
+      "39062528",
+      "20399198",
+      "36232946",
+      "27585947",
+      "20451471",
+      "10837020",
+      "20221251",
+      "26384665",
+      "28027876",
+      "12082027",
+      "21176161",
+      "30418489",
+      "33714009",
+      "28049704"
+    ],
+    "review": [
+      "38500596",
+      "29124689",
+      "10699759",
+      "36496984",
+      "32235701",
+      "26865925",
+      "14668933",
+      "27247238",
+      "25795128",
+      "34420242",
+      "11695546"
+    ],
+    "pmc": [
+      "10946055"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38500596/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38500596",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38500596",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/narcancer/article-lookup/doi/10.1093/narcan/zcae013",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

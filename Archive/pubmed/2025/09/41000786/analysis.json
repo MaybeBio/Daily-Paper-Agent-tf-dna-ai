@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41000786",
+  "title": "Interpretable biophysical neural networks of transcriptional activation domains separate roles of protein abundance and coactivator binding.",
+  "authors": "LeBlanc, Claire; Agarwal, Pooja; Demaray, Jack; Hu, Gean; Zintel, Marissa; Lam, Angelica; Castro Hernandez, Joel Enrique; Staller, Max",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用可解释的物理神经网络预测转录激活域功能，虽涉及转录因子序列与功能，但未聚焦TF-DNA结合位点或互作机制，方法上结合生物物理模型与神经网络，对TF-DNA建模有间接启发。",
+  "abstract": "Deep neural networks have improved the accuracy of many difficult prediction tasks in biology, but it remains challenging to interpret these networks and learn molecular mechanisms. Here, we address the interpretability challenges associated with predicting transcriptional activation domains from protein sequence. Activation domains, regions within transcription factors that drive gene expression, were traditionally difficult to predict due to their sequence diversity and poor conservation. Multiple deep neural networks can now accurately predict activation domains, but these predictors are difficult to interpret. With the goal of interpretability, we designed simple neural networks that incorporated biophysical models of activation domains. The simplicity of these neural networks allowed us to visualize their parameters and directly interpret what the networks learned. The biophysical neural networks revealed two new ways that arrangement (i.e. the sequence grammar) of activation domain controlled function: 1) hydrophobic residues both increase activation domain strength and decrease protein abundance, and 2) acidic residues control both activation domain strength and protein abundance. Notably, the biophysical neural networks helped us to recognize the same signatures in complex interpreters of the deeper neural networks. We demonstrate how combining biophysical and deep neural networks maximizes both prediction accuracy and interpretability to yield insights into biological mechanisms.",
+  "abstract_zh": "深度神经网络已提升了生物学中许多困难预测任务的准确性，但解释这些网络并学习分子机制仍具挑战性。在此，我们应对与从蛋白质序列预测转录激活结构域相关的可解释性挑战。激活结构域是转录因子内驱动基因表达的区域，传统上因其序列多样性和保守性差而难以预测。多种深度神经网络现能准确预测激活结构域，但这些预测器难以解释。以可解释性为目标，我们设计了结合激活结构域生物物理模型的简单神经网络。这些简单神经网络的简洁性使我们能够可视化其参数并直接解释网络所学内容。生物物理神经网络揭示了激活结构域排列（即序列语法）控制功能的两种新方式：1）疏水残基既增强激活结构域强度又降低蛋白质丰度，2）酸性残基同时控制激活结构域强度和蛋白质丰度。值得注意的是，生物物理神经网络帮助我们在更深层神经网络的复杂解释器中识别出相同特征。我们展示了如何结合生物物理和深度神经网络以最大化预测准确性和可解释性，从而深入理解生物机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41000786/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41000786/",
+  "paper_page_path": "papers/pubmed/41000786/index.html"
+}

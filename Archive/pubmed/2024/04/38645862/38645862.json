@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "38645862",
+    "doi": "10.12182/20240360106",
+    "title": "[Identification of Osteoarthritis Inflamm-Aging Biomarkers by Integrating Bioinformatic Analysis and Machine Learning Strategies and the Clinical Validation]."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To identify inflamm-aging related biomarkers in osteoarthritis (OA). METHODS: Microarray gene profiles of young and aging OA patients were obtained from the Gene Expression Omnibus (GEO) database and aging-related genes (ARGs) were obtained from the Human Aging Genome Resource (HAGR) database. The differentially expressed genes of young OA and older OA patients were screened and then intersected with ARGs to obtain the aging-related genes of OA. Enrichment analysis was performed to reveal the potential mechanisms of aging-related markers in OA. Three machine learning methods were used to identify core senescence markers of OA and the receiver operating characteristic (ROC) curve was used to assess their diagnostic performance. Peripheral blood mononuclear cells were collected from clinical OA patients to verify the expression of senescence-associated secretory phenotype (SASP) factors and senescence markers. RESULTS: A total of 45 senescence-related markers were obtained, which were mainly involved in the regulation of cellular senescence, the cell cycle, inflammatory response, etc. Through the screening with the three machine learning methods, 5 core senescence biomarkers, including FOXO3, MCL1, SIRT3, STAG1, and S100A13, were obtained. A total of 20 cases of normal controls and 40 cases of OA patients, including 20 cases in the young patient group and 20 in the elderly patient group, were enrolled. Compared with those of the young patient group, C-reactive protein (CRP), interleukin (IL)-6, and IL-1beta levels increased and IL-4 levels decreased in the elderly OA patient group (P<0.01); FOXO3, MCL1, and SIRT3 mRNA expression decreased and STAG1 and S100A13 mRNA expression increased (P<0.01). Pearson correlation analysis demonstrated that the selected markers were associated with some indicators, including erythrocyte sedimentation rate (ESR), IL-1beta, IL-4, CRP, and IL-6. The area under the ROC curve of the 5 core aging genes was always greater than 0.8 and the C-index of the calibration curve in the nomogram prediction model was 0.755, which suggested the good calibration ability of the model. CONCLUSION: FOXO3, MCL1, SIRT3, STAG1, and S100A13 may serve as novel diagnostic biomolecular markers and potential therapeutic targets for OA inflamm-aging.",
+    "keywords": [
+      "Biomarkers",
+      "Inflamm-aging",
+      "Machine learning",
+      "Osteoarthritis",
+      "Senescence-associated secretory phenotype"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Osteoarthritis/genetics/diagnosis/metabolism",
+      "*Biomarkers/metabolism/blood",
+      "*Computational Biology/methods",
+      "*Aging/genetics",
+      "Inflammation/genetics/metabolism",
+      "Forkhead Box Protein O3/metabolism/genetics",
+      "Cellular Senescence/genetics",
+      "Sirtuin 3/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Aged",
+      "Male"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Qiao",
+        "Liu, Jian",
+        "Zhu, Yan",
+        "Wang, Yuan",
+        "Wang, Guizhen",
+        "Qi, Yajun",
+        "Hu, Yuedi"
+      ],
+      "short_names": [
+        "Zhou Q",
+        "Liu J",
+        "Zhu Y",
+        "Wang Y",
+        "Wang G",
+        "Qi Y",
+        "Hu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+        "（ 230012） First School of Clinical Medicine, Anhui University of Chinese Medicine, Hefei 230012, China.",
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+        "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Qiao",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China.",
+          "（ 230012） First School of Clinical Medicine, Anhui University of Chinese Medicine, Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guizhen",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yajun",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yuedi",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "（ 230061） Department of Geriatrics, The Second Affiliated Hospital, Anhui University of Chinese Medicine, Hefei 230061, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Sichuan da xue xue bao. Yi xue ban = Journal of Sichuan University. Medical science edition"
+    ],
+    "journal_abbrev": [
+      "Sichuan Da Xue Xue Bao Yi Xue Ban"
+    ],
+    "pub_date": "2024 Mar 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/22 06:42",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42511961",
+      "41063981",
+      "40520854",
+      "40276724"
+    ],
+    "refs": [
+      "38097808",
+      "38079572",
+      "37962736",
+      "37933855",
+      "37890685",
+      "37866944",
+      "37821702",
+      "37503333",
+      "37414333",
+      "37386376",
+      "36937824",
+      "36937823",
+      "36898992",
+      "36805165",
+      "36379023",
+      "35707076",
+      "35568377",
+      "35549461",
+      "35227288",
+      "34847835",
+      "34783292",
+      "34646424",
+      "34600505",
+      "34475520",
+      "34429835",
+      "34412670",
+      "33706382",
+      "33690792",
+      "33208917",
+      "32784773",
+      "31980519",
+      "31656362",
+      "30670674",
+      "22057346"
+    ],
+    "similar": [
+      "38645862",
+      "37503333",
+      "34847835",
+      "38175691",
+      "37866944",
+      "38997894",
+      "38767974",
+      "37594094",
+      "38268862",
+      "37138862",
+      "37454542",
+      "35733917",
+      "36781858",
+      "37986345",
+      "32342805",
+      "29255496",
+      "38741149",
+      "39423944",
+      "29744983",
+      "38905428",
+      "38829778",
+      "39282111",
+      "33062145",
+      "37828576",
+      "37723556",
+      "26521742",
+      "33461161",
+      "37805587",
+      "35806043",
+      "38127891",
+      "38286349",
+      "39264583",
+      "34113405",
+      "34706873",
+      "36929359",
+      "33395681",
+      "32003441",
+      "38428406",
+      "23494737",
+      "39148085",
+      "35381129",
+      "37553608",
+      "38293780",
+      "38278314",
+      "36966915",
+      "33853636",
+      "35618244",
+      "36933487",
+      "33555399",
+      "30670674",
+      "37378023",
+      "30910989",
+      "33782454",
+      "32571421",
+      "39216434",
+      "32747616",
+      "33894271",
+      "35264092",
+      "26171692",
+      "33655712",
+      "38349859",
+      "32945465",
+      "39000517",
+      "30518918",
+      "38637111",
+      "37265706",
+      "38509535",
+      "36105068",
+      "30365099",
+      "35192993",
+      "34158566",
+      "36389665",
+      "30820958",
+      "38558817",
+      "38333254",
+      "38390397",
+      "37612746",
+      "23688930",
+      "31249576",
+      "35379209",
+      "37839614",
+      "31502887",
+      "38292759",
+      "33747150",
+      "32788627",
+      "37497233",
+      "31712854",
+      "21435227",
+      "31676687",
+      "30186872",
+      "33325525",
+      "38686376",
+      "36768689",
+      "31526191",
+      "26336034",
+      "30718226",
+      "21954917",
+      "38049031",
+      "36582740",
+      "39113685",
+      "38645867",
+      "25344604",
+      "29247798",
+      "35860189",
+      "33420869",
+      "31285188",
+      "30219053",
+      "32416221",
+      "34340232",
+      "38423139",
+      "35651940",
+      "33855867",
+      "39128418",
+      "38704432",
+      "37113536",
+      "37962736",
+      "32955487",
+      "38809515",
+      "39157341",
+      "33298101",
+      "38918843",
+      "38708239",
+      "32415284",
+      "39167845",
+      "39286216",
+      "38882183",
+      "38708778",
+      "38994346",
+      "37961856",
+      "38454639",
+      "24792945",
+      "33605556",
+      "31675495",
+      "37195483",
+      "38720455",
+      "39216516",
+      "38952687",
+      "39333589",
+      "38710961",
+      "38687742",
+      "39427749",
+      "38032797",
+      "39335502",
+      "39357883",
+      "39350153",
+      "37693401",
+      "37076725",
+      "35052582",
+      "39187617",
+      "38942704"
+    ],
+    "review": [
+      "38645862",
+      "26521742",
+      "39000517",
+      "23688930",
+      "38049031",
+      "34340232",
+      "39167845",
+      "24792945",
+      "31675495",
+      "37195483",
+      "39427749",
+      "37076725"
+    ],
+    "pmc": [
+      "11026895"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38645862/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38645862",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1478",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

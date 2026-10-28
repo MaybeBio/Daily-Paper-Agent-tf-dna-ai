@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.01.551483",
+  "title": "From Proteins to Ligands: Decoding Deep Learning Methods for Binding Affinity Prediction",
+  "authors": "Rohan Gorantla; Ažbeta Kubincová; Andrea Y. Weiße; Antonia S. J. S. Mey",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-03",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文系统评估深度学习编码对蛋白质-配体结合亲和力预测的影响，虽涉及蛋白质与配体互作，但对象为小分子配体而非DNA，且无TF-DNA结合机制建模，仅方法学上对编码策略有参考价值。",
+  "abstract": "Accurate in silico prediction of protein-ligand binding affinity is important in the early stages of drug discovery. Deep learning-based methods exist but have yet to overtake more conventional methods such as giga-docking largely due to their lack of generalisability. To improve generalizability we need to understand what these models learn from input protein and ligand data. We systematically investigated a sequence-based deep learning framework to assess the impact of protein and ligand encodings on predicting binding affinities for commonly used kinase data sets. The role of proteins is studied using convolutional neural network-based encodings obtained from sequences and graph neural network-based encodings enriched with structural information from contact maps. Ligand-based encodings are generated from graph-neural networks. We test different ligand perturbations by randomizing node and edge properties. For proteins we make use of 3 different protein contact generation methods (AlphaFold2, Pconsc4, and ESM-1b) and compare these with a random control. Our investigation shows that protein encodings do not substantially impact the binding predictions, with no statistically significant difference in binding affinity for KIBA in the investigated metrics (concordance index, Pearson’s R Spearman’s Rank, and RMSE). Significant differences are seen for ligand encodings with random ligands and random ligand node properties, suggesting a much bigger reliance on ligand data for the learning tasks. Using different ways to combine protein and ligand encodings, did not show a significant change in performance. TOC Graphic",
+  "abstract_zh": "在药物研发早期阶段，准确进行蛋白质-配体结合亲和力的计算机模拟预测具有重要意义。尽管存在基于深度学习的方法，但这些方法尚未超越如千兆对接 (giga-docking) 等更传统的方法，主要归因于其缺乏泛化能力。为提升泛化性，我们需要理解这些模型从输入的蛋白质和配体数据中学到了什么。我们系统研究了一个基于序列的深度学习框架，以评估蛋白质和配体编码对常用激酶数据集结合亲和力预测的影响。蛋白质的作用通过基于序列的卷积神经网络 (convolutional neural network) 编码和结合接触图 (contact maps) 结构信息的图神经网络 (graph neural network) 编码进行研究。配体编码由图神经网络生成。我们通过随机化节点和边属性来测试不同的配体扰动。对于蛋白质，我们使用了3种不同的蛋白质接触生成方法（AlphaFold2、Pconsc4和ESM-1b），并与随机对照进行比较。我们的研究表明，蛋白质编码对结合预测影响不大，在KIBA数据集的考察指标（一致性指数 (concordance index)、皮尔逊相关系数 (Pearson’s R)、斯皮尔曼等级相关系数 (Spearman’s Rank) 和均方根误差 (RMSE)）中，结合亲和力无统计学显著差异。配体编码则表现出显著差异，尤其是随机配体和随机配体节点属性，这表明学习任务对配体数据的依赖程度更高。采用不同方式组合蛋白质和配体编码，并未显示性能上的显著变化。TOC图形。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551483",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551483",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.01.551483/index.html"
+}

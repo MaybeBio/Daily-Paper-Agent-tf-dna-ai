@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that microsecond atomistic simulations, combined with structural and functional bioinformatics data, reveal the competitive binding of two zinc finger transcription factors, EGR1 and Sp1, to GC-rich DNA motifs. They claim that conformational entropy of protein and DNA components contributes substantially to binding, that DNA shape features and local deformability facilitate sequence-specific recognition, and that base-specific contacts of conserved charged residues modulate binding interactions, dynamics, and dissociation free energy. They further suggest implications for designing custom zinc finger nucleases for genome editing.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, quantitative results, or figures are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, free energy calculation methods, structural figures, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on competitive DNA binding by two zinc finger transcription factors, a topic of relevance to gene regulation and genome engineering. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the validity of the entropy and free energy claims, or the strength of the proposed mechanistic model. The claims are broad and partly speculative, and the evidence base is not assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, transcription factor biology, and genome engineering would be interested. The study addresses a fundamental question about how paralogous transcription factors compete for similar DNA motifs, which is relevant to understanding gene regulatory networks. The proposed link to zinc finger nuclease design could attract those working on gene editing tools.
+- **Major strengths** The topic is timely and biologically important. The use of microsecond atomistic simulations is ambitious and potentially valuable for capturing slow conformational changes. The focus on conformational entropy and DNA shape features is a modern and mechanistically insightful angle that goes beyond simple static binding models.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that conformational entropy of protein and DNA components makes a substantial contribution to binding to a specific DNA motif.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that conformational entropy contributes substantially to binding, but no quantitative data, such as entropy values, error estimates, or comparison with enthalpy, are provided. It is unclear how entropy was computed, whether convergence was achieved, and whether the contribution is statistically significant relative to other energetic terms.
+  - **Why it matters** A central claim of the study rests on the magnitude of conformational entropy. Without quantitative support and methodological detail, the claim cannot be evaluated or reproduced, and it may overstate the role of entropy relative to other factors.
+  - **Resolution test** Provide entropy and enthalpy decomposition with error bars, convergence tests, and a clear description of the method used to compute conformational entropy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DNA shape features and local deformability facilitate sequence-specific recognition and binding of EGR1/Sp1 through the zinc finger domains.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts a mechanistic role for DNA shape and deformability, but no specific shape parameters, deformability metrics, or comparative analyses are presented. It is unclear how these features were quantified, whether they were compared between the two transcription factors, and whether the observed correlations are statistically robust.
+  - **Why it matters** The proposed mechanism is a key novelty of the study. Without quantitative shape analysis and a clear link to binding outcomes, the claim remains speculative and does not distinguish correlation from causation.
+  - **Resolution test** Present shape feature profiles, deformability indices, and statistical tests linking these to binding affinity or specificity, ideally with a comparison to a control motif.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that base-specific contacts of conserved charged residues modulate binding interactions, dynamics, and dissociation free energy.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract mentions dissociation free energy, but no values, methods, or error estimates are given. It is unclear how the free energy was calculated, whether it was validated against experimental data, and whether the claimed modulation by specific residues is supported by mutation or perturbation analysis.
+  - **Why it matters** Dissociation free energy is a central quantitative outcome. Without details on the calculation method, convergence, and validation, the claim is not assessable and may not be reliable.
+  - **Resolution test** Provide free energy values with uncertainties, describe the method (e.g., umbrella sampling, MM-PBSA, or alchemical approaches), and include validation against known experimental binding affinities or mutation studies.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract uses terms such as "pioneer TFs" and "canonical recognition positions" without defining them, which may confuse readers outside the transcription factor field.
+  - **Required correction** Define or briefly explain these terms on first use, or provide a short context sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The final sentence claims the study "help[s] to design custom ZF nucleases for site-specific genome editing machinery," but no direct link between the simulation findings and nuclease design is described in the abstract.
+  - **Required correction** Either provide a concrete example of how the findings inform nuclease design or soften the claim to indicate a potential implication rather than a direct utility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data, methodological detail, and validation, so the core mechanistic and energetic claims are not established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on conformational entropy and DNA shape in competitive zinc finger binding is a fresh angle, but the abstract does not demonstrate how this differs from prior studies on transcription factor DNA recognition.
+  - Scientific importance: The topic is important for gene regulation and genome engineering, but the abstract does not show a broad conceptual advance beyond a specific case study.
+  - Interdisciplinary readership: The work could appeal to computational chemists, biophysicists, and molecular biologists, but the abstract is too technical and lacks context for a general audience.
+  - Technical soundness: Not assessable from the abstract; no methods, data, or validation are provided.
+  - Readability for nonspecialists: The abstract is dense and uses field-specific jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible ideas but lacks the quantitative and methodological support needed to assess the validity of the claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that conformational entropy makes a substantial contribution to binding is unsupported without quantitative entropy data.
+- The claim that DNA shape features and deformability facilitate sequence-specific recognition is unsupported without shape analysis and statistical testing.
+- The claim that conserved charged residues modulate dissociation free energy is unsupported without free energy values and mutation or perturbation data.
+- The implication for designing custom zinc finger nucleases is not supported by any described link in the abstract.
+- The general statement that "complex patterns of competitive TFs are intrinsically encoded in the DNA binding motif" is a broad inference that is not substantiated by the abstract alone.

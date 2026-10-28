@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Methods, Results, Discussion, Supplementary material references, Data availability, Author contributions, Financial support, Conflict of interest, Acknowledgements)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the provided manuscript text. No external literature or unpublished data consulted.
+- **Shared manuscript claim summary** The authors use microsecond-long umbrella sampling molecular dynamics simulations with a torsional restraint to show that three homologous basic helix-loop-helix (BHLH) transcription factor dimers (MycMax, MadMax, MaxMax) increase the torsional rigidity of bound DNA to similar extents, but induce distinct DNA deformations under torsional stress. They propose that these differential deformations may contribute to differential transcriptional regulation by recruiting distinct co-binding factors, supported by ChIP-seq co-binding analysis.
+- **Visible evidence base** Main text figures (Figs 1–6), Supplementary figures (Supplementary Figs 1–18), Supplementary videos (1–4), Supplementary Table 1, Methods section, Results section, Discussion section
+- **Missing materials affecting confidence** Supplementary figures, supplementary table, and supplementary videos are referenced but not provided. The Abstract is empty in the supplied text. No sequence alignment details for Fig. 1a beyond the text description. No explicit error bars or statistical tests reported for deformation energies (only standard deviations mentioned). No coordinates or trajectories available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and mechanistically important question: how torsional stress in DNA affects binding of homologous transcription factors, and whether differential responses could explain distinct regulatory outcomes. The computational approach is state-of-the-art, with microsecond-scale umbrella sampling and a validated torsional restraint method. The central finding, that homologous BHLH dimers induce similar increases in DNA torsional rigidity but distinct deformation patterns under stress, is potentially significant. However, the manuscript has several weaknesses that currently limit the strength of the conclusions. The bioinformatics analysis is presented as supporting evidence but is underdeveloped and not well integrated with the simulation results. The claim that differential deformations may recruit distinct co-factors is speculative and not directly tested. The absence of the Abstract and supplementary materials hampers full evaluation. The writing is generally clear but some mechanistic interpretations require more careful justification.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, DNA mechanics, transcription regulation, and structural biology would find these results relevant. The work extends previous studies on twist-capacitor dinucleotides and transcription factor binding under torsional stress, and the comparison of homologous dimers provides a new angle. The potential link to differential co-factor recruitment could interest experimentalists studying Myc/Max/Mad networks, though the speculative nature of this link may limit immediate impact.
+- **Major strengths** (1) The use of microsecond-scale umbrella sampling with a well-defined torsional restraint is methodologically rigorous and appropriate for the question. (2) The comparison of three homologous dimers on the same DNA sequence is a well-controlled design that isolates protein-specific effects. (3) The analysis of protein-DNA contact networks across torsional regimes provides mechanistic detail. (4) The authors acknowledge limitations of their model (single sequence, length, in vivo relevance of stress levels) which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence support for central claim
+  - **Claim pointer** The authors claim that "the BHLH factors induce distinct DNA deformations" under torsional stress, and that these differences are functionally relevant for differential transcriptional regulation.
+  - **Evidence pointer** Results section, Figs 2b, 3, 4, 5; Discussion section
+  - **Concern** The central claim of distinct deformations is based on qualitative descriptions of bending and groove parameters. The manuscript does not provide quantitative comparisons or statistical tests to establish that the observed differences between dimers are significant beyond thermal fluctuations. The deformation energy calculations (Fig. 2c) show high standard deviations (~10 kcal/mol) that overlap substantially between systems, yet the authors interpret trends as system-specific. Without error analysis or replicate simulations, the distinctness of deformations is not rigorously established.
+  - **Why it matters** The entire premise of the paper rests on the claim that homologous dimers induce different DNA deformations. If these differences are within noise, the mechanistic conclusion collapses. The authors need to demonstrate, with appropriate statistics or convergence analysis, that the observed differences are robust and not artifacts of limited sampling.
+  - **Resolution test** Provide quantitative measures of deformation (e.g., bending angles, groove widths) with error bars across independent simulations or block averaging. Perform statistical tests (e.g., bootstrap or permutation tests) to compare deformation profiles between dimers. If differences are not significant, the claim must be softened or additional simulations performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional hypothesis
+  - **Claim pointer** The authors hypothesize that "torque-induced BHLH dimer-specific DNA deformations can contribute to the TFs differential transcriptional responses by producing binding sites for distinct collaborative proteins."
+  - **Evidence pointer** Discussion section; Supplementary Fig. 18
+  - **Concern** The bioinformatics analysis identifies co-binding partners of Myc and Max from ChIP-seq data, but this analysis is not directly linked to the simulation results. The authors note that TBP and E2F factors deform DNA similarly to what they observe for MycMax/MaxMax, but this is a qualitative analogy without quantitative comparison. The co-binding data is presented as a list of factors without testing whether the predicted deformation patterns actually correlate with co-binding preferences. The hypothesis is plausible but not tested.
+  - **Why it matters** The functional significance of the simulation findings is a key part of the paper's impact. Without a direct test or at least a more rigorous correlation between predicted deformations and co-factor binding, the hypothesis remains speculative. The current analysis does not distinguish between co-binding that occurs due to deformation versus other mechanisms (e.g., direct protein-protein interactions).
+  - **Resolution test** Either (a) perform a more quantitative analysis linking deformation patterns to known co-factor binding motifs or structural preferences, or (b) clearly frame the bioinformatics as exploratory and limit the functional claims accordingly. If possible, test whether mutations that alter deformation patterns affect co-factor recruitment in a cellular assay, though this may be beyond the scope of a computational study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The Methods state that the torsional restraint is applied to "the central E-box region and the four adjacent 5′- and 3′-flanking nucleotides; 13 bp steps in total."
+  - **Evidence pointer** Methods section, Molecular dynamics simulation protocol
+  - **Concern** The choice of the restrained region (13 bp) and the rationale for this specific length are not justified. The authors note that for longer DNA, deformations may differ, but they do not test this. Additionally, the initial twist reference values differ between systems (450° for most, 445° for MadMax), and the reason for this difference is not explained. The force constant (0.06 kcal/mol/degree²) is stated as the smallest value that achieves the desired twist, but no validation is shown that this choice does not introduce artifacts.
+  - **Why it matters** The results depend critically on the simulation setup. If the restrained region is too short or the force constant too stiff, the observed deformations may be artifacts of the method rather than intrinsic properties of the protein-DNA complexes. The difference in initial twist for MadMax could bias comparisons.
+  - **Resolution test** Provide a sensitivity analysis varying the restrained region length and force constant. Justify the initial twist values for each system. Show that the results are robust to these choices.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract section
+  - **Issue** The Abstract is empty in the supplied text. This is a critical omission as the abstract is the primary entry point for readers.
+  - **Required correction** Provide the full abstract text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary figures, table, videos
+  - **Issue** All supplementary materials are referenced but not provided. This prevents verification of key claims (e.g., convergence of simulations, contact networks, co-binding analysis).
+  - **Required correction** Include all supplementary materials in the submission.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Deformation energy analysis (Fig. 2c)
+  - **Evidence pointer** Results section, Fig. 2c
+  - **Issue** The deformation energies are reported as averages with standard deviations, but no information is given on how many independent samples or blocks were used. The high standard deviations suggest the differences between systems may not be significant.
+  - **Required correction** Report the number of samples, the block size, and perform a statistical comparison between systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of MadMax-specific behavior
+  - **Evidence pointer** Results section, "Torsional stress-induced changes in DNA structure"
+  - **Issue** The authors describe a non-monotonic twist change for the ApG step in MadMax at high underwinding, attributed to the Mad loop. This is an interesting observation but is not quantified or compared to other systems.
+  - **Required correction** Provide quantitative data for this effect and discuss its potential significance more thoroughly.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Fig. 1
+  - **Issue** The sequence alignment in Fig. 1a is described but not shown in the text. The crystal structures in Fig. 1b are mentioned but the figure itself is not provided.
+  - **Required correction** Ensure all figures are included and properly referenced.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of statistical analysis for deformation differences (R1-M1). (2) Underdeveloped link between simulations and bioinformatics (R1-M2). (3) Insufficient methodological validation for restraint parameters (R1-M3). (4) Missing Abstract and supplementary materials.
+- **Assessment against Nature-style criteria** Originality: The work is original in comparing homologous BHLH dimers under torsional stress, extending prior work on single factors. However, the concept that TF binding increases DNA torsional rigidity is not new, and the distinct deformation claim needs stronger support. Scientific importance: The question of how torsional stress modulates TF binding and specificity is important for understanding transcriptional regulation. If the distinct deformation claim is robust, this could be a meaningful contribution. Interdisciplinary readership: The work bridges biophysics, computational chemistry, and molecular biology, and could appeal to a broad audience if the functional implications are made more concrete. Technical soundness: The simulation methodology is generally sound, but the lack of statistical rigor and sensitivity analysis weakens the technical case. Readability for nonspecialists: The manuscript is written in a technical style that may be challenging for non-specialists, but the key concepts are explained reasonably well. The Discussion could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core simulation work is potentially valuable, but the central claim of distinct deformations needs quantitative support, and the functional hypothesis needs to be more rigorously connected to the data. The missing Abstract and supplementary materials must be provided for full evaluation.
+
+## Risk / unsupported claims
+- The claim that "the BHLH factors induce distinct DNA deformations" is not quantitatively supported due to lack of statistical analysis.
+- The hypothesis that differential deformations "may contribute to the recruitment of different collaborative TFs" is speculative and not directly tested.
+- The statement that "the increase in DNA rigidity is relatively similar" across dimers is based on qualitative comparison of moduli without error estimates.
+- The assertion that the torsional restraint range (±5°/bp) is justified by potential in vivo conditions is plausible but not directly supported by data presented.
+- The bioinformatics analysis is presented as supporting evidence but does not directly test the deformation-based mechanism.

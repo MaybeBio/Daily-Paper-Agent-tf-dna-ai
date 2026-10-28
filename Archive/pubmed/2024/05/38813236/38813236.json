@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "38813236",
+    "doi": "10.1016/j.heliyon.2024.e31192",
+    "title": "The upregulation and transcriptional regulatory mechanisms of Extra spindle pole bodies like 1 in bladder cancer: An immunohistochemistry and high-throughput screening Evaluation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aimed to explore the expression level and transcriptional regulation mechanism of Extra Spindle Pole Bodies Like 1 (ESPL1) in bladder cancer (BC). METHODS: A multicentre database of samples (n = 1391) was assayed for ESPL1 mRNA expression in BC and validated at the protein level by immunohistochemical (IHC) staining of in-house samples (n = 202). Single-cell sequencing (scRNA-seq) analysis and enrichment analysis explored ESPL1 distribution and their accompanying molecular mechanisms. ATAC-seq, ChIP-seq and Hi-C data from multiple platforms were used to investigate ESPL1 upstream transcription factors (TFs) and potential epigenetic regulatory mechanisms. Immune-related analysis, drug sensitivity and molecular docking of ESPL1 were also calculated. Furthermore, upstream microRNAs and the binding sites of ESPL1 were predicted. The expression level and early screening efficacy of miR-299-5p in blood (n = 6625) and tissues (n = 537) were examined. RESULTS: ESPL1 was significantly overexpressed at the mRNA level (p < 0.05, SMD = 0.75; 95 % CI = 0.09, 1.40), and IHC staining of in-house samples verified this finding (p < 0.0001). ESPL1 was predominantly distributed in BC epithelial cells. Coexpressed genes of ESPL1 were enriched in cell cycle-related signalling pathways, and ESPL1 might be involved in the communication between epithelial and residual cells in the Hippo, ErbB, PI3K-Akt and Ras signalling pathways. Three TFs (H2AZ, IRF5 and HIF1A) were detected upstream of ESPL1 and presence of promoter-super enhancer and promoter-typical enhancer loops. ESPL1 expression was correlated with various immune cell infiltration levels. ESPL1 expression might promote BC growth and affect the sensitivity and therapeutic efficacy of paclitaxel and gemcitabine in BC patients. As an upstream regulator of ESPL1, miR-299-5p expression was downregulated in both the blood and tissues, possessing great potential for early screening. CONCLUSIONS: ESPL1 expression was upregulated in BC and was mainly distributed in epithelial cells. Elevated ESPL1 expression was associated with TFs at the upstream transcription start site (TSS) and distant chromatin loops of regulatory elements. ESPL1 might be an immune-related predictive and diagnostic marker for BC, and the overexpression of ESPL1 played a cancer-promoting role and affected BC patients' sensitivity to drug therapy. miR-299-5p was downregulated in BC blood and tissues and was also expected to be a novel marker for early screening.",
+    "keywords": [
+      "ESPL1",
+      "Early screening",
+      "Epigenetic regulation",
+      "Gene expression",
+      "miR-299-5p"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Wei",
+        "Liang, Zi-Qian",
+        "He, Rong-Quan",
+        "Huang, Zhi-Guang",
+        "Wang, Xiao-Min",
+        "Wei, Mao-Yan",
+        "Su, Hui-Ling",
+        "Liu, Zhi-Su",
+        "Zheng, Yi-Sheng",
+        "Huang, Wan-Ying",
+        "Zhang, Han-Jie",
+        "Dang, Yi-Wu",
+        "Li, Sheng-Hua",
+        "Cheng, Ji-Wen",
+        "Chen, Gang",
+        "He, Juan"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Liang ZQ",
+        "He RQ",
+        "Huang ZG",
+        "Wang XM",
+        "Wei MY",
+        "Su HL",
+        "Liu ZS",
+        "Zheng YS",
+        "Huang WY",
+        "Zhang HJ",
+        "Dang YW",
+        "Li SH",
+        "Cheng JW",
+        "Chen G",
+        "He J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zi-Qian",
+        "short_name": "Liang ZQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Rong-Quan",
+        "short_name": "He RQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhi-Guang",
+        "short_name": "Huang ZG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao-Min",
+        "short_name": "Wang XM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Wei, Mao-Yan",
+        "short_name": "Wei MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Su, Hui-Ling",
+        "short_name": "Su HL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhi-Su",
+        "short_name": "Liu ZS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yi-Sheng",
+        "short_name": "Zheng YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wan-Ying",
+        "short_name": "Huang WY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Han-Jie",
+        "short_name": "Zhang HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Dang, Yi-Wu",
+        "short_name": "Dang YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Sheng-Hua",
+        "short_name": "Li SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Ji-Wen",
+        "short_name": "Cheng JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Juan",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, 6 Shuangyong RD, Nanning, Guangxi Zhuang Autonomous Region, 530021, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2024 May 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/30 06:35",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "40895527",
+      "40824549",
+      "40487972",
+      "40302186",
+      "39958881",
+      "39473957"
+    ],
+    "refs": [
+      "37901797",
+      "37884563",
+      "37880676",
+      "37809511",
+      "37641150",
+      "37538000",
+      "37006282",
+      "36902034",
+      "36853609",
+      "36471071",
+      "36465268",
+      "36397350",
+      "36382188",
+      "36361996",
+      "36333236",
+      "36265483",
+      "36243984",
+      "35814478",
+      "35743249",
+      "35639278",
+      "35418676",
+      "35406472",
+      "34830205",
+      "34769016",
+      "34728029",
+      "34558042",
+      "34557778",
+      "34512713",
+      "34480339",
+      "34276676",
+      "34260682",
+      "34143800",
+      "34125951",
+      "34062119",
+      "33648524",
+      "33597522",
+      "33538338",
+      "33282948",
+      "32767764",
+      "32425694",
+      "32020227",
+      "31974247",
+      "31828101",
+      "30643263",
+      "30563080",
+      "30538565",
+      "30433852",
+      "30072748",
+      "29771409",
+      "29378033",
+      "28469363",
+      "28212060",
+      "27939400",
+      "27007598",
+      "26661513",
+      "25605792",
+      "24856830",
+      "24121792",
+      "17907809"
+    ],
+    "similar": [
+      "38813236",
+      "38689322",
+      "35814478",
+      "36465268",
+      "37006282",
+      "36374443",
+      "34512713",
+      "38568742",
+      "31567382",
+      "35639278",
+      "38402402",
+      "34753061",
+      "35068163",
+      "33400245",
+      "32360623",
+      "30250531",
+      "31934299",
+      "31828101",
+      "34861847",
+      "31169019",
+      "35430506",
+      "27072587",
+      "37545272",
+      "32596945",
+      "30362519",
+      "35117516",
+      "34924500",
+      "35788944",
+      "38173189",
+      "33308056",
+      "31892573",
+      "32004974",
+      "37394766",
+      "36228497",
+      "36115333",
+      "34720049",
+      "33317757",
+      "32412777",
+      "32756011",
+      "37824392",
+      "36359523",
+      "37248889",
+      "33244270",
+      "31906958",
+      "33177836",
+      "29540855",
+      "32412771",
+      "35559420",
+      "36299824",
+      "33555529",
+      "34285193",
+      "30570877",
+      "36441004",
+      "33061438",
+      "32908787",
+      "38310566",
+      "33288752",
+      "38308220",
+      "32386479",
+      "32445273",
+      "35608059",
+      "37520246",
+      "31769229",
+      "36398070",
+      "35399330",
+      "35291486",
+      "32749857",
+      "27355528",
+      "31243644",
+      "37620737",
+      "36738683",
+      "31545079",
+      "30675215",
+      "37452413",
+      "34288822",
+      "30520388",
+      "35986741",
+      "35106863",
+      "37143115",
+      "37740761",
+      "35358000",
+      "33905040",
+      "31037155",
+      "33882126",
+      "38008726",
+      "33749631",
+      "37648308",
+      "36291136",
+      "31705065",
+      "33439992",
+      "35313857",
+      "37596147",
+      "31787478",
+      "36369089",
+      "36203804",
+      "33461605",
+      "26212010"
+    ],
+    "review": [
+      "38813236"
+    ],
+    "pmc": [
+      "11133711"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(24)07223-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38813236/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38813236",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

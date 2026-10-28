@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "38817964",
+    "doi": "10.1016/j.csbj.2024.05.002",
+    "title": "Computation-guided transcription factor biosensor specificity engineering for adipic acid detection."
+  },
+  "content": {
+    "abstract": "Transcription factor (TF)-based biosensors that connect small-molecule sensing with readouts such as fluorescence have proven to be useful synthetic biology tools for applications in biotechnology. However, the development of specific TF-based biosensors is hindered by the limited repertoire of TFs specific for molecules of interest since current construction methods rely on a limited set of characterized TFs. In this study, we present an approach for engineering the specificity of TFs through a computation-based workflow using molecular docking that enables targeted alteration of TF ligand specificity. Using this method, we engineer the LysR family BenM TF to alter its specificity from its cognate ligand cis,cis-muconic acid to adipic acid through a single amino acid substitution identified by our computational workflow. When implemented in a cell-free system, the engineered biosensor shows higher ligand sensitivity, expanding the potential applications of this circuit. We further investigate ligand binding through molecular dynamics to analyze the substitution, elucidating the impact of modulating a single amino acid position on the mechanism of BenM ligand binding. This study represents the first application of biomolecular modeling methods for altering BenM specificity and for gaining insights into how mutations influence the structural dynamics of BenM. Such methods can potentially be applied to other TFs to alter specificity and analyze the dynamics responsible for these changes, highlighting the applicability of computational tools for informing experiments. In addition, our developed adipic acid biosensor can be applied for the identification and engineering of enzymes to produce adipic acid.",
+    "keywords": [
+      "Adipic acid",
+      "Biosensors",
+      "Docking",
+      "Molecular dynamics",
+      "Muconic acid",
+      "Protein engineering"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pham, Chester",
+        "Stogios, Peter J",
+        "Savchenko, Alexei",
+        "Mahadevan, Radhakrishnan"
+      ],
+      "short_names": [
+        "Pham C",
+        "Stogios PJ",
+        "Savchenko A",
+        "Mahadevan R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada.",
+        "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada.",
+        "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada.",
+        "Department of Microbiology, Immunology and Infectious Diseases, University of Calgary, Calgary, Alberta, Canada.",
+        "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada.",
+        "The Institute of Biomedical Engineering, University of Toronto, Ontario, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pham, Chester",
+        "short_name": "Pham C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Stogios, Peter J",
+        "short_name": "Stogios PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Savchenko, Alexei",
+        "short_name": "Savchenko A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada.",
+          "Department of Microbiology, Immunology and Infectious Diseases, University of Calgary, Calgary, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Mahadevan, Radhakrishnan",
+        "short_name": "Mahadevan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Ontario, Canada.",
+          "The Institute of Biomedical Engineering, University of Toronto, Ontario, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/31 06:42",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "41872188",
+      "41333561",
+      "40939890",
+      "40101260",
+      "39709556",
+      "39407556"
+    ],
+    "refs": [
+      "38213883",
+      "37377432",
+      "36906658",
+      "36814719",
+      "36602359",
+      "36472954",
+      "35872379",
+      "35316041",
+      "34597502",
+      "34265844",
+      "33995914",
+      "33667757",
+      "33570387",
+      "33125078",
+      "32978386",
+      "32743637",
+      "32227880",
+      "31780816",
+      "31777933",
+      "31395057",
+      "30596483",
+      "30084640",
+      "30050028",
+      "29796670",
+      "29487800",
+      "29237121",
+      "29149726",
+      "28723202",
+      "28616142",
+      "28365404",
+      "27837353",
+      "27034378",
+      "26998575",
+      "26858408",
+      "26110438",
+      "25835573",
+      "25727242",
+      "24850022",
+      "24005320",
+      "23648628",
+      "23473968",
+      "22824738",
+      "22583745",
+      "21124800",
+      "20932977",
+      "20367033",
+      "19828079",
+      "19499576",
+      "19486540",
+      "19400783",
+      "18428767",
+      "18320190",
+      "17291527",
+      "16211538",
+      "15264254",
+      "9573203",
+      "9433130"
+    ],
+    "similar": [
+      "38817964",
+      "34597502",
+      "38875315",
+      "31777933",
+      "35872379",
+      "30563319",
+      "29170965",
+      "26521244",
+      "19400783",
+      "34974264",
+      "31798685",
+      "31159259",
+      "21328320",
+      "20932977",
+      "37421473",
+      "32140463",
+      "36472954",
+      "36516630",
+      "25974100",
+      "29885337",
+      "38712145",
+      "29487800",
+      "36814719",
+      "27567672",
+      "35922625",
+      "29251347",
+      "27642864",
+      "9573203",
+      "26191047",
+      "37805453",
+      "16517618",
+      "32770001",
+      "37198736",
+      "17291527",
+      "35853551",
+      "27744683",
+      "30389426",
+      "35266713",
+      "27536006",
+      "36943132",
+      "34369151",
+      "37690614",
+      "29934332",
+      "11934286",
+      "32400021",
+      "38586024",
+      "30150540",
+      "35161692",
+      "36629785",
+      "39392681",
+      "29532902",
+      "22189060",
+      "33215672",
+      "36855083",
+      "30204430",
+      "32737718",
+      "28523015",
+      "33864457",
+      "35134684",
+      "14684899",
+      "37327078",
+      "27837353",
+      "38508427",
+      "24349230",
+      "38128482",
+      "18371204",
+      "32058699",
+      "32945589",
+      "19499918",
+      "29485214",
+      "33185872",
+      "29089935",
+      "37714511",
+      "30598100",
+      "28616142",
+      "31742324",
+      "15456909",
+      "39282467",
+      "32629420",
+      "37591203",
+      "21496241",
+      "31585026",
+      "33465478",
+      "35594503",
+      "22824738",
+      "33221511",
+      "30050028",
+      "32269250",
+      "38352411",
+      "24100318",
+      "38616975",
+      "35372305",
+      "29323785",
+      "31268296",
+      "36550338",
+      "32078771",
+      "35727451"
+    ],
+    "review": [
+      "38817964",
+      "35872379",
+      "26521244",
+      "32140463",
+      "36814719",
+      "26191047",
+      "35853551",
+      "30389426",
+      "37690614",
+      "30150540",
+      "39392681",
+      "27837353",
+      "38508427",
+      "38128482",
+      "29485214",
+      "29089935",
+      "31742324",
+      "37591203",
+      "31585026",
+      "22824738"
+    ],
+    "pmc": [
+      "11137364"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(24)00148-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38817964/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38817964",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38817964",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

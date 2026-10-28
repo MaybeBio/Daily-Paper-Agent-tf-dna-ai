@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "41940564",
+    "doi": "10.1002/ptr.70304",
+    "title": "Phytochemicals Targeting Wnt/beta-Catenin in Osteoblasts: Mechanisms, Scaffolds, and Computational Insights for Bone Therapeutics."
+  },
+  "content": {
+    "abstract": "The Wnt/beta-catenin signaling pathway is pivotal for osteoblast differentiation, bone formation, and skeletal homeostasis, with its dysregulation linked to osteoporosis and fracture non-union. Phytochemicals offer promising alternatives to unstable Wnt ligands, which risk tumorigenesis due to non-specific activation. In this study, we performed an extensive computational screening of selected phytochemicals-including quercetin, kaempferol, apigenin, genistein, gallic acid, ursolic acid, 2alpha-hydroxy ursolic acid, and berberine-previously reported to modulate the Wnt/beta-catenin pathway. These compounds, derived from diverse phytochemical classes including flavonoids, isoflavones, phenolic acids, triterpenoids, and alkaloids, have been shown in prior experimental studies to promote osteogenic responses by stabilizing beta-catenin, inhibiting GSK-3beta, and upregulating osteogenic genes such as Axin2 and cyclin D1. To complement these findings, we employed computational approaches, including gene-drug interaction analysis (DGIdb), structural similarity screening (Data Warrior, > 90% similarity to known drugs), and molecular docking (Maestro Schrodinger Suite), to predict high-affinity interactions with key regulatory proteins in the Wnt pathway. Our docking results revealed high binding affinities of phytochemicals to key targets that are involved in the modulation of the Wnt/beta-catenin pathway, such as Casein Kinase (CK, docking scores: -10.652 to -11.39), Estrogen Receptor (ER, docking score: -7.337 to -11.314), Vitamin D Receptor (VDR, docking score: -7.40 to -9.97), and GSK-3beta, with critical interactions involving residues like E305 and R346. Specifically, Caviunin glycoside from Dalbergia sissoo demonstrated estrogenic modulation within the ER ligand-binding domain (PDB ID: 1X7J; docking score: -5.29), supporting its role in osteoblast stimulation via ER-Wnt crosstalk. Structure-activity analyses identify flavanone glycosides and triterpenoids as promising scaffolds for medicinal chemistry optimization. Challenges, including poor bioavailability and off-target effects, necessitate advanced delivery systems and computational modeling to enhance selectivity and therapeutic utility, positioning these phytochemicals as viable leads for bone-related disorder treatments.",
+    "keywords": [
+      "Wnt/beta-catenin pathway",
+      "molecular docking",
+      "osteoblastogenesis",
+      "osteoporosis",
+      "phytochemicals"
+    ],
+    "mesh_terms": [
+      "*Osteoblasts/drug effects/metabolism",
+      "*Phytochemicals/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "*Wnt Signaling Pathway/drug effects",
+      "*beta Catenin/metabolism",
+      "Humans",
+      "Glycogen Synthase Kinase 3 beta/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shah, Aarti Abhishek",
+        "Goswami, Anupam",
+        "Dev, Kapil",
+        "Hingorani, Lal",
+        "Maurya, Rakesh",
+        "Srivastava, Kinshuk R",
+        "Chattopadhyay, Naibedya"
+      ],
+      "short_names": [
+        "Shah AA",
+        "Goswami A",
+        "Dev K",
+        "Hingorani L",
+        "Maurya R",
+        "Srivastava KR",
+        "Chattopadhyay N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9419-0364",
+        "ORCID: 0009-0008-8151-7939",
+        "ORCID: 0000-0002-3402-9720",
+        "ORCID: 0000-0003-0371-0633",
+        "ORCID: 0000-0002-3688-9652",
+        "ORCID: 0000-0003-2473-0246"
+      ],
+      "affiliations": [
+        "Division of Pharmacology, Anekant Education Society's College of Pharmacy (Religious Minority Institute), Baramati, India.",
+        "Division of Medicinal and Process Chemistry, CSIR-Central Drug Research Institute, Lucknow, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Division of Phytochemistry, CSIR-Central Institute of Medicinal & Aromatic Plants, Lucknow, India.",
+        "Pharmanza Herbal Private Limited, Anand, India.",
+        "Division of Medicinal and Process Chemistry, CSIR-Central Drug Research Institute, Lucknow, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Division of Medicinal and Process Chemistry, CSIR-Central Drug Research Institute, Lucknow, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Division of Endocrinology and Center for Research on Anabolic Skeletal Targets for Health and Illness (ASTHI), CSIR-Central Drug Research Institute, Lucknow, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shah, Aarti Abhishek",
+        "short_name": "Shah AA",
+        "identifiers": [
+          "0000-0002-9419-0364"
+        ],
+        "affiliations": [
+          "Division of Pharmacology, Anekant Education Society's College of Pharmacy (Religious Minority Institute), Baramati, India."
+        ]
+      },
+      {
+        "full_name": "Goswami, Anupam",
+        "short_name": "Goswami A",
+        "identifiers": [
+          "0009-0008-8151-7939"
+        ],
+        "affiliations": [
+          "Division of Medicinal and Process Chemistry, CSIR-Central Drug Research Institute, Lucknow, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Dev, Kapil",
+        "short_name": "Dev K",
+        "identifiers": [
+          "0000-0002-3402-9720"
+        ],
+        "affiliations": [
+          "Division of Phytochemistry, CSIR-Central Institute of Medicinal & Aromatic Plants, Lucknow, India."
+        ]
+      },
+      {
+        "full_name": "Hingorani, Lal",
+        "short_name": "Hingorani L",
+        "identifiers": [
+          "0000-0003-0371-0633"
+        ],
+        "affiliations": [
+          "Pharmanza Herbal Private Limited, Anand, India."
+        ]
+      },
+      {
+        "full_name": "Maurya, Rakesh",
+        "short_name": "Maurya R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Medicinal and Process Chemistry, CSIR-Central Drug Research Institute, Lucknow, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Kinshuk R",
+        "short_name": "Srivastava KR",
+        "identifiers": [
+          "0000-0002-3688-9652"
+        ],
+        "affiliations": [
+          "Division of Medicinal and Process Chemistry, CSIR-Central Drug Research Institute, Lucknow, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Chattopadhyay, Naibedya",
+        "short_name": "Chattopadhyay N",
+        "identifiers": [
+          "0000-0003-2473-0246"
+        ],
+        "affiliations": [
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+          "Division of Endocrinology and Center for Research on Anabolic Skeletal Targets for Health and Illness (ASTHI), CSIR-Central Drug Research Institute, Lucknow, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytotherapy research : PTR"
+    ],
+    "journal_abbrev": [
+      "Phytother Res"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [
+      "42589236"
+    ],
+    "refs": [],
+    "similar": [
+      "41940564",
+      "25232676",
+      "32698024",
+      "25957463",
+      "40436074",
+      "24300170",
+      "39675109",
+      "21652696",
+      "32615283",
+      "40274944",
+      "37767998",
+      "39585509",
+      "33085064",
+      "33171191",
+      "41168860",
+      "30224063",
+      "34461423",
+      "31464653",
+      "40049105",
+      "31678747",
+      "38890371",
+      "39468464",
+      "25975268",
+      "42119334",
+      "41611159",
+      "41565566",
+      "30477461",
+      "39706357",
+      "21987573",
+      "40839930",
+      "36973541",
+      "35597989",
+      "39447733",
+      "41273070",
+      "31443611",
+      "34069111",
+      "36964322",
+      "25631051",
+      "36411860",
+      "33549763",
+      "42183217",
+      "41001808",
+      "22936801",
+      "30642055",
+      "26057861",
+      "25265417",
+      "31561068",
+      "28629266",
+      "24099767",
+      "37716489",
+      "26478571",
+      "39427522",
+      "28731198",
+      "33605517",
+      "28648006",
+      "41803559",
+      "41443290",
+      "27484798",
+      "26015066",
+      "41057428",
+      "27830450",
+      "36317061",
+      "40369630",
+      "22576936",
+      "29771446",
+      "29851201",
+      "26482805",
+      "22580404",
+      "40884804",
+      "40569797",
+      "37795571",
+      "29642895",
+      "42174301",
+      "16908522",
+      "40555002",
+      "35386071",
+      "19882675",
+      "23271279",
+      "21837368",
+      "39986363",
+      "24634935",
+      "37158967",
+      "28343085",
+      "41478433",
+      "33274736",
+      "30631044",
+      "37108323",
+      "33099905",
+      "16869729",
+      "32283909",
+      "23333831",
+      "26259606",
+      "37779078",
+      "22484100",
+      "33740160",
+      "25062891",
+      "41720012",
+      "25837159",
+      "37187249",
+      "28772260"
+    ],
+    "review": [
+      "41940564",
+      "39468464",
+      "36964322",
+      "33605517"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/ptr.70304",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHKA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

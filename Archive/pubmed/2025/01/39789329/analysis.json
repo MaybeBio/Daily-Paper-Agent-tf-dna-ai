@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39789329",
+  "title": "Interpretable identification of cancer genes across biological networks via transformer-powered graph representation learning.",
+  "authors": "Su, Xiaorui; Hu, Pengwei; Li, Dongxu; Zhao, Bowei; Niu, Zhaomeng; Herget, Thomas; Yu, Philip S; Hu, Lun",
+  "journal": "Nature biomedical engineering",
+  "published_date": "2025-01-10",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Transformer图表示学习整合多组学与生物网络预测癌症基因，虽涉及转录因子-蛋白等网络，但核心是癌症基因识别而非蛋白-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Graph representation learning has been leveraged to identify cancer genes from biological networks. However, its applicability is limited by insufficient interpretability and generalizability under integrative network analysis. Here we report the development of an interpretable and generalizable transformer-based model that accurately predicts cancer genes by leveraging graph representation learning and the integration of multi-omics data with the topologies of homogeneous and heterogeneous networks of biological interactions. The model allows for the interpretation of the respective importance of multi-omic and higher-order structural features, achieved state-of-the-art performance in the prediction of cancer genes across biological networks (including networks of interactions between miRNA and proteins, transcription factors and proteins, and transcription factors and miRNA) in pan-cancer and cancer-specific scenarios, and predicted 57 cancer-gene candidates (including three genes that had not been identified by other models) among 4,729 unlabelled genes across 8 pan-cancer datasets. The model's interpretability and generalization may facilitate the understanding of gene-related regulatory mechanisms and the discovery of new cancer genes.",
+  "abstract_zh": "图表示学习已被用于从生物网络中识别癌症基因。然而，其在整合网络分析中的适用性受限于可解释性和泛化能力的不足。在此，我们报告开发了一种可解释且可泛化的基于变换器的模型，该模型通过利用图表示学习以及将多组学数据与生物相互作用的同质和异质网络拓扑结构相结合，准确预测癌症基因。该模型能够解释多组学特征和高阶结构特征各自的重要性，在泛癌和癌症特异性场景中，跨生物网络（包括miRNA与蛋白质、转录因子与蛋白质、以及转录因子与miRNA之间的相互作用网络）实现了癌症基因预测的最先进性能，并在8个泛癌数据集的4,729个未标记基因中预测了57个癌症基因候选（包括三个未被其他模型识别的基因）。该模型的可解释性和泛化能力可能有助于理解基因相关的调控机制并发现新的癌症基因。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39789329/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39789329/",
+  "paper_page_path": "papers/pubmed/39789329/index.html"
+}

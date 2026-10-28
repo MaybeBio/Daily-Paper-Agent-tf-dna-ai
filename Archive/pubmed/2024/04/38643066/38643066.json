@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "38643066",
+    "doi": "10.1186/s12859-024-05774-x",
+    "title": "MMGAT: a graph attention network framework for ATAC-seq motifs finding."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Motif finding in Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) data is essential to reveal the intricacies of transcription factor binding sites (TFBSs) and their pivotal roles in gene regulation. Deep learning technologies including convolutional neural networks (CNNs) and graph neural networks (GNNs), have achieved success in finding ATAC-seq motifs. However, CNN-based methods are limited by the fixed width of the convolutional kernel, which makes it difficult to find multiple transcription factor binding sites with different lengths. GNN-based methods has the limitation of using the edge weight information directly, makes it difficult to aggregate the neighboring nodes' information more efficiently when representing node embedding. RESULTS: To address this challenge, we developed a novel graph attention network framework named MMGAT, which employs an attention mechanism to adjust the attention coefficients among different nodes. And then MMGAT finds multiple ATAC-seq motifs based on the attention coefficients of sequence nodes and k-mer nodes as well as the coexisting probability of k-mers. Our approach achieved better performance on the human ATAC-seq datasets compared to existing tools, as evidenced the highest scores on the precision, recall, F1_score, ACC, AUC, and PRC metrics, as well as finding 389 higher quality motifs. To validate the performance of MMGAT in predicting TFBSs and finding motifs on more datasets, we enlarged the number of the human ATAC-seq datasets to 180 and newly integrated 80 mouse ATAC-seq datasets for multi-species experimental validation. Specifically on the mouse ATAC-seq dataset, MMGAT also achieved the highest scores on six metrics and found 356 higher-quality motifs. To facilitate researchers in utilizing MMGAT, we have also developed a user-friendly web server named MMGAT-S that hosts the MMGAT method and ATAC-seq motif finding results. CONCLUSIONS: The advanced methodology MMGAT provides a robust tool for finding ATAC-seq motifs, and the comprehensive server MMGAT-S makes a significant contribution to genomics research. The open-source code of MMGAT can be found at https://github.com/xiaotianr/MMGAT , and MMGAT-S is freely available at https://www.mmgraphws.com/MMGAT-S/ .",
+    "keywords": [
+      "ATAC-seq",
+      "Coexisting probabilities",
+      "Graph attention network",
+      "Motif finding",
+      "TFBSs prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Binding Sites",
+      "Protein Binding",
+      "*Genomics/methods",
+      "Chromatin/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Xiaotian",
+        "Hou, Wenju",
+        "Zhao, Ziqi",
+        "Huang, Lan",
+        "Sheng, Nan",
+        "Yang, Qixing",
+        "Zhang, Shuangquan",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Wu X",
+        "Hou W",
+        "Zhao Z",
+        "Huang L",
+        "Sheng N",
+        "Yang Q",
+        "Zhang S",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun, 130012, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. zhangsq@njust.edu.cn.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn.",
+        "School of Artificial Intelligence, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Xiaotian",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+          "School of Artificial Intelligence, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Wenju",
+        "short_name": "Hou W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ziqi",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Lan",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Nan",
+        "short_name": "Sheng N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qixing",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuangquan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. zhangsq@njust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn.",
+          "School of Artificial Intelligence, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2024 Apr 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/21 00:43",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42022447"
+    ],
+    "refs": [
+      "35997564",
+      "34607350",
+      "34394185",
+      "33355120",
+      "32848148",
+      "32660981",
+      "32014034",
+      "31372637",
+      "30922998",
+      "30808370",
+      "29140464",
+      "28301549",
+      "27832532",
+      "26527727",
+      "25682954",
+      "25559105",
+      "20356413",
+      "20147307",
+      "20110278",
+      "18047721",
+      "17324271"
+    ],
+    "similar": [
+      "38643066",
+      "38515040",
+      "35997564",
+      "36094959",
+      "38189539",
+      "36719906",
+      "35195064",
+      "39041910",
+      "34273560",
+      "32213349",
+      "36656543",
+      "31110271",
+      "33584814",
+      "36902216",
+      "29490630",
+      "31164146",
+      "32014034",
+      "34870838",
+      "34929739",
+      "27993786",
+      "39127768",
+      "37807013",
+      "34284136",
+      "39350338",
+      "32336246",
+      "35240993",
+      "29982337",
+      "33188264",
+      "37211599",
+      "30791920",
+      "34586377",
+      "38654130",
+      "33975951",
+      "30808370",
+      "35296236",
+      "37751945",
+      "33498086",
+      "32576878",
+      "34875002",
+      "31427911",
+      "37328639",
+      "33555221",
+      "36173566",
+      "35411004",
+      "35255493",
+      "32312702",
+      "37811941",
+      "35486242",
+      "32321568",
+      "37990143",
+      "35695574",
+      "33662624",
+      "32321567",
+      "31070745",
+      "35392802",
+      "30835229",
+      "36452861",
+      "32251359",
+      "37598467",
+      "35848835",
+      "24555784",
+      "34383745",
+      "38735595",
+      "38724693",
+      "33044128",
+      "34488759",
+      "35263332",
+      "37950200",
+      "36012247",
+      "35037783",
+      "38493346",
+      "31752933",
+      "33606259",
+      "30696696",
+      "36807076",
+      "36738683",
+      "32143622",
+      "37805453",
+      "37217250",
+      "34752400",
+      "38701417",
+      "33191916",
+      "32029740",
+      "38581422",
+      "34272562",
+      "32353042",
+      "31138617",
+      "31160376",
+      "34383882",
+      "34898596",
+      "35318951",
+      "37010301",
+      "35971180",
+      "32960766",
+      "35941239",
+      "36131234",
+      "36879236",
+      "39383060",
+      "35544234",
+      "38969365",
+      "38749504",
+      "38841126",
+      "39096613",
+      "38986578",
+      "39253524",
+      "37420172",
+      "33355120",
+      "38926513",
+      "38572749",
+      "33267515",
+      "38848239",
+      "39423493",
+      "35396274",
+      "31824562",
+      "37114830",
+      "38049725",
+      "37079406",
+      "38045276",
+      "38867734",
+      "38732207",
+      "38586055",
+      "39174927",
+      "36142140",
+      "39426693",
+      "38645715",
+      "38868212",
+      "36833434",
+      "37323658",
+      "39398218",
+      "37745557",
+      "37351310",
+      "39360982",
+      "34048546",
+      "39369547",
+      "37198346",
+      "38756930",
+      "38603603",
+      "37745002",
+      "39085477",
+      "32547592",
+      "38691895",
+      "37745003",
+      "37040244",
+      "36824789",
+      "38952710",
+      "35618814",
+      "36747873",
+      "37920888",
+      "39091826",
+      "38855237",
+      "39110340",
+      "38496482",
+      "39050248",
+      "38259348",
+      "38724669"
+    ],
+    "review": [
+      "38643066",
+      "32014034",
+      "31427911",
+      "35255493",
+      "32312702",
+      "24555784"
+    ],
+    "pmc": [
+      "11031952"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05774-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38643066/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38643066",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

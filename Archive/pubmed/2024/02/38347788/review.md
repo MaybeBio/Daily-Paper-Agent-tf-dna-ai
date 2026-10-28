@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose WSHNN, a weakly supervised hybrid neural network combining Multi-Instance Learning (MIL) with a hybrid CNN and Bi-LSTM architecture, for predicting DNA-protein binding sites. The method uses sliding windows to generate overlapping instances, K-mer encoding, and a fully connected network for final bag-level prediction. Reported performance includes Precision 90.73%, Recall 82.77%, Accuracy 87.17%, F1-score 0.8657, and MCC 0.7462. The authors claim superiority over state-of-the-art methods and conclude that Bi-LSTM effectively captures long-sequence relationships.
+- **Visible evidence base** Abstract text only; no dataset description, baseline comparisons, statistical tests, or code verification possible
+- **Missing materials affecting confidence** Full manuscript, experimental setup, dataset details, baseline methods and their performance values, hyperparameter choices, cross-validation strategy, code repository contents, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological framework for DNA-protein binding site prediction, but the evidence provided is insufficient to evaluate the validity of the claims. Key details on data, baselines, and experimental rigor are absent. The reported performance metrics are promising but cannot be assessed for statistical significance or generalizability from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational biology, bioinformatics, and machine learning applied to genomics would be interested, particularly those working on transcription factor binding site prediction, sequence-based deep learning models, and weakly supervised learning approaches. The combination of MIL with hybrid neural networks may appeal to method developers seeking to handle weakly labeled genomic data.
+- **Major strengths** The proposed framework addresses a relevant problem with a novel combination of MIL and hybrid neural networks. The use of sliding windows and K-mer encoding is a practical approach for sequence representation. The reported performance metrics are competitive, and the provision of code and data via GitHub is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that WSHNN achieves the reported performance values (Pre 90.73%, Recall 82.77%, Acc 87.17%, F1 0.8657, MCC 0.7462) and outperforms state-of-the-art methods.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract does not specify the dataset used, the number of samples, the train-test split, or the cross-validation scheme. Without this information, the reported metrics cannot be interpreted for their reliability or generalizability. Additionally, no baseline performance values are provided, so the claim of superiority over state-of-the-art methods is unsupported.
+  - **Why it matters** Performance metrics are only meaningful in the context of a well-defined benchmark. Without dataset details and baseline comparisons, the reported numbers could be artifacts of a favorable split, overfitting, or a non-standard evaluation protocol. The central claim of improved accuracy cannot be verified.
+  - **Resolution test** Provide a detailed description of the dataset, including source, size, and class balance, along with the exact train-test split or cross-validation procedure. Include performance values for all baseline methods under identical conditions, with statistical significance tests (e.g., paired t-test or Wilcoxon test) to support the claim of improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Bi-LSTM can better capture long-sequence relationships between DNA sequences.
+  - **Evidence pointer** Abstract, Conclusion section; location not provided
+  - **Concern** The abstract does not present any ablation study or comparative analysis isolating the contribution of Bi-LSTM versus other components (e.g., CNN alone, LSTM alone, or different sequence encodings). The conclusion about Bi-LSTM's effectiveness is therefore not supported by the evidence shown.
+  - **Why it matters** Attributing performance gains to a specific architectural component requires controlled experiments that vary that component while holding others constant. Without such analysis, the conclusion is speculative and could mislead readers about the mechanism driving the model's performance.
+  - **Resolution test** Include an ablation study that removes or replaces Bi-LSTM with alternative recurrent or non-recurrent architectures, reporting performance for each configuration. Show that the Bi-LSTM variant yields statistically significant improvements over alternatives.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that code and data are available at the provided GitHub URL.
+  - **Evidence pointer** Abstract, Conclusion section; location not provided
+  - **Concern** The GitHub URL contains a space in the repository name ("Weak_ Super_Network"), which is likely a typographical error. The abstract does not confirm that the repository is publicly accessible, contains the full codebase, or includes the exact datasets used for the reported results.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. An inaccessible or incomplete repository undermines the ability of other researchers to verify the results or build upon the method. The typo in the URL further reduces confidence in the availability of the resources.
+  - **Resolution test** Provide a corrected, working URL in the revised manuscript. Confirm that the repository includes all code, scripts, and data preprocessing steps, and that the datasets are either publicly available or included with appropriate permissions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The phrase "each instance containing multiple bags" is ambiguous. In standard MIL terminology, bags contain instances, not the reverse. This wording could confuse readers.
+  - **Required correction** Rephrase to clarify the relationship, e.g., "each bag contains multiple instances" or provide a precise definition of how instances and bags are constructed from the sliding windows.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The abstract reports Precision, Recall, Accuracy, F1-score, and MCC, but does not specify the threshold used for classification or whether these metrics are computed on a per-instance or per-bag basis.
+  - **Required correction** Specify the classification threshold and the granularity of the evaluation (instance-level vs. bag-level) to allow proper interpretation of the metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Abstract, Introduction section; location not provided
+  - **Issue** The term "art-of-the-state" is a typographical error; the correct term is "state-of-the-art."
+  - **Required correction** Correct the typo in the revised manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing dataset and baseline details), R1-M2 (lack of ablation study for Bi-LSTM), R1-M3 (unverified code and data availability)
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of MIL with a hybrid CNN-Bi-LSTM architecture is a reasonable methodological contribution, but the abstract does not clearly differentiate it from prior weakly supervised or hybrid models in the field. Originality is plausible but not fully established.  
+  - Scientific importance: DNA-protein binding site prediction is a significant problem in regulatory genomics, and improved methods are of interest. However, the abstract does not demonstrate a substantial advance over existing methods, as baseline comparisons are absent.  
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which could appeal to a broad audience. However, the abstract is written in a technical style that may be less accessible to non-specialists, and the significance of the results is not framed in a broader biological context.  
+  - Technical soundness: The methodological description is too brief to assess correctness. The absence of dataset details, baseline comparisons, and ablation studies prevents evaluation of the technical claims.  
+  - Readability for nonspecialists: The abstract uses domain-specific terms (e.g., MIL, K-mer, Bi-LSTM) without sufficient explanation, and the structure is somewhat disjointed. A clearer motivation and explanation of the biological relevance would improve readability.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a potentially interesting method, but the lack of experimental details, baseline comparisons, and ablation studies means the core claims cannot be verified. The manuscript would require substantial additional information and analysis before the case for its claims is made.
+
+## Risk / unsupported claims
+- The reported performance metrics (Pre 90.73%, Recall 82.77%, Acc 87.17%, F1 0.8657, MCC 0.7462) are unsupported without dataset and evaluation details.
+- The claim of superiority over state-of-the-art methods is unsupported as no baseline performance values are provided.
+- The conclusion that Bi-LSTM captures long-sequence relationships is unsupported without an ablation study.
+- The availability and correctness of the code and data repository cannot be verified due to the typo in the URL and lack of confirmation of repository contents.

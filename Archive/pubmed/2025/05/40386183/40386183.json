@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "40386183",
+    "doi": "10.2147/JIR.S524284",
+    "title": "IL7-IL7R Interaction Mediates Fibroblast-Driven Macrophage-to-Osteoclast Differentiation in Periodontitis."
+  },
+  "content": {
+    "abstract": "AIM: To identify osteoclastogenic macrophage subsets and their regulatory mechanisms in periodontitis. METHODS: We integrated single-cell RNA sequencing datasets from human and murine periodontitis to construct a comprehensive macrophage and monocyte atlas. Employing functional enrichment, cell-cell communication, pseudotime, transcription factor, and machine learning analyses, we characterized and selected the specific macrophage subset involved in cell interactions. In vitro and in vivo experiments, including enzyme-linked immunosorbent assay, TRAP staining, micro-CT, qPCR, flow cytometry, and immunofluorescence staining, were performed to dissect the osteoclastogenic potential of specific macrophage subsets and to identify the key pathways. RESULTS: We discovered that the IL7R(+) macrophage subset possesses significant osteoclast differentiation potential. Our findings indicate that the IL7/IL7R signaling axis facilitates osteoclast differentiation. Genes highly expressed in IL7R(+) macrophages were identified as strong predictors for periodontitis by machine learning models. In vivo and in vitro experimental validation confirmed an increase in IL7R(+) macrophages, along with their enhanced osteoclastogenic capacity. confirmed an increase in IL7R(+) macrophages, along with their osteoclastogenic capacity. The inhibition of the IL7/IL7R signaling pathway was found to mitigate periodontitis progression by impeding osteoclast differentiation. Furthermore, fibroblasts were found to secret IL7 interacting with IL7 receptors on macrophages. CONCLUSION: Our study identifies IL7R(+) macrophages as potential osteoclast precursors in periodontitis. We demonstrate that the IL7/IL7R signaling pathway is a critical driver of osteoclast differentiation. Moreover, targeting IL7R is a potential therapeutic strategy to curb periodontitis bone resorption.",
+    "keywords": [
+      "macrophage",
+      "osteoclast differentiation",
+      "periodontitis",
+      "single-cell sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Pengjie",
+        "Gao, Li",
+        "Guan, Jiezhong",
+        "Li, Yijiao",
+        "Jia, Yibing",
+        "Zeng, Zixiang",
+        "Chen, Yurun",
+        "Wang, Linge",
+        "Li, Weichang",
+        "Wang, Yan",
+        "Yang, Bo"
+      ],
+      "short_names": [
+        "Huang P",
+        "Gao L",
+        "Guan J",
+        "Li Y",
+        "Jia Y",
+        "Zeng Z",
+        "Chen Y",
+        "Wang L",
+        "Li W",
+        "Wang Y",
+        "Yang B"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-7165-593X",
+        "ORCID: 0009-0009-0339-0028",
+        "ORCID: 0000-0003-1856-7649"
+      ],
+      "affiliations": [
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "South China Advanced Institute for Soft Matter Science and Technology, School of Molecular Science and Engineering, Guangdong Provincial Key Laboratory of Functional and Intelligent Hybrid Materials and Devices, South China University of Technology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China.",
+        "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Pengjie",
+        "short_name": "Huang P",
+        "identifiers": [
+          "0009-0009-7165-593X"
+        ],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Li",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Guan, Jiezhong",
+        "short_name": "Guan J",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Yijiao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jia, Yibing",
+        "short_name": "Jia Y",
+        "identifiers": [
+          "0009-0009-0339-0028"
+        ],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zixiang",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yurun",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Linge",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "South China Advanced Institute for Soft Matter Science and Technology, School of Molecular Science and Engineering, Guangdong Provincial Key Laboratory of Functional and Intelligent Hybrid Materials and Devices, South China University of Technology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Weichang",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-1856-7649"
+        ],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Bo",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-Sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/19 12:29",
+    "fetched_at": "2026-10-05 03:52:16"
+  },
+  "links": {
+    "cites": [
+      "42644008",
+      "42399228",
+      "42125022",
+      "41526936",
+      "41181974"
+    ],
+    "refs": [
+      "39740162",
+      "39709490",
+      "39665166",
+      "39571840",
+      "39456522",
+      "39101637",
+      "38867103",
+      "38840496",
+      "38447573",
+      "38361033",
+      "38181706",
+      "37813989",
+      "37563119",
+      "37443778",
+      "37372962",
+      "37344646",
+      "37289398",
+      "37248301",
+      "37217496",
+      "37143324",
+      "36734626",
+      "36368318",
+      "36304447",
+      "36201890",
+      "36142322",
+      "35898473",
+      "35595051",
+      "35280902",
+      "35154475",
+      "35032412",
+      "35015026",
+      "34950140",
+      "33934341",
+      "33810461",
+      "33256844",
+      "33157496",
+      "32586315",
+      "31900603",
+      "31745336",
+      "31530089",
+      "31197255",
+      "31180451",
+      "31137085",
+      "31061532",
+      "30023410",
+      "29663382",
+      "28758294",
+      "28351517",
+      "27045434",
+      "26779287",
+      "26472015",
+      "25035950",
+      "22382516",
+      "21647866",
+      "21198766",
+      "19046922",
+      "16831927",
+      "11861618"
+    ],
+    "similar": [
+      "40386183",
+      "37409514",
+      "34129238",
+      "34190354",
+      "38977961",
+      "39641827",
+      "31059030",
+      "40240339",
+      "38411951",
+      "36591261",
+      "28570825",
+      "28405613",
+      "38040752",
+      "33748112",
+      "31944305",
+      "38596952",
+      "38223829",
+      "32210715",
+      "39210600",
+      "30465344",
+      "39800085",
+      "31675438",
+      "40317064",
+      "10934646",
+      "38237771",
+      "35248085",
+      "38554947",
+      "31127629",
+      "36716169",
+      "37289398",
+      "24038328",
+      "30414445",
+      "40312852",
+      "37243354",
+      "38551200",
+      "33729573",
+      "35976062",
+      "39080781",
+      "38626546",
+      "37454872",
+      "33984459",
+      "23159616",
+      "37436700",
+      "30172945",
+      "26514304",
+      "36417596",
+      "39716898",
+      "40112905",
+      "24962140",
+      "29800570",
+      "32550895",
+      "25975181",
+      "38934258",
+      "38689292",
+      "24383776",
+      "31032952",
+      "31332039",
+      "32210958",
+      "21031266",
+      "34770985",
+      "37246926",
+      "34481478",
+      "26189240",
+      "33498415",
+      "39593187",
+      "17966395",
+      "39031888",
+      "38451425",
+      "37602540",
+      "37855275",
+      "19492422",
+      "38645877",
+      "39700638",
+      "39671756",
+      "27447722",
+      "40075549",
+      "22138579",
+      "39624396",
+      "40177487",
+      "37441084",
+      "39433713",
+      "38619641",
+      "39186002",
+      "26205967",
+      "39027343",
+      "37521493",
+      "39741634",
+      "30779854",
+      "37994174",
+      "18283716",
+      "40057191",
+      "38365111",
+      "12228163",
+      "16059638",
+      "29908722",
+      "40373380",
+      "39555084",
+      "25389180",
+      "23692684",
+      "40175831"
+    ],
+    "review": [
+      "40386183"
+    ],
+    "pmc": [
+      "12081953"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40386183/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S524284",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

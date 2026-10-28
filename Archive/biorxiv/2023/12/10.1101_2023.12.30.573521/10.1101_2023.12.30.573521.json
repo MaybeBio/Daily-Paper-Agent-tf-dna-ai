@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.30.573521",
+  "title": "Transient power-law behaviour following induction distinguishes between competing models of stochastic gene expression",
+  "doi": "10.1101/2023.12.30.573521",
+  "abstract": "What features of transcription can be learnt by fitting mathematical models of gene expression to mRNA count data? Given a suite of models, fitting to data selects an optimal one, thus identifying a probable transcriptional mechanism. Whilst attractive, the utility of this methodology remains unclear. Here, we sample steady-state, single-cell mRNA count distributions from parameters in the physiological range, and show they cannot be used to confidently estimate the number of inactive gene states, i.e. the number of rate-limiting steps in transcriptional initiation. Distributions from over 99% of the parameter space generated using models with 2, 3, or 4 inactive states can be well fit by one with a single inactive state. However, we show that for many minutes following induction, eukaryotic cells show an increase in the mean mRNA count that obeys a power law whose exponent equals the sum of the number of states visited from the initial inactive to the active state and the number of rate-limiting post-transcriptional processing steps. Our study shows that estimation of the exponent from eukaryotic data can be sufficient to determine a lower bound on the total number of regulatory steps in transcription initiation, splicing, and nuclear export.",
+  "authors": [
+    "Nicoll AG",
+    "Szavits-Nossan J",
+    "Evans MR",
+    "Grima R"
+  ],
+  "published_date": "2023-12-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.30.573521",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.30.573521.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR780800",
+    "raw_record": {
+      "id": "PPR780800",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR780800"
+        ]
+      },
+      "doi": "10.1101/2023.12.30.573521",
+      "title": "Transient power-law behaviour following induction distinguishes between competing models of stochastic gene expression",
+      "authorString": "Nicoll AG, Szavits-Nossan J, Evans MR, Grima R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nicoll AG",
+            "lastName": "Nicoll",
+            "firstName": "Andrew",
+            "initials": "AG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Szavits-Nossan J",
+            "lastName": "Szavits-Nossan",
+            "firstName": "Juraj",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1540-5209"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evans MR",
+            "lastName": "Evans",
+            "firstName": "Martin",
+            "initials": "MR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Physics and Astronomy, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grima R",
+            "lastName": "Grima",
+            "firstName": "Ramon",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1540-5209"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "What features of transcription can be learnt by fitting mathematical models of gene expression to mRNA count data? Given a suite of models, fitting to data selects an optimal one, thus identifying a probable transcriptional mechanism. Whilst attractive, the utility of this methodology remains unclear. Here, we sample steady-state, single-cell mRNA count distributions from parameters in the physiological range, and show they cannot be used to confidently estimate the number of inactive gene states, i.e. the number of rate-limiting steps in transcriptional initiation. Distributions from over 99% of the parameter space generated using models with 2, 3, or 4 inactive states can be well fit by one with a single inactive state. However, we show that for many minutes following induction, eukaryotic cells show an increase in the mean mRNA count that obeys a power law whose exponent equals the sum of the number of states visited from the initial inactive to the active state and the number of rate-limiting post-transcriptional processing steps. Our study shows that estimation of the exponent from eukaryotic data can be sufficient to determine a lower bound on the total number of regulatory steps in transcription initiation, splicing, and nuclear export.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/30/2023.12.30.573521.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.30.573521"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR780800"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR780800&type=FILE&fileName=EMS193153-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40121209",
+            "reference": "Nature communications. 2025 Mar;16(1):2833",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193153",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-01",
+      "firstPublicationDate": "2023-12-30",
+      "firstIndexDate": "2024-01-01",
+      "fullTextReceivedDate": "2024-10-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

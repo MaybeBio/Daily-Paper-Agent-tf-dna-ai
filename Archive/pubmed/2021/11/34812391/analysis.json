@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34812391",
+  "title": "Deep Learning for SARS COV-2 Genome Sequences.",
+  "authors": "Whata, Albert; Chimedza, Charles",
+  "journal": "IEEE access : practical innovations, open solutions",
+  "published_date": "2021-11-24",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN-Bi-LSTM对SARS-CoV-2基因组序列分类并检测调控基序，虽涉及转录因子结合位点，但无蛋白质-DNA互作建模或机制研究，方法为纯序列分类，与本课题关联较弱。",
+  "abstract": "The SARS-CoV-2 virus which originated in Wuhan, China has since spread throughout the world and is affecting millions of people. When there is a novel virus outbreak, it is crucial to quickly determine if the epidemic is a result of the novel virus or a well-known virus. We propose a deep learning algorithm that uses a convolutional neural network (CNN) as well as a bi-directional long short-term memory (Bi-LSTM) neural network, for the classification of the severe acute respiratory syndrome coronavirus 2 (SARS CoV-2) amongst Coronaviruses. Besides, we classify whether a genome sequence contains candidate regulatory motifs or otherwise. Regulatory motifs bind to transcription factors. Transcription factors are responsible for the expression of genes. The experimental results show that at peak performance, the proposed convolutional neural network bi-directional long short-term memory (CNN-Bi-LSTM) model achieves a classification accuracy of 99.95%, area under curve receiver operating characteristic (AUC ROC) of 100.00%, a specificity of 99.97%, the sensitivity of 99.97%, Cohen's Kappa equal to 0.9978, Mathews Correlation Coefficient (MCC) equal to 0.9978 for the classification of SARS CoV-2 amongst Coronaviruses. Also, the CNN-Bi-LSTM correctly detects whether a sequence has candidate regulatory motifs or binding-sites with a classification accuracy of 99.76%, AUC ROC of 100.00%, a specificity of 99.76%, a sensitivity of 99.76%, MCC equal to 0.9980, and Cohen's Kappa of 0.9970 at peak performance. These results are encouraging enough to recognise deep learning algorithms as alternative avenues for detecting SARS CoV-2 as well as detecting regulatory motifs in the SARS CoV-2 genes.",
+  "abstract_zh": "源自中国武汉的SARS-CoV-2病毒已传播至全球，影响数百万人。当新型病毒爆发时，迅速确定疫情是由新型病毒还是已知病毒引起至关重要。我们提出一种深度学习算法，利用卷积神经网络（CNN）和双向长短期记忆（Bi-LSTM）神经网络，对冠状病毒中的严重急性呼吸综合征冠状病毒2（SARS CoV-2）进行分类。此外，我们分类基因组序列是否包含候选调控基序。调控基序与转录因子结合，而转录因子负责基因表达。实验结果表明，在最佳性能下，所提出的卷积神经网络-双向长短期记忆（CNN-Bi-LSTM）模型在SARS CoV-2与冠状病毒的分类中达到99.95%的分类准确率、100.00%的曲线下面积受试者工作特征（AUC ROC）、99.97%的特异性、99.97%的敏感性、Cohen's Kappa为0.9978、Mathews相关系数（MCC）为0.9978。同时，CNN-Bi-LSTM在最佳性能下正确检测序列是否具有候选调控基序或结合位点，分类准确率为99.76%、AUC ROC为100.00%、特异性为99.76%、敏感性为99.76%、MCC为0.9980、Cohen's Kappa为0.9970。这些结果足以鼓励将深度学习算法视为检测SARS CoV-2及检测SARS CoV-2基因中调控基序的替代途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34812391/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34812391/",
+  "paper_page_path": "papers/pubmed/34812391/index.html"
+}

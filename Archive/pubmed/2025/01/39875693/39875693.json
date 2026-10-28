@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "39875693",
+    "doi": "10.1007/s43032-025-01790-1",
+    "title": "Screening of Oxidative Stress-related Biomarkers and Antioxidant Drugs for Polycystic Ovary Syndrome Based on Bioinformatics and Molecular Docking."
+  },
+  "content": {
+    "abstract": "Polycystic ovary syndrome (PCOS) is a prevalent endocrine and metabolic disorder affecting women of reproductive age. Oxidative stress (OS) is suggested to play a significant role in the development of PCOS. Using antioxidants to reduce OS and maintain a healthy balance in the body could be a novel treatment approach for PCOS. This study analyzed transcriptome data from the Gene Expression Omnibus database, focusing on genes associated with OS. By implementing two machine learning algorithms, three OS-related biomarkers-HMOX1, MMP9, and KLF2-were successfully identified. To evaluate the diagnostic potential of these biomarkers, a Logistic regression model was employed. Additionally, granulosa cells were collected from healthy individuals and infertile women with PCOS, and the reliability of HMOX1, MMP9, and KLF2 was verified by quantitative real-time PCR experiments. Furthermore, small molecule drugs targeting proteins encoded by genes HMOX1 and MMP9 were predicted through the Drug Signature Database. Molecular docking of drugs to proteins identified two antioxidants, butein and demethoxycurcumin, as potential candidates for PCOS therapy.",
+    "keywords": [
+      "Antioxidant drugs",
+      "Bioinformatics",
+      "Molecular docking",
+      "Oxidative stress",
+      "Polycystic ovary syndrome"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "*Polycystic Ovary Syndrome/drug therapy/metabolism/genetics",
+      "*Oxidative Stress/drug effects/physiology",
+      "*Antioxidants/pharmacology/therapeutic use/metabolism",
+      "*Molecular Docking Simulation",
+      "Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "Matrix Metalloproteinase 9/genetics/metabolism",
+      "Heme Oxygenase-1/genetics/metabolism",
+      "Adult",
+      "Kruppel-Like Transcription Factors/genetics/metabolism",
+      "Granulosa Cells/metabolism/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Lanhui",
+        "Li, Tian",
+        "Xu, Jialiang",
+        "Liao, Siqi",
+        "Xu, Haocheng",
+        "Li, Kun",
+        "Ivanova, Deyana",
+        "Si, Yuewen",
+        "Zhang, Xin",
+        "Zhang, Jianning",
+        "Li, Fangfang",
+        "Chen, Xuemei",
+        "Wang, Yingxiong",
+        "Xie, Biao",
+        "Shi, Dan",
+        "Wang, Meijiao"
+      ],
+      "short_names": [
+        "Chen L",
+        "Li T",
+        "Xu J",
+        "Liao S",
+        "Xu H",
+        "Li K",
+        "Ivanova D",
+        "Si Y",
+        "Zhang X",
+        "Zhang J",
+        "Li F",
+        "Chen X",
+        "Wang Y",
+        "Xie B",
+        "Shi D",
+        "Wang M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2913-745X"
+      ],
+      "affiliations": [
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Reproductive Medicine, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Medicine, Division of Endocrinology, Diabetes and Hypertension, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+        "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China.",
+        "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China.",
+        "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Biostatistics, School of Public Health, Chongqing Medical University, Chongqing, 400016, China.",
+        "Department of Nutrition and Food Hygiene, School of Public Health, Chongqing Medical University, Chongqing, China. danshi@cqmu.edu.cn.",
+        "Nutrition Innovation Platform-Sichuan and Chongqing, School of Public Health, Chongqing Medical University, Chongqing, China. danshi@cqmu.edu.cn.",
+        "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China. meijiaowang@cqmu.edu.cn.",
+        "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China. meijiaowang@cqmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Lanhui",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tian",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Reproductive Medicine, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jialiang",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China.",
+          "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Siqi",
+        "short_name": "Liao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Haocheng",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Ivanova, Deyana",
+        "short_name": "Ivanova D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Division of Endocrinology, Diabetes and Hypertension, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Si, Yuewen",
+        "short_name": "Si Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianning",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fangfang",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xuemei",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingxiong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Biao",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, School of Public Health, Chongqing Medical University, Chongqing, 400016, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Dan",
+        "short_name": "Shi D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Hygiene, School of Public Health, Chongqing Medical University, Chongqing, China. danshi@cqmu.edu.cn.",
+          "Nutrition Innovation Platform-Sichuan and Chongqing, School of Public Health, Chongqing Medical University, Chongqing, China. danshi@cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Meijiao",
+        "short_name": "Wang M",
+        "identifiers": [
+          "0000-0003-2913-745X"
+        ],
+        "affiliations": [
+          "Department of Physiology, College of Basic Medicine, Chongqing Medical University, Chongqing, 400016, China. meijiaowang@cqmu.edu.cn.",
+          "Joint International Research Laboratory of Reproduction and Development of the Ministry of Education of China, School of Public Health, Chongqing Medical University, Chongqing, 400016, China. meijiaowang@cqmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reproductive sciences (Thousand Oaks, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Reprod Sci"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/29 00:20",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38653973",
+      "37883387",
+      "37880698",
+      "37762427",
+      "37415103",
+      "36745011",
+      "36647001",
+      "36310300",
+      "36232686",
+      "35892632",
+      "35732914",
+      "35723408",
+      "35157259",
+      "35069800",
+      "34234312",
+      "34121193",
+      "34006959",
+      "33808393",
+      "33403398",
+      "33216309",
+      "32954935",
+      "32782788",
+      "30126412",
+      "29895300",
+      "29778391",
+      "29688269",
+      "29569621",
+      "26733727",
+      "26598915",
+      "25784597",
+      "25593461",
+      "23318726",
+      "23087099",
+      "22722906",
+      "22566109",
+      "22454458",
+      "22407611",
+      "22378047",
+      "22185775",
+      "21964506",
+      "21908093",
+      "16953118"
+    ],
+    "similar": [
+      "39875693",
+      "39875917",
+      "40877487",
+      "39396400",
+      "41065836",
+      "40884580",
+      "39608739",
+      "41014201",
+      "41214666",
+      "40625103",
+      "41262262",
+      "33337472",
+      "40813744",
+      "36223608",
+      "38987824",
+      "31772710",
+      "38390208",
+      "33622336",
+      "33900851",
+      "41703156",
+      "41192647",
+      "39107365",
+      "41006883",
+      "41412276",
+      "31327131",
+      "39321891",
+      "37121450",
+      "41595448",
+      "37075681",
+      "41146316",
+      "33493289",
+      "25498475",
+      "26459919",
+      "34678578",
+      "39773546",
+      "40287692",
+      "39415242",
+      "36936973",
+      "23232537",
+      "29676471",
+      "40334995",
+      "31235121",
+      "41237881",
+      "41484798",
+      "39143634",
+      "33067753",
+      "33876387",
+      "40540113",
+      "38549535",
+      "35822313",
+      "36279177",
+      "33287836",
+      "34976213",
+      "39984989",
+      "31705961",
+      "35794640",
+      "39269488",
+      "41580826",
+      "30477916",
+      "40099263",
+      "41047472",
+      "39216304",
+      "41501917",
+      "32131660",
+      "35836030",
+      "39634175",
+      "38955938",
+      "40457383",
+      "28345956",
+      "27799458",
+      "40197608",
+      "25139174",
+      "39722030",
+      "40715316",
+      "27056885",
+      "41269501",
+      "30937532",
+      "41544724",
+      "39754246",
+      "37647682",
+      "35237893",
+      "38773025",
+      "39155689",
+      "24585089",
+      "34041658",
+      "31888395",
+      "30092830",
+      "27923406",
+      "40546660",
+      "25303486",
+      "26993517",
+      "39153978",
+      "39313103",
+      "39717045",
+      "40838208",
+      "37140276",
+      "39432623",
+      "41259826",
+      "39398336",
+      "39489197"
+    ],
+    "review": [
+      "39875693",
+      "38549535",
+      "36279177",
+      "39269488",
+      "39722030"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/polycysticovarysyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Polycystic Ovary Syndrome"
+      },
+      {
+        "url": "https://doi.org/10.1007/s43032-025-01790-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

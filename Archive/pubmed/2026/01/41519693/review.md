@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusion) with figure legends and table content; supplementary materials not accessible beyond the DOI link.
+- **Assessment boundary** Scientific content, methodological rigor, evidence quality, and internal consistency of the claims as presented. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report the first genome-wide identification of 38 TALE transcription factor genes in *Paulownia fortunei*, their phylogenetic classification into KNOXI, KNOXII, and BELL subfamilies, chromosomal distribution, promoter cis-element analysis, expression profiling under drought, salt, and phytoplasma infection, and functional characterization of PfTALE5 including subcellular localization and interaction with PfKNAT7. The central claim is that PfTALE5 acts as a hub integrating multiple stress-response pathways.
+- **Visible evidence base** Table 1 (gene identifiers, physicochemical properties); Figures 1–8 (phylogeny, motifs/domains/gene structure, cis-elements, chromosomal distribution, synteny, expression heatmaps, subcellular localization, Y2H, docking); Supplementary Tables S1–S5 referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Tables S1–S5 (primers, raw expression data, docking parameters); raw RNA-seq datasets and accession numbers; statistical details for transcriptome differential expression analysis; details of the Y2H construct design and controls; AlphaFold confidence metrics for the docking model.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic genome-wide characterization of the TALE gene family in *Paulownia fortunei*, a species of economic importance. The bioinformatic analyses are largely standard and appear competently executed. The expression profiling under multiple stresses is useful descriptive data. However, the central claim that PfTALE5 acts as a "hub" for multi-stress resilience is not supported by the evidence presented. The functional characterization is limited to subcellular localization and a single protein interaction, with no phenotypic, transgenic, or loss-of-function data. The manuscript is better framed as a descriptive genomic inventory with preliminary functional hints, rather than a demonstration of a regulatory hub. The title and conclusions substantially overstate the evidence.
+- **Who would be interested in the results, and why** Researchers working on TALE transcription factor families in woody plants, particularly those interested in stress responses in non-model species. The genomic inventory and expression data provide a useful resource for comparative studies. The PfTALE5-PfKNAT7 interaction may interest those studying KNOX-BELL heterodimer functions, though the functional significance remains speculative.
+- **Major strengths** First genome-wide analysis of TALE family in *P. fortunei*; comprehensive bioinformatic characterization including phylogeny, motifs, gene structure, synteny, and cis-elements; multi-stress expression profiling covering drought, salt, and phytoplasma infection; combination of transcriptomic and qRT-PCR validation; inclusion of protein interaction evidence via Y2H and molecular docking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "PfTALE5 acts as a hub for multi-stress resilience" and "highlighting PfTALE5 as a key regulator conferring multi-stress resilience"
+  - **Evidence pointer** Figures 5–8; Results sections "Differential expression analysis" and "Interaction between PfTALE5 and PfKNAT7"
+  - **Concern** The central claim that PfTALE5 is a "hub" for multi-stress resilience is not established by the data. The evidence consists of (i) expression upregulation under three stress conditions, (ii) dual subcellular localization, and (iii) interaction with PfKNAT7. No functional experiments demonstrate that PfTALE5 confers stress tolerance, regulates downstream targets, or is required for stress responses. Expression correlation alone does not establish regulatory hub status.
+  - **Why it matters** The title and conclusions promise a functional characterization that the manuscript does not deliver. Overstating the significance of descriptive data misleads readers and undermines the credibility of the resource value the study genuinely provides.
+  - **Resolution test** Either (a) substantially revise the title, abstract, and conclusions to reflect the descriptive nature of the study, or (b) add functional evidence such as overexpression or knockout lines in *P. fortunei* or a heterologous system demonstrating stress tolerance phenotypes, and identification of downstream target genes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of interaction evidence
+  - **Claim pointer** "Y2H assays and molecular docking confirmed that PfTALE5 physically interacts with PfKNAT7 via hydrogen bonds"
+  - **Evidence pointer** Figure 7C, 8B; Methods sections "Yeast Two-Hybrid (Y2H)" and "Prediction of the tertiary structure and molecular docking"
+  - **Concern** The Y2H assay is described but critical controls are not reported. The negative control (pGBKT7 + pGADT7) is mentioned, but no positive control for the interaction is described beyond the self-activation test. The molecular docking is presented as "confirmation" of the interaction, but docking predictions are computational hypotheses, not experimental validation. The claim that hydrogen bonds "confirmed" the interaction conflates prediction with evidence.
+  - **Why it matters** The interaction between PfTALE5 and PfKNAT7 is a key piece of evidence for the "hub" claim. If the interaction evidence is not rigorously validated, the functional model collapses. Docking results are not confirmatory evidence.
+  - **Resolution test** Provide full Y2H controls including a known interacting pair as positive control, and empty vector negative controls for each construct. Clarify that docking is predictive, not confirmatory. Consider orthogonal validation such as co-immunoprecipitation or BiFC.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of expression data
+  - **Claim pointer** "PfTALE5, PfTALE12, PfTALE16, and PfTALE18 were significantly responsive to all three stresses"
+  - **Evidence pointer** Figure 5A–C, 6A–C; Methods "Expression pattern analysis" and "qRT-PCR validation"
+  - **Concern** The criteria for "significantly responsive" are not clearly defined. For transcriptomic data, the authors mention "adjusted p-value < 0.05" only in a parenthetical note within the results, but the threshold for fold change is not stated. For qRT-PCR, statistical analysis is described as Student's t-test, but the number of biological replicates (three) is small and multiple testing correction is not mentioned. The heatmaps in Figure 5 appear to display log2FC values without indication of statistical significance.
+  - **Why it matters** The identification of stress-responsive genes is foundational to the study. Without clear statistical thresholds and appropriate multiple testing correction, the list of responsive genes may include false positives, and the selection of PfTALE5 as the focus gene is not robustly justified.
+  - **Resolution test** State explicit thresholds for differential expression (fold change and adjusted p-value) for transcriptomic data. For qRT-PCR, report the number of technical replicates, the statistical test used for each comparison, and whether multiple testing correction was applied. Provide the full list of differentially expressed genes with statistics in a supplementary table.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility of bioinformatic analyses
+  - **Claim pointer** "We identified 38 non-redundant PfTALE genes in the P. fortunei genome through a combined approach using BLAST against Arabidopsis TALE proteins and validation with the TALE domain HMM profile (PF05920)"
+  - **Evidence pointer** Methods "Identification of the PfTALE gene family"; Table 1
+  - **Concern** The identification pipeline is described at a high level, but key parameters are missing: the E-value thresholds for BLAST and HMMER searches, the criteria for "non-redundant" (e.g., alternative splicing, overlapping gene models), and whether the completeness of the TALE domain was verified (e.g., presence of both homeodomain and KNOX or BELL domains). The genome version and annotation release used are not specified.
+  - **Why it matters** Reproducibility of gene family identification is essential for a genome-wide study. Without precise parameters and genome version, other researchers cannot replicate or extend the analysis.
+  - **Resolution test** Provide the genome assembly and annotation version, BLAST and HMMER E-value thresholds, and the domain architecture verification criteria. Consider depositing the final gene list with genomic coordinates in a supplementary table.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5A–C
+  - **Issue** The sample labels in Figure 5 are inconsistent. The legend mentions "PF/B2: healthy P. fortunei; PFI/BB: P. fortunei infected with phytoplasma" but the heatmap axes are not described. The relationship between the MMS and Rif treatments and the main stress conditions is unclear from the figure alone.
+  - **Required correction** Clarify the sample labels in the figure and legend. Consider separating the MMS/Rif treatment data into a distinct panel or clearly annotating the treatment conditions on the heatmap axes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Subcellular localization
+  - **Evidence pointer** Methods "Subcellular localisation"; Figure 7A
+  - **Issue** The subcellular localization experiment is described briefly. The marker used (mCherry) is mentioned in the figure legend, but the specific marker constructs for nucleus and plasma membrane are not described in the methods. The number of independent transformation events and cells observed is not reported.
+  - **Required correction** Provide details of the marker constructs used, the number of independent experiments, and the proportion of cells showing the reported localization pattern.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Transcriptomic datasets
+  - **Evidence pointer** Methods "Expression pattern analysis"
+  - **Issue** The RNA-seq datasets are referenced by SRA accession numbers (SRR11787883, etc.), but the associated BioProject and processing pipeline (e.g., alignment tool, quantification method, differential expression analysis software) are not described.
+  - **Required correction** Provide the BioProject accession, describe the bioinformatic pipeline for RNA-seq analysis, and state the reference genome version used for read alignment.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Abstract and Discussion
+  - **Issue** The term "hub" is used repeatedly but never operationally defined. The phrase "multi-stress resilience" implies a demonstrated phenotype, which is not shown.
+  - **Required correction** Either define what is meant by "hub" in this context (e.g., a gene responsive to multiple stresses with predicted regulatory connections) or use more measured language such as "candidate integrator" or "multi-stress responsive gene."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency of gene counts
+  - **Affected element** Results "Identification and characterisation"
+  - **Issue** The text states "no PfTALE members were assigned to the KNOXIII subfamily," but the classification framework for Arabidopsis TALE proteins typically includes KNOX I, KNOX II, and BELL, with KNOX III not being a standard category. This statement may reflect a misunderstanding of the classification scheme.
+  - **Required correction** Clarify the classification framework used and whether KNOXIII is a recognized subfamily in the reference species. If not, remove the statement or rephrase to avoid confusion.
+
+## Risk / unsupported claims
+- The claim that PfTALE5 "acts as a hub for multi-stress resilience" is unsupported by functional evidence. Expression correlation, localization, and a single interaction partner do not establish hub status.
+- The claim that molecular docking "confirmed" the PfTALE5-PfKNAT7 interaction is unsupported. Docking is a predictive computational method, not a confirmation.
+- The statement that PfTALE5 "may enhance root osmotic adjustment and ion homeostasis" is speculative and not tested.
+- The claim that PfTALE18 "may similarly regulate leaf reactive oxygen species (ROS) scavenging or pathogenesis-related (PR) protein genes" is speculative and not tested.
+- The assertion that "PfTALE5 may possess both transcriptional regulatory activity and membrane-associated signaling functions" is not supported by the data. The Y2H assay showed no transcriptional activation activity, and no membrane-associated signaling function was tested.
+- The evolutionary inference that "segmental duplication represented the major driving force underlying family expansion" is based on synteny analysis but lacks dating or selection pressure analysis to support the claim of "driving force."
+- The statement that "PfTALE5, PfTALE12, PfTALE16, and PfTALE18 were significantly responsive to all three stresses" is not fully verifiable without the raw expression data and explicit statistical thresholds.
+- The claim of "first comprehensive genome-wide analysis" is plausible but cannot be fully verified without a more thorough literature search; the authors should confirm no prior TALE family analysis exists in *Paulownia*.
+- The interaction between PfTALE5 and PfKNXAT7 is described as "confirmed" but only Y2H and docking were used. No in planta validation is provided.
+- The subcellular localization claim of "both the nucleus and cytomembrane" is based on a single transient expression experiment without quantification or statistical support.

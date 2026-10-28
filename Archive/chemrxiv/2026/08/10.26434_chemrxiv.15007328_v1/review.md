@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no experimental details, figures, tables, or supporting information were provided for evaluation
+- **Shared manuscript claim summary** The authors report the design, synthesis, and characterization of metal-peptidic helicates formed from three individual Aib-stabilized, bipyridine-functionalized α-helical peptides coordinated to Fe(II) or Ni(II) ions, producing M2L3 assemblies approximately 3 nm in length. They claim that the helicate handedness (ΔΔ or ΛΛ) can be switched by changing the bipyridine substitution site independently of peptide sequence, that the assemblies possess exceptional stability in water, and that they selectively bind DNA three-way junctions over other DNA secondary structures.
+- **Visible evidence base** Abstract text only; no experimental section, characterization data, figures, tables, or supplementary information were provided
+- **Missing materials affecting confidence** Full manuscript text, synthetic procedures, characterization data (NMR, MS, CD, UV-vis), stability measurements, DNA binding assay details and results, structural models or crystallographic data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing merger of metal-organic helicate chemistry and coiled-coil peptide design, with a clear potential application in DNA structure recognition. The claimed length scale bridging (1 nm to 10 nm) and the chirality-switching feature are interesting design concepts. However, the abstract alone provides insufficient evidence to evaluate the central claims. Key assertions regarding assembly stoichiometry, structural definition, chirality control, aqueous stability, and DNA binding selectivity are stated without supporting data. The work may be of interest to the bioinorganic and chemical biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, peptide design, DNA recognition, and supramolecular chemistry would be interested. The concept of using metal coordination to organize peptide helices into coiled-coil-like architectures with DNA binding selectivity could appeal to those developing synthetic DNA-binding agents, structural biologists studying coiled-coil mimics, and groups working on metallosupramolecular assemblies for biological applications.
+- **Major strengths** The conceptual fusion of two established fields (metal-organic helicates and coiled-coil peptides) is creative and timely. The proposed chirality control independent of peptide sequence is a potentially valuable design principle. The target application, selective binding of DNA three-way junctions, addresses a biologically relevant and underexplored nucleic acid structure. The stated length scale bridging is a clear and testable design goal.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim formation of M2L3 metal-peptidic helicates approximately 3 nm in length from three individual α-helical peptide chains.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No experimental evidence is presented to support the claimed stoichiometry (M2L3), the assembly of three discrete peptide chains into a single helicate, or the approximate 3 nm length. Mass spectrometry, NMR diffusion measurements, size exclusion chromatography, or crystallographic data would be required to substantiate these claims.
+  - **Why it matters** The entire premise of the work rests on the formation of well-defined trimeric assemblies. If the actual solution species are mixtures of oligomers or if the length is substantially different, the conceptual framing as coiled-coil mimics would be undermined.
+  - **Resolution test** Provide mass spectrometric data showing the intact M2L3 species, solution-phase size or diffusion data consistent with a 3 nm assembly, and evidence that the three peptide chains are arranged in the proposed supercoiled geometry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that changing the bipyridine substitution site switches the helicate handedness (ΔΔ or ΛΛ) independently of peptide sequence.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No circular dichroism (CD) spectra, X-ray structures, or other chiroptical data are provided to demonstrate that the handedness is indeed switched and that this switch is independent of the peptide sequence. The claim of independent control is strong and requires systematic variation of both substitution site and sequence.
+  - **Why it matters** Chirality control is a central design feature and a claimed advantage of the system. Without direct evidence, the reader cannot assess whether the observed handedness arises from the metal coordination geometry, the peptide conformation, or a combination of factors.
+  - **Resolution test** Provide CD spectra for at least two substitution-site variants with matched peptide sequences, and ideally for sequence variants with matched substitution sites, to demonstrate independent control. Crystallographic data would be definitive.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the helicates possess exceptional stability in water.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No stability data are presented. It is unclear what conditions were tested (temperature, pH, time, competing ligands, dilution), what metric was used to define stability, and how "exceptional" was benchmarked against other metallo-helicates or peptide assemblies.
+  - **Why it matters** Aqueous stability is a prerequisite for the proposed biological applications. If the assemblies dissociate or degrade under physiologically relevant conditions, the DNA binding claims would be moot.
+  - **Resolution test** Provide stability data under defined conditions (e.g., UV-vis or CD monitored over time at relevant pH and temperature, with and without competing chelators) and compare to appropriate controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the helicates selectively bind DNA three-way junctions over other DNA secondary structures.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No binding assay data are presented. It is unclear which techniques were used (e.g., FRET, EMSA, ITC, fluorescence intercalator displacement), what DNA structures were tested as controls, what binding affinities or selectivities were measured, and whether binding was sequence-specific or structure-specific.
+  - **Why it matters** Selective 3WJ binding is the key functional claim and the stated motivation for the work. Without quantitative or even qualitative binding data, the application-oriented conclusion is unsupported.
+  - **Resolution test** Provide binding data from at least one established assay, including a panel of DNA structures (duplex, single-stranded, 3WJ, possibly 4WJ or G-quadruplex) and report affinities or selectivity ratios.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "c." and "c." for approximate values without defining the abbreviation, and the phrase "We synthesise of a series" contains a grammatical error.
+  - **Required correction** Define "c." as "circa" or replace with "approximately"; correct the phrase to "We synthesised a series".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that metal-organic helicates have been "widely used in biological applications" and that coiled-coils are "common structural motifs in DNA binding proteins," but does not cite specific prior work or explain how the present system improves upon existing DNA-binding helicates beyond the length scale and chirality control.
+  - **Required correction** Add brief context or citations in the full manuscript to position the work relative to prior art, and clarify the specific advantage of the 3 nm length scale for 3WJ recognition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Metal ion choice
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that both Fe(II) and Ni(II) were used but does not indicate whether both metals produced functional helicates with comparable properties or whether one was superior.
+  - **Required correction** Clarify in the full manuscript whether both metals were fully characterized and whether the DNA binding and stability data apply to both or only one metal variant.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (assembly stoichiometry and size), R1-M2 (chirality switching), R1-M3 (aqueous stability), R1-M4 (DNA binding selectivity). All four are blocking because the abstract provides no experimental evidence for any of the central claims.
+- **Assessment against Nature-style criteria** Originality is high, as the combination of metal-organic helicate geometry with coiled-coil peptide design principles appears novel. Scientific importance is potentially significant for DNA recognition and peptide-based metallosupramolecular chemistry, but cannot be assessed without data. Interdisciplinary readership is plausible, spanning chemistry, biology, and materials science. Technical soundness is not assessable from the abstract alone, and the absence of any supporting data prevents evaluation of the experimental rigor. Readability for nonspecialists is adequate but could be improved with clearer definitions and grammatical corrections. Overall, the concept is promising but the evidence base is insufficient for a Nature-style assessment.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is interesting and potentially publishable in a high-impact venue, but the abstract alone does not allow verification of any of the four central claims. A full manuscript with characterization data, stability studies, and DNA binding assays would be required to assess whether the work meets the bar for publication.
+
+## Risk / unsupported claims
+- Formation of M2L3 helicates of approximately 3 nm length is unsupported by any data.
+- Chirality switching (ΔΔ or ΛΛ) by bipyridine substitution site independent of peptide sequence is unsupported.
+- "Exceptional stability in water" is unsupported and the benchmark is undefined.
+- Selective binding of DNA three-way junctions over other secondary structures is unsupported.
+- The claim that the assemblies are "reminiscent of coiled-coil domains" is a structural interpretation that cannot be evaluated without structural or conformational data.
+- The statement that the platform is "highly tunable" is an extrapolation not supported by the presented evidence.

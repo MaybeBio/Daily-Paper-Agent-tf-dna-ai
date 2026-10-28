@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "39085236",
+    "doi": "10.1038/s41467-024-50871-3",
+    "title": "Predicting the effect of binding molecules on the shape and mechanical properties of structured DNA assemblies."
+  },
+  "content": {
+    "abstract": "Chemo-mechanical deformation of structured DNA assemblies driven by DNA-binding ligands has offered promising avenues for biological and therapeutic applications. However, it remains elusive how to effectively model and predict their effects on the deformation and mechanical properties of DNA structures. Here, we present a computational framework for simulating chemo-mechanical change of structured DNA assemblies. We particularly quantify the effects of ethidium bromide (EtBr) intercalation on the geometry and mechanical properties of DNA base-pairs through molecular dynamics simulations and integrated them into finite-element-based structural analysis to predict the shape and properties of DNA objects. The proposed model captures various structural changes induced by EtBr-binding such as shape variation, flexibility modulation, and supercoiling instability. It enables a rational design of structured DNA assemblies with tunable shapes and mechanical properties by binding molecules.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry/metabolism",
+      "*Ethidium/chemistry/metabolism",
+      "*Nucleic Acid Conformation",
+      "*Molecular Dynamics Simulation",
+      "Intercalating Agents/chemistry",
+      "Ligands",
+      "Base Pairing"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Jae Young",
+        "Kim, Yanggyun",
+        "Kim, Do-Nyun"
+      ],
+      "short_names": [
+        "Lee JY",
+        "Kim Y",
+        "Kim DN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6438-2699",
+        "ORCID: 0000-0003-0896-4552"
+      ],
+      "affiliations": [
+        "Institute of Advanced Machines and Design, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea.",
+        "Department of Mechanical Engineering, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea.",
+        "Institute of Advanced Machines and Design, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr.",
+        "Department of Mechanical Engineering, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr.",
+        "Soft Foundry Institute, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr.",
+        "Institute of Engineering Research, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Jae Young",
+        "short_name": "Lee JY",
+        "identifiers": [
+          "0000-0002-6438-2699"
+        ],
+        "affiliations": [
+          "Institute of Advanced Machines and Design, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Yanggyun",
+        "short_name": "Kim Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Do-Nyun",
+        "short_name": "Kim DN",
+        "identifiers": [
+          "0000-0003-0896-4552"
+        ],
+        "affiliations": [
+          "Institute of Advanced Machines and Design, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr.",
+          "Department of Mechanical Engineering, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr.",
+          "Soft Foundry Institute, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr.",
+          "Institute of Engineering Research, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Korea. dnkim@snu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Jul 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/01 00:42",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42701506",
+      "42185313",
+      "41889750",
+      "41311926",
+      "40461486"
+    ],
+    "refs": [
+      "38363878",
+      "38117542",
+      "37925463",
+      "37155848",
+      "36633930",
+      "35772292",
+      "35640255",
+      "35500214",
+      "35319990",
+      "34850119",
+      "34462430",
+      "33764383",
+      "33660776",
+      "33410664",
+      "32752662",
+      "31780654",
+      "31675856",
+      "31459078",
+      "30954211",
+      "30613779",
+      "30605605",
+      "30476210",
+      "29877867",
+      "29465222",
+      "28785065",
+      "28605177",
+      "27559753",
+      "27229143",
+      "27085806",
+      "27057775",
+      "26950644",
+      "25974233",
+      "25700524",
+      "24902052",
+      "24653832",
+      "23829631",
+      "22950811",
+      "22803823",
+      "22368531",
+      "20882274",
+      "20624816",
+      "20601682",
+      "20511588",
+      "19575467",
+      "19531737",
+      "18611009",
+      "17905818",
+      "17867787",
+      "15516529",
+      "14581192",
+      "12930962",
+      "12540916",
+      "5859041",
+      "4509343"
+    ],
+    "similar": [
+      "39085236",
+      "34850119",
+      "33410664",
+      "21090816",
+      "33764383",
+      "17905818",
+      "33862831",
+      "20882274",
+      "23912807",
+      "25751093",
+      "41311926",
+      "30954211",
+      "23079648",
+      "10886530",
+      "7533547",
+      "24902052",
+      "11494860",
+      "8877557",
+      "15723542",
+      "12643770",
+      "20624816",
+      "26636351",
+      "11494847",
+      "17449065",
+      "28482032",
+      "28785065",
+      "31675856",
+      "9567175",
+      "7816628",
+      "23517640",
+      "16294358",
+      "41270663",
+      "23829631",
+      "27559753",
+      "16305474",
+      "29059014",
+      "32941733",
+      "34217911",
+      "34870958",
+      "27085806",
+      "15697219",
+      "27917863",
+      "11801245",
+      "7582953",
+      "10623507",
+      "14749530",
+      "15465858",
+      "37925463",
+      "17098786",
+      "33558970",
+      "28877657",
+      "16477384",
+      "15342790",
+      "41108663",
+      "1815636",
+      "17825446",
+      "22292960",
+      "28458004",
+      "37621259",
+      "12797795",
+      "31091071",
+      "29662229",
+      "9380521",
+      "33207389",
+      "9611254",
+      "15516529",
+      "30979901",
+      "30971720",
+      "2986859",
+      "25940731",
+      "27632666",
+      "7738607",
+      "17455977",
+      "9398321",
+      "9283980",
+      "31536074",
+      "17434187",
+      "32478511",
+      "14500837",
+      "19518147",
+      "22940593",
+      "17131997",
+      "30629058",
+      "40034015",
+      "35188742",
+      "32141760",
+      "37487990",
+      "7582948",
+      "24303988",
+      "31474304",
+      "4000964",
+      "6942757",
+      "1418749",
+      "11190271",
+      "2027760",
+      "33719900",
+      "1814033",
+      "26239502",
+      "33601517",
+      "19435662"
+    ],
+    "review": [
+      "39085236",
+      "17449065",
+      "16305474",
+      "17825446",
+      "17434187"
+    ],
+    "pmc": [
+      "11291742"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-50871-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39085236/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

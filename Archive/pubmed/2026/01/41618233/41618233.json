@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41618233",
+    "doi": "10.1186/s12891-026-09527-0",
+    "title": "The METTL3-IGF2BP3 axis drives osteosarcoma progression by enhancing ID1 mRNA stability."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Osteosarcoma (OS) is a highly aggressive malignant bone tumor. While ID1 plays a critical role in OS progression, the underlying mechanisms remain unclear. This study investigates the METTL3-IGF2BP3 axis-mediated N6-methyladenosine (m(6)A) modification in regulating ID1 mRNA stability and its functional implications in OS. METHODS: RNA-binding proteins (RBPs) associated with ID1 were predicted using the ENCORI database. Differentially expressed RBP genes (RBP-DEGs) were screened via the GSE253548 dataset, and core RBP-DEGs were identified using machine learning algorithms. m(6)A modification sites on ID1 mRNA were predicted by SRAMP, while the interaction between METTL3/IGF2BP3 and ID1 was analyzed via the RM2Target database. Functional experiments including CCK-8, colony formation, wound healing, and Transwell assays were performed to assess OS cell proliferation, migration, and invasion. Mechanistic insights were validated through MeRIP-qPCR, RIP-qPCR, RNA stability assays, and dual-luciferase reporter experiments. Additionally, a subcutaneous xenograft mouse model of OS was established to evaluate tumor growth, with tumor volume/weight and Ki67 expression monitored. RESULTS: Bioinformatics analysis identified METTL3 and IGF2BP3 as core regulators of ID1, with elevated ID1, IGF2BP3, and METTL3 expression observed in OS cells. Mechanistically, IGF2BP3 enhanced ID1 mRNA stability by binding to m(6)A-modified ID1 transcripts, while METTL3 catalyzed ID1 mRNA m(6)A modification to strengthen IGF2BP3-ID1 interaction. Cellular assays demonstrated that the METTL3-IGF2BP3 axis significantly promoted OS cell proliferation, migration, and invasion via m(6)A-dependent ID1 stabilization. In vivo studies further confirmed that this axis accelerated OS tumor growth by upregulating ID1 expression. CONCLUSION: The METTL3-IGF2BP3 axis facilitates OS progression by enhancing ID1 mRNA stability and expression, highlighting its potential as a therapeutic target.",
+    "keywords": [
+      "ID1",
+      "IGF2BP3",
+      "METTL3",
+      "Osteosarcoma",
+      "m6A",
+      "mRNA stability"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*RNA-Binding Proteins/metabolism/genetics",
+      "*RNA Stability",
+      "*Osteosarcoma/pathology/genetics/metabolism",
+      "*Methyltransferases/metabolism/genetics",
+      "Mice",
+      "*Inhibitor of Differentiation Protein 1/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Disease Progression",
+      "*Bone Neoplasms/pathology/genetics/metabolism",
+      "Cell Movement",
+      "Cell Proliferation",
+      "Gene Expression Regulation, Neoplastic",
+      "RNA, Messenger/metabolism",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shu, Rongbing",
+        "Cheng, Qiuxin",
+        "Yu, Zhuanyi",
+        "Zhou, Huaqiang",
+        "Lin, Mingchao",
+        "Shi, Minghong",
+        "Chen, Jianhe",
+        "Chen, Jingxiang",
+        "Zhao, Min"
+      ],
+      "short_names": [
+        "Shu R",
+        "Cheng Q",
+        "Yu Z",
+        "Zhou H",
+        "Lin M",
+        "Shi M",
+        "Chen J",
+        "Chen J",
+        "Zhao M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China.",
+        "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China. zhaominytrmyy@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shu, Rongbing",
+        "short_name": "Shu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Qiuxin",
+        "short_name": "Cheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhuanyi",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huaqiang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Mingchao",
+        "short_name": "Lin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Minghong",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhe",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jingxiang",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Min",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Yingtan People's Hospital, No. 1, Longhushan North Avenue, Yingtan, Jiangxi Province, 335000, China. zhaominytrmyy@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC musculoskeletal disorders"
+    ],
+    "journal_abbrev": [
+      "BMC Musculoskelet Disord"
+    ],
+    "pub_date": "2026 Jan 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/31 00:29",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [
+      "42589647",
+      "42566146",
+      "42193889"
+    ],
+    "refs": [
+      "40153688",
+      "39980152",
+      "39891119",
+      "39625677",
+      "39198433",
+      "38849910",
+      "38643157",
+      "38538251",
+      "38155838",
+      "38016476",
+      "37828232",
+      "37766615",
+      "37319434",
+      "37151889",
+      "36972188",
+      "36109629",
+      "35179763",
+      "35156522",
+      "34915192",
+      "33359211",
+      "32705157",
+      "32410828",
+      "32326444",
+      "32004572",
+      "31934860",
+      "31801551",
+      "31454538",
+      "30066902",
+      "29506078",
+      "29182106",
+      "28260111",
+      "26797271"
+    ],
+    "similar": [
+      "41618233",
+      "41822976",
+      "42184047",
+      "38849910",
+      "42143947",
+      "42340494",
+      "41687845",
+      "40768377",
+      "40674149",
+      "42565568",
+      "41366019",
+      "33121495",
+      "37897586",
+      "38709912",
+      "35197058",
+      "39987518",
+      "39630361",
+      "31818312",
+      "31253399",
+      "39910904",
+      "41687474",
+      "41413112",
+      "39608480",
+      "34185427",
+      "41927113",
+      "40775333",
+      "32266933",
+      "38959625",
+      "39243199",
+      "41108357",
+      "41992409",
+      "38822192",
+      "41549277",
+      "40185346",
+      "41765878",
+      "39527319",
+      "39761803",
+      "38504159",
+      "39925026",
+      "35096816",
+      "40668412",
+      "39536930",
+      "34246306",
+      "35742899",
+      "42413642",
+      "41176641",
+      "40664933",
+      "41318550",
+      "35156522",
+      "40510136",
+      "39143552",
+      "40015502",
+      "41913267",
+      "41285728",
+      "42411678",
+      "40681032",
+      "42445387",
+      "30365098",
+      "39608479",
+      "40401375",
+      "42242087",
+      "32286148",
+      "41331621",
+      "41479643",
+      "37828232",
+      "40651967",
+      "42035135",
+      "41557107",
+      "32044716",
+      "38902717",
+      "39523321",
+      "33475442",
+      "41449478",
+      "31230592",
+      "42501233",
+      "39924638",
+      "41174632",
+      "41839289",
+      "41263466",
+      "37838643",
+      "35509101",
+      "41225679",
+      "41100504",
+      "42227596",
+      "29384226",
+      "40597351",
+      "28991227",
+      "41198558",
+      "41639735",
+      "40623560",
+      "40753411",
+      "41795047",
+      "30998968",
+      "40018930",
+      "40495222",
+      "41485180",
+      "41787560",
+      "38745192",
+      "39488447",
+      "39095708"
+    ],
+    "review": [
+      "41618233"
+    ],
+    "pmc": [
+      "12930876"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-026-09527-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41618233/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

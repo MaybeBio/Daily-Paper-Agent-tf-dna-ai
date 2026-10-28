@@ -1,0 +1,122 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and reporting quality as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a parallel LSTM-CNN deep learning framework for DNA-binding protein identification. The model extracts protein sequence information via LSTM and evolutionary information (PSSM) via CNN, fuses the features, and classifies using a multilayer perceptron. On the PDB2272 test set, the authors report ACC of 81.59% and MCC of 64.63%, exceeding the PDBP_Fusion model by 3.82% and 7.98%, respectively.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Sections 2.1-2.7), Results and Discussion (Sections 3.1-3.8), Conclusions, Data Availability, Conflicts of Interest, Acknowledgments. Tables 1-7 and Figures 1-7 are referenced but not visible in the provided text.
+- **Missing materials affecting confidence** Tables 1-7 and Figures 1-7 are not provided. Algorithm 1 pseudocode is referenced but not shown. Hyperparameter details in Table 3 are not visible. No code or data availability link is provided beyond "references cited."
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant bioinformatics problem with a plausible deep learning architecture. However, the current presentation has substantial gaps in methodological detail, experimental reporting, and statistical rigor. The core comparative claim against PDBP_Fusion cannot be fully evaluated without the missing tables and figures. The writing quality is below the standard expected for a high-impact venue, with numerous grammatical errors and imprecise terminology. The work may have incremental value, but the case for novelty and superiority over existing methods is not convincingly established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-binding protein identification, and deep learning applications to biological sequence analysis. The parallel feature fusion approach may interest those exploring hybrid neural architectures for sequence classification.
+- **Major strengths** The problem is biologically and clinically relevant. The parallel LSTM-CNN architecture is a reasonable design choice for combining sequence and evolutionary information. The use of standard benchmark datasets (PDB14189, PDB2272) facilitates comparison with prior work. The authors report multiple evaluation metrics (ACC, Sen, Spe, MCC), which is appropriate for imbalanced classification problems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves ACC of 81.59% and MCC of 64.63% on PDB2272, outperforming PDBP_Fusion by 3.82% and 7.98%, respectively.
+  - **Evidence pointer** Section 3.8, Table 7, Figure 7
+  - **Concern** The comparative results are presented without any measure of statistical significance or variance. It is unclear whether the reported improvements are based on a single train-test split or multiple runs. Without confidence intervals, standard deviations, or statistical tests, the claimed advantage over PDBP_Fusion cannot be distinguished from random variation.
+  - **Why it matters** In deep learning applications, performance differences of a few percent can easily arise from random initialization, data shuffling, or minor hyperparameter differences. The absence of statistical rigor undermines the central claim of the paper.
+  - **Resolution test** Provide results from multiple independent runs (e.g., 5 or 10 seeds) with mean and standard deviation for each metric. Perform a statistical significance test (e.g., paired t-test or Wilcoxon signed-rank test) comparing the proposed model against PDBP_Fusion on the same test set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model uses a parallel structure where LSTM extracts protein sequence information and CNN extracts evolutionary information from PSSM, with features fused for classification.
+  - **Evidence pointer** Sections 2.3-2.7, Figure 4, Algorithm 1
+  - **Concern** The architectural details are insufficiently specified. The number of LSTM layers, hidden dimensions, CNN filter sizes, number of filters, pooling strategies, fusion method (concatenation vs. addition), MLP architecture, activation functions, and output layer configuration are not described in the text. Table 3 is referenced for hyperparameters but is not visible. Algorithm 1 is referenced but not shown.
+  - **Why it matters** Reproducibility is a fundamental requirement in computational research. Without complete architectural and hyperparameter details, other researchers cannot replicate the experiments or build upon the work.
+  - **Resolution test** Provide a complete description of the architecture in the text, including layer types, dimensions, and fusion mechanism. Include the full hyperparameter table and the pseudocode in the main text or supplement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model was trained on PDB14189 and tested on PDB2272, with sequence length truncated or padded to a maximum of 700 based on results shown in Figure 5.
+  - **Evidence pointer** Sections 2.1, 3.4, Figure 5
+  - **Concern** The handling of variable-length protein sequences is not described. It is unclear how sequences shorter than 700 are treated (zero-padding, truncation) and how longer sequences are handled. The choice of 700 as the optimal length is stated but the evaluation criteria for this choice are not explained. Additionally, the PSSM generation process is described but the alignment of PSSM rows with sequence positions for CNN input is not clarified.
+  - **Why it matters** Sequence length handling directly affects model input and can introduce artifacts if not carefully designed. The PSSM-to-CNN input pipeline is critical for the claimed extraction of evolutionary information.
+  - **Resolution test** Describe the sequence preprocessing pipeline in detail, including padding/truncation strategies. Explain how PSSM matrices are formatted for CNN input and how the length of 700 was determined as optimal.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The proposed parallel LSTM-CNN fusion model is presented as a novel contribution.
+  - **Evidence pointer** Section 1, Section 2.6
+  - **Concern** The introduction reviews several prior deep learning methods for DNA-binding protein prediction, including CNN, RNN, and hybrid models. The novelty of the proposed parallel fusion architecture over existing serial or parallel hybrid models is not clearly articulated. The authors state that "the biggest difference" is the parallel structure, but prior work such as Qu et al. [12] already fused CNN and RNN. The specific advantages of parallel over serial fusion are not discussed or experimentally demonstrated.
+  - **Why it matters** For a methods paper, the novelty claim must be explicit and supported by comparison with the most relevant prior architectures. Without this, the contribution may be seen as incremental.
+  - **Resolution test** Clearly state the specific architectural innovations over prior hybrid models. Include an ablation study comparing parallel vs. serial fusion and single-modality baselines (LSTM-only, CNN-only) to demonstrate the benefit of the proposed fusion strategy.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model shows "certain advantages" over existing methods for DNA-binding protein identification.
+  - **Evidence pointer** Sections 3.7, 3.8, Tables 6, 7
+  - **Concern** The comparison with prior methods is limited to accuracy and MCC on a single test set. The authors do not discuss the practical implications of the improved performance, such as potential applications in drug discovery or genome annotation. The clinical or biological significance of a 3.82% accuracy improvement is not contextualized. Additionally, the comparison omits several recent state-of-the-art methods that may have been published after the cited works.
+  - **Why it matters** The broader impact of the work is not established. For a computational biology audience, the practical relevance of improved prediction accuracy needs to be articulated.
+  - **Resolution test** Discuss the potential biological and clinical applications of improved DNA-binding protein prediction. Compare against a more comprehensive set of recent methods and discuss the trade-offs in computational cost, model complexity, and performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract and introduction contain numerous grammatical errors and awkward phrasings, such as "The model proposed in the paperconstructed" and "the effect of deep learning neural network model is better than that of traditional machine learning experiment." These errors detract from readability.
+  - **Required correction** Thorough proofreading and language editing are needed throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Equation (4)
+  - **Evidence pointer** Section 3.1
+  - **Issue** The MCC formula appears to have a formatting issue. The denominator should include square roots of the products of the four sums, but the current rendering is ambiguous.
+  - **Required correction** Verify and correct the MCC formula to ensure it is mathematically accurate and clearly formatted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2.1
+  - **Evidence pointer** Section 2.2.1
+  - **Issue** The description of PSSM values states that Pi,j represents the "conversion rate" of amino acid i to amino acid j. This terminology is imprecise; PSSM values are log-likelihood scores of substitution, not conversion rates.
+  - **Required correction** Use standard terminology, such as "substitution score" or "log-likelihood score," to describe PSSM entries.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.2.2
+  - **Evidence pointer** Section 2.2.2
+  - **Issue** The example sequence "S = ANCKYVHIEN" is used for one-hot encoding, but the relationship between this example and the actual dataset is unclear. The figure referenced (Figure 1) is not visible.
+  - **Required correction** Clarify the purpose of the example and ensure the figure is properly described in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.6
+  - **Evidence pointer** Section 3.6, Equation (5)
+  - **Issue** The weight decay formula is presented without derivation or context. The relationship between the formula and the weight_decay hyperparameter in PyTorch is not explained.
+  - **Required correction** Provide a brief explanation of how weight decay is implemented in the optimizer and how the formula relates to the training procedure.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.7
+  - **Evidence pointer** Section 3.7, Table 6
+  - **Issue** The comparison in Table 6 is described but the table is not visible. The text states "we compared DNABP [7], MsDBP [13], StackDPPred [22], PDBP-CNN [15] and PDBP-Fusion [15]" but does not specify which metrics are compared or the results.
+  - **Required correction** Ensure the table is included and referenced clearly in the text, with a summary of the key findings.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, Table 1
+  - **Issue** The dataset description mentions sequence similarity thresholds (40% for PDB14189, 25% for PDB2272) but does not explain how these thresholds were enforced or whether they were applied to remove redundant sequences.
+  - **Required correction** Clarify the redundancy reduction procedure and cite the original sources for the datasets.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The conclusion states that the model "significantly improved" recognition ability, but this claim is not supported by statistical evidence in the visible text.
+  - **Required correction** Soften the language to match the level of evidence presented, or add statistical support for the claim.
+
+## Risk / unsupported claims
+- The claim of superiority over PDBP_Fusion (ACC +3.82%, MCC +7.98%) is unsupported without statistical significance testing or variance reporting.
+- The claim that the parallel structure is the "biggest difference" from existing models is not substantiated by a systematic comparison with prior hybrid architectures.
+- The claim that the model "significantly improved" recognition ability is not supported by the visible evidence.
+- The optimal sequence length of 700 is stated without a clear evaluation criterion or supporting data.
+- The performance of the model on the training set (PDB14189) is mentioned but not reported in the visible text, making it impossible to assess overfitting.
+- The generalizability of the model beyond the two benchmark datasets is not discussed or tested.

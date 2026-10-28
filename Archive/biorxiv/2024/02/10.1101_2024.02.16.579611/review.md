@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that on plasmid RK2, the KorB protein acts as a CTPase-dependent DNA-sliding clamp that entraps DNA and slides along it to reach distal promoters, where it is locked into a closed-clamp state by KorA, thereby stalling at target promoters and occluding RNA polymerase holoenzymes to achieve long-range gene silencing. A tripartite KorB-KorA-DNA crystal structure is presented as key evidence.
+- **Visible evidence base** Abstract text only; no structural coordinates, biophysical datasets, single-molecule traces, or experimental protocols are available for inspection
+- **Missing materials affecting confidence** Full manuscript, methods, crystallographic statistics, single-molecule experimental details, CTPase activity assays, in vivo repression data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant model for long-range gene regulation in bacteria, which would extend the current paradigm beyond classical DNA looping. The proposed mechanism, involving a sliding clamp that switches to a repressor upon protein-protein interaction, is novel and would appeal to a broad readership. However, the evidence base provided is insufficient to evaluate the technical soundness of the claims. The crystallographic and single-molecule data are referenced but not shown, and key quantitative details are absent. The case is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bacterial gene regulation, DNA-protein interactions, structural biology, and single-molecule biophysics would find these results of interest. The work also has potential relevance to those studying antibiotic resistance mechanisms, given the role of RK2 in multidrug resistance across Gram-negative pathogens. The proposed paradigm shift from DNA looping to sliding-clamp-mediated long-range regulation would attract attention from the broader gene expression community.
+- **Major strengths** The central hypothesis is clearly articulated and mechanistically compelling. The combination of X-ray crystallography and single-molecule approaches is appropriate for addressing the questions posed. The proposed role-switching mechanism for KorB, from a sliding clamp to a co-repressor, is conceptually novel and would represent a significant advance if fully supported. The potential clinical relevance through multidrug resistance plasmids adds importance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that KorB is a CTPase clamp that can entrap and slide along DNA to reach distal target promoters
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that KorB is a CTPase clamp, but no data are presented to demonstrate CTPase activity, nucleotide-dependent conformational changes, or DNA entrapment. The single-molecule evidence for sliding is referenced but not described in any quantitative detail.
+  - **Why it matters** The entire model rests on the assertion that KorB functions as a CTPase-dependent sliding clamp. Without direct evidence for CTP hydrolysis, nucleotide binding, and processive sliding, the mechanistic foundation is unverified.
+  - **Resolution test** Provide CTPase activity assays, nucleotide binding data, and single-molecule tracking traces showing KorB sliding along DNA in a CTP-dependent manner, with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the tripartite crystal structure of a KorB-KorA-DNA co-complex reveals KorA latching KorB into a closed-clamp state
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The crystal structure is mentioned as resolved, but no crystallographic statistics, resolution, or structural details are provided. The interpretation that KorA induces a closed-clamp state is not substantiated without seeing the structural comparison between open and closed states.
+  - **Why it matters** The structural data are central to the proposed mechanism of clamp locking. Without access to the coordinates and validation metrics, the claim cannot be assessed.
+  - **Resolution test** Provide crystallographic data, including resolution, R-factors, and structural alignments showing the conformational change upon KorA binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The claim that KorA stimulates repression by stalling KorB sliding at target promoters to occlude RNA polymerase holoenzymes
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts a functional outcome, namely repression through RNA polymerase occlusion, but no in vivo or in vitro functional assays are described. The link between the structural observations and the repression phenotype is inferred rather than demonstrated.
+  - **Why it matters** The proposed mechanism must be validated functionally to establish that the observed biochemical and structural properties translate into gene silencing in a biological context.
+  - **Resolution test** Provide in vivo repression assays on RK2 target promoters, in vitro transcription assays showing RNA polymerase occlusion, and mutagenesis experiments that disrupt KorA-KorB interaction and abolish repression.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "clamp-locking protein" is used for KorA without prior definition or context.
+  - **Required correction** Define the term upon first use or replace with a more standard descriptor such as "a protein that stabilizes the closed-clamp conformation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "a combination of biophysical approaches" but only names X-ray crystallography and single-molecule analysis. Other approaches are not specified.
+  - **Required correction** List all techniques used, or state that additional methods are described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of paradigm
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract claims a "new paradigm for the long-range regulation of gene expression," but the evidence is limited to a single plasmid system.
+  - **Required correction** Soften the claim to indicate that this may represent a paradigm, pending demonstration in other systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of primary data for CTPase activity, structural validation, and functional repression assays means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The proposed mechanism of a sliding clamp switching to a repressor is novel and distinct from classical DNA looping.
+  - Scientific importance: Potentially high, given the implications for bacterial gene regulation and antibiotic resistance, but importance depends on the robustness of the evidence.
+  - Interdisciplinary readership: The work would appeal to structural biologists, biophysicists, and microbiologists, but the abstract does not currently make the case accessible to nonspecialists in each field.
+  - Technical soundness: Not assessable from the abstract alone. The claims require primary data that are not provided.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "CTPase clamp" and "clamp-locking protein" may be opaque without additional context.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work could be suitable for a high-impact venue, but the abstract alone does not provide sufficient data to support the mechanistic claims. A full manuscript with complete datasets would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that KorB is a CTPase clamp is unsupported without activity and binding data.
+- The claim that the crystal structure reveals a closed-clamp state is unsupported without structural details and validation.
+- The claim that KorA stalls KorB at promoters to occlude RNA polymerase is unsupported without functional assays.
+- The claim of a "new paradigm" is not supported by evidence from a single plasmid system.
+- The generalizability of the findings to other bacteria or plasmids is not assessable from the abstract.

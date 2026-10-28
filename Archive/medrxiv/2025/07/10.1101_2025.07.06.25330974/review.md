@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce MOKA, a Snakemake-based pipeline for SNP-set kernel association testing that integrates multi-omics annotations (gene expression, transcription factor binding, evolutionary conservation, neural network-derived features). They claim improved statistical power, support for population structure correction, parallel computation, post-GWAS analyses, and demonstrate a schizophrenia application identifying 89 Bonferroni-significant genes with a 15.7% validation rate in DisGeNET and enrichment in neuropsychiatric pathways.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or code documentation were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary materials, code repository contents, and detailed results for the schizophrenia application
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful pipeline concept, but the evidence provided is insufficient to evaluate the technical soundness, statistical validity, or claimed advantages of MOKA. The core claims regarding power improvement, validation rate, and pathway enrichment are stated without supporting data or methodological detail. The work may be of interest to statistical geneticists and bioinformaticians, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Statistical geneticists developing or applying gene-based association tests; bioinformaticians building reproducible pipelines for multi-omics integration; researchers in psychiatric genetics seeking tools for variant prioritization and pathway analysis. The pipeline's open-source nature and Snakemake implementation may appeal to those needing scalable, reproducible workflows.
+- **Major strengths** The pipeline addresses a real need for scalable, reproducible integration of functional annotations into GWAS. The use of Snakemake for workflow automation is appropriate and likely to enhance reproducibility. The inclusion of multiple omics data types and post-GWAS analyses suggests a comprehensive design. The open-source availability is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "improving statistical power in GWAS" and "identified 89 Bonferroni-significant genes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of improved statistical power is not supported by any comparative analysis, simulation study, or benchmark against existing methods. The 89 Bonferroni-significant genes are reported without context, such as the number of tests performed, the significance threshold used, or comparison to standard gene-based tests.
+  - **Why it matters** Power improvement is a central claim of the pipeline, but without a formal evaluation, readers cannot assess whether MOKA offers any advantage over existing kernel association tests. The significance results are uninterpretable without details on multiple testing correction and study design.
+  - **Resolution test** Provide a simulation study or real-data comparison against established methods (e.g., SKAT, SKAT-O) showing power or type I error control. Report the total number of gene sets tested, the exact threshold, and a comparison of the 89 genes to those identified by standard approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** "automates SNP-set kernel-based association testing by incorporating multi-omics data"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the multi-omics data are integrated into the kernel, how weights are assigned, or how the SNP-set kernel is constructed. The "data-bridged architecture" is mentioned but not defined. Without this information, the method cannot be reproduced or evaluated.
+  - **Why it matters** Reproducibility is a stated goal, but the abstract lacks the methodological detail needed to understand or replicate the approach. The novelty of the integration strategy cannot be assessed.
+  - **Resolution test** Provide a detailed methods section describing the kernel construction, weighting scheme, and integration of each omics data type. Include a workflow diagram and pseudocode or code documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and biological interpretation
+  - **Claim pointer** "15.7% validation rate in disease-specific DisGeNET database and enrichment in pathways relevant to neuropsychiatric disease"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The validation rate is presented without a null expectation or comparison. It is unclear whether 15.7% is significantly better than chance or than other methods. The pathway enrichment is mentioned without statistics, effect sizes, or the specific pathways identified.
+  - **Why it matters** The validation and enrichment results are used to support the pipeline's utility, but without appropriate context or statistical testing, these claims are not interpretable. Readers cannot judge whether the findings are meaningful.
+  - **Resolution test** Provide the null distribution or expected validation rate, a comparison to a control gene set, and full enrichment results with adjusted p-values and pathway names.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "data-bridged" is used without definition, and the title "multi-omics bridged" may be unclear to nonspecialists.
+  - **Required correction** Define "data-bridged" in the abstract or methods, and consider a more descriptive title.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The GitHub link is provided, but there is no mention of documentation, test data, or versioning.
+  - **Required correction** State that documentation and example data are available, and provide a version or release identifier.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions parallel computation and spectral decomposition but does not specify the software environment, dependencies, or runtime.
+  - **Required correction** Include a brief statement on computational requirements and dependencies in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical power claim unsupported), R1-M2 (methodological detail missing), R1-M3 (validation and enrichment claims unsubstantiated)
+- **Assessment against Nature-style criteria** Originality: The concept of integrating multiple omics annotations into a kernel association test is not entirely new, and the abstract does not clearly differentiate MOKA from existing tools. Scientific importance: The application to schizophrenia is potentially relevant, but the evidence is too thin to establish significance. Interdisciplinary readership: The abstract is accessible but lacks depth for specialists. Technical soundness: Cannot be assessed from the abstract alone; key statistical and computational details are absent. Readability for nonspecialists: The abstract is generally clear but uses undefined terms such as "data-bridged."
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail, statistical validation, or interpretable results to support the claims. A full manuscript with methods, simulations, and detailed results would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- "Improving statistical power in GWAS" is unsupported without comparative benchmarks or simulations.
+- "89 Bonferroni-significant genes" is uninterpretable without the number of tests and threshold details.
+- "15.7% validation rate" is unsupported without a null expectation or comparison.
+- "Enrichment in pathways relevant to neuropsychiatric disease" is unsupported without statistics or pathway names.
+- The "data-bridged architecture" and its benefits are not defined or evidenced.
+- The claim of "robust, scalable, and extensible" is not supported by performance data or benchmarks.

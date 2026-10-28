@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36082286",
+  "title": "Plant-DTI: Extending the landscape of TF protein and DNA interaction in plants by a machine learning-based approach.",
+  "authors": "Ruengsrichaiya, Bhukrit; Nukoolkit, Chakarida; Kalapanulak, Saowalak; Saithong, Treenut",
+  "journal": "Frontiers in plant science",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习方法预测植物转录因子DBD与TFBS的互作，聚焦TF-DNA结合位点预测，虽非三维结构建模，但对象与互作轴契合，方法为AI且可迁移至TF-DNA研究。",
+  "abstract": "As a sessile organism, plants hold elaborate transcriptional regulatory systems that allow them to adapt to variable surrounding environments. Current understanding of plant regulatory mechanisms is greatly constrained by limited knowledge of transcription factor (TF)-DNA interactions. To mitigate this problem, a Plant-DTI predictor (Plant DBD-TFBS Interaction) was developed here as the first machine-learning model that covered the largest experimental datasets of 30 plant TF families, including 7 plant-specific DNA binding domain (DBD) types, and their transcription factor binding sites (TFBSs). Plant-DTI introduced a novel TFBS feature construction, called TFBS base-preference, which enhanced the specificity of TFBS to DBD types. The proposed model showed better predictive performance with the TFBS base-preference than the simple binary representation. Plant-DTI was validated with 22 independent ChIP-seq datasets. It accurately predicted the measured DBD-TFBS pairs along with their TFBS motifs, and effectively predicted interactions of other TFs containing similar DBD types. Comparing to the existing state-of-art methods, Plant-DTI prediction showed a figure of merit in sensitivity and specificity with respect to the position weight matrix (PWM) and TSPTFBS methods. Finally, the proposed Plant-DTI model helped to fill the knowledge gap in the regulatory mechanisms of the cassava sucrose synthase 1 gene (MeSUS1). Plant-DTI predicted MeERF72 as a regulator of MeSUS1 in consistence with the yeast one-hybrid (Y1H) experiment. Taken together, Plant-DTI would help facilitate the prediction of TF-TFBS and TF-target gene (TG) interactions, thereby accelerating the study of transcriptional regulatory systems in plant species.",
+  "abstract_zh": "作为一种固着生物，植物拥有精细的转录调控系统，使其能够适应多变的环境。目前对植物调控机制的理解受到转录因子（TF）-DNA相互作用知识有限的极大制约。为缓解这一问题，本研究开发了Plant-DTI预测器（植物DBD-TFBS相互作用），这是首个覆盖30个植物转录因子家族（包括7种植物特异性DNA结合域（DBD）类型）及其转录因子结合位点（TFBSs）最大实验数据集的机器学习模型。Plant-DTI引入了一种新颖的TFBS特征构建方法，称为TFBS碱基偏好性，该方法增强了TFBS对DBD类型的特异性。所提出的模型在使用TFBS碱基偏好性时比简单二进制表示表现出更好的预测性能。Plant-DTI通过22个独立的ChIP-seq数据集进行了验证。它准确预测了已测量的DBD-TFBS配对及其TFBS基序，并有效预测了含有相似DBD类型的其他转录因子的相互作用。与现有最先进方法相比，Plant-DTI预测在位置权重矩阵（PWM）和TSPTFBS方法方面显示出灵敏度和特异性的优越性。最后，所提出的Plant-DTI模型有助于填补木薯蔗糖合酶1基因（MeSUS1）调控机制的知识空白。Plant-DTI预测MeERF72为MeSUS1的调控因子，与酵母单杂交（Y1H）实验一致。总之，Plant-DTI将有助于促进TF-TFBS和TF-靶基因（TG）相互作用的预测，从而加速植物物种转录调控系统的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36082286/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36082286/",
+  "paper_page_path": "papers/pubmed/36082286/index.html"
+}

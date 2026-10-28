@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35804296",
+  "title": "Comparative genomic analysis of the human genome and six bat genomes using unsupervised machine learning: Mb-level CpG and TFBS islands.",
+  "authors": "Iwasaki, Yuki; Ikemura, Toshimichi; Wada, Kennosuke; Wada, Yoshiko; Abe, Takashi",
+  "journal": "BMC genomics",
+  "published_date": "2022-07-09",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用无监督机器学习BLSOM比较人类与蝙蝠基因组，识别Mb级CpG和TFBS富集区域，虽涉及TFBS但未聚焦TF-DNA结合机制或三维互作建模，方法可迁移但深度有限。",
+  "abstract": "BACKGROUND: Emerging infectious disease-causing RNA viruses, such as the SARS-CoV-2 and Ebola viruses, are thought to rely on bats as natural reservoir hosts. Since these zoonotic viruses pose a great threat to humans, it is important to characterize the bat genome from multiple perspectives. Unsupervised machine learning methods for extracting novel information from big sequence data without prior knowledge or particular models are highly desirable for obtaining unexpected insights. We previously established a batch-learning self-organizing map (BLSOM) of the oligonucleotide composition that reveals novel genome characteristics from big sequence data. RESULTS: In this study, using the oligonucleotide BLSOM, we conducted a comparative genomic study of humans and six bat species. BLSOM is an explainable-type machine learning algorithm that reveals the diagnostic oligonucleotides contributing to sequence clustering (self-organization). When unsupervised machine learning reveals unexpected and/or characteristic features, these features can be studied in more detail via the much simpler and more direct standard distribution map method. Based on this combined strategy, we identified the Mb-level enrichment of CG dinucleotide (Mb-level CpG islands) around the termini of bat long-scaffold sequences. In addition, a class of CG-containing oligonucleotides were enriched in the centromeric and pericentromeric regions of human chromosomes. Oligonucleotides longer than tetranucleotides often represent binding motifs for a wide variety of proteins (e.g., transcription factor binding sequences (TFBSs)). By analyzing the penta- and hexanucleotide composition, we observed the evident enrichment of a wide range of hexanucleotide TFBSs in centromeric and pericentromeric heterochromatin regions on all human chromosomes. CONCLUSION: Function of transcription factors (TFs) beyond their known regulation of gene expression (e.g., TF-mediated looping interactions between two different genomic regions) has received wide attention. The Mb-level TFBS and CpG islands are thought to be involved in the large-scale nuclear organization, such as centromere and telomere clustering. TFBSs, which are enriched in centromeric and pericentromeric heterochromatin regions, are thought to play an important role in the formation of nuclear 3D structures. Our machine learning-based analysis will help us to understand the differential features of nuclear 3D structures in the human and bat genomes.",
+  "abstract_zh": "背景：引发新发传染病的RNA病毒，如SARS-CoV-2和埃博拉病毒，被认为依赖蝙蝠作为天然储存宿主。由于这些人畜共患病毒对人类构成巨大威胁，从多个角度表征蝙蝠基因组具有重要意义。无监督机器学习方法能够在没有先验知识或特定模型的情况下从大数据序列中提取新信息，对于获得意外见解非常可取。我们此前建立了一种基于寡核苷酸组成的批量学习自组织映射（batch-learning self-organizing map, BLSOM），可从大数据序列中揭示新的基因组特征。结果：在本研究中，利用寡核苷酸BLSOM，我们对人类和六种蝙蝠物种进行了比较基因组学研究。BLSOM是一种可解释型机器学习算法，可揭示有助于序列聚类（自组织）的诊断性寡核苷酸。当无监督机器学习揭示出意外和/或特征性特征时，可通过更简单、更直接的标准分布图方法对这些特征进行更详细的研究。基于这一组合策略，我们识别出蝙蝠长支架序列末端存在Mb级别的CG二核苷酸富集（Mb级别CpG岛）。此外，一类含CG的寡核苷酸在人类染色体的着丝粒和着丝粒周围区域富集。长度超过四核苷酸的寡核苷酸通常代表多种蛋白质的结合基序（例如，转录因子结合序列（transcription factor binding sequences, TFBSs））。通过分析五核苷酸和六核苷酸组成，我们观察到在所有人类染色体的着丝粒和着丝粒周围异染色质区域中，广泛的六核苷酸TFBSs显著富集。结论：转录因子（transcription factors, TFs）在已知的基因表达调控之外的功能（例如，TF介导的两个不同基因组区域之间的环状相互作用）已受到广泛关注。Mb级别的TFBS和CpG岛被认为参与大规模核组织，如着丝粒和端粒聚类。富集于着丝粒和着丝粒周围异染色质区域的TFBSs，被认为在核3D结构的形成中发挥重要作用。我们基于机器学习的分析将有助于理解人类和蝙蝠基因组中核3D结构的差异特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35804296/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35804296/",
+  "paper_page_path": "papers/pubmed/35804296/index.html"
+}

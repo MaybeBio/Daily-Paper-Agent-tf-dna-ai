@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "39657721",
+    "doi": "10.1093/hmg/ddae178",
+    "title": "Identification of hub genes and biological pathways related to central post-stroke pain in ischemic stroke."
+  },
+  "content": {
+    "abstract": "This investigation aims to screen ischemic stroke (IS)-related hub genes of central post-stroke pain (CPSP) from public databases and predict their potential roles through bioinformatics analysis to better interpret CPSP in IS. First, based on differential analysis, Venn analysis, and enrichment analyses, we identified 13 differently expressed genes in CPSP (CPSP-DEGs) related to the TNF signaling pathway, Vascular smooth muscle contraction, and IL-17 signaling pathway. Subsequently, through screening and analysis of the PPI network constructed by the Search Tool for the Retrieval of Interacting Genes (STRING) database, we obtained 3 CPSP-related hub genes (CD163, MMP9, and ARG1). They were all highly expressed in the IS group, exhibiting good diagnostic performance, with area under curve (AUC) value > 0.85. The immune-related analysis demonstrated that the infiltration levels of various immune cells in the IS group and the normal group were substantially different. In addition, by utilizing some online websites, we not only predicted some microRNAs (miRNAs) and transcription factors (TFs) that may target hub genes but also mined small molecular drugs that may target differentially expressed genes (DEGs) in IS. In conclusion, this project first investigated the role of CPSP-related genes in IS and identified 3 hub genes. At the same time, we predicted some miRNAs, TFs, and candidate drugs that may target hub genes. Our research uncovered the potential mechanism of CPSP-related genes in IS from multiple perspectives. Furthermore, it also laid a research foundation for the future study of the mechanisms of IS disease.",
+    "keywords": [
+      "biological pathways",
+      "central post-stroke pain",
+      "hub genes",
+      "ischemic stroke",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ischemic Stroke/genetics/complications",
+      "Gene Regulatory Networks",
+      "Signal Transduction/genetics",
+      "Computational Biology/methods",
+      "Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "*Pain/genetics/etiology",
+      "Receptors, Cell Surface/genetics",
+      "CD163 Antigen",
+      "MicroRNAs/genetics",
+      "Antigens, Differentiation, Myelomonocytic/genetics",
+      "Matrix Metalloproteinase 9/genetics",
+      "Gene Expression Regulation",
+      "*Stroke/genetics/complications"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Fude",
+        "Cheng, Yawen",
+        "Han, Xiangning",
+        "Zhu, Ning",
+        "Jiang, Shiliang",
+        "Li, Jiahao",
+        "Ma, Wenlong",
+        "Yu, Jia"
+      ],
+      "short_names": [
+        "Liu F",
+        "Cheng Y",
+        "Han X",
+        "Zhu N",
+        "Jiang S",
+        "Li J",
+        "Ma W",
+        "Yu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-0577-0380"
+      ],
+      "affiliations": [
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China.",
+        "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Fude",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yawen",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiangning",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ning",
+        "short_name": "Zhu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shiliang",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiahao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wenlong",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jia",
+        "short_name": "Yu J",
+        "identifiers": [
+          "0009-0006-0577-0380"
+        ],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Xi'an Jiaotong University, No. 277, Yanta West Road, Xi'an 710061, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human molecular genetics"
+    ],
+    "journal_abbrev": [
+      "Hum Mol Genet"
+    ],
+    "pub_date": "2025 Feb 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/11 00:23",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39657721",
+      "40091022",
+      "34313877",
+      "39636891",
+      "39763672",
+      "38968466",
+      "39367003",
+      "32945445",
+      "39351239",
+      "39581982",
+      "39673621",
+      "32626985",
+      "39556279",
+      "38268224",
+      "31987036",
+      "38902567",
+      "38062833",
+      "34938355",
+      "38691241",
+      "39192657",
+      "39833772",
+      "32756534",
+      "39473404",
+      "35762549",
+      "38637126",
+      "34160465",
+      "38527674",
+      "38319987",
+      "32908877",
+      "32811479",
+      "39118438",
+      "39251231",
+      "37740761",
+      "39907642",
+      "33640831",
+      "39176085",
+      "37776011",
+      "37632659",
+      "34218797",
+      "31692035",
+      "38863714",
+      "38509535",
+      "40340571",
+      "39496786",
+      "30760287",
+      "33847684",
+      "36471356",
+      "38904678",
+      "35378210",
+      "36166989",
+      "35842645",
+      "40196107",
+      "37063926",
+      "38957433",
+      "35773742",
+      "35868868",
+      "39519172",
+      "40307317",
+      "38296899",
+      "38650155",
+      "40379713",
+      "34671419",
+      "35558576",
+      "39342024",
+      "34257537",
+      "34931168",
+      "35818227",
+      "37986378",
+      "40216809",
+      "39375405",
+      "31424269",
+      "31989994",
+      "38899746",
+      "31311829",
+      "38873601",
+      "39125762",
+      "32925795",
+      "33890634",
+      "39806309",
+      "33705733",
+      "30937635",
+      "37235492",
+      "36627660",
+      "30602391",
+      "33083497",
+      "40119934",
+      "34285914",
+      "31772617",
+      "37250717",
+      "39422340",
+      "35132271",
+      "38073349",
+      "38653998",
+      "38669428",
+      "34190177",
+      "40024299",
+      "38919616",
+      "38660311",
+      "35313524",
+      "32487076"
+    ],
+    "review": [
+      "39657721"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://www.ovid.com/39657721.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD163-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3893",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/hmg/article-lookup/doi/10.1093/hmg/ddae178",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

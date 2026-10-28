@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41082105",
+    "doi": "10.1007/s10120-025-01671-1",
+    "title": "A gene-expression signature defines a subtype of Stomach Adenocarcinomas with low levels of Claudins and a high ratio of NF-YA long/NF-YA short splicing variants."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Claudin-3, Claudin-4, and Claudin-7 are expressed on the surface of epithelial cells. Their absence in neoplastic cells of epithelial origin is an aggressiveness marker in different cancers. The NF-YA gene codes for the Nuclear-Transcription-Factor-Y-Subunit-A, which is overexpressed in various tumors. In tumors, the relative ratio of the two major NF-YA alternative splicing isoforms, NF-YA long and NF-YA short, is associated with a mesenchymal phenotype and a poor prognosis. Based on a high NF-YA long/NF-YA short ratio, we generated a 158-gene signature that is common to Claudin(low) Breast Carcinomas (BRCA) and Stomach Adenocarcinomas (STAD). METHODS: To better classify STAD Claudin(low) tumors, we employed a hierarchical clustering approach based on our 158-gene signature to classify STAD into a Claudin(low) subgroup. We tested the classification potential of our signature in TCGA as well as in two additional datasets of tumors. We used the deep-learning DeepCC tool and the 158-gene signature to classify the STAD cell lines available in the CCLE platform. Obtained data were validated with qRT-PCR and Western blots. RESULTS: The 158-gene signature resulted in the selection of a STAD subgroup with effective Claudin(low) expression and with a high NF-YA long/NF-YA short ratio. This Claudin(low) subgroup was separated from the EMT subgroup of STAD and it is characterized by poor clinical outcome. We identified nine Claudin(low) STAD cell lines with a high NF-YA long/NF-Y short ratio and validated the expression of selected markers. CONCLUSIONS: Our work supports the notion that three overlapping features-low expression of Claudin-3/4/7, high NF-YA long/NF-YA short ratio and a 158-gene signature-mark a specific subset of STAD characterized by mesenchymal features and poor prognosis.",
+    "keywords": [
+      "Cell lines",
+      "Classification of STAD tumors",
+      "Claudinlow",
+      "NF-YA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/pathology/classification",
+      "*Claudins/genetics/metabolism",
+      "*Adenocarcinoma/genetics/pathology/classification",
+      "*Biomarkers, Tumor/genetics",
+      "Prognosis",
+      "Alternative Splicing",
+      "Gene Expression Regulation, Neoplastic",
+      "Female",
+      "Gene Expression Profiling",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gallo, Alberto",
+        "Ronzio, Mirko",
+        "Campbell, Maria Barbara",
+        "Polettini, Sofia",
+        "Garattini, Enrico",
+        "Mantovani, Roberto",
+        "Dolfini, Diletta"
+      ],
+      "short_names": [
+        "Gallo A",
+        "Ronzio M",
+        "Campbell MB",
+        "Polettini S",
+        "Garattini E",
+        "Mantovani R",
+        "Dolfini D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5346-6096"
+      ],
+      "affiliations": [
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy.",
+        "Dipartimento di Biochimica e Farmacologia Molecolare, Istituto di Ricerche Farmacologiche Mario Negri IRCCS, Via Mario Negri 2, 20156, Milan, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy. diletta.dolfini@unimi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gallo, Alberto",
+        "short_name": "Gallo A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ronzio, Mirko",
+        "short_name": "Ronzio M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Campbell, Maria Barbara",
+        "short_name": "Campbell MB",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Polettini, Sofia",
+        "short_name": "Polettini S",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Garattini, Enrico",
+        "short_name": "Garattini E",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Biochimica e Farmacologia Molecolare, Istituto di Ricerche Farmacologiche Mario Negri IRCCS, Via Mario Negri 2, 20156, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Mantovani, Roberto",
+        "short_name": "Mantovani R",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Dolfini, Diletta",
+        "short_name": "Dolfini D",
+        "identifiers": [
+          "0000-0002-5346-6096"
+        ],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133, Milan, Italy. diletta.dolfini@unimi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association"
+    ],
+    "journal_abbrev": [
+      "Gastric Cancer"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/13 12:30",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [
+      "42631027"
+    ],
+    "refs": [
+      "40234664",
+      "38309445",
+      "37951921",
+      "37904877",
+      "37247925",
+      "36707502",
+      "36119489",
+      "35325185",
+      "35172495",
+      "34887475",
+      "34241653",
+      "34145248",
+      "32444850",
+      "32286297",
+      "31420533",
+      "31366361",
+      "30548659",
+      "30008616",
+      "29775598",
+      "28645171",
+      "28099990",
+      "28045912",
+      "28013168",
+      "27699256",
+      "26861606",
+      "25894828",
+      "25516281",
+      "25079317",
+      "24728500",
+      "24690483",
+      "24113773",
+      "22237781",
+      "21844869",
+      "21816040",
+      "20813035",
+      "19847166",
+      "19625077",
+      "15273739",
+      "14678982",
+      "14320675"
+    ],
+    "similar": [
+      "41082105",
+      "34887475",
+      "31506469",
+      "39333689",
+      "36707502",
+      "36253873",
+      "39973553",
+      "38310388",
+      "41438490",
+      "34782004",
+      "39885324",
+      "41050076",
+      "34876056",
+      "41088300",
+      "31744190",
+      "39353384",
+      "37691229",
+      "33015704",
+      "41004487",
+      "38546403",
+      "40293675",
+      "40481392",
+      "38066437",
+      "28423653",
+      "30106437",
+      "28484081",
+      "34571860",
+      "39748125",
+      "40391219",
+      "33002344",
+      "39181686",
+      "39375438",
+      "38639279",
+      "36823639",
+      "33539329",
+      "20813035",
+      "35711526",
+      "31366361",
+      "40231067",
+      "39910129",
+      "32075093",
+      "33112406",
+      "36059494",
+      "33271832",
+      "36241983",
+      "19960275",
+      "22290341",
+      "32831016",
+      "38713052",
+      "21633010",
+      "38907304",
+      "34135559",
+      "25252859",
+      "40595738",
+      "37993598",
+      "40845151",
+      "38742949",
+      "39609679",
+      "24710653",
+      "33982398",
+      "32286297",
+      "31654186",
+      "38393890",
+      "41291892",
+      "35065254",
+      "32685487",
+      "33680217",
+      "39939808",
+      "40219804",
+      "16328347",
+      "39455662",
+      "26919310",
+      "36553481",
+      "40963862",
+      "40795601",
+      "40129974",
+      "34352439",
+      "26245467",
+      "26566278",
+      "35935979",
+      "37505170",
+      "22803571",
+      "36196721",
+      "23509284",
+      "41551463",
+      "41102664",
+      "35355155",
+      "35525925",
+      "22020329",
+      "32833670",
+      "29482498",
+      "23139925",
+      "24073219",
+      "35392086",
+      "34348580",
+      "39340310",
+      "33093458",
+      "34235071",
+      "36919165",
+      "38274323"
+    ],
+    "review": [
+      "41082105",
+      "35525925"
+    ],
+    "pmc": [
+      "12830421"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1197776",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41082105/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://dx.doi.org/10.1007/s10120-025-01671-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=41082105",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

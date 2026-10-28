@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the MYC2 transcription factor regulates the melatonin biosynthesis gene ASMT in wheat under drought stress, and that this MYC2-ASMT module contributes to drought tolerance via modulation of melatonin content, with supporting evidence from bioinformatics, molecular assays, physiochemical measurements, and machine learning analyses
+- **Visible evidence base** Abstract text only; no experimental details, statistical outputs, or data visualizations are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical analyses, raw or processed RNA-Seq data, machine learning model details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting regulatory module linking MYC2 to ASMT in wheat drought responses. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the bioinformatics, molecular, and machine learning approaches, or to verify the strength of the claimed correlations and functional implications. The central claim of a regulatory role for MYC2 on ASMT is supported only by indirect promoter analysis and co-expression patterns, which are suggestive but not confirmatory. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists and crop stress physiologists studying melatonin biosynthesis, transcription factor networks in abiotic stress responses, and wheat drought tolerance improvement. The work could also interest researchers working on jasmonate signaling cross-talk with stress-related metabolic pathways in monocots.
+- **Major strengths** The study addresses a relevant and under-explored question regarding transcriptional regulation of melatonin biosynthesis in monocots under drought. The integration of bioinformatics, molecular assays, physiochemical measurements, and machine learning is methodologically ambitious. The focus on wheat, a major crop, enhances translational relevance for drought tolerance breeding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MYC2 is a hub gene upstream of ASMT in the wheat drought response-gene network, and that promoter analysis suggested ASMT might be a target gene of MYC2
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of a regulatory relationship between MYC2 and ASMT rests on network inference and promoter analysis, but no direct evidence such as chromatin immunoprecipitation, electrophoretic mobility shift assay, or reporter assays is described. Co-regulation under jasmonate and drought is correlative and does not establish causality.
+  - **Why it matters** Without direct molecular evidence of MYC2 binding to the ASMT promoter and functional validation of transcriptional activation or repression, the central regulatory claim remains speculative. The abstract does not clarify whether such experiments were performed.
+  - **Resolution test** Provide direct binding assays and functional promoter-reporter experiments demonstrating MYC2-dependent regulation of ASMT expression, or clearly state if such evidence is absent and temper the claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and methodological rigor
+  - **Claim pointer** The authors report a meaningful correlation among gene expression profiles, melatonin contents, photosynthetic activities, antioxidant enzyme activities, H2O2 levels, and plasma membrane damage
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports correlations but provides no statistical parameters, sample sizes, replication levels, or effect sizes. The use of machine learning is mentioned but no details on model validation, feature selection, or performance metrics are given. Without these, the robustness of the correlations and the added value of the machine learning approach cannot be assessed.
+  - **Why it matters** Correlative claims in stress physiology are often confounded by environmental variability and multi-collinearity among physiological traits. The absence of statistical detail prevents evaluation of whether the observed relationships are robust or biologically meaningful.
+  - **Resolution test** Report correlation coefficients with confidence intervals and p-values, specify sample sizes and experimental design, and describe machine learning model architecture, training, validation, and performance metrics in the full text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors state that the MYC2-ASMT module might contribute to wheat drought tolerance by regulating melatonin contents
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe any loss-of-function or gain-of-function experiments, such as MYC2 or ASMT mutants, overexpression lines, or silencing approaches, to test whether the proposed module causally affects drought tolerance. The phrase "might contribute" is appropriately cautious, but the claim remains unvalidated.
+  - **Why it matters** A causal role in drought tolerance requires genetic or transgenic evidence. Correlative expression and physiological data cannot distinguish cause from consequence, and the abstract does not indicate whether such experiments were performed.
+  - **Resolution test** Include genetic perturbation experiments showing that altering MYC2 or ASMT expression changes melatonin levels and drought tolerance phenotypes, or explicitly state that such evidence is not yet available and frame the claim as a hypothesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "co-regulated under Jasmonate, drought, and a combination of them in the leaf tissues of wheat was detected" is grammatically awkward and obscures the intended meaning.
+  - **Required correction** Revise to a clearer formulation, for example, "co-regulation of MYC2 and ASMT was detected in wheat leaf tissues under jasmonate, drought, and their combination."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "Jasmonate"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "Jasmonate" is imprecise. Jasmonic acid, methyl jasmonate, or jasmonoyl-isoleucine are distinct compounds with different biological activities.
+  - **Required correction** Specify the exact compound used in the treatments, for example, "jasmonic acid" or "methyl jasmonate."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Bioinformatics methods
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions analysis of RNA-Seq libraries and identification of MYC2 as a hub gene, but no details on the datasets, analysis pipeline, or network inference method are provided.
+  - **Required correction** In the full text, specify the RNA-Seq datasets used, the bioinformatics tools and parameters, and the criteria for hub gene identification.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. Direct molecular evidence for MYC2-ASMT regulation, statistical and methodological details for correlations and machine learning, and functional validation of the drought tolerance claim are all required.
+- **Assessment against Nature-style criteria** Originality is moderate. The idea of MYC2 regulating melatonin biosynthesis in wheat drought responses is not entirely novel given the known roles of MYC2 in jasmonate signaling and stress responses, but the specific MYC2-ASMT link in monocots may offer a new angle. Scientific importance is potentially high for crop stress biology, but the current evidence does not establish a robust mechanistic case. Interdisciplinary readership is limited by the abstract's lack of methodological detail, which prevents assessment of the machine learning contribution. Technical soundness cannot be evaluated from the abstract alone. Readability for nonspecialists is acceptable but could be improved with clearer phrasing and more precise terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the absence of direct regulatory evidence, statistical detail, and functional validation means the central claims cannot be supported. A revised assessment would require access to the full manuscript.
+
+## Risk / unsupported claims
+- The claim that MYC2 is a hub gene upstream of ASMT is unsupported without network analysis details and direct binding evidence.
+- The claim that promoter analysis suggested ASMT as a target of MYC2 is weak without sequence-level evidence or experimental validation.
+- The claim of a meaningful correlation among multiple physiological and molecular parameters is unverifiable without statistical outputs.
+- The claim that the MYC2-ASMT module might contribute to drought tolerance is speculative without genetic or transgenic data.
+- The use of machine learning is mentioned but its contribution to the findings is not assessable from the abstract.

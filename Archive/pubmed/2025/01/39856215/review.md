@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and figure legends. Supplementary figures referenced but not provided.
+- **Assessment boundary** Assessment is limited to the provided manuscript text. Supplementary figures (S1-S14) are referenced but were not supplied for review. No raw data files, statistical analysis outputs, or experimental protocols beyond those described in the text were available.
+- **Shared manuscript claim summary** The authors claim that five frequent ARID1A missense mutations (R1020S, M1022K, K1047Q, G1063V, A1089T) have differential effects on the stability of the ARID domain, with R1020S being the most destabilizing. This conclusion is supported by a combination of computational predictors, rexDMD simulations, and thermal and chemical denaturation experiments. The authors further suggest that these stability differences may inform cancer pathogenesis and therapeutic strategies.
+- **Visible evidence base** The evidence base includes: (1) computational predictions from five web server tools (SAAFEC-SEQ, INPS, I-Mutant2.0, mCSM, DDMut) presented in Figure 2 and Figure S3; (2) rexDMD simulation results including heat capacity curves, radius of gyration, 2D-PMF plots, and contact map analyses (Figure 3, Figures S4-S7); (3) thermal denaturation experiments using intrinsic fluorescence (Figure 4, Figures S8-S9); (4) chemical denaturation experiments using GuHCl (Figure 5, Figures S10-S11); (5) circular dichroism experiments (Figure S12); (6) overall impact scoring and comparison with AlphaMissense predictions (Figure 6, Figure S13); (7) correlation analysis between computational and experimental approaches (Figure S14).
+- **Missing materials affecting confidence** Supplementary figures S1-S14 were not provided. Raw fluorescence data, fitted thermodynamic parameters (ΔH, m-values), statistical analysis details, and the specific numerical values for Tm and D1/2 for all mutants are not fully reported in the text. The AlphaMissense comparison methodology and the "overall impact" weighting scheme are described only qualitatively. The CD spectra data supporting secondary structure content claims are only in supplementary material.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and multi-pronged investigation of the effects of five clinically relevant ARID1A missense mutations on ARID domain stability. The combination of computational prediction, molecular dynamics simulation, and experimental biophysical characterization is commendable and represents a rigorous approach to the problem. The central finding that R1020S is the most destabilizing mutation is supported by multiple independent lines of evidence. However, the manuscript has several significant weaknesses that need to be addressed. The presentation of quantitative data is incomplete, particularly regarding thermodynamic parameters and statistical analyses. The "overall impact" scoring methodology is not clearly defined or justified. The connection between in vitro stability measurements and cancer pathogenesis remains largely speculative. The claim of providing "insights into cancer pathogenesis" is not fully substantiated by the data presented. The manuscript would benefit from clearer presentation of numerical results, more rigorous statistical treatment, and a more measured discussion of the implications for cancer biology.
+- **Who would be interested in the results, and why** Researchers in the fields of cancer genomics, protein biophysics, and structural biology would find this work of interest. Specifically, investigators studying ARID1A mutations in ovarian and other cancers would value the functional characterization of these frequently observed variants. The methodological approach combining computational and experimental stability assessment could serve as a template for similar studies of other cancer-associated mutations. Clinicians and translational researchers interested in mutation-based patient stratification might also find the categorization of mutations by stability useful, though the clinical implications are not yet established.
+- **Major strengths** The multi-method approach provides convergent evidence for the relative stability rankings of the five mutations. The use of clinically relevant mutations identified in TCGA data grounds the study in real cancer genomics. The combination of sequence-based and structure-based predictors, along with explicit molecular dynamics simulations and experimental validation, is thorough. The thermal and chemical denaturation experiments provide complementary views of protein stability. The comparison with AlphaMissense predictions adds an external benchmark. The authors are appropriately cautious in some interpretations, acknowledging the limitations of computational predictors.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the "overall impact" score, computed as a weighted average of computational and experimental outcomes, provides a meaningful categorization of mutation severity (Figure 6A).
+  - **Evidence pointer** Materials and Methods, "Overall impact" section; Figure 6A
+  - **Concern** The methodology for computing the "overall impact" score is not adequately described. The authors state that all effects are converted to kcal/mol using Equations 3-5, but the specific values used for ΔHm, Tm, and m for each mutant are not reported. The weighting scheme for combining the four different ΔΔG values (from predictors, rexDMD, thermal denaturation, and chemical denaturation) is not specified. The "scaling factor" in Equation 6 is not defined. Without this information, the overall impact score cannot be reproduced or evaluated for validity.
+  - **Why it matters** The overall impact score is presented as a key result of the paper and is used to rank the mutations. If the methodology is not transparent and reproducible, the central conclusion regarding which mutation is most destabilizing cannot be properly assessed. Moreover, the conversion of Tm shifts to free energy changes requires assumptions about heat capacity changes that are not stated.
+  - **Resolution test** The authors should provide a complete description of the overall impact calculation, including all input values, the weighting scheme, and the scaling factor. They should also report the individual ΔΔG values from each method for each mutant, with uncertainties, so that the robustness of the ranking can be evaluated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that thermal denaturation experiments showed R1020S to be the most destabilizing mutation, with an average ΔTm decrease of 10 K compared to WT.
+  - **Evidence pointer** Results, "Thermal stability showed irreversible process with R1020S impactful mutation"; Figure 4G-H
+  - **Concern** The thermal denaturation data are presented only as normalized curves and ΔTm values. The actual Tm values for each mutant are not reported in the text. The fitting procedure for determining Tm from the fluorescence data is not described in sufficient detail. The authors note that the process is irreversible, yet they fit the data to a two-state equilibrium model, which assumes reversibility. The validity of extracting thermodynamic parameters from irreversible transitions is questionable and needs justification. Additionally, the reported uncertainty of ±1 K for WT Tm is not accompanied by the number of replicates or the statistical method used.
+  - **Why it matters** The experimental determination of Tm is a central piece of evidence supporting the main conclusion. If the fitting procedure is inappropriate for irreversible transitions, or if the reported values are not reproducible, the conclusion that R1020S is the most destabilizing mutation is weakened. The lack of reported Tm values prevents readers from assessing the magnitude of the effects.
+  - **Resolution test** The authors should report the actual Tm values with standard deviations for all mutants and WT, specify the number of independent replicates, and describe the fitting procedure in detail. They should also address the validity of applying a two-state equilibrium model to an irreversible transition, or alternatively, use a kinetic model appropriate for irreversible unfolding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings "enhance our understanding of the structural-functional relationship of ARID1A missense mutations at the molecular levels and their role in cancer pathogenesis" and that this "paves the way for identifying and categorizing which ARID1A mutations are most pathogenic."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The connection between in vitro protein stability measurements and cancer pathogenesis is not established. The manuscript does not present any functional assays in cells, animal models, or patient data linking the stability differences to tumor suppressor activity, cell proliferation, or clinical outcomes. The statement that stability differences "may be pathogenic" is speculative. The authors do not discuss how reduced stability of the ARID domain would affect SWI/SNF complex assembly, chromatin binding, or gene regulation. The relevance of the isolated ARID domain stability to the full-length protein in the context of the SWI/SNF complex is not addressed.
+  - **Why it matters** The title and abstract promise insights into cancer pathogenesis, but the data presented are limited to biophysical characterization of an isolated domain. Overstating the implications without functional validation could mislead readers and overstate the significance of the findings. The cancer relevance is the primary motivation for the study, and without it, the work is a purely biophysical characterization of five mutations.
+  - **Resolution test** The authors should either provide functional data linking stability to cellular phenotypes (e.g., colony formation, apoptosis, cell cycle) or temper the claims about cancer pathogenesis. They should discuss the limitations of using an isolated domain and acknowledge that the implications for cancer are speculative at this stage.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the accuracy of DDMut (Pearson 0.70-0.74, RMSE 1.37-1.67 kcal/mol) and mCSM (0.67-0.75) depends on their training models" and use these tools to predict stability changes.
+  - **Evidence pointer** Results, "R1020S is the most destabilizing mutation by pathogenicity prediction tools"; Figure 2
+  - **Concern** The manuscript does not report the actual predicted ΔΔG values from each tool for each mutation. Only a qualitative description is given. The Pearson correlation coefficients cited for DDMut and mCSM appear to be from the original publications of these tools, not from validation on the ARID1A mutations studied here. The authors do not assess the agreement between the different computational tools beyond stating that R1020S was consistently predicted as destabilizing. The variability between tools for the other mutations is not discussed.
+  - **Why it matters** The computational predictions are presented as a first line of evidence. Without the actual values, readers cannot assess the magnitude of predicted effects or the consistency between tools. The cited accuracy metrics are not specific to ARID1A and may not apply to this system. The lack of quantitative reporting weakens the reproducibility of the computational component.
+  - **Resolution test** The authors should provide a table with the predicted ΔΔG values from each tool for each mutation, along with the tool-specific confidence metrics. They should also discuss the level of agreement between tools and how discrepancies were resolved.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that rexDMD simulations showed R1020S to be the most destabilizing mutant, based on heat capacity calculations and 2D-PMF analysis.
+  - **Evidence pointer** Results, "Discrete molecular dynamics simulations showed the R1020S as the most destabilizing mutant"; Figure 3
+  - **Concern** The description of the rexDMD simulation analysis is insufficient. The authors state that the heat capacity curves revealed that "except for the R1020S mutant, all amino acid substitutions were stabilizing compared to the WT protein," but the actual Tm values from simulations are not reported. The 2D-PMF plots are described qualitatively. The convergence of the simulations is not demonstrated. The force field parameters and the specific protocol for calculating heat capacity from the simulations are not described in sufficient detail.
+  - **Why it matters** The simulation results are a key component of the computational evidence. Without quantitative reporting of Tm values and convergence metrics, the reliability of the simulation predictions cannot be assessed. The lack of methodological detail prevents reproduction of the simulations.
+  - **Resolution test** The authors should report the simulated Tm values for WT and all mutants, provide evidence of simulation convergence (e.g., block averaging, replica exchange acceptance rates), and describe the heat capacity calculation protocol in detail.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with SWI/SNF complex biology and ARID domain structure. A brief explanation of the functional significance of the ARID domain in chromatin remodeling would help nonspecialist readers understand why stability of this domain matters.
+  - **Required correction** Add one or two sentences explaining the role of the ARID domain in DNA binding and the consequences of its disruption for SWI/SNF complex function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Protein expression and purification"
+  - **Evidence pointer** Materials and Methods, "Protein expression and purification"
+  - **Issue** The purification protocol is described briefly. The authors state that proteins were purified using Ni-NTA and that the His-tag was removed with thrombin, but no information is given about the purity of the final protein preparations, the yield, or whether the proteins were properly folded as assessed by a technique such as size-exclusion chromatography or dynamic light scattering.
+  - **Required correction** Provide information on protein purity (e.g., SDS-PAGE analysis), yield, and a quality control step to confirm the proteins are monomeric and properly folded.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Chemical stability showed reversibility and R1020S the most impactful mutation"
+  - **Evidence pointer** Results, "Chemical stability showed reversibility and R1020S the most impactful mutation"; Figure 5
+  - **Issue** The chemical denaturation data are presented as D1/2 values, but the actual D1/2 values for each mutant are not reported in the text. The m-values (slope of the transition) are also not reported. These parameters are important for understanding the cooperativity of unfolding and the free energy of unfolding.
+  - **Required correction** Report the D1/2 and m-values for each mutant in a table or in the text, with uncertainties.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The discussion of therapeutic avenues (small molecule chaperones, CRISPR/Cas9, peptide therapeutics) is speculative and not directly supported by the data. While such speculation is common in discussion sections, the claims are presented with more certainty than warranted.
+  - **Required correction** Soften the language to clearly indicate these are speculative future directions, not implications of the current findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Overall impact"
+  - **Evidence pointer** Materials and Methods, "Overall impact"
+  - **Issue** The authors state that the overall impact is calculated by summing all ΔΔG values and normalizing by the largest individual change. This approach gives equal weight to computational predictions and experimental measurements, which may not be appropriate given the different levels of accuracy of these methods.
+  - **Required correction** Justify the equal weighting or describe a sensitivity analysis showing that the conclusions are robust to different weighting schemes.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "R1020S is the most destabilizing mutation by pathogenicity prediction tools"
+  - **Evidence pointer** Figure 2
+  - **Issue** The figure shows predicted stability changes but the units and the specific scale are not clear from the text. The authors should clarify whether the values are in kcal/mol and what the error bars represent.
+  - **Required correction** Clarify the units and the meaning of error bars in the figure legend.
+
+## Risk / unsupported claims
+- The claim that stability differences among ARID1A mutations "provide insights into cancer pathogenesis" is not supported by functional data. The manuscript does not demonstrate any link between the measured stability differences and cancer-relevant phenotypes.
+- The claim that the "overall impact" score can categorize mutations by pathogenicity is not validated. The correlation with AlphaMissense (Pearson 0.66) is moderate and does not establish that the stability-based ranking reflects pathogenic potential.
+- The statement that "R1020S mutation severely decreases structural stability, making it the most impactful" is supported by the presented data, but the quantitative magnitude of the effect is not fully reported.
+- The claim that "M1022K has minimal effect" is based on the presented data, but the actual Tm and D1/2 values for this mutant are not reported, making it difficult to assess the magnitude of the difference.
+- The assertion that web server tools "are biased toward simpler, single-domain proteins" is presented without citation or supporting evidence.
+- The statement that "the change from positively charged R to uncharged S also induced changes in nearby anti-parallel beta-sheet structures" is based on simulation data but the significance of this observation for protein function is not established.
+- The discussion of therapeutic implications (small molecule chaperones, CRISPR/Cas9) is speculative and not supported by the data presented.

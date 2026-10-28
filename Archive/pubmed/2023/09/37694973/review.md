@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that transposable elements (TEs) are co-opted as oncogenic regulatory elements in prostate cancer, specifically that a subset of TEs active in pluripotent stem cells become binding sites for lineage-specific transcription factors such as the androgen receptor (AR) in a subset of prostate tumors, and that these TEs contribute to oncogenic growth.
+- **Visible evidence base** H3K27ac ChIP-seq data from ENCODE (339 samples, 32 cell/tissue states), CPC-GENE and Porto prostate tumor cohorts, ATAC-seq data from TCGA PRAD, H3K9me3 ChIP-seq in prostate cell lines, ReMap transcription factor cistrome atlas, CRISPR/dCas9-KRAB chromatin editing experiments with CUT&RUN-seq and RNA-seq readouts, and proliferation assays.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (S1–S7, Tables S1–S25) were not provided. Specific gRNA target sequences, detailed statistical outputs, and raw data quality metrics are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially important observation that TEs can serve as regulatory elements bound by lineage-specific transcription factors in prostate cancer, with functional evidence from CRISPRi experiments. The conceptual framework linking pluripotent stem cell TE regulatory elements to oncogenic co-option is interesting and timely. However, several technical and interpretive concerns limit the strength of the conclusions as currently presented. The reliance on computational enrichment analyses without clear validation of individual TE loci, the limited functional characterization of specific TEs, and the lack of mechanistic depth regarding how AR binding at TEs influences target gene expression warrant careful consideration. The manuscript would benefit from additional orthogonal validation and clearer delineation of which specific TEs are functionally important.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in cancer, particularly those focused on androgen receptor biology in prostate cancer, will find this work relevant. The broader community investigating transposable element function in development and disease, as well as those interested in non-canonical regulatory elements and chromatin state dynamics in oncogenesis, would also be interested. The findings may have implications for understanding resistance mechanisms to AR-targeted therapies and for identifying novel therapeutic targets.
+- **Major strengths**
+  - The study addresses an important and under-explored question regarding the role of TEs as regulatory elements in cancer, moving beyond descriptive correlations to include functional perturbation experiments.
+  - The use of multiple independent datasets (ENCODE, CPC-GENE, Porto, TCGA) and complementary approaches (ChIP-seq, ATAC-seq, CUT&RUN-seq) strengthens the descriptive findings.
+  - The CRISPRi approach targeting a specific TE family (Tigger3a) with demonstration of on-target activity and phenotypic consequences is a notable strength.
+  - The conceptual distinction between "constant" and "reprogrammed" prostate tumor subtypes based on TE regulatory landscapes is potentially clinically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that regulatory TEs in prostate cancer serve as binding sites for AR and that this contributes to oncogenic growth.
+  - **Evidence pointer** Results sections "Regulatory TEs in Prostate Tumors from the Reprogrammed Subgroup Are Binding Sites for the Lineage-Specific Transcription Factor AR" and "Regulatory TEs Essential for the Growth of Reprogrammed Subgroup Prostate Tumors"; Figures 4 and 5
+  - **Concern** The functional evidence linking AR binding at TEs to oncogenic growth is indirect. The CRISPRi experiments target Tigger3a elements and show reduced AR binding and decreased proliferation, but the causal chain from TE repression to AR binding loss to downstream gene expression changes to growth inhibition is not fully established. The authors show downregulation of androgen response pathway genes, but it is unclear whether this is a direct consequence of AR loss at TEs or an indirect effect of global transcriptional changes. Additionally, the magnitude of growth inhibition (at least 20%) is modest, and the specificity of this effect to the reprogrammed subtype is not rigorously demonstrated.
+  - **Why it matters** The central claim of the paper is that TEs are functionally important for AR-driven oncogenesis. Without a clear mechanistic link showing that AR binding at specific TEs directly regulates target genes that drive proliferation, the conclusion remains correlative. The modest growth phenotype and lack of rescue experiments weaken the causal interpretation.
+  - **Resolution test** Provide evidence that AR binding at specific TEs directly regulates expression of nearby or distal genes through chromatin looping or enhancer assays. Include rescue experiments overexpressing AR target genes in the context of TE repression. Demonstrate that the growth phenotype is specific to AR-dependent mechanisms by comparing AR-positive and AR-negative cell lines or by AR knockdown/rescue experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 164 regulatory TE families are shared between reprogrammed prostate tumors and pluripotent stem cells, suggesting a reversion to a stem cell-like regulatory state.
+  - **Evidence pointer** Results section "Regulatory TEs Define a Reprogrammed and Constant Prostate Cancer Subtype"; Figures 3 and Supplementary Figure S2
+  - **Concern** The definition of "reprogrammed" and "constant" subtypes relies on unsupervised clustering of TE family enrichment scores. The stability and robustness of this clustering are not assessed (e.g., bootstrap or silhouette analysis). The choice of clustering method, distance metric, and number of clusters is not justified. Furthermore, the overlap between reprogrammed TEs and pluripotent stem cell TEs (164/315, 52%) is presented as evidence of stem cell-like biology, but this overlap could reflect shared genomic features (e.g., TE age, sequence composition) rather than a true regulatory reversion. The authors do not control for TE family size, copy number, or genomic distribution in their enrichment analyses.
+  - **Why it matters** The subtype classification is a key conceptual contribution of the paper. If the clustering is not robust or the overlap with pluripotent stem cells is confounded by genomic features, the interpretation of a stem cell-like regulatory state in prostate cancer is weakened.
+  - **Resolution test** Provide robustness analyses for the clustering (e.g., consensus clustering, silhouette scores). Control for TE family characteristics (size, copy number, age) in enrichment analyses. Validate the reprogrammed subtype in an independent cohort. Demonstrate that the overlap with pluripotent stem cells is specific to regulatory TEs and not reflective of general genomic overlap.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AR and FOXA1 cistromes are enriched at regulatory TEs in benign prostate and reprogrammed tumors, and that these TEs contain AR and FOXA1 DNA binding motifs.
+  - **Evidence pointer** Results sections "Mature Cell States Are Defined by Regulatory TEs for Lineage-Specific Transcription Factors" and "Regulatory TEs in Prostate Tumors from the Reprogrammed Subgroup Are Binding Sites for the Lineage-Specific Transcription Factor AR"; Figures 2 and 4
+  - **Concern** The cistrome enrichment analysis relies on the ReMap atlas, which aggregates data from many cell types and conditions. The specificity of AR and FOXA1 binding to TEs in prostate tissue specifically is not directly demonstrated. The motif enrichment analysis identifies consensus sequences but does not demonstrate that these motifs are functional or that AR/FOXA1 actually occupy these sites in the relevant cell types. The validation using matched AR ChIP-seq from Porto patients is limited to 16 TE families, and the analysis does not show whether AR binding at these TEs correlates with expression of nearby genes.
+  - **Why it matters** The claim that TEs are docking sites for lineage-specific transcription factors requires direct evidence of binding in the relevant tissue context. Indirect inference from aggregated databases and motif analysis is suggestive but not conclusive.
+  - **Resolution test** Perform AR and FOXA1 ChIP-seq in prostate epithelial cells and prostate cancer cell lines, and directly assess overlap with TE families. Use ATAC-seq or DNase-seq to demonstrate accessibility of these TE loci. Correlate AR binding at TEs with expression of nearby genes in the same samples.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CRISPRi-mediated repression of Tigger3a elements leads to reduced AR binding, downregulation of androgen response genes, and decreased proliferation in reprogrammed prostate cancer cell lines.
+  - **Evidence pointer** Results section "Regulatory TEs Essential for the Growth of Reprogrammed Subgroup Prostate Tumors"; Figure 5
+  - **Concern** The CRISPRi experiments are performed in cell lines (22Rv1 and LNCaP) that are assigned to the reprogrammed subtype based on H3K27ac data. However, the assignment of cell lines to subtypes is based on limited samples (Figure 5A), and the specificity of the phenotype to reprogrammed versus constant subtypes is only tested with one constant cell line (DU145). The gRNA design targets 5,317 Tigger3a elements, which is a large number, and the off-target effects on related TE families (Tigger3b, Charlie7) are only partially addressed. The efficiency of CRISPRi-mediated repression at individual Tigger3a loci is not quantified.
+  - **Why it matters** The functional experiments are the strongest evidence for the authors' claims. If the cell line classification is not robust, or if the CRISPRi effects are due to off-target or non-specific effects, the conclusions are compromised.
+  - **Resolution test** Include additional constant subtype cell lines in the proliferation assays. Quantify CRISPRi-mediated repression at individual Tigger3a loci by qPCR or targeted sequencing. Perform RNA-seq after CRISPRi to assess global transcriptional changes and confirm specificity of androgen response pathway downregulation. Include a rescue experiment with AR overexpression or constitutive activation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is very brief and does not mention the key finding of the "reprogrammed" versus "constant" subtype distinction, nor the functional CRISPRi experiments. The claim that TEs are "co-opted" is stated without supporting context.
+  - **Required correction** Expand the abstract to include the subtype classification, the specific TE families involved, and the functional evidence from CRISPRi experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, TE enrichment analysis
+  - **Evidence pointer** Methods section "TE Enrichment Analysis"
+  - **Issue** The description of the ChromVAR adaptation is brief and references a bioRxiv preprint. The specific parameters, background correction, and normalization steps are not fully described.
+  - **Required correction** Provide a more detailed description of the ChromVAR adaptation, including parameters and any modifications made for TE family analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The proliferation assay results are presented as percent growth relative to control, but the time course and statistical details are not clear from the text. The number of independent experiments and replicates should be stated.
+  - **Required correction** Clarify the proliferation assay methodology, including time points, number of replicates, and statistical tests used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of clinical implications is speculative and not directly supported by the data. The authors suggest potential therapeutic targeting of TE regulatory elements but do not provide evidence for feasibility or specificity.
+  - **Required correction** Temper the clinical implications section and focus on the mechanistic insights provided by the study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, CUT&RUN
+  - **Evidence pointer** Methods section "CUT&RUN"
+  - **Issue** The description of the CUT&RUN protocol is brief. The antibodies used for AR and H3K27ac are listed, but the validation of these antibodies for CUT&RUN is not described.
+  - **Required correction** Provide details on antibody validation and any optimization performed for CUT&RUN.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The identification of six transcription factors unique to the reprogrammed subtype is based on cistrome enrichment analysis. The functional relevance of these specific factors is not explored.
+  - **Required correction** Discuss the potential functional roles of the identified transcription factors in prostate cancer and consider whether any are known AR co-factors.
+
+## Risk / unsupported claims
+- The claim that regulatory TEs in prostate cancer are "co-opted" from pluripotent stem cell states is inferred from overlap analysis and is not directly demonstrated through lineage tracing or developmental studies.
+- The assertion that AR binding at TEs directly regulates oncogenic target genes is not fully supported by the data, as the causal link between TE-specific AR binding and gene expression changes is not established.
+- The classification of prostate tumors into "reprogrammed" and "constant" subtypes based on TE enrichment is not validated in independent cohorts or through functional assays.
+- The claim that CRISPRi-mediated repression of Tigger3a elements specifically affects AR-dependent growth is not fully supported, as the specificity of the phenotype to AR signaling is not rigorously tested.
+- The statement that "cancer arises from the attrition of pluripotent stem cell regulatory TE families" is speculative and not directly tested in this study.

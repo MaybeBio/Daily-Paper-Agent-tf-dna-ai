@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "41108137",
+    "doi": "10.1177/00220345251378053",
+    "title": "Multidimensional Artificial Intelligence-Based Cancer Progression Prediction in Oral Leukoplakia."
+  },
+  "content": {
+    "abstract": "Oral cancer often develops from oral potentially malignant disorders. Oral leukoplakia (OL) is the most common oral potentially malignant disorder. However, not all patients with OL develop oral cancer in their lifetimes, and cancer risk assessment is challenging. This study developed a time-to-event artificial intelligence-based model (termed OralCancerPredict) that integrated patient characteristics, histologic features, and immunohistochemical indicators for precise prediction of cancer progression in OL. We performed a retrospective analysis of patient data (n = 456) and tissue samples (n = 1,312) obtained before cancer progression or at last follow-up for patients with OL. KRT13 and p53 immunohistochemistry and quantitative analyses were performed for tissue samples, while independent prognostic features, including demographic characteristics, clinical information, and histopathologic findings, were obtained for patients in the cohort. KRT13 and p53 expression was combined with histologic and patient data for model training, testing, and external validation. Performance evaluation for OralCancerPredict included model discriminative ability, calibration, explainability, and net benefit analysis via decision curves. External validation was also performed to ensure model generalizability based on patient data (n = 119) and tissue samples (n = 322) unused for training and testing. Our findings showed that OralCancerPredict trained on multidimensional data had good concordance indices (0.855 to 0.867), areas under the curve (0.877 to 0.882), and integrated Brier scores (0.046 to 0.069) at testing and external validation. Explainability analysis confirmed the importance of KRT13 and p53 deregulated expression and World Health Organization dysplasia grading to OralCancerPredict in predicting the risk of cancerization and cancer progression-free survival. Moreover, the model had a better net benefit than the World Health Organization and binary dysplasia grading systems alone, which represent the current risk stratification methods in OL management. Overall, OralCancerPredict can predict the risk of cancer development and cancer progression-free survival for patients with OL, with good discrimination, calibration, and net benefit. The explainable artificial intelligence model has the potential to streamline intervention and close monitoring in the clinical management of OL.",
+    "keywords": [
+      "clinical decision-making",
+      "hyperplasia",
+      "machine learning",
+      "oral cancer",
+      "precancerous conditions",
+      "survival analysis"
+    ],
+    "mesh_terms": [
+      "Retrospective Studies",
+      "*Predictive Learning Models",
+      "Disease Progression",
+      "Risk Assessment",
+      "*Leukoplakia, Oral/diagnosis/pathology",
+      "*Mouth Neoplasms/diagnosis/pathology",
+      "Follow-Up Studies",
+      "Tumor Suppressor Protein p53/analysis",
+      "Keratin-13/analysis",
+      "Immunohistochemistry",
+      "Prognosis",
+      "Reproducibility of Results",
+      "*Biomarkers, Tumor/analysis",
+      "Humans",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Observational Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Adeoye, J",
+        "Wang, H",
+        "Lo, A W I",
+        "Khoo, U S",
+        "Su, Y-X"
+      ],
+      "short_names": [
+        "Adeoye J",
+        "Wang H",
+        "Lo AWI",
+        "Khoo US",
+        "Su YX"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3493-1463",
+        "ORCID: 0000-0001-7143-3370"
+      ],
+      "affiliations": [
+        "Division of Applied Oral Sciences and Community Dental Care, Faculty of Dentistry, University of Hong Kong, Hong Kong SAR, China.",
+        "Division of Oral and Maxillofacial Surgery, Faculty of Dentistry, University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Pathology, Queen Mary Hospital, Hong Kong SAR, China.",
+        "Department of Pathology, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong SAR, China.",
+        "Division of Oral and Maxillofacial Surgery, Faculty of Dentistry, University of Hong Kong, Hong Kong SAR, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Adeoye, J",
+        "short_name": "Adeoye J",
+        "identifiers": [
+          "0000-0003-3493-1463"
+        ],
+        "affiliations": [
+          "Division of Applied Oral Sciences and Community Dental Care, Faculty of Dentistry, University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wang, H",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oral and Maxillofacial Surgery, Faculty of Dentistry, University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lo, A W I",
+        "short_name": "Lo AWI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Queen Mary Hospital, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Khoo, U S",
+        "short_name": "Khoo US",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Su, Y-X",
+        "short_name": "Su YX",
+        "identifiers": [
+          "0000-0001-7143-3370"
+        ],
+        "affiliations": [
+          "Division of Oral and Maxillofacial Surgery, Faculty of Dentistry, University of Hong Kong, Hong Kong SAR, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of dental research"
+    ],
+    "journal_abbrev": [
+      "J Dent Res"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Observational Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/18 06:29",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [
+      "42066493"
+    ],
+    "refs": [],
+    "similar": [
+      "41108137",
+      "41056008",
+      "39382109",
+      "38517402",
+      "32735048",
+      "38009867",
+      "41529257",
+      "36721313",
+      "41403289",
+      "20036603",
+      "42475469",
+      "9762452",
+      "39051924",
+      "28797449",
+      "41220072",
+      "30980769",
+      "21159209",
+      "34800847",
+      "42372561",
+      "33038723",
+      "37306629",
+      "31107338",
+      "41612257",
+      "42591662",
+      "42157210",
+      "41233664",
+      "41749272",
+      "41814305",
+      "32433107",
+      "41062388",
+      "31896811",
+      "28545021",
+      "42432717",
+      "31860085",
+      "42391467",
+      "40113952",
+      "41564299",
+      "41656804",
+      "33773969",
+      "40545536",
+      "42192437",
+      "41749231",
+      "42204546",
+      "16020958",
+      "39248300",
+      "37164265",
+      "22514665",
+      "41876642",
+      "41980703",
+      "12969225",
+      "37229565",
+      "41411039",
+      "32282466",
+      "41557941",
+      "42121158",
+      "40101344",
+      "42095876",
+      "41429009",
+      "41366510",
+      "31045212",
+      "40202378",
+      "42249366",
+      "37883174",
+      "30416077",
+      "41565702",
+      "41629910",
+      "33290585",
+      "11865002",
+      "42574037",
+      "33969929",
+      "42609427",
+      "42406147",
+      "39265950",
+      "42439708",
+      "41315106",
+      "41491583",
+      "41529254",
+      "42066493",
+      "42369149",
+      "24239208",
+      "22782852",
+      "40758174",
+      "42001128",
+      "41813236",
+      "28939076",
+      "42105007",
+      "41545932",
+      "37507024",
+      "41188838",
+      "42247780",
+      "40140751",
+      "41140446",
+      "40576176",
+      "42235336",
+      "32821921",
+      "36321557",
+      "29567071",
+      "41593634",
+      "39570632",
+      "40119324"
+    ],
+    "review": [
+      "41108137",
+      "32735048",
+      "40202378",
+      "33290585"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/00220345251378053?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/oralcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Oral Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

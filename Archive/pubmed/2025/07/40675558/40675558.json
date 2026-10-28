@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "40675558",
+    "doi": "10.1002/ptr.70022",
+    "title": "Discovery of Baicalein as a Novel Ubiquitin-Specific Protease 21 Inhibitor for the Treatment of Hepatocellular Carcinoma."
+  },
+  "content": {
+    "abstract": "Ubiquitin-specific protease 21 (USP21) is amplified and overexpressed in hepatocellular carcinoma (HCC), correlating with poor prognosis, suggesting USP21 inhibition as a therapeutic strategy. This study aims to identify novel USP21 inhibitors and elucidate their molecular mechanisms in HCC treatment. USP21 inhibitors were identified via structure-guided drug discovery, enzymatic assays, and bio-layer interferometry. Functional validation included proliferation, migration, colony formation, and apoptosis assays. USP21-mediated hypoxia-inducible factor-1alpha (HIF-1alpha) regulation was assessed using qRT-PCR, co-immunoprecipitation, and deubiquitination assays. In vivo efficacy was evaluated in murine allograft models, with binding modes resolved via molecular dynamics simulations and binding free energy calculations. Screening 4000 natural compounds identified Baicalein and Hypericin as USP21 inhibitors (50% inhibitory concentration: 2.45 and 17.68 muM, respectively). Baicalein suppressed HCC proliferation, colony formation, and migration while inducing apoptosis. Mechanistically, USP21 directly stabilized HIF-1alpha via deubiquitination, which Baicalein disrupted by blocking the USP21-HIF-1alpha interaction, promoting HIF-1alpha degradation. In vivo, Baicalein inhibited tumor growth and enhanced intratumoral T-cell infiltration. Structural analyses identified Gln300, His510, and Gly517 as critical residues for USP21-inhibitor binding. Baicalein emerges as a dual-functional USP21 inhibitor that destabilizes HIF-1alpha and reprograms the tumor immune microenvironment. The Gln300/His510/Gly517 binding motif provides a structural blueprint for advanced USP21-targeted drug design, establishing USP21 inhibition as a promising therapeutic strategy for HCC.",
+    "keywords": [
+      "Baicalein",
+      "HIF-1 alpha",
+      "USP21",
+      "deubiquitinating enzymes",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Flavanones/pharmacology",
+      "*Carcinoma, Hepatocellular/drug therapy",
+      "*Liver Neoplasms/drug therapy",
+      "Animals",
+      "Humans",
+      "Cell Proliferation/drug effects",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Apoptosis/drug effects",
+      "Mice",
+      "Cell Movement/drug effects",
+      "Cell Line, Tumor",
+      "Male",
+      "Mice, Inbred BALB C"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Huijun",
+        "Zhao, Zhuoyue",
+        "Su, Chen",
+        "Du, Jiapeng",
+        "Yang, Shuaizhou",
+        "Song, Jiankun",
+        "Han, Xu",
+        "Yu, Fang",
+        "Sun, Zhaolin",
+        "Chu, Peng"
+      ],
+      "short_names": [
+        "Jia H",
+        "Zhao Z",
+        "Su C",
+        "Du J",
+        "Yang S",
+        "Song J",
+        "Han X",
+        "Yu F",
+        "Sun Z",
+        "Chu P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5371-3018"
+      ],
+      "affiliations": [
+        "College of Pharmacy, Dalian Medical University, Dalian, China.",
+        "College of Basic Medical Sciences, Dalian Medical University, Dalian, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, China.",
+        "College of Basic Medical Sciences, Dalian Medical University, Dalian, China.",
+        "College of Basic Medical Sciences, Dalian Medical University, Dalian, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, China.",
+        "College of Basic Medical Sciences, Dalian Medical University, Dalian, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, China.",
+        "School of Pharmaceutical Engineering and Biotechnology, School of Cosmetics, Zhejiang Pharmaceutical University, Ningbo, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, China.",
+        "College of Basic Medical Sciences, Dalian Medical University, Dalian, China.",
+        "College of Pharmacy, Dalian Medical University, Dalian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Huijun",
+        "short_name": "Jia H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China.",
+          "College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhuoyue",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China.",
+          "College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Su, Chen",
+        "short_name": "Su C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jiapeng",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuaizhou",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jiankun",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xu",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Fang",
+        "short_name": "Yu F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Engineering and Biotechnology, School of Cosmetics, Zhejiang Pharmaceutical University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhaolin",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China.",
+          "College of Basic Medical Sciences, Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Peng",
+        "short_name": "Chu P",
+        "identifiers": [
+          "0000-0002-5371-3018"
+        ],
+        "affiliations": [
+          "College of Pharmacy, Dalian Medical University, Dalian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytotherapy research : PTR"
+    ],
+    "journal_abbrev": [
+      "Phytother Res"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/18 01:41",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41684516"
+    ],
+    "refs": [],
+    "similar": [
+      "40675558",
+      "40227531",
+      "23299930",
+      "34029939",
+      "33838155",
+      "40939546",
+      "34841716",
+      "40665352",
+      "41131631",
+      "18426858",
+      "39799450",
+      "31819036",
+      "38677534",
+      "39935236",
+      "35868447",
+      "34339013",
+      "39680331",
+      "25218350",
+      "39260328",
+      "32034309",
+      "36158238",
+      "33596983",
+      "40316156",
+      "37003132",
+      "20383692",
+      "29706623",
+      "25531114",
+      "37563971",
+      "40466508",
+      "19016766",
+      "32239594",
+      "24039823",
+      "24362462",
+      "26958938",
+      "18651980",
+      "41138703",
+      "39300073",
+      "25388848",
+      "26846697",
+      "34383201",
+      "31247273",
+      "40222446",
+      "28449718",
+      "22684543",
+      "26548344",
+      "32273947",
+      "40659129",
+      "38430801",
+      "32516967",
+      "27248828",
+      "30981500",
+      "39466438",
+      "39150096",
+      "22929805",
+      "29505792",
+      "27208741",
+      "30266538",
+      "23966163",
+      "25745995",
+      "22484589",
+      "33793802",
+      "26576101",
+      "21922131",
+      "29481769",
+      "38850791",
+      "36157928",
+      "35163396",
+      "35110549",
+      "38229475",
+      "25333894",
+      "34903711",
+      "19447872",
+      "32896707",
+      "23496980",
+      "36827886",
+      "21056497",
+      "25323032",
+      "41126368",
+      "33305825",
+      "41225244",
+      "28119236",
+      "41293954",
+      "24995326",
+      "28258134",
+      "41045065",
+      "29866133",
+      "39226705",
+      "23537149",
+      "26621849",
+      "31101057",
+      "27565331",
+      "39384740",
+      "32000827",
+      "34118595",
+      "41038145",
+      "30279729",
+      "22041818",
+      "21748762",
+      "36916405",
+      "33310309"
+    ],
+    "review": [
+      "40675558",
+      "26576101"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40675558.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ptr.70022",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

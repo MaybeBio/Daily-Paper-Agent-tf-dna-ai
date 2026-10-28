@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "38552435",
+    "doi": "10.1016/j.phymed.2024.155524",
+    "title": "Anti-psoriasis effect of 18beta-glycyrrhetinic acid by breaking CCL20/CCR6 axis through its vital active group targeting GUSB/ATF2 signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Psoriasis is an immune-mediated chronic inflammatory skin disease. Current research suggests that the long-term persistence and recurrence of psoriasis are closely related to the feedback loop formed between keratinocytes and immune cells, especially in Th 17 or DC cells expressing CCR6. CCL20 is the ligand of CCR6. Therefore, drugs that block the expression of CCL20 or CCR6 may have a certain therapeutic effect on psoriasis. Glycyrrhetinic acid (GA) is the main active ingredient of the plant drug licorice and is often used to treat autoimmune diseases, including psoriasis. However, its mechanism of action is still unclear. METHODS: Psoriasis like skin lesion model was established by continuously applying imiquimod on the back skin of normal mice and CCR6-/- mice for 7 days. The therapeutic and preventive effects of glycyrrhetinic acid (GA) on the model were observed and compared. The severity of skin injury is estimated through clinical PASI scores and histopathological examination. qRT-PCR and multiple cytoline assay were explored to detect the expression levels of cytokines in animal dorsal skin lesions and keratinocyte line HaCaT cells, respectively. The dermis and epidermis of the mouse back were separated for the detection of CCL20 expression. Transcription factor assay was applied to screen, and luciferase activity assay to validate transcription factors regulated by GA. Technology of surface plasmon laser resonance with LC-MS (SPR-MS), molecular docking, and enzyme activity assay were used to identified the target proteins for GA. Finally, we synthesized different derivatives of 18beta-GA and compared their effects, as well as glycyrrhetinic acid (GL), on the skin lesion of imiquimod-induced mice to evaluate the active groups of 18beta-GA. RESULTS: 18beta-glycyrrhetinic acid (GA) improved IMQ-induced psoriatic lesions, and could specifically reduce the chemokine CCL20 level of the epidermis in lesion area, especially in therapeutic administration manner. The process was mainly regulated by transcription factor ATF2 in the keratinocytes. In addition, GUSB was identified as the primary target of 18betaGA. Our findings indicated that the subject on molecular target research of glycyrrhizin should be glycyrrhetinic acid (GA) instead of glycyrrhizic acid (GL), because GL showed little activity in vitro or in vivo. Apart from that, alpha, beta, -unsaturated carbonyl in C11/12 positions was crucial or unchangeable to its activity of 18betaGA, while proper modification of C3 or C30 position of 18betaGA may vastly increase its activity. CONCLUSION: Our research indicates that 18betaGA exerted its anti-psoriasis effect mainly by suppressing ATF2 and downstream molecule CCL20 predominately through alpha, beta, -unsaturated carbonyl at C11/12 position binding to GUSB in the keratinocytes, and then broke the feedback loop between keratinocytes and CCR6-expressing immune cells. GA has more advantages than GL in the external treatment of psoriasis. A highlight of this study is to investigate the influence of special active groups on the pharmacological action of a natural product, inspired by the molecular docking result.",
+    "keywords": [
+      "ATF2",
+      "CCL20",
+      "CCR6",
+      "GUSB",
+      "Glycyrrhetinic acid",
+      "Psoriasis",
+      "alpha, beta, -unsaturated carbonyl"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Glycyrrhetinic Acid/pharmacology/*analogs & derivatives",
+      "*Chemokine CCL20/metabolism",
+      "*Psoriasis/drug therapy",
+      "Humans",
+      "Mice",
+      "*Signal Transduction/drug effects",
+      "*Receptors, CCR6/metabolism",
+      "Activating Transcription Factor 2/metabolism",
+      "Disease Models, Animal",
+      "Keratinocytes/drug effects",
+      "HaCaT Cells",
+      "Imiquimod",
+      "Skin/drug effects/metabolism",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Molecular Docking Simulation",
+      "Glycyrrhiza/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Jianan",
+        "Zhang, Junhong",
+        "Hu, Fengju",
+        "Zhang, Wenjuan",
+        "Wu, Yunshan",
+        "Liu, Bo",
+        "Lu, Yue",
+        "Li, Li",
+        "Han, Ling",
+        "Lu, Chuanjian"
+      ],
+      "short_names": [
+        "Wei J",
+        "Zhang J",
+        "Hu F",
+        "Zhang W",
+        "Wu Y",
+        "Liu B",
+        "Lu Y",
+        "Li L",
+        "Han L",
+        "Lu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "The Second Clinical School of Medicine, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "The Second Clinical School of Medicine, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "The Second Clinical School of Medicine, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Laboratory of Chinese Medicine Quality Standard, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Laboratory of Chinese Medicine Quality Standard, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; State Key laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; Guangdong Provincial Key Laboratory of Clinical Research on Traditional Chinese Medicine Syndrome, Guangzhou 510120, China; Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou 510120, China. Electronic address: linghan99@gzucm.edu.cn.",
+        "State Key laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; Guangdong Provincial Key Laboratory of Clinical Research on Traditional Chinese Medicine Syndrome, Guangzhou 510120, China; Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou 510120, China. Electronic address: lcj@gzucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Jianan",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junhong",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical School of Medicine, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Fengju",
+        "short_name": "Hu F",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical School of Medicine, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenjuan",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical School of Medicine, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yunshan",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chinese Medicine Quality Standard, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chinese Medicine Quality Standard, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yue",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Han, Ling",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "Research Team of Molecular and Systems Biology of Chinese medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; State Key laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; Guangdong Provincial Key Laboratory of Clinical Research on Traditional Chinese Medicine Syndrome, Guangzhou 510120, China; Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou 510120, China. Electronic address: linghan99@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Chuanjian",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou 510120, China; Guangdong Provincial Key Laboratory of Clinical Research on Traditional Chinese Medicine Syndrome, Guangzhou 510120, China; Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou 510120, China. Electronic address: lcj@gzucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/30 11:43",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42554794",
+      "42422443",
+      "42050386",
+      "41777245",
+      "41561975",
+      "39539268",
+      "39171290"
+    ],
+    "refs": [],
+    "similar": [
+      "38552435",
+      "32493482",
+      "32908937",
+      "28813533",
+      "31692008",
+      "21644799",
+      "25720416",
+      "21824198",
+      "28708859",
+      "32355189",
+      "39153275",
+      "34025642",
+      "38838402",
+      "30166108",
+      "29109267",
+      "33611057",
+      "20681651",
+      "11133838",
+      "10843722",
+      "28602508",
+      "32076123",
+      "23218403",
+      "33081840",
+      "30019426",
+      "24687644",
+      "15642733",
+      "38272207",
+      "38835124",
+      "17613133",
+      "38851983",
+      "38598859",
+      "34369548",
+      "34044769",
+      "39007937",
+      "20629596",
+      "23702781",
+      "36305632",
+      "29677640",
+      "27145860",
+      "34281197",
+      "31883833",
+      "19105645",
+      "23792039",
+      "29933541",
+      "37642133",
+      "19295614",
+      "29588589",
+      "33412493",
+      "32075957",
+      "30064075",
+      "30743203",
+      "38579666",
+      "34641629",
+      "30658103",
+      "34666184",
+      "38608446",
+      "34929480",
+      "32353589",
+      "12220964",
+      "35841069",
+      "31325423",
+      "11082698",
+      "21737643",
+      "23643542",
+      "23823618",
+      "19897483",
+      "35578042",
+      "22177422",
+      "35960313",
+      "32515468",
+      "25498537",
+      "28736282",
+      "23707333",
+      "36130639",
+      "38383823",
+      "33757812",
+      "29984403",
+      "32623016",
+      "25588318",
+      "22488528",
+      "36067700",
+      "34008239",
+      "26498361",
+      "23959575",
+      "15315355",
+      "29532412",
+      "37643205",
+      "31151410",
+      "23360828",
+      "20054338",
+      "35216231",
+      "21949768",
+      "24569709",
+      "29382533",
+      "28129604",
+      "26789110",
+      "27747446",
+      "32860363",
+      "37457802",
+      "34381358",
+      "32835761",
+      "35421387",
+      "31790685",
+      "37414141",
+      "34664681",
+      "33971346",
+      "31182284",
+      "15287366",
+      "34081845",
+      "39182383",
+      "38657511",
+      "38749332",
+      "38880219",
+      "38246582",
+      "34278466",
+      "37572185",
+      "38922702",
+      "32144337",
+      "38876119",
+      "38792208",
+      "38490519",
+      "39296310",
+      "31545478",
+      "39317695",
+      "30935975",
+      "24992099",
+      "39409128",
+      "37092451",
+      "38799436",
+      "38341859",
+      "21340626",
+      "39284704",
+      "39059147",
+      "38914920",
+      "37303600",
+      "39040747",
+      "32139717",
+      "38892253",
+      "39270944",
+      "38222784",
+      "39236360",
+      "39301953",
+      "39234815",
+      "39328141",
+      "39217154",
+      "23275711",
+      "38933908",
+      "39133127",
+      "32214536",
+      "38852518",
+      "35335138",
+      "39310902",
+      "35496614",
+      "38857576",
+      "38727100",
+      "39013549",
+      "39140277",
+      "38934711",
+      "38421096",
+      "37956340",
+      "38967129",
+      "35919388",
+      "38289616",
+      "37758659",
+      "39245064",
+      "39007395"
+    ],
+    "review": [
+      "38552435",
+      "31692008",
+      "30019426",
+      "17613133",
+      "20629596",
+      "11082698",
+      "22177422",
+      "26498361",
+      "33971346",
+      "32144337",
+      "39296310",
+      "37092451",
+      "38892253",
+      "38852518",
+      "35335138",
+      "38857576",
+      "39013549"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00188-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1105",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

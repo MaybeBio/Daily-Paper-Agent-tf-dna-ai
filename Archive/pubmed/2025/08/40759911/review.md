@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, implementation, results, conclusions, availability, supplementary information descriptions)
+- **Assessment boundary** Scientific and technical evaluation of the software description, model design, validation approach, and claims made in the manuscript. No code execution or independent testing performed.
+- **Shared manuscript claim summary** The manuscript presents GenomicLayers, an R package for rules-based, sequence-aware simulation of genome-wide epigenetic state changes. Two exemplar models are described: (1) Sir3 spreading in S. cerevisiae, comparing single vs. double RAP1 motif seeding; (2) a human hg38 model of OSKM factor-mediated activation against a CpG island-seeded repressor. Claims include whole-genome prediction at 1 bp resolution, scalability to the human genome, and general utility for hypothesis testing in eukaryotic epigenetics.
+- **Visible evidence base** Main text figures (Fig. 1, 2, 3), Table 1, supplementary material descriptions (Supplemental Fig. 1, Fig. S2, Tables S1, S2, R script in Supplemental File 3). No code, vignette, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** The actual R package code, vignette, supplementary figures, tables, and R script for the human model were not available. This limits verification of implementation details, parameter values, and reproducibility claims.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful software tool for rule-based simulation of epigenetic state dynamics at genome scale. The yeast model provides a clear, interpretable demonstration of how sequence features (RAP1 motif density) can shape epigenetic landscape outcomes. However, the human model is presented with insufficient detail and validation to assess its biological relevance. The manuscript would benefit from clearer articulation of the software's novelty relative to existing tools, more rigorous quantitative comparison with experimental data, and explicit discussion of limitations and parameter sensitivity.
+- **Who would be interested in the results, and why** Researchers in computational epigenomics, gene regulation, and systems biology who seek lightweight, sequence-based simulation frameworks for hypothesis testing. The tool may also appeal to experimentalists wanting to explore qualitative consequences of regulatory rules before committing to costly experiments. The yeast model could interest the S. cerevisiae chromatin biology community.
+- **Major strengths** (1) Addresses a genuine gap: whole-genome, sequence-aware simulation of epigenetic state with explicit feedback between state and binding. (2) The yeast model is simple, interpretable, and directly compared to published ChIP-chip data. (3) The software builds on widely used Bioconductor infrastructure (BSgenome, GRanges), lowering the barrier for adoption. (4) The "sink effect" motivation is biologically compelling and well-articulated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation
+  - **Claim pointer** "By combining the output from 100 runs of the simulation, we generate whole genome predictions of epigenetic state at 1 bp resolution."
+  - **Evidence pointer** Results, Model example A; Fig. 2; location not provided
+  - **Concern** The manuscript claims 1 bp resolution predictions, but the comparison to experimental data is only qualitative (visual inspection of Fig. 2). No quantitative metrics (e.g., correlation, overlap coefficients, enrichment scores) are provided to assess how well Model 2 reproduces the ChIP-chip Sir3 profile. The claim of "more closely resembles" is subjective and unsupported by statistical analysis.
+  - **Why it matters** Without quantitative validation, the biological utility of the model is unclear. A user cannot judge whether the model's output is meaningfully better than a null model or a simple sequence-based prior. This weakens the central demonstration of the software's value.
+  - **Resolution test** Provide quantitative comparison between simulated Sir3 coverage and experimental ChIP-chip signal (e.g., Pearson/Spearman correlation, AUC for telomere vs. intra-chromosomal regions, or a permutation-based enrichment test). Report these metrics for both models and for multiple chromosomes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / novelty
+  - **Claim pointer** "To date, models of regulatory state have failed to include the contingency of incoming regulatory signals on the current epi-genetic state and none have done so at the whole-genome level."
+  - **Evidence pointer** Background; location not provided
+  - **Concern** This claim of novelty is too strong and not substantiated by a literature review. Existing tools such as EpiSim (simulating epigenetic state dynamics), GEMSTAT (sequence-based gene regulation models), and various agent-based or rule-based platforms (e.g., Kappa, BioNetGen) may partially address these features. The manuscript does not compare GenomicLayers to any existing simulation framework.
+  - **Why it matters** The scientific contribution of the software depends on its distinctiveness. If similar capabilities exist elsewhere, the novelty claim is overstated and the manuscript's framing is misleading.
+  - **Resolution test** Add a dedicated "Related work" section that surveys existing simulation tools for epigenetic dynamics, explicitly states what GenomicLayers adds beyond them, and justifies the novelty claim with concrete comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / parameter sensitivity
+  - **Claim pointer** "The human genome model is included in supplementary information as an R script."
+  - **Evidence pointer** Results, Model example B; Table 1; location not provided
+  - **Concern** The human model is presented with minimal analysis. Only the proportion of TSS marked active/repressed is shown (Fig. 3). No comparison to actual epigenetic data (e.g., H3K27me3 or H3K4me3 ChIP-seq in pluripotent cells) is provided. The choice of statewidth values (200 to 50,000) is arbitrary, and no sensitivity analysis is shown. The biological interpretation of the "Type I/II/III" gene set differences is superficial.
+  - **Why it matters** The human model is intended to demonstrate scalability and relevance to a major biological question (reprogramming). Without validation against real data or a clear biological insight, the model's utility is not established. The parameter sweep appears exploratory rather than hypothesis-driven.
+  - **Resolution test** Validate the human model against published ChIP-seq data for H3K27me3 or H3K4me3 in fibroblasts or iPSCs. Show that model predictions correlate with experimental marks at TSS regions. Provide a sensitivity analysis for key parameters (statewidth, abundance) and discuss how parameter choices affect conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility / technical soundness
+  - **Claim pointer** "Simulations are lightweight and 'rules-based' and do not attempt to simulate physical or chemical properties of components."
+  - **Evidence pointer** Implementation; location not provided
+  - **Concern** The manuscript does not provide details on the computational complexity, memory usage, or runtime scaling of the software. The human genome simulation times are mentioned (10-204 min) but not contextualized (e.g., hardware used, number of cores). No benchmarks are provided for the yeast model. The stochasticity of the simulation (if any) is not described.
+  - **Why it matters** Reproducibility and practical usability depend on understanding the computational footprint and whether results are deterministic. Users need to know if the tool can scale to their organism of interest and whether repeated runs are expected to produce identical results.
+  - **Resolution test** Add a "Performance" subsection reporting runtime, memory, and determinism for both yeast and human models on specified hardware. State whether simulations are stochastic and, if so, how variability across runs is characterized.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Fig. 2 caption
+  - **Evidence pointer** Fig. 2; location not provided
+  - **Issue** The caption is dense and uses jargon ("plotSignal function (plotGardener package)") without explaining what the plot shows for a non-expert reader.
+  - **Required correction** Expand the caption to briefly explain the y-axis (summed coverage across 100 simulations), the meaning of the colored lines, and the biological interpretation of the telomere-proximal peaks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1; location not provided
+  - **Issue** The "Sites" column reports counts of motif matches in hg38, but the method for counting (e.g., strand-specific, overlapping matches) is not described. The "Abundance" values are given without justification.
+  - **Required correction** Add a footnote describing how motif sites were counted and how abundance values were chosen (e.g., based on literature, calibrated to achieve a target occupancy).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions and future perspective; location not provided
+  - **Issue** The claim that the tool will "enable scientists... to test models of gene regulation in silico" is broad and not tied to a specific testable hypothesis or demonstrated use case beyond the two examples.
+  - **Required correction** Add a concrete example of a biological question that GenomicLayers could uniquely address, and outline how a user would go about testing it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background
+  - **Evidence pointer** Background; location not provided
+  - **Issue** The term "epi-genome" is used without a definition for readers unfamiliar with the field.
+  - **Required correction** Add a brief definition of "epi-genome" and "epigenetic state" in the Background section.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of quantitative validation of the yeast model against experimental data (R1-M1). (2) Insufficient detail and validation of the human model (R1-M3). (3) No comparison to existing simulation tools to substantiate novelty claims (R1-M2). (4) Missing performance benchmarks and determinism information (R1-M4).
+- **Assessment against Nature-style criteria** Originality: Moderate. The concept of sequence-aware, rule-based simulation of epigenetic state is not entirely new, but the whole-genome scale and integration with Bioconductor objects may offer a useful niche. Scientific importance: Moderate. The tool could be valuable for hypothesis generation, but the manuscript does not demonstrate a novel biological insight or a clear advantage over existing approaches. Interdisciplinary readership: Limited. The manuscript is likely to appeal primarily to computational biologists and epigenetics specialists; the presentation is not accessible enough for a broader audience. Technical soundness: Weak. The lack of quantitative validation and performance details undermines confidence in the software's reliability and utility. Readability for nonspecialists: Below average. The manuscript assumes familiarity with R/Bioconductor, ChIP-chip, and epigenetic terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The software may have merit, but the manuscript does not provide sufficient quantitative validation, novelty justification, or technical detail to support its claims. Major revisions addressing the concerns above are required before the case for the software's utility is made.
+
+## Risk / unsupported claims
+- "None have done so at the whole-genome level" (Background): Unsupported, as no literature survey is provided.
+- "The example yeast models are included within a 'vignette' with the GenomicLayers package": Unverifiable, as the package code was not provided.
+- "The human genome model is included in supplementary information as an R script": Unverifiable, as the supplementary file was not provided.
+- "The results are similar for most chromosomes (supplemental Fig. 1) with varying degrees of agreement": Unsupported, as the supplementary figure was not available for inspection.
+- "A higher proportion of the OSKM sensitive genes were repressed, which is consistent with the particularly high proportion of CpG islands at promoters of developmentally repressed human genes": The claim is plausible but the statistical significance of this enrichment is not tested.
+- "The processing time of the hg38 simulations... varied as a function of the statewidth parameter from ten minutes (statewidth = 50,000) to 204 min (statewidth = 200)": Reported but not contextualized with hardware specifications, making reproducibility unclear.

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-b7l81-v2",
+  "title": "Combining Bayesian optimization with sequence- or structure-based strategies for optimization of protein-peptide binding",
+  "authors": "Jérôme Eberhardt; Aidan Lees; Markus Lill; Torsten Schwede",
+  "journal": "ChemRxiv",
+  "published_date": "2024-04-16",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用贝叶斯优化优化蛋白-肽结合亲和力，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作优化，属于广义分子互作建模。",
+  "abstract": "This study introduces a novel Bayesian Optimization (BO) method to support the design and optimization of bioactive peptide sequences in the context of a fully automated closed-loop Design-Make-Test (DMT) pipeline. Using the major histocompatibility complex class I receptor system as test case, we showed that BO is capable to efficiently navigate vast sequence spaces. Starting from a single peptide-lead sequence in the $\\mu$M IC50 range, the method is able to optimize a peptide sequence to its optimal binding affinity in less than 5 DMT cycles, with 96 peptide sequences per batch. We extensively evaluated its performance, in various conditions and with different parameters, providing valuable insights for peptide optimization tasks in future closed-loop DMT environments. Different sequence- and structure-based initialization strategies were also tested, to generate the initial batch of peptide sequences, as well as different molecular fingerprints and protein language models. Additionally, the method developed here can natively handle various peptide sequence lengths and scaffolds (e.g. macrocycles) and support any arbitrary non-standard amino acids or residue modifications. The source code of our method, Mobius, is publicly available under the Apache license at https://git.scicore.unibas.ch/schwede/mobius.",
+  "abstract_zh": "本研究提出了一种新颖的贝叶斯优化（Bayesian Optimization, BO）方法，以支持在完全自动化的闭环设计-制造-测试（Design-Make-Test, DMT）流程中设计和优化生物活性肽序列。以主要组织相容性复合体I类受体系统作为测试案例，我们展示了BO能够高效地导航广阔的序列空间。从单个处于$\\mu$M IC50范围的肽先导序列出发，该方法能够在少于5个DMT循环内（每批96个肽序列）将肽序列优化至其最佳结合亲和力。我们在多种条件和不同参数下广泛评估了其性能，为未来闭环DMT环境中的肽优化任务提供了宝贵见解。还测试了基于序列和结构的不同初始化策略，以生成初始肽序列批次，以及不同的分子指纹和蛋白质语言模型。此外，本文开发的方法能够原生处理各种肽序列长度和支架（如大环化合物），并支持任意非标准氨基酸或残基修饰。我们方法的源代码Mobius，在Apache许可下公开可用，网址为https://git.scicore.unibas.ch/schwede/mobius。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-b7l81-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-b7l81-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-b7l81-v2/index.html"
+}

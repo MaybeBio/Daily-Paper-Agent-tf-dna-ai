@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42233387",
+    "doi": "10.1111/cbdd.70315",
+    "title": "Identification of Autophagy-Associated Molecular Signatures in Osteoarthritis Revealed by Integrative Multi-Omics and Experimental Validation."
+  },
+  "content": {
+    "abstract": "Osteoarthritis (OA) is a complex degenerative disorder characterized by progressive joint deterioration and synovial dysfunction. Emerging evidence implicates autophagy as a key regulatory process in OA development; however, its molecular signatures, diagnostic value, and interaction with the synovial microenvironment remain incompletely defined. This study aimed to delineate autophagy-associated molecular signatures in OA and characterize their biological relevance across bulk and single-cell transcriptomic landscapes. An integrative analytical framework was applied to four synovial bulk transcriptome datasets (GSE55235, GSE12021, GSE55457, and GSE1919) and one single-cell RNA-sequencing dataset (GSE216651) obtained from the GEO database. Autophagy-related genes were curated from publicly available repositories and intersected with differentially expressed genes identified following batch-effect correction and data integration. Key autophagy-associated genes associated with OA were prioritized through weighted gene co-expression network analysis (WGCNA) combined with multiple machine learning algorithms. Diagnostic utility was assessed using receiver operating characteristic (ROC) analysis and nomogram modeling. Regulatory networks involving upstream microRNAs and transcription factors were inferred in silico. Immune landscape alterations were quantified using ssGSEA, while functional pathways were interrogated by single-gene GSEA. Experimental validation included RT-qPCR analysis in peripheral blood mononuclear cells (PBMCs), single-cell resolution mapping of cellular heterogeneity, and ELISA-based quantification of IL-6 with correlation to clinical parameters. Through integrative multi-omics and machine learning analyses, eight autophagy-associated hub genes (XIST, JUN, TNFAIP3, PPP1R15A, IL6, NAMPT, TRAF4, and MYC) were robustly identified as OA-associated molecular features. All candidates demonstrated satisfactory diagnostic performance (AUC > 0.7), which was consistently reproduced in independent validation cohorts and experimental assays. Immune deconvolution revealed widespread alterations in synovial immune cell composition, with significant correlations observed between hub gene expression and nine immune cell populations. Single-cell transcriptomic profiling further uncovered distinct cell-type-specific expression patterns and highlighted intensified fibroblast-macrophage communication networks within OA synovium, suggesting their central involvement in disease progression. By integrating bulk and single-cell transcriptomic analyses with experimental validation, this study defines a set of autophagy-associated molecular markers with diagnostic relevance in osteoarthritis. The identified hub genes not only enhance the understanding of OA-related autophagy dysregulation but also represent potential targets for future mechanistic studies and translational intervention strategies. Importantly, these findings provide a robust molecular framework for early diagnostic screening and risk stratification, potentially facilitating more precise clinical management and personalized therapeutic interventions for OA patients.",
+    "keywords": [
+      "autophagy-related genes",
+      "immune infiltration",
+      "machine learning",
+      "osteoarthritis",
+      "single cell RNA sequencing",
+      "weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [
+      "*Osteoarthritis/genetics/metabolism/pathology",
+      "Humans",
+      "*Autophagy/genetics",
+      "Multiomics",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "MicroRNAs/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaoqing",
+        "Luo, Xingye",
+        "Li, Hong",
+        "Li, Ting",
+        "Wang, Yanyuan",
+        "Li, Ruoer",
+        "Qing, Yufeng",
+        "Zhang, Quanbo"
+      ],
+      "short_names": [
+        "Wang X",
+        "Luo X",
+        "Li H",
+        "Li T",
+        "Wang Y",
+        "Li R",
+        "Qing Y",
+        "Zhang Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6709-7570"
+      ],
+      "affiliations": [
+        "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+        "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Rheumatology and Immunology, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Rheumatology and Immunology, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaoqing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xingye",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nan Chong, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hong",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ting",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Rheumatology and Immunology, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanyuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruoer",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "North Sichuan Medical College, Nan Chong, Sichuan, China.",
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Qing, Yufeng",
+        "short_name": "Qing Y",
+        "identifiers": [
+          "0000-0001-6709-7570"
+        ],
+        "affiliations": [
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Rheumatology and Immunology, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Quanbo",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Hyperuricemia and Gout Research Center, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Geriatrics, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical biology & drug design"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Drug Des"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/03 12:40",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42233387",
+      "40216809",
+      "39026663",
+      "42123445",
+      "41760060",
+      "42024670",
+      "41611834",
+      "40589764",
+      "42025819",
+      "40828304",
+      "41388523",
+      "41146237",
+      "42079609",
+      "42074514",
+      "41013556",
+      "41716413",
+      "41424060",
+      "41635814",
+      "41638276",
+      "41939867",
+      "39779817",
+      "41601671",
+      "39839184",
+      "42083957",
+      "41089260",
+      "40842856",
+      "41895505",
+      "40821793",
+      "42092981",
+      "41200169",
+      "41217566",
+      "41516018",
+      "42265520",
+      "41591671",
+      "41219826",
+      "38771826",
+      "41756296",
+      "39893187",
+      "40592131",
+      "40406126",
+      "36681837",
+      "41432483",
+      "41006377",
+      "41816342",
+      "42106542",
+      "39695788",
+      "41044520",
+      "42158856",
+      "37503333",
+      "42172296",
+      "41162503",
+      "36995411",
+      "41415264",
+      "41316378",
+      "42040898",
+      "36929359",
+      "40442788",
+      "41878449",
+      "41261566",
+      "40771586",
+      "41310117",
+      "37454542",
+      "41766913",
+      "41208987",
+      "41031145",
+      "41200172",
+      "39512836",
+      "41111909",
+      "40083558",
+      "40726988",
+      "41237469",
+      "41449394",
+      "41502501",
+      "41484731",
+      "41107929",
+      "40552285",
+      "40247403",
+      "39438957",
+      "41601670",
+      "42051521",
+      "38767974",
+      "35967352",
+      "40097519",
+      "40532306",
+      "40742465",
+      "40918403",
+      "41822387",
+      "41120378",
+      "41789070",
+      "34113405",
+      "42236612",
+      "39845946",
+      "42254657",
+      "39086489",
+      "41801977",
+      "41548166",
+      "42227003",
+      "40777016",
+      "41923163",
+      "40761790"
+    ],
+    "review": [
+      "42233387"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://doi.org/10.1111/cbdd.70315",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, funding, acknowledgements)
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the manuscript. No external validation or replication was performed.
+- **Shared manuscript claim summary** The manuscript investigates BCL11A regulation in HUDEP-2 cells through three approaches: (1) structural and biochemical characterization of DNA binding by the ZF2-3 and ZF4-6 arrays, revealing strand-specific recognition of TGNCCA motif variants; (2) pharmacological inhibition of epigenetic silencing marks (DNA methylation, H3K9me2, H3K27me3) showing variable HbF induction and BCL11A modulation; (3) a screen of 213 pomalidomide/lenalidomide derivatives identifying compounds that degrade IKZF1 and ZFP91 without affecting BCL11A levels.
+- **Visible evidence base** X-ray crystallography (PDB 9YLL, 9YLM, 9YLN, 9YLO, 9YLP), fluorescence polarization binding assays, electrophoretic mobility shift assays, Western blots, flow cytometry, RT-qPCR, ChIP-qPCR, whole genome bisulfite sequencing, tandem mass tag mass spectrometry, and bioinformatic motif analysis of published ChIP-seq and CUT&RUN datasets.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S8) referenced throughout but not provided. Raw mass spectrometry data, WGBS data, and detailed statistical outputs not available for review. No information on replicates for several key experiments (e.g., crystallographic datasets, mass spectrometry). The screen of 213 compounds is described but the full hit list and criteria for hit selection are not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multi-faceted investigation of BCL11A regulation with potentially important implications for HbF reactivation therapy. The structural work on ZF4-6 and ZF2-3 DNA binding is novel and technically sound, particularly the demonstration of strand-specific recognition of TGNCCA variants. The finding that FTX6058 reduces BCL11A expression, likely via LIN28B, is interesting but mechanistically underdeveloped. The compound screen is a useful resource but the conclusions drawn from it are limited. The manuscript is generally well-written and the figures appear informative, but several claims are not fully supported by the data presented, and the absence of key supplementary materials prevents complete evaluation.
+- **Who would be interested in the results, and why** Researchers in hemoglobin switching and erythroid biology, structural biologists studying zinc finger-DNA interactions, medicinal chemists and chemical biologists working on targeted protein degradation, and clinicians interested in novel therapeutic approaches for sickle cell disease and beta-thalassemia. The structural findings on DNA recognition by C2H2 zinc finger arrays have broader relevance to transcription factor biology.
+- **Major strengths** 1. The structural characterization of ZF4-6 bound to TGTCCA in two crystal forms, revealing a novel top-strand binding mode, is a significant advance. 2. The demonstration that ZF2-3 binds DNA with a similar mode to ZF4-5, despite lower affinity, provides insight into the functional redundancy of these arrays. 3. The systematic comparison of three epigenetic inhibitors and their effects on HbF and BCL11A expression is valuable. 4. The compound screen, while preliminary, identifies new chemical tools for probing BCL11A regulatory networks.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that FTX6058 "markedly reduced BCL11A transcription and translation (likely via effects on LIN28B)" and that this is a key mechanism for HbF induction.
+  - **Evidence pointer** Figure 5E, 5H-J; Figure 6A-C; Discussion section "BCL11A expression dynamics"
+  - **Concern** The causal link between FTX6058 treatment, LIN28B upregulation, and BCL11A reduction is not established. The data show correlative changes (increased LIN28B mRNA, decreased BCL11A mRNA and protein), but no direct evidence that LIN28B mediates the BCL11A reduction. LIN28B is known to regulate mRNA translation, yet the manuscript does not show whether BCL11A protein reduction is due to translational inhibition or transcriptional changes. The claim that the effect is "likely via LIN28B" is speculative. Furthermore, the manuscript does not address whether FTX6058 has direct effects on BCL11A transcription through other mechanisms, such as altered chromatin state at the BCL11A locus.
+  - **Why it matters** The proposed mechanism is central to the manuscript's therapeutic implications. If the LIN28B link is not causal, the model presented in Figure 9B is incorrect, and the rationale for combining FTX6058 with other agents would need revision.
+  - **Resolution test** The authors should perform LIN28B knockdown or overexpression experiments in HUDEP-2 cells to test whether LIN28B is necessary or sufficient for FTX6058-mediated BCL11A reduction. Alternatively, they could use a reporter assay with the BCL11A 3' UTR to test for translational regulation. RNA-seq or polysome profiling would clarify the mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "compound 1075 was tightly selective for IKZF1 and ZFP91" based on mass spectrometry data.
+  - **Evidence pointer** Figure 8D; Supplementary Table S5; Methods "MSPC001383 Proteome Profiling"
+  - **Concern** The mass spectrometry experiment was performed with only two replicates per condition (N=2 for compounds, N=3 for DMSO and pomalidomide). This is underpowered for reliable detection of significant changes, especially for low-abundance proteins. The criteria for defining "selective" degradation are not stated. It is unclear whether the absence of other changed proteins reflects true selectivity or simply lack of statistical power. Additionally, the 6-hour treatment time may be insufficient to observe degradation of all potential targets.
+  - **Why it matters** The selectivity claim is used to propose ZFP91 as a potential mediator of HbF induction. If the mass spectrometry analysis is underpowered, other relevant targets may have been missed, and the conclusion that ZFP91 is the key alternative target is not justified.
+  - **Resolution test** The authors should increase the number of replicates (at least 3-4 per condition), perform a more comprehensive statistical analysis (e.g., using limma with moderated t-tests and appropriate multiple testing correction), and validate the selectivity of compound 1075 using targeted approaches such as immunoblotting for a panel of candidate zinc finger proteins or ubiquitin-proteasome pathway components.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the crystallization of ZF2-3 with DNA in two space groups (P 2 1 2 1 2 and C 222 1) and reports that "crystallization of ZF2-3 with DNA proved more challenging" and that a 3' thymine was "the only sequence context that yielded crystals."
+  - **Evidence pointer** Methods "Crystallography"; Figure 4A-C; Supplementary Table S7
+  - **Concern** The manuscript does not provide sufficient detail on the crystallization conditions, the number of conditions screened, or the reproducibility of crystal growth. The statement that a 3' thymine was the only sequence context that yielded crystals is based on an unspecified number of trials. This is important because the authors use this observation to rationalize a specific CH-pi interaction with Phe388, but if the crystallization success was serendipitous, the biological relevance of this interaction is uncertain.
+  - **Why it matters** The structural interpretation depends on the quality and reproducibility of the crystallization experiments. If the conditions are not robust, other researchers may not be able to reproduce the structures, and the conclusions about the role of Phe388 may be overinterpreted.
+  - **Resolution test** The authors should provide a complete list of crystallization conditions tested, including those that failed, and report the number of independent crystallization trials. They should also deposit the crystallization conditions in the PDB entries and provide electron density maps for the key interactions (e.g., Phe388-thymine) in the supplementary material.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that the combination of three epigenetic inhibitors "markedly increased the proportion of fetal hemoglobin-expressing cells (~60%) compared with any single treatment or DMSO" and that this represents a synergistic effect.
+  - **Evidence pointer** Figure 7A-D; Methods "Flow cytometry"
+  - **Concern** The synergy claim is based on a single concentration combination (0.2 μM EML, 0.1 μM GSK, 0.01 μM FTX) that is 10-fold lower than the individual concentrations used in single treatments. The appropriate analysis for synergy requires dose-response curves for each agent alone and in combination, followed by formal synergy analysis (e.g., Bliss independence or Chou-Talalay). The current data only show that the combination at low doses is more effective than single agents at higher doses, which is not sufficient to establish synergy. Additionally, the flow cytometry gating strategy and the statistical comparison between conditions are not described.
+  - **Why it matters** The claim of synergy is used to suggest that combination therapy could be more effective at lower doses, which has clinical implications. If the effect is merely additive or even sub-additive, the therapeutic rationale would be weakened.
+  - **Resolution test** The authors should perform dose-response experiments for each inhibitor alone and in combination, and use a formal synergy model to quantify the interaction. They should also report the number of independent experiments, the gating strategy, and the statistical tests used for comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract states that "ZF4-6 recognizes all four variants of this motif with distinct strand-specific interactions" but does not specify which variants are recognized on which strand. This is a key finding and should be stated explicitly.
+  - **Required correction** Revise the abstract to specify, for example, "ZF4-6 recognizes TGTCCA on the top strand and TGACCA, TGCCCA, and TGGCCA on the complementary strand" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods "DNA binding assays"
+  - **Issue** The buffer composition for the fluorescence polarization assay is described, but the concentration of NaCl (150 mM) seems high for a zinc finger-DNA interaction. The authors do not report the ionic strength dependence of binding or whether the K D values are affected by salt concentration.
+  - **Required correction** Provide a brief discussion of the salt dependence or justify the choice of 150 mM NaCl. If possible, include a control experiment at a lower salt concentration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1E
+  - **Evidence pointer** Figure 1E
+  - **Issue** The K D values are reported in the text but not shown on the figure. It would be helpful to include the fitted K D values and error bars on the binding curves.
+  - **Required correction** Add K D values with standard errors to Figure 1E or its legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, "BCL11A DNA binding properties"
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "motif multiplicity within BCL11A binding sites may promote BCL11A oligomerization" but do not provide any direct evidence for oligomerization, such as size-exclusion chromatography, analytical ultracentrifugation, or cross-linking experiments.
+  - **Required correction** Either provide experimental evidence for oligomerization or soften the claim to "may promote cooperative binding" and discuss this as a hypothesis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Whole Genome Bisulfite Sequencing"
+  - **Evidence pointer** Methods "Whole Genome Bisulfite Sequencing (WGBS)"
+  - **Issue** The description of the WGBS analysis is incomplete. The authors do not state how many biological replicates were used for each condition, how differential methylation was defined beyond the stated thresholds, or whether the analysis accounted for cell type heterogeneity in the sorted populations.
+  - **Required correction** Provide details on the number of replicates, the statistical model used, and any adjustments for confounding factors.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 9
+  - **Evidence pointer** Figure 9A-D
+  - **Issue** The schematic in Figure 9 is complex and the labels are small. It is difficult to follow the proposed model, particularly the relationships between the different pathways.
+  - **Required correction** Simplify the figure or provide a more detailed legend that walks the reader through the model step by step.
+
+## Risk / unsupported claims
+- The claim that FTX6058 reduces BCL11A expression "likely via effects on LIN28B" is not supported by direct experimental evidence. The correlation between LIN28B upregulation and BCL11A downregulation does not establish causation.
+- The claim that compound 1075 is "tightly selective for IKZF1 and ZFP91" is not adequately supported due to the low number of replicates in the mass spectrometry experiment and the lack of stated criteria for selectivity.
+- The claim of a "synergistic effect" among the three epigenetic inhibitors is not supported by appropriate synergy analysis. The data only show that a combination of low doses is more effective than single agents at higher doses.
+- The statement that "motif multiplicity within BCL11A binding sites may promote BCL11A oligomerization" is speculative and not supported by any direct experimental evidence for oligomerization.
+- The manuscript claims that the structural data "for the first time, we determined the structures of the ZF2-3 two-finger array bound to DNA." This is a strong claim that should be verified against the existing literature, as other ZF2-3 structures may exist in different contexts.
+- The WGBS data are presented as evidence for global demethylation by GSK, but the analysis is not described in sufficient detail to evaluate the robustness of the findings. The claim that FTX does not affect DNA methylation is based on a single comparison and may be underpowered.
+- The manuscript does not provide evidence that the effects of the compounds on HbF expression are mediated through BCL11A, as opposed to other targets. The correlation between BCL11A reduction and HbF induction is suggestive but not conclusive.

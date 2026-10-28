@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "34450382",
+    "doi": "10.1016/j.compbiomed.2021.104780",
+    "title": "Computer-aided prediction of inhibitors against STAT3 for managing COVID-19 associated cytokine storm."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Proinflammatory cytokines are correlated with the severity of disease in patients with COVID-19. IL6-mediated activation of STAT3 proliferates proinflammatory responses that lead to cytokine storm promotion. Thus, STAT3 inhibitors may play a crucial role in managing the COVID-19 pathogenesis. The present study discusses a method for predicting inhibitors against the STAT3 signaling pathway. METHOD: The main dataset comprises 1565 STAT3 inhibitors and 1671 non-inhibitors used for training, testing, and evaluation of models. A number of machine learning classifiers have been implemented to develop the models. RESULTS: The outcomes of the data analysis show that rings and aromatic groups are significantly abundant in STAT3 inhibitors compared to non-inhibitors. First, we developed models using 2-D and 3-D chemical descriptors and achieved a maximum AUC of 0.84 and 0.73, respectively. Second, fingerprints are used to build predictive models and achieved 0.86 AUC with an accuracy of 78.70% on the validation dataset. Finally, models were developed using hybrid descriptors, which achieved a maximum of 0.87 AUC with 78.55% accuracy on the validation dataset. CONCLUSION: We used the best model to identify STAT3 inhibitors in FDA-approved drugs and found few drugs (e.g., Tamoxifen and Perindopril) to manage the cytokine storm in COVID-19 patients. A webserver \"STAT3In\" (https://webs.iiitd.edu.in/raghava/stat3in/) has been developed to predict and design STAT3 inhibitors.",
+    "keywords": [
+      "COVID-19",
+      "Cytokine",
+      "FDA-Approved",
+      "Inhibitors",
+      "STAT3"
+    ],
+    "mesh_terms": [
+      "Cytokine Release Syndrome/*drug therapy",
+      "*Drug Design",
+      "Humans",
+      "STAT3 Transcription Factor/*antagonists & inhibitors",
+      "*COVID-19 Drug Treatment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dhall, Anjali",
+        "Patiyal, Sumeet",
+        "Sharma, Neelam",
+        "Devi, Naorem Leimarembi",
+        "Raghava, Gajendra P S"
+      ],
+      "short_names": [
+        "Dhall A",
+        "Patiyal S",
+        "Sharma N",
+        "Devi NL",
+        "Raghava GPS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: anjalid@iiitd.ac.in.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: sumeetp@iiitd.ac.in.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: neelams@iiitd.ac.in.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: leimarembi@gmail.com.",
+        "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: raghava@iiitd.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dhall, Anjali",
+        "short_name": "Dhall A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: anjalid@iiitd.ac.in."
+        ]
+      },
+      {
+        "full_name": "Patiyal, Sumeet",
+        "short_name": "Patiyal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: sumeetp@iiitd.ac.in."
+        ]
+      },
+      {
+        "full_name": "Sharma, Neelam",
+        "short_name": "Sharma N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: neelams@iiitd.ac.in."
+        ]
+      },
+      {
+        "full_name": "Devi, Naorem Leimarembi",
+        "short_name": "Devi NL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: leimarembi@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Raghava, Gajendra P S",
+        "short_name": "Raghava GPS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology, Indraprastha Institute of Information Technology, Okhla Phase 3, New Delhi, 110020, India. Electronic address: raghava@iiitd.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/28 06:00",
+    "fetched_at": "2026-09-27 22:42:54"
+  },
+  "links": {
+    "cites": [
+      "42075890",
+      "41427114",
+      "41048810",
+      "40746657",
+      "39920259",
+      "39501025",
+      "39462545",
+      "39280273",
+      "39119181",
+      "38778280",
+      "36742312",
+      "36444620",
+      "35922738"
+    ],
+    "refs": [
+      "34388468",
+      "33691172",
+      "33421734",
+      "33201237",
+      "33164143",
+      "33136473",
+      "33058111",
+      "33034338",
+      "33013255",
+      "32972405",
+      "32875598",
+      "32647933",
+      "32581212",
+      "32580895",
+      "32475759",
+      "32376901",
+      "32303591",
+      "32283152",
+      "32273881",
+      "32194944",
+      "32192578",
+      "32111215",
+      "31998366",
+      "31673075",
+      "31654438",
+      "31573734",
+      "31547152",
+      "31186087",
+      "30930994",
+      "30066022",
+      "29535692",
+      "29126136",
+      "28714740",
+      "27637928",
+      "27469104",
+      "26666666",
+      "26631279",
+      "26559373",
+      "25880749",
+      "24992720",
+      "24330765",
+      "24252238",
+      "24188205",
+      "23825949",
+      "23246831",
+      "21425294",
+      "21030257",
+      "18596077",
+      "17277312",
+      "16036105",
+      "15187153",
+      "14502555",
+      "12027072",
+      "11994402",
+      "11948098"
+    ],
+    "similar": [
+      "34450382",
+      "34743903",
+      "34388468",
+      "32153395",
+      "33970450",
+      "34528037",
+      "37126926",
+      "35152041",
+      "33362771",
+      "33034338",
+      "35060145",
+      "33730601",
+      "35563697",
+      "33385879",
+      "34496043",
+      "34169908",
+      "34173853",
+      "33254548",
+      "32708322",
+      "32592501",
+      "34880873",
+      "39119181",
+      "33662680",
+      "35249523",
+      "37258924",
+      "32938545",
+      "32462717",
+      "28729401",
+      "34867978",
+      "37032893",
+      "32530507",
+      "33236692",
+      "35580839",
+      "32857671",
+      "33434935",
+      "29706944",
+      "36302537",
+      "35112323",
+      "34617604",
+      "35077495",
+      "33094669",
+      "35056328",
+      "32770192",
+      "35838968",
+      "32962623",
+      "33608746",
+      "32940187",
+      "33201237",
+      "35729089",
+      "34205217",
+      "34882013",
+      "29970096",
+      "34643927",
+      "33628091",
+      "35076845",
+      "35889428",
+      "32707537",
+      "33689932",
+      "33079613",
+      "34251348",
+      "32972614",
+      "37735372"
+    ],
+    "review": [
+      "34450382",
+      "34743903",
+      "34528037",
+      "35060145",
+      "32708322",
+      "32592501",
+      "33662680",
+      "34867978",
+      "32857671",
+      "33434935",
+      "33094669",
+      "35056328",
+      "32962623",
+      "33608746",
+      "32940187",
+      "35729089",
+      "34882013",
+      "34643927",
+      "33628091",
+      "35076845"
+    ],
+    "pmc": [
+      "8378993"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(21)00574-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34450382/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34450382",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(21)00574-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.16.567458",
+  "title": "Protein-Ligand Binding Site Prediction and <i>De Novo</i> Ligand Generation from Cryo-EM Maps",
+  "doi": "10.1101/2023.11.16.567458",
+  "abstract": "Identification of protein-ligand binding sites is one of the most challenging tasks in drug discovery and design. Recent advances in machine learning community, particularly deep learning, inspired considerable research into deep learning-based methods for protein ligand binding site prediction (PLBP) and have achieved promising results. However one limitation of these methods and models is that they are developed and evaluated using conventional databases consisting of relatively small protein structures determined from X-ray crystallography and NMR with high resolution. When current PLBP methods are directly applied to large protein complexes, they either fail or produce very poor results. Given the increasing popularity of protein structures determined from Cryo-EM maps, which usually capture large protein complexes at relatively low resolution, there is a strong need to apply PLBP methods to Cryo-EM maps. For this purpose, we created a novel database (EMD-Ligand Dataset) consisting of Cryo-EM maps and information about their ligand-binding partners. Our study of several state-of-the-art PLBP methods show that even though they perform reasonably well on conventional databases, they do poorly on the novel EMD-Ligand Dataset, which calls for more research and work to be done by the community. As current methods for determining protein structures experimentally from Cryo-EM maps are time-consuming and expensive, we integrated PLBP methods with DeepTracer, an automatic and fast, de novo Cryo-EM protein structure modeling method, and established an end-to-end system capable of predicting ligand binding sites directly from Cryo-EM maps. Additionally, we leveraged an existing ligand generator to generate drug-like ligands from our predicted ligand-binding pockets and demonstrated its effectiveness.",
+  "authors": [
+    "Chunyang Lu",
+    "Kaustav Mitra",
+    "Kiran Mitra",
+    "Hanze Meng",
+    "Shane Thomas Rich-New",
+    "Fengbin Wang",
+    "Dong Si"
+  ],
+  "published_date": "2023-11-17",
+  "updated_date": "2023-11-17T17:45:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567458",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.16.567458.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:31:00Z",
+        "timestamp": 1768509060686,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Identification of protein-ligand binding sites is one of the most challenging tasks in drug discovery and design. Recent advances in machine learning community, particularly deep learning, inspired considerable research into deep learning-based methods for protein ligand binding site prediction (PLBP) and have achieved promising results. However one limitation of these methods and models is that they are developed and evaluated using conventional databases consisting of relatively small protein structures determined from X-ray crystallography and NMR with high resolution. When current PLBP methods are directly applied to large protein complexes, they either fail or produce very poor results. Given the increasing popularity of protein structures determined from Cryo-EM maps, which usually capture large protein complexes at relatively low resolution, there is a strong need to apply PLBP methods to Cryo-EM maps. For this purpose, we created a novel database (EMD-Ligand Dataset) consisting of Cryo-EM maps and information about their ligand-binding partners. Our study of several state-of-the-art PLBP methods show that even though they perform reasonably well on conventional databases, they do poorly on the novel EMD-Ligand Dataset, which calls for more research and work to be done by the community. As current methods for determining protein structures experimentally from Cryo-EM maps are time-consuming and expensive, we integrated PLBP methods with DeepTracer, an automatic and fast, de novo Cryo-EM protein structure modeling method, and established an end-to-end system capable of predicting ligand binding sites directly from Cryo-EM maps. Additionally, we leveraged an existing ligand generator to generate drug-like ligands from our predicted ligand-binding pockets and demonstrated its effectiveness.</jats:p>",
+      "DOI": "10.1101/2023.11.16.567458",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            17
+          ]
+        ],
+        "date-time": "2023-11-17T17:45:15Z",
+        "timestamp": 1700243115000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Protein-Ligand Binding Site Prediction and\n                  <i>De Novo</i>\n                  Ligand Generation from Cryo-EM Maps"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-4601-3435",
+          "authenticated-orcid": false,
+          "given": "Chunyang",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kaustav",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kiran",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hanze",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shane Thomas",
+          "family": "Rich-New",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fengbin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7039-2589",
+          "authenticated-orcid": false,
+          "given": "Dong",
+          "family": "Si",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-61860-z"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-021-00547-7"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab009"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku928"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq490"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0666-6"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2672-1"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa110"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1505.04597"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1251652"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22031392"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn409"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00387"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2020.04.018"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchem.1243"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2017525118"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.19",
+          "unstructured": "Peng, X. , Luo, S. , Guan, J. , Xie, Q. , Peng, J. , Ma, J. : Pocket2Mol: Efficient molecular sampling based on 3D protein pockets. In: Chaudhuri, K. , Jegelka, S. , Song, L. , Szepesvari, C. , Niu, G. , Sabato, S. (eds.) Proceedings of the 39th International Conference on Machine Learning. Proceedings of Machine Learning Research, vol. 162, pp. 17644–17655. PMLR, United States (2022). https://proceedings.mlr.press/v162/peng22b.html"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks966"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20512"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt447"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1472-6807-6-19"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00545"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks372"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2011.02.015"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.27",
+          "first-page": "3",
+          "volume-title": "Proceedings of the Workshop on Statistically Sound Data Mining at ECML/PKDD. Proceedings of Machine Learning Research",
+          "volume": "47",
+          "year": "2015"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-46723-849"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2059798319011471"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4340"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-04053-7"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d1sc05976a"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0162755"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1758-2946-1-8"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci500467k"
+        },
+        {
+          "key": "2023112408100421000_2023.11.16.567458v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.addr.2016.05.007"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.16.567458",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:31:26Z",
+        "timestamp": 1768455086000
+      },
+      "score": 108.52867,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.16.567458"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            17
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2023.11.16.567458",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

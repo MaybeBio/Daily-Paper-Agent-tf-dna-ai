@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34442429",
+  "title": "Inference of an Integrative, Executable Network for Rheumatoid Arthritis Combining Data-Driven Machine Learning Approaches and a State-of-the-Art Mechanistic Disease Map.",
+  "authors": "Miagoux, Quentin; Singh, Vidisha; de Mezquita, Dereck; Chaudru, Valerie; Elati, Mohamed; Petit-Teixeira, Elisabeth; Niarakis, Anna",
+  "journal": "Journal of personalized medicine",
+  "published_date": "2021-08-28",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合机器学习与RA疾病图谱构建转录因子共调控网络并模拟扰动，虽涉及TF调控但缺乏DNA结合位点与三维互作建模，方法可迁移但非核心TF-DNA互作研究。",
+  "abstract": "Rheumatoid arthritis (RA) is a multifactorial, complex autoimmune disease that involves various genetic, environmental, and epigenetic factors. Systems biology approaches provide the means to study complex diseases by integrating different layers of biological information. Combining multiple data types can help compensate for missing or conflicting information and limit the possibility of false positives. In this work, we aim to unravel mechanisms governing the regulation of key transcription factors in RA and derive patient-specific models to gain more insights into the disease heterogeneity and the response to treatment. We first use publicly available transcriptomic datasets (peripheral blood) relative to RA and machine learning to create an RA-specific transcription factor (TF) co-regulatory network. The TF cooperativity network is subsequently enriched in signalling cascades and upstream regulators using a state-of-the-art, RA-specific molecular map. Then, the integrative network is used as a template to analyse patients' data regarding their response to anti-TNF treatment and identify master regulators and upstream cascades affected by the treatment. Finally, we use the Boolean formalism to simulate in silico subparts of the integrated network and identify combinations and conditions that can switch on or off the identified TFs, mimicking the effects of single and combined perturbations.",
+  "abstract_zh": "类风湿关节炎（RA）是一种多因素、复杂的自身免疫性疾病，涉及多种遗传、环境和表观遗传因素。系统生物学方法通过整合不同层次的生物信息，为研究复杂疾病提供了手段。结合多种数据类型有助于弥补缺失或冲突的信息，并限制假阳性的可能性。在本研究中，我们旨在揭示RA中关键转录因子调控的机制，并推导出患者特异性模型，以更深入地了解疾病异质性和治疗反应。我们首先使用公开可用的与RA相关的转录组数据集（外周血）和机器学习，构建一个RA特异性的转录因子（TF）共调控网络。随后，利用最先进的RA特异性分子图谱，将TF协同网络富集于信号级联和上游调控因子中。然后，以整合网络为模板，分析患者对抗TNF治疗反应的数据，并识别受治疗影响的主调控因子和上游级联。最后，我们使用布尔形式主义对整合网络的子部分进行计算机模拟，并识别可切换所识别TF开或关的组合和条件，模拟单一及联合扰动的效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34442429/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34442429/",
+  "paper_page_path": "papers/pubmed/34442429/index.html"
+}

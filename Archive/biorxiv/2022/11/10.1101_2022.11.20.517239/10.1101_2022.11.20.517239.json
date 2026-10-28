@@ -1,0 +1,518 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.20.517239",
+  "title": "Decoding protein binding landscape on circular RNAs with base-resolution Transformer models",
+  "doi": "10.1101/2022.11.20.517239",
+  "abstract": "Circular RNAs (circRNAs) interact with RNA-binding proteins (RBPs) to modulate gene expression. To date, most computational methods for predicting RBP binding sites on circRNAs focus on circRNA fragments instead of circRNAs. These methods detect whether a circRNA fragment contains binding sites, but cannot determine where are the binding sites and how many binding sites are on the circRNA transcript. We report a hybrid deep learning-based tool, CircSite, to predict RBP binding sites at single-nucleotide resolution and detect key contributed nucleotides on circRNA transcripts. CircSite takes advantage of convolutional neural networks (CNNs) and Transformer for learning local and global representations of circRNAs binding to RBPs, respectively. We construct 37 datasets of RBP-binding circRNAs for benchmarking and the experimental results show that CircSite offers accurate predictions of RBP binding nucleotides and detects key subsequences aligning well with known binding motifs.",
+  "authors": [
+    "Hehe Wu",
+    "Yi Fang",
+    "Yang Yang",
+    "Xiaoyong Pan",
+    "Hong-Bin Shen"
+  ],
+  "published_date": "2022-11-20",
+  "updated_date": "2022-11-20T22:30:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.20.517239",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.20.517239.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:20:43Z",
+        "timestamp": 1768501243250,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Circular RNAs (circRNAs) interact with RNA-binding proteins (RBPs) to modulate gene expression. To date, most computational methods for predicting RBP binding sites on circRNAs focus on circRNA fragments instead of circRNAs. These methods detect whether a circRNA fragment contains binding sites, but cannot determine where are the binding sites and how many binding sites are on the circRNA transcript. We report a hybrid deep learning-based tool, CircSite, to predict RBP binding sites at single-nucleotide resolution and detect key contributed nucleotides on circRNA transcripts. CircSite takes advantage of convolutional neural networks (CNNs) and Transformer for learning local and global representations of circRNAs binding to RBPs, respectively. We construct 37 datasets of RBP-binding circRNAs for benchmarking and the experimental results show that CircSite offers accurate predictions of RBP binding nucleotides and detects key subsequences aligning well with known binding motifs.</jats:p>",
+      "DOI": "10.1101/2022.11.20.517239",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2022-11-20T22:30:13Z",
+        "timestamp": 1668983413000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Decoding protein binding landscape on circular RNAs with base-resolution Transformer models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Hehe",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yi",
+          "family": "Fang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yang",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5010-464X",
+          "authenticated-orcid": false,
+          "given": "Xiaoyong",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hong-Bin",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "8",
+          "key": "2022112211350721000_2022.11.20.517239v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "3503",
+          "DOI": "10.7150/thno.42174",
+          "article-title": "Circular RNA-protein interactions: functions, mechanisms, and identification",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Theranostics"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11993"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.02.001"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abg6155"
+        },
+        {
+          "issue": "1",
+          "key": "2022112211350721000_2022.11.20.517239v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1186/s13073-020-00812-8",
+          "article-title": "Transcriptome-wide profiles of circular RNA and RNA-binding protein interactions reveal effects on circular RNA biogenesis and cancer pathway expression",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Genome Med"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Verduci, L. , et al., CircRNAs: role in human diseases and potential use as biomarkers. Cell Death & Disease, 2021. 12(5).",
+          "DOI": "10.1038/s41419-021-03743-3"
+        },
+        {
+          "issue": "6",
+          "key": "2022112211350721000_2022.11.20.517239v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "508",
+          "DOI": "10.1038/nmeth.3810",
+          "article-title": "Robust transcriptome-wide discovery of RNA-binding protein binding sites with enhanced CLIP (eCLIP)",
+          "volume": "13",
+          "year": "2016",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3813"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-017-1561-8"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa530"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty364"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.070565.119"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1025"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, Y. , et al., iCircRBP-DHN: identification of circRNA-RBP interaction sites using deep hierarchical network. Brief Bioinform, 2020.",
+          "DOI": "10.1093/bib/bbaa274"
+        },
+        {
+          "issue": "1",
+          "key": "2022112211350721000_2022.11.20.517239v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "884",
+          "DOI": "10.1186/s12864-020-07291-6",
+          "article-title": "RBPsuite: RNA-protein binding sites prediction suite based on deep learning",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.247494.118"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Uhl, M. , et al., RNAProt: an efficient and feature-rich RNA binding protein binding site predictor. Gigascience, 2021. 10(8).",
+          "DOI": "10.1093/gigascience/giab054"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz339"
+        },
+        {
+          "issue": "5",
+          "key": "2022112211350721000_2022.11.20.517239v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008925",
+          "DOI": "10.1371/journal.pcbi.1008925",
+          "article-title": "Global importance analysis: An interpretability method to quantify importance of genomic features in deep neural networks",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kazan, H. , et al., RNAcontext: A New Method for Learning the Sequence and Structure Binding Preferences of RNA-Binding Proteins. Plos Computational Biology, 2010. 6(7).",
+          "DOI": "10.1371/journal.pcbi.1000832"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuan, L.L. and Y. Yang , DeCban: Prediction of circRNA-RBP Interaction Sites by Using Double Embeddings and Cross-Branch Attention Networks. Frontiers in Genetics, 2021. 11.",
+          "DOI": "10.3389/fgene.2020.632861"
+        },
+        {
+          "issue": "5",
+          "key": "2022112211350721000_2022.11.20.517239v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "e26",
+          "DOI": "10.1093/nar/gky1294",
+          "article-title": "beRBP: binding estimation for human RNA-binding proteins",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Maticzka, D. , et al., GraphProt: modeling binding preferences of RNA-binding proteins. Genome Biology, 2014. 15(1).",
+          "DOI": "10.1186/gb-2014-15-1-r17"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw003"
+        },
+        {
+          "issue": "1",
+          "key": "2022112211350721000_2022.11.20.517239v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "511",
+          "DOI": "10.1186/s12864-018-4889-1",
+          "article-title": "Prediction of RNA-protein sequence and structure binding preferences using deep convolutional and recurrent neural networks",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "issue": "15",
+          "key": "2022112211350721000_2022.11.20.517239v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "4276",
+          "DOI": "10.1093/bioinformatics/btaa522",
+          "article-title": "PASSION: an ensemble neural network approach for identifying the binding sites of RBPs on circRNAs",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, H. , et al., Recognizing binding sites of poorly characterized RNA-binding proteins on circular RNAs using attention Siamese network. Briefings in Bioinformatics, 2021. bbab279.",
+          "DOI": "10.1093/bib/bbab279"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2014-15-1-r17"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.31",
+          "first-page": "3319",
+          "article-title": "Axiomatic Attribution for Deep Networks",
+          "volume": "70",
+          "year": "2017",
+          "journal-title": "Proceedings of International Conference on Machine Learning"
+        },
+        {
+          "issue": "1",
+          "key": "2022112211350721000_2022.11.20.517239v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "34",
+          "DOI": "10.1080/15476286.2015.1128065",
+          "article-title": "CircInteractome: a web tool for exploring circular RNAs and their interacting proteins and microRNAs",
+          "volume": "13",
+          "year": "2016",
+          "journal-title": "RNA biology"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts565"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.726791"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cho, K. , et al., Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing, 2014: p. 1724–1734.",
+          "DOI": "10.3115/v1/D14-1179"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.36",
+          "first-page": "6000",
+          "article-title": "Attention Is All You Need",
+          "volume": "2017",
+          "year": "2017",
+          "journal-title": "31st Conference on Neural Information Processing Systems"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.37",
+          "article-title": "Layer normalization",
+          "year": "2016",
+          "journal-title": "arXiv"
+        },
+        {
+          "issue": "W1",
+          "key": "2022112211350721000_2022.11.20.517239v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "W72",
+          "DOI": "10.1093/nar/gkab393",
+          "article-title": "catRAPID omics v2.0: going deeper and wider in the prediction of protein-RNA interactions",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt495"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.40",
+          "first-page": "2579",
+          "article-title": "Visualizing High-Dimensional Data Using t-SNE",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12311"
+        },
+        {
+          "key": "2022112211350721000_2022.11.20.517239v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(00)00107-6"
+        },
+        {
+          "issue": "1",
+          "key": "2022112211350721000_2022.11.20.517239v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "4825",
+          "DOI": "10.1038/s41467-021-24975-z",
+          "article-title": "Nanopore sequencing of brain-derived full-length circRNAs reveals circRNA-specific exon usage, intron retention and microexons",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat Commun"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.20.517239",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:53:33Z",
+        "timestamp": 1768449213000
+      },
+      "score": 102.253876,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.20.517239"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            20
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2022.11.20.517239",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.compbiomed.2024.108175",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

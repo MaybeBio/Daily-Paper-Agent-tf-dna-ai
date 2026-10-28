@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "42436287",
+    "doi": "10.1007/s12031-026-02566-1",
+    "title": "Nr1d1 Mediates Microglial Inflammatory Activation Induced by Intermittent Hypoxia: A Transcriptomic and Machine Learning Study."
+  },
+  "content": {
+    "abstract": "Obstructive sleep apnea is characterized by recurrent intermittent hypoxia (IH), which contributes to neuroinflammation and neurological dysfunction. Microglia are pivotal regulators of inflammatory responses in the central nervous system, but the molecular mechanisms underlying IH-induced microglial activation remain unclear. This study aimed to identify key genes mediating this phenomenon and to elucidate their functional significance. An IH model was established in BV2 cells, with inflammation assessed via western blot for cyclooxygenase-2 (COX2) /inducible nitric oxide synthase (iNOS) and ELISA for Interleukin-6 (IL-6) /Tumour necrosis factor-alpha (TNF-alpha). RNA sequencing was performed to profile transcriptional changes induced by IH. Differential expression analysis, functional enrichment analysis, protein interaction network analysis, transcription factor prediction, and machine learning-based screening were integrated to identify candidate key genes. Pharmacological modulation of Nr1d1 was then performed to evaluate its role in IH-induced inflammation. IH significantly increased COX2, iNOS, IL-6 and TNF-alpha levels in BV2 cells. Transcriptomics showed distinct profiles between control and IH groups. Enrichment analyses linked IH-related genes to immune regulation, stress responses, and metabolic pathways. Network analysis highlighted a circadian gene cluster as a prominent component of the IH-responsive transcriptional network. Integrated network and machine learning analyses further identified Nr1d1 as a key candidate. Pharmacological experiments showed that inhibition of Nr1d1 attenuated IH-induced inflammatory responses. IH induces pronounced inflammatory activation and transcriptional reprogramming in BV2 cells. Nr1d1 may represent a circadian-associated candidate regulator involved in IH-induced microglial inflammatory activation.",
+    "keywords": [
+      "Intermittent hypoxia",
+      "Machine learning",
+      "Microglia",
+      "Neuroinflammation",
+      "Nr1d1",
+      "RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Microglia/metabolism/drug effects",
+      "Animals",
+      "Mice",
+      "Cell Line",
+      "Tumor Necrosis Factor-alpha/metabolism/genetics",
+      "*Nuclear Receptor Subfamily 1, Group D, Member 1/metabolism/genetics",
+      "Machine Learning",
+      "Nitric Oxide Synthase Type II/metabolism/genetics",
+      "Cyclooxygenase 2/metabolism/genetics",
+      "Interleukin-6/metabolism/genetics",
+      "*Transcriptome",
+      "*Hypoxia/metabolism/genetics",
+      "Inflammation/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Zhuoran",
+        "Shen, Tengqun",
+        "Li, Mengfan",
+        "Zhang, Jinbiao",
+        "Li, Zhenguang",
+        "Ma, Fangzhou"
+      ],
+      "short_names": [
+        "Sun Z",
+        "Shen T",
+        "Li M",
+        "Zhang J",
+        "Li Z",
+        "Ma F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China.",
+        "Department of Neurology, The Sixth Hospital of Wuhan, Affiliated Hospital of Jianghan University, Wuhan, Hubei, China.",
+        "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China.",
+        "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China.",
+        "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China.",
+        "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China.",
+        "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China. drneurology@126.com.",
+        "Department of Neurosurgery, Weihai Municipal Hospital, Shandong University, Jinan, China. drneurology@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Zhuoran",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China.",
+          "Department of Neurology, The Sixth Hospital of Wuhan, Affiliated Hospital of Jianghan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Tengqun",
+        "short_name": "Shen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengfan",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinbiao",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhenguang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Fangzhou",
+        "short_name": "Ma F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weihai Municipal Hospital, Shandong University, Jinan, Shandong, China. drneurology@126.com.",
+          "Department of Neurosurgery, Weihai Municipal Hospital, Shandong University, Jinan, China. drneurology@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular neuroscience : MN"
+    ],
+    "journal_abbrev": [
+      "J Mol Neurosci"
+    ],
+    "pub_date": "2026 Jul 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/12 00:54",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41791308",
+      "41759387",
+      "41451215",
+      "41430310",
+      "41388469",
+      "41170361",
+      "40991996",
+      "40935313",
+      "40578540",
+      "40272082",
+      "40149001",
+      "39522861",
+      "39472573",
+      "38072952",
+      "37517357",
+      "36824025",
+      "36401601",
+      "35880522",
+      "35418126",
+      "34324866",
+      "33258449",
+      "32071294",
+      "31706798",
+      "30792350",
+      "30315268",
+      "27688824",
+      "27129429",
+      "24471484",
+      "24324707",
+      "18555196",
+      "18250206",
+      "16424443"
+    ],
+    "similar": [
+      "42436287",
+      "42776280",
+      "24324707",
+      "29747742",
+      "30772740",
+      "26607631",
+      "22143914",
+      "29920330",
+      "22974838",
+      "21982455",
+      "18538761",
+      "31333645",
+      "22363816",
+      "23261590",
+      "42418294",
+      "41620965",
+      "21765922",
+      "41837473",
+      "25669325",
+      "26852953",
+      "23558156",
+      "31867739",
+      "29496162",
+      "29040306",
+      "22687570",
+      "22637723",
+      "34509933",
+      "27823627",
+      "32230861",
+      "21856398",
+      "28677369",
+      "42280394",
+      "28214555",
+      "26879835",
+      "26838169",
+      "20828402",
+      "21570441",
+      "25765352",
+      "41121478",
+      "23236370",
+      "22433014",
+      "17570326",
+      "26739492",
+      "21831303",
+      "34120412",
+      "26085297",
+      "38761855",
+      "24462494",
+      "23988434",
+      "25514974",
+      "39551321",
+      "28264445",
+      "23796752",
+      "39311785",
+      "32314719",
+      "31699670",
+      "31732449",
+      "23388509",
+      "38001534",
+      "35010945",
+      "21434881",
+      "24138316",
+      "39603614",
+      "23864034",
+      "20946687",
+      "25483920",
+      "41187887",
+      "39041165",
+      "41830010",
+      "26499079",
+      "24755071",
+      "30962497",
+      "29807527",
+      "31547327",
+      "29950615",
+      "29649522",
+      "41190983",
+      "33773188",
+      "36692990",
+      "23268108",
+      "40904096",
+      "29501766",
+      "19422681",
+      "40686180",
+      "24466027",
+      "31485933",
+      "32652081",
+      "25454762",
+      "21449918",
+      "23500882",
+      "27618898",
+      "31683684",
+      "42543286",
+      "25380745",
+      "26148848",
+      "31954258",
+      "37562566",
+      "24747094",
+      "21554732",
+      "36142500"
+    ],
+    "review": [
+      "42436287"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12031-026-02566-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

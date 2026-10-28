@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42079248",
+  "title": "Transcription factor collaboration enables precise T cell state engineering.",
+  "authors": "Savage, Rachel E; McRoberts Amador, Christian D; Hock, Conrad T; Zhang, Ruochi; Kuo, Hung-Che; Gao, Aretha R; Horlbeck, Max A; Gersbach, Charles A; Buenrostro, Jason D",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-04",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过大规模筛选和深度学习框架seq2PRINT研究转录因子协作调控CD8+ T细胞状态，涉及TF-DNA互作预测与界面突变验证，但核心是细胞状态工程而非TF-DNA结合机制建模，方法可迁移至本课题。",
+  "abstract": "Transcription factors (TFs) collaborate to regulate gene expression programs that define cell fate. In CD8(+) T cells, this coordinated regulation underlies exhaustion, a dysfunctional state that constrains immunity in chronic infection and cancer. Here, we screen for cell state-specific TFs by performing pooled overexpression screens of 3,548 TF and TF isoforms in primary T cells across multiple CD8(+) T cell states. We identify 82 regulators that collaborate with exhaustion-specific programs and profile their effects using perturb-SHARE-seq, connecting perturbations to changes in chromatin accessibility and gene expression across 702,314 single cells. We identify 38 reproducible regulatory programs and construct a map of 12,616 TF-program connections that shape CD8(+) T cell states, nominating KLF2 as predictive of positive response to CAR-T therapy. Using seq2PRINT, a deep learning framework that predicts functional TF interactions, we identify RUNX as a \"master collaborator\", a TF that broadly collaborates with other factors, and uncover a RUNX2:KLF2 interaction that specifies exhaustion-associated programs. Mutation of the RUNX2:KLF2 protein interface attenuates KLF2-mediated repression of exhaustion, while synthetic tethering of RUNX2 to KLF2 leads to an amplification of the phenotype. More broadly, we identify the collaborative action of RUNX as a driver in CD8(+) T cell states, and show that tethering TFs enables the rational engineering of cell state identity for cell and gene therapies.",
+  "abstract_zh": "转录因子（TFs）协同调控决定细胞命运的基因表达程序。在CD8(+) T细胞中，这种协调调控是耗竭的基础，耗竭是一种功能障碍状态，限制慢性感染和癌症中的免疫应答。在此，我们通过对原代T细胞中3,548个TF及TF异构体在多种CD8(+) T细胞状态下进行混合过表达筛选，来寻找细胞状态特异性TFs。我们鉴定出82个与耗竭特异性程序协同作用的调控因子，并利用perturb-SHARE-seq分析其效应，将扰动与702,314个单细胞中的染色质可及性和基因表达变化联系起来。我们识别出38个可重复的调控程序，并构建了一个包含12,616个TF-程序连接的图谱，这些连接塑造CD8(+) T细胞状态，提名KLF2作为CAR-T治疗阳性反应的预测因子。利用seq2PRINT（一种预测功能性TF相互作用的深度学习框架），我们识别出RUNX为“主协同因子”，即一个与其他因子广泛协作的TF，并揭示RUNX2:KLF2相互作用指定耗竭相关程序。RUNX2:KLF2蛋白界面的突变减弱KLF2介导的耗竭抑制，而将RUNX2合成拴系至KLF2则导致表型放大。更广泛地，我们识别出RUNX的协同作用作为CD8(+) T细胞状态的驱动因素，并展示TF拴系能够实现细胞和基因治疗中细胞状态身份的理性工程化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42079248/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42079248/",
+  "paper_page_path": "papers/pubmed/42079248/index.html"
+}

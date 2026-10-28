@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41350624",
+    "doi": "10.1186/s12865-025-00785-6",
+    "title": "Identification of sepsis pyroptosis-related genes based on single-cell sequencing technology and experimental verification."
+  },
+  "content": {
+    "abstract": "This study aimed to screen for new biomarkers for sepsis. Firstly, peripheral blood samples from 23 sepsis patients and 10 healthy volunteers were collected according to the sepsis 3.0 criteria and analyzed by RNA-seq. A total of 876 pyroptosis-related genes were sourced from the Genecards database. Weighted gene co-expression network analysis (WGCNA) was then employed to pinpoint genes linked to sepsis clinical modules significantly associated with the phenotype. An intersection analysis with pyroptosis-related genes was conducted, resulting in the identification of 60 common genes. Then, two core genes (BCL6 and JAK2) were jointly identified using three types of machine learning: random forest, SVM, and Lasso regression. Expression analysis showed that both were significantly highly expressed in the sepsis group, and the subject work characteristic curve (ROC) analysis demonstrated that their diagnostic efficacies were high in both of them in the multiple datasets (AUC value > 0.88), and meta-analysis revealed their correlation with the prognostic status of sepsis patients, and GSEA analysis showed that BCL6 was mainly enriched in metabolism-related pathways, while JAK2 was significantly involved in inflammatory signaling pathways. In addition, immune infiltration analysis showed that BCL6 and JAK2 were closely associated with the infiltration of a variety of immune cells, suggesting their potential functions in regulating the immune microenvironment. Finally, single-cell sequencing localization showed that BCL6 and JAK2 were mainly distributed in macrophages and B cells. Mendelian Randomization Analysis Suggests BCL6, JAK2 Expression Levels May Influence the Risk of Sepsis. The experimental results verified the expression status of key genes. Clinical trial number for this study: ChiCTR1900021261 Registration date: February 4, 2019.",
+    "keywords": [
+      "Pyroptosis",
+      "Sepsis",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/genetics/diagnosis/immunology",
+      "*Pyroptosis/genetics",
+      "Single-Cell Analysis/methods",
+      "*Janus Kinase 2/genetics",
+      "Biomarkers",
+      "*Proto-Oncogene Proteins c-bcl-6/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Single-Cell Gene Expression Analysis",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leng, Linghan",
+        "Wang, Hao",
+        "Hu, Yingchun",
+        "Yang, Feng"
+      ],
+      "short_names": [
+        "Leng L",
+        "Wang H",
+        "Hu Y",
+        "Yang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Intensive Care Unit, Chengdu Fifth People's Hospital (The Second Clinical Medical College, Afliated Fifth People's Hospital of Chengdu University of Traditional Chinese Medicine), Chengdu, Sichuan, China.",
+        "School of Clinical Medicine, Southwest Medical University, Luzhou, People's Republic of China.",
+        "Department of Emergency Medicine, The Affiliated Hospital of Southwest Medical University, Luzhou, People's Republic of China.",
+        "Department of Emergency Medicine, The Affiliated Hospital of Southwest Medical University, Luzhou, People's Republic of China. 1358780341@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leng, Linghan",
+        "short_name": "Leng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Unit, Chengdu Fifth People's Hospital (The Second Clinical Medical College, Afliated Fifth People's Hospital of Chengdu University of Traditional Chinese Medicine), Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Southwest Medical University, Luzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yingchun",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, The Affiliated Hospital of Southwest Medical University, Luzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Feng",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, The Affiliated Hospital of Southwest Medical University, Luzhou, People's Republic of China. 1358780341@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC immunology"
+    ],
+    "journal_abbrev": [
+      "BMC Immunol"
+    ],
+    "pub_date": "2025 Dec 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/06 00:32",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39182474",
+      "38324297",
+      "38246070",
+      "38240704",
+      "38145949",
+      "37914440",
+      "37651112",
+      "37352727",
+      "36988949",
+      "36735197",
+      "36653905",
+      "36209190",
+      "35673561",
+      "34522213",
+      "34211956",
+      "31398915",
+      "30671061",
+      "30269441",
+      "29608179",
+      "26121490",
+      "25538794",
+      "23807251",
+      "23323831",
+      "21414208",
+      "21248839",
+      "20689021",
+      "19114008",
+      "16199517"
+    ],
+    "similar": [
+      "41350624",
+      "40350654",
+      "40055592",
+      "40362233",
+      "41570454",
+      "41388523",
+      "40768057",
+      "41833346",
+      "41436831",
+      "40830558",
+      "41611834",
+      "40362669",
+      "39384856",
+      "39586719",
+      "41246299",
+      "39763654",
+      "40124361",
+      "38702721",
+      "38755528",
+      "39367086",
+      "41863100",
+      "41735888",
+      "41291841",
+      "42195052",
+      "42059276",
+      "40682067",
+      "41479901",
+      "39923303",
+      "40425742",
+      "38656728",
+      "39735547",
+      "38981197",
+      "40453984",
+      "41006377",
+      "40129981",
+      "41013727",
+      "41444533",
+      "39108261",
+      "41716401",
+      "39789158",
+      "36618365",
+      "40977739",
+      "41089329",
+      "42305536",
+      "40745616",
+      "39375405",
+      "40781631",
+      "41472734",
+      "42292364",
+      "41990066",
+      "42015036",
+      "39509434",
+      "41013556",
+      "40742465",
+      "35965814",
+      "40091022",
+      "36967805",
+      "39430765",
+      "39712033",
+      "40362275",
+      "41988156",
+      "38404591",
+      "41638276",
+      "39558055",
+      "40967560",
+      "40849369",
+      "41840566",
+      "38912048",
+      "38440848",
+      "37063851",
+      "40097519",
+      "39647286",
+      "40956482",
+      "39893187",
+      "39281688",
+      "39377750",
+      "39034722",
+      "39735537",
+      "37939116",
+      "40694561",
+      "40108736",
+      "37359526",
+      "41816342",
+      "35832273",
+      "39670237",
+      "41300841",
+      "41208987",
+      "39993996",
+      "41432483",
+      "40532306",
+      "40821971",
+      "40764361",
+      "41733593",
+      "37179249",
+      "41924281",
+      "42233387",
+      "40861493",
+      "40375981",
+      "35184762",
+      "40078458"
+    ],
+    "review": [
+      "41350624"
+    ],
+    "pmc": [
+      "12802118"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-025-00785-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41350624/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "42263581",
+    "doi": "10.1016/j.ejmech.2026.119040",
+    "title": "Design, synthesis, and biological evaluation of a potent and selective AURKB degrader."
+  },
+  "content": {
+    "abstract": "Aurora kinase B (AURKB), a key component of the chromosomal passenger complex (CPC), plays a critical role in mitosis and is aberrantly expressed in various human cancers, including acute myeloid leukemia (AML), colorectal cancer, and non-small cell lung cancer (NSCLC). Although AURKB represents an attractive therapeutic target, the clinical translation of conventional ATP-competitive inhibitors has been hindered by poor selectivity and dose-limiting toxicity. PROTAC technology offers a promising strategy to overcome these limitations by achieving selective protein degradation. Guided by molecular docking, we herein developed a series of novel AURKB-targeting PROTACs. Among them, compounds 1 and 3 emerged as potent and highly selective AURKB degraders, exhibiting DC(50) values in the low nanomolar range with minimal activity against AURKA. Mechanistic studies confirmed that compound 1 forms a stable ternary complex with AURKB and the E3 ligase CRBN in cells, leading to time- and ubiquitin-proteasome system (UPS)-dependent degradation. Interestingly, beyond enzymatic inhibition, targeted degradation of AURKB also led to the downregulation of other CPC components (borealin, INCENP, survivin) and the transcription factor YY1, which are stabilized through direct interaction with AURKB. In addition, compound 1 suppressed proliferation across a panel of cancer cell lines, induced G2/M phase arrest, and triggered apoptosis. Together, this study presents a highly potent and selective AURKB degrader, offering a valuable chemical probe for studying CPC biology and a promising lead for cancer therapy.",
+    "keywords": [
+      "AURKB",
+      "Chromosomal passenger complex",
+      "Molecular docking",
+      "PROTAC",
+      "Targeted protein degradation"
+    ],
+    "mesh_terms": [
+      "*Aurora Kinase B/metabolism/antagonists & inhibitors",
+      "Humans",
+      "*Drug Design",
+      "*Antineoplastic Agents/pharmacology/chemical synthesis/chemistry",
+      "*Protein Kinase Inhibitors/pharmacology/chemical synthesis/chemistry",
+      "Structure-Activity Relationship",
+      "Cell Proliferation/drug effects",
+      "Proteolysis Targeting Chimera",
+      "Molecular Docking Simulation",
+      "Molecular Structure",
+      "Drug Screening Assays, Antitumor",
+      "Dose-Response Relationship, Drug",
+      "Apoptosis/drug effects",
+      "Cell Line, Tumor",
+      "Proteolysis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piao, Lianhua",
+        "Su, Yangyang",
+        "Gao, Ying",
+        "Li, Qihui",
+        "Yan, Kejia",
+        "Chen, Zhou",
+        "Wang, Yanong Daniel",
+        "Zhou, Jie",
+        "Gao, Yang",
+        "Liu, Jie",
+        "Chang, Shan",
+        "Kong, Ren"
+      ],
+      "short_names": [
+        "Piao L",
+        "Su Y",
+        "Gao Y",
+        "Li Q",
+        "Yan K",
+        "Chen Z",
+        "Wang YD",
+        "Zhou J",
+        "Gao Y",
+        "Liu J",
+        "Chang S",
+        "Kong R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China; Primary Biotechnology Co., Ltd., Changzhou, 213125, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China.",
+        "Primary Biotechnology Co., Ltd., Changzhou, 213125, China.",
+        "Primary Biotechnology Co., Ltd., Changzhou, 213125, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China.",
+        "School of Chemistry and Chemical Engineering, Jiangsu University of Technology, Changzhou, 213001, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Department of Orthopaedics, The Third Affiliated Hospital of SooChow University, Changzhou, Jiangsu, 213000, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China; Primary Biotechnology Co., Ltd., Changzhou, 213125, China. Electronic address: rkong@jsut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piao, Lianhua",
+        "short_name": "Piao L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China; Primary Biotechnology Co., Ltd., Changzhou, 213125, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yangyang",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ying",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Primary Biotechnology Co., Ltd., Changzhou, 213125, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qihui",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Primary Biotechnology Co., Ltd., Changzhou, 213125, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Kejia",
+        "short_name": "Yan K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhou",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Jiangsu University of Technology, Changzhou, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanong Daniel",
+        "short_name": "Wang YD",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jie",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Third Affiliated Hospital of SooChow University, Changzhou, Jiangsu, 213000, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Shan",
+        "short_name": "Chang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Ren",
+        "short_name": "Kong R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China; Primary Biotechnology Co., Ltd., Changzhou, 213125, China. Electronic address: rkong@jsut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Chem"
+    ],
+    "pub_date": "2026 Oct 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/10 06:55",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42263581",
+      "40730065",
+      "42208464",
+      "41740583",
+      "38955003",
+      "42161102",
+      "41850817",
+      "39756204",
+      "41654236",
+      "40037061",
+      "32371117",
+      "40967069",
+      "41005113",
+      "41161489",
+      "33773286",
+      "40398151",
+      "42114316",
+      "42092430",
+      "41875675",
+      "39580911",
+      "40037026",
+      "38838918",
+      "39892097",
+      "39406109",
+      "40667573",
+      "41635121",
+      "39094428",
+      "41270615",
+      "40907441",
+      "41570587",
+      "40815992",
+      "40252017",
+      "40367676",
+      "41876032",
+      "41795340",
+      "23707920",
+      "40963416",
+      "40785977",
+      "33915740",
+      "38759458",
+      "25624750",
+      "40578256",
+      "40764262",
+      "41380451",
+      "34700270",
+      "38829482",
+      "41017166",
+      "34507234",
+      "39423771",
+      "39708768",
+      "41014811",
+      "40138993",
+      "40126738",
+      "38896936",
+      "34736137",
+      "30901674",
+      "29627725",
+      "38761704",
+      "38820938",
+      "39520729",
+      "41903286",
+      "40156935",
+      "26842935",
+      "40983162",
+      "41795438",
+      "34794818",
+      "32838725",
+      "42054875",
+      "41313965",
+      "41033076",
+      "33109396",
+      "41272919",
+      "33327806",
+      "41130325",
+      "29651967",
+      "41151328",
+      "39388904",
+      "38798211",
+      "30925338",
+      "41075370",
+      "37455449",
+      "39302251",
+      "42025203",
+      "40215944",
+      "34390970",
+      "41223588",
+      "40034406",
+      "40561885",
+      "39167894",
+      "39889450",
+      "39721086",
+      "41086724",
+      "31038080",
+      "40186895",
+      "38908103",
+      "27612557",
+      "32179332",
+      "29734851",
+      "41349320",
+      "42176651"
+    ],
+    "review": [
+      "42263581",
+      "40667573",
+      "33915740"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223-5234(26)00485-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CDCA8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "37356294",
+    "doi": "10.1016/j.compbiomed.2023.107078",
+    "title": "Characterization of the metabolic alteration-modulated tumor microenvironment mediated by TP53 mutation and hypoxia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: TP53 mutation and hypoxia play an essential role in cancer progression. However, the metabolic reprogramming and tumor microenvironment (TME) heterogeneity mediated by them are still not fully understood. METHODS: The multi-omics data of 32 cancer types and immunotherapy cohorts were acquired to comprehensively characterize the metabolic reprogramming pattern and the TME across cancer types and explore immunotherapy candidates. An assessment model for metabolic reprogramming was established by integration of multiple machine learning methods, including lasso regression, neural network, elastic network, and survival support vector machine (SVM). Pharmacogenomics analysis and in vitro assay were conducted to identify potential therapeutic drugs. RESULTS: First, we identified metabolic subtype A (hypoxia-TP53 mutation subtype) and metabolic subtype B (non-hypoxia-TP53 wildtype subtype) in hepatocellular carcinoma (HCC) and showed that metabolic subtype A had an \"immune inflamed\" microenvironment. Next, we established an assessment model for metabolic reprogramming, which was more effective compared to the traditional prognostic indicators. Then, we identified a potential targeting drug, teniposide. Finally, we performed the pan-cancer analysis to illustrate the role of metabolic reprogramming in cancer and found that the metabolic alteration (MA) score was positively correlated with tumor mutational burden (TMB), neoantigen load, and homologous recombination deficiency (HRD) across cancer types. Meanwhile, we demonstrated that metabolic reprogramming mediated a potential immunotherapy-sensitive microenvironment in bladder cancer and validated it in an immunotherapy cohort. CONCLUSION: Metabolic alteration mediated by hypoxia and TP53 mutation is associated with TME modulation and tumor progression across cancer types. In this study, we analyzed the role of metabolic alteration in cancer and propose a predictive model for cancer prognosis and immunotherapy responsiveness. We also explored a potential therapeutic drug, teniposide.",
+    "keywords": [
+      "Hypoxia",
+      "Metabolic alteration",
+      "Precise oncology",
+      "TP53 mutation",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular",
+      "Teniposide",
+      "Tumor Microenvironment",
+      "*Liver Neoplasms",
+      "Hypoxia/genetics",
+      "Mutation",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Kunpeng",
+        "Qian, Zhipeng",
+        "Jiang, Yanan",
+        "Lv, Dongxu",
+        "Zhu, Kaibin",
+        "Shao, Jing",
+        "Hu, Ying",
+        "Lv, Chengqian",
+        "Huang, Qianqian",
+        "Gao, Yang",
+        "Jin, Shizhu",
+        "Shang, Desi"
+      ],
+      "short_names": [
+        "Luo K",
+        "Qian Z",
+        "Jiang Y",
+        "Lv D",
+        "Zhu K",
+        "Shao J",
+        "Hu Y",
+        "Lv C",
+        "Huang Q",
+        "Gao Y",
+        "Jin S",
+        "Shang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital, Cardiovascular Lab of Big Data and lmaging Artificial Intelligence, Hengyang Medical School, University of South China Hengyang, Hunan, 421001, China; School of Computer, University of South China, Hengyang, Hunan, 421001, China; Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China. Electronic address: kunpeng_luo@163.com.",
+        "The First Affiliated Hospital, Cardiovascular Lab of Big Data and lmaging Artificial Intelligence, Hengyang Medical School, University of South China Hengyang, Hunan, 421001, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Pharmacology (State-Province Key Laboratories of Biomedicine- Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, Heilongjiang, 150081, China; Translational Medicine Research and Cooperation Center of Northern China, Heilongjiang Academy of Medical Sciences, Harbin, Heilongjiang, 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Thoracic Surgery, Harbin Medical University Cancer Hospital, No. 150, Haping Road, Harbin, Heilongjiang, 150081, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China. Electronic address: drshizhujin@hrbmu.edu.cn.",
+        "The First Affiliated Hospital, Cardiovascular Lab of Big Data and lmaging Artificial Intelligence, Hengyang Medical School, University of South China Hengyang, Hunan, 421001, China; School of Computer, University of South China, Hengyang, Hunan, 421001, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang, 150081, China. Electronic address: sds_46@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Kunpeng",
+        "short_name": "Luo K",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Cardiovascular Lab of Big Data and lmaging Artificial Intelligence, Hengyang Medical School, University of South China Hengyang, Hunan, 421001, China; School of Computer, University of South China, Hengyang, Hunan, 421001, China; Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China. Electronic address: kunpeng_luo@163.com."
+        ]
+      },
+      {
+        "full_name": "Qian, Zhipeng",
+        "short_name": "Qian Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Cardiovascular Lab of Big Data and lmaging Artificial Intelligence, Hengyang Medical School, University of South China Hengyang, Hunan, 421001, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yanan",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology (State-Province Key Laboratories of Biomedicine- Pharmaceutics of China, Key Laboratory of Cardiovascular Research, Ministry of Education), College of Pharmacy, Harbin Medical University, Harbin, Heilongjiang, 150081, China; Translational Medicine Research and Cooperation Center of Northern China, Heilongjiang Academy of Medical Sciences, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Dongxu",
+        "short_name": "Lv D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Kaibin",
+        "short_name": "Zhu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Harbin Medical University Cancer Hospital, No. 150, Haping Road, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Jing",
+        "short_name": "Shao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Ying",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Chengqian",
+        "short_name": "Lv C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qianqian",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Shizhu",
+        "short_name": "Jin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, 150081, China. Electronic address: drshizhujin@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shang, Desi",
+        "short_name": "Shang D",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Cardiovascular Lab of Big Data and lmaging Artificial Intelligence, Hengyang Medical School, University of South China Hengyang, Hunan, 421001, China; School of Computer, University of South China, Hengyang, Hunan, 421001, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, Heilongjiang, 150081, China. Electronic address: sds_46@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/26 00:41",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "42225967",
+      "42183218",
+      "42182766",
+      "42100416",
+      "41220429",
+      "41164803",
+      "40909943",
+      "40766320",
+      "40744665",
+      "40177135",
+      "39420717",
+      "39397989",
+      "39210368",
+      "39161899",
+      "39073402",
+      "38652109",
+      "38497139",
+      "38433921",
+      "38375529"
+    ],
+    "refs": [],
+    "similar": [
+      "37356294",
+      "32876735",
+      "35783281",
+      "35935965",
+      "36002188",
+      "34484235",
+      "36932439",
+      "37406019",
+      "36307751",
+      "33879103",
+      "33679749",
+      "30885723",
+      "34628623",
+      "33537076",
+      "32007736",
+      "36248822",
+      "36714595",
+      "36567292",
+      "37346342",
+      "35281061",
+      "37081749",
+      "36806581",
+      "34789428",
+      "36059442",
+      "32927274",
+      "35150083",
+      "37063920",
+      "31142342",
+      "33189609",
+      "35785664",
+      "32158625",
+      "34217320",
+      "35069553",
+      "36536232",
+      "31395065",
+      "34582114",
+      "36568387",
+      "36479114",
+      "32164750",
+      "33568167",
+      "26034368",
+      "35963646",
+      "37313807",
+      "37283742",
+      "36438201",
+      "37275857",
+      "36032140",
+      "28039262",
+      "33850897",
+      "37031511",
+      "32769067",
+      "34745095",
+      "35912257",
+      "35479084",
+      "35947245",
+      "35428026",
+      "34450259",
+      "32278127",
+      "33820866",
+      "36794567",
+      "36384423",
+      "32229792",
+      "36582227",
+      "34120068",
+      "37178426",
+      "31539077",
+      "35812369",
+      "35911718",
+      "35242245",
+      "31969776",
+      "37064872",
+      "37322434",
+      "35145517",
+      "36181125",
+      "35961204",
+      "33323544",
+      "31776228",
+      "35047511",
+      "35035657",
+      "32663767",
+      "36248857",
+      "34037458",
+      "32046766",
+      "34877770",
+      "37481543",
+      "34897268",
+      "38270700",
+      "33407585",
+      "34359884",
+      "38029865",
+      "37739440",
+      "32368297",
+      "33552157",
+      "38239299",
+      "39004158",
+      "37884747",
+      "38139250",
+      "32024819",
+      "37541532",
+      "38180952",
+      "38297372",
+      "38408603",
+      "34323031",
+      "36276962",
+      "37816138",
+      "39325855",
+      "33520703",
+      "38430694",
+      "38292487",
+      "38177283",
+      "34638408",
+      "36994237",
+      "37895302",
+      "39009444",
+      "38047081",
+      "38680661",
+      "38294583",
+      "37734980",
+      "37680200",
+      "38595819"
+    ],
+    "review": [
+      "37356294",
+      "35281061",
+      "26034368",
+      "34120068",
+      "37064872",
+      "38270700",
+      "34359884",
+      "38029865",
+      "39004158",
+      "37884747",
+      "38139250",
+      "37541532",
+      "38180952",
+      "38297372",
+      "38408603",
+      "34323031",
+      "33520703",
+      "38430694",
+      "38292487",
+      "34638408",
+      "36994237",
+      "37895302"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(23)00543-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(23)00543-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

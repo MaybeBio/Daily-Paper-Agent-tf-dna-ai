@@ -1,0 +1,633 @@
+{
+  "identity": {
+    "pmid": "41498638",
+    "doi": "10.1002/advs.202508697",
+    "title": "CellPolaris: Transfer Learning for Gene Regulatory Network Construction to Guide Cell State Transitions."
+  },
+  "content": {
+    "abstract": "Cell fate decisions are orchestrated by intricate gene regulatory networks (GRNs), which govern gene expression with precise spatiotemporal control. However, accurately capturing context-specific nature of gene regulation remains challenging, particularly when integrating multi-omics data at bulk and single-cell level across diverse cellular contexts. Here, we present CellPolaris, a unified computational framework designed to decode the roles of transcription factors (TFs) in developmental processes. CellPolaris performs TF-centered GRN construction, master TF identification, and TF perturbation simulation. By leveraging transfer learning, the framework generates tissue-specific or cell-type-specific GRNs using pre-constructed high-confidence GRNs of diverse contexts and requires only transcriptomic data as input. Using these learned GRNs, CellPolaris identifies underlying master TFs critical for cell fate transitions and simulates the effects of TF perturbations on developmental processes. Benchmarking tests demonstrate the robust performance of CellPolaris in GRN construction. The efficacy of CellPolaris is supported by the significant overlap between predicted top-ranked master regulators and known TF combinations experimentally validated in cell fate conversion experiments. Furthermore, CellPolaris accurately simulates the developmental consequences of Rfx2 knockout during round spermatid differentiation. In summary, we present CellPolaris, a comprehensive framework that enables GRN construction through transfer learning, identification of key TFs driving cell fate transitions, and simulation of TF perturbations. This tool allows us to further elucidate the regulatory mechanisms underlying developmental processes and cell state transitions.",
+    "keywords": [
+      "cell fate",
+      "gene regulatory network",
+      "perturbation simulation",
+      "transfer learning"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks/genetics",
+      "Transfer Machine Learning",
+      "*Transcription Factors/genetics/metabolism",
+      "Animals",
+      "*Computational Biology/methods",
+      "*Cell Differentiation/genetics",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Guihai",
+        "Qin, Xin",
+        "Zhang, Jiahao",
+        "Huang, Wuliang",
+        "Zhang, Yiyang",
+        "Cui, Wentao",
+        "Chen, Yao",
+        "Li, Shirui",
+        "Liu, Wenhao",
+        "Tian, Yao",
+        "Liu, Yana",
+        "Dong, Jingxi",
+        "Xu, Ping",
+        "Man, Zhenpeng",
+        "Liu, Guole",
+        "Liang, Zhongming",
+        "Jiang, Xinlong",
+        "Yang, Xiaodong",
+        "Wang, Pengfei",
+        "Yang, Ge",
+        "Wang, Hongmei",
+        "Wang, Xuezhi",
+        "Tong, Ming-Han",
+        "Zhou, Yuanchun",
+        "Zhang, Shihua",
+        "Chen, Yiqiang",
+        "Wang, Yong",
+        "Li, Xin"
+      ],
+      "short_names": [
+        "Feng G",
+        "Qin X",
+        "Zhang J",
+        "Huang W",
+        "Zhang Y",
+        "Cui W",
+        "Chen Y",
+        "Li S",
+        "Liu W",
+        "Tian Y",
+        "Liu Y",
+        "Dong J",
+        "Xu P",
+        "Man Z",
+        "Liu G",
+        "Liang Z",
+        "Jiang X",
+        "Yang X",
+        "Wang P",
+        "Yang G",
+        "Wang H",
+        "Wang X",
+        "Tong MH",
+        "Zhou Y",
+        "Zhang S",
+        "Chen Y",
+        "Wang Y",
+        "Li X"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-2751-1169"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "School of Software, Yunnan University, Kunming, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Molecular Biology, Shanghai Key Laboratory of Molecular Andrology, Shanghai Institute of Biochemistry and Cell Biology, Center For Excellence in Molecular Cell Science, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Molecular Biology, Shanghai Key Laboratory of Molecular Andrology, Shanghai Institute of Biochemistry and Cell Biology, Center For Excellence in Molecular Cell Science, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Guihai",
+        "short_name": "Feng G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xin",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiahao",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wuliang",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiyang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China.",
+          "School of Software, Yunnan University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Wentao",
+        "short_name": "Cui W",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Biology, Shanghai Key Laboratory of Molecular Andrology, Shanghai Institute of Biochemistry and Cell Biology, Center For Excellence in Molecular Cell Science, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shirui",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenhao",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Yao",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yana",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Jingxi",
+        "short_name": "Dong J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ping",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Man, Zhenpeng",
+        "short_name": "Man Z",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guole",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhongming",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xinlong",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaodong",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengfei",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ge",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongmei",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuezhi",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Ming-Han",
+        "short_name": "Tong MH",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Molecular Biology, Shanghai Key Laboratory of Molecular Andrology, Shanghai Institute of Biochemistry and Cell Biology, Center For Excellence in Molecular Cell Science, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuanchun",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shihua",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yiqiang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "State Key Laboratory of Mathematical Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0003-2751-1169"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Organ Regeneration and Reconstruction, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Institute For Stem Cell and Regenerative Medicine, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/07 13:18",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42703517"
+    ],
+    "refs": [
+      "39375485",
+      "38980373",
+      "38844628",
+      "38409223",
+      "38123534",
+      "37985457",
+      "37735262",
+      "37443338",
+      "37264201",
+      "37258680",
+      "36928215",
+      "36755098",
+      "36732632",
+      "36494342",
+      "36270275",
+      "36198796",
+      "35578363",
+      "35414121",
+      "35325188",
+      "35017532",
+      "34244796",
+      "34151224",
+      "33619563",
+      "33606177",
+      "33296652",
+      "32188700",
+      "31713622",
+      "31521504",
+      "30445495",
+      "30290144",
+      "30061742",
+      "29409532",
+      "29087512",
+      "28991892",
+      "28914256",
+      "26853561",
+      "26780608",
+      "26424082",
+      "26162102",
+      "25690850",
+      "25126792",
+      "24153303",
+      "23582322",
+      "23104886",
+      "22955616",
+      "22855721",
+      "22136926",
+      "21414487",
+      "21209834",
+      "20927193",
+      "16595651",
+      "16493418",
+      "11472831"
+    ],
+    "similar": [
+      "41498638",
+      "42475469",
+      "41288963",
+      "29879919",
+      "41643202",
+      "41067887",
+      "42059479",
+      "32054475",
+      "24228871",
+      "41317402",
+      "38980373",
+      "36584685",
+      "39062480",
+      "36156073",
+      "39535258",
+      "38652107",
+      "41984780",
+      "41310370",
+      "40210438",
+      "28254369",
+      "26735242",
+      "41093852",
+      "41518505",
+      "37889053",
+      "37085776",
+      "40365911",
+      "37244909",
+      "38123534",
+      "37788349",
+      "42119563",
+      "39570626",
+      "40607808",
+      "42560939",
+      "41677026",
+      "38744843",
+      "21172055",
+      "38652750",
+      "34374760",
+      "40662821",
+      "25887857",
+      "40585960",
+      "29769331",
+      "35205415",
+      "39679439",
+      "37365273",
+      "40638792",
+      "42239343",
+      "34251620",
+      "30949696",
+      "38653489",
+      "31062304",
+      "41489955",
+      "40654959",
+      "35062026",
+      "36070863",
+      "38950180",
+      "21496241",
+      "32207875",
+      "40633682",
+      "42074532",
+      "36307979",
+      "41183107",
+      "40037709",
+      "38814745",
+      "34244796",
+      "41276918",
+      "32019417",
+      "35030198",
+      "33170214",
+      "41300707",
+      "42428020",
+      "34251625",
+      "36991439",
+      "37577525",
+      "39541410",
+      "41052197",
+      "29051499",
+      "41662352",
+      "41233338",
+      "38342857",
+      "25163748",
+      "42249125",
+      "33631799",
+      "23623899",
+      "30844478",
+      "42313807",
+      "34962963",
+      "29272447",
+      "41329984",
+      "42086551",
+      "41554051",
+      "42163770",
+      "41191474",
+      "18426580",
+      "39161769",
+      "40251476",
+      "42428023",
+      "39589130",
+      "41883144",
+      "42061403"
+    ],
+    "review": [
+      "41498638",
+      "26735242",
+      "37365273"
+    ],
+    "pmc": [
+      "12948241"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/41498638",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41498638/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39062480",
+  "title": "DeepIMAGER: Deeply Analyzing Gene Regulatory Networks from scRNA-seq Data.",
+  "authors": "Zhou, Xiguo; Pan, Jingyi; Chen, Liang; Zhang, Shaoqiang; Chen, Yong",
+  "journal": "Biomolecules",
+  "published_date": "2024-07-27",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习从scRNA-seq推断基因调控网络，利用TF结合信息训练模型，但核心是GRN推断而非TF-DNA三维互作建模，方法可迁移但深度不足。",
+  "abstract": "Understanding the dynamics of gene regulatory networks (GRNs) across diverse cell types poses a challenge yet holds immense value in unraveling the molecular mechanisms governing cellular processes. Current computational methods, which rely solely on expression changes from bulk RNA-seq and/or scRNA-seq data, often result in high rates of false positives and low precision. Here, we introduce an advanced computational tool, DeepIMAGER, for inferring cell-specific GRNs through deep learning and data integration. DeepIMAGER employs a supervised approach that transforms the co-expression patterns of gene pairs into image-like representations and leverages transcription factor (TF) binding information for model training. It is trained using comprehensive datasets that encompass scRNA-seq profiles and ChIP-seq data, capturing TF-gene pair information across various cell types. Comprehensive validations on six cell lines show DeepIMAGER exhibits superior performance in ten popular GRN inference tools and has remarkable robustness against dropout-zero events. DeepIMAGER was applied to scRNA-seq datasets of multiple myeloma (MM) and detected potential GRNs for TFs of RORC, MITF, and FOXD2 in MM dendritic cells. This technical innovation, combined with its capability to accurately decode GRNs from scRNA-seq, establishes DeepIMAGER as a valuable tool for unraveling complex regulatory networks in various cell types.",
+  "abstract_zh": "理解不同细胞类型中基因调控网络（GRNs）的动态变化既是一项挑战，又在揭示控制细胞过程的分子机制方面具有巨大价值。当前的计算方法仅依赖于批量RNA-seq和/或单细胞RNA-seq（scRNA-seq）数据中的表达变化，往往导致高假阳性率和低精确度。在此，我们介绍一种先进的计算工具DeepIMAGER，通过深度学习和数据整合来推断细胞特异性GRNs。DeepIMAGER采用监督学习方法，将基因对的共表达模式转化为图像样表示，并利用转录因子（TF）结合信息进行模型训练。它使用包含scRNA-seq谱和ChIP-seq数据的综合数据集进行训练，捕捉多种细胞类型中的TF-基因对信息。在六种细胞系上的全面验证显示，DeepIMAGER在十种流行的GRN推断工具中表现出优越性能，并对dropout-zero事件具有显著鲁棒性。DeepIMAGER被应用于多发性骨髓瘤（MM）的scRNA-seq数据集，并在MM树突状细胞中检测到RORC、MITF和FOXD2等转录因子的潜在GRNs。这一技术创新，加上其从scRNA-seq中准确解码GRNs的能力，使DeepIMAGER成为揭示各种细胞类型中复杂调控网络的宝贵工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39062480/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39062480/",
+  "paper_page_path": "papers/pubmed/39062480/index.html"
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion) for the article by Dong et al., published in *Cells* (2024), DOI: 10.3390/cells13181535.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No access to supplementary figures, tables, or raw data beyond what is described in the text.
+- **Shared manuscript claim summary** The authors identify and characterize CgCHIP, a U-box E3 ubiquitin ligase homolog in the Pacific oyster (*Crassostrea gigas*), and propose that it negatively regulates haemocyte proliferation and differentiation by ubiquitinating and degrading the transcription factor CgRunx, thereby influencing immune cell homeostasis.
+- **Visible evidence base** Descriptions of gene cloning, sequence analysis, phylogenetic tree construction, recombinant protein expression, antibody preparation, immunofluorescence staining, co-immunoprecipitation, in vitro ubiquitination assays, RNA interference, flow cytometry, and Western blotting. Results are presented in Figures 1–7 and Supplementary Figures S1–S2, as referenced in the text.
+- **Missing materials affecting confidence** Actual figures, supplementary tables (e.g., Table S1 with primer sequences), raw flow cytometry data, Western blot images, statistical output details, and any proteomics or transcriptomics datasets referenced but not shown. The text references "transcriptome data" (Figures 2E, 4B) without specifying the source or analysis method.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and interesting question in invertebrate immunology, namely the molecular regulation of haemocyte turnover in a mollusc. The identification of CgCHIP and its proposed interaction with CgRunx is plausible and builds on established knowledge from vertebrate systems. However, the evidence presented is largely correlative and descriptive, with several key experiments lacking appropriate controls or quantitative rigor. The causal link between CgCHIP-mediated ubiquitination of CgRunx and the observed phenotypic changes in haemocyte populations is not fully established. The manuscript would benefit from more direct biochemical evidence, quantitative data, and a clearer demonstration of the in vivo relevance of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers in comparative immunology, invertebrate hematopoiesis, and evolutionary biology would find this work of interest. The study extends knowledge of CHIP-mediated regulation of Runx transcription factors from vertebrates to a protostome lineage, suggesting an ancient conserved mechanism. Those studying oyster immunity and aquaculture health may also find the findings relevant to understanding immune responses to bacterial pathogens.
+- **Major strengths** 1. The study addresses a significant gap in understanding the molecular control of haemocyte proliferation and differentiation in molluscs. 2. The identification and characterization of CgCHIP, including its conserved domain architecture and phylogenetic placement, is solid. 3. The combination of in vitro biochemical assays (ubiquitination) with in vivo RNAi approaches is commendable. 4. The use of multiple markers (PCNA, Cyclin B1, CDK2, Integrin α4, AATase) to support phenotypic claims adds some depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The authors claim that CgCHIP directly interacts with and ubiquitinates CgRunx, leading to its degradation (Sections 3.5, 3.6, Discussion).
+  - **Evidence pointer** Section 3.5, Figure 3C, 3F, 3G, 3H; Section 3.6, Figure 4F, 4G
+  - **Concern** The co-immunoprecipitation (Co-IP) experiment is described as using haemocyte lysate with an anti-CgCHIP antibody, but no negative control (e.g., IgG control or lysate from CgCHIP-knockdown cells) is mentioned. The in vitro ubiquitination assay shows a smear in the presence of CgCHIP, but the specificity of this smear for CgRunx ubiquitination is not demonstrated (e.g., no mutant CgRunx lacking predicted ubiquitination sites was tested). The restoration of CgRunx protein levels by MG132 is shown, but this is a general proteasome inhibitor and does not specifically link CgCHIP activity to the observed effect.
+  - **Why it matters** Without proper controls, the claim of a direct and specific interaction between CgCHIP and CgRunx, and the causal role of CgCHIP in CgRunx degradation, is not convincingly established. This is central to the manuscript's main conclusion.
+  - **Resolution test** Include a negative control for Co-IP (e.g., pre-immune serum). For the ubiquitination assay, include a reaction without E1 or E2, and ideally test a CgRunx mutant lacking the predicted ubiquitination sites. For the MG132 experiment, include a control with a catalytically inactive CgCHIP mutant to show that the effect is dependent on CgCHIP's E3 ligase activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** The authors claim that knockdown of CgCHIP alters haemocyte subpopulation proportions, increases granulocyte proliferation, and enhances phagocytosis (Sections 3.4, 3.8, 3.9).
+  - **Evidence pointer** Section 3.4, Figure 2K, 2L; Section 3.8, Figure 6A–G; Section 3.9, Figure 7A, 7B
+  - **Concern** The text reports percentage changes in haemocyte subpopulations and phagocytosis rates, but no statistical analysis is described for these flow cytometry data. The number of biological replicates is stated as n=3 in the Methods, but it is unclear if these are independent experiments or technical replicates. The Western blot data (e.g., Figure 4F, 4G, 6H, 6I) are presented as fold changes without error bars or statistical tests.
+  - **Why it matters** The conclusions regarding the functional role of CgCHIP in regulating haemocyte dynamics rely heavily on these quantitative measurements. Without proper statistical validation, the reported differences may not be robust or reproducible.
+  - **Resolution test** Provide statistical analysis (e.g., t-tests or ANOVA with appropriate post-hoc tests) for all flow cytometry and Western blot quantifications. Clearly state the number of independent biological replicates and show individual data points or error bars.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link and specificity
+  - **Claim pointer** The authors propose that CgCHIP negatively regulates haemocyte proliferation and differentiation specifically through CgRunx (Sections 3.7, 3.8, Discussion).
+  - **Evidence pointer** Section 3.7, Figure 5B–E; Section 3.8, Figure 6F, 6G
+  - **Concern** The manuscript shows that knockdown of CgCHIP and knockdown of CgRunx have opposite effects on haemocyte subpopulations and cell cycle. However, a direct epistasis experiment (e.g., simultaneous knockdown of both genes) is not performed. It is therefore not clear whether the effects of CgCHIP knockdown are entirely mediated by CgRunx or whether CgCHIP has other substrates that contribute to the phenotype.
+  - **Why it matters** The claim of a specific CgCHIP-CgRunx axis is central to the paper's novelty. Without epistasis analysis, alternative explanations remain plausible.
+  - **Resolution test** Perform a double-knockdown experiment (CgCHIP + CgRunx) and compare the phenotype to single knockdowns. If the double knockdown phenocopies the CgRunx knockdown, this would support the proposed pathway.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vitro model relevance
+  - **Claim pointer** The authors use an in vitro culture model of agranulocytes to study differentiation (Section 3.7).
+  - **Evidence pointer** Section 2.13, Section 3.7, Figure 5A–C
+  - **Concern** The in vitro culture model is described briefly, but the purity of the isolated agranulocyte population is not assessed. The differentiation of agranulocytes into semi-granulocytes and granulocytes is inferred from flow cytometry scatter patterns, but no specific markers are used to confirm the identity of the differentiated cells.
+  - **Why it matters** The validity of the in vitro differentiation assay depends on the starting population being pure agranulocytes and the end-point cells being correctly identified. Without this, the interpretation of the differentiation data is uncertain.
+  - **Resolution test** Assess the purity of the isolated agranulocyte fraction using known markers (e.g., flow cytometry with antibodies against agranulocyte-specific surface proteins). Confirm differentiated cell identity using multiple markers or morphological analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Section 2.9 (Molecular Docking)
+  - **Evidence pointer** Section 2.9
+  - **Issue** The molecular docking section is very brief and does not specify the software or scoring function used for the docking analysis. The statement "PyMOL was applied to evaluate and visualize the interactions" is vague.
+  - **Required correction** Provide details on the docking algorithm, parameters, and how the interaction interface was defined. Specify the version of PyMOL and any additional tools used for analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.3, Figure 2C, 2D
+  - **Evidence pointer** Section 3.3
+  - **Issue** The text states that the recombinant protein was purified and used for antibody production, but the purity of the recombinant protein is not shown or quantified. The Western blot in Figure 2D confirms antibody specificity, but the quality of the recombinant protein preparation is not documented.
+  - **Required correction** Include a Coomassie-stained gel or a purity assessment (e.g., densitometry) for the recombinant protein. State the yield and purity of the final preparation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of transcriptome data
+  - **Affected element** Sections 3.3, 3.6, Figures 2E, 4B
+  - **Evidence pointer** Sections 3.3, 3.6
+  - **Issue** The text references "transcriptome data" to support expression patterns, but the source of this data (e.g., published dataset, own RNA-seq) is not specified. No details on the analysis or statistics are provided.
+  - **Required correction** Cite the source of the transcriptome data and briefly describe how the expression levels were derived and analyzed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure legends
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The text describes results from Figures 1–7, but the figure legends are not provided in the manuscript text. It is impossible to assess the quality of the data presentation or the statistical annotations.
+  - **Required correction** Ensure figure legends are complete, including sample sizes, statistical tests used, and significance levels.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The phrase "haemocyte metamorphosis" in the Discussion is unusual and not clearly defined. The term "metamorphosis" typically refers to developmental transitions in body plan, not cell differentiation.
+  - **Required correction** Replace "haemocyte metamorphosis" with a more precise term such as "haemocyte differentiation" or "haemocyte turnover."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of controls for interaction and ubiquitination), R1-M2 (lack of statistical rigor in quantitative data), R1-M3 (no epistasis experiment to establish pathway specificity).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its application of known CHIP-Runx interactions to a molluscan system, but the conceptual framework is largely borrowed from vertebrate literature. The finding that a similar regulatory axis may exist in oysters is novel but not entirely unexpected.
+  - **Scientific importance** The work contributes to understanding the evolution of hematopoietic regulation and innate immunity. However, the importance is incremental rather than transformative, as it largely confirms a mechanism already established in vertebrates.
+  - **Interdisciplinary readership** The topic is of interest to immunologists, evolutionary biologists, and aquaculture researchers. The methods are standard and accessible to a broad biological audience.
+  - **Technical soundness** The technical approach is generally sound, but the lack of key controls and statistical validation (as detailed in Major Concerns) undermines the robustness of the conclusions.
+  - **Readability for nonspecialists** The manuscript is clearly written and logically structured. The abstract and introduction provide sufficient background for nonspecialists to understand the rationale. However, some methods sections (e.g., molecular docking) are too brief for reproducibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the preliminary data are suggestive, but the current evidence does not fully establish the proposed mechanism. The manuscript would be suitable for publication in a specialized journal like *Cells* after major revisions addressing the experimental and statistical concerns.
+
+## Risk / unsupported claims
+- The claim that CgCHIP directly interacts with CgRunx is not fully supported due to the lack of appropriate negative controls in the Co-IP experiment.
+- The claim that CgCHIP mediates ubiquitination and degradation of CgRunx is not fully established, as the in vitro ubiquitination assay lacks specificity controls and the MG132 experiment does not directly link CgCHIP activity.
+- The claim that CgCHIP negatively regulates haemocyte proliferation and differentiation specifically through CgRunx is not supported by epistasis experiments.
+- The quantitative changes in haemocyte subpopulations, cell cycle phases, and phagocytosis rates are reported without statistical analysis, making these claims unverifiable from the provided data.
+- The "transcriptome data" referenced in Figures 2E and 4B are not described or cited, making these claims unverifiable.

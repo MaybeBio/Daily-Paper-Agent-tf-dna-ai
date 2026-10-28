@@ -1,0 +1,557 @@
+{
+  "identity": {
+    "pmid": "36931740",
+    "doi": "10.1016/j.modpat.2022.100033",
+    "title": "Noninferiority of Artificial Intelligence-Assisted Analysis of Ki-67 and Estrogen/Progesterone Receptor in Breast Cancer Routine Diagnostics."
+  },
+  "content": {
+    "abstract": "Image analysis assistance with artificial intelligence (AI) has become one of the great promises over recent years in pathology, with many scientific studies being published each year. Nonetheless, and perhaps surprisingly, only few image AI systems are already in routine clinical use. A major reason for this is the missing validation of the robustness of many AI systems: beyond a narrow context, the large variability in digital images due to differences in preanalytical laboratory procedures, staining procedures, and scanners can be challenging for the subsequent image analysis. Resulting faulty AI analysis may bias the pathologist and contribute to incorrect diagnoses and, therefore, may lead to inappropriate therapy or prognosis. In this study, a pretrained AI assistance tool for the quantification of Ki-67, estrogen receptor (ER), and progesterone receptor (PR) in breast cancer was evaluated within a realistic study set representative of clinical routine on a total of 204 slides (72 Ki-67, 66 ER, and 66 PR slides). This represents the cohort with the largest image variance for AI tool evaluation to date, including 3 staining systems, 5 whole-slide scanners, and 1 microscope camera. These routine cases were collected without manual preselection and analyzed by 10 participant pathologists from 8 sites. Agreement rates for individual pathologists were found to be 87.6% for Ki-67 and 89.4% for ER/PR, respectively, between scoring with and without the assistance of the AI tool regarding clinical categories. Individual AI analysis results were confirmed by the majority of pathologists in 95.8% of Ki-67 cases and 93.2% of ER/PR cases. The statistical analysis provides evidence for high interobserver variance between pathologists (Krippendorff's alpha, 0.69) in conventional immunohistochemical quantification. Pathologist agreement increased slightly when using AI support (Krippendorff alpha, 0.72). Agreement rates of pathologist scores with and without AI assistance provide evidence for the reliability of immunohistochemical scoring with the support of the investigated AI tool under a large number of environmental variables that influence the quality of the diagnosed tissue images.",
+    "keywords": [
+      "digital pathology",
+      "mammary carcinoma",
+      "surgical pathology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Artificial Intelligence",
+      "*Breast Neoplasms/diagnosis/pathology",
+      "Ki-67 Antigen/analysis",
+      "Reproducibility of Results",
+      "Receptors, Progesterone/analysis",
+      "Receptors, Estrogen/analysis",
+      "Estrogens"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abele, Niklas",
+        "Tiemann, Katharina",
+        "Krech, Till",
+        "Wellmann, Axel",
+        "Schaaf, Christian",
+        "Langer, Florian",
+        "Peters, Anja",
+        "Donner, Andreas",
+        "Keil, Felix",
+        "Daifalla, Khalid",
+        "Mackens, Marina",
+        "Mamilos, Andreas",
+        "Minin, Evgeny",
+        "Krummelbein, Michel",
+        "Krause, Linda",
+        "Stark, Maria",
+        "Zapf, Antonia",
+        "Papper, Marc",
+        "Hartmann, Arndt",
+        "Lang, Tobias"
+      ],
+      "short_names": [
+        "Abele N",
+        "Tiemann K",
+        "Krech T",
+        "Wellmann A",
+        "Schaaf C",
+        "Langer F",
+        "Peters A",
+        "Donner A",
+        "Keil F",
+        "Daifalla K",
+        "Mackens M",
+        "Mamilos A",
+        "Minin E",
+        "Krummelbein M",
+        "Krause L",
+        "Stark M",
+        "Zapf A",
+        "Papper M",
+        "Hartmann A",
+        "Lang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Friedrich-Alexander-Universitat Erlangen-Nurnberg, Institut fur Pathologie, Erlangen, Germany. Electronic address: niklas.abele@uk-erlangen.de.",
+        "Institute of Hematopathology Hamburg, Hamburg, Germany.",
+        "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany; Institute of Pathology, Clinical Center Osnabrueck, Osnabrueck, Germany.",
+        "Institute of Pathology Celle, Celle, Germany.",
+        "Department of Internal Medicine II, Klinikum rechts der Isar of the TU Munich, Munich, Germany.",
+        "Institut fur Pathologie, Medizinische Hochschule Hannover, Hannover, Germany.",
+        "Institut fur Pathologie, Stadtisches Klinikum Luneburg gGmbH, Luneburg, Germany.",
+        "Zentrum fur Pathologie, Zytologie und Molekularpathologie Neuss, Neuss, Germany.",
+        "Institute of Pathology, University of Regensburg, Regensburg, Germany.",
+        "Mindpeak, Hamburg, Germany.",
+        "Institute of Hematopathology Hamburg, Hamburg, Germany.",
+        "Institute of Pathology, University of Regensburg, Regensburg, Germany.",
+        "Institute of Pathology, Clinical Center Osnabrueck, Osnabrueck, Germany.",
+        "Institute of Hematopathology Hamburg, Hamburg, Germany.",
+        "Institute of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Institute of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+        "Mindpeak, Hamburg, Germany.",
+        "Friedrich-Alexander-Universitat Erlangen-Nurnberg, Institut fur Pathologie, Erlangen, Germany.",
+        "Mindpeak, Hamburg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abele, Niklas",
+        "short_name": "Abele N",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich-Alexander-Universität Erlangen-Nürnberg, Institut für Pathologie, Erlangen, Germany. Electronic address: niklas.abele@uk-erlangen.de."
+        ]
+      },
+      {
+        "full_name": "Tiemann, Katharina",
+        "short_name": "Tiemann K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Hematopathology Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Krech, Till",
+        "short_name": "Krech T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany; Institute of Pathology, Clinical Center Osnabrueck, Osnabrueck, Germany."
+        ]
+      },
+      {
+        "full_name": "Wellmann, Axel",
+        "short_name": "Wellmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology Celle, Celle, Germany."
+        ]
+      },
+      {
+        "full_name": "Schaaf, Christian",
+        "short_name": "Schaaf C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine II, Klinikum rechts der Isar of the TU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Länger, Florian",
+        "short_name": "Länger F",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Pathologie, Medizinische Hochschule Hannover, Hannover, Germany."
+        ]
+      },
+      {
+        "full_name": "Peters, Anja",
+        "short_name": "Peters A",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Pathologie, Städtisches Klinikum Lüneburg gGmbH, Lüneburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Donner, Andreas",
+        "short_name": "Donner A",
+        "identifiers": [],
+        "affiliations": [
+          "Zentrum für Pathologie, Zytologie und Molekularpathologie Neuss, Neuss, Germany."
+        ]
+      },
+      {
+        "full_name": "Keil, Felix",
+        "short_name": "Keil F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Daifalla, Khalid",
+        "short_name": "Daifalla K",
+        "identifiers": [],
+        "affiliations": [
+          "Mindpeak, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mackens, Marina",
+        "short_name": "Mackens M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Hematopathology Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mamilos, Andreas",
+        "short_name": "Mamilos A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, University of Regensburg, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Minin, Evgeny",
+        "short_name": "Minin E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Clinical Center Osnabrueck, Osnabrueck, Germany."
+        ]
+      },
+      {
+        "full_name": "Krümmelbein, Michel",
+        "short_name": "Krümmelbein M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Hematopathology Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Krause, Linda",
+        "short_name": "Krause L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stark, Maria",
+        "short_name": "Stark M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zapf, Antonia",
+        "short_name": "Zapf A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Biometry and Epidemiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Päpper, Marc",
+        "short_name": "Päpper M",
+        "identifiers": [],
+        "affiliations": [
+          "Mindpeak, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hartmann, Arndt",
+        "short_name": "Hartmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich-Alexander-Universität Erlangen-Nürnberg, Institut für Pathologie, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Lang, Tobias",
+        "short_name": "Lang T",
+        "identifiers": [],
+        "affiliations": [
+          "Mindpeak, Hamburg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc"
+    ],
+    "journal_abbrev": [
+      "Mod Pathol"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/18 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "42650034",
+      "42585970",
+      "42494931",
+      "42291889",
+      "41930306",
+      "41791000",
+      "41472189",
+      "41409212",
+      "41341475",
+      "41316486",
+      "41095746",
+      "40979169",
+      "40525301",
+      "40180631",
+      "40179582",
+      "40028897",
+      "39981497",
+      "39926091",
+      "39890986",
+      "39272688",
+      "39063947",
+      "38893102",
+      "38473154",
+      "38395930",
+      "38388367",
+      "38218973",
+      "38067395",
+      "38012673",
+      "37926067",
+      "37580849"
+    ],
+    "refs": [],
+    "similar": [
+      "36931740",
+      "38395930",
+      "20663194",
+      "34323051",
+      "25421113",
+      "19320193",
+      "34730818",
+      "28472544",
+      "31640622",
+      "34518629",
+      "21244664",
+      "38519745",
+      "26410019",
+      "12404057",
+      "33840132",
+      "34279719",
+      "39393036",
+      "29959636",
+      "34415429",
+      "28193205",
+      "37190690",
+      "18947395",
+      "32440959",
+      "35271701",
+      "35576849",
+      "35094693",
+      "25565114",
+      "32622359",
+      "23161712",
+      "20529811",
+      "21350103",
+      "31398111",
+      "39350085",
+      "38218973",
+      "8917341",
+      "28009468",
+      "17535263",
+      "26659386",
+      "23818347",
+      "23479208",
+      "29304138",
+      "36788100",
+      "25959664",
+      "29893312",
+      "37835848",
+      "9494596",
+      "20164018",
+      "37100542",
+      "33328045",
+      "27729430",
+      "33180129",
+      "28926895",
+      "34875014",
+      "37286323",
+      "7547496",
+      "25033694",
+      "29885671",
+      "28805805",
+      "27619909",
+      "17276950",
+      "31348505",
+      "32578891",
+      "1651807",
+      "23240985",
+      "30153851",
+      "12942575",
+      "23154769",
+      "37757969",
+      "31550858",
+      "22496908",
+      "38157098",
+      "19217031",
+      "33590577",
+      "22820666",
+      "27299796",
+      "26657878",
+      "12469193",
+      "30694768",
+      "21217524",
+      "25872340",
+      "32471471",
+      "12665330",
+      "23082931",
+      "8302707",
+      "38712418",
+      "33413654",
+      "7455895",
+      "27349894",
+      "11490943",
+      "24056649",
+      "38655907",
+      "25178713",
+      "17334408",
+      "23818346",
+      "9284572",
+      "24414612",
+      "35660765",
+      "33527136",
+      "23971947",
+      "31669267",
+      "8965315",
+      "19346635",
+      "38984400",
+      "18686353",
+      "14632573",
+      "31373514",
+      "38388367",
+      "20192071",
+      "16703595",
+      "9915137",
+      "12174912",
+      "21092276",
+      "39241826",
+      "37474003",
+      "37863559",
+      "39053633",
+      "38154653",
+      "36800539",
+      "38154654",
+      "38907685",
+      "37127060",
+      "37559526",
+      "38201594",
+      "36599660",
+      "36520777",
+      "37987817",
+      "36567379",
+      "38724730",
+      "38868487",
+      "37669090",
+      "35165248",
+      "38387381",
+      "38179884",
+      "29742125",
+      "35751441",
+      "33829683",
+      "38001875",
+      "35911208",
+      "37598916",
+      "39180115",
+      "38180137",
+      "36791682",
+      "36367625",
+      "38984198",
+      "37732701",
+      "37553129",
+      "37999128",
+      "38903819",
+      "32195366",
+      "37742926",
+      "38951722",
+      "36991420",
+      "38598097",
+      "36088478",
+      "38450704",
+      "38730640",
+      "38077478",
+      "39400051",
+      "34012717",
+      "37908675",
+      "23766935",
+      "39114431",
+      "36518598",
+      "38125926",
+      "36773090",
+      "34012719",
+      "37789032",
+      "39112099",
+      "37154611",
+      "38915984",
+      "38148967",
+      "37038997",
+      "37945334",
+      "38302194",
+      "35901189",
+      "37202805",
+      "37935636",
+      "37721057",
+      "37760550",
+      "36268060",
+      "38364720",
+      "38552191",
+      "38269963",
+      "37980431",
+      "34152912",
+      "39020205",
+      "38108491",
+      "35220353",
+      "39122950",
+      "38175900",
+      "39017117",
+      "37542158"
+    ],
+    "review": [
+      "36931740",
+      "20164018",
+      "37757969",
+      "38712418",
+      "38655907",
+      "31373514",
+      "38388367",
+      "37863559",
+      "39053633",
+      "36800539",
+      "37987817",
+      "35165248",
+      "33829683",
+      "38001875",
+      "38180137",
+      "36791682",
+      "38984198",
+      "37553129",
+      "38598097",
+      "36088478",
+      "34012717"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0893-3952(22)00033-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

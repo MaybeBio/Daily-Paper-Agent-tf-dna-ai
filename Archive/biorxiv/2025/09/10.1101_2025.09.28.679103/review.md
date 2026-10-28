@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, and appendices
+- **Assessment boundary** Scientific claims, methodology, experimental design, and interpretation as presented in the provided material
+- **Shared manuscript claim summary** The authors present a three-stage, sequence-based modeling suite for protein–ligand binding site prediction that progressively adds ligand conditioning and zero-shot capability. They claim Stage 2 improves Macro F1 on overrepresented ligands from 0.4769 to 0.5832, Stage 3 achieves zero-shot F1 of 0.3109 on 5,612 unseen ligands, and that scaling the protein encoder (ESM-2) dominates gains while scaling the chemical encoder yields modest or inconsistent improvements.
+- **Visible evidence base** Abstract, Sections 1–6, Appendix A (extended related work), Appendix B (data preprocessing), Appendix C (architecture, content not provided), Appendix D (hyperparameters, referenced but not provided), Tables 1–4 (referenced but not shown), Figures 1–5 (referenced but not shown)
+- **Missing materials affecting confidence** Tables 1–4, Figures 1–5, Appendix C (architecture details), Appendix D (hyperparameter configurations), and all supplementary tables (Table S1–S3) are referenced but not included in the provided material. Statistical significance tests, confidence intervals, and per-ligand performance breakdowns are not reported.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and practically important problem, namely zero-shot protein–ligand binding site prediction from sequence and SMILES alone. The three-regime evaluation framework is a useful contribution, and the progressive architecture design is logical. However, the provided material does not include the actual results tables and figures, making it impossible to verify the central quantitative claims. The methodological description is incomplete in key areas, particularly regarding the projector architecture, the decoder design, and the handling of variable-length SMILES embeddings. The comparison to existing methods is limited to a single baseline (Prot2Token) and one structure-based method (Boltz-2x), which is insufficient to establish state-of-the-art performance. The claim that larger PLM backbones consistently increase Macro F1 across all regimes is presented without supporting data in the visible text. The manuscript has potential but the case is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, drug discovery researchers interested in high-throughput virtual screening, and machine learning practitioners developing multimodal models for biological sequences. The zero-shot capability is particularly relevant for ligand classes with scarce training data, which is common in real-world drug discovery settings.
+- **Major strengths** The three-regime evaluation framework (overrepresented, underrepresented, zero-shot) is a thoughtful and practical contribution that addresses a real gap in the literature. The progressive architecture design, moving from per-ligand models to multi-ligand conditioning to zero-shot via SMILES, is logical and well-motivated. The use of a pretrained protein language model (ESM-2) and chemical language model (MolFormer) leverages recent advances in representation learning. The authors acknowledge the data contamination issue when comparing to structure-based methods and take steps to mitigate within-dataset leakage via CD-HIT clustering. The throughput advantage over structure-based methods is a practically relevant claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims Stage 2 improves Macro F1 on the overrepresented test set from 0.4769 (Stage 1) to 0.5832 and outperforms sequence- and structure-based baselines. Stage 3 attains zero-shot F1 of 0.3109 on 5,612 unseen ligands.
+  - **Evidence pointer** Tables 2–4, Figures 1–5, Table S3; location not provided
+  - **Concern** The central quantitative results are presented only as summary numbers in the text. The actual tables and figures that would allow verification of these claims, including per-ligand breakdowns, standard deviations across seeds, and comparison details, are not included in the provided material. Without these, the reader cannot assess the robustness of the reported improvements, the variance across ligand types, or whether the differences are statistically significant.
+  - **Why it matters** The core contribution of the manuscript is empirical. The claims of improvement from Stage 1 to Stage 2, the zero-shot performance, and the scaling analysis all depend on the results tables and figures. Without access to these, the scientific case is not verifiable.
+  - **Resolution test** Provide the full results tables and figures, including per-ligand performance, standard deviations across the three random seeds, and statistical significance tests comparing Stage 2 vs. Stage 1 and Stage 3 vs. baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** Stage 3 replaces the embedding table with a pretrained chemical language model operating on SMILES, enabling zero-shot generalization. The architecture uses a learnable linear projector to align chemical and protein feature spaces.
+  - **Evidence pointer** Section 3.2, Appendix C; location not provided
+  - **Concern** The description of the projector and the cross-modal fusion mechanism is underspecified. The projector maps from chemical embedding dimension c to protein dimension d, but the manuscript does not describe how the variable-length SMILES embedding is pooled to a fixed-length representation, how the projector is applied across the sequence dimension, or whether the protein and chemical embeddings are aligned in any way before cross-attention. Appendix C, which presumably contains architecture details, is not provided.
+  - **Why it matters** The zero-shot capability is the central novelty of Stage 3. Without a clear description of how SMILES embeddings are integrated with protein embeddings, the method cannot be reproduced or properly evaluated. The claim that the architecture "can technically predict binding sites for entirely new ligand-protein combinations" requires a precise account of the fusion mechanism.
+  - **Resolution test** Provide a complete description of the projector architecture, the pooling strategy for SMILES embeddings, the cross-attention mechanism, and any alignment or normalization steps. Include Appendix C in full.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline comparison adequacy
+  - **Claim pointer** Stage 2 outperforms sequence- and structure-based baselines. The comparison with Prot2Token on the overrepresented test set is shown in Table 4.
+  - **Evidence pointer** Section 4.2, Table 4; location not provided
+  - **Concern** The baseline comparison is limited to Prot2Token (sequence-based) and Boltz-2x (structure-based). The manuscript does not describe the evaluation protocol for these baselines in sufficient detail, including whether the same data splits were used, whether hyperparameters were tuned for each baseline, and how the residue-level labels were derived for Boltz-2x. The authors acknowledge cross-corpus contamination as a caveat but do not quantify its potential impact.
+  - **Why it matters** The claim of outperforming baselines is central to establishing the value of the proposed method. If baselines are not evaluated under identical conditions, the comparison is not fair and the conclusions may not hold.
+  - **Resolution test** Describe the baseline evaluation protocol in detail, including data splits, hyperparameter selection, and label conversion. Report results for all baselines on all three test sets, not just the overrepresented set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scaling analysis interpretation
+  - **Claim pointer** Scaling the protein encoder (ESM-2) consistently increases Macro F1 across all regimes, whereas scaling the chemical encoder yields modest or inconsistent gains.
+  - **Evidence pointer** Section 4.4, Figure 5; location not provided
+  - **Concern** The scaling analysis is presented as a key finding, but the visible text does not report the actual numbers or the magnitude of the gains. The claim that CLM scaling yields "modest or inconsistent" gains is vague and requires quantitative support. The manuscript does not discuss potential reasons for this asymmetry, such as the relative information content of protein versus chemical representations or the capacity of the fusion mechanism.
+  - **Why it matters** The scaling analysis is intended to guide future research directions. If the conclusion is that protein encoder scale matters more than chemical encoder scale, this has implications for resource allocation in model development. The claim needs to be supported with concrete numbers and error bars.
+  - **Resolution test** Report the full scaling results in Figure 5 with numerical values, standard deviations, and a discussion of potential mechanisms underlying the observed patterns.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of data preprocessing
+  - **Affected element** Section 3.1, Appendix B
+  - **Evidence pointer** Section 3.1, Appendix B
+  - **Issue** The manuscript states that ligands were categorized based on the number of associated samples, but the thresholds are described inconsistently. In Section 3.1, overrepresented ligands are defined as having more than 100 samples, while Appendix B states overrepresented ligands bind to at least 200 or 100–200 protein sequences. The final counts (45 overrepresented, 122 underrepresented) do not match the Appendix B description of 32 and 13 ligands in the two overrepresented subgroups.
+  - **Required correction** Reconcile the definitions in Section 3.1 and Appendix B. Clearly state the exact thresholds used for each category and the final number of ligands in each.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Metric reporting
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The manuscript defines Accuracy, F1, Macro F1, and MCC but does not explain why Accuracy is reported when the class imbalance is extreme (binding sites are typically a small fraction of residues). The choice of threshold tau = 0.5 is stated but not justified.
+  - **Required correction** Justify the choice of metrics and threshold, or discuss the sensitivity of results to threshold selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Concern** The manuscript states that all experiments were implemented using PyTorch 2.5 and mixed-precision BF16 training on an NVIDIA A100 GPU, but does not report training time, memory usage, or the number of parameters for each model configuration. The GitHub link is provided but the repository contents are not described.
+  - **Required correction** Add a reproducibility statement with model sizes, training times, and a description of the code repository structure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Related work positioning
+  - **Affected element** Section 2, Appendix A
+  - **Evidence pointer** Section 2, Appendix A
+  - **Issue** The related work section is comprehensive but the positioning of the proposed method relative to LaMPSite, which also uses a GNN over ligand graphs, is not fully articulated. The manuscript states LaMPSite uses a 2D molecular graph, but does not discuss why SMILES-based conditioning via a CLM is preferable to graph-based conditioning.
+  - **Required correction** Add a brief discussion of the trade-offs between SMILES-based and graph-based ligand representations in the context of zero-shot generalization.
+
+## Risk / unsupported claims
+- The claim that Stage 2 "outperforms sequence- and structure-based baselines" is unsupported in the provided material because the comparison tables are not included.
+- The claim that "larger PLM backbones consistently increase Macro F1 across all regimes" is unsupported without the scaling results in Figure 5.
+- The claim that Stage 3 "can technically predict binding sites for entirely new ligand-protein combinations" is plausible but not demonstrated with specific examples or error analysis in the visible text.
+- The claim of "≥100× higher throughput than structure-based pipelines" is presented without a detailed benchmarking methodology or timing measurements.
+- The statement that the method "achieves state-of-the-art performance" is not substantiated by a comprehensive comparison to the full range of existing methods.
+- The exclusion of 29 ligands from the zero-shot test set due to SMILES parsing issues is acknowledged but the potential bias introduced by this exclusion is not discussed.

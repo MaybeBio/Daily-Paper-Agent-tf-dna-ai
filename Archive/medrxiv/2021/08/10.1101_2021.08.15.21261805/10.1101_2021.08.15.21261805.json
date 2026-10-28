@@ -1,0 +1,539 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2021.08.15.21261805",
+  "title": "Leveraging sequences missing from the human genome to diagnose cancer",
+  "doi": "10.1101/2021.08.15.21261805",
+  "abstract": "Cancer diagnosis using cell-free DNA (cfDNA) has potential to improve treatment and survival but has several technical limitations. Here, we show that tumor-associated mutations create neomers, DNA sequences 13-17 nucleotides in length that are predominantly absent from genomes of healthy individuals, that can accurately detect cancer, including early stages, and distinguish subtypes and features. Using a neomer-based classifier, we show that we can distinguish twenty-one different tumor-types with higher accuracy than state-of-the-art methods. Refinement of this classifier using a handcrafted set of kmers identified additional cancer features with greater precision. Generation and analysis of 451 cfDNA whole-genome sequences demonstrates that neomers can precisely detect lung and ovarian cancer with an area under the curve (AUC) of 0.93 and 0.89, respectively. In particular, for early stages, we show that neomers can detect lung cancer with an AUC of 0.94 and ovarian cancer, which lacks an early detection test, with an AUC of 0.93. Finally, testing over 9,000 sequences with either promoter or massively parallel reporter assays, we show that neomers can identify cancer-associated mutations that alter regulatory activity. Combined, our results identify a novel, sensitive, specific and simple diagnostic tool that can also identify novel cancer-associated mutations in gene regulatory elements.",
+  "authors": [
+    "Georgakopoulos-Soares I",
+    "Barnea OY",
+    "Mouratidis I",
+    "Chan CS",
+    "Bradley R",
+    "Mahajan M",
+    "Sims J",
+    "Cintron DL",
+    "Easterlin R",
+    "Kim JS",
+    "Chen E",
+    "Pineda G",
+    "Parada GE",
+    "Witte JS",
+    "Maher CA",
+    "Feng F",
+    "Vathiotis I",
+    "Syrigos N",
+    "Panagiotou E",
+    "Charpidou A",
+    "Syrigos K",
+    "Chapman J",
+    "Kvale M",
+    "Hemberg M",
+    "Ahituv N"
+  ],
+  "published_date": "2021-08-17",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2021.08.15.21261805",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2021.08.15.21261805.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR383419",
+    "raw_record": {
+      "id": "PPR383419",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR383419"
+        ]
+      },
+      "doi": "10.1101/2021.08.15.21261805",
+      "title": "Leveraging sequences missing from the human genome to diagnose cancer",
+      "authorString": "Georgakopoulos-Soares I, Barnea OY, Mouratidis I, Chan CS, Bradley R, Mahajan M, Sims J, Cintron DL, Easterlin R, Kim JS, Chen E, Pineda G, Parada GE, Witte JS, Maher CA, Feng F, Vathiotis I, Syrigos N, Panagiotou E, Charpidou A, Syrigos K, Chapman J, Kvale M, Hemberg M, Ahituv N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Georgakopoulos-Soares I",
+            "lastName": "Georgakopoulos-Soares",
+            "firstName": "Ilias",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Personalized Medicine, Department of Biochemistry and Molecular Biology, The Pennsylvania State University College of Medicine, Hershey, PA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnea OY",
+            "lastName": "Barnea",
+            "firstName": "Ofer Yizhar",
+            "initials": "OY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mouratidis I",
+            "lastName": "Mouratidis",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, Katholieke Universiteit Leuven, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chan CS",
+            "lastName": "Chan",
+            "firstName": "Candace S.Y.",
+            "initials": "CS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bradley R",
+            "lastName": "Bradley",
+            "firstName": "Rachael",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahajan M",
+            "lastName": "Mahajan",
+            "firstName": "Mayank",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Evergrande Center for Immunologic Diseases, Harvard Medical School and Brigham and Women’s Hospital, Boston, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sims J",
+            "lastName": "Sims",
+            "firstName": "Jasmine",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cintron DL",
+            "lastName": "Cintron",
+            "firstName": "Dianne Laboy",
+            "initials": "DL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Easterlin R",
+            "lastName": "Easterlin",
+            "firstName": "Ryder",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim JS",
+            "lastName": "Kim",
+            "firstName": "Julia",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen E",
+            "lastName": "Chen",
+            "firstName": "Emmalyn",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pineda G",
+            "lastName": "Pineda",
+            "firstName": "Geovanni",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gynecologic Oncology, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parada GE",
+            "lastName": "Parada",
+            "firstName": "Guillermo",
+            "initials": "GE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Witte JS",
+            "lastName": "Witte",
+            "firstName": "John",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Epidemiology and Biostatistics, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Department of Epidemiology and Population Health, Stanford University, Stanford, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maher CA",
+            "lastName": "Maher",
+            "firstName": "Christopher",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Oncology, Department of Medicine, Siteman Cancer Center, Washington University School of Medicine, St. Louis, Missouri"
+                },
+                {
+                  "affiliation": "Siteman Cancer Center, Washington University School of Medicine, St. Louis, Missouri"
+                },
+                {
+                  "affiliation": "Department of Biomedical Engineering, Washington University School of Medicine, St. Louis, Missouri"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feng F",
+            "lastName": "Feng",
+            "firstName": "Felix",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Hematology/Oncology, Department of Medicine, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Helen Diller Comprehensive Cancer Center, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Department of Radiation Oncology, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Department of Urology, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vathiotis I",
+            "lastName": "Vathiotis",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Third Department of Internal Medicine, Sotiria Hospital, National and Kapodistrian University of Athens, School of Medicine, Athens, Greece"
+                },
+                {
+                  "affiliation": "Department of Pathology, Yale School of Medicine, New Haven, CT, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Syrigos N",
+            "lastName": "Syrigos",
+            "firstName": "Nikolaos",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Third Department of Internal Medicine, Sotiria Hospital, National and Kapodistrian University of Athens, School of Medicine, Athens, Greece"
+                },
+                {
+                  "affiliation": "Breast Oncology, Dana-Farber Brigham Cancer Center, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Panagiotou E",
+            "lastName": "Panagiotou",
+            "firstName": "Emmanouil",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Third Department of Internal Medicine, Sotiria Hospital, National and Kapodistrian University of Athens, School of Medicine, Athens, Greece"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Charpidou A",
+            "lastName": "Charpidou",
+            "firstName": "Andriani",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Third Department of Internal Medicine, Sotiria Hospital, National and Kapodistrian University of Athens, School of Medicine, Athens, Greece"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Syrigos K",
+            "lastName": "Syrigos",
+            "firstName": "Konstantinos",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Third Department of Internal Medicine, Sotiria Hospital, National and Kapodistrian University of Athens, School of Medicine, Athens, Greece"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chapman J",
+            "lastName": "Chapman",
+            "firstName": "Jocelyn",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Helen Diller Comprehensive Cancer Center, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Department of Urology, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kvale M",
+            "lastName": "Kvale",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hemberg M",
+            "lastName": "Hemberg",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Evergrande Center for Immunologic Diseases, Harvard Medical School and Brigham and Women’s Hospital, Boston, USA"
+                },
+                {
+                  "affiliation": "Wellcome Sanger Institute, Hinxton, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ahituv N",
+            "lastName": "Ahituv",
+            "firstName": "Nadav",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, California, USA"
+                },
+                {
+                  "affiliation": "Institute for Human Genetics, University of California San Francisco, San Francisco, California, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Cancer diagnosis using cell-free DNA (cfDNA) has potential to improve treatment and survival but has several technical limitations. Here, we show that tumor-associated mutations create neomers, DNA sequences 13-17 nucleotides in length that are predominantly absent from genomes of healthy individuals, that can accurately detect cancer, including early stages, and distinguish subtypes and features. Using a neomer-based classifier, we show that we can distinguish twenty-one different tumor-types with higher accuracy than state-of-the-art methods. Refinement of this classifier using a handcrafted set of kmers identified additional cancer features with greater precision. Generation and analysis of 451 cfDNA whole-genome sequences demonstrates that neomers can precisely detect lung and ovarian cancer with an area under the curve (AUC) of 0.93 and 0.89, respectively. In particular, for early stages, we show that neomers can detect lung cancer with an AUC of 0.94 and ovarian cancer, which lacks an early detection test, with an AUC of 0.93. Finally, testing over 9,000 sequences with either promoter or massively parallel reporter assays, we show that neomers can identify cancer-associated mutations that alter regulatory activity. Combined, our results identify a novel, sensitive, specific and simple diagnostic tool that can also identify novel cancer-associated mutations in gene regulatory elements.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2021/08/17/2021.08.15.21261805.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.08.15.21261805"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR383419"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR383419&type=FILE&fileName=EMS160225-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40841759",
+            "reference": "Communications medicine. \n    2025 Aug;5(1):363",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS160225",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-08-18",
+      "firstPublicationDate": "2021-08-17",
+      "firstIndexDate": "2021-08-18",
+      "fullTextReceivedDate": "2023-02-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

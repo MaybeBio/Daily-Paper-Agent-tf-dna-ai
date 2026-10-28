@@ -1,0 +1,463 @@
+{
+  "identity": {
+    "pmid": "40713830",
+    "doi": "10.1186/s13046-025-03467-8",
+    "title": "A novel polypeptide encoded by circSPIRE1 promotes prostate cancer proliferation and migration by restraining the ubiquitin-dependent degradation of LRP5."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Circular RNAs (circRNAs) are increasingly implicated in tumor progression, but the roles of protein-coding circRNAs remain largely unexplored. This study characterizes a novel circRNA-encoded protein, rtSPIRE1, and investigates its mechanistic role in prostate cancer proliferation and migration, as well as its diagnostic and therapeutic potential. METHODS: RNA microarray identified circSPIRE1 in prostate cancer tissues. The translation of rtSPIRE1 was confirmed by polysome profiling analysis, Western blotting, and mass spectrometry. Expression levels of circSPIRE1 and rtSPIRE1 were analyzed via qPCR, FISH, and immunohistochemistry. Gain- and loss-of-function assays were performed to evaluate their effects on cell proliferation and migration. Mechanistic studies were conducted using RNA pulldown, RIP, co-immunoprecipitation, and molecular docking. RESULTS: We identified rtSPIRE1, a novel protein encoded by circSPIRE1 through rolling circle translation, whose expression is regulated by hnRNPA1-mediated symmetric dimethylation. Both circSPIRE1 and rtSPIRE1 were significantly upregulated in prostate cancer tissues and cell lines, with higher expression levels correlating with worse prognosis. Mechanistically, rtSPIRE1 stabilized LRP5 by inhibiting its ubiquitination and degradation, leading to sustained activation of the PI3K/AKT signaling pathway, which ultimately promotes prostate cancer cell proliferation and migration. CONCLUSIONS: Our findings identify rtSPIRE1 as a critical oncogenic protein encoded by circSPIRE1 through rolling circle translation, with its expression regulated by hnRNPA1-mediated symmetric dimethylation. Mechanistically, rtSPIRE1 promotes proliferation and migration by stabilizing LRP5 and activating the PI3K/AKT signaling pathway. Together, circSPIRE1 and rtSPIRE1 represent promising diagnostic biomarkers and therapeutic targets for prostate cancer.",
+    "keywords": [
+      "LRP5",
+      "Migration",
+      "Peptide",
+      "Proliferation",
+      "Prostate cancer",
+      "Rolling circle translation",
+      "Ubiquitination",
+      "circSPIRE1",
+      "hnRNPA1"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Prostatic Neoplasms/genetics/pathology/metabolism",
+      "Cell Proliferation",
+      "Cell Movement",
+      "*RNA, Circular/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Animals",
+      "Gene Expression Regulation, Neoplastic",
+      "*Ubiquitin/metabolism",
+      "Ubiquitination",
+      "Mice",
+      "Signal Transduction",
+      "Heterogeneous Nuclear Ribonucleoprotein A1/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Jintao",
+        "Shi, Juanyi",
+        "Wang, Junjie",
+        "Xiao, Yunfei",
+        "Kong, Degeng",
+        "Gao, Mingchao",
+        "Luo, Tianlong",
+        "Xu, Shizhong",
+        "Yuan, Zhihan",
+        "Ma, Xinyi",
+        "Dong, Xueseng",
+        "Huang, Jingang",
+        "Liu, Cheng",
+        "Xu, Kewei"
+      ],
+      "short_names": [
+        "Hu J",
+        "Shi J",
+        "Wang J",
+        "Xiao Y",
+        "Kong D",
+        "Gao M",
+        "Luo T",
+        "Xu S",
+        "Yuan Z",
+        "Ma X",
+        "Dong X",
+        "Huang J",
+        "Liu C",
+        "Xu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China.",
+        "Sun Yat-sen University School of Medicine, Sun Yat-sen University, Shenzhen, 518000, Guangdong, China.",
+        "The Vancouver Prostate Centre, Department of Urologic Sciences, Vancouver General Hospital, The University of British Columbia, 2660 Oak Street, Vancouver, BC, V6H3Z6, Canada.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. huangjg35@mail.sysu.edu.cn.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. liuch278@mail.sysu.edu.cn.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. liuch278@mail.sysu.edu.cn.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China. liuch278@mail.sysu.edu.cn.",
+        "Department of Urology, The Fifth Affiliated Hospital of Xinjiang Medical University, Urumqi, 830011, Xinjiang, China. liuch278@mail.sysu.edu.cn.",
+        "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. xukewei@mail.sysu.edu.cn.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. xukewei@mail.sysu.edu.cn.",
+        "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China. xukewei@mail.sysu.edu.cn.",
+        "Sun Yat-sen University School of Medicine, Sun Yat-sen University, Shenzhen, 518000, Guangdong, China. xukewei@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Jintao",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Juanyi",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junjie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yunfei",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Degeng",
+        "short_name": "Kong D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Mingchao",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Tianlong",
+        "short_name": "Luo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shizhong",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Zhihan",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xinyi",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Sun Yat-sen University School of Medicine, Sun Yat-sen University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xueseng",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "The Vancouver Prostate Centre, Department of Urologic Sciences, Vancouver General Hospital, The University of British Columbia, 2660 Oak Street, Vancouver, BC, V6H3Z6, Canada."
+        ]
+      },
+      {
+        "full_name": "Huang, Jingang",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. huangjg35@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Cheng",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. liuch278@mail.sysu.edu.cn.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. liuch278@mail.sysu.edu.cn.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China. liuch278@mail.sysu.edu.cn.",
+          "Department of Urology, The Fifth Affiliated Hospital of Xinjiang Medical University, Urumqi, 830011, Xinjiang, China. liuch278@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Kewei",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. xukewei@mail.sysu.edu.cn.",
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510120, Guangdong, China. xukewei@mail.sysu.edu.cn.",
+          "Guangdong Provincial Clinical Research Center for Urological Diseases, Guangzhou, 510120, Guangdong, China. xukewei@mail.sysu.edu.cn.",
+          "Sun Yat-sen University School of Medicine, Sun Yat-sen University, Shenzhen, 518000, Guangdong, China. xukewei@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Jul 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 08:45",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "42253611",
+      "40945848",
+      "40940800"
+    ],
+    "refs": [
+      "39343883",
+      "38871818",
+      "38583453",
+      "38093017",
+      "38087322",
+      "37285865",
+      "37101395",
+      "36691031",
+      "35768398",
+      "35513849",
+      "34450253",
+      "34437836",
+      "34246347",
+      "34145039",
+      "33325513",
+      "32960212",
+      "32343890",
+      "32222292",
+      "31157964",
+      "30809295",
+      "30682371",
+      "30305727",
+      "29788164",
+      "29584620",
+      "28802037",
+      "28115626",
+      "27655435",
+      "27621407",
+      "26718929",
+      "25301760",
+      "25262538",
+      "24157869",
+      "23623748",
+      "23446348",
+      "23400000",
+      "23245947",
+      "21620777",
+      "21575859",
+      "20828396",
+      "19074889",
+      "6594697",
+      "3988802"
+    ],
+    "similar": [
+      "40713830",
+      "30925892",
+      "32938489",
+      "35366893",
+      "42033528",
+      "40320200",
+      "39994725",
+      "38360682",
+      "34922544",
+      "39844192",
+      "39143552",
+      "39476941",
+      "37932766",
+      "38658954",
+      "40667845",
+      "41782040",
+      "41491503",
+      "34852706",
+      "42119245",
+      "41044609",
+      "32645691",
+      "35840930",
+      "40775338",
+      "41617935",
+      "34412652",
+      "27955654",
+      "41540705",
+      "34696782",
+      "41916004",
+      "41219790",
+      "41152723",
+      "41810913",
+      "34384442",
+      "39014225",
+      "33885171",
+      "40513658",
+      "37408008",
+      "34185427",
+      "33846784",
+      "34666800",
+      "39232183",
+      "41208534",
+      "27240591",
+      "33219721",
+      "41741625",
+      "40615482",
+      "40713656",
+      "40965994",
+      "38806577",
+      "41131631",
+      "41398365",
+      "42055625",
+      "41382223",
+      "29181846",
+      "39222175",
+      "33234130",
+      "41863623",
+      "41981278",
+      "41460614",
+      "32096170",
+      "40892530",
+      "41271634",
+      "39341825",
+      "34856993",
+      "40834975",
+      "39334380",
+      "40533863",
+      "41328768",
+      "39085875",
+      "41307657",
+      "37897508",
+      "40250752",
+      "39885395",
+      "41999926",
+      "42112334",
+      "39702234",
+      "40633812",
+      "42062902",
+      "31182928",
+      "40410734",
+      "40537911",
+      "30244247",
+      "39098513",
+      "39030638",
+      "41013721",
+      "41041073",
+      "38641828",
+      "33836754",
+      "40646641",
+      "38994627",
+      "33257506",
+      "34465340",
+      "35365208",
+      "34416910",
+      "41339923",
+      "35640821",
+      "32713345",
+      "34863211",
+      "41314902",
+      "41612237"
+    ],
+    "review": [
+      "40713830"
+    ],
+    "pmc": [
+      "12291493"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03467-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40713830/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

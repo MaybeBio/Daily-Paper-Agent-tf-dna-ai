@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "38254661",
+    "doi": "10.3390/biom14010062",
+    "title": "Predictive Modeling of Proteins Encoded by a Plant Virus Sheds a New Light on Their Structure and Inherent Multifunctionality."
+  },
+  "content": {
+    "abstract": "Plant virus genomes encode proteins that are involved in replication, encapsidation, cell-to-cell, and long-distance movement, avoidance of host detection, counter-defense, and transmission from host to host, among other functions. Even though the multifunctionality of plant viral proteins is well documented, contemporary functional repertoires of individual proteins are incomplete. However, these can be enhanced by modeling tools. Here, predictive modeling of proteins encoded by the two genomic RNAs, i.e., RNA1 and RNA2, of grapevine fanleaf virus (GFLV) and their satellite RNAs by a suite of protein prediction software confirmed not only previously validated functions (suppressor of RNA silencing [VSR], viral genome-linked protein [VPg], protease [Pro], symptom determinant [Sd], homing protein [HP], movement protein [MP], coat protein [CP], and transmission determinant [Td]) and previously identified putative functions (helicase [Hel] and RNA-dependent RNA polymerase [Pol]), but also predicted novel functions with varying levels of confidence. These include a T3/T7-like RNA polymerase domain for protein 1A(VSR), a short-chain reductase for protein 1B(Hel/VSR), a parathyroid hormone family domain for protein 1E(Pol/Sd), overlapping domains of unknown function and an ABC transporter domain for protein 2B(MP), and DNA topoisomerase domains, transcription factor FBXO25 domain, or DNA Pol subunit cdc27 domain for the satellite RNA protein. Structural predictions for proteins 2A(HP/Sd), 2B(MP), and 3A(?) had low confidence, while predictions for proteins 1A(VSR), 1B(Hel*/VSR), 1C(VPg), 1D(Pro), 1E(Pol*/Sd), and 2C(CP/Td) retained higher confidence in at least one prediction. This research provided new insights into the structure and functions of GFLV proteins and their satellite protein. Future work is needed to validate these findings.",
+    "keywords": [
+      "AlphaFold2",
+      "function",
+      "in silico",
+      "modeling",
+      "nepovirus",
+      "prediction",
+      "protein",
+      "virus"
+    ],
+    "mesh_terms": [
+      "*Plant Viruses/genetics",
+      "Endopeptidases",
+      "Plant Proteins/genetics",
+      "DNA Topoisomerases, Type I",
+      "Peptide Hydrolases",
+      "DNA Helicases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roy, Brandon G",
+        "Choi, Jiyeong",
+        "Fuchs, Marc F"
+      ],
+      "short_names": [
+        "Roy BG",
+        "Choi J",
+        "Fuchs MF"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6278-4777",
+        "ORCID: 0000-0002-2939-3528",
+        "ORCID: 0000-0001-5332-6766"
+      ],
+      "affiliations": [
+        "Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, 15 Castle Creek Drive, Geneva, NY 14456, USA.",
+        "Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, 15 Castle Creek Drive, Geneva, NY 14456, USA.",
+        "Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, 15 Castle Creek Drive, Geneva, NY 14456, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roy, Brandon G",
+        "short_name": "Roy BG",
+        "identifiers": [
+          "0000-0001-6278-4777"
+        ],
+        "affiliations": [
+          "Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, 15 Castle Creek Drive, Geneva, NY 14456, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Jiyeong",
+        "short_name": "Choi J",
+        "identifiers": [
+          "0000-0002-2939-3528"
+        ],
+        "affiliations": [
+          "Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, 15 Castle Creek Drive, Geneva, NY 14456, USA."
+        ]
+      },
+      {
+        "full_name": "Fuchs, Marc F",
+        "short_name": "Fuchs MF",
+        "identifiers": [
+          "0000-0001-5332-6766"
+        ],
+        "affiliations": [
+          "Plant Pathology and Plant-Microbe Biology Section, School of Integrative Plant Science, Cornell University, 15 Castle Creek Drive, Geneva, NY 14456, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2024 Jan 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 06:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "41300710",
+      "40404962",
+      "39188317",
+      "39030475"
+    ],
+    "refs": [
+      "38052140",
+      "37650367",
+      "37185764",
+      "37177985",
+      "37099450",
+      "36998121",
+      "36972468",
+      "36948209",
+      "36927031",
+      "36794205",
+      "36748634",
+      "36621153",
+      "36544468",
+      "36477806",
+      "36304287",
+      "36291736",
+      "36192636",
+      "36042138",
+      "35931779",
+      "35900023",
+      "35896542",
+      "35637307",
+      "35610055",
+      "35513489",
+      "35383272",
+      "35264189",
+      "35082445",
+      "34791371",
+      "34759384",
+      "34408149",
+      "34355210",
+      "34331351",
+      "34282049",
+      "34265844",
+      "34043500",
+      "33315308",
+      "33237325",
+      "33125078",
+      "32783916",
+      "32528639",
+      "32371486",
+      "32288276",
+      "31896580",
+      "31697312",
+      "31606894",
+      "31570514",
+      "31417196",
+      "31341084",
+      "30778233",
+      "30640575",
+      "30367586",
+      "30169622",
+      "29880641",
+      "29361215",
+      "29258817",
+      "29112716",
+      "28825622",
+      "28472402",
+      "28387986",
+      "28300209",
+      "28057260",
+      "25950237",
+      "25549265",
+      "24088345",
+      "24035711",
+      "23986568",
+      "23718838",
+      "23087378",
+      "22814390",
+      "22570420",
+      "22130595",
+      "21666270",
+      "21625570",
+      "20886105",
+      "20519403",
+      "20360767",
+      "19858104",
+      "19723330",
+      "19701941",
+      "19470175",
+      "19151095",
+      "18639155",
+      "18215316",
+      "16845026",
+      "15932905",
+      "15681139",
+      "15476259",
+      "15215404",
+      "15111065",
+      "15003859",
+      "12953111",
+      "12163601",
+      "12086524",
+      "11166648",
+      "10868275",
+      "10544127",
+      "10374950",
+      "9049337",
+      "8744829",
+      "8429300",
+      "8376967",
+      "8128640",
+      "2471799",
+      "2374004",
+      "2060618",
+      "1962449",
+      "1655953",
+      "1519363"
+    ],
+    "similar": [
+      "38254661",
+      "39188317",
+      "22480575",
+      "36998121",
+      "10544127",
+      "10374950",
+      "39030475",
+      "34043500",
+      "24088345",
+      "11878885",
+      "35685361",
+      "20540977",
+      "22230314",
+      "30640575",
+      "30541838",
+      "22752842",
+      "21625570",
+      "10092022",
+      "23268581",
+      "8429300",
+      "19900006",
+      "41854260",
+      "37555662",
+      "1655953",
+      "2060618",
+      "27795417",
+      "20519403",
+      "24390330",
+      "37240394",
+      "2293671",
+      "23718838",
+      "1519363",
+      "28387986",
+      "28496438",
+      "42475469",
+      "37762447",
+      "38563748",
+      "11069307",
+      "8259666",
+      "24516387",
+      "27681136",
+      "42523092",
+      "7747424",
+      "39312631",
+      "32936537",
+      "39666201",
+      "23669186",
+      "36433724",
+      "40048363",
+      "17658576",
+      "23376736",
+      "39714180",
+      "31054934",
+      "27301648",
+      "18160434",
+      "2374004",
+      "28539450",
+      "40372024",
+      "16227241",
+      "24928043",
+      "15003859",
+      "1518855",
+      "34757836",
+      "41520974",
+      "30541845",
+      "25297996",
+      "39162432",
+      "21948005",
+      "8525639",
+      "12921995",
+      "31835698",
+      "33032637",
+      "1433519",
+      "28388677",
+      "21246040",
+      "12186910",
+      "8328916",
+      "3418781",
+      "23013437",
+      "8676500",
+      "8376967",
+      "26085159",
+      "39166471",
+      "12163601",
+      "35883420",
+      "41600848",
+      "31511381",
+      "38451582",
+      "8389075",
+      "20878193",
+      "36982419",
+      "36399122",
+      "16227294",
+      "8128640",
+      "38662792",
+      "41285787",
+      "14512529",
+      "25505185",
+      "26695943",
+      "41724857"
+    ],
+    "review": [
+      "38254661",
+      "37240394"
+    ],
+    "pmc": [
+      "10813169"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom14010062",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38254661/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38254661",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DLC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

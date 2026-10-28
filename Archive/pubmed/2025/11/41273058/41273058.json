@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41273058",
+    "doi": "10.1111/cns.70662",
+    "title": "Tetrahydrocurcumin Ameliorates Cerebral Ischemia-Reperfusion Injury and Restores Blood-Brain Barrier Dysfunction by Inhibiting Ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cerebral ischemia-reperfusion (I/R) injury is a major consequence of ischemic stroke, leading to blood-brain barrier (BBB) disruption, neuroinflammation, and neuronal death. Recent studies suggest that tetrahydrocurcumin (THC), a natural compound, may have neuroprotective effects in ischemic stroke. However, the underlying mechanisms remain unclear. This study aims to investigate THC's neuroprotective effects in cerebral I/R injury and explore its potential mechanisms. METHODS: A middle cerebral artery occlusion (MCAO) model was used to induce ischemia-reperfusion injury in mice. Bioinformatics analysis identified key genes involved in ferroptosis. THC's effects were assessed by evaluating infarct volume, BBB permeability, and ferroptosis-related markers (GPX4, xCT, FTH1). Molecular mechanisms were explored using an Nrf2-specific inhibitor (ML385) and molecular docking analysis. RESULTS: THC treatment significantly reduced infarct volume, alleviated BBB disruption, and improved neurological function. It inhibited ferroptosis by upregulating the expression of GPX4, xCT, and FTH1, and by decreasing lipid peroxidation and iron accumulation. THC promoted Nrf2 nuclear translocation, which in turn activated the downstream antioxidant pathway. Molecular docking analysis revealed that THC binds to Keap1, promoting Nrf2 dissociation and nuclear translocation. ML385 reversed THC's protective effects, confirming the involvement of the Keap1/Nrf2 signaling pathway. CONCLUSION: THC inhibits ferroptosis through the activation of the Keap1/Nrf2 signaling pathway, significantly improving BBB dysfunction and alleviating neurological deficits following cerebral ischemia-reperfusion. These findings suggest that THC could serve as a potential therapeutic agent for ischemic stroke, providing a novel approach for the treatment of cerebral ischemia-reperfusion injury through ferroptosis modulation.",
+    "keywords": [
+      "Nrf2",
+      "blood-brain barrier",
+      "cerebral ischemia-reperfusion injury",
+      "ferroptosis",
+      "neurological function",
+      "tetrahydrocurcumin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/drug effects/physiology",
+      "*Curcumin/analogs & derivatives/pharmacology/therapeutic use",
+      "*Reperfusion Injury/drug therapy/metabolism/pathology",
+      "*Blood-Brain Barrier/drug effects/metabolism",
+      "Mice",
+      "Male",
+      "Mice, Inbred C57BL",
+      "*Neuroprotective Agents/pharmacology/therapeutic use",
+      "Infarction, Middle Cerebral Artery/drug therapy",
+      "Molecular Docking Simulation",
+      "*Brain Ischemia/drug therapy/metabolism",
+      "NF-E2-Related Factor 2/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuang",
+        "Han, Jizhong",
+        "Fan, Zhen",
+        "Wang, Haoxiang",
+        "Liu, Luotong",
+        "Liu, Liang",
+        "Zhou, Liangxue",
+        "Deng, Huajiang"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Han J",
+        "Fan Z",
+        "Wang H",
+        "Liu L",
+        "Liu L",
+        "Zhou L",
+        "Deng H"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-7038-2034",
+        "ORCID: 0000-0002-9491-3358"
+      ],
+      "affiliations": [
+        "Department of Geriatrics, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China.",
+        "Department of Geriatrics, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan Province, China.",
+        "Department of Neurosurgery, West China Hospital of Sichuan University, Chengdu, Sichuan Province, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China.",
+        "Department of Neurosurgery, West China Hospital of Sichuan University, Chengdu, Sichuan Province, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuang",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0009-0006-7038-2034"
+        ],
+        "affiliations": [
+          "Department of Geriatrics, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Han, Jizhong",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zhen",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haoxiang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, West China Hospital of Sichuan University, Chengdu, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Luotong",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liang",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Liangxue",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, West China Hospital of Sichuan University, Chengdu, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Huajiang",
+        "short_name": "Deng H",
+        "identifiers": [
+          "0000-0002-9491-3358"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "CNS neuroscience & therapeutics"
+    ],
+    "journal_abbrev": [
+      "CNS Neurosci Ther"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/22 06:29",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42666732",
+      "42621705",
+      "42263416",
+      "41952414"
+    ],
+    "refs": [
+      "40332041",
+      "39675532",
+      "38836693",
+      "38548187",
+      "38488331",
+      "38379112",
+      "38183698",
+      "38100883",
+      "37902569",
+      "37742604",
+      "37175144",
+      "37146513",
+      "37043308",
+      "36907201",
+      "36894028",
+      "36838654",
+      "35940216",
+      "35810759",
+      "35106665",
+      "34434229",
+      "34422824",
+      "32811647",
+      "32529968",
+      "32275864",
+      "32015325",
+      "31864312",
+      "31595562",
+      "30472160",
+      "29590092",
+      "29466707",
+      "28793787",
+      "27748926",
+      "22212488",
+      "21775727",
+      "12556532"
+    ],
+    "similar": [
+      "41273058",
+      "37714424",
+      "35550220",
+      "41014668",
+      "41167534",
+      "38574838",
+      "38548187",
+      "39353831",
+      "37833536",
+      "39096875",
+      "36878093",
+      "37996761",
+      "34712383",
+      "40744419",
+      "40609608",
+      "40972263",
+      "39233353",
+      "38520834",
+      "26686249",
+      "37480159",
+      "37473431",
+      "24017972",
+      "39454290",
+      "42049119",
+      "42186809",
+      "41980682",
+      "40294852",
+      "41690037",
+      "41214337",
+      "38897539",
+      "36047195",
+      "42216494",
+      "39138706",
+      "40403934",
+      "41161783",
+      "38019326",
+      "39486750",
+      "39197624",
+      "38182039",
+      "40170790",
+      "38438409",
+      "40432445",
+      "42004955",
+      "39674430",
+      "41005470",
+      "30753053",
+      "36435361",
+      "39954617",
+      "42216635",
+      "41569062",
+      "41730482",
+      "42004947",
+      "36852441",
+      "41022671",
+      "30472160",
+      "37950788",
+      "39702961",
+      "38819696",
+      "41469453",
+      "39190389",
+      "41979605",
+      "41265218",
+      "42061088",
+      "41811028",
+      "41242307",
+      "41172920",
+      "40517956",
+      "40876612",
+      "41465215",
+      "39053718",
+      "40020881",
+      "34029954",
+      "40378509",
+      "38522639",
+      "35753730",
+      "42172986",
+      "34087492",
+      "37441941",
+      "40089199",
+      "40458031",
+      "40064243",
+      "38850632",
+      "41887376",
+      "35306470",
+      "36516890",
+      "38521230",
+      "40914225",
+      "41317220",
+      "40138029",
+      "40425900",
+      "37254848",
+      "32488170",
+      "37172921",
+      "38857748",
+      "39094671",
+      "36758783",
+      "40272768",
+      "31389456",
+      "37532074",
+      "33524408"
+    ],
+    "review": [
+      "41273058"
+    ],
+    "pmc": [
+      "12639186"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41273058.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41273058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cns.70662",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3809",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

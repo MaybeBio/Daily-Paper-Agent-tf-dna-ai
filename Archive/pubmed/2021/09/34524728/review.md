@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, experimental section, accession codes, conflict of interest, acknowledgements)
+- **Assessment boundary** Scientific content, technical soundness, evidence quality, and internal consistency of the reported findings. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report a fragment-based NMR screen against the Neh1 DNA-binding domain of NRF2, identification of low-affinity fragment hits, SAR development via commercial and virtual library searching, determination of the apo NMR structure, and data-driven docking to propose binding modes. They further report that the fragment binding site overlaps with the ARE DNA binding region and that a competition experiment suggests fragments can be displaced by DNA.
+- **Visible evidence base** Abstract, full results and discussion, experimental methods, one table (Table 1, referenced), multiple figures (Figures 1–6, referenced), supporting information (referenced), PDB and BMRB accession codes
+- **Missing materials affecting confidence** Supporting information figures and tables (Figures S1–S8, Tables S1–S2) not provided; Table 1 content not visible; Figure 2C and Figure 6C KD fits not visible; NMR structural statistics table (Table 2) not visible; experimental details for HADDOCK post-filtering partially described but validation metrics not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically competent fragment-based NMR study on a challenging, largely disordered transcription factor target. The work is exploratory and early-stage, with millimolar binders and no functional validation. The main scientific value lies in the demonstration that a shallow, positively charged DNA-binding surface can be interrogated by NMR-based fragment screening, and in the proposed structural rationale for the observed SAR. However, the evidence for the specific binding modes is indirect, the KD values are near the limit of reliable measurement by NMR, and the functional relevance of the identified fragments is not demonstrated. The manuscript is clearly written and the methods are largely reproducible from the text, but several key data items are only in the supporting information and could not be assessed.
+- **Who would be interested in the results, and why** Researchers in transcription factor drug discovery, particularly those working on NRF2 or related bZIP family members; practitioners of fragment-based screening against challenging targets; NMR spectroscopists interested in protein-ligand interactions with intrinsically disordered proteins. The work may also be of interest to computational chemists using virtual library screening in combination with biophysical validation.
+- **Major strengths** The study addresses a difficult and clinically relevant target (NRF2) that is largely undrugged. The combination of experimental NMR screening, SAR-by-catalogue, and data-driven docking is a pragmatic and resource-efficient workflow. The authors are appropriately cautious about the limitations of their binding mode determination and acknowledge the possibility of dynamic binding. The competition experiment with ARE DNA is a useful functional link, even if preliminary. The deposition of the NMR structure and chemical shifts is good practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality for binding mode
+  - **Claim pointer** The manuscript claims that data-driven docking produced binding modes that agree with NMR data and observed SAR, and that these modes rationalize the structure-activity relationships.
+  - **Evidence pointer** Results and Discussion, "Data-driven docking of compound 2" section; Figures 5 and S5; Table 1
+  - **Concern** The three docking clusters have similar HADDOCK scores, and the Q-score analysis shows that clusters 1 and 2 are essentially indistinguishable in their agreement with experimental CSP data. The authors acknowledge this but then proceed to use cluster 2 as the basis for SAR rationalization. The discrimination between clusters is therefore not established. The claim that the SAR is "rationalized" by the docking poses is only as strong as the confidence in the selected pose, which is low. The additional consideration of the side chain Nδ2 chemical shift of N482 is helpful, but the predicted values for clusters 2 and 3 are similar (1.04±0.13 vs 1.12±0.26 ppm), and the measured value of 0.64 ppm is not in strong agreement with either. The selection of cluster 2 appears to be based on a marginal difference.
+  - **Why it matters** The structural interpretation is a central pillar of the manuscript's contribution. If the binding mode is not reliably determined, the SAR rationalization and the proposed basis for future optimization are speculative. The manuscript's value for guiding medicinal chemistry efforts depends on the reliability of this structural model.
+  - **Resolution test** Provide a more rigorous discrimination between the clusters, for example by including additional experimental restraints (e.g., intermolecular NOEs, paramagnetic relaxation enhancement, or 19F NMR if applicable), or by explicitly testing the three poses against additional SAR data points (e.g., designing and testing a compound predicted to distinguish between clusters). Alternatively, present the three clusters as equally plausible and temper the SAR rationalization accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative affinity measurements
+  - **Claim pointer** The manuscript reports KD values for compound 2 (1.7±0.1 mM) and qualitatively describes affinities for other compounds, including a 2-fold decrease for the chloro analogue and a 2-fold increase for the phenol analogue.
+  - **Evidence pointer** Results and Discussion, "Fragment-based screen" section; Figure 2C; Table 1
+  - **Concern** The KD of 1.7 mM is at the upper limit of what can be reliably measured by NMR chemical shift titrations, and the authors note that the 2-fold differences are "close to the limit of distinguishability." The claim of a 2-fold difference between bromo and chloro analogues is therefore weakly supported. The use of the same protein stock and careful concentration determination is good practice, but the fundamental limitation of measuring millimolar KD values by NMR remains. The KD for the ARE DNA interaction (200±70 μM) is also derived from a titration with only four points, which is a very small number for a reliable fit.
+  - **Why it matters** The SAR conclusions, which are a key deliverable of the study, rest on affinity differences that are at the edge of the method's reliability. If the 2-fold differences are not robust, the SAR narrative (importance of halogen, phenol position, etc.) is weakened. The DNA binding affinity is also used to support the functional relevance of the binding site, so its reliability matters.
+  - **Resolution test** Provide a more robust affinity measurement for at least the key compounds (e.g., ITC, SPR, or a competition-based NMR assay with a higher-affinity probe). For the DNA titration, either add more titration points or use a different method to confirm the KD. If such measurements are not feasible, the authors should explicitly state the limitations and avoid over-interpreting small affinity differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The manuscript states that the competition experiment indicates that "tighter binding ligands are expected to modulate DNA binding," and the conclusion suggests that optimized compounds could modulate NRF2 promoter binding and downstream transcription.
+  - **Evidence pointer** Results and Discussion, "DNA binding to Neh1" section; Figure S8; Conclusion
+  - **Concern** The competition experiment shows that ARE DNA can displace compound 2, which is consistent with overlapping binding sites. However, this is a very preliminary indication. No functional assay (e.g., reporter gene, qPCR of NRF2 target genes, or cell viability) is presented. The claim that "tighter binding ligands are expected to modulate DNA binding" is a reasonable hypothesis but is not tested. The conclusion that optimized compounds "could modulate NRF2 promoter binding" and "help increase effectiveness of cancer treatment" is speculative and goes beyond the data.
+  - **Why it matters** The therapeutic relevance of the work is a stated motivation. Without any functional validation, the manuscript remains a biophysical characterization study. The claims in the conclusion should be scaled to the evidence.
+  - **Resolution test** Add a functional assay, even a simple one (e.g., a cell-free transcription assay, or a cell-based reporter assay with a higher-affinity compound if available). If not possible, revise the conclusion to clearly state that functional relevance is untested and that the work is a first step toward that goal.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of SAR data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1 (referenced, not visible)
+  - **Issue** Table 1 is referenced extensively but its content is not visible in the provided material. The reader cannot assess the SAR data directly.
+  - **Required correction** Ensure Table 1 is complete and self-explanatory, including structures, KD values (or qualitative binding calls), and CSP data. If the table is large, consider splitting it or moving some data to the supporting information with clear cross-referencing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail for CSP calculations
+  - **Affected element** Experimental section, "CSP calculation"
+  - **Evidence pointer** Experimental section, "CSP calculation" paragraph
+  - **Issue** The description of the CSP back-calculation is brief. The authors state that the ring current and electric field effects were calculated, but the exact implementation (e.g., which atoms were included, how the summation was performed, whether the protein was treated as rigid) is not fully specified. The Q-score equation is given, but the normalization procedure is not described in detail.
+  - **Required correction** Provide a more detailed description of the back-calculation procedure, including the specific equations used, the parameters (e.g., ring current intensity factors, electric field coefficients), and the treatment of protein flexibility. This is important for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison with prior structural data
+  - **Affected element** Results and Discussion, "Structure determination of Neh1" section
+  - **Evidence pointer** Results and Discussion, "Structure determination of Neh1" section; Figure S4
+  - **Issue** The authors compare their structure to the NESG structure (PDB 2LZ1) and to the sMaf and Skn-1 DNA-bound structures. The RMSD values are reported, but the significance of the differences (particularly the straight vs. bent helix 3) is not discussed in detail. The authors state that the bend is absent in the DNA-bound structures, which is interesting, but the implications for DNA binding are not explored.
+  - **Required correction** Add a brief discussion of the structural differences and their potential functional relevance. This would strengthen the structural analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Introduction, Results and Discussion
+  - **Issue** The term "undrugged" is used in the abstract and conclusion. This is informal and potentially imprecise, as NRF2 has been targeted by inhibitors (e.g., brusatol, ML385), even if not successfully in the clinic.
+  - **Required correction** Replace "undrugged" with a more precise term, such as "lacking approved small-molecule inhibitors" or "with limited direct small-molecule modulators."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical analysis of KD values
+  - **Affected element** Results and Discussion, "Fragment-based screen" section; Figure 2C
+  - **Evidence pointer** Figure 2C (referenced, not visible)
+  - **Issue** The KD values are reported with errors (e.g., 1.7±0.1 mM), but the number of replicates and the fitting procedure are not described in the main text. It is unclear if the error is from a single fit or from multiple independent titrations.
+  - **Required correction** State the number of replicates and the fitting method in the experimental section. If only single titrations were performed, this should be stated explicitly.
+- **Technical failings that need to be addressed before the case is established** The binding mode determination is not sufficiently validated to support the SAR rationalization (R1-M1). The affinity measurements are at the limit of the method's reliability, and the small differences that drive the SAR conclusions are not robustly established (R1-M2). The functional relevance of the fragments is not demonstrated (R1-M3). These issues collectively mean that the central claims of the manuscript, while plausible, are not fully established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific application to NRF2, but the general approach (NMR fragment screening on transcription factors) is established. The novelty is incremental rather than conceptual. Scientific importance: The target is important, and the work provides a starting point, but the findings are early-stage and the impact is limited by the low affinities and lack of functional data. Interdisciplinary readership: The work is primarily of interest to structural biologists, NMR spectroscopists, and medicinal chemists. It is unlikely to attract a broad interdisciplinary audience. Technical soundness: The NMR work appears technically sound, but the docking and back-calculation validation is not fully convincing, and the affinity measurements are weakly supported. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the technical details of NMR and docking will be challenging for nonspecialists. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a reasonable and potentially useful contribution to the field, but the binding mode determination and affinity measurements need to be strengthened, and the functional claims need to be scaled back or supported by additional data. The work is not currently established from the provided evidence as a definitive structural and functional characterization of NRF2 fragment binding.
+
+## Risk / unsupported claims
+- The claim that the binding modes "rationalize" the SAR is not fully supported, given the lack of discrimination between docking clusters.
+- The claim that "tighter binding ligands are expected to modulate DNA binding" is a hypothesis, not a demonstrated finding.
+- The conclusion that optimized compounds could "modulate the transcription of NRF2 target genes" and "help increase effectiveness of cancer treatment" is speculative and not supported by any functional data.
+- The KD value for the ARE DNA interaction (200±70 μM) is based on a titration with only four points and should be considered preliminary.
+- The 2-fold affinity differences between analogues are at the limit of reliability for NMR-based KD measurements and should be treated with caution.

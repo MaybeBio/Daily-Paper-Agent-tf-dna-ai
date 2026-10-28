@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "35888070",
+    "doi": "10.3390/life12070980",
+    "title": "Exploring Quercetin Anti-Osteoporosis Pharmacological Mechanisms with In Silico and In Vivo Models."
+  },
+  "content": {
+    "abstract": "Since osteoporosis critically influences the lives of patients with a high incidence, effective therapeutic treatments are important. Quercetin has been well recognized as a bone-sparing agent and thus the underlying mechanisms warrant further investigation. In the current study, the network pharmacology strategy and zebrafish model were utilized to explain the potential pharmacological effects of quercetin on osteoporosis. The potential targets and related signaling pathways were explored through overlapping target prediction, protein-protein interaction network construction, and functional enrichment analysis. Furthermore, we performed docking studies to verify the specific interactions between quercetin and crucial targets. Consequently, 55 targets were related to osteoporosis disease among the 159 targets of quercetin obtained by three database sources. Thirty hub targets were filtered through the cytoNCA plugin. Additionally, the Gene Ontology functions in the top 10 respective biological processes, molecular functions, and cell components as well as the top 20 Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways were depicted. The most significance difference in the KEGG pathways was the TNF signaling pathway, consisting of the Nuclear Factor Kappa B Subunit (NF-kappaB), Extracellular Regulated Protein Kinases (ERK) 1/2, Activator Protein 1 (AP-1), Interleukin 6 (IL6), Transcription factor AP-1 (Jun), and Phosphatidylinositol 3 Kinase (PI3K), which were probably involved in the pharmacological effects. Moreover, molecular docking studies revealed that the top three entries were Interleukin 1 Beta (IL1B), the Nuclear Factor NF-Kappa-B p65 Subunit (RelA), and the Nuclear Factor Kappa B Subunit 1 (NFKB1), respectively. Finally, these results were verified by alizarin red-stained mineralized bone in zebrafish and related qPCR experiments. The findings probably facilitate the mechanism elucidation related to quercetin anti-osteoporosis action.",
+    "keywords": [
+      "network pharmacology",
+      "osteoporosis",
+      "pharmacological mechanism",
+      "quercetin",
+      "zebrafish"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Ying",
+        "Yuan, Wei",
+        "Cai, Na",
+        "Jia, Kun",
+        "Meng, Yunlong",
+        "Wang, Fei",
+        "Ge, Yurui",
+        "Lu, Huiqiang"
+      ],
+      "short_names": [
+        "Hu Y",
+        "Yuan W",
+        "Cai N",
+        "Jia K",
+        "Meng Y",
+        "Wang F",
+        "Ge Y",
+        "Lu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8667-4476"
+      ],
+      "affiliations": [
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+        "Jiangxi Engineering Laboratory of Zebrafish Modeling and Drug Screening for Human Diseases, Ji'an 343009, China.",
+        "Jiangxi Key Laboratory of Developmental Biology of Organs, Ji'an 343009, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Ying",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Wei",
+        "short_name": "Yuan W",
+        "identifiers": [
+          "0000-0001-8667-4476"
+        ],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Na",
+        "short_name": "Cai N",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Kun",
+        "short_name": "Jia K",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Yunlong",
+        "short_name": "Meng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Yurui",
+        "short_name": "Ge Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Huiqiang",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Ganzhou Key Laboratory for Drug Screening and Discovery, Gannan Normal University, Ganzhou 341000, China.",
+          "Jiangxi Engineering Laboratory of Zebrafish Modeling and Drug Screening for Human Diseases, Ji'an 343009, China.",
+          "Jiangxi Key Laboratory of Developmental Biology of Organs, Ji'an 343009, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Life (Basel)"
+    ],
+    "pub_date": "2022 Jun 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/28 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42404441",
+      "41137300",
+      "39857415",
+      "38528143",
+      "38333006",
+      "37840879",
+      "36839278",
+      "36345499"
+    ],
+    "refs": [
+      "35064144",
+      "35008803",
+      "34718717",
+      "34671409",
+      "34567410",
+      "34381520",
+      "34239693",
+      "34217732",
+      "34035186",
+      "33644583",
+      "33516449",
+      "33195163",
+      "33134394",
+      "33048277",
+      "32899435",
+      "32391643",
+      "32126522",
+      "32021104",
+      "31972421",
+      "31936558",
+      "31680165",
+      "31667450",
+      "30878792",
+      "30848398",
+      "30846939",
+      "30761080",
+      "29844670",
+      "29760166",
+      "29663836",
+      "29616282",
+      "29610481",
+      "29534533",
+      "29057911",
+      "28477234",
+      "26247020",
+      "26150706",
+      "25761729",
+      "25451770",
+      "23322687",
+      "22628523",
+      "22567030",
+      "22174622",
+      "21919503",
+      "21570970",
+      "20001726",
+      "19461927",
+      "19399780",
+      "18925949",
+      "18464930",
+      "18383168",
+      "16855169",
+      "15608251",
+      "14597658",
+      "12734009",
+      "9359707"
+    ],
+    "similar": [
+      "35888070",
+      "35430443",
+      "35837376",
+      "34722158",
+      "34349502",
+      "34125845",
+      "33082858",
+      "38476533",
+      "35402622",
+      "31573877",
+      "35537009",
+      "33880122",
+      "35069454",
+      "23735482",
+      "35178959",
+      "35757478",
+      "32620113",
+      "30530052",
+      "32846191",
+      "35442463",
+      "33645014",
+      "35405254",
+      "35035498",
+      "35280377",
+      "37795035",
+      "34738404",
+      "34557547",
+      "32964029",
+      "32501408",
+      "35343164",
+      "32908565",
+      "35222040",
+      "34872267",
+      "33478536",
+      "35734366",
+      "35855804",
+      "35227068",
+      "34607274",
+      "35303581",
+      "35186104",
+      "35757520",
+      "34660782",
+      "32325182",
+      "34221070",
+      "34951253",
+      "33658763",
+      "34951223",
+      "35774597",
+      "33204288",
+      "30647760",
+      "34149863",
+      "35873639",
+      "33299870",
+      "33376732",
+      "33494738",
+      "23645742",
+      "35855823",
+      "35024051",
+      "33441867",
+      "35003302",
+      "35791093",
+      "35609387",
+      "33409535",
+      "34217946",
+      "35237152",
+      "34594388",
+      "32389853",
+      "35140802",
+      "32764874",
+      "35432570",
+      "33243703",
+      "34472273",
+      "34994139",
+      "33634308",
+      "34435046",
+      "35473508",
+      "32505843",
+      "35150815",
+      "35607519",
+      "37274117",
+      "37704909"
+    ],
+    "review": [
+      "35888070",
+      "35303581",
+      "33243703"
+    ],
+    "pmc": [
+      "9322149"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/35888070/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=life12070980",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35888070/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35888070",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=35888070",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

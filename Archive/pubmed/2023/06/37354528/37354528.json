@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "37354528",
+    "doi": "10.1093/oncolo/oyad178",
+    "title": "A Novel HRD Signature Is Predictive of FOLFIRINOX Benefit in Metastatic Pancreatic Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic cancer (PC) represents an aggressive disease with median overall survival (OS) of less than 1 year in the front-line setting. FOLFIRINOX and gemcitabine and paclitaxel (GP) are standard of care options for these patients; however, optimal selection of therapy is challenging. METHODS: Comprehensive genomic profiling was performed on 8358 PC patients. Outcomes were available for 1149 metastatic PC patients treated with 1L FOLFIRINOX or GP. A scar-based measure of HRD was called using a machine learning-based algorithm incorporating copy number and indel features. RESULTS: A scar-based HRD signature (HRDsig) was identified in 9% of patients. HRDsig significantly co-occurred with biallelic alterations in BRCA1/2, PALB2, BARD1, and RAD51C/D, but encompassed a larger population than that defined by BRCA1/BRCA2/PALB2 (9% vs. 6%). HRDsig was predictive of 1L FOLFIRNOX chemotherapy benefit with doubled OS relative to gemcitabine and paclitaxel (GP) (rwOS aHR 0.37 [0.22-0.62]), including 25% of the population with long-term (2 year+) survival in a real-world cohort of patients. Less benefit from FOLFIRINOX was observed in the HRDsig(-) population. Predictive value was seen in both the BRCA1/2/PALB2 mutant and wildtype populations, suggesting additional value to mutational profiling. CONCLUSION: A scar-based HRD biomarker was identified in a significant fraction of PC patients and is predictive of FOLFIRINOX benefit. Incorporating a biomarker like HRDsig could identify the right patients for platinum chemotherapy and potentially reduce FOLFIRINOX use by over 40%, minimizing toxicities with similar survival outcomes. Confirmatory studies should be performed.",
+    "keywords": [
+      "biomarker",
+      "genomics",
+      "homologous recombination repair",
+      "pancreatic neoplasms",
+      "platinum"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/drug therapy/genetics/pathology",
+      "Antineoplastic Combined Chemotherapy Protocols/therapeutic use",
+      "BRCA1 Protein/genetics",
+      "Gemcitabine",
+      "Cicatrix/chemically induced/drug therapy/pathology",
+      "Retrospective Studies",
+      "BRCA2 Protein/genetics",
+      "Fluorouracil",
+      "Leucovorin",
+      "Deoxycytidine",
+      "Paclitaxel",
+      "Albumins",
+      "Irinotecan",
+      "Oxaliplatin"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Kuei-Ting",
+        "Madison, Russell",
+        "Moore, Jay",
+        "Jin, Dexter",
+        "Fleischmann, Zoe",
+        "Newberg, Justin",
+        "Schrock, Alexa",
+        "Bhardwaj, Neeru",
+        "Lofgren, Katherine T",
+        "He, Jie",
+        "Frampton, Garrett",
+        "Hegde, Priti",
+        "Fabrizio, David",
+        "Pishvaian, Michael J",
+        "Ebot, Ericka",
+        "Singhi, Aatur",
+        "Sokol, Ethan"
+      ],
+      "short_names": [
+        "Chen KT",
+        "Madison R",
+        "Moore J",
+        "Jin D",
+        "Fleischmann Z",
+        "Newberg J",
+        "Schrock A",
+        "Bhardwaj N",
+        "Lofgren KT",
+        "He J",
+        "Frampton G",
+        "Hegde P",
+        "Fabrizio D",
+        "Pishvaian MJ",
+        "Ebot E",
+        "Singhi A",
+        "Sokol E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7838-2526"
+      ],
+      "affiliations": [
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Department of Oncology, Johns Hopkins University School of Medicine, SKCC, Washington, DC, USA.",
+        "Foundation Medicine, Cambridge, MA, USA.",
+        "Department of Pathology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA.",
+        "Foundation Medicine, Cambridge, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Kuei-Ting",
+        "short_name": "Chen KT",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Madison, Russell",
+        "short_name": "Madison R",
+        "identifiers": [
+          "0000-0002-7838-2526"
+        ],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Jay",
+        "short_name": "Moore J",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Jin, Dexter",
+        "short_name": "Jin D",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Fleischmann, Zoe",
+        "short_name": "Fleischmann Z",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Newberg, Justin",
+        "short_name": "Newberg J",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Schrock, Alexa",
+        "short_name": "Schrock A",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bhardwaj, Neeru",
+        "short_name": "Bhardwaj N",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lofgren, Katherine T",
+        "short_name": "Lofgren KT",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "He, Jie",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Frampton, Garrett",
+        "short_name": "Frampton G",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hegde, Priti",
+        "short_name": "Hegde P",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Fabrizio, David",
+        "short_name": "Fabrizio D",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Pishvaian, Michael J",
+        "short_name": "Pishvaian MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Johns Hopkins University School of Medicine, SKCC, Washington, DC, USA."
+        ]
+      },
+      {
+        "full_name": "Ebot, Ericka",
+        "short_name": "Ebot E",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Singhi, Aatur",
+        "short_name": "Singhi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Sokol, Ethan",
+        "short_name": "Sokol E",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation Medicine, Cambridge, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The oncologist"
+    ],
+    "journal_abbrev": [
+      "Oncologist"
+    ],
+    "pub_date": "2023 Aug 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/24 21:05",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "42446070",
+      "42193022",
+      "41905432",
+      "41795872",
+      "41686836",
+      "41496120",
+      "41085800",
+      "40927187",
+      "40421962",
+      "40393956",
+      "40185203",
+      "39961905",
+      "39570378",
+      "39315592",
+      "39078736",
+      "38311708"
+    ],
+    "refs": [
+      "37708904",
+      "35294956",
+      "34527218",
+      "33845462",
+      "32343890",
+      "31787751",
+      "31157963",
+      "30964529",
+      "29415044",
+      "28916367",
+      "24142049",
+      "22711857",
+      "22406760",
+      "21561347"
+    ],
+    "similar": [
+      "37354528",
+      "33524400",
+      "34347727",
+      "35579260",
+      "31787751",
+      "35675073",
+      "34875671",
+      "33338442",
+      "35988408",
+      "33951545",
+      "32667641",
+      "28030863",
+      "29616439",
+      "39078736",
+      "29631907",
+      "28286977",
+      "28795609",
+      "30621630",
+      "29557103",
+      "30209750",
+      "34779846",
+      "30587635",
+      "34301232",
+      "35122419",
+      "29761331",
+      "24559766",
+      "31180981",
+      "34450595",
+      "36691032",
+      "34230153",
+      "31693510",
+      "31607641",
+      "34635731",
+      "37992259",
+      "31724340",
+      "36863956",
+      "35294658",
+      "35758620",
+      "39198618",
+      "34595948",
+      "33939674",
+      "36053905",
+      "38924262",
+      "33100319",
+      "33812339",
+      "29846765",
+      "38394390",
+      "29600384",
+      "22993372",
+      "35073280",
+      "39043707",
+      "33975561",
+      "34980029",
+      "27919186",
+      "35896232",
+      "32857340",
+      "32489272",
+      "33714591",
+      "30075908",
+      "28397697",
+      "32282772",
+      "38216928",
+      "32212262",
+      "35099549",
+      "26445094",
+      "38085059",
+      "32976031",
+      "37725113",
+      "36720216",
+      "32889836",
+      "30575490",
+      "37199073",
+      "37537780",
+      "32056483",
+      "36974805",
+      "33876417",
+      "32444418",
+      "36795432",
+      "28926090",
+      "36111933",
+      "35448190",
+      "31856090",
+      "30611527",
+      "36788189",
+      "34732161",
+      "21561347",
+      "24356569",
+      "29143916",
+      "26742940",
+      "27056335",
+      "35172762",
+      "27438590",
+      "35908959",
+      "32434547",
+      "25907619",
+      "25844823",
+      "27765912",
+      "34284397",
+      "33094362"
+    ],
+    "review": [
+      "37354528",
+      "29557103",
+      "34301232",
+      "34635731",
+      "33812339",
+      "29600384",
+      "35099549",
+      "36111933",
+      "30611527"
+    ],
+    "pmc": [
+      "10400136"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37354528/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37354528",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PALB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3250",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37354528",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/oncolo/article-lookup/doi/10.1093/oncolo/oyad178",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

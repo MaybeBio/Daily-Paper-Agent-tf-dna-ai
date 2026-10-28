@@ -1,0 +1,94 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, results, methods, and data availability statement
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretational validity based solely on the provided material
+- **Shared manuscript claim summary** The authors argue that the low overlap between transcription factor (TF) binding and regulatory targets reported in a recent study is an artifact of a permissive binding target definition that includes many weakly bound sites. They propose that tightly bound promoters, defined by a stringent z-score threshold, show strong functional and regulatory coherence, and call for a refined TF target definition.
+- **Visible evidence base** Abstract, Results section with references to Figures 1A–G, Methods subsections for data processing, promoter boundaries, target promoter definition, motif analysis, response to alpha-factor analysis, SGD mining, TF activator/repressor state analysis, and ESR analysis, plus a data availability link
+- **Missing materials affecting confidence** Figures 1A–G are referenced but not provided. Raw data, processed data, and code are available via a DOI but were not inspected. No statistical methods or significance testing are described. No details on the number of biological replicates for the RNA-seq or ChEC-seq data beyond "biological repeats" are given. The comparison dataset from the original study is cited but not directly examined.
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a potentially important reanalysis of existing data, suggesting that the reported low overlap between TF binding and regulatory targets may be driven by weakly bound sites. The core observation, that a stringent binding threshold yields a small set of top-bound promoters with apparent functional coherence, is plausible and could refine how TF targets are defined. However, the evidence as presented is incomplete. The figures are not available, statistical support is absent, and several analyses rely on assumptions that are not fully justified. The claim that top-bound targets are "more likely to be functionally coherent and regulated" is not established from the supplied material, as no quantitative comparison against the permissive definition is shown. The manuscript reads as a brief report or commentary rather than a full research article, and its impact would depend on the strength of the missing figures and statistical rigor.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, particularly those studying yeast gene regulatory networks, would find this relevant. The work also speaks to methodologists developing peak-calling or target-definition standards for ChEC-seq, ChIP-seq, and related binding assays. Those interested in the interpretation of large-scale functional genomics datasets, where binding and expression are compared, would also benefit from the proposed refinement.
+- **Major strengths** The authors leverage a publicly available dataset and compare it to their own independent measurements, showing high cross-laboratory consistency, which strengthens the credibility of the underlying data. The focus on a specific example, Ste12, provides a concrete illustration of how a permissive threshold inflates target numbers. The call for a refined target definition is timely and could have practical implications for the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that top-bound targets show strong functional and regulatory coherence, supported by Figures 1B–D and a general analysis in Figure 1E.
+  - **Evidence pointer** Figures 1B–E, location not provided
+  - **Concern** The figures that substantiate the central claim are not included in the supplied material. Without seeing the data, the reader cannot verify the enrichment of mating-factor-responsive promoters among Ste12 top-bound targets, the coherence of transcriptional responses, or the comparison between the two target definitions in Figure 1E.
+  - **Why it matters** The entire argument rests on these visualizations. The text alone provides only anecdotal numbers for Ste12, and no quantitative metrics are given for the general analysis. The claim of coherence is therefore not assessable.
+  - **Resolution test** Provide the figures and, ideally, the underlying numerical data for each panel, including enrichment statistics and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that top-bound targets are "more likely to be functionally coherent and regulated by the bound TF," implying a statistical distinction from weakly bound targets.
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** No statistical tests are described or reported. The threshold of z-score greater than 3.5 is arbitrary, and no justification is given for its choice. The comparison between top-bound and permissively defined targets, in terms of functional enrichment or regulatory response, is not quantified with p-values or effect sizes.
+  - **Why it matters** Without statistical support, the observed patterns could arise by chance, especially given the small number of top-bound promoters for some TFs. The claim of a systematic difference between binding definitions is not supported.
+  - **Resolution test** Add statistical analyses, such as hypergeometric tests for enrichment, permutation-based null models, or bootstrapped confidence intervals, and report the results for each TF and each comparison.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Confounding factors
+  - **Claim pointer** The authors note that secondary effects of TF depletion cannot be excluded, as the environmental stress response (ESR) is consistently activated in a large fraction of TF-depleted cells.
+  - **Evidence pointer** Results section, Figure 1G, location not provided
+  - **Concern** The ESR activation is acknowledged but not addressed analytically. The claim that top-bound targets show coherent transcriptional responses could be confounded by the ESR, which may affect many genes regardless of TF identity. The authors do not attempt to control for this or to show that the observed coherence is specific to the depleted TF.
+  - **Why it matters** If the ESR dominates the transcriptional response, the coherence seen in Figure 1F might reflect a general stress response rather than TF-specific regulation, undermining the central conclusion.
+  - **Resolution test** Perform a control analysis, such as comparing the response of top-bound targets to that of matched random promoters or ESR genes, or explicitly excluding ESR genes from the analysis and showing the results are unchanged.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors call for a refined TF target definition that will yield sharper insight into transcriptional regulation in yeast and beyond.
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** The analysis is limited to a single organism and a single binding assay. The proposed z-score threshold is derived from this specific dataset and may not transfer to other conditions, cell types, or assays. The claim of broader applicability is not tested.
+  - **Why it matters** The recommendation to adopt a refined definition would have field-wide implications, but the evidence does not show that the threshold or the approach works beyond the present context.
+  - **Resolution test** Discuss the potential for cross-species or cross-assay validation, or temper the claim to be specific to yeast and ChEC-seq data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, target promoter definition
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the z-score transformation is brief. It is unclear whether the z-score is calculated per TF across all promoters or using a different normalization, and how the mean and standard deviation are derived.
+  - **Required correction** Clarify the exact formula and the population used for the z-score calculation, including whether it is based on the sum of reads per promoter and how outliers are handled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, data processing
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The read normalization is described as "to a total of 10^6" but it is not stated whether this is per sample or per library, and how the exclusion of repetitive regions affects the normalization denominator.
+  - **Required correction** Specify the normalization unit and the exact procedure for excluding repetitive regions, including whether the total is recalculated after exclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, Ste12 example
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The authors state that Ste12 binds more than 3,300 promoters by free-MNase comparison but only 34 exceed the z-score threshold. It is not clear how many of these 34 are among the known mating-responsive genes, beyond the statement of enrichment.
+  - **Required correction** Provide the overlap count and the total number of known mating-responsive genes for context, to allow the reader to assess the strength of the enrichment.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, motif analysis
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The threshold of 1000 for motif presence is described as "approximately the ratio of fnr/fpr" but the terms are not defined, and the rationale for this threshold is unclear.
+  - **Required correction** Define fnr and fpr, and explain how the threshold was derived or why it is appropriate.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, general analysis
+  - **Evidence pointer** Results section, Figure 1E, location not provided
+  - **Issue** The comparison in Figure 1E between free-MNase and top-bound target definitions is described only in text. It is unclear how many TFs are included and whether the trend is consistent across all TFs or driven by a few.
+  - **Required correction** Report the number of TFs analyzed and, if possible, the distribution of enrichment scores across TFs.
+
+## Risk / unsupported claims
+
+- The claim that top-bound targets show strong functional and regulatory coherence is unsupported without the figures and statistical tests.
+- The claim that the low overlap is "masked by weakly bound ones" is plausible but not quantitatively demonstrated, as no direct comparison of overlap rates between the two definitions is shown.
+- The claim that the refined definition will yield sharper insight "in yeast and beyond" is unsupported, as no evidence for generalizability is provided.
+- The statement that the datasets are "highly consistent" between labs is based on a median correlation of 0.82, but the range and the number of TFs compared are not given, making the strength of this claim unclear.
+- The ESR confounding is acknowledged but not controlled for, so the specificity of the observed transcriptional coherence is not established.

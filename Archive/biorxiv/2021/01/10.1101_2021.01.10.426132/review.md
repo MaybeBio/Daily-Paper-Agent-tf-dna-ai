@@ -1,0 +1,124 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint, including figure legends referenced in text but not figures themselves.
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and reproducibility as presented in the provided text. No assessment of figures, tables, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present PepNN-Struct and PepNN-Seq, deep learning models for predicting peptide binding sites on proteins. They introduce a novel "reciprocal attention" module that simultaneously updates peptide and protein embeddings with enforced symmetry. The models use transfer learning from protein fragment-protein complex data and a pre-trained language model (ProtBert). The authors claim state-of-the-art performance on peptide binding site prediction, demonstrate peptide-agnostic prediction capability, and validate a novel prediction (ORF7a/BST-2 interaction) experimentally.
+- **Visible evidence base** Text descriptions of results including performance metrics (ROC AUC 0.893, MCC 0.483 on TS305), comparisons to existing methods (PBRpredict-Suite, Interpep, PepBind, SPRINT-Str), transfer learning ablation results, peptide-agnostic prediction analyses, epitope prediction application, and one experimental validation (co-immunoprecipitation for ORF7a/BST-2).
+- **Missing materials affecting confidence** All figures and tables (Fig 1-4, S1-S7, Tables 1, S1-S4), detailed benchmark dataset compositions, model architecture diagrams, hyperparameter search details, statistical test outputs, and the actual code/dataset repository contents. The experimental validation section lacks methodological detail for the co-immunoprecipitation results.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable contribution to the peptide-protein interaction prediction field. The reciprocal attention mechanism is a novel architectural contribution with clear biological motivation. The transfer learning strategy is well-reasoned and addresses a genuine data scarcity problem. However, the evidence as presented in the text is insufficient to fully evaluate the claims of state-of-the-art performance. Critical details about benchmark comparisons, statistical significance, and the experimental validation are either missing or underdescribed. The peptide-agnostic prediction results are intriguing but the scoring methodology and validation approach require more rigorous presentation. The manuscript shows promise but the current evidence base does not fully establish the central claims.
+- **Who would be interested in the results, and why** Computational biologists working on protein-protein and protein-peptide interaction prediction; structural biologists studying peptide recognition modules; researchers developing deep learning methods for biomolecular applications; pharmaceutical researchers interested in peptide therapeutics and epitope prediction; virologists studying host-pathogen interactions given the SARS-CoV-2 application.
+- **Major strengths** 1) The reciprocal attention mechanism is a novel architectural contribution with clear biological rationale, addressing the conformational flexibility problem in peptide binding. 2) The transfer learning strategy using protein fragment complexes is well-motivated and addresses a real data scarcity issue. 3) The parallel structure and sequence-based approaches provide practical flexibility for different use cases. 4) The peptide-agnostic prediction capability, if validated, would be a significant advance enabling discovery of novel peptide binding proteins. 5) The experimental validation of the ORF7a/BST-2 prediction adds credibility beyond purely computational benchmarking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PepNN-Struct achieves state-of-the-art performance on the task of identifying peptide binding sites, with a ROC AUC of 0.893 and an MCC of 0.483 on an independent test set."
+  - **Evidence pointer** Results section "PepNN achieves state-of-the-art performance on peptide binding site prediction", Table 1
+  - **Concern** The claim of state-of-the-art performance is based on comparisons that are described inconsistently. For some methods (PBRpredict-Suite), the authors ran the models themselves but report drastically lower performance than originally published, attributing this to annotation differences. For other methods, they rely on literature-reported values. This mixed comparison strategy introduces potential biases. The authors note PepNN performs worse in MCC for some comparisons but do not provide a clear explanation for this discrepancy. The text states "the model was re-trained on the training datasets used in different studies prior to comparison on their test sets" but does not specify whether hyperparameters were re-tuned for each dataset, which could disadvantage the comparison methods.
+  - **Why it matters** The central claim of the manuscript is state-of-the-art performance. If the comparison methodology is inconsistent or biased, the claim is not established. The MCC discrepancy suggests the model may not be uniformly superior, and the authors need to address this directly rather than noting it in passing.
+  - **Resolution test** Provide a comprehensive comparison table with all methods evaluated under identical conditions (same training data, same annotation scheme, same evaluation metrics). Report both ROC AUC and MCC for all methods. Clarify whether hyperparameters were re-tuned for each training dataset. Provide confidence intervals or statistical significance tests for performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We found that the reciprocal attention variant outperforms the graph Transformer in its capacity to accurately identify fragment binding sites (Fig S1)."
+  - **Evidence pointer** Results section "Parallel models for structure and sequence-based peptide binding site prediction", Fig S1
+  - **Concern** The only evidence for the superiority of the reciprocal attention mechanism over a standard graph Transformer is presented in a supplementary figure with no quantitative details in the text. The authors do not report the magnitude of improvement, statistical significance, or the number of independent runs. Given that the reciprocal attention module is presented as a key novel contribution, this comparison needs to be rigorously established.
+  - **Why it matters** The reciprocal attention mechanism is the primary architectural novelty. If its advantage over existing attention mechanisms is not rigorously demonstrated, the contribution of the manuscript is substantially weakened.
+  - **Resolution test** Report quantitative performance metrics for both architectures with multiple random seeds, statistical significance tests, and ablation studies showing the contribution of the symmetry constraint specifically.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "PepNN-Struct assigns 39 623 domains in the PDB a score higher than the mean PRM score and PepNN-Seq assigns 10 332 domains in the human proteome a score higher than the mean PRM score."
+  - **Evidence pointer** Results section "Peptide-agnostic prediction allows the identification of putative novel peptide binding proteins", Tables S1-S4
+  - **Concern** The peptide-agnostic scoring methodology is described only at a high level. The score combines top residue probabilities with a Gaussian fit to binding residue percentages, but the text does not specify how the weight (0.97 for PepNN-Struct, 0.99 for PepNN-Seq) was determined, how the Gaussian parameters were estimated, or how the threshold for "high confidence" predictions was set. The comparison of score distributions between canonical PRMs and other proteins is described but the statistical analysis is not detailed.
+  - **Why it matters** The claim that the models can identify novel peptide binding proteins depends entirely on this scoring methodology. Without clear specification, the results cannot be reproduced or independently verified.
+  - **Resolution test** Provide a complete mathematical specification of the scoring function, describe how all parameters were determined, report the full distribution statistics for canonical PRMs versus background, and provide the complete list of high-scoring domains with their scores.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** "A co-immunoprecipitation assay demonstrated that the residues at the predicted binding site (H19A/Q21A) are necessary for ORF7a/BST-2 binding, corroborating the PepNN prediction (Fig 4b)."
+  - **Evidence pointer** Results section "Peptide-agnostic prediction allows the identification of putative novel peptide binding proteins", Fig 4b
+  - **Concern** The experimental validation is described in a single sentence with no methodological detail. The text does not specify the experimental conditions, the constructs used, the controls performed, or the quantification method. The docking analysis that motivated the mutagenesis is described as showing interaction in "seven of the top ten poses" but the criteria for defining interaction at the predicted site are not specified.
+  - **Why it matters** Experimental validation of computational predictions is a strong point of the manuscript, but only if the experiments are described with sufficient rigor to be evaluated and reproduced.
+  - **Resolution test** Provide full experimental methods for the co-immunoprecipitation assay, including construct details, transfection conditions, lysis and immunoprecipitation protocols, antibody information, and representative blots with appropriate controls. Describe the docking analysis criteria in detail.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "To compensate for the scarcity of peptide-protein complex structural information, we make use of available protein-protein complex and protein sequence information through a series of transfer learning steps."
+  - **Evidence pointer** Results section "Transfer learning results in large improvements in model performance", Fig 2
+  - **Concern** The transfer learning results are described qualitatively. The text states pre-training resulted in "significant improvement" but does not report the magnitude of improvement in quantitative terms. The claim that pre-training helps "bring the parameters closer to an optimum for general peptide binding site prediction" is speculative and not directly supported by the presented evidence.
+  - **Why it matters** Transfer learning is a key methodological contribution. The specific contribution of each transfer learning step needs to be quantified to understand which aspects of the approach are most valuable.
+  - **Resolution test** Report quantitative performance metrics for each training condition (no pre-training, fragment pre-training only, language model embeddings only, full pipeline) with statistical significance tests.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Methods section "Datasets"
+  - **Issue** The text states "Crystal structures with a resolution of at least 2.5 □" which appears to be a typographical error. The unit symbol is corrupted. Additionally, the text says "buried surface area of less than 400 □ 2" with the same symbol issue.
+  - **Required correction** Replace the corrupted symbols with the correct unit notation (Å for angstrom, Å² for square angstroms).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Methods section "Model architecture"
+  - **Issue** The equations describing the reciprocal attention mechanism are referenced but not shown in the text. The matrices Q, K, V are mentioned but the actual attention formula is not provided. The text says "The resulting attention values are as follows" but the equation is missing.
+  - **Required correction** Include the complete mathematical formulation of the reciprocal attention mechanism, including the symmetry constraint.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Hyperparameter details
+  - **Evidence pointer** Methods section "Model architecture"
+  - **Issue** The hyperparameter search is described as "random search" with eight parameters tuned, but the ranges for each parameter are not specified. The final values are given but not the search space.
+  - **Required correction** Provide the search ranges for each hyperparameter and the number of trials that converged successfully.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance comparison
+  - **Evidence pointer** Results section "PepNN achieves state-of-the-art performance on peptide binding site prediction"
+  - **Issue** The text reports ROC AUC and MCC values but does not report confidence intervals, standard deviations across runs, or statistical significance tests for the differences between methods.
+  - **Required correction** Report variance estimates and statistical significance for all performance comparisons.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Epitope prediction section
+  - **Evidence pointer** Results section "Application of PepNN to epitope prediction"
+  - **Issue** The epitope prediction results are described only as "worse than that on peptide binding site prediction" with no quantitative comparison. The statement "the model makes reasonable predictions on numerous test antigens" is vague.
+  - **Required correction** Provide quantitative performance metrics for epitope prediction and specify the criteria for "reasonable predictions."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Methods section "Code and data availability"
+  - **Issue** The code repository is mentioned but there is no version information, no documentation of dependencies, and no indication of whether the trained model weights are provided.
+  - **Required correction** Specify the software version, list key dependencies, and indicate whether trained model weights are included.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Statistical tests
+  - **Evidence pointer** Methods section "Statistical tests"
+  - **Issue** The Wilcoxon tests are mentioned but the specific comparisons performed are not described. It is unclear which distributions were compared and what hypotheses were tested.
+  - **Required correction** Describe the specific statistical comparisons performed and report the test statistics and p-values.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement "PepNN can uniquely be used to score proteins lacking a known peptide ligand" overstates the uniqueness of the approach. Other methods may also make peptide-agnostic predictions.
+  - **Required correction** Soften the claim to indicate that this capability is a distinguishing feature of PepNN rather than unique to it.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is not fully established due to inconsistent comparison methodology and unreported statistical significance.
+- The superiority of the reciprocal attention mechanism over standard attention is asserted but not quantitatively demonstrated in the text.
+- The peptide-agnostic scoring methodology is underspecified, making the genome-scale predictions difficult to evaluate.
+- The experimental validation of ORF7a/BST-2 is described without sufficient methodological detail to assess its rigor.
+- The claim that pre-training helps "bring the parameters closer to an optimum for general peptide binding site prediction" is speculative and not directly supported by evidence.
+- The statement that PepNN "can uniquely be used to score proteins lacking a known peptide ligand" is an overstatement not supported by the presented comparisons.
+- The epitope prediction results are described qualitatively without quantitative support.
+- The transfer learning improvements are described as "significant" without reporting effect sizes or statistical tests.

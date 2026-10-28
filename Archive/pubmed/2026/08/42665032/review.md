@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report functional characterization of three natural AAG SNVs (R145H, G163S, R197C) using biochemical assays and molecular dynamics simulations, concluding that G163S reduces thermal stability and Hx excision but retains epsilonA activity, R197C is catalytically inactive with reduced DNA binding, and R145H retains near-wild-type function despite deleterious predictions.
+- **Visible evidence base** Abstract text only; no numerical data, experimental protocols, or simulation details provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, simulation parameters, sequence alignments, and any structural coordinates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable functional study of clinically relevant AAG variants, addressing an important gap between bioinformatic predictions and experimental validation. The findings are biologically plausible and the variant selection rationale is clear. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the conclusions. The claim that R197C is "catalytically inactive" and the differential substrate specificity of G163S require careful experimental scrutiny. The molecular dynamics interpretations are suggestive but cannot be assessed without methodological detail. The work could be of interest to the DNA repair and cancer biology communities, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in DNA repair mechanisms, cancer genetics, and pharmacogenomics would be interested. The study addresses how natural genetic variation in a BER enzyme affects function, which has implications for understanding inter-individual differences in chemotherapy response and cancer susceptibility. The comparison of bioinformatic predictions with experimental outcomes is also relevant to the variant interpretation community.
+- **Major strengths** The study addresses a clinically relevant question with clear translational implications. The selection of variants based on amino acid class changes in DNA-binding regions is mechanistically motivated. The combination of biochemical assays with molecular dynamics simulations provides complementary perspectives. The finding that R145H retains function despite deleterious predictions highlights the value of experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The R197C variant had a four-fold reduction in DNA binding affinity for both substrates, and was catalytically inactive, unable to excise either damaged bases."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of complete catalytic inactivity for R197C is a strong negative result. The abstract provides no information on the detection limits of the glycosylase assay, the range of substrate concentrations tested, or the statistical power to distinguish very low activity from zero activity. Without these details, "inactive" may reflect assay sensitivity rather than true loss of function.
+  - **Why it matters** A definitive claim of catalytic inactivity has clinical implications for carrier individuals. If the assay lacked sensitivity, the variant could retain low but physiologically relevant activity. The distinction between "undetectable" and "absent" is critical for functional classification.
+  - **Resolution test** Provide the limit of detection for the glycosylase assay, show dose-response curves with appropriate positive and negative controls, and report whether activity was tested across a range of enzyme concentrations and incubation times. Statistical comparison of R197C activity against a no-enzyme control should be reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** "The G163S variant showed reduced thermal stability due to the conformational strain in the beta-hairpin loop that intercalates in DNA, but retained epsilonA excision activity comparable to that of wild-type AAG, while losing activity against Hx-containing DNA."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The differential substrate specificity of G163S is a central finding, but the abstract provides no quantitative data. No melting temperatures, activity values, or statistical comparisons are given. The mechanistic attribution to "conformational strain in the beta-hairpin loop" is presented as established fact, but the supporting simulation evidence is not described.
+  - **Why it matters** Substrate-specific loss of activity is an unusual and mechanistically informative phenotype. Without quantitative support, the claim cannot be distinguished from experimental variability. The structural interpretation requires validation that the simulation faithfully represents the relevant conformational ensemble.
+  - **Resolution test** Report thermal melting temperatures with errors and replicates, quantify excision activity for both substrates with appropriate normalization, and provide statistical tests comparing G163S to wild-type. Describe the simulation protocol and show that the beta-hairpin strain is consistently observed across independent simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** "This loss of function correlated with the rearrangement of the 201-210 loop and the reorientation of Arg-201 and Arg-207, which disrupts critical DNA contacts."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The causal link between the observed structural changes and the functional loss is asserted rather than demonstrated. The abstract does not indicate whether the loop rearrangement was observed in simulations of the variant alone, in complex with DNA, or both. The phrase "correlated with" is appropriate, but the subsequent causal language overreaches.
+  - **Why it matters** Establishing a mechanistic basis for the loss of function strengthens the study's contribution. If the structural changes are only observed in the apo state, their relevance to DNA binding and catalysis is uncertain. The distinction between correlation and causation is essential for the interpretation to be valid.
+  - **Resolution test** Clarify whether the structural changes were observed in DNA-bound simulations. If available, show that the disrupted contacts are directly involved in DNA binding in the wild-type complex. Consider mutational analysis of Arg-201 and Arg-207 to test the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Variant nomenclature
+  - **Evidence pointer** Abstract title and text
+  - **Issue** The title lists variants as "R145H, G163S and R197C" without specifying the reference sequence or transcript. This is important for clinical interpretation.
+  - **Required correction** Specify the reference sequence (e.g., NP_004434.1 or the relevant transcript) and note whether the numbering includes the mitochondrial targeting sequence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Bioinformatic predictions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "bioinformatic predictions of deleterious effect" for R145H but does not specify which prediction tools were used or their scores.
+  - **Required correction** Name the prediction tools and provide the relevant scores in the full manuscript, with a brief description in the abstract if space permits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Clinical relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that SNVs may affect "response and prognosis following chemoradiotherapy" but does not indicate whether the studied variants have been observed in patient cohorts or associated with clinical outcomes.
+  - **Required correction** Clarify whether these variants have known population frequencies or clinical associations, or state that their clinical significance is currently unknown.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Substrate nomenclature
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses "1,N(6)-ethenoadenosine (epsilonA)" which is a nucleoside, but the substrate in the assay is likely a nucleotide within DNA. This is a minor terminology issue.
+  - **Required correction** Use "1,N6-ethenoadenine" or specify the context as a DNA lesion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of catalytic inactivity and differential substrate specificity cannot be evaluated without quantitative data. The mechanistic interpretation in R1-M3 requires clarification of the simulation context.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific gap in variant functional characterization, but the approach is not conceptually novel. Scientific importance: Potentially high for DNA repair and pharmacogenomics, but the impact depends on the robustness of the functional claims. Interdisciplinary readership: The topic bridges biochemistry, structural biology, and clinical genetics, which could attract broad interest. Technical soundness: Cannot be assessed from the abstract alone; the blocking concerns must be resolved. Readability for nonspecialists: The abstract is generally clear, though the mechanistic descriptions assume familiarity with BER and molecular dynamics terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question and the preliminary findings are interesting, but the current evidence base is insufficient to establish the central claims. The authors should provide quantitative data and clarify the simulation context before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that R197C is "catalytically inactive" is unsupported without assay sensitivity information.
+- The claim that G163S "lost" Hx activity while retaining epsilonA activity is unsupported without quantitative activity data.
+- The mechanistic attribution of G163S thermal instability to "conformational strain in the beta-hairpin loop" is unverifiable from the abstract.
+- The causal link between R197C structural changes and loss of function is asserted beyond the evidence described.
+- The statement that R145H retains "near-wild-type" activity is unsupported without numerical comparison.
+- The clinical relevance implied by the chemoradiotherapy context is not substantiated by any patient or population data.

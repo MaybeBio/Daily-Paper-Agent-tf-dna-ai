@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "41786520",
+    "doi": "10.3760/cma.j.cn112144-20251126-00464",
+    "title": "[Exploring the therapeutic targets and molecular mechanisms of pimecrolimus in the treatment of oral lichen planus based on network pharmacology, machine learning, and molecular docking]."
+  },
+  "content": {
+    "abstract": "Objective: To systematically investigate the potential targets and therapeutic mechanisms of pimecrolimus in the treatment of oral lichen planus (OLP) using network pharmacology, machine learning, and molecular docking approaches. Methods: Pimecrolimus and OLP-related targets were retrieved from SwissTargetPrediction, Comparative Toxicogenomics Database, and GeneCards database. Intersecting genes underwent gene ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses. A protein-protein interaction (PPI) network was constructed, with eXtreme Gradient Boosting algorithm and SHapley Additive exPlanations employed to evaluate target importance. Molecular docking validated binding affinity between pimecrolimus and core targets. Results: Twenty intersecting targets were identified, primarily enriched in inflammatory pathways, including phosphatidylinositol 3-kinase (PI3K)-protein kinase B (Akt) signaling pathway, tumor necrosis factor (TNF) signaling pathway, and nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kappaB) signaling pathway. PPI and machine learning identified key targets including matrix metalloproteinase 2 (MMP2), mechanistic target of rapamycin (MTOR), and erb-b2 receptor tyrosine kinase 2 (ERBB2). The expression levels of MMP2 and MTOR in erosive OLP (6.67 and 3.54, respectively) were significantly higher than those in non-erosive OLP (4.39 and 3.27, respectively) (P<0.001 and P=0.012). In contrast, the expression level of ERBB2 in non-erosive OLP (5.55) was significantly higher than that in erosive OLP (4.86) (P=0.001). Molecular docking demonstrated that pimecrolimus had good binding activity with all the above targets, with binding energies all lower than -5 kcal/mol. Conclusions: This study systematically demonstrates that pimecrolimus may interfere with OLP progression by synergistically regulating key targets such as MMP2 (acting on erosive OLP), MTOR (acting on erosive OLP), and ERBB2 (acting on non-erosive OLP), and inhibiting the activity of inflammatory pathways including PI3K-Akt, TNF, and NF-kappaB.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Humans",
+      "*Network Pharmacology",
+      "*Lichen Planus, Oral/drug therapy/metabolism",
+      "*Tacrolimus/analogs & derivatives/pharmacology/therapeutic use",
+      "*Machine Learning",
+      "Signal Transduction/drug effects",
+      "Protein Interaction Maps",
+      "Matrix Metalloproteinase 2/metabolism",
+      "Tumor Necrosis Factor-alpha/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shang, Q H",
+        "Jila, Palidan",
+        "Yilihamu, Aishan",
+        "Chen, Y",
+        "Wei, Y R",
+        "Xie, X J",
+        "Awuti, Gulinuer"
+      ],
+      "short_names": [
+        "Shang QH",
+        "Jila P",
+        "Yilihamu A",
+        "Chen Y",
+        "Wei YR",
+        "Xie XJ",
+        "Awuti G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China.",
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China.",
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China.",
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China.",
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China.",
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China.",
+        "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shang, Q H",
+        "short_name": "Shang QH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Jila, Palidan",
+        "short_name": "Jila P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Yilihamu, Aishan",
+        "short_name": "Yilihamu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Y",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Y R",
+        "short_name": "Wei YR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Xie, X J",
+        "short_name": "Xie XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      },
+      {
+        "full_name": "Awuti, Gulinuer",
+        "short_name": "Awuti G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, the First Affiliated Hospital of Xinjiang Medical University (Affiliated Stomatological Hospital), Xinjiang Uygur Autonomous Region Institute of Stomatology, Urumqi 830054, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zhonghua kou qiang yi xue za zhi = Zhonghua kouqiang yixue zazhi = Chinese journal of stomatology"
+    ],
+    "journal_abbrev": [
+      "Zhonghua Kou Qiang Yi Xue Za Zhi"
+    ],
+    "pub_date": "2026 Mar 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/06 09:08",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41786520",
+      "39151530",
+      "42421348",
+      "40388786",
+      "40255473",
+      "39701786",
+      "36083487",
+      "41593181",
+      "41203698",
+      "38670393",
+      "41492010",
+      "39499411",
+      "37629739",
+      "39307810",
+      "41261300",
+      "39490646",
+      "40452077",
+      "39490433",
+      "38114219",
+      "36403742",
+      "42332524",
+      "38916485",
+      "41731839",
+      "39075002",
+      "36872359",
+      "41418734",
+      "36604893",
+      "40350871",
+      "39004032",
+      "42004947",
+      "40634934",
+      "38941043",
+      "39816675",
+      "41318403",
+      "37480968",
+      "37879505",
+      "41843163",
+      "32389853",
+      "38822913",
+      "37287284",
+      "40522420",
+      "40350911",
+      "39041101",
+      "39066538",
+      "42335406",
+      "41795298",
+      "41239601",
+      "35101570",
+      "40013962",
+      "38759074",
+      "41736432",
+      "40461235",
+      "39395768",
+      "39917920",
+      "39440778",
+      "39049631",
+      "33082858",
+      "37469733",
+      "40594966",
+      "38169205",
+      "39041167",
+      "41088691",
+      "41330962",
+      "39636495",
+      "38114126",
+      "38115366",
+      "42172986",
+      "41189264",
+      "39343107",
+      "35837376",
+      "40958307",
+      "38115276",
+      "22903029",
+      "39969345",
+      "40916281",
+      "41814740",
+      "38848296",
+      "35473353",
+      "40186900",
+      "41489113",
+      "38964628",
+      "40660385",
+      "39399124",
+      "34941025",
+      "41261616",
+      "42070473",
+      "40330488",
+      "36576506",
+      "39251712",
+      "37799727",
+      "40676786",
+      "35970314",
+      "42119182",
+      "37282941",
+      "36472041",
+      "40760645",
+      "40461193",
+      "41448498",
+      "38845538",
+      "37382018"
+    ],
+    "review": [
+      "41786520"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.yiigle.com/LinkIn.do?linkin_type=pubmed&DOI=10.3760/cma.j.cn112144-20251126-00464",
+        "provider": "Chinese Medical Association Publishing House Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2615",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

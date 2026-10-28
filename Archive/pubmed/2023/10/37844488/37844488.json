@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "37844488",
+    "doi": "10.1016/j.cmpb.2023.107860",
+    "title": "Combining pharmacokinetic and electrophysiological models for early prediction of drug-induced arrhythmogenicity."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: In silico methods are gaining attention for predicting drug-induced Torsade de Pointes (TdP) in different stages of drug development. However, many computational models tended not to account for inter-individual response variability due to demographic covariates, such as sex, or physiologic covariates, such as renal function, which may be crucial when predicting TdP. This study aims to compare the effects of drugs in male and female populations with normal and impaired renal function using in silico methods. METHODS: Pharmacokinetic models considering sex and renal function as covariates were implemented from data published in pharmacokinetic studies. Drug effects were simulated using an electrophysiologically calibrated population of cellular models of 300 males and 300 females. The population of models was built by modifying the endocardial action potential model published by O'Hara et al. (2011) according to the experimentally measured gene expression levels of 12 ion channels. RESULTS: Fifteen pharmacokinetic models for CiPA drugs were implemented and validated in this study. Eight pharmacokinetic models included the effect of renal function and four the effect of sex. The mean difference in action potential duration (APD) between male and female populations was 24.9 ms (p<0.05). Our simulations indicated that women with impaired renal function were particularly susceptible to drug-induced arrhythmias, whereas healthy men were less prone to TdP. Differences between patient groups were more pronounced for high TdP-risk drugs. The proposed in silico tool also revealed that individuals with impaired renal function, electrophysiologically simulated with hyperkalemia (extracellular potassium concentration [K(+)](o) = 7 mM) exhibited less pronounced APD prolongation than individuals with normal potassium levels. The pharmacokinetic/electrophysiological framework was used to determine the maximum safe dose of dofetilide in different patient groups. As a proof of concept, 3D simulations were also run for dofetilide obtaining QT prolongation in accordance with previously reported clinical values. CONCLUSIONS: This study presents a novel methodology that combines pharmacokinetic and electrophysiological models to incorporate the effects of sex and renal function into in silico drug simulations and highlights their impact on TdP-risk assessment. Furthermore, it may also help inform maximum dose regimens that ensure TdP-related safety in a specific sub-population of patients.",
+    "keywords": [
+      "Cardiac safety",
+      "Pharmacokinetic modeling",
+      "Population of models",
+      "Sex-specific cardiotoxicity",
+      "Torsade de Pointes"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Male",
+      "*Arrhythmias, Cardiac",
+      "Sulfonamides/adverse effects",
+      "*Torsades de Pointes/chemically induced",
+      "Potassium/adverse effects",
+      "DNA-Binding Proteins",
+      "Phenethylamines"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Llopis-Lorente, Jordi",
+        "Baroudi, Samuel",
+        "Koloskoff, Kevin",
+        "Mora, Maria Teresa",
+        "Basset, Matthieu",
+        "Romero, Lucia",
+        "Benito, Sylvain",
+        "Dayan, Frederic",
+        "Saiz, Javier",
+        "Trenor, Beatriz"
+      ],
+      "short_names": [
+        "Llopis-Lorente J",
+        "Baroudi S",
+        "Koloskoff K",
+        "Mora MT",
+        "Basset M",
+        "Romero L",
+        "Benito S",
+        "Dayan F",
+        "Saiz J",
+        "Trenor B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, 46022, Valencia, Spain.",
+        "ExactCure, 06000, Nice, France.",
+        "ExactCure, 06000, Nice, France.",
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, 46022, Valencia, Spain.",
+        "ExactCure, 06000, Nice, France.",
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, 46022, Valencia, Spain.",
+        "ExactCure, 06000, Nice, France.",
+        "ExactCure, 06000, Nice, France.",
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, 46022, Valencia, Spain.",
+        "Centro de Investigacion e Innovacion en Bioingenieria (Ci(2)B), Universitat Politecnica de Valencia, camino de Vera, s/n, 46022, Valencia, Spain. Electronic address: btrenor@eln.upv.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Llopis-Lorente, Jordi",
+        "short_name": "Llopis-Lorente J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, 46022, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Baroudi, Samuel",
+        "short_name": "Baroudi S",
+        "identifiers": [],
+        "affiliations": [
+          "ExactCure, 06000, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Koloskoff, Kévin",
+        "short_name": "Koloskoff K",
+        "identifiers": [],
+        "affiliations": [
+          "ExactCure, 06000, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Mora, Maria Teresa",
+        "short_name": "Mora MT",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, 46022, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Basset, Matthieu",
+        "short_name": "Basset M",
+        "identifiers": [],
+        "affiliations": [
+          "ExactCure, 06000, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Romero, Lucía",
+        "short_name": "Romero L",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, 46022, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Benito, Sylvain",
+        "short_name": "Benito S",
+        "identifiers": [],
+        "affiliations": [
+          "ExactCure, 06000, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Dayan, Frederic",
+        "short_name": "Dayan F",
+        "identifiers": [],
+        "affiliations": [
+          "ExactCure, 06000, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Saiz, Javier",
+        "short_name": "Saiz J",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, 46022, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Trenor, Beatriz",
+        "short_name": "Trenor B",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Investigación e Innovación en Bioingeniería (Ci(2)B), Universitat Politècnica de València, camino de Vera, s/n, 46022, Valencia, Spain. Electronic address: btrenor@eln.upv.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computer methods and programs in biomedicine"
+    ],
+    "journal_abbrev": [
+      "Comput Methods Programs Biomed"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/17 00:42",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [
+      "42511645",
+      "41487960",
+      "40737342",
+      "40637823",
+      "40608827",
+      "40379846",
+      "39725693"
+    ],
+    "refs": [],
+    "similar": [
+      "37844488",
+      "35687995",
+      "23337247",
+      "12667944",
+      "18648775",
+      "32786710",
+      "16101634",
+      "20451633",
+      "11166738",
+      "28756335",
+      "29297274",
+      "24490860",
+      "15574182",
+      "21946817",
+      "30353374",
+      "33772748",
+      "25634399",
+      "19222480",
+      "29541956",
+      "12109926",
+      "28516454",
+      "15522280",
+      "15655517",
+      "16979017",
+      "17074641",
+      "15975832",
+      "24211677",
+      "11336111",
+      "20170820",
+      "14756578",
+      "12235254",
+      "22001562",
+      "33283267",
+      "30247688",
+      "15066127",
+      "11480490",
+      "11723026",
+      "32768644",
+      "23537164",
+      "16555686",
+      "17965747",
+      "28202629",
+      "29038104",
+      "18493243",
+      "21054337",
+      "27813448",
+      "37860622",
+      "21622813",
+      "26980523",
+      "28522677",
+      "11263615",
+      "37649890",
+      "26411977",
+      "17719337",
+      "29209226",
+      "27701120",
+      "28213480",
+      "26259721",
+      "18836478",
+      "17617063",
+      "17324143",
+      "12909318",
+      "19528812",
+      "23812796",
+      "31398384",
+      "19159406",
+      "16289936",
+      "18367457",
+      "28878692",
+      "8962574",
+      "11331264",
+      "19929028",
+      "31764978",
+      "24785406",
+      "11877367",
+      "15653031",
+      "15961988",
+      "15778734",
+      "16105020",
+      "20547773",
+      "22516473",
+      "20462510",
+      "20718748",
+      "36807374",
+      "27030700",
+      "17388913",
+      "31730936",
+      "15935709",
+      "36007604",
+      "12424513",
+      "23833046",
+      "15139788",
+      "29582428",
+      "30260244",
+      "15193823",
+      "30712162",
+      "18294569",
+      "38974343",
+      "38638275",
+      "28868038",
+      "39402077",
+      "29184497",
+      "32548538",
+      "39185761",
+      "38888177",
+      "32511528",
+      "34489728"
+    ],
+    "review": [
+      "37844488",
+      "12667944",
+      "25634399",
+      "12109926",
+      "15975832",
+      "14756578",
+      "15066127",
+      "11480490",
+      "16555686",
+      "26980523",
+      "23812796",
+      "16289936",
+      "19929028",
+      "20547773",
+      "20462510",
+      "15139788",
+      "15193823",
+      "32548538"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169-2607(23)00526-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/arrhythmia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Arrhythmia"
+      },
+      {
+        "url": "https://riunet.upv.es/handle/10251/205279",
+        "provider": "RiuNet Universitat Politecnica de Valencia",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0169-2607(23)00526-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

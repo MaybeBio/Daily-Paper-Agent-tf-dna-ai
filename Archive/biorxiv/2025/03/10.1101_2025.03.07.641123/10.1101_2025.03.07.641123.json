@@ -1,0 +1,1074 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.07.641123",
+  "title": "An artificial motor protein that walks along a DNA track",
+  "doi": "10.1101/2025.03.07.641123",
+  "abstract": "Paragraph Molecular motors are fundamental to life 1–6 because of their ability to convert chemical energy into mechanical work, an ability that is conferred by the chemical and structural complexity of their constituent proteins. Scientists have long sought to create artificial protein motors that may reveal insights into how biological motors function. While artificial molecular motors based on small molecules 7 and DNA 8,9 have been developed, creating an artificial motor protein has remained an elusive goal in synthetic biology 10 . Here we demonstrate the realization of an artificial protein motor called Tumbleweed (TW) that walks directionally along a DNA track under external control. TW consists of three legs, each with a ligand-gated DNA-binding domain that enables selective interaction with specific sites along a DNA track 11 . Using single-molecule fluorescence assays and a programmable microfluidic device, we show that TW steps directionally along a designed DNA track in response to a defined sequence of ligand inputs. We built our TW molecular walker using a modular approach, combining existing proteins with known properties to achieve emergent motor function, similar to how Nature evolves new proteins. Our design strategy thus offers a a platform for engineering advanced and dynamic protein functionality. Our demonstration of TW walking represents a step toward developing fully autonomous protein motors and opens new avenues for uncovering and leveraging the principles by which biological motors transduce chemical energy into motion.",
+  "authors": [
+    "Patrik Nilsson",
+    "Neil O. Robertson",
+    "Nils Gustafsson",
+    "Roberta B. Davies",
+    "Chu Wai Liew",
+    "Aaron Lyons",
+    "Ralf Eichhorn",
+    "Cassandra S. Niman",
+    "Gerhard A. Blab",
+    "Elizabeth H.C. Bromley",
+    "Andrew E. Whitten",
+    "Anthony P. Duff",
+    "Ivan N. Unksov",
+    "Jason P. Beech",
+    "Peter Jönsson",
+    "Till Böcking",
+    "Birte Höcker",
+    "Derek N. Woolfson",
+    "Nancy R. Forde",
+    "Heiner Linke",
+    "Paul M. G. Curmi"
+  ],
+  "published_date": "2025-03-12",
+  "updated_date": "2025-03-13T12:54:18Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.641123",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.641123.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T17:47:22Z",
+        "timestamp": 1776016042795,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 61,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T00:00:00Z",
+            "timestamp": 1741737600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Human Frontiers in Science Program",
+          "award": [
+            "RGP0031/2007"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RGP0031/2007"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "European Union’s Horizon 2020 research and innovation programme under grant",
+          "award": [
+            "951375"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "951375"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Australian Research Council Discovery Project",
+          "award": [
+            "DP170103153"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DP170103153"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000038",
+          "name": "Natural Sciences and Engineering Research Council of Canada",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "RGPIN-2015-05545"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RGPIN-2015-05545"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000038",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000038",
+          "name": "Natural Sciences and Engineering Research Council of Canada",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "RGPIN-2020-04680"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RGPIN-2020-04680"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000038",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004359",
+          "name": "Swedish Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2015-03824"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2015-03824"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004359",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004359",
+          "name": "Swedish Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2020-04226"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2020-04226"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004359",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004359",
+          "name": "Swedish Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2020-05266"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2020-05266"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004359",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004359",
+          "name": "Swedish Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "638-2013-9243"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "638-2013-9243"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004359",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary Paragraph</jats:title>\n                <jats:p>\n                  Molecular motors are fundamental to life\n                  <jats:sup>1–6</jats:sup>\n                  because of their ability to convert chemical energy into mechanical work, an ability that is conferred by the chemical and structural complexity of their constituent proteins. Scientists have long sought to create artificial protein motors that may reveal insights into how biological motors function. While artificial molecular motors based on small molecules\n                  <jats:sup>7</jats:sup>\n                  and DNA\n                  <jats:sup>8,9</jats:sup>\n                  have been developed, creating an artificial motor protein has remained an elusive goal in synthetic biology\n                  <jats:sup>10</jats:sup>\n                  . Here we demonstrate the realization of an artificial protein motor called Tumbleweed (TW) that walks directionally along a DNA track under external control. TW consists of three legs, each with a ligand-gated DNA-binding domain that enables selective interaction with specific sites along a DNA track\n                  <jats:sup>11</jats:sup>\n                  . Using single-molecule fluorescence assays and a programmable microfluidic device, we show that TW steps directionally along a designed DNA track in response to a defined sequence of ligand inputs. We built our TW molecular walker using a modular approach, combining existing proteins with known properties to achieve emergent motor function, similar to how Nature evolves new proteins. Our design strategy thus offers a a platform for engineering advanced and dynamic protein functionality. Our demonstration of TW walking represents a step toward developing fully autonomous protein motors and opens new avenues for uncovering and leveraging the principles by which biological motors transduce chemical energy into motion.\n                </jats:p>",
+      "DOI": "10.1101/2025.03.07.641123",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            13
+          ]
+        ],
+        "date-time": "2025-03-13T12:54:18Z",
+        "timestamp": 1741870458000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "An artificial motor protein that walks along a DNA track"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-7143-1210",
+          "authenticated-orcid": false,
+          "given": "Patrik",
+          "family": "Nilsson",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Solid State Physics, Lund University; Box 118, 221 00 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6129-890X",
+          "authenticated-orcid": false,
+          "given": "Neil O.",
+          "family": "Robertson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physics, University of New South Wales; Sydney, NSW 2052, Australia"
+            },
+            {
+              "name": "School of Biotechnology and Biomolecular Sciences, University of New South Wales; Sydney, NSW 2052, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2369-1679",
+          "authenticated-orcid": false,
+          "given": "Nils",
+          "family": "Gustafsson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Solid State Physics, Lund University; Box 118, 221 00 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Roberta B.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physics, University of New South Wales; Sydney, NSW 2052, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chu Wai",
+          "family": "Liew",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physics, University of New South Wales; Sydney, NSW 2052, Australia"
+            },
+            {
+              "name": "School of Biotechnology and Biomolecular Sciences, University of New South Wales; Sydney, NSW 2052, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aaron",
+          "family": "Lyons",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physics, Simon Fraser University Burnaby; BC, V5A 1S6, Canada"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7281-1123",
+          "authenticated-orcid": false,
+          "given": "Ralf",
+          "family": "Eichhorn",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nordita, Royal Institute of Technology and Stockholm University; SE-106 91, Stockholm, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6250-101X",
+          "authenticated-orcid": false,
+          "given": "Cassandra S.",
+          "family": "Niman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Solid State Physics, Lund University; Box 118, 221 00 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1729-6541",
+          "authenticated-orcid": false,
+          "given": "Gerhard A.",
+          "family": "Blab",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physics, Simon Fraser University Burnaby; BC, V5A 1S6, Canada"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7678-1187",
+          "authenticated-orcid": false,
+          "given": "Elizabeth H.C.",
+          "family": "Bromley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physics, University of Durham; Durham, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8856-3120",
+          "authenticated-orcid": false,
+          "given": "Andrew E.",
+          "family": "Whitten",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Australian Nuclear Science and Technology Organisation; Lucas Heights, NSW 2234, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3586-360X",
+          "authenticated-orcid": false,
+          "given": "Anthony P.",
+          "family": "Duff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Australian Nuclear Science and Technology Organisation; Lucas Heights, NSW 2234, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0098-7138",
+          "authenticated-orcid": false,
+          "given": "Ivan N.",
+          "family": "Unksov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Solid State Physics, Lund University; Box 118, 221 00 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1347-4657",
+          "authenticated-orcid": false,
+          "given": "Jason P.",
+          "family": "Beech",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Solid State Physics, Lund University; Box 118, 221 00 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2994-8017",
+          "authenticated-orcid": false,
+          "given": "Peter",
+          "family": "Jönsson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Physical Chemistry, Lund University; P.O. Box 124, SE-22100 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1165-3122",
+          "authenticated-orcid": false,
+          "given": "Till",
+          "family": "Böcking",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Molecular Medicine, School of Biomedical Sciences, University of New South Wales; Sydney, NSW 2052, Australia"
+            },
+            {
+              "name": "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, University of New South Wales; Sydney, NSW 2052, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8250-9462",
+          "authenticated-orcid": false,
+          "given": "Birte",
+          "family": "Höcker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, University of Bayreuth; 95447 Bayreuth, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0394-3202",
+          "authenticated-orcid": false,
+          "given": "Derek N.",
+          "family": "Woolfson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Chemistry, University of Bristol; Bristol BS8 ITS, United Kingdom"
+            },
+            {
+              "name": "School of Biochemistry, University of Bristol; Bristol BS8 ITD, United Kingdom"
+            },
+            {
+              "name": "Max Planck-Bristol Centre for Minimal Biology, University of Bristol; Bristol BS8 ITS, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5479-7073",
+          "authenticated-orcid": false,
+          "given": "Nancy R.",
+          "family": "Forde",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physics, Simon Fraser University Burnaby; BC, V5A 1S6, Canada"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4451-4006",
+          "authenticated-orcid": false,
+          "given": "Heiner",
+          "family": "Linke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NanoLund, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Solid State Physics, Lund University; Box 118, 221 00 Lund, Sweden"
+            },
+            {
+              "name": "Science for Life Laboratory, Physics Department, Lund University; Box 118, 221 00 Lund, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5762-7638",
+          "authenticated-orcid": false,
+          "given": "Paul M. G.",
+          "family": "Curmi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physics, University of New South Wales; Sydney, NSW 2052, Australia"
+            },
+            {
+              "name": "School of Biotechnology and Biomolecular Sciences, University of New South Wales; Sydney, NSW 2052, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-024-00780-6"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-052521-042909"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.9b00264"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-018-0004-3"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.10.052"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.72.121801.161542"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/open.201700181"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.isci.2024.109453"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nnano.2007.104"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/d41586-024-03595-9"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2976/1.3111282"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07813-2"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj7662"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adg7731"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abm1183"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2399-1984/ad7d7e"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12551-020-00717-1"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1367-2630/17/5/055017"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.276.5314.917"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1115485109"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw389"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2012/109238"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevE.84.031922"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chemphys.2010.05.009"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c3lc50194a"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd9944"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2008.2265"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.05.046"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/nl050084f"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-45570-y"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/Tnb.2015.2393872"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2014.04.007"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2013.10.021"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0009284"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.06.065"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(00)00182-9"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)00423-0"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tully, E. & O’Kennedy, R. in Encyclopedia of Microfluidics and Nanofluidics (ed Dongqing Li ) 737–749 (Springer US, 2008).",
+          "DOI": "10.1007/978-0-387-48998-8_585"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S002188981302774X"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S160057671701710110.1107/S1600576717017101"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/s1600576720013412"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0021889812007662"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01488-1"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1432-1327.1999.00792.x"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2023.167978"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky351"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.49",
+          "unstructured": "DeLano, W. L . The PyMOL User’s Manual. (DeLano Scientific, 2002)."
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2018.09.003"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac590"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-60761-670-2_2"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-2877-4_20"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-60327-015-1_38"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E10-08-0683"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1476-5381.2009.00604.x"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00249-021-01513-9"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj.453"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10851-012-0378-3"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0686-2"
+        },
+        {
+          "key": "2026041210115639000_2025.03.07.641123v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2058-7058/16/3/40"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.07.641123",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T17:12:03Z",
+        "timestamp": 1776013923000
+      },
+      "score": 48.732563,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.07.641123"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "references-count": 61,
+      "URL": "https://doi.org/10.1101/2025.03.07.641123",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

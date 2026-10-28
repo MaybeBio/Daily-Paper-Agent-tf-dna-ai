@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "41583523",
+    "doi": "10.7150/ijms.121972",
+    "title": "Identification and Immune Landscape Analysis of Fatty Acid Metabolism-related Genes Associated with Rheumatoid Arthritis."
+  },
+  "content": {
+    "abstract": "Background: Dysfunction of fatty acid metabolism plays a critical role in the pathogenesis of Rheumatoid Arthritis (RA). This study aimed to screen for Hub genes involved in fatty acid metabolism that contribute to the inflammatory state of RA synovium. Methods: Four mRNA microarray datasets for RA were integrated into an expression matrix as a test dataset. One RNA-seq and five microarray datasets were preprocessed as validation datasets. Immune cell infiltration combined with Weighted Gene Co-expression Network Analysis (WGCNA) were used to feature infiltrated cells and their correlation with candidate genes in RA. Five machine learning algorithms were applied to Hub genes screening. Temporal, immuno-efficacy, drug target prediction, molecular docking, ceRNA, and transcription factors networks analyses were conducted to elucidate the association of the Hub genes with RA. Immunofluorescence assay was performed in Collagen-Induced Arthritis (CIA) mouse, and qPCR and Western blot were applied to TNFalpha or IL-6 treated MH7A cells to reveal the potential roles of the proinflammatory cytokines on Hub genes expression in RA synovium. Results: Three Hub genes with better diagnostic efficiency were screened, with PDK1 and XBP1 up-regulated and ACACB down-regulated in RA. These genes were associated with immune cells infiltration and immuno-efficacy in RA, and their expression patterns showed time-dependent characteristics during disease progression. Mechanistically, MALAT1, NEAT1 and FOXC1 were involved in the regulation of PDK1, XBP1 and ACACB expression, and TNFalpha or IL-6 treatment mimicked their expression phenotypes in RA. Conclusion: Our study identified PDK1, XBP1 and ACACB as the Hub genes from the fatty acid metabolic pathway and indicated that PDK1, XBP1 and ACACB might play key roles in the pathogenesis of RA synovium.",
+    "keywords": [
+      "ACACB",
+      "PDK1",
+      "XBP1",
+      "bioinformatic analysis",
+      "fatty acid metabolism",
+      "rheumatoid arthritis",
+      "synovial"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/genetics/immunology/pathology",
+      "Animals",
+      "Humans",
+      "Synovial Membrane/immunology/pathology/metabolism",
+      "Mice",
+      "*Fatty Acids/metabolism",
+      "Pyruvate Dehydrogenase Acetyl-Transferring Kinase/genetics/metabolism",
+      "X-Box Binding Protein 1/genetics/metabolism",
+      "Gene Expression Profiling",
+      "*Arthritis, Experimental/immunology/genetics/pathology",
+      "Gene Regulatory Networks/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Zhongyang",
+        "Luo, Rong",
+        "Shao, Lan"
+      ],
+      "short_names": [
+        "Zhou Z",
+        "Luo R",
+        "Shao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Center for Translational Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, P.R. China 510080.",
+        "The Center for Translational Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, P.R. China 510080.",
+        "The Center for Translational Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, P.R. China 510080."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Zhongyang",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Translational Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, P.R. China 510080."
+        ]
+      },
+      {
+        "full_name": "Luo, Rong",
+        "short_name": "Luo R",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Translational Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, P.R. China 510080."
+        ]
+      },
+      {
+        "full_name": "Shao, Lan",
+        "short_name": "Shao L",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Translational Medicine, The First Affiliated Hospital, Sun Yat-Sen University, Guangzhou, P.R. China 510080."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of medical sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Med Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/26 14:54",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38478467",
+      "38283352",
+      "38240831",
+      "37309864",
+      "37131409",
+      "36759597",
+      "36704915",
+      "36512907",
+      "36508473",
+      "36417534",
+      "35594728",
+      "34899740",
+      "34758300",
+      "34192347",
+      "33868292",
+      "33844448",
+      "33627871",
+      "33437356",
+      "32797249",
+      "32584200",
+      "32557565",
+      "31766832",
+      "31497857",
+      "31497022",
+      "31019190",
+      "29344893",
+      "28569176",
+      "28455435",
+      "27189088",
+      "26883280",
+      "26711533",
+      "25890351",
+      "25822800",
+      "25605792",
+      "25352844",
+      "25180621",
+      "24690414",
+      "24648915",
+      "24409142",
+      "24402580",
+      "24387801",
+      "23193258",
+      "22150039",
+      "19114008",
+      "18721452",
+      "17496320",
+      "15284386",
+      "10471124"
+    ],
+    "similar": [
+      "41583523",
+      "39845946",
+      "38711508",
+      "39953769",
+      "39466354",
+      "41737229",
+      "40644421",
+      "41607310",
+      "41116042",
+      "39139563",
+      "41459480",
+      "40636121",
+      "42273676",
+      "38771826",
+      "41816328",
+      "40462241",
+      "36699262",
+      "41963573",
+      "38656728",
+      "40238799",
+      "36110846",
+      "38573982",
+      "36238290",
+      "11056662",
+      "41068798",
+      "34583778",
+      "41361849",
+      "34113405",
+      "41488645",
+      "40596265",
+      "41846910",
+      "36068607",
+      "37166429",
+      "40288069",
+      "40234753",
+      "36317112",
+      "41913032",
+      "39326197",
+      "38834626",
+      "39884182",
+      "32840301",
+      "42340574",
+      "42292400",
+      "32152704",
+      "34736376",
+      "34477936",
+      "41929818",
+      "42123445",
+      "37492576",
+      "40777023",
+      "39509434",
+      "27342824",
+      "33407587",
+      "40289029",
+      "36311761",
+      "39067546",
+      "40681713",
+      "35844557",
+      "36224010",
+      "38724075",
+      "38941374",
+      "42259110",
+      "41760032",
+      "34911836",
+      "41680947",
+      "40500570",
+      "39388897",
+      "42003657",
+      "42243611",
+      "25707877",
+      "41021591",
+      "41066424",
+      "41637423",
+      "41061794",
+      "32373221",
+      "30916045",
+      "38994368",
+      "24517278",
+      "36045515",
+      "37385573",
+      "25367151",
+      "40308591",
+      "40592131",
+      "21968544",
+      "40548546",
+      "41088461",
+      "38869013",
+      "42251905",
+      "39161769",
+      "39813219",
+      "21798287",
+      "41638276",
+      "38977339",
+      "39110383",
+      "42233387",
+      "23711830",
+      "39736250",
+      "39333050",
+      "39118036",
+      "29717129"
+    ],
+    "review": [
+      "41583523"
+    ],
+    "pmc": [
+      "12825009"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41583523/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1052",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medsci.org/v23p0389.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

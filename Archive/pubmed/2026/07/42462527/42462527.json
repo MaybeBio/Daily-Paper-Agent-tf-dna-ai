@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "42462527",
+    "doi": "10.1016/j.phymed.2026.158557",
+    "title": "Capillarisin, a coumarin from Artemisia capillaris, alleviates APAP hepatotoxicity by targeting GSK3beta/Nrf2 to suppress ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acetaminophen (APAP) overdose is a leading cause of acute liver failure worldwide, characterized by oxidative stress-driven hepatocyte necrosis. Recent evidence implicates ferroptosis, an iron-dependent cell death, as a critical pathogenic event. Artemisia capillaris Thunb. (ACE) is a traditional hepatoprotective herb; however, its bioactive constituents and molecular targets regulating ferroptosis remain elusive. PURPOSE: This study aimed to identify the bioactive compounds of ACE and elucidate the molecular mechanism underlying its protective effect against APAP-induced hepatotoxicity, with a specific focus on the ferroptosis pathway. METHODS: We integrated multi-omics, network pharmacology, and rigorous biophysical assays to decipher the protective mechanism. The ethanol extract of A. capillaris was chemically characterized using UPLC-LTQ-Orbitrap MS. An APAP-induced acute liver injury model in C57BL/6 mice and primary mouse hepatocytes were employed. Transcriptomics (RNA-seq) was utilized to identify key signaling pathways. The direct physical interaction between the active compound and its target was validated using Microscale Thermophoresis (MST), Cellular Thermal Shift Assay (CETSA), Drug Affinity Responsive Target Stability (DARTS), and molecular dynamics (MD) simulations. Functional validation was performed using gene overexpression and specific inhibitors. RESULTS: ACE pretreatment significantly attenuated APAP-induced liver injury, inflammation, and oxidative stress in mice. Transcriptomic profiling identified ferroptosis as a primary target pathway. Through chemical screening, we identified Capillarisin as the key bioactive coumarin responsible for this effect. Capillarisin treatment effectively suppressed lipid peroxidation, iron overload, and the expression of ferroptotic markers (COX2, ACSL4) while restoring GPX4 levels both in vivo and in vitro. Mechanistically, we demonstrated that Capillarisin acts as a direct inhibitor of Glycogen Synthase Kinase 3beta (GSK3beta). Capillarisin binds stably to the ATP-binding pocket of GSK3beta (K(d) = 0.87 microM), thereby inhibiting its kinase activity. This inhibition blocks the phosphorylation-dependent degradation of Nrf2, promoting its nuclear translocation and the subsequent transcriptional activation of anti-ferroptotic genes (Gpx4, Slc7a11). Overexpression of GSK3beta or pharmacological inhibition of Nrf2 abolished the protective effects of Capillarisin. CONCLUSION: Our study reveals a novel mechanism whereby Capillarisin alleviates APAP-induced hepatotoxicity by directly targeting GSK3beta to activate the Nrf2-mediated anti-ferroptosis defense. These findings provide a rigorous scientific basis for the ethnopharmacological use of Artemisia capillaris and highlight Capillarisin as a promising lead candidate for targeting GSK3beta in the treatment of drug-induced liver injury.",
+    "keywords": [
+      "Artemisia capillaris",
+      "Capillarisin",
+      "Drug-induced liver injury",
+      "Ferroptosis",
+      "GSK3Beta",
+      "Nrf2"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Artemisia/chemistry",
+      "*Acetaminophen/adverse effects/toxicity",
+      "*Ferroptosis/drug effects",
+      "*Coumarins/pharmacology/chemistry",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Chemical and Drug Induced Liver Injury/drug therapy/metabolism/prevention & control",
+      "*Glycogen Synthase Kinase 3 beta/metabolism",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Hepatocytes/drug effects",
+      "Male",
+      "Signal Transduction/drug effects",
+      "Oxidative Stress/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Ludong",
+        "Bai, Xiaodong",
+        "Yu, Peiyuan",
+        "Jiang, Tinghan",
+        "Jin, Zhe"
+      ],
+      "short_names": [
+        "Tan L",
+        "Bai X",
+        "Yu P",
+        "Jiang T",
+        "Jin Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China. Electronic address: jinxuanxu@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Ludong",
+        "short_name": "Tan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xiaodong",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Peiyuan",
+        "short_name": "Yu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Tinghan",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Zhe",
+        "short_name": "Jin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, the First Hospital of Jilin University, Changchun, 130021, China. Electronic address: jinxuanxu@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 00:42",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42462527",
+      "41151450",
+      "41966027",
+      "30630510",
+      "41690038",
+      "41173313",
+      "30235447",
+      "41887383",
+      "30597971",
+      "31584590",
+      "42107750",
+      "23661004",
+      "40811614",
+      "36572326",
+      "41055715",
+      "40710512",
+      "30030101",
+      "39816848",
+      "39366156",
+      "41539206",
+      "39623276",
+      "37267857",
+      "32259676",
+      "40806713",
+      "42459050",
+      "40015625",
+      "31310828",
+      "38906233",
+      "37406514",
+      "41285254",
+      "38100849",
+      "27836781",
+      "39503881",
+      "36723004",
+      "41429385",
+      "26286854",
+      "42391815",
+      "25217484",
+      "38602356",
+      "41455169",
+      "40957543",
+      "42090955",
+      "33406386",
+      "41548594",
+      "37959727",
+      "32454347",
+      "38943970",
+      "31132129",
+      "29136249",
+      "40344847",
+      "41254937",
+      "37224954",
+      "40412057",
+      "40499470",
+      "39236474",
+      "21039417",
+      "41903814",
+      "34558831",
+      "38810310",
+      "29338970",
+      "23237934",
+      "39870009",
+      "33176120",
+      "40339610",
+      "38599475",
+      "41016294",
+      "37792503",
+      "30974116",
+      "34954226",
+      "41386555",
+      "40163430",
+      "30558169",
+      "32863309",
+      "26721592",
+      "36115150",
+      "40008899",
+      "41636749",
+      "39706064",
+      "38104880",
+      "37714424",
+      "39326138",
+      "25534769",
+      "40158433",
+      "37209606",
+      "42070336",
+      "39652902",
+      "38039903",
+      "31129139",
+      "38848941",
+      "25818464",
+      "38014837",
+      "42172986",
+      "32037847",
+      "40157625",
+      "39244559",
+      "35179299",
+      "39222758",
+      "41171257",
+      "33657990",
+      "40066086"
+    ],
+    "review": [
+      "42462527"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00788-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2597",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

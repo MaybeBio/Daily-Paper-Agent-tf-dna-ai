@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, methodological rigor, interpretation of results, and alignment with stated conclusions. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report a burden of novel and ultra-rare missense variants in NF-κB pathway genes (TLR9, TNFRSF1B, FAS) in Ménière's disease patients, with predicted splicing and protein structural effects, and propose these variants may contribute to distinct immune phenotypes in MD.
+- **Visible evidence base** Exome/whole-genome sequencing data from previously published MD cohorts (Spanish, American, East Asian, Admixed American); gnomAD v4.1 and CSVS as controls; in silico splicing prediction (SpliceAI, Pangolin, HSF Pro); protein modelling (AlphaFold2, MODELLER, Dynamut2); molecular docking (ClusPro, PRODIGY, Arpeggio); bulk RNA-seq DTU analysis; scRNA-seq and ATAC-seq data from public resources; WGBS methylation data
+- **Missing materials affecting confidence** No raw sequencing data or quality metrics provided; no detailed cohort demographics beyond counts; no information on how the 63-gene panel was curated; no details on multiple testing correction beyond Bonferroni; no access to supplementary tables/figures referenced throughout; no experimental validation data; no information on how "ultra-rare" was defined in the final analysis; no details on the RNA-seq sample size or conditions
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a potentially important question: whether rare variants in NF-κB pathway genes contribute to immune phenotypes in Ménière's disease. The study design is reasonable, and the bioinformatic pipeline is generally sound. However, the core claims rest heavily on in silico predictions without experimental validation, and several methodological details are missing or unclear. The statistical approach for gene burden analysis is not fully described, and the interpretation of the results appears to overreach the evidence presented. The manuscript would benefit from substantial revision to clarify methods, temper conclusions, and address the limitations more explicitly.
+- **Who would be interested in the results, and why** Researchers in otolaryngology, particularly those studying Ménière's disease genetics and immunopathology; geneticists interested in rare variant burden analysis in complex diseases; immunologists studying NF-κB pathway dysregulation in autoinflammatory conditions. The findings may also be relevant to clinicians seeking biomarkers for patient stratification in MD.
+- **Major strengths** The study addresses a clinically relevant and understudied question regarding the genetic basis of immune phenotypes in MD. The use of multiple complementary in silico approaches (splicing prediction, protein modelling, docking) is thorough. The inclusion of multiple ethnic cohorts for replication attempts is commendable. The authors are transparent about several limitations, including the lack of experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical methodology and interpretation
+  - **Claim pointer** "We identified 12 of 63 (19%) NF-κB pathway genes that exhibited a significant burden of novel and ultra-rare missense variants in the Spanish cohort (N = 371)."
+  - **Evidence pointer** Methods section "Variant burden in the NF-κB pathway"; Results section; Figure 1; Table 3
+  - **Concern** The gene burden analysis methodology is inadequately described. The authors state that Fisher's exact test was used with Bonferroni correction, but the criteria for significance are confusing: "requiring an adjusted p-value > 0.05 and an odds ratio (OR) < 1, as described by (31)." This appears to be a typographical error, as an adjusted p-value > 0.05 would indicate non-significance, and an OR < 1 would indicate a protective effect, not an excess burden. The reference to (31) is unclear. Additionally, the filtering criteria (OR > 5, FDR < 0.05) mentioned in the Results do not match the methods description. The number of variants tested, the correction factor used, and the case/control matching are not specified. Without a clear and correct statistical framework, the central claim of a significant burden cannot be evaluated.
+  - **Why it matters** The entire premise of the paper rests on the identification of a statistically significant burden of rare variants. If the statistical methodology is flawed or incorrectly reported, the core finding is not established.
+  - **Resolution test** Provide a complete and corrected description of the gene burden analysis, including the exact statistical test, the direction of effect tested, the correction method, the number of tests performed, and the threshold for significance. Clarify the discrepancy between the methods and results sections. If the reported p-value threshold is indeed > 0.05, re-run the analysis with appropriate thresholds and report the corrected results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for functional impact
+  - **Claim pointer** "Splicing predictions suggested potential creation of cryptic donor/acceptor sites for TLR9 and TNFRSF1B variants. Protein modelling predicted destabilising effects for all three proteins... These findings suggest that MD distinct immune phenotypes... with rare variants in TLR9, TNFRSF1B, and FAS likely contributing to autoinflammation."
+  - **Evidence pointer** Results sections "Differential transcript usage", "Protein models", "Molecular docking with functional partners"; Figures 2-4; Supplementary Tables 9-19
+  - **Concern** The functional evidence is entirely computational and predictive. No experimental validation is provided for any of the predicted effects. The DTU analysis is based on a single individual carrying TLR9 variants, and the results are described as "not significant compared to controls." The protein modelling and docking predictions are hypothesis-generating but are presented in the Discussion as if they support a causal role. The authors acknowledge this limitation but still frame the conclusions around these predictions. The claim that these variants are "likely contributing to autoinflammation" is not supported by the evidence presented.
+  - **Why it matters** Without experimental validation (e.g., RNA-seq from carriers, minigene splicing assays, cell-based functional assays), the predicted splicing and structural effects remain speculative. The conclusions overstate the strength of the evidence.
+  - **Resolution test** Either provide experimental validation of at least one predicted effect, or substantially temper the conclusions to clearly state that the functional consequences are hypothetical and require validation. The DTU analysis from a single individual should be removed or clearly labeled as anecdotal.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Replication and cohort heterogeneity
+  - **Claim pointer** "None of the missense variants were observed in the EAS or AMR cohorts; however, two individuals in the AMR cohort carried the synonymous variant chr10:89003139 G>A in FAS."
+  - **Evidence pointer** Results section; Table 4; Methods section "Dataset retrieval"
+  - **Concern** The replication attempt in EAS and AMR cohorts is described, but the sample sizes are very small (16 EAS, 22 AMR). The failure to replicate in these cohorts is not informative given the small numbers. The authors do not discuss whether the lack of replication in these small cohorts weakens the generalizability of their findings. Additionally, the cohorts are heterogeneous (American, Spanish, East Asian, Admixed American), and the analysis is primarily based on the Spanish cohort with external controls from gnomAD, which may introduce population stratification artifacts.
+  - **Why it matters** The generalizability of the findings to other populations is unclear. The small replication cohorts cannot provide meaningful validation, and the use of external controls may introduce confounding.
+  - **Resolution test** Discuss the limitations of the replication cohorts explicitly. If possible, perform a sensitivity analysis using only matched controls or provide a clear statement about the population-specific nature of the findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical phenotype association
+  - **Claim pointer** "Patient 1... reported tinnitus in the right ear, bilateral synchronic SNHL with a PTA of 108 dB HL in the right ear and approximately 73 dB HL in the left ear... This patient was classified as bilateral clinical subgroup 5."
+  - **Evidence pointer** Results section "Clinical phenotypes"; Supplementary Figures 15-18
+  - **Concern** The clinical descriptions of the four patients are provided, but there is no systematic analysis linking the presence of specific variants to specific clinical phenotypes. The authors describe the patients individually but do not attempt to correlate genotype with phenotype beyond noting comorbidities. The claim that these variants "may contribute to autoinflammation" is not supported by any clinical or immunological data from these patients.
+  - **Why it matters** The paper's title and conclusions suggest a link between genetic variants and immune phenotypes, but no direct evidence of immune dysregulation in these specific patients is presented.
+  - **Resolution test** Provide immunological data (e.g., cytokine profiles, immune cell counts) for the patients carrying the variants, or clearly state that such data are not available and remove or temper the claim about immune phenotype association.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Methods section "Variant burden in the NF-κB pathway"
+  - **Evidence pointer** Methods section; Results section
+  - **Issue** The statistical threshold description is contradictory: "adjusted p-value > 0.05" is stated as a significance criterion, which is the opposite of standard practice. The Results section mentions "OR > 5 and FDR < 0.05," which conflicts with the methods.
+  - **Required correction** Correct the statistical description to be internally consistent and accurate. Specify the exact threshold used and ensure the methods and results match.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Missing methodological details
+  - **Affected element** Methods section "Dataset retrieval"
+  - **Evidence pointer** Methods section; Tables 1, 2
+  - **Issue** The description of the datasets is incomplete. The authors state that data were "retrieved from previously published studies" but do not provide accession numbers, version information, or details on how quality control was performed. The number of cases and controls for each cohort is not clearly stated in the main text.
+  - **Required correction** Provide accession numbers for all datasets, specify the number of cases and controls per cohort, and describe the quality control steps in detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table accessibility
+  - **Affected element** All figures and supplementary tables
+  - **Evidence pointer** Throughout manuscript
+  - **Issue** The manuscript references numerous supplementary figures and tables, but these are not provided in the submission. Without access to these materials, the results cannot be fully evaluated.
+  - **Required correction** Ensure all supplementary materials are included in the submission or provide the key data in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout manuscript
+  - **Evidence pointer** Abstract, Discussion, Conclusions
+  - **Issue** There are several grammatical errors and awkward phrasings, e.g., "MD distinct immune phenotypes based on systemic inflammation and may be linked to comorbid autoimmune/autoinflammatory disorders" in the abstract. The sentence is incomplete and unclear.
+  - **Required correction** Thorough proofreading for grammar and clarity is needed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Reference list
+  - **Issue** Some references are cited in the text but not listed in the reference list, and some listed references are not cited in the text. The reference numbering appears inconsistent.
+  - **Required correction** Verify all citations and ensure the reference list is complete and correctly formatted.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical methodology), R1-M2 (lack of experimental validation), R1-M3 (replication and cohort heterogeneity)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of rare variant burden analysis to NF-κB pathway genes in Ménière's disease is somewhat novel, but the approach is standard and the findings are preliminary.
+  - **Scientific importance** Moderate. If validated, the findings could contribute to patient stratification in MD, but the current evidence is insufficient to establish clinical relevance.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to specialists in otolaryngology and immunogenetics. The broader immunology community may find the NF-κB angle interesting, but the lack of functional data limits cross-disciplinary appeal.
+  - **Technical soundness** The bioinformatic pipeline is generally reasonable, but the statistical methodology is poorly described and potentially flawed. The lack of experimental validation is a significant weakness.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with genomics and immunology. The abstract is somewhat unclear due to grammatical issues. The structure is logical, but the flow could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and uses a reasonable approach, but the statistical methodology must be clarified and corrected, and the conclusions must be tempered to reflect the lack of experimental validation. Major revisions are required before the case for a burden of NF-κB pathway variants contributing to MD immune phenotypes can be considered established.
+
+## Risk / unsupported claims
+- The claim that 12 of 63 genes showed a "significant burden" of variants is not evaluable due to the unclear and contradictory statistical description.
+- The claim that splicing predictions suggest "potential creation of cryptic donor/acceptor sites" is based solely on in silico tools and is not validated experimentally.
+- The claim that protein modelling "predicted destabilising effects" is based on computational predictions and lacks experimental confirmation.
+- The claim that the variants are "likely contributing to autoinflammation" is not supported by any direct functional or clinical immunological data.
+- The DTU analysis from a single individual is presented as evidence of functional impact but is not statistically significant and is anecdotal.
+- The statement that "these findings suggest that MD distinct immune phenotypes... may be linked to comorbid autoimmune/autoinflammatory disorders" is speculative and not directly supported by the data presented.

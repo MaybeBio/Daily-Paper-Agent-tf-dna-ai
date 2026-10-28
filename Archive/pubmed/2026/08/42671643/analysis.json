@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42671643",
+  "title": "An integrative multi-project transcriptomic and structural prediction framework identifies candidate cold-responsive transcription factors in Medicago sativa.",
+  "authors": "Jiang, Huixin; Wang, Meng; Zhu, Xiaoyue; Zhang, Ruixin; Dong, Lina; Guo, Changhong; Shu, Yongjun",
+  "journal": "Functional & integrative genomics",
+  "published_date": "2026-08-31",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文整合多项目转录组与随机森林识别紫花苜蓿冷响应转录因子候选，并用AlphaFold3建模提供结构上下文，但核心是表达筛选而非TF-DNA结合互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Cold stress limits alfalfa (Medicago sativa) growth and persistence, but public transcriptomic datasets differ widely in genotype, tissue, treatment duration, and experimental design. We integrated RNA-seq data from ten independent BioProjects using a common processing workflow while retaining project-specific structures. A recurrent contrast-level DEG-derived pool of 4,354 genes was ranked by random forest using expression profiles from 240 samples. The original model showed strong internal discrimination (OOB ROC-AUC = 0.937), whereas fully nested leave-one-BioProject-out validation yielded an accuracy of 0.729, balanced accuracy of 0.676, and ROC-AUC of 0.727. PlantTFDB annotation identified MsG0680033896.01, MsG0680033848.01, and MsG0480021906.01 as the three highest-ranked transcription factors. The first two candidates showed greater stability in project-held-out and alternative machine-learning analyses. In project-aware multilevel meta-analysis, neither the primary 50-contrast analysis nor the 54-contrast sensitivity analysis identified genome-wide significant transcripts after Benjamini-Hochberg correction. However, MsG0680033896.01 and MsG0680033848.01 showed predominantly positive effects, positive pooled estimates, and confidence intervals excluding zero in both analyses, whereas MsG0480021906.01 showed weaker directional consistency. Co-expression, promoter prediction, chromosomal localization, and AlphaFold3 modeling provided additional computational context, including localization of the two leading candidates within a Chr6 CBF/DREB1-like-enriched region. These results prioritize MsG0680033896.01 and MsG0680033848.01 as high-confidence computational candidates and retain MsG0480021906.01 as an additional project-sensitive candidate for future functional testing.",
+  "abstract_zh": "冷胁迫限制了紫花苜蓿（Medicago sativa）的生长和持久性，但公开的转录组数据集在基因型、组织、处理持续时间和实验设计方面差异很大。我们使用通用处理流程整合了来自十个独立BioProject的RNA-seq数据，同时保留了项目特定结构。通过随机森林，利用240个样本的表达谱，对由差异表达基因（DEG）衍生的4,354个基因的重复对比水平集合进行了排序。原始模型显示出较强的内部判别能力（OOB ROC-AUC = 0.937），而完全嵌套的留一BioProject交叉验证准确率为0.729，平衡准确率为0.676，ROC-AUC为0.727。PlantTFDB注释将MsG0680033896.01、MsG0680033848.01和MsG0480021906.01鉴定为排名最高的三个转录因子。前两个候选基因在项目留出和替代机器学习分析中表现出更高的稳定性。在项目感知的多水平荟萃分析中，无论是主要的50对比分析还是54对比敏感性分析，在Benjamini-Hochberg校正后均未识别出全基因组显著转录本。然而，MsG0680033896.01和MsG0680033848.01在两种分析中均显示出主要正向效应、正向汇总估计值以及排除零的置信区间，而MsG0480021906.01的方向一致性较弱。共表达、启动子预测、染色体定位和AlphaFold3建模提供了额外的计算背景，包括两个领先候选基因在Chr6 CBF/DREB1样富集区域内的定位。这些结果将MsG0680033896.01和MsG0680033848.01优先列为高置信度计算候选基因，并将MsG0480021906.01保留为额外的项目敏感候选基因，以供未来功能测试。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42671643/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42671643/",
+  "paper_page_path": "papers/pubmed/42671643/index.html"
+}

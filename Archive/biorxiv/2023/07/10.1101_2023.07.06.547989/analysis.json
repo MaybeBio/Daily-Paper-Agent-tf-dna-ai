@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.06.547989",
+  "title": "Deep dynamical modelling of developmental trajectories with temporal transcriptomics",
+  "authors": "Maizels RJ; Snell DM; Briscoe J",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-07",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习建模单细胞发育轨迹的基因表达动态，虽涉及基因调控网络但无蛋白质-DNA互作体系、结合位点预测或三维互作建模，与本课题仅间接相关。",
+  "abstract": "Developmental cell fate decisions are dynamic processes driven by the complex behaviour of gene regulatory networks. A challenge in studying these processes using single-cell genomics is that the data provides only a static snapshot with no detail of dynamics. Metabolic labelling and splicing can provide time-resolved information, but current methods have limitations. Here, we present experimental and computational methods that overcome these limitations to allow dynamical modelling of gene expression from single-cell data. We developed sci-FATE2, an optimised metabolic labelling method that substantially increases data quality, and profiled approximately 45,000 embryonic stem cells differentiating into multiple neural tube identities. To recover dynamics, we developed velvet, a deep learning framework that extends beyond instantaneous velocity estimation by modelling gene expression dynamics through a neural stochastic differential equation system within a variational autoencoder. Velvet outperforms current velocity tools across quantitative benchmarks, and predicts trajectory distributions that accurately recapitulate underlying dataset distributions while conserving known biology. Velvet trajectory distributions capture dynamical aspects such as decision boundaries between alternative fates and correlative gene regulatory structure. Using velvet to provide a dynamical description of in vitro neural patterning, we highlight a process of sequential decision making and fate-specific patterns of developmental signalling. Together, these experimental and computational methods recast single-cell analyses from descriptions of observed data distributions to models of the dynamics that generated them, providing a new framework for investigating developmental gene regulation and cell fate decisions.",
+  "abstract_zh": "发育性细胞命运决定是由基因调控网络的复杂行为驱动的动态过程。利用单细胞基因组学研究这些过程的一个挑战在于，数据仅提供静态快照，缺乏动态细节。代谢标记和剪接可提供时间分辨信息，但现有方法存在局限性。在此，我们提出了克服这些局限性的实验和计算方法，以实现从单细胞数据对基因表达进行动态建模。我们开发了sci-FATE2，一种优化的代谢标记方法，显著提高了数据质量，并对约45,000个分化为多种神经管身份胚胎干细胞进行了分析。为恢复动态，我们开发了velvet，一种深度学习框架，通过变分自编码器内的神经随机微分方程系统对基因表达动态进行建模，超越了瞬时速度估计。Velvet在定量基准测试中优于当前速度工具，并预测轨迹分布，准确再现底层数据集分布，同时保留已知生物学。Velvet轨迹分布捕捉动态方面，如替代命运之间的决策边界和相关基因调控结构。利用velvet提供体外神经模式化的动态描述，我们强调了顺序决策过程和命运特异性发育信号模式。总之，这些实验和计算方法将单细胞分析从对观察数据分布的描述转变为对生成这些数据动态的建模，为研究发育基因调控和细胞命运决定提供了新框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.06.547989",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.06.547989",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.06.547989/index.html"
+}

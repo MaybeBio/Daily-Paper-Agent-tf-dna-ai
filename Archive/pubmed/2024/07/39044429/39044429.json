@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "39044429",
+    "doi": "10.1016/j.bpj.2024.07.023",
+    "title": "Exploring protein-mediated compaction of DNA by coarse-grained simulations and unsupervised learning."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions and protein-mediated DNA compaction play key roles in a range of biological processes. The length scales typically involved in DNA bending, bridging, looping, and compaction (>/=1 kbp) are challenging to address experimentally or by all-atom molecular dynamics simulations, making coarse-grained simulations a natural approach. Here, we present a simple and generic coarse-grained model for DNA-protein and protein-protein interactions and investigate the role of the latter in the protein-induced compaction of DNA. Our approach models the DNA as a discrete worm-like chain. The proteins are treated in the grand canonical ensemble, and the protein-DNA binding strength is taken from experimental measurements. Protein-DNA interactions are modeled as an isotropic binding potential with an imposed binding valency without specific assumptions about the binding geometry. To systematically and quantitatively classify DNA-protein complexes, we present an unsupervised machine learning pipeline that receives a large set of structural order parameters as input, reduces the dimensionality via principal-component analysis, and groups the results using a Gaussian mixture model. We apply our method to recent data on the compaction of viral genome-length DNA by HIV integrase and find that protein-protein interactions are critical to the formation of looped intermediate structures seen experimentally. Our methodology is broadly applicable to DNA-binding proteins and protein-induced DNA compaction and provides a systematic and semi-quantitative approach for analyzing their mesoscale complexes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*DNA/chemistry/metabolism",
+      "*Unsupervised Machine Learning",
+      "Protein Binding",
+      "Nucleic Acid Conformation",
+      "HIV Integrase/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Jager, Marjolein",
+        "Kolbeck, Pauline J",
+        "Vanderlinden, Willem",
+        "Lipfert, Jan",
+        "Filion, Laura"
+      ],
+      "short_names": [
+        "de Jager M",
+        "Kolbeck PJ",
+        "Vanderlinden W",
+        "Lipfert J",
+        "Filion L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands. Electronic address: m.e.dejager@uu.nl.",
+        "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands; Department of Physics and Center for NanoScience, LMU, Munich, Germany.",
+        "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands; Department of Physics and Center for NanoScience, LMU, Munich, Germany; School of Physics and Astronomy, University of Edinburgh, Scotland, United Kingdom.",
+        "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands; Department of Physics and Center for NanoScience, LMU, Munich, Germany.",
+        "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Jager, Marjolein",
+        "short_name": "de Jager M",
+        "identifiers": [],
+        "affiliations": [
+          "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands. Electronic address: m.e.dejager@uu.nl."
+        ]
+      },
+      {
+        "full_name": "Kolbeck, Pauline J",
+        "short_name": "Kolbeck PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands; Department of Physics and Center for NanoScience, LMU, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Vanderlinden, Willem",
+        "short_name": "Vanderlinden W",
+        "identifiers": [],
+        "affiliations": [
+          "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands; Department of Physics and Center for NanoScience, LMU, Munich, Germany; School of Physics and Astronomy, University of Edinburgh, Scotland, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Lipfert, Jan",
+        "short_name": "Lipfert J",
+        "identifiers": [],
+        "affiliations": [
+          "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands; Department of Physics and Center for NanoScience, LMU, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Filion, Laura",
+        "short_name": "Filion L",
+        "identifiers": [],
+        "affiliations": [
+          "Soft Condensed Matter and Biophysics, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Sep 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/24 06:41",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "42328787",
+      "40605268",
+      "39104121"
+    ],
+    "refs": [
+      "38347148",
+      "38320550",
+      "37722292",
+      "37685957",
+      "36697761",
+      "36456236",
+      "35643628",
+      "35215829",
+      "34350929",
+      "33872352",
+      "33571491",
+      "33568486",
+      "33127927",
+      "33103878",
+      "33020515",
+      "32877664",
+      "32682257",
+      "32367807",
+      "32175915",
+      "32004090",
+      "31813215",
+      "31640379",
+      "31226513",
+      "30431051",
+      "30322797",
+      "30017905",
+      "29712961",
+      "29105235",
+      "28726902",
+      "28660960",
+      "28636604",
+      "28636597",
+      "28621795",
+      "28355537",
+      "28083792",
+      "28035245",
+      "27203111",
+      "27060145",
+      "25563801",
+      "25494300",
+      "25288112",
+      "24981867",
+      "24003126",
+      "22988072",
+      "22853910",
+      "22577825",
+      "21830782",
+      "20953302",
+      "20948999",
+      "19836330",
+      "16648255",
+      "16599726",
+      "16237128",
+      "14671790",
+      "10222198",
+      "7919794"
+    ],
+    "similar": [
+      "39044429",
+      "34057467",
+      "24038133",
+      "19306343",
+      "28423273",
+      "19963867",
+      "26856421",
+      "39772562",
+      "26575522",
+      "24116642",
+      "39104121",
+      "22037850",
+      "33577557",
+      "24389668",
+      "19758583",
+      "37714883",
+      "23365687",
+      "40766493",
+      "23231029",
+      "26575574",
+      "24810463",
+      "23561538",
+      "30306573",
+      "21059937",
+      "34845619",
+      "22913375",
+      "26244743",
+      "26574472",
+      "31476122",
+      "25692586",
+      "23730911",
+      "26574286",
+      "32679892",
+      "24003126",
+      "34352244",
+      "23795567",
+      "29806939",
+      "31613092",
+      "25563801",
+      "25311860",
+      "39569935",
+      "41411368",
+      "24847063",
+      "23341952",
+      "30053087",
+      "32175915",
+      "38814009",
+      "28599107",
+      "34001913",
+      "25504215",
+      "37874270",
+      "31375023",
+      "29927237",
+      "39344141",
+      "17374162",
+      "22947945",
+      "19450476",
+      "26638896",
+      "23912807",
+      "21230940",
+      "25706623",
+      "26473491",
+      "33539886",
+      "27835934",
+      "27936513",
+      "33309853",
+      "39927543",
+      "26100687",
+      "28383913",
+      "20878714",
+      "34572559",
+      "31805230",
+      "26723631",
+      "17045294",
+      "25726461",
+      "28482032",
+      "36449362",
+      "11432843",
+      "22292948",
+      "24506488",
+      "22110706",
+      "38813824",
+      "23853547",
+      "35381009",
+      "28958932",
+      "33383034",
+      "28595422",
+      "29055187",
+      "29397721",
+      "33164531",
+      "31106383",
+      "34009383",
+      "41247276",
+      "37431905",
+      "39468134",
+      "23005781",
+      "25106127",
+      "27309278",
+      "34005944",
+      "23194297"
+    ],
+    "review": [
+      "39044429",
+      "26575522",
+      "19758583",
+      "31375023"
+    ],
+    "pmc": [
+      "11427786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00482-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39044429/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

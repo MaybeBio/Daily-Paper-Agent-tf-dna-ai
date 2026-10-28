@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40436857",
+    "doi": "10.1038/s41419-025-07738-2",
+    "title": "N-glycosylated LTbetaR increases the Th17/Treg cell ratio in liver cancer by blocking RORC ubiquitination and FOXP3 transcription."
+  },
+  "content": {
+    "abstract": "LTbetaR-overexpressing CAR-T cells have demonstrated surprising effectiveness against solid tumors, exhibiting strong anti-exhaustion and proliferation capabilities. However, the role of LTbetaR in CD4(+) T cell differentiation and anti-tumor activity remains unclear. In this study, we employed primary or subcutaneous mouse hepatocellular carcinoma (HCC) models and flow cytometry to study the impact of conditional knock-in of Ltbr on CD4(+) T cell differentiation and response, particularly the Th17/Treg cell ratio, and its influence on HCC progression. Immunoprecipitation, immunoblotting, RT-qPCR, molecular docking, and Chromatin Immunoprecipitation-qPCR were performed to investigate the molecular mechanism of CD4(+) T cell differentiation. Adeno-associated virus-modified T cells were introduced into patient-derived orthotopic xenograft (PDOX) model to assess the combined impact of LTbetaR and glycolysis inhibitors on the Th17/Treg cell differentiation. We found that LTbetaR reduced PELI1 expression, preventing TRAF3 protein degradation in Th17 cells. TRAF3 then competed with RORC for SMURF1 binding, enhancing RORC stability and Th17 cell differentiation. LTbetaR also blocked PRDM1 expression, delaying Foxp3 transcription and Treg cell infiltration. Additionally, N-glycosylation supported the stability of LTbetaR by protecting it from ubiquitination. From a therapeutic perspective, glycolysis inhibitors helped LTbetaR balance the proportion of Th17/Treg cells in PDOX model to inhibit tumor growth. In conclusion, our findings indicated that LTbetaR N-glycosylation prevented RORC ubiquitination and Foxp3 transcription, raising the Th17/Treg cell ratio and hindering HCC progression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Th17 Cells/metabolism/immunology",
+      "*Liver Neoplasms/immunology/pathology/genetics/metabolism",
+      "*T-Lymphocytes, Regulatory/metabolism/immunology",
+      "Ubiquitination",
+      "Humans",
+      "*Nuclear Receptor Subfamily 1, Group F, Member 3/metabolism/genetics",
+      "Mice",
+      "*Forkhead Transcription Factors/metabolism/genetics",
+      "*Carcinoma, Hepatocellular/pathology/immunology/genetics/metabolism",
+      "Cell Differentiation",
+      "Glycosylation",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Banglun",
+        "Yao, Yuxin",
+        "Wu, Hao",
+        "Ye, Dongjie",
+        "Zhang, Zhu",
+        "Zhang, Xinyu",
+        "Wang, Xiaoqian",
+        "Tang, Nanhong"
+      ],
+      "short_names": [
+        "Pan B",
+        "Yao Y",
+        "Wu H",
+        "Ye D",
+        "Zhang Z",
+        "Zhang X",
+        "Wang X",
+        "Tang N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7495-5254"
+      ],
+      "affiliations": [
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Cancer Center of Fujian Medical University, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China. fztnh@fjmu.edu.cn.",
+        "Cancer Center of Fujian Medical University, Fujian Medical University Union Hospital, Fuzhou, China. fztnh@fjmu.edu.cn.",
+        "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, China. fztnh@fjmu.edu.cn.",
+        "Key Laboratory of Ministry of Education for Gastrointestinal Cancer, Fujian Medical University, Fuzhou, China. fztnh@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Banglun",
+        "short_name": "Pan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yuxin",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Dongjie",
+        "short_name": "Ye D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinyu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoqian",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+          "Cancer Center of Fujian Medical University, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Nanhong",
+        "short_name": "Tang N",
+        "identifiers": [
+          "0000-0001-7495-5254"
+        ],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery and Fujian Institute of Hepatobiliary Surgery, Fujian Medical University Union Hospital, Fuzhou, China. fztnh@fjmu.edu.cn.",
+          "Cancer Center of Fujian Medical University, Fujian Medical University Union Hospital, Fuzhou, China. fztnh@fjmu.edu.cn.",
+          "Key Laboratory of Clinical Laboratory Technology for Precision Medicine (Fujian Medical University), Fujian Province University, Fuzhou, China. fztnh@fjmu.edu.cn.",
+          "Key Laboratory of Ministry of Education for Gastrointestinal Cancer, Fujian Medical University, Fuzhou, China. fztnh@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2025 May 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/29 00:27",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42682404",
+      "42581040",
+      "42325190",
+      "42156901",
+      "41969491",
+      "41744794",
+      "41685085",
+      "41580593",
+      "41103946"
+    ],
+    "refs": [
+      "39587316",
+      "39460617",
+      "38528516",
+      "37962376",
+      "37441600",
+      "36717584",
+      "36638795",
+      "36351373",
+      "36026450",
+      "35728303",
+      "35296855",
+      "34669962",
+      "34130335",
+      "32849528",
+      "32421980",
+      "31937368",
+      "31853779",
+      "31451397",
+      "30941641",
+      "30289549",
+      "29563615",
+      "28683298",
+      "28215223",
+      "28115587",
+      "27430721",
+      "26708213",
+      "23825189",
+      "23083809",
+      "22135298",
+      "20351308",
+      "17633025"
+    ],
+    "similar": [
+      "40436857",
+      "27895423",
+      "27902985",
+      "40356912",
+      "28504697",
+      "37451490",
+      "24035274",
+      "25552913",
+      "39673582",
+      "21923716",
+      "39867884",
+      "34322865",
+      "34162167",
+      "23529839",
+      "28215223",
+      "39973551",
+      "32670274",
+      "21654831",
+      "28195151",
+      "25086467",
+      "28290453",
+      "28783731",
+      "32640308",
+      "32884248",
+      "21375554",
+      "23734780",
+      "36343753",
+      "25485537",
+      "40365281",
+      "38621983",
+      "28300523",
+      "21170000",
+      "23098476",
+      "27855396",
+      "25824460",
+      "39042726",
+      "21544672",
+      "25024610",
+      "33469936",
+      "38531201",
+      "25771887",
+      "36857742",
+      "38566233",
+      "25619457",
+      "23091595",
+      "21081189",
+      "27176453",
+      "33902382",
+      "24717872",
+      "29510522",
+      "37054520",
+      "28502089",
+      "32186120",
+      "29229400",
+      "27880975",
+      "31136754",
+      "29050947",
+      "36555745",
+      "29040945",
+      "29475096",
+      "27875659",
+      "34489334",
+      "28738533",
+      "34036623",
+      "36710549",
+      "26367459",
+      "21560493",
+      "23529856",
+      "29402868",
+      "34605709",
+      "37793204",
+      "38494386",
+      "36163617",
+      "24055797",
+      "22387392",
+      "31006654",
+      "21367463",
+      "32022254",
+      "24140602",
+      "21775683",
+      "38244519",
+      "25824592",
+      "31025232",
+      "28796055",
+      "31909498",
+      "22419479",
+      "31004709",
+      "38409842",
+      "17570208",
+      "29282318",
+      "40043826",
+      "26475064",
+      "33128285",
+      "27479084",
+      "38331120",
+      "26434354",
+      "32403163",
+      "26599407",
+      "39472803",
+      "29686529"
+    ],
+    "review": [
+      "40436857",
+      "34322865",
+      "28215223",
+      "21081189",
+      "29510522"
+    ],
+    "pmc": [
+      "12120105"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-025-07738-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40436857/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TRAF3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2234",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

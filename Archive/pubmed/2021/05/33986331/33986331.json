@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "33986331",
+    "doi": "10.1038/s41598-021-89450-7",
+    "title": "Structural genomics approach to investigate deleterious impact of nsSNPs in conserved telomere maintenance component 1."
+  },
+  "content": {
+    "abstract": "Conserved telomere maintenance component 1 (CTC1) is an important component of the CST (CTC1-STN1-TEN1) complex, involved in maintaining the stability of telomeric DNA. Several non-synonymous single-nucleotide polymorphisms (nsSNPs) in CTC1 have been reported to cause Coats plus syndrome and Dyskeratosis congenital diseases. Here, we have performed sequence and structure analyses of nsSNPs of CTC1 using state-of-the-art computational methods. The structure-based study focuses on the C-terminal OB-fold region of CTC1. There are 11 pathogenic mutations identified, and detailed structural analyses were performed. These mutations cause a significant disruption of noncovalent interactions, which may be a possible reason for CTC1 instability and consequent diseases. To see the impact of such mutations on the protein conformation, all-atom molecular dynamics (MD) simulations of CTC1-wild-type (WT) and two of the selected mutations, R806C and R806L for 200 ns, were carried out. A significant conformational change in the structure of the R806C mutant was observed. This study provides a valuable direction to understand the molecular basis of CTC1 dysfunction in disease progression, including Coats plus syndrome.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "DNA/genetics",
+      "Databases, Genetic",
+      "Genomics/methods",
+      "Humans",
+      "Mutation",
+      "Polymorphism, Single Nucleotide",
+      "Structure-Activity Relationship",
+      "Telomere/*genetics",
+      "Telomere Homeostasis",
+      "Telomere-Binding Proteins/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choudhury, Arunabh",
+        "Mohammad, Taj",
+        "Samarth, Nikhil",
+        "Hussain, Afzal",
+        "Rehman, Md Tabish",
+        "Islam, Asimul",
+        "Alajmi, Mohamed F",
+        "Singh, Shailza",
+        "Hassan, Md Imtaiyaz"
+      ],
+      "short_names": [
+        "Choudhury A",
+        "Mohammad T",
+        "Samarth N",
+        "Hussain A",
+        "Rehman MT",
+        "Islam A",
+        "Alajmi MF",
+        "Singh S",
+        "Hassan MI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University, Campus, Pune, 411007, India.",
+        "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, 11451, Saudi Arabia.",
+        "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, 11451, Saudi Arabia.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India.",
+        "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, 11451, Saudi Arabia.",
+        "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University, Campus, Pune, 411007, India.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India. mihassan@jmi.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choudhury, Arunabh",
+        "short_name": "Choudhury A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India."
+        ]
+      },
+      {
+        "full_name": "Mohammad, Taj",
+        "short_name": "Mohammad T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India."
+        ]
+      },
+      {
+        "full_name": "Samarth, Nikhil",
+        "short_name": "Samarth N",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University, Campus, Pune, 411007, India."
+        ]
+      },
+      {
+        "full_name": "Hussain, Afzal",
+        "short_name": "Hussain A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Rehman, Md Tabish",
+        "short_name": "Rehman MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Islam, Asimul",
+        "short_name": "Islam A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India."
+        ]
+      },
+      {
+        "full_name": "Alajmi, Mohamed F",
+        "short_name": "Alajmi MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh, 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Singh, Shailza",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SP Pune University, Campus, Pune, 411007, India."
+        ]
+      },
+      {
+        "full_name": "Hassan, Md Imtaiyaz",
+        "short_name": "Hassan MI",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025, India. mihassan@jmi.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 May 13",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/15 06:00",
+    "fetched_at": "2026-09-27 17:11:47"
+  },
+  "links": {
+    "cites": [
+      "42498904",
+      "42351635",
+      "41832376",
+      "40853437",
+      "40772974",
+      "36037157",
+      "35845111",
+      "35571273",
+      "35507592",
+      "35207708",
+      "34827731",
+      "34805284",
+      "34722346",
+      "34679086"
+    ],
+    "refs": [
+      "33780718",
+      "33693924",
+      "33687588",
+      "33564154",
+      "33482595",
+      "33273072",
+      "33219223",
+      "32784026",
+      "32780668",
+      "32543263",
+      "32499435",
+      "32393969",
+      "32242127",
+      "32155445",
+      "32033110",
+      "31740672",
+      "31245382",
+      "31028137",
+      "31014199",
+      "31005689",
+      "30891747",
+      "30556179",
+      "30360721",
+      "30267552",
+      "30026550",
+      "29926816",
+      "29686043",
+      "29683402",
+      "29550242",
+      "29481669",
+      "29293451",
+      "29228254",
+      "29040642",
+      "28525590",
+      "28505312",
+      "28453649",
+      "28366536",
+      "28110595",
+      "27964945",
+      "27544236",
+      "27486076",
+      "27372371",
+      "27318206",
+      "27318084",
+      "27239262",
+      "27166375",
+      "26613539",
+      "25885774",
+      "25851949",
+      "25647319",
+      "24829462",
+      "24678666",
+      "24281696",
+      "24234437",
+      "24115768",
+      "23869908",
+      "23867278",
+      "22863775",
+      "22531781",
+      "21727090",
+      "20697207",
+      "20125188",
+      "19854131",
+      "19765975",
+      "19589679",
+      "19561590",
+      "19348700",
+      "18680434",
+      "18198332",
+      "15829965",
+      "14608368",
+      "12202775",
+      "11752248",
+      "11125122"
+    ],
+    "similar": [
+      "33986331",
+      "24115768",
+      "31028137",
+      "29228254",
+      "23869908",
+      "29774655",
+      "30556179",
+      "30026550",
+      "22267198",
+      "37021555",
+      "24025336",
+      "29481669",
+      "36011306",
+      "22899577",
+      "25928698",
+      "28334750",
+      "37978541",
+      "30393977",
+      "29293451",
+      "28366536",
+      "31245382",
+      "34110109",
+      "22532422",
+      "32033110",
+      "35134616",
+      "33269665",
+      "32627942",
+      "25329641",
+      "19854131",
+      "27013236",
+      "22357613",
+      "33937245",
+      "23732052",
+      "22387016",
+      "22531781",
+      "33731801",
+      "32499435",
+      "25483097",
+      "29774234",
+      "37495394",
+      "19854130",
+      "22863775",
+      "23572541",
+      "29111009",
+      "34706368",
+      "38203842",
+      "24718655",
+      "25684230",
+      "23300477",
+      "22158468",
+      "27432940",
+      "36629261",
+      "22366859",
+      "27487043",
+      "35368664",
+      "30891747",
+      "33982644",
+      "23001564",
+      "31396577",
+      "34520548",
+      "17715303",
+      "28726394",
+      "32543263",
+      "28180297",
+      "24925530",
+      "28934486",
+      "24846723",
+      "33780718",
+      "32661422",
+      "33564154",
+      "23142664",
+      "30796050",
+      "35831498",
+      "23826127",
+      "33034244",
+      "36233645",
+      "22763445",
+      "34681076",
+      "23851344",
+      "23220793",
+      "23177925",
+      "30976812",
+      "24164896",
+      "20008938",
+      "30884445",
+      "22556055",
+      "27690379",
+      "31014199",
+      "39240887",
+      "37185285",
+      "20877309",
+      "36943300",
+      "36056132",
+      "30067734",
+      "25299252",
+      "22759812",
+      "36943736",
+      "38117419",
+      "37434323",
+      "37163605",
+      "38686350"
+    ],
+    "review": [
+      "33986331",
+      "29293451",
+      "32033110",
+      "23732052",
+      "37495394",
+      "23001564",
+      "33780718",
+      "33564154"
+    ],
+    "pmc": [
+      "8119478"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-021-89450-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33986331/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33986331",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1473",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33986331",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose Partner-RBR, a sequence-based method integrating MSA, protein language model embeddings, and AlphaFold-predicted structures to predict RNA-binding residues across multiple RNA types. A TextCNN extracts hierarchical semantic information, and mutual learning enhances performance. On a public test set, the method reportedly improves AUC by 2 to 10% over existing methods and achieves the lowest cross-prediction and overprediction error rates, distinguishing RNA-binding from DNA-binding and non-nucleic-acid-binding residues.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset details, baseline method descriptions, hyperparameter settings, ablation study results, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational approach for RNA-binding residue prediction, with a reasonable feature integration strategy and a clear motivation to address RNA-type agnosticism in existing methods. However, the evidence provided is insufficient to evaluate the validity of the performance claims. Key quantitative details, baseline comparisons, and methodological specifics are absent, preventing an assessment of technical soundness and reproducibility. The claim of AUC improvement from 2 to 10% is vague and lacks context regarding which baselines, which RNA types, and under what conditions this range applies.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-RNA interaction prediction, particularly those developing or benchmarking sequence-based predictors. Researchers studying RNA-binding proteins in the context of gene regulation and disease may also find the method useful if the performance claims hold. The availability of code and data increases potential utility for the community.
+- **Major strengths** The method integrates multiple complementary feature sources (evolutionary, language model, and structural) which is a sensible strategy for capturing diverse aspects of RNA-binding propensity. The explicit goal of handling multiple RNA types addresses a recognized limitation in existing tools. The use of mutual learning to enhance feature extraction is a novel methodological element. The provision of code and data is commendable for reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Partner-RBR demonstrates significant improvements in predictive performance, exhibiting a substantial increase in the Area Under the Curve (AUC) from 2 to 10% compared to existing methods"
+  - **Evidence pointer** Abstract, performance claims section; location not provided
+  - **Concern** The abstract reports an AUC improvement range of 2 to 10% without specifying which baselines were compared, which RNA types were included, or the test set composition. No absolute AUC values, confidence intervals, or statistical significance tests are provided. The range is too broad to be informative and may reflect cherry-picking across conditions.
+  - **Why it matters** Without precise baseline definitions and effect sizes, readers cannot judge whether the improvement is meaningful or consistent. The claim as stated is not falsifiable and does not allow independent verification.
+  - **Resolution test** Provide a table comparing Partner-RBR against at least three established baselines on the same test set, with absolute AUC values, standard deviations, and significance tests (e.g., DeLong test) for each RNA type. Specify the exact test set and data splitting protocol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "Local sequence information is captured using a sliding window, while structural neighbors are considered by creating an adjacency matrix. The hierarchical semantic information is extracted using a TextCNN architecture, and performance is further enhanced through mutual learning"
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract describes the architecture at a high level but omits critical details: window size, adjacency matrix construction (threshold, distance metric), TextCNN kernel sizes and number of layers, and the specific mutual learning mechanism (e.g., which models are mutually trained, what loss functions are used, how knowledge is transferred). Without these details, the method cannot be reproduced or compared fairly.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The described architecture is not sufficiently specified to allow independent implementation, and the mutual learning component is particularly underspecified.
+  - **Resolution test** Provide a detailed methods section with all hyperparameters, a pseudocode or algorithm box for the mutual learning procedure, and release the training configuration in the code repository.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validation
+  - **Claim pointer** "it achieves the lowest error rates for both cross-prediction and overprediction, effectively distinguishing RNA-binding residues from DNA-binding residues and non-nucleic acid-binding residues"
+  - **Evidence pointer** Abstract, performance claims section; location not provided
+  - **Concern** The terms "cross-prediction" and "overprediction" are not defined in the abstract. It is unclear whether these refer to false positives on DNA-binding residues, calibration metrics, or something else. No numerical values or comparison to baselines are given for these error rates.
+  - **Why it matters** The claim of superior discrimination between RNA-binding and other nucleic acid-binding residues is a key differentiator of the method. Without clear definitions and quantitative support, this claim cannot be evaluated.
+  - **Resolution test** Define cross-prediction and overprediction explicitly, and provide a table with error rates for Partner-RBR and baselines on a benchmark that includes DNA-binding and non-nucleic-acid-binding proteins.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, dataset description
+  - **Evidence pointer** "Upon evaluation using a public test data set"; location not provided
+  - **Issue** The abstract does not name the public test set or describe its size, composition, or how it was split from training data.
+  - **Required correction** Specify the dataset name, number of proteins and residues, RNA type distribution, and the splitting strategy (e.g., sequence identity threshold).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** "The data set and code of Partner-RBR are available at: https://github.com/Hhhzj-7/Partner-RBR"; location not provided
+  - **Issue** The abstract states availability but does not indicate whether the repository includes trained models, inference scripts, or a README with usage instructions.
+  - **Required correction** Clarify the repository contents and provide a versioned release with a DOI or permanent archive link.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, RNA type coverage
+  - **Evidence pointer** "capable of accommodating a range of RNA types"; location not provided
+  - **Issue** The abstract does not enumerate which RNA types are supported (e.g., mRNA, tRNA, rRNA, ncRNA) or how the method handles type-specific differences.
+  - **Required correction** List the RNA types included in training and evaluation, and state whether the method is type-agnostic or type-aware.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance claims lack quantitative support), R1-M2 (methodological details insufficient for reproduction), R1-M3 (key error rate claims undefined and unsupported)
+- **Assessment against Nature-style criteria** 
+  - Originality: The feature integration strategy and mutual learning component are somewhat novel, but the overall approach follows established paradigms in the field. Originality is moderate and cannot be fully assessed without the full text.
+  - Scientific importance: Accurate RNA-binding residue prediction has broad utility in molecular biology and disease research. The potential to handle multiple RNA types is valuable, but the importance of the contribution depends on the magnitude and robustness of the claimed improvements, which are not yet established.
+  - Interdisciplinary readership: The topic bridges computational biology, structural biology, and RNA biology. The abstract is accessible to a broad audience, but the lack of quantitative detail limits its appeal to specialists who would need to verify the claims.
+  - Technical soundness: Cannot be assessed from the abstract alone. The described architecture is plausible, but the absence of implementation details and validation statistics precludes a judgment of technical rigor.
+  - Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, making it understandable to a general scientific audience. However, the vague performance claims reduce its informativeness.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach, but the performance claims are not quantitatively supported, and the methodological description is insufficient for evaluation. A revised manuscript with detailed methods, comprehensive benchmark comparisons, and clear definitions of error metrics would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The AUC improvement range of 2 to 10% is unsupported as stated, lacking baseline specification, absolute values, and statistical context.
+- The claim of "lowest error rates for both cross-prediction and overprediction" is unsupported because the terms are undefined and no numerical evidence is provided.
+- The general claim of "significant improvements" is not backed by any statistical tests or effect sizes.
+- The ability to "effectively distinguish RNA-binding residues from DNA-binding residues and non-nucleic acid-binding residues" is asserted without presenting discrimination metrics or comparison data.
+- The methodological description of the architecture and mutual learning is too vague to be evaluated for correctness or reproducibility.

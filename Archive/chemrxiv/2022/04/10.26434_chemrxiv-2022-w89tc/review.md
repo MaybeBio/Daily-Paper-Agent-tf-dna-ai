@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a two-step protocol, iMD-VR-FES, that combines interactive molecular dynamics in virtual reality (iMD-VR) with free energy sampling (FES) to study protein-ligand unbinding. They apply this protocol to the trypsin-benzamidine system and report unbinding free energies with good internal consistency and broad agreement with literature values. They further claim that the resulting free energy profiles can distinguish energetic differences between protein-ligand conformations and identify metastable states along unbinding pathways.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, or validation results are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational details, force field parameters, simulation parameters, convergence criteria, error estimates, and comparison data from literature
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting integration of human-guided VR sampling with established free energy methods. The idea of using human spatial intuition to generate diverse unbinding pathways as initial guesses for path-based free energy calculations is novel and potentially valuable. However, the abstract provides insufficient quantitative detail to assess the validity of the reported free energies, the robustness of the protocol, or the significance of the claimed conformational distinctions. The work is at a preliminary stage of evaluation from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on ligand binding free energy calculations, particularly those interested in enhanced sampling methods and path-based approaches. Researchers developing interactive and immersive molecular simulation tools may also find the protocol relevant. The potential to combine human intuition with rigorous statistical mechanics could appeal to method developers in the free energy community.
+- **Major strengths** The conceptual novelty of combining iMD-VR with FES is clear and potentially impactful. The use of human spatial and chemical intuition to generate diverse pathways addresses a known limitation in path-based free energy methods, namely the dependence on initial pathway quality. The application to a well-characterized benchmark system, trypsin-benzamidine, is appropriate for a first demonstration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Unbinding free energies calculated using iMD-VR-FES show good internal consistency, and broadly agree with previous literature values"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports agreement with literature values but provides no numerical free energy values, no error estimates, and no specification of which literature values are used for comparison. Without these data, the claim of agreement cannot be evaluated.
+  - **Why it matters** Quantitative agreement with established results is the central validation of any new free energy method. The absence of any numbers prevents assessment of whether the agreement is meaningful or coincidental.
+  - **Resolution test** Provide the computed free energy values with statistical uncertainties, the literature values used for comparison, and a clear statement of the level of agreement (e.g., within 1 kcal/mol, within statistical error).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The resulting free energy profiles can distinguish energetic differences corresponding to various protein-ligand conformations (e.g., helping to identifying favorable vs. unfavorable pathways)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that free energy profiles can distinguish favorable from unfavorable pathways implies a comparison between multiple pathways. The abstract does not state how many pathways were sampled, how they differed, or what the energetic differences were. The statistical significance of any observed differences is not addressed.
+  - **Why it matters** The ability to rank pathways is a key claimed advantage of the method. Without evidence of reproducible and statistically meaningful differences between pathways, this claim remains unsupported.
+  - **Resolution test** Show free energy profiles for at least two distinct pathways with associated uncertainties, and demonstrate that the differences exceed the combined statistical error.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "Stage one involves using a state-of-the-art iMD-VR framework to quickly sample a diverse range of protein-ligand unbinding pathways"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the iMD-VR sampling is performed, how many human operators were involved, how operator bias is controlled, or how the diversity of sampled pathways is quantified. The human-in-the-loop nature of the method raises questions about reproducibility and operator dependence.
+  - **Why it matters** If the quality of the final free energy results depends on the specific human operator, the method may not be reproducible across users or sessions. This is a critical concern for a method that claims to be a general protocol.
+  - **Resolution test** Describe the iMD-VR sampling protocol in sufficient detail, report the number of operators and sessions, and provide evidence that different operators produce similar pathway ensembles and final free energy results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Typographical error in method name
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract contains "iMR-VR-FES" in the application sentence, which appears to be a typographical error for "iMD-VR-FES".
+  - **Required correction** Correct the typo to "iMD-VR-FES" throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Grammar in claim about pathway identification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "helping to identifying favorable vs. unfavorable pathways" contains a grammatical error.
+  - **Required correction** Revise to "helping to identify favorable vs. unfavorable pathways".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methodological detail
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify which FES method is used (e.g., umbrella sampling, metadynamics, string method) or how the path-based reaction coordinate is defined from the iMD-VR trajectories.
+  - **Required correction** Specify the FES method and the procedure for defining the reaction coordinate from the sampled pathways.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, pathway comparison statistics, and operator reproducibility evidence means the core claims of the abstract are not currently verifiable.
+- **Assessment against Nature-style criteria** Originality: The combination of iMD-VR with FES is conceptually original and not represented in the supplied material as a prior approach. Scientific importance: The potential to leverage human intuition in free energy calculations could be significant, but the current abstract does not demonstrate a clear advance over existing methods in terms of accuracy or efficiency. Interdisciplinary readership: The work bridges virtual reality technology, molecular simulation, and biophysics, which could attract a broad readership, but the abstract is too technical and lacks accessible context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the reported agreement with literature is unquantified and the reproducibility of the human-in-the-loop component is unaddressed. Readability for nonspecialists: The abstract assumes familiarity with both iMD-VR and FES terminology and does not provide sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, but the abstract lacks the quantitative and methodological detail required to assess the validity and significance of the claims. A supportive assessment would require the full manuscript with numerical results, error analysis, pathway comparisons, and reproducibility data.
+
+## Risk / unsupported claims
+- The claim of "good internal consistency" in computed free energies is unsupported because no numerical values or error estimates are provided.
+- The claim of "broad agreement with previous literature values" is unsupported because no comparison values are specified.
+- The claim that free energy profiles can "distinguish energetic differences corresponding to various protein-ligand conformations" is unsupported because no profiles or pathway comparisons are shown.
+- The claim that the method enables "identification of metastable states" is unsupported because no metastable states are identified in the abstract.
+- The general applicability of the iMD-VR-FES protocol as a "two-step approach" is not assessable from the abstract alone.

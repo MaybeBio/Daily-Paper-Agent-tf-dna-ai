@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "38483906",
+    "doi": "10.1016/j.celrep.2024.113940",
+    "title": "Co-imaging of RelA and c-Rel reveals features of NF-kappaB signaling for ligand discrimination."
+  },
+  "content": {
+    "abstract": "Individual cell sensing of external cues has evolved through the temporal patterns in signaling. Since nuclear factor kappaB (NF-kappaB) signaling dynamics have been examined using a single subunit, RelA, it remains unclear whether more information might be transmitted via other subunits. Using NF-kappaB double-knockin reporter mice, we monitored both canonical NF-kappaB subunits, RelA and c-Rel, simultaneously in single macrophages by quantitative live-cell imaging. We show that signaling features of RelA and c-Rel convey more information about the stimuli than those of either subunit alone. Machine learning is used to predict the ligand identity accurately based on RelA and c-Rel signaling features without considering the co-activated factors. Ligand discrimination is achieved through selective non-redundancy of RelA and c-Rel signaling dynamics, as well as their temporal coordination. These results suggest a potential role of c-Rel in fine-tuning immune responses and highlight the need for approaches that will elucidate the mechanisms regulating NF-kappaB subunit specificity.",
+    "keywords": [
+      "CP: Molecular biology",
+      "NF-kappaB",
+      "RelA",
+      "c-Rel",
+      "endogenous knockin",
+      "fluorescent fusion reporter mice",
+      "inflammatory signaling",
+      "live microscopy",
+      "macrophages",
+      "mathematical modeling"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*NF-kappa B/metabolism",
+      "Ligands",
+      "*Proto-Oncogene Proteins c-rel/metabolism",
+      "Transcription Factor RelA/metabolism",
+      "Signal Transduction",
+      "Macrophages/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Shah Md Toufiqur",
+        "Singh, Apeksha",
+        "Lowe, Sarina",
+        "Aqdas, Mohammad",
+        "Jiang, Kevin",
+        "Vaidehi Narayanan, Haripriya",
+        "Hoffmann, Alexander",
+        "Sung, Myong-Hee"
+      ],
+      "short_names": [
+        "Rahman SMT",
+        "Singh A",
+        "Lowe S",
+        "Aqdas M",
+        "Jiang K",
+        "Vaidehi Narayanan H",
+        "Hoffmann A",
+        "Sung MH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Molecular Biology and Immunology, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA.",
+        "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Laboratory of Molecular Biology and Immunology, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA.",
+        "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Laboratory of Molecular Biology and Immunology, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA. Electronic address: sungm@nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Shah Md Toufiqur",
+        "short_name": "Rahman SMT",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology and Immunology, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Apeksha",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lowe, Sarina",
+        "short_name": "Lowe S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Aqdas, Mohammad",
+        "short_name": "Aqdas M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology and Immunology, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Kevin",
+        "short_name": "Jiang K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vaidehi Narayanan, Haripriya",
+        "short_name": "Vaidehi Narayanan H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative and Computational Biosciences and Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sung, Myong-Hee",
+        "short_name": "Sung MH",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology and Immunology, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA. Electronic address: sungm@nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2024 Mar 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/14 18:42",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "42668632",
+      "42619708",
+      "42577866",
+      "42527627",
+      "41986175",
+      "41791704",
+      "41695311",
+      "41669117",
+      "41210254",
+      "40839679",
+      "40781077",
+      "40593748",
+      "40420174",
+      "40307451",
+      "39938520",
+      "38847168"
+    ],
+    "refs": [
+      "36473794",
+      "36417863",
+      "35977475",
+      "34301608",
+      "34140389",
+      "33979588",
+      "33627672",
+      "32864512",
+      "32164908",
+      "32098801",
+      "31800025",
+      "31249008",
+      "31040261",
+      "30566863",
+      "30205475",
+      "29128333",
+      "28396000",
+      "28009264",
+      "28004761",
+      "27853188",
+      "27742543",
+      "27135540",
+      "26765569",
+      "26115685",
+      "25504722",
+      "25473117",
+      "24922112",
+      "24591377",
+      "23452846",
+      "23180076",
+      "22617958",
+      "22435560",
+      "22302935",
+      "22101729",
+      "21921160",
+      "21445964",
+      "20975733",
+      "20696914",
+      "20581820",
+      "20534546",
+      "20182598",
+      "19859064",
+      "19787057",
+      "19487661",
+      "19263497",
+      "17486138",
+      "17312138",
+      "17275323",
+      "17254973",
+      "16735576",
+      "16321974",
+      "16166517",
+      "16166378",
+      "15499023",
+      "14532125",
+      "12424381",
+      "11931769",
+      "11805150",
+      "11058167",
+      "10454583",
+      "9023117",
+      "8864118",
+      "7649478",
+      "7603567"
+    ],
+    "similar": [
+      "38483906",
+      "32098801",
+      "36417863",
+      "27649781",
+      "17982049",
+      "17660823",
+      "12615723",
+      "20697425",
+      "38563819",
+      "25088585",
+      "16183169",
+      "12707325",
+      "26522720",
+      "16205698",
+      "29568960",
+      "10329626",
+      "17641044",
+      "12218154",
+      "23562440",
+      "11290773",
+      "25299780",
+      "23195252",
+      "19094066",
+      "37524800",
+      "11058167",
+      "25180063",
+      "12556500",
+      "17513724",
+      "16672661",
+      "8139561",
+      "11416157",
+      "10518539",
+      "29022897",
+      "8676482",
+      "14647412",
+      "36893901",
+      "15617758",
+      "25915462",
+      "9399940",
+      "34089216",
+      "39110005",
+      "10670837",
+      "16166378",
+      "11043773",
+      "30910589",
+      "9852573",
+      "16510574",
+      "9710636",
+      "15345217",
+      "30941572",
+      "24024170",
+      "15720433",
+      "11160867",
+      "9837938",
+      "11334742",
+      "8546707",
+      "21451109",
+      "24591377",
+      "12181450",
+      "15199130",
+      "12360408",
+      "27923915",
+      "10470853",
+      "8986716",
+      "10862814",
+      "39412374",
+      "10744656",
+      "11283615",
+      "10823840",
+      "9315679",
+      "9092517",
+      "15747836",
+      "21551466",
+      "11114727",
+      "11869686",
+      "29044191",
+      "12767057",
+      "23975431",
+      "11034392",
+      "9268307",
+      "10602468",
+      "9166419",
+      "7623820",
+      "15798185",
+      "9918209",
+      "34155144",
+      "9442377",
+      "12713738",
+      "9056676",
+      "16928772",
+      "25756944",
+      "10862795",
+      "10900231",
+      "27051065",
+      "12829026",
+      "26377645",
+      "21425986",
+      "18245482",
+      "24302727",
+      "15941910"
+    ],
+    "review": [
+      "38483906",
+      "11043773",
+      "10602468"
+    ],
+    "pmc": [
+      "11015162"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(24)00268-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38483906/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38483906",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2z25f23t",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

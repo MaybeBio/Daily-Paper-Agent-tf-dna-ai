@@ -1,0 +1,485 @@
+{
+  "identity": {
+    "pmid": "42212314",
+    "doi": "10.7150/ijbs.127940",
+    "title": "The MCU-MECOM Axis Orchestrates Glioblastoma Progression by Remodeling Mitochondrial Dynamics and Quality Control via MAMs."
+  },
+  "content": {
+    "abstract": "Glioblastoma (GBM) exhibits metabolic plasticity, relying on mitochondrial oxidative phosphorylation (OXPHOS) to support migration and therapy resistance. Although mitochondrial calcium overload typically induces apoptosis, GBM cells maintain viability under high calcium conditions. The structural and metabolic coupling mechanisms underlying this adaptation remain incompletely understood. Here, we identify a mitochondria-associated membranes (MAMs) regulatory axis driven by a positive feedback loop between the mitochondrial calcium uniporter (MCU) and the transcription factor MECOM. Using multi-omics profiling, time-resolved functional assays, and mitochondrial transfer experiments, we show that MCU-mediated calcium influx expands MAMs without triggering cell death. This influx initiates adaptive mitochondrial cristae remodeling via the Mic10/Mic60 complex and activates selective mitophagy. Pharmacological blockade and autophagy-rescue experiments (using si-ATG5 and chloroquine) indicate that this mitophagy-dependent quality control promotes tumor migration and buffers reactive oxygen species (ROS) to sustain OXPHOS capacity. Targeting the MCU-MECOM axis induces metabolic suppression and reduces glioma cell viability. To translate these findings into a diagnostic application, we developed MAMs-Net, a deep-learning framework for the automated quantification of MAMs ultrastructure from transmission electron microscope (TEM) images. In an independent external validation cohort, MAMs-Net achieved an AUC of 0.95 for glioma pathological stratification. This study characterizes an MCU-MECOM structural-metabolic circuit that supports GBM survival under calcium overload, identifying a potential therapeutic target and providing a pathophysiologically interpretable, AI-driven tool for glioma evaluation.",
+    "keywords": [
+      "Glioblastoma",
+      "MAMs",
+      "MAMs-Net",
+      "MCU",
+      "MECOM"
+    ],
+    "mesh_terms": [
+      "*Glioblastoma/metabolism/pathology/genetics",
+      "Humans",
+      "*Mitochondrial Dynamics/physiology/genetics",
+      "*Calcium Channels/metabolism/genetics",
+      "Mitochondria/metabolism",
+      "Cell Line, Tumor",
+      "*Mitochondrial Membranes/metabolism",
+      "Oxidative Phosphorylation",
+      "Reactive Oxygen Species/metabolism",
+      "Mitophagy",
+      "*Transcription Factors/metabolism/genetics",
+      "Animals",
+      "*Brain Neoplasms/metabolism",
+      "Autophagy",
+      "Calcium/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiaodong",
+        "Wang, Yaoliang",
+        "Wu, Feifei",
+        "Huang, Xin",
+        "Ni, Ziwei",
+        "Xu, Guangzhen",
+        "Wang, Weizhong",
+        "Tie, Jingjing",
+        "Huang, Yunqiang",
+        "Sun, Yuze",
+        "Wang, Zhenhua",
+        "Li, Shujiao",
+        "Zheng, Qianwen",
+        "Liu, Yuxuan",
+        "Wu, Yousheng",
+        "Gong, Chengrong",
+        "Guo, Qingdong",
+        "Yang, Yanling",
+        "Wang, Yayun"
+      ],
+      "short_names": [
+        "Li X",
+        "Wang Y",
+        "Wu F",
+        "Huang X",
+        "Ni Z",
+        "Xu G",
+        "Wang W",
+        "Tie J",
+        "Huang Y",
+        "Sun Y",
+        "Wang Z",
+        "Li S",
+        "Zheng Q",
+        "Liu Y",
+        "Wu Y",
+        "Gong C",
+        "Guo Q",
+        "Yang Y",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Neurosurgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Neurosurgery, Shaanxi Provincial People's Hospital, Xi'an, 710068, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Hospital of Yan'an University, Yan'an, 716000, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Neurosurgery, the 960th Hospital of the PLA Joint Logistics Support Force, Jinan, Shandong 250031, China.",
+        "Department of Neurosurgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Laboratory Medicine, Da-Xing Hospital, Xi'an, 710032, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Computer Fundamentals, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Neurosurgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+        "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiaodong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yaoliang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+          "Department of Neurosurgery, Shaanxi Provincial People's Hospital, Xi'an, 710068, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Feifei",
+        "short_name": "Wu F",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xin",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China.",
+          "Department of Hepatobiliary and Pancreatic Surgery, Affiliated Hospital of Yan'an University, Yan'an, 716000, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Ziwei",
+        "short_name": "Ni Z",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Guangzhen",
+        "short_name": "Xu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, the 960th Hospital of the PLA Joint Logistics Support Force, Jinan, Shandong 250031, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weizhong",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Tie, Jingjing",
+        "short_name": "Tie J",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China.",
+          "Department of Laboratory Medicine, Da-Xing Hospital, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yunqiang",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuze",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhenhua",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shujiao",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qianwen",
+        "short_name": "Zheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuxuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yousheng",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Chengrong",
+        "short_name": "Gong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Fundamentals, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Qingdong",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yanling",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Xi-Jing Hospital, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yayun",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Specific Lab for Mitochondrial Plasticity Underlying Nervous System Diseases, National Demonstration Center for Experimental Preclinical Medicine Education, The Fourth Military Medical University, Xi'an, 710032, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:41",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41259513",
+      "40583767",
+      "40425608",
+      "40185997",
+      "39990231",
+      "39517124",
+      "38890305",
+      "38724006",
+      "38172597",
+      "38168065",
+      "38158714",
+      "36809318",
+      "36196752",
+      "36095844",
+      "35871061",
+      "35733338",
+      "35541901",
+      "35490194",
+      "35368021",
+      "35358616",
+      "35177476",
+      "34891822",
+      "34185076",
+      "33953403",
+      "33903593",
+      "33803964",
+      "33629929",
+      "33408395",
+      "32478924",
+      "32371956",
+      "31666695",
+      "31327527",
+      "31097788",
+      "29456190",
+      "29219147",
+      "28561061",
+      "28491867",
+      "28314612",
+      "28119804",
+      "26834490",
+      "26660890",
+      "25955211",
+      "24884669",
+      "24658644",
+      "24055366",
+      "23246404",
+      "22850819",
+      "22768835",
+      "21997252",
+      "21685888",
+      "21685886",
+      "20808728",
+      "18432251",
+      "15758009"
+    ],
+    "similar": [
+      "42212314",
+      "40712058",
+      "42010891",
+      "39350223",
+      "38160839",
+      "33296287",
+      "28262504",
+      "24802861",
+      "24800979",
+      "42521139",
+      "39866241",
+      "42248375",
+      "40188890",
+      "39929132",
+      "42597465",
+      "41317807",
+      "38804659",
+      "31488423",
+      "37899749",
+      "41534569",
+      "38652352",
+      "40673552",
+      "41329250",
+      "28337252",
+      "34161774",
+      "34415186",
+      "37405374",
+      "42286227",
+      "29599132",
+      "42502247",
+      "37595500",
+      "41412527",
+      "31040260",
+      "40389181",
+      "40414005",
+      "39914782",
+      "41872157",
+      "42385796",
+      "28495532",
+      "42174621",
+      "28726639",
+      "29926229",
+      "32801213",
+      "30756474",
+      "42059578",
+      "28650465",
+      "42089469",
+      "41505038",
+      "41032069",
+      "32371956",
+      "32540484",
+      "41916042",
+      "42274618",
+      "29902340",
+      "36754446",
+      "33894359",
+      "40354861",
+      "41226485",
+      "32051286",
+      "29225050",
+      "37415312",
+      "33726796",
+      "30911349",
+      "42421016",
+      "42193173",
+      "27122161",
+      "27288019",
+      "23774672",
+      "42537466",
+      "28578342",
+      "41108475",
+      "34914018",
+      "40622073",
+      "41483269",
+      "38789496",
+      "39527653",
+      "41088303",
+      "39765273",
+      "38702818",
+      "41483522",
+      "34497331",
+      "35982414",
+      "38417574",
+      "40590119",
+      "23333832",
+      "25548283",
+      "29658588",
+      "42251192",
+      "41037192",
+      "41442803",
+      "31983267",
+      "37001308",
+      "38763954",
+      "29538099",
+      "42225680",
+      "32604996",
+      "33723235",
+      "34717963",
+      "38763207",
+      "28938844"
+    ],
+    "review": [
+      "42212314",
+      "33296287",
+      "28495532",
+      "29926229",
+      "42059578",
+      "41032069",
+      "42274618",
+      "33894359",
+      "27122161",
+      "41483269"
+    ],
+    "pmc": [
+      "13215065"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42212314/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v22p5054.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

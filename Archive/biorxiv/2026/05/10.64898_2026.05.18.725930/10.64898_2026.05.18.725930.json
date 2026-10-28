@@ -1,0 +1,952 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.18.725930",
+  "title": "Prediction of Transcription Factor DNA Binding Affinity with High-Throughput <i>K</i> <sub>d</sub> Measurements and Deep Learning",
+  "doi": "10.64898/2026.05.18.725930",
+  "abstract": "Transcription factors (TFs) regulate gene expression through specific interactions with genomic DNA. While TF binding motifs from public databases describe sequence preferences, quantifying genome-wide affinity ( K d ) is highly desirable for a more accurate thermodynamic description. Here, we report ivt FOODIE ( in vitro FOOtprinting with DeamInasE), an assay that leverages deaminase-mediated cytosine-to-uracil conversion to measure K d values for a given TF across accessible genomic regions from human cells. By pre-training on TF binding sites from JASPAR and fine-tuning with our ivt FOODIE data from 46 TFs representing 13 different DNA-binding domains (DBDs), we developed Seq2K d , a deep learning model capable of predicting a TF’s absolute binding affinity on DNA sequences. Seq2K d enables de novo motif discovery of ∼500 previously uncharacterized human TFs and reveals the effects of genetic variation both in TF-coding regions and DNA-binding sites on gene expression and disease susceptibility. By correlating predicted affinity changes with the sign and magnitude of expression quantitative trait locus (eQTL) effects, we stratified TFs into activator-like and repressor-like groups. Compared to clinically benign variants, pathogenic single-nucleotide variants (SNVs) within regulatory and protein-coding regions show significantly larger predicted shifts in K d . We provide an interactive web portal, the ENcyclopedia of Transcription-factor Interactions with Regulatory Elements (ENTIRE), which integrates the Seq2K d model with the ivt FOODIE dataset. This resource offers thermodynamic prediction for TF–DNA interactions for functional genomics and human disease.",
+  "authors": [
+    "Zhi Wang",
+    "Di Wang",
+    "Ke Shen",
+    "Junchen Luo",
+    "Xinyao Wang",
+    "Nan Wu",
+    "Yunzhi Lang",
+    "Xiangyu Wang",
+    "Jun Ren",
+    "Wenyang Dong",
+    "Lu Pan",
+    "Yitong Lyu",
+    "Gang Li",
+    "Dubai Li",
+    "Chen Xie",
+    "Zhen Zhang",
+    "Shijun Yu",
+    "Liuying Shan",
+    "Nannan Zhang",
+    "Jian Yan",
+    "Mingchen Chen",
+    "Xiaoliang Sunney Xie"
+  ],
+  "published_date": "2026-05-20",
+  "updated_date": "2026-05-20T20:10:21Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725930",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725930.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ],
+        "date-time": "2026-05-22T20:05:10Z",
+        "timestamp": 1779480310332,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                20
+              ]
+            ],
+            "date-time": "2026-05-20T00:00:00Z",
+            "timestamp": 1779235200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100031910",
+          "name": "Changping Laboratory",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2021C0402"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2021C0402"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100031910",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Medical Research Fund",
+          "award": [
+            "B2302027"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "B2302027"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Medical Research Fund",
+          "award": [
+            "D2501003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "D2501003"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Research Grants Council of HKSAR",
+          "award": [
+            "11101022"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "11101022"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "32270634"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "32270634"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcription factors (TFs) regulate gene expression through specific interactions with genomic DNA. While TF binding motifs from public databases describe sequence preferences, quantifying genome-wide affinity (\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>d</jats:sub>\n                  ) is highly desirable for a more accurate thermodynamic description. Here, we report\n                  <jats:italic>ivt</jats:italic>\n                  FOODIE (\n                  <jats:italic>in vitro</jats:italic>\n                  FOOtprinting with DeamInasE), an assay that leverages deaminase-mediated cytosine-to-uracil conversion to measure\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>d</jats:sub>\n                  values for a given TF across accessible genomic regions from human cells. By pre-training on TF binding sites from JASPAR and fine-tuning with our\n                  <jats:italic>ivt</jats:italic>\n                  FOODIE data from 46 TFs representing 13 different DNA-binding domains (DBDs), we developed Seq2K\n                  <jats:sub>d</jats:sub>\n                  , a deep learning model capable of predicting a TF’s absolute binding affinity on DNA sequences. Seq2K\n                  <jats:sub>d</jats:sub>\n                  enables\n                  <jats:italic>de novo</jats:italic>\n                  motif discovery of ∼500 previously uncharacterized human TFs and reveals the effects of genetic variation both in TF-coding regions and DNA-binding sites on gene expression and disease susceptibility. By correlating predicted affinity changes with the sign and magnitude of expression quantitative trait locus (eQTL) effects, we stratified TFs into activator-like and repressor-like groups. Compared to clinically benign variants, pathogenic single-nucleotide variants (SNVs) within regulatory and protein-coding regions show significantly larger predicted shifts in\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>d</jats:sub>\n                  . We provide an interactive web portal, the ENcyclopedia of Transcription-factor Interactions with Regulatory Elements (ENTIRE), which integrates the Seq2K\n                  <jats:sub>d</jats:sub>\n                  model with the\n                  <jats:italic>ivt</jats:italic>\n                  FOODIE dataset. This resource offers thermodynamic prediction for TF–DNA interactions for functional genomics and human disease.\n                </jats:p>",
+      "DOI": "10.64898/2026.05.18.725930",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ],
+        "date-time": "2026-05-20T20:10:21Z",
+        "timestamp": 1779307821000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Prediction of Transcription Factor DNA Binding Affinity with High-Throughput\n                  <i>K</i>\n                  <sub>d</sub>\n                  Measurements and Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-8943-0884",
+          "authenticated-orcid": false,
+          "given": "Zhi",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Di",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5133-9248",
+          "authenticated-orcid": false,
+          "given": "Ke",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, P. R. China"
+            },
+            {
+              "name": "School of Life Sciences, Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junchen",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "College of Future Technology, Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinyao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nan",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Urology, The First Affiliated Hospital of Xi’an Jiaotong University, Xi’an, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yunzhi",
+          "family": "Lang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiangyu",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Chemistry and Molecular Engineering, Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jun",
+          "family": "Ren",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenyang",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lu",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yitong",
+          "family": "Lyu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Sciences, College of Biomedicine, City University of Hong Kong, Hong Kong SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dubai",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhen",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shijun",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liuying",
+          "family": "Shan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nannan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1267-2870",
+          "authenticated-orcid": false,
+          "given": "Jian",
+          "family": "Yan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Sciences, College of Biomedicine, City University of Hong Kong, Hong Kong SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mingchen",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoliang Sunney",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Changping Laboratory, Beijing, P. R. China"
+            },
+            {
+              "name": "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, P. R. China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.1.16"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.290.5500.2306"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/9878"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1059"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1077"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1849",
+          "DOI": "10.1038/nprot.2007.249",
+          "article-title": "Electrophoretic mobility shift assay (EMSA) for detecting protein–nucleic acid interactions",
+          "volume": "2",
+          "year": "2007",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0250-6874(83)85036-7"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1131007"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1882"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning–based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01307-0"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2423270121"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1213",
+          "DOI": "10.1038/nmeth.2688",
+          "article-title": "Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2024.01.027"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07662-z"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz507"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz406"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.00487-00419"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jsbmb.2008.03.034"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1164265"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-019-0221-0"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "2809",
+          "DOI": "10.1111/febs.14846",
+          "article-title": "Structural basis for the target DNA recognition and binding by the MYB domain of phosphate starvation response 1",
+          "volume": "286",
+          "year": "2019",
+          "journal-title": "The FEBS Journal"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "2063",
+          "DOI": "10.1038/s41467-019-10026-1",
+          "article-title": "DNA methylation repels targeting of Arabidopsis REF6",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.30",
+          "first-page": "460",
+          "article-title": "Structural insights into target DNA recognition by R2R3-MYB transcription factors",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "307",
+          "DOI": "10.1016/j.cell.2025.11.008",
+          "article-title": "Thermodynamic principles link in vitro transcription factor affinities to single-molecule chromatin states in cells",
+          "volume": "189",
+          "year": "2026",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1206011109"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-09472-3"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03211-0"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1674",
+          "DOI": "10.1038/s41592-024-02372-w",
+          "article-title": "Geometric deep learning of protein–DNA binding specificity",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz1776"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1113"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aab0015"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.39",
+          "first-page": "176",
+          "article-title": "Severe factor VII deficiency due to a mutation disrupting a hepatocyte nuclear factor 4 binding site in the factor VII promoter",
+          "volume": "89",
+          "year": "1997",
+          "journal-title": "Blood, The Journal of the American Society of Hematology"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M110.215822"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2011.127"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz604"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1055",
+          "DOI": "10.1038/s41598-018-37522-6",
+          "article-title": "MITF has a central role in regulating starvation-induced autophagy in melanoma",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "607",
+          "DOI": "10.1038/s41594-019-0246-6",
+          "article-title": "Structural basis of HMCES interactions with abasic DNA and multivalent substrate recognition",
+          "volume": "26",
+          "year": "2019",
+          "journal-title": "Nature Structural & Molecular Biology"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.01.019"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "4308",
+          "DOI": "10.1093/nar/gkz113",
+          "article-title": "Structural basis of dimerization and dual W-box DNA recognition by rice WRKY domain",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "424",
+          "DOI": "10.1038/s41477-019-0402-3",
+          "article-title": "Embryonic resetting of the parental vernalized state by two B3 domain transcription factors in Arabidopsis",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nature Plants"
+        },
+        {
+          "key": "2026052212251096000_2026.05.18.725930v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Shen et al., Deep Learning of High-throughput Transcription Factor-DNA Binding Affinity Data: Quantitative Comparison with Pairwise-Additive Models. bioRxiv (2026).",
+          "DOI": "10.64898/2026.05.18.725888"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.18.725930",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ],
+        "date-time": "2026-05-22T19:25:19Z",
+        "timestamp": 1779477919000
+      },
+      "score": 115.92612,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.18.725930"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.64898/2026.05.18.725930",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, and methods.
+- **Assessment boundary** Scientific soundness, technical rigor, validity of claims relative to presented evidence, and alignment with Nature-style criteria. No assessment of grammar or stylistic preferences beyond readability for a broad audience.
+- **Shared manuscript claim summary** The authors propose a computational screening approach targeting the hSSB1-INTS3 protein-protein interaction (PPI) interface within the SOSS1 complex, identify five candidate compounds from an Enamine PPI library via molecular docking, and report that three of these compounds reduce hSSB1-INTS3 association in co-immunoprecipitation assays, with one compound (I5) also impairing recruitment of both proteins to chromatin following ionizing radiation. Molecular dynamics simulations and MM-GBSA calculations are used to support binding stability and interaction hot-spot analysis.
+- **Visible evidence base** Abstract, Introduction, Results (including Figures 2-6 and Table 1-2 references), Discussion, Conclusions, and Methods sections. Supplementary material referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures (Figure S1), raw western blot images, full immunofluorescence quantification data, compound chemical structures and purity data, docking pose coordinates, MD trajectory validation metrics, and any statistical analysis details for the cell-based assays.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting first step toward targeting the hSSB1-INTS3 interaction, an underexplored PPI with relevance to cancer therapy. The computational workflow is reasonable, and the inclusion of in vitro validation is commendable. However, the evidence as presented is insufficient to firmly establish that the identified compounds specifically disrupt the hSSB1-INTS3 interaction or that the observed cellular effects are directly attributable to this mechanism. Key technical details are missing, and the functional data are limited to a single cell line with no dose-response or specificity controls. The claims of "first" modulators and therapeutic potential are premature given the current evidence base.
+- **Who would be interested in the results, and why** Researchers in the DNA damage repair field, particularly those studying SOSS1 complex biology and hSSB1 function. Also, medicinal chemists and computational biologists interested in PPI inhibitor discovery, especially for targets with limited prior druggability assessment. The findings may be of interest to oncology researchers exploring novel sensitization strategies for chemo- and radiotherapy.
+- **Major strengths** 1) The target is novel and biologically relevant, with clear rationale for disrupting the hSSB1-INTS3 interaction. 2) The computational screening approach is well-structured, using a focused PPI library and appropriate docking tools. 3) The inclusion of in vitro validation (co-immunoprecipitation and immunofluorescence) adds practical value beyond purely computational predictions. 4) MD simulations and MM-GBSA rescoring provide additional layers of analysis to support binding stability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claim
+  - **Claim pointer** "Three of the five tested compounds were found to reduce the association between INTS3-hSSB1 in U2OS cells" and "compound I5 impacts the efficient recruitment of INTS3 and hSSB1 to the chromatin following IR-induced DNA damage."
+  - **Evidence pointer** Results section, Figure 2d and Figure 3a-c; location not provided for raw data.
+  - **Concern** The co-immunoprecipitation data are presented as a single representative experiment with no quantification, replicates, or statistical analysis. The immunofluorescence data are described qualitatively with no quantitative metrics (e.g., foci counts per nucleus, standard deviation, significance testing). Without these, the claim that these compounds "reduce association" and "impact recruitment" is not robustly supported. Additionally, no dose-response experiments are shown, and only a single concentration (10 μM for co-IP; 0.5, 5, 10 μM for IF) is used, with no justification for concentration selection.
+  - **Why it matters** The central conclusion of the manuscript rests on these in vitro observations. If the effects are not reproducible, quantified, or dose-dependent, the claim of functional PPI disruption is not established. This is a blocking issue because the entire premise of the study is that these compounds modulate hSSB1-INTS3 interaction in a biologically meaningful way.
+  - **Resolution test** Provide quantified co-IP data from at least three independent biological replicates with statistical analysis (e.g., mean ± SEM, p-values). Include dose-response curves for at least one active compound. For immunofluorescence, provide quantitative foci counts per nucleus with statistical comparison across conditions and time points.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of compound action
+  - **Claim pointer** "Our study suggests potential PPI disruption by three of the virtually screened hits, preventing the recruitment of these proteins to DNA-damaged sites."
+  - **Evidence pointer** Results section, Figure 2d and Figure 3; location not provided.
+  - **Concern** No specificity controls are shown. It is unclear whether the compounds affect hSSB1-INTS3 interaction directly or indirectly, e.g., by altering protein stability, expression levels, or general cellular toxicity. No cell viability assays are reported, and no control compounds (e.g., inactive analogs or known negative binders) are tested. The possibility that the observed reduction in co-immunoprecipitation is due to reduced protein expression or cell death is not addressed.
+  - **Why it matters** Without specificity controls, the observed effects could be off-target or non-specific. This undermines the claim that the compounds are "modulators" of the hSSB1-INTS3 interaction specifically. For a PPI inhibitor claim, demonstrating direct or at least selective engagement is essential.
+  - **Resolution test** Include cell viability assays (e.g., MTT or ATP-based) for all compounds at tested concentrations. Assess hSSB1 and INTS3 protein levels by western blot in treated vs. untreated cells. Test at least one structurally similar inactive compound as a negative control. If possible, perform a pull-down or surface plasmon resonance assay with recombinant proteins to demonstrate direct binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational validation and docking reliability
+  - **Claim pointer** "The top 400 compounds binding to INTS3 at its N-terminus were obtained from the virtual screening" and "only the top five compounds... with a docking score of −10 kcal/mol... were further investigated."
+  - **Evidence pointer** Results section, Table 1; Methods section, Virtual Screening subsection.
+  - **Concern** The docking protocol is not validated for this specific target. The authors acknowledge that "the sampling and scoring used in the Autodock Vina docking program were not validated for the INTS3 compounds," but no attempt is made to validate the docking approach, such as redocking the co-crystallized ligand or performing enrichment studies with known binders/non-binders. The selection of only five compounds from 40,629 based solely on docking score is a very narrow filter, and no diversity or drug-likeness filtering beyond the library's inherent properties is described. The docking score threshold of −10 kcal/mol is not justified.
+  - **Why it matters** The reliability of the virtual screening is central to the identification of the tested compounds. If the docking scores do not correlate with actual binding affinity, the selection of these five compounds is essentially arbitrary. This affects the generalizability of the approach and the confidence in the identified hits.
+  - **Resolution test** Perform a validation of the docking protocol, e.g., by redocking a known ligand or using a decoy set to assess enrichment. Provide a rationale for the docking score cutoff. Consider reporting the range of docking scores for the top 400 compounds and the distribution of scores to justify the selection of the top five.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation and free energy analysis rigor
+  - **Claim pointer** "The molecular dynamics (MD) simulations were carried out to understand the conformational transition, dynamic behavior, and stability of the ligand at the protein's binding pocket" and "compounds I4 and I5 possess the strongest binding with the INTS3 receptor pockets, with energies of −8.91 and −7.75 kcal/mol."
+  - **Evidence pointer** Results section, Figures 4-7 and Table 2; Methods section, MD Simulation and MM-GBSA subsections.
+  - **Concern** The MD simulation details are incomplete. The total simulation time is stated as 25 ns with the first 5 ns discarded, but no convergence analysis is shown. The MM-GBSA calculations are performed on a single trajectory per system, and no error estimates or replicate simulations are reported. The entropy calculations using normal-mode analysis are known to be computationally expensive and often unreliable, yet no discussion of this limitation is provided. The correlation between MM-GBSA results and the in vitro data is asserted but not quantitatively demonstrated.
+  - **Why it matters** The MD and MM-GBSA results are used to support the stability and binding strength of the compounds. If these calculations are not robust, the conclusions drawn from them are weakened. The lack of error estimates and convergence checks makes it difficult to assess the reliability of the reported binding free energies.
+  - **Resolution test** Provide RMSD and RMSF plots with error bars from multiple independent simulations. Report the standard deviation of MM-GBSA energies across trajectory frames or replicate runs. Discuss the limitations of the entropy calculation and consider using an alternative method (e.g., interaction entropy) or reporting ΔG without entropy for comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of compound nomenclature
+  - **Affected element** Table 1 and throughout
+  - **Evidence pointer** Table 1; location not provided.
+  - **Issue** The compounds are referred to as I1-I5, but the chemical structures are not shown in the main text. The table lists Z-codes, but the structures are not displayed, making it difficult for readers to assess the chemical diversity or relate the structures to the discussion of binding modes.
+  - **Required correction** Include a figure or table with the 2D chemical structures of the five compounds, with the I1-I5 labels clearly indicated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section, Figure 3; location not provided.
+  - **Issue** The immunofluorescence data are described qualitatively. No error bars, sample sizes, or statistical tests are reported for the foci quantification.
+  - **Required correction** Provide quantitative data with mean ± SEM or SD, number of cells or fields analyzed, and appropriate statistical tests (e.g., one-way ANOVA with post-hoc comparisons).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Concentration justification
+  - **Affected element** Methods, Cell Culture and Treatments
+  - **Evidence pointer** Methods section, Cell Culture and Treatments subsection.
+  - **Issue** The concentration of 10 μM for co-IP experiments is used without justification. No dose-response or toxicity data are provided to support this choice.
+  - **Required correction** Provide a rationale for the concentration used, or include a dose-response experiment to show that the effect is concentration-dependent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Supplementary material accessibility
+  - **Affected element** Figure S1 and other supplementary data
+  - **Evidence pointer** Results section, Figure S1 reference; location not provided.
+  - **Issue** The supplementary material is referenced but not provided for review. This limits the ability to fully assess the RMSF analysis and other supporting data.
+  - **Required correction** Ensure supplementary material is available for review and clearly referenced in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative and replicated in vitro data), R1-M2 (absence of specificity controls), R1-M3 (unvalidated docking protocol), R1-M4 (incomplete MD/MM-GBSA rigor).
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The target (hSSB1-INTS3 PPI) is novel for inhibitor discovery, and the approach is a reasonable extension of existing computational screening methods. However, the overall strategy is not methodologically innovative.  
+  - **Scientific importance** Potentially high if the claims are substantiated, given the role of hSSB1 in DNA repair and cancer resistance. However, the current evidence is preliminary and does not yet establish therapeutic relevance.  
+  - **Interdisciplinary readership** The topic bridges computational chemistry, structural biology, and cancer biology, which could appeal to a broad audience. However, the limited functional validation and lack of mechanistic depth may reduce interest beyond specialized groups.  
+  - **Technical soundness** The computational methods are standard, but the lack of validation and incomplete reporting of MD/MM-GBSA details weaken technical rigor. The in vitro data are not quantitatively robust.  
+  - **Readability for nonspecialists** The manuscript is generally readable, but the methods section is dense and assumes familiarity with docking and MD terminology. The results could be better contextualized for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims require substantial additional experimental and computational validation. I would be supportive if the technical concerns are resolved, particularly the quantitative rigor of the in vitro data, the inclusion of specificity controls, and the validation of the docking protocol.
+
+## Risk / unsupported claims
+- The claim that "three of the tested compounds" disrupt the hSSB1-INTS3 interaction is not quantitatively supported due to lack of replicates and statistics.
+- The claim that compound I5 "impacts the efficient recruitment" of hSSB1 and INTS3 to chromatin is based on qualitative observations without quantitative analysis.
+- The assertion that the identified compounds are "the first set of drug-like compounds that functionally target INTS3-hSSB1 interaction" is not verifiable from the provided evidence and may be overstated given the preliminary nature of the data.
+- The binding free energies from MM-GBSA are presented without error estimates, making their reliability unassessable.
+- The relevance of the docking scores to actual binding affinity is unvalidated, so the selection of the top five compounds is not justified.

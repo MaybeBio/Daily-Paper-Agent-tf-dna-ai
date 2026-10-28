@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "39221239",
+    "doi": "10.3389/fimmu.2024.1427563",
+    "title": "Formononetin inhibits IgE by huPlasma/PBMCs and mast cells/basophil activation via JAK/STAT/PI3-Akt pathways."
+  },
+  "content": {
+    "abstract": "RATIONALE: Food allergy is a prevalent disease in the U.S., affecting nearly 30 million people. The primary management strategy for this condition is food avoidance, as limited treatment options are available. The elevation of pathologic IgE and over-reactive mast cells/basophils is a central factor in food allergy anaphylaxis. This study aims to comprehensively evaluate the potential therapeutic mechanisms of a small molecule compound called formononetin in regulating IgE and mast cell activation. METHODS: In this study, we determined the inhibitory effect of formononetin on the production of human IgE from peripheral blood mononuclear cells of food-allergic patients using ELISA. We also measured formononetin's effect on preventing mast cell degranulation in RBL-2H3 and KU812 cells using beta-hexosaminidase assay. To identify potential targets of formononetin in IgE-mediated diseases, mast cell disorders, and food allergies, we utilized computational modeling to analyze mechanistic targets of formononetin from various databases, including SEA, Swiss Target Prediction, PubChem, Gene Cards, and Mala Cards. We generated a KEGG pathway, Gene Ontology, and Compound Target Pathway Disease Network using these targets. Finally, we used qRT-PCR to measure the gene expression of selected targets in KU812 and U266 cell lines. RESULTS: Formononetin significantly decreased IgE production in IgE-producing human myeloma cells and PBMCs from food-allergic patients in a dose-dependent manner without cytotoxicity. Formononetin decreased beta-hexosaminidase release in RBL-2H3 cells and KU812 cells. Formononetin regulates 25 targets in food allergy, 51 in IgE diseases, and 19 in mast cell diseases. KEGG pathway and gene ontology analysis of targets showed that formononetin regulated disease pathways, primary immunodeficiency, Epstein-Barr Virus, and pathways in cancer. The biological processes regulated by formononetin include B cell proliferation, differentiation, immune response, and activation processes. Compound target pathway disease network identified NFKB1, NFKBIA, STAT1, STAT3, CCND1, TP53, TYK2, and CASP8 as the top targets regulated at a high degree by formononetin. TP53, STAT3, PTPRC, IL2, and CD19 were identified as the proteins mostly targeted by formononetin. qPCR validated genes of Formononetin molecular targets of IgE regulation in U266 cells and KU812 cells. In U266 cells, formononetin was found to significantly increase the gene expression of NFKBIA, TP53, and BCL-2 while decreasing the gene expression of BTK TYK, CASP8, STAT3, CCND1, STAT1, NFKB1, IL7R. In basophils KU812 cells, formononetin significantly increased the gene expression of NFKBIA, TP53, and BCL-2 while decreasing the gene expression of BTK, TYK, CASP8, STAT3, CCND1, STAT1, NFKB1, IL7R. CONCLUSION: These findings comprehensively present formononetin's mechanisms in regulating IgE production in plasma cells and degranulation in mast cells.",
+    "keywords": [
+      "computational modeling",
+      "food anaphylaxis",
+      "formononetin",
+      "gene ontology enrichment",
+      "molecular docking",
+      "target mining"
+    ],
+    "mesh_terms": [
+      "*Isoflavones/pharmacology",
+      "Humans",
+      "*Immunoglobulin E/immunology/metabolism",
+      "*Mast Cells/immunology/drug effects/metabolism",
+      "*Signal Transduction/drug effects",
+      "*STAT Transcription Factors/metabolism",
+      "*Janus Kinases/metabolism",
+      "*Leukocytes, Mononuclear/drug effects/metabolism/immunology",
+      "*Food Hypersensitivity/immunology/drug therapy",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Male",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Female",
+      "Adult",
+      "Cell Degranulation/drug effects",
+      "Animals",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Musa, Ibrahim",
+        "Wang, Zhen-Zhen",
+        "Yang, Nan",
+        "Li, Xiu-Min"
+      ],
+      "short_names": [
+        "Musa I",
+        "Wang ZZ",
+        "Yang N",
+        "Li XM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology Microbiology & Immunology, New York Medical College, New York, NY, United States.",
+        "Department of Pathology Microbiology & Immunology, New York Medical College, New York, NY, United States.",
+        "Academy of Chinese Medical Science, Henan University of Chinese Medicine, Zhengzhou, China.",
+        "R&D Division, General Nutraceutical Technology LLC, Elmsford, NY, United States.",
+        "Department of Pathology Microbiology & Immunology, New York Medical College, New York, NY, United States.",
+        "Department of Otolaryngology, School of Medicine, New York Medical College, New York, NY, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Musa, Ibrahim",
+        "short_name": "Musa I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Microbiology & Immunology, New York Medical College, New York, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen-Zhen",
+        "short_name": "Wang ZZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Microbiology & Immunology, New York Medical College, New York, NY, United States.",
+          "Academy of Chinese Medical Science, Henan University of Chinese Medicine, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Nan",
+        "short_name": "Yang N",
+        "identifiers": [],
+        "affiliations": [
+          "R&D Division, General Nutraceutical Technology LLC, Elmsford, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Xiu-Min",
+        "short_name": "Li XM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology Microbiology & Immunology, New York Medical College, New York, NY, United States.",
+          "Department of Otolaryngology, School of Medicine, New York Medical College, New York, NY, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/02 08:45",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42437846",
+      "42318342",
+      "41294852",
+      "41246326",
+      "40742400",
+      "40715275",
+      "40598285",
+      "40594685",
+      "40574818",
+      "40488850",
+      "40136568",
+      "39542733",
+      "39421869"
+    ],
+    "refs": [
+      "37922653",
+      "37446928",
+      "36816476",
+      "33013383",
+      "32272506",
+      "31691823",
+      "31680165",
+      "31106366",
+      "30747069",
+      "30462303",
+      "30395287",
+      "30371825",
+      "30247620",
+      "28208101",
+      "26263242",
+      "25155085",
+      "24625841",
+      "23316107",
+      "23213296",
+      "21966524",
+      "21715386",
+      "19499576",
+      "19301096",
+      "19033363",
+      "18675940",
+      "18588965",
+      "18048412",
+      "18006545",
+      "17497073",
+      "17287757",
+      "16081068",
+      "15506819",
+      "15478378",
+      "12424129",
+      "10592235",
+      "8247532",
+      "8097223",
+      "7688562",
+      "6970212",
+      "4126264",
+      "3157869",
+      "1711085",
+      "1706382",
+      "1378075",
+      "1374165",
+      "1371300",
+      "641345"
+    ],
+    "similar": [
+      "39221239",
+      "21134573",
+      "32194041",
+      "26456627",
+      "27113449",
+      "24184145",
+      "32302339",
+      "19609684",
+      "33362785",
+      "21216280",
+      "31526816",
+      "23835145",
+      "38042384",
+      "24446972",
+      "39301883",
+      "28167223",
+      "25875646",
+      "28736076",
+      "23253152",
+      "37446928",
+      "31429774",
+      "33676788",
+      "33002828",
+      "23632085",
+      "28797929",
+      "32365709",
+      "20404387",
+      "33414789",
+      "24582310",
+      "33391286",
+      "27599590",
+      "25418051",
+      "26791350",
+      "31195760",
+      "25804702",
+      "28813645",
+      "24332884",
+      "30567287",
+      "27890918",
+      "31700043",
+      "32311669",
+      "23514766",
+      "19394399",
+      "37487961",
+      "31156646",
+      "31896496",
+      "33786039",
+      "31004680",
+      "26136426",
+      "21498955",
+      "25700347",
+      "8551243",
+      "38569323",
+      "32063904",
+      "31804564",
+      "22676255",
+      "25887889",
+      "36880662",
+      "33326804",
+      "18587448",
+      "29777684",
+      "35671621",
+      "30684531",
+      "30016657",
+      "24832111",
+      "15037819",
+      "23149288",
+      "32745602",
+      "21356342",
+      "18534732",
+      "15852029",
+      "18261158",
+      "23683463",
+      "28928455",
+      "19426688",
+      "24760147",
+      "25128381",
+      "21674633",
+      "36248809",
+      "39000527",
+      "32212163",
+      "34201934",
+      "15569773",
+      "25781488",
+      "21746961",
+      "19301096",
+      "22580215",
+      "38380329",
+      "29518421",
+      "32098318",
+      "18394691",
+      "29588153",
+      "25307563",
+      "39195277",
+      "30800677",
+      "26948077",
+      "16950297",
+      "30925321",
+      "29247574",
+      "35865546",
+      "21106245",
+      "9104796",
+      "31350354",
+      "36230993",
+      "39256983",
+      "39251152",
+      "36793728"
+    ],
+    "review": [
+      "39221239",
+      "33362785",
+      "33391286",
+      "32098318",
+      "39195277",
+      "36230993"
+    ],
+    "pmc": [
+      "11363073"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/foodallergy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Food Allergy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39221239/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1172",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1427563",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

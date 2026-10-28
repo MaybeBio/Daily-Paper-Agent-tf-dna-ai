@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "33784029",
+    "doi": "10.15252/msb.202010179",
+    "title": "The genotype-phenotype landscape of an allosteric protein."
+  },
+  "content": {
+    "abstract": "Allostery is a fundamental biophysical mechanism that underlies cellular sensing, signaling, and metabolism. Yet a quantitative understanding of allosteric genotype-phenotype relationships remains elusive. Here, we report the large-scale measurement of the genotype-phenotype landscape for an allosteric protein: the lac repressor from Escherichia coli, LacI. Using a method that combines long-read and short-read DNA sequencing, we quantitatively measure the dose-response curves for nearly 10(5) variants of the LacI genetic sensor. The resulting data provide a quantitative map of the effect of amino acid substitutions on LacI allostery and reveal systematic sequence-structure-function relationships. We find that in many cases, allosteric phenotypes can be quantitatively predicted with additive or neural-network models, but unpredictable changes also occur. For example, we were surprised to discover a new band-stop phenotype that challenges conventional models of allostery and that emerges from combinations of nearly silent amino acid substitutions.",
+    "keywords": [
+      "allostery",
+      "genetic sensor",
+      "genotype-phenotype relationships",
+      "high-throughput measurements",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Allosteric Regulation",
+      "Amino Acid Substitution",
+      "Escherichia coli/genetics",
+      "Genetic Variation",
+      "*Genotype",
+      "Lac Repressors/*metabolism",
+      "*Phenotype"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tack, Drew S",
+        "Tonner, Peter D",
+        "Pressman, Abe",
+        "Olson, Nathan D",
+        "Levy, Sasha F",
+        "Romantseva, Eugenia F",
+        "Alperovich, Nina",
+        "Vasilyeva, Olga",
+        "Ross, David"
+      ],
+      "short_names": [
+        "Tack DS",
+        "Tonner PD",
+        "Pressman A",
+        "Olson ND",
+        "Levy SF",
+        "Romantseva EF",
+        "Alperovich N",
+        "Vasilyeva O",
+        "Ross D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9380-4643",
+        "ORCID: 0000-0003-2840-0930",
+        "ORCID: 0000-0003-2585-3037",
+        "ORCID: 0000-0002-0923-1636",
+        "ORCID: 0000-0003-0929-7966",
+        "ORCID: 0000-0002-7790-218X"
+      ],
+      "affiliations": [
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "SLAC National Accelerator Laboratory, Menlo Park, CA, USA.",
+        "Joint Initiative for Metrology in Biology, Stanford, CA, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA.",
+        "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tack, Drew S",
+        "short_name": "Tack DS",
+        "identifiers": [
+          "0000-0002-9380-4643"
+        ],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Tonner, Peter D",
+        "short_name": "Tonner PD",
+        "identifiers": [
+          "0000-0003-2840-0930"
+        ],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Pressman, Abe",
+        "short_name": "Pressman A",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Olson, Nathan D",
+        "short_name": "Olson ND",
+        "identifiers": [
+          "0000-0003-2585-3037"
+        ],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Levy, Sasha F",
+        "short_name": "Levy SF",
+        "identifiers": [
+          "0000-0002-0923-1636"
+        ],
+        "affiliations": [
+          "SLAC National Accelerator Laboratory, Menlo Park, CA, USA.",
+          "Joint Initiative for Metrology in Biology, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Romantseva, Eugenia F",
+        "short_name": "Romantseva EF",
+        "identifiers": [
+          "0000-0003-0929-7966"
+        ],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Alperovich, Nina",
+        "short_name": "Alperovich N",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Vasilyeva, Olga",
+        "short_name": "Vasilyeva O",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ross, David",
+        "short_name": "Ross D",
+        "identifiers": [
+          "0000-0002-7790-218X"
+        ],
+        "affiliations": [
+          "National Institute of Standards and Technology, Gaithersburg, MD, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2021 Mar",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/31 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "42493606",
+      "42249116",
+      "41922352",
+      "41839899",
+      "41816907",
+      "41430049",
+      "40894759",
+      "40691352",
+      "40286867",
+      "39987706",
+      "39957913",
+      "39952349",
+      "39386514",
+      "38919711",
+      "38864396",
+      "38836839",
+      "38684714",
+      "38128482",
+      "37662419",
+      "37656433",
+      "37377432",
+      "37224262",
+      "37175454",
+      "37084251",
+      "37004719",
+      "36989327",
+      "36859492",
+      "36827465",
+      "36409084",
+      "36129941",
+      "36107026",
+      "36101862",
+      "35675441",
+      "35388192",
+      "35320273",
+      "34463482",
+      "34407072",
+      "34369028"
+    ],
+    "refs": [
+      "36568334",
+      "32999067",
+      "32355194",
+      "31451655",
+      "31406327",
+      "31291895",
+      "30912655",
+      "29849145",
+      "29686238",
+      "29574055",
+      "29069318",
+      "28541284",
+      "28334756",
+      "27845406",
+      "27629638",
+      "27193686",
+      "27174972",
+      "27080104",
+      "27080103",
+      "26689263",
+      "25306102",
+      "24740064",
+      "24736836",
+      "23762514",
+      "23587523",
+      "23499654",
+      "22801505",
+      "22101854",
+      "21802129",
+      "21459098",
+      "20833233",
+      "20804152",
+      "20603017",
+      "20600944",
+      "18706817",
+      "16906160",
+      "14636069",
+      "14573864",
+      "14343300",
+      "11601849",
+      "11266612",
+      "10422838",
+      "9377276",
+      "9301333",
+      "8901866",
+      "8638105",
+      "8046748",
+      "7108955",
+      "4932654",
+      "4566650",
+      "3381086",
+      "2211500"
+    ],
+    "similar": [
+      "33784029",
+      "23587523",
+      "18616293",
+      "21928765",
+      "20804152",
+      "31451655",
+      "26689263",
+      "22965134",
+      "19818797",
+      "8046748",
+      "21802129",
+      "19368358",
+      "19269243",
+      "34213850",
+      "34132193",
+      "17436321",
+      "25209146",
+      "18536016",
+      "39277794",
+      "23658223",
+      "11747440",
+      "34076313",
+      "27598336",
+      "14636069",
+      "26763930",
+      "25700189",
+      "22594825",
+      "36859492",
+      "25771873",
+      "32138729",
+      "10998245",
+      "10090744",
+      "23834731",
+      "9301333",
+      "10835285",
+      "27008630",
+      "7726826",
+      "20484380",
+      "29318690",
+      "26878689",
+      "37924711",
+      "34187888",
+      "19631220",
+      "11733069",
+      "28591599",
+      "10899129",
+      "29856839",
+      "28402875",
+      "11266612",
+      "27064119",
+      "28295806",
+      "29584872",
+      "9171422",
+      "21410208",
+      "22307389",
+      "19029094",
+      "35188572",
+      "8709149",
+      "8648615",
+      "23406418",
+      "24058293",
+      "26039992",
+      "9726014",
+      "21715082",
+      "8464382",
+      "26342073",
+      "25245949",
+      "23822507",
+      "3286877",
+      "24121687",
+      "16101304",
+      "11337480",
+      "29335877",
+      "8805532",
+      "8638105",
+      "19502396",
+      "17543986",
+      "20590334",
+      "31396617",
+      "9858738",
+      "9491388",
+      "8995519",
+      "26531007",
+      "24507611",
+      "33091377",
+      "21459098",
+      "9360635",
+      "25911448",
+      "9150406",
+      "8794873",
+      "3049253",
+      "23413354",
+      "32780837",
+      "23650500",
+      "16572826",
+      "31958546"
+    ],
+    "review": [
+      "33784029",
+      "19269243",
+      "9301333",
+      "26342073"
+    ],
+    "pmc": [
+      "8009258"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10525",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "lacI"
+      },
+      {
+        "url": "https://doi.org/10.15252/msb.202010179",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33784029/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33784029",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/33784029",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1163",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/155687",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Escherichia coli BD-ID 155687"
+      },
+      {
+        "url": "https://scite.ai/reports/33784029",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

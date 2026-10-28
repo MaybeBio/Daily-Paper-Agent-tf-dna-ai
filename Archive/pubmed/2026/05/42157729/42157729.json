@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "42157729",
+    "doi": "10.1002/ptr.70384",
+    "title": "Bakuchiol Ameliorates Glucocorticoid-Induced Osteoporosis by Enhancing Osteoblast Differentiation via Targeting FAT4 to Activate YAP1."
+  },
+  "content": {
+    "abstract": "Psoralea corylifolia Linn. exhibits osteogenic effects; however, the mechanism by which its active component Bakuchiol (BAK) alleviates glucocorticoid-induced osteoporosis (GIOP) remains unclear. We aim to investigate BAK's therapeutic effects and potential mechanisms in GIOP. We treated GIOP mice with BAK. We evaluated BAK's therapeutic efficacy using micro-CT and histopathological staining. We performed transcriptomic analysis and identified significantly enriched GO pathways. We then used biochemical assays and Western blotting to examine the effects of BAK on osteogenic differentiation-related signaling factors in GIOP mice. We conducted in vitro experiments using osteoblasts. We employed RT-qPCR, Western blot, ALP & ARS staining, immunofluorescence and dual-luciferase reporter assays to assess BAK's influence on signaling pathways related to osteoblast differentiation. We used molecular docking, cellular thermal shift assay (CETSA), and drug affinity responsive target stability (DARTS) to confirm the direct binding interaction between BAK and FAT4. Finally, we silenced Fat4 to validate that BAK exerts its anti-GIOP effects by activating YAP1 through FAT4. BAK treatment significantly enhanced bone quality and strength in GIOP mice, and mitigated femoral pathological damage. BAK upregulated key osteoblast differentiation-related transcription factors and enhanced serum alkaline phosphatase activity. Western blot confirmed that BAK increased protein levels of YAP1 while reducing levels of FAT4 and DCHS1. In vitro, BAK similarly promoted osteoblast differentiation and activated YAP1 expression and Runx2 transcription. Molecular docking, CETSA and DARTS analyses demonstrated that BAK directly binds to FAT4. Silencing Fat4 abolished the pro-osteogenic effects of BAK. BAK likely exerts its therapeutic effects in GIOP by targeting FAT4, activating YAP1 and promoting osteoblast differentiation.",
+    "keywords": [
+      "FAT4",
+      "YAP1",
+      "bakuchiol",
+      "glucocorticoid-induced osteoporosis",
+      "osteoblasts",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Osteoblasts/drug effects",
+      "*Osteoporosis/chemically induced/drug therapy/metabolism",
+      "Mice",
+      "*Cell Differentiation/drug effects",
+      "*Phenols/pharmacology",
+      "*Adaptor Proteins, Signal Transducing/metabolism",
+      "Glucocorticoids/adverse effects",
+      "YAP-Signaling Proteins",
+      "Osteogenesis/drug effects",
+      "Transcription Factors/metabolism",
+      "Molecular Docking Simulation",
+      "Psoralea/chemistry",
+      "Signal Transduction/drug effects",
+      "Male",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Hengjun",
+        "Zhou, Tingting",
+        "Zhao, Yunchao",
+        "Meng, Zhengxin",
+        "Sun, Zhiqiang",
+        "Zhou, Hao",
+        "Liu, Huan",
+        "Du, Changyu",
+        "Lv, Shuquan",
+        "Zhao, Jianyong",
+        "Zhang, Zhongyong",
+        "Cui, Huantian"
+      ],
+      "short_names": [
+        "Wang H",
+        "Zhou T",
+        "Zhao Y",
+        "Meng Z",
+        "Sun Z",
+        "Zhou H",
+        "Liu H",
+        "Du C",
+        "Lv S",
+        "Zhao J",
+        "Zhang Z",
+        "Cui H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7129-3934",
+        "ORCID: 0009-0006-1406-0292",
+        "ORCID: 0000-0002-0820-5436"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Graduate School, Hebei University of Chinese Medicine, Shijiazhuang, Hebei, China.",
+        "Department of Traditional Chinese Medicine, North China University of Science and Technology, Tangshan, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Diabetes, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "Department of Diabetes, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+        "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Hengjun",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tingting",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunchao",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Zhengxin",
+        "short_name": "Meng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhiqiang",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hao",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Graduate School, Hebei University of Chinese Medicine, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Du, Changyu",
+        "short_name": "Du C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, North China University of Science and Technology, Tangshan, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Shuquan",
+        "short_name": "Lv S",
+        "identifiers": [
+          "0000-0002-7129-3934"
+        ],
+        "affiliations": [
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Diabetes, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jianyong",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Hebei Province Integrated Traditional Chinese and Western Medicine 3D Printing Technology Innovation Center, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhongyong",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0009-0006-1406-0292"
+        ],
+        "affiliations": [
+          "Department of Hebei Key Laboratory of Integrated Traditional Chinese and Western Medicine in Osteoarthrosis Research, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China.",
+          "Department of Diabetes, Cangzhou Hospital of Integrated TCM-WM, Cangzhou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Huantian",
+        "short_name": "Cui H",
+        "identifiers": [
+          "0000-0002-0820-5436"
+        ],
+        "affiliations": [
+          "First School of Clinical Medicine, Yunnan University of Chinese Medicine, Kunming, Yunnan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytotherapy research : PTR"
+    ],
+    "journal_abbrev": [
+      "Phytother Res"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/20 06:32",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40466876",
+      "40346614",
+      "40210857",
+      "40133588",
+      "40108910",
+      "40001240",
+      "39923429",
+      "39747056",
+      "39682775",
+      "39641269",
+      "39608850",
+      "39572650",
+      "39515657",
+      "39488873",
+      "39358837",
+      "39326136",
+      "38878451",
+      "38700015",
+      "38608598",
+      "38565407",
+      "38521502",
+      "38458570",
+      "38452403",
+      "38342020",
+      "38185065",
+      "38181229",
+      "38141609",
+      "37492552",
+      "37216761",
+      "37167726",
+      "36411860",
+      "36347846",
+      "36343159",
+      "35757436",
+      "35639783",
+      "34976218",
+      "34935593",
+      "34831147",
+      "34023042",
+      "33838126",
+      "32346881",
+      "31767405",
+      "31358536",
+      "31217854",
+      "30685820",
+      "30610961",
+      "30110702",
+      "28239148",
+      "26096687",
+      "25865393",
+      "23888050",
+      "21637997",
+      "21521736",
+      "18801207",
+      "14765127"
+    ],
+    "similar": [
+      "42157729",
+      "40555002",
+      "39005121",
+      "37573809",
+      "41088103",
+      "38878451",
+      "41458254",
+      "40346551",
+      "31592234",
+      "36411860",
+      "39675109",
+      "41814823",
+      "41316326",
+      "40887343",
+      "40619720",
+      "39608850",
+      "29883721",
+      "41317432",
+      "41657040",
+      "39986363",
+      "26935542",
+      "41258401",
+      "42385430",
+      "41120907",
+      "38755327",
+      "40001240",
+      "42048035",
+      "41730740",
+      "39182017",
+      "42138552",
+      "40257841",
+      "41993783",
+      "41886086",
+      "41652857",
+      "42462530",
+      "36209841",
+      "41609095",
+      "29990327",
+      "41027155",
+      "32768931",
+      "41851359",
+      "39154827",
+      "29393365",
+      "42475869",
+      "40038790",
+      "42543341",
+      "40208316",
+      "34803495",
+      "33171191",
+      "41264994",
+      "41005496",
+      "42393739",
+      "42374680",
+      "37973220",
+      "39192711",
+      "40775331",
+      "42357555",
+      "41056860",
+      "40486125",
+      "42033168",
+      "33774277",
+      "41524548",
+      "40783444",
+      "39142621",
+      "31358536",
+      "41558580",
+      "41385948",
+      "40159493",
+      "41633689",
+      "27387537",
+      "42276194",
+      "40220409",
+      "42045036",
+      "38106447",
+      "34001245",
+      "33795657",
+      "41015323",
+      "41888816",
+      "34243614",
+      "41075515",
+      "41184110",
+      "39682775",
+      "41220584",
+      "26677102",
+      "41001808",
+      "39800268",
+      "38547625",
+      "32622944",
+      "35592785",
+      "31965654",
+      "39082354",
+      "28408351",
+      "41045622",
+      "41151626",
+      "39561180",
+      "32044718",
+      "41033422",
+      "38776853",
+      "41720004",
+      "41878437"
+    ],
+    "review": [
+      "42157729"
+    ],
+    "pmc": [
+      "13436232"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42157729/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/ptr.70384",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

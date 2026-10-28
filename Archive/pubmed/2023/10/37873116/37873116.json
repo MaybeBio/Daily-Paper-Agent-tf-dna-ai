@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "37873116",
+    "doi": "10.1101/2023.10.04.560808",
+    "title": "Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency."
+  },
+  "content": {
+    "abstract": "Ectopic expression of OCT4, SOX2, KLF4 and MYC (OSKM) transforms differentiated cells into induced pluripotent stem cells. To refine our mechanistic understanding of reprogramming, especially during the early stages, we profiled chromatin accessibility and gene expression at single-cell resolution across a densely sampled time course of human fibroblast reprogramming. Using neural networks that map DNA sequence to ATAC-seq profiles at base-resolution, we annotated cell-state-specific predictive transcription factor (TF) motif syntax in regulatory elements, inferred affinity- and concentration-dependent dynamics of Tn5-bias corrected TF footprints, linked peaks to putative target genes, and elucidated rewiring of TF-to-gene cis-regulatory networks. Our models reveal that early in reprogramming, OSK, at supraphysiological concentrations, rapidly open transient regulatory elements by occupying non-canonical low-affinity binding sites. As OSK concentration falls, the accessibility of these transient elements decays as a function of motif affinity. We find that these OSK-dependent transient elements sequester the somatic TF AP-1. This redistribution is strongly associated with the silencing of fibroblast-specific genes within individual nuclei. Together, our integrated single-cell resource and models reveal insights into the cis-regulatory code of reprogramming at unprecedented resolution, connect TF stoichiometry and motif syntax to diversification of cell fate trajectories, and provide new perspectives on the dynamics and role of transient regulatory elements in somatic silencing.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nair, Surag",
+        "Ameen, Mohamed",
+        "Sundaram, Laksshman",
+        "Pampari, Anusri",
+        "Schreiber, Jacob",
+        "Balsubramani, Akshay",
+        "Wang, Yu Xin",
+        "Burns, David",
+        "Blau, Helen M",
+        "Karakikes, Ioannis",
+        "Wang, Kevin C",
+        "Kundaje, Anshul"
+      ],
+      "short_names": [
+        "Nair S",
+        "Ameen M",
+        "Sundaram L",
+        "Pampari A",
+        "Schreiber J",
+        "Balsubramani A",
+        "Wang YX",
+        "Burns D",
+        "Blau HM",
+        "Karakikes I",
+        "Wang KC",
+        "Kundaje A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Cancer Biology, Stanford University, Stanford, CA, USA.",
+        "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+        "Department of Dermatology, Stanford University, Stanford, CA, USA.",
+        "Program in Epithelial Biology, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Stanford University, Stanford, CA, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Stanford University, Stanford, CA, USA.",
+        "Baxter Laboratory for Stem Cell Biology, Stanford University, Stanford, CA, USA.",
+        "Department of Microbiology and Immunology, Stanford University, Stanford, CA, USA.",
+        "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+        "Department of Cardiothoracic Surgery, Stanford University, Stanford, CA, USA.",
+        "Department of Dermatology, Stanford University, Stanford, CA, USA.",
+        "Program in Epithelial Biology, Stanford University, Stanford, CA, USA.",
+        "Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nair, Surag",
+        "short_name": "Nair S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ameen, Mohamed",
+        "short_name": "Ameen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Stanford University, Stanford, CA, USA.",
+          "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+          "Department of Dermatology, Stanford University, Stanford, CA, USA.",
+          "Program in Epithelial Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sundaram, Laksshman",
+        "short_name": "Sundaram L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pampari, Anusri",
+        "short_name": "Pampari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Schreiber, Jacob",
+        "short_name": "Schreiber J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Balsubramani, Akshay",
+        "short_name": "Balsubramani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu Xin",
+        "short_name": "Wang YX",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Burns, David",
+        "short_name": "Burns D",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Blau, Helen M",
+        "short_name": "Blau HM",
+        "identifiers": [],
+        "affiliations": [
+          "Baxter Laboratory for Stem Cell Biology, Stanford University, Stanford, CA, USA.",
+          "Department of Microbiology and Immunology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Karakikes, Ioannis",
+        "short_name": "Karakikes I",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+          "Department of Cardiothoracic Surgery, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Kevin C",
+        "short_name": "Wang KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Stanford University, Stanford, CA, USA.",
+          "Program in Epithelial Biology, Stanford University, Stanford, CA, USA.",
+          "Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Oct 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/24 06:41",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "39903776"
+    ],
+    "refs": [
+      "38019912",
+      "37733848",
+      "37587336",
+      "36871150",
+      "36563664",
+      "35817977",
+      "35551308",
+      "35551305",
+      "35134826",
+      "34987221",
+      "34772935",
+      "34650237",
+      "34608324",
+      "34465366",
+      "34354236",
+      "34246082",
+      "33637727",
+      "33633365",
+      "33603233",
+      "32978299",
+      "32939092",
+      "32917699",
+      "32848148",
+      "32728250",
+      "32728217",
+      "32327602",
+      "32213324",
+      "31821414",
+      "31740819",
+      "31375664",
+      "31178118",
+      "31133750",
+      "31066453",
+      "30971806",
+      "30954475",
+      "30890159",
+      "30808370",
+      "30772174",
+      "30712874",
+      "30462313",
+      "30332634",
+      "29695788",
+      "29409532",
+      "29220667",
+      "29220666",
+      "29036507",
+      "28843285",
+      "28825706",
+      "28111071",
+      "28091601",
+      "27571553",
+      "26914206",
+      "26883003",
+      "26186193",
+      "25892221",
+      "25699255",
+      "25516281",
+      "25437882",
+      "25242143",
+      "24630727",
+      "24172903",
+      "23812749",
+      "23707059",
+      "23681063",
+      "23260147",
+      "23217423",
+      "23159369",
+      "22136932",
+      "21572391",
+      "21211784",
+      "21130722",
+      "20513432",
+      "19838014",
+      "19549847",
+      "19203244",
+      "19167336",
+      "18575461",
+      "17324271",
+      "16904174",
+      "15860457",
+      "14675197",
+      "12923055",
+      "10431239",
+      "3142689"
+    ],
+    "similar": [
+      "37873116",
+      "28111071",
+      "23603987",
+      "29220666",
+      "34088849",
+      "31722212",
+      "32351783",
+      "23159369",
+      "34488759",
+      "22801502",
+      "34412677",
+      "29220667",
+      "30577748",
+      "35037783",
+      "31356991",
+      "28962647",
+      "31811153",
+      "33191916",
+      "22987856",
+      "37073151",
+      "35858748",
+      "24336202",
+      "30772174",
+      "36902216",
+      "25185564",
+      "31053165",
+      "38509259",
+      "30013107",
+      "34724962",
+      "23166588",
+      "34383745",
+      "22902501",
+      "24048479",
+      "37291192",
+      "19604364",
+      "31808362",
+      "25940188",
+      "28052023",
+      "30277824",
+      "33184372",
+      "26098448",
+      "33603233",
+      "18724799",
+      "31315906",
+      "24013722",
+      "25158628",
+      "28193859",
+      "37090616",
+      "34197016",
+      "34448118",
+      "33190371",
+      "36747813",
+      "21909390",
+      "33210453",
+      "36270281",
+      "32055844",
+      "21130722",
+      "33203179",
+      "24743916",
+      "36332631",
+      "21548079",
+      "26308610",
+      "31571238",
+      "34509499",
+      "36927767",
+      "34181046",
+      "20158869",
+      "37211599",
+      "30554962",
+      "19816951",
+      "32426078",
+      "23503660",
+      "35604124",
+      "33034061",
+      "23974095",
+      "22539002",
+      "26004630",
+      "25907774",
+      "32424069",
+      "29030344",
+      "29925040",
+      "25892221",
+      "23132827",
+      "34019296",
+      "24501429",
+      "20336395",
+      "31375664",
+      "32043966",
+      "29539636",
+      "29982337",
+      "35385732",
+      "35045977",
+      "28408750",
+      "36342671",
+      "26740582",
+      "38124496",
+      "32939092",
+      "36523163",
+      "28334916"
+    ],
+    "review": [
+      "37873116",
+      "31356991",
+      "33190371",
+      "32426078",
+      "29925040"
+    ],
+    "pmc": [
+      "10592962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37873116/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37873116",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.10.04.560808",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37873116",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

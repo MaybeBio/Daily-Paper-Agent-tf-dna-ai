@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "41125614",
+    "doi": "10.1038/s41598-025-20757-5",
+    "title": "Pharmacokinetic, docking, and DFT analyses reveal Moringa oleifera phytochemicals as inhibitors of HIF-1alpha/VEGF/GLUT1 signaling pathway in breast cancer."
+  },
+  "content": {
+    "abstract": "Breast cancer is among the most heterogeneous and aggressive malignancies. Hypoxia-driven activation of Hypoxia-inducible factor-1 alpha (HIF-1alpha) in breast cancers triggers the transcription of a battery of genes that facilitate tumor progression and result in poor prognosis. Based on the reported anti-cancer properties of Moringa oleifera (Mo), this study explores the therapeutic effects of isolated bioactive compounds from Mo, namely Aurantiamide Acetate (AA) and Benzyl Isothiocyanate (BITC), on HIF-1alpha-regulated key genes- vascular endothelial growth factor (VEGF) and glucose transporter 1 (GLUT1), targeting the HIF-1alpha/VEGF/GLUT1 axis, which is central to angiogenesis and metabolic adaptation in tumors using a comprehensive in silico approach. The X-ray crystallographic structures of HIF-1alpha, VEGF, and GLUT1 were retrieved from PDB and employed as receptor targets for molecular docking studies against 3D conformers of AA and BITC using AutoDock Vina to evaluate their binding affinity and interaction profiles. Post-docking conformational analyses were conducted utilizing Discovery Studio. The pharmacological relevance of the compounds was assessed using SwissADME, ADMETSaR, and ADMETlab3.0 web servers for drug-likeness, oral bioavailability, and ADMET profiles. Subsequently, robust molecular dynamics simulations were executed for 500 nanoseconds using the Desmond module (Schrodinger v2019) to evaluate the structural stability of the ligand-receptor complexes under physiologically mimetic conditions. Additionally, Density Functional Theory (DFT) calculations were performed using Gaussian 09 software to probe the electronic properties, reactivity descriptors, and frontier molecular orbitals of the ligands. Docking outcomes revealed strong binding affinities of protein-ligand complexes, mediated by hydrogen bonding and hydrophobic interactions, further corroborated by consistent pharmacokinetic profiles and low toxicity. MDS trajectories revealed structural convergence and stability across all complexes, as indicated by RMSD, RMSF, SASA, and radius of gyration (rGyr) analyses. Overall, the integrated in silico approach highlights the promising therapeutic potential of these phytocompounds as natural, bioavailable, and mechanistically rational inhibitors of hypoxia-associated targets in breast cancer.",
+    "keywords": [
+      "Aurantiamide acetate",
+      "Benzyl isothiocyanate",
+      "Bioactive compounds",
+      "Drug discovery",
+      "Natural inhibitors",
+      "Pharmacokinetics"
+    ],
+    "mesh_terms": [
+      "*Glucose Transporter Type 1/metabolism/chemistry/antagonists & inhibitors",
+      "Molecular Docking Simulation",
+      "*Breast Neoplasms/drug therapy/metabolism/pathology",
+      "Humans",
+      "*Vascular Endothelial Growth Factor A/metabolism/chemistry/antagonists & inhibitors",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/chemistry/antagonists & inhibitors",
+      "Female",
+      "*Signal Transduction/drug effects",
+      "*Phytochemicals/pharmacology/pharmacokinetics/chemistry",
+      "*Moringa oleifera/chemistry",
+      "Density Functional Theory",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Masarkar, Neha",
+        "Pal, Maynak",
+        "Bisai, Alakesh",
+        "Yadav, Ashish K",
+        "Roy, Mithun",
+        "Ray, Suman Kumar",
+        "Kanwar, Jagat R",
+        "Mukherjee, Sukhes"
+      ],
+      "short_names": [
+        "Masarkar N",
+        "Pal M",
+        "Bisai A",
+        "Yadav AK",
+        "Roy M",
+        "Ray SK",
+        "Kanwar JR",
+        "Mukherjee S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India.",
+        "Department of Chemistry, National Institute of Technology Manipur, Langol, Imphal, Manipur, 795004, India.",
+        "Indian Institute of Science Education and Research Kolkata, Mohanpur, Nadia, West Bengal, 741246, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India.",
+        "Department of Chemistry, National Institute of Technology Agartala, Jirania, Tripura, 799046, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India. sukhes.biochemistry@aiimsbhopal.edu.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Masarkar, Neha",
+        "short_name": "Masarkar N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Maynak",
+        "short_name": "Pal M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, National Institute of Technology Manipur, Langol, Imphal, Manipur, 795004, India."
+        ]
+      },
+      {
+        "full_name": "Bisai, Alakesh",
+        "short_name": "Bisai A",
+        "identifiers": [],
+        "affiliations": [
+          "Indian Institute of Science Education and Research Kolkata, Mohanpur, Nadia, West Bengal, 741246, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Ashish K",
+        "short_name": "Yadav AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Mithun",
+        "short_name": "Roy M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, National Institute of Technology Agartala, Jirania, Tripura, 799046, India."
+        ]
+      },
+      {
+        "full_name": "Ray, Suman Kumar",
+        "short_name": "Ray SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India."
+        ]
+      },
+      {
+        "full_name": "Kanwar, Jagat R",
+        "short_name": "Kanwar JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India."
+        ]
+      },
+      {
+        "full_name": "Mukherjee, Sukhes",
+        "short_name": "Mukherjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences, Bhopal, Madhya Pradesh, 462020, India. sukhes.biochemistry@aiimsbhopal.edu.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 00:26",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42714666",
+      "42621614",
+      "41736035",
+      "41526406"
+    ],
+    "refs": [
+      "39024644",
+      "38648537",
+      "38637835",
+      "38188932",
+      "38111145",
+      "38074087",
+      "37800126",
+      "37744065",
+      "37712721",
+      "37144731",
+      "37123881",
+      "37111115",
+      "36564437",
+      "36291836",
+      "36201520",
+      "36139678",
+      "36084384",
+      "36057753",
+      "35956932",
+      "35774834",
+      "35204283",
+      "34988844",
+      "34957911",
+      "34382525",
+      "34367875",
+      "34093582",
+      "33552076",
+      "32870818",
+      "32439418",
+      "31866857",
+      "30761299",
+      "29503616",
+      "29273785",
+      "28978924",
+      "28944164",
+      "28741521",
+      "28358664",
+      "27774485",
+      "27078104",
+      "25559953",
+      "23244494",
+      "22988103",
+      "22533875",
+      "21640852",
+      "19499576",
+      "19399780",
+      "18240292",
+      "17530776",
+      "17071632",
+      "12050673",
+      "12036371",
+      "11384230",
+      "11259830",
+      "11052792"
+    ],
+    "similar": [
+      "41125614",
+      "39024644",
+      "41137368",
+      "41337159",
+      "24485121",
+      "40289350",
+      "23321829",
+      "22016776",
+      "41286755",
+      "23947803",
+      "29212519",
+      "37154824",
+      "39033680",
+      "29904944",
+      "19091749",
+      "41238606",
+      "40694301",
+      "23861918",
+      "17369472",
+      "26760782",
+      "23335846",
+      "41155483",
+      "31028743",
+      "40007185",
+      "27994464",
+      "37925393",
+      "26625311",
+      "41045314",
+      "28485159",
+      "23416116",
+      "31300611",
+      "41493642",
+      "33380656",
+      "35043973",
+      "26046764",
+      "38286082",
+      "19569175",
+      "40349813",
+      "40109471",
+      "41038145",
+      "35838886",
+      "30784357",
+      "36157928",
+      "39817386",
+      "40806603",
+      "40239487",
+      "39226705",
+      "36080483",
+      "26339797",
+      "21775820",
+      "40387620",
+      "24795051",
+      "41320730",
+      "39698883",
+      "38761523",
+      "22932900",
+      "40952536",
+      "37321076",
+      "17676480",
+      "25659153",
+      "34415547",
+      "32533646",
+      "19538463",
+      "21814878",
+      "38678137",
+      "16168127",
+      "22277691",
+      "26988756",
+      "11585776",
+      "16778202",
+      "31711427",
+      "16985052",
+      "40117728",
+      "40733568",
+      "36594102",
+      "40355947",
+      "39775383",
+      "38141177",
+      "24096035",
+      "15714461",
+      "21685944",
+      "15695405",
+      "18566226",
+      "25423275",
+      "22971798",
+      "27999195",
+      "23618863",
+      "36799050",
+      "39684388",
+      "25162518",
+      "31906524",
+      "39055895",
+      "24161739",
+      "23870899",
+      "19349962",
+      "11359907",
+      "21810481",
+      "33813664",
+      "40108914",
+      "36358960"
+    ],
+    "review": [
+      "41125614",
+      "39055895"
+    ],
+    "pmc": [
+      "12546829"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-20757-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41125614/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

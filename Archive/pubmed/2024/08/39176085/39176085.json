@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "39176085",
+    "doi": "10.3389/fimmu.2024.1353915",
+    "title": "Unveiling the bioinformatic genes and their involved regulatory mechanisms in type 2 diabetes combined with osteoarthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Type 2 Diabetes Mellitus (T2D) and Osteoarthritis (OA) are both prevalent diseases that significantly impact the health of patients. Increasing evidence suggests that there is a big correlation between T2D and OA, but the molecular mechanisms remain elusive. The aims of this study are to investigate the shared biomarkers and potential molecular mechanisms in T2D combined with OA. METHODS: T2D and OA-related differentially expressed genes (DEGs) were identified via bioinformatic analysis on Gene Expression Omnibus (GEO) datasets GSE26168 and GSE114007 respectively. Subsequently, extensive target prediction and network analysis were finished with Gene Ontology (GO), protein-protein interaction (PPI), and pathway enrichment with DEGs. The transcription factors (TFs) and miRNAs coupled in co-expressed DEGs involved in T2D and OA were predicted as well. The key genes expressed both in the clinical tissues of T2D and OA were detected with western blot and qRT-PCR assay. Finally, the most promising candidate compounds were predicted with the Drug-Gene Interaction Database (DGIdb) and molecular docking. RESULTS: In this study, 209 shared DEGs between T2D and OA were identified. Functional analysis disclosed that these DEGs are predominantly related to ossification, regulation of leukocyte migration, extracellular matrix (ECM) structural constituents, PI3K/AKT, and Wnt signaling pathways. Further analysis via Protein-Protein Interaction (PPI) analysis and validation with external datasets emphasized MMP9 and ANGPTL4 as crucial genes in both T2D and OA. Our findings were validated through qRT-PCR and Western blot analyses, which indicated high expression levels of these pivotal genes in T2D, OA, and T2D combined with OA cases. Additionally, the analysis of Transcription Factors (TFs)-miRNA interactions identified 7 TFs and one miRNA that jointly regulate these important genes. The Receiver Operating characteristic (ROC) analysis demonstrated the significant diagnostic potential of MMP9 and ANGPTL4.Moreover, we identified raloxifene, ezetimibe, and S-3304 as promising agents for patients with both T2D and OA. CONCLUSION: This study uncovers the shared signaling pathways, biomarkers, potential therapeutics, and diagnostic models for individuals suffering from both T2D and OA. These findings not only present novel perspectives on the complex interplay between T2D and OA but also hold significant promise for improving the clinical management and prognosis of patients with this concurrent condition.",
+    "keywords": [
+      "angiopoietin-like 4 (ANGPTL4)",
+      "bioinformatics analysis",
+      "matrix metalloproteinase-9 (MMP9)",
+      "osteoarthritis",
+      "type 2 diabetes mellitus"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/genetics",
+      "*Osteoarthritis/genetics/metabolism",
+      "*Computational Biology/methods",
+      "*Protein Interaction Maps",
+      "*Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Gene Expression Regulation",
+      "Databases, Genetic",
+      "Angiopoietin-Like Protein 4/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Biomarkers",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mao, Guangming",
+        "Xu, Wenhao",
+        "Wan, Lingli",
+        "Wang, Hongpin",
+        "Xu, Shutao",
+        "Zhang, Liangming",
+        "Li, Shiyang",
+        "Zhang, Jifa",
+        "Lai, Zhongming",
+        "Lan, Yuping",
+        "Liu, Jianhui"
+      ],
+      "short_names": [
+        "Mao G",
+        "Xu W",
+        "Wan L",
+        "Wang H",
+        "Xu S",
+        "Zhang L",
+        "Li S",
+        "Zhang J",
+        "Lai Z",
+        "Lan Y",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Dali University, Dali, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+        "College of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mao, Guangming",
+        "short_name": "Mao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenhao",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Lingli",
+        "short_name": "Wan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongpin",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shutao",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liangming",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shiyang",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China.",
+          "Department of Pharmacy, Dali University, Dali, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jifa",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Zhongming",
+        "short_name": "Lai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Yuping",
+        "short_name": "Lan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Panzhihua Central Hospital, Panzhihua, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianhui",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/23 06:41",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "41017094",
+      "40595875",
+      "40213388"
+    ],
+    "refs": [
+      "38332532",
+      "37525375",
+      "37433298",
+      "37255905",
+      "37189487",
+      "37138862",
+      "37069712",
+      "36855209",
+      "36525243",
+      "36507649",
+      "36071864",
+      "35463855",
+      "35225437",
+      "34983342",
+      "34879977",
+      "34410099",
+      "34268481",
+      "34268381",
+      "34255741",
+      "34146541",
+      "33911114",
+      "33668426",
+      "33629288",
+      "33468174",
+      "33406330",
+      "33237311",
+      "33104784",
+      "32566279",
+      "32404014",
+      "32044352",
+      "31477170",
+      "31445934",
+      "31235370",
+      "31034380",
+      "30931480",
+      "30759730",
+      "30263000",
+      "29899519",
+      "29229313",
+      "29156001",
+      "29126249",
+      "29083408",
+      "28458654",
+      "28359093",
+      "28321269",
+      "27992846",
+      "27932358",
+      "27889689",
+      "27114387",
+      "27028474",
+      "26745120",
+      "26687115",
+      "25605792",
+      "25521941",
+      "25516281",
+      "25243714",
+      "24792942",
+      "24736803",
+      "23542596",
+      "23111009",
+      "23018246",
+      "22997976",
+      "21989540",
+      "21920358",
+      "21149340",
+      "20820843",
+      "20667978",
+      "20576703",
+      "19940413",
+      "19356715",
+      "17761937",
+      "17652184",
+      "17404091",
+      "16476877",
+      "15869710",
+      "14681407",
+      "12110122"
+    ],
+    "similar": [
+      "39176085",
+      "40628511",
+      "39086489",
+      "41120603",
+      "40834023",
+      "39375405",
+      "32945465",
+      "38771826",
+      "41146237",
+      "42109727",
+      "40216809",
+      "39433858",
+      "41316378",
+      "32041280",
+      "42051521",
+      "40335993",
+      "38734758",
+      "38509535",
+      "30551734",
+      "40592131",
+      "41310008",
+      "34218797",
+      "30365099",
+      "38062833",
+      "39556279",
+      "41196851",
+      "41258630",
+      "39587568",
+      "40024299",
+      "41940395",
+      "29255496",
+      "29514675",
+      "30483789",
+      "41081092",
+      "39118438",
+      "39438957",
+      "39919076",
+      "40804350",
+      "38268224",
+      "35757392",
+      "31987036",
+      "34384424",
+      "33902539",
+      "41291978",
+      "40574839",
+      "40374744",
+      "40374866",
+      "41760032",
+      "39945271",
+      "40442788",
+      "39802181",
+      "33420869",
+      "40025145",
+      "26832188",
+      "40406126",
+      "40754871",
+      "33468167",
+      "32571421",
+      "39142001",
+      "29658578",
+      "40374840",
+      "39585570",
+      "40420260",
+      "40826767",
+      "33325525",
+      "38863714",
+      "41044520",
+      "38886539",
+      "34340232",
+      "29620215",
+      "29344651",
+      "30602391",
+      "34583778",
+      "39639239",
+      "41816328",
+      "41300749",
+      "41006883",
+      "41372957",
+      "38326874",
+      "36157062",
+      "35783271",
+      "39351239",
+      "35473522",
+      "41628840",
+      "39107295",
+      "37291167",
+      "41511918",
+      "34224029",
+      "41327360",
+      "40173189",
+      "40564983",
+      "38259479",
+      "33437215",
+      "37111057",
+      "31277141",
+      "35242109",
+      "33083497",
+      "39080630",
+      "41502501",
+      "39306912"
+    ],
+    "review": [
+      "39176085",
+      "29514675"
+    ],
+    "pmc": [
+      "11338775"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

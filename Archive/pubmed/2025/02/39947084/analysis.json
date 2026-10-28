@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39947084",
+  "title": "Interpretable multi-stage attention network to predict cancer subtype, microsatellite instability, TP53 mutation and TMB of endometrial and colorectal cancer.",
+  "authors": "Wang, Ching-Wei; Muzakky, Hikam; Lee, Yu-Ching; Chung, Yu-Pang; Wang, Yu-Chi; Yu, Mu-Hsien; Wu, Chia-Hua; Chao, Tai-Kuang",
+  "journal": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society",
+  "published_date": "2025-02-14",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用多阶段注意力深度学习从组织病理图像预测癌症亚型和分子标志物，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Mismatch repair deficiency (dMMR), also known as high-grade microsatellite instability (MSI-H), is a well-established biomarker for predicting the immunotherapy response in endometrial cancer (EC) and colorectal cancer (CRC). Tumor mutational burden (TMB) has also emerged as an important quantitative genomic biomarker for assessing the efficacy of immune checkpoint inhibitors. Although next-generation sequencing (NGS) can be used to assess MSI and TMB, the high costs, low sample throughput, and significant DNA requirements make NGS impractical for routine clinical screening. In this study, an interpretable, multi-stage attention deep learning (DL) network is introduced to predict pathological subtypes, MSI, TP53 mutations, and TMB directly from low-cost, routinely used histopathological whole slide images of EC and CRC slides. Experimental results showed that this method consistently outperformed seven state-of-the-art approaches in cancer subtyping and molecular status prediction across EC and CRC datasets. Fisher's Least Significant Difference test confirmed a strong correlation between model predictions and actual molecular statuses (MSI, TP53, and TMB) (p<0.001). Furthermore, Kaplan-Meier disease-free survival analysis revealed that CRC patients with model-predicted high TMB had significantly longer disease-free survival than those with low TMB (p<0.05). These findings demonstrate that the proposed DL-based approach holds significant potential for directly predicting immunotherapy-related pathological diagnoses and molecular statuses from routine WSIs, supporting personalized cancer immunotherapy treatment decisions in EC and CRC.",
+  "abstract_zh": "错配修复缺陷（dMMR），又称高度微卫星不稳定性（MSI-H），是预测子宫内膜癌（EC）和结直肠癌（CRC）免疫治疗反应的公认生物标志物。肿瘤突变负荷（TMB）也已成为评估免疫检查点抑制剂疗效的重要定量基因组生物标志物。尽管下一代测序（NGS）可用于评估MSI和TMB，但其高成本、低样本通量及对DNA的大量需求使得NGS在常规临床筛查中不切实际。本研究引入了一种可解释的多阶段注意力深度学习（DL）网络，直接从低成本、常规使用的EC和CRC切片组织病理学全切片图像中预测病理亚型、MSI、TP53突变及TMB。实验结果表明，该方法在EC和CRC数据集的癌症亚型分类和分子状态预测方面始终优于七种最先进的方法。Fisher最小显著差异检验证实，模型预测与实际分子状态（MSI、TP53和TMB）之间存在强相关性（p<0.001）。此外，Kaplan-Meier无病生存分析显示，模型预测高TMB的CRC患者无病生存期显著长于低TMB患者（p<0.05）。这些发现表明，所提出的基于DL的方法在从常规WSI直接预测免疫治疗相关病理诊断和分子状态方面具有显著潜力，支持EC和CRC的个性化癌症免疫治疗决策。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39947084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947084/",
+  "paper_page_path": "papers/pubmed/39947084/index.html"
+}

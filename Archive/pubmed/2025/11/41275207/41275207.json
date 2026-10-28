@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "41275207",
+    "doi": "10.1186/s13046-025-03591-5",
+    "title": "Lactate-driven lactylation of HNRNPA1 orchestrates PKM2 splicing and glycolytic reprogramming in bladder cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lactylation, a recently identified post-translational modification derived from lactate, has emerged as a regulator of tumor metabolism. However, its functional relevance and molecular targets in bladder cancer (BLCA) remain unclear. METHODS: We performed immunohistochemistry on patient tissues, global lactylation proteomics using LC-MS/MS, and in vitro and in vivo functional assays. Gene editing via CRISPR/Cas9, overexpression systems, and pharmacological interventions were employed to study P300-mediated HNRNPA1-K350 lactylation in driving BLCA cell aggression. Metabolomics and glycolytic flux assays were used to assess the metabolic consequences of HNRNPA1 lactylation. Molecular characterization was validated through gene expression and splicing analyses. Small-molecule drug screening was conducted via molecular docking to identify potential inhibitors targeting HNRNPA1. RESULTS: Protein lactylation levels were significantly elevated in BLCA tissues, correlating with poor prognosis. HNRNPA1 was identified as a central lactylation target. Glycolysis-induced lactate production promoted P300-mediated lactylation of HNRNPA1 at lysine 350, which facilitated PKM pre-mRNA splicing toward the PKM2 isoform, enhancing glycolytic flux and supporting tumor growth. Inhibition of glycolysis or LDHA knockdown reduced HNRNPA1 lactylation, suppressed PKM2 expression, and impaired BLCA cell proliferation, migration, and invasion. Metabolomic profiling linked HNRNPA1-K350 lactylation with increased aerobic glycolysis in BLCA cells. A small-molecule inhibitor, identified through molecular docking, attenuated cell proliferation by binding to HNRNPA1 and suppressing PKM2 expression. CONCLUSIONS: This study reveals a lactate-driven mechanism coupling alternative splicing to metabolic reprogramming via HNRNPA1 lactylation, identifying HNRNPA1-K350 lactylation as a key driver of glycolysis-dependent tumor progression. A therapeutic approach targeting HNRNPA1 in BLCA is proposed.",
+    "keywords": [
+      "Alternative Splicing",
+      "Bladder Cancer",
+      "Glycolytic Reprogramming",
+      "HNRNPA1",
+      "Lactylation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Heterogeneous Nuclear Ribonucleoprotein A1/metabolism/genetics",
+      "*Urinary Bladder Neoplasms/genetics/metabolism/pathology",
+      "Glycolysis",
+      "Thyroid Hormone-Binding Proteins",
+      "Mice",
+      "Animals",
+      "*Thyroid Hormones/genetics/metabolism",
+      "*Lactic Acid/metabolism",
+      "*Membrane Proteins/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Male",
+      "Female",
+      "Mice, Nude",
+      "*Heterogeneous-Nuclear Ribonucleoprotein Group A-B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tianqi",
+        "Ma, Xiaohong",
+        "Wang, Yini",
+        "Liu, Hongquan",
+        "Ding, Guixin",
+        "Li, Yanfei",
+        "Yuan, Hejia",
+        "Gao, Jie",
+        "Sun, Fengze",
+        "Guo, Yicheng",
+        "Ma, Jian",
+        "Wu, Jitao"
+      ],
+      "short_names": [
+        "Wang T",
+        "Ma X",
+        "Wang Y",
+        "Liu H",
+        "Ding G",
+        "Li Y",
+        "Yuan H",
+        "Gao J",
+        "Sun F",
+        "Guo Y",
+        "Ma J",
+        "Wu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Gynecology and Obstetrics, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "The Second Clinical Medical College, Binzhou Medical University, Yantai, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China. jma1980@126.com.",
+        "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China. wjturology@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tianqi",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+          "Department of Urology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaohong",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+          "Department of Gynecology and Obstetrics, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yini",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China.",
+          "The Second Clinical Medical College, Binzhou Medical University, Yantai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongquan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Guixin",
+        "short_name": "Ding G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanfei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Hejia",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jie",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Fengze",
+        "short_name": "Sun F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yicheng",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jian",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China. jma1980@126.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Jitao",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, No. 20 East Yuhuangding Road, Yantai, Shandong, 264000, China. wjturology@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Nov 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/23 00:58",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42658371",
+      "42625101",
+      "42597643",
+      "42399675",
+      "42346144",
+      "42230450",
+      "42211570",
+      "42164391",
+      "42056359",
+      "41768991",
+      "41593811"
+    ],
+    "refs": [
+      "41392984",
+      "40381463",
+      "40185947",
+      "39934144",
+      "39883522",
+      "39850563",
+      "39817679",
+      "39796139",
+      "39652302",
+      "39616247",
+      "39393355",
+      "39298013",
+      "39095708",
+      "38936834",
+      "38653238",
+      "38256128",
+      "38154234",
+      "37684641",
+      "37443257",
+      "36639369",
+      "36328311",
+      "36174585",
+      "36068198",
+      "35836809",
+      "35585263",
+      "35320754",
+      "34936430",
+      "34903602",
+      "34363018",
+      "33726814",
+      "33627428",
+      "33573689",
+      "33403848",
+      "33246091",
+      "33033240",
+      "32273439",
+      "31645732",
+      "30858544",
+      "30038033",
+      "26975021",
+      "26003924",
+      "21508971",
+      "20978194",
+      "20010808",
+      "8601308"
+    ],
+    "similar": [
+      "41275207",
+      "39497094",
+      "25948776",
+      "41275297",
+      "32800545",
+      "33537092",
+      "40703521",
+      "40251569",
+      "38762193",
+      "39474980",
+      "41219790",
+      "40226997",
+      "40993625",
+      "40637278",
+      "33564070",
+      "30368881",
+      "38711083",
+      "38844182",
+      "40849487",
+      "34290225",
+      "26683771",
+      "39380010",
+      "41454479",
+      "24626155",
+      "33573689",
+      "41121381",
+      "41274423",
+      "23515579",
+      "32754263",
+      "34551796",
+      "30799198",
+      "28086949",
+      "31675998",
+      "40808274",
+      "41094513",
+      "40900394",
+      "36284386",
+      "38906019",
+      "40755753",
+      "30858544",
+      "41005738",
+      "37980488",
+      "40735323",
+      "41233804",
+      "37294531",
+      "39652302",
+      "38679071",
+      "20010808",
+      "27989750",
+      "39761954",
+      "39773029",
+      "29344170",
+      "38838401",
+      "39741310",
+      "40312519",
+      "40054655",
+      "30279379",
+      "40553966",
+      "39147318",
+      "39190384",
+      "40581232",
+      "39095708",
+      "39820532",
+      "38149461",
+      "39924557",
+      "40466508",
+      "28972001",
+      "38526683",
+      "32308748",
+      "40619016",
+      "39623433",
+      "39403095",
+      "41356184",
+      "41234832",
+      "41074449",
+      "38570082",
+      "38810697",
+      "39993527",
+      "24466275",
+      "41163045",
+      "40891247",
+      "35081364",
+      "39551759",
+      "39700636",
+      "41088127",
+      "39966416",
+      "32296635",
+      "28543190",
+      "39585598",
+      "40820310",
+      "28569774",
+      "30742945",
+      "40997650",
+      "38867190",
+      "29484423",
+      "34196069",
+      "39829390",
+      "41045618",
+      "33663206",
+      "40470773"
+    ],
+    "review": [
+      "41275207",
+      "38906019",
+      "40755753"
+    ],
+    "pmc": [
+      "12752355"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-025-03591-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41275207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3588",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

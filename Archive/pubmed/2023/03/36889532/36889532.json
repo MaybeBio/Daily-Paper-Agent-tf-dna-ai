@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "36889532",
+    "doi": "10.1016/j.gene.2023.147338",
+    "title": "Rheumatoid arthritis treatment with zoledronic acid, a potentialinhibitorofGWAS-derived pharmacogenetics STAT3 and IL2 targets."
+  },
+  "content": {
+    "abstract": "Rheumatoid arthritis (RA) is an inflammatory condition that primarily affects the joints and progress to affect other vital organs. Variety of drugs are being recommended to control the disease progression that benefits patients to perform day-to-day activities. Few of these RA drugs have noticeable side effects; therefore, it's crucial to choose the appropriate drug for treating RA with an understanding of the disease's pathophysiology. Herein, we investigated the RA genes from GWAS data to construct protein-protein interaction (PPI) network and to define appropriate drug targets for RA. The predicted drug targets were screened with the known RA drugs based on molecular docking. Further, the molecular dynamics simulations were performed to comprehend the conformational changes and stability of the targets upon binding of the selected top ranked RA drug. As a result, our constructed protein network from GWAS data revealed, STAT3 and IL2 could be potential pharmacogenetics targets that interlink most of the RA genes encoding proteins. These interlinked proteins of both the targets showed involvement in cell signaling, immune response, and TNF signaling pathway. Among the 192 RA drugs investigated, zoledronic acid had the lowest binding energy that inhibit both STAT3 (-6.307 kcal/mol) and IL2 (-6.231 kcal/mol). Additionally, STAT3 and IL2 trajectories on zoledronic acid binding exhibit notable differences in MD simulations as compared to a drug-free environment. Also, the in vitro assessment with the zoledronic acid confirms the outcome of our computational study. Overall, our study identify zoledronic acid could be potential inhibitor against these targets, that will benefits patients with RA. Comparative efficiency assessments between the RA drugs through clinical trials are needed to validate our findings in the treatment of RA.",
+    "keywords": [
+      "Docking",
+      "Drugs",
+      "Molecular dynamic simulation",
+      "Network analysis",
+      "Rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Interleukin-2/metabolism",
+      "Zoledronic Acid/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "Pharmacogenetics",
+      "*Arthritis, Rheumatoid/drug therapy/genetics",
+      "STAT3 Transcription Factor/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Janakiraman, V",
+        "Sudhan, M",
+        "Patil, Shankargouda",
+        "Alzahrani, Khalid J",
+        "Alzahrani, Fuad M",
+        "Halawani, Ibrahim F",
+        "Ahmed, Shiek S S J"
+      ],
+      "short_names": [
+        "Janakiraman V",
+        "Sudhan M",
+        "Patil S",
+        "Alzahrani KJ",
+        "Alzahrani FM",
+        "Halawani IF",
+        "Ahmed SSSJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Drug Discovery and Multi-omics Laboratory, Faculty of Allied Health Sciences, Chettinad Academy of Research and Education, Chettinad Hospital and Research Institute, Kelambakkam 603103, Tamil Nadu, India.",
+        "Drug Discovery and Multi-omics Laboratory, Faculty of Allied Health Sciences, Chettinad Academy of Research and Education, Chettinad Hospital and Research Institute, Kelambakkam 603103, Tamil Nadu, India.",
+        "College of Dental Medicine, Roseman University of Health Sciences, South Jordan, UT 84095, USA.",
+        "Department of Clinical Laboratories Sciences, College of Applied Medical Sciences, Taif University, P.O. Box 11099, Taif 21944, Saudi Arabia.",
+        "Department of Clinical Laboratories Sciences, College of Applied Medical Sciences, Taif University, P.O. Box 11099, Taif 21944, Saudi Arabia.",
+        "Department of Clinical Laboratories Sciences, College of Applied Medical Sciences, Taif University, P.O. Box 11099, Taif 21944, Saudi Arabia.",
+        "Drug Discovery and Multi-omics Laboratory, Faculty of Allied Health Sciences, Chettinad Academy of Research and Education, Chettinad Hospital and Research Institute, Kelambakkam 603103, Tamil Nadu, India. Electronic address: shiekssjahmed@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Janakiraman, V",
+        "short_name": "Janakiraman V",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Multi-omics Laboratory, Faculty of Allied Health Sciences, Chettinad Academy of Research and Education, Chettinad Hospital and Research Institute, Kelambakkam 603103, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Sudhan, M",
+        "short_name": "Sudhan M",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Multi-omics Laboratory, Faculty of Allied Health Sciences, Chettinad Academy of Research and Education, Chettinad Hospital and Research Institute, Kelambakkam 603103, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Patil, Shankargouda",
+        "short_name": "Patil S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Dental Medicine, Roseman University of Health Sciences, South Jordan, UT 84095, USA."
+        ]
+      },
+      {
+        "full_name": "Alzahrani, Khalid J",
+        "short_name": "Alzahrani KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratories Sciences, College of Applied Medical Sciences, Taif University, P.O. Box 11099, Taif 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alzahrani, Fuad M",
+        "short_name": "Alzahrani FM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratories Sciences, College of Applied Medical Sciences, Taif University, P.O. Box 11099, Taif 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Halawani, Ibrahim F",
+        "short_name": "Halawani IF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratories Sciences, College of Applied Medical Sciences, Taif University, P.O. Box 11099, Taif 21944, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Shiek S S J",
+        "short_name": "Ahmed SSSJ",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Multi-omics Laboratory, Faculty of Allied Health Sciences, Chettinad Academy of Research and Education, Chettinad Hospital and Research Institute, Kelambakkam 603103, Tamil Nadu, India. Electronic address: shiekssjahmed@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gene"
+    ],
+    "journal_abbrev": [
+      "Gene"
+    ],
+    "pub_date": "2023 May 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/09 06:00",
+    "fetched_at": "2026-09-28 21:16:04"
+  },
+  "links": {
+    "cites": [
+      "42448670",
+      "40856249",
+      "40196558",
+      "40067478"
+    ],
+    "refs": [],
+    "similar": [
+      "36889532",
+      "36472040",
+      "35415913",
+      "33403456",
+      "31972422",
+      "35221674",
+      "35707715",
+      "31901568",
+      "35670824",
+      "36224010",
+      "35135448",
+      "34047081",
+      "37697373",
+      "25880754",
+      "35566100",
+      "36697436",
+      "31823822",
+      "28887478",
+      "35525528",
+      "36532040",
+      "33909202",
+      "32001347",
+      "33594167",
+      "35749826",
+      "35815670",
+      "18384257",
+      "25150878",
+      "31972421",
+      "34093213",
+      "27557330",
+      "20205662",
+      "31648623",
+      "32700875",
+      "36368156",
+      "28771010",
+      "35127697",
+      "27084907",
+      "29932210",
+      "18681777",
+      "35296317",
+      "34808131",
+      "36911710",
+      "24708416",
+      "34758437",
+      "33325525",
+      "33465444",
+      "36424369",
+      "33416163",
+      "35813340",
+      "35093109",
+      "16474855",
+      "27493089",
+      "30536757",
+      "30047845",
+      "21044431",
+      "29928007",
+      "28522406",
+      "11056662",
+      "33035753",
+      "33604823",
+      "33160044",
+      "36640055",
+      "33444321",
+      "24991562",
+      "34499588",
+      "28555524",
+      "22532634",
+      "21937456",
+      "33527195",
+      "34393779",
+      "19404967",
+      "17049139",
+      "36226643",
+      "33992108",
+      "28607508",
+      "33667569",
+      "29540697",
+      "27049384",
+      "34864624",
+      "31661990",
+      "35203042",
+      "36439145",
+      "24624921",
+      "25406356",
+      "36160710",
+      "35820245",
+      "34826542",
+      "23042533",
+      "38116745",
+      "38933947"
+    ],
+    "review": [
+      "36889532",
+      "18384257",
+      "20205662",
+      "31648623",
+      "18681777",
+      "16474855",
+      "30536757",
+      "21044431",
+      "19404967",
+      "17049139",
+      "28607508"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-1119(23)00179-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

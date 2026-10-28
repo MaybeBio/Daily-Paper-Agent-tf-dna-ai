@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a novel mechanistic axis in silicosis: LEF1 transcriptionally upregulates CTHRC1 in TGF-beta1-activated fibroblasts; CTHRC1 then binds CD44 via three specific residues (Arg41, Asn172, Trp650) to activate AKT signaling and drive fibroblast-to-myofibroblast transition; liposomal delivery of Cthrc1 siRNA attenuates fibrosis in silica- and bleomycin-induced mouse models.
+- **Visible evidence base** Abstract text only; mentions transcriptomic analysis of clinical samples, LC-MS/MS, Co-IP, AlphaFold2, RNA sequencing, Western blot, RT-qPCR, rescue experiments, and in vivo mouse models
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, statistical details, experimental protocols, clinical sample information, AlphaFold2 confidence metrics, and in vivo data quantification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and clinically relevant mechanistic pathway for silicosis, with a clear logical flow from transcriptional regulation to receptor binding to downstream signaling and therapeutic intervention. However, the evidence as summarized is insufficient to fully evaluate the rigor of the claims. Several critical details are missing, including the strength of the LEF1-CTHRC1 regulatory relationship, the experimental validation of the AlphaFold2-predicted binding residues, the specificity of CD44 as the relevant receptor, and the quantitative efficacy of the in vivo siRNA intervention. The work could be of interest to the pulmonary fibrosis and toxicology communities, but the current abstract does not establish the case with sufficient confidence.
+- **Who would be interested in the results, and why** Researchers in pulmonary fibrosis, occupational lung disease, fibroblast biology, and fibrosis therapeutics would be interested. The identification of a new druggable target (CTHRC1) and a specific receptor interaction (CD44) with defined residues could inform future therapeutic development. The use of cationic nanoliposomes for siRNA delivery also has translational relevance.
+- **Major strengths** The study combines multiple orthogonal approaches (transcriptomics, proteomics, molecular biology, computational modeling, and in vivo models). The proposed mechanism is coherent and testable. The inclusion of both silica- and bleomycin-induced fibrosis models strengthens the generalizability of the therapeutic claim. The identification of specific CD44 residues involved in CTHRC1 binding provides a molecular-level detail that could enable targeted intervention.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "LEF1 exerts its transcriptional regulator role by binding to the CTHRC1 promoter region in TGF-beta1-activated fibroblasts"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that LEF1 binds the CTHRC1 promoter, but no evidence is presented to establish the functional significance of this binding. It is unclear whether LEF1 knockdown or overexpression directly alters CTHRC1 expression levels, whether the binding site was validated by mutagenesis or reporter assays, and whether LEF1 is necessary and sufficient for TGF-beta1-induced CTHRC1 upregulation.
+  - **Why it matters** The entire proposed axis depends on LEF1 being a bona fide transcriptional regulator of CTHRC1. Without functional validation, the causal link from LEF1 to CTHRC1 is not established, and the proposed axis could be a correlation rather than a mechanism.
+  - **Resolution test** Provide data showing that LEF1 knockdown reduces CTHRC1 expression in TGF-beta1-activated fibroblasts, that LEF1 overexpression increases CTHRC1 promoter activity in reporter assays, and that mutation of the predicted LEF1 binding site abolishes this effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "AlphaFold2 analyses revealed the binding between CTHRC1 and CD44 is accomplished by three critical CD44 residues: Arg41, Asn172, and Trp650"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents AlphaFold2 predictions as if they were experimentally validated. No mention is made of mutagenesis experiments, binding assays (e.g., surface plasmon resonance, isothermal titration calorimetry), or co-crystal structures to confirm the predicted residues. AlphaFold2 provides structural models, not functional proof of binding interfaces.
+  - **Why it matters** The claim that specific residues mediate the CTHRC1-CD44 interaction is central to the proposed mechanism and to any potential therapeutic targeting. If the prediction is not experimentally validated, the claim is speculative and could mislead downstream research.
+  - **Resolution test** Provide experimental evidence such as alanine-scanning mutagenesis of Arg41, Asn172, and Trp650 followed by binding assays (e.g., Co-IP, pull-down, or surface plasmon resonance) showing loss of CTHRC1 binding, and functional assays showing loss of pro-fibrotic effects with mutant CD44.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Rescue experiments demonstrated that the CTHRC1-CD44 complex exerts its pro-fibrotic effects through AKT signaling"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the design of the rescue experiments. It is unclear whether AKT activation (e.g., via 740 Y-P) fully rescued the effects of CTHRC1 or CD44 knockdown, whether AKT inhibition blocked CTHRC1 effects, and whether other downstream pathways were excluded. The specificity of the AKT pathway is not established.
+  - **Why it matters** The claim that AKT is the sole or primary downstream mediator is important for understanding the mechanism and for therapeutic targeting. If other pathways are also involved, the proposed axis is incomplete.
+  - **Resolution test** Provide data showing that AKT inhibition (pharmacological or genetic) blocks CTHRC1-induced fibroblast activation, and that constitutively active AKT rescues the phenotype in CTHRC1 or CD44 knockdown cells. Also show that other candidate pathways (e.g., MAPK, Smad) are not activated or not required.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "liposomal Cthrc1 siRNA mitigated fibrogenesis in both silica- and bleomycin-induced mouse fibrosis models"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data on the degree of fibrosis reduction, the delivery efficiency of the liposomal siRNA, the target knockdown efficiency in vivo, or the specificity of the effect (e.g., off-target effects). It is also unclear whether the effect was statistically significant and whether it was comparable across the two models.
+  - **Why it matters** The therapeutic claim is a key translational outcome of the study. Without quantitative in vivo data, the efficacy of the intervention cannot be assessed, and the claim of therapeutic potential is not supported.
+  - **Resolution test** Provide quantitative fibrosis scores (e.g., hydroxyproline content, Ashcroft score, collagen area), target knockdown efficiency in lung tissue, and statistical comparisons for both models. Include appropriate controls (e.g., scrambled siRNA, empty liposomes).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Study design description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists "transcriptomic analysis of clinical samples" but does not specify the number of samples, the source (e.g., lung tissue, bronchoalveolar lavage), or the comparison groups (e.g., silicosis vs. healthy controls).
+  - **Required correction** Specify the clinical sample type, number, and comparison groups in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** In vitro model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions TGF-beta1, PDGF, and recombinant CTHRC1 as in vitro stimuli but does not clarify whether all three were used for all experiments or whether they produced consistent results.
+  - **Required correction** Clarify which stimuli were used for which experiments and whether the results were consistent across stimuli.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Transcriptomic finding
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The statement "CTHRC1 is a significantly dysregulated gene implicated in myogenesis and ECM-related pathways" is vague. It is unclear whether this is from the clinical transcriptomic analysis or from in vitro RNA sequencing, and what the magnitude of dysregulation was.
+  - **Required correction** Specify the source of the transcriptomic data and provide the fold change or effect size for CTHRC1 dysregulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** AlphaFold2 methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not mention the AlphaFold2 confidence metrics (e.g., pLDDT, PAE) or whether the predicted complex was validated by any independent computational method.
+  - **Required correction** Report AlphaFold2 confidence scores and, if available, cross-validation with other docking or structural prediction tools.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (LEF1-CTHRC1 regulatory relationship not functionally validated), R1-M2 (AlphaFold2 predictions not experimentally confirmed), R1-M3 (AKT pathway specificity not established), R1-M4 (in vivo efficacy not quantitatively supported)
+- **Assessment against Nature-style criteria** Originality: The proposed LEF1-CTHRC1-CD44-AKT axis appears novel in the context of silicosis, and the identification of specific CD44 residues is a potentially original contribution. Scientific importance: The work addresses an incurable disease with limited therapeutic options, and the identification of a druggable target has clear translational relevance. Interdisciplinary readership: The topic bridges toxicology, pulmonary medicine, and molecular biology, and could attract readers from multiple fields. Technical soundness: The abstract suggests a multi-method approach, but the lack of experimental validation for key claims (LEF1 binding, CD44 residues, AKT specificity) and the absence of quantitative in vivo data prevent an assessment of technical rigor. Readability for nonspecialists: The abstract is generally clear and logically structured, though some terms (e.g., "cationic nanoliposome-based techniques") may require additional context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The proposed mechanism is plausible and potentially important, but the abstract does not provide sufficient experimental detail to validate the key claims. The authors should be encouraged to resubmit with full experimental evidence addressing the major concerns, particularly functional validation of the LEF1-CTHRC1 regulatory relationship, experimental confirmation of the CD44 binding residues, and quantitative in vivo efficacy data.
+
+## Risk / unsupported claims
+- The claim that LEF1 binds the CTHRC1 promoter and regulates its expression is unsupported without functional validation (e.g., ChIP, reporter assays, knockdown/overexpression studies).
+- The claim that CTHRC1 binds CD44 via Arg41, Asn172, and Trp650 is unsupported without experimental binding assays and mutagenesis studies.
+- The claim that the CTHRC1-CD44 complex exerts its effects specifically through AKT signaling is unsupported without rescue experiments that exclude other pathways.
+- The claim that liposomal Cthrc1 siRNA mitigates fibrosis in vivo is unsupported without quantitative data on fibrosis reduction, knockdown efficiency, and statistical significance.
+- The clinical relevance of CTHRC1 dysregulation is not assessable without details on the clinical sample cohort and the magnitude of dysregulation.

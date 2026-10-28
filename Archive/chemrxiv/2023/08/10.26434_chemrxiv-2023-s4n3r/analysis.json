@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-s4n3r",
+  "title": "QMrebind: Incorporating quantum mechanical force field reparameterization at the ligand binding site for improved drug-target kinetics through milestoning simulations",
+  "authors": "Anupam Anand Ojha; Lane Votapka; Rommie Amaro",
+  "journal": "ChemRxiv",
+  "published_date": "2023-08-09",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过QM力场重参数化改进配体-受体结合位点的MD模拟，预测药物-靶标结合/解离动力学，虽涉及蛋白-配体互作与MD方法，但对象为小分子配体而非蛋白质-DNA，方法可迁移至TF-DNA界面建模，故给5分。",
+  "abstract": "Understanding the interaction of ligands with biomolecules is an integral component of drug discovery and development. Challenges for computing thermodynamic and kinetic quantities for pharmaceutically relevant receptor-ligand complexes include the size and flexibility of the ligands, large-scale conformational rearrangements of the receptor, accurate force field parameters, simulation efficiency, and sufficient sampling associated with rare events. Our recently developed multiscale milestoning simulation approach, SEEKR2 (Simulation Enabled Estimation of Kinetic Rates v.2), has demonstrated success in predicting binding (kon) and unbinding (koff) kinetics by employing molecular dynamics (MD) simulations in regions closer to the binding site and Brownian dynamics (BD) simulations far from the binding site. The MD region is further subdivided into smaller Voronoi tessellations to improve the simulation efficiency and parallelization. To date, all MD simulations are run using general molecular mechanics (MM) force fields. The accuracy of calculations can be further improved by incorporating quantum mechanical (QM) methods into generating system-specific force fields through reparameterizing ligand charges in the bound state. The force field reparametrization process modifies the potential energy landscape of the bimolecular complex, enabling a more accurate representation of the intermolecular interactions and polarization effects at the bound state. We present QMrebind (Quantum Mechanical force field reparameterization at the receptor-ligand binding site), an ORCA-based software that facilitates reparameterizing the potential energy function within the phase space representing the bound state in a receptor-ligand complex. With existing data from our SEEKR2 estimates and experimentally determined kinetic rates, we compare and interpret the receptor-ligand unbinding kinetics obtained using the newly reparameterized force fields for model host-guest systems and HSP90-inhibitor complexes. This method provides an opportunity to achieve higher accuracy in predicting kon and koff.",
+  "abstract_zh": "理解配体与生物分子的相互作用是药物发现与开发的核心组成部分。计算药学相关受体-配体复合物的热力学和动力学量所面临的挑战包括配体的大小和柔性、受体的大规模构象重排、精确的力场参数、模拟效率以及与稀有事件相关的充分采样。我们最近开发的多尺度里程碑模拟方法SEEKR2（模拟增强动力学速率估计v.2）已成功预测结合（kon）和解离（koff）动力学，通过在接近结合位点的区域采用分子动力学（molecular dynamics, MD）模拟，并在远离结合位点的区域采用布朗动力学（Brownian dynamics, BD）模拟。MD区域进一步细分为更小的Voronoi镶嵌，以提高模拟效率和并行化。迄今为止，所有MD模拟均使用通用分子力学（molecular mechanics, MM）力场运行。通过将量子力学（quantum mechanical, QM）方法纳入生成系统特异性力场，并在结合态下重新参数化配体电荷，可以进一步提高计算的准确性。力场重新参数化过程修改了双分子复合物的势能景观，从而在结合态下更准确地表示分子间相互作用和极化效应。我们提出了QMrebind（受体-配体结合位点的量子力学力场重新参数化），这是一种基于ORCA的软件，便于在受体-配体复合物中代表结合态的相空间内重新参数化势能函数。利用我们SEEKR2估计的现有数据和实验确定的动力学速率，我们比较并解释了使用新重新参数化力场获得的模型宿主-客体系统和HSP90-抑制剂复合物的受体-配体解离动力学。该方法为提高预测kon和koff的准确性提供了机会。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-s4n3r",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-s4n3r",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-s4n3r/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a reversible pH-dependent secondary structure transformation in the metalloregulatory protein CueR, characterized by circular dichroism (CD) spectroscopy, with pK(a) estimates from PROPKA and constant-pH molecular dynamics (CpHMD) simulations implicating His(76) and His(94). They further report that DNA binding prevents this structural switch, locking CueR in an alpha-helical-rich form, and that the cognate metal ion Ag(I), but not non-cognate Hg(II), Cd(II), or Zn(II), affects the secondary structure, likely by stabilizing the metal ion and DNA-binding domains.
+- **Visible evidence base** Abstract text only; no quantitative CD data, simulation details, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation parameters, statistical treatment, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical characterization of CueR in solution, with a novel observation of a reversible pH-dependent secondary structure switch and a proposed role for specific histidine residues. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The mechanistic interpretation, particularly the role of His(76) and His(94) and the proposed domain stabilization by Ag(I), requires substantially more experimental and computational detail than is provided here. The claim that DNA locks CueR in an alpha-helical-rich form is intriguing but not quantitatively supported in the abstract.
+- **Who would be interested in the results, and why** Researchers in metalloregulatory protein biophysics, copper homeostasis and bacterial metal sensing, and those interested in protein secondary structure dynamics in response to environmental stimuli. The pH-dependent structural switch and its modulation by DNA and metal ions could inform understanding of allosteric regulation in metal-sensing transcription factors.
+- **Major strengths** The study addresses a gap in solution-state characterization of CueR, which has been predominantly studied in crystal or in silico. The combination of CD spectroscopy with computational pK(a) prediction and CpHMD is a reasonable approach to link experimental observations to molecular interpretation. The comparison between cognate and non-cognate metal ions is a useful control design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "A rather peculiar reversible pH-dependent secondary structure transformation was observed, elucidated and supplemented with pK(a) estimation by PROPKA and CpHMD simulations suggesting an important role of His(76) and His(94) in this process."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the pH-dependent transformation was "elucidated" and that simulations "suggest" a role for His(76) and His(94), but no quantitative data are presented. No CD spectra, no pH range tested, no magnitude of the structural change, no fraction of alpha-helix versus beta-sheet or random coil, and no comparison between experimental and calculated pK(a) values are given. The link between the observed structural change and the specific histidine residues is therefore correlative at best in the presented material.
+  - **Why it matters** The central novelty of the study appears to be this pH-dependent switch and its molecular basis. Without quantitative evidence linking the structural transition to protonation states of specific residues, the mechanistic claim is not established. The term "elucidated" overstates what can be concluded from the abstract-level information.
+  - **Resolution test** Provide CD spectra at multiple pH values with deconvolution results showing secondary structure fractions, overlay of experimental pK(a) estimates with PROPKA and CpHMD predictions for His(76) and His(94), and a control (for example, a mutant or a variant where these histidines are replaced) demonstrating that the structural transition is abolished or shifted.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "CD experiments revealed that the presence of DNA prevents this structural switch, suggesting that DNA locks CueR in the alpha-helical-rich form."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that DNA prevents the pH-dependent structural switch is presented as a key finding, but no experimental details are given. It is unclear which DNA sequence was used, whether it was a specific CueR binding site or non-specific DNA, what the stoichiometry was, and how the CD signal changed in the presence of DNA across the pH range. The phrase "locks CueR in the alpha-helical-rich form" implies a strong conformational constraint, but the abstract does not provide the data to support this interpretation.
+  - **Why it matters** This claim has functional implications for how CueR responds to its DNA binding site under varying cellular conditions. If the effect is specific to a particular DNA sequence, the interpretation would differ from a general DNA-induced stabilization. The current abstract does not allow the reader to assess the robustness of this observation.
+  - **Resolution test** Show CD spectra of CueR with and without DNA at multiple pH values, specify the DNA sequence and length, and provide quantitative secondary structure estimates demonstrating that the pH-dependent change is suppressed in the presence of DNA.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "In contrast to the non-cognate metal ions Hg(II), Cd(II) and Zn(II), the presence of the cognate Ag(I) ion affects the secondary structure of CueR, most probably by stabilizing the metal ion and DNA-binding domains of the protein."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports that Ag(I) affects the secondary structure while Hg(II), Cd(II), and Zn(II) do not, but no quantitative comparison is provided. The phrase "most probably by stabilizing the metal ion and DNA-binding domains" is speculative and not supported by any structural or dynamic data in the abstract. No information is given on metal ion concentrations, stoichiometry, or whether the effect is concentration-dependent.
+  - **Why it matters** The selectivity for the cognate metal ion is a potentially important functional observation, but the mechanistic interpretation requires evidence that the structural change corresponds to domain stabilization. Without such evidence, the claim remains a hypothesis.
+  - **Resolution test** Provide CD spectra of CueR with each metal ion at defined concentrations, show dose-response data for Ag(I), and if possible, use complementary techniques (for example, limited proteolysis, hydrogen-deuterium exchange, or small-angle X-ray scattering) to support the domain stabilization interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** pH range and conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the pH range over which the structural transformation occurs, nor the buffer conditions used.
+  - **Required correction** State the pH range tested and the buffer composition in the abstract or refer to a methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "peculiar"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "peculiar" is subjective and does not convey quantitative information about the nature of the structural change.
+  - **Required correction** Replace with a descriptive term such as "pronounced" or "unexpected" and provide quantitative context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Temperature dependence
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that temperature was studied, but no results are reported for temperature effects.
+  - **Required correction** Either report the temperature-dependent results or remove the mention of temperature from the abstract.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The CpHMD simulations are mentioned but no details on force field, simulation length, or system setup are given.
+  - **Required correction** Provide simulation parameters in the methods or supplementary information and cite them in the abstract.
+
+## Risk / unsupported claims
+- The claim that His(76) and His(94) play an important role in the pH-dependent structural transformation is unsupported in the abstract, as no experimental validation (for example, mutagenesis) or quantitative comparison between predicted and observed pK(a) values is provided.
+- The claim that DNA "locks" CueR in an alpha-helical-rich form is unsupported without quantitative secondary structure data in the presence and absence of DNA.
+- The claim that Ag(I) stabilizes the metal ion and DNA-binding domains is speculative and not supported by any structural or biophysical evidence in the abstract.
+- The statement that the pH-dependent transformation was "elucidated" is an overstatement relative to the evidence presented in the abstract.
+- The temperature dependence of the secondary structure is mentioned but not reported, making this aspect of the study unassessable.

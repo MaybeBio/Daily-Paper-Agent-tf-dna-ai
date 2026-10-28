@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "41034397",
+    "doi": "10.1038/s41401-025-01632-5",
+    "title": "PXR ribosylation at E194 amplifies NAPQI in acetaminophen‒induced liver injury in mice, rescued by Schisandrin B."
+  },
+  "content": {
+    "abstract": "Acetaminophen (APAP)-induced acute liver injury (AILI) is primarily driven by CYP3A4‒mediated overproduction of the toxic metabolite N-acetyl-p-benzoquinone imine (NAPQI), CYP3A4 activity serves as the rate-limiting determinant of NAPQI accumulation levels. Poly ADP-ribose polymerase 1 (PARP1)-driven ribosylation, a posttranslational modification, has been linked to drug-induced liver injury. PARP1 interacts with pregnane X receptor (PXR), a nuclear receptor that regulates drug-metabolizing enzymes including CYP3A4. In this study we investigated the specific sites of PARP1-mediated PXR ribosylation, particularly regarding their functional relevance to CYP3A4-driven NAPQI biosynthesis in AILI. To establish AILI models, mice were injected with APAP (300 mg.kg(-1), i.p.), liver tissues and serum were collected for analysis 24 h post-injection. In vitro study was conducted in primary hepatocytes isolated from AILI mice and in human hepatic L02 cells exposed to APAP (5, 10, 20 muM). We demonstrated that under AILI conditions, PARP1 catalyzed ribosylation of PXR at the residue E194, forming a PARP1-PXR‒CYP3A4 regulatory axis that amplified oxidative stress and NAPQI accumulation through a positive feedback loop. Specifically, PARP1 was significantly overexpressed in AILI models in vivo and in vitro, and its interaction with PXR was confirmed in immunoprecipitation and proximity biotinylation assays. Molecular dynamics (MD) simulations, mass spectrometry and E194A site-directed mutagenesis revealed that PARP1-mediated ribosylation of PXR E194 enhanced CYP3A4 transcription, ultimately leading to excessive NAPQI production. MD simulations also identified a natural compound schisandrin B (Sch B) that specifically bound to the ligand-binding domain of PXR, induced conformational changes and disrupted the PARP1-PXR interaction interface, thus suppressed the ribosylation. In AILI murine models, administration of Sch B (25, 50, and 100 mg.kg(-1).d(-1), i.g.) for 8 days significantly reduced serum ALT and AST levels, attenuated oxidative stress, and inhibited NAPQI generation by blocking complex formation. This study not only elucidates the mechanisms of PARP1-mediated PXR E194 ribosylation in AILI but also identifies Sch B as the first specific inhibitor of this pathway, providing a theoretical basis for precision detoxification strategies targeting posttranslational modifications.",
+    "keywords": [
+      "ADP-ribosylation",
+      "CYP3A4",
+      "NAPQI",
+      "PARP1-PXR complex",
+      "Schisandrin B",
+      "acetaminophen-induced liver injury"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Acetaminophen/toxicity",
+      "*Pregnane X Receptor/metabolism",
+      "*Polycyclic Compounds/pharmacology/therapeutic use",
+      "*Cyclooctanes/pharmacology/therapeutic use",
+      "Humans",
+      "*Chemical and Drug Induced Liver Injury/metabolism/drug therapy/pathology",
+      "Male",
+      "Poly (ADP-Ribose) Polymerase-1/metabolism",
+      "*Lignans/pharmacology/therapeutic use",
+      "Mice",
+      "*Benzoquinones/metabolism",
+      "Cytochrome P-450 CYP3A/metabolism",
+      "*Imines/metabolism",
+      "Hepatocytes/drug effects/metabolism",
+      "Mice, Inbred C57BL",
+      "Liver/drug effects/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Long, Jia-Chan",
+        "Liu, Chen-Xu",
+        "Wang, Meng-Yao",
+        "Liu, Cai-Hong",
+        "Zhang, Fan",
+        "Liu, Zhong-Qiu",
+        "An, Lin",
+        "Wang, Cai-Yan"
+      ],
+      "short_names": [
+        "Long JC",
+        "Liu CX",
+        "Wang MY",
+        "Liu CH",
+        "Zhang F",
+        "Liu ZQ",
+        "An L",
+        "Wang CY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China. liuzq@gzucm.edu.cn.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China. liuzq@gzucm.edu.cn.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China. anlin@gzucm.edu.cn.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China. anlin@gzucm.edu.cn.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China. wangcaiyan@gzucm.edu.cn.",
+        "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China. wangcaiyan@gzucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Long, Jia-Chan",
+        "short_name": "Long JC",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chen-Xu",
+        "short_name": "Liu CX",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Meng-Yao",
+        "short_name": "Wang MY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cai-Hong",
+        "short_name": "Liu CH",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhong-Qiu",
+        "short_name": "Liu ZQ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China. liuzq@gzucm.edu.cn.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China. liuzq@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "An, Lin",
+        "short_name": "An L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China. anlin@gzucm.edu.cn.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China. anlin@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Cai-Yan",
+        "short_name": "Wang CY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, International Institute for Translational Chinese Medicine, Guangzhou University of Chinese Medicine, Guangzhou, 510006, China. wangcaiyan@gzucm.edu.cn.",
+          "Chinese Medicine Guangdong Laboratory (Hengqin Laboratory), Guangdong-Macao In-Depth Cooperation Zone in Hengqin, Zhuhai, 519000, China. wangcaiyan@gzucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta pharmacologica Sinica"
+    ],
+    "journal_abbrev": [
+      "Acta Pharmacol Sin"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 00:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40086032",
+      "39536748",
+      "39419741",
+      "39366156",
+      "38868948",
+      "38857989",
+      "38649362",
+      "38223644",
+      "38223455",
+      "38157451",
+      "37943325",
+      "37655337",
+      "37516152",
+      "36950116",
+      "36779633",
+      "36403334",
+      "36332383",
+      "36097583",
+      "35983933",
+      "35773412",
+      "35121391",
+      "34843692",
+      "34628369",
+      "34450194",
+      "34003642",
+      "33532182",
+      "32946962",
+      "32657248",
+      "32500752",
+      "32422328",
+      "31972168",
+      "31529728",
+      "30050067"
+    ],
+    "similar": [
+      "41034397",
+      "41362731",
+      "30050067",
+      "25753323",
+      "23121402",
+      "41494249",
+      "19460945",
+      "25319358",
+      "16141365",
+      "24219791",
+      "32946962",
+      "17188792",
+      "31336134",
+      "40339610",
+      "40076408",
+      "38848941",
+      "40163430",
+      "35092733",
+      "24575957",
+      "18588957",
+      "38166548",
+      "23363429",
+      "40065514",
+      "15456926",
+      "28341123",
+      "40016523",
+      "31378767",
+      "16636302",
+      "41276869",
+      "24661219",
+      "39236474",
+      "32677766",
+      "25142022",
+      "19219744",
+      "36723004",
+      "39001944",
+      "36923240",
+      "38763368",
+      "32029527",
+      "23743293",
+      "8387297",
+      "41285254",
+      "40014260",
+      "41493826",
+      "25956491",
+      "35403383",
+      "31077645",
+      "23665281",
+      "40694957",
+      "29184146",
+      "24950097",
+      "33662920",
+      "24070586",
+      "23896737",
+      "3060126",
+      "34110284",
+      "9715438",
+      "26666831",
+      "30794797",
+      "26806302",
+      "36472037",
+      "31207191",
+      "39952301",
+      "39809031",
+      "24992201",
+      "26558465",
+      "40764413",
+      "21920351",
+      "21633637",
+      "38032737",
+      "31155811",
+      "31302451",
+      "19002106",
+      "24951965",
+      "2009090",
+      "40008899",
+      "40003959",
+      "25926716",
+      "25452146",
+      "38994365",
+      "2932433",
+      "22982774",
+      "27029584",
+      "11866476",
+      "1676635",
+      "39816848",
+      "40691258",
+      "31132328",
+      "40133627",
+      "35813467",
+      "10741631",
+      "30030101",
+      "39870009",
+      "22107450",
+      "33290831",
+      "26523953",
+      "4033631",
+      "37046119",
+      "31150632",
+      "39019009"
+    ],
+    "review": [
+      "41034397",
+      "24575957"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41401-025-01632-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1739",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

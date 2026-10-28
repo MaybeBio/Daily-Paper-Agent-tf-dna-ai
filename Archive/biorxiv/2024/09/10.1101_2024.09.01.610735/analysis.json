@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.01.610735",
+  "title": "Benchmarking Recent Computational Tools for DNA-binding Protein Identification",
+  "authors": "Xizi Luo; Amadeus Song Yi Chi; Andre Huikai Lin; Tze Jet Ong; Limsoon Wong; Chowdhury Rafeed Rahman",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-03",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文对多种计算工具进行DNA结合蛋白识别基准测试，虽涉及蛋白-DNA互作对象，但聚焦于工具性能评估而非结合机制建模，方法上以机器学习工具比较为主，缺乏三维互作建模或动态机理研究，对本课题有间接参考价值。",
+  "abstract": "Identification of DNA-binding proteins (DBPs) is a crucial task in genome annotation, as it aids in understanding gene regulation, DNA replication, transcriptional control and various cellular processes. In this paper, we conduct an unbiased benchmarking of eleven state-of-the-art computational tools as well as traditional tools such as ScanProsite, BLAST, and HMMER for identifying DBPs. We highlight the data leakage issue in conventional datasets leading to inflated performance. We introduce new evaluation datasets to support further development. Through a comprehensive evaluation pipeline, we identify potential limitations in models, feature extraction techniques and training methods; and recommend solutions regarding these issues. We show that combining the predictions of the two best computational tools with BLAST based prediction significantly enhances DBP identification capability. We provide this consensus method as user-friendly software. The datasets and software are available at: https://github.com/Rafeed-bot/DNA_BP_Benchmarking . 1. Key Points We designed a comprehensive evaluation pipeline which systematically evaluates eleven recent machine learning (ML) based DBP identification tools. We analyzed the test prediction mistakes made by top-performing tools identifying their potential limitations in terms of model architecture, feature extraction and class balancing. We showed that although the best of these tools do not convincingly outperform BLAST, they still provide substantial value when integrated together with BLAST into a simple majority-voting ensemble. We provide recommendations on more robust development & evaluation and better usability of future tools. We provide the two best-performing ML-based tools, BLAST and the ensemble method as user-friendly software, as well as our proposed datasets, publicly available via GitHub.",
+  "abstract_zh": "DNA结合蛋白（DBPs）的识别是基因组注释中的关键任务，因为它有助于理解基因调控、DNA复制、转录控制及多种细胞过程。在本文中，我们对十一种最先进的计算工具以及传统工具如ScanProsite、BLAST和HMMER进行了无偏基准测试，用于识别DBPs。我们强调了传统数据集中导致性能虚高的数据泄漏问题，并引入了新的评估数据集以支持进一步开发。通过全面的评估流程，我们识别了模型、特征提取技术和训练方法中的潜在局限性，并针对这些问题提出了解决方案。我们展示了将两种最佳计算工具的预测与基于BLAST的预测相结合，能显著增强DBP识别能力，并将此共识方法作为用户友好软件提供。数据集和软件可在以下网址获取：https://github.com/Rafeed-bot/DNA_BP_Benchmarking。1. 关键点我们设计了一个全面的评估流程，系统评估了十一种近期基于机器学习（ML）的DBP识别工具。我们分析了表现最佳工具的测试预测错误，识别了它们在模型架构、特征提取和类别平衡方面的潜在局限性。我们表明，尽管这些最佳工具并未令人信服地超越BLAST，但当与BLAST集成到简单的多数投票集成中时，它们仍提供了实质性价值。我们为未来工具的更稳健开发与评估及更好可用性提供了建议。我们将两种表现最佳的基于ML的工具、BLAST及集成方法作为用户友好软件，以及我们提出的数据集，通过GitHub公开提供。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.01.610735",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.01.610735",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.01.610735/index.html"
+}

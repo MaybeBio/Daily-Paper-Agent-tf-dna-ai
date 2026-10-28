@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "40121273",
+    "doi": "10.1038/s41598-025-92872-2",
+    "title": "Development and validation of a postoperative prognostic model for hormone receptor positive early stage breast cancer recurrence."
+  },
+  "content": {
+    "abstract": "Predicting recurrence among early-stage hormone receptor-positive human epidermal growth factor receptor-negative breast cancer (HR+/HER2- BC) is crucial for guiding adjuvant therapy. However, studies are limited for patients with low recurrence risk. HR+/HER2- early-stage (T1-2N0-1) invasive BC patients who received definitive surgery and followed by endocrine therapy from four independent medical centers were included in this retrospective study. Patients from center 1 were used as derivation cohort, while those from other centers were combined as an external test cohort. A deep learning prognostic model, HERPAI, was developed based on Transformer to predict risk of invasive disease-free survival (iDFS) utilizing clinical and pathological predictors. The model performance was evaluated using C-index for the overall population and subgroups. Threshold for selecting 5-year recurrence risk > 10% was determined. Hazard ratio (HR) was estimated between risk groups for iDFS. A total of 6340 patients were included, of whom 5424 were assigned to the derivation cohort (training and validation [N = 4882] and internal test cohort [N = 542]), while 916 patients were utilized as external cohort. HERPAI yielded a C-index of 0.73 (95% CI 0.65-0.81), 0.73 (95% CI 0.62-0.85), and 0.68 (95% CI 0.60-0.77), in the validation, internal, and external test cohort, respectively. Consistent performances were observed for pre-specified subgroups. High-risk patients were associated with an increased risk of recurrence for validation (HR, 2.56 [95% CI 1.25-5.22], P = 0.01), internal test (HR, 2.52 [95% CI 0.97-6.57], P = 0.06) and external test (HR, 1.94 [95% CI 1.00-3.74], P = 0.049) cohort, respectively. HERPAI was a promising tool for selecting vulnerable early-stage HR+/HER2- BC patients who were at high-risk of recurrence. It could facilitate the prioritization of patients who may benefit more from escalating adjuvant treatment.",
+    "keywords": [
+      "Artificial intelligence",
+      "Breast cancer",
+      "Endocrine therapy",
+      "Hormone receptor-positive",
+      "Prognostic model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/metabolism/surgery",
+      "Middle Aged",
+      "*Neoplasm Recurrence, Local/pathology/metabolism",
+      "Prognosis",
+      "Retrospective Studies",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Adult",
+      "*Receptors, Estrogen/metabolism",
+      "*Receptors, Progesterone/metabolism",
+      "Aged",
+      "Neoplasm Staging",
+      "Disease-Free Survival"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Ruixin",
+        "Shi, Haoting",
+        "Shen, Yiqing",
+        "Wang, Xue",
+        "Zhao, Shi",
+        "Zhang, Nan",
+        "Zhang, Xueyan",
+        "Dong, Shuwen",
+        "Hu, Chao",
+        "Wu, Jiayi",
+        "Chai, Weimin",
+        "Chen, Xiaosong",
+        "Shen, Kunwei"
+      ],
+      "short_names": [
+        "Pan R",
+        "Shi H",
+        "Shen Y",
+        "Wang X",
+        "Zhao S",
+        "Zhang N",
+        "Zhang X",
+        "Dong S",
+        "Hu C",
+        "Wu J",
+        "Chai W",
+        "Chen X",
+        "Shen K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China.",
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China.",
+        "Department of Computer Science, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Pathology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "School of Public Health, Tianjin Medical University, Tianjin, China.",
+        "School of Public Health, Tianjin Medical University, Tianjin, China.",
+        "Changchun Institute of Biological Products, Changchun, China.",
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China.",
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China.",
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China.",
+        "Department of Radiology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China. chenxiaosong0156@hotmail.com.",
+        "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China. kwshen@medmail.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Ruixin",
+        "short_name": "Pan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Haoting",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yiqing",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shi",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Nan",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xueyan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Biological Products, Changchun, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Shuwen",
+        "short_name": "Dong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chao",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiayi",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Weimin",
+        "short_name": "Chai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaosong",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China. chenxiaosong0156@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Shen, Kunwei",
+        "short_name": "Shen K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Comprehensive Breast Health Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, 20025, China. kwshen@medmail.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/23 16:52",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38637635",
+      "38507751",
+      "38230766",
+      "38194616",
+      "37164379",
+      "36493792",
+      "36190501",
+      "36098020",
+      "35623026",
+      "34914339",
+      "34874182",
+      "34506321",
+      "34003702",
+      "33721561",
+      "33677313",
+      "32492160",
+      "32327646",
+      "32164620",
+      "31236598",
+      "31001608",
+      "29676944",
+      "29482517",
+      "29117498",
+      "28838210",
+      "28294295",
+      "27557300",
+      "26712515",
+      "26211827",
+      "25569120",
+      "24668611",
+      "24648761",
+      "21225900",
+      "20804570",
+      "20053270",
+      "19801202",
+      "17301074",
+      "17099194",
+      "7927897"
+    ],
+    "similar": [
+      "40121273",
+      "39545625",
+      "40148997",
+      "33152285",
+      "23025714",
+      "32954927",
+      "31378534",
+      "28199747",
+      "39191270",
+      "38833643",
+      "25600567",
+      "25888246",
+      "39442617",
+      "30201586",
+      "36175898",
+      "23749689",
+      "30570847",
+      "39153126",
+      "38744306",
+      "27268749",
+      "26187126",
+      "39742376",
+      "38677006",
+      "39746051",
+      "39350043",
+      "24725534",
+      "31750938",
+      "30456680",
+      "39515238",
+      "38722442",
+      "23318089",
+      "38922548",
+      "34244052",
+      "18657139",
+      "19786658",
+      "19884543",
+      "27762648",
+      "25880075",
+      "38780143",
+      "25735380",
+      "39232268",
+      "32408905",
+      "22028054",
+      "33183970",
+      "22621306",
+      "21029696",
+      "39448293",
+      "34090143",
+      "26467036",
+      "38838498",
+      "39248049",
+      "32048817",
+      "36539895",
+      "40247248",
+      "27477822",
+      "29902286",
+      "30384581",
+      "29475920",
+      "20332136",
+      "23829891",
+      "30852142",
+      "23483340",
+      "22621334",
+      "34257555",
+      "26511263",
+      "20711652",
+      "39145953",
+      "22579462",
+      "33028590",
+      "23146280",
+      "22511276",
+      "38935923",
+      "22689016",
+      "24596361",
+      "33539215",
+      "21242587",
+      "33617937",
+      "25956579",
+      "33794440",
+      "26253629",
+      "40159245",
+      "21472372",
+      "25034438",
+      "38692082",
+      "26705158",
+      "32799886",
+      "38000091",
+      "40317148",
+      "40184873",
+      "26351632",
+      "39487260",
+      "25218592",
+      "29330212",
+      "20458051",
+      "30328050",
+      "39680314",
+      "38943737",
+      "20890067",
+      "39317942",
+      "24742606"
+    ],
+    "review": [
+      "40121273"
+    ],
+    "pmc": [
+      "11929926"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-92872-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40121273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

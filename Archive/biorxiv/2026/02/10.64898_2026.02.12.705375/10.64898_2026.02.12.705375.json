@@ -1,0 +1,120 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.12.705375",
+  "title": "Discovery of TDP-43 aggregation inhibitors via a hybrid machine learning framework",
+  "doi": "10.64898/2026.02.12.705375",
+  "abstract": "TAR DNA-binding protein 43 (TDP-43) aggregation is a hallmark of several neurodegenerative diseases, including amyotrophic lateral sclerosis and frontotemporal dementia. Recent therapeutic efforts have highlighted the potential of small molecules capable of inhibiting TDP-43 aggregation; however, no effective treatments currently exist. Here, we developed a hybrid machine learning approach combining graph neural network (GNN) embeddings with traditional chemical descriptors and biological target annotations. Using XGBoost as the final classifier enabled model interpretability through SHAP analysis, allowing the identification of key chemical features and target annotations associated with TDP-43 anti-aggregation activity. Complementary Monte Carlo Tree Search analysis highlighted specific chemical substructures linked to predicted activity. By screening an external library of 3,853 small molecules, the model identified two compounds not previously evaluated against TDP-43 aggregation, namely berberrubine and PE859. Molecular docking analysis revealed that both compounds interact favourably with the TDP-43 RNA recognition motif (RRM) domain through distinct binding modes. Experimental validation showed that both compounds significantly reduced TDP-43 aggregation in HEK cells. Further testing in Caenorhabditis elegans expressing human TDP-43 demonstrated that PE859 significantly rescued locomotor defects, while berberrubine showed partial improvement. This work establishes a hybrid machine learning approach for accelerating small molecule drug discovery, yielding two promising therapeutic candidates for TDP-43 proteinopathies.",
+  "authors": [
+    "Kapsiani S",
+    "Vora S",
+    "Fernandez-Villegas A",
+    "Kaminski CF",
+    "Läubli NF",
+    "Kaminski Schierle GS"
+  ],
+  "published_date": "2026-02-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705375",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705375.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223963",
+    "raw_record": {
+      "id": "PPR1223963",
+      "source": "PPR",
+      "doi": "10.64898/2026.02.12.705375",
+      "title": "Discovery of TDP-43 aggregation inhibitors  <i>via</i>  a hybrid machine learning framework",
+      "authorString": "Kapsiani S, Vora S, Fernandez-Villegas A, Kaminski CF, Läubli NF, Kaminski Schierle GS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kapsiani S",
+            "lastName": "Kapsiani",
+            "firstName": "Sofia",
+            "initials": "S"
+          },
+          {
+            "fullName": "Vora S",
+            "lastName": "Vora",
+            "firstName": "Sulay",
+            "initials": "S"
+          },
+          {
+            "fullName": "Fernandez-Villegas A",
+            "lastName": "Fernandez-Villegas",
+            "firstName": "Ana",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kaminski CF",
+            "lastName": "Kaminski",
+            "firstName": "Clemens",
+            "initials": "CF"
+          },
+          {
+            "fullName": "Läubli NF",
+            "lastName": "Läubli",
+            "firstName": "Nino",
+            "initials": "NF"
+          },
+          {
+            "fullName": "Kaminski Schierle GS",
+            "lastName": "Kaminski Schierle",
+            "firstName": "Gabriele",
+            "initials": "GS"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "TAR DNA-binding protein 43 (TDP-43) aggregation is a hallmark of several neurodegenerative diseases, including amyotrophic lateral sclerosis and frontotemporal dementia. Recent therapeutic efforts have highlighted the potential of small molecules capable of inhibiting TDP-43 aggregation; however, no effective treatments currently exist. Here, we developed a hybrid machine learning approach combining graph neural network (GNN) embeddings with traditional chemical descriptors and biological target annotations. Using XGBoost as the final classifier enabled model interpretability through SHAP analysis, allowing the identification of key chemical features and target annotations associated with TDP-43 anti-aggregation activity. Complementary Monte Carlo Tree Search analysis highlighted specific chemical substructures linked to predicted activity. By screening an external library of 3,853 small molecules, the model identified two compounds not previously evaluated against TDP-43 aggregation, namely berberrubine and PE859. Molecular docking analysis revealed that both compounds interact favourably with the TDP-43 RNA recognition motif (RRM) domain through distinct binding modes. Experimental validation showed that both compounds significantly reduced TDP-43 aggregation in HEK cells. Further testing in  Caenorhabditis elegans expressing human TDP-43 demonstrated that PE859 significantly rescued locomotor defects, while berberrubine showed partial improvement. This work establishes a hybrid machine learning approach for accelerating small molecule drug discovery, yielding two promising therapeutic candidates for TDP-43 proteinopathies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.12.705375"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-14",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

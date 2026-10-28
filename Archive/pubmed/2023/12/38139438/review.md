@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that the USH1G protein SANS directly binds spliceosomal proteins PRPF31 and PRPF6 via two distinct conserved regions of its CENTn domain, that these interactions occur sequentially, that PRPF6 binding induces a disorder-to-helix conformational transition in SANS CENTn2, and that pathogenic USH1G/SANS variants perturb these interactions, implicating disrupted splicing factor binding in USH1G pathophysiology.
+- **Visible evidence base** FRET acceptor photobleaching assays in HEK293T cells; AlphaFold2-multimer structural predictions; Metapredict disorder predictions; CIDER sequence analysis; multiple sequence alignments; Western blot; confocal microscopy with Pearson coefficients
+- **Missing materials affecting confidence** Supplementary figures and tables (Figures S1–S9, Tables S1–S3) referenced but not provided; raw numerical data for FRET efficiencies; statistical test details and exact p-values; AlphaFold2 confidence metrics beyond PAEmean; experimental replicates for structural predictions; validation data for the AlphaFold2-multimer workflow against the harmonin–SANS crystal structure
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a potentially important question regarding the molecular basis of Usher syndrome type 1G by characterizing the interaction between SANS and two spliceosomal proteins. The combination of cellular FRET assays with in silico structural prediction is a reasonable approach. However, the evidence presented has several limitations. The FRET data are described qualitatively in the text with key quantitative details relegated to figures that were not provided for assessment. The AlphaFold2-multimer predictions, while suggestive, are not experimentally validated for the specific interactions claimed. The claim of sequential binding is inferred from competition experiments with modest effect sizes. The conclusion that pathogenic variants disrupt PRPF binding is based on two frameshift mutants, one of which retains PRPF31 binding, complicating the interpretation. The manuscript would benefit from clearer presentation of quantitative data, additional validation of the structural predictions, and a more nuanced discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers studying Usher syndrome pathogenesis, particularly the molecular functions of USH1G/SANS; investigators interested in the intersection of splicing regulation and inherited retinal disease; structural biologists studying protein–protein interactions involving intrinsically disordered regions; clinicians and geneticists seeking mechanistic understanding of genotype–phenotype correlations in USH1G-associated disease.
+- **Major strengths** The study addresses a relatively unexplored aspect of SANS function beyond its established roles in hair cell stereocilia and photoreceptor calyceal processes. The combination of live-cell FRET with deep learning-based structural prediction is a modern and potentially powerful approach. The identification of distinct binding regions within the CENTn domain for two different PRPF proteins provides a testable model. The inclusion of pathogenic patient-derived variants links the basic science to clinical relevance. The authors acknowledge limitations of their structural predictions and provide their models in a public repository.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that FRET assays demonstrate direct binary interaction between SANS and PRPF31 and PRPF6 in the nucleus, with signal levels comparable to a positive control.
+  - **Evidence pointer** Section 2.1, Figures 2 and 3, Figure S1
+  - **Concern** The quantitative FRET efficiency data are not presented in the manuscript text. The authors state that FRET signals were "at the same height" as the positive control but do not provide numerical values, variance measures, or statistical comparisons. The negative control (PRPF3) is described as showing no notable signal, but the threshold for "notable" is not defined. Without access to the actual FRET efficiency distributions, replicate numbers, and statistical analysis, the strength of the interaction claims cannot be evaluated. The figure legends referenced are not available in the provided material.
+  - **Why it matters** The central claim of direct interaction between SANS and the two PRPF proteins rests entirely on the FRET data. If the effect sizes are small or the variance is high, the conclusion of specific, direct binding would be weakened. The comparison to positive and negative controls is essential for interpreting FRET efficiency values, and this comparison is not quantitatively documented.
+  - **Resolution test** Provide the full FRET efficiency dataset including individual data points, means, standard deviations or standard errors, number of biological and technical replicates, and the statistical test used with exact p-values for all pairwise comparisons. Include the distribution of FRET efficiencies for the positive control, negative control, and each experimental condition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that AlphaFold2-multimer predictions identify two distinct conserved regions in SANS CENTn (CENTn1 and CENTn2) that bind PRPF31 and PRPF6 respectively, and that PRPF6 binding induces a disorder-to-helix transition in CENTn2.
+  - **Evidence pointer** Section 2.2, Figures 4 and 5, Figures S2–S4, Table S2
+  - **Concern** The AlphaFold2-multimer predictions are presented as evidence for specific interaction interfaces, but the confidence metrics are only partially reported. The PAEmean values are given for some predictions, but the authors do not report pLDDT scores for the interface residues, which are critical for assessing whether the predicted contacts are reliable. The claim of a conformational change in CENTn2 upon PRPF6 binding is based on comparing predicted structures, but the authors do not provide experimental validation of this transition. The benchmark against the harmonin–SANS crystal structure is mentioned but the comparison details are not shown. The authors acknowledge low overall confidence for the PRPF6-SANS complex, which undermines the strength of the conformational change claim.
+  - **Why it matters** The structural model provides the mechanistic framework for understanding how SANS interacts with two different PRPF proteins and how pathogenic variants might disrupt these interactions. If the predicted interfaces are not reliable, the interpretation of the variant effects becomes speculative. The disorder-to-helix transition is a specific mechanistic claim that requires stronger evidence than a single prediction method.
+  - **Resolution test** Provide pLDDT scores for all interface residues in the predicted complexes. Show the full benchmark comparison against the harmonin–SANS crystal structure including RMSD values. Validate the predicted PRPF6-induced conformational change using an orthogonal method such as circular dichroism spectroscopy, limited proteolysis, or hydrogen-deuterium exchange. Alternatively, temper the claim to reflect that the conformational change is predicted but not experimentally confirmed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation
+  - **Claim pointer** The authors claim that the interaction between SANS and PRPF31 is independent of PRPF6, but that PRPF31 interferes with the SANS-PRPF6 interaction, suggesting sequential binding.
+  - **Evidence pointer** Section 2.1, Figure 3E,F
+  - **Concern** The competition experiment shows only a 16% reduction in FRET efficiency for the SANS-PRPF6 pair in the presence of PRPF31. The authors interpret this as evidence for competition or conformational change, but a 16% reduction could also be explained by steric effects of overexpression, changes in local protein concentration, or indirect effects on complex stoichiometry. The claim of sequential binding is a strong mechanistic interpretation that requires additional evidence. The authors do not test whether the order of addition matters, whether the effect is dose-dependent, or whether the reduction is specific to PRPF31 versus an unrelated protein.
+  - **Why it matters** The sequential binding model has implications for how SANS functions in the dynamic assembly and disassembly of the tri-snRNP complex. If the interpretation is incorrect, the proposed mechanism of SANS action in splicing regulation would need revision. The modest effect size and lack of additional experiments weaken the sequential binding claim.
+  - **Resolution test** Perform dose-response experiments with increasing PRPF31 concentrations. Include a control with an unrelated mRFP-tagged protein that does not interact with SANS or PRPF6. Test whether pre-incubation with PRPF31 followed by PRPF6 addition gives different results than simultaneous addition. Consider using a three-color FRET approach or fluorescence cross-correlation spectroscopy to directly test for ternary complex formation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that pathogenic variants USH1G/SANSV132Gfs*3 and USH1G/SANSS278Pfs*71 disrupt interactions with PRPF6 and PRPF31, implying significance for USH1G pathophysiology.
+  - **Evidence pointer** Section 2.4, Figures 6 and S6–S8
+  - **Concern** The data show that SANSV132Gfs*3 retains PRPF31 binding while losing PRPF6 binding, and SANS278Pfs*71 loses both. The authors interpret this as evidence that disrupted PRPF binding underlies pathophysiology. However, both variants are frameshift mutations that produce truncated proteins. The loss of interaction could be a non-specific consequence of protein misfolding or mislocalization rather than a specific disruption of the PRPF binding interface. The authors do not assess protein stability, folding, or subcellular localization of the mutant proteins. The claim that these findings imply significance for USH1G pathophysiology requires demonstration that the observed binding defects are causally linked to the disease phenotype.
+  - **Why it matters** The manuscript aims to provide mechanistic insight into USH1G disease. If the binding defects are simply a consequence of protein truncation and degradation, the specific role of PRPF interactions in disease pathogenesis is not established. The interpretation has implications for understanding genotype-phenotype correlations and potential therapeutic strategies.
+  - **Resolution test** Assess protein expression levels and stability of the mutant proteins by Western blot with quantification. Determine subcellular localization of the mutants by immunofluorescence. Include a control with a missense variant that is known to be stably expressed. Consider complementation assays in SANS-deficient cells to test whether the mutants can rescue splicing defects. If the mutants are unstable, temper the claim to state that the variants disrupt PRPF binding, but the specific contribution to pathophysiology requires further investigation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that the AlphaFold2-multimer workflow was benchmarked against the harmonin–SANS crystal structure and produced a similar complex.
+  - **Evidence pointer** Section 2.2, Figure S3B
+  - **Concern** The benchmark comparison is described in a single sentence with the result shown only in a supplementary figure that was not provided. The authors do not report quantitative metrics such as interface RMSD, fraction of native contacts, or DockQ score. Without these metrics, the reader cannot assess how similar the predicted complex is to the experimentally determined structure. This is particularly important because the authors use the same workflow to make predictions about PRPF31 and PRPF6 binding that are not experimentally validated.
+  - **Why it matters** The reliability of the AlphaFold2-multimer predictions for the PRPF interactions depends on the demonstrated accuracy of the workflow. If the benchmark shows poor agreement with the crystal structure, the confidence in the PRPF predictions is correspondingly reduced. The authors need to provide quantitative evidence that their prediction pipeline produces reliable complexes.
+  - **Resolution test** Provide the quantitative comparison metrics for the harmonin–SANS benchmark including interface RMSD, DockQ score, and a visual overlay figure. If the benchmark shows good agreement, state this explicitly with the numerical values. If the agreement is poor, discuss the limitations and temper the claims based on the predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that pathogenic variants "perturb the binding of SANS to both PRPFs," but the results show that SANSV132Gfs*3 retains PRPF31 binding. This overstates the findings.
+  - **Required correction** Revise to state that the variants perturb binding to PRPF6, and that one variant also disrupts PRPF31 binding, while the other retains PRPF31 interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends and results text
+  - **Evidence pointer** Section 2.1, Figures 3 and 6
+  - **Issue** The statistical methods are described only in general terms in Section 4.10. The specific tests used for each comparison, the number of replicates, and the exact p-values are not stated in the results text or figure legends.
+  - **Required correction** Add statistical details to each figure legend including the test used, sample size, and exact p-values. State in the results text which comparisons were statistically significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on PRPF31 binding to SANS N-terminus
+  - **Evidence pointer** Section 3, paragraph 3
+  - **Issue** The discussion of the alternative PRPF31 binding site in the N-terminal ankyrin repeats is speculative. The authors note that AlphaFold2-multimer failed to predict this interaction but do not discuss why this might be the case or what alternative approaches could validate this finding.
+  - **Required correction** Add a brief discussion of why AlphaFold2-multimer might fail for this interaction (e.g., the ankyrin repeat region may require conformational flexibility not captured by the prediction) and suggest experimental approaches to validate this interaction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3, Figure 5
+  - **Evidence pointer** Section 2.3
+  - **Issue** The evolutionary conservation analysis is described as covering "more than 98 mammals and 266 vertebrate species," but the specific species included, the alignment method, and the conservation scoring metric are not described in the methods.
+  - **Required correction** Add details of the species set, alignment method, and conservation scoring to Section 4.7.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The term "pre-RNA" is used in the title and occasionally in the text, but the standard term is "pre-mRNA." This is inconsistent with the abstract and most of the text which use "pre-mRNA."
+  - **Required correction** Use "pre-mRNA" consistently throughout, including the title.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section 4.6
+  - **Evidence pointer** Section 4.6
+  - **Issue** The AlphaFold2 predictions are stated to be documented on GitHub, but the repository link is provided only in the results section and not in a data availability statement.
+  - **Required correction** Add a formal data availability statement with the GitHub repository link and accession information for all structural models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative FRET data missing), R1-M2 (insufficient confidence metrics for structural predictions), R1-M3 (competition experiment interpretation overreaches the data), R1-M4 (variant effects not distinguished from non-specific consequences of truncation)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relatively unexplored aspect of SANS function in splicing regulation, which is a novel angle for USH1G research. However, the conceptual framework of splicing factor dysfunction in retinal degeneration is well established, and the specific findings here represent incremental progress rather than a conceptual breakthrough. Scientific importance: The work has potential relevance for understanding Usher syndrome pathophysiology and the intersection of splicing and inherited retinal disease. However, the importance is tempered by the lack of functional validation linking the observed binding defects to disease mechanisms. Interdisciplinary readership: The topic bridges molecular biology, structural biology, and clinical genetics, which could attract readers from multiple disciplines. However, the technical nature of the FRET and structural prediction methods may limit accessibility. Technical soundness: The experimental design is generally reasonable, but the lack of quantitative data presentation, incomplete statistical reporting, and reliance on a single prediction method for the conformational change claim reduce the technical rigor. Readability for nonspecialists: The manuscript is generally well-written and the logic is clear, but the results section relies heavily on figure references without sufficient quantitative detail in the text, making it difficult for readers to evaluate the evidence without constant reference to figures.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and the approach is reasonable, but the evidence as presented has substantial gaps. The quantitative FRET data are not available for assessment, the structural predictions lack sufficient confidence metrics, and the interpretation of the competition and variant experiments overreaches the data. The authors should be invited to revise and resubmit with the full quantitative dataset, additional validation of the structural predictions, and more measured interpretations of the findings.
+
+## Risk / unsupported claims
+- The claim that SANS directly binds PRPF31 and PRPF6 is supported by FRET data, but the quantitative evidence is not presented in the provided material and cannot be fully evaluated.
+- The claim that PRPF6 binding induces a disorder-to-helix conformational transition in SANS CENTn2 is based solely on AlphaFold2-multimer predictions without experimental validation.
+- The claim that SANS binds sequentially to PRPF31 and PRPF6 is inferred from a single competition experiment with a 16% effect size and lacks direct evidence for sequential versus simultaneous binding.
+- The claim that pathogenic variants disrupt PRPF binding and that this underlies USH1G pathophysiology is complicated by the use of truncation mutants that may have non-specific effects on protein stability or folding.
+- The claim that PRPF31 has an alternative binding site in the N-terminal ankyrin repeats of SANS is based on a single FRET experiment with a truncated construct and is not supported by structural predictions.
+- The statement that "perturbations in the molecular interactions between the components of the U4/U6.U5 tri-snRNP complex are consistent with the fact that mutations in PRPF6, PRPF31, and USH1G/SANS have almost identical effects on splicing" is an extrapolation that requires direct comparative evidence not provided in this manuscript.

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "37552691",
+    "doi": "10.1093/pcp/pcad076",
+    "title": "Circadian Clock Controls Root Hair Elongation through Long-Distance Communication."
+  },
+  "content": {
+    "abstract": "Plants adapt to periodic environmental changes, such as day and night, by using circadian clocks. Cell division and elongation are primary steps to adjust plant development according to their environments. In Arabidopsis, hypocotyl elongation has been studied as a representative model to understand how the circadian clock regulates cell elongation. However, it remains unknown whether similar phenomena exist in other organs, such as roots, where circadian clocks regulate physiological responses. Here, we show that root hair elongation is controlled by both light and the circadian clock. By developing machine-learning models to automatically analyze the images of root hairs, we found that genes encoding major components of the central oscillator, such as TIMING OF CAB EXPRESSION1 (TOC1) or CIRCADIAN CLOCK ASSOCIATED1 (CCA1), regulate the rhythmicity of root hair length. The partial illumination of light to either shoots or roots suggested that light received in shoots is mainly responsible for the generation of root hair rhythmicity. Furthermore, grafting experiments between wild-type (WT) and toc1 plants demonstrated that TOC1 in shoots is responsible for the generation of root hair rhythmicity. Our results illustrate the combinational effects of long-distance signaling and the circadian clock on the regulation of root hair length.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "Circadian clock",
+      "Deep learning",
+      "Root hair",
+      "TOC1"
+    ],
+    "mesh_terms": [
+      "*Circadian Clocks/genetics",
+      "*Arabidopsis Proteins/metabolism",
+      "Circadian Rhythm/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "*Arabidopsis/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ikeda, Hikari",
+        "Uchikawa, Taiga",
+        "Kondo, Yohei",
+        "Takahashi, Nozomu",
+        "Shishikui, Takuma",
+        "Watahiki, Masaaki K",
+        "Kubota, Akane",
+        "Endo, Motomu"
+      ],
+      "short_names": [
+        "Ikeda H",
+        "Uchikawa T",
+        "Kondo Y",
+        "Takahashi N",
+        "Shishikui T",
+        "Watahiki MK",
+        "Kubota A",
+        "Endo M"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3926-484X",
+        "ORCID: 0000-0001-6669-9692",
+        "ORCID: 0000-0003-1347-3950",
+        "ORCID: 0000-0002-4621-9679"
+      ],
+      "affiliations": [
+        "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan.",
+        "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan.",
+        "Quantitative Biology Research Group, Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, 444-8787 Japan.",
+        "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan.",
+        "PRESTO, Japan Science and Technology Agency, Kawaguchi, Saitama, 332-0012 Japan.",
+        "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan.",
+        "Graduate School of Life Science, Hokkaido University, Sapporo, 060-0810 Japan.",
+        "Faculty of Science, Hokkaido University, Sapporo, 060-0810 Japan.",
+        "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan.",
+        "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ikeda, Hikari",
+        "short_name": "Ikeda H",
+        "identifiers": [
+          "0009-0002-3926-484X"
+        ],
+        "affiliations": [
+          "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan."
+        ]
+      },
+      {
+        "full_name": "Uchikawa, Taiga",
+        "short_name": "Uchikawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan."
+        ]
+      },
+      {
+        "full_name": "Kondo, Yohei",
+        "short_name": "Kondo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Biology Research Group, Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, 444-8787 Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Nozomu",
+        "short_name": "Takahashi N",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan.",
+          "PRESTO, Japan Science and Technology Agency, Kawaguchi, Saitama, 332-0012 Japan."
+        ]
+      },
+      {
+        "full_name": "Shishikui, Takuma",
+        "short_name": "Shishikui T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan."
+        ]
+      },
+      {
+        "full_name": "Watahiki, Masaaki K",
+        "short_name": "Watahiki MK",
+        "identifiers": [
+          "0000-0001-6669-9692"
+        ],
+        "affiliations": [
+          "Graduate School of Life Science, Hokkaido University, Sapporo, 060-0810 Japan.",
+          "Faculty of Science, Hokkaido University, Sapporo, 060-0810 Japan."
+        ]
+      },
+      {
+        "full_name": "Kubota, Akane",
+        "short_name": "Kubota A",
+        "identifiers": [
+          "0000-0003-1347-3950"
+        ],
+        "affiliations": [
+          "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan."
+        ]
+      },
+      {
+        "full_name": "Endo, Motomu",
+        "short_name": "Endo M",
+        "identifiers": [
+          "0000-0002-4621-9679"
+        ],
+        "affiliations": [
+          "Graduate School of Science and Technology, Nara Institute of Science and Technology, Ikoma, 630-0192 Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant & cell physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Cell Physiol"
+    ],
+    "pub_date": "2023 Dec 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/08 18:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "41775854",
+      "41775820",
+      "41188074",
+      "40667004",
+      "39552493"
+    ],
+    "refs": [],
+    "similar": [
+      "37552691",
+      "19948792",
+      "35644867",
+      "17616736",
+      "17384164",
+      "11486091",
+      "17483414",
+      "21205033",
+      "23128602",
+      "30124938",
+      "16617099",
+      "27207270",
+      "12509533",
+      "31529098",
+      "23506153",
+      "19218364",
+      "21447790",
+      "32303120",
+      "16212608",
+      "19098071",
+      "21474993",
+      "35297190",
+      "22694320",
+      "22315425",
+      "22403178",
+      "25848708",
+      "22878891",
+      "26941090",
+      "39273073",
+      "31097584",
+      "22899064",
+      "18178585",
+      "21483796",
+      "19095940",
+      "18055606",
+      "29337078",
+      "22715042",
+      "18676661",
+      "26725725",
+      "32152179",
+      "17873091",
+      "35567528",
+      "23645632",
+      "23299326",
+      "19339503",
+      "17540692",
+      "35008619",
+      "15649364",
+      "16006522",
+      "19029881",
+      "29576425",
+      "34674171",
+      "15767265",
+      "27071129",
+      "38654596",
+      "25012192",
+      "27354555",
+      "36631969",
+      "30674693",
+      "15734916",
+      "29398214",
+      "17519251",
+      "14749486",
+      "21236675",
+      "14654842",
+      "11100772",
+      "34246232",
+      "9425143",
+      "17098855",
+      "27240972",
+      "22190341",
+      "29989313",
+      "21358285",
+      "10023572",
+      "20233950",
+      "21079791",
+      "26829165",
+      "11828023",
+      "12096093",
+      "20354196",
+      "22685167",
+      "15169947",
+      "31985350",
+      "38599247",
+      "27012548",
+      "12668783",
+      "18281507",
+      "12007421",
+      "19060255",
+      "36195835",
+      "24500967",
+      "23037003",
+      "15725674",
+      "31044168",
+      "19015137",
+      "31182558",
+      "21781194",
+      "35218268",
+      "26144255",
+      "33822207",
+      "28250106",
+      "39331704",
+      "30814643",
+      "32179629",
+      "31415556",
+      "37705303",
+      "38255990",
+      "18433436",
+      "32457350",
+      "38594541",
+      "39207587",
+      "35640123",
+      "33100175",
+      "37897048",
+      "19841666",
+      "36768730",
+      "35312157",
+      "28829375",
+      "33825662",
+      "27493185",
+      "35687153",
+      "37721961",
+      "37781622",
+      "37131835",
+      "37323229",
+      "32607464",
+      "38351880",
+      "18298828",
+      "23202214",
+      "37432368"
+    ],
+    "review": [
+      "37552691",
+      "10023572",
+      "12096093",
+      "38255990",
+      "39207587",
+      "35640123",
+      "36768730"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcad076",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40654659",
+  "title": "Genome structure mapping with high-resolution 3D genomics and deep learning.",
+  "authors": "Hong, Clarice K Y; Feng, Fan; Ramanathan, Varshini; Liu, Jie; Hansen, Anders S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-07-14",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型Cleopatra预测高分辨率3D基因组接触图，聚焦增强子-启动子环与CTCF锚定，虽涉及TF提名但核心是染色质结构而非TF-DNA结合建模，方法可迁移至TF-DNA互作预测。",
+  "abstract": "Gene expression is often regulated by distal enhancers through cell-type-specific 3D looping interactions, but comprehensive mapping of these interactions across cell types is experimentally intractable. To address this gap, we introduce an integrated approach where we generate ultra-deep Region Capture Micro-C (RCMC) and Micro-C data specifically designed for state-of-the-art deep learning architectures. We developed Cleopatra, an attention-based deep learning model that takes epigenomic inputs and is pre-trained on genome-wide Micro-C data followed by fine-tuning with high-resolution RCMC data. Cleopatra accurately predicts 3D maps at sub-kilobase bin sizes and unprecedented resolution, enabling us to generate ultra-high-resolution, genome-wide 3D contact maps across four human cell types. These maps revealed cell-type-specific microcompartments and over 900,000 loops across the cell types, about half of which are cell-type-specific. Using Cleopatra maps, we observe that promoters form about a dozen loops on average, and that expression increases monotonically with the number of loops, indicating that looping is associated with higher gene expression. We further show the enhancer-promoter loops are often anchored by CTCF, and nominate new transcription factors that may regulate cell-type-specific enhancer-promoter interactions. Overall, we establish a framework for ultra-high-resolution 3D genome mapping, providing a broadly applicable resource for gaining new insights into cell-type-specific gene regulation.",
+  "abstract_zh": "基因表达常通过细胞类型特异性的三维（3D）环状相互作用由远端增强子调控，但跨细胞类型全面绘制这些相互作用在实验上难以实现。为弥补这一空白，我们引入了一种集成方法，生成专为最先进深度学习架构设计的超深度区域捕获Micro-C（RCMC）和Micro-C数据。我们开发了Cleopatra，一种基于注意力的深度学习模型，该模型以表观基因组输入为基础，并在全基因组Micro-C数据上预训练，随后使用高分辨率RCMC数据进行微调。Cleopatra能以亚千碱基（sub-kilobase）的bin大小和前所未有的分辨率准确预测3D图谱，使我们能够生成四种人类细胞类型的超高分辨率全基因组3D接触图谱。这些图谱揭示了细胞类型特异性的微区室（microcompartments），并识别出跨细胞类型的超过900,000个环，其中约一半为细胞类型特异性。利用Cleopatra图谱，我们观察到启动子平均形成约十几个环，且表达水平随环数量单调增加，表明环化与更高的基因表达相关。我们进一步显示，增强子-启动子环通常由CTCF锚定，并提名可能调控细胞类型特异性增强子-启动子相互作用的新转录因子。总体而言，我们建立了一个超高分辨率3D基因组图谱绘制框架，为获得细胞类型特异性基因调控的新见解提供了广泛适用的资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40654659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40654659/",
+  "paper_page_path": "papers/pubmed/40654659/index.html"
+}

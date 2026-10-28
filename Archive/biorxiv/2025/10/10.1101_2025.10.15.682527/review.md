@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, figure legends, and supplementary table descriptions.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and adherence to Nature-style criteria. Not assessed: editorial formatting, grammar, or stylistic preferences beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors propose that transposable elements (TEs), particularly the primate-specific HERVL family, have been co-opted as cell-type-specific cis-regulatory elements (CREs) during mammalian cerebellum development. They combine single-cell multiomics data from four species with a deep-learning model (DeepCeREvo) to identify TE fragments with regulatory potential, and validate HERVL enhancer activity via reporter assays. They further argue that HERVL accessibility is determined by preservation of TF binding sites and pre-existing active chromatin environments, and that species-specific HERVL insertions contribute to gene expression divergence in primate cerebellar granule cells.
+- **Visible evidence base** Abstract, full introduction, full results section (narrative only, no figures or tables included in the provided text), full discussion, methods section, data availability, code availability, author contributions, acknowledgements, and list of supplementary tables. Figure and table contents are referenced but not provided.
+- **Missing materials affecting confidence** All figures, extended data figures, and supplementary tables are referenced but not included. This includes the primary quantitative results (enrichment analyses, DeepCeREvo scores, reporter assay data, phylogenetic trees, compartment analyses). Without these, the statistical strength, effect sizes, and robustness of the claims cannot be independently evaluated.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in evolutionary genomics: the contribution of transposable elements to cell-type-specific gene regulation in the developing mammalian brain. The combination of single-cell multiomics across four species with a deep-learning framework is methodologically ambitious and potentially powerful. The focus on HERVL and its specific co-option in rhombic-lip-derived neuroblasts is a novel and interesting finding. However, the manuscript as presented has several significant gaps. The results section is entirely narrative, with no figures or tables available for evaluation, making it impossible to assess the quantitative support for the claims. The reporter assay validation is limited to a single experimental system and shows directional effects that are not fully explained. The causal link between HERVL accessibility and gene expression changes, while suggested, is not rigorously established. The discussion of evolutionary constraints versus TE co-option is plausible but somewhat speculative. Overall, the study has strong potential, but the current evidence base is insufficient to fully support the broad conclusions drawn.
+- **Who would be interested in the results, and why** Evolutionary biologists studying regulatory innovation and TE function; neuroscientists interested in cerebellar development and cell-type specification; computational biologists developing deep-learning approaches for regulatory genomics; primatologists and those interested in human-specific genomic features. The general framework for assessing TE regulatory potential is broadly applicable and would interest a wide genomics audience.
+- **Major strengths** 1) The use of single-cell multiomics across four species is a powerful design for studying cell-type-specific regulatory evolution. 2) The integration of a deep-learning model to systematically screen TE fragments is an innovative and scalable approach. 3) The identification of HERVL as a primate-specific element with regulatory potential in a specific neuronal lineage is a concrete and testable finding. 4) The combination of computational prediction with experimental validation (reporter assays) strengthens the study. 5) The analysis of both sequence-level (TF binding site preservation) and chromatin-level (local environment) determinants of TE activity provides a more complete picture.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TEs contribute to 62% of human-specific and 29% of primate-specific cCREs, and that these contributions are significantly overrepresented compared to all human cCREs.
+  - **Evidence pointer** Results section, Figure 1b; location not provided
+  - **Concern** The quantitative basis for this central claim is not verifiable from the provided text. The figure is not included, and the statistical methods for the enrichment analysis are only briefly described in the methods. The choice of background model, the handling of multiple testing, and the definition of "species-specific" cCREs are not fully detailed.
+  - **Why it matters** This is a foundational result that sets up the entire study. If the enrichment calculation is flawed or the background model is inappropriate, the conclusion that TEs are overrepresented in species-specific cCREs would be undermined.
+  - **Resolution test** Provide the full enrichment analysis with clear description of the statistical model, including the background model, multiple testing correction, and a visual representation of the data (e.g., Figure 1b). Show that the result is robust to alternative definitions of species-specificity and background.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DeepCeREvo identified 17 TE fragments with high regulatory potential, and that these fragments contain complex cis-regulatory sequences in their ancestral states.
+  - **Evidence pointer** Results section, Figure 2a, Extended Data Figure 3a, Supplementary Table 2; location not provided
+  - **Concern** The deep-learning screening approach is central to the study, but the validation of the model's predictions is not fully described. The authors mention "attribution analysis" but do not explain how the model's predictions were calibrated or how the threshold for "high regulatory potential" was set. The comparison to shuffled controls is mentioned, but the details of the shuffling procedure and the statistical test are not given. Furthermore, the claim that the identified fragments have "complex cis-regulatory sequences" is based on the presence of TF binding sites, but the functional significance of these specific motifs is not experimentally tested for most fragments.
+  - **Why it matters** The entire screening pipeline rests on the reliability of DeepCeREvo. If the model is not well-calibrated or the thresholds are arbitrary, the list of 17 fragments may not be meaningful. The claim of "complex cis-regulatory sequences" requires more than motif presence; it requires evidence of functional activity.
+  - **Resolution test** Provide a detailed description of the model validation, including calibration plots, precision-recall analysis, and a clear definition of the threshold for "high regulatory potential." Show that the 17 identified fragments are significantly more active than expected by chance in an independent assay, or provide additional experimental validation for at least a subset of the fragments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that HERVL elements contribute to species-specific gene expression patterns in differentiating granule cells, and that genes near accessible HERVL copies show elevated expression compared to orthologs in other species.
+  - **Evidence pointer** Results section, Figure 6d, 6e, Supplementary Table 5; location not provided
+  - **Concern** The link between HERVL accessibility and gene expression is correlative. The authors show that genes near accessible HERVL copies have higher expression, but they do not demonstrate causality. For example, they do not perform CRISPR-based perturbation of specific HERVL elements to show that their deletion or mutation alters expression of nearby genes. The analysis of orthologous genes across species is also potentially confounded by differences in gene copy number, sequence divergence, and other regulatory elements.
+  - **Why it matters** The claim that HERVL elements "drive" gene expression evolution is a strong causal statement. Without direct perturbation experiments, the observed correlation could be due to other factors, such as the pre-existing regulatory environment (which the authors themselves note) or linkage to other causal variants.
+  - **Resolution test** Perform CRISPR interference or deletion experiments on at least a few HERVL elements in an appropriate cell model to demonstrate a direct effect on nearby gene expression. Alternatively, use a statistical approach that controls for confounding factors, such as matching accessible and inaccessible HERVL copies for local chromatin state and sequence context.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that their framework is "generalizable" for dissecting TE contributions to mammalian regulatory evolution.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The framework is demonstrated only for the cerebellum and only for a limited set of species. The authors do not test whether the approach works in other brain regions or other tissues, nor do they address potential limitations when applying it to species with less complete genome assemblies or different TE compositions.
+  - **Why it matters** The claim of generalizability is important for the broader impact of the study. If the framework is only applicable to well-annotated genomes and specific cell types, its utility is limited.
+  - **Resolution test** Apply the framework to at least one additional tissue or brain region, or discuss in detail the potential challenges and limitations of applying it to other systems. Provide evidence that the model can be retrained or fine-tuned for other cell types without loss of accuracy.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Assessing regulatory potential of TE subfamilies"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The description of the "masking" of CpG dinucleotides is unclear. It is not specified whether the masking is applied to the input sequence, the model's attention, or the output. The rationale for this step is given, but the implementation is vague.
+  - **Required correction** Clarify the exact procedure for CpG masking, including whether it is applied to the input sequence, and how it affects the model's predictions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "TE contributions to species- and cell-type-specific cis-regulatory elements"
+  - **Evidence pointer** Results section, Figure 1e; location not provided
+  - **Concern** The Mann-Whitney U test is used to compare TE-derived cCRE proportions between fetal and adult tissues. It is not clear whether the test is applied to the proportion values or to some transformed version. The number of cell types in each group is not stated.
+  - **Required correction** Specify the exact variable being tested, the number of cell types in each group, and whether the test is one-tailed or two-tailed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "HERVL-specific sequence substitutions create high regulatory potential in hindbrain neuroblasts"
+  - **Evidence pointer** Results section, Figure 4c; location not provided
+  - **Concern** The authors state that HERVL-specific substitutions correspond to "putative ATOH1 and NFI binding sites." It is not clear how these sites were identified and whether they are experimentally validated or only predicted.
+  - **Required correction** Clarify the method for identifying TF binding sites and state whether any of these sites have been experimentally validated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Preservation of TF binding sequences and local chromatin context jointly determine HERVL accessibility"
+  - **Evidence pointer** Results section, Figure 5f; location not provided
+  - **Concern** The analysis of KZFP binding sites is based on data from HEK293T cells overexpressing KZFPs. The relevance of this overexpression system to the endogenous cerebellar context is not discussed.
+  - **Required correction** Discuss the limitations of using overexpression data and whether any endogenous KZFP expression data in cerebellar cell types are available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (enrichment analysis not verifiable), R1-M2 (deep-learning model validation incomplete), R1-M3 (causal link not established).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The study addresses a fundamental question with a novel combination of approaches and identifies a specific, previously uncharacterized TE family (HERVL) as a potential driver of regulatory innovation in a defined neuronal lineage. The focus on the polymerase region rather than LTRs is also a novel angle.
+  - **Scientific importance** High. Understanding how TEs contribute to brain evolution and cell-type-specific gene regulation is of broad significance. The findings could have implications for understanding human-specific traits and neurodevelopmental disorders.
+  - **Interdisciplinary readership** Moderate to high. The topic bridges evolutionary biology, neuroscience, and computational genomics. The methods will be of interest to computational biologists, while the biological findings will appeal to neuroscientists and evolutionary biologists. However, the heavy reliance on computational methods and the lack of accessible figures in the provided text may limit appeal to a purely general audience.
+  - **Technical soundness** Currently not fully assessable. The computational methods are sophisticated, but the lack of figures and detailed statistical descriptions prevents a full evaluation. The experimental validation is limited to one assay type. The causal claims are not supported by perturbation experiments.
+  - **Readability for nonspecialists** The abstract and introduction are well-written and accessible. The results section is dense and assumes familiarity with the methods. The discussion is clear but somewhat speculative. The manuscript would benefit from more explicit explanations of the deep-learning approach and the significance of the findings for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has the potential to be a significant contribution, but the current evidence base is insufficient to fully support the broad claims. The authors must provide the missing figures and tables, clarify the statistical methods, and ideally add experimental perturbation data to establish causality. If these concerns are addressed, the manuscript could be suitable for a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that TEs contribute to 62% of human-specific and 29% of primate-specific cCREs is not verifiable without the underlying data and statistical analysis.
+- The claim that DeepCeREvo identified 17 TE fragments with "high regulatory potential" is not fully supported without details on model validation and threshold selection.
+- The claim that HERVL elements "drive" species-specific gene expression patterns is not supported by causal evidence; the data are correlative.
+- The claim that the framework is "generalizable" is not tested beyond the cerebellum and the four species examined.
+- The statement that "the reduced presence of TE-derived cCREs in early development might alternatively be explained by TE suppression mechanisms via KZFPs" is speculative and not directly tested.
+- The claim that "the framework and findings of this study may help inform future research" is a general statement and not a specific, testable claim.

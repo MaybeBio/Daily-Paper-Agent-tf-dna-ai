@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36999047",
+  "title": "CRMnet: A deep learning model for predicting gene expression from large regulatory sequence datasets.",
+  "authors": "Ding, Ke; Dixit, Gunjan; Parker, Brian J; Wen, Jiayu",
+  "journal": "Frontiers in big data",
+  "published_date": "2023-04-01",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习模型CRMnet从酵母调控序列预测基因表达，并通过显著性图谱定位转录因子结合位点，虽以表达预测为核心，但涉及TF-DNA结合位点识别，方法可迁移至TF-DNA互作建模。",
+  "abstract": "Recent large datasets measuring the gene expression of millions of possible gene promoter sequences provide a resource to design and train optimized deep neural network architectures to predict expression from sequences. High predictive performance due to the modeling of dependencies within and between regulatory sequences is an enabler for biological discoveries in gene regulation through model interpretation techniques. To understand the regulatory code that delineates gene expression, we have designed a novel deep-learning model (CRMnet) to predict gene expression in Saccharomyces cerevisiae. Our model outperforms the current benchmark models and achieves a Pearson correlation coefficient of 0.971 and a mean squared error of 3.200. Interpretation of informative genomic regions determined from model saliency maps, and overlapping the saliency maps with known yeast motifs, supports that our model can successfully locate the binding sites of transcription factors that actively modulate gene expression. We compare our model's training times on a large compute cluster with GPUs and Google TPUs to indicate practical training times on similar datasets.",
+  "abstract_zh": "最近的大规模数据集测量了数百万种可能的基因启动子序列的基因表达，为设计和训练优化的深度神经网络架构以从序列预测表达提供了资源。由于对调控序列内部及之间的依赖性进行建模而实现的高预测性能，是通过模型解释技术促进基因调控生物学发现的推动力。为了理解界定基因表达的调控代码，我们设计了一种新颖的深度学习模型（CRMnet）来预测酿酒酵母（Saccharomyces cerevisiae）中的基因表达。我们的模型优于当前基准模型，实现了皮尔逊相关系数0.971和均方误差3.200。对从模型显著性图确定的信息性基因组区域的解释，以及将显著性图与已知酵母基序重叠，支持我们的模型能够成功定位主动调节基因表达的转录因子结合位点。我们比较了模型在配备GPU的大型计算集群和Google TPU上的训练时间，以指示在类似数据集上的实际训练时间。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36999047/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36999047/",
+  "paper_page_path": "papers/pubmed/36999047/index.html"
+}

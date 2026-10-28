@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "39707003",
+    "doi": "10.1007/s10565-024-09963-5",
+    "title": "NMF typing and machine learning algorithm-based exploration of preeclampsia-related mechanisms on ferroptosis signature genes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Globally, pre-eclampsia (PE) poses a major threat to the health and survival of pregnant women and fetuses, contributing significantly to morbidity and mortality. Recent studies suggest a pathological link between PE and ferroptosis. We aim to utilize non-negative matrix factorization (NMF) clustering and machine learning algorithms to pinpoint disease-specific genes related to the process of ferroptosis in PE and investigate likely underlying biochemistry mechanisms. METHODS: The acquisition of four microarray datasets from the Gene Expression Omnibus (GEO) repository, the integration of these datasets, and the elimination of batch effects formed the core procedure. Genes related to ferroptosis in PE (DE-FRG) were identified. NMF clustering was performed on DE-FRG for unsupervised analysis, generating a heatmap for clustering validation via principal component analysis. Immunocyte infiltration differences between different subtypes were compared to elucidate the impact of ferroptosis on immune infiltration in the placental tissue of PE patients. The application of weighted gene co-expression network analysis (WGCNA) revealed important module genes linked to sample subtypes and disease status. The screening of PE feature genes involved employing SVM, RF, GLM, and XGB machine learning algorithms, and their predictive performance was validated using various analyses and an external dataset. The iRegulon tool was utilized to predict upstream transcription factors associated with ferroptosis feature genes, from which differentially expressed transcription factors were screened to construct a \"Transcription Factor-FRG-ferroptosis\" regulatory network. Finally, in vitro (cultured cells) and in vivo (rat) models were utilized to evaluate the regulatory mechanisms of ferroptosis in normal and PE placental tissues. RESULTS: Differential analysis of the four merged GEO datasets identified 41 DE-FRGs. NMF clustering based on DE-FRGs revealed two PE subtypes. Immunocyte infiltration analysis indicated significant differences in immune levels between these subtypes. Further WGCNA analysis identified module genes associated with PE and these two subtypes. Subsequently, we developed an integrated machine learning model incorporating five FRGs and validated its predictive efficacy using various analyses and an external validation dataset. Finally, based on the transcription factor ARID3A and ferroptosis feature genes EPHB3 and PAPPA2, we constructed a \"Transcription Factor-FRG-ferroptosis\" regulatory network, with in vitro and in vivo experiments confirming that ARID3A promotes the progression of PE and ferroptosis by activating the expression of EPHB3 and PAPPA2. CONCLUSION: This analytical journey illuminated a critical regulatory nexus in PE, underscoring the central influence of ARID3A on PE through ferroptosis-mediated pathways.",
+    "keywords": [
+      "Ferroptosis",
+      "Immune Infiltration",
+      "Machine Learning",
+      "NMF Typing",
+      "PE",
+      "Preeclampsia",
+      "Transcription Factor"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "*Pre-Eclampsia/genetics/metabolism",
+      "Female",
+      "Pregnancy",
+      "Humans",
+      "*Machine Learning",
+      "Animals",
+      "Algorithms",
+      "Gene Expression Profiling/methods",
+      "Rats",
+      "Gene Regulatory Networks",
+      "Rats, Sprague-Dawley",
+      "Placenta/metabolism",
+      "Cluster Analysis",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xuemin",
+        "Zhang, Di",
+        "Qiu, Hui"
+      ],
+      "short_names": [
+        "Liu X",
+        "Zhang D",
+        "Qiu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Obsterics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, 110004, People's Republic of China.",
+        "Department of Cardiology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, People's Republic of China.",
+        "Department of Obsterics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, 110004, People's Republic of China. hqiu@cmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xuemin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obsterics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, 110004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Di",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shengjing Hospital of China Medical University, Shenyang, Liaoning, 110004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Hui",
+        "short_name": "Qiu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obsterics and Gynecology, Shengjing Hospital of China Medical University, Shenyang, 110004, People's Republic of China. hqiu@cmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell biology and toxicology"
+    ],
+    "journal_abbrev": [
+      "Cell Biol Toxicol"
+    ],
+    "pub_date": "2024 Dec 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/21 16:44",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "42422225",
+      "42369820",
+      "42098401",
+      "41096056"
+    ],
+    "refs": [
+      "37406020",
+      "36959629",
+      "36904197",
+      "36851366",
+      "36841692",
+      "36653385",
+      "36647288",
+      "36611895",
+      "36582202",
+      "36266581",
+      "36247248",
+      "36195876",
+      "36194215",
+      "36183712",
+      "36145595",
+      "36059959",
+      "35966780",
+      "35800255",
+      "35741697",
+      "35700759",
+      "35580918",
+      "35538076",
+      "35529927",
+      "35368657",
+      "35249806",
+      "35190654",
+      "35189910",
+      "35110962",
+      "34857780",
+      "34527198",
+      "34356696",
+      "34281206",
+      "34150654",
+      "34150647",
+      "34135442",
+      "34088091",
+      "33804610",
+      "33618314",
+      "33585188",
+      "33420415",
+      "33290932",
+      "33212799",
+      "32843100",
+      "32686767",
+      "32092789",
+      "31955511",
+      "31926626",
+      "31759056",
+      "31735614",
+      "31432141",
+      "29304541",
+      "28985560"
+    ],
+    "similar": [
+      "39707003",
+      "39853851",
+      "35100981",
+      "39544937",
+      "39586719",
+      "39934690",
+      "39709373",
+      "39930027",
+      "39984919",
+      "37474873",
+      "39675129",
+      "37645416",
+      "37957905",
+      "38814177",
+      "34506683",
+      "33535891",
+      "39072329",
+      "40151199",
+      "39735537",
+      "39872538",
+      "38509983",
+      "37817070",
+      "40016711",
+      "36011284",
+      "37854191",
+      "39026664",
+      "39488307",
+      "39142001",
+      "37403014",
+      "38192427",
+      "39815029",
+      "34708125",
+      "38802844",
+      "39793232",
+      "38741149",
+      "38780016",
+      "37904700",
+      "38718074",
+      "38863714",
+      "39346628",
+      "39697339",
+      "38653998",
+      "39764891",
+      "40207223",
+      "37752199",
+      "36343018",
+      "40048749",
+      "37131411",
+      "38048229",
+      "39739972",
+      "36276279",
+      "37919056",
+      "40313958",
+      "39512836",
+      "38849409",
+      "38941397",
+      "39394418",
+      "37940859",
+      "34672420",
+      "39930056",
+      "39229380",
+      "40312440",
+      "32497025",
+      "39331874",
+      "39263286",
+      "35711567",
+      "39822999",
+      "40024299",
+      "37530128",
+      "35787932",
+      "37275855",
+      "38664443",
+      "39375405",
+      "39779839",
+      "36541903",
+      "38711508",
+      "39845963",
+      "38402377",
+      "39802518",
+      "37576602",
+      "37712959",
+      "35325354",
+      "36131919",
+      "36057911",
+      "37497230",
+      "38734841",
+      "36258174",
+      "37378023",
+      "39243324",
+      "38649061",
+      "39026663",
+      "34284753",
+      "37821869",
+      "39113509",
+      "38402832",
+      "36466094",
+      "37986345",
+      "40129981",
+      "39780155",
+      "39695788"
+    ],
+    "review": [
+      "39707003"
+    ],
+    "pmc": [
+      "11662041"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39707003/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10565-024-09963-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

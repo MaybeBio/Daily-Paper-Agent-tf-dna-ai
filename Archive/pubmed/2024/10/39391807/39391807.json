@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "39391807",
+    "doi": "10.1109/lcsys.2024.3406268",
+    "title": "Modeling Control of Supercoiling Dynamics and Transcription Using DNA-Binding Proteins."
+  },
+  "content": {
+    "abstract": "Nearly all natural and synthetic gene networks rely on the fundamental process of transcription to enact biological feedback, genetic programs, and living circuitry. In this work, we investigate the efficacy of controlling transcription using a new biophysical mechanism, control of localized supercoiling near a gene of interest. We postulate a basic reaction network model for describing the general phenomenon of transcription and introduce a separate set of equations to describe the dynamics of supercoiling. We show that supercoiling and transcription introduce a shared reaction flux term in the model dynamics and illustrate how the modulation of supercoiling can be used to control transcription rates. We show the supercoiling-transcription model can be written as a nonlinear state-space model, with a radial basis function nonlinearity to capture the empirical relationship between supercoiling and transcription rates. We show the system admits a single, globally exponentially stable equilibrium point. Notably, we show that mRNA steady-state levels can be controlled directly by increasing a length-scale parameter for genetic spacing. Finally, we build a mathematical model to explore the use of a DNA binding protein, to define programmable boundary conditions on supercoiling propagation, which we show can be used to control transcriptional bursting or pulsatile transcriptional response. We show there exists a stabilizing control law for mRNA tracking, using the method of control Lyapunov functions and illustrate these results with numerical simulations.",
+    "keywords": [
+      "Biological systems",
+      "Biomolecular systems",
+      "Nonlinear control"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Clark, Harris",
+        "Taylor, Aleczander",
+        "Yeung, Enoch"
+      ],
+      "short_names": [
+        "Clark H",
+        "Taylor A",
+        "Yeung E"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Clark, Harris",
+        "short_name": "Clark H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Taylor, Aleczander",
+        "short_name": "Taylor A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yeung, Enoch",
+        "short_name": "Yeung E",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE control systems letters"
+    ],
+    "journal_abbrev": [
+      "IEEE Control Syst Lett"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/11 06:23",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [
+      "41218075"
+    ],
+    "refs": [
+      "36261020",
+      "35973993",
+      "34301855",
+      "34028214",
+      "32737309",
+      "31452857",
+      "31021219",
+      "29862648",
+      "28734826",
+      "27562138",
+      "27346626",
+      "25036631",
+      "24136345",
+      "22186735",
+      "21772259",
+      "21670266",
+      "18971928",
+      "18573089",
+      "16460146",
+      "16420346",
+      "16360033",
+      "16187794",
+      "12237400",
+      "12183631",
+      "11274112",
+      "11123701",
+      "10588699",
+      "8808934",
+      "2823250"
+    ],
+    "similar": [
+      "39391807",
+      "36261020",
+      "26855771",
+      "37207624",
+      "30091721",
+      "35944177",
+      "31216038",
+      "29140466",
+      "31354687",
+      "33913709",
+      "8599941",
+      "31103229",
+      "18310101",
+      "39152238",
+      "33143595",
+      "12882514",
+      "27705758",
+      "12456361",
+      "23912807",
+      "27025941",
+      "1332053",
+      "15342629",
+      "12962496",
+      "35016860",
+      "36171726",
+      "36121892",
+      "26496944",
+      "32049059",
+      "10583380",
+      "28275417",
+      "27419594",
+      "31319794",
+      "34168009",
+      "1964556",
+      "28734826",
+      "34783581",
+      "28696257",
+      "10347233",
+      "10844701",
+      "34427530",
+      "3349085",
+      "29982790",
+      "15186424",
+      "35420137",
+      "29691522",
+      "37965550",
+      "10512709",
+      "33649196",
+      "17276136",
+      "19274462",
+      "32723920",
+      "25036631",
+      "20054406",
+      "36711906",
+      "18062810",
+      "1602472",
+      "7988562",
+      "36794722",
+      "38272423",
+      "2829200",
+      "31806753",
+      "15535863",
+      "2849103",
+      "3309333",
+      "27378778",
+      "22916023",
+      "16420346",
+      "31452857",
+      "32599919",
+      "28035244",
+      "27738453",
+      "28824578",
+      "15041638",
+      "16414956",
+      "8971713",
+      "32034628",
+      "9115991",
+      "32113983",
+      "31165864",
+      "15992411",
+      "12779454",
+      "34279217",
+      "29032205",
+      "30411251",
+      "17980389",
+      "23416946",
+      "9281422",
+      "34398513",
+      "35421389",
+      "34937877",
+      "35188542",
+      "12456359",
+      "29570063",
+      "24990375",
+      "37834253",
+      "12093906",
+      "28510216",
+      "28510224",
+      "25319264",
+      "21810966"
+    ],
+    "review": [
+      "39391807",
+      "12882514",
+      "12456361",
+      "31319794",
+      "37965550",
+      "16420346",
+      "31452857",
+      "32599919",
+      "28035244",
+      "27738453",
+      "28824578",
+      "34398513",
+      "12456359",
+      "37834253",
+      "28510224"
+    ],
+    "pmc": [
+      "11466313"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39391807/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

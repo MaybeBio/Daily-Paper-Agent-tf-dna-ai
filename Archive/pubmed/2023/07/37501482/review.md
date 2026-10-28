@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a method named LapLKA-RKM for predicting DNA-binding proteins. The method extracts features using six methods, constructs RBF kernel metrics, combines them via Laplacian Local Kernel Alignment weights, and inputs the fused kernel to a Restricted Kernel Machine. Validation is reported via independent tests and leave-one-out cross-validation on one small and two large datasets. An online platform is stated to be freely accessible.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or platform verification are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset details, baseline comparisons, statistical significance tests, code or model availability, and functional verification of the online platform
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible methodological pipeline for DNA-binding protein prediction, combining established kernel-based techniques. However, the abstract provides no quantitative performance results, no comparison against existing methods, and no details on dataset composition or validation protocols. The core claim of improved prediction accuracy cannot be assessed from the supplied material. The online platform is mentioned but not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing machine learning models for DNA-binding protein identification. Researchers interested in kernel-based learning methods and their application to biological sequence data may also find the methodological combination relevant.
+- **Major strengths** The methodological pipeline is clearly outlined in a logical sequence. The use of multiple feature extraction methods and kernel fusion is a reasonable approach for capturing diverse sequence properties. The inclusion of an online platform for model accessibility is a practical contribution if functional.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract implies the proposed method predicts DNA-binding proteins effectively, validated by independent tests and leave-one-out cross-validation.
+  - **Evidence pointer** Abstract, validation section; location not provided
+  - **Concern** No quantitative results are reported. No accuracy, sensitivity, specificity, AUC, F1-score, or any other performance metric is provided. No comparison with existing DNA-binding protein prediction methods is shown.
+  - **Why it matters** Without numerical results and baseline comparisons, the claimed predictive capability cannot be evaluated. The scientific contribution of the method remains unsubstantiated.
+  - **Resolution test** Provide performance metrics for all three datasets, including comparisons with at least two established methods under identical evaluation protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method uses six feature extraction methods and a Laplacian Local Kernel Alignment-based weighting scheme.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The six feature extraction methods are not named. The LapLKA weighting procedure is not described in sufficient detail to be reproduced. The Restricted Kernel Machine implementation specifics are absent.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational method papers. Without detailed methodological descriptions, other researchers cannot implement or verify the approach.
+  - **Resolution test** List all six feature extraction methods with citations, provide a formal description of the LapLKA optimization problem and algorithm, and specify RKM hyperparameters and training procedure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validity
+  - **Claim pointer** Validation was performed on one small and two large datasets.
+  - **Evidence pointer** Abstract, validation section; location not provided
+  - **Concern** No dataset names, sequence counts, positive-to-negative ratios, or sources are provided. No description of how independent test sets were constructed or how leave-one-out cross-validation was applied.
+  - **Why it matters** Dataset characteristics strongly influence model performance and generalizability. Without this information, the reported validation cannot be interpreted or compared with other studies.
+  - **Resolution test** Specify dataset names, accession numbers or download sources, sequence counts, class balance, and the exact splitting procedure for independent testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Resource availability
+  - **Claim pointer** An online platform is freely accessible at the provided URL.
+  - **Evidence pointer** Abstract, platform statement; location not provided
+  - **Concern** The abstract states the platform is accessible, but no verification is possible from the abstract alone. The platform's functionality, input requirements, and output format are not described.
+  - **Why it matters** A stated online resource that cannot be verified or understood undermines the practical contribution claimed by the authors.
+  - **Resolution test** Provide a description of the platform interface, input/output specifications, and confirm the URL is active and functional at the time of publication.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The phrase "Laplacian Local Kernel Alignment-based Restricted Kernel Machine" is a compound term that is not unpacked. The relationship between Laplacian regularization, local kernel alignment, and the restricted kernel machine is unclear.
+  - **Required correction** Briefly explain how Laplacian regularization is incorporated into the kernel alignment procedure and how the restricted kernel machine differs from a standard kernel machine in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Motivation
+  - **Evidence pointer** Abstract, introduction; location not provided
+  - **Issue** The abstract states that predicting DNA-binding proteins is essential but does not articulate why existing methods are insufficient or what specific gap LapLKA-RKM addresses.
+  - **Required correction** Add one or two sentences describing limitations of current predictors and the specific advantage of the proposed kernel fusion approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Online platform
+  - **Evidence pointer** Abstract, platform statement; location not provided
+  - **Issue** The URL is an IP address with a non-standard port, which may be unstable or inaccessible to some users. No alternative access or mirror is mentioned.
+  - **Required correction** Consider providing a stable domain name or an alternative repository for the model code and instructions for local deployment.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and dataset information means the central claim of effective DNA-binding protein prediction is not established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of Laplacian local kernel alignment with a restricted kernel machine may represent an incremental methodological contribution, but the abstract does not demonstrate conceptual novelty beyond existing kernel fusion approaches. Not assessable in depth from abstract.
+  - Scientific importance: DNA-binding protein prediction is a relevant problem in computational biology, but the abstract does not show how the proposed method advances the field beyond current state-of-the-art performance.
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and molecular biology. The abstract is accessible to computational readers but provides insufficient biological context for a broader audience.
+  - Technical soundness: Cannot be evaluated. No results, no methodological detail, no statistical analysis are presented in the abstract.
+  - Readability for nonspecialists: The abstract is concise and the pipeline is described in understandable terms, but the lack of context and results limits its accessibility to nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to assess the validity or significance of the proposed method. A full manuscript with quantitative results, detailed methodology, and dataset descriptions would be required for a substantive evaluation.
+
+## Risk / unsupported claims
+- The claim that LapLKA-RKM predicts DNA-binding proteins effectively is unsupported due to the absence of any performance metrics.
+- The claim that validation was performed on three datasets is unverifiable without dataset details.
+- The claim that the online platform is freely accessible cannot be verified from the abstract.
+- The implicit claim that the proposed method offers advantages over existing approaches is unsupported without baseline comparisons.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.10.447140",
+  "title": "Epitome: Predicting epigenetic events in novel cell types with multi-cell deep ensemble learning",
+  "authors": "Morrow AK; Hughes JW; Singh J; Joseph AD; Yosef N",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-11",
+  "window": {
+    "start": "2021-06-07",
+    "end": "2021-06-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多细胞深度集成学习预测新细胞类型中的表观遗传事件（含TF结合位点），虽涉及TF-DNA结合位点预测，但主要基于染色质可及性相似性迁移，缺乏三维互作建模与机制研究，方法可借鉴但深度有限。",
+  "abstract": "The accumulation of large epigenomics data consortiums provides us with the opportunity to extrapolate existing knowledge to new cell types and conditions. We propose Epitome, a deep neural network that learns similarities of chromatin accessibility between well characterized reference cell types and a query cellular context, and copies over signal of transcription factor binding and modification of histones from reference cell types when chromatin profiles are similar to the query. Epitome achieves state-of-the-art accuracy when predicting transcription factor binding sites on novel cellular contexts, and can further improve predictions as more epigenetic signals are collected from both reference cell types and the query cellular context of interest.",
+  "abstract_zh": "大型表观基因组学数据联盟的积累为我们提供了将现有知识外推到新细胞类型和条件的机会。我们提出Epitome，一种深度神经网络，它学习特征明确的参考细胞类型与查询细胞环境之间染色质可及性的相似性，并在染色质谱与查询相似时，从参考细胞类型复制转录因子结合和组蛋白修饰的信号。Epitome在预测新细胞环境中的转录因子结合位点时达到了最先进的准确性，并且随着从参考细胞类型和感兴趣的查询细胞环境中收集更多表观遗传信号，其预测能力可进一步提升。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.10.447140",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.10.447140",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.10.447140/index.html"
+}

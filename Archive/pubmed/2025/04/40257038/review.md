@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, conclusion) as provided by the author. No supplementary files, figures, or tables were accessible beyond in-text descriptions.
+- **Assessment boundary** Scientific validity, technical soundness, and logical coherence of the claims as presented in the manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors report that exogenous abscisic acid (ABA) treatment of *Bupleurum chinense* hairy roots reduces saikosaponin (SS) accumulation, and identify four MYC-family bHLH transcription factors (BcbHLH1–BcbHLH4) as candidate regulators of SS biosynthesis based on transcriptome profiling, correlation analysis, tissue-specific expression, subcellular localization, transcriptional activation assays, and molecular docking predictions.
+- **Visible evidence base** Transcriptome differential expression data (Figure 1), bHLH phylogenetic and sequence analyses (Figure 2), UPLC-based SS quantification (Figure 3), qRT-PCR expression dynamics and correlation analysis (Figure 4), tissue expression and subcellular localization (Figure 5), Y2H transcriptional activation and AlphaFold3 docking predictions (Figure 6). Supplementary tables and figures referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Figures S1–S3 and Supplementary Tables S1–S8 were not provided. Raw RNA-seq data, full differential expression lists, primer sequences, UPLC standard curves, and statistical outputs were not accessible. This limits independent verification of several key results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in medicinal plant biology, namely the role of ABA and bHLH transcription factors in saikosaponin biosynthesis. The experimental design is logical and the work combines transcriptomic, biochemical, and computational approaches. However, several claims are not fully supported by the evidence presented. The correlation between BcbHLH expression and SS biosynthetic gene expression is based on a small number of time points and lacks functional validation. The molecular docking predictions are presented as suggestive but are not experimentally confirmed. The manuscript would benefit from clearer presentation of statistical details and from direct evidence linking BcbHLH activity to SS pathway gene regulation.
+- **Who would be interested in the results, and why** Researchers working on triterpenoid biosynthesis, transcription factor regulation of secondary metabolism, and medicinal plant biotechnology would find this work relevant. The identification of candidate bHLH regulators in *B. chinense* may inform future metabolic engineering efforts aimed at improving saikosaponin production. The study also contributes to the broader understanding of ABA-mediated regulation of plant specialized metabolism.
+- **Major strengths** The study addresses a gap in understanding ABA-mediated regulation of saikosaponin biosynthesis. The use of hairy root cultures is appropriate for functional studies. The combination of transcriptomics, qRT-PCR, subcellular localization, and transcriptional activation assays provides a multi-layered approach. The correlation between BcbHLH4 and BcBAS expression is a specific and testable hypothesis. The molecular docking analysis, while preliminary, offers a structural perspective that is often missing in such studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that BcbHLH1–BcbHLH4 are "critical nodes in SS pathway modulation" based on correlation analysis.
+  - **Evidence pointer** Figure 4c, Results section "BcbHLHs and saikosaponin biosynthesis genes showed expression correlation under ABA induction"
+  - **Concern** The correlation analysis is based on only four time points (0, 3, 6, 12, 24, 72 hours per the methods, but Figure 4c appears to use a subset). With n = 3 per time point and no clear reporting of confidence intervals or multiple testing correction, the Pearson coefficients are not robust. Only one correlation (BcbHLH4–BcBAS) is reported as significant, yet the abstract states "coordinated expression between BcbHLH1-BcHMGR (r = 0.62) and BcbHLH4-BcBAS (r = 0.78)" without indicating whether the former is statistically significant.
+  - **Why it matters** The central claim of the paper rests on these correlations. If the correlations are not statistically robust, the identification of BcbHLH1–BcbHLH4 as key regulators is not supported. The manuscript does not provide functional evidence (e.g., overexpression or knockdown) to confirm that these TFs directly regulate SS biosynthetic genes.
+  - **Resolution test** Provide full correlation matrices with p-values and confidence intervals. Include a statement on how multiple comparisons were handled. Ideally, add functional validation such as transient overexpression or VIGS in hairy roots to demonstrate that BcbHLH1–BcbHLH4 directly affect SS biosynthetic gene expression and SS accumulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "ABA exposure (100 or 200 μmol/L, 24–72 h) induced dose-dependent SS reduction."
+  - **Evidence pointer** Figure 3, Results section "Exogenous ABA induction leads to decrease of saikosaponins in hairy roots"
+  - **Concern** The UPLC data are described but the actual chromatograms and quantification details are only in Supplementary Table S3, which was not provided. The text reports that 100 μmol/L ABA caused significant decreases only after 7 days, while 200 μmol/L caused decreases at earlier time points. However, the dose-dependent claim is not clearly supported: at 24 h, the 100 μmol/L group shows no significant change, and at 72 h the 200 μmol/L group shows a less pronounced decrease than at 7 days. The relationship between dose and response is not monotonic across all time points.
+  - **Why it matters** The dose-dependent reduction of SS is a key experimental observation that motivates the transcriptome analysis. If the dose-response relationship is not clearly established, the choice of 100 μmol/L for transcriptomics is not well justified.
+  - **Resolution test** Provide full UPLC quantification data with standard deviations, statistical comparisons between all groups at all time points, and a clear statement of which comparisons support the dose-dependent claim. Clarify why 100 μmol/L was chosen for transcriptomics if 200 μmol/L showed earlier effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors state that "molecular docking predicted 11th Arginine in the HLH domain as essential for G-box DNA binding."
+  - **Evidence pointer** Figure 6c–e, Results section "Binding activity prediction of MYC_N TAD and HLH_binding domain in BcbHLHs"
+  - **Concern** The docking predictions are based on AlphaFold3 models and rigid docking with Autodock. The claim that arginine 11 is "essential" is too strong for a computational prediction. The mutation analysis shows changes in binding energy, but no experimental validation (e.g., EMSA with mutant proteins) is provided. The functional significance of the predicted binding energy changes is not established.
+  - **Why it matters** The paper proposes a specific mechanistic role for R11 in DNA binding. If this is presented as a key finding, it requires experimental support. Without it, the claim should be framed as a testable prediction.
+  - **Resolution test** Rephrase the claim as a prediction. If feasible, perform EMSA with wild-type and R11-mutant BcbHLH proteins to confirm differential DNA binding. Alternatively, clearly state that this is a computational prediction requiring validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "with four MYC-family candidates (BcbHLH1-BcbHLH4) demonstrating ABA-responsive regulatory potential"
+  - **Issue** The abstract states "20 differentially expressed BcbHLH genes were identified" but the results section reports 18 cloned genes and 44 DEGs in the bHLH family. The discrepancy between 20, 18, and 44 is confusing.
+  - **Required correction** Clarify the numbers: how many bHLH DEGs were identified in total, how many were cloned, and how the 20 named genes relate to the 18 cloned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4c, Results section
+  - **Issue** The correlation heatmap reports r-values but does not indicate which correlations are statistically significant beyond the BcbHLH4–BcBAS pair.
+  - **Required correction** Add asterisks or other markers to indicate significant correlations, and report p-values in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and methods, "Quantitative real-time PCR"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The reference gene used for qRT-PCR normalization is not stated. The ADF5 gene is mentioned as an internal reference, but no validation of its stability under ABA treatment is provided.
+  - **Required correction** State the reference gene(s) used and provide evidence for their stable expression under the experimental conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement says "The original contributions presented in this study are included in the article/supplementary material" but the RNA-seq raw data are not deposited in a public repository.
+  - **Required correction** Provide accession numbers for raw sequencing data in a public database such as NCBI SRA or EMBL-EBI.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (correlation robustness) and R1-M2 (dose-response clarity) are the primary technical issues. The lack of functional validation for the proposed regulatory role of BcbHLH1–BcbHLH4 is a significant gap. The computational docking claim (R1-M3) should be reframed as a prediction.
+- **Assessment against Nature-style criteria** Originality: moderate. The study applies known concepts (ABA regulation, bHLH involvement) to a new species and pathway, but does not introduce a conceptually novel framework. Scientific importance: limited. The findings are incremental and do not resolve a major open question in the field. Interdisciplinary readership: narrow. The work is primarily of interest to plant specialized metabolism researchers. Technical soundness: mixed. The transcriptomic and qRT-PCR approaches are standard, but the statistical rigor of the correlation analysis is insufficient, and the docking predictions are overinterpreted. Readability for nonspecialists: acceptable. The manuscript is generally clear, though some sections assume familiarity with pathway details.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible hypothesis but does not provide sufficient evidence to support the claim that BcbHLH1–BcbHLH4 are critical regulators of saikosaponin biosynthesis. The correlation analysis needs strengthening, the dose-response data need clearer presentation, and functional validation is required. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that BcbHLH1–BcbHLH4 are "critical nodes" in SS pathway modulation is not supported by the correlation data alone.
+- The claim that R11 is "essential" for DNA binding is unsupported without experimental validation.
+- The statement that "ABA may affect SS accumulation through JA signal crosstalk" is speculative and not directly tested.
+- The assertion that "strategic manipulation of BcbHLH activity through genetic engineering approaches such as CRISPR-based editing or overexpression could alleviate ABA-mediated biosynthetic repression" is presented as a conclusion but is a forward-looking suggestion without experimental basis.
+- The number of bHLH DEGs (20 vs 18 vs 44) is inconsistent across the abstract and results, making the reported scope unclear.

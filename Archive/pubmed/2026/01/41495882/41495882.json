@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "41495882",
+    "doi": "10.1093/nar/gkaf1417",
+    "title": "A structure-guided approach to noncoding variant evaluation for transcription factor binding using AlphaFold 3."
+  },
+  "content": {
+    "abstract": "Noncoding single-nucleotide variants (SNVs) that alter transcription factor (TF) binding can affect gene expression and contribute to disease. Sequence-based methods can excel at predicting TF binding, but rely on training data and can exhibit TF-specific biases. Here, we propose a structure-guided approach for noncoding SNVs, using AlphaFold 3 (AF3) to model TF-DNA complexes and FoldX for downstream physics-based assessment. Benchmarked against single nucleotide polymorphism-systematic evolution of ligands by exponential enrichment (SNP-SELEX) data for six TFs (SPIB, ELK3, ETV4, SF-1, PAX5, and MEIS2), the FoldX-based strategy showed good agreement with experimental allele preferences. Interestingly, differences in AF3's interface-predicted template modelling (ipTM) score aligned even more closely with SNP-SELEX results, generally surpassing energy-based metrics. Application to known disease-associated variants recapitulated most reported effects for TFs including NKX2-5, GATA3, and USF2A-USF1. In these examples, considering both DeltaipTM and FoldX energies proved more reliable than either metric alone. While less accurate than state-of-the-art sequence-based methods, this work demonstrates that structural modelling can yield interpretable insights into how noncoding variants influence TF binding. By highlighting both the promise and limitations of AF3 in this context, our study provides a framework for complementary structural evaluation of regulatory variants.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "*Polymorphism, Single Nucleotide",
+      "Protein Binding",
+      "Binding Sites",
+      "*DNA/chemistry/metabolism/genetics",
+      "Humans",
+      "Models, Molecular",
+      "SELEX Aptamer Technique",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gerasimavicius, Lukas",
+        "Biddie, Simon C",
+        "Marsh, Joseph A"
+      ],
+      "short_names": [
+        "Gerasimavicius L",
+        "Biddie SC",
+        "Marsh JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8253-0253",
+        "ORCID: 0000-0003-4132-0628"
+      ],
+      "affiliations": [
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+        "NHS Lothian, Edinburgh, EH4 2XU, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gerasimavicius, Lukas",
+        "short_name": "Gerasimavicius L",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Biddie, Simon C",
+        "short_name": "Biddie SC",
+        "identifiers": [
+          "0000-0002-8253-0253"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom.",
+          "NHS Lothian, Edinburgh, EH4 2XU, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Marsh, Joseph A",
+        "short_name": "Marsh JA",
+        "identifiers": [
+          "0000-0003-4132-0628"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, EH4 2XU, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/07 01:10",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40833324",
+      "40702706",
+      "40297267",
+      "40080667",
+      "39913370",
+      "39753777",
+      "39607707",
+      "39552041",
+      "38902506",
+      "38849565",
+      "38718835",
+      "38517697",
+      "38452047",
+      "37996753",
+      "37962376",
+      "37340457",
+      "37243972",
+      "36727436",
+      "36690178",
+      "36071116",
+      "36057196",
+      "35776646",
+      "35446421",
+      "34567058",
+      "33980847",
+      "33779753",
+      "33723039",
+      "33532840",
+      "33505025",
+      "32741549",
+      "32393327",
+      "31700164",
+      "31639474",
+      "31387922",
+      "31283382",
+      "30874800",
+      "30089779",
+      "29638214",
+      "29608705",
+      "29425488",
+      "28473536",
+      "27471964",
+      "27354350",
+      "27013732",
+      "26973785",
+      "26560027",
+      "26550823",
+      "26301843",
+      "26152199",
+      "26075791",
+      "25810428",
+      "25151169",
+      "24651729",
+      "24390282",
+      "24290376",
+      "24234437",
+      "23498934",
+      "23444044",
+      "23332764",
+      "22955616",
+      "22003125",
+      "21258342",
+      "19616058",
+      "19265799",
+      "10812473",
+      "10647173",
+      "7867071"
+    ],
+    "similar": [
+      "41495882",
+      "38517697",
+      "33505025",
+      "37805453",
+      "40598892",
+      "40903577",
+      "28623580",
+      "37926287",
+      "40205063",
+      "21389103",
+      "27567672",
+      "26476779",
+      "22189060",
+      "42099803",
+      "25775564",
+      "31362726",
+      "31267468",
+      "39482734",
+      "40848288",
+      "28472398",
+      "26550823",
+      "26291518",
+      "26285121",
+      "23616472",
+      "24500199",
+      "19105805",
+      "35659235",
+      "42134988",
+      "28379348",
+      "36043696",
+      "33077858",
+      "41863075",
+      "27628341",
+      "39116039",
+      "35811788",
+      "25957350",
+      "41799016",
+      "28957321",
+      "22863112",
+      "26130577",
+      "39644990",
+      "31481462",
+      "20838582",
+      "28790414",
+      "35639768",
+      "26160164",
+      "23912807",
+      "32770026",
+      "16873495",
+      "41130140",
+      "39922197",
+      "37650641",
+      "20827593",
+      "36057196",
+      "21172055",
+      "17623704",
+      "27209209",
+      "26901046",
+      "39152038",
+      "27013732",
+      "19293946",
+      "41063341",
+      "32053778",
+      "41288963",
+      "31114870",
+      "26818008",
+      "22300769",
+      "40998781",
+      "41131660",
+      "29588420",
+      "20158869",
+      "23320072",
+      "41518500",
+      "29617928",
+      "31226207",
+      "16267080",
+      "23812975",
+      "41824296",
+      "29385521",
+      "28167566",
+      "22956994",
+      "28541376",
+      "18829719",
+      "20074831",
+      "28235488",
+      "40874594",
+      "28726847",
+      "40102719",
+      "12101405",
+      "32155318",
+      "20378718",
+      "40250421",
+      "16873497",
+      "28750606",
+      "40065237",
+      "40515928",
+      "39271116",
+      "41920894",
+      "31372637",
+      "31469829"
+    ],
+    "review": [
+      "41495882",
+      "21389103",
+      "39644990",
+      "41130140",
+      "36057196"
+    ],
+    "pmc": [
+      "12774635"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41495882/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1417",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

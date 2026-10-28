@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "34199659",
+    "doi": "10.3390/ijms22116028",
+    "title": "Spectroscopic and In Silico Studies on the Interaction of Substituted Pyrazolo[1,2-a]benzo[1,2,3,4]tetrazine-3-one Derivatives with c-Myc G4-DNA."
+  },
+  "content": {
+    "abstract": "Herein we describe a combined experimental and in silico study of the interaction of a series of pyrazolo[1,2-a]benzo[1,2,3,4]tetrazin-3-one derivatives (PBTs) with parallel G-quadruplex (GQ) DNA aimed at correlating their previously reported anticancer activities and the stabilizing effects observed by us on c-myc oncogene promoter GQ structure. Circular dichroism (CD) melting experiments were performed to characterize the effect of the studied PBTs on the GQ thermal stability. CD measurements indicate that two out of the eight compounds under investigation induced a slight stabilizing effect (2-4  degrees C) on GQ depending on the nature and position of the substituents. Molecular docking results allowed us to verify the modes of interaction of the ligands with the GQ and estimate the binding affinities. The highest binding affinity was observed for ligands with the experimental melting temperatures (T(m)s). However, both stabilizing and destabilizing ligands showed similar scores, whilst Molecular Dynamics (MD) simulations, performed across a wide range of temperatures on the GQ in water solution, either unliganded or complexed with two model PBT ligands with the opposite effect on the T(m)s, consistently confirmed their stabilizing or destabilizing ability ascertained by CD. Clues about a relation between the reported anticancer activity of some PBTs and their ability to stabilize the GQ structure of c-myc emerged from our study. Furthermore, Molecular Dynamics simulations at high temperatures are herein proposed for the first time as a means to verify the stabilizing or destabilizing effect of ligands on the GQ, also disclosing predictive potential in GQ-targeting drug discovery.",
+    "keywords": [
+      "DNA quadruplexes",
+      "anticancer drugs",
+      "c-myc",
+      "circular dichroism",
+      "docking",
+      "molecular dynamics",
+      "quadruplex stabilization"
+    ],
+    "mesh_terms": [
+      "Binding Sites/drug effects",
+      "Circular Dichroism",
+      "Computer Simulation",
+      "DNA/chemistry/*drug effects/ultrastructure",
+      "G-Quadruplexes/*drug effects",
+      "Humans",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "Promoter Regions, Genetic/genetics",
+      "Proto-Oncogene Proteins c-myc/*chemistry/ultrastructure",
+      "Telomere/*chemistry/drug effects/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mulliri, Simone",
+        "Laaksonen, Aatto",
+        "Spanu, Pietro",
+        "Farris, Riccardo",
+        "Farci, Matteo",
+        "Mingoia, Francesco",
+        "Roviello, Giovanni N",
+        "Mocci, Francesca"
+      ],
+      "short_names": [
+        "Mulliri S",
+        "Laaksonen A",
+        "Spanu P",
+        "Farris R",
+        "Farci M",
+        "Mingoia F",
+        "Roviello GN",
+        "Mocci F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9783-4535",
+        "ORCID: 0000-0001-9538-2344",
+        "ORCID: 0000-0002-9106-4602",
+        "ORCID: 0000-0002-6978-542X",
+        "ORCID: 0000-0003-1394-9146"
+      ],
+      "affiliations": [
+        "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy.",
+        "State Key Laboratory of Materials-Oriented and Chemical Engineering, Nanjing Tech University, Nanjing 210009, China.",
+        "Division of Physical Chemistry, Department of Materials and Environmental Chemistry, Arrhenius Laboratory, Stockholm University, 10691 Stockholm, Sweden.",
+        "Centre of Advanced Research in Bionanoconjugates and Biopolymers, Petru Poni Institute of Macromolecular Chemistry, 700487 Iasi, Romania.",
+        "Department of Engineering Sciences and Mathematics, Division of Energy Science, Lulea University of Technology, SE-97187 Lulea, Sweden.",
+        "Istituto di Chimica Biomolecolare, ICB-CNR-Trav. La Crucca 3, 07100 Sassari, Italy.",
+        "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy.",
+        "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy.",
+        "Istituto per lo Studio dei Materiali Nanostrutturati ISMN-CNR, Via U. La Malfa 153, I-90146 Palermo, Italy.",
+        "Istituto di Biostrutture e Bioimmagini, IBB-CNR, Via Mezzocannone 16, I-80134 Naples, Italy.",
+        "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy.",
+        "Centre of Advanced Research in Bionanoconjugates and Biopolymers, Petru Poni Institute of Macromolecular Chemistry, 700487 Iasi, Romania."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mulliri, Simone",
+        "short_name": "Mulliri S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy."
+        ]
+      },
+      {
+        "full_name": "Laaksonen, Aatto",
+        "short_name": "Laaksonen A",
+        "identifiers": [
+          "0000-0001-9783-4535"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Materials-Oriented and Chemical Engineering, Nanjing Tech University, Nanjing 210009, China.",
+          "Division of Physical Chemistry, Department of Materials and Environmental Chemistry, Arrhenius Laboratory, Stockholm University, 10691 Stockholm, Sweden.",
+          "Centre of Advanced Research in Bionanoconjugates and Biopolymers, Petru Poni Institute of Macromolecular Chemistry, 700487 Iasi, Romania.",
+          "Department of Engineering Sciences and Mathematics, Division of Energy Science, Luleå University of Technology, SE-97187 Luleå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Spanu, Pietro",
+        "short_name": "Spanu P",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Chimica Biomolecolare, ICB-CNR-Trav. La Crucca 3, 07100 Sassari, Italy."
+        ]
+      },
+      {
+        "full_name": "Farris, Riccardo",
+        "short_name": "Farris R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy."
+        ]
+      },
+      {
+        "full_name": "Farci, Matteo",
+        "short_name": "Farci M",
+        "identifiers": [
+          "0000-0001-9538-2344"
+        ],
+        "affiliations": [
+          "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy."
+        ]
+      },
+      {
+        "full_name": "Mingoia, Francesco",
+        "short_name": "Mingoia F",
+        "identifiers": [
+          "0000-0002-9106-4602"
+        ],
+        "affiliations": [
+          "Istituto per lo Studio dei Materiali Nanostrutturati ISMN-CNR, Via U. La Malfa 153, I-90146 Palermo, Italy."
+        ]
+      },
+      {
+        "full_name": "Roviello, Giovanni N",
+        "short_name": "Roviello GN",
+        "identifiers": [
+          "0000-0002-6978-542X"
+        ],
+        "affiliations": [
+          "Istituto di Biostrutture e Bioimmagini, IBB-CNR, Via Mezzocannone 16, I-80134 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Mocci, Francesca",
+        "short_name": "Mocci F",
+        "identifiers": [
+          "0000-0003-1394-9146"
+        ],
+        "affiliations": [
+          "Department of Chemical and Geological Sciences, University of Cagliari, I-09042 Monserrato, Italy.",
+          "Centre of Advanced Research in Bionanoconjugates and Biopolymers, Petru Poni Institute of Macromolecular Chemistry, 700487 Iasi, Romania."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jun 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-27 20:02:34"
+  },
+  "links": {
+    "cites": [
+      "39407611",
+      "39291646",
+      "38793770",
+      "36979947",
+      "36555221",
+      "35566347",
+      "34638964"
+    ],
+    "refs": [
+      "34123342",
+      "33533244",
+      "32820923",
+      "32430874",
+      "32428744",
+      "32095985",
+      "32070245",
+      "32030823",
+      "31940851",
+      "31927477",
+      "31457446",
+      "30871220",
+      "30555989",
+      "30261256",
+      "30095224",
+      "29229300",
+      "29028340",
+      "28905525",
+      "28780124",
+      "28696445",
+      "28657760",
+      "28252181",
+      "28025082",
+      "27979677",
+      "27379924",
+      "27300587",
+      "27144522",
+      "26860303",
+      "26588601",
+      "26584231",
+      "26583988",
+      "25806428",
+      "24810265",
+      "24058302",
+      "23644217",
+      "23294188",
+      "23197943",
+      "21455236",
+      "21113409",
+      "20440429",
+      "19757835",
+      "19757406",
+      "18593145",
+      "18447358",
+      "17351000",
+      "17034125",
+      "16458552",
+      "16200636",
+      "16185663",
+      "15841474",
+      "15828824",
+      "15697230",
+      "15116359",
+      "15048827",
+      "15027866",
+      "15027865",
+      "12215424",
+      "12195017",
+      "12096912",
+      "10740289",
+      "10673427"
+    ],
+    "similar": [
+      "34199659",
+      "27865994",
+      "27021281",
+      "29611599",
+      "35248982",
+      "27226253",
+      "29459277",
+      "35566347",
+      "22484007",
+      "25495750",
+      "31740959",
+      "28650023",
+      "37821013",
+      "32827579",
+      "30703662",
+      "29607778",
+      "35726630",
+      "26631315",
+      "30642002",
+      "18674916",
+      "38821199",
+      "27840085",
+      "20437426",
+      "19876976",
+      "33089692",
+      "32302880",
+      "25527072",
+      "33360205",
+      "25694275",
+      "29086571",
+      "22500657",
+      "34990028",
+      "27836755",
+      "32033198",
+      "22513122",
+      "29747481",
+      "36054116",
+      "25359695",
+      "28756275",
+      "28130159",
+      "29504620",
+      "17574421",
+      "36455103",
+      "31759020",
+      "27852004",
+      "25440731",
+      "31793724",
+      "32492501",
+      "33978746",
+      "38838555",
+      "24920827",
+      "28025082",
+      "29709633",
+      "22074555",
+      "34638655",
+      "33188810",
+      "36208542",
+      "24012973",
+      "23244447",
+      "20957717",
+      "34015406",
+      "34299583",
+      "23333713",
+      "34824301",
+      "39077944",
+      "26076114",
+      "19795057",
+      "33213893",
+      "38335759",
+      "31807754",
+      "18821749",
+      "22480315",
+      "28728523",
+      "30469358",
+      "21377506",
+      "27086081",
+      "32791149",
+      "28888786",
+      "28232513",
+      "28503738",
+      "22104971",
+      "34680037",
+      "31283877",
+      "31010072",
+      "23407741",
+      "27936741",
+      "21774525",
+      "23429572",
+      "31019071",
+      "17718513",
+      "36656764",
+      "22380518",
+      "26687022",
+      "17243826",
+      "34213273",
+      "20615700",
+      "33801762",
+      "21967482",
+      "23776031",
+      "35584037",
+      "19588966",
+      "23434432",
+      "34639142",
+      "36012470",
+      "39097044",
+      "39032720",
+      "34577013",
+      "39159468",
+      "33978052",
+      "38693737",
+      "29966734",
+      "39035713"
+    ],
+    "review": [
+      "34199659",
+      "32827579",
+      "22074555",
+      "34680037"
+    ],
+    "pmc": [
+      "8199725"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22116028",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34199659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34199659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

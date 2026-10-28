@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "36544031",
+    "doi": "10.1007/s11030-022-10587-2",
+    "title": "Exploring binding mode assessment of novel kaempferol, resveratrol, and quercetin derivatives with PPAR-alpha as potent drug candidates against cancer."
+  },
+  "content": {
+    "abstract": "Peroxisome proliferator-activated receptors (PPAR)-alpha, a ligand-activated transcription factor stands out to be a valuable protein target against cancer. Given that ligand binding is the crucial process for the activation of PPAR-alpha, fibrate class of synthetic compounds serves as potent agonist for the receptor. However, their serious side effects limit the long-term application in cancer. This emphasizes the dire need to identify new candidates that would exert desired activation by abrogating the adverse effects caused by synthetic agonists. Natural dietary products serve as an important source of drug discovery. Hence, the present study encompasses the investigation of the role of natural plant phenolic compounds: kaempferol, resveratrol, and quercetin and their 8708 derivatives by the means of computational pipeline comprising molecular docking and molecular dynamic (MD) simulation techniques. Docking calculations shortlisted potential candidates, namely 6-cinnamylchrysin (6-CC), resveratrol potassium-4-sulfate (RPS) and 6-[2-(3,4-Dihydroxyphenyl)-5-hydroxy-4-oxochromen-7-yl]oxyhexyl nitrate (DHOON), and derivatives of kaempferol, resveratrol, and quercetin, respectively. 6-CC, RPS, and DHOON manifested better affinities of - 32.83 kcal/mol (Ala333, Lys358, His440), - 27.22 kcal/mol (Tyr314, Met355), and - 30.18 kcal/mol (Ser280, Tyr314, Ala333), respectively, and were found to act as good stimulants for PPAR-alpha. Among these three compounds, 6-CC caused relatively least deviations and fluctuations analyzed through MD simulation which judiciously held responsible to attain most favorable interaction with PPAR-alpha. Followed by the binding free energy (DeltaG) calculations using MM-GBSA confirmed the key role of 6-CC toward PPAR-alpha. The compound 6-CC also achieved high drug-likeness and pharmacokinetic properties. Thus, these findings stipulate new drug leads for PPAR-alpha receptor which abets a way to develop new anti-cancer drugs.",
+    "keywords": [
+      "Cancer",
+      "Molecular docking",
+      "Molecular dynamic simulation",
+      "Natural products",
+      "PPAR-alpha"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "Resveratrol/pharmacology",
+      "*Quercetin/pharmacology",
+      "PPAR alpha/agonists/metabolism",
+      "Ligands",
+      "Kaempferols/pharmacology",
+      "Molecular Dynamics Simulation",
+      "*Neoplasms/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ballav, Sangeeta",
+        "Lokhande, Kiran Bharat",
+        "Yadav, Rohit Singh",
+        "Ghosh, Payel",
+        "Swamy, K V",
+        "Basu, Soumya"
+      ],
+      "short_names": [
+        "Ballav S",
+        "Lokhande KB",
+        "Yadav RS",
+        "Ghosh P",
+        "Swamy KV",
+        "Basu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1775-6600",
+        "ORCID: 0000-0001-6945-8288",
+        "ORCID: 0000-0001-8198-3042",
+        "ORCID: 0000-0002-1726-0154"
+      ],
+      "affiliations": [
+        "Cancer and Translational Research Laboratory, Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Dr. D. Y. Patil Vidyapeeth, Pune, Maharashtra, 411033, India.",
+        "Bioinformatics Research Laboratory, Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Dr. D.Y. Patil Vidyapeeth, Pune, 411033, Maharashtra, India.",
+        "Translational Bioinformatics and Computational Genomics Research Lab, Department of Life Sciences, Shiv Nadar Institution of Eminence, Gautam Buddha Nagar, UP, 201314, India.",
+        "Cancer and Translational Research Laboratory, Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Dr. D. Y. Patil Vidyapeeth, Pune, Maharashtra, 411033, India.",
+        "Bioinformatics Research Laboratory, Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Dr. D.Y. Patil Vidyapeeth, Pune, 411033, Maharashtra, India.",
+        "Bioinformatics Centre, Savitribai Phule Pune University, Pune, Maharashtra, 411007, India.",
+        "Bioinformatics Research Laboratory, Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Dr. D.Y. Patil Vidyapeeth, Pune, 411033, Maharashtra, India.",
+        "Bioinformatics Research Group, MIT School of Bioengineering Science & Research, MIT Art, Design and Technology University, Pune, Maharashtra, 412201, India.",
+        "Cancer and Translational Research Laboratory, Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Dr. D. Y. Patil Vidyapeeth, Pune, Maharashtra, 411033, India. soumya.bs@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ballav, Sangeeta",
+        "short_name": "Ballav S",
+        "identifiers": [
+          "0000-0002-1775-6600"
+        ],
+        "affiliations": [
+          "Cancer and Translational Research Laboratory, Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Dr. D. Y. Patil Vidyapeeth, Pune, Maharashtra, 411033, India."
+        ]
+      },
+      {
+        "full_name": "Lokhande, Kiran Bharat",
+        "short_name": "Lokhande KB",
+        "identifiers": [
+          "0000-0001-6945-8288"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Laboratory, Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Dr. D.Y. Patil Vidyapeeth, Pune, 411033, Maharashtra, India.",
+          "Translational Bioinformatics and Computational Genomics Research Lab, Department of Life Sciences, Shiv Nadar Institution of Eminence, Gautam Buddha Nagar, UP, 201314, India."
+        ]
+      },
+      {
+        "full_name": "Yadav, Rohit Singh",
+        "short_name": "Yadav RS",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer and Translational Research Laboratory, Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Dr. D. Y. Patil Vidyapeeth, Pune, Maharashtra, 411033, India.",
+          "Bioinformatics Research Laboratory, Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Dr. D.Y. Patil Vidyapeeth, Pune, 411033, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Payel",
+        "short_name": "Ghosh P",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Centre, Savitribai Phule Pune University, Pune, Maharashtra, 411007, India."
+        ]
+      },
+      {
+        "full_name": "Swamy, K V",
+        "short_name": "Swamy KV",
+        "identifiers": [
+          "0000-0001-8198-3042"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Laboratory, Dr. D. Y. Patil Biotechnology & Bioinformatics Institute, Dr. D.Y. Patil Vidyapeeth, Pune, 411033, Maharashtra, India.",
+          "Bioinformatics Research Group, MIT School of Bioengineering Science & Research, MIT Art, Design and Technology University, Pune, Maharashtra, 412201, India."
+        ]
+      },
+      {
+        "full_name": "Basu, Soumya",
+        "short_name": "Basu S",
+        "identifiers": [
+          "0000-0002-1726-0154"
+        ],
+        "affiliations": [
+          "Cancer and Translational Research Laboratory, Dr. D. Y. Patil Biotechnology and Bioinformatics Institute, Dr. D. Y. Patil Vidyapeeth, Pune, Maharashtra, 411033, India. soumya.bs@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/22 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "42587803",
+      "42075901",
+      "41828789",
+      "41594658",
+      "41154667",
+      "41020885",
+      "40515882",
+      "38947487"
+    ],
+    "refs": [
+      "34061003",
+      "33992930",
+      "33845796",
+      "33805363",
+      "32981461",
+      "32954977",
+      "32816149",
+      "32175075",
+      "31524255",
+      "31248102",
+      "31164165",
+      "30836241",
+      "30791450",
+      "30687096",
+      "30216981",
+      "30060458",
+      "29042792",
+      "28677813",
+      "28594934",
+      "28256516",
+      "27713574",
+      "27547125",
+      "26615687",
+      "26596171",
+      "25765892",
+      "25502412",
+      "24975132",
+      "24139946",
+      "22226866",
+      "21267808",
+      "21094360",
+      "20811485",
+      "20808434",
+      "20101262",
+      "18262572",
+      "16009521",
+      "15072435",
+      "7964925"
+    ],
+    "similar": [
+      "36544031",
+      "32954977",
+      "32816149",
+      "35809408",
+      "35773777",
+      "38642318",
+      "37261483",
+      "25765892",
+      "25491112",
+      "37837423",
+      "34502340",
+      "22685582",
+      "37517044",
+      "30767625",
+      "29789011",
+      "31663474",
+      "37948295",
+      "22731403",
+      "30557817",
+      "18355413",
+      "37017501",
+      "39217892",
+      "37293201",
+      "32353564",
+      "38746675",
+      "23119024",
+      "35744817",
+      "30648583",
+      "32151198",
+      "18262572",
+      "36635906",
+      "39233923",
+      "32897138",
+      "32835632",
+      "34182904",
+      "36437421",
+      "24837836",
+      "33140698",
+      "38473849",
+      "33784603",
+      "32189570",
+      "35807562",
+      "37208387",
+      "28853334",
+      "36966648",
+      "35038752",
+      "39312165",
+      "23100237",
+      "33403456",
+      "35120520",
+      "37279114",
+      "22672760",
+      "31916505",
+      "28539218",
+      "36799050",
+      "33164832",
+      "30306879",
+      "15774422",
+      "23707408",
+      "37682937",
+      "20400503",
+      "31441728",
+      "23289972",
+      "32568603",
+      "28539091",
+      "34751120",
+      "23432662",
+      "31787028",
+      "27937122",
+      "27708429",
+      "35578172",
+      "36601892",
+      "26983922",
+      "31418313",
+      "28135036",
+      "35409325",
+      "10359656",
+      "31161987",
+      "37270520",
+      "25422585",
+      "37200359",
+      "34990085",
+      "37308028",
+      "32187019",
+      "32141392",
+      "32342802",
+      "36928801",
+      "30611848",
+      "31825687",
+      "25641779",
+      "31899679",
+      "37420135",
+      "34514973",
+      "34948899",
+      "11343698",
+      "33155528",
+      "25798826",
+      "32345140",
+      "35758564",
+      "25497132",
+      "36524470",
+      "38468538",
+      "37842901",
+      "33227319",
+      "38758508",
+      "38882504",
+      "39378198",
+      "38931424",
+      "37974963",
+      "39068565",
+      "39035954",
+      "38726174",
+      "38334133",
+      "38027372",
+      "38248327",
+      "38773015",
+      "37484563",
+      "37011009",
+      "34900775",
+      "39014147",
+      "32226726",
+      "36304279"
+    ],
+    "review": [
+      "36544031",
+      "36635906",
+      "34751120",
+      "31161987",
+      "34990085",
+      "31825687"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11030-022-10587-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36544031",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

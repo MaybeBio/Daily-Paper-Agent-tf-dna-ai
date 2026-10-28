@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report identification and characterization of a DNA aptamer, ATA2, as a TLR9 agonist with immunomodulatory activity, supported by computational, biophysical, and functional data
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, raw data, statistical analyses, sequence information, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting candidate aptamer for TLR9 modulation, but the evidence as summarized is insufficient to establish the central claims of specificity, agonistic activity, and therapeutic potential. Several key experimental details and controls are not described, and the reported affinity is weak for a therapeutic candidate. The work may be of interest to immunologists and nucleic acid therapeutic developers, but the current abstract does not provide enough information to assess technical rigor or reproducibility.
+- **Who would be interested in the results, and why** Researchers in innate immunity, particularly those studying TLR signaling and nucleic acid sensing, as well as investigators developing aptamer-based therapeutics or immunomodulatory agents. The potential for a stable, specific TLR9 agonist could have translational relevance for vaccine adjuvants or cancer immunotherapy.
+- **Major strengths** The integrative approach combining computational, biophysical, and functional methods is commendable. The inclusion of specificity testing via TLR9 antagonist inhibition and the assessment of multiple immune cell types are positive features. The reported thermal and chemical stability of ATA2 is a useful attribute for therapeutic development.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and functional evidence
+  - **Claim pointer** ATA2 is a potent TLR9 agonist with specificity confirmed by TLR9 antagonist inhibition
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that ATA2 induces TNF-alpha production in macrophages and that specificity is confirmed by TLR9 antagonist inhibition, but no quantitative data, dose-response curves, or statistical comparisons are provided. It is unclear whether the antagonist fully or partially blocked the response, and whether off-target effects on other TLRs or DNA sensors were excluded.
+  - **Why it matters** TLR9 agonists can cross-react with other nucleic acid sensors such as cGAS or STING, and partial inhibition by a TLR9 antagonist does not establish exclusivity. Without rigorous specificity controls, the claim of TLR9-specific agonism is not supported.
+  - **Resolution test** Provide full dose-response data for TNF-alpha induction, demonstrate complete or near-complete blockade with TLR9 antagonist, and include negative controls with TLR9-deficient cells or other TLR agonists to rule out off-target effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Binding affinity and functional relevance
+  - **Claim pointer** Surface plasmon resonance revealed a moderate affinity interaction between ATA2 and TLR9 (KD = 2.94 muM)
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** A KD of 2.94 muM is weak for a functional aptamer, and the abstract does not explain how this affinity translates to the observed cellular activity. No comparison is made to known TLR9 ligands or other aptamers, and the kinetic parameters (kon, koff) are not reported.
+  - **Why it matters** Weak binding may indicate non-specific interactions or require high concentrations for activity, which could limit therapeutic utility. The relationship between binding affinity and functional potency is critical for assessing the aptamer's mechanism and translational potential.
+  - **Resolution test** Report full SPR kinetic data, compare KD to known TLR9 ligands, and demonstrate that the concentration range used in functional assays is consistent with the measured affinity. Provide a clear mechanistic link between binding and cellular activation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural and computational evidence
+  - **Claim pointer** Molecular dynamics simulations highlighted ATA2's superior conformational stability and flexibility in binding TLR9 compared to ATA1
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no details on the simulation methodology, force fields, simulation time, or the structural model used for TLR9. The claim of "superior conformational stability and flexibility" is vague and not quantified. No experimental validation of the predicted binding mode is presented.
+  - **Why it matters** Computational predictions are only as reliable as their validation. Without experimental structural data or mutagenesis studies, the claim of a versatile binding mode is speculative and cannot be assessed.
+  - **Resolution test** Provide detailed simulation parameters, quantitative metrics for stability and flexibility, and experimental validation such as mutagenesis of predicted binding residues or structural analysis (e.g., NMR or crystallography).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Cell type specificity
+  - **Affected element** Claim of limited effects on B cells
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that ATA2 showed limited effects on B cells, but no data or context is provided. It is unclear whether this is a limitation or a desired feature, and whether the B cell response was measured under the same conditions as macrophages and dendritic cells.
+  - **Required correction** Clarify the experimental conditions and provide quantitative data for B cell responses, and discuss the implications of differential cell type sensitivity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Structural characterization
+  - **Affected element** HPLC analysis of conformational states
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "discrete conformational states" and "high thermal and chemical stability" based on HPLC, but no details on the HPLC method, conditions, or how stability was quantified are provided.
+  - **Required correction** Describe the HPLC methodology and provide representative chromatograms and stability data, including the specific conditions tested (e.g., temperature, denaturant concentration).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Therapeutic potential
+  - **Affected element** Claim of therapeutic potential
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract concludes with "therapeutic potential" but no in vivo data, pharmacokinetic studies, or toxicity assessments are presented. The claim is premature based on the described in vitro and computational work.
+  - **Required correction** Soften the conclusion to reflect that the findings are preliminary and require further in vivo validation, or provide additional supporting data if available in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The concept of a TLR9-specific DNA aptamer is not entirely novel, but the specific aptamer ATA2 and its characterization may offer some new insights. Scientific importance: TLR9 modulation is of interest, but the weak affinity and lack of in vivo data limit the significance. Interdisciplinary readership: The work spans immunology, biophysics, and computational biology, which could appeal to a broad audience, but the abstract does not provide enough depth for specialists. Technical soundness: The described methods are appropriate in principle, but the lack of quantitative data and controls undermines confidence. Readability for nonspecialists: The abstract is generally clear, but some terms and claims are not sufficiently explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible candidate but lacks the quantitative data, controls, and validation needed to support the central claims. The authors should address the major concerns, particularly specificity, affinity, and computational validation, before the case can be considered.
+
+## Risk / unsupported claims
+- The claim of "potent TLR9 agonist" is unsupported without dose-response data and full antagonist blockade.
+- The KD value of 2.94 muM is reported without kinetic context or comparison to known ligands.
+- The claim of "superior conformational stability and flexibility" from molecular dynamics is not quantifiable from the abstract.
+- The conclusion of "therapeutic potential" is unsupported without in vivo or pharmacokinetic data.
+- The statement of "limited effects on B cells" is unquantified and lacks experimental context.

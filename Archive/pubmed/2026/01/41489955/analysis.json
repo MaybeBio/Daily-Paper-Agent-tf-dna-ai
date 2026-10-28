@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41489955",
+  "title": "scHyperLink: Revealing Cell-Type-Specific Gene Regulation With Hypergraph Neural Networks.",
+  "authors": "Kulkul, Emre; Cukur, Tolga; Koc, Aykut",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2026-01-06",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用超图神经网络从单细胞数据重建基因调控网络，虽涉及TF-靶基因关系，但主要基于表达推断而非三维互作建模，方法可迁移至TF-DNA结合预测。",
+  "abstract": "Single-cell RNA sequencing (scRNA-seq) allows gene expression to be measured at single-cell resolution, offering new opportunities to investigate Gene Regulatory Networks (GRNs), which represent the regulatory interactions between transcription factors (TFs) and their target genes. Given their relational structure, GRNs are formulated as graphs, enabling gene interaction inference to be framed as a link prediction task among graph nodes (i.e., genes). Prior work adopts Graph Neural Networks (GNNs) to this end, employing their unique ability to model inter-node relationships. However, since GNNs are inherently limited to pair-wise node interactions, they struggle to capture the higher-order dependencies characteristic of GRNs. Gene expression is regulated through multi-way feedback loops involving multiple TFs and targets, and disregarding these higher-order dependencies can lower accuracy in gene interaction inference. To overcome this limitation, we introduce scHyperLink, a hypergraph-based framework for GRN reconstruction. scHyperLink models gene interactions using Hypergraph Neural Networks (HGNNs), where hyperedges allow the simultaneous representation of multi-gene regulatory relationships. scHyperLink integrates experimentally derived interaction graphs with dynamically learned hyperedges to better reflect the underlying regulatory structure. We demonstrate that scHyperLink achieves higher accuracy than state-of-the-art on cell-type-specific benchmark datasets, particularly in sparse regimes with few known interactions. Moreover, we validate the biological relevance of scHyperLink via interpretability analyses on inferred hypergraphs and showcase its scalability to tissue-level analyses. We share the analyzed datasets and source codes for reproducibility.",
+  "abstract_zh": "单细胞RNA测序（scRNA-seq）能够在单细胞分辨率下测量基因表达，为研究基因调控网络（GRNs）提供了新机遇，该网络代表了转录因子（TFs）与其靶基因之间的调控相互作用。鉴于其关系结构，GRNs被构建为图，使得基因相互作用推断可被框架化为图节点（即基因）之间的链接预测任务。先前的工作采用图神经网络（GNNs）来实现此目的，利用其建模节点间关系的独特能力。然而，由于GNNs本质上局限于成对节点相互作用，它们难以捕捉GRNs特征性的高阶依赖性。基因表达通过涉及多个TFs和靶基因的多向反馈回路进行调控，忽视这些高阶依赖性可能降低基因相互作用推断的准确性。为克服这一局限，我们引入了scHyperLink，一种基于超图的GRN重建框架。scHyperLink使用超图神经网络（HGNNs）建模基因相互作用，其中超边允许同时表示多基因调控关系。scHyperLink整合了实验衍生的相互作用图与动态学习的超边，以更好地反映潜在的调控结构。我们证明，scHyperLink在细胞类型特异性基准数据集上实现了比现有最先进方法更高的准确性，尤其是在已知相互作用稀少的稀疏场景中。此外，我们通过对推断超图的可解释性分析验证了scHyperLink的生物学相关性，并展示了其扩展到组织水平分析的可行性。我们共享分析数据集和源代码以促进可重复性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41489955/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41489955/",
+  "paper_page_path": "papers/pubmed/41489955/index.html"
+}

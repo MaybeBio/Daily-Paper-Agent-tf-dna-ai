@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "41922356",
+    "doi": "10.1038/s41467-026-70070-6",
+    "title": "An end-to-end generalizable deep learning framework to comprehensively analyze transcriptional regulation."
+  },
+  "content": {
+    "abstract": "Genome annotation currently requires performing dozens of molecular assays in hundreds of cell and tissue samples, an expensive endeavor which is impractical to replicate across all species and conditions of interest. Here, we introduce BioSeq2Seq, a deep learning framework that infers cell-line-specific molecular assays widely used for genome annotation by leveraging a tri-modal input: evolutionarily conserved DNA sequence features, together with cell-line-specific transcriptional activity and directionality captured by a single run-on sequencing assay. BioSeq2Seq enables flexible genome annotation tasks through parameterized configurations of input features and output targets, combined with gradient-guided architectural refinement for specific biological objectives. Our model demonstrates high accuracy across four downstream tasks, showing improvements of 14.27% in histone modification prediction, 2.50% in functional element identification, and 2.90% in gene expression prediction compared to state-of-the-art methods. In transcription factor binding site (TFBS) prediction, it maintains performance comparable to that of leading existing approaches. By achieving competitive performance across tasks with single-cell-line input data, BioSeq2Seq provides an efficient and low-cost alternative for genome annotation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Transcription Factors/metabolism",
+      "Binding Sites/genetics",
+      "*Transcription, Genetic",
+      "*Gene Expression Regulation",
+      "Humans",
+      "Molecular Sequence Annotation/methods",
+      "Animals",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zhaoxi",
+        "Fan, Xiaoya",
+        "Zhong, Jiaxin",
+        "Jia, Lijuan",
+        "Han, Yuanyuan",
+        "Yang, Chenyi",
+        "He, Zengyou",
+        "Li, Xiaoyan",
+        "Yau, Shing-Tung",
+        "Wu, Rongling",
+        "Danko, Charles G",
+        "Wang, Zhong"
+      ],
+      "short_names": [
+        "Zhang Z",
+        "Fan X",
+        "Zhong J",
+        "Jia L",
+        "Han Y",
+        "Yang C",
+        "He Z",
+        "Li X",
+        "Yau ST",
+        "Wu R",
+        "Danko CG",
+        "Wang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3894-7641",
+        "ORCID: 0000-0002-5002-6968",
+        "ORCID: 0000-0002-3440-0999",
+        "ORCID: 0000-0003-3394-2187",
+        "ORCID: 0000-0002-2334-6421",
+        "ORCID: 0000-0002-1999-7125",
+        "ORCID: 0009-0003-5602-1003"
+      ],
+      "affiliations": [
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China.",
+        "Department of Pathology, Cancer Hospital of Dalian University of Technology, Shenyang, China.",
+        "Beijing Key Laboratory of Topological Statistics and Applications for Complex Systems, Beijing Institute of Mathematical Sciences and Applications, Beijing, China.",
+        "Qiuzhen College, Tsinghua University, Beijing, China.",
+        "Beijing Key Laboratory of Topological Statistics and Applications for Complex Systems, Beijing Institute of Mathematical Sciences and Applications, Beijing, China. ronglingwu@bimsa.cn.",
+        "Qiuzhen College, Tsinghua University, Beijing, China. ronglingwu@bimsa.cn.",
+        "Baker Institute for Animal Health, Cornell University, Ithaca, NY, USA. cgd24@cornell.edu.",
+        "Department of Biomedical Sciences, Cornell University, Ithaca, NY, USA. cgd24@cornell.edu.",
+        "School of Software Technology, Dalian University of Technology, Dalian, China. wangzhong@bimsa.cn.",
+        "Beijing Key Laboratory of Topological Statistics and Applications for Complex Systems, Beijing Institute of Mathematical Sciences and Applications, Beijing, China. wangzhong@bimsa.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zhaoxi",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0002-3894-7641"
+        ],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xiaoya",
+        "short_name": "Fan X",
+        "identifiers": [
+          "0000-0002-5002-6968"
+        ],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Jiaxin",
+        "short_name": "Zhong J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Lijuan",
+        "short_name": "Jia L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yuanyuan",
+        "short_name": "Han Y",
+        "identifiers": [
+          "0000-0002-3440-0999"
+        ],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chenyi",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "He, Zengyou",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoyan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Cancer Hospital of Dalian University of Technology, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Yau, Shing-Tung",
+        "short_name": "Yau ST",
+        "identifiers": [
+          "0000-0003-3394-2187"
+        ],
+        "affiliations": [
+          "Beijing Key Laboratory of Topological Statistics and Applications for Complex Systems, Beijing Institute of Mathematical Sciences and Applications, Beijing, China.",
+          "Qiuzhen College, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Rongling",
+        "short_name": "Wu R",
+        "identifiers": [
+          "0000-0002-2334-6421"
+        ],
+        "affiliations": [
+          "Beijing Key Laboratory of Topological Statistics and Applications for Complex Systems, Beijing Institute of Mathematical Sciences and Applications, Beijing, China. ronglingwu@bimsa.cn.",
+          "Qiuzhen College, Tsinghua University, Beijing, China. ronglingwu@bimsa.cn."
+        ]
+      },
+      {
+        "full_name": "Danko, Charles G",
+        "short_name": "Danko CG",
+        "identifiers": [
+          "0000-0002-1999-7125"
+        ],
+        "affiliations": [
+          "Baker Institute for Animal Health, Cornell University, Ithaca, NY, USA. cgd24@cornell.edu.",
+          "Department of Biomedical Sciences, Cornell University, Ithaca, NY, USA. cgd24@cornell.edu."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhong",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0009-0003-5602-1003"
+        ],
+        "affiliations": [
+          "School of Software Technology, Dalian University of Technology, Dalian, China. wangzhong@bimsa.cn.",
+          "Beijing Key Laboratory of Topological Statistics and Applications for Complex Systems, Beijing Institute of Mathematical Sciences and Applications, Beijing, China. wangzhong@bimsa.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/02 00:29",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [
+      "42296157"
+    ],
+    "refs": [
+      "40567809",
+      "37259021",
+      "37224527",
+      "36973806",
+      "36859550",
+      "36719906",
+      "35788238",
+      "35594906",
+      "35551308",
+      "35440119",
+      "35396274",
+      "35273399",
+      "34608324",
+      "34491989",
+      "33741685",
+      "33538820",
+      "33522898",
+      "33367499",
+      "32240773",
+      "31988385",
+      "31534281",
+      "30967126",
+      "30922998",
+      "30871461",
+      "30589513",
+      "30573452",
+      "30349116",
+      "30349114",
+      "30147283",
+      "30013180",
+      "29588361",
+      "27863239",
+      "27587684",
+      "27153568",
+      "27095194",
+      "27084946",
+      "26704082",
+      "26301843",
+      "26175159",
+      "26073855",
+      "26028540",
+      "26017442",
+      "25986499",
+      "25799441",
+      "25383968",
+      "25363779",
+      "25187560",
+      "23566087",
+      "23481318",
+      "22986265",
+      "22955974",
+      "22955617",
+      "22955616",
+      "22139910",
+      "22019781",
+      "21441907",
+      "21191423",
+      "21164479",
+      "20833320",
+      "20657582",
+      "19923429",
+      "19773334",
+      "19564914",
+      "18798982",
+      "17512414",
+      "17320507",
+      "16719718",
+      "14172992",
+      "11825869",
+      "11562345",
+      "9512455"
+    ],
+    "similar": [
+      "41922356",
+      "42475469",
+      "40914877",
+      "42560939",
+      "42099803",
+      "36094959",
+      "30967126",
+      "42167226",
+      "37294799",
+      "17914226",
+      "22456606",
+      "21364973",
+      "42476546",
+      "41035197",
+      "15474296",
+      "21106904",
+      "42145197",
+      "39701486",
+      "31372637",
+      "37643374",
+      "40411397",
+      "33137083",
+      "42455075",
+      "40723810",
+      "40240358",
+      "35163661",
+      "20360861",
+      "42341216",
+      "42546039",
+      "38300515",
+      "40702706",
+      "22955978",
+      "42194040",
+      "41288963",
+      "29441061",
+      "26818008",
+      "41920894",
+      "32669542",
+      "41198716",
+      "26406244",
+      "35263332",
+      "42007520",
+      "23184988",
+      "39657783",
+      "24670764",
+      "25957350",
+      "35293310",
+      "37598467",
+      "16362910",
+      "36833209",
+      "29855387",
+      "42478686",
+      "36902216",
+      "40596854",
+      "30453943",
+      "41634097",
+      "33707582",
+      "2188976",
+      "8628260",
+      "38732207",
+      "29361190",
+      "41359035",
+      "41923359",
+      "9028949",
+      "41257571",
+      "34073774",
+      "27490187",
+      "38594933",
+      "22950968",
+      "34664074",
+      "39934670",
+      "31324140",
+      "41161490",
+      "9545353",
+      "26088140",
+      "14644504",
+      "41162646",
+      "21177974",
+      "30427832",
+      "42384754",
+      "10488087",
+      "16181749",
+      "42224351",
+      "40315689",
+      "42140663",
+      "25682954",
+      "15108359",
+      "41606153",
+      "41034712",
+      "10896939",
+      "11292834",
+      "17611704",
+      "31006511",
+      "39578697",
+      "41627694",
+      "38889146",
+      "33522898",
+      "41576119",
+      "22761590",
+      "32043966"
+    ],
+    "review": [
+      "41922356",
+      "38594933"
+    ],
+    "pmc": [
+      "13212934"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70070-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41922356/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

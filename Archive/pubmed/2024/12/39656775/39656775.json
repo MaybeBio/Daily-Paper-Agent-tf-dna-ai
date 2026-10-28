@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "39656775",
+    "doi": "10.1093/bib/bbae628",
+    "title": "Comprehensive bioinformatics and machine learning analyses for breast cancer staging using TCGA dataset."
+  },
+  "content": {
+    "abstract": "Breast cancer is an alarming global health concern, including a vast and varied set of illnesses with different molecular characteristics. The fusion of sophisticated computational methodologies with extensive biological datasets has emerged as an effective strategy for unravelling complex patterns in cancer oncology. This research delves into breast cancer staging, classification, and diagnosis by leveraging the comprehensive dataset provided by the The Cancer Genome Atlas (TCGA). By integrating advanced machine learning algorithms with bioinformatics analysis, it introduces a cutting-edge methodology for identifying complex molecular signatures associated with different subtypes and stages of breast cancer. This study utilizes TCGA gene expression data to detect and categorize breast cancer through the application of machine learning and systems biology techniques. Researchers identified differentially expressed genes in breast cancer and analyzed them using signaling pathways, protein-protein interactions, and regulatory networks to uncover potential therapeutic targets. The study also highlights the roles of specific proteins (MYH2, MYL1, MYL2, MYH7) and microRNAs (such as hsa-let-7d-5p) that are the potential biomarkers in cancer progression founded on several analyses. In terms of diagnostic accuracy for cancer staging, the random forest method achieved 97.19%, while the XGBoost algorithm attained 95.23%. Bioinformatics and machine learning meet in this study to find potential biomarkers that influence the progression of breast cancer. The combination of sophisticated analytical methods and extensive genomic datasets presents a promising path for expanding our understanding and enhancing clinical outcomes in identifying and categorizing this intricate illness.",
+    "keywords": [
+      "TCGA",
+      "breast cancer",
+      "cancer staging",
+      "machine learning",
+      "ontology",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology/metabolism",
+      "*Machine Learning",
+      "Female",
+      "*Computational Biology/methods",
+      "*Neoplasm Staging",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Databases, Genetic",
+      "Algorithms",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Das, Saurav Chandra",
+        "Tasnim, Wahia",
+        "Rana, Humayan Kabir",
+        "Acharjee, Uzzal Kumar",
+        "Islam, Md Manowarul",
+        "Khatun, Rabea"
+      ],
+      "short_names": [
+        "Das SC",
+        "Tasnim W",
+        "Rana HK",
+        "Acharjee UK",
+        "Islam MM",
+        "Khatun R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9196-1856",
+        "ORCID: 0000-0002-3075-9048"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Jagannath University, Dhaka-1100, Bangladesh.",
+        "Department of Internet of Things and Robotics Engineering, Bangabandhu Sheikh Mujibur Rahman Digital University, Bangladesh, Kaliakair, Gazipur-1750, Bangladesh.",
+        "Department of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka, Bangladesh.",
+        "Department of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka, Bangladesh.",
+        "Department of Computer Science and Engineering, Jagannath University, Dhaka-1100, Bangladesh.",
+        "Department of Computer Science and Engineering, Jagannath University, Dhaka-1100, Bangladesh.",
+        "Department of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Das, Saurav Chandra",
+        "short_name": "Das SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Jagannath University, Dhaka-1100, Bangladesh.",
+          "Department of Internet of Things and Robotics Engineering, Bangabandhu Sheikh Mujibur Rahman Digital University, Bangladesh, Kaliakair, Gazipur-1750, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tasnim, Wahia",
+        "short_name": "Tasnim W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rana, Humayan Kabir",
+        "short_name": "Rana HK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Acharjee, Uzzal Kumar",
+        "short_name": "Acharjee UK",
+        "identifiers": [
+          "0000-0002-9196-1856"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Jagannath University, Dhaka-1100, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Manowarul",
+        "short_name": "Islam MM",
+        "identifiers": [
+          "0000-0002-3075-9048"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Jagannath University, Dhaka-1100, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khatun, Rabea",
+        "short_name": "Khatun R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Nov 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/15 19:30",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42630874",
+      "42475371",
+      "42423852",
+      "42404859",
+      "42205256",
+      "42171922",
+      "41792206",
+      "41761166",
+      "41439130",
+      "41323788",
+      "41323735",
+      "41307790",
+      "41007296",
+      "40382513"
+    ],
+    "refs": [
+      "37024522",
+      "36829667",
+      "36685671",
+      "36611453",
+      "36035865",
+      "34530829",
+      "34253750",
+      "33901691",
+      "33780170",
+      "33433946",
+      "32859206",
+      "32717454",
+      "32114285",
+      "31704137",
+      "31701148",
+      "31647101",
+      "31478869",
+      "31437626",
+      "31407867",
+      "31114875",
+      "31045331",
+      "30931480",
+      "30664679",
+      "30571986",
+      "30395331",
+      "26590713",
+      "26583903",
+      "26455641",
+      "26454069",
+      "25521941",
+      "24988197",
+      "24563822",
+      "22875853",
+      "22570317",
+      "22351564",
+      "22135297",
+      "21311561",
+      "19180183",
+      "18796161",
+      "17644558",
+      "16982728",
+      "16926057",
+      "16646809",
+      "15980585",
+      "15694870",
+      "15572290",
+      "12724734",
+      "11902574",
+      "10963602"
+    ],
+    "similar": [
+      "39656775",
+      "30055304",
+      "40313958",
+      "39738398",
+      "39835132",
+      "38863714",
+      "31081184",
+      "39071134",
+      "38850957",
+      "40084401",
+      "33607850",
+      "38890248",
+      "28416776",
+      "39888730",
+      "39441229",
+      "40216945",
+      "33291061",
+      "33371806",
+      "28739740",
+      "40328901",
+      "34750607",
+      "36049413",
+      "39415336",
+      "39823156",
+      "32236623",
+      "39068752",
+      "33406529",
+      "40313967",
+      "39524444",
+      "31490264",
+      "29328395",
+      "39779736",
+      "32616754",
+      "33933781",
+      "39441216",
+      "38891888",
+      "40312440",
+      "32016476",
+      "39142001",
+      "30569120",
+      "30320391",
+      "39904830",
+      "39433800",
+      "35313857",
+      "28440475",
+      "30382159",
+      "33348168",
+      "38236461",
+      "39870964",
+      "32085745",
+      "33039710",
+      "30785874",
+      "28766230",
+      "40024422",
+      "35339846",
+      "35996248",
+      "39656430",
+      "33461524",
+      "25559354",
+      "40253457",
+      "34500460",
+      "28944917",
+      "23009584",
+      "40068024",
+      "37794108",
+      "38478327",
+      "40008534",
+      "39400774",
+      "34966440",
+      "39202452",
+      "38673800",
+      "38725284",
+      "33304345",
+      "34582702",
+      "29063236",
+      "39512836",
+      "40076546",
+      "37740761",
+      "29328377",
+      "28036274",
+      "28052038",
+      "34148372",
+      "40032929",
+      "25810432",
+      "33015704",
+      "37530887",
+      "30453959",
+      "31489987",
+      "39966486",
+      "38971817",
+      "32139710",
+      "38867322",
+      "39488042",
+      "38070457",
+      "40067113",
+      "39988478",
+      "38857246",
+      "35163222",
+      "32299382",
+      "39028420"
+    ],
+    "review": [
+      "39656775",
+      "30569120",
+      "30320391"
+    ],
+    "pmc": [
+      "11630003"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/39656775.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39656775/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae628",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,618 @@
+{
+  "identity": {
+    "pmid": "39663580",
+    "doi": "10.1080/15548627.2024.2440842",
+    "title": "Lysosomal damage due to cholesterol accumulation triggers immunogenic cell death."
+  },
+  "content": {
+    "abstract": "Cholesterol serves as a vital lipid that regulates numerous physiological processes. Nonetheless, its role in regulating cell death processes remains incompletely understood. In this study, we investigated the role of cholesterol trafficking in immunogenic cell death. Through cell-based drug screening, we identified two antidepressants, sertraline and indatraline, as potent inducers of the nuclear translocation of TFEB (transcription factor EB). Activation of TFEB was mediated through the autophagy-independent lipidation of MAP1LC3/LC3 (microtubule associated protein 1 light chain 3). Both compounds promoted cholesterol accumulation within lysosomes, resulting in lysosomal membrane permeabilization, disruption of autophagy and cell death that could be reversed by cholesterol depletion. Molecular docking analysis indicated that sertraline and indatraline have the potential to inhibit cholesterol binding to the lysosomal cholesterol transporters, NPC1 (NPC intracellular cholesterol transporter 1) and NPC2. This inhibitory effect might be further enhanced by the upregulation of NPC1 and NPC2 expression by TFEB. Both antidepressants also upregulated PLA2G15 (phospholipase A2 group XV), an enzyme that elevates lysosomal cholesterol. In cancer cells, sertraline and indatraline elicited immunogenic cell death, converting dying cells into prophylactic vaccines that were able to confer protection against tumor growth in mice. In a therapeutic setting, a single dose of each compound was sufficient to significantly reduce the outgrowth of established tumors in a T-cell-dependent manner. These results identify sertraline and indatraline as immunostimulatory agents for cancer treatment. More generally, this research shed light on novel therapeutic avenues harnessing lysosomal cholesterol transport to regulate immunogenic cell death.Abbreviation: ATG5: autophagy related 5; ATG13: autophagy related 13; DKO: double knockout; ICD: immunogenic cell death; KO: knockout; LAMP1: lysosomal associated membrane protein 1; LAMP2: lysosomal associated membrane protein 2; LGALS3: galectin 3; LDL: low-density lipoprotein; LMP: lysosomal membrane permeabilization; MAP1LC3/LC3: microtubule associated protein 1 light chain 3; MTX: mitoxantrone; NPC1: NPC intracellular cholesterol transporter 1; NPC2: NPC intracellular cholesterol transporter 2; TFE3: transcription factor E3; TFEB: transcription factor EB; ULK1: unc-51 like autophagy activating kinase 1.",
+    "keywords": [
+      "Autophagy",
+      "NPC intracellular cholesterol transporter 1 and 2",
+      "TFEB",
+      "cancer",
+      "lipid transport",
+      "lysosomal membrane permeabilization"
+    ],
+    "mesh_terms": [
+      "*Lysosomes/metabolism/drug effects/pathology",
+      "*Cholesterol/metabolism",
+      "Humans",
+      "Animals",
+      "Autophagy/drug effects",
+      "*Immunogenic Cell Death/drug effects",
+      "Mice",
+      "Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/metabolism",
+      "Cell Line, Tumor",
+      "Molecular Docking Simulation",
+      "Niemann-Pick C1 Protein/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alvarez-Valadez, Karla",
+        "Sauvat, Allan",
+        "Diharce, Julien",
+        "Leduc, Marion",
+        "Stoll, Gautier",
+        "Guittat, Lionel",
+        "Lambertucci, Flavia",
+        "Paillet, Juliette",
+        "Motino, Omar",
+        "Ferret, Lucille",
+        "Muller, Alexandra",
+        "Forveille, Sabrina",
+        "Maiuri, Maria Chiara",
+        "Kepp, Oliver",
+        "de Brevern, Alexandre G",
+        "Wodrich, Harald",
+        "Pol, Jonathan G",
+        "Kroemer, Guido",
+        "Djavaheri-Mergny, Mojgan"
+      ],
+      "short_names": [
+        "Alvarez-Valadez K",
+        "Sauvat A",
+        "Diharce J",
+        "Leduc M",
+        "Stoll G",
+        "Guittat L",
+        "Lambertucci F",
+        "Paillet J",
+        "Motino O",
+        "Ferret L",
+        "Muller A",
+        "Forveille S",
+        "Maiuri MC",
+        "Kepp O",
+        "de Brevern AG",
+        "Wodrich H",
+        "Pol JG",
+        "Kroemer G",
+        "Djavaheri-Mergny M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6276-8010",
+        "ORCID: 0000-0001-7076-8638",
+        "ORCID: 0000-0002-6400-927X",
+        "ORCID: 0000-0002-0862-4139",
+        "ORCID: 0000-0002-9971-7161",
+        "ORCID: 0000-0002-2719-6635",
+        "ORCID: 0000-0001-7118-7165",
+        "ORCID: 0000-0002-3858-0966",
+        "ORCID: 0000-0001-9760-7674",
+        "ORCID: 0000-0002-6081-9558",
+        "ORCID: 0000-0001-7112-5626",
+        "ORCID: 0000-0002-4764-1708",
+        "ORCID: 0000-0002-8355-7562",
+        "ORCID: 0000-0002-9334-4405",
+        "ORCID: 0000-0003-4893-6505"
+      ],
+      "affiliations": [
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Faculte de Medecine, Universite Paris Saclay, Paris, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Universite Paris Cite and Universite de la Reunion, INSERM UMRS 1134, BIGR, DSIMB Bioinformatics team, Paris, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Laboratoire d'Optique et Biosciences, Ecole Polytechnique, CNRS UMR7645, INSERM U1182, Institut Polytechnique de Paris, Palaiseau, France.",
+        "Sante, Medecine, Biologie Humaine (SMBH), Universite Sorbonne Paris Nord, UFR SMBH, Bobigny, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Faculte de Medecine, Universite Paris Saclay, Paris, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Universite Paris Cite and Universite de la Reunion, INSERM UMRS 1134, BIGR, DSIMB Bioinformatics team, Paris, France.",
+        "CNRS UMR 5234, Fundamental Microbiology and Pathogenicity, Universite de Bordeaux, Bordeaux, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+        "Department of Biology, Hopital Europeen Georges Pompidou, AP-HP, Institut du Cancer Paris CARPEM, Paris, France.",
+        "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Universite, Universite Paris Cite, Equipe labellisee par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+        "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alvarez-Valadez, Karla",
+        "short_name": "Alvarez-Valadez K",
+        "identifiers": [
+          "0000-0002-6276-8010"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+          "Faculté de Médecine, Université Paris Saclay, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sauvat, Allan",
+        "short_name": "Sauvat A",
+        "identifiers": [
+          "0000-0001-7076-8638"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Diharce, Julien",
+        "short_name": "Diharce J",
+        "identifiers": [
+          "0000-0002-6400-927X"
+        ],
+        "affiliations": [
+          "Université Paris Cité and Université de la Réunion, INSERM UMRS 1134, BIGR, DSIMB Bioinformatics team, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Leduc, Marion",
+        "short_name": "Leduc M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Stoll, Gautier",
+        "short_name": "Stoll G",
+        "identifiers": [
+          "0000-0002-0862-4139"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Guittat, Lionel",
+        "short_name": "Guittat L",
+        "identifiers": [
+          "0000-0002-9971-7161"
+        ],
+        "affiliations": [
+          "Laboratoire d'Optique et Biosciences, École Polytechnique, CNRS UMR7645, INSERM U1182, Institut Polytechnique de Paris, Palaiseau, France.",
+          "Santé, Médecine, Biologie Humaine (SMBH), Université Sorbonne Paris Nord, UFR SMBH, Bobigny, France."
+        ]
+      },
+      {
+        "full_name": "Lambertucci, Flavia",
+        "short_name": "Lambertucci F",
+        "identifiers": [
+          "0000-0002-2719-6635"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Paillet, Juliette",
+        "short_name": "Paillet J",
+        "identifiers": [
+          "0000-0001-7118-7165"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Motiño, Omar",
+        "short_name": "Motiño O",
+        "identifiers": [
+          "0000-0002-3858-0966"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Ferret, Lucille",
+        "short_name": "Ferret L",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+          "Faculté de Médecine, Université Paris Saclay, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Muller, Alexandra",
+        "short_name": "Muller A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Forveille, Sabrina",
+        "short_name": "Forveille S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Maiuri, Maria Chiara",
+        "short_name": "Maiuri MC",
+        "identifiers": [
+          "0000-0001-9760-7674"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Kepp, Oliver",
+        "short_name": "Kepp O",
+        "identifiers": [
+          "0000-0002-6081-9558"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "de Brevern, Alexandre G",
+        "short_name": "de Brevern AG",
+        "identifiers": [
+          "0000-0001-7112-5626"
+        ],
+        "affiliations": [
+          "Université Paris Cité and Université de la Réunion, INSERM UMRS 1134, BIGR, DSIMB Bioinformatics team, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Wodrich, Harald",
+        "short_name": "Wodrich H",
+        "identifiers": [
+          "0000-0002-4764-1708"
+        ],
+        "affiliations": [
+          "CNRS UMR 5234, Fundamental Microbiology and Pathogenicity, Université de Bordeaux, Bordeaux, France."
+        ]
+      },
+      {
+        "full_name": "Pol, Jonathan G",
+        "short_name": "Pol JG",
+        "identifiers": [
+          "0000-0002-8355-7562"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      },
+      {
+        "full_name": "Kroemer, Guido",
+        "short_name": "Kroemer G",
+        "identifiers": [
+          "0000-0002-9334-4405"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France.",
+          "Department of Biology, Hôpital Européen Georges Pompidou, AP-HP, Institut du Cancer Paris CARPEM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Djavaheri-Mergny, Mojgan",
+        "short_name": "Djavaheri-Mergny M",
+        "identifiers": [
+          "0000-0003-4893-6505"
+        ],
+        "affiliations": [
+          "Centre de Recherche des Cordeliers, INSERM UMRS 1138, Sorbonne Université, Université Paris Cité, Équipe labellisée par la Ligue contre le Cancer, Institut Universitaire de France, Paris, France.",
+          "Metabolomics and Cell Biology Platforms, Gustave Roussy Cancer Center, Villejuif, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Autophagy"
+    ],
+    "journal_abbrev": [
+      "Autophagy"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/12 06:23",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42620406",
+      "42493680",
+      "42476121",
+      "42449433",
+      "42180906",
+      "42163550",
+      "42143364",
+      "41968306",
+      "41941863",
+      "41816293",
+      "41487968",
+      "41050653",
+      "41029175",
+      "40964235",
+      "40891899",
+      "40874450",
+      "40733013",
+      "40635571",
+      "40373767",
+      "40299564"
+    ],
+    "refs": [
+      "38183651",
+      "37768124",
+      "37420029",
+      "37244259",
+      "36864290",
+      "36795483",
+      "36502521",
+      "36479100",
+      "36321514",
+      "36270994",
+      "36103540",
+      "35788566",
+      "35699692",
+      "35145297",
+      "35119294",
+      "34911014",
+      "34311858",
+      "34278794",
+      "33878344",
+      "33571043",
+      "33461384",
+      "33335289",
+      "33176151",
+      "32989250",
+      "32694690",
+      "32570977",
+      "32413315",
+      "32209603",
+      "31901645",
+      "31650096",
+      "31646079",
+      "31608980",
+      "31586545",
+      "31537798",
+      "31127411",
+      "30940805",
+      "30852249",
+      "30759257",
+      "30651381",
+      "30602725",
+      "30465212",
+      "30398643",
+      "30297865",
+      "30125440",
+      "30077006",
+      "28697173",
+      "28456991",
+      "28357331",
+      "28025106",
+      "27748397",
+      "27380939",
+      "27252382",
+      "27197250",
+      "26982734",
+      "26137404",
+      "25665440",
+      "25082958",
+      "24688051",
+      "24029234",
+      "23725295",
+      "23720375",
+      "23202731",
+      "23166840",
+      "23151605",
+      "22777359",
+      "22198553",
+      "21617040",
+      "21281795",
+      "21184822",
+      "19499576",
+      "18216769",
+      "17668316",
+      "11568304",
+      "11336629",
+      "11125140",
+      "8744570"
+    ],
+    "similar": [
+      "39663580",
+      "30335591",
+      "40528705",
+      "30654731",
+      "30894069",
+      "33921734",
+      "40215728",
+      "31238788",
+      "40184172",
+      "33734022",
+      "39324484",
+      "35316161",
+      "40509568",
+      "39744815",
+      "36719671",
+      "34729308",
+      "40635571",
+      "32457374",
+      "33795648",
+      "40195022",
+      "33461384",
+      "30653408",
+      "30324847",
+      "38390831",
+      "32989250",
+      "31987928",
+      "39675352",
+      "33794741",
+      "22179027",
+      "35127371",
+      "34023384",
+      "32138578",
+      "30304977",
+      "40059270",
+      "20007703",
+      "28240313",
+      "31160892",
+      "30471247",
+      "33706671",
+      "27396692",
+      "30892133",
+      "29940807",
+      "32385114",
+      "41122856",
+      "37036151",
+      "32037305",
+      "31744366",
+      "32880929",
+      "41145409",
+      "33422553",
+      "23000516",
+      "32512069",
+      "33642520",
+      "35230915",
+      "33984335",
+      "33973365",
+      "39675125",
+      "28005078",
+      "39936600",
+      "31690173",
+      "27689333",
+      "36868108",
+      "29795139",
+      "26240184",
+      "39081059",
+      "38579922",
+      "41452985",
+      "38636999",
+      "37909662",
+      "30030080",
+      "30917721",
+      "9927649",
+      "25060788",
+      "32521192",
+      "21281795",
+      "31847700",
+      "29782848",
+      "27102538",
+      "23669057",
+      "30059277",
+      "30145926",
+      "33150842",
+      "34313548",
+      "27060963",
+      "38522425",
+      "35850050",
+      "36131369",
+      "30333475",
+      "30333555",
+      "31856641",
+      "30710017",
+      "32597296",
+      "28017540",
+      "38139347",
+      "30706760",
+      "32764647",
+      "36581628",
+      "40185098",
+      "38033125",
+      "31947943"
+    ],
+    "review": [
+      "39663580",
+      "33794741",
+      "35127371",
+      "33150842"
+    ],
+    "pmc": [
+      "12013445"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15548627.2024.2440842?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cholesterol.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cholesterol"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39663580/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-689",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/15548627.2024.2440842",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

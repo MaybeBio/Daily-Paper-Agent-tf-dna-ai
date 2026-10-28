@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript (abstract, introduction, results, methods, discussion)
+- **Assessment boundary** Scientific claims, methodology, data interpretation, and internal consistency of the presented evidence
+- **Shared manuscript claim summary** The authors propose that cooperative FOXA1–HNF4A binding at a class of genomic sites is specified by a "soft syntax" of motif spacing (15–60 bp) and mediated by positioned nucleosomes acting as scaffolds, rather than by a strict pioneer-factor hierarchy. They support this with reanalysis of public CUT&Tag/ATAC-seq data, deep learning attribution, in vitro nucleosome-binding assays (Pioneer-seq), and cross-tissue validation in fetal hepatocyte and brain data.
+- **Visible evidence base** Abstract, full introduction, full discussion, complete methods section, figure legends referenced but no figures or supplementary materials provided
+- **Missing materials affecting confidence** All figures and supplementary figures (referenced as Fig. 1–5, Supplementary Fig. 1–13), exact statistical outputs, model architecture details beyond text description, Pioneer-seq raw data, and the HDMA data processing details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in transcription factor biology: whether pioneer factor cooperativity is hierarchical or context-dependent. The authors present a coherent hypothesis and a multi-pronged approach combining computational reanalysis, deep learning, and in vitro biochemistry. However, the absence of all figures and supplementary materials makes it impossible to verify the central claims. The statistical framework for the key spacing enrichment analysis is under-specified, and the interpretation of the Pioneer-seq results as evidence for "nucleosome as scaffold" rather than "barrier" requires additional controls. The manuscript is potentially significant but currently not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in transcription regulation, chromatin biology, and gene regulatory networks. The work directly addresses the pioneer factor hypothesis, a central model in developmental and cancer biology. The "soft syntax" concept and the nucleosome-scaffold model would interest computational biologists studying cis-regulatory grammar and experimentalists studying FOXA1/HNF4A in liver development and hepatocellular carcinoma.
+- **Major strengths** 1) The question is well-motivated and directly challenges a dominant model. 2) The use of a naïve cell system (K562) with dual induction is a clean experimental design to isolate cooperative binding. 3) The multi-tiered validation strategy (K562 → HepG2 → primary fetal tissue → negative brain control) is rigorous in principle. 4) The authors are appropriately cautious in distinguishing their findings from prior work and in acknowledging limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that Cooperative sites show enriched FOXA1–HNF4A motif spacing at 15–60 bp, and that this is specific to the Cooperative class.
+  - **Evidence pointer** Fig. 3a, 3b; location not provided
+  - **Concern** The central claim of the paper rests on the spacing enrichment analysis, but no figures are provided. The methods describe a permutation-based null (1,000 shuffles of motif positions within the 1,001-bp window), but the details of how the null accounts for local sequence composition, motif density, and the best-score pairing strategy are not fully specified. The choice of 5-bp bins and the FDR correction across bins is described, but the power of the test and the effect sizes are not reported in the text.
+  - **Why it matters** Without seeing the actual enrichment profiles, the magnitude of the effect, and the distribution of spacing across classes, the reader cannot assess whether the 15–60 bp enrichment is a robust, biologically meaningful signal or a subtle statistical artifact. The claim that this spacing is "specific" to Cooperative sites depends entirely on the visual and quantitative comparison across the four classes.
+  - **Resolution test** Provide the enrichment profiles for all four classes, with confidence intervals and effect sizes. Show that the 15–60 bp enrichment is not driven by a small subset of peaks, and that the permutation null is well-calibrated (e.g., by showing the null distribution for a negative control class).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretational validity
+  - **Claim pointer** The manuscript claims that Pioneer-seq results show FOXA1 binds nucleosomal DNA more strongly than HNF4A, and that cobinding strength is predicted primarily by FOXA1 motif position relative to the dyad.
+  - **Evidence pointer** Fig. 4, Fig. 5; location not provided
+  - **Concern** The Pioneer-seq assay is described as measuring "relative shift" (RS), defined as depletion from the unshifted band. The authors state that this metric is "monotonically related to relative supershift for strong binders but is robust to multi-TF complex laddering." However, the relationship between RS and actual binding affinity is not calibrated. The claim that FOXA1 "binds more strongly" is based on mean excess RS over a nonspecific control, but the dynamic range of the assay and the relationship between RS and Kd are not established. Furthermore, the cobinding synergy test (2^FH > 2^F + 2^H) assumes a specific model of independent binding that is not justified.
+  - **Why it matters** The interpretation that FOXA1 is the "limiting partner" and that the nucleosome acts as a scaffold depends on the quantitative validity of the RS metric. If RS is not linearly related to occupancy, the conclusions about relative binding strength and the predictive power of FOXA1 motif position could be artifacts of the assay's non-linearity.
+  - **Resolution test** Calibrate RS against known binding affinities for a set of control sequences. Show that the RS differences between FOXA1 and HNF4A correspond to physiologically meaningful differences in occupancy. For the synergy test, demonstrate that the additive null model is appropriate by showing that the single-TF RS values are independent of each other.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims that the 15–60 bp spacing grammar "recurs at endogenously co-bound sites in HepG2 cells and primary fetal hepatocytes."
+  - **Evidence pointer** Fig. 3c; location not provided
+  - **Concern** The cross-validation in HepG2 and fetal hepatocytes is presented as a single panel (Fig. 3c) with no details on the number of sites, the statistical significance of the enrichment in each tissue, or the overlap with the K562-defined Cooperative class. The fetal hepatocyte analysis relies on HDMA caCREs, which are defined by chromatin accessibility, not by direct TF binding. The claim that the grammar "recurs" requires that the same spacing preference is observed at endogenously bound sites, but the evidence for endogenous co-binding in these tissues is not shown.
+  - **Why it matters** The generalizability of the finding beyond the artificial K562 induction system is a key part of the paper's significance. If the spacing grammar is not robustly reproduced in endogenous contexts, the model's relevance to native gene regulation is weakened.
+  - **Resolution test** Provide the number of sites, the enrichment statistics, and the definition of "co-bound" in each tissue. Show that the spacing preference is not driven by a few highly repetitive loci. Ideally, validate a subset of fetal hepatocyte sites by independent ChIP-seq or similar.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Alternative explanations
+  - **Claim pointer** The manuscript claims that the data "support a model in which positioned nucleosomes act as scaffolds that facilitate cooperative transcription factor binding through spatial motif organization, rather than a barrier one factor clears for the other."
+  - **Evidence pointer** Discussion; location not provided
+  - **Concern** The scaffold model is presented as the preferred interpretation, but alternative models are not quantitatively compared. For example, the 15–60 bp spacing could also arise from cooperative binding of FOXA1 and HNF4A to the same nucleosome via direct protein-protein interactions, or from selection for binding sites that are accessible during a specific chromatin state. The authors acknowledge that they do not test temporal order, but they do not discuss whether their data can distinguish between a scaffold model and a "co-occupancy without synergy" model.
+  - **Why it matters** The title and abstract commit to the scaffold model. If the data are equally consistent with other models, the claim is over-stated. The distinction matters for how the field thinks about pioneer factor function and for designing future experiments.
+  - **Resolution test** Perform a formal model comparison, e.g., by testing whether the spacing preference is better explained by nucleosome positioning (as predicted by the scaffold model) than by intrinsic TF-DNA binding preferences. Alternatively, design a prediction that distinguishes the models and test it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Relative shift calculation"
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The equation for relative shift is described in words but the actual formula is not displayed. The text says "defined as where T and T_control are read counts..." but the equation itself is missing from the text provided.
+  - **Required correction** Display the full equation for relative shift, with all variables defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Binding FOXA1 and HNF4A"
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The methods state that "Recombinant human full-length FOXA1 (Origene TP306045) and HNF4A (Origene TP317863) were used for binding reactions" but do not specify the protein concentrations used for the single-TF versus cobinding experiments, nor how the "matched concentrations" were determined.
+  - **Required correction** Specify the concentration range used and how matching was achieved. State whether the proteins were titrated independently or together.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Four chromatin-distinct categories"
+  - **Evidence pointer** Fig. 1b, 1c; location not provided
+  - **Issue** The text reports p-values for comparisons of ATAC-seq signal between categories but does not state the sample size (number of peaks) or the multiple-testing correction applied across the four categories.
+  - **Required correction** Report the number of peaks per category and state whether the p-values are corrected for multiple comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion states "We confirm Hansen's observation that the FOXA1–HNF4A system contains a Cooperative class of sites that requires both factors, and we further specify that this requirement has a structural sequence basis." This sentence is nearly identical to a sentence in the Results section, creating redundancy.
+  - **Required correction** Rephrase the discussion sentence to avoid duplication and instead synthesize the finding with the broader literature.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability; location not provided
+  - **Issue** The data availability section states that Pioneer-seq data are deposited under BioProject PRJNA1466564, but the re-analyzed HDMA data are listed as "PRJNA1482391 with processed data on Zenodo." It is unclear whether the HDMA data are the authors' own processing or the original Liu et al. data.
+  - **Required correction** Clarify whether the HDMA data are the original authors' data or a re-analysis, and specify the exact accession/DOI for the processed data used in this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (spacing enrichment statistics and figures), R1-M2 (Pioneer-seq calibration and synergy test assumptions)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific combination of approaches and in its proposal of a "soft syntax" for FOXA1–HNF4A cooperativity. The idea that nucleosomes act as scaffolds rather than barriers is not entirely new (building on Mirny's theoretical work and Sönmezer et al.'s in vivo data), but the direct in vitro test on defined nucleosomes is a novel contribution.
+  - **Scientific importance** The question is important. The pioneer factor hypothesis is a cornerstone of developmental and cancer biology, and the finding that cooperativity can be specified by motif spacing on nucleosomes would refine the model. However, the importance is contingent on the robustness of the spacing signal and the generalizability beyond K562.
+  - **Interdisciplinary readership** The work bridges computational biology, chromatin biochemistry, and gene regulation. The writing is generally accessible, but the methods section assumes familiarity with deep learning attribution and nucleosome-positioning assays. The abstract is clear and would appeal to a broad readership.
+  - **Technical soundness** The technical approach is sound in principle, but the missing figures and under-specified statistics prevent a full assessment. The Pioneer-seq assay is a promising technique, but its quantitative interpretation needs calibration. The deep learning model is described in sufficient detail to be reproducible, but the attribution analysis is only briefly described.
+  - **Readability for nonspecialists** The introduction and discussion are well-written and accessible. The results section is dense and would benefit from clearer signposting of the main findings. The methods are detailed but not always clear (e.g., the missing equation for relative shift).
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the multi-pronged approach is appropriate, but the current evidence base (missing figures, under-specified statistics, uncalibrated assay) does not fully establish the claims. The authors should be encouraged to resubmit with complete figures, detailed statistical reporting, and additional calibration/control experiments for the Pioneer-seq assay.
+
+## Risk / unsupported claims
+- The claim that the 15–60 bp spacing is "specific" to Cooperative sites is unsupported without the full enrichment profiles for all four classes.
+- The claim that FOXA1 "binds nucleosomal DNA more strongly than HNF4A" is based on an uncalibrated assay metric (relative shift) and may not reflect true affinity differences.
+- The claim that the spacing grammar "recurs" in HepG2 and fetal hepatocytes is unverifiable without the number of sites, effect sizes, and significance values.
+- The claim that the data support a "nucleosome as scaffold" model over a "barrier" model is an interpretation that is not quantitatively tested against alternatives.
+- The claim that the SVA filtering resolves the HE attribution artifact is plausible but not fully demonstrated without the pre- and post-filter attribution heatmaps.

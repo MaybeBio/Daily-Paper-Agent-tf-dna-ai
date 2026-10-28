@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40678148",
+  "title": "Decoding yeast transcriptional regulation via a data-and mechanism-driven distributed large-scale network model.",
+  "authors": "Fan, Xingcun; Xiang, Guangming; Liao, Wenbin; Xiao, Luchi; He, Siwei; Luo, Na; Lu, Hongzhong; Yan, Xuefeng",
+  "journal": "Synthetic and systems biotechnology",
+  "published_date": "2025-07-18",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出分布式大规模转录调控神经网络模型DLTRNM，整合先验知识预测酵母TF-靶基因调控关系，但聚焦基因表达调控网络而非TF-DNA三维互作建模，方法可迁移但对象与互作轴深度不足。",
+  "abstract": "The complex transcriptional regulatory relationships among genes influence gene expression levels and play a crucial role in determining cellular phenotypes. In this study, we propose a novel, distributed, large-scale transcriptional regulatory neural network model (DLTRNM), which integrates prior knowledge into the reconstruction of pre-trained machine learning models, followed by fine-tuning. Using Saccharomyces cerevisiae as a case study, the curated transcriptional regulatory relationships are used to define the interactions between transcription factors (TFs) and their target genes (TGs). Subsequently, DLTRNM is pre-trained on pan-transcriptomic data and fine-tuned with time-series data, enabling it to accurately predict regulatory correlations. Additionally, DLTRNM can help identify potential key TFs, thereby simplifying the complex and interrelated transcriptional regulatory networks (TRNs). It can also complement previously reported transcriptional regulatory subnetworks. DLTRNM provides a powerful tool for studying transcriptional regulation with reduced computational demands and enhanced interpretability. Thus, this study marks a significant advancement in systems biology for understanding the complex transcriptional regulation within cells.",
+  "abstract_zh": "基因之间的复杂转录调控关系影响基因表达水平，并在决定细胞表型中发挥关键作用。在本研究中，我们提出了一种新颖的、分布式的、大规模转录调控神经网络模型（DLTRNM），该模型将先验知识整合到预训练机器学习模型的重建中，随后进行微调。以酿酒酵母（Saccharomyces cerevisiae）为案例，利用整理好的转录调控关系来定义转录因子（TFs）与其靶基因（TGs）之间的相互作用。随后，DLTRNM在泛转录组数据上进行预训练，并使用时间序列数据进行微调，使其能够准确预测调控相关性。此外，DLTRNM有助于识别潜在的关键转录因子，从而简化复杂且相互关联的转录调控网络（TRNs）。它还可以补充先前报道的转录调控子网络。DLTRNM为研究转录调控提供了强大工具，降低了计算需求并增强了可解释性。因此，本研究标志着系统生物学在理解细胞内复杂转录调控方面取得了重大进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40678148/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40678148/",
+  "paper_page_path": "papers/pubmed/40678148/index.html"
+}

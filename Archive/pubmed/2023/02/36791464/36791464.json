@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "36791464",
+    "doi": "10.1021/acs.jctc.2c01139",
+    "title": "Re-Balancing Replica Exchange with Solute Tempering for Sampling Dynamic Protein Conformations."
+  },
+  "content": {
+    "abstract": "Replica exchange with solute tempering (REST) is a highly effective variant of replica exchange for enhanced sampling in explicit solvent simulations of biomolecules. By scaling the Hamiltonian for a selected \"solute\" region of the system, REST effectively applies tempering only to the degrees of freedom of interest but not the rest of the system (\"solvent\"), allowing fewer replicas for covering the same temperature range. A key consideration of REST is how the solute-solvent interactions are scaled together with the solute-solute interactions. Here, we critically evaluate the performance of the latest REST2 protocol for sampling large-scale conformation fluctuations of intrinsically disordered proteins (IDPs). The results show that REST2 promotes artificial protein conformational collapse at high effective temperatures, which seems to be a designed feature originally to promote the sampling of reversible folding of small proteins. The collapse is particularly severe with larger IDPs, leading to replica segregation in the effective temperature space and hindering effective sampling of large-scale conformational changes. We propose that the scaling of the solute-solvent interactions can be treated as free parameters in REST, which can be tuned to control the solute conformational properties (e.g., chain expansion) at different effective temperatures and achieve more effective sampling. To this end, we derive a new REST3 protocol, where the strengths of the solute-solvent van der Waals interactions are recalibrated to reproduce the levels of protein chain expansion at high effective temperatures. The efficiency of REST3 is examined using two IDPs with nontrivial local and long-range structural features, including the p53 N-terminal domain and the kinase inducible transactivation domain of transcription factor CREB. The results suggest that REST3 leads to a much more efficient temperature random walk and improved sampling efficiency, which also further reduces the number of replicas required. Nonetheless, our analysis also reveals significant challenges of relying on tempering alone for sampling large-scale conformational fluctuations of disordered proteins. It is likely that more efficient sampling protocols will require incorporating more sophisticated Hamiltonian replica exchange schemes in addition to tempering.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Solutions/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Solvents"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yumeng",
+        "Liu, Xiaorong",
+        "Chen, Jianhan"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Liu X",
+        "Chen J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6405-8362",
+        "ORCID: 0000-0002-7687-3604",
+        "ORCID: 0000-0002-5281-1150"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States.",
+        "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States.",
+        "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yumeng",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-6405-8362"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaorong",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0002-7687-3604"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-5281-1150"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Mar 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/16 06:00",
+    "fetched_at": "2026-09-28 20:28:41"
+  },
+  "links": {
+    "cites": [
+      "42248893",
+      "42147780",
+      "42129207",
+      "41889773",
+      "41591841",
+      "40839696",
+      "39879096",
+      "39536029",
+      "39405498",
+      "39038177",
+      "38982922",
+      "38230998",
+      "38118365",
+      "38112495",
+      "38065235"
+    ],
+    "refs": [
+      "33984364",
+      "33579943",
+      "32403216",
+      "31713636",
+      "31476124",
+      "31241933",
+      "30134733",
+      "30134668",
+      "29735687",
+      "29634920",
+      "28903561",
+      "28259050",
+      "27988422",
+      "27819658",
+      "26860346",
+      "26606236",
+      "26593343",
+      "26583873",
+      "26580171",
+      "26488662",
+      "26488642",
+      "26190950",
+      "26082676",
+      "25863585",
+      "25764013",
+      "25531225",
+      "25400522",
+      "25136274",
+      "24995959",
+      "24889800",
+      "24625009",
+      "24499973",
+      "23783631",
+      "23609977",
+      "23316124",
+      "22582031",
+      "22579883",
+      "22443635",
+      "22176582",
+      "21714551",
+      "21539772",
+      "21530234",
+      "21425280",
+      "21370970",
+      "20603017",
+      "20590175",
+      "20408171",
+      "19933326",
+      "19447112",
+      "19444816",
+      "19278259",
+      "18391200",
+      "17972286",
+      "17439169",
+      "17342721",
+      "17212515",
+      "16981200",
+      "16536547",
+      "16222654",
+      "16172406",
+      "15185334",
+      "10884388",
+      "10033814",
+      "9688563",
+      "9413984",
+      "8744570"
+    ],
+    "similar": [
+      "36791464",
+      "21714551",
+      "28092832",
+      "30134668",
+      "16172406",
+      "31241933",
+      "26636477",
+      "30134733",
+      "26052838",
+      "34585768",
+      "26082676",
+      "28841239",
+      "27560127",
+      "35232199",
+      "33301208",
+      "37141320",
+      "30134707",
+      "39190324",
+      "25328493",
+      "18154370",
+      "26631796",
+      "34680048",
+      "21425280",
+      "34947959",
+      "35573746",
+      "31797597",
+      "31396903",
+      "17120231",
+      "33383937",
+      "29221407",
+      "30933517",
+      "38018910",
+      "26583873",
+      "32696368",
+      "26631779",
+      "19968339",
+      "16851961",
+      "36004729",
+      "22253588",
+      "24995857",
+      "23197415",
+      "25897952",
+      "17212515",
+      "26766517",
+      "35889299",
+      "31995738",
+      "33351613",
+      "37108059",
+      "26606236",
+      "23560717",
+      "30708285",
+      "26178083",
+      "19739847",
+      "32184088",
+      "20387919",
+      "30979035",
+      "36083825",
+      "17439169",
+      "31535860",
+      "35308859",
+      "35363478",
+      "24134878",
+      "33574233",
+      "38230998",
+      "23912807",
+      "27438572",
+      "36346137",
+      "36827446",
+      "25838811",
+      "24116651",
+      "29023509",
+      "25833612",
+      "34110824",
+      "31265293",
+      "22852596",
+      "25762327",
+      "19405561",
+      "26606473",
+      "26472361",
+      "35174713",
+      "31297688",
+      "35543334",
+      "25243707",
+      "19425768",
+      "26626508",
+      "26066200",
+      "30876367",
+      "28399363",
+      "22961200",
+      "20405987",
+      "23477537",
+      "37722681",
+      "36084124",
+      "32859072",
+      "19173315",
+      "33382616",
+      "34546059",
+      "29186229",
+      "31136713",
+      "27423742",
+      "28121433",
+      "34527855",
+      "37904741",
+      "27698148",
+      "22540354",
+      "24625009",
+      "38232295",
+      "19043602",
+      "39158517",
+      "19882731",
+      "30758197",
+      "38726935",
+      "38538531",
+      "24848767",
+      "38666430",
+      "39344058",
+      "23585739",
+      "23162382",
+      "37904764",
+      "38733374",
+      "39276130",
+      "39405498",
+      "38979147",
+      "38978607",
+      "27453631",
+      "24198735",
+      "23087450",
+      "21769156",
+      "22347892",
+      "35179897",
+      "27103749",
+      "38809811",
+      "28527439",
+      "30134700",
+      "36630672",
+      "23316122",
+      "38639317",
+      "29449926",
+      "27825215",
+      "37529277",
+      "39082373",
+      "39374435",
+      "27279779",
+      "25018672"
+    ],
+    "review": [
+      "36791464",
+      "34680048",
+      "26766517",
+      "30979035",
+      "27698148"
+    ],
+    "pmc": [
+      "10795075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36791464/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36791464",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.2c01139",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

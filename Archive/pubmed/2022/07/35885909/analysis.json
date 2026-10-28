@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35885909",
+  "title": "PromoterLCNN: A Light CNN-Based Promoter Prediction and Classification Model.",
+  "authors": "Hernandez, Daryl; Jara, Nicolas; Araya, Mauricio; Duran, Roberto E; Buil-Aranda, Carlos",
+  "journal": "Genes",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用轻量CNN对大肠杆菌sigma因子启动子序列进行分类预测，属于TF-DNA结合位点预测的序列级AI方法，但缺乏三维互作建模与机制研究，方法可迁移至TF-DNA体系。",
+  "abstract": "Promoter identification is a fundamental step in understanding bacterial gene regulation mechanisms. However, accurate and fast classification of bacterial promoters continues to be challenging. New methods based on deep convolutional networks have been applied to identify and classify bacterial promoters recognized by sigma (sigma) factors and RNA polymerase subunits which increase affinity to specific DNA sequences to modulate transcription and respond to nutritional or environmental changes. This work presents a new multiclass promoter prediction model by using convolutional neural networks (CNNs), denoted as PromoterLCNN, which classifies Escherichia coli promoters into subclasses sigma70, sigma24, sigma32, sigma38, sigma28, and sigma54. We present a light, fast, and simple two-stage multiclass CNN architecture for promoter identification and classification. Training and testing were performed on a benchmark dataset, part of RegulonDB. Comparative performance of PromoterLCNN against other CNN-based classifiers using four parameters (Acc, Sn, Sp, MCC) resulted in similar or better performance than those that commonly use cascade architecture, reducing time by approximately 30-90% for training, prediction, and hyperparameter optimization without compromising classification quality.",
+  "abstract_zh": "启动子识别是理解细菌基因调控机制的基础步骤。然而，对细菌启动子进行准确且快速的分类仍然具有挑战性。基于深度卷积网络的新方法已被应用于识别和分类由sigma（σ）因子和RNA聚合酶亚基识别的细菌启动子，这些因子和亚基增加对特定DNA序列的亲和力，以调节转录并响应营养或环境变化。本研究提出了一种新的多类启动子预测模型，采用卷积神经网络（CNNs），命名为PromoterLCNN，该模型将大肠杆菌启动子分类为sigma70、sigma24、sigma32、sigma38、sigma28和sigma54亚类。我们提出了一种轻量、快速且简单的两阶段多类CNN架构，用于启动子识别和分类。训练和测试在基准数据集上进行，该数据集是RegulonDB的一部分。使用四个参数（Acc、Sn、Sp、MCC）将PromoterLCNN与其他基于CNN的分类器进行性能比较，结果显示其性能与通常采用级联架构的分类器相当或更优，同时在训练、预测和超参数优化方面减少了约30-90%的时间，且不牺牲分类质量。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35885909/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35885909/",
+  "paper_page_path": "papers/pubmed/35885909/index.html"
+}

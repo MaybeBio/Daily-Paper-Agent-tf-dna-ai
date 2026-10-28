@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "40404777",
+    "doi": "10.1038/s41598-025-02663-y",
+    "title": "Transcriptome combined with Mendelian randomization to identify key genes related to polyamine metabolism in childhood obesity and elucidate their molecular regulatory mechanisms."
+  },
+  "content": {
+    "abstract": "Currently, research has found a close correlation between childhood obesity (CO) and elevated levels of polyamines in the bloodstream. Thus, the identification of key genes associated with polyamines metabolism in CO could offer fresh insights for clinical management of CO. This study utilized two datasets from public databases (GSE205668 and GSE104815) and 59 polyamines metabolism-related genes (PMRGs) to screen for candidate genes. Subsequently, candidate key genes were selected using Mendelian randomization (MR) analysis, and machine learning algorithms were employed to obtain intersecting feature genes based on the MR results. Then key genes were identified through expression validation. Finally, we conducted research on the key genes including gene set enrichment analysis (GSEA), immune infiltration, and transcription factor(TF)-mRNA network. Differential analysis identified 432 candidate genes linked to childhood obesity and polyamine metabolism, with 4 key genes showing causal relationships. Specifically, WWC1, NPL, and LAPTM5 as risk factors [odd ratio (OR) > 1], while GPAT3 (OR < 1) was identified as a protective factor for CO. Machine learning algorithms pinpointed 3 feature genes (WWC1, NPL, and GPAT3) with significant differential expression and consistent trends. GSEA revealed ribosome and lysosome pathways linked to key genes. MITF regulated these genes in the TF-mRNA network. Twelve immune cell types, mostly correlating with key genes, were identified. We identified 3 key genes (WWC1, NPL, and GPAT3) related to polyamine metabolism in CO. Additionally, we investigated their potential biological functions and regulatory mechanisms, aiming to provide new theoretical basis for the treatment and diagnosis of CO.",
+    "keywords": [
+      "Childhood obesity",
+      "Mendelian randomization",
+      "Polyamines metabolism",
+      "Transcriptome"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pediatric Obesity/genetics/metabolism",
+      "Mendelian Randomization Analysis",
+      "*Transcriptome",
+      "*Polyamines/metabolism",
+      "Child",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Manman",
+        "Zhang, Pei",
+        "Yang, Sheng",
+        "Qiao, Yunyang",
+        "Shen, Xuepo",
+        "Ji, Jialing",
+        "Ding, Ling"
+      ],
+      "short_names": [
+        "Sun M",
+        "Zhang P",
+        "Yang S",
+        "Qiao Y",
+        "Shen X",
+        "Ji J",
+        "Ding L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China. melodyjialing@163.com.",
+        "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China. 414846722@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Manman",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pei",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Sheng",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Yunyang",
+        "short_name": "Qiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Xuepo",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Jialing",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China. melodyjialing@163.com."
+        ]
+      },
+      {
+        "full_name": "Ding, Ling",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, the Fourth Affiliated Hospital of Nanjing Medical University, Nanjing, China. 414846722@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 May 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/23 00:27",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39592079",
+      "38879122",
+      "38830426",
+      "38049863",
+      "37770430",
+      "37695169",
+      "37593447",
+      "37525094",
+      "37390204",
+      "36617563",
+      "36409033",
+      "36300620",
+      "36145059",
+      "36059117",
+      "35682684",
+      "35303060",
+      "35248172",
+      "35094557",
+      "34748544",
+      "34557778",
+      "34004046",
+      "33950241",
+      "33467643",
+      "32924745",
+      "32856102",
+      "32030121",
+      "31543877",
+      "31456804",
+      "31443682",
+      "30861319",
+      "29912392",
+      "29846171",
+      "29203885",
+      "29049554",
+      "29040600",
+      "27977792",
+      "27943302",
+      "27841876",
+      "27061298",
+      "26576827",
+      "26440472",
+      "26050253",
+      "25516281",
+      "25352002",
+      "24930139",
+      "24789918",
+      "24771618",
+      "24714397",
+      "24145164",
+      "24114802",
+      "23741500",
+      "23339953",
+      "23323831",
+      "21697248",
+      "21414208",
+      "21051364",
+      "20808728",
+      "20719759",
+      "20427518",
+      "20181984",
+      "17886233",
+      "17189273",
+      "17170135",
+      "14679176",
+      "14597658"
+    ],
+    "similar": [
+      "40404777",
+      "38649912",
+      "40350654",
+      "39346628",
+      "39647286",
+      "40330470",
+      "39483475",
+      "39717623",
+      "39957315",
+      "39022342",
+      "39634176",
+      "40223054",
+      "39341952",
+      "39872525",
+      "39512681",
+      "39370621",
+      "39874886",
+      "40383808",
+      "39353384",
+      "39640883",
+      "38010448",
+      "38518057",
+      "38977728",
+      "40406126",
+      "40273141",
+      "40304766",
+      "39762849",
+      "40097519",
+      "39346909",
+      "39833228",
+      "39142001",
+      "39062507",
+      "38680491",
+      "39444551",
+      "38865489",
+      "40289127",
+      "37752822",
+      "39512836",
+      "39026663",
+      "40207230",
+      "40193647",
+      "40313967",
+      "40130183",
+      "40188118",
+      "39373800",
+      "39419187",
+      "38965845",
+      "37063877",
+      "38787375",
+      "39972362",
+      "38022594",
+      "40024299",
+      "40380263",
+      "40216809",
+      "38863714",
+      "39804431",
+      "40332792",
+      "40242178",
+      "38433839",
+      "40355226",
+      "39441216",
+      "39460798",
+      "39707003",
+      "40374840",
+      "39120548",
+      "39776247",
+      "39541897",
+      "39509434",
+      "39139563",
+      "39336801",
+      "40148470",
+      "40191191",
+      "39375405",
+      "39930027",
+      "40046872",
+      "39749331",
+      "40008080",
+      "40131879",
+      "39351221",
+      "40313958",
+      "40196107",
+      "39428564",
+      "38482005",
+      "39055656",
+      "39507054",
+      "39398336",
+      "39827515",
+      "39400935",
+      "39260308",
+      "39871218",
+      "39735537",
+      "39351238",
+      "39050860",
+      "39671358",
+      "39707377",
+      "39965013",
+      "40312440",
+      "39896814",
+      "38656456",
+      "38690269"
+    ],
+    "review": [
+      "40404777"
+    ],
+    "pmc": [
+      "12098850"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/obesityinchildren.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity in Children"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-02663-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40404777/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

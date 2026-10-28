@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, methods, and supplementary information legends.
+- **Assessment boundary** The scientific claims, methodology, computational approach, data interpretation, and internal consistency of the manuscript as provided. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors use AlphaFold2- and I-TASSER-generated structural models of human STAT3α to computationally predict the binding interface with GRIM-19, identify conserved arginine residues in GRIM-19 that mediate interactions, and propose that GRIM-19 mutations can modulate binding affinity and stability, thereby informing the negative regulatory mechanism of STAT3 by GRIM-19.
+- **Visible evidence base** Structural superimposition figures (Figs. 1, 2), docking complex figures (Figs. 3, 5, 6), hydrogen bond interaction tables (Tables 1, 2), mutation analysis tables (Tables 3, 4, 5), molecular dynamics RMSD plots (Fig. 4), and supplementary tables/figures referenced but not fully provided.
+- **Missing materials affecting confidence** Supplementary tables S1–S10 and figures S1–S4 are referenced but not included in the provided text. The full PDB files, ClusPro2 output clusters, AlphaFold2 confidence metrics (pLDDT per residue), and MD trajectory analyses are not available. Experimental validation data are absent.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational investigation of the STAT3α-GRIM-19 interaction using two structure prediction approaches. The work addresses a relevant biological question, as the discrepancy in previously reported STAT3 domains involved in GRIM-19 binding remains unresolved. However, the study is limited by its reliance on predicted structures without experimental validation, and several methodological and interpretive issues weaken the strength of the conclusions. The claim that the NTD of STAT3 is the primary binding site for GRIM-19 is based on docking predictions that are not corroborated by mutagenesis or binding assays. The mutation analysis is also inconsistent across tools, and the authors do not adequately reconcile these discrepancies. The manuscript would benefit from a more cautious interpretation of computational predictions and a clearer acknowledgment of their limitations.
+- **Who would be interested in the results, and why** Researchers studying STAT3 signaling, particularly those interested in the structural basis of STAT3 regulation by interacting proteins such as GRIM-19. Computational biologists working on protein-protein interaction prediction and docking may also find the comparative use of AlphaFold2 and I-TASSER of interest. However, the lack of experimental validation limits the appeal to a broader cell biology or biochemistry audience.
+- **Major strengths**
+  - Addresses a genuine gap in the literature: the unresolved and inconsistent identification of STAT3 domains involved in GRIM-19 binding.
+  - Uses state-of-the-art structure prediction tools (AlphaFold2) alongside a well-established method (I-TASSER), providing a comparative perspective.
+  - The identification of conserved GRIM-19 arginine residues across multiple docking models is an interesting observation that could guide future experimental work.
+  - The mutation analysis is comprehensive, covering all 19 possible substitutions at key interfacial residues.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of conclusions
+  - **Claim pointer** The authors claim that "the NTD of GRIM-19 binds most strongly to the NTD of STAT3α" and that this represents a novel structural perspective on the binding and inhibitory mechanisms.
+  - **Evidence pointer** Results section "Full-length unphosphorylated and phosphorylated monomeric STAT3 in interactions with GRIM-19", Tables 1 and 2, Figures 3 and 6.
+  - **Concern** The conclusion that the NTD of STAT3 is the primary binding site is based solely on blind docking predictions from ClusPro2. The authors acknowledge that previous experimental studies identified different STAT3 domains (CC-DBD-LD and TAD) as binding partners for GRIM-19. The docking results are not validated by any experimental method, and the authors do not provide a compelling explanation for why the computational prediction should supersede the experimental observations. The claim of "strongest" binding is not supported by quantitative binding affinity measurements.
+  - **Why it matters** The central conclusion of the paper rests on this claim. If the predicted binding site is incorrect, the subsequent mutation analysis and the proposed inhibitory mechanism are built on an unreliable foundation. The discrepancy between computational prediction and experimental data is not resolved, which undermines the novelty and significance of the findings.
+  - **Resolution test** The authors would need to provide experimental validation, such as co-immunoprecipitation or pull-down assays with STAT3 NTD deletion mutants, or surface plasmon resonance binding studies, to confirm that the NTD is indeed the primary binding site. Alternatively, they should temper their conclusion and present the NTD as a candidate binding site requiring experimental confirmation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "MD studies verified the stability of these complexes" and that the RMSD values show "a stable plateau and therefore, a high stability of complexes."
+  - **Evidence pointer** Results section "Molecular dynamics simulations", Figure 4.
+  - **Concern** The MD simulation description is minimal. Only RMSD plots are shown, with no analysis of root-mean-square fluctuation (RMSF), radius of gyration, hydrogen bond occupancy over time, or binding free energy calculations (e.g., MM-PBSA). The RMSD values reported (1–1.5 nm, and 1.5–2 nm for the phosphorylated AlphaFold2 complex) are relatively high for a stable protein-protein complex, which typically should plateau below 0.5 nm for a well-packed interface. The authors do not discuss whether these high RMSD values indicate significant conformational drift or partial dissociation. The claim of "verified stability" is therefore overstated.
+  - **Why it matters** The stability of the predicted complexes is a key supporting pillar for the proposed interaction model. If the complexes are not demonstrably stable, the biological relevance of the predicted interface is questionable. The MD analysis as presented is insufficient to support the claim of stability.
+  - **Resolution test** The authors should provide a more thorough MD analysis, including RMSF per residue, interface contact maps over time, and binding free energy estimates. They should also discuss the relatively high RMSD values and whether the complexes remain intact throughout the simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results
+  - **Claim pointer** The authors state that "the mutations which increase the binding affinity are less well studied than those which decrease the binding affinity in experiments, which may be a limitation in our analyses" and that mutations such as Q32L, K517L, and R58W "could increase the binding affinity."
+  - **Evidence pointer** Results section "Binding affinity changes upon mutation", Tables 3 and 4.
+  - **Concern** The authors use multiple tools (SSIPe, BeAtMuSiC, mCSM) to predict binding affinity changes, but the results are not always consistent across tools. For example, S727E is predicted to decrease binding affinity by all tools, yet the experimental data show it is neutral. The authors acknowledge this discrepancy but do not offer a mechanistic explanation. Furthermore, the prediction that certain mutations increase binding affinity is presented as a potential therapeutic avenue, but this is speculative without experimental validation. The authors do not discuss the possibility that the predicted "stabilizing" mutations could have off-target effects or disrupt other functions of STAT3.
+  - **Why it matters** The mutation analysis is a key component of the paper's contribution. If the predictions are unreliable or inconsistent, the practical utility of the findings for therapeutic development is questionable. The authors need to be more transparent about the limitations of the computational tools and the uncertainty in their predictions.
+  - **Resolution test** The authors should clearly state which mutations are consistently predicted across all tools and which are not. They should also discuss the limitations of each tool and why discrepancies arise. Experimental validation of at least a few key mutations would substantially strengthen the claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The authors state that "the superimposition of I-TASSER- and AlphaFold2-generated structures was done by MatchMaker in ChimeraX. Across all the 770 atom pairs, RMSD between 501 pruned atom pairs was 0.665 angstroms."
+  - **Evidence pointer** Results section "STAT3 structure: AlphaFold2", Figure 2a.
+  - **Concern** The RMSD calculation is described as "across all the 770 atom pairs" but then "RMSD between 501 pruned atom pairs was 0.665 angstroms." This is confusing. The number 770 likely refers to residues, not atom pairs. The pruning criteria are not described. A global RMSD of 0.665 Å over 501 atom pairs (if these are Cα atoms) is very low and suggests near-identical structures, which is surprising given the known differences between I-TASSER and AlphaFold2 predictions, particularly in domain orientations. The authors should clarify the calculation and discuss the significance of this low RMSD.
+  - **Why it matters** The similarity between the two predicted structures is used to lend confidence to the models. If the RMSD calculation is flawed or misleading, the confidence in the models is overstated. The authors should provide a more detailed and transparent comparison.
+  - **Resolution test** The authors should specify exactly which atoms were used for the RMSD calculation, the pruning criteria, and whether the RMSD was calculated over the entire structure or only over well-defined regions. A per-domain RMSD analysis would be more informative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The sentence "These studies propound a novel structural perspective of STAT3α-GRIM-19 binding and inhibitory mechanisms in both the monomeric and dimeric forms of STAT3α as compared to that observed from the earlier experiments, these experimental observations being inconsistent among each other" is grammatically awkward and difficult to parse.
+  - **Required correction** Rewrite for clarity, e.g., "These studies propose a novel structural perspective on STAT3α-GRIM-19 binding and inhibition in both monomeric and dimeric forms of STAT3α, which contrasts with earlier experimental observations that are themselves inconsistent."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Molecular dynamics studies"
+  - **Issue** The MD simulation parameters are described as "default parameters" from CHARMM-GUI, but the specific parameters (e.g., water model, salt concentration, temperature coupling method, pressure coupling method, simulation ensemble) are not stated.
+  - **Required correction** Provide the full details of the MD simulation setup, including the water model, box size, ion concentration, and coupling algorithms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Results section "STAT3 structure: AlphaFold2"
+  - **Evidence pointer** Figure 2b legend
+  - **Issue** The figure legend states "colored in blue: very high confidence regions, pLDDT > 50, colored in orange and yellow: very low confidence regions, pLDDT < 50." This is incorrect. The AlphaFold2 pLDDT confidence categories are: very high (pLDDT > 90), high (90 > pLDDT > 70), low (70 > pLDDT > 50), and very low (pLDDT < 50). The legend conflates the categories.
+  - **Required correction** Correct the pLDDT thresholds in the figure legend to match the standard AlphaFold2 confidence categories.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section "STAT3 structure: I-TASSER"
+  - **Evidence pointer** Figure 1b legend
+  - **Issue** The legend states "I-TASSER-generated human STAT3α full-length structure (in red) with NTD included, superimposed on STAT3 (in blue) with PDB ID: 6TLC, which does not include NTD." The color scheme is inconsistent with Figure 1a, where the I-TASSER structure is in blue and the template is in red.
+  - **Required correction** Use consistent color coding across figures or clearly explain the color scheme in each legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The authors state that "the NTD of STAT3 is the strongest contender for the binding site with GRIM-19" but do not discuss the functional implications of this finding in the context of STAT3's known NTD-mediated functions, such as cooperative DNA binding. The discussion would benefit from a more thorough consideration of how NTD binding by GRIM-19 might affect STAT3's transcriptional activity.
+  - **Required correction** Add a discussion of the potential functional consequences of GRIM-19 binding to the STAT3 NTD, particularly in relation to STAT3's DNA-binding cooperativity and nuclear functions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** The manuscript contains several typographical and grammatical errors, e.g., "If there are are no such candidates" in the Methods section, and inconsistent use of "STAT3α" vs "STAT3" throughout.
+  - **Required correction** Thorough proofreading for typographical and grammatical errors, and consistent use of terminology.
+
+## Risk / unsupported claims
+- The claim that the NTD of STAT3 is the primary binding site for GRIM-19 is unsupported by experimental evidence and contradicts prior experimental findings. This is a computational prediction only.
+- The claim that "MD studies verified the stability of these complexes" is overstated given the minimal MD analysis provided and the relatively high RMSD values.
+- The prediction that specific mutations (e.g., Q32L, K517L, R58W) increase binding affinity is speculative and not validated experimentally.
+- The statement that "GRIM-19 always has the upper hand whether STAT3 is phosphorylated or not" is an overinterpretation of averaged ΔΔG values from computational predictions and lacks experimental support.
+- The assertion that the study provides "a novel structural perspective" is not fully justified, as the novelty is diminished by the lack of experimental validation and the unresolved discrepancies with prior experimental data.
+- The claim that "the NTD of GRIM-19 binds most strongly to the NTD of STAT3α" is not supported by quantitative binding data; "strongly" is a qualitative descriptor based on docking predictions.
+- The manuscript's conclusion that "key arginine residues of GRIM-19 are ubiquitous interacting residues across all of the studied complexes" is based on computational models and requires experimental confirmation.
+- The statement that "GRIM-19 mutations Y33P and Q61L... to be one of the top-most major and minor disruptors of binding" is based on computational predictions that are inconsistent across tools and not experimentally verified.
+- The claim that "the structure derived from homology-modeling may be more stable" than the AlphaFold2-derived structure is based on a single MD simulation and is not a generalizable conclusion.
+- The manuscript does not provide evidence that the predicted STAT3α-GRIM-19 complex is biologically relevant, as no cellular or biochemical experiments were performed.

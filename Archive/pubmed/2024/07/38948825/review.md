@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use structural modeling and free energy simulations to describe an open-to-close conformational transition of the Cas8 helical bundle in the *Vibrio cholerae* Cascade-TniQ complex. They propose that RNA binding induces a Cas8 conformational change mediated by Cas7.1 interaction, which lowers the energy barrier for the open state, facilitates DNA binding, and aids R-loop formation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, all figures, simulation details, force field parameters, convergence criteria, error estimates, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for Cas8 conformational dynamics in a CRISPR-associated transposon system. The topic is timely and of interest to the CRISPR and transposition communities. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical significance of the free energy results, or the robustness of the proposed mechanism. The central claims are currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying CRISPR-Cas systems, particularly those focused on RNA-guided DNA transposition and the molecular mechanisms of Cascade complexes. Computational biophysicists interested in conformational transitions of large macromolecular assemblies would also find the approach relevant. The potential application of Cascade-TniQ for gene knock-in makes the work of interest to synthetic biologists and genome engineering groups.
+- **Major strengths** The abstract addresses a specific and mechanistically important question, namely how Cas8 conformational change is coupled to RNA binding and DNA engagement. The proposed role of Cas7.1 as a mediator of this transition is a concrete and testable hypothesis. The use of free energy simulations to characterize a conformational equilibrium in a large CRISPR system is ambitious and potentially valuable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "free energy simulations reconstruct the Cas8 helical bundle and reveal an open-to-close conformational transition at key steps of the complex's function."  
+  - **Evidence pointer** Abstract, "structural modeling and free energy simulations" (location not provided)  
+  - **Concern** No quantitative results are reported. There are no free energy values, no error bars, no convergence metrics, and no description of the simulation protocol. Without these, the reader cannot assess whether the claimed transition is thermodynamically significant or an artifact of the modeling approach.  
+  - **Why it matters** The central conclusion rests entirely on the reliability of the free energy calculations. If the simulations are not converged or the force field is inappropriate for this system, the proposed mechanism may be unsupported.  
+  - **Resolution test** Provide free energy profiles with associated uncertainties, demonstrate convergence (e.g., block averaging or multiple independent runs), and specify the force field and simulation length.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract states that "when Cascade-TniQ binds RNA, the Cas8 bundle changes conformation mediated by the interaction with the Cas7.1 protein."  
+  - **Evidence pointer** Abstract, "interaction with the Cas7.1 protein" (location not provided)  
+  - **Concern** The abstract does not describe how the Cas7.1 interaction was identified or characterized. No structural data, mutation analysis, or interaction energy calculations are presented. The claim that Cas7.1 mediates the conformational change is central to the proposed mechanism but is not supported by any visible evidence.  
+  - **Why it matters** Without evidence for the specific role of Cas7.1, the proposed regulatory mechanism remains speculative. The reader cannot distinguish between a direct allosteric effect and a passive structural accommodation.  
+  - **Resolution test** Show interaction energy decomposition, contact maps, or mutational data that directly test the Cas7.1-Cas8 interface and its effect on the conformational equilibrium.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim substantiation  
+  - **Claim pointer** The abstract claims that "as DNA fully pairs with RNA, the open state becomes increasingly accessible, favoring interactions with DNA and aiding the formation of an R-loop."  
+  - **Evidence pointer** Abstract, "aiding the formation of an R-loop" (location not provided)  
+  - **Concern** The abstract provides no simulation data on R-loop formation or on the DNA-bound state. The claim that the open state favors DNA interactions and aids R-loop formation is presented as a conclusion, but no free energy calculations for the DNA-bound complex or R-loop intermediate are described.  
+  - **Why it matters** This is a functional claim that extends beyond the conformational transition itself. Without direct simulation of the DNA-bound states, the link between Cas8 opening and R-loop formation is not established.  
+  - **Resolution test** Provide free energy calculations or enhanced sampling simulations of the DNA-bound complex, showing that the open state is stabilized upon DNA pairing and that this stabilization correlates with R-loop progression.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, "open-to-close conformational transition"  
+  - **Evidence pointer** Abstract, first sentence of results (location not provided)  
+  - **Issue** The abstract uses "open-to-close" but later describes the transition to the "open state" as the functionally relevant step. The directionality is confusing.  
+  - **Required correction** Clarify whether the transition is from closed to open or open to closed, and use consistent terminology throughout.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract, "structural modeling"  
+  - **Evidence pointer** Abstract, "structural modeling and free energy simulations" (location not provided)  
+  - **Issue** The type of structural modeling (homology modeling, AlphaFold, molecular dynamics refinement) is not specified.  
+  - **Required correction** Specify the modeling approach and the template or method used to generate the starting structure.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Abstract, "one of the largest CRISPR systems"  
+  - **Evidence pointer** Abstract, final paragraph (location not provided)  
+  - **Issue** The claim that this is "one of the largest CRISPR systems" is not quantified and may be misleading without a size comparison.  
+  - **Required correction** Provide the molecular weight or number of subunits for the Cascade-TniQ complex and compare to other CRISPR systems if this claim is retained.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative free energy data), R1-M2 (no evidence for Cas7.1 mediation), R1-M3 (no simulation of DNA-bound states or R-loop formation)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract proposes a specific mechanistic role for Cas8 dynamics in a transposon-encoded Cascade complex. While conformational changes in CRISPR systems have been studied, the focus on Cas8 in the context of transposition is relatively novel.  
+  - **Scientific importance** The work addresses a fundamental question in CRISPR-associated transposition, which has high relevance for genome engineering. If the mechanism is robustly established, it would be of significant interest.  
+  - **Interdisciplinary readership** The topic bridges structural biology, computational biophysics, and CRISPR biology. The abstract is written in a way that is accessible to a broad audience, though the lack of technical detail limits its utility for specialists.  
+  - **Technical soundness** Not assessable from the abstract alone. The absence of simulation details, error analysis, and convergence criteria prevents evaluation of the technical quality.  
+  - **Readability for nonspecialists** The abstract is generally clear and well-structured, but the terminology assumes familiarity with CRISPR-Cas systems and free energy simulation concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic hypothesis is interesting and potentially important, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. A full review of the manuscript with figures and methods would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that Cas7.1 mediates the Cas8 conformational change is unsupported by any visible evidence.
+- The claim that the open state "aids the formation of an R-loop" is unsupported, as no DNA-bound simulations are described.
+- The claim of an "open-to-close conformational transition" is ambiguous and not quantitatively defined.
+- The assertion that this is "one of the largest CRISPR systems" is unquantified and not verifiable from the abstract.

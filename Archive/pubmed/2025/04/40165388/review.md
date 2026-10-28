@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; full manuscript not available
+- **Shared manuscript claim summary** The authors report development of a nine-layer convolutional deep neural network (TFBind) trained on JASPAR transcription factor binding site data from rice, Arabidopsis, and barley. They apply this model to integrate public rice RNA-seq and ATAC-seq data with WGCNA to identify drought-responsive transcription factors associated with open chromatin regions. They report that only 81% of transcription factors directly bound to opened genes, and identify 15 drought-responsive transcription factors enriched in protein transport, protein allocation, and nitrogen compound transport terms.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, model architecture details, training and validation data splits, performance metrics, ATAC-seq and RNA-seq data accession identifiers, WGCNA parameters, enrichment analysis details, statistical thresholds, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for integrating chromatin accessibility and transcriptomic data to predict transcription factor target modules in drought response. However, the current abstract lacks sufficient methodological detail and quantitative validation to assess the robustness of the claims. The central finding that only 81% of transcription factors directly bound to opened genes is presented without context or comparison, and the biological significance of the 15 identified transcription factors is not established beyond enrichment terms. The work may be of interest to plant genomics and computational biology communities, but the evidence base provided is insufficient to evaluate technical soundness or scientific impact.
+- **Who would be interested in the results, and why** Plant molecular biologists studying drought stress responses, computational biologists developing deep learning approaches for gene regulatory network inference, and researchers working on transcription factor target prediction in crops. The TFBind model could be a reusable tool for the community, and the integration strategy may be applicable to other stress conditions or species.
+- **Major strengths** The combination of deep learning with ATAC-seq and RNA-seq integration is a contemporary and potentially powerful approach. The use of public data and the JASPAR database suggests reproducibility potential. The focus on combinatorial TF-TAG modules rather than individual transcription factors addresses a recognized gap in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim development of a nine-layer convolutional deep neural network TFBind for predicting transcription factor binding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No performance metrics, validation strategy, or benchmark comparisons are provided for the TFBind model. It is unclear how the model was trained, tested, or calibrated, and whether the 81% binding rate reflects model accuracy or biological reality.
+  - **Why it matters** Without model validation, the reliability of all downstream predictions is uncertain. The 81% figure could indicate model limitations, data quality issues, or genuine biological non-binding, and these possibilities cannot be distinguished from the provided information.
+  - **Resolution test** Provide model training details, cross-validation performance (e.g., AUC, precision-recall), comparison to existing binding prediction tools, and a clear explanation of how the 81% threshold was derived and interpreted.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim identification of 15 drought-responsive transcription factors corresponding to open chromatin regions of targets, enriched in protein transport, protein allocation, and nitrogen compound transport.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The biological significance of the 15 transcription factors is not established. No information is provided on whether these factors are known drought regulators, whether the enrichment terms are statistically significant, or how these findings advance understanding beyond previous studies.
+  - **Why it matters** The claim of biological discovery requires demonstration that the identified factors are functionally relevant and that the enrichment is meaningful. Without this, the results could be computational artifacts or biologically trivial.
+  - **Resolution test** Provide statistical significance of enrichment, comparison to known drought-responsive transcription factors, and ideally experimental validation or literature support for at least a subset of the 15 factors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state they obtained rice RNA-seq and ATAC-seq data related to abiotic stress from public databases and used WGCNA and ATAC-seq integrative analysis.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No data accession identifiers, preprocessing pipelines, quality control criteria, or WGCNA parameter settings are provided. The specific stress conditions and time points are not described.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other researchers cannot replicate the analysis or assess whether the data selection was appropriate.
+  - **Resolution test** Provide all data accessions, analysis scripts or detailed parameters, and a clear description of the stress conditions and biological replicates used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "TF-TAG-opened modules" is introduced without definition. TAG is not explained, and the relationship between TAG and open chromatin regions is unclear.
+  - **Required correction** Define TAG explicitly and clarify the relationship between TAGs, open chromatin regions, and transcription factor binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states a nine-layer convolutional network but provides no information on input features, kernel sizes, pooling, or output interpretation.
+  - **Required correction** Briefly describe the input representation (e.g., sequence encoding) and output format in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Enrichment analysis
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The enrichment terms are listed without adjusted p-values, false discovery rates, or background gene sets used.
+  - **Required correction** Report statistical thresholds and the background model used for enrichment analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The model validation and biological significance of the identified transcription factors must be demonstrated before the core claims can be accepted. R1-M3, while not blocking, is essential for reproducibility and should be addressed.
+- **Assessment against Nature-style criteria** Originality: The combination of deep learning with ATAC-seq and RNA-seq integration for transcription factor module discovery is moderately original, though similar approaches exist in other systems. Scientific importance: The potential to identify combinatorial regulatory modules in drought response is relevant, but the current abstract does not demonstrate sufficient biological insight to establish high importance. Interdisciplinary readership: The work bridges computational biology and plant stress physiology, which could attract readers from both fields, but the abstract is too technical for nonspecialists without clearer biological framing. Technical soundness: Cannot be assessed from the abstract alone; the lack of model validation is a critical gap. Readability for nonspecialists: The abstract assumes familiarity with multiple omics techniques and deep learning, and the undefined terminology reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is potentially valuable, and the authors should be encouraged to resubmit with full methodological details, model validation, and stronger biological validation of the identified transcription factors. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that TFBind is an effective tool for predicting transcription factor binding is unsupported without performance metrics.
+- The claim that 15 drought-responsive transcription factors were identified is unsupported without statistical thresholds or validation.
+- The claim that the identified factors are enriched in specific biological terms is unsupported without significance values.
+- The general utility of the approach for predicting TF-TAG-opened modules is not established from the abstract alone.
+- The relationship between the 81% binding rate and model performance or biological reality is uninterpretable from the provided information.

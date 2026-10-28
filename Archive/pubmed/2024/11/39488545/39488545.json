@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "39488545",
+    "doi": "10.1038/s41467-024-53187-4",
+    "title": "Molecular mechanism of parental H3/H4 recycling at a replication fork."
+  },
+  "content": {
+    "abstract": "In chromatin replication, faithful recycling of histones from parental DNA to replicated strands is essential for maintaining epigenetic information across generations. A previous experiment has revealed that disrupting interactions between the N-terminal tail of Mcm2, a subunit in DNA replication machinery, and a histone H3/H4 tetramer perturb the recycling. However, the molecular pathways and the factors that regulate the ratio recycled to each strand and the destination location are yet to be revealed. Here, we performed molecular dynamics simulations of yeast DNA replication machinery, an H3/H4 tetramer, and replicated DNA strands. The simulations demonstrated that histones are recycled via Cdc45-mediated and unmediated pathways without histone chaperones, as our in vitro biochemical assays supported. Also, RPA binding regulated the ratio recycled to each strand, whereas DNA bending by Pol epsilon modulated the destination location. Together, the simulations provided testable hypotheses, which are vital for elucidating the molecular mechanisms of histone recycling.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/metabolism/genetics",
+      "*DNA Replication",
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "*Molecular Dynamics Simulation",
+      "Cell Cycle Proteins/metabolism/genetics",
+      "DNA Polymerase II/metabolism/genetics",
+      "Replication Protein A/metabolism",
+      "DNA, Fungal/metabolism/genetics",
+      "Protein Binding",
+      "Chromatin/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nagae, Fritz",
+        "Murayama, Yasuto",
+        "Terakawa, Tsuyoshi"
+      ],
+      "short_names": [
+        "Nagae F",
+        "Murayama Y",
+        "Terakawa T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6866-0748",
+        "ORCID: 0000-0002-0151-1123"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Chromosome Science, National Institute of Genetics, Shizuoka, Japan.",
+        "Department of Genetics, Graduate University for Advanced Studies (SOKENDAI), Shizuoka, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan. terakawa@biophys.kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nagae, Fritz",
+        "short_name": "Nagae F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Murayama, Yasuto",
+        "short_name": "Murayama Y",
+        "identifiers": [
+          "0000-0002-6866-0748"
+        ],
+        "affiliations": [
+          "Department of Chromosome Science, National Institute of Genetics, Shizuoka, Japan.",
+          "Department of Genetics, Graduate University for Advanced Studies (SOKENDAI), Shizuoka, Japan."
+        ]
+      },
+      {
+        "full_name": "Terakawa, Tsuyoshi",
+        "short_name": "Terakawa T",
+        "identifiers": [
+          "0000-0002-0151-1123"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan. terakawa@biophys.kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Nov 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/03 06:21",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [
+      "42711322",
+      "42497990",
+      "41736444",
+      "41714601",
+      "41495075",
+      "41271725",
+      "41112054",
+      "40809411",
+      "40380884"
+    ],
+    "refs": [
+      "38448592",
+      "38267580",
+      "38109423",
+      "37850662",
+      "37788237",
+      "37666988",
+      "37616371",
+      "37301892",
+      "37177996",
+      "36724233",
+      "35905975",
+      "35797408",
+      "35381009",
+      "35042724",
+      "34365508",
+      "34314440",
+      "33500558",
+      "32948589",
+      "32871437",
+      "32572031",
+      "32320675",
+      "32231312",
+      "32075739",
+      "32019936",
+      "31704183",
+      "31484077",
+      "31358945",
+      "30595439",
+      "30575763",
+      "30498216",
+      "30293838",
+      "30244834",
+      "30232092",
+      "30146316",
+      "30115746",
+      "30115745",
+      "30093638",
+      "29361465",
+      "29194442",
+      "29091772",
+      "29033322",
+      "29033319",
+      "28537572",
+      "28126821",
+      "28096349",
+      "27989442",
+      "27989438",
+      "27808093",
+      "27309278",
+      "26596457",
+      "26580048",
+      "26575522",
+      "26167883",
+      "26057099",
+      "25739503",
+      "25650798",
+      "25618846",
+      "25002491",
+      "24730652",
+      "24292646",
+      "24116642",
+      "23499444",
+      "22358331",
+      "21943426",
+      "20946808",
+      "20702767",
+      "20360108",
+      "20347425",
+      "20122406",
+      "18600227",
+      "16567655",
+      "16043636",
+      "14696385",
+      "12079350",
+      "11568184",
+      "9305837",
+      "8990123",
+      "8744570"
+    ],
+    "similar": [
+      "39488545",
+      "38554108",
+      "38713623",
+      "38448592",
+      "39094570",
+      "20813847",
+      "36914923",
+      "30244834",
+      "28126821",
+      "30217558",
+      "28315523",
+      "27989437",
+      "28315525",
+      "21220302",
+      "39103894",
+      "34014972",
+      "37850662",
+      "11731480",
+      "20718939",
+      "20048053",
+      "25786853",
+      "26167883",
+      "17081973",
+      "39094569",
+      "18179596",
+      "17679090",
+      "29033319",
+      "32341532",
+      "18851837",
+      "20018712",
+      "25618846",
+      "18826944",
+      "33322195",
+      "25659432",
+      "24573675",
+      "17081967",
+      "37481989",
+      "23775118",
+      "38479839",
+      "39241742",
+      "17569568",
+      "39094566",
+      "15452122",
+      "26945061",
+      "35038632",
+      "30104407",
+      "23499444",
+      "40021844",
+      "18096807",
+      "10884407",
+      "27989442",
+      "18558650",
+      "35115379",
+      "25871847",
+      "12972571",
+      "23184661",
+      "16582440",
+      "25758782",
+      "33563717",
+      "29357286",
+      "39121223",
+      "26109053",
+      "28069954",
+      "36711718",
+      "38925115",
+      "29795547",
+      "29659581",
+      "30115745",
+      "38838138",
+      "22907759",
+      "20139971",
+      "39824166",
+      "27036862",
+      "30728156",
+      "17293877",
+      "12665575",
+      "12417736",
+      "18662540",
+      "32923642",
+      "17880717",
+      "16568950",
+      "28575656",
+      "32041946",
+      "12524332",
+      "22128187",
+      "21311236",
+      "21099362",
+      "33979575",
+      "21441216",
+      "26297725",
+      "9605404",
+      "29109278",
+      "29661843",
+      "39356727",
+      "17690098",
+      "21895891",
+      "23178455",
+      "23103252",
+      "15494305",
+      "22718908"
+    ],
+    "review": [
+      "39488545",
+      "39824166"
+    ],
+    "pmc": [
+      "11531469"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-53187-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39488545/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4063",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/294079",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

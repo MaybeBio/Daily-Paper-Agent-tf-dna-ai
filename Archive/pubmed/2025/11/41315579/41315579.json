@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "41315579",
+    "doi": "10.1038/s41598-025-30182-3",
+    "title": "Transcriptomic insights into GSDME-driven pyroptosis in head and neck cancer."
+  },
+  "content": {
+    "abstract": "This study investigates the expression of pyroptosis-related genes (PRGs) in head and neck squamous cell carcinoma (HNSCC) and their potential role in the tumor immune microenvironment. Additionally, we conducted an in-depth transcriptomic analysis of HNSCC with high GSDME expression. This study utilized the curated TCGA-HNSCC and GSE65858 datasets to analyze differentially expressed genes (DEGs) associated with pyroptosis in HNSCC. Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) enrichment analyses were performed on these DEGs. The infiltration of 22 immune cell types was assessed using the CIBERSORTx algorithm. GSDME-overexpressing cells were sequenced using the Illumina NovaSeq 6000 platform, and immunohistochemistry (IHC) was conducted for validation. A total of 501 TCGA-HNSCC patient data and 270 tumor samples from the GSE65858 dataset were collected. Seventeen pyroptosis-related genes were found to have mutations in HNSCC samples, with TP53, CASP8, and NLRP3 exhibiting the highest mutation frequencies. GO enrichment analysis revealed that the DEGs were enriched in cellular components such as myofibrils and collagen-containing extracellular matrix, as well as in molecular functions including actin binding and receptor ligand activity. KEGG pathway enrichment analysis showed that DEGs were enriched in the focal adhesion biological pathway. GSEA analysis indicated a negative correlation between DEGs and the cytochrome P450 pathway. Transcriptomic analysis of high GSDME expression revealed a significant decrease in CK13 (KRT13) and CK19 (KRT19) in the GSDME-overexpressing group. Downregulated genes were significantly enriched in cell adhesion molecules and the arachidonic acid pathway. Immunohistochemistry confirmed a statistically significant reduction in CK13 and CK19 protein expression in the high GSDME expression group. Transcriptomic analysis of GSDME overexpression showed significant upregulation or downregulation of transcription factor families, including E2F, ETS, HMG, MYB, BZIP, and C2H2. Specifically, ELF3 from the ETS transcription factor family and PBX1 from the Homeobox transcription factor family were downregulated. GSDME is potentially associated with the ETS transcription factor ELF3 and the Homeobox transcription factor PBX1. The reduced expression of CK13 and CK19 in the GSDME-overexpressing group may serve as a potential mechanism by which GSDME inhibits HNSCC growth.",
+    "keywords": [
+      "GSDME, CK13, CK19",
+      "Head and neck squamous cell carcinoma",
+      "Immune environment",
+      "Pyroptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pyroptosis/genetics",
+      "*Head and Neck Neoplasms/genetics/pathology/metabolism",
+      "*Squamous Cell Carcinoma of Head and Neck/genetics/pathology/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "*Transcriptome",
+      "Gene Expression Profiling",
+      "Tumor Microenvironment/genetics",
+      "Mutation",
+      "Gene Ontology",
+      "Gasdermins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Fengxiang",
+        "Qin, Danlei",
+        "Li, Ran",
+        "Li, Xia",
+        "Hou, Jiayi",
+        "Zhao, Bin"
+      ],
+      "short_names": [
+        "Hao F",
+        "Qin D",
+        "Li R",
+        "Li X",
+        "Hou J",
+        "Zhao B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanxi Medical University, Taiyuan, 030001, Shanxi Province, China.",
+        "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China.",
+        "Shanxi Medical University, Taiyuan, 030001, Shanxi Province, China.",
+        "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China.",
+        "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China.",
+        "Department of Clinical Laboratory, Shanxi Provincial Academy of Traditional Chinese Medicine, Taiyuan, Shanxi Province, China.",
+        "Shanxi Medical University, Taiyuan, 030001, Shanxi Province, China. sxmu0688@126.com.",
+        "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China. sxmu0688@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Fengxiang",
+        "short_name": "Hao F",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Medical University, Taiyuan, 030001, Shanxi Province, China.",
+          "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Danlei",
+        "short_name": "Qin D",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Medical University, Taiyuan, 030001, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ran",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xia",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Jiayi",
+        "short_name": "Hou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Shanxi Provincial Academy of Traditional Chinese Medicine, Taiyuan, Shanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bin",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Medical University, Taiyuan, 030001, Shanxi Province, China. sxmu0688@126.com.",
+          "Shanxi Medical University School and Hospital of Stomatology, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Taiyuan, 030001, Shanxi Province, China. sxmu0688@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/29 02:21",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39219277",
+      "38874470",
+      "38725862",
+      "38557414",
+      "38472042",
+      "38341110",
+      "38195694",
+      "38170791",
+      "37859811",
+      "37563543",
+      "37499769",
+      "37120007",
+      "36973360",
+      "36963401",
+      "36920176",
+      "36849594",
+      "36681858",
+      "36456755",
+      "36300620",
+      "36246400",
+      "36150410",
+      "35874705",
+      "35695065",
+      "35657206",
+      "35278352",
+      "35229543",
+      "35153782",
+      "35143424",
+      "35130902",
+      "35078507",
+      "35020204",
+      "34691075",
+      "34663338",
+      "34429144",
+      "34379589",
+      "34326697",
+      "34179006",
+      "34108030",
+      "33859743",
+      "33837297",
+      "33828074",
+      "33816503",
+      "33776057",
+      "33767582",
+      "33707781",
+      "33692549",
+      "33434657",
+      "33433946",
+      "33243986",
+      "33160389",
+      "33036298",
+      "32778143",
+      "32733479",
+      "32492030",
+      "32246016",
+      "32188940",
+      "32188939",
+      "32080622",
+      "32061310",
+      "31748744",
+      "31558756",
+      "31548300",
+      "31501419",
+      "31441146",
+      "31249419",
+      "31249418",
+      "30948788",
+      "30842595",
+      "30545915",
+      "30447690",
+      "28813641",
+      "27786298",
+      "27322403",
+      "26771021",
+      "25969447",
+      "25605792",
+      "25516281",
+      "25428369",
+      "23323831",
+      "20385749",
+      "19051310",
+      "17496320",
+      "16199517",
+      "10592173"
+    ],
+    "similar": [
+      "41315579",
+      "35574984",
+      "31485443",
+      "37092360",
+      "38507078",
+      "36703967",
+      "39904995",
+      "40661938",
+      "38063904",
+      "40064955",
+      "41099090",
+      "31238980",
+      "39596132",
+      "34853622",
+      "30589034",
+      "33390791",
+      "40275315",
+      "37688682",
+      "35768785",
+      "35120582",
+      "33327871",
+      "32228580",
+      "38706215",
+      "34688154",
+      "38756442",
+      "39282247",
+      "34669519",
+      "32919362",
+      "37204444",
+      "37842043",
+      "36157879",
+      "31304688",
+      "34433433",
+      "32286381",
+      "40775425",
+      "40269062",
+      "34898376",
+      "40419932",
+      "40475773",
+      "41098933",
+      "38937712",
+      "37279805",
+      "39565537",
+      "35567376",
+      "39323031",
+      "38725862",
+      "38279934",
+      "41300768",
+      "38719019",
+      "40908208",
+      "35301800",
+      "40976120",
+      "34198450",
+      "33982750",
+      "35156730",
+      "36830672",
+      "39340989",
+      "39907408",
+      "39343114",
+      "36246400",
+      "35242200",
+      "34373557",
+      "33449165",
+      "39431157",
+      "33091845",
+      "40066708",
+      "40264050",
+      "41455315",
+      "38428621",
+      "39375696",
+      "38367702",
+      "27035117",
+      "33994859",
+      "29306329",
+      "33854716",
+      "41129927",
+      "35712757",
+      "35898455",
+      "40881700",
+      "29240723",
+      "41159327",
+      "39604419",
+      "40328901",
+      "38421592",
+      "39407127",
+      "39375732",
+      "30937621",
+      "39896807",
+      "32738592",
+      "34130150",
+      "36291136",
+      "36510584",
+      "38567514",
+      "39382421",
+      "34505628",
+      "39300373",
+      "34091115",
+      "41266445",
+      "37193028",
+      "36097539"
+    ],
+    "review": [
+      "41315579",
+      "33327871"
+    ],
+    "pmc": [
+      "12775021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/headandneckcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Head and Neck Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-30182-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41315579/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1522",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

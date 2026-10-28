@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "42561036",
+    "doi": "10.1371/journal.pone.0354961",
+    "title": "Uncovering the molecular landscape of young-onset diffuse gastric cancer: A relieff-based feature selection analysis on RNA-Seq data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diffuse Gastric Cancer (DGC) is an aggressive subtype with a poor prognosis and a lack of specific biomarkers, representing a critical unmet need in oncology. This study aimed to elucidate the key molecular drivers of DGC by integrating RNA-seq data with a multi-faceted bioinformatics approach. METHODS: We analyzed RNA-seq data from young-onset DGC and normal tissues (GSE113255, GSE122401). Machine learning (ML) feature selection (ReliefF algorithm) was used to prioritize genes, followed by protein-protein interaction network analysis to identify hub genes. Their roles were further investigated through Gene Ontology, KEGG pathway analysis, tumor microenvironment immune infiltration, miRNA-regulatory network analysis, transcription factor prediction, and computational drug repurposing analyses. RESULTS: Our ML‑driven approach identified seven hub genes central to DGC pathogenesis including CCL5, CXCR4, MMP9, FOXP3, IL18, TNFSF11, and TNFSF13B. Among these, three prioritized core hub genes (CXCR4, MMP9, and TNFSF13B) were selected based on statistically significant overexpression and complementary functional roles. Specifically, CXCR4 showed a Fold Change of 3.12 (Log2FC = 1.64, FDR = 0.01), MMP9 exhibited the highest magnitude of upregulation (Fold Change = 16.58, Log2FC = 4.05), and TNFSF13B demonstrated the most statistically significant differential expression (Fold Change = 2.32, Log2FC = 1.21, FDR < 0.000001). High CXCR4 expression was identified as a potential prognostic indicator associated with poorer overall survival in the TCGA‑STAD cohort (HR = 1.5, p = 0.0072). We delineated a core regulatory circuitry where NF‑kappaB (NFKB1/RELA) masterfully regulates the hub gene network. Drug repurposing analysis nominated several FDA‑approved agents, including the VEGF‑A inhibitor Bevacizumab, which indirectly suppresses CXCR4 and MMP9. CONCLUSION: This pilot study establishes a robust integrative framework that synergizes ML with network biology. It nominates CXCR4 and TNFSF13B as candidate therapeutic targets and highlights the potential of ML‑based feature selection for discovering biologically relevant, context‑dependent prognostic indicators in DGC. However, we emphasize that these findings are exploratory and hypothesis‑generating, requiring independent validation through experimental studies and larger cohorts before any clinical translation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/pathology",
+      "*RNA-Seq",
+      "Gene Expression Regulation, Neoplastic",
+      "Machine Learning",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "Computational Biology/methods",
+      "Tumor Microenvironment/genetics",
+      "Prognosis",
+      "MicroRNAs/genetics",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Profiling",
+      "Algorithms",
+      "Receptors, CXCR4/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azni, Zahra Khalili",
+        "Borhani, Matia Sadat",
+        "Sabouri, Hossein",
+        "Sajadi, Sayed Javad",
+        "Arjmand, Maryam Pasandideh"
+      ],
+      "short_names": [
+        "Azni ZK",
+        "Borhani MS",
+        "Sabouri H",
+        "Sajadi SJ",
+        "Arjmand MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1845-2748",
+        "ORCID: 0000-0002-6555-080X",
+        "ORCID: 0000-0002-6424-8668"
+      ],
+      "affiliations": [
+        "Department of Biology, Faculty of Basic Sciences and Engineering, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran.",
+        "Department of Biology, Faculty of Basic Sciences and Engineering, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran.",
+        "Department of Plant Production, Faculty of Agriculture Sciences and Natural Resources, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran.",
+        "Department of Plant Production, Faculty of Agriculture Sciences and Natural Resources, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran.",
+        "Department of Plant Biotechnology, Faculty of Agricultural Sciences, University of Guilan, Rasht, Guilan, Iran.",
+        "Researcher, BioGenTAC lnc., Technology Incubator of Agricultural Biotechnology Research Institute of Iran-North Branch (ABRII), Rasht, Guilan, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azni, Zahra Khalili",
+        "short_name": "Azni ZK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Basic Sciences and Engineering, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran."
+        ]
+      },
+      {
+        "full_name": "Borhani, Matia Sadat",
+        "short_name": "Borhani MS",
+        "identifiers": [
+          "0000-0002-1845-2748"
+        ],
+        "affiliations": [
+          "Department of Biology, Faculty of Basic Sciences and Engineering, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran."
+        ]
+      },
+      {
+        "full_name": "Sabouri, Hossein",
+        "short_name": "Sabouri H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Production, Faculty of Agriculture Sciences and Natural Resources, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran."
+        ]
+      },
+      {
+        "full_name": "Sajadi, Sayed Javad",
+        "short_name": "Sajadi SJ",
+        "identifiers": [
+          "0000-0002-6555-080X"
+        ],
+        "affiliations": [
+          "Department of Plant Production, Faculty of Agriculture Sciences and Natural Resources, Gonbad Kavous University, Gonbad Kavous, Golestan, Iran."
+        ]
+      },
+      {
+        "full_name": "Arjmand, Maryam Pasandideh",
+        "short_name": "Arjmand MP",
+        "identifiers": [
+          "0000-0002-6424-8668"
+        ],
+        "affiliations": [
+          "Department of Plant Biotechnology, Faculty of Agricultural Sciences, University of Guilan, Rasht, Guilan, Iran.",
+          "Researcher, BioGenTAC lnc., Technology Incubator of Agricultural Biotechnology Research Institute of Iran-North Branch (ABRII), Rasht, Guilan, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 18:35",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41039452",
+      "40337924",
+      "40226357",
+      "39988724",
+      "39834554",
+      "39827154",
+      "39738256",
+      "39656687",
+      "39632995",
+      "39558183",
+      "39455662",
+      "39335135",
+      "39271577",
+      "39177588",
+      "39155739",
+      "38403513",
+      "38339225",
+      "38201481",
+      "37957036",
+      "37953380",
+      "37943830",
+      "37061333",
+      "36980677",
+      "36627564",
+      "36564369",
+      "36469496",
+      "36465663",
+      "36304293",
+      "35887173",
+      "35884067",
+      "35877436",
+      "35785165",
+      "35471457",
+      "35307354",
+      "35205159",
+      "35116681",
+      "35116412",
+      "35095911",
+      "34609417",
+      "34514075",
+      "34452195",
+      "34322663",
+      "34182216",
+      "33970941",
+      "33854601",
+      "33816291",
+      "33773545",
+      "33691719",
+      "33391001",
+      "33081378",
+      "32949316",
+      "32758476",
+      "32655638",
+      "32612943",
+      "32512697",
+      "32335505",
+      "32124324",
+      "31990955",
+      "31989550",
+      "31963842",
+      "31940801",
+      "31851694",
+      "31806698",
+      "31647101",
+      "31504780",
+      "31202170",
+      "31114875",
+      "30569852",
+      "30567376",
+      "30031057",
+      "30012349",
+      "29927942",
+      "29912392",
+      "29721214",
+      "29545726",
+      "29358632",
+      "29152126",
+      "29087512",
+      "28605449",
+      "28450798",
+      "28258700",
+      "27032689",
+      "27019068",
+      "26870218",
+      "26625734",
+      "26267216",
+      "26182300",
+      "25785029",
+      "25301002",
+      "25079317",
+      "25075029",
+      "25018732",
+      "24621580",
+      "24523569",
+      "24510342",
+      "24040244",
+      "23936528",
+      "22481922",
+      "21730981",
+      "21633638",
+      "21630055",
+      "21570392",
+      "20594270",
+      "19853308",
+      "19638429",
+      "19637976",
+      "19487818",
+      "19383901",
+      "18949410",
+      "18246596",
+      "17720704",
+      "17576678",
+      "17001321",
+      "16874857",
+      "14597658",
+      "12912827",
+      "12717827",
+      "11968083",
+      "11244043"
+    ],
+    "similar": [
+      "42561036",
+      "40328901",
+      "41436831",
+      "40711603",
+      "42327341",
+      "31987036",
+      "35996248",
+      "40317362",
+      "40898538",
+      "41872824",
+      "41798945",
+      "42589294",
+      "40997906",
+      "41044520",
+      "40205350",
+      "41388523",
+      "42236612",
+      "40419032",
+      "41716413",
+      "41442003",
+      "42249833",
+      "39888730",
+      "30336538",
+      "34968391",
+      "40725485",
+      "42053674",
+      "31754223",
+      "42180604",
+      "40761790",
+      "40355485",
+      "31747387",
+      "41601657",
+      "41836446",
+      "39904894",
+      "38863714",
+      "41291892",
+      "41504052",
+      "42195052",
+      "42244292",
+      "41132671",
+      "42074514",
+      "40681545",
+      "40406126",
+      "42486346",
+      "38268224",
+      "32052496",
+      "39142001",
+      "42074497",
+      "31127138",
+      "41828401",
+      "42280204",
+      "42391245",
+      "40084401",
+      "38913913",
+      "39896800",
+      "40313958",
+      "34899080",
+      "42123445",
+      "38860335",
+      "41960370",
+      "39234248",
+      "34686186",
+      "31500382",
+      "41663976",
+      "41425595",
+      "31233344",
+      "41660919",
+      "31692035",
+      "40564927",
+      "37629071",
+      "40826767",
+      "42475469",
+      "39118438",
+      "42120472",
+      "41019083",
+      "39835132",
+      "41188996",
+      "40666516",
+      "41476086",
+      "40954153",
+      "40764361",
+      "40317014",
+      "39434198",
+      "39375405",
+      "41381057",
+      "42537010",
+      "42263482",
+      "40330458",
+      "41511918",
+      "41169155",
+      "41511815",
+      "30975489",
+      "40087784",
+      "41208987",
+      "41162544",
+      "32662828",
+      "40225866",
+      "32243390",
+      "40438115",
+      "41759266"
+    ],
+    "review": [
+      "42561036"
+    ],
+    "pmc": [
+      "13446702"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0354961",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42561036/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

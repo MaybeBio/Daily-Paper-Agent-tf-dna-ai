@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present CellCartographer, a machine-learning pipeline that uses chromatin accessibility and transcriptomics data to design multiplex transcription factor pooled-screening experiments for directed differentiation of induced pluripotent stem cells (iPSCs). They report validation by differentiating iPSCs into twelve cell types at low efficiency in preliminary screens, iterative refinement achieving high-efficiency differentiation for six cell types in under six days, and functional characterization of four derived cell types (cytotoxic T cells, regulatory T cells, type II astrocytes, and hepatocytes).
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, definitions of "low" and "high" efficiency, functional characterization protocols and results, comparison to existing methods, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable computational approach to a well-recognized challenge in stem cell biology, namely the identification of transcription factor combinations for directed differentiation. The reported outcomes, including differentiation into twelve cell types and functional validation of four, are substantial if fully supported. However, the abstract alone provides insufficient detail to assess the technical soundness of the machine-learning pipeline, the rigor of the experimental validations, or the robustness of the functional characterizations. The central claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in stem cell biology, cellular reprogramming, regenerative medicine, and computational biology would be interested. The work addresses a bottleneck in generating specific cell types for disease modeling, drug screening, and potential cell-based therapies. The machine-learning-guided approach may also appeal to those developing automated experimental design tools.
+- **Major strengths** The problem addressed is of high importance and broad relevance. The iterative design-and-refine strategy is conceptually sound and could reduce the experimental burden of transcription factor screening. The reported breadth of cell types generated, including immune cells and hepatocytes, suggests potential generalizability. The inclusion of functional characterization for multiple lineages strengthens the claim of biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The machine-learning pipeline uses chromatin accessibility and transcriptomics data to design multiplex transcription factor pooled-screening experiments.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the architecture, training data, feature selection, or validation of the machine-learning model. It is unclear how chromatin accessibility and transcriptomics data are integrated, what cell types or states were used for training, and how predictions were benchmarked against known transcription factor combinations.
+  - **Why it matters** Without this information, the reader cannot assess whether the pipeline is genuinely predictive or merely recapitulates known biology. The core novelty of the work rests on the machine-learning component, and its technical validity is central to the manuscript's contribution.
+  - **Resolution test** Provide a detailed methods section describing the model architecture, training and test datasets, feature engineering, cross-validation, and performance metrics. Include comparisons to existing computational methods or random selection baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors validate the method by differentiating iPSCs into twelve cell types at low efficiency and iteratively refine combinations to achieve high-efficiency differentiation for six cell types in under six days.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The terms "low efficiency" and "high efficiency" are not defined. No quantitative thresholds, statistical comparisons, or reproducibility metrics are provided. It is unclear how efficiency was measured, whether it was consistent across cell types, and what the magnitude of improvement was after iterative refinement.
+  - **Why it matters** Efficiency is the primary quantitative outcome of the study. Without defined metrics and statistical support, the claim of successful differentiation cannot be evaluated, and the improvement from iterative refinement cannot be distinguished from experimental noise.
+  - **Resolution test** Define efficiency metrics explicitly, report numerical values with variance and replicates for each cell type, and provide statistical tests comparing preliminary and refined conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors functionally characterize iPSC-derived cytotoxic T cells, regulatory T cells, type II astrocytes, and hepatocytes to validate functionally accurate differentiation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which functional assays were performed, what markers or behaviors were assessed, or how the results compare to primary cells or established cell lines. No criteria for "functionally accurate" are given.
+  - **Why it matters** Functional characterization is the strongest evidence that the differentiated cells are biologically relevant. Without details on assays and comparison standards, the claim of functional accuracy is unverifiable and may overstate the maturity or fidelity of the derived cells.
+  - **Resolution test** Provide detailed functional assay descriptions, including positive and negative controls, quantitative readouts, and statistical comparisons to appropriate reference cell types.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Abstract title
+  - **Issue** The title "Machine-guided cell-fate engineering" is broad and does not convey the specific focus on transcription factor screening for iPSC differentiation.
+  - **Required correction** Consider a more descriptive title that mentions the machine-learning approach and the target application, such as "Machine-learning-guided transcription factor screening for directed differentiation of induced pluripotent stem cells."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods availability
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not mention whether the CellCartographer code, data, or protocols are publicly available.
+  - **Required correction** Include a data and code availability statement in the full manuscript, and mention it in the abstract if space permits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not compare CellCartographer to existing computational or experimental approaches for transcription factor discovery, such as prior machine-learning models or high-throughput screening methods.
+  - **Required correction** Add a brief comparison in the introduction or discussion to position the novelty of the approach relative to the state of the art.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The machine-learning pipeline is not described in sufficient detail to assess its validity, the efficiency claims lack quantitative support, and the functional characterization is unspecified. These are all central to the manuscript's claims and must be resolved.
+- **Assessment against Nature-style criteria** Originality: The concept of using machine learning to guide transcription factor screening is not entirely new, but the specific integration of chromatin accessibility and transcriptomics for iterative pooled screening may offer a novel contribution. Scientific importance: The problem is important, and a validated method would be of broad utility. Interdisciplinary readership: The work bridges computational biology and stem cell biology, which could attract readers from both fields. Technical soundness: Not assessable from the abstract; the machine-learning methodology and experimental validations are insufficiently described. Readability for nonspecialists: The abstract is generally clear, but terms such as "multiplex TF pooled-screening" and "chromatin accessibility" may require more context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach and substantial reported outcomes, but the lack of methodological detail and quantitative support prevents verification of the central claims. A full manuscript with detailed methods, results, and statistical analyses would be required to assess whether the case is established.
+
+## Risk / unsupported claims
+- The claim that CellCartographer "uses chromatin accessibility and transcriptomics data to design" experiments is unsupported because no methodological details are provided.
+- The claim of "high-efficiency differentiation for six of these cell types in <6 days" is unsupported because efficiency is not defined and no quantitative data are given.
+- The claim of "functionally accurate differentiation" for four cell types is unsupported because no functional assay details or comparison standards are provided.
+- The generalizability of the approach beyond the tested cell types is not assessable from the abstract.

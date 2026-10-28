@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "39488601",
+    "doi": "10.1038/s41598-024-77664-4",
+    "title": "An in silico approach uncovering the competency of oncolytic human adenovirus 52 for targeted breast cancer virotherapy."
+  },
+  "content": {
+    "abstract": "Breast cancer remains a major health threat throughout the world specifically in women above 30 years of age however, it is rarely known to affect men as well. It is characterized by the abnormal division of cells in the breast tissue resulting in the development of breast malignancies. Various risk factors contributing to breast cancer include age, family history, genetic mutations (chiefly in BRCA1 and BRCA2 genes) along with hormonal imbalances (oestrogen, progesterone, HER2). Early detection which can be obtained through frequent rounds of self-examination, mammographic scanning, and clinical assessment plays a crucial role in the prevention of the disease. In addition, appropriate diagnosis assists in better therapeutic responses. This study highlights the considerable health risks associated with the conventional treatment procedures which arise and increased demand of advanced, secure, and risk-free treatment alternatives. Oncolytic viruses are potentially apparent for the aim of improving cancer therapeutics with reduced side effects. These viruses act as the fundamental therapeutic agent themselves that selectively target and kill malignant cells without harm to healthy tissues. The key objective of the research is to provide evidence that Human Adenovirus 52 is a potent oncolytic virus and to highlight its capacity to target and eliminate cancer cells with precision while causing the least amount of harm to healthy tissues. Validating the in-silico method entails evaluating the precision and dependability of the computational modelling by contrasting the in-silico predictions with the findings from the experiments rank as the secondary objective. The workflow of this research utilized in-silico computational drug designing approaches including retrieval of tertiary structures of both the target Breast Cancer Type 1 Susceptibility Protein (BRCA1) and the viral Human Adenovirus 52 protein, their validation generating Ramachandran Plots determining favoured amino acid residue angles and prediction of their active residues. Furthermore, the study focused on the molecular dynamics docking of proteins, interpretation of molecular interactions between the docked complex, as well as the assessment of the molecular dynamic simulations (MD) in addition to their MMGBSA binding energy calculations. A successful docking between BRCA1 and Adenovirus protein provided a significant score of 329.2 +/- 24.3, furthermore, MD simulations showed a high RMSD peak at 2.8 A, RMSF were maximum at 3.5 A with highest protein-protein interaction, the radius of gyration was stable throughout the simulation representing elastic stability along with a high energy interaction value of - 7882 kCal/mol. Moreover, the MMGBSA calculation results showed a notable release of binding free energy of - 68.96 kCal/mol demonstrating effective bond formation between the docked complex. These findings propose the effectiveness of Human Adenovirus 52 to treat cancer. The selected oncolytic Human Adenovirus 52 is a potential candidate for the target specific treatment of breast cancer through virotherapy. This computer-aided drug discovery presents significant potential in targeting cancer cells and would assist in the development of potent drug reagents for the cancer therapy.",
+    "keywords": [
+      "Breast cancer",
+      "Human adenovirus 52",
+      "In-silico",
+      "Oncolytic",
+      "Virotherapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/therapy/virology/metabolism/pathology",
+      "Female",
+      "*Oncolytic Virotherapy/methods",
+      "Oncolytic Viruses/genetics/physiology",
+      "Computer Simulation",
+      "Adenoviruses, Human/genetics/physiology",
+      "Molecular Docking Simulation",
+      "BRCA1 Protein/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naveed, Muhammad",
+        "Batool, Zainab",
+        "Aziz, Tariq",
+        "Javed, Khushbakht",
+        "Ali, Nouman",
+        "Rehman, Hafiz Muzzammel",
+        "Alharbi, Metab",
+        "Alasmari, Abdullah F",
+        "Alshammari, Abdulrahman"
+      ],
+      "short_names": [
+        "Naveed M",
+        "Batool Z",
+        "Aziz T",
+        "Javed K",
+        "Ali N",
+        "Rehman HM",
+        "Alharbi M",
+        "Alasmari AF",
+        "Alshammari A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan. naveed.quaidian@gmail.com.",
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan.",
+        "Laboratory of Animal Health Food Hygiene and Quality, University of Ioannina, Arta, Greece.",
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan.",
+        "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan.",
+        "School of Biochemistry and Biotechnology, University of the Punjab, Lahore, Pakistan.",
+        "Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi Arabia.",
+        "Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi Arabia. iwockd@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naveed, Muhammad",
+        "short_name": "Naveed M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan. naveed.quaidian@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Batool, Zainab",
+        "short_name": "Batool Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Aziz, Tariq",
+        "short_name": "Aziz T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Animal Health Food Hygiene and Quality, University of Ioannina, Arta, Greece."
+        ]
+      },
+      {
+        "full_name": "Javed, Khushbakht",
+        "short_name": "Javed K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ali, Nouman",
+        "short_name": "Ali N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, 54590, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rehman, Hafiz Muzzammel",
+        "short_name": "Rehman HM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Biotechnology, University of the Punjab, Lahore, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alharbi, Metab",
+        "short_name": "Alharbi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alasmari, Abdullah F",
+        "short_name": "Alasmari AF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshammari, Abdulrahman",
+        "short_name": "Alshammari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi Arabia. iwockd@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Nov 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/03 06:21",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [
+      "42378305",
+      "41936598",
+      "41826613",
+      "41776206",
+      "40628750",
+      "40263512",
+      "40221471"
+    ],
+    "refs": [
+      "39116271",
+      "39068301",
+      "39043043",
+      "38675909",
+      "38576614",
+      "37606107",
+      "37223527",
+      "37111730",
+      "37041165",
+      "36551192",
+      "35756634",
+      "35480139",
+      "35387984",
+      "34390465",
+      "34367111",
+      "33924556",
+      "33608497",
+      "33219014",
+      "31389007",
+      "31106357",
+      "30667505",
+      "30476243",
+      "30209859",
+      "30186799",
+      "30099541",
+      "29755464",
+      "29674446",
+      "29611527",
+      "29209143",
+      "28944214",
+      "28867494",
+      "28809009",
+      "27865536",
+      "27660707",
+      "27486853",
+      "26834110",
+      "26416291",
+      "25835573",
+      "24764576",
+      "22781695",
+      "22238269",
+      "21919503",
+      "16820531",
+      "16284735",
+      "12824325",
+      "12427738",
+      "9036860"
+    ],
+    "similar": [
+      "39488601",
+      "18710328",
+      "29644518",
+      "21764108",
+      "28867494",
+      "33477279",
+      "22719239",
+      "30260014",
+      "31278126",
+      "32957644",
+      "38576614",
+      "18214411",
+      "24577130",
+      "25980438",
+      "39775383",
+      "20497039",
+      "39596515",
+      "23000515",
+      "38675909",
+      "31137188",
+      "26515462",
+      "20886384",
+      "26081241",
+      "22430386",
+      "39275052",
+      "28077642",
+      "23853080",
+      "22237452",
+      "28698142",
+      "30207220",
+      "21480822",
+      "21741695",
+      "28702840",
+      "38037840",
+      "37565730",
+      "33419801",
+      "27056886",
+      "22717740",
+      "40007185",
+      "22040050",
+      "22555507",
+      "26950165",
+      "36851572",
+      "16826462",
+      "24553109",
+      "28634161",
+      "22108767",
+      "30146692",
+      "26808201",
+      "30032645",
+      "26471393",
+      "35806132",
+      "32600470",
+      "22198165",
+      "23962292",
+      "20725101",
+      "20691986",
+      "33760203",
+      "27215429",
+      "31641136",
+      "27993115",
+      "28978265",
+      "37739292",
+      "25093639",
+      "25303768",
+      "37199666",
+      "39135338",
+      "21712815",
+      "21079774",
+      "15920462",
+      "27458139",
+      "39467343",
+      "22181186",
+      "34428997",
+      "23021243",
+      "27503504",
+      "39490493",
+      "34213827",
+      "30848201",
+      "26610547",
+      "40303488",
+      "28542292",
+      "28228084",
+      "21836633",
+      "31662784",
+      "34638863",
+      "26203222",
+      "29981812",
+      "40006917",
+      "17383089",
+      "37824388",
+      "32748584",
+      "38005938",
+      "37660975",
+      "33418877",
+      "34719211",
+      "29898782",
+      "39859568",
+      "31043633",
+      "40082916"
+    ],
+    "review": [
+      "39488601",
+      "21764108",
+      "33477279",
+      "30260014",
+      "32957644",
+      "38576614",
+      "18214411",
+      "20886384",
+      "22430386",
+      "30207220",
+      "28702840",
+      "36851572",
+      "16826462",
+      "30146692",
+      "32600470",
+      "22198165",
+      "33760203",
+      "27215429",
+      "27993115",
+      "34428997",
+      "23021243",
+      "34213827",
+      "26610547",
+      "40303488",
+      "28228084",
+      "34638863",
+      "29981812",
+      "17383089",
+      "32748584",
+      "38005938",
+      "34719211"
+    ],
+    "pmc": [
+      "11531525"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-77664-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39488601/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

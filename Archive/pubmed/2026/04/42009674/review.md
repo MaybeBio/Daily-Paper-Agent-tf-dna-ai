@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, clarity, and significance of the claims made in the manuscript. No assessment of code availability or reproducibility beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present TwinC, a convolutional neural network that predicts inter-chromosomal (trans) contacts from DNA sequence. The model is trained on Hi-C data from human heart ventricles and validated with orthogonal DNA SPRITE data in GM12878 cells. The authors report high predictive accuracy, interpretability of learned features (chromatin accessibility, transcription factor motifs, G-quadruplexes), and computational efficiency compared to the existing Orca model.
+- **Visible evidence base** Main figures 1-5, supplementary figures 1-7, supplementary data 1-12 as referenced in the text. Methods section provides detailed descriptions of data processing, model architecture, training, and evaluation procedures.
+- **Missing materials affecting confidence** Actual figure images, supplementary data files, and code are not provided. Exact numerical results for some comparisons (e.g., full AUROC values for all folds) are not fully reported. Details on the negative sampling strategy and class balance are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in 3D genome modeling by focusing on inter-chromosomal contacts, which are often overlooked. The paired-sequence approach is a sensible and novel design choice. The validation with DNA SPRITE is a strength. However, several technical aspects require clarification and additional analysis to fully support the claims, particularly regarding label construction, model comparison fairness, and the interpretation of feature importance analyses.
+- **Who would be interested in the results, and why** Researchers in computational genomics, 3D genome organization, and gene regulation. The model provides a tool for predicting trans contacts from sequence alone, which could be useful for understanding nuclear architecture in different cell types and conditions. The interpretability analyses may also interest those studying sequence determinants of genome folding.
+- **Major strengths** 1. Addresses a relatively underexplored problem (trans contact prediction) with a purpose-built architecture. 2. Uses multiple biological replicates to define robust labels, addressing sparsity issues. 3. Provides orthogonal validation with DNA SPRITE. 4. Demonstrates computational efficiency gains over Orca. 5. Includes interpretability analyses linking sequence features to biological mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of label construction
+  - **Claim pointer** The authors claim that TwinC accurately predicts whether a pair of trans loci participates in a robust contact, based on labels derived from replicate Hi-C data.
+  - **Evidence pointer** Methods, Section "Hi-C labels"; Figure 1B
+  - **Concern** The label construction process is not fully specified. The thresholds (i, m, j, n) are selected based on AUROC, but the range of values tested and the final chosen values are not reported. More critically, the negative class definition ("no contact" with ≤j count in ≥n experiments) may be problematic. The manuscript does not clarify how many negative pairs are available, how they are sampled for training, and whether the class imbalance is addressed. The selection of thresholds based on AUROC on the same data used for training could lead to overfitting of the label definition.
+  - **Why it matters** The validity of the entire prediction task depends on the quality and unbiasedness of the labels. If the negative set is not representative or the thresholds are overfit, the reported AUROC values may not reflect true predictive performance on biologically meaningful contacts.
+  - **Resolution test** Provide a detailed description of the threshold selection procedure, including the range of values tested and the final values. Report the number of positive and negative pairs in the training set and the sampling strategy. Perform a sensitivity analysis showing how AUROC changes with different threshold choices. Consider using a held-out set for threshold selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Fairness of model comparison
+  - **Claim pointer** The authors claim that TwinC performs comparably to Orca on trans contact prediction, with a simpler design and faster training.
+  - **Evidence pointer** Results, Section "TwinC's accuracy is comparable to Orca's"; Figure 3
+  - **Concern** The comparison with Orca may not be entirely fair. TwinC is trained on heart ventricle Hi-C data, while Orca was trained on H1ESC micro-C data. The authors retrain a regression version of TwinC on H1ESC data for comparison, which is appropriate. However, the evaluation metric (Spearman correlation) is computed on normalized contact scores, and the details of the normalization procedure for the H1ESC data are not fully described. Additionally, the comparison is only at 128 kbp resolution, and it is unclear if Orca's performance at this resolution is its best. The authors should clarify whether the same evaluation pipeline was used for both models and whether any hyperparameter tuning was performed for Orca on this dataset.
+  - **Why it matters** A fair comparison is essential to support the claim of comparable performance. If the evaluation is biased, the conclusion about TwinC's efficiency advantage may be overstated.
+  - **Resolution test** Provide a detailed description of the evaluation pipeline for both models, including data normalization, contact score computation, and the exact metric calculation. State whether Orca's hyperparameters were tuned on the H1ESC validation set. Consider reporting performance at multiple resolutions and with multiple random seeds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of interpretability analyses
+  - **Claim pointer** The authors claim that TwinC learns the importance of chromatin accessibility, specific transcription factor motifs, and G-quadruplexes in forming trans contacts.
+  - **Evidence base** Results, Sections "TwinC's predictions differ systematically in A versus B compartments" and "TwinC finds transcription factors implicated in trans contacts"; Figures 4 and 5
+  - **Concern** The interpretability analyses, while interesting, lack statistical rigor. The enrichment of G-quadruplexes in predicted contacts versus non-contacts is reported with extremely small p-values (< 10^-308), which seems implausible given the sample sizes and may indicate a statistical artifact. The transcription factor enrichment analysis uses a Mann-Whitney U test on median importance scores, but the manuscript does not describe how multiple testing is corrected across 1022 motifs. The comparison of enriched versus non-enriched TFs in terms of expression, conservation, and IDRs also lacks clear statistical controls.
+  - **Why it matters** The biological interpretations are a key contribution of the paper. If the statistical analyses are flawed, the conclusions about which factors drive trans contacts may be unreliable.
+  - **Resolution test** Provide details on multiple testing correction for the TF enrichment analysis. Re-evaluate the G-quadruplex enrichment with appropriate statistical tests and report effect sizes. For the expression, conservation, and IDR comparisons, provide appropriate statistical tests with clear null hypotheses and report confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and resolution limitations
+  - **Claim pointer** The authors suggest that TwinC could be extended to model cis and trans contacts together, and that higher coverage Hi-C data will enable finer resolution modeling.
+  - **Evidence base** Discussion section
+  - **Concern** The model is only demonstrated at 100 kbp resolution for classification and 128 kbp for regression. The manuscript does not discuss the potential limitations of this resolution for capturing meaningful regulatory interactions. Many enhancer-promoter interactions occur at finer scales. The claim that the approach could be extended to cis contacts is speculative and not supported by any preliminary analysis.
+  - **Why it matters** The resolution limitation may restrict the biological utility of the model. The speculative claims about future extensions should be clearly framed as such.
+  - **Resolution test** Discuss the biological relevance of 100 kbp resolution for trans contacts. If possible, provide a preliminary analysis showing the model's performance at finer resolutions with downsampled data. Clearly distinguish between demonstrated results and speculative future directions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "TwinC achieves high predictive accuracy (AUROC=0.80)" but does not specify the tissue or the exact evaluation setup. This could be misleading.
+  - **Required correction** Specify the tissue (heart left ventricle) and clarify that this is the average AUROC across test folds.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section "Hi-C data"
+  - **Evidence pointer** Methods, Section "Hi-C data"
+  - **Issue** The exact accession numbers for the heart ventricle Hi-C data are not provided in the text, only referenced as Supplementary Data 1.
+  - **Required correction** Include the accession numbers in the main text or ensure they are clearly listed in the supplementary data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Section "TwinC's trans-contact predictions are validated with DNA SPRITE"
+  - **Evidence pointer** Figure 2
+  - **Issue** The AUROC values for the DNA SPRITE validation are reported but no confidence intervals are provided.
+  - **Required correction** Provide confidence intervals for the AUROC values or state that they are not computed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Section "TwinC architecture"
+  - **Evidence pointer** Methods, Section "TwinC architecture"
+  - **Issue** The description of the encoder and decoder is brief. The exact number of channels, kernel sizes, and dilation rates are not specified.
+  - **Required correction** Provide a table or more detailed description of the architecture hyperparameters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, Section "TwinC's predictions differ systematically in A versus B compartments"
+  - **Evidence pointer** Figure 4D
+  - **Issue** The statement "trans contacts between A compartments are most frequent, followed by contacts between B compartments, with A-to-B contacts occurring least frequently" is based on the label distribution, not on the model's predictions. This should be clarified.
+  - **Required correction** Clarify that this observation is about the distribution of labels in the test set, not about model predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (label construction) and R1-M2 (fairness of comparison) are the most critical. The label construction process must be fully specified and validated. The comparison with Orca must be made under identical conditions. Without these, the core claims of predictive accuracy and comparability are not fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The paired-sequence approach for trans contact prediction is a novel contribution. While Orca can predict trans contacts, TwinC's design is simpler and more efficient. The focus on trans contacts is timely and addresses a gap in the field.
+  - **Scientific importance** Understanding inter-chromosomal interactions is important for a complete picture of nuclear organization and gene regulation. A sequence-based predictor could be valuable for generating hypotheses and prioritizing experiments. However, the biological significance of the predictions needs to be more clearly demonstrated.
+  - **Interdisciplinary readership** The work will appeal to computational biologists, genome biologists, and potentially researchers in gene regulation. The methods are described in sufficient detail for computational readers, but the biological interpretation sections may be less accessible to non-specialists.
+  - **Technical soundness** The core modeling approach is sound, but the label construction and evaluation procedures need more rigor. The interpretability analyses require stronger statistical support. The comparison with Orca needs to be more carefully controlled.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but some sections (e.g., the detailed architecture description) may be dense for non-computational readers. The abstract and introduction are accessible. The discussion could better contextualize the findings for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the model appears to work, but the label construction and evaluation details must be clarified and strengthened. The interpretability analyses need more rigorous statistical treatment. If these issues are addressed, the manuscript could make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that TwinC "reliably predicts trans contacts" is supported by the reported AUROC values, but the reliability of the labels themselves is not fully established.
+- The claim that TwinC's performance is "close to the upper limit" of reproducibility is based on a single comparison and needs more context.
+- The biological interpretations (TF enrichment, G-quadruplex importance) are presented as findings, but the statistical support is weak and the causal relationships are not established.
+- The claim that the approach could be extended to cis contacts is speculative and not supported by any data in the manuscript.
+- The statement that "chromatin accessibility plays a role in TwinC's trans contact predictions" is based on the substitution experiment, but the experiment only shows a correlation, not causation.

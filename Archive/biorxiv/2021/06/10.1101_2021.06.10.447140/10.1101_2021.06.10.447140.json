@@ -1,0 +1,148 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.10.447140",
+  "title": "Epitome: Predicting epigenetic events in novel cell types with multi-cell deep ensemble learning",
+  "doi": "10.1101/2021.06.10.447140",
+  "abstract": "The accumulation of large epigenomics data consortiums provides us with the opportunity to extrapolate existing knowledge to new cell types and conditions. We propose Epitome, a deep neural network that learns similarities of chromatin accessibility between well characterized reference cell types and a query cellular context, and copies over signal of transcription factor binding and modification of histones from reference cell types when chromatin profiles are similar to the query. Epitome achieves state-of-the-art accuracy when predicting transcription factor binding sites on novel cellular contexts, and can further improve predictions as more epigenetic signals are collected from both reference cell types and the query cellular context of interest.",
+  "authors": [
+    "Morrow AK",
+    "Hughes JW",
+    "Singh J",
+    "Joseph AD",
+    "Yosef N"
+  ],
+  "published_date": "2021-06-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.10.447140",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.10.447140.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR355561",
+    "raw_record": {
+      "id": "PPR355561",
+      "source": "PPR",
+      "doi": "10.1101/2021.06.10.447140",
+      "title": "Epitome: Predicting epigenetic events in novel cell types with multi-cell deep ensemble learning",
+      "authorString": "Morrow AK, Hughes JW, Singh J, Joseph AD, Yosef N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Morrow AK",
+            "lastName": "Morrow",
+            "firstName": "Alyssa Kramer",
+            "initials": "AK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5102-8156"
+            }
+          },
+          {
+            "fullName": "Hughes JW",
+            "lastName": "Hughes",
+            "firstName": "John Weston",
+            "initials": "JW"
+          },
+          {
+            "fullName": "Singh J",
+            "lastName": "Singh",
+            "firstName": "Jahnavi",
+            "initials": "J"
+          },
+          {
+            "fullName": "Joseph AD",
+            "lastName": "Joseph",
+            "firstName": "Anthony Douglas",
+            "initials": "AD"
+          },
+          {
+            "fullName": "Yosef N",
+            "lastName": "Yosef",
+            "firstName": "Nir",
+            "initials": "N"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5102-8156"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The accumulation of large epigenomics data consortiums provides us with the opportunity to extrapolate existing knowledge to new cell types and conditions. We propose Epitome, a deep neural network that learns similarities of chromatin accessibility between well characterized reference cell types and a query cellular context, and copies over signal of transcription factor binding and modification of histones from reference cell types when chromatin profiles are similar to the query. Epitome achieves state-of-the-art accuracy when predicting transcription factor binding sites on novel cellular contexts, and can further improve predictions as more epigenetic signals are collected from both reference cell types and the query cellular context of interest.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/11/2021.06.10.447140.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.10.447140"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34379786",
+            "reference": "Nucleic acids research. 2021 Nov;49(19):e110",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-06-12",
+      "firstPublicationDate": "2021-06-11",
+      "firstIndexDate": "2021-06-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

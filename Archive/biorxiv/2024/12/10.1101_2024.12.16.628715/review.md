@@ -1,0 +1,108 @@
+## Review setup
+
+- **Input scope** Full manuscript text (abstract, introduction, methods, experimental setup, results, conclusions) as provided. No supplementary materials, figures, or tables were available for review.
+- **Assessment boundary** Assessment is limited to the claims and evidence presented in the provided text. Claims referencing supplementary tables, figures, or external resources are noted but cannot be independently verified.
+- **Shared manuscript claim summary** The authors propose scRegNet, a framework combining single-cell foundation models (scBERT, Geneformer, scFoundation) with graph neural networks for gene regulatory link prediction. They claim state-of-the-art performance across seven BEELINE benchmark datasets, superior robustness to noise compared to baselines, and that the integration of foundation model embeddings with graph-based learning is essential for achieving these results.
+- **Visible evidence base** Text descriptions of methods and results, including reported performance metrics in Tables 2 and 3 (values partially described in text), ablation study results (Figure 2), robustness study results (Figure 3), and GNN architecture comparison (Supplementary Table S3). Actual data values, figures, and supplementary materials were not provided.
+- **Missing materials affecting confidence** All figures and tables (Figures 1-3, Tables 1-3, Supplementary Tables S1-S3), supplementary methods sections, source code, and detailed hyperparameter settings. Statistical significance testing details and complete performance numbers are absent.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely gene regulatory network inference from single-cell data, and proposes a reasonable integration of existing foundation models with graph-based learning. The core idea is sensible and the reported results are promising. However, the provided text alone is insufficient to fully evaluate the technical soundness of the approach, the validity of the experimental comparisons, or the statistical significance of the claimed improvements. Several methodological details are missing or ambiguous, and the evidence base is incomplete without access to figures, tables, and supplementary materials. The work has potential, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics analysis, and graph-based machine learning applications in biology. Researchers interested in applying foundation models to genomics tasks would also find the work relevant, as it demonstrates a practical application of scFMs beyond cell-type annotation and similar tasks.
+- **Major strengths** The problem is well-motivated and timely, given the growing availability of scRNA-seq data and the need for accurate GRN inference. The idea of combining pre-trained foundation model embeddings with graph topology is conceptually sound and represents a sensible integration of two powerful paradigms. The evaluation across multiple datasets and against nine baselines is thorough in scope. The robustness analysis under noisy training data is a valuable addition that addresses a practical concern.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that scRegNet achieves state-of-the-art results across all seven benchmark datasets in both AUROC and AUPRC.
+  - **Evidence pointer** Tables 2 and 3, location not provided
+  - **Concern** The text reports average improvements but does not provide the full performance tables, individual dataset results, or any measure of variance or statistical significance. Without these, it is impossible to assess whether the reported improvements are consistent across datasets, whether they are statistically meaningful, or whether they fall within expected variability. The claim of "state-of-the-art" performance requires a more rigorous statistical foundation.
+  - **Why it matters** The central claim of the paper rests on the demonstrated superiority of scRegNet over baselines. Without statistical significance testing or variance estimates, the improvements could be within noise, particularly given the relatively small number of benchmark datasets.
+  - **Resolution test** Provide full performance tables with per-dataset results, standard deviations or confidence intervals across multiple runs, and statistical significance tests (e.g., paired tests across datasets) comparing scRegNet to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the integration of foundation model embeddings and graph-based learning is essential for performance, as supported by the ablation study.
+  - **Evidence pointer** Figure 2, location not provided
+  - **Concern** The ablation study is described only in text. The actual results, including the magnitude of performance drops when removing each component, are not visible. The text states that removing the GNN encoder led to a "substantial decline" and removing foundation model embeddings "impaired performance," but these qualitative descriptions are insufficient. The relative contribution of each component, whether the decline is consistent across datasets, and whether the combination is truly synergistic or simply additive are all unclear.
+  - **Why it matters** The novelty of the approach hinges on the claim that both components contribute meaningfully and that their combination is beneficial. Without quantitative ablation results, the design choice is not fully justified.
+  - **Resolution test** Provide the ablation results in a table or figure with exact AUROC and AUPRC values for each configuration, ideally across all datasets, with statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that scRegNet is more robust than baselines on noisy training data.
+  - **Evidence pointer** Figure 3, location not provided
+  - **Concern** The robustness study is described as comparing scRegNet(w/ Geneformer) against GENELink under noise levels of 1-4%. However, the text does not specify how noise was introduced beyond flipping labels, how many runs were performed, what the actual performance values were, or whether the observed differences are statistically significant. The choice of only one baseline for comparison is also limited.
+  - **Why it matters** Robustness to noisy training data is presented as a key advantage of the method. The evidence provided is insufficient to support this claim convincingly.
+  - **Resolution test** Provide the full robustness results, including performance distributions, statistical tests comparing scRegNet to multiple baselines under each noise level, and a description of the noise generation process.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the method is reproducible from the provided description and code.
+  - **Evidence pointer** Section 2 (Methods), location not provided
+  - **Concern** The methods section lacks critical implementation details. The exact architecture of the MLP link prediction layer (number of layers, hidden dimensions, dropout rate) is not specified. The GCN architecture is described only as "simple" without layer count or hidden dimensions. The process of extracting and pooling foundation model embeddings is described at a high level, but the specific implementation choices (e.g., which layer of the foundation model is used, how mean pooling is applied across cells) are not fully detailed. The training procedure (learning rate, epochs, batch size, optimization algorithm) is not described in the main text.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. The current level of detail is insufficient for another group to implement the method without significant guesswork.
+  - **Resolution test** Provide complete architectural and training details in the main text or supplementary materials, including all hyperparameters and implementation choices.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** The claim that the evaluation protocol follows established benchmarks and is fair.
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Concern** The data splitting strategy is described as per-TF, with 67% of positive and negative samples for each TF used for training and 33% for testing. However, the text also states that "this partitioning strategy prevents data leakage by ensuring that the same gene does not appear in both the training and test sets for the same TF." This statement is ambiguous. If the same gene can appear in both training and test sets for different TFs, there may be information leakage through shared genes. The relationship between the gene sets in training and test splits is not clearly defined.
+  - **Why it matters** Data leakage can inflate performance estimates and undermine the validity of the reported results. The described splitting strategy needs clarification.
+  - **Resolution test** Clarify the exact splitting procedure, including whether genes are shared between training and test sets, and justify why this does not constitute leakage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, foundation model descriptions
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The text states that all three scFMs "rely on attention-based Transformer architectures" and "employ masked language modeling," but the differences between the models are not described. The choice of three different foundation models is motivated only by a claim of exploring alternatives, without discussing their architectural differences or expected impact.
+  - **Required correction** Briefly describe the key architectural and training differences between scBERT, Geneformer, and scFoundation, and explain why these differences might lead to different performance in the downstream task.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, GCN description
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The GCN is described as "simple" and the text notes that it performs similarly to more complex GNNs. However, the specific GCN configuration (number of layers, hidden dimensions, activation functions) is not provided in the main text.
+  - **Required correction** Specify the GCN architecture in the main text or refer explicitly to the supplementary section where this information is provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1, dataset descriptions
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The text mentions that datasets are from BEELINE and lists accession numbers for GEO, but does not provide the number of cells, genes, or TFs for each dataset. This information is important for understanding the scale of the evaluation.
+  - **Required correction** Add a table or text describing the basic statistics of each dataset, including cell count, gene count, and TF count.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.1, performance reporting
+  - **Evidence pointer** Section 4.1, location not provided
+  - **Issue** The text reports average improvements of 7.4% and 6.9% in AUROC and 18.6% and 4.1% in AUPRC over GNNLink and GENELink, respectively. The phrasing is confusing, as it is unclear which improvement corresponds to which baseline.
+  - **Required correction** Clarify the reporting format, for example by stating "average AUROC improvement of 7.4% over GNNLink and 6.9% over GENELink, and average AUPRC improvement of 18.6% over GNNLink and 4.1% over GENELink."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.4, robustness study
+  - **Evidence pointer** Section 4.4, location not provided
+  - **Issue** The robustness study only compares scRegNet against GENELink. The text does not explain why other baselines were not included in this analysis.
+  - **Required correction** Justify the choice of GENELink as the only comparison in the robustness study, or include additional baselines.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical significance testing), R1-M2 (incomplete ablation evidence), R1-M3 (insufficient robustness evidence), R1-M4 (incomplete methodological detail for reproducibility).
+- **Assessment against Nature-style criteria** Originality: The combination of scFMs with GNNs for GRN inference is a reasonable and timely idea, though the individual components are established. The novelty lies in the specific integration, which is moderate. Scientific importance: GRN inference is an important problem, and improvements in accuracy are of interest to the community. However, the incremental nature of the contribution and the lack of demonstrated biological insights limit the perceived importance. Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, and would appeal to both communities, though the technical depth in either domain is not exceptional. Technical soundness: Cannot be fully assessed from the provided text. The missing statistical analyses, incomplete ablation results, and ambiguous data splitting strategy are significant concerns. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and logical structure. However, some technical details are glossed over, and the results section relies heavily on tables and figures that were not available for review.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the problem is relevant, but the current evidence base is insufficient to fully establish the claims. The authors should provide complete results with statistical analyses, detailed ablation studies, and sufficient methodological detail for reproducibility.
+
+## Risk / unsupported claims
+
+- The claim of "state-of-the-art" performance is unsupported without full results tables and statistical significance testing.
+- The claim that the integration of scFMs and GNNs is essential is not fully supported without quantitative ablation results.
+- The claim of superior robustness to noise is not fully supported without complete robustness study results and statistical comparisons.
+- The claim that the data splitting strategy prevents data leakage is ambiguous and requires clarification.
+- The claim that Geneformer and scFoundation yield "slightly better" results than scBERT is not quantified.
+- The claim that traditional methods have "limited predictive accuracy" is not supported with specific numbers in the text.
+- The claim that the framework is "novel and effective" is partially supported by the conceptual design, but effectiveness requires the full evidence base.

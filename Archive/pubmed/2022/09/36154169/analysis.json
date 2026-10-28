@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36154169",
+  "title": "Molecular Screening and Toxicity Estimation of 260,000 Perfluoroalkyl and Polyfluoroalkyl Substances (PFASs) through Machine Learning.",
+  "authors": "Lai, Thanh T; Kuntz, David; Wilson, Angela K",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-09-27",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习生成PFAS分子并筛选其与蛋白受体的结合亲和力，但对象为小分子-蛋白互作而非蛋白质-DNA互作，且无TF-DNA结合建模，仅方法上分子对接/MD可部分借鉴，故评分低。",
+  "abstract": "Perfluoroalkyl and polyfluoroalkyl substances (PFASs) are a class of chemicals widely used in industrial applications due to their exceptional properties and stability. However, they do not readily degrade in the environment and are linked to contamination and adverse health effects in humans and wildlife. To find alternatives for the most commonly used PFAS molecules that maintain their desirable chemical properties but are not adverse to biological lifeforms, a novel approach based upon machine learning is utilized. The machine learning model is trained on an existing set of PFAS molecules to generate over 260,000 novel PFAS molecules, which we dub PFAS-AI-Gen. Using molecular descriptors with known relationships to toxicity and industrial suitability followed by molecular docking and molecular dynamics simulations, this set of molecules is screened. In this manner, increasingly complex calculations are performed only for candidate molecules that are most likely to yield the desired properties of low binding affinity toward two selected protein receptors, the human pregnane x receptor (hPXR) and peroxisome proliferator-activated receptor gamma (PPAR-gamma), and high industrial suitability, defined by critical micelle concentration (CMC). The selection criteria of low binding affinity and high industrial suitability are relative to the popular PFAS alternative GenX. hPXR and PPAR-gamma are selected as they are PFAS targets and facilitate a variety of functions, such as drug metabolism and glucose regulation, respectively. Through this approach, 22 promising new PFAS substitutes that may warrant experimental investigation are identified. This integrated approach of molecular screening and toxicity estimation may be applicable to other chemical classes.",
+  "abstract_zh": "全氟烷基和多氟烷基物质（PFASs）是一类因其优异特性和稳定性而在工业应用中广泛使用的化学品。然而，它们在环境中不易降解，并与污染及对人类和野生动物的不良健康影响相关。为了寻找最常用PFAS分子的替代品，这些替代品需保持其理想的化学性质但对生物体无害，采用了一种基于机器学习的新方法。机器学习模型在现有PFAS分子集上训练，生成了超过260,000个新型PFAS分子，我们将其命名为PFAS-AI-Gen。利用与毒性和工业适用性已知关系的分子描述符，随后通过分子对接和分子动力学 (molecular dynamics) 模拟，对该分子集进行筛选。通过这种方式，仅对最有可能产生所需特性的候选分子执行日益复杂的计算，这些特性包括对两个选定蛋白受体——人孕烷X受体（hPXR）和过氧化物酶体增殖物激活受体γ（PPAR-gamma）——的低结合亲和力，以及由临界胶束浓度（CMC）定义的高工业适用性。低结合亲和力和高工业适用性的选择标准是相对于流行的PFAS替代品GenX而言的。hPXR和PPAR-gamma被选中，因为它们分别是PFAS的靶标，并促进多种功能，如药物代谢和葡萄糖调节。通过这种方法，识别出22种可能值得实验研究的新型PFAS替代品。这种分子筛选和毒性评估的集成方法可能适用于其他化学类别。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36154169/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36154169/",
+  "paper_page_path": "papers/pubmed/36154169/index.html"
+}

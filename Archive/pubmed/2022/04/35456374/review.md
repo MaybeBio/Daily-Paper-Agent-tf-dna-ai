@@ -1,0 +1,43 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the author.
+- **Assessment boundary** Scientific validity, technical soundness, clarity, and reproducibility of the claims based solely on the supplied text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose SemanticCAP, a chromatin accessibility prediction model that integrates features from a DNA language model with a convolutional and transformer-based architecture. They claim improved performance over existing methods (gkm-SVM, DeepSEA, k-mer) on DNase-seq data from six cell lines, and introduce two feature fusion techniques, SFA and SFC, which they argue are smoother, faster, and more effective than standard concatenation or addition.
+- **Visible evidence base** The manuscript includes descriptions of model architecture, data processing, and evaluation metrics (auROC, auPRC). Results are presented in Tables 2-4 and Figures 4-8, though the actual data values are not fully visible in the provided text. Theoretical justifications for SFA and SFC are referenced as Theorems and Corollaries, but their proofs are not included.
+- **Missing materials affecting confidence** The full text of the theorems and corollaries, detailed proofs, hyperparameter settings, training details, and the actual numerical results in Tables 2-4 are not provided. The code repository is mentioned but not accessible for verification. This limits the ability to fully assess the technical soundness and reproducibility of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in genomics with a novel application of language models. The core idea is interesting and potentially impactful. However, the current presentation has significant gaps in the theoretical and experimental details, which prevent a full evaluation of the claims. The performance improvements over baselines are modest, and the lack of detailed results and statistical significance testing weakens the conclusions. The manuscript would benefit from a more rigorous and complete presentation of the methods and results.
+- **Who would be interested in the results, and why** Researchers in computational genomics, specifically those working on regulatory genomics, chromatin state prediction, and the application of deep learning and language models to biological sequences. The work is also relevant to those interested in novel feature fusion techniques for neural networks.
+- **Major strengths**
+    - The application of a language model to capture contextual information in DNA sequences is a timely and relevant idea.
+    - The proposed SFA and SFC methods are conceptually interesting and address a real problem of feature fusion in deep learning.
+    - The use of character-level input avoids the information loss associated with k-mer based approaches.
+    - The model is designed to handle long sequences, a known limitation of many existing methods.
+- **Major Concerns**
+    - **R1-M1** (Blocking): The theoretical foundation for the core claims is not verifiable from the provided text. The manuscript refers to Theorems 1-4 and Corollaries 1-3 to justify the SFA and SFC methods, but the statements and proofs of these are not included. This makes it impossible to assess the validity of the central methodological contributions.
+    - **R1-M2** (Blocking): The reported performance improvements are marginal and lack statistical context. The maximum improvement in auROC is 1.25% and in auPRC is 2.41% over the best baseline. The manuscript does not report variance, confidence intervals, or significance tests, making it unclear if these differences are meaningful. The average improvement over gkm-SVM and DeepSEA is stated as 2-3%, but the basis for this is not detailed.
+    - **R1-M3** (Blocking): The evaluation methodology is incomplete. The manuscript does not describe the cross-cell-line training and testing protocol. It is unclear if the model is trained and tested on the same cell line, or if there is a transfer learning component. The selection of negative samples is mentioned as a limitation, but the potential biases this introduces are not discussed.
+    - **R1-M4** (Major): The claim that the language model provides "complex environmental information" is not well-supported. The manuscript does not provide a detailed analysis of what the language model learns or how its features specifically contribute to the improved performance beyond the overall model architecture.
+- **Minor Comments**
+    - **R1-m1** (Axis: Clarity): The introduction is overly broad and includes irrelevant information about drug-DNA interactions that is not central to the method. The connection to drug design is mentioned but not developed.
+    - **R1-m2** (Axis: Reproducibility): The hyperparameter settings for the model are not provided. Details such as the number of transformer layers, attention heads, hidden dimensions, learning rate, and batch size are missing.
+    - **R1-m3** (Axis: Presentation): The manuscript contains several incomplete sentences and references to "the above corollary" and "the above theorem" without clear context, suggesting that sections of the text are missing or out of order.
+    - **R1-m4** (Axis: Technical Soundness): The description of the SFC method is confusing. It is stated that SFA is for same-dimension features and SFC for different dimensions, but the text in Section 3.2.1 refers to Theorem 2 for SFC, which is not clearly distinguished from the SFA proof.
+- **Technical failings that need to be addressed before the case is established**
+    - Missing statements and proofs of Theorems 1-4 and Corollaries 1-3.
+    - Lack of detailed experimental setup, including hyperparameters and training/validation/test splits.
+    - Absence of statistical analysis (e.g., standard deviation, confidence intervals, significance tests) for the reported performance metrics.
+    - Incomplete description of the negative sample selection process and its potential impact on results.
+- **Assessment against Nature-style criteria**
+    - **Originality**: The idea of using a language model for chromatin accessibility prediction is a novel contribution. The SFA and SFC methods, if proven valid, would also be original contributions to feature fusion.
+    - **Scientific importance**: Chromatin accessibility is a key regulatory mechanism, and improved prediction methods are of significant interest. However, the modest performance gains over existing methods, if not robust, may limit the immediate impact.
+    - **Interdisciplinary readership**: The work is primarily of interest to computational biologists and bioinformaticians. The presentation is technical and may not be easily accessible to a broader biological audience without more context on the methods.
+    - **Technical soundness**: The technical soundness cannot be fully assessed due to the missing theoretical proofs and experimental details. The described architecture is plausible, but the core claims are not verifiable.
+    - **Readability for nonspecialists**: The manuscript is not easily readable for nonspecialists. The introduction is broad, but the methods section is dense and assumes significant prior knowledge of deep learning and genomics.
+- **Recommendation posture** Currently not established from the provided evidence. The core methodological claims are unverifiable, and the experimental results lack the necessary detail and statistical rigor to support the conclusions. The manuscript has potential, but it requires substantial revision and completion before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that SFA and SFC are "smoother, faster, and better" than standard methods is not supported by the provided evidence, as the theoretical proofs and detailed experimental comparisons are missing.
+- The claim that the language model provides "complex environmental information" is not substantiated with specific analyses.
+- The claim that the model can be used as an "effective alternative to biological sequencing methods" is an overstatement based on the limited performance improvements reported.
+- The specific performance numbers (e.g., 1.25% auROC, 2.41% auPRC) are presented without context or statistical validation, making them unreliable as evidence.

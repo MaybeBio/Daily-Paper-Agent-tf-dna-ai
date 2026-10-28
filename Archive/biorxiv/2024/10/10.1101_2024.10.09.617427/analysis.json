@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.09.617427",
+  "title": "DeepAllo: Allosteric Site Prediction using Protein Language Model (pLM) with Multitask Learning",
+  "authors": "Moaaz Khokhar; Ozlem Keskin; Attila Gursoy",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-13",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用蛋白质语言模型预测变构位点，虽涉及蛋白功能与口袋预测，但对象非蛋白质-DNA互作，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Allostery, the process by which binding at one site perturbs a distant site, is being rendered as a key focus in the field of drug development with its substantial impact on protein function. The identification of allosteric pockets (sites) is a challenging task and several techniques have been developed, including Machine Learning (ML) to predict allosteric pockets that utilize both static and pocket features. Our work, DeepAllo, is the first study that combines fine-tuned protein language model (pLM) with FPocket features and shows an increase in prediction performance of allosteric sites over previous studies. The pLM model was fine-tuned on Allosteric Dataset (ASD) in Multitask Learning (MTL) setting and was further used as a feature extractor to train XGBoost and AutoML models. The best model predicts allosteric pockets with 89.66% F1 score and 90.5% of allosteric pockets in the top 3 positions, outperforming previous results. A case study has been performed on proteins with known allosteric pockets, which shows the proof of our approach. Moreover, an effort was made to explain the pLM by visualizing its attention mechanism among allosteric and non-allosteric residues.",
+  "abstract_zh": "别构调节（allostery）是指在一个位点结合会扰动远处位点的过程，因其对蛋白质功能的显著影响，正成为药物开发领域的关键焦点。识别别构口袋（位点）是一项具有挑战性的任务，目前已开发出多种技术，包括利用静态特征和口袋特征的机器学习（ML）来预测别构口袋。我们的工作DeepAllo是首个将微调后的蛋白质语言模型（pLM）与FPocket特征相结合的研究，并在别构位点预测性能上较以往研究有所提升。pLM模型在多任务学习（MTL）设置下于别构数据集（ASD）上进行微调，并进一步用作特征提取器来训练XGBoost和AutoML模型。最佳模型以89.66%的F1分数预测别构口袋，且90.5%的别构口袋位于前3个位置，优于先前结果。我们对已知别构口袋的蛋白质进行了案例研究，证明了我们方法的有效性。此外，我们还通过可视化pLM在别构和非别构残基间的注意力机制，努力解释该模型。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.09.617427",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.09.617427",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.09.617427/index.html"
+}

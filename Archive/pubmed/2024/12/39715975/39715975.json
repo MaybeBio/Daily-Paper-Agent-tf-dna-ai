@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "39715975",
+    "doi": "10.1007/s11030-024-11067-5",
+    "title": "Identification of STAT3 phosphorylation inhibitors using generative deep learning, virtual screening, molecular dynamics simulations, and biological evaluation for non-small cell lung cancer therapy."
+  },
+  "content": {
+    "abstract": "The development of phosphorylation-suppressing inhibitors targeting Signal Transducer and Activator of Transcription 3 (STAT3) represents a promising therapeutic strategy for non-small cell lung cancer (NSCLC). In this study, a generative model was developed using transfer learning and virtual screening, leveraging a comprehensive dataset of STAT3 inhibitors to explore the chemical space for novel candidates. This approach yielded a chemically diverse library of compounds, which were prioritized through molecular docking and molecular dynamics (MD) simulations. Among the identified candidates, the HG110 molecule demonstrated potent suppression of STAT3 phosphorylation at Tyr705 and inhibited its nuclear translocation in IL6-stimulated H441 cells. Rigorous MD simulations further confirmed the stability and interaction profiles of top candidates within the STAT3 binding site. Notably, HG106 and HG110 exhibited superior binding affinities and stable conformations, with favorable interactions involving key residues in the STAT3 binding pocket, outperforming known inhibitors. These findings underscore the potential of generative deep learning to expedite the discovery of selective STAT3 inhibitors, providing a compelling pathway for advancing NSCLC therapies.",
+    "keywords": [
+      "Apoptosis",
+      "Drug design",
+      "Molecular dynamics",
+      "NSCLC",
+      "Signal transducer and activator of transcription 3"
+    ],
+    "mesh_terms": [
+      "*STAT3 Transcription Factor/antagonists & inhibitors/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/metabolism",
+      "*Deep Learning",
+      "*Lung Neoplasms/drug therapy/metabolism",
+      "Phosphorylation/drug effects",
+      "Molecular Docking Simulation",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Cell Line, Tumor",
+      "Binding Sites",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Weiji",
+        "Jiang, Beier",
+        "Yin, Yichen",
+        "Ma, Lei",
+        "Li, Tao",
+        "Chen, Jing"
+      ],
+      "short_names": [
+        "Cai W",
+        "Jiang B",
+        "Yin Y",
+        "Ma L",
+        "Li T",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China.",
+        "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China.",
+        "Navy Medical Research Institute, Naval Medical University, Shanghai, 200433, China.",
+        "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China.",
+        "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China.",
+        "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China.",
+        "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China.",
+        "Department of Oncology, General Hospital of the Ningxia Medical University, Yinchuan, 750004, China. lit1979@163.com.",
+        "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China. chenjing1979@163.com.",
+        "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China. chenjing1979@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Weiji",
+        "short_name": "Cai W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China.",
+          "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Beier",
+        "short_name": "Jiang B",
+        "identifiers": [],
+        "affiliations": [
+          "Navy Medical Research Institute, Naval Medical University, Shanghai, 200433, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Yichen",
+        "short_name": "Yin Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China.",
+          "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lei",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China.",
+          "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, General Hospital of the Ningxia Medical University, Yinchuan, 750004, China. lit1979@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Ningxia Medical University, 1160 Shengli Road, Yinchuan, 750004, Ningxia, China. chenjing1979@163.com.",
+          "Key Laboratory of Fertility Maintenance Ministry of Education, Ningxia Medical University, Yinchuan, 750004, Ningxia, China. chenjing1979@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/24 00:25",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42570925",
+      "40762380",
+      "39495448"
+    ],
+    "refs": [
+      "39681599",
+      "39237523",
+      "39198663",
+      "39058534",
+      "38739718",
+      "38559310",
+      "38444159",
+      "38317535",
+      "38273387",
+      "38230766",
+      "38197815",
+      "38190703",
+      "38128751",
+      "37870976",
+      "37776682",
+      "36879825",
+      "36721234",
+      "36578083",
+      "36371441",
+      "36000759",
+      "35994220",
+      "35582610",
+      "35534623",
+      "35491960",
+      "35339849",
+      "35289358",
+      "35176458",
+      "34985992",
+      "34586726",
+      "34483461",
+      "34333418",
+      "34170703",
+      "34059647",
+      "34048487",
+      "33316418",
+      "33305182",
+      "33175991",
+      "32980443",
+      "31783061",
+      "31715132",
+      "30746758",
+      "30185178",
+      "29405201",
+      "28584133",
+      "28097912",
+      "25342631",
+      "25143259",
+      "24563257",
+      "23638140",
+      "20067773",
+      "19851315",
+      "18510993",
+      "18452692"
+    ],
+    "similar": [
+      "39715975",
+      "40142069",
+      "31080186",
+      "31115519",
+      "25777967",
+      "31847229",
+      "33122847",
+      "19274102",
+      "33932608",
+      "33391507",
+      "40070330",
+      "39786519",
+      "24736071",
+      "29158850",
+      "28397855",
+      "23880305",
+      "26843613",
+      "40758628",
+      "19569236",
+      "26410177",
+      "40121769",
+      "29234062",
+      "24661007",
+      "37715109",
+      "17549413",
+      "33126089",
+      "33091599",
+      "33689932",
+      "39425858",
+      "30243717",
+      "34987637",
+      "38844957",
+      "23526220",
+      "37254309",
+      "39627783",
+      "25083589",
+      "22899991",
+      "31412593",
+      "29174507",
+      "29414668",
+      "31048139",
+      "32240456",
+      "25710482",
+      "34000483",
+      "40239488",
+      "39931859",
+      "31499589",
+      "21311975",
+      "32022328",
+      "28588262",
+      "39639019",
+      "26166037",
+      "16278387",
+      "26904961",
+      "21406185",
+      "21549414",
+      "21360612",
+      "27264264",
+      "24845028",
+      "31069881",
+      "35807344",
+      "32112605",
+      "23651330",
+      "39078025",
+      "23434226",
+      "39647392",
+      "20072652",
+      "40694904",
+      "29493460",
+      "25134459",
+      "31254923",
+      "31100681",
+      "21225866",
+      "34396444",
+      "25695284",
+      "35831728",
+      "40076971",
+      "28656237",
+      "39198663",
+      "39208642",
+      "28521301",
+      "23968501",
+      "41253052",
+      "36374556",
+      "31115521",
+      "23207637",
+      "17824789",
+      "31454149",
+      "40738921",
+      "34559878",
+      "27783972",
+      "38950838",
+      "40706931",
+      "40966776",
+      "25320076",
+      "34170703",
+      "38294206",
+      "29073599",
+      "39939568",
+      "34416096"
+    ],
+    "review": [
+      "39715975",
+      "34170703"
+    ],
+    "pmc": [
+      "12245994"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39715975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s11030-024-11067-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

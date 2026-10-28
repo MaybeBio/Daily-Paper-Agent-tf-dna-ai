@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35799660",
+  "title": "Comparative Analysis on Alignment-Based and Pretrained Feature Representations for the Identification of DNA-Binding Proteins.",
+  "authors": "Chen, Die; Zhang, Hua; Chen, Zeqi; Xie, Bo; Wang, Ye",
+  "journal": "Computational and mathematical methods in medicine",
+  "published_date": "2022-07-09",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文比较PSSM与预训练ESM特征在DNA结合蛋白分类中的表现，虽涉及蛋白-DNA互作预测，但聚焦于序列特征分类而非TF-DNA结合机制建模，方法可迁移但深度有限。",
+  "abstract": "The interaction between DNA and protein is vital for the development of a living body. Previous numerous studies on in silico identification of DNA-binding proteins (DBPs) usually include features extracted from the alignment-based (pseudo) position-specific scoring matrix (PSSM), leading to limited application due to its time-consuming generation. Few researchers have paid attention to the application of pretrained language models at the scale of evolution to the identification of DBPs. To this end, we present comprehensive insights into a comparison study on alignment-based PSSM and pretrained evolutionary scale modeling (ESM) representations in the field of DBP classification. The comparison is conducted by extracting information from PSSM and ESM representations using four unified averaging operations and by performing various feature selection (FS) methods. Experimental results demonstrate that the pretrained ESM representation outperforms the PSSM-derived features in a fair comparison perspective. The pretrained feature presentation deserves wide application to the area of in silico DBP identification as well as other function annotation issues. Finally, it is also confirmed that an ensemble scheme by aggregating various trained FS models can significantly improve the classification performance of DBPs.",
+  "abstract_zh": "DNA与蛋白质之间的相互作用对于生物体的发育至关重要。以往大量关于DNA结合蛋白（DBPs）的计算机模拟识别研究通常包括从基于比对的（伪）位置特异性评分矩阵（PSSM）中提取的特征，但由于其生成耗时，应用受到限制。很少有研究者关注在进化尺度上预训练语言模型在DBP识别中的应用。为此，我们针对基于比对的PSSM与预训练进化尺度建模（ESM）表示在DBP分类领域的比较研究，提供了全面的见解。该比较通过使用四种统一的平均操作从PSSM和ESM表示中提取信息，并执行各种特征选择（FS）方法来进行。实验结果表明，在公平比较的视角下，预训练的ESM表示优于PSSM衍生的特征。预训练特征表示值得在计算机模拟DBP识别及其他功能注释领域广泛应用。最后，还证实了通过聚合各种训练好的FS模型的集成方案能显著提高DBP的分类性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35799660/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35799660/",
+  "paper_page_path": "papers/pubmed/35799660/index.html"
+}

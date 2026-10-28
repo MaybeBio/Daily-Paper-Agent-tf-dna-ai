@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "42032608",
+    "doi": "10.1186/s13019-026-04107-8",
+    "title": "Identification of lipid metabolism-related biomarkers in familial hypercholesterolemia via integrated bioinformatics and machine learning approaches."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Familial hypercholesterolemia (FH) is a genetic disorder characterized by imbalances in lipid metabolism, markedly increasing cardiovascular risk. Identifying lipid metabolism-related biomarkers is essential for understanding FH pathogenesis and developing therapeutic strategies. METHODS: A comprehensive bioinformatics analysis was conducted using 776 lipid metabolism-related genes (LMRGs) from the MSigDB database and the GSE6054 dataset containing 10 FH and 13 healthy samples. Differentially expressed genes (DEGs) intersected with LMRGs to obtain candidate genes, followed by random forest and SVM-RFE machine learning to identify key biomarkers. Functional enrichment, subcellular localization, co-expression, transcription factor (TF) prediction, ceRNA network, and drug screening were subsequently performed. RESULTS: We identified 429 DEGs and 13 candidate genes, refined to six key genes (STAR, GRHL1, BZRAP1, LGMN, PLA2G4D, PLA2G12B). ROC analysis demonstrated that all six key genes exhibited AUC values greater than 0.7, underscoring their diagnostic potential. Functional enrichment further revealed significant associations with the ribosome and spliceosome pathways. Subcellular localization suggested mitochondrial and extracellular functions. Co-expression showed a significant positive correlation between GRHL1 and PLA2G12B. TF prediction revealed 17 TF-gene interactions, while ceRNA analysis outlined regulatory relationships. Drug prediction identified 224 potential therapeutic compounds, with STAR showing the most interactions. CONCLUSION: This study highlights six lipid metabolism-related biomarkers in FH through integrated bioinformatics and machine learning. These findings provide new insights into FH mechanisms and potential therapeutic targets.",
+    "keywords": [
+      "Biomarkers",
+      "Familial hypercholesterolemia",
+      "Lipid metabolism",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Lipid Metabolism/genetics",
+      "*Hyperlipoproteinemia Type II/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Long, Linji",
+        "Zhu, Baosheng",
+        "Lv, Tao"
+      ],
+      "short_names": [
+        "Long L",
+        "Zhu B",
+        "Lv T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Kunming University of Science and Technology, Kunming, China.",
+        "School of Medicine, Kunming University of Science and Technology, Kunming, China. baoshengzhu2024@163.com.",
+        "Department of Medical Genetics, National Health Commission Key Laboratory of Healthy Birth and Birth Defects Prevention and Control in Western China, Key Laboratory of Birth Defects and Genetic Diseases of Yunnan Province, The First People's Hospital of Yunnan Province, Kunming University of Science and Technology Affiliated Hospital, Kunming, China. baoshengzhu2024@163.com.",
+        "School of Medicine, Kunming University of Science and Technology, Kunming, China. taolv851109@126.com.",
+        "Department of Medical Genetics, National Health Commission Key Laboratory of Healthy Birth and Birth Defects Prevention and Control in Western China, Key Laboratory of Birth Defects and Genetic Diseases of Yunnan Province, The First People's Hospital of Yunnan Province, Kunming University of Science and Technology Affiliated Hospital, Kunming, China. taolv851109@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Long, Linji",
+        "short_name": "Long L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Kunming University of Science and Technology, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Baosheng",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Kunming University of Science and Technology, Kunming, China. baoshengzhu2024@163.com.",
+          "Department of Medical Genetics, National Health Commission Key Laboratory of Healthy Birth and Birth Defects Prevention and Control in Western China, Key Laboratory of Birth Defects and Genetic Diseases of Yunnan Province, The First People's Hospital of Yunnan Province, Kunming University of Science and Technology Affiliated Hospital, Kunming, China. baoshengzhu2024@163.com."
+        ]
+      },
+      {
+        "full_name": "Lv, Tao",
+        "short_name": "Lv T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Kunming University of Science and Technology, Kunming, China. taolv851109@126.com.",
+          "Department of Medical Genetics, National Health Commission Key Laboratory of Healthy Birth and Birth Defects Prevention and Control in Western China, Key Laboratory of Birth Defects and Genetic Diseases of Yunnan Province, The First People's Hospital of Yunnan Province, Kunming University of Science and Technology Affiliated Hospital, Kunming, China. taolv851109@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cardiothoracic surgery"
+    ],
+    "journal_abbrev": [
+      "J Cardiothorac Surg"
+    ],
+    "pub_date": "2026 Apr 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/25 00:34",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41162974",
+      "40432692",
+      "39490928",
+      "38977723",
+      "38890389",
+      "38782647",
+      "38501595",
+      "38453914",
+      "37928522",
+      "37501168",
+      "36653905",
+      "36624055",
+      "36193326",
+      "35751589",
+      "35430895",
+      "35118903",
+      "35101175",
+      "35047599",
+      "34927766",
+      "34804955",
+      "34557778",
+      "34491907",
+      "33611340",
+      "33585208",
+      "33484117",
+      "33419465",
+      "33340009",
+      "33316266",
+      "33024988",
+      "32978834",
+      "32439005",
+      "31385464",
+      "31242752",
+      "30388787",
+      "30185958",
+      "29886071",
+      "29784041",
+      "29219151",
+      "28994020",
+      "28984319",
+      "28733035",
+      "28007146",
+      "27357931",
+      "26807644",
+      "26602562",
+      "26069269",
+      "25946105",
+      "25675507",
+      "25605792",
+      "25579119",
+      "25537655",
+      "24892180",
+      "24203995",
+      "24132163",
+      "23791484",
+      "23730531",
+      "23690440",
+      "23376425",
+      "22912808",
+      "22051552",
+      "20093140",
+      "19891795",
+      "19040724",
+      "18613948",
+      "18377911",
+      "15480430",
+      "14597658",
+      "12946237",
+      "10748113",
+      "209238"
+    ],
+    "similar": [
+      "42032608",
+      "39507054",
+      "39855613",
+      "41432483",
+      "41146237",
+      "41052072",
+      "42509823",
+      "40374840",
+      "41044520",
+      "40374866",
+      "40070840",
+      "41703488",
+      "40830558",
+      "40367892",
+      "40598145",
+      "40819095",
+      "41479901",
+      "41665627",
+      "39142001",
+      "41422136",
+      "38767974",
+      "37930112",
+      "32938406",
+      "42123445",
+      "39578562",
+      "40406126",
+      "42292668",
+      "40304918",
+      "41006883",
+      "41909133",
+      "41300841",
+      "38649912",
+      "41214111",
+      "42397093",
+      "41291841",
+      "40165133",
+      "41137290",
+      "39509434",
+      "41508240",
+      "41316541",
+      "41115648",
+      "40328901",
+      "39396400",
+      "42015036",
+      "38691241",
+      "39697326",
+      "41962331",
+      "40207230",
+      "42313235",
+      "42306043",
+      "42537010",
+      "41080564",
+      "41731716",
+      "39375405",
+      "41388523",
+      "41638276",
+      "41781900",
+      "38863714",
+      "41200172",
+      "40360670",
+      "40751069",
+      "39559355",
+      "38291374",
+      "38951833",
+      "42338983",
+      "38637751",
+      "40340571",
+      "39293329",
+      "41320776",
+      "42274933",
+      "40421012",
+      "41816328",
+      "38046983",
+      "37480069",
+      "40313958",
+      "39524444",
+      "41560007",
+      "42123756",
+      "39875572",
+      "40453984",
+      "40244055",
+      "41716396",
+      "42302029",
+      "42363518",
+      "40294966",
+      "42051519",
+      "40901474",
+      "40635026",
+      "39747316",
+      "42225708",
+      "42139760",
+      "42247642",
+      "42568355",
+      "42358997",
+      "40614927",
+      "41858783",
+      "41359645",
+      "42064079",
+      "39953122",
+      "41013556"
+    ],
+    "review": [
+      "42032608",
+      "41665627"
+    ],
+    "pmc": [
+      "13251168"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cardiothoracicsurgery.biomedcentral.com/articles/10.1186/s13019-026-04107-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42032608/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

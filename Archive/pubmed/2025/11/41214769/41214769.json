@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "41214769",
+    "doi": "10.1186/s40001-025-03355-z",
+    "title": "Lactylation modulates immune infiltration in sepsis-induced acute respiratory distress syndrome: a multi-omics and machine learning study with experimental confirmation."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To investigate lactylation-driven mechanisms in the pathogenesis of sepsis-induced acute respiratory distress syndrome (ARDS). METHODS: Multi-cohort transcriptomic data sets (GSE10474, GSE32707, and GSE66890) were integrated with machine learning algorithms (LASSO, support vector machine, random forest) to identify differentially expressed lactylation-related genes (LRGs). Five hub genes (ALDH1A1, CALM1, CCNA2, HIST1H2BN, SH3GL1) were prioritized. Orthogonal experimental validation was performed using qRT-PCR and Western blotting. Subsequent analyses explored immune cell correlations (focusing on ALDH1A1), regulatory networks (transcription factors and miRNAs), and potential therapeutic drug candidates. RESULTS: Integration of bioinformatics analyses identified 25 differentially expressed LRGs and prioritized 5 hub genes. Experimental validation (qRT-PCR/Western blot) consistently demonstrated downregulation of all five hub gene proteins. Notably, this contradicted the bioinformatically predicted upregulation of CCNA2, HIST1H2BN, and SH3GL1, revealing a significant transcriptional-translational discordance. Further analysis revealed ALDH1A1-associated myeloid-derived suppressor cell and neutrophil correlations, a regulatory network comprising 68 transcription factors and 79 miRNAs, and 26 prioritized drug candidates. CONCLUSIONS: This study establishes a protein-verified lactylation-related gene signature with diagnostic relevance for sepsis-induced ARDS. Crucially, it highlights post-transcriptional regulation, evidenced by the discordance between mRNA levels and protein expression of key hub genes, as a key mechanistic feature in the pathogenesis of this condition. The identified regulatory networks and drug candidates provide potential avenues for further research and therapeutic development.",
+    "keywords": [
+      "Acute respiratory distress syndrome",
+      "Immune cell infiltration",
+      "Machine learning",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Respiratory Distress Syndrome/etiology/immunology/metabolism/genetics",
+      "*Sepsis/complications/immunology/genetics",
+      "*Machine Learning",
+      "Computational Biology",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "MicroRNAs/genetics",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Suo, Tao",
+        "Xu, Mengmeng",
+        "Fang, Jin"
+      ],
+      "short_names": [
+        "Suo T",
+        "Xu M",
+        "Fang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230001, Anhui, China.",
+        "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230001, Anhui, China.",
+        "Department of Pathophysiology, School of Basic Medical College, Anhui Medical University, Hefei, 230001, Anhui, China. fangjin1123@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Suo, Tao",
+        "short_name": "Suo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230001, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Mengmeng",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, 230001, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Jin",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Basic Medical College, Anhui Medical University, Hefei, 230001, Anhui, China. fangjin1123@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Nov 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/11 06:32",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [
+      "42583373",
+      "42459694",
+      "42253924",
+      "41639505",
+      "41491575"
+    ],
+    "refs": [
+      "39725008",
+      "39662177",
+      "39591828",
+      "39522689",
+      "39378613",
+      "39367086",
+      "39325940",
+      "39150884",
+      "38812044",
+      "38800962",
+      "38776679",
+      "38703555",
+      "38635101",
+      "38421312",
+      "37700323",
+      "37691951",
+      "36583025",
+      "36266722",
+      "36081996",
+      "36070787",
+      "35814382",
+      "35026957",
+      "34599691",
+      "34537918",
+      "34262953",
+      "33909917",
+      "33611340",
+      "33495945",
+      "33404829",
+      "33378765",
+      "33240489",
+      "33171939",
+      "33064138",
+      "31923393",
+      "30464634",
+      "30464611",
+      "30256406",
+      "30051220",
+      "29180183",
+      "28099388",
+      "27871277",
+      "21508971",
+      "17891140"
+    ],
+    "similar": [
+      "41214769",
+      "40849369",
+      "39763654",
+      "40055592",
+      "40375981",
+      "40068062",
+      "35844622",
+      "40504273",
+      "40596702",
+      "40892227",
+      "40050379",
+      "40263316",
+      "39283066",
+      "41013727",
+      "41142807",
+      "40129981",
+      "41504052",
+      "38868781",
+      "37822934",
+      "41221285",
+      "39512836",
+      "41323394",
+      "40898483",
+      "41254473",
+      "41080564",
+      "40634559",
+      "41235230",
+      "40591166",
+      "34898369",
+      "41109923",
+      "40313967",
+      "38423372",
+      "41006883",
+      "34393665",
+      "40362669",
+      "40374866",
+      "38863714",
+      "37700323",
+      "39170609",
+      "36169246",
+      "40274894",
+      "41424060",
+      "41246341",
+      "39139563",
+      "41107929",
+      "40261442",
+      "41052072",
+      "37740761",
+      "40845479",
+      "40259224",
+      "38656728",
+      "35222683",
+      "40612938",
+      "40808948",
+      "35538832",
+      "40997906",
+      "40552285",
+      "38291374",
+      "39588141",
+      "41145553",
+      "37261353",
+      "40406126",
+      "39142001",
+      "41327289",
+      "41019083",
+      "40914702",
+      "37336980",
+      "33904373",
+      "41044520",
+      "39481313",
+      "40868258",
+      "40697417",
+      "41137290",
+      "40830558",
+      "38711508",
+      "41325315",
+      "40196107",
+      "40589764",
+      "40973872",
+      "39586719",
+      "41224720",
+      "40768057",
+      "40685483",
+      "40918403",
+      "40296690",
+      "40216809",
+      "39489224",
+      "40404675",
+      "41306613",
+      "41099090",
+      "41237469",
+      "39026663",
+      "33280594",
+      "41310117",
+      "38690269",
+      "39080525",
+      "39238187",
+      "37115484",
+      "39735547",
+      "40083558"
+    ],
+    "review": [
+      "41214769"
+    ],
+    "pmc": [
+      "12604238"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03355-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41214769/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3632",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

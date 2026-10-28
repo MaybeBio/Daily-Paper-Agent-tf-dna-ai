@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "40177399",
+    "doi": "10.1155/mi/5790261",
+    "title": "Heterogeneity of Neutrophils and Immunological Function in Neonatal Sepsis: Analysis of Molecular Subtypes Based on Hypoxia-Glycolysis-Lactylation."
+  },
+  "content": {
+    "abstract": "Objective: Hypoxia-glycolysis-lactylation (HGL) may play a crucial role in neonatal sepsis (NS). This study aims to identify HGL marker genes in NS and explore immune microenvironment among NS subtypes. Materials and Methods: The gene expression dataset GSE69686, comprising 64 NS cases and 85 controls, was selected for analysis. Based on the screened HGL-related marker genes, diagnostic prediction models were constructed using nine machine learning algorithms, and molecular subtypes of NS were identified through consensus clustering. Subsequently, the heterogeneity of biological functions and immune cell infiltration among the different subtypes was analyzed. Finally, the marker genes and lactylation were validated using the GSE25504 dataset, clinical samples, and mouse neutrophil, respectively. Results: MERTK, HK3, PGK1, and STAT3 were identified and validated as marker genes, and the diagnostic prediction model for NS constructed using the support vector machine (SVM) algorithm exhibited optimal predictive performance. Based on gene expression patterns, two distinct NS subtypes were identified. Functional enrichment analysis highlighted significant immune-related pathways, while immune infiltration analysis revealed differences in neutrophil proportions between the subtypes. Furthermore, the expression levels of marker genes were positively correlated with neutrophil infiltration. Importantly, the experimental validation results were consistent with the findings from the bioinformatics analysis. Conclusion: This study identified the distinct NS subtypes and their associated marker genes. These findings will contribute to elucidating the disease's heterogeneity and establishing appropriate personalized therapeutic approaches.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neutrophils/metabolism/immunology",
+      "Mice",
+      "Infant, Newborn",
+      "Animals",
+      "*Neonatal Sepsis/immunology/metabolism",
+      "*Glycolysis/physiology/genetics",
+      "Computational Biology",
+      "Support Vector Machine",
+      "*Hypoxia/metabolism",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "c-Mer Tyrosine Kinase/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Huabin",
+        "Yang, Ru",
+        "Chen, Nan",
+        "Li, Xiang"
+      ],
+      "short_names": [
+        "Wang H",
+        "Yang R",
+        "Chen N",
+        "Li X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3725-3584",
+        "ORCID: 0000-0002-1305-0934",
+        "ORCID: 0009-0009-3689-5743"
+      ],
+      "affiliations": [
+        "Department of Pediatrics, Affiliated Hospital of Jining Medical University, Jining Medical University, Jining, China.",
+        "Jining Key Laboratory for Prevention and Treatment of Severe Infection in Children, Affiliated Hospital of Jining Medical University, Jining, China.",
+        "Shandong Provincial Key Medical and Health Discipline of Pediatric Internal Medicine, Affiliated Hospital of Jining Medical University, Jining, China.",
+        "Department of Pediatrics, Affiliated Hospital of Jining Medical University, Jining Medical University, Jining, China.",
+        "Jining Key Laboratory for Prevention and Treatment of Severe Infection in Children, Affiliated Hospital of Jining Medical University, Jining, China.",
+        "Shandong Provincial Key Medical and Health Discipline of Pediatric Internal Medicine, Affiliated Hospital of Jining Medical University, Jining, China.",
+        "Department of Graduate Education, Kunming Medical University, Kunming, China.",
+        "Department of General Practice, The Second Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Huabin",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0002-3725-3584"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Affiliated Hospital of Jining Medical University, Jining Medical University, Jining, China.",
+          "Jining Key Laboratory for Prevention and Treatment of Severe Infection in Children, Affiliated Hospital of Jining Medical University, Jining, China.",
+          "Shandong Provincial Key Medical and Health Discipline of Pediatric Internal Medicine, Affiliated Hospital of Jining Medical University, Jining, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ru",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Affiliated Hospital of Jining Medical University, Jining Medical University, Jining, China.",
+          "Jining Key Laboratory for Prevention and Treatment of Severe Infection in Children, Affiliated Hospital of Jining Medical University, Jining, China.",
+          "Shandong Provincial Key Medical and Health Discipline of Pediatric Internal Medicine, Affiliated Hospital of Jining Medical University, Jining, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Nan",
+        "short_name": "Chen N",
+        "identifiers": [
+          "0000-0002-1305-0934"
+        ],
+        "affiliations": [
+          "Department of Graduate Education, Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiang",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0009-3689-5743"
+        ],
+        "affiliations": [
+          "Department of General Practice, The Second Affiliated Hospital of Guangxi Medical University, Guangxi Medical University, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/03 09:06",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42459694",
+      "42337476",
+      "41709969"
+    ],
+    "refs": [
+      "39588141",
+      "39080660",
+      "39006496",
+      "38961290",
+      "38944044",
+      "38736551",
+      "38484574",
+      "38397774",
+      "38236387",
+      "38036977",
+      "38001949",
+      "37904710",
+      "37901228",
+      "37794545",
+      "37779195",
+      "37771377",
+      "37106446",
+      "37060186",
+      "36841032",
+      "36817458",
+      "36712881",
+      "36512674",
+      "36386479",
+      "36377152",
+      "36376165",
+      "36268709",
+      "36246577",
+      "35983035",
+      "35927154",
+      "35919269",
+      "35123484",
+      "34976224",
+      "34239350",
+      "33949285",
+      "33885157",
+      "33851423",
+      "33004379",
+      "32826609",
+      "32030529",
+      "31911580",
+      "31645732",
+      "31611300",
+      "31566109",
+      "31362930",
+      "31039813",
+      "30934196",
+      "30029001",
+      "28886074",
+      "28767543",
+      "28574980",
+      "28427289",
+      "28131458",
+      "27114524",
+      "26903338",
+      "26484146",
+      "26052715",
+      "25120092",
+      "25019241",
+      "24848133",
+      "24091387",
+      "23835724",
+      "23319738",
+      "22942426",
+      "22019570",
+      "19631584",
+      "18421305"
+    ],
+    "similar": [
+      "40177399",
+      "38245687",
+      "36855207",
+      "40302343",
+      "39586719",
+      "39331858",
+      "40329965",
+      "40362233",
+      "38767974",
+      "39950836",
+      "39421742",
+      "37782162",
+      "39583859",
+      "38868781",
+      "38420127",
+      "40253457",
+      "38987688",
+      "40244055",
+      "39375405",
+      "35184762",
+      "37575244",
+      "39622968",
+      "39976858",
+      "40332792",
+      "38681070",
+      "38291374",
+      "37509492",
+      "38664443",
+      "39707003",
+      "39845946",
+      "39509434",
+      "38318076",
+      "40165133",
+      "36203606",
+      "39218784",
+      "36411922",
+      "39341981",
+      "36131919",
+      "37386410",
+      "37090740",
+      "40216809",
+      "40066454",
+      "40029433",
+      "38143770",
+      "39838413",
+      "37465678",
+      "38017020",
+      "39975557",
+      "37497230",
+      "37060021",
+      "39779817",
+      "36470144",
+      "40131629",
+      "38283345",
+      "39696439",
+      "40374840",
+      "39793232",
+      "38650649",
+      "39650552",
+      "34980012",
+      "35783281",
+      "39819531",
+      "38287255",
+      "39717663",
+      "34308907",
+      "39916957",
+      "39981259",
+      "39789578",
+      "39870964",
+      "40340571",
+      "37471663",
+      "37842565",
+      "36389665",
+      "38509983",
+      "38897129",
+      "33761636",
+      "39351238",
+      "39188714",
+      "37783922",
+      "40319145",
+      "39697326",
+      "38867322",
+      "35844622",
+      "38089628",
+      "28791853",
+      "40140755",
+      "37024911",
+      "39823156",
+      "40093327",
+      "40370730",
+      "38849409",
+      "38395835",
+      "37849750",
+      "40078458",
+      "39285310",
+      "37808522",
+      "39507054",
+      "40170854",
+      "37359526",
+      "38981221"
+    ],
+    "review": [
+      "40177399",
+      "28791853"
+    ],
+    "pmc": [
+      "11964727"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40177399/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/5790261",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

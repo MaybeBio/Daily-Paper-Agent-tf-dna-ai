@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "40077694",
+    "doi": "10.3390/nu17050824",
+    "title": "Unraveling the Osteogenic Activity and Molecular Mechanism of an Antioxidant Collagen Peptide in MC3T3-E1 Cells."
+  },
+  "content": {
+    "abstract": "Background: Osteoporosis has become an inevitable health issue with global aging, and the current drug treatments often have adverse side effects, highlighting the need for safer and more effective therapies. Collagen-derived peptides are promising alternatives due to their favorable safety profile and biological activity. This study aimed to investigate the osteogenic and anti-apoptotic properties of collagen peptide UU1 (GASGPMGPR) in addition to its antioxidant activity. Methods: The effects of UU1 were evaluated in MC3T3-E1 cells by assessing osteogenic markers, including alkaline phosphatase (ALP), Cyclin D1, runt-related transcription factor 2 (Runx2), and Akt/beta-catenin signaling. Western blot analysis quantified collagen I, osteocalcin, and phosphorylated Akt levels. Anti-apoptotic effects were measured via p-Akt levels and the Bax/Bcl-2 ratio. Computational molecular docking was performed to explore the molecular mechanism of UU1 via its interaction with epidermal growth factor receptor (EGFR) and collagen-binding integrin. Results: UU1 treatment promoted cell differentiation, with elevated ALP, Cyclin D1, Runx2, and Akt/beta-catenin signaling. Notably, at 0.025 mg/mL, UU1 upregulated the levels of collagen I, osteocalcin, and phosphorylated Akt by 2.14, 3.37, and 1.95 times, respectively, compared to the control. Additionally, UU1 exhibited anti-apoptotic effects, indicated by increased p-Akt levels and a reduced Bax/Bcl-2 ratio. Molecular docking analysis suggested that UU1 could assist the dimerization of EGFR, facilitating downstream signaling transductions and activating collagen-binding integrin. Conclusions: These findings highlight UU1 as a multifunctional peptide with antioxidant, osteogenic, and anti-apoptotic properties, positioning it as a promising candidate for anti-osteoporosis applications in the food and pharmaceutical industries.",
+    "keywords": [
+      "Akt",
+      "MC3T3-E1 osteoblasts",
+      "antioxidant peptide",
+      "collagen I",
+      "integrin",
+      "molecular docking",
+      "osteoporosis"
+    ],
+    "mesh_terms": [
+      "*Osteogenesis/drug effects",
+      "Animals",
+      "Mice",
+      "*Antioxidants/pharmacology",
+      "*Collagen/pharmacology/chemistry",
+      "Cell Differentiation/drug effects",
+      "Apoptosis/drug effects",
+      "Signal Transduction/drug effects",
+      "*Osteoblasts/drug effects/metabolism",
+      "Molecular Docking Simulation",
+      "*Peptides/pharmacology",
+      "beta Catenin/metabolism",
+      "Core Binding Factor Alpha 1 Subunit/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Cell Line",
+      "ErbB Receptors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yali",
+        "Wang, Yue",
+        "Zhuang, Xiaoyan",
+        "Zhang, Yonghui",
+        "Fang, Baishan",
+        "Fu, Yousi"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Wang Y",
+        "Zhuang X",
+        "Zhang Y",
+        "Fang B",
+        "Fu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8743-8395",
+        "ORCID: 0000-0002-7313-4259",
+        "ORCID: 0000-0001-9620-0848"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, China.",
+        "Department of Biochemistry & Molecular Biology, Michigan State University, East Lansing, MI 48824, USA.",
+        "Department of Joint Surgery and Sports Medicine, Zhongshan Hospital of Xiamen University, Xiamen 361005, China.",
+        "College of Food and Biological Engineering, Jimei University, Xiamen 361021, China.",
+        "College of Food and Biological Engineering, Jimei University, Xiamen 361021, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, China.",
+        "The Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, China.",
+        "Department of Biochemistry & Molecular Biology, Michigan State University, East Lansing, MI 48824, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yali",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-8743-8395"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, China.",
+          "Department of Biochemistry & Molecular Biology, Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Joint Surgery and Sports Medicine, Zhongshan Hospital of Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Xiaoyan",
+        "short_name": "Zhuang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food and Biological Engineering, Jimei University, Xiamen 361021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yonghui",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-7313-4259"
+        ],
+        "affiliations": [
+          "College of Food and Biological Engineering, Jimei University, Xiamen 361021, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Baishan",
+        "short_name": "Fang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, China.",
+          "The Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yousi",
+        "short_name": "Fu Y",
+        "identifiers": [
+          "0000-0001-9620-0848"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, China.",
+          "Department of Biochemistry & Molecular Biology, Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nutrients"
+    ],
+    "journal_abbrev": [
+      "Nutrients"
+    ],
+    "pub_date": "2025 Feb 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/13 06:27",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "42654268",
+      "41798853",
+      "40941149",
+      "40429715"
+    ],
+    "refs": [
+      "39188952",
+      "36541828",
+      "35516346",
+      "35031309",
+      "34846302",
+      "34639160",
+      "34278794",
+      "34080446",
+      "33581432",
+      "32522695",
+      "32183020",
+      "31382108",
+      "30987410",
+      "30122200",
+      "30051110",
+      "29949889",
+      "29483817",
+      "29392739",
+      "29353207",
+      "29337906",
+      "29149100",
+      "28529755",
+      "27846781",
+      "26825227",
+      "26055108",
+      "25340806",
+      "24187131",
+      "23150948",
+      "22575536",
+      "21919503",
+      "21796158",
+      "20837704",
+      "18363555",
+      "17572649",
+      "16969589",
+      "16413235",
+      "15479820",
+      "12297049",
+      "11728918",
+      "11689886",
+      "11106645",
+      "10867645",
+      "10778855",
+      "8513492"
+    ],
+    "similar": [
+      "40077694",
+      "39675109",
+      "31907116",
+      "30224063",
+      "28772267",
+      "39561180",
+      "26935542",
+      "31535749",
+      "38890371",
+      "22886987",
+      "28919123",
+      "39704042",
+      "37282881",
+      "29035884",
+      "30980895",
+      "25400823",
+      "39358837",
+      "36328203",
+      "28857167",
+      "31228453",
+      "32436939",
+      "24300170",
+      "17109997",
+      "39219221",
+      "32698024",
+      "35869471",
+      "26405981",
+      "31883297",
+      "32533643",
+      "32756709",
+      "40038790",
+      "35164817",
+      "22890161",
+      "34391912",
+      "28462510",
+      "30632644",
+      "28621459",
+      "21470302",
+      "34620219",
+      "25154440",
+      "33645479",
+      "40243591",
+      "38670404",
+      "35951069",
+      "30359975",
+      "34461423",
+      "39608850",
+      "32012654",
+      "34787070",
+      "32293484",
+      "26478571",
+      "38663496",
+      "32422931",
+      "31698882",
+      "40221578",
+      "32622944",
+      "37212284",
+      "33198615",
+      "25470129",
+      "28247599",
+      "39955853",
+      "40350836",
+      "24926875",
+      "29560558",
+      "25391146",
+      "30486330",
+      "39489361",
+      "23840726",
+      "25714841",
+      "39488645",
+      "27909721",
+      "36547788",
+      "30537677",
+      "33818278",
+      "29883721",
+      "35473505",
+      "36795607",
+      "26961602",
+      "29030155",
+      "32037087",
+      "29806275",
+      "25318973",
+      "26159930",
+      "24733069",
+      "26647389",
+      "33336762",
+      "38161238",
+      "28211947",
+      "27156573",
+      "31703756",
+      "27314666",
+      "30682715",
+      "26719856",
+      "20443623",
+      "28598248",
+      "30668150",
+      "31674048",
+      "16251184",
+      "21381079",
+      "29359964"
+    ],
+    "review": [
+      "40077694"
+    ],
+    "pmc": [
+      "11902006"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=nu17050824",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antioxidants.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antioxidants"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40077694/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42136960",
+  "title": "Role of Macrophage-Related Genes GAS7 and ZEB2 in Acute Myocardial Infarction Pathogenesis.",
+  "authors": "Liu, Zhenfang; Song, Jia; Li, Lingling; Fan, Ziyin; Xie, Genyuan; Yang, Li",
+  "journal": "Human mutation",
+  "published_date": "2026-05-15",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于转录组和单细胞数据识别AMI巨噬细胞相关生物标志物，仅用分子对接预测药物，未涉及蛋白质-DNA互作建模或TF-DNA结合机制，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Acute myocardial infarction (AMI) involves complex immune responses and cellular interaction mechanisms. Although the pathogenesis of AMI is now preliminarily understood, there is still a lack of biomarkers that can accurately and rapidly diagnose its disease characteristics. METHODS: This study analyzed single-cell RNA sequencing (scRNA-seq) and bulk RNA-seq data related to AMI from the Gene Expression Omnibus (GEO) database. Data preprocessing and clustering were performed using Seurat, and cell-cell communication was analyzed using CellChat. Functional enrichment was performed using clusterProfiler. Key transcription factors were identified using SCENIC, and module-specific genes associated with macrophages in AMI were identified using high-dimensional weighted gene coexpression network analysis (hdWGCNA). These were combined with WGCNA to identify genes associated with AMI. Molecular docking was then used to predict potential targeted drugs for AMI. In addition, an oxygen-glucose deprivation (OGD)-induced AC16 cardiomyocyte model combined with quantitative real-time polymerase chain reaction (qRT-PCR) was used to validate the expression patterns of the key regulators and biomarkers. RESULTS: This study identified six cell types in AMI, including adipocytes, cardiomyocytes, endothelial cells, fibroblasts, macrophages, and smooth muscle cells. CellChat showed that cell-cell communication intensity was generally enhanced in AMI. hdWGCNA identified the M5 and M8 modules as significantly associated with macrophages. SCENIC analysis found that FOS and ETV6 were important regulatory factors of macrophages. WGCNA screened the brown module as significantly associated with AMI, enriched in immune and inflammatory response pathways. The final integration of all analysis results identified GAS7 and ZEB2 as potential biomarkers for AMI, and receiver operating characteristic (ROC) curves validated the good diagnostic performance of the two genes for AMI. Furthermore, qRT-PCR in an OGD-induced AC16 cardiomyocyte model confirmed the upregulation of FOS, ETV6, GAS7, and ZEB2, consistent with the transcriptomic findings. Molecular docking indicated that GAS7 has a good binding affinity with sulforaphane. CONCLUSION: This study revealed the cellular communication characteristics in the pathogenesis of AMI and identified GAS7 and ZEB2 as potential biomarkers for AMI based on macrophage characteristics. It also elucidated their targeted therapeutic drugs, providing new insights into the mechanism and treatment of AMI.",
+  "abstract_zh": "背景：急性心肌梗死（AMI）涉及复杂的免疫反应和细胞相互作用机制。尽管目前对AMI的发病机制已有初步了解，但仍缺乏能够准确、快速诊断其疾病特征的生物标志物。方法：本研究分析了来自基因表达综合数据库（GEO）中与AMI相关的单细胞RNA测序（scRNA-seq）和批量RNA测序数据。使用Seurat进行数据预处理和聚类，并使用CellChat分析细胞间通讯。使用clusterProfiler进行功能富集分析。使用SCENIC识别关键转录因子，并使用高维加权基因共表达网络分析（hdWGCNA）识别与AMI中巨噬细胞相关的模块特异性基因。这些与WGCNA结合以识别与AMI相关的基因。随后使用分子对接预测AMI的潜在靶向药物。此外，采用氧糖剥夺（OGD）诱导的AC16心肌细胞模型结合实时定量聚合酶链反应（qRT-PCR）验证关键调控因子和生物标志物的表达模式。结果：本研究在AMI中识别出六种细胞类型，包括脂肪细胞、心肌细胞、内皮细胞、成纤维细胞、巨噬细胞和平滑肌细胞。CellChat显示，AMI中细胞间通讯强度普遍增强。hdWGCNA识别出M5和M8模块与巨噬细胞显著相关。SCENIC分析发现FOS和ETV6是巨噬细胞的重要调控因子。WGCNA筛选出棕色模块与AMI显著相关，富集于免疫和炎症反应通路。最终整合所有分析结果，识别出GAS7和ZEB2作为AMI的潜在生物标志物，受试者工作特征（ROC）曲线验证了这两个基因对AMI的良好诊断性能。此外，在OGD诱导的AC16心肌细胞模型中的qRT-PCR证实了FOS、ETV6、GAS7和ZEB2的上调，与转录组学发现一致。分子 docking 表明GAS7与硫代葡萄糖苷具有良好结合亲和力。结论：本研究揭示了AMI发病机制中的细胞通讯特征，并基于巨噬细胞特征识别出GAS7和ZEB2作为AMI的潜在生物标志物，同时阐明了其靶向治疗药物，为AMI的机制和治疗提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42136960/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42136960/",
+  "paper_page_path": "papers/pubmed/42136960/index.html"
+}

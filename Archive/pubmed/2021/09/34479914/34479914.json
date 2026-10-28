@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "34479914",
+    "doi": "10.21873/cgp.20284",
+    "title": "Machine Learning Approaches on High Throughput NGS Data to Unveil Mechanisms of Function in Biology and Disease."
+  },
+  "content": {
+    "abstract": "In this review, the fundamental basis of machine learning (ML) and data mining (DM) are summarized together with the techniques for distilling knowledge from state-of-the-art omics experiments. This includes an introduction to the basic mathematical principles of unsupervised/supervised learning methods, dimensionality reduction techniques, deep neural networks architectures and the applications of these in bioinformatics. Several case studies under evaluation mainly involve next generation sequencing (NGS) experiments, like deciphering gene expression from total and single cell (scRNA-seq) analysis; for the latter, a description of all recent artificial intelligence (AI) methods for the investigation of cell sub-types, biomarkers and imputation techniques are described. Other areas of interest where various ML schemes have been investigated are for providing information regarding transcription factors (TF) binding sites, chromatin organization patterns and RNA binding proteins (RBPs), while analyses on RNA sequence and structure as well as 3D dimensional protein structure predictions with the use of ML are described. Furthermore, we summarize the recent methods of using ML in clinical oncology, when taking into consideration the current omics data with pharmacogenomics to determine personalized treatments. With this review we wish to provide the scientific community with a thorough investigation of main novel ML applications which take into consideration the latest achievements in genomics, thus, unraveling the fundamental mechanisms of biology towards the understanding and cure of diseases.",
+    "keywords": [
+      "Machine learning",
+      "NGS",
+      "RBPs",
+      "RNA structure",
+      "TFs",
+      "gene expression",
+      "review",
+      "scRNA-seq",
+      "sequence motifs",
+      "supervised-unsupervised learning"
+    ],
+    "mesh_terms": [
+      "Disease/*genetics",
+      "High-Throughput Nucleotide Sequencing/*methods",
+      "Humans",
+      "Machine Learning/*standards"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pezoulas, Vasileios C",
+        "Hazapis, Orsalia",
+        "Lagopati, Nefeli",
+        "Exarchos, Themis P",
+        "Goules, Andreas V",
+        "Tzioufas, Athanasios G",
+        "Fotiadis, Dimitrios I",
+        "Stratis, Ioannis G",
+        "Yannacopoulos, Athanasios N",
+        "Gorgoulis, Vassilis G"
+      ],
+      "short_names": [
+        "Pezoulas VC",
+        "Hazapis O",
+        "Lagopati N",
+        "Exarchos TP",
+        "Goules AV",
+        "Tzioufas AG",
+        "Fotiadis DI",
+        "Stratis IG",
+        "Yannacopoulos AN",
+        "Gorgoulis VG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Unit of Medical Technology and Intelligent Information Systems, University of Ioannina, Ioannina, Greece.",
+        "Molecular Carcinogenesis Group, Department of Histology and Embryology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece.",
+        "Molecular Carcinogenesis Group, Department of Histology and Embryology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece.",
+        "Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Unit of Medical Technology and Intelligent Information Systems, Department of Materials Science and Engineering, University of Ioannina, Ioannina, Greece.",
+        "Department of Informatics, Ionian University, Corfu, Greece.",
+        "Department of Pathophysiology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece.",
+        "Department of Pathophysiology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece.",
+        "Unit of Medical Technology and Intelligent Information Systems, University of Ioannina, Ioannina, Greece.",
+        "Department of Mathematics, National and Kapodistrian University of Athens, Athens, Greece.",
+        "Department of Statistics, and Stochastic Modelling and Applications Laboratory, Athens University of Economics and Business (AUEB), Athens, Greece; ayannaco@aueb.gr.",
+        "Molecular Carcinogenesis Group, Department of Histology and Embryology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece; vgorg@med.uoa.gr.",
+        "Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+        "Division of Cancer Sciences, Faculty of Biology, Medicine and Health, Manchester Academic Health Science Centre, Manchester Cancer Research Centre, NIHR Manchester Biomedical Research Centre, University of Manchester, Manchester, U.K.",
+        "Center for New Biotechnologies and Precision Medicine, Medical School, National and Kapodistrian University of Athens, Athens, Greece.",
+        "Faculty of Health and Medical Sciences, University of Surrey, Surrey, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pezoulas, Vasileios C",
+        "short_name": "Pezoulas VC",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Medical Technology and Intelligent Information Systems, University of Ioannina, Ioannina, Greece."
+        ]
+      },
+      {
+        "full_name": "Hazapis, Orsalia",
+        "short_name": "Hazapis O",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Carcinogenesis Group, Department of Histology and Embryology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Lagopati, Nefeli",
+        "short_name": "Lagopati N",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Carcinogenesis Group, Department of Histology and Embryology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece.",
+          "Biomedical Research Foundation of the Academy of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Exarchos, Themis P",
+        "short_name": "Exarchos TP",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Medical Technology and Intelligent Information Systems, Department of Materials Science and Engineering, University of Ioannina, Ioannina, Greece.",
+          "Department of Informatics, Ionian University, Corfu, Greece."
+        ]
+      },
+      {
+        "full_name": "Goules, Andreas V",
+        "short_name": "Goules AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Tzioufas, Athanasios G",
+        "short_name": "Tzioufas AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Fotiadis, Dimitrios I",
+        "short_name": "Fotiadis DI",
+        "identifiers": [],
+        "affiliations": [
+          "Unit of Medical Technology and Intelligent Information Systems, University of Ioannina, Ioannina, Greece."
+        ]
+      },
+      {
+        "full_name": "Stratis, Ioannis G",
+        "short_name": "Stratis IG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, National and Kapodistrian University of Athens, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Yannacopoulos, Athanasios N",
+        "short_name": "Yannacopoulos AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, and Stochastic Modelling and Applications Laboratory, Athens University of Economics and Business (AUEB), Athens, Greece; ayannaco@aueb.gr."
+        ]
+      },
+      {
+        "full_name": "Gorgoulis, Vassilis G",
+        "short_name": "Gorgoulis VG",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Carcinogenesis Group, Department of Histology and Embryology, School of Medicine, National and Kapodistrian University of Athens, Athens, Greece; vgorg@med.uoa.gr.",
+          "Biomedical Research Foundation of the Academy of Athens, Athens, Greece.",
+          "Division of Cancer Sciences, Faculty of Biology, Medicine and Health, Manchester Academic Health Science Centre, Manchester Cancer Research Centre, NIHR Manchester Biomedical Research Centre, University of Manchester, Manchester, U.K.",
+          "Center for New Biotechnologies and Precision Medicine, Medical School, National and Kapodistrian University of Athens, Athens, Greece.",
+          "Faculty of Health and Medical Sciences, University of Surrey, Surrey, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer genomics & proteomics"
+    ],
+    "journal_abbrev": [
+      "Cancer Genomics Proteomics"
+    ],
+    "pub_date": "2021 Sep-Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/05 06:00",
+    "fetched_at": "2026-09-27 23:03:16"
+  },
+  "links": {
+    "cites": [
+      "41094692",
+      "41010968",
+      "40624201",
+      "40447904",
+      "40075746",
+      "40036767",
+      "37369490",
+      "35982134",
+      "35755892",
+      "35720012",
+      "35462994",
+      "35021880"
+    ],
+    "refs": [
+      "35108499",
+      "34062119",
+      "33497379",
+      "33431010",
+      "33355120",
+      "33096023",
+      "32832661",
+      "32728217",
+      "32661261",
+      "32558887",
+      "32433532",
+      "32127534",
+      "32039199",
+      "31992613",
+      "31942072",
+      "31932774",
+      "31870423",
+      "31825821",
+      "31666519",
+      "31627739",
+      "31374225",
+      "31015479",
+      "30994904",
+      "30768159",
+      "30674886",
+      "30481171",
+      "30323198",
+      "30166440",
+      "30089906",
+      "29961576",
+      "29941873",
+      "29659719",
+      "29576615",
+      "29520097",
+      "29297679",
+      "29251915",
+      "28973464",
+      "28945705",
+      "28759029",
+      "28245811",
+      "28114287",
+      "27870833",
+      "27842498",
+      "27723083",
+      "27235417",
+      "27184080",
+      "27125735",
+      "26766114",
+      "26687716",
+      "26668002",
+      "26527291",
+      "26467480",
+      "26301843",
+      "26213851",
+      "25691825",
+      "25273103",
+      "24451197",
+      "24417896",
+      "24184352",
+      "23101621",
+      "20461051",
+      "20371350",
+      "19910308",
+      "19736561",
+      "19486540",
+      "18978773"
+    ],
+    "similar": [
+      "34479914",
+      "39158621",
+      "34750410",
+      "33059075",
+      "32825786",
+      "37084004",
+      "28575488",
+      "28245811",
+      "28234893",
+      "30832569",
+      "30041017",
+      "25957350",
+      "31383477",
+      "34245839",
+      "35821601",
+      "34711425",
+      "35796775",
+      "32773372",
+      "32024055",
+      "36418696",
+      "30044963",
+      "34980200",
+      "35172334",
+      "35997560",
+      "35879805",
+      "33039573",
+      "29630593",
+      "36008164",
+      "32214348",
+      "27499678",
+      "32861050",
+      "27297499",
+      "36804214",
+      "32645448",
+      "25108476",
+      "29943294",
+      "29522900",
+      "34044773",
+      "32804365",
+      "33673854",
+      "34690113",
+      "36102349",
+      "31068142",
+      "26338512",
+      "33794304",
+      "37081386",
+      "22369349",
+      "31889137",
+      "31243426",
+      "31599443",
+      "31651216",
+      "30462833",
+      "25577386",
+      "34276676",
+      "24440557",
+      "31286861",
+      "34996927",
+      "28070596",
+      "32174324",
+      "28985496",
+      "35255493",
+      "37584170",
+      "34202427",
+      "32980785",
+      "32722783",
+      "35230693",
+      "29855387",
+      "29665779",
+      "26818267",
+      "30914576",
+      "34791021",
+      "38264526",
+      "32994889",
+      "27177941",
+      "35347425",
+      "30635896",
+      "37635383",
+      "31627739",
+      "23174106",
+      "35302164",
+      "24846966",
+      "37478371",
+      "35470819",
+      "23912807",
+      "38435719",
+      "33205121"
+    ],
+    "review": [
+      "34479914",
+      "39158621",
+      "33059075",
+      "37084004",
+      "31383477",
+      "34245839",
+      "35821601",
+      "34711425",
+      "35796775",
+      "32024055",
+      "36418696",
+      "30044963",
+      "35879805",
+      "33039573",
+      "36008164",
+      "27297499",
+      "32645448",
+      "25108476",
+      "29943294",
+      "29522900",
+      "32804365",
+      "34690113",
+      "36102349",
+      "33794304",
+      "31243426",
+      "24440557",
+      "28070596",
+      "35255493",
+      "37584170",
+      "34202427",
+      "32980785",
+      "35230693",
+      "26818267",
+      "38264526",
+      "32994889",
+      "35347425",
+      "30635896",
+      "23174106",
+      "24846966",
+      "37478371"
+    ],
+    "pmc": [
+      "8441762"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cgp.iiarjournals.org/lookup/pmidlookup?view=long&pmid=34479914",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34479914/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34479914",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

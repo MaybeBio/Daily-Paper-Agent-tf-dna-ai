@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40883263",
+    "doi": "10.1038/s41467-025-61337-5",
+    "title": "Unveiling causal regulatory mechanisms through cell-state parallax."
+  },
+  "content": {
+    "abstract": "Genome-wide association studies (GWAS) identify numerous disease-linked genetic variants at noncoding genomic loci, yet therapeutic progress is hampered by the challenge of deciphering the regulatory roles of these loci in tissue-specific contexts. Single-cell multimodal assays that simultaneously profile chromatin accessibility and gene expression could predict tissue-specific causal links between noncoding loci and the genes they affect. However, current computational strategies either neglect the causal relationship between chromatin accessibility and transcription or lack variant-level precision, aggregating data across genomic ranges due to data sparsity. To address this, we introduce GrID-Net, a graph neural network approach that generalizes Granger causal inference to detect new causal locus-gene associations in graph-structured systems such as single-cell trajectories. Inspired by the principles of optical parallax, which reveals object depth from static snapshots, we hypothesize that causal mechanisms could be inferred from static single-cell snapshots by exploiting the time lag between epigenetic and transcriptional cell states, a concept we term \"cell-state parallax.\" Applying GrID-Net to schizophrenia (SCZ) genetic variants, we increase variant coverage by 36% and uncovered noncoding mechanisms that dysregulate 132 genes, including key potassium transporters such as KCNG2 and SLC12A6. Furthermore, we discover evidence for the prominent role of neural transcription-factor binding disruptions in SCZ etiology. Our work not only provides a strategy for elucidating the tissue-specific impact of noncoding variants but also underscores the breakthrough potential of cell-state parallax in single-cell multiomics for discovering tissue-specific gene regulatory mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Schizophrenia/genetics",
+      "Genome-Wide Association Study",
+      "Single-Cell Analysis/methods",
+      "Chromatin/metabolism/genetics",
+      "Epigenesis, Genetic",
+      "Gene Expression Regulation",
+      "Polymorphism, Single Nucleotide"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Alexander P",
+        "Singh, Rohit",
+        "Walsh, Christopher A",
+        "Berger, Bonnie"
+      ],
+      "short_names": [
+        "Wu AP",
+        "Singh R",
+        "Walsh CA",
+        "Berger B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4084-7340",
+        "ORCID: 0000-0002-0156-2238",
+        "ORCID: 0000-0002-2724-7228"
+      ],
+      "affiliations": [
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA, USA.",
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA, USA. rohit.singh@duke.edu.",
+        "Department of Biostatistics and Bioinformatics, Duke University, Durham, NC, USA. rohit.singh@duke.edu.",
+        "Department of Cell Biology, Duke University, Durham, NC, USA. rohit.singh@duke.edu.",
+        "Departments of Pediatrics and Neurology, Harvard Medical School, Boston, MA, USA.",
+        "Howard Hughes Medical Institute, Boston Children's Hospital, Boston, MA, USA.",
+        "Division of Genetics and Genomics, Department of Pediatrics, Boston Children's Hospital, Boston, USA.",
+        "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA, USA. bab@mit.edu.",
+        "Department of Mathematics, MIT, Cambridge, MA, USA. bab@mit.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Alexander P",
+        "short_name": "Wu AP",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Rohit",
+        "short_name": "Singh R",
+        "identifiers": [
+          "0000-0002-4084-7340"
+        ],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA, USA. rohit.singh@duke.edu.",
+          "Department of Biostatistics and Bioinformatics, Duke University, Durham, NC, USA. rohit.singh@duke.edu.",
+          "Department of Cell Biology, Duke University, Durham, NC, USA. rohit.singh@duke.edu."
+        ]
+      },
+      {
+        "full_name": "Walsh, Christopher A",
+        "short_name": "Walsh CA",
+        "identifiers": [
+          "0000-0002-0156-2238"
+        ],
+        "affiliations": [
+          "Departments of Pediatrics and Neurology, Harvard Medical School, Boston, MA, USA.",
+          "Howard Hughes Medical Institute, Boston Children's Hospital, Boston, MA, USA.",
+          "Division of Genetics and Genomics, Department of Pediatrics, Boston Children's Hospital, Boston, USA."
+        ]
+      },
+      {
+        "full_name": "Berger, Bonnie",
+        "short_name": "Berger B",
+        "identifiers": [
+          "0000-0002-2724-7228"
+        ],
+        "affiliations": [
+          "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, MA, USA. bab@mit.edu.",
+          "Department of Mathematics, MIT, Cambridge, MA, USA. bab@mit.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Aug 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/31 04:45",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "42231956",
+      "41909952",
+      "40813249",
+      "38496477"
+    ],
+    "refs": [
+      "38754366",
+      "37840549",
+      "36755098",
+      "36229609",
+      "36055233",
+      "35396580",
+      "35338153",
+      "35325188",
+      "35245111",
+      "35139376",
+      "34850907",
+      "34753603",
+      "34711957",
+      "34493866",
+      "34390642",
+      "34290042",
+      "34272393",
+      "34016988",
+      "33941931",
+      "33941239",
+      "33858480",
+      "33828297",
+      "33780170",
+      "33686288",
+      "33221922",
+      "33098772",
+      "32854757",
+      "32768486",
+      "32657375",
+      "32565801",
+      "32477401",
+      "32424124",
+      "32152294",
+      "32070398",
+      "31907463",
+      "31784727",
+      "31739806",
+      "31616042",
+      "31611697",
+      "31524598",
+      "31481665",
+      "31242417",
+      "31178122",
+      "31178118",
+      "31176620",
+      "30988527",
+      "30930949",
+      "30166440",
+      "30089906",
+      "30078704",
+      "29941555",
+      "29913329",
+      "29706549",
+      "29561261",
+      "29520222",
+      "29409532",
+      "29221753",
+      "29140464",
+      "28991892",
+      "28940711",
+      "28863138",
+      "28786528",
+      "28396521",
+      "28379368",
+      "28367128",
+      "28348379",
+      "28322246",
+      "27899670",
+      "27760116",
+      "27571553",
+      "27148565",
+      "26911348",
+      "26621002",
+      "25953818",
+      "25707927",
+      "25693568",
+      "25613900",
+      "25215497",
+      "25175639",
+      "25071529",
+      "24798236",
+      "24284943",
+      "24263090",
+      "23650636",
+      "23540600",
+      "23498940",
+      "23332752",
+      "22955828",
+      "22955616",
+      "22798495",
+      "22682255",
+      "22511880",
+      "22495300",
+      "21635952",
+      "21330290",
+      "21106759",
+      "20038947",
+      "16495941",
+      "16199517",
+      "14662550",
+      "12425938"
+    ],
+    "similar": [
+      "40883263",
+      "41767631",
+      "39930543",
+      "41218612",
+      "40421528",
+      "37254169",
+      "29056226",
+      "38012720",
+      "39266564",
+      "40409268",
+      "39753749",
+      "40653482",
+      "40832731",
+      "30113658",
+      "37492098",
+      "32744316",
+      "38594305",
+      "34699533",
+      "39922197",
+      "41171141",
+      "41643202",
+      "35931049",
+      "38956662",
+      "39814021",
+      "38747151",
+      "28803920",
+      "31949408",
+      "41338218",
+      "39341862",
+      "40287418",
+      "38616054",
+      "40577937",
+      "24920305",
+      "27760116",
+      "37034747",
+      "41053005",
+      "28335009",
+      "33246552",
+      "41650936",
+      "41324836",
+      "41468516",
+      "39891345",
+      "36517655",
+      "41448503",
+      "41396161",
+      "39956806",
+      "40393811",
+      "32732423",
+      "38369936",
+      "39207727",
+      "32717170",
+      "40514687",
+      "27903283",
+      "37852259",
+      "41006627",
+      "39858631",
+      "33004791",
+      "34299232",
+      "29805045",
+      "39527631",
+      "30078704",
+      "39986281",
+      "39606421",
+      "39563277",
+      "32201043",
+      "41476111",
+      "33788674",
+      "38904036",
+      "39774334",
+      "39550354",
+      "33155827",
+      "40180945",
+      "40931195",
+      "29351903",
+      "25434007",
+      "34560228",
+      "29745862",
+      "35274129",
+      "33508947",
+      "36329495",
+      "38940155",
+      "35168626",
+      "33230537",
+      "37850323",
+      "25569255",
+      "33130899",
+      "41477821",
+      "40062616",
+      "38991381",
+      "25363779",
+      "28193859",
+      "40764843",
+      "32363570",
+      "41611629",
+      "37319439",
+      "41145887",
+      "38585875",
+      "26340055",
+      "28957321",
+      "31834882"
+    ],
+    "review": [
+      "40883263",
+      "39753749",
+      "39207727",
+      "32717170",
+      "34299232",
+      "34560228"
+    ],
+    "pmc": [
+      "12397229"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/schizophrenia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Schizophrenia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-61337-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40883263/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

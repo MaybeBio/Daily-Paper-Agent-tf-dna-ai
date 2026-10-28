@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.23.497293",
+  "title": "Reconstructing the functional effect of TP53 somatic mutations on its regulon using causal signalling network modelling",
+  "authors": "Triantafyllidis CP; Barberis A; Cuervo AM; Gjerga E; Charlton P; Hartley F; Van Bijsterveldt L; Rodriguez JS; Buffa FM",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-26",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用因果信号网络建模和机器学习分析TP53体细胞突变对下游调控网络的影响，虽涉及转录因子TP53，但聚焦于突变功能效应与网络拓扑，而非TF-DNA结合位点或互作机制建模，方法可迁移但非核心匹配。",
+  "abstract": "<h4> A bstract </h4> The gene encoding tumor protein p53 ( TP53 ) is the most frequently mutated gene in human cancer. Mutations in both coding and non-coding regions of TP53 can disrupt the regulatory function of the transcription factor, but the functional impact of different somatic mutations on the global TP53 regulon is complex and poorly understood. To address this, we first proceed with a machine learning (ML) approach, and then propose an integrated computational network modelling approach that reconstructs signalling networks using a comprehensive collection of experimental and predicted regulons, and compares their topology. We evaluate both these approaches in a scrutinized pan-cancer analysis of matched genomics and transcriptomics data from 1,457 cell lines (22 cancer types) and 12,531 clinical samples (54 cancer sub-types). Using a ML approach based on penalized generalized linear regression we were able to predict TP53 mutation, but failed to resolve different mutation types. Thus, to infer the impact of different TP53 mutations we compared the topological characteristics of the optimized and reconstructed (upwards of twenty thousand) gene networks and extracted gene signatures for each mutation type using network analysis. We demonstrate that by accounting for TP53 mutation characteristics such as i) mutation type (e.g. missense, nonsense), ii) deleterious consequences of the mutation, or iii) mapping to previously identified hotspots, we can infer a much richer understanding of gene expression regulation, than when simply grouping samples based on their mutation/wild type or gene expression status. Our study highlights a powerful strategy exploiting signalling networks to systematically characterize the functional impact of the full spectrum of somatic mutations. This approach can be applied in general to genetic variation, with clear implications for, but not limited to, the biomedical domain and precision medicine.",
+  "abstract_zh": "<h4>摘要</h4> 编码肿瘤蛋白p53（TP53）的基因是人类癌症中最常发生突变的基因。TP53编码区和非编码区的突变均可能破坏该转录因子的调控功能，但不同体细胞突变对全局TP53调控子（regulon）的功能影响复杂且尚不清楚。为解决此问题，我们首先采用机器学习（ML）方法，随后提出一种整合计算网络建模方法，该方法利用全面的实验和预测调控子集合重建信号网络，并比较其拓扑结构。我们在对来自1,457个细胞系（22种癌症类型）和12,531个临床样本（54种癌症亚型）的匹配基因组学和转录组学数据进行的严格泛癌分析中，评估了这两种方法。基于惩罚广义线性回归的ML方法能够预测TP53突变，但无法区分不同突变类型。因此，为推断不同TP53突变的影响，我们比较了优化和重建（超过两万个）基因网络的拓扑特征，并通过网络分析提取每种突变类型的基因特征。我们证明，通过考虑TP53突变特征，如i) 突变类型（例如错义、无义）、ii) 突变的有害后果，或iii) 映射到先前识别的热点区域，我们可以获得比简单按突变/野生型或基因表达状态分组样本更丰富的基因表达调控理解。我们的研究突显了一种利用信号网络系统表征全谱系体细胞突变功能影响的强大策略。该方法可普遍应用于遗传变异，对生物医学领域和精准医学具有明确意义，但不限于此。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.23.497293",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.23.497293",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.23.497293/index.html"
+}

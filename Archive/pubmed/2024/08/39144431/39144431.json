@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "39144431",
+    "doi": "10.21037/tp-24-8",
+    "title": "Identification and analysis of inflammation-related biomarkers in tetralogy of Fallot."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Studies have revealed that inflammatory response is relevant to the tetralogy of Fallot (TOF). However, there are no studies to systematically explore the role of the inflammation-related genes (IRGs) in TOF. Therefore, based on bioinformatics, we explored the biomarkers related to inflammation in TOF, laying a theoretical foundation for its in-depth study. METHODS: TOF-related datasets (GSE36761 and GSE35776) were downloaded from the Gene Expression Omnibus (GEO) database. The differentially expressed genes (DEGs) between TOF and control groups were identified in GSE36761. And DEGs between TOF and control groups were intersected with IRGs to obtain differentially expressed IRGs (DE-IRGs). Afterwards, the least absolute shrinkage and selection operator (LASSO) and random forest (RF) were utilized to identify the biomarkers. Next, immune analysis was carried out. The transcription factor (TF)-mRNA, lncRNA-miRNA-mRNA, and miRNA-single nucleotide polymorphism (SNP)-mRNA networks were created. Finally, the potential drugs targeting the biomarkers were predicted. RESULTS: There were 971 DEGs between TOF and control groups, and 29 DE-IRGs were gained through the intersection between DEGs and IRGs. Next, a total of five biomarkers (MARCO, CXCL6, F3, SLC7A2, and SLC7A1) were acquired via two machine learning algorithms. Infiltrating abundance of 18 immune cells was significantly different between TOF and control groups, such as activated B cells, neutrophil, CD56dim natural killer cells, etc. The TF-mRNA network contained 4 mRNAs, 31 TFs, and 33 edges, for instance, ELF1-CXCL6, CBX8-SLC7A2, ZNF423-SLC7A1, ZNF71-F3. The lncRNA-miRNA-mRNA network was created, containing 4 mRNAs, 4 miRNAs, and 228 lncRNAs. Afterwards, nine SNPs locations were identified in the miRNA-SNP-mRNA network. A total of 21 drugs were predicted, such as ornithine, lysine, arginine, etc. CONCLUSIONS: Our findings detected five inflammation-related biomarkers (MARCO, CXCL6, F3, SLC7A2, and SLC7A1) for TOF, providing a scientific reference for further studies of TOF.",
+    "keywords": [
+      "Tetralogy of Fallot (TOF)",
+      "bioinformatics analysis",
+      "biomarkers",
+      "inflammation",
+      "network"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Junzhe",
+        "Liu, Huaipu",
+        "Wang, Pengcheng",
+        "Wu, Wenzhi",
+        "Zheng, Fengnan",
+        "Wang, Yuanxiang",
+        "Meng, Baoying"
+      ],
+      "short_names": [
+        "Du J",
+        "Liu H",
+        "Wang P",
+        "Wu W",
+        "Zheng F",
+        "Wang Y",
+        "Meng B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Junzhe",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huaipu",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengcheng",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wenzhi",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Fengnan",
+        "short_name": "Zheng F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuanxiang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Baoying",
+        "short_name": "Meng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational pediatrics"
+    ],
+    "journal_abbrev": [
+      "Transl Pediatr"
+    ],
+    "pub_date": "2024 Jul 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/15 06:42",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "42453262",
+      "42131094",
+      "41750286",
+      "39399711"
+    ],
+    "refs": [
+      "36773567",
+      "36696180",
+      "36266609",
+      "35873466",
+      "35593364",
+      "35152203",
+      "34855062",
+      "34557778",
+      "34236799",
+      "34046402",
+      "33567123",
+      "33241954",
+      "31732166",
+      "31351553",
+      "27142401",
+      "26545255",
+      "25877638",
+      "25822800",
+      "25516281",
+      "25382731",
+      "24889693",
+      "24498113",
+      "24459294",
+      "24452958",
+      "24182332",
+      "23067916",
+      "22939634",
+      "22528145",
+      "22345433",
+      "22078432",
+      "21354254",
+      "21323543",
+      "19770514",
+      "18782286",
+      "16326863",
+      "14962479",
+      "14743496",
+      "14654648",
+      "14597658",
+      "12821258",
+      "10508822"
+    ],
+    "similar": [
+      "39144431",
+      "35757392",
+      "37235492",
+      "35958412",
+      "35593364",
+      "36266609",
+      "36193061",
+      "32595699",
+      "34765659",
+      "36193326",
+      "39372587",
+      "38650009",
+      "38405617",
+      "39107816",
+      "35571446",
+      "35957689",
+      "36660690",
+      "38044432",
+      "38444850",
+      "37530128",
+      "38903709",
+      "38013448",
+      "34744455",
+      "39296548",
+      "37759912",
+      "37528851",
+      "35576491",
+      "35873466",
+      "34430602",
+      "38464965",
+      "35783271",
+      "38863714",
+      "30138363",
+      "37860011",
+      "38242381",
+      "36704339",
+      "37259023",
+      "36660246",
+      "36291136",
+      "24463614",
+      "36948405",
+      "35401659",
+      "38783263",
+      "33639954",
+      "39086489",
+      "35731466",
+      "32411519",
+      "35620387",
+      "36685822",
+      "23680813",
+      "32508878",
+      "31304055",
+      "37821907",
+      "36437453",
+      "37449753",
+      "36969183",
+      "34175436",
+      "34234459",
+      "34430597",
+      "38371524",
+      "37920788",
+      "37325483",
+      "39108620",
+      "31114367",
+      "34637369",
+      "38951833",
+      "35909518",
+      "35990977",
+      "35368701",
+      "36035223",
+      "38027143",
+      "35096003",
+      "36544484",
+      "37986345",
+      "34840985",
+      "34252359",
+      "37605572",
+      "38537151",
+      "35378210",
+      "38444712",
+      "38544384",
+      "33779949",
+      "33123295",
+      "36876153",
+      "38914980",
+      "36457745",
+      "36855207",
+      "38469312",
+      "37153000",
+      "30249878",
+      "32788867",
+      "35798291",
+      "33282942",
+      "38050489",
+      "37509492",
+      "37832104",
+      "35928610"
+    ],
+    "review": [
+      "39144431"
+    ],
+    "pmc": [
+      "11320004"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39144431/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tp-24-8",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3472",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

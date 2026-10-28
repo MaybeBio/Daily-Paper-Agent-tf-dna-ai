@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods, data access) for a resource paper describing TF ChIP-seq profiling in Drosophila melanogaster and Caenorhabditis elegans.
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text. No external data, figures, or supplemental files were available for inspection.
+- **Shared manuscript claim summary** The authors report generation of GFP-tagged TF strains and ChIP-seq datasets for 605 fly and 356 worm TFs, identify clustered binding regions ("metapeaks"), characterize HOT regions, integrate with single-cell RNA-seq to infer TF–target relationships, and provide a machine-learning model linking TF binding to cell-type-specific gene expression.
+- **Visible evidence base** Abstract, Results sections (Strain generation, ChIP-seq resource, Peaks and metapeaks, Coassociation, Motifs, Distribution relative to genes, Complexity of regulation, Target expression patterns, Modeling), Discussion, Methods summary, Data access statement.
+- **Missing materials affecting confidence** All figures, tables, supplemental files (S1–S9), detailed methods (Supplemental File S4), and validation statistics. These are essential for assessing data quality, peak-calling rigor, model performance, and reproducibility.
+
+## Reviewer
+- **Overall assessment** This manuscript represents a substantial community resource effort, consolidating a decade of modENCODE/modERN TF ChIP-seq data across two major model organisms. The scale of the dataset (961 TFs, ~4.5 M peaks) is impressive and will be of broad utility. However, the scientific claims extending beyond resource description, particularly regarding metapeak biology, HOT regions, and the machine-learning model, are presented with insufficient methodological detail and statistical validation in the visible text. The core resource value is clear, but the analytical conclusions require stronger evidence to be fully established.
+- **Who would be interested in the results, and why** Researchers in gene regulation, developmental biology, and computational genomics, particularly those working on Drosophila or C. elegans. The strain collections and ChIP-seq datasets will be valuable for studying TF binding, enhancer biology, and regulatory network evolution. The integration with single-cell data and the modeling approach will interest those developing predictive models of gene expression.
+- **Major strengths**
+  1. Unprecedented scale and systematic coverage of TF binding in two model organisms.
+  2. Community resource value: strains, datasets, and web interface are significant contributions.
+  3. Novel concept of "metapeaks" as clustered TF binding regions, with potential biological relevance.
+  4. Integration of ChIP-seq with single-cell RNA-seq to infer cell-type-specific regulatory relationships is timely and innovative.
+  5. Clear demonstration of resource utility through known biological validations (e.g., muscle, hypodermal TFs).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data quality
+  - **Claim pointer** "we successfully performed ChIP on 605 fly TFs (92% of total TFs) in 678 different experiments" and "356 worm TFs (56% of targeted TFs) in 525 different experiments"
+  - **Evidence pointer** Results, "ChIP-seq resource" section; Table 1 (not visible)
+  - **Concern** The manuscript does not provide quality metrics for the ChIP-seq datasets. No information is given on peak-calling thresholds, IDR values, signal-to-noise ratios, or reproducibility across replicates. The statement that "data sets were immediately evaluated using the self-consistency ratio and rescue ratio parameters" is mentioned, but no results of these evaluations are shown. Without these metrics, the reliability of individual TF binding profiles cannot be assessed, which is critical for a resource paper.
+  - **Why it matters** Users of this resource need to know which datasets are high-confidence and which may be noisy or failed. The authors note that some TFs "failed to meet quality criteria despite repeated attempts," but the criteria and failure rates are not quantified. This undermines the utility of the resource and the downstream analyses.
+  - **Resolution test** Provide a summary table or figure showing the distribution of quality metrics (e.g., IDR, number of peaks, FRiP scores) across all experiments, and clearly state the thresholds used for inclusion/exclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Metapeak definition
+  - **Claim pointer** "we treated each peak call as a sequence read and used MACS2 to call clusters of peaks, which for purposes here we have termed 'metapeaks'"
+  - **Evidence pointer** Results, "Peaks and metapeaks" section; Supplemental File S4 (not visible)
+  - **Concern** The metapeak calling procedure is described in a single sentence, with details relegated to a supplemental file. It is unclear how MACS2 parameters were set, how peak-to-read conversion was performed, and how the significance thresholds for metapeak calling were determined. The biological interpretation of metapeaks as regulatory units depends critically on this methodology.
+  - **Why it matters** Metapeaks are a central concept of the paper, used for HOT region identification, motif analysis, and target gene assignment. If the clustering method is not rigorously defined and validated, all downstream conclusions are compromised.
+  - **Resolution test** Provide a detailed description of the metapeak calling algorithm, including parameter choices, sensitivity analyses, and validation against known regulatory regions. Show that metapeaks are robust to parameter variation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Model validation
+  - **Claim pointer** "Combining ChIP-seq data with single-cell RNA-seq data in a machine-learning model identifies TFs with a prominent role in promoting target gene expression in specific cell types, even differentiating between parent–daughter cells during embryogenesis."
+  - **Evidence pointer** Results, "Modeling gene expression patterns" section; Figure 7 (not visible)
+  - **Concern** The machine-learning model is described only in general terms. No details are given on the random forest implementation, feature selection, training/test splits, cross-validation, or performance metrics. The claim of differentiating parent–daughter cells is striking but is supported only by a single example (hnd-1 in the Ca lineage). No quantitative assessment of model accuracy or comparison to null models is provided.
+  - **Why it matters** The modeling is presented as a key analytical outcome, demonstrating the utility of the resource. Without rigorous validation, the biological conclusions drawn from the model (e.g., TF importance in specific cell types) are not reliable. The claim of capturing developmental dynamics is particularly strong and requires statistical support.
+  - **Resolution test** Provide detailed model specifications, cross-validated performance metrics (e.g., R², AUC), comparison to baseline models, and statistical significance of TF importance scores. Show that the parent–daughter cell differentiation is not a chance finding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Motif analysis
+  - **Claim pointer** "the importance of consensus sequence motifs bound by TFs depends on metapeak size and complexity"
+  - **Evidence pointer** Results, "Motifs" section; Figure 4 (not visible)
+  - **Concern** The motif analysis is described briefly, and the key claim about motif importance depending on metapeak size is not quantified. It is unclear how motif importance was measured, how the comparison across metapeak sizes was performed, and whether the effect is statistically significant.
+  - **Why it matters** This claim has implications for understanding TF binding specificity and the interpretation of ChIP-seq data. If motif importance varies with metapeak context, this affects how researchers should interpret binding sites in different genomic contexts.
+  - **Resolution test** Provide quantitative data showing the relationship between motif importance and metapeak size, with statistical tests and effect sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "metapeaks" without definition, which may confuse readers unfamiliar with the concept.
+  - **Required correction** Define "metapeaks" briefly in the abstract, e.g., "clusters of overlapping TF binding sites."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Strain generation and resource" section
+  - **Evidence pointer** Results, "Strain generation and resource" section
+  - **Issue** The statement "early experiments showed that representative GFP-tagged TFs rescued null mutants" is vague. It is unclear how many TFs were tested and what proportion rescued.
+  - **Required correction** Provide specific numbers and a reference to the validation data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "ChIP-seq resource" section
+  - **Evidence pointer** Results, "ChIP-seq resource" section
+  - **Issue** The difference in peak numbers between fly and worm is attributed to "technical considerations" (number of replicates), but the authors state this "only accounts for a small fraction of the observed difference." The remaining explanation is speculative.
+  - **Required correction** Acknowledge the uncertainty and consider alternative explanations (e.g., genome complexity, chromatin state) or present additional analyses to support the interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Target expression patterns" section
+  - **Evidence pointer** Results, "Target expression patterns" section
+  - **Issue** The cosine similarity metric is introduced without explanation of its interpretation or why a threshold of 0.2 was chosen.
+  - **Required correction** Briefly explain the metric and the rationale for the threshold.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Complexity of regulation" section
+  - **Evidence pointer** Results, "Complexity of regulation" section
+  - **Issue** The entropy calculation is described, but the interpretation of entropy values in the context of gene expression is not discussed. It is unclear what entropy values correspond to "broad" vs. "specific" expression.
+  - **Required correction** Provide context for interpreting entropy values, perhaps with examples of genes with known expression patterns.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of ChIP-seq quality metrics.
+  - R1-M2: Insufficient detail on metapeak calling methodology.
+  - R1-M3: Inadequate validation of the machine-learning model.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The resource itself is unique in scale, but the analytical concepts (metapeaks, HOT regions) build on prior work from the same consortium and others. The integration with single-cell data is a novel angle.
+  - **Scientific importance** High for the community. The datasets and strains will enable many downstream studies. The biological insights (e.g., metapeak properties, TF–target relationships) are of interest but not yet fully established.
+  - **Interdisciplinary readership** Moderate. Primarily of interest to molecular biologists and computational biologists working on gene regulation. The resource aspects will attract a broader audience, but the analytical sections are specialized.
+  - **Technical soundness** Currently insufficient. Key methods are not described in sufficient detail, and validation is lacking. The resource generation appears sound, but the analytical claims are not fully supported.
+  - **Readability for nonspecialists** Acceptable but could be improved. The paper is generally well-written, but some concepts (metapeaks, entropy, cosine similarity) are introduced without adequate explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource is valuable and the analytical directions are promising, but the manuscript in its current form does not fully establish the scientific claims beyond the resource description. Major revisions are required to provide adequate methodological detail and validation.
+
+## Risk / unsupported claims
+- The claim that metapeaks "sample much of the regulatory DNA in these two genomes" is not quantitatively supported in the visible text.
+- The statement that "the importance of consensus sequence motifs bound by TFs depends on metapeak size and complexity" is not backed by specific data or statistical analysis.
+- The machine-learning model's ability to "differentiate between parent–daughter cells during embryogenesis" is presented as a key result but lacks quantitative validation.
+- The claim that "Together these results imply that HOT sites are likely important functional regions at stably open chromatin regions" is speculative and not directly tested.
+- The assertion that "the fly and worm data sets have remarkable similarities" is not substantiated with comparative analyses in the visible text.

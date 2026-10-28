@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41877008",
+  "title": "DcSE: an improved densenet with enhanced attention fusion for super-enhancer prediction.",
+  "authors": "Zhang, Ao; Jia, Jianhua",
+  "journal": "BMC genomics",
+  "published_date": "2026-03-25",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用改进DenseNet预测超级增强子，虽涉及转录因子基序分析，但核心是序列分类而非TF-DNA结合建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "BACKGROUND: Super-enhancers are critical cis-regulatory elements that play a central role in modulating gene expression and driving cellular identity. Their dysregulation is closely associated with the development of numerous major human diseases, particularly cancer. In this study, we propose DcSE, a novel deep learning framework designed for efficient and precise super-enhancer prediction. The core architecture is based on an enhanced DenseNet featuring an improved Convolutional Block Attention Module. Unlike standard serial processing, our module employs a dynamic fusion mechanism that adjusts the contributions of channel and spatial attention through learnable parameters. To further enhance robustness, DcSE adopts an ensemble learning framework utilizing cross-validation and multiple initializations. RESULTS: DcSE demonstrates exceptional performance on benchmark datasets for both human and mouse, surpassing existing state-of-the-art models across all evaluation metrics. It achieves 80.81% ACC and 87.86% AUC on the human dataset, along with 80.16% ACC and 87.04% AUC on the mouse dataset. Visual analysis through t-SNE confirms that the model learns highly separable, high-order feature representations from raw sequences. Furthermore, cross-species validation experiments prove the robust generalization capability of the framework. Motif analysis utilizing mask-based attribution methods successfully identifies species-specific key transcription factors, such as ZKSCAN3 in humans and STAT1 in mouse, providing clear biological interpretability. CONCLUSIONS: DcSE is a high-performance, robust, and interpretable computational tool. By accurately capturing key sequence features and providing biological insights into transcription factor regulation, it offers a reliable framework for super-enhancer identification and the study of genomic regulatory mechanisms.",
+  "abstract_zh": "背景：超级增强子（super-enhancers）是关键的顺式调控元件，在调节基因表达和驱动细胞身份中发挥核心作用。其失调与多种重大人类疾病（尤其是癌症）的发生密切相关。在本研究中，我们提出DcSE，一种新颖的深度学习框架，旨在高效且精确地预测超级增强子。核心架构基于增强型DenseNet，并集成了改进的卷积块注意力模块（Convolutional Block Attention Module）。与标准串行处理不同，我们的模块采用动态融合机制，通过可学习参数调整通道注意力和空间注意力的贡献。为进一步增强鲁棒性，DcSE采用集成学习框架，利用交叉验证和多种初始化策略。结果：DcSE在人类和小鼠的基准数据集上表现出卓越性能，在所有评估指标上均超越现有最先进模型。它在人类数据集上达到80.81%的准确率（ACC）和87.86%的曲线下面积（AUC），在小鼠数据集上达到80.16%的准确率和87.04%的AUC。通过t-SNE的可视化分析证实，模型能从原始序列中学习到高度可分离的高阶特征表示。此外，跨物种验证实验证明了该框架的强泛化能力。基于掩码归因方法的基序分析成功识别了物种特异性的关键转录因子，如人类中的ZKSCAN3和小鼠中的STAT1，提供了清晰的生物学可解释性。结论：DcSE是一种高性能、鲁棒且可解释的计算工具。通过精确捕获关键序列特征并提供对转录因子调控的生物学见解，它为超级增强子识别和基因组调控机制研究提供了可靠框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41877008/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41877008/",
+  "paper_page_path": "papers/pubmed/41877008/index.html"
+}

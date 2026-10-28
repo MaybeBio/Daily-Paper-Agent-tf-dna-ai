@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41168822",
+    "doi": "10.1186/s12967-025-07111-z",
+    "title": "Genome-wide association, single-cell, and spatial transcriptomics analyses reveal the role of the STK24-expressing positive cells in LUAD progression and the tumor microenvironment, identifying STK24 as a potential therapeutic target."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung adenocarcinoma (LUAD), a subtype of non-small cell lung cancer (NSCLC), has high incidence and poor prognosis. Although anti-programmed cell death protein 1 (PD1) therapy and epidermal growth factor receptor (EGFR) inhibitors benefit some patients, many remain unresponsive. Genome-wide association studies (GWAS) can identify risk loci, while single-cell transcriptomics enables exploration of genetic variations and mechanisms in LUAD. METHODS: We integrated GWAS data from FinnGen, IEU OpenGWAS, and GWAS Catalog with single-cell and spatial transcriptomics from GEO to investigate LUAD genetics and pathology. GWAS analyses identified SNP loci, risk factors, LD Score, and SMR results, revealing a novel apoptosis-related locus, Serine/Threonine Kinase 24 (STK24) (SMR P < 0.05). Single-cell analysis identified STK24-positive epithelial cells (STK24posEpi) and their transcription factors (SCENIC), developmental trajectory (Monocle), and tumor microenvironment roles (CellCall). Spatial mapping (RCTD) and trajectory analysis (stlearn) were combined with cell communication (CellChat), spatial signal flow (Commot), and co-localization (Misty). Bayesian deconvolution linked STK24posEpi to TCGA-LUAD bulk transcriptomes, assessing overall survival (OS), immune infiltration, and clinical traits. A prognostic model (STK24SuperPC, mean c-index 0.61) was built using multiple machine learning algorithms to predict survival and immunotherapy response. Laboratory experiments tested STK24's effects on LUAD cell proliferation and apoptosis. RESULTS: STK24 was identified as a LUAD risk factor (pSMR < 0.05). STK24posEpi communicated with fibroblasts, endothelial cells, and others via MIF and PDGF pathways, and was associated with apoptosis (Importance > 0.5), metastasis (Importance > 2), DNA repair (Importance > 1), and DNA damage (Importance > 2). Located at the origin of the trajectory, STK24posEpi correlated with poor prognosis (HR > 0, P < 0.05) and reduced lymphocyte infiltration (Pearson's r < 0, P < 0.05). STK24 overexpression enhanced LUAD cell proliferation, migration, and colony formation, while reducing apoptosis, increasing BCL-2 and Caspase-3, and decreasing Cleaved-Caspase-3 expression. CONCLUSIONS: STK24, an apoptosis-related gene, promotes LUAD progression by enhancing proliferation and inhibiting apoptosis, with STK24posEpi interacting in the tumor microenvironment through PDGF and MIF pathways. These findings offer potential therapeutic targets and support personalized LUAD treatment strategies.",
+    "keywords": [
+      "BayesPrism",
+      "Biomarker",
+      "Cell apoptosis",
+      "STK24",
+      "Single-cell RNA sequencing",
+      "Spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Microenvironment/genetics",
+      "*Protein Serine-Threonine Kinases/metabolism/genetics",
+      "*Single-Cell Analysis",
+      "*Genome-Wide Association Study",
+      "*Disease Progression",
+      "*Gene Expression Profiling",
+      "*Adenocarcinoma of Lung/genetics/pathology/enzymology",
+      "*Lung Neoplasms/genetics/pathology/enzymology",
+      "*Transcriptome/genetics",
+      "Polymorphism, Single Nucleotide/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "AMP-Activated Protein Kinase Kinases",
+      "*Molecular Targeted Therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Junzhi",
+        "Li, Huimin",
+        "Jiao, Yuheng",
+        "Hou, Meng"
+      ],
+      "short_names": [
+        "Liu J",
+        "Li H",
+        "Jiao Y",
+        "Hou M"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-9860-6890"
+      ],
+      "affiliations": [
+        "Department of Oncology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, 200433, China. junzhil97@163.com.",
+        "Internal Medicine Residency Training Base, Gongli Hospital of Shanghai Pudong New Area, Shanghai, 200135, China.",
+        "Department of Heart Failure, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, 200120, China.",
+        "Department of Oncology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, 200433, China. houmengdr@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Junzhi",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0009-0008-9860-6890"
+        ],
+        "affiliations": [
+          "Department of Oncology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, 200433, China. junzhil97@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Huimin",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Internal Medicine Residency Training Base, Gongli Hospital of Shanghai Pudong New Area, Shanghai, 200135, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yuheng",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Heart Failure, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, 200120, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Meng",
+        "short_name": "Hou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shanghai Pulmonary Hospital, School of Medicine, Tongji University, Shanghai, 200433, China. houmengdr@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Oct 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/31 06:27",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "41953641"
+    ],
+    "refs": [
+      "39266658",
+      "39097557",
+      "38890247",
+      "38576019",
+      "38296629",
+      "38229183",
+      "37429843",
+      "37344903",
+      "37181807",
+      "36846943",
+      "36777996",
+      "36752296",
+      "36734208",
+      "36720310",
+      "36462328",
+      "35948637",
+      "35715791",
+      "35469013",
+      "35422018",
+      "34922323",
+      "34737426",
+      "34703906",
+      "34659887",
+      "34601555",
+      "34423682",
+      "34331449",
+      "34062119",
+      "33996281",
+      "33603203",
+      "33441155",
+      "33280515",
+      "33014529",
+      "32693092",
+      "31974247",
+      "31827330",
+      "31819518",
+      "31740819",
+      "31525460",
+      "30913394",
+      "30759001",
+      "30643258",
+      "30642539",
+      "30531897",
+      "29925982",
+      "29557182",
+      "29521234",
+      "29295995",
+      "29184056",
+      "28991892",
+      "28344882",
+      "27480251",
+      "27364482",
+      "27019110",
+      "26691657",
+      "26514394",
+      "25642630",
+      "25513848",
+      "24841289",
+      "24737412",
+      "24725383",
+      "24658644",
+      "24176643",
+      "23262216",
+      "21943236",
+      "21847358",
+      "20616382",
+      "12717420"
+    ],
+    "similar": [
+      "41168822",
+      "42495647",
+      "42136962",
+      "42089585",
+      "41326474",
+      "41164195",
+      "41540361",
+      "41383634",
+      "40396179",
+      "41436831",
+      "40474806",
+      "40486872",
+      "40936936",
+      "40610605",
+      "41345972",
+      "41716413",
+      "42240917",
+      "41074434",
+      "41622242",
+      "39699801",
+      "39075485",
+      "37181807",
+      "41339815",
+      "41318120",
+      "39780110",
+      "41309249",
+      "42206269",
+      "38616208",
+      "41656832",
+      "41415280",
+      "42079738",
+      "39896800",
+      "40787454",
+      "40936758",
+      "41249682",
+      "39516442",
+      "38682187",
+      "42450135",
+      "40594106",
+      "39478862",
+      "40616092",
+      "40316986",
+      "40672941",
+      "42336135",
+      "40705084",
+      "37728413",
+      "41274397",
+      "39992528",
+      "42177544",
+      "41663460",
+      "41776080",
+      "42112349",
+      "41409294",
+      "41567189",
+      "40469299",
+      "40682067",
+      "40993741",
+      "42181964",
+      "40308576",
+      "38685772",
+      "40657391",
+      "41641368",
+      "41312363",
+      "39434164",
+      "42140356",
+      "41583466",
+      "41342545",
+      "40228772",
+      "41341805",
+      "35140113",
+      "41831036",
+      "41629603",
+      "41491011",
+      "39735553",
+      "39148731",
+      "37378675",
+      "39267056",
+      "39850883",
+      "41634895",
+      "41208987",
+      "40475775",
+      "42358820",
+      "42220487",
+      "41394854",
+      "41699549",
+      "41429196",
+      "40308809",
+      "42443661",
+      "42488648",
+      "41862916",
+      "42238572",
+      "40064955",
+      "41246332",
+      "40664871",
+      "41743703",
+      "41840725",
+      "41985273",
+      "41526921",
+      "41692739",
+      "38186574"
+    ],
+    "review": [
+      "41168822"
+    ],
+    "pmc": [
+      "12574022"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07111-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41168822/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

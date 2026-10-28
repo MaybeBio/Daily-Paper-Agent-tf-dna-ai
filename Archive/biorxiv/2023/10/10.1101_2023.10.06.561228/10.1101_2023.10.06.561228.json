@@ -1,0 +1,161 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.06.561228",
+  "title": "Joint sequence & chromatin neural networks characterize the differential abilities of Forkhead transcription factors to engage inaccessible chromatin",
+  "doi": "10.1101/2023.10.06.561228",
+  "abstract": "<h4>ABSTRACT</h4> The DNA-binding activities of transcription factors (TFs) are influenced by both intrinsic sequence preferences and extrinsic interactions with cell-specific chromatin landscapes and other regulatory proteins. Disentangling the roles of these binding determinants remains challenging. For example, the FoxA subfamily of Forkhead domain (Fox) TFs are known pioneer factors that can bind to relatively inaccessible sites during development. Yet FoxA TF binding also varies across cell types, pointing to a combination of intrinsic and extrinsic forces guiding their binding. While other Forkhead domain TFs are often assumed to have pioneering abilities, how sequence and chromatin features influence the binding of related Fox TFs has not been systematically characterized. Here, we present a principled approach to compare the relative contributions of intrinsic DNA sequence preference and cell-specific chromatin environments to a TF’s DNA-binding activities. We apply our approach to investigate how a selection of Fox TFs (FoxA1, FoxC1, FoxG1, FoxL2, and FoxP3) vary in their binding specificity. We over-express the selected Fox TFs in mouse embryonic stem cells, which offer a platform to contrast each TF’s binding activity within the same preexisting chromatin background. By applying a convolutional neural network to interpret the Fox TF binding patterns, we evaluate how sequence and preexisting chromatin features jointly contribute to induced TF binding. We demonstrate that Fox TFs bind different DNA targets, and drive differential gene expression patterns, even when induced in identical chromatin settings. Despite the association between Forkhead domains and pioneering activities, the selected Fox TFs display a wide range of affinities for preexiting chromatin states. Using sequence and chromatin feature attribution techniques to interpret the neural network predictions, we show that differential sequence preferences combined with differential abilities to engage relatively inaccessible chromatin together explain Fox TF binding patterns at individual sites and genome-wide.",
+  "authors": [
+    "Arora S",
+    "Yang J",
+    "Akiyama T",
+    "James DQ",
+    "Morrissey A",
+    "Blanda TR",
+    "Badjatia N",
+    "Lai WK",
+    "Ko MS",
+    "Pugh BF",
+    "Mahony S"
+  ],
+  "published_date": "2023-10-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.06.561228",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.06.561228.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR738990",
+    "raw_record": {
+      "id": "PPR738990",
+      "source": "PPR",
+      "doi": "10.1101/2023.10.06.561228",
+      "title": "Joint sequence & chromatin neural networks characterize the differential abilities of Forkhead transcription factors to engage inaccessible chromatin",
+      "authorString": "Arora S, Yang J, Akiyama T, James DQ, Morrissey A, Blanda TR, Badjatia N, Lai WK, Ko MS, Pugh BF, Mahony S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Arora S",
+            "lastName": "Arora",
+            "firstName": "Sonny",
+            "initials": "S"
+          },
+          {
+            "fullName": "Yang J",
+            "lastName": "Yang",
+            "firstName": "Jianyu",
+            "initials": "J"
+          },
+          {
+            "fullName": "Akiyama T",
+            "lastName": "Akiyama",
+            "firstName": "Tomohiko",
+            "initials": "T"
+          },
+          {
+            "fullName": "James DQ",
+            "lastName": "James",
+            "firstName": "Daniela",
+            "initials": "DQ"
+          },
+          {
+            "fullName": "Morrissey A",
+            "lastName": "Morrissey",
+            "firstName": "Alexis",
+            "initials": "A"
+          },
+          {
+            "fullName": "Blanda TR",
+            "lastName": "Blanda",
+            "firstName": "Thomas",
+            "initials": "TR"
+          },
+          {
+            "fullName": "Badjatia N",
+            "lastName": "Badjatia",
+            "firstName": "Nitika",
+            "initials": "N"
+          },
+          {
+            "fullName": "Lai WK",
+            "lastName": "Lai",
+            "firstName": "William K.M.",
+            "initials": "WK"
+          },
+          {
+            "fullName": "Ko MS",
+            "lastName": "Ko",
+            "firstName": "Minoru S.H.",
+            "initials": "MS"
+          },
+          {
+            "fullName": "Pugh BF",
+            "lastName": "Pugh",
+            "firstName": "Franklin",
+            "initials": "BF"
+          },
+          {
+            "fullName": "Mahony S",
+            "lastName": "Mahony",
+            "firstName": "Shaun",
+            "initials": "S"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  The DNA-binding activities of transcription factors (TFs) are influenced by both intrinsic sequence preferences and extrinsic interactions with cell-specific chromatin landscapes and other regulatory proteins. Disentangling the roles of these binding determinants remains challenging. For example, the FoxA subfamily of Forkhead domain (Fox) TFs are known pioneer factors that can bind to relatively inaccessible sites during development. Yet FoxA TF binding also varies across cell types, pointing to a combination of intrinsic and extrinsic forces guiding their binding. While other Forkhead domain TFs are often assumed to have pioneering abilities, how sequence and chromatin features influence the binding of related Fox TFs has not been systematically characterized. Here, we present a principled approach to compare the relative contributions of intrinsic DNA sequence preference and cell-specific chromatin environments to a TF’s DNA-binding activities. We apply our approach to investigate how a selection of Fox TFs (FoxA1, FoxC1, FoxG1, FoxL2, and FoxP3) vary in their binding specificity. We over-express the selected Fox TFs in mouse embryonic stem cells, which offer a platform to contrast each TF’s binding activity within the same preexisting chromatin background. By applying a convolutional neural network to interpret the Fox TF binding patterns, we evaluate how sequence and preexisting chromatin features jointly contribute to induced TF binding. We demonstrate that Fox TFs bind different DNA targets, and drive differential gene expression patterns, even when induced in identical chromatin settings. Despite the association between Forkhead domains and pioneering activities, the selected Fox TFs display a wide range of affinities for preexiting chromatin states. Using sequence and chromatin feature attribution techniques to interpret the neural network predictions, we show that differential sequence preferences combined with differential abilities to engage relatively inaccessible chromatin together explain Fox TF binding patterns at individual sites and genome-wide.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/31/2023.10.06.561228.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.06.561228"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-10-12",
+      "firstPublicationDate": "2023-10-09",
+      "firstIndexDate": "2023-10-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

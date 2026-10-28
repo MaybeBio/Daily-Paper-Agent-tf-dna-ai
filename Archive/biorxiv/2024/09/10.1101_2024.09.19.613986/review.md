@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and suitability for a generalist biomedical audience
+- **Shared manuscript claim summary** The authors present BTFBS, a deep learning model with two inputs (bacterial transcription factor amino acid sequences and binding site nucleotide sequences), which predicts whether a given TF and binding site pair interact. The model uses convolutional neural networks and MultiheadAttention, with ordinal positional encoding. Two negative sampling strategies (RS and EE) are compared, and the authors report that RS yields higher test performance while EE yields better generalization on merged independent datasets. The authors claim superiority over existing methods (DeepBind, Dilated, KEGRU, DanQ, MAResNet) and provide a case study and an experimental application example.
+- **Visible evidence base** Abstract, Background, Methods (Datasets, Model construction, Evaluation metrics), Results and discussion (comparison tables and figures referenced), Case study, Discussion, Conclusion. Tables 1-5 and Figures 1-6 are referenced but not shown in the provided material.
+- **Missing materials affecting confidence** Actual tables and figures (Tables 1-5, Figures 1-6) are not provided. Dataset construction details (e.g., exact filtering criteria, sequence redundancy thresholds) are partially described but not fully specified. Hyperparameters, training details, and code implementation specifics are not described. The case study results are summarized but the underlying data are not shown. The experimental application section references external data without providing the actual sequences or scores.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in bacterial gene regulation: predicting TF-binding site interactions from sequence alone. The two-input architecture and the comparison of negative sampling strategies are potentially useful contributions. However, the provided material is insufficient to fully evaluate the technical soundness of the work. Key tables and figures are missing, training details are absent, and several claims (e.g., superiority over existing methods, generalization ability) cannot be verified from the supplied text. The writing is generally clear but contains some imprecise statements and undefined terms. The work is of interest to computational biologists and microbiologists, but the current evidence base does not fully establish the stated conclusions.
+- **Who would be interested in the results, and why** Computational biologists working on TF-DNA interaction prediction, microbiologists studying bacterial transcriptional regulation, and researchers developing deep learning methods for biological sequence analysis. The comparison of negative sampling strategies is particularly relevant for practitioners building similar models.
+- **Major strengths** The problem is well motivated and practically important. The two-input architecture (protein and DNA sequences) is a sensible design choice. The explicit comparison of two negative sampling strategies (RS and EE) addresses a methodological gap in the field. The inclusion of an experimental application example is commendable. The model is made publicly available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves high performance metrics (ACC=0.91446, MCC=0.82946 for RS; ACC=0.87868, MCC=0.75796 for EE) and outperforms existing methods.
+  - **Evidence pointer** Tables 1-5, Figures 3-5 (not provided)
+  - **Concern** The actual performance tables and figures are not included in the provided material. Without these data, the reported metrics cannot be independently assessed. Additionally, the comparison with existing methods (DeepBind, Dilated, KEGRU, DanQ, MAResNet) is described only in text; the actual results are not visible. The claim of superiority (0.86% accuracy and 3.72% AUC improvement) cannot be verified.
+  - **Why it matters** The central claim of the manuscript is that BTFBS performs well and outperforms existing methods. Without the underlying data, this claim is unverifiable. The reader cannot assess whether the improvements are statistically significant or within noise.
+  - **Resolution test** Provide the actual tables and figures with full performance metrics, including confidence intervals or statistical significance tests for the comparisons with existing methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model uses convolutional neural networks and MultiheadAttention, with ordinal positional encoding, to extract features from protein and DNA sequences.
+  - **Evidence pointer** Methods, Model construction (location not provided)
+  - **Concern** The model architecture is described at a high level, but critical implementation details are missing. The number of convolutional layers, kernel sizes, number of attention heads, embedding dimensions, dropout rates, learning rates, batch sizes, and optimization algorithms are not specified. The training procedure (number of epochs, early stopping criteria, loss function) is not described. The manuscript states that "the architecture of MultiheadAttention is described as follows" but the equations are not fully rendered in the provided text.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without these details, other researchers cannot reimplement or build upon the method. The lack of hyperparameter information also prevents assessment of whether the model is appropriately regularized or overfitting.
+  - **Resolution test** Provide a complete description of the model architecture, training procedure, and all hyperparameters. Include the full equations for the attention mechanism. Consider providing the code as supplementary material.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and experimental design
+  - **Claim pointer** The authors state that "the optimal approach for obtaining negative samples in the context of bacterial research is to utilize the whole genome sequences of the corresponding bacteria, as opposed to the shuffling method."
+  - **Evidence pointer** Methods, Datasets; Results, Comparison of models (location not provided)
+  - **Concern** The dataset construction is only partially described. For the RS method, the authors state that non-coding regions are randomly intercepted and filtered by sequence similarity (90% threshold), but the exact criteria for "non-coding" are not defined. For the EE method, the number of adjacent positions and the distance from the binding site are not specified. The total number of positive samples (5159) and negative samples (27236 for RS, 9112 for EE) are reported, but the balance between positive and negative samples in the final training sets is unclear. The claim that RS is "optimal" is based on the reported performance, but the generalization analysis (merged independent datasets) is described only qualitatively.
+  - **Why it matters** The choice of negative samples is a critical determinant of model performance and generalizability. If the negative sampling is biased or the datasets are imbalanced, the reported metrics may not reflect real-world performance. The claim about the optimal negative sampling strategy needs to be supported by rigorous statistical analysis.
+  - **Resolution test** Provide a detailed description of the dataset construction, including exact criteria for non-coding region selection, the distance of EE negative samples from binding sites, and the class balance in each dataset. Provide statistical analysis of the generalization comparison (RS vs. EE on merged independent datasets).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation and interpretation
+  - **Claim pointer** The case study identifies "two prediction errors" in RS and "two instances of incorrect prediction" in EE for positive samples from literature (2022-2024).
+  - **Evidence pointer** Results, Case Study (location not provided)
+  - **Concern** The case study is described in a single paragraph without details. The 11 retrieved data points are not listed, the prediction scores are not shown, and the nature of the errors is not analyzed. The statement that the model has "validity and generalization ability" based on 11 examples is not statistically meaningful.
+  - **Why it matters** The case study is presented as evidence of the model's practical utility. Without detailed results, the reader cannot assess whether the model performs well on unseen, recently published data. The small sample size limits the strength of any conclusion.
+  - **Resolution test** Provide the full case study data, including the 11 TF-binding site pairs, prediction scores, and an analysis of the errors. Acknowledge the limitations of the small sample size.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clarity and completeness
+  - **Claim pointer** The experimental application section states that two 100 bp DNA fragments were provided and that sliding window predictions ranked the binding-site-containing fragments highly (rank 2-12 out of 76).
+  - **Evidence pointer** Results, BTFBS provides an experimental guide (location not provided)
+  - **Concern** This section is described as an "experimental guide" but the actual experimental validation is not described. It is unclear whether the predictions were confirmed experimentally or whether this is only a computational demonstration. The reference to [23] is not accessible in the provided material.
+  - **Why it matters** The claim that BTFBS "provides an experimental guide" implies that the predictions were useful in a practical setting. Without experimental confirmation or a clear description of the validation, this claim is overstated.
+  - **Resolution test** Clarify whether the predictions were experimentally validated. If not, revise the claim to reflect that this is a computational demonstration only.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract, Results (location not provided)
+  - **Issue** The abstract states that "the optimal approach for obtaining negative samples in the context of bacterial research is to utilize the whole genome sequences of the corresponding bacteria, as opposed to the shuffling method." This conclusion is stated definitively, but the evidence in the text is based on a single comparison and the generalization analysis is described qualitatively.
+  - **Required correction** Soften the language to reflect the preliminary nature of this finding, or provide stronger statistical evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Model construction
+  - **Evidence pointer** Methods, Model construction (location not provided)
+  - **Issue** The equations for the attention mechanism are referenced but not fully rendered in the provided text. The notation is incomplete.
+  - **Required correction** Ensure all equations are fully and correctly rendered in the final manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Background, Discussion
+  - **Evidence pointer** Background, Discussion (location not provided)
+  - **Issue** Some sentences are long and contain redundant phrasing. For example, "Machine learning and deep learning have obtained significant achievements in the prediction of binding sites" is vague. The Discussion section repeats points already made in the Results.
+  - **Required correction** Tighten the prose and avoid repetition. Use more specific language to describe achievements and findings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Datasets
+  - **Evidence pointer** Methods, Datasets (location not provided)
+  - **Issue** The number of positive samples (5159) and negative samples (27236 for RS, 9112 for EE) are reported, but the final class balance in the training and test sets is not stated. It is also unclear whether the independent datasets are balanced.
+  - **Required correction** Report the class distribution for all datasets (training, test, independent).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Availability of data and materials
+  - **Evidence pointer** Availability of data and materials (location not provided)
+  - **Issue** The GitHub repository is mentioned, but it is not clear whether the code includes all preprocessing steps, model training scripts, and evaluation scripts.
+  - **Required correction** Clarify the contents of the repository and ensure all code needed for reproduction is included.
+- **Technical failings that need to be addressed before the case is established** The absence of the actual performance tables and figures (Tables 1-5, Figures 1-6) is a critical gap. The model architecture and training details are insufficiently specified for reproducibility. The statistical significance of the reported improvements over baseline methods is not established. The case study and experimental application sections lack sufficient detail to support the claims made.
+- **Assessment against Nature-style criteria** Originality: The two-input architecture for TF-binding site prediction is not entirely novel, but the systematic comparison of negative sampling strategies for bacterial data is a useful contribution. Scientific importance: The problem is relevant, but the impact is incremental rather than transformative. Interdisciplinary readership: The work is primarily of interest to computational biologists and microbiologists; the broader significance is not clearly articulated. Technical soundness: Cannot be fully assessed from the provided material due to missing tables, figures, and implementation details. Readability for nonspecialists: The manuscript is generally readable, but some sections assume familiarity with deep learning terminology. The abstract is clear and accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims cannot be verified without the missing tables and figures, and the methodological details are insufficient for reproducibility. The authors should be invited to provide the full data and implementation details for a complete review.
+
+## Risk / unsupported claims
+- The claim that BTFBS outperforms existing methods (DeepBind, Dilated, KEGRU, DanQ, MAResNet) is unsupported because the comparison results are not shown.
+- The claim that RS is the optimal negative sampling strategy is only weakly supported by the text; the generalization analysis is described qualitatively.
+- The claim that BTFBS "provides an experimental guide" is unsupported because no experimental validation is described.
+- The case study claims of "validity and generalization ability" are based on 11 examples and are not statistically robust.
+- The statement that "the negative samples should be come from the whole genome sequences of the corresponding bacteria" is presented as a general conclusion but is based on a limited comparison.

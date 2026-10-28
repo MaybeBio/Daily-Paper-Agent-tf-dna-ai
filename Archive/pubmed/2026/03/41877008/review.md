@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion sections. Figures and tables are referenced but not fully visible in the provided material.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodological soundness, and claims as presented in the text. No assessment of code availability, reproducibility scripts, or supplementary data is possible from the provided material.
+- **Shared manuscript claim summary** The authors propose DcSE, a deep learning framework based on an enhanced DenseNet with a modified Convolutional Block Attention Module (CBAM) that uses dynamic fusion of channel and spatial attention. They claim superior performance over existing state-of-the-art models on human and mouse super-enhancer benchmark datasets, robust generalization via cross-species validation, and biological interpretability through motif analysis identifying species-specific transcription factors.
+- **Visible evidence base** Tables 1-7 (dataset details, performance metrics, ablation studies, imbalanced dataset results), Figures 1-15 (model architecture, ROC curves, fusion method comparisons, weight distributions, t-SNE plots, cross-species validation, motif analysis). Statistical significance testing described in text.
+- **Missing materials affecting confidence** Actual figure images, supplementary materials, code repository, hyperparameter search details, full experimental logs, and any data preprocessing scripts are not provided. The exact implementation of the dynamic fusion mechanism and the ensemble strategy requires further clarification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically sound deep learning approach for super-enhancer prediction with a novel attention fusion mechanism. The authors demonstrate thorough experimental evaluation including ablation studies, comparisons with existing methods, imbalanced dataset testing, and biological interpretability analysis. However, several methodological details require clarification, and the claimed novelty of the dynamic fusion mechanism needs stronger positioning against existing attention fusion literature. The performance improvements over baselines, while consistent, are modest in some metrics and the statistical rigor of comparisons could be strengthened.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and deep learning applications in biology would find this work relevant. The dynamic attention fusion mechanism could interest the broader deep learning community working on attention-based architectures. Biologists studying transcriptional regulation and super-enhancer biology may benefit from the interpretability analysis linking model predictions to known transcription factor motifs.
+- **Major strengths**
+  1. Comprehensive evaluation framework including balanced and imbalanced datasets, cross-species validation, and ablation studies.
+  2. The dynamic fusion mechanism for channel and spatial attention is a reasonable architectural contribution with quantitative analysis of learned weights.
+  3. Biological interpretability analysis through motif discovery adds practical value beyond predictive performance.
+  4. Clear acknowledgment of limitations and future directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the dynamic fusion mechanism "adjusts the contributions of channel and spatial attention through learnable parameters" and that this is superior to "fixed-weight fusion or simple concatenation."
+  - **Evidence pointer** Methods section "Improve CBAM", Eq. (2), Figure 4, Section "Quantitative explanatory analysis of dynamic fusion mechanisms"
+  - **Concern** The dynamic fusion mechanism as described in Eq. (2) appears to be a simple weighted sum of channel and spatial attention outputs with sigmoid-constrained weights. This is functionally equivalent to a learnable weighted average, which is a relatively minor modification over existing attention fusion approaches. The authors do not compare against other learnable fusion strategies such as gated fusion, multi-head attention fusion, or adaptive fusion methods from the broader attention literature. The claim of novelty and superiority is therefore not fully established.
+  - **Why it matters** The core architectural contribution of the paper rests on this dynamic fusion mechanism. If it is not clearly differentiated from existing approaches, the scientific contribution is substantially weakened.
+  - **Resolution test** The authors should provide a more comprehensive comparison against alternative fusion strategies, including gated mechanisms, attention-on-attention, and other learnable fusion methods. Additionally, they should clarify whether the two learnable parameters are the only parameters in the fusion module, and whether the sigmoid constraint is necessary or if other normalization methods (e.g., softmax) would perform differently.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "DcSE adopts an ensemble learning framework utilizing cross-validation and multiple initializations" and that this "achieves multi-model fusion of prediction results and appreciable performance improvement."
+  - **Evidence pointer** Methods section "Ensemble model", Section "Comparison of DcSE with existing predictors"
+  - **Concern** The ensemble strategy is described as combining five submodels trained via five-fold cross-validation. However, the relationship between the ten independent data splits and the five-fold ensemble is unclear. Specifically, for each of the ten splits, is a separate five-fold ensemble trained? If so, the total number of trained models is 50, and the computational cost is significant. The authors do not report the variance of ensemble performance across the ten splits, nor do they compare ensemble performance against single-model performance within the same framework. The claim of "appreciable performance improvement" from ensembling is not quantified.
+  - **Why it matters** The ensemble strategy is a key component of the proposed framework. Without clear quantification of its contribution and clarification of the experimental design, the reproducibility and practical utility of the method are compromised.
+  - **Resolution test** The authors should provide a clear description of the ensemble construction for each of the ten splits, report the performance of single models versus the ensemble, and quantify the improvement attributable to ensembling. They should also report the computational cost of training 50 models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that DcSE "surpasses existing state-of-the-art models across all evaluation metrics" on both human and mouse datasets.
+  - **Evidence pointer** Tables 4 and 5, Section "Comparison of DcSE with existing predictors"
+  - **Concern** The comparison against existing models (MuSE, DeepSE, SENet) is limited to three deep learning baselines plus traditional machine learning methods. The authors do not compare against more recent super-enhancer prediction tools that may have been published after the cited baselines. Additionally, the statistical significance of performance differences is only partially reported. For the human dataset, the improvement over SVM in accuracy is only 0.61 percentage points, and the authors acknowledge that differences in F1 and Recall are not statistically significant. The claim of "surpassing across all metrics" is therefore overstated.
+  - **Why it matters** The scientific importance of the proposed method depends on demonstrating clear and statistically robust improvements over the current state of the art. Overstated claims undermine the credibility of the work.
+  - **Resolution test** The authors should include more recent baselines, report effect sizes and confidence intervals for all metrics, and temper their claims to accurately reflect the statistical significance of their results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "cross-species validation experiments prove the robust generalization capability of the framework."
+  - **Evidence pointer** Section "Cross-species cross-validation", Figure 13
+  - **Concern** The cross-species validation shows a decline in performance compared to intra-species prediction, with AUC dropping from above 0.82 to 0.78-0.80. While the authors interpret this as evidence of generalization, the decline is not discussed in the context of what would be expected from random chance or from a model that has learned species-specific features. The authors do not compare against a control model trained on shuffled labels or a model trained on one species and tested on the same species with a different data split. The claim of "robust generalization" is therefore not fully supported.
+  - **Why it matters** Cross-species generalization is a key claim of the paper. Without appropriate controls and a more nuanced discussion of the performance decline, the claim is not fully substantiated.
+  - **Resolution test** The authors should include control experiments (e.g., a model trained on shuffled labels) and discuss the expected performance decline due to species-specific regulatory differences. They should also report whether the cross-species performance is significantly better than a random baseline.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction states that super-enhancers span "8,000 to 20,000 base pairs" but the conclusion mentions "8 kb to 20 kb". Inconsistent units are used.
+  - **Required correction** Use consistent units throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Data" section
+  - **Evidence pointer** Table 1
+  - **Issue** The dataset description mentions "16,666,905 TEs" in the text but Table 1 reports 10,341 negative samples for human. The discrepancy between the total number of TEs and the number used in the balanced dataset is not clearly explained.
+  - **Required correction** Clarify the data sampling procedure and the relationship between the original TE pool and the final balanced dataset.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Improve CBAM" section
+  - **Evidence pointer** Eq. (2)
+  - **Issue** The notation in Eq. (2) uses "wt" and "wg" for the learnable weights, but the text refers to "weight_channel" and "weight_spatial". The notation is inconsistent.
+  - **Required correction** Use consistent notation for the learnable parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Comparison of DcSE with existing predictors"
+  - **Evidence pointer** Tables 4 and 5
+  - **Issue** The text states that DcSE achieves "a 6.12% improvement" over MuSE in accuracy on the human dataset. This is calculated as (80.81-76.15)/76.15 = 6.12%, but the phrasing could be misinterpreted as a 6.12 percentage point improvement.
+  - **Required correction** Clarify whether the improvement is relative or absolute.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Motif analysis"
+  - **Evidence pointer** Figures 14 and 15
+  - **Issue** The text states that the motif analysis identified ZKSCAN3 in humans and STAT1 in mouse. However, the biological significance of these specific transcription factors in the context of super-enhancer biology is not discussed.
+  - **Required correction** Add a brief discussion of the known roles of ZKSCAN3 and STAT1 in transcriptional regulation and their relevance to super-enhancer function.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Performance evaluation" section
+  - **Evidence pointer** Eq. (3)
+  - **Issue** The F1 formula in Eq. (3) is written as "2×2×TP/(2×TP+FP+FN)" which appears to have a typo. The standard F1 formula is 2×TP/(2×TP+FP+FN).
+  - **Required correction** Correct the F1 formula.
+- **Assessment against Nature-style criteria**
+  - **Originality** The dynamic fusion mechanism for channel and spatial attention is a modest incremental contribution. The overall architecture (DenseNet + attention) is not fundamentally novel, but the specific fusion strategy and its application to super-enhancer prediction provide some originality. The originality is limited by the lack of comparison with other learnable fusion methods.
+  - **Scientific importance** Super-enhancer prediction is a relevant problem in regulatory genomics. The work provides a useful tool with demonstrated performance on benchmark datasets. However, the scientific importance is tempered by the modest improvements over baselines and the lack of demonstrated biological insights beyond confirming known transcription factor motifs.
+  - **Interdisciplinary readership** The work bridges deep learning and genomics, which has broad appeal. The interpretability analysis (motif discovery) makes the work accessible to biologists. However, the technical depth of the deep learning contributions may limit appeal to the broader machine learning community.
+  - **Technical soundness** The experimental design is generally sound, with appropriate evaluation metrics and ablation studies. However, several methodological details require clarification (ensemble construction, statistical testing, comparison baselines). The technical soundness is adequate but not exceptional.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The background section provides sufficient context for readers unfamiliar with super-enhancer biology. However, the methods section assumes familiarity with deep learning concepts and could benefit from additional explanation for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a reasonable contribution to the field of super-enhancer prediction, but the claims of novelty and superiority need to be tempered and better supported. The methodological clarifications requested in the major concerns are essential for reproducibility and for establishing the scientific case.
+
+## Risk / unsupported claims
+- The claim that DcSE "surpasses existing state-of-the-art models across all evaluation metrics" is not fully supported given the lack of statistical significance on some metrics and the limited set of comparison baselines.
+- The claim that the dynamic fusion mechanism is superior to other learnable fusion strategies is not established, as no comparison against such alternatives is provided.
+- The claim of "robust generalization capability" from cross-species validation is not fully supported without appropriate control experiments.
+- The biological interpretation that the model captures "evolutionarily conserved core sequence features" is speculative and not directly tested.
+- The statement that the ensemble strategy provides "appreciable performance improvement" is not quantified.

@@ -1,0 +1,170 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-sfn7n",
+  "title": "Protein Language Model Embeddings Distinguish Catalytic from Structural Zinc-Binding Sites with Interpretable Attention Signatures",
+  "doi": "10.26434/chemrxiv-2025-sfn7n",
+  "abstract": "Zinc ions serve dual roles in proteins—as catalytic cofactors and as structural elements. Distinguishing these functional classes from sequence alone remains challenging because both share similar coordination geometries. Here we demonstrate that ESM-2 embeddings encode sufficient information to classify catalytic versus structural zinc sites with high accuracy. On 73 sequence-diverse zinc proteins, a random forest classifier achieves ROC-AUC of 0.931, significantly outperforming a motif-based baseline (AUC = 0.759; p = 0.015). Attention analysis reveals that histidine ligands in catalytic sites attend 9.2-fold more strongly to second-shell carboxylate residues—the proton-shuttling machinery essential for catalysis—than to random positions, providing mechanistic interpretability. These findings suggest that evolutionary sequence patterns encode the extended hydrogen-bonding networks distinguishing catalytic from structural sites. This sequence-only approach complements structure-based methods for large-scale metalloproteome annotation.",
+  "authors": [
+    "Karen Sargsyan"
+  ],
+  "published_date": "2025-12-17",
+  "updated_date": "2025-12-17T09:06:52Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-sfn7n",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-sfn7n",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:12:20Z",
+        "timestamp": 1778753540391,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            17
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2025-12-17T00:00:00Z",
+            "timestamp": 1765929600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Zinc ions serve dual roles in proteins—as catalytic cofactors and as structural elements. Distinguishing these functional classes from sequence alone remains challenging because both share similar coordination geometries. Here we demonstrate that ESM-2 embeddings encode sufficient information to classify catalytic versus structural zinc sites with high accuracy. On 73 sequence-diverse zinc proteins, a random forest classifier achieves ROC-AUC of 0.931, significantly outperforming a motif-based baseline (AUC = 0.759; p = 0.015). Attention analysis reveals that histidine ligands in catalytic sites attend 9.2-fold more strongly to second-shell carboxylate residues—the proton-shuttling machinery essential for catalysis—than to random positions, providing mechanistic interpretability. These findings suggest that evolutionary sequence patterns encode the extended hydrogen-bonding networks distinguishing catalytic from structural sites. This sequence-only approach complements structure-based methods for large-scale metalloproteome annotation.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-sfn7n",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            17
+          ]
+        ],
+        "date-time": "2025-12-17T09:06:52Z",
+        "timestamp": 1765962412000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Protein Language Model Embeddings Distinguish Catalytic from Structural Zinc-Binding Sites with Interpretable Attention Signatures"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8931-6308",
+          "authenticated-orcid": false,
+          "given": "Karen",
+          "family": "Sargsyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Chemistry, Academia Sinica"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-sfn7n",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:20:07Z",
+        "timestamp": 1778750407000
+      },
+      "score": 133.19365,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-sfn7n"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            17
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-sfn7n",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.5c03142",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and reproducibility based solely on the provided text
+- **Shared manuscript claim summary** The authors present PNAbind, a graph neural network-based method that predicts protein-nucleic acid binding function and binding sites from protein structures, using molecular surface mesh representations with physicochemical, geometric, electrostatic, and evolutionary features. The method is claimed to achieve high accuracy on benchmark datasets and to generalize to predicted (AlphaFold2) structures.
+- **Visible evidence base** Text descriptions of methods, results, and comparisons; references to figures and tables that were not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, benchmark dataset details, and quantitative results beyond those stated in the text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable approach to a challenging problem in structural bioinformatics. The conceptual framework, combining surface mesh representations with graph neural networks, is well motivated and builds sensibly on prior work. However, the provided text alone is insufficient to verify the central claims. Key quantitative results are only summarized in the text, and the referenced figures and tables are not available for inspection. The methodological descriptions are detailed but several critical implementation choices and validation procedures require further clarification. The case study on APOBEC3G is compelling but its presentation in the text is brief and would benefit from more rigorous quantitative comparison with experimental data.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, nucleic acid binding site prediction, and structure-based annotation of proteins. Researchers studying protein-nucleic acid interactions, particularly those interested in DNA versus RNA binding specificity, would find the interpretability analyses relevant. The demonstrated applicability to AlphaFold2-predicted structures broadens the potential audience to researchers using predicted structures for high-throughput functional annotation.
+- **Major strengths** The use of molecular surface meshes is a well-reasoned representation choice that captures geometric and physicochemical properties relevant to binding. The dual prediction framework (global function classification and local binding site segmentation) is a useful design. The inclusion of feature attribution and spatial attribution analyses is commendable and provides mechanistic insight beyond simple prediction. The validation on multiple benchmark datasets and the negative control experiment strengthen the claims of generalizability. The application to APOBEC3G demonstrates practical utility and connects predictions to experimental observations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims AUROC scores of 0.92-0.95 for binding site prediction across benchmark datasets and 0.92-0.95 for binding function prediction.
+  - **Evidence pointer** Results section, Table 1, Table 2, Figure 5
+  - **Concern** The quantitative results are only presented as summary statistics in the text. The actual tables and figures containing the full performance metrics, confidence intervals, and comparisons with other methods are not available in the provided material. Without these, the claimed performance levels cannot be independently assessed or verified.
+  - **Why it matters** The central claims of the manuscript rest on these quantitative results. The reader cannot evaluate whether the reported AUROC values are statistically robust, whether the comparisons with prior methods are fair, or whether the performance generalizes across the diversity of proteins claimed.
+  - **Resolution test** Provide the full tables and figures with complete performance metrics, including confidence intervals, per-dataset results, and statistical significance tests for comparisons with other methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that models were trained on AlphaFold2-predicted structures and validated on benchmark datasets of native structures, and that predictions on predicted versus native structures show high correlation.
+  - **Evidence pointer** Results section, Figure 5c, Methods section
+  - **Concern** The text describes a comparison between predictions on native bound structures and AlphaFold2-predicted unbound structures, but the details of how the AlphaFold2 structures were obtained, how the binding site labels were mapped between structures, and how the correlation was computed are not fully specified. The claim of high correlation (0.76 Pearson) is presented without the underlying data or analysis details.
+  - **Why it matters** The applicability to predicted structures is a key selling point of the method, especially given the growing availability of AlphaFold2 predictions. If the mapping procedure or correlation analysis is flawed, the claim of generalizability to predicted structures would be weakened.
+  - **Resolution test** Provide a detailed description of the structure alignment and label mapping procedure, the number of protein pairs analyzed, and a scatter plot or equivalent visualization of the correlation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** The manuscript claims that the negative control experiment demonstrates low false positive rates on proteins with no known nucleic acid binding function.
+  - **Evidence pointer** Results section, Figure 5d, Methods section
+  - **Concern** The negative control dataset construction is described only briefly. The criteria for selecting proteins with "no known nucleic acid binding function" are not specified, and the possibility that some of these proteins may in fact bind nucleic acids under certain conditions is not addressed. The false positive rate comparison between negative control and test sets is presented without statistical testing.
+  - **Why it matters** The negative control experiment is important for establishing that the method does not simply predict binding everywhere. If the control dataset is not carefully constructed or the analysis is not statistically rigorous, the generalizability claim is weakened.
+  - **Resolution test** Provide the full list of negative control proteins, the criteria used to establish absence of nucleic acid binding, and statistical tests comparing false positive rates between control and test sets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** The manuscript claims that feature attribution and spatial attribution analyses provide mechanistic insight into DNA versus RNA binding discrimination, and that high-attribution regions correlate with known binding sites.
+  - **Evidence pointer** Results section, Figure 4, Supplementary Figure 2
+  - **Concern** The spatial attribution analysis is described as showing that high-attribution regions have "good precision" but "low recall" relative to known binding sites. This trade-off is acknowledged but not thoroughly discussed. The claim that attribution scores can be used to identify functionally relevant regions is plausible but the practical utility of this approach is not demonstrated beyond the single APOBEC3G example.
+  - **Why it matters** The interpretability analyses are a distinctive contribution of the manuscript. If the attribution methods are not rigorously validated or their limitations not fully explored, the claimed mechanistic insights may be overstated.
+  - **Resolution test** Provide a more detailed analysis of the precision-recall trade-off, including how the threshold for high attribution was chosen and how sensitive the conclusions are to this choice.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The manuscript claims improvements over recent methods on a variety of metrics for binding site prediction.
+  - **Evidence pointer** Results section, Table 2
+  - **Concern** The text states that PNAbind achieves the highest AUROC on all four test sets compared with recent methods, but the details of the comparison are not provided. It is unclear whether the same training and test splits were used, whether the comparison methods were run with their optimal settings, or whether the differences are statistically significant.
+  - **Why it matters** Claims of improvement over existing methods are only meaningful if the comparison is fair and the differences are statistically robust. Without these details, the reader cannot assess whether the reported improvements are genuine or artifacts of the evaluation setup.
+  - **Resolution test** Provide a detailed description of the comparison protocol, including hyperparameter selection for baseline methods, statistical significance tests, and any potential sources of bias in the evaluation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that predictions are made on AlphaFold2-modeled structures but does not specify whether the binding function models were trained exclusively on predicted structures or on a mix of native and predicted structures.
+  - **Required correction** Clarify the training data composition for the function prediction models in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Mesh Generation
+  - **Evidence pointer** Methods section
+  - **Issue** The shrink factor for the skin surface is set to 0.45, but no sensitivity analysis is provided to justify this choice. The manuscript also does not discuss how sensitive the results are to this parameter.
+  - **Required correction** Add a brief discussion of the choice of shrink factor and any sensitivity analyses performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Datasets
+  - **Evidence pointer** Methods section, Supplementary Figure 4
+  - **Issue** The text mentions that sequence clustering was performed at 35% similarity with two sequences sampled per cluster, but the rationale for this threshold and sampling strategy is not explained.
+  - **Required correction** Provide a brief justification for the clustering threshold and sampling strategy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, APOBEC3G case study
+  - **Evidence pointer** Results section, Figure 6
+  - **Issue** The case study is described as showing consistency with experimental data, but the text does not specify how the comparison was quantified or whether the agreement is statistically significant.
+  - **Required correction** Provide a more quantitative comparison with the experimental data, including any relevant statistical measures.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the generalizability of the approach to other ligand types is brief and speculative. The claim that the method "in principle can be applied to any class of proteins" is not supported by any preliminary evidence.
+  - **Required correction** Either temper this claim or provide preliminary evidence of applicability to other binding types.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence sufficiency), R1-M2 (methodological clarity), R1-M3 (validation rigor)
+- **Assessment against Nature-style criteria** Originality: The approach combines existing techniques (surface meshes, GNNs) in a novel configuration for nucleic acid binding prediction. The use of surface-based representations with interpretability analyses is a distinctive contribution, though the individual components are not entirely new. Scientific importance: The problem of predicting nucleic acid binding from structure is of significant biological importance, and the demonstrated applicability to AlphaFold2-predicted structures increases the potential impact. However, the importance relative to existing methods cannot be fully assessed without the missing comparison data. Interdisciplinary readership: The work bridges structural biology, machine learning, and bioinformatics, and would appeal to researchers in all three communities. The interpretability analyses make the work accessible to experimental biologists. Technical soundness: The methodological framework is sound in principle, but the missing details on validation procedures, dataset construction, and comparison protocols prevent a full assessment of technical soundness. Readability for nonspecialists: The manuscript is generally well written and the concepts are explained clearly. The abstract and introduction are accessible, though the methods section assumes familiarity with GNNs and molecular surface representations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core approach is promising and the conceptual framework is well motivated, but the provided text alone does not contain sufficient evidence to establish the central claims. The missing figures, tables, and methodological details must be provided for a complete assessment.
+
+## Risk / unsupported claims
+- The claim of achieving the highest AUROC on all four test sets compared with recent methods cannot be verified without the full comparison data.
+- The claim that high-attribution regions correlate with known binding sites is based on visual inspection and precision-recall curves that are not fully presented.
+- The claim that predictions on AlphaFold2-predicted structures show high correlation with native structures is presented without the underlying data.
+- The claim that the method generalizes to proteins outside the training domain is based on the negative control experiment, but the dataset construction and statistical analysis are not fully described.
+- The claim that the method can be applied to other types of functional annotations or ligand binding sites is speculative and not supported by evidence in the provided text.

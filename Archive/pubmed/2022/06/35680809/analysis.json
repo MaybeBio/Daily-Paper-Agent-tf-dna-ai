@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35680809",
+  "title": "[Bioinformatics Analysis of Core Genes and Key Pathways in Myelodysplastic Syndrome].",
+  "authors": "Wang, Yan; Wang, Ying-Shao; Hu, Nai-Bo; Teng, Guang-Shuai; Zhou, Yuan; Bai, Jie",
+  "journal": "Zhongguo shi yan xue ye xue za zhi",
+  "published_date": "2022-06-11",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据库对骨髓增生异常综合征进行差异表达基因与通路富集的生物信息学分析，虽涉及转录因子LEF1与DNA结合相关GO注释，但无蛋白质-DNA互作建模、结合位点预测或AI/物理模拟方法，属于纯表达谱与PPI网络分析，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: To screen differentially expressed gene (DEG) related to myelodysplastic syndrome (MDS) based on Gene Expression Omnibus (GEO) database, and explore the core genes and pathogenesis of MDS by analyzing the biological functions and related signaling pathways of DEG. METHODS: The expression profiles of GSE4619, GSE19429, GSE58831 including MDS patients and normal controls were downloaded from GEO database. The gene expression analysis tool (GEO2R) of GEO database was used to screen DEG according to | log FC (fold change) |>/=1 and P<0.01. David online database was used to annotate gene ontology function (GO). Metascape online database was used to enrich and analyze differential genes in Kyoto Encyclopedia of Genes and Genomes (KEGG). The protein-protein interaction network (PPI) was constructed by using STRING database. CytoHubba and Mcode plug-ins of Cytoscape were used to analyze the key gene clusters and hub genes. R language was used to diagnose hub genes and draw the ROC curve. GSEA enrichment analysis was performed on GSE19429 according to the expression of LEF1. RESULTS: A total of 74 co-DEG were identified, including 14 up-regulated genes and 60 down regulated genes. GO enrichment analysis indicated that BP of down regulated genes was mainly enriched in the transcription and regulation of RNA polymerase II promoter, negative regulation of cell proliferation, and immune response. CC of down regulated genes was mainly enriched in the nucleus, transcription factor complexes, and adhesion spots. MF was mainly enriched in protein binding, DNA binding, and beta-catenin binding. KEGG pathway was enriched in primary immunodeficiency, Hippo signaling pathway, cAMP signaling pathway, transcriptional mis-regulation in cancer and hematopoietic cell lineage. BP of up-regulated genes was mainly enriched in type I interferon signaling pathway and viral response. CC was mainly enriched in cytoplasm. MF was mainly enriched in RNA binding. Ten hub genes and three important gene clusters were screened by STRING database and Cytoscape software. The functions of the three key gene clusters were closely related to immune regulation. ROC analysis showed that the hub genes had a good diagnostic significance for MDS. GSEA analysis indicated that LEF1 may affect the normal function of hematopoietic stem cells by regulating inflammatory reaction, which further revealed the pathogenesis of MDS. CONCLUSION: Bioinformatics can effectively screen the core genes and key signaling pathways of MDS, which provides a new strategy for the diagnosis and treatment of MDS.",
+  "abstract_zh": "目的：基于基因表达汇编(Gene Expression Omnibus，GEO)数据库筛选骨髓增生异常综合征(myelodysplastic syndrome，MDS)差异表达基因(differentially expressed gene，DEG)，并对DEG进行生物学功能及相关信号通路分析，探讨MDS的核心基因及发病机制。方法：从GEO数据库下载GSE4619、GSE19429、GSE58831 包括 MDS 患者和正常对照者的表达谱。采用 GEO 数据库的基因表达分析工具(GEO2R)根据|log FC(fold change)|≥1且P<0.01筛选DEG。利用David在线数据库进行基因本体功能(gene ontology，GO)注释。利用Metascape在线数据库对差异基因进行京都基因与基因组百科全书(Kyoto Encyclopedia of Genes and Genomes，KEGG)富集分析。利用STRING数据库构建蛋白质-蛋白质相互作用网络(protein-protein interaction，PPI)。利用Cytoscape软件的CytoHubba和Mcode插件分析关键基因簇和核心基因。利用R语言对核心基因进行诊断并绘制ROC曲线。根据LEF1的表达对GSE19429进行GSEA富集分析。结果：共鉴定出74个共DEG，包括14个上调基因和60个下调基因。GO富集分析表明，下调基因的BP主要富集在RNA聚合酶II启动子的转录和调控、细胞增殖的负调控和免疫应答。下调基因的CC主要富集在细胞核、转录因子复合物和黏附斑。MF主要富集在蛋白质结合、DNA结合和β-连环蛋白结合。KEGG通路富集在原发性免疫缺陷、Hippo信号通路、cAMP信号通路、癌症中的转录失调和造血细胞谱系。上调基因的BP主要富集在I型干扰素信号通路和病毒应答。CC主要富集在细胞质。MF主要富集在RNA结合。通过STRING数据库和Cytoscape软件筛选出10个核心基因和3个重要基因簇。3个关键基因簇的功能与免疫调节密切相关。ROC分析显示，核心基因对MDS具有良好的诊断意义。GSEA分析表明，LEF1可能通过调节炎症反应影响造血干细胞的正常功能，进一步揭示MDS的发病机制。结论：生物信息学能有效筛选MDS的核心基因和关键信号通路，为MDS的诊断和治疗提供新策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35680809/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35680809/",
+  "paper_page_path": "papers/pubmed/35680809/index.html"
+}

@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "42511824",
+    "doi": "10.3390/ijms27146481",
+    "title": "CDDO-Me Overcomes Gefitinib Resistance in NSCLC by Targeting the Src/STAT3 Axis to Induce Apoptosis and Pyroptosis."
+  },
+  "content": {
+    "abstract": "Patients with EGFR-mutant non-small-cell lung cancer (NSCLC) develop acquired resistance to epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), limiting the durability of targeted therapy. Bardoxolone methyl (CDDO-Me) has been reported to exert anti-inflammatory and anti-cancer activities. However, its role in acquired EGFR-TKI resistance remains unclear. Here, we found that CDDO-Me significantly enhanced sensitivity of resistant NSCLC cells to gefitinib, with combination index analysis confirming a synergistic interaction between CDDO-Me and gefitinib. Mechanistically, CDDO-Me induced mitochondrial dysfunction and reactive oxygen species (ROS) accumulation, thereby activating Caspase-3 mediated apoptosis and GSDME-dependent pyroptosis, as evidenced by increased lactate dehydrogenase (LDH) release. Network pharmacology and molecular docking analyses identified Src as a potential target of CDDO-Me. Cellular thermal shift assay (CETSA) confirmed cellular engagement between CDDO-Me and Src, and Western blot analysis showed that CDDO-Me suppressed Src/STAT3 signaling. Consistently, Src knockdown reduced the inhibitory effect of combined CDDO-Me and gefitinib treatment on colony formation and attenuated changes in apoptosis and pyroptosis regulatory proteins induced by the combination treatment. Collectively, these findings suggest that CDDO-Me enhances gefitinib sensitivity by targeting Src and suppressing Src/STAT3 signaling, leading to apoptosis and pyroptosis in gefitinib-resistant NSCLC cells. This study provides mechanistic evidence for further investigation of CDDO-Me-based combination strategies for gefitinib-resistant NSCLC.",
+    "keywords": [
+      "CDDO-Me",
+      "Src/STAT3 pathway",
+      "apoptosis",
+      "gefitinib resistance",
+      "non-small-cell lung cancer",
+      "pyroptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gefitinib/pharmacology",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Drug Resistance, Neoplasm/drug effects",
+      "*Apoptosis/drug effects",
+      "*Carcinoma, Non-Small-Cell Lung/metabolism/drug therapy/pathology",
+      "*Lung Neoplasms/metabolism/drug therapy/pathology",
+      "*Pyroptosis/drug effects",
+      "Signal Transduction/drug effects",
+      "Cell Line, Tumor",
+      "*Oleanolic Acid/analogs & derivatives/pharmacology",
+      "*src-Family Kinases/metabolism",
+      "Reactive Oxygen Species/metabolism",
+      "Protein Kinase Inhibitors/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tongtong",
+        "Du, Weiyu",
+        "Wang, Ruoxian",
+        "Yu, Xudong",
+        "Zhang, Bing",
+        "Wang, Wenjuan",
+        "Xu, Jiahui",
+        "Cao, Hui",
+        "Tang, Dongtong",
+        "Liu, Ning"
+      ],
+      "short_names": [
+        "Li T",
+        "Du W",
+        "Wang R",
+        "Yu X",
+        "Zhang B",
+        "Wang W",
+        "Xu J",
+        "Cao H",
+        "Tang D",
+        "Liu N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7009-9187"
+      ],
+      "affiliations": [
+        "International Research Centre for Food and Health, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "International Research Centre for Food and Health, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+        "Marine Biomedical Science and Technology Innovation Platform of Lin-Gang Special Area, Shanghai 201306, China.",
+        "Shanghai Engineering Research Center of Aquatic-Product Processing & Preservation, Shanghai 201306, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tongtong",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "International Research Centre for Food and Health, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Du, Weiyu",
+        "short_name": "Du W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruoxian",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xudong",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bing",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenjuan",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jiahui",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Hui",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Dongtong",
+        "short_name": "Tang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ning",
+        "short_name": "Liu N",
+        "identifiers": [
+          "0000-0002-7009-9187"
+        ],
+        "affiliations": [
+          "International Research Centre for Food and Health, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+          "Department of Chemistry, College of Food Science and Technology, Shanghai Ocean University, Shanghai 201306, China.",
+          "Marine Biomedical Science and Technology Innovation Platform of Lin-Gang Special Area, Shanghai 201306, China.",
+          "Shanghai Engineering Research Center of Aquatic-Product Processing & Preservation, Shanghai 201306, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jul 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41291696",
+      "41271670",
+      "41219394",
+      "40860132",
+      "40731166",
+      "40714179",
+      "40461793",
+      "40081325",
+      "39300122",
+      "38466945",
+      "38382773",
+      "38242081",
+      "38195694",
+      "38104141",
+      "38064878",
+      "38064254",
+      "37460805",
+      "37060646",
+      "36906600",
+      "36641456",
+      "36630483",
+      "35929395",
+      "35122001",
+      "35102249",
+      "34273294",
+      "33776057",
+      "32839451",
+      "32514288",
+      "32299851",
+      "32174789",
+      "31751012",
+      "31564718",
+      "31215501",
+      "29462255",
+      "29455650",
+      "29151359",
+      "28619472",
+      "27932073",
+      "25928246",
+      "25364233",
+      "21399647"
+    ],
+    "similar": [
+      "42511824",
+      "27419630",
+      "39639305",
+      "41865688",
+      "31323446",
+      "27264264",
+      "33391507",
+      "34370268",
+      "33314735",
+      "41821004",
+      "41557244",
+      "15492284",
+      "39702296",
+      "26517520",
+      "31196210",
+      "20459702",
+      "33276757",
+      "29885023",
+      "38032449",
+      "27864022",
+      "26166037",
+      "28521301",
+      "19804422",
+      "40183386",
+      "32070026",
+      "42087187",
+      "33039730",
+      "30076870",
+      "24840891",
+      "32561477",
+      "34367462",
+      "29953997",
+      "24682085",
+      "41350725",
+      "30759826",
+      "29961070",
+      "24919575",
+      "32552611",
+      "39089636",
+      "38443724",
+      "12467212",
+      "18587580",
+      "31891230",
+      "32342201",
+      "30661098",
+      "34510760",
+      "22436374",
+      "28285685",
+      "33980216",
+      "22941374",
+      "38764025",
+      "42059424",
+      "41673646",
+      "31740781",
+      "41539998",
+      "38732063",
+      "25695284",
+      "26342551",
+      "32778129",
+      "37278440",
+      "33287873",
+      "29455644",
+      "29717264",
+      "32226300",
+      "17483332",
+      "28757172",
+      "31132355",
+      "30876460",
+      "41107309",
+      "20530710",
+      "24911146",
+      "34396444",
+      "17973572",
+      "23588221",
+      "41858068",
+      "41563447",
+      "27362807",
+      "41689610",
+      "34057242",
+      "26409771",
+      "22797920",
+      "27431492",
+      "41949384",
+      "31698509",
+      "33150167",
+      "34334155",
+      "34145929",
+      "28596283",
+      "17473213",
+      "33746190",
+      "33989664",
+      "38100532",
+      "25760142",
+      "36896765",
+      "22160570",
+      "31411813",
+      "36419390",
+      "35931945",
+      "25400829",
+      "31541631"
+    ],
+    "review": [
+      "42511824"
+    ],
+    "pmc": [
+      "13410134"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27146481",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42511824/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

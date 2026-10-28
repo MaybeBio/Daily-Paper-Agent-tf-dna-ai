@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "39762615",
+    "doi": "10.1007/s10142-024-01514-9",
+    "title": "Application of a high-throughput swarm-based deep neural network Algorithm reveals SPAG5 downregulation as a potential therapeutic target in adult AML."
+  },
+  "content": {
+    "abstract": "Gene‒gene interactions play pivotal roles in disease pathogenesis and are fundamental in the development of targeted therapeutics, particularly through the elucidation of oncogenic gene drivers in cancer. The systematic analysis of pathways and gene interactions is critical in the drug discovery process for various cancer subtypes. SPAG5, known for its role in spindle formation during cell division, has been identified as an oncogene in several cancers, although its specific impact on AML remains underexplored. This study leverages a high-throughput swarm-based deep neural network (SDNN) and transcriptomic data-an approach that enhances predictive accuracy and robustness through collective intelligence-to augment, model, and enhance the understanding of the TP53 pathway in AML cohorts. Our integrative systems biology approach identified SPAG5 as a uniquely downregulated driver in adult AML, underscoring its potential as a novel therapeutic target. The interaction of SPAG5 with key hub genes such as MDM2 and CDK1 not only reinforces its role in tumour suppression through negative regulation but also highlights its potential in moderating the phenotypic and genomic alterations associated with AML progression. This study of the role and interaction dynamics of SPAG5 sets the stage for future research aimed at developing targeted and personalized treatment approaches for AML, utilizing the capabilities of genetic interventions.",
+    "keywords": [
+      "Acute myelocytic leukaemia",
+      "Oncogenic drivers",
+      "SPAG5",
+      "Swarm-based deep neural network",
+      "TP53 pathway",
+      "Therapeutic target"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Leukemia, Myeloid, Acute/genetics/metabolism/drug therapy",
+      "*Cell Cycle Proteins/genetics/metabolism",
+      "Down-Regulation",
+      "Proto-Oncogene Proteins c-mdm2/genetics/metabolism",
+      "Tumor Suppressor Protein p53/genetics/metabolism",
+      "Neural Networks, Computer",
+      "Adult",
+      "Algorithms",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ajonu, Chinyere I",
+        "Grundy, Robert I",
+        "Ball, Graham R",
+        "Zafeiris, Dimitrios"
+      ],
+      "short_names": [
+        "Ajonu CI",
+        "Grundy RI",
+        "Ball GR",
+        "Zafeiris D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "John van Geest Cancer Research Centre, School of Science and Technology, Nottingham Trent University, Nottingham, United Kingdom. Chinyere.ajonu2019@my.ntu.ac.uk.",
+        "Intelligent OMICS Limited, Nottingham, United Kingdom. Chinyere.ajonu2019@my.ntu.ac.uk.",
+        "Intelligent OMICS Limited, Nottingham, United Kingdom.",
+        "Intelligent OMICS Limited, Nottingham, United Kingdom.",
+        "Medical Technology Research Centre, Anglia Ruskin University, Chelmsford, United Kingdom.",
+        "Intelligent OMICS Limited, Nottingham, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ajonu, Chinyere I",
+        "short_name": "Ajonu CI",
+        "identifiers": [],
+        "affiliations": [
+          "John van Geest Cancer Research Centre, School of Science and Technology, Nottingham Trent University, Nottingham, United Kingdom. Chinyere.ajonu2019@my.ntu.ac.uk.",
+          "Intelligent OMICS Limited, Nottingham, United Kingdom. Chinyere.ajonu2019@my.ntu.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Grundy, Robert I",
+        "short_name": "Grundy RI",
+        "identifiers": [],
+        "affiliations": [
+          "Intelligent OMICS Limited, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ball, Graham R",
+        "short_name": "Ball GR",
+        "identifiers": [],
+        "affiliations": [
+          "Intelligent OMICS Limited, Nottingham, United Kingdom.",
+          "Medical Technology Research Centre, Anglia Ruskin University, Chelmsford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Zafeiris, Dimitrios",
+        "short_name": "Zafeiris D",
+        "identifiers": [],
+        "affiliations": [
+          "Intelligent OMICS Limited, Nottingham, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2025 Jan 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/07 00:21",
+    "fetched_at": "2026-09-30 09:13:46"
+  },
+  "links": {
+    "cites": [
+      "41388117",
+      "40940796",
+      "40297459"
+    ],
+    "refs": [
+      "38003288",
+      "36692074",
+      "35951505",
+      "35853161",
+      "35745032",
+      "35730922",
+      "35479302",
+      "35052074",
+      "34952583",
+      "34796102",
+      "33932560",
+      "33879792",
+      "33551827",
+      "33518400",
+      "33421304",
+      "33057635",
+      "32291236",
+      "32101536",
+      "32014868",
+      "31808746",
+      "31393631",
+      "30879903",
+      "30664679",
+      "30538250",
+      "30379858",
+      "30333627",
+      "30089483",
+      "29977480",
+      "29846651",
+      "29608923",
+      "29489755",
+      "29227476",
+      "28927305",
+      "28607134",
+      "27881428",
+      "27235476",
+      "27141080",
+      "26967284",
+      "26620272",
+      "26376137",
+      "26082651",
+      "25405588",
+      "25232051",
+      "25025207",
+      "23885265",
+      "23634996",
+      "23563447",
+      "23518499",
+      "22966941",
+      "21125345",
+      "20850737",
+      "19307287",
+      "18692684",
+      "18420392",
+      "17664331",
+      "17015473",
+      "16618755",
+      "16014563",
+      "15794933",
+      "15266090",
+      "14597658",
+      "12356910",
+      "11549262"
+    ],
+    "similar": [
+      "39762615",
+      "30115703",
+      "30955859",
+      "29643228",
+      "27312051",
+      "28607134",
+      "40608889",
+      "39164278",
+      "20404136",
+      "24659749",
+      "16014563",
+      "33431824",
+      "29490944",
+      "30089483",
+      "25361931",
+      "27885271",
+      "32901886",
+      "27256803",
+      "23167335",
+      "19897582",
+      "39264435",
+      "38019903",
+      "35787548",
+      "31393631",
+      "30736840",
+      "27353420",
+      "33960640",
+      "25405759",
+      "37339579",
+      "31792998",
+      "25156865",
+      "17498302",
+      "36309559",
+      "28340577",
+      "39696708",
+      "40327322",
+      "37650687",
+      "39841459",
+      "33678118",
+      "24885082",
+      "20423286",
+      "36546586",
+      "30466751",
+      "38733986",
+      "26206331",
+      "24882579",
+      "25854351",
+      "32015093",
+      "18426989",
+      "41126239",
+      "30575392",
+      "36692074",
+      "20679392",
+      "27524244",
+      "37702691",
+      "34639121",
+      "34077778",
+      "27967292",
+      "21868571",
+      "35853161",
+      "24012741",
+      "35730922",
+      "24405416",
+      "18548093",
+      "29547122",
+      "26459177",
+      "36812228",
+      "37052262",
+      "32426838",
+      "40230093",
+      "25477334",
+      "33230261",
+      "39732045",
+      "40785506",
+      "29328425",
+      "24389645",
+      "37095494",
+      "23223432",
+      "32075226",
+      "34288813",
+      "41189229",
+      "40928707",
+      "18633130",
+      "25844667",
+      "20805992",
+      "33262524",
+      "22810507",
+      "28703806",
+      "32924682",
+      "30755442",
+      "40175625",
+      "32063580",
+      "34615546",
+      "31812692",
+      "22289989",
+      "22361354",
+      "32167393",
+      "16059649",
+      "31773676",
+      "39305365"
+    ],
+    "review": [
+      "39762615",
+      "28607134",
+      "35787548",
+      "31393631",
+      "30466751",
+      "41126239",
+      "36692074",
+      "20679392",
+      "34639121",
+      "27967292",
+      "25477334",
+      "24389645"
+    ],
+    "pmc": [
+      "11703901"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39762615/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-024-01514-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

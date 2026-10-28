@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions. Figure legends and table legends are included in the text. Figure images, supplementary figures, and supplementary tables are not provided.
+- **Assessment boundary** Scientific soundness, logical coherence, and evidentiary support for the claims made in the manuscript. No assessment of editorial fit or journal-specific scope is made.
+- **Shared manuscript claim summary** The authors propose that LDHC4 is overexpressed in LUAD, correlates with poor prognosis, promotes malignant phenotypes in vitro and in vivo, and mechanistically acts by elevating lactate levels, which drives lactylation of RB1 at lysine 900, disrupting the RB1–E2F1 complex, releasing cell cycle inhibition, and promoting tumor progression.
+- **Visible evidence base** Public database analyses (UALCAN, Kaplan-Meier Plotter, LOGpc), IHC on a 90-pair tissue microarray, in vitro functional assays in A549 and PC-9 cells, a xenograft model in C-NKG mice, DIA-based lactylation proteomics, molecular dynamics simulations, Co-IP, immunofluorescence, Western blotting, flow cytometry, and site-directed mutagenesis (K900R).
+- **Missing materials affecting confidence** Figure images, supplementary figures, supplementary tables (including Table S1), raw proteomics data, MD simulation trajectories, and statistical source data are not available. The manuscript states that the online version contains supplementary material, but this was not accessible for review.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting and novel connection between LDHC4, lactate metabolism, and RB1 lactylation in LUAD. The clinical correlation data are reasonably presented, and the functional experiments are standard. However, the central mechanistic claim, that lactylation at K900 of RB1 directly disrupts the RB1–E2F1 complex, rests on a combination of computational prediction and a single loss-of-function mutant (K900R) that has not been validated as a faithful mimic of the de-lactylated state. The evidence that LDHC4 specifically drives RB1 lactylation, rather than acting through a general increase in lactate, is correlative. The manuscript would be strengthened by direct evidence of the lactylation site, a gain-of-function approach, and a more rigorous demonstration that the K900R phenotype is due to loss of lactylation rather than other effects of the mutation.
+- **Who would be interested in the results, and why** Researchers in cancer metabolism, particularly those studying lactate signaling and protein lactylation, will be interested. The work also speaks to the cell cycle and tumor suppressor biology community, as it proposes a new post-translational modification of RB1. Clinically oriented researchers focused on LUAD biomarkers and therapeutic targets may also find the prognostic data relevant.
+- **Major strengths** The study addresses a timely and important topic, the non-metabolic functions of metabolic enzymes and the role of lactylation in cancer. The combination of clinical data, functional assays, and computational modeling is comprehensive. The identification of a specific lactylation site on RB1, if confirmed, would be a novel contribution. The use of a K900R mutant to probe function is a reasonable first step.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for the specific lactylation site
+  - **Claim pointer** The manuscript claims that LDHC4 specifically induces lactylation of RB1 at lysine 900 (RB1–K900lac), and that this modification is the key event disrupting the RB1–E2F1 complex.
+  - **Evidence pointer** Results section "LDHC4 overexpression alters the protein lactylation landscape in LUAD cells", Figure 3, Supplementary Table S1; Results section "Lactylation at the K900 site of RB1 disrupts the stability of its complex with E2F1", Figure 4.
+  - **Concern** The claim that K900 is the specific lactylation site is not directly supported by the evidence presented. The proteomics data (Figure 3, Table S1) identify RB1 as a differentially lactylated protein but do not, as described, map the modification to K900. The molecular dynamics simulations are based on a model of K900lac, but this is a prediction, not a verification. The cellular experiments use a K900R mutant, which is assumed to block lactylation, but no direct evidence is provided that K900 is the sole or primary lactylation site in cells, nor that the K900R mutation specifically abrogates lactylation without affecting other properties of the protein. The Western blot in Figure 3J, K shows increased RB1 lactylation with LDHC4 overexpression, but does not localize the modification to K900.
+  - **Why it matters** The entire mechanistic model hinges on the specific role of K900 lactylation. If the modification occurs at other sites, or if the K900R mutation affects RB1 function through a mechanism unrelated to lactylation (e.g., by disrupting protein folding or other interactions), the central conclusion is not valid.
+  - **Resolution test** Provide direct mass spectrometry evidence identifying K900 as a lactylation site in cells. Show that a K900R mutant is not lactylated while a K900Q (or other lactyl-mimic) mutant is, and that the K900R mutant specifically rescues the RB1–E2F1 interaction and cell cycle phenotype in a manner that is dependent on the lactylation state, not merely the amino acid change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between LDHC4, lactate, and RB1 lactylation
+  - **Claim pointer** The manuscript claims that LDHC4 promotes RB1 lactylation by elevating lactate levels, which serves as the substrate for lactylation.
+  - **Evidence pointer** Results section "LDHC4 overexpression alters the protein lactylation landscape in LUAD cells", Figure 3; Results section "LDHC4 promotes malignant phenotypes in LUAD cells and xenograft model", Figure 2F.
+  - **Concern** The causal chain from LDHC4 to lactate to RB1 lactylation is not rigorously established. While LDHC4 overexpression increases lactate levels (Figure 2F) and global lactylation (Figure 3I), and increases RB1 lactylation (Figure 3J, K), the manuscript does not demonstrate that the increase in RB1 lactylation is directly due to the increased lactate. It is possible that LDHC4 has other effects, or that the increased lactylation is a consequence of other metabolic changes. The manuscript does not show that adding lactate to cells, or manipulating lactate levels independently of LDHC4, recapitulates the effect on RB1 lactylation. The discussion acknowledges that LDHC4 may act indirectly, but the data presented do not exclude other mechanisms.
+  - **Why it matters** The title and central hypothesis propose a specific mechanism: LDHC4 drives lactylation. If the effect is not mediated by lactate, or if LDHC4 has other substrates or functions, the model is incomplete or incorrect.
+  - **Resolution test** Perform experiments where lactate levels are directly manipulated (e.g., add exogenous lactate, or knock down other LDH isoforms) and measure RB1 K900 lactylation. Use a catalytically dead LDHC4 mutant to show that its enzymatic activity is required for the effect on RB1 lactylation. Show that the effect of LDHC4 on RB1 lactylation is dependent on the cellular lactate pool.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of the K900R mutant in vivo
+  - **Claim pointer** The manuscript claims that the K900R mutant, which is resistant to lactylation, suppresses malignant phenotypes and cell cycle progression compared to wild-type RB1.
+  - **Evidence pointer** Results section "Lactylation at the RB1 K900 site promotes malignant progression of LUAD cells", Figure 5; Results section "RB1–K900 lactylation promotes tumor progression by affecting the cell cycle pathway", Figure 6.
+  - **Concern** The functional experiments are performed in cell lines with exogenous expression of RB1 constructs. The manuscript does not clarify the endogenous RB1 status of the A549 and PC-9 cells. If these cells express wild-type endogenous RB1, the phenotype of the K900R mutant could be masked or complicated by the presence of the endogenous protein. The experiments do not include a rescue of RB1-knockout cells, which would be a cleaner system to test the specific effect of the K900R mutation. The in vivo xenograft experiments are only performed with LDHC4 overexpression or knockdown, not with the RB1 K900R mutant, so the in vivo relevance of the specific lactylation site is not tested.
+  - **Why it matters** The conclusion that K900 lactylation is functionally important for tumor progression is based on cell-based assays. Without a clean genetic background or in vivo validation of the K900R effect, the physiological relevance is uncertain.
+  - **Resolution test** Use RB1-knockout cells reconstituted with RB1-WT or RB1-K900R to assess the specific effect of the mutation. Perform xenograft experiments with cells expressing RB1-WT vs RB1-K900R to demonstrate the in vivo relevance of the lactylation site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends and Results text
+  - **Evidence pointer** Figure 1, Figure 2, Figure 3, Figure 4, Figure 5, Figure 6
+  - **Issue** The figure legends state significance levels (e.g., ***p < 0.001) but do not describe the statistical test used for each panel, the number of replicates, or the error bar definition. The Methods section describes the tests generally, but the figure-specific information is missing.
+  - **Required correction** Add a "Statistical analysis" subsection to each figure legend or a consolidated section that specifies the test used, the number of independent experiments, and the definition of error bars for each panel.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of the IHC scoring system
+  - **Affected element** Methods, Immunohistochemistry section
+  - **Evidence pointer** Methods section "Immunohistochemistry (IHC) staining"
+  - **Issue** The scoring system is described as "the product of staining intensity and the percentage of positive cells" with a reference to a prior publication, but the specific scale (e.g., 0-3 for intensity, 0-100% for percentage) is not defined in this manuscript. The cutoff for high vs. low expression is also not explicitly stated.
+  - **Required correction** Define the scoring scale and the cutoff used to stratify patients into high and low expression groups.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of clinical data
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table shows no distant metastasis cases (all 90 patients are in the "No" category), which is unusual for a cohort of this size. The manuscript does not comment on this.
+  - **Required correction** Clarify whether the cohort is enriched for early-stage patients or if the absence of distant metastasis is a feature of the cohort design.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** MD simulation details
+  - **Affected element** Methods, Molecular dynamics simulations
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"
+  - **Issue** The methods state that simulations were performed using GROMACS and CHARMM36, but do not provide key parameters such as the simulation temperature, pressure, salt concentration, water model, or the length of the equilibration and production runs beyond the 200 ns production. The method for constructing the K900lac model is not described.
+  - **Required correction** Provide the missing simulation parameters and a description of how the lactylated lysine was modeled.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Antibody validation
+  - **Affected element** Methods, Immunohistochemistry and Western blotting
+  - **Evidence pointer** Methods sections "Immunohistochemistry (IHC) staining" and "Co-immunoprecipitation (Co-IP) and Western blotting"
+  - **Issue** The manuscript does not state whether the antibodies used (e.g., anti-LDHC, anti-RB1, anti-pan-lactyl-lysine) have been validated for the specific applications (IHC, IP, WB) in the species and sample types used. Validation data (e.g., knockout or knockdown controls, peptide competition) are not shown.
+  - **Required correction** Provide a statement on antibody validation or include control experiments demonstrating specificity.
+
+## Risk / unsupported claims
+- The specific claim that LDHC4 induces lactylation of RB1 at lysine 900 is not directly supported by the evidence presented. The proteomics data do not map the site, and the K900R mutant is not validated as a specific loss-of-lactylation control.
+- The claim that the disruption of the RB1–E2F1 complex is caused by K900 lactylation is based on MD simulations and cell-based assays with exogenous constructs, but the causal link is not fully established.
+- The claim that LDHC4 is an independent prognostic factor is supported by the multivariate analysis, but the model details (covariates included) are not fully described.
+- The claim that LDHC4 promotes migration and invasion is supported by in vitro assays, but the in vivo relevance of these specific phenotypes is not tested.
+- The statement that the "LDHC4–RB1 lactylation" axis is a promising therapeutic target is speculative and not supported by any interventional experiments.

@@ -1,0 +1,345 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.12.717919",
+  "title": "A Hybrid Physics-Deep Learning Framework for Combinatorial De Novo Design of Small-Molecule Binding Proteins",
+  "doi": "10.64898/2026.04.12.717919",
+  "abstract": "Engineering small-molecule binding proteins de novo remains a significant challenge as even advanced generative models struggle to model the atom-level details of protein-ligand interactions with sufficient accuracy. Higher experimental success rates have resulted from methods that explicitly scaffold predefined binding interactions into helical bundles. Here we introduce a scaffolding strategy that generalizes to alpha-beta architectures. By screening thousands of combinatorially assembled protein-ligand interactions against diverse de novo backbones with finely varied pocket geometries, the protocol allows for high-fidelity accommodation of target interaction geometries. Our protocol then integrates physics-based and deep learning methods for optimization of interfacial interactions and sequence-structure compatibility, considerably improving in silico design metrics. Applying this method to two chemically similar steroids achieved a notable experimental success rate (4/26 designs bind their targets), and NMR structures of two designs are in good agreement with design models. Our generalizable, atomically precise approach offers a robust framework for small-molecule binder design, effectively eliminating the need for high-throughput screening.",
+  "authors": [
+    "Connor V Galvin",
+    "Amy B Guo",
+    "Maple N Chen",
+    "Isabella L Alfonso",
+    "Dominic Grisingher",
+    "Simon Kretschmer",
+    "Divya Kranthi",
+    "Mark JS Kelly",
+    "Tanja Kortemme"
+  ],
+  "published_date": "2026-04-15",
+  "updated_date": "2026-04-15T20:35:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.12.717919",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.12.717919.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            7
+          ]
+        ],
+        "date-time": "2026-09-07T23:38:58Z",
+        "timestamp": 1788824338591,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2026-04-15T00:00:00Z",
+            "timestamp": 1776211200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH",
+          "award": [
+            "GM145236"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GM145236"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "S10OD023455"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "S10OD023455"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UCSF"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Engineering small-molecule binding proteins de novo remains a significant challenge as even advanced generative models struggle to model the atom-level details of protein-ligand interactions with sufficient accuracy. Higher experimental success rates have resulted from methods that explicitly scaffold predefined binding interactions into helical bundles. Here we introduce a scaffolding strategy that generalizes to alpha-beta architectures. By screening thousands of combinatorially assembled protein-ligand interactions against diverse de novo backbones with finely varied pocket geometries, the protocol allows for high-fidelity accommodation of target interaction geometries. Our protocol then integrates physics-based and deep learning methods for optimization of interfacial interactions and sequence-structure compatibility, considerably improving in silico design metrics. Applying this method to two chemically similar steroids achieved a notable experimental success rate (4/26 designs bind their targets), and NMR structures of two designs are in good agreement with design models. Our generalizable, atomically precise approach offers a robust framework for small-molecule binder design, effectively eliminating the need for high-throughput screening.</jats:p>",
+      "DOI": "10.64898/2026.04.12.717919",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ],
+        "date-time": "2026-04-15T20:35:16Z",
+        "timestamp": 1776285316000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "A Hybrid Physics-Deep Learning Framework for Combinatorial De Novo Design of Small-Molecule Binding Proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Connor V",
+          "family": "Galvin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4775-9498",
+          "authenticated-orcid": false,
+          "given": "Amy B",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maple N",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabella L",
+          "family": "Alfonso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dominic",
+          "family": "Grisingher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Simon",
+          "family": "Kretschmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Divya",
+          "family": "Kranthi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mark JS",
+          "family": "Kelly",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tanja",
+          "family": "Kortemme",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.12.717919",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ],
+        "date-time": "2026-04-15T20:35:16Z",
+        "timestamp": 1776285316000
+      },
+      "score": 73.17181,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.12.717919"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.04.12.717919",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

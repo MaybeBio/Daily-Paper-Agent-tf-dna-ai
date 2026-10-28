@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "38105268",
+    "doi": "10.1038/s41598-023-49552-w",
+    "title": "Comparison of models for stroke-free survival prediction in patients with CADASIL."
+  },
+  "content": {
+    "abstract": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy, which is caused by mutations of the NOTCH3 gene, has a large heterogeneous progression, presenting with declines of various clinical scores and occurrences of various clinical event. To help assess disease progression, this work focused on predicting the composite endpoint of stroke-free survival time by comparing the performance of Cox proportional hazards regression to that of machine learning models using one of four feature selection approaches applied to demographic, clinical and magnetic resonance imaging observational data collected from a study cohort of 482 patients. The quality of the modeling process and the predictive performance were evaluated in a nested cross-validation procedure using the time-dependent Brier Score and AUC at 5 years from baseline, the former measuring the overall performance including calibration and the latter highlighting the discrimination ability, with both metrics taking into account the presence of right-censoring. The best model for each metric was the componentwise gradient boosting model with a mean Brier score of 0.165 and the random survival forest model with a mean AUC of 0.773, both combined with the LASSO feature selection method.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*CADASIL/genetics/pathology",
+      "Receptor, Notch3/genetics",
+      "Mutation",
+      "*Stroke",
+      "Cerebral Infarction",
+      "Magnetic Resonance Imaging",
+      "Receptors, Notch/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Observational Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chhoa, Henri",
+        "Chabriat, Hugues",
+        "Chevret, Sylvie",
+        "Biard, Lucie"
+      ],
+      "short_names": [
+        "Chhoa H",
+        "Chabriat H",
+        "Chevret S",
+        "Biard L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "ECSTRRA Team, Universite Paris Cite, UMR1153, INSERM, Paris, France.",
+        "Centre NeuroVasculaire Translationnel - Centre de Reference CERVCO, DMU NeuroSciences, Hopital Lariboisiere, GHU APHP-Nord, Universite Paris Cite, Paris, France.",
+        "INSERM NeuroDiderot UMR 1141, GenMedStroke Team, Paris, France.",
+        "ECSTRRA Team, Universite Paris Cite, UMR1153, INSERM, Paris, France.",
+        "ECSTRRA Team, Universite Paris Cite, UMR1153, INSERM, Paris, France. lucie.biard@u-paris.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chhoa, Henri",
+        "short_name": "Chhoa H",
+        "identifiers": [],
+        "affiliations": [
+          "ECSTRRA Team, Université Paris Cité, UMR1153, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Chabriat, Hugues",
+        "short_name": "Chabriat H",
+        "identifiers": [],
+        "affiliations": [
+          "Centre NeuroVasculaire Translationnel - Centre de Référence CERVCO, DMU NeuroSciences, Hôpital Lariboisière, GHU APHP-Nord, Université Paris Cité, Paris, France.",
+          "INSERM NeuroDiderot UMR 1141, GenMedStroke Team, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Chevret, Sylvie",
+        "short_name": "Chevret S",
+        "identifiers": [],
+        "affiliations": [
+          "ECSTRRA Team, Université Paris Cité, UMR1153, INSERM, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Biard, Lucie",
+        "short_name": "Biard L",
+        "identifiers": [],
+        "affiliations": [
+          "ECSTRRA Team, Université Paris Cité, UMR1153, INSERM, Paris, France. lucie.biard@u-paris.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Dec 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Observational Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/18 00:42",
+    "fetched_at": "2026-10-04 23:06:40"
+  },
+  "links": {
+    "cites": [
+      "39028429"
+    ],
+    "refs": [
+      "36564356",
+      "36324403",
+      "36304293",
+      "36254369",
+      "35641310",
+      "35574690",
+      "34498681",
+      "33685417",
+      "33600711",
+      "33230128",
+      "32308851",
+      "32126874",
+      "31797615",
+      "31697686",
+      "31677104",
+      "31218211",
+      "30679510",
+      "30445915",
+      "29766537",
+      "29478611",
+      "29183386",
+      "29059349",
+      "28860774",
+      "28095463",
+      "27844030",
+      "27694265",
+      "27672033",
+      "26677964",
+      "26578659",
+      "25501468",
+      "25228495",
+      "24936433",
+      "24432010",
+      "22145125",
+      "21921637",
+      "21112048",
+      "20167921",
+      "20166132",
+      "19679846",
+      "17406468",
+      "16191243",
+      "15364702",
+      "10563615",
+      "9044528",
+      "3403500",
+      "3249771"
+    ],
+    "similar": [
+      "38105268",
+      "25096610",
+      "19683925",
+      "16580020",
+      "20038773",
+      "32555735",
+      "20329594",
+      "35300531",
+      "35236088",
+      "35862191",
+      "19363995",
+      "25623805",
+      "36753487",
+      "25595846",
+      "34004599",
+      "34841502",
+      "16974063",
+      "16256149",
+      "26715087",
+      "25692567",
+      "36232798",
+      "24139282",
+      "18499132",
+      "22159056",
+      "29706439",
+      "25959358",
+      "22133740",
+      "16796587",
+      "25095812",
+      "17272761",
+      "31554780",
+      "19293235",
+      "18631787",
+      "36535904",
+      "17853970",
+      "36086804",
+      "16833034",
+      "31699577",
+      "22623959",
+      "16717210",
+      "25105908",
+      "18626519",
+      "19167727",
+      "18022198",
+      "24295602",
+      "19207299",
+      "23151434",
+      "18840792",
+      "26305465",
+      "23319290",
+      "36402400",
+      "25109394",
+      "17675836",
+      "17629811",
+      "21940951",
+      "22893421",
+      "17633526",
+      "19242647",
+      "29780132",
+      "36961171",
+      "17690848",
+      "21852154",
+      "24425116",
+      "19069156",
+      "27241575",
+      "20851625",
+      "32414585",
+      "18941948",
+      "15876982",
+      "18512169",
+      "25980907",
+      "16302168",
+      "19174371",
+      "25412914",
+      "21045164",
+      "30636574",
+      "34851492",
+      "32552418",
+      "20935329",
+      "23465844",
+      "35822697",
+      "15489930",
+      "17390743",
+      "22332560",
+      "26035923",
+      "33161844",
+      "19350513",
+      "17879445",
+      "17879446",
+      "17879447",
+      "24579972",
+      "21545006",
+      "23460375",
+      "20197270",
+      "24480794",
+      "31901894"
+    ],
+    "review": [
+      "38105268",
+      "19363995",
+      "34841502",
+      "36232798",
+      "16833034",
+      "19167727",
+      "26305465",
+      "17633526",
+      "19069156",
+      "27241575",
+      "32414585",
+      "15876982",
+      "18512169",
+      "21045164",
+      "26035923"
+    ],
+    "pmc": [
+      "10725863"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-49552-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38105268/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38105268",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3485",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "41993275",
+    "doi": "10.64898/2026.04.07.717037",
+    "title": "SCOPE: Localizing fate-decision states and their regulatory drivers in single-cell differentiation."
+  },
+  "content": {
+    "abstract": "Identifying the precise transcriptomic states at which cells commit to a lineage (branchpoints) and the temporal lag in which chromatin accessibility foreshadows gene expression (epigenetic priming) remain fundamental challenges in developmental biology. While current methods for single-cell sequencing data effectively capture developmental flow, they often lack a principled mechanism for delineating the discrete boundaries, a crucial aspect required to map the molecular logic of lineage commitment. We present SCOPE (Semi-supervised Conformal Prediction), a framework that transforms high-dimensional single-cell measurements into rigorous, discrete prediction sets of all plausible future fates. By formalizing fate uncertainty via conformal inference, SCOPE localizes the precise biological windows during which multipotent progenitors specify their fate. In multi-omic data, SCOPE uncovers epigenetic priming and identifies its driving transcription factors by detecting regimes where chromatin-derived prediction sets resolve toward terminal fates significantly before their transcriptomic counterparts. We apply SCOPE across simulations, lineage-traced mouse hematopoiesis, multiple human hematopoietic datasets, and human retinogenesis to demonstrate its broad applicability and ability to recapitulate known fate specification drivers. Ultimately, SCOPE provides a statistically grounded foundation for localizing fate decisions across biological replicates and modalities, offering a robust tool for identifying the onset of lineage specification in complex developmental systems.",
+    "keywords": [
+      "Branchpoint",
+      "Conformal inference",
+      "Epigenetic priming",
+      "Semi-supervised learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yimin",
+        "Finkbeiner, Connor",
+        "Setty, Manu",
+        "Lin, Kevin Z"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Finkbeiner C",
+        "Setty M",
+        "Lin KZ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biostatistics, University of Washington, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Basic Sciences Division and Computational Biology Program, Fred Hutch Cancer Center, Seattle, WA, USA.",
+        "Basic Sciences Division and Computational Biology Program, Fred Hutch Cancer Center, Seattle, WA, USA.",
+        "Department of Biostatistics, University of Washington, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yimin",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Finkbeiner, Connor",
+        "short_name": "Finkbeiner C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Basic Sciences Division and Computational Biology Program, Fred Hutch Cancer Center, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Setty, Manu",
+        "short_name": "Setty M",
+        "identifiers": [],
+        "affiliations": [
+          "Basic Sciences Division and Computational Biology Program, Fred Hutch Cancer Center, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Kevin Z",
+        "short_name": "Lin KZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, University of Washington, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 06:32",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39806059",
+      "38914828",
+      "38890426",
+      "38514783",
+      "38039971",
+      "36645231",
+      "36078039",
+      "35027767",
+      "34354320",
+      "33098772",
+      "32562755",
+      "31088841",
+      "30890159",
+      "30504886",
+      "29630061",
+      "29425488",
+      "29409532",
+      "29291715",
+      "28582478",
+      "28514690",
+      "26092486",
+      "25938781",
+      "25794677",
+      "24970081",
+      "24120743",
+      "24115442",
+      "21593321",
+      "20890962",
+      "18390749",
+      "16254139",
+      "12530980"
+    ],
+    "similar": [
+      "41993275",
+      "42475469",
+      "36945732",
+      "41643202",
+      "42239177",
+      "37749269",
+      "42005385",
+      "41000825",
+      "35976093",
+      "27650846",
+      "27580035",
+      "29807547",
+      "29706549",
+      "37178817",
+      "29440259",
+      "41560697",
+      "40563931",
+      "42635227",
+      "38853821",
+      "16158815",
+      "41125875",
+      "30796024",
+      "37996970",
+      "39615483",
+      "33439865",
+      "40950163",
+      "41041551",
+      "21619617",
+      "17412320",
+      "40970097",
+      "34815405",
+      "30286071",
+      "42754315",
+      "42119563",
+      "42074532",
+      "40934910",
+      "40063068",
+      "19911036",
+      "38652107",
+      "41266355",
+      "33352111",
+      "42248920",
+      "24415956",
+      "28424352",
+      "23990771",
+      "36578319",
+      "39541052",
+      "33947861",
+      "33407811",
+      "35545037",
+      "29539636",
+      "42239199",
+      "42282592",
+      "31062314",
+      "42532521",
+      "27088908",
+      "42647569",
+      "19887676",
+      "41000980",
+      "32783885",
+      "41594627",
+      "35705328",
+      "35463156",
+      "22438826",
+      "37244909",
+      "38495440",
+      "41426294",
+      "42094425",
+      "31062315",
+      "40832854",
+      "36198796",
+      "40011786",
+      "41526381",
+      "36862551",
+      "41895464",
+      "34737882",
+      "26740066",
+      "42151571",
+      "15958705",
+      "39736442",
+      "37847877",
+      "41481416",
+      "39541410",
+      "42378398",
+      "35132236",
+      "42351220",
+      "29630061",
+      "38432315",
+      "32427596",
+      "20720541",
+      "28296635",
+      "38123534",
+      "40340740",
+      "41755639",
+      "38486083",
+      "29425512",
+      "8805368",
+      "41632505",
+      "41206131",
+      "37127714"
+    ],
+    "review": [
+      "41993275",
+      "16158815",
+      "37996970",
+      "40970097",
+      "42754315",
+      "42074532",
+      "27088908",
+      "41594627",
+      "38495440",
+      "42151571",
+      "15958705",
+      "41481416",
+      "38432315",
+      "32427596"
+    ],
+    "pmc": [
+      "13081856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41993275/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.07.717037",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

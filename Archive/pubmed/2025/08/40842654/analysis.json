@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40842654",
+  "title": "Bioinformatics and experimental validation identify biomarkers for diagnosing Alzheimer's disease.",
+  "authors": "Liu, Hui; Li, Chenye; Zhai, Congchen; Li, Mei; Ma, Lan",
+  "journal": "Frontiers in aging neuroscience",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过生物信息学和实验验证寻找阿尔茨海默病诊断生物标志物，虽涉及转录因子c-Myc但仅作为临床血清标志物验证，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND AND PURPOSE: Alzheimer's disease (AD) is a complex condition involving multiple mechanisms, primarily characterized by the progressive decline in cognition and memory. At present, there is no simple and reliable diagnostic method available for clinical application. Therefore, this study aims to identify potential biomarkers for AD using bioinformatics, providing new insights into its diagnosis. METHODS: This study utilized the transcriptome dataset GSE63060 from the Gene Expression Omnibus (GEO) and applied bioinformatics approaches to identify candidate genes. Differentially expressed genes (DEGs), weighted gene co-expression network analysis (WGCNA), protein-protein interaction (PPI) networks, and machine learning techniques (LASSO, SVM-RFE, Boruta, and XGBoost) were employed on the GSE63060 dataset. Subsequently, the expression levels of the candidate genes were evaluated, and a receiver operating characteristic (ROC) curve was constructed to identify hub genes and establish a corresponding network. Finally, we focused on the common upstream transcription factor c-Myc among the hub genes and conducted clinical experiments to validate its potential. Serum samples were collected from 41 AD patients treated at the Second Affiliated Hospital of Harbin Medical University between October 2023 and November 2024, along with 41 control subjects. The c-Myc protein concentration was measured using ELISA, and a ROC curve was constructed to assess its diagnostic potential. RESULTS: This study identified four hub genes associated with AD: RPL36AL, NDUFA1, NDUFS5, and RPS25. Additionally, the concentration of the c-Myc protein was significantly different between the AD and control groups (p < 0.001). The diagnostic sensitivity was 87.8%, specificity was 51.2%, and the area under the curve (AUC) value was 0.753, suggesting that c-Myc has independent diagnostic significance for AD. CONCLUSION: Our study demonstrates that RPL36AL, NDUFA1, NDUFS5, and RPS25 have potential as biomarkers for the diagnosis of AD. Additionally, the experiment suggests that c-Myc could serve as a promising blood biomarker for the diagnosis of AD.",
+  "abstract_zh": "背景与目的：阿尔茨海默病（Alzheimer's disease, AD）是一种涉及多种机制的复杂疾病，主要特征为认知和记忆的进行性衰退。目前，临床上尚无简单可靠的诊断方法。因此，本研究旨在利用生物信息学方法识别AD的潜在生物标志物，为其诊断提供新见解。方法：本研究利用基因表达综合数据库（Gene Expression Omnibus, GEO）中的转录组数据集GSE63060，并应用生物信息学方法筛选候选基因。对GSE63060数据集采用了差异表达基因（differentially expressed genes, DEGs）、加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）、蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络以及机器学习技术（LASSO、SVM-RFE、Boruta和XGBoost）。随后，评估候选基因的表达水平，并构建受试者工作特征（receiver operating characteristic, ROC）曲线以识别核心基因并建立相应网络。最后，我们聚焦于核心基因中共同的上游转录因子c-Myc，并通过临床实验验证其潜力。血清样本采集自2023年10月至2024年11月期间在哈尔滨医科大学附属第二医院治疗的41名AD患者，以及41名对照受试者。使用ELISA测量c-Myc蛋白浓度，并构建ROC曲线以评估其诊断潜力。结果：本研究识别出四个与AD相关的核心基因：RPL36AL、NDUFA1、NDUFS5和RPS25。此外，c-Myc蛋白浓度在AD组和对照组之间存在显著差异（p < 0.001）。诊断敏感性为87.8%，特异性为51.2%，曲线下面积（area under the curve, AUC）值为0.753，表明c-Myc对AD具有独立的诊断意义。结论：我们的研究表明，RPL36AL、NDUFA1、NDUFS5和RPS25具有作为AD诊断生物标志物的潜力。此外，实验提示c-Myc可作为AD诊断的有前景的血液生物标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40842654/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40842654/",
+  "paper_page_path": "papers/pubmed/40842654/index.html"
+}

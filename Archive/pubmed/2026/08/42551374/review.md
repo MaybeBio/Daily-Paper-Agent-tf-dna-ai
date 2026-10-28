@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a cross-kingdom signaling mechanism in which soybean root exudates, specifically glycitein enriched under fomesafen stress, recruit Klebsiella variicola W28 and activate its fomesafen degradation pathway via NAD(+)-dependent deacetylase CobB, which relieves LysR-pca-mediated repression of pcaGH, leading to fomesafen transformation and enhanced soil bioremediation.
+- **Visible evidence base** Untargeted metabolomics, metagenomics, random forest analysis, GST pull-down, BiFC, LCA, EMSA, molecular docking, product profiling, heterologous expression, and pot experiments, all as described in the abstract
+- **Missing materials affecting confidence** Full methods, quantitative data, statistical analyses, experimental replicates, strain and construct details, soil properties, degradation kinetics, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically ambitious and potentially important study linking plant root exudates to bacterial catabolic activation through a lysine deacetylation circuit. The proposed pathway is novel and integrates multiple levels of biological organization, from rhizosphere chemistry to intracellular enzymatic regulation. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the claims. Several key steps, particularly the direct interaction between CobB and LysR-pca, the in vivo relevance of deacetylation, and the quantitative contribution of glycitein to overall degradation, require careful scrutiny. The work is of high interest to the bioremediation and plant-microbe interaction communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in environmental microbiology, bioremediation, rhizosphere ecology, and plant-microbe signaling would find these results relevant. The proposed mechanism offers a new framework for designing precision bioremediation strategies and for understanding how plants can actively recruit and metabolically prime degradative microorganisms. The connection between root exudate composition and bacterial post-translational regulation is conceptually novel and could stimulate cross-disciplinary work.
+- **Major strengths** The study integrates untargeted metabolomics, metagenomics, biochemical interaction assays, and functional degradation experiments to build a multi-step mechanistic model. The identification of glycitein as a specific root exudate signal under herbicide stress is a compelling finding. The proposed regulatory circuit, linking NAD(+) homeostasis to deacetylation and transcriptional derepression, is elegant and testable. The use of multiple complementary methods for interaction validation (GST pull-down, BiFC, LCA) strengthens the interaction claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Glycitein enhanced W28 chemotaxis, motility, biofilm formation, and root-surface colonization
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that glycitein enhanced these phenotypes but provides no quantitative data, effect sizes, or statistical comparisons. It is unclear whether the enhancements are modest or substantial, and whether they are specific to glycitein or shared by other exudate components.
+  - **Why it matters** The recruitment and colonization phenotype is the first step in the proposed mechanism. Without quantitative evidence, the biological significance of glycitein as a recruitment signal cannot be assessed, and the claim that it selectively enriches W28 in the rhizosphere remains unsupported.
+  - **Resolution test** Provide quantitative data for chemotaxis, motility, biofilm, and colonization assays with appropriate controls and statistics, including dose-response relationships and comparison to other exudate compounds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** CobB-mediated deacetylation weakened DNA binding and relieved transcriptional repression
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports EMSA results showing that deacetylation weakens LysR-pca DNA binding, but it does not specify which lysine residue is deacetylated, whether the deacetylation is direct and stoichiometric, or whether the effect is reproduced in vivo. The connection between NAD(+) salvage pathway activation and CobB activity is inferred but not directly demonstrated.
+  - **Why it matters** The central mechanistic claim depends on a direct biochemical link between glycitein-induced NAD(+) production and CobB-mediated deacetylation of LysR-pca. Without identification of the modified residue and in vivo validation, the proposed circuit remains correlative.
+  - **Resolution test** Identify the specific lysine residue(s) in LysR-pca that are deacetylated by CobB, demonstrate that mutation of these residues phenocopies or abolishes the deacetylation effect, and show that NAD(+) levels and CobB activity are causally linked in vivo.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** Heterologously expressed PcaGH directly transformed fomesafen, producing benzoic acid
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that PcaGH transforms fomesafen to benzoic acid, but it does not provide kinetic parameters, transformation efficiency, or evidence that this is the dominant degradation route in W28. The stoichiometry of the transformation and the identity of intermediates are not described.
+  - **Why it matters** The claim that pcaGH activation is the key catabolic step in fomesafen degradation requires quantitative demonstration that PcaGH activity is rate-limiting and that the proposed pathway accounts for a major fraction of observed degradation.
+  - **Resolution test** Provide kinetic data for PcaGH-mediated fomesafen transformation, show that pcaGH knockout or knockdown reduces degradation in W28, and quantify the contribution of this pathway relative to other potential degradation routes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Environmental relevance
+  - **Claim pointer** Pot experiments confirmed that glycitein enhanced W28-mediated fomesafen degradation in soil
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The pot experiment result is stated without quantitative degradation data, soil characteristics, inoculation densities, or statistical comparisons. It is unclear whether the enhancement is biologically meaningful under realistic soil conditions.
+  - **Why it matters** The ultimate applied claim is that this mechanism can be harnessed for in situ bioremediation. Without robust soil data, the translational relevance is not established.
+  - **Resolution test** Provide degradation kinetics, final fomesafen concentrations, microbial colonization data, and statistical comparisons across treatments in soil, with appropriate controls for abiotic degradation and indigenous microbial activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "cross-kingdom rhizosphere signaling" is used, but the abstract does not clarify whether the signal is perceived by a specific receptor or through a general metabolic response in W28.
+  - **Required correction** Clarify whether a specific signaling pathway in W28 is identified or whether the effect is metabolic and indirect.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Strain and construct details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the genetic background of the heterologous expression system for PcaGH or the source of the pcaGH genes.
+  - **Required correction** Provide strain and plasmid details in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Metagenomic and random forest analyses
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports enrichment of specific taxa and genes but does not indicate sample sizes, sequencing depth, or validation of the random forest model.
+  - **Required correction** Include details on sequencing depth, replicate numbers, and model performance metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Degradation pathway
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions benzoic acid as a product but does not describe downstream metabolism or whether benzoic acid accumulates or is further degraded.
+  - **Required correction** Describe the fate of benzoic acid and any downstream catabolic steps.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is high, as the proposed root exudate-NAD(+)-deacetylation-pcaGH circuit is not previously described. Scientific importance is potentially substantial for bioremediation and plant-microbe interaction fields. Interdisciplinary readership is plausible, given the integration of metabolomics, microbiology, biochemistry, and environmental science. Technical soundness cannot be fully assessed from the abstract, but the described methods are appropriate in principle. Readability for nonspecialists is adequate, though the abstract is dense and would benefit from clearer articulation of the causal chain.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is compelling and the methods are appropriate, but the abstract lacks the quantitative and mechanistic detail required to support the central claims. The manuscript could become publishable if the major concerns are addressed with robust data.
+
+## Risk / unsupported claims
+- The claim that glycitein selectively enriches a cooperative rhizosphere consortium is not supported by quantitative metagenomic data in the abstract.
+- The claim that glycitein activates purine metabolism and the NAD(+) salvage pathway is stated without metabolic flux or enzyme activity data.
+- The direct interaction between CobB and LysR-pca is supported by interaction assays, but the functional consequence of deacetylation on DNA binding is only shown in vitro and not validated in vivo.
+- The claim that PcaGH directly transforms fomesafen is supported by heterologous expression and product profiling, but the quantitative contribution to overall degradation in W28 is not established.
+- The pot experiment claim of enhanced degradation is not supported by quantitative soil data in the abstract.

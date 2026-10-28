@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom replica exchange molecular dynamics (REMD) simulations to characterize the conformational ensemble of SARS-CoV-2 ORF3b, dock representative conformers to IRF3, and validate 50 complexes with 500–1000 ns molecular dynamics simulations. They report that ORF3b binds predominantly to the CBP binding site and phosphorylated pLxIS motifs of IRF3, with the CBP site showing highest affinity, and that binding residues are conserved in SARS-CoV-2. They conclude that these findings provide biophysical insight into ORF3b-IRF3 interaction and explain interferon antagonism.
+- **Visible evidence base** Abstract text only; no simulation parameters, convergence metrics, docking scores, binding free energies, structural figures, or conservation analysis details are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and force field parameters, REMD convergence and replica exchange statistics, docking protocol and scoring function, MD simulation details (e.g., water model, temperature, pressure, equilibration), binding affinity calculation method (e.g., MM-PBSA, MM-GBSA, or other), structural figures of binding modes, sequence conservation alignment, and any statistical error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow to address a biologically relevant question, namely how SARS-CoV-2 ORF3b inhibits IRF3 nuclear translocation. However, the evidence provided is insufficient to evaluate the technical rigor or the validity of the central claims. Key methodological details and quantitative results are absent, and the link between the computational predictions and the proposed functional mechanism is asserted rather than demonstrated. The work may be of interest to the virology and computational biophysics communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 innate immune evasion, particularly the molecular basis of interferon antagonism, would be interested. Computational biophysicists working on intrinsically disordered proteins and protein-protein interaction prediction may also find the methodological approach relevant. The potential identification of conserved binding sites on IRF3 could inform future experimental mutagenesis studies.
+- **Major strengths** The study addresses a specific and biologically important question with a clear hypothesis. The use of REMD to sample the conformational ensemble of a disordered protein is appropriate and more rigorous than conventional MD for such systems. The combination of docking and long-timescale MD validation (500–1000 ns) is a reasonable strategy to filter candidate binding modes. The focus on functionally relevant IRF3 regions (CBP binding and pLxIS motifs) provides a direct connection to known signaling mechanisms.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Disordered ORF3b has mixed alpha-helix, beta-turn and loop conformers" and "50 ORF3b-IRF3 complex poses were screened using molecular dynamics simulations ranging from 500 to 1000 ns"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no information on REMD convergence, number of replicas, temperature range, total simulation time per replica, or how the conformational ensemble was validated. Similarly, no details are given on the docking method, selection criteria for the 50 poses, or how MD simulations were used to screen them (e.g., stability criteria, binding free energy calculations, or structural metrics). Without these, the reliability of the conformational sampling and the pose selection cannot be assessed.  
+  - **Why it matters** For a disordered protein, inadequate sampling or lack of convergence can lead to a biased conformational ensemble, which would propagate errors into docking and subsequent MD screening. The absence of quantitative screening criteria makes it impossible to judge whether the reported binding modes are robust or artifacts of the protocol.  
+  - **Resolution test** Provide convergence metrics (e.g., replica exchange acceptance rates, potential energy distributions, or cluster population stability), docking scores and pose clustering details, and explicit criteria for selecting the 50 complexes. Show that the MD screening distinguishes stable from unstable complexes using quantitative measures such as RMSD, contact persistence, or binding free energy with error bars.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** "ORF3b binds IRF3 predominantly on its CBP binding and phosphorylated pLxIS motifs, with CBP binding site has the highest binding affinity"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states a dominant binding preference and a ranking of binding affinity, but no quantitative data are presented. No binding free energies, affinity values, or statistical comparisons are given. The term "predominantly" implies a population or energetic analysis that is not described.  
+  - **Why it matters** The central conclusion of the study rests on this claim. Without quantitative affinity estimates or a clear definition of "predominantly," the reader cannot evaluate whether the CBP site is truly preferred over the pLxIS motifs or whether the difference is within error.  
+  - **Resolution test** Report binding free energies (e.g., MM-PBSA/GBSA or similar) with standard errors for each binding mode, and show that the difference between the CBP site and other sites is statistically significant. Alternatively, provide occupancy or contact frequency data that support the "predominant" claim.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** "The ORF3b-IRF3 binding residues are highly conserved in SARS-CoV-2"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No conservation analysis is described. The abstract does not state which sequences were compared, what alignment method was used, or how conservation was quantified. The claim is presented without supporting data.  
+  - **Why it matters** Conservation is used to imply functional relevance of the identified binding residues. Without a defined analysis, this claim is unsupported and could be misleading if the conservation metric is not statistically robust.  
+  - **Resolution test** Provide a multiple sequence alignment of ORF3b from a defined set of SARS-CoV-2 variants or related sarbecoviruses, and report a conservation score (e.g., Shannon entropy or ConSurf score) for the identified binding residues with a threshold for "high conservation."  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** "Our results provided biophysics insights into ORF3b-IRF3 interaction and explained its interferon antagonism mechanism"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims to explain the interferon antagonism mechanism, but the link between the computational binding modes and the functional outcome (inhibition of IRF3 nuclear translocation) is not established. No experimental validation or mechanistic model is presented that connects binding to the CBP site or pLxIS motifs with the observed phenotype.  
+  - **Why it matters** The functional claim goes beyond what computational binding data can directly support. Without a mechanistic argument (e.g., steric blocking of CBP recruitment or masking of phosphorylation sites) or experimental correlation, the explanation remains speculative.  
+  - **Resolution test** Provide a clear mechanistic model that links the predicted binding sites to known IRF3 activation steps, and ideally include experimental data (e.g., mutagenesis of binding residues) or at least a detailed structural rationale with supporting references. If experimental validation is not available, temper the claim to "suggest a potential mechanism" rather than "explained."
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses terms like "CBP binding and phosphorylated pLxIS motifs" without defining them or explaining their functional significance in IRF3 signaling.  
+  - **Required correction** Briefly define CBP (CREB-binding protein) and pLxIS motifs, and state their roles in IRF3 activation, to make the abstract accessible to a broader readership.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation methodology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the force field, water model, or simulation temperature, which are essential for reproducibility of the REMD and MD simulations.  
+  - **Required correction** Include these parameters in the abstract or refer to a methods section where they are fully described.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Claim support  
+  - **Affected element** Statistical rigor  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract reports "50 ORF3b-IRF3 complex poses" but does not indicate whether these are independent or correlated, or how many replicate simulations were performed per pose.  
+  - **Required correction** Clarify the number of independent simulations and whether the 50 poses were selected from a larger pool, and report any error estimates for the screening results.
+
+## Risk / unsupported claims
+- The claim that ORF3b binds "predominantly" to the CBP binding site is unsupported without quantitative affinity or occupancy data.
+- The claim that binding residues are "highly conserved" is unsupported without a defined conservation analysis.
+- The claim that the results "explained its interferon antagonism mechanism" is unsupported; the abstract provides no functional validation or mechanistic model beyond binding site identification.
+- The overall reliability of the conformational ensemble and docking results is not assessable due to missing methodological details.

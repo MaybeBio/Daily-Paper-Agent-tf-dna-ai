@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that trans-polydatin (tPD) binds to and slightly stabilizes the parallel G-quadruplex (G4) formed by the Pu22 sequence from the c-myc promoter, as evidenced by CD spectroscopy and molecular docking. They also report that DichroCalc, a protein CD prediction tool, can approximate the experimental CD spectrum of this G4 DNA.
+- **Visible evidence base** CD spectra (Figure 1), thermal denaturation curves (Figures 1c, 1d, 2; Table 1), molecular docking results (Figures 3-5; Table 2), DichroCalc predictions (Figure 6)
+- **Missing materials affecting confidence** Raw CD data, docking pose coordinates, validation metrics for docking, error bars or statistical analysis for Tm values, and details on the DichroCalc input preparation beyond the described editing
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward biophysical study on the interaction between a natural polyphenol and a G-quadruplex DNA. The experimental work is limited to CD spectroscopy and thermal denaturation, with computational docking providing structural hypotheses. While the topic is of interest to the G4 community, the study is incremental, lacks quantitative binding data, and the computational predictions are not experimentally validated. The DichroCalc application to G4 DNA is novel but preliminary. The manuscript is technically sound in its execution but the conclusions are modest and largely confirmatory of prior work.
+- **Who would be interested in the results, and why** Researchers studying G-quadruplex ligands, particularly those interested in natural products as G4-stabilizing agents. The work may also be of interest to those exploring computational tools for nucleic acid CD prediction. The potential connection to c-myc regulation and cancer therapy could attract a broader audience, though the data presented here are too preliminary to support therapeutic claims.
+- **Major strengths** The study addresses a relevant question regarding natural product-G4 interactions. The use of a lower potassium buffer to observe thermal stabilization is a reasonable methodological adjustment. The exploration of G4 dimerization effects on ligand binding is thoughtful. The application of DichroCalc to G4 DNA is a creative extension of an existing tool.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that tPD binds to and stabilizes the Pu22 G4 based on CD spectral changes and a +2 °C Tm increase.
+  - **Evidence pointer** Figure 1b-d, Table 1
+  - **Concern** The CD spectral changes are modest and the Tm difference of 2 °C is within typical experimental variability for such measurements. No error bars or statistical analysis are provided for the Tm values. The claim of "significant" conformational changes is not supported by quantitative analysis. The difference CD spectrum (inset Figure 1b) is presented without explanation of its significance or magnitude.
+  - **Why it matters** The central claim of the manuscript rests on the reliability of these measurements. Without statistical validation, the observed effects could be attributed to experimental noise or buffer conditions rather than specific tPD-G4 interactions.
+  - **Resolution test** Provide replicate Tm measurements with standard deviations and statistical comparison (e.g., t-test). Show that the CD spectral changes are reproducible and concentration-dependent. Consider ITC or SPR to confirm binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The docking results suggest tPD binds via partial end-stacking to the terminal G-quartet with specific H-bonding interactions.
+  - **Evidence pointer** Figures 3-5, Table 2
+  - **Concern** The docking study is presented without any validation of the docking protocol. No re-docking or cross-docking studies are shown. The HDOCK score differences between poses and systems are not statistically evaluated. The biological relevance of the predicted binding mode is not experimentally confirmed (e.g., by mutagenesis or NMR).
+  - **Why it matters** Docking predictions are hypothesis-generating, not confirmatory. Without validation, the proposed binding mode remains speculative. The claim that tPD "hinders" G4 dimerization is based solely on docking scores without experimental support.
+  - **Resolution test** Validate docking with known G4-ligand complexes. Perform MD simulations to assess stability of predicted complexes. Use experimental methods (e.g., NMR, mutagenesis) to confirm the proposed binding mode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and significance
+  - **Claim pointer** The study provides new insights into tPD-G4 interactions and demonstrates the utility of DichroCalc for G4 DNA.
+  - **Evidence pointer** Throughout
+  - **Concern** Prior work by the same group (reference 30) already demonstrated tPD binding to G4s including c-myc. The present study adds thermal stability data and docking, but the incremental advance is modest. The DichroCalc application is interesting but the agreement is only qualitative, with a noted 5 nm shift. The authors do not discuss limitations of the DichroCalc approach for nucleic acids.
+  - **Why it matters** For a Nature-style publication, the work must offer significant conceptual or methodological advances. The current study is largely confirmatory and the computational tool application is preliminary.
+  - **Resolution test** Provide quantitative comparison between predicted and experimental CD spectra. Demonstrate that DichroCalc can distinguish between different G4 topologies. Show that the tPD-G4 interaction has functional consequences (e.g., in a cellular assay).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 4.2
+  - **Issue** The concentration of tPD used (125 µM, 50 equivalents) is very high and may lead to non-specific effects or aggregation. The DMSO concentration in the final samples is not stated.
+  - **Required correction** State the final DMSO percentage and discuss potential artifacts at high ligand concentrations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Docking methods
+  - **Evidence pointer** Section 4.4
+  - **Issue** The docking procedure is described briefly. The preparation of the ligand and receptor structures, the search space, and the number of runs are not specified in detail.
+  - **Required correction** Provide full docking parameters, including receptor and ligand preparation steps, grid box dimensions, and any constraints used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The authors state that tPD "hinders" G4 dimerization, but the docking scores suggest only a modest difference. The functional significance of this finding is unclear.
+  - **Required correction** Soften the language and discuss the limitations of using docking scores to infer equilibrium shifts.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6
+  - **Issue** The comparison between predicted and experimental CD spectra is qualitative. The 5 nm shift is noted but not discussed in terms of its origin or implications.
+  - **Required correction** Provide a quantitative measure of agreement (e.g., RMSD) and discuss possible reasons for the shift.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical analysis for Tm values (R1-M1) and the absence of docking validation (R1-M2) are the primary technical issues. The DichroCalc application requires more rigorous benchmarking before it can be presented as a reliable tool for G4 DNA.
+- **Assessment against Nature-style criteria** 
+  - Originality: Limited. The interaction of tPD with G4s has been previously reported. The DichroCalc application is novel but preliminary.
+  - Scientific importance: Moderate. G4 ligands are of interest, but the study does not provide significant new insights into G4 biology or ligand design.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to biophysical chemists and G4 researchers.
+  - Technical soundness: Adequate for the CD experiments, but computational aspects lack validation.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with G4 terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial additional experimental validation and statistical rigor before the claims can be considered supported. The incremental nature of the findings and the lack of functional data limit its suitability for a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that tPD "significantly" changes the CD spectrum of Pu22 is not quantitatively supported.
+- The +2 °C Tm increase is presented without error analysis, making its significance uncertain.
+- The proposed binding mode from docking is speculative without experimental validation.
+- The claim that tPD hinders G4 dimerization is based solely on docking scores and is not experimentally supported.
+- The utility of DichroCalc for G4 DNA is suggested but not rigorously demonstrated.

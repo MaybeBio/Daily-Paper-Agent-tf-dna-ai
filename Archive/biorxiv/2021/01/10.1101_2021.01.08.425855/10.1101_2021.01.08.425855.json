@@ -1,0 +1,206 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.08.425855",
+  "title": "DeepHBV: A deep learning model to predict hepatitis B virus (HBV) integration sites",
+  "doi": "10.1101/2021.01.08.425855",
+  "abstract": "Hepatitis B virus (HBV) is one of the main causes for viral hepatitis and liver cancer. Previous studies showed HBV can integrate into host genome and further promote malignant transformation. In this study, we developed an attention-based deep learning model DeepHBV to predict HBV integration sites by learning local genomic features automatically. We trained and tested DeepHBV using the HBV integration sites data from dsVIS database. Initially, DeepHBV showed AUROC of 0.6363 and AUPR of 0.5471 on the dataset. Adding repeat peaks and TCGA Pan Cancer peaks can significantly improve the model performance, with an AUROC of 0.8378 and 0.9430 and an AUPR of 0.7535 and 0.9310, respectively. On independent validation dataset of HBV integration sites from VISDB, DeepHBV with HBV integration sequences plus TCGA Pan Cancer (AUROC of 0.7603 and AUPR of 0.6189) performed better than HBV integration sequences plus repeat peaks (AUROC of 0.6657 and AUPR of 0.5737). Next, we found the transcriptional factor binding sites (TFBS) were significantly enriched near genomic positions that were paid attention to by convolution neural network. The binding sites of AR-halfsite, Arnt, Atf1, bHLHE40, bHLHE41, BMAL1, CLOCK, c-Myc, COUP-TFII, E2A, EBF1, Erra and Foxo3 were highlighted by DeepHBV attention mechanism in both dsVIS dataset and VISDB dataset, revealing the HBV integration preference. In summary, DeepHBV is a robust and explainable deep learning model not only for the prediction of HBV integration sites but also for further mechanism study of HBV induced cancer. <h4>Author summary</h4> Hepatitis B virus (HBV) is one of the main causes for viral hepatitis and liver cancer. Previous studies showed HBV can integrate into host genome and further promote malignant transformation. In this study, we developed an attention-based deep learning model DeepHBV to predict HBV integration sites by learning local genomic features automatically. The performance of DeepHBV model significantly improves after adding genomic features, with an AUROC of 0.9430 and an AUPR of 0.9310. Furthermore, we enriched the transcriptional factor binding sites of proteins by convolution neural network. In summary, DeepHBV is a robust and explainable deep learning model not only for the prediction of HBV integration sites but also for the further study of HBV integration mechanism.",
+  "authors": [
+    "Wu C",
+    "Guo X",
+    "Li M",
+    "Fu X",
+    "Hou Z",
+    "Zhai M",
+    "Shen J",
+    "Qiu X",
+    "Cui Z",
+    "Xie H",
+    "Qin P",
+    "Weng X",
+    "Hu Z",
+    "Liang J"
+  ],
+  "published_date": "2021-01-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425855",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425855.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR263537",
+    "raw_record": {
+      "id": "PPR263537",
+      "source": "PPR",
+      "doi": "10.1101/2021.01.08.425855",
+      "title": "DeepHBV: A deep learning model to predict hepatitis B virus (HBV) integration sites",
+      "authorString": "Wu C, Guo X, Li M, Fu X, Hou Z, Zhai M, Shen J, Qiu X, Cui Z, Xie H, Qin P, Weng X, Hu Z, Liang J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wu C",
+            "lastName": "Wu",
+            "firstName": "Canbiao",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6837-3602"
+            }
+          },
+          {
+            "fullName": "Guo X",
+            "lastName": "Guo",
+            "firstName": "Xiaofang",
+            "initials": "X"
+          },
+          {
+            "fullName": "Li M",
+            "lastName": "Li",
+            "firstName": "Mengyuan",
+            "initials": "M"
+          },
+          {
+            "fullName": "Fu X",
+            "lastName": "Fu",
+            "firstName": "Xiayu",
+            "initials": "X"
+          },
+          {
+            "fullName": "Hou Z",
+            "lastName": "Hou",
+            "firstName": "Zeliang",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Zhai M",
+            "lastName": "Zhai",
+            "firstName": "Manman",
+            "initials": "M"
+          },
+          {
+            "fullName": "Shen J",
+            "lastName": "Shen",
+            "firstName": "Jingxian",
+            "initials": "J"
+          },
+          {
+            "fullName": "Qiu X",
+            "lastName": "Qiu",
+            "firstName": "Xiaofan",
+            "initials": "X"
+          },
+          {
+            "fullName": "Cui Z",
+            "lastName": "Cui",
+            "firstName": "Zifeng",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Xie H",
+            "lastName": "Xie",
+            "firstName": "Hongxian",
+            "initials": "H"
+          },
+          {
+            "fullName": "Qin P",
+            "lastName": "Qin",
+            "firstName": "Pengmin",
+            "initials": "P"
+          },
+          {
+            "fullName": "Weng X",
+            "lastName": "Weng",
+            "firstName": "Xuchu",
+            "initials": "X"
+          },
+          {
+            "fullName": "Hu Z",
+            "lastName": "Hu",
+            "firstName": "Zheng",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Liang J",
+            "lastName": "Liang",
+            "firstName": "Jiuxing",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6837-3602"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Hepatitis B virus (HBV) is one of the main causes for viral hepatitis and liver cancer. Previous studies showed HBV can integrate into host genome and further promote malignant transformation. In this study, we developed an attention-based deep learning model DeepHBV to predict HBV integration sites by learning local genomic features automatically. We trained and tested DeepHBV using the HBV integration sites data from dsVIS database. Initially, DeepHBV showed AUROC of 0.6363 and AUPR of 0.5471 on the dataset. Adding repeat peaks and TCGA Pan Cancer peaks can significantly improve the model performance, with an AUROC of 0.8378 and 0.9430 and an AUPR of 0.7535 and 0.9310, respectively. On independent validation dataset of HBV integration sites from VISDB, DeepHBV with HBV integration sequences plus TCGA Pan Cancer (AUROC of 0.7603 and AUPR of 0.6189) performed better than HBV integration sequences plus repeat peaks (AUROC of 0.6657 and AUPR of 0.5737). Next, we found the transcriptional factor binding sites (TFBS) were significantly enriched near genomic positions that were paid attention to by convolution neural network. The binding sites of AR-halfsite, Arnt, Atf1, bHLHE40, bHLHE41, BMAL1, CLOCK, c-Myc, COUP-TFII, E2A, EBF1, Erra and Foxo3 were highlighted by DeepHBV attention mechanism in both dsVIS dataset and VISDB dataset, revealing the HBV integration preference. In summary, DeepHBV is a robust and explainable deep learning model not only for the prediction of HBV integration sites but also for further mechanism study of HBV induced cancer. <h4>Author summary</h4>  Hepatitis B virus (HBV) is one of the main causes for viral hepatitis and liver cancer. Previous studies showed HBV can integrate into host genome and further promote malignant transformation. In this study, we developed an attention-based deep learning model DeepHBV to predict HBV integration sites by learning local genomic features automatically. The performance of DeepHBV model significantly improves after adding genomic features, with an AUROC of 0.9430 and an AUPR of 0.9310. Furthermore, we enriched the transcriptional factor binding sites of proteins by convolution neural network. In summary, DeepHBV is a robust and explainable deep learning model not only for the prediction of HBV integration sites but also for the further study of HBV integration mechanism.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/08/2021.01.08.425855.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.08.425855"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34233610",
+            "reference": "BMC ecology and evolution. 2021 Jul;21(1):138",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-11",
+      "firstPublicationDate": "2021-01-08",
+      "firstIndexDate": "2021-01-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

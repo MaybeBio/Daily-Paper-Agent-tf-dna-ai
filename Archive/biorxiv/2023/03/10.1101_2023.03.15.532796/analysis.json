@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.15.532796",
+  "title": "Identification of mammalian transcription factors that bind to inaccessible chromatin",
+  "authors": "Pop RT; Pisante A; Nagy D; Martin PCN; Mikheeva LA; Hayat A; Ficz G; Zabet NR",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-16",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释统计模型ChIPanalyser分析ChIP-seq数据，预测数百种哺乳动物TF与DNA结合是否依赖染色质可及性，虽涉及TF-DNA结合机制但方法为统计建模而非AI或物理模拟，且未聚焦三维互作界面。",
+  "abstract": "Transcription factors (TFs) are proteins that affect gene expression by binding to regulatory regions of DNA in a sequence specific manner. The binding of TFs to DNA is controlled by many factors, including the DNA sequence, concentration of TF, chromatin accessibility and co-factors. Here, we systematically investigated the binding mechanism of hundreds of TFs by analysing ChIP-seq data with our explainable statistical model, ChIPanalyser. This tool uses as inputs the DNA sequence binding motif; the capacity to distinguish between strong and weak binding sites; the concentration of TF; and chromatin accessibility. We asked whether TFs preferred to bind to DNA in open or dense chromatin conformation and found that approximately one third of TFs are predicted to bind the genome in a DNA accessibility independent fashion. Our model predicted this to be the case when the TF binds to its strongest binding regions in the genome, and only a small number of TFs have the capacity to bind dense chromatin at their weakest binding regions, such as CTCF USF2 and CEBPB. Our study demonstrated that the binding of hundreds of human and mouse TFs is predicted by ChIPanalyser with high accuracy and showed that many TFs can bind dense chromatin.",
+  "abstract_zh": "转录因子（TFs）是通过以序列特异性方式结合DNA调控区域来影响基因表达的蛋白质。TF与DNA的结合受多种因素控制，包括DNA序列、TF浓度、染色质可及性和辅助因子。在此，我们通过使用我们可解释的统计模型ChIPanalyser分析ChIP-seq数据，系统研究了数百种转录因子的结合机制。该工具以DNA序列结合基序、区分强和弱结合位点的能力、TF浓度以及染色质可及性作为输入。我们探究了转录因子是否倾向于在开放或致密染色质构象中结合DNA，并发现约三分之一的转录因子被预测以不依赖DNA可及性的方式结合基因组。我们的模型预测，当TF结合其基因组中最强的结合区域时会出现这种情况，且仅有少数TF（如CTCF、USF2和CEBPB）具有在其最弱结合区域结合致密染色质的能力。我们的研究表明，ChIPanalyser能够高精度预测数百种人类和小鼠转录因子的结合，并显示许多转录因子能够结合致密染色质。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.15.532796",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.15.532796",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.15.532796/index.html"
+}

@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a computational framework that integrates K-means++ clustering with a data balancing strategy based on an inverse information principle, and combines deep learning with random walk sampling and skip-gram embeddings, to improve transcription factor target gene interaction prediction. They report an average AUC of 0.9452 +/- 0.0047 under five-fold cross-validation.
+- **Visible evidence base** Abstract text only; no dataset description, baseline comparisons, implementation details, or statistical analysis beyond the reported AUC
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset identifiers, baseline model descriptions, hyperparameter settings, code availability, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational strategy for addressing class imbalance in TF target prediction, a relevant problem in regulatory genomics. However, the evidence provided is insufficient to evaluate the novelty, technical soundness, or generalizability of the proposed method. The reported AUC, while high, is presented without context such as baseline performance, dataset characteristics, or comparison to existing methods. The abstract also contains conceptual ambiguities, particularly around the "inverse information principle" and the integration of clustering with representation learning. As submitted, the case is not established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, machine learning practitioners applying representation learning to biological networks, and researchers studying TF dysregulation in cancer. The proposed approach could be of interest to those seeking methods to handle class imbalance in biological interaction prediction tasks.
+- **Major strengths** The problem addressed is relevant and timely. The combination of clustering based data balancing with network representation learning is a reasonable design choice. The reported performance metric suggests the method may be effective, though this cannot be verified from the abstract alone.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "mitigates data bias and improves model generalization" through selecting low-frequency TFs within clusters based on an "inverse information principle."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The "inverse information principle" is not defined. It is unclear how low-frequency TFs are selected, what criterion defines "inverse information," and how this selection relates to the clustering output. Without a precise formulation, the method cannot be reproduced or evaluated.
+  - **Why it matters** The core novelty of the approach appears to rest on this selection mechanism. If the principle is not rigorously defined, the contribution of the clustering step to performance improvement cannot be assessed.
+  - **Resolution test** Provide a formal definition of the inverse information principle, including the mathematical criterion used for TF selection, and demonstrate its effect on the data distribution before and after balancing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Experimental results using five-fold cross-validation demonstrate superior performance, achieving an average AUC of 0.9452 +/- 0.0047."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The reported AUC is presented without any baseline comparisons. It is impossible to determine whether the proposed method outperforms existing TF target prediction tools or standard imbalanced learning techniques. The standard deviation is reported, but no information is given on the number of replicates, the variance across folds, or the statistical significance of the result.
+  - **Why it matters** "Superior performance" is a comparative claim. Without baselines, the claim is unsupported. The abstract does not establish that the method adds value over existing approaches.
+  - **Resolution test** Include comparisons to at least two established baselines, such as a standard classifier without balancing, a common resampling method, and a published TF target prediction model, with the same evaluation protocol and statistical testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The framework integrates "deep learning with random walk sampling and skip-gram embeddings to extract informative representations of heterogeneous biological networks."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are provided on the network construction, the type of deep learning model, the random walk parameters, the embedding dimensionality, or how the representations are used for prediction. The term "heterogeneous biological networks" is vague and could refer to multiple entity types, but the abstract does not specify which nodes and edges are included.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The abstract does not allow a reader to understand or replicate the representation learning pipeline.
+  - **Resolution test** Provide a complete description of the network schema, the deep learning architecture, the random walk strategy, and the integration of embeddings with the classifier in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "selecting low-frequency TFs within clusters based on an inverse information principle" is ambiguous. It is unclear whether selection is applied to TFs, target genes, or interactions, and whether "low-frequency" refers to occurrence in the dataset or in the clusters.
+  - **Required correction** Clarify the unit of selection and the exact meaning of "low-frequency" in the context of the clustering output.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state which TF target interaction dataset was used, the number of interactions, the organism, or the source of negative samples. This limits the interpretability of the reported AUC.
+  - **Required correction** Specify the dataset, its size, the organism, and the strategy for generating negative examples in the full manuscript and ideally in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Applicability
+  - **Affected element** Claim of "significant applications in molecular biology and biomedical research"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims broad applicability but provides no demonstration of downstream utility, such as validation in a disease context or experimental follow up.
+  - **Required correction** Either temper the claim or provide a case study, such as a cancer specific TF target prediction example, in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality cannot be fully assessed because the "inverse information principle" is undefined and the combination of clustering with representation learning, while reasonable, is not shown to be novel relative to existing imbalanced learning and network embedding methods. Scientific importance is potentially high given the relevance of TF target prediction to cancer biology, but the abstract does not demonstrate impact beyond a single AUC value. Interdisciplinary readership is plausible, as the topic bridges machine learning and molecular biology, but the abstract is too technical in places and too vague in others to engage a broad audience. Technical soundness is not established due to missing methodological detail and lack of baselines. Readability for nonspecialists is moderate, but the abstract assumes familiarity with TF networks and embedding methods without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful method, but the lack of methodological detail, baseline comparisons, and dataset description prevents a supportive recommendation. The authors should be encouraged to resubmit with a full manuscript that addresses the concerns above.

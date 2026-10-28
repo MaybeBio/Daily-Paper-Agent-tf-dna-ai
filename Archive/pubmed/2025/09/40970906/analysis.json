@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40970906",
+  "title": "Predicting Saturation Concentrations of Phase-Separating Proteins via Thermodynamic Integration.",
+  "authors": "Pedraza, Eduardo; Tejedor, Andres R; Feito, Alejandro; Gamez, Francisco; Collepardo-Guevara, Rosana; Sanz, Eduardo; Espinosa, Jorge R",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-09-19",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用热力学积分结合粗粒化模拟预测相分离蛋白的饱和浓度，虽涉及RNA/DNA结合蛋白但核心是相分离而非TF-DNA互作建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Phase separation of proteins and nucleic acids into biomolecular condensates contributes to the regulation of cellular compartmentalization in membrane-less environments. A key parameter controlling the onset of biomolecular condensate formation is the saturation concentration (C(sat)) horizontal line the threshold concentration above which condensation takes place. While measuring C(sat) for protein solutions in vitro is experimentally accessible, determining this quantity in simulations remains challenging due to the extremely low equilibrium concentrations at which many proteins phase separate. This occurs because the gold standard in simulations consists of combining a residue-resolution coarse-grained model with the Direct Coexistence simulation method, which yields poor estimates of the equilibrium concentrations of the dilute phase due to lack of statistics. In this work, we present two independent thermodynamic integration (TI) schemes which, when combined with Direct Coexistence simulations, enable accurate calculation of saturation concentrations and phase diagrams horizontal line facilitating direct comparison with experimental measurements across a wide range of conditions. Our methods, combined with the Mpipi-Recharged residue-resolution model, accurately estimate C(sat) for a broad range of intrinsically disordered and multidomain proteins, including disease-associated RNA- and DNA-binding proteins involved in the formation of stress granules and P granules, as well as engineered mutants of hnRNPA1. Furthermore, we compare our TI methods against a computationally efficient machine-learning predictor trained to estimate saturation concentrations at room temperature. While both approaches yield realistic predictions, explicit molecular dynamics simulations enable the calculation of complete phase diagrams and provide insight into the molecular mechanisms and interactions driving phase separation. Overall, our approach offers a robust, physically grounded framework for improving and validating coarse-grained models of biomolecular phase behavior, effectively bridging the gap between simulation and experiment.",
+  "abstract_zh": "蛋白质和核酸相分离（phase separation）形成生物分子凝聚体，有助于调控无膜环境中的细胞区室化。控制生物分子凝聚体形成起始的关键参数是饱和浓度（C(sat)），即超过该阈值浓度时发生凝聚的临界值。尽管在体外测量蛋白质溶液的C(sat)在实验上可行，但在模拟中确定该量仍具挑战性，因为许多蛋白质相分离时的平衡浓度极低。这源于模拟中的金标准方法是将残基分辨率粗粒化模型与直接共存（Direct Coexistence）模拟方法结合，但由于统计不足，该方法对稀相平衡浓度的估计较差。在本工作中，我们提出了两种独立的热力学积分（thermodynamic integration, TI）方案，与直接共存模拟结合后，能够精确计算饱和浓度和相图，从而便于在广泛条件下与实验测量直接比较。我们的方法结合Mpipi-Recharged残基分辨率模型，能准确估计多种 intrinsically disordered 和多结构域蛋白质的C(sat)，包括与应激颗粒和P颗粒形成相关的疾病相关RNA和DNA结合蛋白，以及hnRNPA1的工程突变体。此外，我们将TI方法与一种计算高效的机器学习预测器进行比较，该预测器训练用于估计室温下的饱和浓度。虽然两种方法均产生现实预测，但显式分子动力学（molecular dynamics）模拟能够计算完整相图，并提供对驱动相分离的分子机制和相互作用的深入见解。总体而言，我们的方法为改进和验证生物分子相行为的粗粒化模型提供了稳健且基于物理的框架，有效弥合了模拟与实验之间的差距。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40970906/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40970906/",
+  "paper_page_path": "papers/pubmed/40970906/index.html"
+}

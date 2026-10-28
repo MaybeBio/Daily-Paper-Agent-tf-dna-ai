@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided by the user. No supplementary files, figures, or tables were accessible.
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and internal consistency of the reported findings. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report that OsZF8, a C2H2 zinc finger transcription factor, is upregulated in rice in response to Rhizoctonia solani AG1-IA infection. Knockout mutants show enhanced resistance, while overexpression lines behave similarly to wild type. The authors propose that OsZF8 negatively regulates rice sheath blight resistance by binding to the PRB1 protein, reducing PRB1's ability to bind ergosterol, and thereby suppressing a defense-related function.
+- **Visible evidence base** Text descriptions of results including expression patterns, mutant validation, disease resistance assays, defense gene expression analysis, yeast two-hybrid, BiFC, transient expression in tobacco, and molecular docking. Figures are referenced but not visible.
+- **Missing materials affecting confidence** All figures and tables, including Figure 1–7 and Table S1, are not available. Statistical details (exact p-values, error bars, replication) are only partially described. Supplementary data and primer sequences are not accessible. The molecular docking methodology is described but the structural models and docking poses are not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and potentially interesting question in rice–Rhizoctonia solani interaction, specifically the role of a zinc finger transcription factor in modulating resistance. The core observation that OsZF8 knockout enhances resistance is potentially valuable. However, the mechanistic model proposed, centered on OsZF8 binding to PRB1 and inhibiting ergosterol binding, is not convincingly supported by the evidence presented. Several key experiments lack critical controls, quantitative data are incomplete, and the link between in vitro binding, molecular docking, and the observed phenotype is speculative. The manuscript requires substantial revision and additional experimentation before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers studying rice immunity, particularly against necrotrophic pathogens such as Rhizoctonia solani. Also relevant to those interested in the functional diversity of zinc finger transcription factors beyond transcriptional regulation, and in the role of PR proteins and sterol binding in plant defense. The work may also be of interest to the broader community studying host–pathogen interactions at the protein level.
+- **Major strengths** The identification of a previously uncharacterized rice zinc finger protein involved in sheath blight resistance is a useful contribution. The use of multiple approaches (CRISPR knockout, overexpression, Y2H, BiFC, transient expression, docking) is commendable in scope. The observation that OsZF8 knockout enhances resistance while overexpression does not significantly alter susceptibility is an interesting asymmetry that could reflect dosage effects or compensatory mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The authors claim that OsZF8 negatively regulates rice resistance to sheath blight based on knockout and overexpression phenotypes.
+  - **Evidence pointer** Section 2.4, Figure 3E–G
+  - **Concern** The disease resistance assay compares OsZF8-ko12, OsZF8 OX, and WT plants. However, the overexpression lines require dexamethasone (DEX) induction, and it is unclear whether DEX treatment alone affects disease resistance. No control for DEX treatment in WT or knockout plants is described. Additionally, only one knockout line (ko12) and two overexpression lines (OX1, OX2) are mentioned; the phenotype of ko29 is not reported in the disease assay. The lack of multiple independent knockout lines weakens the conclusion that the phenotype is due to OsZF8 disruption rather than off-target effects.
+  - **Why it matters** Without proper controls for the induction system and without multiple independent mutant lines, the observed phenotype cannot be unambiguously attributed to OsZF8 function. This is a foundational claim on which the entire mechanistic model rests.
+  - **Resolution test** Provide disease assays with DEX-treated WT and ko12 plants as controls. Include disease phenotype data for ko29. Ideally, complement the ko12 mutant with a wild-type OsZF8 construct to confirm rescue of the susceptible phenotype.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and consistency
+  - **Claim pointer** The authors state that OsZF8 knockout enhances resistance while overexpression lines show similar resistance to WT, concluding that OsZF8 negatively regulates resistance.
+  - **Evidence pointer** Section 2.4, Figure 3E–G
+  - **Concern** If OsZF8 is a negative regulator, overexpression would be expected to increase susceptibility. The observation that OX lines are similar to WT is not consistent with a simple negative regulatory model. The authors do not discuss this discrepancy. Possible explanations include insufficient overexpression levels, feedback regulation, or that the effect is threshold-dependent, but none are explored.
+  - **Why it matters** The inconsistency between knockout and overexpression phenotypes undermines the central claim of negative regulation. A model that cannot explain both observations is incomplete and requires either additional data or a revised interpretation.
+  - **Resolution test** Quantify OsZF8 expression levels in OX lines relative to endogenous levels. Discuss or experimentally address why overexpression does not phenocopy the expected increase in susceptibility. Consider whether the negative regulatory effect is dosage-dependent or context-specific.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The authors claim that OsZF8 binds to PRB1 and inhibits PRB1-induced cell death, and that this interaction reduces PRB1's ability to bind ergosterol.
+  - **Evidence pointer** Sections 2.6–2.8, Figures 5–7
+  - **Concern** The yeast two-hybrid and BiFC experiments demonstrate interaction, but the functional significance of this interaction is not established. The transient expression assay in tobacco shows that OsZF8 suppresses PRB1-induced cell death, but the mechanism is unclear. The molecular docking results are purely computational and are presented as evidence of binding affinity changes, yet no experimental validation (e.g., mutagenesis, surface plasmon resonance, isothermal titration calorimetry) is provided. The claim that OsZF8 binding reduces PRB1-ergosterol interaction is inferred solely from docking scores, which is insufficient.
+  - **Why it matters** The proposed mechanism is the central novelty of the manuscript. Without experimental validation of the docking predictions and without a clear mechanistic link between PRB1-ergosterol binding and cell death suppression, the model remains speculative.
+  - **Resolution test** Perform in vitro binding assays (e.g., pull-down, ITC) to confirm OsZF8-PRB1 interaction and to test whether OsZF8 affects PRB1-ergosterol binding. Use site-directed mutagenesis to disrupt the predicted interaction interface and test the effect on cell death suppression and disease resistance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** The authors report significant differences in lesion area and fungal biomass between ko12 and WT plants.
+  - **Evidence pointer** Section 2.4, Figure 3E–F
+  - **Concern** The text states that differences are significant, but no statistical details are provided in the text. The number of biological replicates, the statistical test used, and the exact p-values are not reported in the results section. The methods section mentions Student's t-test, but it is unclear whether this was applied to all comparisons and whether assumptions were met.
+  - **Why it matters** Reproducibility and quantitative rigor are essential for establishing the phenotype. Without clear statistical reporting, the strength of the observed differences cannot be evaluated.
+  - **Resolution test** Provide full statistical details in figure legends or results text, including n, mean, error bars, test used, and exact p-values for all comparisons.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Gene expression analysis
+  - **Claim pointer** The authors conclude that OsZF8 does not regulate resistance at the transcriptional level based on expression analysis of defense-related genes.
+  - **Evidence pointer** Section 2.5, Figure 4
+  - **Concern** The expression analysis is limited to a small set of selected genes at a single time point (48 or 72 h post-inoculation). The conclusion that OsZF8 does not act transcriptionally is premature. OsZF8 could regulate other genes not tested, or its transcriptional effects could be time-dependent or tissue-specific. Additionally, the authors note that differences were less than 0.5-fold, but the biological significance of this threshold is not justified.
+  - **Why it matters** The conclusion that OsZF8 acts at the protein level rather than transcriptionally is a key part of the proposed model. Incomplete expression analysis does not exclude transcriptional regulation.
+  - **Resolution test** Perform a more comprehensive transcriptomic analysis (e.g., RNA-seq) comparing ko12, OX, and WT plants at multiple time points after infection. Alternatively, identify direct transcriptional targets of OsZF8 through ChIP-seq or DAP-seq.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The expression pattern of OsZF8 in different tissues is described, but the text does not specify the developmental stage or growth conditions of the plants used for tissue-specific expression analysis.
+  - **Required correction** Specify the growth stage and conditions for the tissue expression analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology detail
+  - **Affected element** Section 4.5
+  - **Evidence pointer** Section 4.5
+  - **Issue** The BiFC assay description mentions observation under a laser confocal microscope at 488–550 nm, but the specific fluorophore (e.g., YFP, Venus) and the excitation/emission settings are not described.
+  - **Required correction** Provide details on the fluorophore used and the microscope settings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.8, Figures 6–7
+  - **Evidence pointer** Section 2.8
+  - **Issue** The molecular docking results are described in terms of binding energy and hydrogen bonds, but the units for binding energy are not stated, and the significance of the difference between −10.3 and −8.1 kcal/mol is not discussed.
+  - **Required correction** State the units and provide context for the difference in binding energies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section 1 and Section 3
+  - **Issue** The discussion of zinc finger proteins in plant defense is broad but does not specifically address the potential role of PR-1 family proteins or sterol-binding proteins in plant immunity, which would strengthen the context for the proposed mechanism.
+  - **Required correction** Add relevant literature on PR proteins and sterol-binding in plant defense.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The text states that OsZF8 localizes to the nucleus based on Cell-PLoc prediction, but no experimental subcellular localization data (e.g., GFP fusion) are presented.
+  - **Required correction** Either provide experimental localization data or clearly state that the localization is predicted.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of proper controls for the dexamethasone-inducible overexpression system in disease assays. (2) Absence of multiple independent knockout lines in phenotype analysis. (3) No experimental validation of molecular docking predictions. (4) Incomplete statistical reporting. (5) Overinterpretation of gene expression data from a limited gene set. (6) No complementation experiment to confirm that the knockout phenotype is due to OsZF8 loss.
+- **Assessment against Nature-style criteria** Originality: Moderate. The identification of a new zinc finger protein in rice sheath blight resistance is novel, but the proposed mechanism (inhibition of PRB1-ergosterol binding) is not unprecedented in concept. Scientific importance: Moderate. Sheath blight is a significant disease, and understanding negative regulators of resistance could inform breeding strategies. However, the mechanistic insight is not yet sufficiently established to have broad impact. Interdisciplinary readership: Limited. The work is primarily of interest to plant pathologists and molecular biologists. Technical soundness: Weak. Several key claims are not supported by adequate experimental evidence or controls. Readability for nonspecialists: Acceptable. The manuscript is generally clear, though some sections (e.g., docking) assume specialized knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has potential, but the central mechanistic claims are not supported by the data as presented. Major revisions and additional experiments are required before the case for OsZF8-mediated regulation via PRB1-ergosterol binding can be considered convincing.
+
+## Risk / unsupported claims
+- The claim that OsZF8 negatively regulates rice resistance to sheath blight is only partially supported, given the inconsistency between knockout and overexpression phenotypes and the lack of complementation.
+- The claim that OsZF8 inhibits PRB1-induced cell death is supported by transient expression data, but the relevance of this assay to the rice–R. solani interaction is not established.
+- The claim that OsZF8 binding reduces PRB1-ergosterol binding affinity is unsupported, as it relies solely on computational docking without experimental validation.
+- The conclusion that OsZF8 does not act at the transcriptional level is not supported by the limited gene expression analysis.
+- The subcellular localization of OsZF8 is stated as nuclear based on prediction, not experimental evidence, and is therefore not established.

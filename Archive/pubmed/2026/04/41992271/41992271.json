@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41992271",
+    "doi": "10.1186/s12915-026-02587-7",
+    "title": "LMO7-mediated ubiquitination of SIRT3 promotes osteoarthritis progression: an investigation using machine learning and molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aims to inform clinical decision-making by identifying metabolism-related biomarkers involved in the progression of osteoarthritis (OA). Four OA cartilage-related microarray datasets were downloaded from the GEO database. A metabolism-related differentially co-expressed gene signature (MDCGS) associated with OA was then identified through an integrative computational approaches of Weighted Gene Co-expression Network Analysis (WGCNA) and Linear Models for Microarray Data (LIMMA) in combination with machine learning tools. The optimal gene expression and functions were additionally explored in vitro and in vivo. Molecular docking and molecular dynamics simulations (MDs) were conducted to explore the mode of binding with the drug and its role in OA. RESULTS: An MDCGS comprising 30 upregulated genes and 29 downregulated genes was identified. The LMO7 gene was determined to exhibit the most prominent importance score within the MDCGS, and subsequent molecular analyses confirmed the ability of LMO7 to ubiquitinate SIRT3, leading to its degradation and subsequent OA progression. Molecular docking and MDs were employed to further investigate the binding mode and stability of LMO7 and its inhibitors. The effectiveness of LM-1685, which had the best binding stability with LMO7, was verified in both in vivo and in vitro experiments. CONCLUSIONS: In summary the series of bioinformatics, machine learning, experimental, molecular docking, and MDs analyses performed in this study led to the identification of LMO7 as a promising target for treating OA progression.",
+    "keywords": [
+      "LMO7",
+      "Machine learning",
+      "Molecular dynamics simulation",
+      "Osteoarthritis",
+      "Ubiquitination"
+    ],
+    "mesh_terms": [
+      "*LIM Domain Proteins/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "*Ubiquitination",
+      "*Osteoarthritis/genetics/metabolism",
+      "*Machine Learning",
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "Animals",
+      "Disease Progression",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qian",
+        "Li, Jun",
+        "Shan, Guangchang",
+        "Huang, Dongfeng"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Li J",
+        "Shan G",
+        "Huang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5228-6851",
+        "ORCID: 0000-0003-1227-6939",
+        "ORCID: 0009-0009-0725-7996",
+        "ORCID: 0000-0002-7958-4082"
+      ],
+      "affiliations": [
+        "Department of Rehabilitation Medicine, The Seventh Affiliated Hospital, Sun Yat-Sen University, 628 Zhenyuan Road, Shenzhen, 518107, China.",
+        "Department of Urology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, 518107, China.",
+        "Department of Pathology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, 518107, China.",
+        "Department of Rehabilitation Medicine, The Seventh Affiliated Hospital, Sun Yat-Sen University, 628 Zhenyuan Road, Shenzhen, 518107, China. huangdf@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qian",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-5228-6851"
+        ],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The Seventh Affiliated Hospital, Sun Yat-Sen University, 628 Zhenyuan Road, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jun",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-1227-6939"
+        ],
+        "affiliations": [
+          "Department of Urology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Guangchang",
+        "short_name": "Shan G",
+        "identifiers": [
+          "0009-0009-0725-7996"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Seventh Affiliated Hospital, Sun Yat-Sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Dongfeng",
+        "short_name": "Huang D",
+        "identifiers": [
+          "0000-0002-7958-4082"
+        ],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The Seventh Affiliated Hospital, Sun Yat-Sen University, 628 Zhenyuan Road, Shenzhen, 518107, China. huangdf@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC biology"
+    ],
+    "journal_abbrev": [
+      "BMC Biol"
+    ],
+    "pub_date": "2026 Apr 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 13:25",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40149513",
+      "39857720",
+      "38994754",
+      "38710401",
+      "38045056",
+      "37696643",
+      "36982438",
+      "36924682",
+      "36753544",
+      "36683245",
+      "36214465",
+      "35849666",
+      "35743670",
+      "35205880",
+      "35191375",
+      "35057732",
+      "34884689",
+      "34370038",
+      "34020550",
+      "33556400",
+      "33537330",
+      "32035570",
+      "31857202",
+      "31754334",
+      "31011483",
+      "30586711",
+      "30429017",
+      "30360733",
+      "30081074",
+      "28974114",
+      "27876074",
+      "27734845",
+      "27192932",
+      "26818766",
+      "25748615",
+      "25311420",
+      "24229462",
+      "18936753",
+      "17008526",
+      "16171460",
+      "11033593",
+      "8311563"
+    ],
+    "similar": [
+      "41992271",
+      "42377012",
+      "41327360",
+      "42292423",
+      "42292825",
+      "41261566",
+      "40216809",
+      "41628840",
+      "41997321",
+      "39935469",
+      "42079646",
+      "39695788",
+      "42397093",
+      "40826124",
+      "39026663",
+      "42233387",
+      "41718809",
+      "41067282",
+      "39849508",
+      "42284285",
+      "40406126",
+      "40589764",
+      "41546107",
+      "41902854",
+      "38767974",
+      "39176085",
+      "40000880",
+      "41146237",
+      "40913866",
+      "42083957",
+      "38771826",
+      "40442788",
+      "42051521",
+      "41423561",
+      "42274933",
+      "41667778",
+      "41052072",
+      "38734758",
+      "42015036",
+      "40646535",
+      "39779817",
+      "40345271",
+      "41895505",
+      "41709967",
+      "40843941",
+      "42461936",
+      "41310008",
+      "42495609",
+      "41760060",
+      "41766874",
+      "42461218",
+      "37805587",
+      "40842856",
+      "40916281",
+      "40885352",
+      "42184543",
+      "36359826",
+      "34273999",
+      "41635814",
+      "41720004",
+      "41316541",
+      "42302029",
+      "42486346",
+      "38645862",
+      "41316378",
+      "39148085",
+      "41009659",
+      "39780215",
+      "42392495",
+      "34340232",
+      "40790309",
+      "41089260",
+      "37986345",
+      "41638276",
+      "42118388",
+      "37503333",
+      "41415282",
+      "42034589",
+      "41479901",
+      "39832077",
+      "39418100",
+      "38988173",
+      "40143596",
+      "41703488",
+      "41418349",
+      "42254012",
+      "41533020",
+      "40192032",
+      "38505924",
+      "30586711",
+      "41357200",
+      "42382126",
+      "37454542",
+      "41502501",
+      "41887709",
+      "41560007",
+      "40804350",
+      "37138862",
+      "39919076",
+      "41508240"
+    ],
+    "review": [
+      "41992271",
+      "34340232"
+    ],
+    "pmc": [
+      "13202751"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-026-02587-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41992271/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

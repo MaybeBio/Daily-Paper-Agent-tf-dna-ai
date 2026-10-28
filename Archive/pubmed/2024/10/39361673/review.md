@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supporting information references
+- **Assessment boundary** Scientific validity of claims regarding zinc effects on phage display yield, the proposed parasite-subtraction analysis, and docking-based interpretations of peptide binding specificity
+- **Shared manuscript claim summary** The authors report that adding ZnCl2 (5–10 mM) during phage display panning against P53 increases plaque-forming unit recovery at round one across three peptide libraries. They propose a "parasites-integrating" analysis that subtracts docking interactions of redundant peptide motifs to identify potentially specific binders. They report zinc-dependent differences in docking profiles, including exclusive contacts with P53 residues R248 and R273, and suggest zinc has a modulating role in peptide targeting and an enhancing effect on bacterial infection.
+- **Visible evidence base** Abstract, full text, one main table (Table 1), two main figures (Fig 1, Fig 2), references to supplementary tables and figures (S1–S22), and a supplementary file (S1 File)
+- **Missing materials affecting confidence** Supplementary tables and figures (S1–S22), S1 File, raw phage titer data, ELISA raw data, peptide sequence lists, docking output files, and statistical analysis details were not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant methodological question in phage display screening and reports an interesting empirical observation regarding zinc supplementation. However, the evidence presented in the main text is insufficient to support several key claims. The zinc effect on titers is based on a single round of observation without replicates or statistical analysis. The parasite-subtraction rationale is conceptually interesting but the implementation and validation are incomplete. The docking analysis relies on a chimeric P53 structure with multiple substitutions, and the interpretation of "specific" versus "non-specific" binding is not adequately justified. The manuscript would benefit from substantial additional experimental data and more rigorous analysis before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers working on phage display methodology, peptide ligand discovery, and P53-targeting strategies would find the zinc supplementation observation potentially useful. The parasite-subtraction analysis concept may interest computational biologists working on docking-based interpretation of screening outputs. The P53 community may be interested in the identification of new peptide binders, though the functional significance of the reported peptides is not yet demonstrated.
+- **Major strengths** The observation that zinc supplementation increases phage recovery is empirically interesting and potentially practical. The authors acknowledge a real problem in phage display, namely the frequent isolation of redundant "parasite" sequences, and propose a rational approach to address it. The study covers multiple peptide libraries and two P53 target formats, which adds breadth. The docking analysis is detailed and considers both individual peptides and sets.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** "adding ZnCl2 at 5–10 mM in panning solutions helped to recover more plaque-forming units at least at round one of the screening"
+  - **Evidence pointer** Table 1, Results section "Zinc chloride addition increases the phage titers at the first round"
+  - **Concern** The claim of zinc-enhanced phage recovery is based on a single experiment without replicates, statistical analysis, or error estimates. The authors state that the effect was "observed by chance" and that titration was not repeated. The reported fold-increases (10x, 7x, 103x) are presented as single values with no indication of variability. Additionally, the mechanism proposed, that zinc enhances bacterial infection during titration, is speculative and not directly tested. The authors do not distinguish between effects on phage binding to P53, phage stability, or bacterial infection efficiency.
+  - **Why it matters** The central empirical claim of the paper, that zinc improves phage display yield, cannot be evaluated without replicates and statistical testing. If the effect is not reproducible, the entire premise of the study is undermined. Furthermore, the proposed mechanism (enhanced infection) is not supported by any direct experimental evidence.
+  - **Resolution test** Provide replicate experiments (at least three independent panning experiments per condition) with mean and standard deviation values, and appropriate statistical tests (e.g., t-test or ANOVA). Include a direct test of the infection-enhancement hypothesis, such as measuring phage infection efficiency on bacterial cells in the presence and absence of zinc without any P53 target.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** The manuscript reports specific peptide sequences and their docking characteristics, including exclusive contacts with R248 and R273
+  - **Evidence pointer** Tables 2A–2E, Fig 1, Fig 2, S1–S22 Figs, S1 Table
+  - **Concern** The peptide sequences are not shown in the main text. Table 2 is referenced but not included in the provided material. The docking results are described in detail but the actual peptide sequences, their lengths, and their docking scores are not visible. The supplementary figures and tables that would contain this information were not provided for review. Without access to the peptide sequences and the docking data, the claims about specific interactions with R248 and R273 cannot be verified.
+  - **Why it matters** The identification of specific peptide binders and their interactions with key P53 residues is a central claim of the study. If the sequences and docking data are not available, the scientific community cannot evaluate the validity of these claims or reproduce the analysis.
+  - **Resolution test** Include all peptide sequences in the main text or a main table. Provide docking scores and interaction details for all peptides in a supplementary table. Make the docking input files and parameters available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** "Subtractive docking analyses were designed by using a pool of common redundant peptides known as parasites. This rationale helped us differentiate between possibly specific and non-specific bindings."
+  - **Evidence pointer** Results section "Docking analysis", Fig 1, Fig 2, Table 3
+  - **Concern** The parasite-subtraction method is not adequately described or validated. The criteria for classifying a peptide as a "parasite" are not clearly defined beyond redundancy. The docking analysis uses a chimeric P53 structure (3Q01) with 13 amino acid substitutions, and the authors do not discuss how these substitutions might affect docking results. The subtraction procedure is described qualitatively but the computational details are missing. There is no validation of the method, such as testing whether known specific binders survive the subtraction while known non-specific ones are removed.
+  - **Why it matters** The proposed analytical method is presented as a novel contribution. Without a clear description of the method and validation of its performance, the approach cannot be adopted by other researchers or trusted as a reliable way to filter phage display outputs.
+  - **Resolution test** Provide a detailed step-by-step description of the subtraction method, including how parasite sequences were identified, how docking was performed, and how subtraction was implemented. Validate the method using a positive control (a known specific P53-binding peptide) and a negative control (a known non-specific peptide). Discuss the potential impact of the chimeric structure on docking results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and overreach
+  - **Claim pointer** "Zinc would have modulating/helping role in the targeting of protein P53 by phage displayed peptides in addition to an enhancement action on bacterial infection."
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The conclusion that zinc has a "modulating/helping role" in P53 targeting by peptides is not directly supported by the data. The docking analysis shows differences in binding profiles between zinc conditions, but these are computational predictions, not experimental binding measurements. The authors do not perform any binding assays (e.g., ELISA with zinc titration, surface plasmon resonance, or isothermal titration calorimetry) to confirm that zinc actually affects peptide-P53 binding. The claim about enhanced bacterial infection is also speculative, as noted in R1-M1.
+  - **Why it matters** The title and abstract emphasize the zinc effect as a key finding. If the interpretation is overreaching relative to the evidence, the manuscript's conclusions are misleading.
+  - **Resolution test** Perform experimental binding assays to test whether zinc affects peptide-P53 interactions. At minimum, temper the conclusions to reflect that the zinc effect on binding is a hypothesis generated from docking analysis, not a demonstrated finding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "The constrained peptide library has low titers at elution and Zinc chloride barely changes it"
+  - **Evidence pointer** Table 1
+  - **Issue** The statement "we cannot conclude on a notable effect of ZnCl2" for the 7-mer C-C library is followed by "there was an important increase in phage titer and this increase is more pronounced with zinc addition." These statements appear contradictory. The authors should clarify whether the zinc effect was observed at the elution or amplification stage for this library.
+  - **Required correction** Revise the text to clearly distinguish between the elution and amplification stages and state the observed effect at each stage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and methods, "Phage display outlines"
+  - **Evidence pointer** Location not provided
+  - **Issue** The phage titration method is described as either "bacterial infection on agar plate" or "estimation based on the optical density." The authors do not specify which method was used for the data in Table 1. This is important because the two methods have different accuracies and the zinc effect could be an artifact of the measurement method.
+  - **Required correction** Specify which titration method was used for each reported value, or state that both methods were used and how they were compared.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** No statistical information is provided for the titer values. It is unclear whether the values are from single measurements or replicates.
+  - **Required correction** Provide the number of replicates and measures of variability for all titer values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "New P53-recognizing peptides"
+  - **Evidence pointer** Table 2A–2D
+  - **Issue** The peptide sequences are listed in Table 2, which is not included in the provided material. The text mentions "twenty distinct motifs" but does not show them. This makes it impossible to assess the diversity or novelty of the identified peptides.
+  - **Required correction** Include the peptide sequences in the main text or ensure Table 2 is accessible.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and precision
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "the efficiency of the screening process, in terms of representativeness, can be improved by such (ZnCl2) treatments" is vague. The authors do not define what "representativeness" means in this context or how it was measured.
+  - **Required correction** Define "representativeness" and explain how the data support this claim.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement "no existing results about peptides targeting P53 with relation or depending on the zinc presence or state" is a strong claim. The authors should verify that this is accurate and cite relevant literature to support this assertion.
+  - **Required correction** Provide a more thorough literature search and cite relevant studies, or soften the claim if there is any related work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of replicates and statistical analysis for the central zinc effect claim), R1-M2 (missing peptide sequences and docking data), R1-M3 (inadequate description and validation of the parasite-subtraction method)
+- **Assessment against Nature-style criteria** Originality: The observation of zinc effects on phage display yield is somewhat novel, though the mechanistic basis is unclear. The parasite-subtraction concept is a reasonable idea but is not sufficiently developed to be considered a significant methodological advance. Scientific importance: The potential practical benefit of zinc supplementation in phage display is of moderate interest to a specialized audience, but the study does not demonstrate functional significance of the identified peptides. Interdisciplinary readership: The manuscript is primarily of interest to molecular biologists and computational chemists working on peptide-protein interactions; broader appeal is limited. Technical soundness: The experimental design lacks replicates and controls, the docking analysis uses a chimeric structure without adequate discussion, and the validation of the analytical method is absent. Readability for nonspecialists: The manuscript is generally readable but contains some unclear passages and undefined terms. Overall, the manuscript does not meet the standards of originality, significance, and technical rigor expected for a Nature-style publication.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has interesting observations and ideas, but the experimental evidence is insufficient to support the central claims. Substantial additional data, including replicated experiments, statistical analysis, validation of the analytical method, and experimental confirmation of the zinc effect on binding, would be required before the conclusions could be considered established.
+
+## Risk / unsupported claims
+- The claim that zinc enhances phage recovery at round one is unsupported due to lack of replicates and statistical analysis.
+- The claim that zinc has a "modulating/helping role" in P53 targeting by peptides is unsupported by direct experimental binding data.
+- The claim that zinc enhances bacterial infection is speculative and not directly tested.
+- The claim that the parasite-subtraction method differentiates specific from non-specific binding is not validated.
+- The claim that specific residues (R248, R273) are "exclusively" bound by zinc-condition peptides is based on docking predictions with a chimeric protein structure and lacks experimental confirmation.
+- The statement that "no existing results about peptides targeting P53 with relation or depending on the zinc presence or state" is unverified and potentially inaccurate.

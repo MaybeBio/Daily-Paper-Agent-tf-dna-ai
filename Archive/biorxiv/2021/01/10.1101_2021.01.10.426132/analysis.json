@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.10.426132",
+  "title": "PepNN: a deep attention model for the identification of peptide binding sites",
+  "authors": "Osama Abdin; Satra Nim; Han Wen; Philip M. Kim",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-11",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度注意力模型预测蛋白-肽结合位点，虽非TF-DNA体系，但蛋白-肽互作建模方法可迁移至TF-DNA结合位点预测，具有借鉴价值。",
+  "abstract": "Protein-peptide interactions play a fundamental role in facilitating many cellular processes, but remain underexplored experimentally and difficult to model computationally. Here, we present PepNN-Struct and PepNN-Seq, structure and sequence-based approaches for the prediction of peptide binding sites on a protein given the sequence of a peptide ligand. A main difficulty for the prediction of peptide-protein interactions is the flexibility of peptides and their tendency to undergo conformational changes upon binding. To account for this behaviour, we developed a novel reciprocal attention module that simultaneously updates the encodings of peptide and protein residues and explicitly enforces the symmetry in the updates, allowing for information flow and reflecting the biochemical reality of conformational changes in the peptide. PepNN additionally makes use of modern graph neural network layers that are effective at learning representations of molecular structure. Finally, to compensate for the scarcity of peptide-protein complex structural information, we make use of available protein-protein complex and protein sequence information through a series of transfer learning steps. PepNN-Struct achieves state-of-the-art performance on the task of identifying peptide binding sites, with a ROC AUC of 0.893 and an MCC of 0.483 on an independent test set. Beyond prediction of binding sites on proteins with a known peptide ligand, we also show that the developed models make reasonable peptide-agnostic predictions, allowing for the identification of novel peptide binding proteins.",
+  "abstract_zh": "蛋白质-肽相互作用在促进许多细胞过程中扮演着基础性角色，但在实验上仍未被充分探索，且在计算上难以建模。在此，我们介绍了PepNN-Struct和PepNN-Seq，这两种基于结构和序列的方法，用于在给定肽配体序列的情况下预测蛋白质上的肽结合位点。预测肽-蛋白质相互作用的一个主要难点在于肽的灵活性及其在结合时发生构象变化的倾向。为了应对这一行为，我们开发了一种新颖的互惠注意力模块，该模块同时更新肽和蛋白质残基的编码，并明确强制更新中的对称性，从而允许信息流动并反映肽构象变化的生化现实。PepNN还利用了现代图神经网络层，这些层在有效学习分子结构表示方面表现出色。最后，为了弥补肽-蛋白质复合物结构信息的稀缺性，我们通过一系列迁移学习步骤利用了可用的蛋白质-蛋白质复合物和蛋白质序列信息。PepNN-Struct在识别肽结合位点的任务上达到了最先进的性能，在独立测试集上的ROC AUC为0.893，MCC为0.483。除了预测已知肽配体的蛋白质结合位点外，我们还展示了所开发的模型能做出合理的肽无关预测，从而能够识别新型肽结合蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.10.426132",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.10.426132",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.10.426132/index.html"
+}

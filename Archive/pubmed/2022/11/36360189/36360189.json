@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "36360189",
+    "doi": "10.3390/genes13111952",
+    "title": "Uncovering the Relationship between Tissue-Specific TF-DNA Binding and Chromatin Features through a Transformer-Based Model."
+  },
+  "content": {
+    "abstract": "Chromatin features can reveal tissue-specific TF-DNA binding, which leads to a better understanding of many critical physiological processes. Accurately identifying TF-DNA bindings and constructing their relationships with chromatin features is a long-standing goal in the bioinformatic field. However, this has remained elusive due to the complex binding mechanisms and heterogeneity among inputs. Here, we have developed the GHTNet (General Hybrid Transformer Network), a transformer-based model to predict TF-DNA binding specificity. The GHTNet decodes the relationship between tissue-specific TF-DNA binding and chromatin features via a specific input scheme of alternative inputs and reveals important gene regions and tissue-specific motifs. Our experiments show that the GHTNet has excellent performance, achieving about a 5% absolute improvement over existing methods. The TF-DNA binding mechanism analysis shows that the importance of TF-DNA binding features varies across tissues. The best predictor is based on the DNA sequence, followed by epigenomics and shape. In addition, cross-species studies address the limited data, thus providing new ideas in this case. Moreover, the GHTNet is applied to interpret the relationship among TFs, chromatin features, and diseases associated with AD46 tissue. This paper demonstrates that the GHTNet is an accurate and robust framework for deciphering tissue-specific TF-DNA binding and interpreting non-coding regions.",
+    "keywords": [
+      "TF-DNA binding",
+      "chromatin features",
+      "deep learning",
+      "tissue specific"
+    ],
+    "mesh_terms": [
+      "*Chromatin/genetics",
+      "Binding Sites/genetics",
+      "*Transcription Factors/genetics",
+      "Protein Binding",
+      "DNA/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yongqing",
+        "Liu, Yuhang",
+        "Wang, Zixuan",
+        "Wang, Maocheng",
+        "Xiong, Shuwen",
+        "Huang, Guo",
+        "Gong, Meiqin"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Liu Y",
+        "Wang Z",
+        "Wang M",
+        "Xiong S",
+        "Huang G",
+        "Gong M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3422-8305"
+      ],
+      "affiliations": [
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Electronic Information and Artificial Intelligence, Leshan Normal University, Leshan 614000, China.",
+        "West China Second University Hospital, Sichuan University, Chengdu 610041, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yongqing",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-3422-8305"
+        ],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuhang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zixuan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Maocheng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Shuwen",
+        "short_name": "Xiong S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guo",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic Information and Artificial Intelligence, Leshan Normal University, Leshan 614000, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Meiqin",
+        "short_name": "Gong M",
+        "identifiers": [],
+        "affiliations": [
+          "West China Second University Hospital, Sichuan University, Chengdu 610041, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2022 Oct 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41675595",
+      "40213269",
+      "39068371",
+      "37140548",
+      "36902216"
+    ],
+    "refs": [
+      "37167049",
+      "36057196",
+      "35575089",
+      "35551305",
+      "35536244",
+      "35264797",
+      "34929739",
+      "34882561",
+      "34613923",
+      "34607350",
+      "34265844",
+      "34103512",
+      "33950192",
+      "33837387",
+      "33603233",
+      "33538820",
+      "33517372",
+      "33505025",
+      "33381816",
+      "32728249",
+      "31974574",
+      "31639474",
+      "31634140",
+      "31372637",
+      "31226207",
+      "30922998",
+      "30359306",
+      "29425488",
+      "29326300",
+      "29165643",
+      "27307608",
+      "27153639",
+      "27084946",
+      "27079975",
+      "26301843",
+      "26213851",
+      "23332764",
+      "22652625",
+      "20150147",
+      "19736561",
+      "16024819"
+    ],
+    "similar": [
+      "36360189",
+      "26291518",
+      "29326300",
+      "26818008",
+      "25957350",
+      "28750606",
+      "37805453",
+      "26590261",
+      "35831531",
+      "25775564",
+      "27899623",
+      "33892767",
+      "22189060",
+      "33413545",
+      "31742324",
+      "29786094",
+      "35666736",
+      "32300008",
+      "22863112",
+      "31595288",
+      "38517697",
+      "26285121",
+      "25722376",
+      "35410161",
+      "34996354",
+      "32770026",
+      "30423062",
+      "36057196",
+      "31639474",
+      "35293310",
+      "22955990",
+      "38422958",
+      "37919990",
+      "27567672",
+      "20838582",
+      "33372147",
+      "22955984",
+      "24603674",
+      "20158869",
+      "31723409",
+      "29617928",
+      "34534646",
+      "24918633",
+      "25108460",
+      "28334916",
+      "30517703",
+      "34285090",
+      "24564528",
+      "34174819",
+      "28957653",
+      "36902216",
+      "16267080",
+      "34252930",
+      "24039567",
+      "37214836",
+      "35681170",
+      "19652015",
+      "26245832",
+      "38654130",
+      "31114856",
+      "23935523",
+      "28359978",
+      "35971180",
+      "35696584",
+      "28167566",
+      "23847101",
+      "31398323",
+      "24441470",
+      "35263332",
+      "21193520",
+      "24336359",
+      "32858223",
+      "19956545",
+      "28957321",
+      "31372637",
+      "30068366",
+      "25319995",
+      "31754708",
+      "34465294",
+      "37100167",
+      "36973556",
+      "35240993",
+      "36322688",
+      "31093693",
+      "26703974",
+      "37889068",
+      "25129887",
+      "30700703",
+      "28849563",
+      "23812975",
+      "22954627",
+      "34488759",
+      "37328639",
+      "22534400",
+      "38844976",
+      "20098497",
+      "39076052",
+      "36243974",
+      "39271116"
+    ],
+    "review": [
+      "36360189",
+      "35831531",
+      "31742324",
+      "36057196",
+      "31639474",
+      "28359978",
+      "31093693"
+    ],
+    "pmc": [
+      "9690320"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes13111952",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36360189/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36360189",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36360189",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

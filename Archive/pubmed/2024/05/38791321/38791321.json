@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "38791321",
+    "doi": "10.3390/ijms25105283",
+    "title": "Experimental and Computational Studies on the Interaction of DNA with Hesperetin Schiff Base Cu(II) Complexes."
+  },
+  "content": {
+    "abstract": "The interactions with calf thymus DNA (CT-DNA) of three Schiff bases formed by the condensation of hesperetin with benzohydrazide (HHSB or L(1)H(3)), isoniazid (HIN or L(2)H(3)), or thiosemicarbazide (HTSC or L(3)H(3)) and their Cu(II) complexes (CuHHSB, CuHIN, and CuHTSC with the general formula [CuL(n)H(2)(AcO)]) were evaluated in aqueous solution both experimentally and theoretically. UV-Vis studies indicate that the ligands and complexes exhibit hypochromism, which suggests helical ordering in the DNA helix. The intrinsic binding constants (K(b)) of the Cu compounds with CT-DNA, in the range (2.3-9.2) x 10(6), from CuHTSC to CuHHSB, were higher than other copper-based potential drugs, suggesting that pi-pi stacking interaction due to the presence of the aromatic rings favors the binding. Thiazole orange (TO) assays confirmed that ligands and Cu complexes displace TO from the DNA binding site, quenching the fluorescence emission. DFT calculations allow for an assessment of the equilibrium between [Cu(L(n)H(2))(AcO)] and [Cu(L(n)H(2))(H(2)O)](+), the tautomer that binds Cu(II), amido (am) and not imido (im), and the coordination mode of HTSC (O(-), N, S), instead of (O(-), N, NH(2)). The docking studies indicate that the intercalative is preferred over the minor groove binding to CT-DNA with the order [Cu(L(1)H(2)(am))(AcO)] > [Cu(L(2)H(2)(am))(AcO)]  approximately  TO  approximately  L(1)H(3) > [Cu(L(3)H(2)(am))(AcO)], in line with the experimental K(b) constants, obtained from the UV-Vis spectroscopy. Moreover, dockings predict that the binding strength of [Cu(L(1)H(2)(am))(AcO)] is larger than [Cu(L(1)H(2)(am))(H(2)O)](+). Overall, the results suggest that when different enantiomers, tautomers, and donor sets are possible for a metal complex, a computational approach should be recommended to predict the type and strength of binding to DNA and, in general, to macromolecules.",
+    "keywords": [
+      "DNA interaction",
+      "computational calculations",
+      "copper complexes",
+      "hesperetin Schiff bases"
+    ],
+    "mesh_terms": [
+      "*DNA/chemistry/metabolism",
+      "*Schiff Bases/chemistry",
+      "*Hesperidin/chemistry",
+      "*Copper/chemistry",
+      "*Coordination Complexes/chemistry",
+      "Animals",
+      "Cattle",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "Isoniazid/chemistry",
+      "Semicarbazides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pisanu, Federico",
+        "Sykula, Anna",
+        "Sciortino, Giuseppe",
+        "Maseras, Feliu",
+        "Lodyga-Chruscinska, Elzbieta",
+        "Garribba, Eugenio"
+      ],
+      "short_names": [
+        "Pisanu F",
+        "Sykula A",
+        "Sciortino G",
+        "Maseras F",
+        "Lodyga-Chruscinska E",
+        "Garribba E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8027-3161",
+        "ORCID: 0000-0002-1989-5989",
+        "ORCID: 0000-0001-9657-1788",
+        "ORCID: 0000-0002-7229-5966"
+      ],
+      "affiliations": [
+        "Dipartimento di Medicina, Chirurgia e Farmacia, Universita di Sassari, Viale San Pietro, I-07100 Sassari, Italy.",
+        "Faculty of Biotechnology and Food Sciences, Institute of Natural Products and Cosmetics, Lodz University of Technology, Stefanowskiego 2/22, 90-537 Lodz, Poland.",
+        "Department de Quimica, Universitat Autonoma de Barcelona, Cerdanyola del Valles, 08193 Barcelona, Spain.",
+        "Institute of Chemical Research of Catalonia (ICIQ), The Barcelona Institute of Science and Technology (BIST), 43007 Tarragona, Spain.",
+        "Institute of Chemical Research of Catalonia (ICIQ), The Barcelona Institute of Science and Technology (BIST), 43007 Tarragona, Spain.",
+        "Faculty of Biotechnology and Food Sciences, Institute of Natural Products and Cosmetics, Lodz University of Technology, Stefanowskiego 2/22, 90-537 Lodz, Poland.",
+        "Dipartimento di Medicina, Chirurgia e Farmacia, Universita di Sassari, Viale San Pietro, I-07100 Sassari, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pisanu, Federico",
+        "short_name": "Pisanu F",
+        "identifiers": [
+          "0000-0001-8027-3161"
+        ],
+        "affiliations": [
+          "Dipartimento di Medicina, Chirurgia e Farmacia, Università di Sassari, Viale San Pietro, I-07100 Sassari, Italy."
+        ]
+      },
+      {
+        "full_name": "Sykula, Anna",
+        "short_name": "Sykula A",
+        "identifiers": [
+          "0000-0002-1989-5989"
+        ],
+        "affiliations": [
+          "Faculty of Biotechnology and Food Sciences, Institute of Natural Products and Cosmetics, Lodz University of Technology, Stefanowskiego 2/22, 90-537 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Sciortino, Giuseppe",
+        "short_name": "Sciortino G",
+        "identifiers": [
+          "0000-0001-9657-1788"
+        ],
+        "affiliations": [
+          "Department de Química, Universitat Autònoma de Barcelona, Cerdanyola del Vallés, 08193 Barcelona, Spain.",
+          "Institute of Chemical Research of Catalonia (ICIQ), The Barcelona Institute of Science and Technology (BIST), 43007 Tarragona, Spain."
+        ]
+      },
+      {
+        "full_name": "Maseras, Feliu",
+        "short_name": "Maseras F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemical Research of Catalonia (ICIQ), The Barcelona Institute of Science and Technology (BIST), 43007 Tarragona, Spain."
+        ]
+      },
+      {
+        "full_name": "Lodyga-Chruscinska, Elzbieta",
+        "short_name": "Lodyga-Chruscinska E",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biotechnology and Food Sciences, Institute of Natural Products and Cosmetics, Lodz University of Technology, Stefanowskiego 2/22, 90-537 Lodz, Poland."
+        ]
+      },
+      {
+        "full_name": "Garribba, Eugenio",
+        "short_name": "Garribba E",
+        "identifiers": [
+          "0000-0002-7229-5966"
+        ],
+        "affiliations": [
+          "Dipartimento di Medicina, Chirurgia e Farmacia, Università di Sassari, Viale San Pietro, I-07100 Sassari, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 May 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/25 10:48",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "40141209"
+    ],
+    "refs": [
+      "38662225",
+      "38474580",
+      "38467696",
+      "38443744",
+      "37259382",
+      "36773314",
+      "36614204",
+      "36499170",
+      "36414625",
+      "35279445",
+      "35023532",
+      "34740035",
+      "34617075",
+      "34604310",
+      "34374389",
+      "33928122",
+      "33596377",
+      "33104454",
+      "33027952",
+      "32864503",
+      "32534543",
+      "32486510",
+      "32289101",
+      "30939379",
+      "30918270",
+      "29613772",
+      "29133054",
+      "29104051",
+      "28985059",
+      "28887042",
+      "28623731",
+      "27764708",
+      "27554932",
+      "26997154",
+      "26821017",
+      "26582127",
+      "25958394",
+      "25579454",
+      "25486205",
+      "25469626",
+      "25427534",
+      "25119709",
+      "25047035",
+      "24102434",
+      "22091409",
+      "22075424",
+      "21600679",
+      "20423165",
+      "19759927",
+      "19626597",
+      "19366259",
+      "19027166",
+      "18925745",
+      "18646800",
+      "18055016",
+      "16684565",
+      "15264254",
+      "11553493",
+      "10062328",
+      "9944570",
+      "9126849",
+      "7612596",
+      "3427013"
+    ],
+    "similar": [
+      "38791321",
+      "36614204",
+      "33846920",
+      "28097460",
+      "20363662",
+      "37375332",
+      "28886569",
+      "30101692",
+      "24001978",
+      "25486205",
+      "19403328",
+      "31735357",
+      "27295415",
+      "24522514",
+      "32936064",
+      "36812707",
+      "29119261",
+      "27794220",
+      "27696010",
+      "27333575",
+      "34521304",
+      "30302601",
+      "38593611",
+      "26076117",
+      "23081926",
+      "33336849",
+      "24858353",
+      "23988527",
+      "32652152",
+      "33634805",
+      "37021479",
+      "26523453",
+      "34379029",
+      "30767624",
+      "27155593",
+      "37452868",
+      "29505940",
+      "33402026",
+      "32870457",
+      "25931401",
+      "14729319",
+      "35635500",
+      "27568403",
+      "23748130",
+      "30422758",
+      "25548074",
+      "24602815",
+      "17084459",
+      "21203633",
+      "27236046",
+      "21340057",
+      "32329409",
+      "27163172",
+      "21723189",
+      "24508879",
+      "24976625",
+      "21041112",
+      "35599165",
+      "31654847",
+      "28247070",
+      "26002539",
+      "24220672",
+      "29961205",
+      "24838006",
+      "24854148",
+      "34439805",
+      "24317263",
+      "29413705",
+      "21715221",
+      "25238802",
+      "33556771",
+      "26056979",
+      "30990358",
+      "17383733",
+      "27541797",
+      "18656419",
+      "20833453",
+      "33512301",
+      "14518998",
+      "29510357",
+      "30056270",
+      "25974907",
+      "21719303",
+      "24566120",
+      "26994692",
+      "38977049",
+      "37254615",
+      "32130641",
+      "36106987",
+      "29676660",
+      "25663196",
+      "30885099",
+      "23562627",
+      "22935596",
+      "38484588",
+      "28756153",
+      "30172817",
+      "27115870",
+      "23831972",
+      "25555321",
+      "25988384",
+      "38922498",
+      "36676268",
+      "37259430",
+      "39246472",
+      "36712615",
+      "37697175",
+      "38968703",
+      "39287699",
+      "39381432"
+    ],
+    "review": [
+      "38791321"
+    ],
+    "pmc": [
+      "11121494"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25105283",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38791321/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38791321",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

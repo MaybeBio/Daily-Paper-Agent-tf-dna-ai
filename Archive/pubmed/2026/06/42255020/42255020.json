@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "42255020",
+    "doi": "10.1093/pnasnexus/pgag167",
+    "title": "Searching for sequence features that control DNA cyclizability."
+  },
+  "content": {
+    "abstract": "The mechanical properties of DNA molecules are crucial for many biological processes, from DNA packaging to transcription. While the mechanics of long DNA typically follow the worm-like chain polymer model, multiple studies have shown that the mechanics of short DNA, at the length scale of DNA-protein interactions, depend strongly on their sequence content. Motivated by recent high-throughput measurements of sequence-dependent DNA cyclizability-the DNA's tendency to mechanically bend and form a loop-we developed a statistical-mechanics framework to systematically explore how cyclizability depends on the collective contributions of an increasing number of nucleotides in the sequence. By applying the method to datasets of randomly generated and biologically derived sequences, we identified a minimal pairwise model that describes the sequence-dependence of DNA cyclizability. The pairwise model enabled the extraction of characteristic sequence features that control DNA cyclizability and predicted the most and least cyclizable sequences, which we validated through all-atom molecular dynamics simulations. Our work advances current understanding of sequence-dependent DNA mechanics and its role in various biological processes, with implications for the growing field of DNA nanofabrication.",
+    "keywords": [
+      "DNA cyclizability",
+      "sequence-dependent DNA mechanics",
+      "statistical-mechanics modeling"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gordiychuk, Margarita",
+        "Park, Jonghan",
+        "Basu, Aakash",
+        "Ha, Taekjip",
+        "Bialek, William",
+        "Zhang, Yaojun"
+      ],
+      "short_names": [
+        "Gordiychuk M",
+        "Park J",
+        "Basu A",
+        "Ha T",
+        "Bialek W",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-0379-0023",
+        "ORCID: 0000-0003-2907-6853",
+        "ORCID: 0000-0003-2446-4937",
+        "ORCID: 0000-0003-2195-6258",
+        "ORCID: 0000-0002-7823-3862",
+        "ORCID: 0000-0003-4587-6834"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Medicine, Yonsei University College of Medicine, Seoul, South Korea.",
+        "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Biosciences, Durham University, Durham DH1 3LE, United Kingdom.",
+        "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21205, USA.",
+        "Department of Pediatrics, Harvard Medical School, Boston, MA 02115, USA.",
+        "Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA 02115, USA.",
+        "Howard Hughes Medical Institute, Boston, MA 02115, USA.",
+        "Joseph Henry Laboratories of Physics and Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA.",
+        "Initiative for the Theoretical Sciences, The Graduate Center, City University of New York, 365 Fifth Ave, New York, NY 10016, USA.",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Joseph Henry Laboratories of Physics and Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gordiychuk, Margarita",
+        "short_name": "Gordiychuk M",
+        "identifiers": [
+          "0009-0001-0379-0023"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Jonghan",
+        "short_name": "Park J",
+        "identifiers": [
+          "0000-0003-2907-6853"
+        ],
+        "affiliations": [
+          "Department of Medicine, Yonsei University College of Medicine, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Basu, Aakash",
+        "short_name": "Basu A",
+        "identifiers": [
+          "0000-0003-2446-4937"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+          "Department of Biosciences, Durham University, Durham DH1 3LE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ha, Taekjip",
+        "short_name": "Ha T",
+        "identifiers": [
+          "0000-0003-2195-6258"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+          "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21205, USA.",
+          "Department of Pediatrics, Harvard Medical School, Boston, MA 02115, USA.",
+          "Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA 02115, USA.",
+          "Howard Hughes Medical Institute, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Bialek, William",
+        "short_name": "Bialek W",
+        "identifiers": [
+          "0000-0002-7823-3862"
+        ],
+        "affiliations": [
+          "Joseph Henry Laboratories of Physics and Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA.",
+          "Initiative for the Theoretical Sciences, The Graduate Center, City University of New York, 365 Fifth Ave, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4587-6834"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+          "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+          "Joseph Henry Laboratories of Physics and Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/08 12:39",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38291333",
+      "37954573",
+      "37697433",
+      "36471057",
+      "35288750",
+      "34225835",
+      "33539885",
+      "33328628",
+      "33087930",
+      "32752662",
+      "32731156",
+      "32282908",
+      "31206015",
+      "31114927",
+      "29351669",
+      "28109529",
+      "26905257",
+      "26244743",
+      "25768909",
+      "25620396",
+      "25260586",
+      "23621762",
+      "23514145",
+      "22936778",
+      "22824278",
+      "22368531",
+      "20702767",
+      "19625494",
+      "19092803",
+      "18654166",
+      "17197415",
+      "17103419",
+      "16862119",
+      "16738142",
+      "16625187",
+      "15125838",
+      "14739342",
+      "10812473",
+      "9736707",
+      "8744570",
+      "8079175",
+      "5764346",
+      "3713816",
+      "3612791",
+      "2185240",
+      "1579106"
+    ],
+    "similar": [
+      "42255020",
+      "23912807",
+      "42475469",
+      "39763889",
+      "35288750",
+      "34904892",
+      "41038546",
+      "36282946",
+      "37769928",
+      "36471057",
+      "40854823",
+      "31380654",
+      "26278091",
+      "22718983",
+      "40071933",
+      "34776217",
+      "26134918",
+      "26244743",
+      "35394775",
+      "24231252",
+      "35732531",
+      "27192827",
+      "30999490",
+      "11120677",
+      "26269925",
+      "25605483",
+      "8422353",
+      "30768347",
+      "16605557",
+      "30368746",
+      "16361335",
+      "37954573",
+      "23035755",
+      "9833666",
+      "34127998",
+      "25844153",
+      "41875330",
+      "10835278",
+      "38540400",
+      "34225835",
+      "23375126",
+      "37356908",
+      "38375921",
+      "36348120",
+      "15504402",
+      "11754342",
+      "26575522",
+      "28594167",
+      "22750979",
+      "41279384",
+      "37713594",
+      "15306455",
+      "39560790",
+      "23249409",
+      "36635406",
+      "37697433",
+      "37696706",
+      "12496111",
+      "30125668",
+      "39713350",
+      "38995323",
+      "25091120",
+      "29688710",
+      "16392531",
+      "39247956",
+      "33453608",
+      "10969015",
+      "22606364",
+      "39527993",
+      "21209967",
+      "3032040",
+      "8679953",
+      "41553140",
+      "39772484",
+      "41481439",
+      "19754142",
+      "25708089",
+      "16287294",
+      "29558800",
+      "29905876",
+      "23457581",
+      "30726003",
+      "23406150",
+      "22668523",
+      "18369429",
+      "35016860",
+      "26535902",
+      "41530081",
+      "26042329",
+      "22607400",
+      "9833662",
+      "24146776",
+      "18654166",
+      "8946800",
+      "25098651",
+      "37333386",
+      "36321557",
+      "12785104",
+      "25770562",
+      "41519356"
+    ],
+    "review": [
+      "42255020",
+      "26269925",
+      "30368746",
+      "34225835",
+      "23375126",
+      "26575522",
+      "28594167",
+      "36635406",
+      "37696706",
+      "30125668",
+      "38995323",
+      "26042329",
+      "22607400",
+      "36321557"
+    ],
+    "pmc": [
+      "13238741"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42255020/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgag167",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

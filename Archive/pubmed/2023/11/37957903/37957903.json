@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "37957903",
+    "doi": "10.2174/0113862073236899230919062725",
+    "title": "Network Pharmacology and Experimental Validation of Qingwen Baidu Decoction Therapeutic Potential in COVID-19-related Lung Injury."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND PURPOSE: Coronavirus disease 2019 (COVID-19) is a lifethreatening disease worldwide due to its high infection and serious outcomes resulting from acute lung injury. Qingwen Baidu decoction (QBD), a well-known herbal prescription, has shown significant efficacy in patients with Coronavirus disease 2019. Hence, this study aims to uncover the molecular mechanism of QBD in treating COVID-19-related lung injury. METHODS: Traditional Chinese Medicine Systems Pharmacology database (TCMSP), DrugBanks database, and Chinese Knowledge Infrastructure Project (CNKI) were used to retrieve the active ingredients of QBD. Drug and disease targets were collected using UniProt and Online Mendelian Inheritance in Man databases (OMIM). The core targets of QBD for pneumonia were analyzed by the Protein-Protein Interaction Network (PPI), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) to reveal the underlying molecular mechanisms. The analysis of key targets using molecular docking and animal experiments was also validated. RESULTS: A compound-direct-acting target network mainly containing 171 compounds and 110 corresponding direct targets was constructed. The key targets included STAT3, c-JUN, TNF-alpha, MAPK3, MAPK1, FOS, PPARG, MAPK8, IFNG, NFkappaB1, etc. Moreover, 117 signaling pathways mainly involved in cytokine storm, inflammatory response, immune stress, oxidative stress and glucose metabolism were found by KEGG. The molecular docking results showed that the quercetin, alanine, and kaempferol in QBD demonstrated the strongest affinity to STAT3, c- JUN, and TNF-alpha. Experimental results displayed that QBD could effectively reduce the pathological damage to lung tissue by LPS and significantly alleviate the expression levels of the three key targets, thus playing a potential therapeutic role in COVID-19. CONCLUSION: QBD might be a promising therapeutic agent for COVID-19 via ameliorating STAT3-related signals.",
+    "keywords": [
+      "COVID-19",
+      "Qingwen Baidu. network pharmacology",
+      "WHO.",
+      "acute lung injury",
+      "decoction",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "*Drugs, Chinese Herbal/pharmacology/chemistry/therapeutic use",
+      "*Molecular Docking Simulation",
+      "Animals",
+      "*COVID-19 Drug Treatment",
+      "*COVID-19/complications",
+      "Humans",
+      "*Network Pharmacology",
+      "*SARS-CoV-2/drug effects",
+      "Protein Interaction Maps/drug effects",
+      "STAT3 Transcription Factor/metabolism",
+      "Medicine, Chinese Traditional",
+      "Rats",
+      "Acute Lung Injury/drug therapy",
+      "Kaempferols/pharmacology/chemistry",
+      "Lung Injury/drug therapy/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ju",
+        "Zhang, Zhao",
+        "Liu, Honghong",
+        "Wang, Jiawei",
+        "Xie, Shuying",
+        "Li, Pengyan",
+        "Wen, Jianxia",
+        "Wei, Shizhang",
+        "Li, Ruisheng",
+        "Ma, Xiao",
+        "Zhao, Yanling"
+      ],
+      "short_names": [
+        "Yang J",
+        "Zhang Z",
+        "Liu H",
+        "Wang J",
+        "Xie S",
+        "Li P",
+        "Wen J",
+        "Wei S",
+        "Li R",
+        "Ma X",
+        "Zhao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9521-2353"
+      ],
+      "affiliations": [
+        "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China.",
+        "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ju",
+        "short_name": "Yang J",
+        "identifiers": [
+          "0000-0001-9521-2353"
+        ],
+        "affiliations": [
+          "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Honghong",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiawei",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Shuying",
+        "short_name": "Xie S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pengyan",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Jianxia",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shizhang",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruisheng",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiao",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yanling",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, 302 Military Hospital of China, Beijing, 100039, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Combinatorial chemistry & high throughput screening"
+    ],
+    "journal_abbrev": [
+      "Comb Chem High Throughput Screen"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/14 06:43",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "42698462"
+    ],
+    "refs": [
+      "36911357",
+      "35151220",
+      "34999393",
+      "34960706",
+      "34934645",
+      "34635990",
+      "34581058",
+      "34576974",
+      "34135619",
+      "33895773",
+      "33653364",
+      "33586189",
+      "33581205",
+      "33347812",
+      "33305456",
+      "33292691",
+      "33278357",
+      "33223326",
+      "33140889",
+      "33139969",
+      "33126586",
+      "33037393",
+      "33034398",
+      "32798472",
+      "32745548",
+      "32724900",
+      "32702298",
+      "32696108",
+      "32651212",
+      "32643448",
+      "32636851",
+      "32622375",
+      "32619819",
+      "32580895",
+      "32470486",
+      "32454888",
+      "32411101",
+      "32385052",
+      "32366711",
+      "32358580",
+      "32346093",
+      "32342098",
+      "32240670",
+      "32234451",
+      "32143002",
+      "32044389",
+      "31986264",
+      "31496018",
+      "31070530",
+      "30896788",
+      "30565389",
+      "29903008",
+      "29844387",
+      "29725459",
+      "29104284",
+      "28551874",
+      "28288320",
+      "28262619",
+      "27638904",
+      "27519799",
+      "26780775",
+      "26754609",
+      "25645280",
+      "25629436",
+      "25527793",
+      "24598793",
+      "23535595",
+      "23142198",
+      "22543051",
+      "19342686",
+      "18647187",
+      "18490652",
+      "14693668",
+      "11785681"
+    ],
+    "similar": [
+      "37957903",
+      "38812235",
+      "38579905",
+      "32643448",
+      "37454750",
+      "33513419",
+      "39278295",
+      "33191068",
+      "42152365",
+      "33140889",
+      "37080367",
+      "39075002",
+      "37287284",
+      "33054436",
+      "37653800",
+      "39610125",
+      "37694785",
+      "40605076",
+      "40922365",
+      "38109076",
+      "37929726",
+      "39066538",
+      "38759074",
+      "39015338",
+      "39701729",
+      "39552028",
+      "35837376",
+      "39259129",
+      "35227178",
+      "38018195",
+      "36911881",
+      "36550856",
+      "40499803",
+      "38696100",
+      "34941025",
+      "37807411",
+      "41121643",
+      "39929664",
+      "37799727",
+      "39781728",
+      "39410900",
+      "40128047",
+      "39074420",
+      "37143282",
+      "34605344",
+      "33691446",
+      "39310787",
+      "34159207",
+      "40574364",
+      "39004032",
+      "40725959",
+      "40013962",
+      "39343107",
+      "41814740",
+      "38916485",
+      "39928767",
+      "40427511",
+      "34660782",
+      "35528155",
+      "36472040",
+      "35097126",
+      "34105049",
+      "38167125",
+      "34753385",
+      "37009506",
+      "40316154",
+      "33645090",
+      "39742571",
+      "40958307",
+      "41137226",
+      "41015806",
+      "39041101",
+      "35988839",
+      "39650849",
+      "39311772",
+      "38322942",
+      "35616676",
+      "35838222",
+      "34908920",
+      "37499457",
+      "38621884",
+      "41418734",
+      "41439108",
+      "40124554",
+      "38588987",
+      "39617073",
+      "38206683",
+      "37833363",
+      "33831468",
+      "41995502",
+      "38518018",
+      "35178959",
+      "40585331",
+      "33645094",
+      "37469733",
+      "40676786",
+      "39095732",
+      "36472041",
+      "32307268",
+      "40988247"
+    ],
+    "review": [
+      "37957903"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=27&issue=9&spage=1286&aulast=Yang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/223485/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

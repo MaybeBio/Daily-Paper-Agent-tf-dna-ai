@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and data availability statements. Figures, tables, and supplementary materials were not provided.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodological soundness, and logical coherence as presented in the text. Structural biology claims are evaluated based on reported resolutions and procedural descriptions, but cannot be independently verified without maps or models.
+- **Shared manuscript claim summary** The authors report that the human INO80 chromatin remodeller can slide hexasomes as efficiently as canonical and H2A.Z-containing nucleosomes. They present cryo-EM structures of human INO80 bound to hexasomes, canonical nucleosomes, and H2A.Z nucleosomes, revealing multiple binding states (H-3, N-6, N-7, NZ-7) that differ by the position of the Ino80 motor domain relative to the nucleosomal entry DNA. They propose a predominantly topology-driven recognition mechanism, with the A-module sensing extranucleosomal DNA and IES2 binding the acidic patch on nucleosomes but not hexasomes.
+- **Missing materials affecting confidence** Figures, tables, and supplementary materials were not provided. This includes all structural figures, gel images for sliding assays, ATPase activity data, and the multiple sequence alignment shown in Figure 3b. Without these, quantitative claims about activity levels, structural interpretations, and mutational effects cannot be fully evaluated.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in chromatin biology: whether the human INO80 complex, which lacks the ARP5 grappler domain found in fungal orthologs, can remodel hexasomes and how it recognizes diverse nucleosomal substrates. The authors provide biochemical evidence for hexasome sliding and present multiple cryo-EM structures that reveal distinct binding states. The concept of topology-driven recognition is interesting and potentially significant. However, the manuscript has several weaknesses. The structural analysis appears to rely heavily on low-resolution maps for the A-module, and the functional significance of the different binding states is not fully established. The claim that IES2 binding differentiates between nucleosomes and hexasomes is based on a single mutant and lacks structural evidence for the hexasome state. The discussion is speculative in places, and the relationship between the observed states and the remodelling mechanism remains unclear. The manuscript would benefit from a clearer articulation of how the different states relate to the catalytic cycle and from additional functional data linking the structural observations to remodelling outcomes.
+- **Who would be interested in the results, and why** Researchers studying ATP-dependent chromatin remodelling, particularly the INO80 family, will be interested in the structural and biochemical characterization of human INO80. The finding that hexasome sliding is conserved in human INO80, despite the absence of the ARP5 grappler domain, is relevant to understanding the evolution of remodeller function. The proposed topology-driven recognition mechanism may also be of interest to those studying how remodellers achieve substrate specificity. The structural data on IES2 and its role in acidic patch binding will be relevant to those investigating the function of this conserved but poorly understood subunit.
+- **Major strengths** The manuscript addresses a significant gap in the field by characterizing human INO80 on non-canonical substrates. The biochemical data showing efficient hexasome sliding is a clear and important result. The structural determination of multiple binding states from a single dataset is technically impressive and provides a useful framework for understanding remodeller plasticity. The identification of IES2 as an acidic patch binding module in human INO80 is a novel finding that may have functional implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that human INO80 slides hexasomes as efficiently as nucleosomes, and that this is an evolutionarily conserved property.
+  - **Evidence pointer** Results section "Human INO80 can slide both hexasomes and nucleosomes", Figure 1a-c, Figure S9d
+  - **Concern** The claim of equal efficiency is based on a comparison of substrates with different extranucleosomal DNA lengths (80 bp for nucleosomes, 40 bp for hexasomes). The authors state this was done to minimize influences of linker DNA length, but this choice makes the comparison difficult to interpret. If hexasomes have more unwrapped DNA, the effective extranucleosomal DNA available for the remodeller may differ. The sliding assay data are described but not shown, and the quantification method is not described in sufficient detail. The rate constants (kobs) are mentioned in the methods but the actual values are not reported in the text. Without seeing the data, it is not possible to assess whether the claim of "as efficiently" is justified or whether there are subtle differences that are being overlooked.
+  - **Why it matters** This is a central claim of the paper. If the comparison is not well-controlled, the conclusion that hexasome sliding is a conserved feature of human INO80 is weakened. The choice of different linker lengths could mask real differences in substrate preference.
+  - **Resolution test** The authors should provide the sliding assay data with proper controls, including substrates with matched extranucleosomal DNA lengths. They should report the calculated rate constants and statistical comparisons. If matched-length substrates are not feasible, the limitations of the comparison should be explicitly acknowledged and discussed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors claim that the A-module binds to extranucleosomal DNA in the nucleosome complex and to unwrapped DNA in the hexasome complex, and that this represents a topology-driven recognition mechanism.
+  - **Evidence pointer** Results sections "Structure of Human INO80 bound to hexasomes" and "Overall structure of the C and A-module bound to nucleosome/hexasome", Figures 6a-d
+  - **Concern** The A-module maps are described as low-resolution (8.95 Å for the hexasome complex, 9.18 Å for the apo-nucleosome complex, 11.66 Å for the H2A.Z complex). At these resolutions, it is difficult to make confident claims about the specific interactions between the A-module and DNA, or to distinguish between different binding modes. The authors state that the A-module binds to "topologically equivalent regions" in the H-3 and N-6 states, but the evidence for this is not presented in the text. The docking of AlphaFold3-predicted structures into low-resolution maps is inherently uncertain, and the authors do not discuss the limitations of this approach.
+  - **Why it matters** The topology-driven recognition model is a key conceptual contribution of the paper. If the structural evidence is not robust, the model is not well-supported. The claim that the A-module binds to topologically equivalent regions is central to this model and needs to be substantiated with clear structural evidence.
+  - **Resolution test** The authors should provide a more detailed description of the A-module density and how the AlphaFold3 models were fitted. They should include figures showing the fit of the models into the density, and discuss the confidence of the fitting. If possible, they should attempt to improve the resolution of the A-module maps or use alternative methods to validate the proposed binding mode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors claim that the IES2 RxR motif binds the acidic patch on nucleosomes and is important for coupling ATP hydrolysis to sliding, but is not involved in hexasome remodelling.
+  - **Evidence pointer** Results section "Acidic patch binding is required for nucleosome but not hexasome sliding" and "IES2 functionally interacts with the acidic patch on nucleosomes but not hexasomes", Figures 4c-e, S13b-c
+  - **Concern** The functional data supporting this claim are based on two mutants: the acidic patch mutant (APM) on the histone side and the IES2 RxR mutant (R179A/R181A). The authors show that APM reduces nucleosome sliding but not hexasome sliding, and that the RxR mutant also reduces nucleosome sliding. However, the text states that the RxR mutation "increased the ATPase activity of INO80 in the nucleosome context three-fold" while the APM "retained robust ATPase activity". This is a confusing result. If the RxR mutation increases ATPase activity but decreases sliding, it suggests an uncoupling of ATP hydrolysis from movement, which is consistent with the authors' interpretation. However, the data are not shown, and the magnitude of the effect is not quantified. The authors do not test whether the RxR mutant affects hexasome sliding, which would be a direct test of their claim that IES2 is not involved in hexasome remodelling.
+  - **Why it matters** The differential role of IES2 in nucleosome versus hexasome remodelling is a key finding. Without a direct test of the RxR mutant on hexasome sliding, the claim is not fully supported. The uncoupling of ATPase and sliding activities is interesting but needs to be more thoroughly characterized.
+  - **Resolution test** The authors should test the RxR mutant on hexasome sliding. They should also provide the ATPase activity data for both mutants on both substrates, with proper statistical analysis. The relationship between ATPase activity and sliding should be discussed in more detail.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model
+  - **Claim pointer** The authors propose that the N-6 state represents an "active" state on nucleosomes, based on the observation that DNA is unwrapped at SHL-6 and the H2A/H2B dimer is partially exposed.
+  - **Evidence pointer** Results section "INO80 binds nucleosomes in different positions", Figures 2b, 2c, 2h-i
+  - **Concern** The designation of N-6 as the "active" state is speculative. The authors show that the RuvBL2 D214A mutant has reduced sliding activity, and they hypothesize that D214 stabilizes the histone core when DNA is unwrapped. However, they do not provide direct evidence that the N-6 state is on the catalytic pathway. The N-6 state could represent a non-productive binding mode or an off-pathway intermediate. The authors do not discuss alternative interpretations of their data.
+  - **Why it matters** The identification of an active state is important for understanding the remodelling mechanism. If the N-6 state is not on the catalytic pathway, the model is incorrect. The authors need to provide additional evidence, such as mutational analysis of residues that would specifically affect the N-6 state, or time-resolved experiments.
+  - **Resolution test** The authors should provide additional evidence that the N-6 state is functionally relevant. This could include mutations that specifically destabilize the N-6 state and show that they affect sliding activity, or experiments that trap the remodeller in the N-6 state and show that it is an intermediate in the reaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that INO80 slides hexasomes "as efficiently as H2A and H2A.Z nucleosomes", but the comparison is between hexasomes and nucleosomes with different linker lengths. This is potentially misleading.
+  - **Required correction** Clarify the comparison in the abstract, or state the linker lengths used for each substrate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Human INO80 can slide both hexasomes and nucleosomes"
+  - **Evidence pointer** Figure 1a-c
+  - **Issue** The sliding assay data are described but not shown. The quantification method is described in the methods, but the actual data are not presented in the text.
+  - **Required correction** Include the sliding assay data as a figure, with representative gels and quantification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Structure of Human INO80 bound to hexasomes"
+  - **Evidence pointer** Figure 1d
+  - **Issue** The description of the hexasome structure is brief. The authors state that the Ino80 motor binds at SHL-3, but do not describe the interactions in detail.
+  - **Required correction** Provide a more detailed description of the hexasome structure, including the specific interactions between the Ino80 motor and the hexasomal DNA.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "INO80 binds nucleosomes in different positions"
+  - **Evidence pointer** Figures 2a-b
+  - **Issue** The two nucleosome binding states (N-6 and N-7) are described, but the structural differences between them are not clearly explained. The authors state that the transition involves unwrapping of ~10 bp, but do not describe the conformational changes in detail.
+  - **Required correction** Provide a clearer description of the structural differences between the N-6 and N-7 states, possibly with a figure showing the overlay of the two states.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Acidic patch binding is required for nucleosome but not hexasome sliding"
+  - **Evidence pointer** Figures S12c-d
+  - **Issue** The ATPase activity data for the APM mutant are mentioned but not shown. The text states that ATPase activity was "robust" but does not provide quantitative data.
+  - **Required correction** Include the ATPase activity data for the APM mutant, with statistical analysis.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is somewhat speculative, particularly regarding the potential role of IES2 in preventing H2A/H2B dimer loss. The authors should clearly distinguish between conclusions supported by data and hypotheses.
+  - **Required correction** Revise the discussion to clearly separate data-supported conclusions from speculative hypotheses.
+- **Technical failings that need to be addressed before the case is established** The comparison of sliding efficiencies between nucleosomes and hexasomes uses different extranucleosomal DNA lengths, which confounds the interpretation. The structural evidence for the A-module binding mode is based on low-resolution maps, and the fitting of AlphaFold3 models is not described in sufficient detail. The functional significance of the N-6 state is not established. The IES2 RxR mutant was not tested on hexasomes, leaving the claim that IES2 is not involved in hexasome remodelling unsupported.
+- **Assessment against Nature-style criteria** Originality: The manuscript presents novel structural data on human INO80 bound to hexasomes and identifies multiple binding states. The finding that IES2 binds the acidic patch is new. However, the overall concept of topology-driven recognition is not entirely novel, as similar ideas have been proposed for other remodellers. Scientific importance: The work is important for understanding how INO80 remodels diverse substrates, which has implications for chromatin biology. The finding that hexasome sliding is conserved in human INO80 is significant. Interdisciplinary readership: The work will primarily appeal to researchers in chromatin biology and structural biology. The broader cell biology community may find the results relevant, but the presentation is quite specialized. Technical soundness: The biochemical assays appear to be standard, but the comparison of substrates with different linker lengths is a concern. The cryo-EM structures are reported at reasonable resolutions for the C-module, but the A-module maps are low-resolution. The functional validation is incomplete. Readability for nonspecialists: The manuscript is written in a technical style that will be accessible to specialists but may be challenging for a broader audience. The abstract is clear, but the results section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents novel data, but the concerns about the sliding assay comparison, the structural evidence for the A-module, and the functional validation of the IES2 role need to be addressed before the claims are fully supported.
+
+## Risk / unsupported claims
+- The claim that human INO80 slides hexasomes "as efficiently" as nucleosomes is not fully supported due to the use of different extranucleosomal DNA lengths.
+- The claim that the A-module binds to "topologically equivalent regions" in the H-3 and N-6 states is not supported by the text, as the relevant structural evidence is not described in sufficient detail.
+- The claim that the N-6 state is the "active" state is speculative and not directly supported by the data.
+- The claim that IES2 is not involved in hexasome remodelling is not supported, as the RxR mutant was not tested on hexasomes.
+- The claim that the post-HSA domain is dynamic and coupled to the nucleotide state is based on low-resolution maps and is not well-supported.

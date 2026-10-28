@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "38212453",
+    "doi": "10.1007/s11030-023-10785-6",
+    "title": "Comprehensive computational investigation for ligand recognition and binding dynamics of SdiA: a degenerate LuxR -type receptor in Klebsiella pneumoniae."
+  },
+  "content": {
+    "abstract": "SdiA is a LuxR-type receptor that controls the virulence of Klebsiella pneumoniae, a Gram-negative bacterium that causes various infections in humans. SdiA senses exogenous acyl-homoserine lactones (AHLs) and autoinducer-2 (AI-2), two types of quorum sensing signals produced by other bacterial species. However, the molecular details of how SdiA recognizes and binds to different ligands and how this affects its function and regulation in K. pneumoniae still need to be better understood. This study uses computational methods to explore the protein-ligand binding dynamics of SdiA with 11 AHLs and 2 AI-2 ligands. The 3D structure of SdiA was predicted through homology modeling, followed by molecular docking with AHLs and AI-2 ligands. Binding affinities were quantified using MM-GBSA, and complex stability was assessed via Molecular Dynamics (MD) simulations. Results demonstrated that SdiA in Klebsiella pneumoniae exhibits a degenerate binding nature, capable of interacting with multiple AHLs and AI-2. Specific ligands, namely C10-HSL, C8-HSL, 3-oxo-C8-HSL, and 3-oxo-C10-HSL, were found to have high binding affinities and formed critical hydrogen bonds with key amino acid residues of SdiA. This finding aligns with the observed preference of SdiA for AHLs having 8 to 10 carbon-length acyl chains and lacking hydroxyl groups. In contrast, THMF and HMF demonstrated poor binding properties. Furthermore, AI-2 exhibited a low affinity, corroborating the inference that SdiA is not the primary receptor for AI-2 in K. pneumoniae. These findings provide insights into the protein-ligand binding dynamics of SdiA and its role in quorum sensing and virulence of K. pneumoniae.",
+    "keywords": [
+      "Klebsiella pneumoniae",
+      "MD simulation",
+      "MM-GBSA",
+      "Molecular docking",
+      "Quorum sensing",
+      "SdiA"
+    ],
+    "mesh_terms": [
+      "*Klebsiella pneumoniae/metabolism",
+      "Ligands",
+      "*Molecular Dynamics Simulation",
+      "*Molecular Docking Simulation",
+      "*Bacterial Proteins/metabolism/chemistry",
+      "*Protein Binding",
+      "Acyl-Butyrolactones/metabolism/chemistry",
+      "Repressor Proteins/chemistry/metabolism",
+      "Trans-Activators/metabolism/chemistry",
+      "Homoserine/analogs & derivatives/metabolism/chemistry",
+      "Lactones/metabolism/chemistry",
+      "Quorum Sensing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Panchal, Janki",
+        "Prajapati, Jignesh",
+        "Dabhi, Milan",
+        "Patel, Arun",
+        "Patel, Sandip",
+        "Rawal, Rakesh",
+        "Saraf, Meenu",
+        "Goswami, Dweipayan"
+      ],
+      "short_names": [
+        "Panchal J",
+        "Prajapati J",
+        "Dabhi M",
+        "Patel A",
+        "Patel S",
+        "Rawal R",
+        "Saraf M",
+        "Goswami D"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-8235-568X",
+        "ORCID: 0000-0001-8700-9929",
+        "ORCID: 0000-0001-6581-8389",
+        "ORCID: 0000-0002-1525-3663",
+        "ORCID: 0000-0001-9235-9413",
+        "ORCID: 0000-0002-7985-1187",
+        "ORCID: 0000-0003-4964-9452",
+        "ORCID: 0000-0003-0165-0294"
+      ],
+      "affiliations": [
+        "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India.",
+        "Department of Biochemistry & Forensic Science, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India.",
+        "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India.",
+        "Department of Veterinary Microbiology, College of Veterinary Sciences & Animal Husbandry, Kamdhenu University, Sardarkrushinagar 385505, Gujarat, India.",
+        "Department of Veterinary Microbiology, College of Veterinary Sciences & Animal Husbandry, Kamdhenu University, Sardarkrushinagar 385505, Gujarat, India.",
+        "Department of Biochemistry & Forensic Science, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India.",
+        "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India.",
+        "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India. dweipayan.sci@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Panchal, Janki",
+        "short_name": "Panchal J",
+        "identifiers": [
+          "0009-0007-8235-568X"
+        ],
+        "affiliations": [
+          "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Prajapati, Jignesh",
+        "short_name": "Prajapati J",
+        "identifiers": [
+          "0000-0001-8700-9929"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Forensic Science, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Dabhi, Milan",
+        "short_name": "Dabhi M",
+        "identifiers": [
+          "0000-0001-6581-8389"
+        ],
+        "affiliations": [
+          "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Patel, Arun",
+        "short_name": "Patel A",
+        "identifiers": [
+          "0000-0002-1525-3663"
+        ],
+        "affiliations": [
+          "Department of Veterinary Microbiology, College of Veterinary Sciences & Animal Husbandry, Kamdhenu University, Sardarkrushinagar 385505, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Patel, Sandip",
+        "short_name": "Patel S",
+        "identifiers": [
+          "0000-0001-9235-9413"
+        ],
+        "affiliations": [
+          "Department of Veterinary Microbiology, College of Veterinary Sciences & Animal Husbandry, Kamdhenu University, Sardarkrushinagar 385505, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Rawal, Rakesh",
+        "short_name": "Rawal R",
+        "identifiers": [
+          "0000-0002-7985-1187"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Forensic Science, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Saraf, Meenu",
+        "short_name": "Saraf M",
+        "identifiers": [
+          "0000-0003-4964-9452"
+        ],
+        "affiliations": [
+          "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India."
+        ]
+      },
+      {
+        "full_name": "Goswami, Dweipayan",
+        "short_name": "Goswami D",
+        "identifiers": [
+          "0000-0003-0165-0294"
+        ],
+        "affiliations": [
+          "Department of Microbiology & Biotechnology, University School of Sciences, Gujarat University, Ahmedabad, 380009, Gujarat, India. dweipayan.sci@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/12 00:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "41075080",
+      "40524946",
+      "40240290",
+      "40182769",
+      "39720087"
+    ],
+    "refs": [
+      "35680454",
+      "35617284",
+      "35478553",
+      "34990892",
+      "34795652",
+      "33930099",
+      "33234410",
+      "32401149",
+      "32283347",
+      "31732826",
+      "31325485",
+      "30662875",
+      "30057902",
+      "26584231",
+      "25835573",
+      "25340836",
+      "24381236",
+      "24340062",
+      "23939429",
+      "23727278",
+      "23682605",
+      "23579614",
+      "23363620",
+      "21548094",
+      "21182299",
+      "21134891",
+      "21125993",
+      "21117705",
+      "20701623",
+      "19674996",
+      "19517507",
+      "19494577",
+      "18599814",
+      "18568160",
+      "17381729",
+      "17034125",
+      "16873018",
+      "16452428",
+      "16377703",
+      "15553252",
+      "15279849",
+      "15027866",
+      "15027865",
+      "12228292",
+      "12198485",
+      "11053384",
+      "10948095",
+      "10592235",
+      "10510239",
+      "9767057",
+      "9765571",
+      "8401235",
+      "1538787"
+    ],
+    "similar": [
+      "38212453",
+      "27565088",
+      "25827420",
+      "16307757",
+      "40182769",
+      "17085703",
+      "22660944",
+      "32401149",
+      "22737019",
+      "34234747",
+      "30703686",
+      "34196919",
+      "21468228",
+      "28164039",
+      "25478328",
+      "30352386",
+      "29763730",
+      "16428734",
+      "21182299",
+      "35927585",
+      "21711544",
+      "17524690",
+      "35947344",
+      "21154995",
+      "34557892",
+      "33877985",
+      "39735558",
+      "19945196",
+      "30967469",
+      "10675332",
+      "18020460",
+      "32183409",
+      "40240290",
+      "24598739",
+      "24645791",
+      "23415735",
+      "21034261",
+      "26092757",
+      "28695853",
+      "24281952",
+      "29208745",
+      "25923884",
+      "17075036",
+      "19168658",
+      "19820103",
+      "11544237",
+      "39524928",
+      "27848037",
+      "25550519",
+      "26662614",
+      "30304064",
+      "26231578",
+      "39945376",
+      "15660998",
+      "24047255",
+      "25573337",
+      "19534812",
+      "26029670",
+      "30410627",
+      "30710805",
+      "24499972",
+      "21325039",
+      "31706123",
+      "25474181",
+      "20701623",
+      "17258895",
+      "22574700",
+      "10781550",
+      "36416609",
+      "37227303",
+      "21730159",
+      "28829573",
+      "31325485",
+      "34990892",
+      "38485076",
+      "28858750",
+      "24478193",
+      "10941779",
+      "23144246",
+      "20600864",
+      "31732826",
+      "37110313",
+      "31272719",
+      "20514483",
+      "17363368",
+      "32001099",
+      "33124430",
+      "20624221",
+      "26318530",
+      "22610437",
+      "29378137",
+      "11371516",
+      "12228292",
+      "21222491",
+      "37429117",
+      "33143873",
+      "17889538",
+      "30322111",
+      "32333184",
+      "15995228"
+    ],
+    "review": [
+      "38212453",
+      "21468228",
+      "21182299",
+      "40240290",
+      "21034261",
+      "10941779",
+      "23144246",
+      "31732826",
+      "32001099"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11030-023-10785-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

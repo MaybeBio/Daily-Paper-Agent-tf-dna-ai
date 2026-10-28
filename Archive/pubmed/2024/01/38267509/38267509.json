@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "38267509",
+    "doi": "10.1038/s41598-024-52646-8",
+    "title": "Machine learning identifies SLC6A14 as a novel biomarker promoting the proliferation and metastasis of pancreatic cancer via Wnt/beta-catenin signaling."
+  },
+  "content": {
+    "abstract": "Pancreatic cancer (PC) has the poorest prognosis compared to other common cancers because of its aggressive nature, late detection, and resistance to systemic treatment. In this study, we aimed to identify novel biomarkers for PC patients and further explored their function in PC progression. We analyzed GSE62452 and GSE28735 datasets, identifying 35 differentially expressed genes (DEGs) between PC specimens and non-tumors. Based on 35 DEGs, we performed machine learning and identified eight diagnostic genes involved in PC progression. Then, we further screened three critical genes (CTSE, LAMC2 and SLC6A14) using three GEO datasets. A new diagnostic model was developed based on them and showed a strong predictive ability in screen PC specimens from non-tumor specimens in GEO, TCGA datasets and our cohorts. Then, clinical assays based on TCGA datasets indicated that the expression of LAMC2 and SLC6A14 was associated with advanced clinical stage and poor prognosis. The expressions of LAMC2 and SLC6A14, as well as the abundances of a variety of immune cells, exhibited a significant positive association with one another. Functionally, we confirmed that SLC6A14 was highly expressed in PC and its knockdown suppressed the proliferation, migration, invasion and EMT signal via regulating Wnt/beta-catenin signaling pathway. Overall, our findings developed a novel diagnostic model for PC patients. SLC6A14 may promote PC progression via modulating Wnt/beta-catenin signaling. This work offered a novel and encouraging new perspective that holds potential for further illuminating the clinicopathological relevance of PC as well as its molecular etiology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*beta Catenin",
+      "Wnt Signaling Pathway/genetics",
+      "*Pancreatic Neoplasms/diagnosis/genetics",
+      "Machine Learning",
+      "Biomarkers",
+      "Cell Proliferation/genetics",
+      "Amino Acid Transport Systems"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dang, Cunshu",
+        "Bian, Quan",
+        "Wang, Fengbiao",
+        "Wang, Han",
+        "Liang, Zhipeng"
+      ],
+      "short_names": [
+        "Dang C",
+        "Bian Q",
+        "Wang F",
+        "Wang H",
+        "Liang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary Gastrointestinal Surgery, Tianjin Fourth Central Hospital, No.1 Zhongshan Road, Tianjin, China. dangcunshu@126.com.",
+        "Department of Plastic and Reconstructive Surgery, Tianjin Nankai Hospital, Tianjin, China.",
+        "Department of Hepatobiliary Gastrointestinal Surgery, Tianjin Fourth Central Hospital, No.1 Zhongshan Road, Tianjin, China.",
+        "Department of Otorhinolaryngology-Head and Neck Surgery, Tianjin Fourth Central Hospital, Tianjin, China.",
+        "Department of Hepatobiliary Gastrointestinal Surgery, Tianjin Fourth Central Hospital, No.1 Zhongshan Road, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dang, Cunshu",
+        "short_name": "Dang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Gastrointestinal Surgery, Tianjin Fourth Central Hospital, No.1 Zhongshan Road, Tianjin, China. dangcunshu@126.com."
+        ]
+      },
+      {
+        "full_name": "Bian, Quan",
+        "short_name": "Bian Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Tianjin Nankai Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fengbiao",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Gastrointestinal Surgery, Tianjin Fourth Central Hospital, No.1 Zhongshan Road, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otorhinolaryngology-Head and Neck Surgery, Tianjin Fourth Central Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhipeng",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Gastrointestinal Surgery, Tianjin Fourth Central Hospital, No.1 Zhongshan Road, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jan 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/25 00:42",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42730913",
+      "42499097",
+      "41816687",
+      "41724861",
+      "41594672",
+      "41444422",
+      "41302469",
+      "41050466",
+      "40571889",
+      "40269234",
+      "39934551",
+      "39809357"
+    ],
+    "refs": [
+      "37342327",
+      "36359832",
+      "35874717",
+      "35865664",
+      "35623799",
+      "35412885",
+      "35163279",
+      "35156159",
+      "34796689",
+      "34750572",
+      "34742349",
+      "34733944",
+      "34518686",
+      "34456337",
+      "34182017",
+      "34002083",
+      "33624791",
+      "33469314",
+      "33357065",
+      "33122097",
+      "32972405",
+      "32612154",
+      "32139180",
+      "31997007",
+      "31978441",
+      "31944278",
+      "31904426",
+      "31771799",
+      "31301414",
+      "31262852",
+      "30718832",
+      "30323017",
+      "30060755",
+      "29279096",
+      "29189329",
+      "29169144",
+      "29036786",
+      "28591939",
+      "28453689",
+      "28391577",
+      "28158300",
+      "27550791",
+      "27069014",
+      "26173258",
+      "25739971",
+      "25249658",
+      "24048123",
+      "22682243",
+      "22455463",
+      "21620466",
+      "17081971"
+    ],
+    "similar": [
+      "38267509",
+      "30639415",
+      "29274277",
+      "38536650",
+      "32219372",
+      "30967633",
+      "34791638",
+      "33782807",
+      "37344882",
+      "28523575",
+      "35623308",
+      "36406681",
+      "30791932",
+      "32427740",
+      "35929518",
+      "33017570",
+      "36371204",
+      "37337632",
+      "31774184",
+      "35707527",
+      "36460804",
+      "31337688",
+      "38035707",
+      "31731384",
+      "28685847",
+      "39215036",
+      "31759044",
+      "39212391",
+      "30745850",
+      "37162618",
+      "32020223",
+      "33026174",
+      "30223390",
+      "36165859",
+      "37875822",
+      "34326621",
+      "31081091",
+      "31404031",
+      "31101875",
+      "17956532",
+      "28586066",
+      "39053135",
+      "38265409",
+      "36496997",
+      "35864528",
+      "29863244",
+      "32951177",
+      "33148205",
+      "33613108",
+      "30670025",
+      "26526617",
+      "27459115",
+      "37439386",
+      "38864487",
+      "38364252",
+      "33883938",
+      "35738443",
+      "28646284",
+      "31027497",
+      "31173295",
+      "31746531",
+      "31298313",
+      "36614043",
+      "31769353",
+      "38554384",
+      "36284263",
+      "30372871",
+      "36191371",
+      "37371833",
+      "38686653",
+      "35986274",
+      "32495868",
+      "34584067",
+      "27081037",
+      "32239719",
+      "27481517",
+      "30929558",
+      "38093163",
+      "36789977",
+      "33499904",
+      "36522719",
+      "38697284",
+      "35768865",
+      "30691517",
+      "28099945",
+      "35246020",
+      "29802196",
+      "30935831",
+      "30831090",
+      "31255182",
+      "31892849",
+      "33292272",
+      "27747870",
+      "27983920",
+      "26047573",
+      "37285735",
+      "36827869",
+      "24977327",
+      "30468709",
+      "37818061"
+    ],
+    "review": [
+      "38267509",
+      "37285735"
+    ],
+    "pmc": [
+      "10808089"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38267509/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-52646-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38267509/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38267509",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "40492493",
+    "doi": "10.7554/eLife.106042",
+    "title": "A library of lineage-specific driver lines connects developing neuronal circuits to behavior in the Drosophila ventral nerve cord."
+  },
+  "content": {
+    "abstract": "Understanding developmental changes in neuronal lineages is crucial to elucidate how they assemble into functional neural networks. Studies investigating nervous system development in model systems have only focused on select regions of the CNS due to the limited availability of genetic drivers that target specific neuronal lineages throughout development and adult life. This has hindered our understanding of how distinct neuronal lineages interconnect to form neuronal circuits during development. Here, we present a split-GAL4 library composed of genetic driver lines, which we generated via editing the genomic locus of lineage-specific transcription factors and demonstrate that we can use this library to specifically target most individual neuronal hemilineages in the Drosophila ventral nerve cord (VNC) throughout development and into adulthood. Using these genetic driver lines, we found striking morphological changes in neuronal processes within a lineage during metamorphosis. We also demonstrated how neurochemical features of neuronal classes can be quickly assessed. Lastly, we documented behaviors elicited in response to optogenetic activation of individual neuronal lineages and generated a comprehensive lineage-behavior map of the entire fly VNC. Looking forward, this lineage-specific split-GAL4 driver library will provide the genetic tools needed to address the questions emerging from the analysis of the recent VNC connectome and transcriptome datasets.",
+    "keywords": [
+      "D. melanogaster",
+      "GAL4 library",
+      "VNC",
+      "behavior",
+      "developmental biology",
+      "neurodevelopment",
+      "neuronal lineages",
+      "neuroscience",
+      "scRNA seq"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Neurons/physiology",
+      "Cell Lineage",
+      "*Drosophila melanogaster/growth & development/genetics/physiology",
+      "Transcription Factors/genetics/metabolism",
+      "*Nerve Net/growth & development/physiology",
+      "Drosophila Proteins/genetics/metabolism",
+      "Gene Library",
+      "*Behavior, Animal",
+      "*Drosophila/growth & development",
+      "Optogenetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Soffers, Jelly H M",
+        "Beck, Erin",
+        "Sytkowski, Daniel J",
+        "Maughan, Marianne E",
+        "Devarakonda, Devasri",
+        "Zhu, Yi",
+        "Wilson, Beth A",
+        "Chen, Yu-Chieh David",
+        "Erclik, Ted",
+        "Truman, James W",
+        "Skeath, James B",
+        "Lacin, Haluk"
+      ],
+      "short_names": [
+        "Soffers JHM",
+        "Beck E",
+        "Sytkowski DJ",
+        "Maughan ME",
+        "Devarakonda D",
+        "Zhu Y",
+        "Wilson BA",
+        "Chen YD",
+        "Erclik T",
+        "Truman JW",
+        "Skeath JB",
+        "Lacin H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1051-7375",
+        "ORCID: 0000-0002-2597-7577",
+        "ORCID: 0000-0002-9209-5435",
+        "ORCID: 0000-0003-1179-4857",
+        "ORCID: 0000-0003-2468-9618"
+      ],
+      "affiliations": [
+        "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States.",
+        "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States.",
+        "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States.",
+        "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States.",
+        "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States.",
+        "Department of Genetics, Washington University School of Medicine, St. Louis, United States.",
+        "Department of Genetics, Washington University School of Medicine, St. Louis, United States.",
+        "Department of Biology, New York University, New York, United States.",
+        "Department of Biology, University of Toronto - Mississauga, Mississauga, Canada.",
+        "Department of Cell and Systems Biology, University of Toronto - Mississauga, Mississauga, Canada.",
+        "Department of Biology, University of Washington, Seattle, United States.",
+        "Department of Genetics, Washington University School of Medicine, St. Louis, United States.",
+        "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Soffers, Jelly H M",
+        "short_name": "Soffers JHM",
+        "identifiers": [
+          "0000-0002-1051-7375"
+        ],
+        "affiliations": [
+          "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+        ]
+      },
+      {
+        "full_name": "Beck, Erin",
+        "short_name": "Beck E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+        ]
+      },
+      {
+        "full_name": "Sytkowski, Daniel J",
+        "short_name": "Sytkowski DJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+        ]
+      },
+      {
+        "full_name": "Maughan, Marianne E",
+        "short_name": "Maughan ME",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+        ]
+      },
+      {
+        "full_name": "Devarakonda, Devasri",
+        "short_name": "Devarakonda D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yi",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine, St. Louis, United States."
+        ]
+      },
+      {
+        "full_name": "Wilson, Beth A",
+        "short_name": "Wilson BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine, St. Louis, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu-Chieh David",
+        "short_name": "Chen YD",
+        "identifiers": [
+          "0000-0002-2597-7577"
+        ],
+        "affiliations": [
+          "Department of Biology, New York University, New York, United States."
+        ]
+      },
+      {
+        "full_name": "Erclik, Ted",
+        "short_name": "Erclik T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Toronto - Mississauga, Mississauga, Canada.",
+          "Department of Cell and Systems Biology, University of Toronto - Mississauga, Mississauga, Canada."
+        ]
+      },
+      {
+        "full_name": "Truman, James W",
+        "short_name": "Truman JW",
+        "identifiers": [
+          "0000-0002-9209-5435"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Washington, Seattle, United States."
+        ]
+      },
+      {
+        "full_name": "Skeath, James B",
+        "short_name": "Skeath JB",
+        "identifiers": [
+          "0000-0003-1179-4857"
+        ],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine, St. Louis, United States."
+        ]
+      },
+      {
+        "full_name": "Lacin, Haluk",
+        "short_name": "Lacin H",
+        "identifiers": [
+          "0000-0003-2468-9618"
+        ],
+        "affiliations": [
+          "School of Science and Engineering, Division Biological and Biomedical Systems, University of Missouri-Kansas City, Kansas City, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/10 13:26",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "42486976",
+      "42203871",
+      "41842930",
+      "41738557",
+      "41591902",
+      "41248285",
+      "41122815",
+      "40654601",
+      "40502082",
+      "40093165",
+      "40093129",
+      "38895414"
+    ],
+    "refs": [
+      "39854223",
+      "39358521",
+      "38996053",
+      "38926579",
+      "38926570",
+      "38060386",
+      "37647901",
+      "37523539",
+      "37267358",
+      "35935535",
+      "35723254",
+      "35140397",
+      "35090590",
+      "33427646",
+      "33315010",
+      "33263281",
+      "33240047",
+      "33149298",
+      "32880371",
+      "32314735",
+      "32216875",
+      "31674908",
+      "31545163",
+      "31341080",
+      "30919956",
+      "30912745",
+      "30711355",
+      "30703584",
+      "29943730",
+      "28875566",
+      "28114289",
+      "27846759",
+      "26975248",
+      "26193122",
+      "26136656",
+      "25964354",
+      "25824290",
+      "25732830",
+      "25664691",
+      "25088417",
+      "25002478",
+      "24713419",
+      "24550109",
+      "24509633",
+      "24478335",
+      "24002648",
+      "20697123",
+      "20023160",
+      "19883497",
+      "19710170",
+      "19643699",
+      "18510932",
+      "18203989",
+      "17088209",
+      "17055440",
+      "15459108",
+      "11262869",
+      "10830170",
+      "10197526",
+      "9550718",
+      "8755475",
+      "4029507",
+      "3119399",
+      "1979610",
+      "1901786"
+    ],
+    "similar": [
+      "40492493",
+      "39651218",
+      "35723253",
+      "42475469",
+      "32216875",
+      "40138668",
+      "33021199",
+      "37523539",
+      "39854223",
+      "38569007",
+      "41842930",
+      "24512689",
+      "28363977",
+      "19762424",
+      "36778312",
+      "31856635",
+      "30912745",
+      "33240047",
+      "19010254",
+      "41429933",
+      "32286225",
+      "29702674",
+      "25088417",
+      "32931755",
+      "23063364",
+      "39950543",
+      "33092520",
+      "26700685",
+      "26965122",
+      "26440079",
+      "41738557",
+      "36820523",
+      "24550109",
+      "24525296",
+      "41065014",
+      "36975203",
+      "42474298",
+      "30837311",
+      "18042702",
+      "30530644",
+      "26975248",
+      "42486976",
+      "23934998",
+      "19013145",
+      "39879130",
+      "22967828",
+      "36862736",
+      "29943730",
+      "24567257",
+      "41529688",
+      "37398009",
+      "16707805",
+      "36512054",
+      "11861485",
+      "21705753",
+      "31213548",
+      "23688386",
+      "17443769",
+      "35881070",
+      "29943729",
+      "38926570",
+      "20558325",
+      "29119859",
+      "33463521",
+      "33326321",
+      "17936746",
+      "35660371",
+      "41248285",
+      "24917506",
+      "32988987",
+      "19165334",
+      "28392108",
+      "38569548",
+      "32880371",
+      "33620770",
+      "42203871",
+      "19055770",
+      "19710167",
+      "17654713",
+      "26878258",
+      "42691995",
+      "32723364",
+      "31709462",
+      "30126464",
+      "24744088",
+      "33714999",
+      "32314735",
+      "28502656",
+      "22796650",
+      "33901168",
+      "16753560",
+      "20919857",
+      "9216994",
+      "41966690",
+      "42319821",
+      "38665068",
+      "26193122",
+      "27073064",
+      "39959937",
+      "36535771"
+    ],
+    "review": [
+      "40492493",
+      "33240047",
+      "19010254",
+      "24567257",
+      "35881070",
+      "29119859"
+    ],
+    "pmc": [
+      "12151538"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40492493",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40492493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40492493",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.106042",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.11.598549",
+  "title": "Detection and classification of long terminal repeat sequences in plant LTR-retrotransposons and their analysis using explainable machine learning",
+  "authors": "Horvath J; Jedlicka P; Kratka M; Kubat Z; Kejnovsky E; Lexa M",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-14",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习分类植物LTR逆转录转座子序列并做可解释性分析，虽涉及调控序列与转录因子结合位点，但核心是转座子元件分类而非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "<h4>Background</h4> Long terminal repeats (LTRs) represent important parts of LTR retrotransposons and retroviruses found in high copy numbers in a majority of eukaryotic genomes. LTRs contain regulatory sequences essential for the life cycle of the retrotransposon. Previous experimental and sequence studies have provided only limited information about LTR structure and composition, mostly from model systems. To enhance our understanding of these key compounds, we focused on the contrasts between LTRs of various retrotransposon families and other genomic regions. Furthermore, this approach can be utilized for the classification and prediction of LTRs. <h4>Results</h4> We used machine learning methods suitable for DNA sequence classification and applied them to a large dataset of plant LTR retrotransposon sequences. We trained three machine learning models using (i) traditional model ensembles (Gradient Boosting - GBC), (ii) hybrid CNN-LSTM models, and (iii) a pre-trained transformer-based model (DNABERT) using k-mer sequence representation. All three approaches were successful in classifying and isolating LTRs in this data, as well as providing valuable insights into LTR sequence composition. The best classification (expressed as F1 score) achieved for LTR detection was 0.85 using the CNN-LSTM hybrid network model. The most accurate classification task was superfamily classification (F1=0.89) while the least accurate was family classification (F1=0.74). The trained models were subjected to explainability analysis. SHAP positional analysis identified a mixture of interesting features, many of which had a preferred absolute position within the LTR and/or were biologically relevant, such as a centrally positioned TATA-box, and TG..CA patterns around both LTR edges. <h4>Conclusions</h4> Our results show that the models used here recognized biologically relevant motifs, such as core promoter elements in the LTR detection task, and a development and stress-related subclass of transcription factor binding sites in the family classification task. Explainability analysis also highlighted the importance of 5’- and 3’-edges in LTR identity and revealed need to analyze more than just dinucleotides at these ends. Our work shows the applicability of machine learning models to regulatory sequence analysis and classification, and demonstrates the important role of the identified motifs in LTR detection.",
+  "abstract_zh": "<h4>背景</h4> 长末端重复序列（LTRs）是LTR逆转录转座子和逆转录病毒的重要组成部分，在大多数真核生物基因组中以高拷贝数存在。LTRs包含对逆转录转座子生命周期至关重要的调控序列。以往的实验和序列研究仅提供了关于LTR结构和组成的有限信息，且主要来自模式系统。为了增强对这些关键元件的理解，我们聚焦于不同逆转录转座子家族的LTRs与其他基因组区域之间的对比。此外，这种方法可用于LTRs的分类和预测。<h4>结果</h4> 我们采用了适用于DNA序列分类的机器学习方法，并将其应用于植物LTR逆转录转座子序列的大型数据集。我们训练了三种机器学习模型，分别使用（i）传统模型集成（梯度提升 - GBC）、（ii）混合CNN-LSTM模型，以及（iii）基于预训练Transformer的模型（DNABERT），采用k-mer序列表示。这三种方法均成功地对这些数据中的LTRs进行了分类和分离，并为LTR序列组成提供了有价值的见解。在LTR检测中，使用CNN-LSTM混合网络模型取得了最佳分类效果（以F1分数表示），达到0.85。最准确的分类任务是超家族分类（F1=0.89），而最不准确的是家族分类（F1=0.74）。训练后的模型进行了可解释性分析。SHAP位置分析识别出一系列有趣的特征，其中许多在LTR内具有偏好的绝对位置和/或具有生物学相关性，例如位于中心的TATA盒，以及LTR两端的TG..CA模式。<h4>结论</h4> 我们的结果表明，这里使用的模型识别了生物学相关的基序，例如在LTR检测任务中的核心启动子元件，以及在家族分类任务中与发育和胁迫相关的转录因子结合位点亚类。可解释性分析还强调了5‘-和3’-末端在LTR身份中的重要性，并揭示需要分析这些末端不仅仅是二核苷酸。我们的工作展示了机器学习模型在调控序列分析和分类中的适用性，并证明了所识别基序在LTR检测中的重要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598549",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598549",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.11.598549/index.html"
+}

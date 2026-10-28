@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.12.598724",
+  "title": "Understanding the heterogeneous performance of variant effect predictors across human protein-coding genes",
+  "doi": "10.1101/2024.06.12.598724",
+  "abstract": "Variant effect predictors (VEPs) are computational tools developed to assess the impacts of genetic mutations, often in terms of likely pathogenicity, employing diverse algorithms and training data. Here, we investigate the performance of 35 VEPs in the discrimination between pathogenic and putatively benign missense variants across 963 human protein-coding genes, revealing considerable gene-level heterogeneity as measured by the widely used area under the receiver operating characteristic curve (AUROC) metric. To investigate the origins of this heterogeneity and the extent to which gene-level VEP performance is predictable, we train random forest models to predict the gene-level AUROC for each VEP. We find that performance as measured by AUROC is related to factors such as gene function, protein structure, and evolutionary conservation. Notably, intrinsic disorder in proteins emerged as a significant factor influencing apparent VEP performance, often leading to inflated AUROC values due to their enrichment in weakly conserved putatively benign variants. While our results suggest that gene-level features may be useful for identifying genes where VEP predictions are likely to be more or less reliable, they also highlight the limitations of AUROC for comparing VEP performance across different genes.",
+  "authors": [
+    "Fawzy M",
+    "Marsh JA"
+  ],
+  "published_date": "2024-06-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.12.598724",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.12.598724.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR868097",
+    "raw_record": {
+      "id": "PPR868097",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR868097"
+        ]
+      },
+      "doi": "10.1101/2024.06.12.598724",
+      "title": "Understanding the heterogeneous performance of variant effect predictors across human protein-coding genes",
+      "authorString": "Fawzy M, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fawzy M",
+            "lastName": "Fawzy",
+            "firstName": "Mohamed",
+            "initials": "M"
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Variant effect predictors (VEPs) are computational tools developed to assess the impacts of genetic mutations, often in terms of likely pathogenicity, employing diverse algorithms and training data. Here, we investigate the performance of 35 VEPs in the discrimination between pathogenic and putatively benign missense variants across 963 human protein-coding genes, revealing considerable gene-level heterogeneity as measured by the widely used area under the receiver operating characteristic curve (AUROC) metric. To investigate the origins of this heterogeneity and the extent to which gene-level VEP performance is predictable, we train random forest models to predict the gene-level AUROC for each VEP. We find that performance as measured by AUROC is related to factors such as gene function, protein structure, and evolutionary conservation. Notably, intrinsic disorder in proteins emerged as a significant factor influencing apparent VEP performance, often leading to inflated AUROC values due to their enrichment in weakly conserved putatively benign variants. While our results suggest that gene-level features may be useful for identifying genes where VEP predictions are likely to be more or less reliable, they also highlight the limitations of AUROC for comparing VEP performance across different genes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.12.598724"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.12.598724"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR868097"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR868097&type=FILE&fileName=EMS196901-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39478110",
+            "reference": "Scientific reports. 2024 Oct;14(1):26114",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196901",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-17",
+      "firstPublicationDate": "2024-06-14",
+      "firstIndexDate": "2024-06-17",
+      "fullTextReceivedDate": "2024-07-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

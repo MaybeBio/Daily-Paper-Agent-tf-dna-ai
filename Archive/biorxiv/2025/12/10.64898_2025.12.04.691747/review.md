@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, author contributions, conflict of interest, funding)
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented in the provided manuscript text. Figures and supplementary materials were not provided and could not be assessed.
+- **Shared manuscript claim summary** The authors claim that Praja1, an E3 ubiquitin ligase, has a novel nuclear function in protecting cells from DNA damage through direct, sequence-nonspecific DNA binding mediated by its intrinsically disordered region (IDR) via electrostatic interactions. This function is proposed to be evolutionarily novel, acquired after gene duplication and NLS acquisition in placental mammals.
+- **Visible evidence base** Text descriptions of proteomics analysis (Figure 1A), comet assays (Figures 1B-E, 2A-C), E. coli survival assays (Figure 2D), gel shift assays (Figures 3A-B, 4B, 4D, 5A-C), and statistical methods. No actual data, figures, or numerical values are visible in the provided text.
+- **Missing materials affecting confidence** All figures, raw data, statistical outputs, proteomics datasets, and supplementary information. The manuscript text alone is insufficient to verify the quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially novel observation that Praja1, a well-studied E3 ubiquitin ligase, may have an additional, ligase-independent role in DNA protection through direct DNA binding. The evolutionary angle, linking NLS acquisition to a new nuclear function, is appealing. However, the evidence as described in the text is largely qualitative and correlative. The central mechanistic claim, that Praja1 binding alters DNA structure to enhance repair, is speculative and not directly supported by the presented experiments. The in vitro finding of enhanced DNA degradation upon Praja1 binding appears to contradict the cellular protective effect, and this discrepancy is acknowledged but not resolved. The manuscript would benefit from a more direct test of the proposed mechanism and a clearer quantitative presentation of the data.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA damage response and repair, genome stability, ubiquitin signaling, and intrinsically disordered proteins. The evolutionary aspect of the work may also appeal to those interested in the molecular evolution of new protein functions in mammals. The potential link to neurodevelopmental disorders, given the reported Praja1 mutations, could be of interest to the neuroscience community.
+- **Major Strengths** The study addresses a relatively unexplored area of Praja1 function in the nucleus. The use of multiple experimental systems, including human cells and E. coli, to demonstrate the DNA-protective effect is a strength. The identification of the IDR as the DNA-binding region via electrostatic interactions is a concrete mechanistic step. The authors are transparent about the limitations of their study, particularly the unresolved contradiction between the cellular protective effect and the in vitro degradation enhancement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The claim that "Praja1 protects cells from DNA damage" is based on comet assay results showing "statistically significantly smaller tail DNA %" in Praja1-expressing cells.
+  - **Evidence pointer** Results section, Figures 1B-E, 2A-C. Location not provided.
+  - **Concern** The text describes the comet assay results as statistically significant but provides no quantitative data, effect sizes, or statistical test values. The number of biological replicates is not specified for these specific experiments. Without this information, the robustness of the protective effect cannot be evaluated.
+  - **Why it matters** The central conclusion of the paper rests on this protective effect. If the effect size is small or the variability high, the conclusion may not be well-supported.
+  - **Resolution test** Provide the full quantitative data for the comet assays, including the mean tail DNA % for each condition, standard deviations, exact p-values, and the number of independent experiments. Show the data distribution (e.g., dot plots) to demonstrate the consistency of the effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that "Praja1 may induce structural changes that enhance DNA repair efficiency upon binding to DNA" is presented as a potential explanation for the protective effect.
+  - **Evidence pointer** Results section, Figure 5A-C. Location not provided.
+  - **Concern** The in vitro data show that Praja1 binding enhances DNA degradation by DNase I and bleomycin. The authors interpret this as evidence for structural changes that could "enhance DNA repair efficiency" in cells. This is a significant logical leap. Enhanced susceptibility to nucleases and damaging agents does not directly demonstrate enhanced repair. It could equally indicate that Praja1 binding makes DNA more vulnerable to damage, which would contradict the protective effect.
+  - **Why it matters** The proposed mechanism is a key part of the paper's narrative. The current evidence does not distinguish between enhanced repair and increased vulnerability. The claim is therefore not established.
+  - **Resolution test** Provide direct evidence for enhanced repair, such as a repair assay (e.g., plasmid reactivation assay, in vitro repair assay with cell extracts) in the presence and absence of Praja1. Alternatively, demonstrate that the structural change induced by Praja1 is specific and relevant to repair, for example by showing increased recruitment of repair factors to Praja1-bound DNA.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the effect
+  - **Claim pointer** The claim that Praja1's protective effect is specific to its nuclear localization and DNA binding.
+  - **Evidence pointer** Results section, Figures 1C-E, 2D. Location not provided.
+  - **Concern** The E. coli experiment is used to show that Praja1 can act "solely" without eukaryotic partners. However, the assay only measures survival after UV irradiation. It does not directly demonstrate that the protective mechanism is the same as in human cells, nor does it rule out that Praja1 is acting on a bacterial process. Furthermore, the specificity of the effect for DNA binding is not tested. A mutant Praja1 that cannot bind DNA would be a critical control.
+  - **Why it matters** The claim of a direct, evolutionarily conserved mechanism is weakened without demonstrating that the protective effect is dependent on the DNA-binding activity of Praja1.
+  - **Resolution test** Test a Praja1 mutant that is deficient in DNA binding (e.g., with mutations in the IDR) in both the E. coli survival assay and the human cell comet assay. If the protective effect is lost, it would strongly support the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and rigor
+  - **Affected element** Proteomics analysis
+  - **Evidence pointer** Results section, Figure 1A. Location not provided.
+  - **Issue** The proteomics experiment is described as a comparative analysis between wild-type and ΔNLS Praja1, but the methodology is vague. It is unclear if this was a quantitative proteomics approach (e.g., TMT, SILAC) or a label-free approach. The criteria for identifying "increased expression levels" of the listed proteins are not defined.
+  - **Required correction** Provide a clear description of the proteomics workflow, including the quantification method, the statistical threshold for differential expression, and the number of replicates. The full list of differentially expressed proteins should be provided as a supplementary table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Hill equation fitting
+  - **Evidence pointer** Results section, Figure 3B. Location not provided.
+  - **Issue** The text states that the free DNA amount was fitted to the Hill equation to estimate IC50 and Hill coefficient. However, the rationale for using IC50 (a term typically used for inhibition) in the context of a binding assay is unclear. The goodness of fit is not reported.
+  - **Required correction** Clarify the terminology. If this is a binding isotherm, report the dissociation constant (Kd) or the half-maximal binding concentration. Report the R-squared value for the fit and the confidence intervals for the fitted parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of HMGN
+  - **Evidence pointer** Discussion section. Location not provided.
+  - **Issue** The comparison to HMGN proteins is interesting but superficial. The authors state that HMGN shares properties with Praja1 but do not discuss key differences, such as HMGN's specific binding to nucleosomes versus Praja1's apparent binding to naked DNA.
+  - **Required correction** Expand the discussion to more clearly delineate the similarities and differences between Praja1 and HMGN, and what these differences might mean for their respective functions.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative data for the key experiments (comet assays, E. coli survival) is a major failing. The mechanistic link between in vitro DNA degradation and in vivo protection is not established. The absence of a DNA-binding mutant control weakens the specificity claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The finding that an E3 ligase has a direct DNA-protective function is novel and interesting. The evolutionary narrative adds a unique perspective.
+  - **Scientific importance** The potential role of Praja1 in genome stability could be significant, especially given its links to neurodevelopment. However, the importance is contingent on the robustness of the protective effect and the validity of the mechanism.
+  - **Interdisciplinary readership** The topic bridges ubiquitin biology, DNA repair, and evolutionary biology, which could attract a broad readership.
+  - **Technical soundness** The technical soundness is currently not established due to the lack of quantitative data and the unresolved mechanistic contradiction.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The logic is easy to follow, but the speculative nature of the mechanism could be clearer.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims are interesting but are not sufficiently supported by the data as described. The manuscript requires major revisions, including the provision of full quantitative data and a more direct test of the proposed mechanism, before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that Praja1 "protects cells from DNA damage" is unsupported without quantitative comet assay data.
+- The claim that Praja1's protective effect is "solely" due to its own action, based on the E. coli experiment, is an overstatement without a DNA-binding mutant control.
+- The claim that Praja1 binding "enhances DNA repair efficiency" is unsupported and speculative, as the in vitro data only show enhanced degradation.
+- The claim that the IDR is the primary DNA-binding region is plausible but not definitively proven, as the ΔRING mutant may still contain other DNA-binding regions.
+- The evolutionary significance of the NLS acquisition is discussed but not experimentally addressed.

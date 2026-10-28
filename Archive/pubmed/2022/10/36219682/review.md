@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report that a conserved N-glycosylation site in the C2 domain of JAGGED1 (JAG1) is required for full Notch activation. Mutagenesis or enzymatic removal of this glycan reduces Notch signaling in reporter cell assays and in a vascular smooth muscle cell differentiation assay. Loss of the glycan reduces JAG1 binding to liposomes, and molecular dynamics simulations suggest the glycan restricts JAG1 orientation relative to the membrane to facilitate Notch binding.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, experimental replicates and statistics, glycan analysis details, molecular dynamics simulation parameters, liposome binding assay conditions, and any control experiments. Without these, quantitative claims and mechanistic conclusions cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially interesting finding that a specific N-glycan in the C2 domain of JAG1 modulates Notch activation, likely through effects on membrane orientation and lipid binding. The work combines cell-based assays, glycan analysis, and molecular dynamics simulations, which is a commendable multidisciplinary approach. However, the abstract alone provides insufficient detail to assess the robustness of the data, the statistical power, or the validity of the simulation conclusions. The mechanistic claim that the glycan "limits the orientation" of JAG1 is plausible but not established from the provided material. The study is likely to be of interest to researchers in Notch signaling, glycobiology, and membrane protein biophysics, but the current evidence base is too limited to support the full strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying Notch signaling, particularly ligand-receptor interactions and membrane-proximal regulatory mechanisms. Glycobiologists interested in functional roles of N-glycans beyond protein folding. Structural biologists and computational biophysicists studying membrane protein orientation and dynamics. Cancer biologists, given the identification of somatic C2 domain mutations in tumors. The findings may also inform therapeutic strategies targeting Notch ligands.
+- **Major strengths** The study addresses a specific and under-explored aspect of Notch ligand regulation, namely the role of a conserved N-glycan in the C2 domain. The use of multiple complementary approaches (mutagenesis, glycan analysis, enzymatic treatment, liposome binding, and molecular dynamics simulations) strengthens the potential impact. The observation that the glycosylation site is conserved in Jagged/Serrate but absent in Delta suggests a family-specific regulatory mechanism, which is an interesting evolutionary insight.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "mutations affecting an N-glycosylation site reduced the ligand's ability to activate Notch" and that "occupancy of this site by either a complex-type or high-mannose N-glycan was required for full Notch activation."  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract does not provide any quantitative data, effect sizes, or statistical measures for the reporter cell assays. It is unclear how many independent experiments were performed, what controls were used, or whether the reduction in Notch activation was partial or complete. Without these details, the strength of the observed effect cannot be evaluated.  
+  - **Why it matters** The central claim of the paper rests on the functional consequence of glycan loss. If the effect is small or variable, the conclusion that the glycan is "important" or "required" may be overstated.  
+  - **Resolution test** Provide representative dose-response curves, statistical comparisons (e.g., mean ± SD, p-values), and replicate numbers for the reporter assays. Show that the reduction is consistent across multiple cell lines or conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "molecular dynamics simulations suggested that the presence of the N-glycan limits the orientation of JAG1 relative to the membrane, thus facilitating Notch binding."  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** No details are given on the simulation system, force field, simulation length, or how the orientation was quantified. The claim that the glycan "limits orientation" is a mechanistic interpretation that requires robust sampling and validation against experimental data. Without these details, the simulation result is not reproducible or assessable.  
+  - **Why it matters** The proposed mechanism is a key novelty of the study. If the simulation is underpowered or the interpretation is not well-supported, the mechanistic conclusion is weakened.  
+  - **Resolution test** Provide simulation methods, convergence criteria, and a clear definition of the orientation metric. Show that the orientation distribution is statistically different between glycosylated and non-glycosylated states. Ideally, correlate simulation predictions with experimental binding or activation data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim that "loss of the C2 N-glycan reduced JAG1 binding to liposomes to a similar extent as the loss of the entire C2 domain."  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** This is a strong comparative claim. It implies the glycan is as important as the entire C2 domain for lipid binding. However, the abstract does not specify the liposome composition, the binding assay method, or whether the comparison was quantitative and statistically tested.  
+  - **Why it matters** This claim elevates the functional significance of the glycan. If the comparison is not rigorous, the conclusion may be misleading.  
+  - **Resolution test** Provide binding curves or quantitative binding affinities for wild-type, glycan-deficient, and C2-domain-deleted constructs. Include statistical comparison of the binding parameters.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "N-glycan removal, either by mutagenesis of the glycosylation site or by endoglycosidase treatment, reduced receptor activation" and that this was also observed in a "Notch signaling-dependent vascular smooth muscle cell differentiation assay."  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract does not describe the endoglycosidase treatment conditions, the specificity of the enzyme, or whether the differentiation assay was quantitative and well-controlled. It is unclear if the differentiation defect is directly due to reduced Notch signaling or to off-target effects.  
+  - **Why it matters** The use of two independent methods to remove the glycan strengthens the case, but only if the methods are properly validated. The differentiation assay adds physiological relevance, but its interpretation depends on the assay's specificity.  
+  - **Resolution test** Provide details on enzyme concentration, incubation time, and verification of glycan removal (e.g., by mass spectrometry or lectin blotting). For the differentiation assay, show that the effect is rescued by constitutive Notch activation or by a Notch-independent differentiation stimulus.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract uses terms like "complex-type or high-mannose N-glycan" and "molecular dynamics simulations" without brief explanations. Nonspecialist readers may struggle to understand the significance of these terms.  
+  - **Required correction** Add a brief parenthetical explanation of N-glycan types and a one-sentence description of what molecular dynamics simulations are used for in this context.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract mentions that "somatic mutations that cause amino substitutions in the C2 domain in human JAGGED1 have been identified in tumors," but does not specify whether any of these mutations affect the glycosylation site. This creates ambiguity about the clinical relevance.  
+  - **Required correction** Clarify whether the tumor-associated mutations include the glycosylation site or are in other C2 domain regions. If not, state that the relevance to tumor mutations is indirect.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that the N-glycosylation site is "conserved in the Jagged/Serrate family but is lacking in the Delta family," but does not provide the sequence alignment or the species range examined.  
+  - **Required correction** Provide a brief statement on the number of species and the alignment method, or refer to a supplementary figure.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention the potential broader implications of the findings, such as for Notch-related diseases or therapeutic targeting.  
+  - **Required correction** Add a sentence on the potential implications for understanding Notch signaling dysregulation in cancer or other diseases.
+
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Lack of quantitative data and statistics for the central functional assays.  
+  - R1-M2: Insufficient detail on molecular dynamics simulations to assess the mechanistic claim.  
+  - R1-M3: Unsupported comparative claim about the glycan versus the entire C2 domain in liposome binding.  
+  - R1-M4: Incomplete description of the endoglycosidase treatment and differentiation assay controls.
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on a specific N-glycan in the C2 domain of a Notch ligand is a novel angle, as most studies emphasize protein-protein interactions. The idea that a glycan modulates membrane orientation is creative and potentially original. However, the abstract does not provide enough context to confirm that this has not been previously reported.  
+  - **Scientific importance** Notch signaling is a fundamental pathway with broad implications in development and disease. A regulatory mechanism involving a conserved glycan could be significant. However, the importance is tempered by the lack of in vivo data or evidence of physiological relevance beyond cell-based assays.  
+  - **Interdisciplinary readership** The study bridges glycobiology, cell signaling, and computational biophysics, which could attract readers from multiple fields. However, the abstract is written in a way that may not fully engage nonspecialists without additional context.  
+  - **Technical soundness** The multidisciplinary approach is a strength, but the abstract does not provide sufficient technical detail to assess the rigor of the experiments or simulations. The lack of statistics and method descriptions is a major limitation.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses specialized terminology without explanation. The logical flow is coherent, but the mechanistic conclusion is presented as more definitive than the evidence likely supports.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the approach is promising, but the current abstract does not provide enough evidence to establish the mechanistic claims. Full access to the methods and data is required to determine whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim that the N-glycan "limits the orientation of JAG1 relative to the membrane" is a mechanistic interpretation from simulations that cannot be evaluated from the abstract alone.
+- The comparative claim that glycan loss reduces liposome binding "to a similar extent as the loss of the entire C2 domain" is not supported by any quantitative data in the abstract.
+- The statement that the N-glycan is "required for full Notch activation" is based on cell-based assays, but the abstract does not specify the magnitude of the effect or whether it is statistically significant.
+- The relevance of tumor-associated C2 domain mutations to the glycosylation site is unclear and not addressed in the abstract.
+- The conservation claim across the Jagged/Serrate family is stated without supporting sequence data or analysis.

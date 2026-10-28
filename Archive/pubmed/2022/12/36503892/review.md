@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims made in the abstract, including methodological description, performance improvement, and availability statement
+- **Shared manuscript claim summary** The authors propose CNN-Pred, a method using PSSM-derived mono-gram and bi-gram features with a 1D convolutional neural network, to classify proteins as single-stranded or double-stranded DNA-binding proteins. They report accuracy improvements exceeding 4% over prior studies on an independent test set.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or results data provided
+- **Missing materials affecting confidence** Full manuscript, dataset descriptions, feature extraction details, model architecture, hyperparameters, training/validation protocols, independent test set composition, baseline comparisons, statistical significance tests, and source code verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for a biologically relevant classification problem. However, the provided material is insufficient to evaluate the technical soundness, reproducibility, or validity of the claimed performance improvement. The claim of "more than 4%" accuracy enhancement lacks supporting data, baseline definitions, or statistical context. The method description is high-level and omits critical details necessary for independent replication.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein function prediction, and machine learning applications to genomics may find the approach relevant. The classification of DNA-binding proteins into single-stranded and double-stranded categories has functional implications, and improved predictive tools could aid annotation efforts. However, interest would depend on demonstrated robustness and generalizability beyond the reported dataset.
+- **Major strengths** The problem is well-motivated and biologically meaningful. The use of evolutionary features (PSSM) is a standard and defensible choice. The commitment to public availability of the tool and source code is commendable and supports reproducibility, provided the code is complete and documented.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CNN-Pred can enhance the DSB and SSB prediction accuracies by more than 4%, on the independent test compared to previous studies found in the literature."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The performance improvement claim is presented without any quantitative data, baseline method specifications, or statistical analysis. It is unclear which previous studies are referenced, how the independent test set was constructed, or whether the comparison is fair (e.g., same data splits, same evaluation metrics).
+  - **Why it matters** Without this context, the claimed improvement cannot be verified or reproduced. The magnitude of "more than 4%" may be within variance or dependent on favorable dataset partitioning, undermining the reliability of the conclusion.
+  - **Resolution test** Provide a table or figure comparing CNN-Pred against at least two prior methods on the same independent test set, including confidence intervals or significance tests (e.g., McNemar's test). Specify the exact dataset, split strategy, and evaluation metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "To build CNN-Pred, we first extract evolutionary-based features in the form of mono-gram and bi-gram profiles using position specific scoring matrix (PSSM). We then, use 1D-convolutional neural network (CNN) as the classifier to our extracted features."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The methodological description is insufficient for replication. Key details are missing: how PSSM profiles are generated (e.g., database, alignment parameters), how mono-gram and bi-gram features are computed and normalized, the CNN architecture (number of layers, filter sizes, activation functions, pooling), training procedure (optimizer, learning rate, batch size, epochs), and handling of class imbalance.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, other researchers cannot implement or validate CNN-Pred, and the claimed performance cannot be independently confirmed.
+  - **Resolution test** Include a detailed methods section or supplementary material with full architecture specifications, hyperparameters, and feature extraction code. Provide a step-by-step protocol that allows replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data validity
+  - **Claim pointer** "Determining whether a protein is DSB or SSB helps determine the protein's function."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the dataset used for training and testing, including the number of proteins, sequence length distribution, source databases, redundancy reduction (e.g., CD-HIT), or how labels were assigned. The risk of data leakage or biased sampling is not addressed.
+  - **Why it matters** Dataset quality and representativeness directly affect model generalizability. If the dataset is small, imbalanced, or contains homologous sequences, the reported accuracy may be inflated and not transferable to new proteins.
+  - **Resolution test** Describe the dataset in detail, including accession numbers, sequence counts per class, redundancy filtering thresholds, and train/test split rationale. Provide a data availability statement or link to the dataset.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "more than 4%" is vague and could be misinterpreted as a fixed threshold rather than a relative improvement. It is unclear whether this refers to accuracy, F1-score, or another metric.
+  - **Required correction** Specify the exact metric (e.g., accuracy, Matthews correlation coefficient) and provide the precise percentage improvement with a confidence interval.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Availability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The GitHub link is provided, but it is not stated whether the repository includes trained models, example data, or a user guide. This affects usability.
+  - **Required correction** Clarify the contents of the repository, including whether pretrained weights and test datasets are included, and provide installation and usage instructions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "previous studies found in the literature" but does not name any specific methods or cite them. This makes it difficult to assess the novelty or competitive positioning.
+  - **Required correction** Cite at least two prior methods in the abstract or clearly state that comparisons are detailed in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance claim without data), R1-M2 (insufficient methodological detail), R1-M3 (dataset description absent). These are fundamental to establishing the validity and utility of the proposed method.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of PSSM-derived n-gram features with a 1D CNN is not novel in itself, as similar approaches exist for other protein classification tasks. The specific application to SSB/DSB classification may be incremental. Originality cannot be fully assessed without a literature comparison.
+  - **Scientific importance** The problem is relevant, but the abstract does not demonstrate a significant advance over existing tools. The claimed 4% improvement, if robust, would be modest and may not constitute a major step forward.
+  - **Interdisciplinary readership** The topic bridges computational biology and molecular biology, but the abstract is too technical for nonspecialists and lacks biological context on why improved SSB/DSB prediction matters practically.
+  - **Technical soundness** Not assessable from the abstract due to missing details on data, features, model, and evaluation. The lack of statistical validation is a critical gap.
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with PSSM and CNN terminology. It does not explain the biological significance of the classification in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims. A revised manuscript with full methodological details, dataset description, and rigorous comparative evaluation would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim of "more than 4%" accuracy improvement is unsupported by any data or statistical analysis.
+- The assertion that CNN-Pred "can enhance" prediction accuracies implies generalizability, which is not demonstrated.
+- The methodological description is too vague to verify that the proposed approach is implemented as described.
+- The availability of the tool and source code is stated, but the functionality and completeness of the repository cannot be verified from the abstract.

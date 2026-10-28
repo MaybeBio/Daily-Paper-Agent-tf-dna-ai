@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, results, discussion, methods, and figure legends
+- **Assessment boundary** Technical soundness, methodological novelty, validation rigor, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors extend the RoseTTAFold architecture to predict protein–nucleic acid complexes from sequence alone, introducing RoseTTAFoldNA, a single trained network that produces 3D models with confidence estimates. They report accuracy exceeding current state-of-the-art methods on confident predictions, including for complexes without sequence homologs in training data.
+- **Visible evidence base** Main text figures (Figs. 1–3), Extended Data Figures 1–5 (described), Methods section, and source data references
+- **Missing materials affecting confidence** Actual figure images, Extended Data figures, supplementary information, source data files, and detailed benchmark comparisons are not provided. The manuscript references these but they are not included in the supplied material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a meaningful extension of a proven architecture to a challenging and under-served problem. The core idea is logical and the training strategy is thoughtfully designed to address data scarcity. However, the evidence provided in the text alone is insufficient to fully evaluate the strength of the claims, particularly regarding comparisons to existing methods and the generalizability of the approach. The reported performance metrics are promising but require closer inspection of the actual data distributions and failure cases.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers studying gene regulation, RNA biology, and protein–DNA interactions. The method has potential utility for modeling biologically important complexes that lack experimental structures, and for protein design efforts targeting nucleic acid binding.
+- **Major strengths** The architectural extension is conceptually clean and builds on a proven framework. The training set construction is careful, with attention to data redundancy and generalization. The inclusion of physical energy terms during fine-tuning is a sensible strategy to compensate for limited data. The validation set is temporally separated from training, which is a strong design choice. The authors also address a practical limitation of prior approaches by demonstrating that copredicting complexes can capture conformational changes such as DNA bending.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "confident predictions have considerably higher accuracy than current state-of-the-art methods" is central to the paper's contribution.
+  - **Evidence pointer** Results section, Fig. 2, Extended Data Fig. 3, Methods section
+  - **Concern** The comparison to state-of-the-art methods is described only qualitatively in the text. The authors state that RoseTTAFoldNA outperforms FARFAR2 and DeepFoldRNA on RNA prediction, but the actual benchmark details, metrics, and statistical significance are not provided in the supplied material. The comparison to protein–DNA docking is limited to a single statement that the alternative workflow found the correct complex in only 1 of 14 test cases, without showing the corresponding RoseTTAFoldNA success rate on the same cases.
+  - **Why it matters** The central claim of superiority over existing methods cannot be evaluated without quantitative, side-by-side comparisons on identical benchmarks. The reader cannot assess whether the reported advantage is robust, marginal, or dependent on specific test conditions.
+  - **Resolution test** Provide full benchmark tables with per-case metrics for RoseTTAFoldNA and each comparator method, including confidence-stratified accuracy, success rates at defined thresholds, and statistical tests where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** The claim that the model "correctly identifies which structure models are accurate" and that confident predictions are reliable.
+  - **Evidence pointer** Results section, Fig. 2a, Extended Data Fig. 2
+  - **Concern** The calibration of confidence estimates is described through scatterplots of predicted versus actual accuracy, but no quantitative calibration metrics are reported. The text states that 81% of high-confidence predictions have acceptable interfaces, but the denominator and the confidence threshold used are not clearly defined. The behavior of confidence estimates on the no-homolog subset is described for only eight cases, which is a very small sample.
+  - **Why it matters** For a method intended for broad use, the reliability of confidence estimates is critical. Users need to know what confidence threshold corresponds to what expected accuracy. The current description does not provide this information in a usable form.
+  - **Resolution test** Report calibration curves or tables showing expected accuracy as a function of predicted confidence, with confidence intervals, for the full validation set and for the no-homolog subset separately.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical completeness
+  - **Claim pointer** The description of the model architecture and training procedure.
+  - **Evidence pointer** Methods section, Fig. 1
+  - **Concern** The Methods section describes the architecture at a high level but omits several details that would be needed for reproduction. The exact number of parameters per component, the specific attention mechanisms used for cross-modal interactions, the precise formulation of the nucleic acid frame representation, and the details of the cropping strategy for complexes are not fully specified. The training schedule, learning rate decay, and data augmentation procedures are also described only briefly.
+  - **Why it matters** Reproducibility is a core expectation for methods papers. Without complete architectural and training details, independent groups cannot build on this work or verify the results.
+  - **Resolution test** Provide a complete architectural specification, including layer counts, hidden dimensions, attention heads, and all hyperparameters. Include pseudocode or a detailed algorithm box for the cropping and training procedures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The claim that RoseTTAFoldNA "should be broadly useful for modeling the structure of naturally occurring protein–nucleic acid complexes."
+  - **Evidence pointer** Results section, Figs. 2 and 3, Extended Data Fig. 1
+  - **Concern** The validation set is limited to complexes with fewer than 1,000 total residues and nucleotides, and the authors note that large multidomain proteins and large RNAs are common failure cases. The diversity of complex types in the validation set is not described in detail. It is unclear how well the method performs across different functional classes of protein–nucleic acid complexes, such as transcription factors, RNA-binding proteins, polymerases, or ribonucleoproteins.
+  - **Why it matters** The claim of broad utility requires evidence of performance across a representative range of complex types and sizes. If the method fails on large or complex assemblies, its practical utility is more limited than suggested.
+  - **Resolution test** Provide a breakdown of performance by complex type, size, and functional class. Discuss the limits of the method in terms of complex size and architectural complexity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 2d–g
+  - **Evidence pointer** Results section, Fig. 2
+  - **Issue** The four example structures are described as "without homologs in the training set," but the criteria for defining "no homolog" are not stated. It is unclear whether this refers to the protein, the nucleic acid, or the complex as a whole.
+  - **Required correction** Define the homology criteria explicitly, including the sequence identity thresholds used for both protein and nucleic acid components.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to docking
+  - **Evidence pointer** Methods section, Extended Data Fig. 4
+  - **Issue** The docking comparison uses Hdock with template-free docking only, which may not represent the best possible docking performance. The authors acknowledge this, but the choice of comparator is still limiting.
+  - **Required correction** Consider including a state-of-the-art docking method that uses template information or machine learning, or justify more thoroughly why template-free Hdock is the appropriate comparator.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Fig. 3e,g
+  - **Evidence pointer** Results section, Fig. 3
+  - **Issue** The claim that copredicting complexes captures conformational changes such as DNA bending is illustrated with examples, but no quantitative measure of bending angle or comparison to the unbound DNA structure is provided.
+  - **Required correction** Provide quantitative measurements of DNA bending in the predicted versus experimental structures, or state clearly that this is a qualitative observation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Results section, Figs. 2 and 3
+  - **Issue** Performance metrics are reported as averages without confidence intervals or measures of variance. Given the relatively small validation set, this is a concern.
+  - **Required correction** Report confidence intervals or standard deviations for all key metrics, and consider bootstrap or other resampling methods to assess stability.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, "Model training"
+  - **Issue** The description of the training data pools and sampling ratios is clear, but the rationale for the specific ratios and the transition to increased protein–NA frequency later in training is not explained.
+  - **Required correction** Provide a brief justification for the chosen sampling strategy and the timing of the ratio change.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central comparative claim and the reliability of confidence estimates must be substantiated with quantitative evidence. R1-M3, while not blocking, is important for reproducibility and should be addressed.
+- **Assessment against Nature-style criteria** Originality: The work is a logical extension of existing methods rather than a fundamentally new approach, but it addresses an important gap and the specific adaptations for nucleic acids are non-trivial. Scientific importance: High, as protein–nucleic acid complexes are under-served by current prediction tools. Interdisciplinary readership: The work will appeal to structural biologists, computational biologists, and researchers in gene regulation and RNA biology. Technical soundness: The training strategy is well conceived, but the evidence provided is insufficient to fully assess the robustness of the results. Readability for nonspecialists: The manuscript is generally well written and accessible, though some architectural details may be dense for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is sound and the preliminary results are promising, but the manuscript in its current form does not provide sufficient quantitative evidence to fully establish the central claims. The authors should be encouraged to revise and resubmit with complete benchmark data and more detailed methodological descriptions.

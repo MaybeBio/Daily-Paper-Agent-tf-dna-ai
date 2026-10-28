@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41609627",
+    "doi": "10.1021/acs.jcim.5c02555",
+    "title": "Unravelling the Role Played by Non-covalent Interactions in the Action Mechanism of PCDDs within Cells."
+  },
+  "content": {
+    "abstract": "The aryl hydrocarbon receptor (AhR) is a ligand-activated transcription factor that mediates biological signals and regulates diverse cellular functions. Of particular concern are the effects triggered by dioxins and dioxin-like compounds (DLCs), whose toxicological outcomes arise through both canonical and noncanonical pathways, leading to the designation of AhR as the \"dioxin receptor\". However, conventional risk assessment approaches based on toxic equivalency factors (TEFs), which primarily reflect the capacity of these compounds to bind and activate AhR, do not fully account for critical aspects such as environmental concentration and bioavailability, potentially underestimating their true impact. In this work, we present a comparative analysis of polychlorinated dibenzo-p-dioxins (PCDDs) with varying degrees of chlorination, focusing on their interactions with the AhR at the ligand-binding domain and on their permeation abilities across a model lipid membrane. To this end, we combine classical molecular dynamics (CMD) simulations with a hybrid quantum mechanics/molecular mechanics energy decomposition analysis (QM/MM-EDA) framework. This integrated approach enables a molecular-level characterization of receptor binding affinities and membrane permeation efficiencies. Our findings provide novel insights into the mechanisms underlying the relative toxicity of DLCs and highlight the need for integrative assessment strategies that encompass both receptor-ligand interactions and physicochemical behavior in biological environments. It is noteworthy that the toxicity of these compounds, as quantified by the pEC(50) index, correlates with the membrane permeation barrier rather than with AhR binding affinity, identifying permeation as the key mechanistic step in the toxicological process of these compounds.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Receptors, Aryl Hydrocarbon/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Polychlorinated Dibenzodioxins/metabolism/chemistry/toxicity",
+      "Quantum Theory",
+      "Ligands",
+      "Quantum Mechanics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruano, Lorena",
+        "Perez-Barcia, Alvaro",
+        "Palmisano, Vito F",
+        "Nogueira, Juan J",
+        "Mandado, Marcos",
+        "Ramos-Berdullas, Nicolas"
+      ],
+      "short_names": [
+        "Ruano L",
+        "Perez-Barcia A",
+        "Palmisano VF",
+        "Nogueira JJ",
+        "Mandado M",
+        "Ramos-Berdullas N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7419-5670",
+        "ORCID: 0000-0001-9688-2658",
+        "ORCID: 0000-0001-5497-3738"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Universidad Autonoma de Madrid, 28049 Madrid, Spain.",
+        "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain.",
+        "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain.",
+        "Department of Chemistry, Universidad Autonoma de Madrid, 28049 Madrid, Spain.",
+        "Theoretical Chemistry Group, Zernike Institute for Advanced Materials, University of Groningen, 9747 AG Groningen, The Netherlands.",
+        "Department of Chemistry, Universidad Autonoma de Madrid, 28049 Madrid, Spain.",
+        "Institute for Advanced Research in Chemistry (IAdChem), Universidad Autonoma de Madrid, 28049 Madrid, Spain.",
+        "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain.",
+        "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruano, Lorena",
+        "short_name": "Ruano L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Universidad Autónoma de Madrid, 28049 Madrid, Spain.",
+          "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain."
+        ]
+      },
+      {
+        "full_name": "Pérez-Barcia, Álvaro",
+        "short_name": "Pérez-Barcia Á",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain."
+        ]
+      },
+      {
+        "full_name": "Palmisano, Vito F",
+        "short_name": "Palmisano VF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Universidad Autónoma de Madrid, 28049 Madrid, Spain.",
+          "Theoretical Chemistry Group, Zernike Institute for Advanced Materials, University of Groningen, 9747 AG Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Nogueira, Juan J",
+        "short_name": "Nogueira JJ",
+        "identifiers": [
+          "0000-0001-7419-5670"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Universidad Autónoma de Madrid, 28049 Madrid, Spain.",
+          "Institute for Advanced Research in Chemistry (IAdChem), Universidad Autónoma de Madrid, 28049 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Mandado, Marcos",
+        "short_name": "Mandado M",
+        "identifiers": [
+          "0000-0001-9688-2658"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramos-Berdullas, Nicolás",
+        "short_name": "Ramos-Berdullas N",
+        "identifiers": [
+          "0000-0001-5497-3738"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, University of Vigo, Lagoas-Marcosende s n, ES-36310 Vigo, Galicia, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Feb 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/29 19:11",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [
+      "42694632"
+    ],
+    "refs": [
+      "40481006",
+      "39039621",
+      "38457778",
+      "37881334",
+      "37711212",
+      "36676835",
+      "36661314",
+      "36528068",
+      "36385050",
+      "36183684",
+      "35156417",
+      "34952507",
+      "34505588",
+      "34499523",
+      "34278794",
+      "33829637",
+      "33746961",
+      "33706219",
+      "33429228",
+      "32962378",
+      "32296737",
+      "31721255",
+      "31714766",
+      "30003042",
+      "27314876",
+      "26605738",
+      "26596297",
+      "25835573",
+      "25503360",
+      "25407229",
+      "24803855",
+      "24239782",
+      "23735214",
+      "23221922",
+      "22916730",
+      "21981577",
+      "20607693",
+      "20423165",
+      "19499576",
+      "19456125",
+      "18785728",
+      "18593145",
+      "18351591",
+      "18076143",
+      "16829543",
+      "16120753",
+      "15048829",
+      "12540743",
+      "10864156",
+      "9944570",
+      "8970722",
+      "6282188",
+      "2124811",
+      "956169"
+    ],
+    "similar": [
+      "41609627",
+      "25692546",
+      "34991250",
+      "16835633",
+      "33182092",
+      "34952507",
+      "30567322",
+      "30522477",
+      "37298290",
+      "20728228",
+      "38569320",
+      "17342195",
+      "27288759",
+      "8310450",
+      "16835634",
+      "21981577",
+      "16628245",
+      "22004969",
+      "40107146",
+      "40794881",
+      "32526934",
+      "17160103",
+      "24858058",
+      "8222055",
+      "23286227",
+      "15972329",
+      "41347868",
+      "37652105",
+      "29324662",
+      "20634293",
+      "40424807",
+      "14742684",
+      "34761675",
+      "25654323",
+      "11772071",
+      "24950391",
+      "23997109",
+      "24136190",
+      "17431010",
+      "32563159",
+      "19456125",
+      "11032772",
+      "25402742",
+      "17342196",
+      "22659362",
+      "21908767",
+      "25761200",
+      "18936997",
+      "11784293",
+      "24161567",
+      "21383778",
+      "20875740",
+      "32858041",
+      "17160104",
+      "28922086",
+      "17850846",
+      "14973392",
+      "24472611",
+      "12062155",
+      "23394719",
+      "16606854",
+      "16613807",
+      "17912254",
+      "11604033",
+      "16545771",
+      "16111922",
+      "9712901",
+      "12842597",
+      "23424013",
+      "20935161",
+      "18660548",
+      "23973911",
+      "17690134",
+      "16101299",
+      "33706219",
+      "15213304",
+      "33374508",
+      "12621046",
+      "10619402",
+      "11606800",
+      "23859880",
+      "32252465",
+      "23054770",
+      "40398651",
+      "41840760",
+      "36241106",
+      "15913656",
+      "21616089",
+      "24200861",
+      "22197621",
+      "28508231",
+      "18817753",
+      "20628729",
+      "17223691",
+      "35163483",
+      "37127157",
+      "2987660",
+      "24245878",
+      "16054739",
+      "41249827"
+    ],
+    "review": [
+      "41609627",
+      "34952507",
+      "30567322",
+      "8310450",
+      "37652105",
+      "21908767",
+      "14973392",
+      "16613807",
+      "33374508",
+      "23054770",
+      "28508231",
+      "18817753",
+      "24245878"
+    ],
+    "pmc": [
+      "12892313"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41609627/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02555",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

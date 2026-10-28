@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40628770",
+  "title": "Identifying propionate metabolism-related genes as biomarkers of sepsis development and therapeutic targets.",
+  "authors": "Yang, Lechen; Shang, Weifeng; Chen, Dongjie; Qian, Hang; Zhang, Sheng; Pan, Xiaojun; Huang, Sisi; Liu, Jiao; Chen, Dechang",
+  "journal": "Scientific reports",
+  "published_date": "2025-07-09",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用scRNA-seq和机器学习构建脓毒症诊断模型，虽涉及转录因子预测，但核心是疾病标志物而非蛋白质-DNA互作机制建模，方法上无AI/物理模拟的互作建模，与本课题关联较弱。",
+  "abstract": "The treatment of sepsis is challenging due to unclear mechanisms. Propionate is increasingly seen as critical to sepsis pathophysiology by bridging gut microbiota and immunity, but the mechanisms remain unclear. Our study analysed differences in propionate metabolism in peripheral blood mononuclear cells from septic patients and healthy controls using single-cell RNA-seq (scRNA-seq) data. Differentially expressed genes (DEGs) analysis, pathway enrichment, transcription factor (TF) prediction, intercellular communication, and trajectory inference were used to explore the role of propionate metabolism in sepsis. We constructed a sepsis diagnostic model using LASSO and machine learning (XGBoost, CatBoost, NGBoost) with bulk RNA-seq data. scRNA-seq analysis revealed that propionate metabolism was highest in plasma cells (PCs), which can be classified into high and low metabolism groups, identifying 9,155 DEGs. High propionate metabolism was associated with metabolism such as short-chain fatty acids, while low metabolism was related to negative regulation of wound healing. The DoRothEA regulator algorithm showed TFs such as IRF4, ARID3A, FOXO4, and ATF2 were activated in high propionate metabolism subgroups, whereas NR5A1, BCL6, and CDX2 were activated in low subgroups. Cell-cell communication revealed that both groups interacted primarily with B cells and neutrophils, with the high propionate metabolism PCs showing more significant interactions. The receptor-ligand pairs primarily involved were VEGFA-FLT1 and VEGFB-FLT1, and the high propionate metabolism PCs and B cells might interact through BMP8B-BMPR2. Trajectory analysis indicated differentiation from B cells, first to low, then high propionate metabolism PCs. Finally, the LASSO algorithm identified 13 key genes, with the CatBoost model achieving perfect diagnostic performance (AUC = 1.000). These 13 key genes were validated through in vitro experiments. Collectively, these findings suggest that propionic acid metabolism may be a potential target for diagnosing and treating sepsis, offering new insights into its pathophysiology.",
+  "abstract_zh": "脓毒症的治疗因机制不明而具有挑战性。丙酸日益被视为通过连接肠道微生物群与免疫在脓毒症病理生理中起关键作用，但其机制仍不清楚。我们的研究利用单细胞RNA测序（scRNA-seq）数据，分析了脓毒症患者和健康对照者外周血单核细胞中丙酸代谢的差异。采用差异表达基因（DEGs）分析、通路富集、转录因子（TF）预测、细胞间通讯和轨迹推断来探讨丙酸代谢在脓毒症中的作用。我们使用批量RNA-seq数据，通过LASSO和机器学习（XGBoost、CatBoost、NGBoost）构建了脓毒症诊断模型。scRNA-seq分析显示，丙酸代谢在浆细胞（PCs）中最高，这些细胞可分为高代谢组和低代谢组，鉴定出9,155个DEGs。高丙酸代谢与短链脂肪酸等代谢相关，而低代谢与伤口愈合的负调控相关。DoRothEA调控算法显示，在高丙酸代谢亚组中，IRF4、ARID3A、FOXO4和ATF2等TFs被激活，而在低代谢亚组中，NR5A1、BCL6和CDX2被激活。细胞间通讯显示，两组主要与B细胞和中性粒细胞相互作用，其中高丙酸代谢PCs表现出更显著的相互作用。涉及的受体-配体对主要为VEGFA-FLT1和VEGFB-FLT1，高丙酸代谢PCs与B细胞可能通过BMP8B-BMPR2相互作用。轨迹分析表明，从B细胞分化，先到低丙酸代谢PCs，再到高丙酸代谢PCs。最后，LASSO算法识别出13个关键基因，其中CatBoost模型实现了完美的诊断性能（AUC = 1.000）。这13个关键基因通过体外实验得到验证。总体而言，这些发现表明丙酸代谢可能是诊断和治疗脓毒症的潜在靶点，为其病理生理提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40628770/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40628770/",
+  "paper_page_path": "papers/pubmed/40628770/index.html"
+}

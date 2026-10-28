@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.02.526888",
+  "title": "PhylteR: efficient identification of outlier sequences in phylogenomic datasets",
+  "authors": "Comte A; Tricou T; Tannier E; Joseph J; Siberchicot A; Penel S; Allio R; Delsuc F; Dray S; de Vienne DM",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 0,
+  "one_liner_zh": "该文开发系统发育基因组学中异常序列检测工具PhylteR，基于多维缩放比较基因树距离矩阵，与蛋白质-DNA互作及TF-DNA结合建模完全无关。",
+  "abstract": "In phylogenomics, incongruences between gene trees, resulting from both artifactual and biological reasons, can decrease the signal-to-noise ratio and complicate species tree inference. The amount of data handled today in classical phylogenomic analyses precludes manual error detection and removal. However, a simple and efficient way to automate the identification of outliers from a collection of gene trees is still missing. Here, we present PhylteR, a method that allows a rapid and accurate detection of outlier sequences in phylogenomic datasets, i.e. species from individual gene trees that do not follow the general trend. PhylteR relies on DISTATIS, an extension of multidimensional scaling to 3 dimensions to compare multiple distance matrices at once. In PhylteR, these distance matrices extracted from individual gene phylogenies represent evolutionary distances between species according to each gene. On simulated datasets, we show that PhylteR identifies outliers with more sensitivity and precision than a comparable existing method. We also show that PhylteR is not sensitive to ILS-induced incongruences, which is a desirable feature. On a biological dataset of 14,463 genes for 53 species previously assembled for Carnivora phylogenomics, we show (i) that PhylteR identifies as outliers sequences that can be considered as such by other means, and (ii) that the removal of these sequences improves the concordance between the gene trees and the species tree. Thanks to the generation of numerous graphical outputs, PhylteR also allows for the rapid and easy visual characterisation of the dataset at hand, thus aiding in the precise identification of errors. PhylteR is distributed as an R package on CRAN and as containerized versions (docker and singularity).",
+  "abstract_zh": "在系统发育基因组学中，基因树之间的不一致性，无论是源于人为因素还是生物学原因，都会降低信噪比并使物种树推断复杂化。当前经典系统发育基因组学分析中处理的数据量排除了人工错误检测和移除的可能性。然而，一种简单且高效的方法来自动识别基因树集合中的离群值仍然缺失。在此，我们提出PhylteR，一种能够快速且准确检测系统发育基因组数据集中离群序列（即个体基因树中不遵循总体趋势的物种）的方法。PhylteR依赖于DISTATIS，这是多维缩放扩展到三维的一种方法，用于同时比较多个距离矩阵。在PhylteR中，从个体基因系统发育中提取的这些距离矩阵代表根据每个基因的物种间进化距离。在模拟数据集上，我们展示PhylteR比现有可比方法具有更高的灵敏度和精确度来识别离群值。我们还展示PhylteR对ILS引起的不一致不敏感，这是一个理想特性。在一个包含14,463个基因、53个物种的生物学数据集上（先前为食肉目系统发育基因组学组装），我们展示（i）PhylteR识别的离群序列可通过其他方式视为离群值，以及（ii）移除这些序列提高了基因树与物种树之间的一致性。得益于生成大量图形输出，PhylteR还允许快速且轻松地对当前数据集进行视觉特征化，从而有助于精确识别错误。PhylteR以R包形式在CRAN上分发，并提供容器化版本（docker和singularity）。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.02.526888",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.02.526888",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.02.526888/index.html"
+}

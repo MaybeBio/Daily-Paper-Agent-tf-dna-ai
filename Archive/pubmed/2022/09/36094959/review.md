@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and evidence presented in the manuscript
+- **Shared manuscript claim summary** The authors present TAMC, a 1D-CNN-based deep learning tool that predicts motif-centric transcription factor binding activity from ATAC-seq data without explicit bias correction, and demonstrate its superiority over existing footprinting tools (TOBIAS, HINT-ATAC) in intra- and cross-dataset settings, particularly at low sequencing depth.
+- **Visible evidence base** Main text, figures referenced (Figs 1-6), tables (Table 1), supplementary references (S1-S6)
+- **Missing materials affecting confidence** Figures and supplementary tables (S1-S6) are referenced but not provided; code availability and model architecture details are not fully specified; exact hyperparameters and training configurations are not described in the methods.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational tool for TFBS prediction from ATAC-seq data, with a reasonable methodological rationale and a comparative evaluation against existing tools. However, the evidence as presented is incomplete, with key figures and supplementary data not available for verification. The core claims of superiority, particularly regarding bias correction and low-depth performance, require closer scrutiny of the underlying data and statistical analyses. The manuscript would benefit from clearer reporting of model architecture, training details, and a more rigorous statistical comparison framework.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and epigenomics who use ATAC-seq data to infer transcription factor binding, especially those working with limited sequencing depth or single-cell ATAC-seq data. The tool's potential to bypass bias correction could simplify workflows.
+- **Major strengths** The problem addressed is relevant and timely. The idea of using a deep learning model to implicitly learn bias correction is conceptually interesting. The evaluation across multiple cell types and sequencing depths is a thoughtful design. The application to a biological question (CTCF during ZGA) demonstrates a potential use case.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that TAMC outperforms TOBIAS and HINT-ATAC in TFBS prediction, particularly for ATAC-seq data with limited sequencing depth.
+  - **Evidence pointer** Figures 2A-2D, S2, S3; location not provided
+  - **Concern** The primary evidence for this claim is presented in figures that are not included in the provided material. The text describes trends (e.g., "TAMC gave the best classification for most of the 47 TFs") but does not provide quantitative results, effect sizes, or statistical significance tests. The comparison methodology, particularly how AUROC values are aggregated and compared across methods and replicates, is not fully described. The claim about performance at low sequencing depth is based on a specific analysis (Fig 2D) that cannot be evaluated.
+  - **Why it matters** The central claim of the manuscript is that TAMC is superior to existing tools. Without access to the actual performance data and a clear description of the statistical comparison, this claim cannot be verified. The conclusion that TAMC is better at low depth is a key differentiator and must be robustly supported.
+  - **Resolution test** Provide the actual AUROC values (e.g., in a supplementary table) for all methods, cell types, and sequencing depths. Include statistical tests (e.g., paired Wilcoxon signed-rank test) comparing TAMC to each baseline across TFs and replicates. Show the distribution of AUROC differences, not just means. For the low-depth claim, show the performance curves across all tested depths and indicate the variance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that TAMC does not require bias correction during signal processing and that its performance is not significantly affected by using uncorrected versus corrected inputs.
+  - **Evidence pointer** Figure 3; location not provided
+  - **Concern** The text states that the performance of four TAMC models using different input combinations (uncorrected, partially corrected, fully corrected) "were not significantly different with each other." However, no statistical test is described, and the figure is not available. The conclusion that TAMC "learns to correct bias internally" is an inference that needs stronger support. It is possible that the model simply ignores the bias-related features, or that the bias correction methods tested are not effective for the TFs analyzed.
+  - **Why it matters** This is a major claimed advantage over existing tools. If the model's performance is actually dependent on some form of implicit bias handling, or if the comparison is underpowered, the claim is misleading. The mechanistic interpretation (internal correction) is speculative without further analysis.
+  - **Resolution test** Describe the statistical test used to compare the four model variants. Provide the full results, including effect sizes and confidence intervals. To support the "internal correction" claim, perform an analysis of the learned model features (e.g., saliency maps) to show that it accounts for sequence bias. Alternatively, temper the claim to state that TAMC is robust to the absence of explicit bias correction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall methodology and the specific implementation of TAMC.
+  - **Evidence pointer** Methods section; location not provided
+  - **Concern** The methods section lacks critical details for reproducibility. The exact architecture of the 1D-CNN (number of layers, filter sizes, pooling strategies, activation functions) is not specified. The training procedure (learning rate, regularization, early stopping criteria) is not described. The code is not mentioned as being available. The process for generating the "9-channel" input is described, but the exact normalization and scaling steps are not fully detailed.
+  - **Why it matters** A computational tool must be reproducible to be useful to the community. Without these details, other researchers cannot implement or adapt the method, and the validity of the results cannot be independently checked.
+  - **Resolution test** Provide a complete description of the model architecture and training hyperparameters in the methods or as a supplementary document. Make the code publicly available (e.g., on GitHub) and provide a link in the manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The application of TAMC to predict changes in constitutive CTCF binding sites during Zygotic Genome Activation (ZGA).
+  - **Evidence pointer** Figure 6, S5, S6; location not provided
+  - **Concern** The biological application is presented as a demonstration, but the analysis appears descriptive. The text reports a ~40% increase in constitutive CTCF sites and changes in their locations, but does not provide a statistical framework for these observations. The comparison between 2-cell and 8-cell stages is based on predictions, and the validation of these predictions (e.g., against known CTCF biology or independent data) is not described. The threshold of 0.95 for "constitutive" binding is arbitrary and its impact on the results is not discussed.
+  - **Why it matters** While this is a secondary application, it is used to illustrate the utility of TAMC. If the biological findings are not robustly supported, it weakens the case for the tool's practical value. Over-interpretation of predictive results without experimental validation is a concern.
+  - **Resolution test** Provide a more rigorous analysis of the predicted binding site changes, including confidence intervals or a statistical test for the difference in numbers. Discuss the choice of the 0.95 threshold and its effect. If possible, validate a subset of predictions against existing ChIP-seq data from related cell types or other orthogonal evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states TAMC "outperforms existing footprinting tools" but does not specify the comparison metrics or the conditions under which it is superior. The phrase "particularly for ATAC-seq data with limited sequencing depth" is vague.
+  - **Required correction** Specify the comparison metric (AUROC) and the range of sequencing depths tested in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2; location not provided
+  - **Issue** The sentence "Notably, bound TFs hinder the activity of cutting enzymes and leave footprint sites characterized with lower cleavage signal frequency comparing to surrounding regions" is slightly awkward. "comparing to" should be "compared to".
+  - **Required correction** Correct the grammatical error.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MPSC labeling
+  - **Evidence pointer** Methods, "MPSC labeling and sampling"; location not provided
+  - **Issue** The description of labeling MPSCs as bound or unbound is clear, but the rationale for the "closest to and within 50bp from the highest ChIP-seq summit" criterion is not explained. This could introduce a bias in the labeling.
+  - **Required correction** Provide a brief justification for this labeling strategy or cite a reference that uses a similar approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Training
+  - **Evidence pointer** Methods, "Training"; location not provided
+  - **Issue** The training section mentions "lowest 3 validation losses" but does not specify how the final model is selected from these three for testing. Is it an ensemble, or is one chosen?
+  - **Required correction** Clarify how the three saved models are used to generate the final prediction (e.g., averaging).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "TAMC generates TF-specific models"
+  - **Evidence pointer** Results, section "TAMC generates TF-specific models"; location not provided
+  - **Issue** The text says "6 TFs always require TAMC models trained using the same TF for best binding site prediction." The word "always" is strong and implies a consistent result across replicates. It would be clearer to state "in all replicates" or "consistently."
+  - **Required correction** Rephrase to be more precise about the consistency of the result.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2; location not provided
+  - **Issue** The sentence "One major obstacle for TFSC prediction using scATAC-seq data is its low sequencing depth for individual cell or specific cell population." The phrase "for individual cell or specific cell population" is redundant and could be simplified.
+  - **Required correction** Simplify to "its low sequencing depth per cell or cell population."
+
+## Risk / unsupported claims
+- The claim that TAMC "does not require bias correction" is not fully supported without the data from Figure 3 and the statistical analysis.
+- The claim of "outperforming" existing tools is not verifiable without the actual AUROC values and statistical comparisons.
+- The biological findings regarding CTCF binding during ZGA are based on predictions and lack experimental validation or a robust statistical framework.
+- The claim that TAMC "captures both footprint and non-footprint features" is an interpretation of the ablation study (Figure 5) that is not fully described.
+- The generalizability of TAMC to single-cell ATAC-seq data is speculative and not tested in this manuscript.

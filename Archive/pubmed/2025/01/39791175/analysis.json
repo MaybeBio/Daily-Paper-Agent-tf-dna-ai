@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39791175",
+  "title": "Identification of Programmed Cell Death-related Biomarkers for the Potential Diagnosis and Treatment of Osteoporosis.",
+  "authors": "Huo, Yancheng; Guo, Meng; Li, Yihan; Yao, Xingchen; Tian, Qingxian; Liu, Tie",
+  "journal": "Endocrine, metabolic & immune disorders drug targets",
+  "published_date": "2025-01-10",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过转录组数据筛选骨质疏松相关程序性细胞死亡基因并构建预测模型，虽涉及转录因子互作分析，但核心是疾病生物标志物而非蛋白质-DNA互作机制建模，方法以统计机器学习为主，缺乏AI/物理模拟的分子互作建模。",
+  "abstract": "BACKGROUND: Osteoporosis (OP) is a skeletal condition characterized by increased susceptibility to fractures. Programmed cell death (PCD) is the orderly process of cells ending their own life that has not been thoroughly explored in relation to OP. OBJECTIVE: This study is to investigate PCD-related genes in OP, shedding light on potential mechanisms underlying the disease. METHODS: Public datasets (GSE56814 and GSE56815) were analyzed to identify differentially expressed genes (DEGs). We employed the least absolute shrinkage and selection operator (LASSO), Boruta, and random forest (RF) algorithms to pinpoint hub PCD-related genes in OP and construct a predictive nomogram model. The performance of the model was validated through ROC curve analysis, calibration curves, and decision curve analysis. Additionally, transcription factor (TF) interaction analysis and functional enrichment analysis were conducted to explore the regulatory networks and biological pathways involved. RESULTS: We identified 161 DEGs, with 30 prominently associated with PCD. Five hub genes, PDPK1, MAP1LC3B, ZFP36, DRAM1, and MPO, were highlighted as particularly significant. A predictive nomogram integrating these genes demonstrated high accuracy (AUC) in forecasting OP risk, with an AUC of 0.911 in the GSE56815 dataset. The validation confirmed the gene model efficacy in differentiating OP risk and clinical applicability. The subsequent TF-gene interaction analyses revealed that these hub genes are regulated by multiple TFs, indicating their central role in OP pathology. Functional enrichment analysis of the hub genes indicated significant involvement in apoptosis, autophagy, and immune response pathways. CONCLUSION: This study identified PDPK1, MAP1LC3B, ZFP36, DRAM1, and MPO as potential biomarkers and proposes a nomogram based on hub genes for predicting osteoporosis risk.",
+  "abstract_zh": "背景：骨质疏松症（OP）是一种以骨折易感性增加为特征的骨骼疾病。程序性细胞死亡（PCD）是细胞有序结束自身生命的过程，但尚未在OP相关研究中得到充分探索。目的：本研究旨在探讨OP中的PCD相关基因，揭示该疾病潜在的机制。方法：分析公共数据集（GSE56814和GSE56815）以识别差异表达基因（DEGs）。我们采用最小绝对收缩和选择算子（LASSO）、Boruta和随机森林（RF）算法来确定OP中的核心PCD相关基因，并构建预测性列线图模型。通过ROC曲线分析、校准曲线和决策曲线分析验证模型性能。此外，进行转录因子（TF）相互作用分析和功能富集分析，以探索涉及的调控网络和生物学通路。结果：我们识别出161个DEGs，其中30个与PCD显著相关。五个核心基因PDPK1、MAP1LC3B、ZFP36、DRAM1和MPO被突出显示为特别重要。整合这些基因的预测性列线图在预测OP风险方面表现出高准确性（AUC），在GSE56815数据集中AUC为0.911。验证确认了基因模型在区分OP风险和临床适用性方面的有效性。随后的TF-基因相互作用分析显示，这些核心基因受多个TFs调控，表明它们在OP病理中的核心作用。核心基因的功能富集分析表明其显著参与凋亡、自噬和免疫反应通路。结论：本研究将PDPK1、MAP1LC3B、ZFP36、DRAM1和MPO确定为潜在生物标志物，并提出基于核心基因的列线图用于预测骨质疏松症风险。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39791175/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39791175/",
+  "paper_page_path": "papers/pubmed/39791175/index.html"
+}

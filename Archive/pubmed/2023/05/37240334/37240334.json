@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "37240334",
+    "doi": "10.3390/ijms24108988",
+    "title": "Structural Insights into Phosphorylation-Mediated Polymerase Function Loss for DNA Polymerase beta Bound to Gapped DNA."
+  },
+  "content": {
+    "abstract": "DNA polymerase beta is a member of the X-family of DNA polymerases, playing a critical role in the base excision repair (BER) pathway in mammalian cells by implementing the nucleotide gap-filling step. In vitro phosphorylation of DNA polymerase beta with PKC on S44 causes loss in the enzyme's DNA polymerase activity but not single-strand DNA binding. Although these studies have shown that single-stranded DNA binding is not affected by phosphorylation, the structural basis behind the mechanism underlying phosphorylation-induced activity loss remains poorly understood. Previous modeling studies suggested phosphorylation of S44 was sufficient to induce structural changes that impact the enzyme's polymerase function. However, the S44 phosphorylated-enzyme/DNA complex has not been modeled so far. To address this knowledge gap, we conducted atomistic molecular dynamics simulations of pol beta complexed with gapped DNA. Our simulations, which used explicit solvent and lasted for microseconds, revealed that phosphorylation at the S44 site, in the presence of Mg ions, induced significant conformational changes in the enzyme. Specifically, these changes led to the transformation of the enzyme from a closed to an open structure. Additionally, our simulations identified phosphorylation-induced allosteric coupling between the inter-domain region, suggesting the existence of a putative allosteric site. Taken together, our results provide a mechanistic understanding of the conformational transition observed due to phosphorylation in DNA polymerase beta interactions with gapped DNA. Our simulations shed light on the mechanisms of phosphorylation-induced activity loss in DNA polymerase beta and reveal potential targets for the development of novel therapeutics aimed at mitigating the effects of this post-translational modification.",
+    "keywords": [
+      "DNA polymerase beta",
+      "MD simulations",
+      "post-translational modifications",
+      "principal component analysis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*DNA Polymerase beta/metabolism",
+      "Phosphorylation",
+      "DNA/chemistry",
+      "DNA-Directed DNA Polymerase/metabolism",
+      "DNA Replication",
+      "DNA Repair",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Srivastava, Amit",
+        "Idriss, Haitham",
+        "Homouz, Dirar"
+      ],
+      "short_names": [
+        "Srivastava A",
+        "Idriss H",
+        "Homouz D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9676-1266",
+        "ORCID: 0000-0002-8859-0265"
+      ],
+      "affiliations": [
+        "Department of Physics, Khalifa University of Science and Technology, Abu Dhabi 127788, United Arab Emirates.",
+        "School of Public Health, Imperial College of Science, Technology and Medicine, London SW7 2AZ, UK.",
+        "Palestinian Neuroscience Initiative, Al-Quds University, Jerusalem 51000, Palestine.",
+        "Faculty of Health Sciences, Global University, Beirut 15-5085, Lebanon.",
+        "Department of Physics, Khalifa University of Science and Technology, Abu Dhabi 127788, United Arab Emirates."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Srivastava, Amit",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Khalifa University of Science and Technology, Abu Dhabi 127788, United Arab Emirates."
+        ]
+      },
+      {
+        "full_name": "Idriss, Haitham",
+        "short_name": "Idriss H",
+        "identifiers": [
+          "0000-0001-9676-1266"
+        ],
+        "affiliations": [
+          "School of Public Health, Imperial College of Science, Technology and Medicine, London SW7 2AZ, UK.",
+          "Palestinian Neuroscience Initiative, Al-Quds University, Jerusalem 51000, Palestine.",
+          "Faculty of Health Sciences, Global University, Beirut 15-5085, Lebanon."
+        ]
+      },
+      {
+        "full_name": "Homouz, Dirar",
+        "short_name": "Homouz D",
+        "identifiers": [
+          "0000-0002-8859-0265"
+        ],
+        "affiliations": [
+          "Department of Physics, Khalifa University of Science and Technology, Abu Dhabi 127788, United Arab Emirates."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 May 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/27 09:43",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "40073046"
+    ],
+    "refs": [
+      "36001481",
+      "35769908",
+      "33087276",
+      "33006900",
+      "32275149",
+      "31656913",
+      "30530700",
+      "28877429",
+      "28119421",
+      "27303671",
+      "26620784",
+      "24831085",
+      "24717170",
+      "24166702",
+      "23341755",
+      "22959623",
+      "22586084",
+      "22464849",
+      "21471012",
+      "21258395",
+      "19851447",
+      "19842163",
+      "19759017",
+      "19355979",
+      "18626473",
+      "17313689",
+      "16615916",
+      "16464010",
+      "16355416",
+      "15544817",
+      "15507687",
+      "15280658",
+      "15238001",
+      "15189842",
+      "14988392",
+      "12601790",
+      "11854030",
+      "11159421",
+      "11024043",
+      "9287163",
+      "9033400",
+      "8744570",
+      "8469282",
+      "7526780",
+      "7516581",
+      "2040602",
+      "1749773",
+      "1377403"
+    ],
+    "similar": [
+      "37240334",
+      "35769908",
+      "30138833",
+      "29223917",
+      "12595253",
+      "11327782",
+      "19703477",
+      "16214865",
+      "21917855",
+      "30068550",
+      "11170398",
+      "17355977",
+      "8841118",
+      "15979954",
+      "9346877",
+      "20961817",
+      "17127426",
+      "10660619",
+      "33087265",
+      "15078879",
+      "18955064",
+      "15507687",
+      "32853828",
+      "9512464",
+      "16201758",
+      "12527765",
+      "12162959",
+      "34871863",
+      "11278675",
+      "26123757",
+      "28945359",
+      "11024043",
+      "12777712",
+      "9287163",
+      "15248749",
+      "15561706",
+      "16613912",
+      "8451186",
+      "31289286",
+      "15069184",
+      "32554755",
+      "26020771",
+      "20377204",
+      "9694877",
+      "20805875",
+      "18084022",
+      "10318775",
+      "34422676",
+      "12734201",
+      "10336894",
+      "12911298",
+      "30299084",
+      "26466358",
+      "18393760",
+      "9530283",
+      "15731342",
+      "15193131",
+      "24617852",
+      "19420065",
+      "9745046",
+      "17321545",
+      "33600799",
+      "12777390",
+      "31801827",
+      "12458221",
+      "26240373",
+      "12189182",
+      "9869448",
+      "31627875",
+      "12741854",
+      "18616290",
+      "8027071",
+      "16807316",
+      "36533524",
+      "8702729",
+      "9920913",
+      "22033415",
+      "17267816",
+      "36734870",
+      "21757740",
+      "16863202",
+      "35696855",
+      "21452873",
+      "11554313",
+      "16202661",
+      "17236819",
+      "22446382",
+      "7537090",
+      "28005340"
+    ],
+    "review": [
+      "37240334",
+      "33087265",
+      "16613912",
+      "32554755",
+      "34422676",
+      "26466358",
+      "9745046",
+      "31627875",
+      "36734870"
+    ],
+    "pmc": [
+      "10219072"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24108988",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37240334/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37240334",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

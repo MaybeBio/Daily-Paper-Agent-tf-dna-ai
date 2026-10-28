@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "39615216",
+    "doi": "10.1016/j.phymed.2024.156287",
+    "title": "Cyclovirobuxine D inhibits triple-negative breast cancer via YAP/TAZ suppression and activation of the FOXO3a/PINK1-Parkin pathway-induced mitophagy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triple-negative breast cancer (TNBC) is characterized by its rapid progression and aggressive nature, with limited effective therapeutic interventions currently available. Cyclovirobuxine D (CVB-D), a natural alkaloid extracted from the traditional Chinese herb Buxus sinica, is renowned for its cardioprotective and anti-ischemic effects, demonstrating notable anti-cancer properties. Nevertheless, the anti-tumor effects of CVB-D on TNBC remain unverified. PURPOSE: This study seeks to investigate the effects of CVB-D on TNBC and to uncover the underlying mechanisms. STUDY DESIGN: Network pharmacology, SPR, DSF, and cell-based functional assays were conducted on TNBC cells to assess the impact of CVB-D. Findings were further corroborated using xenograft mouse models. METHODS: Cell Counting Kit-8, 5-Ethynyl-2'-deoxyuridine, transwell assays, flow cytometry, wound healing assays, immunofluorescence, and immunoblotting were employed to evaluate CVB-D's influence on TNBC cell lines. SPR, DSF and molecular docking techniques were utilized to assess the binding affinity of CVB-D to Yes-associated protein (YAP). The interaction between CVB-D and autophagy/mitophagy was further analyzed through plasmid transient transfection, JC-1 assay, TUNEL assay, and the use of autophagy inhibitors. The anti-TNBC mechanism of CVB-D was elucidated by overexpressing YAP in MDA-MB-231 cells. Additionally, the in vivo efficacy and safety of CVB-D were assessed in a xenograft mouse model. RESULTS: In vitro analyses revealed that CVB-D effectively suppressed G1 phase arrest and inhibited TNBC cell proliferation. Moreover, CVB-D induced mitochondrial-dependent apoptosis and reduced cell migration by antagonizing epithelial-mesenchymal transition. Mechanistically, CVB-D exerted its anti-cancer effects by directly binding to YAP, thereby inhibiting the nuclear translocation of YAP/TAZ and suppressing the transcription of downstream oncogenic target genes. Furthermore, CVB-D triggered excessive mitophagy by activating the FOXO3a/PINK1-Parkin axis, promoting apoptosis and leading to mitochondrial dysfunction in TNBC cells. Elevated YAP expression counteracted the effects of CVB-D on TNBC, including the suppression of mitophagy-related protein expression induced by CVB-D, suggesting that YAP modulates mitophagy through the FOXO3a/PINK1-Parkin axis. The anti-tumor efficacy of CVB-D and its underlying mechanisms were further substantiated using a subcutaneous xenograft model. CONCLUSIONS: This study is the first to demonstrate that CVB-D can directly bind to the YAP target, proposing a novel therapeutic strategy for TNBC. CVB-D may serve both as a YAP/TAZ inhibitor and as an activator of the FOXO3a/PINK1-Parkin axis, leading to excessive mitophagy.",
+    "keywords": [
+      "Autophagy",
+      "Chinese traditional medicine",
+      "Mitophagy",
+      "Triple negative breast neoplasms",
+      "YAP-Signaling Proteins"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/drug therapy/metabolism",
+      "Animals",
+      "YAP-Signaling Proteins",
+      "Female",
+      "Cell Line, Tumor",
+      "Forkhead Box Protein O3/metabolism",
+      "*Mitophagy/drug effects",
+      "Mice",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Protein Kinases/metabolism",
+      "Adaptor Proteins, Signal Transducing/metabolism",
+      "Transcription Factors/metabolism",
+      "Mice, Nude",
+      "Signal Transduction/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "*Bufanolides/pharmacology",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "Cell Proliferation/drug effects",
+      "Mice, Inbred BALB C",
+      "Apoptosis/drug effects",
+      "Drugs, Chinese Herbal/pharmacology",
+      "Cell Cycle Proteins",
+      "Cell Movement/drug effects",
+      "PTEN-Induced Putative Kinase"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zi-Qiong",
+        "Wu, Zhi-Xuan",
+        "Chen, Jia-Wei",
+        "Li, Hong-Feng",
+        "Wu, Hao-Dong",
+        "Bao, Jing-Xia",
+        "Cheng, Yao",
+        "Dai, Yin-Wei",
+        "Wang, Ou-Chen",
+        "Dai, Xuan-Xuan"
+      ],
+      "short_names": [
+        "Wang ZQ",
+        "Wu ZX",
+        "Chen JW",
+        "Li HF",
+        "Wu HD",
+        "Bao JX",
+        "Cheng Y",
+        "Dai YW",
+        "Wang OC",
+        "Dai XX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Colorectal Surgery, Sir Run Shaw Hospital of Zhejiang University, Hangzhou, Zhejiang 310016, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China; Key Laboratory of Clinical Laboratory Diagnostics (Ministry of Education), The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, PR China. Electronic address: woc@wmu.edu.cn.",
+        "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China; Key Laboratory of Clinical Laboratory Diagnostics (Ministry of Education), The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, PR China. Electronic address: daoshidaixuanxuan@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zi-Qiong",
+        "short_name": "Wang ZQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhi-Xuan",
+        "short_name": "Wu ZX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Sir Run Shaw Hospital of Zhejiang University, Hangzhou, Zhejiang 310016, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jia-Wei",
+        "short_name": "Chen JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Hong-Feng",
+        "short_name": "Li HF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hao-Dong",
+        "short_name": "Wu HD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Bao, Jing-Xia",
+        "short_name": "Bao JX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yao",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Dai, Yin-Wei",
+        "short_name": "Dai YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ou-Chen",
+        "short_name": "Wang OC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China; Key Laboratory of Clinical Laboratory Diagnostics (Ministry of Education), The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, PR China. Electronic address: woc@wmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Dai, Xuan-Xuan",
+        "short_name": "Dai XX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325035, PR China; Key Laboratory of Clinical Laboratory Diagnostics (Ministry of Education), The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, 325035, PR China. Electronic address: daoshidaixuanxuan@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/01 15:22",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "42653111",
+      "42630505",
+      "41923239",
+      "41764124",
+      "41593678",
+      "41462472",
+      "41449473",
+      "41009794",
+      "40739259",
+      "40496927",
+      "39815317"
+    ],
+    "refs": [],
+    "similar": [
+      "39615216",
+      "34072333",
+      "32768952",
+      "40010552",
+      "39121924",
+      "30092563",
+      "38992898",
+      "33961996",
+      "40153970",
+      "39864604",
+      "38576101",
+      "38763012",
+      "38823344",
+      "37802875",
+      "39826284",
+      "40217291",
+      "33939216",
+      "34655600",
+      "32057900",
+      "40199407",
+      "40044045",
+      "33716082",
+      "29316250",
+      "33011366",
+      "40020794",
+      "28060722",
+      "40122315",
+      "32669950",
+      "34512163",
+      "34879870",
+      "37393829",
+      "39729481",
+      "38702967",
+      "39303510",
+      "25583261",
+      "39953272",
+      "29050003",
+      "39741917",
+      "38745240",
+      "30845378",
+      "33307962",
+      "39855832",
+      "38900236",
+      "30797898",
+      "39426573",
+      "27387452",
+      "38653003",
+      "39369568",
+      "38697448",
+      "32011034",
+      "39591692",
+      "28991374",
+      "32319595",
+      "30735802",
+      "32523092",
+      "32353422",
+      "24669285",
+      "31913706",
+      "33412224",
+      "39099360",
+      "27377973",
+      "26610442",
+      "33929971",
+      "31138329",
+      "28962890",
+      "39879681",
+      "26590814",
+      "26036638",
+      "33485979",
+      "34360883",
+      "30209783",
+      "39460738",
+      "32767958",
+      "30898152",
+      "39725635",
+      "30651219",
+      "33727089",
+      "38942765",
+      "31631978",
+      "38164185",
+      "28578456",
+      "24529079",
+      "22613095",
+      "38378361",
+      "32724459",
+      "28529455",
+      "33879840",
+      "38552378",
+      "33302699",
+      "29241219",
+      "31622095",
+      "36280829",
+      "35426453",
+      "39920327",
+      "34031947",
+      "39848416",
+      "39826667",
+      "40139643",
+      "32951586",
+      "40038413"
+    ],
+    "review": [
+      "39615216"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00943-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

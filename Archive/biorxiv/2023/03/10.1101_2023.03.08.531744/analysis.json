@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.08.531744",
+  "title": "Sensitive cluster-free differential expression testing.",
+  "authors": "Missarova A; Rosen LU; Dann E; Satija R; Marioni J",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-10",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出单细胞RNA测序差异表达检验方法miloDE，与蛋白质-DNA互作及TF-DNA结合建模无关。",
+  "abstract": "Comparing molecular features, including the identification of genes with differential expression (DE) between conditions, is a powerful approach for characterising disease-specific phenotypes. When testing for DE in single-cell RNA sequencing data, current pipelines first assign cells into discrete clusters (or cell types), followed by testing for differences within each cluster. Consequently, the sensitivity and specificity of DE testing are limited and ultimately dictated by the granularity of the cell type annotation, with discrete clustering being especially suboptimal for continuous trajectories. To overcome these limitations, we present miloDE - a cluster-free framework for differential expression testing. We build on the Milo approach, introduced for differential cell abundance testing, which leverages the graph representation of single-cell data to assign relatively homogenous, neighbouring cells into overlapping neighbourhoods. We address key differences between differential abundance and expression testing at the level of neighbourhood assignment, statistical testing, and multiple testing correction. To illustrate the performance of miloDE we use both simulations and real data, in the latter case identifying a transient haemogenic endothelia-like state in chimeric mouse embryos lacking Tal1 as well as uncovering distinct transcriptional programs that characterise changes in macrophages in patients with Idiopathic Pulmonary Fibrosis. miloDE is available as an open-source R package at https://github.com/MarioniLab/miloDE.",
+  "abstract_zh": "比较分子特征，包括识别条件间差异表达（DE）的基因，是表征疾病特异性表型的有力方法。在单细胞RNA测序数据中进行DE检测时，当前流程首先将细胞分配到离散簇（或细胞类型），然后测试每个簇内的差异。因此，DE检测的敏感性和特异性受到限制，并最终由细胞类型注释的粒度决定，离散聚类对于连续轨迹尤其不理想。为克服这些限制，我们提出miloDE——一种用于差异表达检测的无簇框架。我们基于Milo方法构建，该方法最初用于差异细胞丰度检测，利用单细胞数据的图表示将相对同质的相邻细胞分配到重叠邻域中。我们解决了差异丰度与表达检测在邻域分配、统计检验和多重检验校正层面的关键差异。为展示miloDE的性能，我们使用模拟和真实数据，后者中识别了缺乏Tal1的嵌合小鼠胚胎中的瞬时造血内皮样状态，并揭示了表征特发性肺纤维化患者巨噬细胞变化的独特转录程序。miloDE作为开源R包可在https://github.com/MarioniLab/miloDE获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531744",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531744",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.08.531744/index.html"
+}

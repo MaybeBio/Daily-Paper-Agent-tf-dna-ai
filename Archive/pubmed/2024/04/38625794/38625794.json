@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "38625794",
+    "doi": "10.1016/j.celrep.2024.114074",
+    "title": "UPF1 regulates mRNA stability by sensing poorly translated coding sequences."
+  },
+  "content": {
+    "abstract": "Post-transcriptional mRNA regulation shapes gene expression, yet how cis-elements and mRNA translation interface to regulate mRNA stability is poorly understood. We find that the strength of translation initiation, upstream open reading frame (uORF) content, codon optimality, AU-rich elements, microRNA binding sites, and open reading frame (ORF) length function combinatorially to regulate mRNA stability. Machine-learning analysis identifies ORF length as the most important conserved feature regulating mRNA decay. We find that Upf1 binds poorly translated and untranslated ORFs, which are associated with a higher decay rate, including mRNAs with uORFs and those with exposed ORFs after stop codons. Our study emphasizes Upf1's converging role in surveilling mRNAs with exposed ORFs that are poorly translated, such as mRNAs with long ORFs, ORF-like 3' UTRs, and mRNAs containing uORFs. We propose that Upf1 regulation of poorly/untranslated ORFs provides a unifying mechanism of surveillance in regulating mRNA stability and homeostasis in an exon-junction complex (EJC)-independent nonsense-mediated decay (NMD) pathway that we term ORF-mediated decay (OMD).",
+    "keywords": [
+      "CP: Molecular biology",
+      "GC-richness",
+      "NMD",
+      "ORF length",
+      "UPF1",
+      "mRNA decay",
+      "mRNA homeostasis",
+      "mRNA translation",
+      "oORF",
+      "uORF"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "3' Untranslated Regions/genetics",
+      "Nonsense Mediated mRNA Decay",
+      "Open Reading Frames/genetics",
+      "Protein Biosynthesis",
+      "*RNA Helicases/metabolism/genetics",
+      "*RNA Stability",
+      "RNA, Messenger/metabolism/genetics",
+      "*Trans-Activators/metabolism/genetics",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Musaev, Damir",
+        "Abdelmessih, Mario",
+        "Vejnar, Charles E",
+        "Yartseva, Valeria",
+        "Weiss, Linnea A",
+        "Strayer, Ethan C",
+        "Takacs, Carter M",
+        "Giraldez, Antonio J"
+      ],
+      "short_names": [
+        "Musaev D",
+        "Abdelmessih M",
+        "Vejnar CE",
+        "Yartseva V",
+        "Weiss LA",
+        "Strayer EC",
+        "Takacs CM",
+        "Giraldez AJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; AstraZeneca, Waltham, MA 02451, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; Kenai Therapeutics, San Diego, CA, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; University of New Haven, West Haven, CT 06516, USA.",
+        "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; Yale Stem Cell Center, Yale University School of Medicine, New Haven, CT 06510, USA; Yale Cancer Center, Yale University School of Medicine, New Haven, CT 06510, USA. Electronic address: antonio.giraldez@yale.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Musaev, Damir",
+        "short_name": "Musaev D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA."
+        ]
+      },
+      {
+        "full_name": "Abdelmessih, Mario",
+        "short_name": "Abdelmessih M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; AstraZeneca, Waltham, MA 02451, USA."
+        ]
+      },
+      {
+        "full_name": "Vejnar, Charles E",
+        "short_name": "Vejnar CE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA."
+        ]
+      },
+      {
+        "full_name": "Yartseva, Valeria",
+        "short_name": "Yartseva V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; Kenai Therapeutics, San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Weiss, Linnea A",
+        "short_name": "Weiss LA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA."
+        ]
+      },
+      {
+        "full_name": "Strayer, Ethan C",
+        "short_name": "Strayer EC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA."
+        ]
+      },
+      {
+        "full_name": "Takacs, Carter M",
+        "short_name": "Takacs CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; University of New Haven, West Haven, CT 06516, USA."
+        ]
+      },
+      {
+        "full_name": "Giraldez, Antonio J",
+        "short_name": "Giraldez AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University School of Medicine, New Haven, CT 06510, USA; Yale Stem Cell Center, Yale University School of Medicine, New Haven, CT 06510, USA; Yale Cancer Center, Yale University School of Medicine, New Haven, CT 06510, USA. Electronic address: antonio.giraldez@yale.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2024 Apr 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/16 18:42",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42260649",
+      "42095912",
+      "41787560",
+      "41540244",
+      "41514996",
+      "41394621",
+      "41219960",
+      "41048551",
+      "39827266",
+      "39587307",
+      "39362779"
+    ],
+    "refs": [
+      "33402205",
+      "33357462",
+      "32571908",
+      "32553117",
+      "32502232",
+      "31527111",
+      "31227602",
+      "31152051",
+      "31012849",
+      "30907728",
+      "30293783",
+      "30192227",
+      "30061596",
+      "29355846",
+      "29225039",
+      "28209632",
+      "28024160",
+      "27940950",
+      "27825301",
+      "27692063",
+      "27436874",
+      "27117520",
+      "26990990",
+      "26896445",
+      "26436458",
+      "26397022",
+      "26358874",
+      "25768907",
+      "25365966",
+      "25277656",
+      "25248153",
+      "25184677",
+      "24529382",
+      "24476825",
+      "24440719",
+      "24119399",
+      "24056933",
+      "23962664",
+      "23950723",
+      "23832275",
+      "23766421",
+      "23422947",
+      "23337855",
+      "22719226",
+      "22065998",
+      "21844211",
+      "21602908",
+      "21464899",
+      "21029861",
+      "19854872",
+      "19700615",
+      "19653106",
+      "18423202",
+      "18394895",
+      "18342629",
+      "16777600",
+      "16484454",
+      "16179257",
+      "15548610",
+      "12730603",
+      "12032091",
+      "9644970",
+      "9334320"
+    ],
+    "similar": [
+      "38625794",
+      "20946641",
+      "23766421",
+      "31619139",
+      "19653106",
+      "22554850",
+      "27940950",
+      "23404710",
+      "24529707",
+      "17077274",
+      "36878710",
+      "30655309",
+      "23962664",
+      "22028362",
+      "24260526",
+      "31519907",
+      "29282598",
+      "24726324",
+      "17000771",
+      "34884553",
+      "39787791",
+      "30576707",
+      "27864472",
+      "28461625",
+      "22713324",
+      "36169317",
+      "21957477",
+      "25184677",
+      "15680326",
+      "23435113",
+      "35403729",
+      "25805855",
+      "26283621",
+      "19754518",
+      "23831331",
+      "18423202",
+      "26253027",
+      "26048019",
+      "21029861",
+      "23832275",
+      "29626148",
+      "29348139",
+      "24929422",
+      "39331656",
+      "30297408",
+      "35675814",
+      "33341474",
+      "29158530",
+      "20691628",
+      "27927164",
+      "18447585",
+      "31004763",
+      "16452507",
+      "12172963",
+      "10573121",
+      "31527111",
+      "35613594",
+      "32571872",
+      "38709891",
+      "16679454",
+      "23356578",
+      "17352659",
+      "22771799",
+      "34586879",
+      "36192133",
+      "39827266",
+      "37227054",
+      "29236296",
+      "15105376",
+      "38621446",
+      "38412299",
+      "32561765",
+      "32719458",
+      "10357825",
+      "12529390",
+      "31466720",
+      "21965535",
+      "39961431",
+      "36370101",
+      "27511142",
+      "31699982",
+      "16813578",
+      "23788676",
+      "36894318",
+      "32017897",
+      "19190664",
+      "38350726",
+      "18066079",
+      "23619768",
+      "16186820",
+      "12832468",
+      "18974834",
+      "25220460",
+      "35451102",
+      "22522823",
+      "27874031",
+      "30401782",
+      "26744779",
+      "17088291",
+      "20513249"
+    ],
+    "review": [
+      "38625794",
+      "30655309",
+      "29282598",
+      "30576707",
+      "23435113",
+      "26283621",
+      "29626148",
+      "33341474",
+      "23356578",
+      "17352659",
+      "29236296",
+      "38621446"
+    ],
+    "pmc": [
+      "11259039"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(24)00402-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38625794/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38625794/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38625794",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

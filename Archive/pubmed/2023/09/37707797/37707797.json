@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "37707797",
+    "doi": "10.1093/toxsci/kfad094",
+    "title": "Interpretable predictive models of genome-wide aryl hydrocarbon receptor-DNA binding reveal tissue-specific binding determinants."
+  },
+  "content": {
+    "abstract": "The aryl hydrocarbon receptor (AhR) is an inducible transcription factor whose ligands include the potent environmental contaminant 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD). Ligand-activated AhR binds to DNA at dioxin response elements (DREs) containing the core motif 5'-GCGTG-3'. However, AhR binding is highly tissue specific. Most DREs in accessible chromatin are not bound by TCDD-activated AhR, and DREs accessible in multiple tissues can be bound in some and unbound in others. As such, AhR functions similarly to many nuclear receptors. Given that AhR possesses a strong core motif, it is suited for a motif-centered analysis of its binding. We developed interpretable machine learning models predicting the AhR binding status of DREs in MCF-7, GM17212, and HepG2 cells, as well as primary human hepatocytes. Cross-tissue models predicting transcription factor (TF)-DNA binding generally perform poorly. However, reasons for the low performance remain unexplored. By interpreting the results of individual within-tissue models and by examining the features leading to low cross-tissue performance, we identified sequence and chromatin context patterns correlated with AhR binding. We conclude that AhR binding is driven by a complex interplay of tissue-agnostic DRE flanking DNA sequence and tissue-specific local chromatin context. Additionally, we demonstrate that interpretable machine learning models can provide novel and experimentally testable mechanistic insights into DNA binding by inducible TFs.",
+    "keywords": [
+      "DNA binding",
+      "DRE",
+      "XRE",
+      "aryl hydrocarbon receptor",
+      "dioxins",
+      "tissue specificity",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Genome, Human",
+      "Organ Specificity",
+      "*Receptors, Aryl Hydrocarbon/metabolism",
+      "*Basic Helix-Loop-Helix Proteins/metabolism",
+      "*Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Filipovic, David",
+        "Qi, Wenjie",
+        "Kana, Omar",
+        "Marri, Daniel",
+        "LeCluyse, Edward L",
+        "Andersen, Melvin E",
+        "Cuddapah, Suresh",
+        "Bhattacharya, Sudin"
+      ],
+      "short_names": [
+        "Filipovic D",
+        "Qi W",
+        "Kana O",
+        "Marri D",
+        "LeCluyse EL",
+        "Andersen ME",
+        "Cuddapah S",
+        "Bhattacharya S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4421-1654",
+        "ORCID: 0000-0002-2360-1672"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Pharmacology & Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Integrative Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "LifeSciences Division, LifeNet Health, Research Triangle Park, North Carolina 27709, USA.",
+        "ScitoVation LLC, Durham, North Carolina 27713, USA.",
+        "Division of Environmental Medicine, Department of Medicine, New York University School of Medicine, New York, New York 10010, USA.",
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Department of Pharmacology & Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Institute for Integrative Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+        "Center for Research on Ingredient Safety, Michigan State University, East Lansing, Michigan 48824, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Filipovic, David",
+        "short_name": "Filipovic D",
+        "identifiers": [
+          "0000-0003-4421-1654"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Qi, Wenjie",
+        "short_name": "Qi W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Kana, Omar",
+        "short_name": "Kana O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Department of Pharmacology & Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Institute for Integrative Toxicology, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Marri, Daniel",
+        "short_name": "Marri D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      },
+      {
+        "full_name": "LeCluyse, Edward L",
+        "short_name": "LeCluyse EL",
+        "identifiers": [],
+        "affiliations": [
+          "LifeSciences Division, LifeNet Health, Research Triangle Park, North Carolina 27709, USA."
+        ]
+      },
+      {
+        "full_name": "Andersen, Melvin E",
+        "short_name": "Andersen ME",
+        "identifiers": [],
+        "affiliations": [
+          "ScitoVation LLC, Durham, North Carolina 27713, USA."
+        ]
+      },
+      {
+        "full_name": "Cuddapah, Suresh",
+        "short_name": "Cuddapah S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Environmental Medicine, Department of Medicine, New York University School of Medicine, New York, New York 10010, USA."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Sudin",
+        "short_name": "Bhattacharya S",
+        "identifiers": [
+          "0000-0002-2360-1672"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Institute for Quantitative Health Science & Engineering, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Department of Pharmacology & Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Institute for Integrative Toxicology, Michigan State University, East Lansing, Michigan 48824, USA.",
+          "Center for Research on Ingredient Safety, Michigan State University, East Lansing, Michigan 48824, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxicological sciences : an official journal of the Society of Toxicology"
+    ],
+    "journal_abbrev": [
+      "Toxicol Sci"
+    ],
+    "pub_date": "2023 Nov 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/14 12:41",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "42316227",
+      "37173345"
+    ],
+    "refs": [
+      "35681170",
+      "33674764",
+      "33221922",
+      "33137190",
+      "32232341",
+      "32015543",
+      "30718831",
+      "30630522",
+      "30567711",
+      "30413482",
+      "30097539",
+      "30055148",
+      "30003042",
+      "29343438",
+      "29126249",
+      "29107595",
+      "28681081",
+      "28396409",
+      "26700314",
+      "24799436",
+      "24758297",
+      "24486021",
+      "24239782",
+      "23953112",
+      "23843752",
+      "23512538",
+      "23193258",
+      "22955616",
+      "22903824",
+      "22373907",
+      "22113079",
+      "21762485",
+      "21106759",
+      "20348232",
+      "19574409",
+      "19451168",
+      "18798982",
+      "18397250",
+      "17512414",
+      "16902966",
+      "16678083",
+      "15788723",
+      "15328365",
+      "15144902",
+      "15063792",
+      "12573486",
+      "12540743",
+      "10605936",
+      "9446600",
+      "7592839",
+      "6364039",
+      "2172928"
+    ],
+    "similar": [
+      "37707797",
+      "28681081",
+      "22903824",
+      "24355420",
+      "24161567",
+      "15537747",
+      "24743890",
+      "27226639",
+      "34764210",
+      "24136190",
+      "1846511",
+      "24200861",
+      "12859983",
+      "26944194",
+      "10620335",
+      "23512538",
+      "21762485",
+      "32252465",
+      "32526934",
+      "18660548",
+      "31728591",
+      "7700240",
+      "19282623",
+      "8626473",
+      "33963922",
+      "33113971",
+      "8251506",
+      "16545771",
+      "11742002",
+      "10559277",
+      "28886471",
+      "20395535",
+      "9478971",
+      "15313166",
+      "12024042",
+      "22071320",
+      "10619402",
+      "35163483",
+      "22113079",
+      "8794892",
+      "24769090",
+      "10207038",
+      "26424795",
+      "8631989",
+      "14973392",
+      "9501178",
+      "21494593",
+      "18072750",
+      "9705885",
+      "12139968",
+      "17223691",
+      "34698116",
+      "23859880",
+      "34343493",
+      "23997114",
+      "34146543",
+      "31093659",
+      "11707340",
+      "31292129",
+      "11809858",
+      "21889950",
+      "26259605",
+      "10101030",
+      "8619634",
+      "12646272",
+      "23800876",
+      "37298290",
+      "10471301",
+      "24971714",
+      "32316498",
+      "21981577",
+      "15972329",
+      "1318077",
+      "17569794",
+      "23997109",
+      "22197621",
+      "7808420",
+      "27055685",
+      "39336758",
+      "34521881",
+      "7716743",
+      "33607186",
+      "10722677",
+      "9789953",
+      "12130674",
+      "27188387",
+      "33182092",
+      "20044593",
+      "15383530",
+      "10359656",
+      "32146146",
+      "30201897",
+      "24950685",
+      "8650695",
+      "15123621",
+      "19447539",
+      "29626198",
+      "27288759",
+      "24806346",
+      "9056263"
+    ],
+    "review": [
+      "37707797",
+      "14973392",
+      "9789953"
+    ],
+    "pmc": [
+      "10682972"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37707797/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37707797",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse205502",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/toxsci/article-lookup/doi/10.1093/toxsci/kfad094",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

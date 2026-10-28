@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "41601671",
+    "doi": "10.3389/fimmu.2025.1700629",
+    "title": "Multi-omics integration identifies NK cell dysregulation and a five-gene diagnostic signature in major depressive disorder."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Major Depressive Disorder (MDD), a leading global disability affecting 280 million people, has poor treatment efficacy due to persistent biological variability involving cell-type-specific transcriptomic dysregulation and immune dysfunction, and integrated multi-omics approaches are vital to uncover pathways and therapeutic targets. METHODS: This research utilized a comprehensive multi-omics approach, merging bulk RNA sequencing (RNA-seq) data from the GSE39653 dataset with single-cell RNA sequencing (scRNA-seq) data derived from peripheral blood mononuclear cells (PBMCs) of three MDD patients and three healthy controls. Analysis of differential gene expression (DEGs1) and identification of genes inside Weighted Gene Co-expression Network Analysis (WGCNA) modules were conducted using bulk RNA-seq data. Analysis of differential cell population abundance and differential gene expression (DEGs2) was performed on the scRNA-seq data. Detection of CD3(-)CD56(+) or CD3(-)CD16(+) NK cells in human peripheral blood samples by flow cytometry. Candidate genes were subsequently identified from the intersection of DEGs1, WGCNA module genes, and DEGs2. Subsequently, machine learning methods were employed to discern key genes from these candidates. The functional characterization of essential cell populations was accomplished via pseudotime trajectory analysis, Gene Set Variation Analysis (GSVA), metabolic pathway analysis (scMetabolism), and transcription factor inference (SCENIC). Ultimately, diagnostic models, regulatory networks, and compound screenings were developed based on the key genes. RESULTS: In the RNA-seq analysis, 803 DEGs1 and 2080 WGCNA module genes were identified. scRNA-seq analysis revealed 1,539 DEGs2 and identified natural killer (NK) cells as a major dysfunctional immune cell subpopulation in MDD, exhibiting a significantly increased proportion (CD3(-)CD56(+) or CD3(-)CD16(+), p < 0.05) in the MDD patients. The NK cell population was significantly enriched, flow cytometry validated this finding. The intersection of DEGs1, WGCNA module genes, and DEGs2 yielded 26 candidate genes. Subsequent machine learning analysis identified five key genes: CSPP1, ZNF84, HLA-DPA1, CCZ1, and LRRC8D. A diagnostic nomogram constructed using these key genes demonstrated robust discriminatory performance in distinguishing MDD patients. Mechanistic investigations implicated these five key genes in MDD pathogenesis through neurodegenerative signaling pathways. CONCLUSION: Our study establishes NK cell dysfunction as a core pathophysiological mechanism in MDD, characterized by cellular expansion and metabolic alterations. The identified key genes serve as robust diagnostic biomarkers and therapeutic targets. Elucidation of their regulatory networks provides critical insights for precision psychiatry interventions.",
+    "keywords": [
+      "NK cells",
+      "key genes",
+      "major depressive disorder",
+      "molecular mechanism",
+      "multi-omics integration"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Major Depressive Disorder/diagnosis/genetics/immunology",
+      "*Killer Cells, Natural/immunology/metabolism",
+      "Multiomics",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "*Transcriptome",
+      "Single-Cell Gene Expression Analysis",
+      "RNA-Seq"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jia",
+        "Kuang, Ye",
+        "Peng, Chuanmei",
+        "Yuan, Yong",
+        "Ji, Yong",
+        "Chen, Sulian",
+        "Tian, Jinrong",
+        "Zhou, Yuanyuan",
+        "Chen, Xingying",
+        "Li, Jing",
+        "Feng, Lei",
+        "Nie, Shengjie"
+      ],
+      "short_names": [
+        "Wang J",
+        "Kuang Y",
+        "Peng C",
+        "Yuan Y",
+        "Ji Y",
+        "Chen S",
+        "Tian J",
+        "Zhou Y",
+        "Chen X",
+        "Li J",
+        "Feng L",
+        "Nie S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Forensic Medicine, Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China.",
+        "School of Forensic Medicine, Kunming Medical University, Kunming, China.",
+        "NHC Key Laboratory of Drug Addiction Medicine, Kunming Medical University, Kunming, Yunnan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Kunming Medical University, Kunming, China.",
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Kuang, Ye",
+        "short_name": "Kuang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chuanmei",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yong",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Yong",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Sulian",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Jinrong",
+        "short_name": "Tian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuanyuan",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xingying",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Lei",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Yan'an Hospital Affiliated to Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Shengjie",
+        "short_name": "Nie S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Forensic Medicine, Kunming Medical University, Kunming, China.",
+          "NHC Key Laboratory of Drug Addiction Medicine, Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:47",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40358153",
+      "40317273",
+      "40277932",
+      "39535682",
+      "39419187",
+      "39219304",
+      "38871957",
+      "38781393",
+      "38542251",
+      "38442780",
+      "38331979",
+      "38067154",
+      "37673891",
+      "37149353",
+      "37117846",
+      "36463221",
+      "36325528",
+      "36203007",
+      "36157062",
+      "36087507",
+      "35878808",
+      "35832625",
+      "35821088",
+      "35508449",
+      "35198070",
+      "35139304",
+      "35126089",
+      "34724041",
+      "34417225",
+      "33983999",
+      "33597522",
+      "33351354",
+      "33326773",
+      "32678951",
+      "31601403",
+      "31054154",
+      "31018568",
+      "30724127",
+      "30474901",
+      "29773801",
+      "29610946",
+      "29179986",
+      "29145439",
+      "28991892",
+      "28645775",
+      "27472694",
+      "27277867",
+      "27051043",
+      "26530471",
+      "26476140",
+      "26378239",
+      "25999954",
+      "24223526",
+      "20709422",
+      "17919797",
+      "16826565",
+      "16233343",
+      "15580290",
+      "12167512",
+      "11698225",
+      "11069774",
+      "10958363"
+    ],
+    "similar": [
+      "41601671",
+      "42123445",
+      "40296690",
+      "41716413",
+      "41665627",
+      "39713769",
+      "41200169",
+      "42233387",
+      "41591671",
+      "42317364",
+      "41388523",
+      "39182484",
+      "42309401",
+      "42158856",
+      "41484731",
+      "42317356",
+      "41640571",
+      "41112249",
+      "39853176",
+      "42352882",
+      "41009952",
+      "41964403",
+      "41939867",
+      "40253457",
+      "42061206",
+      "41740874",
+      "41733593",
+      "41436831",
+      "42024670",
+      "41559659",
+      "41310117",
+      "41611834",
+      "40909263",
+      "42292364",
+      "41107929",
+      "41192724",
+      "41699549",
+      "42148089",
+      "41052072",
+      "41006377",
+      "42265520",
+      "40972794",
+      "41918402",
+      "42088521",
+      "39976098",
+      "40948769",
+      "39507529",
+      "40636124",
+      "41924281",
+      "41816342",
+      "39026663",
+      "40821793",
+      "41287009",
+      "42050225",
+      "42040898",
+      "39541897",
+      "41601681",
+      "41645291",
+      "42326009",
+      "40764361",
+      "40216809",
+      "40967560",
+      "39385284",
+      "42139760",
+      "39923303",
+      "41013556",
+      "36973787",
+      "40625749",
+      "41635814",
+      "38656728",
+      "40589764",
+      "40097519",
+      "39893187",
+      "39384856",
+      "37063851",
+      "41088263",
+      "41065575",
+      "42249833",
+      "40503237",
+      "42236612",
+      "42074521",
+      "42098867",
+      "40914702",
+      "42059276",
+      "41706425",
+      "41857701",
+      "40362233",
+      "42050573",
+      "42015036",
+      "42227003",
+      "39762897",
+      "40742465",
+      "41459671",
+      "41667975",
+      "42260834",
+      "41080564",
+      "40725440",
+      "39067546",
+      "35328018",
+      "41346577"
+    ],
+    "review": [
+      "41601671",
+      "41665627"
+    ],
+    "pmc": [
+      "12832902"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41601671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1700629",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

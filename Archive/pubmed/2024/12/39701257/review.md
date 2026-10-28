@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that Mn(2+) binding induces a conformational change in the SloR metalloregulatory protein from Streptococcus mutans, repositioning its DNA-binding domains to enhance DNA binding affinity. They support this with computational (QM, MD) and experimental (ITC, DSC, CD, EPR) methods, reporting up to three Mn(2+) ions bound per monomer, increased thermodynamic stability upon metal binding, and that primary-site binding suffices for the conformational change.
+- **Visible evidence base** Abstract text only; no quantitative data, methodological details, or figures are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, computational parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for Mn(2+)-dependent activation of SloR, combining computational and experimental approaches. However, the evidence base is too limited to evaluate the validity of the central claims. Key quantitative results, methodological rigor, and structural details are absent. The work may be of interest to the metalloregulatory protein and bacterial pathogenesis communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying metal-dependent transcription factors, particularly in bacterial pathogens, would find the proposed conformational mechanism relevant. Those working on Streptococcus mutans virulence regulation or on the broader family of DtxR/MntR metalloregulators may also be interested. Computational biophysicists focusing on ion-induced protein dynamics could find the QM/MD approach useful.
+- **Major strengths** The combination of computational and experimental methods is appropriate for addressing conformational change and binding affinity. The claim that primary-site Mn(2+) binding is sufficient for the conformational change is a testable and mechanistically informative hypothesis. The use of multiple biophysical techniques (ITC, DSC, CD, EPR) suggests an attempt at cross-validation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Mn(2+) binding induces a conformational change of SloR, primarily affecting the positioning of its DNA-binding domains, bringing them to an appropriate position for DNA binding"  
+  - **Evidence pointer** Abstract, computational simulations section; location not provided  
+  - **Concern** The abstract states that computational simulations revealed the conformational change, but no structural details, simulation lengths, force fields, or validation against experimental data are provided. Without these, the claim that the DNA-binding domains are repositioned to an "appropriate" position is unsupported.  
+  - **Why it matters** The central mechanistic conclusion rests on this conformational change. If the computational evidence is not robust or is not corroborated by experimental structural data, the entire proposed mechanism is weakened.  
+  - **Resolution test** Provide simulation parameters, convergence criteria, and comparison of the predicted conformational change with experimental data (e.g., CD spectral changes, EPR distance measurements, or any structural data). Show that the repositioned domains are consistent with known DNA-binding geometries.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative evidence  
+  - **Claim pointer** "The SloR monomer binds up to three Mn(2+) ions"  
+  - **Evidence pointer** Abstract, experimental findings; location not provided  
+  - **Concern** The number of bound ions is stated without any binding constants, stoichiometry determination method, or error estimates. ITC can provide such data, but none are reported in the abstract.  
+  - **Why it matters** The stoichiometry is critical for interpreting which binding sites are "primary" and for linking occupancy to the conformational change. Without quantitative binding data, the claim is not verifiable.  
+  - **Resolution test** Report ITC-derived binding constants, stoichiometry, and thermodynamic parameters (ΔH, ΔS) for each binding event, with appropriate fitting statistics.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal link  
+  - **Claim pointer** "Mn(2+) binding at the primary binding sites is sufficient to trigger the observed conformational change"  
+  - **Evidence pointer** Abstract, computational results; location not provided  
+  - **Concern** The abstract does not explain how "primary binding sites" were defined or how the sufficiency was tested. It is unclear whether this is a computational prediction or an experimental finding.  
+  - **Why it matters** This claim distinguishes the mechanism from a model where all three sites must be occupied. If not properly tested, the conclusion may overreach.  
+  - **Resolution test** Describe the criteria for primary sites (e.g., highest affinity, conserved residues) and provide evidence that occupancy of these sites alone reproduces the conformational change in simulations or experiments (e.g., mutant studies).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Experimental validation  
+  - **Claim pointer** "The thermodynamic stability of SloR increases upon Mn(2+) complexation"  
+  - **Evidence pointer** Abstract, DSC and CD results; location not provided  
+  - **Concern** The abstract reports increased stability but does not provide melting temperatures, ΔΔG values, or comparison to apo-protein under identical conditions.  
+  - **Why it matters** Stability changes are a secondary claim that supports the conformational change narrative, but without quantitative values, the magnitude and significance are unclear.  
+  - **Resolution test** Report Tm values from DSC and CD, with replicates and statistical significance, and relate the stability increase to the proposed conformational change.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract, methods list; location not provided  
+  - **Issue** The abstract lists QM and MD but does not specify the level of QM theory or the MD force field and timescale.  
+  - **Required correction** Add brief methodological specifications in the abstract or refer to a methods section with these details.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "Appropriate position" for DNA binding  
+  - **Evidence pointer** Abstract, computational results; location not provided  
+  - **Issue** The term "appropriate position" is vague and not defined structurally.  
+  - **Required correction** Define the expected DNA-binding geometry (e.g., distance between helix-turn-helix motifs) and state how the simulation results compare to that.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental techniques  
+  - **Evidence pointer** Abstract, methods list; location not provided  
+  - **Issue** EPR is listed but no EPR-specific result is mentioned in the abstract.  
+  - **Required correction** Either report an EPR finding or remove the technique from the abstract to avoid implying unused data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (conformational change evidence), R1-M2 (binding stoichiometry quantification), R1-M3 (causal sufficiency claim). These are blocking because the central mechanism and its quantitative basis are not supported by the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed mechanism of Mn(2+)-induced domain repositioning in SloR is not novel in concept, as similar models exist for other DtxR family members, but the specific application to S. mutans SloR may offer incremental insight.  
+  - **Scientific importance** The work addresses a relevant question in bacterial metal homeostasis and virulence regulation, but the abstract does not demonstrate broad significance beyond the specific system.  
+  - **Interdisciplinary readership** The combination of computational and biophysical methods could appeal to a mixed audience, but the abstract lacks sufficient detail to engage nonspecialists in either field.  
+  - **Technical soundness** Cannot be assessed from the abstract; the absence of quantitative data and methodological detail precludes evaluation.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses terms like "primary binding sites" and "conformational change" without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological detail required to support the central claims. A revised manuscript with full data would be needed for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that Mn(2+) binding repositions DNA-binding domains to an "appropriate" position is unsupported without structural or simulation details.
+- The stoichiometry of three Mn(2+) ions per monomer is stated without binding data.
+- The sufficiency of primary-site binding for the conformational change is asserted without a defined test.
+- The increase in thermodynamic stability is reported without quantitative values.
+- The relevance of the conformational change to enhanced DNA binding affinity is inferred but not directly demonstrated (e.g., no DNA binding assays are mentioned).

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "35568771",
+    "doi": "10.1007/s12032-022-01690-3",
+    "title": "Novel immune subtypes identification of HER2-positive breast cancer based on immunogenomic landscape."
+  },
+  "content": {
+    "abstract": "HER2 positive BC is heterogeneous. But few studies discussed the classification of HER2-positive BC based on immune-related signatures. Using three publicly BC genomics datasets, we classified HER2 positive BC based on 33 immune-related signatures and used unsupervised machine learning methods to predict and perform the classification. We grouped three HER2-positive BC subtypes that we called Immune-High (IM-H), Immune-Medium (IM-M), and Immune-Low (IM-L), and manifested this categorization was predictable, duplicable and reliable by analyzing another dataset. Compared to other subtypes, IM-H had a higher immune cell infiltration level and stronger anti-tumor immune activities, as well as better clinical survival outcome. Besides these signatures, there were some cancer-related pathways which were hyperactivated in IM-H, including cytokine-cytokine receptor interactions, antigen processing and presentation pathways, natural killer cell-mediated cytotoxicity, Th1 and Th2 cell differentiation, chemokine signaling pathway, Th17 cell differentiation, B and T cell receptor signaling, NF-kappa B signaling, PD-L1 expression and PD-1 checkpoint pathway in cancer, TNF signaling, IL-17 signaling, NOD-like receptor signaling and Toll-like receptor signaling. By contrast, IM-L showed depressed immune-related signatures and enhanced activation of lycosylphosphatidylinositol-anchor biosynthesis and mismatch repair. Moreover, we discovered a gene co-expression network focused on eight transcription factor genes (EOMES, TBX21, GFI1, IRF4, POU2AF1, CIITA, FOXP3 and TOX) and one tumor suppress gene (PRF1), which were closely related with tumor immune. We identified three HER2-positive BC subtypes based on immune-related signatures, which had potential clinical implications and promoted the optimal stratification of HER2-positive BC responsive to immunotherapy.",
+    "keywords": [
+      "Classification",
+      "HER2 positive breast cancer",
+      "Immunogenomic profiling",
+      "Machine learning",
+      "Tumor immunity"
+    ],
+    "mesh_terms": [
+      "*Breast Neoplasms/pathology",
+      "Female",
+      "Humans",
+      "Immunotherapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Lingli",
+        "Liu, Xin",
+        "Li, Li",
+        "Wang, Lei",
+        "Wu, Nan",
+        "Liu, Zhixian"
+      ],
+      "short_names": [
+        "Huang L",
+        "Liu X",
+        "Li L",
+        "Wang L",
+        "Wu N",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4710-1442"
+      ],
+      "affiliations": [
+        "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China.",
+        "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China.",
+        "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China.",
+        "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China.",
+        "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China.",
+        "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China. liuzhixian@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Lingli",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Nan",
+        "short_name": "Wu N",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhixian",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0003-4710-1442"
+        ],
+        "affiliations": [
+          "Jiangsu Cancer Hospital, Jiangsu Institute of Cancer Research, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, 210009, Jiangsu, China. liuzhixian@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical oncology (Northwood, London, England)"
+    ],
+    "journal_abbrev": [
+      "Med Oncol"
+    ],
+    "pub_date": "2022 May 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/15 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "42459663",
+      "41437938"
+    ],
+    "refs": [
+      "33618069",
+      "33460617",
+      "33325636",
+      "31455411",
+      "30594216",
+      "29628290",
+      "29482595",
+      "29459643",
+      "29413765",
+      "29092952",
+      "28596308",
+      "28302645",
+      "28251349",
+      "28104840",
+      "27899662",
+      "27826752",
+      "27698000",
+      "27610109",
+      "26885442",
+      "26669617",
+      "26559592",
+      "25822800",
+      "25765070",
+      "25743811",
+      "25089541",
+      "24714771",
+      "24350059",
+      "24138885",
+      "24113773",
+      "23847668",
+      "23734337",
+      "22544022",
+      "22186896",
+      "21920773",
+      "19933921",
+      "18568025",
+      "17102066",
+      "16480042",
+      "16199517",
+      "14662861",
+      "12530980",
+      "11406546",
+      "10066073",
+      "8095168",
+      "1354348"
+    ],
+    "similar": [
+      "35568771",
+      "30594216",
+      "33096337",
+      "28937963",
+      "32850440",
+      "35047498",
+      "36203656",
+      "33282564",
+      "34621742",
+      "34471493",
+      "31665051",
+      "34177954",
+      "34830027",
+      "26116238",
+      "38166898",
+      "34582114",
+      "20231686",
+      "29163490",
+      "37399175",
+      "33360087",
+      "31856876",
+      "30128822",
+      "34336848",
+      "30230111",
+      "32974156",
+      "26719971",
+      "32775256",
+      "22460789",
+      "21050467",
+      "31289516",
+      "33318876",
+      "31420468",
+      "34715817",
+      "26364145",
+      "23945331",
+      "32346613",
+      "34893046",
+      "32715443",
+      "29929548",
+      "31933152",
+      "33102239",
+      "32769067",
+      "31102004",
+      "31632916",
+      "28251349",
+      "33836368",
+      "32515626",
+      "30665463",
+      "33460617",
+      "31222709",
+      "18662380",
+      "34666190",
+      "29168063",
+      "21672245",
+      "21939527",
+      "30521597",
+      "35242673",
+      "27756509",
+      "32116231",
+      "34165261",
+      "34900696",
+      "27022068",
+      "34733851",
+      "26451293",
+      "32115850",
+      "27484801",
+      "31767471",
+      "30570847",
+      "26174627",
+      "33416081",
+      "29198959",
+      "25117032",
+      "33262828",
+      "28843513",
+      "33785053",
+      "35181505",
+      "31358837",
+      "34513864",
+      "34474219",
+      "28537889",
+      "28523293",
+      "31178227",
+      "34086106",
+      "32467824",
+      "32637048",
+      "39071494",
+      "36119512",
+      "35912227",
+      "36742333",
+      "23760067",
+      "36092725",
+      "36441575"
+    ],
+    "review": [
+      "35568771",
+      "28937963",
+      "31665051",
+      "34177954",
+      "33318876",
+      "33460617",
+      "18662380",
+      "26174627",
+      "35181505",
+      "28523293"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12032-022-01690-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and conclusions. No supplementary materials or figures were provided beyond those referenced in the text.
+- **Assessment boundary** The review is limited to the scientific content, methodology, data interpretation, and claims as presented in the supplied manuscript. No external validation of experimental procedures or computational results was performed.
+- **Shared manuscript claim summary** The authors report a combined experimental (circular dichroism melting) and computational (docking, molecular dynamics) study of eight substituted pyrazolo[1,2-a]benzo[1,2,3,4]tetrazine-3-one derivatives (PBTs) interacting with the c-Myc G-quadruplex (G4-DNA). They claim that two compounds, particularly 8,9-di-Cl, stabilize the G-quadruplex, that molecular dynamics simulations at high temperatures can reproduce and predict stabilizing or destabilizing effects, and that the observed anticancer activity of some PBTs correlates with their G-quadruplex stabilizing ability.
+- **Visible evidence base** Main text figures and tables as referenced (Figures 2-12, Tables 1-5), with supplementary figures and tables mentioned but not provided. Experimental details for CD spectroscopy, docking protocols, and MD simulation parameters are described in the Methods section.
+- **Missing materials affecting confidence** Supplementary figures (S1-S14) and tables (S1-S2) are referenced but not available for review. Raw CD melting curves, docking pose coordinates, MD trajectory data, and force field parameter files were not provided. The drug-like ligand database details and full docking results for all compounds are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially useful combined experimental and computational approach to evaluate ligand binding to G-quadruplex DNA. The central claim that high-temperature MD simulations can discriminate between stabilizing and destabilizing ligands is interesting and could be of value to the drug discovery community. However, the study has significant limitations. The experimental dataset is narrow, with only two compounds showing measurable effects and the magnitude of stabilization being small (2-4 °C). The correlation between docking scores and experimental melting temperatures is acknowledged to be poor, and the MD results, while qualitatively consistent, are based on a limited number of simulations. The link between G-quadruplex stabilization and anticancer activity is presented as a correlation without direct mechanistic evidence. The novelty of the high-temperature MD approach, while claimed, requires more rigorous validation against a larger set of ligands with known effects. Overall, the work is technically sound in its execution but the conclusions are somewhat overreaching relative to the evidence presented.
+- **Who would be interested in the results, and why** Researchers in the fields of G-quadruplex biology, nucleic acid drug discovery, and computational chemistry would find this work relevant. The proposed high-temperature MD approach for assessing ligand-induced G-quadruplex stabilization could be of methodological interest to computational chemists working on DNA-ligand interactions. The study also contributes to the growing body of work on targeting the c-Myc promoter G-quadruplex for anticancer therapy, which is of interest to medicinal chemists and cancer biologists.
+- **Major strengths** The combination of experimental and computational methods is commendable. The use of high-temperature MD simulations to probe relative stability is a creative approach that addresses the timescale limitations of conventional MD. The authors are transparent about the limitations of docking in predicting experimental trends. The study is clearly written and the methods are described in sufficient detail for reproduction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The authors claim that "Molecular Dynamics simulations at high temperatures are herein proposed for the first time as a means to verify the stabilizing or destabilizing effect of ligands on the GQ, also disclosing predictive potential in GQ-targeting drug discovery."
+  - **Evidence pointer** Section 2.3, Figures 8-9, Table 5
+  - **Concern** The central methodological claim of the paper, that high-temperature MD can serve as a predictive tool for ligand-induced G-quadruplex stabilization, is based on only two ligands (8,9-di-Cl and 8-H) with opposite effects. This is an extremely small sample size to establish a predictive method. The authors do not demonstrate that the approach works for a range of ligands with varying degrees of stabilization, nor do they show that the method can correctly rank a series of ligands. The claim of "predictive potential" is therefore not adequately supported by the data presented.
+  - **Why it matters** A predictive method requires validation across a diverse set of compounds to establish its reliability. With only two test cases, the method could be overfitted to these specific ligands and may not generalize. The scientific community would need much stronger evidence before adopting this approach as a predictive tool.
+  - **Resolution test** The authors should either (a) apply the high-temperature MD protocol to a larger panel of ligands with known experimental effects on G-quadruplex stability, demonstrating a correlation between simulated behavior and experimental Tm values, or (b) substantially temper the claim of predictive potential and present the approach as a case study.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Correlation between computational and experimental results
+  - **Claim pointer** The authors state that "the highest binding affinity was observed for ligands with the experimental melting temperatures (Tms). However, both stabilizing and destabilizing ligands showed similar scores."
+  - **Evidence pointer** Section 2.2, Figure 4, Tables S1-S2
+  - **Concern** The docking results do not correlate with the experimental melting temperature data, except for identifying 8,9-di-Cl as the best binder. The authors acknowledge this but do not adequately address why the docking scores for stabilizing and destabilizing ligands are similar. This undermines the utility of the docking approach for predicting G-quadruplex stabilization. The lack of correlation is a significant weakness in the computational workflow, and the authors do not provide a satisfactory explanation or alternative analysis.
+  - **Why it matters** If docking cannot distinguish between stabilizing and destabilizing ligands, its value in a drug discovery context is limited. The manuscript would be strengthened by a more critical discussion of why the docking scores fail to correlate with experimental data and what this means for the interpretation of the binding modes.
+  - **Resolution test** The authors should provide a more detailed analysis of the docking results, including an examination of the binding poses for stabilizing versus destabilizing ligands, and discuss possible reasons for the lack of correlation. Alternatively, they could employ more rigorous scoring methods or free energy calculations to improve the correlation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Link between G-quadruplex stabilization and anticancer activity
+  - **Claim pointer** The authors state that "Clues about a relation between the reported anticancer activity of some PBTs and their ability to stabilize the GQ structure of c-myc emerged from our study."
+  - **Evidence pointer** Section 2.1, Table 1
+  - **Concern** The correlation between G-quadruplex stabilization and anticancer activity is based on a qualitative comparison of a small number of compounds. The authors do not provide a quantitative analysis, and the relationship is presented as a "clue" rather than a demonstrated correlation. The anticancer activity data is from previous studies and is not presented in a way that allows for a rigorous comparison with the Tm values obtained here.
+  - **Why it matters** The potential link between G-quadruplex stabilization and anticancer activity is a key motivation for the study. Without a more rigorous demonstration of this correlation, the biological significance of the findings remains speculative.
+  - **Resolution test** The authors should provide a quantitative comparison of the Tm values with the reported IC50 or GI50 values from the previous studies, and perform a statistical analysis to determine if the correlation is significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Section 2.3, Figure 8
+  - **Evidence pointer** Figure 8
+  - **Issue** The description of the RMSD analysis for the three systems at 300 K and 350 K is somewhat unclear. The text mentions "the RMSD was calculated either on all DNA atoms (excluding hydrogen atoms) or on the nucleotides in the tetrads or in the loops region separately," but the figure is not available for review, making it difficult to assess the clarity of the presentation.
+  - **Required correction** The authors should ensure that the figure clearly labels which RMSD calculation is shown in each panel and that the text explicitly describes what is being compared in each case.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.1, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The Tm values are reported as single values without error estimates. Given that the CD melting experiments were repeated at least three times, the authors should report the standard deviation or standard error of the mean for the Tm values.
+  - **Required correction** Add error estimates to the Tm values in Table 1 and in the text where Tm values are discussed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Section 3.3.3
+  - **Evidence pointer** Section 3.3.3
+  - **Issue** The description of the high-temperature MD simulations is brief. The authors state that simulations were performed at 500, 550, and 600 K, but do not specify the total simulation time at each temperature, the number of replicates, or the criteria used to determine that the simulations had reached equilibrium.
+  - **Required correction** Provide more details on the simulation protocol, including the length of each simulation, the number of replicates, and the equilibration criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The authors note that "the origin of the higher RMSD of the first tetrad in system 2 is rather elusive and requires further structural analysis that is beyond the scope of the present work." This is an important observation that could affect the interpretation of the stabilizing effect of 8,9-di-Cl. The authors should at least speculate on possible reasons for this observation.
+  - **Required correction** Add a brief discussion of possible explanations for the higher RMSD of the first tetrad in the presence of 8,9-di-Cl, even if a definitive answer is not available.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of validation of the high-temperature MD approach on a larger set of ligands. The claim of predictive potential is not supported by the evidence. Additionally, the lack of correlation between docking scores and experimental Tm values is a significant weakness that needs to be addressed. The absence of error estimates for the Tm values is a minor but important omission.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of using high-temperature MD simulations to assess ligand-induced G-quadruplex stabilization is somewhat novel, although similar approaches have been used for protein stability studies. The application to G-quadruplex ligands is a new contribution.
+  - **Scientific importance** The work addresses a relevant question in G-quadruplex-targeted drug discovery, but the limited experimental dataset and the lack of validation of the computational approach reduce its immediate impact.
+  - **Interdisciplinary readership** The work bridges experimental biophysics and computational chemistry, which could appeal to a broad readership. However, the narrow scope and limited conclusions may limit its appeal.
+  - **Technical soundness** The experimental and computational methods are generally sound, but the lack of correlation between docking and experimental results, and the limited validation of the MD approach, are concerns.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections, particularly the MD simulation details, may be challenging for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting case study but does not provide sufficient evidence to support the broader claims of predictive potential. The authors should either expand the validation of the high-temperature MD approach or significantly temper their claims. The manuscript would be more suitable for a specialized journal in nucleic acid chemistry or computational biophysics rather than a general high-impact journal.

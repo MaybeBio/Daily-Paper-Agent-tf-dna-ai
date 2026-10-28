@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "36915125",
+    "doi": "10.1186/s12944-023-01804-4",
+    "title": "Lipid metabolism-related miRNAs with potential diagnostic roles in prostate cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Prostate cancer (PCa), the second most prevalent solid tumor among men worldwide, has caused greatly increasing mortality in PCa patients. The effects of lipid metabolism on tumor growth have been explored, but the mechanistic details of the association of lipid metabolism disorders with PCa remain largely elusive. METHODS: The RNA sequencing data of the GSE45604 and The Cancer Genome Atlas-Prostate Adenocarcinoma (TCGA-PRAD) datasets were extracted from the Gene Expression Omnibus (GEO) and UCSC Xena databases, respectively. The Molecular Signatures Database (MSigDB) was utilized to identify lipid metabolism-related genes. The limma R package was used to identify differentially expressed lipid metabolism-related genes (DE-LMRGs) and differentially expressed microRNAs (DEMs). Moreover, least absolute shrinkage and selection operator (LASSO), extreme gradient boosting (XGBoost), and support vector machine-recursive feature elimination (SVM-RFE) were applied to select signature miRNAs and construct a lipid metabolism-related diagnostic model. The expression levels of selected differentially expressed lipid metabolism-related miRNAs (DE-LMRMs) in PCa and benign prostate hyperplasia (BPH) specimens were verified using quantitative real-time polymerase chain reaction (qRT‒PCR). Furthermore, a transcription factor (TF)-miRNA‒mRNA network was constructed. Eventually, Kaplan‒Meier (KM) curves were plotted to illustrate the associations between signature miRNA-related mRNAs and TFs and overall survival (OS) along with biochemical recurrence-free survival (BCR). RESULTS: Forty-seven LMRMs were screened based on the correlation analysis of 29 DE-LMRGs and 56 DEMs, in which 27 LMRMs were stably expressed in the GSE45604 dataset. Subsequently, receiver operating characteristic (ROC) curves and machine learning methods were employed to develop a lipid metabolism-related diagnostic signature, which may be of diagnostic value for PCa patients. qRT‒PCR results showed that all seven key DE-LMRMs were differentially expressed between PCa and BPH tissues. Eventually, a TF-miRNA‒mRNA network was constructed. CONCLUSIONS: These results suggested that 7 key diagnostic miRNAs were closely related to PCa pathological processes and provided new targets for the diagnosis and treatment of PCa. Moreover, CLIC6 and SCNN1A linked to miR-200c-3p had good prognostic potential and provided valuable insights into the pathogenesis of PCa.",
+    "keywords": [
+      "Diagnostic model",
+      "Lipid metabolism",
+      "Prostate cancer",
+      "TF-miRNA‒mRNA network",
+      "microRNA"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*MicroRNAs/genetics/metabolism",
+      "*Prostatic Hyperplasia/diagnosis/genetics",
+      "Lipid Metabolism/genetics",
+      "*Prostatic Neoplasms/diagnosis/genetics/metabolism",
+      "Transcription Factors/metabolism",
+      "RNA, Messenger/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhai, Tianyuan",
+        "Dou, Meng",
+        "Ma, Yubo",
+        "Wang, Hong",
+        "Liu, Fang",
+        "Zhang, Liandong",
+        "Chong, Tie",
+        "Wang, Ziming",
+        "Xue, Li"
+      ],
+      "short_names": [
+        "Zhai T",
+        "Dou M",
+        "Ma Y",
+        "Wang H",
+        "Liu F",
+        "Zhang L",
+        "Chong T",
+        "Wang Z",
+        "Xue L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China.",
+        "Department of Kidney Transplantation, Nephropathy Hospital, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, Shaanxi, China.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China. wangziming0104@163.com.",
+        "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China. xueli1979@xjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhai, Tianyuan",
+        "short_name": "Zhai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Meng",
+        "short_name": "Dou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Kidney Transplantation, Nephropathy Hospital, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yubo",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fang",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liandong",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Chong, Tie",
+        "short_name": "Chong T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziming",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China. wangziming0104@163.com."
+        ]
+      },
+      {
+        "full_name": "Xue, Li",
+        "short_name": "Xue L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, 710004, Shaanxi, China. xueli1979@xjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Lipids in health and disease"
+    ],
+    "journal_abbrev": [
+      "Lipids Health Dis"
+    ],
+    "pub_date": "2023 Mar 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/15 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "41865036",
+      "41596398",
+      "41142627",
+      "41134813",
+      "41117866",
+      "40591124",
+      "40095490",
+      "39419909",
+      "38946868",
+      "38761210",
+      "38610991",
+      "37637043"
+    ],
+    "refs": [
+      "35849666",
+      "35791807",
+      "35743670",
+      "35582011",
+      "34792282",
+      "34638444",
+      "34558641",
+      "33538338",
+      "32768387",
+      "32484539",
+      "32481356",
+      "32455140",
+      "32408351",
+      "32213205",
+      "32093338",
+      "32012265",
+      "31936850",
+      "31857202",
+      "31549859",
+      "31358595",
+      "31280269",
+      "30944624",
+      "30894171",
+      "30816200",
+      "30578319",
+      "30294667",
+      "30160020",
+      "30130662",
+      "30010013",
+      "29769539",
+      "29569260",
+      "29518896",
+      "27990656",
+      "27601638",
+      "27267060",
+      "26688045",
+      "26501192",
+      "26451614",
+      "26437365",
+      "25605792",
+      "24606897",
+      "24297251",
+      "21546393",
+      "21414208",
+      "20808728",
+      "19297566",
+      "14597658",
+      "11846609",
+      "8309317"
+    ],
+    "similar": [
+      "36915125",
+      "30138363",
+      "36644827",
+      "30367364",
+      "27170485",
+      "24976077",
+      "39142223",
+      "37781794",
+      "35935308",
+      "33402116",
+      "36373308",
+      "39337566",
+      "39145061",
+      "38297388",
+      "34840985",
+      "28398479",
+      "28072703",
+      "27434290",
+      "25597612",
+      "36254052",
+      "31059106",
+      "32455140",
+      "33155933",
+      "30365134",
+      "35757392",
+      "21963599",
+      "37033267",
+      "27081843",
+      "36675580",
+      "29522280",
+      "32953881",
+      "32462034",
+      "27562849",
+      "35313857",
+      "27179774",
+      "28415685",
+      "32456463",
+      "34453418",
+      "36034449",
+      "35836112",
+      "26831660",
+      "26865432",
+      "29784056",
+      "36326314",
+      "31045265",
+      "38649912",
+      "23840433",
+      "29226351",
+      "34419719",
+      "28617988",
+      "35246070",
+      "29359788",
+      "36974566",
+      "35222371",
+      "36829221",
+      "24618011",
+      "18312749",
+      "28380430",
+      "30602391",
+      "37605572",
+      "38783263",
+      "33834642",
+      "26713053",
+      "35241117",
+      "30338790",
+      "37033963",
+      "30195637",
+      "34706720",
+      "36260870",
+      "24517338",
+      "25874774",
+      "29966681",
+      "21943235",
+      "24967583",
+      "32665998",
+      "38537959",
+      "28498428",
+      "35686336",
+      "35379158",
+      "31533842",
+      "31127646",
+      "36457754",
+      "31288722",
+      "32489471",
+      "32013356",
+      "36124593",
+      "23470460",
+      "20944140",
+      "26820133",
+      "37987209",
+      "29571584",
+      "34512722",
+      "33596783",
+      "34806485",
+      "35582412",
+      "36185201",
+      "30542718",
+      "36518216",
+      "38699204",
+      "23703249",
+      "36312753",
+      "15638016",
+      "31934299",
+      "36863716",
+      "21351256",
+      "37525915",
+      "37300338",
+      "28628624",
+      "37370891",
+      "37583929",
+      "32784653",
+      "37415143",
+      "37480069",
+      "32117427",
+      "37601672",
+      "36778142",
+      "37258416",
+      "37608666",
+      "36408742",
+      "39331250",
+      "36982591",
+      "37681334",
+      "38706909",
+      "37726767",
+      "38829766",
+      "37081162",
+      "38456653",
+      "38179769",
+      "38167056",
+      "37203395",
+      "37895233",
+      "38623253",
+      "37928383",
+      "38107322",
+      "38203408",
+      "37701109",
+      "37065920",
+      "35865814",
+      "34595101",
+      "38589566",
+      "38644292",
+      "37608136",
+      "39372587",
+      "38598542",
+      "37745909",
+      "38571554",
+      "37925432",
+      "38912963",
+      "37010714",
+      "38965104",
+      "39005864",
+      "37340527",
+      "37978493",
+      "39259370",
+      "38203661",
+      "39046418",
+      "38960439",
+      "37180171",
+      "38234631",
+      "37641123",
+      "39112820",
+      "38347951",
+      "37218885",
+      "38335853",
+      "38746377",
+      "38022698",
+      "35432828",
+      "38641707",
+      "38050313",
+      "37862114",
+      "38835789",
+      "38222763",
+      "35215499",
+      "38361268",
+      "38157428",
+      "37378426",
+      "39310280",
+      "37168344",
+      "37179366",
+      "38833013",
+      "38235353",
+      "39153107",
+      "37888416",
+      "32640711",
+      "39162397",
+      "35565454"
+    ],
+    "review": [
+      "36915125",
+      "35222371",
+      "37300338",
+      "37203395",
+      "38912963",
+      "39046418",
+      "39112820",
+      "38050313",
+      "35215499",
+      "38157428"
+    ],
+    "pmc": [
+      "10012590"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://lipidworld.biomedcentral.com/articles/10.1186/s12944-023-01804-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36915125/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36915125",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

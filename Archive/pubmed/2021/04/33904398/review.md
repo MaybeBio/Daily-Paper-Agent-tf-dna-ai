@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and data availability statements.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial fit or language polishing.
+- **Shared manuscript claim summary** The authors identify 150 transcriptional activation domains (ADs) across all yeast transcription factors using a quantitative high-throughput assay. They show that 73% of ADs bind the Med15 subunit of Mediator, with binding strength correlated with activation. They propose a dynamic, "fuzzy" binding mechanism, supported by structural modeling and kinetic experiments. A neural network (PADDLE) trained on yeast ADs predicts ADs in human and viral proteins, validated experimentally. The authors conclude that simple biochemical features (acidic and hydrophobic content) underlie AD diversity and function.
+- **Visible evidence base** Full text, including all figure references, supplementary figure references, and source data mentions. No actual figures, tables, or supplementary files were provided.
+- **Missing materials affecting confidence** All figures, figure supplements, source data files, and supplementary tables are referenced but not included. This significantly limits the ability to assess the quantitative claims, statistical analyses, and experimental details.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and ambitious study that addresses a long-standing question in transcriptional regulation. The combination of high-throughput experimental screening, biochemical binding assays, structural modeling, and machine learning is innovative and potentially impactful. The identification of 150 ADs and the development of PADDLE are valuable contributions. However, the absence of all figures and source data prevents a full evaluation of the quantitative results, statistical rigor, and the validity of the structural models. The claims regarding "fuzzy" binding and the sufficiency of simple biochemical features are intriguing but require careful scrutiny of the underlying data.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, gene expression, chromatin biology, and computational biology. The findings on AD diversity and the predictive model (PADDLE) would be of interest to those studying transcription factor function across eukaryotes, including in disease contexts. The proposed mechanism of dynamic, fuzzy binding has implications for understanding protein-protein interactions in gene activation.
+- **Major Strengths**
+  - The study addresses a fundamental and unresolved question in biology: the basis of AD function and diversity.
+  - The experimental approach is high-throughput and quantitative, providing a large dataset for analysis.
+  - The integration of experimental data with structural modeling and machine learning is a powerful and modern approach.
+  - The validation of PADDLE predictions in human cells and the identification of ADs in coactivator complexes broaden the impact of the findings.
+  - The proposed model of "fuzzy" binding provides a conceptual framework for understanding dynamic interactions in transcription.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "73% of ADs bound the Med15 subunit of Mediator, and that binding strength was correlated with activation" is central to the paper's mechanistic conclusions.
+  - **Evidence pointer** Figure 5, Figure 5—figure supplement 1, source data.
+  - **Concern** The correlation between binding strength and activation is a key piece of evidence. However, the manuscript text does not provide the statistical details of this correlation (e.g., correlation coefficient, p-value, number of data points). The binding assay is described as a pull-down with mRNA display, but the dynamic range, sensitivity, and specificity of this assay for detecting physiologically relevant interactions are not fully discussed. The claim that 73% of ADs bind Med15 is a strong statement that requires robust evidence, and the lack of the actual data makes it impossible to assess the false positive/negative rates.
+  - **Why it matters** This correlation is the primary evidence linking the in vitro binding measurements to the in vivo activation function. If this correlation is weak or driven by a few outliers, the conclusion that Mediator recruitment is the key driver for activation is undermined.
+  - **Resolution test** Provide the full dataset of binding and activation values for all ADs, along with a statistical analysis of their correlation. Include a discussion of the assay's sensitivity and specificity, perhaps with a comparison to known weak and strong binders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that structural modeling shows "ADs interact with Med15 without shape complementarity ('fuzzy' binding)" and that this is a general mechanism.
+  - **Evidence pointer** Figure 6, Figure 6—figure supplements, source data.
+  - **Concern** The structural modeling is performed with FlexPepDock, a computational tool. The manuscript states that "50,000 candidate structural models were sampled and ranked by the Rosetta energy score." The validation of these models is limited to a comparison with NMR data for the Pdr1 AD and a general correlation with proline mutagenesis. The conclusion that the binding is "fuzzy" is based on the diversity of poses and poor shape complementarity. However, the energy landscape of these models is not analyzed. It is unclear if the top-scoring models are significantly better than random or if the diversity of poses is simply a result of a flat energy landscape, which would indicate a lack of a specific interaction rather than a "fuzzy" one. The manuscript does not discuss the potential for the peptide to bind in a different location or to induce a conformational change in the ABD.
+  - **Why it matters** The "fuzzy" binding model is a major conceptual contribution of the paper. If the structural evidence is not robust, the model is speculative. The distinction between a dynamic, multi-pose complex and a non-specific, weak interaction is crucial for understanding the mechanism.
+  - **Resolution test** Provide a more detailed analysis of the structural models, including the energy distribution of the top-scoring models, a comparison to models of a known structured interaction, and a discussion of the limitations of the docking approach. Ideally, validate the models with additional experimental data, such as mutagenesis of the ABD surface or cross-linking studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "a neural network trained on AD sequences accurately predicted ADs in human proteins" and the subsequent experimental validation.
+  - **Evidence pointer** Figure 3, Figure 3—figure supplements, Materials and methods.
+  - **Concern** The manuscript states that PADDLE predicted ADs in human TFs and that 23 out of 25 (92%) activated in a luciferase assay. This is a strong validation result. However, the selection criteria for these 25 predicted ADs are not fully described. Were they randomly selected from all high-strength predictions? The manuscript also mentions that PADDLE predicted ADs in coactivator complexes, and 42 ADs were experimentally confirmed. The text states that "Zero control fragments activated," which is a good control. However, the details of the negative controls and the statistical significance of the enrichment in coactivator complexes are not provided. The performance of PADDLE compared to simpler models (e.g., based solely on acidic/hydrophobic content) is not fully explored, which is important given the paper's conclusion that these simple features are the primary drivers.
+  - **Why it matters** The predictive power of PADDLE is a key claim of the paper. If the validation is biased or the model is not significantly better than a simple composition-based model, the novelty and utility of PADDLE are diminished.
+  - **Resolution test** Provide a clear description of the selection process for the human ADs tested. Include a comparison of PADDLE's performance to a model based only on amino acid composition. Provide the full list of predicted and confirmed ADs in coactivator complexes, along with the statistical analysis of the enrichment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "Simple biochemical features underlie transcriptional activation domain diversity" and that this solves the "longstanding enigma of AD structure and function."
+  - **Evidence pointer** Throughout the manuscript.
+  - **Concern** The manuscript's central conclusion is that AD function is primarily determined by acidic and hydrophobic content. While the data support the importance of these features, the claim that this "solves" the enigma is an overstatement. The paper itself shows that some ADs require specific sequences and structures (e.g., LxxLL motif, alpha-helix). The model does not fully explain how specificity in target selection is achieved, given that many proteins contain acidic and hydrophobic patches. The role of other features, such as post-translational modifications or context-dependent interactions, is not addressed.
+  - **Why it matters** The significance of the work depends on the generality and explanatory power of the proposed model. If the model is too simplistic, it may not be broadly applicable.
+  - **Resolution test** Soften the claims in the discussion. Acknowledge the limitations of the model and discuss how specificity might be achieved. Provide a more nuanced view of the relationship between simple features and complex function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "Structural modeling showed that ADs interact with Med15 without shape complementarity ('fuzzy' binding)." This is a strong claim that is not fully supported by the evidence presented in the text.
+  - **Required correction** Rephrase to "Structural modeling suggested that ADs can interact with Med15 in multiple poses, consistent with a 'fuzzy' binding model."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods, "Activation assay data processing"
+  - **Issue** The description of the activation assay data processing is complex and difficult to follow. The exact formula for calculating fold-activation is not clearly stated.
+  - **Required correction** Provide a clear, step-by-step description of the calculation, including the formula and definitions of all variables.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "The large majority of activation domains bind Mediator..."
+  - **Evidence pointer** Figure 5D
+  - **Issue** The statement "activation strength and Med15 binding of tiles were directly proportional" is made. It is unclear if this is a linear relationship or a monotonic relationship.
+  - **Required correction** Specify the nature of the relationship and provide the statistical measure used (e.g., Pearson's r, Spearman's rho).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the "facilitated exchange" mechanism is interesting but speculative. The link between the in vitro kinetic observations and the in vivo dynamics of transcription is not fully developed.
+  - **Required correction** Acknowledge the speculative nature of this model and suggest potential experimental approaches to test it in vivo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Activation domains are strongly inhibited by nearby clusters of hydrophobic residues"
+  - **Evidence pointer** Figure 4I, 4J
+  - **Concern** The mechanism of inhibition by hydrophobic clusters is not fully explored. The text suggests that they compete for interaction, but this is not directly tested.
+  - **Required correction** Discuss alternative mechanisms, such as the formation of non-productive aggregates or the sequestration of the AD in a misfolded state.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical details for the correlation between binding and activation.
+  - R1-M2: Insufficient validation of the structural models to support the "fuzzy" binding claim.
+  - R1-M3: Lack of clarity on the selection and validation of PADDLE predictions.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The study presents a novel, large-scale dataset and a new predictive tool (PADDLE). The concept of "fuzzy" binding applied broadly to ADs is a fresh perspective.
+  - **Scientific importance** High. The findings have implications for understanding gene regulation, evolution of transcription factors, and potentially for designing synthetic transcription factors.
+  - **Interdisciplinary readership** Moderate. The topic is of primary interest to molecular biologists and biochemists. The machine learning aspect may attract computational biologists, but the overall presentation is likely too specialized for a general audience.
+  - **Technical soundness** Currently not fully established. The core claims rely on data and analyses that are not fully visible or statistically validated in the provided text.
+  - **Readability for nonspecialists** The abstract is accessible, but the results and methods are highly technical and would be challenging for a non-expert to follow.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has the potential to be a significant contribution, but the current evidence base is insufficient to fully support the major claims. The authors must provide the missing data and address the concerns regarding the statistical rigor and the interpretation of the structural and kinetic data.
+
+## Risk / unsupported claims
+- The claim that "73% of ADs bound Med15" is unverifiable without the source data.
+- The claim that "binding strength was correlated with activation" is unverifiable without the statistical analysis.
+- The claim that the structural models demonstrate "fuzzy" binding is not fully supported by the described validation.
+- The claim that PADDLE "accurately predicted ADs in human proteins" is supported by the 92% validation rate, but the selection criteria for the tested predictions are not fully described.
+- The claim that ADs are present in "all major coactivator complexes" is based on a computational prediction and a limited experimental validation, and the functional significance of these ADs is not demonstrated.

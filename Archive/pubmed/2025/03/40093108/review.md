@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the histone variant H2A.Z enhances binding of pioneer factors Sox2 and Oct4 to nucleosomes by increasing DNA accessibility and altering H3 N-terminal tail dynamics, thereby reducing competition between the H3 tail and Sox2 for DNA binding. They further claim that this effect is DNA sequence dependent and stronger for the less stable Lin28B nucleosome, based on biochemistry, NMR, and MD simulations.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological specifics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR spectra and assignments, MD simulation parameters and trajectories, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially significant hypothesis linking H2A.Z dynamics to pioneer factor engagement. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The conclusions are stated with confidence that exceeds what can be assessed from the provided material. The work addresses a timely question in chromatin biology, but the case for the proposed mechanism is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in chromatin structure and dynamics, epigenetic regulation, pioneer factor biology, and stem cell reprogramming would find these results relevant. The proposed link between histone variant dynamics and transcription factor accessibility has implications for understanding how chromatin composition tunes gene regulatory programs, which is of broad interest to molecular and cellular biologists.
+- **Major strengths** The study integrates multiple complementary approaches (biochemistry, NMR, MD simulations) to address a mechanistic question. The hypothesis that H3 tail competition with pioneer factors is modulated by H2A.Z is novel and testable. The inclusion of a sequence-dependent comparison (601 vs. Lin28B nucleosomes) adds a layer of biological nuance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "H2A.Z facilitates Sox2 and Oct4 binding at distinct locations in 601 nucleosomes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that H2A.Z facilitates Sox2 and Oct4 binding, but no quantitative data (e.g., binding affinities, fold changes, statistical significance) are provided. It is unclear whether the effect is modest or substantial, and whether it is specific to H2A.Z or could be reproduced by other histone variants.
+  - **Why it matters** The central claim of the paper rests on this observation. Without quantitative evidence, the reader cannot judge the magnitude or robustness of the effect, nor whether it is biologically meaningful.
+  - **Resolution test** Provide binding data (e.g., dissociation constants, enrichment values) with appropriate replicates and statistical tests, and include a control with a different histone variant or unmodified nucleosomes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "We further link this to increased DNA accessibility and perturbed dynamics of the H3 N-terminal tail, which we show competes with Sox2 for DNA binding"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The causal chain from H2A.Z to DNA accessibility to H3 tail dynamics to reduced competition with Sox2 is asserted, but the abstract does not describe how these links were established. For example, it is unclear whether the H3 tail competition was demonstrated directly (e.g., by tail truncation or cross-linking) or inferred from simulations.
+  - **Why it matters** The proposed mechanism is the main intellectual contribution. If the links are only correlative or simulation-based, the mechanistic claim is weaker than implied.
+  - **Resolution test** Describe experiments that directly test H3 tail competition (e.g., using tailless H3 or competing peptides) and show that H2A.Z effects are lost or reduced under those conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation validation
+  - **Claim pointer** "Our simulations validate a coupling between H2A.Z-mediated DNA unwrapping and altered H3 N-tail conformations with fewer contacts to DNA and the H2A.Z C-terminal tail"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The term "validate" implies that simulations confirm experimental findings, but the abstract does not specify which experimental data were used for validation, what metrics were compared, or how robust the simulation results are to force field choices or sampling length.
+  - **Why it matters** MD simulations are only as credible as their validation. Without details on convergence, force field, and comparison to experimental observables, the simulation-based claims cannot be evaluated.
+  - **Resolution test** Provide a clear description of the validation strategy, including which experimental observables were reproduced, and include error estimates or convergence analyses for the simulation results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "This destabilizing effect of H2A.Z is DNA sequence dependent and enhanced with the less stable Lin28B nucleosome"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of sequence dependence is based on a comparison between two nucleosome sequences (601 and Lin28B). It is unclear whether this reflects a general principle or a property specific to these two sequences.
+  - **Why it matters** The broader implication that H2A.Z effects are tuned by DNA sequence would require a wider sampling of sequences to be convincing.
+  - **Resolution test** Include additional nucleosome sequences with varying stability to demonstrate a systematic relationship between sequence stability and H2A.Z effect.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "distinct locations in 601 nucleosomes" is ambiguous. It could mean different binding sites on the same nucleosome or different nucleosome positions relative to the DNA sequence.
+  - **Required correction** Clarify whether Sox2 and Oct4 bind at different positions within the nucleosome or at different sites relative to the nucleosome dyad.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "pioneer factors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "pioneer factors" is used without defining the criteria used to classify Sox2 and Oct4 as such in this context.
+  - **Required correction** Briefly define what is meant by pioneer factor in this study or cite established definitions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods summary
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the concentrations, buffer conditions, or temperature used in the biochemical and NMR experiments, which are relevant for interpreting binding and dynamics data.
+  - **Required correction** Include key experimental conditions in the abstract or refer to methods sections where these are detailed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of facilitated binding, the mechanistic link to H3 tail competition, and the simulation validation all require additional evidence that is not visible in the abstract.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that H2A.Z modulates pioneer factor binding via H3 tail dynamics is novel and not a simple extension of prior work. Scientific importance: If established, the findings would advance understanding of how histone variants influence transcription factor access to chromatin, with potential implications for development and disease. Interdisciplinary readership: The topic bridges chromatin biology, biophysics, and computational biology, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the integration of methods is promising but unverified. Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., "601 nucleosomes", "H3 N-terminal tail") without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible approach, but the claims require the full manuscript to be evaluated. I would be supportive if the technical concerns are resolved with quantitative data and clear validation of the mechanistic links.
+
+## Risk / unsupported claims
+- The claim that H2A.Z "facilitates" Sox2 and Oct4 binding is unsupported without quantitative binding data.
+- The claim that H3 tail "competes with Sox2 for DNA binding" is unsupported without direct experimental evidence.
+- The claim that simulations "validate" the coupling between DNA unwrapping and H3 tail dynamics is unsupported without details on validation metrics.
+- The claim that the effect is "DNA sequence dependent" is based on only two sequences and is therefore weakly supported.
+- The broader implication that "epigenetic marks or oncogenic mutations tune pioneer factor engagement" is speculative and not directly tested.

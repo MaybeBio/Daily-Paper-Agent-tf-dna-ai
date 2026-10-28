@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42367957",
+  "title": "Evaluation of analysis modes for RNA coexpression in single-cell and bulk tissue.",
+  "authors": "Chu, Ching Pan; Elazzabi, Nairuz; Garreau, Jules; Xu, Brianna; Yu, Xinrui Xiang; Morin, Alexander; Pavlidis, Paul",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-06-29",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文评估单细胞与bulk组织中RNA共表达分析模式，用于推断转录因子调控网络，但仅基于共表达统计，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Coexpression of transcripts presents the most common means of computational inference of transcription factor regulation, and is often combined with other data types to infer regulatory networks. With the growing popularity of single-cell approaches, there are questions about how best to extract coexpression information from the data. Recently we reported a simulation study that explored the differences among coexpression performed at different levels: across single cells (xCell, per cell type), across subjects from pseudobulked single-cell data (xSubject, per cell type), or across subjects using bulk tissue samples (xBulk). Here we test predictions made by those models using real data. We consider both preservation (consistency of coexpression findings across different levels of analysis of the same data) and replicability across independent studies, as well as biological interpretability. We find that preservation across levels is limited, indicating the choice of analysis level will affect outcomes. We show that xCell coexpression is more replicable across studies compared to xSubject. xBulk coexpression is dominated by patterns driven by variability in cellular composition and fails to capture much coexpression that is reliably detected at finer resolutions. While all modes of analysis exhibit some enrichment for known regulatory relationships, it was highest with the xCell mode. Finally, we present a case study of the effect of analysis modes on a schizophrenia-associated pattern, reinforcing the importance of analytic choices in the interpretation and replicability of coexpression analyses. Together with our modeling study, this work emphasizes the importance of understanding sources of expression covariation as they relate to the goals of the analysis, and recommend single-cell-based data with biological replicates should be the focus of attempts to infer dynamic regulatory interactions that are more likely to be replicable by others.",
+  "abstract_zh": "转录本共表达是计算推断转录因子调控的最常用手段，并常与其他数据类型结合以推断调控网络。随着单细胞方法日益普及，如何从数据中最佳提取共表达信息成为问题。近期，我们报告了一项模拟研究，探讨了在不同层面进行的共表达之间的差异：跨单细胞（xCell，按细胞类型）、跨来自伪批量单细胞数据的受试者（xSubject，按细胞类型），或跨使用批量组织样本的受试者（xBulk）。在此，我们使用真实数据检验这些模型所做的预测。我们同时考虑保真性（同一数据在不同分析层面下共表达结果的一致性）和跨独立研究的可重复性，以及生物学可解释性。我们发现跨层面的保真性有限，表明分析层面的选择将影响结果。我们显示，与xSubject相比，xCell共表达在跨研究中更具可重复性。xBulk共表达主要由细胞组成变异驱动的模式主导，未能捕获许多在更细分辨率下可靠检测到的共表达。虽然所有分析模式对已知调控关系均表现出一定富集，但xCell模式的富集程度最高。最后，我们展示了一个关于分析模式对精神分裂症相关模式影响的案例研究，强调了分析选择在共表达分析的解释和可重复性中的重要性。结合我们的建模研究，这项工作强调了理解表达协变来源与分析目标相关性的重要性，并建议基于单细胞的数据与生物学重复应成为推断动态调控相互作用尝试的重点，这些相互作用更可能被他者重复。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42367957/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42367957/",
+  "paper_page_path": "papers/pubmed/42367957/index.html"
+}

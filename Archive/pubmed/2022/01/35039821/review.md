@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GraphSite, a method that uses AlphaFold2-predicted protein structures and a graph transformer to predict protein-DNA binding residues from sequence. They report substantial improvements over existing sequence-based and structure-based methods, including specific performance gains on an independent test set of 181 proteins.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results beyond the stated metrics, or code/data verification possible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset descriptions, hyperparameter settings, baseline implementation details, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable approach that leverages AlphaFold2 structural predictions for a biologically important prediction task. The reported performance improvements are notable, but the abstract alone provides insufficient detail to evaluate the methodological soundness, the fairness of baseline comparisons, or the robustness of the results. The core claims are plausible but not fully verifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, DNA-binding protein prediction, and structure-based machine learning. Researchers interested in applying AlphaFold2 outputs beyond fold prediction would also find this relevant. The availability of a web server and open-source code increases practical utility for the broader genomics and structural biology communities.
+- **Major strengths** The approach addresses a clear limitation of existing sequence-based methods by incorporating spatial information from predicted structures. The use of AlphaFold2 is timely and well-motivated. The reported gains on an independent test set, particularly the 16.4% improvement in area under the precision-recall curve over a state-of-the-art structure-based method, are substantial if reproducible. The provision of datasets, predicted structures, source code, and a web server supports transparency and usability.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** "GraphSite substantially improves over the latest sequence-based and structure-based methods"  
+    - **Evidence pointer** Abstract, performance metrics section; location not provided  
+    - **Concern** The abstract does not specify which baseline methods were compared, how they were implemented, or whether hyperparameters were optimized fairly across all methods. Without this information, the reported improvements could reflect suboptimal baselines rather than genuine methodological advances.  
+    - **Why it matters** The central claim of superiority depends entirely on the fairness and rigor of the comparative evaluation. If baselines are not state-of-the-art or are poorly tuned, the reported gains are not meaningful.  
+    - **Resolution test** Provide a detailed comparison table with all baseline methods, their original implementations or re-implementations, hyperparameter tuning procedures, and statistical significance tests (e.g., paired bootstrap or Wilcoxon signed-rank) across multiple train/test splits.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** "we convert the binding site prediction problem into a graph node classification task and employ a transformer-based variant model"  
+    - **Evidence pointer** Abstract, methods description; location not provided  
+    - **Concern** The abstract provides no details on how the graph is constructed from predicted structures, what node and edge features are used, how the transformer variant is adapted for graph data, or how the model handles proteins of varying sizes. These choices critically affect performance and generalizability.  
+    - **Why it matters** Without understanding the graph construction and model architecture, the method cannot be reproduced or assessed for potential biases (e.g., dependence on structure quality, sensitivity to graph connectivity thresholds).  
+    - **Resolution test** Provide a complete methods section with formal definitions of the graph construction, feature sets, model architecture, training procedure, and an ablation study showing the contribution of each component.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence quality  
+    - **Claim pointer** "GraphSite surpasses the state-of-the-art structure-based method by 16.4% in area under the precision-recall curve and 11.2% in Matthews correlation coefficient"  
+    - **Evidence pointer** Abstract, independent test set of 181 proteins; location not provided  
+    - **Concern** The abstract reports only two metrics on a single independent test set. No confidence intervals, standard deviations, or per-protein performance distributions are provided. The choice of the independent test set and its similarity to training data are not described.  
+    - **Why it matters** Single-point estimates on one dataset are insufficient to establish robustness. The reported gains could be driven by a few outlier proteins or by dataset-specific artifacts.  
+    - **Resolution test** Report performance with confidence intervals, show per-protein score distributions, describe the composition of the independent test set, and validate on additional diverse benchmarks (e.g., different organisms, DNA-binding domain families).  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Reproducibility  
+    - **Claim pointer** "We provide the datasets, the predicted structures and the source codes along with the pre-trained models of GraphSite"  
+    - **Evidence pointer** Abstract, availability statement; location not provided  
+    - **Concern** The abstract states that resources are available, but the review cannot verify that the repository is functional, contains all necessary files, or that the web server is operational.  
+    - **Why it matters** Reproducibility is a core expectation for computational methods. Broken links, missing files, or undocumented dependencies would undermine the practical value of the contribution.  
+    - **Resolution test** Confirm that the GitHub repository and web server are accessible, include a clear README with installation and usage instructions, and provide a test case that reproduces the reported results.
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract, first sentence  
+    - **Evidence pointer** Abstract, introduction; location not provided  
+    - **Issue** The phrase "first step for mechanistic understanding" is vague and could be more specific about the downstream applications.  
+    - **Required correction** Rephrase to specify concrete applications, such as "informing mutagenesis studies, guiding drug design, and annotating uncharacterized proteins."  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Abstract, performance reporting  
+    - **Evidence pointer** Abstract, results; location not provided  
+    - **Issue** Only two metrics (AUPRC and MCC) are reported. Other standard metrics such as sensitivity, specificity, F1-score, and area under the ROC curve are omitted.  
+    - **Required correction** Include a fuller set of performance metrics to allow comprehensive comparison with existing literature.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Abstract, availability statement  
+    - **Evidence pointer** Abstract, last sentence; location not provided  
+    - **Issue** The abstract does not specify the license under which the code is released or the data usage terms.  
+    - **Required correction** State the software license and data usage terms explicitly in the abstract or the repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns directly affect the validity of the central performance claims and the reproducibility of the method. Without addressing them, the case for GraphSite as a substantial improvement is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of AlphaFold2-predicted structures with a graph transformer for DNA-binding site prediction is a novel integration of recent advances. However, the abstract does not clarify how this differs from prior graph-based approaches for similar tasks, limiting the assessment of novelty.  
+  - **Scientific importance** Protein-DNA binding site prediction is a well-recognized problem with broad relevance. If the method is robust, it could have meaningful impact on functional annotation and drug discovery.  
+  - **Interdisciplinary readership** The topic bridges structural biology, machine learning, and genomics. The abstract is accessible to a broad audience, though the lack of methodological detail may limit engagement from non-specialists.  
+  - **Technical soundness** Not assessable from the abstract alone. The missing details on baselines, graph construction, and model architecture prevent evaluation of technical rigor.  
+  - **Readability for nonspecialists** The abstract is clearly written and avoids excessive jargon, making it accessible. However, the performance claims are presented without context that would help a nonspecialist judge their significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea and strong reported results, but the lack of methodological detail and incomplete evaluation make it impossible to verify the claims. A revised submission with full methods, rigorous baseline comparisons, and robust statistical validation could change this assessment.
+
+## Risk / unsupported claims
+- The claim of "substantial improvement" over existing methods is unsupported without details on baseline selection and tuning.
+- The specific performance gains (16.4% AUPRC, 11.2% MCC) are not verifiable without confidence intervals or additional datasets.
+- The generalizability of the method to diverse protein families and structure quality levels is not assessable from the abstract.
+- The functional status and completeness of the provided code and web server cannot be verified from the supplied material.

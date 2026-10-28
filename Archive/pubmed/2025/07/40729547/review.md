@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report that the PHD domains of ASXL1-3 and Drosophila Asx lack canonical histone-binding features, do not bind histone H3 peptides in vitro, adopt an atypical mono-zinc-binding fold, and instead form a stable complex with MBD5/MBD6 through a composite zinc-binding site at the protein-protein interface.
+- **Visible evidence base** Sequence alignments (Fig. 1C), ITC binding data (Fig. 2A,C), histone peptide ELISA (Fig. 2D, Table S1), AlphaFold3 structural predictions (Figs 3A-F, 4C-D, 5A-D), zinc-binding assays (Fig. 3G, 5E), native mass spectrometry (Fig. 5F), site-directed mutagenesis with analytical size-exclusion chromatography (Fig. 5G), NMR spectroscopy (Fig. 4B)
+- **Missing materials affecting confidence** Raw ITC thermograms, raw ELISA absorbance values beyond summary statistics, AlphaFold3 prediction files (PAE plots, pLDDT scores for complex models), mass spectrometry raw spectra, NMR assignment details, negative data for crystallography and NMR attempts are mentioned but not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic biochemical and biophysical characterization of ASXL PHD domains, challenging prior annotations and proposing a novel structural and functional paradigm. The combination of sequence analysis, binding assays, structural prediction, and biophysical validation is generally well-executed. The central claims are largely supported by the data presented, though several technical aspects require clarification and additional controls to fully establish the case, particularly regarding the stoichiometry of zinc binding and the functional relevance of the composite zinc site in a cellular context.
+- **Who would be interested in the results, and why** Researchers studying polycomb biology, PR-DUB complex function, epigenetic regulation, zinc-binding protein domains, and structural biology of chromatin-associated factors. The findings also have relevance for understanding the molecular basis of ASXL truncation disorders and cancers.
+- **Major strengths** The study directly addresses a long-standing ambiguity in the field regarding ASXL PHD function. The combination of multiple orthogonal techniques (ITC, ELISA, NMR, mass spectrometry, mutagenesis) provides a robust experimental framework. The identification of a composite zinc-binding site at the ASXL-MBD interface is a novel and potentially significant finding. The work also corrects potential misannotations in the literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the ASXL PHD domain binds only one zinc ion in vitro, based on the PAR-based zinc assay (Fig. 3G).
+  - **Evidence pointer** Fig. 3G, Methods section "Zinc-binding assay"
+  - **Concern** The PAR-based zinc assay is an indirect method for quantifying bound metal ions. The accuracy of this assay depends critically on complete protein denaturation and quantitative release of all bound zinc ions. The authors do not provide validation that the denaturation conditions (8 M GdnHCl, 40 min incubation) are sufficient for complete zinc release from all protein constructs tested. Additionally, the assay measures total zinc released, not stoichiometry per specifically folded protein molecule; if a fraction of the protein is misfolded or aggregated, the calculated stoichiometry would be underestimated. The authors report 1.1 zinc ions per ASXL2 PHD molecule, but the error margins and number of independent replicates are not stated.
+  - **Why it matters** The claim of mono-zinc binding is central to the paper's thesis that ASXL PHD domains are structurally atypical. If the stoichiometry is actually 2:1 (as in canonical PHD domains) but one site is labile or lost during purification, the structural interpretation would be substantially weakened. This claim underpins the subsequent composite zinc-site model.
+  - **Resolution test** Provide validation of the zinc assay using a known two-zinc-binding PHD domain as an additional positive control alongside the cIAP1 RING. Report the number of replicates, standard deviations, and detection limits. Consider orthogonal validation using inductively coupled plasma mass spectrometry (ICP-MS) or X-ray fluorescence on the isolated ASXL2 PHD to confirm zinc stoichiometry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the ASXL2 PHD-MBD6 complex releases approximately two zinc ions per molecule (1.8, Fig. 5E), and interpret this as evidence for a composite zinc-binding site at the interface.
+  - **Evidence pointer** Fig. 5E, Fig. 5A-D
+  - **Concern** The interpretation that the additional zinc ion in the complex comes from a composite site at the interface is based on AlphaFold3 predictions and the observed increase in total zinc from ~1 (PHD alone) + ~0.2 (MBD alone) to ~1.8 (complex). However, an alternative explanation is that complex formation stabilizes the PHD domain, allowing it to bind a second zinc ion that is otherwise lost during purification of the isolated domain. The mutagenesis data (Fig. 5G) show that C1400A and C60A mutations disrupt complex formation, but the authors do not directly demonstrate that these mutations specifically ablate the composite zinc site rather than causing global misfolding or destabilization of the interaction interface. Circular dichroism or other folding controls for the mutants are not shown.
+  - **Why it matters** The composite zinc-binding site is a novel structural concept and a key finding of the paper. If the alternative explanation (stabilization of a pre-existing but labile site) is correct, the conceptual advance is diminished. The distinction matters for understanding how the complex is stabilized and how it might be regulated.
+  - **Resolution test** Perform zinc stoichiometry measurements on the C1400A and C60A single mutants and the double mutant. If the composite site model is correct, the single mutants should show reduced zinc content in the complex (approximately 1 zinc per complex). Additionally, provide biophysical characterization (e.g., circular dichroism, thermal stability) of the mutant proteins to rule out global misfolding. Consider determining a high-resolution structure of the complex to directly visualize the composite zinc site.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that "loss of the ASXL C-terminus alters PR-DUB stability and deubiquitinase activity" and imply that the loss of MBD5/6 interaction is "likely causative in ASXL truncation-driven disease."
+  - **Evidence pointer** Discussion section, Introduction section
+  - **Concern** The manuscript does not provide any cellular or in vivo data linking the ASXL PHD-MBD5/6 interaction to PR-DUB function or disease pathology. The claim that this interaction is "likely causative" in disease is speculative and not directly tested. While the authors are appropriately cautious in the discussion, the framing in the introduction and abstract implies a disease relevance that is not experimentally addressed.
+  - **Why it matters** The broader significance of the work for understanding ASXL truncation disorders depends on the functional relevance of the PHD-MBD interaction. Without cellular validation, the disease connection remains correlative and the impact of the study is reduced.
+  - **Resolution test** Provide cellular experiments showing that disruption of the ASXL PHD-MBD5/6 interaction (e.g., via the C1400A or C60A mutations) affects PR-DUB activity, H2AK119Ub levels, or target gene expression. Alternatively, temper the disease-related claims to match the in vitro scope of the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and assumes significant background knowledge of polycomb biology and zinc finger domains. The phrase "unconventional structure and function" is not immediately clarified for readers unfamiliar with the field.
+  - **Required correction** Briefly define what "conventional" PHD domain function is (i.e., histone H3 tail binding) in the abstract to provide context for the claim of unconventionality.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** ITC experiments
+  - **Evidence pointer** Fig. 2A,C, Methods section "Isothermal titration calorimetry"
+  - **Issue** The ITC experiments are described as having no observed binding, but the raw thermograms are not shown. It is unclear whether the lack of binding is due to true absence of interaction or insufficient protein concentration, precipitation, or other experimental artifacts.
+  - **Required correction** Show representative raw ITC thermograms and integrated heat plots for at least one negative result and the positive control. State the final concentrations of titrant and sample used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** AlphaFold3 predictions
+  - **Evidence pointer** Fig. 3A-F, 4C-D, 5A-D
+  - **Issue** The AlphaFold3 predictions are presented as structural evidence, but the confidence metrics (pLDDT, PAE) are only partially described. For the complex models, the authors report iPTM scores but do not show the PAE plots for the interface region in the main figures.
+  - **Required correction** Include PAE plots for the complex models in the supplementary material and discuss the confidence of the predicted interface residues specifically.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of MBD5/6 misannotation is interesting but brief. The authors could elaborate on the evolutionary implications of their findings for readers interested in protein domain evolution.
+  - **Required correction** Expand the discussion of how the ASXL PHD and MBD5/6 domains may have co-evolved to acquire new functions, with reference to the sequence comparisons shown in Fig. 6.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** NMR experiments
+  - **Evidence pointer** Fig. 4B, Methods section "Nuclear magnetic resonance (NMR)"
+  - **Issue** The NMR data are used to support the claim that the PHD-MBD complex is well-folded, but the analysis is qualitative. The number of expected peaks (98) is close to the observed (~95), but the authors do not comment on the linewidths or whether the spectrum is consistent with a single stable conformation or an ensemble.
+  - **Required correction** Provide a more detailed analysis of the NMR spectrum, including linewidth analysis and a discussion of the lower-intensity peaks that may indicate conformational exchange.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (zinc stoichiometry validation), R1-M2 (direct evidence for composite zinc site), R1-M3 (cellular relevance or tempering of disease claims)
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The work challenges a long-standing annotation and provides a new structural paradigm for ASXL PHD domains. The composite zinc-binding site concept is novel.
+  - **Scientific importance** Moderate to high. The findings have implications for understanding PR-DUB complex assembly and function, and for interpreting the consequences of ASXL truncations in disease. However, the lack of functional validation in cells limits the immediate impact.
+  - **Interdisciplinary readership** Moderate. The work will primarily appeal to structural biologists, biochemists, and epigenetics researchers. The broader chromatin biology community will find the results relevant, but the technical focus may limit appeal to a wider audience.
+  - **Technical soundness** Generally sound, but with notable gaps. The orthogonal approach is commendable, but the zinc stoichiometry claims require additional validation, and the mutagenesis data need folding controls. The AlphaFold3 predictions are used appropriately but would benefit from more detailed confidence metrics.
+  - **Readability for nonspecialists** Adequate but could be improved. The abstract and introduction assume significant background knowledge. The results section is clearly written for a specialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important and the experimental approach is largely appropriate. However, the zinc stoichiometry and composite site claims need stronger experimental support, and the disease relevance claims should be either experimentally addressed or appropriately tempered.
+
+## Risk / unsupported claims
+- The claim that ASXL PHD domains bind only one zinc ion is not fully established due to lack of assay validation and orthogonal confirmation.
+- The existence of a composite zinc-binding site at the ASXL2 PHD-MBD6 interface is inferred from AlphaFold3 predictions and indirect zinc measurements, but not directly demonstrated.
+- The statement that loss of the ASXL PHD-MBD5/6 interaction is "likely causative" in ASXL truncation-driven disease is speculative and not supported by experimental evidence in this manuscript.
+- The claim that MBD5 and MBD6 were "misannotated" is supported by prior literature but the functional consequences of this misannotation in the context of PR-DUB are not experimentally explored here.
+- The assertion that the ASXL PHD "lacks features required for histone tail recognition" is based on sequence analysis and negative binding data, but the possibility of weak or context-dependent binding cannot be fully excluded.

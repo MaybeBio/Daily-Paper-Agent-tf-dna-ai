@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39076052",
+  "title": "Cross-Species Prediction of Transcription Factor Binding by Adversarial Training of a Novel Nucleotide-Level Deep Neural Network.",
+  "authors": "Zhang, Qinhu; Wang, Siguo; Li, Zhipeng; Pan, Yijie; Huang, De-Shuang",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2024-07-30",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出核苷酸级深度神经网络NLDNN及对抗训练框架，用于跨物种预测转录因子结合位点，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "Cross-species prediction of TF binding remains a major challenge due to the rapid evolutionary turnover of individual TF binding sites, resulting in cross-species predictive performance being consistently worse than within-species performance. In this study, a novel Nucleotide-Level Deep Neural Network (NLDNN) is first proposed to predict TF binding within or across species. NLDNN regards the task of TF binding prediction as a nucleotide-level regression task, which takes DNA sequences as input and directly predicts experimental coverage values. Beyond predictive performance, it also assesses model performance by locating potential TF binding regions, discriminating TF-specific single-nucleotide polymorphisms (SNPs), and identifying causal disease-associated SNPs. The experimental results show that NLDNN outperforms the competing methods in these tasks. Then, a dual-path framework is designed for adversarial training of NLDNN to further improve the cross-species prediction performance by pulling the domain space of human and mouse species closer. Through comparison and analysis, it finds that adversarial training not only can improve the cross-species prediction performance between humans and mice but also enhance the ability to locate TF binding regions and discriminate TF-specific SNPs. By visualizing the predictions, it is figured out that the framework corrects some mispredictions by amplifying the coverage values of incorrectly predicted peaks.",
+  "abstract_zh": "跨物种预测转录因子（TF）结合仍是一项重大挑战，原因是单个TF结合位点的快速进化更替，导致跨物种预测性能始终逊于种内性能。在本研究中，首次提出了一种新型核苷酸级深度神经网络（NLDNN），用于预测种内或跨物种的TF结合。NLDNN将TF结合预测任务视为核苷酸级回归任务，以DNA序列为输入，直接预测实验覆盖值。除预测性能外，它还通过定位潜在TF结合区域、区分TF特异性单核苷酸多态性（SNPs）以及识别因果疾病相关SNPs来评估模型性能。实验结果表明，NLDNN在这些任务中优于竞争方法。随后，设计了一个双路径框架，用于NLDNN的对抗训练，通过拉近人类和小鼠物种的域空间，进一步改善跨物种预测性能。通过比较与分析发现，对抗训练不仅能提高人类与小鼠之间的跨物种预测性能，还能增强定位TF结合区域和区分TF特异性SNPs的能力。通过可视化预测结果，发现该框架通过放大错误预测峰值的覆盖值，纠正了一些错误预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39076052/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39076052/",
+  "paper_page_path": "papers/pubmed/39076052/index.html"
+}

@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "37878724",
+    "doi": "10.1073/pnas.2307793120",
+    "title": "A small-molecule inhibitor of TopBP1 exerts anti-MYC activity and synergy with PARP inhibitors."
+  },
+  "content": {
+    "abstract": "We have previously identified TopBP1 (topoisomerase IIbeta-binding protein 1) as a promising target for cancer therapy, given its role in the convergence of Rb, PI(3)K/Akt, and p53 pathways. Based on this, we conducted a large-scale molecular docking screening to identify a small-molecule inhibitor that specifically targets the BRCT7/8 domains of TopBP1, which we have named 5D4. Our studies show that 5D4 inhibits TopBP1 interactions with E2F1, mutant p53, and Cancerous Inhibitor of Protein Phosphatase 2A. This leads to the activation of E2F1-mediated apoptosis and the inhibition of mutant p53 gain of function. In addition, 5D4 disrupts the interaction of TopBP1 with MIZ1, which in turn allows MIZ1 to bind to its target gene promoters and repress MYC activity. Moreover, 5D4 inhibits the association of the TopBP1-PLK1 complex and prevents the formation of Rad51 foci. When combined with inhibitors of PARP1/2 or PARP14, 5D4 synergizes to effectively block cancer cell proliferation. Our animal studies have demonstrated the antitumor activity of 5D4 in breast and ovarian cancer xenograft models. Moreover, the effectiveness of 5D4 is further enhanced when combined with a PARP1/2 inhibitor talazoparib. Taken together, our findings strongly support the potential use of TopBP1-BRCT7/8 inhibitors as a targeted cancer therapy.",
+    "keywords": [
+      "BRCT domains",
+      "MYC",
+      "TopBP1",
+      "p53",
+      "small-molecule inhibitors"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*DNA-Binding Proteins/metabolism",
+      "*Poly(ADP-ribose) Polymerase Inhibitors/pharmacology",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Nuclear Proteins/metabolism",
+      "Molecular Docking Simulation",
+      "Carrier Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Fang-Tsyr",
+        "Liu, Kang",
+        "Garan, Lidija A Wilhelms",
+        "Folly-Kossi, Helena",
+        "Song, Yongcheng",
+        "Lin, Shwu-Jiuan",
+        "Lin, Weei-Chin"
+      ],
+      "short_names": [
+        "Lin FT",
+        "Liu K",
+        "Garan LAW",
+        "Folly-Kossi H",
+        "Song Y",
+        "Lin SJ",
+        "Lin WC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5160-0047",
+        "ORCID: 0000-0001-6715-4571",
+        "ORCID: 0000-0002-6961-4890",
+        "ORCID: 0000-0002-6804-3205"
+      ],
+      "affiliations": [
+        "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+        "Dan L. Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030.",
+        "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+        "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+        "Cancer and Cell Biology Graduate Program, Baylor College of Medicine, Houston, TX 77030.",
+        "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+        "Department of Pharmacology, Baylor College of Medicine, Houston, TX 77030.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan.",
+        "PhD Program in Clinical Drug Development of Herbal Medicine, College of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+        "Dan L. Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030.",
+        "Cancer and Cell Biology Graduate Program, Baylor College of Medicine, Houston, TX 77030.",
+        "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Fang-Tsyr",
+        "short_name": "Lin FT",
+        "identifiers": [
+          "0000-0001-5160-0047"
+        ],
+        "affiliations": [
+          "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+          "Dan L. Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Liu, Kang",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Garan, Lidija A Wilhelms",
+        "short_name": "Garan LAW",
+        "identifiers": [],
+        "affiliations": [
+          "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+          "Cancer and Cell Biology Graduate Program, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Folly-Kossi, Helena",
+        "short_name": "Folly-Kossi H",
+        "identifiers": [
+          "0000-0001-6715-4571"
+        ],
+        "affiliations": [
+          "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Song, Yongcheng",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Lin, Shwu-Jiuan",
+        "short_name": "Lin SJ",
+        "identifiers": [
+          "0000-0002-6961-4890"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan.",
+          "PhD Program in Clinical Drug Development of Herbal Medicine, College of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Weei-Chin",
+        "short_name": "Lin WC",
+        "identifiers": [
+          "0000-0002-6804-3205"
+        ],
+        "affiliations": [
+          "Section of Hematology/Oncology, Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+          "Dan L. Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX 77030.",
+          "Cancer and Cell Biology Graduate Program, Baylor College of Medicine, Houston, TX 77030.",
+          "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Oct 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/25 18:42",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "42555732",
+      "42221021",
+      "42152682",
+      "41900841",
+      "41614897",
+      "41392982",
+      "41193733",
+      "41117221",
+      "40885831",
+      "40089867",
+      "40046735",
+      "39888362",
+      "39631207",
+      "39245413",
+      "38957016",
+      "38471490"
+    ],
+    "refs": [
+      "36030235",
+      "35842428",
+      "35121901",
+      "35096828",
+      "34158578",
+      "34145035",
+      "33556369",
+      "33408251",
+      "32912640",
+      "32844745",
+      "32722408",
+      "32542389",
+      "31964753",
+      "29514782",
+      "28991428",
+      "28439015",
+      "27129245",
+      "26811421",
+      "26549805",
+      "25400145",
+      "25253726",
+      "25087188",
+      "25043018",
+      "24081328",
+      "23737486",
+      "21930790",
+      "20116089",
+      "19289498",
+      "18923429",
+      "18335064",
+      "17006541",
+      "16530042",
+      "15516975",
+      "15075294",
+      "12697828",
+      "12408820"
+    ],
+    "similar": [
+      "37878724",
+      "26811421",
+      "17340632",
+      "21930790",
+      "19289498",
+      "35124372",
+      "18923429",
+      "28439015",
+      "19937654",
+      "27729767",
+      "25400145",
+      "28628491",
+      "12697828",
+      "41193733",
+      "17006541",
+      "24081328",
+      "15075294",
+      "21127055",
+      "20566845",
+      "31856867",
+      "30631149",
+      "35051531",
+      "37756561",
+      "35490781",
+      "17913746",
+      "11756551",
+      "26811424",
+      "17336111",
+      "17887956",
+      "22722496",
+      "39691063",
+      "33010150",
+      "31964753",
+      "34145035",
+      "41392982",
+      "33556369",
+      "28095779",
+      "23277395",
+      "31776133",
+      "41190242",
+      "38722185",
+      "29028101",
+      "29262321",
+      "25087188",
+      "41117221",
+      "11395493",
+      "27940962",
+      "31135337",
+      "30528234",
+      "25762097",
+      "26503213",
+      "36309080",
+      "34140467",
+      "26713604",
+      "21840268",
+      "26779812",
+      "39187844",
+      "28919440",
+      "18660752",
+      "33225736",
+      "22983061",
+      "29954437",
+      "24847116",
+      "38762174",
+      "20012580",
+      "27686740",
+      "20159562",
+      "28442756",
+      "25694599",
+      "25794620",
+      "36074101",
+      "31714594",
+      "25091155",
+      "28925391",
+      "26695634",
+      "25916852",
+      "25182801",
+      "19279141",
+      "15195143",
+      "34329582",
+      "29138344",
+      "20724438",
+      "38199587",
+      "21482717",
+      "24440306",
+      "22906755",
+      "26356822",
+      "34037269",
+      "26513298",
+      "19139065",
+      "33465522",
+      "35419627",
+      "28566428",
+      "36840558",
+      "17636252",
+      "24841718",
+      "34210965",
+      "24413181",
+      "40760233",
+      "35367197"
+    ],
+    "review": [
+      "37878724",
+      "25087188"
+    ],
+    "pmc": [
+      "10622895"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2307793120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37878724/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37878724",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-950",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37878724",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse227406",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

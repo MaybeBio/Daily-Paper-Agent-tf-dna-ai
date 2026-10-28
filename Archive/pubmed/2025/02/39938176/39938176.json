@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "39938176",
+    "doi": "10.1016/j.phymed.2025.156477",
+    "title": "Dual role of Baimao-Longdan-Congrong-Fang in inhibiting Staphylococcus aureus virulence factors and regulating TNF-alpha/TNFR1/NF-kappaB/MMP9 axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Baimao-Longdan-Congrong-Fang (BLCF), a traditional Chinese herbal formula described in the Taiping Shenghui Fang (998 AD), consists of medicinal plants with heat-clearing and tonifying properties. BLCF has a promise as a treatment for Staphylococcus aureus (S. aureus) pneumonia, according to its historical use and current pharmacological research. PURPOSE: In this study, the inhibitory effects of BLCF on S. aureus virulence factors were evaluated in vitro, and its mechanisms of action were investigated in a methicillin-resistant S. aureus (MRSA) pneumonia mouse model. METHODS: The inhibitory effect of BLCF on S. aureus virulence factors, including sortase A (SrtA) and alpha-hemolysin (Hla), was investigated by fluorescence resonance energy transfer (FRET) and hemolysis assays. A C57BL/6J mouse model of MRSA pneumonia was employed to evaluate its therapeutic efficacy. Accordingly, an integrated strategy of medicinal chemistry, network pharmacology analysis, GEO database analysis, bioinformatics, molecular docking, molecular dynamics simulation, GeneMANIA-based functional association (GMFA), and GSEA was used to identify and illustrate potential therapeutic targets and mechanisms. Subsequently, the mechanistic results were confirmed by Western blot analysis and RT-qPCR. RESULTS: While BLCF exhibited weak inhibitory activity against S. aureus USA300, Newman, and SA37 strains, it significantly suppressed SrtA-related virulence functions without affecting bacterial growth. FRET and hemolysis assays confirmed that BLCF inhibited SrtA activity (IC(50) = 1.25 mg/mL) while decreasing hemolytic activity. Furthermore, BLCF protected mice from MRSA infection, increasing their survival rates. Bioinformatics analysis identified 26 active compounds and 2 hub genes (Tnf and Mmp9) that were associated with 5 types of immune cell, including activated CD4 T cells, myeloid-derived suppressor cells, activated dendritic cells, macrophages, and mast cells. Molecular docking revealed 3 active compounds (isoacteoside, verbascoside, and echinacoside) that exhibited strong binding affinities to TNF, MMP9, and SrtA. Molecular dynamics simulations validated the stable interactions between isoacteoside and the target proteins, yielding binding energies of -136.76 +/- 8.83 kJ/mol, -174.98 +/- 14.89 kJ/mol, and -186.34 +/- 9.06 kJ/mol, respectively. The therapeutic effect of BLCF was closely linked to the NF-kappaB signaling pathway, as revealed by GMFA and GSEA analyses. In vivo, BLCF reduced lung bacterial load, improved the wet/dry ratio, and decreased inflammatory cytokines, thereby enhancing lung histopathology through modulation of the TNF-alpha/TNFR1/NF-kappaB/MMP9 axis. CONCLUSIONS: BLCF can effectively treat MRSA pneumonia in mice by inhibiting SrtA activity, decreasing hemolytic activity, and regulating the TNF-alpha/TNFR1/NF-kappaB/MMP9 axis. These findings suggest BLCF, a traditional herbal formula, as a promising novel therapeutic approach to treat pneumonia.",
+    "keywords": [
+      "Baimao-Longdan-Congrong-Fang",
+      "Mice pneumonia model",
+      "Sortase A",
+      "Staphylococcus aureus",
+      "alpha-hemolysin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Methicillin-Resistant Staphylococcus aureus/drug effects/pathogenicity",
+      "*Virulence Factors/antagonists & inhibitors/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Mice, Inbred C57BL",
+      "Mice",
+      "Molecular Docking Simulation",
+      "NF-kappa B/metabolism",
+      "Tumor Necrosis Factor-alpha/metabolism",
+      "Matrix Metalloproteinase 9/metabolism",
+      "Bacterial Proteins/metabolism",
+      "*Pneumonia, Staphylococcal/drug therapy",
+      "Hemolysin Proteins",
+      "Disease Models, Animal",
+      "Staphylococcus aureus/drug effects",
+      "Signal Transduction/drug effects",
+      "Anti-Bacterial Agents/pharmacology",
+      "Cysteine Endopeptidases",
+      "Aminoacyltransferases",
+      "NF-kappa B p50 Subunit"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Tao",
+        "Zhu, Xiujing",
+        "Yin, Zixin",
+        "Gao, Rui",
+        "Li, Yufen",
+        "Li, Chenhao",
+        "Meng, Qianting",
+        "Zhu, Xiaojuan",
+        "Song, Wu",
+        "Su, Xin"
+      ],
+      "short_names": [
+        "Jiang T",
+        "Zhu X",
+        "Yin Z",
+        "Gao R",
+        "Li Y",
+        "Li C",
+        "Meng Q",
+        "Zhu X",
+        "Song W",
+        "Su X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 1625969655@qq.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 2577994731@qq.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 15135126006@163.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: gower1003@hotmail.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: yfen009@126.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 920083649@qq.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 18143618164@163.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 1352545176@qq.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: five841110@126.com.",
+        "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: suxin2307@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Tao",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 1625969655@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiujing",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 2577994731@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yin, Zixin",
+        "short_name": "Yin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 15135126006@163.com."
+        ]
+      },
+      {
+        "full_name": "Gao, Rui",
+        "short_name": "Gao R",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: gower1003@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Li, Yufen",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: yfen009@126.com."
+        ]
+      },
+      {
+        "full_name": "Li, Chenhao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 920083649@qq.com."
+        ]
+      },
+      {
+        "full_name": "Meng, Qianting",
+        "short_name": "Meng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 18143618164@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaojuan",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: 1352545176@qq.com."
+        ]
+      },
+      {
+        "full_name": "Song, Wu",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: five841110@126.com."
+        ]
+      },
+      {
+        "full_name": "Su, Xin",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun University of Chinese Medicine, Changchun 130117, China. Electronic address: suxin2307@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 00:22",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42523888",
+      "42389267",
+      "42198348",
+      "42163991",
+      "42038016",
+      "41028834",
+      "40887626",
+      "40076989"
+    ],
+    "refs": [],
+    "similar": [
+      "39938176",
+      "35247333",
+      "35913166",
+      "39424258",
+      "38836914",
+      "39745463",
+      "37733916",
+      "39789193",
+      "35983964",
+      "35652646",
+      "40220405",
+      "39442278",
+      "30555803",
+      "39805732",
+      "40068293",
+      "36224754",
+      "30249042",
+      "34963621",
+      "34369293",
+      "31380296",
+      "36409383",
+      "38990361",
+      "27345357",
+      "40330488",
+      "26054573",
+      "29671126",
+      "39083107",
+      "34837116",
+      "39756139",
+      "25303310",
+      "37796314",
+      "40293580",
+      "36344903",
+      "22427935",
+      "33444723",
+      "39566390",
+      "28711507",
+      "31235625",
+      "39653103",
+      "27845845",
+      "35660470",
+      "30369109",
+      "27142785",
+      "28160417",
+      "39909365",
+      "31969071",
+      "34856361",
+      "39736343",
+      "25564958",
+      "27792196",
+      "38810547",
+      "37207443",
+      "31157174",
+      "27527081",
+      "28958950",
+      "34681611",
+      "28932220",
+      "40118747",
+      "31790797",
+      "31383747",
+      "32505843",
+      "35995893",
+      "29500427",
+      "39253327",
+      "39614811",
+      "19805564",
+      "32639734",
+      "27025553",
+      "27036629",
+      "34954590",
+      "28118725",
+      "34575918",
+      "31059756",
+      "37769713",
+      "31420255",
+      "39284774",
+      "40133026",
+      "40049341",
+      "38604509",
+      "39369919",
+      "31669889",
+      "23532096",
+      "28165033",
+      "37113029",
+      "30315078",
+      "34314621",
+      "38029271",
+      "39366090",
+      "38972211",
+      "36872359",
+      "34946760",
+      "39048008",
+      "40020626",
+      "33679670",
+      "40010528",
+      "29650293",
+      "33460751",
+      "35319277",
+      "37199609",
+      "37184111"
+    ],
+    "review": [
+      "39938176",
+      "20109735"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00118-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/mrsa.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRSA"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DQA1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

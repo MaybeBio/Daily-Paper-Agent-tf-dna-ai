@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided by the requester. No figures, tables, or supplementary files were available for inspection.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims as presented in the supplied text. Statistical outputs, figure quality, and data availability were not independently verifiable.
+- **Shared manuscript claim summary** The authors propose that IL-1β-driven NF-κB p65 directly regulates a conserved set of early-response genes in pancreatic β-cells, which are also dysregulated in human type 1 diabetes (T1D) islets. They integrate bulk RNA-seq, scRNA-seq, ChIP-seq, molecular docking, and reporter assays to identify direct p65 targets and argue that p65 overexpression is sufficient to drive inflammatory gene expression without cytokine stimulation.
+- **Visible evidence base** Text descriptions of results from bulk RNA-seq (human, mouse, rat), scRNA-seq (mouse islets, rat 832/13 cells), ChIP-seq (p65 and RNA Pol II in 832/13 cells), luciferase reporter assays, and molecular docking simulations. GEO accession numbers are provided for some datasets.
+- **Missing materials affecting confidence** Figures, tables, supplementary figures, and all numerical data (e.g., fold changes, p-values, enrichment scores) were not provided. The manuscript text alone does not allow verification of statistical claims, quality of sequencing data, or the robustness of the bioinformatics analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in T1D research: identifying direct transcriptional targets of NF-κB p65 in β-cells under cytokine stress and linking them to human disease. The multi-omics approach is ambitious and the cross-species conservation analysis is a strength. However, the current text does not provide sufficient quantitative evidence to support several key claims, particularly regarding the sufficiency of p65 overexpression, the functional significance of the identified targets, and the interpretation of the docking simulations. The manuscript would benefit from clearer presentation of statistical results and a more critical discussion of the limitations of the experimental models.
+- **Who would be interested in the results, and why** Researchers studying islet biology, β-cell dysfunction, NF-κB signaling, and the molecular mechanisms of autoimmune diabetes. The identification of conserved p65 target genes could inform future studies on biomarkers or therapeutic targets. The multi-omics dataset may also be of interest to computational biologists working on gene regulatory networks.
+- **Major strengths** 1) The use of multiple complementary omics approaches (bulk RNA-seq, scRNA-seq, ChIP-seq) to triangulate direct p65 targets is methodologically sound. 2) The cross-species comparison (human, mouse, rat) strengthens the translational relevance of the findings. 3) The inclusion of functional validation via reporter assays and overexpression studies is commendable. 4) The focus on early-response genes and the temporal aspect of p65 binding adds depth to the analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "p65 overexpression is sufficient to promote gene expression in the absence of IL-1β" and that this identifies "genes that were also regulated by exposure to IL-1β."
+  - **Evidence pointer** Results section "p65 overexpression is sufficient to promote gene expression in the absence of IL-1β", Figure 7E and 7F (not provided)
+  - **Concern** The text states that p65 overexpression produced a gene expression profile that included subsets of genes also regulated by IL-1β. However, no quantitative data (e.g., number of genes, overlap significance, effect sizes) are provided. The claim of "sufficiency" requires a demonstration that the overexpression phenotype recapitulates a substantial and specific portion of the IL-1β response, and that this is not a general effect of overexpressing any transcription factor. Without these data, the claim is not established.
+  - **Why it matters** The sufficiency of p65 is a central conclusion of the paper. If the overlap between p65-overexpression-driven genes and IL-1β-driven genes is small or not statistically significant, the interpretation that p65 is a key driver of the inflammatory program is weakened.
+  - **Resolution test** Provide a quantitative comparison (e.g., Venn diagram with significance testing, correlation of effect sizes) between genes upregulated by p65 overexpression and those upregulated by IL-1β. Include a control overexpression (e.g., a different transcription factor) to demonstrate specificity. Show the number of shared genes and the statistical significance of the overlap.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "regions that gained RNA polymerase II binding following cellular exposure to IL-1β were identified, complementing the early response gene profile induced by β-cell exposure to IL-1β."
+  - **Evidence pointer** Results section "Genomic occupancy of p65 is directed by IL-1β exposure and is associated with recruitment of RNA Polymerase II", Figure 6 (not provided)
+  - **Concern** The text describes differential binding of RNA Pol II but does not provide any details on the analysis. It is unclear how "differential binding" was defined (e.g., fold change threshold, FDR), how many regions gained Pol II binding, and whether these regions were significantly enriched for p65 binding. The claim that Pol II recruitment "complements" the early response gene profile requires a statistical demonstration of co-occurrence.
+  - **Why it matters** The co-occupancy of p65 and Pol II is used to infer active transcription at p65 target genes. Without a rigorous analysis, the link between p65 binding and transcriptional activation is not firmly established.
+  - **Resolution test** Provide the number of differentially bound Pol II regions, the overlap with p65-bound regions, and a statistical test for enrichment (e.g., hypergeometric test). Show that Pol II gain is preferentially associated with p65-bound genes that are also upregulated in the RNA-seq data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors interpret the molecular docking results as showing that "mutations reducing p65 transcriptional capacity do not alter DNA binding ability."
+  - **Evidence pointer** Results section "p65 overexpression is sufficient to promote gene expression in the absence of IL-1β", Figure 7B, 7C, and 7D (not provided)
+  - **Concern** The docking simulations are used to support the idea that the reduced transcriptional activity of p65 mutants is not due to impaired DNA binding. However, the text does not describe the docking methodology in sufficient detail (e.g., scoring function, constraints, validation against the crystal structure). The RMSD values are mentioned but not interpreted in the context of what constitutes a meaningful difference. The conclusion that "PTMs enhance transcriptional activity after DNA binding" is an inference that goes beyond the data presented.
+  - **Why it matters** The interpretation of the mutant phenotypes is critical for understanding the mechanism of p65 regulation. If the docking simulations are not robust, the conclusion that the mutations affect transcriptional activity without affecting DNA binding is not well-supported.
+  - **Resolution test** Provide a more detailed description of the docking protocol, including the scoring function and how the RMSD values were calculated. Show that the docking predictions are validated by experimental DNA binding assays (e.g., EMSA) for the mutants. Discuss the limitations of using static docking models to infer dynamic processes like transcriptional activation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "we identified 107 genes in common between these two conditions" (human islets exposed to IL-1β+IFNγ vs. T1D islets) and later "10 genes in common across all three human islet data sets."
+  - **Evidence pointer** Results section "Discrete and complementary gene expression patterns revealed by comparing human islets exposed to cytokines versus human islets from donors with Type 1 diabetes", Figure 1A and 1D (not provided)
+  - **Concern** The criteria for defining "differentially expressed genes" in each dataset are not stated. It is unclear whether the same thresholds were applied across datasets. The overlap of 10 genes is a small number, and the text does not indicate whether this overlap is statistically significant (e.g., by permutation testing). The biological significance of such a small overlap is questionable.
+  - **Why it matters** The overlap analysis is a key part of the paper's logic, linking cytokine exposure to human disease. If the overlap is not robust or not significant, the claim that these genes are "relevant to autoimmune events" is weakened.
+  - **Resolution test** Clearly state the differential expression criteria for each dataset. Perform a permutation test or use a hypergeometric test to show that the overlap is greater than expected by chance. Discuss the implications of the small overlap size for the model proposed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Molecular docking simulations predicted that mutations reducing p65 transcriptional capacity do not alter DNA binding ability."
+  - **Issue** The abstract states this as a finding, but the connection to the overall story is not immediately clear. It may be better to state the functional implication (e.g., "suggesting that post-translational modifications, rather than DNA binding affinity, are critical for p65 transcriptional activity").
+  - **Required correction** Rephrase to clarify the mechanistic insight gained from the docking studies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods, "Cell Culture and Islet Isolation"
+  - **Issue** The sex of the mice used is stated as male only. Given the known sex differences in autoimmune disease prevalence, it would be important to justify this choice or include both sexes.
+  - **Required correction** Add a sentence justifying the use of male mice or include female mice in the study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results
+  - **Evidence pointer** Results section "scRNA-seq reveals similar clusters of cell types between mouse and rat cells during acute exposure to IL-1β"
+  - **Issue** The text mentions "similar clusters" but does not provide any quantitative measure of similarity (e.g., correlation of cluster marker genes, overlap of differentially expressed genes per cluster).
+  - **Required correction** Provide a quantitative comparison of the clusters between species, such as a correlation of average gene expression profiles or a statistical test for cluster conservation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Genomic occupancy of p65 is directed by IL-1β exposure and is associated with recruitment of RNA Polymerase II"
+  - **Issue** The text mentions "two distinct κB genomic elements within ChIP-Seq peaks contained within the Stx11 gene promoter" but does not specify their exact locations or sequences.
+  - **Required correction** Provide the genomic coordinates and sequences of the κB elements for reproducibility.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative data for the p65 overexpression experiment (R1-M1). 2) Insufficient detail on the Pol II ChIP-seq analysis (R1-M2). 3) Inadequate description of the docking methodology and its limitations (R1-M3). 4) Unclear criteria for defining differentially expressed genes and the significance of the overlap (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is not entirely novel, as NF-κB signaling in β-cells is a well-studied area. However, the combination of multi-omics approaches and the focus on direct p65 targets in the context of T1D provides a new angle. The identification of specific conserved genes may offer new insights.
+  - **Scientific importance** The question of how NF-κB drives β-cell dysfunction in T1D is of high importance. If the identified targets are validated, they could be important for understanding disease mechanisms. However, the current evidence is not sufficient to establish their functional significance.
+  - **Interdisciplinary readership** The topic is primarily of interest to endocrinologists, immunologists, and islet biologists. The multi-omics approach may also appeal to computational biologists, but the presentation is not tailored to a broad interdisciplinary audience.
+  - **Technical soundness** The experimental design is generally sound, but the lack of quantitative details and statistical rigor in several key analyses (as noted above) prevents a full assessment of technical soundness.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with omics technologies and NF-κB biology. The abstract is somewhat dense and could be more accessible. The flow of the results is logical, but the lack of figure references makes it difficult to follow the narrative.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the multi-omics approach is appropriate, but the current manuscript does not provide sufficient evidence to fully support the main claims. The authors need to provide quantitative data, clarify their analytical methods, and strengthen the link between p65 binding, transcriptional activation, and disease relevance.
+
+## Risk / unsupported claims
+- The claim that p65 overexpression is "sufficient" to drive gene expression is not supported by the data presented in the text.
+- The claim that Pol II recruitment "complements" the early response gene profile is not quantitatively demonstrated.
+- The interpretation that the docking simulations show that mutations do not affect DNA binding is not fully supported by the described methodology.
+- The statement that the identified genes are "relevant to autoimmune events" is based on a small overlap that is not shown to be statistically significant.
+- The claim that "dysregulated NF-κB activation likely represents one major factor driving transcriptional alterations" is a reasonable hypothesis but is presented as a conclusion without direct causal evidence.

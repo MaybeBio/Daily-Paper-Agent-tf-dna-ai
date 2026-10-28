@@ -1,0 +1,341 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.16.659792",
+  "title": "A genome-wide CRISPR base-editing resource for functional genomics and drug-response mapping in Leishmania mexicana",
+  "doi": "10.1101/2025.06.16.659792",
+  "abstract": "<h4>ABSTRACT</h4> We present a CRISPR/Cas9 cytosine base editing library for genome-wide loss-of-function screening in L. mexicana and apply it to dissect the genetics of Leishmania drug response. The results, accessible at https://www.LeishBASEeditDB.net , revealed novel response biomarkers for Sb III , miltefosine, amphotericin B, pentamidine, and the arylmethylaminosteroid 1c. We identified hundreds of loci linked to altered drug responses, including opposing effects among paralogs, cross-resistance, and collateral sensitivity. Among 41 validated candidates, we identified sterol defects in two novel amphotericin B markers, discovered a regulator of intracellular miltefosine transporter complex localization, and uncovered evidence that flagellar-associated defects reduce drug sensitivity. Parallel viability and motility screens revealed, for the first time, genome-wide fitness contributions of unique and multi-copy genes in Leishmania promastigotes. Our approach enables powerful reverse genetic screens across Leishmania species, advancing drug mechanism studies and guiding combination therapy designs. The library is available for others to screen a multitude of additional loss-of-function phenotypes.",
+  "authors": [
+    "Arias del Angel J",
+    "Link F",
+    "May NH",
+    "Ekici I",
+    "Wawra K",
+    "Schwind S",
+    "Zorn S",
+    "Haggarty J",
+    "Weidt SK",
+    "Ritchie R",
+    "Barrett MP",
+    "van Zandbergen G",
+    "Beneke T"
+  ],
+  "published_date": "2025-06-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.16.659792",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.16.659792.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1037570",
+    "raw_record": {
+      "id": "PPR1037570",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1037570"
+        ]
+      },
+      "doi": "10.1101/2025.06.16.659792",
+      "title": "A genome-wide CRISPR base-editing resource for functional genomics and drug-response mapping in  <i>Leishmania mexicana</i>",
+      "authorString": "Arias del Angel J, Link F, May NH, Ekici I, Wawra K, Schwind S, Zorn S, Haggarty J, Weidt SK, Ritchie R, Barrett MP, van Zandbergen G, Beneke T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Arias del Angel J",
+            "lastName": "Arias del Angel",
+            "firstName": "Jorge",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                },
+                {
+                  "affiliation": "Division of Immunology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Link F",
+            "lastName": "Link",
+            "firstName": "Fabian",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9828-2012"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                },
+                {
+                  "affiliation": "Division of Immunology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "May NH",
+            "lastName": "May",
+            "firstName": "Nicole Herrmann",
+            "initials": "NH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ekici I",
+            "lastName": "Ekici",
+            "firstName": "Ilkem",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wawra K",
+            "lastName": "Wawra",
+            "firstName": "Konstantin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schwind S",
+            "lastName": "Schwind",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zorn S",
+            "lastName": "Zorn",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haggarty J",
+            "lastName": "Haggarty",
+            "firstName": "Jennifer",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shared Research Facilities (SRF), MVLS, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weidt SK",
+            "lastName": "Weidt",
+            "firstName": "Stefan",
+            "initials": "SK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shared Research Facilities (SRF), MVLS, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ritchie R",
+            "lastName": "Ritchie",
+            "firstName": "Ryan",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Infection and Immunity, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barrett MP",
+            "lastName": "Barrett",
+            "firstName": "Michael",
+            "initials": "MP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Infection and Immunity, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Zandbergen G",
+            "lastName": "van Zandbergen",
+            "firstName": "Ger",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beneke T",
+            "lastName": "Beneke",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, Biocentre, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9828-2012"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  We present a CRISPR/Cas9 cytosine base editing library for genome-wide loss-of-function screening in  L. mexicana and apply it to dissect the genetics of  Leishmania drug response. The results, accessible at  https://www.LeishBASEeditDB.net , revealed novel response biomarkers for Sb  III , miltefosine, amphotericin B, pentamidine, and the arylmethylaminosteroid 1c. We identified hundreds of loci linked to altered drug responses, including opposing effects among paralogs, cross-resistance, and collateral sensitivity. Among 41 validated candidates, we identified sterol defects in two novel amphotericin B markers, discovered a regulator of intracellular miltefosine transporter complex localization, and uncovered evidence that flagellar-associated defects reduce drug sensitivity. Parallel viability and motility screens revealed, for the first time, genome-wide fitness contributions of unique and multi-copy genes in  Leishmania promastigotes. Our approach enables powerful reverse genetic screens across  Leishmania species, advancing drug mechanism studies and guiding combination therapy designs. The library is available for others to screen a multitude of additional loss-of-function phenotypes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Commission",
+            "grantId": "101064428 – LeishMOM",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Molecular Biology Organization",
+            "grantId": "ALTF 727-2021",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "project 532631727",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "acronym": "BB_",
+            "grantId": "BB/Y007360/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "LOEWE Center DRUID",
+            "grantId": "Project D3, B3",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.06.16.659792"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.16.659792"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1037570"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206974",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-06-19",
+      "firstPublicationDate": "2025-06-16",
+      "firstIndexDate": "2025-06-19",
+      "fullTextReceivedDate": "2026-09-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

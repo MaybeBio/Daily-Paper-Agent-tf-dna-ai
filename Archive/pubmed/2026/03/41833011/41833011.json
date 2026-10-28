@@ -1,0 +1,589 @@
+{
+  "identity": {
+    "pmid": "41833011",
+    "doi": "10.1002/advs.202510538",
+    "title": "Temporal and Cell-Specific Regulation of Synaptic Homeostasis by the Chromatin Remodeler Chd1."
+  },
+  "content": {
+    "abstract": "Disruptions in chromatin remodelers and synaptic proteins represent major genetic risk factors for autism spectrum disorder (ASD), yet how these distinct gene classes converge to impair circuit function remains unclear. CHD2, a chromatin remodeler linked to ASD, epilepsy, and intellectual disability, regulates gene expression through epigenetic mechanisms. In Drosophila, its homologue Chd1 functions as a key regulator of presynaptic homeostatic potentiation (PHP), a conserved form of synaptic plasticity that stabilizes neurotransmission. Electrophysiology, calcium imaging, super-resolution microscopy, behavioral assays, and machine learning-based analysis reveal that Chd1 acts in a temporal and cell type-specific manner: it is required in perineurial glia for rapid PHP induction and in motoneurons, muscle, and glia for long-term maintenance. Chd1 controls presynaptic calcium influx and expansion of the readily releasable vesicle pool, both core features of homeostatic compensation. An electrophysiology-based genetic screen guided by unsupervised machine learning identifies 14 Chd1-dependent genes necessary for acute PHP, including the glial-specific effector Cadherin 74A. Loss of Chd1 increases seizure susceptibility and disrupts motor function, mirroring phenotypes observed in CHD2-related neurodevelopmental disorders. These findings establish a mechanistic connection between chromatin remodeling and synaptic homeostasis and identify glial epigenetic regulation as a critical modulator of circuit stability in health and disease.",
+    "keywords": [
+      "Chd1",
+      "autism",
+      "epigenetic regulation",
+      "epilepsy",
+      "glia",
+      "neuromuscular junction",
+      "presynaptic homeostatic plasticity"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Homeostasis/genetics",
+      "*Chromatin Assembly and Disassembly/genetics",
+      "*Drosophila Proteins/genetics/metabolism",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Drosophila",
+      "*Synapses/metabolism",
+      "*Neuronal Plasticity/genetics",
+      "Humans",
+      "Synaptic Transmission/genetics",
+      "*Autism Spectrum Disorder/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morency, Danielle T",
+        "Cui, Tao",
+        "Cai, Yimei",
+        "Lok, Chloe",
+        "Nokku, Rachel E",
+        "Huang, Ruoxian",
+        "Chu, Grace L",
+        "Xie, Yumeng",
+        "Abu-Tayeh, Saleem W",
+        "He, Kaikai",
+        "Qiu, Chengjie",
+        "Wang, Junyi",
+        "Paganelli, Paxton M",
+        "Wang, Ting",
+        "Williams, Gabrielle",
+        "Nair, Sreejith",
+        "Pei, Huadong",
+        "Dickman, Dion K",
+        "Vicini, Stefano",
+        "Wang, Tingting"
+      ],
+      "short_names": [
+        "Morency DT",
+        "Cui T",
+        "Cai Y",
+        "Lok C",
+        "Nokku RE",
+        "Huang R",
+        "Chu GL",
+        "Xie Y",
+        "Abu-Tayeh SW",
+        "He K",
+        "Qiu C",
+        "Wang J",
+        "Paganelli PM",
+        "Wang T",
+        "Williams G",
+        "Nair S",
+        "Pei H",
+        "Dickman DK",
+        "Vicini S",
+        "Wang T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6124-973X",
+        "ORCID: 0000-0002-1004-4491",
+        "ORCID: 0000-0003-3716-7800",
+        "ORCID: 0000-0001-5114-6737"
+      ],
+      "affiliations": [
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Interdisciplinary Program in Neuroscience, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Biology Department, Georgetown University, Washington, D.C., USA.",
+        "Biology Department, Georgetown University, Washington, D.C., USA.",
+        "Department of Human Science, School of Health, Georgetown University, Washington, D.C., USA.",
+        "Biology Department, Georgetown University, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Neurobiology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Neurobiology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Human Science, School of Health, Georgetown University, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Oncology, Georgetown Lombardi Comprehensive Cancer Center, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Oncology, Georgetown Lombardi Comprehensive Cancer Center, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Neurobiology, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Interdisciplinary Program in Neuroscience, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+        "Interdisciplinary Program in Neuroscience, Georgetown University Medical Center, Washington, D.C., USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morency, Danielle T",
+        "short_name": "Morency DT",
+        "identifiers": [
+          "0000-0001-6124-973X"
+        ],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+          "Interdisciplinary Program in Neuroscience, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Cui, Tao",
+        "short_name": "Cui T",
+        "identifiers": [
+          "0000-0002-1004-4491"
+        ],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Cai, Yimei",
+        "short_name": "Cai Y",
+        "identifiers": [
+          "0000-0003-3716-7800"
+        ],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Lok, Chloe",
+        "short_name": "Lok C",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Georgetown University, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Nokku, Rachel E",
+        "short_name": "Nokku RE",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Georgetown University, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Ruoxian",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Science, School of Health, Georgetown University, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Chu, Grace L",
+        "short_name": "Chu GL",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Georgetown University, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Yumeng",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Abu-Tayeh, Saleem W",
+        "short_name": "Abu-Tayeh SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "He, Kaikai",
+        "short_name": "He K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chengjie",
+        "short_name": "Qiu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Junyi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Science, School of Health, Georgetown University, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Paganelli, Paxton M",
+        "short_name": "Paganelli PM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Ting",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Williams, Gabrielle",
+        "short_name": "Williams G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Nair, Sreejith",
+        "short_name": "Nair S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Georgetown Lombardi Comprehensive Cancer Center, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Pei, Huadong",
+        "short_name": "Pei H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Georgetown Lombardi Comprehensive Cancer Center, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Dickman, Dion K",
+        "short_name": "Dickman DK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vicini, Stefano",
+        "short_name": "Vicini S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+          "Interdisciplinary Program in Neuroscience, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Tingting",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0001-5114-6737"
+        ],
+        "affiliations": [
+          "Department of Pharmacology & Physiology, Georgetown University Medical Center, Washington, D.C., USA.",
+          "Interdisciplinary Program in Neuroscience, Georgetown University Medical Center, Washington, D.C., USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/15 19:32",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40513205",
+      "40259071",
+      "40230598",
+      "39951523",
+      "39705214",
+      "38688542",
+      "38688541",
+      "38688540",
+      "38688539",
+      "38569548",
+      "38025261",
+      "37712202",
+      "37669862",
+      "36800417",
+      "36115870",
+      "36070750",
+      "35993544",
+      "35982189",
+      "35637307",
+      "34851664",
+      "34610319",
+      "34265844",
+      "33972922",
+      "33658369",
+      "33430769",
+      "32609087",
+      "32380032",
+      "31810838",
+      "31685637",
+      "31556149",
+      "31097668",
+      "31042697",
+      "30842428",
+      "30692227",
+      "30443934",
+      "30384022",
+      "30344048",
+      "30022098",
+      "29962935",
+      "29909982",
+      "29565247",
+      "29526461",
+      "29403035",
+      "29303480",
+      "29229852",
+      "29153328",
+      "29069593",
+      "28671691",
+      "28549158",
+      "28452083",
+      "27828941",
+      "27788368",
+      "27626659",
+      "27019755",
+      "26895424",
+      "26809583",
+      "26687359",
+      "26596648",
+      "26374786",
+      "26291155",
+      "26289574",
+      "26116891",
+      "25786798",
+      "25733148",
+      "25722465",
+      "25700174",
+      "25621013",
+      "25418537",
+      "25386989",
+      "25363768",
+      "25363760",
+      "25186741",
+      "25158904",
+      "25066085",
+      "24834135",
+      "24312013",
+      "23708187",
+      "23533627",
+      "23324667",
+      "23175813",
+      "23141539",
+      "23055484",
+      "23020937",
+      "22666403",
+      "22633807",
+      "22569126",
+      "22495311",
+      "22495306",
+      "22388814",
+      "22348343",
+      "22258914",
+      "22194269",
+      "22138644",
+      "21906534",
+      "21716289",
+      "21508229",
+      "21351158",
+      "21338884",
+      "21068831",
+      "20164152",
+      "20066109",
+      "19965435",
+      "19369546",
+      "19234456",
+      "19142019",
+      "18984155",
+      "18923513",
+      "18708045",
+      "18374642",
+      "18202396",
+      "18199760",
+      "17717186",
+      "17114050",
+      "17113384",
+      "17023539",
+      "16791145",
+      "16648587",
+      "16135811",
+      "15647753",
+      "15340070",
+      "14675546",
+      "12110842",
+      "11856529",
+      "11790800",
+      "11162110",
+      "10399944",
+      "10199952",
+      "9427247",
+      "8692958",
+      "7923374",
+      "7857643",
+      "7643221",
+      "6103954",
+      "1302275",
+      "11339"
+    ],
+    "similar": [
+      "41833011",
+      "27626659",
+      "37669862",
+      "32609087",
+      "26596648",
+      "23175813",
+      "25628309",
+      "22723711",
+      "24140580",
+      "29153328",
+      "41296724",
+      "34713802",
+      "27093431",
+      "34610319",
+      "34910905",
+      "28795356",
+      "30344041",
+      "29620520",
+      "26901416",
+      "35796533",
+      "19965435",
+      "21177652",
+      "20554858",
+      "39951523",
+      "33608385",
+      "31810838",
+      "23533627",
+      "23806804",
+      "32122953",
+      "36685082",
+      "29962935",
+      "20396651",
+      "40802288",
+      "36344265",
+      "31180325",
+      "30692227",
+      "25704950",
+      "25972187",
+      "22807688",
+      "31708391",
+      "37712202",
+      "40592327",
+      "42237143",
+      "36450258",
+      "33449150",
+      "28978667",
+      "17717186",
+      "39705214",
+      "28866611",
+      "38688539",
+      "28123080",
+      "38688542",
+      "28953869",
+      "28285823",
+      "41168190",
+      "29348419",
+      "30191695",
+      "11438940",
+      "32973097",
+      "37243591",
+      "29069077",
+      "39125997",
+      "23973209",
+      "33593142",
+      "29186673",
+      "36087584",
+      "36104286",
+      "38688540",
+      "22912810",
+      "28130356",
+      "26398944",
+      "34353896",
+      "24198381",
+      "28485711",
+      "28973139",
+      "17114050",
+      "10402193",
+      "33402422",
+      "32731855",
+      "27671198",
+      "32312822",
+      "34610300",
+      "24353060",
+      "28460001",
+      "29440558",
+      "19379781",
+      "42002773",
+      "38471782",
+      "25412171",
+      "22467519",
+      "28846707",
+      "38025261",
+      "27432119",
+      "15483129",
+      "25253852",
+      "28834749",
+      "11018772",
+      "42531028",
+      "40334658",
+      "12611964"
+    ],
+    "review": [
+      "41833011",
+      "24140580",
+      "28795356",
+      "23806804",
+      "29962935",
+      "33449150"
+    ],
+    "pmc": [
+      "13271595"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41833011",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41833011/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41475070",
+    "doi": "10.1016/j.compbiolchem.2025.108867",
+    "title": "Decrypting the impact of ferroptosis and cuproptosis in development of pancreatic ductal adenocarcinoma."
+  },
+  "content": {
+    "abstract": "Pancreatic cancer (PanCa) is a devastating disease with very low survival rate. Ferroptosis and cuproptosis, regulated forms of cell death, resulting from the accumulation of iron and copper ions, respectively are gaining increasing attention for their roles in tumor development. These non-apoptotic cell death forms would be worth to explore in the context of PanCa, as it is a difficult disease to treat and often become resistant to apoptosis inducing conventional therapeutic modes. So, targeting the transcription factors (TFs) regulating both these cell death pathways are critical for pancreatic ductal adenocarcinoma (PDAC) therapeutics because they control the cellular mechanisms that execute these specialized, non-apoptotic forms of cell death. Therefore, using differentially expressed genes (DEGs) from RNA-Seq and TCGA data, we first rebuilt the protein-protein interaction network (PPIN) for PDAC (PPIN(PDAC)). We then identified 71 strongly connected clusters within the PPIN(PDAC). Functional enrichment of these clusters revealed that key cell death mechanisms are compromised in this cancer. Next, we discovered that 37 deregulated clusters of PDAC are regulated by 10 ferroptotic and 1 cuproptotic transcription factors (FerrTFs and CuprTF), respectively. NFE2L2 was found to be both FerrTF and CuprTF. Using various clinicopathological parameters for PDAC, we screened 4 critical TFs among the 10 TFs viz. NFE2L2, TP53, ZEB1, and HIF1A which might be critical for disease progression. Lastly, drugs epigallocatechin gallate (EGCG) and protodioscin (PTN) were identified as promising therapeutic candidates against the 4 TFs using molecular docking and simulation studies. This preliminary investigation pinpoints possible TFs of ferroptosis and cuproptosis in PDAC and develops countermeasures against them.",
+    "keywords": [
+      "Cuproptosis",
+      "Ferroptosis",
+      "Pancreatic Ductal Adenocarcinoma",
+      "Pancreatic cancer",
+      "Protein-Protein Interaction Network",
+      "Transcription Factors"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "Humans",
+      "*Carcinoma, Pancreatic Ductal/pathology/metabolism/drug therapy/genetics",
+      "*Pancreatic Neoplasms/pathology/metabolism/drug therapy/genetics",
+      "*Copper/metabolism",
+      "Protein Interaction Maps/drug effects",
+      "*Antineoplastic Agents/pharmacology/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Das, Deepyaman",
+        "Maiti, Arunima",
+        "Saha, Sayan",
+        "Choudhury, Sounetra",
+        "Mukherjee, Sumit",
+        "Dastidar, Debabrata Ghosh",
+        "Sikdar, Nilabja"
+      ],
+      "short_names": [
+        "Das D",
+        "Maiti A",
+        "Saha S",
+        "Choudhury S",
+        "Mukherjee S",
+        "Dastidar DG",
+        "Sikdar N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Zoology, Raiganj University, Raiganj, WB, India.",
+        "Suraksha Diagnostic - Corporate Office & Reference Laboratory, Newtown, Rajarhat, Kolkata, India.",
+        "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India.",
+        "Human Genetics Unit, Indian Statistical Institute, Kolkata, India; Estuarine and Costal Studies Foundation, WB, India.",
+        "Department of Computer Science, Ben-Gurion University, Beer-Sheva, Israel.",
+        "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India. Electronic address: debabrata.ghoshdastidar@gnipst.ac.in.",
+        "Human Genetics Unit, Indian Statistical Institute, Kolkata, India; Estuarine and Costal Studies Foundation, WB, India; Natural Sciences Foundation, Kolkata, West Bengal, India. Electronic address: snilabja@isical.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Das, Deepyaman",
+        "short_name": "Das D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Zoology, Raiganj University, Raiganj, WB, India."
+        ]
+      },
+      {
+        "full_name": "Maiti, Arunima",
+        "short_name": "Maiti A",
+        "identifiers": [],
+        "affiliations": [
+          "Suraksha Diagnostic - Corporate Office & Reference Laboratory, Newtown, Rajarhat, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Saha, Sayan",
+        "short_name": "Saha S",
+        "identifiers": [],
+        "affiliations": [
+          "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Choudhury, Sounetra",
+        "short_name": "Choudhury S",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genetics Unit, Indian Statistical Institute, Kolkata, India; Estuarine and Costal Studies Foundation, WB, India."
+        ]
+      },
+      {
+        "full_name": "Mukherjee, Sumit",
+        "short_name": "Mukherjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Ben-Gurion University, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Dastidar, Debabrata Ghosh",
+        "short_name": "Dastidar DG",
+        "identifiers": [],
+        "affiliations": [
+          "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India. Electronic address: debabrata.ghoshdastidar@gnipst.ac.in."
+        ]
+      },
+      {
+        "full_name": "Sikdar, Nilabja",
+        "short_name": "Sikdar N",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genetics Unit, Indian Statistical Institute, Kolkata, India; Estuarine and Costal Studies Foundation, WB, India; Natural Sciences Foundation, Kolkata, West Bengal, India. Electronic address: snilabja@isical.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/01 00:35",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41475070",
+      "40382627",
+      "39609608",
+      "32241274",
+      "41350704",
+      "36499358",
+      "39501138",
+      "42196362",
+      "39117252",
+      "24561286",
+      "40175514",
+      "41601623",
+      "28764929",
+      "34262021",
+      "40154160",
+      "31232492",
+      "36707046",
+      "41394830",
+      "38763208",
+      "38287825",
+      "40609804",
+      "38781729",
+      "29248440",
+      "31288830",
+      "40840404",
+      "40983183",
+      "27578530",
+      "41121153",
+      "40250791",
+      "39810240",
+      "31512195",
+      "39778762",
+      "39869563",
+      "31148345",
+      "41716413",
+      "40450524",
+      "31903153",
+      "33629745",
+      "33539732",
+      "34331036",
+      "31991068",
+      "39358545",
+      "40381229",
+      "36826087",
+      "31311829",
+      "36116415",
+      "39888413",
+      "40659704",
+      "40931516",
+      "38113986",
+      "41943328",
+      "40695089",
+      "40931691",
+      "40250076",
+      "34805404",
+      "41765309",
+      "33777046",
+      "39375436",
+      "33579599",
+      "30539678",
+      "28619758",
+      "34553745",
+      "31929540",
+      "25299780",
+      "40505322",
+      "39796036",
+      "26373299",
+      "41303512",
+      "35707377",
+      "35131878",
+      "39954354",
+      "31273297",
+      "31569425",
+      "41991735",
+      "34007003",
+      "41924551",
+      "31078621",
+      "41135950",
+      "41605175",
+      "41454527",
+      "41581643",
+      "28347789",
+      "40569151",
+      "40129158",
+      "40711603",
+      "38885414",
+      "39897042",
+      "41855775",
+      "41465457",
+      "28902358",
+      "40902319",
+      "39740539",
+      "31171768",
+      "27169995",
+      "39110005",
+      "37834426",
+      "28815403",
+      "41090718",
+      "32660466",
+      "29363536"
+    ],
+    "review": [
+      "41475070",
+      "36499358",
+      "38287825",
+      "34331036",
+      "30539678",
+      "41924551"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00531-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

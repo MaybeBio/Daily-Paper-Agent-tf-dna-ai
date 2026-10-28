@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "36930359",
+    "doi": "10.1007/s10815-023-02769-0",
+    "title": "Establishment of a novel glycolysis-immune-related diagnosis gene signature for endometriosis by machine learning."
+  },
+  "content": {
+    "abstract": "PURPOSE: The objective of this study was to investigate the key glycolysis-related genes linked to immune cell infiltration in endometriosis and to develop a new endometriosis (EMS) predictive model. METHODS: A training set and a test set were created from the Gene Expression Omnibus (GEO) public database. We identified five glycolysis-related genes using least absolute shrinkage and selection operator (LASSO) regression and the random forest method. Then, we developed and tested a prediction model for EMS diagnosis. The CIBERSORT method was used to compare the infiltration of 22 different immune cells. We examined the relationship between key glycolysis-related genes and immune factors in the eutopic endometrium of women with endometriosis. In addition, Gene Ontology (GO)-based semantic similarity and logistic regression model analyses were used to investigate core genes. Reverse real-time quantitative PCR (RT-qPCR) of 5 target genes was analysed. RESULTS: The five glycolysis-related hub genes (CHPF, CITED2, GPC3, PDK3, ADH6) were used to establish a predictive model for EMS. In the training and test sets, the area under the curve (AUC) of the receiver operating characteristic curve (ROC) prediction model was 0.777, 0.824, and 0.774. Additionally, there was a remarkable difference in the immune environment between the EMS and control groups. Eventually, the five target genes were verified by RT-qPCR. CONCLUSION: The glycolysis-immune-based predictive model was established to forecast EMS patients' diagnosis, and a detailed comprehension of the interactions between endometriosis, glycolysis, and the immune system may be vital for the recognition of potential novel therapeutic approaches and targets for EMS patients.",
+    "keywords": [
+      "Diagnosis",
+      "Endometriosis",
+      "Glycolysis",
+      "Immune infiltration",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometriosis/diagnosis/genetics",
+      "Machine Learning",
+      "Area Under Curve",
+      "Control Groups",
+      "Glycolysis/genetics",
+      "Glypicans",
+      "Repressor Proteins",
+      "Trans-Activators"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Qizhen",
+        "Jiao, Yufan",
+        "Yin, Zhe",
+        "Fu, Xiayan",
+        "Guo, Shana",
+        "Zhou, Yuhua",
+        "Wang, Yanqiu"
+      ],
+      "short_names": [
+        "Chen Q",
+        "Jiao Y",
+        "Yin Z",
+        "Fu X",
+        "Guo S",
+        "Zhou Y",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9340-970X"
+      ],
+      "affiliations": [
+        "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China.",
+        "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China.",
+        "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China.",
+        "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China.",
+        "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China.",
+        "Department of Ultrasonography, Tongji Hospital, Tongji University School of Medicine, Shanghai, China. yuhua1211@126.com.",
+        "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China. wangfan_2002@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Qizhen",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yufan",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Zhe",
+        "short_name": "Yin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xiayan",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Shana",
+        "short_name": "Guo S",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuhua",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasonography, Tongji Hospital, Tongji University School of Medicine, Shanghai, China. yuhua1211@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanqiu",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-9340-970X"
+        ],
+        "affiliations": [
+          "Reproductive Medical Center, Department of Gynecology and Obstetrics, Tongji Hospital, Tongji University School of Medicine, Shanghai, China. wangfan_2002@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of assisted reproduction and genetics"
+    ],
+    "journal_abbrev": [
+      "J Assist Reprod Genet"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/18 06:00",
+    "fetched_at": "2026-09-28 21:34:16"
+  },
+  "links": {
+    "cites": [
+      "42186039",
+      "42151966",
+      "41351058",
+      "40573210",
+      "40392231",
+      "39698187",
+      "38561472"
+    ],
+    "refs": [
+      "35372047",
+      "35251989",
+      "34680398",
+      "34539624",
+      "34073074",
+      "33198297",
+      "32063886",
+      "32017945",
+      "28769575",
+      "21985671",
+      "20598111"
+    ],
+    "similar": [
+      "36930359",
+      "39061076",
+      "38370978",
+      "36660690",
+      "35938015",
+      "38561472",
+      "36524127",
+      "38456992",
+      "36011263",
+      "35585523",
+      "37817158",
+      "37555920",
+      "33992553",
+      "37539146",
+      "34630418",
+      "36660246",
+      "36081904",
+      "38035102",
+      "36277723",
+      "37619853",
+      "35496348",
+      "35713363",
+      "38302849",
+      "36267782",
+      "34276768",
+      "36470144",
+      "37454542",
+      "37359526",
+      "36419649",
+      "35378934",
+      "38017285",
+      "35757721",
+      "38317119",
+      "38549776",
+      "35865542",
+      "34539624",
+      "36647508",
+      "37361541",
+      "38704432",
+      "35361159",
+      "32031163",
+      "37274806",
+      "35837194",
+      "37409245",
+      "36523602",
+      "32165186",
+      "36474131",
+      "36713509",
+      "36675186",
+      "36746103",
+      "34421979",
+      "34099740",
+      "34107850",
+      "38058639",
+      "36742332",
+      "35709926",
+      "35399247",
+      "36148059",
+      "37398680",
+      "36253715",
+      "34893848",
+      "36948405",
+      "34308907",
+      "37032832",
+      "34496868",
+      "36439140",
+      "30306868",
+      "36725810",
+      "36831718",
+      "38115253",
+      "35794640",
+      "37346073",
+      "34059009",
+      "35278479",
+      "35942730",
+      "37058039",
+      "33059716",
+      "34523732",
+      "36250071",
+      "38062233",
+      "35282063",
+      "36605987",
+      "36316558",
+      "34609082",
+      "33952718",
+      "37259023",
+      "36936274",
+      "33633562",
+      "37662927",
+      "30170442",
+      "36814224",
+      "35186111",
+      "36685822",
+      "35223866",
+      "37340528",
+      "35958598",
+      "34311758",
+      "37457751",
+      "36968495",
+      "31806607",
+      "36479114",
+      "33968985",
+      "37995798",
+      "37340502",
+      "36684561",
+      "33663535",
+      "38644543",
+      "39316330",
+      "39331858",
+      "37898817",
+      "37409787",
+      "37860112",
+      "39347446",
+      "39319230",
+      "38714728"
+    ],
+    "review": [
+      "36930359",
+      "33992553"
+    ],
+    "pmc": [
+      "10239430"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36930359/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10815-023-02769-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36930359",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

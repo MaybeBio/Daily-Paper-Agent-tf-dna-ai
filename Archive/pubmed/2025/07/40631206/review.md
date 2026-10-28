@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, data availability)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors present PIC-NIC, a high-throughput method introducing single-strand breaks (nicks) at defined positions within transcription factor (TF) binding sites without altering base sequence, to systematically probe the structural role of DNA backbone in TF-DNA recognition. Applied to 15 human TFs across 8 structural classes, supported by crystal structures and molecular dynamics simulations, the study claims that DNA backbone geometry and continuity independently shape binding specificity, identifying "structural anchor points" where nicks abolish binding, rewire sequence preferences, or enhance affinity.
+- **Visible evidence base** Main text figures referenced (Fig. 1b–e, Fig. 2a–d, Fig. 3a–c, Fig. 4a–c, Fig. 5a–e), Extended Data Figures 1–8, Supplementary Tables 1–8, PDB deposition codes, MD simulation parameters, Methods section
+- **Missing materials affecting confidence** Actual figures and Extended Data figures not provided; Supplementary Tables not provided; PDB structure validation reports not provided; MD simulation trajectory analyses not fully described; raw microarray data not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually novel approach to dissecting structural determinants of TF-DNA recognition, with potentially broad implications. The core idea of using nicks to decouple backbone mechanics from base identity is elegant and well-motivated. However, the evidence as presented in the text alone is insufficient to fully evaluate the robustness of the claims. Several key analyses are described only qualitatively, and the absence of figures and supplementary data limits verification of statistical rigor, effect sizes, and controls. The mechanistic interpretations, particularly regarding "structural anchoring" and "latent sequence preferences," require stronger quantitative support.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, DNA biophysics, structural biology, and genome stability. The findings could inform understanding of how DNA damage (nicks) affects TF occupancy, with implications for DNA repair and mutagenesis. The methodological advance (PIC-NIC) may be of interest to those studying protein-DNA interactions at scale.
+- **Major strengths** 1) Conceptually innovative approach to decouple structural from sequence determinants. 2) Broad TF coverage across structural classes. 3) Integration of high-throughput measurements with structural and computational validation. 4) Identification of position-specific, non-uniform responses to nicking, challenging the view of the backbone as passive. 5) Demonstration of context-dependent effects, including enhanced binding and altered specificity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PIC-NIC uncovers discrete backbone positions serving as structural anchor points where nicks can abolish binding, rewire sequence preferences, or even enhance affinity."
+  - **Evidence pointer** Fig. 1d, Fig. 2b, Fig. 3b, Fig. 4b, Supplementary Tables 1, 3–4; figures not provided
+  - **Concern** The classification of nicking effects into four categories (retention, minor, major, abolishment) is described, but the statistical thresholds, replicate numbers, and error propagation for these classifications are not detailed in the text. The claim of "structural anchor points" relies on identifying positions with >90% binding reduction, yet the reproducibility and significance of these effects across biological replicates are not reported. Additionally, the comparison to "non-specific control sites" for normalization is described but the choice of controls and their variability are not specified.
+  - **Why it matters** Without clear statistical criteria and demonstrated reproducibility, the identification of "anchor points" may reflect noise or artifacts rather than genuine structural sensitivity. The central claim of the paper depends on the reliability of these classifications.
+  - **Resolution test** Provide replicate-level data, statistical tests (e.g., error bars, confidence intervals) for each nicking position, and explicit criteria for classification. Show that anchor points are consistently identified across independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** "By decoupling structural and chemical contributions, we demonstrate that DNA mechanics—encoded in backbone geometry and continuity—can independently shape binding specificity beyond the linear code of base identity."
+  - **Evidence pointer** Fig. 2c, Fig. 3c, Fig. 5d–e, Extended Data Figs. 5, 7–8; MD simulation description in Methods
+  - **Concern** The MD simulations are described as "1 μs x 5 all-atoms" but the analysis presented is limited to RMSD comparisons. The claim that nicking "induced greater phosphate backbone root mean square deviations" and "weakened protein-DNA contacts" is not supported by quantitative metrics (e.g., contact maps, hydrogen bond occupancy, free energy estimates). For TBP, the structural reversion from Hoogsteen to Watson-Crick upon nicking is stated but the energetic or kinetic basis for the observed binding preference reversal is not quantified. For EGR1, the "neutral" positions are claimed to be "structurally buffered," but the compensatory interactions are only mentioned qualitatively.
+  - **Why it matters** The mechanistic interpretations are central to the paper's thesis. Without quantitative structural and dynamic evidence, the claim that DNA mechanics independently shape specificity remains speculative.
+  - **Resolution test** Provide detailed MD analyses: contact persistence, hydrogen bond occupancy, RMSF profiles, and if possible, free energy perturbation or umbrella sampling to estimate energetic contributions. For crystal structures, provide clear comparisons of backbone geometry and interaction networks between nicked and intact complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Applied to 15 human TFs spanning eight structural classes... establishing the backbone not as a passive scaffold, but as a functional determinant capable of directing regulatory mechanisms through its physical architecture."
+  - **Evidence pointer** Extended Data Fig. 2, Supplementary Table 1; figures not provided
+  - **Concern** The 15 TFs are stated to span 8 structural classes, but the text does not describe how representative these are of the broader TF repertoire, nor whether the observed patterns (e.g., frequency of anchor points, position-specific effects) correlate with structural class. The claim of a general principle ("structural logic") requires demonstration that the findings are not idiosyncratic to the chosen TFs or binding sites.
+  - **Why it matters** The paper's broader significance rests on the generality of the phenomenon. If effects are highly TF-specific, the "structural logic" claim is overstated.
+  - **Resolution test** Provide a systematic comparison across TFs, including correlation of nicking sensitivity with structural features (e.g., DNA bendability, minor groove width, contact density). Discuss selection criteria for TFs and potential biases.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** "Single-strand breaks (SSBs)—the most frequent form of DNA damage—can transiently displace TFs from their binding sites, altering transcriptional programs in a position-dependent manner."
+  - **Evidence pointer** Discussion section; no direct experimental evidence provided
+  - **Concern** The physiological relevance of the findings is inferred but not tested. The concentrations, salt conditions, and DNA contexts used in PIC-NIC may not reflect cellular conditions. The claim that SSBs "can transiently displace TFs" is presented as a logical extension but lacks direct evidence (e.g., cellular assays, single-molecule experiments).
+  - **Why it matters** The translational implications for DNA damage and repair depend on whether the in vitro effects translate to in vivo contexts.
+  - **Resolution test** Add experiments or clearly frame as speculation. If possible, test a few key predictions in cellular or in vitro nuclear extract systems.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, PIC-NIC library design
+  - **Evidence pointer** Methods section, "PIC-NIC library design and measurements"
+  - **Issue** The normalization formula is presented as "Signal change = ln(Iintact) – ln(Inon-binding) / ln(Iintact) – ln(Inicked)" which is ambiguous due to missing parentheses. It is unclear whether the denominator is (ln(Iintact) – ln(Inicked)) or ln(Iintact) – (ln(Inon-binding) / ln(Iintact)) – ln(Inicked).
+  - **Required correction** Clarify the formula with proper parentheses and define all terms explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section, "All-atoms molecular dynamics simulation"
+  - **Issue** The description states "1 μs x 5 all-atoms" but does not specify whether these are independent replicates or different starting conditions. The force field combination (AMBER99sb-ildn for protein, OL21 for DNA) is unusual and may require justification.
+  - **Required correction** Specify the number of independent simulations, starting structures, and rationale for force field choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 1d, classification categories
+  - **Evidence pointer** Fig. 1d; figure not provided
+  - **Issue** The percentages for classification categories (e.g., "~30% of positions exhibited major disruption") are presented without confidence intervals or sample sizes.
+  - **Required correction** Report exact numbers, total positions tested, and statistical uncertainty.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "structural logic" is used as a central concept but is not defined operationally. It is unclear whether it refers to a predictive model, a set of rules, or a descriptive pattern.
+  - **Required correction** Define the term or replace with more precise language.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of anchor point identification), R1-M2 (quantitative support for mechanistic claims from MD and crystallography)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The approach of using nicks to systematically probe structural determinants is novel and distinct from sequence-centric mutagenesis.
+  - **Scientific importance** Potentially high. If the claims are substantiated, the work could shift understanding of TF-DNA recognition and have implications for DNA damage biology.
+  - **Interdisciplinary readership** Moderate to high. Relevant to molecular biology, biophysics, structural biology, and genomics.
+  - **Technical soundness** Currently not fully established. The high-throughput method is promising, but the statistical and quantitative foundations of the key claims are not sufficiently detailed in the provided text.
+  - **Readability for nonspecialists** Good. The writing is clear and the conceptual framing is accessible, though some technical details are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is compelling and the preliminary evidence is suggestive, but the current manuscript does not provide sufficient quantitative detail to fully evaluate the robustness of the central claims. Major revisions addressing statistical rigor, mechanistic validation, and generalizability are required.
+
+## Risk / unsupported claims
+- The claim that nicks can "rewire sequence preferences" is supported only by the TBP example; no systematic analysis across TFs is presented.
+- The claim that "DNA mechanics...can independently shape binding specificity" is not fully supported, as the decoupling of structural from chemical contributions is only demonstrated for a limited set of positions and TFs.
+- The physiological relevance of SSB-induced TF displacement is speculative and not directly tested.
+- The generalizability of "structural anchor points" across the 15 TFs is asserted but not quantitatively demonstrated.
+- The MD simulation results are described qualitatively; quantitative metrics are not provided in the text.
+- The statement that "nicking at position 2 accelerated ETS1 dissociation and reduced binding affinity to the nonspecific level" is based on BLI data, but the kinetic parameters (kon, koff, KD) are not reported in the text.

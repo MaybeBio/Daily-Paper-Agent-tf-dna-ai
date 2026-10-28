@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to study binding of legacy and emerging PFAS to the PPARgamma/RXRalpha heterodimer, including the ligand binding domains of PPARgamma and RXRalpha and the DNA binding domain of RXRalpha. They report predicted binding free energies, residue decomposition, hydrogen-bonding analysis, and electronic structure calculations (DFT and DLPNO-CCSD(T)) for PFAS interactions in the DBD. They propose that PFAS can act as agonists in all investigated pockets, that PFAS bind to the DBD in a nonspecific manner (claimed as a first in the literature), and that l-carnitine shows promise in replacing smaller PFAS from the PPARgamma ligand binding pocket.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, error estimates, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, system setup details, statistical analyses, and any validation or comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on PFAS interactions with a biologically important nuclear receptor complex. However, the claims are broad and the evidence base is entirely absent from the supplied material. The central assertions, particularly the novel claim of nonspecific DBD binding and the proposed l-carnitine remediation strategy, cannot be evaluated without access to the underlying simulation data, convergence analyses, and quantitative comparisons. The abstract reads as a summary of work in progress rather than a fully supported set of conclusions.
+- **Who would be interested in the results, and why** Computational chemists and toxicologists studying endocrine disruption mechanisms, researchers in the PFAS fate and transport community, and structural biologists interested in nuclear receptor dynamics. The potential link to l-carnitine as a remediation strategy could attract interest from the environmental health and therapeutic intervention communities.
+- **Major strengths** The study addresses a timely and important topic, namely the molecular basis of PFAS toxicity through nuclear receptor interactions. The combination of molecular dynamics with higher-level electronic structure methods for a specific binding domain is a reasonable multi-scale approach. The exploration of l-carnitine as a potential intervention is a creative angle that could have translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PFAS can bind and act as agonists for all investigated pockets, including the DNA binding domain of RXRalpha.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, no binding free energy values, no comparison to known agonists or antagonists, and no experimental validation. The claim that PFAS act as agonists is a functional assertion that typically requires experimental readouts such as transcriptional activity assays. Computational prediction of binding affinity does not establish agonism.
+  - **Why it matters** Agonism is a functional biological outcome, not a structural one. Without experimental evidence or at least a well-validated computational proxy, this claim is unsupported and could mislead readers about the biological significance of the findings.
+  - **Resolution test** Provide experimental data (e.g., reporter assays) or clearly label the claim as a computational prediction with appropriate caveats. If only computational, the claim should be reframed as "predicted to bind" rather than "act as agonists."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and support
+  - **Claim pointer** The authors state that "for the first time in the literature, PFAS are postulated to bind to the DNA binding domain in a nonspecific manner."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of a "first in the literature" is a strong novelty assertion. The abstract provides no literature comparison, no systematic search strategy, and no discussion of prior computational or experimental studies on PFAS-DBD interactions. The term "nonspecific" is also ambiguous and requires a clear operational definition.
+  - **Why it matters** Novelty claims are central to the perceived impact of the work. If the claim is not rigorously supported by a thorough literature review and a clear definition of "nonspecific," it may be overstated and could be challenged by reviewers or readers familiar with the field.
+  - **Resolution test** Provide a comprehensive literature search summary and a precise definition of "nonspecific binding" as used in this study. Show that no prior work has made this postulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors report binding free energies predicted computationally and compared between different binding pockets, and they use DFT and DLPNO-CCSD(T) with implicit solvation for DBD interactions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The abstract does not specify the force field, simulation length, number of replicas, convergence criteria, or the level of theory for the DFT and DLPNO-CCSD(T) calculations. The choice of implicit solvation model is not stated. Without these details, the reliability of the predicted free energies cannot be assessed.
+  - **Why it matters** Computational predictions are only as credible as the methods used. The absence of methodological transparency prevents any assessment of technical soundness and reproducibility, which are fundamental to the scientific value of the work.
+  - **Resolution test** Provide full methodological details in the manuscript, including software versions, parameters, and convergence analyses. If the abstract is the only source, the claims should be tempered to reflect the lack of detail.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Translational claim
+  - **Claim pointer** The authors state that l-carnitine "shows promise in replacing smaller PFAS from the pocket" of the PPARgamma ligand binding domain.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative measure of this "promise," such as relative binding affinities, free energy differences, or occupancy analyses. The term "promise" is vague and does not convey the strength of the evidence. No comparison to other potential competitors is provided.
+  - **Why it matters** The l-carnitine claim is likely to attract attention from the remediation and therapeutic communities. If the evidence is weak or preliminary, the claim could be misinterpreted as a validated intervention strategy.
+  - **Resolution test** Provide quantitative binding free energy comparisons between l-carnitine and the PFAS tested, along with error estimates. Clearly state the limitations of the computational approach for predicting in vivo efficacy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "nonspecific manner" for DBD binding is used without definition. It is unclear whether this means sequence-independent binding, low-affinity binding, or binding at multiple sites.
+  - **Required correction** Define "nonspecific" explicitly in the context of the study and provide evidence supporting that definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Scope of PFAS selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "legacy and emerging" PFAS but does not specify which compounds were studied. This limits the reader's ability to contextualize the findings.
+  - **Required correction** List the specific PFAS compounds studied in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim of "all investigated pockets"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that PFAS bind to "all" investigated pockets is categorical. It is unclear whether this includes the DBD of RXRalpha, the LBD of RXRalpha, and the LBD of PPARgamma, and whether the binding is of similar affinity across all pockets.
+  - **Required correction** Specify which pockets were investigated and provide comparative binding data to support the "all" claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (agonism claim unsupported), R1-M2 (novelty claim not substantiated), R1-M3 (methodological transparency lacking), R1-M4 (translational claim not quantified)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relevant topic, but the claimed novelty of DBD binding is not verifiable from the abstract. Scientific importance: The topic is important, but the abstract does not demonstrate a significant advance beyond existing computational studies. Interdisciplinary readership: The work could appeal to computational chemists, toxicologists, and environmental health researchers, but the abstract lacks sufficient detail to engage a broad audience. Technical soundness: Cannot be assessed due to missing methodological details. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but lacks the quantitative and methodological detail necessary to support the central claims. A full manuscript with complete methods, results, and validation would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that PFAS "act as agonists" for all investigated pockets is unsupported without experimental or well-validated computational evidence.
+- The claim of a "first in the literature" postulation of nonspecific DBD binding is unverifiable from the abstract.
+- The statement that l-carnitine "shows promise" is vague and not supported by quantitative data.
+- All quantitative results (binding free energies, residue decomposition, hydrogen-bonding analysis) are reported without numbers or error estimates, making them unassessable.

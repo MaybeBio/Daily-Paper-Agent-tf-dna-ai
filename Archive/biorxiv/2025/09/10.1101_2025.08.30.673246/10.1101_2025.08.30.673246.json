@@ -1,0 +1,157 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.30.673246",
+  "title": "A deep learning model captures position-specific effects of plant regulatory sequences and suggests genes under complex regulation",
+  "doi": "10.1101/2025.08.30.673246",
+  "abstract": "Deep neural networks can be trained to predict gene expression directly from genomic sequence, thereby implicitly learning regulatory sequence patterns from scratch, minimizing the bias imposed by prior assumptions. A challenging, yet promising prospect is the extraction of novel insights into gene-regulatory mechanisms, by probing and interpreting such gene expression models. Using a branched convolutional neural network architecture trained on promoter and terminator sequences we predict gene expression for allopolyploid Brassica napus and the closely related model organism Arabidopsis thaliana . We validate the model by comparing predicted and measured expression across ecotypes. We also show that deep learning models can successfully capture the positional binding preferences of some transcription factor families, without having been trained on transcription factor binding data. Furthermore, we show that our model did not only detect local sequence patterns, but was also able to determine their function based on their positional context. We also found that increased prediction error correlated with additional more distal or epigenetic regulatory input. Our results demonstrate that deep learning can be used to understand the regulatory architecture of gene expression in plants. A better understanding of gene regulation in the context of polyploid genomes is of particular economic importance, due to their prevalence among major crops. In the future, we hope that such models may facilitate the targeted engineering of gene regulation in crops.",
+  "authors": [
+    "Rockenbach KC",
+    "Zanini SF",
+    "Tidy AC",
+    "Morris RJ",
+    "Wells R",
+    "Golicz AA"
+  ],
+  "published_date": "2025-09-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.30.673246",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.30.673246.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1078876",
+    "raw_record": {
+      "id": "PPR1078876",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.30.673246",
+      "title": "A deep learning model captures position-specific effects of plant regulatory sequences and suggests genes under complex regulation",
+      "authorString": "Rockenbach KC, Zanini SF, Tidy AC, Morris RJ, Wells R, Golicz AA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rockenbach KC",
+            "lastName": "Rockenbach",
+            "firstName": "Kevin",
+            "initials": "KC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-2115-5441"
+            }
+          },
+          {
+            "fullName": "Zanini SF",
+            "lastName": "Zanini",
+            "firstName": "Silvia",
+            "initials": "SF"
+          },
+          {
+            "fullName": "Tidy AC",
+            "lastName": "Tidy",
+            "firstName": "Alison",
+            "initials": "AC"
+          },
+          {
+            "fullName": "Morris RJ",
+            "lastName": "Morris",
+            "firstName": "Richard",
+            "initials": "RJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3080-2613"
+            }
+          },
+          {
+            "fullName": "Wells R",
+            "lastName": "Wells",
+            "firstName": "Rachel",
+            "initials": "R"
+          },
+          {
+            "fullName": "Golicz AA",
+            "lastName": "Golicz",
+            "firstName": "Agnieszka",
+            "initials": "AA"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3080-2613"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-2115-5441"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Deep neural networks can be trained to predict gene expression directly from genomic sequence, thereby implicitly learning regulatory sequence patterns from scratch, minimizing the bias imposed by prior assumptions. A challenging, yet promising prospect is the extraction of novel insights into gene-regulatory mechanisms, by probing and interpreting such gene expression models. Using a branched convolutional neural network architecture trained on promoter and terminator sequences we predict gene expression for allopolyploid  Brassica napus and the closely related model organism  Arabidopsis thaliana . We validate the model by comparing predicted and measured expression across ecotypes. We also show that deep learning models can successfully capture the positional binding preferences of some transcription factor families, without having been trained on transcription factor binding data. Furthermore, we show that our model did not only detect local sequence patterns, but was also able to determine their function based on their positional context. We also found that increased prediction error correlated with additional more distal or epigenetic regulatory input. Our results demonstrate that deep learning can be used to understand the regulatory architecture of gene expression in plants. A better understanding of gene regulation in the context of polyploid genomes is of particular economic importance, due to their prevalence among major crops. In the future, we hope that such models may facilitate the targeted engineering of gene regulation in crops.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.30.673246"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42413033",
+            "reference": "Plant physiology. \n    2026 Aug;201(4):kiag473",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-09-06",
+      "firstPublicationDate": "2025-09-04",
+      "firstIndexDate": "2025-09-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

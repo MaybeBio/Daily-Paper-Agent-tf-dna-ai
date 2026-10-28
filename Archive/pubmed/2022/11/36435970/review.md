@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a polymer physics-based integrative model of the E. coli chromosome, incorporating experimentally derived Hi-C contact matrices, cell dimensions, and replication status, to dissect the organizational roles of the nucleoid-associated proteins HU and MatP. They report that the model reproduces compaction at short genomic range and diminished long-range interactions in HU-devoid cells, attributes these changes to altered cell dimensions and chromosome content, and shows locally enhanced Ter-flanking macrodomain contacts in MatP-devoid cells without changes in matS site localization, concluding that Ter insulation is not mediated by bridging of distant matS sites.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model parameterization details, Hi-C data processing methods, simulation protocols, control simulation definitions, and quantitative comparison metrics
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable integrative modeling approach to a significant question in bacterial chromosome organization. The conceptual framework, combining Hi-C data with polymer physics and accounting for cell dimensions and replication status, is commendable and could offer insights beyond purely experimental studies. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the model, the robustness of the conclusions, or the strength of the evidence linking simulations to experimental observations. Several claims are presented without quantitative support, and the logical chain from simulation outputs to biological conclusions requires scrutiny that the current material cannot support.
+- **Who would be interested in the results, and why** Researchers in bacterial chromosome organization, nucleoid-associated protein function, polymer physics modeling of genomes, and Hi-C-based structural biology would find these results relevant. The work also speaks to the broader community studying genome architecture across organisms, as the integrative modeling strategy could be transferable. Experimentalists studying E. coli chromosome segregation and macrodomain insulation would be particularly interested in the reconciliation of modeling with prior recombination and mobility assays.
+- **Major strengths** The abstract addresses a clearly important and unresolved question, namely the individual contributions of specific NAPs to chromosome architecture. The integrative approach, combining Hi-C data with cell dimensions and replication status, is more realistic than purely sequence-based or contact-map-driven models. The inclusion of control simulations to test alternative mechanisms, such as the role of matS bridging, demonstrates a thoughtful experimental design within the modeling framework. The attempt to reconcile multiple experimental observations, including microscopy, recombination assays, and mobility experiments, is a notable strength.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model for the HU-devoid chromosome corroborates microscopy observations of compaction at short genomic range and diminished long-range interactions.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that the model corroborates microscopy observations, but no quantitative metrics, statistical comparisons, or error estimates are provided. It is unclear how the model output was compared to microscopy data, what metric defined compaction, and whether the agreement was qualitative or quantitative.  
+  - **Why it matters** Without quantitative validation, the claim of corroboration is not assessable. The reader cannot determine whether the model reproduces the observations within experimental uncertainty or merely captures a qualitative trend that could arise from trivial model features.  
+  - **Resolution test** Provide quantitative comparison between simulated contact probabilities or spatial distances and microscopy-derived measurements, including statistical tests and uncertainty propagation.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** Control simulations point out that the change in cell dimension and chromosome content in the process of HU removal holds the key to the observed differences in chromosome architecture.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract attributes the architectural differences to cell dimension and chromosome content changes, but the specific control simulations are not described. It is unclear which parameters were varied, how the controls were constructed, and whether alternative explanations, such as direct effects of HU on DNA stiffness or looping, were systematically excluded.  
+  - **Why it matters** This is a central mechanistic claim. If the controls are not adequately designed or reported, the conclusion that cell dimension and content, rather than HU's direct molecular role, drive the observed changes is not established.  
+  - **Resolution test** Describe the control simulations in detail, including parameter ranges, and show that varying cell dimension and chromosome content alone reproduces the full set of observed differences, while models retaining HU-like features do not.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** Simulation of MatP-devoid chromosome led to locally enhanced contacts between Ter and its flanking macrodomains, consistent with recombination assays and MatP's role in insulation.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract claims consistency with recombination assays, but no quantitative comparison is shown. It is unclear whether the enhanced contacts are statistically significant, how the magnitude compares to experimental measurements, and whether the model's resolution is sufficient to capture the relevant contact scales.  
+  - **Why it matters** The claim of consistency with prior experiments is a key validation of the model. Without quantitative alignment, the reader cannot assess whether the model captures the biologically relevant effect or an artifact of the simulation setup.  
+  - **Resolution test** Provide quantitative comparison of simulated contact enrichment between Ter and flanking macrodomains against recombination frequency data, including confidence intervals and sensitivity analyses.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** A set of designed control simulations showed that insulation of Ter is not caused by bridging of distant matS sites.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The control simulations are mentioned but not described. It is unclear how matS bridging was modeled, what alternative mechanisms were tested, and whether the controls adequately rule out bridging or merely a specific implementation of it.  
+  - **Why it matters** This conclusion directly contradicts a plausible mechanism for MatP function. If the control simulations are not convincingly designed, the conclusion that bridging is not responsible for insulation is not supported.  
+  - **Resolution test** Describe the design of the control simulations, including how matS bridging was implemented and disabled, and show that the insulation effect persists in the absence of bridging while other model features are held constant.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The model incorporates experimentally derived Hi-C contact matrix, cell dimensions, and replication status commensurate with corresponding growth conditions.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No details are given on the Hi-C data source, resolution, normalization, or how the contact matrix was integrated into the polymer model. The cell dimensions and replication status are mentioned but not quantified.  
+  - **Why it matters** Reproducibility is a core requirement for modeling studies. Without these details, the model cannot be independently implemented or verified, and the results cannot be interpreted in the context of specific experimental conditions.  
+  - **Resolution test** Provide full model parameterization, data sources, and processing steps in the methods section, and make the code and data publicly available.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "compaction of chromosome at short genomic range but diminished long-range interactions" is ambiguous. It is unclear whether compaction refers to spatial distance, contact frequency, or both.  
+  - **Required correction** Define the metric used for compaction and specify whether it applies to spatial organization, contact maps, or both.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not state the resolution of the model or the genomic scale at which predictions are made, which is relevant for interpreting the significance of the results.  
+  - **Required correction** Include the model resolution and the genomic range over which predictions are validated.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "lending credence to a recent mobility experiment" is vague. It is unclear which experiment is referenced and how the simulation results specifically support it.  
+  - **Required correction** Cite the specific experiment and describe the quantitative or qualitative alignment between simulation and experimental results.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The abstract does not provide sufficient quantitative or methodological detail to establish the technical soundness of the model or the validity of the conclusions. All major claims require access to the full manuscript and its supporting materials for proper evaluation.
+- **Assessment against Nature-style criteria**  
+  - Originality: The integrative approach combining Hi-C, cell dimensions, and replication status in a polymer model is not entirely novel, but the specific application to dissect HU and MatP roles with designed controls has elements of originality. The claim that cell dimension and content, rather than direct HU effects, drive architectural changes is potentially novel but not verifiable from the abstract.  
+  - Scientific importance: The question of NAP roles in chromosome organization is important, and the potential to reconcile multiple experimental observations is valuable. However, the importance is not fully established without quantitative validation.  
+  - Interdisciplinary readership: The work bridges biophysics, genomics, and microbiology, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, though some terms such as "matS sites" and "macrodomain" may require background knowledge.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative comparisons prevents evaluation of the model's validity.  
+  - Readability for nonspecialists: The abstract is generally readable, but the logical flow from model description to conclusions is compressed, and the significance of the control simulations is not fully explained.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting modeling study, but the absence of quantitative results, methodological detail, and validation metrics means that the core claims cannot be assessed. A supportive recommendation would require access to the full manuscript and evidence that the model predictions are quantitatively robust and that the control simulations are convincingly designed.
+
+## Risk / unsupported claims
+- The claim that the model corroborates microscopy observations of compaction and diminished long-range interactions is unsupported without quantitative comparison.
+- The claim that cell dimension and chromosome content changes hold the key to architectural differences is unsupported without description of control simulations.
+- The claim that simulation results are consistent with recombination assays is unsupported without quantitative alignment.
+- The claim that Ter insulation is not caused by bridging of distant matS sites is unsupported without description of the control simulations.
+- The claim that the model reconciles multiple experimental observations is not assessable from the abstract alone.
+- The overall model validity and predictive power are not assessable without full methodological and quantitative details.

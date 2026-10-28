@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors introduce PIC-NIC, a high-throughput method that introduces single-strand breaks (nicks) at every position within transcription factor binding sites without altering base sequence, and apply it to 15 human TFs across 8 structural classes. They report position-specific effects on binding, including abolishment, enhancement, and rewiring of sequence preferences, supported by crystal structures and MD simulations. They conclude that DNA backbone mechanics independently shape TF binding specificity beyond base identity.
+- **Visible evidence base** Abstract, main text, methods section, references to Extended Data Figures 1-8, Supplementary Tables 1-8, and PDB deposition entries
+- **Missing materials affecting confidence** Extended Data figures, Supplementary Tables, PDB structure validation reports, raw microarray data, MD simulation trajectories and analysis scripts, and detailed protocols for PIC-NIC library construction are referenced but not provided in the submitted material
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to decoupling DNA backbone mechanics from base sequence in TF-DNA recognition. The PIC-NIC method is potentially valuable, and the application to 15 TFs across diverse structural classes is commendable. However, the evidence as presented in the text is insufficient to fully support several central claims, particularly regarding the mechanistic interpretation of nick effects, the statistical robustness of the classification scheme, and the generality of the conclusions. The manuscript would benefit from clearer presentation of quantitative data and more rigorous controls.
+- **Who would be interested in the results, and why** Researchers studying transcription factor-DNA recognition mechanisms, DNA structural biology, gene regulation, and DNA damage repair. The work may also interest those developing high-throughput approaches for probing nucleic acid structure-function relationships.
+- **Major strengths** The conceptual advance of decoupling backbone integrity from base identity is significant and timely. The breadth of TF families surveyed (15 TFs, 8 classes) is impressive. The combination of high-throughput measurements with structural biology and MD simulations is methodologically ambitious. The finding that nicks can enhance binding or rewire specificity challenges conventional assumptions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the classification scheme
+  - **Claim pointer** The authors classify nick positions into four categories (retention, minor disruption, major disruption, abolishment) based on percentage signal change thresholds of 10%, 50%, and 90%.
+  - **Evidence pointer** Methods section, PIC-NIC library design and measurements; Figure 1d
+  - **Concern** The classification thresholds appear arbitrary and are not justified by any statistical framework. The formula for signal change is presented as "Signal change = ln(I intact) - ln(I non-binding) / ln(I intact) - ln(I nicked)", which is ambiguous in its mathematical grouping and does not clearly define how the percentage decrease is computed. No error estimates, replicate variability, or significance testing are described for the classification of positions into categories.
+  - **Why it matters** The central conclusions of the paper depend on the reliability of distinguishing "major disruption" from "minor disruption" and "abolishment" from "major disruption." Without a statistical framework, the classification could be driven by measurement noise, and the reported proportions (e.g., ~30% major disruption, ~4% abolishment) lack confidence intervals.
+  - **Resolution test** Provide a clear mathematical definition of the signal change metric, include replicate measurements with error bars, and apply statistical tests (e.g., t-tests or ANOVA with multiple testing correction) to justify the classification thresholds. Show that classifications are robust to threshold choice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** The authors claim that nicks at specific positions "abolish binding," "rewire sequence preferences," or "enhance affinity" and that these effects arise from disruption of structural anchor points or relief of mechanical strain.
+  - **Evidence pointer** Main text sections on ETS1, TBP, SOX2, and EGR1; Figures 2-5; Extended Data Figures 4-8
+  - **Concern** The mechanistic interpretations are presented as conclusions but the evidence described in the text is largely correlative. For ETS1, the claim that a phosphate contact at position 2 acts as a "structural anchor" is supported by MD simulations, but the simulation details (force field validation, convergence, sampling adequacy) are not described in sufficient detail to assess reliability. For TBP, the claim that nicking reverts Hoogsteen pairing to Watson-Crick geometry is based on crystal structures, but the functional relevance of this conformational change to binding affinity is inferred rather than directly demonstrated. For SOX2, the claim that nicking accelerates association by pre-priming DNA conformation is speculative and not directly tested.
+  - **Why it matters** The paper's central thesis is that DNA backbone mechanics independently shape TF recognition. This requires direct evidence that the observed effects are due to mechanical/structural changes rather than other consequences of nicking (e.g., altered electrostatics, changes in base pair stability, or indirect effects on protein conformation).
+  - **Resolution test** Provide additional controls, such as nicks at positions that do not alter backbone geometry but do alter electrostatics, or mutations that restore mechanical rigidity without restoring the phosphate. For MD simulations, provide convergence metrics, free energy calculations, or experimental validation of predicted conformational ensembles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors state that "DNA mechanics...can independently shape binding specificity beyond the linear code of base identity" and imply this is a general principle for TF-DNA recognition.
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The study examines 15 TFs, but the detailed mechanistic analyses (crystal structures, MD, BLI) are performed on only a few (ETS1, TBP, SOX2, EGR1). The extent to which the findings from these detailed cases generalize to the other 11 TFs is unclear. The classification of all 15 TFs into response categories is presented, but the relationship between structural class and response pattern is not systematically analyzed. The claim of a "structural logic" implies a predictive framework, but no model is presented that would allow prediction of nick sensitivity from structural features alone.
+  - **Why it matters** The paper's significance depends on establishing a general principle, not just documenting idiosyncratic effects in a few TFs. Without a systematic analysis relating structural features to nick sensitivity across all 15 TFs, the claim of a general "structural logic" is not supported.
+  - **Resolution test** Provide a systematic analysis correlating structural features (e.g., bendability, minor groove width, phosphate contacts) with nick sensitivity across all 15 TFs. Present a predictive model or at least a clear pattern that relates structural class to response type.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for binding measurements
+  - **Claim pointer** The authors state that "Signal intensities on the DNA chip quantitatively reflect binding preferences and have previously been shown to correlate with K D values measured by orthogonal methods."
+  - **Evidence pointer** Methods section, Universal Protein Binding Microarray; Extended Data Figure 1c
+  - **Concern** The correlation between microarray signal and K D is cited from prior work, but the dynamic range and sensitivity of the PIC-NIC assay for detecting changes in binding affinity are not characterized. For the BLI experiments, only qualitative descriptions are provided (e.g., "reduced binding affinity to the nonspecific level") without reporting the actual K D or kinetic rate constants. The claim of a "3-fold increase in binding signal" for SOX2 is presented without error bars or statistical significance.
+  - **Why it matters** The quantitative claims about binding enhancement or abolishment require rigorous measurement. Without reporting actual binding constants or at least calibrated signal-to-affinity relationships, the magnitude of the reported effects cannot be assessed.
+  - **Resolution test** Report K D values from BLI experiments with confidence intervals. Calibrate microarray signal to binding affinity using a dilution series or known standards. Provide replicate measurements for the SOX2 enhancement claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Methods section, PIC-NIC library design and measurements
+  - **Evidence pointer** Methods section
+  - **Issue** The formula for signal change is ambiguously written and the description of the two nick types (with and without 5' phosphate) could be clearer regarding which strand is nicked and how the phosphate is removed or retained.
+  - **Required correction** Rewrite the formula with clear parentheses and define all terms. Provide a schematic or clearer textual description of the two nick types and their construction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Methods section, All-atoms molecular dynamics simulation
+  - **Issue** The description of the MD simulations is brief. Force field parameters for the nicked DNA, the specific nicking protocol, equilibration details, and analysis methods for hydrogen bond analysis are not fully described.
+  - **Required correction** Provide additional methodological detail, including force field versions, nicking protocol, simulation length per replicate, and analysis scripts or parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Classification of nick positions
+  - **Evidence pointer** Figure 1d; Methods section
+  - **Issue** The percentages reported (e.g., ~30%, ~4%) are presented without confidence intervals or information about the number of positions per TF.
+  - **Required correction** Report the number of positions classified in each category per TF and provide confidence intervals for the aggregate percentages.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of structural data
+  - **Affected element** TBP and EGR1 crystal structures
+  - **Evidence pointer** Main text sections on TBP and EGR1; Extended Data Tables 1-2
+  - **Issue** The resolution of the crystal structures is not stated in the text. The claim that nicking reverts Hoogsteen pairing is based on comparing structures of nicked versus intact DNA, but the manuscript does not describe how the nicked DNA was prepared for crystallization or whether the nicked and intact structures were determined under comparable conditions.
+  - **Required correction** State the resolution of each structure and describe the crystallization conditions for nicked versus intact complexes. Discuss any potential artifacts from nicking during crystallization.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of DNA mechanics in TF recognition would benefit from more explicit comparison to prior work on DNA shape readout, indirect readout, and mechanical properties of DNA in protein-DNA recognition.
+  - **Required correction** Add brief discussion of how the present findings relate to established concepts of indirect readout and DNA shape recognition, and how PIC-NIC complements or extends existing approaches.
+
+## Risk / unsupported claims
+- The claim that "DNA mechanics...can independently shape binding specificity beyond the linear code of base identity" is presented as a general principle but is supported by detailed analysis of only a few TFs.
+- The claim that nicks at specific positions "rewire sequence preferences" is not supported by direct evidence in the text; no data showing altered sequence specificity are presented.
+- The claim that the PIC-NIC method "enables systematic investigation of the structural features of DNA that govern TF binding" is reasonable, but the validation of the method against known binding affinities is not described in sufficient detail.
+- The mechanistic interpretation of the SOX2 enhancement effect as "priming" of a recognition-competent conformation is speculative and not directly tested.
+- The statement that "nicking at position 2 accelerated ETS1 dissociation and reduced binding affinity to the nonspecific level" is not supported by reported numerical values.
+- The claim that "DNA backbone integrity...plays an active and position-specific role in TF recognition" is supported by the data, but the broader claim that this represents a "previously hidden layer of recognition logic" requires more evidence that this layer is biologically utilized rather than an artifact of the assay.

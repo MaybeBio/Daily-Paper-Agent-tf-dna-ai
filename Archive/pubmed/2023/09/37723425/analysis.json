@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37723425",
+  "title": "DeepCAC: a deep learning approach on DNA transcription factors classification based on multi-head self-attention and concatenate convolutional neural network.",
+  "authors": "Zhang, Jidong; Liu, Bo; Wu, Jiahui; Wang, Zhihan; Li, Jianqiang",
+  "journal": "BMC bioinformatics",
+  "published_date": "2023-09-19",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多头部自注意力与卷积神经网络对DNA转录因子序列进行分类预测，属于TF-DNA序列层面的深度学习应用，但未涉及三维互作建模或结合机制研究，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Understanding gene expression processes necessitates the accurate classification and identification of transcription factors, which is supported by high-throughput sequencing technologies. However, these techniques suffer from inherent limitations such as time consumption and high costs. To address these challenges, the field of bioinformatics has increasingly turned to deep learning technologies for analyzing gene sequences. Nevertheless, the pursuit of improved experimental results has led to the inclusion of numerous complex analysis function modules, resulting in models with a growing number of parameters. To overcome these limitations, it is proposed a novel approach for analyzing DNA transcription factor sequences, which is named as DeepCAC. This method leverages deep convolutional neural networks with a multi-head self-attention mechanism. By employing convolutional neural networks, it can effectively capture local hidden features in the sequences. Simultaneously, the multi-head self-attention mechanism enhances the identification of hidden features with long-distant dependencies. This approach reduces the overall number of parameters in the model while harnessing the computational power of sequence data from multi-head self-attention. Through training with labeled data, experiments demonstrate that this approach significantly improves performance while requiring fewer parameters compared to existing methods. Additionally, the effectiveness of our approach  is validated in accurately predicting DNA transcription factor sequences.",
+  "abstract_zh": "理解基因表达过程需要对转录因子进行精确的分类和识别，这得益于高通量测序技术的支持。然而，这些技术存在固有的局限性，如耗时和成本高昂。为应对这些挑战，生物信息学领域日益转向深度学习技术来分析基因序列。尽管如此，追求更优实验结果导致引入了大量复杂的分析功能模块，使得模型参数数量不断增加。为克服这些限制，提出了一种分析DNA转录因子序列的新方法，命名为DeepCAC。该方法利用深度卷积神经网络结合多头自注意力机制。通过卷积神经网络，它能有效捕捉序列中的局部隐藏特征。同时，多头自注意力机制增强了对具有长距离依赖性的隐藏特征的识别。这种方法减少了模型的总体参数数量，同时利用了多头自注意力对序列数据的计算能力。通过带标签数据的训练，实验表明，与现有方法相比，该方法在需要更少参数的情况下显著提升了性能。此外，我们的方法在准确预测DNA转录因子序列方面的有效性也得到了验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37723425/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37723425/",
+  "paper_page_path": "papers/pubmed/37723425/index.html"
+}

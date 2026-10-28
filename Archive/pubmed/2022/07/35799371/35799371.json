@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "35799371",
+    "doi": "10.1093/pcp/pcac095",
+    "title": "Exploiting Genomic Features to Improve the Prediction of Transcription Factor-Binding Sites in Plants."
+  },
+  "content": {
+    "abstract": "The identification of transcription factor (TF) target genes is central in biology. A popular approach is based on the location by pattern matching of potential cis-regulatory elements (CREs). During the last few years, tools integrating next-generation sequencing data have been developed to improve the performance of pattern matching. However, such tools have not yet been comprehensively evaluated in plants. Hence, we developed a new streamlined method aiming at predicting CREs and target genes of plant TFs in specific organs or conditions. Our approach implements a supervised machine learning strategy, which allows decision rule models to be learnt using TF ChIP-chip/seq experimental data. Different layers of genomic features were integrated in predictive models: the position on the gene, the DNA sequence conservation, the chromatin state and various CRE footprints. Among the tested features, the chromatin features were crucial for improving the accuracy of the method. Furthermore, we evaluated the transferability of predictive models across TFs, organs and species. Finally, we validated our method by correctly inferring the target genes of key TFs controlling metabolite biosynthesis at the organ level in Arabidopsis. We developed a tool-Wimtrap-to reproduce our approach in plant species and conditions/organs for which ChIP-chip/seq data are available. Wimtrap is a user-friendly R package that supports an R Shiny web interface and is provided with pre-built models that can be used to quickly get predictions of CREs and TF gene targets in different organs or conditions in Arabidopsis thaliana, Solanum lycopersicum, Oryza sativa and Zea mays.",
+    "keywords": [
+      "Arabidopsis thaliana",
+      "Cis-regulatory elements",
+      "Flavonoid target genes",
+      "Genomics",
+      "Plant organs",
+      "Predictive modeling",
+      "R package"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "Protein Binding/genetics",
+      "Genomics",
+      "Plants/metabolism",
+      "Chromatin/genetics",
+      "*Arabidopsis/genetics/metabolism",
+      "Binding Sites/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Riviere, Quentin",
+        "Corso, Massimiliano",
+        "Ciortan, Madalina",
+        "Noel, Gregoire",
+        "Verbruggen, Nathalie",
+        "Defrance, Matthieu"
+      ],
+      "short_names": [
+        "Riviere Q",
+        "Corso M",
+        "Ciortan M",
+        "Noel G",
+        "Verbruggen N",
+        "Defrance M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2296-5404",
+        "ORCID: 0000-0002-3090-3142"
+      ],
+      "affiliations": [
+        "Brussels Bioengineering School, Laboratory of Plant Physiology and molecular Genetics, Universite Libre de Bruxelles, Brussels 1050, Belgium.",
+        "Brussels Bioengineering School, Laboratory of Plant Physiology and molecular Genetics, Universite Libre de Bruxelles, Brussels 1050, Belgium.",
+        "INRAE, AgroParisTech, Institut Jean-Pierre Bourgin (IJPB), Universite Paris-Saclay, Versailles 78000, France.",
+        "Interuniversity Institute of Bioinformatics in Brussels, Machine Learning Group, Universite Libre de Bruxelles, Brussels 1050, Belgium.",
+        "Functional and Evolutionary Entomology, Gembloux Agro-Bio Tech, University of Liege, Passage des Deportes 2, Gembloux 5030, Belgium.",
+        "Brussels Bioengineering School, Laboratory of Plant Physiology and molecular Genetics, Universite Libre de Bruxelles, Brussels 1050, Belgium.",
+        "Interuniversity Institute of Bioinformatics in Brussels, Machine Learning Group, Universite Libre de Bruxelles, Brussels 1050, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rivière, Quentin",
+        "short_name": "Rivière Q",
+        "identifiers": [],
+        "affiliations": [
+          "Brussels Bioengineering School, Laboratory of Plant Physiology and molecular Genetics, Université Libre de Bruxelles, Brussels 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Corso, Massimiliano",
+        "short_name": "Corso M",
+        "identifiers": [],
+        "affiliations": [
+          "Brussels Bioengineering School, Laboratory of Plant Physiology and molecular Genetics, Université Libre de Bruxelles, Brussels 1050, Belgium.",
+          "INRAE, AgroParisTech, Institut Jean-Pierre Bourgin (IJPB), Université Paris-Saclay, Versailles 78000, France."
+        ]
+      },
+      {
+        "full_name": "Ciortan, Madalina",
+        "short_name": "Ciortan M",
+        "identifiers": [],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, Machine Learning Group, Université Libre de Bruxelles, Brussels 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Noël, Grégoire",
+        "short_name": "Noël G",
+        "identifiers": [],
+        "affiliations": [
+          "Functional and Evolutionary Entomology, Gembloux Agro-Bio Tech, University of Liège, Passage des Déportés 2, Gembloux 5030, Belgium."
+        ]
+      },
+      {
+        "full_name": "Verbruggen, Nathalie",
+        "short_name": "Verbruggen N",
+        "identifiers": [
+          "0000-0003-2296-5404"
+        ],
+        "affiliations": [
+          "Brussels Bioengineering School, Laboratory of Plant Physiology and molecular Genetics, Université Libre de Bruxelles, Brussels 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Defrance, Matthieu",
+        "short_name": "Defrance M",
+        "identifiers": [
+          "0000-0002-3090-3142"
+        ],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, Machine Learning Group, Université Libre de Bruxelles, Brussels 1050, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant & cell physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Cell Physiol"
+    ],
+    "pub_date": "2022 Oct 31",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/09 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "41010053",
+      "39640721",
+      "39013383",
+      "38712066",
+      "38028646",
+      "37338338",
+      "36616201"
+    ],
+    "refs": [],
+    "similar": [
+      "35799371",
+      "25442502",
+      "22576095",
+      "28750606",
+      "29525962",
+      "30395277",
+      "37166595",
+      "37788349",
+      "33964211",
+      "25957350",
+      "34953471",
+      "34292930",
+      "29229750",
+      "30517703",
+      "15980498",
+      "32858223",
+      "26291518",
+      "35713985",
+      "33104784",
+      "29525963",
+      "26400163",
+      "19956545",
+      "28068916",
+      "27519564",
+      "28373393",
+      "33631799",
+      "26818008",
+      "24564277",
+      "33656670",
+      "20840729",
+      "31942977",
+      "23272209",
+      "34448158",
+      "22773751",
+      "12820902",
+      "25303887",
+      "34251618",
+      "24565265",
+      "30598100",
+      "38841126",
+      "34607350",
+      "28623590",
+      "24477691",
+      "28064247",
+      "23758851",
+      "35681170",
+      "22058225",
+      "22955990",
+      "29272447",
+      "25361952",
+      "33372147",
+      "20158869",
+      "37132521",
+      "34488759",
+      "30866803",
+      "24071585",
+      "15890068",
+      "28716409",
+      "31937681",
+      "33846597",
+      "20025756",
+      "25918418",
+      "24603674",
+      "34219317",
+      "26045464",
+      "31038680",
+      "25220462",
+      "29769331",
+      "27557775",
+      "24278002",
+      "30598689",
+      "38517697",
+      "18314581",
+      "27155066",
+      "36786225",
+      "30909785",
+      "27503086",
+      "37425940",
+      "23382538",
+      "29140473",
+      "31345953",
+      "21729923",
+      "25775564",
+      "20203663",
+      "32689977",
+      "25213249",
+      "33098715",
+      "22479205",
+      "21347314",
+      "16126853",
+      "36155619",
+      "33416862",
+      "36264496",
+      "37850650",
+      "38679745",
+      "36264484",
+      "38631728",
+      "39013383",
+      "30922998",
+      "36494366",
+      "33124660",
+      "33024441",
+      "39062464",
+      "38411627",
+      "34850907",
+      "38149460",
+      "38260561",
+      "29808512",
+      "36047457",
+      "37229121",
+      "30630522",
+      "39150804",
+      "37224527",
+      "39010878",
+      "37000617",
+      "39318505",
+      "35648859",
+      "37711605"
+    ],
+    "review": [
+      "35799371",
+      "20840729",
+      "28716409"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hdl.handle.net/2268/304173",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcac095",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

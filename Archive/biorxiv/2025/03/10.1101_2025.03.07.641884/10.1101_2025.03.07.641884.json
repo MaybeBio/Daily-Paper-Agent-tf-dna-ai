@@ -1,0 +1,111 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.07.641884",
+  "title": "Predictions from Deep Learning Propose Substantial Protein-Carbohydrate Interplay",
+  "doi": "10.1101/2025.03.07.641884",
+  "abstract": "It is a grand challenge to identify all the protein – carbohydrate interactions in an organism. Direct experiments would require extensive libraries of glycans to definitively distinguish binding from non-binding proteins. Computational screening of proteins for carbohydrate-binding provides an attractive and ultimately testable alternative. Recent computational techniques have focused primarily on which protein residues interact with carbohydrates or which carbohydrate species a protein binds to. Current estimates label 1.5 to 5% of proteins as carbohydrate-binding proteins; however, 50-70% of proteins are known to be glycosylated, suggesting a potential wealth of proteins that bind to carbohydrates. We therefore developed a novel dataset and neural network architecture, named P rotein i nteraction of Ca rbohydrates P redictor (PiCAP), to predict whether a protein non-covalently binds to a carbohydrate. We trained PiCAP on a dataset of known carbohydrate binders, and we selected proteins that we identified as likely not to bind carbohydrates, including DNA-binding transcription factors, cytoskeletal components, selected antibodies, and selected small-molecule-binding proteins. PiCAP achieves a 90% balanced accuracy on protein-level predictions of carbohydrate binding/non-binding. Using the same dataset, we developed a model named Ca rbohydrate P rotein S ite I denti f ier 2 (CAPSIF2) to predict protein residues that interact non-covalently with carbohydrates. CAPSIF2 achieves a Dice coefficient of 0.57 on residue-level predictions on our independent test dataset, outcompeting all previous models for this task. To demonstrate the biological applicability of PiCAP and CAPSIF2, we investigated cell surface proteins of human neural cells and further predicted the likelihood of three proteomes, notably E. coli, M. musculus , and H. sapiens , to bind to carbohydrates. PiCAP predicts that approximately 35-40% of proteins in these proteomes bind carbohydrates, indicating a substantial interplay of protein-carbohydrate interactions for cellular functionality. <h4>Significance Statement</h4> The totality of carbohydrate-protein interactions remains elusive, in part due to the inability to test proteomes versus glycomes in a high throughput manner. Here we show the first high-throughput methodology to predict protein-carbohydrate interactions at proteomic scales by using structural and sequence information. This information will allow scientists to target predicted protein-carbohydrate interactions to better determine how the elusive carbohydrate biomolecules play roles in all cellular functions.",
+  "authors": [
+    "Canner SW",
+    "Schnaar RL",
+    "Gray JJ"
+  ],
+  "published_date": "2025-03-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.641884",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.641884.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR989220",
+    "raw_record": {
+      "id": "PPR989220",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.07.641884",
+      "title": "Predictions from Deep Learning Propose Substantial Protein-Carbohydrate Interplay",
+      "authorString": "Canner SW, Schnaar RL, Gray JJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Canner SW",
+            "lastName": "Canner",
+            "firstName": "Samuel",
+            "initials": "SW"
+          },
+          {
+            "fullName": "Schnaar RL",
+            "lastName": "Schnaar",
+            "firstName": "Ronald",
+            "initials": "RL"
+          },
+          {
+            "fullName": "Gray JJ",
+            "lastName": "Gray",
+            "firstName": "Jeffrey",
+            "initials": "JJ"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "It is a grand challenge to identify all the protein – carbohydrate interactions in an organism. Direct experiments would require extensive libraries of glycans to definitively distinguish binding from non-binding proteins. Computational screening of proteins for carbohydrate-binding provides an attractive and ultimately testable alternative. Recent computational techniques have focused primarily on which protein residues interact with carbohydrates or which carbohydrate species a protein binds to. Current estimates label 1.5 to 5% of proteins as carbohydrate-binding proteins; however, 50-70% of proteins are known to be glycosylated, suggesting a potential wealth of proteins that bind to carbohydrates. We therefore developed a novel dataset and neural network architecture, named  P rotein  i nteraction of  Ca rbohydrates  P redictor (PiCAP), to predict whether a protein non-covalently binds to a carbohydrate. We trained PiCAP on a dataset of known carbohydrate binders, and we selected proteins that we identified as likely  not to bind carbohydrates, including DNA-binding transcription factors, cytoskeletal components, selected antibodies, and selected small-molecule-binding proteins. PiCAP achieves a 90% balanced accuracy on protein-level predictions of carbohydrate binding/non-binding. Using the same dataset, we developed a model named  Ca rbohydrate  P rotein  S ite  I denti  f ier 2 (CAPSIF2) to predict protein residues that interact non-covalently with carbohydrates. CAPSIF2 achieves a Dice coefficient of 0.57 on residue-level predictions on our independent test dataset, outcompeting all previous models for this task. To demonstrate the biological applicability of PiCAP and CAPSIF2, we investigated cell surface proteins of human neural cells and further predicted the likelihood of three proteomes, notably  E. coli, M. musculus , and  H. sapiens , to bind to carbohydrates. PiCAP predicts that approximately 35-40% of proteins in these proteomes bind carbohydrates, indicating a substantial interplay of protein-carbohydrate interactions for cellular functionality.  <h4>Significance Statement</h4>  The totality of carbohydrate-protein interactions remains elusive, in part due to the inability to test proteomes versus glycomes in a high throughput manner. Here we show the first high-throughput methodology to predict protein-carbohydrate interactions at proteomic scales by using structural and sequence information. This information will allow scientists to target predicted protein-carbohydrate interactions to better determine how the elusive carbohydrate biomolecules play roles in all cellular functions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.07.641884"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42150072",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2026 May;123(21):e2523342123",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-15",
+      "firstPublicationDate": "2025-03-12",
+      "firstIndexDate": "2025-03-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "40754871",
+    "doi": "10.2174/0118715303417142250724042300",
+    "title": "Diagnostic Biomarkers and Targeted Drug Prediction for Acute Kidney Injury: A Computational Approach."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Acute Kidney Injury (AKI) is a clinical syndrome with rapid onset and poor prognosis, and existing diagnostic methods suffer from low sensitivity and delay. To achieve early identification and precise intervention, there is an urgent need to discover new precise biomarkers. METHODS: AKI samples were acquired from Gene Expression Omnibus (GEO) database. AKI-related module genes were identified using the \"WGCNA\" package. The \"Limma\" package was used to filter Differentially Expressed Genes (DEGs). Protein interaction networks were constructed by intersecting key modular genes with DEGs, and six algorithms (MCC, MNC, Degree, EPC, Closeness, and Radiality) in the cytoHubba plug-in were combined to screen candidate genes. Diagnostic biomarkers were cross-screened using LASSO regression with Support Vector Machine-Recursive Feature Elimination (SVM-RFE) machine learning algorithm, and their predictive performance was verified by Receiver Operating Characteristic (ROC) analysis. Transcription Factors (TFs) regulatory network was constructed applying Cytoscape 3.8.0. Finally, the prediction and molecular docking analysis of potential target drugs were performed using the DSigDB database and AutoDockTools. RESULTS: A total of 498 key modular genes significantly associated with AKI were screened, and 88 AKI- related DEGs and 18 candidate genes were further identified. Importantly, four biomarkers with high diagnostic value (DDX17, FUBP1, PABPN1, and SF3B1) were screened and validated using dual machine learning algorithms, including LASSO regression and SVM-RFE. The area under the ROC curve (AUC) values for these biomarkers were greater than 0.8, indicating good predictive performance. Moreover, 19 TFs and 17 miRNA of SF3B1, 10 TFs and 58 miRNA of PABPN1, 15 TFs and 60 miRNA of FUBP1, together with 13 TFs and 109 miRNA of DDX17, were screened. Drug prediction and molecular docking analysis revealed that Demecolcine and Testosterone Enanthate stably bind to certain markers. DISCUSSION: Four potential biomarkers closely related to AKI were identified, which may be involved in the occurrence and progression of AKI by regulating key processes such as transcription. The predicted Demecolcine and Testosterone Enanthate may also be involved in the repair of renal injury by regulating key target genes. Although further experimental validation is still needed, these may still provide new intervention strategies for the treatment of AKI. CONCLUSION: To conclude, four AKI biomarkers with high diagnostic value were screened by integrating multiple computational methods, revealing a new perspective on the molecular mechanism of AKI. The results provided a new theoretical basis for achieving early precision diagnosis and individualized treatment of AKI.",
+    "keywords": [
+      "Acute kidney injury",
+      "diagnostic biomarkers",
+      "drug prediction",
+      "molecular docking.",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Acute Kidney Injury/genetics/diagnosis/drug therapy/metabolism",
+      "Humans",
+      "Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "Molecular Docking Simulation/methods",
+      "Protein Interaction Maps",
+      "Databases, Genetic",
+      "Gene Regulatory Networks/drug effects",
+      "Molecular Targeted Therapy/methods",
+      "Gene Expression Profiling/methods",
+      "Predictive Value of Tests"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Liuyin",
+        "Pan, Lian",
+        "Gao, Jiayang",
+        "Jiang, Yi",
+        "Li, Tingting",
+        "Li, Ruoqing"
+      ],
+      "short_names": [
+        "Zhou L",
+        "Pan L",
+        "Gao J",
+        "Jiang Y",
+        "Li T",
+        "Li R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China.",
+        "Department of Plastic Surgery, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China.",
+        "Department of Biopharmaceutical, College of Food Science and Technology, Shanghai Ocean University, Shanghai, 200090, China.",
+        "Department of General Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China.",
+        "Department of General Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China.",
+        "Department of General Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Liuyin",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Lian",
+        "short_name": "Pan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jiayang",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biopharmaceutical, College of Food Science and Technology, Shanghai Ocean University, Shanghai, 200090, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yi",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruoqing",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, Chongqing University Central Hospital, Chongqing Emergency Medical Center, Chongqing Key Laboratory of Emergency Medicine, Chongqing, 400014, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine, metabolic & immune disorders drug targets"
+    ],
+    "journal_abbrev": [
+      "Endocr Metab Immune Disord Drug Targets"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/04 06:27",
+    "fetched_at": "2026-09-30 23:21:30"
+  },
+  "links": {
+    "cites": [
+      "42469921",
+      "41694574"
+    ],
+    "refs": [
+      "40200699",
+      "40155864",
+      "39976098",
+      "39928198",
+      "39670498",
+      "39623254",
+      "39558651",
+      "39406703",
+      "38887322",
+      "38494585",
+      "38145013",
+      "38093163",
+      "37622553",
+      "37605414",
+      "37452741",
+      "37344564",
+      "37014433",
+      "36879298",
+      "36875100",
+      "36207374",
+      "36164607",
+      "36056063",
+      "36009053",
+      "35877572",
+      "35334515",
+      "35274005",
+      "35059728",
+      "34732838",
+      "34206256",
+      "34122087",
+      "33593258",
+      "33416087",
+      "33406503",
+      "32905346",
+      "32858223",
+      "32829575",
+      "31200327",
+      "29725116",
+      "29389516",
+      "29225804",
+      "28868295",
+      "28076379",
+      "27084535",
+      "25956201",
+      "20736804",
+      "18546293"
+    ],
+    "similar": [
+      "40754871",
+      "40860289",
+      "39375405",
+      "39142001",
+      "38815767",
+      "40374840",
+      "40103812",
+      "40859027",
+      "41504784",
+      "41316541",
+      "34218797",
+      "38650009",
+      "41533020",
+      "41052072",
+      "39394418",
+      "36532015",
+      "35713363",
+      "41816328",
+      "41479901",
+      "41508240",
+      "39139563",
+      "41107920",
+      "41511918",
+      "41703488",
+      "41088461",
+      "39176085",
+      "39953122",
+      "40997906",
+      "42292668",
+      "40421012",
+      "42278407",
+      "39341981",
+      "41288681",
+      "35658960",
+      "42315974",
+      "40830558",
+      "41044520",
+      "41940395",
+      "42537010",
+      "41583295",
+      "41388523",
+      "39586719",
+      "39730379",
+      "41834116",
+      "41214111",
+      "38863714",
+      "38951833",
+      "42196413",
+      "39351239",
+      "42123756",
+      "40312440",
+      "41883400",
+      "39875572",
+      "40692778",
+      "37449753",
+      "39556279",
+      "41190071",
+      "41300841",
+      "41432483",
+      "39427825",
+      "39695788",
+      "40078458",
+      "39396400",
+      "41196851",
+      "41006883",
+      "40901831",
+      "40093012",
+      "36125921",
+      "39950480",
+      "37525915",
+      "38660311",
+      "39749331",
+      "40328901",
+      "41872824",
+      "41189222",
+      "41291978",
+      "39356055",
+      "38912048",
+      "41200172",
+      "40599778",
+      "34555052",
+      "41146237",
+      "39650552",
+      "42015036",
+      "41896610",
+      "39086489",
+      "41117218",
+      "42397093",
+      "40263690",
+      "38260098",
+      "42461218",
+      "41583468",
+      "39609718",
+      "40891136",
+      "39028999",
+      "39559355",
+      "41031145",
+      "39735547",
+      "40977739",
+      "40913866"
+    ],
+    "review": [
+      "40754871"
+    ],
+    "pmc": [
+      "13334258"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40754871/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-351",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

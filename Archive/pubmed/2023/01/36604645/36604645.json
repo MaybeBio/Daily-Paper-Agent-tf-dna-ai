@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "36604645",
+    "doi": "10.1186/s12870-022-04012-x",
+    "title": "Analysis of co-expression and gene regulatory networks associated with sterile lemma development in rice."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The sterile lemma is a unique organ of the rice (Oryza sativa L.) spikelet. However, the characteristics and origin of the rice sterile lemma have not been determined unequivocally, so it is important to elucidate the molecular mechanism of the development of the sterile lemma. RESULTS: In the paper, we outline the regulatory mechanism of sterile lemma development by LONG STERILE LEMMA1 (G1), which has been identified as the gene controlling sterile lemma development. Based on the comprehensive analyses of transcriptome dynamics during sterile lemma development with G1 alleles between wild-type (WT) and mutant (MT) in rice, we obtained co-expression data and regulatory networks related to sterile lemma development. Co-transfection assays of rice protoplasts confirmed that G1 affects the expression of various phytohormone-related genes by regulating a number of critical transcription factors, such as OsLBD37 and OSH1. The hormone levels in sterile lemmas from WT and MT of rice supports the hypotheses that lower auxin, lower gibberellin, and higher cytokinin concentrations are required to maintain a normal phenotype of sterile lemmas. CONCLUSION: The regulatory networks have considerable reference value, and some of the regulatory relationships exhibiting strong correlations are worthy of further study. Taken together, these work provided a detailed guide for further studies into the molecular mechanism of sterile lemma development.",
+    "keywords": [
+      "Co-expression network",
+      "G1",
+      "Machine learning",
+      "Regulatory network",
+      "Rice",
+      "Sterile lemma"
+    ],
+    "mesh_terms": [
+      "*Oryza",
+      "Gene Regulatory Networks",
+      "Plant Proteins/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Xi",
+        "Wei, Yidong",
+        "Zheng, Yanmei",
+        "Wei, Linyan",
+        "Wu, Fangxi",
+        "Cai, Qiuhua",
+        "Xie, Huaan",
+        "Zhang, Jianfu"
+      ],
+      "short_names": [
+        "Luo X",
+        "Wei Y",
+        "Zheng Y",
+        "Wei L",
+        "Wu F",
+        "Cai Q",
+        "Xie H",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Agriculture, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China. huaanxie@163.com.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China. huaanxie@163.com.",
+        "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China. jianfzhang@163.com.",
+        "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China. jianfzhang@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Xi",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yidong",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yanmei",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Linyan",
+        "short_name": "Wei L",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Fangxi",
+        "short_name": "Wu F",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Qiuhua",
+        "short_name": "Cai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Huaan",
+        "short_name": "Xie H",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China. huaanxie@163.com.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China. huaanxie@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianfu",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Rice Research Institute, Fujian Academy of Agricultural Sciences, Fuzhou, 350019, China. jianfzhang@163.com.",
+          "Key Laboratory of Germplasm Innovation and Molecular Breeding of Hybrid Rice for South China, Ministry of Agriculture and Affairs P.R. China/Incubator of National Key Laboratory of Germplasm Innovation and Molecular Breeding between Fujian and Ministry of Sciences and Technology/Fuzhou Branch, National Rice Improvement Center of China/Fujian Engineering Laboratory of Crop Molecular Breeding/Fujian Key Laboratory of Rice Molecular Breeding, Fuzhou, 350003, China. jianfzhang@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC plant biology"
+    ],
+    "journal_abbrev": [
+      "BMC Plant Biol"
+    ],
+    "pub_date": "2023 Jan 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/06 06:00",
+    "fetched_at": "2026-09-28 18:41:54"
+  },
+  "links": {
+    "cites": [
+      "40284096",
+      "40095140"
+    ],
+    "refs": [
+      "33469925",
+      "33408412",
+      "32585190",
+      "32061119",
+      "31883119",
+      "31389120",
+      "30683860",
+      "30677211",
+      "30628157",
+      "30032251",
+      "29632179",
+      "29567449",
+      "29085070",
+      "28847935",
+      "28342864",
+      "28321650",
+      "27764111",
+      "27717919",
+      "27462334",
+      "26744119",
+      "25754802",
+      "25535376",
+      "25194027",
+      "24578505",
+      "23629832",
+      "23267064",
+      "22437844",
+      "22207572",
+      "21973088",
+      "20927193",
+      "20634950",
+      "20227044",
+      "19910308",
+      "19901325",
+      "19228340",
+      "19132872",
+      "19114008",
+      "18980657",
+      "18937034",
+      "18567825",
+      "18546601",
+      "18173378",
+      "17485859",
+      "17220367",
+      "17138625",
+      "16970618",
+      "16919402",
+      "16808845",
+      "16488558",
+      "16359558",
+      "15604710",
+      "15491917",
+      "15295098",
+      "14597658",
+      "12932326",
+      "12835399",
+      "12832071",
+      "12668768",
+      "12609740",
+      "11922106",
+      "11713520",
+      "10592173"
+    ],
+    "similar": [
+      "36604645",
+      "19901325",
+      "33308141",
+      "30032251",
+      "28843032",
+      "31768114",
+      "31806675",
+      "25224972",
+      "38498476",
+      "24372518",
+      "34418975",
+      "27462334",
+      "23629832",
+      "36659109",
+      "27522958",
+      "28847935",
+      "35403315",
+      "20395452",
+      "20227044",
+      "22332708",
+      "22203474",
+      "23689259",
+      "28018389",
+      "33143090",
+      "26441054",
+      "11466523",
+      "24596329",
+      "29564499",
+      "31092192",
+      "20193092",
+      "31919631",
+      "29939322",
+      "25194027",
+      "20511295",
+      "28428794",
+      "22363552",
+      "27357232",
+      "22286138",
+      "35008665",
+      "22933119",
+      "34360691",
+      "23551229",
+      "21806801",
+      "27838799",
+      "33810044",
+      "22897567",
+      "37033767",
+      "20938801",
+      "32987927",
+      "33421204",
+      "26613898",
+      "29031031",
+      "31950589",
+      "34165836",
+      "26510573",
+      "33543390",
+      "28830102",
+      "16200395",
+      "24840804",
+      "21924254",
+      "12081375",
+      "33668376",
+      "34089089",
+      "36042159",
+      "33474591",
+      "22207572",
+      "16146529",
+      "31521225",
+      "24798203",
+      "21481033",
+      "23449645",
+      "22136599",
+      "28066457",
+      "35883135",
+      "25511432",
+      "31272720",
+      "27496332",
+      "24089433",
+      "30603810",
+      "20003164",
+      "31410483",
+      "33692374",
+      "25428615",
+      "26045464",
+      "23872535",
+      "9489007",
+      "21317545",
+      "32149461",
+      "26140668",
+      "18180880",
+      "18952859",
+      "30824005",
+      "33741527",
+      "31823718"
+    ],
+    "review": [
+      "36604645",
+      "34165836"
+    ],
+    "pmc": [
+      "9817312"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-022-04012-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36604645/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36604645",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "34339724",
+    "doi": "10.1016/j.jmb.2021.167181",
+    "title": "Paths Through the Yeast Regulatory Network in Different Physiological States."
+  },
+  "content": {
+    "abstract": "We analyse paths through the regulatory networks that control gene-expression patterns in Yeast, in five different physiological states: cell cycle, DNA damage, stress response, diauxic shift, and sporulation. The network in each state is specified as a directed graph, containing different sets of edges connecting pairs selected from a combined set of 1475 nodes. Each network contains some nodes that have no parents, and others that have no children. We call these, respectively, 'source' and 'sink' nodes. For each network we enumerate paths between source and sink nodes. In a previous paper (Lesk and Konagurthu, 2020), we defined, extracted and compared the neighbourhoods of each transcription factor in different physiological states, and how the system reconfigures itself. Here we compare the usage of nodes and edges by different networks, and how they are assembled into paths. The picture that emerges is that the networks are not disjoint but show substantial sharing of nodes and edges; however, they assemble these materials into different sets of paths. Four of the networks, other than the cell-cycle network, contain paths between only a small fraction (<13%) of possible source-sink pairs. Although the cell-cycle network is not an outlier in terms of total number of nodes and edges, and number of sink nodes, it is very much an outlier in having a greater proportion of source-to-sink paths than the other networks.",
+    "keywords": [
+      "pathway analysis and comparison",
+      "regulatory networks",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Cell Cycle/*genetics",
+      "Computational Biology/methods",
+      "DNA Damage",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Fungal",
+      "Gene Ontology",
+      "*Gene Regulatory Networks",
+      "Molecular Sequence Annotation",
+      "Saccharomyces cerevisiae/*genetics/growth & development/metabolism",
+      "Saccharomyces cerevisiae Proteins/classification/*genetics/metabolism",
+      "Signal Transduction",
+      "Spores, Fungal/genetics/growth & development/metabolism",
+      "Stress, Physiological/*genetics",
+      "Transcription Factors/classification/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lesk, Arthur M",
+        "Konagurthu, Arun S"
+      ],
+      "short_names": [
+        "Lesk AM",
+        "Konagurthu AS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology and Center for Computational Biology and Bioinformatics, The Pennsylvania State University, University Park, PA 16802, USA. Electronic address: aml25@psu.edu.",
+        "Department of Data Science and Artificial Intelligence, Monash University, Clayton, VIC 3800, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lesk, Arthur M",
+        "short_name": "Lesk AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology and Center for Computational Biology and Bioinformatics, The Pennsylvania State University, University Park, PA 16802, USA. Electronic address: aml25@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Konagurthu, Arun S",
+        "short_name": "Konagurthu AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Science and Artificial Intelligence, Monash University, Clayton, VIC 3800, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Oct 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/03 06:00",
+    "fetched_at": "2026-09-27 21:43:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34339724",
+      "32976569",
+      "12399584",
+      "18237406",
+      "26576632",
+      "20938527",
+      "20525821",
+      "23066959",
+      "29392949",
+      "32054475",
+      "31299083",
+      "19543377",
+      "23715978",
+      "18305101",
+      "20587029",
+      "15556037",
+      "25957506",
+      "18237429",
+      "14555958",
+      "23674068",
+      "18318890",
+      "28701522",
+      "20148391",
+      "18327887",
+      "19372386",
+      "32343701",
+      "17946312",
+      "20842291",
+      "14704355",
+      "19358738",
+      "25009286",
+      "28628618",
+      "14595359",
+      "14993204",
+      "39026169",
+      "30899000",
+      "15870279",
+      "21757539",
+      "15372033",
+      "23985319",
+      "7791799",
+      "20929850",
+      "33608896",
+      "15044243",
+      "23274654",
+      "17069658",
+      "18447957",
+      "19105839",
+      "24694393",
+      "23810556",
+      "22442115",
+      "35183229",
+      "25844671",
+      "23658761",
+      "11988575",
+      "21586585",
+      "20838583",
+      "21689484",
+      "22784859",
+      "15371544",
+      "24714560",
+      "19273534",
+      "25411400",
+      "15748298",
+      "27387517",
+      "15113405",
+      "24699245",
+      "21119627",
+      "26678917",
+      "21976379",
+      "19743423",
+      "23636944",
+      "23873954",
+      "27544903",
+      "20640818",
+      "15684073",
+      "23555806",
+      "23615444",
+      "20519745",
+      "19594885",
+      "12560331",
+      "22365828",
+      "26147804",
+      "24470573",
+      "18769540",
+      "12509776",
+      "24528924",
+      "26079307",
+      "32698721",
+      "19682934",
+      "21071802",
+      "33179750",
+      "34495680",
+      "32613890",
+      "34982769",
+      "28327289",
+      "34071437",
+      "29069589",
+      "29684007",
+      "35077468",
+      "36215333",
+      "37485750",
+      "38211890",
+      "35639793",
+      "35353818",
+      "37939998",
+      "22531117",
+      "15037758",
+      "37191191",
+      "33849335",
+      "31762711",
+      "28924302",
+      "17699619",
+      "35974494",
+      "20158873",
+      "33488676",
+      "35885201",
+      "36038610",
+      "33047061",
+      "36229997",
+      "34950902",
+      "37964852"
+    ],
+    "review": [
+      "34339724",
+      "15556037",
+      "25957506",
+      "20148391",
+      "20842291",
+      "33608896",
+      "19743423"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00414-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/34339724",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

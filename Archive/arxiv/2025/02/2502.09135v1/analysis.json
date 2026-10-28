@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2502.09135v1",
+  "title": "Interpreting and Steering Protein Language Models through Sparse Autoencoders",
+  "authors": "Edith Natalia Villegas Garcia; Alessio Ansuini",
+  "journal": "",
+  "published_date": "2025-02-13",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用稀疏自编码器解释蛋白语言模型ESM-2的内部表征，识别结合位点等蛋白特征并引导序列生成，虽涉及蛋白-DNA互作相关特征但非核心TF-DNA体系，方法可迁移至本课题。",
+  "abstract": "The rapid advancements in transformer-based language models have revolutionized natural language processing, yet understanding the internal mechanisms of these models remains a significant challenge. This paper explores the application of sparse autoencoders (SAE) to interpret the internal representations of protein language models, specifically focusing on the ESM-2 8M parameter model. By performing a statistical analysis on each latent component's relevance to distinct protein annotations, we identify potential interpretations linked to various protein characteristics, including transmembrane regions, binding sites, and specialized motifs. We then leverage these insights to guide sequence generation, shortlisting the relevant latent components that can steer the model towards desired targets such as zinc finger domains. This work contributes to the emerging field of mechanistic interpretability in biological sequence models, offering new perspectives on model steering for sequence design.",
+  "abstract_zh": "基于Transformer的语言模型的快速进展已经彻底改变了自然语言处理领域，然而理解这些模型的内部机制仍然是一个重大挑战。本文探讨了将稀疏自编码器（SAE）应用于解释蛋白质语言模型的内部表示，特别聚焦于ESM-2 8M参数模型。通过对每个潜在组件与不同蛋白质注释的相关性进行统计分析，我们识别出与多种蛋白质特征相关的潜在解释，包括跨膜区域、结合位点和特异性基序。随后，我们利用这些见解来指导序列生成，筛选出能够引导模型朝向锌指结构域等目标的相关潜在组件。这项工作为生物序列模型中的机制可解释性新兴领域做出了贡献，为序列设计的模型引导提供了新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2502.09135v1",
+  "source_url": "https://arxiv.org/abs/2502.09135v1",
+  "paper_page_path": "papers/arxiv/2502.09135v1/index.html"
+}

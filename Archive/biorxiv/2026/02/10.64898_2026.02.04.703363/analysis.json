@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.04.703363",
+  "title": "Mapping trans -eQTLs at single-cell resolution using Latent Interaction Variational Inference",
+  "authors": "Vagiaki D; Heinen T; Saraswat M; Clarke B; Stegle O",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-06",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用变分自编码器映射单细胞trans-eQTL，聚焦遗传变异与基因表达关联，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Single-cell expression quantitative trait loci (eQTL) studies hold promise for linking genetic variants to changes in gene expression in individual cells, thereby offering deeper insights into the genetic basis of human traits and diseases. Existing methods for mapping cis effects rely on predefined cell types, pseudobulk aggregation, or single-gene association tests, and are thus limited in their ability to detect complex trans effects that act across gene networks and cell-type subpopulations. Here, we present L atent I nteraction V ariational I nference ( LIVI ), an interpretable deep learning framework for efficient mapping of trans genetic effects at cellular resolution. LIVI employs a structured sparse variational autoencoder architecture to decompose observed gene expression profiles into cell-state- and donor-specific variation. The model enables efficient donor-level association testing while retaining single-cell resolution and interpretation. Applied to the OneK1K dataset, LIVI discovered a greater number of trans -eQTLs than alternative latent variable methods, yielded trans -eQTLs missed by conventional single-gene testing strategies and revealed the cell types and genes implicated in polygenic risk for autoimmune diseases. All in all, we demonstrate that LIVI is a powerful approach for linking genetics to gene regulation and through to human traits.",
+  "abstract_zh": "单细胞表达数量性状位点（eQTL）研究有望将遗传变异与单个细胞中基因表达的变化联系起来，从而为人类性状和疾病的遗传基础提供更深入的见解。现有的顺式效应定位方法依赖于预定义的细胞类型、伪批量聚合或单基因关联检验，因此在检测跨基因网络和细胞类型亚群作用的复杂反式效应方面能力有限。在此，我们提出潜在交互变分推断（LIVI），一种可解释的深度学习框架，用于在细胞分辨率下高效定位反式遗传效应。LIVI采用结构化稀疏变分自编码器架构，将观察到的基因表达谱分解为细胞状态和供体特异性变异。该模型在保持单细胞分辨率和可解释性的同时，实现了高效的供体水平关联检验。应用于OneK1K数据集时，LIVI发现了比替代潜变量方法更多的反式eQTL，识别出传统单基因检验策略遗漏的反式eQTL，并揭示了与自身免疫疾病多基因风险相关的细胞类型和基因。总之，我们证明LIVI是将遗传学与基因调控及人类性状联系起来的有力方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703363",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703363",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.04.703363/index.html"
+}

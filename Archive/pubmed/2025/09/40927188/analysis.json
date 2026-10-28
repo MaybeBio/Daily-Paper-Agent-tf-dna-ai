@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40927188",
+  "title": "Identification and validation for biomarkers associated with mitochondrial metabolism in chronic obstructive pulmonary disease.",
+  "authors": "Wang, Wenjun; Wu, Lanxiang; Ouyang, Chao; Huang, Tao",
+  "journal": "Frontiers in medicine",
+  "published_date": "2025-09-10",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学与机器学习筛选COPD中线粒体代谢相关生物标志物，虽涉及转录因子预测但非蛋白质-DNA互作核心，且无AI/物理模拟结合建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Chronic obstructive pulmonary disease (COPD) is a chronic respiratory disease. However, the biological role of mitochondrial metabolism (MM) in COPD remains poorly understood. This study aimed to explore the underlying mechanisms of MM in COPD using bioinformatics methods. METHODS: The datasets GSE57148 and GSE8581 were downloaded from Gene Expression Omnibus (GEO), and 1,234 mitochondrial metabolism-related genes (MM-RGs) were downloaded from the literature. In GSE57148 dataset, differentially expressed genes (DEGs) were determined. The intersection of DEGs and MM-RGs was taken to obtain candidate genes. Protein-protein interaction (PPI) network was used to obtained candidate key genes. Machine learning was employed to detect key genes. The biomarkers were identified through expression validation and receiver operating characteristic (ROC) curves. Subsequently, a nomogram was developed to forecast the likelihood of developing COPD. In addition, functional enrichment analysis, immune infiltration, molecular regulatory network, and drug prediction were carried out. Finally, reverse transcription-quantitative polymerase chain reaction (RT-qPCR) and immunohistochemistry analysis were used to verify DEGs of lung tissues of COPD patients and controls. RESULTS: Adenine phosphoribosyltransferase (APRT) and lecithin-cholesterol acyltransferase (LCAT) were identified as potential biomarkers. Subsequently, a nomogram was formulated based on these two biomarkers, revealing their significant diagnostic potential. Pathways co-enriched by two biomarkers included ribosome, among others. Immune infiltration analysis showed that 15 types of immune cells were differential immune cells. APRT predicted a total of 30 miRNAs and LCAT predicted a total of 17 miRNAs. APRT was predicted to be targeted by 30 microRNAs (miRNAs), while LCAT was associated with 17 miRNAs. Additionally, 178 transcription factors (TFs) were predicted to regulate APRT, and 86 TFs were predicted for LCAT. TFs shared by both biomarkers include SPI1, CTCF and BCL3, etc. Finally, drug prediction analysis found a total of 114 target drugs for APRT and 156 target drugs for LCAT. The mRNA and protein expression of APRT and LCAT were significantly decreased in COPD patients' lung tissues. CONCLUSION: APRT and LCAT were identified as biomarkers for COPD, and this provides deeper understanding into the mechanisms behind COPD and identifies potential markers for early diagnosis and therapeutic intervention.",
+  "abstract_zh": "背景：慢性阻塞性肺疾病（COPD）是一种慢性呼吸系统疾病。然而，线粒体代谢（MM）在COPD中的生物学作用仍知之甚少。本研究旨在利用生物信息学方法探讨MM在COPD中的潜在机制。方法：从基因表达综合数据库（GEO）下载数据集GSE57148和GSE8581，并从文献中获取1,234个线粒体代谢相关基因（MM-RGs）。在GSE57148数据集中，确定差异表达基因（DEGs）。取DEGs与MM-RGs的交集以获得候选基因。利用蛋白质-蛋白质相互作用（PPI）网络获取候选关键基因。采用机器学习检测关键基因。通过表达验证和受试者工作特征（ROC）曲线鉴定生物标志物。随后，构建列线图以预测患COPD的可能性。此外，进行了功能富集分析、免疫浸润、分子调控网络和药物预测。最后，使用逆转录定量聚合酶链反应（RT-qPCR）和免疫组织化学分析验证COPD患者和对照组肺组织中DEGs的表达。结果：腺嘌呤磷酸核糖转移酶（APRT）和卵磷脂-胆固醇酰基转移酶（LCAT）被确定为潜在生物标志物。随后，基于这两个生物标志物构建了列线图，显示出其显著的诊断潜力。两个生物标志物共同富集的通路包括核糖体等。免疫浸润分析显示15种免疫细胞为差异免疫细胞。APRT预测共有30个miRNAs，LCAT预测共有17个miRNAs。APRT被预测受30个微小RNA（miRNAs）靶向，而LCAT与17个miRNAs相关。此外，预测有178个转录因子（TFs）调控APRT，86个TFs调控LCAT。两个生物标志物共有的TFs包括SPI1、CTCF和BCL3等。最后，药物预测分析发现APRT共有114种靶向药物，LCAT共有156种靶向药物。COPD患者肺组织中APRT和LCAT的mRNA和蛋白表达显著降低。结论：APRT和LCAT被确定为COPD的生物标志物，这为理解COPD背后的机制提供了更深入的见解，并识别了早期诊断和治疗干预的潜在标志物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40927188/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40927188/",
+  "paper_page_path": "papers/pubmed/40927188/index.html"
+}

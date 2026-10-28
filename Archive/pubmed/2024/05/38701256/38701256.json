@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "38701256",
+    "doi": "10.1097/MD.0000000000038052",
+    "title": "Potential mechanisms of traditional Chinese medicine in treating insomnia: A network pharmacology, GEO validation, and molecular-docking study."
+  },
+  "content": {
+    "abstract": "The purpose of this study is to investigate the potential mechanisms of Chinese herbs for the treatment of insomnia using a combination of data mining, network pharmacology, and molecular-docking validation. All the prescriptions for insomnia treated by the academician Qi Wang from 2020 to 2022 were collected. The Ancient and Modern Medical Case Cloud Platform v2.3 was used to identify high-frequency Chinese medicinal herbs and the core prescription. The Traditional Chinese Medicine Systems Pharmacology and UniProt databases were utilized to predict the effective active components and targets of the core herbs. Insomnia-related targets were collected from 4 databases. The intersecting targets were utilized to build a protein-protein interaction network and conduct gene ontology enrichment analysis and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis using the STRING database, Cytoscape software, and clusterProfiler package. Gene chip data (GSE208668) were obtained from the Gene Expression Omnibus database. The limma package was applied to identify differentially expressed genes (DEGs) between insomnia patients and healthy controls. To create a \"transcription factor (TF)-miRNA-mRNA\" network, the differentially expressed miRNAs were entered into the TransmiR, FunRich, Targetscan, and miRDB databases. Subsequently, the overlapping targets were validated using the DEGs, and further validations were conducted through molecular docking and molecular dynamics simulations. Among the 117 prescriptions, 65 herbs and a core prescription were identified. Network pharmacology and bioinformatics analysis revealed that active components such as beta-sitosterol, stigmasterol, and canadine acted on hub targets, including interleukin-6, caspase-3, and hypoxia-inducible factor-1alpha. In GSE208668, 6417 DEGs and 7 differentially expressed miRNAs were identified. A \"TF-miRNA-mRNA\" network was constructed by 4 \"TF-miRNA\" interaction pairs and 66 \"miRNA-mRNA\" interaction pairs. Downstream mRNAs exert therapeutic effects on insomnia by regulating circadian rhythm. Molecular-docking analyses demonstrated good docking between core components and hub targets. Molecular dynamics simulation displayed the strong stability of the complex formed by small molecule and target. The core prescription by the academician Qi Wang for treating insomnia, which involves multiple components, targets, and pathways, showed the potential to improve sleep, providing a basis for clinical treatment of insomnia.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Sleep Initiation and Maintenance Disorders/drug therapy/genetics",
+      "Humans",
+      "*Network Pharmacology",
+      "*Drugs, Chinese Herbal/therapeutic use/pharmacology",
+      "*Medicine, Chinese Traditional/methods",
+      "*Molecular Docking Simulation",
+      "*MicroRNAs",
+      "*Protein Interaction Maps",
+      "Gene Regulatory Networks/drug effects",
+      "RNA, Messenger/metabolism/genetics",
+      "Data Mining",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xing",
+        "Sun, Pengcheng",
+        "Bao, Xuejie",
+        "Cao, Yanqi",
+        "Wang, Liying",
+        "Wang, Qi"
+      ],
+      "short_names": [
+        "Liu X",
+        "Sun P",
+        "Bao X",
+        "Cao Y",
+        "Wang L",
+        "Wang Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-1466-8836"
+      ],
+      "affiliations": [
+        "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xing",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0009-0007-1466-8836"
+        ],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+          "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Pengcheng",
+        "short_name": "Sun P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+          "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Xuejie",
+        "short_name": "Bao X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+          "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yanqi",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+          "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liying",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+          "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qi",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Traditional Chinese Medicine Constitution and Preventive Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2024 May 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/03 18:47",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42482916",
+      "42344274",
+      "42073351",
+      "42004671",
+      "41367024",
+      "41111998",
+      "40958257"
+    ],
+    "refs": [
+      "37941124",
+      "37808199",
+      "37384937",
+      "36949314",
+      "36897671",
+      "36305812",
+      "35997362",
+      "35460140",
+      "35067174",
+      "34978949",
+      "34790730",
+      "34718717",
+      "34557778",
+      "34216021",
+      "34086934",
+      "33956157",
+      "33548911",
+      "33310018",
+      "33290552",
+      "33270111",
+      "33264402",
+      "33246117",
+      "33235305",
+      "33200339",
+      "33125081",
+      "32849850",
+      "32062961",
+      "31823227",
+      "31786727",
+      "31704735",
+      "31504780",
+      "31289370",
+      "31172225",
+      "31106366",
+      "31057652",
+      "30920354",
+      "30663799",
+      "30476243",
+      "30395287",
+      "30371815",
+      "30094679",
+      "28807167",
+      "28190318",
+      "28137238",
+      "27924014",
+      "27860068",
+      "27796565",
+      "27667510",
+      "27322403",
+      "27077332",
+      "26412068",
+      "26267216",
+      "26205061",
+      "26140821",
+      "25698339",
+      "25605792",
+      "25441304",
+      "25428349",
+      "24735618",
+      "24655018",
+      "23407358",
+      "23193258",
+      "22992668",
+      "22815781",
+      "22455463",
+      "21377498",
+      "21097881",
+      "20401516",
+      "19122760",
+      "16596306",
+      "14597658",
+      "12055986",
+      "11752295",
+      "11154056",
+      "10802651",
+      "10592235",
+      "10592173"
+    ],
+    "similar": [
+      "38701256",
+      "39465738",
+      "37287284",
+      "38759074",
+      "35067174",
+      "39343107",
+      "39082169",
+      "39789928",
+      "40128047",
+      "38798220",
+      "39928767",
+      "37904411",
+      "38518018",
+      "35616676",
+      "39312335",
+      "38696100",
+      "33358854",
+      "37345246",
+      "37932972",
+      "36637916",
+      "39465880",
+      "34873575",
+      "40258725",
+      "39252247",
+      "34746302",
+      "37559532",
+      "37807411",
+      "39969345",
+      "39960946",
+      "38941423",
+      "39552028",
+      "37832514",
+      "34174759",
+      "38579905",
+      "39410900",
+      "39015338",
+      "35342751",
+      "34715778",
+      "37115092",
+      "37929726",
+      "39617073",
+      "37478218",
+      "37960775",
+      "39183406",
+      "39049631",
+      "36267846",
+      "38532341",
+      "37879505",
+      "36596057",
+      "34951253",
+      "40197419",
+      "37083798",
+      "38905394",
+      "39213234",
+      "40013962",
+      "39470475",
+      "35960090",
+      "38648716",
+      "37469733",
+      "34941025",
+      "34286341",
+      "37499457",
+      "35669396",
+      "38050247",
+      "38951468",
+      "36526095",
+      "35119030",
+      "38363944",
+      "40065477",
+      "36897671",
+      "38619514",
+      "38728503",
+      "39993869",
+      "38243958",
+      "37190808",
+      "37986321",
+      "36581572",
+      "37009506",
+      "38115279",
+      "34273999",
+      "32126522",
+      "39066538",
+      "39612458",
+      "38579077",
+      "38013385",
+      "39259129",
+      "34660782",
+      "35109845",
+      "40132971",
+      "38310567",
+      "33743701",
+      "39151493",
+      "39287271",
+      "37990309",
+      "37233418",
+      "33831468",
+      "39177391",
+      "38018195",
+      "38916485",
+      "37843333"
+    ],
+    "review": [
+      "38701256",
+      "33358854",
+      "35119030",
+      "39612458",
+      "38579077"
+    ],
+    "pmc": [
+      "11062677"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=103&issue=18&spage=e38052&aulast=Liu",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/insomnia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Insomnia"
+      },
+      {
+        "url": "https://www.ovid.com/38701256.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38701256/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38701256",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000038052",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

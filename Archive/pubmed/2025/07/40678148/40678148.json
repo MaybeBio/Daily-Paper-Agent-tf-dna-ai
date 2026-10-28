@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "40678148",
+    "doi": "10.1016/j.synbio.2025.06.005",
+    "title": "Decoding yeast transcriptional regulation via a data-and mechanism-driven distributed large-scale network model."
+  },
+  "content": {
+    "abstract": "The complex transcriptional regulatory relationships among genes influence gene expression levels and play a crucial role in determining cellular phenotypes. In this study, we propose a novel, distributed, large-scale transcriptional regulatory neural network model (DLTRNM), which integrates prior knowledge into the reconstruction of pre-trained machine learning models, followed by fine-tuning. Using Saccharomyces cerevisiae as a case study, the curated transcriptional regulatory relationships are used to define the interactions between transcription factors (TFs) and their target genes (TGs). Subsequently, DLTRNM is pre-trained on pan-transcriptomic data and fine-tuned with time-series data, enabling it to accurately predict regulatory correlations. Additionally, DLTRNM can help identify potential key TFs, thereby simplifying the complex and interrelated transcriptional regulatory networks (TRNs). It can also complement previously reported transcriptional regulatory subnetworks. DLTRNM provides a powerful tool for studying transcriptional regulation with reduced computational demands and enhanced interpretability. Thus, this study marks a significant advancement in systems biology for understanding the complex transcriptional regulation within cells.",
+    "keywords": [
+      "Distributed large-scale neural network",
+      "Mechanistic and data-driven",
+      "S. cerevisiae",
+      "TRN",
+      "Transfer learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Xingcun",
+        "Xiang, Guangming",
+        "Liao, Wenbin",
+        "Xiao, Luchi",
+        "He, Siwei",
+        "Luo, Na",
+        "Lu, Hongzhong",
+        "Yan, Xuefeng"
+      ],
+      "short_names": [
+        "Fan X",
+        "Xiang G",
+        "Liao W",
+        "Xiao L",
+        "He S",
+        "Luo N",
+        "Lu H",
+        "Yan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China.",
+        "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Xingcun",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China.",
+          "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Guangming",
+        "short_name": "Xiang G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "Liao, Wenbin",
+        "short_name": "Liao W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China.",
+          "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Luchi",
+        "short_name": "Xiao L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Siwei",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "Luo, Na",
+        "short_name": "Luo N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hongzhong",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, School of Life Science and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Rd, Shanghai, 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "Yan, Xuefeng",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, 130 Meilong Rd, Shanghai, 200237, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Synthetic and systems biotechnology"
+    ],
+    "journal_abbrev": [
+      "Synth Syst Biotechnol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/18 06:26",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41591451"
+    ],
+    "refs": [
+      "39375485",
+      "39238468",
+      "39213391",
+      "38778243",
+      "38510148",
+      "38349131",
+      "38312198",
+      "37985457",
+      "37628244",
+      "37602211",
+      "37537351",
+      "37258680",
+      "37079737",
+      "37038446",
+      "37004161",
+      "36999047",
+      "36938415",
+      "36768917",
+      "36640453",
+      "36607068",
+      "36350610",
+      "36033302",
+      "34462589",
+      "34020546",
+      "33692541",
+      "33089887",
+      "32181581",
+      "32015543",
+      "31368481",
+      "30420244",
+      "28584094",
+      "28379368",
+      "27600248",
+      "26438430",
+      "24836921",
+      "23066104",
+      "22885815",
+      "22848679",
+      "22703342",
+      "21907146",
+      "20971184",
+      "20385592",
+      "18627600",
+      "16914749",
+      "15896740",
+      "15722371",
+      "10974099",
+      "10675505",
+      "9420330",
+      "9388292",
+      "7891685",
+      "194140"
+    ],
+    "similar": [
+      "40678148",
+      "22849367",
+      "32471360",
+      "18426580",
+      "39577573",
+      "30908624",
+      "28874552",
+      "25723545",
+      "36317888",
+      "30961611",
+      "39451156",
+      "31985403",
+      "39589130",
+      "24348226",
+      "23802010",
+      "39527186",
+      "22784627",
+      "36749045",
+      "17706247",
+      "35306876",
+      "32093656",
+      "33904398",
+      "25281301",
+      "27600242",
+      "19594885",
+      "17688426",
+      "24739361",
+      "19943917",
+      "40750847",
+      "28649444",
+      "39679439",
+      "25855217",
+      "16914048",
+      "41314178",
+      "16762362",
+      "19961622",
+      "33558504",
+      "16551355",
+      "17010188",
+      "39213391",
+      "32054475",
+      "31034021",
+      "31857203",
+      "24018767",
+      "40058237",
+      "19657679",
+      "27879476",
+      "20525821",
+      "22456606",
+      "39263245",
+      "26818848",
+      "21943338",
+      "35489688",
+      "18586698",
+      "15262804",
+      "29036684",
+      "24146602",
+      "38941464",
+      "30696696",
+      "16606697",
+      "39269777",
+      "23504016",
+      "26950762",
+      "41468504",
+      "38354497",
+      "34093651",
+      "37108512",
+      "34522292",
+      "18769540",
+      "24565025",
+      "17890736",
+      "26576632",
+      "25707768",
+      "20966117",
+      "25253512",
+      "22189060",
+      "15684073",
+      "19450688",
+      "22397531",
+      "26772805",
+      "19008939",
+      "23674068",
+      "15603590",
+      "34777307",
+      "29879919",
+      "20942926",
+      "37803123",
+      "19426454",
+      "33643383",
+      "32547596",
+      "34740743",
+      "21625366",
+      "16895435",
+      "37082713",
+      "26066708",
+      "29051499",
+      "20938527",
+      "35183229",
+      "22499684",
+      "22734688"
+    ],
+    "review": [
+      "40678148",
+      "39577573",
+      "27600242",
+      "24018767",
+      "40058237",
+      "26950762",
+      "34522292"
+    ],
+    "pmc": [
+      "12268561"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-805X(25)00090-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40678148/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

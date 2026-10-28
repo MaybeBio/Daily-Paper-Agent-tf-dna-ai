@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "39715281",
+    "doi": "10.1371/journal.pcbi.1012648",
+    "title": "Multicellular model of neuroblastoma proposes unconventional therapy based on multiple roles of p53."
+  },
+  "content": {
+    "abstract": "Neuroblastoma is the most common extra-cranial solid tumour in children. Over half of all high-risk cases are expected to succumb to the disease even after chemotherapy, surgery, and immunotherapy. Although the importance of MYCN amplification in this disease is indisputable, the mechanistic details remain enigmatic. Here, we present a multicellular model of neuroblastoma comprising a continuous automaton, discrete cell agents, and a centre-based mechanical model, as well as the simulation results we obtained with it. The continuous automaton represents the tumour microenvironment as a grid-like structure, where each voxel is associated with continuous variables such as the oxygen level therein. Each discrete cell agent is defined by several attributes, including its cell cycle position, mutations, gene expression pattern, and more with behaviours such as cell cycling and cell death being stochastically dependent on these attributes. The centre-based mechanical model represents the properties of these agents as physical objects, describing how they repel each other as soft spheres. By implementing a stochastic simulation algorithm on modern GPUs, we simulated the dynamics of over one million neuroblastoma cells over a period of months. Specifically, we set up 1200 heterogeneous tumours and tracked the MYCN-amplified clone's dynamics in each, revealed the conditions that favour its growth, and tested its responses to 5000 drug combinations. Our results are in agreement with those reported in the literature and add new insights into how the MYCN-amplified clone's reproductive advantage in a tumour, its gene expression profile, the tumour's other clones (with different mutations), and the tumour's microenvironment are inter-related. Based on the results, we formulated a hypothesis, which argues that there are two distinct populations of neuroblastoma cells in the tumour; the p53 protein is pro-survival in one and pro-apoptosis in the other. It follows that alternating between inhibiting MDM2 to restore p53 activity and inhibiting ARF to attenuate p53 activity is a promising, if unorthodox, therapeutic strategy. The multicellular model has the advantages of modularity, high resolution, and scalability, making it a potential foundation for creating digital twins of neuroblastoma patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Neuroblastoma/genetics",
+      "Humans",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "*Models, Biological",
+      "*Tumor Microenvironment/genetics",
+      "Computer Simulation",
+      "Computational Biology",
+      "N-Myc Proto-Oncogene Protein/genetics/metabolism",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wertheim, Kenneth Y",
+        "Chisholm, Robert",
+        "Richmond, Paul",
+        "Walker, Dawn"
+      ],
+      "short_names": [
+        "Wertheim KY",
+        "Chisholm R",
+        "Richmond P",
+        "Walker D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4152-2898",
+        "ORCID: 0000-0003-3379-9042",
+        "ORCID: 0000-0002-4657-5518",
+        "ORCID: 0000-0001-8801-8093"
+      ],
+      "affiliations": [
+        "Insigneo Institute for in Silico Medicine, University of Sheffield, Sheffield, United Kingdom.",
+        "School of Computer Science, University of Sheffield, Sheffield, United Kingdom.",
+        "Centre of Excellence for Data Science, Artificial Intelligence, and Modelling, University of Hull, Kingston upon Hull, United Kingdom.",
+        "School of Computer Science, University of Hull, Kingston upon Hull, United Kingdom.",
+        "School of Computer Science, University of Sheffield, Sheffield, United Kingdom.",
+        "School of Computer Science, University of Sheffield, Sheffield, United Kingdom.",
+        "Insigneo Institute for in Silico Medicine, University of Sheffield, Sheffield, United Kingdom.",
+        "School of Computer Science, University of Sheffield, Sheffield, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wertheim, Kenneth Y",
+        "short_name": "Wertheim KY",
+        "identifiers": [
+          "0000-0002-4152-2898"
+        ],
+        "affiliations": [
+          "Insigneo Institute for in Silico Medicine, University of Sheffield, Sheffield, United Kingdom.",
+          "School of Computer Science, University of Sheffield, Sheffield, United Kingdom.",
+          "Centre of Excellence for Data Science, Artificial Intelligence, and Modelling, University of Hull, Kingston upon Hull, United Kingdom.",
+          "School of Computer Science, University of Hull, Kingston upon Hull, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Chisholm, Robert",
+        "short_name": "Chisholm R",
+        "identifiers": [
+          "0000-0003-3379-9042"
+        ],
+        "affiliations": [
+          "School of Computer Science, University of Sheffield, Sheffield, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Richmond, Paul",
+        "short_name": "Richmond P",
+        "identifiers": [
+          "0000-0002-4657-5518"
+        ],
+        "affiliations": [
+          "School of Computer Science, University of Sheffield, Sheffield, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Walker, Dawn",
+        "short_name": "Walker D",
+        "identifiers": [
+          "0000-0001-8801-8093"
+        ],
+        "affiliations": [
+          "Insigneo Institute for in Silico Medicine, University of Sheffield, Sheffield, United Kingdom.",
+          "School of Computer Science, University of Sheffield, Sheffield, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/23 22:59",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "41915691"
+    ],
+    "refs": [
+      "37572512",
+      "37046647",
+      "36816982",
+      "36766831",
+      "36765874",
+      "36602782",
+      "36472304",
+      "35985323",
+      "35954314",
+      "35644484",
+      "35614230",
+      "35603284",
+      "35595830",
+      "35464082",
+      "35315591",
+      "35155432",
+      "35100568",
+      "34771476",
+      "34749806",
+      "34680323",
+      "34343169",
+      "34175393",
+      "34152804",
+      "34064704",
+      "33977357",
+      "33833454",
+      "33808071",
+      "33718189",
+      "33712610",
+      "33663530",
+      "33590949",
+      "33439729",
+      "33341446",
+      "33007410",
+      "32699310",
+      "32653773",
+      "32492633",
+      "32246291",
+      "31919402",
+      "31480495",
+      "30538293",
+      "30523111",
+      "30326621",
+      "30154341",
+      "30134948",
+      "30115695",
+      "29948886",
+      "29755120",
+      "29320541",
+      "29222693",
+      "28626265",
+      "28178969",
+      "27880734",
+      "27830764",
+      "27113195",
+      "26935806",
+      "26910568",
+      "26866479",
+      "26696630",
+      "26668111",
+      "26616283",
+      "26527288",
+      "26523776",
+      "26491052",
+      "26064525",
+      "25795217",
+      "25568070",
+      "25475660",
+      "25441426",
+      "25331179",
+      "25053556",
+      "24588669",
+      "24430128",
+      "24086065",
+      "23703550",
+      "23598171",
+      "23066036",
+      "22484425",
+      "21891782",
+      "21552291",
+      "21251211",
+      "20214533",
+      "19903809",
+      "19707854",
+      "19566120",
+      "19530234",
+      "19369704",
+      "19240721",
+      "19176997",
+      "19047290",
+      "18172284",
+      "17562483",
+      "16803431",
+      "16510605",
+      "16116153",
+      "15576929",
+      "15452150",
+      "13905658",
+      "12733998",
+      "12110723",
+      "11880544",
+      "11464875",
+      "11294896",
+      "10421272",
+      "9858334",
+      "8242560",
+      "8221661",
+      "8118801",
+      "7576940",
+      "5459762",
+      "4335633",
+      "3321140",
+      "2445473",
+      "629859"
+    ],
+    "similar": [
+      "39715281",
+      "21725357",
+      "21862876",
+      "40349458",
+      "34088831",
+      "20811720",
+      "32329693",
+      "30166519",
+      "17363562",
+      "30755224",
+      "23152863",
+      "34107377",
+      "19649205",
+      "28035057",
+      "22052359",
+      "29393340",
+      "24173829",
+      "31615807",
+      "20145147",
+      "26893368",
+      "23462184",
+      "33034426",
+      "22164278",
+      "40594589",
+      "34016720",
+      "18953436",
+      "15644444",
+      "24559687",
+      "34440719",
+      "37762082",
+      "31856871",
+      "27876123",
+      "30542116",
+      "17172827",
+      "36321557",
+      "19777160",
+      "32483461",
+      "21173028",
+      "34565342",
+      "40087586",
+      "11395384",
+      "29784674",
+      "29328367",
+      "19525400",
+      "33172452",
+      "21109931",
+      "23186832",
+      "24282277",
+      "23992861",
+      "23343716",
+      "12880966",
+      "21822304",
+      "33284994",
+      "15927364",
+      "30483774",
+      "23531080",
+      "30724592",
+      "27599694",
+      "26657295",
+      "40108662",
+      "39080217",
+      "26471359",
+      "33838899",
+      "29466962",
+      "27197232",
+      "37221048",
+      "37958555",
+      "37246217",
+      "31405846",
+      "40353332",
+      "21929510",
+      "39380995",
+      "30906641",
+      "41135749",
+      "19885598",
+      "41642108",
+      "36311753",
+      "28459463",
+      "30670683",
+      "30584073",
+      "32086952",
+      "25736927",
+      "15917661",
+      "25844600",
+      "40600620",
+      "30664963",
+      "32085516",
+      "20871609",
+      "29510988",
+      "40359728",
+      "23912807",
+      "24788776",
+      "23443256",
+      "37239815",
+      "32512012",
+      "40658105",
+      "33085409",
+      "34655293",
+      "31637848",
+      "22904680"
+    ],
+    "review": [
+      "39715281",
+      "36321557",
+      "12880966",
+      "15927364",
+      "37221048"
+    ],
+    "pmc": [
+      "11723635"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012648",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39715281/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/221470/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

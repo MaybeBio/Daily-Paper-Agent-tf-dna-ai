@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion, funding, data availability, supplementary list) as provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to the presented evidence, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors claim that current genomic language models (gLMs), specifically Evo 2 and megaDNA, fail to generate biologically realistic synthetic genomes. They report systematic distortions in k-mer spectra, chaos game representations, nullomer content, non-B DNA motif landscapes, and transcription factor binding site organization. They further claim that a simple convolutional neural network can reliably distinguish synthetic from natural sequences, with discrimination increasing with distance from the conditioning seed, indicating progressive degradation of long-range genomic context.
+- **Visible evidence base** Results sections describing k-mer spectra analyses (Supplementary Table 2, Fig 1), CGR/FCGR analyses (Fig 2, Supplementary Table 3), nullomer analyses (Fig 3, Supplementary Fig S2, Supplementary Table 4), non-B DNA motif analyses (Fig 4), TFBS analyses (Fig 5), megaDNA analyses (Figs 6-7), CNN classification (Fig 8), and methods sections describing genome selection, synthetic generation, and statistical testing.
+- **Missing materials affecting confidence** Figures and supplementary tables are referenced but not provided. Exact statistical test configurations, effect size distributions, and raw data are not fully described. Details on Evo 2 and megaDNA model versions, prompting strategies, and generation parameters are incomplete. The CNN architecture description lacks specific hyperparameters and training details. No information on computational resources or runtime is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question: whether current gLMs can generate realistic genomic sequences. The authors present a broad evaluation across multiple genomic features and two models, and the observed systematic distortions are potentially significant. However, the manuscript has substantial methodological gaps that prevent full assessment of the claims. Key concerns include incomplete description of generation protocols, lack of clarity on statistical comparisons, absence of key figures, and insufficient detail on the CNN classifier. The claim of "fundamental limitations" is strong and may be premature given the narrow set of models and conditions tested. The work is potentially valuable but requires major revisions to establish its conclusions rigorously.
+- **Who would be interested in the results, and why** Computational biologists developing or using genomic language models, synthetic biology researchers interested in sequence design, bioinformaticians working on sequence classification or anomaly detection, and biosafety researchers concerned with distinguishing synthetic from natural DNA. The results could inform model development priorities and caution against overinterpreting gLM outputs for biological inference.
+- **Major strengths** The manuscript tackles a question of high current relevance. The evaluation spans multiple genomic features (k-mer spectra, nullomers, non-B DNA, TFBS) and two distinct models, providing a broad survey. The use of a CNN classifier to quantify distinguishability is a practical and interpretable approach. The distance-from-seed analysis is a useful diagnostic that connects to known limitations in long-range language model generation. The authors also provide code and data availability, supporting reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors claim that Evo 2 and megaDNA "fail to recapitulate" key genomic features, implying a general limitation of these models.
+  - **Evidence pointer** Methods section "Synthetic genomes generation"; Results sections for k-mer spectra, nullomers, non-B DNA, TFBS.
+  - **Concern** The generation protocol is insufficiently described. For Evo 2, the authors state they prompted with a "species-specific phylogenetic tag" and a 3 kb seed, but do not specify the exact tag format, the number of generation runs per window, the handling of stochasticity, or the criteria for accepting a generated sequence. For megaDNA, the generation target length is stated as 50 kb, but the relationship to the model's training distribution and the rationale for this length are not given. Without this detail, it is unclear whether the observed failures reflect inherent model limitations or artifacts of the specific prompting and decoding strategy used.
+  - **Why it matters** The central claim of the paper is that gLMs have "fundamental limitations" for realistic sequence generation. If the generation protocol is suboptimal or not representative of how these models are intended to be used, the conclusions may not generalize. The authors need to demonstrate that their generation setup is fair and standard, or at least explore how variations in prompting and decoding affect the results.
+  - **Resolution test** Provide a detailed description of the generation protocol, including exact prompts, decoding parameters, number of independent runs, and any filtering steps. Ideally, include a sensitivity analysis showing that results are robust to reasonable variations in these parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report significant differences between synthetic and natural sequences across multiple features (e.g., "all p < 5 × 10⁻⁴" for FCGR, "FDR-adjusted p-values < 0.0001" for k-mer spectra).
+  - **Evidence pointer** Results sections for k-mer spectra, CGR/FCGR, nullomers, non-B DNA, TFBS; Methods sections "K-mer spectra analysis", "Comparison of nullomer landscapes", "Non-B DNA motif analysis", "TFBS scanning".
+  - **Concern** The statistical methods are described only superficially. For k-mer spectra, the authors mention a "one-sided Wilcoxon signed-rank test on window-level KS distances" but do not specify how the KS distances were computed, what the null hypothesis was, or how multiple testing across species and k-values was handled. For nullomers, McNemar's tests are mentioned but the contingency tables are not defined. For non-B DNA and TFBS, the testing procedures are not described in the methods text provided. The absence of clear statistical frameworks makes it difficult to assess the robustness of the reported p-values and effect sizes.
+  - **Why it matters** The paper's conclusions rest on the statistical significance of the observed distortions. If the tests are misapplied or the multiple testing corrections are inadequate, the reported significance may be overstated. The authors need to provide a transparent and rigorous statistical analysis plan.
+  - **Resolution test** Clearly describe the statistical test for each comparison, including the exact null hypothesis, the unit of analysis (window, genome, species), and the multiple testing correction procedure. Provide effect size distributions and confidence intervals, not just p-values. Consider using permutation-based approaches that account for the spatial structure of genomic data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that a CNN "reliably distinguishes" synthetic from natural sequences, with AUROC up to 0.97 in eukaryotes and 0.82 in prokaryotes.
+  - **Evidence pointer** Results section "Wild versus synthetic sequence classification"; Methods section "Wild versus synthetic sequence classification".
+  - **Concern** The CNN classifier is a key contribution, but the description is insufficient for evaluation. The architecture is described as "stacked 1D dilated convolutional layers" but the number of layers, kernel sizes, dilation rates, and the size of fully connected layers are not given. The training procedure (optimizer, learning rate, batch size, number of epochs, regularization) is not described. The cross-validation scheme is mentioned as "leave-one-group-out" but the grouping (species vs. phylum) is not consistently defined. The reported AUROC values are presented without confidence intervals or variability across folds.
+  - **Why it matters** The classifier results are used to support the claim that synthetic sequences are systematically distinguishable. Without a clear description of the model and training, it is impossible to assess whether the performance is genuine or an artifact of overfitting or data leakage. The monotonic increase in AUROC with distance from the seed is an interesting finding, but its reliability depends on the classifier's validity.
+  - **Resolution test** Provide a complete description of the CNN architecture and training protocol. Report performance with confidence intervals and show the variability across cross-validation folds. Describe how the distance-from-seed analysis was performed, including how positions were binned and whether the classifier was trained on all positions or separately for each distance bin.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of claims
+  - **Claim pointer** The authors state that their findings reveal "fundamental limitations in current gLMs" and suggest that "specialized architectures" are needed.
+  - **Evidence pointer** Abstract; Discussion.
+  - **Concern** The study evaluates only two models, Evo 2 and megaDNA, under a specific set of generation conditions. The claim of "fundamental limitations" implies a broader conclusion about the class of gLMs. However, the authors do not discuss how their findings might extend to other architectures, training data, or generation strategies. The discussion acknowledges this partially but does not systematically address the scope of the claim.
+  - **Why it matters** The title and abstract make a strong general claim. If the limitations are specific to the tested models or conditions, the conclusion should be appropriately qualified. The authors should either provide evidence for generality or temper their language.
+  - **Resolution test** Revise the language to reflect the specific models and conditions tested. Alternatively, include a broader analysis of additional gLMs or a theoretical argument for why the observed limitations are expected to be general.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, sentence "These findings suggest fundamental limitations..."
+  - **Issue** The abstract states "fundamental limitations" without specifying the scope of the claim. This could be misinterpreted as applying to all gLMs.
+  - **Required correction** Qualify the claim, e.g., "current gLMs tested here" or "the architectures evaluated in this study."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Synthetic genomes generation"
+  - **Evidence pointer** Methods section, paragraph on Evo 2 generation.
+  - **Issue** The "species-specific phylogenetic tag" is not defined. It is unclear what this tag is and how it was constructed.
+  - **Required correction** Provide a description of the phylogenetic tag, including its format and how it was derived for each species.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, k-mer spectra section
+  - **Evidence pointer** Results section "Synthetic genomes fail to recapitulate organismal k-mer spectra".
+  - **Issue** The authors report "FDR-adjusted p-values < 0.0001" but do not state the number of comparisons or the FDR level used.
+  - **Required correction** Specify the number of tests performed and the FDR threshold (e.g., 0.05).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on CNN results
+  - **Evidence pointer** Discussion, "A simple CNN efficiently distinguishes..."
+  - **Issue** The discussion states that the CNN results indicate "systematic distortions" but does not discuss what specific features the CNN might be using for classification. This limits interpretability.
+  - **Required correction** Consider adding an analysis of which sequence features contribute most to the classifier's decisions, or discuss this as a limitation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Non-B DNA motif analysis"
+  - **Evidence pointer** Methods section, paragraph on non-B DNA motif analysis.
+  - **Issue** The methods state that "non-B DNA GFA" was used, but the specific version and parameters are not given.
+  - **Required correction** Provide the version and any non-default parameters used for the non-B DNA GFA tool.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (generation protocol), R1-M2 (statistical rigor), R1-M3 (CNN description). These are blocking because the central claims depend on the adequacy of the generation setup, the validity of the statistical tests, and the reliability of the classifier.
+- **Assessment against Nature-style criteria** Originality: The question of whether gLMs can generate realistic genomes is timely, and the multi-feature evaluation is a useful contribution. However, the approach is largely descriptive and does not introduce a fundamentally new method or concept. Scientific importance: The findings, if robust, have implications for synthetic biology and biosafety, but the narrow model set limits the breadth of the conclusion. Interdisciplinary readership: The topic bridges machine learning and genomics, and the writing is generally accessible, but the methods lack detail for either community to fully evaluate. Technical soundness: The manuscript has significant gaps in methodological reporting, as detailed above, which currently prevent a full assessment of technical validity. Readability for nonspecialists: The abstract and introduction are clear, but the results and methods sections assume familiarity with both gLM architectures and genomic feature analysis. Overall, the manuscript addresses a relevant question but does not yet meet the standard of evidence required for a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that gLMs produce sequences with detectable distortions is plausible and potentially important. However, the manuscript must provide a complete and rigorous methodological description, including generation protocols, statistical frameworks, and classifier details, before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim of "fundamental limitations in current gLMs" is not fully supported given that only two models were tested under a specific set of conditions.
+- The statement that "functional viability does not guarantee faithful recapitulation" is presented as a conclusion but is not directly tested in this study.
+- The claim that the CNN's performance increases "monotonically with genomic distance from the seed" is presented without statistical evidence for monotonicity.
+- The assertion that the observed distortions reflect "implicit constraints learned from training data, generation-time biases, or a tendency toward 'regularized' sequence outputs" is speculative and not directly tested.
+- The generalizability of the findings to other gLMs or generation strategies is not established.

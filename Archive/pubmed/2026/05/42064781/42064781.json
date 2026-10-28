@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "42064781",
+    "doi": "10.1093/nargab/lqag031",
+    "title": "Differential gene regulatory network analysis reveals transcriptional disruption in opioid."
+  },
+  "content": {
+    "abstract": "Gene regulatory networks (GRNs) inferred from single-cell data offer a powerful lens for dissecting transcriptional regulation across biological conditions. Yet, statistical methods for comparing TF-level binary regulatory matrices-where edges represent the presence or absence of regulation-remain underdeveloped. Here, we introduce and benchmark five complementary statistical tests for group-level comparison of TF-level binary regulatory matrices. These include three global methods-a U-statistic-based dissimilarity test (Global_U), a distance-based pseudo-[Formula: see text] test (Global_F), and a PCA-based test-as well as two feature-level approaches: a per-feature U-test (Local_U) and Fisher's exact test. Through extensive simulations spanning sparse, coordinated, balanced, and noisy signal structures, we show that global methods consistently outperform in detecting distributed regulatory shifts, particularly under correlation or noise. Applying this framework to single-nucleus RNA-seq data from human brain donors, we uncover astrocyte-specific regulatory alterations linked to opioid exposure. While each method captures distinct signal types, our results underscore the value of combining global and local tests to enhance sensitivity and interpretability. This unified framework provides a robust statistical foundation for GRN-based comparisons in single-cell studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Transcription Factors/genetics",
+      "Humans",
+      "*Analgesics, Opioid/adverse effects/pharmacology",
+      "Gene Expression Regulation/drug effects",
+      "Single-Cell Gene Expression Analysis",
+      "*Brain/drug effects",
+      "Astrocytes/drug effects",
+      "Statistics, Nonparametric"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Jianlan",
+        "Wang, Xu",
+        "Luan, Feiyang",
+        "Chen, Yeqing",
+        "Gao, Le",
+        "Ho, Wenzhe",
+        "Wei, Zhi"
+      ],
+      "short_names": [
+        "Ren J",
+        "Wang X",
+        "Luan F",
+        "Chen Y",
+        "Gao L",
+        "Ho W",
+        "Wei Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1875-3244",
+        "ORCID: 0000-0001-6059-4267"
+      ],
+      "affiliations": [
+        "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States.",
+        "Department of Pathology and Laboratory Medicine, Temple University Lewis Katz School of Medicine, Philadelphia, Pennsylvania, 19140, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States.",
+        "Department of Pathology and Laboratory Medicine, Temple University Lewis Katz School of Medicine, Philadelphia, Pennsylvania, 19140, United States.",
+        "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Jianlan",
+        "short_name": "Ren J",
+        "identifiers": [
+          "0009-0000-1875-3244"
+        ],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Temple University Lewis Katz School of Medicine, Philadelphia, Pennsylvania, 19140, United States."
+        ]
+      },
+      {
+        "full_name": "Luan, Feiyang",
+        "short_name": "Luan F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Yeqing",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Gao, Le",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States."
+        ]
+      },
+      {
+        "full_name": "Ho, Wenzhe",
+        "short_name": "Ho W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Temple University Lewis Katz School of Medicine, Philadelphia, Pennsylvania, 19140, United States."
+        ]
+      },
+      {
+        "full_name": "Wei, Zhi",
+        "short_name": "Wei Z",
+        "identifiers": [
+          "0000-0001-6059-4267"
+        ],
+        "affiliations": [
+          "Department of Computer Science, New Jersey Institute of Technology, Newark, New Jersey, 07102, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/01 06:34",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40220759",
+      "40069299",
+      "39939367",
+      "37607190",
+      "36755098",
+      "34788843",
+      "34362918",
+      "34276651",
+      "33374881",
+      "32561888",
+      "32532965",
+      "32121305",
+      "31557897",
+      "31340985",
+      "31178118",
+      "30008319",
+      "29535089",
+      "28991892",
+      "28503482",
+      "26458100",
+      "25915831",
+      "24883061",
+      "24141248",
+      "22252388",
+      "22090359",
+      "21364631",
+      "21339212",
+      "20925918",
+      "19679873",
+      "19144181",
+      "19112081",
+      "18691161",
+      "18347089",
+      "16199517",
+      "15778369",
+      "11791212",
+      "10712437",
+      "8666932"
+    ],
+    "similar": [
+      "42064781",
+      "42475469",
+      "42482180",
+      "37085776",
+      "42560939",
+      "36321557",
+      "30547796",
+      "42527907",
+      "40607808",
+      "37985457",
+      "41288963",
+      "38699303",
+      "42398561",
+      "41300707",
+      "41043336",
+      "29879919",
+      "40062616",
+      "39694856",
+      "38744843",
+      "41206950",
+      "41801512",
+      "33153500",
+      "40251476",
+      "41489955",
+      "41518505",
+      "41677026",
+      "30961611",
+      "36418514",
+      "41093852",
+      "42059479",
+      "42061403",
+      "22456606",
+      "31985403",
+      "36626328",
+      "35961023",
+      "40662821",
+      "42379340",
+      "41067887",
+      "41896196",
+      "40116659",
+      "38980373",
+      "39062480",
+      "29769331",
+      "40374885",
+      "33874910",
+      "42509463",
+      "42225598",
+      "34251625",
+      "34986805",
+      "42378449",
+      "28951888",
+      "38913039",
+      "41826830",
+      "37073532",
+      "19450688",
+      "38739758",
+      "37889053",
+      "22962443",
+      "37788349",
+      "41498638",
+      "41671045",
+      "20942926",
+      "41883144",
+      "41554051",
+      "38252636",
+      "38653489",
+      "32174324",
+      "24228871",
+      "40037709",
+      "30051742",
+      "37897702",
+      "39417321",
+      "42516270",
+      "41269283",
+      "39679439",
+      "42265576",
+      "38032470",
+      "39975293",
+      "41310253",
+      "41723114",
+      "39161769",
+      "39939367",
+      "40633682",
+      "19081792",
+      "28529066",
+      "33151298",
+      "40654959",
+      "27897008",
+      "38963312",
+      "42086551",
+      "38896510",
+      "41984780",
+      "20805189",
+      "41871930",
+      "37244909",
+      "35062026",
+      "36451086",
+      "26424082",
+      "37544659",
+      "26611531"
+    ],
+    "review": [
+      "42064781",
+      "36321557",
+      "38032470"
+    ],
+    "pmc": [
+      "13126120"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42064781/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqag031",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

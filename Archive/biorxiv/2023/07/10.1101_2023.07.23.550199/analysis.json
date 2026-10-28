@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.23.550199",
+  "title": "Position-specific evolution in transcription factor binding sites, and a fast likelihood calculation for the F81 model",
+  "authors": "Pavitra Selvakumar; Rahul Siddharthan",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-25",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究转录因子结合位点内位置特异性核苷酸进化模型，虽涉及TF-DNA结合位点，但聚焦序列进化统计而非三维互作建模，且方法为进化模型而非AI或物理模拟，与课题核心方法不匹配。",
+  "abstract": "Transcription factor binding sites (TFBS), like other DNA sequence, evolve via mutation and selection relating to their function. Models of nucleotide evolution describe DNA evolution via single-nucleotide mutation. A stationary vector of such a model is the long-term distribution of nucleotides, unchanging under the model. Neutrally evolving sites may have uniform stationary vectors, but one expects that sites within a TFBS instead have stationary vectors reflective of the fitness of various nucleotides at those positions. We introduce “position-specific stationary vectors” (PSSVs), the collection of stationary vectors at each site in a TFBS locus, analogous to the position weight matrix (PWM) commonly used to describe TFBS. We infer PSSVs for human TFs using two evolutionary models (Felsenstein 1981 and Hasegawa-Kishino-Yano 1985). We find that PSSVs reflect the nucleotide distribution from PWMs, but with reduced specificity. We infer ancestral nucleotide distributions at individual positions and calculate “conditional PSSVs” conditioned on specific choices of majority ancestral nucleotide. We find that certain ancestral nucleotides exert a strong evolutionary pressure on neighbouring sequence while others have a negligible effect. Finally, we present a fast likelihood calculation for the F81 model on moderate-sized trees that makes this approach feasible for large-scale studies along these lines.",
+  "abstract_zh": "转录因子结合位点（TFBS）与其他DNA序列一样，通过与其功能相关的突变和选择而进化。核苷酸进化模型通过单核苷酸突变描述DNA进化。此类模型的平稳向量是核苷酸的长期分布，在该模型下保持不变。中性进化位点可能具有均匀的平稳向量，但预期TFBS内的位点则具有反映这些位置上不同核苷酸适应度的平稳向量。我们引入了“位置特异性平稳向量”（PSSVs），即TFBS位点中每个位点的平稳向量集合，类似于常用于描述TFBS的位置权重矩阵（PWM）。我们使用两种进化模型（Felsenstein 1981和Hasegawa-Kishino-Yano 1985）推断人类转录因子的PSSVs。我们发现PSSVs反映了PWM中的核苷酸分布，但特异性有所降低。我们推断单个位置的祖先核苷酸分布，并计算以特定主要祖先核苷酸选择为条件的“条件PSSVs”。我们发现某些祖先核苷酸对邻近序列施加了强烈的进化压力，而其他则影响甚微。最后，我们提出了一种在中等大小树上对F81模型进行快速似然计算的方法，使得这种方法适用于此类大规模研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.23.550199",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.23.550199",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.23.550199/index.html"
+}

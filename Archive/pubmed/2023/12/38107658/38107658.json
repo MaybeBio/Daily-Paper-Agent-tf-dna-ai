@@ -1,0 +1,572 @@
+{
+  "identity": {
+    "pmid": "38107658",
+    "doi": "10.2147/DDDT.S423022",
+    "title": "Integrated Network Pharmacology and Experimental Approach to Investigate the Protective Effect of Jin Gu Lian Capsule on Rheumatoid Arthritis by Inhibiting Inflammation via IL-17/NF-kappaB Pathway."
+  },
+  "content": {
+    "abstract": "PURPOSE: This study aimed to investigate the main pharmacological action and underlying mechanisms of Jin Gu Lian Capsule (JGL) against rheumatoid arthritis (RA) based on network pharmacology and experimental verification. METHODS: Network pharmacology approaches were performed to explore the core active compounds of JGL, key therapeutic targets, and signaling pathways. Molecular docking was used to predict the binding affinity of compounds with targets. In vivo experiments were undertaken to validate the findings from network analysis. RESULTS: A total of 52 targets were identified as candidate JGL targets for RA. Sixteen ingredients were identified as the core active compounds, including, quercetin, myricetin, salidroside, etc. Interleukin-1 beta (IL1B), transcription factor AP-1 (JUN), growth-regulated alpha protein (CXCL1), C-X-C motif chemokine (CXCL)3, CXCL2, signal transducer and activator of transcription 1 (STAT1), prostaglandin G/H synthase 2 (PTGS2), matrix metalloproteinase (MMP)1, inhibitor of nuclear factor kappa-B kinase subunit beta (IKBKB) and transcription factor p65 (RELA) were obtained as the key therapeutic targets. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis showed that the efficacy of JGL was functionally involved in regulating immune-mediated inflammation, in which IL-17/NF-kappaB signaling was recommended as one of the main pathways. Molecular docking suggested that the core active compounds bound strongly to their respective targets. Experimentally, JGL treatment mitigated inflammation, showed analgesic activity, and ameliorated collagen-induced arthritis. Enzyme-linked immunosorbent assay showed that JGL effectively reduced the serum levels of cytokines, chemokines, and MMPs. Immunohistochemistry staining showed that JGL markedly reduced the expression of the targets in IL-17/NF-kappaB pathway including IL-17A, IL-17RA, NF-kappaB p65, C-X-C motif ligand 2, MMP1 and MMP13. CONCLUSION: This investigation provided evidence that JGL may alleviate RA symptoms by partially inhibiting the immune-mediated inflammation via IL-17/NF-kappaB pathway.",
+    "keywords": [
+      "Jin Gu Lian capsules",
+      "experimental validation",
+      "immune-mediated inflammation",
+      "network pharmacology",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "NF-kappa B",
+      "Transcription Factor RelA",
+      "Interleukin-17",
+      "Molecular Docking Simulation",
+      "Network Pharmacology",
+      "*Arthritis, Rheumatoid/drug therapy",
+      "Inflammation/drug therapy",
+      "*Drugs, Chinese Herbal/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Tengfei",
+        "Li, Sihan",
+        "Lian, Dongyin",
+        "Hu, Qin",
+        "Hou, Hongping",
+        "Niu, Delian",
+        "Li, Han",
+        "Song, Ling",
+        "Gao, Yunhang",
+        "Chen, Ying",
+        "Hu, Xiaoru",
+        "Li, Jianrong",
+        "Ye, Zuguang",
+        "Peng, Bo",
+        "Zhang, Guangping"
+      ],
+      "short_names": [
+        "Chen T",
+        "Li S",
+        "Lian D",
+        "Hu Q",
+        "Hou H",
+        "Niu D",
+        "Li H",
+        "Song L",
+        "Gao Y",
+        "Chen Y",
+        "Hu X",
+        "Li J",
+        "Ye Z",
+        "Peng B",
+        "Zhang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2515-7472"
+      ],
+      "affiliations": [
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "College of Life Sciences and Bio-Engineering, Beijing University of Technology, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "National Institute for Food and Drug Control, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China.",
+        "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Tengfei",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Sihan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lian, Dongyin",
+        "short_name": "Lian D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Qin",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences and Bio-Engineering, Beijing University of Technology, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hou, Hongping",
+        "short_name": "Hou H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Niu, Delian",
+        "short_name": "Niu D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Han",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Song, Ling",
+        "short_name": "Song L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yunhang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ying",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaoru",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute for Food and Drug Control, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianrong",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zuguang",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Peng, Bo",
+        "short_name": "Peng B",
+        "identifiers": [
+          "0000-0002-2515-7472"
+        ],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guangping",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug design, development and therapy"
+    ],
+    "journal_abbrev": [
+      "Drug Des Devel Ther"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/18 06:41",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "42720835",
+      "42643917",
+      "42281658",
+      "41619491",
+      "41543645",
+      "41097287",
+      "41088057",
+      "40536951",
+      "40297631",
+      "40068029",
+      "40031981",
+      "39170730",
+      "38344607"
+    ],
+    "refs": [
+      "37851166",
+      "37670700",
+      "37597601",
+      "37324499",
+      "37257407",
+      "36874008",
+      "36474308",
+      "36451227",
+      "36334391",
+      "36225183",
+      "36152738",
+      "36068354",
+      "36064646",
+      "35791403",
+      "35777118",
+      "35760072",
+      "35325185",
+      "35221674",
+      "34895945",
+      "34831240",
+      "34831223",
+      "34671253",
+      "34581056",
+      "34518662",
+      "34461190",
+      "34379924",
+      "34197960",
+      "33516447",
+      "33460761",
+      "33237311",
+      "33068428",
+      "33010041",
+      "32023342",
+      "31911013",
+      "31537418",
+      "31106366",
+      "30942091",
+      "30668366",
+      "30606189",
+      "30380087",
+      "30341437",
+      "29989806",
+      "29852739",
+      "29126136",
+      "29106634",
+      "28967354",
+      "28961788",
+      "28213794",
+      "27167132",
+      "27105880",
+      "26879404",
+      "26690894",
+      "26525510",
+      "25521941",
+      "24735618",
+      "20036936",
+      "19703021",
+      "18936753",
+      "17983150",
+      "17660179",
+      "15608251",
+      "10993913"
+    ],
+    "similar": [
+      "38107658",
+      "37802827",
+      "35221674",
+      "35135448",
+      "36472040",
+      "37957674",
+      "37674371",
+      "37454750",
+      "38115276",
+      "38104871",
+      "34329717",
+      "36604893",
+      "36597607",
+      "35670824",
+      "36587875",
+      "39114420",
+      "37160212",
+      "35988839",
+      "34675488",
+      "37356743",
+      "34737112",
+      "38156377",
+      "38588987",
+      "34864624",
+      "34826542",
+      "38413973",
+      "37947068",
+      "35702063",
+      "34560546",
+      "35964821",
+      "36471963",
+      "36424369",
+      "38169205",
+      "36435778",
+      "36059943",
+      "37023836",
+      "39041167",
+      "37390879",
+      "38688354",
+      "37056062",
+      "36966850",
+      "37100262",
+      "37178981",
+      "38213142",
+      "36160710",
+      "34722158",
+      "36604925",
+      "36860812",
+      "36046875",
+      "36414217",
+      "35430443",
+      "38034481",
+      "38853700",
+      "38565409",
+      "36604919",
+      "37575231",
+      "34951223",
+      "37777029",
+      "36472041",
+      "37663478",
+      "37836578",
+      "37802787",
+      "27616043",
+      "30319603",
+      "36646160",
+      "35855804",
+      "37382018",
+      "35653787",
+      "37878048",
+      "35438554",
+      "36123941",
+      "33441867",
+      "38490288",
+      "37469733",
+      "38284293",
+      "37653836",
+      "37818572",
+      "35342751",
+      "34234411",
+      "35970314",
+      "35343164",
+      "37802828",
+      "37550914",
+      "33082858",
+      "36740793",
+      "36596057",
+      "36940736",
+      "35643303",
+      "35178959",
+      "32795901",
+      "36193152",
+      "35851129",
+      "35186104",
+      "37385573",
+      "33191068",
+      "33527195",
+      "35622496",
+      "35790443",
+      "37480968",
+      "34941025",
+      "36380683",
+      "36403742",
+      "37865275",
+      "33573560",
+      "35364310",
+      "36705239",
+      "32505843",
+      "38914662",
+      "36164910",
+      "28431044",
+      "38342020",
+      "36434600",
+      "36624435",
+      "36280016",
+      "37861962",
+      "39170730",
+      "38707614",
+      "38586085",
+      "39369919",
+      "38971344",
+      "38055068",
+      "33610711",
+      "38496849",
+      "37995823",
+      "36258089",
+      "38754644",
+      "36337846",
+      "39047415",
+      "38858747",
+      "38039873",
+      "36992829",
+      "38614263",
+      "39085510",
+      "38556141",
+      "34527739",
+      "34755664",
+      "39065764",
+      "28053519",
+      "35096114",
+      "39248061",
+      "38476533",
+      "39072058",
+      "38522318",
+      "38402418",
+      "38181229",
+      "39301261",
+      "38828049",
+      "36248423",
+      "38030023",
+      "38110193",
+      "38176927",
+      "30382864",
+      "39222761",
+      "38013056",
+      "38237172",
+      "37311931",
+      "39068761",
+      "38396803",
+      "34776947",
+      "37795035",
+      "39240306",
+      "39430588",
+      "38238321",
+      "39289942",
+      "37268026",
+      "38584563",
+      "39133272",
+      "38765022",
+      "38537441",
+      "37929594",
+      "38835897",
+      "36172495",
+      "34439936",
+      "39224251",
+      "39311312",
+      "36249962",
+      "38322941",
+      "38688383",
+      "39183182",
+      "39339390",
+      "38665556",
+      "38328576",
+      "39253263",
+      "39177142",
+      "39348084",
+      "38929091",
+      "33488758",
+      "33603661",
+      "36464867",
+      "38204248",
+      "39065811",
+      "38675434",
+      "38463300",
+      "23690848",
+      "39108124",
+      "39033908",
+      "38334283",
+      "28246465",
+      "39040473"
+    ],
+    "review": [
+      "38107658",
+      "39065811"
+    ],
+    "pmc": [
+      "10725692"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/DDDT.S423022?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38107658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38107658",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/DDDT.S423022",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

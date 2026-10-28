@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42148702",
+  "title": "Machine learning and automation methods for the segmentation, classification and quantification of testicular tissue sections.",
+  "authors": "Gadd, Adam J R; Sanou, Iris; Brain, Eleanor; Davies, Jill; Liugaila, Adomas; Duffin, Kathleen; Stefansdottir, Agnes; Mitchell, Rod T",
+  "journal": "Reproduction & fertility",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用机器学习对睾丸组织切片进行细胞分割与分类，完全不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "ABSTRACT: Analysis of immunofluorescent images can be time-consuming and observer-dependant. We aimed to develop a standardised method for analysing immunofluorescent images of human and mouse testicular tissues using an existing software package. We used QuPath to train and apply an artificial neural network with multilayer perception (ANN-MLP) on images. We were able to automate the segmentation of cells in regions of interest (ROIs) using both StarDist (a convolution neural network) and Watershed image transformation. Segmented cells were classified using QuPath object classification system, which was successfully applied to a range of mouse and human interstitial, Sertoli and spermatogonial germ cell markers. We found that manual counting and classification of cells decoupled the relationship between tubular area and a number of SOX9+ (r 2 = 0.26, P = 0.35) and MAGE-A+ (r 2 = 0.26, P = 0.35) cells. However, automating the segmentation of ROIs and cell classification with simple macros yielded results that maintained the correlation between tubular area and number of SOX9+ (r 2 = 0.56, P = 0.03) and MAGE-A+ (r 2 = 0.93, P = 0.002) cells. In addition, we were able to export data into R/RStudio allowing for the analysis of classification-specific parameters such as mitotic index and cellular organisation in different regions of the tubule. Importantly, the time taken per image using the automated method was significantly faster (6,247 vs three seconds; P < 0.001) at segmenting tubules and quantifying cells than previous manual annotation methods. We propose the use of this method for analysis and cell quantification in testicular tissues. LAY SUMMARY: Machine learning (ML) is a type of algorithm that forms part of artificial intelligence (AI). ML is able to learn, detect and predict sequences and structures such as words in sentences or objects in images. ML combined with the ability of modern computers to process large quantities of data and perform repetitive tasks in an automated way makes it an attractive research tool. In particular, the analysis of images taken from a microscope of patient or experimental samples is one area in which ML can excel. We found that open-source software containing ML could be trained on as few as six images. Once trained, the machine learning algorithm could analyse an image in approximately one minute. The same image would take a skilled researcher nearly two hours to analyse. In addition to speed, ML was able to do this more accurately and consistently as well as being automated by a simple piece of code.",
+  "abstract_zh": "摘要：免疫荧光图像的分析可能耗时且依赖观察者。我们旨在利用现有软件包，开发一种标准化方法，用于分析人类和小鼠睾丸组织的免疫荧光图像。我们使用QuPath训练并应用了一种具有多层感知器的人工神经网络（ANN-MLP）于图像上。我们能够使用StarDist（一种卷积神经网络）和Watershed图像变换，自动化分割感兴趣区域（ROIs）内的细胞。分割后的细胞通过QuPath对象分类系统进行分类，该系统成功应用于一系列小鼠和人类的间质细胞、支持细胞和精原干细胞标志物。我们发现，手动计数和分类细胞会破坏肾小管面积与SOX9+（r² = 0.26，P = 0.35）和MAGE-A+（r² = 0.26，P = 0.35）细胞数量之间的关系。然而，通过简单宏自动化ROIs分割和细胞分类，所得结果保持了肾小管面积与SOX9+（r² = 0.56，P = 0.03）和MAGE-A+（r² = 0.93，P = 0.002）细胞数量之间的相关性。此外，我们能够将数据导出到R/RStudio中，从而分析分类特异性参数，如有丝分裂指数和肾小管不同区域的细胞组织。重要的是，使用自动化方法处理每张图像的时间显著更快（6,247秒对比三秒；P < 0.001），在分割肾小管和量化细胞方面，优于先前的手动注释方法。我们建议将此方法用于睾丸组织的分析和细胞定量。\n\n通俗摘要：机器学习（ML）是一种算法类型，属于人工智能（AI）的一部分。ML能够学习、检测和预测序列和结构，如句子中的单词或图像中的物体。ML结合现代计算机处理大量数据并以自动化方式执行重复任务的能力，使其成为一种有吸引力的研究工具。特别是，从显微镜下获取的患者或实验样本图像分析，是ML能够表现出色的领域之一。我们发现，包含ML的开源软件可以仅用六张图像进行训练。一旦训练完成，机器学习算法大约在一分钟内分析一张图像。同一张图像，熟练的研究人员需要近两小时才能完成分析。除了速度之外，ML还能更准确、更一致地完成这项工作，并且通过简单的代码实现自动化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42148702/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42148702/",
+  "paper_page_path": "papers/pubmed/42148702/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39141804",
+  "title": "Deciphering the Mystery in p300 Taz2-p53 TAD2 Recognition.",
+  "authors": "Li, Tongtong; Motta, Stefano; He, Yi",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-08-14",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过UNRES粗粒化MD模拟结合机器学习PathDetect-SOM，研究p300 Taz2与p53 TAD2（转录因子p53无序结构域）的蛋白-DNA相关转录调控复合物结合机制，聚焦无序蛋白识别与结合路径，方法可迁移至TF-DNA互作建模。",
+  "abstract": "Intrinsically disordered proteins (IDPs) engage in various fundamental biological activities, and their behavior is of particular importance for a better understanding of the verbose but well-organized signal transduction in cells. IDPs exhibit uniquely paradoxical features with low affinity but simultaneously high specificity in recognizing their binding targets. The transcription factor p53 plays a crucial role in cancer suppression, carrying out some of its biological functions using its disordered regions, such as N-terminal transactivation domain 2 (TAD2). Exploration of the binding and unbinding processes between proteins is challenging, and the inherently disordered properties of these regions further complicate the issue. Computer simulations are a powerful tool to complement the experiments to fill gaps to explore the binding/unbinding processes between proteins. Here, we investigated the binding mechanism between p300 Taz2 and p53 TAD2 through extensive molecular dynamics (MD) simulations using the physics-based UNited RESidue (UNRES) force field with additional Go̅-like potentials. Distance restraints extracted from the NMR-resolved structures were imposed on intermolecular residue pairs to accelerate binding simulations, in which Taz2 was immobilized in a native-like conformation and disordered TAD2 was fully free. Starting from six structures with TAD2 placed at different positions around Taz2, we observed a metastable intermediate state in which the middle helical segment of TAD2 is anchored in the binding pocket, highlighting the significance of the TAD2 helix in directing protein recognition. Physics-based binding simulations show that successful binding is achieved after a series of stages, including (1) protein collisions to initiate the formation of encounter complexes, (2) partial attachment of TAD2, and finally (3) full attachment of TAD2 to the correct binding pocket of Taz2. Furthermore, machine-learning-based PathDetect-SOM was used to identify two binding pathways, the encounter complexes, and the intermediate states.",
+  "abstract_zh": "固有无序蛋白（IDPs）参与多种基本生物活动，其行为对于更深入理解细胞中冗长但组织良好的信号转导尤为重要。IDPs在识别其结合靶标时表现出独特的矛盾特征，即低亲和力但同时具有高特异性。转录因子p53在癌症抑制中发挥关键作用，利用其无序区域（如N端反式激活结构域2（TAD2））执行部分生物功能。探索蛋白质之间的结合与解离过程具有挑战性，而这些区域固有的无序特性进一步使问题复杂化。计算机模拟是补充实验、填补探索蛋白质结合/解离过程空白的强大工具。在此，我们通过使用基于物理的UNited RESidue（UNRES）力场并附加Go̅样势能，进行了广泛的分子动力学（molecular dynamics, MD）模拟，研究了p300 Taz2与p53 TAD2之间的结合机制。从NMR解析结构中提取的距离约束被施加于分子间残基对，以加速结合模拟，其中Taz2被固定为类天然构象，而无序的TAD2完全自由。从TAD2置于Taz2周围不同位置的六个起始结构出发，我们观察到一个亚稳态中间态，其中TAD2的中间螺旋段锚定在结合口袋中，突显了TAD2螺旋在指导蛋白质识别中的重要性。基于物理的结合模拟表明，成功结合需经过一系列阶段，包括（1）蛋白质碰撞以启动遭遇复合物的形成，（2）TAD2的部分附着，以及最终（3）TAD2完全附着到Taz2的正确结合口袋。此外，基于机器学习的PathDetect-SOM被用于识别两条结合途径、遭遇复合物及中间态。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39141804/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39141804/",
+  "paper_page_path": "papers/pubmed/39141804/index.html"
+}

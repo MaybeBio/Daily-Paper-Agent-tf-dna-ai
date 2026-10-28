@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "41655547",
+    "doi": "10.1016/j.phymed.2026.157920",
+    "title": "Renqingchangjue ameliorates MNNG-induced chronic atrophic gastritis by inhibiting the TNF/NF-kappaB/Caspase-3 axis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic atrophic gastritis (CAG) is a pivotal premalignant stage in the Correa cascade, characterized by progressive and largely irreversible loss of gastric glands and an elevated risk of gastric cancer. Renqingchangjue (RQCJ), a classical Tibetan multi-herb formula, has demonstrated clinical and pharmacological benefits in gastritis, yet its mechanisms of action in CAG remain inadequately defined. PURPOSE: This study aims to clarify the therapeutic efficacy and mechanistic basis of RQCJ in CAG. METHODS: We established a network pharmacology-bioinformatics workflow to predict potential RQCJ targets in CAG, integrating targets obtained from TCMSP/SwissTargetPrediction with CAG-related genes to construct a STRING protein-protein interaction (PPI) network and perform GO/KEGG enrichment analyses. Constituents were characterized by UHPLC-HRMS/MS. An MNNG-induced CAG mouse model (control group, model group, Weifuchun positive control group, RQCJ low-dose group and RQCJ high-dose group) was validated by histopathology (H&E), immunohistochemistry (IHC), immunofluorescence (IF), TUNEL, ELISA, and Western blot (WB). In vitro, MNNG-injured GES-1 cells were evaluated using CCK-8, scratch wound-healing, and Annexin V-FITC/PI flow cytometry. Mechanistically, RT-qPCR, WB, and reference-based transcriptome sequencing of gastric tissue were employed, and compound druggability was assessed by AutoDock Vina docking. RESULTS: RQCJ markedly ameliorated MNNG-induced chronic atrophic gastritis in vivo and in vitro. UHPLC-HRMS/MS profiling identified 43 constituents, of which 31 were detected as circulating prototypes. Network pharmacology first predicted 154 putative RQCJ-CAG targets enriched in TNF/NF-kappaB signaling; integrating serum-absorbed component targets with CAG-related genes refined this to 140 high-confidence targets with consistent TNF/NF-kappaB enrichment. Functionally, RQCJ (20-40 mug/mL) improved GES-1 cell viability and migration while suppressing apoptosis, and in mice dose-dependently repaired gastric mucosal architecture, lowered TNF-alpha, IL-1beta and IL-6, and normalized gastrin and pepsinogen. RQCJ also reduced IL-8, CCL2 and CXCL1 mRNA and increased IL-10 in both models. Mechanistically, it inhibited phosphorylation of IKKbeta, IkappaBalpha and NF-kappaB p65 in a dose- and time-dependent manner, decreased cleaved caspase-8/3, restored the Bax/Bcl-2 ratio. Transcriptomics confirmed enrichment of NF-kappaB and apoptosis pathways, and intersecting differentially expressed genes with the 140 serum-based targets yielded 99 core genes converging on TNF/NF-kappaB-mediated apoptosis. Molecular docking further supported target engagement, with a chromen-7-ol derivative showing strong predicted affinity for MMP9. CONCLUSIONS: Together, these multi-level data indicate that RQCJ exerts clinically relevant protection against CAG via multi-component suppression of TNF-NF-kappaB/Caspase-3 axis, broad rebalancing of pro-/anti-inflammatory cytokines, and restoration of gastric function.",
+    "keywords": [
+      "Chronic atrophic gastritis",
+      "Docking",
+      "Network pharmacology",
+      "Renqingchangjue",
+      "TNF/NF-kappaB /Caspase-3",
+      "Transcriptome sequencing"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Gastritis, Atrophic/drug therapy/chemically induced/pathology/metabolism",
+      "*Caspase 3/metabolism",
+      "Mice",
+      "*NF-kappa B/metabolism",
+      "*Tumor Necrosis Factor-alpha/metabolism",
+      "Male",
+      "Network Pharmacology",
+      "Signal Transduction/drug effects",
+      "Apoptosis/drug effects",
+      "Disease Models, Animal",
+      "Humans",
+      "Gastric Mucosa/drug effects/pathology",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yuan",
+        "Yue, Guang",
+        "Liu, Yanjun",
+        "Wang, Wei",
+        "Jiang, Ge",
+        "Zhang, Jinhua",
+        "Ga, Zhuo",
+        "Zhang, Yanfei",
+        "Liu, Xiaoya",
+        "Ren, Qingjia",
+        "Li, Caolong"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Yue G",
+        "Liu Y",
+        "Wang W",
+        "Jiang G",
+        "Zhang J",
+        "Ga Z",
+        "Zhang Y",
+        "Liu X",
+        "Ren Q",
+        "Li C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.",
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.",
+        "State Key Laboratory of Natural Medicines, Department of Pharmaceutics, China Pharmaceutical University, Nanjing 210009, China.",
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.",
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.",
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.",
+        "Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China.",
+        "Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China.",
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.",
+        "Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China.. Electronic address: renchengyel2100@qq.com.",
+        "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.; Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China.. Electronic address: licl@cpu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yuan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Yue, Guang",
+        "short_name": "Yue G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanjun",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Natural Medicines, Department of Pharmaceutics, China Pharmaceutical University, Nanjing 210009, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ge",
+        "short_name": "Jiang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinhua",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Ga, Zhuo",
+        "short_name": "Ga Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanfei",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoya",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Ren, Qingjia",
+        "short_name": "Ren Q",
+        "identifiers": [],
+        "affiliations": [
+          "Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China.. Electronic address: renchengyel2100@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Caolong",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, China Pharmaceutical University, Nanjing, 211198, PR China.; Tibetan Medicine Research Institute, University of Tibetan Medicine, Tibet 850000, PR China.. Electronic address: licl@cpu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 00:29",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41655547",
+      "40054637",
+      "41077317",
+      "41809450",
+      "39094758",
+      "41747788",
+      "42229619",
+      "39577677",
+      "41083380",
+      "41762831",
+      "41765119",
+      "38774485",
+      "40330488",
+      "37480968",
+      "34581089",
+      "38810553",
+      "40619665",
+      "40865656",
+      "34808298",
+      "39025161",
+      "41825205",
+      "42173417",
+      "42167662",
+      "42365409",
+      "40360040",
+      "41204487",
+      "39581285",
+      "41814740",
+      "41551535",
+      "40969849",
+      "41489113",
+      "41795298",
+      "41814794",
+      "40350907",
+      "41985642",
+      "40461228",
+      "40957543",
+      "41904987",
+      "42011617",
+      "41814772",
+      "40020626",
+      "39798675",
+      "28920352",
+      "41303615",
+      "39701737",
+      "39938176",
+      "39733802",
+      "40765089",
+      "40220405",
+      "41508081",
+      "37491882",
+      "33524511",
+      "40130342",
+      "41861684",
+      "42197115",
+      "36646160",
+      "41974235",
+      "41814701",
+      "41834956",
+      "39716512",
+      "40594515",
+      "42173415",
+      "41667371",
+      "40350886",
+      "42202914",
+      "38583728",
+      "33444723",
+      "39354758",
+      "35343164",
+      "36414217",
+      "38621947",
+      "41450541",
+      "42085848",
+      "40916281",
+      "36403742",
+      "40482617",
+      "42276391",
+      "41564986",
+      "41207786",
+      "37056062",
+      "40517918",
+      "41866004",
+      "41490553",
+      "39657404",
+      "40684492",
+      "41786057",
+      "41512388",
+      "36946346",
+      "39074420",
+      "40886867",
+      "41814834",
+      "42190416",
+      "41911985",
+      "42335406",
+      "41483656",
+      "41802508",
+      "38914662",
+      "38621908",
+      "40350871",
+      "41864553"
+    ],
+    "review": [
+      "41655547"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00159-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

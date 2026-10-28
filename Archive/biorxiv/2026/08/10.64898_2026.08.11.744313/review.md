@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and author information.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Not assessed: editorial quality, formatting, or grammatical issues.
+- **Shared manuscript claim summary** The authors propose that the yeast HMG-box protein Nhp6A operates within a narrow thermodynamic stability window, characterized by high unfolding cooperativity and a low melting temperature. They argue that phosphorylation-mimicking mutations at conserved sites tune the conformational equilibrium between folded substates, thereby modulating DNA-binding modes and bending geometries. They further propose that DNA binding can rescue a destabilized mutant, acting as a chaperone, and that the combination of marginal stability, high cooperativity, and electrostatic frustration constitutes a general design principle for multi-site post-translational regulation.
+- **Visible evidence base** Far-UV CD thermal melts and spectra; differential scanning calorimetry; fluorescence emission spectra; fluorescence anisotropy DNA-binding titrations; single-molecule FRET experiments; statistical mechanical model of non-specific binding; block Wako-Saitô-Muñoz-Eaton (bWSME) model predictions; atomistic molecular dynamics simulations with metadynamics; sequence analysis and AlphaFold3 structure predictions for orthologs.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text (e.g., Figure S1-S11, Table S1, S2) were not provided. Specific numerical values for binding free energies, melting temperatures for all mutants, and statistical uncertainties for several key measurements are not fully reported in the main text. Details of the statistical mechanical model fitting procedure and parameter uncertainties are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and ambitious multi-scale study of the conformational landscape of the architectural protein Nhp6A, integrating ensemble thermodynamics, single-molecule biophysics, statistical mechanics, and atomistic simulation. The central hypothesis, that marginal stability combined with high cooperativity enables phosphorylation-sensitive conformational switching, is conceptually interesting and potentially generalizable. The combination of experimental and computational approaches is a clear strength. However, the manuscript currently has several significant issues that prevent full support. The link between the identified conformational substates (N and N*) and the two DNA-binding modes is largely inferential and not directly demonstrated. The interpretation of the smFRET data, particularly the assignment of two bending angles to specific binding modes, requires stronger justification. The claim of a "sequence-ensemble-dynamics code" is broad and not fully supported by the data presented, which focuses on a limited set of phosphomimetic mutants. The manuscript would be strengthened by a more direct test of the proposed model, clearer presentation of quantitative results, and a more cautious interpretation of the simulation and modeling data.
+- **Who would be interested in the results, and why** Researchers in the fields of protein folding and dynamics, particularly those interested in intrinsically disordered proteins and coupled folding-binding equilibria. The work is also relevant to the chromatin biology community, as it addresses the biophysical basis of architectural protein function. Additionally, those studying post-translational modification codes and their effects on protein conformational landscapes would find the concepts of rheostat-like tuning and electrostatic frustration of interest.
+- **Major strengths** The study is methodologically diverse, combining multiple orthogonal biophysical techniques. The integration of a statistical mechanical model with experimental data is a strong feature. The identification of a potential design principle, linking marginal stability and high cooperativity to functional sensitivity, is a valuable conceptual contribution. The evolutionary analysis across fungal orthologs adds a useful dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-Data Match
+  - **Claim pointer** The manuscript claims that the two conformational substates in the apo protein (N and N*) correspond to the two DNA-binding modes identified experimentally and in simulations.
+  - **Evidence pointer** Results sections "The native ensemble of Nhp6A" and "DNA binding"; Figures 2, 3, 5.
+  - **Concern** The connection between the apo-protein substates (N and N*) and the two DNA-binding modes is presented as a hypothesis but is not directly tested. The bWSME model predicts that DNA binding stabilizes the protein and equalizes the populations of N and N*, but this is a prediction, not a demonstration. The experimental data show two binding modes and two bending angles, but there is no direct evidence linking the more folded substate (N*) to the major binding mode and the less folded substate (N) to the minor binding mode. The simulations of the complex show a single dominant binding arrangement, and the two binding modes are inferred from the statistical model, not directly observed in the simulations.
+  - **Why it matters** The central thesis of the paper is that the intrinsic conformational heterogeneity of the apo protein is functionally linked to its binding modes. Without direct evidence for this link, the proposed mechanism remains speculative. The claim that the "intrinsic plasticity enables close packing of Nhp6A on DNA through two degenerate binding modes" is a key conclusion and needs stronger experimental or simulation support.
+  - **Resolution test** To resolve this, the authors could perform experiments that directly correlate the conformational state of the protein with its binding mode, for example, using smFRET with labels on both the protein and the DNA to observe conformational changes upon binding. Alternatively, more detailed and unbiased simulations of the protein-DNA complex could be performed to see if two distinct, long-lived binding conformations emerge spontaneously.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical Soundness
+  - **Claim pointer** The manuscript claims that the smFRET data require a three-Gaussian fit, indicating two distinct DNA-bending substates in the protein-DNA complex.
+  - **Evidence pointer** Results section "DNA bending elucidated by smFRET measurements"; Figure 4.
+  - **Concern** The justification for the three-Gaussian fit is based on a comparison of the sum of squared residuals (SSR) and an F-test. While this is a standard approach, the manuscript does not report the actual fitted parameters (mean FRET efficiencies, widths, populations) for the three states, nor does it discuss potential alternative explanations for the broadened FRET distribution, such as dye dynamics, incomplete labeling, or a continuum of bending angles. The assignment of the two new states to specific bending angles of 52° and 79° relies on a law of cosines calculation that assumes a specific geometry, which may not be valid for a flexible DNA-protein complex.
+  - **Why it matters** The identification of two distinct bending angles is a key experimental result. If the data are not robustly described by three discrete states, or if the assignment of FRET efficiencies to bending angles is flawed, the conclusion that Nhp6A induces two distinct DNA bends is weakened.
+  - **Resolution test** The authors should provide the full fitting results, including the mean and standard deviation of the FRET efficiencies for each Gaussian component, and the relative populations. They should also perform a rigorous model selection analysis (e.g., Bayesian Information Criterion) to confirm the three-state model is preferred. The relationship between FRET efficiency and bending angle should be validated, perhaps using simulations of DNA with different bend angles to generate a calibration curve.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Overinterpretation
+  - **Claim pointer** The manuscript claims that the combination of marginal stability, high cooperativity, and electrostatic frustration is a "general strategy for multisite post-translational regulation" and a "sequence-ensemble-dynamics code."
+  - **Evidence pointer** Abstract, Discussion.
+  - **Concern** This claim is presented as a broad principle, but the evidence is derived from a single protein system (Nhp6A) and a limited set of phosphomimetic mutations. While the authors discuss the potential generality, they do not provide evidence from other systems to support this claim. The term "code" implies a predictable mapping from sequence to dynamics to function, which is not established here.
+  - **Why it matters** Overstating the generality of the findings can mislead readers and overstate the significance of the work. The core findings are interesting and important for Nhp6A, but the leap to a general principle is not yet justified.
+  - **Resolution test** The authors should temper the language in the abstract and discussion, clearly stating that this is a proposed design principle that requires testing in other HMG-box proteins and other families of architectural proteins. They could also perform a bioinformatic analysis to see if the identified features (e.g., low Tm, high cooperativity, presence of electrostatic frustration) are conserved across a wider range of proteins.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical Soundness
+  - **Claim pointer** The manuscript claims that the bWSME model, with parameters adjusted to reproduce the experimental heat capacity profile, can accurately predict the effects of mutations and DNA binding on the conformational landscape.
+  - **Evidence pointer** Methods section "Block Wako-Saitô-Muñoz-Eaton (bWSME) model"; Results sections "The native ensemble of Nhp6A" and "DNA binding".
+  - **Concern** The bWSME model is a coarse-grained model with several adjustable parameters. The manuscript states that an exact fit was not attempted given the broad heat capacity profile. The predictive power of the model is therefore unclear. The model is used to generate free energy profiles and populations of substates, but the uncertainty in these predictions due to parameter uncertainty is not assessed. The model's prediction that DNA binding stabilizes the protein is intuitive, but the quantitative accuracy of this prediction is not validated.
+  - **Why it matters** The model is used to support the interpretation of the experimental data and to make predictions about the conformational ensemble. If the model's predictions are not robust, the conclusions drawn from them are weakened.
+  - **Resolution test** The authors should perform a sensitivity analysis to show how the model predictions change with variations in the parameters. They could also validate the model by comparing its predictions to independent experimental data, such as the change in stability upon mutation measured by a different technique, or by testing its ability to predict the structure of the N* state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Modeling non-specific protein-DNA binding"
+  - **Evidence pointer** Methods section.
+  - **Issue** The description of the statistical mechanical model is dense and lacks some details. The partition function is not explicitly written out, and the definitions of some variables (e.g., the summation index) are not fully clear.
+  - **Required correction** The authors should write out the full partition function and clearly define all variables and summation indices. A more detailed step-by-step derivation of the model would be helpful.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data Presentation
+  - **Affected element** Results section "DNA bending elucidated by smFRET measurements"
+  - **Evidence pointer** Figure 4.
+  - **Issue** The manuscript states that a three-Gaussian fit is better than a two-Gaussian fit but does not show the individual Gaussian components or the residuals of the fits.
+  - **Required correction** A figure showing the individual Gaussian components and the fit residuals for both the two- and three-Gaussian models should be included in the supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Conservation of stability-folding signatures across Nhp6A orthologs"
+  - **Evidence pointer** Figure 8.
+  - **Issue** The selection of the 10 orthologs is described as "phylogenetically diverse," but the criteria for selection are not detailed. The AlphaFold3 predictions are stated to be highly similar, but the RMSD is only given as a single value.
+  - **Required correction** The authors should clarify the selection criteria for the orthologs. The RMSD distribution across the orthologs should be reported, and a figure showing the structural alignment of a few representative orthologs would be helpful.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section.
+  - **Issue** The discussion of the "chaperone" role of DNA is interesting but could be more nuanced. The authors should clarify whether they mean DNA actively induces folding or simply stabilizes the folded state by binding to it, which is a more standard interpretation.
+  - **Required correction** The language should be adjusted to more precisely describe the proposed mechanism, e.g., "DNA binding stabilizes the folded state" rather than "DNA acts as a chaperone driving folding."
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of direct evidence linking the apo-protein conformational substates to the two DNA-binding modes. The smFRET analysis needs to be more rigorous and complete. The bWSME model predictions need to be validated with a sensitivity analysis. The manuscript also needs to report all numerical results with appropriate uncertainties.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of linking marginal stability and high cooperativity to phosphorylation-dependent functional switching is a novel and interesting idea. The application of a multi-scale approach to an architectural chromatin protein is also original.
+  - **Scientific importance** The findings have the potential to be important for understanding how post-translational modifications can modulate protein function in a graded manner. The proposed design principle, if validated, could have broad implications for the study of other signaling proteins.
+  - **Interdisciplinary readership** The work is likely to appeal to biophysicists, biochemists, and molecular biologists. The chromatin context may also attract cell biologists. The technical complexity of the methods may limit accessibility for a purely cell-biology-focused audience.
+  - **Technical soundness** The experimental techniques are state-of-the-art and appear to be executed carefully. However, the link between the modeling and the experiments is not fully rigorous, and the interpretation of the smFRET data is not fully justified. The lack of uncertainty analysis for the model predictions is a concern.
+  - **Readability for nonspecialists** The manuscript is well-written but is dense and assumes a high level of familiarity with biophysical concepts. The abstract is clear, but the results section would be challenging for a non-specialist. The authors should consider adding a schematic figure to illustrate the proposed model.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the study is comprehensive, but the main claims are not fully established from the provided evidence. The authors need to provide a more direct test of the link between conformational substates and binding modes, and a more rigorous analysis of their data.
+
+## Risk / unsupported claims
+- The claim that the N and N* substates directly correspond to the two DNA-binding modes is unsupported by direct evidence.
+- The claim that the combination of marginal stability, high cooperativity, and electrostatic frustration is a "general strategy" or "code" is an overinterpretation of data from a single system.
+- The claim that the weaker binding mode is functionally relevant at physiological nuclear concentrations is speculative, as the in vivo concentration is an estimate and the binding mode occupancy at that concentration is not directly measured.
+- The claim that the bWSME model provides a quantitative description of the conformational landscape is not fully supported, as the model parameters are not uniquely determined and the uncertainty in predictions is not assessed.

@@ -1,0 +1,253 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.20.695738",
+  "title": "Predicting interaction-specific protein–protein interaction perturbations by missense variants with MutPred-PPI",
+  "doi": "10.64898/2025.12.20.695738",
+  "abstract": "Disruption of protein–protein interactions (PPIs) is a major mechanism of a variant’s deleterious effect. Computational tools are needed to assess such variants at scale, yet existing predictors rarely consider loss of specific interactions, particularly when variants perturb binding interfaces without significantly affecting protein stability. To address this problem, we present MutPred-PPI, a graph attention network that predicts interaction-specific (edgetic) effects of missense variants by operating on AlphaFold 3-based protein complex contact graphs with protein language model embeddings imposed upon nodes. We systematically evaluated our model with stringent group cross-validation as well as benchmark data recently collected within the IGVF Consortium. MutPred-PPI outperformed all baseline methods across all evaluation criteria, achieving an AUC of 0.85 on seen proteins and 0.72 on previously unseen proteins in cross-validation, demonstrating strong generalizability despite scarce training data. To demonstrate biomedical relevance, we applied MutPred-PPI to variants from ClinVar, HGMD, COSMIC, gnomAD, and two de novo neurodevelopmental disorder-linked datasets. Disease-associated variants from Clin-Var and HGMD showed strong enrichment for both quasi-null and edgetic effects, whereas population variants from gnomAD increasingly preserved interactions with higher allele frequencies. Notably, we observed a strong edgetic disruption signature in highly recurrent cancer variants from both the full COSMIC dataset and a subset of variants from oncogenes. Recurrent tumor suppressor gene variants and autism spectrum disorder-associated variants exhibited moderate quasi-null enrichment, whilst neurodevelopmental disorder-linked variants showed a weak edgetic disruption signature. These results indicate distinct PPI perturbation mechanisms across disease types and show that MutPred-PPI captures functionally relevant molecular effects of pathogenic variants.",
+  "authors": [
+    "Stewart R",
+    "Laval F",
+    "Coppin G",
+    "Spirohn-Fitzgerald K",
+    "Tixhon M",
+    "Hao T",
+    "Calderwood MA",
+    "Mort M",
+    "Cooper DN",
+    "Vidal M",
+    "Radivojac P"
+  ],
+  "published_date": "2025-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695738",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695738.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1224123",
+    "raw_record": {
+      "id": "PPR1224123",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1224123"
+        ]
+      },
+      "doi": "10.64898/2025.12.20.695738",
+      "title": "Predicting interaction-specific protein–protein interaction perturbations by missense variants with MutPred-PPI",
+      "authorString": "Stewart R, Laval F, Coppin G, Spirohn-Fitzgerald K, Tixhon M, Hao T, Calderwood MA, Mort M, Cooper DN, Vidal M, Radivojac P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Stewart R",
+            "lastName": "Stewart",
+            "firstName": "Ross",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Khoury College of Computer Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laval F",
+            "lastName": "Laval",
+            "firstName": "Florent",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coppin G",
+            "lastName": "Coppin",
+            "firstName": "Georges",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spirohn-Fitzgerald K",
+            "lastName": "Spirohn-Fitzgerald",
+            "firstName": "Kerstin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tixhon M",
+            "lastName": "Tixhon",
+            "firstName": "Maxime",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hao T",
+            "lastName": "Hao",
+            "firstName": "Tong",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calderwood MA",
+            "lastName": "Calderwood",
+            "firstName": "Michael",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mort M",
+            "lastName": "Mort",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Genetics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cooper DN",
+            "lastName": "Cooper",
+            "firstName": "David",
+            "initials": "DN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Genetics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vidal M",
+            "lastName": "Vidal",
+            "firstName": "Marc",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology (CCSB), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Radivojac P",
+            "lastName": "Radivojac",
+            "firstName": "Predrag",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Khoury College of Computer Sciences, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Disruption of protein–protein interactions (PPIs) is a major mechanism of a variant’s deleterious effect. Computational tools are needed to assess such variants at scale, yet existing predictors rarely consider loss of specific interactions, particularly when variants perturb binding interfaces without significantly affecting protein stability. To address this problem, we present MutPred-PPI, a graph attention network that predicts interaction-specific (edgetic) effects of missense variants by operating on AlphaFold 3-based protein complex contact graphs with protein language model embeddings imposed upon nodes. We systematically evaluated our model with stringent group cross-validation as well as benchmark data recently collected within the IGVF Consortium. MutPred-PPI outperformed all baseline methods across all evaluation criteria, achieving an AUC of 0.85 on seen proteins and 0.72 on previously unseen proteins in cross-validation, demonstrating strong generalizability despite scarce training data. To demonstrate biomedical relevance, we applied MutPred-PPI to variants from ClinVar, HGMD, COSMIC, gnomAD, and two  de novo neurodevelopmental disorder-linked datasets. Disease-associated variants from Clin-Var and HGMD showed strong enrichment for both quasi-null and edgetic effects, whereas population variants from gnomAD increasingly preserved interactions with higher allele frequencies. Notably, we observed a strong edgetic disruption signature in highly recurrent cancer variants from both the full COSMIC dataset and a subset of variants from oncogenes. Recurrent tumor suppressor gene variants and autism spectrum disorder-associated variants exhibited moderate quasi-null enrichment, whilst neurodevelopmental disorder-linked variants showed a weak edgetic disruption signature. These results indicate distinct PPI perturbation mechanisms across disease types and show that MutPred-PPI captures functionally relevant molecular effects of pathogenic variants.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.20.695738"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1224123"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1224123&type=FILE&fileName=EMS214338-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214338",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-23",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-08-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

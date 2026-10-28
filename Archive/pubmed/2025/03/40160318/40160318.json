@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "40160318",
+    "doi": "10.3389/fmed.2025.1501467",
+    "title": "Identification of biomarkers associated with programmed cell death in liver ischemia-reperfusion injury: insights from machine learning frameworks and molecular docking in multiple cohorts."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Liver ischemia-reperfusion injury (LIRI) is a major reason for liver injury that occurs during surgical procedures such as hepatectomy and liver transplantation and is a major cause of graft dysfunction after transplantation. Programmed cell death (PCD) has been found to correlate with the degree of LIRI injury and plays an important role in the treatment of LIRI. We aim to comprehensively explore the expression patterns and mechanism of action of PCD-related genes in LIRI and to find novel molecular targets for early prevention and treatment of LIRI. METHODS: We first compared the expression profiles, immune profiles, and biological function profiles of LIRI and control samples. Then, the potential mechanisms of PCD-related differentially expressed genes in LIRI were explored by functional enrichment analysis. The hub genes for LIRI were further screened by applying multiple machine learning methods and Cytoscape. GSEA, GSVA, immune correlation analysis, transcription factor prediction, ceRNA network analysis, and single-cell analysis further revealed the mechanisms and regulatory network of the hub gene in LIRI. Finally, potential therapeutic agents for LIRI were explored based on the CMap database and molecular docking technology. RESULTS: Forty-seven differentially expressed genes associated with PCD were identified in LIRI, and functional enrichment analysis showed that they were involved in the regulation of the TNF signaling pathway as well as the regulation of hydrolase activity. By utilizing machine learning methods, 11 model genes were identified. ROC curves and confusion matrix from the six cohorts illustrate the superior diagnostic value of our model. MYC was identified as a hub PCD-related target in LIRI by Cytoscape. Finally, BMS-536924 and PF-431396 were identified as potential therapeutic agents for LIRI. CONCLUSION: This study comprehensively characterizes PCD in LIRI and identifies one core molecule, providing a new strategy for early prevention and treatment of LIRI.",
+    "keywords": [
+      "biomarkers",
+      "liver ischemia-reperfusion injury",
+      "machine learning",
+      "molecular docking",
+      "programmed cell death"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jifeng",
+        "Jin, Yeheng",
+        "Lv, Fengchen",
+        "Yang, Yao",
+        "Li, Junchen",
+        "Zhang, Yunshu",
+        "Zhong, Lei",
+        "Liu, Wei"
+      ],
+      "short_names": [
+        "Liu J",
+        "Jin Y",
+        "Lv F",
+        "Yang Y",
+        "Li J",
+        "Zhang Y",
+        "Zhong L",
+        "Liu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Second Clinical College, China Medical University, Shenyang, Liaoning, China.",
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+        "Department of Traditional Chinese Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jifeng",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yeheng",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Second Clinical College, China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Fengchen",
+        "short_name": "Lv F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yao",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junchen",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunshu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lei",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in medicine"
+    ],
+    "journal_abbrev": [
+      "Front Med (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/31 21:16",
+    "fetched_at": "2026-09-30 14:53:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39634181",
+      "39281774",
+      "39187104",
+      "39153268",
+      "39062464",
+      "39040334",
+      "39032691",
+      "38848833",
+      "38754597",
+      "38409471",
+      "38169383",
+      "37962376",
+      "37660060",
+      "37614232",
+      "37232477",
+      "36940849",
+      "36747082",
+      "36413144",
+      "36341760",
+      "36250005",
+      "35605589",
+      "35572532",
+      "35325188",
+      "34944017",
+      "34837066",
+      "34360995",
+      "33559506",
+      "33495834",
+      "33283357",
+      "33264646",
+      "33231677",
+      "32947010",
+      "32858223",
+      "32426849",
+      "32411316",
+      "31733200",
+      "31381136",
+      "30948788",
+      "30944313",
+      "30593588",
+      "30561835",
+      "30054853",
+      "29187911",
+      "28363691",
+      "28245597",
+      "27768959",
+      "26777689",
+      "24396796",
+      "23811302",
+      "23323831",
+      "23229329",
+      "22955616",
+      "22455463",
+      "22257669",
+      "22064429",
+      "21668640",
+      "21193923",
+      "19353763",
+      "17192907"
+    ],
+    "similar": [
+      "40160318",
+      "40034711",
+      "38867322",
+      "39147333",
+      "36253874",
+      "35991562",
+      "39040334",
+      "37652362",
+      "39664334",
+      "39802518",
+      "39839184",
+      "39168238",
+      "40127455",
+      "37205113",
+      "39341981",
+      "39744064",
+      "37378675",
+      "38245687",
+      "38690269",
+      "38851464",
+      "39281570",
+      "40091022",
+      "35658960",
+      "38994368",
+      "36979927",
+      "36246123",
+      "38113710",
+      "36335812",
+      "39082346",
+      "36532015",
+      "39512836",
+      "40147738",
+      "36993785",
+      "40145099",
+      "39375405",
+      "39633111",
+      "40240734",
+      "39890015",
+      "35958412",
+      "39442187",
+      "39656402",
+      "39139563",
+      "39149122",
+      "40297850",
+      "37346073",
+      "39791175",
+      "40034562",
+      "32275004",
+      "38299230",
+      "24472280",
+      "39763654",
+      "37033969",
+      "37664920",
+      "39929099",
+      "40205951",
+      "38265687",
+      "38494848",
+      "39662639",
+      "38044747",
+      "39130750",
+      "35713363",
+      "36398223",
+      "31160886",
+      "39697326",
+      "37386410",
+      "36923221",
+      "39583859",
+      "39096939",
+      "40116046",
+      "37878485",
+      "40300201",
+      "36627660",
+      "37752199",
+      "40028203",
+      "38051734",
+      "38074089",
+      "38839020",
+      "36531699",
+      "38274270",
+      "38493695",
+      "32305498",
+      "39403102",
+      "39864211",
+      "39634176",
+      "39773329",
+      "38863714",
+      "40032894",
+      "39074415",
+      "39855613",
+      "35996248",
+      "34358859",
+      "39006030",
+      "40304990",
+      "38815767",
+      "28459399",
+      "33376723",
+      "35705936",
+      "34590559",
+      "38951833",
+      "36091399"
+    ],
+    "review": [
+      "40160318",
+      "39040334",
+      "39168238",
+      "36979927"
+    ],
+    "pmc": [
+      "11949969"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40160318/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmed.2025.1501467",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

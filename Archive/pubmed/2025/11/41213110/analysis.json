@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41213110",
+  "title": "Machine Learning-Based Prediction of Distant Recurrence Risk and Ribociclib Treatment Effect in HR+/HER2- Early Breast Cancer Using Real-World and NATALEE Data.",
+  "authors": "Howard, Frederick M; Fasching, Peter A; Santa-Maria, Cesar A; Lim, Elgene; Sparano, Joseph A; Lustberg, Maryam B; Bachelot, Thomas; Blyuss, Oleg; Brezden-Masley, Christine; Park, Yeon Hee; Akdere, Murat; Ye, Fen; Pantoja, Kristyn; Kurz, Christoph; Dominguez Castro, Patricia; Razavi, Pedram",
+  "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+  "published_date": "2025-11-10",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用机器学习预测HR+/HER2-早期乳腺癌远处复发风险及ribociclib疗效，完全不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "PURPOSE: Despite current standard-of-care endocrine therapy, distant recurrence remains a concern for patients with hormone receptor-positive (HR+)/HER2- early breast cancer (EBC). Understanding individual recurrence risk would aid in clinical decision-making. We used machine learning to identify risk factors and develop recurrence risk prediction models. EXPERIMENTAL DESIGN: Predictor variables were identified by gradient boosting and used to train models on a large, diverse real-world dataset of patients with stage I-III HR+/HER2- EBC obtained from the US-based, electronic health record-derived deidentified Flatiron Health Research Database. An elastic net-penalized Cox proportional hazards model was validated internally with real-world data and externally with data from the NATALEE trial of ribociclib in patients with HR+/HER2- EBC. Prediction and outcome concordance for distant recurrence and treatment effect were analyzed with Harrell's concordance index (C-index) and integrated Brier score; model performance over time was determined by dynamic AUC analysis. RESULTS: The model accurately predicted distant recurrence in the real-world cohort [n = 7,842; C-index: 0.85 (95% confidence interval, 0.8461-0.8598); integrated Brier score: 0.05 (95% confidence interval, 0.0443-0.0495)] over time (AUC >0.7 through 10 years); internal validation and sensitivity analyses confirmed model performance. External validation with the NATALEE nonsteroidal aromatase inhibitor alone arm yielded a lower but still discriminative performance (C-index: 0.66). Training on NATALEE data improved concordance (C-index: 0.70); the NATALEE-trained model predicted a 3.2% reduction in distant recurrence at 48 months with ribociclib treatment in the real-world cohort. CONCLUSIONS: A machine learning model was developed that accurately predicted distant recurrence in HR+/HER2- EBC. The identified predictor variables and developed models may aid in risk-based personalized treatment decision-making.",
+  "abstract_zh": "目的：尽管目前采用标准内分泌治疗，激素受体阳性（HR+）/HER2-早期乳腺癌（EBC）患者的远处复发仍是一个令人担忧的问题。了解个体复发风险有助于临床决策。我们利用机器学习识别风险因素并开发复发风险预测模型。实验设计：通过梯度提升识别预测变量，并用于在来自美国电子健康记录衍生的去标识化Flatiron Health研究数据库的大规模、多样化I-III期HR+/HER2- EBC患者真实世界数据集上训练模型。弹性网络惩罚Cox比例风险模型通过真实世界数据进行内部验证，并通过NATALEE试验（针对HR+/HER2- EBC患者使用ribociclib）的数据进行外部验证。远处复发和治疗效果的预测与结果一致性通过Harrell一致性指数（C-index）和综合Brier评分进行分析；模型随时间性能通过动态AUC分析确定。结果：模型在真实世界队列（n = 7,842；C-index：0.85（95%置信区间，0.8461-0.8598）；综合Brier评分：0.05（95%置信区间，0.0443-0.0495））中随时间准确预测了远处复发（10年内AUC >0.7）；内部验证和敏感性分析确认了模型性能。使用NATALEE非甾体芳香化酶抑制剂单药组进行外部验证，性能较低但仍具区分度（C-index：0.66）。基于NATALEE数据训练提高了一致性（C-index：0.70）；NATALEE训练模型预测在真实世界队列中，使用ribociclib治疗48个月时远处复发减少3.2%。结论：开发了一种机器学习模型，能准确预测HR+/HER2- EBC的远处复发。识别的预测变量和开发的模型可能有助于基于风险的个性化治疗决策。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41213110/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41213110/",
+  "paper_page_path": "papers/pubmed/41213110/index.html"
+}

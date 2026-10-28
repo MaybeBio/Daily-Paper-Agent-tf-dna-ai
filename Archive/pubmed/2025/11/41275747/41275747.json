@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "41275747",
+    "doi": "10.1016/j.phymed.2025.157564",
+    "title": "Atractylenolide I activates the DNA damage-apoptosis axis in colorectal cancer patient-derived organoids by dual-targeting XRCC5 and CLTC."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is a leading malignancy worldwide. Patient-derived organoids (PDOs) represent a cutting-edge model for cancer research. Atractylenolide I (ATT-1), a key bioactive lactone component of Baizhu (Atractylodes macrocephala), has demonstrated anti-cancer potential, but its mechanism of action in clinically relevant CRC PDO models remains unknown. PURPOSE: To evaluate the anti-tumor efficacy and molecular mechanism of ATT-1 using colorectal cancer PDOs. METHODS: We investigated ATT-1 in CRC PDOs, assessing its effects on viability, proliferation (EdU), apoptosis (TUNEL), and DNA damage (gamma-H2AX). Combination therapies with oxaliplatin or NU7441 were also evaluated in the PDO models. Multi-omics analyses (RNA-seq and metabolomics) profiled transcriptional and metabolic alterations. Direct target engagement was identified through LiP-MS and CETSA, and validated via shRNA knockdown. Molecular docking and dynamics simulations characterized the binding interactions. In vivo efficacy, safety, and combination therapy were validated in mouse xenograft models. RESULTS: ATT-1 selectively inhibited the proliferation of CRC PDOs, inducing apoptosis and inhibiting DNA damage repair. Multi-omics profiling revealed disruption of lipid metabolism, nucleotide synthesis, and cell cycle progression. We identified CLTC and XRCC5 as direct protein targets of ATT-1, validated by LiP-MS, CETSA, and functional knockdown assays. ATT-1 synergized with oxaliplatin and NU7441, enhancing anti-tumor efficacy in both PDO and xenograft models without significant hepatorenal toxicity. Furthermore, ATT-1 exhibited favorable pharmacokinetic properties. CONCLUSION: This study identifies ATT-1 as a promising multi-targeted therapeutic for colorectal cancer by leveraging PDOs for direct, de novo target discovery. We uniquely identified two novel, high-affinity targets, CLTC and XRCC5, and elucidated a convergent dual-targeting mechanism wherein ATT-1 binding disrupts DNA damage repair and triggers apoptosis. This novel mechanism and its potent synergy with standard chemotherapy in physiologically relevant models provide a compelling strategy for integrating traditional Chinese medicine into modern precision oncology.",
+    "keywords": [
+      "Atractylenolide I",
+      "CLTC",
+      "Colorectal cancer",
+      "Patient-derived organoids",
+      "XRCC5"
+    ],
+    "mesh_terms": [
+      "*Apoptosis/drug effects",
+      "Humans",
+      "*DNA Damage/drug effects",
+      "*Sesquiterpenes/pharmacology",
+      "Animals",
+      "*Colorectal Neoplasms/drug therapy",
+      "*Organoids/drug effects",
+      "*Lactones/pharmacology",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Xenograft Model Antitumor Assays",
+      "Oxaliplatin/pharmacology",
+      "Atractylodes/chemistry",
+      "Mice, Nude",
+      "Cell Proliferation/drug effects",
+      "Cell Line, Tumor",
+      "*DNA-Binding Proteins/metabolism",
+      "*Antineoplastic Agents, Phytogenic/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Lin",
+        "Zhang, Chao",
+        "Wu, Xuewei",
+        "Hu, Yuqing",
+        "Pan, Yi",
+        "Chang, Jie",
+        "Mei, Chenxuan",
+        "Xu, Shuochen",
+        "Yu, Yihan",
+        "Zhang, Jiaqi",
+        "Dai, Kangfu",
+        "Wang, Jianping",
+        "Du, Jinlin",
+        "Xu, Wenxia"
+      ],
+      "short_names": [
+        "Chen L",
+        "Zhang C",
+        "Wu X",
+        "Hu Y",
+        "Pan Y",
+        "Chang J",
+        "Mei C",
+        "Xu S",
+        "Yu Y",
+        "Zhang J",
+        "Dai K",
+        "Wang J",
+        "Du J",
+        "Xu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China.",
+        "Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China. Electronic address: dujinlin@zju.edu.cn.",
+        "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China. Electronic address: xuwenxia@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chao",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xuewei",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yuqing",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yi",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Jie",
+        "short_name": "Chang J",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Chenxuan",
+        "short_name": "Mei C",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shuochen",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yihan",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiaqi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Kangfu",
+        "short_name": "Dai K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianping",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jinlin",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, National Clinical Key Disciplines, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China. Electronic address: dujinlin@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenxia",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Precision Medicine Center, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China; Jinhua Key Laboratory of Cancer Nutrition and Metabolism Research, Affiliated Jinhua Hospital, Zhejiang University School of Medicine, Jinhua 321000, Zhejiang Province, China. Electronic address: xuwenxia@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 00:49",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42624927",
+      "42511467"
+    ],
+    "refs": [],
+    "similar": [
+      "41275747",
+      "39461203",
+      "32135457",
+      "34261915",
+      "41101075",
+      "41328352",
+      "39515101",
+      "39197803",
+      "39002822",
+      "41425720",
+      "38669968",
+      "40551232",
+      "40876907",
+      "23800091",
+      "26988300",
+      "36604765",
+      "40023971",
+      "39471878",
+      "39008915",
+      "38414064",
+      "39551911",
+      "41038145",
+      "34411919",
+      "40656610",
+      "39164711",
+      "40069750",
+      "40154491",
+      "40886867",
+      "24172243",
+      "39938766",
+      "38972750",
+      "40750758",
+      "38861856",
+      "40619020",
+      "32483423",
+      "40252583",
+      "41161080",
+      "38326625",
+      "34412665",
+      "21524699",
+      "30950338",
+      "40024351",
+      "41009348",
+      "30466620",
+      "40912051",
+      "41016541",
+      "35719949",
+      "39684869",
+      "39757707",
+      "28181527",
+      "39978541",
+      "38767973",
+      "41043665",
+      "39536859",
+      "41177014",
+      "38641080",
+      "39799436",
+      "24495750",
+      "40659139",
+      "40756270",
+      "30890168",
+      "30223276",
+      "39038387",
+      "40207690",
+      "39823802",
+      "35379798",
+      "34344433",
+      "41038143",
+      "37880806",
+      "40615101",
+      "38295877",
+      "40783104",
+      "33830945",
+      "41205283",
+      "40269151",
+      "40279966",
+      "40481655",
+      "36136268",
+      "41273839",
+      "41097051",
+      "38728919",
+      "22218594",
+      "40992442",
+      "39671784",
+      "41298459",
+      "39615216",
+      "40743902",
+      "40424981",
+      "38762212",
+      "40393246",
+      "40716126",
+      "26307972",
+      "39980293",
+      "39689762",
+      "39853769",
+      "40680332",
+      "40546797",
+      "31831554",
+      "40235275",
+      "41187650"
+    ],
+    "review": [
+      "41275747"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01200-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-XRCC5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-606",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

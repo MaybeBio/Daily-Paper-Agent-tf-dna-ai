@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "41279701",
+    "doi": "10.1101/2025.10.15.680997",
+    "title": "Deep learning the dynamic regulatory sequence code of cardiac organoid differentiation."
+  },
+  "content": {
+    "abstract": "Defining the temporal gene regulatory programs that drive human organogenesis is essential for understanding the origins of congenital disease. We combined a time-resolved, single-cell multi-omic atlas of human iPSC-derived cardiac organoids with deep learning models that predict chromatin accessibility from DNA sequence, enabling the discovery of the regulatory syntax underlying early heart development. This framework uncovered cell-state-specific rules of cardiogenesis, including context-dependent activities of TEAD, HAND, and TBX transcription factor families, and linked these motifs to their target genes. We identified distinct programs guiding lineage divergence, such as ventricular versus pacemaker cardiomyocytes, and validated predictions by perturbing Myocardin (MYOCD), establishing its essential role in ventricular specification. Integration of chromatin, transcriptional, and genetic data further highlighted regulatory regions and disease-associated variants that perturb differentiation state transitions, supporting evidence that suggests congenital heart disease emerges early in development. This work bridges developmental gene regulation with disease genetics, providing a foundation for mechanistic and therapeutic insights into congenital diseases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Metzl-Raz, Eyal",
+        "Zhao, Ryan",
+        "Deshpande, Salil",
+        "Powell, Jackson",
+        "Porter, Elizabeth G",
+        "Zouaghi, Yassine",
+        "Liu, Betty B",
+        "Kim, Samuel H",
+        "Abdi, Immanuel",
+        "Evergreen, Ivy",
+        "Agarwal, Megha",
+        "Sheth, Maya U",
+        "Rico, Joshua",
+        "Miyamoto, Matthew",
+        "Sanchez, Julie M",
+        "Engreitz, Jesse M",
+        "Kundaje, Anshul",
+        "Greenleaf, William J",
+        "Gifford, Casey A"
+      ],
+      "short_names": [
+        "Metzl-Raz E",
+        "Zhao R",
+        "Deshpande S",
+        "Powell J",
+        "Porter EG",
+        "Zouaghi Y",
+        "Liu BB",
+        "Kim SH",
+        "Abdi I",
+        "Evergreen I",
+        "Agarwal M",
+        "Sheth MU",
+        "Rico J",
+        "Miyamoto M",
+        "Sanchez JM",
+        "Engreitz JM",
+        "Kundaje A",
+        "Greenleaf WJ",
+        "Gifford CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7111-2822",
+        "ORCID: 0009-0009-0204-9370",
+        "ORCID: 0009-0009-5776-8428",
+        "ORCID: 0000-0003-4302-1306",
+        "ORCID: 0000-0001-9864-4979",
+        "ORCID: 0000-0003-1655-7164",
+        "ORCID: 0000-0002-0419-3351",
+        "ORCID: 0009-0004-6737-889X",
+        "ORCID: 0000-0003-1466-8899",
+        "ORCID: 0009-0004-3779-0963",
+        "ORCID: 0000-0002-2140-6769",
+        "ORCID: 0000-0002-5754-1719",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0003-1409-3095",
+        "ORCID: 0000-0002-7757-573X"
+      ],
+      "affiliations": [
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA.",
+        "Department of Biomedical Sciences, Stanford University, Stanford, CA, USA.",
+        "Cancer Biology Program, Stanford University, Stanford, CA, USA.",
+        "Medical Scientist Training Program, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Stanford Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+        "Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Applied Physics, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+        "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+        "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA.",
+        "Stanford Cardiovascular Institute, Stanford University, Stanford, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Metzl-Raz, Eyal",
+        "short_name": "Metzl-Raz E",
+        "identifiers": [
+          "0000-0002-7111-2822"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ryan",
+        "short_name": "Zhao R",
+        "identifiers": [
+          "0009-0009-0204-9370"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Deshpande, Salil",
+        "short_name": "Deshpande S",
+        "identifiers": [
+          "0009-0009-5776-8428"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Powell, Jackson",
+        "short_name": "Powell J",
+        "identifiers": [
+          "0000-0003-4302-1306"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Porter, Elizabeth G",
+        "short_name": "Porter EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zouaghi, Yassine",
+        "short_name": "Zouaghi Y",
+        "identifiers": [
+          "0000-0001-9864-4979"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Betty B",
+        "short_name": "Liu BB",
+        "identifiers": [
+          "0000-0003-1655-7164"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Samuel H",
+        "short_name": "Kim SH",
+        "identifiers": [
+          "0000-0002-0419-3351"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, Stanford University, Stanford, CA, USA.",
+          "Cancer Biology Program, Stanford University, Stanford, CA, USA.",
+          "Medical Scientist Training Program, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Abdi, Immanuel",
+        "short_name": "Abdi I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Evergreen, Ivy",
+        "short_name": "Evergreen I",
+        "identifiers": [
+          "0009-0004-6737-889X"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Megha",
+        "short_name": "Agarwal M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sheth, Maya U",
+        "short_name": "Sheth MU",
+        "identifiers": [
+          "0000-0003-1466-8899"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Department of Bioengineering, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rico, Joshua",
+        "short_name": "Rico J",
+        "identifiers": [
+          "0009-0004-3779-0963"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+          "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Miyamoto, Matthew",
+        "short_name": "Miyamoto M",
+        "identifiers": [
+          "0000-0002-2140-6769"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sanchez, Julie M",
+        "short_name": "Sanchez JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+          "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Engreitz, Jesse M",
+        "short_name": "Engreitz JM",
+        "identifiers": [
+          "0000-0002-5754-1719"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+          "Stanford Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+          "Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [
+          "0000-0003-1409-3095"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Department of Applied Physics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gifford, Casey A",
+        "short_name": "Gifford CA",
+        "identifiers": [
+          "0000-0002-7757-573X"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Division of Cardiology, Department of Pediatrics, Stanford University, Stanford, CA, USA.",
+          "Basic Science and Engineering (BASE) Initiative, Betty Irene Moore Children's Heart Center, Stanford Medicine Children's Health, Stanford, CA, USA.",
+          "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA, USA.",
+          "Stanford Cardiovascular Institute, Stanford University, Stanford, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:21",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41279701",
+      "42475469",
+      "42323439",
+      "36563664",
+      "40080060",
+      "41951735",
+      "37884859",
+      "34650237",
+      "41937210",
+      "42074532",
+      "42411605",
+      "41049289",
+      "36198796",
+      "22981692",
+      "42680482",
+      "31619793",
+      "25887857",
+      "31053165",
+      "32772801",
+      "35976093",
+      "26126786",
+      "10477291",
+      "31136738",
+      "42281968",
+      "39485283",
+      "39437788",
+      "33321106",
+      "28733351",
+      "24803680",
+      "37705079",
+      "17021041",
+      "42210302",
+      "39742806",
+      "39273049",
+      "35113653",
+      "41509364",
+      "25997157",
+      "39975126",
+      "42677159",
+      "30814119",
+      "35142607",
+      "39829783",
+      "38358392",
+      "42239177",
+      "36043696",
+      "42119148",
+      "41684930",
+      "34390642",
+      "26740066",
+      "39935786",
+      "37178817",
+      "42491502",
+      "39878507",
+      "24335282",
+      "29396371",
+      "39980349",
+      "42517821",
+      "29030344",
+      "32029221",
+      "24060351",
+      "38317221",
+      "36930454",
+      "39090688",
+      "42587726",
+      "30760547",
+      "31815603",
+      "33406262",
+      "39117640",
+      "42234579",
+      "41457082",
+      "42724214",
+      "20167925",
+      "33134611",
+      "39253514",
+      "37772400",
+      "26485529",
+      "28663367",
+      "25765133",
+      "22666593",
+      "41972591",
+      "36493778",
+      "41446109",
+      "39026742",
+      "9043061",
+      "42079281",
+      "38664790",
+      "38915555",
+      "28846746",
+      "41721429",
+      "41159420",
+      "40577680",
+      "40468596",
+      "32646524",
+      "40780181",
+      "31513549",
+      "37440917",
+      "29807547",
+      "24421884",
+      "28077316",
+      "41676679"
+    ],
+    "review": [
+      "41279701",
+      "42323439",
+      "42074532",
+      "41049289",
+      "26126786",
+      "42677159",
+      "39935786",
+      "39980349",
+      "36930454",
+      "42587726"
+    ],
+    "pmc": [
+      "12632746"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41279701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.15.680997",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

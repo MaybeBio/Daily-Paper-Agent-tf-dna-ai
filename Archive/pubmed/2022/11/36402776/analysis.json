@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36402776",
+  "title": "Integrating transcription factor occupancy with transcriptome-wide association analysis identifies susceptibility genes in human cancers.",
+  "authors": "He, Jingni; Wen, Wanqing; Beeghly, Alicia; Chen, Zhishan; Cao, Chen; Shu, Xiao-Ou; Zheng, Wei; Long, Quan; Guo, Xingyi",
+  "journal": "Nature communications",
+  "published_date": "2022-11-20",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文将转录因子占据信息整合进TWAS以识别癌症易感基因，虽涉及TF-DNA结合位点先验知识，但核心是遗传关联分析而非TF-DNA互作建模，且无AI/物理模拟方法，与课题关联较弱。",
+  "abstract": "Transcriptome-wide association studies (TWAS) have successfully discovered many putative disease susceptibility genes. However, TWAS may suffer from inaccuracy of gene expression predictions due to inclusion of non-regulatory variants. By integrating prior knowledge of susceptible transcription factor occupied elements, we develop sTF-TWAS and demonstrate that it outperforms existing TWAS approaches in both simulation and real data analyses. Under the sTF-TWAS framework, we build genetic models to predict alternative splicing and gene expression in normal breast, prostate and lung tissues from the Genotype-Tissue Expression project and apply these models to data from large genome-wide association studies (GWAS) conducted among European-ancestry populations. At Bonferroni-corrected P < 0.05, we identify 354 putative susceptibility genes for these cancers, including 189 previously unreported in GWAS loci and 45 in loci unreported by GWAS. These findings provide additional insight into the genetic susceptibility of human cancers. Additionally, we show the generalizability of the sTF-TWAS on non-cancer diseases.",
+  "abstract_zh": "转录组全关联研究（TWAS）已成功发现许多推定疾病易感基因。然而，由于包含非调控变异，TWAS可能面临基因表达预测不准确的问题。通过整合易感转录因子占据元件的先验知识，我们开发了sTF-TWAS，并证明其在模拟和真实数据分析中均优于现有TWAS方法。在sTF-TWAS框架下，我们构建了遗传模型，用于预测来自基因型-组织表达计划（Genotype-Tissue Expression project）的正常乳腺、前列腺和肺组织中的可变剪接和基因表达，并将这些模型应用于欧洲裔人群中开展的大型全基因组关联研究（GWAS）数据。在Bonferroni校正P < 0.05水平下，我们识别出这些癌症的354个推定易感基因，其中189个在GWAS位点中此前未报道，45个位于GWAS未报道的位点。这些发现为人类癌症的遗传易感性提供了额外见解。此外，我们展示了sTF-TWAS在非癌症疾病中的普适性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36402776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36402776/",
+  "paper_page_path": "papers/pubmed/36402776/index.html"
+}

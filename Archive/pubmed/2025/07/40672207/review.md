@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and methods sections only; no results, figures, or tables provided)
+- **Assessment boundary** Technical design and feasibility of the GAME framework as described in the abstract and methods; no empirical validation data available for assessment
+- **Shared manuscript claim summary** The authors propose GAME, a containerized, API-based framework for standardized benchmarking of sequence-to-activity genomics models, featuring an LLM-powered Matcher module for automated alignment of user-defined evaluation tasks with model capabilities
+- **Visible evidence base** Abstract, Methods sections (Information passing, Communication protocol, Module responsibilities, Containerization, Maintenance and Community Contributions, Automated and externalized cell type, molecule, and species matching), Data and Code availability, Acknowledgements
+- **Missing materials affecting confidence** Results section, figures, tables, benchmark examples, model implementations, performance evaluations, validation data, and any quantitative assessment of the Matcher module's accuracy
+
+## Reviewer
+- **Overall assessment** This manuscript describes a well-motivated software framework addressing a genuine need in the genomics machine learning community. The API-based design is conceptually sound and borrows appropriately from established software engineering practices. However, the provided material contains no empirical validation, no demonstration of the framework in action, and no quantitative assessment of the Matcher module's performance. The claims about ease of use, scalability, and community adoption are plausible but entirely unsupported by the evidence presented. The manuscript reads as a software description without the accompanying validation that would establish its utility.
+- **Who would be interested in the results, and why** Computational genomics researchers developing or using sequence-to-activity models (e.g., gene expression, chromatin accessibility, DNA binding prediction) would be the primary audience. The framework addresses the real problem of inconsistent benchmarking practices across the field. Researchers in regulatory genomics, model developers, and those performing large-scale model comparisons would find the standardized evaluation approach relevant. The broader machine learning for genomics community would also be interested given the emphasis on community-driven benchmarking.
+- **Major strengths** The problem being addressed is genuine and timely. The API-based design is a sensible architectural choice that promotes modularity and interoperability. The separation of Evaluator and Predictor responsibilities is well thought out, with clear delineation of which module handles which tasks. The use of containerization via Apptainer is appropriate for HPC environments. The Matcher module addresses a real bottleneck in benchmarking heterogeneous models. The community-maintained registry approach is a reasonable model for sustainability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The framework enables "large-scale, community-led standardized model benchmarking on user-defined evaluation tasks"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The manuscript provides no demonstration that the framework actually works. There are no results showing successful benchmarking runs, no examples of models or benchmarks implemented within GAME, no performance metrics, and no comparison to existing approaches. The claim that GAME enables large-scale benchmarking is entirely unvalidated.
+  - **Why it matters** A software framework's utility is established through demonstration. Without any evidence of successful deployment, the core value proposition of the manuscript cannot be assessed. The reader cannot determine whether the framework functions as described, whether it scales, or whether it produces meaningful benchmarking results.
+  - **Resolution test** Provide at least one complete worked example of a benchmark task executed through GAME, including the model used, the dataset, the Matcher alignment, and the resulting evaluation metrics. Ideally, include multiple examples demonstrating different task types and model architectures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The Matcher module "automates ambiguous task alignment between benchmarks and models" using an LLM
+  - **Evidence pointer** Methods section "Automated and externalized cell type, molecule, and species matching"; location not provided
+  - **Concern** No quantitative or qualitative assessment of the Matcher's accuracy is provided. The manuscript describes the tournament-style chunking strategy but gives no data on how often the Matcher produces correct alignments, how it handles edge cases, or how it compares to manual curation. The claim that this reduces "potential biases due to memorization of cell-type relationships" is asserted without evidence.
+  - **Why it matters** The Matcher is a critical component of the framework. If it produces incorrect alignments, benchmarking results will be invalid. The authors acknowledge the challenge of long lists of options but provide no evidence that their solution works reliably. The use of an LLM introduces stochasticity that needs characterization.
+  - **Resolution test** Provide a systematic evaluation of Matcher performance on a diverse set of test cases, including exact matches, synonyms, abbreviations, and ambiguous terms. Report accuracy metrics, error analysis, and comparison to manual alignment or rule-based approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The framework ensures "consistent evaluation protocols" and "reproducibility"
+  - **Evidence pointer** Abstract; Methods section "Containerization"; location not provided
+  - **Concern** While containerization is described, there is no demonstration of reproducibility. No information is provided about version pinning of dependencies, hash verification of containers, or any mechanism to ensure that the same benchmark run produces identical results across different platforms or time points. The LLM-based Matcher introduces inherent non-determinism that is not addressed.
+  - **Why it matters** Reproducibility is a stated goal of the framework. If the Matcher produces different alignments on different runs, benchmarking results may not be comparable across runs or across users. The manuscript does not address how this variability is managed or documented.
+  - **Resolution test** Demonstrate that running the same benchmark task multiple times produces consistent results. Describe versioning and dependency management strategies. Address how LLM non-determinism in the Matcher is handled, for example through temperature settings, seed control, or post-hoc validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and generalizability
+  - **Claim pointer** The framework focuses on "predicting underlying biochemical phenomena (e.g. gene expression, open chromatin, DNA binding)" and is "technology-independent"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The manuscript does not specify the full range of task types the framework supports beyond the general categories listed. It is unclear whether the framework can handle diverse output types (e.g., continuous values, binary classifications, tracks), different input formats, or varied evaluation metrics. The claim of technology independence is not substantiated with examples.
+  - **Why it matters** The utility of a benchmarking framework depends on its ability to accommodate the diversity of models and tasks in the field. Without a clear specification of supported task types and data formats, potential users cannot determine whether GAME meets their needs.
+  - **Resolution test** Provide a taxonomy of supported task types, input/output formats, and evaluation metrics. Include examples of diverse benchmarks that have been implemented or can be implemented within the framework.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Information passing"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the socket-based communication is technically accurate but lacks detail on error handling, connection management, and security considerations. The statement that "Python sockets can connect servers to clients" is trivially true and does not add information.
+  - **Required correction** Expand the description to address practical concerns such as connection timeouts, retry logic, authentication, and handling of large data transfers. Consider discussing why socket-based communication was chosen over alternatives like HTTP or gRPC.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Communication protocol"
+  - **Evidence pointer** Location not provided
+  - **Issue** The JSON schema is referenced but not described. The manuscript states that data "must adhere to the predefined JSON schema" but does not provide the schema or a description of its structure.
+  - **Required correction** Include the JSON schema definition or a detailed description of the required data structure in the supplementary materials or appendix.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Methods section "Containerization"
+  - **Evidence pointer** Location not provided
+  - **Issue** The claim that Apptainer "does not require root access" is stated without qualification. While this is generally true for running containers, building them may require additional privileges depending on the configuration.
+  - **Required correction** Clarify the distinction between running and building containers, and note any platform-specific requirements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Maintenance and Community Contributions"
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript mentions that "someone could create a new model, package it into a Predictor, and then issue a pull request" but does not describe the process for creating a Predictor or the requirements for contributing a new module.
+  - **Required correction** Provide documentation or a brief description of the steps required to create and contribute a new Predictor or Evaluator module, including any templates or guidelines.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Automated and externalized cell type, molecule, and species matching"
+  - **Evidence pointer** Location not provided
+  - **Issue** The distinction between "lexical, syntactic, and semantic matching" is described but the implementation details are vague. It is unclear how these three levels of matching are combined and how conflicts between them are resolved.
+  - **Required correction** Provide a more detailed description of the matching algorithm, including how the three levels interact and how the final decision is made.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data and Code availability
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that code is available on GitHub but does not specify the license under which it is released, which is important for community adoption.
+  - **Required correction** Specify the open-source license for the code and any restrictions on use or modification.
+
+## Risk / unsupported claims
+- The claim that GAME enables "large-scale, community-led standardized model benchmarking" is unsupported by any empirical evidence in the provided material.
+- The claim that the Matcher module "automates ambiguous task alignment" and reduces "potential biases due to memorization of cell-type relationships" is asserted without any performance data.
+- The claim that containerization "enhances reproducibility" is plausible but not demonstrated; no reproducibility experiments are described.
+- The claim that the framework is "technology-independent" is not substantiated with examples of diverse task types or data formats.
+- The claim that the framework "will accelerate genomics research" is speculative and not supported by any demonstrated use case.
+- The overall utility and functionality of the GAME framework cannot be assessed from the provided material, as no results, figures, or validation data are included.

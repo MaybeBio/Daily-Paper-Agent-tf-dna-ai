@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table legends as referenced.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions drawn from the presented data, and clarity of presentation. Not assessed: grammatical style, formatting, or journal fit.
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations, enhanced sampling, and experimental lipid-binding assays to characterize the conformational dynamics, dimerization, and membrane interactions of murine guanylate binding protein 2 (mGBP2). They report a large-scale hinge motion in the M/E domain, enhanced by GTP binding and geranylgeranylation, and propose that this motion, in the context of membrane-bound oligomers, may contribute to membrane disruption during immune responses against Toxoplasma gondii.
+- **Visible evidence base** Abstract, full text of introduction, results, discussion, methods, and references to supplementary figures S1–S8 and tables S1–S5. Experimental methods for lipid strip assays and GUV microscopy are described but no primary experimental data are shown in the main text.
+- **Missing materials affecting confidence** Primary experimental data (lipid strip blots, GUV microscopy images) are referenced but not displayed. Supplementary figures and tables are not provided in the submitted material. Force field parameters and system setup details for the mixed membrane simulation are only partially described. No error analysis or convergence assessment for the HREAM simulations is shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive computational study of mGBP2 dynamics, with supporting experimental identification of cardiolipin as a binding partner. The work is timely and relevant to the field of cell-autonomous immunity. The central finding of a GTP- and lipid-dependent hinge motion is plausible and potentially significant. However, the manuscript currently does not fully establish the link between the observed dynamics and the proposed functional outcome of membrane disruption. Several technical aspects, particularly regarding simulation convergence, force field consistency, and the interpretation of the mixed-membrane simulations, require clarification or additional analysis before the conclusions can be considered robust.
+- **Who would be interested in the results, and why** Researchers studying dynamin-like proteins, GTPase mechanisms, membrane remodeling, and innate immune defense against intracellular pathogens. The work provides a molecular-level model for how mGBP2 might function at membranes, which is of direct relevance to understanding host-pathogen interactions and could inform future experimental studies on GBP function.
+- **Major strengths**
+  - The study addresses an important and understudied question: the molecular mechanism of mGBP2 action at membranes.
+  - The combination of enhanced sampling simulations, standard MD, and experimental validation (lipid strips, GUVs) is a strong approach.
+  - The identification of cardiolipin as a preferred lipid binding partner is a novel and potentially important finding.
+  - The analysis of the dimer interface and the proposal of specific residues involved in dimerization provide testable hypotheses.
+  - The use of multiple simulation methods and the comparison of different protein states (apo, GTP-bound, holo) is thorough.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the hinge motion of the M/E domain is enhanced by GTP binding and geranylgeranylation, and that this motion is particularly pronounced on cardiolipin-containing membranes.
+  - **Evidence pointer** Section 2.1, Section 2.3, Figures 4, 5, 7, 8, Supplementary Figures S1, S2, S4, S5
+  - **Concern** The comparison of the hinge motion across different systems (apo, GTP, holo, membrane-bound) is based on simulations with different lengths and methods (HREMD vs. standard MD). The authors state that the 16x200 ns HREMD is sufficient, but no convergence analysis is shown. The 1 μs standard MD simulations of the membrane systems may not sample the same conformational space as the HREMD simulations, making direct quantitative comparisons of motion amplitudes (e.g., PC1 values) potentially misleading. Furthermore, the mixed membrane simulation uses a different force field (CHARMM36) than the solution simulations (Amber99SB*-ILDNP), which could introduce systematic differences in protein dynamics.
+  - **Why it matters** The central conclusion of the paper rests on the comparison of dynamic properties across different systems. If the differences in motion amplitudes are due to simulation methodology rather than physical effects, the conclusions would be invalid.
+  - **Resolution test** Provide a convergence analysis for the HREMD simulations (e.g., block averaging of PC values, overlap of conformational distributions between replicas). For the membrane simulations, either run the solution simulations with the same force field or demonstrate that the force field change does not significantly alter the protein dynamics. Additionally, consider running longer standard MD simulations for the solution systems to enable a more direct comparison with the membrane systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors propose that the up-and-down motion of the M/E domain on cardiolipin-containing membranes has the potential to destroy the membrane following the formation of supramolecular mGBP2 complexes.
+  - **Evidence pointer** Section 2.3, Section 3, Figure 8
+  - **Concern** This is a speculative conclusion that is not directly supported by the presented data. The simulations show a single mGBP2 molecule on a membrane patch, and no membrane disruption or curvature change is observed. The claim that oligomerization would lead to membrane destruction is not tested. The authors acknowledge this limitation in the discussion, but the abstract presents this as a "prognosis," which is too strong given the lack of direct evidence.
+  - **Why it matters** The proposed functional outcome is a key motivation for the study. Without evidence linking the observed dynamics to membrane disruption, the significance of the findings is diminished.
+  - **Resolution test** Either provide simulations of mGBP2 oligomers on membranes to test the hypothesis, or soften the language in the abstract and discussion to clearly state that this is a hypothesis requiring further testing. If experimental data on membrane disruption exist, they should be included.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the mixed membrane simulation was performed with a composition of 75% DOPC, 20% cholesterol, and 5% cardiolipin, based on the GUV experiments.
+  - **Evidence pointer** Section 2.3, Section 4.1, Table 2
+  - **Concern** The exact composition and preparation of the mixed membrane system are not fully described. It is unclear how the cardiolipin molecules were distributed between the two leaflets, whether the system was equilibrated, and what the final area per lipid was. This level of detail is necessary for reproducibility.
+  - **Why it matters** The interaction of mGBP2 with cardiolipin is a central finding. If the simulation setup is not reproducible, the results cannot be verified.
+  - **Resolution test** Provide a detailed description of the membrane building process, including the number of lipids of each type, the initial placement of cardiolipin, the equilibration protocol, and the final system dimensions. This information could be added to the methods or supplementary information.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The description of the conformational clustering results for the G domain loops is dense and difficult to follow. The relationship between the cluster numbers and the functional significance is not always clear.
+  - **Required correction** Consider presenting the clustering data in a more accessible format, such as a bar chart or a table with representative structures, and explicitly state the functional implications of the observed cluster distributions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3, Figure 8
+  - **Evidence pointer** Figure 8
+  - **Issue** The experimental data from the lipid strip assay and GUV microscopy are described but not shown. The reader cannot assess the quality of the data or the validity of the conclusions drawn from them.
+  - **Required correction** Include the primary experimental data as a figure in the main text or supplementary information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 4.1, Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The simulation parameters (e.g., thermostat, barostat, integration time step) are not listed in the main text. This information is essential for reproducing the simulations.
+  - **Required correction** Add a table or paragraph in the methods section listing all relevant simulation parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 2.2, Figure 6
+  - **Evidence pointer** Figure 6
+  - **Issue** The statement that the hinge motions in the dimer are anti-correlated is based on visual inspection of snapshots and the DCC analysis. The quantitative measure of this anti-correlation is not provided.
+  - **Required correction** Provide a quantitative measure of the anti-correlation, such as the correlation coefficient between the L480 displacements of the two monomers over time.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of convergence analysis for HREMD simulations and inconsistent force fields across systems.
+  - R1-M2: The central functional claim (membrane disruption) is not supported by direct evidence.
+  - R1-M3: Insufficient detail on the mixed membrane simulation setup for reproducibility.
+
+## Risk / unsupported claims
+- The claim that the up-and-down motion of the M/E domain on cardiolipin-containing membranes can destroy the membrane is unsupported by the presented data and should be presented as a hypothesis.
+- The claim that GTP binding shifts the monomer-dimer equilibrium toward the dimer is inferred from simulation data but not directly demonstrated experimentally in this work.
+- The statement that the hinge motion is "particularly pronounced" on cardiolipin-containing membranes compared to POPC membranes is based on a single simulation per system and lacks statistical rigor.
+- The identification of specific residues (R238, R242, K243) as key for dimerization is speculative and not validated by mutagenesis experiments.

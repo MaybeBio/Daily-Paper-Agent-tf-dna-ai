@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.30.454350",
+  "title": "Using attentive gated neural networks to quantify the impact of non-coding variants on transcription factor binding affinity",
+  "authors": "Neel Patel; Haimeng Bai; William S. Bush",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-02",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用注意力门控神经网络预测TF体内结合强度并量化非编码变异对TF结合亲和力的影响，核心聚焦TF-DNA结合位点预测与变异效应建模，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "A large proportion of non-coding variants are present within binding sites of transcription factors(TFs), which play a significant role in gene regulation. Thus, deriving the impact of non-coding variants on TF binding is the first step towards unravelling their regulatory roles within their associated disease traits. Most of the modern algorithms used for this purpose are based on convolutional neural network(CNN) architectures. However, these models are incapable of capturing the positional effect of different sub-sequences within the TF binding sites on the binding affinity. In this paper, we utilize the attentive gated neural network(AGNet) architecture to build a set of TF-AGNet models for predicting in vivo TF binding intensities in the GM12878 lymphoblastoid cells. These models have novel layers capable of deriving the impact of relative positions of different DNA sub-sequences, within a binding site, on TF binding affinity, and of extracting the most relevant prediction features. We show that the TF-AGNet models are able to outperform conventional CNNs for predicting continuous values of TF binding affinity. We also train additional TF-AGNet models for 20 TFs using data from 4 other cell-lines to assess the generalizability of their prediction accuracy. Lastly, we show that the TF-AGNet based models more accurately classify non-coding variants that significantly affect TF binding compared to models based on 7 variant annotation tools. This accuracy can be leveraged to derive gene regulatory roles of millions of non-coding variants across the genome to further examine their mechanistic associations with complex disease traits.",
+  "abstract_zh": "大部分非编码变异存在于转录因子（TFs）的结合位点内，这些位点在基因调控中扮演重要角色。因此，解析非编码变异对TF结合的影响，是揭示其在相关疾病性状中调控作用的第一步。目前用于此目的的大多数现代算法基于卷积神经网络（CNN）架构。然而，这些模型无法捕捉TF结合位点内不同子序列的位置效应对结合亲和力的影响。本文中，我们利用注意力门控神经网络（AGNet）架构构建了一组TF-AGNet模型，用于预测GM12878淋巴母细胞中体内TF结合强度。这些模型具有新颖的层，能够推导结合位点内不同DNA子序列的相对位置对TF结合亲和力的影响，并提取最相关的预测特征。我们展示了TF-AGNet模型在预测TF结合亲和力的连续值方面优于传统CNN。我们还使用来自其他4种细胞系的数据，为20个TF训练了额外的TF-AGNet模型，以评估其预测准确性的泛化能力。最后，我们证明基于TF-AGNet的模型在分类显著影响TF结合的非编码变异方面，比基于7种变异注释工具的模型更为准确。这一准确性可用于推导基因组中数百万非编码变异的基因调控作用，进一步探究它们与复杂疾病性状的机制关联。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.30.454350",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.30.454350",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.30.454350/index.html"
+}

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "39310902",
+    "doi": "10.2147/JIR.S468746",
+    "title": "Investigation and Confirmation of PYCARD as a Potential Biomarker for the Management of Psoriasis Disease."
+  },
+  "content": {
+    "abstract": "PURPOSE: Psoriasis is not yet completely curable, and its etiology and pathogenesis are unclear. Necroptosis, also known as programmed necrosis, is a regulated mode of necrotic cell death. The interaction between inflammatory diseases and necrotic apoptosis has recently attracted significant attention. We explored the molecular mechanisms of necrotic apoptosis-related genes in psoriasis using bioinformatics methods to identify potential biomarkers for psoriasis. PATIENTS AND METHODS: In this study, we screened psoriasis differentially expressed genes from the datasets GSE13355 and GSE14905 and took intersections with necrotic apoptosis-related genes for the next analysis. We used multiple machine learning algorithms to screen key genes and perform enrichment analysis. In addition, we performed an immune infiltration analysis. Transcription factors were predicted by the R package \"RcisTarget\". We also observed the cellular clustering of key genes in different cell types at the single-cell sequencing level. We used real-time fluorescence-based quantitative-polymerase chain reaction, Western blot, and immunohistochemistry to analyze gene expression in clinical samples. We constructed an imiquimod-induced psoriasis-like dermatitis model in mice for further validation. RESULTS: Seven key genes were screened as follows: AIM2, CARD6, HPSE, MYD88, PYCARD, RAI14, and TNFSF10. Enrichment analysis showed that the key genes were mainly involved in inflammatory pathways. Immune infiltration analysis showed significantly higher levels of CD8 T cells, CD4 initial T cells, and CD4 memory-activated T cells in the disease group's samples than in the normal patients' samples. The key gene expression in single cells analyzed showed that PYCARD was significantly expressed in keratinocytes. PYCARD was selected for gene expression analysis; the results showed that its expression was significantly elevated in the skin lesion tissues of patients with psoriasis. We also verified that PYCARD might play a vital role in the development of psoriasis skin lesions using animal experiments. CONCLUSION: PYCARD plays a vital role in psoriasis development and is a potential biomarker for psoriasis.",
+    "keywords": [
+      "bioinformatics",
+      "immune disease",
+      "inflammatory disease",
+      "necrotic apoptosis-related gene"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Bingyang",
+        "Yu, Biao",
+        "Xu, Zining",
+        "Ye, Shuhong",
+        "Qing, Yuxin",
+        "Sun, Hong",
+        "Zhao, Bin",
+        "Wu, Na",
+        "Wu, Jiawen"
+      ],
+      "short_names": [
+        "Xu B",
+        "Yu B",
+        "Xu Z",
+        "Ye S",
+        "Qing Y",
+        "Sun H",
+        "Zhao B",
+        "Wu N",
+        "Wu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-0734-2099"
+      ],
+      "affiliations": [
+        "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China.",
+        "Department of Dermatology, Taihe Hospital, Hubei University of Medicine, Shi'yan, People's Republic of China.",
+        "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China.",
+        "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China.",
+        "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China.",
+        "Department of Neurology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China.",
+        "Department of Dermatology, Xi'an International Medical Center Hospital, Xi'an, People's Republic of China.",
+        "Department of Nursing, Xi'an Jiaotong University Medical School, Xi'an, People's Republic of China.",
+        "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Bingyang",
+        "short_name": "Xu B",
+        "identifiers": [
+          "0009-0006-0734-2099"
+        ],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Biao",
+        "short_name": "Yu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Taihe Hospital, Hubei University of Medicine, Shi'yan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zining",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ye, Shuhong",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qing, Yuxin",
+        "short_name": "Qing Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hong",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bin",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Xi'an International Medical Center Hospital, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Na",
+        "short_name": "Wu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, Xi'an Jiaotong University Medical School, Xi'an, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiawen",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/23 12:45",
+    "fetched_at": "2026-09-30 03:17:14"
+  },
+  "links": {
+    "cites": [
+      "42137840",
+      "40753530",
+      "40303401"
+    ],
+    "refs": [
+      "38652339",
+      "38439147",
+      "38129460",
+      "37861483",
+      "37692276",
+      "37542678",
+      "37481828",
+      "36742336",
+      "36685512",
+      "36291776",
+      "36276287",
+      "36118867",
+      "35962439",
+      "35249726",
+      "34977058",
+      "34880424",
+      "34072753",
+      "34067151",
+      "33386888",
+      "33050592",
+      "32917058",
+      "32859386",
+      "32353252",
+      "32226340",
+      "32075957",
+      "31971601",
+      "31225638",
+      "31203155",
+      "30944313",
+      "30381407",
+      "29344893",
+      "29228712",
+      "27899567",
+      "27008011",
+      "26991762",
+      "26976200",
+      "26594174",
+      "26215033",
+      "26147228",
+      "25605792",
+      "25295306",
+      "25085957",
+      "23785118",
+      "23370539",
+      "22075985",
+      "21191419",
+      "20303873",
+      "17805543",
+      "17658397",
+      "16408008",
+      "16199517",
+      "15083780",
+      "10592173"
+    ],
+    "similar": [
+      "39310902",
+      "39072329",
+      "37431117",
+      "38863714",
+      "36193416",
+      "39270557",
+      "38803495",
+      "38652339",
+      "35729678",
+      "38791423",
+      "37861483",
+      "38587531",
+      "37315507",
+      "33613635",
+      "39090602",
+      "38343546",
+      "31746348",
+      "38148887",
+      "38565044",
+      "35300136",
+      "38115636",
+      "39358990",
+      "31181689",
+      "35957838",
+      "38436011",
+      "38508430",
+      "36073801",
+      "39120060",
+      "38934711",
+      "39070131",
+      "35586812",
+      "39170142",
+      "35949853",
+      "37169570",
+      "33732554",
+      "37635735",
+      "38951833",
+      "32160841",
+      "34512732",
+      "38917217",
+      "27939414",
+      "32669126",
+      "38023488",
+      "36172384",
+      "39239353",
+      "34785109",
+      "32075957",
+      "30064075",
+      "35963195",
+      "38645867",
+      "36741386",
+      "33060784",
+      "36169003",
+      "30684554",
+      "38129460",
+      "38752329",
+      "36876153",
+      "39028999",
+      "38059657",
+      "36011263",
+      "35769488",
+      "36291776",
+      "34931339",
+      "36110207",
+      "31182284",
+      "36699262",
+      "38835517",
+      "38655652",
+      "38596682",
+      "38699235",
+      "37622114",
+      "36355777",
+      "34559160",
+      "35716036",
+      "38552435",
+      "35848689",
+      "38579666",
+      "36890558",
+      "38441793",
+      "38333021",
+      "34025642",
+      "25041445",
+      "34594126",
+      "38009260",
+      "37325631",
+      "38761783",
+      "34233233",
+      "27035208",
+      "37275904",
+      "33081840",
+      "26781069",
+      "38915827",
+      "38125299",
+      "37456892",
+      "39267394",
+      "33237695",
+      "32929360",
+      "38332513",
+      "36499614",
+      "37662940"
+    ],
+    "review": [
+      "39310902",
+      "39267394"
+    ],
+    "pmc": [
+      "11414756"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/JIR.S468746?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39310902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3636",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S468746",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

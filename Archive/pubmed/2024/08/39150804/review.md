@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present TeaTFactor, a BERT-based prediction tool for tea plant transcription factors, pre-trained on UniProt protein data and fine-tuned on tea plant TF data. They report superiority over existing state-of-the-art tools based on comprehensive experiments and a case study, and they provide a web server.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, benchmark details, or web server functionality information are available
+- **Missing materials affecting confidence** Full manuscript, experimental results, dataset composition and size, evaluation metrics, comparison baselines, case study details, and web server implementation specifics
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful application of BERT to transcription factor prediction in tea plants, a niche but relevant area for crop biology. However, the abstract lacks quantitative evidence, methodological detail, and clear benchmarking information. The core claims of superiority and accuracy cannot be evaluated from the supplied material. The work may be of interest to the tea plant genomics and computational biology communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in tea plant genomics, transcription factor annotation, and crop synthetic biology would be interested, as the tool offers a computational alternative to costly wet-lab TF identification. Computational biologists working on protein language models and their application to plant biology may also find the approach relevant.
+- **Major strengths** The use of a pre-training and fine-tuning strategy, leveraging BERT on protein sequences, is a modern and reasonable approach. The focus on a specific crop with limited TF annotation resources addresses a practical need. The provision of a web server enhances accessibility and potential community adoption.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "our model is superior to existing models and achieves the goal of accurate identification."
+  - **Evidence pointer** Abstract, "comprehensive experimental results and a case study" (location not provided)
+  - **Concern** The claim of superiority and accuracy is made without any quantitative data. No metrics such as precision, recall, F1-score, or area under the ROC curve are reported. The comparison to "existing state-of-the-art prediction tools" is mentioned but no specific tools, datasets, or statistical tests are described.
+  - **Why it matters** Without quantitative results, the central claim of the tool's effectiveness cannot be verified. The abstract does not allow readers to assess whether the improvement is meaningful or statistically significant.
+  - **Resolution test** Provide specific performance metrics on a defined benchmark dataset, including comparisons to at least two named existing tools, with confidence intervals or significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states "the model was fine-tuned using the collected TFs data of tea plants" and "we evaluated four different word segmentation methods."
+  - **Evidence pointer** Abstract, methods description (location not provided)
+  - **Concern** The abstract does not specify the size, source, or curation process of the tea plant TF dataset. The four word segmentation methods are named but not described, and no results from this evaluation are presented. The pre-training data from UniProt is mentioned but the specific protein subset or filtering criteria are unclear.
+  - **Why it matters** Reproducibility and assessment of methodological choices require details on data and preprocessing. Without this, the approach cannot be replicated or critically evaluated.
+  - **Resolution test** Describe the tea plant TF dataset (number of sequences, positive and negative classes, source databases), detail the four word segmentation methods, and report the outcome of their evaluation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validation
+  - **Claim pointer** The abstract states "a case study" supports the model's superiority.
+  - **Evidence pointer** Abstract, "case study" (location not provided)
+  - **Concern** The case study is mentioned but its design, results, and relevance are not described. It is unclear whether it involves independent validation, functional prediction, or comparison to experimental data.
+  - **Why it matters** A case study can provide practical evidence of utility, but without details it cannot be assessed for rigor or generalizability.
+  - **Resolution test** Describe the case study objectives, methods, and outcomes, and explain how it supports the model's predictive performance beyond benchmark metrics.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Web server claim
+  - **Evidence pointer** Abstract, "we have developed a web server at http://teatfactor.tlds.cc"
+  - **Issue** The abstract states the web server exists but provides no information on its features, input/output formats, or usage limits.
+  - **Required correction** Add a brief description of the web server's functionality and user interface in the abstract or state that details are in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "word segmentation methods"
+  - **Evidence pointer** Abstract, "four different word segmentation methods"
+  - **Issue** The term "word segmentation" is borrowed from NLP and may be ambiguous for protein sequences. It is unclear if this refers to k-mer tokenization, peptide fragmentation, or another approach.
+  - **Required correction** Define the term in the context of protein sequences or use more standard terminology such as "tokenization strategies."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Motivation for tea plant focus
+  - **Evidence pointer** Abstract, "tea plant research community"
+  - **Issue** The abstract states TF prediction is key for tea plants but does not explain why tea plant TFs are particularly challenging or distinct from other plants.
+  - **Required correction** Add a sentence on the specific characteristics of tea plant TFs or the lack of existing resources that justify a dedicated tool.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological details means the core claims are unsupported. R1-M3 is non-blocking but should be addressed for completeness.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Applying BERT to TF prediction in a specific crop is not conceptually novel, as similar approaches exist for other organisms, but the tea plant focus adds a domain-specific element.
+  - Scientific importance: Limited from the abstract. The tool may be useful for tea plant research, but the broader impact on transcription factor biology or computational methods is not demonstrated.
+  - Interdisciplinary readership: Narrow. The work bridges computational biology and plant science, but the abstract does not present findings that would attract a wide audience beyond these fields.
+  - Technical soundness: Not assessable. The abstract lacks the experimental detail and results needed to evaluate the technical rigor.
+  - Readability for nonspecialists: The abstract is generally clear but uses NLP terminology without sufficient explanation, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the quantitative and methodological substance required to support the claims. A revised version with full experimental details and results could change this assessment.
+
+## Risk / unsupported claims
+- The claim of superiority over existing tools is unsupported due to absence of quantitative comparisons.
+- The claim of "accurate identification" is unsupported without performance metrics.
+- The effectiveness of the four word segmentation methods is not assessable as no results are reported.
+- The utility of the web server cannot be evaluated from the abstract alone.
+- The generalizability of the model beyond the collected dataset is not addressed.

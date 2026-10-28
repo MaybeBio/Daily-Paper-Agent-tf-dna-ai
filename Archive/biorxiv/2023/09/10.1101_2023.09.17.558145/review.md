@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, data/code availability, author contributions, acknowledgements)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, interpretability claims, and generalizability claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present PSICHIC, a physicochemical graph neural network that learns protein-ligand interaction fingerprints from sequence data alone. They claim state-of-the-art binding affinity prediction, emergent interpretability of binding sites and ligand atoms, high accuracy in functional effect prediction, and practical utility in virtual screening, demonstrated by ranking a novel adenosine A1 receptor agonist in the top 3 of a 30,282-compound library.
+- **Visible evidence base** Abstract, Introduction, Results sections (PSICHIC Framework, Effectiveness of Interaction Fingerprints, Generalizability of Interaction Fingerprints, Interpretability of Interaction Fingerprints, Virtual Screening with Interaction Fingerprints), Discussion, Methods (architecture, optimization, pharmacological materials, cell culture, cAMP assay), Data/Code availability statements
+- **Missing materials affecting confidence** Figures 1-4 and Extended Data Figures 1-8 are referenced but not provided. Tables 1 and Extended Data Table 1 are referenced but not provided. Supplementary Methods sections 1, 8, and 12 are referenced but not provided. Benchmark dataset split details, baseline method configurations, statistical significance tests, and full experimental results are not fully described in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially impactful approach to protein-ligand interaction prediction that removes the dependency on structural data. The core idea of embedding physicochemical constraints into a sequence-based graph neural network is well motivated and the reported results are impressive. However, the absence of figures, tables, and supplementary materials severely limits the ability to verify the claims. The interpretability claims, while intriguing, require careful scrutiny given the lack of ground-truth comparison details. The virtual screening result, while promising, is based on a single compound and requires broader validation. The manuscript is well written and the methods are described in sufficient detail to be reproducible, but the evidence base is incomplete as presented.
+- **Who would be interested in the results, and why** Computational biologists, medicinal chemists, and drug discovery researchers would be interested. The method offers a low-cost, high-throughput alternative to structure-based virtual screening, which is particularly relevant for targets without experimentally determined structures. The interpretability feature could aid in pharmacophore elucidation and lead optimization. The broad applicability across binding affinity, activity classification, and functional effect prediction makes it a versatile tool for the community.
+- **Major strengths**
+  1. Novel conceptual contribution: integrating physicochemical constraints into a sequence-based GNN to derive interaction fingerprints is a fresh and well-argued idea.
+  2. Comprehensive evaluation: the authors benchmark against multiple baseline categories (sequence, structure, complex-based) across multiple datasets and tasks.
+  3. Practical relevance: the virtual screening proof-of-concept with experimental validation is a strong demonstration of real-world utility.
+  4. Interpretability: the method provides residue- and atom-level importance scores, which is a valuable feature for mechanistic understanding.
+  5. Reproducibility: code, data, and trained models are made publicly available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim state-of-the-art performance in binding affinity prediction, generalizability across datasets, and interpretability of interaction fingerprints.
+  - **Evidence pointer** Figures 1-4, Extended Data Figures 1-8, Table 1, Extended Data Table 1, Supplementary Methods 1, 8, 12
+  - **Concern** The manuscript references all key results in figures and tables that are not provided in the submitted material. Without these, the quantitative claims cannot be assessed. The performance comparisons, the interpretability analyses, the dataset statistics, and the ablation studies are all invisible.
+  - **Why it matters** The central claims of the paper rest entirely on these missing exhibits. A reviewer cannot verify the magnitude of improvement, the statistical significance, or the validity of the interpretability analysis without seeing the actual data and visualizations.
+  - **Resolution test** Provide all figures, tables, and supplementary materials. Ensure each figure has a clear caption and that the main text refers to specific panels and data points.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability validation
+  - **Claim pointer** The authors claim that PSICHIC's interpretable fingerprints identify protein residues and ligand atoms involved in interactions, and that this is a "first-of-its-kind emergent capability."
+  - **Evidence pointer** Section "Interpretability of Interaction Fingerprints", Figure 3, Extended Data Figures 4-5
+  - **Concern** The interpretability analysis is described qualitatively. The authors state that PSICHIC highlighted binding site residues and key ligand functional groups, but no quantitative comparison against known binding site annotations or interaction databases is provided. The claim of "emergent" capability requires a demonstration that the model was not implicitly trained on such information. The failure mode when constraints are removed is mentioned but not quantified.
+  - **Why it matters** Interpretability is a major selling point of the method. Without quantitative validation (e.g., enrichment of known binding residues, comparison to docking poses, or interaction fingerprint benchmarks), the claim remains anecdotal. The "emergent" claim is strong and needs a rigorous demonstration that the model generalizes to unseen interaction patterns.
+  - **Resolution test** Provide quantitative metrics for interpretability, such as the overlap between predicted important residues and known binding sites (e.g., from PDB or UniProt annotations). Compare the importance scores against a random baseline or a non-constrained model. Show that the interpretability holds across multiple targets and ligand types.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Virtual screening validation
+  - **Claim pointer** The authors claim that PSICHIC ranked the only novel agonist (MIPS1) in the top 3 of a 30,282-compound library, and that this validates the method's potential for novel drug discovery.
+  - **Evidence pointer** Section "Virtual Screening with Interaction Fingerprints", Figure 4
+  - **Concern** The virtual screening result is based on a single compound. The authors do not report the ranks of the other two confirmed binders (MIPS2 and MIPS3), nor do they report the ranks of any known agonists that should be present in the library. The baseline comparison (TankBind) is mentioned for MIPS1 but not for the other compounds. The statistical significance of the ranking is not assessed.
+  - **Why it matters** A single successful hit, even in the top 3, is a weak demonstration of screening utility. The method could be ranking many false positives highly, and the single hit could be due to chance. A more robust evaluation would include multiple known actives and decoys, and a comparison of the overall enrichment.
+  - **Resolution test** Provide the ranks of all confirmed binders and known A1R agonists in the library. Report the enrichment factor or ROC-AUC for the screening campaign. Include a larger set of validated actives and inactives to assess the method's discrimination power.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline fairness and comparison
+  - **Claim pointer** The authors claim that PSICHIC outperforms leading structure-based and complex-based methods when trained on identical protein-ligand pairs.
+  - **Evidence pointer** Section "Effectiveness of Interaction Fingerprints", Table 1, Figure 2a-b
+  - **Concern** The comparison with structure-based and complex-based methods is described, but the details of how these baselines were trained and evaluated are not provided. For example, were the structure-based methods given the same ligand information? Were the complex-based methods given the correct binding poses? The sensitivity of these methods to input resolution is discussed, but the actual resolution distribution of the test sets is not reported.
+  - **Why it matters** The claim of surpassing structure-based methods is significant. If the baselines were not optimally configured or were disadvantaged by the evaluation protocol, the comparison would be unfair. The resolution analysis is important but needs to be tied to the actual data distribution.
+  - **Resolution test** Provide full experimental details for all baselines, including hyperparameters, training protocols, and any data preprocessing. Report the resolution distribution of the test sets and show the performance of all methods across resolution bins. Consider including a sensitivity analysis where baselines are given additional structural information.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of method description
+  - **Affected element** Methods section, PSICHIC Architecture
+  - **Evidence pointer** Equations 1-15
+  - **Issue** The mathematical notation is dense and some symbols are not defined in the text (e.g., the exact form of the physicochemical constraints in Eq. 3, the definition of the "ligand ball" aggregation in Eq. 9). The description of the cluster assignment matrix and the minCUT objective is brief.
+  - **Required correction** Provide a clear definition of all symbols and a more detailed explanation of the physicochemical constraint injection. Consider adding a pseudo-code or a schematic diagram of the architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Results, Effectiveness of Interaction Fingerprints
+  - **Evidence pointer** Extended Data Table 1
+  - **Issue** The dataset statistics are referenced but not shown. The description of the PDBBind v2016 and v2020 splits is minimal.
+  - **Required correction** Include the dataset statistics in the main text or as a table. Describe the split criteria (e.g., sequence identity thresholds) and the number of targets and ligands in each set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Functional effect dataset
+  - **Affected element** Results, Generalizability of Interaction Fingerprints
+  - **Evidence pointer** Extended Data Figure 3
+  - **Issue** The creation of the functional effect dataset from ExCAPE, Papyrus, and Cortellis is described briefly. The criteria for labeling a compound as an agonist, antagonist, or non-binder are not specified.
+  - **Required correction** Provide a detailed description of the data curation process, including the source databases, the filtering criteria, and the labeling rules. Discuss potential label noise and how it was handled.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Pharmacological validation
+  - **Affected element** Methods, cAMP assay
+  - **Evidence pointer** Section "cAMP accumulation assay"
+  - **Issue** The assay description is clear but the criteria for classifying a compound as an agonist are not explicitly stated. The authors mention "inhibition of cAMP accumulation comparable to NECA" but do not define the threshold.
+  - **Required correction** Specify the quantitative criteria for agonist classification (e.g., percentage of NECA response, EC50 range). Report the potency and efficacy values for MIPS1.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Generalizability claim
+  - **Affected element** Results, Generalizability of Interaction Fingerprints
+  - **Evidence pointer** Figure 2c-d
+  - **Concern** The claim of generalizability is based on three datasets with different splitting strategies. The authors do not report the variance across multiple random seeds or the statistical significance of the differences.
+  - **Required correction** Report the mean and standard deviation of the performance metrics across multiple runs. Perform statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) to support the claim of significant improvement.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing figures and tables that contain the core evidence.
+  - R1-M2: Lack of quantitative validation for interpretability claims.
+  - R1-M3: Insufficient validation of virtual screening utility with a single compound.
+  - R1-M4: Incomplete description of baseline configurations and evaluation protocols.
+- **Assessment against Nature-style criteria**
+  - Originality: High. The concept of deriving interaction fingerprints from sequence data with physicochemical constraints is novel and distinct from existing sequence-based and structure-based approaches.
+  - Scientific importance: High. If validated, the method could significantly lower the barrier for structure-free virtual screening and provide interpretable models for target validation. The potential to predict functional effects adds a dimension that many existing methods lack.
+  - Interdisciplinary readership: Moderate to high. The work bridges machine learning, cheminformatics, and pharmacology. The clear writing and practical demonstration make it accessible to a broad audience, though the methods section is dense.
+  - Technical soundness: Currently unverifiable. The methodological description is plausible, but the missing evidence prevents an assessment of whether the implementation is correct and the results are reproducible.
+  - Readability for nonspecialists: Good. The abstract and introduction are clear and the motivation is well articulated. The results sections are understandable, though the methods section requires specialist knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results, as described, are encouraging. However, the manuscript in its current form does not provide sufficient evidence to establish the claims. The authors must provide all figures, tables, and supplementary materials, and address the concerns regarding interpretability validation and virtual screening robustness.
+
+## Risk / unsupported claims
+- The claim of "first-of-its-kind emergent capabilities" is unsupported without a rigorous demonstration that the model's interpretability is not an artifact of training data or architecture.
+- The claim that PSICHIC "matched and even surpassed leading structure-based methods" is unverifiable without the actual performance numbers and baseline details.
+- The claim that PSICHIC "ranked the sole novel agonist within the top 3" is based on a single compound and does not establish general screening utility.
+- The claim that PSICHIC's performance is "unaffected" by structural resolution is based on an analysis that is not shown.
+- The generalizability claim across datasets is not supported by statistical evidence.

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, author contributions, declaration of interest, acknowledgments, footnotes)
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality as presented in the supplied text. No supplementary figures or tables were provided beyond those referenced in the text.
+- **Shared manuscript claim summary** The authors present a mesoscale computational model of chromatin fibers with implicit Myc:Max transcription factor binding. They claim that TF binding position dictates chromatin fiber folding and microdomain formation in a linker-DNA-length-dependent manner; that TF binding effects are modulated by linker histone density, histone acetylation, and linker DNA length; and that TF binding can repress the Eed gene by compacting and occluding its promoter region, an effect reversible by increased linker histone density.
+- **Visible evidence base** Main text figures (Figures 1–7), Tables (Table 1), and supplementary figures (Figures S1, S6–S9) and Table S1 are referenced. Only the main text was supplied; no figure panels, tables, or supplementary materials were available for direct inspection.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent from the supplied text. This includes Figure 1 (model schematic), Figure 2 (microdomain contact maps), Figure 3 (single vs ensemble trajectories), Figure 4 (TF concentration curves), Figure 5 (fiber configurations), Figure 6 (Eed contact maps and structures), Figure 7 (Eed with high LH density), Table 1 (quantitative measures), and all supplementary figures and tables. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how transcription factor binding modulates chromatin architecture at the mesoscale. The authors employ a well-established computational model and extend it to include implicit TF binding, which is a reasonable and potentially valuable approach. The conceptual framework is sound, and the biological questions are relevant. However, the manuscript as supplied cannot be fully evaluated because all figures, tables, and supplementary materials are missing. Several claims are qualitative and would require visual or quantitative confirmation. The distinction between "microdomain formation" and generic compaction needs sharper operational definition. The Eed gene repression mechanism is plausible but rests on indirect structural measures. The discussion is appropriately cautious but occasionally overreaches relative to the evidence presented. Overall, the work has promise, but the current submission does not allow a complete assessment of technical soundness or claim support.
+- **Who would be interested in the results, and why** Computational biophysicists and chromatin biologists studying the physical basis of gene regulation would be the primary audience. Researchers working on transcription factor mechanisms, chromatin folding, and the role of linker histones and histone modifications in genome organization would find the results relevant. The work also speaks to the broader community interested in how 3D genome architecture relates to transcriptional control, including those studying Myc oncogene biology.
+- **Major strengths** The study addresses a gap in the literature by modeling TF binding at nucleosome resolution, a scale that has been underexplored. The systematic variation of linker DNA length, LH density, and acetylation status is a thoughtful design. The use of ensemble-based contact maps to identify microdomains is methodologically appropriate and connects to experimental Hi-C and Micro-C data. The Eed gene case study provides a concrete biological context for the general principles. The writing is clear and the logical flow from methods to results to discussion is coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TF binding creates microdomains visible in ensemble-based contact maps and that these are dependent on TF binding position and linker DNA length.
+  - **Evidence pointer** Figure 2, Figure S6, Section 3.1
+  - **Concern** The central claim of microdomain formation is presented through contact maps, but none of these figures are available in the supplied material. The text describes qualitative differences between topologies and linker lengths, but without the actual maps, the reader cannot assess whether the identified features are robust, reproducible, or statistically distinguishable from noise. The clustering analysis (DBSCAN) is mentioned but no quantitative output is shown.
+  - **Why it matters** This is the primary novel finding of the paper. If the microdomains are not clearly demonstrable, the core contribution is weakened. The claim that microdomains are "visible only at the ensemble level" is interesting but requires the ensemble data to be convincing.
+  - **Resolution test** Provide the contact maps for all topologies and linker lengths, with a clear color scale and statistical comparison (e.g., enrichment over shuffled or control maps). Show the DBSCAN cluster assignments and a quantitative measure of cluster number or size as a function of TF topology and linker length.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors claim that TF binding increases compaction and sedimentation coefficient, and decreases radius of gyration, in a concentration-dependent manner, and that these effects are modulated by LH and acetylation.
+  - **Evidence pointer** Figure 4, Figure 5, Table 1, Section 3.2
+  - **Concern** The quantitative measures (packing ratio, sedimentation coefficient, radius of gyration) are reported in figures and a table that are not provided. The text gives some qualitative trends but no numerical values, error bars, or statistical tests. The claim that "TF binding saturation occurs at 25%" is stated without supporting data. The comparison between wildtype, +LH, and +acetylation conditions is described but cannot be evaluated.
+  - **Why it matters** These quantitative measures are the basis for the claim that TF binding regulates chromatin architecture and that this regulation is modulated by other chromatin factors. Without the numbers, the strength and significance of the effects cannot be assessed.
+  - **Resolution test** Provide the full data for packing ratio and sedimentation coefficient as a function of TF concentration for all linker lengths and conditions, with error bars and statistical comparisons (e.g., ANOVA or equivalent). Report the actual values for the Eed system in Table 1, including the promoter area and volume with uncertainties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors claim that TF binding represses Eed by compacting and occluding the promoter region, and that this repression is reversed by increased LH density.
+  - **Evidence pointer** Figure 6, Figure 7, Table 1, Section 3.3
+  - **Concern** The mechanism of repression is inferred from structural measures (promoter area and volume reduction). While plausible, the link between structural occlusion and transcriptional repression is indirect. The authors do not model transcription machinery or demonstrate that the occluded promoter is inaccessible to relevant factors. The claim that LH reverses repression is based on a single density condition (ρ = 0.8) and the observation that only one of 20 trajectories had engaged dimers, which is a small sample.
+  - **Why it matters** The Eed case study is presented as a biologically meaningful application of the model. If the mechanistic interpretation is overreaching, the broader relevance of the work is diminished.
+  - **Resolution test** Clarify the operational definition of "occlusion" and, if possible, compute a measure of accessibility (e.g., solvent-accessible surface area of the promoter region). Provide more trajectories for the ρ = 0.8 condition to establish statistical reliability. Discuss explicitly what structural occlusion can and cannot say about transcriptional repression.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The authors state that their implicit TF binding model is based on the crystal structure of the Myc:Max complex and that the harmonic restraint parameters are chosen to avoid overlaps and remain small relative to total energy.
+  - **Evidence pointer** Section 2.2, Figure 1
+  - **Concern** The choice of k = 20 kcal/mol/nm² and l₀ = 13 nm is stated but not justified with sensitivity analysis. It is unclear how robust the results are to these parameter choices. The distance threshold of 20 nm for engagement and 30-bead separation for binding are also arbitrary. No validation against experimental data or alternative parameter sets is provided.
+  - **Why it matters** The conclusions depend on the specific implementation of TF binding. If the results are highly sensitive to these parameters, the findings may not be generalizable.
+  - **Resolution test** Perform a sensitivity analysis varying k, l₀, and the engagement distance, and show that the qualitative conclusions (microdomain formation, compaction trends) are unchanged. If possible, compare model predictions to experimental data on Myc:Max binding or chromatin compaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the harmonic restraint is incomplete. The equation is referenced but not shown in the supplied text. The reader cannot see the exact form of the energy penalty.
+  - **Required correction** Include the full equation for the harmonic restraint in the main text or supplementary materials.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Table S1
+  - **Issue** The list of linker DNAs, LH positions, and Myc:Max positions is said to be in Table S1, but this table is not provided. Without it, the exact configurations simulated cannot be reproduced.
+  - **Required correction** Ensure Table S1 is available and contains all necessary details for reproducing the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Location not provided
+  - **Issue** The number of independent trajectories (10 for 50-nucleosome systems, 20 for Eed) is stated, but no convergence metrics beyond "monitored" are shown. The reader cannot assess whether the sampling is sufficient.
+  - **Required correction** Provide convergence plots or quantitative metrics (e.g., autocorrelation times, block averaging) in the supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Figure 3
+  - **Issue** The statement that microdomains are "visible only at the ensemble level" is interesting but the contrast with single-trajectory maps is not quantified. The text says single-trajectory maps do not show clear microdomains, but no measure of "clarity" is given.
+  - **Required correction** Provide a quantitative comparison between single-trajectory and ensemble maps, such as a clustering score or enrichment ratio.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion cites experimental Hi-C and Micro-C data and polymer models, but specific references are not given in the supplied text. The reader cannot trace the claims to the literature.
+  - **Required correction** Ensure all cited works are included in the reference list and that the relevant citations appear in the text.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary materials is the most significant technical failing. Without these, the quantitative claims cannot be verified. The lack of sensitivity analysis for the TF binding model parameters is a second concern. The small number of trajectories for the Eed ρ = 0.8 condition (only one with engaged dimers) undermines the claim of LH-mediated reversal of repression. The operational definition of "microdomain" and "occlusion" needs to be sharpened with quantitative criteria.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in applying mesoscale chromatin modeling to TF binding at nucleosome resolution. This fills a gap between single-nucleosome studies and chromosome-scale polymer models. However, the conceptual framework of TF-mediated looping and compaction is not entirely new.
+  - Scientific importance: The question of how TFs regulate gene expression through chromatin architecture is important. The Eed case study connects to developmental biology and Polycomb biology. The findings could inform experimental studies.
+  - Interdisciplinary readership: The work bridges computational biophysics, chromatin biology, and gene regulation. It would appeal to a broad readership if the figures and quantitative results are clearly presented.
+  - Technical soundness: The underlying model has been published previously and is well established. The extension to TF binding is reasonable, but the lack of sensitivity analysis and the incomplete presentation of results prevent a full assessment.
+  - Readability for nonspecialists: The writing is generally clear, but the methods section assumes familiarity with chromatin modeling. The abstract and introduction are accessible. The discussion is readable and appropriately contextualized.
+- **Recommendation posture** Supportive if technical concerns are resolved. The scientific question is relevant, the approach is reasonable, and the conclusions are plausible. However, the current submission cannot be fully evaluated because the figures, tables, and supplementary materials are missing. The authors must provide these materials, add sensitivity analysis for the TF binding parameters, and strengthen the quantitative support for the Eed repression mechanism before the case is established.
+
+## Risk / unsupported claims
+- The claim that TF binding position dictates microdomain formation is unsupported without the contact maps in Figure 2 and the clustering analysis in Figure S6.
+- The claim that TF binding saturation occurs at 25% concentration is unsupported without the data in Figure 4 and Figure S7.
+- The claim that LH reverses TF-mediated repression of Eed is weakly supported, as it rests on a single density condition and a small number of trajectories with engaged dimers.
+- The claim that the promoter region becomes "occluded" is based on area and volume calculations in Table 1, which are not provided.
+- The statement that microdomains are "visible only at the ensemble level" is not quantitatively supported without a comparison between single-trajectory and ensemble maps.
+- The claim that the model results "agree with experimental Hi-C maps" is plausible but not demonstrated with direct comparison in the supplied text.

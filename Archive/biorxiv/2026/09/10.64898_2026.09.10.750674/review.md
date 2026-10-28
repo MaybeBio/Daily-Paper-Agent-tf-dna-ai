@@ -1,110 +1,91 @@
 ## Review setup
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence presented in the abstract
-- **Shared manuscript claim summary** The authors present a machine learning framework that uses local geometric features derived from RNA tertiary structures to predict capsid protein binding sites in single-stranded RNA viruses, using the Qbeta bacteriophage as a proof-of-concept system. The neural network achieves an AUC of 0.88 in 5-fold cross-validation using experimental structures and an AUC of 0.75 using AlphaFold-predicted structures.
-- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
-- **Missing materials affecting confidence** Full manuscript, including methods description, dataset details, feature definitions, model architecture, cross-validation procedure, and all figures/tables
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors present a machine learning framework that predicts capsid protein binding sites in ssRNA viruses using local geometric features derived from RNA tertiary structures. Using Qβ bacteriophage as a proof-of-concept, they report AUC = 0.88 with experimentally derived structures and AUC = 0.75 with AlphaFold-predicted structures, concluding that approximate RNA structures retain biologically meaningful information for binding site prediction.
+- **Visible evidence base** Abstract; Sections 1 (Introduction), 2 (Model and Methods), 3 (Results), 4 (Discussions); Figures 1-4 referenced but not provided; GitHub repository link
+- **Missing materials affecting confidence** Figures 1-4 (all referenced but not supplied); experimental methods details for cryo-EM structure determination; dataset construction details beyond distance threshold; hyperparameter selection procedure; statistical significance testing; comparison with existing methods; code repository contents not verified
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially interesting computational approach to a challenging problem in virology. The concept of using local geometric features from RNA structures for capsid binding site prediction is novel, and the reported performance metrics are promising. However, the abstract alone provides insufficient detail to evaluate the technical soundness, reproducibility, or generalizability of the work. Critical information about dataset construction, feature engineering, model validation, and statistical rigor is absent.
-- **Who would be interested in the results, and why** Researchers in structural virology, RNA biology, and computational biology would be interested. The work addresses a bottleneck in understanding viral genome packaging, which is relevant to antiviral drug development and synthetic virology. The machine learning approach could also interest the broader bioinformatics community working on RNA-protein interaction prediction.
-- **Major strengths** 1) Addresses an important and experimentally challenging problem (identification of capsid protein binding sites in RNA genomes). 2) Novel integration of RNA tertiary structural modeling with geometric feature extraction for this specific prediction task. 3) Demonstrates predictive performance using both experimental and predicted RNA structures, suggesting practical applicability.
-- **Major Concerns** 
-- **Concern ID** R1-M1
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Dataset and ground truth
-- **Claim pointer** "We constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments."
-- **Evidence pointer** Abstract only; location not provided
-- **Concern** The abstract does not describe the size, composition, or source of the benchmark dataset. It is unclear how many binding and non-binding fragments were used, how non-binding sites were defined (e.g., random genomic regions, experimentally validated negatives, or assumed negatives), and whether the dataset is balanced or imbalanced. The definition of "non-binding" is critical for classifier training and evaluation.
-- **Why it matters** Without this information, the reported AUC of 0.88 cannot be properly interpreted. A small or imbalanced dataset, or one with poorly defined negative examples, could inflate performance metrics. The generalizability of the model depends entirely on the quality and representativeness of the training data.
-- **Resolution test** Provide the full dataset description in the manuscript, including: number of positive and negative examples, criteria for defining non-binding sites, experimental methods used to establish binding status, and any data splitting or stratification procedures.
-
-- **Concern ID** R1-M2
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Model validation and overfitting
-- **Claim pointer** "the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation"
-- **Evidence pointer** Abstract only; location not provided
-- **Concern** The abstract reports only a single performance metric (AUC) from 5-fold cross-validation. There is no mention of held-out test sets, independent validation, or assessment of variance across folds. The phrase "repeatedly trained and tested with these geometric descriptors on different subsets" is ambiguous and does not clarify whether the same data were used for feature selection, hyperparameter tuning, and evaluation.
-- **Why it matters** Without proper separation of training, validation, and test data, the reported AUC may reflect overfitting rather than true predictive performance. The lack of confidence intervals or standard deviations across cross-validation folds prevents assessment of model stability. The field of machine learning for biological sequence analysis has well-documented pitfalls with data leakage and over-optimistic performance estimates.
-- **Resolution test** Provide: (1) clear description of data partitioning (training/validation/test sets), (2) performance metrics with variance estimates across cross-validation folds, (3) results on an independent held-out test set not used in any model development step, and (4) assessment of potential data leakage (e.g., sequence similarity between training and test fragments).
-
-- **Concern ID** R1-M3
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Generalizability and biological scope
-- **Claim pointer** "our findings provide new mechanistic insights into RNA-capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses"
-- **Evidence pointer** Abstract only; location not provided
-- **Concern** The entire study is based on a single virus system (Qbeta bacteriophage). The abstract provides no evidence that the approach generalizes to other ssRNA viruses, which may have different capsid proteins, RNA structures, and packaging mechanisms. The claim of establishing a "foundation for extending this approach to diverse ssRNA viruses" is aspirational rather than supported by data.
-- **Why it matters** The title and conclusions imply broad applicability, but the experimental evidence is limited to one model system. Without validation on at least one additional virus, the generalizability of the method remains unsubstantiated. The mechanistic insights claimed may be specific to Qbeta or to bacteriophages in general.
-- **Resolution test** Either: (1) provide validation data from at least one additional ssRNA virus (e.g., MS2, TMV, or a mammalian virus), or (2) substantially revise the claims to accurately reflect the single-virus scope of the study, and discuss specific challenges for generalization.
-
-- **Concern ID** R1-M4
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Feature engineering and interpretability
-- **Claim pointer** "We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone."
-- **Evidence pointer** Abstract only; location not provided
-- **Concern** The abstract does not describe what geometric descriptors were used, how many features were extracted, or how they were selected. There is no information about feature importance, redundancy, or whether the descriptors capture biologically meaningful structural properties. The phrase "local geometric features" is vague.
-- **Why it matters** The novelty of the approach hinges on the geometric feature design. Without understanding what features drive predictions, the method remains a black box. For the claimed "mechanistic insights" to be credible, the authors must demonstrate which structural features are most predictive and how they relate to known RNA-capsid interaction mechanisms.
-- **Resolution test** Provide: (1) complete list and mathematical definition of all geometric descriptors, (2) feature importance analysis (e.g., SHAP values, permutation importance), (3) discussion of which features are most predictive and their biological interpretation, and (4) assessment of feature redundancy and dimensionality.
-
-- **Concern ID** R1-M5
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Comparison to existing methods
-- **Claim pointer** "identification of capsid protein binding sites in the RNA genome remains challenging... motivating the development of computational approaches"
-- **Evidence pointer** Abstract only; location not provided
-- **Concern** The abstract does not compare the proposed method to any existing computational approaches for RNA-protein binding site prediction. There is no baseline comparison, no discussion of how the method performs relative to sequence-based or structure-based alternatives, and no justification for why a new method is needed.
-- **Why it matters** Without comparative evaluation, it is impossible to assess whether the proposed method offers any advantage over existing tools. The field already has several methods for predicting RNA-protein interactions (e.g., RNABindR, PRIdictor, RPI-Pred). The authors must demonstrate that their geometric feature approach outperforms or complements these methods.
-- **Resolution test** Provide: (1) benchmarking against at least 2-3 existing methods on the same dataset, (2) discussion of cases where the geometric approach succeeds or fails compared to sequence-based methods, and (3) clear articulation of the unique advantages of the proposed approach.
-
-- **Concern ID** R1-M6
-- **Severity** Major
-- **Blocking** Yes
-- **Axis** Statistical rigor and reproducibility
-- **Claim pointer** "the classifier retained considerable predictive performance (AUC = 0.75)"
-- **Evidence pointer** Abstract only; location not provided
-- **Concern** The abstract reports that AlphaFold-predicted structures yield an AUC of 0.75, but provides no statistical comparison to the 0.88 AUC from experimental structures. There is no confidence interval, p-value, or effect size to assess whether this drop is significant. The phrase "considerable predictive performance" is subjective and not quantitatively justified.
-- **Why it matters** The claim that predicted structures retain "biologically meaningful information" depends on demonstrating that the performance is significantly better than random (AUC = 0.5) and that the degradation from experimental structures is acceptable. Without statistical testing, the reader cannot evaluate whether the 0.75 AUC is meaningful or merely reflects chance given the dataset characteristics.
-- **Resolution test** Provide: (1) confidence intervals or standard deviations for all AUC values, (2) statistical test comparing the 0.88 and 0.75 AUCs (e.g., DeLong test for ROC curves), (3) comparison to a random classifier baseline, and (4) analysis of which predictions fail and why.
-
-## Minor Comments
-- **Concern ID** R1-m1
-- **Severity** Minor
-- **Axis** Clarity and terminology
-- **Affected element** Abstract
-- **Evidence pointer** Abstract; location not provided
-- **Issue** The abstract uses "Qbeta;" with a semicolon, which appears to be a typographical error for "Qbeta" (the bacteriophage).
-- **Required correction** Correct the typo to "Qbeta" or "Qβ" as appropriate.
-
-- **Concern ID** R1-m2
-- **Severity** Minor
-- **Axis** Reproducibility
-- **Affected element** Abstract
-- **Evidence pointer** Abstract; location not provided
-- **Issue** The abstract mentions a GitHub repository (https://github.com/melody144/CPBSpred) but does not state whether the code, data, and trained models are publicly available. The repository URL alone does not guarantee accessibility or completeness.
-- **Required correction** State explicitly in the abstract or main text: (1) whether the code and data are publicly available, (2) under what license, and (3) whether the trained model weights are provided for reproducibility.
-
-- **Concern ID** R1-m3
-- **Severity** Minor
-- **Axis** Interpretation
-- **Affected element** Abstract
-- **Evidence pointer** Abstract; location not provided
-- **Issue** The abstract states "the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors." This interpretation is speculative and not directly supported by the data presented.
-- **Required correction** Either provide evidence for the role of dynamic factors (e.g., by comparing static and dynamic structural models) or temper the claim to reflect that failed predictions may also result from limitations in the model, features, or training data.
-
-- **Concern ID** R1-m4
-- **Severity** Minor
-- **Axis** Scope
-- **Affected element** Title
-- **Evidence pointer** Title; location not provided
-- **Issue** The title claims prediction for "Single-Stranded RNA Viruses" in general, but the study only demonstrates results for one bacteriophage (Qbeta).
-- **Required correction** Consider revising the title to reflect the single-virus scope, e.g., "Predicting Capsid Protein Binding Sites in the Qbeta Bacteriophage Using Machine Learning from Local Geometric Features" or add a qualifier such as "A Proof-of-Concept Study."
+- **Overall assessment** The manuscript addresses a relevant problem in virology and RNA biology, and the proposed framework is conceptually interesting. However, the evidence provided in the text is insufficient to fully evaluate the methodological rigor and the strength of the claims. Key concerns include the small dataset size (200 samples), the lack of statistical significance testing, the absence of comparison with existing methods, and the limited analysis of the AlphaFold-based predictions. The manuscript is potentially publishable after substantial revisions and additional analyses.
+- **Who would be interested in the results, and why** Researchers in virology, particularly those studying RNA virus assembly and genome packaging; computational biologists developing RNA structure-based prediction tools; and scientists interested in applying machine learning to structural biology problems. The work may also be of interest to those developing RNA-based therapeutics and viral vectors.
+- **Major strengths** The problem is well-motivated and practically relevant. The framework is clearly described and conceptually simple, which aids reproducibility. The use of a proof-of-concept system (Qβ) is appropriate for initial validation. The authors acknowledge limitations and discuss future directions thoughtfully. The finding that AlphaFold-predicted structures retain predictive information is potentially valuable for the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim "strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation."
+  - **Evidence pointer** Section 3, Figure 2d
+  - **Concern** The dataset consists of only 200 samples (100 positive, 100 negative). With such a small dataset, the reported AUC of 0.88 may be subject to high variance. The authors do not report confidence intervals, standard deviations across folds, or any statistical significance testing (e.g., permutation tests, comparison to a null model). Additionally, the 5-fold cross-validation procedure on such a small dataset may lead to optimistic performance estimates, especially if the positive samples are clustered in specific genomic regions.
+  - **Why it matters** Without measures of variance or statistical significance, it is impossible to determine whether the reported performance is robust or could arise by chance. This is particularly critical given the small sample size and the potential for overfitting in a neural network with 10 hidden units trained on only 5-dimensional inputs.
+  - **Resolution test** Provide per-fold performance metrics, confidence intervals for the AUC, and a permutation test or comparison against a baseline classifier (e.g., logistic regression or random guessing) to demonstrate that the performance is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim that "local geometric features derived from predicted RNA structures provide measurable predictive power for identifying capsid protein binding sites" and that "approximate RNA tertiary structures preserve biologically meaningful signals for capsid recognition."
+  - **Evidence pointer** Section 3, Figure 3
+  - **Concern** The evaluation using AlphaFold-predicted structures is presented as a key result, but the analysis is incomplete. The authors report an AUC of 0.75 but do not provide a detailed comparison of the geometric features between the experimental and predicted structures. It is unclear whether the reduced performance is due to structural inaccuracies in specific regions, or whether certain types of binding sites (e.g., those in structured vs. unstructured regions) are more affected. Additionally, the authors do not analyze whether the model's predictions are spatially correlated with the actual binding sites or whether the errors are randomly distributed.
+  - **Why it matters** The claim that predicted structures retain biologically meaningful information is central to the paper's contribution. Without a detailed analysis of where and why predictions fail, the claim is not fully supported. Understanding the nature of the performance drop is essential for assessing the practical utility of the approach.
+  - **Resolution test** Provide a per-nucleotide or per-region analysis of prediction accuracy relative to structural similarity between experimental and predicted models. Include a comparison of geometric feature distributions between correctly and incorrectly predicted sites. Discuss whether specific RNA structural motifs (e.g., stem-loops) are more robustly predicted.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmarking and comparison
+  - **Claim pointer** The authors state that "computational approaches have therefore emerged as attractive alternatives" and imply that their method advances the state of the art.
+  - **Evidence pointer** Section 1, Section 4
+  - **Concern** The manuscript does not compare the proposed method against any existing computational approaches for RNA-protein binding site prediction. Several methods exist for predicting RNA-protein interactions, including sequence-based and structure-based tools. Without a comparative evaluation, it is impossible to assess whether the proposed framework offers any advantage over existing methods.
+  - **Why it matters** The novelty and practical value of the proposed method can only be established through direct comparison with existing approaches. The authors should demonstrate that their method performs comparably or better than current state-of-the-art tools on the same benchmark dataset.
+  - **Resolution test** Include a comparison with at least one or two existing RNA-protein binding site prediction methods (e.g., catRAPID, RNAProSite, or similar tools) using the same dataset and evaluation metrics. Discuss the relative strengths and weaknesses of the proposed approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset quality and labeling
+  - **Claim pointer** The authors state that "a nucleotide was considered to interact with a capsid protein if the minimum atom–atom distance was smaller than a predefined distance cutoff (5.0 Å)."
+  - **Evidence pointer** Section 2.2
+  - **Concern** The labeling criterion based solely on a 5.0 Å distance cutoff may be overly simplistic. A single close contact between a nucleotide and a capsid protein atom may not represent a functionally relevant interaction. The authors acknowledge this limitation in the Discussion, but the impact on the dataset quality is not assessed. It is unclear how many of the 100 positive sites represent genuine, stable interactions versus incidental contacts. Additionally, the choice of 5.0 Å is not justified.
+  - **Why it matters** The quality of the labels directly affects the validity of the trained model and the interpretation of the results. If the positive set contains many false positives (incidental contacts), the model may learn to predict features that are not truly associated with functional binding sites.
+  - **Resolution test** Provide a sensitivity analysis using different distance thresholds (e.g., 4.0 Å, 6.0 Å) and assess the impact on model performance. Consider using a more physically meaningful criterion, such as buried surface area or contact density, and compare the resulting datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The description of the neural network training lacks important details. The authors do not specify the learning rate, batch size, number of training epochs, regularization techniques, or the random seed used for initialization. These details are essential for reproducibility.
+  - **Required correction** Provide a complete description of the training procedure, including all hyperparameters, or reference a configuration file in the GitHub repository.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The authors state that code is available on GitHub, but the dataset (the 200 RNA fragments with labels and geometric features) is not mentioned as being available. For reproducibility, the dataset should also be made publicly available.
+  - **Required correction** Provide the benchmark dataset as a supplementary file or through a public repository, and include a link in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-4
+  - **Evidence pointer** Figures 1-4 (not provided)
+  - **Issue** The figures are referenced but not included in the provided text. It is not possible to assess their quality or whether they adequately support the claims.
+  - **Required correction** Ensure that all figures are of high quality, clearly labeled, and that the captions fully explain the content. In particular, Figure 3 should clearly show the comparison between experimental and predicted structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The term "packing angles" is used but not defined. It is unclear whether this refers to a standard geometric measure or a novel definition introduced by the authors.
+  - **Required correction** Define "packing angles" explicitly, either in the text or with a reference to a standard definition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The Discussion mentions potential improvements but does not address the possibility of using more advanced machine learning architectures, such as convolutional or graph neural networks, which may be better suited for capturing spatial relationships in RNA structures.
+  - **Required correction** Briefly discuss the potential of alternative architectures and why the current feedforward network was chosen as a starting point.
 
 ## Risk / unsupported claims
-- "our findings provide new mechanistic insights into RNA-capsid interactions" – Unsupported; the abstract does not describe any mechanistic insights beyond the observation that static structures may be insufficient.
-- "establish a foundation for extending this approach to diverse ssRNA viruses" – Unsupported; no evidence of generalization beyond Qbeta is provided.
-- "the classifier retained considerable predictive performance (AUC = 0.75)" – The term "considerable" is subjective and not statistically justified without confidence intervals or comparison to baselines.
-- "the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors" – Speculative; alternative explanations (model limitations, feature inadequacy, data quality) are not ruled out.
+- The claim that "approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction" is only weakly supported by the reported AUC of 0.75, as no statistical significance testing or detailed error analysis is provided.
+- The claim that "the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors" is speculative and not directly tested by the experiments presented.
+- The statement that the model "showed a strong ability to distinguish capsid protein binding sites" is not fully supported without confidence intervals or comparison to a baseline.
+- The generalizability of the framework to other ssRNA viruses is claimed as a future direction but is not demonstrated; the current results are limited to Qβ bacteriophage.
+- The assertion that "current experimental techniques are labor-intensive and low-throughput" is presented without specific references or quantitative comparison to the proposed computational approach.

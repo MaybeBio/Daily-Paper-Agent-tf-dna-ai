@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion) without supplementary figures, tables, or methods details
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text
+- **Shared manuscript claim summary** The authors describe a DNA nanostructure-based synthetic antibody ("nano-synbody") comprising a three-helix bundle core with one to three arms displaying LCB1 mini-binders targeting the SARS-CoV-2 spike protein. They report valency-dependent binding affinity enhancement (up to 11.2 pM for wild-type spike), rescue of binding to Omicron variants through multivalency, pseudovirus neutralization, structural confirmation by negative-stain TEM, and reversible binding via toehold-mediated strand displacement.
+- **Visible evidence base** Abstract, introduction, results narrative, discussion, figure legends referenced in text (Figures 1-7), supplementary figure references (S1-S14)
+- **Missing materials affecting confidence** Supplementary figures and tables, experimental methods section, raw SPR sensorgrams, TEM reconstruction details, simulation parameters, pseudovirus assay protocols, statistical analyses
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually appealing approach that combines DNA nanotechnology with protein engineering to create multivalent, tunable antibody mimics. The central idea of using a rigid DNA scaffold to control valency and geometry for avidity-enhanced binding is well motivated and the results are broadly consistent with the claims. However, the provided text lacks sufficient experimental detail and quantitative data to fully evaluate the robustness of the key findings, particularly regarding the SPR measurements, the TEM reconstruction, and the reversibility experiments. The computational design pipeline is described but its validation and predictive power are not fully demonstrated. The work is likely of interest to the DNA nanotechnology and protein engineering communities, but the current evidence base is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Researchers in DNA nanotechnology, protein engineering, bionanotechnology, and virology would find this work relevant. The demonstration of a programmable, multivalent protein-DNA hybrid that can be tuned for binding affinity and reversibility has potential applications in diagnostics, therapeutics, and nanorobotics. The approach of using coarse-grained simulations to guide nanostructure design is also of methodological interest.
+- **Major strengths** The concept of an IgG-mimetic nanostructure with tunable valency is novel and well articulated. The systematic comparison of 1-, 2-, and 3-arm constructs provides a clear demonstration of avidity effects. The use of toehold-mediated strand displacement for reversible binding is an elegant and potentially powerful feature. The integration of computational design with experimental validation is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim valency-dependent binding affinity enhancement with K_D values of 1.18 nM (1-arm), 195 pM (2-arm), and 11.2 pM (3-arm) for wild-type spike, and 95 pM (3-arm) for Omicron BA.1.
+  - **Evidence pointer** Results section "Probing multivalent nano-synbody binding to the spike protein trimer", Figure 4, Table S1
+  - **Concern** The SPR data are described only in narrative form without showing actual sensorgrams, fitting procedures, or replicate information. The K_D values are presented as single numbers without error estimates or statistical comparisons. The claim of "no detectable binding" for monovalent constructs to Omicron spike is not quantified (e.g., what is the detection limit?). The home-built SPR system may have different sensitivity and reproducibility characteristics compared to commercial instruments, and this is not discussed.
+  - **Why it matters** The quantitative binding affinities are central to the manuscript's claims of multivalency enhancement and variant rescue. Without proper error analysis, replicate data, and demonstration of the assay's dynamic range, the reliability of these numbers cannot be assessed. This is critical for establishing the magnitude of the avidity effect and the practical utility of the approach.
+  - **Resolution test** Provide representative SPR sensorgrams, show at least three independent replicates with mean ± SD for each K_D, state the detection limit of the assay, and include a statistical comparison between constructs (e.g., one-way ANOVA with post-hoc tests).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the 3-arm nano-synbody can neutralize pseudovirus infection with IC_50 values of 5 pM (WT), 548 pM (BA.1), 1.4 nM (BA.2), and 1.3 nM (BA.4/5), and that the 1-arm construct shows IC_50 values of 17 pM (WT), 17.4 nM (BA.1), and 27 nM (BA.2), with no measurable IC_50 for BA.4/5.
+  - **Evidence pointer** Results section "Nano-synbody neutralization of pseudovirus infection", Figure 5
+  - **Concern** The IC_50 values are presented without error bars, replicate numbers, or details on the curve fitting. The authors note that some values approach the LLOQ (~5 pM), but do not discuss how this affects the reliability of the comparison between 1-arm and 3-arm for WT. For BA.4/5, the 1-arm construct "never reached full inhibition" but the maximum concentration tested and the extent of partial inhibition are not stated. The pseudovirus assay is described as "according to a reported protocol" but key parameters (e.g., virus titer, cell density, incubation time) are not provided.
+  - **Why it matters** The neutralization data are presented as a key functional outcome of the multivalency enhancement. Without proper dose-response curves, replicate data, and clear definition of the assay's limits, the functional significance of the affinity measurements cannot be confirmed. The comparison between constructs and variants is essential to support the claim that multivalency "rescues" binding to mutated spikes.
+  - **Resolution test** Provide full dose-response curves with at least three replicates, report IC_50 values with 95% confidence intervals, state the maximum concentration tested and the percentage of inhibition at that concentration for non-fitted curves, and include details on the pseudovirus production and infection protocol.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that negative-stain TEM reconstruction shows the 3-arm nano-synbody bound to the Omicron spike trimer with all three arms attached to the RBD domains, and that the structure was determined to ~20 Å resolution.
+  - **Evidence pointer** Results section "Structural characterization of the 3-arm nano-synbody to the Omicron spike trimer", Figure 6
+  - **Concern** The TEM reconstruction is described with minimal detail. The resolution of ~20 Å is stated but the method for estimating resolution (e.g., Fourier shell correlation) is not given. The number of particles used for the reconstruction, the symmetry imposed, and the validation of the map (e.g., gold-standard FSC) are not reported. The claim that "all three arms are bound" is based on visual inspection of a low-resolution map, which may not be sufficient to unambiguously assign the positions of the small LCB1 proteins (7 kDa) relative to the spike trimer. The authors also note that the full nano-synbody could not be reconstructed due to flexibility, which raises questions about how the binding stoichiometry was confirmed.
+  - **Why it matters** The structural data are used to support the claim that the nano-synbody binds as designed, with all three arms engaging the spike trimer. If the reconstruction is not of sufficient quality or the interpretation is ambiguous, this key mechanistic claim is weakened. The low resolution and flexibility issues may limit the conclusions that can be drawn.
+  - **Resolution test** Provide details on the number of particles, resolution estimation method, and map validation. Show additional evidence for the 3:1 binding stoichiometry (e.g., native mass spectrometry, multi-angle light scattering, or a clearly resolved density for the LCB1-RBD interaction in a higher-resolution map). Discuss the limitations of the ~20 Å resolution for assigning protein positions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the computational design pipeline, using coarse-grained simulations with the ANM-oxDNA model, guided the design of the nano-synbody and predicted its ability to bind the spike trimer.
+  - **Evidence pointer** Results section "Computational design and simulation of nano-synbody structure", Figure 2, Supplementary Figures S1-S5
+  - **Concern** The computational methods are described only at a high level. The specific parameters of the ANM-oxDNA simulations (e.g., simulation time, temperature, salt conditions, force field parameters) are not provided. The validation of the model against experimental data is not shown. The claim that the simulations predicted the binding is not supported by a direct comparison between simulated and experimental binding affinities or geometries. The authors mention that the design was "guided" by simulations, but it is unclear how much the simulations actually informed the final design versus trial-and-error experimentation.
+  - **Why it matters** The computational pipeline is presented as a key innovation of the work. Without sufficient detail on the simulation methods and their predictive accuracy, the reproducibility of the design approach is questionable. The claim that the simulations can guide future designs for other targets is not well supported.
+  - **Resolution test** Provide detailed simulation parameters in the methods or supplementary information. Show a direct comparison between simulated and experimental structures or binding affinities. Discuss the limitations of the coarse-grained model and how the predictions were validated.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that toehold-mediated strand displacement can reversibly remove one, two, or three arms from the nano-synbody, thereby modulating binding affinity and enabling selective release of the target.
+  - **Evidence pointer** Results section "Reversible protein binding through dynamic valency switching", Figure 7, Supplementary Figure S14
+  - **Concern** The reversibility experiments are described qualitatively. The efficiency of displacement for each arm is not quantified (e.g., percentage of arms removed). The kinetics of displacement are not reported. The binding assays after displacement are shown as gel images, but the affinity of the resulting constructs is not measured. The claim that the "zero-valent" state can be achieved is not supported by quantitative data. The potential for incomplete displacement or non-specific effects is not discussed.
+  - **Why it matters** The reversibility feature is a distinctive aspect of the nano-synbody platform. Without quantitative assessment of displacement efficiency and the resulting binding properties, the practical utility of this feature is not established. The claim of "programmable" and "reversible" control requires more rigorous demonstration.
+  - **Resolution test** Quantify the efficiency of arm displacement (e.g., by gel densitometry or fluorescence). Measure the binding affinity of the partially and fully displaced constructs. Show that the displacement is specific and complete, and that the process can be repeated for multiple cycles.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states "11.2 pM affinity (∼100-fold enhancement over monovalent binding)" but the monovalent K_D is not explicitly stated in the abstract. The reader must infer this from the main text.
+  - **Required correction** State the monovalent K_D value in the abstract for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Synthesis of nano-synbodies with one, two, or three arms"
+  - **Evidence pointer** Figure 3, "location not provided"
+  - **Issue** The yield of the LCB1-DNA conjugation is stated as approximately 90%, but the method for determining this yield (e.g., gel densitometry, UV-Vis) is not specified.
+  - **Required correction** Specify the method used to quantify conjugation yield.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Probing multivalent nano-synbody binding to the spike protein trimer"
+  - **Evidence pointer** Figure 4, "location not provided"
+  - **Issue** The text states that the 1-arm nano-synbody showed "no detectable binding" to Omicron spike, but the K_D is given as ">100 nM" in the text. This is ambiguous; a K_D of >100 nM could still be measurable.
+  - **Required correction** Clarify whether the binding was truly undetectable or whether it was too weak to be quantified within the tested concentration range.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Nano-synbody neutralization of pseudovirus infection"
+  - **Evidence pointer** Figure 5, "location not provided"
+  - **Issue** The pseudovirus assay uses either GFP or luciferase as reporters, but it is not clear if both reporters were used for all variants or if the data from both assays were combined.
+  - **Required correction** Specify which reporter was used for each variant and whether the results were consistent across reporters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Structural characterization of the 3-arm nano-synbody to the Omicron spike trimer"
+  - **Evidence pointer** Figure 6, "location not provided"
+  - **Issue** The text mentions that the spike protein alone showed one RBD in the "up" position, but the figure legend is not provided. It is unclear if this is a new reconstruction or a comparison to published structures.
+  - **Required correction** Clarify whether the spike-only reconstruction is from this study or from published data, and provide the figure legend for context.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "location not provided"
+  - **Issue** The discussion mentions potential applications such as "nanoscale gripper arm" and "DNA nanorobotic devices" but does not provide any preliminary data or feasibility analysis for these applications.
+  - **Required correction** Either provide some proof-of-concept data for these applications or temper the claims to clearly indicate they are speculative.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative data with error analysis for the SPR and neutralization experiments (R1-M1, R1-M2), the insufficient detail and validation of the TEM reconstruction (R1-M3), and the incomplete description of the computational methods (R1-M4) are the primary technical issues. The reversibility experiments also need quantitative support (R1-M5).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a DNA-scaffolded, multivalent protein binder with tunable valency is original and distinct from prior work using DNA nanostructures for spike binding. The combination of computational design with experimental validation is a strength. However, the individual components (DNA nanostructures, LCB1, multivalency) are not new, and the novelty lies in their integration.
+  - **Scientific importance** The work addresses a relevant problem in antibody engineering and could have implications for designing binders against rapidly mutating targets. The demonstration of "rescuing" binding to variants through multivalency is conceptually important. However, the practical significance is limited by the lack of in vivo data and the focus on a single target.
+  - **Interdisciplinary readership** The work bridges DNA nanotechnology, protein engineering, and virology, and would appeal to researchers in these fields. The writing is generally accessible, but the lack of detail in the results may limit comprehension for non-specialists.
+  - **Technical soundness** The technical soundness is currently not fully established due to the missing quantitative data and methodological details described above. The experimental design is logical, but the execution and reporting are incomplete.
+  - **Readability for nonspecialists** The introduction and discussion are well written and provide sufficient context. The results section is less accessible due to the lack of figure legends and detailed methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the preliminary results are encouraging, but the current evidence base is insufficient to fully establish the claims. The authors should provide the missing quantitative data, methodological details, and validation to strengthen the case.
+
+## Risk / unsupported claims
+- The claim of "100-fold enhancement" in binding affinity for the 3-arm vs. 1-arm construct is not supported by statistical analysis or error bars.
+- The claim that the 3-arm nano-synbody can "rescue" binding to Omicron variants is based on SPR data that lack quantification of the monovalent binding limit.
+- The claim that the TEM reconstruction confirms all three arms bind to the RBD domains is not fully supported given the low resolution and flexibility issues.
+- The claim that the computational pipeline can be generalized to other targets is speculative without further validation.
+- The claim of "reversible" binding is not quantitatively demonstrated.
+- The claim that the nano-synbody can serve as a "nanoscale gripper arm" is speculative and not supported by any data.

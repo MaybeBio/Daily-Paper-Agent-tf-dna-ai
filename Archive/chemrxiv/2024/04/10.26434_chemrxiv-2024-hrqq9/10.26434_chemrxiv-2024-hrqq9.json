@@ -1,0 +1,311 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2024-hrqq9",
+  "title": "Combined physics- and machine-learning-based method to identify druggable binding sites using SILCS-Hotspots",
+  "doi": "10.26434/chemrxiv-2024-hrqq9",
+  "abstract": "Identifying druggable binding sites on proteins is an important and challenging problem, particularly for cryptic, allosteric binding sites that may not be obvious from X-ray, cryo-EM, or predicted structures. The Site-Identification by Ligand Competitive Saturation (SILCS) method accounts for the flexibility of the target protein using all-atom molecular simulations that include various small molecule solutes in aqueous solution. During the simulations the combination of protein flexibility and comprehensive sampling of the water and solute spatial distributions can identify buried binding pockets absent in experimentally-determined structures. Previously, we reported a method for leveraging the information in the SILCS sampling to identify binding sites (termed Hotspots) of small mono- or bi-cyclic compounds, a subset of which coincide with known binding sites of drug-like molecules. Here we build in that physics-based approach and present a machine learning model for ranking the Hotspots according to the likelihood they can accommodate drug-like molecules (e.g. molecular weight > 200 daltons). In the independent validation set, which includes various enzymes and receptors, our model recalls 65% and 88% of experimentally-validated ligand binding sites in the top 10 and 20 ranked Hotspots, respectively. Furthermore, we show that the model’s output Decision Function is a useful metric to predict binding sites and their potential druggability in new targets. Given the utility the SILCS method for ligand discovery and optimization the tools presented represent an important advancement in the identification of orthosteric and allosteric binding sites and the discovery of drug-like molecules targeting those sites.",
+  "authors": [
+    "Erik Nordquist",
+    "Mingtian Zhao",
+    "Anmol Kumar",
+    "Alex MacKerell"
+  ],
+  "published_date": "2024-04-25",
+  "updated_date": "2024-04-25T06:58:53Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2024-hrqq9",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-hrqq9",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T16:33:36Z",
+        "timestamp": 1785429216881,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                25
+              ]
+            ],
+            "date-time": "2024-04-25T00:00:00Z",
+            "timestamp": 1714003200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000052",
+          "name": "NIH Office of the Director",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "GM131710"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GM131710"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000052",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000052",
+          "name": "NIH Office of the Director",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "T32CA154274"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T32CA154274"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000052",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Identifying druggable binding sites on proteins is an important and challenging problem, particularly for cryptic, allosteric binding sites that may not be obvious from X-ray, cryo-EM, or predicted structures. The Site-Identification by Ligand Competitive Saturation (SILCS) method accounts for the flexibility of the target protein using all-atom molecular simulations that include various small molecule solutes in aqueous solution. During the simulations the combination of protein flexibility and comprehensive sampling of the water and solute spatial distributions can identify buried binding pockets absent in experimentally-determined structures. Previously, we reported a method for leveraging the information in the SILCS sampling to identify binding sites (termed Hotspots) of small mono- or bi-cyclic compounds, a subset of which coincide with known binding sites of drug-like molecules. Here we build in that physics-based approach and present a machine learning model for ranking the Hotspots according to the likelihood they can accommodate drug-like molecules (e.g. molecular weight &gt; 200 daltons). In the independent validation set, which includes various enzymes and receptors, our model recalls 65% and 88% of experimentally-validated ligand binding sites in the top 10 and 20 ranked Hotspots, respectively. Furthermore, we show that the model’s output Decision Function is a useful metric to predict binding sites and their potential druggability in new targets. Given the utility the SILCS method for ligand discovery and optimization the tools presented represent an important advancement in the identification of orthosteric and allosteric binding sites and the discovery of drug-like molecules targeting those sites.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2024-hrqq9",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2024-04-25T06:58:53Z",
+        "timestamp": 1714028333000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Combined physics- and machine-learning-based method to identify druggable binding sites using SILCS-Hotspots"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9139-0152",
+          "authenticated-orcid": false,
+          "given": "Erik",
+          "family": "Nordquist",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04rq5mt64",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Maryland, Baltimore",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mingtian",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04rq5mt64",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Maryland, Baltimore",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4691-2086",
+          "authenticated-orcid": false,
+          "given": "Anmol",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04rq5mt64",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Maryland, Baltimore",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8287-6804",
+          "authenticated-orcid": false,
+          "given": "Alex",
+          "family": "MacKerell",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04rq5mt64",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Maryland, Baltimore",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-hrqq9",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:01:14Z",
+        "timestamp": 1778752874000
+      },
+      "score": 89.17365,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-hrqq9"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2024-hrqq9",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.4c01189",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

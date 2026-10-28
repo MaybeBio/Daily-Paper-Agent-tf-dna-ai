@@ -1,0 +1,601 @@
+{
+  "identity": {
+    "pmid": "40369156",
+    "doi": "10.1038/s44321-025-00241-3",
+    "title": "Targeting transcription factors through an IMiD independent zinc finger domain."
+  },
+  "content": {
+    "abstract": "Immunomodulatory imide drugs (IMiDs) degrade specific C2H2 zinc finger degrons in transcription factors, making them effective against certain cancers. SALL4, a cancer driver, contains seven C2H2 zinc fingers in three clusters, including an IMiD degron in zinc finger cluster one (ZFC1). Surprisingly, IMiDs do not inhibit the growth of SALL4-expressing cancer cells. To overcome this limit, we focused on a non-IMiD domain, SALL4 zinc finger cluster four (ZFC4). By combining ZFC4-DNA crystal structure and an in silico docking algorithm, in conjunction with cell viability assays, we screened several chemical libraries against a potentially druggable binding pocket, leading to the discovery of SH6, a compound that selectively targets SALL4-expressing cancer cells. Mechanistic studies revealed that SH6 degrades SALL4 protein through the CUL4A/CRBN pathway, while deletion of ZFC4 abolished this activity. Moreover, SH6 treatment led to a significant 87% tumor growth inhibition of SALL4+ patient-derived xenografts and demonstrated good bioavailability in pharmacokinetic studies. In summary, these studies represent a new approach for IMiD independent drug discovery targeting C2H2 transcription factors such as SALL4 in cancer.",
+    "keywords": [
+      "C2H2",
+      "Degrader",
+      "IMiD",
+      "SALL4",
+      "Zinc Finger Cluster Four (ZFC4)"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/antagonists & inhibitors/chemistry/genetics",
+      "Humans",
+      "*Zinc Fingers",
+      "Animals",
+      "Mice",
+      "Cell Line, Tumor",
+      "*Antineoplastic Agents/pharmacology",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Bee Hui",
+        "Liu, Miao",
+        "Radhakrishnan, Sridhar",
+        "Dai, Meng-Yuan",
+        "Jaladanki, Chaitanya Kumar",
+        "Gao, Chong",
+        "Tang, Jing Ping",
+        "Kumari, Kalpana",
+        "Go, Mei Lin",
+        "Vu, Kim Anh L",
+        "Kwon, Junsu",
+        "Seo, Hyuk-Soo",
+        "Song, Kijun",
+        "Tian, Xi",
+        "Feng, Li",
+        "Tan, Justin L",
+        "Melkonian, Arek V",
+        "Liu, Zhaoji",
+        "Wulf, Gerburg",
+        "Arthanari, Haribabu",
+        "Qi, Jun",
+        "Dhe-Paganon, Sirano",
+        "Clohessy, John G",
+        "Choong, Yeu Khai",
+        "Sivaraman, J",
+        "Fan, Hao",
+        "Tenen, Daniel G",
+        "Chai, Li"
+      ],
+      "short_names": [
+        "Liu BH",
+        "Liu M",
+        "Radhakrishnan S",
+        "Dai MY",
+        "Jaladanki CK",
+        "Gao C",
+        "Tang JP",
+        "Kumari K",
+        "Go ML",
+        "Vu KAL",
+        "Kwon J",
+        "Seo HS",
+        "Song K",
+        "Tian X",
+        "Feng L",
+        "Tan JL",
+        "Melkonian AV",
+        "Liu Z",
+        "Wulf G",
+        "Arthanari H",
+        "Qi J",
+        "Dhe-Paganon S",
+        "Clohessy JG",
+        "Choong YK",
+        "Sivaraman J",
+        "Fan H",
+        "Tenen DG",
+        "Chai L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3365-0213",
+        "ORCID: 0000-0001-5222-1137",
+        "ORCID: 0000-0002-8934-1586",
+        "ORCID: 0009-0004-7092-9031",
+        "ORCID: 0000-0003-0646-2102",
+        "ORCID: 0000-0002-6037-9345",
+        "ORCID: 0000-0003-0268-7363",
+        "ORCID: 0000-0002-6423-3888",
+        "ORCID: 0000-0003-1937-4750"
+      ],
+      "affiliations": [
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Department of Oncology, Zhongnan Hospital of Wuhan University, Wuhan, China.",
+        "Bioinformatics Institute, Agency for Science, Technology and Research, Matrix, 138671, Singapore, Singapore.",
+        "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Department of Pharmacy and Pharmaceutical Sciences, National University of Singapore, Singapore, Singapore.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+        "Institute of Cancer Research, Shenzhen Bay Laboratory, Shenzhen, 518132, China.",
+        "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Wyss Institute for Biologically Inspired Engineering, Harvard University, MA, USA.",
+        "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, 02115, USA.",
+        "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, 02115, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Department of Medicine, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.",
+        "Preclinical Murine Pharmacogenetics Facility and Mouse Hospital, Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, USA.",
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore.",
+        "Department of Biological Sciences, National University of Singapore, Singapore, Singapore.",
+        "Bioinformatics Institute, Agency for Science, Technology and Research, Matrix, 138671, Singapore, Singapore.",
+        "Cancer and Stem Cell Program, Duke-NUS Medical School, Singapore, Singapore.",
+        "Cancer Science Institute of Singapore, Singapore, 117599, Singapore. dtenen@bidmc.harvard.edu.",
+        "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, 02115, USA. dtenen@bidmc.harvard.edu.",
+        "Harvard Stem Cell Institute, Harvard Medical School, MA, USA. dtenen@bidmc.harvard.edu.",
+        "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA. lchai@bwh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Bee Hui",
+        "short_name": "Liu BH",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Liu, Miao",
+        "short_name": "Liu M",
+        "identifiers": [
+          "0000-0003-3365-0213"
+        ],
+        "affiliations": [
+          "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Radhakrishnan, Sridhar",
+        "short_name": "Radhakrishnan S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Dai, Meng-Yuan",
+        "short_name": "Dai MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhongnan Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Jaladanki, Chaitanya Kumar",
+        "short_name": "Jaladanki CK",
+        "identifiers": [
+          "0000-0001-5222-1137"
+        ],
+        "affiliations": [
+          "Bioinformatics Institute, Agency for Science, Technology and Research, Matrix, 138671, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Gao, Chong",
+        "short_name": "Gao C",
+        "identifiers": [
+          "0000-0002-8934-1586"
+        ],
+        "affiliations": [
+          "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Jing Ping",
+        "short_name": "Tang JP",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kumari, Kalpana",
+        "short_name": "Kumari K",
+        "identifiers": [
+          "0009-0004-7092-9031"
+        ],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Go, Mei Lin",
+        "short_name": "Go ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Pharmaceutical Sciences, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Vu, Kim Anh L",
+        "short_name": "Vu KAL",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kwon, Junsu",
+        "short_name": "Kwon J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Seo, Hyuk-Soo",
+        "short_name": "Seo HS",
+        "identifiers": [
+          "0000-0003-0646-2102"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Kijun",
+        "short_name": "Song K",
+        "identifiers": [
+          "0000-0002-6037-9345"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Tian, Xi",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Feng, Li",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tan, Justin L",
+        "short_name": "Tan JL",
+        "identifiers": [
+          "0000-0003-0268-7363"
+        ],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore.",
+          "Institute of Cancer Research, Shenzhen Bay Laboratory, Shenzhen, 518132, China."
+        ]
+      },
+      {
+        "full_name": "Melkonian, Arek V",
+        "short_name": "Melkonian AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA.",
+          "Wyss Institute for Biologically Inspired Engineering, Harvard University, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaoji",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Wulf, Gerburg",
+        "short_name": "Wulf G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Arthanari, Haribabu",
+        "short_name": "Arthanari H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Qi, Jun",
+        "short_name": "Qi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+          "Department of Medicine, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Dhe-Paganon, Sirano",
+        "short_name": "Dhe-Paganon S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, 02215, USA.",
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Clohessy, John G",
+        "short_name": "Clohessy JG",
+        "identifiers": [],
+        "affiliations": [
+          "Preclinical Murine Pharmacogenetics Facility and Mouse Hospital, Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Choong, Yeu Khai",
+        "short_name": "Choong YK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Sivaraman, J",
+        "short_name": "Sivaraman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, National University of Singapore, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Fan, Hao",
+        "short_name": "Fan H",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Institute, Agency for Science, Technology and Research, Matrix, 138671, Singapore, Singapore.",
+          "Cancer and Stem Cell Program, Duke-NUS Medical School, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tenen, Daniel G",
+        "short_name": "Tenen DG",
+        "identifiers": [
+          "0000-0002-6423-3888"
+        ],
+        "affiliations": [
+          "Cancer Science Institute of Singapore, Singapore, 117599, Singapore. dtenen@bidmc.harvard.edu.",
+          "Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA, 02115, USA. dtenen@bidmc.harvard.edu.",
+          "Harvard Stem Cell Institute, Harvard Medical School, MA, USA. dtenen@bidmc.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Chai, Li",
+        "short_name": "Chai L",
+        "identifiers": [
+          "0000-0003-1937-4750"
+        ],
+        "affiliations": [
+          "Department of Pathology, Brigham & Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA. lchai@bwh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EMBO molecular medicine"
+    ],
+    "journal_abbrev": [
+      "EMBO Mol Med"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/15 00:36",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42099635",
+      "42050721",
+      "41312722"
+    ],
+    "refs": [
+      "36635047",
+      "36257403",
+      "36010677",
+      "35613022",
+      "35273146",
+      "35073311",
+      "35017726",
+      "34265844",
+      "34006959",
+      "33654306",
+      "33625752",
+      "33406418",
+      "33406384",
+      "32929090",
+      "32260326",
+      "32251415",
+      "31605750",
+      "31511663",
+      "31446059",
+      "30385546",
+      "30190590",
+      "30067223",
+      "29976840",
+      "28976731",
+      "28884485",
+      "26892498",
+      "26750614",
+      "25101824",
+      "24292623",
+      "24051379",
+      "23828940",
+      "23758232",
+      "21988835",
+      "21725617",
+      "21274508",
+      "21132828",
+      "20871596",
+      "20124702",
+      "20124693",
+      "19509147",
+      "16933295",
+      "16763212",
+      "16554806",
+      "15572765",
+      "10954752"
+    ],
+    "similar": [
+      "40369156",
+      "38260640",
+      "36257403",
+      "31446059",
+      "41176706",
+      "37461690",
+      "33406418",
+      "36635047",
+      "15288776",
+      "41313965",
+      "30067223",
+      "32929090",
+      "33406384",
+      "9835615",
+      "8132543",
+      "7588776",
+      "27705911",
+      "38086859",
+      "32071327",
+      "16402211",
+      "30385546",
+      "9171100",
+      "19348505",
+      "20478078",
+      "15020707",
+      "27401554",
+      "41495890",
+      "38873893",
+      "31336010",
+      "10958790",
+      "9418848",
+      "41050081",
+      "23175232",
+      "12640038",
+      "18586699",
+      "8114711",
+      "27103457",
+      "30975979",
+      "22803940",
+      "41114529",
+      "10448036",
+      "32835442",
+      "30190590",
+      "18663001",
+      "8692697",
+      "15556296",
+      "12819142",
+      "22214326",
+      "15969093",
+      "24831008",
+      "16086360",
+      "10687855",
+      "39981045",
+      "16081541",
+      "33879556",
+      "16465388",
+      "19167089",
+      "42398861",
+      "16901896",
+      "11145971",
+      "29976840",
+      "16253273",
+      "14672405",
+      "12764133",
+      "32948804",
+      "11779640",
+      "31510939",
+      "9554870",
+      "23208050",
+      "14636595",
+      "11844803",
+      "40252382",
+      "40494351",
+      "12788093",
+      "20565873",
+      "16368201",
+      "24336327",
+      "10924515",
+      "27444278",
+      "23984515",
+      "15640031",
+      "31706027",
+      "16847313",
+      "38062245",
+      "8895580",
+      "16806083",
+      "27068105",
+      "16055450",
+      "10954607",
+      "8183551",
+      "12385751",
+      "23811124",
+      "12489153",
+      "34593523",
+      "10371200",
+      "11710595",
+      "10777669",
+      "9520388",
+      "25737450",
+      "15709764"
+    ],
+    "review": [
+      "40369156",
+      "20478078",
+      "38873893",
+      "22803940",
+      "16253273",
+      "23208050",
+      "27444278",
+      "23984515"
+    ],
+    "pmc": [
+      "12163085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44321-025-00241-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40369156/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

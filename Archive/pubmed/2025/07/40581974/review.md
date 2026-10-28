@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or simulation details
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to compare the stability of Ageratum yellow vein virus (AYVV) capsid oligomers (dimers, trimers, pentamers, higher multimers) in the presence and absence of bound DNA over 300 ns. They report that DNA-bound oligomers remain stable, whereas DNA-free oligomers show instability and disintegration, particularly in pentamers and dimers. They further report an atypical variation in curvature in DNA-free dimers. They propose that loss of DNA-protein association is a prerequisite for capsid disassembly and genome release, that genomic DNA may initiate capsid assembly via pentamers, and that dimer flexibility facilitates capsid curvature and closure. They suggest that targeting DNA-protein interactions could be a management strategy for geminiviruses.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary material provided
+- **Missing materials affecting confidence** Full methods (force field, water model, simulation parameters, system construction, equilibration protocol), all quantitative results (RMSD, RMSF, interaction energies, curvature measurements), statistical analyses, replica information, and any validation against experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis regarding the role of genomic DNA in stabilizing geminiviral capsid oligomers. However, the evidence base is limited to a summary of qualitative observations from simulations, with no quantitative data, methodological detail, or statistical support visible. The central claims, particularly the proposed assembly mechanism and the management implication, extend beyond what the abstract can support. The work may be of interest to the plant virology and structural biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Plant virologists studying geminivirus assembly and disassembly, structural biologists interested in capsid dynamics and protein-nucleic acid interactions, and researchers developing antiviral or management strategies targeting viral nucleoprotein complexes. The proposed link between DNA binding and capsid stability could inform mechanistic models of geminivirus infection and potential intervention points.
+- **Major strengths** The study addresses a relevant and under-explored question about the role of the viral genome in capsid stability and dynamics. The comparative design (DNA-bound versus DNA-free oligomers) is conceptually clear. The proposal that DNA dissociation precedes capsid disassembly offers a testable mechanistic hypothesis. The potential practical implication for disease management adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DNA-bound oligomers are "remarkably stable" and DNA-free oligomers show "significant instability and disintegration" over 300 ns.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative metrics are provided to support the stability and instability claims. Terms such as "remarkably stable" and "significant instability" are qualitative and cannot be evaluated without numerical data such as RMSD, RMSF, radius of gyration, contact maps, or free energy estimates. The absence of statistical measures (e.g., standard deviations across replicates) further weakens the claim.
+  - **Why it matters** The central conclusion of the paper rests on a comparative stability assessment. Without quantitative and statistically supported evidence, the reader cannot determine whether the observed differences are meaningful or within simulation noise.
+  - **Resolution test** Provide quantitative stability metrics with error bars or replicate analysis, and demonstrate that the differences between DNA-bound and DNA-free systems exceed defined thresholds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DNA-free dimers display "an atypical variation in curvature over time."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The curvature measurement is not defined, and no data are shown to support the claim of atypical variation. It is unclear how curvature was calculated, what baseline or reference was used, and whether this variation is statistically distinguishable from normal thermal fluctuations.
+  - **Why it matters** This observation is used to support the hypothesis that dimer flexibility facilitates capsid curvature and closure. If the curvature claim is not robust, the proposed assembly mechanism loses a key pillar.
+  - **Resolution test** Define the curvature metric, show time series data for DNA-bound and DNA-free dimers, and provide a statistical comparison against a control or expected fluctuation range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The proposal that "genomic DNA may interact with the pentamers to initiate capsid assembly, which may pave the way for the dimers and trimers to be integrated."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This assembly mechanism is presented as a hypothesis, but the abstract provides no simulation or experimental evidence for assembly pathways. The simulations appear to study pre-formed oligomers, not assembly processes. The claim therefore extends beyond the visible evidence.
+  - **Why it matters** The proposed assembly model is a major conceptual contribution of the paper. If it is purely speculative, it should be clearly framed as such, and the distinction between simulation observations and inference must be explicit.
+  - **Resolution test** Either provide simulation or experimental data on assembly intermediates and pathways, or clearly label this as a speculative hypothesis with supporting reasoning from the observed stability data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The statement that "techniques that target DNA-protein interactions in geminiviruses could be the key to their effective management in fields."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This translational claim is a significant leap from a 300 ns simulation study of oligomer stability. No evidence is provided that disrupting DNA-protein interactions is feasible, specific, or effective in a biological or agricultural context.
+  - **Why it matters** Overstating practical implications can mislead readers outside the simulation community and may undermine the credibility of the mechanistic findings.
+  - **Resolution test** Soften the claim to reflect that the findings suggest a potential target, or provide additional experimental or field data supporting the management implication.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "quaternary association" and "atypical variation in curvature" are used without brief explanation, which may hinder readers unfamiliar with protein structure terminology.
+  - **Required correction** Add a brief parenthetical explanation or rephrase for broader accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the number of replicas, the force field, or the solvation conditions, which are essential for reproducibility and for assessing the robustness of the results.
+  - **Required correction** Include key methodological parameters in the abstract or refer to the methods section with specific details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention how these simulation findings relate to or differ from previous experimental studies beyond a brief reference to pentamer stability.
+  - **Required correction** Add one or two sentences situating the findings within the existing literature to clarify the novel contribution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core stability and curvature claims lack quantitative and statistical support. R1-M3 is blocking because the proposed assembly mechanism is presented without evidence from the visible material. R1-M4 is non-blocking but requires reframing.
+- **Assessment against Nature-style criteria** Originality: the question of DNA's role in geminiviral capsid dynamics is timely and not widely explored, which is a point in favor. Scientific importance: the findings could inform mechanistic models of geminivirus assembly and disassembly, but the current evidence is insufficient to establish broad significance. Interdisciplinary readership: the topic bridges virology, structural biology, and computational biology, but the abstract's qualitative language and lack of quantitative detail limit its accessibility and impact. Technical soundness: not assessable from the abstract alone; the absence of methodological and statistical detail is a major concern. Readability for nonspecialists: the abstract is generally clear but contains some jargon that could be simplified.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the study design is conceptually sound, but the abstract does not provide sufficient quantitative or methodological support for the central claims. A revised version with full data, statistical analysis, and clearly framed hypotheses could be supportive.
+
+## Risk / unsupported claims
+- The claim that DNA-bound oligomers are "remarkably stable" is unsupported without quantitative metrics.
+- The claim that DNA-free oligomers show "significant instability and disintegration" is unsupported without statistical evidence.
+- The claim of "atypical variation in curvature" in DNA-free dimers is unsupported without a defined metric and data.
+- The proposed assembly mechanism (DNA-pentamer interaction initiating assembly) is speculative and not supported by the visible evidence.
+- The management implication (targeting DNA-protein interactions) is an extrapolation beyond the simulation data.

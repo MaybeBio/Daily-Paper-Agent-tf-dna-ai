@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "40143808",
+    "doi": "10.1097/PAI.0000000000001258",
+    "title": "Toward Accurate Deep Learning-Based Prediction of Ki67, ER, PR, and HER2 Status From H&E-Stained Breast Cancer Images."
+  },
+  "content": {
+    "abstract": "Despite improvements in machine learning algorithms applied to digital pathology, only moderate accuracy, to predict molecular information from histology alone, has been achieved so far. One of the obstacles is the lack of large data sets to properly train machine learning models. We therefore built a data set of 185,538 breast cancer (BC) including hematoxylin and eosin (H&E) and associated immunohistochemistry (IHC) images of the proliferative marker Ki67, estrogen receptor (ER), progesterone receptor (PR), and the human epidermal growth factor receptor 2 (HER2). Optimal registration of H&E and IHC pairs was achieved. Ki67, ER, and PR IHC labels, to be predicted, were extracted from IHC assays using image analysis. These labels were ordinaly classified with incremental thresholds (cumulative logit models with balanced and partial proportional odds). HER2 label was determined as follows: positive if tumor IHC 3+ pattern is identified and otherwise negative. Cases with IHC equivocal score (2+) were excluded. A vision transformer (ViT)-based pipeline, trained with this data set, achieved prediction performance of 90% in terms of area under the curve (AUC) of the receiver operating characteristic (ROC) curves. ViT outperformed the weakly supervised clustering-constrained attention multiple instance learning (CLAM) which was developed to automatically identify subregions of high diagnostic value in whole slide. As a first step to \"explain\" artificial intelligence (AI), we evaluated the ability of both classifiers to localize these high diagnostic value subregions by inspecting their respective \"attention\" heat-maps. Despite high ViT AUC-ROC results, heat-maps do not obviously match areas of high diagnostic value subregions; it might however provide direction for future work to improve AI attention within whole slide images. Our proposed data set is publicly available.",
+    "keywords": [
+      "breast cancer",
+      "histopathology images",
+      "machine learning",
+      "molecular information prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/metabolism/diagnosis/pathology",
+      "Female",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "*Deep Learning",
+      "*Receptors, Estrogen/metabolism",
+      "*Ki-67 Antigen/metabolism",
+      "*Receptors, Progesterone/metabolism",
+      "Immunohistochemistry",
+      "*Biomarkers, Tumor/metabolism",
+      "Image Processing, Computer-Assisted",
+      "Staining and Labeling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akbarnejad, Amir",
+        "Ray, Nilanjan",
+        "Barnes, Penny J",
+        "Bigras, Gilbert"
+      ],
+      "short_names": [
+        "Akbarnejad A",
+        "Ray N",
+        "Barnes PJ",
+        "Bigras G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departments of Computing Sciences.",
+        "Departments of Computing Sciences.",
+        "Faculty of Medicine, Dalhousie University, Halifax, Canada.",
+        "Faculty of Medicine, Dalhousie University, Halifax, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akbarnejad, Amir",
+        "short_name": "Akbarnejad A",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computing Sciences."
+        ]
+      },
+      {
+        "full_name": "Ray, Nilanjan",
+        "short_name": "Ray N",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Computing Sciences."
+        ]
+      },
+      {
+        "full_name": "Barnes, Penny J",
+        "short_name": "Barnes PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Dalhousie University, Halifax, Canada."
+        ]
+      },
+      {
+        "full_name": "Bigras, Gilbert",
+        "short_name": "Bigras G",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Dalhousie University, Halifax, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Applied immunohistochemistry & molecular morphology : AIMM"
+    ],
+    "journal_abbrev": [
+      "Appl Immunohistochem Mol Morphol"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/27 06:28",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42698556",
+      "42428017",
+      "42109656",
+      "41545684",
+      "41250202",
+      "40552175",
+      "40275869"
+    ],
+    "refs": [],
+    "similar": [
+      "40143808",
+      "41588712",
+      "31348505",
+      "40645910",
+      "40251691",
+      "35789315",
+      "32350370",
+      "38395930",
+      "41083966",
+      "38651302",
+      "31398111",
+      "38815444",
+      "39576843",
+      "41250202",
+      "28193205",
+      "31628534",
+      "38217716",
+      "41590326",
+      "39705612",
+      "31492872",
+      "41925407",
+      "39985907",
+      "40256728",
+      "40795826",
+      "39745077",
+      "41757801",
+      "40050230",
+      "41895875",
+      "37669090",
+      "34555047",
+      "38641451",
+      "41627261",
+      "39924532",
+      "41082751",
+      "25556461",
+      "23701403",
+      "38766488",
+      "31883437",
+      "31267199",
+      "41061345",
+      "38820391",
+      "41744185",
+      "27729430",
+      "19242056",
+      "30120700",
+      "29251737",
+      "41405264",
+      "30722113",
+      "31163391",
+      "20863372",
+      "41845525",
+      "31640622",
+      "32445323",
+      "39923208",
+      "29693354",
+      "41278571",
+      "36653923",
+      "20663194",
+      "30659433",
+      "33585986",
+      "41336802",
+      "32471471",
+      "39241826",
+      "30694768",
+      "19320193",
+      "41527482",
+      "41905185",
+      "34518629",
+      "35728576",
+      "39919535",
+      "36175898",
+      "36527133",
+      "25966732",
+      "41186132",
+      "22359195",
+      "32758491",
+      "28404972",
+      "30230095",
+      "25339035",
+      "32002765",
+      "36816095",
+      "41067093",
+      "25600243",
+      "41809834",
+      "41528926",
+      "41505322",
+      "26514283",
+      "29848291",
+      "24591826",
+      "35466619",
+      "40195667",
+      "22949935",
+      "33033656",
+      "34371382",
+      "40953092",
+      "30916428",
+      "29444670",
+      "23240985",
+      "41731833",
+      "41628308"
+    ],
+    "review": [
+      "40143808",
+      "39705612",
+      "38820391"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=33&issue=3&spage=131&aulast=Akbarnejad",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/40143808.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/PAI.0000000000001258",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "38045159",
+    "doi": "10.1016/j.heliyon.2023.e22154",
+    "title": "Muscone ameliorates myocardial ischemia‒reperfusion injury by promoting myocardial glycolysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The incidence of acute myocardial infarction (AMI) is increasing yearly. With the use of thrombolysis or percutaneous coronary intervention (PCI), the mortality rate of acute myocardial infarction has been significantly reduced. However, reperfusion can cause additional myocardial injury. There is still a lack of effective drugs to treat I/R injury, and it is urgent to find new therapeutic drugs. METHODS: In this study, network pharmacology was used to predict potential targets and biological processes involved in Muscone-mediated treatment of acute myocardial infarction. To model ischemia‒reperfusion injury, a hypoxia-reoxygenation model and in vivo ischemia‒reperfusion injury C57BL/6 mice model was constructed. Mice were treated with Muscone i.p. for 4 weeks. We detected the cardiac function on day 28.The expression levels of the apoptotic proteins Caspase-3 and Bax and the anti-apoptotic protein Bcl-2 were detected by immunoblotting after Muscone treatment of AC16 cells and in vivo. Additionally, the gene expression levels of the PUMA and p53 were analyzed by qRT‒PCR. Molecular docking was used to evaluate the binding energy between Muscone and NLRP3-related proteins. Immunoblotting and qRT‒PCR were used to assess the expression levels of NLRP3 signaling pathway-related proteins (NLRP3, ASC, and Caspase-1) and the NLRP3 gene, respectively. Moreover, the extracellular acidification rate of AC16 cells was measured using the Seahorse system to evaluate glycolysis levels after Muscone treatment. The expression of the key glycolytic enzyme PKM2 was analyzed by immunoblotting and qRT‒PCR. Finally, ChIP‒qPCR was performed to determine the levels of histone modifications (H3K4me3, H3K27me3, and H2AK119Ub) in the PKM2 promoter region. RESULTS: GO functional enrichment analysis revealed that muscone was involved in regulating the biological processes (BP) of AMI, which mainly included negative regulation of the apoptosis signaling pathway, the response to lipopolysaccharide, and blood pressure regulation. The cellular components (CC) involved in muscone-mediated regulation of AMI mainly included lipid rafts, membrane microdomains, and membrane regions. The molecular functions (MF) involved in muscone-mediated regulation of AMI mainly included oxidoreductase activity, nuclear receptor activity, and transcription factor activity. In vitro results indicated that muscone treatment could inhibit the expression levels of Bax and Caspase-3 in AC16 cells after ischemia‒reperfusion while increasing the expression level of the antiapoptotic protein Bcl-2. Muscone significantly suppressed the transcription levels of p53 and PUMA in AC16 cells. Molecular docking suggested that muscone could bind well with the Cryo-EM structure of NEK7(PDB ID:6NPY). Further investigation of inflammatory pathways revealed that muscone could inhibit the expression level of NLRP3 in AC16 cells and reduce the expression levels of Caspase-1 and Caspase recruitment domain. Fluorescent quantitative PCR experiments showed that muscone significantly inhibited the transcription of NLRP3. Moreover, we found that muscone could enhance the glycolytic efficiency of AC16 cells, which may be related to the increased protein expression of PKM2 in AC16 cells. Fluorescent quantitative PCR showed that muscone could increase the transcription level of PKM2. Chromatin immunoprecipitation assays showed that muscone treatment increased the expression level of H3K4me3 in the PKM2 promoter region and inhibited the levels of H3K27me3 and H2AK119Ub in the PKM2 promoter region. CONCLUSION: Muscone promoted myocardial glycolysis and inhibited NLRP3 pathway activation to improve myocardial ischemia‒reperfusion injury.",
+    "keywords": [
+      "Glycolysis",
+      "Histone modification",
+      "Muscone",
+      "Myocardial ischemia-reperfusion injury",
+      "NLRP3"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gu, Xin",
+        "Bao, Neng",
+        "Zhang, Jing",
+        "Huang, Guangyi",
+        "Zhang, Xiaodong",
+        "Zhang, Zhixuan",
+        "Du, Yinqiang",
+        "Meng, Haoyu",
+        "Liu, Jiabao",
+        "Wu, Peng",
+        "Wang, Xiaoyan",
+        "Wang, Guangyan"
+      ],
+      "short_names": [
+        "Gu X",
+        "Bao N",
+        "Zhang J",
+        "Huang G",
+        "Zhang X",
+        "Zhang Z",
+        "Du Y",
+        "Meng H",
+        "Liu J",
+        "Wu P",
+        "Wang X",
+        "Wang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Nephrology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Cardiology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, Jiangsu, 215008, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, 210000, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, 210000, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, 210000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gu, Xin",
+        "short_name": "Gu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Neng",
+        "short_name": "Bao N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guangyi",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaodong",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhixuan",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yinqiang",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, Jiangsu, 215008, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Haoyu",
+        "short_name": "Meng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, 210000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiabao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Peng",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, Jiangsu, 210000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoyan",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guangyan",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, 214000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/04 06:41",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "42505053",
+      "41170011",
+      "40725037",
+      "40079088",
+      "40034710"
+    ],
+    "refs": [
+      "37771072",
+      "37345264",
+      "37230079",
+      "35970840",
+      "35367781",
+      "35181472",
+      "35152717",
+      "35132912",
+      "34975299",
+      "34676876",
+      "34486483",
+      "34072753",
+      "34055195",
+      "33467177",
+      "33307174",
+      "33250267",
+      "33232283",
+      "33155134",
+      "32901127",
+      "32668321",
+      "32384583",
+      "32235559",
+      "31284572",
+      "31066339",
+      "30662666",
+      "30531686",
+      "30047214",
+      "29069583",
+      "28507061",
+      "27779186",
+      "26896627",
+      "26704082",
+      "26484802",
+      "25015733",
+      "24807380",
+      "21698117",
+      "21235323",
+      "20679415",
+      "19763723"
+    ],
+    "similar": [
+      "38045159",
+      "35758877",
+      "33480219",
+      "36124207",
+      "36841376",
+      "34184201",
+      "37455625",
+      "35715805",
+      "24807380",
+      "37608040",
+      "34257682",
+      "30662666",
+      "34765646",
+      "32674625",
+      "35718056",
+      "36100155",
+      "34760889",
+      "33137205",
+      "21856397",
+      "35137927",
+      "35591864",
+      "30911553",
+      "15144587",
+      "30119172",
+      "36872236",
+      "37357417",
+      "26091790",
+      "31587299",
+      "30531686",
+      "37201662",
+      "29257247",
+      "29069583",
+      "36164369",
+      "35952578",
+      "35959481",
+      "35860039",
+      "37740139",
+      "35938962",
+      "33165604",
+      "36660616",
+      "30971184",
+      "30165354",
+      "34988203",
+      "37343367",
+      "32428696",
+      "37098925",
+      "35320770",
+      "23580606",
+      "37841059",
+      "33232283",
+      "32215908",
+      "34726071",
+      "37967979",
+      "37005320",
+      "31278945",
+      "31937061",
+      "36732831",
+      "34737012",
+      "37560637",
+      "29428944",
+      "36208489",
+      "32461137",
+      "32605511",
+      "33823789",
+      "34322321",
+      "33744886",
+      "31481517",
+      "29940584",
+      "33842007",
+      "35821123",
+      "32389167",
+      "27393910",
+      "31870262",
+      "37777030",
+      "35066738",
+      "35584710",
+      "28964797",
+      "31999976",
+      "37247195",
+      "34694031",
+      "33174051",
+      "34196069",
+      "34673348",
+      "36342620",
+      "34412757",
+      "33076219",
+      "34422094",
+      "36610111",
+      "37497884",
+      "35178959",
+      "36604920",
+      "33307065",
+      "32321872",
+      "37657208",
+      "38515838"
+    ],
+    "review": [
+      "38045159"
+    ],
+    "pmc": [
+      "10692826"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(23)09362-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38045159/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38045159",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

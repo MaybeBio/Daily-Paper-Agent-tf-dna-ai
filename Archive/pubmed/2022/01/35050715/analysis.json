@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35050715",
+  "title": "GRNUlar: A Deep Learning Framework for Recovering Single-Cell Gene Regulatory Networks.",
+  "authors": "Shrivastava, Harsh; Zhang, Xiuwei; Song, Le; Aluru, Srinivas",
+  "journal": "Journal of computational biology : a journal of computational molecular cell biology",
+  "published_date": "2022-01-21",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习从单细胞RNA-seq数据推断基因调控网络，虽涉及转录因子-靶基因关系，但基于表达数据而非DNA序列或三维互作建模，缺乏蛋白质-DNA结合机制研究。",
+  "abstract": "We propose GRNUlar, a novel deep learning framework for supervised learning of gene regulatory networks (GRNs) from single-cell RNA-Sequencing (scRNA-Seq) data. Our framework incorporates two intertwined models. First, we leverage the expressive ability of neural networks to capture complex dependencies between transcription factors and the corresponding genes they regulate, by developing a multitask learning framework. Second, to capture sparsity of GRNs observed in the real world, we design an unrolled algorithm technique for our framework. Our deep architecture requires supervision for training, for which we repurpose existing synthetic data simulators that generate scRNA-Seq data guided by an underlying GRN. Experimental results demonstrate that GRNUlar outperforms state-of-the-art methods on both synthetic and real data sets. Our study also demonstrates the novel and successful use of expression data simulators for supervised learning of GRN inference.",
+  "abstract_zh": "我们提出了GRNUlar，一种新颖的深度学习框架，用于从单细胞RNA测序（scRNA-Seq）数据中监督学习基因调控网络（GRNs）。我们的框架包含两个相互交织的模型。首先，我们利用神经网络的表达能力，通过开发多任务学习框架，捕捉转录因子与其调控的相应基因之间的复杂依赖关系。其次，为了捕捉现实世界中观察到的GRNs的稀疏性，我们为框架设计了一种展开算法技术。我们的深度架构需要监督训练，为此我们重新利用现有的合成数据模拟器，这些模拟器在底层GRN的引导下生成scRNA-Seq数据。实验结果表明，GRNUlar在合成和真实数据集上均优于最先进的方法。我们的研究还展示了表达数据模拟器在GRN推断监督学习中的新颖且成功应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35050715/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35050715/",
+  "paper_page_path": "papers/pubmed/35050715/index.html"
+}

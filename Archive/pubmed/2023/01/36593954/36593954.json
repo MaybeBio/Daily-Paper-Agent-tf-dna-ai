@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "36593954",
+    "doi": "10.7150/thno.79362",
+    "title": "Artificial intelligence-based recognition for variant pathogenicity of BRCA1 using AlphaFold2-predicted structures."
+  },
+  "content": {
+    "abstract": "With the surge of the high-throughput sequencing technologies, many genetic variants have been identified in the past decade. The vast majority of these variants are defined as variants of uncertain significance (VUS), as their significance to the function or health of an organism is not known. It is urgently needed to develop intelligent models for the clinical interpretation of VUS. State-of-the-art artificial intelligence (AI)-based variant effect predictors only learn features from primary amino acid sequences, leaving out information about the most important three-dimensional structure that is more related to its function. Methods: We proposed a deep convolutional neural network model named variant effect recognition network for BRCA1 (vERnet-B) to recognize the clinical pathogenicity of missense single-nucleotide variants in the BRCT domain of BRCA1. vERnet-B learned features associated with the pathogenicity from the tertiary protein structures of variants predicted by AlphaFold2. Results: After performing a series of validation and analyses on vERnet-B, we discovered that it exhibited significant advances over previous works. Recognizing the phenotypic consequences of VUS is one of the most daunting challenges in genetic informatics; however, we achieved 85% accuracy in recognizing disease BRCA1 variants with an ideal balance of false-positive and true-positive detection rates. vERnet-B correctly recognized the pathogenicity of variant A1708E, which was poorly predicted by AlphaFold2 as previously described. The vERnet-B web server is freely available from URL: http://ai-lab.bjrz.org.cn/vERnet. Conclusions: We applied protein tertiary structures to successfully recognize the pathogenic missense SNVs, which were difficult to be addressed by classical approaches based on sequences. Our work demonstrated that AlphaFold2-predicted structures were expected to be used for rich feature learning and revealed unique insights into the clinical interpretation of VUS in disease-related genes, using vERnet-B as a discovery tool.",
+    "keywords": [
+      "artificial intelligence",
+      "clinical interpretation",
+      "deep learning",
+      "gene variation",
+      "tertiary protein structure"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Artificial Intelligence",
+      "Virulence",
+      "Amino Acid Sequence",
+      "*Genetic Predisposition to Disease",
+      "BRCA1 Protein/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Chang",
+        "Zhang, Lili",
+        "Zhuo, Zhongling",
+        "Su, Fei",
+        "Li, Hexin",
+        "Xu, Siyuan",
+        "Liu, Ye",
+        "Zhang, Zaifeng",
+        "Xie, Yibo",
+        "Yu, Xue",
+        "Bian, Liheng",
+        "Xiao, Fei"
+      ],
+      "short_names": [
+        "Li C",
+        "Zhang L",
+        "Zhuo Z",
+        "Su F",
+        "Li H",
+        "Xu S",
+        "Liu Y",
+        "Zhang Z",
+        "Xie Y",
+        "Yu X",
+        "Bian L",
+        "Xiao F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Peking University Fifth School of Clinical Medicine, Beijing, China.",
+        "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Department of Clinical Laboratory, Peking University People's Hospital, Beijing, China.",
+        "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Information Center, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing, China.",
+        "Peking University Fifth School of Clinical Medicine, Beijing, China.",
+        "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+        "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Chang",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Peking University Fifth School of Clinical Medicine, Beijing, China.",
+          "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+          "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lili",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+          "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Zhongling",
+        "short_name": "Zhuo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Peking University People's Hospital, Beijing, China.",
+          "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Su, Fei",
+        "short_name": "Su F",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hexin",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Siyuan",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ye",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zaifeng",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yibo",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Information Center, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xue",
+        "short_name": "Yu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Liheng",
+        "short_name": "Bian L",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Fei",
+        "short_name": "Xiao F",
+        "identifiers": [],
+        "affiliations": [
+          "Peking University Fifth School of Clinical Medicine, Beijing, China.",
+          "Clinical Biobank, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China.",
+          "The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theranostics"
+    ],
+    "journal_abbrev": [
+      "Theranostics"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/04 06:00",
+    "fetched_at": "2026-09-28 18:41:54"
+  },
+  "links": {
+    "cites": [
+      "42136817",
+      "42022779",
+      "41314410",
+      "38802532",
+      "38223342",
+      "37732281"
+    ],
+    "refs": [
+      "35519547",
+      "35077220",
+      "35046575",
+      "34958957",
+      "34707284",
+      "34265844",
+      "33304450",
+      "33219223",
+      "32094664",
+      "31589781",
+      "31429902",
+      "30586411",
+      "30371827",
+      "30209399",
+      "29771342",
+      "28756276",
+      "28632866",
+      "28454085",
+      "26582918",
+      "25779564",
+      "25141179",
+      "25057121",
+      "24703984",
+      "21345680",
+      "21223604",
+      "20516115",
+      "20354512",
+      "20103620",
+      "19095540",
+      "18034184",
+      "14984481",
+      "14981104",
+      "13517261",
+      "12427738",
+      "11751629",
+      "11573086",
+      "10592235",
+      "9917408",
+      "9917407",
+      "2270482"
+    ],
+    "similar": [
+      "36593954",
+      "37084271",
+      "31911673",
+      "38223342",
+      "35409408",
+      "32546644",
+      "24695549",
+      "33087888",
+      "22527099",
+      "30725392",
+      "30257991",
+      "35729312",
+      "30458859",
+      "23615697",
+      "39256852",
+      "15923272",
+      "23704879",
+      "17305420",
+      "33078592",
+      "39430403",
+      "18285836",
+      "33106425",
+      "27495310",
+      "23867111",
+      "31013702",
+      "39085881",
+      "32257056",
+      "19706752",
+      "30765603",
+      "34045478",
+      "29884841",
+      "31769492",
+      "33287903",
+      "32566972",
+      "29580235",
+      "19543972",
+      "26153499",
+      "30415210",
+      "29996917",
+      "34750410",
+      "30219179",
+      "30105462",
+      "26733283",
+      "36370215",
+      "25724305",
+      "24607278",
+      "33461583",
+      "25823446",
+      "31477031",
+      "29914921",
+      "27124784",
+      "31853058",
+      "38109881",
+      "21769658",
+      "23231788",
+      "20516115",
+      "25652403",
+      "18036263",
+      "22753008",
+      "36358902",
+      "38370976",
+      "15235020",
+      "29394989",
+      "32879886",
+      "31343793",
+      "28807866",
+      "28781887",
+      "31907386",
+      "32124385",
+      "20513136",
+      "29215753",
+      "29302806",
+      "24489791",
+      "23613828",
+      "24728577",
+      "21990134",
+      "18497862",
+      "18824701",
+      "28319063",
+      "17308087",
+      "30971832",
+      "31825140",
+      "26913838",
+      "36530327",
+      "30606148",
+      "18680205",
+      "39243022",
+      "36741700",
+      "31636395",
+      "35143088",
+      "20737206",
+      "24131974",
+      "19770520",
+      "27886673",
+      "21523855",
+      "28222693",
+      "38211594",
+      "35940520",
+      "31144781",
+      "39090739",
+      "38014242",
+      "38854010",
+      "36540988",
+      "36575831",
+      "37399411",
+      "38826236",
+      "37745493",
+      "37961354",
+      "36778238",
+      "39149406",
+      "39031445",
+      "37550700",
+      "39202055",
+      "38289414",
+      "39227031",
+      "37905042",
+      "36918529",
+      "38802398",
+      "32151256",
+      "38858069",
+      "34606686",
+      "37484202",
+      "37540795",
+      "34258141",
+      "37947474",
+      "38109487",
+      "30574164",
+      "37664078",
+      "39176534",
+      "37182397",
+      "36008533",
+      "38746140",
+      "39139810",
+      "35488922",
+      "37306152",
+      "35544644",
+      "38168469",
+      "38074467",
+      "37205491",
+      "38575818",
+      "37593442",
+      "37171364",
+      "37828285",
+      "36809442",
+      "37821682",
+      "38235020",
+      "31803392",
+      "38600144",
+      "38822115",
+      "37807755"
+    ],
+    "review": [
+      "36593954",
+      "38223342",
+      "31013702",
+      "26153499",
+      "22753008",
+      "21990134",
+      "31825140",
+      "39090739",
+      "36918529",
+      "38858069",
+      "38109487",
+      "37664078",
+      "37182397",
+      "39139810",
+      "35488922",
+      "37593442"
+    ],
+    "pmc": [
+      "9800725"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36593954/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36593954",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thno.org/v13p0391.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36593954",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

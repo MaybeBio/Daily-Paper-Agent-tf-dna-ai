@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "35881019",
+    "doi": "10.1142/S0219720022500147",
+    "title": "bHLHDB: A next generation database of basic helix loop helix transcription factors based on deep learning model."
+  },
+  "content": {
+    "abstract": "The basic helix loop helix (bHLH) superfamily is a large and diverse protein family that plays a role in various vital functions in nearly all animals and plants. The bHLH proteins form one of the largest families of transcription factors found in plants that act as homo- or heterodimers to regulate the expression of their target genes. The bHLH transcription factor is involved in many aspects of plant development and metabolism, including photomorphogenesis, light signal transduction, secondary metabolism, and stress response. The amount of molecular data has increased dramatically with the development of high-throughput techniques and wide use of bioinformatics techniques. The most efficient way to use this information is to store and analyze the data in a well-organized manner. In this study, all members of the bHLH superfamily in the plant kingdom were used to develop and implement a relational database. We have created a database called bHLHDB (www.bhlhdb.org) for the bHLH family members on which queries can be conducted based on the family or sequences information. The Hidden Markov Model (HMM), which is frequently used by researchers for the analysis of sequences, and the BLAST query were integrated into the database. In addition, the deep learning model was developed to predict the type of TF with only the protein sequence quickly, efficiently, and with 97.54% accuracy and 97.76% precision. We created a unique and next-generation database for bHLH transcription factors and made this database available to the world of science. We believe that the database will be a valuable tool in future studies of the bHLH family.",
+    "keywords": [
+      "BHLH",
+      "blast",
+      "deep learning",
+      "hidden markov model",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Animals",
+      "*Basic Helix-Loop-Helix Proteins/chemistry/genetics/metabolism",
+      "*Deep Learning",
+      "Phylogeny",
+      "Plants",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oncul, Ali Burak",
+        "Celik, Yuksel",
+        "Unel, Necdet Mehmet",
+        "Baloglu, Mehmet Cengiz"
+      ],
+      "short_names": [
+        "Oncul AB",
+        "Celik Y",
+        "Unel NM",
+        "Baloglu MC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Engineering, Faculty of Engineering and Architecture, Kastamonu University, Kastamonu 37150, Turkey.",
+        "Department of Computer Engineering, Faculty of Engineering, Karabuk University, Karabuk 78050, Turkey.",
+        "Department of Genetics and Bioengineering, Faculty of Engineering and Architecture, Kastamonu University, Kastamonu 37150, Turkey.",
+        "Department of Genetics and Bioengineering, Faculty of Engineering and Architecture, Kastamonu University, Kastamonu 37150, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Öncül, Ali Burak",
+        "short_name": "Öncül AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Faculty of Engineering and Architecture, Kastamonu University, Kastamonu 37150, Turkey."
+        ]
+      },
+      {
+        "full_name": "Çelik, Yüksel",
+        "short_name": "Çelik Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Faculty of Engineering, Karabük University, Karabük 78050, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ünel, Necdet Mehmet",
+        "short_name": "Ünel NM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Bioengineering, Faculty of Engineering and Architecture, Kastamonu University, Kastamonu 37150, Turkey."
+        ]
+      },
+      {
+        "full_name": "Baloglu, Mehmet Cengiz",
+        "short_name": "Baloglu MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Bioengineering, Faculty of Engineering and Architecture, Kastamonu University, Kastamonu 37150, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/27 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "35881019",
+      "34281206",
+      "16896230",
+      "28810832",
+      "29659634",
+      "28750081",
+      "24312906",
+      "28174429",
+      "22938134",
+      "30326829",
+      "12897250",
+      "25434030",
+      "31677646",
+      "36674933",
+      "31717469",
+      "30057319",
+      "39667713",
+      "19306043",
+      "17899178",
+      "37126718",
+      "19942615",
+      "28299435",
+      "12679534",
+      "38233751",
+      "23906262",
+      "34884664",
+      "32527214",
+      "40205332",
+      "32171259",
+      "38102570",
+      "20472752",
+      "10924525",
+      "32333149",
+      "24767109",
+      "20219281",
+      "20302461",
+      "12911037",
+      "25756800",
+      "19449054",
+      "17027923",
+      "30840209",
+      "25992947",
+      "22096504",
+      "21443626",
+      "25687626",
+      "34687267",
+      "32497670",
+      "36499652",
+      "34066424",
+      "40058237",
+      "34090335",
+      "38003495",
+      "24553285",
+      "35505005",
+      "22306874",
+      "23161888",
+      "21870970",
+      "35941266",
+      "17322346",
+      "36982726",
+      "31898148",
+      "35695677",
+      "31616588",
+      "26506645",
+      "23673982",
+      "25403511",
+      "30482177",
+      "18361414",
+      "18557763",
+      "25667003",
+      "26193947",
+      "24859977",
+      "31291886",
+      "32239329",
+      "23955147",
+      "25652024",
+      "40149012",
+      "31653121",
+      "29426907",
+      "28558686",
+      "40669638",
+      "31234449",
+      "20023194",
+      "39684646",
+      "19324458",
+      "39596126",
+      "10848608",
+      "26704944",
+      "7774807",
+      "27080593",
+      "18779123",
+      "40615810",
+      "25612924",
+      "11337472",
+      "11840327",
+      "39521956",
+      "21484270",
+      "8041747",
+      "27927998",
+      "19950203"
+    ],
+    "review": [
+      "35881019",
+      "34281206",
+      "31677646",
+      "36674933",
+      "30057319",
+      "34884664",
+      "24767109",
+      "20219281",
+      "21443626",
+      "34066424",
+      "40058237",
+      "35695677",
+      "25667003",
+      "31653121",
+      "26704944",
+      "18779123",
+      "11840327"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720022500147?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

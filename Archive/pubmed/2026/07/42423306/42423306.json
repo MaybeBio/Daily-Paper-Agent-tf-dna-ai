@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "42423306",
+    "doi": "10.1093/nar/gkag687",
+    "title": "SEM mapping of sequence-specific protein-DNA interactions on long DNA molecules."
+  },
+  "content": {
+    "abstract": "Direct visualization of protein-binding positions along individual DNA molecules provides direct readouts of binding location, occupancy, and heterogeneity beyond the reach of ensemble assays. However, existing single-molecule imaging methods face a persistent trade-off between spatial resolution, field of view, and throughput. Here, we establish an scanning electron microscopy (SEM)-based approach that combines contrast enhancement with sequence-defined labeling to image extended DNA molecules and resolve protein-bound regions along their contour. We validate this capability across distinct binding regimes, including sequence-defined streptavidin-fluorescent protein labels on biotinylated lambda DNA, mapping of densely bound dCas9 regions on plasmid DNA, and machine-learning-assisted detection of localized dCas9 binding on human genomic DNA (F1 = 0.97). SEM achieves mean positional offsets of 410 +/- 325 bp for nick-translated labels and 116 +/- 63 bp for dCas9-bound regions, ~3-fold improved over fluorescence imaging, while supporting large-area surveys of extended DNA molecules across multi-scale magnifications-a capability not accessible by transmission electron microscopy or atomic force microscopy. These results establish SEM as a scalable platform for simultaneous structural visualization and quantitative mapping of sequence-specific DNA-protein interactions along individual DNA molecules.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry/ultrastructure/genetics",
+      "Humans",
+      "Protein Binding",
+      "*Microscopy, Electron, Scanning/methods",
+      "*DNA-Binding Proteins/metabolism",
+      "*Single Molecule Imaging/methods",
+      "CRISPR-Associated Protein 9/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Noh, Chanyoung",
+        "Lee, Sangwon",
+        "Kang, Yoonjung",
+        "Kim, Taesoo",
+        "Yun, Taebin",
+        "Kim, Yoojin",
+        "Park, Gyuri",
+        "Sundharbaabu, Priyannth R",
+        "Shim, Sang-Hee",
+        "Lim, Kwang-Il",
+        "Lee, Jung Heon",
+        "Jo, Kyubong"
+      ],
+      "short_names": [
+        "Noh C",
+        "Lee S",
+        "Kang Y",
+        "Kim T",
+        "Yun T",
+        "Kim Y",
+        "Park G",
+        "Sundharbaabu PR",
+        "Shim SH",
+        "Lim KI",
+        "Lee JH",
+        "Jo K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5551-8195"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "School of Advanced Materials Science and Engineering, Sungkyunkwan University (SKKU), Suwon 16419, Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Korea.",
+        "Department of Chemical and Biological Engineering, Sookmyung Women's University, Seoul 04312, Korea.",
+        "School of Advanced Materials Science and Engineering, Sungkyunkwan University (SKKU), Suwon 16419, Korea.",
+        "Department of MetaBioHealth, Sungkyunkwan University, Suwon 16419, Korea.",
+        "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+        "Center for Nano Materials, Sogang University, Seoul 04107, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Noh, Chanyoung",
+        "short_name": "Noh C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sangwon",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Yoonjung",
+        "short_name": "Kang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Taesoo",
+        "short_name": "Kim T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Yun, Taebin",
+        "short_name": "Yun T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Yoojin",
+        "short_name": "Kim Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Gyuri",
+        "short_name": "Park G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea."
+        ]
+      },
+      {
+        "full_name": "Sundharbaabu, Priyannth R",
+        "short_name": "Sundharbaabu PR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Advanced Materials Science and Engineering, Sungkyunkwan University (SKKU), Suwon 16419, Korea."
+        ]
+      },
+      {
+        "full_name": "Shim, Sang-Hee",
+        "short_name": "Shim SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Korea."
+        ]
+      },
+      {
+        "full_name": "Lim, Kwang-Il",
+        "short_name": "Lim KI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Sookmyung Women's University, Seoul 04312, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jung Heon",
+        "short_name": "Lee JH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Advanced Materials Science and Engineering, Sungkyunkwan University (SKKU), Suwon 16419, Korea.",
+          "Department of MetaBioHealth, Sungkyunkwan University, Suwon 16419, Korea."
+        ]
+      },
+      {
+        "full_name": "Jo, Kyubong",
+        "short_name": "Jo K",
+        "identifiers": [
+          "0000-0002-5551-8195"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Sogang University, Seoul 04107, Korea.",
+          "Center for Nano Materials, Sogang University, Seoul 04107, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/09 12:33",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41454874",
+      "40593613",
+      "40575544",
+      "40195921",
+      "38128155",
+      "37392578",
+      "37291154",
+      "36377840",
+      "36014487",
+      "34944167",
+      "34500456",
+      "34016774",
+      "33739394",
+      "33594049",
+      "33548405",
+      "32386402",
+      "30346700",
+      "29127285",
+      "28762410",
+      "26475643",
+      "25994517",
+      "23027008",
+      "22797562",
+      "22698062",
+      "22204421",
+      "20364147",
+      "19186150",
+      "17960271",
+      "17296933",
+      "17085598",
+      "14148437",
+      "13788706",
+      "12791999",
+      "12213016",
+      "11964263",
+      "9012812",
+      "7328662",
+      "6163590",
+      "2231113",
+      "1589799",
+      "164030"
+    ],
+    "similar": [
+      "42423306",
+      "38704672",
+      "30256971",
+      "9866677",
+      "27283312",
+      "24753422",
+      "30704053",
+      "31165870",
+      "30668901",
+      "25994517",
+      "42425917",
+      "26384421",
+      "42413841",
+      "17250797",
+      "9169135",
+      "30456928",
+      "40145776",
+      "33744965",
+      "10548504",
+      "26264666",
+      "38237015",
+      "9601534",
+      "35524554",
+      "35635706",
+      "12079350",
+      "35013276",
+      "41111102",
+      "39701027",
+      "40183356",
+      "29443498",
+      "31748571",
+      "30501011",
+      "17105198",
+      "19290670",
+      "41916906",
+      "42475469",
+      "11959797",
+      "40580034",
+      "12409463",
+      "35976226",
+      "30374863",
+      "31640339",
+      "26661446",
+      "38879921",
+      "39704951",
+      "39185785",
+      "16061937",
+      "15877339",
+      "17175538",
+      "32681488",
+      "27646634",
+      "11575920",
+      "27583695",
+      "28155662",
+      "15173119",
+      "9753751",
+      "30187755",
+      "26481349",
+      "31677535",
+      "36107345",
+      "28637186",
+      "27283307",
+      "7985026",
+      "29368512",
+      "10330902",
+      "14675783",
+      "31612171",
+      "21981444",
+      "26890964",
+      "19343221",
+      "40181613",
+      "28668121",
+      "39028522",
+      "33847963",
+      "25386881",
+      "29361826",
+      "24277605",
+      "8355269",
+      "30356068",
+      "30310901",
+      "16920830",
+      "12060686",
+      "28800583",
+      "10780470",
+      "20576476",
+      "41396919",
+      "22873066",
+      "29458769",
+      "39832435",
+      "9929475",
+      "12098693",
+      "9393978",
+      "17502105",
+      "28829136",
+      "10560964",
+      "31391532",
+      "32792545",
+      "19305407",
+      "31387355",
+      "18533036"
+    ],
+    "review": [
+      "42423306",
+      "30704053",
+      "42425917",
+      "42413841",
+      "30456928",
+      "38237015",
+      "39701027",
+      "41916906",
+      "38879921",
+      "27583695",
+      "31677535",
+      "29368512",
+      "24277605",
+      "20576476"
+    ],
+    "pmc": [
+      "13347267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42423306/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag687",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

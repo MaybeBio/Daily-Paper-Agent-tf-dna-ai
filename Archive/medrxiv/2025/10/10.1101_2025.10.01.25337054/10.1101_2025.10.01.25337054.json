@@ -1,0 +1,585 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.10.01.25337054",
+  "title": "The Brain Imaging and Neurophysiology Database: BINDing multimodal neural data into a large-scale repository",
+  "doi": "10.1101/2025.10.01.25337054",
+  "abstract": "1 Abstract The Brain Imaging and Neurophysiology Database (BIND) represents one of the largest multi-institutional, multimodal, clinical neuroimaging repositories, comprising 1.8 million brain scans from 38,945 patients, linked to neurophysiological recordings. This comprehensive dataset addresses critical limitations in neuroimaging research by providing unprecedented scale and diversity across pathologies and health. BIND integrates de-identified data from Massachusetts General Hospital, Brigham and Women’s Hospital, and Stanford University, including 1,723,699 MRI scans (1.5 Tesla, 3 Tesla, and 7 Tesla), 54,137 CT scans, 5,093 PET scans, and 526 SPECT scans, converted to standardized NIfTI format following BIDS organization. The database spans the full age spectrum (newborn to 106 years) and encompasses diverse neurological conditions alongside healthy patients. We deployed Bio-Medical Large Language Models to extract structured clinical metadata from 84,960 brain-related reports, categorizing findings into standardized pathology classifications. All imaging data are linked to previously published EEG and polysomnography recordings from the Harvard Electroencephalography Database, enabling unprecedented multimodal analyses. BIND is freely accessible for academic research through the Brain Data Science Platform ( https://bdsp.io/ ). This resource facilitates large-scale neuroimaging studies, machine learning applications, and multimodal brain research to accelerate discoveries in clinical neuroscience.",
+  "authors": [
+    "Charlotte Maschke",
+    "Peter Hadar",
+    "Yicheng Zhang",
+    "Jian Li",
+    "Gauri Ganjoo",
+    "Andrew Hoopes",
+    "Alessandro Guazzo",
+    "Aditya Gupta",
+    "Manohar Ghanta",
+    "Bruce Nearing",
+    "Christine Tsien Silvers",
+    "Bharath Gunapati",
+    "Robert Thomas",
+    "Jennifer A. Kim",
+    "Shibani S. Mukerji",
+    "Adrian Dalca",
+    "Sahar Zafar",
+    "Alice D. Lam",
+    "Emmanuel Mignot",
+    "M Brandon Westover"
+  ],
+  "published_date": "2025-10-02",
+  "updated_date": "2025-10-02T21:30:14Z",
+  "journal": "medRxiv",
+  "category": "Neurology",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.10.01.25337054",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.10.01.25337054.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Neurology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neurology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "medRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T13:00:43Z",
+        "timestamp": 1768568443122,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            2
+          ]
+        ]
+      },
+      "group-title": "Neurology",
+      "reference-count": 23,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                2
+              ]
+            ],
+            "date-time": "2025-10-02T00:00:00Z",
+            "timestamp": 1759363200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.medrxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:label>1</jats:label>\n                <jats:title>Abstract</jats:title>\n                <jats:p>\n                  The Brain Imaging and Neurophysiology Database (BIND) represents one of the largest multi-institutional, multimodal, clinical neuroimaging repositories, comprising 1.8 million brain scans from 38,945 patients, linked to neurophysiological recordings. This comprehensive dataset addresses critical limitations in neuroimaging research by providing unprecedented scale and diversity across pathologies and health. BIND integrates de-identified data from Massachusetts General Hospital, Brigham and Women’s Hospital, and Stanford University, including 1,723,699 MRI scans (1.5 Tesla, 3 Tesla, and 7 Tesla), 54,137 CT scans, 5,093 PET scans, and 526 SPECT scans, converted to standardized NIfTI format following BIDS organization. The database spans the full age spectrum (newborn to 106 years) and encompasses diverse neurological conditions alongside healthy patients. We deployed Bio-Medical Large Language Models to extract structured clinical metadata from 84,960 brain-related reports, categorizing findings into standardized pathology classifications. All imaging data are linked to previously published EEG and polysomnography recordings from the Harvard Electroencephalography Database, enabling unprecedented multimodal analyses. BIND is freely accessible for academic research through the Brain Data Science Platform (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://bdsp.io/\">https://bdsp.io/</jats:ext-link>\n                  ). This resource facilitates large-scale neuroimaging studies, machine learning applications, and multimodal brain research to accelerate discoveries in clinical neuroscience.\n                </jats:p>",
+      "DOI": "10.1101/2025.10.01.25337054",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2025-10-02T21:30:14Z",
+        "timestamp": 1759440614000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "The Brain Imaging and Neurophysiology Database: BINDing multimodal neural data into a large-scale repository"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6105-8471",
+          "authenticated-orcid": false,
+          "given": "Charlotte",
+          "family": "Maschke",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1681-4717",
+          "authenticated-orcid": false,
+          "given": "Peter",
+          "family": "Hadar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yicheng",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gauri",
+          "family": "Ganjoo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Hoopes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alessandro",
+          "family": "Guazzo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aditya",
+          "family": "Gupta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Manohar",
+          "family": "Ghanta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bruce",
+          "family": "Nearing",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christine Tsien",
+          "family": "Silvers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bharath",
+          "family": "Gunapati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Robert",
+          "family": "Thomas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jennifer A.",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shibani S.",
+          "family": "Mukerji",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Adrian",
+          "family": "Dalca",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sahar",
+          "family": "Zafar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alice D.",
+          "family": "Lam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emmanuel",
+          "family": "Mignot",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "M Brandon",
+          "family": "Westover",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/life13071472"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Avberšek, L. K. & Repovš, G. Deep learning in neuroimaging data analysis: Applications, challenges, and solutions. Front. Neuroimaging 1, (2022).",
+          "DOI": "10.3389/fnimg.2022.981642"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1109/MSP.2021.3128348",
+          "article-title": "Deep Learning in Neuroimaging: Promises and challenges",
+          "volume": "39",
+          "year": "2022",
+          "journal-title": "IEEE Signal Process. Mag"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.63278/jicrcr.vi.606"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2018.10.003"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "943",
+          "DOI": "10.1007/s12021-022-09572-9",
+          "article-title": "How Machine Learning is Powering Neuroimaging to Improve Brain Health",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "Neuroinformatics"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.7",
+          "first-page": "1",
+          "article-title": "Machine learning in neuroimaging: from research to clinical practice",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Radiol"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1007/s12021-024-09712-3",
+          "article-title": "Twenty Years of Neuroinformatics: A Bibliometric Analysis",
+          "volume": "23",
+          "year": "2025",
+          "journal-title": "Neuroinformatics"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2599",
+          "DOI": "10.1007/s11517-024-03097-w",
+          "article-title": "Neuroimage analysis using artificial intelligence approaches: a systematic review",
+          "volume": "62",
+          "year": "2024",
+          "journal-title": "Med. Biol. Eng. Comput"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1139",
+          "DOI": "10.1016/j.nicl.2018.09.032",
+          "article-title": "Clinical validation of automated hippocampal segmentation in temporal lobe epilepsy",
+          "volume": "20",
+          "year": "2018",
+          "journal-title": "NeuroImage Clin"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s44174-023-00078-9"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/svn-2024-003372"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "241052",
+          "DOI": "10.1098/rsos.241052",
+          "article-title": "Machine learning for refining interpretation of magnetic resonance imaging scans in the management of multiple sclerosis: a narrative review",
+          "volume": "12",
+          "year": "2025",
+          "journal-title": "R. Soc. Open Sci"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "e213691",
+          "DOI": "10.1212/WNL.0000000000213691",
+          "article-title": "Automated Whole-Brain Focal Cortical Dysplasia Detection Using MR Fingerprinting With Deep Learning",
+          "volume": "104",
+          "year": "2025",
+          "journal-title": "Neurology"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2504.18671"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.16",
+          "unstructured": "Sun, C. et al. Harvard Electroencephalography Database: A comprehensive clinical electroencephalographic resource from four Boston hospitals. Epilepsia n/a,."
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1472-6947-8-32"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.18",
+          "first-page": "2",
+          "article-title": "Tesseract: an open-source optical character recognition engine",
+          "volume": "2007",
+          "year": "2007",
+          "journal-title": "Linux J"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.19",
+          "unstructured": "ContactDoctor/Bio-Medical-Llama-3-8B · Hugging Face. https://huggingface.co/ContactDoctor/Bio-Medical-Llama-3-8B."
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "160044",
+          "DOI": "10.1038/sdata.2016.44",
+          "article-title": "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments",
+          "volume": "3",
+          "year": "2016",
+          "journal-title": "Sci. Data"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.60508/MBY8-3A26"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.60508/K85B-FC87"
+        },
+        {
+          "key": "2025100608201013000_2025.10.01.25337054v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.60508/QJBV-HG78"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.01.25337054",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:47:30Z",
+        "timestamp": 1768510050000
+      },
+      "score": 61.633976,
+      "resource": {
+        "primary": {
+          "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.10.01.25337054"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            2
+          ]
+        ]
+      },
+      "references-count": 23,
+      "URL": "https://doi.org/10.1101/2025.10.01.25337054",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

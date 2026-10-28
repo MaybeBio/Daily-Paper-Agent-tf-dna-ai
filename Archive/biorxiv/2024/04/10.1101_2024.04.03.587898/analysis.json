@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.03.587898",
+  "title": "Variable orthogonality of RDF – large serine integrase interactions within the ϕC31 family",
+  "authors": "MacDonald AI; Baksh A; Holland A; Shin H; Rice PA; Stark WM; Olorunniji FJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-03",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究ϕC31家族大丝氨酸整合酶与RDF蛋白间的互作正交性，涉及蛋白-DNA重组反应，并用AlphaFold-Multimer预测蛋白复合物结构，但核心是蛋白-蛋白互作而非TF-DNA结合，方法上仅结构预测，缺乏AI/物理模拟的深度建模。",
+  "abstract": "Large serine integrases are phage- (or mobile element-) encoded enzymes that catalyse site-specific recombination reactions between a short DNA sequence on the phage genome ( attP ) and a corresponding host genome sequence ( attB ), thereby integrating the phage DNA into the host genome. Each integrase has its unique pair of attP and attB sites, a feature that allows them to be used as orthogonal tools for genome modification applications. In the presence of a second protein, the Recombination Directionality Factor (RDF), integrase catalyses the reverse, excisive reaction, generating new recombination sites, attR and attL . In addition to promoting attR x attL reaction, the RDF inhibits attP x attB recombination. This feature makes the directionality of integrase reactions programmable, allowing them to be useful for building synthetic biology devices. In this report, we describe the degree of orthogonality of both integrative and excisive reactions for three related integrases (ϕC31, ϕBT1, and TG1) and their RDFs. Among these, TG1 integrase is the most active, showing near complete recombination in both attP x attB and attR x attL reactions, and the most directional in the presence of its RDF. Our findings show that there is varying orthogonality among these three integrases – RDF pairs: ϕC31 integrase was the least selective, with all three RDFs activating it for attR x attL recombination. Similarly, ϕC31 RDF was the least effective among the three RDFs in promoting the excisive activities of the integrases, including its cognate ϕC31 integrase. ϕBT1 and TG1 RDFs were noticeably more effective than ϕC31 RDF at inhibiting attP x attB recombination by their respective integrases, making them more suitable for building reversible genetic switches. AlphaFold-Multimer predicts very similar structural interactions between each cognate integrase – RDF pair. The binding surface on RDF is much more conserved than the binding surface on integrase, an indication that specificity is determined more by the integrase than the RDF. Overall, the observed weak integrase/RDF orthogonality across the three enzymes emphasizes the need for identifying and characterizing more integrase – RDF pairs. Additionally, the ability of a particular integrase’s preferred reaction direction to be controlled to varying degrees by non-cognate RDFs provides a path to tunable, non-binary genetic switches.",
+  "abstract_zh": "大丝氨酸整合酶是由噬菌体（或移动元件）编码的酶，催化噬菌体基因组上的短DNA序列（attP）与相应宿主基因组序列（attB）之间的位点特异性重组反应，从而将噬菌体DNA整合到宿主基因组中。每种整合酶都有其独特的attP和attB位点对，这一特性使其能够作为正交工具用于基因组修饰应用。在第二种蛋白质——重组方向性因子（RDF）存在时，整合酶催化反向的切除反应，生成新的重组位点attR和attL。除了促进attR×attL反应外，RDF还抑制attP×attB重组。这一特性使整合酶反应的方向性可编程，从而使其可用于构建合成生物学装置。在本报告中，我们描述了三种相关整合酶（ϕC31、ϕBT1和TG1）及其RDF在整合和切除反应中的正交性程度。其中，TG1整合酶活性最高，在attP×attB和attR×attL反应中均表现出近乎完全的重组，并在其RDF存在时方向性最强。我们的发现表明，这三种整合酶–RDF对之间存在不同的正交性：ϕC31整合酶选择性最低，所有三种RDF都能激活其进行attR×attL重组。同样，ϕC31 RDF在促进整合酶（包括其同源ϕC31整合酶）切除活性方面是三种RDF中效果最差的。ϕBT1和TG1 RDF在抑制各自整合酶介导的attP×attB重组方面明显比ϕC31 RDF更有效，使其更适合构建可逆遗传开关。AlphaFold-Multimer预测每个同源整合酶–RDF对之间的结构相互作用非常相似。RDF上的结合表面比整合酶上的结合表面保守得多，这表明特异性更多由整合酶而非RDF决定。总体而言，观察到的三种酶之间整合酶/RDF正交性较弱，强调了识别和表征更多整合酶–RDF对的必要性。此外，特定整合酶的首选反应方向能被非同源RDF不同程度控制的能力，为可调谐、非二元遗传开关提供了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.03.587898",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.03.587898",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.03.587898/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38280998",
+  "title": "MIWE: detecting the critical states of complex biological systems by the mutual information weighted entropy.",
+  "authors": "Xie, Yuke; Peng, Xueqing; Li, Peiluan",
+  "journal": "BMC bioinformatics",
+  "published_date": "2024-01-28",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用互信息加权熵检测复杂生物系统临界状态，虽涉及转录因子但核心是基因表达动态分析，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Complex biological systems often undergo sudden qualitative changes during their dynamic evolution. These critical transitions are typically characterized by a catastrophic progression of the system. Identifying the critical point is critical to uncovering the underlying mechanisms of complex biological systems. However, the system may exhibit minimal changes in its state until the critical point is reached, and in the face of high throughput and strong noise data, traditional biomarkers may not be effective in distinguishing the critical state. In this study, we propose a novel approach, mutual information weighted entropy (MIWE), which uses mutual information between genes to build networks and identifies critical states by quantifying molecular dynamic differences at each stage through weighted differential entropy. The method is applied to one numerical simulation dataset and four real datasets, including bulk and single-cell expression datasets. The critical states of the system can be recognized and the robustness of MIWE method is verified by numerical simulation under the influence of different noises. Moreover, we identify two key transcription factors (TFs), CREB1 and CREB3, that regulate downstream signaling genes to coordinate cell fate commitment. The dark genes in the single-cell expression datasets are mined to reveal the potential pathway regulation mechanism.",
+  "abstract_zh": "复杂生物系统在其动态演化过程中常常经历突然的定性变化。这些临界转变通常以系统的灾难性进展为特征。识别临界点对于揭示复杂生物系统的潜在机制至关重要。然而，系统在达到临界点之前可能表现出极小的状态变化，并且面对高通量和高噪声数据，传统生物标志物可能无法有效区分临界状态。在本研究中，我们提出了一种新方法，即互信息加权熵（MIWE），该方法利用基因间的互信息构建网络，并通过加权微分熵量化每个阶段的分子动态差异来识别临界状态。该方法应用于一个数值模拟数据集和四个真实数据集，包括批量表达数据集和单细胞表达数据集。系统临界状态可以被识别，并且通过不同噪声影响下的数值模拟验证了MIWE方法的鲁棒性。此外，我们识别了两个关键转录因子（TFs），即CREB1和CREB3，它们调控下游信号基因以协调细胞命运决定。从单细胞表达数据集中挖掘暗基因，以揭示潜在的途径调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38280998/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38280998/",
+  "paper_page_path": "papers/pubmed/38280998/index.html"
+}

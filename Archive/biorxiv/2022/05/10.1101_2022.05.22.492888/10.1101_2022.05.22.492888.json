@@ -1,0 +1,239 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.22.492888",
+  "title": "Alzheimer’s disease rewires gene coexpression networks coupling different brain regions",
+  "doi": "10.1101/2022.05.22.492888",
+  "abstract": "Connectome studies have revealed how neurodegenerative diseases like Alzheimer’s disease (AD) disrupt functional and structural connectivity among brain regions, but the molecular basis of such disruptions is less studied, with most genomic studies focusing on within-brain-region molecular analyses. We performed an inter-brain-region differential correlation (DC) analysis of postmortem human brain RNA-seq data available for four brain regions – frontal pole, superior temporal gyrus, parahippocampal gyrus, and inferior frontal gyrus – from Mount Sinai Brain Bank for hundreds of AD vs. control samples. For any two brain regions, our DC analysis identifies all pairs of genes across these regions whose coexpression/correlation strength in the AD group differs significantly from that in the Control group, after adjusting for cell type compositional effects to better capture cell-intrinsic changes. Such DC gene pairs provided information complementary to known differentially expressed genes in AD, and highlighted extensive rewiring of the network of cross-region coexpression-based couplings among genes. The most vulnerable region in AD, parahippocampal gyrus, showed the most rewiring in its coupling with other brain regions. Decomposing the DC network into bipartite (region-region) gene modules revealed enrichment for synaptic signaling and ion transport pathways in several modules, revealing the dominance of five genes ( BSN, CACNA1B, GRIN1, IQSEC2 , and SYNGAP1 ). AD cerebrospinal fluid biomarkers (AD-CSF), neurotransmitters, secretory proteins, ligand and receptors were found to be part of the DC network, suggesting how pathways comprising such signaling molecules could mediate region-region communication. A module enriched for AD GWAS (Genome-wide Association Studies) signals is also enriched for NF-κβ signaling pathway, a key mediator of brain inflammation in AD. Beyond modules, we also identified individual genes that act as hubs of AD dysregulation across regions, such as ZKSCAN1 (Zinc Finger with KRAB And SCAN Domains) – this gene is known to be linked to AD in GWAS studies but via unknown mechanisms, and the specific DC interactions of ZKSCAN1 found in this study can be used to dissect these mechanisms. Thus, our inter-region DC framework provides a valuable new perspective to comprehend AD aetiology.",
+  "authors": [
+    "Mitra S",
+    "B P K",
+    "C R S",
+    "Saikumar NV",
+    "Philip P",
+    "Narayanan M"
+  ],
+  "published_date": "2022-05-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.22.492888",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.22.492888.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR497998",
+    "raw_record": {
+      "id": "PPR497998",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR497998"
+        ]
+      },
+      "doi": "10.1101/2022.05.22.492888",
+      "title": "Alzheimer’s disease rewires gene coexpression networks coupling different brain regions",
+      "authorString": "Mitra S, B P K, C R S, Saikumar NV, Philip P, Narayanan M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mitra S",
+            "lastName": "Mitra",
+            "firstName": "Sanga",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Integrative Data Science group, Dept. of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "B P K",
+            "lastName": "B P",
+            "firstName": "Kailash",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1501-4881"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Integrative Data Science group, Dept. of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "C R S",
+            "lastName": "C R",
+            "firstName": "Srivatsan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Integrative Data Science group, Dept. of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saikumar NV",
+            "lastName": "Saikumar",
+            "firstName": "Naga Venkata",
+            "initials": "NV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Integrative Data Science group, Dept. of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Philip P",
+            "lastName": "Philip",
+            "firstName": "Philge",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Integrative Biology and Systems Medicine, IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Robert Bosch Centre for Data Science and Artificial Intelligence, IIT Madras, Chennai, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Narayanan M",
+            "lastName": "Narayanan",
+            "firstName": "Manikandan",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8490-4087"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Integrative Data Science group, Dept. of Computer Science and Engineering, Indian Institute of Technology (IIT) Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Centre for Integrative Biology and Systems Medicine, IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Robert Bosch Centre for Data Science and Artificial Intelligence, IIT Madras, Chennai, India"
+                },
+                {
+                  "affiliation": "Multiscale Digital Neuroanatomy, IIT Madras, Chennai, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1501-4881"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8490-4087"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Connectome studies have revealed how neurodegenerative diseases like Alzheimer’s disease (AD) disrupt functional and structural connectivity among brain regions, but the molecular basis of such disruptions is less studied, with most genomic studies focusing on within-brain-region molecular analyses. We performed an inter-brain-region differential correlation (DC) analysis of postmortem human brain RNA-seq data available for four brain regions – frontal pole, superior temporal gyrus, parahippocampal gyrus, and inferior frontal gyrus – from Mount Sinai Brain Bank for hundreds of AD vs. control samples. For any two brain regions, our DC analysis identifies all pairs of genes across these regions whose coexpression/correlation strength in the AD group differs significantly from that in the Control group, after adjusting for cell type compositional effects to better capture cell-intrinsic changes. Such DC gene pairs provided information complementary to known differentially expressed genes in AD, and highlighted extensive rewiring of the network of cross-region coexpression-based couplings among genes. The most vulnerable region in AD, parahippocampal gyrus, showed the most rewiring in its coupling with other brain regions. Decomposing the DC network into bipartite (region-region) gene modules revealed enrichment for synaptic signaling and ion transport pathways in several modules, revealing the dominance of five genes (  BSN, CACNA1B, GRIN1, IQSEC2 , and  SYNGAP1 ). AD cerebrospinal fluid biomarkers (AD-CSF), neurotransmitters, secretory proteins, ligand and receptors were found to be part of the DC network, suggesting how pathways comprising such signaling molecules could mediate region-region communication. A module enriched for AD GWAS (Genome-wide Association Studies) signals is also enriched for NF-κβ signaling pathway, a key mediator of brain inflammation in AD. Beyond modules, we also identified individual genes that act as hubs of AD dysregulation across regions, such as  ZKSCAN1 (Zinc Finger with KRAB And SCAN Domains) – this gene is known to be linked to AD in GWAS studies but via unknown mechanisms, and the specific DC interactions of  ZKSCAN1 found in this study can be used to dissect these mechanisms. Thus, our inter-region DC framework provides a valuable new perspective to comprehend AD aetiology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/24/2022.05.22.492888.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.22.492888"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR497998"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR497998&type=FILE&fileName=EMS145426-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38724582",
+            "reference": "NPJ systems biology and applications. 2024 May;10(1):50",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS145426",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-27",
+      "firstPublicationDate": "2022-05-24",
+      "firstIndexDate": "2022-05-27",
+      "fullTextReceivedDate": "2022-06-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

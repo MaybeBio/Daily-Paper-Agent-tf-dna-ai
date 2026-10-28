@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supporting information descriptions)
+- **Assessment boundary** Scientific validity, methodological rigor, reproducibility, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose G4-Attention, a deep learning architecture combining CNN, Bi-LSTM, and attention layers, for predicting DNA G-quadruplex (G4) formation propensity and mismatch scores. They claim state-of-the-art (SOTA) performance across balanced, regression, class-imbalanced, and cell-type-specific datasets, as well as cross-species generalization and interpretability insights.
+- **Visible evidence base** Abstract, introduction, methods (datasets, architecture, parameter settings), results (performance comparisons, ablation study), and discussion sections as provided
+- **Missing materials affecting confidence** Full figures and tables (referenced but not included), supplementary information (S1/S2 Tables, S1/S2 Figs), detailed hyperparameter configurations, exact dataset preprocessing steps, statistical significance tests, and code availability
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in genomics, namely accurate prediction of G4-forming sequences, which has implications for understanding gene regulation and disease. The proposed architecture is a reasonable extension of existing deep learning approaches, and the reported performance improvements are potentially interesting. However, the manuscript has several significant weaknesses that undermine the strength of the claims. The evaluation methodology lacks statistical rigor, the comparison with baselines is incomplete in several places, and the interpretability analysis is superficial. The cross-species generalization claims are based on limited evidence, and the handling of class imbalance, while acknowledged, is not thoroughly analyzed. The writing is often unclear, with several instances of imprecise language and potential errors in the text (e.g., inconsistent dataset naming, unclear descriptions of methods). The novelty of the architecture is incremental, as it combines well-established components (CNN, Bi-LSTM, attention) without a clear conceptual advance. The practical utility of the model is not convincingly demonstrated beyond marginal improvements over existing tools.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on DNA/RNA secondary structure prediction, particularly those interested in G4 biology and its role in gene regulation, cancer, and other diseases. Researchers developing deep learning methods for genomic sequence analysis would also find the architecture and its performance comparisons relevant. The cross-species generalization aspect may interest researchers studying G4s in non-human organisms.
+- **Major strengths**
+  1. The problem is important and timely, with clear biological relevance.
+  2. The authors evaluate their model on multiple tasks (classification, regression, cell-type-specific, cross-species), which is commendable.
+  3. The inclusion of an ablation study provides some insight into the contribution of different components.
+  4. The interpretability analysis, while limited, is a step in the right direction for understanding model decisions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reproducibility
+  - **Claim pointer** The authors claim SOTA performance across multiple tasks, but no statistical significance tests (e.g., confidence intervals, p-values, or repeated runs with different seeds) are reported.
+  - **Evidence pointer** Results sections on G4 propensity prediction, mismatch score prediction, and cell-line experiments; location not provided
+  - **Concern** The performance improvements over baselines are reported as single point estimates. Without measures of variance or statistical testing, it is impossible to determine whether the observed differences are meaningful or within the range of random variation. This is particularly critical given the small improvements reported in some cases (e.g., 0.55% over DeepG4 with chromatin accessibility).
+  - **Why it matters** The central claim of the paper is that G4-Attention achieves SOTA results. Without statistical validation, this claim is not substantiated. The lack of reproducibility details (e.g., number of runs, random seeds, hyperparameter tuning procedures) further weakens confidence in the results.
+  - **Resolution test** Provide confidence intervals or perform statistical tests (e.g., paired bootstrap or Wilcoxon signed-rank test) for all reported performance comparisons. Report results from multiple independent runs with different random seeds. Detail the hyperparameter search procedure and final configurations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity and completeness
+  - **Claim pointer** The architecture is described as "novel" and the first to incorporate Bi-LSTM and attention layers on top of CNN for G4 prediction, but the description of the model and training procedure is incomplete.
+  - **Evidence pointer** Section "G4-Attention Neural Network Architecture" and "Parameter Settings"; location not provided
+  - **Concern** The manuscript lacks crucial details about the model architecture: the number of layers, filter sizes, number of attention heads, dropout rates, activation functions, and the exact formulation of the attention mechanism are not specified. The training procedure (e.g., learning rate schedule, early stopping criteria, regularization techniques) is also not described. The text mentions "two fully connected neural networks" but does not specify their dimensions. This level of detail is insufficient for replication.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research, especially in computational fields. Without a complete description of the model and training procedure, other researchers cannot replicate or build upon this work. The claim of novelty also requires a clear specification of what exactly is new compared to existing models.
+  - **Resolution test** Provide a complete specification of the architecture (including a diagram or table with layer dimensions), training hyperparameters, and optimization details. Make the code publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation methodology and baseline comparisons
+  - **Claim pointer** The authors claim improvements over several baselines, but the evaluation protocol is inconsistent and some comparisons appear unfair or incomplete.
+  - **Evidence pointer** Sections "Performance of G4-Attention on G4 Propensity Prediction", "G4-Attention prediction performance on mismatch score prediction", "Comparison of G4 Propensity Prediction Performance", "Performance of G4-Attention in Non-Human Species on G4 propensity prediction", "G4-Attention Prediction Performance Evaluation on Inter-species", "Model Comparison in Imbalanced Scenario"; location not provided
+  - **Concern** (a) For the cell-line experiments, the authors compare against "DeepG4*" but do not clarify what the asterisk denotes or whether the baseline was retrained under identical conditions. (b) In the cross-species experiments, the authors only compare against G4Detector, not against other deep learning baselines. (c) The threshold choices for converting regression outputs to binary predictions (e.g., for G4mismatch comparison) are not justified. (d) The authors state that G4Detector performs worst on the PQ negative set, but the reasons for this are not explored, and the comparison may be confounded by different training data or preprocessing.
+  - **Why it matters** Fair and consistent evaluation is essential for validating claims of improvement. If baselines are not evaluated under identical conditions, the reported improvements may be artifacts of the evaluation setup rather than genuine model superiority.
+  - **Resolution test** Clearly describe the evaluation protocol for each baseline, including any retraining or fine-tuning. Justify all threshold choices. Include comparisons against all relevant baselines for each task. Discuss potential confounding factors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability analysis depth
+  - **Claim pointer** The authors claim that interpretability analysis provides "insights" into G4 formation mechanisms, but the analysis is superficial and does not go beyond what is already known.
+  - **Evidence pointer** Section "Interpretation of G4-Attention for Learning Key Sequence Features in G4 Propensity Prediction" and "G4-folding principals learned by G4-Attention"; location not provided
+  - **Concern** The interpretability analysis using integrated gradients and mutation maps confirms that G4-Attention focuses on G-rich regions, which is expected and already well-established. The claim that the model learns "key sequence features" is not supported by any novel biological insight. The analysis of loop length effects and mismatch positions largely recapitulates known G4 biology. The authors do not compare their interpretability findings with those from other models, nor do they validate the identified features experimentally or against independent datasets.
+  - **Why it matters** Interpretability is a stated contribution of the paper. If the analysis does not provide new biological insights or methodological advances, its value is limited. The claim of gaining "further insights" into G4 formation mechanisms is overstated.
+  - **Resolution test** Provide a more rigorous interpretability analysis, such as comparing identified features with known G4 motifs, validating predictions against independent experimental data, or demonstrating that the attention weights correlate with biologically meaningful features beyond simple G-content.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cross-species generalization claims
+  - **Claim pointer** The authors claim that a model trained on human data can be applied to non-human genomes, but the evidence is limited and the analysis is incomplete.
+  - **Evidence pointer** Section "Performance of G4-Attention in Non-Human Species on G4 propensity prediction" and "G4-Attention Prediction Performance Evaluation on Inter-species"; location not provided
+  - **Concern** The cross-species evaluation is limited to 11 species, but the authors do not discuss the phylogenetic diversity of these species or the potential confounding effects of genome composition (e.g., GC content, repeat content). The performance varies widely across species (e.g., AUC of 0.497 for one species on the random negative set), which is not adequately explained. The authors do not compare their cross-species performance with that of other models, nor do they investigate whether the model's failures correlate with specific genomic features.
+  - **Why it matters** The claim of cross-species applicability is a key selling point of the model. If the model fails on certain species without explanation, its practical utility is limited. A more thorough analysis would strengthen the claim or reveal important limitations.
+  - **Resolution test** Provide a more detailed analysis of cross-species performance, including correlation with genomic features, comparison with other models, and discussion of failure cases. Consider testing on a more phylogenetically diverse set of species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction; location not provided
+  - **Issue** The abstract is dense and uses jargon without clear definitions. The introduction could better motivate the need for a new deep learning model, given the existing tools.
+  - **Required correction** Simplify the abstract for a broader audience. Expand the introduction to clearly state the limitations of existing methods and the specific gap that G4-Attention fills.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Datasets section
+  - **Evidence pointer** Section "Datasets"; location not provided
+  - **Issue** The description of the datasets is incomplete. The authors mention "balanced datasets, regression datasets, class imbalanced datasets" but do not provide details on the number of samples, sequence lengths, or how the datasets were split into training and test sets.
+  - **Required correction** Provide a table summarizing the datasets, including the number of samples, sequence lengths, class distributions, and train/test splits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Notation and equations
+  - **Affected element** Architecture section
+  - **Evidence pointer** Section "G4-Attention Neural Network Architecture"; location not provided
+  - **Issue** The equations are not fully defined. For example, the variables in Eq. 1 (LSTM) and Eq. 2 (attention) are not clearly explained. The notation for the output of the CNN layer is incomplete.
+  - **Required correction** Define all variables and symbols in each equation. Ensure the notation is consistent throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-12
+  - **Evidence pointer** Figures referenced throughout; location not provided
+  - **Issue** The figures are not included in the provided text, so their quality cannot be assessed. However, based on the text descriptions, some figures may be difficult to interpret without proper labels and legends.
+  - **Required correction** Ensure all figures have clear labels, legends, and are self-contained. Consider using color-blind-friendly palettes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Ablation study scope
+  - **Affected element** Ablation Study section
+  - **Evidence pointer** Section "Ablation Study"; location not provided
+  - **Concern** The ablation study only evaluates the contribution of Bi-LSTM and attention on the class-imbalanced dataset. It would be informative to also perform ablations on the balanced and regression datasets to understand whether the improvements are consistent across tasks.
+  - **Required correction** Consider extending the ablation study to other datasets or at least discuss why the current scope is sufficient.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Comparison with non-deep learning methods
+  - **Affected element** Results sections
+  - **Evidence pointer** Sections on G4 propensity prediction and mismatch score prediction; location not provided
+  - **Issue** The authors compare against several deep learning and machine learning methods, but do not include classical tools like Quadparser or QGRS Mapper, which are widely used in the field.
+  - **Required correction** Include comparisons with classical tools to provide a more complete picture of the model's performance relative to the state of the art.
+
+## Risk / unsupported claims
+- The claim of being "the first to incorporate Bi-LSTM and attention layers on top of CNN" for G4 prediction is not verifiable from the provided text, as the authors do not provide a comprehensive literature review to support this claim.
+- The claim that the model "achieves state-of-the-art results" is not supported by statistical evidence, as no confidence intervals or significance tests are reported.
+- The claim that the model can be applied to "any non-human genomic DNA sequences" is overstated, as the evaluation is limited to 11 species and performance varies widely.
+- The interpretability analysis claims to provide "insights" into G4 formation mechanisms, but the findings largely recapitulate known biology and are not validated against independent data.
+- The manuscript mentions "benchmark performance" for cross-species tasks, but the specific benchmarks and their definitions are not clearly described.
+- The handling of class imbalance is mentioned, but the effectiveness of the weighted loss function is not compared against other approaches (e.g., oversampling, undersampling, or focal loss).

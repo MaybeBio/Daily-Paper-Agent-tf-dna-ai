@@ -1,0 +1,657 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2024-jv0rx",
+  "title": "Active Learning Guided Hit Optimization for the Leucine-Rich Repeat Kinase 2 WDR Domain Based on In Silico Ligand Binding Affinities",
+  "doi": "10.26434/chemrxiv-2024-jv0rx",
+  "abstract": "The leucine-rich repeat kinase 2 (LRRK2) is the most mutated gene in familial Parkinson’s disease, whose mutations lead to pathogenic hallmarks of the disease. The LRRK2 WDR domain is an understudied drug target for Parkinson’s disease with no known inhibitors prior to the first phase of the Critical Assessment of Computational Hit-Finding Experiments (CACHE) Challenge. CACHE challenges are designed to attract state-of-the-art computational methods for both hit-finding and lead optimization of small molecule inhibitors to challenging protein targets. A unique advantage of the CACHE challenge is that the predicted molecules are experimentally validated in-house. Here we report on our winning submission of experimentally confirmed LRRK2 WDR inhibitor molecules, predicted from thermodynamics integration (TI) calculations performed on only 672 compounds within a chemical space of 25,171 molecules. We used a free energy molecular dynamics (MD) -based active learning (AL) workflow to optimize our two previously confirmed hit molecules. We identified 8 experimentally verified novel inhibitors out of 35 tested (23% hit rate) with a maximum affinity increase of almost 35-fold. These results demonstrate the efficacy of free energy-based active learning workflow to quickly and efficiently explore large chemical spaces while minimizing the number and length of computational simulations. This workflow is widely applicable to the screening of any chemical space for small molecule analogs with increased affinity, subject to the general constraints of RBFE calculations. The mean absolute error of TI MD calculations was 1.30 kcal/mol with respect to measured KD of hit compounds.",
+  "authors": [
+    "Filipp Gusev",
+    "Evgeny Gutkin",
+    "Francesco Gentile",
+    "Fuqiang Ban",
+    "S. Benjamin Koby",
+    "Fengling Li",
+    "Irene Chau",
+    "Suzanne Ackloo",
+    "Cheryl H. Arrowsmith",
+    "Albina Bolotokova",
+    "Pegah Ghiabi",
+    "Elisa Gibson",
+    "Levon Halabelian",
+    "Scott Houliston",
+    "Rachel J. Harding",
+    "Ashley Hutchinson",
+    "Peter Loppnau",
+    "Sumera Perveen",
+    "Almagul Seitova",
+    "Hong Zeng",
+    "Matthieu Schapira",
+    "Olexandr Isayev",
+    "Artem Cherkasov",
+    "Maria G. Kurnikova"
+  ],
+  "published_date": "2024-10-03",
+  "updated_date": "2024-10-04T02:07:51Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2024-jv0rx",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-jv0rx",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T09:13:05Z",
+        "timestamp": 1785402785137,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                3
+              ]
+            ],
+            "date-time": "2024-10-03T00:00:00Z",
+            "timestamp": 1727913600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>The leucine-rich repeat kinase 2 (LRRK2) is the most mutated gene in familial Parkinson’s disease, whose mutations lead to pathogenic hallmarks of the disease. The LRRK2 WDR domain is an understudied drug target for Parkinson’s disease with no known inhibitors prior to the first phase of the Critical Assessment of Computational Hit-Finding Experiments (CACHE) Challenge. CACHE challenges are designed to attract state-of-the-art computational methods for both hit-finding and lead optimization of small molecule inhibitors to challenging protein targets. A unique advantage of the CACHE challenge is that the predicted molecules are experimentally validated in-house. Here we report on our winning submission of experimentally confirmed LRRK2 WDR inhibitor molecules, predicted from thermodynamics integration (TI) calculations performed on only 672 compounds within a chemical space of 25,171 molecules. We used a free energy molecular dynamics (MD) -based active learning (AL) workflow to optimize our two previously confirmed hit molecules. We identified 8 experimentally verified novel inhibitors out of 35 tested (23% hit rate) with a maximum affinity increase of almost 35-fold. These results demonstrate the efficacy of free energy-based active learning workflow to quickly and efficiently explore large chemical spaces while minimizing the number and length of computational simulations. This workflow is widely applicable to the screening of any chemical space for small molecule analogs with increased affinity, subject to the general constraints of RBFE calculations. The mean absolute error of TI MD calculations was 1.30 kcal/mol with respect to measured KD of hit compounds.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2024-jv0rx",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            4
+          ]
+        ],
+        "date-time": "2024-10-04T02:07:51Z",
+        "timestamp": 1728007671000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Active Learning Guided Hit Optimization for the Leucine-Rich Repeat Kinase 2 WDR Domain Based on In Silico Ligand Binding Affinities"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Filipp",
+          "family": "Gusev",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evgeny",
+          "family": "Gutkin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francesco",
+          "family": "Gentile",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04jscf286",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Ottawa University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fuqiang",
+          "family": "Ban",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03rmrcq20",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of British Columbia",
+              "place": [
+                "Canada"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S. Benjamin",
+          "family": "Koby",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fengling",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2313-973X",
+          "authenticated-orcid": false,
+          "given": "Irene",
+          "family": "Chau",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Suzanne",
+          "family": "Ackloo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cheryl H.",
+          "family": "Arrowsmith",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Albina",
+          "family": "Bolotokova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pegah",
+          "family": "Ghiabi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7112-337X",
+          "authenticated-orcid": false,
+          "given": "Elisa",
+          "family": "Gibson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Levon",
+          "family": "Halabelian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Houliston",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/042xt5161",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University Health Network",
+              "place": [
+                "Canada"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rachel J.",
+          "family": "Harding",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ashley",
+          "family": "Hutchinson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter",
+          "family": "Loppnau",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sumera",
+          "family": "Perveen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Almagul",
+          "family": "Seitova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hong",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthieu",
+          "family": "Schapira",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Toronto"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7581-8497",
+          "authenticated-orcid": false,
+          "given": "Olexandr",
+          "family": "Isayev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Artem",
+          "family": "Cherkasov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03rmrcq20",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of British Columbia",
+              "place": [
+                "Canada"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8010-8374",
+          "authenticated-orcid": false,
+          "given": "Maria G.",
+          "family": "Kurnikova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-jv0rx",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T08:26:50Z",
+        "timestamp": 1778747210000
+      },
+      "score": 50.03251,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-jv0rx"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2024-jv0rx",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.5c00588",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

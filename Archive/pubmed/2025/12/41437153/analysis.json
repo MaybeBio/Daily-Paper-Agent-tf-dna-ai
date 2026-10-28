@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41437153",
+  "title": "Designing synthetic regulatory elements using the generative AI framework DNA-Diffusion.",
+  "authors": "DaSilva, Lucas Ferreira; Senan, Simon; Kribelbauer-Swietek, Judith F; Patel, Zain Munir; Louis, Lithin Karmel; Reddy, Aniketh Janardhan; Gabbita, Sameer; Rosen, Jonathan D; Nussbaum, Zach; Cordova, Cesar Miguel Valdez; Wenteler, Aaron; Weber, Noah; Tunjic, Tin M; Mansoldo, Martino; Khan, Talha Ahmad; Hwang, Gue-Ho; Gardeux, Vincent; Humphreys, David T; Smith, Cameron; Bejan, Matei; Bromley, Peter; Connell, Will; Deplancke, Bart; Love, Michael I; Wong, Emily S; Meuleman, Wouter; Pinello, Luca",
+  "journal": "Nature genetics",
+  "published_date": "2025-12-24",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用生成式AI框架DNA-Diffusion设计合成调控元件，虽非直接建模TF-DNA互作，但通过DNA可及性数据复现内源转录因子结合语法并验证细胞类型特异性，方法可迁移至TF-DNA结合位点设计，属广义蛋白-DNA互作且AI方法高度相关。",
+  "abstract": "Systematically designing regulatory elements for precise gene expression control remains a central challenge in genomics and synthetic biology. Here we introduce DNA-Diffusion, a generative artificial intelligence framework that uses machine learning trained on DNA accessibility data from diverse cell lines to design compact regulatory elements with cell-type-specific activity. We show that DNA-Diffusion generates 200-base-pair synthetic elements that recapitulate endogenous transcription factor binding grammar while exhibiting enhanced cell-type specificity. We validated these elements using a 5,850-element STARR-seq library across three cell lines. Moreover, we demonstrated successful endogenous gene modulation using EXTRA-seq, reactivating AXIN2, a leukemia-protective gene, in its native genomic context. Our approach outperforms existing computational methods in balancing functional activity with cell-type specificity while maintaining sequence diversity. This work establishes DNA-Diffusion as a powerful tool for engineering compact, highly specific regulatory elements crucial for advancing gene therapies and understanding gene regulation.",
+  "abstract_zh": "系统性地设计调控元件以实现精确的基因表达控制，仍是基因组学和合成生物学中的核心挑战。在此，我们介绍了DNA-Diffusion，一种生成式人工智能框架，利用从多种细胞系获得的DNA可及性数据进行机器学习训练，以设计具有细胞类型特异性活性的紧凑调控元件。我们证明，DNA-Diffusion能够生成200碱基对的合成元件，这些元件重现了内源性转录因子结合语法，同时表现出增强的细胞类型特异性。我们使用一个包含5,850个元件的STARR-seq文库，在三种细胞系中验证了这些元件。此外，我们通过EXTRA-seq展示了成功的内源基因调控，在天然基因组背景下重新激活了AXIN2（一种白血病保护基因）。我们的方法在平衡功能活性与细胞类型特异性方面优于现有计算方法，同时保持了序列多样性。这项工作确立了DNA-Diffusion作为工程化紧凑、高特异性调控元件的强大工具，对推进基因治疗和理解基因调控至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41437153/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41437153/",
+  "paper_page_path": "papers/pubmed/41437153/index.html"
+}

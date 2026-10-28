@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "35757968",
+    "doi": "10.1002/jcb.30300",
+    "title": "A supervised machine learning approach identifies gene-regulating factor-mediated competing endogenous RNA networks in hormone-dependent cancers."
+  },
+  "content": {
+    "abstract": "Competing endogenous RNAs (ceRNAs) have become an emerging topic in cancer research due to their role in gene regulatory networks. To date, traditional ceRNA bioinformatic studies have investigated microRNAs as the only factor regulating gene expression. Growing evidence suggests that genomic (e.g., copy number alteration [CNA]), transcriptomic (e.g., transcription factors [TFs]), and epigenomic (e.g., DNA methylation [DM]) factors can influence ceRNA regulatory networks. Herein, we used the Least absolute shrinkage and selection operator regression, a machine learning approach, to integrate DM, CNA, and TFs data with RNA expression to infer ceRNA networks in cancer risk. The gene-regulating factors-mediated ceRNA networks were identified in four hormone-dependent (HD) cancer types: prostate, breast, colorectal, and endometrial. The shared ceRNAs across HD cancer types were further investigated using survival analysis, functional enrichment analysis, and protein-protein interaction network analysis. We found two (BUB1 and EXO1) and one (RRM2) survival-significant ceRNA(s) shared across breast-colorectal-endometrial and prostate-colorectal-endometrial combinations, respectively. Both BUB1 and BUB1B genes were identified as shared ceRNAs across more than two HD cancers of interest. These genes play a critical role in cell division, spindle-assembly checkpoint signalling, and correct chromosome alignment. Furthermore, shared ceRNAs across multiple HD cancers have been involved in essential cancer pathways such as cell cycle, p53 signalling, and chromosome segregation. Identifying ceRNAs' roles across multiple related cancers will improve our understanding of their shared disease biology. Moreover, it contributes to the knowledge of RNA-mediated cancer pathogenesis.",
+    "keywords": [
+      "DNA methylation",
+      "LASSO regression",
+      "competing endogenous RNA",
+      "copy number alteration",
+      "machine learning",
+      "sparse correlation",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/genetics",
+      "Female",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Hormones",
+      "Humans",
+      "Male",
+      "*MicroRNAs/genetics/metabolism",
+      "*RNA, Long Noncoding/genetics",
+      "Supervised Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jayarathna, Dulari K",
+        "Renteria, Miguel E",
+        "Batra, Jyotsna",
+        "Gandhi, Neha S"
+      ],
+      "short_names": [
+        "Jayarathna DK",
+        "Renteria ME",
+        "Batra J",
+        "Gandhi NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2465-9734",
+        "ORCID: 0000-0003-4626-7248",
+        "ORCID: 0000-0003-4646-6247",
+        "ORCID: 0000-0003-3119-6731"
+      ],
+      "affiliations": [
+        "Centre for Genomics and Personalized Health, School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "Department of Genetics and Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD, Australia.",
+        "Department of Genetics and Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD, Australia.",
+        "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "Centre for Genomics and Personalized Health, School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "Australian Prostate Cancer Research Centre-Queensland, Woolloongabba, QLD, Australia.",
+        "Centre for Genomics and Personalized Health, School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "Cancer and Ageing Research Program, Translational Research Institute, Woolloongabba, QLD, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jayarathna, Dulari K",
+        "short_name": "Jayarathna DK",
+        "identifiers": [
+          "0000-0003-2465-9734"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalized Health, School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD, Australia.",
+          "Department of Genetics and Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Rentería, Miguel E",
+        "short_name": "Rentería ME",
+        "identifiers": [
+          "0000-0003-4626-7248"
+        ],
+        "affiliations": [
+          "Department of Genetics and Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD, Australia.",
+          "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Batra, Jyotsna",
+        "short_name": "Batra J",
+        "identifiers": [
+          "0000-0003-4646-6247"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalized Health, School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD, Australia.",
+          "School of Biomedical Sciences, Faculty of Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+          "Australian Prostate Cancer Research Centre-Queensland, Woolloongabba, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Neha S",
+        "short_name": "Gandhi NS",
+        "identifiers": [
+          "0000-0003-3119-6731"
+        ],
+        "affiliations": [
+          "Centre for Genomics and Personalized Health, School of Chemistry and Physics, Queensland University of Technology, Brisbane, QLD, Australia.",
+          "Cancer and Ageing Research Program, Translational Research Institute, Woolloongabba, QLD, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular biochemistry"
+    ],
+    "journal_abbrev": [
+      "J Cell Biochem"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/28 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "36765262"
+    ],
+    "refs": [
+      "34681112",
+      "34123854",
+      "33135357",
+      "32634176",
+      "32457800",
+      "32305967",
+      "31650984",
+      "31510670",
+      "31428575",
+      "31340985",
+      "31338870",
+      "31324785",
+      "31059025",
+      "30996073",
+      "30476243",
+      "30371878",
+      "30286759",
+      "30011266",
+      "29556274",
+      "29263891",
+      "29136207",
+      "27540032",
+      "27387683",
+      "27348973",
+      "26645049",
+      "25751625",
+      "25611342",
+      "25605792",
+      "24423925",
+      "24297251",
+      "24272430",
+      "24045890",
+      "23466567",
+      "23113760",
+      "22718787",
+      "22455463",
+      "21802130",
+      "20888775",
+      "19910308",
+      "12414823",
+      "8508396"
+    ],
+    "similar": [
+      "35757968",
+      "35748050",
+      "34681112",
+      "28052038",
+      "36765262",
+      "27528026",
+      "30714675",
+      "27580177",
+      "28187158",
+      "25917195",
+      "30261893",
+      "34898376",
+      "37724808",
+      "36223608",
+      "30011266",
+      "33628581",
+      "33507382",
+      "39603659",
+      "39604866",
+      "31338870",
+      "30932362",
+      "34968168",
+      "30581274",
+      "30993766",
+      "37993951",
+      "26556995",
+      "25604144",
+      "38627780",
+      "40472506",
+      "31923354",
+      "29565967",
+      "32802839",
+      "29328410",
+      "33983999",
+      "29388017",
+      "33737696",
+      "30180792",
+      "32681912",
+      "33334276",
+      "36352214",
+      "31391008",
+      "30562748",
+      "29516510",
+      "32256018",
+      "36127676",
+      "36185995",
+      "32741804",
+      "41107348",
+      "33650665",
+      "30191491",
+      "27487139",
+      "31842887",
+      "37189386",
+      "41369806",
+      "27896996",
+      "40003874",
+      "26863568",
+      "30957192",
+      "31144439",
+      "33750326",
+      "25809705",
+      "36701720",
+      "26358722",
+      "34251632",
+      "30715152",
+      "34956196",
+      "34165714",
+      "34081622",
+      "34419106",
+      "38361095",
+      "32848331",
+      "28177879",
+      "31898160",
+      "30092571",
+      "38473871",
+      "29273554",
+      "39690389",
+      "39227669",
+      "35501896",
+      "29358879",
+      "30272352",
+      "31059106",
+      "34917682",
+      "32853944",
+      "33718081",
+      "29295970",
+      "29955818",
+      "37821907",
+      "30734239",
+      "33015161",
+      "29902552",
+      "33227395",
+      "35487029",
+      "30569156",
+      "32277520",
+      "39594666",
+      "38818922",
+      "34791795",
+      "30472375",
+      "36052492"
+    ],
+    "review": [
+      "35757968",
+      "35748050",
+      "37724808",
+      "33628581",
+      "26556995",
+      "25604144",
+      "33334276",
+      "30191491",
+      "41369806",
+      "25809705",
+      "26358722",
+      "30715152",
+      "34165714",
+      "32848331",
+      "38473871",
+      "29273554",
+      "33227395"
+    ],
+    "pmc": [
+      "9542250"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35757968/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35757968",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jcb.30300",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.01.606140",
+  "title": "The potential of AI models to identify regulatory variants underlying cattle traits",
+  "doi": "10.1101/2024.08.01.606140",
+  "abstract": "Considerable progress has been made in developing machine learning models for predicting human functional variants, but progress in livestock species has been more limited. This is despite the disproportionate potential benefits such models could have to livestock research, from improving breeding values to prioritising functional variants at trait-associated loci. A key open question is what datasets and modelling approaches are most important to close this performance gap between species. In this work we have developed a new framework for predicting regulatory variants, that includes deriving key conservation metrics in cattle for the first time, variant annotation and model training. When trained on expression quantitative trait loci (eQTL) and massively parallel reporter assay (MPRA) data for human and cattle we show that this framework has a high performance at predicting regulatory variants, with a maximum area under the receiver operating characteristic curve (AUROC) score of 0.86 in human and 0.81 in cattle. We explore various approaches to further close this performance gap, including integrating advanced DNA sequence models and generating extra chromatin data, but illustrate that the best approach would be generating improved gold-standard sets of known cattle regulatory variants. Importantly we demonstrate both the human and cattle models substantially enrich for variants linked to important traits, with up to 18-fold enrichments for functional variants observed. Consequently, with our framework developed to be applicable across species these results not only demonstrate its potential utility for fine-mapping functional variants and improving breeding values in cattle, but also its potential for wider use across animal species.",
+  "authors": [
+    "Zhao R",
+    "Owen R",
+    "Marr M",
+    "Jayaraman S",
+    "Chue Hong N",
+    "Talenti A",
+    "Hassan M",
+    "Prendergast J"
+  ],
+  "published_date": "2024-08-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606140",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606140.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR891718",
+    "raw_record": {
+      "id": "PPR891718",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR891718"
+        ]
+      },
+      "doi": "10.1101/2024.08.01.606140",
+      "title": "The potential of AI models to identify regulatory variants underlying cattle traits",
+      "authorString": "Zhao R, Owen R, Marr M, Jayaraman S, Chue Hong N, Talenti A, Hassan M, Prendergast J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhao R",
+            "lastName": "Zhao",
+            "initials": "R"
+          },
+          {
+            "fullName": "Owen R",
+            "lastName": "Owen",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6441-2213"
+            }
+          },
+          {
+            "fullName": "Marr M",
+            "lastName": "Marr",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1517-1657"
+            }
+          },
+          {
+            "fullName": "Jayaraman S",
+            "lastName": "Jayaraman",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1524-2232"
+            }
+          },
+          {
+            "fullName": "Chue Hong N",
+            "lastName": "Chue Hong",
+            "initials": "N"
+          },
+          {
+            "fullName": "Talenti A",
+            "lastName": "Talenti",
+            "initials": "A"
+          },
+          {
+            "fullName": "Hassan M",
+            "lastName": "Hassan",
+            "firstName": "MA",
+            "initials": "M"
+          },
+          {
+            "fullName": "Prendergast J",
+            "lastName": "Prendergast",
+            "firstName": "JGD",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8916-018X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6441-2213"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8916-018X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1517-1657"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1524-2232"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Considerable progress has been made in developing machine learning models for predicting human functional variants, but progress in livestock species has been more limited. This is despite the disproportionate potential benefits such models could have to livestock research, from improving breeding values to prioritising functional variants at trait-associated loci. A key open question is what datasets and modelling approaches are most important to close this performance gap between species. In this work we have developed a new framework for predicting regulatory variants, that includes deriving key conservation metrics in cattle for the first time, variant annotation and model training. When trained on expression quantitative trait loci (eQTL) and massively parallel reporter assay (MPRA) data for human and cattle we show that this framework has a high performance at predicting regulatory variants, with a maximum area under the receiver operating characteristic curve (AUROC) score of 0.86 in human and 0.81 in cattle. We explore various approaches to further close this performance gap, including integrating advanced DNA sequence models and generating extra chromatin data, but illustrate that the best approach would be generating improved gold-standard sets of known cattle regulatory variants. Importantly we demonstrate both the human and cattle models substantially enrich for variants linked to important traits, with up to 18-fold enrichments for functional variants observed. Consequently, with our framework developed to be applicable across species these results not only demonstrate its potential utility for fine-mapping functional variants and improving breeding values in cattle, but also its potential for wider use across animal species.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.01.606140"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.01.606140"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR891718"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR891718&type=FILE&fileName=EMS198032-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198032",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-08-09",
+      "firstPublicationDate": "2024-08-06",
+      "firstIndexDate": "2024-08-09",
+      "fullTextReceivedDate": "2025-09-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

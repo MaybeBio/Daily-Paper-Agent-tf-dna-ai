@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "34219140",
+    "doi": "10.1093/bib/bbab233",
+    "title": "Identifying complex motifs in massive omics data with a variable-convolutional layer in deep neural network."
+  },
+  "content": {
+    "abstract": "Motif identification is among the most common and essential computational tasks for bioinformatics and genomics. Here we proposed a novel convolutional layer for deep neural network, named variable convolutional (vConv) layer, for effective motif identification in high-throughput omics data by learning kernel length from data adaptively. Empirical evaluations on DNA-protein binding and DNase footprinting cases well demonstrated that vConv-based networks have superior performance to their convolutional counterparts regardless of model complexity. Meanwhile, vConv could be readily integrated into multi-layer neural networks as an 'in-place replacement' of canonical convolutional layer. All source codes are freely available on GitHub for academic usage.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "*Amino Acid Motifs",
+      "Benchmarking",
+      "Computational Biology/*methods",
+      "*Deep Learning",
+      "Genomics/*methods",
+      "High-Throughput Nucleotide Sequencing",
+      "Humans",
+      "*Neural Networks, Computer",
+      "*Nucleotide Motifs",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jing-Yi",
+        "Jin, Shen",
+        "Tu, Xin-Ming",
+        "Ding, Yang",
+        "Gao, Ge"
+      ],
+      "short_names": [
+        "Li JY",
+        "Jin S",
+        "Tu XM",
+        "Ding Y",
+        "Gao G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6470-8815"
+      ],
+      "affiliations": [
+        "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China.",
+        "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA.",
+        "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China.",
+        "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China.",
+        "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jing-Yi",
+        "short_name": "Li JY",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Shen",
+        "short_name": "Jin S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA 15213, USA."
+        ]
+      },
+      {
+        "full_name": "Tu, Xin-Ming",
+        "short_name": "Tu XM",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yang",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ge",
+        "short_name": "Gao G",
+        "identifiers": [
+          "0000-0001-6470-8815"
+        ],
+        "affiliations": [
+          "Biomedical Pioneering Innovation Center & Beijing Advanced Innovation Center for Genomics, Center for Bioinformatics, and State Key Laboratory of Protein and Plant Gene Research at School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2021 Nov 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/06 06:00",
+    "fetched_at": "2026-10-04 20:00:55"
+  },
+  "links": {
+    "cites": [
+      "41188700",
+      "39080344",
+      "35720921"
+    ],
+    "refs": [],
+    "similar": [
+      "34219140",
+      "29993783",
+      "31856220",
+      "38940172",
+      "35275822",
+      "30265280",
+      "39275870",
+      "31349729",
+      "32733596",
+      "39266676",
+      "28881969",
+      "30824707",
+      "29069282",
+      "39285512",
+      "33993559",
+      "30990191",
+      "30419785",
+      "29522900",
+      "34158507",
+      "34402866",
+      "31752668",
+      "33822890",
+      "37723425",
+      "32404971",
+      "33164053",
+      "34261540",
+      "33051704",
+      "37023129",
+      "32920048",
+      "30866736",
+      "33538038",
+      "33845759",
+      "37387152",
+      "35799358",
+      "36847334",
+      "38670157",
+      "38200437",
+      "33005921",
+      "33371891",
+      "32528107",
+      "30716081",
+      "35366467",
+      "33822856",
+      "32960766",
+      "31757205",
+      "34694393",
+      "33581335",
+      "38424184",
+      "39293804",
+      "33347303",
+      "28245811",
+      "23594911",
+      "37043378",
+      "33537753",
+      "34480002",
+      "29219068",
+      "32367110",
+      "29668310",
+      "27557775",
+      "34750410",
+      "31319963",
+      "36049552",
+      "36116322",
+      "30866734",
+      "27477210",
+      "34493371",
+      "33670112",
+      "33983921",
+      "29239117",
+      "30808287",
+      "32784927",
+      "30753280",
+      "30441688",
+      "30923381",
+      "34533455",
+      "29890948",
+      "35945544",
+      "30972529",
+      "30598079",
+      "31830921",
+      "31787076",
+      "32938377",
+      "31881982",
+      "31344547",
+      "35176756",
+      "32444875",
+      "33634313",
+      "37733731",
+      "27556805",
+      "38683879",
+      "34925485",
+      "31521253",
+      "34402865",
+      "29931149",
+      "19799800",
+      "34020542",
+      "33672576",
+      "30601936",
+      "34073774",
+      "30598075",
+      "31022451",
+      "27084946",
+      "38791479",
+      "32328157",
+      "33227813",
+      "32249297",
+      "35271168",
+      "30585743",
+      "38705502",
+      "33673854",
+      "32913254",
+      "34368836",
+      "31870282",
+      "33601013",
+      "31760248",
+      "34810047",
+      "37127596",
+      "39168294",
+      "36255749",
+      "34651655",
+      "35671653",
+      "38127603",
+      "31324140",
+      "38242383",
+      "35459018",
+      "38552994",
+      "29850891",
+      "35487269",
+      "38607982",
+      "36917472",
+      "39336761",
+      "31801606",
+      "38783067",
+      "38889275",
+      "34042937",
+      "39095438",
+      "34252964",
+      "36140783",
+      "34861483",
+      "38687333",
+      "36333658",
+      "35769139",
+      "37370113",
+      "31783254",
+      "30971806",
+      "35316191",
+      "38693292",
+      "39077754",
+      "31824562",
+      "36579174",
+      "35181656",
+      "37387183",
+      "36929928",
+      "35601606",
+      "38288671",
+      "37385595",
+      "34698113",
+      "35445698",
+      "36251904",
+      "35291940",
+      "38861836",
+      "37249547",
+      "38375921",
+      "35839599",
+      "33303016",
+      "29694245",
+      "37294804",
+      "26230532",
+      "39179556",
+      "32167918",
+      "35797361",
+      "38926531",
+      "37867600",
+      "36842969",
+      "38754097",
+      "38754407",
+      "36254308",
+      "37817115",
+      "30087331",
+      "38063012",
+      "39174927",
+      "39024398",
+      "33349678",
+      "38388682",
+      "35650259",
+      "38177600",
+      "33760739",
+      "38599516",
+      "37580560",
+      "38374264",
+      "35832619",
+      "35344992",
+      "33693457",
+      "38375530",
+      "35941376",
+      "38155351"
+    ],
+    "review": [
+      "34219140",
+      "30265280",
+      "39275870",
+      "29522900",
+      "33051704",
+      "38424184",
+      "39293804",
+      "23594911",
+      "37043378",
+      "34020542",
+      "34810047",
+      "35459018",
+      "38552994",
+      "38889275",
+      "34861483",
+      "35769139",
+      "30971806"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34219140.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34219140",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab233",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "identity": {
+    "pmid": "37279651",
+    "doi": "10.1093/neuonc/noad102",
+    "title": "EPIC-0307-mediated selective disruption of PRADX-EZH2 interaction and enhancement of temozolomide sensitivity to glioblastoma via inhibiting DNA repair and MGMT."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Temozolomide (TMZ) treatment efficacy in glioblastoma (GBM) has been limited by resistance. The level of O-6-methylguanine-DNA methyltransferase (MGMT) and intrinsic DNA damage repair factors are important for the TMZ response in patients. Here, we reported a novel compound, called EPIC-0307, that increased TMZ sensitivity by inhibiting specific DNA damage repair proteins and MGMT expression. METHODS: EPIC-0307 was derived by molecular docking screening. RNA immunoprecipitation (RIP), and chromatin immunoprecipitation by RNA (ChIRP) assays were used to verify the blocking effect. Chromatin immunoprecipitation (ChIP) and co-immunoprecipitation (Co-IP) assays were performed to explore the mechanism of EPIC-0307. A series of in vivo and in vitro experiments were designed to evaluate the efficacy of EPIC-0307 in sensitizing GBM cells to TMZ. RESULTS: EPIC-0307 selectively disrupted the binding of PRADX to EZH2 and upregulated the expression of P21 and PUMA, leading to cell cycle arrest and apoptosis in GBM cells. EPIC-0307 exhibited a synergistic inhibitory effect on GBM when combined with TMZ by downregulating TMZ-induced DNA damage repair responses and epigenetically silencing MGMT expression through modulating the recruitment of ATF3-pSTAT3-HDAC1 regulatory complex to the MGMT promoter. EPIC-0307 demonstrated significant efficacy in suppressing the tumorigenesis of GBM cells, restoring TMZ sensitivity. CONCLUSION: This study identified a potential small-molecule inhibitor (SMI) EPIC-0307 that selectively disrupted the PRADX-EZH2 interaction to upregulate expressions of tumor suppressor genes, thereby exerting its antitumor effects on GBM cells. EPIC-0307 treatment also increased the chemotherapeutic efficacy of TMZ by epigenetically downregulating DNA repair-associate genes and MGMT expression in GBM cells.",
+    "keywords": [
+      "DNA repair",
+      "MGMT",
+      "glioblastoma",
+      "small-molecule inhibitor",
+      "temozolomide"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Temozolomide/therapeutic use",
+      "*Glioblastoma/pathology",
+      "Antineoplastic Agents, Alkylating/therapeutic use",
+      "Molecular Docking Simulation",
+      "DNA Repair",
+      "DNA Repair Enzymes/genetics",
+      "O(6)-Methylguanine-DNA Methyltransferase/genetics/metabolism/pharmacology",
+      "DNA Modification Methylases/genetics",
+      "RNA/pharmacology/therapeutic use",
+      "Cell Line, Tumor",
+      "Drug Resistance, Neoplasm",
+      "Enhancer of Zeste Homolog 2 Protein/genetics",
+      "Tumor Suppressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xin, Lei",
+        "Tan, Yanli",
+        "Zhu, Yuanxue",
+        "Cui, Xiaoteng",
+        "Wang, Qixue",
+        "Zhao, Jixing",
+        "Tian, Shaohui",
+        "Xu, Can",
+        "Xiao, Menglin",
+        "Hong, Biao",
+        "Xu, Jianglong",
+        "Yuan, Xiaoye",
+        "Wang, Changsheng",
+        "Kang, Chunsheng",
+        "Fang, Chuan"
+      ],
+      "short_names": [
+        "Xin L",
+        "Tan Y",
+        "Zhu Y",
+        "Cui X",
+        "Wang Q",
+        "Zhao J",
+        "Tian S",
+        "Xu C",
+        "Xiao M",
+        "Hong B",
+        "Xu J",
+        "Yuan X",
+        "Wang C",
+        "Kang C",
+        "Fang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3255-3369"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Clinical Medical College, Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Pathology, Hebei University School of Basic Medical Sciences, Baoding 071000, China.",
+        "Department of Pathology, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Medical Oncology, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China.",
+        "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China.",
+        "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Clinical Medical College, Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Clinical Medical College, Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Pathology, Hebei University School of Basic Medical Sciences, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Clinical Medical College, Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China.",
+        "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+        "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xin, Lei",
+        "short_name": "Xin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Clinical Medical College, Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yanli",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Hebei University School of Basic Medical Sciences, Baoding 071000, China.",
+          "Department of Pathology, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yuanxue",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Affiliated Hospital of Hebei University, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaoteng",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qixue",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jixing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Shaohui",
+        "short_name": "Tian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Can",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Clinical Medical College, Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Menglin",
+        "short_name": "Xiao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Clinical Medical College, Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Biao",
+        "short_name": "Hong B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jianglong",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Xiaoye",
+        "short_name": "Yuan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Hebei University School of Basic Medical Sciences, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Changsheng",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Clinical Medical College, Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Chunsheng",
+        "short_name": "Kang C",
+        "identifiers": [
+          "0000-0002-3255-3369"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Key Laboratory of Post-Neuro Injury Neuro-Repair and Regeneration in Central Nervous System, Laboratory of Neuro-oncology, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Ministry of Education and Tianjin City, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Chuan",
+        "short_name": "Fang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Hebei University, Baoding 071000, China.",
+          "Hebei Key Laboratory of Precise Diagnosis and Treatment of Glioma, Baoding 071000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neuro-oncology"
+    ],
+    "journal_abbrev": [
+      "Neuro Oncol"
+    ],
+    "pub_date": "2023 Nov 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/07 01:07",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "42695496",
+      "42087207",
+      "41947894",
+      "40881678",
+      "40468460",
+      "40353925",
+      "39859408",
+      "39515086",
+      "38841098",
+      "37444408"
+    ],
+    "refs": [
+      "36272139",
+      "35085776",
+      "34590194",
+      "34171339",
+      "33754075",
+      "33140095",
+      "32753598",
+      "32001707",
+      "31938069",
+      "31717973",
+      "31367244",
+      "30764859",
+      "29458374",
+      "29260225",
+      "28775339",
+      "28250971",
+      "27658528",
+      "26040249",
+      "25823657",
+      "25428914",
+      "24203894",
+      "23945584",
+      "23811941",
+      "23463315",
+      "23001513",
+      "22532597",
+      "22122467",
+      "21406402",
+      "19239885",
+      "16405512"
+    ],
+    "similar": [
+      "37279651",
+      "36272139",
+      "38490327",
+      "33433610",
+      "37651725",
+      "36308592",
+      "37894860",
+      "32168477",
+      "32866816",
+      "34625658",
+      "23519841",
+      "38277015",
+      "22156195",
+      "23479134",
+      "26615020",
+      "30140041",
+      "34072831",
+      "35187626",
+      "35163465",
+      "31053733",
+      "19011762",
+      "39369843",
+      "23319055",
+      "38762829",
+      "32960603",
+      "31725331",
+      "30758983",
+      "37298405",
+      "33923767",
+      "38644551",
+      "35219686",
+      "23246370",
+      "18952979",
+      "31865606",
+      "36513631",
+      "20517307",
+      "33460245",
+      "24909675",
+      "16609952",
+      "28821714",
+      "38992489",
+      "32066879",
+      "37131108",
+      "39356744",
+      "31088577",
+      "22564186",
+      "30717206",
+      "39029375",
+      "26648123",
+      "33631540",
+      "32820151",
+      "22976800",
+      "30431207",
+      "32607953",
+      "24718901",
+      "26447477",
+      "32901889",
+      "32086739",
+      "25277441",
+      "22532597",
+      "37047153",
+      "30081068",
+      "27865821",
+      "22675172",
+      "22426504",
+      "29705182",
+      "24593254",
+      "27177180",
+      "37403006",
+      "31575897",
+      "28822335",
+      "30054476",
+      "28718668",
+      "38773970",
+      "39079407",
+      "35388070",
+      "31810938",
+      "24147153",
+      "36112059",
+      "35897747",
+      "22837675",
+      "26336131",
+      "27595933",
+      "35549164",
+      "39215105",
+      "37283490",
+      "38723526",
+      "20686820",
+      "22888977",
+      "30814573",
+      "38224404",
+      "30579113",
+      "38288307",
+      "37175636",
+      "25434389",
+      "31347685",
+      "35836243",
+      "25724300",
+      "35563629",
+      "37286145",
+      "23245659",
+      "38176171",
+      "37830163",
+      "20585787",
+      "32753598",
+      "26503470",
+      "32813021",
+      "37891669",
+      "37417930",
+      "39026284",
+      "39273014",
+      "39295415",
+      "39029318",
+      "19671751",
+      "39125763",
+      "21464220",
+      "38346097",
+      "25320009",
+      "36453577",
+      "38970838",
+      "39148542",
+      "39022643",
+      "39011394",
+      "39085511",
+      "39296804",
+      "38285511",
+      "31410248",
+      "39342418",
+      "36551551",
+      "38977680",
+      "37325609",
+      "36139652",
+      "34676045",
+      "37151848",
+      "39213700",
+      "38264522",
+      "33854970",
+      "38893160",
+      "39168850",
+      "39386580",
+      "39199623",
+      "39373211",
+      "35053455",
+      "30098084",
+      "39286116",
+      "39315270"
+    ],
+    "review": [
+      "37279651",
+      "39125763",
+      "38970838"
+    ],
+    "pmc": [
+      "10628965"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37279651.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37279651/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37279651",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MGMT-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/neuro-oncology/article-lookup/doi/10.1093/neuonc/noad102",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37919990",
+  "title": "GNet: An integrated context-aware neural framework for transcription factor binding signal at single nucleotide resolution prediction.",
+  "authors": "Zhuang, Jujuan; Feng, Kexin; Teng, Xinyang; Jia, Cangzhi",
+  "journal": "Mathematical biosciences and engineering : MBE",
+  "published_date": "2023-11-03",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出GNet，一种整合时空上下文的神经网络框架，用于单核苷酸分辨率的TF-DNA结合信号预测、结合区域识别和基序预测，核心聚焦TF-DNA互作且方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) are important factors that regulate gene expression. Revealing the mechanism affecting the binding specificity of TFs is the key to understanding gene regulation. Most of the previous studies focus on TF-DNA binding sites at the sequence level, and they seldom utilize the contextual features of DNA sequences. In this paper, we develop an integrated spatiotemporal context-aware neural network framework, named GNet, for predicting TF-DNA binding signal at single nucleotide resolution by achieving three tasks: single nucleotide resolution signal prediction, identification of binding regions at the sequence level, and TF-DNA binding motif prediction. GNet extracts implicit spatial contextual information with a gated highway neural mechanism, which captures large context multi-level patterns using linear shortcut connections, and the idea of it permeates the encoder and decoder parts of GNet. The improved dual external attention mechanism, which learns implicit relationships both within and among samples, and improves the performance of the model. Experimental results on 53 human TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets shows that GNet outperforms the state-of-the-art methods in the three tasks, and the results of cross-species studies on 15 human and 18 mouse TF datasets of the corresponding TF families indicate that GNet also shows the best performance in cross-species prediction over the competitive methods.",
+  "abstract_zh": "转录因子（TFs）是调控基因表达的重要因素。揭示影响转录因子结合特异性的机制是理解基因调控的关键。以往的研究大多集中在序列水平上的转录因子-DNA结合位点，很少利用DNA序列的上下文特征。本文中，我们开发了一个名为GNet的集成时空上下文感知神经网络框架，通过完成三项任务在单核苷酸分辨率下预测转录因子-DNA结合信号：单核苷酸分辨率信号预测、序列水平上的结合区域识别以及转录因子-DNA结合基序预测。GNet通过门控高速公路神经机制提取隐式空间上下文信息，该机制利用线性捷径连接捕获大范围上下文多级模式，其思想贯穿于GNet的编码器和解码器部分。改进的双外部注意力机制学习样本内部及样本之间的隐式关系，并提升模型性能。在53个人类转录因子ChIP-seq数据集和6个染色质可及性ATAC-seq数据集上的实验结果表明，GNet在这三项任务中均优于现有最先进方法，并且对相应转录因子家族的15个人类和18个小鼠转录因子数据集进行的跨物种研究结果显示，GNet在跨物种预测方面也表现出优于竞争方法的最佳性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37919990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37919990/",
+  "paper_page_path": "papers/pubmed/37919990/index.html"
+}

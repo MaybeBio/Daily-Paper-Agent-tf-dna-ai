@@ -1,0 +1,524 @@
+{
+  "identity": {
+    "pmid": "40773675",
+    "doi": "10.1158/0008-5472.CAN-25-1282",
+    "title": "Genetic Control of tRNA-Derived Fragments Contributes to Cancer Risk."
+  },
+  "content": {
+    "abstract": "tRNA-derived fragments (tRF) are a class of small noncoding RNAs that have exhibited several functions in cancer. Recent studies have shown that mutations in tRNA genes can lead to global changes in tRF expression levels and may affect tRF function, highlighting the need to further elucidate the regulation and functions of tRFs in cancer. In this study, we conducted a pan-cancer analysis of tRF quantitative trait loci (tRFQTL), encompassing 16,703 genetic variants associated with tRF expression across 31 cancer types. A joint analysis of genome-wide association study data revealed that tRFQTLs were preferentially enriched in cancer risk loci and colocalized with 106 genome-wide association study variants, explaining a substantial portion of cancer heritability. Moreover, tRFs regulated by tRFQTLs were enriched in cancer-related pathways and correlated with drug response and immune infiltration. Notably, polygenic risk score models incorporating tRFQTLs improved high-risk population identification. Investigation of large-scale population cohorts revealed a tRFQTL, rs9461276, associated with colorectal cancer risk. In biological assays, the rs9461276-C allele increased tRF-18-HSQS52D2 expression, which suppressed colorectal cancer malignant phenotypes. Mechanistically, tRF-18-HSQS52D2 bound to the 3' untranslated region of POU2F1, destabilizing the oncogenic transcript. Integrated RNA sequencing and chromatin immunoprecipitation sequencing assays indicated that POU2F1 enhanced colorectal cancer cell proliferation by activating various pathologic pathways associated with oxidative and glycolytic metabolism, mitotic stability, and cell cycle regulation. Finally, a database (Cancer-tRFQTL) was generated as a resource to support investigation into tRF-mediated mechanisms and genetic basis of tRF expression in human cancers. Overall, this study helps advance the understanding of tRFs in cancer pathogenesis. SIGNIFICANCE: Genetic variants modulating tRF expression significantly influence cancer risk, including rs9461276-C that upregulates tRF-18-HSQS52D2 to suppress its downstream oncogenic target POU2F1 and thereby inhibit colorectal cancer development. This article is part of a special series: Driving Cancer Discoveries with Computational Research, Data Science, and Machine Learning/AI .",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA, Transfer/genetics",
+      "*RNA, Small Untranslated/genetics/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Mutation",
+      "*Quantitative Trait Loci",
+      "*Neoplasms/genetics/pathology",
+      "Genome-Wide Association Study",
+      "Genetic Predisposition to Disease",
+      "Polymorphism, Single Nucleotide",
+      "Alleles",
+      "*Octamer Transcription Factor-1/genetics/metabolism",
+      "3' Untranslated Regions/genetics",
+      "Cell Proliferation/genetics",
+      "Carcinogenesis/genetics",
+      "Humans",
+      "Datasets as Topic",
+      "Male",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Bin",
+        "Li, Hanting",
+        "Li, Yan",
+        "Chen, Zhirui",
+        "Zou, Danyi",
+        "He, Chunyi",
+        "Li, Songqiang",
+        "Hu, Kexin",
+        "Ning, Caibo",
+        "Li, Yanmin",
+        "Geng, Hui",
+        "Yang, Shuhui",
+        "Huang, Chaoqun",
+        "Yang, Xiaojun",
+        "Wang, Qiuhong",
+        "Zhu, Xu",
+        "Li, Xiangpan",
+        "Zhu, Ying",
+        "Jin, Meng",
+        "Miao, Xiaoping",
+        "Tian, Jianbo"
+      ],
+      "short_names": [
+        "Li B",
+        "Li H",
+        "Li Y",
+        "Chen Z",
+        "Zou D",
+        "He C",
+        "Li S",
+        "Hu K",
+        "Ning C",
+        "Li Y",
+        "Geng H",
+        "Yang S",
+        "Huang C",
+        "Yang X",
+        "Wang Q",
+        "Zhu X",
+        "Li X",
+        "Zhu Y",
+        "Jin M",
+        "Miao X",
+        "Tian J"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-7671-7118",
+        "ORCID: 0009-0004-1536-5958",
+        "ORCID: 0009-0008-4182-8265",
+        "ORCID: 0009-0009-3414-9886",
+        "ORCID: 0000-0002-3934-5933",
+        "ORCID: 0009-0002-0642-4448",
+        "ORCID: 0009-0008-0204-6578",
+        "ORCID: 0009-0001-5733-0815",
+        "ORCID: 0000-0002-0049-9492",
+        "ORCID: 0000-0003-1174-3873",
+        "ORCID: 0000-0003-2924-3543",
+        "ORCID: 0009-0007-5225-0406",
+        "ORCID: 0000-0001-9799-4571",
+        "ORCID: 0000-0001-9833-6415",
+        "ORCID: 0009-0008-2933-3585",
+        "ORCID: 0000-0001-5361-2068",
+        "ORCID: 0000-0002-9199-309X",
+        "ORCID: 0000-0002-3813-7577",
+        "ORCID: 0000-0003-2009-916X",
+        "ORCID: 0000-0002-6818-9722",
+        "ORCID: 0000-0001-9493-694X"
+      ],
+      "affiliations": [
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Department of Clinical Laboratory, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Department of Infection Control, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Surgery, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Radiation Oncology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+        "Jiangsu Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing Medical University, Nanjing, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+        "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Bin",
+        "short_name": "Li B",
+        "identifiers": [
+          "0009-0001-7671-7118"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hanting",
+        "short_name": "Li H",
+        "identifiers": [
+          "0009-0004-1536-5958"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0009-0008-4182-8265"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhirui",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0009-0009-3414-9886"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Danyi",
+        "short_name": "Zou D",
+        "identifiers": [
+          "0000-0002-3934-5933"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "He, Chunyi",
+        "short_name": "He C",
+        "identifiers": [
+          "0009-0002-0642-4448"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Songqiang",
+        "short_name": "Li S",
+        "identifiers": [
+          "0009-0008-0204-6578"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Kexin",
+        "short_name": "Hu K",
+        "identifiers": [
+          "0009-0001-5733-0815"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Caibo",
+        "short_name": "Ning C",
+        "identifiers": [
+          "0000-0002-0049-9492"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanmin",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0003-1174-3873"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Hui",
+        "short_name": "Geng H",
+        "identifiers": [
+          "0000-0003-2924-3543"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuhui",
+        "short_name": "Yang S",
+        "identifiers": [
+          "0009-0007-5225-0406"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Chaoqun",
+        "short_name": "Huang C",
+        "identifiers": [
+          "0000-0001-9799-4571"
+        ],
+        "affiliations": [
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaojun",
+        "short_name": "Yang X",
+        "identifiers": [
+          "0000-0001-9833-6415"
+        ],
+        "affiliations": [
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiuhong",
+        "short_name": "Wang Q",
+        "identifiers": [
+          "0009-0008-2933-3585"
+        ],
+        "affiliations": [
+          "Department of Infection Control, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xu",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0001-5361-2068"
+        ],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangpan",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0002-9199-309X"
+        ],
+        "affiliations": [
+          "Department of Radiation Oncology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ying",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0000-0002-3813-7577"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Meng",
+        "short_name": "Jin M",
+        "identifiers": [
+          "0000-0003-2009-916X"
+        ],
+        "affiliations": [
+          "Department of Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Xiaoping",
+        "short_name": "Miao X",
+        "identifiers": [
+          "0000-0002-6818-9722"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China.",
+          "Jiangsu Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Jianbo",
+        "short_name": "Tian J",
+        "identifiers": [
+          "0000-0001-9493-694X"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, State Key Laboratory of Metabolism and Regulation in Complex Organisms, TaiKang Center for Life and Medical Sciences, Wuhan University, Wuhan, China.",
+          "Department of Gastrointestinal Oncology, Zhongnan Hospital of Wuhan University, Wuhan University, Wuhan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer research"
+    ],
+    "journal_abbrev": [
+      "Cancer Res"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 18:27",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42549704",
+      "42502104",
+      "41821073",
+      "41510083",
+      "41309487"
+    ],
+    "refs": [],
+    "similar": [
+      "40773675",
+      "40719768",
+      "30905816",
+      "38863031",
+      "38759092",
+      "37669142",
+      "35035608",
+      "33391486",
+      "42475469",
+      "27095039",
+      "19933153",
+      "32392430",
+      "33746573",
+      "32597311",
+      "32407895",
+      "33332661",
+      "38867475",
+      "40726981",
+      "37864150",
+      "40262693",
+      "40652272",
+      "38955307",
+      "33045361",
+      "39198937",
+      "32127356",
+      "33388834",
+      "35526007",
+      "40261523",
+      "40102335",
+      "36527118",
+      "39551416",
+      "27681945",
+      "36661724",
+      "41250205",
+      "38850298",
+      "42021314",
+      "31983265",
+      "39341862",
+      "37541527",
+      "32103259",
+      "39953522",
+      "38725342",
+      "37047149",
+      "26168920",
+      "40410734",
+      "33632236",
+      "36457750",
+      "41366697",
+      "41699549",
+      "41227340",
+      "40565284",
+      "38569558",
+      "40730666",
+      "41764447",
+      "39835731",
+      "39039568",
+      "39679845",
+      "40050692",
+      "31204011",
+      "40205015",
+      "39012505",
+      "38308367",
+      "41391674",
+      "35095997",
+      "41436831",
+      "40971882",
+      "38783100",
+      "32427348",
+      "23376637",
+      "30996049",
+      "33235128",
+      "39792150",
+      "35322869",
+      "31723042",
+      "39950845",
+      "31410488",
+      "39408960",
+      "41981411",
+      "42361404",
+      "27263052",
+      "41324813",
+      "36599181",
+      "31641208",
+      "33011827",
+      "29351903",
+      "27432226",
+      "36526122",
+      "27459855",
+      "31735953",
+      "41072838",
+      "27179031",
+      "28506205",
+      "36928917",
+      "37662862",
+      "28333195",
+      "38409266",
+      "31402092",
+      "41191606",
+      "35030975",
+      "35972351"
+    ],
+    "review": [
+      "40773675",
+      "33391486",
+      "27095039",
+      "38867475",
+      "33388834",
+      "39551416",
+      "38850298",
+      "41227340",
+      "40565284",
+      "39835731",
+      "40971882",
+      "32427348",
+      "23376637",
+      "35322869",
+      "27263052",
+      "41324813"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://aacrjournals.org/cancerres/article-lookup/doi/10.1158/0008-5472.CAN-25-1282",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

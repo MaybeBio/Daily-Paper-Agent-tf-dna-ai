@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "41592570",
+    "doi": "10.1016/j.xgen.2025.101130",
+    "title": "ChromBERT: A foundation model for learning interpretable representations for context-specific transcriptional regulatory networks."
+  },
+  "content": {
+    "abstract": "Gene expression is shaped by transcriptional regulatory networks (TRNs), where transcription regulators interact within regulatory elements in a context-specific manner. Deciphering context-specific TRNs has long been constrained by the severe sparsity of cell-type-specific chromatin immunoprecipitation sequencing (ChIP-seq) profiles. Here, we present ChromBERT, a foundation model pre-trained on large-scale human ChIP-seq datasets covering  approximately 1,000 transcription regulators. ChromBERT learns the genome-wide syntax of regulatory cooperation and generates interpretable TRN representations. After prompt-enhanced fine-tuning, it outperforms existing methods for imputing unseen cistromes. Moreover, lightweight fine-tuning on cell-type-specific downstream tasks adapts the TRN representations to capture regulatory effects and dynamics within any given cellular context. The resulting context-specific representations can then be interpreted to infer regulatory roles of transcription regulators underlying these cell-type-specific regulatory outcomes without requiring additional ChIP-seq experiments. By overcoming the limitations of sparse transcription regulator data, ChromBERT significantly enhances our ability to model and interpret transcriptional regulation across a wide range of biological contexts.",
+    "keywords": [
+      "foundation model",
+      "genomics",
+      "interpretable representation",
+      "regulatory networks",
+      "transcription regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks/genetics",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Gene Expression Regulation",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Zhaowei",
+        "Yang, Dongxu",
+        "Chen, Qianqian",
+        "Zhang, Yuxuan",
+        "Li, Zhanhao",
+        "Wang, Yucheng",
+        "Wang, Chenfei",
+        "Zhang, Yong"
+      ],
+      "short_names": [
+        "Yu Z",
+        "Yang D",
+        "Chen Q",
+        "Zhang Y",
+        "Li Z",
+        "Wang Y",
+        "Wang C",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
+        "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China. Electronic address: yzhang@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Zhaowei",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dongxu",
+        "short_name": "Yang D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qianqian",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuxuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhanhao",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yucheng",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenfei",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Institute for Regenerative Medicine, Department of Neurosurgery, Shanghai East Hospital, Shanghai Key Laboratory of Signaling and Disease Research, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China. Electronic address: yzhang@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2026 Apr 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 01:35",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42320030",
+      "42194040"
+    ],
+    "refs": [
+      "39884279",
+      "39779852",
+      "39609566",
+      "39555104",
+      "39541441",
+      "39138204",
+      "39122941",
+      "38844628",
+      "38409223",
+      "38361031",
+      "37971305",
+      "37443338",
+      "37258680",
+      "37224527",
+      "37220626",
+      "36755098",
+      "36332573",
+      "35710610",
+      "35681170",
+      "35650434",
+      "35501393",
+      "35440119",
+      "35381213",
+      "35325185",
+      "35246800",
+      "35105358",
+      "34991667",
+      "34608324",
+      "33961781",
+      "33950192",
+      "33846645",
+      "33024284",
+      "33020261",
+      "32728249",
+      "32231272",
+      "32228704",
+      "32093739",
+      "31152164",
+      "30611612",
+      "30078726",
+      "30040631",
+      "29409532",
+      "28850106",
+      "28704353",
+      "27058666",
+      "26771021",
+      "26659825",
+      "26550828",
+      "25129887",
+      "24076218",
+      "23684459",
+      "23547051",
+      "23328393",
+      "23239736",
+      "22955990",
+      "22955619",
+      "22955616",
+      "22055187",
+      "21859476",
+      "21330290",
+      "21248841",
+      "20944595",
+      "20150147",
+      "20110278",
+      "19131956",
+      "18243105",
+      "15780990",
+      "15386022"
+    ],
+    "similar": [
+      "41592570",
+      "42320030",
+      "42560939",
+      "42475469",
+      "39527186",
+      "41022541",
+      "39451156",
+      "34292930",
+      "32471360",
+      "39617063",
+      "39535258",
+      "21338655",
+      "28576882",
+      "22863112",
+      "30696696",
+      "39779852",
+      "29030344",
+      "23531767",
+      "32728244",
+      "37244909",
+      "41527853",
+      "27924033",
+      "30016502",
+      "29879919",
+      "22849367",
+      "41288963",
+      "35705328",
+      "42052205",
+      "41917667",
+      "21637747",
+      "28070596",
+      "41022589",
+      "38806476",
+      "41801512",
+      "26950762",
+      "40257984",
+      "19594885",
+      "40029523",
+      "41279458",
+      "32615918",
+      "37788349",
+      "42086551",
+      "32033573",
+      "26635867",
+      "41300707",
+      "28874552",
+      "30395277",
+      "39326643",
+      "32976105",
+      "25023089",
+      "34244796",
+      "40607808",
+      "22955984",
+      "23975789",
+      "37985457",
+      "35167097",
+      "40662821",
+      "40240358",
+      "25228660",
+      "23387820",
+      "30453943",
+      "40753156",
+      "36155797",
+      "21295369",
+      "42061403",
+      "39127768",
+      "25840044",
+      "32039697",
+      "36902216",
+      "18976224",
+      "24912499",
+      "31701125",
+      "39005360",
+      "28529066",
+      "38980373",
+      "29133016",
+      "33874910",
+      "22959076",
+      "35858748",
+      "39975293",
+      "34251624",
+      "31881735",
+      "25442502",
+      "30547400",
+      "41643202",
+      "41067887",
+      "24146602",
+      "32029221",
+      "25058159",
+      "30598101",
+      "38609714",
+      "39082647",
+      "31510655",
+      "29581148",
+      "39501301",
+      "24564528",
+      "40638054",
+      "41516329",
+      "26576632",
+      "41896196"
+    ],
+    "review": [
+      "41592570",
+      "28070596",
+      "26950762",
+      "21295369"
+    ],
+    "pmc": [
+      "13069865"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(25)00386-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41592570/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(25)00386-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41592570",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

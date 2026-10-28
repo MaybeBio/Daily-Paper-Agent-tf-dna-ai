@@ -1,0 +1,890 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.24.740656",
+  "title": "Prioritizing Non-coding Variants in Rice GWAS Loci with a Chromatin-Informed DNA Language Model",
+  "doi": "10.64898/2026.07.24.740656",
+  "abstract": "Numerous genome-wide association studies in rice have identified loci associated with diverse agronomic traits. However, interpreting the regulatory and functional significance of these loci remains challenging because each locus often contains multiple variants in linkage disequilibrium, many of which lie in non-coding regions. Here, we present a method for prioritizing non-coding variants within an associated locus by integrating chromatin feature information predicted by a pretrained DNA language model fine-tuned on rice ChIP-seq and ATAC-seq datasets. We demonstrate the utility of our method through three case studies. In a post-GWAS analysis of heat tolerance, prioritized variants overlapped promoters of candidate genes previously identified through integrated GWAS and transcriptomic analyses, providing independent support for their potential regulatory roles. For the high-yield gene DEP1 , promoter variant prioritization combined with in silico saturation mutagenesis identified a localized regulatory region enriched for high-impact mutations overlapping predicted transcription factor binding sites. For the drought-associated gene OsHAK1 , the highest-ranked variant was predicted to be associated with chromatin features in a manner consistent with the reported co-occurrence of H2Bub with H3K4 methylation marks in plants. Overall, these results demonstrate the utility of our method for functionally informative prioritization of non-coding variants, facilitating the interpretation of GWAS loci and the identification of candidate regulatory variants in rice.",
+  "authors": [
+    "Josef Paolo A. Manlapaz",
+    "Anish M. S. Shrestha"
+  ],
+  "published_date": "2026-07-28",
+  "updated_date": "2026-07-29T01:15:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740656",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740656.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T21:58:25Z",
+        "timestamp": 1785448705194,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            28
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 80,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                28
+              ]
+            ],
+            "date-time": "2026-07-28T00:00:00Z",
+            "timestamp": 1785196800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Numerous genome-wide association studies in rice have identified loci associated with diverse agronomic traits. However, interpreting the regulatory and functional significance of these loci remains challenging because each locus often contains multiple variants in linkage disequilibrium, many of which lie in non-coding regions. Here, we present a method for prioritizing non-coding variants within an associated locus by integrating chromatin feature information predicted by a pretrained DNA language model fine-tuned on rice ChIP-seq and ATAC-seq datasets. We demonstrate the utility of our method through three case studies. In a post-GWAS analysis of heat tolerance, prioritized variants overlapped promoters of candidate genes previously identified through integrated GWAS and transcriptomic analyses, providing independent support for their potential regulatory roles. For the high-yield gene\n                  <jats:italic>DEP1</jats:italic>\n                  , promoter variant prioritization combined with\n                  <jats:italic>in silico</jats:italic>\n                  saturation mutagenesis identified a localized regulatory region enriched for high-impact mutations overlapping predicted transcription factor binding sites. For the drought-associated gene\n                  <jats:italic>OsHAK1</jats:italic>\n                  , the highest-ranked variant was predicted to be associated with chromatin features in a manner consistent with the reported co-occurrence of H2Bub with H3K4 methylation marks in plants. Overall, these results demonstrate the utility of our method for functionally informative prioritization of non-coding variants, facilitating the interpretation of GWAS loci and the identification of candidate regulatory variants in rice.\n                </jats:p>",
+      "DOI": "10.64898/2026.07.24.740656",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2026-07-29T01:15:19Z",
+        "timestamp": 1785287719000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Prioritizing Non-coding Variants in Rice GWAS Loci with a Chromatin-Informed DNA Language Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Josef Paolo A.",
+          "family": "Manlapaz",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Bioinformatics Lab, Advanced Research Institute for Informatics, Computing and Networking, College of Computer Studies, De La Salle University, Manila 1004, Philippines"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anish M. S.",
+          "family": "Shrestha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bioinformatics Lab, Advanced Research Institute for Informatics, Computing and Networking, College of Computer Studies, De La Salle University, Manila 1004, Philippines"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "5",
+          "key": "2026073014055050000_2026.07.24.740656v1.1",
+          "first-page": "1415",
+          "article-title": "Advances in genome-wide association studies of complex traits in rice",
+          "volume": "133",
+          "year": "2020",
+          "journal-title": "In: Theoretical and Applied Genetics"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.2",
+          "first-page": "9958",
+          "article-title": "Genetic basis and identification of candidate genes for salt tolerance in rice by GWAS",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "In: Scientific reports"
+        },
+        {
+          "issue": "6",
+          "key": "2026073014055050000_2026.07.24.740656v1.3",
+          "first-page": "789",
+          "article-title": "Genome-wide association studies of image traits reveal genetic architecture of drought resistance in rice",
+          "volume": "11",
+          "year": "2018",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "3",
+          "key": "2026073014055050000_2026.07.24.740656v1.4",
+          "first-page": "1108",
+          "article-title": "Identification of genes related to cold tolerance and a functional allele that confers cold tolerance",
+          "volume": "177",
+          "year": "2018",
+          "journal-title": "In: Plant physiology"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.5",
+          "first-page": "1102938",
+          "article-title": "Integrating GWAS and transcriptomics to identify candidate genes conferring heat tolerance in rice",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "In: Frontiers in Plant Science"
+        },
+        {
+          "issue": "7",
+          "key": "2026073014055050000_2026.07.24.740656v1.6",
+          "first-page": "975",
+          "article-title": "The power of inbreeding: NGS-based GWAS of rice reveals convergent evolution during rice domestication",
+          "volume": "9",
+          "year": "2016",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.7",
+          "first-page": "447",
+          "article-title": "OsSPL13 controls grain size in cultivated rice",
+          "volume": "48",
+          "year": "2016",
+          "journal-title": "In: Nature genetics"
+        },
+        {
+          "issue": "5",
+          "key": "2026073014055050000_2026.07.24.740656v1.8",
+          "first-page": "685",
+          "article-title": "Natural variation in the promoter of GSE5 contributes to grain size diversity in rice",
+          "volume": "10",
+          "year": "2017",
+          "journal-title": "In: Molecular plant"
+        },
+        {
+          "issue": "10",
+          "key": "2026073014055050000_2026.07.24.740656v1.9",
+          "first-page": "1353",
+          "article-title": "Dissecting the genetic basis of grain shape and chalkiness traits in hybrid rice using multiple collaborative populations",
+          "volume": "10",
+          "year": "2017",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "5",
+          "key": "2026073014055050000_2026.07.24.740656v1.10",
+          "first-page": "e1008191",
+          "article-title": "A novel rice grain size gene OsSNB was identified by genome-wide association study in natural population",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "In: PLoS Genetics"
+        },
+        {
+          "issue": "18",
+          "key": "2026073014055050000_2026.07.24.740656v1.11",
+          "first-page": "5605",
+          "article-title": "Genome-wide association study of rice (Oryza sativa L.) leaf traits with a high-throughput leaf scorer",
+          "volume": "66",
+          "year": "2015",
+          "journal-title": "In: Journal of experimental botany"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.12",
+          "first-page": "e1007323",
+          "article-title": "Genome-wide association studies reveal that members of bHLH subfamily 16 share a conserved function in regulating flag leaf angle in rice (Oryza sativa)",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "In: PLoS Genetics"
+        },
+        {
+          "issue": "7",
+          "key": "2026073014055050000_2026.07.24.740656v1.13",
+          "first-page": "714",
+          "article-title": "Genome-wide association analyses provide genetic and biochemical insights into natural variation in rice metabolism",
+          "volume": "46",
+          "year": "2014",
+          "journal-title": "In: Nature genetics"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.14",
+          "first-page": "12767",
+          "article-title": "Comparative and parallel genome-wide association studies for metabolic and agronomic traits in cereals",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "In: Nature communications"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.15",
+          "first-page": "32",
+          "article-title": "Genome-wide association study of flowering time and grain yield traits in a worldwide collection of rice germplasm",
+          "volume": "44",
+          "year": "2012",
+          "journal-title": "In: Nature genetics"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.16",
+          "first-page": "5087",
+          "article-title": "Combining high-throughput phenotyping and genome-wide association studies to reveal natural genetic variation in rice",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "In: Nature communications"
+        },
+        {
+          "issue": "8",
+          "key": "2026073014055050000_2026.07.24.740656v1.17",
+          "first-page": "927",
+          "article-title": "Genome-wide association study using whole-genome sequencing rapidly identifies new genes influencing agronomic traits in rice",
+          "volume": "48",
+          "year": "2016",
+          "journal-title": "In: Nature genetics"
+        },
+        {
+          "issue": "11",
+          "key": "2026073014055050000_2026.07.24.740656v1.18",
+          "first-page": "2211",
+          "article-title": "Genome-wide association analyses reveal the genetic basis of combining ability in rice",
+          "volume": "17",
+          "year": "2019",
+          "journal-title": "In: Plant biotechnology journal"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.19",
+          "first-page": "2223",
+          "article-title": "The extent of linkage disequilibrium in rice (Oryza sativa L",
+          "volume": "177",
+          "year": "2007",
+          "journal-title": "In: Genetics"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.20",
+          "first-page": "805",
+          "article-title": "Linkage disequilibrium, genetic association mapping and gene localization in crop plants",
+          "volume": "31",
+          "year": "2008",
+          "journal-title": "In: Genetics and Molecular Biology"
+        },
+        {
+          "issue": "12",
+          "key": "2026073014055050000_2026.07.24.740656v1.21",
+          "first-page": "e1002822",
+          "article-title": "Chapter 11: Genome-wide association studies",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "In: PLoS computational biology"
+        },
+        {
+          "issue": "6099",
+          "key": "2026073014055050000_2026.07.24.740656v1.22",
+          "first-page": "1190",
+          "article-title": "Systematic localization of common disease-associated variation in regulatory DNA",
+          "volume": "337",
+          "year": "2012",
+          "journal-title": "In: Science"
+        },
+        {
+          "issue": "9",
+          "key": "2026073014055050000_2026.07.24.740656v1.23",
+          "first-page": "1748",
+          "article-title": "Linking disease associations with regulatory information in the human genome",
+          "volume": "22",
+          "year": "2012",
+          "journal-title": "In: Genome research"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.24",
+          "first-page": "112",
+          "article-title": "Engineering non-coding DNA Elements in Rice: an Elegant Approach To fine-tune Agronomical Advantageous Traits",
+          "volume": "18",
+          "year": "2025",
+          "journal-title": "In: Rice"
+        },
+        {
+          "issue": "8",
+          "key": "2026073014055050000_2026.07.24.740656v1.25",
+          "first-page": "1790",
+          "article-title": "Salt-responsive genes are differentially regulated at the chromatin levels between seedlings and roots in rice",
+          "volume": "60",
+          "year": "2019",
+          "journal-title": "In: Plant and Cell Physiology"
+        },
+        {
+          "issue": "11",
+          "key": "2026073014055050000_2026.07.24.740656v1.26",
+          "first-page": "1044",
+          "article-title": "High-resolution mapping of H4K16 and H3K23 acetylation reveals conserved and unique distribution patterns in Arabidopsis and rice",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "In: Epigenetics"
+        },
+        {
+          "issue": "10",
+          "key": "2026073014055050000_2026.07.24.740656v1.27",
+          "first-page": "1604",
+          "article-title": "RiceENCODE: A comprehensive epigenomic database as a rice Encyclopedia of DNA Elements",
+          "volume": "14",
+          "year": "2021",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.28",
+          "first-page": "103",
+          "article-title": "Regulatory function of histone modifications in controlling rice gene expression and plant growth",
+          "volume": "3",
+          "year": "2010",
+          "journal-title": "In: Rice"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huy Le , Carl H Simmons , and Xuehua Zhong . “Functions and mechanisms of histone modifications in plants”. In: Annual Review of Plant Biology 76 (2025).",
+          "DOI": "10.1146/annurev-arplant-083123-070919"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.30",
+          "first-page": "87",
+          "article-title": "Epigenetic regulation during plant development and the capacity for epigenetic memory",
+          "volume": "74",
+          "year": "2023",
+          "journal-title": "In: Annual Review of Plant Biology"
+        },
+        {
+          "issue": "7",
+          "key": "2026073014055050000_2026.07.24.740656v1.31",
+          "first-page": "2926",
+          "article-title": "Histone modification levels are predictive for gene expression",
+          "volume": "107",
+          "year": "2010",
+          "journal-title": "In: Proceedings of the National Academy of Sciences"
+        },
+        {
+          "issue": "9",
+          "key": "2026073014055050000_2026.07.24.740656v1.32",
+          "first-page": "R53",
+          "article-title": "Modeling gene expression using chromatin features in various cellular contexts",
+          "volume": "13",
+          "year": "2012",
+          "journal-title": "In: Genome biology"
+        },
+        {
+          "issue": "24",
+          "key": "2026073014055050000_2026.07.24.740656v1.33",
+          "first-page": "5610",
+          "article-title": "Prediction of histone post-translational modifications using deep learning",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "In: Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.34",
+          "first-page": "340",
+          "article-title": "Chromatin accessibility: biological functions, molecular mechanisms and therapeutic application",
+          "volume": "9",
+          "year": "2024",
+          "journal-title": "In: Signal Transduction and Targeted Therapy"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.35",
+          "first-page": "238",
+          "article-title": "Chromatin accessibility: methods, mechanisms, and biological insights",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "In: Nucleus"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.36",
+          "first-page": "727",
+          "article-title": "Rice chromatin protein OsHMGB1 is involved in phosphate homeostasis and plant growth by affecting chromatin accessibility",
+          "volume": "240",
+          "year": "2023",
+          "journal-title": "In: New Phytologist"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.37",
+          "first-page": "2797",
+          "article-title": "The chromatin accessibility landscape of pistils and anthers in rice",
+          "volume": "190",
+          "year": "2022",
+          "journal-title": "In: Plant Physiology"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "issue": "7",
+          "key": "2026073014055050000_2026.07.24.740656v1.39",
+          "first-page": "990",
+          "article-title": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks",
+          "volume": "26",
+          "year": "2016",
+          "journal-title": "In: Genome research"
+        },
+        {
+          "issue": "W1",
+          "key": "2026073014055050000_2026.07.24.740656v1.40",
+          "first-page": "W523",
+          "article-title": "PlantDeepSEA, a deep learning-based web service to predict the regulatory effects of genomic variants in plants",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "In: Nucleic Acids Research"
+        },
+        {
+          "issue": "9",
+          "key": "2026073014055050000_2026.07.24.740656v1.41",
+          "first-page": "1584",
+          "article-title": "An inferred functional impact map of genetic variants in rice",
+          "volume": "14",
+          "year": "2021",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "5",
+          "key": "2026073014055050000_2026.07.24.740656v1.42",
+          "first-page": "bbae446",
+          "article-title": "Deep learning approaches for non-coding genetic variant effect prediction: current progress and future prospects",
+          "volume": "25",
+          "year": "2024",
+          "journal-title": "In: Briefings in Bioinformatics"
+        },
+        {
+          "issue": "14",
+          "key": "2026073014055050000_2026.07.24.740656v1.43",
+          "first-page": "e81",
+          "article-title": "Integrating convolution and self-attention improves language model of human genome for interpreting non-coding regions at base-resolution",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "In: Nucleic acids research"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae705"
+        },
+        {
+          "issue": "15",
+          "key": "2026073014055050000_2026.07.24.740656v1.45",
+          "first-page": "2112",
+          "article-title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "In: Bioinformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.46",
+          "first-page": "287",
+          "article-title": "Nucleotide transformer: building and evaluating robust foundation models for human genomics",
+          "volume": "22",
+          "year": "2025",
+          "journal-title": "In: Nature Methods"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.47",
+          "article-title": "Dnabert-2: Efficient foundation model and benchmark for multi-species genome",
+          "year": "2023",
+          "journal-title": "In: arXiv preprint"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.48",
+          "first-page": "175",
+          "article-title": "PDLLMs: A group of tailored DNA large language models for analyzing plant genomes",
+          "volume": "18",
+          "year": "2025",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.49",
+          "first-page": "835",
+          "article-title": "A foundational large language model for edible plant genomes",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "In: Communications Biology"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.50",
+          "first-page": "nwaf028",
+          "article-title": "Foundation models in bioinformatics",
+          "volume": "12",
+          "year": "2025",
+          "journal-title": "In: National science review"
+        },
+        {
+          "issue": "9",
+          "key": "2026073014055050000_2026.07.24.740656v1.51",
+          "first-page": "R137",
+          "article-title": "Model-based analysis of ChIP-Seq (MACS)",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "In: Genome biology"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.52",
+          "first-page": "3",
+          "article-title": "Lora: Low-rank adaptation of large language models",
+          "volume": "1",
+          "year": "2022",
+          "journal-title": "In: Iclr"
+        },
+        {
+          "issue": "D1",
+          "key": "2026073014055050000_2026.07.24.740656v1.53",
+          "first-page": "D1075",
+          "article-title": "Rice SNP-seek database update: new SNPs, indels, and queries",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "In: Nucleic acids research"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dan Bolser et al. “Ensembl plants: integrating tools for visualizing, mining, and analyzing plant genomics data”. In: Plant bioinformatics: Methods and protocols. Springer, 2016, pp. 115–140.",
+          "DOI": "10.1007/978-1-4939-3167-5_6"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.55",
+          "first-page": "e6",
+          "article-title": "Rice Annotation Project Database (RAP-DB): an integrative and interactive database for rice genomics",
+          "volume": "54",
+          "year": "2013",
+          "journal-title": "In: Plant and Cell Physiology"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.56",
+          "first-page": "4",
+          "article-title": "Improvement of the Oryza sativa Nipponbare reference genome using next generation sequence and optical map data",
+          "volume": "6",
+          "year": "2013",
+          "journal-title": "In: Rice"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.57",
+          "first-page": "e1130198",
+          "article-title": "WUSCHEL-related homeobox gene WOX11 increases rice drought resistance by controlling root hair formation and root system development",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "In: Plant signaling & behavior"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.58",
+          "first-page": "55",
+          "article-title": "WOX11-OsPRX130 module confers rice drought tolerance by maintaining ROS homeostasis in rice root",
+          "volume": "18",
+          "year": "2025",
+          "journal-title": "In: Rice"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.59",
+          "first-page": "108662",
+          "article-title": "PagWOX11/12a from hybrid poplar enhances drought tolerance by modulating reactive oxygen species",
+          "volume": "211",
+          "year": "2024",
+          "journal-title": "In: Plant Physiology and Biochemistry"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giae013"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.61",
+          "first-page": "1275",
+          "article-title": "Rice genome-scale network integration reveals transcriptional regulators of grass cell wall synthesis",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "In: Frontiers in plant science"
+        },
+        {
+          "issue": "7",
+          "key": "2026073014055050000_2026.07.24.740656v1.62",
+          "first-page": "e70321",
+          "article-title": "Gene expression analysis of rice seedling under potassium deprivation reveals major changes in metabolism and signaling components",
+          "volume": "8",
+          "year": "2013",
+          "journal-title": "In: PLoS One"
+        },
+        {
+          "issue": "1",
+          "key": "2026073014055050000_2026.07.24.740656v1.63",
+          "first-page": "15",
+          "article-title": "The circadian clock ticks in plant stress responses",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "In: Stress Biology"
+        },
+        {
+          "issue": "3",
+          "key": "2026073014055050000_2026.07.24.740656v1.64",
+          "first-page": "221",
+          "article-title": "Adjusting multiple testing in multilocus analyses using the eigenvalues of a correlation matrix",
+          "volume": "95",
+          "year": "2005",
+          "journal-title": "In: Heredity"
+        },
+        {
+          "issue": "318",
+          "key": "2026073014055050000_2026.07.24.740656v1.65",
+          "first-page": "626",
+          "article-title": "Rectangular confidence regions for the means of multivariate normal distributions",
+          "volume": "62",
+          "year": "1967",
+          "journal-title": "In: Journal of the American statistical association"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.66",
+          "first-page": "494",
+          "article-title": "Natural variation at the DEP1 locus enhances grain yield in rice",
+          "volume": "41",
+          "year": "2009",
+          "journal-title": "In: Nature genetics"
+        },
+        {
+          "issue": "3",
+          "key": "2026073014055050000_2026.07.24.740656v1.67",
+          "first-page": "283",
+          "article-title": "Breeding high-yield superior quality hybrid super rice by rational design",
+          "volume": "3",
+          "year": "2016",
+          "journal-title": "In: National Science Review"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.68",
+          "first-page": "866",
+          "article-title": "Enhanced expression of QTL qLL9/DEP1 facilitates the improvement of leaf morphology and grain yield in rice",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "In: International Journal of Molecular Sciences"
+        },
+        {
+          "issue": "D1",
+          "key": "2026073014055050000_2026.07.24.740656v1.69",
+          "first-page": "D1155",
+          "article-title": "PlantPAN3. 0: a new and updated resource for reconstructing transcriptional regulatory networks from ChIP-seq experiments in plants",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "In: Nucleic acids research"
+        },
+        {
+          "issue": "17",
+          "key": "2026073014055050000_2026.07.24.740656v1.70",
+          "first-page": "2673",
+          "article-title": "Research advances in AP2/ERF transcription factors in rice growth and development",
+          "volume": "14",
+          "year": "2025",
+          "journal-title": "In: Plants"
+        },
+        {
+          "issue": "11",
+          "key": "2026073014055050000_2026.07.24.740656v1.71",
+          "first-page": "2801",
+          "article-title": "Antagonistic transcription factor complexes modulate the floral transition in rice",
+          "volume": "29",
+          "year": "2017",
+          "journal-title": "In: The Plant Cell"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.72",
+          "first-page": "263",
+          "article-title": "Reversible histone H2B monoubiquitination fine-tunes abscisic acid signaling and drought response in rice",
+          "volume": "12",
+          "year": "2019",
+          "journal-title": "In: Molecular Plant"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.73",
+          "first-page": "1755",
+          "article-title": "Constitutive activation of transcription factor OsbZIP46 improves drought tolerance in rice",
+          "volume": "158",
+          "year": "2012",
+          "journal-title": "In: Plant physiology"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.74",
+          "first-page": "168",
+          "article-title": "OsbZIP27 coordinates with OsHUB1 and OsHUB2 to modulate drought tolerance in rice",
+          "volume": "52",
+          "year": "2025",
+          "journal-title": "In: Journal of Genetics and Genomics"
+        },
+        {
+          "issue": "4",
+          "key": "2026073014055050000_2026.07.24.740656v1.75",
+          "first-page": "1389",
+          "article-title": "Histone H2B monoubiquitination mediated by HISTONE MONOUBIQUITINATION1 and HISTONE MONOUBIQUITINATION2 is involved in anther development by regulating tapetum degradation-related genes in rice",
+          "volume": "168",
+          "year": "2015",
+          "journal-title": "In: Plant physiology"
+        },
+        {
+          "issue": "6893",
+          "key": "2026073014055050000_2026.07.24.740656v1.76",
+          "first-page": "104",
+          "article-title": "Ubiquitination of histone H2B regulates H3 methylation and gene silencing in yeast",
+          "volume": "418",
+          "year": "2002",
+          "journal-title": "In: Nature"
+        },
+        {
+          "issue": "6",
+          "key": "2026073014055050000_2026.07.24.740656v1.77",
+          "first-page": "1670",
+          "article-title": "OsHUB2 inhibits function of OsTrx1 in heading date in rice",
+          "volume": "110",
+          "year": "2022",
+          "journal-title": "In: The Plant Journal"
+        },
+        {
+          "key": "2026073014055050000_2026.07.24.740656v1.78",
+          "first-page": "1885",
+          "article-title": "OsHAK1, a high-affinity potassium transporter, positively regulates responses to drought stress in rice",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "In: Frontiers in Plant Science"
+        },
+        {
+          "issue": "2",
+          "key": "2026073014055050000_2026.07.24.740656v1.79",
+          "first-page": "217",
+          "article-title": "A rice bZIP protein, designated OSBZ8, is rapidly induced by abscisic acid",
+          "volume": "9",
+          "year": "1996",
+          "journal-title": "In: The Plant Journal"
+        },
+        {
+          "issue": "3",
+          "key": "2026073014055050000_2026.07.24.740656v1.80",
+          "first-page": "1084",
+          "article-title": "Mechanisms of abscisic acid-mediated drought stress responses in plants",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "In: International journal of molecular sciences"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.24.740656",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T21:06:07Z",
+        "timestamp": 1785445567000
+      },
+      "score": 74.75871,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.24.740656"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            28
+          ]
+        ]
+      },
+      "references-count": 80,
+      "URL": "https://doi.org/10.64898/2026.07.24.740656",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

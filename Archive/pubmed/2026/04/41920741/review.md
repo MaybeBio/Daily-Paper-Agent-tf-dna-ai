@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors profile adult prefrontal cortex from human, macaque, and mouse using single-nucleus transcriptomics and chromatin accessibility assays, identify human-specific candidate cis-regulatory elements (cCREs), link them to human-biased expression and transposable element enrichment, and use GWAS and machine learning to prioritize neuropsychiatric disorder-associated variants within these elements
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or data visualizations
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, detailed methods, statistical analyses, and validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely resource for understanding human-specific gene regulation in the adult prefrontal cortex. The integration of multi-species single-cell data with GWAS and machine learning is conceptually appealing. However, the abstract provides insufficient detail to evaluate the rigor of the analyses, the robustness of the human-specific calls, or the biological validity of the proposed regulatory mechanisms. Several claims are stated without supporting quantitative evidence, and the abstract does not clarify key analytical choices that would be critical for interpretation.
+- **Who would be interested in the results, and why** Researchers in evolutionary genomics, regulatory biology, and neuropsychiatric genetics would be interested. The work could inform studies on human brain evolution and provide a resource for interpreting noncoding risk variants in psychiatric disorders. The multi-species single-cell dataset may also be valuable to the broader neuroscience community.
+- **Major strengths** The study addresses a significant question about human-specific regulatory elements in the adult brain. The use of matched multi-species single-nucleus transcriptomic and chromatin accessibility data is a strong design. The integration of GWAS and machine learning to prioritize functional variants is a useful translational angle.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that human-specific cCREs are "central in modulating human-biased expression"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how human-specific cCREs were defined, how their link to expression was established, or what statistical support underlies the claim of centrality. Without details on the comparative framework, normalization across species, and confounding factors such as cell type composition, the claim cannot be evaluated.  
+  - **Why it matters** The central conclusion of the paper rests on this claim. If the definition of human-specific cCREs is not robust or the expression link is not rigorously tested, the entire narrative is weakened.  
+  - **Resolution test** Provide a clear definition of human-specific cCREs, describe the statistical model linking cCREs to expression, and show effect sizes and significance thresholds. Demonstrate that results are robust to cross-species technical variation and cell type composition.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that human-specific cCREs are enriched with transposable elements such as ERVK and LINE-1, suggesting a role in regulatory innovation  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the enrichment analysis method, the background model used, or whether the enrichment is statistically significant after multiple testing correction. It is also unclear whether the enrichment is specific to human-gained elements or reflects general TE content in the genome.  
+  - **Why it matters** The evolutionary interpretation depends on the robustness of the enrichment. Without proper controls, the claim could be an artifact of genomic background or annotation differences.  
+  - **Resolution test** Describe the enrichment test, the null model, and the multiple testing correction. Show that enrichment is specific to human-gained cCREs and not a general property of accessible regions.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that machine learning prioritizes disorder-associated SNPs within these cCREs as potential functional variants influencing disease-risk genes, likely via altered transcription factor binding  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the machine learning model, its training data, validation strategy, or performance metrics. The link to disease-risk genes and the mechanism of altered transcription factor binding are stated without supporting evidence.  
+  - **Why it matters** This is a key translational claim. Without details on model construction and validation, the prioritization results cannot be assessed for reliability or generalizability.  
+  - **Resolution test** Provide model details, cross-validation results, and independent validation. Show specific examples of prioritized variants with experimental or orthogonal support for altered transcription factor binding.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract uses several acronyms (cCREs, ERVK, LINE-1) without defining them in the abstract, which may hinder nonspecialist readers.  
+  - **Required correction** Define all acronyms at first use in the abstract.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not state the number of human-specific cCREs identified or the scale of the effect, making it difficult to gauge the magnitude of the findings.  
+  - **Required correction** Include key quantitative results, such as the number of human-specific cCREs and representative effect sizes.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract mentions "human-gained accessibility" but does not clarify whether this refers to chromatin accessibility, gene expression, or both.  
+  - **Required correction** Clarify the terminology to distinguish between accessibility and expression changes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail or quantitative support for the central claims. Without these, the case for human-specific regulatory elements driving expression and disease risk is not established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of human-specific regulatory elements in the adult PFC is not entirely new, but the multi-species single-cell approach is a potentially valuable contribution. The abstract does not clearly differentiate the work from prior studies.  
+  - Scientific importance: The topic is important for evolutionary and neuropsychiatric research, but the abstract does not demonstrate the magnitude or novelty of the findings.  
+  - Interdisciplinary readership: The work could appeal to evolutionary biologists, genomicists, and psychiatric geneticists, but the abstract is too technical and lacks context for broader audiences.  
+  - Technical soundness: Not assessable from the abstract. Key analytical details are missing, and the claims are not supported by visible evidence.  
+  - Readability for nonspecialists: The abstract is dense and uses undefined acronyms, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the lack of methodological detail and quantitative support prevents evaluation of the core claims. A revised abstract with more specific results and a full manuscript with rigorous analyses would be needed to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that human-specific cCREs are "central" in modulating human-biased expression is unsupported without statistical details.
+- The claim that transposable element enrichment suggests a role in regulatory innovation is not supported without enrichment analysis details.
+- The claim that machine learning prioritizes functional variants influencing disease-risk genes via altered transcription factor binding is unsupported without model and validation details.
+- The overall conclusion about "distinct characteristics of human-specific transcriptional regulation" is not assessable from the abstract alone.

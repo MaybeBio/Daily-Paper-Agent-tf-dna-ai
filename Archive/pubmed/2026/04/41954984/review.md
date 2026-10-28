@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence
+- **Shared manuscript claim summary** The authors test whether mutations in the LacI hinge region that bias the conformational ensemble toward either the search or recognition state affect DNA binding specificity, stability, and in vivo target search kinetics. They report that a recognition-favoring mutant (V52A) binds more strongly but loses inducibility, while a search-favoring mutant (Q55N) binds more weakly but with similar search speed to wild type. They conclude the trade-off in LacI is between stability and inducibility, not speed and stability.
+- **Visible evidence base** MD simulation helix propensity data (Fig. 1E); in vitro PBM kinetic measurements (Fig. 2); in vivo Miller assay data (Fig. 3A); single-molecule tracking data (Fig. 4); EMSA salt-dependence data (Supplementary Fig. S7)
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; exact numerical values for many fitted parameters not given in text; statistical details for some comparisons not fully specified; details of the kinetic model fitting procedure and parameter uncertainties not fully described
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in transcription factor search dynamics: whether the conformational equilibrium between search and recognition states is tuned to resolve the speed-stability paradox, or whether other constraints dominate. The combination of in silico design, high-throughput in vitro kinetics, and in vivo single-molecule measurements is ambitious and appropriate. The key finding, that a recognition-favoring mutation slows dissociation and impairs inducibility without accelerating association, is interesting and potentially important. However, the evidence as presented has several gaps. The MD simulation results for Q55N do not clearly support the predicted decrease in helix propensity, and the authors do not adequately resolve this discrepancy. The in vivo kinetic model relies on several assumptions that are not fully validated, and the discrepancy between the ~3-fold in vitro and ~20-fold in vivo binding differences for Q55N is acknowledged but not convincingly explained. The conclusion that the trade-off is between stability and inducibility rather than speed and stability is plausible but not fully established from the data shown, particularly given the unresolved quantitative inconsistencies.
+- **Who would be interested in the results, and why** Researchers studying transcription factor target search mechanisms, protein-DNA interactions, allostery, and gene regulation. The work is also relevant to the broader field of biophysics of protein conformational ensembles and their functional consequences. The methodological combination of MD, PBM, and single-molecule approaches may interest method developers.
+- **Major strengths** 1) The study combines multiple complementary approaches (MD, in vitro high-throughput kinetics, in vivo single-molecule tracking, Miller assays) to address a well-defined question. 2) The hinge region mutations are rationally selected based on helix propensity predictions. 3) The in vivo single-molecule measurements provide direct access to search kinetics in living cells. 4) The authors acknowledge and discuss discrepancies between in vitro and in vivo observations rather than ignoring them.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence supports claim
+  - **Claim pointer** The authors state that MD simulations identified Q55N as favoring the search conformation, with a predicted decrease in helix propensity compared to wild type.
+  - **Evidence pointer** Fig. 1E, Materials and methods section "Quantifying the fraction of hinges that have helical conformation"
+  - **Concern** The MD simulation results for Q55N show no statistically significant difference from wild type (P = 0.07), yet the authors proceed to treat Q55N as a search-favoring mutant throughout the paper. The Agadir prediction for the isolated peptide suggests decreased helicity, but the full-protein MD simulation does not confirm this. The authors state the lack of effect "could be masked by the uncertainty estimate," but this is speculative. If the MD simulation does not demonstrate that Q55N actually biases the ensemble toward the search state, the interpretation of all subsequent Q55N data as reflecting search-state bias is undermined.
+  - **Why it matters** The central premise of the paper is that the two mutants represent opposite biases in the conformational equilibrium. If Q55N does not measurably shift this equilibrium in the full protein, the experimental results attributed to search-state bias cannot be interpreted as such. The paper's main conclusion depends on this assignment.
+  - **Resolution test** The authors should either provide additional MD sampling or enhanced sampling simulations demonstrating a significant difference in helix propensity for Q55N, or acknowledge that the Q55N phenotype may arise from a different mechanism and adjust the interpretation accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence supports claim
+  - **Claim pointer** The authors claim that the in vivo search time for Q55N is similar to wild type, based on fitting the kinetic model to single-molecule data.
+  - **Evidence pointer** Fig. 4A, D; Materials and methods section "Kinetic analysis of LacI binding to Osym after IPTG removal"
+  - **Concern** The kinetic model used to extract in vivo association rates relies on several assumptions: constant free LacI concentration, first-order IPTG efflux, and a specific relationship between in vitro and in vivo dissociation rates. The authors state that the relationship between in vitro and in vivo dissociation rates is "locked" to Miller measurements, but the details of this locking procedure and its validation are not fully described. The model also excludes a state where LacI is on the operator but not specifically bound, which the authors acknowledge. Given these assumptions, the claim that search times are similar for Q55N and wild type may not be robust.
+  - **Why it matters** The conclusion that search speed is not improved by favoring the search state is a key negative result. If the model cannot reliably distinguish search times, this conclusion is not established.
+  - **Resolution test** The authors should provide a more detailed description of the model fitting procedure, including parameter identifiability analysis, and ideally validate the model against independent measurements or simulations. Sensitivity analysis to the key assumptions should be presented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence supports claim
+  - **Claim pointer** The authors state that the ~3-fold difference in in vitro dissociation rates between Q55N and wild type is insufficient to explain the ~20-fold difference in in vivo binding strength.
+  - **Evidence pointer** Fig. 2G, Fig. 3A, Discussion section
+  - **Concern** The authors identify a quantitative discrepancy between in vitro and in vivo measurements but do not provide a satisfactory explanation. They discuss several possibilities (ionic strength, crowding, RNAP competition) but do not test any of them directly. The EMSA data show that Q55N is less salt-sensitive than wild type, which would predict the opposite direction of the discrepancy. The authors conclude that "some aspect of the in vivo situation is not accounted for," which is an honest but unsatisfying statement for a paper that aims to establish a mechanistic model.
+  - **Why it matters** The quantitative inconsistency between in vitro and in vivo measurements suggests that the model may be incomplete or that the measurements are not directly comparable. Without resolving this, the quantitative claims about binding strength differences are not reliable.
+  - **Resolution test** The authors should either perform additional experiments to identify the missing factor (e.g., measuring in vivo dissociation rates directly, testing crowding effects in vitro) or present a more quantitative model that can account for the discrepancy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states the conclusion as "the trade-off is between binding stability and inducibility rather than between speed and binding stability." This is a strong claim that is not fully supported by the data, given the unresolved discrepancies discussed above.
+  - **Required correction** Soften the claim or add a qualifier such as "our data support a model in which..."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Materials and methods section "Molecular dynamic simulations"
+  - **Issue** The description of the MD simulation setup lacks some details that would be needed for reproduction, such as the exact number of simulation steps, the equilibration protocol, and the criteria for determining when the plateau was reached.
+  - **Required correction** Provide additional simulation details or reference a prior publication where the full protocol is described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 2 results
+  - **Evidence pointer** Results section "High-throughput in vitro binding kinetics"
+  - **Issue** The text reports P-values for some comparisons but does not specify the statistical test used for the PBM data or how multiple testing was handled across 2479 sequences.
+  - **Required correction** Specify the statistical tests used and the multiple testing correction applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on V52A
+  - **Issue** The sentence "the suggestion that the search is similar for Wt-LacI and V52A-LacI rely on the assumption that the ratio of dissociation rates is the same in vitro and in vivo" is grammatically awkward and the logic is somewhat convoluted.
+  - **Required correction** Rewrite for clarity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, G8A mutant
+  - **Evidence pointer** Results section "In silico evaluation of hinge helix propensity"
+  - **Issue** The G58A mutant is mentioned in the MD simulations and initial in vitro screening but is not carried through the rest of the study. The authors state it was not selected for further investigation but do not explain why beyond a brief mention of its binding ability.
+  - **Required correction** Provide a brief explanation for why G58A was excluded from further study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (Q55N MD simulation does not confirm predicted helix propensity decrease), R1-M2 (in vivo kinetic model assumptions not fully validated)
+
+## Risk / unsupported claims
+- The claim that Q55N favors the search conformation is not supported by the MD simulation data presented (P = 0.07).
+- The claim that search time is similar for Q55N and wild type relies on a kinetic model with unvalidated assumptions.
+- The quantitative discrepancy between in vitro and in vivo binding differences for Q55N is not explained.
+- The conclusion that the trade-off is between stability and inducibility rather than speed and stability is presented as a general principle but is based on a limited set of mutations in a single TF.
+- The statement that "the interactions between Wt-LacI and nonoperator DNA sequences are already sufficiently low not to get trapped" is an interpretation that is not directly tested.

@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report that cabozantinib binds to salmon sperm DNA under simulated physiological conditions, with a binding constant of 5.79 x 10^5 at 298 K, thermodynamic parameters indicating hydrophobic and hydrogen bonding interactions, and a minor groove binding mode supported by multiple spectroscopic, viscosity, and molecular docking methods.
+- **Visible evidence base** Abstract text only; no figures, tables, or detailed methods provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, raw data, spectra, viscosity measurements, ionic strength data, FT-IR spectra, molecular docking parameters, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and methodologically broad study of the interaction between cabozantinib and salmon sperm DNA. The combination of multiple spectroscopic techniques, viscosity, ionic strength, and molecular docking is appropriate for characterizing drug-DNA binding. However, the abstract lacks quantitative details, error estimates, and control experiments, and several claims are not fully supported by the evidence presented. The thermodynamic interpretation and the assignment of binding mode require more rigorous justification. The work is of interest to researchers in drug-DNA interactions and anticancer drug development, but the current evidence base is insufficient to fully establish the conclusions.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, pharmaceutical sciences, and cancer pharmacology would be interested in this work because it characterizes the DNA binding properties of cabozantinib, a clinically used tyrosine kinase inhibitor. Understanding drug-DNA interactions can inform mechanisms of action, potential off-target effects, and the design of DNA-targeting therapeutics. The methodological approach may also appeal to those studying small molecule-nucleic acid interactions.
+- **Major strengths** The study employs a multi-technique approach, including fluorescence, UV-Vis, viscosity, ionic strength, FT-IR, and molecular docking, which provides complementary perspectives on the binding interaction. The use of simulated physiological conditions (pH 7.4) enhances the biological relevance. The inclusion of thermodynamic parameters and molecular docking adds depth to the characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The binding constant (K(b)) of cabozantinib with SS-DNA evaluated from the Benesi-Hildebrand plot was equal to 5.79 x 10(5) at 298 K.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single binding constant value without any indication of error, replicates, or the concentration ranges used. The Benesi-Hildebrand method assumes a specific binding stoichiometry and is sensitive to experimental conditions. No information is provided on how the fluorescence data were corrected for inner filter effects, which is a common source of error in such measurements.
+  - **Why it matters** A binding constant is a central quantitative claim of the study. Without error estimates, replicate measurements, and details on data correction, the reliability and reproducibility of this value cannot be assessed. This undermines the quantitative foundation of the binding characterization.
+  - **Resolution test** Provide the binding constant with standard deviation from at least three independent experiments, specify the concentration ranges of cabozantinib and DNA, and describe the inner filter effect correction procedure. Show a representative Benesi-Hildebrand plot with the linear fit and residuals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The entropy and enthalpy changes (∆S(0) and ∆H(0)) in the binding interaction of SS-DNA with cabozantinib were 44.13 J mol(-1) K(-1) and -19.72 KJ mol(-1), respectively, demonstrating that the basic binding interaction forces are hydrophobic and hydrogen bonding interactions.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The thermodynamic parameters are reported with high precision but no error estimates. The interpretation that hydrophobic and hydrogen bonding interactions are the basic forces is based on the signs and magnitudes of ∆H and ∆S, but this is an oversimplification. The abstract does not specify the temperature range over which these parameters were derived, nor whether the van't Hoff analysis was linear. Additionally, the units for ∆S are given as J mol(-1) K(-1) while ∆H is in KJ mol(-1), which is inconsistent and may indicate a typographical error.
+  - **Why it matters** Thermodynamic parameters are used to infer the nature of binding forces, which is a key conclusion of the study. If the values are not robust or the interpretation is not justified, the mechanistic claims are weakened. Inconsistent units also raise concerns about data handling.
+  - **Resolution test** Report ∆H and ∆S with standard errors, specify the temperature range and number of temperatures used, and show the van't Hoff plot. Correct the units for consistency. Provide a more nuanced discussion of how the thermodynamic signs relate to specific interaction types, considering that hydrophobic and hydrogen bonding contributions are not mutually exclusive.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Results from UV-Vis absorption spectroscopy, competitive binding interaction with rhodamine B or ethidium bromide, and viscosity measurements revealed that cabozantinib binds to SS-DNA via minor groove binding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The assignment of minor groove binding is based on multiple indirect methods, but the abstract does not provide any quantitative data or criteria for this conclusion. For example, the competitive binding experiments with rhodamine B and ethidium bromide are not described in terms of displacement efficiency or binding constants. Viscosity measurements are mentioned but no data are shown. The abstract also does not discuss how the results from these methods were interpreted to distinguish minor groove from intercalation or major groove binding.
+  - **Why it matters** The binding mode is a central claim of the study and has implications for the biological mechanism. Without quantitative evidence and clear criteria, the conclusion is not verifiable. The methods used are known to have limitations and can be ambiguous if not carefully controlled.
+  - **Resolution test** Provide displacement data (e.g., Stern-Volmer quenching constants or percentage displacement) for rhodamine B and ethidium bromide, and show viscosity data as a function of DNA concentration with appropriate controls. Discuss how the results collectively rule out intercalation and major groove binding, and consider using a minor groove binder control (e.g., Hoechst 33258) for comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The molecular docking results revealed that cabozantinib fits into the AT-rich region of the B-DNA minor groove and the binding site of cabozantinib was 4 base pairs long.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The molecular docking results are presented as definitive, but no details are provided on the docking software, scoring functions, DNA structure used, or validation of the docking protocol. The claim that the binding site is 4 base pairs long is not supported by any quantitative measure. The abstract also does not mention whether multiple docking poses were considered or how the best pose was selected.
+  - **Why it matters** Molecular docking is a computational prediction and its reliability depends on the methodology and validation. Without these details, the docking results cannot be evaluated, and the claim of a specific binding site is not substantiated.
+  - **Resolution test** Describe the docking software, force field, DNA structure (e.g., PDB ID), and validation approach (e.g., redocking with known binders). Provide a figure of the docked pose with the binding site clearly indicated, and report the docking score and the criteria used to define the binding site length.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms such as "Benesi-Hildebrand plot" and "active torsions" without brief explanations, which may hinder readability for a broader audience.
+  - **Required correction** Add brief parenthetical explanations for these terms, or rephrase to make the methods more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the biological significance of the binding interaction, such as potential implications for cabozantinib's mechanism of action or therapeutic relevance.
+  - **Required correction** Add a sentence in the conclusion that contextualizes the findings in terms of potential biological or pharmacological implications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Ionic strength measurement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** Ionic strength measurement is listed as a method, but no results or interpretation are provided in the abstract.
+  - **Required correction** Either report the key finding from the ionic strength experiments or remove the mention if it is not central to the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The study applies a standard set of biophysical methods to a specific drug, which is not highly original but is of interest. Scientific importance: The findings may have implications for understanding cabozantinib's interactions, but the significance is not clearly articulated. Interdisciplinary readership: The work is relevant to biophysics, chemistry, and pharmacology, but the abstract is too technical for a broad audience. Technical soundness: The lack of quantitative details, error estimates, and methodological descriptions prevents a full assessment. Readability for nonspecialists: The abstract is dense and uses jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative and methodological detail to support the central claims. A revised manuscript with full experimental details, error analysis, and clearer interpretation would be needed to assess the validity of the conclusions.
+
+## Risk / unsupported claims
+- The binding constant value (5.79 x 10^5) is reported without error or replicate information, making it unverifiable.
+- The thermodynamic parameters (∆H and ∆S) are reported with inconsistent units and no error estimates, and the interpretation of binding forces is oversimplified.
+- The assignment of minor groove binding is not supported by quantitative data from the mentioned methods.
+- The molecular docking results are presented without methodological details, making the specific binding site claim unverifiable.
+- The biological or pharmacological significance of the binding interaction is not stated, leaving the importance of the work unclear.

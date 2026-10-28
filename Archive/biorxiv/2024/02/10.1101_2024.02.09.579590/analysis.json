@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.09.579590",
+  "title": "Prediction of protein-carbohydrate binding sites from protein primary sequence",
+  "authors": "Md Muhaiminul Islam Nafi; Quazi Farah Nawar; Tasnim Nishat Islam; M Saifur Rahman",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-12",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用集成机器学习结合蛋白语言模型预测蛋白质-糖类结合位点，虽非TF-DNA体系，但属于广义蛋白-配体互作且方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Background A protein is a large complex macromolecule that has a crucial role in performing most of the work in cells and tissues. It is made up of one or more long chains of amino acid residues. Another important biomolecule, after DNA and protein, is carbohydrate. Carbohydrates interact with proteins to run various biological processes. Several biochemical experiments exist to learn the protein-carbohydrate interactions, but they are expensive, time-consuming, and challenging. Therefore, developing computational techniques for effectively predicting protein-carbohydrate binding interactions from protein primary sequence has given rise to a prominent new field of research. Result In this study, we propose StackCBEmbed , an ensemble machine learning model to effectively classify protein-carbohydrate binding interactions at residue level. StackCBEmbed combines traditional sequence-based features along with features derived from a pre-trained transformer-based protein language model. To the best of our knowledge, ours is the first attempt to apply protein language model in predicting protein-carbohydrate binding interactions. StackCBEmbed achieved sensitivity and balanced accuracy scores of 0.730, 0.776 and 0.666, 0.742 in two separate independent test sets. This performance is superior compared to the earlier prediction models benchmarked in the same datasets. Conclusion We thus hope that StackCBEmbed will discover novel protein-carbohydrate interactions and help advance the related fields of research. StackCBEmbed is freely available as Python scripts at https://github.com/nafiislam/StackCBEmbed .",
+  "abstract_zh": "背景 蛋白质是一种大型复杂的大分子，在细胞和组织中执行大部分功能中起着关键作用。它由一个或多个氨基酸残基长链组成。继DNA和蛋白质之后，另一种重要的生物分子是碳水化合物。碳水化合物与蛋白质相互作用，驱动多种生物过程。已有多种生化实验用于研究蛋白质-碳水化合物相互作用，但这些实验成本高昂、耗时且具有挑战性。因此，开发计算技术以从蛋白质一级序列有效预测蛋白质-碳水化合物结合相互作用，催生了一个重要的新研究领域。结果 在本研究中，我们提出了StackCBEmbed，一种集成机器学习模型，用于在残基水平上有效分类蛋白质-碳水化合物结合相互作用。StackCBEmbed结合了传统的基于序列的特征以及从预训练的基于Transformer的蛋白质语言模型中提取的特征。据我们所知，这是首次尝试将蛋白质语言模型应用于预测蛋白质-碳水化合物结合相互作用。StackCBEmbed在两个独立的测试集上分别实现了灵敏度为0.730、0.776和平衡准确率为0.666、0.742。这一性能优于在同一数据集上基准测试的早期预测模型。结论 因此，我们希望StackCBEmbed能够发现新的蛋白质-碳水化合物相互作用，并推动相关研究领域的发展。StackCBEmbed以Python脚本形式免费提供，可在https://github.com/nafiislam/StackCBEmbed获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.09.579590",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.09.579590",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.09.579590/index.html"
+}

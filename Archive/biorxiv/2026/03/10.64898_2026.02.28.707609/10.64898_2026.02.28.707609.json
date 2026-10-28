@@ -1,0 +1,103 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.28.707609",
+  "title": "NN-Assisted Image Analysis for Quantifying Intracellular Trypanosoma cruzi Infection",
+  "doi": "10.64898/2026.02.28.707609",
+  "abstract": "Quantification of intracellular Trypanosoma cruzi infection remains a central, yet methodologically challenging step in Chagas disease research and early-stage drug discovery. Current approaches largely rely on manual microscopy-based counting or on genetically modified parasites, both of which present limitations in scalability, reproducibility, or accessibility. Here, we developed and validated a neural network (NN)-based pipeline for the automated quantification of infection rates and parasite burden in mammalian cells using images stained exclusively with DNA-binding fluorescent dyes. Two independently refined deep-learning models were trained to segment host cell nuclei and intracellular amastigotes, respectively, and subsequently integrated into a unified algorithm that assigns each parasite to its nearest host cell. The pipeline was evaluated using confocal images from six mammalian cell lines infected with two T. cruzi strains and compared against blinded manual quantification. Automated detection of both, host nuclei and parasites, showed high concordance with manual counts, with median deviations around 5% and similar distributions of parasite burden per cell. In contrast to morphology-based image analysis methods, our NN-based approach demonstrated improved robustness across diverse cell types and staining conditions, reduced parameter dependency, and independent segmentation of host and parasite objects, minimizing error propagation. Although minor biases in parasite-to-cell assignment were observed in densely clustered cultures, overall infection indexes and burden estimates closely matched manual analysis. This accessible and scalable AI-assisted workflow provides a reproducible alternative to manual quantification and represents a methodological advance for standardized phenotypic screening of intracellular T. cruzi , supporting more robust and harmonized drug discovery efforts in Chagas disease.",
+  "authors": [
+    "Iolster J",
+    "Vilchez Larrea SC",
+    "Alonso GD"
+  ],
+  "published_date": "2026-03-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.28.707609",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.28.707609.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1221605",
+    "raw_record": {
+      "id": "PPR1221605",
+      "source": "PPR",
+      "doi": "10.64898/2026.02.28.707609",
+      "title": "NN-Assisted Image Analysis for Quantifying Intracellular  <i>Trypanosoma cruzi</i>  Infection",
+      "authorString": "Iolster J, Vilchez Larrea SC, Alonso GD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Iolster J",
+            "lastName": "Iolster",
+            "firstName": "Joaquín",
+            "initials": "J"
+          },
+          {
+            "fullName": "Vilchez Larrea SC",
+            "lastName": "Vilchez Larrea",
+            "firstName": "Salomé Catalina",
+            "initials": "SC"
+          },
+          {
+            "fullName": "Alonso GD",
+            "lastName": "Alonso",
+            "firstName": "Guillermo Daniel",
+            "initials": "GD"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Quantification of intracellular  Trypanosoma cruzi infection remains a central, yet methodologically challenging step in Chagas disease research and early-stage drug discovery. Current approaches largely rely on manual microscopy-based counting or on genetically modified parasites, both of which present limitations in scalability, reproducibility, or accessibility. Here, we developed and validated a neural network (NN)-based pipeline for the automated quantification of infection rates and parasite burden in mammalian cells using images stained exclusively with DNA-binding fluorescent dyes. Two independently refined deep-learning models were trained to segment host cell nuclei and intracellular amastigotes, respectively, and subsequently integrated into a unified algorithm that assigns each parasite to its nearest host cell. The pipeline was evaluated using confocal images from six mammalian cell lines infected with two  T. cruzi strains and compared against blinded manual quantification. Automated detection of both, host nuclei and parasites, showed high concordance with manual counts, with median deviations around 5% and similar distributions of parasite burden per cell. In contrast to morphology-based image analysis methods, our NN-based approach demonstrated improved robustness across diverse cell types and staining conditions, reduced parameter dependency, and independent segmentation of host and parasite objects, minimizing error propagation. Although minor biases in parasite-to-cell assignment were observed in densely clustered cultures, overall infection indexes and burden estimates closely matched manual analysis. This accessible and scalable AI-assisted workflow provides a reproducible alternative to manual quantification and represents a methodological advance for standardized phenotypic screening of intracellular  T. cruzi , supporting more robust and harmonized drug discovery efforts in Chagas disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.28.707609"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-03",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

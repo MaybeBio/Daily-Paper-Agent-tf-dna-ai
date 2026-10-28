@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35135629",
+  "title": "PredicTF: prediction of bacterial transcription factors in complex microbial communities using deep learning.",
+  "authors": "Oliveira Monteiro, Lummy Maria; Saraiva, Joao Pedro; Brizola Toscan, Rodolfo; Stadler, Peter F; Silva-Rocha, Rafael; Nunes da Rocha, Ulisses",
+  "journal": "Environmental microbiome",
+  "published_date": "2022-02-10",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测细菌转录因子蛋白本身，而非TF-DNA结合位点或互作机制，对象与互作轴均偏离课题核心。",
+  "abstract": "BACKGROUND: Transcription factors (TFs) are proteins controlling the flow of genetic information by regulating cellular gene expression. A better understanding of TFs in a bacterial community context may open novel revenues for exploring gene regulation in ecosystems where bacteria play a key role. Here we describe PredicTF, a platform supporting the prediction and classification of novel bacterial TF in single species and complex microbial communities. PredicTF is based on a deep learning algorithm. RESULTS: To train PredicTF, we created a TF database (BacTFDB) by manually curating a total of 11,961 TF distributed in 99 TF families. Five model organisms were used to test the performance and the accuracy of PredicTF. PredicTF was able to identify 24-62% of the known TFs with an average precision of 88% in our five model organisms. We demonstrated PredicTF using pure cultures and a complex microbial community. In these demonstrations, we used (meta)genomes for TF prediction and (meta)transcriptomes for determining the expression of putative TFs. CONCLUSION: PredicTF demonstrated high accuracy in predicting transcription factors in model organisms. We prepared the pipeline to be easily implemented in studies profiling TFs using (meta)genomes and (meta)transcriptomes. PredicTF is an open-source software available at https://github.com/mdsufz/PredicTF .",
+  "abstract_zh": "背景：转录因子（Transcription factors, TFs）是调控细胞基因表达从而控制遗传信息流动的蛋白质。在细菌群落背景下更好地理解TFs，可能为探索细菌起关键作用的生态系统中的基因调控开辟新途径。在此，我们描述了PredicTF，一个支持在单一物种和复杂微生物群落中预测和分类新型细菌TFs的平台。PredicTF基于深度学习算法。结果：为训练PredicTF，我们通过人工整理共11,961个TFs，分布于99个TF家族，创建了一个TF数据库（BacTFDB）。使用五种模式生物测试了PredicTF的性能和准确性。PredicTF能够识别已知TFs的24-62%，在我们的五种模式生物中平均精确度为88%。我们使用纯培养物和复杂微生物群落演示了PredicTF。在这些演示中，我们使用（宏）基因组进行TF预测，并使用（宏）转录组确定推定TFs的表达。结论：PredicTF在预测模式生物中的转录因子方面表现出高准确性。我们准备了该流程，以便在研究使用（宏）基因组和（宏）转录组分析TFs的研究中易于实施。PredicTF是开源软件，可在https://github.com/mdsufz/PredicTF获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35135629/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35135629/",
+  "paper_page_path": "papers/pubmed/35135629/index.html"
+}

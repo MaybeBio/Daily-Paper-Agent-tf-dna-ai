@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38950902",
+  "title": "Machine learning enables pan-cancer identification of mutational hotspots at persistent CTCF binding sites.",
+  "authors": "Chen, Wenhan; Zeng, Yi C; Achinger-Kawecka, Joanna; Campbell, Elyssa; Jones, Alicia K; Stewart, Alastair G; Khoury, Amanda; Clark, Susan J",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-07-02",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习预测持久性CTCF结合位点并分析其癌症突变富集，虽涉及TF-DNA结合位点预测，但核心是突变负荷分析而非互作机制建模，方法可迁移但深度有限。",
+  "abstract": "CCCTC-binding factor (CTCF) is an insulator protein that binds to a highly conserved DNA motif and facilitates regulation of three-dimensional (3D) nuclear architecture and transcription. CTCF binding sites (CTCF-BSs) reside in non-coding DNA and are frequently mutated in cancer. Our previous study identified a small subclass of CTCF-BSs that are resistant to CTCF knock down, termed persistent CTCF binding sites (P-CTCF-BSs). P-CTCF-BSs show high binding conservation and potentially regulate cell-type constitutive 3D chromatin architecture. Here, using ICGC sequencing data we made the striking observation that P-CTCF-BSs display a highly elevated mutation rate in breast and prostate cancer when compared to all CTCF-BSs. To address whether P-CTCF-BS mutations are also enriched in other cell-types, we developed CTCF-INSITE-a tool utilising machine learning to predict persistence based on genetic and epigenetic features of experimentally-determined P-CTCF-BSs. Notably, predicted P-CTCF-BSs also show a significantly elevated mutational burden in all 12 cancer-types tested. Enrichment was even stronger for P-CTCF-BS mutations with predicted functional impact to CTCF binding and chromatin looping. Using in vitro binding assays we validated that P-CTCF-BS cancer mutations, predicted to be disruptive, indeed reduced CTCF binding. Together this study reveals a new subclass of cancer specific CTCF-BS DNA mutations and provides insights into their importance in genome organization in a pan-cancer setting.",
+  "abstract_zh": "CCCTC结合因子（CTCF）是一种绝缘蛋白，结合高度保守的DNA基序，并促进三维（3D）核结构和转录的调控。CTCF结合位点（CTCF-BSs）位于非编码DNA中，在癌症中频繁突变。我们先前的研究鉴定出一小类对CTCF敲低具有抗性的CTCF-BSs，称为持久性CTCF结合位点（P-CTCF-BSs）。P-CTCF-BSs表现出高结合保守性，并可能调控细胞类型组成性的3D染色质结构。在此，利用ICGC测序数据，我们观察到显著现象：与所有CTCF-BSs相比，P-CTCF-BSs在乳腺癌和前列腺癌中显示出显著升高的突变率。为探究P-CTCF-BS突变是否在其他细胞类型中也富集，我们开发了CTCF-INSITE——一种利用机器学习基于实验确定的P-CTCF-BSs的遗传和表观遗传特征预测持久性的工具。值得注意的是，预测的P-CTCF-BSs在所有测试的12种癌症类型中也显示出显著升高的突变负担。对于预测对CTCF结合和染色质环化具有功能影响的P-CTCF-BS突变，富集程度更强。通过体外结合实验，我们验证了预测具有破坏性的P-CTCF-BS癌症突变确实降低了CTCF结合。综合而言，本研究揭示了一类新的癌症特异性CTCF-BS DNA突变亚类，并提供了其在泛癌背景下基因组组织重要性的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38950902/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38950902/",
+  "paper_page_path": "papers/pubmed/38950902/index.html"
+}

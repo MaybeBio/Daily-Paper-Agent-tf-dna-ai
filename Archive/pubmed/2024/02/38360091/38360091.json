@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "38360091",
+    "doi": "10.1016/j.jmb.2024.168491",
+    "title": "Rapid Long-distance Migration of RPA on Single Stranded DNA Occurs Through Intersegmental Transfer Utilizing Multivalent Interactions."
+  },
+  "content": {
+    "abstract": "Replication Protein A (RPA) is asingle strandedDNA(ssDNA)binding protein that coordinates diverse DNA metabolic processes including DNA replication, repair, and recombination. RPA is a heterotrimeric protein with six functional oligosaccharide/oligonucleotide (OB) domains and flexible linkers. Flexibility enables RPA to adopt multiple configurations andis thought to modulate its function. Here, usingsingle moleculeconfocal fluorescencemicroscopy combinedwith optical tweezers and coarse-grained molecular dynamics simulations, we investigated the diffusional migration of single RPA molecules on ssDNA undertension.The diffusioncoefficientDis the highest (20,000nucleotides(2)/s) at 3pNtension and in 100 mMKCl and markedly decreases whentensionor salt concentrationincreases. We attribute the tension effect to intersegmental transfer which is hindered by DNA stretching and the salt effect to an increase in binding site size and interaction energy of RPA-ssDNA. Our integrative study allowed us to estimate the size and frequency of intersegmental transfer events that occur through transient bridging of distant sites on DNA by multiple binding sites on RPA. Interestingly, deletion of RPA trimeric core still allowed significant ssDNA binding although the reduced contact area made RPA 15-fold more mobile. Finally, we characterized the effect of RPA crowding on RPA migration. These findings reveal how the high affinity RPA-ssDNA interactions are remodeled to yield access, a key step in several DNA metabolic processes.",
+    "keywords": [
+      "Diffusion",
+      "MD simulation",
+      "Replication protein A (RPA)",
+      "Single Molecule Biophysics"
+    ],
+    "mesh_terms": [
+      "DNA Replication",
+      "*DNA, Single-Stranded/chemistry/metabolism",
+      "Protein Binding/genetics",
+      "*Replication Protein A/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pangeni, Sushil",
+        "Biswas, Gargi",
+        "Kaushik, Vikas",
+        "Kuppa, Sahiti",
+        "Yang, Olivia",
+        "Lin, Chang-Ting",
+        "Mishra, Garima",
+        "Levy, Yaakov",
+        "Antony, Edwin",
+        "Ha, Taekjip"
+      ],
+      "short_names": [
+        "Pangeni S",
+        "Biswas G",
+        "Kaushik V",
+        "Kuppa S",
+        "Yang O",
+        "Lin CT",
+        "Mishra G",
+        "Levy Y",
+        "Antony E",
+        "Ha T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "TC Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, USA; Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA, USA.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO, USA.",
+        "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Physics, Ashoka University, Sonepet, Haryana, India.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO, USA. Electronic address: edwin.antony@health.slu.edu.",
+        "TC Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, USA; Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA, USA; Department of Pediatrics, Harvard Medical School, Boston, MA, USA; Howard Hughes Medical Institute, Boston, MA, USA. Electronic address: taekjip.ha@childrens.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pangeni, Sushil",
+        "short_name": "Pangeni S",
+        "identifiers": [],
+        "affiliations": [
+          "TC Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, USA; Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Biswas, Gargi",
+        "short_name": "Biswas G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Kaushik, Vikas",
+        "short_name": "Kaushik V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Kuppa, Sahiti",
+        "short_name": "Kuppa S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Olivia",
+        "short_name": "Yang O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Chang-Ting",
+        "short_name": "Lin CT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Mishra, Garima",
+        "short_name": "Mishra G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Ashoka University, Sonepet, Haryana, India."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Antony, Edwin",
+        "short_name": "Antony E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO, USA. Electronic address: edwin.antony@health.slu.edu."
+        ]
+      },
+      {
+        "full_name": "Ha, Taekjip",
+        "short_name": "Ha T",
+        "identifiers": [],
+        "affiliations": [
+          "TC Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, USA; Program in Cellular and Molecular Medicine, Boston Children's Hospital, Boston, MA, USA; Department of Pediatrics, Harvard Medical School, Boston, MA, USA; Howard Hughes Medical Institute, Boston, MA, USA. Electronic address: taekjip.ha@childrens.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Mar 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 00:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42273915",
+      "41747261",
+      "40691144",
+      "40598891",
+      "39574592",
+      "39275989",
+      "38989614",
+      "38585962"
+    ],
+    "refs": [
+      "37230964",
+      "37011199",
+      "36750250",
+      "36056028",
+      "35385349",
+      "34316690",
+      "34113828",
+      "33970634",
+      "33847957",
+      "33444457",
+      "33236762",
+      "33043007",
+      "32990435",
+      "32856505",
+      "31919510",
+      "31350334",
+      "30933978",
+      "30796471",
+      "30723327",
+      "30575763",
+      "29458769",
+      "28934470",
+      "28698370",
+      "28257700",
+      "27903895",
+      "27131385",
+      "27016742",
+      "26393661",
+      "26004442",
+      "25855635",
+      "25787788",
+      "25403473",
+      "25400143",
+      "25195049",
+      "25171654",
+      "25058683",
+      "24974030",
+      "24792418",
+      "24625741",
+      "24498402",
+      "23695672",
+      "23548139",
+      "23444293",
+      "23303776",
+      "23070815",
+      "23005136",
+      "22956981",
+      "22918586",
+      "21784244",
+      "21660711",
+      "21660710",
+      "19820696",
+      "19492351",
+      "18680110",
+      "17583916",
+      "17110927",
+      "17002295",
+      "16935876",
+      "16407120",
+      "15041689",
+      "11927569",
+      "11157767",
+      "10856290",
+      "10526407",
+      "9811712",
+      "9138579",
+      "8692803",
+      "8628994",
+      "8196638",
+      "7947831",
+      "2833742",
+      "2554144",
+      "1885001"
+    ],
+    "similar": [
+      "38360091",
+      "27830676",
+      "31350334",
+      "25171654",
+      "27131385",
+      "38301751",
+      "33847957",
+      "32856505",
+      "14596605",
+      "30723327",
+      "38989614",
+      "31919510",
+      "25058683",
+      "38203759",
+      "36056028",
+      "29021206",
+      "24498402",
+      "17583916",
+      "32990435",
+      "33444457",
+      "18469000",
+      "37739410",
+      "22160652",
+      "38045304",
+      "29458769",
+      "33847958",
+      "25403473",
+      "23303776",
+      "30575763",
+      "25195049",
+      "19445949",
+      "15362978",
+      "34140406",
+      "10194309",
+      "20184389",
+      "15938633",
+      "35385349",
+      "37087464",
+      "28934470",
+      "28551686",
+      "30796471",
+      "19586055",
+      "37391417",
+      "9600915",
+      "28100698",
+      "10653628",
+      "26520106",
+      "9730822",
+      "23070815",
+      "33242956",
+      "15102447",
+      "38658755",
+      "16935876",
+      "25498946",
+      "22179778",
+      "35768435",
+      "14747526",
+      "25451229",
+      "21399625",
+      "32017119",
+      "8756712",
+      "16523492",
+      "17110927",
+      "25348395",
+      "30065069",
+      "29917162",
+      "37378431",
+      "27016742",
+      "35042867",
+      "39329264",
+      "11554452",
+      "10194308",
+      "30044093",
+      "25552480",
+      "32621611",
+      "16407120",
+      "22521144",
+      "12697761",
+      "25787788",
+      "11041860",
+      "28177605",
+      "16234232",
+      "30700555",
+      "16412704",
+      "23267009",
+      "37011199",
+      "36883884",
+      "34741010",
+      "39275989",
+      "27984589",
+      "28594346",
+      "15654753",
+      "32796030",
+      "37140030",
+      "14737196",
+      "19378948",
+      "32128579",
+      "36894693",
+      "26067273",
+      "26004442"
+    ],
+    "review": [
+      "38360091",
+      "27830676",
+      "25171654",
+      "32856505",
+      "38203759",
+      "25403473",
+      "30796471",
+      "26520106",
+      "15102447",
+      "16935876",
+      "32017119",
+      "16523492"
+    ],
+    "pmc": [
+      "10949852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00063-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38360091/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1473",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

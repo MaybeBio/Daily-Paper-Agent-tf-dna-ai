@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "41780474",
+    "doi": "10.1016/j.ecoenv.2026.119912",
+    "title": "Benzo[a]pyrene promotes gastric cancer progression via activation of the Correa cascade through modulation of the STAT3-TP53-MMP9 molecular axis."
+  },
+  "content": {
+    "abstract": "To investigate the role of Benzo[a]pyrene (BaP) in driving the Correa cascade during gastric cancer development, we employed an integrated strategy combining network toxicology, machine learning, and molecular dynamics (MD) simulations. We identified 301 co-expressed genes spanning the Correa sequence, from chronic inflammation to invasive carcinoma. A protein-protein interaction network was constructed using STRING, and CytoHubba analysis highlighted five hub genes: TNF, IL6, IFNG, IL1B, and STAT3. Using CHEMBL and SUPER-PRED, we predicted 846 potential BaP targets. Intersection with disease-related genes revealed 62 common targets. Among eight candidate hub genes, an integrated Stepglm[both] and Random Forest model identified STAT3, TP53, and MMP9 as core targets. Receiver operating characteristic analysis confirmed their strong diagnostic potential (AUC > 0.78), while SHAP analysis ranked STAT3 as the most influential factor (SHAP = 0.241). Notably, these genes exhibited synergistic expression patterns in tumors (STAT3-TP53: rho = 0.175; STAT3-MMP9: rho = 0.261; TP53-MMP9: rho = 0.216; all P < 0.01) and showed a dose-dependent association with disease progression. Genomic profiling revealed frequent mutations and amplifications in STAT3, TP53, and MMP9, with TP53 exhibiting the highest mutation rate. Analysis using UALCAN demonstrated significant upregulation of their mRNA levels in tumor tissues compared to normal tissues (P < 0.05). Clinically, high STAT3 and TP53 expression correlated with poorer survival, whereas elevated MMP9 levels were associated with improved outcomes. Mechanistic studies, including molecular docking and dynamics simulations, confirmed stable BaP-target interactions (e.g., STAT3 binding energy = -8.285 kcal/mol) mediated by non-covalent interactions, which disrupt the bidirectional STAT3-TP53 regulatory axis (STAT3 --> MDM2  dash, vertical TP53; TP53 --> PIAS3  dash, vertical STAT3). In summary, this study identifies STAT3, TP53, and MMP9 as central mediators of BaP-induced progression along the Correa cascade via a synergistic regulatory network. These findings provide new insights into environmental gastric carcinogenesis and highlight potential therapeutic strategies, including dual STAT3/MDM2 inhibition or MMP9 blockade.",
+    "keywords": [
+      "Benzo[a]pyrene",
+      "Correa cascade",
+      "Gastric cancer",
+      "Machine learning",
+      "Molecular dynamic simulation"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/chemically induced/genetics/pathology/metabolism",
+      "*Matrix Metalloproteinase 9/metabolism/genetics",
+      "*STAT3 Transcription Factor/metabolism/genetics",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "*Benzo(a)pyrene/toxicity",
+      "Humans",
+      "Disease Progression",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tong, Jiajia",
+        "Liu, ShiYu",
+        "Du, Tingting",
+        "Liu, Wangting",
+        "Jin, Ziyi",
+        "Si, Wenqing",
+        "Zhang, Bingqian",
+        "Chen, Guangxia"
+      ],
+      "short_names": [
+        "Tong J",
+        "Liu S",
+        "Du T",
+        "Liu W",
+        "Jin Z",
+        "Si W",
+        "Zhang B",
+        "Chen G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 15062127562@163.com.",
+        "Department of Gastroenterology, The First People's Hospital of Xuzhou (Municipal Hospital Affiliated to Xuzhou Medical University), Xuzhou, Jiangsu 221000, China. Electronic address: 16351258@qq.com.",
+        "Shanghai Key Laboratory of Cancer Systems Regulation and Clinical Translation, Jiading District Central Hospital Affiliated Shanghai University of Medicine & Health Science, Shanghai 201800, China. Electronic address: dutingting0818@163.com.",
+        "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 3342717341@qq.com.",
+        "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 18252691026@163.com.",
+        "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 15161964048@163.com.",
+        "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: zbq7462@163.com.",
+        "Department of Gastroenterology, The First People's Hospital of Xuzhou (Municipal Hospital Affiliated to Xuzhou Medical University), Xuzhou, Jiangsu 221000, China. Electronic address: gx_chen2010@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tong, Jiajia",
+        "short_name": "Tong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 15062127562@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, ShiYu",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First People's Hospital of Xuzhou (Municipal Hospital Affiliated to Xuzhou Medical University), Xuzhou, Jiangsu 221000, China. Electronic address: 16351258@qq.com."
+        ]
+      },
+      {
+        "full_name": "Du, Tingting",
+        "short_name": "Du T",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Key Laboratory of Cancer Systems Regulation and Clinical Translation, Jiading District Central Hospital Affiliated Shanghai University of Medicine & Health Science, Shanghai 201800, China. Electronic address: dutingting0818@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Wangting",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 3342717341@qq.com."
+        ]
+      },
+      {
+        "full_name": "Jin, Ziyi",
+        "short_name": "Jin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 18252691026@163.com."
+        ]
+      },
+      {
+        "full_name": "Si, Wenqing",
+        "short_name": "Si W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: 15161964048@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bingqian",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Medicine, China University of Mining and Technology of School of Chemical Engineering & Technology, Xuzhou, Jiangsu 221000, China. Electronic address: zbq7462@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Guangxia",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First People's Hospital of Xuzhou (Municipal Hospital Affiliated to Xuzhou Medical University), Xuzhou, Jiangsu 221000, China. Electronic address: gx_chen2010@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/05 00:39",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [
+      "42345802"
+    ],
+    "refs": [],
+    "similar": [
+      "41780474",
+      "41895505",
+      "41692077",
+      "41136974",
+      "41973182",
+      "41288678",
+      "42328663",
+      "41714375",
+      "33370709",
+      "41670688",
+      "41331168",
+      "40543694",
+      "40397259",
+      "42034589",
+      "42163678",
+      "27601158",
+      "39780215",
+      "41038024",
+      "42421348",
+      "41555405",
+      "41371106",
+      "41716413",
+      "41638057",
+      "41828455",
+      "40916281",
+      "42295420",
+      "38844957",
+      "41442003",
+      "41927749",
+      "39962573",
+      "32841893",
+      "39310787",
+      "41150817",
+      "41029129",
+      "40676786",
+      "42011617",
+      "41342434",
+      "41388333",
+      "41817952",
+      "25297811",
+      "40293202",
+      "40840088",
+      "41601038",
+      "42236612",
+      "23402362",
+      "37556419",
+      "40602159",
+      "41970950",
+      "40886600",
+      "36872359",
+      "41459671",
+      "41478005",
+      "42292668",
+      "42008967",
+      "41671296",
+      "41083578",
+      "40304331",
+      "41261566",
+      "40574839",
+      "41299770",
+      "38783100",
+      "39251712",
+      "40652278",
+      "41373010",
+      "39434198",
+      "41193654",
+      "40728954",
+      "40721767",
+      "40615101",
+      "40384867",
+      "35996248",
+      "42103034",
+      "29471073",
+      "42349175",
+      "41664335",
+      "41042728",
+      "37983949",
+      "41106221",
+      "38790205",
+      "42056631",
+      "22675170",
+      "42107864",
+      "39938176",
+      "41747816",
+      "41274246",
+      "41288681",
+      "42364542",
+      "39375405",
+      "42065064",
+      "41060436",
+      "39773048",
+      "40174762",
+      "22581828",
+      "40679956",
+      "41769099",
+      "42168757",
+      "39748408",
+      "41453264",
+      "41326498",
+      "29329543"
+    ],
+    "review": [
+      "41780474"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00241-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

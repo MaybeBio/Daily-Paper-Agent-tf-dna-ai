@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Molecular dynamics simulation study of hOGG1 recognition of 8-oxoG in clustered lesions with adjacent mismatches
+- **Shared manuscript claim summary** The authors use μs-range molecular dynamics simulations and machine-learning-based postanalysis to investigate how an adjacent mismatch (5′ or 3′) affects hOGG1 recognition of 8-oxoG. They report stiffening of DNA-protein interactions and perturbation of 8-oxoG structural features, particularly with a 5′ mismatch, which they propose rationalizes the experimentally observed reduction in repair rates.
+- **Visible evidence base** Full text including Methods, Results (Figures 1-6 referenced), Discussion, and supplementary figure references
+- **Missing materials affecting confidence** Supplementary figures (S1-S11) and supplementary PDB files are referenced but not provided; experimental repair rate data from Sassa et al. are cited but not reproduced; no free energy calculations are presented
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational investigation of a biologically important question: how clustered DNA lesions, specifically an adjacent mismatch, impair recognition of 8-oxoG by hOGG1. The study uses state-of-the-art MD simulations with appropriate force fields and a machine-learning-based flexibility analysis. The authors identify plausible molecular mechanisms involving stiffening of the DNA-protein interface and altered backbone conformations of 8-oxoG. However, the manuscript has several weaknesses that limit the strength of the conclusions. The simulation time (400 ns per replicate) is modest for the claims made about "stiffening" and conformational preferences. The connection between the observed structural perturbations and the experimentally measured repair rates is largely qualitative and speculative. The statistical treatment of the distance and angle data is minimal, with only mean and standard deviation reported, which is insufficient to establish significance given the transient nature of many interactions. The manuscript would benefit from more rigorous free energy calculations or enhanced sampling to support the mechanistic claims.
+- **Who would be interested in the results, and why** Researchers in DNA repair, particularly those studying base excision repair mechanisms and the structural basis of lesion recognition by glycosylases. Computational biophysicists interested in protein-DNA interactions and the application of MD simulations to damaged DNA systems. Cancer biologists interested in the molecular origins of mutagenesis associated with oxidative DNA damage and clustered lesions.
+- **Major strengths** The study addresses a clinically relevant and mechanistically important question. The use of μs-range MD simulations with modern force fields (ff14SB + bsc1) and validated 8-oxoG parameters is appropriate. The machine-learning-based flexibility analysis is a modern and potentially powerful approach. The comparison of 5′ versus 3′ mismatch positions provides a useful contrast that helps isolate position-specific effects. The authors connect their findings to known cancer-associated mutations in hOGG1, adding translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the stiffening of the DNA-protein interactions upon the presence of the mismatches" is a key mechanism underlying reduced repair rates.
+  - **Evidence pointer** Section 3.1, Figures 2-4
+  - **Concern** The claim of "stiffening" is based on distance measurements and flexibility profiles, but the statistical analysis is inadequate. Only mean distances with standard deviations are reported, with no assessment of statistical significance across replicates or between systems. The flexibility profiles from the machine learning analysis are described qualitatively ("higher flexibility values for the reference structure") without quantitative comparison or error analysis. Given that the differences between systems may be subtle (as acknowledged for helical properties), the lack of rigorous statistical treatment undermines confidence in the stiffening claim.
+  - **Why it matters** The central mechanistic conclusion of the paper rests on the stiffening observation. If this is not statistically robust, the entire interpretive framework is weakened.
+  - **Resolution test** Provide statistical tests (e.g., bootstrap or permutation tests) comparing distance distributions and flexibility profiles between systems, with appropriate multiple-testing corrections. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the perturbation of 8-oxoG structural features upon addition of an adjacent lesion" rationalizes the lower repair yields with a 5′ mismatch.
+  - **Evidence pointer** Section 3.2, Figures 5-6
+  - **Concern** The structural analysis identifies differences in backbone angles and sugar puckering, but the connection to repair efficiency is speculative. The authors do not demonstrate how these specific conformational changes would impair hOGG1's catalytic activity or lesion extrusion. The claim that a 5′ mismatch "perturbs the geometry of DNA duplex" is based on descriptors that show modest differences (e.g., twist angle changes of ~10°), and the functional significance of these changes is not established. No free energy calculations or enhanced sampling are provided to connect the observed conformations to the energetics of the recognition/extrusion process.
+  - **Why it matters** The manuscript aims to explain experimentally observed differences in repair rates. Without a quantitative or energetic link between the observed structural features and the catalytic process, the rationalization remains speculative.
+  - **Resolution test** Perform free energy calculations (e.g., umbrella sampling or metadynamics) along the extrusion pathway for the three systems, or provide additional experimental validation (e.g., binding affinity measurements) to support the proposed mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that "the missing loop 79-83 was reconstructed using the SwissModel server" and that the system setup follows standard protocols.
+  - **Evidence pointer** Section 2.1
+  - **Concern** The methods section lacks critical details for reproducibility. The specific PDB structure used (6W13) is mentioned, but the sequence modifications, the exact protocol for loop reconstruction, the equilibration procedure (only "4-ns equilibration run" is mentioned without details on the protocol), and the parameters for the machine learning analysis are not fully described. The number of replicates (two) is small, and no convergence analysis is presented to justify that 400 ns per replicate is sufficient for the conclusions drawn.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without complete methodological details, other groups cannot verify or build upon these results.
+  - **Resolution test** Provide a complete description of the simulation protocol, including the equilibration scheme, the machine learning parameters, and a convergence analysis (e.g., block averaging or split-half analysis) demonstrating that the observed differences are stable over the simulation time.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we use μs-range molecular dynamics simulations" but the total simulation time is 2.4 μs (2 replicates × 400 ns × 3 systems), which is at the lower boundary of "μs-range." This could be misleading.
+  - **Required correction** Specify the total simulation time per system and the number of replicates in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** Figure 1C shows the DNA sequence and lesion positions, but the exact sequence context and the position numbering are not described in the text. This makes it difficult to assess the relevance of the chosen sequence to physiological contexts.
+  - **Required correction** Provide the full sequence with numbering in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1.1
+  - **Evidence pointer** Section 3.1.1, Figures 2-3
+  - **Issue** The distance values are reported as mean ± SD, but the distributions are likely non-Gaussian for transient interactions. The use of SD without reporting the full distribution or median/percentiles may be misleading.
+  - **Required correction** Report median and interquartile ranges, or show the full distributions as violin or box plots.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion mentions "the weakening of the Watson-Crick network might provide more opportunities to form DNA-protein hydrogen bonds" but this is presented as a post-hoc rationalization without direct evidence for the causal link.
+  - **Required correction** Soften the language to indicate this is a hypothesis, or provide additional analysis (e.g., hydrogen bond occupancy analysis) to support the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of stiffening claim), R1-M2 (lack of energetic link to repair mechanism), R1-M3 (incomplete methodological details and lack of convergence analysis)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relatively underexplored area (clustered lesions with mismatches) and uses a modern computational approach. However, the conceptual framework (stiffening impairs recognition) is not entirely novel. Scientific importance: The topic is important for understanding DNA repair mechanisms and mutagenesis, but the conclusions are largely qualitative and do not provide definitive mechanistic insight. Interdisciplinary readership: The work bridges computational biophysics and DNA repair biology, which could appeal to a broad audience, but the presentation is somewhat specialized. Technical soundness: The simulation methodology is appropriate, but the statistical analysis and lack of free energy calculations weaken the technical rigor. Readability for nonspecialists: The manuscript is reasonably well-written but assumes familiarity with MD simulation techniques and DNA repair terminology, which may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and the computational approach is appropriate, but the statistical rigor and the connection between observed structural changes and functional outcomes need to be substantially strengthened before the mechanistic claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that stiffening of DNA-protein interactions "might disfavor the lesion extrusion" is speculative and not directly tested.
+- The statement that the 5′ mismatch "perturbs the geometry of DNA duplex" in a way that explains reduced repair rates is not quantitatively supported.
+- The assertion that "the difference in the structural signature of the lesion backbone... might perturb the lesion processing" is presented as a conclusion but is only a hypothesis.
+- The relevance of the specific sequence context used in the simulations to physiological clustered lesions is not established.
+- The claim that the machine learning analysis reveals "stiffening" is not supported by quantitative statistical comparison.

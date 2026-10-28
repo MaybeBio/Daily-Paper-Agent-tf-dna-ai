@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report a computational study of DNA bending in canonical and G/T mismatched DNAs using biased molecular dynamics in the absence of MutS. They claim that none of five geometric parameter types achieved higher mismatch discrimination than base-pair opening, that only the roll parameter induced sharply localized bending comparable to the experimental MutS/DNA structure, and that benzene intercalation mimicking phenylalanine intercalation reduced the energetic cost of DNA bending without affecting mismatch discrimination.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or statistical measures are available
+- **Missing materials affecting confidence** Full methods, force field parameters, simulation protocols, definitions of the five geometric parameter types, discrimination metrics, error estimates, convergence criteria, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused computational study addressing a relevant question in DNA mismatch repair, namely whether DNA bending in the absence of MutS can discriminate G/T mismatches from canonical base pairs. The conclusion that bending parameters do not outperform base-pair opening is clear and potentially useful. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the discrimination analysis, or the statistical significance of the reported differences. The claim regarding roll-induced localized bending and the benzene intercalation effect are interesting but cannot be assessed without quantitative support.
+- **Who would be interested in the results, and why** Researchers in DNA repair mechanisms, particularly those studying mismatch recognition by MutS, and computational biophysicists interested in DNA flexibility, bending, and base-pair dynamics. The work may also interest experimentalists seeking to interpret structural data on MutS/DNA complexes in terms of intrinsic DNA properties.
+- **Major strengths** The study addresses a specific and mechanistically relevant question, namely whether intrinsic DNA bending can discriminate mismatches in the absence of protein. The comparison of multiple geometric parameters is systematic. The finding that roll uniquely produces localized bending is a concrete and testable observation. The benzene intercalation experiment is a clever minimal model for phenylalanine intercalation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that none of the five geometric parameter types showed higher discrimination than base-pair opening.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative definition of "discrimination" nor any statistical measure (e.g., effect size, confidence intervals, or significance tests) supporting the comparative claim. Without such metrics, the claim that one parameter outperforms another is not verifiable.  
+  - **Why it matters** The central conclusion of the study rests on a comparative ranking of parameters. If the discrimination metric is not defined or the comparison is not statistically grounded, the conclusion cannot be accepted.  
+  - **Resolution test** Provide a clear definition of the discrimination metric, report numerical values for each parameter type, and include error estimates or statistical tests demonstrating that the differences are meaningful.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that only roll could induce sharply localized bending as observed in the experimental MutS/DNA structure.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how "sharply localized bending" was quantified or compared to the experimental structure. No reference to the experimental structure is given, and no metric (e.g., bending angle profile, persistence length, or root-mean-square deviation) is described.  
+  - **Why it matters** This claim is a key positive result of the study. Without a defined comparison metric and a reference to the experimental data, the claim is not assessable.  
+  - **Resolution test** Define the localization metric, describe how the experimental structure was used as a template, and report quantitative agreement between simulated and experimental bending profiles.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that benzene intercalation decreases the energetic cost of DNA bending without affecting mismatch discrimination.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No energetic values, free energy estimates, or comparison of bending costs with and without benzene are provided. The claim that discrimination is unaffected is also unsupported by any quantitative measure.  
+  - **Why it matters** This result is mechanistically relevant to MutS function, but without numerical support the claim is speculative.  
+  - **Resolution test** Report free energy differences for bending with and without benzene, and provide discrimination metrics for both conditions.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The study employs biased molecular dynamics with five types of geometric parameters.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the biasing method, the force field, the simulation length, the system setup, or the convergence criteria. These details are essential for reproducibility.  
+  - **Why it matters** Without methodological detail, the results cannot be reproduced or independently verified.  
+  - **Resolution test** Provide full methods in the manuscript, including biasing protocol, force field parameters, simulation length, and convergence assessment.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "template-based bending toward the experimental DNA structure" is ambiguous. It is unclear whether this refers to a biasing target, a reference structure, or a post-hoc comparison.  
+  - **Required correction** Clarify the meaning of "template-based" and specify how the experimental structure was used.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Context  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract references prior work on base-pair opening but does not provide a citation or a brief summary of that finding.  
+  - **Required correction** Add a citation to the prior study and briefly state the discrimination performance of base-pair opening for context.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Language  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "rather challenging to describe correctly" is vague and does not specify what aspect of bending was challenging or how the challenge was addressed.  
+  - **Required correction** Replace with a specific statement about the difficulty (e.g., convergence, force field sensitivity) and how the current study addressed it.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to the absence of quantitative support for the three central claims of the abstract. Without defined metrics, statistical measures, and energetic values, the case is not established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of whether intrinsic DNA bending can discriminate mismatches is not entirely new, but the systematic comparison of multiple geometric parameters and the benzene intercalation model provide a degree of novelty.  
+  - Scientific importance: The topic is relevant to DNA mismatch repair, but the significance of the findings for the broader field is not yet clear from the abstract.  
+  - Interdisciplinary readership: The work may appeal to computational chemists, biophysicists, and DNA repair biologists, but the abstract is written in a way that assumes familiarity with molecular dynamics and DNA geometry.  
+  - Technical soundness: Not assessable from the abstract alone; the absence of methodological and quantitative detail prevents evaluation.  
+  - Readability for nonspecialists: The abstract is concise but uses field-specific terminology without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and a clear conclusion, but the lack of quantitative support and methodological detail means the claims cannot be evaluated. The manuscript may become publishable if the full text provides the missing metrics, statistical analyses, and simulation details.
+
+## Risk / unsupported claims
+- The claim that none of the five geometric parameters outperformed base-pair opening is unsupported without a defined discrimination metric and statistical comparison.
+- The claim that only roll induced sharply localized bending is unsupported without a localization metric and comparison to the experimental structure.
+- The claim that benzene intercalation decreases the energetic cost of bending is unsupported without free energy values.
+- The claim that benzene intercalation does not affect mismatch discrimination is unsupported without discrimination metrics for both conditions.
+- The overall conclusion that DNA bending in the absence of MutS is less discriminative than base-pair opening is not assessable from the abstract alone.

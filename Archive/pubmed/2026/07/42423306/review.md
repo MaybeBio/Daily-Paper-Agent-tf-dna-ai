@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Technical and scientific evaluation of the claims as presented in the provided text. No assessment of the underlying raw data, images, or code beyond what is described in the manuscript.
+- **Shared manuscript claim summary** The authors claim that SEM combined with heavy-metal staining (UranyLess) and a protein–polymer overlayer enables direct visualization of extended DNA molecules and sequence-specific protein–DNA interactions on individual long DNA molecules, with improved positional accuracy and precision compared to fluorescence microscopy, and with capabilities not accessible by TEM or AFM.
+- **Visible evidence base** Text descriptions of figures and supplementary figures, quantitative results reported in the text (mean offsets, F1 scores, widths, lengths), methodological descriptions, and references to publicly available code.
+- **Missing materials affecting confidence** The actual figures, supplementary figures, raw images, and the underlying datasets are not provided. The code repository is referenced but not reviewed. Statistical details of comparisons (e.g., exact p-values, sample sizes for all analyses) are partially reported but not fully verifiable from the text alone.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable advance in single-molecule DNA imaging by demonstrating that SEM can be used to visualize sequence-specific protein–DNA interactions on extended DNA molecules with improved positional accuracy compared to fluorescence microscopy. The approach is technically plausible and the results, as described, support the main claims. However, several technical details and validations are incompletely described, and the current evidence base is insufficient to fully establish the generality and robustness of the method. The work is of interest to the single-molecule biophysics and genome mapping communities, but the case would be strengthened by additional controls, more detailed statistical reporting, and clearer demonstration of the claimed advantages over existing methods.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA–protein interaction studies, genome mapping, and structural biology would be interested. The method offers a potential alternative to fluorescence-based optical mapping with higher resolution, which could be useful for applications requiring precise localization of protein-binding sites on long DNA molecules, such as studying chromatin organization, transcription factor binding, and structural variant detection.
+- **Major strengths** The manuscript addresses a real limitation in single-molecule DNA imaging, namely the trade-off between resolution, field of view, and throughput. The use of SEM with heavy-metal staining is a creative extension of existing contrast-enhancement strategies. The demonstration across multiple binding regimes (nick-translated labels, dense dCas9 binding, sparse dCas9 binding on genomic DNA) is commendable. The quantitative comparison with fluorescence microscopy showing ~3-fold improvement in positional accuracy is a clear and useful result. The inclusion of machine-learning-based detection for sparse binding events adds methodological depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SEM achieves mean positional offsets of 410 ± 325 bp for nick-translated labels and 116 ± 63 bp for dCas9-bound regions, ~3-fold improved over fluorescence imaging.
+  - **Evidence pointer** Results section, Figures 2C and 3C, location not provided
+  - **Concern** The reported positional offsets are presented as mean ± SD, but the number of molecules analyzed for each condition is not clearly stated in the text. For the nick-translated labels, the text mentions 21 of 23 molecules for one specific label pair, but the total number of molecules used for the positional offset calculation across all sites is not given. Similarly, for the dCas9-bound regions, the text states n = 15 molecules, but it is unclear if this is the total for all analyses or just for the representative position analysis. Without clear sample sizes and a description of how many independent experiments were performed, the statistical robustness of the claimed ~3-fold improvement cannot be assessed.
+  - **Why it matters** The central quantitative claim of the paper, namely the improved positional accuracy of SEM over fluorescence, rests on these measurements. If the sample sizes are small or the measurements are not independent, the conclusion may not be generalizable.
+  - **Resolution test** Provide the exact number of molecules and independent experiments for each positional offset measurement. Include a statistical test (e.g., a two-sample t-test or non-parametric equivalent) comparing SEM and fluorescence offsets, with the test statistic and p-value reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SEM enables imaging across a magnification range spanning more than four orders of magnitude, allowing both large-area surveys and high-resolution imaging, and that this capability is not accessible by TEM or AFM.
+  - **Evidence pointer** Introduction, Results, Figure 5, location not provided
+  - **Concern** The claim that this multi-scale capability is "not accessible" by TEM or AFM is too strong. While it is true that TEM typically requires thin substrates and AFM has limited scan ranges, modern TEM systems can acquire montage images over large areas, and AFM can be automated for large-area scans, albeit slowly. The authors do not provide a direct comparison of scan area, acquisition time, and resolution for all four modalities under identical conditions. The summary in Supplementary Figure S13 is mentioned but not shown, and the text does not provide quantitative values for scan area or acquisition time for each modality.
+  - **Why it matters** The claim of a unique capability is a key part of the paper's significance. If TEM or AFM can achieve similar multi-scale imaging under appropriate conditions, the novelty of the SEM approach is diminished.
+  - **Resolution test** Provide a quantitative comparison table or figure showing scan area, acquisition time, and resolution for SEM, TEM, AFM, and fluorescence microscopy under the same sample preparation and imaging conditions. Soften the claim to "not readily accessible" or "practically challenging" if a direct comparison is not possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the machine-learning-based classifier achieves F1 = 0.97 for detecting localized dCas9 binding events on human genomic DNA.
+  - **Evidence pointer** Results, Materials and methods, Figure 4, location not provided
+  - **Concern** The training and validation of the classifier are described only briefly. The text states that 13,147 profiles (3,551 positive and 9,596 negative) from 13 manually annotated images were used, with leave-one-positive-image-out cross-validation. However, it is not clear how the positive and negative profiles were defined, how many images were used for training versus validation, and whether the classifier was tested on an independent dataset. The F1 score of 0.97 is reported, but precision and recall are only given as 0.97 and 0.98, respectively. The criteria for a "true positive" detection (e.g., distance threshold from the expected binding site) are not stated.
+  - **Why it matters** The machine-learning-based detection is a key component of the method for sparse binding events. Without a clear description of the training/validation scheme and the criteria for detection, the reported F1 score cannot be independently assessed, and the generalizability of the classifier to other datasets is uncertain.
+  - **Resolution test** Provide a detailed description of the classifier training, including the definition of positive and negative profiles, the number of images used for training and validation, and the criteria for a true positive detection. If possible, test the classifier on an independent dataset and report the performance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the contrast enhancement mechanism involves suppression of secondary electron emission from the silicon substrate by the heavy-metal–polymer layer, and that protein-bound regions appear as locally modulated features.
+  - **Evidence pointer** Results, Figure 1, Supplementary Figures S1–S3, location not provided
+  - **Concern** The physical mechanism of contrast generation is not fully established. The authors present EDS analysis of UranyLess on silicon (Supplementary Figure S1) and compare contrast under different staining conditions, but the exact role of the lanthanide ions versus other components of UranyLess is not resolved. The claim that protein-bound regions appear as "locally modulated" features is qualitative, and the relationship between protein density and contrast magnitude is not quantified.
+  - **Why it matters** Understanding the contrast mechanism is important for optimizing the method and for interpreting the results. If the mechanism is not well understood, it may be difficult to extend the method to other proteins or to predict its performance under different conditions.
+  - **Resolution test** Provide additional experiments to dissect the contribution of individual components of UranyLess to contrast generation. Quantify the relationship between protein occupancy and contrast magnitude, and provide a model for the contrast mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "we establish an scanning electron microscopy (SEM)-based approach" which contains a grammatical error ("an" should be "a").
+  - **Required correction** Change "an scanning" to "a scanning".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods, "Image analysis" section, location not provided
+  - **Issue** The description of the machine-learning classifier mentions that the "along-trace Gaussian smoothing window, minimum run-length filter, and decision threshold were jointly grid-searched on the cross-validation probabilities to maximize F1 score." The range of values searched and the final selected values are not reported.
+  - **Required correction** Provide the grid search ranges and the final selected hyperparameter values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results
+  - **Evidence pointer** Results, Figures 2C and 3C, location not provided
+  - **Issue** The text reports mean ± SD for positional offsets but does not report the distribution of the data or any measure of spread beyond SD. It would be helpful to know if the data are normally distributed or if there are outliers.
+  - **Required correction** Consider reporting median and interquartile range, or showing a scatter plot of individual data points.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results, "SEM imaging of sequence-specific protein labels" section, location not provided
+  - **Issue** The text mentions that "the site 7–8 separation was resolved in 21 of 23 analyzed molecules (91%)" but does not explain why the separation was not resolved in the remaining 2 molecules. This could be due to technical issues or biological variability.
+  - **Required correction** Provide a brief explanation for the unresolved cases, or state that the reason is unknown.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion states "the current sample sizes (n = 15 molecules per modality in Figs 2C and 3C; n = 32 features in Fig 4C) are modest." However, the text in the Results section for Figure 2C does not explicitly state n = 15 for the nick-translated label analysis. This inconsistency is confusing.
+  - **Required correction** Ensure that the sample sizes are consistently reported in the Results and Discussion sections.
+- **Technical failings that need to be addressed before the case is established** The lack of clear sample sizes and statistical tests for the positional offset comparisons (R1-M1) is a technical failing that must be addressed. The overstatement of the multi-scale capability claim (R1-M2) also needs to be corrected with quantitative data. The incomplete description of the machine-learning classifier training and validation (R1-M3) is a technical gap that should be filled.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The use of SEM with heavy-metal staining for sequence-specific protein–DNA mapping is a novel combination of existing techniques. The idea of using a protein–polymer overlayer to enhance contrast in SEM is creative and builds on prior work from the same group. The originality is moderate to high.
+  - **Scientific importance** The ability to map protein-binding sites on long DNA molecules with high resolution and large field of view has potential implications for genome mapping and chromatin biology. The demonstrated improvement over fluorescence microscopy is significant. The importance is moderate to high.
+  - **Interdisciplinary readership** The work bridges biophysics, molecular biology, and imaging technology. It would appeal to researchers in single-molecule biophysics, genome mapping, and structural biology. The interdisciplinary appeal is moderate.
+  - **Technical soundness** The core technical approach is plausible, but the incomplete reporting of sample sizes, statistical tests, and classifier validation (R1-M1, R1-M3) weakens the technical soundness as currently presented. The contrast mechanism is not fully established (R1-M4). Technical soundness is currently moderate.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections, particularly the machine-learning description, may be challenging for nonspecialists. The abstract and introduction are accessible. Readability is good.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the manuscript requires additional experimental details, statistical rigor, and a more balanced discussion of the method's limitations before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that SEM enables multi-scale imaging capabilities "not accessible by transmission electron microscopy or atomic force microscopy" is unsupported by direct quantitative comparison and is likely an overstatement.
+- The claim of "base-pair-resolved positional mapping" is not fully supported, as the reported offsets (410 ± 325 bp and 116 ± 63 bp) are larger than a single base pair, and the resolution is not directly demonstrated.
+- The generalizability of the machine-learning classifier to other DNA sequences, proteins, or imaging conditions is not established, as only one training dataset is described.
+- The physical mechanism of contrast generation, specifically the role of UranyLess components versus the protein–polymer overlayer, is not fully established and is presented as a hypothesis rather than a proven model.

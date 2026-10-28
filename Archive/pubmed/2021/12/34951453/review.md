@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and alignment with claims. Editorial or stylistic issues are noted only where they affect clarity or reproducibility.
+- **Shared manuscript claim summary** The authors report that individual yeast condensin complexes extrude DNA loops in discrete steps with median sizes of 20–40 nm (approximately 60–200 bp) at forces of 1.0–0.2 pN, occasionally exceeding 500 bp per step. Using ATP-binding-impaired and ATP-hydrolysis-deficient mutants, they conclude that ATP binding, not hydrolysis, generates the extrusion step. Molecular dynamics simulations are used to support the interpretation that the large step sizes arise from the flexibility of DNA at low forces.
+- **Visible evidence base** Magnetic tweezers step-size measurements on 1.5 kb DNA constructs; control experiments with 3.4 and 10 kb constructs; step-detection validation experiments with piezo-induced steps; ATPase assays (referenced in Supplementary Figure S7); mutant studies (EQ and Q-loop); molecular dynamics simulations of DNA loop extrusion.
+- **Missing materials affecting confidence** Raw step-size distributions for all conditions are not fully shown in the main text; detailed statistical comparisons between WT and EQ mutant step sizes are not fully reported; the ATPase assay data are only in supplementary material; the simulation code and parameter details are not fully described; the number of independent experiments and replicates is not explicitly stated.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically challenging single-molecule study that addresses a key open question in the field of SMC biology: the mechanochemical basis of DNA loop extrusion. The authors have optimized magnetic tweezers to achieve resolution sufficient to detect individual steps at sub-piconewton forces, which is a significant technical achievement. The finding that ATP binding, rather than hydrolysis, generates the extrusion step is an important and potentially field-changing result. However, the manuscript has several weaknesses that need to be addressed. The step-size distributions are broad and the authors' interpretation that this reflects DNA flexibility is plausible but not fully proven. The discrepancy between experimental and simulated step sizes at low force is acknowledged but not resolved. The mutant studies are elegant but the interpretation that the EQ mutant's single-step behavior directly reflects the WT step-generation mechanism requires more careful consideration. The manuscript would be strengthened by additional statistical rigor, clearer presentation of the step-detection methodology, and a more thorough discussion of alternative models.
+- **Who would be interested in the results, and why** Researchers in the fields of chromosome biology, SMC protein mechanics, single-molecule biophysics, and DNA topology. The results are also relevant to those studying ATP-dependent molecular motors and the physics of polymer translocation. The finding that ATP binding drives the step is of broad interest to the mechanochemistry community.
+- **Major strengths** 1) The technical achievement of resolving 10–20 nm steps at sub-piconewton forces is impressive and represents a significant methodological advance. 2) The use of well-characterized ATPase mutants (EQ and Q-loop) provides a clean genetic approach to dissect the ATP cycle. 3) The combination of experiment and simulation is a powerful approach. 4) The authors are appropriately cautious in their interpretation of the force-dependent step sizes and acknowledge the limitations of their model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and statistical rigor
+  - **Claim pointer** The authors claim that the measured step sizes are "significantly larger than the step detection limit" and that the broad distribution reflects genuine biological variability.
+  - **Evidence pointer** Figure 3B, 3E, 3G; Supplementary Figure S4C–E
+  - **Concern** The step-size distributions are extremely broad, with median values reported as 17–40 nm but with distributions extending to very large values. The authors compare the spread of their condensin step sizes to the spread of piezo-induced steps of 33.6 nm, but this comparison is not fully convincing. The piezo-induced steps are perfectly regular and the spread of ~4 nm reflects only tracking noise. The condensin step sizes have a spread of ~20 nm or more, which the authors attribute to DNA flexibility. However, it is not clear that the step-detection algorithm is not introducing additional variability, particularly for steps that occur in rapid succession or when the DNA tether is in a highly fluctuating state. The authors should provide a more rigorous statistical comparison, including confidence intervals for the median step sizes and a formal test of whether the observed distributions are consistent with a single underlying step size convolved with noise.
+  - **Why it matters** The central claim of the paper is that condensin takes large steps. If the step-size distribution is inflated by detection artifacts or by the analysis method, the quantitative conclusions could be wrong. The authors need to demonstrate that their step-size measurements are robust and that the broad distribution is a real biological property.
+  - **Resolution test** Provide a detailed analysis of the step-detection algorithm's performance on simulated data with known step sizes and noise levels. Show that the algorithm recovers the correct step sizes and that the observed distribution width is not an artifact of the detection method. Provide confidence intervals for the median step sizes and a statistical test comparing the observed distributions to a model with a single step size.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of mutant data
+  - **Claim pointer** The authors claim that the EQ mutant, which binds ATP but cannot hydrolyze it, performs a single step that is identical to the WT step, and therefore ATP binding is the step-generating process.
+  - **Evidence pointer** Figure 4B, 4C, 4E–H
+  - **Concern** The EQ mutant data are interpreted as showing that ATP binding generates the step. However, the EQ mutant cannot complete the ATP cycle, so it is not clear that the single step observed in the EQ mutant is the same as the step in the WT cycle. The EQ mutant may be trapped in a state that is not on the normal catalytic pathway. The authors should discuss this possibility and provide additional evidence that the EQ single step is mechanistically equivalent to the WT step. For example, they could compare the step-size distribution of the EQ mutant to the first step in WT traces, or they could use a different ATP analog (e.g., ATPγS) to test whether the effect is specific to the EQ mutation.
+  - **Why it matters** The conclusion that ATP binding generates the step is the central mechanistic claim of the paper. If the EQ mutant data are not directly comparable to the WT situation, this conclusion is weakened.
+  - **Resolution test** Provide a more detailed comparison of EQ mutant steps to WT steps, including a comparison of the first step in WT traces to the EQ step. Discuss the possibility that the EQ mutant is trapped in a non-productive state and explain why this is unlikely. Consider additional control experiments with ATPγS or other non-hydrolyzable analogs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment comparison
+  - **Claim pointer** The authors claim that the MD simulations confirm that the force-dependent step sizes arise from the flexibility of DNA at low forces.
+  - **Evidence pointer** Figure 3I–K; Supplementary Figure S6
+  - **Concern** The MD simulations reproduce the qualitative trend of larger steps at lower forces, but the quantitative agreement is poor. At 0.2 pN, the simulated median step size is ~110 bp, while the experimental value is ~200 bp (after correction). The authors attribute this discrepancy to additional effects such as enthalpic penalties or non-specific interactions, but this is speculative. The simulation model is also quite simplified, with a spring representing condensin and a random-walk process for step selection. It is not clear that this model captures the essential physics of the system. The authors should either improve the model to achieve better quantitative agreement or temper their claims about what the simulations demonstrate.
+  - **Why it matters** The simulations are used to support the interpretation of the experimental data. If the simulations do not quantitatively reproduce the experimental results, their value as a supporting tool is limited.
+  - **Resolution test** Improve the simulation model to incorporate additional physical effects and test whether better agreement with experiment can be achieved. Alternatively, clearly state the limitations of the model and what it can and cannot demonstrate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors state that "all data that support the findings of this study are available on request from the corresponding author."
+  - **Evidence pointer** Data Availability section
+  - **Concern** The statement that data are available "on request" is not in line with current best practices for scientific publishing. The raw step-size data, the step-detection algorithm code, and the simulation code should be made publicly available in a repository to allow others to reproduce the analysis and verify the conclusions.
+  - **Why it matters** Reproducibility is a cornerstone of the scientific method. Without access to the raw data and analysis tools, other researchers cannot fully evaluate the claims made in this paper.
+  - **Resolution test** Deposit raw data and analysis code in a public repository (e.g., Zenodo, Figshare) and provide accession numbers in the manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Step-detection algorithm description
+  - **Evidence pointer** Materials and Methods, Data analysis
+  - **Issue** The description of the step-detection algorithm is brief and refers to a previous publication. It is not clear how the algorithm handles noise, how the number of steps is determined, or how the algorithm distinguishes between genuine steps and noise fluctuations.
+  - **Required correction** Provide a more detailed description of the step-detection algorithm, including the key parameters and how they were chosen. Consider including a schematic or pseudocode.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Step-size statistics
+  - **Evidence pointer** Figure 3B, 3E, 3G
+  - **Issue** The authors report median ± MAD for step sizes, but do not report the number of steps analyzed, the number of independent experiments, or the number of individual condensin molecules. This information is essential for assessing the statistical robustness of the results.
+  - **Required correction** Report the number of steps, molecules, and independent experiments for each condition. Consider showing the full step-size distributions as histograms or violin plots.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of reverse steps
+  - **Affected element** Figure 3A, 3D, 3F
+  - **Issue** The authors observe reverse steps that are correlated with preceding forward steps. They interpret these as release events. However, it is not clear whether these reverse steps are a genuine biological property of condensin or an artifact of the measurement system (e.g., transient detachment of the condensin from the DNA).
+  - **Required correction** Discuss alternative explanations for the reverse steps and, if possible, provide additional evidence that they are biologically meaningful.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Force calibration
+  - **Affected element** Materials and Methods, Magnetic tweezers
+  - **Issue** The method for calibrating the applied force is not described in detail. The force is a critical parameter in this study, and the accuracy of the force calibration directly affects the interpretation of the force-dependent step sizes.
+  - **Required correction** Provide a description of the force calibration method, including how the force was determined from the magnet position and the bead size.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** ATPase assay
+  - **Affected element** Supplementary Figure S7
+  - **Issue** The ATPase assay is only shown in the supplementary material, and the results are not discussed in the main text. It would be helpful to know the ATPase rates of the WT and EQ mutant under the conditions used in the single-molecule experiments.
+  - **Required correction** Briefly discuss the ATPase assay results in the main text and relate them to the single-molecule observations.
+- **Technical failings that need to be addressed before the case is established** 1) The step-detection algorithm needs to be validated on simulated data to rule out detection artifacts. 2) The statistical comparison between WT and EQ mutant step sizes needs to be more rigorous. 3) The discrepancy between simulation and experiment at low force needs to be addressed or acknowledged more clearly. 4) The data availability statement needs to be updated to comply with best practices.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its technical approach and in the finding that ATP binding generates the step. The use of high-resolution magnetic tweezers to resolve individual steps at sub-piconewton forces is novel.
+  - **Scientific importance** The results are important for understanding the mechanism of SMC proteins, which are central to chromosome organization. The finding that ATP binding drives the step challenges existing models and will stimulate further work.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, molecular biologists, and biochemists. The topic is of broad interest, but the technical detail may limit accessibility to non-specialists.
+  - **Technical soundness** The experimental approach is sound, but the step-detection methodology and statistical analysis need to be strengthened. The simulations are a useful complement but are not fully validated.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the results section is dense and would benefit from clearer explanations of the key findings. The figures are informative but some are complex.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central finding is potentially important, but the manuscript needs to address the concerns about step-detection methodology, statistical rigor, and the simulation-experiment discrepancy before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the EQ mutant's single step is identical to the WT step is not fully supported, as the EQ mutant cannot complete the ATP cycle and may be trapped in a non-productive state.
+- The claim that the MD simulations confirm the role of DNA flexibility in determining step size is weakened by the quantitative discrepancy between simulation and experiment at low force.
+- The claim that the broad step-size distribution is a genuine biological property is not fully established, as the contribution of the step-detection algorithm to the observed variability has not been rigorously quantified.
+- The statement that "the maximum step size amounted to ~500 bp on average across the entire tested force range" is ambiguous and needs clarification.

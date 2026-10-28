@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the first application of molecular modeling and molecular dynamics simulations to OsASR5, an intrinsically disordered plant protein from the ASR family. They claim that one conformer contains alpha-helices, turns, and loops; that zinc binding induces a predominance of alpha-helix; that this stability is possibly imperative for transcription factor activity; and that free energy calculations show zinc is mandatory for complex formation with the promoter region of a sugar transporter.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation setup, force field parameters, free energy calculation details, structural figures, trajectory analyses, statistical validation, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of a plant IDP and its metal-dependent interaction with a promoter. However, the evidence base is limited to a summary of findings without any methodological or quantitative detail. The central claims, particularly the zinc-dependent conformational shift and the mandatory role of zinc in complex formation, cannot be evaluated for technical soundness or statistical robustness from the supplied material. The work may be of interest to the plant stress biology and IDP communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly in plants, would be interested in the conformational behavior of OsASR5 and the proposed transition model. Investigators working on abiotic stress responses and transcription factor regulation in rice may find the zinc-dependent promoter interaction relevant. Computational biophysicists interested in metal ion effects on IDP folding and binding could also be engaged, provided the methodological rigor is demonstrated in the full paper.
+- **Major strengths** The study addresses a relevant and undercharacterized class of plant IDPs. The application of MD simulations to probe metal-induced conformational transitions is a reasonable approach. The focus on identifying specific residues and the bound-state conformation is valuable for hypothesis generation. The choice of a sugar transporter promoter as a test system links the computational work to a biologically meaningful process.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "one of OsASR5's conformers contains alpha-helices, turns, and loops" and that "the metal binding resulted in a predominance of alpha-helix."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on the simulation protocol, including force field, water model, temperature, pressure, simulation length, number of replicas, or convergence assessment. Without these details, the structural conclusions about conformer populations and secondary structure shifts cannot be evaluated. The claim of a "predominance of alpha-helix" after zinc binding requires quantitative measures such as secondary structure percentages over time and across independent simulations.
+  - **Why it matters** IDP simulations are highly sensitive to force field choice and sampling length. Overinterpretation of transient secondary structure elements is a known risk. If the conformational shift is not robust across simulation conditions, the central mechanistic conclusion is unsupported.
+  - **Resolution test** Provide full methods with force field parameters, simulation length, replica number, and convergence metrics. Show time-averaged secondary structure fractions for apo and zinc-bound states with error bars. Demonstrate that the alpha-helical predominance is reproducible across independent runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "free energy calculations showed how the ion is mandatory for this complex formation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on the free energy method used, such as MM-PBSA, umbrella sampling, or thermodynamic integration. The abstract does not report binding free energy values, error estimates, or a comparison between zinc-bound and zinc-free conditions. The word "mandatory" implies a qualitative threshold that is not defined.
+  - **Why it matters** A claim of mandatory ion dependence requires a quantitative demonstration that the apo state cannot form a stable complex under the same simulation conditions. Without free energy values and statistical uncertainty, the claim is not verifiable.
+  - **Resolution test** Report the free energy method, the computed binding free energies for zinc-bound and zinc-free systems, standard deviations, and a clear criterion for what constitutes "mandatory" binding. Show that the apo complex is unstable or significantly less favorable in repeated simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "this stability is possibly imperative for the transcription factor activity."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This claim is speculative and not directly tested. The abstract does not describe any functional assay, mutational analysis, or correlation between the simulated conformational state and transcriptional activity. The word "possibly" appropriately hedges, but the claim still implies a biological relevance that is not demonstrated.
+  - **Why it matters** The broader significance of the work depends on linking the computational conformational model to biological function. Without experimental or at least comparative evidence, the relevance to transcription factor activity remains an untested hypothesis.
+  - **Resolution test** Either remove the claim or provide supporting evidence such as prior experimental data on OsASR5 function, a discussion of how the simulated state aligns with known DNA-binding domains, or a proposed testable prediction that could be validated in future work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract first two sentences
+  - **Issue** The abstract assumes familiarity with IDP terminology and the ASR family without a brief functional context. Nonspecialist readers may not understand why OsASR5 is biologically relevant.
+  - **Required correction** Add one sentence explaining the biological role of ASR proteins in stress responses and why their disorder is functionally important.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract results
+  - **Evidence pointer** Abstract sentence on conformer composition
+  - **Issue** The phrase "one of OsASR5's conformers" is vague. It is unclear whether this conformer is a representative structure from a cluster, a single trajectory frame, or an ensemble average.
+  - **Required correction** Specify how the conformer was selected and how many conformers were observed in total.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract sentence on molecular modeling and MD
+  - **Issue** No software package, version, or input structure source is mentioned. This limits reproducibility for readers who may want to replicate the simulations.
+  - **Required correction** Mention the software used and the origin of the initial OsASR5 structure, such as homology modeling or experimental structure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central structural and energetic claims cannot be assessed without methodological detail and quantitative results. R1-M3 is non-blocking but should be clarified to avoid overstatement.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of MD to a plant ASR protein with zinc is a novel angle, but the abstract does not demonstrate a new methodological or conceptual advance beyond what is typical for IDP simulations.
+  - Scientific importance: The potential link between zinc-induced folding and transcription factor activity is interesting, but the importance is not established without functional evidence or broader implications for stress response mechanisms.
+  - Interdisciplinary readership: The work could appeal to plant biologists, structural biologists, and computational chemists, but the abstract is too specialized and lacks context to draw a wide audience.
+  - Technical soundness: Not assessable from the abstract. The absence of simulation details and quantitative results prevents any judgment on the reliability of the findings.
+  - Readability for nonspecialists: The abstract is concise but assumes prior knowledge of IDPs and ASR proteins. It is not self-contained for a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful computational study, but the lack of methodological and quantitative detail means the core claims cannot be verified. A revised abstract with specific methods, numerical results, and error estimates, or access to the full manuscript, would be required to assess whether the case can be supported.
+
+## Risk / unsupported claims
+- The claim that "one of OsASR5's conformers contains alpha-helices, turns, and loops" is unsupported without structural evidence or simulation details.
+- The claim that "the metal binding resulted in a predominance of alpha-helix" is unsupported without quantitative secondary structure analysis.
+- The claim that "free energy calculations showed how the ion is mandatory for this complex formation" is unsupported without free energy values and method details.
+- The claim that "this stability is possibly imperative for the transcription factor activity" is speculative and not testable from the abstract.
+- The statement that the work was applied "for the first time" is a novelty claim that cannot be verified from the abstract alone.

@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "39899813",
+    "doi": "10.1021/acssynbio.4c00853",
+    "title": "De Novo Synthesis of Reticuline and Taxifolin Using Re-engineered Homologous Recombination in Yarrowia lipolytica."
+  },
+  "content": {
+    "abstract": "Yarrowia lipolytica has been widely engineered as a eukaryotic cell factory to produce various important compounds. However, the difficulty of gene editing and the lack of efficient neutral sites make rewiring of Y. lipolytica metabolism challenging. Herein, a Cas9 system was established to redesign the Y. lipolytica homologous recombination system, which caused a more than 56-fold increase in the HR efficiency. The fusion expression of the hBrex27 sequence in the C-terminus of Cas9 recruited more Rad51 protein, and the engineered Cas9 decreased NHEJ, achieving 85% single-gene positive efficiency and 25% multigene editing efficiency. With this system, neutral sites on different chromosomes were characterized, and a deep learning model was developed for gRNA activity prediction, thus providing the corresponding integration efficiency and expression intensity. Subsequently, the tool and platform strains were validated by applying them for the de novo synthesis of (S)-reticuline and (2S)-taxifolin. The developed platform strains and tools helped transform Y. lipolytica into an easy-to-operate model cell factory, similar to Saccharomyces cerevisiae.",
+    "keywords": [
+      "(2S)-taxifolin",
+      "(S)-reticuline",
+      "CRISPR/Cas9",
+      "Deep learning",
+      "Yarrowia lipolytica",
+      "homologous recombination",
+      "neutral site"
+    ],
+    "mesh_terms": [
+      "*Yarrowia/genetics/metabolism",
+      "*Homologous Recombination/genetics",
+      "Gene Editing/methods",
+      "CRISPR-Cas Systems/genetics",
+      "Metabolic Engineering/methods",
+      "Rad51 Recombinase/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Changtai",
+        "Liu, Mengsu",
+        "Wang, Xinglong",
+        "Cheng, Junyi",
+        "Xiang, Jinbo",
+        "Yue, Mingyu",
+        "Ning, Yang",
+        "Shao, Zhengxuan",
+        "Abdullah, Chalak Najat",
+        "Zhou, Jingwen"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Liu M",
+        "Wang X",
+        "Cheng J",
+        "Xiang J",
+        "Yue M",
+        "Ning Y",
+        "Shao Z",
+        "Abdullah CN",
+        "Zhou J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-0407-8749",
+        "ORCID: 0000-0002-3949-3733"
+      ],
+      "affiliations": [
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Food Science and Technology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+        "Jiangsu Provisional Research Center for Bioactive Product Processing Technology, Jiangnan University, 1800 Lihu Road Wuxi, Jiangsu 214122, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Changtai",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Food Science and Technology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mengsu",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinglong",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0009-0009-0407-8749"
+        ],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Junyi",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Jinbo",
+        "short_name": "Xiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Mingyu",
+        "short_name": "Yue M",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Yang",
+        "short_name": "Ning Y",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Zhengxuan",
+        "short_name": "Shao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Abdullah, Chalak Najat",
+        "short_name": "Abdullah CN",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingwen",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0002-3949-3733"
+        ],
+        "affiliations": [
+          "Engineering Research Center of Ministry of Education on Food Synthetic Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "School of Biotechnology, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Science Center for Future Foods, Jiangnan University, 1800 Lihu Road, Wuxi, Jiangsu 214122, China.",
+          "Jiangsu Provisional Research Center for Bioactive Product Processing Technology, Jiangnan University, 1800 Lihu Road Wuxi, Jiangsu 214122, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2025 Feb 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/03 18:20",
+    "fetched_at": "2026-09-30 10:52:49"
+  },
+  "links": {
+    "cites": [
+      "42518876",
+      "42502842",
+      "42226673",
+      "41584698",
+      "41226150"
+    ],
+    "refs": [],
+    "similar": [
+      "39899813",
+      "26714206",
+      "29754237",
+      "33452022",
+      "32758536",
+      "27349768",
+      "33847985",
+      "31657874",
+      "29377615",
+      "31974649",
+      "30788791",
+      "30238143",
+      "31783869",
+      "31556952",
+      "38064043",
+      "37642716",
+      "33847984",
+      "27989123",
+      "29678175",
+      "38468089",
+      "38635942",
+      "30315870",
+      "29809313",
+      "36944859",
+      "32090297",
+      "34369095",
+      "29729131",
+      "28832943",
+      "30698703",
+      "35031438",
+      "37768786",
+      "33294367",
+      "33847983",
+      "30695641",
+      "37884093",
+      "39182792",
+      "39630337",
+      "35234377",
+      "30418662",
+      "30227135",
+      "32912681",
+      "33847981",
+      "29331410",
+      "26319895",
+      "37392322",
+      "35436041",
+      "32342649",
+      "38248972",
+      "36041680",
+      "29150499",
+      "34197615",
+      "29566071",
+      "32208677",
+      "32103761",
+      "38860708",
+      "25216641",
+      "33660223",
+      "32650638",
+      "38141883",
+      "33847982",
+      "27347651",
+      "33847986",
+      "32024536",
+      "30056205",
+      "34762415",
+      "30757901",
+      "38545970",
+      "35177617",
+      "29943148",
+      "33847980",
+      "26204776",
+      "31216436",
+      "36602175",
+      "29560822",
+      "34639080",
+      "38927115",
+      "40338364",
+      "29694786",
+      "40380140",
+      "34132586",
+      "25947247",
+      "36791366",
+      "29808327",
+      "39260817",
+      "39580364",
+      "31767004",
+      "31704686",
+      "35986289",
+      "38897560",
+      "39377872",
+      "30894433",
+      "22702371",
+      "32648664",
+      "34120537",
+      "40106718",
+      "39817828",
+      "33399465",
+      "39278589",
+      "28143479",
+      "23224822"
+    ],
+    "review": [
+      "39899813",
+      "30238143",
+      "31783869",
+      "30315870",
+      "36944859",
+      "35031438",
+      "35234377",
+      "29331410",
+      "26319895",
+      "38860708",
+      "30056205",
+      "38545970",
+      "29943148",
+      "25947247",
+      "29808327"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39899813",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.4c00853",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

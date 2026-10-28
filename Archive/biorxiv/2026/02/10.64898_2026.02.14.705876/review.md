@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Methods, Results, Discussion, Conclusion, Declarations)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality. No assessment of formatting, grammar, or journal policy compliance.
+- **Shared manuscript claim summary** The authors present a k-mer-based linear regression framework to predict transcription factor (TF) binding affinity changes caused by somatic mutations. Applied to 3.5 million mutations from 560 breast cancer genomes, the framework integrates mutational signature analysis and enhancer-gene maps to link predicted TF binding perturbations to target genes and biological pathways. The authors report non-random, directional effects of specific mutational signatures on TF families, with subtype-specific regulatory consequences.
+- **Visible evidence base** Main text figures (Figs. 1–11), supplementary figures (Figs. S1–S4), Table 1, and methodological descriptions in Section 2.
+- **Missing materials affecting confidence** Supplementary figures S1–S4 and Table 1 were referenced but not provided. No code, trained model parameters, or validation datasets were made available. No comparison to existing methods (e.g., DeepBind, FactorNet) was presented. No experimental validation data were included.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem: linking somatic mutations in non-coding regions to TF binding perturbations and downstream regulatory consequences. The integration of mutational signatures with TF binding predictions is a conceptually interesting approach. However, the current evidence base is insufficient to support several core claims. The model validation is limited to internal cross-validation with modest R² values, and no external benchmarking against existing tools is provided. The statistical framework for significance testing is described but not fully validated. The biological conclusions, while plausible, rely on correlative associations without experimental confirmation. The manuscript would benefit from substantial additional validation and clearer presentation of methods.
+- **Who would be interested in the results, and why** Computational biologists and cancer genomics researchers interested in non-coding mutation interpretation, TF binding prediction, and mutational signature analysis. Clinically oriented researchers studying breast cancer subtypes, particularly TNBC, may find the subtype-specific regulatory insights relevant. The framework could be of interest to method developers in regulatory genomics.
+- **Major strengths** 1. The study addresses a significant gap in linking mutational processes to regulatory consequences. 2. The integration of multiple data types (mutations, TF binding models, enhancer-gene maps, mutational signatures) is ambitious and comprehensive. 3. The use of uncertainty propagation from model coefficients to downstream significance testing is a thoughtful methodological choice. 4. The subtype-specific analysis adds a clinically relevant dimension.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the 403 TF models are "high-confidence" and suitable for predicting mutation effects on TF binding.
+  - **Evidence pointer** Section 2.3, Section 3.1, Fig. S1
+  - **Concern** The models achieve a mean R² of 0.39 (median 0.35) in cross-validation. This is a modest level of explained variance, and the manuscript does not report how this translates to accuracy in predicting the direction or magnitude of binding changes for specific mutations. No external validation against independent ChIP-seq or reporter assay data is provided. The threshold for model inclusion (R² > 0.1 for ChIP-seq, R² > 0.15 for PBM) is low, and the manuscript does not report how many models fell below these thresholds or the distribution of R² values across the 403 retained models.
+  - **Why it matters** If the underlying models have limited predictive power, the downstream claims about GOF/LOF events and their biological consequences are built on an unreliable foundation. The manuscript's central conclusions depend on the accuracy of these models.
+  - **Resolution test** Provide external validation of the models on held-out datasets (e.g., independent ChIP-seq experiments, SELEX data, or reporter assays). Report the distribution of R² values and the number of models excluded by the thresholds. Demonstrate that predicted GOF/LOF events correlate with experimentally measured binding changes for a subset of mutations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that specific mutational signatures are significantly enriched for GOF or LOF events in particular TF families.
+  - **Evidence pointer** Section 3.3, Section 3.4, Table 1, Figs. 6–7, Fig. S3
+  - **Concern** The statistical framework for assessing enrichment is described only briefly. The manuscript mentions Fisher's exact test with Bonferroni correction and a log2FC threshold, but the details of how the null distribution was constructed are unclear. Specifically, the use of SigProfilerSimulator to generate null mutations is mentioned but not described in sufficient detail. The manuscript does not report how many TF-family-signature pairs were tested, which is essential for assessing the appropriateness of the multiple testing correction. The potential confounding effect of mutation density and local sequence context on the enrichment results is not addressed.
+  - **Why it matters** The central biological claims of the paper depend on the statistical significance of the observed enrichments. If the null model is inappropriate or the multiple testing correction is inadequate, the reported associations may be false positives.
+  - **Resolution test** Provide a detailed description of the null model and the simulation procedure. Report the total number of tests performed and the multiple testing correction method. Perform sensitivity analyses with alternative null models (e.g., permutations preserving trinucleotide context) to confirm the robustness of the findings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that predicted TF binding perturbations at enhancers are linked to specific biological pathways (e.g., MYC targets, DNA Repair) in a subtype-specific manner.
+  - **Evidence pointer** Section 3.5, Section 3.6, Figs. 8–11
+  - **Concern** The pathway enrichment analysis relies on ABC model-based enhancer-gene maps. The manuscript does not provide details on the ABC model parameters, the cell lines used, or how the maps were aggregated across cell lines. The enrichment analysis is described as using "curated gene programs" but the specific statistical test and background set are not described. The manuscript does not report effect sizes or confidence intervals for the pathway enrichments, making it difficult to assess the biological magnitude of the reported effects.
+  - **Why it matters** The pathway-level conclusions are a key novel contribution of the paper. Without clear methodological details and effect size reporting, these claims cannot be evaluated or reproduced.
+  - **Resolution test** Provide full details of the ABC model implementation and the enhancer-gene map construction. Describe the pathway enrichment test, including the background gene set and the statistical method. Report effect sizes and confidence intervals for the key pathway enrichments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative benchmarking
+  - **Claim pointer** The implicit claim that the proposed framework offers advantages over existing methods for predicting TF binding changes.
+  - **Evidence pointer** Section 1, Section 2, Section 3
+  - **Concern** The manuscript does not compare the proposed k-mer regression approach to existing methods such as DeepBind, FactorNet, or position weight matrix-based approaches. The introduction mentions these methods but does not provide a quantitative comparison. The authors do not demonstrate that their approach outperforms or complements existing tools in terms of accuracy, coverage, or interpretability.
+  - **Why it matters** Without benchmarking, it is unclear what the novel contribution of the framework is relative to the state of the art. The manuscript's claim of providing a "robust framework" requires evidence of its performance relative to existing alternatives.
+  - **Resolution test** Perform a comparative analysis on a benchmark dataset (e.g., from the ENCODE or Cistrome projects) with existing methods. Report accuracy metrics (e.g., AUC, correlation) for predicting experimentally measured binding changes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Section "Availability of data and materials", Section "Code availability"
+  - **Issue** The manuscript states that data and code are "available from the corresponding author on reasonable request." This is insufficient for a computational framework that is the central contribution of the paper.
+  - **Required correction** Provide a public repository (e.g., GitHub, Zenodo) with the code, trained models, and processed data to enable reproducibility and adoption by the community.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the k-mer regression model is incomplete. The equations are referenced but not fully displayed, and the handling of reverse-complement features is not described in detail. The choice of k=6 is justified, but the sensitivity of results to this choice is not explored.
+  - **Required correction** Provide the full model equations, describe the feature construction and reverse-complement collapsing in detail, and include a sensitivity analysis for the k parameter.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Section 3.2, Fig. 3
+  - **Issue** The two representative examples (MYBL2 GOF and ETS1 LOF) are presented as qualitative illustrations. The manuscript does not provide quantitative metrics (e.g., predicted vs. measured binding affinities) to support these examples.
+  - **Required correction** Provide quantitative support for the examples, such as predicted ΔB values with confidence intervals and, if available, comparison to experimental measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of limitations is brief and does not address the potential impact of the modest model performance on the biological conclusions. The authors acknowledge the need for experimental validation but do not discuss how the limitations might affect the interpretation of the reported associations.
+  - **Required correction** Expand the limitations section to explicitly discuss how model uncertainty and the lack of chromatin context might affect the robustness of the reported findings.
+
+## Risk / unsupported claims
+- The claim that the framework produces "high-confidence" TF models is not supported by the reported R² values (mean 0.39) without external validation.
+- The claim that specific mutational signatures are significantly enriched for GOF/LOF events in TF families is not fully supported due to insufficient detail on the statistical methodology and null model.
+- The claim that predicted enhancer perturbations converge on specific biological pathways is not fully supported due to incomplete description of the pathway enrichment methodology.
+- The claim that the framework provides a "robust and scalable approach" is not supported by comparative benchmarking against existing methods.
+- The biological interpretation of the SBS3/SBS39 differential effects on CXXC family TFs is speculative and not supported by direct experimental evidence.
+- The claim that the framework can prioritize non-coding driver candidates is not validated with known driver mutations or experimentally confirmed examples.

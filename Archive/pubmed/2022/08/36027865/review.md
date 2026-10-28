@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The claims presented in the abstract are evaluated based solely on the information contained within it. No full-text data, figures, tables, or supplementary materials were provided.
+- **Shared manuscript claim summary** The authors propose that phosphorylation of S247 in the HIF1alpha PAS-B domain induces an order-to-disorder structural switch, mediated by a K251-pS247 interaction, which alters the conformational ensemble of the PAS-B domain. This switch produces two distinct conformations (H291-in and H291-out) with differential binding capabilities toward HIF1alpha PAS-A and ARNT PAS-A/PAS-B domains, thereby explaining the phosphorylation-dependent reduction in HIF-1 transcription activity.
+- **Visible evidence base** Abstract text only. No methodological details, simulation parameters, convergence criteria, or quantitative results are available.
+- **Missing materials affecting confidence** Full methods for Gaussian accelerated molecular dynamics (GaMD) simulations, force field parameters, simulation length, replica counts, convergence analysis, structural validation, and any experimental corroboration. No figures or tables are accessible.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for how S247 phosphorylation in the HIF1alpha PAS-B domain allosterically disrupts HIF1alpha-ARNT complex formation. The proposed order-to-disorder switch and the identification of two conformational states are interesting, but the evidence base is insufficient to establish the claims. The abstract lacks quantitative data, simulation validation, and a clear link between the observed conformations and functional outcomes. The work may be of interest to computational biologists and hypoxia researchers, but the current presentation does not meet the standards required for a high-impact journal.
+- **Who would be interested in the results, and why** Computational biophysicists studying allosteric regulation in protein-protein interactions, structural biologists investigating PAS domain dynamics, and cancer biologists focused on HIF-1 signaling as a therapeutic target. The proposed mechanism could inform drug design efforts aimed at modulating HIF-1 activity.
+- **Major strengths** The study addresses a specific and mechanistically unresolved question regarding the allosteric effect of a post-translational modification. The use of GaMD simulations is appropriate for exploring conformational transitions. The identification of two distinct conformational states with differential binding properties provides a testable model.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that GaMD simulations identified two distinct conformations (H291-in and H291-out) of the pS247-carrying PAS-B domain.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are provided, including the length of the simulations, the number of independent runs, the force field used, or the criteria for defining conformational states. Without this information, the robustness and reproducibility of the identified conformations cannot be assessed.
+  - **Why it matters** Conformational states identified in short or poorly converged simulations may be artifacts. The claim of two distinct states requires evidence of sampling convergence and statistical significance.
+  - **Resolution test** Provide simulation parameters, convergence metrics (e.g., RMSD stability, free energy profiles), and replicate analysis demonstrating that the two states are consistently observed across independent runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that the H291-in structure can associate with HIF1alpha PAS-A and form a V-shaped pouch to accommodate ARNT PAS-A, but cannot associate with ARNT PAS-B, while H291-out shows the opposite binding pattern.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The binding capabilities are described qualitatively without any quantitative measures such as binding free energies, contact maps, or interaction energies. The claim that one conformation "cannot associate" with a domain is strong and requires evidence of unfavorable interactions or steric clashes.
+  - **Why it matters** Without quantitative binding assessments, the differential binding claims are unsupported and could be misleading. The functional relevance of these conformations depends on their actual binding affinities.
+  - **Resolution test** Provide binding free energy calculations, contact persistence analysis, or other quantitative metrics that support the differential binding claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that the order-to-disorder structural switch, triggered by the K251-pS247 interaction, shuffles the domain-domain contact pattern and explains the reduction in HIF-1 transcription activity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The link between the proposed structural switch and the functional outcome (reduced transcription activity) is not established. The abstract does not provide any experimental or simulation evidence connecting the conformational changes to the disruption of HIF1alpha-ARNT complex formation in a cellular context.
+  - **Why it matters** The central claim of the paper is the mechanistic explanation for phosphorylation-dependent inhibition. Without a direct connection between the simulated conformations and the functional readout, the significance of the findings remains speculative.
+  - **Resolution test** Include experimental validation (e.g., mutagenesis of K251, binding assays, or transcriptional activity assays) or additional simulations that directly model the full HIF1alpha-ARNT complex and demonstrate the functional impact of the switch.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract uses terms like "order-to-disorder structural switch" and "V-shaped pouch" without defining them clearly for readers unfamiliar with structural biology.
+  - **Required correction** Provide brief definitions or contextual explanations for these terms to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions "parallel simulations of the unphosphorylated PAS-B domain" but does not specify how many parallel simulations were run or how they were analyzed.
+  - **Required correction** Specify the number of replicates and the analysis approach for comparing phosphorylated and unphosphorylated systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not discuss how these findings relate to existing structural or functional studies of HIF-1 regulation.
+  - **Required correction** Add a sentence contextualizing the results within the broader literature on HIF-1 allostery and phosphorylation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of simulation details, quantitative binding data, and functional validation prevents the establishment of the proposed mechanism.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed mechanism is novel in its specific focus on the K251-pS247 interaction and the order-to-disorder switch, but the abstract does not demonstrate sufficient novelty beyond existing allosteric models.
+  - Scientific importance: The topic is important for understanding HIF-1 regulation, but the abstract does not provide evidence that the findings significantly advance the field.
+  - Interdisciplinary readership: The work may appeal to computational and structural biologists, but the abstract is too technical and lacks broader context for a general scientific audience.
+  - Technical soundness: The technical approach is appropriate, but the lack of methodological detail and quantitative validation undermines confidence in the results.
+  - Readability for nonspecialists: The abstract is dense and uses jargon without adequate explanation, limiting its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of technical detail, quantitative support, and functional validation means the claims cannot be evaluated or accepted. The authors should provide full methodological transparency and additional evidence to support the mechanistic conclusions.
+
+## Risk / unsupported claims
+- The claim that GaMD simulations identified two distinct conformations is unsupported without simulation details and convergence analysis.
+- The differential binding capabilities of H291-in and H291-out are unsupported without quantitative binding data.
+- The causal link between the K251-pS247 interaction, the order-to-disorder switch, and reduced HIF-1 transcription activity is not established from the abstract alone.
+- The statement that both conformations are "adequate for HIF1alpha-ARNT complex formation" in the unphosphorylated state is unsupported without comparative binding analysis.

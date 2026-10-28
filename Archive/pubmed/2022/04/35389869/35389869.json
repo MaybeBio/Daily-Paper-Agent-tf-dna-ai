@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "35389869",
+    "doi": "10.1109/TCBB.2022.3165592",
+    "title": "Predicting the Sequence Specificities of DNA-Binding Proteins by DNA Fine-Tuned Language Model With Decaying Learning Rates."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) play vital roles in the regulation of biological systems. Although there are already many deep learning methods for predicting the sequence specificities of DBPs, they face two challenges as follows. Classic deep learning methods for DBPs prediction usually fail to capture the dependencies between genomic sequences since their commonly used one-hot codes are mutually orthogonal. Besides, these methods usually perform poorly when samples are inadequate. To address these two challenges, we developed a novel language model for mining DBPs using human genomic data and ChIP-seq datasets with decaying learning rates, named DNA Fine-tuned Language Model (DFLM). It can capture the dependencies between genome sequences based on the context of human genomic data and then fine-tune the features of DBPs tasks using different ChIP-seq datasets. First, we compared DFLM with the existing widely used methods on 69 datasets and we achieved excellent performance. Moreover, we conducted comparative experiments on complex DBPs and small datasets. The results show that DFLM still achieved a significant improvement. Finally, through visualization analysis of one-hot encoding and DFLM, we found that one-hot encoding completely cut off the dependencies of DNA sequences themselves, while DFLM using language models can well represent the dependency of DNA sequences. Source code are available at: https://github.com/Deep-Bioinfo/DFLM.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA-Binding Proteins",
+      "*Algorithms",
+      "Genomics",
+      "DNA/genetics",
+      "Genome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Ying",
+        "Zhang, Qinhu",
+        "Wang, Siguo",
+        "Chen, Zhanheng",
+        "Cui, Zhen",
+        "Guo, Zhen-Hao",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "He Y",
+        "Zhang Q",
+        "Wang S",
+        "Chen Z",
+        "Cui Z",
+        "Guo ZH",
+        "Huang DS"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Zhanheng",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cui, Zhen",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Guo, Zhen-Hao",
+        "short_name": "Guo ZH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2023 Jan-Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/08 06:00",
+    "fetched_at": "2026-09-28 07:05:30"
+  },
+  "links": {
+    "cites": [
+      "41162866",
+      "40163803"
+    ],
+    "refs": [],
+    "similar": [
+      "35389869",
+      "33986992",
+      "35378437",
+      "36416116",
+      "37437362",
+      "37651627",
+      "30808287",
+      "31123959",
+      "38747369",
+      "29186632",
+      "34073774",
+      "36719781",
+      "33538820",
+      "34932484",
+      "29993783",
+      "36136096",
+      "35652477",
+      "31323239",
+      "32657401",
+      "28245811",
+      "35801442",
+      "20122241",
+      "35731758",
+      "27556805",
+      "31627032",
+      "37426456",
+      "27845669",
+      "30423072",
+      "36049552",
+      "34929739",
+      "31722485",
+      "32300371",
+      "36366781",
+      "36528241",
+      "30685762",
+      "33259518",
+      "33068261",
+      "32352006",
+      "32976105",
+      "24743991",
+      "35015646",
+      "36403092",
+      "36370585",
+      "34415301",
+      "33410688",
+      "32920048",
+      "34875006",
+      "34337657",
+      "35521556",
+      "34291709",
+      "33135730",
+      "35189638",
+      "29219068",
+      "35447463",
+      "35929780",
+      "38282738",
+      "35334314",
+      "34571539",
+      "21558156",
+      "34743286",
+      "18684996",
+      "36044786",
+      "21486936",
+      "35225328",
+      "29244011",
+      "33372147",
+      "33639834",
+      "35649392",
+      "31323206",
+      "37790440",
+      "33599251",
+      "28753602",
+      "30109604",
+      "29069282",
+      "33051704",
+      "26040656",
+      "35994925",
+      "30346947",
+      "39212609",
+      "35154264",
+      "33334313",
+      "35389435",
+      "34176069",
+      "34352373",
+      "29329398",
+      "36018838",
+      "34915158",
+      "25442502",
+      "30598068",
+      "23595148",
+      "34320631",
+      "35471889",
+      "35148267",
+      "34493371",
+      "36466610"
+    ],
+    "review": [
+      "35389869",
+      "35652477",
+      "33051704",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2022.3165592",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2022.3165592",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

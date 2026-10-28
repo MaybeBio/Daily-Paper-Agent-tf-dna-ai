@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.10.528081",
+  "title": "The balance of acidic and hydrophobic residues predicts acidic transcriptional activation domains from protein sequence",
+  "authors": "Kotha SR; Staller MV",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-11",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文从蛋白序列预测酸性转录激活结构域，虽涉及转录因子但聚焦激活域而非DNA结合互作，且无AI/物理模拟方法，与TF-DNA互作课题关联较弱。",
+  "abstract": "Transcription factors activate gene expression in development, homeostasis, and stress with DNA binding domains and activation domains. Although there exist excellent computational models for predicting DNA binding domains from protein sequence (Stormo, 2013), models for predicting activation domains from protein sequence have lagged behind (Erijman et al., 2020; Ravarani et al., 2018; Sanborn et al., 2021), particularly in metazoans. We recently developed a simple and accurate predictor of acidic activation domains on human transcription factors (Staller et al., 2022). Here, we show how the accuracy of this human predictor arises from the balance between hydrophobic and acidic residues, which together are necessary for acidic activation domain function. When we combine our predictor with the predictions of neural network models trained in yeast, the intersection is more predictive than individual models, emphasizing that each approach carries orthogonal information. We synthesize these findings into a new set of activation domain predictions on human transcription factors.",
+  "abstract_zh": "转录因子通过DNA结合域和激活域在发育、稳态及应激反应中激活基因表达。尽管已有优秀的计算模型可从蛋白质序列预测DNA结合域（Stormo, 2013），但从蛋白质序列预测激活域的模型则相对滞后（Erijman et al., 2020; Ravarani et al., 2018; Sanborn et al., 2021），尤其是在后生动物中。我们近期开发了一种简单且准确的人类转录因子酸性激活域预测器（Staller et al., 2022）。在此，我们展示了该人类预测器的准确性如何源于疏水残基与酸性残基之间的平衡，这两者共同对酸性激活域功能至关重要。当我们将此预测器与在酵母中训练的神经网络模型的预测结果相结合时，其交集比单一模型更具预测性，这强调了每种方法携带正交信息。我们将这些发现综合为对人类转录因子的新一组激活域预测。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.10.528081",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.10.528081",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.10.528081/index.html"
+}

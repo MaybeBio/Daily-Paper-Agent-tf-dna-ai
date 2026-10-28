@@ -1,0 +1,397 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.22.629997",
+  "title": "Probing mechanical selection in diverse eukaryotic genomes through accurate prediction of 3D DNA mechanics",
+  "doi": "10.1101/2024.12.22.629997",
+  "abstract": "Connections between the mechanical properties of DNA and biological functions have been speculative due to the lack of methods to measure or predict DNA mechanics at scale. Recently, a proxy for DNA mechanics, cyclizability, was measured by loop-seq and enabled genome-scale investigation of DNA mechanics. Here, we use this dataset to build a computational model predicting bias-corrected intrinsic cyclizability, with near-perfect accuracy, solely based on DNA sequence. Further, the model predicts intrinsic bending direction in 3D space. Using this tool, we aimed to probe mechanical selection - that is, the evolutionary selection of DNA sequence based on its mechanical properties - in diverse circumstances. First, we found that the intrinsic bend direction of DNA sequences correlated with the observed bending in known protein-DNA complex structures, suggesting that many proteins co-evolved with their DNA partners to capture DNA in its intrinsically preferred bent conformation. We then applied our model to large-scale yeast population genetics data and showed that centromere DNA element II, whose consensus sequence is unknown, leaving its sequence-specific role unclear, is under mechanical selection to increase the stability of inner-kinetochore structure and to facilitate centromeric histone recruitment. Finally, in silico evolution under strong mechanical selection discovered hallucinated sequences with cyclizability values so extreme that they required experimental validation, yet, found in nature in the densely packed mitochondrial(mt) DNA of Namystynia karyoxenos , an ocean-dwelling protist with extreme mitochondrial gene fragmentation. The need to transmit an extraordinarily large amount of mtDNA, estimated to be > 600 Mb, in combination with the absence of mtDNA compaction proteins may have pushed mechanical selection to the extreme. Similarly extreme DNA mechanics are observed in bird microchromosomes, although the functional consequence is not yet clear. The discovery of eccentric DNA mechanics in unrelated unicellular and multicellular eukaryotes suggests that we can predict extreme natural biology which can arise through strong selection. Our methods offer a way to study the biological functions of DNA mechanics in any genome and to engineer DNA sequences with desired mechanical properties.",
+  "authors": [
+    "Park J",
+    "Prokopchuk G",
+    "Popchock AR",
+    "Hao J",
+    "Liao T",
+    "Yan S",
+    "Hedman DJ",
+    "Larson JD",
+    "Walther BK",
+    "Becker NA",
+    "Basu A",
+    "Maher LJ",
+    "Wheeler RJ",
+    "Asbury CL",
+    "Biggins S",
+    "Lukeš J",
+    "Ha T"
+  ],
+  "published_date": "2024-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.22.629997",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.22.629997.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR958625",
+    "raw_record": {
+      "id": "PPR958625",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR958625"
+        ]
+      },
+      "doi": "10.1101/2024.12.22.629997",
+      "title": "Probing mechanical selection in diverse eukaryotic genomes through accurate prediction of 3D DNA mechanics",
+      "authorString": "Park J, Prokopchuk G, Popchock AR, Hao J, Liao T, Yan S, Hedman DJ, Larson JD, Walther BK, Becker NA, Basu A, Maher LJ, Wheeler RJ, Asbury CL, Biggins S, Lukeš J, Ha T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Park J",
+            "lastName": "Park",
+            "firstName": "Jonghan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Medicine, , ,"
+                },
+                {
+                  "affiliation": "and Program in Cellular and Molecular Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prokopchuk G",
+            "lastName": "Prokopchuk",
+            "firstName": "Galina",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Parasitology, Biology Centre, , ,"
+                },
+                {
+                  "affiliation": "Faculty of Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Popchock AR",
+            "lastName": "Popchock",
+            "firstName": "Andrew",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Basic Sciences Division, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hao J",
+            "lastName": "Hao",
+            "firstName": "Jingzhou",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "and Program in Cellular and Molecular Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biophysics, . , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liao T",
+            "lastName": "Liao",
+            "firstName": "Ting-Wei",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "and Program in Cellular and Molecular Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biophysics, . , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yan S",
+            "lastName": "Yan",
+            "firstName": "Sophia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "and Program in Cellular and Molecular Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Newton South High School, Newton, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hedman DJ",
+            "lastName": "Hedman",
+            "firstName": "Dylan",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurobiology & Biophysics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Larson JD",
+            "lastName": "Larson",
+            "firstName": "Joshua",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurobiology & Biophysics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walther BK",
+            "lastName": "Walther",
+            "firstName": "Brandon",
+            "initials": "BK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "and Program in Cellular and Molecular Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Division of Genetics and Genomics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Becker NA",
+            "lastName": "Becker",
+            "firstName": "Nicole",
+            "initials": "NA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine and Science, Rochester, MN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Basu A",
+            "lastName": "Basu",
+            "firstName": "Aakash",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maher LJ",
+            "lastName": "Maher",
+            "firstName": "James",
+            "initials": "LJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine and Science, Rochester, MN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wheeler RJ",
+            "lastName": "Wheeler",
+            "firstName": "Richard",
+            "initials": "RJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biological Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Asbury CL",
+            "lastName": "Asbury",
+            "firstName": "Charles",
+            "initials": "CL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurobiology & Biophysics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biggins S",
+            "lastName": "Biggins",
+            "firstName": "Sue",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Basic Sciences Division, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lukeš J",
+            "lastName": "Lukeš",
+            "firstName": "Julius",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Parasitology, Biology Centre, , ,"
+                },
+                {
+                  "affiliation": "Faculty of Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ha T",
+            "lastName": "Ha",
+            "firstName": "Taekjip",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "and Program in Cellular and Molecular Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biophysics, . , ,"
+                },
+                {
+                  "affiliation": "Division of Genetics and Genomics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Connections between the mechanical properties of DNA and biological functions have been speculative due to the lack of methods to measure or predict DNA mechanics at scale. Recently, a proxy for DNA mechanics, cyclizability, was measured by loop-seq and enabled genome-scale investigation of DNA mechanics. Here, we use this dataset to build a computational model predicting bias-corrected intrinsic cyclizability, with near-perfect accuracy, solely based on DNA sequence. Further, the model predicts intrinsic bending direction in 3D space. Using this tool, we aimed to probe mechanical selection - that is, the evolutionary selection of DNA sequence based on its mechanical properties - in diverse circumstances. First, we found that the intrinsic bend direction of DNA sequences correlated with the observed bending in known protein-DNA complex structures, suggesting that many proteins co-evolved with their DNA partners to capture DNA in its intrinsically preferred bent conformation. We then applied our model to large-scale yeast population genetics data and showed that centromere DNA element II, whose consensus sequence is unknown, leaving its sequence-specific role unclear, is under mechanical selection to increase the stability of inner-kinetochore structure and to facilitate centromeric histone recruitment. Finally,  in silico evolution under strong mechanical selection discovered hallucinated sequences with cyclizability values so extreme that they required experimental validation, yet, found in nature in the densely packed mitochondrial(mt) DNA of  Namystynia karyoxenos , an ocean-dwelling protist with extreme mitochondrial gene fragmentation. The need to transmit an extraordinarily large amount of mtDNA, estimated to be > 600 Mb, in combination with the absence of mtDNA compaction proteins may have pushed mechanical selection to the extreme. Similarly extreme DNA mechanics are observed in bird microchromosomes, although the functional consequence is not yet clear. The discovery of eccentric DNA mechanics in unrelated unicellular and multicellular eukaryotes suggests that we can predict extreme natural biology which can arise through strong selection. Our methods offer a way to study the biological functions of DNA mechanics in any genome and to engineer DNA sequences with desired mechanical properties.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "211075/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.22.629997"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.22.629997"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR958625"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR958625&type=FILE&fileName=EMS202358-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202358",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-12-25",
+      "firstPublicationDate": "2024-12-23",
+      "firstIndexDate": "2024-12-25",
+      "fullTextReceivedDate": "2025-01-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

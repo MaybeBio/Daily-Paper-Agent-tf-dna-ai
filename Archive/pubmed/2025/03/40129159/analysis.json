@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40129159",
+  "title": "Screening of Phytocompounds Against the NF-kB Pathway Genes and Lung Elevated Proteins Associated with Acute Respiratory Distress Syndrome.",
+  "authors": "Bharathi, Muruganantham; Sivamaruthi, Bhagavathi Sundaram; Bunyakitcharoen, Athit; Kesika, Periyanaina; Chaiyasut, Chaiyavat",
+  "journal": "Recent advances in inflammation & allergy drug discovery",
+  "published_date": "2025-03-25",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过PPI网络和分子对接筛选植物化合物抑制ARDS相关蛋白，虽含分子对接但对象为蛋白-小分子，非蛋白质-DNA互作，且无AI/物理模拟方法创新，与本课题关联微弱。",
+  "abstract": "INTRODUCTION: Acute Respiratory Distress Syndrome (ARDS) is the pathophysiologic state of the inflammatory response to lung injury characterized by alveolar epithelial cell damage and increased cytokine production and accumulation in the lungs. OBJECTIVES: The current study was performed to identify the molecular mechanisms of ARDS related to the proteins elevated in the lung (PEL) and NF-kappaB pathway regulatory genes (GRNF). In addition, the phytocompounds were screened to inhibit the representative target genes and proteins associated with ARDS. MATERIALS AND METHODS: We implemented STRING v11.5 and Network Analyst 3.0 to construct the protein-protein interactions (PPI) network. CytoScape v3.8.2 and DisGeNet v7.3.0 were utilized to visualize and identify genes involved in respiratory diseases. The Cytohubba module was utilized to identify the hub genes from the constructed PPI network. Autodock Vina and Discovery Studio Visualizer v19.1.0.1828 were utilized for the molecular docking analysis. RESULTS: The PPI network was constructed with the GRNF genes. Fifty-four genes are identified as biomarkers involved in respiratory diseases (BMRD). About 191 PEL were identified from the human protein atlas database and constructed the PPI network. The interactions between the PPI network of BMRD and PEL were analyzed. The top 100 hub genes and the signaling genes were identified. Based on the identified signaling genes through the PPI network of BMRD and PEL, the metabolic pathway was elucidated, which causes ARDS via NF-kappaB activation. The ARDS targets (ACVRL1, IKKbeta, ITGAL, ITGB2, TGFbetaR1, and TGFbetaR2) were selected for the molecular docking study. One hundred and thirty-five chemical compounds from Allium sativum, Alstonia scholaris, Ammi visnaga, Artemisia vulgaris Linn., Houttuynia cordata, and Ocimum gratissimum Linn. were retrieved and used for docking against selected ARDS targets. Among them, genkdaphine from A. sativum inhibited ACVRL1 (binding affinity of -9.2 kcal/mol, and RMSD of 2.607A), ITGAL (binding affinity of -9.1 kcal/mol, and RMSD of 1.69A), ITGB2 (binding affinity of -7.9 kcal/mol, and RMSD of 2.184A), TGFbetaRI (binding affinity of -8.5 kcal/mol, and RMSD of 1.807A), and TGFbetaRII (binding affinity of -8.2 kcal/mol, and RMSD of 1.647A). Edulisin III from A. visnaga inhibited the IKKbeta (binding affinity of -7.4 kcal/mol, and RMSD of 2.223A). CONCLUSION: Genkdaphine and edulisin III may be the therapeutics for treating ARDS. However, further studies are needed to warrant the benefits of genkdaphine and edulisin III in treating ARDS. The study's findings may aid in developing new therapeutic approaches to improve the health status of ARDS-affected patients.",
+  "abstract_zh": "引言：急性呼吸窘迫综合征（ARDS）是肺损伤炎症反应的病理生理状态，其特征为肺泡上皮细胞损伤及细胞因子产生和积聚增加。目的：本研究旨在识别与肺内升高蛋白（PEL）及NF-kappaB通路调控基因（GRNF）相关的ARDS分子机制。此外，筛选植物化合物以抑制与ARDS相关的代表性靶基因和蛋白。材料与方法：我们采用STRING v11.5和Network Analyst 3.0构建蛋白-蛋白相互作用（PPI）网络。利用CytoScape v3.8.2和DisGeNet v7.3.0可视化和识别参与呼吸系统疾病的基因。采用Cytohubba模块从构建的PPI网络中识别枢纽基因。分子对接分析使用Autodock Vina和Discovery Studio Visualizer v19.1.0.1828进行。结果：基于GRNF基因构建了PPI网络。识别出54个参与呼吸系统疾病的生物标志物基因（BMRD）。从人类蛋白图谱数据库鉴定出约191个PEL，并构建了PPI网络。分析了BMRD和PEL的PPI网络之间的相互作用。识别出前100个枢纽基因和信号基因。基于通过BMRD和PEL的PPI网络识别的信号基因，阐明了通过NF-kappaB激活导致ARDS的代谢通路。选择ARDS靶点（ACVRL1、IKKbeta、ITGAL、ITGB2、TGFbetaR1和TGFbetaR2）进行分子对接研究。从大蒜（Allium sativum）、糖胶树（Alstonia scholaris）、阿米芹（Ammi visnaga）、艾蒿（Artemisia vulgaris Linn.）、鱼腥草（Houttuynia cordata）和丁香罗勒（Ocimum gratissimum Linn.）中检索到135种化合物，并用于与所选ARDS靶点进行对接。其中，来自大蒜的genkdaphine抑制了ACVRL1（结合亲和力为-9.2 kcal/mol，RMSD为2.607Å）、ITGAL（结合亲和力为-9.1 kcal/mol，RMSD为1.69Å）、ITGB2（结合亲和力为-7.9 kcal/mol，RMSD为2.184Å）、TGFbetaRI（结合亲和力为-8.5 kcal/mol，RMSD为1.807Å）和TGFbetaRII（结合亲和力为-8.2 kcal/mol，RMSD为1.647Å）。来自阿米芹的edulisin III抑制了IKKbeta（结合亲和力为-7.4 kcal/mol，RMSD为2.223Å）。结论：Genkdaphine和edulisin III可能成为治疗ARDS的候选药物。然而，仍需进一步研究以证实genkdaphine和edulisin III在治疗ARDS中的益处。本研究结果可能有助于开发新的治疗方法，以改善ARDS患者的健康状况。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40129159/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40129159/",
+  "paper_page_path": "papers/pubmed/40129159/index.html"
+}

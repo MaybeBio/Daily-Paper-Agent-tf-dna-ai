@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "42204636",
+    "doi": "10.1186/s13062-026-00797-1",
+    "title": "Integrative single-cell and bulk analyses reveal ATF4-associated immune suppression and WNT/beta-catenin signaling in osteosarcoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteosarcoma (OS) is highly heterogeneous and often exhibits an immunosuppressive tumor microenvironment, contributing to poor outcomes. The cell-type-resolved role of the ATF/CREB stress-response network, particularly ATF4, remains unclear in OS. METHODS: We integrated public OS single-cell RNA-seq and bulk transcriptome cohorts. Single-cell analyses included malignant program discovery (cNMF), regulon inference (SCENIC), and cell-cell communication (CellChat). Bulk cohorts (TARGET and GEO) were used to build and validate a prognostic model. ATF4-associated immune features were assessed using ESTIMATE, immune deconvolution, and TIDE-related metrics. WNT/beta-catenin activity was evaluated by gene-set scoring. ATF4-related drugs were screened using DSigDB/Enrichr and assessed by docking. Sorafenib was selected for molecular dynamics simulation. ATF4 function was validated by siRNA knockdown (MG63, U2OS) and overexpression (HOS). RESULTS: A stress-associated malignant program showed enriched ATF/CREB activity and prominent signaling interactions. Intersecting its markers with ATF/CREB genes identified ATF3/ATF4/CREB5, which were used to construct an ATF/CREB-associated risk score (ACS) that stratified survival in TARGET and external cohorts. ATF4 showed the most consistent adverse prognostic association and remained an independent factor in multivariate analyses. ATF4-high tumors were associated with a more immunosuppressive profile and stronger WNT/beta-catenin signaling, and these features tracked with the ACS. Among the compounds tested in silico, sorafenib ranked highest in docking, and subsequent molecular dynamics simulations suggested that the ATF4-sorafenib interaction can remain stable. In cell-based assays, silencing ATF4 curtailed proliferation, colony formation, and migration, accompanied by reduced beta-catenin, CyclinD1, and c-MYC. By contrast, ATF4 overexpression led to the opposite pattern. CONCLUSION: Our results place ATF4 at the intersection of stress-related tumor programs, immune suppression, and WNT/beta-catenin activation in OS, and this pattern is associated with poorer clinical outcomes. The ACS offers a practical way to stratify risk, and sorafenib warrants further evaluation as a potential ATF4-oriented therapeutic lead.",
+    "keywords": [
+      "ATF4",
+      "Osteosarcoma",
+      "Prognostic model",
+      "Single-cell RNA-seq",
+      "Sorafenib",
+      "Tumor microenvironment",
+      "WNT/beta-catenin"
+    ],
+    "mesh_terms": [
+      "*Activating Transcription Factor 4/metabolism/genetics",
+      "Humans",
+      "*Osteosarcoma/genetics/immunology/metabolism",
+      "*Wnt Signaling Pathway",
+      "Single-Cell Analysis",
+      "*Bone Neoplasms/genetics/immunology",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Xiaomin",
+        "Chen, Feihu",
+        "Zhou, Jin",
+        "Xu, Dawei"
+      ],
+      "short_names": [
+        "Ding X",
+        "Chen F",
+        "Zhou J",
+        "Xu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Orthopaedics Department, Nantong First People's Hospital, Nantong, Jiangsu, China.",
+        "Xuyi People's Hospital, Xuyi, 211700, China.",
+        "Orthopaedics Department, Nantong First People's Hospital, Nantong, Jiangsu, China.",
+        "Orthopaedics Department, Nantong First People's Hospital, Nantong, Jiangsu, China. xdw_nt1y@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Xiaomin",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopaedics Department, Nantong First People's Hospital, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Feihu",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Xuyi People's Hospital, Xuyi, 211700, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jin",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopaedics Department, Nantong First People's Hospital, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Dawei",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopaedics Department, Nantong First People's Hospital, Nantong, Jiangsu, China. xdw_nt1y@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology direct"
+    ],
+    "journal_abbrev": [
+      "Biol Direct"
+    ],
+    "pub_date": "2026 May 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/28 06:31",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41050116",
+      "41005293",
+      "40618789",
+      "40534850",
+      "40170852",
+      "39581243",
+      "39293390",
+      "39245737",
+      "39164791",
+      "39076089",
+      "38781762",
+      "38768690",
+      "38383612",
+      "38212768",
+      "37602543",
+      "37569894",
+      "37410595",
+      "37251379",
+      "36825279",
+      "36063172",
+      "35720360",
+      "34572856",
+      "34367994",
+      "33359211",
+      "32327570",
+      "30635339",
+      "28575679",
+      "27629041",
+      "27141961",
+      "26797758",
+      "25990557",
+      "25970248",
+      "25634333",
+      "25498219",
+      "23586463",
+      "21527590",
+      "12766482"
+    ],
+    "similar": [
+      "42204636",
+      "40292920",
+      "32113150",
+      "42530245",
+      "39707194",
+      "41948724",
+      "41463320",
+      "37669584",
+      "41716413",
+      "28370561",
+      "40696947",
+      "42047819",
+      "39742274",
+      "31072914",
+      "40764361",
+      "34547170",
+      "42510824",
+      "33628101",
+      "29108989",
+      "24337584",
+      "27455247",
+      "41935591",
+      "31665067",
+      "31855073",
+      "28246931",
+      "40895569",
+      "42344686",
+      "40229896",
+      "42136962",
+      "41168860",
+      "33108067",
+      "42565568",
+      "41206435",
+      "29619662",
+      "35635031",
+      "40433364",
+      "41656832",
+      "42486346",
+      "29441981",
+      "38924929",
+      "37420040",
+      "41203170",
+      "41472554",
+      "30844369",
+      "30426155",
+      "39962461",
+      "34777684",
+      "41167410",
+      "41710887",
+      "42106714",
+      "40496864",
+      "33416089",
+      "40321814",
+      "30779064",
+      "41567189",
+      "38686653",
+      "34753394",
+      "41488055",
+      "39431237",
+      "31370265",
+      "39108264",
+      "40607387",
+      "41050079",
+      "31898343",
+      "40097546",
+      "29852168",
+      "32472335",
+      "30523602",
+      "42180849",
+      "42212140",
+      "42089585",
+      "30986552",
+      "37344882",
+      "31889959",
+      "33300077",
+      "41198558",
+      "26444270",
+      "28260089",
+      "38864487",
+      "40241525",
+      "39712023",
+      "30365932",
+      "42495647",
+      "42471072",
+      "32922188",
+      "41208987",
+      "42479311",
+      "32854645",
+      "39015570",
+      "38720781",
+      "42244292",
+      "30856284",
+      "35758024",
+      "30489194",
+      "39844299",
+      "40801794",
+      "41403935",
+      "42488565",
+      "40045162",
+      "26035210"
+    ],
+    "review": [
+      "42204636",
+      "31370265"
+    ],
+    "pmc": [
+      "13397772"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biologydirect.biomedcentral.com/articles/10.1186/s13062-026-00797-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bonecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bone Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42204636/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1755",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

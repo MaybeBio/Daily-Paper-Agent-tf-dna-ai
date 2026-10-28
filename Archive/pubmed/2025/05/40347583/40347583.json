@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "40347583",
+    "doi": "10.1016/j.breast.2025.104489",
+    "title": "Optimization of guidelines for Risk Of Recurrence/Prosigna testing using a machine learning model: a Swedish multicenter study."
+  },
+  "content": {
+    "abstract": "PURPOSE: Gene expression profiles are used for decision making in the adjuvant setting in hormone receptor-positive, HER2-negative (HR+/HER2-) breast cancer. While algorithms to optimize testing exist for RS/Oncotype Dx, no such efforts have focused on ROR/Prosigna. This study aims to enhance pre-selection of patients for testing using machine learning. METHODS: We included 348 postmenopausal women with resected HR+/HER2-node-negative breast cancer tested with ROR/Prosigna across four Swedish regions. We developed a machine learning model using simple prognostic factors (size, progesterone receptor expression, grade, and Ki67) to predict ROR/Prosigna output and compared the performance regarding over- and undertreatment with commonly employed risk stratification schemes. RESULTS: Previous classifications resulted in significant undertreatment or large intermediate groups needing gene expression profiling. The machine learning model achieved AUC under ROC of 0.77 in training and 0.83 in validation cohorts for prediction of indication for adjuvant chemotherapy according to ROR/Prosigna. By setting and validating upper and lower cut-offs corresponding to low, intermediate and high-risk disease, we improved risk stratification accuracy and reduced the proportion of patients needing ROR/Prosigna testing compared to current risk stratification. CONCLUSION: Machine learning algorithms can enhance patient selection for gene expression profiling, though further external validation is needed.",
+    "keywords": [
+      "Adjuvant",
+      "Breast cancer",
+      "Machine learning",
+      "Prosigna",
+      "Risk of recurrence"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Machine Learning",
+      "*Breast Neoplasms/genetics/pathology/therapy",
+      "Sweden",
+      "Middle Aged",
+      "Aged",
+      "*Gene Expression Profiling/methods",
+      "Risk Assessment/methods",
+      "*Neoplasm Recurrence, Local/genetics",
+      "Receptors, Progesterone/metabolism",
+      "Chemotherapy, Adjuvant",
+      "Receptors, Estrogen/metabolism",
+      "Prognosis",
+      "Postmenopause",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Practice Guidelines as Topic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kjallquist, Una",
+        "Tsiknakis, Nikos",
+        "Acs, Balazs",
+        "Margolin, Sara",
+        "Kessler, Luisa Edman",
+        "Levy, Scarlett",
+        "Ekholm, Maria",
+        "Lundgren, Christine",
+        "Olsson, Erik",
+        "Lindman, Henrik",
+        "Valachis, Antonios",
+        "Hartman, Johan",
+        "Foukakis, Theodoros",
+        "Matikas, Alexios"
+      ],
+      "short_names": [
+        "Kjallquist U",
+        "Tsiknakis N",
+        "Acs B",
+        "Margolin S",
+        "Kessler LE",
+        "Levy S",
+        "Ekholm M",
+        "Lundgren C",
+        "Olsson E",
+        "Lindman H",
+        "Valachis A",
+        "Hartman J",
+        "Foukakis T",
+        "Matikas A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden. Electronic address: una.kjallquist@ki.se.",
+        "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden.",
+        "Department of Clinical Science and Education, Sodersjukhuset, Karolinska Institutet, Stockholm, Sweden; Department of Oncology, Sodersjukhuset, Stockholm, Sweden.",
+        "Breast Center, Capio St:Goran's Hospital, Stockholm, Sweden.",
+        "Breast Center, Capio St:Goran's Hospital, Stockholm, Sweden.",
+        "Department of Oncology, Ryhov County Hospital, Jonkoping, Sweden; Department of Biomedical and Clinical Sciences, Division of Oncology, Linkoping University, Linkoping, Sweden.",
+        "Department of Oncology, Ryhov County Hospital, Jonkoping, Sweden; Department of Biomedical and Clinical Sciences, Division of Oncology, Linkoping University, Linkoping, Sweden.",
+        "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden.",
+        "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden.",
+        "Department of Oncology, Faculty of Medicine and Health, Orebro University, Orebro, Sweden.",
+        "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Department of Clinical Science and Education, Sodersjukhuset, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden.",
+        "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden. Electronic address: alexios.matikas@ki.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kjällquist, Una",
+        "short_name": "Kjällquist U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden. Electronic address: una.kjallquist@ki.se."
+        ]
+      },
+      {
+        "full_name": "Tsiknakis, Nikos",
+        "short_name": "Tsiknakis N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Acs, Balazs",
+        "short_name": "Acs B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Margolin, Sara",
+        "short_name": "Margolin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Science and Education, Södersjukhuset, Karolinska Institutet, Stockholm, Sweden; Department of Oncology, Södersjukhuset, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Kessler, Luisa Edman",
+        "short_name": "Kessler LE",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Center, Capio St:Göran's Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Levy, Scarlett",
+        "short_name": "Levy S",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Center, Capio St:Göran's Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ekholm, Maria",
+        "short_name": "Ekholm M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Ryhov County Hospital, Jönköping, Sweden; Department of Biomedical and Clinical Sciences, Division of Oncology, Linköping University, Linköping, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lundgren, Christine",
+        "short_name": "Lundgren C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Ryhov County Hospital, Jönköping, Sweden; Department of Biomedical and Clinical Sciences, Division of Oncology, Linköping University, Linköping, Sweden."
+        ]
+      },
+      {
+        "full_name": "Olsson, Erik",
+        "short_name": "Olsson E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lindman, Henrik",
+        "short_name": "Lindman H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Valachis, Antonios",
+        "short_name": "Valachis A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Faculty of Medicine and Health, Örebro University, Örebro, Sweden."
+        ]
+      },
+      {
+        "full_name": "Hartman, Johan",
+        "short_name": "Hartman J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Department of Clinical Science and Education, Södersjukhuset, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Foukakis, Theodoros",
+        "short_name": "Foukakis T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Matikas, Alexios",
+        "short_name": "Matikas A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology/Pathology, Karolinska Institutet, Stockholm, Sweden; Theme Cancer, Karolinska University Hospital, Stockholm, Sweden. Electronic address: alexios.matikas@ki.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast (Edinburgh, Scotland)"
+    ],
+    "journal_abbrev": [
+      "Breast"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/11 18:56",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38101773",
+      "36765860",
+      "35941565",
+      "35681597",
+      "35439025",
+      "34914339",
+      "33721561",
+      "33369635",
+      "33108242",
+      "32795875",
+      "32085753",
+      "31264581",
+      "31157962",
+      "31131397",
+      "31130722",
+      "29860917",
+      "29788166",
+      "29676944",
+      "29659329",
+      "29450494",
+      "28664507",
+      "23503643",
+      "21990413",
+      "21709140",
+      "7073932"
+    ],
+    "similar": [
+      "40347583",
+      "28423537",
+      "41074908",
+      "30053900",
+      "29202609",
+      "33444922",
+      "32253134",
+      "39365509",
+      "40714511",
+      "26610383",
+      "26297356",
+      "41061345",
+      "40348620",
+      "29369732",
+      "31152079",
+      "26152740",
+      "32372329",
+      "26971372",
+      "32170635",
+      "40054315",
+      "23701403",
+      "40288025",
+      "33608712",
+      "41469107",
+      "32385567",
+      "38592541",
+      "28111076",
+      "38451415",
+      "40025384",
+      "33860387",
+      "29045452",
+      "26467036",
+      "29137653",
+      "25129366",
+      "38838499",
+      "41263422",
+      "34090143",
+      "30076279",
+      "29304138",
+      "39734136",
+      "34091374",
+      "33597715",
+      "25851308",
+      "29128896",
+      "23816962",
+      "40116474",
+      "30456680",
+      "28259011",
+      "31522959",
+      "39579550",
+      "39899163",
+      "39522332",
+      "40148997",
+      "31838010",
+      "31641007",
+      "41261821",
+      "31026440",
+      "36269526",
+      "40927537",
+      "32561662",
+      "34751852",
+      "28960862",
+      "31342377",
+      "33108242",
+      "40997745",
+      "23074401",
+      "29728098",
+      "25935792",
+      "33601299",
+      "26867046",
+      "39177880",
+      "23801158",
+      "39848244",
+      "26340863",
+      "40014208",
+      "39020239",
+      "27526056",
+      "31619259",
+      "31378534",
+      "29959613",
+      "29236174",
+      "29181717",
+      "21043825",
+      "38656833",
+      "30634106",
+      "32601800",
+      "38955698",
+      "40936892",
+      "30242578",
+      "28243897",
+      "28739750",
+      "35681597",
+      "29450494",
+      "32284770",
+      "32565110",
+      "34425579",
+      "32592992",
+      "26909792",
+      "29133514",
+      "31907749"
+    ],
+    "review": [
+      "40347583",
+      "41074908",
+      "40054315",
+      "33597715",
+      "28259011",
+      "39899163"
+    ],
+    "pmc": [
+      "12139505"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-9776(25)00506-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40347583/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0960-9776(25)00506-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://liu.diva-portal.org/smash/get/diva2:1962938/FULLTEXT01.pdf",
+        "provider": "Linkoping University Electronic Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

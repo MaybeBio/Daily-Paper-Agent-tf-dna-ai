@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, limitations, conclusions, supporting information statements) as provided in the submission.
+- **Assessment boundary** The review is limited to the content supplied in the manuscript text. Supplementary figures, tables, and methods are referenced but not provided in full; their content is assessed only through in-text descriptions.
+- **Shared manuscript claim summary** The authors present a computational pipeline (AF-CBA) that uses AlphaFold2 in a competitive binding assay to prioritize protein-protein binding candidates from high-throughput protein libraries, identify binding epitopes, and demonstrate transferability across multiple peptide-protein systems, with experimental validation for one predicted binder (BICRA).
+- **Visible evidence base** Main text descriptions of results, figures referenced (Figures 1-6, S1-S23), tables referenced (Table 1, S1), and methodological descriptions in the main text. Full supplementary methods, figures, and tables are not included in the provided material.
+- **Missing materials affecting confidence** Supplementary methods (detailed pipeline parameters, scoring thresholds, filtering criteria), all supplementary figures (S1-S23), Table 1 and Table S1 (system details, peptide libraries, hit lists), and experimental protocols for the binding assay are not provided. These are essential for fully evaluating reproducibility and technical soundness.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a timely and potentially useful computational approach for prioritizing protein-protein interaction candidates from high-throughput datasets. The core idea of using AlphaFold2 in a competitive binding format is novel and builds logically on prior work. The proof-of-concept results on known BET domain binders are encouraging, and the identification of a novel BICRA epitope with experimental validation is a strong point. However, the manuscript as presented has significant gaps in methodological detail and evidence transparency. The absence of supplementary materials, detailed scoring criteria, and full experimental data prevents a complete assessment of robustness, reproducibility, and generalizability. The limitations section is thoughtful and adds credibility, but the overall case for broad applicability is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, structural biologists using AlphaFold for complex prediction, and experimentalists studying protein interaction networks, particularly those working with high-throughput pull-down or yeast two-hybrid datasets. The method's potential to reduce experimental burden by prioritizing candidates for validation would appeal to laboratories studying protein interaction networks, drug target identification, and viral-host interactions.
+- **Major strengths** 1) The competitive binding assay concept is a creative adaptation of AlphaFold2 that addresses a real bottleneck in high-throughput interaction screening. 2) The pipeline includes a multi-stage filtering approach that reduces computational cost, which is practically important. 3) The demonstration of transferability across nine additional systems, despite mixed success, provides an honest assessment of the method's scope. 4) The experimental validation of a novel BICRA epitope is a compelling proof of utility. 5) The explicit discussion of limitations and failure modes is commendable and helps users understand when the method is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The pipeline identifies the most likely binding epitope from a library of peptide fragments, with high accuracy for known binders.
+  - **Evidence pointer** Results section, Proof of Concept 1; Table 1 (not provided); Figures 4A-C, S3-S6 (not provided)
+  - **Concern** The manuscript claims successful recovery of known binding epitopes for four of seven BET-binding proteins, but the specific scoring thresholds, filtering criteria, and decision rules for each pipeline stage are not described in the main text. The supplementary methods are referenced but not available for review. Without these details, the reproducibility of the pipeline cannot be assessed, and the claimed accuracy cannot be independently verified.
+  - **Why it matters** A computational pipeline's value depends on its reproducibility and clear parameterization. If the thresholds for pLDDT, ranking criteria, or competition rules are not specified, other researchers cannot apply the method to their own datasets, and the reported success rates cannot be contextualized or compared to alternative approaches.
+  - **Resolution test** Provide the full supplementary methods, including all numerical thresholds, filtering criteria, and algorithmic steps. Ideally, include a step-by-step pseudocode or a detailed workflow diagram with explicit parameters. The authors should also report the sensitivity of results to these parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The pipeline identifies 22 proteins from a 752-protein pull-down library that bind ET with high confidence, and one of these (BICRA) is experimentally validated.
+  - **Evidence pointer** Results section, Predictions; Table S1 (not provided); Figure 5A-D, S21-S23 (not provided)
+  - **Concern** The list of 22 predicted binders is presented as a key outcome, but the full list, ranking scores, and criteria for "high confidence" are not shown in the main text. Only BICRA is discussed in detail. The experimental validation is described qualitatively, with no quantitative binding data (e.g., Kd values, error bars, replicates) provided in the main text. The claim that BICRA is a "stronger binder" than peptides with canonical motifs is not supported by numerical data.
+  - **Why it matters** The predictive power of the pipeline is a central claim. Without the full hit list and quantitative experimental validation, the reader cannot assess the false positive rate, the ranking quality, or the practical utility of the method. The single experimental validation, while promising, is insufficient to establish the pipeline's reliability for prioritizing candidates from large libraries.
+  - **Resolution test** Include Table S1 in the main text or as a supplement with full ranking scores, peptide sequences, and predicted epitope locations. Provide quantitative binding data for BICRA and, ideally, for a few additional predicted binders and non-binders as negative controls. Report replicates and statistical measures of binding affinity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The method is transferable to other peptide-protein systems, as demonstrated by nine additional systems.
+  - **Evidence pointer** Results section, Proof of Concept 2; Table 1 (not provided); Figures 4D-E, S12-S20 (not provided)
+  - **Concern** The transferability claim is based on nine systems, but the main text reports only that the native epitope was the top hit in three cases and within the top three in three others, with three failures. This mixed result is presented as evidence of transferability, but the criteria for "success" are not clearly defined. The systems are described as having "diverse topologies and binding modes," but no details on the structural characteristics of these systems or the reasons for success/failure are given in the main text.
+  - **Why it matters** The method's utility depends on its applicability beyond the BET system. A 6/9 success rate, while promising, needs contextualization. Understanding which system features correlate with success or failure is critical for users to know when to trust the method. Without this analysis, the transferability claim is weak.
+  - **Resolution test** Provide a detailed table of the nine systems, including PDB IDs, binding affinities, structural features, and the ranking of the native epitope. Discuss the three failure cases in detail, identifying the likely causes (e.g., low affinity, discontinuous epitopes, conformational changes) and whether any adjustments to the pipeline could address these.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The pipeline's computational cost is significantly reduced by the multi-stage filtering approach.
+  - **Evidence pointer** Results section, General Approach; Figure S1 (not provided)
+  - **Concern** The claim of reduced computational cost is made, but no quantitative data on runtime, resource usage, or comparison to an unfiltered all-by-all approach is provided in the main text. The scaling argument (O(N) and O(5N) for early stages) is reasonable, but the actual computational savings depend on the filtering efficiency, which is not demonstrated.
+  - **Why it matters** Computational cost is a practical consideration for users. If the filtering stages do not substantially reduce the number of candidates, the all-by-all stage could still be prohibitive. Quantitative benchmarks would help users estimate the resources needed for their own datasets.
+  - **Resolution test** Provide runtime measurements for a representative dataset, comparing the full pipeline to an unfiltered all-by-all approach. Report the number of candidates surviving each stage and the total wall-clock time. If possible, include a scaling analysis with varying library sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Identifying the interactome for a protein of interest is challenging due to the large number of possible binders" is vague. The term "interactome" is broad and could be misinterpreted.
+  - **Required correction** Consider rephrasing to specify that the challenge is in identifying direct, high-affinity binding partners from a large pool of candidate proteins, as this is the specific problem addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, Proof of Concept 1
+  - **Evidence pointer** Text describing LANA and JMJD6 results
+  - **Issue** The discussion of LANA and JMJD6 failures is brief. The text mentions that the pipeline "does not recommend further experimental validation" for these low-affinity binders, but does not explain whether this is a false negative (i.e., the pipeline missed a real binder) or a correct rejection (i.e., the pipeline correctly identified these as weak binders not worth pursuing).
+  - **Required correction** Clarify whether the pipeline's failure to select LANA and JMJD6 is considered a limitation or a feature. If the goal is to prioritize strong binders, then correctly excluding weak binders is a success, not a failure. This distinction should be explicit.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, Predictions
+  - **Evidence pointer** Text describing BICRA epitope predictions
+  - **Issue** The description of the BICRA epitope predictions is dense and assumes familiarity with the BET system. The text jumps from the hit list to the experimental validation without clearly explaining why BICRA was chosen for validation over other candidates.
+  - **Required correction** Add a sentence explaining the selection criteria for experimental validation (e.g., novelty, accessibility, availability of reagents) to help readers understand the decision process.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Limitations section
+  - **Evidence pointer** Third limitation, co-binding
+  - **Issue** The co-binding issue is described as a limitation, but the text does not explain why co-binding occurs or how it could be detected or avoided. This is a technical detail that would be useful for users.
+  - **Required correction** Provide a brief explanation of the likely cause of co-binding (e.g., low affinity, multiple binding sites) and suggest potential mitigation strategies, such as adjusting the competition ratio or using different peptide lengths.
+- **Technical failings that need to be addressed before the case is established** 1) The full methodological details, including all thresholds and parameters, must be provided and made accessible. 2) Quantitative experimental validation data for BICRA binding must be included. 3) The criteria for defining "success" in the transferability study must be explicitly stated. 4) The computational cost claim needs quantitative support.
+- **Assessment against Nature-style criteria** Originality: The competitive binding assay concept is a creative and original adaptation of AlphaFold2, distinct from prior single-structure prediction approaches. Scientific importance: The method addresses a real bottleneck in high-throughput interaction screening and has potential broad applicability, but the evidence for this is currently incomplete. Interdisciplinary readership: The work bridges computational biology, structural biology, and experimental biochemistry, and the writing is generally accessible, though some sections assume familiarity with AlphaFold2 and BET biology. Technical soundness: The approach is logically sound, but the lack of methodological detail and quantitative validation prevents full assessment. Readability for nonspecialists: The main text is largely clear, but the results sections are dense and would benefit from more explicit explanations of the pipeline steps and outcomes.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the proof-of-concept results are encouraging, but the manuscript in its current form does not provide sufficient methodological detail or quantitative evidence to fully establish the pipeline's reliability and generalizability. The authors should address the major concerns, particularly the missing supplementary materials and quantitative validation, before the case is fully made.
+
+## Risk / unsupported claims
+- The claim that the pipeline "accurately prioritizes" binding candidates is not fully supported without the complete hit list and false positive analysis.
+- The claim of transferability to nine systems is weakened by the lack of detailed success/failure criteria and structural analysis.
+- The claim of reduced computational cost is unsupported by quantitative data.
+- The statement that the BICRA epitope is a "stronger binder" than canonical motif peptides is not supported by numerical binding data in the provided text.
+- The assertion that the pipeline "learned beyond specific patterns of interaction" is speculative and not directly evidenced.

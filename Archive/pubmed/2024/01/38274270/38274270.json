@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "38274270",
+    "doi": "10.3389/fcell.2023.1190273",
+    "title": "Identification and validation of potential biomarkers for atrial fibrillation based on integrated bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "Background: Globally, the most common form of arrhythmias is atrial fibrillation (AF), which causes severe morbidity, mortality, and socioeconomic burden. The application of machine learning algorithms in combination with weighted gene co-expression network analysis (WGCNA) can be used to screen genes, therefore, we aimed to screen for potential biomarkers associated with AF development using this integrated bioinformatics approach. Methods: On the basis of the AF endocardium gene expression profiles GSE79768 and GSE115574 from the Gene Expression Omnibus database, differentially expressed genes (DEGs) between AF and sinus rhythm samples were identified. DEGs enrichment analysis and transcription factor screening were then performed. Hub genes for AF were screened using WGCNA and machine learning algorithms, and the diagnostic accuracy was assessed by the receiver operating characteristic (ROC) curves. GSE41177 was used as the validation set for verification. Subsequently, we identified the specific signaling pathways in which the key biomarkers were involved, using gene set enrichment analysis and reverse prediction of mRNA-miRNA interaction pairs. Finally, we explored the associations between the hub genes and immune microenvironment and immune regulation. Results: Fifty-seven DEGs were identified, and the two hub genes, hypoxia inducible factor 1 subunit alpha inhibitor (HIF1AN) and mitochondrial inner membrane protein MPV17 (MPV17), were screened using WGCNA combined with machine learning algorithms. The areas under the receiver operating characteristic curves for MPV17 and HIF1AN validated that two genes predicted AF development, and the differential expression of the hub genes was verified in the external validation dataset. Enrichment analysis showed that MPV17 and HIF1AN affect mitochondrial dysfunction, oxidative stress, gap junctions, and other signaling pathway functions. Immune cell infiltration and immunomodulatory correlation analyses showed that MPV17 and HIF1AN are strongly correlated with the content of immune cells and significantly correlated with HLA expression. Conclusion: The identification of hub genes associated with AF using WGCNA combined with machine learning algorithms and their correlation with immune cells and immune gene expression can elucidate the molecular mechanisms underlying AF occurrence. This may further identify more accurate and effective biomarkers and therapeutic targets for the diagnosis and treatment of AF.",
+    "keywords": [
+      "HIF1AN",
+      "MPV17",
+      "atrial fibrillation",
+      "bioinformatics analyses",
+      "weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tong, Fei",
+        "Sun, Zhijun"
+      ],
+      "short_names": [
+        "Tong F",
+        "Sun Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Shengjing Hospital of China Medical University, Shenyang, China.",
+        "Department of Cardiology, Shengjing Hospital of China Medical University, Shenyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tong, Fei",
+        "short_name": "Tong F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shengjing Hospital of China Medical University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhijun",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shengjing Hospital of China Medical University, Shenyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cell and developmental biology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Dev Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/26 06:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42363518",
+      "42222507",
+      "39497129"
+    ],
+    "refs": [
+      "35936905",
+      "35880174",
+      "35453689",
+      "35154514",
+      "34890774",
+      "34755642",
+      "33501848",
+      "32686471",
+      "31590128",
+      "31077199",
+      "30267749",
+      "29908372",
+      "29892015",
+      "29759598",
+      "28531964",
+      "28225836",
+      "27997827",
+      "27346902",
+      "27262391",
+      "27097848",
+      "26733238",
+      "26490502",
+      "26216282",
+      "26197188",
+      "25994868",
+      "25960110",
+      "25861990",
+      "25810125",
+      "25371714",
+      "25367569",
+      "24613319",
+      "24598802",
+      "24256074",
+      "23649149",
+      "22723783",
+      "21076174",
+      "20631454",
+      "19808399",
+      "19114008",
+      "18694997",
+      "16582910",
+      "16220686",
+      "15630139",
+      "12451014",
+      "12062329",
+      "11641274",
+      "10233845",
+      "7957077",
+      "7834837",
+      "7585823"
+    ],
+    "similar": [
+      "38274270",
+      "36733486",
+      "37161136",
+      "35305619",
+      "35911963",
+      "39331874",
+      "35023949",
+      "37359526",
+      "37057099",
+      "38505024",
+      "36341343",
+      "39257896",
+      "39319462",
+      "33553270",
+      "37971162",
+      "38656659",
+      "39090590",
+      "39263286",
+      "39267804",
+      "36699262",
+      "39403102",
+      "32778054",
+      "36467340",
+      "38371524",
+      "38291374",
+      "37008314",
+      "34198460",
+      "38384969",
+      "37960721",
+      "33509101",
+      "36225941",
+      "33841968",
+      "39055656",
+      "37684281",
+      "35790963",
+      "32383373",
+      "39139563",
+      "36226239",
+      "38260098",
+      "38863714",
+      "35651940",
+      "34321013",
+      "36952494",
+      "35273648",
+      "39375405",
+      "36777638",
+      "38987624",
+      "39076905",
+      "37396579",
+      "35958412",
+      "36568366",
+      "38699235",
+      "37974210",
+      "35966550",
+      "31894294",
+      "39142001",
+      "39391879",
+      "34781940",
+      "36823662",
+      "37969297",
+      "37691920",
+      "37153000",
+      "37503333",
+      "35713363",
+      "39130434",
+      "34536521",
+      "36671813",
+      "35865542",
+      "38690269",
+      "34671599",
+      "32682418",
+      "35047008",
+      "35911532",
+      "37359529",
+      "35278479",
+      "37063972",
+      "38390317",
+      "39221422",
+      "39344316",
+      "39341952",
+      "37740761",
+      "36968495",
+      "36660690",
+      "38711508",
+      "30760287",
+      "37760894",
+      "38509983",
+      "36647491",
+      "39381104",
+      "38544384",
+      "36532015",
+      "34968391",
+      "35764238",
+      "37435047",
+      "36341378",
+      "39364223",
+      "36506310",
+      "38951833",
+      "37582718",
+      "35607269"
+    ],
+    "review": [
+      "38274270",
+      "33509101"
+    ],
+    "pmc": [
+      "10808641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38274270/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38274270",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DQA1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcell.2023.1190273",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

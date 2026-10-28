@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the isolation of one new lignan (sonneralignan A, 1) and two known lignans from the n-butanol extract of Sonneratia apetala fruit, structure elucidation by extensive spectral analysis, anti-aging activity in Caenorhabditis elegans (19.13% mean lifespan extension under normal conditions, p < 0.05; 55.29% under heat stress, p < 0.01), and molecular docking suggesting binding of compound 1 to the DNA binding domain of DAF-16 with key residues TRP-252, SER-250, and SER-249.
+- **Visible evidence base** Abstract text only; no experimental section, spectral data, statistical details, docking parameters, or supplementary information
+- **Missing materials affecting confidence** Full manuscript, figures (spectra, lifespan curves, docking poses), tables (compound characterization, statistical analysis), experimental methods, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract reports a potentially interesting natural product discovery with a plausible bioactivity profile. However, the evidence base available for review is limited to the abstract, which precludes verification of structural assignment, purity, bioassay rigor, and docking methodology. The core claims are plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in natural product chemistry, mangrove phytochemistry, and anti-aging pharmacology. The discovery of a new lignan from an underexplored mangrove species with lifespan-extending activity in C. elegans may interest those studying bioactive plant metabolites and DAF-16 related pathways.
+- **Major strengths** The work addresses an underexplored source (mangrove fruit) and combines isolation, structure elucidation, in vivo lifespan assay, and mechanistic docking. The reported effect sizes are substantial, particularly under heat stress conditions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The structure of sonneralignan A (1) was elucidated on the basis of extensive spectral analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no specific spectral data (NMR, HRMS, IR, UV, ECD) to support the structural assignment of the new compound. Without these data, the novelty and correctness of the proposed structure cannot be assessed.
+  - **Why it matters** A new compound claim requires unambiguous structural proof. Inadequate spectral evidence is a common cause of erroneous structure assignments in natural product literature.
+  - **Resolution test** Provide full 1D and 2D NMR assignments, HRMS data, and comparison with known analogues. If chiral centers are present, provide ECD or optical rotation data to support stereochemistry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Bioactivity evidence
+  - **Claim pointer** Compound 1 extended the mean lifespan of C. elegans by 19.13% (p < 0.05) and 55.29% (p < 0.01) under normal and heat stress conditions, respectively
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports only percentage extensions and p-values. No information is provided on sample size, number of replicates, concentration of compound used, solvent controls, statistical methods, or whether the assay was blinded. The heat stress protocol is not described.
+  - **Why it matters** Lifespan assays are sensitive to experimental conditions. Without methodological detail, the reported effects cannot be evaluated for reliability or reproducibility.
+  - **Resolution test** Provide full experimental details for the C. elegans assay, including strain, culture conditions, compound concentration, vehicle control, number of animals per group, number of independent experiments, and statistical test used. Show survival curves.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Docking evidence
+  - **Claim pointer** Compound 1 bound to the DNA binding domain of DAF-16 and promoted the conformation of DAF-16, strengthening the interaction between DAF-16 and related DNA. TRP-252, SER-250 and SER-249 might be key amino residues
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The docking claim is mechanistic and causal in language ("promoted the conformation", "strengthening the interaction"), but the abstract provides no docking software, scoring function, protein structure source, ligand preparation details, or validation. No experimental support (e.g., mutagenesis, binding assays) is provided for the proposed key residues.
+  - **Why it matters** Docking alone is predictive and cannot establish a mechanism. The causal phrasing overstates what computational results can show.
+  - **Resolution test** Provide docking methods and results, including binding energy values, and temper the language to reflect that docking is suggestive. If possible, add experimental validation such as surface plasmon resonance or mutagenesis studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Compound naming
+  - **Affected element** Compound 2 name
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The name "(+)-lariciresinol-9-O-beta-D-glucopyranoside" is missing a hyphen between "beta" and "D" in the abstract text as provided.
+  - **Required correction** Use consistent chemical nomenclature formatting, for example "(+)-lariciresinol-9-O-beta-D-glucopyranoside".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Lifespan data
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The p-values are reported without indication of the statistical test used or whether multiple comparisons were corrected.
+  - **Required correction** Specify the statistical test and any correction applied in the methods and results sections.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Compound purity
+  - **Affected element** Bioactivity assay
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The purity of compound 1 used in the bioassay is not stated.
+  - **Required correction** Report the purity of the tested compound, for example by HPLC, in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural evidence), R1-M2 (bioactivity evidence), R1-M3 (docking evidence)
+- **Assessment against Nature-style criteria** Originality is moderate, as new lignans from mangrove sources are of interest but not unprecedented. Scientific importance is limited by the preliminary nature of the bioactivity data and the lack of mechanistic validation. Interdisciplinary readership is narrow, primarily natural product chemists and C. elegans researchers. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable but the abstract assumes familiarity with lignan chemistry and DAF-16 biology.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but require full experimental details and supporting data to be evaluated. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The structural novelty and correctness of sonneralignan A cannot be assessed without spectral data.
+- The anti-aging activity claim is not verifiable without full assay details and survival curves.
+- The molecular docking mechanism and key residue identification are unsupported by the abstract-level evidence and are stated with excessive causal certainty.

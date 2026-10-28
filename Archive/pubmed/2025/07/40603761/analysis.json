@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40603761",
+  "title": "DCAF13 Regulates Cell Proliferation and Immune Escape of Hepatocellular Carcinoma Through Activating the NF-kappaB Pathway.",
+  "authors": "An, Yuan; Duan, Ruiheng; Guan, Lianyue",
+  "journal": "Cell biochemistry and biophysics",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用机器学习筛选肝癌预后生物标志物DCAF13并验证其通过NF-kappaB通路调控免疫逃逸，但核心是肿瘤免疫与细胞增殖，未涉及蛋白质-DNA互作或TF-DNA结合建模，仅机器学习筛选基因，与课题关联微弱。",
+  "abstract": "Hepatocellular carcinoma (HCC), the third leading cause of global cancer deaths, has a high unmet clinical need due to limited therapeutic efficacy. Immune escape mechanisms in the tumor microenvironment further complicate treatment. Advances in bioinformatics and machine learning offer potential for identifying novel biomarkers and therapeutic targets. This study aimed to identify immune-related prognostic biomarkers for HCC using integrative bioinformatics and machine learning, and validate their functional roles in tumor progression and immune escape. mRNA data from TCGA and GEO databases were analyzed to identify differentially expressed genes (DEGs). Weighted gene co-expression network analysis (WGCNA) and three machine learning models (Random Forest, Boruta, XGBoost) were applied to screen key genes. Candidate genes were validated using qRT-PCR, Western blot, and functional assays (CCK8, colony formation, LDH, flow cytometry) in HCC tissues and cell lines. Immune correlations were assessed via CIBERSORT, and TNF-alpha/NF-kappaB pathway involvement was investigated. Total 26 genes were screened as HCC biomarkers through machine learning analysis. DCAF13 emerging as an independent prognostic factor. It was overexpressed in HCC tissues and cells, correlating with poor survival. Sh-DCAF13 suppressed proliferation, reduced PD-L1 expression, enhanced CD8 + T cell cytotoxicity, and decreased T cell apoptosis, inhibiting immune escape. TNF-alpha overexpression reversed these effects by restoring NF-kappaB activation. DCAF13 is a promising therapeutic target for HCC. Its role in modulating immune escape via the NF-kappaB pathway highlights potential strategies for personalized immunotherapy. Integrating machine learning with experimental validation provides a robust framework for biomarker discovery in oncology.",
+  "abstract_zh": "肝细胞癌（HCC）是全球癌症死亡的第三大原因，由于治疗疗效有限，临床需求高度未满足。肿瘤微环境中的免疫逃逸机制进一步使治疗复杂化。生物信息学和机器学习的发展为识别新型生物标志物和治疗靶点提供了潜力。本研究旨在利用整合生物信息学和机器学习识别HCC的免疫相关预后生物标志物，并验证其在肿瘤进展和免疫逃逸中的功能作用。分析来自TCGA和GEO数据库的mRNA数据，以识别差异表达基因（DEGs）。应用加权基因共表达网络分析（WGCNA）和三种机器学习模型（随机森林、Boruta、XGBoost）筛选关键基因。在HCC组织和细胞系中，通过qRT-PCR、Western blot和功能实验（CCK8、集落形成、LDH、流式细胞术）验证候选基因。通过CIBERSORT评估免疫相关性，并研究TNF-alpha/NF-kappaB通路的参与。通过机器学习分析共筛选出26个基因作为HCC生物标志物，其中DCAF13被确定为独立预后因素。DCAF13在HCC组织和细胞中过表达，与不良生存相关。Sh-DCAF13抑制增殖，降低PD-L1表达，增强CD8+ T细胞细胞毒性，并减少T细胞凋亡，从而抑制免疫逃逸。TNF-alpha过表达通过恢复NF-kappaB激活逆转了这些效应。DCAF13是HCC的一个有前景的治疗靶点。其通过NF-kappaB通路调节免疫逃逸的作用突显了个性化免疫治疗的潜在策略。将机器学习与实验验证相结合，为肿瘤学生物标志物发现提供了稳健的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40603761/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40603761/",
+  "paper_page_path": "papers/pubmed/40603761/index.html"
+}

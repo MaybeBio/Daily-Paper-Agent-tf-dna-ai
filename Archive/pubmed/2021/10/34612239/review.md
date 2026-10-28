@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors used all-atom molecular dynamics simulations to show that the ReACp53 peptide stabilizes the p53 core domain R175H mutant by increasing intra-protein interactions, reducing loop flexibility, binding specifically to residues 180-233 via hydrophobic contacts and electrostatic interactions, and protecting the aggregation-prone fragment 182-213 from solvent exposure, thereby inhibiting aggregation and restoring wild-type-like conformation.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, or structural analyses are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, convergence criteria, replica or repeat runs, binding free energy calculations, structural figures, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis supported by qualitative simulation findings, but the evidence base is insufficient to establish the claims rigorously. The specific binding residues and protective mechanism are stated without quantitative support, and the absence of methodological details prevents assessment of simulation quality or statistical robustness. The work is of interest to the protein aggregation and cancer therapeutics community, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying p53 misfolding and aggregation, computational biophysicists investigating peptide-based inhibitors of amyloid formation, and medicinal chemists developing therapeutics for aggregation-associated cancers would find these results relevant. The proposed mechanism could inform rational design of similar peptides.
+- **Major strengths** The study addresses a clinically important problem with clear therapeutic relevance. The focus on a specific disease-associated mutant and a known inhibitory peptide provides a well-defined system. The proposed mechanism, involving both conformational stabilization and shielding of an aggregation-prone region, is mechanistically coherent and testable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that ReACp53 stabilizes ordered secondary structure and decreases flexibility of disordered loops of the R175H mutant through increasing intra-interactions of p53C.  
+  - **Evidence pointer** Abstract, no specific section or figure provided  
+  - **Concern** No quantitative measures of secondary structure stability, loop flexibility, or intra-protein interaction energies are reported. The claim is qualitative and cannot be evaluated without numerical data, error estimates, or comparison to control simulations of the unbound mutant.  
+  - **Why it matters** Without quantitative evidence and appropriate controls, the observed effects could arise from simulation artifacts, insufficient sampling, or force field biases rather than genuine peptide-induced stabilization.  
+  - **Resolution test** Provide time-averaged secondary structure content, root-mean-square fluctuation values for loop regions, and interaction energy distributions with standard deviations, along with control simulations of the apo R175H mutant under identical conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims specific binding of ReACp53 to residues 180-233 via hydrophobic interactions with L188 and L201 and salt bridge or hydrogen bond formation with D186, E198, D204, E221, and E224.  
+  - **Evidence pointer** Abstract, no specific section or figure provided  
+  - **Concern** The specific residue-level binding pattern is stated without any supporting data such as contact maps, binding free energy decomposition, or occupancy analysis. The distinction between salt bridge and hydrogen bond is not quantified, and the stability of these interactions over simulation time is not described.  
+  - **Why it matters** Residue-specific binding claims require robust statistical analysis to avoid overinterpretation of transient contacts. Without occupancy percentages, interaction lifetimes, or free energy contributions, the proposed binding mode remains speculative.  
+  - **Resolution test** Report per-residue contact occupancies, interaction lifetimes, and binding free energy contributions (e.g., MM-PBSA or similar) with error bars across multiple independent simulations.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the specific binding pattern protects the aggregation-prone fragment (residues 182-213) from exposure to water.  
+  - **Evidence pointer** Abstract, no specific section or figure provided  
+  - **Concern** Solvent exposure is not quantified. No solvent-accessible surface area (SASA) data, water contact counts, or radial distribution functions are provided to support the claim of reduced exposure.  
+  - **Why it matters** The protective mechanism is central to the proposed inhibition model. Without quantitative solvent exposure analysis, the claim that the fragment is shielded from water is unsupported.  
+  - **Resolution test** Provide time-averaged SASA values for residues 182-213 in the bound versus unbound states, with statistical significance testing.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that ReACp53 inhibits aggregation by restoring the wild-type conformation from an aggregation-prone state.  
+  - **Evidence pointer** Abstract, no specific section or figure provided  
+  - **Concern** No comparison to the wild-type p53 core domain structure is presented. The claim of "restoring" wild-type conformation requires a structural metric comparing the R175H mutant in the presence of ReACp53 to the known wild-type structure.  
+  - **Why it matters** The term "restoring" implies a specific conformational target. Without such comparison, the claim is not testable and may overstate the effect.  
+  - **Resolution test** Compute structural similarity metrics (e.g., RMSD to wild-type crystal structure, contact map overlap) for the mutant with and without peptide, and demonstrate statistically significant convergence toward the wild-type state.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodology  
+  - **Claim pointer** The abstract states that all-atom molecular dynamics simulations were used, but no methodological details are given.  
+  - **Evidence pointer** Abstract, no methods section provided  
+  - **Concern** Simulation length, force field, water model, temperature and pressure coupling, number of replicas, and convergence criteria are absent. Without these, the reliability and reproducibility of the results cannot be assessed.  
+  - **Why it matters** MD results are highly sensitive to simulation setup and sampling quality. The absence of these details prevents evaluation of whether the observed effects are statistically meaningful or artifacts of insufficient sampling.  
+  - **Resolution test** Provide full simulation parameters, system size, simulation time per replica, number of independent runs, and convergence metrics (e.g., block averaging, RMSD stabilization).
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, "ReAp53" in the text  
+  - **Issue** The peptide is referred to as "ReAp53" in one instance and "ReACp53" elsewhere. This inconsistency may confuse readers.  
+  - **Required correction** Use "ReACp53" consistently throughout.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental context  
+  - **Evidence pointer** Abstract, no experimental comparison  
+  - **Issue** The abstract does not mention any comparison with experimental data on ReACp53 binding or aggregation inhibition, which would strengthen the relevance of the simulation findings.  
+  - **Required correction** Add a sentence noting whether the simulation results are consistent with known experimental observations, or state that such comparison is beyond the scope.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Claim wording  
+  - **Evidence pointer** Abstract, "strong hydrophobic interactions"  
+  - **Issue** The term "strong" is subjective and not quantified.  
+  - **Required correction** Replace with quantitative descriptors such as interaction energies or contact occupancies.
+
+## Risk / unsupported claims
+- The claim that ReACp53 stabilizes ordered secondary structure and decreases loop flexibility is unsupported without quantitative data.
+- The specific residue-level binding pattern (L188, L201, D186, E198, D204, E221, E224) is unsupported without occupancy or energy analysis.
+- The claim that the aggregation-prone fragment is protected from solvent exposure is unsupported without SASA or water contact data.
+- The claim of restoring wild-type conformation is unsupported without structural comparison to the wild-type protein.
+- The overall inhibition mechanism is plausible but not established from the abstract alone.

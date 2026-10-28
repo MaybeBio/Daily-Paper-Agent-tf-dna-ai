@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality. Not assessed: editorial fit, ethical compliance, or data availability logistics.
+- **Shared manuscript claim summary** The authors propose that DNA sequences encode a "mechanical code" at the chemical scale, defined by rigidity values between base pairing, base stacking, and backbone moieties. Using all-atom MD simulations and a structure-mechanics statistical learning framework, they derive rigidity graphs for four regulatory motifs (polyA, polyG, TpA, CpG) and report sequence-specific patterns including compensatory competition between base stacking and base pairing, and backbone rigidity correlated with BI/BII conformational populations.
+- **Visible evidence base** Main text figures (Fig. 1–7) described in text; MD simulation details; statistical learning methodology; comparison with experimental persistence length values; force field validation (AMBER BSC1 and OL15).
+- **Missing materials affecting confidence** Supplementary figures (Fig. S1–S25), tables, movies (S1–S4), and detailed ESI methods are referenced but not available for review. This limits verification of statistical procedures, convergence analyses, and the full parameter sets.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting framework for quantifying DNA mechanical properties at the chemical moiety level. The central idea of a "mechanical code" is novel and potentially impactful for understanding sequence-dependent DNA behavior. However, the evidence provided in the main text is insufficient to fully establish the robustness and generalizability of the proposed framework. Several claims regarding the uniqueness and predictive power of the mechanical code require stronger statistical validation and clearer presentation of uncertainty. The connection between computed rigidity values and experimental observables is suggestive but not rigorously quantified. The manuscript would benefit from more detailed methodological transparency and additional validation analyses.
+- **Who would be interested in the results, and why** Researchers in DNA biophysics, chromatin biology, and computational chemistry would find this work relevant. The concept of a mechanical code could inform studies on nucleosome positioning, transcription regulation, and DNA-protein interactions. The methodological framework may also interest those working on elastic network models and coarse-grained simulations of biomolecules.
+- **Major strengths** The study addresses an important and under-explored question about sequence-dependent DNA mechanics at the chemical scale. The combination of all-atom MD with statistical learning and graph theory is methodologically ambitious and potentially powerful. The identification of compensatory competition between base stacking and base pairing is an interesting finding that could unify disparate experimental observations. The use of two force fields for validation strengthens confidence in the qualitative conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the haENM spring constants are "statistically learned" from MD trajectories and that the resulting rigidity values are robust and sequence-specific.
+  - **Evidence pointer** Methods section "Construction of rigidity graphs from dsDNA dynamics"; Results section "Compensatory competition between base pairing (transverse) and base stacking (axial)"
+  - **Concern** The statistical learning procedure for determining haENM spring constants is described only briefly. The self-consistent iteration scheme is mentioned, but convergence criteria, sensitivity to initial conditions, and the choice of learning factor η are not discussed. The manuscript does not provide error bars or confidence intervals for the reported rigidity values, making it difficult to assess whether the observed sequence differences are statistically significant. The claim that "robust mechanical signals can be extracted with statistical significance" (from the Methods) is not supported by any explicit statistical test presented in the main text.
+  - **Why it matters** Without rigorous uncertainty quantification, the central claims of sequence-specific mechanical codes cannot be distinguished from noise or artifacts of the fitting procedure. This is particularly important given the relatively short simulation time (5 μs) and the complexity of the parameter space.
+  - **Resolution test** Provide error estimates for all reported rigidity values (e.g., block averaging or bootstrapping across trajectory segments). Show that sequence differences exceed the estimated uncertainties. Describe convergence of the iterative learning procedure and demonstrate insensitivity to η and initial conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the mechanical code "enables a direct reading of the physical interactions encoded in the sequence" and that it provides "chemical-scale understanding for experimental observables."
+  - **Evidence pointer** Abstract; Results section "Mechanical code as the trigram of base-to-backbone rigidity"
+  - **Concern** The predictive or explanatory power of the mechanical code is not demonstrated beyond qualitative correlations. For example, the claim that polyA's long persistence length is explained by strong base stacking is plausible but not quantitatively tested against a model that links the computed rigidity values to Lp. The authors mention that inter-base distances correlate with Lp (citing their prior work) but do not show that the mechanical code adds predictive value beyond simpler measures. The framework is presented as a "code" but no decoding algorithm or predictive model is provided that would allow a reader to use the code for new sequences.
+  - **Why it matters** The concept of a "code" implies a systematic mapping from sequence to mechanical properties that can be generalized. Without demonstrating predictive utility or a clear relationship between the code and measurable physical properties, the concept remains descriptive rather than explanatory.
+  - **Resolution test** Provide a quantitative model linking the mechanical code components (khb, kst, kRP) to a macroscopic observable (e.g., Lp or bendability) and test it against experimental data for multiple sequences. Alternatively, show that the code can predict the mechanical behavior of sequences not used in the training set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the mechanical code is "unique" for each sequence and that different sequences with similar macroscopic flexibility are "fully resolvable on the mechanical-code level."
+  - **Evidence pointer** Results section "Mechanical code as the trigram of base-to-backbone rigidity"; Conclusion
+  - **Concern** The claim of uniqueness is based on only four sequence motifs. The authors do not demonstrate that the mechanical code can distinguish between a broader set of sequences, nor do they address the possibility that different sequences might yield similar trigrams. The reduction of the code to a single mean value per category (khb, kst, kRP) may obscure position-dependent information that could be important for distinguishing sequences.
+  - **Why it matters** The claim of uniqueness is central to the concept of a "code." If the code is not unique or cannot be resolved for arbitrary sequences, its utility as a descriptive framework is limited.
+  - **Resolution test** Apply the framework to a larger set of sequences (e.g., all 10 possible dinucleotide steps or a set of regulatory motifs) and show that the resulting trigrams are distinct. Discuss whether position-dependent information is lost in the averaging and whether this matters for the code's utility.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The authors state that the mechanical code "provides a fresh new way of thinking about" the sequence-structure-dynamics-function relationship.
+  - **Evidence pointer** Conclusion
+  - **Concern** The manuscript is written in a style that assumes significant familiarity with both MD simulation techniques and graph theory. Key concepts such as the "self-consistent iteration" for learning spring constants, the "mean-mode content" as a persistence metric, and the "compartmentalization scheme" are introduced without sufficient background for a general scientific audience. The biological implications are stated but not developed in a way that would be accessible to experimentalists or biologists who are not computational specialists.
+  - **Why it matters** The potential impact of this work extends beyond the computational biophysics community. If the mechanical code concept is to be useful for experimental design or interpretation, it must be communicated in a way that is accessible to a broader readership.
+  - **Resolution test** Add a conceptual figure or schematic that explains the workflow from MD simulation to mechanical code in plain language. Provide more context for why each step is necessary and what it means physically. Consider moving some technical details to the ESI and expanding the biological implications in the main text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** "In this first study on the mechanical code, we focus on four hallmark sequence motifs..."
+  - **Issue** The choice of the four motifs (polyA, polyG, TpA, CpG) is justified by their biological importance, but the rationale for selecting these specific sequences as a starting point for developing the mechanical code concept is not fully explained. Why these four and not others?
+  - **Required correction** Add a sentence explaining why these four motifs are particularly suitable for demonstrating the mechanical code concept (e.g., they represent distinct structural and functional classes, and they have been well-characterized experimentally).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Calculation of persistence length from dsDNA dynamics"
+  - **Evidence pointer** "Persistence length is defined by viewing dsDNA as a linear curve with tangent vectors along the contour length."
+  - **Issue** The method for calculating persistence length from MD trajectories is described briefly. The use of Fourier mode amplitudes is mentioned, but the specific implementation (e.g., how many modes are used, how the contour length is discretized) is not detailed.
+  - **Required correction** Provide more detail on the persistence length calculation, either in the main text or by referring to specific equations in the ESI. This is important for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results, "Backbone polymorphism is linked to base-mediated mechanical couplings"
+  - **Evidence pointer** "The backbone conformation around CpG guanine being more populated in the BII state is shown here to correlate with the higher rigidity of backbone coupling and base stacking."
+  - **Issue** The connection between backbone conformation (BI/BII) and the mechanical code is interesting but the causal direction is not discussed. Does the mechanical code predict the conformational preference, or does the conformational preference determine the mechanical code?
+  - **Required correction** Add a brief discussion of the potential causal relationship or acknowledge that the current analysis is correlational.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Mechanical code as the trigram of base-to-backbone rigidity"
+  - **Evidence pointer** "The mechanical code as the trigram of base-to-backbone rigidity" and Fig. 7
+  - **Issue** The term "trigram" is used to describe the three rigidity values (khb, kst, kRP). While this is a useful shorthand, it may be confusing to readers who associate "trigram" with its meaning in genetics or linguistics.
+  - **Required correction** Define "trigram" explicitly when first used, or consider using a different term such as "triplet" or "three-component code" to avoid ambiguity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical uncertainty quantification) and R1-M2 (demonstration of predictive utility) are the primary technical issues that must be resolved. The lack of error bars and the absence of a quantitative link between the mechanical code and experimental observables prevent the current manuscript from fully establishing its central claims.
+- **Assessment against Nature-style criteria** Originality: High. The concept of a chemical-scale mechanical code for DNA is novel and distinct from prior work on sequence-dependent DNA mechanics. Scientific importance: Moderate to high. If validated, the framework could provide a new lens for understanding DNA function, but the current evidence does not yet demonstrate broad applicability. Interdisciplinary readership: Moderate. The topic bridges biophysics, computational chemistry, and molecular biology, but the presentation is currently too technical for a general scientific audience. Technical soundness: Moderate. The methodology is reasonable but lacks rigorous uncertainty quantification and validation. Readability for nonspecialists: Low to moderate. The manuscript assumes significant background knowledge and does not provide sufficient context for key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the methodology is potentially powerful, but the current manuscript does not provide sufficient statistical rigor or predictive validation to fully establish the mechanical code concept. The authors should address the uncertainty quantification, demonstrate the code's utility for predicting or explaining experimental data, and improve accessibility for a broader readership.
+
+## Risk / unsupported claims
+- The claim that the mechanical code is "unique" for each sequence is not supported by the limited set of four motifs studied.
+- The claim that the mechanical code provides "chemical-scale understanding for experimental observables" is not quantitatively demonstrated.
+- The assertion that the compensatory competition between base stacking and base pairing is "the most discriminating feature of the mechanical code" is not tested against alternative features or models.
+- The generalizability of the framework to sequences beyond the four studied motifs is asserted but not demonstrated.
+- The connection between the mechanical code and DNA allostery is speculative and not supported by direct evidence in this manuscript.
+- The force field validation (BSC1 vs. OL15) is mentioned but the results are not shown in the main text, making the claim of robustness difficult to assess.

@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "40215981",
+    "doi": "10.1016/j.ccell.2025.03.021",
+    "title": "ZEB2 is a master switch controlling the tumor-associated macrophage program."
+  },
+  "content": {
+    "abstract": "Tumor-associated macrophages (TAMs) are key mediators of tumor immune evasion. However, their regulatory circuits and checkpoints are partially understood. Here, we generated a TAM regulatory network by integrating human tumors single-cell RNA sequencing (scRNA-seq) data with a dedicated CRISPR screen. Using a deep generative model, we constructed a gene perturbation network linking individual candidates with prototypical TAM functions. We identified Zeb2 as the master regulator of TAM programs, orchestrating suppression of type-I interferon response and antigen presentation alongside activation of immune suppression programs. Genetic ablation of ZEB2 reprograms TAM function and identity on the chromatin, RNA, and protein levels. In macrophage-rich human tumors, ZEB2 expression is associated with poor prognosis. Selective Zeb2 in vivo targeting reprograms TAMs and mobilizes systemic T cell responses, achieving robust tumor clearance. Overall, our study generates a detailed roadmap of TAM gene circuits and identifies ZEB2 as a master switch with therapeutic potential.",
+    "keywords": [
+      "CRISPR",
+      "TAM reprogramming",
+      "Zeb2",
+      "cancer immunology",
+      "cancer immunotherapy",
+      "deep generative modeling",
+      "regulatory network",
+      "single cell genomics",
+      "systems immunolgy",
+      "tumor-associated macrophage"
+    ],
+    "mesh_terms": [
+      "*Zinc Finger E-box Binding Homeobox 2/genetics/metabolism",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Tumor-Associated Macrophages/immunology/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Cell Line, Tumor",
+      "*Neoplasms/immunology/genetics/pathology",
+      "Tumor Microenvironment/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sheban, Fadi",
+        "Phan, Truong San",
+        "Xie, Ken",
+        "Ingelfinger, Florian",
+        "Gur, Chamutal",
+        "Shapir Itai, Yuval",
+        "Blecher-Gonen, Ronnie",
+        "Yu, Chunsong",
+        "Avellino, Roberto",
+        "Chalan, Paulina",
+        "Freitag, Kiara",
+        "Yofe, Ido",
+        "Yutkin, Vladimir",
+        "Boyeau, Pierre",
+        "Ergen, Can",
+        "Hong, Justin",
+        "Mazuz, Kfir",
+        "Liu, Yuxiao",
+        "Chen, Kangming",
+        "Dahan, Rony",
+        "Kortylewski, Marcin",
+        "Yosef, Nir",
+        "Weiner, Assaf",
+        "Amit, Ido"
+      ],
+      "short_names": [
+        "Sheban F",
+        "Phan TS",
+        "Xie K",
+        "Ingelfinger F",
+        "Gur C",
+        "Shapir Itai Y",
+        "Blecher-Gonen R",
+        "Yu C",
+        "Avellino R",
+        "Chalan P",
+        "Freitag K",
+        "Yofe I",
+        "Yutkin V",
+        "Boyeau P",
+        "Ergen C",
+        "Hong J",
+        "Mazuz K",
+        "Liu Y",
+        "Chen K",
+        "Dahan R",
+        "Kortylewski M",
+        "Yosef N",
+        "Weiner A",
+        "Amit I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel; Department of Medicine, Hadassah Medical Center, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel; The Crown Genomics Institute of the Nancy and Stephen Grand Israel National Center for Personalized Medicine, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Immuno-Oncology, Beckman Research Institute, City of Hope, Los Angeles, CA, USA.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Urology, Hadassah Medical Center, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA; Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Computer Science, Columbia University, New York, NY, USA.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Nanjing GenScript Biotech Co., Ltd, Jiangning Science Park, Nanjing, Jiangsu 211100, China.",
+        "Nanjing GenScript Biotech Co., Ltd, Jiangning Science Park, Nanjing, Jiangsu 211100, China.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Immuno-Oncology, Beckman Research Institute, City of Hope, Los Angeles, CA, USA.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel; Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA; Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel. Electronic address: ido.amit@weizmann.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sheban, Fadi",
+        "short_name": "Sheban F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Phan, Truong San",
+        "short_name": "Phan TS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Xie, Ken",
+        "short_name": "Xie K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Ingelfinger, Florian",
+        "short_name": "Ingelfinger F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Gur, Chamutal",
+        "short_name": "Gur C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel; Department of Medicine, Hadassah Medical Center, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Shapir Itai, Yuval",
+        "short_name": "Shapir Itai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Blecher-Gonen, Ronnie",
+        "short_name": "Blecher-Gonen R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel; The Crown Genomics Institute of the Nancy and Stephen Grand Israel National Center for Personalized Medicine, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Yu, Chunsong",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immuno-Oncology, Beckman Research Institute, City of Hope, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Avellino, Roberto",
+        "short_name": "Avellino R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Chalan, Paulina",
+        "short_name": "Chalan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Freitag, Kiara",
+        "short_name": "Freitag K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Yofe, Ido",
+        "short_name": "Yofe I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Yutkin, Vladimir",
+        "short_name": "Yutkin V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Hadassah Medical Center, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Boyeau, Pierre",
+        "short_name": "Boyeau P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ergen, Can",
+        "short_name": "Ergen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA; Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Justin",
+        "short_name": "Hong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mazuz, Kfir",
+        "short_name": "Mazuz K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuxiao",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing GenScript Biotech Co., Ltd, Jiangning Science Park, Nanjing, Jiangsu 211100, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kangming",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing GenScript Biotech Co., Ltd, Jiangning Science Park, Nanjing, Jiangsu 211100, China."
+        ]
+      },
+      {
+        "full_name": "Dahan, Rony",
+        "short_name": "Dahan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Kortylewski, Marcin",
+        "short_name": "Kortylewski M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immuno-Oncology, Beckman Research Institute, City of Hope, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yosef, Nir",
+        "short_name": "Yosef N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel; Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA; Center for Computational Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Weiner, Assaf",
+        "short_name": "Weiner A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Amit, Ido",
+        "short_name": "Amit I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel. Electronic address: ido.amit@weizmann.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/12 00:42",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42417159",
+      "42332576",
+      "42236118",
+      "42161914",
+      "41877003",
+      "41806329",
+      "41676642",
+      "41542540",
+      "41540084",
+      "41417432",
+      "41382203",
+      "41133142",
+      "41102756",
+      "41053815",
+      "40874587"
+    ],
+    "refs": [],
+    "similar": [
+      "40215981",
+      "40345187",
+      "24005989",
+      "40936758",
+      "41415295",
+      "30790340",
+      "40725473",
+      "40114235",
+      "38669865",
+      "40707596",
+      "41403016",
+      "32487570",
+      "33293426",
+      "40543740",
+      "41053860",
+      "38886907",
+      "39221762",
+      "39740539",
+      "30445998",
+      "32862055",
+      "29516288",
+      "41112252",
+      "41203628",
+      "38573378",
+      "40489329",
+      "40997958",
+      "40970322",
+      "39256253",
+      "41438751",
+      "30957184",
+      "39232806",
+      "40664070",
+      "30462321",
+      "40103809",
+      "34112755",
+      "41208881",
+      "38663915",
+      "30590588",
+      "40892920",
+      "34550965",
+      "39256881",
+      "38969631",
+      "38658971",
+      "41127787",
+      "39776914",
+      "39308239",
+      "38686904",
+      "33078370",
+      "40665874",
+      "31910865",
+      "40274063",
+      "34539650",
+      "38850795",
+      "40317043",
+      "31383581",
+      "38878638",
+      "38840097",
+      "40873572",
+      "30825262",
+      "40176808",
+      "34970423",
+      "41265436",
+      "30979827",
+      "34965191",
+      "39368171",
+      "39753470",
+      "40737844",
+      "39580469",
+      "40353504",
+      "30679322",
+      "39362647",
+      "40380196",
+      "41407401",
+      "40539047",
+      "33989778",
+      "39850883",
+      "40404204",
+      "38648200",
+      "33572092",
+      "41227385",
+      "30592286",
+      "41264244",
+      "41394801",
+      "39891675",
+      "32887380",
+      "41268553",
+      "30711520",
+      "40681801",
+      "41448855",
+      "34356053",
+      "31364113",
+      "33085924",
+      "41246334",
+      "32106756",
+      "40780502",
+      "38769475",
+      "40510028",
+      "40906823",
+      "32816856",
+      "41347255"
+    ],
+    "review": [
+      "40215981",
+      "40114235",
+      "41403016",
+      "41112252",
+      "40997958",
+      "40664070",
+      "40274063",
+      "34539650",
+      "38850795",
+      "31383581",
+      "38878638",
+      "39368171",
+      "39753470",
+      "40353504",
+      "40380196",
+      "32887380",
+      "34356053"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1535-6108(25)00122-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/40215981",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40215981",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ZEB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

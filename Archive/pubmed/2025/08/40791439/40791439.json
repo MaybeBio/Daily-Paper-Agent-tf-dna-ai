@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "40791439",
+    "doi": "10.1101/2025.07.20.665756",
+    "title": "Global cis-regulatory landscape of double-stranded DNA viruses."
+  },
+  "content": {
+    "abstract": "Most double-stranded DNA (dsDNA) viruses use the host transcriptional machinery to express viral genes for replication and immune evasion. This is mediated by viral cis-regulatory elements (CREs) regulated by host and viral transcription factors (TFs). Although some viral CREs and their regulatory mechanisms have been determined, most remain unidentified. Here, we used massively parallel reporter assays to identify ~2,000 CREs across 27 dsDNA viruses from the Adenovirus, Herpesvirus, Polyomavirus and Papillomavirus families. Viral genomes have a higher CRE density than the human genome, with most viral CREs having promoter-like features and overlapping protein coding sequences. Using saturation mutagenesis and machine learning models, we report viral CRE regulators, including SP, ETS, bZIPs, and TFs acting downstream of signal-activated pathways. Altogether, we present a comprehensive functional CRE map of human-infecting dsDNA viruses that serves as a blueprint for further studies in viral regulation, reactivation, evolution, and viral vector design.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Taslim, Tommy Henry",
+        "Finkelberg, Joseph Alexander",
+        "Kales, Susan",
+        "Soto-Ugaldi, Luis",
+        "D'Elia, Benedetta",
+        "Engin, Berkay",
+        "Munoz-Esquivel, George",
+        "Morara, Elvis",
+        "Purinton, Jacob",
+        "Chandok, Harshpreet",
+        "Rottenberg, Jaice Theodore",
+        "Castro, Rodrigo",
+        "Martinez-Cuesta, Lucia",
+        "Paz, Matias Alejandro",
+        "Tewhey, Ryan",
+        "Bass, Juan Ignacio Fuxman"
+      ],
+      "short_names": [
+        "Taslim TH",
+        "Finkelberg JA",
+        "Kales S",
+        "Soto-Ugaldi L",
+        "D'Elia B",
+        "Engin B",
+        "Munoz-Esquivel G",
+        "Morara E",
+        "Purinton J",
+        "Chandok H",
+        "Rottenberg JT",
+        "Castro R",
+        "Martinez-Cuesta L",
+        "Paz MA",
+        "Tewhey R",
+        "Bass JIF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4607-8001",
+        "ORCID: 0000-0001-9457-1207"
+      ],
+      "affiliations": [
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "Bioinformatics Program, Boston University, Boston, MA 02215, USA.",
+        "The Jackson Laboratory, Bar Harbor, ME 04609, USA.",
+        "Tri-institutional Program, Computational Biology and Medicine, New York, NY 10065, USA.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "Biology Department, Boston University, Boston, MA 02215, USA.",
+        "Escuela Profesional de Genetica y Biotecnologia, Facultad de Ciencias Biologicas, Universidad Nacional Mayor de San Marcos, Lima 15081, Peru.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "The Jackson Laboratory, Bar Harbor, ME 04609, USA.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "The Jackson Laboratory, Bar Harbor, ME 04609, USA.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "The Jackson Laboratory, Bar Harbor, ME 04609, USA.",
+        "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+        "Bioinformatics Program, Boston University, Boston, MA 02215, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Taslim, Tommy Henry",
+        "short_name": "Taslim TH",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Finkelberg, Joseph Alexander",
+        "short_name": "Finkelberg JA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Kales, Susan",
+        "short_name": "Kales S",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME 04609, USA."
+        ]
+      },
+      {
+        "full_name": "Soto-Ugaldi, Luis",
+        "short_name": "Soto-Ugaldi L",
+        "identifiers": [],
+        "affiliations": [
+          "Tri-institutional Program, Computational Biology and Medicine, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "D'Elia, Benedetta",
+        "short_name": "D'Elia B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Engin, Berkay",
+        "short_name": "Engin B",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Department, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Muñoz-Esquivel, George",
+        "short_name": "Muñoz-Esquivel G",
+        "identifiers": [],
+        "affiliations": [
+          "Escuela Profesional de Genetica y Biotecnologia, Facultad de Ciencias Biológicas, Universidad Nacional Mayor de San Marcos, Lima 15081, Peru."
+        ]
+      },
+      {
+        "full_name": "Morara, Elvis",
+        "short_name": "Morara E",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Purinton, Jacob",
+        "short_name": "Purinton J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Chandok, Harshpreet",
+        "short_name": "Chandok H",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME 04609, USA."
+        ]
+      },
+      {
+        "full_name": "Rottenberg, Jaice Theodore",
+        "short_name": "Rottenberg JT",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Castro, Rodrigo",
+        "short_name": "Castro R",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME 04609, USA."
+        ]
+      },
+      {
+        "full_name": "Martinez-Cuesta, Lucia",
+        "short_name": "Martinez-Cuesta L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Paz, Matias Alejandro",
+        "short_name": "Paz MA",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Tewhey, Ryan",
+        "short_name": "Tewhey R",
+        "identifiers": [
+          "0000-0002-4607-8001"
+        ],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME 04609, USA."
+        ]
+      },
+      {
+        "full_name": "Bass, Juan Ignacio Fuxman",
+        "short_name": "Bass JIF",
+        "identifiers": [
+          "0000-0001-9457-1207"
+        ],
+        "affiliations": [
+          "Molecular Biology, Cell Biology and Biochemistry Program, Boston University, Boston, MA 02215, USA.",
+          "Bioinformatics Program, Boston University, Boston, MA 02215, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 11:15",
+    "fetched_at": "2026-09-30 23:47:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41741648",
+      "40958060",
+      "40500415",
+      "40175543",
+      "39826199",
+      "39562742",
+      "39443793",
+      "38821843",
+      "38783790",
+      "38206015",
+      "38016957",
+      "37641864",
+      "37443338",
+      "37275859",
+      "36343628",
+      "35787629",
+      "35637330",
+      "35098167",
+      "35039491",
+      "35025605",
+      "34991630",
+      "34824401",
+      "34609905",
+      "34522050",
+      "34012080",
+      "33558455",
+      "33177663",
+      "33093512",
+      "33024035",
+      "32987952",
+      "32728250",
+      "32728249",
+      "32532954",
+      "32444487",
+      "32341360",
+      "32340119",
+      "32294138",
+      "31969707",
+      "31126984",
+      "30602606",
+      "30518654",
+      "30014861",
+      "29976669",
+      "29864140",
+      "29856726",
+      "29563516",
+      "29409030",
+      "29256496",
+      "27311442",
+      "27259153",
+      "25890000",
+      "25640841",
+      "25588742",
+      "25505068",
+      "25312585",
+      "24516378",
+      "23998342",
+      "23505295",
+      "22955619",
+      "22837004",
+      "22642569",
+      "22500024",
+      "21071423",
+      "20466055",
+      "20110278",
+      "19640999",
+      "19304878",
+      "19193805",
+      "18353421",
+      "18347101",
+      "17430596",
+      "17324271",
+      "17098271",
+      "16932746",
+      "15823601",
+      "15738954",
+      "12767996",
+      "11753664",
+      "11342455",
+      "11175366",
+      "11160686",
+      "11134302",
+      "10722738",
+      "10516036",
+      "9371624",
+      "8560788",
+      "6667333",
+      "4075392",
+      "3040262",
+      "2951598",
+      "2139139",
+      "1309896"
+    ],
+    "similar": [
+      "40791439",
+      "25442502",
+      "38821843",
+      "39651170",
+      "22215325",
+      "40369872",
+      "28031366",
+      "31884638",
+      "28855262",
+      "25303887",
+      "34149757",
+      "41237776",
+      "29162712",
+      "37950299",
+      "31652796",
+      "40960313",
+      "39948336",
+      "32603702",
+      "34220869",
+      "37410590",
+      "35435921",
+      "39282425",
+      "26072432",
+      "28119334",
+      "39443793",
+      "15564493",
+      "36945371",
+      "37609287",
+      "16497349",
+      "11435578",
+      "35866592",
+      "39199333",
+      "8612514",
+      "32133495",
+      "32433693",
+      "1300195",
+      "32967954",
+      "9691424",
+      "26327607",
+      "1704101",
+      "29733395",
+      "39322281",
+      "40205616",
+      "40060626",
+      "39127768",
+      "12097561",
+      "39882907",
+      "17288573",
+      "18773930",
+      "27112572",
+      "27486193",
+      "11050943",
+      "30016497",
+      "8353305",
+      "28202760",
+      "38444021",
+      "16412085",
+      "28855246",
+      "31915147",
+      "15280471",
+      "28559488",
+      "37022165",
+      "37425940",
+      "40166157",
+      "39217658",
+      "9845850",
+      "23129659",
+      "41299220",
+      "27466416",
+      "32994224",
+      "40905948",
+      "34285053",
+      "40874617",
+      "39572230",
+      "34191026",
+      "40421528",
+      "38187729",
+      "36893554",
+      "9774520",
+      "29996889",
+      "14694093",
+      "40517254",
+      "8483926",
+      "41693567",
+      "15946683",
+      "34254440",
+      "21989424",
+      "39565431",
+      "24459896",
+      "36742369",
+      "40382355",
+      "26576614",
+      "39183303",
+      "10775595",
+      "31309007",
+      "31015330",
+      "27193099",
+      "12915572",
+      "27581987",
+      "27161480"
+    ],
+    "review": [
+      "40791439",
+      "38821843",
+      "31884638",
+      "26072432",
+      "39199333",
+      "9691424",
+      "18773930",
+      "11050943"
+    ],
+    "pmc": [
+      "12338741"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40791439/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.20.665756",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

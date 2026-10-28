@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41657790",
+    "doi": "10.62347/MIVG6273",
+    "title": "Diagnostic value of mitochondria-related genes in intervertebral disc degeneration associated with spinal metastasis: a Mendelian randomization study."
+  },
+  "content": {
+    "abstract": "To identify mitochondria related genes involved in intervertebral disc degeneration (IDD) and to investigate the potential molecular mechanism. The GSE124272 and GSE56081 datasets were used in this study. First, intersecting genes were screened by overlapping key module genes obtained from weighted gene co-expression network analysis (WGCNA) and differentially expressed genes (DEGs). Functional enrichment analyses were performed to explore the functions of intersecting genes. Subsequently, candidate IDD-associated genes were screened using Mendelian randomization (MR) based on the intersecting genes. Thereafter, machine learning algorithm was applied to identify biomarkers, and their diagnostic performance was assessed using receiver operating characteristic (ROC) curves. Single-gene gene set enrichment analysis (GSEA) was utilized to investigate the molecular mechanisms of the identified biomarkers. Meanwhile, correlations between the biomarkers and immune cell infiltration were investigated. In addition, the transcription factor (TF)-mRNA and competing endogenous RNA (ceRNA) networks were constructed. Finally, the mRNA-drug interaction network was established. A total of 827 intersecting genes were screened, and 31 differentially expressed mitochondria-related genes were obtained. Functional enrichment results revealed that these genes were primarily involved in the positive regulation of cytokine production and the cell cycle. Four candidate genes were obtained by MR analysis based on intersecting genes. Finally, two biomarkers (PTGS1 and PPBP) were screened, both of which demonstrated decent diagnostic performance. Single-gene GSEA enrichment results indicated that these two biomarkers were mainly enriched in the ribosome and neuroactive ligand receptor interaction. Correlation analysis showed strongest positive correlation between PTGS1 and mast cells, and the highest negative association between PPBP and activated CD4 T cells. The mRNA-TF regulatory network included 2 mRNAs, 12 TFs, and 15 pairs of regulatory interactions. Furthermore, the ceRNA regulatory network included 2 biomarkers, 45 miRNAs, and 67 long non-coding RNA (lncRNAs). Finally, a total of 70 potential drugs targeting these biomarkers were predicted. In conclusion, PTGS1 and PPBP were identified as key mitochondria-related genes associated with IDD, providing novel insights into the diagnosis and treatment of IDD.",
+    "keywords": [
+      "Intervertebral disc degeneration",
+      "Mendelian randomization",
+      "mitochondria-related genes",
+      "signature genes",
+      "spinal metastases"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Lei",
+        "Liang, Yuanhao",
+        "Shi, Bin",
+        "Yu, Gongchang",
+        "Peng, Shengxin",
+        "Zhang, Yixiang",
+        "Xiao, Wenshan",
+        "Xu, Rui"
+      ],
+      "short_names": [
+        "Liu L",
+        "Liang Y",
+        "Shi B",
+        "Yu G",
+        "Peng S",
+        "Zhang Y",
+        "Xiao W",
+        "Xu R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Academy of Medical Engineering and Translational Medicine, Tianjin University Tianjin, China.",
+        "Department of Painology, The First Affiliated Hospital of Shandong First Medical University (Shandong Provincial Qianfoshan Hospital) Jinan, Shandong, China.",
+        "Weifang Medical University Weifang, Shandong, China.",
+        "Neck-Shoulder and Lumbocrural Pain Hospital of Shandong First Medical University, Shandong First Medical University and Shandong Academy of Medical Sciences Jinan, Shandong, China.",
+        "Neck-Shoulder and Lumbocrural Pain Hospital of Shandong First Medical University, Shandong First Medical University and Shandong Academy of Medical Sciences Jinan, Shandong, China.",
+        "School of Rehabilitation Medicine of Binzhou Medical University Yantai, Shandong, China.",
+        "Weifang Medical University Weifang, Shandong, China.",
+        "Shandong First Medical University Jinan, Shandong, China.",
+        "Academy of Medical Engineering and Translational Medicine, Tianjin University Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Lei",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Medical Engineering and Translational Medicine, Tianjin University Tianjin, China.",
+          "Department of Painology, The First Affiliated Hospital of Shandong First Medical University (Shandong Provincial Qianfoshan Hospital) Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yuanhao",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Weifang Medical University Weifang, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Bin",
+        "short_name": "Shi B",
+        "identifiers": [],
+        "affiliations": [
+          "Neck-Shoulder and Lumbocrural Pain Hospital of Shandong First Medical University, Shandong First Medical University and Shandong Academy of Medical Sciences Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Gongchang",
+        "short_name": "Yu G",
+        "identifiers": [],
+        "affiliations": [
+          "Neck-Shoulder and Lumbocrural Pain Hospital of Shandong First Medical University, Shandong First Medical University and Shandong Academy of Medical Sciences Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Shengxin",
+        "short_name": "Peng S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Rehabilitation Medicine of Binzhou Medical University Yantai, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yixiang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Weifang Medical University Weifang, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Wenshan",
+        "short_name": "Xiao W",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong First Medical University Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Rui",
+        "short_name": "Xu R",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Medical Engineering and Translational Medicine, Tianjin University Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of cancer research"
+    ],
+    "journal_abbrev": [
+      "Am J Cancer Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 12:54",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41026072",
+      "40886963",
+      "40522695",
+      "39835270",
+      "39798636",
+      "39703198",
+      "39610070",
+      "38626521",
+      "38465890",
+      "38159257",
+      "37941392",
+      "37925665",
+      "37815145",
+      "37452954",
+      "37325630",
+      "37017692",
+      "36968589",
+      "36181543",
+      "35833124",
+      "35180291",
+      "35088743",
+      "34977039",
+      "34557778",
+      "34272472",
+      "33815556",
+      "30760327",
+      "30320345",
+      "30072092",
+      "29846171",
+      "29040600",
+      "28645171",
+      "28416438",
+      "27061298",
+      "26050253",
+      "25773750",
+      "25605792",
+      "25199793",
+      "24587032",
+      "24132163",
+      "23323831",
+      "21560115",
+      "19668263",
+      "19114008",
+      "16987042",
+      "15313895",
+      "14965321",
+      "14505120",
+      "11535962",
+      "10381057",
+      "7711367",
+      "711392"
+    ],
+    "similar": [
+      "41657790",
+      "37325630",
+      "41299613",
+      "38883390",
+      "40130183",
+      "40799650",
+      "35757392",
+      "36193061",
+      "35840955",
+      "35578687",
+      "40078458",
+      "29901136",
+      "39332686",
+      "38104954",
+      "40889197",
+      "40380263",
+      "35937989",
+      "39349110",
+      "39050860",
+      "41508240",
+      "41388523",
+      "34858418",
+      "35767190",
+      "41023110",
+      "39717265",
+      "37267294",
+      "40922310",
+      "41660044",
+      "37632659",
+      "32685450",
+      "41583468",
+      "40969769",
+      "41407774",
+      "34350836",
+      "33676464",
+      "39328407",
+      "38384969",
+      "35711934",
+      "41052072",
+      "37259023",
+      "41080564",
+      "31432173",
+      "39483475",
+      "41267622",
+      "36175893",
+      "39130434",
+      "36267810",
+      "34402383",
+      "41346614",
+      "40350654",
+      "37325631",
+      "40289127",
+      "36531954",
+      "33764282",
+      "34536521",
+      "41432483",
+      "39341952",
+      "36532015",
+      "38764497",
+      "40561275",
+      "39142001",
+      "40034105",
+      "39315143",
+      "38433839",
+      "41479901",
+      "39247348",
+      "41120603",
+      "41333919",
+      "37520321",
+      "26556537",
+      "35069789",
+      "38970068",
+      "36777638",
+      "38948197",
+      "39022342",
+      "39762849",
+      "39528158",
+      "39430414",
+      "39627301",
+      "39512681",
+      "38041088",
+      "36911415",
+      "39697339",
+      "37009470",
+      "38222802",
+      "41305746",
+      "40837006",
+      "35783271",
+      "38987624",
+      "40653514",
+      "39265357",
+      "35309146",
+      "37605572",
+      "34898376",
+      "40775242",
+      "39346628",
+      "40110435",
+      "40537868",
+      "36968495",
+      "40453984"
+    ],
+    "review": [
+      "41657790"
+    ],
+    "pmc": [
+      "12877364"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41657790/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

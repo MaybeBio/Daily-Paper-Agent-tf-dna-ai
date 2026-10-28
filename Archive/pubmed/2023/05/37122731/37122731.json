@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "37122731",
+    "doi": "10.3389/fimmu.2023.1132265",
+    "title": "Bioactive compound C498-0670 alleviates LPS-induced sepsis via JAK/STAT and NFkappaB signaling pathways."
+  },
+  "content": {
+    "abstract": "The JAK/STAT and NFkappaB signaling pathways are two major inflammatory signaling pathways that are usually activated simultaneously in the body's inflammatory response to bacterial or viral infections. Hyperactivation of these two prominent signaling pathways is associated with various immune-related diseases and mortality, pointing to an urgent need for drug development targeting JAK/STAT and/or NFkappaB signaling. In this study, we screened 18,840 compounds using our well-established dual STAT-NFkappaB driven luciferase reporter based high-throughput screening system and identified a bioactive compound C498-0670, which inhibits both JAK/STAT and NFkappaB signaling. C498-0670 inhibits the activation of STATs and p-IKKalpha/beta in both the immortalized cell lines and primary peritoneal macrophages, while suppressing the expression of LPS-induced inflammatory mediators in vitro. In addition, the overall anti-inflammatory effects of C498-0670 were investigated using transcriptome sequencing and bioinformatics approaches. C498-0670 was predicted to alleviate sepsis/septic shock by disease/function analysis using IPA software, which was further verified in the LPS-induced mouse sepsis model in vivo. C498 reduced LPS-induced liver and kidney damage, myeloid cell infiltration, and pro-inflammatory cytokine and chemokine production in vivo. Furthermore, the SPR-HPLC-MS-based target fishing approach was used to identify the putative drug targets, and the high affinities of JAK2 (JAK/STAT signaling), NFKBIA (NFkappaB signaling), and IL-1beta, NLRP1b (inflammasome signaling) for C498-0670 were verified by molecular docking approach. These results suggest that C498-0670 can be used as a dual-target inhibitor of JAK/STAT and NFkappaB signaling pathways for the treatment of various inflammatory diseases, especially septic shock.",
+    "keywords": [
+      "JAK/STAT",
+      "LPS",
+      "NFkappaB",
+      "anti-inflammatory",
+      "septic shock",
+      "transcriptome sequencing"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Lipopolysaccharides/pharmacology",
+      "*Shock, Septic/chemically induced/drug therapy",
+      "Molecular Docking Simulation",
+      "Janus Kinases/metabolism",
+      "Signal Transduction",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Jing",
+        "Zhang, Xinxin",
+        "Zhou, Mingming",
+        "Lu, Peizhe",
+        "Xu, Yuting",
+        "Wu, Lihong",
+        "Zhang, Qianyue",
+        "Wu, Zhihua",
+        "Xu, Xiaoyu",
+        "Shi, Pengfei",
+        "Wei, Qingda",
+        "Li, Xiaoyu",
+        "Song, Qiaoling"
+      ],
+      "short_names": [
+        "Xu J",
+        "Zhang X",
+        "Zhou M",
+        "Lu P",
+        "Xu Y",
+        "Wu L",
+        "Zhang Q",
+        "Wu Z",
+        "Xu X",
+        "Shi P",
+        "Wei Q",
+        "Li X",
+        "Song Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+        "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+        "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+        "Department of Neuroscience, University of Michigan, Ann Arbor, MI, United States.",
+        "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China.",
+        "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China.",
+        "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China.",
+        "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+        "College of Marine Life Sciences, Ocean University of China, Qingdao, China.",
+        "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+        "School of Medicine, Zhengzhou University, Zhengzhou, China.",
+        "Department of Gastroenterology, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+        "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+        "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Jing",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiliated Hospital of Qingdao University, Qingdao, China.",
+          "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinxin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Mingming",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Peizhe",
+        "short_name": "Lu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, University of Michigan, Ann Arbor, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Yuting",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lihong",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qianyue",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhihua",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoyu",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Marine Life Sciences, Ocean University of China, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Pengfei",
+        "short_name": "Shi P",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Qingda",
+        "short_name": "Wei Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoyu",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiliated Hospital of Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Song, Qiaoling",
+        "short_name": "Song Q",
+        "identifiers": [],
+        "affiliations": [
+          "Innovation Platform of Marine Drug Screening & Evaluation, Qingdao Pilot National Laboratory for Marine Science and Technology, Qingdao, Shandong, China.",
+          "Key Laboratory of Marine Drugs, Ministry of Education of China, School of Medicine and Pharmacy, Ocean University of China, Qingdao, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/01 06:42",
+    "fetched_at": "2026-09-28 23:57:44"
+  },
+  "links": {
+    "cites": [
+      "41809974",
+      "40297590",
+      "39267971"
+    ],
+    "refs": [
+      "36240739",
+      "35999378",
+      "35756932",
+      "35152717",
+      "34358489",
+      "34048936",
+      "34018320",
+      "33555612",
+      "33050538",
+      "32907876",
+      "32631717",
+      "32265704",
+      "32213189",
+      "32052695",
+      "31106366",
+      "30589495",
+      "30581134",
+      "30453531",
+      "30356867",
+      "30156911",
+      "29581268",
+      "29307853",
+      "28873455",
+      "28573435",
+      "28256516",
+      "28105327",
+      "27863248",
+      "27322026",
+      "26903338",
+      "26121197",
+      "25751142",
+      "25621708",
+      "25548469",
+      "25287011",
+      "24920846",
+      "24833854",
+      "24336805",
+      "21772278",
+      "20393690",
+      "20018552",
+      "19302050",
+      "17471161",
+      "16597342",
+      "16375607",
+      "11259830"
+    ],
+    "similar": [
+      "37122731",
+      "29470957",
+      "34509933",
+      "34018320",
+      "36111584",
+      "31114201",
+      "32593157",
+      "29368095",
+      "33887419",
+      "24691777",
+      "25255432",
+      "26032013",
+      "33418009",
+      "19455581",
+      "28550731",
+      "29694939",
+      "31968212",
+      "31569788",
+      "33166339",
+      "26931732",
+      "34364971",
+      "24486434",
+      "34758437",
+      "18634870",
+      "30060484",
+      "27823627",
+      "35240996",
+      "32795539",
+      "22507316",
+      "27565222",
+      "31859422",
+      "25651848",
+      "29393460",
+      "28987368",
+      "29864958",
+      "27261558",
+      "26277391",
+      "28778215",
+      "25676437",
+      "34808299",
+      "30053449",
+      "35876719",
+      "27147665",
+      "29782861",
+      "31231385",
+      "20826756",
+      "24416369",
+      "21670738",
+      "34212215",
+      "22637723",
+      "32186038",
+      "35634951",
+      "32452409",
+      "24573134",
+      "35987015",
+      "25689174",
+      "38968792",
+      "32615888",
+      "33266427",
+      "36361915",
+      "33275272",
+      "26251957",
+      "32014631",
+      "34530865",
+      "25666529",
+      "28753596",
+      "31918290",
+      "19141072",
+      "36804755",
+      "36266754",
+      "24323580",
+      "31313848",
+      "20440769",
+      "36108388",
+      "30779101",
+      "29566694",
+      "31754401",
+      "35889539",
+      "38319443",
+      "28494922",
+      "31710506",
+      "29340620",
+      "21148800",
+      "20945396",
+      "28665978",
+      "11046056",
+      "24140964",
+      "36840884",
+      "15621690",
+      "28438564",
+      "31621909",
+      "34482267",
+      "38094883",
+      "34526801",
+      "39413645",
+      "38293201",
+      "37629529",
+      "37242501",
+      "37809831",
+      "39349767",
+      "37469300",
+      "38283225",
+      "37292918",
+      "33585152",
+      "37720284",
+      "39252831",
+      "37427032",
+      "29467962",
+      "18510494",
+      "33398283",
+      "37775464"
+    ],
+    "review": [
+      "37122731",
+      "25676437",
+      "34212215",
+      "36804755",
+      "35889539",
+      "34482267",
+      "39252831"
+    ],
+    "pmc": [
+      "10140310"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37122731/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37122731",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1132265",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse220654",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

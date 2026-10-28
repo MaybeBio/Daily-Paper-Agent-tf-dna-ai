@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "41610323",
+    "doi": "10.1002/advs.202523139",
+    "title": "PIK3CA Mutations Downregulate PPT1 to Promote Adipogenesis by Suppressing P300 Depalmitoylation and Phase Separation."
+  },
+  "content": {
+    "abstract": "PIK3CA mutations drive benign adipose overgrowth in facial infiltrating lipomatosis (FIL), but the downstream molecular mechanisms remain incompletely understood. This study investigated the role of palmitoyl-protein thioesterase 1 (PPT1)-mediated depalmitoylation in regulating aberrant adipogenesis induced by mutant PIK3CA. Using single-cell RNA-seq, molecular dynamics simulations, and functional assays in primary human FIL adipose-derived stem and progenitor cells (ASPCs), immortalized cell lines, and mouse models, we dissected the signaling pathway linking PIK3CA mutation to adipogenesis. Techniques included ChIP-qPCR, acyl-biotin exchange assays, luciferase reporter assays, and RNA/ATAC sequencing. PIK3CA mutations transcriptionally repressed PPT1 via PI3K-AKT-c-JUN signaling. Downregulated PPT1 enhanced palmitoylation of the transcriptional coactivator P300 at C1176. This modification stabilized P300 by impairing its interaction with HSC70 and subsequent chaperone-mediated lysosomal degradation. Furthermore, C1176 palmitoylation inhibited P300 phase separation, thereby preserving its histone acetyltransferase activity. Sustained P300 activity promoted chromatin accessibility and expression of adipogenic genes, driving excessive adipogenesis in FIL. These findings established a novel \"palmitoylation-phase separation-epigenetic regulation\" axis in cellular fate determination and revealed PPT1 and P300 as potential therapeutic targets for FIL.",
+    "keywords": [
+      "PIK3CA",
+      "adipogenesis",
+      "palmitoylation",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*Adipogenesis/genetics",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Class I Phosphatidylinositol 3-Kinases/genetics/metabolism",
+      "Mutation/genetics",
+      "Phase Separation",
+      "*E1A-Associated p300 Protein/metabolism/genetics",
+      "*Thiolester Hydrolases/genetics/metabolism",
+      "Down-Regulation",
+      "Lipoylation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Hongrui",
+        "Huang, Zening",
+        "Chang, Rui",
+        "Gao, Wei",
+        "Qiu, Yajing",
+        "Sun, Bin",
+        "Hua, Chen",
+        "Lin, Xiaoxi"
+      ],
+      "short_names": [
+        "Chen H",
+        "Huang Z",
+        "Chang R",
+        "Gao W",
+        "Qiu Y",
+        "Sun B",
+        "Hua C",
+        "Lin X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4868-9308"
+      ],
+      "affiliations": [
+        "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Laser and Aesthetic Medicine, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Gastric Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Laser and Aesthetic Medicine, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Laser and Aesthetic Medicine, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Hongrui",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Department of Laser and Aesthetic Medicine, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zening",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastric Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Rui",
+        "short_name": "Chang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wei",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laser and Aesthetic Medicine, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yajing",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Bin",
+        "short_name": "Sun B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Chen",
+        "short_name": "Hua C",
+        "identifiers": [
+          "0000-0002-4868-9308"
+        ],
+        "affiliations": [
+          "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xiaoxi",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic & Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Department of Laser and Aesthetic Medicine, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/29 19:11",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [
+      "42474080"
+    ],
+    "refs": [
+      "41028499",
+      "40990621",
+      "40982692",
+      "40962055",
+      "40913148",
+      "40882570",
+      "40787880",
+      "40769964",
+      "40769313",
+      "40740483",
+      "40682271",
+      "40681504",
+      "40633623",
+      "40595500",
+      "40553493",
+      "40518865",
+      "40416361",
+      "40341398",
+      "40285575",
+      "40214902",
+      "40164768",
+      "40083922",
+      "39953539",
+      "39862447",
+      "39704037",
+      "39696259",
+      "39648639",
+      "39619655",
+      "39020442",
+      "38853114",
+      "38821916",
+      "38378686",
+      "37452404",
+      "37001514",
+      "36186123",
+      "35978186",
+      "35393539",
+      "35149762",
+      "34326347",
+      "33178040",
+      "33114687",
+      "32732866",
+      "32632317",
+      "31912494",
+      "31262842",
+      "31186450",
+      "30873109",
+      "30214631",
+      "30012200",
+      "28665924",
+      "27392146",
+      "24374682",
+      "24216764",
+      "10781062"
+    ],
+    "similar": [
+      "41610323",
+      "40769313",
+      "39104411",
+      "32732866",
+      "39020442",
+      "42127180",
+      "37884348",
+      "39862447",
+      "41240538",
+      "38211816",
+      "39695089",
+      "41035068",
+      "39423458",
+      "33739454",
+      "26659577",
+      "35619132",
+      "30547809",
+      "40595500",
+      "37452404",
+      "35150145",
+      "31025705",
+      "29549527",
+      "39619655",
+      "29454793",
+      "41052458",
+      "38299399",
+      "42562966",
+      "9671519",
+      "41067372",
+      "38909932",
+      "42231094",
+      "30946007",
+      "40659255",
+      "26731412",
+      "39284877",
+      "39875775",
+      "29978469",
+      "42367072",
+      "39548585",
+      "28525374",
+      "27465249",
+      "35184402",
+      "18710950",
+      "30314513",
+      "33508292",
+      "32152233",
+      "31109074",
+      "25485585",
+      "41549316",
+      "35358180",
+      "32279353",
+      "23284731",
+      "16862175",
+      "16368712",
+      "30664154",
+      "28334871",
+      "28398509",
+      "33753498",
+      "18755892",
+      "32632138",
+      "20851880",
+      "31173106",
+      "39709507",
+      "24083319",
+      "42576500",
+      "40158736",
+      "30630630",
+      "41317432",
+      "36088080",
+      "37872111",
+      "40416361",
+      "26497028",
+      "38798824",
+      "23785470",
+      "23899608",
+      "38194422",
+      "31555119",
+      "39155390",
+      "24216764",
+      "40660390",
+      "35976093",
+      "31678303",
+      "41740506",
+      "42524518",
+      "30796030",
+      "19487584",
+      "27452907",
+      "40539882",
+      "39543937",
+      "24599934",
+      "42041131",
+      "29169370",
+      "42061695",
+      "16087680",
+      "25051175",
+      "32005758",
+      "40783104",
+      "19150979",
+      "39746598",
+      "15470065"
+    ],
+    "review": [
+      "41610323",
+      "37872111",
+      "31555119"
+    ],
+    "pmc": [
+      "13045223"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41610323/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

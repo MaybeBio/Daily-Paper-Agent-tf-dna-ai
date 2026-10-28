@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "41441912",
+    "doi": "10.1007/s10822-025-00723-z",
+    "title": "AI-powered IC50 prediction for p53 inhibitors drug-target interaction via hybrid graph neural networks."
+  },
+  "content": {
+    "abstract": "In recent decades, the rapid pace of digital transformation marks a transformative era for the healthcare and pharmaceutical industries. The incorporation of innovative technology, specifically Artificial Intelligence (AI) and its derivatives, has driven significant innovation and greatly enhanced the efficiency of biomedical research and drug discovery processes. Among critical biological targets, the p53 protein is essential for controlling cell cycle regulation and tumor suppression. Although p53 has long been considered undruggable, recent research has revived interest in targeting it with novel therapeutics. In this paper, A novel Hybrid Drug-Target Interaction IC50 (HDTI-IC50) prediction model is proposes to predict IC50 values. The model integrates Graph Convolutional Networks (GCNs) as well as Graph Attention Networks (GATs) by sequentially stacking their hidden layers. This hybrid architecture leverages the strengths of both models. Specifically, GCNs are first applied to effectively capture local structural information and perform well under homophily assumptions. Then, GAT is learned to model long-range dependencies and handle heterophilic graphs. By integrating both, the model learns richer node representations and can adapt to diverse graph structures. Following these layers, a global pooling mechanism follows, which combines Global Max Pooling (GMP) and Global Average Pooling (GAP). Compared to related approaches, which mainly perform general IC50 prediction or binary activity classification, the proposed HDTI-IC50 model provides a unified framework specifically tailored for p53 inhibitors. Unlike previous approaches that rely on conventional molecular descriptors and overlook structural topology, our model utilizes graph-based representations to capture both local and global molecular relationships. By sequentially integrating GCN and GAT layers, the model effectively combines localized structural learning with attention-based feature refinement, resulting in improved representation capability and predictive performance. The dataset applied in this paper is obtained from the database of the Genomics of Drug Sensitivity in Cancer (GDSC). Model performance is evaluated using standard regression metrics, involving Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and coefficient of determination (R(2)). The performance rate of MAE is 0.1, RMSE is 0.19, and R(2) is 0.8 demonstrating superior performance compared to state-of-the-art methods. It also achieves an average inference time of 7.70 s. This paper proposes a HDTI-IC50 model to predict IC50 for p53inhibitors. Results from experiments indicate that the proposed HDTI-IC50 model outperforms individual GCN, GAT-based, and other related drug-target models as well as baseline regression models. demonstrating both its predictive accuracy and computational economy.",
+    "keywords": [
+      "AI",
+      "Deep learning",
+      "Drug-target interaction",
+      "GAT",
+      "GCN",
+      "Hybrid model",
+      "IC50",
+      "Sustainable development",
+      "p53 Inhibitors"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/antagonists & inhibitors/metabolism/chemistry",
+      "*Neural Networks, Computer",
+      "Humans",
+      "Inhibitory Concentration 50",
+      "*Artificial Intelligence",
+      "Drug Discovery",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Algorithms",
+      "Graph Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "El-Masry, Walaa H",
+        "Monem, Samar",
+        "Darwish, Nagy Ramadan",
+        "Hassanein, Aboul Ella"
+      ],
+      "short_names": [
+        "El-Masry WH",
+        "Monem S",
+        "Darwish NR",
+        "Hassanein AE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Information Systems and Technology Department, Faculty of Graduate Studies for Statistical Research, Cairo University, Giza, Egypt. w.elmasry@fci-cu.edu.eg.",
+        "Scientific Research School of Egypt (SRSEG), Giza, Egypt. w.elmasry@fci-cu.edu.eg.",
+        "Mathematics and Computer Science Department, Faculty of Science, Beni-Suef University, Beni-Suef, Egypt.",
+        "Scientific Research School of Egypt (SRSEG), Giza, Egypt.",
+        "Information Systems and Technology Department, Faculty of Graduate Studies for Statistical Research, Cairo University, Giza, Egypt.",
+        "Information Technology Department, Faculty of Computers and Artificial Intelligence, Cairo University, Giza, Egypt.",
+        "Scientific Research School of Egypt (SRSEG), Giza, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "El-Masry, Walaa H",
+        "short_name": "El-Masry WH",
+        "identifiers": [],
+        "affiliations": [
+          "Information Systems and Technology Department, Faculty of Graduate Studies for Statistical Research, Cairo University, Giza, Egypt. w.elmasry@fci-cu.edu.eg.",
+          "Scientific Research School of Egypt (SRSEG), Giza, Egypt. w.elmasry@fci-cu.edu.eg."
+        ]
+      },
+      {
+        "full_name": "Monem, Samar",
+        "short_name": "Monem S",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematics and Computer Science Department, Faculty of Science, Beni-Suef University, Beni-Suef, Egypt.",
+          "Scientific Research School of Egypt (SRSEG), Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Darwish, Nagy Ramadan",
+        "short_name": "Darwish NR",
+        "identifiers": [],
+        "affiliations": [
+          "Information Systems and Technology Department, Faculty of Graduate Studies for Statistical Research, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Hassanein, Aboul Ella",
+        "short_name": "Hassanein AE",
+        "identifiers": [],
+        "affiliations": [
+          "Information Technology Department, Faculty of Computers and Artificial Intelligence, Cairo University, Giza, Egypt.",
+          "Scientific Research School of Egypt (SRSEG), Giza, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computer-aided molecular design"
+    ],
+    "journal_abbrev": [
+      "J Comput Aided Mol Des"
+    ],
+    "pub_date": "2025 Dec 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/24 12:55",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40145660",
+      "39905318",
+      "39786982",
+      "39721415",
+      "39390357",
+      "39334437",
+      "38837345",
+      "37375838",
+      "36430395",
+      "35578674",
+      "35561188",
+      "35346511",
+      "35159090",
+      "35062019",
+      "34861473",
+      "34554467",
+      "34299384",
+      "34299341",
+      "34271420",
+      "34234813",
+      "33597034",
+      "33518400",
+      "33119053",
+      "33052851",
+      "32873970",
+      "32171918",
+      "32158625",
+      "30976107",
+      "27829350"
+    ],
+    "similar": [
+      "41441912",
+      "40811188",
+      "41136863",
+      "38365583",
+      "40279083",
+      "40286680",
+      "38250147",
+      "40073281",
+      "40602636",
+      "40554399",
+      "40882409",
+      "39721415",
+      "34116289",
+      "41318549",
+      "41172602",
+      "41337413",
+      "38547658",
+      "39579417",
+      "41491543",
+      "39270533",
+      "35872410",
+      "40784875",
+      "39848362",
+      "41299450",
+      "39961610",
+      "39250757",
+      "38567388",
+      "41094395",
+      "41118289",
+      "35578674",
+      "37806139",
+      "40184850",
+      "40306099",
+      "40097269",
+      "40360137",
+      "40784939",
+      "40966797",
+      "40831284",
+      "36171550",
+      "34099048",
+      "35380622",
+      "35171981",
+      "38225583",
+      "40641005",
+      "38552281",
+      "41285097",
+      "37015384",
+      "39357440",
+      "40967142",
+      "34661237",
+      "40731315",
+      "37448360",
+      "40306096",
+      "40466979",
+      "34294047",
+      "38177981",
+      "35313247",
+      "39255076",
+      "38954894",
+      "35104237",
+      "39827292",
+      "40550191",
+      "40431927",
+      "36897837",
+      "37005531",
+      "40299730",
+      "41124992",
+      "40036511",
+      "39776277",
+      "35196251",
+      "40811270",
+      "39446541",
+      "36430395",
+      "40826117",
+      "39806960",
+      "39197306",
+      "41083656",
+      "41176406",
+      "39997997",
+      "40649385",
+      "39123113",
+      "34808587",
+      "40580615",
+      "40252145",
+      "41403225",
+      "38033291",
+      "41174103",
+      "39825219",
+      "40287076",
+      "35066446",
+      "39333143",
+      "40972418",
+      "37050561",
+      "39052623",
+      "33166800",
+      "40834555",
+      "40602230",
+      "34516371",
+      "34487508",
+      "40670964"
+    ],
+    "review": [
+      "41441912",
+      "40550191"
+    ],
+    "pmc": [
+      "12738643"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41441912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10822-025-00723-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

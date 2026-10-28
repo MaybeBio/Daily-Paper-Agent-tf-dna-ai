@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "34455627",
+    "doi": "10.1002/prot.26229",
+    "title": "RF-SVM: Identification of DNA-binding proteins based on comprehensive feature representation methods and support vector machine."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play an important role in biological progress, such as DNA replication, repair, and modification processes. In order to have a better understanding of its functions, the one of the most important steps is the identification of DNA-binding proteins. We propose a DNA-binding protein predictor, namely, RF-SVM, which contains four types features, that is, pseudo amino acid composition (PseAAC), amino acid distribution (AAD), adjacent amino acid composition frequency (ACF) and Local-DPP. Random Forest algorithm is utilized for selecting top 174 features, which are established the predictor model with the support vector machine (SVM) on training dataset UniSwiss-Tr. Finally, RF-SVM method is compared with other existing methods on test dataset UniSwiss-Tst. The experimental results demonstrated that RF-SVM has accuracy of 84.25%. Meanwhile, we discover that the physicochemical properties of amino acids for OOBM770101(H), CIDH920104(H), MIYS990104(H), NISK860101(H), VINM940103(H), and SNEP660101(A) have contribution to predict DNA-binding proteins. The main code and datasets can gain in https://github.com/NiJianWei996/RF-SVM.",
+    "keywords": [
+      "Canberra distance",
+      "evolutionary information",
+      "physicochemical properties indices",
+      "random forest algorithm",
+      "support vector machine"
+    ],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "*DNA/chemistry/metabolism",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Databases, Protein",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yanping",
+        "Ni, Jianwei",
+        "Gao, Ya"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Ni J",
+        "Gao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6048-8891"
+      ],
+      "affiliations": [
+        "Department of Mathematics, School of Science, Hebei University of Engineering, Handan, China.",
+        "Department of Mathematics, School of Science, Hebei University of Engineering, Handan, China.",
+        "Department of Mathematics, School of Science, Hebei University of Engineering, Handan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yanping",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-6048-8891"
+        ],
+        "affiliations": [
+          "Department of Mathematics, School of Science, Hebei University of Engineering, Handan, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Jianwei",
+        "short_name": "Ni J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, School of Science, Hebei University of Engineering, Handan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ya",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, School of Science, Hebei University of Engineering, Handan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2022 Feb",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/30 06:00",
+    "fetched_at": "2026-09-27 23:03:16"
+  },
+  "links": {
+    "cites": [
+      "39057077",
+      "38903752",
+      "38048333"
+    ],
+    "refs": [],
+    "similar": [
+      "34455627",
+      "29753757",
+      "31123959",
+      "26482832",
+      "29183738",
+      "30598073",
+      "27378005",
+      "27490858",
+      "22868682",
+      "29380690",
+      "25708928",
+      "32946833",
+      "29940836",
+      "24151525",
+      "33410688",
+      "22316304",
+      "29097781",
+      "38237792",
+      "28606086",
+      "38812315",
+      "28937647",
+      "31693872",
+      "30668479",
+      "27411307",
+      "33238837",
+      "26908349",
+      "30452960",
+      "29100918",
+      "39075193",
+      "29678694",
+      "21342579",
+      "27579307",
+      "30957840",
+      "27740495",
+      "33780341",
+      "32300371",
+      "38217977",
+      "30845684",
+      "16568445",
+      "28841194",
+      "22591472",
+      "19008251",
+      "27213337",
+      "33962556",
+      "34291709",
+      "28763688",
+      "30943723",
+      "24316387",
+      "31521251",
+      "24448651",
+      "27452983",
+      "25240115",
+      "28934693",
+      "37095510",
+      "31297788",
+      "24467761",
+      "29616000",
+      "30103521",
+      "29337263",
+      "34043981",
+      "34884927",
+      "23497329",
+      "30641215",
+      "29419752",
+      "17275170",
+      "37060772",
+      "26819243",
+      "28552554",
+      "32520672",
+      "24334394",
+      "30050050",
+      "24390396",
+      "22373313",
+      "22185510",
+      "25946106",
+      "30452958",
+      "32805275",
+      "31776090",
+      "33235255",
+      "31856668",
+      "28530547",
+      "32622978",
+      "29591488",
+      "31208321",
+      "27907159",
+      "32144887",
+      "23855661",
+      "26746980",
+      "24475169",
+      "31486019",
+      "30228989",
+      "19385697",
+      "28764871",
+      "25896721",
+      "33481715",
+      "24189096",
+      "32977371",
+      "27669239",
+      "23282098",
+      "25113160",
+      "30577740",
+      "32946226",
+      "27842479",
+      "32149653",
+      "22967952",
+      "39033257",
+      "35286461",
+      "35731758",
+      "34806952",
+      "35141903",
+      "38658614",
+      "35609687",
+      "36749151",
+      "29899414",
+      "35262448",
+      "38944134",
+      "35139023",
+      "31865116",
+      "32802888",
+      "34790508",
+      "38754217",
+      "38747369",
+      "36341922",
+      "37325864",
+      "35246701",
+      "37866116",
+      "37510209",
+      "35773617",
+      "36087888",
+      "37978902",
+      "33837381",
+      "37205598",
+      "35918795",
+      "35667299",
+      "36147670",
+      "36465911",
+      "34186189",
+      "38205965",
+      "35221569",
+      "35090317",
+      "36046247",
+      "34628276",
+      "35350759",
+      "36401584",
+      "35530479",
+      "32346070",
+      "35465187",
+      "21738315",
+      "36214164"
+    ],
+    "review": [
+      "34455627",
+      "28530547"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26229",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

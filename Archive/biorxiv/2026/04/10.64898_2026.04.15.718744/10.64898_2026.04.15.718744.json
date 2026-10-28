@@ -1,0 +1,357 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.15.718744",
+  "title": "GROQ-seq Datasets Across Transcription Factors (LacI, RamR, VanR), T7 RNA Polymerase and TEV Protease",
+  "doi": "10.64898/2026.04.15.718744",
+  "abstract": "Predicting any protein’s function from its sequence alone would be a significant breakthrough in molecular biology. Although machine learning approaches have sought to tackle this, their limited generalizability reflects the absence of sufficiently large, open, diverse, and unified datasets. To address this data gap, we developed a high-throughput experimental platform called GROQ-seq ( Gro wth-based Q uantitative Seq uencing). In GROQ-seq, a protein’s function can be linked to a sequencing-based readout that enables scalable characterization of large variant libraries in Escherichia coli . Here, we present pilot datasets demonstrating its performance across three distinct protein function classes: transcription factors, polymerases, and proteases. The objective of this report is to present the datasets and to provide users with a clear and transparent characterization of their properties, including both the strengths and limitations.",
+  "authors": [
+    "Spinner A",
+    "Sreenivasan S",
+    "McLellan JR",
+    "Ikonomova S",
+    "Cortade D",
+    "d’Oelsnitz S",
+    "Sheldon K",
+    "Vasilyeva O",
+    "Alperovich NY",
+    "Chadha A",
+    "Nematollahi L",
+    "Dhroso A",
+    "Sisson Z",
+    "Densmore D",
+    "Hudson CM",
+    "DeBenedictis E",
+    "Kelly PJ",
+    "Reider Apel A",
+    "Ross D",
+    "Baranowski C"
+  ],
+  "published_date": "2026-04-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718744",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718744.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1214399",
+    "raw_record": {
+      "id": "PPR1214399",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1214399"
+        ]
+      },
+      "doi": "10.64898/2026.04.15.718744",
+      "title": "GROQ-seq Datasets Across Transcription Factors (LacI, RamR, VanR), T7 RNA Polymerase and TEV Protease",
+      "authorString": "Spinner A, Sreenivasan S, McLellan JR, Ikonomova S, Cortade D, d’Oelsnitz S, Sheldon K, Vasilyeva O, Alperovich NY, Chadha A, Nematollahi L, Dhroso A, Sisson Z, Densmore D, Hudson CM, DeBenedictis E, Kelly PJ, Reider Apel A, Ross D, Baranowski C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Spinner A",
+            "lastName": "Spinner",
+            "firstName": "Aviv",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9845-0787"
+            }
+          },
+          {
+            "fullName": "Sreenivasan S",
+            "lastName": "Sreenivasan",
+            "firstName": "Shwetha",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-5869-4254"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Biomaterials Division, Material Measurement Laboratory,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McLellan JR",
+            "lastName": "McLellan",
+            "firstName": "James",
+            "initials": "JR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-3055-2428"
+            }
+          },
+          {
+            "fullName": "Ikonomova S",
+            "lastName": "Ikonomova",
+            "firstName": "Svetlana",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1770-056X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Biomaterials Division, Material Measurement Laboratory,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cortade D",
+            "lastName": "Cortade",
+            "firstName": "Dana",
+            "initials": "D"
+          },
+          {
+            "fullName": "d’Oelsnitz S",
+            "lastName": "d’Oelsnitz",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Harvard Medical School"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sheldon K",
+            "lastName": "Sheldon",
+            "firstName": "Kristen",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-2490-7650"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Design, Automation, Manufacturing, and Processes laboratory at"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vasilyeva O",
+            "lastName": "Vasilyeva",
+            "firstName": "Olga",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Biomaterials Division, Material Measurement Laboratory,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alperovich NY",
+            "lastName": "Alperovich",
+            "firstName": "Nina",
+            "initials": "NY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Biomaterials Division, Material Measurement Laboratory,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chadha A",
+            "lastName": "Chadha",
+            "firstName": "Anjali",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3311-5843"
+            }
+          },
+          {
+            "fullName": "Nematollahi L",
+            "lastName": "Nematollahi",
+            "firstName": "Lily",
+            "initials": "L"
+          },
+          {
+            "fullName": "Dhroso A",
+            "lastName": "Dhroso",
+            "firstName": "Andi",
+            "initials": "A"
+          },
+          {
+            "fullName": "Sisson Z",
+            "lastName": "Sisson",
+            "firstName": "Zach",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Densmore D",
+            "lastName": "Densmore",
+            "firstName": "Douglas",
+            "initials": "D"
+          },
+          {
+            "fullName": "Hudson CM",
+            "lastName": "Hudson",
+            "firstName": "Corey",
+            "initials": "CM"
+          },
+          {
+            "fullName": "DeBenedictis E",
+            "lastName": "DeBenedictis",
+            "firstName": "Erika",
+            "initials": "E"
+          },
+          {
+            "fullName": "Kelly PJ",
+            "lastName": "Kelly",
+            "firstName": "Peter",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0500-1865"
+            }
+          },
+          {
+            "fullName": "Reider Apel A",
+            "lastName": "Reider Apel",
+            "firstName": "Amanda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Biomaterials Division, Material Measurement Laboratory,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ross D",
+            "lastName": "Ross",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Baranowski C",
+            "lastName": "Baranowski",
+            "firstName": "Catherine",
+            "initials": "C"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7512-9157"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9845-0787"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1770-056X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0500-1865"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3311-5843"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-3055-2428"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-5869-4254"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-2490-7650"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Predicting any protein’s function from its sequence alone would be a significant breakthrough in molecular biology. Although machine learning approaches have sought to tackle this, their limited generalizability reflects the absence of sufficiently large, open, diverse, and unified datasets. To address this data gap, we developed a high-throughput experimental platform called GROQ-seq (  Gro wth-based  Q uantitative  Seq uencing). In GROQ-seq, a protein’s function can be linked to a sequencing-based readout that enables scalable characterization of large variant libraries in  Escherichia coli . Here, we present pilot datasets demonstrating its performance across three distinct protein function classes: transcription factors, polymerases, and proteases. The objective of this report is to present the datasets and to provide users with a clear and transparent characterization of their properties, including both the strengths and limitations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.04.15.718744"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1214399"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS218347",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-04-18",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-09-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

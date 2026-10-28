@@ -1,0 +1,465 @@
+{
+  "identity": {
+    "pmid": "40474105",
+    "doi": "10.1186/s12885-025-14409-0",
+    "title": "Plasma cfDNA multi-omic biomarkers profiling for detection and stratification of gastric carcinoma."
+  },
+  "content": {
+    "abstract": "Despite being the third in death rate among all cancers globally, gastric carcinoma (GC) is far from being detected accurately and timely, which could benefit the prognosis. To achieve this, we performed whole-genome sequencing (WGS) to plasma cfDNA of 733 participants, including healthy individuals, patients with benign gastric diseases and GC patients. The multi-omic biomarkers in this study, including fragmentation profile, end motif and genome-wide Copy Number Variations (CNV) of plasma cfDNA, are recently developed means for cancer detection and monitoring. And these biomarkers were extracted from WGS data to build machine learning algorithm based classifiers, prediction models, to discriminate GC patients from healthy individuals, achieving extremely high precision of sensitivity at 94.87% and specificity at 99.35%. Therefore, these cfDNA multi-omic biomarkers may serve as means to detect GC accurately, affordably and timely.",
+    "keywords": [
+      "Cell-free DNA(cfDNA)",
+      "Epigenetic modification",
+      "Gastric carcinoma(GC)",
+      "Machine learning",
+      "Transcription factor binding site(TFBS)",
+      "Whole genome sequencing (WGS)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/blood/diagnosis",
+      "*Biomarkers, Tumor/blood/genetics",
+      "DNA Copy Number Variations",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "*Cell-Free Nucleic Acids/blood/genetics",
+      "Whole Genome Sequencing",
+      "Aged",
+      "Machine Learning",
+      "Adult",
+      "Prognosis",
+      "Case-Control Studies",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Shiyi",
+        "Zhang, Xiuli",
+        "Cui, Pin",
+        "He, Weihuang",
+        "Zhou, Jiyuan",
+        "Wang, Shubing",
+        "Xiong, Yong",
+        "Xu, Shu",
+        "Lin, Xiaohui",
+        "Huang, Guozeng",
+        "Tan, Xiaohua",
+        "Xu, Qinglong",
+        "Liu, Yongling",
+        "Li, Qingqun",
+        "Yuan, Kehua",
+        "Feng, Mingji",
+        "Lai, Hanming",
+        "Yang, Hui",
+        "Zhang, Shaorong"
+      ],
+      "short_names": [
+        "Song S",
+        "Zhang X",
+        "Cui P",
+        "He W",
+        "Zhou J",
+        "Wang S",
+        "Xiong Y",
+        "Xu S",
+        "Lin X",
+        "Huang G",
+        "Tan X",
+        "Xu Q",
+        "Liu Y",
+        "Li Q",
+        "Yuan K",
+        "Feng M",
+        "Lai H",
+        "Yang H",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endoscopy, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, China.",
+        "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China.",
+        "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China. cuipin@rafabio.com.",
+        "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China.",
+        "Department of Gastroenterology, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, 518036, China.",
+        "Department of Gastrointestinal Surgery, Shenzhen Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Oncology, Shenzhen Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Oncology, People's Hospital of Shenzhen Baoan District, The Second Affiliated Hospital of Shenzhen University, Shenzhen, Guangdong, China.",
+        "Department of Gastrointestinal Surgery, Shenzhen Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Oncology, Shenzhen, Third People's Hospital, Shenzhen, China.",
+        "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China.",
+        "Department of Oncology, Yantian Hospital, South University of Science and Technology, Shenzhen, Guangdong, China.",
+        "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China.",
+        "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China.",
+        "Department of Gastroenterology, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China. zsr3380320@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Shiyi",
+        "short_name": "Song S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endoscopy, The First Affiliated Hospital of Xinxiang Medical University, Weihui, 453100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiuli",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Pin",
+        "short_name": "Cui P",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China. cuipin@rafabio.com."
+        ]
+      },
+      {
+        "full_name": "He, Weihuang",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiyuan",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shubing",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Key Laboratory of Gastrointestinal Cancer Translational Research, Cancer Institute, Peking University Shenzhen Hospital, Shenzhen-Peking University-Hong Kong University of Science and Technology Medical Center, Shenzhen, 518036, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yong",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Shenzhen Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shu",
+        "short_name": "Xu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xiaohui",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, People's Hospital of Shenzhen Baoan District, The Second Affiliated Hospital of Shenzhen University, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guozeng",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Shenzhen Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Xiaohua",
+        "short_name": "Tan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Shenzhen, Third People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qinglong",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yongling",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qingqun",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Kehua",
+        "short_name": "Yuan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Yantian Hospital, South University of Science and Technology, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Mingji",
+        "short_name": "Feng M",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Hanming",
+        "short_name": "Lai H",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Rapha Biotechnology Incorporate, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hui",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaorong",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangming District People's Hospital, Shenzhen, China. zsr3380320@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Jun 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 00:27",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42167247"
+    ],
+    "refs": [
+      "38902799",
+      "38867560",
+      "38849019",
+      "38196018",
+      "36640362",
+      "36509772",
+      "36463275",
+      "36346614",
+      "36288287",
+      "36220554",
+      "35780566",
+      "35705804",
+      "34764975",
+      "34721660",
+      "34417454",
+      "33592120",
+      "33590861",
+      "33538338",
+      "33145887",
+      "32541329",
+      "32196595",
+      "32111602",
+      "31614115",
+      "31604930",
+      "31443703",
+      "31142840",
+      "30423086",
+      "30166348",
+      "28779026",
+      "28421457",
+      "26771485",
+      "26086571",
+      "26081924",
+      "24618998",
+      "21909401",
+      "19768584",
+      "19451168",
+      "12854130",
+      "7367820"
+    ],
+    "similar": [
+      "40474105",
+      "38849019",
+      "40244164",
+      "34644276",
+      "34490703",
+      "39038922",
+      "38905450",
+      "38414068",
+      "34791072",
+      "37499745",
+      "38849905",
+      "36056434",
+      "40133038",
+      "39909829",
+      "33264292",
+      "31880527",
+      "31811000",
+      "39466000",
+      "30935424",
+      "33342577",
+      "39003776",
+      "39528065",
+      "32632900",
+      "39730893",
+      "40136052",
+      "34464388",
+      "40256837",
+      "39075419",
+      "34465593",
+      "40001151",
+      "30617129",
+      "36641505",
+      "34609300",
+      "31234922",
+      "39175001",
+      "31173267",
+      "34133846",
+      "37903652",
+      "40188889",
+      "31710437",
+      "39089259",
+      "31694073",
+      "38697989",
+      "38561976",
+      "31101027",
+      "39776291",
+      "32859160",
+      "31364001",
+      "32483360",
+      "34759042",
+      "26233568",
+      "39406232",
+      "38927119",
+      "29635542",
+      "38114477",
+      "39265506",
+      "29686738",
+      "37728978",
+      "39233043",
+      "36346614",
+      "36779847",
+      "39073362",
+      "39093127",
+      "33641249",
+      "36361723",
+      "39568088",
+      "34794856",
+      "31443703",
+      "40038442",
+      "38654110",
+      "33461190",
+      "39236578",
+      "34688997",
+      "40055810",
+      "32462419",
+      "37907748",
+      "34250416",
+      "39602340",
+      "31432324",
+      "40020203",
+      "40257142",
+      "31695765",
+      "37898819",
+      "39535155",
+      "39304963",
+      "25322965",
+      "33571170",
+      "40233080",
+      "34916369",
+      "29776953",
+      "40016817",
+      "38754575",
+      "38542469",
+      "33176259",
+      "33658587",
+      "35251373",
+      "33027843",
+      "30279572",
+      "27993791",
+      "26874951"
+    ],
+    "review": [
+      "40474105",
+      "31101027",
+      "40038442"
+    ],
+    "pmc": [
+      "12139387"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-14409-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40474105/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

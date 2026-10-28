@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "41666407",
+    "doi": "10.1093/bib/bbag042",
+    "title": "CTAS: a network control theory-based approach to identify key regulatory TFs of AS events during epithelial-mesenchymal transition."
+  },
+  "content": {
+    "abstract": "Alternative splicing (AS) is a key driver of transcriptomic diversity and plays a pivotal role in epithelial-mesenchymal transition (EMT). During EMT, dynamic splicing changes contribute to cell plasticity and metastasis, yet the upstream regulatory logic remains unclear. Although transcription factors (TFs) are thought to influence AS programs, they typically act through RNA-binding proteins (RBPs), forming a hierarchical TF$\\rightarrow $RBP$\\rightarrow $AS cascade. Current computational strategies struggle to recover such multi-layered regulation from bulk cross-sectional data, limiting our ability to identify TFs that ultimately control EMT-related AS events. To address this gap, we developed CTAS, a network control theory-based approach to identify key regulatory TFs of AS events during EMT. CTAS integrates pseudotime ordering, trend analysis, sparse directed network inference, and control-theoretic screening into a unified framework. In simulations, CTAS reconstructs EMT trajectories with Spearman's $\\rho = 0.99946$ and directed networks with ROC AUC = 89.9%, and remains robust under noise. Applied to a TCGA BRCA cohort, CTAS builds a directed TF$\\to $RBP$\\to $AS network and identifies HOXA3 (1.00), PRDM8 (0.86), and TWIST2 (0.83) as top TF controllers, alongside significant dynamic shifts in nine AS events detected by Wilcoxon test ($P <.05$). A focused CD44 subnetwork further highlights ZNF521 (0.86) and HIC1 (0.65) as candidate regulators. These findings demonstrate that CTAS transforms cross-sectional data into dynamic regulatory insights and yields experimentally testable TFs that control AS during EMT.",
+    "keywords": [
+      "control theory",
+      "epithelial-mesenchymal transition",
+      "pseudotime analysis",
+      "regulatory network"
+    ],
+    "mesh_terms": [
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "*Transcription Factors/metabolism/genetics",
+      "*Alternative Splicing",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gan, Yan",
+        "He, Yangsong",
+        "Zhao, Pu",
+        "Ching, Wai-Ki",
+        "Qiu, Yushan"
+      ],
+      "short_names": [
+        "Gan Y",
+        "He Y",
+        "Zhao P",
+        "Ching WK",
+        "Qiu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Mathematical Sciences, Shenzhen University, 3688 Nanhai Avenue, Nanshan District, Shenzhen, Guangdong 518061  China.",
+        "School of Mathematical Sciences, Shenzhen University, 3688 Nanhai Avenue, Nanshan District, Shenzhen, Guangdong 518061  China.",
+        "College of Life and Health Sciences, Northeastern University, 3-11 Wenhua Road, Heping District, Shenyang, Liaoning 110169, China.",
+        "Department of Mathematics, The University of Hong Kong, Pokfulam Road, Hong Kong.",
+        "School of Mathematical Sciences, Shenzhen University, 3688 Nanhai Avenue, Nanshan District, Shenzhen, Guangdong 518061  China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gan, Yan",
+        "short_name": "Gan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical Sciences, Shenzhen University, 3688 Nanhai Avenue, Nanshan District, Shenzhen, Guangdong 518061  China."
+        ]
+      },
+      {
+        "full_name": "He, Yangsong",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical Sciences, Shenzhen University, 3688 Nanhai Avenue, Nanshan District, Shenzhen, Guangdong 518061  China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Pu",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life and Health Sciences, Northeastern University, 3-11 Wenhua Road, Heping District, Shenyang, Liaoning 110169, China."
+        ]
+      },
+      {
+        "full_name": "Ching, Wai-Ki",
+        "short_name": "Ching WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, The University of Hong Kong, Pokfulam Road, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yushan",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical Sciences, Shenzhen University, 3688 Nanhai Avenue, Nanshan District, Shenzhen, Guangdong 518061  China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 19:00",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37561790",
+      "36930678",
+      "36191006",
+      "35679575",
+      "33667222",
+      "33375038",
+      "32467311",
+      "31850059",
+      "31765387",
+      "31626751",
+      "31097707",
+      "30239577",
+      "30204129",
+      "29901772",
+      "29425488",
+      "28957658",
+      "28910750",
+      "28655847",
+      "27368099",
+      "27153352",
+      "26869223",
+      "25112293",
+      "24244294",
+      "24179441",
+      "23774067",
+      "22961986",
+      "22130881",
+      "22000009",
+      "21602879",
+      "21562557",
+      "21393860",
+      "20927193",
+      "20110989",
+      "19487819",
+      "19487818",
+      "18978789",
+      "17537911",
+      "15210113",
+      "10380183",
+      "10380182",
+      "5803332"
+    ],
+    "similar": [
+      "41666407",
+      "34410342",
+      "33517359",
+      "32467311",
+      "24598159",
+      "23497388",
+      "34445498",
+      "27044866",
+      "36930678",
+      "41643202",
+      "41196940",
+      "23593114",
+      "39256881",
+      "30844478",
+      "30713070",
+      "29212455",
+      "22514743",
+      "24124593",
+      "18682805",
+      "35278142",
+      "41801512",
+      "40395204",
+      "34348273",
+      "31557902",
+      "30453041",
+      "26926107",
+      "31399483",
+      "29936265",
+      "27692175",
+      "40193394",
+      "40011185",
+      "24812525",
+      "35347688",
+      "39133592",
+      "41716413",
+      "41498638",
+      "21172055",
+      "21687740",
+      "33500360",
+      "31915310",
+      "29769331",
+      "41731492",
+      "40210438",
+      "38783078",
+      "34708244",
+      "22548723",
+      "32615918",
+      "41288963",
+      "38503384",
+      "27114453",
+      "27460000",
+      "23435423",
+      "24004452",
+      "24200043",
+      "22844237",
+      "38337133",
+      "34857888",
+      "41233338",
+      "26103982",
+      "29721073",
+      "32054475",
+      "32845706",
+      "32564755",
+      "41257843",
+      "34460331",
+      "39589130",
+      "28919019",
+      "42143313",
+      "40696848",
+      "39129306",
+      "33808323",
+      "32201364",
+      "34288803",
+      "39161769",
+      "41482352",
+      "24612742",
+      "34680284",
+      "31790386",
+      "34379517",
+      "41455985",
+      "37123236",
+      "30042172",
+      "39964163",
+      "24228871",
+      "41183100",
+      "20942926",
+      "27177472",
+      "38653489",
+      "35887187",
+      "28651527",
+      "35397550",
+      "38002944",
+      "21876675",
+      "22784627",
+      "21375730",
+      "40162990",
+      "41290994",
+      "31275609",
+      "42006143",
+      "40504371"
+    ],
+    "review": [
+      "41666407",
+      "35278142",
+      "34348273",
+      "31557902",
+      "30453041",
+      "29936265",
+      "27692175",
+      "40011185",
+      "24812525",
+      "34708244",
+      "22548723",
+      "38503384",
+      "27460000",
+      "38337133",
+      "28919019",
+      "39129306",
+      "33808323"
+    ],
+    "pmc": [
+      "12888823"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41666407/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag042",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

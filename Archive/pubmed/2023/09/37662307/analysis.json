@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37662307",
+  "title": "Ascertainment bias in the genomic test of positive selection on regulatory sequences.",
+  "authors": "Jiang, Daohan; Zhang, Jianzhi",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-09-04",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用机器学习预测TF结合亲和力来检测调控序列上的正选择，但指出其存在确定偏倚，属于TF-DNA结合预测方法在进化分析中的应用，与本课题方法相关但非直接互作机制建模。",
+  "abstract": "Evolution of gene expression mediated by cis-regulatory changes is thought to be an important contributor to organismal adaptation, but identifying adaptive cis-regulatory changes is challenging due to the difficulty in knowing the expectation under no positive selection. A new approach for detecting positive selection on transcription factor binding sites (TFBSs) was recently developed, thanks to the application of machine learning in predicting transcription factor (TF) binding affinities of DNA sequences. Given a TFBS sequence from a focal species and the corresponding inferred ancestral sequence that differs from the former at n sites, one can predict the TF binding affinities of many n-step mutational neighbors of the ancestral sequence and obtain a null distribution of the derived binding affinity, which allows testing whether the binding affinity of the real derived sequence deviates significantly from the null distribution. Applying this test genomically to all experimentally identified binding sites of three TFs in humans, a recent study reported positive selection for elevated binding affinities of TFBSs. Here we show that this genomic test suffers from an ascertainment bias because, even in the absence of positive selection for strengthened binding, the binding affinities of known human TFBSs are more likely to have increased than decreased in evolution. We demonstrate by computer simulation that this bias inflates the false positive rate of the selection test. We propose several methods to mitigate the ascertainment bias and show that almost all previously reported positive selection signals disappear when these methods are applied.",
+  "abstract_zh": "由顺式调控变化介导的基因表达进化被认为是生物适应的重要贡献者，但由于在无正选择情况下难以知晓预期值，识别适应性顺式调控变化颇具挑战。最近，得益于机器学习在预测DNA序列转录因子结合亲和力中的应用，开发了一种检测转录因子结合位点（TFBSs）正选择的新方法。给定一个焦点物种的TFBS序列及相应的推断祖先序列（两者在n个位点上存在差异），可以预测祖先序列的许多n步突变邻居的TF结合亲和力，并获得衍生结合亲和力的零分布，从而检验真实衍生序列的结合亲和力是否显著偏离零分布。将该测试基因组-wide应用于人类中三个转录因子的所有实验鉴定结合位点，一项近期研究报告了TFBSs结合亲和力升高的正选择证据。在此，我们表明该基因组测试存在确定偏倚，因为即使在无强化结合正选择的情况下，已知人类TFBSs的结合亲和力在进化中更可能增加而非减少。我们通过计算机模拟证明，该偏倚会夸大选择测试的假阳性率。我们提出了几种减轻确定偏倚的方法，并表明当应用这些方法时，几乎所有先前报告的正选择信号均消失。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37662307/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37662307/",
+  "paper_page_path": "papers/pubmed/37662307/index.html"
+}

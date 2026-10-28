@@ -1,0 +1,496 @@
+{
+  "identity": {
+    "pmid": "40475399",
+    "doi": "10.1101/2025.05.16.654579",
+    "title": "Deep-learning-enabled multi-omics analyses for prediction of future metastasis in cancer."
+  },
+  "content": {
+    "abstract": "Metastasis remains the leading cause of cancer-related mortality, yet predicting future metastasis is a major clinical challenge due to the lack of validated biomarkers and effective assessment methods. Here, we present EmitGCL, a deep-learning framework that accurately predicts future metastasis and its corresponding biomarkers. Based on a comprehensive benchmarking comparison, EmitGCL outperformed other computational tools across six cancer types from seven cohorts of patients with superior sensitivity and specificity. It captured occult metastatic cells in a patient with a lymph node-negative breast cancer, who was declared to have no evidence of disease by conventional imaging methods but was later confirmed to have a metastatic disease. Notably, EmitGCL identified HSP90AA1 and HSP90AB1 as predictable biomarkers for future breast cancer metastasis, which was validated across five independent cohorts of patients (n=420). Furthermore, we demonstrated YY1 transcription factor as a key driver of breast cancer metastasis which was validated through in-silico and CRISPR-based migration assays, suggesting that YY1 is a potential therapeutic target for deterring metastasis.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaoying",
+        "Duan, Maoteng",
+        "Su, Po-Lan",
+        "Li, Jianying",
+        "Krull, Jordan",
+        "Jin, Jiacheng",
+        "Chen, Hu",
+        "Sun, Yuhan",
+        "Wu, Weidong",
+        "He, Kai",
+        "Carpenter, Richard L",
+        "Zhang, Chi",
+        "Cao, Sha",
+        "Xu, Dong",
+        "Wang, Guangyu",
+        "Li, Lang",
+        "Xin, Gang",
+        "Carbone, David P",
+        "Li, Zihai",
+        "Ma, Qin"
+      ],
+      "short_names": [
+        "Wang X",
+        "Duan M",
+        "Su PL",
+        "Li J",
+        "Krull J",
+        "Jin J",
+        "Chen H",
+        "Sun Y",
+        "Wu W",
+        "He K",
+        "Carpenter RL",
+        "Zhang C",
+        "Cao S",
+        "Xu D",
+        "Wang G",
+        "Li L",
+        "Xin G",
+        "Carbone DP",
+        "Li Z",
+        "Ma Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9986-6493",
+        "ORCID: 0000-0002-4809-0514"
+      ],
+      "affiliations": [
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore City, 637371, Singapore.",
+        "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center, 494 Biomedical Research Tower, 460 W 10th Ave., Columbus, OH 43210, USA.",
+        "Department of Internal Medicine, National Cheng Kung University Hospital, College of Medicine, National Cheng Kung University, Tainan, Taiwan, 138 Shengli Rd, Tainan 704, Taiwan.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Microbial Infection and Immunity, The Ohio State University College of Medicine, Columbus, OH, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Microbial Infection and Immunity, The Ohio State University College of Medicine, Columbus, OH, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center, 494 Biomedical Research Tower, 460 W 10th Ave., Columbus, OH 43210, USA.",
+        "Medical Sciences, Indiana University, Bloomington, IN 47405.",
+        "Department of Biochemistry and Molecular Biology, Indiana University School of Medicine, Indianapolis, IN 46202.",
+        "Simon Comprehensive Cancer Center, Indiana University School of Medicine, Indianapolis, IN 46202.",
+        "Department of Biomedical Engineering, School of Medicine, Oregon Health and Sciences University, USA.",
+        "Department of Biomedical Engineering, School of Medicine, Oregon Health and Sciences University, USA.",
+        "Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, MO 65211, USA.",
+        "Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO 65211, USA.",
+        "Center for Bioinformatics and Computational Biology, Houston Methodist Research Institute, Houston, TX 77030, USA.",
+        "Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Microbial Infection and Immunity, The Ohio State University College of Medicine, Columbus, OH, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center, 494 Biomedical Research Tower, 460 W 10th Ave., Columbus, OH 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaoying",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0001-9986-6493"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Duan, Maoteng",
+        "short_name": "Duan M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore City, 637371, Singapore."
+        ]
+      },
+      {
+        "full_name": "Su, Po-Lan",
+        "short_name": "Su PL",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center, 494 Biomedical Research Tower, 460 W 10th Ave., Columbus, OH 43210, USA.",
+          "Department of Internal Medicine, National Cheng Kung University Hospital, College of Medicine, National Cheng Kung University, Tainan, Taiwan, 138 Shengli Rd, Tainan 704, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Li, Jianying",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+          "Department of Microbial Infection and Immunity, The Ohio State University College of Medicine, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Krull, Jordan",
+        "short_name": "Krull J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Jin, Jiacheng",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+          "Department of Microbial Infection and Immunity, The Ohio State University College of Medicine, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Hu",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuhan",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Weidong",
+        "short_name": "Wu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "He, Kai",
+        "short_name": "He K",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+          "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center, 494 Biomedical Research Tower, 460 W 10th Ave., Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Carpenter, Richard L",
+        "short_name": "Carpenter RL",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Sciences, Indiana University, Bloomington, IN 47405.",
+          "Department of Biochemistry and Molecular Biology, Indiana University School of Medicine, Indianapolis, IN 46202.",
+          "Simon Comprehensive Cancer Center, Indiana University School of Medicine, Indianapolis, IN 46202."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chi",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, School of Medicine, Oregon Health and Sciences University, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Sha",
+        "short_name": "Cao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, School of Medicine, Oregon Health and Sciences University, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Dong",
+        "short_name": "Xu D",
+        "identifiers": [
+          "0000-0002-4809-0514"
+        ],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, MO 65211, USA.",
+          "Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO 65211, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Guangyu",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Bioinformatics and Computational Biology, Houston Methodist Research Institute, Houston, TX 77030, USA.",
+          "Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Lang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Xin, Gang",
+        "short_name": "Xin G",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+          "Department of Microbial Infection and Immunity, The Ohio State University College of Medicine, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Carbone, David P",
+        "short_name": "Carbone DP",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA.",
+          "Division of Medical Oncology, Department of Internal Medicine, The Ohio State University Comprehensive Cancer Center, 494 Biomedical Research Tower, 460 W 10th Ave., Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Zihai",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Qin",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+          "Pelotonia Institute for Immuno-Oncology, The James Comprehensive Cancer Center, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 06:32",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39971173",
+      "39955556",
+      "39392128",
+      "39141443",
+      "38862523",
+      "38674115",
+      "38184630",
+      "38129401",
+      "38061122",
+      "37731821",
+      "37676829",
+      "37612267",
+      "37345117",
+      "37176013",
+      "36973261",
+      "36835813",
+      "36810839",
+      "36755098",
+      "36594618",
+      "36357424",
+      "36347846",
+      "35901020",
+      "35713387",
+      "35538070",
+      "35349572",
+      "35197610",
+      "34879031",
+      "34611125",
+      "34323947",
+      "34285779",
+      "33990550",
+      "32344066",
+      "32296047",
+      "31386861",
+      "31315641",
+      "31178118",
+      "31114921",
+      "30139998",
+      "28825705",
+      "27368803",
+      "27009393",
+      "26908438",
+      "23467301",
+      "23370778",
+      "23243023",
+      "19116006",
+      "17289871",
+      "16632515",
+      "16595783",
+      "16251803"
+    ],
+    "similar": [
+      "40475399",
+      "42675068",
+      "23074401",
+      "42500284",
+      "42475469",
+      "42529052",
+      "39072273",
+      "40230305",
+      "40500539",
+      "41342434",
+      "40372953",
+      "41742953",
+      "37782338",
+      "41246350",
+      "42107026",
+      "41661434",
+      "41633888",
+      "41529257",
+      "31818648",
+      "35813335",
+      "41311768",
+      "41310583",
+      "31260100",
+      "41840500",
+      "41656803",
+      "21276372",
+      "37158593",
+      "41976379",
+      "41527309",
+      "36169691",
+      "38117404",
+      "38668072",
+      "40517210",
+      "39550910",
+      "38337068",
+      "31746687",
+      "40766310",
+      "32980697",
+      "40597741",
+      "41142539",
+      "34233259",
+      "42319409",
+      "41907633",
+      "42431776",
+      "40186632",
+      "38270647",
+      "40771387",
+      "23290296",
+      "39107188",
+      "42022736",
+      "38627678",
+      "42415178",
+      "42220154",
+      "42466441",
+      "42095876",
+      "41942891",
+      "41992690",
+      "42490932",
+      "38847776",
+      "37443117",
+      "41794631",
+      "39848886",
+      "42639147",
+      "41237514",
+      "40876229",
+      "41131649",
+      "40520263",
+      "34911489",
+      "41526910",
+      "30678714",
+      "41634779",
+      "33829685",
+      "42310731",
+      "42366266",
+      "34109171",
+      "35209950",
+      "38724768",
+      "40548666",
+      "42182726",
+      "40884974",
+      "38065024",
+      "39548590",
+      "36401611",
+      "36171615",
+      "37384084",
+      "41242317",
+      "32706384",
+      "41684520",
+      "41727639",
+      "37634868",
+      "42553427",
+      "41580234",
+      "42101927",
+      "36219519",
+      "40227603",
+      "41664021",
+      "40977710",
+      "41280131",
+      "36465636",
+      "41258524"
+    ],
+    "review": [
+      "40475399",
+      "41311768",
+      "31260100",
+      "21276372",
+      "23290296",
+      "42022736",
+      "41992690",
+      "33829685",
+      "42366266"
+    ],
+    "pmc": [
+      "12140003"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40475399/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3822",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.16.654579",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

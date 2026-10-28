@@ -1,0 +1,145 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.03.574012",
+  "title": "A Bag-Of-Motif Model Captures Cell States at Distal Regulatory Sequences",
+  "doi": "10.1101/2024.01.03.574012",
+  "abstract": "Deciphering the intricate regulatory code governing cell-type-specific gene expression is a fundamental goal in genetics. Current methods struggle to capture the complex interplay between gene distal regulatory sequences and cell context. We developed a computational approach, BOM (Bag-of-Motifs), which represents cis-regulatory sequences by the type and number of TF binding motifs it contains, irrespective of motif order, orientation, and spacing. This simple yet powerful representation allows BOM to efficiently capture the complexity of cell-type-specific information encoded within these sequences. We apply BOM to mouse, human, and zebrafish distal regulatory regions, demonstrating remarkable accuracy. Notably, the method outperforms more complex deep learning models at the same task using fewer parameters. BOM can also uncover cross-species sequence similarities unrecognized by genome alignments. We experimentally validate our in silico predictions using enhancer reporter assay, showing that motifs with the most significant explanatory power are sequence determinants of cell-type specific enhancer activity. BOM offers a novel systematic framework for studying cell-type or condition-specific cis-regulatory sequences. Using BOM, we demonstrate the existence of a highly predictive sequence code at distal regulatory regions in mammals driven by TF binding motifs.",
+  "authors": [
+    "Cornejo-Páramo P",
+    "Zhang X",
+    "Louis L",
+    "Yang Y",
+    "Li Z",
+    "Humphreys D",
+    "Wong ES"
+  ],
+  "published_date": "2024-01-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.03.574012",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.03.574012.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR782825",
+    "raw_record": {
+      "id": "PPR782825",
+      "source": "PPR",
+      "doi": "10.1101/2024.01.03.574012",
+      "title": "A Bag-Of-Motif Model Captures Cell States at Distal Regulatory Sequences",
+      "authorString": "Cornejo-Páramo P, Zhang X, Louis L, Yang Y, Li Z, Humphreys D, Wong ES.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cornejo-Páramo P",
+            "lastName": "Cornejo-Páramo",
+            "firstName": "Paola",
+            "initials": "P"
+          },
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xuan",
+            "initials": "X"
+          },
+          {
+            "fullName": "Louis L",
+            "lastName": "Louis",
+            "firstName": "Lithin",
+            "initials": "L"
+          },
+          {
+            "fullName": "Yang Y",
+            "lastName": "Yang",
+            "firstName": "Yi-Hua",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Li Z",
+            "lastName": "Li",
+            "firstName": "Zelun",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Humphreys D",
+            "lastName": "Humphreys",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Wong ES",
+            "lastName": "Wong",
+            "firstName": "Emily",
+            "initials": "ES",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0315-2942"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0315-2942"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Deciphering the intricate regulatory code governing cell-type-specific gene expression is a fundamental goal in genetics. Current methods struggle to capture the complex interplay between gene distal regulatory sequences and cell context. We developed a computational approach, BOM (Bag-of-Motifs), which represents cis-regulatory sequences by the type and number of TF binding motifs it contains, irrespective of motif order, orientation, and spacing. This simple yet powerful representation allows BOM to efficiently capture the complexity of cell-type-specific information encoded within these sequences. We apply BOM to mouse, human, and zebrafish distal regulatory regions, demonstrating remarkable accuracy. Notably, the method outperforms more complex deep learning models at the same task using fewer parameters. BOM can also uncover cross-species sequence similarities unrecognized by genome alignments. We experimentally validate our  in silico predictions using enhancer reporter assay, showing that motifs with the most significant explanatory power are sequence determinants of cell-type specific enhancer activity. BOM offers a novel systematic framework for studying cell-type or condition-specific cis-regulatory sequences. Using BOM, we demonstrate the existence of a highly predictive sequence code at distal regulatory regions in mammals driven by TF binding motifs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/03/2024.01.03.574012.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.03.574012"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-01-06",
+      "firstPublicationDate": "2024-01-03",
+      "firstIndexDate": "2024-01-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

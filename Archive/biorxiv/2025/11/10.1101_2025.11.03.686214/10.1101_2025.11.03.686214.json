@@ -1,0 +1,240 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.03.686214",
+  "title": "ProteoCast: a web server to predict, validate, and interpret missense variant effects",
+  "doi": "10.1101/2025.11.03.686214",
+  "abstract": "Understanding how mutations affect protein function remains critical yet challenging, particularly for variants in clinical databases lacking experimental characterisation and for intrinsically disordered regions. Current computational approaches often operate as black boxes, providing predictions without sufficient transparency or quality assessment of the underlying data. Here we present ProteoCast, a user-friendly web server that predicts variant effects through evolutionary constraint analysis and structural context integration. ProteoCast provides a three-tier variant classification (impactful, mild, neutral) to help prioritise mutations for clinical interpretation and experimental validation. It incorporates multiple sequence alignment quality controls to ensure prediction reliability and flag positions with insufficient evolutionary information. Beyond single-variant classification, ProteoCast employs a novel segmentation approach based on mutational sensitivity to identify functional linear peptides in disordered regions. Interactive visualisations guide users through results interpretation, from variant-level predictions to protein-wide functional landscapes. Evaluation on 63,000 ClinVar variants demonstrates 77% sensitivity and 87% specificity for pathogenicity prediction, with performance maintained across species (85% accuracy on Drosophila lethal mutations). ProteoCast successfully identifies twice as many functional motifs in intrinsically disordered regions compared to conservation-based phylogenetic methods. Predictions can be tuned to specific conformations, such as bound forms in protein complexes, for improved accuracy and interpretability. With its transparent, unsupervised methodology and computational efficiency (minutes per protein), ProteoCast democratises access to variant effect prediction and functional site discovery for the broader research community. The web server is freely available at: https://proteocast.ijm.fr/ . <h4>Highlights</h4> ProteoCast web server democratises variant effect prediction through a fast, transparent platform combining evolutionary analysis and structural context Three-tier variant classification enables prioritisation for clinical interpretation and genome editing experiments Novel mutational sensitivity segmentation approach identifies functional peptides in disordered regions Interactive visualisations and input alignment quality controls guide interpretation",
+  "authors": [
+    "Abakarova M",
+    "Freiberger MI",
+    "Liehrmann A",
+    "Rera M",
+    "Laine E"
+  ],
+  "published_date": "2025-11-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686214",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686214.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1113232",
+    "raw_record": {
+      "id": "PPR1113232",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1113232"
+        ]
+      },
+      "doi": "10.1101/2025.11.03.686214",
+      "title": "ProteoCast: a web server to predict, validate, and interpret missense variant effects",
+      "authorString": "Abakarova M, Freiberger MI, Liehrmann A, Rera M, Laine E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Abakarova M",
+            "lastName": "Abakarova",
+            "firstName": "Marina",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4686-167X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), ,"
+                },
+                {
+                  "affiliation": ", UMR U1284, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freiberger MI",
+            "lastName": "Freiberger",
+            "firstName": "Maria Inés",
+            "initials": "MI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5634-1897"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liehrmann A",
+            "lastName": "Liehrmann",
+            "firstName": "Arnaud",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4936-1056"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rera M",
+            "lastName": "Rera",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6574-6511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR U1284, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laine E",
+            "lastName": "Laine",
+            "firstName": "Elodie",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4870-6304"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , Department of Computational, Quantitative and Synthetic Biology (CQSB, UMR7238), ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4686-167X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4936-1056"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5634-1897"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6574-6511"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4870-6304"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Understanding how mutations affect protein function remains critical yet challenging, particularly for variants in clinical databases lacking experimental characterisation and for intrinsically disordered regions. Current computational approaches often operate as black boxes, providing predictions without sufficient transparency or quality assessment of the underlying data. Here we present ProteoCast, a user-friendly web server that predicts variant effects through evolutionary constraint analysis and structural context integration. ProteoCast provides a three-tier variant classification (impactful, mild, neutral) to help prioritise mutations for clinical interpretation and experimental validation. It incorporates multiple sequence alignment quality controls to ensure prediction reliability and flag positions with insufficient evolutionary information. Beyond single-variant classification, ProteoCast employs a novel segmentation approach based on mutational sensitivity to identify functional linear peptides in disordered regions. Interactive visualisations guide users through results interpretation, from variant-level predictions to protein-wide functional landscapes. Evaluation on 63,000 ClinVar variants demonstrates 77% sensitivity and 87% specificity for pathogenicity prediction, with performance maintained across species (85% accuracy on Drosophila lethal mutations). ProteoCast successfully identifies twice as many functional motifs in intrinsically disordered regions compared to conservation-based phylogenetic methods. Predictions can be tuned to specific conformations, such as bound forms in protein complexes, for improved accuracy and interpretability. With its transparent, unsupervised methodology and computational efficiency (minutes per protein), ProteoCast democratises access to variant effect prediction and functional site discovery for the broader research community. The web server is freely available at:  https://proteocast.ijm.fr/ .  <h4>Highlights</h4>  ProteoCast web server democratises variant effect prediction through a fast, transparent platform combining evolutionary analysis and structural context Three-tier variant classification enables prioritisation for clinical interpretation and genome editing experiments Novel mutational sensitivity segmentation approach identifies functional peptides in disordered regions Interactive visualisations and input alignment quality controls guide interpretation",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.03.686214"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1113232"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1113232&type=FILE&fileName=EMS210360-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41580070",
+            "reference": "Journal of molecular biology. 2026 Sep;438(18):169657",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210360",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-11-05",
+      "firstPublicationDate": "2025-11-04",
+      "firstIndexDate": "2025-11-05",
+      "fullTextReceivedDate": "2026-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

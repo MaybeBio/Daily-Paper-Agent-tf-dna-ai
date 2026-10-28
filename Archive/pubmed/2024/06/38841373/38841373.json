@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "38841373",
+    "doi": "10.3389/fphar.2024.1364138",
+    "title": "System biology approach to identify the novel biomarkers in glioblastoma multiforme tumors by using computational analysis."
+  },
+  "content": {
+    "abstract": "Introduction: The most common primary brain tumor in adults is glioblastoma multiforme (GBM), accounting for 45.2% of all cases. The characteristics of GBM, a highly aggressive brain tumor, include rapid cell division and a propensity for necrosis. Regretfully, the prognosis is extremely poor, with only 5.5% of patients surviving after diagnosis. Methodology: To eradicate these kinds of complicated diseases, significant focus is placed on developing more effective drugs and pinpointing precise pharmacological targets. Finding appropriate biomarkers for drug discovery entails considering a variety of factors, including illness states, gene expression levels, and interactions between proteins. Using statistical techniques like p-values and false discovery rates, we identified differentially expressed genes (DEGs) as the first step in our research for identifying promising biomarkers in GBM. Of the 132 genes, 13 showed upregulation, and only 29 showed unique downregulation. No statistically significant changes in the expression of the remaining genes were observed. Results: Matrix metallopeptidase 9 (MMP9) had the greatest degree in the hub biomarker gene identification, followed by (periostin (POSTN) at 11 and Hes family BHLH transcription factor 5 (HES5) at 9. The significance of the identification of each hub biomarker gene in the initiation and advancement of glioblastoma multiforme was brought to light by the survival analysis. Many of these genes participate in signaling networks and function in extracellular areas, as demonstrated by the enrichment analysis.We also identified the transcription factors and kinases that control proteins in the proteinprotein interactions (PPIs) of the DEGs. Discussion: We discovered drugs connected to every hub biomarker. It is an appealing therapeutic target for inhibiting MMP9 involved in GBM. Molecular docking investigations indicated that the chosen complexes (carmustine, lomustine, marimastat, and temozolomide) had high binding affinities of -6.3, -7.4, -7.7, and -8.7 kcal/mol, respectively, the mean root-mean-square deviation (RMSD) value for the carmustine complex and marimastat complex was 4.2 A and 4.9 A, respectively, and the lomustine and temozolomide complex system showed an average RMSD of 1.2 A and 1.6 A, respectively. Additionally, high stability in root-mean-square fluctuation (RMSF) analysis was observed with no structural conformational changes among the atomic molecules. Thus, these in silico investigations develop a new way for experimentalists to target lethal diseases in future.",
+    "keywords": [
+      "biomarker",
+      "gene expression",
+      "glioblastoma",
+      "molecular dynamic simulations",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alqahtani, Safar M",
+        "Altharawi, Ali",
+        "Alabbas, Alhumaidi",
+        "Ahmad, Faisal",
+        "Ayaz, Hassan",
+        "Nawaz, Asia",
+        "Rahman, Sidra",
+        "Alossaimi, Manal A"
+      ],
+      "short_names": [
+        "Alqahtani SM",
+        "Altharawi A",
+        "Alabbas A",
+        "Ahmad F",
+        "Ayaz H",
+        "Nawaz A",
+        "Rahman S",
+        "Alossaimi MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia.",
+        "Foundation University Medical College, Foundation University Islamabad, Islamabad, Pakistan.",
+        "School of Biology Georgia Institute of Technology, Atlanta, GA, United States.",
+        "Department of Biotechnology, Quaid-i-Azam University Islamabad, Islamabad, Pakistan.",
+        "Department of Biotechnology, Quaid-i-Azam University Islamabad, Islamabad, Pakistan.",
+        "Department of Biotechnology, Quaid-i-Azam University Islamabad, Islamabad, Pakistan.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alqahtani, Safar M",
+        "short_name": "Alqahtani SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Altharawi, Ali",
+        "short_name": "Altharawi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alabbas, Alhumaidi",
+        "short_name": "Alabbas A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Faisal",
+        "short_name": "Ahmad F",
+        "identifiers": [],
+        "affiliations": [
+          "Foundation University Medical College, Foundation University Islamabad, Islamabad, Pakistan.",
+          "School of Biology Georgia Institute of Technology, Atlanta, GA, United States."
+        ]
+      },
+      {
+        "full_name": "Ayaz, Hassan",
+        "short_name": "Ayaz H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-i-Azam University Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Nawaz, Asia",
+        "short_name": "Nawaz A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-i-Azam University Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rahman, Sidra",
+        "short_name": "Rahman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Quaid-i-Azam University Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alossaimi, Manal A",
+        "short_name": "Alossaimi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/06 06:43",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "41754795",
+      "41326554",
+      "40872535",
+      "40806492",
+      "39695006"
+    ],
+    "refs": [
+      "38287491",
+      "37822694",
+      "37604903",
+      "37234545",
+      "37031957",
+      "36979916",
+      "36969457",
+      "36765669",
+      "34490343",
+      "33946372",
+      "33732379",
+      "32224379",
+      "32056139",
+      "30603844",
+      "30122875",
+      "30039492",
+      "29745857",
+      "29126136",
+      "28407145",
+      "27640171",
+      "27307601",
+      "27028474",
+      "27008011",
+      "26583988",
+      "26338522",
+      "25950236",
+      "25853313",
+      "25618350",
+      "25352553",
+      "24861621",
+      "24402820",
+      "23586463",
+      "23451142",
+      "22543366",
+      "22046296",
+      "21903630",
+      "20640817",
+      "19615110",
+      "19578366",
+      "17344241",
+      "16533960",
+      "15975049",
+      "15127335",
+      "14597658",
+      "10802651",
+      "9293916",
+      "8521611",
+      "1965794"
+    ],
+    "similar": [
+      "38841373",
+      "35513291",
+      "32467990",
+      "30132538",
+      "37544033",
+      "33231813",
+      "36917367",
+      "35436915",
+      "35283227",
+      "35328072",
+      "34395626",
+      "32634050",
+      "27572852",
+      "31617063",
+      "36252775",
+      "36969457",
+      "34834399",
+      "29168083",
+      "34238116",
+      "35413821",
+      "32469390",
+      "32323832",
+      "35678909",
+      "38360888",
+      "37759283",
+      "33803224",
+      "32874133",
+      "30356407",
+      "32412599",
+      "32056139",
+      "30971889",
+      "34301218",
+      "30917077",
+      "38003585",
+      "36364024",
+      "38724609",
+      "32696617",
+      "35706800",
+      "36180956",
+      "33970702",
+      "37779078",
+      "35574600",
+      "31452706",
+      "38619743",
+      "32667033",
+      "38681202",
+      "35008426",
+      "33423377",
+      "38339384",
+      "36238156",
+      "27022952",
+      "38723526",
+      "36711038",
+      "32296458",
+      "24967941",
+      "36071287",
+      "27323154",
+      "29749548",
+      "31427735",
+      "31987036",
+      "31137733",
+      "34018447",
+      "38174685",
+      "36834974",
+      "35538679",
+      "30571666",
+      "32626960",
+      "31398406",
+      "34773808",
+      "33881978",
+      "35811900",
+      "34899682",
+      "33176854",
+      "36122609",
+      "37073998",
+      "33406529",
+      "36129048",
+      "33693962",
+      "32422304",
+      "36202175",
+      "33952458",
+      "34759954",
+      "34142527",
+      "33761401",
+      "30655863",
+      "30341039",
+      "25901754",
+      "36260267",
+      "35842773",
+      "33671112",
+      "34976783",
+      "39168850",
+      "38773447",
+      "35117257",
+      "38686653"
+    ],
+    "review": [
+      "38841373",
+      "37073998",
+      "36129048"
+    ],
+    "pmc": [
+      "11150670"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38841373/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38841373",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2024.1364138",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

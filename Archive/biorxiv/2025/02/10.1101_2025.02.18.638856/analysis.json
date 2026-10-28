@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.18.638856",
+  "title": "BENDER DB: a database of protein binding sites across neglected disease proteomes",
+  "authors": "Vinícius A. Paiva; Douglas E. V. Pires; Gustavo C. Bressan; Sandro C. Izidoro; Sabrina A. Silveira",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-23",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建了基于AlphaFold结构的蛋白质结合位点数据库BENDER DB及元预测器BENDER AI，虽非TF-DNA特异体系，但结合位点预测方法可迁移至蛋白质-DNA互作研究。",
+  "abstract": "Identifying binding sites is crucial for expanding our knowledge of various biological processes, supporting drug discovery, and repositioning strategies, particularly in the early research phases of target hopping. This is especially important for neglected diseases, which predominantly impact vulnerable populations in developing regions. To address this, we created BENDER DB, a database designed to map predicted protein binding sites within the proteomes of pathogens associated with neglected diseases. Utilizing AlphaFold-predicted structures, BENDER DB integrates results from five leading binding site prediction tools, resulting in over one million binding sites across over 100,000 proteins from 10 different proteomes. BENDER DB offers unique features, such as integrating multiple predictors, interactive visualization tools, and comprehensive graphical representations, allowing for a detailed visual comparative analysis of different prediction methods and the predicted binding sites. We combined the computational approaches to offer a consensus of binding site predictions, leveraging the strengths of multiple techniques. Additionally, we introduce BENDER AI, a meta-predictor that combines the outputs of the predictors to provide a unified binding site classification. BENDER AI outperformed all individual methods in 4 out of 5 evaluated metrics. Specifically, it achieved an MCC of 0.64 and an AUC of 0.89, surpassing the highest MCC of 0.63 and the highest AUC of 0.84 obtained by individual predictors, demonstrating strong performance and effectiveness in supporting binding site prediction. By consolidating these results, BENDER DB enables detailed comparative analyses of prediction methods and integrates interactive visualization tools to provide users with an intuitive platform for binding site exploration. The database aims to accelerate drug discovery efforts, particularly in underdeveloped regions, by providing a robust and detailed resource for studying protein binding sites. BENDER DB is available at https://benderdb.ufv.br .",
+  "abstract_zh": "识别结合位点对于扩展我们对各种生物过程的认识、支持药物发现和重定位策略至关重要，尤其是在靶点跳跃的早期研究阶段。这对被忽视疾病尤为重要，这些疾病主要影响发展中地区的弱势群体。为解决这一问题，我们创建了BENDER DB，一个旨在绘制与被忽视疾病相关病原体蛋白质组中预测蛋白结合位点的数据库。利用AlphaFold预测的结构，BENDER DB整合了五种领先结合位点预测工具的结果，在来自10个不同蛋白质组的超过10万个蛋白质中产生了超过一百万个结合位点。BENDER DB提供独特功能，如整合多种预测器、交互式可视化工具和全面的图形表示，允许对不同预测方法和预测结合位点进行详细的视觉比较分析。我们结合计算方法以提供结合位点预测的共识，利用多种技术的优势。此外，我们引入了BENDER AI，一种元预测器，结合各预测器的输出以提供统一的结合位点分类。BENDER AI在5项评估指标中的4项上优于所有单独方法。具体而言，它实现了0.64的MCC和0.89的AUC，超过了单独预测器获得的最高MCC 0.63和最高AUC 0.84，展示了在支持结合位点预测方面的强大性能和有效性。通过整合这些结果，BENDER DB能够对预测方法进行详细的比较分析，并集成交互式可视化工具，为用户提供直观的结合位点探索平台。该数据库旨在通过提供研究蛋白结合位点的稳健且详细的资源，加速药物发现工作，特别是在欠发达地区。BENDER DB可在https://benderdb.ufv.br 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638856",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638856",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.18.638856/index.html"
+}

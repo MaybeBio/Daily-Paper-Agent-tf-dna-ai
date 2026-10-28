@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33871641",
+  "title": "Predictive Models of Genetic Redundancy in Arabidopsis thaliana.",
+  "authors": "Cusack, Siobhan A; Wang, Peipei; Lotreck, Serena G; Moore, Bethany M; Meng, Fanrui; Conner, Jeffrey K; Krysan, Patrick J; Lehti-Shiu, Melissa D; Shiu, Shin-Han",
+  "journal": "Molecular biology and evolution",
+  "published_date": "2021-04-20",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用机器学习预测拟南芥基因冗余性，虽涉及转录因子特征，但核心是基因功能冗余而非蛋白质-DNA互作建模，无AI/物理模拟方法用于结合机制研究。",
+  "abstract": "Genetic redundancy refers to a situation where an individual with a loss-of-function mutation in one gene (single mutant) does not show an apparent phenotype until one or more paralogs are also knocked out (double/higher-order mutant). Previous studies have identified some characteristics common among redundant gene pairs, but a predictive model of genetic redundancy incorporating a wide variety of features derived from accumulating omics and mutant phenotype data is yet to be established. In addition, the relative importance of these features for genetic redundancy remains largely unclear. Here, we establish machine learning models for predicting whether a gene pair is likely redundant or not in the model plant Arabidopsis thaliana based on six feature categories: functional annotations, evolutionary conservation including duplication patterns and mechanisms, epigenetic marks, protein properties including posttranslational modifications, gene expression, and gene network properties. The definition of redundancy, data transformations, feature subsets, and machine learning algorithms used significantly affected model performance based on holdout, testing phenotype data. Among the most important features in predicting gene pairs as redundant were having a paralog(s) from recent duplication events, annotation as a transcription factor, downregulation during stress conditions, and having similar expression patterns under stress conditions. We also explored the potential reasons underlying mispredictions and limitations of our studies. This genetic redundancy model sheds light on characteristics that may contribute to long-term maintenance of paralogs, and will ultimately allow for more targeted generation of functionally informative double mutants, advancing functional genomic studies.",
+  "abstract_zh": "遗传冗余是指一个基因发生功能丧失突变（单突变体）在另一个或多个旁系同源基因也被敲除（双突变体/高阶突变体）之前不表现出明显表型的情况。以往研究已识别出冗余基因对之间的一些共同特征，但基于不断积累的组学和突变表型数据、整合多种特征的遗传冗余预测模型尚未建立。此外，这些特征对遗传冗余的相对重要性在很大程度上仍不清楚。在此，我们基于六类特征建立了机器学习模型，用于预测模式植物拟南芥（Arabidopsis thaliana）中基因对是否可能冗余，这些特征包括：功能注释、进化保守性（包括复制模式和机制）、表观遗传标记、蛋白质特性（包括翻译后修饰）、基因表达以及基因网络特性。基于留出法测试表型数据，冗余定义、数据转换、特征子集和所用机器学习算法显著影响模型性能。在预测基因对冗余的最重要特征中，包括具有近期复制事件产生的旁系同源基因、注释为转录因子、在胁迫条件下下调表达，以及在胁迫条件下具有相似表达模式。我们还探讨了预测错误背后的潜在原因及研究的局限性。该遗传冗余模型揭示了可能有助于旁系同源基因长期维持的特征，并最终将促进更有针对性地生成功能信息丰富的双突变体，推进功能基因组学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33871641/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33871641/",
+  "paper_page_path": "papers/pubmed/33871641/index.html"
+}

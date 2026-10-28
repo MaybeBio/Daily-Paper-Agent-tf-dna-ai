@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "38848994",
+    "doi": "10.1016/j.bpr.2024.100158",
+    "title": "Nonlinear classifiers for wet-neuromorphic computing using gene regulatory neural network."
+  },
+  "content": {
+    "abstract": "The gene regulatory network (GRN) of biological cells governs a number of key functionalities that enable them to adapt and survive through different environmental conditions. Close observation of the GRN shows that the structure and operational principles resemble an artificial neural network (ANN), which can pave the way for the development of wet-neuromorphic computing systems. Genes are integrated into gene-perceptrons with transcription factors (TFs) as input, where the TF concentration relative to half-maximal RNA concentration and gene product copy number influences transcription and translation via weighted multiplication before undergoing a nonlinear activation function. This process yields protein concentration as the output, effectively turning the entire GRN into a gene regulatory neural network (GRNN). In this paper, we establish nonlinear classifiers for molecular machine learning using the inherent sigmoidal nonlinear behavior of gene expression. The eigenvalue-based stability analysis, tailored to system parameters, confirms maximum-stable concentration levels, minimizing concentration fluctuations and computational errors. Given the significance of the stabilization phase in GRNN computing and the dynamic nature of the GRN, alongside potential changes in system parameters, we utilize the Lyapunov stability theorem for temporal stability analysis. Based on this GRN-to-GRNN mapping and stability analysis, three classifiers are developed utilizing two generic multilayer sub-GRNNs and a sub-GRNN extracted from the Escherichia coli GRN. Our findings also reveal the adaptability of different sub-GRNNs to suit different application requirements.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*Gene Regulatory Networks/genetics",
+      "*Nonlinear Dynamics",
+      "*Escherichia coli/genetics",
+      "Machine Learning",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ratwatte, Adrian",
+        "Somathilaka, Samitha",
+        "Balasubramaniam, Sasitharan",
+        "Gilad, Assaf A"
+      ],
+      "short_names": [
+        "Ratwatte A",
+        "Somathilaka S",
+        "Balasubramaniam S",
+        "Gilad AA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computing, University of Nebraska-Lincoln, 104 Schorr Center, Lincoln, Nebraska, USA. Electronic address: aratwatte2@huskers.unl.edu.",
+        "School of Computing, University of Nebraska-Lincoln, 104 Schorr Center, Lincoln, Nebraska, USA; VistaMilk Research Centre, Walton Institute for Information and Communication Systems Science, South East Technological University, Waterford, Ireland.",
+        "School of Computing, University of Nebraska-Lincoln, 104 Schorr Center, Lincoln, Nebraska, USA.",
+        "Department of Chemical Engineering and Materials Science, Michigan State University, East Lansing, Michigan, USA; Department of Radiology, Michigan State University, East Lansing, Michigan, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ratwatte, Adrian",
+        "short_name": "Ratwatte A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, University of Nebraska-Lincoln, 104 Schorr Center, Lincoln, Nebraska, USA. Electronic address: aratwatte2@huskers.unl.edu."
+        ]
+      },
+      {
+        "full_name": "Somathilaka, Samitha",
+        "short_name": "Somathilaka S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, University of Nebraska-Lincoln, 104 Schorr Center, Lincoln, Nebraska, USA; VistaMilk Research Centre, Walton Institute for Information and Communication Systems Science, South East Technological University, Waterford, Ireland."
+        ]
+      },
+      {
+        "full_name": "Balasubramaniam, Sasitharan",
+        "short_name": "Balasubramaniam S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, University of Nebraska-Lincoln, 104 Schorr Center, Lincoln, Nebraska, USA."
+        ]
+      },
+      {
+        "full_name": "Gilad, Assaf A",
+        "short_name": "Gilad AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Materials Science, Michigan State University, East Lansing, Michigan, USA; Department of Radiology, Michigan State University, East Lansing, Michigan, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical reports"
+    ],
+    "journal_abbrev": [
+      "Biophys Rep (N Y)"
+    ],
+    "pub_date": "2024 Sep 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/08 10:44",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "42120901"
+    ],
+    "refs": [],
+    "similar": [
+      "38848994",
+      "37649578",
+      "28748400",
+      "29769331",
+      "38342857",
+      "32054475",
+      "24228871",
+      "34962963",
+      "30286091",
+      "32019417",
+      "30051742",
+      "27479082",
+      "38950180",
+      "24402032",
+      "38354497",
+      "29072883",
+      "33539514",
+      "38949092",
+      "30326663",
+      "31262216",
+      "37085776",
+      "36182867",
+      "33683203",
+      "38014297",
+      "33828122",
+      "30411251",
+      "33989333",
+      "18051185",
+      "36384003",
+      "29879919",
+      "28375811",
+      "30961611",
+      "28951888",
+      "38744843",
+      "32207875",
+      "24530345",
+      "22373004",
+      "38935070",
+      "35061589",
+      "32606380",
+      "37765758",
+      "23192540",
+      "37607190",
+      "28659000",
+      "19632813",
+      "24469794",
+      "18366611",
+      "26456201",
+      "38444538",
+      "22406342",
+      "36790055",
+      "37267145",
+      "35385477",
+      "23497388",
+      "22937832",
+      "34986805",
+      "37939200",
+      "36070863",
+      "18426580",
+      "20840745",
+      "34424948",
+      "20887055",
+      "26336144",
+      "35105140",
+      "24395275",
+      "28641269",
+      "27048512",
+      "30542062",
+      "21668997",
+      "22542239",
+      "31630087",
+      "20865501",
+      "25855217",
+      "33006204",
+      "36153343",
+      "34251625",
+      "36261553",
+      "38996550",
+      "31185246",
+      "33420076",
+      "23173819",
+      "38754366",
+      "19594874",
+      "17188851",
+      "27695050",
+      "32915624",
+      "25162401",
+      "37803124",
+      "23933172",
+      "17278463",
+      "23525069",
+      "18237429",
+      "36613845",
+      "20942926",
+      "23004274",
+      "32866745",
+      "29470492",
+      "26142983",
+      "21181943",
+      "26098537"
+    ],
+    "review": [
+      "38848994",
+      "22406342",
+      "27048512"
+    ],
+    "pmc": [
+      "11231448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667-0747(24)00017-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38848994/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

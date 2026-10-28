@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "38826350",
+    "doi": "10.1101/2024.05.23.594371",
+    "title": "Predictive Biophysical Neural Network Modeling of a Compendium of in vivo Transcription Factor DNA Binding Profiles for Escherichia coli."
+  },
+  "content": {
+    "abstract": "The DNA binding of most Escherichia coli Transcription Factors (TFs) has not been comprehensively mapped, and few have models that can quantitatively predict binding affinity. We report the global mapping of in vivo DNA binding for 139 E. coli TFs using ChIP-Seq. We used these data to train BoltzNet, a novel neural network that predicts TF binding energy from DNA sequence. BoltzNet mirrors a quantitative biophysical model and provides directly interpretable predictions genome-wide at nucleotide resolution. We used BoltzNet to quantitatively design novel binding sites, which we validated with biophysical experiments on purified protein. We have generated models for 125 TFs that provide insight into global features of TF binding, including clustering of sites, the role of accessory bases, the relevance of weak sites, and the background affinity of the genome. Our paper provides new paradigms for studying TF-DNA binding and for the development of biophysically motivated neural networks.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lally, Patrick",
+        "Gomez-Romero, Laura",
+        "Tierrafria, Victor H",
+        "Aquino, Patricia",
+        "Rioualen, Claire",
+        "Zhang, Xiaoman",
+        "Kim, Sunyoung",
+        "Baniulyte, Gabriele",
+        "Plitnick, Jonathan",
+        "Smith, Carol",
+        "Babu, Mohan",
+        "Collado-Vides, Julio",
+        "Wade, Joseph T",
+        "Galagan, James E"
+      ],
+      "short_names": [
+        "Lally P",
+        "Gomez-Romero L",
+        "Tierrafria VH",
+        "Aquino P",
+        "Rioualen C",
+        "Zhang X",
+        "Kim S",
+        "Baniulyte G",
+        "Plitnick J",
+        "Smith C",
+        "Babu M",
+        "Collado-Vides J",
+        "Wade JT",
+        "Galagan JE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6320-9501",
+        "ORCID: 0000-0001-9685-6492",
+        "ORCID: 0000-0003-3506-8657",
+        "ORCID: 0000-0002-7684-8679",
+        "ORCID: 0000-0001-8780-7664",
+        "ORCID: 0000-0002-9779-3160",
+        "ORCID: 0000-0003-0542-3291"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+        "Instituto Nacional de Medicina Genomica, Periferico Sur 4809, Arenal Tepepan, Ciudad de Mexico 14610, Mexico.",
+        "Escuela de Medicina y Ciencias de la Salud, Tecnologico de Monterrey, Ciudad de Mexico, Mexico.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+        "Department of Biochemistry, University of Regina, Regina, Saskatchewan, SK S4S 0A2, Canada.",
+        "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+        "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+        "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+        "Department of Biochemistry, University of Regina, Regina, Saskatchewan, SK S4S 0A2, Canada.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+        "Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico, Avenida Universidad s/n, Cuernavaca 62210, Morelos, Mexico.",
+        "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+        "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+        "Department of Biomedical Sciences, University at Albany, SUNY, Albany, NY, USA.",
+        "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+        "Bioinformatics Program, Boston University, 24 Cummington Mall, Boston, MA 02215."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lally, Patrick",
+        "short_name": "Lally P",
+        "identifiers": [
+          "0000-0002-6320-9501"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Gómez-Romero, Laura",
+        "short_name": "Gómez-Romero L",
+        "identifiers": [
+          "0000-0001-9685-6492"
+        ],
+        "affiliations": [
+          "Instituto Nacional de Medicina Genómica, Periférico Sur 4809, Arenal Tepepan, Ciudad de México 14610, México.",
+          "Escuela de Medicina y Ciencias de la Salud, Tecnológico de Monterrey, Ciudad de México, México."
+        ]
+      },
+      {
+        "full_name": "Tierrafría, Víctor H",
+        "short_name": "Tierrafría VH",
+        "identifiers": [
+          "0000-0003-3506-8657"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, México."
+        ]
+      },
+      {
+        "full_name": "Aquino, Patricia",
+        "short_name": "Aquino P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Rioualen, Claire",
+        "short_name": "Rioualen C",
+        "identifiers": [
+          "0000-0002-7684-8679"
+        ],
+        "affiliations": [
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, México."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoman",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Kim, Sunyoung",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, Saskatchewan, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Baniulyte, Gabriele",
+        "short_name": "Baniulyte G",
+        "identifiers": [],
+        "affiliations": [
+          "Wadsworth Center, New York State Department of Health, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Plitnick, Jonathan",
+        "short_name": "Plitnick J",
+        "identifiers": [],
+        "affiliations": [
+          "Wadsworth Center, New York State Department of Health, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Carol",
+        "short_name": "Smith C",
+        "identifiers": [],
+        "affiliations": [
+          "Wadsworth Center, New York State Department of Health, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Babu, Mohan",
+        "short_name": "Babu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Regina, Regina, Saskatchewan, SK S4S 0A2, Canada."
+        ]
+      },
+      {
+        "full_name": "Collado-Vides, Julio",
+        "short_name": "Collado-Vides J",
+        "identifiers": [
+          "0000-0001-8780-7664"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+          "Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Avenida Universidad s/n, Cuernavaca 62210, Morelos, México.",
+          "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona 08003, Universitat Pompeu Fabra (UPF), Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Wade, Joseph T",
+        "short_name": "Wade JT",
+        "identifiers": [
+          "0000-0002-9779-3160"
+        ],
+        "affiliations": [
+          "Wadsworth Center, New York State Department of Health, Albany, NY, USA.",
+          "Department of Biomedical Sciences, University at Albany, SUNY, Albany, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Galagan, James E",
+        "short_name": "Galagan JE",
+        "identifiers": [
+          "0000-0003-0542-3291"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Boston University, 44 Cummington Mall, Boston, MA 02215.",
+          "Bioinformatics Program, Boston University, 24 Cummington Mall, Boston, MA 02215."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 May 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/03 06:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37971353",
+      "37820729",
+      "37486893",
+      "36071116",
+      "35606422",
+      "35412319",
+      "33603233",
+      "32665585",
+      "32152281",
+      "31821414",
+      "31283382",
+      "30922998",
+      "30833568",
+      "30833554",
+      "30716072",
+      "30700703",
+      "30691640",
+      "30395280",
+      "28061857",
+      "27197224",
+      "26267711",
+      "26213851",
+      "26105820",
+      "25581030",
+      "25024162",
+      "24947454",
+      "24003126",
+      "23823726",
+      "23271961",
+      "23143106",
+      "22983621",
+      "22098745",
+      "21730194",
+      "21654662",
+      "20439748",
+      "20159560",
+      "20028542",
+      "18957590",
+      "17376875",
+      "16809671",
+      "15797195",
+      "15797194",
+      "12417193",
+      "7783622",
+      "7317363",
+      "6767706",
+      "4612528",
+      "3456604",
+      "2911590",
+      "412185"
+    ],
+    "similar": [
+      "38826350",
+      "40335485",
+      "19956545",
+      "39482734",
+      "27104615",
+      "37214836",
+      "37682473",
+      "20838582",
+      "37805453",
+      "32576674",
+      "40102719",
+      "28849563",
+      "20158869",
+      "23595148",
+      "30517703",
+      "28750606",
+      "27780826",
+      "24564277",
+      "33372147",
+      "38168434",
+      "24039567",
+      "29588420",
+      "28726847",
+      "35410161",
+      "28234893",
+      "24565265",
+      "37820729",
+      "33975875",
+      "34220787",
+      "22479205",
+      "35799193",
+      "23762209",
+      "24339764",
+      "34448158",
+      "33413545",
+      "36749045",
+      "23812975",
+      "25722376",
+      "22863112",
+      "23636944",
+      "30352610",
+      "25775564",
+      "26285121",
+      "26857150",
+      "31899481",
+      "31742324",
+      "34566906",
+      "25957350",
+      "21602262",
+      "31362726",
+      "39499477",
+      "20583098",
+      "21124945",
+      "26971251",
+      "26291518",
+      "30359306",
+      "37682471",
+      "32615918",
+      "23272209",
+      "27546793",
+      "18684996",
+      "30016330",
+      "35240993",
+      "34174819",
+      "32770026",
+      "39944799",
+      "25070602",
+      "37919990",
+      "30598100",
+      "33355120",
+      "38517697",
+      "37650641",
+      "31723409",
+      "30709337",
+      "30897079",
+      "24581441",
+      "32858223",
+      "22898448",
+      "25213249",
+      "37873361",
+      "34669947",
+      "37090616",
+      "34953471",
+      "39271116",
+      "24146601",
+      "25559499",
+      "22784574",
+      "28718849",
+      "34272562",
+      "36533916",
+      "24428924",
+      "31093693",
+      "38354497",
+      "26818008",
+      "38352411",
+      "18426580",
+      "25294828",
+      "35042722",
+      "22955990",
+      "19857274"
+    ],
+    "review": [
+      "38826350",
+      "31742324"
+    ],
+    "pmc": [
+      "11142182"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38826350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38826350",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.23.594371",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

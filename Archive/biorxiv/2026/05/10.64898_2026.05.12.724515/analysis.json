@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.12.724515",
+  "title": "Classic machine learning on top of multiple position weight matrices improves genomic prediction of transcription factor binding sites",
+  "authors": "Pavel Kravchenko; Ilya E. Vorontsov; Vsevolod J. Makeev; Ivan V. Kulakovskiy; Dmitry D. Penzar",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-14",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用经典机器学习组合多个PWM模型提升TF结合位点基因组预测，虽聚焦预测而非三维互作机制，但对象为TF-DNA且方法可迁移，与课题相关。",
+  "abstract": "Motivation DNA motifs recognised by transcription factors are typically represented as position weight matrices (PWMs), assuming independent contributions of individual nucleotides to protein binding specificity. Many alternative models accounting for correlations of positional contributions have been introduced in the past decades. However, performance gains have generally not outweighed the advantages of simplicity, interpretability, and practical applicability of PWMs with the well-established codebase. Existing software tools and motif databases provide multiple non-identical PWMs for the same transcription factor or even for the same dataset. It remains a practical question whether these PWMs can be effectively combined into a single improved model. Results Here we describe ArChIPelago ( https://github.com/autosome-ru/ArChIPelago ), a computational framework that combines multiple PWMs into a joint model using classic machine learning techniques, from linear regression to ensembles of decision trees. We show that such a combination improves prediction of transcription factor binding sites in genomic sequences. With a diverse collection of 704 ChIP-Seq datasets spanning 36 orthologous human and mouse transcription factors of diverse structural families, we show that ArChIPelago consistently outperforms the best available individual mono- and dinucleotide PWMs as well as sparse local inhomogeneous mixture models. Furthermore, using both human and mouse data, we demonstrate that PWM ensembles are capable of making reliable cross-species predictions.",
+  "abstract_zh": "动机 转录因子识别的DNA基序通常以位置权重矩阵（PWMs）表示，假设单个核苷酸对蛋白质结合特异性的贡献是独立的。过去几十年中，引入了许多考虑位置贡献相关性的替代模型。然而，性能提升通常并未超过PWMs在简单性、可解释性和实际应用性方面的优势，且其代码库已成熟。现有软件工具和基序数据库为同一转录因子甚至同一数据集提供多个非相同的PWMs。这些PWMs能否有效合并为单一改进模型，仍是一个实际问题。结果 在此，我们描述了ArChIPelago（https://github.com/autosome-ru/ArChIPelago），一个计算框架，利用经典机器学习技术（从线性回归到决策树集成）将多个PWMs合并为联合模型。我们表明，这种合并提高了对基因组序列中转录因子结合位点的预测能力。通过涵盖36个直系同源人类和小鼠转录因子（来自不同结构家族）的704个ChIP-Seq数据集的多样化集合，我们证明ArChIPelago始终优于现有最佳的单核苷酸和双核苷酸PWMs，以及稀疏局部非均匀混合模型。此外，利用人类和小鼠数据，我们展示了PWM集成能够进行可靠的跨物种预测。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.12.724515",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.12.724515",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.12.724515/index.html"
+}

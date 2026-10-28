@@ -1,0 +1,594 @@
+{
+  "identity": {
+    "pmid": "39487131",
+    "doi": "10.1038/s41467-024-53628-0",
+    "title": "ChromaFold predicts the 3D contact map from single-cell chromatin accessibility."
+  },
+  "content": {
+    "abstract": "Identifying cell-type-specific 3D chromatin interactions between regulatory elements can help decipher gene regulation and interpret disease-associated non-coding variants. However, achieving this resolution with current 3D genomics technologies is often infeasible given limited input cell numbers. We therefore present ChromaFold, a deep learning model that predicts 3D contact maps, including regulatory interactions, from single-cell ATAC sequencing (scATAC-seq) data alone. ChromaFold uses pseudobulk chromatin accessibility, co-accessibility across metacells, and a CTCF motif track as inputs and employs a lightweight architecture to train on standard GPUs. Trained on paired scATAC-seq and Hi-C data in human samples, ChromaFold accurately predicts the 3D contact map and peak-level interactions across diverse human and mouse test cell types. Compared to leading contact map prediction models that use ATAC-seq and CTCF ChIP-seq, ChromaFold achieves state-of-the-art performance using only scATAC-seq. Finally, fine-tuning ChromaFold on paired scATAC-seq and Hi-C in a complex tissue enables deconvolution of chromatin interactions across cell subpopulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/metabolism/genetics",
+      "*Single-Cell Analysis/methods",
+      "Mice",
+      "Animals",
+      "Deep Learning",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "CCCTC-Binding Factor/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Vianne R",
+        "Yang, Rui",
+        "Das, Arnav",
+        "Luo, Renhe",
+        "Luo, Hanzhi",
+        "McNally, Dylan R",
+        "Karagiannidis, Ioannis",
+        "Rivas, Martin A",
+        "Wang, Zhong-Min",
+        "Barisic, Darko",
+        "Karbalayghareh, Alireza",
+        "Wong, Wilfred",
+        "Zhan, Yingqian A",
+        "Chin, Christopher R",
+        "Noble, William S",
+        "Bilmes, Jeff A",
+        "Apostolou, Effie",
+        "Kharas, Michael G",
+        "Beguelin, Wendy",
+        "Viny, Aaron D",
+        "Huangfu, Danwei",
+        "Rudensky, Alexander Y",
+        "Melnick, Ari M",
+        "Leslie, Christina S"
+      ],
+      "short_names": [
+        "Gao VR",
+        "Yang R",
+        "Das A",
+        "Luo R",
+        "Luo H",
+        "McNally DR",
+        "Karagiannidis I",
+        "Rivas MA",
+        "Wang ZM",
+        "Barisic D",
+        "Karbalayghareh A",
+        "Wong W",
+        "Zhan YA",
+        "Chin CR",
+        "Noble WS",
+        "Bilmes JA",
+        "Apostolou E",
+        "Kharas MG",
+        "Beguelin W",
+        "Viny AD",
+        "Huangfu D",
+        "Rudensky AY",
+        "Melnick AM",
+        "Leslie CS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9358-9907",
+        "ORCID: 0009-0008-1470-4726",
+        "ORCID: 0000-0002-9603-6897",
+        "ORCID: 0000-0001-7007-9138",
+        "ORCID: 0000-0002-4308-2582",
+        "ORCID: 0000-0003-1363-5235",
+        "ORCID: 0000-0002-3548-9227",
+        "ORCID: 0000-0002-2140-3197",
+        "ORCID: 0000-0001-7283-4715",
+        "ORCID: 0000-0002-8111-0863",
+        "ORCID: 0000-0002-1165-6991",
+        "ORCID: 0000-0002-4894-9229",
+        "ORCID: 0000-0001-7039-0110",
+        "ORCID: 0000-0002-1145-6199",
+        "ORCID: 0000-0003-1280-2898",
+        "ORCID: 0000-0002-8074-2287",
+        "ORCID: 0000-0002-4571-5910"
+      ],
+      "affiliations": [
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA.",
+        "University of Washington, Seattle, WA, USA.",
+        "Developmental Biology Program, Sloan Kettering Institute, New York, NY, USA.",
+        "Molecular Pharmacology Program, Experimental Therapeutics Center and Center for Stem Cell Biology, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Caryl and Israel Englander Institute for Precision Medicine, Institute for Computational Biomedicine, Weill Cornell Medicine, Cornell University, New York, NY, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+        "Department of Biochemistry & Molecular Biology; Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Howard Hughes Medical Institute and Immunology Program, Sloan Kettering Institute and Ludwig Center at Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA.",
+        "Center for Epigenetics Research, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+        "University of Washington, Seattle, WA, USA.",
+        "University of Washington, Seattle, WA, USA.",
+        "Joan and Sanford I. Weill Department of Medicine, Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY, USA.",
+        "Molecular Pharmacology Program, Experimental Therapeutics Center and Center for Stem Cell Biology, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+        "Departments of Medicine, Division of Hematology & Oncology, and of Genetics & Development, Columbia Stem Cell Initiative, Herbert Irving Comprehensive Cancer Center, Columbia University Irving Medical Center, New York, NY, USA.",
+        "Developmental Biology Program, Sloan Kettering Institute, New York, NY, USA.",
+        "Howard Hughes Medical Institute and Immunology Program, Sloan Kettering Institute and Ludwig Center at Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA. lesliec@mskcc.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Vianne R",
+        "short_name": "Gao VR",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+          "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Rui",
+        "short_name": "Yang R",
+        "identifiers": [
+          "0000-0001-9358-9907"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+          "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Das, Arnav",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Renhe",
+        "short_name": "Luo R",
+        "identifiers": [
+          "0009-0008-1470-4726"
+        ],
+        "affiliations": [
+          "Developmental Biology Program, Sloan Kettering Institute, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Hanzhi",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Pharmacology Program, Experimental Therapeutics Center and Center for Stem Cell Biology, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "McNally, Dylan R",
+        "short_name": "McNally DR",
+        "identifiers": [],
+        "affiliations": [
+          "Caryl and Israel Englander Institute for Precision Medicine, Institute for Computational Biomedicine, Weill Cornell Medicine, Cornell University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Karagiannidis, Ioannis",
+        "short_name": "Karagiannidis I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Rivas, Martin A",
+        "short_name": "Rivas MA",
+        "identifiers": [
+          "0000-0002-9603-6897"
+        ],
+        "affiliations": [
+          "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA.",
+          "Department of Biochemistry & Molecular Biology; Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhong-Min",
+        "short_name": "Wang ZM",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute and Immunology Program, Sloan Kettering Institute and Ludwig Center at Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Barisic, Darko",
+        "short_name": "Barisic D",
+        "identifiers": [
+          "0000-0001-7007-9138"
+        ],
+        "affiliations": [
+          "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Karbalayghareh, Alireza",
+        "short_name": "Karbalayghareh A",
+        "identifiers": [
+          "0000-0002-4308-2582"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wong, Wilfred",
+        "short_name": "Wong W",
+        "identifiers": [
+          "0000-0003-1363-5235"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+          "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhan, Yingqian A",
+        "short_name": "Zhan YA",
+        "identifiers": [
+          "0000-0002-3548-9227"
+        ],
+        "affiliations": [
+          "Center for Epigenetics Research, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chin, Christopher R",
+        "short_name": "Chin CR",
+        "identifiers": [
+          "0000-0002-2140-3197"
+        ],
+        "affiliations": [
+          "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Noble, William S",
+        "short_name": "Noble WS",
+        "identifiers": [
+          "0000-0001-7283-4715"
+        ],
+        "affiliations": [
+          "University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Bilmes, Jeff A",
+        "short_name": "Bilmes JA",
+        "identifiers": [],
+        "affiliations": [
+          "University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Apostolou, Effie",
+        "short_name": "Apostolou E",
+        "identifiers": [
+          "0000-0002-8111-0863"
+        ],
+        "affiliations": [
+          "Joan and Sanford I. Weill Department of Medicine, Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kharas, Michael G",
+        "short_name": "Kharas MG",
+        "identifiers": [
+          "0000-0002-1165-6991"
+        ],
+        "affiliations": [
+          "Molecular Pharmacology Program, Experimental Therapeutics Center and Center for Stem Cell Biology, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Béguelin, Wendy",
+        "short_name": "Béguelin W",
+        "identifiers": [
+          "0000-0002-4894-9229"
+        ],
+        "affiliations": [
+          "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Viny, Aaron D",
+        "short_name": "Viny AD",
+        "identifiers": [
+          "0000-0001-7039-0110"
+        ],
+        "affiliations": [
+          "Departments of Medicine, Division of Hematology & Oncology, and of Genetics & Development, Columbia Stem Cell Initiative, Herbert Irving Comprehensive Cancer Center, Columbia University Irving Medical Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Huangfu, Danwei",
+        "short_name": "Huangfu D",
+        "identifiers": [
+          "0000-0002-1145-6199"
+        ],
+        "affiliations": [
+          "Developmental Biology Program, Sloan Kettering Institute, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Rudensky, Alexander Y",
+        "short_name": "Rudensky AY",
+        "identifiers": [
+          "0000-0003-1280-2898"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute and Immunology Program, Sloan Kettering Institute and Ludwig Center at Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Melnick, Ari M",
+        "short_name": "Melnick AM",
+        "identifiers": [
+          "0000-0002-8074-2287"
+        ],
+        "affiliations": [
+          "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Leslie, Christina S",
+        "short_name": "Leslie CS",
+        "identifiers": [
+          "0000-0002-4571-5910"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA. lesliec@mskcc.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Nov 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 07:23",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42642504",
+      "42630757",
+      "42569502",
+      "42468531",
+      "42306870",
+      "42165138",
+      "42135287",
+      "42105235",
+      "41980945",
+      "41881768",
+      "41592567",
+      "41526189",
+      "41181126",
+      "40916639",
+      "40654659",
+      "40568816",
+      "40166185",
+      "40147440",
+      "39862604",
+      "39708837"
+    ],
+    "refs": [
+      "37280678",
+      "37224527",
+      "36699364",
+      "36624151",
+      "36471071",
+      "36070683",
+      "35551308",
+      "34850907",
+      "34635838",
+      "34426690",
+      "34406348",
+      "34306963",
+      "34099725",
+      "33795864",
+      "33686069",
+      "33633365",
+      "33046897",
+      "33046896",
+      "32946435",
+      "32728247",
+      "32301980",
+      "31784727",
+      "31510693",
+      "31495782",
+      "31375813",
+      "30675018",
+      "30531897",
+      "30367165",
+      "30078726",
+      "29467363",
+      "29126249",
+      "28289288",
+      "27826147",
+      "27643841",
+      "26704975",
+      "26619908",
+      "26472910",
+      "26083756",
+      "24799436",
+      "24067610",
+      "22941365",
+      "22500840",
+      "21636294",
+      "21330290",
+      "20461051",
+      "19890323",
+      "19815776",
+      "19505943",
+      "18798982",
+      "15780990",
+      "9512513"
+    ],
+    "similar": [
+      "39487131",
+      "37546906",
+      "36902216",
+      "39881144",
+      "31653198",
+      "41571655",
+      "40097444",
+      "40049167",
+      "32029221",
+      "41980945",
+      "42165138",
+      "39987573",
+      "39062661",
+      "39757254",
+      "41663439",
+      "42298067",
+      "35195064",
+      "32392348",
+      "39326643",
+      "41831316",
+      "41545440",
+      "39049508",
+      "38330939",
+      "31629814",
+      "42242226",
+      "34898596",
+      "36719906",
+      "33779599",
+      "42167226",
+      "42100854",
+      "33827925",
+      "35488276",
+      "31594952",
+      "40723810",
+      "31428792",
+      "38600256",
+      "38664790",
+      "37440599",
+      "34686316",
+      "37897340",
+      "36549922",
+      "37537502",
+      "35584295",
+      "41655240",
+      "33637727",
+      "33663563",
+      "38338756",
+      "40471991",
+      "32637041",
+      "39093856",
+      "41021262",
+      "39738353",
+      "38643244",
+      "42289051",
+      "41277691",
+      "38940151",
+      "37012226",
+      "40806343",
+      "34429148",
+      "41270791",
+      "36131234",
+      "38493346",
+      "41530870",
+      "40221401",
+      "36943152",
+      "32014034",
+      "41800139",
+      "39122670",
+      "33191916",
+      "38514783",
+      "35941239",
+      "39383060",
+      "41731605",
+      "40963104",
+      "33232622",
+      "34446921",
+      "30821321",
+      "42060707",
+      "39041910",
+      "31601804",
+      "29561703",
+      "32240773",
+      "40577680",
+      "41544130",
+      "41932342",
+      "39763871",
+      "40637236",
+      "37980428",
+      "38589969",
+      "39814021",
+      "39803441",
+      "34313779",
+      "33583425",
+      "38986578",
+      "40874617",
+      "41891880",
+      "39700048",
+      "39500613",
+      "40154828",
+      "36313930"
+    ],
+    "review": [
+      "39487131",
+      "36549922",
+      "38338756",
+      "32637041",
+      "41270791",
+      "32014034",
+      "32240773",
+      "39500613"
+    ],
+    "pmc": [
+      "11530433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-53628-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39487131/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

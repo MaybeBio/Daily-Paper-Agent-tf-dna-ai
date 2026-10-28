@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40596168",
+    "doi": "10.1038/s41598-025-07334-6",
+    "title": "Integrating multi-omic data to identify key genes and pathways involved in rice bacterial leaf streak disease."
+  },
+  "content": {
+    "abstract": "Bacterial leaf streak disease (BLS) is caused by Xanthomonas oryzae pv. oryzicola (Xoc), which represents a significant threat to rice (Oryza sativa) crops. The objective of the present work is to identify the genetic regions and signaling pathways that contribute to the infection process caused by Xoc. The study employs RNA-Seq data to investigate gene co-expression networks, with a particular emphasis on essential genes involved in ribosome production. Furthermore, the research investigates codon usage patterns in the context of gene expression and translation processes. The findings highlight the importance of the apoplastic pathway, which plays a crucial role in the infection of plants through the breach of the epidermis in their aerial structures. Bioinformatics tools, including STRING, KEGG, Tomtom, and GoMo, were employed to conduct differential gene expression analyses, pathway enrichment studies, and network construction, thereby facilitating the identification of essential genes involved in stress response and disease resistance. Network cluster analysis corroborated the findings of the Gene Ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) survey. In total, 16 hub genes were identified through integrated PPI network and CytoHubba analysis, including RPL3B (log2FC = 4.69) and P0650C03.25 (log2FC = 4.4), both involved in ribosomal biogenesis. GO and KEGG pathway enrichment revealed significant activation of ribosome biogenesis, secondary metabolite biosynthesis, and stress-related transcription factors. Promoter motif analysis identified conserved elements associated with transcriptional regulation and water stress responses. Furthermore, key miRNAs (e.g., miR5075 and miR1848) targeting hub genes were predicted. Codon usage analysis showed that several hub genes exhibited high CAI and low ENC, indicating codon optimization under bacterial infection. These findings offer candidate targets for improving rice resistance to BLS. The objective is to furnish insights that can inform the development of efficacious preventive strategies.",
+    "keywords": [
+      "Bioinformatics",
+      "Codon usage",
+      "Gene ontology",
+      "Promoter analysis",
+      "Protein-protein interactions",
+      "Rice bacterial leaf streak",
+      "miRNAs"
+    ],
+    "mesh_terms": [
+      "*Oryza/microbiology/genetics",
+      "*Plant Diseases/microbiology/genetics",
+      "*Xanthomonas/pathogenicity",
+      "Gene Expression Regulation, Plant",
+      "Gene Regulatory Networks",
+      "Disease Resistance/genetics",
+      "Computational Biology/methods",
+      "Signal Transduction/genetics",
+      "Gene Expression Profiling",
+      "Plant Leaves/microbiology/genetics",
+      "Genes, Plant",
+      "Gene Ontology",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saeed, Paniz Abdollahi",
+        "Ghorbani, Abozar",
+        "Rostami, Mahsa",
+        "Ashrafi-Dehkordi, Elham"
+      ],
+      "short_names": [
+        "Saeed PA",
+        "Ghorbani A",
+        "Rostami M",
+        "Ashrafi-Dehkordi E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plant Protection, Faculty of Agriculture, University of Zanjan, Zanjan, Iran.",
+        "Nuclear Agriculture Research School, Nuclear Science and Technology Research Institute (NSTRI), Karaj, Iran. abghorbany@aeoi.org.ir.",
+        "Nuclear Agriculture Research School, Nuclear Science and Technology Research Institute (NSTRI), Karaj, Iran.",
+        "Department of Food Hygiene and Quality Control, Nutrition Research Center, School of Nutrition and Food Sciences, Shiraz University of Medical Sciences, Shiraz, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saeed, Paniz Abdollahi",
+        "short_name": "Saeed PA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Protection, Faculty of Agriculture, University of Zanjan, Zanjan, Iran."
+        ]
+      },
+      {
+        "full_name": "Ghorbani, Abozar",
+        "short_name": "Ghorbani A",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Agriculture Research School, Nuclear Science and Technology Research Institute (NSTRI), Karaj, Iran. abghorbany@aeoi.org.ir."
+        ]
+      },
+      {
+        "full_name": "Rostami, Mahsa",
+        "short_name": "Rostami M",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Agriculture Research School, Nuclear Science and Technology Research Institute (NSTRI), Karaj, Iran."
+        ]
+      },
+      {
+        "full_name": "Ashrafi-Dehkordi, Elham",
+        "short_name": "Ashrafi-Dehkordi E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Hygiene and Quality Control, Nutrition Research Center, School of Nutrition and Food Sciences, Shiraz University of Medical Sciences, Shiraz, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42630798",
+      "42353125",
+      "42211001",
+      "41977127"
+    ],
+    "refs": [
+      "39276156",
+      "38269200",
+      "37886688",
+      "37723560",
+      "36939198",
+      "36881784",
+      "36674611",
+      "36613454",
+      "36430723",
+      "36114308",
+      "35859338",
+      "35706354",
+      "34822069",
+      "34414650",
+      "33949787",
+      "33818631",
+      "33237311",
+      "33125081",
+      "32776991",
+      "32657002",
+      "32443616",
+      "32346148",
+      "32104259",
+      "31906847",
+      "31698708",
+      "31452857",
+      "30995267",
+      "30526566",
+      "30450911",
+      "30016953",
+      "29718424",
+      "29272462",
+      "29205604",
+      "28873048",
+      "28858211",
+      "27684187",
+      "25953851",
+      "25690658",
+      "25521941",
+      "25378336",
+      "24467902",
+      "23563143",
+      "23165178",
+      "22890146",
+      "22404686",
+      "21349877",
+      "19458158",
+      "18475267"
+    ],
+    "similar": [
+      "40596168",
+      "40751127",
+      "24420860",
+      "38684939",
+      "21717056",
+      "34680982",
+      "33830376",
+      "40025448",
+      "38995679",
+      "30995267",
+      "31993730",
+      "27289079",
+      "33173096",
+      "29498672",
+      "32566966",
+      "24586171",
+      "27197779",
+      "34101285",
+      "25105804",
+      "35871691",
+      "37686066",
+      "39111872",
+      "26821568",
+      "22747776",
+      "30382816",
+      "29864161",
+      "31906847",
+      "23251593",
+      "38444161",
+      "24871256",
+      "30842619",
+      "30279356",
+      "39283163",
+      "20122142",
+      "35742990",
+      "33672641",
+      "26945855",
+      "19161350",
+      "28698641",
+      "36613454",
+      "16570654",
+      "18564427",
+      "25765449",
+      "31676435",
+      "23078195",
+      "19700558",
+      "29730773",
+      "39476040",
+      "26344722",
+      "40591620",
+      "25932456",
+      "28304228",
+      "24423401",
+      "39180632",
+      "27084974",
+      "40149393",
+      "23157387",
+      "26020828",
+      "30486418",
+      "23135857",
+      "22075022",
+      "37325518",
+      "32896629",
+      "28134995",
+      "41001110",
+      "27905546",
+      "29698473",
+      "26095454",
+      "16957248",
+      "27918246",
+      "25688911",
+      "23544090",
+      "27335352",
+      "31084878",
+      "33486879",
+      "24199713",
+      "33993401",
+      "23826294",
+      "26426417",
+      "31991765",
+      "23418541",
+      "26498126",
+      "30743690",
+      "40985907",
+      "32966859",
+      "27810475",
+      "31729398",
+      "41300773",
+      "29256829",
+      "27631432",
+      "34743920",
+      "30992130",
+      "17822031",
+      "40919939",
+      "35521542",
+      "31915945",
+      "34948428",
+      "24335508",
+      "29180371",
+      "41049196"
+    ],
+    "review": [
+      "40596168",
+      "30279356"
+    ],
+    "pmc": [
+      "12217088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-07334-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40596168/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

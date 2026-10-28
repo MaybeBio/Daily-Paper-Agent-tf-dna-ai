@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "35144965",
+    "doi": "10.1101/gad.348993.121",
+    "title": "Distinct structural bases for sequence-specific DNA binding by mammalian BEN domain proteins."
+  },
+  "content": {
+    "abstract": "The BEN domain is a recently recognized DNA binding module that is present in diverse metazoans and certain viruses. Several BEN domain factors are known as transcriptional repressors, but, overall, relatively little is known of how BEN factors identify their targets in humans. In particular, X-ray structures of BEN domain:DNA complexes are only known for Drosophila factors bearing a single BEN domain, which lack direct vertebrate orthologs. Here, we characterize several mammalian BEN domain (BD) factors, including from two NACC family BTB-BEN proteins and from BEND3, which has four BDs. In vitro selection data revealed sequence-specific binding activities of isolated BEN domains from all of these factors. We conducted detailed functional, genomic, and structural studies of BEND3. We show that BD4 is a major determinant for in vivo association and repression of endogenous BEND3 targets. We obtained a high-resolution structure of BEND3-BD4 bound to its preferred binding site, which reveals how BEND3 identifies cognate DNA targets and shows differences with one of its non-DNA-binding BEN domains (BD1). Finally, comparison with our previous invertebrate BEN structures, along with additional structural predictions using AlphaFold2 and RoseTTAFold, reveal distinct strategies for target DNA recognition by different types of BEN domain proteins. Together, these studies expand the DNA recognition activities of BEN factors and provide structural insights into sequence-specific DNA binding by mammalian BEN proteins.",
+    "keywords": [
+      "DNA binding activity",
+      "gene regulation",
+      "protein-DNA structure",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Binding Sites",
+      "Drosophila/metabolism",
+      "Mammals",
+      "Protein Binding",
+      "Protein Domains",
+      "*Repressor Proteins/genetics",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Luqian",
+        "Liu, Jingjing",
+        "Niu, Lijie",
+        "Kamran, Mohammad",
+        "Yang, Ally W H",
+        "Jolma, Arttu",
+        "Dai, Qi",
+        "Hughes, Timothy R",
+        "Patel, Dinshaw J",
+        "Zhang, Long",
+        "Prasanth, Supriya G",
+        "Yu, Yang",
+        "Ren, Aiming",
+        "Lai, Eric C"
+      ],
+      "short_names": [
+        "Zheng L",
+        "Liu J",
+        "Niu L",
+        "Kamran M",
+        "Yang AWH",
+        "Jolma A",
+        "Dai Q",
+        "Hughes TR",
+        "Patel DJ",
+        "Zhang L",
+        "Prasanth SG",
+        "Yu Y",
+        "Ren A",
+        "Lai EC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2082-0693",
+        "ORCID: 0000-0002-8721-4719",
+        "ORCID: 0000-0002-8432-5851"
+      ],
+      "affiliations": [
+        "The Eighth Affiliated Hospital, Sun Yat-Sen University, Shenzhen, Guangdong 518033, China.",
+        "Life Sciences Institute, Zhejiang University, Hangzhou, Zhejiang 310058, China.",
+        "State Key Laboratory of Medical Molecular Biology, Department of Molecular Biology and Biochemistry, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, School of Basic Medicine, Peking Union Medical College, Beijing 100005, China.",
+        "State Key Laboratory of Medical Molecular Biology, Department of Molecular Biology and Biochemistry, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, School of Basic Medicine, Peking Union Medical College, Beijing 100005, China.",
+        "Department of Cell and Developmental Biology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+        "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+        "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+        "Developmental Biology Program, Sloan Kettering Institute, New York, New York 10065, USA.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+        "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+        "Structural Biology Program, Sloan Kettering Institute, New York, New York 10065, USA.",
+        "The Eighth Affiliated Hospital, Sun Yat-Sen University, Shenzhen, Guangdong 518033, China.",
+        "Life Sciences Institute, Zhejiang University, Hangzhou, Zhejiang 310058, China.",
+        "Department of Cell and Developmental Biology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, USA.",
+        "State Key Laboratory of Medical Molecular Biology, Department of Molecular Biology and Biochemistry, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, School of Basic Medicine, Peking Union Medical College, Beijing 100005, China.",
+        "Developmental Biology Program, Sloan Kettering Institute, New York, New York 10065, USA.",
+        "Life Sciences Institute, Zhejiang University, Hangzhou, Zhejiang 310058, China.",
+        "Developmental Biology Program, Sloan Kettering Institute, New York, New York 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Luqian",
+        "short_name": "Zheng L",
+        "identifiers": [],
+        "affiliations": [
+          "The Eighth Affiliated Hospital, Sun Yat-Sen University, Shenzhen, Guangdong 518033, China.",
+          "Life Sciences Institute, Zhejiang University, Hangzhou, Zhejiang 310058, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jingjing",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Molecular Biology, Department of Molecular Biology and Biochemistry, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, School of Basic Medicine, Peking Union Medical College, Beijing 100005, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Lijie",
+        "short_name": "Niu L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Molecular Biology, Department of Molecular Biology and Biochemistry, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, School of Basic Medicine, Peking Union Medical College, Beijing 100005, China."
+        ]
+      },
+      {
+        "full_name": "Kamran, Mohammad",
+        "short_name": "Kamran M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Ally W H",
+        "short_name": "Yang AWH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+          "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 1A1, Canada."
+        ]
+      },
+      {
+        "full_name": "Jolma, Arttu",
+        "short_name": "Jolma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+          "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 1A1, Canada."
+        ]
+      },
+      {
+        "full_name": "Dai, Qi",
+        "short_name": "Dai Q",
+        "identifiers": [
+          "0000-0002-2082-0693"
+        ],
+        "affiliations": [
+          "Developmental Biology Program, Sloan Kettering Institute, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Hughes, Timothy R",
+        "short_name": "Hughes TR",
+        "identifiers": [
+          "0000-0002-8721-4719"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A1, Canada.",
+          "Donnelly Centre, University of Toronto, Toronto, Ontario M5S 1A1, Canada."
+        ]
+      },
+      {
+        "full_name": "Patel, Dinshaw J",
+        "short_name": "Patel DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Program, Sloan Kettering Institute, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Long",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "The Eighth Affiliated Hospital, Sun Yat-Sen University, Shenzhen, Guangdong 518033, China.",
+          "Life Sciences Institute, Zhejiang University, Hangzhou, Zhejiang 310058, China."
+        ]
+      },
+      {
+        "full_name": "Prasanth, Supriya G",
+        "short_name": "Prasanth SG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Yang",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Molecular Biology, Department of Molecular Biology and Biochemistry, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, School of Basic Medicine, Peking Union Medical College, Beijing 100005, China.",
+          "Developmental Biology Program, Sloan Kettering Institute, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Ren, Aiming",
+        "short_name": "Ren A",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Institute, Zhejiang University, Hangzhou, Zhejiang 310058, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Eric C",
+        "short_name": "Lai EC",
+        "identifiers": [
+          "0000-0002-8432-5851"
+        ],
+        "affiliations": [
+          "Developmental Biology Program, Sloan Kettering Institute, New York, New York 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & development"
+    ],
+    "journal_abbrev": [
+      "Genes Dev"
+    ],
+    "pub_date": "2022 Feb 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/12 06:00",
+    "fetched_at": "2026-09-28 05:06:57"
+  },
+  "links": {
+    "cites": [
+      "41497890",
+      "41047692",
+      "40784487",
+      "40369078",
+      "40327257",
+      "39329271",
+      "39225042",
+      "38388424",
+      "37650637",
+      "37509346",
+      "37236184",
+      "37194980",
+      "36977380",
+      "36918529",
+      "36662884",
+      "36648610",
+      "36646985",
+      "35904285",
+      "35217604"
+    ],
+    "refs": [
+      "35217604",
+      "34293799",
+      "34282049",
+      "34234345",
+      "33327466",
+      "33257861",
+      "32649876",
+      "31836703",
+      "31618757",
+      "31543422",
+      "30951652",
+      "30602385",
+      "30553973",
+      "30082280",
+      "29425488",
+      "28977671",
+      "28636604",
+      "28636597",
+      "28110180",
+      "27246709",
+      "26550823",
+      "26481236",
+      "26100909",
+      "25953851",
+      "25905672",
+      "25779349",
+      "25561495",
+      "25457167",
+      "25215497",
+      "24371809",
+      "23571214",
+      "23468431",
+      "23413354",
+      "23354101",
+      "23332764",
+      "23240086",
+      "22983563",
+      "22936215",
+      "22926524",
+      "22610855",
+      "21914818",
+      "21765394",
+      "21723904",
+      "21562492",
+      "21543442",
+      "21321018",
+      "21182888",
+      "21057492",
+      "20383002",
+      "20107439",
+      "19121354",
+      "18616426",
+      "18424555",
+      "18203771",
+      "18035408",
+      "17254023",
+      "16998473",
+      "16904174",
+      "12494467",
+      "12393927",
+      "8670425",
+      "3690668",
+      "2510170",
+      "2244209",
+      "1898772"
+    ],
+    "similar": [
+      "35144965",
+      "23468431",
+      "28977671",
+      "39225042",
+      "25561495",
+      "38640730",
+      "21914818",
+      "37236184",
+      "37086783",
+      "26100909",
+      "8649374",
+      "11501753",
+      "30602385",
+      "10861001",
+      "10026784",
+      "9824158",
+      "35217604",
+      "24516405",
+      "25600804",
+      "8816491",
+      "35685361",
+      "10653693",
+      "26481236",
+      "26507581",
+      "30082280",
+      "35143257",
+      "24465946",
+      "35904285",
+      "33327466",
+      "10611298",
+      "9019154",
+      "9271371",
+      "28278156",
+      "19818708",
+      "8816446",
+      "9751710",
+      "14722072",
+      "21737682",
+      "29986887",
+      "12700764",
+      "14701830",
+      "8127655",
+      "9544704",
+      "10021339",
+      "9343412",
+      "10487755",
+      "10082554",
+      "12466196",
+      "7651419",
+      "22125648",
+      "11786010",
+      "18203771",
+      "29309642",
+      "29323785",
+      "15377655",
+      "8097276",
+      "9077443",
+      "9449676",
+      "8196644",
+      "22615925",
+      "14645224",
+      "10913304",
+      "3187531",
+      "27404588",
+      "25538246",
+      "12666198",
+      "11266540",
+      "15863623",
+      "7958912",
+      "16721389",
+      "24981874",
+      "29518634",
+      "11311161",
+      "15231840",
+      "7905452",
+      "8144673",
+      "12097288",
+      "21688840",
+      "8510918",
+      "9933609",
+      "20410074",
+      "8649389",
+      "11486045",
+      "16365048",
+      "33904398",
+      "11977984",
+      "17785540",
+      "25144371",
+      "28487372",
+      "10938130",
+      "9566899",
+      "22186017",
+      "19878300",
+      "11311166"
+    ],
+    "review": [
+      "35144965",
+      "10026784"
+    ],
+    "pmc": [
+      "8887127"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://www.genesdev.org/cgi/pmidlookup?view=long&pmid=35144965",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35144965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35144965",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

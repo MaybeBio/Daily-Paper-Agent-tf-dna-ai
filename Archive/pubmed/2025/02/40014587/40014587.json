@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "40014587",
+    "doi": "10.1371/journal.pone.0314773",
+    "title": "Prediction and validation of anoikis-related genes in neuropathic pain using machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Neuropathic pain (NP) can be induced by a variety of clinical conditions, such as spinal cord injury, lumbar disc herniation (LDH), lumbar spinal stenosis, diabetes, herpes zoster, and spinal cord tumors, and inflammatory stimuli. The pathogenesis of NP is extremely complex. Specifically, in LDH, the herniated nucleus pulposus exerts mechanical pressure on nerve roots, triggering local inflammation and consequent NP. Anoikis, a special form of programmed cell death, is closely related to the progression of NP. In this study, we sought to clarify the molecular characteristics of anoikis-related genes in NP, providing novel insights for the diagnosis and treatment of NP. METHODS: We screened NP-related genes based on the GSE124272 dataset and obtained 439 anoikis-related genes from the GeneCards database. Through Least Absolute Shrinkage and Selection Operator (LASSO) and Support Vector Machine (SVM) machine learning algorithms, six key hub genes were identified: hepatocyte growth factor (HGF), matrix metalloproteinase 13 (MMP13), c-abl oncogene 1, non-receptor tyrosine kinase (ABL1), elastase neutrophil expressed (ELANE), fatty acid synthase (FASN), and long non-coding RNA (Linc00324). Functional enrichment analyses, including Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG), alongside Gene Set Enrichment Analysis (GSEA) and immune infiltration analysis, were performed on these hub genes. Additionally, transcription factors and potential therapeutic drugs were predicted. We also used rats to construct an NP model and validated the analyzed hub genes using hematoxylin and eosin (H&E) staining, real-time polymerase chain reaction (PCR), and Western blotting assays. RESULTS: Our data indicated that anoikis-related genes have diagnostic value in NP patients, as confirmed by experimental results. Moreover, this study elucidated the role of these genes in immune infiltration during the pathogenesis of NP and identified potential therapeutic drugs targeting these key genes. CONCLUSION: This study further explores the pathogenesis of NP and provides certain reference value for developing targeted therapeutic strategies, thereby improving NP management.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Anoikis/genetics",
+      "*Neuralgia/genetics/pathology",
+      "Animals",
+      "Rats",
+      "*Machine Learning",
+      "Humans",
+      "Support Vector Machine",
+      "Male",
+      "Rats, Sprague-Dawley"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yufeng",
+        "Wei, Ye",
+        "Wang, Yongxin",
+        "Ling, Chunyan",
+        "Qi, Xiang",
+        "Geng, Siyu",
+        "Meng, Yingtong",
+        "Deng, Hao",
+        "Zhang, Qisong",
+        "Qin, Xiaoling",
+        "Chen, Guanghui"
+      ],
+      "short_names": [
+        "He Y",
+        "Wei Y",
+        "Wang Y",
+        "Ling C",
+        "Qi X",
+        "Geng S",
+        "Meng Y",
+        "Deng H",
+        "Zhang Q",
+        "Qin X",
+        "Chen G"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-6314-9793",
+        "ORCID: 0009-0005-2956-4402"
+      ],
+      "affiliations": [
+        "Department of Massage, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Chinese Medicine, Nanning, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+        "Graduate School, Henan University of Chinese Medicine, Zhengzhou, China.",
+        "Second Clinical Medical College, Henan University of Chinese Medicine, Zhengzhou, China.",
+        "Graduate School, Guangxi University of Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Chinese Medicine, Nanning, China.",
+        "Medical College, Guangxi University, Nanning, China.",
+        "School of Pharmacy, Guangxi University of Chinese Medicine, Nanning, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+        "Graduate School, Guangxi University of Chinese Medicine, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yufeng",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Massage, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ye",
+        "short_name": "Wei Y",
+        "identifiers": [
+          "0009-0003-6314-9793"
+        ],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+          "Graduate School, Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yongxin",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Chunyan",
+        "short_name": "Ling C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Xiang",
+        "short_name": "Qi X",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Henan University of Chinese Medicine, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Siyu",
+        "short_name": "Geng S",
+        "identifiers": [],
+        "affiliations": [
+          "Second Clinical Medical College, Henan University of Chinese Medicine, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Yingtong",
+        "short_name": "Meng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Hao",
+        "short_name": "Deng H",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qisong",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Guangxi University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xiaoling",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guanghui",
+        "short_name": "Chen G",
+        "identifiers": [
+          "0009-0005-2956-4402"
+        ],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, China.",
+          "Graduate School, Guangxi University of Chinese Medicine, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/27 18:20",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "41686563",
+      "41008561"
+    ],
+    "refs": [
+      "38001358",
+      "37787201",
+      "37759539",
+      "37688390",
+      "36841393",
+      "36769187",
+      "36279673",
+      "36052149",
+      "36018188",
+      "35218157",
+      "33844985",
+      "33572210",
+      "33535986",
+      "33117783",
+      "32850446",
+      "32705357",
+      "32128297",
+      "31777557",
+      "30931932",
+      "30762000",
+      "29275361",
+      "28205574",
+      "27322403",
+      "27141961",
+      "25605792",
+      "25166220",
+      "24291734",
+      "23937229",
+      "21953325",
+      "21499215",
+      "21364616",
+      "21073910",
+      "19217209",
+      "16199517",
+      "15363872",
+      "15064554",
+      "12906743",
+      "354518"
+    ],
+    "similar": [
+      "40014587",
+      "40312440",
+      "39730379",
+      "37032832",
+      "38519735",
+      "39627301",
+      "28854101",
+      "39586719",
+      "39270557",
+      "39341981",
+      "39170142",
+      "35958412",
+      "39697326",
+      "40115777",
+      "35531067",
+      "38406324",
+      "38775414",
+      "39609718",
+      "38951833",
+      "40313958",
+      "37980550",
+      "38755717",
+      "39754246",
+      "39732886",
+      "39300389",
+      "40225045",
+      "37989822",
+      "38423139",
+      "38049825",
+      "33460811",
+      "39142001",
+      "38226979",
+      "40059945",
+      "36897022",
+      "37259225",
+      "39263286",
+      "39898909",
+      "38476236",
+      "39070131",
+      "38291374",
+      "37325631",
+      "38767974",
+      "39867944",
+      "35719392",
+      "37035149",
+      "37401304",
+      "38737694",
+      "40313558",
+      "37213475",
+      "36166989",
+      "37059863",
+      "31535407",
+      "38283345",
+      "39464883",
+      "39735547",
+      "39403102",
+      "39406937",
+      "39230867",
+      "39827296",
+      "37065587",
+      "40061887",
+      "38061116",
+      "39929099",
+      "40329959",
+      "34122424",
+      "39819531",
+      "37090717",
+      "38867322",
+      "39713769",
+      "38711508",
+      "35341274",
+      "37033969",
+      "36685898",
+      "36855217",
+      "36195955",
+      "40319145",
+      "39174890",
+      "37409245",
+      "38650649",
+      "35410505",
+      "39507054",
+      "39431237",
+      "39384071",
+      "38373667",
+      "39061076",
+      "36660690",
+      "38603834",
+      "39295860",
+      "33746000",
+      "39509434",
+      "35938015",
+      "39139563",
+      "39396400",
+      "39650552",
+      "40091022",
+      "39364223",
+      "39383787",
+      "38993198",
+      "39346078",
+      "37622114"
+    ],
+    "review": [
+      "40014587"
+    ],
+    "pmc": [
+      "11867322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0314773",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40014587/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

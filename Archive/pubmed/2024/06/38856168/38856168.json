@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "38856168",
+    "doi": "10.1093/bib/bbae285",
+    "title": "Improved prediction of DNA and RNA binding proteins with deep learning models."
+  },
+  "content": {
+    "abstract": "Nucleic acid-binding proteins (NABPs), including DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs), play important roles in essential biological processes. To facilitate functional annotation and accurate prediction of different types of NABPs, many machine learning-based computational approaches have been developed. However, the datasets used for training and testing as well as the prediction scopes in these studies have limited their applications. In this paper, we developed new strategies to overcome these limitations by generating more accurate and robust datasets and developing deep learning-based methods including both hierarchical and multi-class approaches to predict the types of NABPs for any given protein. The deep learning models employ two layers of convolutional neural network and one layer of long short-term memory. Our approaches outperform existing DBP and RBP predictors with a balanced prediction between DBPs and RBPs, and are more practically useful in identifying novel NABPs. The multi-class approach greatly improves the prediction accuracy of DBPs and RBPs, especially for the DBPs with ~12% improvement. Moreover, we explored the prediction accuracy of single-stranded DNA binding proteins and their effect on the overall prediction accuracy of NABP predictions.",
+    "keywords": [
+      "RNA binding protein (RBP)",
+      "convolutional neural network (CNN)",
+      "double-stranded DNA binding protein (DSB)",
+      "long short-term memory (LSTM)",
+      "multi-class model",
+      "single-stranded DNA binding protein (SSB)"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*RNA-Binding Proteins/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "*Computational Biology/methods",
+      "Neural Networks, Computer",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Siwen",
+        "Guo, Jun-Tao"
+      ],
+      "short_names": [
+        "Wu S",
+        "Guo JT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5949-8948"
+      ],
+      "affiliations": [
+        "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States.",
+        "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Siwen",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States."
+        ]
+      },
+      {
+        "full_name": "Guo, Jun-Tao",
+        "short_name": "Guo JT",
+        "identifiers": [
+          "0000-0001-5949-8948"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/10 13:21",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "40929136",
+      "40439671",
+      "40391089",
+      "39990254"
+    ],
+    "refs": [
+      "38660008",
+      "37651627",
+      "37158175",
+      "36416116",
+      "36408920",
+      "36203019",
+      "36139026",
+      "34415301",
+      "33655206",
+      "33237286",
+      "32946833",
+      "32352006",
+      "31888057",
+      "31725778",
+      "31722485",
+      "31693872",
+      "31267738",
+      "31182864",
+      "31123959",
+      "30323214",
+      "30316822",
+      "30032213",
+      "29753757",
+      "29287069",
+      "29270430",
+      "29097781",
+      "29059321",
+      "28606086",
+      "27993780",
+      "27147539",
+      "26304539",
+      "25365966",
+      "25269475",
+      "24977146",
+      "24821474",
+      "24475169",
+      "22940582",
+      "20677174",
+      "19541617",
+      "18342629",
+      "18042272",
+      "16731699",
+      "15479782",
+      "15215342",
+      "11104519",
+      "10802651",
+      "2842864"
+    ],
+    "similar": [
+      "38856168",
+      "32920048",
+      "39990254",
+      "32808039",
+      "31722485",
+      "34932484",
+      "34905768",
+      "35378437",
+      "34571539",
+      "36044786",
+      "37562328",
+      "42412843",
+      "28245811",
+      "40391089",
+      "41172803",
+      "35521556",
+      "29970003",
+      "30323214",
+      "31513916",
+      "33986992",
+      "36935548",
+      "39695955",
+      "31483777",
+      "31026297",
+      "40646507",
+      "38643894",
+      "39833102",
+      "38986796",
+      "33334313",
+      "37437362",
+      "38615462",
+      "30423078",
+      "31323206",
+      "35649392",
+      "35148267",
+      "36503892",
+      "38316843",
+      "39270885",
+      "37651627",
+      "35768792",
+      "40439671",
+      "40069726",
+      "30808287",
+      "31537716",
+      "40914361",
+      "34073705",
+      "35652477",
+      "33780341",
+      "36416116",
+      "34781902",
+      "34073774",
+      "42475469",
+      "33780344",
+      "40146403",
+      "41762162",
+      "34297803",
+      "36719781",
+      "37158175",
+      "26540053",
+      "25935161",
+      "35451938",
+      "39514139",
+      "39214282",
+      "40914406",
+      "34415289",
+      "21284850",
+      "31725778",
+      "40121399",
+      "39576667",
+      "38643080",
+      "40728609",
+      "40183298",
+      "41257586",
+      "33685590",
+      "41290782",
+      "38830995",
+      "41134602",
+      "41354216",
+      "30866736",
+      "40554978",
+      "41257600",
+      "35325031",
+      "40601256",
+      "39956833",
+      "42015301",
+      "30419785",
+      "28575488",
+      "38381315",
+      "30590704",
+      "41564724",
+      "39714563",
+      "29722865",
+      "40914877",
+      "31228283",
+      "33980138",
+      "29287069",
+      "40209920",
+      "29281985",
+      "38747369",
+      "41566703"
+    ],
+    "review": [
+      "38856168",
+      "38643894",
+      "39833102",
+      "35652477",
+      "26540053",
+      "25935161",
+      "40728609"
+    ],
+    "pmc": [
+      "11163377"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38856168.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38856168/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38856168",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae285",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

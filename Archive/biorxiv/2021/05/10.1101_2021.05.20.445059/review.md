@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and support of claims based solely on the supplied text. Supplementary figures and tables are referenced but not provided.
+- **Shared manuscript claim summary** The authors analyze TF-DNA interactions from high-throughput experiments for seven TF families, identify TF subclass determining sites (TSDSs), and report that TSDSs coevolve more frequently with other TSDSs than with non-TSDSs. They further claim that mutation of highly coevolving residues, including those distant from the DNA interface, significantly reduces TF-DNA complex stability.
+- **Visible evidence base** Main text figures (Figure 1, 2, 3, 4) are referenced but not provided. Supplementary materials (Tables S1-S4, Figures S1-S7) are referenced but not provided. No data, code, or detailed numerical results are included in the supplied text.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and detailed statistical outputs are absent. The Methods section is incomplete, lacking specific parameters for the coevolution algorithms, clustering thresholds, and the FoldX simulation setup. This severely limits the ability to verify the core claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding the role of coevolving residues in TF-DNA binding specificity. The analytical pipeline, combining high-throughput binding data with coevolution analysis, is a reasonable approach. However, the current manuscript is a summary of work with the key evidence (all figures and tables) not available for review. The methodological details are insufficient to assess the robustness of the analysis. The central claims, while plausible, cannot be evaluated from the provided text alone. The manuscript would benefit from a more detailed presentation of methods and results, and a clearer articulation of the novelty relative to existing literature.
+- **Who would be interested in the results, and why** Researchers in the fields of transcriptional regulation, protein evolution, and computational biology would be interested. The work could inform studies on TF binding specificity determinants and the design of engineered DNA-binding domains. The potential link between coevolving residues and binding specificity is of general interest to those studying genotype-phenotype relationships in proteins.
+- **Major strengths**
+  - The study addresses a relevant and under-explored question about the functional role of coevolving residues in TF-DNA specificity.
+  - The use of multiple coevolution detection methods (MI, MIp, SCA, OMES) is a robust approach to identify reliable coevolving pairs.
+  - The analysis spans multiple TF families and species, providing a broad survey.
+  - The finding that residues distant from the DNA interface can impact binding stability upon mutation is a potentially interesting observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The manuscript claims that "TSDSs were more likely to be coevolving with TSDSs than with non-TSDSs" and that "mutation of the highly coevolving residues could significantly reduce the stability of TF-DNA complex."
+  - **Evidence pointer** Figures 3A, 3B, 4C, and associated text. Location not provided.
+  - **Concern** The core results supporting the main claims are presented in figures that are not included in the provided manuscript. Without seeing the actual data distributions, statistical test results, and effect sizes, it is impossible to assess whether the claims are supported. For example, the claim about TSDS-TSDS coevolution enrichment requires seeing the comparison of coevolution scores between different residue pair categories. Similarly, the claim about mutation effects requires seeing the ΔΔG values and the statistical comparisons.
+  - **Why it matters** The entire premise of the paper rests on these results. The review cannot proceed without examining the primary evidence.
+  - **Resolution test** Provide the main figures (Figure 3 and 4) with clear statistical annotations. The data must clearly show a significant and meaningful enrichment of coevolution among TSDSs and a significant effect of mutations on complex stability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The Methods section describes the identification of TSDSs using SPEER and the coevolution analysis using four algorithms.
+  - **Evidence pointer** Materials and methods section, "Identification of TF subclass determining sites (TSDSs) of TF" and "Coevolution analyses of residues". Location not provided.
+  - **Concern** The methodological details are insufficient to evaluate the robustness of the analysis. Key parameters are missing. For example, the criteria for determining the number of clusters in the hierarchical clustering (beyond the elbow method) are vague. The specific parameters for the SPEER algorithm (e.g., the evolutionary rate calculation) are not given. For the coevolution analysis, the details of the multiple sequence alignment (e.g., which sequences, how many, how gaps were handled) are not provided. The normalization and combination of scores from different methods is described, but the rationale and potential biases are not discussed.
+  - **Why it matters** The validity of the identified TSDSs and coevolving pairs depends entirely on these methodological choices. Without a clear description, the results cannot be reproduced or fully trusted.
+  - **Resolution test** Provide a detailed and complete description of all methods, including specific parameters, thresholds, and data processing steps. This should be sufficient for a knowledgeable researcher to reproduce the analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The manuscript states that "the distant residues from the DNA interface also contributed to TF-DNA binding activity."
+  - **Evidence pointer** Results section, "CRPs and TSDSs in TF-DNA complex", and Figure 4. Location not provided.
+  - **Concern** The interpretation of the mutation analysis on distant residues is not fully developed. The authors show that mutating a distant residue (e.g., LEU324 in CEBPB) can destabilize the complex, but the mechanism is not explored. Is this due to long-range allosteric effects, or does the mutation disrupt the protein fold globally? The distinction is important for the claim that these residues "contribute to binding specificity."
+  - **Why it matters** The claim that distant residues contribute to binding activity is a key finding. Without a deeper analysis or discussion of the potential mechanism, the interpretation remains speculative.
+  - **Resolution test** Provide additional analysis or discussion that addresses the potential mechanism by which distant residues affect binding. This could include examining the structural context of the mutated residues or comparing the effects of mutations on protein stability versus direct binding interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction. Location not provided.
+  - **Issue** The abstract mentions "seven TF families" while the Introduction mentions "nine TF families" were initially collected. The text should clarify that two families (zf-C2H2 and Fork_head) were excluded from the main analysis due to specific reasons (too many subclasses or too few subclasses).
+  - **Required correction** Clarify the number of families in the abstract and ensure consistency throughout the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section, "Characterization of TF binding specificity"
+  - **Evidence pointer** Figure 1. Location not provided.
+  - **Issue** The text states that "around 85% of TFs were from mouse, human and fruit fly" but does not specify the distribution for the remaining 15%. A brief breakdown would be helpful.
+  - **Required correction** Provide a more detailed breakdown of the species distribution.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical Reporting
+  - **Affected element** Results section, "Coevolving residue pairs (CRPs) and TSDSs"
+  - **Evidence pointer** Figure 3C. Location not provided.
+  - **Issue** The text states that TFs grouped by CRPs had higher DNA motif similarity in "six TF families out of seven we tested, except for Ets TFs." The statistical significance of this difference is not reported for each family.
+  - **Required correction** Report the p-values or confidence intervals for the comparisons in each TF family.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion. Location not provided.
+  - **Issue** The term "comprehensive and integrative analysis" is used, but the analysis is limited to seven TF families and specific datasets. A more measured description would be appropriate.
+  - **Required correction** Rephrase to avoid overstatement, e.g., "a systematic analysis of seven TF families."
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The primary evidence (figures and tables) is missing, making the core claims unverifiable.
+  - R1-M2: The methods are not described in sufficient detail to assess their validity or reproducibility.
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of how coevolving residues contribute to TF binding specificity is a relatively novel angle, but the concept of coevolution in protein function is well-established. The specific application to TF-DNA specificity across multiple families has some novelty.
+  - **Scientific importance** If the claims are fully supported, the work could be of importance to the fields of transcriptional regulation and protein engineering. However, the current evidence is insufficient to judge the magnitude of the contribution.
+  - **Interdisciplinary readership** The topic is relevant to molecular biology, genetics, and computational biology. The findings could be of interest to a broader audience if the implications for gene regulation and protein design are clearly articulated.
+  - **Technical soundness** The technical soundness cannot be assessed due to missing methods and data. The use of multiple coevolution methods is a positive, but the lack of detail prevents a full evaluation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the abstract and introduction could be clearer about the specific families analyzed and the main findings. The discussion is somewhat general.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible and potentially interesting analysis, but the core evidence is missing, and the methods are not described in sufficient detail. A full review is not possible without the figures, tables, and a complete methods section.
+
+## Risk / unsupported claims
+- The claim that "TSDSs were more likely to be coevolving with TSDSs than with non-TSDSs" is unsupported without the data in Figure 3A and 3B.
+- The claim that "mutation of the highly coevolving residues could significantly reduce the stability of TF-DNA complex" is unsupported without the data in Figure 4C.
+- The claim that "the distant residues from the DNA interface also contributed to TF-DNA binding activity" is unsupported without the data in Figure 4 and a mechanistic discussion.
+- The overall conclusion that "coevolving residues in TFs contribute to DNA binding specificity" is a reasonable hypothesis but is not fully supported by the provided text alone.

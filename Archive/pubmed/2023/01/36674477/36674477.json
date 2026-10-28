@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "36674477",
+    "doi": "10.3390/ijms24020957",
+    "title": "Structural Dynamics of the Bacillus subtilis MntR Transcription Factor Is Locked by Mn(2+) Binding."
+  },
+  "content": {
+    "abstract": "Manganese (II) ions are essential for a variety of bacterial cellular processes. The transcription factor MntR is a metallosensor that regulates Mn(2+) ion homeostasis in the bacterium Bacillus subtilis. Its DNA-binding affinity is increased by Mn(2+) ion binding, allowing it to act as a transcriptional repressor of manganese import systems. Although experimentally well-researched, the molecular mechanism that regulates this process is still a puzzle. Computational simulations supported by circular dichroism (CD), differential scanning calorimetry (DSC) and native gel electrophoresis (native-PAGE) experiments were employed to study MntR structural and dynamical properties in the presence and absence of Mn(2+) ions. The results of molecular dynamics (MD) simulations revealed that Mn(2+) ion binding reduces the structural dynamics of the MntR protein and shifts the dynamic equilibrium towards the conformations adequate for DNA binding. Results of CD and DSC measurements support the computational results showing the change in helical content and stability of the MntR protein upon Mn(2+) ion binding. Further, MD simulations show that Mn(2+) binding induces polarization of the protein electrostatic potential, increasing the positive electrostatic potential of the DNA-binding helices in particular. In order to provide a deeper understanding of the changes in protein structure and dynamics due to Mn(2+) binding, a mutant in which Mn(2+) binding is mimicked by a cysteine bridge was constructed and also studied computationally and experimentally.",
+    "keywords": [
+      "MntR transcription factor",
+      "manganese metallosensors",
+      "molecular dynamics simulations",
+      "protein structural dynamics"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "*Manganese/metabolism",
+      "Repressor Proteins/genetics",
+      "Bacillus subtilis/genetics",
+      "Binding Sites",
+      "Bacterial Proteins/metabolism",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jelic Matosevic, Zoe",
+        "Radman, Katarina",
+        "Loubser, Jolene",
+        "Crnolatac, Ivo",
+        "Piantanida, Ivo",
+        "Cukrowski, Ignacy",
+        "Asler, Ivana Lescic",
+        "Bertosa, Branimir"
+      ],
+      "short_names": [
+        "Jelic Matosevic Z",
+        "Radman K",
+        "Loubser J",
+        "Crnolatac I",
+        "Piantanida I",
+        "Cukrowski I",
+        "Asler IL",
+        "Bertosa B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4901-1830",
+        "ORCID: 0000-0001-8508-3287",
+        "ORCID: 0000-0002-9933-446X",
+        "ORCID: 0000-0001-8007-5675",
+        "ORCID: 0000-0002-0826-7493",
+        "ORCID: 0000-0002-4540-5648"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Faculty of Science, University of Zagreb, Horvatovac 102a, HR-10000 Zagreb, Croatia.",
+        "Department of Chemistry, Faculty of Science, University of Zagreb, Horvatovac 102a, HR-10000 Zagreb, Croatia.",
+        "Department of Chemistry, Faculty of Natural and Agricultural Sciences, University of Pretoria, Lynnwood Road, Hatfield, Pretoria 0002, South Africa.",
+        "Division of Organic Chemistry & Biochemistry, Ruder Boskovic Institute, Bijenicka cesta 54, HR-10000 Zagreb, Croatia.",
+        "Division of Organic Chemistry & Biochemistry, Ruder Boskovic Institute, Bijenicka cesta 54, HR-10000 Zagreb, Croatia.",
+        "Department of Chemistry, Faculty of Natural and Agricultural Sciences, University of Pretoria, Lynnwood Road, Hatfield, Pretoria 0002, South Africa.",
+        "Division of Physical Chemistry, Ruder Boskovic Institute, Bijenicka cesta 54, HR-10000 Zagreb, Croatia.",
+        "Department of Chemistry, Faculty of Science, University of Zagreb, Horvatovac 102a, HR-10000 Zagreb, Croatia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jelić Matošević, Zoe",
+        "short_name": "Jelić Matošević Z",
+        "identifiers": [
+          "0000-0002-4901-1830"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, University of Zagreb, Horvatovac 102a, HR-10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Radman, Katarina",
+        "short_name": "Radman K",
+        "identifiers": [
+          "0000-0001-8508-3287"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, University of Zagreb, Horvatovac 102a, HR-10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Loubser, Jolene",
+        "short_name": "Loubser J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Natural and Agricultural Sciences, University of Pretoria, Lynnwood Road, Hatfield, Pretoria 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Crnolatac, Ivo",
+        "short_name": "Crnolatac I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Organic Chemistry & Biochemistry, Ruđer Bošković Institute, Bijenička cesta 54, HR-10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Piantanida, Ivo",
+        "short_name": "Piantanida I",
+        "identifiers": [
+          "0000-0002-9933-446X"
+        ],
+        "affiliations": [
+          "Division of Organic Chemistry & Biochemistry, Ruđer Bošković Institute, Bijenička cesta 54, HR-10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Cukrowski, Ignacy",
+        "short_name": "Cukrowski I",
+        "identifiers": [
+          "0000-0001-8007-5675"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Natural and Agricultural Sciences, University of Pretoria, Lynnwood Road, Hatfield, Pretoria 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Ašler, Ivana Leščić",
+        "short_name": "Ašler IL",
+        "identifiers": [
+          "0000-0002-0826-7493"
+        ],
+        "affiliations": [
+          "Division of Physical Chemistry, Ruđer Bošković Institute, Bijenička cesta 54, HR-10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Bertoša, Branimir",
+        "short_name": "Bertoša B",
+        "identifiers": [
+          "0000-0002-4540-5648"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, University of Zagreb, Horvatovac 102a, HR-10000 Zagreb, Croatia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Jan 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/22 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "42655110",
+      "39846636",
+      "39172237",
+      "38226394"
+    ],
+    "refs": [
+      "35544232",
+      "34417623",
+      "32086169",
+      "31857375",
+      "29258819",
+      "28836357",
+      "28487396",
+      "27748968",
+      "27322406",
+      "26998926",
+      "26038575",
+      "25145273",
+      "23298157",
+      "22570416",
+      "22178748",
+      "21511390",
+      "19795834",
+      "17880108",
+      "17342524",
+      "17176058",
+      "17118401",
+      "16533030",
+      "15980491",
+      "15736948",
+      "15264254",
+      "14580210",
+      "12847518",
+      "11390691",
+      "8744570",
+      "4368360",
+      "1515543"
+    ],
+    "similar": [
+      "36674477",
+      "27748968",
+      "10760146",
+      "16533030",
+      "14580210",
+      "12950915",
+      "17176058",
+      "37468100",
+      "15736948",
+      "23298157",
+      "29730293",
+      "34370555",
+      "17118401",
+      "17342524",
+      "38345054",
+      "12675807",
+      "12847518",
+      "31738781",
+      "12028379",
+      "12446639",
+      "31685536",
+      "31818924",
+      "36748638",
+      "25160631",
+      "31964700",
+      "25790484",
+      "37866578",
+      "26337157",
+      "39172237",
+      "24067066",
+      "11466284",
+      "28223356",
+      "25522343",
+      "23057863",
+      "29760236",
+      "17880108",
+      "12704132",
+      "32184366",
+      "30808698",
+      "39070638",
+      "16766519",
+      "38979284",
+      "11532148",
+      "12029030",
+      "15948947",
+      "21239586",
+      "24794564",
+      "32397647",
+      "16772031",
+      "35850333",
+      "21908668",
+      "15659669",
+      "16566604",
+      "21789199",
+      "26261021",
+      "12029044",
+      "16489762",
+      "15802251",
+      "32086169",
+      "10864496",
+      "21398634",
+      "19508286",
+      "33737179",
+      "16547045",
+      "16573689",
+      "27797181",
+      "15751976",
+      "18485070",
+      "28439033",
+      "29378890",
+      "7667267",
+      "18511073",
+      "31988078",
+      "10369757",
+      "18052209",
+      "16925555",
+      "16619021",
+      "19508285",
+      "33455022",
+      "30039521",
+      "17085574",
+      "23827136",
+      "34400169",
+      "34898263",
+      "23912807",
+      "34694813",
+      "2536750",
+      "35339426",
+      "21057011",
+      "9383188",
+      "25794618",
+      "8895104",
+      "30826056",
+      "10631614",
+      "8830686",
+      "18455186",
+      "11243786",
+      "36601404",
+      "35765457",
+      "23945957",
+      "8501465",
+      "20511500",
+      "17729273",
+      "18186488"
+    ],
+    "review": [
+      "36674477",
+      "25160631",
+      "15802251"
+    ],
+    "pmc": [
+      "9861239"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24020957",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36674477/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36674477",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "38139438",
+    "doi": "10.3390/ijms242417608",
+    "title": "Pathogenic Variants in USH1G/SANS Alter Protein Interaction with Pre-RNA Processing Factors PRPF6 and PRPF31 of the Spliceosome."
+  },
+  "content": {
+    "abstract": "Pre-mRNA splicing is an essential process orchestrated by the spliceosome, a dynamic complex assembled stepwise on pre-mRNA. We have previously identified that USH1G protein SANS regulates pre-mRNA splicing by mediating the intranuclear transfer of the spliceosomal U4/U6.U5 tri-snRNP complex. During this process, SANS interacts with the U4/U6 and U5 snRNP-specific proteins PRPF31 and PRPF6 and regulates splicing, which is disturbed by variants of USH1G/SANS causative for human Usher syndrome (USH), the most common form of hereditary deaf-blindness. Here, we aim to gain further insights into the molecular interaction of the splicing molecules PRPF31 and PRPF6 to the CENTn domain of SANS using fluorescence resonance energy transfer assays in cells and in silico deep learning-based protein structure predictions. This demonstrates that SANS directly binds via two distinct conserved regions of its CENTn to the two PRPFs. In addition, we provide evidence that these interactions occur sequentially and a conformational change of an intrinsically disordered region to a short alpha-helix of SANS CENTn2 is triggered by the binding of PRPF6. Furthermore, we find that pathogenic variants of USH1G/SANS perturb the binding of SANS to both PRPFs, implying a significance for the USH1G pathophysiology.",
+    "keywords": [
+      "AlphaFold2",
+      "FRET",
+      "U4/U6.U5 tri-snRNP",
+      "Usher syndrome",
+      "in silico structure predictions",
+      "protein-protein interaction",
+      "splicing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Eye Proteins/metabolism",
+      "Nerve Tissue Proteins/metabolism",
+      "Ribonucleoprotein, U4-U6 Small Nuclear/metabolism",
+      "RNA Precursors/genetics",
+      "RNA Splicing",
+      "*RNA Splicing Factors/genetics/metabolism",
+      "*Spliceosomes/metabolism",
+      "Transcription Factors/metabolism",
+      "*Usher Syndromes",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fritze, Jacques S",
+        "Stiehler, Felizitas F",
+        "Wolfrum, Uwe"
+      ],
+      "short_names": [
+        "Fritze JS",
+        "Stiehler FF",
+        "Wolfrum U"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8484-8567",
+        "ORCID: 0009-0003-4105-219X",
+        "ORCID: 0000-0002-4756-5872"
+      ],
+      "affiliations": [
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, 55128 Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, 55128 Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, 55128 Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fritze, Jacques S",
+        "short_name": "Fritze JS",
+        "identifiers": [
+          "0000-0001-8484-8567"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Stiehler, Felizitas F",
+        "short_name": "Stiehler FF",
+        "identifiers": [
+          "0009-0003-4105-219X"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Wolfrum, Uwe",
+        "short_name": "Wolfrum U",
+        "identifiers": [
+          "0000-0002-4756-5872"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, 55128 Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Dec 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/23 12:44",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "41301541",
+      "40620763",
+      "39594604"
+    ],
+    "refs": [
+      "37878721",
+      "36843541",
+      "35997788",
+      "35637307",
+      "35226187",
+      "34480923",
+      "34265844",
+      "34201633",
+      "34023904",
+      "33853521",
+      "33673358",
+      "33300174",
+      "33168629",
+      "32946783",
+      "32696356",
+      "32199721",
+      "31644917",
+      "31637240",
+      "30975767",
+      "30315276",
+      "29395379",
+      "29157912",
+      "28781166",
+      "28137943",
+      "28076807",
+      "27541351",
+      "26153368",
+      "25863585",
+      "25482510",
+      "24664740",
+      "24608321",
+      "24452469",
+      "23704327",
+      "23436412",
+      "23045546",
+      "22416277",
+      "21928769",
+      "21767579",
+      "21549338",
+      "21520333",
+      "21441581",
+      "21436032",
+      "21177826",
+      "20142502",
+      "19151095",
+      "18367544",
+      "17923142",
+      "17906286",
+      "17412961",
+      "15712334",
+      "15590703",
+      "15264254",
+      "12754702",
+      "12588794",
+      "12535185",
+      "10753808"
+    ],
+    "similar": [
+      "38139438",
+      "34023904",
+      "11867543",
+      "23793891",
+      "11331595",
+      "34789764",
+      "11331295",
+      "11350945",
+      "18691155",
+      "26743623",
+      "8408296",
+      "27244240",
+      "10788320",
+      "9326489",
+      "28335716",
+      "9085842",
+      "11290703",
+      "8629024",
+      "26106855",
+      "16723661",
+      "31815536",
+      "18334927",
+      "25383878",
+      "28878014",
+      "10545122",
+      "20118938",
+      "29741121",
+      "8248176",
+      "21378395",
+      "29995849",
+      "9199293",
+      "7958870",
+      "26161500",
+      "9328476",
+      "9582287",
+      "11971955",
+      "15994330",
+      "28379520",
+      "10449419",
+      "24190974",
+      "23180092",
+      "9570313",
+      "8479905",
+      "9149533",
+      "10024880",
+      "18211889",
+      "29635373",
+      "8331728",
+      "25762536",
+      "11955014",
+      "9257651",
+      "26385511",
+      "7585254",
+      "31794245",
+      "11720284",
+      "25670679",
+      "16540691",
+      "15840814",
+      "10377396",
+      "15257298",
+      "35188580",
+      "26637280",
+      "9042946",
+      "18425142",
+      "10924465",
+      "11287609",
+      "17052460",
+      "34131137",
+      "7667097",
+      "8330741",
+      "7489502",
+      "10022888",
+      "18567812",
+      "11804584",
+      "28935721",
+      "18425143",
+      "7632731",
+      "8441402",
+      "15314151",
+      "14749385",
+      "38303573",
+      "12970570",
+      "11485990",
+      "30975767",
+      "2969592",
+      "19435883",
+      "18367544",
+      "1740113",
+      "7680101",
+      "12374753",
+      "1396567",
+      "11720285",
+      "10983979",
+      "9539711",
+      "23857713",
+      "28076345",
+      "9528778",
+      "26503251",
+      "38982460",
+      "11823439"
+    ],
+    "review": [
+      "38139438",
+      "31815536",
+      "29741121",
+      "9149533",
+      "29635373"
+    ],
+    "pmc": [
+      "10744108"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38139438/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms242417608",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ushersyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Usher Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38139438/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38139438",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

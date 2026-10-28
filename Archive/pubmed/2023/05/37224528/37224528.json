@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "37224528",
+    "doi": "10.1093/nar/gkad418",
+    "title": "A conserved motif in the disordered linker of human MLH1 is vital for DNA mismatch repair and its function is diminished by a cancer family mutation."
+  },
+  "content": {
+    "abstract": "DNA mismatch repair (MMR) is essential for correction of DNA replication errors. Germline mutations of the human MMR gene MLH1 are the major cause of Lynch syndrome, a heritable cancer predisposition. In the MLH1 protein, a non-conserved, intrinsically disordered region connects two conserved, catalytically active structured domains of MLH1. This region has as yet been regarded as a flexible spacer, and missense alterations in this region have been considered non-pathogenic. However, we have identified and investigated a small motif (ConMot) in this linker which is conserved in eukaryotes. Deletion of the ConMot or scrambling of the motif abolished mismatch repair activity. A mutation from a cancer family within the motif (p.Arg385Pro) also inactivated MMR, suggesting that ConMot alterations can be causative for Lynch syndrome. Intriguingly, the mismatch repair defect of the ConMot variants could be restored by addition of a ConMot peptide containing the deleted sequence. This is the first instance of a DNA mismatch repair defect conferred by a mutation that can be overcome by addition of a small molecule. Based on the experimental data and AlphaFold2 predictions, we suggest that the ConMot may bind close to the C-terminal MLH1-PMS2 endonuclease and modulate its activation during the MMR process.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms, Hereditary Nonpolyposis/genetics/pathology",
+      "*DNA Mismatch Repair",
+      "Genetic Predisposition to Disease",
+      "Germ-Line Mutation",
+      "Mutation",
+      "*MutL Protein Homolog 1/genetics/metabolism",
+      "MutS Homolog 2 Protein/genetics/metabolism",
+      "Nuclear Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wolf, Karla",
+        "Kosinski, Jan",
+        "Gibson, Toby J",
+        "Wesch, Nicole",
+        "Dotsch, Volker",
+        "Genuardi, Maurizio",
+        "Cordisco, Emanuela Lucci",
+        "Zeuzem, Stefan",
+        "Brieger, Angela",
+        "Plotz, Guido"
+      ],
+      "short_names": [
+        "Wolf K",
+        "Kosinski J",
+        "Gibson TJ",
+        "Wesch N",
+        "Dotsch V",
+        "Genuardi M",
+        "Cordisco EL",
+        "Zeuzem S",
+        "Brieger A",
+        "Plotz G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1089-9710",
+        "ORCID: 0000-0001-5314-9739"
+      ],
+      "affiliations": [
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Centre for Structural Systems Biology (CSSB), Hamburg, 22607, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Structural and Computational Biology Unit, Heidelberg, 69117, Germany.",
+        "Institute of Biophysical Chemistry and Center for Biomolecular Magnetic Resonance, Goethe University, Frankfurt am Main, 60438, Germany.",
+        "Institute of Biophysical Chemistry and Center for Biomolecular Magnetic Resonance, Goethe University, Frankfurt am Main, 60438, Germany.",
+        "UOC Genetica Medica, Fondazione Policlinico Universitario A. Gemelli IRCCS, Rome00168, Italy.",
+        "Dipartimento di Scienze della Vita e di Sanita Pubblica, Universita Cattolica del Sacro Cuore, Rome00168, Italy.",
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany.",
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany.",
+        "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wolf, Karla",
+        "short_name": "Wolf K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany."
+        ]
+      },
+      {
+        "full_name": "Kosinski, Jan",
+        "short_name": "Kosinski J",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Centre for Structural Systems Biology (CSSB), Hamburg, 22607, Germany."
+        ]
+      },
+      {
+        "full_name": "Gibson, Toby J",
+        "short_name": "Gibson TJ",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Structural and Computational Biology Unit, Heidelberg, 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Wesch, Nicole",
+        "short_name": "Wesch N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysical Chemistry and Center for Biomolecular Magnetic Resonance, Goethe University, Frankfurt am Main, 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Dötsch, Volker",
+        "short_name": "Dötsch V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysical Chemistry and Center for Biomolecular Magnetic Resonance, Goethe University, Frankfurt am Main, 60438, Germany."
+        ]
+      },
+      {
+        "full_name": "Genuardi, Maurizio",
+        "short_name": "Genuardi M",
+        "identifiers": [],
+        "affiliations": [
+          "UOC Genetica Medica, Fondazione Policlinico Universitario A. Gemelli IRCCS, Rome00168, Italy."
+        ]
+      },
+      {
+        "full_name": "Cordisco, Emanuela Lucci",
+        "short_name": "Cordisco EL",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze della Vita e di Sanità Pubblica, Università Cattolica del Sacro Cuore, Rome00168, Italy."
+        ]
+      },
+      {
+        "full_name": "Zeuzem, Stefan",
+        "short_name": "Zeuzem S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany."
+        ]
+      },
+      {
+        "full_name": "Brieger, Angela",
+        "short_name": "Brieger A",
+        "identifiers": [
+          "0000-0003-1089-9710"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany."
+        ]
+      },
+      {
+        "full_name": "Plotz, Guido",
+        "short_name": "Plotz G",
+        "identifiers": [
+          "0000-0001-5314-9739"
+        ],
+        "affiliations": [
+          "Department of Internal Medicine 1, University Hospital, Goethe University, Frankfurt am Main, 60590, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Jul 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/24 19:13",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "42321856",
+      "41851261",
+      "41480639",
+      "41479393",
+      "40960558",
+      "39260099",
+      "38843250",
+      "37850970"
+    ],
+    "refs": [
+      "36715327",
+      "36413069",
+      "36215471",
+      "35670670",
+      "34718738",
+      "34418423",
+      "34390347",
+      "34265844",
+      "34171627",
+      "33820992",
+      "33619096",
+      "33510387",
+      "32669440",
+      "32586954",
+      "32461654",
+      "31881334",
+      "31598722",
+      "30856214",
+      "30848956",
+      "30541127",
+      "30371878",
+      "28505149",
+      "28453523",
+      "28439008",
+      "27851738",
+      "27198632",
+      "27166375",
+      "26796427",
+      "26719141",
+      "26588162",
+      "26581338",
+      "26436461",
+      "26384423",
+      "26283381",
+      "26163658",
+      "25477341",
+      "25038412",
+      "24926813",
+      "24606139",
+      "24204293",
+      "23458856",
+      "23435383",
+      "23403630",
+      "23343769",
+      "23012240",
+      "22682745",
+      "22659005",
+      "22505031",
+      "22118461",
+      "22106262",
+      "21953455",
+      "21520333",
+      "21454657",
+      "21354867",
+      "21278758",
+      "20706999",
+      "20657586",
+      "20603082",
+      "20533529",
+      "20100603",
+      "19151095",
+      "18619468",
+      "18206974",
+      "17951253",
+      "17148452",
+      "17135187",
+      "16905530",
+      "16873062",
+      "16446358",
+      "16407973",
+      "16303135",
+      "16204460",
+      "16188885",
+      "16143102",
+      "16083711",
+      "15952900",
+      "15943980",
+      "15943979",
+      "15470502",
+      "15318951",
+      "15225546",
+      "15173120",
+      "14579347",
+      "12799449",
+      "12682353",
+      "12006560",
+      "11948175",
+      "11809883",
+      "11781295",
+      "11575920",
+      "11179891",
+      "11062484",
+      "11005803",
+      "10747992",
+      "10573010",
+      "10397236",
+      "10325421",
+      "10199405",
+      "10078208",
+      "9827806",
+      "9677427",
+      "9024626",
+      "8805365",
+      "8600025",
+      "8505985",
+      "7604265",
+      "7549435",
+      "3014530",
+      "2834393",
+      "2651430"
+    ],
+    "similar": [
+      "37224528",
+      "34407589",
+      "31386297",
+      "27601186",
+      "19526325",
+      "17312306",
+      "24323032",
+      "34048176",
+      "19728162",
+      "22371642",
+      "36215471",
+      "19690142",
+      "19479271",
+      "26552419",
+      "33619096",
+      "22552011",
+      "33452216",
+      "21911971",
+      "17054581",
+      "36073783",
+      "25871621",
+      "30044143",
+      "22067175",
+      "20373145",
+      "24493211",
+      "29107668",
+      "24443998",
+      "28669579",
+      "35149321",
+      "31491536",
+      "31273487",
+      "22017758",
+      "30989425",
+      "31926173",
+      "30998989",
+      "34302852",
+      "31248416",
+      "30324682",
+      "26248088",
+      "26873718",
+      "18022218",
+      "24204293",
+      "19672700",
+      "31307542",
+      "33577226",
+      "31932681",
+      "35616648",
+      "24989436",
+      "26544533",
+      "22034109",
+      "20533529",
+      "28640387",
+      "26826556",
+      "30608896",
+      "26895074",
+      "30423605",
+      "31997046",
+      "31391288",
+      "31207149",
+      "28772289",
+      "21681552",
+      "32448028",
+      "34798986",
+      "34172528",
+      "21233718",
+      "26895986",
+      "22368298",
+      "23712482",
+      "26143115",
+      "16636019",
+      "33046565",
+      "20937110",
+      "29055842",
+      "32197529",
+      "34091457",
+      "26116798",
+      "25782445",
+      "17189986",
+      "24333619",
+      "26109217",
+      "30148743",
+      "22933731",
+      "37001204",
+      "34397043",
+      "16740762",
+      "17453009",
+      "23385444",
+      "27013479",
+      "25742745",
+      "29164703",
+      "11793442",
+      "24643686",
+      "32002723",
+      "36907525",
+      "37691472",
+      "38557488",
+      "39032648",
+      "38255924",
+      "37424007",
+      "30541127",
+      "38271119",
+      "38786078"
+    ],
+    "review": [
+      "37224528",
+      "24443998",
+      "31273487",
+      "26873718",
+      "24989436",
+      "26895074",
+      "34798986",
+      "22368298",
+      "26143115"
+    ],
+    "pmc": [
+      "10325900"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37224528/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37224528",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad418",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

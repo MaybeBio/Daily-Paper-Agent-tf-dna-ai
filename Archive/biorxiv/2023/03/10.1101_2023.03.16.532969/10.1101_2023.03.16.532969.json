@@ -1,0 +1,454 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.16.532969",
+  "title": "Benchmarking of deep neural networks for predicting personal gene expression from DNA sequence highlights shortcomings",
+  "doi": "10.1101/2023.03.16.532969",
+  "abstract": "Introductory Paragraph Deep learning methods have recently become the state-of-the-art in a variety of regulatory genomic tasks 1–6 including the prediction of gene expression from genomic DNA. As such, these methods promise to serve as important tools in interpreting the full spectrum of genetic variation observed in personal genomes. Previous evaluation strategies have assessed their predictions of gene expression across genomic regions, however, systematic benchmarking is lacking to assess their predictions across individuals, which would directly evaluates their utility as personal DNA interpreters. We used paired Whole Genome Sequencing and gene expression from 839 individuals in the ROSMAP study 7 to evaluate the ability of current methods to predict gene expression variation across individuals at varied loci. Our approach identifies a limitation of current methods to correctly predict the direction of variant effects. We show that this limitation stems from insufficiently learnt sequence motif grammar, and suggest new model training strategies to improve performance.",
+  "authors": [
+    "Alexander Sasse",
+    "Bernard Ng",
+    "Anna E. Spiro",
+    "Shinya Tasaki",
+    "David A. Bennett",
+    "Christopher Gaiteri",
+    "Philip L. De Jager",
+    "Maria Chikina",
+    "Sara Mostafavi"
+  ],
+  "published_date": "2023-03-20",
+  "updated_date": "2023-03-20T13:25:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.16.532969",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.16.532969.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2026-03-03T13:58:25Z",
+        "timestamp": 1772546305513,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 31,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  <jats:bold>Introductory Paragraph</jats:bold>\n                </jats:p>\n                <jats:p>\n                  Deep learning methods have recently become the state-of-the-art in a variety of regulatory genomic tasks\n                  <jats:sup>1–6</jats:sup>\n                  including the prediction of gene expression from genomic DNA. As such, these methods promise to serve as important tools in interpreting the full spectrum of genetic variation observed in personal genomes. Previous evaluation strategies have assessed their predictions of gene expression across genomic regions, however, systematic benchmarking is lacking to assess their predictions across individuals, which would directly evaluates their utility as personal DNA interpreters. We used paired Whole Genome Sequencing and gene expression from 839 individuals in the ROSMAP study\n                  <jats:sup>7</jats:sup>\n                  to evaluate the ability of current methods to predict gene expression variation across individuals at varied loci. Our approach identifies a limitation of current methods to correctly predict the direction of variant effects. We show that this limitation stems from insufficiently learnt sequence motif grammar, and suggest new model training strategies to improve performance.\n                </jats:p>",
+      "DOI": "10.1101/2023.03.16.532969",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ],
+        "date-time": "2023-03-20T13:25:12Z",
+        "timestamp": 1679318712000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 20,
+      "title": [
+        "Benchmarking of deep neural networks for predicting personal gene expression from DNA sequence highlights shortcomings"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Alexander",
+          "family": "Sasse",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bernard",
+          "family": "Ng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anna E.",
+          "family": "Spiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3656-7394",
+          "authenticated-orcid": false,
+          "given": "Shinya",
+          "family": "Tasaki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David A.",
+          "family": "Bennett",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christopher",
+          "family": "Gaiteri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8057-2505",
+          "authenticated-orcid": false,
+          "given": "Philip L.",
+          "family": "De Jager",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Maria",
+          "family": "Chikina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sara",
+          "family": "Mostafavi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "354",
+          "DOI": "10.1038/s41588-021-00782-6",
+          "article-title": "Base-resolution models of transcription-factor binding reveal soft motif syntax",
+          "volume": "53",
+          "year": "2021",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.3"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0420-0"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "725",
+          "DOI": "10.1038/s41588-022-01065-4",
+          "article-title": "Sequence-based modeling of three-dimensional genome architecture from kilobase to chromosome scale",
+          "volume": "54",
+          "year": "2022",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-020-00761-3"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "180142",
+          "DOI": "10.1038/sdata.2018.142",
+          "article-title": "A multi-omic atlas of the human frontal cortex for aging and Alzheimer’s disease research",
+          "volume": "5",
+          "year": "2018",
+          "journal-title": "Sci Data"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.200535.115"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01562-8"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2011795117"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-022-01102-2"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00947-3"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10. 1038/s41588-018-0160-6"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-022-00532-2"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23134-8"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1186/s13059-023-02899-9",
+          "article-title": "Current sequence-based models capture gene expression determinants in promoters but mostly ignore distal enhancers",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3367"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0196-7"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "S161",
+          "DOI": "10.3233/JAD-179939",
+          "article-title": "Religious Orders Study and Rush Memory and Aging Project",
+          "volume": "64",
+          "year": "2018",
+          "journal-title": "J. Alzheimers. Dis."
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41593-018-0154-9"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.155192.113"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature24277"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.24",
+          "first-page": "3319",
+          "volume-title": "Proceedings of the 34th International Conference on Machine Learning",
+          "volume": "70",
+          "year": "2017"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.8274879"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41593-018-0154-9"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3679"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-022-00532-2"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.30",
+          "first-page": "3319",
+          "volume-title": "Proceedings of the 34th International Conference on Machine Learning",
+          "volume": "70",
+          "year": "2017"
+        },
+        {
+          "key": "2023100406400805000_2023.03.16.532969v4.31",
+          "unstructured": "Simonyan, K. , Vedaldi, A. & Zisserman, A . Visualising image classification models and saliency maps. Deep Inside Convolutional Networks."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.16.532969",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:25:37Z",
+        "timestamp": 1768451137000
+      },
+      "score": 66.96973,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.16.532969"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 31,
+      "URL": "https://doi.org/10.1101/2023.03.16.532969",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41588-023-01524-6",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

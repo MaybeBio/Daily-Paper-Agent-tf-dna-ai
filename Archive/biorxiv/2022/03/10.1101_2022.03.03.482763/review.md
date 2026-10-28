@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report that a deep learning approach, combining DeeperBind with DeepRAM on the Colab platform, can predict MYC transcription factor binding sites across the genome with an accuracy above 0.96 AUC when trained on multiple cell lines. They further claim that analysis of learned filters in DeeperBind models recovers the canonical CACGTG motif and also identifies G/C box and TGGGA motifs associated with SP1 and MIZ-1, respectively, which are known mediators of MYC repressive response. The authors conclude that such machine learning tools can synergize with biological experiments to reduce time-consuming experimental work.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials are provided.
+- **Missing materials affecting confidence** Full manuscript, methods description, training and validation datasets, model architecture details, performance metrics with confidence intervals, motif analysis procedures, and any comparison with existing tools. None of these are available for assessment.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of existing deep learning tools to MYC binding site prediction. However, the claims are supported by minimal quantitative detail and no methodological transparency. The reported AUC of 0.96 is stated without context regarding dataset composition, cross-validation strategy, or comparison to baseline methods. The motif analysis claim is intriguing but lacks any description of how filters were interpreted or validated. As presented, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding prediction, as well as cancer researchers studying MYC biology, would find the approach relevant. The potential to reduce experimental burden in personalized oncology settings is of broad interest, but the current abstract does not provide enough evidence to convince these communities.
+- **Major strengths** The problem addressed is of high biological and clinical importance. The use of established deep learning tools is pragmatic. The observation that learned filters recover known co-factor motifs is conceptually interesting and could provide biological insight beyond simple binding prediction.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DeeperBind with DeepRAM on Colab can predict MYC binding sites with accuracy above 0.96 AUC when trained with multiple cell lines.
+  - **Evidence pointer** Abstract, Results section. Location not provided.
+  - **Concern** The abstract provides no details on the training data, including which cell lines were used, how many samples, how binding sites were defined, or how negative sets were constructed. The AUC value is reported without confidence intervals, cross-validation details, or comparison to a baseline model. Without this information, the reported performance cannot be evaluated for reliability or generalizability.
+  - **Why it matters** AUC values are highly dependent on dataset composition and evaluation protocol. A value of 0.96 may reflect dataset leakage, imbalanced classes, or overfitting rather than genuine predictive power. The claim of effective prediction is central to the paper's contribution, and it is currently unsupported.
+  - **Resolution test** Provide a detailed description of datasets, including cell lines, genomic regions, positive and negative definitions, and train/test splits. Report AUC with standard deviations across multiple runs or cross-validation folds. Include a comparison with at least one existing MYC binding prediction method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that analysis of filters in DeeperBind trained models shows the consensus sequence CACGTG and also G/C box and TGGGA motifs bound by SP1 and MIZ-1.
+  - **Evidence pointer** Abstract, Results section. Location not provided.
+  - **Concern** The abstract states that filter analysis reveals these motifs, but no methodology is described for how filters were converted to motifs, how significance was assessed, or how the association with SP1 and MIZ-1 was established. The claim that these motifs are "known to mediate the MYC repressive response" is presented without citation or context.
+  - **Why it matters** The recovery of known co-factor motifs is a potentially valuable biological finding, but without a rigorous motif discovery and validation procedure, the claim is anecdotal. The link between these motifs and MYC repressive response is not established in the abstract and requires supporting evidence.
+  - **Resolution test** Describe the filter interpretation method, such as position weight matrix extraction or in silico motif scanning. Provide statistical enrichment scores for each motif against a background model. Cite or present experimental evidence linking SP1 and MIZ-1 motifs to MYC repression in the relevant cell types.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the use of DeeperBind with DeepRAM on Colab platform can effectively predict MYC binding sites.
+  - **Evidence pointer** Abstract, Results section. Location not provided.
+  - **Concern** The abstract does not specify the software versions, hyperparameters, or any code or data availability. The use of Colab is mentioned, but no details on runtime, memory, or reproducibility are given. The combination of DeeperBind and DeepRAM is not described in terms of how the two tools are integrated.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without precise implementation details, other researchers cannot replicate the results or apply the method to their own data. The claim of effectiveness is therefore not independently verifiable.
+  - **Resolution test** Provide a detailed methods section with software versions, parameter settings, and a link to a public repository containing code and processed data. Describe the exact pipeline for combining DeeperBind and DeepRAM.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Motivation section
+  - **Evidence pointer** Abstract, Motivation section. Location not provided.
+  - **Issue** The sentence "This approach, although powerful, is very time consuming and cannot be routinely applied to tumours of individual patients" is incomplete. The approach is not named in the preceding sentence, which refers to chromatin immunoprecipitation, but the connection is implicit and could be clearer.
+  - **Required correction** Rewrite to explicitly state that chromatin immunoprecipitation is the experimental approach that is time consuming and not routinely applicable to individual patient tumors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section. Location not provided.
+  - **Issue** The phrase "accuracy above 0.96 AUC" is imprecise. AUC is a measure of area under the ROC curve, not accuracy. The term "accuracy" is misleading.
+  - **Required correction** Replace with "area under the ROC curve (AUC) above 0.96" to use the correct terminology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section. Location not provided.
+  - **Issue** The abstract mentions "multiple cell lines" but does not specify which ones. This omission limits the reader's ability to assess the relevance of the findings to specific cancer types.
+  - **Required correction** List the cell lines used in training and validation, or state that the full list is provided in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Abstract, Motivation section
+  - **Evidence pointer** Abstract, Motivation section. Location not provided.
+  - **Issue** The phrase "devise new directions and approaches to experiments first and personalized and more effective therapeutic treatments for a single patient later on" is awkward and grammatically unclear.
+  - **Required correction** Rephrase for clarity, for example, "may help devise new experimental directions and, ultimately, personalized therapeutic strategies for individual patients."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of predictive performance and motif recovery are not supported by the supplied abstract. Reproducibility is not addressed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of existing deep learning tools to MYC binding is not novel in itself, but the specific focus on MYC and the motif analysis angle may offer some originality. However, this is not demonstrated from the abstract.
+  - Scientific importance: The problem is important given MYC's role in cancer. If the method were validated, it could have practical value. But the abstract does not establish this.
+  - Interdisciplinary readership: The topic bridges machine learning and cancer biology, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, but the lack of technical detail limits its usefulness.
+  - Technical soundness: Not assessable from the abstract. The reported AUC and motif findings lack methodological support.
+  - Readability for nonspecialists: The abstract is generally readable, but some sentences are unclear and the terminology is used imprecisely.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide a full manuscript with detailed methods, dataset descriptions, and validation results before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim of predictive accuracy above 0.96 AUC is unsupported due to missing dataset and evaluation details.
+- The claim that filter analysis reveals CACGTG, G/C box, and TGGGA motifs is unsupported without a described motif discovery method.
+- The claim that these motifs are associated with MYC repressive response is unsupported without citations or experimental evidence.
+- The claim of synergy between machine learning and biological experiments is a general statement that is not substantiated by specific results.

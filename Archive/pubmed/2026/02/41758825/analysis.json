@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41758825",
+  "title": "Annotation-free prediction of immunotherapy response in melanoma using single-cell transcriptomic data.",
+  "authors": "Oh, Da Eun; Kee, Gaeun; Oh, Ji-Hye; Kim, Wonkyung; Kang, Young Gwang; Park, Chae Won; Jun, Tae Joon; Sung, Chang Ohk",
+  "journal": "PloS one",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用单细胞转录组数据预测黑色素瘤免疫治疗反应，核心是免疫应答生物标志物，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Immune checkpoint inhibitors (ICIs) have transformed the advanced melanoma treatment landscape; however, a subset of patients achieve durable responses. Current biomarkers, such as PD-L1 expression and tumor mutational burden, offer limited predictive power due to the profound heterogeneity of melanoma. Accordingly, we developed an artificial intelligence (AI)-based model to predict ICI responsiveness using single-cell RNA sequencing (scRNA-seq) data without requiring cell type annotation. scRNA-seq data profiled using Smart-seq2 platform were downloaded from a public repository (GEO: GSE120575). From these data, we analyzed 16,290 tumor-infiltrating cells from melanoma scRNA-seq dataset. Various AI-based models, including Extreme Gradient Boosting, Random Forest, Logistic Regression, Support Vector Machine, Feedforward Neural Network, and Convolutional Neural Network were constructed, with the best-performing model achieving an area under the curve of 0.87. This AI-driven approach identified 29 key predictive biomarkers, including CCR7 and MTRNR2L2. Validation using three independent bulk RNA-seq datasets (cBioPortal: DFCI melanoma; ENA: PRJEB23709; GEO: GSE91061) suggested that CCR7 was associated with favorable ICI response and improved survival, whereas MTRNR2L2 showed a tendency toward enrichment in non-responders and poorer outcomes. Cell-type-specific expression analysis revealed that CCR7 was primarily expressed in B cells and memory T cells from responders, whereas MTRNR2L2 was elevated in exhausted and cytotoxic T cells in non-responders. CCR7-positive B cells exhibited activation of the NF-kappaB pathway and demonstrated prognostic significance independent of the melanoma primary site or histologic subtype. However, among the three molecular subtypes, including immune, keratin, and microphthalmia-associated transcription factor (MITF)-low, CCR7 expression was significantly associated with the immune subtype. Additionally, pathway-level deep learning models reinforced these findings, highlighting immune activation in responders and cell cycle-related signals in non-responders. Our study demonstrates that predictive modeling based on unannotated scRNA-seq data enables clinically relevant biomarker identification, offering a robust approach for patients with stratifying melanoma and guiding personalized immunotherapy.",
+  "abstract_zh": "免疫检查点抑制剂（ICIs）已改变了晚期黑色素瘤的治疗格局；然而，仅有一部分患者能获得持久应答。由于黑色素瘤的深度异质性，现有生物标志物（如PD-L1表达和肿瘤突变负荷）的预测能力有限。为此，我们开发了一种基于人工智能（AI）的模型，利用单细胞RNA测序（scRNA-seq）数据预测ICI应答性，且无需细胞类型注释。从公共数据库（GEO: GSE120575）下载了使用Smart-seq2平台分析的scRNA-seq数据。从这些数据中，我们分析了黑色素瘤scRNA-seq数据集中的16,290个肿瘤浸润细胞。构建了多种基于AI的模型，包括极端梯度提升、随机森林、逻辑回归、支持向量机、前馈神经网络和卷积神经网络，其中表现最佳的模型达到了0.87的曲线下面积。这种AI驱动方法识别出29个关键预测性生物标志物，包括CCR7和MTRNR2L2。使用三个独立的批量RNA-seq数据集（cBioPortal: DFCI黑色素瘤；ENA: PRJEB23709；GEO: GSE91061）进行验证，结果表明CCR7与良好的ICI应答和改善的生存期相关，而MTRNR2L2则倾向于在无应答者中富集并与较差预后相关。细胞类型特异性表达分析显示，CCR7主要表达于应答者的B细胞和记忆T细胞中，而MTRNR2L2在无应答者的耗竭型和细胞毒性T细胞中表达升高。CCR7阳性B细胞表现出NF-kappaB通路的激活，并显示出独立于黑色素瘤原发部位或组织学亚型的预后意义。然而，在包括免疫型、角质型和微phthalmia相关转录因子（MITF）-低表达型在内的三种分子亚型中，CCR7表达与免疫型显著相关。此外，通路水平的深度学习模型强化了这些发现，突出显示了应答者中的免疫激活和无应答者中的细胞周期相关信号。我们的研究表明，基于未注释scRNA-seq数据的预测建模能够实现临床相关的生物标志物识别，为黑色素瘤患者分层和指导个性化免疫治疗提供了一种稳健的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41758825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41758825/",
+  "paper_page_path": "papers/pubmed/41758825/index.html"
+}

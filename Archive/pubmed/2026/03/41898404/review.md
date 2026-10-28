@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and conclusions. No supplementary figures or tables were provided for review.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and clarity of presentation. No assessment of language editing or formatting beyond what affects scientific comprehension.
+- **Shared manuscript claim summary** The authors propose a machine learning-based workflow to identify tissue-specific cis-regulatory modules (CRMs) from transcriptomic data and known transcription factor binding site (TFBS) motifs, and use this to design a synthetic root-specific promoter (PRTS1) in poplar, validated by transient expression and GUS staining.
+- **Visible evidence base** Main text figures (Figures 1-6), in-text references to supplementary tables (Tables S1-S9) and figures (Figures S1-S7), and methodological descriptions in Section 4.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S7, S1-S9) were not provided. Raw RNA-seq data, model performance metrics beyond micro-F1 scores, detailed promoter construct maps, and quantitative GUS activity measurements are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful workflow for integrating machine learning with synthetic promoter design, and the successful identification of a root-specific synthetic promoter is encouraging. However, the evidence as presented is insufficient to fully establish the generalizability and robustness of the approach. Key methodological details, quantitative validation data, and supplementary materials are missing, which limits the ability to assess the strength of the claims. The work is of interest to the plant synthetic biology community, but requires substantial revision and additional data to be convincing.
+- **Who would be interested in the results, and why** Researchers in plant synthetic biology, genetic engineering, and functional genomics would be interested. The work addresses a bottleneck in synthetic promoter design, namely the identification of functional tissue-specific regulatory elements. The proposed workflow, if validated, could be applied to other tissues and species, which is of broad relevance to targeted gene expression in crop improvement and biotechnology.
+- **Major strengths** The study addresses a significant and timely problem in plant biotechnology. The integration of transcriptomic data, TFBS motif scanning, and machine learning for CRM discovery is a logical and potentially powerful approach. The experimental validation, including the contrast between PRTS1 (functional) and PRTS2 (non-functional), provides a useful internal control. The use of a rapid infiltration assay for screening in poplar is practical and time-efficient.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that machine learning can effectively decipher regulatory codes to predict functional CRMs is central to the paper.
+  - **Evidence pointer** Section 2.4, Figure 3, Table S6, Table S7, Table S8
+  - **Concern** The predictive performance of the random forest models is reported as micro-F1 scores of 0.765-0.771 for P. tomentosa. This is described as "moderate accuracy." However, the manuscript does not report precision, recall, or a comparison against a baseline model (e.g., a model trained on shuffled features or a simple frequency-based classifier). The feature importance scores are derived from these models, and the selection of the 50 top-ranked TFBSs is based on these scores. Without a clear demonstration that the model's predictive power is significantly better than chance, the biological relevance of the selected TFBSs is not firmly established.
+  - **Why it matters** The entire downstream analysis, including the selection of CRM regions for the synthetic promoters, depends on the validity of the feature importance scores. If the model is not genuinely predictive, the selected TFBSs may be spurious, and the success of PRTS1 could be coincidental or due to other factors not accounted for.
+  - **Resolution test** Provide a more complete set of performance metrics (precision, recall, F1 per class, ROC-AUC) for the models. Include a comparison against a null model (e.g., with randomly permuted labels) to demonstrate that the model learns a real signal. Show that the selected top-50 TFBSs perform better in a held-out validation set than randomly selected TFBSs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PRTS1 is a root-specific synthetic promoter is based on GUS staining patterns.
+  - **Evidence pointer** Section 2.6, Figure 5, Section 4.12
+  - **Concern** The validation of PRTS1 relies on qualitative GUS histochemical staining. The manuscript states that "PRTS1 exhibited significant root-specific GUS expression" but provides no quantitative data, such as MUG fluorometric assays or qRT-PCR of GUS transcript levels, to support this. The authors acknowledge this limitation in the Discussion. Without quantitative measurements, it is impossible to assess the strength of the promoter, the degree of root-specificity (e.g., leakiness in other tissues), or the consistency across biological replicates. The statement that 10 independent tobacco lines showed 100% concordance is mentioned but not shown in the provided materials.
+  - **Why it matters** The central claim of the paper is the successful design of a root-specific promoter. Qualitative staining is insufficient to support this claim robustly, especially for a synthetic promoter intended for precise gene expression. The lack of quantitative data prevents comparison with other promoters and undermines the practical utility of the findings.
+  - **Resolution test** Provide quantitative GUS activity measurements (MUG assay) or GUS transcript levels (qRT-PCR) from at least three independent biological replicates for each tissue (root, stem, leaf) in both tobacco and poplar. Show statistical analysis (e.g., ANOVA with post-hoc tests) demonstrating significant root-specific enrichment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The workflow is presented as a systematic method for identifying tissue-specific CRMs.
+  - **Evidence pointer** Section 2.7, Figure 6, Section 4.8
+  - **Concern** The description of the machine learning pipeline is incomplete. The manuscript mentions using a random forest model with a grid search for hyperparameter tuning, but does not specify the exact features used (e.g., presence/absence of TFBSs, number of TFBSs, positional information), the class balancing strategy, or the exact definition of the training and test sets. The selection of the "top 50" TFBSs is mentioned, but the criteria for this selection (e.g., based on importance score threshold, or a fixed number) are not fully detailed. This lack of detail hinders reproducibility.
+  - **Why it matters** For a methods-oriented paper, the reproducibility of the computational workflow is critical. Other researchers should be able to apply the same pipeline to their own data. The current description is too vague to allow this.
+  - **Resolution test** Provide a detailed step-by-step description of the pipeline, including all parameters, thresholds, and software versions. Make the code and processed data available in a public repository (e.g., GitHub, Zenodo) to allow others to replicate the analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the approach offers "significant potential for advancing targeted gene expression systems in plant biotechnology."
+  - **Evidence pointer** Section 3, Discussion
+  - **Concern** The generalizability of the approach is not demonstrated. The workflow is applied to a single gene (PopRTS1) in poplar. While the authors argue that the TFBSs were derived from genome-wide analyses, the experimental validation is limited to one promoter. It is unclear whether the same approach would work for other root-specific genes or for other tissues. The manuscript does not discuss the potential limitations of using known TFBS PWMs, which may miss novel or species-specific motifs.
+  - **Why it matters** The broader impact of the work depends on its generalizability. A proof-of-concept on a single gene is a useful starting point, but the claims of broad applicability are not yet supported by the evidence.
+  - **Resolution test** Apply the workflow to at least one additional root-specific gene and one gene specific to another tissue (e.g., leaf or xylem) to demonstrate that the approach is not gene-specific. Discuss the limitations of the PWM-based approach and potential strategies to overcome them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section 2.1, Figure 1
+  - **Issue** The description of the t-SNE clustering analysis is brief. It is unclear what features were used for clustering (e.g., all genes, differentially expressed genes) and how many dimensions were used.
+  - **Required correction** Clarify the input data and parameters for the t-SNE analysis in the Methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, Figure 2
+  - **Issue** The criteria for defining "conserved" TFBSs are not fully explained. The manuscript mentions "top 38 (top 10%) most highly conserved motifs," but the metric for conservation is not defined.
+  - **Required correction** Define the conservation metric (e.g., information content, frequency) and the threshold used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5, Figure 4
+  - **Issue** The rationale for selecting the specific regions (RTS1 and RTS2) within the PopRTS1 promoter is not clearly explained. It is stated that they were selected based on the frequency and position of TFBSs, but the specific criteria are not detailed.
+  - **Required correction** Provide a clear explanation of the selection criteria for the CRM regions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.9
+  - **Evidence pointer** Section 4.9
+  - **Issue** The description of the plasmid construction is dense and could be clearer. The relationship between the native promoter, the synthetic fragments, and the vector backbone is not immediately obvious.
+  - **Required correction** Consider adding a schematic diagram of the constructs and a clearer step-by-step description of the cloning process.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.10
+  - **Evidence pointer** Section 4.10
+  - **Issue** The transient assay in poplar is described as using "84k seedlings" dipped into infiltration medium. The manuscript does not specify how many seedlings were used per construct or how the transformation frequency was calculated.
+  - **Required correction** Provide details on the number of biological replicates and the method for calculating transformation frequency.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (quantitative promoter validation), R1-M3 (reproducibility of the computational pipeline).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of machine learning with TFBS motif scanning for tissue-specific CRM discovery in plants is a novel approach, though it builds on existing work in the field. The specific application to poplar and the experimental validation are original contributions.
+  - **Scientific importance** The problem of designing tissue-specific promoters is of high importance for plant biotechnology. However, the current evidence, limited to a single gene and lacking quantitative validation, does not yet establish the broad significance claimed by the authors.
+  - **Interdisciplinary readership** The work is primarily of interest to plant molecular biologists and synthetic biologists. The machine learning aspect is relatively straightforward and may not attract a broader computational audience. The potential for application in forestry and bioenergy could broaden its appeal.
+  - **Technical soundness** The computational approach is reasonable but under-validated. The experimental validation is qualitative and lacks the rigor needed to support the central claims. The manuscript would benefit from more detailed methods and additional control experiments.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The workflow is described in a logical manner. However, some sections, particularly the methods, are dense and could be clarified for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging. However, the manuscript in its current form does not provide sufficient evidence to fully support the claims of a systematic and generalizable method. The authors must address the major concerns regarding model validation, quantitative promoter analysis, and methodological detail before the work can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the machine learning model can "effectively decipher regulatory codes" is not fully supported without a demonstration that the model's predictive performance is significantly better than a null model.
+- The claim that PRTS1 is a "root-specific synthetic promoter" is not quantitatively supported; the evidence is based on qualitative GUS staining.
+- The claim that the approach is "systematic" and "feasible" for general use is not supported by the limited validation on a single gene.
+- The claim that the identified TFBSs are "informative" for tissue specificity is based on model feature importance scores, which are not validated against an independent dataset or experimental perturbation.
+- The statement that "10 independent tobacco lines per construct exhibited 100% concordance" is not verifiable from the provided materials, as the data are not shown.

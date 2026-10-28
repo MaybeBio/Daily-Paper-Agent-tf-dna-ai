@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without supplementary figures, tables, or source data.
+- **Assessment boundary** Evaluation of the scientific claims, methodological soundness, and presentation based solely on the provided manuscript text. Supplementary materials are referenced but not available for review.
+- **Shared manuscript claim summary** The authors present SigXTalk, a machine learning-based method that uses hypergraph learning to identify and quantify crosstalk between cell-cell communication (CCC) pathways from single-cell RNA sequencing data. The method introduces two metrics, fidelity and specificity, to measure the selectivity of signaling pathways. The authors claim that SigXTalk outperforms existing methods in recovering known regulatory pathways, identifies biologically meaningful crosstalk in disease contexts (HNSCC, COVID-19), and can track pathway evolution over time.
+- **Visible evidence base** Main text figures (Figs. 1-7) are described but not visible. Methods section provides mathematical formulations for pathway activity, fidelity, specificity, and activation index. Simulation and real-data benchmarking results are summarized in text.
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced as Supplementary Fig. 1-7, Supplementary Tables 1-2, Supplementary Notes 1-4), source data files, and all actual figure images are not provided. This limits verification of quantitative results, statistical analyses, and visual data presentations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in CCC analysis by considering pathway crosstalk, a biologically relevant phenomenon often ignored. The hypergraph-based approach is conceptually novel and the metrics of fidelity and specificity are intuitive. However, the current evidence base is insufficient to fully evaluate the method's performance, robustness, and biological validity. Several technical details require clarification, and the benchmarking against existing methods may be biased by the evaluation metric choice. The biological applications are suggestive but lack experimental validation.
+- **Who would be interested in the results, and why** Researchers in computational biology, especially those developing and applying methods for cell-cell communication inference, gene regulatory network reconstruction, and single-cell transcriptomics. Biologists studying signaling pathway crosstalk in development, cancer, and disease would also find the concepts of fidelity and specificity useful for interpreting their data.
+- **Major strengths**
+  1. Addresses a significant and underappreciated problem: crosstalk between CCC pathways.
+  2. Introduces a novel hypergraph-based framework that captures higher-order regulatory relationships.
+  3. Provides quantitative metrics (fidelity, specificity) that offer a systematic way to analyze pathway selectivity.
+  4. Demonstrates applicability across multiple datasets and biological contexts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Benchmarking using simulation and real-world data shows the effectiveness, robustness, and accuracy in identifying key shared molecules among crosstalk pathways."
+  - **Evidence pointer** Results section "Performance evaluation of SigXTalk", Figure 2
+  - **Concern** The benchmarking methodology is inadequately described. The authors compare against 12 GRN inference methods by multiplying their pairwise scores (signal-TF and TF-target) to obtain a pathway score. This approach may disadvantage methods not designed for this task. More critically, the evaluation metric (AUROC/AUPRC) is based on recovering known pathways from a prior database, which may not reflect true biological accuracy. The choice of negative samples (random combinations not in the prior database) could inflate performance if the prior database is incomplete. The authors should provide a more rigorous benchmarking framework, including comparison against methods specifically designed for pathway-level inference, and use multiple evaluation metrics.
+  - **Why it matters** Without a fair and robust benchmarking, the claimed superiority of SigXTalk is not established. The evaluation metric may not capture the method's actual utility in identifying biologically relevant crosstalk.
+  - **Resolution test** Provide a detailed description of the benchmarking setup, including how negative samples are generated, how the prior database completeness is assessed, and how the choice of evaluation metric affects conclusions. Include comparisons against methods that infer pathway-level activities, and validate findings using independent experimental data or known biological interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "A hypergraph learning framework is employed to predict the regulatory relationships among them."
+  - **Evidence pointer** Methods section "Construction of intracellular regulatory hypergraph" and "Identifying activated regulatory pathways via a hypergraph learning framework"
+  - **Concern** The hypergraph construction and learning framework are not described in sufficient detail. The initial hypergraph is built using a prior database (NicheNet), but the criteria for including edges, the threshold φ, and the handling of conflicting or missing interactions are unclear. The training procedure for the hypergraph neural network, including the choice of positive and negative samples, the loss function, and the validation strategy, is only briefly mentioned. The authors state that a "supervised or self-supervised strategy" can be used, but the specific implementation and its implications for performance are not discussed.
+  - **Why it matters** The core methodological contribution is the hypergraph learning framework. Without a clear and reproducible description, the method cannot be evaluated or implemented by others. The choice of training strategy (supervised vs. self-supervised) could significantly affect results.
+  - **Resolution test** Provide a complete algorithmic description of the hypergraph construction, including the φ threshold selection, the training data generation (positive and negative samples), the network architecture, and the training hyperparameters. Discuss the trade-offs between supervised and self-supervised approaches and justify the chosen strategy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Analysis of disease data shows SigXTalk's capability in identifying crucial signals, targets, regulatory networks, and CCC patterns that distinguish different disease conditions."
+  - **Evidence pointer** Results sections "Quantifying the fidelity and specificity of crosstalk", "Contrasting regulatory patterns between healthy and diseased tissues", Figures 4, 5
+  - **Concern** The biological applications are presented as descriptive case studies without quantitative validation or comparison against known biology. For example, in the HNSCC analysis, the claim that SigXTalk identifies "biologically meaningful pathways" is supported only by literature references, not by independent experimental validation or statistical enrichment analysis. Similarly, the COVID-19 analysis identifies potential pathways but does not demonstrate their functional relevance. The temporal analysis (Figure 6) shows changes in pathway activity but lacks statistical testing for significance.
+  - **Why it matters** For a computational method to be impactful, its predictions must be biologically validated. Descriptive case studies without rigorous validation do not establish the method's utility for generating testable hypotheses.
+  - **Resolution test** Include quantitative validation of key predictions, such as enrichment analysis for known biological processes, comparison with experimental perturbation data, or validation in independent cohorts. Provide statistical measures of confidence for the identified pathways and their changes over time.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "SigXTalk can distinguish the cells according to their response to CCC signals, which leads to a finer CCC landscape."
+  - **Evidence pointer** Results section "Refining cell-cell communication inference by incorporating crosstalk", Figure 7
+  - **Concern** The spatial analysis (Figure 7) uses a weighted kNN clustering approach to identify cells that participate in CCC. However, the method for selecting the number of clusters, the weight assignment, and the validation of the clustering results are not described. The claim that the identified cells are "closer to the senders" is based on a single dataset and may not generalize. The improvement in CCC inference is not quantified.
+  - **Why it matters** The ability to refine CCC inference at the single-cell level is a key claimed advantage. Without a clear description of the clustering method and quantitative assessment of the improvement, this claim is not substantiated.
+  - **Resolution test** Provide a detailed description of the clustering algorithm, including parameter selection and validation. Quantify the improvement in CCC inference, for example, by comparing the spatial distribution of predicted interacting cells against known biology or by using a gold-standard dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon without clear definitions. Terms like "fidelity" and "specificity" are introduced but not explained.
+  - **Required correction** Briefly define fidelity and specificity in the abstract to make the contribution accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, equation 1
+  - **Evidence pointer** Methods section "Inference of cell-cell communication (CCC)"
+  - **Issue** The Hill function parameter K_h is set to 0.5, but the sensitivity of the results to this parameter is not discussed.
+  - **Required correction** Add a sensitivity analysis for K_h or justify the choice based on previous studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, equation 3
+  - **Evidence pointer** Methods section "Construction of intracellular regulatory hypergraph"
+  - **Issue** The formula for the initial hypergraph score uses the product of PPR and correlation, but the rationale for this multiplicative combination is not explained.
+  - **Required correction** Provide a justification for the multiplicative combination or compare against alternative formulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Results section "Quantifying the fidelity and specificity of crosstalk"
+  - **Issue** The description of Figure 4 is complex and difficult to follow. The relationship between the panels and the main text is not always clear.
+  - **Required correction** Simplify the figure description and ensure each panel is clearly referenced and explained in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Estimating the activation of pathways in an individual cell"
+  - **Evidence pointer** Methods section "Estimating the activation of pathways in an individual cell"
+  - **Issue** The activation index (ACI) is defined using a Hill function, but the choice of K_h = 0.5 is not justified in this context.
+  - **Required correction** Justify the K_h value or discuss its impact on ACI calculations.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Inadequate benchmarking methodology and potential bias in evaluation metrics.
+  - R1-M2: Insufficient detail on hypergraph construction and training.
+  - R1-M3: Lack of quantitative validation for biological applications.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of analyzing crosstalk between CCC pathways using hypergraph learning is novel. The metrics of fidelity and specificity provide a new framework for quantifying pathway selectivity. However, the individual components (hypergraph learning, CCC inference) are not new, and the novelty lies in their integration.
+  - **Scientific importance** The problem of pathway crosstalk is biologically important and relevant to understanding complex signaling networks. If the method is robust and validated, it could be a valuable tool for the community. However, the current evidence does not fully establish its importance.
+  - **Interdisciplinary readership** The method will appeal to computational biologists and bioinformaticians. Biologists may find the concepts useful but may be deterred by the technical complexity. The manuscript could be made more accessible to a broader audience.
+  - **Technical soundness** The technical approach is promising but not fully described. The benchmarking is potentially biased, and the biological applications lack validation. The method's robustness to parameters and datasets is not thoroughly tested.
+  - **Readability for nonspecialists** The manuscript is written for a specialized audience. The abstract and introduction are dense, and the methods are highly technical. The concepts of fidelity and specificity are not explained in an intuitive way.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially useful, but the current evidence base is insufficient to establish the method's validity and utility. The authors must address the benchmarking concerns, provide a complete description of the method, and include quantitative validation of the biological findings.
+
+## Risk / unsupported claims
+- The claim that SigXTalk "reaches the peak performance" in recovering regulatory pathways is not fully supported due to potential bias in the benchmarking setup.
+- The claim that SigXTalk identifies "biologically meaningful pathways" in HNSCC and COVID-19 is not quantitatively validated.
+- The claim that SigXTalk can "refine CCC inference" is based on a single dataset and lacks quantitative assessment.
+- The generalizability of the method to other datasets and conditions is not demonstrated.
+- The choice of the threshold φ for hypergraph construction and the PA > 0.75 threshold for activated pathways are not justified.

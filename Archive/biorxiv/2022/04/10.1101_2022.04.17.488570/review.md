@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GFPred, a computational method that uses epigenomic features (TF binding, histone modifications, DNase hypersensitivity) at promoters to predict ontology-based functions of coding and non-coding genes. They report high predictive accuracy (>90% balanced accuracy) for 486 gene-sets, validation via PubMed abstract mining and CRISPR screens, and insights into TF-pair combinatorics affecting gene function associations.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results beyond the stated accuracy, or validation statistics are available
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary data, and any code or dataset descriptions; these are essential to evaluate the technical soundness and reproducibility of the claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational framework for gene function inference, with a focus on non-coding genes and explainability. However, the evidence provided is insufficient to assess the validity, novelty, or robustness of the method. Key claims, such as the >90% balanced accuracy and the reliability of validations, are stated without supporting details. The abstract reads as a summary of completed work, but the lack of methodological transparency and quantitative context prevents a rigorous evaluation.
+- **Who would be interested in the results, and why** Researchers in functional genomics, gene regulation, and computational biology, particularly those studying non-coding RNA functions or TF binding combinatorics. The approach could appeal to those seeking explainable models for gene function prediction, and the latent grouping of gene-sets may interest systems biologists.
+- **Major strengths** The focus on non-coding genes addresses a significant gap in functional annotation. The use of multiple epigenomic features and the emphasis on explainability through TF combinatorics are commendable. The validation strategy, including PubMed mining and CRISPR screens, suggests an attempt at external corroboration.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves >90% balanced accuracy for 486 gene-sets.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The accuracy claim is presented without any methodological context, such as the cross-validation scheme, the definition of balanced accuracy, the number of genes per gene-set, or the baseline for comparison. It is unclear whether this performance is consistent across gene-sets or driven by a subset.
+  - **Why it matters** Without this context, the claim cannot be interpreted or reproduced. Overly optimistic accuracy can arise from data leakage, imbalanced classes, or circularity if the features are derived from the same annotations used for labels.
+  - **Resolution test** Provide a detailed description of the training and evaluation protocol, including data splits, feature selection, and a comparison to baseline methods. Report performance metrics with confidence intervals and per-gene-set variability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Predicted gene-function associations were validated using PubMed abstract mining and CRISPR screens.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that validations were performed but provides no details on the validation criteria, the number of associations tested, the statistical significance thresholds, or the overlap between predictions and external evidence. The CRISPR screen support is mentioned only for latent groups, not for individual predictions.
+  - **Why it matters** Validation is central to establishing the reliability of the predictions. Without quantitative details, the reader cannot assess whether the validation is robust or selective. The claim of support from CRISPR screens is vague and may overstate the evidence.
+  - **Resolution test** Specify the validation methodology, including how PubMed abstracts were mined (e.g., co-occurrence statistics), the number of validated associations, and the effect sizes or p-values. For CRISPR screens, describe the specific datasets and how they were used to confirm gene-function links.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and significance
+  - **Claim pointer** The approach provides reliable explainability and insights into TF-pair combinatorics.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims that TF-binding patterns alone are sufficient for high predictability and that TF-pair combinatorics affect function associations, but no specific findings are presented. It is unclear what novel biological insights are derived beyond the method itself.
+  - **Why it matters** For a Nature-style audience, the significance of the work depends on whether it reveals new biology or a broadly applicable tool. The abstract does not articulate a clear advance over existing gene function prediction methods or TF combinatorics studies.
+  - **Resolution test** Provide concrete examples of latent gene-set groups and TF-pair effects, with biological interpretation. Compare the method's performance and insights to existing tools like FunRich or DAVID.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract transitions abruptly from method description to validation and then to TF combinatorics, making the logical flow difficult to follow.
+  - **Required correction** Reorganize the abstract to clearly separate the method, results, validation, and biological insights, with explicit transitions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Gene-sets"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "gene-sets" is used without definition, and it is unclear whether these are predefined ontology terms or clusters derived from the data.
+  - **Required correction** Define "gene-sets" in the abstract, specifying their source (e.g., Gene Ontology terms) and how they are constructed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No mention of code or data availability, which is critical for a computational method.
+  - **Required correction** State whether the GFPred code and datasets are publicly available, with a link or repository reference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of accuracy and validation are not substantiated. The lack of methodological detail prevents any assessment of technical soundness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of epigenomic features for gene function prediction is not entirely novel, but the focus on non-coding genes and TF combinatorics may offer a new angle. However, the abstract does not clearly differentiate from existing methods.
+  - Scientific importance: The problem of annotating non-coding genes is important, but the abstract does not demonstrate a significant advance in understanding or capability.
+  - Interdisciplinary readership: The topic is relevant to genomics and computational biology, but the abstract is too technical and lacks context for a broader audience.
+  - Technical soundness: Not assessable from the abstract; the accuracy and validation claims are unverifiable without methods and data.
+  - Readability for nonspecialists: The abstract uses jargon (e.g., "balanced accuracy," "TF-pairs") without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests promising work, but the lack of methodological and quantitative detail means the claims cannot be evaluated. A full manuscript with detailed methods, results, and validation would be required to assess the case.
+
+## Risk / unsupported claims
+- The >90% balanced accuracy claim is unsupported without details on the evaluation protocol.
+- The validation via PubMed mining and CRISPR screens is unquantified and cannot be assessed.
+- The claim that TF-binding patterns alone provide high predictability is stated without comparative data.
+- The latent grouping of gene-sets and TF-pair combinatorics insights are mentioned but not described with any specific results.
+- The overall reliability and generalizability of GFPred are not established from the abstract alone.

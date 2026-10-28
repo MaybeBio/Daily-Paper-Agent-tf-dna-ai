@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and experimental procedures
+- **Assessment boundary** Scientific validity, methodological soundness, claims substantiation, and technical rigor based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors propose an attention-based deep neural network framework that integrates DNA sequences, genomic distances, and single-cell multi-omics data to detect cis-regulatory elements (cREs) and their activities at the single-cell level. They claim higher accuracy than existing methods on PBMC data, improved cell clustering, successful identification of tumor-specific SOX2 activity in glioma, and detection of heterogeneous ZEB1 activation that conventional methods miss.
+- **Visible evidence base** Abstract, full results section, discussion, experimental procedures, figure legends referenced but figures not provided, supplementary figure references
+- **Missing materials affecting confidence** Actual figures and supplementary figures (Figure 1, 2, 3, S1-S4), code repository contents, detailed hyperparameter configurations, statistical test details for several comparisons, baseline method parameter settings, and complete benchmark results
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable computational framework for single-cell cRE detection that integrates multiple data modalities in a novel way. The cross-modal attention mechanism that applies attention weights computed from DNA sequence and distance information to ATAC-seq counts is an interesting architectural contribution. However, the current manuscript has several critical gaps in validation, experimental detail, and statistical rigor that prevent full assessment of the claims. The benchmarking against existing tools lacks crucial methodological transparency, and several key results are presented without sufficient statistical support or visualization. The application to glioma data is compelling but requires more thorough validation to establish clinical or biological significance.
+- **Who would be interested in the results, and why** Computational biologists developing single-cell analysis methods, researchers studying gene regulation and enhancer biology, cancer biologists investigating tumor heterogeneity and drug resistance mechanisms, and bioinformaticians working on multi-omics integration. The method addresses a real need for single-cell-level regulatory element detection that goes beyond population averages.
+- **Major strengths** The cross-modal attention mechanism is a novel architectural contribution that differs meaningfully from existing approaches. The integration of DNA sequence, chromatin accessibility, and genomic distance in a unified framework is conceptually sound and addresses known limitations of correlation-based methods. The application to clinical glioma samples demonstrates potential translational relevance. The authors acknowledge important limitations including the correlational nature of deep learning models and the challenge of detecting invariant cREs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "our framework showed a significantly higher area under the receiver operating characteristic curve (AUROC) for both datasets"
+  - **Evidence pointer** Figure 2D,E; Section "Benchmarking of cREs Prediction Performance"
+  - **Concern** The benchmarking methodology is inadequately described. The manuscript states that cRE-gene interactions detected by each tool were overlapped with ATAC-seq peaks used as model input, but does not specify how negative examples were constructed for AUROC calculation, how tool-specific parameters were optimized, or whether the comparison was fair across methods. The choice of FANTOM5 and PCHiC as ground truth is reasonable but the manuscript does not address potential biases in these reference datasets.
+  - **Why it matters** Without a clear description of the benchmarking protocol, the central claim of superior performance cannot be evaluated. The AUROC values depend critically on the definition of positive and negative sets, and differences in how each tool's outputs are processed could introduce systematic bias.
+  - **Resolution test** Provide complete details of the benchmarking protocol including negative set construction, parameter selection for each tool, and statistical significance testing across multiple runs or bootstrap resampling. Show ROC curves and report confidence intervals for AUROC values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "our framework showed a higher prediction performance at every distance using CAGE-seq data and at most distances using PCHiC data"
+  - **Evidence pointer** Figure 2F; Section "Benchmarking of cREs Prediction Performance"
+  - **Concern** The distance-stratified analysis is presented without statistical testing. The manuscript does not report whether the performance differences at individual distance bins are statistically significant, nor does it provide confidence intervals. Additionally, the maximum distance of 28,000 bp in the binning appears inconsistent with the 300,000 bp window used for cRE candidate selection.
+  - **Why it matters** The claim of superior performance across distances is a key differentiator from existing methods. Without statistical support, the observed differences could be within noise, particularly for bins with few examples.
+  - **Resolution test** Add statistical testing (e.g., bootstrap confidence intervals or permutation tests) for each distance bin. Clarify the relationship between the 28,000 bp binning range and the 300,000 bp candidate window.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "our predicted set of cREs showed significantly higher eQTL enrichment ratios compared to cREs inferred using CAGE-seq or PCHiC contacts"
+  - **Evidence pointer** Figure 2G; Section "Benchmarking of cREs Prediction Performance"
+  - **Concern** The eQTL enrichment analysis is presented with p-values but the methodology is unclear. The manuscript does not specify how the enrichment ratio was calculated for the comparison methods, whether the same cRE-gene pairs were used, or how multiple testing was handled. The p-values reported (1.89*10^-3 and 8.04*10^-6) appear to be from a single comparison without correction.
+  - **Why it matters** eQTL enrichment is used as evidence that predicted cREs are functional. If the comparison is not apples-to-apples, the conclusion that the model outperforms existing methods at identifying functional cREs is not supported.
+  - **Resolution test** Describe the full eQTL enrichment methodology including how comparison methods' cREs were defined, how the enrichment ratio was computed for each method, and what statistical test was used. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the model successfully identified tumor-specific SOX2 activity" and "it revealed the heterogeneous activation of the ZEB1 transcription factor"
+  - **Evidence pointer** Figure 3C-I; Section "Analysis of Tumor-Specific cRE Regulation"
+  - **Concern** The glioma analysis lacks critical validation. The manuscript does not report how many cells were in each cluster, whether the identified SOX2 and ZEB1 activities were validated by independent methods (e.g., immunohistochemistry, western blot, or published ChIP-seq data), or how the statistical significance of the activity differences was assessed. The comparison with i-cisTarget is mentioned but the results are not shown in detail.
+  - **Why it matters** The translational claim of identifying tumor-specific regulatory mechanisms depends on the robustness of the glioma analysis. Without independent validation or clear statistical support, the biological significance of the findings remains uncertain.
+  - **Resolution test** Provide detailed cluster statistics, independent validation of SOX2 and ZEB1 activity (e.g., comparison with published ChIP-seq or CUT&Tag data), and complete results of the i-cisTarget comparison including statistical tests.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The model was trained for 500 epochs, with early stopping if the test loss did not improve after 10 consecutive epochs"
+  - **Evidence pointer** Section "Model Training"
+  - **Concern** The manuscript lacks critical implementation details needed for reproducibility. The architecture description is incomplete regarding the number of attention heads, the dimensionality of the feed-forward layers, the specific activation functions, the learning rate schedule, the optimizer choice, and the batch size. The DNA sequence encoder architecture is described as an 8-layer CNN but the kernel sizes, stride, padding, and pooling operations are not specified.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or build upon this method.
+  - **Resolution test** Provide a complete architectural specification including all hyperparameters, or release the code with comprehensive documentation that includes all training details.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "we only used regions with a positive correlation between ATAC-seq counts and cRE activity to unify the interpretability of the results"
+  - **Evidence pointer** Section "Acquisition of cRE Activity"
+  - **Concern** The filtering of cREs based on positive correlation between ATAC-seq counts and cRE activity introduces a potential selection bias. This filtering is applied for all analyses except benchmarking, which means the reported performance on downstream tasks may not reflect the method's performance on all predicted cREs. The manuscript does not report how many cREs were excluded by this filter.
+  - **Why it matters** This filtering step could inflate the apparent performance of the method in downstream analyses by removing cREs with negative or zero correlations that might still be biologically relevant. It also makes comparison with other methods that do not apply this filter potentially unfair.
+  - **Resolution test** Report the number of cREs excluded by this filter, justify the biological rationale for excluding negatively correlated cREs, and show that the main conclusions are robust to this filtering choice.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the model shows "higher accuracy" but does not specify the comparison metric or the magnitude of improvement. This makes it difficult for readers to assess the practical significance.
+  - **Required correction** Include specific performance metrics and effect sizes in the abstract, or refer to the relevant figures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Clustering performance comparison
+  - **Evidence pointer** Section "Analysis of Tumor-Specific cRE Regulation"
+  - **Issue** The ARI comparison between the model's predicted cRE activity and eRegulon activity from Scenic+ is mentioned but the actual ARI values are not reported in the text. The statistical significance of the difference is also not stated.
+  - **Required correction** Report the ARI values for both methods and the statistical test used to compare them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions the model's ability to analyze "smaller size of clinical samples" but does not provide any analysis of how the method performs with varying sample sizes or what the minimum sample size requirements might be.
+  - **Required correction** Add a discussion of sample size requirements or provide supplementary analysis showing performance as a function of sample size.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Experimental procedures
+  - **Evidence pointer** Section "Model Training"
+  - **Issue** The description of the train/test split is ambiguous. The text states "10% of the ATAC-seq peaks and 20% of the cells were reserved as test data," but it is unclear how this translates to the gene-level training and evaluation.
+  - **Required correction** Clarify the exact data splitting procedure at the gene, peak, and cell levels.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The code repository is mentioned but no version, commit hash, or license information is provided. The manuscript also does not specify the software dependencies and versions.
+  - **Required correction** Provide a specific version identifier for the code repository and a list of software dependencies with versions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** cRE activity threshold
+  - **Evidence pointer** Section "Acquisition of cRE Activity"
+  - **Issue** The definition of cRE activity as "60% cRE from the higher end" is arbitrary and not justified. The manuscript does not explore the sensitivity of the results to this threshold.
+  - **Required correction** Justify the 60% threshold or provide a sensitivity analysis showing how results change with different thresholds.
+
+## Risk / unsupported claims
+- The claim of "significantly higher AUROC" compared to existing methods cannot be fully evaluated without complete benchmarking methodology and statistical details
+- The claim of identifying "tumor-specific SOX2 activity" is not supported by independent validation
+- The claim of detecting "heterogeneous activation of ZEB1" that conventional methods "struggle to detect" lacks quantitative comparison data
+- The claim that the model can analyze "smaller size of clinical samples" without pre-training on large datasets is not supported by any sample size analysis
+- The biological significance of the identified cREs and TF activities in glioma is not validated by functional experiments or comparison with published datasets
+- The robustness of the method to different cell types, tissue types, or experimental conditions beyond PBMC and one glioma sample is not demonstrated

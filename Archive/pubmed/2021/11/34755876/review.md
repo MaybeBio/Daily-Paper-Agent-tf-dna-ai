@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency of the presented evidence; no assessment of literature novelty beyond what is cited within the manuscript
+- **Shared manuscript claim summary** The authors propose that CsoR family persulfide sensors (CstRs) achieve specificity for reactive sulfur species (RSS) over metal ions through a highly nucleophilic N-terminal cysteine, and that functional asymmetry in the tetrameric assembly, governed by internal dynamics, dictates the distribution of oxidized crosslinked products upon RSS exposure.
+- **Visible evidence base** SSN/GNN analyses, X-ray crystal structures (C9A SpCstR, C9A/N55A SpCstR, SeMet derivative), rPA-MS kinetic profiling, fluorescence anisotropy DNA-binding assays, SAXS, NMR spectroscopy, MD simulations, qRT-PCR
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Figures S1–S10, Tables S1–S8) were not provided; PDB validation reports not available; raw mass spectrometry spectra not shown; MD simulation parameters and convergence criteria not fully described; NMR relaxation data (heteronuclear NOE) presented only in summary form
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and largely well-integrated body of work that combines bioinformatic, structural, biophysical, and chemical reactivity approaches to address a significant question in bacterial stress sensing: how do paralogous CsoR-family repressors achieve distinct ligand specificities? The identification of three RSS-sensor clusters via SSN analysis, the first crystal structure of a CstR, and the kinetic evidence for functional asymmetry are valuable contributions. However, the central claim that internal dynamics directly cause the observed reactivity asymmetry is inferred rather than directly demonstrated, and several quantitative comparisons (e.g., the 50-fold nucleophilicity difference) rest on data presented only in supplementary materials. The manuscript would be strengthened by clearer presentation of the kinetic fitting procedures, additional validation of the MD-derived dynamic asymmetry hypothesis, and a more cautious framing of the causal link between dynamics and reactivity.
+- **Who would be interested in the results, and why** Researchers in bacterial gene regulation, metallobiology, redox biology, and sulfur biochemistry would find this work relevant. The study also speaks to the broader field of allosteric regulation in multimeric transcriptional repressors and to those interested in how protein dynamics tune chemical specificity. The methodological combination of SSN-guided discovery with structural and kinetic validation may interest investigators studying other sensor families.
+- **Major strengths** 1) The SSN analysis provides a systematic framework for classifying CsoR-family sensors and generates testable predictions, validated here by functional characterization of a previously unannotated protein. 2) The first CsoR-family persulfide sensor crystal structure is a significant technical achievement. 3) The rPA-MS approach to quantify cysteine nucleophilicity in a multimeric protein context is innovative and well-suited to the question. 4) The integration of multiple biophysical methods (SAXS, NMR, MD) to probe dynamics is commendable. 5) The identification of a specific residue (N55) that modulates asymmetry and reactivity provides a concrete molecular handle for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for causal claim
+  - **Claim pointer** The authors state that "functional asymmetry arises from fast internal dynamics in the loops" and that this dynamics "may impact packing in the dithiol sensing sites," implying a causal relationship between the observed dynamics and the differential reactivity of the two dithiol sites.
+  - **Evidence pointer** Results section "An N55A substitution diminishes asymmetry of reactivity in SpCstRs"; Figures 5, 6; Supplementary Figures S6–S8
+  - **Concern** The causal link between internal dynamics and reactivity asymmetry is not directly established. The MD simulations show differences in loop dynamics between C9A and C9A/N55A variants, and the kinetic data show differences in product distributions, but no experiment or simulation directly demonstrates that the dynamics cause the reactivity difference. Alternative explanations, such as ground-state structural differences in the dithiol site geometry (which the authors acknowledge are minimal), or differences in the electrostatic environment of the cysteine thiols, are not excluded. The correlation between dynamics and reactivity is suggestive but does not constitute causation.
+  - **Why it matters** The central mechanistic claim of the paper rests on this causal link. If the asymmetry is instead due to static structural features or electronic effects, the interpretation of the kinetic data and the proposed model for RSS sensing would need revision.
+  - **Resolution test** Provide direct experimental evidence, e.g., by engineering mutations that alter loop dynamics without changing the dithiol site structure and showing a corresponding change in reactivity asymmetry, or by performing MD simulations with enhanced sampling that correlate specific dynamic modes with the probability of disulfide bond formation. Alternatively, the authors could soften the claim to state that dynamics correlate with reactivity, and discuss alternative mechanisms.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of kinetic comparisons
+  - **Claim pointer** The authors report a "50-fold difference in the second order rate constant" between the N-terminal cysteine of SaCstR and SaCsoR, and use this to support the argument that CstRs have a more nucleophilic attacking cysteine.
+  - **Evidence pointer** Results section "The nucleophilicity of the N-terminal Cys dictates RSS selectivity over metal ions"; Figure 3; Supplementary Tables S3, S4; Supplementary Figure S3
+  - **Concern** The 50-fold difference is presented as a key quantitative finding, but the underlying data (pH-dependence curves, fits to single vs. double exponentials, error estimates) are only in the supplementary materials, which were not available for review. The manuscript text does not report confidence intervals or replicate variability for the rate constants. Without this information, it is difficult to assess whether the 50-fold difference is robust and whether the comparison between proteins from different families (CsoR vs. CstR) is confounded by differences in oligomerization state, stability, or other factors.
+  - **Why it matters** The quantitative claim underpins the proposed mechanism for specificity. If the rate difference is smaller or more variable than reported, the argument that nucleophilicity alone can explain the lack of crosstalk is weakened.
+  - **Resolution test** Present the full kinetic data with error bars and statistical analysis in the main text or a clearly accessible supplement. Show that the rate constants are reproducible across protein preparations and that the comparison is not affected by differential protein stability or aggregation under the assay conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation at limited resolution
+  - **Claim pointer** The authors interpret the C9A SpCstR crystal structure (2.3 Å) as revealing "a markedly asymmetric" tetramer and use this to support the functional asymmetry model.
+  - **Evidence pointer** Results section "The crystallographic structure of C9A SpCstR..."; Figure 5; Supplementary Table S5
+  - **Concern** At 2.3 Å resolution, with an Rfree in the 95th percentile for similar structures (as stated for the SeMet derivative), the structural details, particularly side chain conformations and subtle differences between protomers, should be interpreted with caution. The authors do not report whether the asymmetry is statistically significant (e.g., via coordinate error estimates or comparison of refined B-factors) or whether it could arise from crystal packing artifacts. The claim of "markedly asymmetric" structure is strong given the resolution.
+  - **Why it matters** The structural asymmetry is presented as the physical basis for the functional asymmetry. If the structural asymmetry is not robust, the model loses its structural foundation.
+  - **Resolution test** Provide a quantitative analysis of the asymmetry (e.g., RMSD between protomers, significance testing against coordinate error), discuss the possibility of crystal packing effects, and ideally validate the asymmetry in solution using an independent method (e.g., cross-linking mass spectrometry or FRET).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the asymmetry model
+  - **Claim pointer** The authors state that "this asymmetry is preserved in all CstRs and with all oxidants tested," implying a general principle for the family.
+  - **Evidence pointer** Results section "Distribution of crosslinked products upon reaction with thiol persulfides varies among cluster 10 CstRs"; Figure 8; Table 2
+  - **Concern** The claim of universality is based on three CstRs (SpCstR, SmCstR, EfCstR) and a limited set of oxidants. The authors themselves note that SmCstR shows a distinct product distribution (predominantly monomeric polysulfidation) compared to SpCstR, which suggests that the degree and nature of asymmetry vary significantly within the family. The statement "preserved in all CstRs" is therefore an overgeneralization from the presented data.
+  - **Why it matters** The paper's broader significance depends on the generality of the proposed mechanism. If the asymmetry is not a conserved feature, the model may only apply to a subset of CstRs.
+  - **Resolution test** Either temper the claim to reflect the observed variability, or provide additional evidence (e.g., from the SSN analysis or additional experimental characterization) that the asymmetry is a conserved feature across the three clusters of RSS sensors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "functional asymmetry" vs. "structural asymmetry"
+  - **Evidence pointer** Throughout the Results and Discussion
+  - **Issue** The terms "functional asymmetry" and "structural asymmetry" are used somewhat interchangeably, which can confuse the reader. The structural asymmetry refers to the crystal structure, while functional asymmetry refers to the differential reactivity of the two dithiol sites. These are distinct concepts and should be clearly delineated.
+  - **Required correction** Define both terms explicitly at first use and consistently use them to refer to the appropriate evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation details
+  - **Evidence pointer** Materials and Methods, "Molecular dynamics simulations"
+  - **Issue** The MD simulation methods are described briefly. Key parameters such as the force field version, water model, salt concentration, temperature/pressure coupling schemes, and the number of replicate simulations are not stated. The criterion for considering the simulations "equilibrated" (200 ns) is mentioned but not justified.
+  - **Required correction** Provide complete simulation parameters and justify the equilibration time. State whether simulations were performed in replicate and how convergence was assessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fluorescence anisotropy binding constants
+  - **Evidence pointer** Results section "Streptococcus pneumoniae D39 SPD_0073 is a CstR"; Table 1
+  - **Issue** The binding constants (Ktet) are reported as averages of three experiments, but no standard deviations or errors are given in Table 1. The text states that values are "virtually identical" but does not provide a statistical comparison.
+  - **Required correction** Include standard deviations or confidence intervals in Table 1 and state whether the differences between WT and mutant proteins are statistically significant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of qRT-PCR data
+  - **Affected element** Figure 4B
+  - **Evidence pointer** Results section "Streptococcus pneumoniae D39 SPD_0073 is a CstR"
+  - **Issue** The qRT-PCR data show induction of the cst operon upon sulfide treatment, but the magnitude of induction and the statistical significance (error bars, number of biological replicates) are not described in the text.
+  - **Required correction** Report the fold-induction values, error bars, and statistical test used in the figure legend or text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraphs 2–4
+  - **Issue** The discussion focuses heavily on the proposed dynamics-based model but does not thoroughly consider alternative explanations for the observed product distributions, such as differences in the intrinsic chemical reactivity of the cysteine thiols due to their local electrostatic environment or hydrogen bonding, independent of dynamics.
+  - **Required correction** Add a paragraph acknowledging and discussing alternative models, and explain why the dynamics-based model is preferred.
+
+## Risk / unsupported claims
+- The claim that "functional asymmetry arises from fast internal dynamics" is not directly supported by the presented data; the evidence shows correlation, not causation.
+- The statement that asymmetry is "preserved in all CstRs" is an overgeneralization from three characterized proteins with notably different behaviors.
+- The 50-fold difference in cysteine nucleophilicity between SaCstR and SaCsoR cannot be fully evaluated without access to the supplementary kinetic data.
+- The structural asymmetry in the C9A SpCstR crystal structure is interpreted as functionally relevant, but the possibility of crystal packing artifacts or resolution-limited coordinate uncertainty is not adequately addressed.
+- The claim that the N55A substitution "diminishes asymmetry" is based on kinetic product distributions, but the quantitative comparison between WT and mutant is not fully presented in the main text.
+- The physiological relevance of the in vitro reactivity differences (e.g., whether the observed rate differences would manifest in the cellular context) is not experimentally addressed.

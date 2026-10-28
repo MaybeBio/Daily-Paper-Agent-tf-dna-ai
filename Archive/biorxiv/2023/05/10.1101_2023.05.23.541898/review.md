@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors identify PfAP2-MRP as an essential ApiAP2 transcription factor in Plasmodium falciparum that regulates trophozoite development, var gene expression, merozoite formation, parasite egress, sexual stage conversion, and chromatin organization during the intraerythrocytic developmental cycle
+- **Visible evidence base** Inducible gene knockout, ChIP-seq at 16 and 40 h.p.i., single-cell RNA-seq, fluorescence-activated cell sorting, and Hi-C experiments, all described only in summary form
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, strain details, gating strategies, quality control metrics for ChIP-seq and Hi-C, and any validation of the inducible knockout system
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important claim that a single transcription factor coordinates multiple developmental and pathogenic processes in the malaria parasite. The breadth of phenotypes attributed to PfAP2-MRP is substantial, and the proposed dual-stage regulatory model is conceptually interesting. However, the abstract alone does not provide sufficient quantitative or methodological detail to evaluate the robustness of the central claims. The evidence for direct binding versus indirect effects, the specificity of the var gene de-repression phenotype, and the interpretation of the Hi-C data all require careful scrutiny that cannot be performed from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in Plasmodium, particularly those focused on antigenic variation, sexual commitment, and chromatin biology. The work may also interest the broader parasitology community and those investigating apicomplexan gene regulatory networks, as it proposes a master regulator linking growth, pathogenesis, and transmission-related processes.
+- **Major strengths** The study addresses a fundamental gap in understanding how the malaria parasite coordinates multiple essential processes during its blood stage. The combination of multiple orthogonal approaches (knockout, ChIP-seq, scRNA-seq, FACS, Hi-C) is commendable. The temporal resolution of ChIP-seq at two time points matching expression peaks is a thoughtful design. The finding that var gene de-repression leads to surface expression of multiple PfEMP1 variants is potentially significant for understanding immune evasion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that PfAP2-MRP is a "master regulator" and "vital upstream transcriptional regulator" controlling distinct developmental stages
+  - **Evidence pointer** Abstract, results summary; location not provided
+  - **Concern** The abstract asserts a master regulatory role based on phenotypic observations from an inducible knockout, but does not establish whether the observed effects are direct or indirect. ChIP-seq binding to promoters is mentioned, but no data are shown linking binding to transcriptional changes for specific target genes. The term "master regulator" implies hierarchical control that requires demonstration of direct regulatory relationships, not just correlation between binding and phenotype.
+  - **Why it matters** Without evidence distinguishing direct targets from downstream consequences, the central claim of the paper is overstated. Many transcription factor knockouts produce pleiotropic phenotypes, and the field requires clear evidence of direct regulation to accept a master regulator designation.
+  - **Resolution test** Provide a clear overlap analysis between ChIP-seq peaks and differentially expressed genes at each time point, with statistical significance. Show that key phenotypic genes (e.g., var genes, egress-related genes) are direct binding targets and that their expression changes are not merely secondary to developmental arrest.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The claim that PfAP2-MRP deletion causes de-repression of "most var genes" and surface expression of multiple PfEMP1 proteins
+  - **Evidence pointer** Abstract, single-cell RNA-seq and FACS results; location not provided
+  - **Concern** The abstract states de-repression of most var genes, but does not specify the proportion, the magnitude of de-repression, or whether this is a uniform or heterogeneous effect across the parasite population. The FACS data showing multiple PfEMP1 surface expression is mentioned without quantification or demonstration of specificity. Var genes are known to be mutually exclusively expressed, and the claim of simultaneous multi-variant surface expression is extraordinary and requires rigorous validation.
+  - **Why it matters** If true, this finding challenges the established model of mutually exclusive var gene expression and has major implications for understanding antigenic variation. However, if the effect is partial or heterogeneous, the interpretation changes substantially. The claim as stated is too strong for the evidence described.
+  - **Resolution test** Provide quantitative single-cell data showing the distribution of var gene expression across individual parasites, with statistical comparison to wild-type. Show FACS histograms or imaging data with appropriate controls demonstrating simultaneous surface expression of multiple PfEMP1 proteins on the same cell.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The claim that PfAP2-MRP is essential for trophozoite development, merozoite development, and parasite egress
+  - **Evidence pointer** Abstract, inducible knockout results; location not provided
+  - **Concern** The abstract does not describe the efficiency of the inducible knockout, the timing of protein depletion, or the specificity of the phenotype. It is unclear whether the observed defects in merozoite development and egress are primary effects of PfAP2-MRP loss or secondary to earlier developmental arrest at the trophozoite stage. The distinction between these possibilities is critical for interpreting the regulatory hierarchy.
+  - **Why it matters** If the trophozoite defect is the primary cause of all downstream phenotypes, then the claim of stage-specific regulatory roles is weakened. The abstract implies distinct roles at different stages, but the evidence as described cannot exclude a single early defect with cascading consequences.
+  - **Resolution test** Provide a detailed time course of the knockout phenotype showing when developmental arrest occurs relative to PfAP2-MRP depletion. Use stage-specific markers or complementation experiments to demonstrate that later phenotypes are not simply consequences of earlier arrest.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The claim that PfAP2-MRP deletion reduces intra-chromosomal and inter-chromosomal interactions in heterochromatin clusters, based on Hi-C
+  - **Evidence pointer** Abstract, Hi-C results; location not provided
+  - **Concern** The abstract reports a significant reduction in chromatin interactions but does not provide quantitative details, such as the magnitude of the effect, the number of loci affected, or whether the effect is specific to heterochromatin or genome-wide. The relationship between reduced interactions and var gene de-repression is implied but not explicitly demonstrated.
+  - **Why it matters** The Hi-C data are used to support a role for PfAP2-MRP in chromatin organization, which is a strong claim. Without details on the specificity and magnitude of the effect, and without a direct link to var gene regulation, this conclusion is not fully supported.
+  - **Resolution test** Provide Hi-C contact maps or quantitation showing the extent of interaction changes, with statistical significance. Demonstrate that the affected regions correspond to var gene loci and that the interaction changes correlate with transcriptional de-repression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, title; location not provided
+  - **Issue** The term "master regulator" is used in the title and abstract, but the criteria for this designation are not defined. This term carries specific connotations in gene regulatory network research.
+  - **Required correction** Define what constitutes a master regulator in this context, or consider using more neutral language such as "essential upstream regulator" unless direct hierarchical control is demonstrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sexual stage conversion claim
+  - **Evidence pointer** Abstract, scRNA-seq results; location not provided
+  - **Issue** The abstract states that PfAP2-MRP deletion leads to overexpression of "several early gametocyte marker genes," but does not specify which markers or whether this indicates actual commitment to sexual development or merely ectopic expression.
+  - **Required correction** List the specific marker genes and provide evidence that the overexpression reflects functional sexual commitment, such as demonstration of gametocyte formation or activation of downstream sexual stage programs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract, methods not provided; location not provided
+  - **Issue** The abstract does not mention biological replicates, statistical tests used, or how significance was determined for any of the reported findings.
+  - **Required correction** Include information on replicates and statistical methods in the full manuscript, and state these in the abstract where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct versus indirect regulation), R1-M2 (quantitative validation of var gene de-repression and multi-PfEMP1 surface expression), R1-M3 (distinguishing primary from secondary phenotypes), R1-M4 (quantitative Hi-C analysis and link to var gene regulation)
+- **Assessment against Nature-style criteria** Originality: The proposed role of a single transcription factor coordinating growth, antigenic variation, and sexual commitment is conceptually novel and would be of high interest. Scientific importance: If fully validated, the findings could reshape understanding of malaria parasite gene regulation and pathogenesis. Interdisciplinary readership: The work would appeal to parasitologists, molecular biologists, chromatin biologists, and those studying gene regulatory networks. Technical soundness: The combination of approaches is appropriate, but the abstract does not provide enough detail to assess the rigor of each method. Readability for nonspecialists: The abstract is generally clear, though terms such as "heterochromatin clusters" and "intra-chromosomal interactions" may require context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis with a reasonable experimental strategy, but the evidence as summarized is insufficient to support the strength of the claims. The authors should be encouraged to resubmit with full data, particularly addressing the direct versus indirect regulation issue and providing quantitative validation of the var gene and chromatin phenotypes.
+
+## Risk / unsupported claims
+- The designation of PfAP2-MRP as a "master regulator" is not supported by the evidence described in the abstract, as direct regulatory relationships are not established.
+- The claim of simultaneous surface expression of multiple PfEMP1 proteins is not quantitatively supported.
+- The claim that PfAP2-MRP controls sexual stage conversion is based on marker gene overexpression only and is not fully established.
+- The role of PfAP2-MRP in chromatin organization is inferred from Hi-C data without quantitative detail or a demonstrated mechanistic link to var gene regulation.
+- The stage-specific regulatory roles at 16 and 40 h.p.i. are asserted but not clearly distinguished from a single early developmental defect.

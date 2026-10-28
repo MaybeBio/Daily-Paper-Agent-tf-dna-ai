@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report that norlobaridone (NBD), a phenolic natural product isolated from Parmotrema lichen, inhibits Pseudomonas aeruginosa biofilm formation and virulence factor production (pyocyanin, rhamnolipids) by selectively antagonizing the quorum sensing receptor LasR. They propose that NBD binds within the OdDHL pocket, fails to establish key hydrophobic contacts, destabilizes LasR, and disrupts its dimerization into the functional transcription factor, as supported by reporter assays, biophysical measurements (sedimentation velocity, thermal shift), and molecular dynamics simulations.
+- **Visible evidence base** Abstract; Introduction; Materials and Methods (Sections 2.1–2.9); Results (Sections 3.1–3.5); Discussion; Conclusions; references to supplementary figures and tables (Figures S1–S9, Tables S1, S3)
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S9, Tables S1, S3) are referenced but not provided; full details of reporter assay protocols, MD simulation parameters, FEP calculation setup, and statistical analysis are stated to be in the supplementary file but are not available for assessment; raw data for growth curves, dose-response curves, and biophysical measurements are not shown in the main text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting natural product with LasR-antagonistic activity and a plausible mechanistic hypothesis. However, the evidence as presented in the main text is incomplete in several critical respects. The biophysical data supporting the central claim of dimerization disruption are only partially described, the in silico results are presented without sufficient methodological detail to assess their validity, and the link between LasR antagonism and the observed phenotypic effects (biofilm, pyocyanin, rhamnolipids) is inferred rather than directly demonstrated. The work is within the scope of the journal and addresses a relevant topic, but the current presentation does not fully establish the mechanistic case.
+- **Who would be interested in the results, and why** Researchers working on quorum sensing inhibition, anti-virulence strategies against Pseudomonas aeruginosa, natural product drug discovery, and structural biology of LuxR-type receptors would find this work relevant. The identification of a new LasR antagonist scaffold with a proposed mechanism of action could inform future medicinal chemistry efforts and chemical biology studies of QS systems.
+- **Major strengths** The study addresses a relevant and timely topic (anti-virulence strategies against a major pathogen). The combination of phenotypic assays, reporter-based selectivity profiling, biophysical measurements, and computational modeling is a comprehensive approach. The identification of a natural product with LasR selectivity over RhlR and QscR is of interest. The proposed mechanism linking ligand binding, protein destabilization, and loss of dimerization is mechanistically coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NBD destabilized LasR upon binding and damaged its functional quaternary structure (i.e., the functional dimeric form)" based on sedimentation velocity and thermal shift assays.
+  - **Evidence pointer** Section 2.7, Section 2.8, Section 3.2, Section 3.3, Figure 5, Table S3
+  - **Concern** The sedimentation velocity and thermal shift data are described only in summary form. The main text states molecular weights of 27.58 kD and 55.36 kD for NBD-LasR and OdDHL-LasR, respectively, and a Tm difference of 9.74 °C, but no raw data, representative curves, or statistical parameters are shown. The supplementary table (Table S3) is referenced but not available. Without these data, the reader cannot assess the quality of the biophysical measurements, the protein purity, the stoichiometry of the complexes, or the reproducibility of the results.
+  - **Why it matters** The claim that NBD disrupts LasR dimerization is the central mechanistic finding of the paper. If the biophysical evidence is not fully presented and verifiable, the core conclusion is not established. Sedimentation velocity experiments require careful controls (e.g., protein concentration dependence, buffer conditions) to distinguish monomer-dimer equilibria from aggregation or non-specific effects.
+  - **Resolution test** Provide the full sedimentation velocity data (c(S) distributions, residuals, fits) and thermal shift melting curves for all conditions tested, including replicates and statistical analysis. Show that the observed monomeric species is not an artifact of protein concentration or buffer composition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NBD only demonstrated significant dose-dependent antagonist activity against LasR (IC50 = 1.93 ± 0.21 μM)" and weak activity against RhlR and QscR.
+  - **Evidence pointer** Section 2.5, Section 3.1, Figure 4
+  - **Concern** The reporter assay methodology is described only briefly in the main text, with full details deferred to the supplementary file. The dose-response curves are shown in Figure 4, but the number of replicates, the statistical model used for IC50 determination, and the controls for non-specific reporter inhibition are not described in the main text. The selectivity ratios between LasR and the other receptors are large, but the weak activity against RhlR and QscR is reported without confidence intervals or statistical comparison.
+  - **Why it matters** The selectivity claim is important for the proposed use of NBD as a specific LasR probe. If the assay conditions or data analysis are not transparent, the selectivity conclusion cannot be properly evaluated. Non-specific effects on reporter gene expression (e.g., general toxicity, transcriptional inhibition) could confound the results.
+  - **Resolution test** Provide full dose-response data with replicates, statistical analysis of IC50 values, and appropriate controls (e.g., a known LasR antagonist as positive control, a compound with no QS activity as negative control). Show that NBD does not affect E. coli growth or general β-galactosidase expression at the concentrations tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NBD binds similarly to odDHL inside the LasR ligand binding site" and "the computed ΔGBind values for each structure were convergent (−9.47 and −9.51 kcal/mol, respectively)" based on docking and MD/FEP calculations.
+  - **Evidence pointer** Section 2.9, Section 3.5, Figures 6–7
+  - **Concern** The docking and MD simulation protocols are described only in general terms, with details deferred to the supplementary file. The FEP calculation methodology is not described at all in the main text. The convergence of ΔGBind values is stated but no error estimates are provided. The claim that NBD "binds similarly" to OdDHL is based on visual inspection of aligned poses, but no quantitative comparison (e.g., interaction energy decomposition, per-residue contacts) is presented.
+  - **Why it matters** Computational results are only meaningful if the methods are fully described and the results are quantitatively analyzed. The FEP method is technically demanding and requires careful setup, sufficient sampling, and error analysis. Without these details, the computational support for the proposed mechanism is not verifiable.
+  - **Resolution test** Provide full details of the docking protocol, MD simulation parameters, force field, system setup, equilibration, and production run lengths. For FEP calculations, describe the alchemical pathway, number of lambda windows, sampling time per window, and error estimates. Present quantitative interaction analyses (e.g., per-residue decomposition) to support the claim of similar binding modes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "NBD is a powerful and specific LasR antagonist that should be widely employed as a chemical probe in QS of P. aeruginosa"
+  - **Evidence pointer** Section 3.4, Section 4, Section 5
+  - **Concern** The phenotypic data (biofilm, pyocyanin, rhamnolipid inhibition) are presented only as percentage inhibition values in the abstract and results summary, with the actual data shown only in supplementary figures (S2–S4). The connection between LasR antagonism and the observed phenotypic effects is not directly demonstrated. For example, the authors do not show that the phenotypic effects are dependent on LasR (e.g., using a lasR mutant strain) or that the effects are specific to LasR-mediated QS rather than other cellular processes. The claim that NBD should be "widely employed as a chemical probe" is a strong statement that requires more extensive validation, including demonstration of specificity in complex biological systems.
+  - **Why it matters** The broader significance of the work depends on the specificity and utility of NBD as a chemical probe. Without direct genetic or biochemical evidence linking the observed phenotypes to LasR inhibition, the mechanistic model remains correlative. The claim of broad utility as a probe is not supported by the limited data presented.
+  - **Resolution test** Include experiments with a lasR mutant or a complemented strain to demonstrate that the phenotypic effects are LasR-dependent. Show that NBD does not affect QS-independent phenotypes or general bacterial fitness. Provide a more measured discussion of the probe utility, acknowledging the limitations of the current evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction provides a general background on quorum sensing and LasR but does not clearly explain the significance of the specific approach (natural product discovery) or the novelty of the findings in the context of existing LasR antagonists. The transition from the general QS background to the specific study objectives is abrupt.
+  - **Required correction** Expand the introduction to briefly summarize the current state of LasR antagonist development, highlight the gap that NBD fills, and clearly state the specific hypotheses being tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The protein purification section states that protein was stored at −280 °C, which is below absolute zero and is clearly a typographical error. This raises questions about the care taken in preparing the methods section.
+  - **Required correction** Correct the storage temperature to a physically plausible value (e.g., −80 °C) and carefully proofread the methods for similar errors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The growth curve analysis is described as using "5 μg/mL of the tested substance," but the rationale for this concentration is not provided. It is unclear whether this concentration is the same as the sub-inhibitory concentration used in the phenotypic assays.
+  - **Required correction** Clarify the relationship between the concentration used in the growth curve analysis and the concentrations used in the phenotypic assays. State the MIC or sub-MIC values explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 3.5.1
+  - **Evidence pointer** Section 3.5.1, Figure 6
+  - **Issue** The docking validation reports an RMSD of 1.25 Å for the redocked OdDHL compared to the co-crystalized pose. While this is acceptable, the authors do not discuss the significance of this value or compare it to typical benchmarks in the field.
+  - **Required correction** Briefly discuss the RMSD value in the context of docking validation standards and acknowledge any limitations of the docking approach.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.5.3
+  - **Evidence pointer** Section 3.5.3, Figure 8
+  - **Concern** The description of the MD simulation of the dimeric LasR complex is dense and assumes familiarity with structural biology terminology. The significance of the ASN-136 to ALA-166 helix and its role in dimerization is not clearly explained for a general readership.
+  - **Required correction** Provide a brief explanation of the structural elements involved in LasR dimerization and why the observed conformational changes are significant, using accessible language.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (biophysical data not fully presented), R1-M2 (reporter assay details and statistical analysis incomplete), R1-M3 (computational methods and error analysis not described), R1-M4 (causal link between LasR antagonism and phenotypes not demonstrated)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The identification of a new natural product LasR antagonist is of interest, but the general concept of targeting LasR dimerization is not new. The specific compound and its proposed mechanism offer some novelty.
+  - Scientific importance: Moderate. Anti-virulence strategies against P. aeruginosa are clinically relevant, but the study does not demonstrate in vivo efficacy or provide a significant advance over existing LasR antagonists. The mechanistic claims are plausible but not fully established.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to microbiologists, natural product chemists, and structural biologists. The presentation is technical and may not appeal to a broad interdisciplinary audience.
+  - Technical soundness: Currently insufficient. The key biophysical and computational data are not fully presented, and the causal link between LasR antagonism and phenotypes is not directly demonstrated. The methods descriptions are incomplete.
+  - Readability for nonspecialists: Acceptable but improvable. The introduction and discussion are generally accessible, but the results sections on biophysics and MD simulations are dense and assume specialist knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and presents a plausible hypothesis, but the evidence as presented in the main text is incomplete. The authors should be invited to provide the full dataset, including supplementary figures and tables, and to address the specific concerns raised. If the missing data are provided and the causal link between LasR antagonism and phenotypes is strengthened, the work could become a solid contribution to the field.
+
+## Risk / unsupported claims
+- The claim that NBD "should be widely employed as a chemical probe" is not supported by the current evidence, as specificity and utility in complex biological systems have not been demonstrated.
+- The claim that NBD "binds similarly to odDHL" is based on qualitative comparison of docking poses and is not quantitatively supported.
+- The claim that NBD "destabilizes LasR upon binding" is based on thermal shift data that are not fully presented.
+- The claim that NBD "damaged its functional quaternary structure" is based on sedimentation velocity data that are not fully presented.
+- The statement that NBD is a "highly potent" LasR antagonist is not supported by comparative data against known LasR antagonists.
+- The relationship between the in vitro concentrations used and physiologically relevant concentrations is not discussed.

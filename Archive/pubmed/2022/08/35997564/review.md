@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, funding, data availability)
+- **Assessment boundary** Scientific validity, methodological clarity, reproducibility, and support of claims based solely on the provided text
+- **Shared manuscript claim summary** The authors present MMGraph, a tool combining a three-layer graph neural network and k-mer coexisting probability to predict multiple transcription factor binding sites (TFBSs) from ATAC-seq data. They claim superior performance over existing tools on 88 datasets, with an area of eight metrics radar (AEMR) score of 2.31 and identification of 207 higher-quality motifs.
+- **Visible evidence base** Abstract, Introduction, Materials and methods (Sections 2.1-2.3), Experiments and results (Section 3), Funding, Data availability
+- **Missing materials affecting confidence** Full equations for graph edge weights (only fragments shown), detailed GNN architecture (layer sizes, activation functions, training hyperparameters), complete motif finding procedure (four steps mentioned but not described), all experimental results and comparison details, supplementary figures and tables, code implementation specifics
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in regulatory genomics, namely the prediction of multiple TFBSs of variable length from ATAC-seq data. The use of graph neural networks is a reasonable and potentially novel approach. However, the provided text is severely incomplete in critical methodological details, making it impossible to evaluate the technical soundness, reproducibility, or validity of the performance claims. The results section is particularly thin, with no quantitative comparisons, statistical tests, or baseline descriptions beyond a single aggregate score.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on transcription factor binding site prediction, ATAC-seq data analysis, and graph neural network applications in genomics. The tool could be of practical use to researchers studying gene regulation, but only if the methodological details and performance claims are substantiated.
+- **Major strengths** The problem is well-motivated and relevant. The idea of using GNNs to capture variable-length motifs and k-mer co-occurrence is conceptually interesting. The availability of code via GitHub is a positive step toward reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that MMGraph is based on a three-layer GNN and coexisting probability of k-mers, and that this architecture enables finding multiple motifs of different lengths.
+  - **Evidence pointer** Section 2.2, Section 2.3
+  - **Concern** The GNN architecture is described only superficially. The text states that the first layer learns concatenated embeddings from similarity and coexisting graphs, the second layer learns sequence embeddings from the inclusive graph, and the third layer is a fully connected layer. However, no details are given on the number of hidden units, activation functions, loss function, optimization algorithm, learning rate, regularization, or training/validation splits. The graph construction equations in Section 2.1 are incomplete, with only fragments of the weight matrix definitions shown.
+  - **Why it matters** Without these details, the method cannot be reproduced, and the claimed superiority over existing tools cannot be independently verified. The architecture as described is too vague to assess whether it is technically sound or whether the results are due to the method or to implementation choices.
+  - **Resolution test** Provide a complete specification of the GNN architecture, training procedure, and all equations for graph construction. Include code or pseudocode that fully implements the described method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that MMGraph achieved the best performance with an AEMR score of 2.31 and found 207 higher-quality motifs compared to four comparison tools.
+  - **Evidence pointer** Section 3
+  - **Concern** The results section provides only a single aggregate metric (AEMR) and a single count of motifs. There is no description of the four comparison tools, no per-dataset results, no statistical significance testing, no confidence intervals, and no details on how motif quality was assessed via P-values. The claim of "207 higher-quality motifs" is presented without any definition of "higher-quality" or comparison thresholds.
+  - **Why it matters** The central claim of the paper is that MMGraph outperforms existing tools. Without detailed results, statistical analysis, and clear evaluation criteria, this claim is unsupported. The reader cannot assess whether the performance difference is meaningful or due to chance, dataset selection, or evaluation methodology.
+  - **Resolution test** Provide full experimental results including per-dataset performance, comparison with all baseline tools, statistical tests (e.g., Wilcoxon signed-rank test), and a clear definition of motif quality with P-value thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that MMGraph is available at https://github.com/zhangsq06/MMGraph.git and that data are available in online supplementary material.
+  - **Evidence pointer** Availability and implementation, Data Availability
+  - **Concern** While a GitHub link is provided, the manuscript does not describe the software dependencies, input/output formats, or usage instructions. The data availability statement refers to supplementary material, but no details are given on what data are provided, in what format, or how to access them. The four-step motif finding procedure in Section 2.3 is mentioned but not described.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without clear documentation of the software and data, other researchers cannot apply MMGraph to their own data or verify the reported results.
+  - **Resolution test** Provide a detailed README with installation instructions, dependencies, example usage, and input/output specifications. Ensure all data and code are publicly accessible and clearly documented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The equations for similarity, coexisting, and inclusive edge weights are incomplete. Only fragments are shown, and the notation is not fully defined.
+  - **Required correction** Provide complete equations with all variables defined, including the meaning of Wsim, Wco, Winclu, and the indices used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The four-step motif finding procedure is mentioned but not described. The mutual information calculation is stated but not explained in detail.
+  - **Required correction** Describe each of the four steps explicitly, including how mutual information is computed from embeddings and how motifs are selected and reported.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The term "area of eight metrics radar (AEMR)" is used without explanation of what the eight metrics are or how the radar score is computed.
+  - **Required correction** Define AEMR and list the eight metrics used, with a reference or brief description of the scoring method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The four comparison tools are not named or described.
+  - **Required correction** List the names of the comparison tools and briefly describe their methods and parameters used in the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete architecture and training details), R1-M2 (insufficient experimental evidence), R1-M3 (lack of reproducibility documentation)
+- **Assessment against Nature-style criteria** Originality: The application of GNNs to variable-length motif discovery from ATAC-seq data is a reasonable extension of existing work, but the novelty is not clearly articulated relative to prior GNN-based methods in genomics. Scientific importance: TFBS prediction is an important problem, and a robust multi-motif predictor would be valuable, but the current evidence does not establish that MMGraph achieves this. Interdisciplinary readership: The topic is of interest to computational biologists and genomics researchers, but the manuscript is too technical and incomplete for a broader audience. Technical soundness: Not assessable from the provided text due to missing methodological details. Readability for nonspecialists: The manuscript is poorly structured, with key methods and results described only in fragments, making it difficult for any reader to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revision to provide complete methodological details, full experimental results with statistical analysis, and clear documentation of the software and data before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that MMGraph "achieved the best performance" with an AEMR score of 2.31 is unsupported because no comparison details, statistical tests, or per-dataset results are provided.
+- The claim that MMGraph "could find 207 higher-quality multiple motifs" is unsupported because "higher-quality" is not defined and no motif-level results are shown.
+- The claim that GNN "has great potential in finding multiple TFBSs with different lengths" is presented as motivation but is not substantiated with evidence or comparison to alternative approaches.
+- The methodological description of the heterogeneous graph construction and GNN architecture is incomplete, making the entire method unverifiable.
+- The four-step motif finding procedure is mentioned but not described, so the motif discovery process cannot be evaluated.

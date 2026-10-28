@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42401553",
+  "title": "Positional interpretation of cis-regulatory code and nucleosome organization with deep learning models.",
+  "authors": "McAnany, Charles E; Weilert, Melanie; Mehta, Grishma; Kamulegeya, Fahad; Gardner, Jennifer M; Schreiber, Jacob; Kundaje, Anshul; Zeitlinger, Julia",
+  "journal": "Nature communications",
+  "published_date": "2026-07-05",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习模型解释顺式调控序列与核小体组织，通过PISA方法解码转录因子基序贡献，虽非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Sequence-to-function neural networks learn cis-regulatory sequence rules driving many types of genomic data. Interpreting these models to relate the sequence rules to underlying biological processes remains challenging, especially for complex genomic readouts such as MNase-seq, which maps nucleosome occupancy but is confounded by experimental bias. Here, we introduce pairwise influence by sequence attribution (PISA), which uses attribution to combinatorially decode which bases contributed to the readout at a specific genomic coordinate. PISA visualizes the effects of transcription factor motifs, detects undiscovered motifs with complex contribution patterns, and reveals experimental biases. By learning the bias for MNase-seq, PISA enables unprecedented nucleosome prediction models. These models allow the de novo discovery of nucleosome-positioning motifs and reveal the basis of Micro-C chromatin domain boundaries through systematic motif perturbations. Finally, these models allow the design of sequences with altered nucleosome configurations. These results show that PISA is a versatile tool that expands our ability to train and interpret sequence-to-function neural networks on genomics data and understand the underlying cis-regulatory code.",
+  "abstract_zh": "序列到功能的神经网络学习驱动多种基因组数据的顺式调控序列规则。解释这些模型以将序列规则与潜在生物学过程联系起来仍然具有挑战性，尤其是对于复杂的基因组读数，如MNase-seq，它映射核小体占据情况，但受实验偏差干扰。在此，我们引入了通过序列归因的成对影响（PISA），该方法利用归因来组合解码哪些碱基对特定基因组坐标处的读数有贡献。PISA可视化转录因子基序的影响，检测具有复杂贡献模式的未发现基序，并揭示实验偏差。通过学习MNase-seq的偏差，PISA实现了前所未有的核小体预测模型。这些模型允许从头发现核小体定位基序，并通过系统性基序扰动揭示Micro-C染色质结构域边界的基础。最后，这些模型允许设计具有改变核小体构型的序列。这些结果表明，PISA是一种多功能工具，扩展了我们在基因组数据上训练和解释序列到功能神经网络以及理解潜在顺式调控代码的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42401553/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42401553/",
+  "paper_page_path": "papers/pubmed/42401553/index.html"
+}

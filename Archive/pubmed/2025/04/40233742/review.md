@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that integrating protein stability (ΔΔG scores) and AlphaMissense scores improves bioinformatic impact prediction for p53 missense and single-amino-acid deletion variants, relative to currently used tools (BayesDel, Align-GVGD) in TP53 VCEP classification. They report that combined ΔΔG, AlphaMissense, and RSA outperforms current approaches for missense variants, and that ΔΔG alone outperforms current approaches for deletion variants.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, dataset descriptions, or validation details are provided
+- **Missing materials affecting confidence** Full methods, reference set composition and size, performance metrics (sensitivity, specificity, AUC), cross-validation details, calibration of LR estimates, comparison statistics, and any sensitivity analyses
+
+## Reviewer
+- **Overall assessment** The abstract addresses a clinically relevant and timely question, namely whether newly available computational tools can improve TP53 variant classification. The proposed integration of protein stability and AlphaMissense scores is conceptually reasonable and potentially impactful for clinical genetics. However, the abstract provides insufficient quantitative evidence to evaluate the strength of the reported improvements. Key performance metrics, dataset characteristics, and validation approaches are absent, preventing assessment of whether the conclusions are robust and generalizable. The recommendation to modify VCEP specifications is consequential and requires stronger evidentiary support than currently visible.
+- **Who would be interested in the results, and why** Clinical geneticists and molecular diagnosticians involved in variant classification, particularly those working with TP53 and other cancer susceptibility genes; members of ClinGen VCEPs; developers of bioinformatic prediction tools; and researchers studying the functional impact of missense and in-frame deletion variants. The work is directly relevant to clinical decision-making regarding germline TP53 variants and may inform analogous approaches for other genes.
+- **Major strengths** The study addresses a practical gap in current TP53 VCEP classification by evaluating tools that capture protein stability effects. The inclusion of both missense and single-amino-acid deletion variants is valuable, as deletions are often understudied. The use of functionally defined reference sets and likelihood ratio estimation suggests a rigorous framework. The proposal to use different predictive strategies for substitution versus deletion variants is a nuanced and clinically actionable conclusion.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that integrating ΔΔG scores with AlphaMissense and RSA improves impact prediction for p53 missense variants, and that ΔΔG alone outperforms current approaches for deletion variants.  
+  - **Evidence pointer** Abstract, Results section (location not provided)  
+  - **Concern** No quantitative performance metrics are reported. The abstract states that improvements were observed but does not provide sensitivity, specificity, AUC, or any measure of effect size or statistical significance. Without these, the magnitude and reliability of the claimed improvements cannot be evaluated.  
+  - **Why it matters** The conclusion that VCEP specifications should be modified is a strong recommendation with clinical implications. Such recommendations require clear evidence that the proposed approaches meaningfully outperform existing tools, not merely that they perform comparably or marginally better. The absence of metrics prevents any assessment of clinical utility.  
+  - **Resolution test** Provide performance metrics (e.g., AUC, sensitivity, specificity, positive and negative predictive values) for each tool and combination, with confidence intervals and statistical comparisons against current VCEP approaches.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability and validation  
+  - **Claim pointer** The abstract implies that the findings support changes to TP53 VCEP specifications.  
+  - **Evidence pointer** Abstract, Summary section (location not provided)  
+  - **Concern** The abstract does not describe the reference set composition, its size, or how variants were functionally defined. It is unclear whether the reference set is sufficiently large and diverse to support robust conclusions, and whether the results were validated in independent datasets or through cross-validation.  
+  - **Why it matters** Predictive tool performance can vary substantially depending on the training and test sets. Without details on reference set size, variant distribution, and validation strategy, the generalizability of the findings to the broader TP53 variant landscape is uncertain.  
+  - **Resolution test** Describe the reference set (number of variants, functional assay types, variant categories), and report validation results from independent cohorts or cross-validation procedures.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that ΔΔG scores were calculated using FoldX for missense variants and an AlphaFold2/RosettaRelax protocol for deletions, and that RSA was used to categorize surface exposure.  
+  - **Evidence pointer** Abstract, Methods summary (location not provided)  
+  - **Concern** The abstract does not specify thresholds for RSA categories, how ΔΔG thresholds were selected, or whether these thresholds were optimized on the same data used for evaluation, which could introduce overfitting.  
+  - **Why it matters** Threshold selection directly affects classification performance. If thresholds were chosen based on the same reference set used for evaluation, reported performance may be optimistically biased.  
+  - **Resolution test** State whether thresholds were pre-specified or optimized, and if optimized, describe the procedure and whether performance was assessed in a held-out set.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, Summary section  
+  - **Evidence pointer** Abstract (location not provided)  
+  - **Issue** The abstract does not define the "currently used predictive approaches" beyond naming BayesDel and Align-GVGD, nor does it specify how these were applied (e.g., which thresholds or scoring versions).  
+  - **Required correction** Briefly specify the version and threshold criteria for BayesDel and Align-GVGD as used in the current TP53 VCEP framework.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reporting completeness  
+  - **Affected element** Abstract, Results section  
+  - **Evidence pointer** Abstract (location not provided)  
+  - **Issue** The abstract mentions "likelihood ratio (LR) toward pathogenicity" but does not report the LR values or how they were used to refine categories.  
+  - **Required correction** Provide representative LR values or describe the category refinement process in sufficient detail to understand the proposed classification scheme.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, Summary section  
+  - **Evidence pointer** Abstract (location not provided)  
+  - **Issue** The term "impact prediction" is used but not defined; it is unclear whether this refers to pathogenicity classification, functional impact, or both.  
+  - **Required correction** Define "impact prediction" explicitly in the context of the study.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of performance metrics and validation details means the core claims of improved prediction are not currently established from the provided evidence. R1-M3, while not blocking, raises concerns about potential overfitting that should be addressed.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The combination of ΔΔG, AlphaMissense, and RSA for TP53 is a novel integration, but each component has been previously described.  
+  - Scientific importance: High for the clinical genetics community, given the direct relevance to TP53 VCEP classification and potential impact on patient care.  
+  - Interdisciplinary readership: Moderate. The work bridges computational biology and clinical genetics, but the abstract is written primarily for a specialist audience.  
+  - Technical soundness: Not assessable from the abstract alone. The methodological approach is plausible, but the absence of quantitative results and validation details prevents evaluation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with bioinformatic prediction tools and variant classification frameworks.  
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses an important question and the proposed approach is promising, but the abstract does not provide sufficient quantitative evidence to support the conclusions. A revised version with full performance metrics, dataset descriptions, and validation details would be needed to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that "current VCEP predictive approaches for missense variants were improved by integrating ΔΔG scores" is unsupported without performance metrics and statistical comparisons.
+- The claim that "better performance was achieved using AlphaMissense with ΔΔG and RSA" is unsupported without quantitative results.
+- The claim that "ΔΔG scores ≥4.8 Rosetta energy unit (REU) in buried residues outperformed currently used predictive approaches" for deletions is unsupported without performance data.
+- The recommendation that "Future TP53 VCEP specifications may consider AlphaMissense, ΔΔG score, and RSA combined for substitution variants and ΔΔG score alone for deletion variants" is not supported by the evidence presented in the abstract.
+- The generalizability of findings to all TP53 variants is not assessable given the absence of reference set details.

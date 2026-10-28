@@ -1,0 +1,531 @@
+{
+  "identity": {
+    "pmid": "41261119",
+    "doi": "10.1038/s41467-025-65186-0",
+    "title": "Structural basis of Nuclear Factor 1-X DNA recognition provides prototypic insight into the NFI family."
+  },
+  "content": {
+    "abstract": "Nuclear Factor I (NFI) proteins are involved in adenovirus DNA replication and regulate gene transcription, stem cell proliferation, and differentiation. They play key roles in development, cancer, and congenital disorders. Within the NFI family, NFI-X is critical for neural stem cell biology, hematopoiesis, muscle development, muscular dystrophies, and oncogenesis. Here, we present the structural characterization of the NFI transcription factor NFI-X, both alone and bound to its consensus palindromic DNA site. Our analyses reveal a MH1-like fold within NFI-X DNA-binding domain (DBD) and identify crucial structural determinants for activity, such as a Zn(2)(+) binding site, dimeric assembly, and DNA-binding specificity. Given the ~85% sequence identity within the NFI DBDs, our structural data are prototypic for the entire family, a NFI Rosetta Stone that allows decoding a wealth of biochemical and functional data and provides a precise target for drug design in a wider disease context.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry",
+      "Humans",
+      "Binding Sites",
+      "*NFI Transcription Factors/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "Models, Molecular",
+      "Crystallography, X-Ray",
+      "Protein Domains",
+      "Zinc/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tiberi, Michele",
+        "Lapi, Michela",
+        "Gourlay, Louise Jane",
+        "Chaves-Sanjuan, Antonio",
+        "Polentarutti, Maurizio",
+        "Demitri, Nicola",
+        "Cavinato, Miriam",
+        "Bonnet, Diane Marie Valerie",
+        "Taglietti, Valentina",
+        "Righetti, Anna",
+        "Sala, Rachele",
+        "Cauteruccio, Silvia",
+        "Kumawat, Amit",
+        "Russo, Rosaria",
+        "Barbiroli, Alberto Giuseppe",
+        "Gnesutta, Nerina",
+        "Camilloni, Carlo",
+        "Bolognesi, Martino",
+        "Messina, Graziella",
+        "Nardini, Marco"
+      ],
+      "short_names": [
+        "Tiberi M",
+        "Lapi M",
+        "Gourlay LJ",
+        "Chaves-Sanjuan A",
+        "Polentarutti M",
+        "Demitri N",
+        "Cavinato M",
+        "Bonnet DMV",
+        "Taglietti V",
+        "Righetti A",
+        "Sala R",
+        "Cauteruccio S",
+        "Kumawat A",
+        "Russo R",
+        "Barbiroli AG",
+        "Gnesutta N",
+        "Camilloni C",
+        "Bolognesi M",
+        "Messina G",
+        "Nardini M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6369-2230",
+        "ORCID: 0000-0003-3287-9024",
+        "ORCID: 0000-0001-7385-3045",
+        "ORCID: 0000-0003-0288-3233",
+        "ORCID: 0009-0008-9008-2332",
+        "ORCID: 0009-0006-1184-8818",
+        "ORCID: 0000-0003-0011-5775",
+        "ORCID: 0000-0003-1678-5431",
+        "ORCID: 0000-0002-2465-8881",
+        "ORCID: 0000-0002-9923-8590",
+        "ORCID: 0000-0002-9253-5170",
+        "ORCID: 0000-0001-8189-0727",
+        "ORCID: 0000-0002-3718-2165"
+      ],
+      "affiliations": [
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Universita degli Studi di Milano, Milano, Italy.",
+        "Elettra Sincrotrone Trieste S.C.p.A, Area Science Park, Basovizza, Italy.",
+        "Elettra Sincrotrone Trieste S.C.p.A, Area Science Park, Basovizza, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "MRB, INSERM, University of Paris Est Creteil, Creteil, France.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Heidelberg University Biochemistry Center (BZH), Heidelberg, Germany.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Chemistry, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Physics, Universita degli Studi di Cagliari, Monserrato, Italy.",
+        "Department of Pathophysiology and Transplantation, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Food Environmental and Nutritional Sciences (DeFENS), Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy.",
+        "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Universita degli Studi di Milano, Milano, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy. graziella.messina@unimi.it.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milano, Italy. marco.nardini@unimi.it.",
+        "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Universita degli Studi di Milano, Milano, Italy. marco.nardini@unimi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tiberi, Michele",
+        "short_name": "Tiberi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Lapi, Michela",
+        "short_name": "Lapi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Gourlay, Louise Jane",
+        "short_name": "Gourlay LJ",
+        "identifiers": [
+          "0000-0002-6369-2230"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Chaves-Sanjuan, Antonio",
+        "short_name": "Chaves-Sanjuan A",
+        "identifiers": [
+          "0000-0003-3287-9024"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy.",
+          "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Polentarutti, Maurizio",
+        "short_name": "Polentarutti M",
+        "identifiers": [
+          "0000-0001-7385-3045"
+        ],
+        "affiliations": [
+          "Elettra Sincrotrone Trieste S.C.p.A, Area Science Park, Basovizza, Italy."
+        ]
+      },
+      {
+        "full_name": "Demitri, Nicola",
+        "short_name": "Demitri N",
+        "identifiers": [
+          "0000-0003-0288-3233"
+        ],
+        "affiliations": [
+          "Elettra Sincrotrone Trieste S.C.p.A, Area Science Park, Basovizza, Italy."
+        ]
+      },
+      {
+        "full_name": "Cavinato, Miriam",
+        "short_name": "Cavinato M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Bonnet, Diane Marie Valérie",
+        "short_name": "Bonnet DMV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy.",
+          "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Taglietti, Valentina",
+        "short_name": "Taglietti V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy.",
+          "MRB, INSERM, University of Paris Est Creteil, Creteil, France."
+        ]
+      },
+      {
+        "full_name": "Righetti, Anna",
+        "short_name": "Righetti A",
+        "identifiers": [
+          "0009-0008-9008-2332"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy.",
+          "Heidelberg University Biochemistry Center (BZH), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sala, Rachele",
+        "short_name": "Sala R",
+        "identifiers": [
+          "0009-0006-1184-8818"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Cauteruccio, Silvia",
+        "short_name": "Cauteruccio S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Kumawat, Amit",
+        "short_name": "Kumawat A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy.",
+          "Department of Physics, Università degli Studi di Cagliari, Monserrato, Italy."
+        ]
+      },
+      {
+        "full_name": "Russo, Rosaria",
+        "short_name": "Russo R",
+        "identifiers": [
+          "0000-0003-0011-5775"
+        ],
+        "affiliations": [
+          "Department of Pathophysiology and Transplantation, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Barbiroli, Alberto Giuseppe",
+        "short_name": "Barbiroli AG",
+        "identifiers": [
+          "0000-0003-1678-5431"
+        ],
+        "affiliations": [
+          "Department of Food Environmental and Nutritional Sciences (DeFENS), Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Gnesutta, Nerina",
+        "short_name": "Gnesutta N",
+        "identifiers": [
+          "0000-0002-2465-8881"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Camilloni, Carlo",
+        "short_name": "Camilloni C",
+        "identifiers": [
+          "0000-0002-9923-8590"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Bolognesi, Martino",
+        "short_name": "Bolognesi M",
+        "identifiers": [
+          "0000-0002-9253-5170"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy.",
+          "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Università degli Studi di Milano, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Messina, Graziella",
+        "short_name": "Messina G",
+        "identifiers": [
+          "0000-0001-8189-0727"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy. graziella.messina@unimi.it."
+        ]
+      },
+      {
+        "full_name": "Nardini, Marco",
+        "short_name": "Nardini M",
+        "identifiers": [
+          "0000-0002-3718-2165"
+        ],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milano, Italy. marco.nardini@unimi.it.",
+          "Fondazione Romeo e Enrica Invernizzi and Unitech NOLIMITS, Università degli Studi di Milano, Milano, Italy. marco.nardini@unimi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Nov 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/20 00:30",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42653374",
+      "41623611"
+    ],
+    "refs": [
+      "38597606",
+      "36478187",
+      "35297529",
+      "34265844",
+      "33510867",
+      "32071288",
+      "32006276",
+      "31730271",
+      "30412051",
+      "30357350",
+      "30287093",
+      "30266829",
+      "29897170",
+      "29234012",
+      "29142766",
+      "29057908",
+      "28607562",
+      "28165473",
+      "26923583",
+      "26304548",
+      "25908787",
+      "25118028",
+      "24661679",
+      "24167280",
+      "22301465",
+      "21460454",
+      "20673863",
+      "20383001",
+      "20147459",
+      "20124702",
+      "20124692",
+      "20057044",
+      "19337383",
+      "18600222",
+      "18477394",
+      "17511965",
+      "16322555",
+      "15572765",
+      "15264254",
+      "14604535",
+      "12824398",
+      "12351820",
+      "11125097",
+      "10831836",
+      "10736221",
+      "9660945",
+      "9417094",
+      "8754805",
+      "8182757",
+      "7961993",
+      "7565707",
+      "3821731",
+      "3786147",
+      "3039460",
+      "2504497",
+      "2303041",
+      "1618796"
+    ],
+    "similar": [
+      "41261119",
+      "19584245",
+      "21189253",
+      "39617063",
+      "20003413",
+      "24801505",
+      "23402308",
+      "11046146",
+      "41428734",
+      "8754805",
+      "2214023",
+      "19540848",
+      "28962832",
+      "7565707",
+      "22228435",
+      "2767055",
+      "30195713",
+      "11564870",
+      "22205750",
+      "14747557",
+      "18809517",
+      "22982744",
+      "9052991",
+      "25156673",
+      "10087299",
+      "7937100",
+      "14631647",
+      "19418463",
+      "2088500",
+      "17130157",
+      "17597074",
+      "9380514",
+      "22327224",
+      "2293667",
+      "10478840",
+      "32541649",
+      "21473784",
+      "7972097",
+      "1765770",
+      "8706826",
+      "3786147",
+      "1537346",
+      "14645514",
+      "12686552",
+      "21602176",
+      "30287093",
+      "1903836",
+      "41408833",
+      "11444530",
+      "1618796",
+      "38780097",
+      "8581067",
+      "7891701",
+      "9056636",
+      "2211726",
+      "8340106",
+      "1883843",
+      "16204235",
+      "9399584",
+      "17904922",
+      "15047811",
+      "7961993",
+      "9099724",
+      "3357767",
+      "20431063",
+      "16169882",
+      "16325577",
+      "10085123",
+      "10736221",
+      "16606365",
+      "17511965",
+      "28644006",
+      "20876732",
+      "10762365",
+      "3034574",
+      "21953450",
+      "18056638",
+      "10831836",
+      "19658195",
+      "26941328",
+      "22028663",
+      "16242019",
+      "2304457",
+      "19157940",
+      "8392590",
+      "10896661",
+      "19058033",
+      "25879941",
+      "2542901",
+      "21270437",
+      "21173167",
+      "18421093",
+      "9407049",
+      "2162764",
+      "12591615",
+      "33346791",
+      "8026582",
+      "15576348",
+      "10521600",
+      "1699939"
+    ],
+    "review": [
+      "41261119",
+      "28962832",
+      "22982744",
+      "25156673",
+      "30287093"
+    ],
+    "pmc": [
+      "12630593"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1198298.5",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-65186-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41261119/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, limitations, future perspectives)
+- **Assessment boundary** Scientific validity of the computational pipeline, internal consistency of results, support for stated conclusions, and adequacy of methodological reporting
+- **Shared manuscript claim summary** The authors apply an integrated computational workflow combining sequence-based pathogenicity predictors, stability prediction tools, homology modeling, and molecular dynamics simulations to identify and characterize missense variants in PDX1 that are likely to be structurally destabilizing and functionally deleterious, with T151K, Y170N, and R197G highlighted as the highest-priority candidates.
+- **Visible evidence base** Full text including 12 figures, 5 tables, and 2 supplementary tables referenced; no supplementary material or raw data files were provided for inspection
+- **Missing materials affecting confidence** Supplementary Tables S1–S3, all figures (1–12), all tables (1–5), raw MD trajectory data, tool version details, and complete variant lists; without these, quantitative claims cannot be independently verified
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational screen of PDX1 missense variants using a multi-tool consensus approach followed by structural modeling and MD simulation. The workflow is reasonable and the topic is of interest to the monogenic diabetes community. However, the manuscript has substantial reporting gaps that prevent verification of the central claims. Key quantitative results are presented without the underlying data, the selection cascade from 403 to 3 variants is not fully traceable, and the MD analysis is described with insufficient detail to assess its validity. The discussion appropriately acknowledges limitations, but several interpretive claims exceed what the presented evidence can support. The manuscript would benefit from major revisions to improve transparency, methodological rigor, and the precision of its conclusions.
+- **Who would be interested in the results, and why** Researchers in monogenic diabetes genetics, clinical geneticists involved in MODY diagnosis, and computational biologists working on variant effect prediction. The prioritization framework may also interest those developing integrated in silico pipelines for transcription factor variants.
+- **Major strengths** 1) The multi-tool consensus approach reduces reliance on any single predictor, which is a recognized best practice in variant prioritization. 2) The integration of sequence-based prediction with structural dynamics via MD simulation is more mechanistically informative than sequence-only analyses. 3) The authors explicitly acknowledge the apo-state limitation and provide a reasoned justification for this choice. 4) The study addresses a clinically relevant gene with clear translational motivation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The claim that 91 variants were consistently deleterious, 55 disease-associated, 41 destabilizing, 27 with altered flexibility, 18 with disrupted molecular features, and 7 with structural consequences, culminating in 3 prioritized variants.
+  - **Evidence pointer** Section 3, Tables 1–5, Supplementary Tables S1–S3; location not provided
+  - **Concern** The variant selection cascade is presented as a series of counts at each filtering stage, but the actual variant identities, scores, and filtering criteria are not shown in the main text. The supplementary tables are referenced but were not available for review. Without these data, the reader cannot trace how 403 variants were reduced to 3, nor can they assess whether the filtering thresholds were applied consistently and appropriately.
+  - **Why it matters** The central conclusion that T151K, Y170N, and R197G are the highest-priority deleterious variants depends entirely on the integrity of this filtering cascade. If the intermediate data are not available, the prioritization cannot be independently evaluated or reproduced, which undermines the scientific value of the study.
+  - **Resolution test** Provide the full variant list with all tool scores at each filtering stage, either in the main text or in accessible supplementary material, with clear documentation of the thresholds applied at each step.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological reporting
+  - **Claim pointer** The claim that MD simulations demonstrated "increased structural instability, altered flexibility, and reduced compactness in mutant proteins compared with the wild-type."
+  - **Evidence pointer** Section 2.8, Section 3.7, Figures 4–11, Table 4; location not provided
+  - **Concern** The MD simulation section lacks essential methodological details. The number of replicate simulations, the equilibration protocol beyond the brief description, the convergence criteria, and the specific analysis methods for each metric are not described. The results section reports only a single RMSD value for the wild-type and one mutant, with no statistical treatment of the remaining metrics. The figures are referenced but not available for inspection.
+  - **Why it matters** MD simulations are only meaningful if the simulation protocol is reproducible and the analysis is statistically sound. Without information on replicates, convergence, and error estimation, the reported differences between wild-type and mutants cannot be distinguished from stochastic variation. This is particularly important given that the reported RMSD difference (0.23 vs 0.31 nm) may or may not be significant depending on the variance.
+  - **Resolution test** Provide complete MD simulation parameters, including the number of replicates, simulation length per replicate, convergence assessment, and statistical analysis of all reported metrics with appropriate error estimates. Present the data in a form that allows the reader to assess the significance of the observed differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The statement that "R197G appears to enhance secondary structure formation, potentially altering the protein's conformational landscape" and the interpretation of this as consistent with pathogenicity.
+  - **Evidence pointer** Section 3.8, Table 5; location not provided
+  - **Concern** The finding that R197G has higher secondary structure content than the wild-type is interpreted as potentially pathogenic, but the reasoning is not fully developed. Increased secondary structure could indicate a more rigid, less functional protein, but it could also represent a benign conformational change. The manuscript does not provide a mechanistic hypothesis for how enhanced secondary structure would impair PDX1 function, nor does it discuss whether this observation is consistent with the known biology of homeodomain proteins.
+  - **Why it matters** The interpretation of R197G as a high-priority deleterious variant rests on this structural analysis. If the increased secondary structure is not clearly linked to functional impairment, the prioritization of this variant is weakened. The authors need to either provide a more compelling mechanistic rationale or temper their claims about this variant.
+  - **Resolution test** Provide a more detailed structural analysis of the R197G variant, including examination of the specific secondary structure elements that change, their location relative to functional domains, and a clear mechanistic argument for how these changes would impair DNA binding or transcriptional activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validation
+  - **Claim pointer** The claim that the findings are "consistent with published functional studies" and "complement established variant interpretation frameworks."
+  - **Evidence pointer** Section 4, references [47,48]; location not provided
+  - **Concern** The comparison with ClinVar classifications and published functional studies is described only in general terms. The authors state that they compared their prioritized variants with ClinVar and found consistency, but they do not report the specific ClinVar classifications for T151K, Y170N, and R197G, nor do they detail how their computational predictions align with or diverge from experimental data. The two cited studies are mentioned but not discussed in sufficient detail to assess the claimed consistency.
+  - **Why it matters** External validation is critical for establishing the credibility of computational predictions. Without specific details on how the prioritized variants compare with existing clinical and experimental evidence, the reader cannot assess whether the computational findings add new information or merely recapitulate known results.
+  - **Resolution test** Provide a table comparing the three prioritized variants with their ClinVar classifications, any published functional data, and the authors' computational predictions, with clear discussion of concordance and discordance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2; location not provided
+  - **Issue** The criteria for excluding variants with "incomplete protein-level information" or "mapping ambiguity" are not defined.
+  - **Required correction** Specify the exact exclusion criteria and report how many variants were removed for each reason.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.7
+  - **Evidence pointer** Section 3.7, Table 4; location not provided
+  - **Issue** The results state "mean ± SD" values but do not report the number of independent measurements or frames used for the averaging.
+  - **Required correction** Report the number of frames or replicates used for each averaged metric and clarify whether the SD represents temporal or replicate variability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5; location not provided
+  - **Issue** The DynaMut2 threshold of "scores ≤ −2.5" is described as indicating destabilization, but the units and meaning of this score are not explained.
+  - **Required correction** Briefly explain what the DynaMut2 score represents and why −2.5 is an appropriate threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 4–11
+  - **Evidence pointer** Figures 4–11; location not provided
+  - **Issue** Eight figures are dedicated to MD results, which seems excessive for the amount of quantitative data reported in the text.
+  - **Required correction** Consider consolidating related MD figures and ensuring each figure conveys distinct, essential information.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 1, last paragraph
+  - **Evidence pointer** Section 1; location not provided
+  - **Issue** The sentence "Therefore, the present study employed an integrated in silico framework to screen, prioritize, and characterize nsSNPs in the PDX1 gene" is followed by a sentence fragment: "By combining functional prediction, pathogenicity analysis, protein stability assessment, structural modeling, molecular dynamics simulations, and three-dimensional visualization."
+  - **Required correction** Combine these into a single grammatically complete sentence.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reference currency
+  - **Affected element** Reference list
+  - **Evidence pointer** References [1–49]; location not provided
+  - **Issue** The manuscript is dated 2026, but the most recent cited functional studies are from 2019 and 2025. It would be helpful to cite any more recent functional or clinical studies of PDX1 variants if they exist.
+  - **Required correction** Update the reference list to include any relevant studies published within the last two years.
+
+## Risk / unsupported claims
+- The specific claim that T151K, Y170N, and R197G are the "highest deleterious mutants" is not verifiable without the intermediate filtering data and scores.
+- The claim that MD simulations demonstrate "compromised structural integrity" in mutants is not supported by the reported statistics, which lack error estimates and replicate information.
+- The claim of consistency with ClinVar classifications and published functional studies is not substantiated with specific data.
+- The interpretation that R197G's increased secondary structure content is pathogenic is speculative and not mechanistically justified.
+- The statement that "most high-risk nsSNPs were associated with decreased protein stability" is presented without the distribution of stability predictions across the 41 variants.
+- The claim that the integrated approach "provides mechanistic insights" into how variants impair transcriptional function is overstated, as the simulations were performed on the apo protein without DNA or cofactors.

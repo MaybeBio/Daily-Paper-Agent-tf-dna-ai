@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38915713",
+    "doi": "10.1101/2024.06.14.599076",
+    "title": "Iterative deep learning-design of human enhancers exploits condensed sequence grammar to achieve cell type-specificity."
+  },
+  "content": {
+    "abstract": "An important and largely unsolved problem in synthetic biology is how to target gene expression to specific cell types. Here, we apply iterative deep learning to design synthetic enhancers with strong differential activity between two human cell lines. We initially train models on published datasets of enhancer activity and chromatin accessibility and use them to guide the design of synthetic enhancers that maximize predicted specificity. We experimentally validate these sequences, use the measurements to re-optimize the predictor, and design a second generation of enhancers with improved specificity. Our design methods embed relevant transcription factor binding site (TFBS) motifs with higher frequencies than comparable endogenous enhancers while using a more selective motif vocabulary, and we show that enhancer activity is correlated with transcription factor expression at the single cell level. Finally, we characterize causal features of top enhancers via perturbation experiments and show enhancers as short as 50bp can maintain specificity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Christopher",
+        "Hair, Sebastian Castillo",
+        "Byeon, Gun Woo",
+        "Bromley, Peter",
+        "Meuleman, Wouter",
+        "Seelig, Georg"
+      ],
+      "short_names": [
+        "Yin C",
+        "Hair SC",
+        "Byeon GW",
+        "Bromley P",
+        "Meuleman W",
+        "Seelig G"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-5658-4097",
+        "ORCID: 0000-0002-2384-3129",
+        "ORCID: 0000-0001-5022-4342",
+        "ORCID: 0000-0002-1196-5401",
+        "ORCID: 0000-0002-3163-8782"
+      ],
+      "affiliations": [
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA.",
+        "Altius Institute for Biomedical Sciences, Seattle, WA.",
+        "Altius Institute for Biomedical Sciences, Seattle, WA.",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA.",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Christopher",
+        "short_name": "Yin C",
+        "identifiers": [
+          "0009-0005-5658-4097"
+        ],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Hair, Sebastian Castillo",
+        "short_name": "Hair SC",
+        "identifiers": [
+          "0000-0002-2384-3129"
+        ],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Byeon, Gun Woo",
+        "short_name": "Byeon GW",
+        "identifiers": [
+          "0000-0001-5022-4342"
+        ],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Bromley, Peter",
+        "short_name": "Bromley P",
+        "identifiers": [],
+        "affiliations": [
+          "Altius Institute for Biomedical Sciences, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Meuleman, Wouter",
+        "short_name": "Meuleman W",
+        "identifiers": [
+          "0000-0002-1196-5401"
+        ],
+        "affiliations": [
+          "Altius Institute for Biomedical Sciences, Seattle, WA.",
+          "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA."
+        ]
+      },
+      {
+        "full_name": "Seelig, Georg",
+        "short_name": "Seelig G",
+        "identifiers": [
+          "0000-0002-3163-8782"
+        ],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA.",
+          "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 06:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39779956",
+      "39322281",
+      "38724692",
+      "38565561",
+      "38086419",
+      "38086418",
+      "37087538",
+      "36693380",
+      "36635387",
+      "35863348",
+      "35551305",
+      "35190730",
+      "34853475",
+      "34850907",
+      "34670493",
+      "34608324",
+      "33789083",
+      "33760053",
+      "33603233",
+      "33046894",
+      "32978299",
+      "32728217",
+      "32711843",
+      "32641802",
+      "31988385",
+      "31870423",
+      "31206543",
+      "30737237",
+      "29545511",
+      "28591841",
+      "28118844",
+      "27701403",
+      "26492886",
+      "25638815",
+      "25516281",
+      "25391375",
+      "23900254",
+      "23512712",
+      "22955617",
+      "22419077",
+      "15550541",
+      "6276024",
+      "3052270"
+    ],
+    "similar": [
+      "38915713",
+      "40472848",
+      "38086419",
+      "41256364",
+      "33137083",
+      "36043696",
+      "27490187",
+      "24714811",
+      "37539835",
+      "36520922",
+      "38086418",
+      "34486522",
+      "28716036",
+      "24967590",
+      "23512712",
+      "33581335",
+      "27155014",
+      "35551305",
+      "39420601",
+      "36891511",
+      "41478195",
+      "22412381",
+      "33741075",
+      "38485768",
+      "32732264",
+      "41497587",
+      "33712417",
+      "36715222",
+      "39922842",
+      "8473739",
+      "36351387",
+      "41229401",
+      "31340596",
+      "34226917",
+      "36941077",
+      "23700312",
+      "24127591",
+      "35015646",
+      "32431014",
+      "39819837",
+      "30578915",
+      "22087331",
+      "32043966",
+      "29187214",
+      "30892142",
+      "29284524",
+      "26180553",
+      "40403730",
+      "31307522",
+      "22759862",
+      "37557175",
+      "39229027",
+      "30375457",
+      "22537144",
+      "41030057",
+      "41285795",
+      "37237005",
+      "32689977",
+      "23019145",
+      "34874265",
+      "27662874",
+      "29219068",
+      "27582178",
+      "33770473",
+      "11375977",
+      "34761274",
+      "41039989",
+      "26446758",
+      "39695228",
+      "28137873",
+      "37034481",
+      "30286077",
+      "36705030",
+      "28589862",
+      "36464486",
+      "32249388",
+      "28854172",
+      "38187673",
+      "35525178",
+      "24565409",
+      "40001940",
+      "28839111",
+      "35650434",
+      "35410163",
+      "30709337",
+      "26912062",
+      "30097539",
+      "29670286",
+      "39184348",
+      "20133776",
+      "24896182",
+      "37884340",
+      "25517091",
+      "33749795",
+      "35082832",
+      "36671456",
+      "25378307",
+      "25976354",
+      "26382291",
+      "30374023"
+    ],
+    "review": [
+      "38915713",
+      "26446758"
+    ],
+    "pmc": [
+      "11195158"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38915713/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.14.599076",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38915713",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "35311814",
+    "doi": "10.3791/63406",
+    "title": "Structure-Based Simulation and Sampling of Transcription Factor Protein Movements along DNA from Atomic-Scale Stepping to Coarse-Grained Diffusion."
+  },
+  "content": {
+    "abstract": "One-dimensional (1-D) sliding of transcription factor (TF) protein along DNA is essential for facilitated diffusion of the TF to locate target DNA site for genetic regulation. Detecting base-pair (bp) resolution of the TF sliding or stepping on the DNA is still experimentally challenging. We have recently performed all-atom molecular dynamics (MD) simulations capturing spontaneous 1-bp stepping of a small WRKY domain TF protein along DNA. Based on the 10 micros WRKY stepping path obtained from such simulations, the protocol here shows how to conduct more extensive conformational samplings of the TF-DNA systems, by constructing the Markov state model (MSM) for the 1-bp protein stepping, with various numbers of micro- and macro-states tested for the MSM construction. In order to examine processive 1-D diffusional search of the TF protein along DNA with structural basis, the protocol further shows how to conduct coarse-grained (CG) MD simulations to sample long-time scale dynamics of the system. Such CG modeling and simulations are particularly useful to reveal the protein-DNA electrostatic impacts on the processive diffusional motions of the TF protein above tens of microseconds, in comparison with sub-microseconds to microseconds protein stepping motions revealed from the all-atom simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA/chemistry",
+      "Diffusion",
+      "*Molecular Dynamics Simulation",
+      "*Transcription Factors/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Video-Audio Media"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "E, Chao",
+        "Dai, Liqiang",
+        "Tian, Jiaqi",
+        "Da, Lin-Tai",
+        "Yu, Jin"
+      ],
+      "short_names": [
+        "E C",
+        "Dai L",
+        "Tian J",
+        "Da LT",
+        "Yu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Beijing Computational Science Research Center.",
+        "Beijing Computational Science Research Center; Shenzhen JL Computational Science and Applied Research Institute.",
+        "School of Medical Informatics and Engineering, Xuzhou Medical University; Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University.",
+        "Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University.",
+        "Department of Physics and Astronomy, University of California, Irvine; Department of Chemistry, University of California, Irvine; NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine; jin.yu@uci.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "E, Chao",
+        "short_name": "E C",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Computational Science Research Center."
+        ]
+      },
+      {
+        "full_name": "Dai, Liqiang",
+        "short_name": "Dai L",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Computational Science Research Center; Shenzhen JL Computational Science and Applied Research Institute."
+        ]
+      },
+      {
+        "full_name": "Tian, Jiaqi",
+        "short_name": "Tian J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Informatics and Engineering, Xuzhou Medical University; Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University."
+        ]
+      },
+      {
+        "full_name": "Da, Lin-Tai",
+        "short_name": "Da LT",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Systems Biomedicine (Ministry of Education), Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University."
+        ]
+      },
+      {
+        "full_name": "Yu, Jin",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of California, Irvine; Department of Chemistry, University of California, Irvine; NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine; jin.yu@uci.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of visualized experiments : JoVE"
+    ],
+    "journal_abbrev": [
+      "J Vis Exp"
+    ],
+    "pub_date": "2022 Mar 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Video-Audio Media"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/22 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "39326870",
+      "38360201"
+    ],
+    "refs": [],
+    "similar": [
+      "35311814",
+      "34074787",
+      "32933752",
+      "24685517",
+      "28679078",
+      "26575522",
+      "24222688",
+      "28107006",
+      "25387958",
+      "25504215",
+      "29433424",
+      "29204882",
+      "19812774",
+      "37897044",
+      "18456820",
+      "30952192",
+      "25978497",
+      "29397721",
+      "26200216",
+      "33754737",
+      "22797564",
+      "33469643",
+      "28530269",
+      "20017540",
+      "24810463",
+      "38922594",
+      "35325529",
+      "23866074",
+      "26574442",
+      "29860305",
+      "30404229",
+      "25903863",
+      "30908042",
+      "27192961",
+      "28482032",
+      "28423273",
+      "24403006",
+      "23396076",
+      "29194442",
+      "17949219",
+      "31984192",
+      "33319999",
+      "22486297",
+      "27782390",
+      "32199430",
+      "28992696",
+      "19035669",
+      "34971347",
+      "25219455",
+      "25383990",
+      "31375023",
+      "23220572",
+      "23730911",
+      "21806035",
+      "24116642",
+      "33030907",
+      "26536148",
+      "23822231",
+      "26723624",
+      "29806939",
+      "26575574",
+      "21928941",
+      "26154484",
+      "22298285",
+      "25043724",
+      "21927740",
+      "17059230",
+      "23747485",
+      "27300587",
+      "18205455",
+      "20673230",
+      "24506488",
+      "26589072",
+      "28958932",
+      "26673724",
+      "29165643",
+      "21494747",
+      "18570527",
+      "31106383",
+      "32805119",
+      "24738152",
+      "30617833",
+      "30259387",
+      "27598692",
+      "27901172",
+      "26991064",
+      "27566318",
+      "25176255",
+      "24116651",
+      "25918362",
+      "23668488",
+      "27723976",
+      "32416079",
+      "17029846",
+      "22995507",
+      "36274422",
+      "34869598",
+      "36244086",
+      "33639768",
+      "24109486",
+      "30972363",
+      "30974628"
+    ],
+    "review": [
+      "35311814",
+      "26575522",
+      "29204882",
+      "30404229",
+      "27192961",
+      "31375023",
+      "20673230",
+      "30617833",
+      "36274422"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9s7562qt",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://doi.org//10.3791/63406",
+        "provider": "MyJove Corporation",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

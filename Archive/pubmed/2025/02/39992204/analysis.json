@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39992204",
+  "title": "Identification of Biomarkers for Response to Interferon in Chronic Hepatitis B Based on Bioinformatics Analysis and Machine Learning.",
+  "authors": "Yuan, Xiaoqin; Zhou, Mingsha; Liu, Xing; Fan, Jie; Chen, Lijuan; Luo, Jia; Li, Shan; Zhou, Li",
+  "journal": "Viral immunology",
+  "published_date": "2025-02-24",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 3,
+  "one_liner_zh": "基于生物信息学与机器学习筛选慢性乙肝干扰素应答相关miRNA并构建TF-miRNA-枢纽基因调控网络，虽涉及转录因子但无蛋白-DNA互作建模或AI/物理模拟方法，仅属边缘相关。",
+  "abstract": "Interferon (IFN) is a pivotal agent against hepatitis B virus (HBV) in clinic, but there is a lack of accurate biomarkers to predict the response to IFN therapy in patients with chronic hepatitis B (CHB). Our study aimed to investigate potential targets for IFN therapy and to explore the network of interactions associated with IFN response. MicroRNA (miRNA) (GSE29911) and messenger RNA (GSE27555) datasets were used to screen the differentially expressed miRNAs (DEmiRNAs) and differentially expressed genes (DEGs). The random forest and k-nearest neighbors algorithm were used to further screen the core DEmiRNAs and build a prediction model. A Protein-Protein Interaction (PPI) network based on the STRING database was constructed and visualized by the Cytoscape software. Then, we collected transcription factors (TFs) from the TransmiR database to construct the TF-miRNA-hub gene regulatory network. Finally, real-time quantitative polymerase chain reaction was used to verify the expression of four miRNAs in HepG2-NTCP and Huh-7, and the effect of IFN treatment on four miRNAs' expression was preliminarily explored. Eighteen DEmiRNAs in GSE29911 and 700 DEGs in GSE27555 were identified. Boruta feature selection identified four miRNAs (miR-873, miR-200a, miR-30b, and let-7g) from 18 DEmiRNAs. We identified 48 TFs, 4 miRNAs, and 10 hub genes and constructed a TF-miRNA-hub gene network to suggest the mechanism of IFN response. According to the experimental results, miR-873 was upregulated and IFN treatment could inhibit it in HBV-transfected cells (p < 0.05). We constructed a TF-miRNA-hub gene regulatory network, and our results demonstrate that miR-873 was identified as a potential biomarker of IFN response in patients with CHB. This information provides an initial basis for understanding the complex IFN response regulatory mechanisms.",
+  "abstract_zh": "干扰素（IFN）是临床上对抗乙型肝炎病毒（HBV）的关键药物，但缺乏准确的生物标志物来预测慢性乙型肝炎（CHB）患者对IFN治疗的反应。本研究旨在探索IFN治疗的潜在靶点，并研究与IFN反应相关的相互作用网络。利用微小RNA（miRNA）数据集（GSE29911）和信使RNA数据集（GSE27555）筛选差异表达miRNA（DEmiRNAs）和差异表达基因（DEGs）。采用随机森林和k近邻算法进一步筛选核心DEmiRNAs并构建预测模型。基于STRING数据库构建蛋白质-蛋白质相互作用（PPI）网络，并通过Cytoscape软件进行可视化。随后，从TransmiR数据库收集转录因子（TFs），构建TF-miRNA-枢纽基因调控网络。最后，采用实时定量聚合酶链反应验证四种miRNA在HepG2-NTCP和Huh-7中的表达，并初步探讨IFN处理对四种miRNA表达的影响。在GSE29911中鉴定出18个DEmiRNAs，在GSE27555中鉴定出700个DEGs。Boruta特征选择从18个DEmiRNAs中识别出四种miRNA（miR-873、miR-200a、miR-30b和let-7g）。我们识别出48个TFs、4个miRNAs和10个枢纽基因，并构建了TF-miRNA-枢纽基因网络以提示IFN反应的机制。实验结果显示，miR-873在HBV转染细胞中上调，且IFN处理可抑制其表达（p < 0.05）。我们构建了TF-miRNA-枢纽基因调控网络，结果表明miR-873被确定为CHB患者IFN反应的潜在生物标志物。这些信息为理解复杂的IFN反应调控机制提供了初步基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39992204/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39992204/",
+  "paper_page_path": "papers/pubmed/39992204/index.html"
+}

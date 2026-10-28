@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "39827292",
+    "doi": "10.1038/s41598-025-86166-w",
+    "title": "A novel approach for target deconvolution from phenotype-based screening using knowledge graph."
+  },
+  "content": {
+    "abstract": "Deconvoluting drug targets is crucial in modern drug development, yet both traditional and artificial intelligence (AI)-driven methods face challenges in terms of completeness, accuracy, and efficiency. Identifying drug targets, especially within complex systems such as the p53 pathway, remains a formidable task. The regulation of this pathway by myriad stress signals and regulatory elements adds layers of complexity to the discovery of effective p53 pathway activators. Recent insights into p53 activation have led to two main screening strategies for p53 activators. The target-based approach focuses on p53 and its regulators (MDM2, MDMX, USP7, Sirt proteins), but requires separate systems for each target and may miss multi-target compounds. Phenotype-based screening can reveal new targets but involves a lengthy process to elucidate mechanisms and targets, hindering drug development. Knowledge graphs have emerged as powerful tools that offer strengths in link prediction and knowledge inference to address these issues. In this study, we constructed a protein-protein interaction knowledge graph (PPIKG) and pioneered an integrated drug target deconvolution system that combines AI with molecular docking techniques. Analysis based on the PPIKG narrowed down candidate proteins from 1088 to 35, significantly saving time and cost. Subsequent molecular docking led us to pinpoint USP7 as a direct target for the p53 pathway activator UNBS5162. Leveraging knowledge graphs and a multidisciplinary approach allows us to streamline the laborious and expensive process of reverse targeting drug discovery through phenotype screening. Our findings have the potential to revolutionize drug screening and open new avenues in pharmacological research, increasing the speed and efficiency of pursuing novel therapeutics. The code is available at  https://github.com/Xiong-Jing/PPIKG .",
+    "keywords": [
+      "P53 pathway activator",
+      "Drug target deconvolution",
+      "Knowledge graph",
+      "Molecular docking",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Suppressor Protein p53/metabolism/chemistry",
+      "Phenotype",
+      "Molecular Docking Simulation",
+      "Artificial Intelligence",
+      "Ubiquitin-Specific Peptidase 7/metabolism/chemistry",
+      "Drug Discovery/methods",
+      "Proto-Oncogene Proteins c-mdm2/metabolism",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaohong",
+        "Zhang, Meifang",
+        "Xu, Jianliang",
+        "Li, Xin",
+        "Xiong, Jing",
+        "Cao, Haowei",
+        "Dou, Fangkun",
+        "Zhai, Xue",
+        "Sun, Hua"
+      ],
+      "short_names": [
+        "Wang X",
+        "Zhang M",
+        "Xu J",
+        "Li X",
+        "Xiong J",
+        "Cao H",
+        "Dou F",
+        "Zhai X",
+        "Sun H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shandong Foreign Trade Vocational College, Qingdao, 266100, China.",
+        "Key Laboratory of Marine Drugs, Chinese Ministry of Education, School of Medicine and Pharmacy, Ocean University of China, Qingdao, 266100, China.",
+        "Faculty of Information Science and Engineering, Ocean University of China, Qingdao, 266071, China.",
+        "Gansu Health Vocational College, Lanzhou, 730000, China.",
+        "School of Computer Science, Qufu Normal University, Rizhao, 276827, China. jingxiong125@gmail.com.",
+        "Rizhao-Qufu Normal University Joint Technology Transfer Center, Rizhao, 276827, China. jingxiong125@gmail.com.",
+        "International Joint Research Laboratory for Perception Data Intelligent Processing of Henan, Anyang Normal University, Anyang, 455000, China. jingxiong125@gmail.com.",
+        "Shandong Computer Science Center, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 255000, China.",
+        "Shandong Provincial Key Laboratory of Computer Networks, Shandong Fundamental Research Center for Computer Science, Jinan, 255000, China.",
+        "Oceanographic Data Center, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, 266071, China.",
+        "School of Engineering, Qufu Normal University, Rizhao, 276827, China.",
+        "International Joint Research Laboratory for Perception Data Intelligent Processing of Henan, Anyang Normal University, Anyang, 455000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaohong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Foreign Trade Vocational College, Qingdao, 266100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Meifang",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Marine Drugs, Chinese Ministry of Education, School of Medicine and Pharmacy, Ocean University of China, Qingdao, 266100, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jianliang",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Science and Engineering, Ocean University of China, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu Health Vocational College, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jing",
+        "short_name": "Xiong J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Qufu Normal University, Rizhao, 276827, China. jingxiong125@gmail.com.",
+          "Rizhao-Qufu Normal University Joint Technology Transfer Center, Rizhao, 276827, China. jingxiong125@gmail.com.",
+          "International Joint Research Laboratory for Perception Data Intelligent Processing of Henan, Anyang Normal University, Anyang, 455000, China. jingxiong125@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Cao, Haowei",
+        "short_name": "Cao H",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Computer Science Center, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 255000, China.",
+          "Shandong Provincial Key Laboratory of Computer Networks, Shandong Fundamental Research Center for Computer Science, Jinan, 255000, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Fangkun",
+        "short_name": "Dou F",
+        "identifiers": [],
+        "affiliations": [
+          "Oceanographic Data Center, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Xue",
+        "short_name": "Zhai X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Engineering, Qufu Normal University, Rizhao, 276827, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hua",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "International Joint Research Laboratory for Perception Data Intelligent Processing of Henan, Anyang Normal University, Anyang, 455000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jan 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/20 22:53",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "42614934",
+      "42505375",
+      "42456602",
+      "42306789",
+      "42204336",
+      "42009769",
+      "41446260",
+      "40912403"
+    ],
+    "refs": [
+      "38308873",
+      "37700258",
+      "36912607",
+      "36408920",
+      "35173947",
+      "33179140",
+      "33070389",
+      "32634158",
+      "32477666",
+      "32386166",
+      "32367110",
+      "32065227",
+      "31348798",
+      "31282934",
+      "31134745",
+      "30561548",
+      "30310233",
+      "29186331",
+      "29086119",
+      "28936969",
+      "28924171",
+      "28316652",
+      "27910877",
+      "27329033",
+      "27108770",
+      "26872142",
+      "25093045",
+      "24974205",
+      "24382160",
+      "23613707",
+      "23337810",
+      "19946333",
+      "19499576",
+      "17287757",
+      "16325574",
+      "11923872",
+      "5232444",
+      "4453827"
+    ],
+    "similar": [
+      "39827292",
+      "38361286",
+      "27302609",
+      "39880128",
+      "34474304",
+      "16474402",
+      "37105726",
+      "39443474",
+      "26460617",
+      "16082221",
+      "30513790",
+      "26812210",
+      "28581721",
+      "25388787",
+      "19727615",
+      "25312347",
+      "15254415",
+      "37578044",
+      "30842349",
+      "33684824",
+      "38204258",
+      "25105592",
+      "26141769",
+      "30464405",
+      "29045385",
+      "31473433",
+      "21425995",
+      "40427535",
+      "23428467",
+      "35536362",
+      "28482147",
+      "23726030",
+      "32064756",
+      "24050442",
+      "29045389",
+      "40277907",
+      "24119020",
+      "25453499",
+      "31647545",
+      "26720344",
+      "28406480",
+      "22410433",
+      "20056466",
+      "27709883",
+      "19897041",
+      "27927748",
+      "31181622",
+      "20237429",
+      "23324352",
+      "25377899",
+      "27145840",
+      "19255450",
+      "38974119",
+      "26746660",
+      "27269808",
+      "36952348",
+      "27905468",
+      "22673503",
+      "19910468",
+      "29049989",
+      "16402859",
+      "29616860",
+      "33952867",
+      "34580281",
+      "28673313",
+      "28196907",
+      "28669344",
+      "38059334",
+      "32300595",
+      "17938582",
+      "21088494",
+      "19580521",
+      "27777309",
+      "20333547",
+      "30041135",
+      "16905541",
+      "19305137",
+      "18826207",
+      "28296148",
+      "35822492",
+      "21391910",
+      "18520179",
+      "36624687",
+      "31781989",
+      "18673221",
+      "26676832",
+      "17875722",
+      "22290440",
+      "25814188",
+      "19619542",
+      "37029281",
+      "28118981",
+      "40339040",
+      "19538162",
+      "35691827",
+      "16789731",
+      "21572037",
+      "22361354",
+      "19897042",
+      "26971997"
+    ],
+    "review": [
+      "39827292",
+      "27302609",
+      "39880128",
+      "34474304",
+      "16082221",
+      "15254415",
+      "21425995",
+      "40427535",
+      "40277907",
+      "22410433",
+      "19897041",
+      "27145840",
+      "22673503",
+      "28673313",
+      "28669344",
+      "32300595",
+      "21391910",
+      "18673221",
+      "26676832",
+      "19538162",
+      "19897042"
+    ],
+    "pmc": [
+      "11742725"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-86166-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39827292/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

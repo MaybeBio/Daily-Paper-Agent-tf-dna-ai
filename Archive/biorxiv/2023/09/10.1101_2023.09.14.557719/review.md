@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data/code availability statements) as provided in the submission
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence as presented in the supplied text; no assessment of code functionality, supplementary figures/tables, or external reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors present EquiPNAS, a protein-language-model-informed E(3) equivariant graph neural network for protein-DNA and protein-RNA binding site prediction. They claim consistent state-of-the-art performance across multiple datasets and input types (experimental and AlphaFold2-predicted structures), reduced dependence on evolutionary information through pLM embeddings, and robustness attributed to the equivariant architecture.
+- **Visible evidence base** Main text tables (Tables 1-4), main text figures (Figs 1-4), and textual descriptions of results; supplementary materials referenced but not provided
+- **Missing materials affecting confidence** Supplementary Tables 1-5, Supplementary Figures 1, full dataset details, hyperparameter selection procedures, statistical significance testing, and complete comparison results against all competing methods
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in structural bioinformatics and proposes a technically reasonable integration of protein language model embeddings with equivariant graph neural networks. The core idea is sensible and the reported performance improvements are potentially interesting. However, the provided text does not contain sufficient detail to fully evaluate the methodological rigor, statistical significance of the claimed improvements, or the generalizability of the findings. Several claims are made without adequate supporting evidence in the visible text, and key comparisons and ablations are only partially described. The work is promising but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, protein-nucleic acid interaction prediction, and deep learning for biomolecular applications would be interested. The work is also relevant to those developing protein language model applications beyond structure prediction and to method developers in graph neural networks for molecular data. The potential reduction in dependence on evolutionary information could be of practical interest for high-throughput annotation of less-studied proteins.
+- **Major strengths** The problem is well-motivated and the integration of pLM embeddings with equivariant graph networks is a reasonable and timely methodological choice. The authors address an important practical gap, namely the limited applicability of structure-based methods when experimental structures are unavailable. The ablation study design, separating the contributions of pLM features, evolutionary features, and equivariance, is conceptually sound. The reported robustness to input structure quality is a practically relevant finding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "EquiPNAS consistently outperforms the state-of-the-art methods for both protein-DNA and protein-RNA binding site prediction on multiple datasets"
+  - **Evidence pointer** Table 3, Results section "Test Set Performance", location not provided
+  - **Concern** The manuscript reports performance metrics (ROC-AUC, PR-AUC) for EquiPNAS and competing methods but does not provide any statistical significance testing, confidence intervals, or variance estimates across repeated runs or cross-validation folds. The claim of consistent outperformance cannot be evaluated without knowing whether the reported differences are statistically meaningful.
+  - **Why it matters** In deep learning applications, performance differences of a few percentage points in AUC metrics can be within run-to-run variance. Without statistical assessment, the central claim of the paper is not rigorously supported.
+  - **Resolution test** Provide confidence intervals or statistical tests (e.g., paired bootstrap, McNemar's test) for the reported performance differences across test sets and cross-validation folds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "The specific distance cut-offs are chosen through independent cross-validations for the protein-DNA and protein-RNA binding site tasks"
+  - **Evidence pointer** Materials and methods, "Graph Representation and Feature Generation", location not provided
+  - **Concern** The selection of distance cut-offs (14Å for DNA, 15Å for RNA) through cross-validation is mentioned but the details are not provided. It is unclear what range of cut-offs was explored, what criterion was used for selection, and whether this selection was performed on the training data only or involved the test sets. If test sets were used in any way for hyperparameter selection, the reported performance could be optimistically biased.
+  - **Why it matters** Hyperparameter selection procedures directly affect the validity of reported performance. If the test sets informed any design choices, the generalization claims are weakened.
+  - **Resolution test** Describe the cross-validation procedure for cut-off selection, including the range explored, the selection criterion, and explicit confirmation that test sets were not used in any model or hyperparameter selection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "EquiPNAS exhibits remarkable robustness with only a minor performance decline when switching from experimental structures to AlphaFold2 predicted structural models as input"
+  - **Evidence pointer** Results section "Test Set Performance", Supplementary Tables 3 and 4, location not provided
+  - **Concern** The robustness claim is supported by comparisons described in supplementary tables that are not provided in the submitted text. The visible text gives only two examples of performance decline (2.3% PR-AUC for DNA, 0.1% ROC-AUC for RNA) but does not show the full distribution of performance changes across all test targets. The claim of "remarkable robustness" requires a more complete presentation of the results.
+  - **Why it matters** Robustness to input structure quality is a central practical claim of the paper. Without full data, the reader cannot assess whether the reported examples are representative or selective.
+  - **Resolution test** Present the full comparison of experimental versus AlphaFold2-predicted input performance across all test sets, including per-target distributions of performance differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** "EquiPNAS attains the highest scores in all three test datasets"
+  - **Evidence pointer** Table 3, Results section "Test Set Performance", location not provided
+  - **Concern** The main comparison in Table 3 is against only two methods (GraphBind and GraphSite), while the text mentions eight competing methods for DNA and seven for RNA. The full comparisons are relegated to supplementary tables. It is unclear whether all competing methods were evaluated under identical conditions, particularly regarding the use of the same input structures, the same data splits, and the same evaluation protocols. Some competing methods may have been designed for different input types or may require additional information not used here.
+  - **Why it matters** Fair benchmarking is essential for establishing that the proposed method is genuinely state-of-the-art. Inconsistent evaluation conditions can lead to misleading conclusions.
+  - **Resolution test** Provide a detailed description of the evaluation protocol for all competing methods, including input types, data splits, and any adaptations made to the original methods. Present the full comparison in the main text or justify the selection of comparators.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "EquiPNAS is able to significantly reduce the dependence on the availability of evolutionary information which is not always abundant such as with orphan proteins or rapidly evolving proteins"
+  - **Evidence pointer** Results section "Ablation Study", Table 4, location not provided
+  - **Concern** The claim about reduced dependence on evolutionary information is based on the ablation study showing that removing PSSM and MSA features causes only minor performance drops. However, the test sets used may not be representative of the challenging cases mentioned, such as orphan proteins or rapidly evolving proteins. The authors do not demonstrate performance on proteins with limited or no detectable homologs.
+  - **Why it matters** The practical value of the method for less-studied proteins is a key stated motivation. Without evaluation on such cases, the generalizability claim is not directly supported.
+  - **Resolution test** Evaluate EquiPNAS on a test set of proteins with few or no sequence homologs, or provide evidence that the existing test sets include such challenging cases.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction, location not provided
+  - **Issue** The abstract and introduction use the term "equivariant" without briefly explaining what this means in the context of graph neural networks for a general reader. The concept is central to the method but may not be familiar to all potential readers.
+  - **Required correction** Add a brief explanation of equivariance in the introduction, for example, that the network's predictions transform consistently with rotations, translations, and reflections of the input structure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods, "Network Architecture"
+  - **Evidence pointer** Materials and methods, "Network Architecture", location not provided
+  - **Issue** The description of the network architecture mentions 12 EGCL layers with hidden dimensions of 768 but does not specify the total number of parameters, the activation functions used in the hidden layers, the initialization scheme, or the batch size. These details are important for reproducibility.
+  - **Required correction** Provide a complete specification of the architecture, including activation functions, normalization layers, parameter initialization, and training hyperparameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Result presentation
+  - **Affected element** Results section "Test Set Performance"
+  - **Evidence pointer** Fig 2, location not provided
+  - **Concern** The selection of 12 representative examples in Fig 2 is described but the criteria for selection are not stated. It is unclear whether these examples were chosen to be representative of typical performance or to highlight particularly favorable cases.
+  - **Required correction** State the criteria for selecting the representative examples, or present a systematic sampling approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Test Set Performance"
+  - **Evidence pointer** Results section "Test Set Performance", location not provided
+  - **Issue** The text states "EquiPPIS improves upon the state-of-the-art accuracy" in the final paragraph of the Test Set Performance section. This appears to be a typographical error, as the method is named EquiPNAS throughout the manuscript.
+  - **Required correction** Correct the typo to "EquiPNAS".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions future work on protein-nucleic acid complex structure modeling but does not discuss potential limitations of the current approach, such as computational cost, sensitivity to input structure quality, or failure modes.
+  - **Required correction** Add a paragraph discussing limitations and potential failure cases of the proposed method.
+- **Technical failings that need to be addressed before the case is established** 
+  - Absence of statistical significance testing for the reported performance improvements (R1-M1)
+  - Insufficient detail on the cross-validation procedure for distance cut-off selection, with potential risk of test set contamination (R1-M2)
+  - Incomplete presentation of the robustness analysis, with key data relegated to unavailable supplementary materials (R1-M3)
+  - Lack of clarity on the evaluation protocol for competing methods (R1-M4)
+  - No direct evaluation on proteins with limited evolutionary information, despite this being a stated motivation (R1-M5)
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of pLM embeddings with E(3) equivariant graph networks for nucleic acid binding site prediction is a reasonable incremental advance. The individual components are established, and the novelty lies primarily in their integration for this specific task. This is moderate originality, not a conceptual breakthrough.
+  - Scientific importance: Protein-nucleic acid interactions are biologically important, and improved prediction methods have practical value. However, the field already has multiple methods, and the reported improvements are incremental. The importance is moderate and domain-specific.
+  - Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning researchers working on biomolecular problems. The methods and evaluation are specialized, and the broader biological or chemical community is unlikely to find the work immediately accessible or relevant.
+  - Technical soundness: The methodological approach is reasonable, but the evidence presented in the supplied text is insufficient to fully assess technical soundness. Key details on statistical validation, hyperparameter selection, and comparison protocols are missing. The ablation study design is sound but the results are only partially presented.
+  - Readability for nonspecialists: The manuscript is written for a specialist audience. Terms such as "equivariant," "pLMs," and "EGCL" are used without sufficient explanation for readers outside the immediate field. The structure is logical but the density of technical terminology limits accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the problem is relevant, but the current submission does not provide sufficient evidence to fully establish the claims. The authors should address the statistical validation, provide complete methodological details, present the full comparison and robustness data, and evaluate on challenging cases with limited evolutionary information.

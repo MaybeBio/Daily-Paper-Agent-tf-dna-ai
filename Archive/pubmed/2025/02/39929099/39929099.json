@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "39929099",
+    "doi": "10.1016/j.intimp.2025.114220",
+    "title": "Analysis and validation of programmed cell death genes associated with spinal cord injury progression based on bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Spinal cord injury (SCI) is a severe condition affecting the central nervous system. It is marked by a high disability rate and potential for death. Research has demonstrated that programmed cell death (PCD) plays a significant role in the death of neuronal cells during SCI. The objective of our work was to illustrate the significant contribution of PCD genes in the progression of SCI. METHODS: SCI-related datasets GSE5296, GSE47681, and GSE189070 from the Gene Expression Omnibus database were comprehensively analyzed using bioinformatics methods. Common differentially expressed genes were validated by post-intersection screening with PCD genes. We constructed a gene prediction model using the least absolute shrinkage and selection operator and the random forest algorithm to further screen for characteristic genes. We also performed Gene Ontology functional enrichment analysis and Kyoto Encyclopedia of Genes and Genomes pathway analysis and generated a protein-protein interaction network, analyzed immune cell infiltration, and predicted upstream miRNAs and transcription factors. In animal experiments, we performed immunofluorescence staining of mouse SCI regions to verify gene expression. RESULTS: A total of five characteristic genes (Ctsd, Abca1, Cst7, Ctsb, and Cybb) were identified in our study and showed excellent diagnostic efficacy in predicting SCI progression (areas under the curve values of the five characteristic genes were 0.976 for Ctsd, 0.993 for Abca1, 0.995 of Cst7,0.986 of Ctsb, 0.959 of Cybb). These characterized genes were highly expressed at the site of SCI. Immune cell infiltration analysis revealed that multiple immune cells were involved in SCI progression. CONCLUSIONS: We identified five PCD genes (Ctsd, Abca1, Cst7, Ctsb, and Cybb) associated with SCI. This study helps to reveal the pathophysiologic influences of these genes on SCI and provides important insight for the development of more effective treatments.",
+    "keywords": [
+      "Bioinformatics",
+      "Differentially expressed genes",
+      "Machine-learning",
+      "Programmed cell death",
+      "Spinal cord injury"
+    ],
+    "mesh_terms": [
+      "*Spinal Cord Injuries/genetics/pathology/immunology",
+      "Animals",
+      "Computational Biology/methods",
+      "*Machine Learning",
+      "Mice",
+      "Humans",
+      "Disease Progression",
+      "*Apoptosis/genetics",
+      "Databases, Genetic",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yongjie",
+        "Zhang, Zilin",
+        "Gong, Weiquan",
+        "Lv, Zhenshan",
+        "Qi, Jinwei",
+        "Han, Song",
+        "Liu, Boyuan",
+        "Song, Aijun",
+        "Yang, Zongyuan",
+        "Duan, Longfei",
+        "Zhang, Shaokun"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Zhang Z",
+        "Gong W",
+        "Lv Z",
+        "Qi J",
+        "Han S",
+        "Liu B",
+        "Song A",
+        "Yang Z",
+        "Duan L",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China.",
+        "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China; Jilin Engineering Research Center for Spine and Spinal Cord Injury, Changchun 130021, China. Electronic address: shaokun@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yongjie",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zilin",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Weiquan",
+        "short_name": "Gong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Zhenshan",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Jinwei",
+        "short_name": "Qi J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Han, Song",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Boyuan",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Song, Aijun",
+        "short_name": "Song A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zongyuan",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Longfei",
+        "short_name": "Duan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaokun",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spine Surgery, Center of Orthopedics, The First Hospital of Jilin University, Changchun 130021, China; Jilin Engineering Research Center for Spine and Spinal Cord Injury, Changchun 130021, China. Electronic address: shaokun@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/11 00:18",
+    "fetched_at": "2026-10-05 02:58:47"
+  },
+  "links": {
+    "cites": [
+      "40612923"
+    ],
+    "refs": [],
+    "similar": [
+      "39929099",
+      "37990533",
+      "39586719",
+      "38519735",
+      "38867322",
+      "39650552",
+      "38890348",
+      "39951434",
+      "40237957",
+      "35802304",
+      "38504116",
+      "36841940",
+      "40108736",
+      "29693160",
+      "39623003",
+      "26641843",
+      "33149108",
+      "38509743",
+      "39609718",
+      "39799354",
+      "39142001",
+      "38755717",
+      "33484404",
+      "25936407",
+      "39814871",
+      "39150631",
+      "26497545",
+      "40312440",
+      "37520121",
+      "39396400",
+      "40061945",
+      "30531681",
+      "36047918",
+      "38650155",
+      "35706450",
+      "38863714",
+      "25607546",
+      "39744064",
+      "24595446",
+      "38851464",
+      "32621925",
+      "36531699",
+      "35410505",
+      "39010173",
+      "38032706",
+      "39515654",
+      "39853851",
+      "39367463",
+      "39588003",
+      "39875572",
+      "38622876",
+      "39855613",
+      "39340997",
+      "30816457",
+      "28731189",
+      "38690269",
+      "36742334",
+      "39139563",
+      "40196107",
+      "38463490",
+      "32882320",
+      "32406040",
+      "40313958",
+      "38245687",
+      "32468009",
+      "31669638",
+      "40028203",
+      "39015570",
+      "30036659",
+      "40129981",
+      "40166636",
+      "40258895",
+      "29164149",
+      "38123364",
+      "31726970",
+      "36414158",
+      "38728287",
+      "33863336",
+      "37343672",
+      "40245021",
+      "40083558",
+      "36642874",
+      "37170986",
+      "39006030",
+      "38736878",
+      "39082346",
+      "39695788",
+      "39888480",
+      "39512836",
+      "40332792",
+      "38994365",
+      "39377750",
+      "36479123",
+      "39217701",
+      "39699225",
+      "35381127",
+      "39574022",
+      "39230867",
+      "31325155",
+      "38908081"
+    ],
+    "review": [
+      "39929099",
+      "29164149"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)00210-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/spinalcordinjuries.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Spinal Cord Injuries"
+      },
+      {
+        "url": "https://www.ovid.com/39929099.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-186",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

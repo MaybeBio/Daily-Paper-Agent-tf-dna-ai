@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.22.485413",
+  "title": "A CNN model for predicting binding affinity changes between SARS-CoV-2 spike RBD variants and ACE2 homologues",
+  "authors": "Chen Chen; Veda Sheersh Boorla; Ratul Chowdhury; Ruth H. Nissly; Abhinay Gontu; Shubhada K. Chothe; Lindsey LaBella; Padmaja Jakka; Santhamani Ramasamy; Kurt J. Vandegrift; Meera Surendran Nair; Suresh V. Kuchipudi; Costas D. Maranas",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-23",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN预测SARS-CoV-2 RBD与ACE2同源物的结合亲和力变化，虽为蛋白质-蛋白质互作而非TF-DNA体系，但序列-结构特征建模与结合亲和力预测方法可迁移至TF-DNA互作研究。",
+  "abstract": "The cellular entry of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) involves the association of its receptor binding domain (RBD) with human angiotensin converting enzyme 2 (hACE2) as the first crucial step. Efficient and reliable prediction of RBD-hACE2 binding affinity changes upon amino acid substitutions can be valuable for public health surveillance and monitoring potential spillover and adaptation into non-human species. Here, we introduce a convolutional neural network (CNN) model trained on protein sequence and structural features to predict experimental RBD-hACE2 binding affinities of 8,440 variants upon single and multiple amino acid substitutions in the RBD or ACE2. The model achieves a classification accuracy of 83.28% and a Pearson correlation coefficient of 0.85 between predicted and experimentally calculated binding affinities in five-fold cross-validation tests and predicts improved binding affinity for most circulating variants. We pro-actively used the CNN model to exhaustively screen for novel RBD variants with combinations of up to four single amino acid substitutions and suggested candidates with the highest improvements in RBD-ACE2 binding affinity for human and animal ACE2 receptors. We found that the binding affinity of RBD variants against animal ACE2s follows similar trends as those against human ACE2. White-tailed deer ACE2 binds to RBD almost as tightly as human ACE2 while cattle, pig, and chicken ACE2s bind weakly. The model allows testing whether adaptation of the virus for increased binding with other animals would cause concomitant increases in binding with hACE2 or decreased fitness due to adaptation to other hosts.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2（SARS-CoV-2）的细胞入侵涉及其受体结合域（RBD）与人血管紧张素转换酶2（hACE2）的结合，这是首个关键步骤。高效且可靠地预测氨基酸替换引起的RBD-hACE2结合亲和力变化，对于公共卫生监测以及追踪潜在跨物种传播和适应具有重要意义。在此，我们引入一个基于蛋白质序列和结构特征训练的卷积神经网络（CNN）模型，用于预测RBD或ACE2中单氨基酸及多氨基酸替换后8,440个变体的实验性RBD-hACE2结合亲和力。该模型在五折交叉验证测试中实现了83.28%的分类准确率，预测与实验计算结合亲和力之间的皮尔逊相关系数为0.85，并预测大多数流行变体的结合亲和力有所提高。我们主动使用CNN模型，对最多包含四个单氨基酸替换组合的新型RBD变体进行了全面筛选，并提出了针对人类和动物ACE2受体结合亲和力提升最高的候选变体。我们发现，RBD变体对动物ACE2的结合亲和力趋势与对人类ACE2的趋势相似。白尾鹿ACE2与RBD的结合几乎与人ACE2一样紧密，而牛、猪和鸡的ACE2结合较弱。该模型能够测试病毒为增强与其他动物结合而进行的适应是否会导致与hACE2结合的同步增强，或因适应其他宿主而导致的适应性下降。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.22.485413",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.22.485413",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.22.485413/index.html"
+}

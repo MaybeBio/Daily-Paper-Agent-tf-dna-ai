@@ -1,0 +1,440 @@
+{
+  "identity": {
+    "pmid": "39867913",
+    "doi": "10.3389/fimmu.2024.1494806",
+    "title": "ScRNA-seq unveils the functional characteristics of glioma-associated macrophages and the regulatory effects of chlorogenic acid on the immune microenvironment-a study based on mouse models and clinical practice."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Glioma is the most common primary malignant brain tumor. Despite advances in surgical techniques and treatment regimens, the therapeutic effects of glioma remain unsatisfactory. Immunotherapy has brought new hope to glioma patients, but its therapeutic outcomes are limited by the immunosuppressive nature of the tumor microenvironment (TME). This study aimed to reveal the subpopulations and functional characteristics of tumor-associated macrophages (TAMs) and explore the regulatory effects of chlorogenic acid (CHA) on the immune microenvironment, as well as its potential for clinical application. METHODS: In this study, CHA was used in model mice. ScRNA - seq analysis was conducted to elucidate the differentiation trajectories and functional characteristics of bone marrow - derived monomacrophages (BMDMs) and microglia. A PPI and molecular docking model were constructed using the target prediction database. A case of a patient treated with CHA was reviewed. RESULTS: CHA slowed tumor growth in model mice and extended the survival time of mice. It enhanced the antigen - presenting function of macrophages and T - cell immune activation - related gene expression, activated microglia through the JAK - STAT pathway, and improved the antitumor functions. The good affinity of CHA with STAT1 was confirmed. The patient treated with CHA survived for 5 years and 6 months, achieved partial remission (PR) after 9 months of treatment, and remained alive without any new symptoms or toxic side effects. Our study revealed the subtypes and differentiation trajectories of TAMs. CHA significantly improved the immune microenvironment of glioma by modulating the function of BMDMs and microglia. DISCUSSION: This study may provide new insights into targeting the regulation of TME and offer theoretical and practical support for the clinical application of CHA. The results demonstrated the potential of CHA in improving the immune microenvironment and antitumor effects, which could have implications for future glioma treatment strategies.",
+    "keywords": [
+      "chlorogenic acid (5-caffeoylquinic acid)",
+      "glioma",
+      "immune microenvironment (IME)",
+      "microglia",
+      "network pharmacology (NP)",
+      "single-cell RNA (scRNA) sequencing",
+      "tumor-associated macrophages (TAM)"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Animals",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Single-Cell Gene Expression Analysis",
+      "*Tumor Microenvironment/drug effects",
+      "*Macrophages/immunology",
+      "*Chlorogenic Acid/pharmacology/therapeutic use",
+      "*Glioma/drug therapy/genetics/immunology",
+      "Transcription, Genetic/drug effects",
+      "Microglia/drug effects/immunology",
+      "STAT1 Transcription Factor/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Protein Structure, Tertiary",
+      "Humans",
+      "*Antineoplastic Agents/pharmacology/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiachen",
+        "Li, Shenglan",
+        "Chen, Yuxiao",
+        "Chen, Jinyi",
+        "Wang, Can",
+        "Kang, Zhuang",
+        "Huang, Mengqian",
+        "Cai, Zehao",
+        "Fan, Yuxiang",
+        "Lan, Yanjie",
+        "Yu, Yumeng",
+        "Bai, Ruijing",
+        "Chen, Feng",
+        "Jiang, Jiandong",
+        "Li, Wenbin"
+      ],
+      "short_names": [
+        "Wang J",
+        "Li S",
+        "Chen Y",
+        "Chen J",
+        "Wang C",
+        "Kang Z",
+        "Huang M",
+        "Cai Z",
+        "Fan Y",
+        "Lan Y",
+        "Yu Y",
+        "Bai R",
+        "Chen F",
+        "Jiang J",
+        "Li W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Chinese Institute for Brain Research, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Hematology, Xuanwu Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neurosurgery, Capital Medical University Xuanwu Hospital, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiachen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shenglan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxiao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinyi",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "Chinese Institute for Brain Research, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Can",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Zhuang",
+        "short_name": "Kang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Mengqian",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Zehao",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+          "Department of Hematology, Xuanwu Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yuxiang",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Capital Medical University Xuanwu Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Yanjie",
+        "short_name": "Lan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yumeng",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Ruijing",
+        "short_name": "Bai R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Feng",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jiandong",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenbin",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro-oncology, Cancer Center, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/27 06:20",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "41929247",
+      "41019357"
+    ],
+    "refs": [
+      "38724526",
+      "38448290",
+      "38164171",
+      "38134933",
+      "37936683",
+      "37793125",
+      "37781708",
+      "37744349",
+      "37616338",
+      "37366368",
+      "36640350",
+      "36243332",
+      "36142141",
+      "35524552",
+      "34861551",
+      "34557778",
+      "34515617",
+      "34062119",
+      "33608526",
+      "33151290",
+      "33009993",
+      "32633686",
+      "32478203",
+      "31740819",
+      "31660066",
+      "31178118",
+      "31106366",
+      "30582213",
+      "30395331",
+      "29410971",
+      "29238899",
+      "29116355",
+      "28654725",
+      "28245635",
+      "28091601",
+      "28045028",
+      "28032310",
+      "27696406",
+      "27322403",
+      "26713745",
+      "25521941",
+      "24658644",
+      "23323831"
+    ],
+    "similar": [
+      "39867913",
+      "41756290",
+      "31400163",
+      "40737844",
+      "39580469",
+      "40317043",
+      "39896800",
+      "41309249",
+      "28045028",
+      "33009993",
+      "40409102",
+      "39707188",
+      "40286882",
+      "39566403",
+      "29262845",
+      "37673235",
+      "33858847",
+      "30952099",
+      "41638868",
+      "41601657",
+      "40681801",
+      "41571298",
+      "39188155",
+      "41151835",
+      "42079621",
+      "33391535",
+      "40095115",
+      "41676149",
+      "41208881",
+      "41863893",
+      "39740502",
+      "40281508",
+      "39143438",
+      "41213462",
+      "37194413",
+      "39278921",
+      "39097127",
+      "42089585",
+      "37531900",
+      "34571910",
+      "41763175",
+      "41350704",
+      "41924264",
+      "41438751",
+      "40616092",
+      "39211050",
+      "41175739",
+      "42049035",
+      "40443227",
+      "28287634",
+      "32042342",
+      "29389898",
+      "39221762",
+      "39207402",
+      "41139792",
+      "36199426",
+      "39850883",
+      "41652073",
+      "38056895",
+      "42032729",
+      "41253786",
+      "41177238",
+      "40259469",
+      "39574472",
+      "40320505",
+      "31063549",
+      "38650937",
+      "40777041",
+      "34461944",
+      "39988347",
+      "31771616",
+      "41438761",
+      "35967394",
+      "40052358",
+      "41704537",
+      "40429821",
+      "40440957",
+      "40677211",
+      "40845580",
+      "32332014",
+      "41877503",
+      "40764361",
+      "32487570",
+      "38658971",
+      "41635288",
+      "40784815",
+      "41674966",
+      "38776737",
+      "41591571",
+      "41811476",
+      "39357545",
+      "42112375",
+      "41075009",
+      "40499764",
+      "22664874",
+      "22700727",
+      "35039461",
+      "41479886",
+      "39028616",
+      "41297133"
+    ],
+    "review": [
+      "39867913",
+      "42079621",
+      "34571910",
+      "41924264",
+      "41175739",
+      "28287634",
+      "29389898",
+      "35967394",
+      "40784815"
+    ],
+    "pmc": [
+      "11757274"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39867913/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1494806",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

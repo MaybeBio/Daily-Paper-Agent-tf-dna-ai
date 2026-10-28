@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41460756",
+  "title": "Exploring and Validating the Molecular Mechanisms Linking Fatty Acid Metabolism and Sarcopenia.",
+  "authors": "Yang, Ruopeng; Gu, Shan; Li, Yang; Xia, Ping",
+  "journal": "IET systems biology",
+  "published_date": "2025-12-29",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过机器学习筛选肌少症中脂肪酸代谢相关基因并构建TF-mRNA网络，但核心是疾病生物标志物而非蛋白质-DNA互作机制建模，仅涉及TF网络可视化，无AI/物理模拟结合建模。",
+  "abstract": "Sarcopenia is an ageing-related disease characterised primarily by skeletal muscle functional decline. Despite of fatty acid metabolism (FAM) affecting oxidative stress within muscle tissue, the key roles of critical genes linking FAM and sarcopenia are unclear. The GSE8479, GSE1428, and GSE136344 datasets were downloaded and intersected for identifying FAM-related differentially expressed genes (FAMRDEGs) screened by enrichment analysis, LASSO regression, and Support Vector Machine (SVM) analyses. Cytoscape software was used for visualising mRNA-transcription factor (TF) and mRNA-miRNA networks. In addition, ROC curves of key genes were plotted to evaluate their diagnostic significance. A Fatty Acid Metabolism Score (FAM-Score) was conducted and immune cell infiltration analysis was conducted. The qPCR assay was performed to analyse the levels of screened critical genes. A total of 109 FAMRDEGs were obtained, and the LASSO regression and SVM models screened 14 of these genes. The network included 7 key genes with 54 miRNAs and 9 hub genes with 102 TFs. There were 6 types of immune cell infiltration showing statistical significance. The FABP3 (P < 0.001), PECR (P < 0.01), and OPN3 (P < 0.001) mRNA expression markedly increased in sarcopenia versus control groups. In contrast, sarcopenia group showed remarkably reduced PCTP (P < 0.001), SREBF2 (P < 0.001), and PPARGC1A (P < 0.05) levels. This study provides reference indicators for FAM-associated auxiliary biomarkers of sarcopenia and preliminarily establishes effective machine learning models for further mechanistic exploration.",
+  "abstract_zh": "肌少症是一种以骨骼肌功能衰退为主要特征的衰老相关疾病。尽管脂肪酸代谢（fatty acid metabolism, FAM）影响肌肉组织内的氧化应激，但连接FAM与肌少症的关键基因的核心作用尚不明确。下载GSE8479、GSE1428和GSE136344数据集并取交集，以识别FAM相关差异表达基因（FAMRDEGs），并通过富集分析、LASSO回归和支持向量机（Support Vector Machine, SVM）分析进行筛选。使用Cytoscape软件可视化mRNA-转录因子（transcription factor, TF）和mRNA-miRNA网络。此外，绘制关键基因的ROC曲线以评估其诊断意义。构建脂肪酸代谢评分（Fatty Acid Metabolism Score, FAM-Score）并进行免疫细胞浸润分析。采用qPCR实验分析筛选出的关键基因水平。共获得109个FAMRDEGs，LASSO回归和SVM模型筛选出其中14个基因。网络包含7个关键基因与54个miRNA，以及9个枢纽基因与102个TF。有6种免疫细胞浸润具有统计学显著性。与对照组相比，肌少症组中FABP3（P < 0.001）、PECR（P < 0.01）和OPN3（P < 0.001）的mRNA表达显著增加。相反，肌少症组中PCTP（P < 0.001）、SREBF2（P < 0.001）和PPARGC1A（P < 0.05）水平显著降低。本研究为肌少症的FAM相关辅助生物标志物提供了参考指标，并初步建立了有效的机器学习模型，以进一步探索其机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41460756/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41460756/",
+  "paper_page_path": "papers/pubmed/41460756/index.html"
+}

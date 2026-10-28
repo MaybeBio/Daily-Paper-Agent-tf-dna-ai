@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.22.546080",
+  "title": "DeepRank-GNN-esm: A Graph Neural Network for Scoring Protein-Protein Models using Protein Language Model",
+  "authors": "X. Xu; A. M. J. J. Bonvin",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-24",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络结合蛋白质语言模型ESM-2嵌入替代PSSM，对蛋白-蛋白复合物模型打分，虽非TF-DNA体系，但其蛋白复合物界面建模与打分方法可迁移至TF-DNA互作研究。",
+  "abstract": "Motivation Protein-Protein interactions (PPIs) play critical roles in numerous cellular processes. By modelling the three-dimensional structures of the correspond protein complexes valuable insights can be obtained, providing, for example, starting points for drug and protein design. One challenge in the modelling process is however the identification of near-native models from the large pool of generated models. To this end we previously developed DeepRank-GNN, a graph neural network that integrates structural and sequence information to enable effective pattern learning at PPI interfaces. Its main features are related to the Position Specific Scoring Matrices (PSSM), which are computationally expensive to generate and significantly limit the algorithm’s usability. Results We introduce here DeepRank-GNN-esm that includes as additional features protein language model embeddings from the EMS-2 model. We show that the ESM-2 embeddings can actually replace the PSSM features at no cost in-, or even better performance on two PPI-related tasks: scoring docking poses and detecting crystal artifacts. This new DeepRank version bypasses thus the need of generating PSSM, greatly improving the usability of the software and opening new application opportunities for systems for which PSSM profiles cannot be obtained or are irrelevant (e.g. antibody-antigen complexes). Availability and implementation DeepRank-GNN-esm is freely available from https://github.com/DeepRank/DeepRank-GNN-esm",
+  "abstract_zh": "动机 蛋白质-蛋白质相互作用（Protein-Protein Interactions, PPIs）在众多细胞过程中扮演关键角色。通过建模相应蛋白质复合物的三维结构，可以获得有价值的见解，例如为药物和蛋白质设计提供起点。然而，建模过程中的一个挑战是从大量生成的模型中识别近天然模型。为此，我们先前开发了DeepRank-GNN，一种图神经网络，它整合结构和序列信息，以实现PPI界面上的有效模式学习。其主要特征与位置特异性评分矩阵（Position Specific Scoring Matrices, PSSM）相关，这些矩阵的计算成本高昂，并显著限制了算法的可用性。结果 我们在此介绍DeepRank-GNN-esm，它增加了来自ESM-2模型的蛋白质语言模型嵌入作为额外特征。我们表明，ESM-2嵌入实际上可以替代PSSM特征，在两个PPI相关任务上不损失性能，甚至表现更优：对接姿态评分和检测晶体伪影。因此，这一新版本的DeepRank绕过了生成PSSM的需求，大大提高了软件的可用性，并为无法获得PSSM图谱或PSSM图谱不相关的系统（例如抗体-抗原复合物）开辟了新的应用机会。可用性与实现 DeepRank-GNN-esm可从https://github.com/DeepRank/DeepRank-GNN-esm免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546080",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546080",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.22.546080/index.html"
+}

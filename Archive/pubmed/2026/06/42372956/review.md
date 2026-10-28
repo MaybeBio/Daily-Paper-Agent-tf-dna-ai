@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no methods, figures, or data were provided
+- **Shared manuscript claim summary** The authors state that they employed two single-molecule methods, smFRET and high-resolution optical tweezers, to investigate transcription by Mycobacterium tuberculosis RNA polymerase (MtbRNAP) from initiation through termination, and that these assays provide a set of comprehensive biophysical tools to deepen understanding of MtbRNAP and its transcription factors, representing an important step toward unraveling molecular dynamics and interactions supporting transcription in M. tuberculosis.
+- **Visible evidence base** Abstract text only; no experimental details, representative data, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary information, and any quantitative results; the abstract does not include specific findings or outcomes
+
+## Reviewer
+- **Overall assessment** The abstract describes a methodological application of two established single-molecule techniques to a clinically relevant system, MtbRNAP. The topic is timely and the choice of methods is appropriate for studying transcription dynamics. However, the abstract is largely programmatic and lacks specific results, quantitative outcomes, or validation of the assays. As presented, the scientific case is not established because no evidence is provided to support the claimed utility or insights. The manuscript may have merit, but the supplied material is insufficient for a substantive evaluation.
+- **Who would be interested in the results, and why** Researchers in transcription mechanisms, mycobacterial biology, and single-molecule biophysics would be interested. The work could inform drug development targeting MtbRNAP and provide methodological templates for studying other bacterial RNA polymerases. The combination of smFRET and optical tweezers is attractive to biophysicists seeking integrated approaches.
+- **Major strengths** The choice of two complementary single-molecule methods is well justified for studying dynamic processes such as transcription. The focus on M. tuberculosis RNA polymerase addresses a clinically important pathogen, increasing potential impact. The stated goal of providing comprehensive biophysical tools is commendable and could benefit the broader community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the employed assays represent an important step towards unraveling molecular dynamics and interactions that support transcription in M. tuberculosis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no experimental results, representative traces, or quantitative comparisons. It is unclear whether the methods were successfully implemented, what specific transcription steps were resolved, or how the data support the stated conclusions.
+  - **Why it matters** Without evidence of successful implementation and meaningful output, the claim of an important step is unsupported. The reader cannot assess the validity, reproducibility, or novelty of the approach in practice.
+  - **Resolution test** Provide specific results, such as smFRET efficiency distributions or optical tweezer force-extension traces, with statistical analysis, demonstrating that the assays resolve distinct transcription states or transitions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological detail
+  - **Claim pointer** The abstract states that smFRET and high-resolution optical tweezers were used to investigate transcription from initiation through termination.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given on how the assays were designed, what specific constructs or labels were used, how transcription was synchronized, or how data were analyzed. The abstract does not indicate whether the methods were adapted from existing protocols or newly developed.
+  - **Why it matters** For a methods-oriented manuscript, the absence of methodological specifics prevents evaluation of technical soundness and reproducibility. Readers cannot determine whether the approaches are robust or broadly applicable.
+  - **Resolution test** Include a detailed methods summary in the abstract or provide access to the full methods section, specifying key parameters such as labeling strategies, buffer conditions, and data acquisition rates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and contribution
+  - **Claim pointer** The abstract implies that the combination of these methods provides a comprehensive set of biophysical tools for MtbRNAP.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not state what is new relative to prior single-molecule studies of RNA polymerase or what specific gaps in MtbRNAP research are addressed. The novelty of the methodological combination or the biological insights is not articulated.
+  - **Why it matters** For a high-impact venue, the contribution must be clearly differentiated from existing work. Without a stated advance, the significance of the study is unclear.
+  - **Resolution test** Explicitly state the novel aspects, such as first application of a dual-method approach to MtbRNAP, or new mechanistic findings that were previously inaccessible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "comprehensive biophysical tools" is vague and could be interpreted as a claim of completeness that is not justified.
+  - **Required correction** Rephrase to specify the scope, such as "a set of complementary assays" or "a toolkit for studying key transcription steps."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Method name
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** "Forster Resonance Energy Transfer" should be "Förster Resonance Energy Transfer" with the correct umlaut, and the abbreviation smFRET is used without definition.
+  - **Required correction** Correct the spelling and define smFRET at first use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract claims
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "transcription factors" but does not specify which ones or how they were studied.
+  - **Required correction** Name the specific transcription factors or state that they are not directly addressed in this work.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of results, methodological detail, and a clear statement of novelty means the core claims cannot be evaluated or supported from the supplied material.
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract; no comparison to prior work is provided. Scientific importance: Potentially high given the clinical relevance of MtbRNAP, but not demonstrated without specific findings. Interdisciplinary readership: The topic bridges microbiology and biophysics, which is appealing, but the abstract does not convey accessible insights for nonspecialists. Technical soundness: Not assessable; no methodological or data details are given. Readability for nonspecialists: The abstract is clear in its general aims but lacks concrete outcomes that would engage a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable methodological study, but the absence of results and technical detail precludes a supportive recommendation. A revised abstract with specific findings and methodological clarity, or access to the full manuscript, would be required for further evaluation.
+
+## Risk / unsupported claims
+- The claim that the assays represent an important step toward unraveling molecular dynamics is unsupported because no results are presented.
+- The implied comprehensiveness of the biophysical tools is not justified.
+- The successful implementation of smFRET and optical tweezers for MtbRNAP transcription is not verifiable from the abstract.
+- Any specific insights into transcription mechanisms or transcription factor interactions are not stated and thus cannot be assessed.

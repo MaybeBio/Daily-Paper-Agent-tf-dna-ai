@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "39906238",
+    "doi": "10.3389/fpls.2024.1520457",
+    "title": "Genome-wide identification and expression analysis of phytochrome gene family in Aikang58 wheat (Triticum aestivum L.)."
+  },
+  "content": {
+    "abstract": "Phytochromes are essential photoreceptors in plants that sense red and far-red light, playing a vital role in regulating plant growth and development through light signal transduction. Despite extensive research on phytochromes in model plants like Arabidopsis and rice, they have received relatively little attention in wheat. In this study, we employed bioinformatics methods to identify eight TaAkPHY genes in the Aikang58 wheat variety. Based on gene structure, conserved domains, and phylogenetic relationships, the TaAkPHY gene family exhibits a high degree of conservation. Synteny analysis revealed the evolutionary history of the PHY genes in Aikang58 and Chinese Spring wheat (Triticum aestivum L.), barley (Hordeum vulgare L.), rice (Oryza sativa L.), maize (Zea mays L.), quinoa (Chenopodium quinoa Willd.), soybean [Glycine max (L.) Merr.], and Arabidopsis [Arabidopsis thaliana (L.) Heynh.]. Among these species, wheat is most closely related to barley, followed by rice and maize. The cis-acting element analysis indicates that the promoter regions of TaAkPHY genes contain a large number of CAT-box, CGTCA-motif, GC-motif, etc., which are mainly involved in plant development, hormone response, and stress response. Gene expression profiling demonstrated that TaAkPHY genes exhibit varying expression levels across different tissues and are induced by various stress conditions and plant hormone treatments. Co-expression network analysis suggested that TaAkPHY genes may specifically regulate downstream genes associated with stress responses, chloroplast development, and circadian rhythms. Additionally, the least absolute shrinkage and selection operator (LASSO) regression algorithm in machine learning was used to screen transcription factors such as bHLH, WRKY, and MYB that influenced the expression of TaAkPHY genes. This method helps to quickly extract key influencing factors from a large amount of complex data. Overall, these findings provide new insights into the role of phytochromes in wheat growth, development, and stress responses, laying a foundation for future research on phytochromes in wheat.",
+    "keywords": [
+      "LASSO regression",
+      "abiotic stresses",
+      "co-expression network",
+      "expression profiles",
+      "phytochromes",
+      "wheat"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Zhu",
+        "Kan, Wenjie",
+        "Wang, Ziqi",
+        "Tang, Caiguo",
+        "Cheng, Yuan",
+        "Wang, Dacheng",
+        "Gao, Yameng",
+        "Wu, Lifang"
+      ],
+      "short_names": [
+        "Yang Z",
+        "Kan W",
+        "Wang Z",
+        "Tang C",
+        "Cheng Y",
+        "Wang D",
+        "Gao Y",
+        "Wu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China.",
+        "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+        "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Zhu",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Kan, Wenjie",
+        "short_name": "Kan W",
+        "identifiers": [],
+        "affiliations": [
+          "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziqi",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Caiguo",
+        "short_name": "Tang C",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yuan",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dacheng",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yameng",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lifang",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Science Island Branch, University of Science and Technology of China, Hefei, Anhui, China.",
+          "The Center for Ion Beam Bioengineering & Green Agriculture, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 06:21",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "41180399"
+    ],
+    "refs": [
+      "38980536",
+      "38862892",
+      "38469146",
+      "38344182",
+      "37897037",
+      "37871092",
+      "37740491",
+      "37686008",
+      "37635354",
+      "37339946",
+      "37163495",
+      "37119239",
+      "36768888",
+      "36655266",
+      "35929801",
+      "35897731",
+      "35788027",
+      "35591925",
+      "35512194",
+      "35410124",
+      "35269875",
+      "34856504",
+      "34830190",
+      "34597405",
+      "34565282",
+      "33924753",
+      "33892491",
+      "33856605",
+      "33756095",
+      "33676024",
+      "33421980",
+      "33302232",
+      "32600268",
+      "32489650",
+      "32409479",
+      "32327664",
+      "31937452",
+      "31817722",
+      "31745087",
+      "31375807",
+      "30946988",
+      "30791939",
+      "30124925",
+      "30115100",
+      "29869742",
+      "29788355",
+      "29718424",
+      "29545089",
+      "29425488",
+      "29327440",
+      "29078757",
+      "29052517",
+      "28854566",
+      "28743949",
+      "28587227",
+      "28398459",
+      "27995748",
+      "27555564",
+      "27329140",
+      "27250256",
+      "27060719",
+      "26957143",
+      "25978450",
+      "25504850",
+      "25085420",
+      "25023399",
+      "24961368",
+      "24695404",
+      "24579996",
+      "24471455",
+      "24288371",
+      "24227677",
+      "24164652",
+      "23373700",
+      "23302690",
+      "23292879",
+      "22553988",
+      "22455463",
+      "22303272",
+      "22217600",
+      "22138855",
+      "21880933",
+      "21265897",
+      "20808728",
+      "20493758",
+      "19458158",
+      "19346325",
+      "19274049",
+      "19232775",
+      "19114008",
+      "18257712",
+      "17981114",
+      "17965713",
+      "17280525",
+      "16924502",
+      "15516501",
+      "15171794",
+      "14597658",
+      "12953104",
+      "11752327",
+      "11743105",
+      "10688140",
+      "9800208",
+      "8865668",
+      "7984417",
+      "2475930",
+      "1633492"
+    ],
+    "similar": [
+      "39906238",
+      "35083611",
+      "30935363",
+      "31842737",
+      "34445448",
+      "15891901",
+      "36613735",
+      "35410124",
+      "34800975",
+      "27236332",
+      "31003470",
+      "37907517",
+      "34299014",
+      "39251952",
+      "35008967",
+      "39981045",
+      "38444770",
+      "34544366",
+      "28178571",
+      "33224986",
+      "35896980",
+      "38181015",
+      "28698232",
+      "38177998",
+      "36578331",
+      "40212870",
+      "38789817",
+      "31963591",
+      "39795991",
+      "34795369",
+      "34608238",
+      "40091016",
+      "32361896",
+      "21220762",
+      "9680998",
+      "39987033",
+      "28193162",
+      "37726665",
+      "38348504",
+      "37366497",
+      "18291034",
+      "35214830",
+      "30709338",
+      "33057145",
+      "37244501",
+      "30025220",
+      "33430760",
+      "39701941",
+      "27549916",
+      "38612594",
+      "38671351",
+      "32746866",
+      "32005165",
+      "39519206",
+      "36589128",
+      "35266545",
+      "31623139",
+      "31888472",
+      "35151253",
+      "39020295",
+      "35100988",
+      "39207505",
+      "33958607",
+      "32928120",
+      "30497403",
+      "37671358",
+      "32998689",
+      "31195255",
+      "28742823",
+      "25362847",
+      "39684646",
+      "17220363",
+      "32423019",
+      "33765923",
+      "38971763",
+      "34407757",
+      "35012508",
+      "24013793",
+      "26435710",
+      "39404907",
+      "24783971",
+      "36309612",
+      "32912491",
+      "27503086",
+      "33374252",
+      "33992092",
+      "33101350",
+      "32539997",
+      "31215411",
+      "31139551",
+      "36736505",
+      "30975075",
+      "32892289",
+      "28490275",
+      "39604476",
+      "20305269",
+      "34381472",
+      "40021992",
+      "36909424",
+      "27899926"
+    ],
+    "review": [
+      "39906238"
+    ],
+    "pmc": [
+      "11790602"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39906238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-472",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2024.1520457",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

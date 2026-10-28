@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "37745370",
+    "doi": "10.1101/2023.09.09.557010",
+    "title": "Examining DNA Breathing with pyDNA-EPBD."
+  },
+  "content": {
+    "abstract": "MOTIVATION: The two strands of the DNA double helix locally and spontaneously separate and recombine in living cells due to the inherent thermal DNA motion.This dynamics results in transient openings in the double helix and is referred to as \"DNA breathing\" or \"DNA bubbles.\" The propensity to form local transient openings is important in a wide range of biological processes, such as transcription, replication, and transcription factors binding. However, the modeling and computer simulation of these phenomena, have remained a challenge due to the complex interplay of numerous factors, such as, temperature, salt content, DNA sequence, hydrogen bonding, base stacking, and others. RESULTS: We present pyDNA-EPBD, a parallel software implementation of the Extended Peyrard-Bishop- Dauxois (EPBD) nonlinear DNA model that allows us to describe some features of DNA dynamics in detail. The pyDNA-EPBD generates genomic scale profiles of average base-pair openings, base flipping probability, DNA bubble probability, and calculations of the characteristically dynamic length indicating the number of base pairs statistically significantly affected by a single point mutation using the Markov Chain Monte Carlo (MCMC) algorithm.",
+    "keywords": [
+      "DNA breathing",
+      "DNA bubbles",
+      "DNA non-linear dynamics",
+      "EPBD"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kabir, Anowarul",
+        "Bhattarai, Manish",
+        "Rasmussen, Kim O",
+        "Shehu, Amarda",
+        "Usheva, Anny",
+        "Bishop, Alan R",
+        "Alexandrov, Boian S"
+      ],
+      "short_names": [
+        "Kabir A",
+        "Bhattarai M",
+        "Rasmussen KO",
+        "Shehu A",
+        "Usheva A",
+        "Bishop AR",
+        "Alexandrov BS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102.",
+        "George Mason University, 4400 University Dr, Fairfax, VA 22030.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102.",
+        "George Mason University, 4400 University Dr, Fairfax, VA 22030.",
+        "Brown University, 69 Brown St Box 1822, Providence, RI 02912.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kabir, Anowarul",
+        "short_name": "Kabir A",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102.",
+          "George Mason University, 4400 University Dr, Fairfax, VA 22030."
+        ]
+      },
+      {
+        "full_name": "Bhattarai, Manish",
+        "short_name": "Bhattarai M",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102."
+        ]
+      },
+      {
+        "full_name": "Rasmussen, Kim Ø",
+        "short_name": "Rasmussen KØ",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102."
+        ]
+      },
+      {
+        "full_name": "Shehu, Amarda",
+        "short_name": "Shehu A",
+        "identifiers": [],
+        "affiliations": [
+          "George Mason University, 4400 University Dr, Fairfax, VA 22030."
+        ]
+      },
+      {
+        "full_name": "Usheva, Anny",
+        "short_name": "Usheva A",
+        "identifiers": [],
+        "affiliations": [
+          "Brown University, 69 Brown St Box 1822, Providence, RI 02912."
+        ]
+      },
+      {
+        "full_name": "Bishop, Alan R",
+        "short_name": "Bishop AR",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102."
+        ]
+      },
+      {
+        "full_name": "Alexandrov, Boian S",
+        "short_name": "Alexandrov BS",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544, NM, 87102."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Sep 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 06:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37745370",
+      "37991847",
+      "33465959",
+      "19548765",
+      "19282962",
+      "18517434",
+      "16802962",
+      "19264801",
+      "34496591",
+      "16957832",
+      "39271116",
+      "31575125",
+      "17243750",
+      "21625483",
+      "36770707",
+      "17279870",
+      "22401261",
+      "23367981",
+      "11735980",
+      "15698282",
+      "22181442",
+      "30934325",
+      "24560595",
+      "25294023",
+      "18266461",
+      "12059587",
+      "18517446",
+      "16384189",
+      "22060414",
+      "24685891",
+      "21817256",
+      "23345672",
+      "16605360",
+      "20866835",
+      "17237209",
+      "28965786",
+      "17728978",
+      "20365187",
+      "18517418",
+      "17358368",
+      "22060424",
+      "12506195",
+      "26451825",
+      "22060408",
+      "25933606",
+      "22607400",
+      "18352062",
+      "28332666",
+      "19839646",
+      "23345902",
+      "21405364",
+      "23341768",
+      "14960467",
+      "27782499",
+      "15004245",
+      "16849168",
+      "10736226",
+      "23912807",
+      "16500982",
+      "9355867",
+      "16392531",
+      "18390611",
+      "30876357",
+      "23126469",
+      "28369121",
+      "25612729",
+      "18219418",
+      "16674168",
+      "16449200",
+      "34094181",
+      "8011914",
+      "23496544",
+      "29298666",
+      "12080098",
+      "12850140",
+      "24843124",
+      "37569512",
+      "33523668",
+      "10955991",
+      "28717992",
+      "26600167",
+      "24697480",
+      "11415141",
+      "22904068",
+      "31154797",
+      "2207248",
+      "21230117",
+      "32462263",
+      "6957879",
+      "15836423",
+      "22047268",
+      "29565427",
+      "29064703",
+      "17496048",
+      "1988678",
+      "26624232",
+      "32946766",
+      "29345270",
+      "18760175",
+      "20174451"
+    ],
+    "review": [
+      "37745370",
+      "24560595"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37745370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37745370",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.09.09.557010",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

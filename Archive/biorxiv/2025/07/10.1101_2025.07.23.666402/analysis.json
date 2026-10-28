@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.23.666402",
+  "title": "Using the DNA language model, GROVER, to parse effects of sequence, chromatin and regulatory features on genome stability",
+  "authors": "Pierre M. Joubert; Melissa Sanabria; Anna R. Poetsch",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-27",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用DNA语言模型GROVER预测双链断裂位点，虽涉及序列-染色质互作建模，但核心是基因组稳定性而非蛋白质-DNA互作，缺乏TF-DNA结合与互作机制研究。",
+  "abstract": "Genome stability is shaped by DNA sequence and chromatin context, but their relative contributions to double-strand break (DSB) sensitivity remain unclear. We show that the DNA language model, GROVER, can infer DSB location based on sequence. DSB hotspots tend to contain GC-rich sequences that belong to promoters, genes and short interspersed nuclear elements (SINEs). Additionally, we identified several specific short sequences (tokens) that are associated with modulating DSB sensitivity. Another model using chromatin and genome regulatory features outperforms the sequence-only model, highlighting complementary and cell-type specific information. Integrating sequence and genome biological features yields the best performance, demonstrating their synergy. Analyzing this model revealed that, dependent on the sample, genome stability information encoded in H3K36me3 and DNase-seq can be learned from the sequence, but not H3K27ac or H3K9me3. Embedding chromatin data directly into the GROVER architecture enabled cell-type specific modeling with performance matching the full chromatin feature model. Our results suggest that while chromatin and regulatory context provides important information, such as cell-type specificity, much of the information shaping DSB patterns is already encoded in the DNA sequence itself. Our integrative modeling approach not only reveals DSB patterns but also provides a generalizable strategy for tracing predictions in genomic data.",
+  "abstract_zh": "基因组稳定性由DNA序列和染色质环境共同塑造，但二者对双链断裂（DSB）敏感性的相对贡献仍不清楚。我们表明，DNA语言模型GROVER能够基于序列推断DSB位置。DSB热点区域倾向于包含富含GC的序列，这些序列属于启动子、基因和短散在核元件（SINEs）。此外，我们识别出几个与调节DSB敏感性相关的特定短序列（tokens）。另一个使用染色质和基因组调控特征的模型优于仅基于序列的模型，突显了互补性和细胞类型特异性信息。整合序列和基因组生物学特征可获得最佳性能，证明其协同作用。分析该模型揭示，取决于样本，H3K36me3和DNase-seq中编码的基因组稳定性信息可从序列中学习，但H3K27ac或H3K9me3则不然。将染色质数据直接嵌入GROVER架构，实现了细胞类型特异性建模，其性能与完整染色质特征模型相当。我们的结果表明，尽管染色质和调控环境提供了重要信息（如细胞类型特异性），但塑造DSB模式的许多信息已编码在DNA序列本身中。我们的整合建模方法不仅揭示了DSB模式，还为追踪基因组数据中的预测提供了一种通用策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666402",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666402",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.23.666402/index.html"
+}

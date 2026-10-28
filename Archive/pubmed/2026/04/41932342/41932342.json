@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "41932342",
+    "doi": "10.1016/j.cels.2026.101563",
+    "title": "GFETM: Genome foundation-based embedded topic model for scATAC-seq modeling."
+  },
+  "content": {
+    "abstract": "Single-cell assay for transposase-accessible chromatin with sequencing (scATAC-seq) enables investigation of open chromatin landscapes at single-cell resolution. However, analyzing scATAC-seq data remains challenging due to inherent sparsity and noise. Genome foundation models (GFMs), pre-trained on extensive DNA sequence datasets, have demonstrated effectiveness in genome analysis. Because open chromatin regions (OCRs) harbor salient sequence features, we hypothesized that leveraging GFMs' sequence embeddings could enhance scATAC-seq modeling accuracy and generalizability. We introduce the genome foundation embedded topic model (GFETM), an interpretable deep learning framework combining GFMs with the embedded topic model (ETM) for scATAC-seq analysis. By integrating DNA sequence embeddings extracted by a GFM from OCRs, GFETM demonstrates superior accuracy and generalizability and captures cell-state-specific transcription factor (TF) activity with both zero-shot inference and attention-mechanism analysis. Finally, the topic mixtures inferred by GFETM reveal biologically meaningful epigenomic signatures of kidney diabetes. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "keywords": [
+      "embedding topic model",
+      "epigenomic",
+      "genome foundation model",
+      "interpretable deep learning",
+      "regulatory genomics",
+      "single-cell",
+      "single-cell ATAC-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Chromatin/genetics",
+      "Deep Learning",
+      "Epigenomics/methods",
+      "Genome/genetics",
+      "*Genomics/methods",
+      "Sequence Analysis, DNA/methods",
+      "*Single-Cell Analysis/methods",
+      "Transcription Factors/genetics",
+      "Transposases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Yimin",
+        "Osakwe, Adrien",
+        "Han, Shi",
+        "Li, Yu",
+        "Ding, Jun",
+        "Li, Yue"
+      ],
+      "short_names": [
+        "Fan Y",
+        "Osakwe A",
+        "Han S",
+        "Li Y",
+        "Ding J",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science, McGill University, Montreal, QC H3A 0E9, Canada; Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong SAR, China.",
+        "Quantitative Life Sciences Program, McGill University, Montreal, QC H3A 1E3, Canada.",
+        "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong SAR, China.",
+        "Department of Medicine, McGill University, Montreal, QC H4A 3J1, Canada. Electronic address: jun.ding@mcgill.ca.",
+        "School of Computer Science, McGill University, Montreal, QC H3A 0E9, Canada; Quantitative Life Sciences Program, McGill University, Montreal, QC H3A 1E3, Canada. Electronic address: yueli@cs.mcgill.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Yimin",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, McGill University, Montreal, QC H3A 0E9, Canada; Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Osakwe, Adrien",
+        "short_name": "Osakwe A",
+        "identifiers": [],
+        "affiliations": [
+          "Quantitative Life Sciences Program, McGill University, Montreal, QC H3A 1E3, Canada."
+        ]
+      },
+      {
+        "full_name": "Han, Shi",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Jun",
+        "short_name": "Ding J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, McGill University, Montreal, QC H4A 3J1, Canada. Electronic address: jun.ding@mcgill.ca."
+        ]
+      },
+      {
+        "full_name": "Li, Yue",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, McGill University, Montreal, QC H3A 0E9, Canada; Quantitative Life Sciences Program, McGill University, Montreal, QC H3A 1E3, Canada. Electronic address: yueli@cs.mcgill.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2026 May 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/04 00:35",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [
+      "42491402"
+    ],
+    "refs": [],
+    "similar": [
+      "41932342",
+      "35941239",
+      "36902216",
+      "41236480",
+      "40723810",
+      "34252968",
+      "38338756",
+      "38600256",
+      "41296545",
+      "35584295",
+      "40963104",
+      "33191916",
+      "41571655",
+      "41800139",
+      "31739806",
+      "41831316",
+      "38493346",
+      "40999099",
+      "35858748",
+      "30821321",
+      "39881144",
+      "38724693",
+      "30559361",
+      "41663439",
+      "37598467",
+      "42298067",
+      "32620137",
+      "40700014",
+      "39122670",
+      "37537502",
+      "41545440",
+      "35939233",
+      "39757254",
+      "30580963",
+      "31594952",
+      "36313930",
+      "33663563",
+      "34737275",
+      "33693880",
+      "33637727",
+      "31428792",
+      "42060707",
+      "40097444",
+      "39987573",
+      "33827925",
+      "39049508",
+      "41279458",
+      "36161934",
+      "40154828",
+      "26083756",
+      "40591481",
+      "34471111",
+      "39814025",
+      "39800872",
+      "41481570",
+      "40633538",
+      "41270791",
+      "42242226",
+      "32029221",
+      "39487131",
+      "41171141",
+      "32014034",
+      "37980428",
+      "30791920",
+      "35195064",
+      "37118773",
+      "35574596",
+      "39062661",
+      "36549922",
+      "33717140",
+      "42167226",
+      "41632825",
+      "29925875",
+      "32807906",
+      "38084919",
+      "40049167",
+      "32392348",
+      "25957350",
+      "36672856",
+      "36719906",
+      "32637041",
+      "36238687",
+      "39394227",
+      "36131234",
+      "27903897",
+      "38493338",
+      "41966687",
+      "39041910",
+      "31682608",
+      "37244909",
+      "32312702",
+      "38872103",
+      "41288963",
+      "37249868",
+      "37146053",
+      "40880280",
+      "38330939",
+      "41655240",
+      "37584660",
+      "36173566"
+    ],
+    "review": [
+      "41932342",
+      "38338756",
+      "36313930",
+      "41270791",
+      "32014034",
+      "36549922",
+      "32637041",
+      "32312702"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(26)00045-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

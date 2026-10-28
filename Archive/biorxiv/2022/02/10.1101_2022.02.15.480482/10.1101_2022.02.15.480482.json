@@ -1,0 +1,343 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.15.480482",
+  "title": "TAMC: A deep-learning approach to predict motif-centric transcriptional factor binding activity based on ATAC-seq profile",
+  "doi": "10.1101/2022.02.15.480482",
+  "abstract": "Determining transcriptional factor binding sites (TFBSs) is critical for understanding the molecular mechanisms regulating gene expression in different biological conditions. Biological assays designed to directly mapping TFBSs require large sample size and intensive resources. As an alternative, ATAC-seq assay is simple to conduct and provides genomic cleavage profiles that contain rich information for imputing TFBSs indirectly. Previous footprint-based tools are inheritably limited by the accuracy of their bias correction algorithms and the efficiency of their feature extraction models. Here we introduce TAMC ( T ranscriptional factor binding prediction from A TAC-seq profile at M otif-predicted binding sites using C onvolutional neural networks), a deep-learning approach for predicting motif-centric TF binding activity from paired-end ATAC-seq data. TAMC does not require bias correction during signal processing. By leveraging a onedimensional convolutional neural network (1D-CNN) model, TAMC captures both footprint and non-footprint features at binding sites for each TF and outperforms existing footprinting tools in TFBS prediction particularly for ATAC-seq data with limited sequencing depth. AUTHOR SUMMARY Applications of deep-learning models are rapidly gaining popularity in recent biological studies because of their efficiency in analyzing non-linear patterns from feature-rich data. In this study, we developed a 1D-CNN model to predict TFBSs from ATAC-seq data. Compared to previous models using scoring functions and classical machine learning algorithms, our 1D-CNN model forgoes the need for bias correction during signal processing and significantly increases the efficiency in extracting features for TFBS prediction. In addition, the performance of our 1D-CNN model improves when the sequencing depth of training ATAC-seq data increases. Importantly, we showed that our method outperforms existing tools in TFBS prediction particularly when the sequencing depth of training ATAC-seq data is higher than the ATAC-seq data for prediction. This widened the applicability of our model to ATAC-seq data with both deep and shallow sequencing depth. Based on these results, we discussed about the potential application of our method to TFBS predication using bulk and single-cell ATAC-seq data.",
+  "authors": [
+    "Tianqi Yang",
+    "Ricardo Henao"
+  ],
+  "published_date": "2022-02-19",
+  "updated_date": "2022-02-19T11:05:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.15.480482",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.15.480482.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:39:09Z",
+        "timestamp": 1768498749065,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 26,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Determining transcriptional factor binding sites (TFBSs) is critical for understanding the molecular mechanisms regulating gene expression in different biological conditions. Biological assays designed to directly mapping TFBSs require large sample size and intensive resources. As an alternative, ATAC-seq assay is simple to conduct and provides genomic cleavage profiles that contain rich information for imputing TFBSs indirectly. Previous footprint-based tools are inheritably limited by the accuracy of their bias correction algorithms and the efficiency of their feature extraction models. Here we introduce TAMC (\n                  <jats:bold>\n                    <jats:underline>T</jats:underline>\n                  </jats:bold>\n                  ranscriptional factor binding prediction from\n                  <jats:bold>\n                    <jats:underline>A</jats:underline>\n                  </jats:bold>\n                  TAC-seq profile at\n                  <jats:bold>\n                    <jats:underline>M</jats:underline>\n                  </jats:bold>\n                  otif-predicted binding sites using\n                  <jats:bold>\n                    <jats:underline>C</jats:underline>\n                  </jats:bold>\n                  onvolutional neural networks), a deep-learning approach for predicting motif-centric TF binding activity from paired-end ATAC-seq data. TAMC does not require bias correction during signal processing. By leveraging a onedimensional convolutional neural network (1D-CNN) model, TAMC captures both footprint and non-footprint features at binding sites for each TF and outperforms existing footprinting tools in TFBS prediction particularly for ATAC-seq data with limited sequencing depth.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>AUTHOR SUMMARY</jats:title>\n                  <jats:p>Applications of deep-learning models are rapidly gaining popularity in recent biological studies because of their efficiency in analyzing non-linear patterns from feature-rich data. In this study, we developed a 1D-CNN model to predict TFBSs from ATAC-seq data. Compared to previous models using scoring functions and classical machine learning algorithms, our 1D-CNN model forgoes the need for bias correction during signal processing and significantly increases the efficiency in extracting features for TFBS prediction. In addition, the performance of our 1D-CNN model improves when the sequencing depth of training ATAC-seq data increases. Importantly, we showed that our method outperforms existing tools in TFBS prediction particularly when the sequencing depth of training ATAC-seq data is higher than the ATAC-seq data for prediction. This widened the applicability of our model to ATAC-seq data with both deep and shallow sequencing depth. Based on these results, we discussed about the potential application of our method to TFBS predication using bulk and single-cell ATAC-seq data.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.02.15.480482",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2022-02-19T11:05:14Z",
+        "timestamp": 1645268714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "TAMC: A deep-learning approach to predict motif-centric transcriptional factor binding activity based on ATAC-seq profile"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5358-9144",
+          "authenticated-orcid": false,
+          "given": "Tianqi",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4980-845X",
+          "authenticated-orcid": false,
+          "given": "Ricardo",
+          "family": "Henao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3207"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Skene PJ , Henikoff S. An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites. Elife. 2017;6.",
+          "DOI": "10.7554/eLife.21856"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp554"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbp025"
+        },
+        {
+          "issue": "4",
+          "key": "2022022122101648000_2022.02.15.480482v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "207",
+          "DOI": "10.1038/s41576-018-0089-8",
+          "article-title": "Chromatin accessibility and the regulatory epigenome",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Nat Rev Genet"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/5.9.3157"
+        },
+        {
+          "issue": "4",
+          "key": "2022022122101648000_2022.02.15.480482v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1038/nmeth.1313",
+          "article-title": "Global mapping of protein-DNA interactions in vivo by digital genomic footprinting",
+          "volume": "6",
+          "year": "2009",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "7",
+          "key": "2022022122101648000_2022.02.15.480482v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "956",
+          "DOI": "10.1093/bioinformatics/btw740",
+          "article-title": "DeFCoM: analysis and modeling of transcription factor binding sites using a motif-centric genomic footprinter",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv294"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raj A , Shim H , Gilad Y , Pritchard JK , Stephens M. msCentipede: Modeling Heterogeneity across Genomic Sites and Replicates Improves Accuracy in the Inference of Transcription Factor Binding. Plos One. 2015;10(9).",
+          "DOI": "10.1371/journal.pone.0138030"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang D , Sherwood R , Barkal A , Hashimoto T , Engstrom L , Gifford D. DNase-capture reveals differential transcription factor binding modalities. Plos One. 2017;12(12).",
+          "DOI": "10.1371/journal.pone.0187046"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.112623.110"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Piper J , Assi SA , Cauchy P , Ladroue C , Cockerill PN , Bonifer C , et al. Wellington-bootstrap: differential DNase-seq footprinting identifies cell-type determining transcription factors. Bmc Genomics. 2015;16.",
+          "DOI": "10.1186/s12864-015-2081-4"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li ZJ , Schulz MH , Look T , Begemann M , Zenke M , Costa IG. Identification of transcription factor binding sites using ATAC-seq. Genome Biol. 2019;20.",
+          "DOI": "10.1186/s13059-019-1642-2"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bentsen M , Goymann P , Schultheis H , Klee K , Petrova A , Wiegandt R , et al. ATAC-seq footprinting unravels kinetics of transcription factor binding during zygotic genome activation. Nat Commun. 2020;11(1).",
+          "DOI": "10.1038/s41467-020-18035-1"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.258228.119"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11212"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3768"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Calviello AK , Hirsekorn A , Wurmus R , Yusuf D , Ohler U. Reproducible inference of transcription factor footprints in ATAC-seq and DNase-seq datasets using protocol-specific bias modeling. Genome Biol. 2019;20.",
+          "DOI": "10.1186/s13059-019-1654-y"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq696"
+        },
+        {
+          "issue": "4",
+          "key": "2022022122101648000_2022.02.15.480482v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1038/nmeth.1923",
+          "article-title": "Fast gapped-read alignment with Bowtie 2",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Y , Liu T , Meyer CA , Eeckhoute J , Johnson DS , Bernstein BE , et al. Model-based Analysis of ChIP-Seq (MACS). Genome Biol. 2008;9(9).",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "key": "2022022122101648000_2022.02.15.480482v1.26",
+          "unstructured": "Paszke A , Gross S , Massa F , Lerer A , Bradbury J , Chanan G , et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library. Adv Neur In. 2019;32."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.15.480482",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:42:54Z",
+        "timestamp": 1768444974000
+      },
+      "score": 107.974525,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.02.15.480482"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            19
+          ]
+        ]
+      },
+      "references-count": 26,
+      "URL": "https://doi.org/10.1101/2022.02.15.480482",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1009921",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

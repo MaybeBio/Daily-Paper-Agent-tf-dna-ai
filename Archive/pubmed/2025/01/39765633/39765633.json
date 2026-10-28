@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "39765633",
+    "doi": "10.3390/biology13120966",
+    "title": "An Integrated Framework to Identify Prognostic Biomarkers and Novel Therapeutic Targets in Hepatocellular Carcinoma-Based Disabilities."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC) is one of the most prevalent malignant tumors globally, significantly affecting liver functions, thus necessitating the identification of biomarkers and effective therapeutics to improve HCC-based disabilities. This study aimed to identify prognostic biomarkers, signaling cascades, and candidate drugs for the treatment of HCC through integrated bioinformatics approaches such as functional enrichment analysis, survival analysis, molecular docking, and simulation. Differential expression and functional enrichment analyses revealed 176 common differentially expressed genes from two microarray datasets, GSE29721 and GSE49515, significantly involved in HCC development and progression. Topological analyses revealed 12 hub genes exhibiting elevated expression in patients with higher tumor stages and grades. Survival analyses indicated that 11 hub genes (CCNB1, AURKA, RACGAP1, CEP55, SMC4, RRM2, PRC1, CKAP2, SMC2, UHRF1, and FANCI) and three transcription factors (E2F1, CREB1, and NFYA) are strongly linked to poor patient survival. Finally, molecular docking and simulation identified seven candidate drugs with stable complexes to their target proteins: tozasertib (-9.8 kcal/mol), tamatinib (-9.6 kcal/mol), ilorasertib (-9.5 kcal/mol), hesperidin (-9.5 kcal/mol), PF-562271 (-9.3 kcal/mol), coumestrol (-8.4 kcal/mol), and clofarabine (-7.7 kcal/mol). These findings suggest that the identified hub genes and TFs could serve as valuable prognostic biomarkers and therapeutic targets for HCC-based disabilities.",
+    "keywords": [
+      "AURKA",
+      "disability research",
+      "hepatocellular carcinoma",
+      "hub genes",
+      "integrated bioinformatics approaches",
+      "prognostic biomarkers"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Md Okibur",
+        "Das, Asim",
+        "Naeem, Nazratun",
+        "Jabeen-E-Tahnim",
+        "Hossain, Md Ali",
+        "Alam, Md Nur",
+        "Azad, Akm",
+        "Alyami, Salem A",
+        "Alotaibi, Naif",
+        "Al-Moisheer, A S",
+        "Moni, Mohammod Ali"
+      ],
+      "short_names": [
+        "Rahman MO",
+        "Das A",
+        "Naeem N",
+        "Jabeen-E-Tahnim",
+        "Hossain MA",
+        "Alam MN",
+        "Azad A",
+        "Alyami SA",
+        "Alotaibi N",
+        "Al-Moisheer AS",
+        "Moni MA"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-7038-2010",
+        "ORCID: 0009-0003-6249-929X",
+        "ORCID: 0000-0002-4910-3858",
+        "ORCID: 0000-0002-5251-2214",
+        "ORCID: 0000-0002-5507-9399",
+        "ORCID: 0000-0002-2764-686X"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Computer Science & Engineering, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Computer Science & Engineering, Daffodil International University, Dhaka 1216, Bangladesh.",
+        "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia.",
+        "Artificial Intelligence and Cyber Futures Institute, Charles Sturt University, Bathurst, NSW 2795, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Md Okibur",
+        "short_name": "Rahman MO",
+        "identifiers": [
+          "0009-0005-7038-2010"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Das, Asim",
+        "short_name": "Das A",
+        "identifiers": [
+          "0009-0003-6249-929X"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Naeem, Nazratun",
+        "short_name": "Naeem N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Jabeen-E-Tahnim",
+        "short_name": "Jabeen-E-Tahnim",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Ali",
+        "short_name": "Hossain MA",
+        "identifiers": [
+          "0000-0002-4910-3858"
+        ],
+        "affiliations": [
+          "Department of Computer Science & Engineering, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+          "Department of Computer Science & Engineering, Daffodil International University, Dhaka 1216, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Alam, Md Nur",
+        "short_name": "Alam MN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Azad, Akm",
+        "short_name": "Azad A",
+        "identifiers": [
+          "0000-0002-5251-2214"
+        ],
+        "affiliations": [
+          "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alyami, Salem A",
+        "short_name": "Alyami SA",
+        "identifiers": [
+          "0000-0002-5507-9399"
+        ],
+        "affiliations": [
+          "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alotaibi, Naif",
+        "short_name": "Alotaibi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Moisheer, A S",
+        "short_name": "Al-Moisheer AS",
+        "identifiers": [
+          "0000-0002-2764-686X"
+        ],
+        "affiliations": [
+          "Department of Mathematics & Statistics, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh 13318, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Moni, Mohammod Ali",
+        "short_name": "Moni MA",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence and Cyber Futures Institute, Charles Sturt University, Bathurst, NSW 2795, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2024 Nov 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/08 06:20",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38282187",
+      "38067357",
+      "37943830",
+      "37438735",
+      "37110619",
+      "37007153",
+      "36874250",
+      "36856946",
+      "36680333",
+      "36639822",
+      "36377304",
+      "36341896",
+      "36305812",
+      "36281130",
+      "36093522",
+      "35853969",
+      "35445033",
+      "35126724",
+      "35078134",
+      "35063534",
+      "34743578",
+      "34493740",
+      "33970459",
+      "33829064",
+      "33477315",
+      "33466191",
+      "33451333",
+      "33237278",
+      "33106289",
+      "32977582",
+      "32954681",
+      "32876480",
+      "32593747",
+      "32332880",
+      "32292778",
+      "32242302",
+      "31965022",
+      "31936661",
+      "31920463",
+      "31543467",
+      "31540192",
+      "31152819",
+      "31138777",
+      "30916406",
+      "30662724",
+      "30643433",
+      "30518564",
+      "30508677",
+      "30250588",
+      "30207593",
+      "30096813",
+      "29588600",
+      "29140473",
+      "28943392",
+      "28901457",
+      "28532995",
+      "28293379",
+      "28060737",
+      "27924014",
+      "26345296",
+      "25990557",
+      "25987009",
+      "25950236",
+      "25521941",
+      "25462153",
+      "25428369",
+      "25176396",
+      "24909171",
+      "24771341",
+      "24410894",
+      "24332572",
+      "24072748",
+      "23586463",
+      "23193258",
+      "22451237",
+      "22192146",
+      "21747116",
+      "21695124",
+      "21374666",
+      "21347333",
+      "21149340",
+      "21067998",
+      "20981514",
+      "20808434",
+      "20607691",
+      "20399660",
+      "20034025",
+      "19720726",
+      "19458500",
+      "18407604",
+      "18294763",
+      "17784955",
+      "17635075",
+      "17230196",
+      "16373484",
+      "12744694",
+      "12214247",
+      "11922091",
+      "11511787",
+      "11099028",
+      "10592235",
+      "10592173",
+      "10518307",
+      "9504803",
+      "4896737",
+      "2726808"
+    ],
+    "similar": [
+      "39765633",
+      "31822116",
+      "36786134",
+      "39911278",
+      "38984486",
+      "39470543",
+      "34794761",
+      "39118438",
+      "33505422",
+      "34257537",
+      "35762549",
+      "40128499",
+      "32296612",
+      "37393234",
+      "32722976",
+      "33767726",
+      "32769939",
+      "33946043",
+      "30702595",
+      "36553600",
+      "34588861",
+      "33376723",
+      "33552715",
+      "31886163",
+      "31392101",
+      "33133125",
+      "38310567",
+      "34337056",
+      "39430152",
+      "30679912",
+      "31043166",
+      "36464255",
+      "38816744",
+      "35431572",
+      "34992437",
+      "30525236",
+      "30719129",
+      "33665036",
+      "34093635",
+      "33987018",
+      "32724412",
+      "37275579",
+      "36250027",
+      "40332418",
+      "38689649",
+      "31746405",
+      "39095799",
+      "34619053",
+      "39607545",
+      "33193629",
+      "37765047",
+      "31737652",
+      "36120772",
+      "30825595",
+      "32046048",
+      "35241097",
+      "40337768",
+      "38319987",
+      "28901457",
+      "38067357",
+      "35928445",
+      "35322101",
+      "35381131",
+      "33228611",
+      "30746803",
+      "39764737",
+      "38721057",
+      "31611976",
+      "34982264",
+      "39944135",
+      "40317014",
+      "34603487",
+      "36829489",
+      "33900477",
+      "36193067",
+      "37691428",
+      "38494261",
+      "35557563",
+      "35178291",
+      "33708237",
+      "34681056",
+      "32742331",
+      "33390802",
+      "39822558",
+      "34755666",
+      "36193154",
+      "31633428",
+      "35403252",
+      "40179431",
+      "38017425",
+      "39023830",
+      "29117471",
+      "39445019",
+      "37407932",
+      "40186271",
+      "32849813",
+      "40104732",
+      "36882493",
+      "30009820",
+      "34988187"
+    ],
+    "review": [
+      "39765633",
+      "38984486"
+    ],
+    "pmc": [
+      "11673266"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology13120966",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39765633/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1341",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

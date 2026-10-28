@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "42252362",
+    "doi": "10.1007/s00414-026-03866-2",
+    "title": "Chronological age estimation using CpG methylation signatures in Pakistani population."
+  },
+  "content": {
+    "abstract": "The accurate assessment of chronological age through DNA methylation (DNAm) patterns has emerged as a promising forensic-age estimation tool. This study, therefore, assessed seven age-associated CpG sites to develop an epigenetic age-prediction model capable of rendering reliable outputs especially in the Pakistani population, a population group underrepresented in current epigenetic aging studies. A total of seven age-related CpG sites, KLF14 (cg14361627), CCDC102B (cg19283806), TRIM59 (cg07553761), ASPA (cg02228185), C1ORF132 (cg10501210), FHL2 (cg06639320), and ELOVL2 (cg16867657), were selected and analyzed in blood samples of 181 individuals categorized into different age groups (1 to 76 years). A methylation SNaPshot multiplex assay was performed, three different age prediction models like stepwise regression, multivariate linear regression (MVLR), and support vector machine (SVM), were established based on the methylation data of SNaPshot multiplex assay. The stepwise regression model and multivariate linear regression enabled age prediction, with mean absolute deviations (MADs) = 3.60 and 3.69, respectively, whereas the SVM model enabled age prediction, with MAD = 3.40. An independent set of 53 samples was used to test the performance of the three models, and the prediction MADs for the validation set were 3.92, 3.73 and 3.44 for the stepwise regression, multivariate linear regression and SVM models, respectively. The number of correct predictions for +/- 4 years reached high values of 69.81%, 71.69% and 77.35% for the stepwise regression, MVLR and SVM models, respectively. The results revealed that all seven markers were significantly associated with age, but ELOVL2 and FHL2 are reliable candidates for age estimation models in Pakistan due to their robustness and minimal redundancy among evaluated CpG sites. However, CCDC102B (cg19283806) had the lowest association levels, respectively. Prediction accuracy was found to decrease with increasing age, suggesting that environmental and lifestyle factors may play an increasingly important role in determining biological age-especially so in Pakistan where air pollution and other lifestyle indicators may accelerate biological age. These findings further highlight the need to study DNA methylation changes in polluted settings in order to improve age prediction systems and bridge the gap between chronological and biological age. Additional optimization using population samples and various forensic materials such as bloodstains, saliva, and body fluids is required to improve the performance and applicability of the model in real-life forensic situations.",
+    "keywords": [
+      "Age estimation",
+      "CpG sites",
+      "DNA methylation",
+      "Forensic science",
+      "SNaPshot multiplex assay"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "Pakistan",
+      "Adult",
+      "Adolescent",
+      "*CpG Islands",
+      "Fatty Acid Elongases/genetics",
+      "Middle Aged",
+      "Child, Preschool",
+      "Aged",
+      "Young Adult",
+      "*Aging/genetics",
+      "Child",
+      "Infant",
+      "Male",
+      "Linear Models",
+      "Female",
+      "Support Vector Machine",
+      "Transcription Factors/genetics",
+      "LIM-Homeodomain Proteins/genetics",
+      "Tripartite Motif Proteins/genetics",
+      "Sp Transcription Factors/genetics",
+      "Acetyltransferases/genetics",
+      "South Asian People",
+      "Amidohydrolases",
+      "Muscle Proteins",
+      "Intracellular Signaling Peptides and Proteins",
+      "Kruppel-Like Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arshad, Fatima",
+        "Shahzad, Muhammad",
+        "Javed, Faqeeha",
+        "Shehzadi, Abida",
+        "Baig, Ibrahim Salam",
+        "Shahid, Ahmad Ali",
+        "Shafique, Muhammad"
+      ],
+      "short_names": [
+        "Arshad F",
+        "Shahzad M",
+        "Javed F",
+        "Shehzadi A",
+        "Baig IS",
+        "Shahid AA",
+        "Shafique M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8870-2936"
+      ],
+      "affiliations": [
+        "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+        "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+        "Centre for Applied Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+        "Riphah College of Rehabilitation and Allied Health Sciences, Riphah International University, Gulberg 3, Lahore, 54660, Pakistan.",
+        "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+        "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+        "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+        "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan. shafique@cemb.edu.pk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arshad, Fatima",
+        "short_name": "Arshad F",
+        "identifiers": [],
+        "affiliations": [
+          "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Shahzad, Muhammad",
+        "short_name": "Shahzad M",
+        "identifiers": [],
+        "affiliations": [
+          "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan.",
+          "Centre for Applied Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Javed, Faqeeha",
+        "short_name": "Javed F",
+        "identifiers": [],
+        "affiliations": [
+          "Riphah College of Rehabilitation and Allied Health Sciences, Riphah International University, Gulberg 3, Lahore, 54660, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Shehzadi, Abida",
+        "short_name": "Shehzadi A",
+        "identifiers": [],
+        "affiliations": [
+          "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Baig, Ibrahim Salam",
+        "short_name": "Baig IS",
+        "identifiers": [],
+        "affiliations": [
+          "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Shahid, Ahmad Ali",
+        "short_name": "Shahid AA",
+        "identifiers": [],
+        "affiliations": [
+          "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Shafique, Muhammad",
+        "short_name": "Shafique M",
+        "identifiers": [
+          "0000-0001-8870-2936"
+        ],
+        "affiliations": [
+          "Forensic DNA Typing Laboratory, National Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, 53700, Pakistan. shafique@cemb.edu.pk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of legal medicine"
+    ],
+    "journal_abbrev": [
+      "Int J Legal Med"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/08 00:35",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39667189",
+      "38301433",
+      "37762580",
+      "37611906",
+      "36982454",
+      "35777225",
+      "34973557",
+      "34852982",
+      "33719336",
+      "33684551",
+      "32729409",
+      "32453457",
+      "32325350",
+      "32009007",
+      "32006895",
+      "31222117",
+      "30300865",
+      "30243148",
+      "29477092",
+      "28511095",
+      "28419903",
+      "28254385",
+      "27337627",
+      "27017110",
+      "26280308",
+      "26057119",
+      "26026729",
+      "25979242",
+      "25450787",
+      "24490752",
+      "24163245",
+      "24034465",
+      "23177740",
+      "23061750",
+      "22322129",
+      "20414472",
+      "19680444",
+      "18510760",
+      "15335214"
+    ],
+    "similar": [
+      "42252362",
+      "32325350",
+      "35819508",
+      "30300865",
+      "32006895",
+      "40085291",
+      "28511095",
+      "28725932",
+      "41963974",
+      "39983295",
+      "38308398",
+      "39266801",
+      "39763091",
+      "34245337",
+      "41289662",
+      "32453457",
+      "42589712",
+      "32721866",
+      "37454509",
+      "40799162",
+      "32087494",
+      "33978960",
+      "37783021",
+      "33933877",
+      "28854399",
+      "33707346",
+      "39402823",
+      "26280308",
+      "31490551",
+      "28841467",
+      "28419903",
+      "37598451",
+      "25979242",
+      "27017110",
+      "35810521",
+      "27337627",
+      "39693839",
+      "33978258",
+      "32574993",
+      "36057238",
+      "41877244",
+      "42068152",
+      "33279766",
+      "38301433",
+      "35777225",
+      "29631189",
+      "28254385",
+      "36811674",
+      "39256256",
+      "31546163",
+      "40382887",
+      "40665390",
+      "38160598",
+      "26026729",
+      "30336352",
+      "25450787",
+      "42144436",
+      "30031222",
+      "39243524",
+      "40857784",
+      "31897670",
+      "35131731",
+      "40145379",
+      "39162072",
+      "36867979",
+      "34126371",
+      "35141217",
+      "40099741",
+      "27249102",
+      "40730045",
+      "38256009",
+      "32055939",
+      "31648151",
+      "28691915",
+      "32973211",
+      "38275209",
+      "41147563",
+      "29933125",
+      "28499412",
+      "33629357",
+      "38703560",
+      "39633164",
+      "32659707",
+      "30243148",
+      "40448028",
+      "30896114",
+      "39752798",
+      "26057119",
+      "23061750",
+      "38488745",
+      "41979672",
+      "36379153",
+      "29172065",
+      "36982454",
+      "41067661",
+      "30902246",
+      "34814096",
+      "28874809",
+      "41297061",
+      "26635134"
+    ],
+    "review": [
+      "42252362",
+      "28691915"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00414-026-03866-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

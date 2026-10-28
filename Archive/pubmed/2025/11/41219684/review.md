@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors propose that IiWRKY34 promotes primary root growth in Arabidopsis thaliana by directly binding to the promoter of IiNAC1, which in turn binds to the promoter of the auxin biosynthesis gene IiYUCCA6. They further report a protein-protein interaction between IiNAC1 and IiNAC18, with heterologous expression of either transcription factor phenocopying IiWRKY34-expressing lines. A molecular model is proposed in which IiWRKY34 acts as an upstream trigger of auxin signaling during root growth.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical reporting, experimental replicates, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting regulatory module linking a WRKY transcription factor to auxin biosynthesis via a NAC transcription factor cascade in a medicinal plant. However, the evidence as summarized is insufficient to establish the proposed mechanistic model. Several key claims are made without supporting quantitative data, and the abstract does not provide enough experimental detail to assess the rigor of the molecular interactions, the specificity of the proposed pathway, or the functional relevance of the findings beyond a phenotypic correlation.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation of root development, auxin signaling, and WRKY or NAC transcription factor functions in plants. The work may also interest those working on medicinal plants and hairy root biotechnology, given the prior context of IiWRKY34 in lignan accumulation and stress tolerance. The proposed cross-species conservation in Brassicaceae could attract a broader plant biology audience.
+- **Major strengths** The abstract identifies a clear and testable molecular pathway from a transcription factor to an auxin biosynthesis gene. The combination of direct promoter binding, protein-protein interaction, and phenotypic consistency across three transcription factors provides a coherent narrative. The use of molecular docking to support DNA binding adds a structural dimension to the study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "IiWRKY34 bound directly to the promoter of IiNAC1, which itself bound to the promoter of an auxin biosynthesis gene, IiYUCCA6."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states direct binding events but provides no experimental method (e.g., ChIP-qPCR, EMSA, Y1H) or quantitative support. It is unclear whether these interactions were demonstrated in vitro, in vivo, or both, and whether binding was shown to be functional (i.e., leading to transcriptional activation or repression).
+  - **Why it matters** Direct promoter binding is the central mechanistic claim of the proposed model. Without clear evidence of the assay type, binding affinity, and functional consequence, the claim that IiWRKY34 regulates IiNAC1 and that IiNAC1 regulates IiYUCCA6 cannot be evaluated.
+  - **Resolution test** Provide the specific experimental approaches used, including positive and negative controls, and show quantitative binding data. Demonstrate that the binding events correlate with changes in target gene expression.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "heterogeneous expression of IiWRKY34 increased the primary root length in Arabidopsis thaliana" and "heterogeneous expression of either transcription factor resulted in the same phenotype as IiWRKY34-expressing lines"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports phenotypic effects from heterologous expression but does not provide effect sizes, statistical significance, number of independent transgenic lines, or controls. It is also unclear whether the phenotypic similarity between IiNAC1, IiNAC18, and IiWRKY34 lines was tested quantitatively or only visually.
+  - **Why it matters** The conclusion that IiWRKY34 functions as an upstream trigger of auxin signaling depends on the phenotypic data being robust and statistically validated. Without these details, the functional relevance of the proposed pathway is not established.
+  - **Resolution test** Report mean values with error bars, statistical tests, sample sizes, and the number of independent transgenic lines. Show that the phenotype is consistent across lines and that controls (e.g., empty vector) were included.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** "IiWRKY34 functions as an upstream trigger of auxin signaling during root growth"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any direct evidence linking the proposed pathway to auxin signaling, such as auxin measurements, auxin-responsive reporter assays, or genetic rescue experiments. The connection between IiYUCCA6 and auxin is inferred but not demonstrated in the context of the observed root phenotype.
+  - **Why it matters** The central model claim is that the IiWRKY34-IiNAC1-IiYUCCA6 module drives root growth through auxin. Without functional validation of this link, the model remains speculative.
+  - **Resolution test** Provide auxin quantification or auxin signaling reporter data in the transgenic lines, or show that the root phenotype is dependent on IiYUCCA6 function (e.g., via knockdown or complementation).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "heterogeneous expression" is used repeatedly. This likely means "heterologous expression" (expression in a different species), but the wording is ambiguous and could be misread as non-uniform expression.
+  - **Required correction** Replace "heterogeneous" with "heterologous" throughout the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Molecular docking claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The molecular docking result is mentioned but not contextualized. It is unclear whether this is a predictive model or a validated structural study, and how it relates to the experimental binding data.
+  - **Required correction** Clarify whether docking was used as a hypothesis-generating tool or as supporting evidence, and state how it aligns with the experimental binding results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Application claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the model "may have applications in enhancing agricultural yields of I. indigotica and possibly other plants in the family Brassicaceae." This is speculative and not supported by any data in the abstract.
+  - **Required correction** Either remove the application claim or provide evidence that the proposed mechanism is conserved and functionally relevant in additional Brassicaceae species.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental detail to assess the validity of the binding assays, the robustness of the phenotypic data, or the functional link to auxin signaling.
+- **Assessment against Nature-style criteria** Originality: The proposed WRKY-NAC-YUCCA regulatory module appears novel, but the abstract does not provide enough context to assess how it advances beyond existing knowledge of WRKY and NAC functions in root development. Scientific importance: The work could be of interest to plant developmental biologists, but the significance is not clearly articulated beyond a general claim about agricultural applications. Interdisciplinary readership: The topic is likely to appeal primarily to plant molecular biologists and may not attract a broad interdisciplinary audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail and quantitative data is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient explanation, and the mechanistic narrative is dense.
+- **Recommendation posture** Currently not established from the provided evidence. The proposed model is plausible and potentially interesting, but the abstract does not provide sufficient experimental detail or quantitative support to validate the central claims. A full manuscript with rigorous methods and data would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that IiWRKY34 "functions as an upstream trigger of auxin signaling" is unsupported by direct auxin-related evidence in the abstract.
+- The claim that the model "may have applications in enhancing agricultural yields" is speculative and not supported by any data.
+- The direct binding of IiWRKY34 to the IiNAC1 promoter and IiNAC1 to the IiYUCCA6 promoter is stated without experimental method or quantitative support.
+- The phenotypic equivalence of IiNAC1, IiNAC18, and IiWRKY34 expressing lines is stated without statistical or quantitative evidence.
+- The molecular docking result is mentioned without context or validation, making its contribution to the model unclear.

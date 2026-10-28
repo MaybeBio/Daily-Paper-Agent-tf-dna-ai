@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "37552115",
+    "doi": "10.1080/21655979.2023.2243416",
+    "title": "A data-driven machine learning approach for discovering potent LasR inhibitors."
+  },
+  "content": {
+    "abstract": "The rampant spread of multidrug-resistant Pseudomonas aeruginosa strains severely threatens global health. This severity is compounded against the backdrop of a stagnating antibiotics development pipeline. Moreover, with many promising therapeutics falling short of expectations in clinical trials, targeting the las quorum sensing (QS) system remains an attractive therapeutic strategy to combat P. aeruginosa infection. Thus, our primary goal was to develop a drug prediction algorithm using machine learning to identify potent LasR inhibitors. In this work, we demonstrated using a Multilayer Perceptron (MLP) algorithm boosted with AdaBoostM1 to discriminate between active and inactive LasR inhibitors. The optimal model performance was evaluated using 5-fold cross-validation and test sets. Our best model achieved a 90.7% accuracy in distinguishing active from inactive LasR inhibitors, an area under the Receiver Operating Characteristic Curve value of 0.95, and a Matthews correlation coefficient value of 0.81 when evaluated using test sets. Subsequently, we deployed the model against the Enamine database. The top-ranked compounds were further evaluated for their target engagement activity using molecular docking studies, Molecular Dynamics simulations, MM-GBSA analysis, and Free Energy Landscape analysis. Our data indicate that several of our chosen top hits showed better ligand-binding affinities than naringenin, a competitive LasR inhibitor. Among the six top hits, five of these compounds were predicted to be LasR inhibitors that could be used to treat P. aeruginosa-associated infections. To our knowledge, this study provides the first assessment of using an MLP-based QSAR model for discovering potent LasR inhibitors to attenuate P. aeruginosa infections.",
+    "keywords": [
+      "Drug discovery",
+      "LasR",
+      "Machine learning",
+      "Pseudomonas aeruginosa"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "*Trans-Activators",
+      "*Bacterial Proteins/chemistry",
+      "Quorum Sensing",
+      "Pseudomonas aeruginosa"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koh, Christabel Ming Ming",
+        "Ping, Lilian Siaw Yung",
+        "Xuan, Christopher Ha Heng",
+        "Theng, Lau Bee",
+        "San, Hwang Siaw",
+        "Palombo, Enzo A",
+        "Wezen, Xavier Chee"
+      ],
+      "short_names": [
+        "Koh CMM",
+        "Ping LSY",
+        "Xuan CHH",
+        "Theng LB",
+        "San HS",
+        "Palombo EA",
+        "Wezen XC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia.",
+        "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia.",
+        "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia.",
+        "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia.",
+        "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia.",
+        "Department of Chemistry and Biotechnology, Swinburne University of Technology, Hawthorn, Victoria, Australia.",
+        "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koh, Christabel Ming Ming",
+        "short_name": "Koh CMM",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Ping, Lilian Siaw Yung",
+        "short_name": "Ping LSY",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Xuan, Christopher Ha Heng",
+        "short_name": "Xuan CHH",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Theng, Lau Bee",
+        "short_name": "Theng LB",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+        ]
+      },
+      {
+        "full_name": "San, Hwang Siaw",
+        "short_name": "San HS",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Palombo, Enzo A",
+        "short_name": "Palombo EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biotechnology, Swinburne University of Technology, Hawthorn, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Wezen, Xavier Chee",
+        "short_name": "Wezen XC",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Computing, and Science, Swinburne University of Technology, Sarawak, Malaysia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioengineered"
+    ],
+    "journal_abbrev": [
+      "Bioengineered"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/08 12:43",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "42594055",
+      "42511187",
+      "38370460"
+    ],
+    "refs": [
+      "37127679",
+      "37079062",
+      "36768346",
+      "35892376",
+      "35528444",
+      "35451916",
+      "35215223",
+      "34789810",
+      "34674121",
+      "34530437",
+      "34151163",
+      "34029506",
+      "33937104",
+      "33672148",
+      "33606530",
+      "33519448",
+      "33433201",
+      "33412111",
+      "33313673",
+      "33151297",
+      "32824118",
+      "32501479",
+      "32423901",
+      "32235775",
+      "32181260",
+      "32020464",
+      "31080810",
+      "30763066",
+      "30190495",
+      "30154259",
+      "30033130",
+      "29694695",
+      "29329334",
+      "28737911",
+      "28453568",
+      "28351711",
+      "27851827",
+      "27452339",
+      "27417849",
+      "27124799",
+      "26605738",
+      "26578582",
+      "26420551",
+      "26196763",
+      "26091267",
+      "25699144",
+      "25687211",
+      "25574450",
+      "25242287",
+      "25105594",
+      "24625893",
+      "24171951",
+      "23258305",
+      "22715388",
+      "22542841",
+      "21990612",
+      "21271798",
+      "21091654",
+      "20102415",
+      "20081869",
+      "19850623",
+      "19778724",
+      "19528173",
+      "19364871",
+      "19249239",
+      "17941706",
+      "17710100",
+      "17363368",
+      "16549654",
+      "16260097",
+      "15963993",
+      "15505212",
+      "12216271",
+      "12169617",
+      "10649345",
+      "9710677",
+      "8454322",
+      "8278364",
+      "7063747",
+      "1180967"
+    ],
+    "similar": [
+      "37552115",
+      "35451916",
+      "28351711",
+      "35075974",
+      "37096792",
+      "27703072",
+      "32824118",
+      "32163399",
+      "33288622",
+      "24002091",
+      "31787031",
+      "35967851",
+      "30849491",
+      "30033130",
+      "32037806",
+      "28818490",
+      "27825554",
+      "22986632",
+      "23203920",
+      "24319092",
+      "17363368",
+      "32265330",
+      "38379380",
+      "34308062",
+      "29526565",
+      "30707095",
+      "28075113",
+      "35585729",
+      "33713665",
+      "30559209",
+      "26048802",
+      "34488244",
+      "21325039",
+      "26078448",
+      "16966394",
+      "26358567",
+      "33837019",
+      "28065820",
+      "29135250",
+      "35961070",
+      "21031308",
+      "15505212",
+      "30850547",
+      "28939255",
+      "19246742",
+      "34660340",
+      "29735954",
+      "27053110",
+      "30763066",
+      "24057196",
+      "32691823",
+      "29076756",
+      "25927541",
+      "20656785",
+      "36064977",
+      "31178047",
+      "27650847",
+      "9190808",
+      "31284940",
+      "19330325",
+      "31187452",
+      "35903467",
+      "28712963",
+      "35767197",
+      "25474181",
+      "20935125",
+      "19682264",
+      "24626770",
+      "35471121",
+      "36748317",
+      "24935161",
+      "20844762",
+      "32333184",
+      "34611855",
+      "29085409",
+      "29601791",
+      "26840534",
+      "33803983",
+      "36869520",
+      "37811195",
+      "15817780",
+      "17185551",
+      "14645283",
+      "18566810",
+      "28466892",
+      "30352386",
+      "36406453",
+      "29694695",
+      "33073409",
+      "32851551",
+      "30782628",
+      "37642215",
+      "37790109",
+      "38370460",
+      "38385459",
+      "35516480",
+      "39171594"
+    ],
+    "review": [
+      "37552115"
+    ],
+    "pmc": [
+      "10411317"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/21655979.2023.2243416?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37552115/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37552115",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/21655979.2023.2243416",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

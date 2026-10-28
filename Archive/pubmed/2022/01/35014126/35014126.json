@@ -1,0 +1,583 @@
+{
+  "identity": {
+    "pmid": "35014126",
+    "doi": "10.1111/bpa.13050",
+    "title": "Information theory approaches to improve glioma diagnostic workflows in surgical neuropathology."
+  },
+  "content": {
+    "abstract": "AIMS: Resource-strained healthcare ecosystems often struggle with the adoption of the World Health Organization (WHO) recommendations for the classification of central nervous system (CNS) tumors. The generation of robust clinical diagnostic aids and the advancement of simple solutions to inform investment strategies in surgical neuropathology would improve patient care in these settings. METHODS: We used simple information theory calculations on a brain cancer simulation model and real-world data sets to compare contributions of clinical, histologic, immunohistochemical, and molecular information. An image noise assay was generated to compare the efficiencies of different image segmentation methods in H&E and Olig2 stained images obtained from digital slides. An auto-adjustable image analysis workflow was generated and compared with neuropathologists for p53 positivity quantification. Finally, the density of extracted features of the nuclei, p53 positivity quantification, and combined ATRX/age feature was used to generate a predictive model for 1p/19q codeletion in IDH-mutant tumors. RESULTS: Information theory calculations can be performed on open access platforms and provide significant insight into linear and nonlinear associations between diagnostic biomarkers. Age, p53, and ATRX status have significant information for the diagnosis of IDH-mutant tumors. The predictive models may facilitate the reduction of false-positive 1p/19q codeletion by fluorescence in situ hybridization (FISH) testing. CONCLUSIONS: We posit that this approach provides an improvement on the cIMPACT-NOW workflow recommendations for IDH-mutant tumors and a framework for future resource and testing allocation.",
+    "keywords": [
+      "1p/19q codeletion",
+      "cIMPACT",
+      "glioma",
+      "image segmentation",
+      "information theory",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Brain Neoplasms/pathology",
+      "Chromosome Aberrations",
+      "Chromosomes, Human, Pair 1",
+      "Chromosomes, Human, Pair 19",
+      "Ecosystem",
+      "*Glioma/pathology",
+      "Humans",
+      "In Situ Hybridization, Fluorescence",
+      "Information Theory",
+      "Isocitrate Dehydrogenase/genetics",
+      "Mutation",
+      "Neuropathology",
+      "Tumor Suppressor Protein p53",
+      "Workflow"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cevik, Lokman",
+        "Landrove, Marilyn Vazquez",
+        "Aslan, Mehmet Tahir",
+        "Khammad, Vasilii",
+        "Garagorry Guerra, Francisco Jose",
+        "Cabello-Izquierdo, Yolanda",
+        "Wang, Wesley",
+        "Zhao, Jing",
+        "Becker, Aline Paixao",
+        "Czeisler, Catherine",
+        "Rendeiro, Anne Costa",
+        "Veras, Lucas Luis Sousa",
+        "Zanon, Maicon Fernando",
+        "Reis, Rui Manuel",
+        "Matsushita, Marcus de Medeiros",
+        "Ozduman, Koray",
+        "Pamir, M Necmettin",
+        "Ersen Danyeli, Ayca",
+        "Pearce, Thomas",
+        "Felicella, Michelle",
+        "Eschbacher, Jennifer",
+        "Arakaki, Naomi",
+        "Martinetto, Horacio",
+        "Parwani, Anil",
+        "Thomas, Diana L",
+        "Otero, Jose Javier"
+      ],
+      "short_names": [
+        "Cevik L",
+        "Landrove MV",
+        "Aslan MT",
+        "Khammad V",
+        "Garagorry Guerra FJ",
+        "Cabello-Izquierdo Y",
+        "Wang W",
+        "Zhao J",
+        "Becker AP",
+        "Czeisler C",
+        "Rendeiro AC",
+        "Veras LLS",
+        "Zanon MF",
+        "Reis RM",
+        "Matsushita MM",
+        "Ozduman K",
+        "Pamir MN",
+        "Ersen Danyeli A",
+        "Pearce T",
+        "Felicella M",
+        "Eschbacher J",
+        "Arakaki N",
+        "Martinetto H",
+        "Parwani A",
+        "Thomas DL",
+        "Otero JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7904-9015",
+        "ORCID: 0000-0002-8695-810X",
+        "ORCID: 0000-0002-9639-7940",
+        "ORCID: 0000-0001-8015-9916",
+        "ORCID: 0000-0003-0680-4520"
+      ],
+      "affiliations": [
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Mathematical Biosciences Institute, The Ohio State University, Columbus, Ohio, USA.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Peoples' Friendship University of Russia, Moscow, Russia.",
+        "Facultad de Medicina, UdeLaR, Catedra de Anatomia Patologica, Hospital de Clinicas Manuel Quintela, Universidad de la Republica, Uruguay.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Department of Biomedical Informatics, The Ohio State University College of Medicine, Columbus, Ohio, USA.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Pathology Department, Barretos Cancer Hospital, Barretos, Brazil.",
+        "Pathology Department, Barretos Cancer Hospital, Barretos, Brazil.",
+        "Molecular Oncology Research Center, Barretos Cancer Hospital, Barretos, Brazil.",
+        "Molecular Oncology Research Center, Barretos Cancer Hospital, Barretos, Brazil.",
+        "Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho, Braga, Portugal.",
+        "MultiPat Laboratorio de Anatomia Patologica, Campinas, Brazil.",
+        "Department of Neurosurgery, Acibadem MAA University, Istanbul, Turkey.",
+        "Department of Neurosurgery, Acibadem MAA University, Istanbul, Turkey.",
+        "Department of Pathology, Acibadem University School of Medicine, Istanbul, Turkey.",
+        "Division of Neuropathology, Department of Pathology, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA.",
+        "Division of Neuropathology, Department of Pathology, University of Texas Medical Branch, Galveston, Texas, USA.",
+        "Department of Pathology, Barrow Neurological Institute, St. Joseph's Hospital and Medical Center, Phoenix, Arizona, USA.",
+        "Departamento de Neuropatologia y Biologia Molecular, Instituto de Investigaciones Neurologicas Dr Raul Carrea (FLENI), Buenos Aires, Argentina.",
+        "Departamento de Neuropatologia y Biologia Molecular, Instituto de Investigaciones Neurologicas Dr Raul Carrea (FLENI), Buenos Aires, Argentina.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA.",
+        "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cevik, Lokman",
+        "short_name": "Cevik L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Landrove, Marilyn Vazquez",
+        "short_name": "Landrove MV",
+        "identifiers": [],
+        "affiliations": [
+          "Mathematical Biosciences Institute, The Ohio State University, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Aslan, Mehmet Tahir",
+        "short_name": "Aslan MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Khammad, Vasilii",
+        "short_name": "Khammad V",
+        "identifiers": [],
+        "affiliations": [
+          "Peoples' Friendship University of Russia, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Garagorry Guerra, Francisco Jose",
+        "short_name": "Garagorry Guerra FJ",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Medicina, UdeLaR, Cátedra de Anatomía Patológica, Hospital de Clínicas Manuel Quintela, Universidad de la República, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Cabello-Izquierdo, Yolanda",
+        "short_name": "Cabello-Izquierdo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Wesley",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0001-7904-9015"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, The Ohio State University College of Medicine, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Becker, Aline Paixao",
+        "short_name": "Becker AP",
+        "identifiers": [
+          "0000-0002-8695-810X"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Czeisler, Catherine",
+        "short_name": "Czeisler C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Rendeiro, Anne Costa",
+        "short_name": "Rendeiro AC",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Department, Barretos Cancer Hospital, Barretos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Véras, Lucas Luis Sousa",
+        "short_name": "Véras LLS",
+        "identifiers": [],
+        "affiliations": [
+          "Pathology Department, Barretos Cancer Hospital, Barretos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Zanon, Maicon Fernando",
+        "short_name": "Zanon MF",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Research Center, Barretos Cancer Hospital, Barretos, Brazil."
+        ]
+      },
+      {
+        "full_name": "Reis, Rui Manuel",
+        "short_name": "Reis RM",
+        "identifiers": [
+          "0000-0002-9639-7940"
+        ],
+        "affiliations": [
+          "Molecular Oncology Research Center, Barretos Cancer Hospital, Barretos, Brazil.",
+          "Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho, Braga, Portugal."
+        ]
+      },
+      {
+        "full_name": "Matsushita, Marcus de Medeiros",
+        "short_name": "Matsushita MM",
+        "identifiers": [],
+        "affiliations": [
+          "MultiPat Laboratório de Anatomia Patológica, Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Ozduman, Koray",
+        "short_name": "Ozduman K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Acibadem MAA University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Pamir, M Necmettin",
+        "short_name": "Pamir MN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Acibadem MAA University, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Ersen Danyeli, Ayca",
+        "short_name": "Ersen Danyeli A",
+        "identifiers": [
+          "0000-0001-8015-9916"
+        ],
+        "affiliations": [
+          "Department of Pathology, Acıbadem University School of Medicine, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Pearce, Thomas",
+        "short_name": "Pearce T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neuropathology, Department of Pathology, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Felicella, Michelle",
+        "short_name": "Felicella M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neuropathology, Department of Pathology, University of Texas Medical Branch, Galveston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Eschbacher, Jennifer",
+        "short_name": "Eschbacher J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Barrow Neurological Institute, St. Joseph's Hospital and Medical Center, Phoenix, Arizona, USA."
+        ]
+      },
+      {
+        "full_name": "Arakaki, Naomi",
+        "short_name": "Arakaki N",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Neuropatología y Biología Molecular, Instituto de Investigaciones Neurológicas Dr Raúl Carrea (FLENI), Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Martinetto, Horacio",
+        "short_name": "Martinetto H",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Neuropatología y Biología Molecular, Instituto de Investigaciones Neurológicas Dr Raúl Carrea (FLENI), Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Parwani, Anil",
+        "short_name": "Parwani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Diana L",
+        "short_name": "Thomas DL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      },
+      {
+        "full_name": "Otero, José Javier",
+        "short_name": "Otero JJ",
+        "identifiers": [
+          "0000-0003-0680-4520"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain pathology (Zurich, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Brain Pathol"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/12 06:00",
+    "fetched_at": "2026-09-28 04:00:31"
+  },
+  "links": {
+    "cites": [
+      "38405202",
+      "38049893",
+      "37443610"
+    ],
+    "refs": [
+      "34185076",
+      "33826763",
+      "32672830",
+      "32245846",
+      "32213531",
+      "32129821",
+      "31276167",
+      "31005439",
+      "30559429",
+      "30259105",
+      "29207961",
+      "28804765",
+      "28369169",
+      "28158414",
+      "27840695",
+      "27626311",
+      "27387984",
+      "26717571",
+      "26255070",
+      "25561073",
+      "25480984",
+      "25040820",
+      "23127292",
+      "21552211",
+      "21193945",
+      "17296553",
+      "15198128",
+      "11531144",
+      "10560476"
+    ],
+    "similar": [
+      "35014126",
+      "31870275",
+      "28549927",
+      "31786548",
+      "34186176",
+      "31714193",
+      "38408388",
+      "34958131",
+      "35511748",
+      "36572828",
+      "34165590",
+      "33228806",
+      "38713025",
+      "36991274",
+      "32761642",
+      "24470545",
+      "29519794",
+      "31832685",
+      "28255664",
+      "33167941",
+      "27651340",
+      "30661193",
+      "32915415",
+      "34020723",
+      "28871469",
+      "37247932",
+      "29122763",
+      "39578301",
+      "27556304",
+      "30847711",
+      "29922974",
+      "40993831",
+      "26210286",
+      "33222488",
+      "26061751",
+      "33177376",
+      "36916606",
+      "31548344",
+      "32359929",
+      "32212804",
+      "32989606",
+      "35233774",
+      "35034191",
+      "32859823",
+      "30607877",
+      "28340142",
+      "28392842",
+      "27401154",
+      "35144313",
+      "23689617",
+      "32305004",
+      "30705071",
+      "34268651",
+      "35864633",
+      "31018710",
+      "35561840",
+      "25028501",
+      "37884300",
+      "31140557",
+      "40050456",
+      "33205043",
+      "34489310",
+      "31063969",
+      "34272981",
+      "31025086",
+      "35029738",
+      "35866817",
+      "31446467",
+      "29752851",
+      "29980868",
+      "31054099",
+      "32696543",
+      "29043400",
+      "38558074",
+      "38581197",
+      "34863298",
+      "26061753",
+      "26968173",
+      "33206320",
+      "34016731",
+      "34509237",
+      "23681562",
+      "27469217",
+      "37625215",
+      "23053495",
+      "23904111",
+      "35406550",
+      "38997123",
+      "29460007",
+      "24353325",
+      "31701682",
+      "29522183",
+      "27523967",
+      "37574201",
+      "34826036",
+      "29600313",
+      "21329613",
+      "26508407",
+      "36584682",
+      "29140606"
+    ],
+    "review": [
+      "35014126",
+      "31786548",
+      "34958131",
+      "30847711",
+      "33177376",
+      "35233774",
+      "31025086",
+      "38581197",
+      "31701682",
+      "27523967"
+    ],
+    "pmc": [
+      "9425010"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://www.ovid.com/35014126.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35014126/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35014126",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/bpa.13050",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

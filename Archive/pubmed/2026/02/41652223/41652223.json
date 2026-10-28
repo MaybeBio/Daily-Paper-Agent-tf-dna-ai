@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "41652223",
+    "doi": "10.1038/s41587-026-03007-5",
+    "title": "Single-round evolution of RNA aptamers with GRAPE-LM."
+  },
+  "content": {
+    "abstract": "The directed evolution of biomolecules is an iterative process. Although advancements in language models have expedited protein evolution, effectively evolving RNA remains a challenge. RNA aptamers, selected for their binding properties, provide an ideal system to address this challenge, yet traditional aptamer discovery still relies on labor-intensive, multi-round screening. Here we introduce GRAPE-LM (generator of RNA aptamers powered by activity-guided evolution and language model), a generative artificial intelligence framework designed for the one-round evolution of RNA aptamers. GRAPE-LM integrates a transformer-based conditional autoencoder with nucleic acid language models and is guided by CRISPR-Cas-based aptamer screening data derived from intracellular environments. We validate GRAPE-LM on three disparate targets: the human T cell receptor CD3epsilon, the receptor-binding domain of the SARS-CoV-2 spike protein and the human oncogenic transcription factor c-Myc (an intracellular disordered protein). GRAPE-LM, informed with only a single round of CRISPR-Cas-based screening, successfully obtains RNA aptamers that outperform those driven from multiple rounds of human selection and optimization.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jun",
+        "Zhang, Ju",
+        "Tang, Shaoxuan",
+        "Liu, Chuancheng",
+        "Cai, Yushan",
+        "Zeng, Hao",
+        "Meng, Xiangjie",
+        "Liu, Bei",
+        "Zhang, Yang",
+        "Wang, Yu"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Zhang J",
+        "Tang S",
+        "Liu C",
+        "Cai Y",
+        "Zeng H",
+        "Meng X",
+        "Liu B",
+        "Zhang Y",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0484-0966",
+        "ORCID: 0009-0007-6447-7085",
+        "ORCID: 0009-0009-1959-9205",
+        "ORCID: 0000-0002-3503-5161",
+        "ORCID: 0000-0002-5188-4622"
+      ],
+      "affiliations": [
+        "School of Artificial Intelligence, Shenzhen University, Shenzhen, China. junzhang@szu.edu.cn.",
+        "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, China. junzhang@szu.edu.cn.",
+        "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China.",
+        "School of Artificial Intelligence, Shenzhen University, Shenzhen, China.",
+        "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, China.",
+        "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China.",
+        "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China.",
+        "School of Artificial Intelligence, Shenzhen University, Shenzhen, China.",
+        "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, China.",
+        "School of Pharmaceutical Science and Technology, Tianjin University, Tianjin, China.",
+        "School of Biomedical Engineering, Harbin Institute of Technology, Shenzhen, China.",
+        "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China.",
+        "School of Pharmaceutical Science and Technology, Tianjin University, Tianjin, China. yang.zhang2020@hotmail.com.",
+        "School of Biomedical Engineering, Harbin Institute of Technology, Shenzhen, China. yang.zhang2020@hotmail.com.",
+        "Shenzhen Loop Area Institute, Shenzhen, China. yang.zhang2020@hotmail.com.",
+        "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. yuwang@post.harvard.edu.",
+        "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China. yuwang@post.harvard.edu.",
+        "Shenzhen Key Laboratory of Genome Manipulation and Biosynthesis, Shenzhen, China. yuwang@post.harvard.edu.",
+        "Shanghai Key Laboratory of Rare Disease Gene Editing and Cell Therapy, Fudan University, Shanghai, China. yuwang@post.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0003-0484-0966"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University, Shenzhen, China. junzhang@szu.edu.cn.",
+          "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, China. junzhang@szu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ju",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0009-0007-6447-7085"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+          "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Shaoxuan",
+        "short_name": "Tang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University, Shenzhen, China.",
+          "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chuancheng",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+          "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yushan",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+          "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Hao",
+        "short_name": "Zeng H",
+        "identifiers": [
+          "0009-0009-1959-9205"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence, Shenzhen University, Shenzhen, China.",
+          "National Engineering Laboratory for Big Data System Computing Technology, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Xiangjie",
+        "short_name": "Meng X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Tianjin University, Tianjin, China.",
+          "School of Biomedical Engineering, Harbin Institute of Technology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bei",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-3503-5161"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Tianjin University, Tianjin, China. yang.zhang2020@hotmail.com.",
+          "School of Biomedical Engineering, Harbin Institute of Technology, Shenzhen, China. yang.zhang2020@hotmail.com.",
+          "Shenzhen Loop Area Institute, Shenzhen, China. yang.zhang2020@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-5188-4622"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Quantitative Synthetic Biology, Shenzhen Institute of Synthetic Biology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. yuwang@post.harvard.edu.",
+          "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, China. yuwang@post.harvard.edu.",
+          "Shenzhen Key Laboratory of Genome Manipulation and Biosynthesis, Shenzhen, China. yuwang@post.harvard.edu.",
+          "Shanghai Key Laboratory of Rare Disease Gene Editing and Cell Therapy, Fudan University, Shanghai, China. yuwang@post.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature biotechnology"
+    ],
+    "journal_abbrev": [
+      "Nat Biotechnol"
+    ],
+    "pub_date": "2026 Feb 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/07 00:30",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [
+      "42506713",
+      "42345883"
+    ],
+    "refs": [
+      "40905273",
+      "40593636",
+      "39934638",
+      "39818825",
+      "39799111",
+      "39609566",
+      "39572716",
+      "39571002",
+      "39541441",
+      "39506080",
+      "39431516",
+      "38917327",
+      "38718835",
+      "38597606",
+      "38324676",
+      "38177576",
+      "38012571",
+      "37973874",
+      "37296342",
+      "37130545",
+      "36963555",
+      "36702895",
+      "36108050",
+      "36038728",
+      "35995601",
+      "35896542",
+      "35758624",
+      "35211670",
+      "34876524",
+      "34855379",
+      "34714580",
+      "34232998",
+      "34170922",
+      "34112756",
+      "33684258",
+      "33635868",
+      "33561300",
+      "32920262",
+      "32551560",
+      "32537639",
+      "32269383",
+      "31880917",
+      "31799213",
+      "31255977",
+      "30866536",
+      "29982617",
+      "29563556",
+      "28643779",
+      "28525990",
+      "27807347",
+      "26213851",
+      "22115189",
+      "21793789",
+      "19208134",
+      "18512861",
+      "16845429",
+      "16731699",
+      "15173120",
+      "10329189",
+      "2200121"
+    ],
+    "similar": [
+      "41652223",
+      "40531093",
+      "34227370",
+      "37204115",
+      "37962593",
+      "39964138",
+      "33808496",
+      "31255977",
+      "39799111",
+      "39056626",
+      "39431516",
+      "27526193",
+      "35949145",
+      "40563445",
+      "19202068",
+      "39385698",
+      "35910791",
+      "34664030",
+      "24895227",
+      "35130439",
+      "38694201",
+      "32920262",
+      "35829681",
+      "22860007",
+      "30773785",
+      "25727321",
+      "26383776",
+      "38194356",
+      "20689511",
+      "37206388",
+      "37693461",
+      "38553521",
+      "35084794",
+      "25918143",
+      "29186809",
+      "26538121",
+      "35628622",
+      "40610378",
+      "38829187",
+      "37375202",
+      "27519622",
+      "37406007",
+      "34204006",
+      "41126016",
+      "34696413",
+      "30342154",
+      "41652224",
+      "26678795",
+      "38177576",
+      "41149295",
+      "37277648",
+      "17360423",
+      "26163061",
+      "40909745",
+      "35025110",
+      "38810331",
+      "28661647",
+      "39703130",
+      "38457656",
+      "36843874",
+      "22434135",
+      "10408383",
+      "33522630",
+      "33389440",
+      "41303663",
+      "30189130",
+      "22410487",
+      "41026857",
+      "30926499",
+      "19480397",
+      "23130020",
+      "23971905",
+      "39462761",
+      "34343165",
+      "22962591",
+      "40133195",
+      "39378058",
+      "36156771",
+      "36714073",
+      "39517771",
+      "39167715",
+      "28363693",
+      "37468977",
+      "24167271",
+      "36738621",
+      "34107026",
+      "12458799",
+      "17581746",
+      "32631049",
+      "23398198",
+      "41541267",
+      "39507401",
+      "31560515",
+      "33123724",
+      "32161798",
+      "26302839",
+      "39894103",
+      "33671039",
+      "26972786",
+      "38682443"
+    ],
+    "review": [
+      "41652223",
+      "33808496",
+      "39056626",
+      "37206388",
+      "29186809",
+      "38829187",
+      "41149295",
+      "36843874",
+      "30926499",
+      "40133195",
+      "39378058",
+      "36714073",
+      "37468977",
+      "17581746"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41587-026-03007-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

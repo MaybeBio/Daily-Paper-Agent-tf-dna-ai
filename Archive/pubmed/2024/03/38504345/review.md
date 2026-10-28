@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, background, methods, results, discussion, and conclusions. No figures or supplementary files were provided for review.
+- **Assessment boundary** The review is limited to the content of the manuscript text as supplied. Claims regarding figures, tables, and supplementary materials are assessed based on textual descriptions only.
+- **Shared manuscript claim summary** The authors report that naturally occurring colorectal cancers in r24 rhesus macaques exhibit consistent loss of MLH1 and PMS2 protein expression, functional microsatellite instability, high tumor mutational burden, and MLH1 promoter hypermethylation, with rare somatic or germline MMR gene mutations. They propose epigenetic silencing of MLH1 as the primary driver of mismatch repair deficiency in this cohort and argue the model is relevant for human CRC and immunotherapy research.
+- **Visible evidence base** Textual descriptions of immunohistochemistry results, MSI assay outcomes, whole exome sequencing variant calls, RNA sequencing differential expression, methylation-specific qPCR data, Monte Carlo simulations, and correlation analyses. Specific numerical data, statistical outputs, and figure contents are not directly visible.
+- **Missing materials affecting confidence** All figures, tables, supplementary files, raw sequencing data, statistical analysis outputs, and methodological details beyond brief descriptions. The absence of these materials limits independent verification of the reported results.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive characterization of naturally occurring colorectal cancer in rhesus macaques, with a focus on mismatch repair deficiency and epigenetic silencing of MLH1. The study addresses an important gap in comparative oncology and has potential translational relevance. However, the central claim that MLH1 promoter hypermethylation is the causal mechanism of MMR deficiency is not fully established from the data presented. The manuscript would benefit from additional mechanistic experiments, quantitative data presentation, and clearer statistical reporting. The work is of interest to the comparative oncology and immunotherapy communities, but the current evidence base is insufficient to fully support the conclusions as stated.
+- **Who would be interested in the results, and why** Researchers in comparative oncology, colorectal cancer biology, mismatch repair deficiency, epigenetic regulation, and preclinical immunotherapy development would find this work relevant. The demonstration of a naturally occurring, immunocompetent, treatment-naïve large animal model for MMR-deficient CRC could be valuable for translational studies. The comparative genomic and epigenomic data may also interest evolutionary biologists studying cancer across primates.
+- **Major strengths** The study leverages a unique cohort of naturally occurring cancers in a clinically relevant large animal model. The multimodal approach combining imaging, histopathology, genomics, transcriptomics, and epigenetics is commendable. The consistent observation of MLH1/PMS2 loss across all 24 tumors is striking and suggests a convergent mechanism. The inclusion of functional assays (MSI) and validation of methylation findings with a second probe strengthens the epigenetic claims. The comparative analysis with human CRC data adds translational context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that "epigenetic silencing suppresses MLH1 transcription, induces the loss of MLH1 protein, abrogates mismatch repair, and drives genomic instability" in rhesus CRCs.
+  - **Evidence pointer** Results sections on methylation-specific qPCR, RNAseq, and IHC; Figure 5
+  - **Concern** The manuscript demonstrates correlation between MLH1 promoter hypermethylation, reduced MLH1 mRNA, loss of MLH1 protein, and MMR deficiency, but does not establish causation. No experiments directly manipulating methylation (e.g., demethylating agents, CRISPR-based epigenetic editing) or demonstrating that methylation is sufficient or necessary for transcriptional silencing are presented. Alternative mechanisms such as transcriptional repressors, histone modifications, or miRNA-mediated silencing are not excluded.
+  - **Why it matters** The central conclusion of the paper rests on the causal role of promoter methylation in MLH1 silencing. Without direct evidence, the claim remains correlative. This distinction is critical for the translational relevance of the model, as therapeutic strategies targeting methylation would require demonstrated causality.
+  - **Resolution test** Provide direct evidence that demethylation (e.g., 5-aza-2'-deoxycytidine treatment) restores MLH1 expression and MMR function in rhesus CRC cells or organoids. Alternatively, demonstrate that targeted methylation of the MLH1 promoter in a methylation-naive cell line is sufficient to silence expression. Loss-of-function and gain-of-function experiments for candidate transcription factors would also strengthen the mechanistic link.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data presentation
+  - **Claim pointer** The authors report statistically significant differences in MLH1 methylation and expression between tumor and normal tissues, and classify tumors as CIMP-high, CIMP-low, or CIMP-negative.
+  - **Evidence pointer** Methods section on methylation-specific qPCR; Figure 5; Table 1
+  - **Concern** The manuscript lacks quantitative data presentation. No effect sizes, confidence intervals, or exact p-values are reported for the methylation and expression comparisons. The threshold for calling a marker "methylated" (increase of >20% compared to paired normal) is described but the distribution of methylation values across tumors is not shown. The classification of CIMP status relies on a single cut-off without sensitivity analysis.
+  - **Why it matters** Without quantitative data, readers cannot assess the magnitude or consistency of the methylation differences. The 20% cut-off appears arbitrary and may not reflect biologically meaningful changes. The lack of variance reporting prevents assessment of whether some tumors have borderline methylation levels.
+  - **Resolution test** Provide scatter plots or box plots showing individual tumor and normal methylation values for each marker, with median and interquartile ranges. Report exact p-values and effect sizes for all comparisons. Perform sensitivity analyses using different methylation cut-offs to demonstrate the robustness of CIMP classification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report correlations between clinical and molecular parameters, including a positive correlation of age with APC mutations, TP53 mutations with MSI and TMB, and ARID1A mutations with CIMP status.
+  - **Evidence pointer** Results section on correlation analysis; Figure S9
+  - **Concern** The correlation analysis is described only briefly. No correlation coefficients, p-values, or correction for multiple testing are reported. With 16 tumors and numerous variables, the risk of false positives is substantial. The authors do not state whether the analysis was exploratory or hypothesis-driven.
+  - **Why it matters** The reported correlations are used to support the biological coherence of the model. Uncorrected multiple testing could yield spurious associations that mislead interpretation. The lack of transparency in the statistical approach undermines confidence in these findings.
+  - **Resolution test** Report the full correlation matrix with coefficients and p-values. Apply appropriate multiple testing correction (e.g., Benjamini-Hochberg). Clearly state the exploratory nature of the analysis and interpret findings as hypothesis-generating.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** The authors state that rhesus CRCs "closely resemble" human CRCs based on mutational spectra, affected pathways, and transcriptional profiles.
+  - **Evidence base** Results sections on WES and RNAseq; Figure 3; Figure 4
+  - **Concern** The comparison to human CRC is largely qualitative. The authors do not perform a systematic, quantitative comparison of mutation frequencies, pathway alterations, or expression signatures between rhesus and human tumors. The claim of "close resemblance" is not supported by direct statistical comparison.
+  - **Why it matters** The translational value of the model depends on its fidelity to human disease. A rigorous comparative analysis would establish the extent of similarity and identify differences that may limit generalizability. Without this, the claim of resemblance remains anecdotal.
+  - **Resolution test** Perform a systematic comparison of mutation frequencies in the 78-gene panel between rhesus and human CRC cohorts (e.g., TCGA). Use statistical tests to identify significant differences. For transcriptomics, perform gene set enrichment or pathway-level comparisons against human CRC datasets. Report concordance metrics.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors report that methylation-specific qPCR assays were developed for rhesus MLH1, CACNA1G, CDKN2A, CRABP1, and NEUROG1, and that bisulfite conversion was performed.
+  - **Evidence pointer** Methods section on methylation-specific qPCR; Table S3
+  - **Concern** The manuscript does not describe validation of the methylation-specific qPCR assays. No information is provided on assay specificity, sensitivity, reproducibility, or verification of bisulfite conversion efficiency. The primers and probes are listed in supplementary materials but their performance characteristics are not reported.
+  - **Why it matters** Methylation-specific qPCR is prone to artifacts from incomplete bisulfite conversion and non-specific amplification. Without validation data, the reliability of the methylation measurements is uncertain. This is particularly important given that the central claim of the paper depends on these measurements.
+  - **Resolution test** Provide validation data including standard curves, limit of detection, specificity tests using fully methylated and unmethylated controls, and bisulfite conversion efficiency controls. Report inter-assay and intra-assay variability. Consider orthogonal validation with bisulfite sequencing for a subset of samples.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section on experimental design
+  - **Evidence pointer** Methods section, "Experimental design"
+  - **Issue** The description of the rolling recruitment and batching of molecular assessments is vague. It is unclear how many tumors were analyzed with each assay and whether all 24 tumors were included in all analyses.
+  - **Required correction** Provide a clear flowchart or table indicating the number of samples analyzed for each assay (IHC, MSI, WES, RNAseq, methylation qPCR) and the reasons for any missing data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Results section on IHC
+  - **Evidence pointer** Results section, "Immunohistochemistry—MMR proteins"; Figure 2
+  - **Issue** The manuscript states that MLH1 and PMS2 loss was observed in all 24 tumors, but does not report the scoring criteria or whether staining was completely absent or reduced.
+  - **Required correction** Describe the IHC scoring system used (e.g., 0, 1+, 2+, 3+) and report the distribution of scores. Clarify whether "loss" means complete absence or reduced expression.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section on MSI
+  - **Evidence pointer** Results section, "Microsatellite instability assay"; Figure 2E
+  - **Issue** The MSI assay is described but the specific loci analyzed and the criteria for calling instability are not fully detailed. The distinction between MSI-low and MSI-high relies on a threshold of 1 vs ≥2 unstable loci, but the rationale for this cut-off is not provided.
+  - **Required correction** List the microsatellite markers used and cite the reference for the classification criteria. Justify the chosen threshold or note that it follows established guidelines.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section on tumor location
+  - **Evidence pointer** Results section, "Rhesus CRC clinically and histologically resembles human CRC"; Table 1
+  - **Issue** The authors note that all tumors were right-sided, which differs from the more even distribution in humans. This is mentioned but not discussed in depth.
+  - **Required correction** Expand the discussion on the potential reasons for the right-sided predominance and its implications for the model's generalizability.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section on in silico modeling
+  - **Evidence pointer** Methods section, "Monte-Carlo simulations"
+  - **Issue** The description of the Monte Carlo simulations is brief. It is unclear how the simulations were parameterized, how many iterations were performed, and how statistical significance was assessed.
+  - **Required correction** Provide additional methodological detail, including software versions, simulation parameters, and the statistical framework for comparing methylated versus unmethylated DNA shapes.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Results section on correlation analysis
+  - **Evidence pointer** Results section, "Comprehensive correlation analysis"; Figure S9
+  - **Issue** The correlation analysis is mentioned but the specific significant correlations are not enumerated in the main text. The reader is referred to a supplementary figure without a clear summary.
+  - **Required correction** Summarize the key significant correlations in the main text with coefficients and p-values, and refer to the supplementary figure for the full matrix.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The phrase "our 'last common cancer'" is evocative but not clearly defined. It may confuse readers.
+  - **Required correction** Clarify the intended meaning or rephrase to avoid ambiguity.
+
+## Risk / unsupported claims
+- The causal claim that MLH1 promoter hypermethylation drives transcriptional silencing and MMR deficiency is not supported by direct experimental evidence; only correlative data are presented.
+- The claim that rhesus CRCs "closely resemble" human CRCs is not quantitatively substantiated with direct comparative analyses.
+- The assertion that the model is "uniquely informative" for human CRC immunotherapy is overstated given the lack of functional or therapeutic validation data.
+- The reported correlations between clinical and molecular parameters are not supported by adequate statistical reporting and may be subject to multiple testing artifacts.
+- The claim of "ubiquitous" MLH1 promoter hypermethylation in all 16 examined tumors is based on a single assay type without orthogonal validation.
+- The statement that transcriptomic data "closely overlapped" with human annotated data is not supported by quantitative enrichment or similarity metrics.
+- The manuscript implies that the absence of germline MMR mutations excludes hereditary predisposition, but only a limited set of genes was examined and the analysis may not be comprehensive.

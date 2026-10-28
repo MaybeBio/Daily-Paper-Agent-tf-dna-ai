@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion) provided as plain text; no figures, tables, or supplementary files included.
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and reporting quality as inferable from the supplied text. Visual data (figures, tables) and supplementary materials are referenced but not available for inspection.
+- **Shared manuscript claim summary** The authors propose MsPBRsP, a sequence-based deep learning framework using a pre-trained protein language model (ProtTrans) for input representation and multi-scale features (multi-size attention windows, multi-size convolutional kernels, and a GRU layer) to predict protein binding residues (PBRs) across multiple interaction types. They claim superior performance over existing methods on several benchmark datasets, with large improvements in F1 and AUPRC on NSP448, and substantially reduced runtime.
+- **Visible evidence base** Text descriptions of datasets (NSP6832, NSP448, P352, P72, He119, He48, Ho377, Ho95, Pa277, Ep280), architecture details, and reported metric values in the abstract and results sections. Tables and figures are referenced but not provided.
+- **Missing materials affecting confidence** All tables (Tables 1–6), all figures (Figs. 1–4), the supplementary file (architecture details, equations, dataset details), and the source code repository. Without these, quantitative claims cannot be independently verified, and statistical rigor cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely fast and accurate prediction of protein binding residues from sequence alone. The use of a pre-trained language model to replace MSA-based feature generation is timely and potentially impactful. The multi-scale architecture is a reasonable design choice. However, the provided text alone does not allow verification of the central performance claims. Key quantitative results are only summarized, and the absence of tables, figures, and statistical details prevents a rigorous evaluation. The manuscript is promising but currently not fully assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein function annotation, drug design, and immunoinformatics would be interested. The claim of fast, tool-free prediction with competitive accuracy could appeal to those needing high-throughput screening or working with proteins lacking evolutionary information. The application of language models to protein tasks is also of interest to the broader machine learning for biology community.
+- **Major strengths** 1) The problem is well motivated and practically important. 2) The proposed framework is conceptually simple and end-to-end, avoiding time-consuming external tools. 3) The multi-scale design is a sensible approach to address the uncertainty in optimal window size. 4) The authors evaluate on multiple benchmark datasets covering diverse interaction types, which strengthens the claim of generality.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The abstract and results state that MsPBRsP achieves superior performance on all metrics across all datasets, with specific improvements on NSP448 (F1 +27.1%, AUPRC +7.6%) and NSP355 (AUROC +5.9%, AUPRC +13.2%).  
+    - **Evidence pointer** Tables 4–6, Fig. 3, Fig. 4; location not provided in the supplied text.  
+    - **Concern** The quantitative claims are presented as summary statements, but the actual tables and figures are not included in the supplied material. Without the full data, it is impossible to verify the reported improvements, check for statistical significance, or assess whether the comparisons are fair (e.g., same train/test splits, same evaluation protocols).  
+    - **Why it matters** The central contribution of the paper is the claimed performance advantage. If the underlying data are not inspectable, the case is not established.  
+    - **Resolution test** Provide the full tables and figures with all metric values, standard deviations, and details of statistical tests. Confirm that all comparisons use identical data splits and evaluation criteria.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Methodological clarity  
+    - **Claim pointer** The framework uses multi-size windows in attention, multi-size kernels in CNN, and a GRU layer, but the exact architecture and hyperparameters are only partially described.  
+    - **Evidence pointer** Section 2.3, Fig. 1; location not provided.  
+    - **Concern** The text describes the components but does not specify key details such as the number of attention heads, the exact kernel sizes and their stride, the GRU hidden size (stated as 64), the number of layers, activation functions, pooling strategy, or how the multi-scale outputs are combined. The supplementary file is referenced but not available.  
+    - **Why it matters** Reproducibility is a core requirement. Without full architectural and training details, other researchers cannot implement or fairly compare the method.  
+    - **Resolution test** Provide a complete specification of the architecture, including all hyperparameters, in the main text or a fully accessible supplementary file.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Statistical rigor  
+    - **Claim pointer** The authors report mean values and standard errors for five runs in Section 3.1, but no statistical significance testing is mentioned.  
+    - **Evidence pointer** Section 3.1, Table 3; location not provided.  
+    - **Concern** The manuscript does not report whether differences between MsPBRsP and baselines are statistically significant. Given the variability in deep learning results, significance testing (e.g., paired t-tests or Wilcoxon tests across runs) is essential to support claims of superiority.  
+    - **Why it matters** Without significance testing, observed improvements could be due to random variation, especially when differences are small.  
+    - **Resolution test** Add statistical significance tests for all pairwise comparisons and report p-values or confidence intervals.  
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability  
+    - **Claim pointer** The authors claim the framework is general and applicable to all types of PBRs, but the text does not discuss potential limitations regarding sequence length, protein families, or domain transfer.  
+    - **Evidence pointer** Sections 3.3 and 3.4; location not provided.  
+    - **Concern** The evaluation is performed on specific benchmark datasets. It is unclear whether the model generalizes to proteins with unusual properties, such as very long sequences, intrinsically disordered regions, or novel folds not represented in the training data.  
+    - **Why it matters** A claim of generality requires evidence of robustness across diverse conditions, not just performance on standard benchmarks.  
+    - **Resolution test** Discuss potential limitations and, if possible, include additional evaluations on challenging or out-of-distribution datasets.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, first sentence  
+    - **Issue** The phrase "M ulti- s cale P rotein B inding R esidue s P rediction" contains unusual spacing, likely a formatting artifact.  
+    - **Required correction** Correct the spacing to "Multi-scale Protein Binding Residues Prediction".  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Reporting quality  
+    - **Affected element** Section 2.1  
+    - **Evidence pointer** Section 2.1, paragraph 2  
+    - **Issue** The definition of a binding residue for NSP6832 and NSP448 is given as a distance criterion, but the threshold for other datasets (e.g., ASA/BSA for He and Ho sets) is only mentioned in passing.  
+    - **Required correction** Provide a clear, unified description of the binding residue definition for each dataset, ideally in a table.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Technical accuracy  
+    - **Affected element** Section 3.2  
+    - **Evidence pointer** Section 3.2, last sentence  
+    - **Issue** The text states "ROC cures and PR cures" which appears to be a typo for "ROC curves and PR curves".  
+    - **Required correction** Correct the typo.  
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Section 2.4  
+    - **Evidence pointer** Section 2.4, paragraph 1  
+    - **Issue** The learning rate, batch size, and dropout are said to be "tested among" certain values, but the final chosen values are not reported.  
+    - **Required correction** Report the final hyperparameter values used in the experiments.  
+  - **Concern ID** R1-m5  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Section 3.4  
+    - **Evidence pointer** Section 3.4, paragraph 2  
+    - **Issue** The text states "MsPBRsB achieves 0.364" which appears to be a typo for "MsPBRsP".  
+    - **Required correction** Correct the model name.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing data), R1-M2 (incomplete architecture details), R1-M3 (no significance testing). These are blocking because the core claims cannot be verified or reproduced from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of a pre-trained language model to PBR prediction is not entirely new, but the multi-scale architecture and the systematic evaluation across interaction types add some novelty.  
+  - **Scientific importance** High. Fast and accurate PBR prediction has broad utility in biology and medicine.  
+  - **Interdisciplinary readership** Moderate. The work will appeal to computational biologists and machine learning researchers, but the presentation is technical and may not attract a wider audience without clearer biological framing.  
+  - **Technical soundness** Not fully assessable. The architecture is plausible, but missing details and lack of statistical testing prevent a definitive judgment.  
+  - **Readability for nonspecialists** Adequate but improvable. The abstract is clear, but the methods and results sections assume familiarity with deep learning terminology.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The idea is promising and the problem is important, but the current submission does not provide sufficient evidence to establish the claims. Full data, complete methodological details, and statistical validation are required before the case can be accepted.
+
+## Risk / unsupported claims
+- The claim of "superior performance" on all datasets is unsupported without the actual tables and figures.
+- The reported improvements on NSP448 and NSP355 cannot be verified from the text alone.
+- The claim that Protran-based features are "significantly better" than concatenated features is not backed by significance testing.
+- The generalizability of the framework to all PBR types is asserted but not demonstrated beyond the specific benchmarks.
+- The runtime improvement claim (from over 10 minutes to under 0.1s) is stated in the abstract but not substantiated with detailed timing measurements or experimental conditions.

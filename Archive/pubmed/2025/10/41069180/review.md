@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to propose a mechanistic explanation for how HIF-2 ligands differentially modulate the HIF-2/ARNT complex. They claim that agonists and antagonists alter binding site conformation, enthalpically strengthening or weakening heterodimerization, that local changes propagate to global conformational fluctuations adding an entropic component, that ligand binding affects the bHLH domain and HRE binding, and that a conserved residue correlation network mediates allosteric signaling. They further propose a multiscale virtual screening approach based on these findings.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, statistical analyses, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field and water model specifications, system size and timescale, replica or repeat information, error bars, network analysis methodology, conservation analysis details, virtual screening validation, and any comparison to experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanistic hypothesis for differential HIF-2 modulation, but the evidence base is entirely inaccessible from the supplied material. No quantitative results, methodological details, or validation are visible. The claims are broad and ambitious, yet the abstract alone cannot support them. The work may be of interest to the hypoxia signaling and computational drug discovery communities, but the current submission cannot be evaluated for technical soundness or scientific robustness.
+- **Who would be interested in the results, and why** Researchers in hypoxia biology, transcription factor regulation, and allosteric modulation would be interested in the proposed mechanism linking ligand binding to heterodimer stability and DNA binding. Computational chemists and drug discovery scientists would be interested in the proposed multiscale virtual screening approach for HIF-2 modulators, given the therapeutic relevance of both agonism and inhibition.
+- **Major strengths** The abstract addresses a clinically relevant and mechanistically underexplored question, namely the differential effects of HIF-2 agonists versus antagonists. The proposed link between local binding site changes, global conformational dynamics, and DNA-binding domain behavior is conceptually coherent. The inclusion of an evolutionary conservation argument for the allosteric network adds a layer of biological plausibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that agonists and antagonists differentially alter binding site conformation, enthalpically strengthening or weakening heterodimerization, and that these changes add an entropic component to ligand effects on stability.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative thermodynamic data, such as enthalpy or entropy changes, are presented. The abstract states these effects without any numerical values, error estimates, or comparison to experimental measurements. The molecular dynamics simulations are not described in terms of force field, water model, simulation length, number of replicates, or convergence criteria.
+  - **Why it matters** Thermodynamic decomposition into enthalpic and entropic components is highly sensitive to simulation methodology and statistical sampling. Without these details, the claim that agonists and antagonists differentially affect enthalpy and entropy cannot be assessed for reliability or reproducibility.
+  - **Resolution test** Provide explicit thermodynamic quantities with uncertainties, describe the simulation protocol in full, and demonstrate convergence of the free energy estimates. If possible, compare computed values to experimental binding or stability data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim a ligand-dependent effect on the DNA-binding bHLH domain's structure and dynamics, impacting HRE binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts that ligand binding at a distal site affects the bHLH domain and HRE binding, but no structural or dynamical data for the bHLH domain are shown. No binding free energy calculations for HRE interaction, no conformational analysis of the bHLH domain, and no experimental validation are provided.
+  - **Why it matters** The claim of long-range allosteric effects on DNA binding is central to the proposed mechanism and to the therapeutic relevance. Without direct evidence, this remains speculation.
+  - **Resolution test** Show structural metrics for the bHLH domain in the presence of agonists versus antagonists, such as RMSD, RMSF, or principal component projections, and provide binding free energy estimates or experimental DNA binding data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim a structurally embedded and evolutionarily conserved communication network that mediates long-range signaling between the ligand-binding and DNA-binding domains.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The network-based analysis is mentioned but no methodology is described, such as the correlation metric used, the network construction criteria, the community detection algorithm, or the statistical significance of the identified pathways. The evolutionary conservation claim is unsupported by any alignment or conservation score data.
+  - **Why it matters** Network analyses are highly parameter-dependent and can yield spurious pathways if not carefully validated. The conservation claim requires explicit comparative analysis across species.
+  - **Resolution test** Describe the network methodology in detail, provide statistical validation of the identified pathways, and show conservation analysis with specific alignment data and scores.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors present a multiscale approach to enable high-throughput virtual screening of ligands for differential modulation of structure, dynamics, and transcriptional activity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims a multiscale virtual screening approach but provides no description of the screening workflow, the descriptors used, the validation set, or the predictive performance. No evidence is shown that this approach can discriminate agonists from antagonists.
+  - **Why it matters** A screening method without validation has no practical utility. The claim of enabling high-throughput screening is premature without demonstrated accuracy and throughput.
+  - **Resolution test** Provide a detailed description of the screening protocol, benchmark against known HIF-2 modulators, and report enrichment factors or other performance metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract uses terms such as "enthalpically strengthening" and "entropic component" without defining them for a broader readership, which may limit accessibility.
+  - **Required correction** Briefly define or contextualize these thermodynamic terms in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The phrase "differential modulation of the structure, dynamics, and transcriptional activity" is vague and could refer to multiple distinct outcomes.
+  - **Required correction** Specify which structural and dynamical properties are modulated and how transcriptional activity is predicted or measured.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** No mention is made of the specific HIF-2 ligands studied, their chemical classes, or the number of systems simulated.
+  - **Required correction** List the ligands studied and the simulation systems in the abstract or indicate where this information is provided.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract provides no quantitative data, no methodological detail, and no validation, so the central mechanistic claims and the proposed screening approach are not established from the supplied material.
+- **Assessment against Nature-style criteria** Originality is potentially present in the attempt to unify thermodynamic, dynamic, and network perspectives on HIF-2 modulation, but this cannot be confirmed without full context. Scientific importance is high given the therapeutic relevance of HIF-2, but the abstract does not demonstrate a robust advance. Interdisciplinary readership is plausible, spanning structural biology, biophysics, and drug discovery, but the abstract is too technical in places. Technical soundness is not assessable from the abstract alone. Readability for nonspecialists is moderate but could be improved with clearer definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the absence of any quantitative results, methodological detail, or validation means the claims cannot be evaluated. A full manuscript with complete simulation and analysis details would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that agonists and antagonists differentially alter binding site conformation and enthalpy is unsupported by any data in the abstract.
+- The claim that local changes add an entropic component to ligand effects on stability is unsupported.
+- The claim that ligand binding affects the bHLH domain and HRE binding is unsupported.
+- The claim of a conserved allosteric communication network is unsupported by any methodological or comparative data.
+- The claim of a multiscale virtual screening approach is unsupported by any validation or performance metrics.

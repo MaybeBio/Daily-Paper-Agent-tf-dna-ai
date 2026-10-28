@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38491248",
+  "title": "EPDRNA: A Model for Identifying DNA-RNA Binding Sites in Disease-Related Proteins.",
+  "authors": "Sun, CanZhuang; Feng, YongE",
+  "journal": "The protein journal",
+  "published_date": "2024-03-16",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用集成机器学习预测疾病相关蛋白的DNA/RNA结合位点，虽涉及蛋白-DNA互作但非TF-DNA体系，方法为传统ML且无三维结构建模，可作广义互作位点预测参考。",
+  "abstract": "Protein-DNA and protein-RNA interactions are involved in many biological processes and regulate many cellular functions. Moreover, they are related to many human diseases. To understand the molecular mechanism of protein-DNA binding and protein-RNA binding, it is important to identify which residues in the protein sequence bind to DNA and RNA. At present, there are few methods for specifically identifying the binding sites of disease-related protein-DNA and protein-RNA. In this study, so we combined four machine learning algorithms into an ensemble classifier (EPDRNA) to predict DNA and RNA binding sites in disease-related proteins. The dataset used in model was collated from UniProt and PDB database, and PSSM, physicochemical properties and amino acid type were used as features. The EPDRNA adopted soft voting and achieved the best AUC value of 0.73 at the DNA binding sites, and the best AUC value of 0.71 at the RNA binding sites in 10-fold cross validation in the training sets. In order to further verify the performance of the model, we assessed EPDRNA for the prediction of DNA-binding sites and the prediction of RNA-binding sites on the independent test dataset. The EPDRNA achieved 85% recall rate and 25% precision on the protein-DNA interaction independent test set, and achieved 82% recall rate and 27% precision on the protein-RNA interaction independent test set. The online EPDRNA webserver is freely available at http://www.s-bioinformatics.cn/epdrna .",
+  "abstract_zh": "蛋白质-DNA和蛋白质-RNA相互作用参与许多生物过程，并调控多种细胞功能。此外，它们与多种人类疾病相关。为了理解蛋白质-DNA结合和蛋白质-RNA结合的分子机制，识别蛋白质序列中与DNA和RNA结合的残基至关重要。目前，专门识别疾病相关蛋白质-DNA和蛋白质-RNA结合位点的方法较少。在本研究中，我们将四种机器学习算法组合成一个集成分类器（EPDRNA），用于预测疾病相关蛋白质中的DNA和RNA结合位点。模型使用的数据集整理自UniProt和PDB数据库，并采用PSSM、理化性质和氨基酸类型作为特征。EPDRNA采用软投票策略，在训练集的10折交叉验证中，DNA结合位点达到最佳AUC值0.73，RNA结合位点达到最佳AUC值0.71。为进一步验证模型性能，我们在独立测试数据集上评估了EPDRNA对DNA结合位点和RNA结合位点的预测能力。EPDRNA在蛋白质-DNA相互作用独立测试集上实现了85%的召回率和25%的精确率，在蛋白质-RNA相互作用独立测试集上实现了82%的召回率和27%的精确率。在线EPDRNA网络服务器可免费访问：http://www.s-bioinformatics.cn/epdrna。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38491248/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38491248/",
+  "paper_page_path": "papers/pubmed/38491248/index.html"
+}

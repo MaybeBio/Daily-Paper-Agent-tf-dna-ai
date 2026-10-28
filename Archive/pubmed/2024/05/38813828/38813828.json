@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "38813828",
+    "doi": "10.1093/nar/gkae441",
+    "title": "The developmental and evolutionary characteristics of transcription factor binding site clustered regions based on an explainable machine learning model."
+  },
+  "content": {
+    "abstract": "Gene expression is temporally and spatially regulated by the interaction of transcription factors (TFs) and cis-regulatory elements (CREs). The uneven distribution of TF binding sites across the genome poses challenges in understanding how this distribution evolves to regulate spatio-temporal gene expression and consequent heritable phenotypic variation. In this study, chromatin accessibility profiles and gene expression profiles were collected from several species including mammals (human, mouse, bovine), fish (zebrafish and medaka), and chicken. Transcription factor binding sites clustered regions (TFCRs) at different embryonic stages were characterized to investigate regulatory evolution. The study revealed dynamic changes in TFCR distribution during embryonic development and species evolution. The synchronization between TFCR complexity and gene expression was assessed across species using RegulatoryScore. Additionally, an explainable machine learning model highlighted the importance of the distance between TFCR and promoter in the coordinated regulation of TFCRs on gene expression. Our results revealed the developmental and evolutionary dynamics of TFCRs during embryonic development from fish, chicken to mammals. These data provide valuable resources for exploring the relationship between transcriptional regulation and phenotypic differences during embryonic development.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Transcription Factors/metabolism/genetics",
+      "*Machine Learning",
+      "Binding Sites",
+      "Humans",
+      "Mice",
+      "*Gene Expression Regulation, Developmental",
+      "*Evolution, Molecular",
+      "Cattle",
+      "Oryzias/genetics/metabolism/embryology",
+      "Chickens/genetics",
+      "Embryonic Development/genetics",
+      "Promoter Regions, Genetic",
+      "Chromatin/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ouyang, Zhangyi",
+        "Liu, Feng",
+        "Li, Wanying",
+        "Wang, Junting",
+        "Chen, Bijia",
+        "Zheng, Yang",
+        "Li, Yaru",
+        "Tao, Huan",
+        "Xu, Xiang",
+        "Li, Cheng",
+        "Cong, Yuwen",
+        "Li, Hao",
+        "Bo, Xiaochen",
+        "Chen, Hebing"
+      ],
+      "short_names": [
+        "Ouyang Z",
+        "Liu F",
+        "Li W",
+        "Wang J",
+        "Chen B",
+        "Zheng Y",
+        "Li Y",
+        "Tao H",
+        "Xu X",
+        "Li C",
+        "Cong Y",
+        "Li H",
+        "Bo X",
+        "Chen H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9905-9832",
+        "ORCID: 0000-0001-9410-676X",
+        "ORCID: 0000-0003-1911-7922",
+        "ORCID: 0000-0003-4102-356X"
+      ],
+      "affiliations": [
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "College of Medical Informatics, Chongqing Medical University, Chongqing 400016, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Center for Bioinformatics, School of Life Sciences, Center for Statistical Science, Peking University, Beijing 100871, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China.",
+        "Academy of Military Medical Sciences, Beijing 100850, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ouyang, Zhangyi",
+        "short_name": "Ouyang Z",
+        "identifiers": [
+          "0000-0002-9905-9832"
+        ],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Feng",
+        "short_name": "Liu F",
+        "identifiers": [
+          "0000-0001-9410-676X"
+        ],
+        "affiliations": [
+          "College of Medical Informatics, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wanying",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junting",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Bijia",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yang",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaru",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Huan",
+        "short_name": "Tao H",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiang",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Li, Cheng",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Bioinformatics, School of Life Sciences, Center for Statistical Science, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Yuwen",
+        "short_name": "Cong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Bo, Xiaochen",
+        "short_name": "Bo X",
+        "identifiers": [
+          "0000-0003-1911-7922"
+        ],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hebing",
+        "short_name": "Chen H",
+        "identifiers": [
+          "0000-0003-4102-356X"
+        ],
+        "affiliations": [
+          "Academy of Military Medical Sciences, Beijing 100850, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Jul 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/30 12:43",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "41555433",
+      "40709306",
+      "39901471",
+      "39435341"
+    ],
+    "refs": [
+      "37104607",
+      "37104580",
+      "36779365",
+      "36543130",
+      "35524220",
+      "35357925",
+      "34850907",
+      "34818044",
+      "34526084",
+      "34478631",
+      "33850120",
+      "33574498",
+      "33555045",
+      "33545088",
+      "33545087",
+      "32943640",
+      "32778778",
+      "32607472",
+      "32601391",
+      "32268095",
+      "31949148",
+      "31807314",
+      "31649057",
+      "31533978",
+      "31504171",
+      "31160561",
+      "31092938",
+      "30464347",
+      "30371817",
+      "30293088",
+      "29844026",
+      "29723190",
+      "29720659",
+      "29526463",
+      "29339748",
+      "29141961",
+      "28829942",
+      "28472433",
+      "27309802",
+      "26656844",
+      "26472758",
+      "26201400",
+      "25799994",
+      "25765347",
+      "25682954",
+      "25635462",
+      "25303116",
+      "25215497",
+      "24591639",
+      "24285721",
+      "24119843",
+      "23953112",
+      "23896648",
+      "23810203",
+      "23433480",
+      "22936215",
+      "22455463",
+      "22015650",
+      "21430782",
+      "21330290",
+      "21177974",
+      "21177963",
+      "20110278",
+      "18614008",
+      "17984963",
+      "16136131",
+      "15760335",
+      "15123590",
+      "11752295"
+    ],
+    "similar": [
+      "38813828",
+      "39435341",
+      "31053165",
+      "24042128",
+      "20471497",
+      "31136738",
+      "39481376",
+      "27612667",
+      "32591361",
+      "23883523",
+      "11470530",
+      "18951884",
+      "39766899",
+      "21627806",
+      "20169179",
+      "25394363",
+      "41247408",
+      "40425826",
+      "25887857",
+      "32943640",
+      "38844976",
+      "20363979",
+      "21437716",
+      "25765133",
+      "41698564",
+      "34488759",
+      "32043966",
+      "24581456",
+      "16362910",
+      "40013513",
+      "22894908",
+      "21569360",
+      "31114856",
+      "24002785",
+      "19393060",
+      "24343424",
+      "34584102",
+      "42140663",
+      "42011025",
+      "35770682",
+      "30692203",
+      "18809929",
+      "24918633",
+      "26335634",
+      "9581539",
+      "16007341",
+      "28750606",
+      "21622661",
+      "15210197",
+      "21785139",
+      "21335606",
+      "40729530",
+      "26818008",
+      "25956794",
+      "24603674",
+      "31853542",
+      "24218637",
+      "15496828",
+      "7708064",
+      "24055488",
+      "18682805",
+      "30496469",
+      "32029002",
+      "40808255",
+      "31659164",
+      "37852782",
+      "22537144",
+      "27192554",
+      "22868264",
+      "25682954",
+      "25944915",
+      "39768207",
+      "34953471",
+      "21821017",
+      "22215994",
+      "19770025",
+      "30661644",
+      "29526463",
+      "41832145",
+      "41926741",
+      "18197176",
+      "39947419",
+      "21094700",
+      "29720659",
+      "38734369",
+      "25521328",
+      "24923326",
+      "35222842",
+      "16740159",
+      "15879072",
+      "10619353",
+      "33104784",
+      "18704158",
+      "22761590",
+      "35946348",
+      "21435340",
+      "36513979",
+      "18992736",
+      "34219317",
+      "28505376"
+    ],
+    "review": [
+      "38813828",
+      "22868264"
+    ],
+    "pmc": [
+      "11260490"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38813828/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae441",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

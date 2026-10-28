@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the crystal structure of AcrIIA11 at 3.2 A resolution, describe its fold and surface features, demonstrate that it inhibits both SpyCas9 and SauCas9, show that it forms ternary complexes with Cas9 orthologs and sgRNA, and propose an allosteric inhibition mechanism based on biochemical assays and computational docking.
+- **Visible evidence base** Abstract text only; no structural coordinates, gel images, kinetic data, or docking parameters are available for inspection
+- **Missing materials affecting confidence** Full manuscript, crystallographic statistics table, EMSA raw data, cleavage assay quantification, docking methodology and validation, sequence alignments, and any negative control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting dual-Cas9 inhibitor with a novel mechanistic twist, namely preservation of DNA binding with abrogation of cleavage. However, the evidence as summarized is insufficient to establish the proposed allosteric mechanism, and several claims require substantially more experimental support than the abstract can convey. The structural and functional data appear internally consistent, but the mechanistic conclusion rests heavily on computational docking without experimental validation.
+- **Who would be interested in the results, and why** Researchers working on CRISPR-Cas regulation, anti-CRISPR biology, and the molecular arms race between phages and bacteria would find this relevant. Additionally, those developing precision genome editing tools and seeking conditional or tunable Cas9 inhibition strategies would be interested in the dual-inhibitor property and the binding-preserving mechanism.
+- **Major strengths** The dual-inhibitory activity against two distinct Cas9 orthologs is a notable finding with potential translational relevance. The observation that AcrIIA11 blocks cleavage while preserving target DNA binding is mechanistically distinctive and, if rigorously established, would differentiate this inhibitor from many known Acrs. The structural determination at 3.2 A provides a foundation for understanding the molecular basis of inhibition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** "Computational docking localizes AcrIIA11 at the HNH-RuvC interface without obstructing DNA-binding channels in SauCas9, suggesting allosteric inhibition through HNH domain displacement."
+  - **Evidence pointer** Abstract, computational docking section; location not provided
+  - **Concern** The allosteric inhibition mechanism is inferred solely from computational docking. No experimental evidence such as mutagenesis of the predicted interface, hydrogen-deuterium exchange, crosslinking, or single-particle cryo-EM is presented to validate the docking prediction or to demonstrate HNH domain displacement.
+  - **Why it matters** The proposed mechanism is the central novel claim of the work. Without experimental validation, the conclusion remains speculative, and the distinction between allosteric inhibition and direct active-site blockade is not established.
+  - **Resolution test** Provide mutagenesis data targeting the predicted AcrIIA11-HNH interface that abrogates inhibition, or structural data of the ternary complex showing HNH displacement, or biochemical evidence such as limited proteolysis or FRET demonstrating conformational change in the HNH domain upon AcrIIA11 binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** "Biochemical assays demonstrated stronger inhibition of SauCas9 compared to SpyCas9."
+  - **Evidence pointer** Abstract, biochemical assays section; location not provided
+  - **Concern** The abstract reports a comparative inhibition strength without providing any quantitative parameters such as IC50 values, Ki values, or inhibition constants. The basis for the comparison is unclear, and no statistical analysis is mentioned.
+  - **Why it matters** A claim of differential inhibition strength requires quantitative support to be meaningful. Without numbers and error estimates, the reader cannot assess the magnitude of the difference or its biological significance.
+  - **Resolution test** Report IC50 or Ki values for both Cas9 orthologs with confidence intervals and statistical comparison, or provide dose-response curves in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** "The 3.2 A crystal structure reveals a compact alpha/beta fold with distinct electropositive clefts implicated in DNA binding."
+  - **Evidence pointer** Abstract, structural characterization section; location not provided
+  - **Concern** The claim that electropositive clefts are "implicated in DNA binding" is presented without supporting evidence. No mutagenesis, DNA-binding assays with cleft mutants, or structural data showing DNA interaction are described.
+  - **Why it matters** The functional significance of the structural features is asserted rather than demonstrated. This weakens the structural characterization and leaves the DNA-binding role of the clefts speculative.
+  - **Resolution test** Provide mutagenesis of cleft residues with corresponding DNA-binding affinity measurements, or a co-crystal structure with DNA, or NMR chemical shift perturbation data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Structural comparison
+  - **Evidence pointer** Abstract, DALI analysis sentence
+  - **Issue** The DALI analysis identifies homology to transcriptional regulators and PsiB with RMSD 3.3 A, but the significance of this homology is not explained. The connection between these structural relatives and the proposed mechanism is unclear.
+  - **Required correction** Clarify whether the structural homology informs the functional mechanism or is merely noted as an observation. If relevant, explain how the structural relationship supports or contextualizes the inhibition mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Ternary complex formation
+  - **Evidence pointer** Abstract, functional studies sentence
+  - **Issue** The abstract states that AcrIIA11 forms stable ternary complexes with both Cas9 orthologs and sgRNA, but the stoichiometry and the order of assembly are not described. Whether AcrIIA11 binds Cas9 first or the pre-formed Cas9-sgRNA complex is mechanistically relevant.
+  - **Required correction** Specify the assembly order and stoichiometry, or state that these details are addressed in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Dual-purpose" descriptor
+  - **Evidence pointer** Abstract, concluding sentence
+  - **Issue** The term "dual-purpose" is ambiguous. It could refer to inhibition of two Cas9 orthologs or to the dual effect of preserving binding while blocking cleavage. The intended meaning should be clarified.
+  - **Required correction** Rephrase to specify whether "dual-purpose" refers to the two orthologs inhibited or to the binding-preservation plus cleavage-blocking phenotype.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The allosteric mechanism requires experimental validation beyond docking, and the comparative inhibition claim requires quantitative data. Without these, the central mechanistic and comparative conclusions are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The dual-inhibitor property and the binding-preserving mechanism are potentially original, though the abstract does not fully distinguish this from prior Acr mechanisms. Scientific importance: The work addresses a relevant question in CRISPR biology and has potential applications in genome editing control, but the importance is moderated by the lack of mechanistic depth in the presented evidence. Interdisciplinary readership: The topic bridges structural biology, microbiology, and genome editing, which could attract broad interest if the claims are fully supported. Technical soundness: The crystallographic and biochemical approaches are appropriate, but the reliance on computational docking for the central mechanistic claim is a weakness. Readability for nonspecialists: The abstract is generally clear, though some terms such as "HNH-RuvC interface" and "electropositive clefts" assume specialized knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural and functional data appear promising, but the allosteric mechanism and the comparative inhibition strength must be experimentally substantiated before the case is fully established.
+
+## Risk / unsupported claims
+- The allosteric inhibition mechanism through HNH domain displacement is unsupported by direct experimental evidence and rests solely on computational docking.
+- The claim of stronger inhibition of SauCas9 compared to SpyCas9 is unquantified and cannot be evaluated from the abstract.
+- The implication that electropositive clefts are involved in DNA binding is asserted without functional validation.
+- The functional significance of the DALI-identified structural homology to transcriptional regulators and PsiB is not explained and cannot be assessed.

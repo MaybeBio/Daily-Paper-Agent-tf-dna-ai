@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36719781",
+  "title": "Improving DNA-Binding Protein Prediction Using Three-Part Sequence-Order Feature Extraction and a Deep Neural Network Algorithm.",
+  "authors": "Hu, Jun; Zeng, Wen-Wu; Jia, Ning-Xin; Arif, Muhammad; Yu, Dong-Jun; Zhang, Gui-Jun",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-02-01",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用三部分序列顺序特征和BiLSTM深度网络预测DNA结合蛋白，属于广义蛋白-DNA互作预测，但仅基于序列、无三维互作建模，方法可迁移但深度有限。",
+  "abstract": "Identification of the DNA-binding protein (DBP) helps dig out information embedded in the DNA-protein interaction, which is significant to understanding the mechanisms of DNA replication, transcription, and repair. Although existing computational methods for predicting the DBPs based on protein sequences have obtained great success, there is still room for improvement since the sequence-order information is not fully mined in these methods. In this study, a new three-part sequence-order feature extraction (called TPSO) strategy is developed to extract more discriminative information from protein sequences for predicting the DBPs. For each query protein, TPSO first divides its primary sequence features into N- and C-terminal fragments and then extracts the numerical pseudo features of three parts including the full sequence and these two fragments, respectively. Based on TPSO, a novel deep learning-based method, called TPSO-DBP, is proposed, which employs the sequence-based single-view features, the bidirectional long short-term memory (BiLSTM) and fully connected (FC) neural networks to learn the DBP prediction model. Empirical outcomes reveal that TPSO-DBP can achieve an accuracy of 87.01%, covering 85.30% of all DBPs, while achieving a Matthew's correlation coefficient value (0.741) that is significantly higher than most existing state-of-the-art DBP prediction methods. Detailed data analyses have indicated that the advantages of TPSO-DBP lie in the utilization of TPSO, which helps extract more concealed prominent patterns, and the deep neural network framework composed of BiLSTM and FC that learns the nonlinear relationships between input features and DBPs. The standalone package and web server of TPSO-DBP are freely available at https://jun-csbio.github.io/TPSO-DBP/.",
+  "abstract_zh": "DNA结合蛋白（DBP）的识别有助于挖掘DNA-蛋白质相互作用中嵌入的信息，这对于理解DNA复制、转录和修复的机制具有重要意义。尽管现有的基于蛋白质序列预测DBP的计算方法已取得巨大成功，但由于这些方法未能充分挖掘序列顺序信息，仍有改进空间。在本研究中，开发了一种新的三部分序列顺序特征提取策略（称为TPSO），旨在从蛋白质序列中提取更具判别性的信息以预测DBP。对于每个查询蛋白，TPSO首先将其一级序列特征分为N端和C端片段，然后分别提取包括全长序列及这两个片段在内的三部分的数值伪特征。基于TPSO，提出了一种新颖的基于深度学习的方法，称为TPSO-DBP，该方法利用基于序列的单视图特征、双向长短期记忆（BiLSTM）和全连接（FC）神经网络来学习DBP预测模型。实证结果表明，TPSO-DBP能够达到87.01%的准确率，覆盖所有DBP的85.30%，同时其马修斯相关系数值（0.741）显著高于大多数现有最先进的DBP预测方法。详细数据分析表明，TPSO-DBP的优势在于利用TPSO提取更多隐藏的显著模式，以及由BiLSTM和FC组成的深度神经网络框架，该框架学习输入特征与DBP之间的非线性关系。TPSO-DBP的独立软件包和网络服务器可在https://jun-csbio.github.io/TPSO-DBP/免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36719781/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36719781/",
+  "paper_page_path": "papers/pubmed/36719781/index.html"
+}

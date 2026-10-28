@@ -1,0 +1,533 @@
+{
+  "identity": {
+    "pmid": "34151400",
+    "doi": "10.1007/s00204-021-03092-2",
+    "title": "New insights into the mechanisms underlying 5-fluorouracil-induced intestinal toxicity based on transcriptomic and metabolomic responses in human intestinal organoids."
+  },
+  "content": {
+    "abstract": "5-Fluorouracil (5-FU) is a widely used chemotherapeutical that induces acute toxicity in the small and large intestine of patients. Symptoms can be severe and lead to the interruption of cancer treatments. However, there is limited understanding of the molecular mechanisms underlying 5-FU-induced intestinal toxicity. In this study, well-established 3D organoid models of human colon and small intestine (SI) were used to characterize 5-FU transcriptomic and metabolomic responses. Clinically relevant 5-FU concentrations for in vitro testing in organoids were established using physiologically based pharmacokinetic simulation of dosing regimens recommended for cancer patients, resulting in exposures to 10, 100 and 1000 microM. After treatment, different measurements were performed: cell viability and apoptosis; image analysis of cell morphological changes; RNA sequencing; and metabolome analysis of supernatant from organoids cultures. Based on analysis of the differentially expressed genes, the most prominent molecular pathways affected by 5-FU included cell cycle, p53 signalling, mitochondrial ATP synthesis and apoptosis. Short time-series expression miner demonstrated tissue-specific mechanisms affected by 5-FU, namely biosynthesis and transport of small molecules, and mRNA translation for colon; cell signalling mediated by Rho GTPases and fork-head box transcription factors for SI. Metabolomic analysis showed that in addition to the effects on TCA cycle and oxidative stress in both organoids, tissue-specific metabolic alterations were also induced by 5-FU. Multi-omics integration identified transcription factor E2F1, a regulator of cell cycle and apoptosis, as the best key node across all samples. These results provide new insights into 5-FU toxicity mechanisms and underline the relevance of human organoid models in the safety assessment in drug development.",
+    "keywords": [
+      "5-FU toxicity",
+      "Human organoid models",
+      "Metabolomics",
+      "Molecular mechanisms",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [
+      "Antimetabolites, Antineoplastic/administration & dosage/pharmacokinetics/toxicity",
+      "Apoptosis/drug effects",
+      "Cell Cycle/drug effects",
+      "Cell Survival/drug effects",
+      "Colon/*drug effects/pathology",
+      "Dose-Response Relationship, Drug",
+      "Female",
+      "Fluorouracil/administration & dosage/pharmacokinetics/*toxicity",
+      "Humans",
+      "Intestine, Small/*drug effects/pathology",
+      "Male",
+      "Metabolomics",
+      "*Models, Biological",
+      "Organoids/drug effects",
+      "Oxidative Stress/drug effects",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rodrigues, Daniela",
+        "de Souza, Terezinha",
+        "Coyle, Luke",
+        "Di Piazza, Matteo",
+        "Herpers, Bram",
+        "Ferreira, Sofia",
+        "Zhang, Mian",
+        "Vappiani, Johanna",
+        "Sevin, Daniel C",
+        "Gabor, Attila",
+        "Lynch, Anthony",
+        "Chung, Seung-Wook",
+        "Saez-Rodriguez, Julio",
+        "Jennen, Danyel G J",
+        "Kleinjans, Jos C S",
+        "de Kok, Theo M"
+      ],
+      "short_names": [
+        "Rodrigues D",
+        "de Souza T",
+        "Coyle L",
+        "Di Piazza M",
+        "Herpers B",
+        "Ferreira S",
+        "Zhang M",
+        "Vappiani J",
+        "Sevin DC",
+        "Gabor A",
+        "Lynch A",
+        "Chung SW",
+        "Saez-Rodriguez J",
+        "Jennen DGJ",
+        "Kleinjans JCS",
+        "de Kok TM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5527-6627"
+      ],
+      "affiliations": [
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands. d.rodrigues@maastrichtuniversity.nl.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands.",
+        "Departmnet of Nonclinical Drug Safety, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, CT, USA.",
+        "Departmnet of Nonclinical Drug Safety, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, CT, USA.",
+        "F. Hoffmann-La Roche AG, Basel, Switzerland.",
+        "OcellO B.V., BioPartner Center, Leiden, the Netherlands.",
+        "Certara UK Limited, Simcyp Division, Sheffield, S1 2BJ, UK.",
+        "Certara UK Limited, Simcyp Division, Sheffield, S1 2BJ, UK.",
+        "GSK Functional Genomics/Cellzome, 69117, Heidelberg, Germany.",
+        "GSK Functional Genomics/Cellzome, 69117, Heidelberg, Germany.",
+        "Faculty of Medicine, Heidelberg University Hospital, Institute for Computational Biomedicine, Heidelberg, Germany.",
+        "GSK Non-Clinical Safety, Ware, SG12 0DP, UK.",
+        "Departmnet of Nonclinical Drug Safety, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, CT, USA.",
+        "GSK Non-Clinical Safety, Ware, SG12 0DP, UK.",
+        "Faculty of Medicine, Joint Research Centre for Computational Biomedicine (JRC-COMBINE), RWTH Aachen University, Aachen, Germany.",
+        "Molecular Medicine Partnership Unit, European Molecular Biology Laboratory, Heidelberg University, Heidelberg, Germany.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands.",
+        "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rodrigues, Daniela",
+        "short_name": "Rodrigues D",
+        "identifiers": [
+          "0000-0001-5527-6627"
+        ],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands. d.rodrigues@maastrichtuniversity.nl."
+        ]
+      },
+      {
+        "full_name": "de Souza, Terezinha",
+        "short_name": "de Souza T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Coyle, Luke",
+        "short_name": "Coyle L",
+        "identifiers": [],
+        "affiliations": [
+          "Departmnet of Nonclinical Drug Safety, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Di Piazza, Matteo",
+        "short_name": "Di Piazza M",
+        "identifiers": [],
+        "affiliations": [
+          "Departmnet of Nonclinical Drug Safety, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, CT, USA.",
+          "F. Hoffmann-La Roche AG, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Herpers, Bram",
+        "short_name": "Herpers B",
+        "identifiers": [],
+        "affiliations": [
+          "OcellO B.V., BioPartner Center, Leiden, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Sofia",
+        "short_name": "Ferreira S",
+        "identifiers": [],
+        "affiliations": [
+          "Certara UK Limited, Simcyp Division, Sheffield, S1 2BJ, UK."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mian",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Certara UK Limited, Simcyp Division, Sheffield, S1 2BJ, UK."
+        ]
+      },
+      {
+        "full_name": "Vappiani, Johanna",
+        "short_name": "Vappiani J",
+        "identifiers": [],
+        "affiliations": [
+          "GSK Functional Genomics/Cellzome, 69117, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sévin, Daniel C",
+        "short_name": "Sévin DC",
+        "identifiers": [],
+        "affiliations": [
+          "GSK Functional Genomics/Cellzome, 69117, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gabor, Attila",
+        "short_name": "Gabor A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Heidelberg University Hospital, Institute for Computational Biomedicine, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Lynch, Anthony",
+        "short_name": "Lynch A",
+        "identifiers": [],
+        "affiliations": [
+          "GSK Non-Clinical Safety, Ware, SG12 0DP, UK."
+        ]
+      },
+      {
+        "full_name": "Chung, Seung-Wook",
+        "short_name": "Chung SW",
+        "identifiers": [],
+        "affiliations": [
+          "Departmnet of Nonclinical Drug Safety, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Saez-Rodriguez, Julio",
+        "short_name": "Saez-Rodriguez J",
+        "identifiers": [],
+        "affiliations": [
+          "GSK Non-Clinical Safety, Ware, SG12 0DP, UK.",
+          "Faculty of Medicine, Joint Research Centre for Computational Biomedicine (JRC-COMBINE), RWTH Aachen University, Aachen, Germany.",
+          "Molecular Medicine Partnership Unit, European Molecular Biology Laboratory, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Jennen, Danyel G J",
+        "short_name": "Jennen DGJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kleinjans, Jos C S",
+        "short_name": "Kleinjans JCS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Kok, Theo M",
+        "short_name": "de Kok TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicogenomics, GROW School for Oncology and Developmental Biology, Maastricht University, Maastricht, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of toxicology"
+    ],
+    "journal_abbrev": [
+      "Arch Toxicol"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/22 06:00",
+    "fetched_at": "2026-09-27 19:40:35"
+  },
+  "links": {
+    "cites": [
+      "42436858",
+      "42396351",
+      "42346015",
+      "42121875",
+      "42073313",
+      "41812664",
+      "41680471",
+      "41361872",
+      "41052276",
+      "40840122",
+      "40647535",
+      "40423879",
+      "40398537",
+      "39351862",
+      "39048073",
+      "38806717",
+      "38791172",
+      "38536006",
+      "37621010",
+      "37566608",
+      "37338659",
+      "36912192",
+      "35216325",
+      "35163210"
+    ],
+    "refs": [
+      "32685770",
+      "31909603",
+      "31728204",
+      "31340985",
+      "31279169",
+      "31276831",
+      "30931480",
+      "30689553",
+      "30599189",
+      "30371825",
+      "30226594",
+      "30029884",
+      "29943290",
+      "29659669",
+      "29545919",
+      "29457794",
+      "29204687",
+      "29145629",
+      "29048367",
+      "28893587",
+      "28852801",
+      "28350747",
+      "28236969",
+      "28214380",
+      "28211871",
+      "28035994",
+      "27898060",
+      "27628050",
+      "27322546",
+      "27264180",
+      "26859134",
+      "26835907",
+      "26677228",
+      "26590256",
+      "25813522",
+      "25706687",
+      "25526085",
+      "25516281",
+      "25289886",
+      "25219767",
+      "25105065",
+      "25007816",
+      "24994036",
+      "24833294",
+      "24832600",
+      "24744571",
+      "24695404",
+      "24312415",
+      "23354049",
+      "23143270",
+      "22467564",
+      "22447429",
+      "22412841",
+      "21889923",
+      "21830798",
+      "21689887",
+      "21153821",
+      "21071422",
+      "20446344",
+      "20085740",
+      "19910308",
+      "19858398",
+      "19329995",
+      "18433344",
+      "17507164",
+      "17373658",
+      "17327601",
+      "16639716",
+      "15930747",
+      "15858854",
+      "15108223",
+      "15108222",
+      "12724731",
+      "9850079",
+      "8629727",
+      "8586417",
+      "8422689",
+      "6840177",
+      "6487480",
+      "3829006",
+      "3609119",
+      "3180104",
+      "2083185",
+      "336866"
+    ],
+    "similar": [
+      "34151400",
+      "35163210",
+      "35216325",
+      "9850079",
+      "10611156",
+      "30119262",
+      "10506695",
+      "11221829",
+      "36183961",
+      "36203040",
+      "19115314",
+      "17982676",
+      "22412841",
+      "19305141",
+      "16804527",
+      "34400527",
+      "24814616",
+      "28551635",
+      "18416938",
+      "8630950",
+      "9299594",
+      "23646193",
+      "23155336",
+      "32247004",
+      "11745236",
+      "22812382",
+      "10022227",
+      "19865820",
+      "17461495",
+      "15996645",
+      "24919507",
+      "17015056",
+      "16709241",
+      "24486618",
+      "25671635",
+      "18059190",
+      "16344270",
+      "8949990",
+      "28573788",
+      "23232983",
+      "18445839",
+      "22101181",
+      "15570008",
+      "23386105",
+      "18497562",
+      "11750847",
+      "17016597",
+      "11231942",
+      "22683364",
+      "15608676",
+      "31003140",
+      "20425122",
+      "38574645",
+      "26544897",
+      "11417748",
+      "28554763",
+      "30930418",
+      "16391804",
+      "16557594",
+      "26854583",
+      "18324404",
+      "19841331",
+      "11962674",
+      "11134542",
+      "31883475",
+      "7482555",
+      "9050858",
+      "20844880",
+      "10442355",
+      "25747976",
+      "29908244",
+      "16041207",
+      "28652707",
+      "21150775",
+      "39226257",
+      "38986848",
+      "21931273",
+      "17056233",
+      "30207796",
+      "27889876",
+      "23651027",
+      "22716215",
+      "12820460",
+      "9324177",
+      "27217046",
+      "29617363",
+      "25709090",
+      "34420176",
+      "33046798",
+      "26309030",
+      "28850007",
+      "26801985",
+      "24259968",
+      "34245831",
+      "10741375",
+      "29117755",
+      "20158481",
+      "10910061",
+      "9748123",
+      "30484020",
+      "11076661",
+      "39158038",
+      "34389629",
+      "36806895",
+      "38876106",
+      "37607116",
+      "33876774",
+      "37621010",
+      "39265697",
+      "38560353",
+      "29755963",
+      "35682941"
+    ],
+    "review": [
+      "34151400",
+      "19841331",
+      "11962674",
+      "7482555",
+      "10442355",
+      "23651027",
+      "27217046"
+    ],
+    "pmc": [
+      "8298376"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34151400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00204-021-03092-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34151400",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

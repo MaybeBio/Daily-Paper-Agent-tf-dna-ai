@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "39467204",
+    "doi": "10.1002/pro.5198",
+    "title": "Gating residues govern ligand unbinding kinetics from the buried cavity in HIF-2alpha PAS-B."
+  },
+  "content": {
+    "abstract": "While transcription factors have been generally perceived as \"undruggable,\" an exception is the HIF-2 hypoxia-inducible transcription factor, which contains an internal cavity that is sufficiently large to accommodate a range of small-molecules, including the therapeutically used inhibitor belzutifan. Given the relatively long ligand residence times of these small molecules and the lack of any experimentally observed pathway connecting the cavity to solvent, there has been great interest in understanding how these drug ligands exit the buried receptor cavity. Here, we focus on the relevant PAS-B domain of hypoxia-inducible factor 2alpha (HIF-2alpha) and examine how one such small molecule (THS-017) exits from the buried cavity within this domain on the seconds-timescale using atomistic simulations and ZZ-exchange NMR. To enable the simulations, we applied the weighted ensemble path sampling strategy, which generates continuous pathways for a rare-event process [e.g., ligand (un)binding] with rigorous kinetics in orders of magnitude less computing time compared to conventional simulations. Results reveal the formation of an encounter complex intermediate and two distinct classes of pathways for ligand exit. Based on these pathways, we identified two pairs of conformational gating residues in the receptor: one for the major class (N288 and S304) and another for the minor class (L272 and M309). ZZ-exchange NMR validated the kinetic importance of N288 for ligand unbinding. Our results provide an ideal simulation dataset for rational manipulation of ligand unbinding kinetics.",
+    "keywords": [
+      "enhanced sampling",
+      "hypoxia-inducible factor (HIF)",
+      "kinetics",
+      "ligand unbinding",
+      "molecular simulations",
+      "nuclear magnetic resonance (NMR)"
+    ],
+    "mesh_terms": [
+      "*Basic Helix-Loop-Helix Proteins/chemistry/metabolism",
+      "Ligands",
+      "Kinetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Endothelial PAS Domain-Containing Protein 1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Silvestrini, Marion L",
+        "Solazzo, Riccardo",
+        "Boral, Soumendu",
+        "Cocco, Melanie J",
+        "Closson, Joseph D",
+        "Masetti, Matteo",
+        "Gardner, Kevin H",
+        "Chong, Lillian T"
+      ],
+      "short_names": [
+        "Silvestrini ML",
+        "Solazzo R",
+        "Boral S",
+        "Cocco MJ",
+        "Closson JD",
+        "Masetti M",
+        "Gardner KH",
+        "Chong LT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0590-483X"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum-Universita di Bologna, Bologna, Italy.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+        "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, California, USA.",
+        "Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, California, USA.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+        "PhD Program in Biochemistry, CUNY Graduate Center, New York, New York, USA.",
+        "Department of Pharmacy and Biotechnology, Alma Mater Studiorum-Universita di Bologna, Bologna, Italy.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+        "Department of Chemistry and Biochemistry, City College of New York, New York, New York, USA.",
+        "PhD Programs in Biochemistry, Biology, and Chemistry, CUNY Graduate Center, New York, New York, USA.",
+        "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Silvestrini, Marion L",
+        "short_name": "Silvestrini ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Solazzo, Riccardo",
+        "short_name": "Solazzo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum-Università di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Boral, Soumendu",
+        "short_name": "Boral S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Cocco, Melanie J",
+        "short_name": "Cocco MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, California, USA.",
+          "Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Closson, Joseph D",
+        "short_name": "Closson JD",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+          "PhD Program in Biochemistry, CUNY Graduate Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Masetti, Matteo",
+        "short_name": "Masetti M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Biotechnology, Alma Mater Studiorum-Università di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Gardner, Kevin H",
+        "short_name": "Gardner KH",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York, USA.",
+          "Department of Chemistry and Biochemistry, City College of New York, New York, New York, USA.",
+          "PhD Programs in Biochemistry, Biology, and Chemistry, CUNY Graduate Center, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Chong, Lillian T",
+        "short_name": "Chong LT",
+        "identifiers": [
+          "0000-0002-0590-483X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/28 18:23",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [
+      "42239428",
+      "42239232",
+      "42079107",
+      "42039383",
+      "41356213",
+      "41350395",
+      "40909521",
+      "40620993"
+    ],
+    "refs": [
+      "39059491",
+      "38048485",
+      "37200895",
+      "36706316",
+      "36610976",
+      "35793551",
+      "35690098",
+      "35534502",
+      "35421313",
+      "35043623",
+      "34818478",
+      "34413500",
+      "34235490",
+      "34082524",
+      "33577732",
+      "33538599",
+      "33221248",
+      "33092382",
+      "31868344",
+      "31714766",
+      "31697501",
+      "30914743",
+      "30881664",
+      "30786217",
+      "30638530",
+      "29984995",
+      "29539393",
+      "29067766",
+      "28301772",
+      "27984811",
+      "27635045",
+      "27595394",
+      "27457481",
+      "26245371",
+      "26226049",
+      "26103621",
+      "25605901",
+      "25400877",
+      "24736273",
+      "23434853",
+      "23363003",
+      "21539773",
+      "20614962",
+      "19950993",
+      "19129502",
+      "17543538",
+      "17416661",
+      "16402815",
+      "15116359",
+      "12970567",
+      "12627523",
+      "10861440",
+      "9917408",
+      "9665170",
+      "8770190",
+      "8670821",
+      "7919956"
+    ],
+    "similar": [
+      "39467204",
+      "39059491",
+      "31868344",
+      "29489822",
+      "37120484",
+      "19950993",
+      "24736273",
+      "42048441",
+      "34082524",
+      "27667693",
+      "31697501",
+      "30523118",
+      "23434853",
+      "31454236",
+      "14668441",
+      "40289350",
+      "26371312",
+      "35195418",
+      "42053090",
+      "19129502",
+      "36167425",
+      "34731059",
+      "23363003",
+      "41954091",
+      "37961463",
+      "25627682",
+      "41467319",
+      "28990233",
+      "32031801",
+      "30784357",
+      "38059911",
+      "42217661",
+      "26727491",
+      "41632099",
+      "12464608",
+      "37935255",
+      "17223691",
+      "29303257",
+      "31270236",
+      "29775455",
+      "29539393",
+      "41176615",
+      "21981577",
+      "34339013",
+      "23707926",
+      "27784428",
+      "17973296",
+      "28256222",
+      "42258477",
+      "41569310",
+      "42153612",
+      "40400177",
+      "40243734",
+      "23912807",
+      "26580122",
+      "41643762",
+      "26226049",
+      "27231969",
+      "35054509",
+      "42087351",
+      "41840502",
+      "9746763",
+      "30804532",
+      "11114720",
+      "37003731",
+      "11061977",
+      "42278230",
+      "16181639",
+      "30141102",
+      "18836710",
+      "38412121",
+      "8816435",
+      "39392497",
+      "27782878",
+      "38501098",
+      "34475217",
+      "29132080",
+      "38874005",
+      "37943667",
+      "40505865",
+      "41874563",
+      "24607784",
+      "41356213",
+      "37540828",
+      "38333911",
+      "11839666",
+      "25155241",
+      "36153364",
+      "37403966",
+      "42242437",
+      "37676600",
+      "40743978",
+      "39585306",
+      "39946558",
+      "41520336",
+      "31478672",
+      "38889142",
+      "28413946",
+      "42313796",
+      "34739248"
+    ],
+    "review": [
+      "39467204",
+      "34731059",
+      "41632099",
+      "37935255",
+      "41569310",
+      "29132080",
+      "38874005",
+      "25155241",
+      "40743978",
+      "39946558",
+      "28413946"
+    ],
+    "pmc": [
+      "11516114"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39467204/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5198",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

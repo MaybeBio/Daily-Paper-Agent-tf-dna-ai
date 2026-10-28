@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.24.614730",
+  "title": "Characterization of non-coding variants associated with transcription factor binding through ATAC-seq-defined footprint QTLs in liver",
+  "authors": "Max F. Dudek; Brandon M. Wenz; Christopher D. Brown; Benjamin F. Voight; Laura Almasy; Struan F.A. Grant",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-25",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用ATAC-seq足迹推断肝脏中转录因子结合，鉴定与TF结合相关的非编码变异（fpQTLs），虽涉及TF-DNA结合位点，但主要基于序列统计和QTL关联，缺乏AI或物理模拟建模方法，属于广义蛋白-DNA互作研究。",
+  "abstract": "Non-coding variants discovered by genome-wide association studies (GWAS) are enriched in regulatory elements harboring transcription factor (TF) binding motifs, strongly suggesting a connection between disease association and the disruption of cis-regulatory sequences. Occupancy of a TF inside a region of open chromatin can be detected in ATAC-seq where bound TFs block the transposase Tn5, leaving a pattern of relatively depleted Tn5 insertions known as a “footprint”. Here, we sought to identify variants associated with TF-binding, or “footprint quantitative trait loci” (fpQTLs) in ATAC-seq data generated from 170 human liver samples. We used computational tools to scan the ATAC-seq reads to quantify TF binding likelihood as “footprint scores” at variants derived from whole genome sequencing generated in the same samples. We tested for association between genotype and footprint score and observed 693 fpQTLs associated with footprint-inferred TF binding (FDR < 5%). Given that Tn5 insertion sites are measured with base-pair resolution, we show that fpQTLs can aid GWAS and QTL fine-mapping by precisely pinpointing TF activity within broad trait-associated loci where the underlying causal variant is unknown. Liver fpQTLs were strongly enriched across ChIP-seq peaks, liver expression QTLs (eQTLs), and liver-related GWAS loci, and their inferred effect on TF binding was concordant with their effect on underlying sequence motifs in 80% of cases. We conclude that fpQTLs can reveal causal GWAS variants, define the role of TF binding site disruption in disease and provide functional insights into non-coding variants, ultimately informing novel treatments for common diseases. Graphical Abstract We leverage footprinting methods to infer transcription factor binding likelihood genome-wide across 170 liver ATAC-seq samples and implicate 693 SNPs with a genetic influence on binding. Unlike other comparable approaches, this analytical method is not limited in resolution by the constraints of linkage disequilibrium, and can prioritize likely causal variants at GWAS loci for subsequent experimental validation.",
+  "abstract_zh": "全基因组关联研究（GWAS）发现的非编码变异富集于含有转录因子（TF）结合基序的调控元件中，强烈提示疾病关联与顺式调控序列的破坏之间存在联系。在ATAC-seq中，可检测到开放染色质区域内TF的占据情况，其中结合的TF会阻断转座酶Tn5，留下一种相对耗竭的Tn5插入模式，称为“足迹”。在此，我们旨在从170个人类肝脏样本生成的ATAC-seq数据中，识别与TF结合相关的变异，即“足迹数量性状位点”（fpQTLs）。我们利用计算工具扫描ATAC-seq读数，以量化在相同样本全基因组测序所得变异处的TF结合可能性，作为“足迹评分”。我们检验了基因型与足迹评分之间的关联，并观察到693个与足迹推断的TF结合相关的fpQTLs（FDR < 5%）。鉴于Tn5插入位点以碱基对分辨率测量，我们表明fpQTLs可通过精确定位广泛性状相关位点内的TF活性，辅助GWAS和QTL精细定位，其中潜在因果变异未知。肝脏fpQTLs在ChIP-seq峰、肝脏表达数量性状位点（eQTLs）及肝脏相关GWAS位点中显著富集，其推断的TF结合效应在80%的情况下与对底层序列基序的影响一致。我们得出结论，fpQTLs可揭示因果GWAS变异，明确TF结合位点破坏在疾病中的作用，并为非编码变异提供功能见解，最终为常见疾病的新疗法提供信息。图形摘要 我们利用足迹方法在170个肝脏ATAC-seq样本中全基因组推断转录因子结合可能性，并确定693个SNP对结合具有遗传影响。与其他类似方法不同，该分析方法的分辨率不受连锁不平衡限制，可在GWAS位点优先考虑可能的因果变异，以供后续实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.24.614730",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.24.614730",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.24.614730/index.html"
+}

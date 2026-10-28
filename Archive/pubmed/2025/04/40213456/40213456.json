@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "40213456",
+    "doi": "10.1002/smsc.202400252",
+    "title": "Deep Learning-Based Classification of Histone-DNA Interactions Using Drying Droplet Patterns."
+  },
+  "content": {
+    "abstract": "Developing scalable and accurate predictive analytical methods for the classification of protein-DNA binding is critical for advancing our understanding of molecular biology, disease mechanisms, and a wide spectrum of biotechnological and medical applications. It is discovered that histone-DNA interactions can be stratified based on stain patterns created by the deposition of various nucleoprotein solutions onto a substrate. In this study, a deep-learning neural network is applied to categorize polarized light microscopy images of drying droplet deposits originating from different histone-DNA mixtures. These DNA stain patterns featured high reproducibility across different species and thus enabled comprehensive DNA categorization (100% accuracy) and accurate prediction of their respective binding affinities to histones. Eukaryotic DNA, which has a higher binding affinity to mammalian histones than prokaryotic DNA, is associated with a higher overall prediction accuracy. For a given species, the average prediction accuracy increased with DNA size. To demonstrate generalizability, a pre-trained CNN is challenged with unknown images that originated from DNA samples of species not included in the training set. The CNN classified these unknown histone-DNA samples as either strong or medium binders with 84.4% and 96.25% accuracy, respectively.",
+    "keywords": [
+      "coffee ring",
+      "deep learning image analysis",
+      "drying droplet",
+      "histone-DNA interaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vaez, Safoura",
+        "Dadfar, Bahar",
+        "Koenig, Meike",
+        "Franzreb, Matthias",
+        "Lahann, Joerg"
+      ],
+      "short_names": [
+        "Vaez S",
+        "Dadfar B",
+        "Koenig M",
+        "Franzreb M",
+        "Lahann J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3334-2053"
+      ],
+      "affiliations": [
+        "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany.",
+        "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany.",
+        "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany.",
+        "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany.",
+        "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany.",
+        "Biointerfaces Institute Departments of Chemical Engineering, Materials Science and Engineering, and Biomedical Engineering, and the Macromolecular Science and Engineering Program University of Michigan Ann Arbor MI 48109 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vaez, Safoura",
+        "short_name": "Vaez S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany."
+        ]
+      },
+      {
+        "full_name": "Dadfar, Bahar",
+        "short_name": "Dadfar B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany."
+        ]
+      },
+      {
+        "full_name": "Koenig, Meike",
+        "short_name": "Koenig M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany."
+        ]
+      },
+      {
+        "full_name": "Franzreb, Matthias",
+        "short_name": "Franzreb M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany."
+        ]
+      },
+      {
+        "full_name": "Lahann, Joerg",
+        "short_name": "Lahann J",
+        "identifiers": [
+          "0000-0002-3334-2053"
+        ],
+        "affiliations": [
+          "Institute of Functional Interfaces (IFG) Karlsruhe Institute of Technology (KIT) Hermann-von-Helmholtz-Platz 1 76344 Eggenstein-Leopoldshafen Germany.",
+          "Biointerfaces Institute Departments of Chemical Engineering, Materials Science and Engineering, and Biomedical Engineering, and the Macromolecular Science and Engineering Program University of Michigan Ann Arbor MI 48109 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small science"
+    ],
+    "journal_abbrev": [
+      "Small Sci"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/11 06:25",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "41462248",
+      "40306624"
+    ],
+    "refs": [
+      "38587997",
+      "37002959",
+      "36797377",
+      "36715303",
+      "35992921",
+      "35496925",
+      "35405768",
+      "35161907",
+      "34717206",
+      "33855050",
+      "32094359",
+      "31992738",
+      "29769044",
+      "29610332",
+      "27131385",
+      "27074133",
+      "26112054",
+      "25756377",
+      "25026169",
+      "22937023",
+      "22399265",
+      "21850105",
+      "21656619",
+      "21396899",
+      "21389020",
+      "20853173",
+      "20438443",
+      "20353247",
+      "20334529",
+      "19865164",
+      "17703195",
+      "17570768",
+      "17406230",
+      "17035073",
+      "16390168",
+      "16186128",
+      "11413144",
+      "10815726",
+      "9624689",
+      "9327396",
+      "7232218",
+      "1091932",
+      "782515",
+      "698285"
+    ],
+    "similar": [
+      "40213456",
+      "40306624",
+      "40183298",
+      "42475469",
+      "42046675",
+      "35405768",
+      "36831891",
+      "35402975",
+      "36097771",
+      "32980530",
+      "38581445",
+      "40487847",
+      "41514301",
+      "39576667",
+      "36779711",
+      "40143108",
+      "40027073",
+      "38369844",
+      "29404850",
+      "29281985",
+      "39046773",
+      "30523268",
+      "40828572",
+      "34976305",
+      "32240301",
+      "34356422",
+      "39359262",
+      "41937323",
+      "38250147",
+      "32268255",
+      "42729311",
+      "40481434",
+      "38868293",
+      "41310253",
+      "41588160",
+      "41071823",
+      "33001309",
+      "38856168",
+      "41238423",
+      "37711738",
+      "33816963",
+      "39497201",
+      "27490187",
+      "41062638",
+      "36054399",
+      "41377859",
+      "39475773",
+      "41896662",
+      "32449176",
+      "30603908",
+      "39214282",
+      "40923385",
+      "35629336",
+      "41061555",
+      "29540156",
+      "41570305",
+      "32723384",
+      "37167882",
+      "37568821",
+      "38553901",
+      "40840868",
+      "42044246",
+      "33000024",
+      "40388893",
+      "34375851",
+      "39705887",
+      "37454497",
+      "7398632",
+      "41234571",
+      "39686395",
+      "36430386",
+      "41172803",
+      "35616643",
+      "33327315",
+      "41545848",
+      "36742147",
+      "40756369",
+      "33233358",
+      "39078069",
+      "33577318",
+      "42582530",
+      "31760248",
+      "35913591",
+      "42227503",
+      "30929254",
+      "31538879",
+      "40740955",
+      "26042329",
+      "28254085",
+      "35809058",
+      "30286077",
+      "30459822",
+      "34187589",
+      "37615504",
+      "39036965",
+      "40802390",
+      "40567754",
+      "35834050",
+      "36458232",
+      "39475778"
+    ],
+    "review": [
+      "40213456",
+      "31538879"
+    ],
+    "pmc": [
+      "11935254"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40213456/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38316843",
+  "title": "Deep-WET: a deep learning-based approach for predicting DNA-binding proteins using word embedding techniques with weighted features.",
+  "authors": "Mahmud, S M Hasan; Goh, Kah Ong Michael; Hosen, Md Faruk; Nandi, Dip; Shoombuatong, Watshara",
+  "journal": "Scientific reports",
+  "published_date": "2024-02-06",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习结合词嵌入和加权特征预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列分类，未涉及TF-DNA特异性结合或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "DNA-binding proteins (DBPs) play a significant role in all phases of genetic processes, including DNA recombination, repair, and modification. They are often utilized in drug discovery as fundamental elements of steroids, antibiotics, and anticancer drugs. Predicting them poses the most challenging task in proteomics research. Conventional experimental methods for DBP identification are costly and sometimes biased toward prediction. Therefore, developing powerful computational methods that can accurately and rapidly identify DBPs from sequence information is an urgent need. In this study, we propose a novel deep learning-based method called Deep-WET to accurately identify DBPs from primary sequence information. In Deep-WET, we employed three powerful feature encoding schemes containing Global Vectors, Word2Vec, and fastText to encode the protein sequence. Subsequently, these three features were sequentially combined and weighted using the weights obtained from the elements learned through the differential evolution (DE) algorithm. To enhance the predictive performance of Deep-WET, we applied the SHapley Additive exPlanations approach to remove irrelevant features. Finally, the optimal feature subset was input into convolutional neural networks to construct the Deep-WET predictor. Both cross-validation and independent tests indicated that Deep-WET achieved superior predictive performance compared to conventional machine learning classifiers. In addition, in extensive independent test, Deep-WET was effective and outperformed than several state-of-the-art methods for DBP prediction, with accuracy of 78.08%, MCC of 0.559, and AUC of 0.805. This superior performance shows that Deep-WET has a tremendous predictive capacity to predict DBPs. The web server of Deep-WET and curated datasets in this study are available at https://deepwet-dna.monarcatechnical.com/ . The proposed Deep-WET is anticipated to serve the community-wide effort for large-scale identification of potential DBPs.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在遗传过程的所有阶段中扮演重要角色，包括DNA重组、修复和修饰。它们常被用作类固醇、抗生素和抗癌药物的基本元素，在药物发现中发挥作用。预测它们构成了蛋白质组学研究中最具挑战性的任务。传统的DBP鉴定实验方法成本高昂，有时偏向于预测。因此，开发能够从序列信息中准确且快速识别DBPs的强大计算方法成为迫切需求。在本研究中，我们提出了一种基于深度学习的新方法，称为Deep-WET，以从初级序列信息中准确识别DBPs。在Deep-WET中，我们采用了三种强大的特征编码方案，包括全局向量（Global Vectors）、Word2Vec和fastText，来编码蛋白质序列。随后，这三种特征被顺序组合，并使用通过差分进化（DE）算法学习到的元素权重进行加权。为了增强Deep-WET的预测性能，我们应用了SHapley加性解释（SHapley Additive exPlanations）方法来去除不相关特征。最后，将最优特征子集输入卷积神经网络以构建Deep-WET预测器。交叉验证和独立测试均表明，Deep-WET相比传统机器学习分类器实现了更优的预测性能。此外，在广泛的独立测试中，Deep-WET在DBP预测方面有效且优于几种最先进的方法，准确率为78.08%，MCC为0.559，AUC为0.805。这一优越性能表明Deep-WET具有巨大的预测能力来预测DBPs。Deep-WET的Web服务器和本研究中整理的数据集可在https://deepwet-dna.monarcatechnical.com/ 获取。所提出的Deep-WET预计将服务于社区范围内大规模识别潜在DBPs的努力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38316843/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38316843/",
+  "paper_page_path": "papers/pubmed/38316843/index.html"
+}

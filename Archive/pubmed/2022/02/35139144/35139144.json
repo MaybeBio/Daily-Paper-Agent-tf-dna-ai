@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "pmid": "35139144",
+    "doi": "10.1083/jcb.202107135",
+    "title": "Assessing Gq-GPCR-induced human astrocyte reactivity using bioengineered neural organoids."
+  },
+  "content": {
+    "abstract": "Astrocyte reactivity can directly modulate nervous system function and immune responses during disease and injury. However, the consequence of human astrocyte reactivity in response to specific contexts and within neural networks is obscure. Here, we devised a straightforward bioengineered neural organoid culture approach entailing transcription factor-driven direct differentiation of neurons and astrocytes from human pluripotent stem cells combined with genetically encoded tools for dual cell-selective activation. This strategy revealed that Gq-GPCR activation via chemogenetics in astrocytes promotes a rise in intracellular calcium followed by induction of immediate early genes and thrombospondin 1. However, astrocytes also undergo NF-kappaB nuclear translocation and secretion of inflammatory proteins, correlating with a decreased evoked firing rate of cocultured optogenetic neurons in suboptimal conditions, without overt neurotoxicity. Altogether, this study clarifies the intrinsic reactivity of human astrocytes in response to targeting GPCRs and delivers a bioengineered approach for organoid-based disease modeling and preclinical drug testing.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphate/pharmacology",
+      "Astrocytes/*metabolism/pathology",
+      "*Bioengineering",
+      "Calcium/metabolism",
+      "Cell Line",
+      "GTP-Binding Protein alpha Subunits, Gq-G11/*metabolism",
+      "Glial Fibrillary Acidic Protein/metabolism",
+      "Humans",
+      "Inflammation/pathology",
+      "Neural Stem Cells/drug effects/metabolism",
+      "Neurons/*metabolism",
+      "Organoids/*metabolism",
+      "Pluripotent Stem Cells/metabolism",
+      "Receptors, G-Protein-Coupled/*metabolism",
+      "Reproducibility of Results",
+      "Spheroids, Cellular/drug effects/metabolism",
+      "Synaptophysin/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cvetkovic, Caroline",
+        "Patel, Rajan",
+        "Shetty, Arya",
+        "Hogan, Matthew K",
+        "Anderson, Morgan",
+        "Basu, Nupur",
+        "Aghlara-Fotovat, Samira",
+        "Ramesh, Srivathsan",
+        "Sardar, Debosmita",
+        "Veiseh, Omid",
+        "Ward, Michael E",
+        "Deneen, Benjamin",
+        "Horner, Philip J",
+        "Krencik, Robert"
+      ],
+      "short_names": [
+        "Cvetkovic C",
+        "Patel R",
+        "Shetty A",
+        "Hogan MK",
+        "Anderson M",
+        "Basu N",
+        "Aghlara-Fotovat S",
+        "Ramesh S",
+        "Sardar D",
+        "Veiseh O",
+        "Ward ME",
+        "Deneen B",
+        "Horner PJ",
+        "Krencik R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3035-7313",
+        "ORCID: 0000-0002-0771-8643",
+        "ORCID: 0000-0003-1153-8079",
+        "ORCID: 0000-0002-5296-8051",
+        "ORCID: 0000-0002-2968-3162"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Baylor College of Medicine, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Department of Bioengineering, Rice University, Houston, TX.",
+        "University of Texas Health Science Center at Houston, Houston, TX.",
+        "Baylor College of Medicine, Houston, TX.",
+        "Department of Bioengineering, Rice University, Houston, TX.",
+        "National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD.",
+        "Baylor College of Medicine, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+        "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cvetkovic, Caroline",
+        "short_name": "Cvetkovic C",
+        "identifiers": [
+          "0000-0002-3035-7313"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Patel, Rajan",
+        "short_name": "Patel R",
+        "identifiers": [],
+        "affiliations": [
+          "Baylor College of Medicine, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Shetty, Arya",
+        "short_name": "Shetty A",
+        "identifiers": [
+          "0000-0002-0771-8643"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Hogan, Matthew K",
+        "short_name": "Hogan MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Anderson, Morgan",
+        "short_name": "Anderson M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Basu, Nupur",
+        "short_name": "Basu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Aghlara-Fotovat, Samira",
+        "short_name": "Aghlara-Fotovat S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX.",
+          "Department of Bioengineering, Rice University, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Ramesh, Srivathsan",
+        "short_name": "Ramesh S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas Health Science Center at Houston, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Sardar, Debosmita",
+        "short_name": "Sardar D",
+        "identifiers": [],
+        "affiliations": [
+          "Baylor College of Medicine, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Veiseh, Omid",
+        "short_name": "Veiseh O",
+        "identifiers": [
+          "0000-0003-1153-8079"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Rice University, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Ward, Michael E",
+        "short_name": "Ward ME",
+        "identifiers": [
+          "0000-0002-5296-8051"
+        ],
+        "affiliations": [
+          "National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD."
+        ]
+      },
+      {
+        "full_name": "Deneen, Benjamin",
+        "short_name": "Deneen B",
+        "identifiers": [],
+        "affiliations": [
+          "Baylor College of Medicine, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Horner, Philip J",
+        "short_name": "Horner PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      },
+      {
+        "full_name": "Krencik, Robert",
+        "short_name": "Krencik R",
+        "identifiers": [
+          "0000-0002-2968-3162"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Center for Neuroregeneration, Houston Methodist Research Institute, Houston, TX."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of cell biology"
+    ],
+    "journal_abbrev": [
+      "J Cell Biol"
+    ],
+    "pub_date": "2022 Feb 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/10 06:00",
+    "fetched_at": "2026-09-28 05:06:57"
+  },
+  "links": {
+    "cites": [
+      "41958080",
+      "41292444",
+      "40894882",
+      "40882323",
+      "40728530",
+      "39975142",
+      "39455342",
+      "39307583",
+      "38075269",
+      "37817184",
+      "37445940",
+      "37308616",
+      "36925717",
+      "35577914"
+    ],
+    "refs": [
+      "34616039",
+      "34380036",
+      "34172753",
+      "34139149",
+      "33982246",
+      "33949692",
+      "33921461",
+      "33667413",
+      "33589835",
+      "33567261",
+      "33556341",
+      "33476547",
+      "33362473",
+      "33199860",
+      "33086039",
+      "32888425",
+      "32819810",
+      "32579912",
+      "32485136",
+      "32224231",
+      "32051547",
+      "32044129",
+      "32042146",
+      "31958188",
+      "31767649",
+      "31729450",
+      "31619545",
+      "31583592",
+      "31452443",
+      "31141125",
+      "31053799",
+      "31031006",
+      "30804533",
+      "30359604",
+      "30301888",
+      "30269986",
+      "30269954",
+      "30176009",
+      "30154505",
+      "30127505",
+      "30016584",
+      "29924488",
+      "29198827",
+      "29158945",
+      "29096081",
+      "29037171",
+      "28918057",
+      "28886367",
+      "28878372",
+      "28822066",
+      "28817799",
+      "28803918",
+      "28591655",
+      "28462931",
+      "28192415",
+      "28153913",
+      "28099414",
+      "27570101",
+      "27133795",
+      "25947161",
+      "25870293",
+      "25587899",
+      "25556566",
+      "24739787",
+      "24691121",
+      "23994478",
+      "22553043",
+      "22011653",
+      "21765615",
+      "21602806",
+      "21415880",
+      "20979621",
+      "17410168"
+    ],
+    "similar": [
+      "35139144",
+      "26381429",
+      "34139149",
+      "29198827",
+      "34544455",
+      "18463250",
+      "23839956",
+      "27709799",
+      "30801845",
+      "39094561",
+      "23166735",
+      "24042499",
+      "28627367",
+      "31696783",
+      "20203048",
+      "28485896",
+      "28369648",
+      "28591654",
+      "31217241",
+      "28591655",
+      "33729913",
+      "15355318",
+      "24970310",
+      "32576659",
+      "17115416",
+      "31686622",
+      "27664791",
+      "26100233",
+      "15494980",
+      "23583575",
+      "28138563",
+      "26138449",
+      "22426197",
+      "30987672",
+      "17521573",
+      "32380146",
+      "30804533",
+      "31729450",
+      "27729293",
+      "22771389",
+      "33949692",
+      "33445520",
+      "19289154",
+      "33550208",
+      "34242615",
+      "28345587",
+      "3106588",
+      "37846809",
+      "27142930",
+      "22732190",
+      "26851281",
+      "17088245",
+      "22884085",
+      "27852822",
+      "21385309",
+      "26482803",
+      "21259327",
+      "23044720",
+      "30793039",
+      "26885533",
+      "23077035",
+      "22301365",
+      "16721767",
+      "29230877",
+      "14610092",
+      "23896528",
+      "23994478",
+      "32052915",
+      "14559350",
+      "19130216",
+      "32456176",
+      "19418463",
+      "31153826",
+      "27609520",
+      "24113065",
+      "28333144",
+      "17196325",
+      "34324185",
+      "28666936",
+      "16116085",
+      "31142646",
+      "34114695",
+      "14522997",
+      "24477074",
+      "12771155",
+      "22563490",
+      "21732075",
+      "32848074",
+      "27716400",
+      "33465396",
+      "36724094",
+      "38075269",
+      "35319768",
+      "36674936",
+      "38523789"
+    ],
+    "review": [
+      "35139144",
+      "23583575",
+      "26885533"
+    ],
+    "pmc": [
+      "8842185"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35139144.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35139144/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35139144",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35139144",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse187436",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://rupress.org/jcb/article-lookup/doi/10.1083/jcb.202107135",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "36247089",
+    "doi": "10.1155/2022/3524022",
+    "title": "Exploring Potential Biomarkers, Ferroptosis Mechanisms, and Therapeutic Targets Associated with Cutaneous Squamous Cell Carcinoma via Integrated Transcriptomic Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cutaneous squamous cell carcinoma (cSCC) is the leading cause of death in patients with nonmelanoma skin cancers (NMSC). However, the unclear pathogenesis of cSCC limits the application of molecular targeted therapy. METHODS: Three microarray datasets (GSE2503, GSE45164, and GSE66359) were downloaded from the Gene Expression Omnibus (GEO). After identifying the differentially expressed genes (DEGs) in tumor and nontumor tissues, five kinds of analyses, namely, functional annotation, protein-protein interaction (PPI) network, hub gene selection, TF-miRNA-mRNA regulatory network analysis, and ferroptosis mechanism, were performed. RESULTS: A total of 146 DEGs were identified with significant differences, including 113 upregulated genes and 33 downregulated genes. The enriched functions and pathways of the DEGs included microtubule-based movement, ATP binding, cell cycle, P53 signaling pathway, oocyte meiosis, and PLK1 signaling events. Nine hub genes were identified (CDK1, AURKA, RRM2, CENPE, CCNB1, KIAA0101, ZWINT, TOP2A, and ASPM). Finally, RRM2, AURKA, and SAT1 were identified as significant ferroptosis-related genes in cSCC. The differential expression of these genes has been verified in two other independent datasets. CONCLUSIONS: By integrated bioinformatic analysis, the hub genes identified in this study elucidated the molecular mechanism of the pathogenesis and progression of cSCC and are expected to become future biomarkers or therapeutic targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphate",
+      "Aurora Kinase A/genetics/metabolism",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "*Carcinoma, Squamous Cell/genetics",
+      "*Ferroptosis/genetics",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Gene Regulatory Networks",
+      "Humans",
+      "*MicroRNAs/genetics",
+      "Nerve Tissue Proteins/genetics/metabolism",
+      "RNA, Messenger",
+      "*Skin Neoplasms/genetics",
+      "Transcriptome",
+      "Tumor Suppressor Protein p53/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Wenxing",
+        "Huang, Biao",
+        "Zhang, Qingyi",
+        "Han, Wei",
+        "An, Lu",
+        "Guan, Yi",
+        "Ji, Jiang",
+        "Yu, Daojiang"
+      ],
+      "short_names": [
+        "Su W",
+        "Huang B",
+        "Zhang Q",
+        "Han W",
+        "An L",
+        "Guan Y",
+        "Ji J",
+        "Yu D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6785-667X",
+        "ORCID: 0000-0002-8071-8658",
+        "ORCID: 0000-0001-9109-9437",
+        "ORCID: 0000-0002-5096-2246",
+        "ORCID: 0000-0003-2201-7738",
+        "ORCID: 0000-0001-6291-8624",
+        "ORCID: 0000-0002-8888-3690",
+        "ORCID: 0000-0002-2633-0783"
+      ],
+      "affiliations": [
+        "Department of Plastic and Burn Surgery, The Second Affiliated Hospital of Chengdu Medical College (China National Nuclear Corporation 416 Hospital), Chengdu, Sichuan, China.",
+        "Department of Plastic and Burn Surgery, The Second Affiliated Hospital of Chengdu Medical College (China National Nuclear Corporation 416 Hospital), Chengdu, Sichuan, China.",
+        "Laboratory of Stem Cell and Tissue Engineering, Orthopedic Research Institute, Department of Orthopedics, West China Hospital of Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Burn and Plastic Surgery, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "Department of Plastic Surgery, The Second Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "School of Foreign Languages, Soochow University, Suzhou, Jiangsu, China.",
+        "Department of Dermatology, The Second Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "Department of Plastic and Burn Surgery, The Second Affiliated Hospital of Chengdu Medical College (China National Nuclear Corporation 416 Hospital), Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Wenxing",
+        "short_name": "Su W",
+        "identifiers": [
+          "0000-0001-6785-667X"
+        ],
+        "affiliations": [
+          "Department of Plastic and Burn Surgery, The Second Affiliated Hospital of Chengdu Medical College (China National Nuclear Corporation 416 Hospital), Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Biao",
+        "short_name": "Huang B",
+        "identifiers": [
+          "0000-0002-8071-8658"
+        ],
+        "affiliations": [
+          "Department of Plastic and Burn Surgery, The Second Affiliated Hospital of Chengdu Medical College (China National Nuclear Corporation 416 Hospital), Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qingyi",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0001-9109-9437"
+        ],
+        "affiliations": [
+          "Laboratory of Stem Cell and Tissue Engineering, Orthopedic Research Institute, Department of Orthopedics, West China Hospital of Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Han, Wei",
+        "short_name": "Han W",
+        "identifiers": [
+          "0000-0002-5096-2246"
+        ],
+        "affiliations": [
+          "Department of Burn and Plastic Surgery, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "An, Lu",
+        "short_name": "An L",
+        "identifiers": [
+          "0000-0003-2201-7738"
+        ],
+        "affiliations": [
+          "Department of Plastic Surgery, The Second Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Yi",
+        "short_name": "Guan Y",
+        "identifiers": [
+          "0000-0001-6291-8624"
+        ],
+        "affiliations": [
+          "School of Foreign Languages, Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Jiang",
+        "short_name": "Ji J",
+        "identifiers": [
+          "0000-0002-8888-3690"
+        ],
+        "affiliations": [
+          "Department of Dermatology, The Second Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Daojiang",
+        "short_name": "Yu D",
+        "identifiers": [
+          "0000-0002-2633-0783"
+        ],
+        "affiliations": [
+          "Department of Plastic and Burn Surgery, The Second Affiliated Hospital of Chengdu Medical College (China National Nuclear Corporation 416 Hospital), Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of healthcare engineering"
+    ],
+    "journal_abbrev": [
+      "J Healthc Eng"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/18 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "41333037",
+      "41235254",
+      "40299523",
+      "39989046",
+      "39950325",
+      "37834393",
+      "37599996"
+    ],
+    "refs": [
+      "35282071",
+      "35134674",
+      "34902522",
+      "34874578",
+      "34805359",
+      "33495651",
+      "32219413",
+      "31740746",
+      "31545403",
+      "31108460",
+      "30335862",
+      "30271499",
+      "30266990",
+      "30202019",
+      "30031812",
+      "29727714",
+      "29440916",
+      "29363591",
+      "29228549",
+      "29156001",
+      "29087512",
+      "28213802",
+      "27757782",
+      "27735937",
+      "27698118",
+      "26136431",
+      "26036576",
+      "26002580",
+      "25928283",
+      "25921073",
+      "25809558",
+      "25789706",
+      "25693082",
+      "25511643",
+      "25328065",
+      "25303977",
+      "24926428",
+      "24830737",
+      "24743148",
+      "24662767",
+      "23896173",
+      "23722120",
+      "23555285",
+      "23375456",
+      "23203871",
+      "23193258",
+      "22096502",
+      "21725655",
+      "21602893",
+      "21044324",
+      "20576703",
+      "20231500",
+      "19738056",
+      "19250552",
+      "19220630",
+      "19131956",
+      "19059698",
+      "18940857",
+      "18662747",
+      "18442402",
+      "17661931",
+      "17624739",
+      "17222798",
+      "16989737",
+      "16288740",
+      "15905207",
+      "10806105"
+    ],
+    "similar": [
+      "36247089",
+      "31822116",
+      "31642613",
+      "35132271",
+      "31987036",
+      "37861550",
+      "29845250",
+      "28949095",
+      "32337286",
+      "34794761",
+      "30697722",
+      "30213925",
+      "31794546",
+      "31805030",
+      "28640074",
+      "32685473",
+      "35116276",
+      "32323809",
+      "30602391",
+      "31277149",
+      "33080677",
+      "34301206",
+      "26189254",
+      "32598242",
+      "34257537",
+      "35282347",
+      "32059076",
+      "32991423",
+      "32546690",
+      "30542696",
+      "30105812",
+      "31424263",
+      "32147961",
+      "36085041",
+      "34797837",
+      "31914060",
+      "31173190",
+      "29620143",
+      "31127628",
+      "33217867",
+      "25936657",
+      "34384030",
+      "35491469",
+      "35403252",
+      "32662828",
+      "31703725",
+      "34553293",
+      "34042518",
+      "32578582",
+      "35992146",
+      "30168505",
+      "34193119",
+      "37199313",
+      "29658607",
+      "36049413",
+      "31950035",
+      "33102593",
+      "35909518",
+      "36096037",
+      "25753876",
+      "31321566",
+      "32945465",
+      "28316065",
+      "25586346",
+      "31562292",
+      "34675265",
+      "32769939",
+      "26398134",
+      "33946043",
+      "34406843",
+      "31934299",
+      "30468474",
+      "32048869",
+      "31087508",
+      "30702595",
+      "35409328",
+      "31115544",
+      "28375447",
+      "31183379",
+      "36440700",
+      "31311829",
+      "34068010",
+      "38287820",
+      "30533316",
+      "28791388",
+      "31746439",
+      "31729978",
+      "30935420",
+      "36116415",
+      "34039311",
+      "32908877",
+      "31981472",
+      "35680454",
+      "33892811",
+      "34187556",
+      "37335738",
+      "31188028",
+      "39170609",
+      "37403234",
+      "36984548",
+      "31751374",
+      "37437506",
+      "37383715",
+      "35856366",
+      "34267747",
+      "39308857",
+      "32775402",
+      "36421842",
+      "36393970",
+      "37709486",
+      "37313229",
+      "36714107",
+      "35947350",
+      "34237460",
+      "35975587",
+      "39029376",
+      "37390872",
+      "36297287",
+      "36506580",
+      "36318595",
+      "35608130",
+      "37028271",
+      "36220861",
+      "38200904",
+      "38067357",
+      "39262253",
+      "36579331",
+      "36942252",
+      "33670487"
+    ],
+    "review": [
+      "36247089",
+      "33080677",
+      "25753876"
+    ],
+    "pmc": [
+      "9553755"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36247089/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36247089",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/3524022",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1187",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "identity": {
+    "pmid": "37308660",
+    "doi": "10.1038/s41593-023-01357-w",
+    "title": "A rapid and bidirectional reporter of neural activity reveals neural correlates of social behaviors in Drosophila."
+  },
+  "content": {
+    "abstract": "Neural activity is modulated over different timescales encompassing subseconds to hours, reflecting changes in external environment, internal state and behavior. Using Drosophila as a model, we developed a rapid and bidirectional reporter that provides a cellular readout of recent neural activity. This reporter uses nuclear versus cytoplasmic distribution of CREB-regulated transcriptional co-activator (CRTC). Subcellular distribution of GFP-tagged CRTC (CRTC::GFP) bidirectionally changes on the order of minutes and reflects both increases and decreases in neural activity. We established an automated machine-learning-based routine for efficient quantification of reporter signal. Using this reporter, we demonstrate mating-evoked activation and inactivation of modulatory neurons. We further investigated the functional role of the master courtship regulator gene fruitless (fru) and show that fru is necessary to ensure activation of male arousal neurons by female cues. Together, our results establish CRTC::GFP as a bidirectional reporter of recent neural activity suitable for examining neural correlates in behavioral contexts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "Female",
+      "*Drosophila/physiology",
+      "*Drosophila Proteins/genetics",
+      "Nervous System",
+      "Neurons",
+      "Social Behavior",
+      "Courtship",
+      "Drosophila melanogaster/physiology",
+      "Sexual Behavior, Animal/physiology",
+      "Nerve Tissue Proteins/genetics",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bonheur, Moise",
+        "Swartz, Kurtis J",
+        "Metcalf, Melissa G",
+        "Wen, Xinke",
+        "Zhukovskaya, Anna",
+        "Mehta, Avirut",
+        "Connors, Kristin E",
+        "Barasch, Julia G",
+        "Jamieson, Andrew R",
+        "Martin, Kelsey C",
+        "Axel, Richard",
+        "Hattori, Daisuke"
+      ],
+      "short_names": [
+        "Bonheur M",
+        "Swartz KJ",
+        "Metcalf MG",
+        "Wen X",
+        "Zhukovskaya A",
+        "Mehta A",
+        "Connors KE",
+        "Barasch JG",
+        "Jamieson AR",
+        "Martin KC",
+        "Axel R",
+        "Hattori D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5393-6318",
+        "ORCID: 0000-0003-0515-5784",
+        "ORCID: 0000-0001-8280-8318",
+        "ORCID: 0000-0001-5416-9379",
+        "ORCID: 0000-0002-3141-4076",
+        "ORCID: 0000-0002-9140-6449"
+      ],
+      "affiliations": [
+        "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA.",
+        "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA.",
+        "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA.",
+        "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA.",
+        "Lyda Hill Department of Bioinformatics, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Biological Chemistry, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Simons Foundation, New York, NY, USA.",
+        "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA.",
+        "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA. daisuke.hattori@utsouthwestern.edu.",
+        "Department of Neuroscience, UT Southwestern Medical Center, Dallas, TX, USA. daisuke.hattori@utsouthwestern.edu.",
+        "Peter O'Donnell Jr. Brain Institute, UT Southwestern Medical Center, Dallas, TX, USA. daisuke.hattori@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bonheur, Moise",
+        "short_name": "Bonheur M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Swartz, Kurtis J",
+        "short_name": "Swartz KJ",
+        "identifiers": [
+          "0000-0002-5393-6318"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Metcalf, Melissa G",
+        "short_name": "Metcalf MG",
+        "identifiers": [
+          "0000-0003-0515-5784"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wen, Xinke",
+        "short_name": "Wen X",
+        "identifiers": [
+          "0000-0001-8280-8318"
+        ],
+        "affiliations": [
+          "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Zhukovskaya, Anna",
+        "short_name": "Zhukovskaya A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mehta, Avirut",
+        "short_name": "Mehta A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Connors, Kristin E",
+        "short_name": "Connors KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Barasch, Julia G",
+        "short_name": "Barasch JG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Jamieson, Andrew R",
+        "short_name": "Jamieson AR",
+        "identifiers": [
+          "0000-0001-5416-9379"
+        ],
+        "affiliations": [
+          "Lyda Hill Department of Bioinformatics, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Kelsey C",
+        "short_name": "Martin KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Los Angeles, Los Angeles, CA, USA.",
+          "Simons Foundation, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Axel, Richard",
+        "short_name": "Axel R",
+        "identifiers": [
+          "0000-0002-3141-4076"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Hattori, Daisuke",
+        "short_name": "Hattori D",
+        "identifiers": [
+          "0000-0002-9140-6449"
+        ],
+        "affiliations": [
+          "Department of Physiology, UT Southwestern Medical Center, Dallas, TX, USA. daisuke.hattori@utsouthwestern.edu.",
+          "Department of Neuroscience, UT Southwestern Medical Center, Dallas, TX, USA. daisuke.hattori@utsouthwestern.edu.",
+          "Peter O'Donnell Jr. Brain Institute, UT Southwestern Medical Center, Dallas, TX, USA. daisuke.hattori@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature neuroscience"
+    ],
+    "journal_abbrev": [
+      "Nat Neurosci"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/13 01:13",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "41949906",
+      "41922183",
+      "41784532",
+      "41065085",
+      "40666897",
+      "39940855",
+      "39653844",
+      "37928065"
+    ],
+    "refs": [
+      "35140404",
+      "34358444",
+      "34234348",
+      "32071193",
+      "31645735",
+      "30837311",
+      "29681474",
+      "28577429",
+      "28502772",
+      "27997541",
+      "27373836",
+      "27265393",
+      "27212237",
+      "27185554",
+      "26687359",
+      "26568316",
+      "26388727",
+      "26320097",
+      "26279475",
+      "25961791",
+      "25743851",
+      "25680812",
+      "25535793",
+      "24623773",
+      "24439379",
+      "24363022",
+      "24120640",
+      "23868258",
+      "23349290",
+      "23197833",
+      "22770221",
+      "22645338",
+      "22422983",
+      "22236090",
+      "21315260",
+      "20832311",
+      "20697123",
+      "20526346",
+      "20434990",
+      "20006655",
+      "18988843",
+      "18786359",
+      "18548007",
+      "18460334",
+      "18305480",
+      "18197224",
+      "17143294",
+      "17138868",
+      "17088209",
+      "16950103",
+      "16873068",
+      "16281036",
+      "15959468",
+      "15935765",
+      "15935764",
+      "15589160",
+      "15473860",
+      "15454081",
+      "15269256",
+      "15217343",
+      "15126397",
+      "14536081",
+      "14506290",
+      "12168768",
+      "11514448",
+      "11435611",
+      "11300999",
+      "11297677",
+      "11222642",
+      "9950689",
+      "9150132",
+      "8833451",
+      "8643491",
+      "8223268",
+      "7917288",
+      "7857651",
+      "6090941"
+    ],
+    "similar": [
+      "37308660",
+      "19010254",
+      "33463521",
+      "25483248",
+      "15959468",
+      "23810192",
+      "16281036",
+      "28754889",
+      "27880074",
+      "21731661",
+      "24567257",
+      "34338589",
+      "19012071",
+      "35245457",
+      "12605459",
+      "19646872",
+      "32494751",
+      "26721856",
+      "15935765",
+      "24440391",
+      "18305480",
+      "31679932",
+      "21906537",
+      "24740138",
+      "15282607",
+      "18363163",
+      "34672079",
+      "32314964",
+      "17716899",
+      "37549285",
+      "24014368",
+      "37453662",
+      "20919857",
+      "30837311",
+      "31420927",
+      "16034402",
+      "29109241",
+      "21340608",
+      "20876995",
+      "11291102",
+      "25017068",
+      "15211467",
+      "24052176",
+      "32024133",
+      "20934322",
+      "27247289",
+      "17888794",
+      "31628317",
+      "21705753",
+      "10655225",
+      "35788510",
+      "23688386",
+      "15576402",
+      "8978612",
+      "24439379",
+      "15935764",
+      "19541474",
+      "18423205",
+      "24440396",
+      "29133872",
+      "24642956",
+      "20832311",
+      "17086183",
+      "16024442",
+      "33616528",
+      "10858821",
+      "21315260",
+      "19686184",
+      "36724009",
+      "16753560",
+      "22140564",
+      "20152141",
+      "26469541",
+      "12435630",
+      "11206081",
+      "16896687",
+      "33225998",
+      "38377996",
+      "27114556",
+      "16806511",
+      "15088665",
+      "10861565",
+      "22658598",
+      "38478605",
+      "34358444",
+      "15935752",
+      "9383056",
+      "35430448",
+      "11514448",
+      "18042702",
+      "27265393",
+      "36972331",
+      "21964331",
+      "24998527",
+      "23630634",
+      "10934470",
+      "20164344",
+      "16950103",
+      "24363022",
+      "35349817",
+      "37217726"
+    ],
+    "review": [
+      "37308660",
+      "19010254",
+      "27880074",
+      "24567257",
+      "19012071",
+      "21906537",
+      "34672079",
+      "31420927",
+      "20876995",
+      "24052176",
+      "32024133",
+      "20934322",
+      "17888794",
+      "19541474",
+      "16806511"
+    ],
+    "pmc": [
+      "10866131"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=37308660",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41593-023-01357-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37308660/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37308660",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37308660",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CALR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-33",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

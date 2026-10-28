@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, and supplementary declarations) as provided in the submission
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. No external data, code, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors present MethylAI, a deep learning framework that predicts single-CpG DNA methylation from genomic sequence after cross-species pretraining and human-specific fine-tuning. They claim that attribution analysis reveals transcription factor motifs that influence methylation beyond CpG composition, that these motifs are conserved across tissues, that in silico perturbation predictions match experimental CTCF knockout and mQTL data, and that GWAS variants in active motifs implicate zinc-finger transcription factors in disease.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative only), Discussion, Methods, Code availability statement, Author contributions, Competing interests, Acknowledgements
+- **Missing materials affecting confidence** All figures and extended data figures (referenced as Fig. 1a–d, Fig. 2a–i, Fig. 3a–c, Fig. 4a–f, Fig. 5a–e, Extended Data Fig. 1–10), all supplementary tables (Supplementary Tables 1, 2, 5), the companion website, and the code repository. Statistical details, model architecture diagrams, and hyperparameter tables are not visible in the provided text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely problem: learning interpretable sequence determinants of DNA methylation. The scale of the pretraining data (1,900 methylomes, 12 species) and the reported predictive accuracy (PCC 0.903) are potentially impressive. However, the provided text is a narrative summary without access to the figures, tables, or code. Several key claims, particularly those involving experimental validation and quantitative comparisons, cannot be independently assessed from the supplied material. The conceptual advance over existing models (e.g., INTERACT, HyenaDNA) is plausible but not fully demonstrated in the text. The manuscript is well written and the logic is clear, but the evidence base is incomplete for a rigorous evaluation.
+- **Who would be interested in the results, and why** Researchers in epigenomics, regulatory genomics, and computational biology would be interested in a high-accuracy, interpretable model of methylation. The connection between sequence motifs, TF binding, and methylation could interest those studying gene regulation and chromatin state. The mQTL and GWAS analyses may appeal to human geneticists studying noncoding variation. The in silico perturbation framework could be of interest to those designing synthetic regulatory elements.
+- **Major strengths** The scale of the pretraining data is a clear strength. The multi-task objective (single-site plus regional methylation) is a sensible design choice. The focus on interpretability through attribution is valuable and addresses a key limitation of many deep learning models. The attempt to validate predictions with experimental CTCF perturbation and external mQTL data is commendable. The reported performance exceeding both INTERACT and HyenaDNA, if confirmed by the figures, would be a meaningful advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that MethylAI achieves a mean PCC of 0.903 on an independent test set and outperforms INTERACT (0.813) and HyenaDNA (0.828) under matched model sizes.
+  - **Evidence pointer** Fig. 1d, Extended Data Fig. 3, Extended Data Fig. 4, location not provided
+  - **Concern** The quantitative performance claims are central to the paper's contribution, but the figures supporting them are not available in the provided text. The evaluation methodology is only partially described. It is unclear how the "independent test set" was constructed relative to the training and validation chromosomes, whether the comparison with INTERACT and HyenaDNA used identical training data, and what "matched model sizes" means in practice. The text states that the test set is chromosome 11, but the relationship between this chromosome and the pretraining data (which includes human chromosomes 1-9 and 12-22) is not fully clarified. Without the figures and a more detailed methods description, the performance claims cannot be verified.
+  - **Why it matters** The central claim of the paper is that MethylAI is a high-accuracy model. If the evaluation is not rigorous or the comparison is not fair, the entire contribution is weakened. The reader cannot assess whether the reported PCC values are robust or an artifact of the specific test set or training procedure.
+  - **Resolution test** Provide the figures and a detailed description of the train/validation/test splits, the exact training procedure for all three models, and the definition of "matched model sizes." Show that the performance advantage is consistent across multiple chromosomes and tissue types, and report confidence intervals for the PCC values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of the attribution and motif analysis
+  - **Claim pointer** The authors claim that 19.5% of TF motifs are more informative for methylation prediction than the CpG dinucleotide, and that motif activation scores (MAS) define cell-type-specific regulatory signatures.
+  - **Evidence pointer** Extended Data Fig. 6, Fig. 2c–i, Fig. 3a–c, location not provided
+  - **Concern** The attribution analysis is a key novelty of the paper, but the methodology is described only at a high level. The text states that DeepSHAP was used, but the details of how attribution scores were aggregated across motifs, how the significance threshold for "more informative than CpG" was set, and how the MAS was validated are not provided. The claim that MAS reflects cell-type identity is based on comparisons with "established biological knowledge" and PMID citations, but the quantitative evidence (e.g., enrichment statistics, comparison with known lineage markers) is not shown. The distinction between "activated" and "inactive" motifs and the choice of the ±1 kb window are not justified.
+  - **Why it matters** The biological insights derived from the attribution analysis are a major selling point. If the attribution scores are noisy or the MAS is not a robust measure, the conclusions about TF motifs and cell-type specificity may not hold. The reader cannot evaluate whether the identified motifs are truly novel or simply reflect known CpG-related features.
+  - **Resolution test** Provide a detailed description of the attribution methodology, including how DeepSHAP scores were computed and aggregated, how the significance threshold was determined, and how the MAS was validated against independent datasets (e.g., TF ChIP-seq, ATAC-seq). Show that the cell-type-specific patterns are statistically significant and not driven by a few outlier motifs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation and causal inference
+  - **Claim pointer** The authors claim that CTCF knockout experiments validated MethylAI-predicted methylation shifts, and that in silico perturbation predictions showed strong concordance with experimental data (PCC = 0.859–0.861).
+  - **Evidence pointer** Fig. 4e, Fig. 4f, location not provided
+  - **Concern** The experimental validation is a critical component of the paper, but the details are sparse. The text mentions a CTCF knockout in HEK-293T cells and a CRISPR/Cas9 deletion of a CTCF motif in the TRMU gene, but the number of replicates, the magnitude of the methylation changes, the statistical significance, and the specificity of the effect (e.g., whether methylation changes are confined to CTCF-bound regions) are not reported. The PCC of 0.859–0.861 between predicted and observed changes is mentioned, but the range of values and the number of loci tested are not given. The text does not clarify whether the in silico perturbation framework was validated on a held-out set of loci or the same loci used for training.
+  - **Why it matters** The experimental validation is the strongest evidence for the causal role of the identified motifs. If the validation is underpowered or the concordance is driven by a few loci, the claim that MethylAI can predict the effects of TF perturbation is not established. The reader cannot assess the reliability of the in silico perturbation framework.
+  - **Resolution test** Provide detailed experimental results, including the number of replicates, the distribution of methylation changes, and the statistical significance of the observed effects. Show that the concordance between predicted and observed changes is robust across a large number of loci and is not driven by a few outliers. Clarify whether the validation was performed on loci not used in model training.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and clinical relevance of GWAS findings
+  - **Claim pointer** The authors claim that GWAS variants in active motifs are enriched in tissue-specific patterns and that risk alleles are predicted to increase methylation at 83.4% of loci, implicating zinc-finger transcription factors in disease.
+  - **Evidence pointer** Fig. 5a–e, Supplementary Table 5, location not provided
+  - **Concern** The GWAS analysis is presented as a demonstration of the framework's utility, but the methodology is incomplete. The text states that 1,039 variants with defined risk alleles were analyzed, but the criteria for selecting these variants, the definition of "active motif" in this context, and the statistical framework for assessing enrichment are not described. The claim that 83.4% of risk alleles increase methylation is striking, but the baseline expectation (e.g., what fraction of random variants would be predicted to increase methylation) is not given. The tissue-specific enrichment analysis (Fig. 5c) is described qualitatively, but the statistical significance of the enrichments is not reported.
+  - **Why it matters** The GWAS analysis is intended to show the biological and clinical relevance of the framework. If the enrichment is not statistically robust or the direction of effect is not significantly different from random, the claim that MethylAI provides mechanistic insight into disease-associated variants is not supported.
+  - **Resolution test** Provide a detailed description of the variant selection criteria, the statistical test used for enrichment, and the baseline for comparison. Show that the 83.4% figure is significantly different from chance and that the tissue-specific enrichments are statistically significant after multiple testing correction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Methods section, "MethylAI pre-training and fine-tuning", location not provided
+  - **Issue** The description of the model architecture is high-level. The text mentions "multi-scale convolutional modules" and "species-specific batch normalization" but does not specify the number of layers, kernel sizes, strides, or the total parameter count. The input length (18,432 bp) is stated, but the rationale for this specific length is not given.
+  - **Required correction** Provide a detailed architecture table or a reference to a supplementary figure that specifies all hyperparameters. Justify the choice of input length.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance comparison
+  - **Evidence pointer** Fig. 1d, Extended Data Fig. 3, location not provided
+  - **Issue** The text reports mean PCC values but does not report standard deviations, confidence intervals, or the number of test samples. It is unclear whether the performance differences between MethylAI and the baselines are statistically significant.
+  - **Required correction** Report the distribution of PCC values across test samples and provide a statistical test (e.g., paired t-test or Wilcoxon signed-rank test) for the comparison with baselines.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Methods section, "Assembly of multi-species whole-methylomes", location not provided
+  - **Issue** The text states that data were collected from ENCODE, IHEC, and MethBank, but the specific accession numbers or a data availability statement are not provided. The code repository is mentioned, but it is unclear whether the pretrained model weights and the harmonized methylation compendium are included.
+  - **Required correction** Provide a data availability statement with accession numbers for all datasets used, and clarify what is included in the code repository.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of attribution scores
+  - **Affected element** Definition of "active" motifs
+  - **Evidence pointer** Methods section, "Sequence attribution score and motif analysis", location not provided
+  - **Issue** The text defines active motifs as those with attribution scores below -0.02 for UURs and hypomethylated regions, but the rationale for this threshold is not explained. It is unclear how sensitive the results are to this choice.
+  - **Required correction** Justify the threshold choice and, if possible, show that the results are robust to reasonable variations in the threshold.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figure legends
+  - **Evidence pointer** All figures, location not provided
+  - **Issue** The figure legends are not provided in the text. It is impossible to understand the exact content of each panel without them.
+  - **Required correction** Ensure that all figure legends are included in the final submission and that they clearly describe each panel.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance evaluation and comparison), R1-M2 (attribution methodology and validation), R1-M3 (experimental validation details), R1-M4 (GWAS analysis statistical rigor)
+- **Assessment against Nature-style criteria** Originality: The approach of combining cross-species pretraining with interpretable attribution for methylation prediction is a novel combination, though individual components (deep learning for methylation, attribution methods) exist. Scientific importance: DNA methylation is a fundamental regulatory mechanism, and a predictive, interpretable model could be broadly useful. The potential to link sequence variation to methylation and disease is significant. Interdisciplinary readership: The work bridges computational biology, epigenomics, and human genetics, which could attract a broad readership. Technical soundness: The technical approach is plausible, but the evidence provided in the text is insufficient to fully assess soundness. The evaluation methodology, attribution validation, and experimental details need to be presented in full. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the methods section assumes familiarity with deep learning and epigenomics. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the scale of the work is impressive, but the current submission does not provide enough evidence to fully evaluate the claims. The authors must provide the missing figures, tables, and detailed methods to allow a rigorous assessment.
+
+## Risk / unsupported claims
+- The claim that MethylAI "uncovers conserved transcription factor motifs whose influence extends beyond CpG composition" is not fully supported without the attribution analysis details and validation.
+- The claim that "activated motifs demarcate gene-body CpG islands, encode lineage-defining methylation states, and align with TF occupancy and diverse histone modifications" is not assessable without the corresponding figures and statistical tests.
+- The claim that "in silico perturbations showed strong concordance with experimental data" is not fully supported without details on the number of loci, replicates, and statistical significance.
+- The claim that "mapping sequence determinants onto GWAS variants reveals widespread connections to zinc-finger TF families" is not assessable without the enrichment statistics and multiple testing correction details.
+- The claim that MethylAI "establishes a generalizable framework for decoding the regulatory architecture of the human epigenome" is an overstatement given the limited validation presented in the text.

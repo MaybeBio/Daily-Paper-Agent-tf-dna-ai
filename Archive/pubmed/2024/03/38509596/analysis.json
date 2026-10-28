@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38509596",
+  "title": "Explicable prioritization of genetic variants by integration of rule-based and machine learning algorithms for diagnosis of rare Mendelian disorders.",
+  "authors": "Kim, Ho Heon; Kim, Dong-Wook; Woo, Junwoo; Lee, Kyoungyeul",
+  "journal": "Human genomics",
+  "published_date": "2024-03-21",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究开发基于规则和机器学习的遗传变异优先级排序算法，用于罕见孟德尔疾病诊断，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: In the process of finding the causative variant of rare diseases, accurate assessment and prioritization of genetic variants is essential. Previous variant prioritization tools mainly depend on the in-silico prediction of the pathogenicity of variants, which results in low sensitivity and difficulty in interpreting the prioritization result. In this study, we propose an explainable algorithm for variant prioritization, named 3ASC, with higher sensitivity and ability to annotate evidence used for prioritization. 3ASC annotates each variant with the 28 criteria defined by the ACMG/AMP genome interpretation guidelines and features related to the clinical interpretation of the variants. The system can explain the result based on annotated evidence and feature contributions. RESULTS: We trained various machine learning algorithms using in-house patient data. The performance of variant ranking was assessed using the recall rate of identifying causative variants in the top-ranked variants. The best practice model was a random forest classifier that showed top 1 recall of 85.6% and top 3 recall of 94.4%. The 3ASC annotates the ACMG/AMP criteria for each genetic variant of a patient so that clinical geneticists can interpret the result as in the CAGI6 SickKids challenge. In the challenge, 3ASC identified causal genes for 10 out of 14 patient cases, with evidence of decreased gene expression for 6 cases. Among them, two genes (HDAC8 and CASK) had decreased gene expression profiles confirmed by transcriptome data. CONCLUSIONS: 3ASC can prioritize genetic variants with higher sensitivity compared to previous methods by integrating various features related to clinical interpretation, including features related to false positive risk such as quality control and disease inheritance pattern. The system allows interpretation of each variant based on the ACMG/AMP criteria and feature contribution assessed using explainable AI techniques.",
+  "abstract_zh": "背景：在寻找罕见病致病变异的过程中，对遗传变异进行准确评估和优先级排序至关重要。以往的变异优先级排序工具主要依赖于对变异致病性的计算机模拟预测，这导致灵敏度较低且难以解释排序结果。在本研究中，我们提出了一种可解释的变异优先级排序算法，命名为3ASC，其具有更高的灵敏度，并能注释用于排序的证据。3ASC根据ACMG/AMP基因组解读指南定义的28条标准以及与变异临床解读相关的特征，对每个变异进行注释。该系统能够基于注释证据和特征贡献解释结果。结果：我们使用内部患者数据训练了多种机器学习算法。通过识别排名靠前变异中致病变异的召回率来评估变异排序的性能。最佳实践模型为随机森林分类器，其前1名召回率为85.6%，前3名召回率为94.4%。3ASC为患者的每个遗传变异注释ACMG/AMP标准，使临床遗传学家能够像在CAGI6 SickKids挑战赛中那样解读结果。在该挑战赛中，3ASC识别出14例患者病例中10例的致病基因，其中6例有基因表达降低的证据。其中，两个基因（HDAC8和CASK）的基因表达降低谱已通过转录组数据确认。结论：通过整合与临床解读相关的各种特征，包括与假阳性风险相关的特征（如质量控制和疾病遗传模式），3ASC能够比以往方法以更高的灵敏度对遗传变异进行优先级排序。该系统允许基于ACMG/AMP标准和通过可解释人工智能技术评估的特征贡献来解读每个变异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38509596/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38509596/",
+  "paper_page_path": "papers/pubmed/38509596/index.html"
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, and supplementary data references
+- **Assessment boundary** Scientific claims, methodology, statistical analysis, and interpretation as presented in the provided material
+- **Shared manuscript claim summary** The authors sequenced POT1 coding exons in 2928 melanoma cases and 3298 controls, identified 43 protein-altering variants, performed EMSA binding assays and molecular dynamics simulations, and concluded that pathogenic POT1 variants are present in approximately 0.5% of melanoma cases, representing a minor contributor to melanoma burden in the general population while remaining relevant for familial screening.
+- **Visible evidence base** Abstract, main text sections describing cohort composition, sequencing methods, variant classification, EMSA results, telomere length measurements, and molecular dynamics simulations; references to supplementary figures and tables
+- **Missing materials affecting confidence** Supplementary figures and tables (including detailed methods, variant lists, statistical outputs, and simulation data) were not provided; raw sequencing data and quality metrics were not available; full cohort demographic and clinical characteristics were not detailed in the visible text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question regarding the population-level contribution of POT1 variants to melanoma risk. The study design combining sequencing, functional assays, and computational analysis is commendable. However, the central conclusion that POT1 variants are a minor contributor to melanoma burden rests on a statistical comparison that does not reach conventional significance, and the functional characterization, while thorough, is limited by the absence of key supplementary data needed to fully evaluate the claims. The manuscript is potentially valuable but requires additional evidence and clarification to establish its case.
+- **Who would be interested in the results, and why** Clinical geneticists and genetic counselors involved in melanoma risk assessment would find the population frequency data useful for refining testing guidelines. Cancer biologists studying telomere biology and shelterin complex function would be interested in the functional characterization of novel variants. Researchers in melanoma genetics and hereditary cancer syndromes would value the population-based perspective on a gene previously studied primarily in familial contexts.
+- **Major strengths** The study addresses a gap in the literature by examining POT1 variants in a population-based cohort rather than only in high-risk families. The combination of sequencing, functional binding assays, and molecular dynamics simulations provides a multi-layered approach to variant characterization. The inclusion of both cases and controls from the same population enables direct frequency comparisons. The authors are appropriately cautious in interpreting non-significant results and acknowledge limitations in statistical power.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical evidence
+  - **Claim pointer** The manuscript states that 15 cases (0.51%) carried a Group 1 variant versus 8 controls (0.24%), with p value 0.08 and OR 2.11, and later concludes that POT1 variants are a minor contributor to melanoma burden in the general population.
+  - **Evidence pointer** Main text, results section on variant frequencies; location not provided
+  - **Concern** The primary evidence for the central conclusion is a case-control comparison that does not reach statistical significance (p 0.08). The authors interpret this as indicating a minor contribution, but the point estimate of the odds ratio (2.11) is not trivial, and the confidence interval (0.89 to 5.00) includes values that would represent a substantial effect. The conclusion that POT1 variants are a minor contributor is not directly supported by the statistical analysis presented.
+  - **Why it matters** The manuscript's main takeaway message for clinical practice and future research depends on establishing the population-level impact of POT1 variants. If the true effect is closer to the upper confidence limit, the contribution would not be minor. The current analysis cannot distinguish between a genuinely minor effect and insufficient statistical power.
+  - **Resolution test** Provide a power calculation demonstrating the study's ability to detect a meaningful effect size, or present a Bayesian analysis or other framework that quantifies the evidence for a minor effect. Alternatively, temper the conclusion to state that the study cannot establish a significant association, rather than claiming a minor contribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The manuscript claims that nine variants impair or disrupt POT1-telomere complex formation based on EMSA experiments, and that molecular dynamics simulations support these findings.
+  - **Evidence pointer** Main text, results sections on EMSA and molecular dynamics; figure 1A; supplementary figures 2 and 5
+  - **Concern** The EMSA results are described qualitatively without quantitative measures of binding affinity or statistical comparisons between wild-type and variant proteins. The molecular dynamics simulations are presented for only three variants, and the reported ΔΔH values range from -0.6 to 21.6 kcal/mol, a wide spread that is not clearly reconciled with the experimental binding patterns. The supplementary data that would allow assessment of these analyses were not available for review.
+  - **Why it matters** The classification of variants into pathogenicity groups depends critically on the functional assays. Without quantitative binding data and clear criteria for what constitutes "disrupted" versus "reduced" binding, the assignment of variants to Group 1 is difficult to evaluate. The molecular dynamics results are presented as corroborating evidence but the connection to the experimental data is not fully transparent.
+  - **Resolution test** Provide quantitative EMSA data with replicates and statistical analysis, define explicit thresholds for binding impairment, and clarify how the simulation results align with the experimental findings for each variant tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Variant classification
+  - **Claim pointer** The manuscript classifies 14 of 43 variants as pathogenic (Group 1), including variants with reduced binding "due to their high conservation across species" and prior evidence of pathogenicity.
+  - **Evidence pointer** Main text, results section on variant classification; supplementary figures 3 and tables 1-2
+  - **Concern** The criteria for including variants with reduced binding in Group 1 are not fully specified. The manuscript cites conservation and prior evidence for two specific variants (p.Arg117His and p.Asp224Asn), but it is unclear whether all reduced-binding variants were included or only those meeting additional criteria. The basis for including frameshift and splice acceptor variants in Group 1 without functional validation is reasonable but should be explicitly stated.
+  - **Why it matters** The frequency estimates for pathogenic variants in cases and controls depend entirely on the Group 1 classification. If the criteria are not transparent and reproducible, the central frequency estimates cannot be independently verified or compared with other studies.
+  - **Resolution test** Provide a detailed classification rubric with explicit inclusion and exclusion criteria for each group, and present the evidence for each variant's classification in a supplementary table.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Telomere length analysis
+  - **Claim pointer** The manuscript states that only individuals carrying p.Lys39Asn and p.Arg273Leu had substantially longer telomeres, while other variants showed inconsistent patterns, and that telomere length for some control individuals with pathogenic variants also increased.
+  - **Evidence pointer** Main text, results section on telomere length; figure 1B; supplementary tables 7 and figure 4
+  - **Concern** The telomere length analysis is described with percentiles but the statistical framework is not fully explained. It is unclear how many carriers were analyzed for each variant, whether the comparisons were adjusted for multiple testing, and what threshold defines "substantially longer." The observation that some control individuals with pathogenic variants have increased telomere length is intriguing but the implications for cancer risk are speculative.
+  - **Why it matters** Telomere length is presented as a functional consequence of pathogenic variants, but the inconsistent patterns across variants weaken this claim. The analysis needs to be more rigorous to support the assertion that certain variants lead to telomere elongation.
+  - **Resolution test** Provide detailed statistical methods for telomere length comparisons, including sample sizes per variant, adjustment for covariates, and multiple testing corrections. Clarify the criteria for defining "substantially longer" telomeres.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Cohort description
+  - **Evidence pointer** Main text, methods section; location not provided
+  - **Issue** The manuscript mentions "two distinct melanoma cohorts plus a population cohort" but does not provide details on the composition, recruitment periods, or clinical characteristics of these cohorts in the visible text.
+  - **Required correction** Provide a brief description of each cohort in the main text or refer clearly to supplementary methods with sufficient detail.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Odds ratio calculation
+  - **Evidence pointer** Main text, results section on variant frequencies; location not provided
+  - **Issue** The odds ratio for Group 1 variants is reported as 2.11 with 95% CI 0.89 to 5.00, but it is unclear whether this was adjusted for any covariates such as age, sex, or cohort.
+  - **Required correction** State whether the odds ratio is adjusted or unadjusted, and if adjusted, list the covariates included in the model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Comparison with familial studies
+  - **Evidence pointer** Main text, discussion section; location not provided
+  - **Concern** The manuscript notes that POT1 variants are found in 2-4% of CDKN2A/CDK4-negative families but does not discuss how the population frequency of 0.5% relates to this estimate or what factors might explain the discrepancy.
+  - **Required correction** Add a brief discussion of the relationship between familial and population-based estimates of POT1 variant frequency.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Variant list
+  - **Evidence pointer** Supplementary table 1; location not provided
+  - **Issue** The manuscript states that 43 protein-altering variants were identified, but the full list with genomic coordinates, allele frequencies, and functional annotations is only in supplementary materials.
+  - **Required correction** Ensure the supplementary variant table includes all necessary annotations and is referenced clearly in the main text.
+
+## Risk / unsupported claims
+- The claim that POT1 variants are a "minor contributor to melanoma burden" is not statistically supported by the presented data, as the case-control comparison does not reach significance.
+- The assertion that molecular dynamics simulations are "consistent with the experimental binding pattern" is difficult to evaluate without the supplementary simulation data and quantitative comparisons.
+- The statement that telomere length increases in some control individuals with pathogenic variants "may portend an increased risk of tumourigenesis" is speculative and not directly supported by the data presented.
+- The comparison of age of onset between POT1 variant carriers and non-carriers (54.7 vs 54.4 years) is based on a limited number of carriers and is not statistically analyzed, yet it is used to draw inferences about the gene's penetrance in the general population.
+- The manuscript's claim that POT1 is the "second major melanoma susceptibility gene" is based on prior literature and not directly tested in this study, but the framing implies this study provides supporting evidence.

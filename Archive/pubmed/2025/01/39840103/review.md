@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, data availability, ethics statement, author contributions, conflict of interest, publisher's note, supplementary material note, acknowledgements)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text. Assessment is limited to the information contained within the supplied material; supplementary figures and tables are referenced but not independently evaluated.
+- **Shared manuscript claim summary** The authors identify ALEKSIN, a natural compound, as a novel multi-IRF inhibitor targeting the DNA-binding domains of IRF1, IRF2, and IRF8 with equal affinity. They report that ALEKSIN inhibits IRF target gene expression in human microvascular endothelial cells (HMECs) in response to IFNα and IFNγ, and also inhibits STAT phosphorylation, potentially via low-affinity SH2 binding. Genome-wide transcriptomic analysis shows common inhibition of pro-inflammatory IRF/STAT/NF-κB target genes by ALEKSIN and the known STAT inhibitor STATTIC, as well as inhibition of HMEC migration. A 46-gene signature of commonly inhibited pro-atherogenic genes is identified, which is upregulated in atherosclerotic plaques of high-fat diet-fed ApoEKO mice and linked to macrophage subtypes in LDLR-KO mice.
+- **Missing materials affecting confidence** Supplementary figures (S1–S5), Supplementary tables (S1–S3), Table 1 (PCR primers), Table 2 (compound details), Table 3 (top 25 genes), and the full RNA-seq analysis details are not provided. These are essential for evaluating the robustness of the transcriptomic data, the specificity of the inhibitor, and the statistical significance of the findings.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting approach to identifying multi-IRF inhibitors for vascular inflammation. The in silico screening strategy is logical and builds on prior work from the same group. However, the current evidence base is insufficient to fully support the central claims. The key weaknesses are the lack of direct biochemical evidence for ALEKSIN binding to IRF DBDs, the reliance on transcriptomic data without clear validation of the most important hits, and the absence of dose-response or specificity data. The manuscript would benefit from a more rigorous demonstration that ALEKSIN's effects are mediated through direct IRF inhibition rather than off-target effects.
+- **Who would be interested in the results, and why** Researchers in vascular biology, inflammation, and drug discovery would be interested. The concept of multi-IRF inhibition as a therapeutic strategy for atherosclerosis is novel and could have translational relevance. The identification of a gene signature for monitoring plaque progression could also be of interest to those working on biomarkers.
+- **Major strengths**
+  - The hypothesis that multi-IRF inhibition could be a therapeutic strategy for atherosclerosis is well-justified by the literature.
+  - The in silico screening approach is systematic and builds logically on the authors' previous work with STAT inhibitors.
+  - The combination of in vitro, transcriptomic, and in vivo mouse model data provides a multi-layered approach.
+  - The identification of a 46-gene signature with potential translational relevance is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct target engagement
+  - **Claim pointer** The manuscript claims ALEKSIN is a "multi-IRF inhibitor" that "targets the DBD of IRF1, IRF2, and IRF8 with the same affinity."
+  - **Evidence pointer** Results section "Identification of pI05, pI011, and pI013 as novel multi IRF-DBD inhibitory compounds"; Figure 1B; Materials and Methods "Virtual screening of small-compound libraries"
+  - **Concern** The claim of direct binding to IRF DBDs is based solely on in silico docking. No experimental validation (e.g., surface plasmon resonance, isothermal titration calorimetry, or cellular thermal shift assay) is provided to confirm that ALEKSIN actually binds to these proteins. The functional data (inhibition of target gene expression) could be explained by off-target effects or indirect mechanisms.
+  - **Why it matters** The central premise of the manuscript is that ALEKSIN is a direct multi-IRF inhibitor. Without biochemical evidence of binding, the mechanism of action remains speculative, and the compound could be acting through entirely different pathways.
+  - **Resolution test** Provide direct binding data (e.g., SPR, ITC, or MST) for ALEKSIN against IRF1, IRF2, and IRF8 DBDs. Alternatively, demonstrate that a negative control compound with similar physicochemical properties but no predicted binding does not inhibit IRF target gene expression.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** The manuscript claims ALEKSIN inhibits "IRF- and STAT-mediated transcription" and shows "common inhibition of pro-inflammatory IRF/STAT/NF-κB target genes."
+  - **Evidence pointer** Results sections "ALEKSIN inhibits IFNα and IFNγ-induced IRF target gene expression and STAT phosphorylation" and "ALEKSIN and STATTIC commonly inhibit the cross-talk between IFNγ and LPS in an IRF/STAT-dependent manner"; Figures 2, 3, 4, 5
+  - **Concern** The manuscript does not address the specificity of ALEKSIN. It is unclear whether the compound affects other transcription factor families or has general transcriptional inhibitory effects. The claim that ALEKSIN inhibits NF-κB-mediated transcription is based on promoter analysis, but no direct measurement of NF-κB activity is provided. Additionally, the low-affinity binding to STAT-SH2 domains is inferred from docking alone.
+  - **Why it matters** For a compound to be a useful therapeutic lead, its specificity profile is critical. If ALEKSIN is a promiscuous inhibitor, its therapeutic potential is limited. The manuscript's claims about pathway specificity are not sufficiently supported.
+  - **Resolution test** Perform RNA-seq with ALEKSIN treatment alone (without IFNγ/LPS stimulation) to assess baseline transcriptional changes. Use a panel of transcription factor reporter assays to test specificity. Provide direct evidence for NF-κB inhibition (e.g., p65 phosphorylation or reporter assay).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose-response and potency
+  - **Claim pointer** The manuscript states ALEKSIN inhibits target gene expression at concentrations of 10 or 20 μM, but no dose-response data are shown.
+  - **Evidence pointer** Results section "ALEKSIN inhibits IFNα and IFNγ-induced IRF target gene expression and STAT phosphorylation"; Figure 2
+  - **Concern** Only two concentrations (10 and 20 μM) are tested, and no IC50 values are reported. The manuscript does not demonstrate a clear dose-response relationship. The concentrations used are relatively high, raising questions about physiological relevance.
+  - **Why it matters** Dose-response data are essential for understanding the potency of a compound and for comparing it to existing inhibitors. Without this, it is difficult to assess the practical utility of ALEKSIN.
+  - **Resolution test** Perform a full dose-response experiment (e.g., 0.1–100 μM) for ALEKSIN on IRF target gene expression and calculate IC50 values. Include a known inhibitor as a positive control.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The manuscript reports differential gene expression and pathway enrichment, but the statistical methods and effect sizes are not fully described.
+  - **Evidence pointer** Results sections "ALEKSIN and STATTIC commonly inhibit the cross-talk between IFNγ and LPS in an IRF/STAT-dependent manner" and "A subset of ALEKSIN and STATTIC commonly inhibited genes is upregulated during HFD-induced atherosclerotic plaque formation"; Figures 5, 8, 9
+  - **Concern** The RNA-seq analysis is described briefly, and the criteria for defining differentially expressed genes and the statistical tests used are not fully specified. The overlap between human and mouse gene sets is presented without a clear statistical framework (e.g., hypergeometric test). The single-cell RNA-seq analysis is mentioned but not described in the methods.
+  - **Why it matters** The robustness of the transcriptomic findings depends on appropriate statistical analysis. Without clear methods, the reliability of the 46-gene signature and the pathway enrichment results cannot be assessed.
+  - **Resolution test** Provide a detailed description of the RNA-seq analysis pipeline, including quality control, alignment, differential expression testing, and multiple testing correction. Report the number of biological replicates and the statistical significance of the overlap between datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and Methods, "Protein model preparation"
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The description of homology modeling is vague. The specific templates used, the sequence identity, and the validation of the models are not described.
+  - **Required correction** Provide details on the template structures, sequence alignment, and model quality metrics (e.g., Ramachandran plot, QMEAN score).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The compound is referred to as "ALEKSIN" but the ZINC code (ZINC9547778) is only mentioned in the methods. The chemical structure and source of the compound should be clearly stated in the results.
+  - **Required correction** Include the chemical structure or a reference to it, and consistently use the name ALEKSIN with the ZINC code in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 2, 3, 4
+  - **Evidence pointer** Results section
+  - **Issue** The figures are described but not shown in the provided text. The quality of the Western blots and the quantification methods are not described.
+  - **Required correction** Ensure that all figures include appropriate molecular weight markers, loading controls, and statistical annotations. Describe the quantification method (e.g., densitometry) in the methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not address the limitations of the study, such as the lack of in vivo efficacy data for ALEKSIN, the absence of pharmacokinetic properties, and the potential for off-target effects.
+  - **Required correction** Add a paragraph discussing the limitations of the study and future directions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of direct binding evidence for ALEKSIN to IRF DBDs.
+  - R1-M2: Insufficient specificity data to support the claim of multi-IRF inhibition.
+  - R1-M3: Incomplete dose-response data.
+  - R1-M4: Incomplete statistical details for transcriptomic analyses.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The concept of multi-IRF inhibition is a logical extension of the authors' prior work on multi-STAT inhibitors. The specific compound and the gene signature are novel, but the overall approach is not entirely new.
+  - **Scientific importance** Moderate. The findings could have implications for understanding the role of IRFs in vascular inflammation and for developing new therapeutic strategies. However, the lack of mechanistic depth limits the current impact.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to researchers in vascular biology, immunology, and drug discovery. The clinical relevance is speculative at this stage.
+  - **Technical soundness** The in silico and in vitro approaches are generally sound, but the lack of direct binding data and incomplete statistical details weaken the technical rigor.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written but uses specialized terminology that may be challenging for nonspecialists. The abstract is clear, but the results section is dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and preliminary data, but the central claim of ALEKSIN as a direct multi-IRF inhibitor is not supported by the evidence provided. The authors need to provide direct binding data, demonstrate specificity, and strengthen the statistical analysis of their transcriptomic data.
+
+## Risk / unsupported claims
+- The claim that ALEKSIN "targets the DBD of IRF1, IRF2, and IRF8 with the same affinity" is unsupported by direct experimental evidence.
+- The claim that ALEKSIN inhibits NF-κB-mediated transcription is not directly tested.
+- The claim that ALEKSIN inhibits STAT phosphorylation "potentially through low-affinity STAT-SH2 binding" is speculative and based on docking alone.
+- The 46-gene signature is presented as a potential biomarker, but its clinical relevance is not established.
+- The statement that ALEKSIN "could offer great promise for the treatment of CVDs" is overstated given the lack of in vivo efficacy data.

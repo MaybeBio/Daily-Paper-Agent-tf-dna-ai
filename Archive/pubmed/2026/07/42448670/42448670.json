@@ -1,0 +1,639 @@
+{
+  "identity": {
+    "pmid": "42448670",
+    "doi": "10.1038/s41392-026-02799-x",
+    "title": "Multiomic profiling of responses to clinical and novel bisphosphonates reveals extraskeletal effects on ageing related signatures."
+  },
+  "content": {
+    "abstract": "Bisphosphonates (BPs) have been used effectively to treat excessive bone loss for over 50 years. Recent clinical evidence suggests extra-skeletal benefits but how this occurs remains unknown. Here we use a panel of human, murine and cellular assessments to chart BP-induced ageing-related changes both systemically and at local organ sites. In vivo spatial transcriptomics in aged mice treated with zoledronate showed a shift in cellular composition towards that of young animals specifically in heart, liver and intestine, with upregulation of genes governing detoxification, mitochondrial stability, energy metabolism, and antioxidation. A 5000-plex randomized trial based human proteomic analysis showed significant alterations in ~400 proteins after zoledronate treatment, with downregulation of proteins linked to genomic instability, proteostasis loss, mitochondrial dysfunction, stem cell exhaustion, and SASPs. Fluorescent labeling and tracing confirmed uptake of bisphosphonates by non-skeletal cells. In addition, low doses of several common, clinically utilized BPs stimulated growth and protected against DNA damage-induced senescence in multiple human cell types, with strongest effects in cardiomyocytes. Finally, proteome-wide target deconvolution with AlphaFold identified previously unrecognized binding partners, including PHB2 and ASAH1, and downstream upregulation of MEF2A was validated to be a key mediator of zoledronate triggered benefits in cardiomyocytes. Collectively, these results identify potential geroprotective mechanisms for BP action in multiple non-skeletal tissues.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Aging/genetics/drug effects/pathology",
+      "Prohibitins",
+      "Mice",
+      "*Zoledronic Acid/pharmacology",
+      "*Diphosphonates/pharmacology",
+      "Proteomics",
+      "Multiomics",
+      "Repressor Proteins/genetics",
+      "Cellular Senescence/drug effects",
+      "Myocytes, Cardiac/drug effects/metabolism/pathology",
+      "Proteome/genetics",
+      "DNA Damage/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Jinsen",
+        "Rao, Srinivasa Rao",
+        "Knowles, Helen",
+        "Zhan, Haoqun",
+        "Gamez, Beatriz",
+        "Qin, Mingyu",
+        "Platt, Eleanor",
+        "Frost, Lucy R",
+        "Allen, Tiffany-Jayne",
+        "Marshall, Gayle",
+        "Huber, Kilian V M",
+        "Bauer, Ludwig G",
+        "Vendrell, Iolanda",
+        "O'Brien, Darragh P",
+        "Kessler, Benedikt",
+        "Horne, Anne",
+        "Reid, Ian R",
+        "Bountra, Chas",
+        "Kirkland, James L",
+        "Khosla, Sundeep",
+        "Ebetino, Frank H",
+        "Roldan, Emilio",
+        "Russell, R Graham G",
+        "Edwards, James R"
+      ],
+      "short_names": [
+        "Lu J",
+        "Rao SR",
+        "Knowles H",
+        "Zhan H",
+        "Gamez B",
+        "Qin M",
+        "Platt E",
+        "Frost LR",
+        "Allen TJ",
+        "Marshall G",
+        "Huber KVM",
+        "Bauer LG",
+        "Vendrell I",
+        "O'Brien DP",
+        "Kessler B",
+        "Horne A",
+        "Reid IR",
+        "Bountra C",
+        "Kirkland JL",
+        "Khosla S",
+        "Ebetino FH",
+        "Roldan E",
+        "Russell RGG",
+        "Edwards JR"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1032-1641",
+        "ORCID: 0000-0002-5839-1150",
+        "ORCID: 0000-0002-1103-5300",
+        "ORCID: 0000-0003-1676-4905",
+        "ORCID: 0000-0002-2936-4372"
+      ],
+      "affiliations": [
+        "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK.",
+        "Nuffield Department of Surgical Sciences, University of Oxford, Oxford, UK.",
+        "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK.",
+        "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK.",
+        "Nuffield Department of Surgical Sciences, University of Oxford, Oxford, UK.",
+        "Department of Biochemistry, University of Oxford, Oxford, UK.",
+        "Medicines Discovery Catapult, Cheshire, UK.",
+        "Medicines Discovery Catapult, Cheshire, UK.",
+        "Medicines Discovery Catapult, Cheshire, UK.",
+        "Medicines Discovery Catapult, Cheshire, UK.",
+        "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Faculty of Medical and Health Sciences, University of Auckland, Auckland, NZ, New Zealand.",
+        "Faculty of Medical and Health Sciences, University of Auckland, Auckland, NZ, New Zealand.",
+        "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+        "Center for Advanced Gerotherapeutics, Cedars-Sinai Health Sciences University, Los Angeles, USA.",
+        "Robert and Arlene Kogod Center on Aging, Mayo Clinic, Rochester, MN, USA.",
+        "BioVinc LLC, Pasadena, CA, US.",
+        "Department of Chemistry, University of Rochester, Rochester, NY, USA.",
+        "Qualix DoT, Barcelona, Spain.",
+        "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK.",
+        "Mellanby Centre for Bone Research, Division of Clinical Medicine, School of Medicine and Population Health, University of Sheffield Medical School, Sheffield, UK.",
+        "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK. James.Edwards@ndorms.ox.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Jinsen",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Rao, Srinivasa Rao",
+        "short_name": "Rao SR",
+        "identifiers": [],
+        "affiliations": [
+          "Nuffield Department of Surgical Sciences, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Knowles, Helen",
+        "short_name": "Knowles H",
+        "identifiers": [],
+        "affiliations": [
+          "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Zhan, Haoqun",
+        "short_name": "Zhan H",
+        "identifiers": [
+          "0009-0003-1032-1641"
+        ],
+        "affiliations": [
+          "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Gamez, Beatriz",
+        "short_name": "Gamez B",
+        "identifiers": [],
+        "affiliations": [
+          "Nuffield Department of Surgical Sciences, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Qin, Mingyu",
+        "short_name": "Qin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Platt, Eleanor",
+        "short_name": "Platt E",
+        "identifiers": [],
+        "affiliations": [
+          "Medicines Discovery Catapult, Cheshire, UK."
+        ]
+      },
+      {
+        "full_name": "Frost, Lucy R",
+        "short_name": "Frost LR",
+        "identifiers": [],
+        "affiliations": [
+          "Medicines Discovery Catapult, Cheshire, UK."
+        ]
+      },
+      {
+        "full_name": "Allen, Tiffany-Jayne",
+        "short_name": "Allen TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Medicines Discovery Catapult, Cheshire, UK."
+        ]
+      },
+      {
+        "full_name": "Marshall, Gayle",
+        "short_name": "Marshall G",
+        "identifiers": [
+          "0000-0002-5839-1150"
+        ],
+        "affiliations": [
+          "Medicines Discovery Catapult, Cheshire, UK."
+        ]
+      },
+      {
+        "full_name": "Huber, Kilian V M",
+        "short_name": "Huber KVM",
+        "identifiers": [
+          "0000-0002-1103-5300"
+        ],
+        "affiliations": [
+          "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+          "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Bauer, Ludwig G",
+        "short_name": "Bauer LG",
+        "identifiers": [],
+        "affiliations": [
+          "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+          "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Vendrell, Iolanda",
+        "short_name": "Vendrell I",
+        "identifiers": [],
+        "affiliations": [
+          "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+          "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Darragh P",
+        "short_name": "O'Brien DP",
+        "identifiers": [],
+        "affiliations": [
+          "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+          "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Kessler, Benedikt",
+        "short_name": "Kessler B",
+        "identifiers": [],
+        "affiliations": [
+          "Target Discovery Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+          "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Horne, Anne",
+        "short_name": "Horne A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medical and Health Sciences, University of Auckland, Auckland, NZ, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Reid, Ian R",
+        "short_name": "Reid IR",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medical and Health Sciences, University of Auckland, Auckland, NZ, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Bountra, Chas",
+        "short_name": "Bountra C",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Medicines Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Kirkland, James L",
+        "short_name": "Kirkland JL",
+        "identifiers": [
+          "0000-0003-1676-4905"
+        ],
+        "affiliations": [
+          "Center for Advanced Gerotherapeutics, Cedars-Sinai Health Sciences University, Los Angeles, USA."
+        ]
+      },
+      {
+        "full_name": "Khosla, Sundeep",
+        "short_name": "Khosla S",
+        "identifiers": [
+          "0000-0002-2936-4372"
+        ],
+        "affiliations": [
+          "Robert and Arlene Kogod Center on Aging, Mayo Clinic, Rochester, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Ebetino, Frank H",
+        "short_name": "Ebetino FH",
+        "identifiers": [],
+        "affiliations": [
+          "BioVinc LLC, Pasadena, CA, US.",
+          "Department of Chemistry, University of Rochester, Rochester, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Roldan, Emilio",
+        "short_name": "Roldan E",
+        "identifiers": [],
+        "affiliations": [
+          "Qualix DoT, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Russell, R Graham G",
+        "short_name": "Russell RGG",
+        "identifiers": [],
+        "affiliations": [
+          "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK.",
+          "Mellanby Centre for Bone Research, Division of Clinical Medicine, School of Medicine and Population Health, University of Sheffield Medical School, Sheffield, UK."
+        ]
+      },
+      {
+        "full_name": "Edwards, James R",
+        "short_name": "Edwards JR",
+        "identifiers": [],
+        "affiliations": [
+          "Botnar Research Centre, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK. James.Edwards@ndorms.ox.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Signal transduction and targeted therapy"
+    ],
+    "journal_abbrev": [
+      "Signal Transduct Target Ther"
+    ],
+    "pub_date": "2026 Jul 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/15 00:34",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38372109",
+      "38297158",
+      "37744358",
+      "37534876",
+      "37524128",
+      "37249610",
+      "37190120",
+      "37154858",
+      "37008050",
+      "36889532",
+      "36599349",
+      "36464699",
+      "36229504",
+      "36035203",
+      "35974106",
+      "35953721",
+      "35948750",
+      "35847846",
+      "35805927",
+      "35625883",
+      "35262727",
+      "35163444",
+      "34967731",
+      "34901876",
+      "34896359",
+      "34731014",
+      "34585443",
+      "34206757",
+      "34137822",
+      "33911272",
+      "33801212",
+      "33694194",
+      "33429726",
+      "33398526",
+      "33394731",
+      "33328614",
+      "33262144",
+      "33155651",
+      "33127577",
+      "32953444",
+      "32938494",
+      "32765216",
+      "32745686",
+      "32734512",
+      "32686219",
+      "32600410",
+      "32565177",
+      "32541321",
+      "32503272",
+      "32404427",
+      "32353565",
+      "31911206",
+      "31823822",
+      "31752184",
+      "31182679",
+      "31061481",
+      "30885136",
+      "30827244",
+      "30575489",
+      "30283141",
+      "30267620",
+      "30096489",
+      "29960711",
+      "29745899",
+      "29457036",
+      "29288540",
+      "29133976",
+      "29121237",
+      "29082518",
+      "28808351",
+      "28751160",
+      "28708471",
+      "28501938",
+      "28337806",
+      "28107624",
+      "27513349",
+      "27400896",
+      "26954700",
+      "26811636",
+      "26679354",
+      "26579808",
+      "26271141",
+      "25641511",
+      "25312016",
+      "25243855",
+      "25163397",
+      "25142231",
+      "25101824",
+      "24189759",
+      "23351827",
+      "23151944",
+      "23144624",
+      "23133318",
+      "22956190",
+      "22743772",
+      "22260818",
+      "22178594",
+      "22095289",
+      "22044205",
+      "22005788",
+      "22003964",
+      "21864229",
+      "21647691",
+      "21611145",
+      "21555003",
+      "21335425",
+      "21334668",
+      "21273176",
+      "20962674",
+      "20804742",
+      "20736091",
+      "20661545",
+      "20519142",
+      "20422624",
+      "20137969",
+      "19950011",
+      "19818098",
+      "19812672",
+      "19399780",
+      "19004061",
+      "18371232",
+      "18214569",
+      "17878149",
+      "16734383",
+      "15608256",
+      "15041119",
+      "14645853",
+      "12417561",
+      "12414621",
+      "11719835",
+      "11687178",
+      "11014344",
+      "10574973",
+      "10415748",
+      "10068336",
+      "9259555",
+      "3124942"
+    ],
+    "similar": [
+      "42448670",
+      "40196558",
+      "23969228",
+      "39150724",
+      "33085409",
+      "33112656",
+      "29253322",
+      "21555003",
+      "37154858",
+      "38856931",
+      "39633372",
+      "33754023",
+      "38774750",
+      "39143739",
+      "40680680",
+      "41492949",
+      "40668091",
+      "37321216",
+      "39743213",
+      "41090219",
+      "38818468",
+      "39117176",
+      "42381624",
+      "40849623",
+      "41524558",
+      "36321557",
+      "30737259",
+      "40449275",
+      "32392088",
+      "22592688",
+      "30713248",
+      "24971713",
+      "21807448",
+      "40659856",
+      "39058663",
+      "30527623",
+      "42489764",
+      "40308032",
+      "42123991",
+      "36533424",
+      "34162223",
+      "41548430",
+      "34896359",
+      "41114743",
+      "17913751",
+      "41279511",
+      "41707042",
+      "28978553",
+      "24140868",
+      "30586718",
+      "38634483",
+      "29342113",
+      "40401376",
+      "12933798",
+      "23969227",
+      "31155589",
+      "37815776",
+      "34246718",
+      "38879891",
+      "37758809",
+      "37828898",
+      "24625975",
+      "42442596",
+      "41065752",
+      "41936938",
+      "42034026",
+      "26174609",
+      "24968029",
+      "40948769",
+      "39468666",
+      "34674708",
+      "35836799",
+      "14625850",
+      "39961359",
+      "40506534",
+      "29188452",
+      "41111389",
+      "39247818",
+      "19744312",
+      "25461393",
+      "42276073",
+      "36880649",
+      "42249421",
+      "41392890",
+      "42083524",
+      "33754036",
+      "30926440",
+      "22005011",
+      "42216755",
+      "42251941",
+      "38718959",
+      "41747078",
+      "42133166",
+      "42181963",
+      "19857619",
+      "39892313",
+      "28030852",
+      "42299666",
+      "41802509",
+      "40593378"
+    ],
+    "review": [
+      "42448670",
+      "39150724",
+      "29253322",
+      "21555003",
+      "36321557",
+      "22592688",
+      "17913751",
+      "38634483",
+      "29342113",
+      "26174609",
+      "40506534"
+    ],
+    "pmc": [
+      "13370019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41392-026-02799-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42448670/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

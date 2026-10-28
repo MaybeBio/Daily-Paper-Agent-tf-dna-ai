@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.03.429484",
+  "title": "DeepDRIM: a deep neural network to reconstruct cell-type-specific gene regulatory network using single-cell RNA-Seq Data",
+  "authors": "Chen J; Cheong C; Lan L; Zhou X; Liu J; Lyu A; Cheung WK; Zhang L",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-03",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 4,
+  "one_liner_zh": "用深度神经网络从单细胞RNA-Seq重建细胞类型特异性基因调控网络，但对象为基因调控网络而非蛋白质-DNA互作，缺乏TF-DNA结合建模与三维互作机制研究。",
+  "abstract": "<h4> A bstract </h4> Single-cell RNA sequencing is used to capture cell-specific gene expression, thus allowing reconstruction of gene regulatory networks. The existing algorithms struggle to deal with dropouts and cellular heterogeneity, and commonly require pseudotime-ordered cells. Here, we describe DeepDRIM a supervised deep neural network that represents gene pair joint expression as images and considers the neighborhood context to eliminate the transitive interactions. Deep-DRIM yields significantly better performance than the other nine algorithms used on the eight cell lines tested, and can be used to successfully discriminate key functional modules between patients with mild and severe symptoms of coronavirus disease 2019 (COVID-19).",
+  "abstract_zh": "<h4>摘要</h4> 单细胞RNA测序用于捕获细胞特异性基因表达，从而能够重建基因调控网络。现有算法难以处理缺失值和细胞异质性，并且通常需要伪时间排序的细胞。在此，我们描述了DeepDRIM，一种监督式深度神经网络，它将基因对联合表达表示为图像，并考虑邻域上下文以消除传递性相互作用。Deep-DRIM在测试的八个细胞系上，性能显著优于其他九种算法，并能成功区分2019冠状病毒病（COVID-19）轻症与重症患者之间的关键功能模块。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.03.429484",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.03.429484",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.03.429484/index.html"
+}

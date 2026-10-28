@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42070473",
+  "title": "Integrative network pharmacology and molecular simulations reveal the Anti-DKD potential of Pedalium murex phytocompounds via TNF-alpha and NF-kappaB inhibition.",
+  "authors": "Das, Soumik; Rajeswari V, Devi",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2026-05-04",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用网络药理学和分子对接/动力学模拟研究植物化合物与TNF-alpha/NF-kappaB蛋白的相互作用，虽涉及蛋白-小分子对接和MD，但对象为蛋白-小分子而非蛋白质-DNA互作，且未涉及TF-DNA结合或核酸互作建模，仅方法部分可迁移，故评分较低。",
+  "abstract": "Diabetic kidney disease (DKD) is a major contributor to chronic kidney failure and is closely associated with inflammatory pathways, particularly those involving TNF-alpha and NF-kappaB. In this study, phytocompounds from Pedalium murex were computationally assessed for their potential therapeutic roles in DKD using a multi-step in silico pipeline. 29 phytochemicals were initially retrieved from the IMPPAT database, and eight were shortlisted based on ADME and toxicity profiling. Target prediction using SwissTargetPrediction and STITCH identified 267 compound-associated genes with 160 overlapping DKD-related genes obtained from the GeneCards and OMIM databases (n = 4904). Protein-protein interaction (PPI) analysis using STRING and Cytoscape revealed NF-kappaB and TNF-alpha as key hub genes, which were further validated through functional enrichment and KEGG pathway analysis, highlighting the AGE-RAGE signalling pathway in diabetic complications. Structural validation using QMEANDisCo, Ramachandran plots, and ProSA confirmed the reliability of the protein target. Molecular docking predicted energetically favourable binding confirmations of Episesamin (-5.52 kcal/mol for TNF-alpha and -6.5 kcal/mol for NF-kappaB) and Sesamolin (-5.75 kcal/mol for TNF-alpha and -6.99 kcal/mol for NF-kappaB) compared to the control drug, Dapagliflozin (-5.39 kcal/mol for TNF-alpha and -5.16 kcal/mol for NF-kappaB). MDS over 200 ns demonstrated stable interactions of the ligands with the protein targets through RMSD, RMSF, Rg, SASA, H-bond, PCA, FEL, and MM-PBSA analyses. Sesamolin exhibited superior binding to NF-kappaB, whereas Episesamin showed a stronger affinity for TNF-alpha. These findings suggest that P. murex-derived compounds, particularly Episesamin and Sesamolin, emerge as computationally prioritized candidates for further experimental validation in DKD-associated inflammatory pathways.",
+  "abstract_zh": "糖尿病肾病（DKD）是慢性肾衰竭的主要诱因，并与炎症通路密切相关，尤其是涉及TNF-alpha和NF-kappaB的通路。在本研究中，来自刺蒺藜（Pedalium murex）的植物化合物通过多步骤计算机模拟流程，对其在DKD中的潜在治疗作用进行了计算评估。最初从IMPPAT数据库中检索到29种植物化学物质，基于ADME和毒性分析筛选出8种。使用SwissTargetPrediction和STITCH进行靶点预测，鉴定出267个化合物相关基因，其中160个与从GeneCards和OMIM数据库（n = 4904）获得的DKD相关基因重叠。利用STRING和Cytoscape进行的蛋白质-蛋白质相互作用（PPI）分析揭示NF-kappaB和TNF-alpha为关键枢纽基因，并通过功能富集和KEGG通路分析进一步验证，突出显示糖尿病并发症中的AGE-RAGE信号通路。使用QMEANDisCo、Ramachandran图和ProSA进行的结构验证确认了蛋白质靶点的可靠性。分子对接预测了Episesamin（对TNF-alpha为-5.52 kcal/mol，对NF-kappaB为-6.5 kcal/mol）和Sesamolin（对TNF-alpha为-5.75 kcal/mol，对NF-kappaB为-6.99 kcal/mol）相较于对照药物Dapagliflozin（对TNF-alpha为-5.39 kcal/mol，对NF-kappaB为-5.16 kcal/mol）具有能量上有利的结合构象。超过200 ns的MDS通过RMSD、RMSF、Rg、SASA、H-bond、PCA、FEL和MM-PBSA分析表明配体与蛋白质靶点之间的稳定相互作用。Sesamolin对NF-kappaB表现出更优的结合，而Episesamin对TNF-alpha显示出更强的亲和力。这些发现表明，来自P. murex的化合物，特别是Episesamin和Sesamolin，成为在DKD相关炎症通路中进一步实验验证的计算优先候选物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42070473/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42070473/",
+  "paper_page_path": "papers/pubmed/42070473/index.html"
+}

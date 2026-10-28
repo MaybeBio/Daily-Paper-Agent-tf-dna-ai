@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary figure/table descriptions
+- **Assessment boundary** Scientific content, methodological rigor, claims versus evidence, and alignment with Nature-style criteria
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that glycans in the Lili-Mip lipocalin protein locally stabilize residues near the lipid-binding portal, induce collective opening-closing motions, restrict barrel depth, and allosterically modulate lipid binding orientation, with network analysis identifying key residues involved in these effects.
+- **Visible evidence base** Main text figures (Figs 1-7), supplementary figures (S1-S5), supplementary tables (S1-S8), simulation methods description, and system setup table (Table I)
+- **Missing materials affecting confidence** Full simulation parameter files, convergence criteria, force field validation details, replicate information, error bars on all quantitative claims, and complete hydrogen bond occupancy data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a molecular dynamics study of a glycosylated lipocalin protein, Lili-Mip, and claims that glycans modulate lipid binding through allosteric effects on barrel geometry and dynamics. The topic is of interest to the glycobiology and lipid transport communities, and the use of a natively crystallized glycoprotein as a model system is a strength. However, the manuscript has several technical and presentational issues that currently prevent the claims from being fully established. The simulation methodology lacks key details on sampling and convergence, the analysis is largely qualitative with insufficient statistical treatment, and the connection between observed dynamics and functional outcomes (lipid binding, release) is speculative. The network analysis is a useful addition but its interpretation requires more careful validation. The manuscript would benefit from clearer presentation of methods, additional quantitative analyses, and a more cautious framing of conclusions relative to the evidence provided.
+- **Who would be interested in the results, and why** Researchers in glycobiology, lipid transport proteins, and molecular dynamics simulation of glycoconjugates would be interested. The work addresses a fundamental question about how glycans influence protein dynamics and ligand binding in a lipocalin, which has implications for understanding nutrient transport in insects and potentially for designing glycoprotein-based nutritional supplements. The methodological approach combining MD simulation with network analysis may also interest computational biophysicists studying allostery.
+- **Major strengths** 1) Use of a physiologically relevant, natively crystallized glycoprotein structure as the simulation starting point. 2) Systematic comparison of multiple glycosylation states and ligand-bound/free conditions. 3) Combination of multiple analysis techniques (RMSD, RMSF, PCA, DCCM, barrel profiling, network analysis) to characterize dynamics. 4) The observation of distinct lipid orientations in glycosylated versus deglycosylated states is a potentially interesting finding. 5) The network analysis provides a framework for identifying key residues mediating glycan effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "glycans allosterically modulate the barrel profile" and that this leads to "restriction of barrel depth" in glycosylated systems.
+  - **Evidence pointer** Section III.C, Figure 6
+  - **Concern** The barrel profile analysis relies on a single simulation per condition (no replicates are mentioned). The differences in barrel depth (1.5 Å) and radius (0.6 Å) between conditions are small and may be within statistical uncertainty. No error bars or standard deviations are shown for the mean barrel profiles in Figure 6, despite the text mentioning "maximal standard deviation from the mean radius" as dashed lines. It is unclear how many independent simulations were performed and whether the observed differences are reproducible. Additionally, the choice of barrel axis definition and the exclusion of "topmost regions of the portal" are not fully justified.
+  - **Why it matters** The central claim of allosteric modulation of barrel geometry by glycans depends on statistically robust differences in barrel dimensions. Without replicates and proper error analysis, the observed differences could be due to insufficient sampling rather than genuine glycan effects.
+  - **Resolution test** Provide at least 3 independent simulations per condition, show time-averaged barrel profiles with standard errors, and perform statistical tests (e.g., bootstrap or t-test) comparing barrel depths and radii between conditions. Alternatively, show that the differences are consistent across multiple analysis time windows.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "a complete ligand re-orientation takes place in Lili-Mip due to the glycans" with the lipid being "tethered headfirst in the barrel" in deglycosylated form versus "confined to the portal surface" in glycosylated form.
+  - **Evidence pointer** Section III.B, Figures 4 and 5
+  - **Concern** The lipid orientation analysis appears to be based on visual inspection of representative snapshots (Figure 4b,c) and hydrogen bond analysis. No quantitative measure of lipid orientation (e.g., angle between lipid axis and barrel axis) is provided as a function of time. The claim of "complete re-orientation" requires a quantitative time series showing that the lipid remains in one orientation for the majority of the trajectory in each condition. Additionally, the hydrogen bond analysis (Figure 5c) shows distributions but no occupancy percentages or lifetimes, making it difficult to assess the stability of the interactions.
+  - **Why it matters** The lipid orientation difference is a key finding that links glycosylation to lipid binding mode. Without quantitative evidence, the claim of a "complete" re-orientation is not supported.
+  - **Resolution test** Calculate the angle between the lipid principal axis and the barrel axis as a function of time for all simulations. Show histograms or time series demonstrating distinct preferred orientations in glycosylated versus deglycosylated systems. Report hydrogen bond occupancies and lifetimes for key lipid-residue interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that network analysis reveals "the role of glycans in the subtle rewiring of residues crucial for determining the barrel depth and lipid orientation."
+  - **Evidence pointer** Section III.D, Figure 7, Tables S6-S8
+  - **Concern** The network analysis methodology is described briefly but key parameters are missing. The edge definition (7 Å cutoff) is stated, but the weighting scheme, the normalization of centrality scores, and the statistical significance of differences between conditions are not described. The ΔΔCPL calculation is mentioned but the threshold for "significant" changes is not justified. The authors state that residues with scores in the 4th quartile are considered important, but this arbitrary cutoff may include or exclude relevant residues without statistical justification. Furthermore, the connection between network centrality changes and functional outcomes (barrel depth, lipid orientation) is asserted rather than demonstrated.
+  - **Why it matters** The network analysis is presented as a key methodological contribution, but without rigorous statistical treatment and validation, the identified "hotspots" may not be robust or functionally meaningful.
+  - **Resolution test** Provide a detailed description of the network construction and centrality calculations. Perform statistical comparisons of centrality scores between conditions (e.g., bootstrap or permutation tests). Validate the identified key residues by showing that mutations or deletions of these residues in additional simulations alter barrel properties or lipid orientation as predicted.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "glycans may actually be involved in the expulsion of the lipid, thus making it easily available for nutrient consumption."
+  - **Evidence pointer** Section III.D, Conclusion
+  - **Concern** This functional claim extends beyond the simulation data. The simulations show differences in lipid orientation and dynamics, but no free energy calculations, binding affinity estimates, or kinetic analyses are provided to support a role in lipid release. The claim of "expulsion" implies a functional mechanism that is not directly tested.
+  - **Why it matters** The functional interpretation is important for the broader significance of the work, but it is currently speculative. Overstating functional implications without supporting evidence weakens the manuscript.
+  - **Resolution test** Perform free energy calculations (e.g., umbrella sampling or metadynamics) to estimate the free energy profile for lipid unbinding in glycosylated versus deglycosylated states. Alternatively, rephrase the claim to be explicitly speculative and clearly separated from the simulation results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Section I
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction provides extensive background on the beetle and milk protein biology but does not clearly state the specific gap in knowledge that this study addresses. The transition from general glycoprotein biology to the specific questions about Lili-Mip is abrupt.
+  - **Required correction** Add a paragraph at the end of the introduction that clearly states the open questions and how the current study addresses them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section II.B
+  - **Evidence pointer** Location not provided
+  - **Issue** The equilibration protocol is described as 125 ps, which is very short for a glycosylated protein system. No information is provided on how equilibration was assessed (e.g., energy convergence, density stabilization).
+  - **Required correction** Provide details on equilibration assessment and justify the short equilibration time, or extend the equilibration period.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section II.B
+  - **Evidence pointer** Location not provided
+  - **Issue** The simulation length is stated as 800 ns, but no information is provided on whether this is sufficient for convergence of the observed properties. No block averaging or convergence analysis is shown.
+  - **Required correction** Add a convergence analysis (e.g., running averages of RMSD, barrel radius) to demonstrate that the simulations are sufficiently long for the claims made.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section II.C
+  - **Evidence pointer** Location not provided
+  - **Issue** The PCA analysis is mentioned but no details are provided on how many principal components were retained, what fraction of variance they capture, or how the "slowest mode" was identified.
+  - **Required correction** Provide details on the PCA methodology and the variance captured by the modes discussed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Section III.A
+  - **Evidence pointer** Figure 2
+  - **Issue** The RMSD and RMSF results are described in text but the figure labels and captions are not provided in the manuscript text. It is difficult to assess the claims without seeing the actual data.
+  - **Required correction** Ensure all figures are included with clear captions and that the text refers to specific panels.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section III.B
+  - **Evidence pointer** Figure 5
+  - **Issue** The hydrogen bond analysis is described as showing "sustained and specific hydrogen bonding" in deglycosylated Lili-Mip, but no quantitative occupancy data are provided in the text.
+  - **Required correction** Report hydrogen bond occupancies and lifetimes for the key interactions mentioned.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, Section III.D
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of the biological implications of the findings is brief and does not connect the simulation results to the broader context of lipocalin function or glycoprotein biology.
+  - **Required correction** Expand the discussion to place the findings in the context of other lipocalin and glycoprotein studies, and discuss potential experimental validation.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract uses technical terms (e.g., "allosterically modulate," "barrel depth") without defining them for a general audience.
+  - **Required correction** Briefly define key terms or provide context in the abstract to make it accessible to a broader readership.
+
+## Risk / unsupported claims
+- The claim that glycans "regulate the low amplitude opening motions of the residues at the entrance of the binding pocket" is based on PCA and correlation analysis but lacks quantitative measures of opening amplitude or frequency.
+- The claim that "glycans allosterically modulate the barrel profile" is based on single simulations per condition without statistical replication.
+- The claim of "complete ligand re-orientation" is based on qualitative visual inspection rather than quantitative orientation analysis.
+- The functional claim that glycans are "involved in the expulsion of the lipid" is speculative and not supported by free energy or kinetic calculations.
+- The network analysis claims of "rewiring" and "hotspots" lack statistical validation and may not be robust.
+- The statement that "glycans do not affect the overall pocket volume" (referring to prior work) is mentioned but not directly tested in this study.
+- The order of assembly speculation (lipid first, then glycosylation) is presented as a "secondary inference" but is not directly tested by the simulation setup.

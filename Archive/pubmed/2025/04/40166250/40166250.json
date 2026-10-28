@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "40166250",
+    "doi": "10.1101/2025.03.18.644040",
+    "title": "Genomic Language Model for Predicting Enhancers and Their Allele-Specific Activity in the Human Genome."
+  },
+  "content": {
+    "abstract": "Predicting and deciphering the regulatory logic of enhancers is a challenging problem, due to the intricate sequence features and lack of consistent genetic or epigenetic signatures that can accurately discriminate enhancers from other genomic regions. Recent machine-learning based methods have spotlighted the importance of extracting nucleotide composition of enhancers but failed to learn the sequence context and perform suboptimally. Motivated by advances in genomic language models, we developed DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. We trained two different models, using large collection of enhancers curated from the ENCODE registry of candidate cis-Regulatory Elements. The best fine-tuned model achieved 88.05% accuracy with Matthews correlation coefficient of 76% on independent set aside data. Further, we present the analysis of the predicted enhancers for all chromosomes of the human genome by comparing with the enhancer regions reported in publicly available databases. Finally, we applied DNABERT-Enhancer along with other DNABERT based regulatory genomic region prediction models to predict candidate SNPs with allele-specific enhancer and transcription factor binding activity. The genome-wide enhancer annotations and candidate loss-of-function genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sathian, Rekha",
+        "Dutta, Pratik",
+        "Ay, Ferhat",
+        "Davuluri, Ramana V"
+      ],
+      "short_names": [
+        "Sathian R",
+        "Dutta P",
+        "Ay F",
+        "Davuluri RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7053-1064"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Sathian, Rekha",
+        "short_name": "Sathian R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dutta, Pratik",
+        "short_name": "Dutta P",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ay, Ferhat",
+        "short_name": "Ay F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Davuluri, Ramana V",
+        "short_name": "Davuluri RV",
+        "identifiers": [
+          "0000-0002-7053-1064"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Mar 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 06:26",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40166250",
+      "42723633",
+      "24967590",
+      "27490187",
+      "33538820",
+      "35082832",
+      "30589856",
+      "29855387",
+      "23424115",
+      "36043696",
+      "41576119",
+      "32689977",
+      "41096905",
+      "36715222",
+      "39367524",
+      "28605766",
+      "42475469",
+      "28683716",
+      "35410163",
+      "36520922",
+      "41993329",
+      "34226917",
+      "40203028",
+      "28716036",
+      "28589862",
+      "39519295",
+      "32443951",
+      "21875935",
+      "30286077",
+      "31221079",
+      "31228310",
+      "30917778",
+      "26912062",
+      "35887306",
+      "34486522",
+      "26091399",
+      "25035418",
+      "38870532",
+      "35417351",
+      "36030022",
+      "33581335",
+      "36510125",
+      "37539835",
+      "34541447",
+      "31969180",
+      "35473573",
+      "37600946",
+      "32961076",
+      "32732264",
+      "29378629",
+      "37830459",
+      "41330946",
+      "37012250",
+      "40592697",
+      "30598455",
+      "23972280",
+      "29335803",
+      "42487110",
+      "30905396",
+      "30905748",
+      "41693594",
+      "23512712",
+      "30696717",
+      "40001940",
+      "41283958",
+      "33973014",
+      "41862973",
+      "41310253",
+      "23685394",
+      "39838281",
+      "34529725",
+      "24714811",
+      "35435921",
+      "33184104",
+      "31039173",
+      "26966274",
+      "24920305",
+      "39420601",
+      "28359301",
+      "37387536",
+      "34635154",
+      "40881170",
+      "35062021",
+      "40160857",
+      "23650633",
+      "41229401",
+      "40605274",
+      "31565573",
+      "36070311",
+      "34491989",
+      "20624780",
+      "25984238",
+      "24614317",
+      "25378307",
+      "33515242",
+      "41527074",
+      "27662874",
+      "25461775",
+      "28239713",
+      "37852600"
+    ],
+    "review": [
+      "40166250",
+      "32443951",
+      "32961076",
+      "37830459",
+      "41862973",
+      "23685394",
+      "40881170",
+      "23650633",
+      "24614317"
+    ],
+    "pmc": [
+      "11957021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40166250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.18.644040",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

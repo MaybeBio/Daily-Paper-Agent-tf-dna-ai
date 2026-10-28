@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, Data availability, Footnotes)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text. Figures, tables, and supplementary materials are referenced but not directly examined.
+- **Shared manuscript claim summary** The authors introduce MPBA, a high-throughput in-cell assay for measuring TF binding to designed DNA sequence libraries. Applying it to yeast regulatory regions, they report that TF binding is largely explained by independent contributions of individual motifs, with motif cooperativity being rare and of limited effect, challenging the general role of combinatorial motif usage in directing TF genomic binding.
+- **Visible evidence base** Text descriptions of results, methods, and figure references (Figures 1-7, S1-S8, Supplementary Tables 1-5). No actual data, figures, or numerical values are directly visible in the provided material.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, numerical data, statistical analyses, and code. The manuscript text alone is insufficient to verify the quantitative claims, the performance of the method, or the robustness of the conclusions.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious and potentially valuable new method (MPBA) for measuring TF binding to large libraries of designed sequences in living yeast cells. The central claim, that motif cooperativity is rare and that TF binding is largely additive, is provocative and of broad interest. However, the provided text alone does not allow verification of the key quantitative results, the statistical rigor, or the generality of the conclusions. The evidence as described is suggestive but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying transcription factor binding specificity, gene regulatory network evolution, cis-regulatory logic, and chromatin biology. The method itself will be of interest to those developing high-throughput approaches for measuring protein-DNA interactions in vivo. The challenge to the prevailing model of combinatorial binding will be of interest to a broad readership in molecular biology and genomics.
+- **Major strengths** The development of a new, direct, and temporally controlled method for measuring TF binding to designed sequences in cells is a significant technical contribution. The systematic design of libraries mutating all motif combinations is a rigorous approach to dissecting motif dependencies. The inclusion of multiple control experiments (e.g., GRFs, Msn2 mutant, different contexts) strengthens the internal logic of the study. The focus on a fundamental and debated question in gene regulation gives the work high potential impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and statistical rigor
+  - **Claim pointer** The claim that "with few exceptions, TF occupancies were well explained by independent binding to individual motifs, with motif cooperation being of only limited effects" (Abstract) and the global statement that "motif cooperativity is rare" (Discussion).
+  - **Evidence pointer** Results sections "Cross-motif dependencies: Recruitment vs. Cooperation", "Msn2 and Sok2 occupancy at regulatory regions...", "Large-scale testing of motif interactions"; Figures 2I-J, 4I, 7H-I.
+  - **Concern** The central quantitative claim rests on the "cooperation score" and the classification of motif pairs as cooperative or independent. The text describes the calculation but does not provide the distribution of scores, the thresholds used to define "cooperativity" or "limited effects," or the statistical significance of the differences between observed and expected occupancies. The statement that 589/606 pairs (97%) were independent is a key statistic, but the criteria for this classification are not defined in the text. Furthermore, the power of the assay to detect cooperativity is not established; the control experiment with two variable positions within the same motif (Figure 4I) is mentioned but its quantitative result is not given.
+  - **Why it matters** The main conclusion of the paper is a negative result (cooperativity is rare). The validity of this conclusion depends entirely on the assay's sensitivity and the statistical robustness of the classification. Without seeing the data distribution, thresholds, and error bars, it is impossible to assess whether the assay would have detected cooperativity if it were present at a functionally relevant level.
+  - **Resolution test** Provide the full distribution of cooperation scores for all pairs, clearly defined thresholds for "cooperativity" and "independence," and error estimates for the scores. Show the results of the positive control (the same-motif pair) quantitatively. Include a power analysis or a discussion of the assay's dynamic range for detecting cooperative effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and scope of claims
+  - **Claim pointer** The claim that the results "challenge the general role of motif combinatorics in directing TF genomic binding" (Abstract) and "largely refute the role of motif combinatorics in explaining the binding specificity" (Discussion).
+  - **Evidence pointer** Results sections "Large-scale testing of motif interactions", "Msn2 and Sok2 occupancy..."; Figures 7A-I.
+  - **Concern** The study tests a limited number of TFs (dozens) and regulatory regions (68), selected based on being bound by multiple TFs. The text notes that high occupancies were seen for some TFs (Stp1, Mot3, Cbf1, GRFs) but that a large fraction showed intermediate occupancies of <20-30%. The claim of generality is a strong inference from a dataset that may be biased towards specific types of regulatory regions and may under-represent TFs that require cooperative interactions for stable binding. The selection criteria for the 68 regions and the 39 TFs are not fully detailed, and the potential for selection bias is not discussed.
+  - **Why it matters** The paper's title and abstract make a broad claim about the limited role of cooperativity in TF binding specificity. If the dataset is not representative of the full diversity of TF binding modes or regulatory region architectures, the conclusion may be overgeneralized. The authors need to justify the representativeness of their sample or temper their conclusions.
+  - **Resolution test** Provide a detailed description of the selection criteria for TFs and regions. Discuss the potential for selection bias. Analyze whether the TFs with low occupancy in the assay are those that might be most dependent on cooperative interactions. Consider rephrasing the conclusions to be more specific to the tested set of TFs and regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation and interpretation
+  - **Claim pointer** The claim that MPBA "captures motif binding and nucleosome eviction by the General Regulatory Factors" and that the assay "simulates" the binding and nucleosome-organizing role of TFs.
+  - **Evidence pointer** Results sections "MPBA captures motif binding and nucleosome eviction...", "Msn2 and Sok2 occupancy..."; Figures 1C-D, 2A-E, 4E-H.
+  - **Concern** The text states that MPBA measures binding via depletion of unbound sequences after MNase cleavage. The interpretation of this depletion as "occupancy" (the fraction of cells in which the sequence is bound) is a key assumption. The text does not fully address potential artifacts, such as the kinetics of MNase cleavage, the accessibility of the plasmid DNA, or the possibility of indirect effects (e.g., chromatin changes) influencing depletion rates. The comparison of plasmid-based results to genomic binding (e.g., for nucleosome eviction) is described but the quantitative agreement is not shown.
+  - **Why it matters** The validity of all downstream analyses (cooperation scores, motif dependencies) depends on the accuracy of the occupancy measurement. If the assay is not a faithful proxy for true binding occupancy, the conclusions about cooperativity could be artifacts of the method.
+  - **Resolution test** Provide a more detailed validation of the occupancy measurement, including controls for MNase cleavage efficiency and specificity. Show a direct quantitative comparison between MPCA-derived occupancies and independent measures of binding (e.g., ChIP-seq) for the tested TFs and regions. Discuss the potential for systematic biases in the depletion-based readout.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods section "MPBA"
+  - **Evidence pointer** Materials and methods, "MPBA" subsection.
+  - **Issue** The description of the MPBA protocol is dense and lacks some critical details for reproducibility, such as the exact number of cells sorted, the sorting gate strategy, the number of biological replicates, and the criteria for "poorly bound sequence control."
+  - **Required correction** Expand the methods to include these specific parameters and a more detailed step-by-step protocol, possibly as a supplementary protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results sections describing cooperation scores and occupancies.
+  - **Evidence pointer** Figures 2J, 4I, 7H-I.
+  - **Issue** The text reports averages and percentages (e.g., "less than 10%", "589/606 pairs") but does not consistently report measures of variability (e.g., standard deviation, confidence intervals) or the number of replicates for each measurement.
+  - **Required correction** Add error bars and statistical test results to all relevant figures and report the number of replicates (n) for each condition in the figure legends and text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of controls
+  - **Affected element** Results section "Cross-motif dependencies: Recruitment vs. Cooperation"
+  - **Evidence pointer** Figure 2F-I.
+  - **Issue** The distinction between "recruitment" and "cooperativity" is clear conceptually, but the text does not fully explain how the experimental design can distinguish between a TF being recruited by another TF (which would show dependence on the recruiting motif) and a TF binding independently to its own motif. The example of Abf1 depending on a Reb1 motif is given, but the interpretation of this as "recruitment" rather than a direct, low-affinity binding of Abf1 to the Reb1 motif is not fully discussed.
+  - **Required correction** Clarify the criteria for classifying a dependency as "recruitment" versus "cooperativity" and discuss alternative interpretations of the observed cross-motif dependencies.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible quantitative data and statistical analysis to support the central claim of limited cooperativity. The definition and sensitivity of the cooperation score are not established. The representativeness of the tested TFs and regions for the general claim is not justified. The validation of the occupancy measurement as a true proxy for binding is incomplete.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The MPBA method is a novel technical advance, and the systematic test of the cooperativity model addresses a fundamental question in a new way.
+  - **Scientific importance** High. The question of how TFs achieve specificity in vivo is central to gene regulation. A challenge to the prevailing model, if well-supported, would be a significant contribution.
+  - **Interdisciplinary readership** Moderate to high. The work will appeal to molecular biologists, genomicists, and computational biologists. The methodological advance may also interest a broader bioengineering audience.
+  - **Technical soundness** Not fully assessable from the provided text. The logic is sound, but the quantitative evidence is missing. The sensitivity and controls of the new method need to be demonstrated with data.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results and methods sections are dense and will be challenging for nonspecialists, but this is typical for a methods-heavy paper.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and method are promising, and the question is important. However, the central claim is currently not established from the provided evidence. The authors must provide the full quantitative dataset, a rigorous statistical framework for defining cooperativity, and a clear demonstration of the assay's sensitivity and validity.
+
+## Risk / unsupported claims
+- The claim that "motif cooperativity is rare" is unsupported without the full distribution of cooperation scores and a defined threshold.
+- The claim that the results "challenge the general role of motif combinatorics" is an overgeneralization from a potentially biased sample of TFs and regions.
+- The claim that MPBA "captures" nucleosome eviction is not fully supported without a direct quantitative comparison to genomic nucleosome data.
+- The interpretation of cross-motif dependencies as "recruitment" versus "cooperativity" is not fully validated.
+- The statement that "589/606 pairs (97%) were independent" is a key statistic but is presented without the criteria for classification or error estimates.

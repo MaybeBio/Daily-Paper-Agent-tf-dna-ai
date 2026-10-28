@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "37679058",
+    "doi": "10.1002/advs.202301136",
+    "title": "Use of Deep-Learning Assisted Assessment of Cardiac Parameters in Zebrafish to Discover Cyanidin Chloride as a Novel Keap1 Inhibitor Against Doxorubicin-Induced Cardiotoxicity."
+  },
+  "content": {
+    "abstract": "Doxorubicin-induced cardiomyopathy (DIC) brings tough clinical challenges as well as continued demand in developing agents for adjuvant cardioprotective therapies. Here, a zebrafish phenotypic screening with deep-learning assisted multiplex cardiac functional analysis using motion videos of larval hearts is established. Through training the model on a dataset of 2125 labeled ventricular images, ZVSegNet and HRNet exhibit superior performance over previous methods. As a result of high-content phenotypic screening, cyanidin chloride (CyCl) is identified as a potent suppressor of DIC. CyCl effectively rescues cardiac cell death and improves heart function in both in vitro and in vivo models of Doxorubicin (Dox) exposure. CyCl shows strong inhibitory effects on lipid peroxidation and mitochondrial damage and prevents ferroptosis and apoptosis-related cell death. Molecular docking and thermal shift assay further suggest a direct binding between CyCl and Keap1, which may compete for the Keap1-Nrf2 interaction, promote nuclear accumulation of Nrf2, and subsequentially transactivate Gpx4 and other antioxidant factors. Site-specific mutation of R415A in Keap1 significantly attenuates the protective effects of CyCl against Dox-induced cardiotoxicity. Taken together, the capability of deep-learning-assisted phenotypic screening in identifying promising lead compounds against DIC is exhibited, and new perspectives into drug discovery in the era of artificial intelligence are provided.",
+    "keywords": [
+      "Keap1-Nrf2 interaction",
+      "cyanidin chloride",
+      "deep learning",
+      "doxorubicin",
+      "zebrafish phenotypic screen"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Cardiotoxicity/etiology/prevention & control",
+      "Zebrafish/metabolism",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "NF-E2-Related Factor 2/genetics/metabolism/pharmacology",
+      "Artificial Intelligence",
+      "*Deep Learning",
+      "Molecular Docking Simulation",
+      "Oxidative Stress",
+      "Doxorubicin/toxicity",
+      "Anthocyanins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Changtong",
+        "Wang, Yingchao",
+        "Zeng, Yixin",
+        "Kang, Zirong",
+        "Zhao, Hong",
+        "Qi, Kun",
+        "Wu, Hongzhi",
+        "Zhao, Lu",
+        "Wang, Yi"
+      ],
+      "short_names": [
+        "Liu C",
+        "Wang Y",
+        "Zeng Y",
+        "Kang Z",
+        "Zhao H",
+        "Qi K",
+        "Wu H",
+        "Zhao L",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3676-9183"
+      ],
+      "affiliations": [
+        "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "Innovation Institute for Artificial Intelligence in Medicine of Zhejiang University, 291 Fucheng Road, Qiantang District, Hangzhou, 310020, China.",
+        "State Key Lab of CAD&CG, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "State Key Lab of CAD&CG, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "State Key Lab of CAD&CG, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+        "Innovation Institute for Artificial Intelligence in Medicine of Zhejiang University, 291 Fucheng Road, Qiantang District, Hangzhou, 310020, China.",
+        "National Key Laboratory of Chinese Medicine Modernization, Innovation Center of Yangtze River Delta, Zhejiang University, 314100, Jiaxing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Changtong",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingchao",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+          "Innovation Institute for Artificial Intelligence in Medicine of Zhejiang University, 291 Fucheng Road, Qiantang District, Hangzhou, 310020, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yixin",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Lab of CAD&CG, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Zirong",
+        "short_name": "Kang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Lab of CAD&CG, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hong",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Kun",
+        "short_name": "Qi K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongzhi",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Lab of CAD&CG, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lu",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-3676-9183"
+        ],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, 866 Yuhangtang Road, Xihu District, Hangzhou, 310058, China.",
+          "Innovation Institute for Artificial Intelligence in Medicine of Zhejiang University, 291 Fucheng Road, Qiantang District, Hangzhou, 310020, China.",
+          "National Key Laboratory of Chinese Medicine Modernization, Innovation Center of Yangtze River Delta, Zhejiang University, 314100, Jiaxing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/08 00:42",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "42602851",
+      "42465990",
+      "42169673",
+      "41514628",
+      "41477663",
+      "41245663",
+      "41045342",
+      "41015772",
+      "40851365",
+      "40734910",
+      "40620466",
+      "40264673",
+      "40227202",
+      "40122800",
+      "39437623",
+      "39309838",
+      "38464725"
+    ],
+    "refs": [
+      "36563141",
+      "36113464",
+      "36100148",
+      "35983964",
+      "35857625",
+      "35679360",
+      "34879870",
+      "34040723",
+      "33818106",
+      "33795647",
+      "33652780",
+      "33495651",
+      "33472669",
+      "33353986",
+      "32986405",
+      "32776015",
+      "32726054",
+      "32413317",
+      "32376803",
+      "32275864",
+      "32213135",
+      "31737171",
+      "31359052",
+      "31209361",
+      "30745842",
+      "30692261",
+      "30483123",
+      "29074412",
+      "28771720",
+      "28554511",
+      "28428026",
+      "27457538",
+      "27031670",
+      "26579458",
+      "26491536",
+      "26440532",
+      "26361349",
+      "26057936",
+      "25583992",
+      "25504881",
+      "25169180",
+      "24366543",
+      "24108435",
+      "23494977",
+      "22632970",
+      "22129334",
+      "21757652",
+      "20388839",
+      "19751820",
+      "17785452",
+      "17652819",
+      "17599610",
+      "17581586",
+      "17524543",
+      "16790436",
+      "15169927",
+      "12950077",
+      "11731422",
+      "6093249",
+      "3042244"
+    ],
+    "similar": [
+      "37679058",
+      "37030624",
+      "32500386",
+      "35776077",
+      "38672439",
+      "34170670",
+      "36070662",
+      "35298357",
+      "36309811",
+      "39095755",
+      "36108374",
+      "32947073",
+      "23896563",
+      "35881422",
+      "33574984",
+      "37807075",
+      "32770451",
+      "24211725",
+      "35669855",
+      "31918264",
+      "31167117",
+      "34954266",
+      "31630478",
+      "37013966",
+      "37056939",
+      "30735010",
+      "28801166",
+      "35977659",
+      "31283229",
+      "27573160",
+      "35684398",
+      "26025579",
+      "36949340",
+      "26721592",
+      "32866756",
+      "35093381",
+      "27312421",
+      "32105749",
+      "37364691",
+      "31412289",
+      "34462843",
+      "36330913",
+      "39178797",
+      "38945490",
+      "24895528",
+      "33706097",
+      "32032607",
+      "37499777",
+      "36934645",
+      "31781322",
+      "37259756",
+      "31225944",
+      "29064158",
+      "32219872",
+      "31599006",
+      "32958254",
+      "37822721",
+      "29693453",
+      "34526248",
+      "33539906",
+      "36918950",
+      "35383293",
+      "31679277",
+      "31376936",
+      "35007682",
+      "34278476",
+      "35332348",
+      "30396094",
+      "26878775",
+      "32902980",
+      "33134382",
+      "30861618",
+      "25936432",
+      "34388345",
+      "33502009",
+      "36646002",
+      "34226516",
+      "35468014",
+      "28616764",
+      "27031670",
+      "39079260",
+      "32161178",
+      "37030337",
+      "28922986",
+      "36723004",
+      "31279986",
+      "36272670",
+      "34461498",
+      "33166928",
+      "28636290",
+      "29455993",
+      "37499433",
+      "32828016",
+      "37824478",
+      "37187359",
+      "32564647",
+      "32672401",
+      "36587710",
+      "31630586",
+      "38145663",
+      "37718569",
+      "38037990",
+      "35849306",
+      "38619251"
+    ],
+    "review": [
+      "37679058",
+      "28801166",
+      "35977659",
+      "36918950"
+    ],
+    "pmc": [
+      "10602559"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37679058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37679058",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

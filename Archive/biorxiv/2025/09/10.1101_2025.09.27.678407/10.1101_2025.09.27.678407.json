@@ -1,0 +1,463 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.27.678407",
+  "title": "BindPred: A Framework for Predicting Protein-Protein Binding Affinity from Language Model Embeddings",
+  "doi": "10.1101/2025.09.27.678407",
+  "abstract": "Motivation Reliable predictions of protein–protein binding affinities are essential for molecular biology and therapeutic discovery. However, most computational methods rely on three-dimensional structural models, which are often unavailable for many complexes. Results We introduce BindPred, a structure-agnostic input framework that predicts affinities directly from amino acid sequences by combining embeddings from large protein language models with gradient boosting trees. On the PPB-Affinity benchmark, which comprises 11,919 diverse complexes, BindPred achieves a Pearson correlation coefficient of 0.86 in random split five-fold cross-validation, where the training and test sets share <30% global sequence identity. Ablation analysis indicates that evolutionary embeddings alone capture most of the predictive signals, while augmenting with physics-based energy terms from PyRosetta and BindCraft increases the correlation by only 0.01. A more stringent protein-level split that places entire protein families (wild-type and all mutants) exclusively in either training or testing sets, results in only a modest decline in performance, demonstrating robust generalization to novel interaction pairs. Because BindPred operates exclusively on sequence input, it enables rapid inference (approximately 3 million complexes per GPU (T4) hour), making proteome-scale screening computationally feasible. Availability The pretrained model and inference pipeline are available in a Google Colab notebook: BindPred Colab notebook . The training dataset, code, and model weights are available on the Hugging Face: BindPred Contact costas@psu.edu Supplementary information Supplementary data are available at Bioinformatics online.",
+  "authors": [
+    "Haixing Piao",
+    "Veda Sheersh Boorla",
+    "Somtirtha Santra",
+    "Costas D. Maranas"
+  ],
+  "published_date": "2025-09-29",
+  "updated_date": "2025-09-29T23:25:29Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678407",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678407.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:15:32Z",
+        "timestamp": 1785417332424,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 40,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T00:00:00Z",
+            "timestamp": 1759104000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100014456",
+          "name": "Center for Bioenergy Innovation",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/100014456",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/01bj3aw27",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00mmn6b08",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/0114b2m14",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Reliable predictions of protein–protein binding affinities are essential for molecular biology and therapeutic discovery. However, most computational methods rely on three-dimensional structural models, which are often unavailable for many complexes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We introduce BindPred, a structure-agnostic input framework that predicts affinities directly from amino acid sequences by combining embeddings from large protein language models with gradient boosting trees. On the PPB-Affinity benchmark, which comprises 11,919 diverse complexes, BindPred achieves a Pearson correlation coefficient of 0.86 in random split five-fold cross-validation, where the training and test sets share &lt;30% global sequence identity. Ablation analysis indicates that evolutionary embeddings alone capture most of the predictive signals, while augmenting with physics-based energy terms from PyRosetta and BindCraft increases the correlation by only 0.01. A more stringent protein-level split that places entire protein families (wild-type and all mutants) exclusively in either training or testing sets, results in only a modest decline in performance, demonstrating robust generalization to novel interaction pairs. Because BindPred operates exclusively on sequence input, it enables rapid inference (approximately 3 million complexes per GPU (T4) hour), making proteome-scale screening computationally feasible.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The pretrained model and inference pipeline are available in a Google Colab notebook:\n                    <jats:underline>BindPred Colab notebook</jats:underline>\n                    . The training dataset, code, and model weights are available on the Hugging Face: BindPred\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>costas@psu.edu</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>\n                    Supplementary data are available at\n                    <jats:italic>Bioinformatics</jats:italic>\n                    online.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.09.27.678407",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2025-09-29T23:25:29Z",
+        "timestamp": 1759188329000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "BindPred: A Framework for Predicting Protein-Protein Binding Affinity from Language Model Embeddings"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Haixing",
+          "family": "Piao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Veda Sheersh",
+          "family": "Boorla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Somtirtha",
+          "family": "Santra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Costas D.",
+          "family": "Maranas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.7b00125"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.3",
+          "unstructured": "Banerjee, S. , Karimi, M. , Yilmaz, M. , Jaakkola, T. , Dubrov, B. , Shang, S. , & Benson, R. (2020). Pi-SAGE: Permutation-invariant surface-aware graph encoder for binding affinity prediction. Retrieved August 11, 2025, from Arxiv.org website: https://arxiv.org/html/2508.01924v1"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1052"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25260"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-28865-w"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq007"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c01641"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-34232-6"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-025-88445-y"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.STR.2021.01.005"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.06.21.600041"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty635"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae480"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26821"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.05.622169"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41597-024-03997-4"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0028766"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00439-021-02411-y"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1111471108"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-09429-6"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.2c01237"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaf192"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-024-05737-2"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22689"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2021.08.010"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-8760-3_12"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-05122-7"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1113"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.03.09.642188"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.39",
+          "article-title": "Benchmarking AlphaFold3’s protein-protein complex accuracy and machine learning prediction reliability for binding free energy changes upon mutation",
+          "year": "2024",
+          "journal-title": "ArXiv"
+        },
+        {
+          "key": "2025100301100924000_2025.09.27.678407v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.05.14.594226"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.27.678407",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:14:57Z",
+        "timestamp": 1782278097000
+      },
+      "score": 120.29909,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.27.678407"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "references-count": 40,
+      "URL": "https://doi.org/10.1101/2025.09.27.678407",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btag309",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39214282",
+  "title": "Deciphering the Language of Protein-DNA Interactions: A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling.",
+  "authors": "Liu, Yu-Chen; Lin, Yi-Jing; Chang, Yan-Yun; Chuang, Cheng-Che; Ou, Yu-Yen",
+  "journal": "Journal of molecular biology",
+  "published_date": "2024-08-31",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用预训练蛋白语言模型与多尺度CNN从序列预测DNA结合残基，属广义蛋白-DNA互作且方法可迁移至TF-DNA研究，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "Deciphering the mechanisms governing protein-DNA interactions is crucial for understanding key cellular processes and disease pathways. In this work, we present a powerful deep learning approach that significantly advances the computational prediction of DNA-interacting residues from protein sequences. Our method leverages the rich contextual representations learned by pre-trained protein language models, such as ProtTrans, to capture intrinsic biochemical properties and sequence motifs indicative of DNA binding sites. We then integrate these contextual embeddings with a multi-window convolutional neural network architecture, which scans across the sequence at varying window sizes to effectively identify both local and global binding patterns. Comprehensive evaluation on curated benchmark datasets demonstrates the remarkable performance of our approach, achieving an area under the ROC curve (AUC) of 0.89 - a substantial improvement over previous state-of-the-art sequence-based predictors. This showcases the immense potential of pairing advanced representation learning and deep neural network designs for uncovering the complex syntax governing protein-DNA interactions directly from primary sequences. Our work not only provides a robust computational tool for characterizing DNA-binding mechanisms, but also highlights the transformative opportunities at the intersection of language modeling, deep learning, and protein sequence analysis. The publicly available code and data further facilitate broader adoption and continued development of these techniques for accelerating mechanistic insights into vital biological processes and disease pathways. In addition, the code and data for this work are available at https://github.com/B1607/DIRP.",
+  "abstract_zh": "解析蛋白质-DNA相互作用的机制对于理解关键细胞过程和疾病通路至关重要。在本研究中，我们提出了一种强大的深度学习方法，显著推进了从蛋白质序列中计算预测DNA相互作用残基的能力。我们的方法利用预训练蛋白质语言模型（如ProtTrans）学到的丰富上下文表示，以捕捉指示DNA结合位点的内在生化特性和序列基序。随后，我们将这些上下文嵌入与多窗口卷积神经网络架构相结合，该架构以不同窗口大小扫描序列，有效识别局部和全局结合模式。在精选基准数据集上的全面评估展示了我们方法的卓越性能，实现了ROC曲线下面积（AUC）为0.89——较先前最先进的基于序列的预测器有显著提升。这展示了将先进表示学习与深度神经网络设计相结合，直接从初级序列中揭示蛋白质-DNA相互作用复杂语法的巨大潜力。我们的工作不仅为表征DNA结合机制提供了稳健的计算工具，还强调了语言建模、深度学习和蛋白质序列分析交叉领域的变革性机遇。公开可用的代码和数据进一步促进了这些技术的广泛采用和持续发展，以加速对关键生物过程和疾病通路的机制性洞察。此外，本工作的代码和数据可在https://github.com/B1607/DIRP获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39214282/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39214282/",
+  "paper_page_path": "papers/pubmed/39214282/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.08.663633",
+  "title": "EPEPDI: prediction of binding free energy changes from missense mutations in double and single-stranded DNA-binding proteins",
+  "authors": "Xuan Yu",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-11",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用预训练蛋白语言模型嵌入和多通道深度学习框架EPEPDI预测双链/单链DNA结合蛋白错义突变引起的结合自由能变化，属于广义蛋白-DNA互作结合亲和力预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性结合机制。",
+  "abstract": "Predicting changes in binding free energy due to missense mutations (MMs) in protein-DNA interactions (PDIs) is vital for understanding disease mechanisms and advancing therapeutic strategies. However, many existing models fail to account for the unique characteristics of MMs in double-stranded DNA binding proteins (DSBs) and single-stranded DNA binding proteins (SSBs). To address this, we constructed a comprehensive dataset from diverse sources, clearly distinguishing between DSBs and SSBs. Using sequence-based embeddings from pre-trained protein language models, including ESM2, ProtTrans, and ESM1v, we developed EPEPDI, a deep learning framework that integrates these embeddings through a multi-channel architecture. To refine predictive accuracy, we introduced an information entropy-based algorithm, determining 181 residues as the optimal sequence length where amino acid contributions and entropy dynamics balance. This approach boosts both precision and computational efficiency, enabling scalable analysis of mutation impacts on DNA-binding proteins. Ablation studies validated optimal feature combinations, demonstrating that EPEPDI outperforms existing approaches, achieving an average Pearson correlation coefficient of 0.755 on the MPD276 dataset via ten-fold cross-validation and 0.632 on independent tests for both DSBs and SSBs. This work highlights the importance of distinguishing DSBs and SSBs in PDIs and shows the potential of advanced machine learning in biological research.",
+  "abstract_zh": "预测蛋白质-DNA相互作用（PDIs）中错义突变（MMs）导致的结合自由能变化，对于理解疾病机制和推进治疗策略至关重要。然而，许多现有模型未能考虑双链DNA结合蛋白（DSBs）和单链DNA结合蛋白（SSBs）中MMs的独特特征。为解决此问题，我们从多种来源构建了一个综合数据集，明确区分了DSBs和SSBs。利用预训练蛋白质语言模型（包括ESM2、ProtTrans和ESM1v）的序列嵌入，我们开发了EPEPDI，一种通过多通道架构整合这些嵌入的深度学习框架。为提高预测精度，我们引入了一种基于信息熵的算法，确定181个残基为最优序列长度，在此长度下氨基酸贡献与熵动态达到平衡。该方法同时提升了精确度和计算效率，使得对DNA结合蛋白突变影响的规模化分析成为可能。消融研究验证了最优特征组合，表明EPEPDI优于现有方法，在MPD276数据集上通过十折交叉验证实现了平均皮尔逊相关系数0.755，在DSBs和SSBs的独立测试中达到0.632。这项工作强调了在PDIs中区分DSBs和SSBs的重要性，并展示了先进机器学习在生物研究中的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663633",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663633",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.08.663633/index.html"
+}

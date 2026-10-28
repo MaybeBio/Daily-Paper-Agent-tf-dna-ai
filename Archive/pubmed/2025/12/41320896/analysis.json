@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41320896",
+  "title": "Relative BAT: An Automated Tool for Relative Binding Free Energy Calculations by the Separated Topologies Approach.",
+  "authors": "Heinzelmann, Germano; Huggins, David J; Gilson, Michael K",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-12-01",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍基于分离拓扑的RBFE计算工具BAT.py，用于配体-蛋白结合自由能预测，虽非TF-DNA体系，但MD自由能方法可迁移至蛋白-DNA互作建模。",
+  "abstract": "Absolute (ABFE) and relative (RBFE) binding free energy calculations with all-atom molecular dynamics (MD) can significantly reduce costs in the early stages of drug discovery. We introduce a new implementation of the Binding Affinity Tool (BAT.py) software, which adds RBFE calculations using separated topologies (SepTop) to the already established ABFE fully automated workflow. SepTop combines the advantages of ABFE and RBFE, being applicable to ligands that have very little or no similarity, while at the same time avoiding common challenges of ABFE calculations, such as occluded binding sites and problematic conformational changes of the receptor upon ligand binding. Three different thermodynamic paths for the relative calculations were implemented into the BAT software using the AMBER and OpenMM simulation engines, and here we test them on the BRD4(2) benchmark system. We discuss their correlation with ABFE, standard RBFE, and experimental results, and also their associated computational cost.",
+  "abstract_zh": "绝对（ABFE）和相对（RBFE）结合自由能计算，结合全原子分子动力学（MD），可在药物发现的早期阶段显著降低成本。我们介绍了结合亲和力工具（BAT.py）软件的新实现，该实现将使用分离拓扑（SepTop）的RBFE计算添加到已建立的ABFE全自动工作流程中。SepTop结合了ABFE和RBFE的优势，适用于几乎没有或完全没有相似性的配体，同时避免了ABFE计算中的常见挑战，如封闭的结合位点和配体结合时受体构象变化的问题。在BAT软件中，使用AMBER和OpenMM模拟引擎实现了三种不同的相对计算热力学路径，并在BRD4(2)基准系统上进行了测试。我们讨论了它们与ABFE、标准RBFE及实验结果的相关性，以及相关的计算成本。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41320896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41320896/",
+  "paper_page_path": "papers/pubmed/41320896/index.html"
+}

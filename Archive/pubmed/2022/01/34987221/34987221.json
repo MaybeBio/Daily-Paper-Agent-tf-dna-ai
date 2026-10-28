@@ -1,0 +1,671 @@
+{
+  "identity": {
+    "pmid": "34987221",
+    "doi": "10.1038/s41586-021-04262-z",
+    "title": "Decoding gene regulation in the fly brain."
+  },
+  "content": {
+    "abstract": "The Drosophila brain is a frequently used model in neuroscience. Single-cell transcriptome analysis(1-6), three-dimensional morphological classification(7) and electron microscopy mapping of the connectome(8,9) have revealed an immense diversity of neuronal and glial cell types that underlie an array of functional and behavioural traits in the fly. The identities of these cell types are controlled by gene regulatory networks (GRNs), involving combinations of transcription factors that bind to genomic enhancers to regulate their target genes. Here, to characterize GRNs at the cell-type level in the fly brain, we profiled the chromatin accessibility of 240,919 single cells spanning 9 developmental timepoints and integrated these data with single-cell transcriptomes. We identify more than 95,000 regulatory regions that are used in different neuronal cell types, of which 70,000 are linked to developmental trajectories involving neurogenesis, reprogramming and maturation. For 40 cell types, uniquely accessible regions were associated with their expressed transcription factors and downstream target genes through a combination of motif discovery, network inference and deep learning, creating enhancer GRNs. The enhancer architectures revealed by DeepFlyBrain lead to a better understanding of neuronal regulatory diversity and can be used to design genetic driver lines for cell types at specific timepoints, facilitating their characterization and manipulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Brain/metabolism",
+      "*Drosophila/genetics",
+      "*Gene Expression Regulation",
+      "Gene Expression Regulation, Developmental",
+      "Gene Regulatory Networks/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Janssens, Jasper",
+        "Aibar, Sara",
+        "Taskiran, Ibrahim Ihsan",
+        "Ismail, Joy N",
+        "Gomez, Alicia Estacio",
+        "Aughey, Gabriel",
+        "Spanier, Katina I",
+        "De Rop, Florian V",
+        "Gonzalez-Blas, Carmen Bravo",
+        "Dionne, Marc",
+        "Grimes, Krista",
+        "Quan, Xiao Jiang",
+        "Papasokrati, Dafni",
+        "Hulselmans, Gert",
+        "Makhzami, Samira",
+        "De Waegeneer, Maxime",
+        "Christiaens, Valerie",
+        "Southall, Tony",
+        "Aerts, Stein"
+      ],
+      "short_names": [
+        "Janssens J",
+        "Aibar S",
+        "Taskiran II",
+        "Ismail JN",
+        "Gomez AE",
+        "Aughey G",
+        "Spanier KI",
+        "De Rop FV",
+        "Gonzalez-Blas CB",
+        "Dionne M",
+        "Grimes K",
+        "Quan XJ",
+        "Papasokrati D",
+        "Hulselmans G",
+        "Makhzami S",
+        "De Waegeneer M",
+        "Christiaens V",
+        "Southall T",
+        "Aerts S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9264-0782",
+        "ORCID: 0000-0001-6104-7134",
+        "ORCID: 0000-0001-6571-0757",
+        "ORCID: 0000-0002-1375-4157",
+        "ORCID: 0000-0002-8283-1750",
+        "ORCID: 0000-0002-4535-3737",
+        "ORCID: 0000-0002-8006-0315"
+      ],
+      "affiliations": [
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Department of Life Sciences, Imperial College London, London, UK.",
+        "Department of Life Sciences, Imperial College London, London, UK.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Department of Life Sciences, Imperial College London, London, UK.",
+        "Department of Life Sciences, Imperial College London, London, UK.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium.",
+        "Department of Life Sciences, Imperial College London, London, UK.",
+        "VIB Center for Brain & Disease Research, Leuven, Belgium. stein.aerts@kuleuven.be.",
+        "Department of Human Genetics, KU Leuven, Leuven, Belgium. stein.aerts@kuleuven.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Janssens, Jasper",
+        "short_name": "Janssens J",
+        "identifiers": [
+          "0000-0001-9264-0782"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Aibar, Sara",
+        "short_name": "Aibar S",
+        "identifiers": [
+          "0000-0001-6104-7134"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Taskiran, Ibrahim Ihsan",
+        "short_name": "Taskiran II",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ismail, Joy N",
+        "short_name": "Ismail JN",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Gomez, Alicia Estacio",
+        "short_name": "Gomez AE",
+        "identifiers": [
+          "0000-0001-6571-0757"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Aughey, Gabriel",
+        "short_name": "Aughey G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Spanier, Katina I",
+        "short_name": "Spanier KI",
+        "identifiers": [
+          "0000-0002-1375-4157"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Rop, Florian V",
+        "short_name": "De Rop FV",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "González-Blas, Carmen Bravo",
+        "short_name": "González-Blas CB",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dionne, Marc",
+        "short_name": "Dionne M",
+        "identifiers": [
+          "0000-0002-8283-1750"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Grimes, Krista",
+        "short_name": "Grimes K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Quan, Xiao Jiang",
+        "short_name": "Quan XJ",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Papasokrati, Dafni",
+        "short_name": "Papasokrati D",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hulselmans, Gert",
+        "short_name": "Hulselmans G",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Makhzami, Samira",
+        "short_name": "Makhzami S",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "De Waegeneer, Maxime",
+        "short_name": "De Waegeneer M",
+        "identifiers": [
+          "0000-0002-4535-3737"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Christiaens, Valerie",
+        "short_name": "Christiaens V",
+        "identifiers": [],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Southall, Tony",
+        "short_name": "Southall T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [
+          "0000-0002-8006-0315"
+        ],
+        "affiliations": [
+          "VIB Center for Brain & Disease Research, Leuven, Belgium. stein.aerts@kuleuven.be.",
+          "Department of Human Genetics, KU Leuven, Leuven, Belgium. stein.aerts@kuleuven.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/07 06:00",
+    "fetched_at": "2026-09-28 03:45:08"
+  },
+  "links": {
+    "cites": [
+      "42616773",
+      "42549891",
+      "42530004",
+      "42527403",
+      "42523385",
+      "42509369",
+      "42359002",
+      "42181586",
+      "42094554",
+      "41927920",
+      "41878613",
+      "41746980",
+      "41632020",
+      "41610256",
+      "41571655",
+      "41568150",
+      "41561374",
+      "41551930",
+      "41529688",
+      "41509244",
+      "41429956",
+      "41421361",
+      "41331142",
+      "41310370",
+      "41303598",
+      "41292905",
+      "41256364",
+      "41040405",
+      "40993253",
+      "40796784",
+      "40695849",
+      "40663502",
+      "40626041",
+      "40502082",
+      "40403730",
+      "40360798",
+      "40310929",
+      "40236063",
+      "40178224",
+      "40174587",
+      "40082090",
+      "40020686",
+      "39919181",
+      "39792333",
+      "39415317",
+      "39253514",
+      "39229027",
+      "39154080",
+      "39082647",
+      "38972954",
+      "38871816",
+      "38853998",
+      "38805552",
+      "38778811",
+      "38536919",
+      "38517972",
+      "38501113",
+      "38463314",
+      "38302581",
+      "38267607",
+      "38184630",
+      "38182825",
+      "38177592",
+      "38145338",
+      "38093018",
+      "38086419",
+      "38086418",
+      "38049697",
+      "38022693",
+      "37879938",
+      "37873116",
+      "37845780",
+      "37813854",
+      "37735176",
+      "37710019",
+      "37683635",
+      "37673062",
+      "37588653",
+      "37561790",
+      "37537503",
+      "37536338",
+      "37443338",
+      "37379332",
+      "37365273",
+      "37324054",
+      "37319212",
+      "37294080",
+      "37263268",
+      "37256273",
+      "37205355",
+      "37167393",
+      "37133250",
+      "37073532",
+      "37007588",
+      "36814848",
+      "36777334",
+      "36722816",
+      "36698768",
+      "36531741",
+      "36480601",
+      "36450803",
+      "36313930",
+      "36187917",
+      "35997250",
+      "35963239",
+      "35645712",
+      "35623984",
+      "35551305",
+      "35239393"
+    ],
+    "refs": [
+      "33832990",
+      "33633365",
+      "33603233",
+      "33561239",
+      "33184180",
+      "33149298",
+      "33125872",
+      "33098772",
+      "32939066",
+      "32928889",
+      "32880371",
+      "32732264",
+      "32561888",
+      "32493733",
+      "32442418",
+      "32431014",
+      "32314735",
+      "32015543",
+      "31974223",
+      "31939737",
+      "31740819",
+      "31695190",
+      "31687928",
+      "31611697",
+      "31249361",
+      "31178118",
+      "31036827",
+      "30962623",
+      "30787437",
+      "30642835",
+      "30397017",
+      "30115617",
+      "30078704",
+      "30033368",
+      "29909983",
+      "29909982",
+      "29867222",
+      "29671739",
+      "29539636",
+      "29434377",
+      "29409532",
+      "29284660",
+      "29227470",
+      "29227469",
+      "29149607",
+      "29126249",
+      "28992439",
+      "28991892",
+      "28846090",
+      "28825705",
+      "28709004",
+      "28441464",
+      "27799470",
+      "27490632",
+      "27436039",
+      "27373836",
+      "27084946",
+      "27079975",
+      "26112292",
+      "26083756",
+      "25925574",
+      "25217886",
+      "24658644",
+      "24631403",
+      "23792147",
+      "23063364",
+      "22895281",
+      "22718975",
+      "22318601",
+      "20668662",
+      "19881505",
+      "19505943",
+      "18798982",
+      "14597658",
+      "12824389",
+      "12553905"
+    ],
+    "similar": [
+      "34987221",
+      "37443338",
+      "32431014",
+      "37788349",
+      "25533349",
+      "26377945",
+      "20668662",
+      "38086419",
+      "27341759",
+      "37073532",
+      "39207727",
+      "26735242",
+      "31939737",
+      "27899510",
+      "29297463",
+      "35176234",
+      "36307979",
+      "19874814",
+      "22456606",
+      "34895465",
+      "30712870",
+      "24042128",
+      "33395445",
+      "25679813",
+      "31345953",
+      "27480122",
+      "37889053",
+      "29879919",
+      "27833659",
+      "25067789",
+      "35549704",
+      "29335803",
+      "18929653",
+      "26170447",
+      "24496624",
+      "30962180",
+      "39679439",
+      "31775028",
+      "32804082",
+      "37557175",
+      "32307851",
+      "39326643",
+      "35132236",
+      "25887857",
+      "39337329",
+      "25916854",
+      "37085776",
+      "34788628",
+      "36626871",
+      "32902713",
+      "31678628",
+      "22028675",
+      "21282633",
+      "32499402",
+      "37244909",
+      "30283019",
+      "25517091",
+      "32619460",
+      "38609714",
+      "30646598",
+      "34251620",
+      "39962241",
+      "37030605",
+      "24854999",
+      "35241702",
+      "15790965",
+      "34337051",
+      "38672444",
+      "30582411",
+      "23184988",
+      "27650846",
+      "33529925",
+      "36695505",
+      "28536147",
+      "32450970",
+      "39082647",
+      "40188417",
+      "34761274",
+      "33074101",
+      "29539636",
+      "34251625",
+      "29917089",
+      "36198796",
+      "38521929",
+      "39362902",
+      "12091301",
+      "26079281",
+      "21821017",
+      "35167097",
+      "37772400",
+      "29909983",
+      "37470241",
+      "32094114",
+      "29558892",
+      "38520100",
+      "20808951",
+      "25404315",
+      "38950180",
+      "32142172",
+      "25849986"
+    ],
+    "review": [
+      "34987221",
+      "39207727",
+      "26735242",
+      "19874814",
+      "25067789",
+      "18929653",
+      "31678628",
+      "30646598",
+      "33529925",
+      "36695505",
+      "32450970",
+      "29917089",
+      "26079281",
+      "38520100",
+      "32142172"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=34987221",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-021-04262-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34987221",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/34987221",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34987221",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse163697",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.20.513029",
+  "title": "TEINet: a deep learning framework for prediction of TCR-epitope binding specificity",
+  "authors": "Yuepeng Jiang; Miaozhe Huo; Shuai Cheng Li",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-21",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习预测TCR-表位结合特异性，属于蛋白质-肽互作而非蛋白质-DNA互作，与本课题无关。",
+  "abstract": "The adaptive immune response to foreign antigens is initiated by T-cell receptor (TCR) recognition on the antigens. Recent experimental advances have enabled the generation of a large amount of TCR data and their cognate antigenic targets, allowing machine learning models to predict the binding specificity of TCRs. In this work, we present TEINet, a deep learning framework that utilizes transfer learning to address this prediction problem. TEINet employs two separately trained encoders to transform TCR and epitope sequences into numerical vectors, which are subsequently fed into a fully connected neural network to predict their binding specificities. A major challenge for binding specificity prediction is the lack of a unified approach to sample negative data. Here, we first assess the current negative sampling approaches comprehensively and suggest that the Unified Epitope is the most suitable one. Subsequently, we compare TEINet with three baseline methods and observe that TEINet achieves an AUROC of 0.760, which outperforms baseline methods by 6.4-26%. Furthermore, we investigate the impacts of the pretraining step and notice that excessive pretraining can adversely affect model performance. Our results and analysis show that TEINet can make an accurate prediction using only the TCR sequence (CDR3 β ) and the epitope sequence, providing novel insights to understand the interactions between TCRs and epitopes. TEINet is available at https://github.com/jiangdada1221/TEINet .",
+  "abstract_zh": "对外来抗原的适应性免疫应答由T细胞受体（TCR）对抗原的识别启动。近期的实验进展使得大量TCR数据及其同源抗原靶标的生成成为可能，从而使机器学习模型能够预测TCR的结合特异性。在本工作中，我们提出了TEINet，一种利用迁移学习来解决这一预测问题的深度学习框架。TEINet采用两个分别训练的编码器将TCR和表位序列转换为数值向量，随后将这些向量输入到一个全连接神经网络中以预测它们的结合特异性。结合特异性预测的一个主要挑战是缺乏统一的负样本采样方法。在此，我们首先全面评估了当前的负采样方法，并建议统一表位（Unified Epitope）是最为合适的。接着，我们将TEINet与三种基线方法进行比较，观察到TEINet达到了0.760的AUROC，比基线方法高出6.4%-26%。此外，我们研究了预训练步骤的影响，并注意到过度预训练可能对模型性能产生不利影响。我们的结果和分析表明，TEINet仅使用TCR序列（CDR3 β）和表位序列即可进行准确预测，为理解TCR与表位之间的相互作用提供了新的见解。TEINet可在 https://github.com/jiangdada1221/TEINet 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513029",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513029",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.20.513029/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.11.598048",
+  "title": "Prediction of binding sites of GPCRs based on 3D convolutional neural networks",
+  "authors": "Junfeng Yu; Ying Zhang; Jun Lv",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-12",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用3D卷积神经网络预测GPCR蛋白-配体结合位点，对象为蛋白-小分子而非蛋白-DNA互作，方法虽为AI但体系与TF-DNA无关，仅边缘相关。",
+  "abstract": "G protein-coupled receptors are a class of receptor proteins located on the cell membrane, regulating the perception and response of cells to various external signals. Identifying the binding sites of G protein-coupled receptors plays a crucial role in understanding their allosteric modulation mechanisms. However, obtaining the crystal structure of the complex through experimental means and subsequently identifying the binding sites require substantial resources. With the development of computer-aided computation, deep learning can effectively predict the binding sites between proteins and ligands. This study predicted the binding sites of G protein-coupled receptors based on 3D convolutional neural network. A total of 108 G protein-coupled receptors recorded in the scPDB database were collected for this study, and a 3D convolutional neural network model was established based on these three-dimensional structures. Firstly, the PDB file of the protein is voxelized and segmented into different channels according to the type of atoms in a certain region. Then, 3D convolutional neural network is employed to predict the binding site through traversal, and the optimal voxel box size and model parameters are determined based on performance evaluation metrics. The established 3D convolutional neural network accurately predicts the binding site of G protein-coupled receptors, with an accuracy as high as 0.942, precision of 0.678, and recall rate of 0.532. Additionally, using the backpropagation algorithm, the gradients of the input data are calculated, and the importance of input elements on the final classification result is analyzed.",
+  "abstract_zh": "G蛋白偶联受体是一类位于细胞膜上的受体蛋白，调控细胞对外部多种信号的感知和响应。识别G蛋白偶联受体的结合位点对于理解其变构调节机制至关重要。然而，通过实验手段获取复合物的晶体结构并进而识别结合位点需要大量资源。随着计算机辅助计算的发展，深度学习能够有效预测蛋白质与配体之间的结合位点。本研究基于三维卷积神经网络预测了G蛋白偶联受体的结合位点。本研究共收集了scPDB数据库中记录的108个G蛋白偶联受体，并基于这些三维结构建立了三维卷积神经网络模型。首先，将蛋白质的PDB文件体素化，并根据一定区域内原子的类型分割成不同通道。然后，采用三维卷积神经网络通过遍历预测结合位点，并根据性能评估指标确定最优体素盒大小和模型参数。所建立的三维卷积神经网络准确预测了G蛋白偶联受体的结合位点，准确率高达0.942，精确率为0.678，召回率为0.532。此外，利用反向传播算法计算输入数据的梯度，并分析输入元素对最终分类结果的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598048",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598048",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.11.598048/index.html"
+}

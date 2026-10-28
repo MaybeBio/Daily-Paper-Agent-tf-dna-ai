@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "41284820",
+    "doi": "10.1021/acs.jcim.5c02062",
+    "title": "Mechanistic Insights into the Allosteric Regulation of P53 Y220C by Small-Molecule Stabilizers."
+  },
+  "content": {
+    "abstract": "The p53 Y220C mutation is a recurrent hotspot alteration that induces local unfolding and long-range functional disruption, compromising its tumor suppressor activity. While small-molecule stabilizers targeting this mutation have shown therapeutic promise, their underlying allosteric regulatory mechanisms remain poorly defined. Here, we investigate two p53 Y220C stabilizers with near-identical scaffolds but over 60-fold difference in activity, serving as a model to dissect the structural basis of differential efficacy. Through microsecond-scale molecular dynamics simulations and residue interaction network analysis, we reveal that the more active compound not only engages the mutation-induced cavity but also restores long-range cooperative networks and DNA-binding interfaces by rewiring key allosteric communication pathways disrupted by the mutation. Our results uncover a multilayered allosteric rescue mechanism involving dynamic pocket engagement, hydrophobic core reconstruction, and intramolecular signal reactivation. These findings move beyond conventional binding-affinity explanations and highlight the importance of network-level conformational regulation in mutant p53 rescue. This work establishes a mechanistic foundation for rational stabilizer design, proposing a new strategy centered on allosteric network restoration and mutation-adaptable anchoring. It offers broader implications for targeting conformationally unstable transcription factors previously considered \"undruggable\".",
+    "keywords": [],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/chemistry/genetics/metabolism",
+      "Allosteric Regulation/drug effects",
+      "Molecular Dynamics Simulation",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "Humans",
+      "Mutation",
+      "Protein Stability/drug effects",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Yiming",
+        "Niu, Buying",
+        "Meng, Jingyi",
+        "Chen, Danye",
+        "Li, Xutong",
+        "Zhang, Suilin",
+        "Agren, Hans",
+        "Zheng, Mingyue",
+        "Teng, Dan"
+      ],
+      "short_names": [
+        "Wen Y",
+        "Niu B",
+        "Meng J",
+        "Chen D",
+        "Li X",
+        "Zhang S",
+        "Agren H",
+        "Zheng M",
+        "Teng D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9167-4689",
+        "ORCID: 0000-0002-1763-9383",
+        "ORCID: 0000-0002-3323-3092",
+        "ORCID: 0000-0002-1253-3408"
+      ],
+      "affiliations": [
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "School of Physical Science and Technology, Shanghai Tech University, Shanghai 200031, China.",
+        "Lingang Laboratory, Shanghai 200031, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing 210023, China.",
+        "Department of Pharmacology, Univeristy of Cambridge, Tennis Ct Rd, Cambridge CB2 1QR, U.K.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "Division of X-ray Photon Science, Department of Physics and Astronomy, Uppsala University, P.O. Box 516, Uppsala SE-751 20, Sweden.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+        "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+        "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Yiming",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China.",
+          "School of Physical Science and Technology, Shanghai Tech University, Shanghai 200031, China.",
+          "Lingang Laboratory, Shanghai 200031, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Buying",
+        "short_name": "Niu B",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Jingyi",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Materia Medica, Nanjing University of Chinese Medicine, 138 Xianlin Road, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Danye",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Univeristy of Cambridge, Tennis Ct Rd, Cambridge CB2 1QR, U.K."
+        ]
+      },
+      {
+        "full_name": "Li, Xutong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Suilin",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0002-9167-4689"
+        ],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Ågren, Hans",
+        "short_name": "Ågren H",
+        "identifiers": [
+          "0000-0002-1763-9383"
+        ],
+        "affiliations": [
+          "Division of X-ray Photon Science, Department of Physics and Astronomy, Uppsala University, P.O. Box 516, Uppsala SE-751 20, Sweden."
+        ]
+      },
+      {
+        "full_name": "Zheng, Mingyue",
+        "short_name": "Zheng M",
+        "identifiers": [
+          "0000-0002-3323-3092"
+        ],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China.",
+          "University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Dan",
+        "short_name": "Teng D",
+        "identifiers": [
+          "0000-0002-1253-3408"
+        ],
+        "affiliations": [
+          "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai 201203, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Dec 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:38",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41284820",
+      "40725138",
+      "20142040",
+      "39799258",
+      "26636255",
+      "39946082",
+      "30339916",
+      "38737036",
+      "40504558",
+      "31881526",
+      "27503952",
+      "31990523",
+      "38862470",
+      "23315175",
+      "30808373",
+      "30230059",
+      "40057133",
+      "34403252",
+      "27267810",
+      "40608889",
+      "29702446",
+      "39945593",
+      "40599607",
+      "41271583",
+      "40384021",
+      "38738269",
+      "36871418",
+      "36700982",
+      "22439615",
+      "33315226",
+      "31128451",
+      "30649466",
+      "40543428",
+      "35097279",
+      "40769488",
+      "23630318",
+      "29260852",
+      "33448856",
+      "31633398",
+      "24100332",
+      "34163952",
+      "27447295",
+      "24768524",
+      "40842437",
+      "35659507",
+      "36077492",
+      "41196757",
+      "41082588",
+      "20847049",
+      "40671268",
+      "29124793",
+      "35839100",
+      "24191708",
+      "23360998",
+      "30726928",
+      "11917017",
+      "39007865",
+      "30949773",
+      "34060425",
+      "30525593",
+      "26442703",
+      "26244575",
+      "22869710",
+      "32519853",
+      "36197521",
+      "20498645",
+      "23365691",
+      "41250821",
+      "35202628",
+      "36245142",
+      "26619280",
+      "17294448",
+      "26320861",
+      "40464633",
+      "29769246",
+      "22949826",
+      "29072601",
+      "40650000",
+      "21561095",
+      "39811143",
+      "36586979",
+      "37643005",
+      "26236953",
+      "32326087",
+      "31473433",
+      "36535020",
+      "17401433",
+      "31017783",
+      "32307496",
+      "29684503",
+      "35201513",
+      "30388364",
+      "35163572",
+      "32877816",
+      "18315848",
+      "41203614",
+      "41022701",
+      "14741214",
+      "27992315",
+      "27861609"
+    ],
+    "review": [
+      "41284820",
+      "39799258",
+      "29260852",
+      "24768524",
+      "40671268",
+      "30726928",
+      "20498645",
+      "22949826",
+      "32326087"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02062",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39397003",
+  "title": "ResisenseNet hybrid neural network model for predicting drug sensitivity and repurposing in breast Cancer.",
+  "authors": "Karampuri, Anush; Jakkula, Bharath Kumar; Perugu, Shyam",
+  "journal": "Scientific reports",
+  "published_date": "2024-10-14",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用混合神经网络预测乳腺癌药物敏感性与重定位，虽涉及转录因子表达数据，但核心是药物反应预测而非蛋白质-DNA互作建模，与本课题关联较弱。",
+  "abstract": "Breast cancer remains a leading cause of mortality among women worldwide, with drug resistance driven by transcription factors and mutations posing significant challenges. To address this, we present ResisenseNet, a predictive model for drug sensitivity and resistance. ResisenseNet integrates transcription factor expression, genomic markers, drugs, and molecular descriptors, employing a hybrid architecture of 1D-CNN + LSTM and DNN to effectively learn long-range and temporal patterns from amino acid sequences and transcription factor data. The model demonstrated exceptional predictive accuracy, achieving a validation accuracy of 0.9794 and a loss value of 0.042. Comprehensive validation included comparisons with state-of-the-art models and ablation studies, confirming the robustness of the developed architecture. ResisenseNet has been applied to repurpose existing anticancer drugs across 14 different cancers, with a focus on breast cancer. Among the malignancies studied, drugs targeting Low-grade Glioma (LGG) and Lung Adenocarcinoma (LUAD) showed increased sensitivity to breast cancer as per ResisenseNet's assessment. Further evaluation of the predicted sensitive drugs revealed that 14 had no prior history of anticancer activity against breast cancer. These drugs target key signaling pathways involved in breast cancer, presenting novel therapeutic opportunities. ResisenseNet addresses drug resistance by filtering ineffective compounds and enhancing chemotherapy for breast cancer. In vitro studies on sensitive drugs provide valuable insights into breast cancer prognosis, contributing to improved treatment strategies.",
+  "abstract_zh": "乳腺癌仍然是全球女性死亡的主要原因之一，由转录因子和突变驱动的耐药性构成了重大挑战。为解决这一问题，我们提出了ResisenseNet，一种用于药物敏感性和耐药性预测的模型。ResisenseNet整合了转录因子表达、基因组标记、药物和分子描述符，采用1D-CNN + LSTM和DNN的混合架构，有效学习氨基酸序列和转录因子数据中的长程及时间模式。该模型展现了卓越的预测准确性，验证准确率达到0.9794，损失值为0.042。综合验证包括与最先进模型的比较和消融研究，确认了所开发架构的稳健性。ResisenseNet已应用于跨14种不同癌症的现有抗癌药物重定位，重点关注乳腺癌。在所研究的恶性肿瘤中，根据ResisenseNet的评估，针对低级别胶质瘤（LGG）和肺腺癌（LUAD）的药物对乳腺癌显示出增加的敏感性。对预测敏感药物的进一步评估显示，其中14种药物此前无针对乳腺癌的抗癌活性记录。这些药物靶向乳腺癌涉及的关键信号通路，提供了新的治疗机会。ResisenseNet通过过滤无效化合物和增强乳腺癌化疗来应对耐药性。对敏感药物的体外研究为乳腺癌预后提供了宝贵见解，有助于改进治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39397003/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39397003/",
+  "paper_page_path": "papers/pubmed/39397003/index.html"
+}

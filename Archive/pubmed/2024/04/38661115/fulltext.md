@@ -1,0 +1,5 @@
+# Quinazoline sulfonamide derivatives targeting MicroRNA-34a/MDM4/p53 apoptotic axis with radiosensitizing activity
+
+
+## Abstract
+  Aim: New quinazoline benzenesulfonamide hybrids 4a–n were synthesized to determine their cytotoxicity and effect on the miR-34a/MDM4/p53 apoptotic pathway. Materials & methods: Cytotoxicity against hepatic, breast, lung and colon cancer cell lines was estimated using the 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) assay. Results: Compound 4d was the most potent against HepG2 and MCF-7 cancer cells, with potential apoptotic activity verified by a significant upregulation of miR-34a and p53 gene expressions. The apoptotic effect of 4d was further investigated and showed downregulation of miR-21, VEGF, STAT3 and MDM4 gene expression. Conclusion: The anticancer and apoptotic activities of 4d were enhanced post irradiation by a single dose of 8 Gy γ-radiation. Docking analysis demonstrated a valuable affinity of 4d toward VEGFR2 and MDM4 active sites.

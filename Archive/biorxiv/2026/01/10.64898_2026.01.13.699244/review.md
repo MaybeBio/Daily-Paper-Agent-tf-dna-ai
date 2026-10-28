@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based on the provided text
+- **Shared manuscript claim summary** The authors propose that GapR, an α-proteobacterial nucleoid-associated protein, binds both AT-rich and overtwisted (positively supercoiled) DNA, stiffens and overtwists DNA, and that these two binding modes exert opposite effects on transcription initiation while both supporting polymerase progression
+- **Visible evidence base** Magnetic tweezers experiments (extension vs. linking number, force-extension), biolayer interferometry (BLI) binding assays, and computational re-analysis of published ChIP-seq and RNA-seq datasets
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; detailed numerical data (e.g., exact persistence length values, binding constants with errors) are not included in the text; statistical test details are partially described but effect sizes are not reported
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in bacterial chromosome biology: how a nucleoid-associated protein integrates sequence-specific and topology-dependent DNA binding to regulate transcription. The combination of single-molecule micromechanics, solution binding assays, and genomic analysis is ambitious and potentially powerful. However, the current presentation has several significant gaps. The biophysical data are described qualitatively without key numerical values, the distinction between the two proposed binding modes is not rigorously established, and the causal link between the observed mechanical effects and transcriptional outcomes remains speculative. The computational analysis is thoughtful but relies on published datasets with limited validation of the classification scheme. The manuscript would benefit from clearer presentation of quantitative results, additional controls, and a more cautious interpretation of the transcriptional consequences.
+- **Who would be interested in the results, and why** Researchers studying nucleoid-associated proteins, bacterial chromosome organization, DNA supercoiling dynamics, and the biophysical basis of transcription regulation. The work is also relevant to those interested in how DNA-binding proteins distinguish sequence features from topological states, and to the broader community studying protein-DNA interactions at the single-molecule level.
+- **Major strengths** 1) The combination of three complementary approaches (micromechanics, BLI, genomics) is well conceived. 2) The observation that GapR binding is enhanced by pre-twisting DNA provides direct biophysical evidence for topology-dependent binding. 3) The re-analysis of published ChIP-seq data to separate AT-dependent and +SC-dependent binding modes is a creative and potentially valuable analytical approach. 4) The finding that the two binding modes have opposite effects on transcription initiation is intriguing and could resolve conflicting literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data presentation
+  - **Claim pointer** The manuscript claims that GapR increases bending persistence length from ~40 nm to ~70 nm and increases twist persistence length by over 30% (from 90 nm to 120 nm), and that these changes are concentration-dependent.
+  - **Evidence pointer** Results sections "GapR positively shifts DNA extension versus linking number response" and "GapR binding increases bending persistence length and slightly reduces molecular length of dsDNA"; Figures 2, 3, 4
+  - **Concern** The key quantitative results are presented only as approximate values in the text without error bars, number of independent measurements (beyond "four or more"), or statistical comparisons. The titration fit parameters (Kd = 475 ± 30 nM, Hill coefficient 3.25 ± 0.35) are given for the MT data, but the corresponding values for the BLI experiments are not clearly reported. Without proper uncertainty quantification and statistical testing, the claimed differences between conditions (e.g., AT-rich vs GC-rich binding, relaxed vs overtwisted DNA) cannot be evaluated.
+  - **Why it matters** The central biophysical claims of the paper rest on quantitative comparisons. If the differences are not statistically robust, the mechanistic conclusions are not supported.
+  - **Resolution test** Provide full numerical results for all fitted parameters with standard errors and number of replicates. Include statistical tests (e.g., t-tests or ANOVA) comparing conditions. Present data as mean ± SEM or similar in figures with individual data points shown.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The manuscript claims that AT-rich binding stimulates transcription initiation while +SC-dependent binding represses it, and that both binding modes support RNAP progression.
+  - **Evidence pointer** Results section "AT-rich and +SC-dependent GapR binding both support RNAP progression but have differential effects on transcription"; Figures 9, S4
+  - **Concern** The transcriptional analysis is correlative. The authors identify associations between GapR binding modes and nearby transcriptional activity, but they do not demonstrate causality. The claim that GapR "promotes" or "represses" transcription implies a direct functional role that is not tested. The analysis of elongation is particularly indirect, relying on inferred windows and maximum fold-changes without direct measurement of polymerase processivity.
+  - **Why it matters** The title and abstract make strong claims about GapR promoting transcription and replication. If the evidence is only correlative, these claims are overstated and could mislead the field.
+  - **Resolution test** Perform direct experiments to test causality, such as in vitro transcription assays with GapR-bound templates, or in vivo experiments with GapR mutants that separate the two binding modes. Alternatively, temper the language to describe associations rather than causal effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Classification scheme validity
+  - **Claim pointer** The manuscript claims that GapR binding sites can be reliably classified into AT-dependent, +SC-dependent, or both categories based on the response to rifampicin treatment.
+  - **Evidence pointer** Methods section "Separating GapR binding modes"; Figures 8, 9, S2, S3
+  - **Concern** The classification scheme relies on the assumption that rifampicin treatment eliminates all transcription-generated supercoiling and that the remaining binding reflects AT-dependent interactions. This assumption is not directly validated. The thresholds for classification (5% and 20% of GapR enrichment) appear arbitrary, and the stability of the classification to these thresholds is not assessed. The validation of the classification (Figure S3d-e) shows expected trends but does not provide a quantitative measure of classification accuracy.
+  - **Why it matters** The separation of binding modes is foundational to the paper's main conclusions. If the classification is unreliable, the subsequent analysis of differential transcriptional effects is compromised.
+  - **Resolution test** Validate the classification using independent methods, such as in vitro binding assays with defined DNA templates, or by comparing classification results across multiple threshold values and showing robustness. Consider using a more principled statistical approach to define binding modes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation of melting
+  - **Claim pointer** The manuscript claims that GapR binding promotes DNA melting at higher forces, based on the flat response in the extension versus linking number curve under negative supercoiling.
+  - **Evidence pointer** Results section "GapR positively shifts DNA extension versus linking number response"; Figure 2c-d
+  - **Concern** The interpretation of the flat region as "melting" is plausible but not definitively established. Alternative explanations, such as local denaturation bubbles, strand slippage, or protein-induced structural transitions, are not discussed. The connection between this in vitro observation and the proposed in vivo function of promoting polymerase progression is not mechanistically developed.
+  - **Why it matters** The melting behavior is presented as a key biophysical property of GapR-DNA complexes. If the interpretation is incorrect, the proposed mechanism of action is weakened.
+  - **Resolution test** Perform additional experiments to confirm melting, such as using fluorescent probes sensitive to single-stranded DNA, or testing the effect of temperature on the observed transition. Discuss alternative interpretations and provide evidence to distinguish them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results section "GapR positively shifts DNA extension versus linking number response"
+  - **Evidence pointer** Figure 2a and accompanying text
+  - **Issue** The sentence "The maximum extension also increases, indicating a change in both the relaxed superhelical density and the overall DNA extension under torsional stress" is confusing. It appears twice in slightly different forms and the logical connection is unclear.
+  - **Required correction** Rewrite for clarity, distinguishing between the shift in peak position (ΔLk0) and the change in maximum extension value.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "GapR binding increases bending persistence length and slightly reduces molecular length of dsDNA"
+  - **Evidence pointer** Figure 3c-d
+  - **Issue** The text states "four or more independent experiments in each case" but does not report the exact number for each condition or the statistical significance of the differences between conditions.
+  - **Required correction** Report exact n for each condition and include statistical comparisons (e.g., p-values) for the differences in persistence length and contour length across GapR concentrations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The terms "overtwisted DNA," "positively supercoiled DNA," and "+SC DNA" are used interchangeably. While related, they are not identical concepts, and the manuscript would benefit from consistent terminology.
+  - **Required correction** Define terms clearly at first use and use them consistently throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "BLI experiments"
+  - **Evidence pointer** Methods
+  - **Issue** The BLI experiments are described briefly. Key details such as the concentration range of GapR tested, the number of replicates, and the fitting procedure for determining Kd and Hill coefficients are not provided.
+  - **Required correction** Expand the methods to include all experimental details necessary for replication.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of genomic analysis
+  - **Affected element** Results section "AT-rich and +SC-dependent GapR binding both support RNAP progression but have differential effects on transcription"
+  - **Evidence pointer** Figure 9e, S4c-d
+  - **Issue** The analysis of transcriptional changes uses maximum fold-change within defined windows. This approach can be sensitive to outliers and does not capture the overall transcriptional response across the region of interest.
+  - **Required correction** Consider using aggregate measures (e.g., mean fold-change) or more sophisticated approaches such as meta-gene analysis to complement the maximum-based approach.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative data with error bars and statistical tests for the central biophysical measurements (R1-M1). 2) The causal claims regarding transcriptional regulation are not supported by the correlative genomic analysis (R1-M2). 3) The classification of binding modes lacks validation and robustness testing (R1-M3). 4) The interpretation of the melting transition requires additional experimental support (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its attempt to integrate biophysical and genomic approaches to understand a nucleoid-associated protein. The concept of a protein with dual binding modes (sequence and topology) is not entirely new, but the specific focus on GapR and the combination of methods is fresh. **Scientific importance:** The question of how NAPs integrate sequence and topology to regulate transcription is of broad importance in bacterial physiology and gene regulation. If the claims are substantiated, the work would be significant. **Interdisciplinary readership:** The work bridges single-molecule biophysics, protein-DNA biochemistry, and genomics, which could appeal to a broad readership. However, the presentation is currently too specialized in places and lacks the context needed for non-specialists. **Technical soundness:** The experimental approaches are generally sound in principle, but the lack of quantitative reporting and statistical rigor undermines confidence in the conclusions. The computational analysis is creative but requires validation. **Readability for nonspecialists:** The manuscript is dense and assumes significant background knowledge. The abstract is reasonably accessible, but the results and discussion would be challenging for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the quantitative basis for the central claims is not adequately presented, and the causal link between biophysical properties and transcriptional outcomes is not demonstrated. Major revisions with additional data and analysis are required before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that GapR "promotes transcription and replication" in the title is not directly supported by the data presented, which are largely correlative or in vitro.
+- The claim that AT-rich binding "stimulates transcription initiation" is based on correlative genomic analysis without direct functional validation.
+- The claim that +SC-dependent binding "represses transcription" is similarly correlative.
+- The interpretation of the flat region in the extension-linking number curve as "melting" is plausible but not definitively established.
+- The claim that GapR binding is "enhanced by pre-twisting of DNA" is supported by the data but the quantitative extent of this enhancement is not clearly reported.
+- The statement that GapR "holds DNA in a rigid overtwisted confirmation" (typo for "conformation") is a proposal, not a demonstrated mechanism.

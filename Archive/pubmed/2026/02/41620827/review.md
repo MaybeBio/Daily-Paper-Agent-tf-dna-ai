@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, acknowledgments)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text. Figures, tables, and supplementary materials were not provided.
+- **Shared manuscript claim summary** The authors claim that (1) MD simulations show the C-terminal region of Dsup binds DNA via Arg and Lys interactions with backbone phosphates and nucleobases, (2) FLIM-FRET demonstrates Dsup-DNA binding in live mammalian cells, (3) Dsup expression enhances survival of HEK293T cells and yeast under hydrogen peroxide-induced oxidative stress, and (4) the protective effect is mediated primarily through the C-terminal DNA-binding region.
+- **Visible evidence base** Methods descriptions for MD simulations, FLIM-FRET, cell culture, stable cell line generation, CCK-8 assays, yeast viability experiments, and statistical analyses. Results sections describing outcomes with reference to figures (Fig. 1-5) that were not provided.
+- **Missing materials affecting confidence** All figures and figure legends, supplementary materials, source data, and statistical details beyond those described in text. The manuscript references figures extensively but none are available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding the mechanism of Dsup-mediated DNA protection. The combination of MD simulations and live-cell FLIM-FRET is a reasonable approach to interrogate Dsup-DNA interactions. However, the absence of all figures and source data prevents independent verification of the reported results. Several methodological details require clarification, particularly regarding the FLIM-FRET analysis, the statistical treatment of survival data, and the interpretation of the MD melting simulations. The claim that Dsup protects cells from oxidative stress is supported by the described experiments, but the mechanistic link between the observed DNA binding and the protective effect remains correlative rather than causal.
+- **Who would be interested in the results, and why** Researchers studying extremophile biology, DNA damage repair, oxidative stress responses, and intrinsically disordered proteins. The work may also interest those developing stress-resistance strategies for therapeutic or biotechnological applications, given the demonstrated protective effects in two eukaryotic systems.
+- **Major strengths** The study combines computational and experimental approaches to address a biologically relevant question. The use of FLIM-FRET in live cells is a methodological advance over prior in vitro binding studies. The inclusion of two eukaryotic model systems (mammalian cells and yeast) strengthens the generalizability of the protective effect. The authors appropriately acknowledge potential cell-type-dependent effects and the correlative nature of some conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that MD simulations demonstrate Dsup binding to DNA and protection against melting, and that FLIM-FRET shows Dsup-DNA interactions in live cells.
+  - **Evidence pointer** Results sections "MD simulations of Dsup-DNA interactions" and "FLIM-FRET demonstrates Dsup binding to DNA in living mammalian cells"; Figures 1-3 (not provided)
+  - **Concern** All quantitative results, including simulation trajectories, lifetime measurements, and statistical comparisons, are presented only through figures that were not provided. Without access to the actual data, the reported values (e.g., τ = 1.79 ± 0.02 ns) cannot be verified. The manuscript text alone is insufficient to assess whether the experimental design, data quality, and statistical analyses support the claims.
+  - **Why it matters** The central claims of the paper rest on quantitative measurements that are entirely contained in the missing figures. Independent verification of the results is impossible under these conditions.
+  - **Resolution test** Provide all figures with complete legends, including error bars, statistical test results, and sample sizes. Make source data available for the lifetime measurements and survival assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the 20E mutant (all Arg and Lys replaced with Glu) abolishes DNA binding and protective effects, thereby demonstrating the importance of these residues.
+  - **Evidence pointer** Methods "MD simulations" and Results "MD simulations of Dsup-DNA interactions"; Figure 1 (not provided)
+  - **Concern** The 20E mutant replaces all positively charged residues with negatively charged Glu. This is an extreme perturbation that changes the net charge of the C-terminal region from highly positive to highly negative. The observed loss of DNA binding could be due to electrostatic repulsion rather than specifically the loss of Arg and Lys interactions. The manuscript does not discuss whether the 20E mutant retains any residual structure or whether the observed effects could be attributed to non-specific charge effects. Additionally, the MD simulations use only three Dsup chains and one DNA molecule, and the generalizability of these simulations to the full-length protein in a cellular context is unclear.
+  - **Why it matters** The mechanistic interpretation that Arg and Lys residues mediate DNA binding and protection is central to the paper's conclusions. If the 20E mutant phenotype is due to non-specific charge reversal rather than specific loss of interactions, the mechanistic claim is weakened.
+  - **Resolution test** Include control simulations or experiments with a more conservative mutant (e.g., Arg to Lys or neutral polar substitutions). Discuss the potential for non-specific charge effects. Provide convergence analysis for the MD simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** The manuscript claims that Dsup expression enhances cell survival under oxidative stress, and that this effect is due to DNA protection.
+  - **Evidence pointer** Results "Dsup expression enhances cell survival in the presence of hydrogen peroxide" and "Effects of Tardigrade Dsup on stress resistance of yeast"; Figures 4-5 (not provided)
+  - **Concern** The survival assays measure cell viability via CCK-8 (metabolic activity) and PI staining (membrane integrity). These are indirect measures of DNA damage. The manuscript does not present direct evidence that the improved survival is due to reduced DNA damage rather than other protective mechanisms (e.g., antioxidant activity, chaperone-like effects, or modulation of stress signaling). The authors acknowledge this limitation in the Discussion, but the claim that Dsup "protects DNA from oxidative stress" is stated more strongly in the Abstract and Results than the data appear to justify.
+  - **Why it matters** The title and abstract emphasize DNA protection as the mechanism. If the protective effect is not specifically due to DNA protection, the conclusions are overstated.
+  - **Resolution test** Include direct measurements of DNA damage (e.g., comet assay, γ-H2AX staining, or 8-oxo-dG quantification) in Dsup-expressing versus control cells after H2O2 treatment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states Dsup is "an intrinsically disordered, highly positively charged protein" without noting that this description applies to the full-length protein, while the simulations use only the C-terminal region. This could mislead readers about the scope of the study.
+  - **Required correction** Clarify in the abstract that the simulations focus on the C-terminal DNA-binding region.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** FLIM-FRET analysis
+  - **Evidence pointer** Methods "FLIM-FRET imaging and analysis"
+  - **Issue** The manuscript states that a bi-exponential decay model was fitted but does not report the fitting quality (e.g., χ² values) or how the amplitude-weighted mean lifetime was calculated. The threshold for a "significant" lifetime change is not defined.
+  - **Required correction** Report fitting parameters, quality metrics, and the criteria used to define a significant lifetime difference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Survival assays
+  - **Evidence pointer** Methods "Statistics and reproducibility"; Results sections for Figures 4-5
+  - **Issue** The text states that statistical analyses were performed but does not specify which tests were used for which comparisons, nor whether multiple-comparison corrections were applied. The number of independent experiments is said to be in figure legends, which are not provided.
+  - **Required correction** Specify the statistical tests used for each comparison in the text and ensure figure legends include exact p-values and effect sizes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on MD simulations
+  - **Issue** The authors caution against a direct link between slowed DNA melting and reduced cell death, which is appropriate. However, the Discussion also states that Dsup "may provide a physical barrier to prevent ROS-induced double-stranded breaks," which is speculative and not directly tested.
+  - **Required correction** Clearly distinguish between data-supported conclusions and speculative mechanisms in the Discussion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and data) and R1-M2 (inadequate mutant controls and simulation validation) must be resolved. R1-M3 should be addressed to strengthen the mechanistic claim but is not strictly blocking if the authors revise their language to be more cautious.
+- **Assessment against Nature-style criteria** Originality: The study is original in its combination of MD simulations and live-cell FLIM-FRET to study Dsup-DNA interactions, and in demonstrating protective effects in yeast. However, the concept of Dsup as a DNA-protective protein is not new. Scientific importance: The findings are of moderate importance, providing mechanistic insight into a protein of interest in extremophile biology and potential stress-resistance applications. The work does not fundamentally change understanding of DNA damage or oxidative stress. Interdisciplinary readership: The work bridges biophysics, cell biology, and stress biology, and may appeal to readers across these fields. Technical soundness: The experimental approaches are appropriate, but the lack of figures and some methodological details prevent full assessment. The 20E mutant design is a significant weakness. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with biophysical techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially valuable, but the manuscript cannot be accepted in its current form due to the absence of all figures and data, the need for additional mutant controls, and the overstatement of the DNA-protection mechanism.
+
+## Risk / unsupported claims
+- The claim that Dsup protects DNA from oxidative stress is not directly supported by the presented data, which measure cell survival rather than DNA damage.
+- The claim that the C-terminal region is the primary DNA-binding domain is supported by prior literature and the mutant experiments, but the 20E mutant design confounds specific and non-specific charge effects.
+- The MD simulation results cannot be evaluated without the figures and convergence analysis.
+- The FLIM-FRET results cannot be evaluated without the figures, fitting quality metrics, and raw lifetime distributions.
+- The statement that Dsup "lays a foundation to explore new approaches to enhance stress resistance" is speculative and not directly supported by the data.

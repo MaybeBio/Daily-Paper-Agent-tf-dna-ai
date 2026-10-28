@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational screening pipeline to identify natural compounds that inhibit AgrA promoter binding in *Staphylococcus aureus*. They generated a pharmacophore model from known drugs, screened the ZINC natural product database, performed molecular docking against the C-terminal DNA binding domain of AgrA, and shortlisted three compounds. They then conducted 200 ns molecular dynamics simulations of unbound and ligand-bound complexes, analyzing RMSD, RMSF, Rg, SASA, PCA, and Gibbs free energy landscape. They conclude that ligand binding reduces atomic motion and that the protein remains compact without unfolding.
+- **Visible evidence base** Abstract text only; no quantitative results, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, docking scores, simulation parameters, force field details, validation metrics, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational workflow for identifying natural product inhibitors of AgrA, a relevant target in antimicrobial research. However, the evidence presented is insufficient to evaluate the validity of the claims. No quantitative data, methodological specifics, or comparative benchmarks are provided. The conclusions regarding conformational stability and reduced atomic motion are not supported by any visible numerical or graphical evidence. The work may have merit, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug discovery, particularly those focused on anti-virulence strategies against *Staphylococcus aureus*. Computational chemists and structural biologists interested in protein-DNA interaction inhibitors and molecular dynamics-based screening approaches would also find the topic relevant. The use of natural products as a source of leads may appeal to natural product chemists.
+- **Major strengths** The target choice is biologically meaningful, as AgrA is a key regulator of virulence factor expression. The workflow integrates pharmacophore screening, docking, and molecular dynamics, which is a standard and reasonable computational approach. The selection of three compounds for further analysis suggests a focused and potentially tractable hit list.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that three compounds were shortlisted based on strong affinity for key residues involved in DNA binding and transcription initiation.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No docking scores, binding energies, or residue interaction details are provided. The phrase "strong affinity" is qualitative and cannot be assessed without numerical data or comparison to known binders or controls.
+  - **Why it matters** The central claim of compound selection rests on docking results. Without quantitative evidence, the reader cannot judge whether the selection criteria were rigorous or whether the compounds are genuinely promising.
+  - **Resolution test** Provide docking scores for all screened compounds, the threshold used for shortlisting, and a comparison with a positive control or known AgrA binder. Show interaction fingerprints for the three selected compounds with the key residues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that RMSD profiles indicated similar fluctuations in bound and unbound structures, and that Rg profiles demonstrated compactness without unfolding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No numerical RMSD or Rg values, no plots, and no statistical comparison are provided. The statement "similar fluctuations" is subjective. The claim that the protein remains compact without unfolding is not supported by any visible data.
+  - **Why it matters** The molecular dynamics analysis is the core evidence for the stability of the ligand-bound complexes. Without quantitative data, the reader cannot verify the conclusions or compare the behavior of the three complexes.
+  - **Resolution test** Provide RMSD and Rg plots with mean and standard deviation values for each system. Include a statistical test comparing bound and unbound trajectories. Show whether any significant conformational changes occur over the 200 ns simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that principal component analysis revealed that ligand binding reduced the overall atomic motion of the protein, and that the free energy landscape suggested energy variations in complexes.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No PCA plots, no free energy landscape figures, and no quantitative description of energy differences are provided. The claim of reduced atomic motion is not supported by any visible data.
+  - **Why it matters** These analyses are presented as key findings, but without figures or numbers, the claims are unverifiable. The reader cannot determine whether the observed effects are significant or within normal simulation variability.
+  - **Resolution test** Provide PCA scatter plots for bound and unbound systems, showing the fraction of variance explained. Provide free energy landscape plots with energy values and describe the minima and barriers. State whether the differences are statistically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Pharmacophore model generation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that a pharmacophore model was generated using known drugs, but no details are given on the number of drugs used, the pharmacophore features, or the validation of the model.
+  - **Required correction** Specify the number and identity of the drugs used, the pharmacophore features, and any validation steps such as receiver operating characteristic analysis or enrichment studies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Molecular dynamics simulation setup
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the force field, water model, temperature, pressure, or any equilibration protocol used for the 200 ns simulations.
+  - **Required correction** Provide the simulation parameters in the methods section, including software version, force field, water model, salt concentration, and equilibration steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Compound selection rationale
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not discuss whether the three selected compounds have any known antibacterial or anti-virulence activity, or whether they are drug-like and synthetically accessible.
+  - **Required correction** Add a brief discussion of the drug-likeness, predicted ADMET properties, and any known biological activity of the three compounds.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data for docking, molecular dynamics, and principal component analysis means that the core claims are not verifiable from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach is not novel in concept, as computational screening of natural products against bacterial targets is well established. The specific focus on AgrA is of interest but does not represent a paradigm shift.  
+  - Scientific importance: The topic is relevant to antimicrobial resistance and anti-virulence strategies, which is a significant area. However, the abstract does not demonstrate a clear advance over existing studies.  
+  - Interdisciplinary readership: The work may appeal to computational biologists, medicinal chemists, and microbiologists, but the abstract is too technical and lacks context for a broad audience.  
+  - Technical soundness: The workflow is standard, but the lack of quantitative evidence prevents assessment of technical rigor.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with computational methods, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a reasonable workflow, but the absence of quantitative data and methodological details means the claims cannot be evaluated. The authors should provide the full manuscript with figures, tables, and statistical analyses to support their conclusions.
+
+## Risk / unsupported claims
+- The claim that the three compounds have "strong affinity" for key residues is unsupported without docking scores or interaction data.
+- The claim that ligand binding reduces overall atomic motion is unsupported without PCA data.
+- The claim that the protein remains compact without unfolding is unsupported without Rg data.
+- The claim that the free energy landscape suggests energy variations is unsupported without energy values or plots.
+- The biological relevance of the selected compounds is not addressed, and no experimental validation is mentioned.

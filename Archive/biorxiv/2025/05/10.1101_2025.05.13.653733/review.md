@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods summary, data/code availability, supplementary table descriptions) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality based solely on the supplied material. No external data, figures, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors present scDORI, a deep-learning framework for inferring enhancer-driven gene regulatory networks (eGRNs) from single-nucleus multi-ome (RNA + ATAC) data, applied to over one million cells from primary IDH-wildtype glioblastomas. They report a hierarchy of cell states with differential epigenetic plasticity, identify MYT1L as a state-specific transcriptional repressor that restricts plasticity and promotes a neuronal-like state, and validate this through chromatin, transcriptomic, functional in vitro assays, and in vivo transplantation experiments.
+- **Visible evidence base** Abstract; Results sections (four subsections); Discussion; Methods summary (pointer only); Data availability statement; Code availability statement; Supplementary table descriptions (Tables 1-8); Author contributions; Ethics declarations; Acknowledgments.
+- **Missing materials affecting confidence** All figures (main and extended), all supplementary tables, the full methods document, and the companion study (de Jong et al., 2025) are not provided. Statistical details, exact sample sizes, and analysis parameters are therefore not assessable.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in glioblastoma biology: the regulatory logic governing cellular plasticity and state transitions. The scale of the dataset and the development of a new computational framework (scDORI) are notable contributions. The central hypothesis, that state transitions are constrained by active repression as much as by activation cues, is well motivated and the identification of MYT1L as a key repressor is potentially significant. However, the current manuscript, as provided, does not allow for a full assessment of the validity of the computational model or the strength of the experimental validations. The claims are ambitious and the evidence base, as visible, is suggestive but not yet conclusive. The lack of access to figures, methods, and supplementary data is a major limitation for this review.
+- **Who would be interested in the results, and why** Cancer biologists, particularly those studying glioblastoma, tumor heterogeneity, and therapy resistance. Computational biologists developing single-cell multi-omic analysis methods and gene regulatory network inference tools. Researchers interested in the role of transcriptional repressors in cell fate determination and differentiation, both in development and cancer.
+- **Major strengths** The study leverages an exceptionally large, multi-omic single-cell dataset. The development of scDORI addresses real limitations of existing eGRN inference methods, particularly regarding scalability and the ability to model continuous cell states without predefined annotations. The conceptual framing of plasticity as being actively restricted by repressors, rather than merely permitted by activators, is a valuable and testable model. The multi-pronged experimental approach, combining computational prediction with chromatin profiling, transcriptomics, and functional assays including in vivo studies, is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that scDORI infers "enhancer-driven gene regulatory networks (eGRNs) at single-cell resolution" that are mechanistically constrained and outperform existing methods.
+  - **Evidence pointer** Results section "Decoding the Gene Regulatory Architecture of Glioblastoma Heterogeneity"; Extended Data Fig. 2; Methods (not provided).
+  - **Concern** The core of the manuscript rests on the validity and novelty of scDORI. The description provided is high-level. The "mechanistic constraints" are mentioned but not detailed. The benchmark against existing methods is referenced (Extended Data Fig. 2C) but the specific methods compared, the metrics used, and the datasets for benchmarking are not described. Without the full methods and the benchmark details, it is impossible to evaluate whether scDORI is a genuine methodological advance or a variation of existing approaches. The claim of "single-cell resolution" for eGRNs needs clarification on how regulatory relationships are assigned to individual cells versus cell states or topics.
+  - **Why it matters** The entire biological narrative, including the identification of MYT1L, is dependent on the reliability of scDORI's predictions. If the model's core assumptions or performance are flawed, the downstream conclusions are undermined.
+  - **Resolution test** Provide the full methods for scDORI, including the model architecture, loss functions, and the exact nature of the "regulatory constraints." Provide a detailed description of the benchmarking procedure, including the comparison methods, datasets, and evaluation metrics. Show that the inferred eGRNs are validated by independent experimental data (e.g., perturbation data) beyond the MYT1L case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that MYT1L is a "key regulator" that "silences master transcription factors of alternative states" and that its manipulation "restricted proliferation and invasion in vivo."
+  - **Evidence pointer** Results section "The Repressor MYT1L Restricts GB Plasticity and Promotes the Neuronal-like State"; Figures 5; Extended Data Fig. 10; Supplementary Tables 6-7.
+  - **Concern** The experimental validation is described in a summarized fashion. Key data are missing for a rigorous assessment. For example: (1) The magnitude and statistical significance of the chromatin accessibility changes upon MYT1L OE/KD are not stated. (2) The functional data on proliferation and invasion are described qualitatively ("halted", "reduced", "enhanced") without effect sizes or statistical tests. (3) The in vivo data (Fig. 5J-L) are critical, but the survival analysis, tumor growth kinetics, and the number of biological replicates are not provided. (4) The specificity of MYT1L's action is unclear. Does it directly repress the claimed targets, or are the observed effects indirect? The CUT&RUN data are mentioned but not shown or summarized in a way that allows assessment of binding specificity and enrichment.
+  - **Why it matters** The manuscript's central biological claim is that MYT1L is a master regulator of plasticity. The current evidence, as presented, is not sufficient to establish this. The claims of therapeutic potential are premature without robust phenotypic data.
+  - **Resolution test** Provide quantitative data for all key experiments, including effect sizes, confidence intervals, and p-values. Show representative images and quantification for chromatin, transcriptomic, and phenotypic assays. For the in vivo experiments, provide survival curves, tumor volume measurements, and histological analysis. Demonstrate that MYT1L's repressive effects are direct, for example, by showing that mutation of MYT1L binding sites in target enhancers abrogates repression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The claim that the analysis is based on "over one million cells" and that the data can be explored via a web portal.
+  - **Evidence pointer** Abstract; Results; Data availability statement.
+  - **Concern** The data availability statement indicates that ATAC datasets will be made available "upon peer review" and raw sequencing data "upon peer review." This is a significant barrier to reproducibility and independent verification, which is a cornerstone of the scientific process. While a web portal is provided, its contents and the level of detail are not described.
+  - **Why it matters** The inability to access the primary data prevents other researchers from validating the findings or building upon them. This is particularly important for a computational method and a large-scale atlas, where data access is essential for the community.
+  - **Resolution test** Make all processed and raw data publicly available at the time of submission, not upon peer review. Provide a detailed description of the web portal's contents and access procedures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section "Mapping the Regulatory Drivers of GB Cell State Transitions"
+  - **Issue** The term "Topic" is used extensively but is not defined in the main text. The abstract mentions "Topics" without explanation, which may confuse readers unfamiliar with topic modeling. The distinction between "Topic," "cell state," and "eGRN" could be clearer.
+  - **Required correction** Define "Topic" clearly in the introduction or results. Provide a schematic or a clear textual explanation of how topics relate to cell states and eGRNs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Glioblastoma Cells Exhibit State-Specific Levels of Epigenetic Plasticity"
+  - **Evidence pointer** Fig. 1B; Extended Data Fig. 1A-B; Methods (not provided).
+  - **Issue** The definition of "epigenetic plasticity" is based on the "assumption that accessible gene regions without active transcription indicate epigenetic plasticity." This is a reasonable proxy but is a simplification. The authors should acknowledge the limitations of this proxy and discuss potential confounding factors, such as poised enhancers that are accessible but not yet active.
+  - **Required correction** Add a sentence in the results or discussion acknowledging the limitations of this operational definition of plasticity and its potential impact on the interpretation of the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is dense and assumes a high level of familiarity with glioblastoma biology and computational methods. The broader implications for patients and therapy are mentioned but could be more explicitly stated.
+  - **Required correction** Consider adding a paragraph that explicitly translates the findings into a more accessible context, explaining what this means for understanding glioblastoma and potential future therapeutic strategies in plain language.
+- **Technical failings that need to be addressed before the case is established** The lack of access to the full methods, figures, and supplementary data is a critical failing that prevents a full technical assessment. Specifically, the details of the scDORI model architecture, training, and benchmarking are essential. The quantitative results of the MYT1L perturbation experiments, including all statistical analyses, are required to support the central claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using a deep-learning model to infer eGRNs from single-cell multi-omic data and applying it to map plasticity barriers in glioblastoma is original. The specific focus on active repression as a key determinant of plasticity, and the identification of MYT1L in this context, is a novel contribution.
+  - **Scientific importance** The question of cellular plasticity in cancer is of high importance. If the findings are robust, they could have significant implications for understanding tumor evolution, therapy resistance, and for developing new therapeutic strategies aimed at locking tumor cells into less aggressive states. The potential of MYT1L as a therapeutic target is intriguing.
+  - **Interdisciplinary readership** The work is inherently interdisciplinary, combining computational biology, cancer genomics, and functional neuroscience. It would be of interest to researchers in all these fields. However, the presentation is likely to be most accessible to specialists in cancer genomics and computational biology.
+  - **Technical soundness** The technical soundness cannot be fully assessed from the provided material. The computational method is described at a high level, and the experimental validations are summarized without key quantitative details. The claims are plausible but not yet proven to the standard required.
+  - **Readability for nonspecialists** The abstract is clear, but the main text is dense and technical. The use of specialized terminology without adequate definition (e.g., "Topics," "eGRNs," "TAP," "TRS") will limit accessibility for a broader scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem with a novel approach and presents a compelling hypothesis. However, the current evidence base, as provided, is insufficient to fully establish the validity of the computational method and the strength of the biological claims. A complete revision with full methods, data, and quantitative results is required before the case is established.

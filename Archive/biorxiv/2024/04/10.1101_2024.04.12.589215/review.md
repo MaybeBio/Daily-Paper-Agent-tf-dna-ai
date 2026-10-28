@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, data availability) as provided in the submission
+- **Assessment boundary** Scientific content, technical soundness, structural interpretation, mechanistic claims, and consistency with the presented evidence. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors present cryoEM structures of *E. coli* DNA gyrase bound to a 217 bp DNA substrate, in both drug-free and moxifloxacin-bound states. They observe a positively supercoiled, figure-of-eight DNA loop wrapped around the GyrA C-terminal domains, with the GHKL ATPase domains in a "folded down" conformation. They propose a "ratchet and pawl" mechanism for energy coupling, where ATP binding drives a large GHKL conformational change that makes strand passage unidirectional.
+- **Visible evidence base** Abstract, full main text, methods section, data availability statement. Figures and supplementary figures are referenced but not provided. Supplementary tables and figures are mentioned but not included in the supplied material.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and PDB/EMDB accession numbers are not provided. This significantly limits the ability to independently assess map quality, model building, and the validity of key structural interpretations.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant structural advance: the first high-resolution cryoEM structures of a full-length gyrase holoenzyme with a chirally wrapped DNA loop, in both drug-free and fluoroquinolone-bound states. The observation of a positively supercoiled figure-of-eight loop and the "folded down" GHKL conformation is novel and will be of considerable interest to the topoisomerase and molecular motor communities. The proposed "ratchet and pawl" model is a thoughtful and testable framework. However, the absence of all figures and supporting data in the supplied material prevents a full technical evaluation. The mechanistic claims, particularly regarding the GHKL conformational change and the pre-catalytic state, require careful scrutiny of the structural evidence, which cannot be performed here. The manuscript is well-written and the arguments are logically presented, but the strength of the conclusions rests heavily on data not visible in this review.
+- **Who would be interested in the results, and why** Structural biologists studying topoisomerases and GHKL-family ATPases; biochemists and biophysicists interested in molecular motors and mechanochemical coupling; microbiologists and medicinal chemists interested in antibiotic mechanism and resistance, particularly fluoroquinolones. The work provides a new structural framework for understanding gyrase function and could inform future drug development and studies of antibiotic resistance.
+- **Major strengths**
+  - First high-resolution structure of a full-length gyrase with a fully wrapped, positively supercoiled DNA loop, directly visualizing the long-hypothesized chiral wrap.
+  - Novel observation of the GHKL domains in a "folded down" conformation in the absence of nucleotide, distinct from previously observed states.
+  - The proposed "ratchet and pawl" model is a conceptually clear and mechanistically plausible framework that reconciles structural and biochemical data.
+  - The comparison between drug-free and moxifloxacin-bound states provides new insights into fluoroquinolone action and the pre-cleavage state.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Structural interpretation
+  - **Claim pointer** The manuscript claims a 2.3 Å cryoEM structure of the gyrase-DNA complex and a 2.8 Å structure of the moxifloxacin-bound complex, with a "folded down" GHKL conformation and a fully wrapped DNA loop.
+  - **Evidence pointer** Figures 1-3, Supplementary Figures 1-8, Supplementary Table 1 (none provided)
+  - **Concern** The central structural claims cannot be verified without the figures and supplementary data. Map quality, local resolution, model building, and refinement statistics are not assessable. The interpretation of the GHKL "folded down" state and the DNA loop topology depends critically on the quality of the density and the modeling. The claim that the drug-free structure represents a "pre-catalytic state" with a single metal ion in a novel configuration requires direct visualization of the density for the metal and the surrounding residues.
+  - **Why it matters** The entire mechanistic model is built on these structural observations. Without the ability to assess the maps and models, the validity of the key claims cannot be established. The distinction between the proposed "folded down" state and previously observed conformations, and the interpretation of the metal ion configuration, are subtle and require high-quality evidence.
+  - **Resolution test** Provide the figures and supplementary data, including representative density for the DNA loop, the GHKL domains, the catalytic site, and the metal ion. Provide FSC curves, model vs. map correlation, and refinement statistics. The authors should clearly show that the "folded down" GHKL conformation is not an artifact of sample preparation or data processing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Mechanistic claim
+  - **Claim pointer** The manuscript states that "GHKL dimerization, as observed in the previous AMP-PNP bound structures, is incompatible with the position of the T-DNA, and can only happen after strand passage took place."
+  - **Evidence pointer** Figure 2a, Supplementary Figure 3 (not provided)
+  - **Concern** This is a strong mechanistic claim based on a superposition of the new structure with a previously published AMP-PNP-bound structure. The compatibility of the T-DNA position with the dimerized GHKL state depends on the exact conformations used for the superposition and the modeling of the DNA. The claim that dimerization "can only happen after strand passage" is a definitive statement that may overreach the available evidence, as it relies on a static comparison of two states.
+  - **Why it matters** This claim is central to the proposed "ratchet and pawl" mechanism, where GHKL dimerization acts as the "pawl" that prevents reversal. If the T-DNA could potentially be accommodated in a partially dimerized state, or if the GHKL domains could move without full dimerization, the model would need revision.
+  - **Resolution test** Show the superposition clearly, with the T-DNA and the GHKL domains in both states. Provide a more nuanced discussion of the steric clashes, perhaps with a quantitative analysis of the overlap. The authors should consider whether a stepwise or partial dimerization could occur before strand passage.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Interpretation
+  - **Claim pointer** The manuscript proposes that the drug-free structure represents a "pre-catalytic state" and that the moxifloxacin-bound structure shows the cleaved state, with a single metal ion in a "B-configuration."
+  - **Evidence pointer** Figure 3d, Supplementary Figure 7 (not provided)
+  - **Concern** The interpretation of the metal ion configuration and the assignment of the drug-free state as "pre-catalytic" is based on subtle differences in density and distances. The authors state that the metal in the drug-free structure is "most close to D498," a configuration that is "closely resembling a drug-free cleaved structure of S. pneumoniae topoisomerase IV." This is a potentially confusing point: if the drug-free structure is pre-catalytic, why does its metal configuration resemble a cleaved structure? The distinction between the states needs to be clarified.
+  - **Why it matters** The proposed mechanism relies on a specific sequence of metal ion movements. If the assignment of the states is ambiguous, the mechanistic conclusions are weakened.
+  - **Resolution test** Provide a clear comparison of the metal ion coordination in the drug-free, MFX-bound, and previously published structures. The authors should explicitly address the apparent similarity between their pre-catalytic state and a previously observed cleaved state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Completeness
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The PDB and EMDB accession numbers are listed as "XXX" and are not yet available.
+  - **Required correction** Provide the accession numbers or state that they will be made available upon publication.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability / Terminology
+  - **Affected element** Main text, section "In nucleotide-free conditions..."
+  - **Evidence pointer** Main text, first paragraph of this section
+  - **Issue** The term "SGS 'right arm'" is used without a clear definition of what constitutes the "right arm" of the SGS sequence. This may be confusing for readers not deeply familiar with the Mu phage system.
+  - **Required correction** Briefly define the "right arm" and "left arm" of the SGS in the context of the DNA sequence and its orientation relative to the gyrase binding site.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Interpretation
+  - **Affected element** Main text, section "Ratchet and pawl..."
+  - **Evidence pointer** Main text, description of the model
+  - **Issue** The description of the model in the text is somewhat dense and would benefit from a clearer step-by-step enumeration of the proposed states and transitions.
+  - **Required correction** Consider presenting the model as a numbered list of states and transitions, making it easier for the reader to follow the proposed mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness / Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "CryoEM data collection & analysis"
+  - **Issue** The methods describe the use of "focussed classification and refinement approach" for the CTD, but the details of this approach are not fully described.
+  - **Required correction** Provide more detail on the focused classification and refinement strategy, or cite a previous publication where this method is described in detail.
+
+## Risk / unsupported claims
+- The claim that the observed "folded down" GHKL conformation is a native, functionally relevant state, rather than a conformation stabilized by the specific DNA substrate or cryoEM grid conditions, is not fully supported without additional biochemical or biophysical validation.
+- The claim that the drug-free structure represents a "pre-catalytic state" is an interpretation that cannot be fully assessed without the structural data and a more detailed comparison with other states.
+- The statement that GHKL dimerization "can only happen after strand passage" is a strong mechanistic conclusion that may be an overinterpretation of a static structural comparison.
+- The proposal that the acidic tail of GyrA is involved in coordinating nucleotide binding with loss of DNA wrap is speculative and not directly supported by the presented data, as the tail is not observed in the structures.
+- The genome-level analysis of gyrase binding site consensus, mentioned in the context of nucleosome-like sequence preferences, is not shown or described in detail, making this claim unverifiable from the supplied material.

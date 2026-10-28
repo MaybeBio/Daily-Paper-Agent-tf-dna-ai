@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors use in silico methods to identify six RUNX1 missense mutations at the DNA-binding interface from COSMIC database entries, predict their effects on DNA binding, and dock 13 FDA-approved cancer drugs to wild-type and mutant RUNX1. They report that specific mutations, particularly R174Q and R177Q, may reduce DNA binding while enhancing off-target drug interactions, notably with Enasidenib.
+- **Visible evidence base** Abstract, Introduction, Materials and methods, Results, Discussion, Conclusion, Data availability, Author contributions, Funding, Conflict of interest, Publisher's note, Supplementary material note, Acknowledgements
+- **Missing materials affecting confidence** Figures 1-5, Table 1, Supplementary Figures S1, Supplementary Table S1, PDB structure files, docking output files, COSMIC data extraction details, energy minimization parameters, SwissDock settings, castp server output details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question regarding RUNX1 mutations in AML and their potential impact on DNA binding and drug interactions. The computational approach is reasonable in principle, but the presented evidence is insufficient to support several key claims. The docking methodology lacks critical validation, the ΔΔG values are not contextualized against known binding affinities, and the biological significance of the predicted interactions is not established. The manuscript would benefit from additional experimental validation or at minimum, more rigorous computational benchmarks.
+- **Who would be interested in the results, and why** Researchers in computational biology, cancer genomics, and AML therapeutics may find the approach of combining mutation mapping with drug docking of interest. Clinicians involved in personalized medicine for AML could potentially use such predictions to guide treatment decisions, though the current evidence level is too preliminary for clinical application.
+- **Major strengths** The study addresses an important clinical problem with a potentially useful computational framework. The focus on RUNX1, a key transcription factor in AML, is well justified. The authors correctly identify that off-target drug effects are underappreciated and that computational approaches could help predict them. The use of COSMIC database provides a solid foundation for identifying clinically relevant mutations.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that six specific mutations (Arg80Cys, Arg142Lys, Asp171Asn, Arg174Gln, Pro176His, Arg177Gln) evidence reduced DNA association based on in silico predictions.
+  - **Evidence pointer** Results section, Figure 1, Figure 5
+  - **Concern** The manuscript states that "we did not find visually significant differences for the predicted binding of wildtype versus RUNX1 mutants in binding to DNA" in the structural analyses, yet the abstract and conclusions claim reduced DNA association for these mutations. This internal contradiction is not resolved. The methods for assessing DNA binding affinity changes are not described in sufficient detail to evaluate the validity of the predictions.
+  - **Why it matters** The central claim of the paper rests on the predicted reduction in DNA binding for these mutations. If the structural analysis shows no significant differences, the basis for this claim is unclear. The discrepancy between the visual inspection result and the stated conclusion undermines confidence in the findings.
+  - **Resolution test** Provide quantitative metrics for DNA binding affinity changes (e.g., calculated binding free energies for DNA-protein complexes) and clearly describe the computational method used to derive these values. Resolve the contradiction between the visual inspection statement and the conclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that specific mutations "facilitate the binding" of drugs, particularly Enasidenib, to RUNX1 based on docking scores and ΔΔG values.
+  - **Evidence pointer** Results section, Figure 3, Figure 5C, Table 1
+  - **Concern** The docking methodology relies on SwissDock with CHARMM energies, but no validation of the docking protocol is provided. The ΔΔG values are presented without comparison to known binding affinities or experimental data. The claim that "docking scores of each of the RUNX1 mutants with Enasidenib was better than that with wild-type RUNX1" is based on relative comparisons without absolute thresholds for what constitutes meaningful binding. No error estimates or statistical analyses are provided for the docking calculations.
+  - **Why it matters** Docking scores are notoriously variable and method-dependent. Without validation against known binders or experimental affinity data, the predicted differences between wild-type and mutant RUNX1 may not be biologically meaningful. The clinical implications suggested in the discussion require more robust evidence.
+  - **Resolution test** Validate the docking protocol using known protein-ligand complexes with experimentally determined affinities. Provide absolute binding free energy estimates with error bars. Compare predicted affinities with any available experimental data for RUNX1-drug interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "specific RUNX1 mutations that lessen DNA binding facilitate the binding of a number of tested drug molecules" and suggest this could have implications for AML treatment.
+  - **Evidence pointer** Abstract, Discussion, Conclusion
+  - **Concern** The biological relevance of the predicted drug-RUNX1 interactions is not established. The authors do not demonstrate that drug binding to RUNX1 would have any functional consequence in cells. The claim that off-target binding could "produce presently unknown effects" is speculative without experimental evidence. The connection between reduced DNA binding and enhanced drug binding is not mechanistically explained.
+  - **Why it matters** For the findings to be clinically or biologically meaningful, the authors need to show that drug binding to RUNX1 affects its function, stability, or cellular localization. Without this, the predicted interactions remain computational curiosities.
+  - **Resolution test** Provide experimental evidence (e.g., cellular assays, biophysical measurements) demonstrating functional consequences of drug binding to RUNX1 mutants. Alternatively, clearly frame the work as purely hypothesis-generating without clinical implications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods describe using COSMIC database v85, UCSF Chimera, SwissDock, PDB2PQR, APBS, castp, and PredictProtein, but lack specific parameters and settings.
+  - **Evidence pointer** Materials and methods section
+  - **Concern** Critical methodological details are missing. The energy minimization protocol is described only as "1,000 steps steepest decent and 500 steps of the conjugate gradient algorithm with the step size 0.002 Å" without specifying the software, temperature, or convergence criteria. The selection of the 13 drugs is not justified beyond a general statement. The criteria for defining "recurrent" mutations are not provided. The specific settings for SwissDock, castp, and PredictProtein are not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without complete methodological details, other researchers cannot replicate or verify the findings.
+  - **Resolution test** Provide complete methodological details including software versions, all parameters, and analysis scripts. Justify the selection of drugs and the criteria for mutation recurrence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "we retrieved data from the COSMIC database for cancer-associated mutations of RUNX1 by using R package 'data.table' and 'ggplot2' modules" which is a methodological detail more appropriate for the methods section. The abstract also contains redundant phrasing.
+  - **Required correction** Revise the abstract to focus on findings rather than methods. Remove redundant statements about data retrieval.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction states "the mutations R201Q (Uniprot: R174Q) and R166Q (Uniprot: R139Q)" but the relationship between the two numbering systems is not explained. The text later refers to R174Q and R177Q as the key mutations, creating potential confusion about which mutations are being discussed.
+  - **Required correction** Clarify the numbering conventions and ensure consistent use of mutation nomenclature throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results section, Figure 2
+  - **Issue** The description of electrostatic analysis and active pocket identification is brief. The authors mention "23 active pockets" but only evaluate three, without explaining the selection criteria for the three evaluated pockets.
+  - **Required correction** Provide the criteria for selecting the three pockets for drug docking analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states "we speculate that at least certain cancer-associated mutations in RUNX1B may exhibit the capacity to alter drug binding" but the manuscript focuses on RUNX1, not RUNX1B. This introduces an undefined term.
+  - **Required correction** Clarify whether RUNX1B is a distinct isoform or a typographical error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Results
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The text states "Ibrutinib showed a similar pattern of ΔΔG values when comparing the modeling of its binding to the B cell antigen receptor (BCR) relative to RUNX1" but the figure is not available for verification. The text also mentions "an equivalent ΔΔG value of Ibrutinib binding to the BCR receptor as to the BTK protein" without providing the actual values.
+  - **Required correction** Provide the numerical ΔΔG values for all comparisons to support the claims.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and methods, Data mining
+  - **Issue** The methods state that mutations were classified based on FATHMM scores but do not provide the specific scores for the six mutations studied.
+  - **Required correction** Include the FATHMM scores for all mutations discussed in the results.
+
+## Risk / unsupported claims
+- The claim that six specific mutations "evidenced reduced DNA association" is unsupported given the stated lack of visual differences in structural analysis and the absence of quantitative DNA binding affinity calculations.
+- The claim that specific mutations "facilitate the binding" of drugs to RUNX1 is unsupported without validation of the docking protocol or comparison to experimental binding data.
+- The conclusion that "specific RUNX1 mutations that lessen DNA binding facilitate the binding of a number of tested drug molecules" is not supported by the presented evidence, as the causal relationship between reduced DNA binding and enhanced drug binding is not demonstrated.
+- The suggestion that drug binding to RUNX1 could have clinical implications for AML treatment is speculative and not supported by any functional or experimental data.
+- The claim that "R174Q and R177Q mutations may facilitate the AML-associated drug Enasidenib interaction with RUNX1" is based solely on docking scores without experimental validation.
+- The statement that "Ibrutinib may be an effective target in Non-Hodgkin Lymphoma" is not supported by the data presented, as the study does not include functional assays or clinical data.

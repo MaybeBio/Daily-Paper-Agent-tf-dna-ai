@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.11.627935",
+  "title": "RegVelo: gene-regulatory-informed dynamics of single cells",
+  "authors": "Wang W; Hu Z; Weiler P; Mayes S; Lange M; Wang J; Xue Z; Sauka-Spengler T; Theis FJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出RegVelo深度学习模型，整合RNA速率与基因调控网络推断，用于单细胞动态建模和扰动预测，虽涉及转录因子调控，但核心是基因表达动态而非蛋白质-DNA三维互作建模，方法上无分子模拟或结构建模，与课题关联较弱。",
+  "abstract": "RNA velocity has emerged as a popular approach for modeling cellular change along the phenotypic landscape but routinely omits regulatory interactions between genes. Conversely, methods that infer gene regulatory networks (GRNs) do not consider the dynamically changing nature of biological systems. To integrate these two currently disconnected fields, we present RegVelo, an end-to-end dynamic, interpretable, and actionable deep learning model that learns a joint model of splicing kinetics and gene regulatory relationships and allows us to perform in silico perturbation predictions. When applied to datasets of the cell cycle, human hematopoiesis, and murine pancreatic endocrinogenesis, RegVelo demonstrates superior predictive power for interactions and perturbation simulations, for example, compared to methods that focus solely on dynamics or GRN inference. To leverage RegVelo’s full potential, we studied the dynamics of zebrafish neural crest development and underlying regulatory mechanisms using our Smart-seq3 dataset and shared gene expression and chromatin accessibility measurements. Using RegVelo’s in silico perturbation predictions, validated by CRISPR/Cas9-mediated knockout and single-cell Perturb-seq, we establish transcription factor tfec as an early driver and elf1 as a novel regulator of pigment cell fate and propose a gene-regulatory circuit involving tfec and elf1 interactions via the toggle-switch model.",
+  "abstract_zh": "RNA velocity已成为一种在表型景观上建模细胞变化的流行方法，但通常忽略了基因之间的调控相互作用。相反，推断基因调控网络（GRNs）的方法不考虑生物系统的动态变化特性。为了整合这两个目前脱节的领域，我们提出了RegVelo，一个端到端的动态、可解释且可操作的深度学习模型，它联合学习剪接动力学和基因调控关系，并允许我们进行计算机模拟扰动预测。当应用于细胞周期、人类造血和小鼠胰腺内分泌发生的数据集时，RegVelo在相互作用和扰动模拟方面展现出优越的预测能力，例如，与仅关注动力学或GRN推断的方法相比。为了充分利用RegVelo的潜力，我们使用我们的Smart-seq3数据集研究了斑马鱼神经嵴发育的动态及其潜在调控机制，并共享了基因表达和染色质可及性测量数据。利用RegVelo的计算机模拟扰动预测，并通过CRISPR/Cas9介导的敲除和单细胞Perturb-seq验证，我们确定转录因子tfec为色素细胞命运的早期驱动因子，elf1为新型调控因子，并提出了一个涉及tfec和elf1通过切换开关模型相互作用的基因调控回路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.11.627935",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.11.627935",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.11.627935/index.html"
+}

@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "39953122",
+    "doi": "10.1007/s00335-025-10111-5",
+    "title": "Identification of biomarkers associated with phagocytosis regulatory factors in coronary artery disease using machine learning and network analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Coronary artery disease (CAD) is the leading cause of death worldwide, and aberrant phagocytosis may be involved in its development. Understanding this aspect may provide new avenues for prompt CAD diagnosis. METHODS: CAD-related information was obtained from Gene Expression Omnibus datasets GSE66360, GSE113079, and GSE59421. We identified 995 upregulated and 1086 downregulated differentially expressed genes (DEGs) in GSE66360. Weighted gene co-expression network analysis revealed a module of 503 genes relevant to CAD. Using clusterProfiler, we revealed 32 CAD-related PRFs. Eight candidate genes were identified in a protein-protein interaction network. Machine learning algorithms identified CAD biomarkers that underwent gene set enrichment analysis, immune cell analysis with CIBERSORT, microRNA (miRNA) prediction using the miRWalk database, transcription factor (TF) level predication through ChEA3, and drug prediction with DGIdb. Cytoscape visualized the miRNA -mRNA- TF, miRNA-single nucleotide polymorphism-mRNA, and biomarker-drug networks. RESULTS: IL1B, TLR2, FCGR2A, SYK, FCER1G, and HCK were identified as CAD biomarkers. The area under the curve of a diagnostic model based on the six biomarkers was > 0.7 for the GSE66360 and GSE113079 datasets. Gene set enrichment analysis revealed differences in their biological pathways. CIBERSORT revealed that 10 immune cell types were differentially expressed between the CAD and control groups. The TF-mRNA-miRNA network showed that has-miR-1207-5p regulates HCK and FCER1G expression and that RUNX1 and SPI may be important TFs. Ninety-five drugs were predicted, including aspirin, which influenced ILIB and FCERIG. CONCLUSION: In this study, six biomarkers (IL1B, TLR2, FCGR2A, SYK, FCER1G, and HCK) related to CAD phagocytic regulatory factors were identified, and their expression regulatory relationships in CAD were further studied, providing a deeper understanding of the pathogenesis, diagnosis, and potential treatment strategies of CAD.",
+    "keywords": [
+      "Biomarkers",
+      "Cellular immunity",
+      "Coronary artery disease",
+      "Early diagnosis",
+      "Molecular targeted therapy",
+      "Phagocytosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Coronary Artery Disease/genetics/metabolism",
+      "*Biomarkers/metabolism",
+      "*Gene Regulatory Networks",
+      "*Phagocytosis/genetics",
+      "Protein Interaction Maps",
+      "MicroRNAs/genetics",
+      "Toll-Like Receptor 2/genetics",
+      "Gene Expression Profiling",
+      "Receptors, IgG/genetics",
+      "Interleukin-1beta/genetics",
+      "Syk Kinase/genetics",
+      "Databases, Genetic",
+      "Transcription Factors/genetics",
+      "Polymorphism, Single Nucleotide",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Runan",
+        "Li, Zhiya",
+        "Du, Yingying",
+        "Liu, Huixian",
+        "Liang, Ruirui"
+      ],
+      "short_names": [
+        "Jia R",
+        "Li Z",
+        "Du Y",
+        "Liu H",
+        "Liang R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Huaihe Hospital of Henan University, Kaifeng City, Henan, 475001, China. jrn950801@163.com.",
+        "Huaihe Hospital of Henan University, Kaifeng City, Henan, 475001, China.",
+        "Xinxiang Central Hospital, Xinxiang City, Henan, 453000, China.",
+        "Huaihe Hospital of Henan University, Kaifeng City, Henan, 475001, China.",
+        "Department of Cardiology, Zhengzhou Yihe Hospital, Zhengzhou City, Henan, 450047, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Runan",
+        "short_name": "Jia R",
+        "identifiers": [],
+        "affiliations": [
+          "Huaihe Hospital of Henan University, Kaifeng City, Henan, 475001, China. jrn950801@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Zhiya",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Huaihe Hospital of Henan University, Kaifeng City, Henan, 475001, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yingying",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xinxiang Central Hospital, Xinxiang City, Henan, 453000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huixian",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Huaihe Hospital of Henan University, Kaifeng City, Henan, 475001, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Ruirui",
+        "short_name": "Liang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhengzhou Yihe Hospital, Zhengzhou City, Henan, 450047, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mammalian genome : official journal of the International Mammalian Genome Society"
+    ],
+    "journal_abbrev": [
+      "Mamm Genome"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/15 15:11",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38102221",
+      "37550526",
+      "36142251",
+      "36094436",
+      "36012202",
+      "35892841",
+      "35831032",
+      "35559389",
+      "35509981",
+      "35371000",
+      "34925641",
+      "34758632",
+      "34209965",
+      "34177884",
+      "34115526",
+      "34041845",
+      "33612829",
+      "33533289",
+      "33307909",
+      "32819873",
+      "32582172",
+      "32150365",
+      "31344980",
+      "30898992",
+      "30534554",
+      "30167528",
+      "30015926",
+      "29868933",
+      "29030345",
+      "28930526",
+      "28691037",
+      "28333905",
+      "27752333",
+      "26399457",
+      "25633318",
+      "25605792",
+      "24573704",
+      "24389497",
+      "22455463",
+      "21269502",
+      "20808728",
+      "19766998",
+      "19232413",
+      "19114008",
+      "17172927",
+      "14597658",
+      "12512736",
+      "10399059"
+    ],
+    "similar": [
+      "39953122",
+      "39875572",
+      "34530741",
+      "39080630",
+      "33506919",
+      "40890424",
+      "39028999",
+      "31881747",
+      "38863714",
+      "35799780",
+      "40307438",
+      "39375405",
+      "40860289",
+      "40754871",
+      "40374866",
+      "34789641",
+      "26936111",
+      "41044520",
+      "39992204",
+      "39090590",
+      "34565095",
+      "38764052",
+      "41151411",
+      "40379803",
+      "36222281",
+      "41052072",
+      "35322335",
+      "34840985",
+      "39142001",
+      "35757392",
+      "41192647",
+      "37773794",
+      "40196107",
+      "34552562",
+      "41006883",
+      "35151267",
+      "26208504",
+      "41066424",
+      "40332792",
+      "34930980",
+      "39509434",
+      "39512836",
+      "41432483",
+      "41300749",
+      "33758323",
+      "32052443",
+      "28438516",
+      "35773742",
+      "34734085",
+      "38573982",
+      "40933471",
+      "28760552",
+      "35958412",
+      "41146237",
+      "37075605",
+      "38062833",
+      "39673621",
+      "40421012",
+      "39176085",
+      "38880872",
+      "31987036",
+      "40340571",
+      "40588645",
+      "38629070",
+      "41316541",
+      "30269354",
+      "31500382",
+      "39496786",
+      "34115526",
+      "41196851",
+      "41630199",
+      "39592804",
+      "37449753",
+      "30015926",
+      "38451044",
+      "31424269",
+      "40923741",
+      "36291136",
+      "39433267",
+      "39391879",
+      "40977739",
+      "40782934",
+      "32164735",
+      "40068024",
+      "40383719",
+      "41120603",
+      "39406802",
+      "38873601",
+      "34218797",
+      "41479901",
+      "31075415",
+      "40574839",
+      "35749386",
+      "40161396",
+      "30616374",
+      "39650552",
+      "40245021",
+      "37063926",
+      "33511207",
+      "32299382"
+    ],
+    "review": [
+      "39953122",
+      "34530741"
+    ],
+    "pmc": [
+      "12130075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/coronaryarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Coronary Artery Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39953122/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00335-025-10111-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

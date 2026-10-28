@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that four aromatic residues (Phe37, Phe50, Phe56, Trp84) in the oligonucleotide binding domain of the single-stranded DNA binding protein from *Helicobacter pylori* (HpSSB) are essential for ssDNA binding, based on site-directed mutagenesis, biophysical binding assays, and computational modeling.
+- **Visible evidence base** Abstract text only; no experimental data, numerical results, statistical analyses, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, raw binding data, statistical analyses, molecular docking and MD simulation parameters, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and mechanistically plausible hypothesis that aromatic residues in the OB domain of HpSSB are critical for ssDNA binding. The combination of experimental mutagenesis with biophysical assays and computational modeling is appropriate in principle. However, the abstract provides no quantitative data, no statistical validation, and no methodological detail, making it impossible to assess the robustness of the claims. The central conclusion that these residues are "essential" is not supported by the evidence presented in the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying bacterial DNA replication and repair mechanisms, particularly those focused on SSB proteins and their nucleic acid binding interfaces. The work may also interest structural biologists and computational chemists investigating protein-DNA interactions, as well as those working on *H. pylori* biology and potential therapeutic targets.
+- **Major strengths** The study addresses a clear and specific question derived from prior structural work, which provides a logical foundation. The use of multiple complementary methods (EMSA, fluorescence titration, SPR, docking, MD simulation) is a strength in principle, as it allows cross-validation of binding effects. The inclusion of both single and quadruple mutants in the computational analysis is a thoughtful approach to probing additive or synergistic effects.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that mutation of the aromatic residues "significantly diminished the ssDNA binding capability of HpSSB" and that these residues play a "crucial role" in ssDNA binding.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no quantitative binding data, no error estimates, no statistical comparisons, and no representative results from any of the three experimental methods. Without numerical values (e.g., dissociation constants, fluorescence quenching percentages, SPR response units) and appropriate statistical tests, the claim of "significant" diminishment cannot be evaluated.  
+  - **Why it matters** The central conclusion rests entirely on the magnitude and reproducibility of the observed binding reductions. If the effects are small or within experimental noise, the claim of essentiality would be overstated. The abstract does not allow the reader to distinguish between a partial reduction and a complete loss of binding.  
+  - **Resolution test** Provide quantitative binding parameters for wild-type and each mutant from at least two independent methods, with standard deviations and statistical significance values (e.g., p-values or confidence intervals). Show that the reductions are large relative to experimental variability and consistent across methods.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that molecular docking and MD simulation "support that the ssDNA-HpSSBc complex was destabilized" upon mutation.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No details are given on the docking protocol, force field, simulation length, equilibration criteria, or how "destabilization" was quantified (e.g., binding free energy changes, RMSD, contact persistence). Without these details, the computational results cannot be assessed for reliability or relevance to the experimental findings.  
+  - **Why it matters** Computational predictions are only meaningful if the methods are appropriate and the analysis is rigorous. If the simulation parameters are inadequate or the destabilization metric is poorly defined, the computational support adds little to the experimental case.  
+  - **Resolution test** Specify the docking software and scoring function, the MD simulation package and force field, simulation duration and temperature/pressure conditions, and the specific metric used to define destabilization. Provide quantitative results (e.g., delta delta G values or interaction energy changes) for both the single and quadruple mutants.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim precision  
+  - **Claim pointer** The abstract concludes that the aromatic residues are "essential" to the function of HpSSB.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The term "essential" implies that mutation leads to a near-complete loss of function. The abstract does not report whether any residual binding activity remains in the mutants, nor does it clarify whether the quadruple mutant was experimentally tested or only computationally modeled. The experimental section describes only single mutants, while the computational section includes a quadruple model. This discrepancy is not addressed.  
+  - **Why it matters** Overstating the functional consequence of mutation can mislead downstream studies. If single mutants retain substantial binding, the residues may be important but not individually essential. The lack of experimental data on the quadruple mutant weakens the claim of collective essentiality.  
+  - **Resolution test** Clarify whether the quadruple mutant was experimentally characterized. Report residual binding activity for each mutant, and use a more precise term than "essential" if any binding is retained. If the quadruple mutant was not tested experimentally, temper the conclusion accordingly.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Internal consistency  
+  - **Claim pointer** The abstract compares mutant binding to "wild-type HpSSB and HpSSBc" but does not explain the relationship between these two forms.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** HpSSBc is described as a C-terminally truncated SSB, but the abstract does not state whether the mutants were generated in the full-length or truncated background. If the mutants were made in the truncated form, the comparison to full-length wild-type is not directly interpretable. If they were made in the full-length form, the relevance of the HpSSBc structural data needs clarification.  
+  - **Why it matters** The choice of background affects the interpretation of binding differences. A truncation itself may alter binding affinity, confounding the effect of the point mutations. The reader cannot determine whether the observed effects are due to the aromatic residue changes or to the truncation.  
+  - **Resolution test** State explicitly which construct (full-length or truncated) was used for each mutant. If mutants were made in the truncated background, compare them to HpSSBc as the appropriate control and discuss the relevance to the full-length protein. If made in the full-length background, justify the use of HpSSBc as a comparator.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "the binding activity of four site-directed HpSSB mutants... was compared" is vague regarding the direction and magnitude of the observed changes.  
+  - **Required correction** Specify whether the mutants showed reduced, abolished, or altered binding, and provide a brief quantitative summary in the abstract.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental methods  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract lists three experimental methods but does not indicate which method was used for which mutant or whether all mutants were tested by all methods.  
+  - **Required correction** Clarify the experimental matrix, e.g., "all four mutants were tested by EMSA and SPR, while fluorescence titration was performed on a subset."  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "essential"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The term "essential" is used in the title and conclusion, but the abstract does not demonstrate a complete loss of function.  
+  - **Required correction** Consider using "critical" or "important" unless complete loss of binding is demonstrated experimentally.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Computational methods  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** No mention of replicate simulations or convergence checks for the MD study.  
+  - **Required correction** State whether simulations were run in triplicate or with multiple starting conformations, and report convergence metrics.
+
+## Risk / unsupported claims
+- The claim that mutation "significantly diminished" binding is unsupported without quantitative data and statistical analysis.
+- The claim that the aromatic residues are "essential" is unsupported without evidence of near-complete loss of function.
+- The computational support for destabilization is unassessable without methodological details and quantitative results.
+- The relationship between HpSSB and HpSSBc in the experimental design is unclear, making the comparison to wild-type potentially confounded.
+- The abstract does not provide any information on experimental replicates, error bars, or statistical tests, so all quantitative claims are currently unverifiable.

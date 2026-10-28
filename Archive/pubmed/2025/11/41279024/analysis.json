@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41279024",
+  "title": "TSProm: Deciphering the Genomic Context of Tissue Specificity.",
+  "authors": "Surana, Pallavi; Dutta, Pratik; Papineni, Nimisha; Sathian, Rekha; Zhou, Zhihan; Liu, Han; Davuluri, Ramana",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用DNA基础模型DNABERT2结合可解释AI分析组织特异性启动子，识别转录因子结合基序，虽聚焦启动子而非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Characterizing tissue-specific (TSp) gene expression is crucial for understanding development and disease; however, traditional expression-based methods often overlook the latent \"regulatory grammar\" embedded in the non-coding DNA, particularly in distal promoter regions. Here, we introduce TSProm, a framework that specializes a DNA foundation model (DNABERT2) to decipher the long-range regulatory logic of TSp promoters at the gene isoform level. The contributions of our work are two-fold. First, we propose a novel comparative design that trains two distinct models, A: for general promoter biology and B: for TSp regulation. These models enable the precise isolation of sequence motifs around the transcription start site that uniquely define tissue identity. Second, we introduce a comprehensive explainable AI (xAI) module that integrates attention-based discovery with model-agnostic SHAP analysis to provide robust, cross-validated interpretations of learned features. Applying this framework to human brain, liver, and testis promoters, we identified and validated clinically relevant transcription factors (TFs) in the brain, including SP1, MYC, and HES6, and confirmed their known roles in diseases such as gliomas and neuroblastomas. Our analysis further revealed that C2H2 Zinc Finger proteins are a dominant feature of the global landscape of TSp gene regulation. TSProm provides a novel and interpretable framework for identifying TSp gene regulatory elements, offering powerful computational tools for the study of tissue-specific gene regulation in normal and disease conditions.",
+  "abstract_zh": "表征组织特异性（TSp）基因表达对于理解发育和疾病至关重要；然而，传统的基于表达的方法往往忽视了非编码DNA中嵌入的潜在“调控语法”，尤其是在远端启动子区域。在此，我们引入TSProm，一个专门化DNA基础模型（DNABERT2）的框架，以在基因异构体水平上解读TSp启动子的长程调控逻辑。我们的工作贡献有两方面。首先，我们提出了一种新颖的比较设计，训练两个不同的模型：A用于一般启动子生物学，B用于TSp调控。这些模型能够精确分离转录起始位点周围独特定义组织身份的序列基序。其次，我们引入了一个全面的可解释人工智能（xAI）模块，该模块整合了基于注意力的发现与模型无关的SHAP分析，以提供对学习特征的稳健、交叉验证的解释。将该框架应用于人脑、肝脏和睾丸启动子，我们识别并验证了脑中临床相关的转录因子（TFs），包括SP1、MYC和HES6，并确认了它们在胶质瘤和神经母细胞瘤等疾病中的已知作用。我们的分析进一步揭示，C2H2锌指蛋白是TSp基因调控全局景观中的主导特征。TSProm为识别TSp基因调控元件提供了一个新颖且可解释的框架，为正常和疾病条件下组织特异性基因调控的研究提供了强大的计算工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41279024/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41279024/",
+  "paper_page_path": "papers/pubmed/41279024/index.html"
+}

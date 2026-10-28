@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, and support for claims based solely on the supplied material
+- **Shared manuscript claim summary** The authors propose that rationally designed α-helical peptides derived from the TDP-43 amyloidogenic core can bind TDP-43 amyloid-like fibrils, resist β-sheet conversion, and thereby cap filament growth, offering a potential therapeutic strategy for TDP-43 proteinopathies
+- **Visible evidence base** Computational predictions (RaptorX secondary structure), RosettaCM 3D modeling, HDock docking scores, GROMACS MD simulations (RMSD, hydrogen bonds, secondary structure, free energy landscapes), interaction energy matrices
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; no experimental validation data; no statistical analysis details; no force field validation or convergence criteria for MD; no docking pose selection criteria beyond "favorable interactions"
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational pipeline for designing α-helical peptide inhibitors targeting TDP-43 aggregation. The rationale is grounded in prior structural studies, and the workflow is logical. However, the evidence provided is entirely in silico, with no experimental validation, and several methodological details are insufficiently described. The central claim that these peptides can "cap" fibril growth and resist β-sheet conversion is not convincingly established from the data presented. The manuscript would benefit from clearer quantitative comparisons, validation of computational predictions against known experimental data, and discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in neurodegenerative disease biology, protein misfolding and aggregation, computational drug design, and peptide therapeutics. The approach may interest those seeking structure-based strategies for targeting amyloidogenic proteins beyond TDP-43.
+- **Major strengths** The study addresses a clinically relevant problem with a rational design strategy. The use of multiple complementary computational methods is appropriate. The focus on the α-helical domain and its destabilization as a key aggregation trigger is well supported by prior literature. The authors acknowledge the need for experimental follow-up.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "These findings establish α-helical propensity peptides as potential lead molecules for the development of novel therapeutics against TDP-43 aggregation"
+  - **Evidence pointer** Results sections; Table 1; Table 2; Figures 2-7
+  - **Concern** The claim that these peptides are "potential lead molecules" is based solely on computational predictions. No experimental data (e.g., binding assays, aggregation inhibition assays, cellular toxicity) are provided. The computational metrics (hydrogen bond counts, interaction energies, RMSD) are indirect proxies for therapeutic potential and do not demonstrate functional efficacy.
+  - **Why it matters** Without experimental validation, the translational relevance of these findings remains speculative. The field requires evidence that the peptides actually bind fibrils, inhibit aggregation, and are non-toxic in biological systems.
+  - **Resolution test** Provide in vitro data showing peptide binding to TDP-43 fibrils (e.g., SPR, ITC, or co-sedimentation assays) and inhibition of fibril elongation (e.g., ThT fluorescence). Ideally, include cellular assays demonstrating reduced TDP-43 aggregation or toxicity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "Molecular dynamics simulations provided further support for the stability of these peptides, as they exhibited lower root mean square deviations in their helical propensity over 100ns"
+  - **Evidence pointer** Methods: Molecular Dynamics Simulation; Results: Stability of Helical Propensity peptide inhibitors through Molecular Dynamics
+  - **Concern** The MD simulation methodology is underdescribed. No information is provided on system size, equilibration protocol, temperature/pressure coupling, number of replicates, or convergence assessment. The use of a single 100 ns trajectory per peptide is insufficient to establish conformational stability, especially for peptides that may sample multiple conformations.
+  - **Why it matters** MD results are only meaningful if the simulations are well-converged and reproducible. Without replicate runs and convergence checks, the reported RMSD and secondary structure stability could be artifacts of insufficient sampling.
+  - **Resolution test** Provide detailed MD protocols, including replicate simulations (at least 3 independent runs), convergence metrics (e.g., RMSD plateau, block averaging), and validation of force field parameters for the peptide system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support
+  - **Claim pointer** "The helical propensity variants exhibit an average energy of −96.119 kJ/mol, while the wild-type counterpart displays an average energy of −57.8 kJ/mol"
+  - **Evidence pointer** Results: Increased intramolecular interactions; Figure 2B
+  - **Concern** The interaction energy values are presented without error estimates or statistical comparison. It is unclear whether the difference between variants and wild-type is significant given the variability across peptide conformations. Additionally, the interaction energy matrix tool is not described in sufficient detail to assess its validity.
+  - **Why it matters** Quantitative claims require statistical support. Without error bars or significance testing, the reader cannot assess the robustness of the observed differences.
+  - **Resolution test** Provide mean ± SD or SEM for interaction energies across multiple conformations or replicates, and perform appropriate statistical tests (e.g., t-test or ANOVA) to compare variants against wild-type.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Docking validation
+  - **Claim pointer** "The docking analysis reveals that the helical propensity variants and wildtype fragments achieved more similar scores... the S332A/S333W helical propensity peptide is bound at the helical domain in the Amyloid like fibrils structure"
+  - **Evidence pointer** Results: Efficiency of Helical Propensity Peptide Binding; Table 2; Supplementary Figure 3
+  - **Concern** Docking scores are reported but not contextualized. No comparison to known binders or decoy sets is provided, and the selection of "top poses" is not described with objective criteria. The claim that the peptide binds at the helical domain is based on a single docking pose without experimental confirmation.
+  - **Why it matters** Docking predictions are prone to false positives. Without validation against experimental binding data or at least a rigorous scoring benchmark, the binding mode and affinity claims are not reliable.
+  - **Resolution test** Validate docking results with experimental binding assays (e.g., NMR chemical shift perturbations, mutagenesis) or use a benchmark set of known TDP-43 binders to calibrate docking scores. Provide clear criteria for pose selection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "These findings establish α-helical propensity peptides as potential lead molecules" but the term "establish" is too strong given the purely computational nature of the study.
+  - **Required correction** Rephrase to "suggest" or "indicate" to reflect the preliminary nature of the findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods: Peptide Library Design
+  - **Evidence pointer** Methods: Peptide Library Design
+  - **Issue** The method for generating 400 peptide variants is not described. It is unclear whether mutations were introduced randomly or systematically, and how the sequence space was sampled.
+  - **Required correction** Provide a detailed description of the library generation strategy, including the specific mutations considered and any filtering criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results: Stability of Helical Propensity peptide inhibitors through Molecular Dynamics
+  - **Evidence pointer** Figure 3
+  - **Issue** The RMSD plots are described qualitatively ("lower RMSD values") without quantitative values or statistical comparison. The reader cannot assess the magnitude of the differences.
+  - **Required correction** Report numerical RMSD values (mean ± SD) for each peptide and perform statistical comparison between variants and wild-type.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results: The Role of Serine 332,333 Residues
+  - **Evidence pointer** Supplementary Figure 2
+  - **Issue** The supplementary figure is referenced but not provided, making it impossible to evaluate the helical probability data.
+  - **Required correction** Include the supplementary figure or describe the key findings in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Results: Efficiency of Helical Propensity Peptide Binding
+  - **Evidence pointer** Results section
+  - **Issue** The sentence "and furthermore, it should prevent monomer addition of TDP-43 CTD fragments to amyloid-like fibrils," contains a grammatical error and an unsupported claim.
+  - **Required correction** Correct the grammar and either provide evidence for this claim or remove it.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation), R1-M2 (insufficient MD methodology), R1-M3 (missing statistical analysis), R1-M4 (unvalidated docking)
+- **Assessment against Nature-style criteria** Originality: Moderate. The concept of using α-helical peptides to stabilize the helical domain and prevent β-sheet conversion is not entirely novel, though the specific application to TDP-43 is of interest. Scientific importance: High, given the clinical relevance of TDP-43 proteinopathies. However, the purely computational nature limits immediate impact. Interdisciplinary readership: The work may appeal to structural biologists, computational chemists, and neuroscientists, but the lack of experimental validation narrows its appeal. Technical soundness: The computational methods are appropriate but underdescribed, and the lack of validation undermines confidence. Readability for nonspecialists: The manuscript is generally readable, but some sections (e.g., interaction energy matrix) are not explained clearly enough for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The computational findings are promising but require experimental validation and more rigorous methodological reporting before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim that peptides "cap" fibril growth is not directly tested; no simulation of fibril elongation or capping is presented.
+- The statement that "the helical propensity variants maintained stable conformations with stable intramolecular interaction energies" is based on a single MD run without statistical support.
+- The assertion that "the helical propensity peptide... acts as a mimetic of TDP-43's amyloidogenic core region" is inferred from docking scores but not experimentally demonstrated.
+- The claim that "these peptides require further evaluation for specificity and target engagement" is appropriate, but the manuscript does not discuss potential off-target effects or specificity challenges in detail.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38515040",
+  "title": "GNNMF: a multi-view graph neural network for ATAC-seq motif finding.",
+  "authors": "Zhang, Shuangquan; Wu, Xiaotian; Lian, Zhichao; Zuo, Chunman; Wang, Yan",
+  "journal": "BMC genomics",
+  "published_date": "2024-03-22",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出多视图图神经网络GNNMF从ATAC-seq数据中预测TF结合位点并发现不同长度基序，属于AI方法用于TF-DNA结合位点预测，但未涉及三维互作建模或动态机制，故评7分。",
+  "abstract": "BACKGROUND: The Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) utilizes the Transposase Tn5 to probe open chromatic, which simultaneously reveals multiple transcription factor binding sites (TFBSs) compared to traditional technologies. Deep learning (DL) technology, including convolutional neural networks (CNNs), has successfully found motifs from ATAC-seq data. Due to the limitation of the width of convolutional kernels, the existing models only find motifs with fixed lengths. A Graph neural network (GNN) can work on non-Euclidean data, which has the potential to find ATAC-seq motifs with different lengths. However, the existing GNN models ignored the relationships among ATAC-seq sequences, and their parameter settings should be improved. RESULTS: In this study, we proposed a novel GNN model named GNNMF to find ATAC-seq motifs via GNN and background coexisting probability. Our experiment has been conducted on 200 human datasets and 80 mouse datasets, demonstrated that GNNMF has improved the area of eight metrics radar scores of 4.92% and 6.81% respectively, and found more motifs than did the existing models. CONCLUSIONS: In this study, we developed a novel model named GNNMF for finding multiple ATAC-seq motifs. GNNMF built a multi-view heterogeneous graph by using ATAC-seq sequences, and utilized background coexisting probability and the iterloss to find different lengths of ATAC-seq motifs and optimize the parameter sets. Compared to existing models, GNNMF achieved the best performance on TFBS prediction and ATAC-seq motif finding, which demonstrates that our improvement is available for ATAC-seq motif finding.",
+  "abstract_zh": "背景：利用转座酶可及染色质测序（ATAC-seq）通过转座酶Tn5探测开放染色质，与传统技术相比，可同时揭示多个转录因子结合位点（TFBSs）。深度学习（DL）技术，包括卷积神经网络（CNNs），已成功从ATAC-seq数据中发现基序。由于卷积核宽度的限制，现有模型仅能发现固定长度的基序。图神经网络（GNN）可处理非欧几里得数据，具有发现不同长度ATAC-seq基序的潜力。然而，现有GNN模型忽略了ATAC-seq序列之间的关系，且其参数设置有待改进。结果：在本研究中，我们提出了一种名为GNNMF的新型GNN模型，通过GNN和背景共现概率来发现ATAC-seq基序。我们在200个人类数据集和80个小鼠数据集上进行了实验，结果表明GNNMF分别将八个指标雷达图得分提高了4.92%和6.81%，并发现了比现有模型更多的基序。结论：在本研究中，我们开发了一种名为GNNMF的新型模型，用于发现多个ATAC-seq基序。GNNMF利用ATAC-seq序列构建了多视图异构图，并采用背景共现概率和迭代损失来发现不同长度的ATAC-seq基序及优化参数集。与现有模型相比，GNNMF在TFBS预测和ATAC-seq基序发现方面取得了最佳性能，这表明我们的改进对ATAC-seq基序发现是有效的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38515040/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38515040/",
+  "paper_page_path": "papers/pubmed/38515040/index.html"
+}

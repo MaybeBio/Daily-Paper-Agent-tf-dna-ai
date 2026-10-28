@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "35654811",
+    "doi": "10.1038/s41467-022-30684-y",
+    "title": "Artificial neural networks enable genome-scale simulations of intracellular signaling."
+  },
+  "content": {
+    "abstract": "Mammalian cells adapt their functional state in response to external signals in form of ligands that bind receptors on the cell-surface. Mechanistically, this involves signal-processing through a complex network of molecular interactions that govern transcription factor activity patterns. Computer simulations of the information flow through this network could help predict cellular responses in health and disease. Here we develop a recurrent neural network framework constrained by prior knowledge of the signaling network with ligand-concentrations as input and transcription factor-activity as output. Applied to synthetic data, it predicts unseen test-data (Pearson correlation r = 0.98) and the effects of gene knockouts (r = 0.8). We stimulate macrophages with 59 different ligands, with and without the addition of lipopolysaccharide, and collect transcriptomics data. The framework predicts this data under cross-validation (r = 0.8) and knockout simulations suggest a role for RIPK1 in modulating the lipopolysaccharide response. This work demonstrates the feasibility of genome-scale simulations of intracellular signaling.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Ligands",
+      "*Lipopolysaccharides/pharmacology",
+      "Mammals",
+      "Neural Networks, Computer",
+      "*Signal Transduction",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nilsson, Avlant",
+        "Peters, Joshua M",
+        "Meimetis, Nikolaos",
+        "Bryson, Bryan",
+        "Lauffenburger, Douglas A"
+      ],
+      "short_names": [
+        "Nilsson A",
+        "Peters JM",
+        "Meimetis N",
+        "Bryson B",
+        "Lauffenburger DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9476-4516",
+        "ORCID: 0000-0001-9163-6706",
+        "ORCID: 0000-0003-2333-0187",
+        "ORCID: 0000-0003-1716-6712",
+        "ORCID: 0000-0002-0050-989X"
+      ],
+      "affiliations": [
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+        "Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, SE 41296, Sweden.",
+        "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+        "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+        "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA. lauffen@mit.edu.",
+        "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA. lauffen@mit.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nilsson, Avlant",
+        "short_name": "Nilsson A",
+        "identifiers": [
+          "0000-0002-9476-4516"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+          "Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, SE 41296, Sweden.",
+          "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Peters, Joshua M",
+        "short_name": "Peters JM",
+        "identifiers": [
+          "0000-0001-9163-6706"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+          "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Meimetis, Nikolaos",
+        "short_name": "Meimetis N",
+        "identifiers": [
+          "0000-0003-2333-0187"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Bryson, Bryan",
+        "short_name": "Bryson B",
+        "identifiers": [
+          "0000-0003-1716-6712"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+          "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Lauffenburger, Douglas A",
+        "short_name": "Lauffenburger DA",
+        "identifiers": [
+          "0000-0002-0050-989X"
+        ],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA. lauffen@mit.edu.",
+          "Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, 02139, USA. lauffen@mit.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jun 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/03 06:00",
+    "fetched_at": "2026-09-28 09:12:56"
+  },
+  "links": {
+    "cites": [
+      "42614051",
+      "42589495",
+      "42553207",
+      "42502984",
+      "42316179",
+      "42167232",
+      "42034977",
+      "41849361",
+      "41278889",
+      "41068071",
+      "40809500",
+      "40809147",
+      "40575010",
+      "40262025",
+      "40215972",
+      "39948231",
+      "39900922",
+      "39823233",
+      "38989060",
+      "38890548",
+      "38617201",
+      "38591003",
+      "38499572",
+      "38029747",
+      "37816807",
+      "37537192",
+      "37467372",
+      "36979068",
+      "36138773",
+      "36105797",
+      "35880747"
+    ],
+    "refs": [
+      "35501385",
+      "35474668",
+      "34314098",
+      "33659877",
+      "33408259",
+      "33373583",
+      "33284110",
+      "33264547",
+      "32939066",
+      "32783915",
+      "32746932",
+      "32657418",
+      "32341552",
+      "32341162",
+      "32015543",
+      "31819264",
+      "31728204",
+      "31699973",
+      "31665520",
+      "31525460",
+      "31347657",
+      "31340985",
+      "31024544",
+      "30963076",
+      "30503647",
+      "30357387",
+      "30267440",
+      "30250197",
+      "30078033",
+      "30072490",
+      "29540830",
+      "29195078",
+      "29126136",
+      "28886385",
+      "28615495",
+      "28174135",
+      "27984732",
+      "27899622",
+      "27898060",
+      "27424950",
+      "27322546",
+      "26990581",
+      "26865316",
+      "26017442",
+      "25645874",
+      "25516281",
+      "24669362",
+      "24530056",
+      "24385147",
+      "24103070",
+      "23180781",
+      "22391342",
+      "20212490",
+      "20177425",
+      "17553156",
+      "16482094",
+      "11591705",
+      "9847135"
+    ],
+    "similar": [
+      "35654811",
+      "26042329",
+      "14521944",
+      "19142232",
+      "21900206",
+      "17559646",
+      "22529918",
+      "27028148",
+      "10586073",
+      "15621726",
+      "17194216",
+      "30452523",
+      "25115405",
+      "18510776",
+      "16878022",
+      "26491963",
+      "29321062",
+      "19300509",
+      "33315899",
+      "12475569",
+      "23912807",
+      "30366076",
+      "26271976",
+      "19263101",
+      "11441107",
+      "20529327",
+      "32150842",
+      "25188040",
+      "25099603",
+      "10815714",
+      "10354505",
+      "35245539",
+      "18056480",
+      "15589175",
+      "18835283",
+      "16699502",
+      "31518163",
+      "19019456",
+      "32804361",
+      "22832195",
+      "18426580",
+      "34978201",
+      "31955428",
+      "34182649",
+      "24920846",
+      "18950646",
+      "36899548",
+      "23872471",
+      "23524984",
+      "14600154",
+      "29525203",
+      "14990392",
+      "33394388",
+      "20562863",
+      "36430386",
+      "36384003",
+      "19962281",
+      "36048718",
+      "22327945",
+      "21601104",
+      "8251597",
+      "20488988",
+      "22051045",
+      "17129367",
+      "17616983",
+      "22548703",
+      "26106158",
+      "34080973",
+      "35538084",
+      "33327740",
+      "30542348",
+      "30880591",
+      "12357985",
+      "15479714",
+      "24425788",
+      "8887625",
+      "24048833",
+      "8628285",
+      "35298745",
+      "31505478",
+      "14764662",
+      "26371344",
+      "16723010",
+      "22737250",
+      "28410433"
+    ],
+    "review": [
+      "35654811",
+      "15621726",
+      "12475569",
+      "10815714",
+      "32804361",
+      "8251597",
+      "12357985"
+    ],
+    "pmc": [
+      "9163072"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-30684-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35654811/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35654811",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse202515",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

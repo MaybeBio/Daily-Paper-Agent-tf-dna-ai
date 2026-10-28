@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37246754",
+  "title": "Neutrophil extracellular trap is an important connection between hemodialysis and acute myocardial infarction.",
+  "authors": "Yang, Yue; Jiao, Yuan-Yuan; Zhang, Zheng; Zhuo, Li; Li, Wen-Ge",
+  "journal": "Renal failure",
+  "published_date": "2023-05-29",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过转录组数据挖掘和机器学习识别血液透析与急性心梗的共享基因，仅涉及转录因子网络预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "The incidence of acute myocardial infarction (AMI) in hemodialysis (HD) patients is high and the prognosis is extremely poor. However, the potential connection between HD and AMI, and its regulatory mechanisms remain unclear. In this study, the gene expression profiles of HD (GSE15072) and AMI (GSE66360) were downloaded from the Gene Expression Omnibus database, common differentially expressed genes (DEGs) were obtained using the limma R package, the biological functions were analyzed according to Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses, machine learning was conducted to identify hub genes. Receiver operating characteristic curves and gene set enrichment analyses were used to explore the characters and biological function of hub genes, networks were used for candidate identification of transcription factor (TF), microRNA (miRNA), and drug. After a total of 255 common DEGs were selected, GO and KEGG analyses indicated that neutrophil extracellular trap (NET) may be a potential connection between HD and AMI, LILRB2, S100A12, CYBB, ITGAM, and PPIF were finally identified as hub genes. The area under curve of LILRB2, S100A12, and PPIF was higher than 0.8 in both datasets. Networks show the relationship between hub genes, TF, and miRNA, also the relationship between potential drugs and protein. In conclusion, NETs may be the potential connection between AMI and HD. The potential hub gene, signaling pathways, and drugs provided by this study may contribute to future AMI prevention and intervention in HD patients.",
+  "abstract_zh": "急性心肌梗死（AMI）在血液透析（HD）患者中的发病率较高，且预后极差。然而，HD与AMI之间的潜在联系及其调控机制仍不清楚。本研究从Gene Expression Omnibus数据库中下载了HD（GSE15072）和AMI（GSE66360）的基因表达谱，使用limma R包获取共同差异表达基因（DEGs），根据基因本体论（GO）和京都基因与基因组百科全书（KEGG）分析其生物学功能，并通过机器学习识别核心基因。采用受试者工作特征曲线和基因集富集分析探索核心基因的特征及生物学功能，利用网络进行转录因子（TF）、微小RNA（miRNA）和药物的候选识别。在筛选出共255个共同DEGs后，GO和KEGG分析表明，中性粒细胞胞外陷阱（NET）可能是HD与AMI之间的潜在联系，最终确定LILRB2、S100A12、CYBB、ITGAM和PPIF为核心基因。LILRB2、S100A12和PPIF在两个数据集中的曲线下面积均高于0.8。网络展示了核心基因、TF和miRNA之间的关系，以及潜在药物与蛋白质之间的关系。总之，NETs可能是AMI与HD之间的潜在联系。本研究提供的潜在核心基因、信号通路和药物可能有助于未来HD患者中AMI的预防和干预。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37246754/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37246754/",
+  "paper_page_path": "papers/pubmed/37246754/index.html"
+}

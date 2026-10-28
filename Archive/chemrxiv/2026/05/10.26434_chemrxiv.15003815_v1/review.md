@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors adapt DeltaGzip, a molecular dynamics plus Gzip compression protocol, to predict DNA aptamer–ligand binding affinities. They introduce refinements to enthalpy calculation, representation learning for entropy, and a pre-screening step. They report new ITC measurements for a dopamine-binding DNA aptamer with 22 ligands and claim qualitative and quantitative agreement between predictions and experiments.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, or experimental protocols are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, ITC raw data, computational parameters, training and validation details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful adaptation of an existing computational protocol to a relevant problem in DNA aptamer design. The authors correctly identify a gap in available computational tools and datasets. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the proposed modifications, the quality of the ITC measurements, or the strength of the claimed agreement. The central claim of qualitative and quantitative predictive accuracy cannot be assessed without access to the underlying data and methods.
+- **Who would be interested in the results, and why** Researchers in aptamer engineering, biosensor development, and computational biophysics would be interested. The work addresses a practical bottleneck in aptamer-based sensor design, namely the lack of efficient and accurate affinity prediction tools. The new ITC dataset for a dopamine-binding aptamer could also serve as a benchmark for future method development.
+- **Major strengths** The problem is well motivated and practically relevant. The authors identify a genuine gap in available datasets and tools. The decision to generate new experimental data via ITC to validate the method is appropriate and addresses the absence of suitable public datasets. The proposed modifications to DeltaGzip are plausible and targeted at known limitations in free energy calculations.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DeltaGzip predictions agree with ITC measurements both qualitatively and quantitatively.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative metrics for the claimed agreement. No correlation coefficients, error values, or statistical tests are reported. The phrase "qualitatively and quantitatively" is vague and could encompass a wide range of predictive quality, from excellent to merely directionally correct.
+  - **Why it matters** The central contribution of the work is the demonstration that DeltaGzip can predict binding affinities with experiment-level accuracy. Without quantitative evidence, this claim is unsubstantiated and the utility of the method for virtual screening cannot be evaluated.
+  - **Resolution test** Provide correlation coefficients, mean absolute errors, or similar metrics comparing predicted and measured binding free energies across the 22 ligands. Include confidence intervals and, ideally, a comparison against a baseline method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that they refined the enthalpy calculation, performed representation learning for entropy, and introduced a pre-screening step.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on how these modifications were implemented, validated, or benchmarked. The pre-screening step in particular raises questions about how non-binding ligands are identified and whether this introduces bias. The representation learning approach for entropy is not described at all.
+  - **Why it matters** These modifications are the methodological core of the work. Without details on their implementation and validation, the reproducibility of the method is impossible and the scientific contribution cannot be assessed.
+  - **Resolution test** Provide a full methods description including algorithmic details, hyperparameters, training data for representation learning, and validation of the pre-screening step against known non-binders.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and scope
+  - **Claim pointer** The authors report ITC measurements of binding free energy for a dopamine-binding DNA aptamer with 22 different ligands.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not report the range of binding affinities measured, the number of replicates, the error estimates, or whether the 22 ligands include known non-binders. The choice of a single aptamer also limits the generalizability of the validation.
+  - **Why it matters** The quality and scope of the experimental dataset determine whether the validation is meaningful. A narrow affinity range or a biased ligand set could produce misleading agreement. A single aptamer system cannot establish general applicability.
+  - **Resolution test** Report the full ITC dataset including affinity ranges, uncertainties, and replicate counts. Discuss the selection criteria for the 22 ligands. Ideally, validate on at least one additional aptamer system.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Abstract title
+  - **Issue** The title "Predicting DNA Aptamer-Ligand Binding Affinities with DeltaGzip" does not indicate that the work includes new experimental measurements, which are a significant component of the contribution.
+  - **Required correction** Consider a title that reflects both the computational method and the new experimental dataset, such as "Predicting DNA Aptamer-Ligand Binding Affinities with DeltaGzip and Experimental Validation by ITC."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not state the computational cost of the method or how it compares to existing approaches in terms of efficiency, despite the introduction claiming a balance between efficiency and accuracy is critical.
+  - **Required correction** Add a sentence reporting typical computational cost per ligand and, if available, a comparison with alternative methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract only
+  - **Issue** No statement is made about data and code availability, which is essential for a computational method paper.
+  - **Required correction** Include a data and code availability statement in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The quantitative agreement claim, the methodological details, and the experimental dataset quality are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The adaptation of DeltaGzip to DNA aptamer systems and the generation of a new ITC dataset are incremental but potentially useful contributions. The originality is moderate and depends on whether the methodological modifications are genuinely novel or simply parameter adjustments.
+  - Scientific importance: The problem is important for aptamer-based sensor design, but the significance of the contribution depends on the demonstrated accuracy and generalizability, which cannot be assessed from the abstract.
+  - Interdisciplinary readership: The work bridges computational chemistry, biophysics, and biosensor engineering, which could attract a broad readership if the results are compelling.
+  - Technical soundness: Not assessable from the abstract. The methodological modifications and the experimental validation require full scrutiny.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon such as "representation learning" and "Gzip lossless compression" without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach and a relevant dataset, but the central claims of predictive accuracy and methodological improvement cannot be evaluated without the full manuscript. A supportive posture would require the quantitative validation data, full methodological details, and evidence of generalizability.
+
+## Risk / unsupported claims
+- The claim of qualitative and quantitative agreement between predictions and ITC measurements is unsupported by any numerical data in the abstract.
+- The claim that the pre-screening step filters out non-binding ligands is unverifiable without details on its implementation and performance.
+- The claim that representation learning improved entropy calculation is unverifiable without details on the method and its validation.
+- The generalizability of the method beyond the single dopamine-binding aptamer system is not established.
+- The computational efficiency of the method relative to existing approaches is not reported, despite being a stated motivation.

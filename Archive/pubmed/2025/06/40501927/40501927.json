@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "40501927",
+    "doi": "10.1101/2025.05.21.655414",
+    "title": "\"Frustratingly easy\" domain adaptation for cross-species transcription factor binding prediction."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Understanding how DNA sequence encodes gene regulation remains a central challenge in genomics. While deep learning models can predict regulatory activity from sequence with high accuracy, their generalizability across species-and thus their ability to capture fundamental biological principles-remains limited. Cross-species prediction provides a powerful test of model robustness and offers a window into conserved regulatory logic, but effectively bridging species-specific genomic differences remains a major barrier. RESULTS: We present MORALE, a novel and scalable domain adaptation framework that significantly advances cross-species prediction of transcription factor (TF) binding. By aligning statistical moments of sequence embeddings across species, MORALE enables deep learning models to learn species-invariant regulatory features without requiring adversarial training or complex architectures. Applied to multi-species TF ChIP-seq datasets, MORALE achieves state-of-the-art performance-outperforming both baseline and adversarial approaches across all TFs-while preserving model interpretability and recovering canonical motifs with greater precision. In the five-species transfer setting, MORALE not only improves human prediction accuracy beyond human-only training but also reveals regulatory features conserved across mammals. These results highlight the potential of simple yet powerful domain adaptation techniques to drive generalization and discovery in regulatory genomics. Crucially, MORALE is architecture-agnostic and can be seamlessly integrated into any embedding-based sequence model. AVAILABILITY: Code is available at https://github.com/loudrxiv/frustrating.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ebeid, Mark Maher",
+        "Balci, Ali Tugrul",
+        "Chikina, Maria",
+        "Benos, Panayiotis V",
+        "Kostka, Dennis"
+      ],
+      "short_names": [
+        "Ebeid MM",
+        "Balci AT",
+        "Chikina M",
+        "Benos PV",
+        "Kostka D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3172-3132",
+        "ORCID: 0000-0002-1460-5487"
+      ],
+      "affiliations": [
+        "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Epidemiology, University of Florida, Gainsville, FL, USA.",
+        "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ebeid, Mark Maher",
+        "short_name": "Ebeid MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Balcı, Ali Tuğrul",
+        "short_name": "Balcı AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Chikina, Maria",
+        "short_name": "Chikina M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Benos, Panayiotis V",
+        "short_name": "Benos PV",
+        "identifiers": [
+          "0000-0003-3172-3132"
+        ],
+        "affiliations": [
+          "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "Department of Epidemiology, University of Florida, Gainsville, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Kostka, Dennis",
+        "short_name": "Kostka D",
+        "identifiers": [
+          "0000-0002-1460-5487"
+        ],
+        "affiliations": [
+          "Department of Computational & Systems Biology University of Pittsburgh School of Medicine and Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/12 11:15",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41781614",
+      "41094274",
+      "39843737",
+      "39609566",
+      "39460617",
+      "38773771",
+      "37557175",
+      "36882164",
+      "35817977",
+      "35042722",
+      "34608324",
+      "33603233",
+      "33590861",
+      "32687525",
+      "31249361",
+      "30286077",
+      "29993538",
+      "25697820",
+      "25279814",
+      "24675637",
+      "22388286",
+      "20378774",
+      "17324271"
+    ],
+    "similar": [
+      "40501927",
+      "39657158",
+      "40102719",
+      "39975293",
+      "40102198",
+      "41514301",
+      "37063486",
+      "40662821",
+      "41042660",
+      "39076052",
+      "38940155",
+      "41288963",
+      "34272562",
+      "41050338",
+      "41726927",
+      "40411397",
+      "33416862",
+      "35042722",
+      "30423062",
+      "40845145",
+      "41687302",
+      "40654959",
+      "35191481",
+      "31742324",
+      "40924541",
+      "41527074",
+      "20838582",
+      "41481570",
+      "31723409",
+      "41558219",
+      "41216218",
+      "39214282",
+      "41601205",
+      "34579793",
+      "35997560",
+      "40594505",
+      "41762162",
+      "41294241",
+      "40645218",
+      "29155928",
+      "40862516",
+      "26291518",
+      "40708868",
+      "39570605",
+      "37805453",
+      "41386531",
+      "19956545",
+      "26971251",
+      "41454924",
+      "41374637",
+      "39786868",
+      "40848288",
+      "37214836",
+      "33124660",
+      "41527527",
+      "41257586",
+      "41601190",
+      "38064959",
+      "41031058",
+      "37985457",
+      "34464837",
+      "39482734",
+      "39096613",
+      "41576119",
+      "39881398",
+      "41687774",
+      "31899481",
+      "40027759",
+      "38643066",
+      "40060567",
+      "31372637",
+      "36789431",
+      "35293310",
+      "31508414",
+      "41450215",
+      "40917651",
+      "41150849",
+      "41285795",
+      "30598100",
+      "40795814",
+      "41756895",
+      "41267404",
+      "40934550",
+      "41576554",
+      "34676308",
+      "35833617",
+      "37780374",
+      "35961023",
+      "32905524",
+      "41177076",
+      "40914877",
+      "31336830",
+      "38980373",
+      "41234013",
+      "31857203",
+      "34339370",
+      "40027840",
+      "33538820",
+      "30286077",
+      "23382538"
+    ],
+    "review": [
+      "40501927",
+      "31742324"
+    ],
+    "pmc": [
+      "12154900"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40501927/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.21.655414",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

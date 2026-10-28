@@ -1,0 +1,557 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.13.653394",
+  "title": "Leveraging Large Language Models for Literature-Driven Prioritization of Protein Binding Pockets",
+  "doi": "10.1101/2025.05.13.653394",
+  "abstract": "We present a novel approach for the identification and prioritization of protein binding pockets for small molecules by combining geometric pocket detection with Large Language Models (LLMs). Our method leverages Fpocket to generate candidate pockets, which are then validated against published experimental data extracted from research articles using LLM with a series of prompts fine-tuned to identify and extract residue-level information associated with experimentally confirmed binding sites. We developed a curated benchmark dataset of diverse proteins and associated literature to train and evaluate the LLM’s performance in paper relevance assessment and pocket extraction. The extracted information is then mapped onto protein structures and used to filter and merge the geometry-based predictions, generating a refined volumetric representation of biologically relevant pockets. This hybrid pipeline offers an efficient, accurate and automated method for identifying functional binding pockets, addressing a significant bottleneck in the high-throughput drug discovery workflows. The developed benchmark dataset and methodology are freely available at https://github.com/MelnychenkoM/LLM-benchmark-dataset .",
+  "authors": [
+    "Roman Stratiichuk",
+    "Mykola Melnychenko",
+    "Ihor Koleiev",
+    "Taras Voitsitskyi",
+    "Vladyslav Husak",
+    "Nazar Shevchuk",
+    "Zakhar Osrovsky",
+    "Volodymyr Bdzhola",
+    "Semen Yesylevskyy",
+    "Serhii Starosyla",
+    "Alan Nafiiev"
+  ],
+  "published_date": "2025-05-15",
+  "updated_date": "2025-05-15T17:00:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653394",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653394.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T06:02:41Z",
+        "timestamp": 1782280961623,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            15
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                15
+              ]
+            ],
+            "date-time": "2025-05-15T00:00:00Z",
+            "timestamp": 1747267200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Ministry of Education, Youth and Sport of the Czech Republic",
+          "award": [
+            "MSMT-355/2025-16"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MSMT-355/2025-16"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000780",
+          "name": "European Union",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "MSCA4Ukraine project 101101923"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MSCA4Ukraine project 101101923"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000780",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  We present a novel approach for the identification and prioritization of protein binding pockets for small molecules by combining geometric pocket detection with Large Language Models (LLMs). Our method leverages Fpocket to generate candidate pockets, which are then validated against published experimental data extracted from research articles using LLM with a series of prompts fine-tuned to identify and extract residue-level information associated with experimentally confirmed binding sites. We developed a curated benchmark dataset of diverse proteins and associated literature to train and evaluate the LLM’s performance in paper relevance assessment and pocket extraction. The extracted information is then mapped onto protein structures and used to filter and merge the geometry-based predictions, generating a refined volumetric representation of biologically relevant pockets. This hybrid pipeline offers an efficient, accurate and automated method for identifying functional binding pockets, addressing a significant bottleneck in the high-throughput drug discovery workflows. The developed benchmark dataset and methodology are freely available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/MelnychenkoM/LLM-benchmark-dataset\">https://github.com/MelnychenkoM/LLM-benchmark-dataset</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2025.05.13.653394",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2025-05-15T17:00:11Z",
+        "timestamp": 1747328411000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Leveraging Large Language Models for Literature-Driven Prioritization of Protein Binding Pockets"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-6632-7642",
+          "authenticated-orcid": false,
+          "given": "Roman",
+          "family": "Stratiichuk",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            },
+            {
+              "name": "Department of Biophysics and Medical Informatics, Educational and Scientific Centre “Institute of Biology and Medicine”, Taras Shevchenko Kyiv National University, 64 Volodymyrska Str., 01601, Kyiv, Ukraine"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-5671-9809",
+          "authenticated-orcid": false,
+          "given": "Mykola",
+          "family": "Melnychenko",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-4620-3175",
+          "authenticated-orcid": false,
+          "given": "Ihor",
+          "family": "Koleiev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            },
+            {
+              "name": "Department of Physics of Biological Systems, Institute of Physics of The National Academy of Sciences of Ukraine, 46 Nauky Ave., 03038, Kyiv, Ukraine"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3127-3688",
+          "authenticated-orcid": false,
+          "given": "Taras",
+          "family": "Voitsitskyi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            },
+            {
+              "name": "Department of Physics of Biological Systems, Institute of Physics of The National Academy of Sciences of Ukraine, 46 Nauky Ave., 03038, Kyiv, Ukraine"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-7398-2330",
+          "authenticated-orcid": false,
+          "given": "Vladyslav",
+          "family": "Husak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            },
+            {
+              "name": "Department of Cellular, Computational and Integrative Biology, The University of Trento, Via Sommarive 9, 38123 Povo (Trento), Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nazar",
+          "family": "Shevchuk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zakhar",
+          "family": "Osrovsky",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0315-450X",
+          "authenticated-orcid": false,
+          "given": "Volodymyr",
+          "family": "Bdzhola",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Molecular Biology and Genetics of The National Academy of Sciences of Ukraine, 150 Zabolotnogo Str., 03143, Kyiv, Ukraine"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6748-8931",
+          "authenticated-orcid": false,
+          "given": "Semen",
+          "family": "Yesylevskyy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            },
+            {
+              "name": "Department of Physics of Biological Systems, Institute of Physics of The National Academy of Sciences of Ukraine, 46 Nauky Ave., 03038, Kyiv, Ukraine"
+            },
+            {
+              "name": "Institute of Organic Chemistry and Biochemistry, Czech Academy of Sciences, CZ-166 10 Prague 6, Czech Republic"
+            },
+            {
+              "name": "Department of Physical Chemistry, Faculty of Science, Palacký University Olomouc, 17. listopadu 12, 771 46 Olomouc, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5103-0635",
+          "authenticated-orcid": false,
+          "given": "Serhii",
+          "family": "Starosyla",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-8604-377X",
+          "authenticated-orcid": false,
+          "given": "Alan",
+          "family": "Nafiiev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Receptor.AI Inc., 20-22 Wenlock Road, London N1 7GU, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-168"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.5560070905"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22154"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000585"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00799"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-021-00547-7"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-024-00865-6"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-49892-9"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21203/rs.3.rs-3197490/v1"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa110"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms25179280"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-018-0285-8"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2201.11903"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2305.10601"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.27536"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC394"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky473"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.19",
+          "unstructured": "“PyVOL Documentation — PyVOL 1.7.6 documentation.” Accessed: Apr. 24, 2025. [Online]. Available: https://schlessinger-lab.github.io/pyvol/"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c00336"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500381c"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2654-5"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BJ20131270"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd4295"
+        },
+        {
+          "key": "2026041121590404000_2025.05.13.653394v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aac5464"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.13.653394",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:10:14Z",
+        "timestamp": 1782277814000
+      },
+      "score": 86.56351,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.13.653394"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            15
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.1101/2025.05.13.653394",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btaf449",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

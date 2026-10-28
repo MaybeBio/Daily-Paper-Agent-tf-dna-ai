@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors use classical molecular dynamics simulations to investigate the binding mechanisms of PARP1 zinc-finger domains (ZnF1, ZnF2, ZnF3) with single-strand and double-strand DNA breaks, and to assess the influence of zinc ions on these interactions. They report that ZnF2 plays a major role in damage recognition, that ZnF1 and ZnF2 recognize both sides of DNA damage, and that zinc ion removal alters conformational dynamics and binding free energies.
+- **Visible evidence base** Abstract, Introduction, Materials and methods, Results and discussion, Conclusions, Author contributions, Conflicts of interest, Acknowledgements. Figures and tables are referenced but not fully visible. Supplementary material is referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–10, Tables 1–3, Supplementary Figures S1–S4, Supplementary Table S1, and the full PDB structure details are not available in the provided text. This limits verification of quantitative results and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the PARP1 field, namely the role of zinc ions in the DNA-binding dynamics of the zinc-finger domains. The use of MD simulations to explore conformational changes and binding free energies is appropriate. However, the presentation has several weaknesses. The writing contains grammatical errors and unclear phrasing that impede comprehension. The methods section lacks critical details on simulation convergence, force field validation, and error analysis. The results are described qualitatively in several places, and the absence of figures and tables in the provided material makes it impossible to assess the robustness of the quantitative claims. The conclusions are somewhat overstated relative to the evidence presented, particularly regarding the functional significance of the observed conformational changes. The manuscript would benefit from substantial revision and additional analysis before it can be considered for publication.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, DNA repair mechanisms, and cancer pharmacology would be interested. The study provides molecular-level insights into PARP1 domain dynamics that could inform the design of PARP inhibitors, a topic of high relevance in oncology drug development.
+- **Major strengths** The study addresses a specific and mechanistically important question about the role of zinc ions in PARP1 DNA recognition. The use of multiple complementary analyses (RMSF, distance metrics, MM-GBSA, energy decomposition) is a reasonable approach. The comparison of different DNA damage types (SSB vs DSB) and the inclusion of zinc-depleted systems adds breadth to the investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that zinc ion removal leads to significant changes in binding free energies and conformational dynamics, and that these changes are mechanistically meaningful.
+  - **Evidence pointer** Results section, Subsection 3.3; Tables 3 and 4 (referenced, not visible)
+  - **Concern** The quantitative results supporting the central claims are not verifiable from the provided material. The binding free energy values are mentioned in the text (e.g., −38.74 to −51.34 kcal mol−1 for ZnF1/DSB), but the associated tables and figures are not available. Moreover, no error estimates or statistical analyses (e.g., standard deviations, block averaging) are reported for the MM-GBSA calculations. Without these, it is impossible to determine whether the reported differences are statistically significant or within the noise of the method.
+  - **Why it matters** The central conclusion that zinc ions modulate DNA binding affinity and conformational changes rests entirely on these quantitative comparisons. If the differences are not statistically robust, the mechanistic interpretation is unsupported.
+  - **Resolution test** Provide the full tables with mean values and standard deviations for all systems. Include a description of the error analysis method used (e.g., block averaging, multiple independent simulations). Show that the reported differences exceed the estimated uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the stable secondary structure of L2 of ZnF2 (PRO146 to MET153) is the key conformational change for DNA damage recognition.
+  - **Evidence pointer** Results section, Subsection 3.2; Figures 5 and 6 (referenced, not visible)
+  - **Concern** The claim that a specific secondary structure element (beta sheet) forms in L2 upon DNA binding is based on visual inspection of structures and RMSF data. However, no quantitative secondary structure analysis (e.g., DSSP or STRIDE over the simulation trajectory) is described. The text states "the secondary structure of L2 forms a relatively stable structure of beta sheet" but no time-resolved or ensemble-averaged data are presented to support this. The structural superposition figures are referenced but not shown.
+  - **Why it matters** This is a key mechanistic claim that distinguishes the behavior of ZnF2 from ZnF1. Without quantitative secondary structure analysis, the claim remains anecdotal and cannot be evaluated.
+  - **Resolution test** Perform and report a DSSP analysis over the full trajectories for all systems, showing the fraction of time each residue in L2 spends in beta-sheet conformation. Provide representative structures with clear labeling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the construction of 15 systems and 11 modified systems for MD simulations.
+  - **Evidence pointer** Materials and methods, Subsection "Construction of initial models"; Tables 1 and 2 (referenced, not visible)
+  - **Concern** The description of system construction is incomplete. The text mentions crystal structures (2n8a, 4av1, 4opx) but does not specify which structures were used for which systems. The tables listing the 15 and 11 systems are not visible. The protonation states of key residues are not described. The zinc parameter set is cited but not specified. The distance restraints for zinc coordination are mentioned but the exact atoms and force constants are not given.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without a complete description of system setup, other researchers cannot replicate the simulations or assess the validity of the model choices.
+  - **Resolution test** Provide a detailed table listing each system, the PDB ID used, the modifications made, and the protonation states. Specify the zinc parameters and the exact restraint scheme. Describe the equilibration protocol in more detail.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "ZnF1 and ZnF2 recognize the interfaces on both sides of DNA damage rather than one side during the process of DNA repair."
+  - **Evidence pointer** Results section, Subsection 3.2; Conclusions
+  - **Concern** This is presented as a novel finding, but the text does not clearly explain how the simulation data distinguish between "one side" versus "both sides" recognition. The energy decomposition data are referenced but not shown. The biological significance of this distinction is also not discussed in the context of existing experimental structures of PARP1-DNA complexes, which have been published previously.
+  - **Why it matters** The novelty of the study rests partly on this claim. If it is not clearly supported by the data or contextualized against prior structural knowledge, the contribution is diminished.
+  - **Resolution test** Clearly define the operational criteria for "one side" versus "both sides" recognition based on the simulation data. Show the relevant energy decomposition plots and structural overlays. Discuss how these findings relate to published experimental structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first sentence; Introduction, first paragraph
+  - **Issue** The writing contains grammatical errors and awkward phrasing. For example, "Deciphering the functional mechanism of zinc ions of PARP1 binding with single strand breaks and double strand breaks" is grammatically awkward. The abstract states "the stable secondary structure of L2 of ZnF2 (PRO146 to MET153) is the key conformational change" but this is not clearly introduced or defined in the abstract.
+  - **Required correction** The manuscript should be carefully edited for grammar and clarity. The abstract should be rewritten to more clearly state the main findings and their significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MD simulation
+  - **Evidence pointer** Materials and methods, Subsection "MD simulation"
+  - **Issue** The text states "All systems reach equilibrium at the end of the equilibration, as shown by Fig. S1 and S2." However, the criteria for equilibrium are not defined. RMSD stabilization is mentioned, but no quantitative threshold is given.
+  - **Required correction** Define the equilibrium criteria explicitly (e.g., RMSD plateau within a certain range for a certain time). Show the RMSD plots in the main text or supplementary with clear labels.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Structure analysis
+  - **Evidence pointer** Materials and methods, Subsection "Structure analysis and definition of key loops"
+  - **Issue** The MM-GBSA method is cited as reference 46, but the specific parameters (e.g., salt concentration, internal dielectric constant, entropy contributions) are not described. The text mentions "binding free energy calculation" but does not specify whether entropy was included.
+  - **Required correction** Provide the full MM-GBSA parameters used. State whether entropy contributions were calculated and, if not, acknowledge this as a limitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Subsection 3.3
+  - **Evidence pointer** Results section, Subsection 3.3, paragraph 2
+  - **Issue** The sentence "The binding free energy increased significantly between ZnF1(-)/ZnF2(-)/DSB and ZnF1/ZnF2/DSB" is confusing. The text then states "ZnF1 changes from −38.74 to −51.34 kcal mol−1", which indicates the binding became stronger (more negative), but "increased" is ambiguous.
+  - **Required correction** Use clearer language, e.g., "The binding free energy became more negative (stronger binding) upon zinc removal."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions, final paragraph
+  - **Issue** The conclusion states "These findings can not only deepen the understanding on the biological functional mechanism of PARP1 but also provides theoretical basis to further study the interaction mechanisms between inhibitors and PARP1." This is a generic statement that does not specify how the findings could inform inhibitor design.
+  - **Required correction** Provide a more specific statement about which structural features or residues could be targeted in future inhibitor design efforts.
+
+## Risk / unsupported claims
+- The claim that "ZnF1 and ZnF2 recognize the interfaces on both sides of DNA damage rather than one side" is not fully supported by the visible text, as the relevant energy decomposition data and structural overlays are not provided.
+- The claim that "the stable secondary structure of L2 of ZnF2 (PRO146 to MET153) is the key conformational change" is not quantitatively supported, as no secondary structure analysis is described.
+- The reported binding free energy differences between zinc-containing and zinc-depleted systems cannot be evaluated for statistical significance without error estimates.
+- The statement that "Zn3 has little effect on ZnF3" is based on limited analysis and is not discussed in sufficient detail.
+- The functional significance of the observed conformational changes for DNA repair is inferred but not directly tested or discussed in the context of experimental data.

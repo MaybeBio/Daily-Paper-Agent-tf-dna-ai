@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "40640878",
+    "doi": "10.1186/s12967-025-06693-y",
+    "title": "Siramesine induced cell death of glioblastoma through inactivating the STAT3-MGMT signaling pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma (GBM), the most prevalent invasive primary brain tumor in adults, is characterized by high mortality, frequent recurrence, and short survival time. The effectiveness of temozolomide (TMZ) in treating GBM is compromised by chemoresistance. Elevated levels of O6-methylguanine DNA methyltransferase (MGMT) and the activation of signal transduction and activator of transcription 3 (STAT3) have been associated with GBM's resistance to TMZ chemotherapy. Although siramesine (Sira) has demonstrated antitumor activity in various cancers, its potential therapeutic effect in gliomas remains uncertain. METHODS: Cell counting kit-8 (CCK-8), healing assay, and clone formation assay were utilized to assess the cell viability, proliferation, and migration of glioma cells. RNAseq, molecular docking analysis, pull-down assay, qPCR, and pharmacologic treatment were employed to explore the cell signaling pathway. Tumor growth and STAT3 signaling pathway proteins in U87-MG cell-derived xenografts from nude mice were examined using Western blot. RESULTS: Our study demonstrated that Sira reduces cell viability, inhibits proliferation and migration, and induces autophagy in GBM cells. Sira promotes GBM cell death by binding to STAT3 and inhibiting phosphorylation of STAT3(Y705). Combination therapy of TMZ and Sira synergistically induced cell death and inhibited GBM cell proliferation and migration, potentially linked to decreased p-STAT3(Y705) and MGMT levels. Furthermore, using STAT3 signaling activators and inhibitors, we confirmed that reduced MGMT levels were mediated by STAT3 inactivation. Cell-derived xenografts from nude mice revealed that Sira did not affect glioma growth. However, it did inhibit the JAK2-STAT3-MGMT signaling pathway and decrease glioma stem cell properties. CONCLUSION: Our findings suggest that Sira inhibits the STAT3-MGMT signaling pathway, slowing tumor growth and increasing sensitivity to TMZ in GBM. These results lay a solid foundation for developing new GBM therapies, with Sira holding promise as a candidate for combined TMZ chemotherapy in GBM.",
+    "keywords": [
+      "Drug resistance",
+      "Glioblastoma",
+      "MGMT",
+      "STAT3",
+      "Siramesine",
+      "Temozolomide"
+    ],
+    "mesh_terms": [
+      "*STAT3 Transcription Factor/metabolism",
+      "Humans",
+      "*Signal Transduction/drug effects",
+      "Animals",
+      "*Glioblastoma/pathology/metabolism/drug therapy",
+      "Cell Line, Tumor",
+      "*Tumor Suppressor Proteins/metabolism",
+      "*DNA Modification Methylases/metabolism",
+      "Mice, Nude",
+      "*DNA Repair Enzymes/metabolism",
+      "Cell Proliferation/drug effects",
+      "*Brain Neoplasms/pathology/drug therapy/metabolism",
+      "Cell Movement/drug effects",
+      "Cell Death/drug effects",
+      "Cell Survival/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Molecular Docking Simulation",
+      "Temozolomide/pharmacology",
+      "Mice",
+      "Phosphorylation/drug effects",
+      "Autophagy/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Xiaohang",
+        "Yao, Anhui",
+        "Lv, Jinquan",
+        "Zhang, Chi",
+        "Chen, Yue",
+        "Mei, Tingjie",
+        "Li, Hengzeng",
+        "Wu, Yahui",
+        "Jia, Liyun"
+      ],
+      "short_names": [
+        "Cui X",
+        "Yao A",
+        "Lv J",
+        "Zhang C",
+        "Chen Y",
+        "Mei T",
+        "Li H",
+        "Wu Y",
+        "Jia L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5675-0052"
+      ],
+      "affiliations": [
+        "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China.",
+        "Department of Neurosurgery, 988th Hospital of Joint Logistic Support Force of PLA, Zhengzhou, Henan Province, 450052, PR China.",
+        "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China.",
+        "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China.",
+        "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China.",
+        "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China.",
+        "The First Clinical School of Medicine, Zhengzhou University, Zhengzhou, Henan Province, 450000, PR China.",
+        "The First Clinical School of Medicine, Zhengzhou University, Zhengzhou, Henan Province, 450000, PR China.",
+        "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China. jialiyun0410@zzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Xiaohang",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yao, Anhui",
+        "short_name": "Yao A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, 988th Hospital of Joint Logistic Support Force of PLA, Zhengzhou, Henan Province, 450052, PR China."
+        ]
+      },
+      {
+        "full_name": "Lv, Jinquan",
+        "short_name": "Lv J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chi",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yue",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Mei, Tingjie",
+        "short_name": "Mei T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Hengzeng",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical School of Medicine, Zhengzhou University, Zhengzhou, Henan Province, 450000, PR China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yahui",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical School of Medicine, Zhengzhou University, Zhengzhou, Henan Province, 450000, PR China."
+        ]
+      },
+      {
+        "full_name": "Jia, Liyun",
+        "short_name": "Jia L",
+        "identifiers": [
+          "0000-0001-5675-0052"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics and Cell Biology, School of Basic Medical Sciences, Zhengzhou University, Kexue Avenue 100, Zhengzhou, Henan, 450001, P.R. China. jialiyun0410@zzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 00:26",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "41778017",
+      "41069602",
+      "40898306"
+    ],
+    "refs": [
+      "40055704",
+      "40038300",
+      "40029935",
+      "40021040",
+      "40005024",
+      "39944825",
+      "39814108",
+      "39788165",
+      "38970256",
+      "38924997",
+      "38520223",
+      "38511768",
+      "38488027",
+      "38479191",
+      "38420615",
+      "38415901",
+      "38312227",
+      "38245798",
+      "38158376",
+      "38082192",
+      "38071213",
+      "38019450",
+      "38017530",
+      "37998723",
+      "37944197",
+      "37891669",
+      "37775649",
+      "37749236",
+      "37712615",
+      "37545052",
+      "37499452",
+      "37298405",
+      "36591515",
+      "36428570",
+      "35493908",
+      "34864044",
+      "34741044",
+      "34419533",
+      "34345172",
+      "33505579",
+      "33456631",
+      "33425217",
+      "33316635",
+      "33299498",
+      "33123732",
+      "32635473",
+      "32518375",
+      "32348734",
+      "32168477",
+      "32039031",
+      "31952344",
+      "31636810",
+      "31213912",
+      "30896528",
+      "30189035",
+      "30185178",
+      "29733389",
+      "29405201",
+      "29066971",
+      "28827805",
+      "28797050",
+      "28270132",
+      "28089821",
+      "27441659",
+      "25810010",
+      "24091661",
+      "22966490",
+      "22532597",
+      "19399780",
+      "19200883",
+      "18305408",
+      "17611390",
+      "17332352",
+      "16204071",
+      "15547788",
+      "11816842",
+      "9400007"
+    ],
+    "similar": [
+      "40640878",
+      "31865606",
+      "29705182",
+      "42295990",
+      "34625658",
+      "37298405",
+      "29843746",
+      "32168477",
+      "26648123",
+      "40127739",
+      "40998915",
+      "39369843",
+      "41198755",
+      "39978109",
+      "40701313",
+      "38723526",
+      "33923767",
+      "34997858",
+      "36308592",
+      "23246370",
+      "30664175",
+      "23262510",
+      "33074386",
+      "35163465",
+      "31215502",
+      "37451151",
+      "31534499",
+      "42134431",
+      "31053733",
+      "22532597",
+      "41580503",
+      "40180114",
+      "33460245",
+      "24718901",
+      "30336060",
+      "23519841",
+      "30431207",
+      "31725331",
+      "26336131",
+      "40100070",
+      "40088740",
+      "40974912",
+      "25316808",
+      "41353343",
+      "23319055",
+      "38644551",
+      "41969610",
+      "39029375",
+      "40835840",
+      "42418561",
+      "33433610",
+      "42218807",
+      "30922391",
+      "30081068",
+      "40422249",
+      "26615020",
+      "34072831",
+      "27510952",
+      "38277015",
+      "34278452",
+      "39215105",
+      "33941107",
+      "40907925",
+      "38992489",
+      "39873425",
+      "31614149",
+      "25886061",
+      "40145650",
+      "32866816",
+      "40440961",
+      "37894860",
+      "41123669",
+      "30140041",
+      "20179017",
+      "24755707",
+      "19011762",
+      "39356744",
+      "23479134",
+      "22173583",
+      "28822335",
+      "39998382",
+      "35219686",
+      "26110872",
+      "27894350",
+      "27865821",
+      "27177180",
+      "26778701",
+      "22156195",
+      "41381783",
+      "31726966",
+      "39848416",
+      "32901889",
+      "35897747",
+      "26542214",
+      "39482401",
+      "27396904",
+      "34536314",
+      "39085511",
+      "37933645",
+      "39919036"
+    ],
+    "review": [
+      "40640878"
+    ],
+    "pmc": [
+      "12247293"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06693-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40640878/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MGMT-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "39578293",
+    "doi": "10.1007/s11030-024-11025-1",
+    "title": "Identification and interaction mechanism of novel small molecule antagonists targeting CC chemokine receptor 1/3/5 for treatment of non-small cell lung cancer."
+  },
+  "content": {
+    "abstract": "Non-Small Cell Lung Cancer (NSCLC) was one of the most prevalent forms of lung cancer. Due to its ease of invasion and migration, the five-year survival rate was relatively low. Therefore, new strategies for NSCLC treatment were needed. CC chemokine receptor 1/3/5 (CCR1/CCR3/CCR5), a member of the G-protein coupled receptor family, could promote the migration and invasion of NSCLC cells by binding to related chemokines. Consequently, targeting CCR1, CCR3 and CCR5 might prevent the progression of the disease. So far, no compound had been reported as a common antagonist for CCR1, CCR3, and CCR5. In this research, we utilized virtual screening and structural optimization to obtain compound 5, which effectively inhibited the migration and invasion of NSCLC cells. Meanwhile, Western Blot and Enzyme linked immunosorbent assay (ELISA) manifested that compound 5 suppressed migration and invasion of NSCLC cells by suppressing the nuclear factor kappaB (NF-kappaB) and the consequently decreased Matrix Metalloproteinase-9(MMP-9) secretion. Moreover, drug affinity responsive target stability (DARTS) experiment and molecular simulations confirmed that compound 5 was capable of binding with CCR1/CCR3/CCR5, and Van der Waals forces were instrumental in the binding process. Ile91, Tyr113, Gln284, and Ser184(CCR1-ligand5), Ile189, Met213, and Leu209(CCR3-ligand5), Phe109, Gln194, and Thr195(CCR5-ligand5) had Van der Waals interactions with ligand 5. Dynamic cross-correlation matrix (DCCM) and free energy landscape (FEL) showed that compound 5 could stably bind to CCR1/CCR3/CCR5 to change conformation of the protein and the tendency of residue movements, leading to a persistent inhibitory effect. This study aimed to provide assistance in the rational design of common antagonists for CCR1, CCR3, and CCR5.",
+    "keywords": [
+      "CCR1/CCR3/CCR5 antagonists",
+      "MMP-9",
+      "Migration and invasion",
+      "Molecular dynamics",
+      "NF- kappaB",
+      "NSCLC"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/metabolism/pathology",
+      "*Lung Neoplasms/drug therapy/metabolism/pathology",
+      "*Receptors, CCR1/antagonists & inhibitors/metabolism/chemistry",
+      "Cell Movement/drug effects",
+      "Cell Line, Tumor",
+      "Molecular Docking Simulation",
+      "*Receptors, CCR3/antagonists & inhibitors/metabolism/chemistry",
+      "*Small Molecule Libraries/pharmacology/chemistry",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "*Receptors, CCR5/metabolism/chemistry",
+      "Matrix Metalloproteinase 9/metabolism",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaomeng",
+        "Wang, Juan",
+        "Fu, Qiao",
+        "Luo, Jing",
+        "Shu, Mao",
+        "Lin, Zhihua"
+      ],
+      "short_names": [
+        "Wang X",
+        "Wang J",
+        "Fu Q",
+        "Luo J",
+        "Shu M",
+        "Lin Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China. juanwang@cqut.edu.cn.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China. juanwang@cqut.edu.cn.",
+        "Department of Pathophysiology, Third Military Medical University (Army Medical University), Chongqing, 400038, People's Republic of China. juanwang@cqut.edu.cn.",
+        "Key Laboratory of Extreme Environmental Medicine, Ministry of Education of China, Chongqing, 400038, People's Republic of China. juanwang@cqut.edu.cn.",
+        "Key Laboratory of High Altitude Medicine, PLA, Chongqing, 400038, People's Republic of China. juanwang@cqut.edu.cn.",
+        "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+        "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China.",
+        "Chongqing College of Traditional Chinese Medicine, Chongqing, 402760, China. zhlin@cqut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaomeng",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Juan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China. juanwang@cqut.edu.cn.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China. juanwang@cqut.edu.cn.",
+          "Department of Pathophysiology, Third Military Medical University (Army Medical University), Chongqing, 400038, People's Republic of China. juanwang@cqut.edu.cn.",
+          "Key Laboratory of Extreme Environmental Medicine, Ministry of Education of China, Chongqing, 400038, People's Republic of China. juanwang@cqut.edu.cn.",
+          "Key Laboratory of High Altitude Medicine, PLA, Chongqing, 400038, People's Republic of China. juanwang@cqut.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Qiao",
+        "short_name": "Fu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jing",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Mao",
+        "short_name": "Shu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy and Bioengineering, Chongqing University of Technology, Chongqing, 400054, China.",
+          "Key Laboratory of Screening and Activity Evaluation of Targeted Drugs, Chongqing, 400054, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhihua",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing College of Traditional Chinese Medicine, Chongqing, 402760, China. zhlin@cqut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/23 11:12",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38605064",
+      "38572751",
+      "37978263",
+      "35631472",
+      "35536362",
+      "35399952",
+      "35049884",
+      "34948151",
+      "34514075",
+      "34252351",
+      "33719836",
+      "33037194",
+      "32705955",
+      "32448366",
+      "31497994",
+      "31244000",
+      "31179839",
+      "30894861",
+      "30867893",
+      "30788000",
+      "30774858",
+      "30720175",
+      "30598039",
+      "29139324",
+      "28627514",
+      "27714030",
+      "27188576",
+      "27025367",
+      "26605738",
+      "26527851",
+      "25853313",
+      "24731275",
+      "24212027",
+      "24030490",
+      "23801886",
+      "23797035",
+      "23651302",
+      "23300131",
+      "22887854",
+      "22696189",
+      "22513870",
+      "21775441",
+      "20408171",
+      "19995983",
+      "19513513",
+      "19334035",
+      "19073147",
+      "18972130",
+      "18579287",
+      "17206853",
+      "17101151",
+      "16837468",
+      "12466283",
+      "12395429",
+      "11170864",
+      "10841143",
+      "8401235"
+    ],
+    "similar": [
+      "39578293",
+      "22887854",
+      "24604010",
+      "9289016",
+      "27714030",
+      "19334035",
+      "18972130",
+      "21284830",
+      "9616137",
+      "9685332",
+      "14607956",
+      "39919162",
+      "10854442",
+      "18406577",
+      "20483925",
+      "20053385",
+      "33671956",
+      "15662971",
+      "9570558",
+      "16359553",
+      "11449371",
+      "28424406",
+      "25159162",
+      "19603542",
+      "19386595",
+      "11110672",
+      "39409188",
+      "17635911",
+      "11673306",
+      "30720175",
+      "27895119",
+      "27033454",
+      "11500830",
+      "18025279",
+      "19967721",
+      "23765404",
+      "29797610",
+      "29696014",
+      "38552222",
+      "40466800",
+      "26472202",
+      "20870892",
+      "10542293",
+      "17156337",
+      "23876400",
+      "28704236",
+      "26429875",
+      "24584670",
+      "40758628",
+      "11404385",
+      "23054685",
+      "17192849",
+      "26336823",
+      "32673730",
+      "24316469",
+      "9765480",
+      "11470772",
+      "24560857",
+      "41452395",
+      "12496074",
+      "18822499",
+      "28426124",
+      "33788727",
+      "31216707",
+      "39549059",
+      "40121769",
+      "20461740",
+      "23846739",
+      "40414601",
+      "17086356",
+      "35247196",
+      "11371192",
+      "28108404",
+      "35064009",
+      "22748147",
+      "25159163",
+      "11238088",
+      "11170631",
+      "39924447",
+      "20726319",
+      "26827826",
+      "35408790",
+      "21747955",
+      "15039444",
+      "34399621",
+      "36610351",
+      "26501423",
+      "23891973",
+      "16791620",
+      "22503731",
+      "33419805",
+      "11354381",
+      "21910472",
+      "31401315",
+      "16107514",
+      "29631554",
+      "37599469",
+      "10713092",
+      "19781371",
+      "14984572"
+    ],
+    "review": [
+      "39578293",
+      "25159162",
+      "19967721",
+      "23846739"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11030-024-11025-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

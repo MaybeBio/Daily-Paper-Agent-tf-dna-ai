@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "41086069",
+    "doi": "10.1109/JBHI.2025.3620986",
+    "title": "EAP-LSTM: A Bi-LSTM-Based Deep Learning Framework for Quantitatively Predicting Enhancer Activity in Drosophila and Human Cell Lines."
+  },
+  "content": {
+    "abstract": "Enhancer activity plays a critical role in gene regulation, influencing various biological processes such as development and disease progression. Accurate prediction of enhancer activity is essential for understanding the mechanisms underlying gene regulation and enhancer function. This study introduces a novel deep learning framework, EAP-LSTM (Enhancer Activity Prediction based on Bi-LSTM), to quantitatively predict enhancer activity across different species and cell lines. The model integrates multiple feature modules, including Word2Vec-based representations of DNA sequences, reverse complement k-mer, mismatch k-mer features, and epigenomic data. Evaluated on six cell lines, including five human cell lines (A549, HCT116, HepG2, K562, and MCF-7) and one Drosophila cell line (S2), EAP-LSTM consistently outperforms state-of-the-art models, such as DeepSTARR and HEAP, in all datasets. For example, on the K562 dataset, EAP-LSTM achieves a Pearson correlation coefficient (PCC) of 0.7944, outperforming DeepSTARR and HEAP by 13.65% and 2.73%, respectively. In addition, EAP-LSTM demonstrates strong performance in small-sample learning scenarios, showing clear improvements compared with baseline models. Furthermore, the study investigates the role of transcription factor binding sites (TFBSs) within enhancer regions, identifying critical motifs associated with enhancer activity. These findings not only improve enhancer prediction accuracy but also provide valuable insights into the molecular mechanisms underlying enhancer function.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Enhancer Elements, Genetic/genetics",
+      "Animals",
+      "Drosophila/genetics",
+      "Cell Line",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yao",
+        "Dai, Lichang",
+        "Dou, Yu",
+        "Li, Xin",
+        "Lu, Chang",
+        "Wu, Hao"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Dai L",
+        "Dou Y",
+        "Li X",
+        "Lu C",
+        "Wu H"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dai, Lichang",
+        "short_name": "Dai L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dou, Yu",
+        "short_name": "Dou Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lu, Chang",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/14 18:29",
+    "fetched_at": "2026-10-01 04:07:39"
+  },
+  "links": {
+    "cites": [
+      "42480046",
+      "42362198",
+      "42309513",
+      "41616376",
+      "41451540",
+      "41350246"
+    ],
+    "refs": [],
+    "similar": [
+      "41086069",
+      "34073774",
+      "39350338",
+      "27490187",
+      "37539835",
+      "40869356",
+      "40335860",
+      "39420601",
+      "35551305",
+      "41478195",
+      "40515390",
+      "41576119",
+      "41319043",
+      "38485768",
+      "33802922",
+      "38890584",
+      "35883552",
+      "41354216",
+      "41697918",
+      "34160596",
+      "35605495",
+      "40778316",
+      "39922842",
+      "31905774",
+      "41762162",
+      "39577030",
+      "41861881",
+      "40914877",
+      "28881969",
+      "39684652",
+      "32181478",
+      "30374023",
+      "35248805",
+      "41423660",
+      "40156875",
+      "35015646",
+      "40863483",
+      "40613852",
+      "39561516",
+      "33988840",
+      "35422876",
+      "40245757",
+      "41326521",
+      "41564724",
+      "35477057",
+      "29072144",
+      "40598008",
+      "41448304",
+      "21821017",
+      "40174549",
+      "40299730",
+      "38830995",
+      "34415289",
+      "38946113",
+      "36520922",
+      "40203028",
+      "33741075",
+      "32732264",
+      "39576667",
+      "39031903",
+      "40772277",
+      "40036975",
+      "35190950",
+      "40871882",
+      "40349379",
+      "41348602",
+      "39039464",
+      "39546160",
+      "40820010",
+      "39695955",
+      "36715222",
+      "39994118",
+      "35417351",
+      "38701417",
+      "39519295",
+      "34832994",
+      "41609070",
+      "37651856",
+      "24565409",
+      "41315171",
+      "33535061",
+      "41570613",
+      "37867273",
+      "33096548",
+      "40299820",
+      "29937531",
+      "40902506",
+      "25378307",
+      "35633468",
+      "15345045",
+      "39357440",
+      "40456840",
+      "38402249",
+      "26912062",
+      "41294241",
+      "33808317",
+      "22412381",
+      "38732207",
+      "37328639",
+      "30835229"
+    ],
+    "review": [
+      "41086069",
+      "37867273"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41086069",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/JBHI.2025.3620986",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

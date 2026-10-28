@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors report the development of s17, a first-in-class small-molecule inhibitor of the HIV-1 integrase (IN)-Ku70 protein-protein interaction, which blocks HIV-1 replication at the post-integration DNA repair (PIR) stage without affecting the canonical NHEJ pathway of double-strand break repair. A molecular dynamics model of the s17-Ku70/Ku80 complex is presented, and structure-activity relationships of s17 derivatives are used to support the proposed binding mode.
+- **Visible evidence base** In vitro protein-protein interaction inhibition assays (fluorescence-based), surface plasmon resonance (SPR) binding data, cell-based HIV-1 transduction assays in 293T, Jurkat, and CEM cells, quantitative PCR measurements of reverse transcription, integration, and PIR efficiency, γH2AX western blot analysis, NHEJ reporter assay, neutral comet assay, molecular docking and molecular dynamics simulations, and a set of s17 derivatives for structure-activity relationship analysis
+- **Missing materials affecting confidence** Raw numerical data for IC50 and EC50 values with error bars and statistical significance are not fully presented in the provided text. The SPR sensorgrams are referenced but not shown in detail. The molecular dynamics trajectory analysis (e.g., RMSD, binding free energy calculations) is described only qualitatively. The gating strategy and representative flow cytometry plots for the NHEJ reporter assay are not shown. The full structures and synthesis characterization of all s17 derivatives are only partially described in supplementary sections that were not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and underexplored target in the HIV-1 life cycle, namely the IN-Ku70 interaction required for post-integration DNA repair. The authors provide a reasonable first demonstration that a small molecule can disrupt this interaction and inhibit HIV-1 replication at the PIR stage. The key claims are partially supported by the data presented, but several technical concerns regarding the specificity of the inhibitor, the robustness of the PIR measurement, and the strength of the molecular dynamics model need to be addressed before the case is fully established. The work is of interest to the HIV-1 and antiviral drug discovery communities, but the current evidence does not yet fully exclude off-target effects or alternative mechanisms of action.
+- **Who would be interested in the results, and why** Researchers in the fields of HIV-1 virology, antiviral drug discovery, and protein-protein interaction inhibitors would be interested. The work also has relevance to those studying DNA repair pathways and host-pathogen interactions, as it demonstrates a chemical biology approach to dissect a specific host factor function during viral replication. The potential for developing a new class of antiretroviral agents with a high genetic barrier to resistance is a motivating factor for this audience.
+- **Major strengths**
+  - The manuscript targets a novel and biologically relevant protein-protein interaction (IN-Ku70) that is not addressed by current antiretroviral therapies, offering a potential new mechanism of action.
+  - The experimental strategy is logical, combining in silico screening, in vitro validation, cell-based antiviral assays, and mechanistic dissection of the replication step affected.
+  - The demonstration that s17 does not affect the canonical NHEJ pathway is an important and reassuring control, given the central role of Ku70 in this process.
+  - The use of a PIR-defective IN mutant (HIV_mut) as a comparator provides a useful internal control to link the inhibitor's effect to the IN-Ku70 interaction.
+  - The structure-activity relationship study with s17 derivatives provides initial evidence supporting the proposed binding mode and offers a starting point for optimization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** The manuscript claims that s17 inhibits HIV-1 replication specifically by disrupting the IN-Ku70 interaction and blocking PIR, without affecting other cellular functions of Ku70.
+  - **Evidence pointer** Section 2.2, Section 2.3, Section 2.5; Figures 1E-H, 2A-F, 3A-B
+  - **Concern** The claim of specificity is not fully established. While the authors show that s17 does not affect NHEJ in a reporter assay and comet assay, these assays measure overall DSB repair efficiency. The manuscript does not exclude the possibility that s17 affects other Ku70-dependent processes, such as telomere maintenance, or that it has off-target effects on other cellular kinases or DNA repair factors. The observation that s17 inhibits HIV_mut (which cannot bind Ku70) to a lesser extent than HIV_wt is supportive but not conclusive, as the residual inhibition of HIV_mut could be due to off-target effects. Furthermore, the SPR data show weak, transient binding of s17 to IN, which could contribute to the observed antiviral effect through an IN-dependent but Ku70-independent mechanism.
+  - **Why it matters** If s17 has off-target effects, the observed antiviral activity may not be solely attributable to IN-Ku70 disruption, undermining the central mechanistic claim and the proposed therapeutic strategy.
+  - **Resolution test** The authors should perform a more comprehensive specificity analysis, including: (1) a cellular thermal shift assay (CETSA) or pull-down experiment to demonstrate target engagement of Ku70 in cells; (2) a transcriptomic or proteomic analysis to identify potential off-target pathways affected by s17; (3) testing s17 against a panel of related protein-protein interactions or kinases; (4) demonstrating that the antiviral effect of s17 is fully rescued by overexpression of a Ku70 mutant that binds IN but not s17, or by a complementary approach such as a drug-resistant IN mutant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Robustness of PIR measurement
+  - **Claim pointer** The manuscript claims that s17 inhibits HIV-1 replication at the post-integration DNA repair stage, based on quantitative PCR measurements of total and integrated viral DNA and PIR efficiency.
+  - **Evidence pointer** Section 2.3; Figures 2B-E
+  - **Concern** The quantitative PCR method used to measure PIR efficiency is described only by reference to previous work. The manuscript does not provide sufficient detail on the primers, probes, or the specific amplicons used to distinguish integrated DNA from total DNA, nor does it show the standard curves or controls for the assay. The distinction between integration and PIR is subtle, and the assay must be carefully validated to ensure that the measured "PIR efficiency" is not confounded by differences in integration levels or by the presence of unintegrated viral DNA forms. The data in Figure 2E show a decrease in PIR efficiency with s17, but the magnitude of the effect and its statistical significance relative to the DMSO control are not clearly presented.
+  - **Why it matters** The central claim of the manuscript is that s17 acts at the PIR stage. If the PIR measurement is not robust or is confounded, the mechanistic conclusion is not reliable.
+  - **Resolution test** The authors should provide a detailed description of the PIR assay, including validation data showing that the assay can distinguish between integration and PIR. They should also show the raw data for the PIR efficiency measurements, including the levels of total and integrated DNA for each condition, with appropriate statistical analysis. Ideally, they should use an independent method to confirm the PIR block, such as a time-course experiment with a PIR-defective IN mutant or a biochemical assay for repair of the integration intermediate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Molecular dynamics model validation
+  - **Claim pointer** The manuscript claims that a molecular dynamics model of the s17-Ku70/Ku80 complex provides insight into the binding mode and identifies residues important for the interaction, particularly L76 of Ku70.
+  - **Evidence pointer** Section 2.6; Figure 4
+  - **Concern** The molecular dynamics model is presented as a key piece of evidence for the binding mode, but the validation is limited. The authors state that the complex was stable over the simulation, but no quantitative metrics (e.g., RMSD, RMSF, binding free energy) are provided. The model is based on a docking pose, and the authors do not demonstrate that the docking pose is reliable or that the simulation converged. The claim that L76 is important is based on the model and the SAR data, but the SAR data are indirect and do not directly demonstrate that L76 is the key residue. The authors do not perform any mutagenesis experiments to validate the predicted binding mode.
+  - **Why it matters** The molecular dynamics model is used to rationalize the SAR data and to propose a mechanism of action. If the model is not well validated, the structural interpretation is speculative, and the proposed optimization strategy may be misguided.
+  - **Resolution test** The authors should provide quantitative analysis of the molecular dynamics trajectory, including RMSD and RMSF plots, and ideally calculate binding free energies using a method such as MM-PBSA or MM-GBSA. They should also perform mutagenesis experiments on Ku70 residues predicted to be important for s17 binding (e.g., L76) and test the effect on s17 binding and antiviral activity. Alternatively, they could obtain a co-crystal structure of s17 with Ku70.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose-response and statistical rigor
+  - **Claim pointer** The manuscript reports IC50 values for s17 (13 ± 2 μM) and EC50 values in cell-based assays (12 ± 3 μM in 293T, 17 ± 2 μM in Jurkat, 10 ± 1.5 μM in CEM cells).
+  - **Evidence pointer** Section 2.1, Section 2.2; Figures 1C, 1F-H
+  - **Concern** The dose-response data are presented as mean ± standard deviation, but the number of independent experiments and the statistical analysis are not described. The manuscript does not state whether the IC50 and EC50 values were calculated from a single experiment or from multiple independent replicates. The error bars in the figures are not defined. The manuscript also does not report the maximum inhibition achieved or the Hill slope of the dose-response curves, which are important for understanding the potency and cooperativity of the inhibitor.
+  - **Why it matters** Without proper statistical reporting, the reliability of the reported potencies cannot be assessed, and the comparison between different cell lines and assays is not meaningful.
+  - **Resolution test** The authors should clearly state the number of independent experiments, the statistical test used, and the definition of error bars. They should provide the full dose-response curves with fitted parameters (e.g., Hill slope, maximum inhibition) for all key experiments. They should also report the coefficient of variation for the IC50 and EC50 values.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Abstract, Section 1, Section 3
+  - **Evidence pointer** Abstract; Section 1; Section 3
+  - **Issue** The term "KuINins" is introduced in the abstract and used throughout the manuscript, but it is not clearly defined. The authors state that they "propose to stimulate compounds that inhibit post-integration repair by disrupting the integrase binding to Ku70 KuINins." This sentence is grammatically awkward and the term is not explicitly defined as a class name.
+  - **Required correction** The authors should define the term "KuINins" clearly at its first use, for example, "We propose the name KuINins (Ku70-INtegrase inhibitors) for this class of compounds." The sentence in the abstract should be rephrased for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Section 2.1; Figure 1
+  - **Issue** The manuscript states that 37 compounds were selected for in vitro testing, but only the results for the most active compounds are shown in Figure 1. The structures and activities of the other compounds are not presented in the main text, and the supplementary table (Table S2) is not provided in the submitted material.
+  - **Required correction** The authors should either present the full results for all 37 compounds in the main text or provide a clear summary in a supplementary table that is referenced and accessible. The criteria for selecting the three most active compounds for further study should be explicitly stated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Solubility and compound characterization
+  - **Affected element** Section 2.2, Section 3
+  - **Evidence pointer** Section 2.2; Section 3
+  - **Issue** The authors acknowledge that s17 has poor solubility and possible aggregation in aqueous media, which limits the maximum testable concentration to 50 μM. However, they do not provide any data on the solubility limit, aggregation state, or the potential impact of these factors on the interpretation of the dose-response data.
+  - **Required correction** The authors should provide a brief characterization of s17's solubility and aggregation behavior (e.g., dynamic light scattering or a solubility assay) and discuss how this may affect the interpretation of the potency values and the feasibility of further development.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and data availability
+  - **Affected element** Figures 1-5
+  - **Evidence pointer** Figures 1-5
+  - **Issue** The figures are described in the text but are not provided in the submitted material. It is not possible to assess the quality of the data presentation, the gating strategies, or the statistical annotations.
+  - **Required correction** The authors should ensure that all figures are provided in a format that allows for detailed review, including raw data points, error bars, and statistical annotations.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Specificity of s17 for the IN-Ku70 interaction is not fully established; off-target effects are not excluded.
+  - R1-M2: The PIR measurement method is not described in sufficient detail, and the robustness of the assay is not demonstrated.
+  - R1-M3: The molecular dynamics model is not quantitatively validated, and the predicted binding mode is not confirmed by mutagenesis.
+  - R1-M4: Statistical reporting of dose-response data is incomplete, preventing assessment of reliability.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of targeting the IN-Ku70 interaction for antiviral therapy is novel and represents a departure from conventional targets. The work is original in its specific focus on this protein-protein interaction.
+  - **Scientific importance** The work addresses a real gap in HIV-1 therapy, namely the need for inhibitors with novel mechanisms that are less prone to resistance. The PIR step is a valid and underexplored target. However, the current potency of s17 (low micromolar) is modest, and the therapeutic potential is not yet demonstrated in vivo.
+  - **Interdisciplinary readership** The work bridges virology, structural biology, and medicinal chemistry. The molecular dynamics component and the SAR analysis would be of interest to computational chemists and drug designers. The antiviral data would appeal to virologists. The potential for broad interest is moderate.
+  - **Technical soundness** The experimental design is generally sound, but the concerns raised above regarding specificity, PIR measurement, and model validation need to be addressed. The lack of statistical detail and the incomplete presentation of data in the provided material reduce the confidence in the technical soundness.
+  - **Readability for nonspecialists** The manuscript is written in a clear and accessible style. The introduction and discussion provide sufficient context for a reader with a general background in virology or drug discovery. The methods section is detailed but may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central concept is promising and the initial data are encouraging, but the specificity of the inhibitor, the robustness of the PIR measurement, and the validation of the molecular dynamics model need to be strengthened. The manuscript would be suitable for publication in a specialized journal after these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that s17 is a "first-class inhibitor" of the IN-Ku70 interaction is supported by the literature search presented, but the authors do not provide a comprehensive review of all known IN-host factor interaction inhibitors to fully substantiate this claim.
+- The claim that s17 does not affect the "main cellular function of Ku70" (NHEJ) is supported by the reporter assay and comet assay, but these assays do not cover all Ku70 functions, and the statement is therefore too broad.
+- The molecular dynamics model is presented as a reliable representation of the binding mode, but the lack of quantitative validation makes this claim unsupported.
+- The statement that "the interaction of two phenyl radicals of s17 with the L76 residue of Ku70 is important for this interaction" is inferred from the model and the SAR data, but direct experimental evidence (e.g., mutagenesis) is not provided.
+- The claim that s17 "blocks post-integration DNA repair" is supported by the PIR assay, but the robustness of this assay is not fully demonstrated, as noted in R1-M2.

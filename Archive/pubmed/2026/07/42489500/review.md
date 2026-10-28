@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends as provided.
+- **Assessment boundary** Evaluation is limited to the scientific claims, experimental design, data interpretation, and logical coherence as presented in the provided manuscript. No external data, unpublished results, or supplementary files beyond what is described in the text were assessed.
+- **Shared manuscript claim summary** The authors investigate the evolutionary origin of β-catenin recognition in the Wnt destruction complex (BDC). They report that Nematostella vectensis Axin and APC-like proteins, which lack canonical bilaterian β-catenin-binding motifs, can still regulate Wnt/β-catenin signaling. They identify low-affinity β-catenin-binding motif-like sequences in cnidarian Axin, including one within the Axin-RGS domain, and propose an evolutionary model where an ancestral weak-binding motif acquired a critical leucine residue, followed by duplication and increased affinity in bilaterians.
+- **Visible evidence base** The manuscript includes functional assays in Nematostella embryos (overexpression, morpholino knockdown, CRISPR/Cas9 knockout), in vitro pull-down assays using in vitro transcribed/translated proteins, split luciferase assays in embryos, AlphaFold3 structural predictions, and sequence alignments. Figures cited include Figures 1-8 and Supplementary Figures S1-S9.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S9) are referenced but not provided in the submitted text. Detailed quantification of Western blots, full split luciferase datasets, and AlphaFold confidence metrics beyond textual description are not available. The exact number of biological replicates for each experiment is stated as "at least three" but individual data points are not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant evolutionary question: how the Wnt destruction complex, a central regulatory module in metazoan development, acquired its β-catenin recognition function. The authors combine functional assays in a non-bilaterian model system with AI-based structural prediction to propose a plausible evolutionary trajectory. The work is original and the experimental approach is generally sound. However, several concerns regarding the strength of the evidence for weak interactions, the interpretation of AlphaFold predictions, and the evolutionary model's reliance on limited taxonomic sampling need to be addressed. The claim that the ancestral BDC was "promiscuous" is intriguing but requires more direct support.
+- **Who would be interested in the results, and why** Evolutionary developmental biologists studying the origin of metazoan signaling pathways, Wnt signaling researchers interested in the molecular evolution of the destruction complex, and computational biologists using AI for protein-protein interaction prediction. The work provides a framework for understanding how complex regulatory modules evolve from simpler, lower-affinity precursors.
+- **Major strengths** 1) The study addresses a fundamental question about the evolution of a core signaling pathway using a strategically chosen non-bilaterian model system. 2) The combination of in vivo functional assays, in vitro biochemistry, and AI-based structural prediction is methodologically integrative. 3) The identification of β-catenin-binding motif-like sequences in cnidarian Axin, including within the RGS domain, provides a concrete molecular hypothesis for the evolutionary origin of the bilaterian β-catenin-binding motif. 4) The proposed model of low-affinity ancestral interactions followed by duplication and affinity maturation is testable and conceptually valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for weak interactions
+  - **Claim pointer** The authors claim that NvAxin binds Nvβ-catenin through "previously unrecognized low-affinity interactions" and that these interactions are functionally relevant.
+  - **Evidence pointer** Results section "In vitro and in vivo protein-protein interaction assays indicate that the Nematostella destruction complex proteins have binding activities previously undefined in bilaterians"; Figure 7; Supplementary Figure S6
+  - **Concern** The evidence for weak interactions between NvAxin and Nvβ-catenin relies on qualitative Western blot data from pull-down assays and split luciferase signals that are described as "low" or "weak" but no quantitative binding affinity measurements (e.g., Kd values) are provided. The split luciferase data in Supplementary Figure S6 show NvAxin + Nvβ-catenin at 27% of the NvAxin + Spβ-catenin signal in live embryos and 13% in lysates, but the statistical significance and reproducibility of these differences are not fully documented. The functional relevance of these weak interactions is inferred from overexpression and knockdown experiments, but the direct link between the observed weak binding and the phenotypic effects is not established.
+  - **Why it matters** The central claim of the paper is that a weak, ancestral β-catenin-binding interaction exists in cnidarians and that this represents the evolutionary precursor to the high-affinity bilaterian interaction. Without quantitative binding data or a clear demonstration that the weak interaction is necessary and sufficient for BDC function, this claim remains speculative.
+  - **Resolution test** Provide quantitative binding measurements (e.g., ITC, SPR, or quantitative pull-down with serial dilutions) for NvAxin-Nvβ-catenin and compare with SpAxin-Spβ-catenin. Alternatively, perform structure-guided mutagenesis of the identified β-catenin-binding motif-like sequences and show that disrupting these sequences abolishes the weak interaction and impairs BDC function in vivo.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of AlphaFold predictions
+  - **Claim pointer** The authors use AlphaFold3 predictions to identify β-catenin-binding motif-like sequences in cnidarian Axin and to propose specific interaction interfaces.
+  - **Evidence pointer** Results section "AlphaFold software predicts novel protein-binding interfaces between cWnt destruction complex components in Nematostella"; Figure 7c; Supplementary Figures S7-S9
+  - **Concern** AlphaFold3 predictions are presented as evidence for specific interaction interfaces, but the confidence metrics (iPTM, PTM) are only described qualitatively. The authors state that iPTM values above 0.8 are "confident" and values between 0.5 and 0.8 are "intermediate," but the actual scores for the specific predictions are not reported. For the NvAxin-Nvβ-catenin interaction, which is described as weak, it is unclear whether the AlphaFold prediction falls into the confident or intermediate range. Additionally, the authors do not validate the predicted interfaces experimentally beyond the leucine mutagenesis experiment, which only tests one residue.
+  - **Why it matters** The evolutionary model relies heavily on the identification of specific β-catenin-binding motif-like sequences. If the AlphaFold predictions are not robust or are not validated experimentally, the structural basis of the proposed ancestral interaction remains uncertain.
+  - **Resolution test** Report the iPTM and PTM scores for all key predictions. Validate the predicted interaction interfaces more comprehensively, for example by mutating multiple residues within the predicted interface and testing the effect on binding. Consider using complementary structural prediction methods or experimental approaches such as cross-linking mass spectrometry.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary model support
+  - **Claim pointer** The authors propose that "an ancestral β-catenin-binding motif-like sequence in Axin-RGS acquired weak β-catenin-binding capacity in early-emerging metazoans followed by motif duplication in the cnidarian-bilaterian last common ancestor" and that the duplicated motif evolved higher affinity in bilaterians.
+  - **Evidence pointer** Discussion section "Reconstructing the evolution of the bilaterian Axin β-catenin-binding motif"; Figure 8
+  - **Concern** The evolutionary model is based on the presence of β-catenin-binding motif-like sequences in a limited set of non-bilaterian taxa (one cnidarian, one placozoan, one sponge, three ctenophores). The model assumes that the presence of these sequences in extant taxa reflects the ancestral state, but this is not directly tested. The authors do not perform ancestral sequence reconstruction or examine the functional significance of the motif in more than one non-bilaterian species. The claim that the ancestral sequence was "lost" in bilaterians is based on the absence of detectable motifs in the RGS domain, which could be due to sequence divergence rather than loss.
+  - **Why it matters** The proposed evolutionary scenario is a key conceptual contribution of the paper. If the taxonomic sampling is insufficient or the inference of ancestral states is not robust, the model may not be well-supported.
+  - **Resolution test** Expand the taxonomic sampling of non-bilaterian Axin sequences and perform ancestral sequence reconstruction to test whether the β-catenin-binding motif-like sequence was present in the ancestral metazoan. Functionally test the β-catenin-binding capacity of the identified motifs in additional non-bilaterian species. Alternatively, use phylogenetic methods to assess the probability of the proposed gain, duplication, and loss events.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of APC-like
+  - **Claim pointer** The authors state that "both NvAxin and NvAPC-like regulate cWnt signaling" and that NvAPC-like binds Nvβ-catenin and NvAxin.
+  - **Evidence pointer** Results section "NvAxin and NvAPC-like regulate cWnt signaling in Nematostella embryos"; Figure 3; Figure 7b
+  - **Concern** The functional data for NvAPC-like are less comprehensive than for NvAxin. The morpholino and CRISPR experiments show phenotypic effects, but the specificity of the morpholino is not fully validated (e.g., rescue experiments with a morpholino-resistant construct are not shown). The in vitro interaction between NvAPC-like and Nvβ-catenin is described as "robust," but the interaction between NvAPC-like and NvAxin is not quantified. The authors do not address whether NvAPC-like can compensate for NvAxin loss or vice versa.
+  - **Why it matters** The claim that NvAPC-like is a functional component of the BDC in Nematostella is important for the overall conclusion that a BDC exists in this species. If the evidence for NvAPC-like function is weaker, the conclusion is less secure.
+  - **Resolution test** Provide rescue experiments for the NvAPC-like morpholino phenotype. Quantify the NvAPC-like-NvAxin interaction and compare with the NvAxin-Nvβ-catenin interaction. Test whether NvAPC-like and NvAxin function in the same pathway by examining genetic interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results section "NvAxin and NvAPC-like regulate cWnt signaling in Nematostella embryos"; Figure 2
+  - **Issue** The figure shows phenotypic effects of NvAxin overexpression and knockdown, but the quantification of these phenotypes is not described in the text. It is unclear how many embryos were scored and what statistical tests were used.
+  - **Required correction** Add quantitative analysis of the phenotypes shown in Figure 2, including the number of embryos scored and statistical significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Split luciferase assay
+  - **Evidence pointer** Materials and methods section "Split luciferase assay"; Supplementary Figure S6
+  - **Issue** The description of the split luciferase assay is brief. The authors do not specify the concentrations of mRNA injected, the time points for measurement, or how the normalization to NanoLuc was performed in detail.
+  - **Required correction** Provide more detailed methods for the split luciferase assay, including injection concentrations, measurement times, and normalization procedures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** AlphaFold predictions
+  - **Evidence pointer** Materials and methods section "AlphaFold 3 protein-protein interaction prediction"
+  - **Issue** The authors do not state whether the AlphaFold prediction files (e.g., PDB files, confidence scores) are deposited in a public repository.
+  - **Required correction** Deposit the AlphaFold prediction files in a public repository and provide the accession numbers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "β-catenin-binding motif-like"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The term "β-catenin-binding motif-like" is used to describe sequences that are predicted to bind β-catenin but have not been experimentally confirmed as binding motifs. This terminology could be confusing.
+  - **Required correction** Consider using a more precise term such as "putative β-catenin-binding motif" or "predicted β-catenin-binding sequence" and define the term clearly when first used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** qPCR data
+  - **Evidence pointer** Results section "NvAxin and NvAPC-like regulate cWnt signaling in Nematostella embryos"; Figures 2h-i, 3c-d
+  - **Issue** The qPCR data are described as showing upregulation or downregulation of genes, but the statistical methods and the number of biological replicates for each gene are not fully described in the figure legends or text.
+  - **Required correction** Clearly state the statistical tests used and the number of biological replicates for each qPCR experiment in the figure legends.
+
+## Risk / unsupported claims
+- The claim that NvAxin binds Nvβ-catenin through "low-affinity interactions" is not quantitatively supported. No binding affinity measurements are provided.
+- The claim that the identified β-catenin-binding motif-like sequences in cnidarian Axin are functionally relevant is only tested for one residue (leucine) in one species.
+- The evolutionary model proposing a specific sequence of gain, duplication, and loss events is not tested with ancestral sequence reconstruction or broader taxonomic sampling.
+- The claim that the ancestral BDC was "promiscuous" is inferred from the presence of multiple weak interactions but is not directly demonstrated.
+- The functional significance of NvAPC-like in the BDC is less well supported than for NvAxin, and the specificity of the NvAPC-like morpholino is not fully validated.
+- The AlphaFold predictions are not validated experimentally beyond the leucine mutagenesis, and the confidence scores for the key predictions are not reported.

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "42229383",
+    "doi": "10.1016/j.phymed.2026.158331",
+    "title": "Handelin inhibits osteoclastogenesis and bone loss by targeting lipocalin-2 and restoring autophagy to suppress NF-kappaB signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Excessive osteoclastogenesis is a pivotal pathological process in osteoporosis. Identifying compounds that can effectively inhibit osteoclastogenesis without toxicity is of great therapeutic interest. Handelin, a guaianolide dimer from Chrysanthemum indicum and other Chrysanthemum spp., possesses known anti-inflammatory and antioxidant properties, yet its role in osteoclastogenesis remains unclear. This study aims to investigate the role and mechanism of Handelin in osteoclastogenesis. METHODS: The effects of Handelin on osteoclast differentiation and function were assessed using Cell Counting Kit-8 (CCK-8), tartrate-resistant acid phosphatase (TRAP) and F-actin ring staining, bone pit assays, real-time quantitative PCR (RT-qPCR), and western blot in vitro. An ovariectomized (OVX) mouse model was employed for in vivo validation, evaluated by Micro-CT, histological staining, and ELISA assays. RNA sequencing (RNA-seq), Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Set Enrichment Analysis (GSEA) analysis, molecular docking, surface plasmon resonance (SPR), cellular thermal shift assay (CETSA), co-immunoprecipitation, immunofluorescence, and autophagy flux assays were employed for mechanistic investigation. Rescue experiments were conducted using recombinant lipocalin-2 (rLCN2) protein and sequestosome-1 (p62) overexpression. RESULTS: Handelin potently inhibited RANKL-induced osteoclast differentiation and bone resorption in vitro without cytotoxicity and alleviated OVX-induced bone loss in vivo. RNA-seq revealed Handelin downregulated LCN2 and activated autophagy while inhibiting the NF-kappaB pathway. Handelin directly bounded LCN2, reduced its expression at both mRNA and protein levels in cells and tissues, and restored autophagic flux, weakening the interaction between p62-TRAF6 to block NF-kappaB signaling. The anti-osteoclastogenic effects of Handelin were partially reversed by rLCN2 supplementation or p62 overexpression. Notably, Handelin did not impair osteogenic differentiation. CONCLUSION: This study identifies Handelin as a novel inhibitor of osteoclastogenesis that targets the LCN2-autophagy pathway and suppresses NF-kappaB signaling, highlighting its potential as a therapeutic agent for osteoporosis and related bone diseases.",
+    "keywords": [
+      "Autophagy",
+      "Handelin",
+      "Lipocalin-2",
+      "NF-kappaB",
+      "Osteoclast",
+      "Osteoporosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*NF-kappa B/metabolism",
+      "*Autophagy/drug effects",
+      "Mice",
+      "Signal Transduction/drug effects",
+      "*Osteogenesis/drug effects",
+      "Female",
+      "Osteoclasts/drug effects",
+      "*Lipocalin-2/metabolism",
+      "*Bone Resorption/drug therapy",
+      "Cell Differentiation/drug effects",
+      "Mice, Inbred C57BL",
+      "Ovariectomy",
+      "Osteoporosis/drug therapy",
+      "RAW 264.7 Cells",
+      "RANK Ligand"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Shian",
+        "Li, Junhong",
+        "Zhang, Yayun",
+        "Li, Jianwen",
+        "Wang, Shiheng",
+        "Mou, Yan",
+        "Liu, Jian",
+        "Sun, Xuying",
+        "Hu, Peixuan",
+        "Kang, Honglei",
+        "Zhu, Meipeng"
+      ],
+      "short_names": [
+        "Hu S",
+        "Li J",
+        "Zhang Y",
+        "Li J",
+        "Wang S",
+        "Mou Y",
+        "Liu J",
+        "Sun X",
+        "Hu P",
+        "Kang H",
+        "Zhu M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Trauma Surgery, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Gastroenterology, Wuhan Red Cross Hospital, Wuhan 430015, China.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: 1076757116@qq.com.",
+        "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: kangmed@hust.edu.cn.",
+        "Department of Pediatric Surgery, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: zhumeipengmd@hust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Shian",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junhong",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yayun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Trauma Surgery, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianwen",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shiheng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Mou, Yan",
+        "short_name": "Mou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Wuhan Red Cross Hospital, Wuhan 430015, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xuying",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Peixuan",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: 1076757116@qq.com."
+        ]
+      },
+      {
+        "full_name": "Kang, Honglei",
+        "short_name": "Kang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: kangmed@hust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Meipeng",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: zhumeipengmd@hust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Jul 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/03 00:36",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42229383",
+      "33933570",
+      "38579642",
+      "30562759",
+      "41109043",
+      "40408943",
+      "41905446",
+      "40907333",
+      "39547093",
+      "34116734",
+      "40834910",
+      "31866569",
+      "41352098",
+      "41593181",
+      "38554947",
+      "40722101",
+      "32272431",
+      "39152382",
+      "41202377",
+      "25708053",
+      "39033726",
+      "39617111",
+      "39956462",
+      "40486125",
+      "20814972",
+      "35708050",
+      "41026405",
+      "36805201",
+      "41435606",
+      "22337253",
+      "38977961",
+      "40043357",
+      "39855834",
+      "42142793",
+      "35470579",
+      "38553189",
+      "31083022",
+      "39636143",
+      "33307512",
+      "30978650",
+      "30807230",
+      "40398705",
+      "23400250",
+      "28899511",
+      "34530203",
+      "39701944",
+      "31323222",
+      "36388169",
+      "31846839",
+      "39006031",
+      "29061958",
+      "37688987",
+      "41583429",
+      "33713122",
+      "33974944",
+      "39098645",
+      "32790170",
+      "19962460",
+      "37993937",
+      "40435578",
+      "38358727",
+      "40619720",
+      "29698379",
+      "41534132",
+      "39679857",
+      "29869503",
+      "23143538",
+      "34469786",
+      "41764819",
+      "33842604",
+      "26809192",
+      "33981577",
+      "41576610",
+      "41922671",
+      "41308395",
+      "38558446",
+      "41500478",
+      "42101722",
+      "36081291",
+      "41638059",
+      "33878416",
+      "42001836",
+      "31037128",
+      "41151621",
+      "33126167",
+      "39082354",
+      "41935464",
+      "30471112",
+      "37521493",
+      "33176281",
+      "33084419",
+      "32321638",
+      "28739641",
+      "41194532",
+      "32676940",
+      "41594708",
+      "27002412",
+      "35605290",
+      "40855458",
+      "38731604"
+    ],
+    "review": [
+      "42229383"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00564-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1612",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

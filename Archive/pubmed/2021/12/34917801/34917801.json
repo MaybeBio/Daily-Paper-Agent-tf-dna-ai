@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "34917801",
+    "doi": "10.1016/j.heliyon.2021.e08502",
+    "title": "Network-based identification of miRNAs and transcription factors and in silico drug screening targeting delta-secretase involved in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: System medicine approaches have played a pivotal role in identifying novel disease networks especially in miRNA research. It is no wonder that miRNAs are implicated in multiple clinical conditions, allowing us to establish the hubs and nodes for network models of Alzheimer's Disease (AD). AD is an age-related, progressive, irreversible, and multifactorial neurodegenerative disorder characterized by cognitive and memory impairment and is the most common cause of dementia in older adults. Worldwide, around 50 million people have dementia, and there are nearly 10 million new cases every year. delta-secretase, also known as asparagine endopeptidase (AEP) or legumain (LGMN), is a lysosomal cysteine protease that cleaves peptide bonds C-terminally to asparagine residues in both amyloid precursor protein (APP) and tau, mediating the amyloid-beta and tau pathology in AD. The patient's miRNA expression was found to be deregulated in the brain, extracellular fluid, blood plasma, and serum. METHODS: Protein-Protein Interaction (PPI) networks of LGMN or delta-secretase were constructed using the Genemania database. Network Analyzer, a Cytoscape plugin, analyzed the network topological properties of LGMN. miRNAs related to Alzheimer's were extracted from the HMDD (Human microRNA Disease Database) and experimentally verified miRNA-gene interaction was obtained by searching miRWalk. Starbase v2.0 and miRanda were used for screening miRNA of LGMN genes. Moreover, to understand the regulatory mechanism in AD, we have screened major transcription factors of LGMN targeted genes using the Network Analyst 3.0, TRRUST (v2.0) server, and ENCODE. The Genotype-Tissue Expression (GTEx) and BEST tool were used to investigate the expression pattern of the LGMN gene. In parallel, we performed in-silico drug designing of the novel inhibitor scaffold of delta-secretase as powerful therapeutic targets by using the concept of scaffolds and frameworks. In this context, this study also aimed at identifying effective small molecule inhibitors targeting delta-secretase. RESULTS: Among the 16 experimentally verified miRNAs, Network analysis of the LGMN and its associated miRNA identify novel hsa-miRNA-106a-5p and hsa-miRNA-34a-5p being more expressed in the brain. Our in silico high throughput screening, followed by XP docking revealed Oprea1 as the lead. Molecular dynamic simulations of the delta-secretase-docked complex have been carried out for a time period of 200 ns and revealed that Root Mean Square Deviation (RMSD) of the protein Calpha-backbone with respect to its starting position increased to 1.20 A for the first 25 ns of the trajectory and then became stable around 0.6 A in the last 170 ns course of the simulation. The radius of gyration (RGYR) reveals that compactness was maintained till the end of simulations. CONCLUSION: Network analysis of LGMN associated miRNAs lead to the identification of two novel miRNAs, being highly expressed in the brain. This study also lead to the identification and expression of 10 Transcription factors associated with LGMN. Expression Heatmap results show high and continuous expression of LGMN in most of the regions of the brain, especially in the frontal cortex. Further, in silico drug analysis led us to the identification of Oprea1 which could be taken for further investigation to explore its potential for AD therapy.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Biomarker",
+      "Molecular Dynamic Simulations",
+      "Systems medicine",
+      "miRNA",
+      "delta-secretase"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iqbal, Saleem",
+        "Malik, Md Zubbair",
+        "Pal, Debnath"
+      ],
+      "short_names": [
+        "Iqbal S",
+        "Malik MZ",
+        "Pal D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational and Data Sciences, Indian Institute of Science, Bangalore 560012, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "Department of Computational and Data Sciences, Indian Institute of Science, Bangalore 560012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iqbal, Saleem",
+        "short_name": "Iqbal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Data Sciences, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Malik, Md Zubbair",
+        "short_name": "Malik MZ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Debnath",
+        "short_name": "Pal D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Data Sciences, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/18 06:00",
+    "fetched_at": "2026-09-28 02:54:55"
+  },
+  "links": {
+    "cites": [
+      "41944966",
+      "41831105",
+      "41524843",
+      "40244285",
+      "39871563",
+      "38966710",
+      "38427244",
+      "36401273"
+    ],
+    "refs": [
+      "31805847",
+      "31684860",
+      "31144355",
+      "30931480",
+      "30881384",
+      "30371825",
+      "29985970",
+      "29912392",
+      "29182053",
+      "29087512",
+      "28533191",
+      "28523555",
+      "28359674",
+      "28345579",
+      "27520374",
+      "27391578",
+      "26584231",
+      "26550575",
+      "26549211",
+      "25983691",
+      "25982076",
+      "25979468",
+      "25954001",
+      "25890375",
+      "25565961",
+      "25562527",
+      "25300487",
+      "24771341",
+      "24335146",
+      "24297251",
+      "24004830",
+      "23895045",
+      "23640887",
+      "23579614",
+      "23193282",
+      "22718532",
+      "22119192",
+      "21919503",
+      "21914486",
+      "21605702",
+      "21371747",
+      "21292981",
+      "21154805",
+      "20981514",
+      "20351093",
+      "20074384",
+      "20047990",
+      "19952055",
+      "19551154",
+      "19268705",
+      "19196972",
+      "19106291",
+      "18426918",
+      "18226108",
+      "18006545",
+      "17549006",
+      "17505973",
+      "17034125",
+      "17028987",
+      "16876668",
+      "16502253",
+      "16420040",
+      "16181339",
+      "15905550",
+      "14597658",
+      "9854307",
+      "9065484",
+      "8709122"
+    ],
+    "similar": [
+      "34917801",
+      "38176923",
+      "33789744",
+      "27501295",
+      "28345579",
+      "32506655",
+      "31778772",
+      "31244427",
+      "34343610",
+      "26981236",
+      "31333395",
+      "30530690",
+      "34945753",
+      "31911834",
+      "34166772",
+      "32859953",
+      "29182053",
+      "38297404",
+      "36142134",
+      "28826672",
+      "29725016",
+      "34844599",
+      "28919164",
+      "35783137",
+      "36092798",
+      "33880508",
+      "38195609",
+      "27115710",
+      "37961387",
+      "33833661",
+      "33868359",
+      "23225010",
+      "37822182",
+      "29578387",
+      "35322101",
+      "34412639",
+      "32468026",
+      "30382187",
+      "30424732",
+      "37930112",
+      "32846925",
+      "36808033",
+      "34260075",
+      "38448142",
+      "32508878",
+      "32414413",
+      "34889159",
+      "35386284",
+      "35045359",
+      "30734227",
+      "34012873",
+      "35346790",
+      "33586092",
+      "30286756",
+      "34754623",
+      "34485383",
+      "31722749",
+      "31295467",
+      "33323399",
+      "38655198",
+      "27148389",
+      "32135232",
+      "26549211",
+      "32973937",
+      "29543360",
+      "38501059",
+      "32338587",
+      "33841080",
+      "31578247",
+      "34370634",
+      "30877973",
+      "34893848",
+      "32389853",
+      "39045333",
+      "24352679",
+      "36401602",
+      "30314521",
+      "31842912",
+      "35811521",
+      "31183807",
+      "38317814",
+      "25765079",
+      "31973122",
+      "36251230",
+      "36468008",
+      "33238867",
+      "33390127",
+      "37351977",
+      "35757478",
+      "39236856",
+      "28179587",
+      "37925002",
+      "39403785",
+      "31130840",
+      "33192270",
+      "39134826",
+      "38573427",
+      "39383634",
+      "39312011",
+      "30890906",
+      "39327003",
+      "39204195",
+      "38946780",
+      "38865432",
+      "39004678",
+      "38957785",
+      "34751244",
+      "38799161",
+      "38680184",
+      "31312079",
+      "35698583"
+    ],
+    "review": [
+      "34917801",
+      "31911834",
+      "32859953",
+      "38297404",
+      "36142134",
+      "27115710",
+      "23225010",
+      "38448142",
+      "30734227",
+      "34370634",
+      "30877973",
+      "31183807",
+      "31973122",
+      "33238867",
+      "33390127",
+      "39236856",
+      "31130840",
+      "33192270",
+      "38946780"
+    ],
+    "pmc": [
+      "8668832"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(21)02605-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34917801/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34917801",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

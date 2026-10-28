@@ -1,0 +1,565 @@
+{
+  "identity": {
+    "pmid": "39438113",
+    "doi": "10.1101/gr.279037.124",
+    "title": "Binding profiles for 961 Drosophila and C. elegans transcription factors reveal tissue-specific regulatory relationships."
+  },
+  "content": {
+    "abstract": "A catalog of transcription factor (TF) binding sites in the genome is critical for deciphering regulatory relationships. Here, we present the culmination of the efforts of the modENCODE (model organism Encyclopedia of DNA Elements) and modERN (model organism Encyclopedia of Regulatory Networks) consortia to systematically assay TF binding events in vivo in two major model organisms, Drosophila melanogaster (fly) and Caenorhabditis elegans (worm). These data sets comprise 605 TFs identifying 3.6 M sites in the fly and 356 TFs identifying 0.9 M sites in the worm, and represent the majority of the regulatory space in each genome. We demonstrate that TFs associate with chromatin in clusters termed \"metapeaks,\" that larger metapeaks have characteristics of high-occupancy target (HOT) regions, and that the importance of consensus sequence motifs bound by TFs depends on metapeak size and complexity. Combining ChIP-seq data with single-cell RNA-seq data in a machine-learning model identifies TFs with a prominent role in promoting target gene expression in specific cell types, even differentiating between parent-daughter cells during embryogenesis. These data are a rich resource for the community that should fuel and guide future investigations into TF function. To facilitate data accessibility and utility, all strains expressing green fluorescent protein (GFP)-tagged TFs are available at the stock centers for each organism. The chromatin immunoprecipitation sequencing data are available through the ENCODE Data Coordinating Center, GEO, and through a direct interface that provides rapid access to processed data sets and summary analyses, as well as widgets to probe the cell-type-specific TF-target relationships.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans/genetics/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "*Drosophila melanogaster/genetics/metabolism",
+      "Binding Sites",
+      "Organ Specificity",
+      "Protein Binding",
+      "Drosophila Proteins/metabolism/genetics",
+      "Caenorhabditis elegans Proteins/metabolism/genetics",
+      "Chromatin/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kudron, Michelle",
+        "Gevirtzman, Louis",
+        "Victorsen, Alec",
+        "Lear, Bridget C",
+        "Gao, Jiahao",
+        "Xu, Jinrui",
+        "Samanta, Swapna",
+        "Frink, Emily",
+        "Tran-Pearson, Adri",
+        "Huynh, Chau",
+        "Vafeados, Dionne",
+        "Hammonds, Ann",
+        "Fisher, William",
+        "Wall, Martha",
+        "Wesseling, Greg",
+        "Hernandez, Vanessa",
+        "Lin, Zhichun",
+        "Kasparian, Mary",
+        "White, Kevin",
+        "Allada, Ravi",
+        "Gerstein, Mark",
+        "Hillier, LaDeana",
+        "Celniker, Susan E",
+        "Reinke, Valerie",
+        "Waterston, Robert H"
+      ],
+      "short_names": [
+        "Kudron M",
+        "Gevirtzman L",
+        "Victorsen A",
+        "Lear BC",
+        "Gao J",
+        "Xu J",
+        "Samanta S",
+        "Frink E",
+        "Tran-Pearson A",
+        "Huynh C",
+        "Vafeados D",
+        "Hammonds A",
+        "Fisher W",
+        "Wall M",
+        "Wesseling G",
+        "Hernandez V",
+        "Lin Z",
+        "Kasparian M",
+        "White K",
+        "Allada R",
+        "Gerstein M",
+        "Hillier L",
+        "Celniker SE",
+        "Reinke V",
+        "Waterston RH"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1944-2821",
+        "ORCID: 0000-0002-8967-2756"
+      ],
+      "affiliations": [
+        "Department of Genetics, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Minnesota, Minneapolis, Minnesota 55455, USA.",
+        "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Biology, Howard University, Washington, District of Columbia 20059, USA.",
+        "Center for Applied Data Science and Analytics, Howard University, Washington, District of Columbia 20059, USA.",
+        "Department of Genetics, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA.",
+        "Division of Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA.",
+        "Division of Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA.",
+        "Institute for Genomics and Systems Biology, University of Chicago, Chicago, Illinois 60637, USA.",
+        "Department of Human Genetics, University of Chicago, Chicago, Illinois 60637, USA.",
+        "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA.",
+        "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA.",
+        "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA.",
+        "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA.",
+        "Department of Biochemistry and Precision Medicine Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, 117597 Singapore.",
+        "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA.",
+        "Program in Computational Biology and Bioinformatics, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Statistics and Data Science, Yale University, New Haven, Connecticut 06520, USA.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA.",
+        "Division of Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA.",
+        "Department of Genetics, Yale University, New Haven, Connecticut 06520, USA; watersto@uw.edu valerie.reinke@yale.edu.",
+        "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA; watersto@uw.edu valerie.reinke@yale.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kudron, Michelle",
+        "short_name": "Kudron M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University, New Haven, Connecticut 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Gevirtzman, Louis",
+        "short_name": "Gevirtzman L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Victorsen, Alec",
+        "short_name": "Victorsen A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Minnesota, Minneapolis, Minnesota 55455, USA."
+        ]
+      },
+      {
+        "full_name": "Lear, Bridget C",
+        "short_name": "Lear BC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Jiahao",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, Connecticut 06520, USA.",
+          "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Jinrui",
+        "short_name": "Xu J",
+        "identifiers": [
+          "0000-0003-1944-2821"
+        ],
+        "affiliations": [
+          "Department of Biology, Howard University, Washington, District of Columbia 20059, USA.",
+          "Center for Applied Data Science and Analytics, Howard University, Washington, District of Columbia 20059, USA."
+        ]
+      },
+      {
+        "full_name": "Samanta, Swapna",
+        "short_name": "Samanta S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Yale University, New Haven, Connecticut 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Frink, Emily",
+        "short_name": "Frink E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Tran-Pearson, Adri",
+        "short_name": "Tran-Pearson A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Huynh, Chau",
+        "short_name": "Huynh C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Vafeados, Dionne",
+        "short_name": "Vafeados D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Hammonds, Ann",
+        "short_name": "Hammonds A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Fisher, William",
+        "short_name": "Fisher W",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Wall, Martha",
+        "short_name": "Wall M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genomics and Systems Biology, University of Chicago, Chicago, Illinois 60637, USA.",
+          "Department of Human Genetics, University of Chicago, Chicago, Illinois 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Wesseling, Greg",
+        "short_name": "Wesseling G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Hernandez, Vanessa",
+        "short_name": "Hernandez V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhichun",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Kasparian, Mary",
+        "short_name": "Kasparian M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "White, Kevin",
+        "short_name": "White K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Precision Medicine Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, 117597 Singapore."
+        ]
+      },
+      {
+        "full_name": "Allada, Ravi",
+        "short_name": "Allada R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Northwestern University, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Gerstein, Mark",
+        "short_name": "Gerstein M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Computational Biology and Bioinformatics, Yale University, New Haven, Connecticut 06520, USA.",
+          "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut 06520, USA.",
+          "Department of Statistics and Data Science, Yale University, New Haven, Connecticut 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Hillier, LaDeana",
+        "short_name": "Hillier L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Celniker, Susan E",
+        "short_name": "Celniker SE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Reinke, Valerie",
+        "short_name": "Reinke V",
+        "identifiers": [
+          "0000-0002-8967-2756"
+        ],
+        "affiliations": [
+          "Department of Genetics, Yale University, New Haven, Connecticut 06520, USA; watersto@uw.edu valerie.reinke@yale.edu."
+        ]
+      },
+      {
+        "full_name": "Waterston, Robert H",
+        "short_name": "Waterston RH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington School of Medicine, Seattle, Washington 98195, USA; watersto@uw.edu valerie.reinke@yale.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2024 Dec 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/23 00:21",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42114111",
+      "42039521",
+      "41595459",
+      "41279708",
+      "41279325",
+      "40795528",
+      "40658798",
+      "40536976",
+      "40314147",
+      "39990429",
+      "39705007",
+      "39449319"
+    ],
+    "refs": [
+      "38214231",
+      "37352352",
+      "35926038",
+      "35508662",
+      "35239393",
+      "34505086",
+      "34312566",
+      "33692541",
+      "33347581",
+      "32963112",
+      "32728249",
+      "32728244",
+      "31488706",
+      "31114922",
+      "30362940",
+      "30213854",
+      "29539636",
+      "29284660",
+      "28818938",
+      "28422646",
+      "28392263",
+      "27777270",
+      "26837755",
+      "26678747",
+      "26187122",
+      "25905672",
+      "25373775",
+      "25215497",
+      "25164757",
+      "25053843",
+      "24670639",
+      "24653213",
+      "24603674",
+      "24359758",
+      "23636945",
+      "22955991",
+      "22901814",
+      "22723752",
+      "21985007",
+      "21430782",
+      "21177976",
+      "21177974",
+      "21177963",
+      "21177958",
+      "20174564",
+      "19536255",
+      "19465919",
+      "19274049",
+      "19060335",
+      "19029915",
+      "18798982",
+      "17417638",
+      "16880385",
+      "16420670",
+      "1327958"
+    ],
+    "similar": [
+      "39438113",
+      "29284660",
+      "38293065",
+      "24581441",
+      "25023089",
+      "26285121",
+      "23531767",
+      "39705007",
+      "18752680",
+      "20844575",
+      "19956545",
+      "23799133",
+      "25905672",
+      "14976302",
+      "40314147",
+      "35696584",
+      "26133010",
+      "37557175",
+      "24336359",
+      "23184988",
+      "31114856",
+      "37805453",
+      "36652461",
+      "25568052",
+      "26818008",
+      "21177976",
+      "28750606",
+      "34830338",
+      "21177977",
+      "34931250",
+      "23847101",
+      "35074859",
+      "27264535",
+      "22863112",
+      "27207881",
+      "24516405",
+      "22456606",
+      "27777270",
+      "28790414",
+      "21177974",
+      "30995488",
+      "31053165",
+      "29326300",
+      "28215941",
+      "25164756",
+      "24564528",
+      "22479205",
+      "16777607",
+      "25486472",
+      "22534400",
+      "32053778",
+      "29786094",
+      "34064595",
+      "16314527",
+      "40971887",
+      "21483663",
+      "24985916",
+      "26539642",
+      "22683808",
+      "25164757",
+      "29074739",
+      "22955990",
+      "22955984",
+      "25242320",
+      "30359306",
+      "39571581",
+      "28760809",
+      "39326643",
+      "21177963",
+      "28003515",
+      "21483667",
+      "25432957",
+      "23233545",
+      "21430772",
+      "27575958",
+      "19372275",
+      "19656951",
+      "40015273",
+      "15479636",
+      "31114922",
+      "39887187",
+      "24097988",
+      "22730465",
+      "30517703",
+      "20158869",
+      "41724964",
+      "24332542",
+      "21963133",
+      "37486787",
+      "40795153",
+      "32858223",
+      "22927638",
+      "25944915",
+      "26291518",
+      "23972280",
+      "18388953",
+      "28826674",
+      "30567711",
+      "20384991",
+      "29141961"
+    ],
+    "review": [
+      "39438113",
+      "26133010",
+      "25486472"
+    ],
+    "pmc": [
+      "11694743"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=39438113",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39438113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse271850",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

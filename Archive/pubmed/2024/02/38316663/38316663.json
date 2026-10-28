@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "38316663",
+    "doi": "10.1007/s11517-024-03031-0",
+    "title": "Multi-contrast learning-guided lightweight few-shot learning scheme for predicting breast cancer molecular subtypes."
+  },
+  "content": {
+    "abstract": "Invasive gene expression profiling studies have exposed prognostically significant breast cancer subtypes: normal-like, luminal, HER-2 enriched, and basal-like, which is defined in large part by human epidermal growth factor receptor 2 (HER-2), progesterone receptor (PR), and estrogen receptor (ER). However, while dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) has been generally employed in the screening and therapy of breast cancer, there is a challenging problem to noninvasively predict breast cancer molecular subtypes, which have extremely low-data regimes. In this paper, a novel few-shot learning scheme, which combines lightweight contrastive convolutional neural network (LC-CNN) and multi-contrast learning strategy (MCLS), is worthwhile to be developed for predicting molecular subtype of breast cancer in DCE-MRI. Moreover, MCLS is designed to construct One-vs-Rest and One-vs-One classification tasks, which addresses inter-class similarity among normal-like, luminal, HER-2 enriched, and basal-like. Extensive experiments demonstrate the superiority of our proposed scheme over state-of-the-art methods. Furthermore, our scheme is able to achieve competitive results on few samples due to joint LC-CNN and MCLS for excavating contrastive correlations of a pair of DCE-MRI.",
+    "keywords": [
+      "Breast cancer",
+      "Few-shot learning",
+      "One-vs-One",
+      "One-vs-Rest"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Receptors, Estrogen/genetics/metabolism",
+      "*Breast Neoplasms/diagnostic imaging/genetics",
+      "Magnetic Resonance Imaging/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Xiang",
+        "Wang, Pei",
+        "Jia, Shunyuan",
+        "Wang, Yihang",
+        "Liu, Yuan",
+        "Zhang, Yan",
+        "Jiang, Chunjuan"
+      ],
+      "short_names": [
+        "Pan X",
+        "Wang P",
+        "Jia S",
+        "Wang Y",
+        "Liu Y",
+        "Zhang Y",
+        "Jiang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.",
+        "Cancer Center, Faculty of Health Sciences, University of Macau, Macau, SAR, China.",
+        "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.",
+        "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.",
+        "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.",
+        "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.",
+        "Department of Oncology, Wuxi Maternal and Child Health Care Hospital, Jiangnan University, Wuxi, China. fuyou2007@126.com.",
+        "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China. panzaochen@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Xiang",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China.",
+          "Cancer Center, Faculty of Health Sciences, University of Macau, Macau, SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pei",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Shunyuan",
+        "short_name": "Jia S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yihang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Wuxi Maternal and Child Health Care Hospital, Jiangnan University, Wuxi, China. fuyou2007@126.com."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chunjuan",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Fudan University Shanghai Cancer Center, Shanghai, China. panzaochen@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical & biological engineering & computing"
+    ],
+    "journal_abbrev": [
+      "Med Biol Eng Comput"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/06 00:42",
+    "fetched_at": "2026-09-29 14:54:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36462897",
+      "36378030",
+      "36040947",
+      "35679701",
+      "35576822",
+      "35490149",
+      "35344706",
+      "35320091",
+      "34990372",
+      "34872010",
+      "34226990",
+      "34197319",
+      "33676100",
+      "33492598",
+      "33001309",
+      "31985411",
+      "28715341",
+      "26615782",
+      "19436038"
+    ],
+    "similar": [
+      "38316663",
+      "17950079",
+      "38637240",
+      "25777181",
+      "30927939",
+      "30138940",
+      "34330117",
+      "33275218",
+      "36201887",
+      "36418622",
+      "19950556",
+      "30396643",
+      "24008056",
+      "24558165",
+      "22524806",
+      "36055051",
+      "30033447",
+      "33001309",
+      "28295860",
+      "19034706",
+      "36661350",
+      "21601377",
+      "29409530",
+      "18413639",
+      "29444670",
+      "29261141",
+      "35679701",
+      "24652232",
+      "16757721",
+      "34722229",
+      "23098526",
+      "23030684",
+      "30270031",
+      "19593632",
+      "21830014",
+      "34047501",
+      "18768247",
+      "29284425",
+      "30171067",
+      "28166261",
+      "30069785",
+      "32524436",
+      "28114999",
+      "27472239",
+      "30811717",
+      "32775251",
+      "25736840",
+      "37983902",
+      "34345946",
+      "29995825",
+      "31983107",
+      "29070476",
+      "21468463",
+      "35965527",
+      "26886725",
+      "25179138",
+      "35699854",
+      "30613307",
+      "26968141",
+      "23977244",
+      "23971947",
+      "28067435",
+      "29105486",
+      "37456326",
+      "22875649",
+      "36203226",
+      "28177554",
+      "36172153",
+      "36772592",
+      "32253074",
+      "33585986",
+      "17647064",
+      "30957936",
+      "30046938",
+      "20850937",
+      "35595629",
+      "21442348",
+      "18681955",
+      "34238968",
+      "26846986",
+      "26625804",
+      "35814460",
+      "36820793",
+      "30130181",
+      "30916428",
+      "19898422",
+      "37789381",
+      "32556920",
+      "21575463",
+      "27955963",
+      "19190139",
+      "37499296",
+      "27313102",
+      "21552212",
+      "31827586"
+    ],
+    "review": [
+      "38316663"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11517-024-03031-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

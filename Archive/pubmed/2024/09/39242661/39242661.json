@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "39242661",
+    "doi": "10.1038/s41598-024-72011-z",
+    "title": "Integrating bioinformatics and ferroptosis to reveal the protective mechanism of Astragaloside IV on chronic heart failure rats."
+  },
+  "content": {
+    "abstract": "Ferroptosis is an important pathological mechanism of chronic heart failure (CHF). This study aimed to investigate the protective mechanism of Astragaloside IV (AS-IV) on CHF rats by integrating bioinformatics and ferroptosis. CHF-related targets and ferroptosis-related targets were collected. After the intersection, the common targets were obtained. The PPI network of the common targets was constructed, and topological analysis of the network was carried out. The target with the highest topological parameter values was selected as the key target. The key target p53 was obtained through bioinformatics analysis, and its molecular docking model with AS-IV was obtained, as well as molecular dynamics simulation analysis. The rat models of CHF after myocardial infarction were established by ligation of left coronary artery and treated with AS-IV for 4 weeks. AS-IV treatment significantly improved cardiac function in CHF rats, improved cardiomyocyte morphology and myocardial fibrosis, reduced mitochondrial damage, decreased myocardial MDA and Fe(2+) content, increased GSH content, inhibited the expression of p53 and p-p53, and up-regulated the expression of SLC7A11 and GPX4. In conclusion, AS-IV improved cardiac function in CHF rats, presumably by regulating p53/SLC7A11/GPX4 signaling pathway and inhibiting myocardial ferroptosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/drug effects",
+      "*Triterpenes/pharmacology",
+      "*Saponins/pharmacology",
+      "*Heart Failure/drug therapy/metabolism",
+      "Rats",
+      "*Computational Biology/methods",
+      "Male",
+      "Phospholipid Hydroperoxide Glutathione Peroxidase/metabolism",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Molecular Docking Simulation",
+      "Chronic Disease",
+      "Disease Models, Animal",
+      "Rats, Sprague-Dawley",
+      "Signal Transduction/drug effects",
+      "Myocytes, Cardiac/metabolism/drug effects/pathology",
+      "Myocardial Infarction/drug therapy/metabolism/pathology",
+      "Molecular Dynamics Simulation",
+      "Myocardium/metabolism/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Hui",
+        "Shi, Min",
+        "Wei, Jiaming",
+        "Liu, Chengxin",
+        "Wang, Ziyan",
+        "Li, Ya",
+        "Guo, Zhihua"
+      ],
+      "short_names": [
+        "Yuan H",
+        "Shi M",
+        "Wei J",
+        "Liu C",
+        "Wang Z",
+        "Li Y",
+        "Guo Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+        "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+        "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+        "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China. 003872@hnucm.edu.cn.",
+        "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China. 004294@hnucm.edu.cn.",
+        "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China. 004294@hnucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Hui",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+          "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Min",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+          "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jiaming",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China.",
+          "School of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chengxin",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+          "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziyan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+          "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ya",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China. 003872@hnucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhihua",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical College of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China. 004294@hnucm.edu.cn.",
+          "Hunan Key Laboratory of Colleges and Universities of Intelligent Traditional Chinese Medicine Diagnosis and Preventive Treatment of Chronic Diseases of Hunan Universities of Chinese Medicine, Changsha, 410208, China. 004294@hnucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Sep 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/07 14:42",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "41596896",
+      "41239739"
+    ],
+    "refs": [
+      "38397589",
+      "37868994",
+      "37630371",
+      "37607069",
+      "37580393",
+      "37499888",
+      "37424139",
+      "37386007",
+      "37251311",
+      "37127193",
+      "36793330",
+      "36437553",
+      "36305834",
+      "36273661",
+      "36139417",
+      "35803244",
+      "35434035",
+      "35413307",
+      "35363500",
+      "35327582",
+      "34312370",
+      "33495651",
+      "32710001",
+      "32483830",
+      "32349646",
+      "32213428",
+      "32015325",
+      "31502185",
+      "31364924",
+      "31196626",
+      "31102891",
+      "29800655",
+      "29386977",
+      "29077790",
+      "28950815",
+      "25799988",
+      "25176396",
+      "22632970",
+      "19499576",
+      "17347379",
+      "16211538",
+      "10660911"
+    ],
+    "similar": [
+      "39242661",
+      "39354361",
+      "38692417",
+      "38734270",
+      "34699317",
+      "29301869",
+      "39111582",
+      "38641076",
+      "34032295",
+      "38114118",
+      "33656642",
+      "39009325",
+      "30905241",
+      "39041134",
+      "39137626",
+      "38621883",
+      "38295662",
+      "38718959",
+      "33253607",
+      "30257251",
+      "31931161",
+      "32720797",
+      "33064567",
+      "35997859",
+      "38636375",
+      "39147013",
+      "24432369",
+      "38078919",
+      "38679154",
+      "36115280",
+      "38877424",
+      "39094671",
+      "38522897",
+      "38917486",
+      "38802151",
+      "38734062",
+      "34390730",
+      "38972525",
+      "31004658",
+      "32306464",
+      "39170930",
+      "38987730",
+      "39128303",
+      "35226829",
+      "39081897",
+      "38583347",
+      "38901771",
+      "36442718",
+      "36881213",
+      "31685805",
+      "32710001",
+      "38580189",
+      "33098823",
+      "38930897",
+      "34587716",
+      "28302481",
+      "38788562",
+      "37247859",
+      "33418305",
+      "37955689",
+      "38725341",
+      "33472092",
+      "38926825",
+      "26387177",
+      "39082362",
+      "37983962",
+      "34860639",
+      "27070866",
+      "31545785",
+      "38959606",
+      "38850659",
+      "38417695",
+      "38991271",
+      "38643713",
+      "39012393",
+      "34280397",
+      "25604645",
+      "26739213",
+      "34530090",
+      "28487976",
+      "38743190",
+      "34339707",
+      "38629369",
+      "33737050",
+      "31739105",
+      "37831380",
+      "37315642",
+      "39054716",
+      "37554285",
+      "38672439",
+      "30030530",
+      "35653908",
+      "26261541",
+      "37859612",
+      "37750505",
+      "37748635",
+      "35091012",
+      "25738576"
+    ],
+    "review": [
+      "39242661",
+      "36115280"
+    ],
+    "pmc": [
+      "11379966"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-72011-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39242661/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

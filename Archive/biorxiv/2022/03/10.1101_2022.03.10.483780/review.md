@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a machine learning approach to identify transcription factor (TF)-DNA interactions for 12 Auxin Response Factor (ARF) proteins in maize and soybean using DAP-seq data. They report 93.54% accuracy, 6.2% false positive rate, and 43.29% false negative rate on average across maize ARFs when restricting the search to unmethylated regions (UMRs), using k-mer count vectorization with logistic regression, up-sampling, and feature selection. They state that feature selection reveals known and potentially novel ARF binding motifs. They also report that applying the maize-trained model directly to the soybean genome yields false positive rates exceeding 40% across tested ARFs.
+- **Visible evidence base** Abstract text only; no methodological details, performance metrics beyond those stated, motif validation, or cross-species analysis details are available
+- **Missing materials affecting confidence** Full methods, dataset descriptions, DAP-seq processing details, model training and validation procedures, feature selection implementation, motif discovery and validation, cross-species application details, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of machine learning to TF binding site prediction, with a sensible strategy of restricting the search space to unmethylated regions. However, the reported performance metrics are incomplete and internally inconsistent in a way that limits interpretability. The high false negative rate (43.29%) is not adequately contextualized, and the cross-species result, while honestly reported, is presented without sufficient analysis to understand its implications. The claim that feature selection uncovers known and novel motifs is not supported by any evidence in the abstract. The work is at a preliminary stage and the case for its utility is not yet established from the provided material.
+- **Who would be interested in the results, and why** Plant molecular biologists studying auxin signaling and ARF function, computational biologists working on TF binding site prediction, and researchers interested in cross-species transfer of epigenomic prediction models. The UMR-based search space reduction could be of general interest to those working on large plant genomes.
+- **Major strengths** The strategy of reducing the genome search space by focusing on unmethylated regions is a practical and biologically motivated approach. The use of feature selection to extract interpretable motifs from a classification model is a valuable direction. The authors honestly report the poor cross-species performance, which is informative for the field.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors report 93.54% accuracy, 6.2% false positive, and 43.29% false negative rate across 12 ARFs of maize on average.
+    - **Evidence pointer** Abstract, performance metrics section
+    - **Concern** The combination of 93.54% accuracy, 6.2% false positive rate, and 43.29% false negative rate is internally inconsistent. If the false negative rate is 43.29%, the true positive rate is 56.71%. With a false positive rate of 6.2%, the overall accuracy cannot plausibly be 93.54% unless the class balance is extremely skewed toward negatives. The abstract does not report the class balance, the number of binding events, or the number of UMRs surveyed. Without these details, the reported accuracy is not interpretable.
+    - **Why it matters** Accuracy is a misleading metric when classes are imbalanced, which is almost certainly the case here given the large number of UMRs relative to binding events. The reported metrics do not allow a reader to assess whether the model is genuinely useful or merely predicting the majority class.
+    - **Resolution test** Provide the confusion matrix, class balance, and precision-recall or ROC-AUC metrics. Report the number of true positives, false positives, true negatives, and false negatives. Clarify whether accuracy is computed on the UMR set or on a balanced test set.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors state that feature selection helps to uncover known and potentially novel ARF binding motifs.
+    - **Evidence pointer** Abstract, feature selection statement
+    - **Concern** No evidence is provided for this claim. The abstract does not describe how motifs were extracted from the model, how known motifs were identified, or how novelty was assessed. No comparison to known ARF binding motifs is shown.
+    - **Why it matters** This is a central claim of the work, as it suggests the method provides biological interpretability beyond prediction. Without validation, the claim is unsupported.
+    - **Resolution test** Provide a figure or table showing the discovered motifs, their similarity to known ARF motifs, and the statistical significance of the enrichment. Describe the motif extraction method and the reference set used for comparison.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors state that applying the maize-trained model directly to the soybean genome yields false positive rates exceeding 40% across the ARF TFs tested.
+    - **Evidence pointer** Abstract, cross-species application
+    - **Concern** The cross-species result is reported as a failure, but the abstract does not provide any analysis of why this occurs. No discussion of sequence divergence, motif conservation, or differences in UMR definitions between maize and soybean is provided. The result is presented as a limitation without insight.
+    - **Why it matters** Cross-species transfer is a key challenge in this field. Understanding the source of the high false positive rate could inform future model design and is of scientific interest in itself.
+    - **Resolution test** Provide an analysis of the false positive predictions, such as sequence composition, motif presence, or genomic context. Discuss whether the UMR definition is comparable between species and whether the model is learning species-specific features.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract, methods description
+    - **Evidence pointer** Abstract, "encoding DNA with count vectorization for k-mer with a logistic regression classifier with up-sampling and feature selection"
+    - **Issue** The description of the method is dense and lacks detail on key parameters, such as the k-mer length, the up-sampling strategy, and the feature selection method.
+    - **Required correction** Specify the k-mer length, the up-sampling approach (e.g., SMOTE or random oversampling), and the feature selection technique (e.g., L1 regularization or recursive feature elimination).
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Abstract, performance reporting
+    - **Evidence pointer** Abstract, performance metrics
+    - **Issue** Only accuracy, false positive rate, and false negative rate are reported. No precision, recall, F1 score, or area under the ROC curve is provided.
+    - **Required correction** Report additional metrics, particularly precision and recall, to allow a more complete assessment of model performance.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Context
+    - **Affected element** Abstract, comparison to existing methods
+    - **Evidence pointer** Abstract, opening statement
+    - **Issue** The abstract does not compare the proposed method to existing TF binding site prediction tools or to other machine learning approaches applied to DAP-seq data.
+    - **Required correction** Add a brief comparison to existing methods, either in the abstract or in the main text, to contextualize the contribution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (metric inconsistency and lack of class balance reporting) and R1-M2 (unsupported motif discovery claim) are the primary technical failings. R1-M3, while not blocking, requires additional analysis to be scientifically informative.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of machine learning to DAP-seq data with UMR-based search space reduction is not entirely novel, but the specific combination and the focus on ARFs in maize and soybean may offer some new insights. The originality is moderate.  
+  - Scientific importance: The problem of TF binding site prediction in large plant genomes is relevant, and the honest reporting of cross-species limitations is useful. However, the importance is limited by the lack of demonstrated improvement over existing methods and the incomplete performance evaluation.  
+  - Interdisciplinary readership: The work sits at the interface of plant biology and computational biology. It may appeal to a niche audience but is unlikely to attract broad interdisciplinary interest in its current form.  
+  - Technical soundness: The technical soundness is currently insufficient due to the metric inconsistency and the unsupported motif claim.  
+  - Readability for nonspecialists: The abstract is reasonably readable, but the dense method description and lack of context for the metrics may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the technical issues and unsupported claims must be resolved before the work can be considered for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that feature selection uncovers known and potentially novel ARF binding motifs is unsupported by any evidence in the abstract.
+- The reported accuracy of 93.54% is not interpretable without class balance and confusion matrix details.
+- The cross-species false positive rate exceeding 40% is reported without analysis, making the claim of "unacceptably high" difficult to evaluate in context.
+- The statement that the method "demonstrates an independent method for identification of transcription factor binding sites" is overstated given the incomplete validation.

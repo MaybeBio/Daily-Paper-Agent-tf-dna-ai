@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41502501",
+    "doi": "10.1155/genr/1174568",
+    "title": "Single-Cell Transcriptomics and Integrated Bioinformatic Analysis Reveal Critical Biomarkers and Immune Infiltration Characteristics in Osteoarthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is a complex, progressive joint disease characterized by cartilage degradation and inflammation. Traditional bulk tissue analyses have limited our understanding of the cellular diversity within OA tissues. METHODS: This study employed scRNA-seq and integrated bioinformatic analyses to investigate the cellular composition and molecular pathways involved in OA. Publicly available datasets were analyzed to identify differentially expressed genes (DEGs) and enriched pathways. The genes, such as NR4A2, BMP1, and AVPR1A, were selected for further analysis. Molecular docking studies were conducted to explore the interaction with two identified compounds. Additionally, immune infiltration characteristics were analyzed using gene set variation analysis (GSVA) and correlation with key OA-associated genes. RESULTS: We analyzed cartilage samples from OA and normal individuals (GSE220243) and identified eight distinct chondrocyte subpopulations, with significant pathway enrichment in TNF, TGF-beta, and PI3K-Akt signaling pathways. Further differential gene expression analysis of GSE114007 identified 2247 genes, including 26 key OA-associated drug targets, such as NR4A2, BMP1, and AVPR1A, which demonstrated strong diagnostic potential (AUC > 0.70) across multiple cohorts. Immune infiltration analysis revealed significant correlations between these key genes and immune cell subsets, highlighting their roles in the inflammatory microenvironment of OA. Additionally, molecular docking studies suggested that bexarotene has a favorable binding affinity for NR4A2, BMP1, and AVPR1A, making it a promising therapeutic candidate. CONCLUSION: Our findings provide new insights into the molecular landscape of OA, offering valuable biomarkers and therapeutic targets for future OA interventions.",
+    "keywords": [
+      "AVPR1A",
+      "BMP1",
+      "NR4A2",
+      "chondrocyte heterogeneity",
+      "molecular docking",
+      "osteoarthritis",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoarthritis/genetics/immunology/pathology/metabolism",
+      "Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Molecular Docking Simulation",
+      "Single-Cell Gene Expression Analysis",
+      "Single-Cell Analysis/methods",
+      "*Transcriptome/genetics",
+      "Chondrocytes/metabolism",
+      "Nuclear Receptor Subfamily 4, Group A, Member 2/genetics/metabolism",
+      "Signal Transduction",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Tiantian",
+        "Yang, Chongshan",
+        "Bi, Yikang",
+        "Zou, Pingzhou",
+        "Wan, Ma",
+        "Lan, Shenghui",
+        "Song, Yuan",
+        "Xu, Yafeng"
+      ],
+      "short_names": [
+        "Gao T",
+        "Yang C",
+        "Bi Y",
+        "Zou P",
+        "Wan M",
+        "Lan S",
+        "Song Y",
+        "Xu Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-2737-9292",
+        "ORCID: 0009-0009-8508-1420"
+      ],
+      "affiliations": [
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn.",
+        "Department of Orthopaedics, Suzhou Wujiang District Hospital of Traditional Chinese Medicine (Suzhou Wujiang District Second People's Hospital), Suzhou, 215000, Jiangsu, China.",
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn.",
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn.",
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn.",
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn.",
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn.",
+        "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+        "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Tiantian",
+        "short_name": "Gao T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Chongshan",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Suzhou Wujiang District Hospital of Traditional Chinese Medicine (Suzhou Wujiang District Second People's Hospital), Suzhou, 215000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Yikang",
+        "short_name": "Bi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zou, Pingzhou",
+        "short_name": "Zou P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wan, Ma",
+        "short_name": "Wan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lan, Shenghui",
+        "short_name": "Lan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Yuan",
+        "short_name": "Song Y",
+        "identifiers": [
+          "0009-0003-2737-9292"
+        ],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Yafeng",
+        "short_name": "Xu Y",
+        "identifiers": [
+          "0009-0009-8508-1420"
+        ],
+        "affiliations": [
+          "Department of Orthopaedics, The Eighth People's Hospital, Jiangsu University, Shanghai, 200235, China, ujs.edu.cn.",
+          "Department of Orthopaedics, Xuhui Branch of The Sixth People's Hospital, Shanghai Jiao Tong University, Shanghai, 200233, China, sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics research"
+    ],
+    "journal_abbrev": [
+      "Genet Res (Camb)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 07:13",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39110784",
+      "37853066",
+      "36249797",
+      "35860250",
+      "35806043",
+      "35529439",
+      "35165404",
+      "35083277",
+      "34145435",
+      "33169132",
+      "32483353",
+      "32466461",
+      "31469192",
+      "30910350",
+      "30582418",
+      "27899562",
+      "25953901",
+      "21684382",
+      "11752295"
+    ],
+    "similar": [
+      "41502501",
+      "40216809",
+      "42353855",
+      "39779817",
+      "42377012",
+      "36685529",
+      "42025819",
+      "39640258",
+      "42233387",
+      "41111909",
+      "41219826",
+      "41316378",
+      "42274933",
+      "42643032",
+      "40589764",
+      "41017094",
+      "42249421",
+      "41146237",
+      "41628840",
+      "42341350",
+      "42389985",
+      "42106542",
+      "39438957",
+      "42352882",
+      "42302029",
+      "39176085",
+      "41381790",
+      "42338208",
+      "39086489",
+      "42051521",
+      "42363474",
+      "42495609",
+      "41638276",
+      "41669898",
+      "39026663",
+      "41766874",
+      "42397093",
+      "40726988",
+      "40764361",
+      "41056007",
+      "42367783",
+      "42609827",
+      "38767974",
+      "41824220",
+      "40592131",
+      "41232761",
+      "40406126",
+      "42474670",
+      "39639239",
+      "34113405",
+      "41031145",
+      "40628511",
+      "42292423",
+      "40564983",
+      "41603583",
+      "39839184",
+      "42474760",
+      "41694337",
+      "40299032",
+      "41019096",
+      "41993107",
+      "41918402",
+      "41546107",
+      "39953769",
+      "41049439",
+      "41286526",
+      "41449394",
+      "34583778",
+      "41327360",
+      "38771826",
+      "39720254",
+      "39676743",
+      "42030882",
+      "35381129",
+      "42284285",
+      "41827033",
+      "38868774",
+      "40771586",
+      "39919076",
+      "42642681",
+      "41436831",
+      "42758764",
+      "40181977",
+      "41941107",
+      "39067546",
+      "41997321",
+      "40636124",
+      "40247403",
+      "38997894",
+      "34670585",
+      "41310008",
+      "42254012",
+      "38897125",
+      "41760060",
+      "30365099",
+      "39351221",
+      "42079609",
+      "39341952",
+      "39849508",
+      "42059276"
+    ],
+    "review": [
+      "41502501"
+    ],
+    "pmc": [
+      "12771611"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41502501/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/genr/1174568",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3562",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.cambridge.org/core/product/identifier/GENR1174568/type/journal_article",
+        "provider": "Cambridge University Press",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "38059150",
+    "doi": "10.2147/JIR.S439494",
+    "title": "Quercetin is a Potential Therapy for Rheumatoid Arthritis via Targeting Caspase-8 Through Ferroptosis and Pyroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is one of the most common chronic inflammatory autoimmune diseases. However, the underlying molecular mechanisms of its pathogenesis are unknown. This study aimed to identify the common biomarkers of ferroptosis and pyroptosis in RA and screen potential drugs. METHODS: The RA-related differentially expressed genes (DEGs) in GSE55235 were screened by R software and intersected with ferroptosis and pyroptosis gene libraries to obtain differentially expressed ferroptosis-related genes (DEFRGs) and differentially expressed pyroptosis-related genes (DEPRGs). We performed Gene Ontology (GO), Kyoto Encyclopedia of the Genome (KEGG), ClueGO, and Protein-Protein Interaction (PPI) analysis for DEFRGs and DEPRGs and validated them by machine learning. The microRNA/transcription factor (TF)-hub genes regulatory network was further constructed. The key gene was validated using the GSE77298 validation set, cellular validation was performed in in vitro experiments, and immune infiltration analysis was performed using CIBERSORT. Network pharmacology was used to find key gene-targeting drugs, followed by molecular docking and molecular dynamics simulations to analyze the binding stability between small-molecule drugs and large-molecule proteins. RESULTS: Three hub genes (CASP8, PTGS2, and JUN) were screened via bioinformatics, and the key gene (CASP8) was validated and obtained through the validation set, and the diagnostic efficacy was verified to be excellent through the receiver operating characteristic (ROC) curves. The ferroptosis and pyroptosis phenotypes were constructed by fibroblast-like synoviocytes (FLS), and caspase-8 was detected and validated as a common biomarker for ferroptosis and pyroptosis in RA, and quercetin can reduce caspase-8 levels. Quercetin was found to be a potential target drug for caspase-8 by network pharmacology, and the stability of their binding was further verified using molecular docking and molecular dynamics simulations. CONCLUSION: Caspase-8 is an important biomarker for ferroptosis and pyroptosis in RA, and quercetin is a potential therapy for RA via targeting caspase-8 through ferroptosis and pyroptosis.",
+    "keywords": [
+      "caspase-8",
+      "ferroptosis",
+      "pyroptosis",
+      "quercetin",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Qingcong",
+        "Wang, Du",
+        "Lin, Rongjie",
+        "Chen, Yuchao",
+        "Xu, Zixing",
+        "Xu, Weihong"
+      ],
+      "short_names": [
+        "Zheng Q",
+        "Wang D",
+        "Lin R",
+        "Chen Y",
+        "Xu Z",
+        "Xu W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6895-9993"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, The First Affiliated Hospital of Fujian Medical University, Fuzhou, People's Republic of China.",
+        "Arthritis Clinical and Research Center, Peking University People's Hospital, Beijing, People's Republic of China.",
+        "Department of Orthopedic Surgery, Fujian Medical University Union Hospital, Fuzhou, People's Republic of China.",
+        "Department of Paediatrics, Fujian Provincial Hospital South Branch, Fuzhou, People's Republic of China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Fujian Medical University, Fuzhou, People's Republic of China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Fujian Medical University, Fuzhou, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Qingcong",
+        "short_name": "Zheng Q",
+        "identifiers": [
+          "0000-0002-6895-9993"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Fujian Medical University, Fuzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Du",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Arthritis Clinical and Research Center, Peking University People's Hospital, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Rongjie",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Fujian Medical University Union Hospital, Fuzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuchao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Paediatrics, Fujian Provincial Hospital South Branch, Fuzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zixing",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Fujian Medical University, Fuzhou, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Weihong",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Fujian Medical University, Fuzhou, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/07 06:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "42662069",
+      "42653369",
+      "41965753",
+      "41820289",
+      "41476723",
+      "41088461",
+      "40830133",
+      "40416706",
+      "40343168",
+      "39712490",
+      "39381004",
+      "39379817",
+      "39125782"
+    ],
+    "refs": [
+      "37392437",
+      "37134181",
+      "36624860",
+      "36421424",
+      "36309049",
+      "36274522",
+      "36087883",
+      "35185879",
+      "35003139",
+      "34632727",
+      "34484236",
+      "34482382",
+      "34385713",
+      "34248976",
+      "34227067",
+      "33805003",
+      "33365072",
+      "33364059",
+      "33113036",
+      "33068428",
+      "32920707",
+      "32830085",
+      "32362323",
+      "32313938",
+      "32311424",
+      "32219413",
+      "32147543",
+      "31748744",
+      "31737171",
+      "31723262",
+      "31691375",
+      "31601476",
+      "31216460",
+      "30944313",
+      "30931480",
+      "30915067",
+      "30902848",
+      "30873466",
+      "30828336",
+      "30727927",
+      "30596535",
+      "30527425",
+      "30505247",
+      "30476243",
+      "29884801",
+      "29432122",
+      "29362479",
+      "29329946",
+      "29244196",
+      "29149703",
+      "28993780",
+      "28985560",
+      "28888620",
+      "28723569",
+      "28619472",
+      "28612747",
+      "28602100",
+      "28462525",
+      "28459430",
+      "28255205",
+      "28228278",
+      "27995808",
+      "27710596",
+      "27669650",
+      "27404251",
+      "27383986",
+      "27340664",
+      "27281216",
+      "26998763",
+      "26711533",
+      "26375003",
+      "26116610",
+      "26100631",
+      "25879293",
+      "25822800",
+      "25693118",
+      "25605792",
+      "25451151",
+      "25119034",
+      "25063877",
+      "24990442",
+      "24802330",
+      "24735618",
+      "24718487",
+      "24690414",
+      "24616552",
+      "24453255",
+      "23645208",
+      "23493630",
+      "22632970",
+      "22566812",
+      "22455463",
+      "22430785",
+      "21187859",
+      "20970519",
+      "20961415",
+      "20872595",
+      "20689021",
+      "20576703",
+      "20215140",
+      "20193003",
+      "19570822",
+      "19498109",
+      "19221555",
+      "18725521",
+      "17525752",
+      "15172967",
+      "14597658",
+      "11965488",
+      "11846609",
+      "10592235",
+      "7354467"
+    ],
+    "similar": [
+      "38059150",
+      "36532040",
+      "37492576",
+      "36291136",
+      "37920499",
+      "36189314",
+      "37386410",
+      "35637927",
+      "35368701",
+      "39091931",
+      "36699262",
+      "35957838",
+      "37315652",
+      "38199197",
+      "35135448",
+      "33407587",
+      "39326197",
+      "38020614",
+      "35003389",
+      "36717858",
+      "37521346",
+      "33397492",
+      "36204517",
+      "36238290",
+      "37559090",
+      "34224029",
+      "39221753",
+      "34054546",
+      "36736942",
+      "37259023",
+      "38529047",
+      "36686646",
+      "36317112",
+      "34271942",
+      "39224660",
+      "37821869",
+      "36845391",
+      "37990310",
+      "34918712",
+      "36506045",
+      "36798084",
+      "30483789",
+      "36224010",
+      "36017103",
+      "35602512",
+      "36940554",
+      "32908565",
+      "32802866",
+      "34583778",
+      "37752552",
+      "36247278",
+      "38866217",
+      "35371000",
+      "36035208",
+      "36837498",
+      "37193028",
+      "36467363",
+      "34755662",
+      "34113405",
+      "37149072",
+      "35033021",
+      "37576602",
+      "31011897",
+      "37418838",
+      "38076335",
+      "34736376",
+      "36238640",
+      "36335193",
+      "37752199",
+      "37075579",
+      "37957674",
+      "34477936",
+      "36267726",
+      "35958412",
+      "36091399",
+      "38156909",
+      "36506310",
+      "36106017",
+      "36472040",
+      "35237519",
+      "35422654",
+      "37667923",
+      "37144125",
+      "38858305",
+      "37035738",
+      "36582296",
+      "39400935",
+      "36311761",
+      "38484666",
+      "33604823",
+      "36110200",
+      "38517368",
+      "35495609",
+      "34966780",
+      "32650679",
+      "34536521",
+      "36643579",
+      "39263089",
+      "37550393",
+      "35313524",
+      "37531918",
+      "36276976",
+      "31178673",
+      "35127697",
+      "36343018",
+      "37491198",
+      "38028994",
+      "38815404",
+      "38229085",
+      "39311312",
+      "38406324",
+      "36894003",
+      "38532724",
+      "39430588",
+      "38639655",
+      "37938149",
+      "38628735",
+      "38590563",
+      "39384071",
+      "39177142",
+      "38282692",
+      "33643380",
+      "39010055"
+    ],
+    "review": [
+      "38059150"
+    ],
+    "pmc": [
+      "10697095"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/JIR.S439494?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38059150/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38059150",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S439494",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

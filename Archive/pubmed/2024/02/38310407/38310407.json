@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "38310407",
+    "doi": "10.34172/aim.2023.77",
+    "title": "Dysregulated Forkhead Box (FOX) Genes Association with Survival Prognosis, Anti-tumor Immunity, and Key Targeting Drugs in Colon Adenocarcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Several studies have revealed that the aberrant expressions of forkhead box (FOX) genes are associated with carcinogenesis. However, the crucial biological functions of the FOX gene in colon adenocarcinoma (COAD) remain unknown. METHODS: The TCGA-COAD dataset (n=328) was utilized for determining the deregulated FOX genes and their association with functional enrichment, protein-protein interaction (PPI), survival prognosis, anti-tumor immunity, cancer-associated pathways, and biological processes in COAD. In addition, we used GSE166427 (GPL13667) as a validation cohort (n=196). Molecular docking studies were applied to perform the drug interactions. RESULTS: The FOX genes are deregulated in the COAD (Log(2) FC>0.50, P<0.05), and the PPI network of FOX members is substantially related to the enrichment of cancerous signaling, immune responses, and cellular development (FDR<0.05). A worse prognosis for overall survival in COAD individuals is connected with the subgroup of FOX transcripts (P</=0.05). FOXD4, FOXH1, and FOXS1 were identified as predictive variables in the univariate and multivariate Cox regression models (P</=0.05). FOXH1 and FOXS1 are substantially linked to the deregulated immunity in COAD (R>0.20, P<0.01). Furthermore, FOXS1 expression regulates cancer-associated pathways and biological processes (P<0.05). Moreover, FOXD4, FOXH1, and FOXS1 are genetically altered and showed diagnostic efficacy in COAD. We revealed that FOXD4, FOXH1, and FOXS1 are consistently deregulated in GSE166427 (P<0.05). Finally, molecular docking revealed that FOXH1 interacted with various drugs, including belinostat, entinostat, and panobinostat. CONCLUSION: The FOX genes have a strong correlation with the poor prognosis for survival, tumor immunity, cancer-associated pathways, and biochemical processes that cause the pathogenesis of COAD.",
+    "keywords": [
+      "Cancer-associated pathways",
+      "Colon adenocarcinoma",
+      "FOX genes",
+      "Immune responses",
+      "Molecular docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colonic Neoplasms/drug therapy/genetics",
+      "*Adenocarcinoma/drug therapy/genetics",
+      "Molecular Docking Simulation",
+      "Prognosis",
+      "Carcinogenesis",
+      "Forkhead Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Qian",
+        "Wang, Jie",
+        "Peng, Xingchen"
+      ],
+      "short_names": [
+        "Xie Q",
+        "Wang J",
+        "Peng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7042-718X"
+      ],
+      "affiliations": [
+        "International Medical Center/Ward of General Practice, West China Hospital, Sichuan University, Chengdu, 610000, China.",
+        "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, Urumqi, 830011, China.",
+        "Department of Biotherapy, Cancer Center, West China Hospital, Sichuan University, Chengdu, 610000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Qian",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "International Medical Center/Ward of General Practice, West China Hospital, Sichuan University, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Xinjiang Medical University, Urumqi, 830011, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xingchen",
+        "short_name": "Peng X",
+        "identifiers": [
+          "0000-0001-7042-718X"
+        ],
+        "affiliations": [
+          "Department of Biotherapy, Cancer Center, West China Hospital, Sichuan University, Chengdu, 610000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of Iranian medicine"
+    ],
+    "journal_abbrev": [
+      "Arch Iran Med"
+    ],
+    "pub_date": "2023 Sep 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/04 12:42",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "39494294"
+    ],
+    "refs": [
+      "34772357",
+      "34446712",
+      "34419169",
+      "34090445",
+      "33781288",
+      "33538338",
+      "33166593",
+      "33165349",
+      "32849517",
+      "32488852",
+      "32393998",
+      "31839882",
+      "31756952",
+      "31691815",
+      "31208913",
+      "31186640",
+      "30918291",
+      "30894509",
+      "30621735",
+      "30476243",
+      "30360388",
+      "30356407",
+      "30252597",
+      "30249755",
+      "30171256",
+      "29896233",
+      "29887965",
+      "29413765",
+      "29402795",
+      "29309928",
+      "29303511",
+      "29141660",
+      "28808415",
+      "28769576",
+      "28721076",
+      "28559972",
+      "28104840",
+      "27926503",
+      "27124452",
+      "26543385",
+      "26142732",
+      "25950236",
+      "25605792",
+      "25401090",
+      "24265556",
+      "24113773",
+      "23792361",
+      "23725674",
+      "23323831",
+      "23022474",
+      "22761930",
+      "22326401",
+      "22207629",
+      "21414208",
+      "20717991",
+      "20650821",
+      "20498631",
+      "17311363",
+      "16199517",
+      "15846061",
+      "15719167",
+      "14597658"
+    ],
+    "similar": [
+      "38310407",
+      "36451813",
+      "39850875",
+      "35634680",
+      "38179743",
+      "32788867",
+      "39465850",
+      "33165349",
+      "38143338",
+      "38143740",
+      "40976735",
+      "40211224",
+      "35116071",
+      "34367132",
+      "33940186",
+      "38238555",
+      "36949947",
+      "38867070",
+      "34644216",
+      "38742936",
+      "39826064",
+      "40230854",
+      "34948431",
+      "31709538",
+      "37316691",
+      "39548564",
+      "40093647",
+      "36173462",
+      "40608130",
+      "36273131",
+      "37650153",
+      "30269368",
+      "38411939",
+      "35501725",
+      "37626132",
+      "37961859",
+      "31322253",
+      "35872794",
+      "33437203",
+      "32727450",
+      "32522293",
+      "33140821",
+      "35794546",
+      "37973153",
+      "35392038",
+      "39377410",
+      "32744303",
+      "40696372",
+      "37933647",
+      "40680042",
+      "41074114",
+      "36081904",
+      "36518255",
+      "38287836",
+      "32748741",
+      "35264195",
+      "35707003",
+      "39333335",
+      "33167940",
+      "37805556",
+      "32159255",
+      "32640984",
+      "36910014",
+      "40377809",
+      "35712285",
+      "36799193",
+      "30918291",
+      "36258178",
+      "40032914",
+      "41006689",
+      "37975370",
+      "35462848",
+      "40611940",
+      "37207222",
+      "33909599",
+      "35912258",
+      "38025763",
+      "35047006",
+      "36307192",
+      "37589877",
+      "36177002",
+      "35257416",
+      "39402288",
+      "36366731",
+      "38501104",
+      "40345006",
+      "37318704",
+      "34564978",
+      "37181811",
+      "37274780",
+      "32983993",
+      "36304472",
+      "37724904",
+      "33161410",
+      "35255005",
+      "38031087",
+      "39087856",
+      "32600423",
+      "39924497",
+      "36407085"
+    ],
+    "review": [
+      "38310407"
+    ],
+    "pmc": [
+      "10862056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.34172/aim.2023.77",
+        "provider": "Academy Of Medical Sciences of I.R. of Iran",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38310407/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38310407",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

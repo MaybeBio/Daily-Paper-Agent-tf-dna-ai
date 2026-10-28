@@ -1,0 +1,543 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.07.544098",
+  "title": "Calling Cards: a customizable platform to longitudinally record protein-DNA interactions over time in cells and tissues",
+  "doi": "10.1101/2023.06.07.544098",
+  "abstract": "Calling Cards is a platform technology to record a cumulative history of transient protein-DNA interactions in the genome of genetically targeted cell types. The record of these interactions is recovered by next generation sequencing. Compared to other genomic assays, whose readout provides a snapshot at the time of harvest, Calling Cards enables correlation of historical molecular states to eventual outcomes or phenotypes. To achieve this, Calling Cards uses the piggyBac transposase to insert self-reporting transposon (SRT) “Calling Cards” into the genome, leaving permanent marks at interaction sites. Calling Cards can be deployed in a variety of in vitro and in vivo biological systems to study gene regulatory networks involved in development, aging, and disease. Out of the box, it assesses enhancer usage but can be adapted to profile specific transcription factor binding with custom transcription factor (TF)-piggyBac fusion proteins. The Calling Cards workflow has five main stages: delivery of Calling Card reagents, sample preparation, library preparation, sequencing, and data analysis. Here, we first present a comprehensive guide for experimental design, reagent selection, and optional customization of the platform to study additional TFs. Then, we provide an updated protocol for the five steps, using reagents that improve throughput and decrease costs, including an overview of a newly deployed computational pipeline. This protocol is designed for users with basic molecular biology experience to process samples into sequencing libraries in 1-2 days. Familiarity with bioinformatic analysis and command line tools is required to set up the pipeline in a high-performance computing environment and to conduct downstream analyses. Basic Protocol 1: Preparation and delivery of Calling Cards reagents Basic Protocol 2: Sample preparation Basic Protocol 3: Sequencing library preparation Basic Protocol 4: Library pooling and sequencing Basic Protocol 5: Data analysis",
+  "authors": [
+    "Allen Yen",
+    "Chase Mateusiak",
+    "Simona Sarafinovska",
+    "Mariam A. Gachechiladze",
+    "Juanru Guo",
+    "Xuhua Chen",
+    "Arnav Moudgil",
+    "Alexander J. Cammack",
+    "Jessica Hoisington-Lopez",
+    "MariaLynn Crosby",
+    "Michael R. Brent",
+    "Robi D. Mitra",
+    "Joseph D. Dougherty"
+  ],
+  "published_date": "2023-06-09",
+  "updated_date": "2023-06-09T23:55:28Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544098",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544098.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:35:07Z",
+        "timestamp": 1768505707927,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            9
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 32,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Calling Cards is a platform technology to record a cumulative history of transient protein-DNA interactions in the genome of genetically targeted cell types. The record of these interactions is recovered by next generation sequencing. Compared to other genomic assays, whose readout provides a snapshot at the time of harvest, Calling Cards enables correlation of historical molecular states to eventual outcomes or phenotypes. To achieve this, Calling Cards uses the piggyBac transposase to insert self-reporting transposon (SRT) “Calling Cards” into the genome, leaving permanent marks at interaction sites. Calling Cards can be deployed in a variety of\n                  <jats:italic>in vitro</jats:italic>\n                  and\n                  <jats:italic>in vivo</jats:italic>\n                  biological systems to study gene regulatory networks involved in development, aging, and disease. Out of the box, it assesses enhancer usage but can be adapted to profile specific transcription factor binding with custom transcription factor (TF)-piggyBac fusion proteins. The Calling Cards workflow has five main stages: delivery of Calling Card reagents, sample preparation, library preparation, sequencing, and data analysis. Here, we first present a comprehensive guide for experimental design, reagent selection, and optional customization of the platform to study additional TFs. Then, we provide an updated protocol for the five steps, using reagents that improve throughput and decrease costs, including an overview of a newly deployed computational pipeline. This protocol is designed for users with basic molecular biology experience to process samples into sequencing libraries in 1-2 days. Familiarity with bioinformatic analysis and command line tools is required to set up the pipeline in a high-performance computing environment and to conduct downstream analyses.\n                </jats:p>\n                <jats:p>\n                  <jats:list list-type=\"simple\">\n                    <jats:list-item>\n                      <jats:p>Basic Protocol 1: Preparation and delivery of Calling Cards reagents</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Basic Protocol 2: Sample preparation</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Basic Protocol 3: Sequencing library preparation</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Basic Protocol 4: Library pooling and sequencing</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Basic Protocol 5: Data analysis</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:p>",
+      "DOI": "10.1101/2023.06.07.544098",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2023-06-09T23:55:28Z",
+        "timestamp": 1686354928000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Calling Cards: a customizable platform to longitudinally record protein-DNA interactions over time in cells and tissues"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3984-541X",
+          "authenticated-orcid": false,
+          "given": "Allen",
+          "family": "Yen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2890-4242",
+          "authenticated-orcid": false,
+          "given": "Chase",
+          "family": "Mateusiak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1456-7556",
+          "authenticated-orcid": false,
+          "given": "Simona",
+          "family": "Sarafinovska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mariam A.",
+          "family": "Gachechiladze",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Juanru",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xuhua",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0544-3463",
+          "authenticated-orcid": false,
+          "given": "Arnav",
+          "family": "Moudgil",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9624-9067",
+          "authenticated-orcid": false,
+          "given": "Alexander J.",
+          "family": "Cammack",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jessica",
+          "family": "Hoisington-Lopez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3883-3609",
+          "authenticated-orcid": false,
+          "given": "MariaLynn",
+          "family": "Crosby",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8689-0299",
+          "authenticated-orcid": false,
+          "given": "Michael R.",
+          "family": "Brent",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2680-4264",
+          "authenticated-orcid": false,
+          "given": "Robi D.",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Joseph D.",
+          "family": "Dougherty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2121-9-2"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giab007"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1918241117"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1038/s41596-018-0097-3",
+          "article-title": "Systemic AAV vectors for widespread and targeted gene delivery in rodents",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1146/annurev-genom-091416-035537",
+          "article-title": "Gene Regulatory Elements, Major Drivers of Human Disease",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "Annual Review of Genomics and Human Genetics"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-020-0435-1"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1282",
+          "DOI": "10.1038/nprot.2014.085",
+          "article-title": "Cell type–specific mRNA purification by translating ribosome affinity purification (TRAP)",
+          "volume": "9",
+          "year": "2014",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2017148118"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr771"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "lqac061",
+          "DOI": "10.1093/nargab/lqac061",
+          "article-title": "Measuring transcription factor binding and gene expression using barcoded self-reporting transposon calling cards and transcriptomes",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "NAR Genomics and Bioinformatics"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.02.014"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz348"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/19.20.5755"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Moudgil, A. , Li, D. , Hsu, S. , Purushotham, D. , and Wang, T . 2020a. The qBED track: a novel genome browser visualization for point processes. Bioinformatics:3.",
+          "DOI": "10.1101/2020.04.27.060061"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.05.027"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/CJI.0b013e3181ad762b"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1038/nprot.2014.006",
+          "article-title": "Full-length RNA-seq from single cells using Smart-seq2",
+          "volume": "9",
+          "year": "2014",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1467",
+          "DOI": "10.1038/nprot.2007.148",
+          "article-title": "Detection of in vivo protein–DNA interactions using DamID in mammalian cells",
+          "volume": "2",
+          "year": "2007",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1569",
+          "DOI": "10.1038/nprot.2008.148",
+          "article-title": "“Calling Cards” method for high-throughput identification of targets of yeast DNA-binding proteins",
+          "volume": "3",
+          "year": "2008",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.6510207"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.111.137315"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jcmm.13216"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0606979103"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/mt.2009.255"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1186/s12920-018-0424-0",
+          "article-title": "Transposase mapping identifies the genomic targets of BAP1 in uveal melanoma",
+          "volume": "11",
+          "year": "2018",
+          "journal-title": "BMC Medical Genomics"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "43613",
+          "DOI": "10.1038/srep43613",
+          "article-title": "Chromatin states shape insertion profiles of the piggyBac, Tol2 and Sleeping Beauty transposons and murine leukemia virus",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1008322108"
+        },
+        {
+          "key": "2023061406450859000_2023.06.07.544098v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.07.544098",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:46:12Z",
+        "timestamp": 1768452372000
+      },
+      "score": 57.65638,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.07.544098"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            9
+          ]
+        ]
+      },
+      "references-count": 32,
+      "URL": "https://doi.org/10.1101/2023.06.07.544098",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1002/cpz1.883",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

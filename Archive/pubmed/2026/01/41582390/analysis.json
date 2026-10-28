@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41582390",
+  "title": "Analysis of the Relationship Between Early Estrogen Response and Cryptorchidism.",
+  "authors": "Miao, Dashuai; Sun, Yifang; Yu, Xiang; Feng, Suyin; Zhu, Long; Tong, Xiao; Ge, Wenliang; Li, Hua",
+  "journal": "Endocrine, metabolic & immune disorders drug targets",
+  "published_date": "2026-01-26",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该文基于GEO数据用WGCNA、LASSO等分析隐睾症中早期雌激素反应相关基因并预测转录因子SPI1调控网络，但仅涉及TF结合位点预测的浅层应用，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题核心关联弱。",
+  "abstract": "INTRODUCTION: Cryptorchidism, a common congenital malformation in male newborns due to abnormal testicular descent, is closely linked to male infertility and germ cell tumors. The study suggested that estrogen response contributes to its occurrence. METHODS: Data were collected from Gene Expression Omnibus (GEO). Enrichment scores were calculated by single-sample gene set enrichment analysis (GSEA), while pathway analysis was performed using GSEA. Key modules were identified through weighted gene co-expression network analysis (WGCNA), followed by the screening of differentially expressed genes (DEGs) using the limma package. The intersection genes were further screened by LASSO and Support Vector Machine-Recursive Feature Elimination (SVM-RFE). Potential transcription factors (TFs) were predicted using hTFtarget, and related microRNAs were analyzed using the Encori database. The TF regulatory network was visualized using Cytoscape 3.8.0. RESULTS: Patients with cryptorchidism exhibited significantly higher early estrogen response scores compared to controls, with a notable enrichment of the early estrogen response pathway. This study identified 2 biomarkers, PRR15 and SRPX, which were both regulated by the TF SPI1. PRR15 gene expression was significantly related to early estrogen response. Additionally, these two biomarkers were primarily involved in cell division pathways; in particular, PRR15 was closely linked to progesterone-mediated oocyte maturation. DISCUSSION: PRR15 and SRPX, which SPI1 potentially regulated, were identified as genes associated with early estrogen response in cryptorchidism and were enriched in estrogen-related and cell division pathways. CONCLUSION: This study provided translational insights, enhancing the current understanding of testicular pathogenesis and contributing to the diagnosis and treatment of cryptorchidism.",
+  "abstract_zh": "引言：隐睾（cryptorchidism）是男性新生儿中因睾丸下降异常而常见的先天性畸形，与男性不育和生殖细胞肿瘤密切相关。研究表明，雌激素反应在其发生中起作用。方法：数据来源于基因表达综合数据库（Gene Expression Omnibus, GEO）。通过单样本基因集富集分析（single-sample gene set enrichment analysis, GSEA）计算富集分数，并使用GSEA进行通路分析。通过加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）识别关键模块，随后使用limma包筛选差异表达基因（differentially expressed genes, DEGs）。交集基因进一步通过LASSO和支持向量机递归特征消除（Support Vector Machine-Recursive Feature Elimination, SVM-RFE）筛选。使用hTFtarget预测潜在转录因子（transcription factors, TFs），并使用Encori数据库分析相关microRNA。TF调控网络使用Cytoscape 3.8.0可视化。结果：隐睾患者的早期雌激素反应分数显著高于对照组，且早期雌激素反应通路显著富集。本研究识别出2个生物标志物PRR15和SRPX，两者均受TF SPI1调控。PRR15基因表达与早期雌激素反应显著相关。此外，这两个生物标志物主要参与细胞分裂通路；特别是PRR15与孕酮介导的卵母细胞成熟密切相关。讨论：PRR15和SRPX（可能受SPI1调控）被识别为隐睾中与早期雌激素反应相关的基因，并富集于雌激素相关和细胞分裂通路。结论：本研究提供了转化性见解，增强了对睾丸发病机制的理解，并有助于隐睾的诊断和治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41582390/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41582390/",
+  "paper_page_path": "papers/pubmed/41582390/index.html"
+}

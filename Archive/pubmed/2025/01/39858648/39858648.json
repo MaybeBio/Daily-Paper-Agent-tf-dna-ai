@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "39858648",
+    "doi": "10.3390/genes16010101",
+    "title": "Further Development of SAMPDI-3D: A Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA."
+  },
+  "content": {
+    "abstract": "BACKGROUND/OBJECTIVES: Predicting the effects of protein and DNA mutations on the binding free energy of protein-DNA complexes is crucial for understanding how DNA variants impact wild-type cellular function. As many cellular interactions involve protein-DNA binding, accurately predicting changes in binding free energy (DeltaDeltaG) is valuable for distinguishing pathogenic mutations from benign ones. METHODS: This study describes the development and optimization of the SAMPDI-3Dv2 machine learning method, which is trained on an expanded database of experimentally measured DeltaDeltaGs. This enhanced model incorporates new features, including the 3D structure of the mutant protein, features of the mutant structure, and a position-specific scoring matrix (PSSM). Benchmarking was conducted using 5-fold cross-validation. RESULTS: The updated SAMPDI-3D model (SAMPDI-3Dv2) achieved Pearson correlation coefficients (PCCs) of 0.68 for protein and 0.80 for DNA mutations. These results represent significant improvements over existing tools. Additionally, the method's rapid execution time enables genome-scale predictions. CONCLUSIONS: The improved SAMPDI-3Dv2 shows enhanced predictive performance for analyzing mutations in protein-DNA complexes. By leveraging structural information and an expanded training dataset, SAMPDI-3Dv2 provides researchers with a more accurate and efficient tool for mutation analysis, contributing to identifying pathogenic variants and improving our understanding of cellular function.",
+    "keywords": [
+      "DNA mutations",
+      "binding free energy",
+      "database of binding free energy changes",
+      "machine learning",
+      "protein mutations",
+      "protein-DNA binding"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Mutation",
+      "*DNA/genetics/chemistry/metabolism",
+      "Humans",
+      "Protein Binding",
+      "Thermodynamics",
+      "*DNA-Binding Proteins/genetics/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rimal, Prawin",
+        "Paul, Shamrat Kumar",
+        "Panday, Shailesh Kumar",
+        "Alexov, Emil"
+      ],
+      "short_names": [
+        "Rimal P",
+        "Paul SK",
+        "Panday SK",
+        "Alexov E"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-6628-5890",
+        "ORCID: 0000-0001-8673-3771",
+        "ORCID: 0000-0003-3099-8679",
+        "ORCID: 0000-0001-5346-0156"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rimal, Prawin",
+        "short_name": "Rimal P",
+        "identifiers": [
+          "0009-0009-6628-5890"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Paul, Shamrat Kumar",
+        "short_name": "Paul SK",
+        "identifiers": [
+          "0000-0001-8673-3771"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Panday, Shailesh Kumar",
+        "short_name": "Panday SK",
+        "identifiers": [
+          "0000-0003-3099-8679"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Alexov, Emil",
+        "short_name": "Alexov E",
+        "identifiers": [
+          "0000-0001-5346-0156"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, College of Science, Clemson University, Clemson, SC 29634, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2025 Jan 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/25 13:52",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "42666980",
+      "41918630"
+    ],
+    "refs": [
+      "39432785",
+      "39402041",
+      "39256728",
+      "38627399",
+      "37569449",
+      "37384816",
+      "36965249",
+      "35776646",
+      "35140242",
+      "34805992",
+      "34606614",
+      "34343273",
+      "32866236",
+      "32738045",
+      "32606003",
+      "30705752",
+      "30533007",
+      "30461222",
+      "29688380",
+      "29610332",
+      "29091991",
+      "28383703",
+      "26184874",
+      "25951336",
+      "25352545",
+      "22505627",
+      "21988835",
+      "21645855",
+      "21606332",
+      "21267410",
+      "19603484",
+      "19265799",
+      "18228446",
+      "17703195",
+      "17379688",
+      "16888363",
+      "16209650",
+      "15264254",
+      "15254542",
+      "15189136",
+      "14872534",
+      "11724731",
+      "11551873",
+      "11452024",
+      "6667333",
+      "6275366",
+      "6269071",
+      "3658336",
+      "1822790"
+    ],
+    "similar": [
+      "39858648",
+      "34343273",
+      "29091991",
+      "39240325",
+      "32272725",
+      "28383703",
+      "30417935",
+      "31123959",
+      "27077847",
+      "32866236",
+      "38032742",
+      "38491248",
+      "38587997",
+      "30533007",
+      "31693276",
+      "26196228",
+      "39847079",
+      "29125747",
+      "25708928",
+      "32591817",
+      "33435356",
+      "34750410",
+      "30598073",
+      "14529266",
+      "34126874",
+      "28851273",
+      "29725908",
+      "22574904",
+      "32938375",
+      "38396641",
+      "39498560",
+      "30957840",
+      "37316673",
+      "39386633",
+      "39264222",
+      "40314982",
+      "39256728",
+      "11913374",
+      "40146191",
+      "37060772",
+      "40119464",
+      "38458968",
+      "38018912",
+      "38747369",
+      "28155662",
+      "38295475",
+      "40143108",
+      "35943134",
+      "29906639",
+      "21342579",
+      "11917017",
+      "36266243",
+      "24475169",
+      "35447463",
+      "34962874",
+      "28132027",
+      "26527718",
+      "12945047",
+      "23703214",
+      "34415020",
+      "37569449",
+      "27964946",
+      "33253214",
+      "30020414",
+      "25258310",
+      "26473627",
+      "39660955",
+      "24448651",
+      "17900341",
+      "38927611",
+      "23335013",
+      "24340062",
+      "11800559",
+      "21889450",
+      "31992738",
+      "38883239",
+      "30668479",
+      "37166179",
+      "25724101",
+      "36685278",
+      "20706794",
+      "35242211",
+      "11563911",
+      "31216622",
+      "34389843",
+      "29608705",
+      "35676617",
+      "38783112",
+      "25113160",
+      "19878545",
+      "18801847",
+      "35969673",
+      "40013003",
+      "29753757",
+      "19439068",
+      "10656266",
+      "22110706",
+      "39596413",
+      "35662456",
+      "28155654"
+    ],
+    "review": [
+      "39858648",
+      "40013003"
+    ],
+    "pmc": [
+      "11764785"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes16010101",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39858648/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

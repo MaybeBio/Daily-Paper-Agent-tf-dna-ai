@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "40580873",
+    "doi": "10.1016/j.tranon.2025.102457",
+    "title": "Identification and validation of synergistic drug strategies targeting macrophage polarization in triple-negative breast cancer via single-cell transcriptomics and deep learning."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) presents therapeutic challenges due to its immunosuppressive tumor microenvironment (TME) and limited targeted options. Analyzing scRNA-seq data from 24 TNBC patients using integrated transcriptomics, machine-learning, and pseudo-time trajectory mapping, we developed a macrophage differentiation-based classifier (MMDCSS) (CD93, CHI3L1, ZBTB20) with remarkable prognostic accuracy (C-index: 0.929, 3-year AUC: 0.907). Computational pharmacology identified finasteride as a ZBTB20 modulator (binding energy:7.7 kcal/mol) capable of reversing tumor-induced M2 macrophage polarization. Finasteride significantly enhanced doxorubicin efficacy ex vivo and in vivo by reprogramming the TME, reducing M2 macrophage infiltration while promoting an M1 phenotype. Mechanistically, finasteride upregulated ZBTB20, counteracting TNBC-mediated suppression of this M1-associated transcription factor. Our findings establish ZBTB20 as a key regulator of macrophage polarization in TNBC and introduce finasteride as a clinically viable agent to reverse TME immunosuppression. Targeting macrophage polarization via ZBTB20 modulation, particularly by repurposing finasteride, offers a promising therapeutic strategy for TNBC with immediate translational potential.",
+    "keywords": [
+      "Combination therapy",
+      "Macrophage polarization",
+      "Triple-negative breast cancer",
+      "Tumor microenvironment",
+      "ZBTB20"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qi, Qi",
+        "Yang, Wenhao",
+        "Li, Liang",
+        "Tang, Yuheng",
+        "Chen, Yongzhi",
+        "Wang, Hui",
+        "Yingjie, Sun",
+        "Shi, Jialin",
+        "Gul, Samina",
+        "Tang, Wenru",
+        "Pang, Jianyu",
+        "Xie, Xiaoli"
+      ],
+      "short_names": [
+        "Qi Q",
+        "Yang W",
+        "Li L",
+        "Tang Y",
+        "Chen Y",
+        "Wang H",
+        "Yingjie S",
+        "Shi J",
+        "Gul S",
+        "Tang W",
+        "Pang J",
+        "Xie X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China. Electronic address: 20080059@kust.edu.cn.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China. Electronic address: jianyu_0898@163.com.",
+        "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China. Electronic address: XiaoXie@kust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qi, Qi",
+        "short_name": "Qi Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wenhao",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liang",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yuheng",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongzhi",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Yingjie, Sun",
+        "short_name": "Yingjie S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jialin",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Gul, Samina",
+        "short_name": "Gul S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Wenru",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China. Electronic address: 20080059@kust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Pang, Jianyu",
+        "short_name": "Pang J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China. Electronic address: jianyu_0898@163.com."
+        ]
+      },
+      {
+        "full_name": "Xie, Xiaoli",
+        "short_name": "Xie X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Genetics of Aging & Tumor, Medicine School, Kunming University of Science and Technology, China. Electronic address: XiaoXie@kust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational oncology"
+    ],
+    "journal_abbrev": [
+      "Transl Oncol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 04:47",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40380196",
+      "40092996",
+      "39409110",
+      "38863622",
+      "38397429",
+      "38343537",
+      "38179655",
+      "37566049",
+      "37213285",
+      "37190321",
+      "37190133",
+      "37004014",
+      "36982351",
+      "36961390",
+      "36924769",
+      "36915811",
+      "36526955",
+      "36408920",
+      "36305812",
+      "36300619",
+      "36059151",
+      "35352511",
+      "35237507",
+      "34557778",
+      "34289846",
+      "34062119",
+      "33608497",
+      "33372884",
+      "33224886",
+      "33068428",
+      "31767055",
+      "31740819",
+      "31300030",
+      "31024627",
+      "30643263",
+      "29253077",
+      "28825705",
+      "26989862",
+      "25605792",
+      "25579518",
+      "25035950",
+      "24658644",
+      "21965334",
+      "20856220",
+      "19596646",
+      "19399780",
+      "12933821",
+      "9244440",
+      "3042244",
+      "361905"
+    ],
+    "similar": [
+      "40580873",
+      "37925462",
+      "41039618",
+      "39428479",
+      "39776914",
+      "39472679",
+      "40438115",
+      "40783744",
+      "39834541",
+      "38611749",
+      "40830812",
+      "30885232",
+      "40145099",
+      "33716082",
+      "36109724",
+      "41014880",
+      "40834701",
+      "37233869",
+      "39272209",
+      "35960749",
+      "39566403",
+      "37512096",
+      "39303510",
+      "41403016",
+      "32451413",
+      "41038302",
+      "35844580",
+      "38123542",
+      "38787620",
+      "36650292",
+      "39197215",
+      "39927118",
+      "41020311",
+      "37236576",
+      "40160820",
+      "39910592",
+      "39222611",
+      "40684936",
+      "38169627",
+      "40516902",
+      "40360897",
+      "40056273",
+      "40119517",
+      "35017469",
+      "36915811",
+      "40892920",
+      "39622130",
+      "39448199",
+      "40517736",
+      "41175579",
+      "33587979",
+      "41344046",
+      "40461859",
+      "38470169",
+      "40589755",
+      "41319154",
+      "40507854",
+      "41254706",
+      "40553966",
+      "41451212",
+      "38630910",
+      "41131865",
+      "40826412",
+      "40329335",
+      "41029711",
+      "38851884",
+      "33753567",
+      "40382513",
+      "38378361",
+      "38847148",
+      "40183881",
+      "41429609",
+      "36225561",
+      "41293150",
+      "39214650",
+      "39884998",
+      "41294154",
+      "28670313",
+      "37879580",
+      "40860140",
+      "37838657",
+      "40971094",
+      "37686305",
+      "40280564",
+      "41399382",
+      "40648713",
+      "33495298",
+      "37237244",
+      "40818872",
+      "38435998",
+      "41088408",
+      "40330466",
+      "39450881",
+      "32681241",
+      "38287113",
+      "33916440",
+      "36531051",
+      "40050043",
+      "41077583",
+      "41246334"
+    ],
+    "review": [
+      "40580873",
+      "41403016",
+      "40516902",
+      "41254706",
+      "40183881"
+    ],
+    "pmc": [
+      "12268103"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1936-5233(25)00188-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40580873/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3563",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1936-5233(25)00188-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

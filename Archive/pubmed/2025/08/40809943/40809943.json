@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40809943",
+    "doi": "10.1093/narcan/zcaf025",
+    "title": "Automated machine learning profiling with MAP-HR for quantifying homologous recombination foci in patient samples."
+  },
+  "content": {
+    "abstract": "Accurate visualization and quantification of homologous recombination (HR)-associated foci in readily available patient samples are critical for identifying patients with HR deficiency (HRD) when they present for care to guide polyADP ribose polymerase (PARP) inhibitors (PARPi) or platinum-based therapies. Immunofluorescence (IF) assays have the potential to accurately visualize DNA repair processes as punctate foci within the nucleus. To ensure precise HRD assessment, we developed MAP-HR, (Machine-learning Assisted Profiling of Homologous Recombination), a scalable machine-learning (ML) analysis platform to enable effective patient triage and therapeutic decision-making. This workflow integrates high-resolution four-channel IF imaging and automated analysis of Geminin (cell cycle states), RAD51 foci (HR repair), gammaH2AX foci (double strand breaks) and DAPI (nuclear localization) in both cultured cell lines and in a single formalin-fixed, paraffin-embedded (FFPE) patient samples. Using a spinning disk confocal microscope, we optimized imaging parameters to improve resolution and signal-to-noise ratio. Our MAP-HR pipeline uses nested nuclei and segmentation of foci to analyze the HR status of each cell, unlike competing bulk or single-foci marker assays, allowing evaluation of HR functional heterogeneity across and within patient biopsies. This approach facilitates robust comparisons of HR and foci-based processes across diverse cell populations and patient tissues, enabling scalable, translational research.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Homologous Recombination",
+      "Rad51 Recombinase/genetics/metabolism",
+      "Histones/metabolism",
+      "DNA Breaks, Double-Stranded",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ozmen, Tugba Y",
+        "Rames, Matthew J",
+        "Zangirolani, Gabriel M",
+        "Ozmen, Furkan",
+        "Jeong, Kangjin",
+        "Frankston, Connor",
+        "Mills, Gordon B"
+      ],
+      "short_names": [
+        "Ozmen TY",
+        "Rames MJ",
+        "Zangirolani GM",
+        "Ozmen F",
+        "Jeong K",
+        "Frankston C",
+        "Mills GB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0144-9614"
+      ],
+      "affiliations": [
+        "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States.",
+        "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States.",
+        "Knight Diagnostic Laboratories, Oregon Health & Science University, Portland, OR 97201, United States.",
+        "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States.",
+        "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States.",
+        "Cancer Early Detection Advanced Research (CEDAR), Oregon Health & Science University, Portland, OR 97201, United States.",
+        "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ozmen, Tugba Y",
+        "short_name": "Ozmen TY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      },
+      {
+        "full_name": "Rames, Matthew J",
+        "short_name": "Rames MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      },
+      {
+        "full_name": "Zangirolani, Gabriel M",
+        "short_name": "Zangirolani GM",
+        "identifiers": [],
+        "affiliations": [
+          "Knight Diagnostic Laboratories, Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      },
+      {
+        "full_name": "Ozmen, Furkan",
+        "short_name": "Ozmen F",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      },
+      {
+        "full_name": "Jeong, Kangjin",
+        "short_name": "Jeong K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      },
+      {
+        "full_name": "Frankston, Connor",
+        "short_name": "Frankston C",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Early Detection Advanced Research (CEDAR), Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      },
+      {
+        "full_name": "Mills, Gordon B",
+        "short_name": "Mills GB",
+        "identifiers": [
+          "0000-0002-0144-9614"
+        ],
+        "affiliations": [
+          "Division of Oncological Sciences Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97201, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR cancer"
+    ],
+    "journal_abbrev": [
+      "NAR Cancer"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/14 12:24",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "41716447"
+    ],
+    "refs": [
+      "40127955",
+      "39755818",
+      "39503786",
+      "39085400",
+      "39007266",
+      "38789420",
+      "38544832",
+      "38521768",
+      "38507894",
+      "38320550",
+      "38288862",
+      "38142595",
+      "37833912",
+      "37808268",
+      "37509303",
+      "37097615",
+      "37057596",
+      "36805632",
+      "35819255",
+      "35393543",
+      "35318271",
+      "35260639",
+      "35063094",
+      "35042474",
+      "34203855",
+      "33318659",
+      "33224481",
+      "33166005",
+      "31992200",
+      "31876974",
+      "30377213",
+      "29533782",
+      "29121337",
+      "28477336",
+      "28369169",
+      "28094292",
+      "26615718",
+      "26589438",
+      "26290880",
+      "22743772",
+      "20513764",
+      "19564400"
+    ],
+    "similar": [
+      "40809943",
+      "33138032",
+      "39863011",
+      "31492187",
+      "26198537",
+      "37725154",
+      "32967790",
+      "41417832",
+      "34732853",
+      "35425960",
+      "25388513",
+      "24033642",
+      "42116764",
+      "40934926",
+      "29156644",
+      "36868112",
+      "30413523",
+      "31992200",
+      "38461549",
+      "34913794",
+      "24231389",
+      "24625059",
+      "12930944",
+      "40392598",
+      "22751442",
+      "42404891",
+      "39844055",
+      "23874869",
+      "20371688",
+      "36805632",
+      "36941773",
+      "25127709",
+      "36361678",
+      "39732958",
+      "39878284",
+      "33707212",
+      "34520831",
+      "27084940",
+      "38403248",
+      "36012445",
+      "39672008",
+      "18402694",
+      "22274865",
+      "37370140",
+      "36812659",
+      "30951682",
+      "35279473",
+      "37097615",
+      "28768872",
+      "28002809",
+      "18042714",
+      "31948066",
+      "27590262",
+      "42351273",
+      "30024881",
+      "35148356",
+      "31821952",
+      "38989145",
+      "34819065",
+      "34203855",
+      "39273031",
+      "27449664",
+      "21857991",
+      "26336991",
+      "41387887",
+      "29112893",
+      "29635390",
+      "20233726",
+      "24658350",
+      "37504067",
+      "38630886",
+      "30822309",
+      "41530766",
+      "37445949",
+      "39414114",
+      "35597237",
+      "33624391",
+      "39892701",
+      "23399959",
+      "33812230",
+      "35365640",
+      "19428379",
+      "25753674",
+      "29567272",
+      "40010343",
+      "36539830",
+      "24844596",
+      "28173629",
+      "25642963",
+      "30072594",
+      "38084915",
+      "26337087",
+      "26679694",
+      "39358933",
+      "25417706",
+      "34871438",
+      "35955488",
+      "33397362",
+      "31847370",
+      "27760146"
+    ],
+    "review": [
+      "40809943",
+      "32967790",
+      "34913794",
+      "35279473",
+      "37445949"
+    ],
+    "pmc": [
+      "12342941"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40809943/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/narcancer/article-lookup/doi/10.1093/narcan/zcaf025",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

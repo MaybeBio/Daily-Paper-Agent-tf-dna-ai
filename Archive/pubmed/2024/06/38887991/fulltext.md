@@ -1,0 +1,1 @@
+This study utilizes molecular dynamics simulations aided with multiple walker parallel bias metadynamics to investigate the TCF unbinding mechanism from the beta-catenin interface. The results, consistent with experimental binding affinity calculations, unveil a folding-assisted unbinding mechanism.

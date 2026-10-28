@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "41185499",
+    "doi": "10.2174/0118715303432896251016035431",
+    "title": "Bioinformatics-based Mechanisms of Lipid Metabolism and Endoplasmic Reticulum Stress in Coronary Artery Disease."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Lipid metabolism and endoplasmic reticulum stress (ERS) are crucial in coronary artery disease (CAD) pathogenesis, but the exact mechanisms remain unclear. This study aims to systematically investigate the molecular interplay between lipid metabolism and ERS in CAD. METHODS: Lipid metabolism-related genes (LRGs), ERS-related genes (ER-RGs), and the bulk RNA-seq dataset were collected related to CAD. Machine learning algorithms and receiver operating characteristic (ROC) analysis were then integrated to identify key genes. Subsequent analyses included gene set enrichment analysis (GSEA), immune cell infiltration profiling, regulatory network construction, and drug prediction. The causal relationship between key genes and CAD was analyzed by Mendelian randomization. Finally, the mRNA expression levels of key genes in clinical samples were verified with the help of qPCR experiments. RESULTS: 12 candidate genes were identified by integrating LASSO, SVM-RFE, and Boruta algorithms. The ROC analysis prioritized three high-confidence diagnostic key genes (NFKB1, LPIN1, and SEC24B). Furthermore, these key genes exhibited significant associations with the CAD immune microenvironment; notably, NFKB1 demonstrated a strong positive correlation with memory-activated CD4+ T cells. Furthermore, MR analysis showed SEC24B polymorphisms conferred reduced CAD risk (OR = 0.85), consistent with its protective expression pattern. The qPCR results show significant downregulation of both LPIN1 and NFKB1 in CAD patients. DISCUSSION: Our findings suggest that NFKB1, LPIN1, and SEC24B play pivotal roles in CAD by linking lipid metabolism with endoplasmic reticulum stress and modulating immune responses. The downregulation of NFKB1 and LPIN1 in CAD patients, together with the protective effect of SEC24B polymorphisms, highlights a complex interplay between metabolic and inflammatory pathways. These insights not only improve our understanding of CAD pathogenesis, but also point to potential molecular targets for precise therapeutic interventions. CONCLUSION: This study elucidates the pathogenic mechanisms of L-ER RGs in CAD development, identifying NFKB1, LPIN1, and SEC24B as key molecular mediators. It not only reveals their roles in immune regulation and metabolic pathways but also provides actionable targets for precision therapeutics in CAD management.",
+    "keywords": [
+      "Coronary artery disease",
+      "Mendelian randomization",
+      "endoplasmic reticulum stress",
+      "gene set enrichment analysis",
+      "lipid metabolism",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lipid Metabolism/genetics/physiology",
+      "*Coronary Artery Disease/genetics/metabolism/pathology",
+      "*Endoplasmic Reticulum Stress/genetics/physiology",
+      "*Computational Biology/methods",
+      "NF-kappa B p50 Subunit/genetics/metabolism",
+      "Phosphatidate Phosphatase/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Genetic Predisposition to Disease"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Lili",
+        "Ruan, Huaiyu",
+        "Chen, Qinyun",
+        "Chen, Yiming",
+        "Wang, Ruiyan",
+        "Zhou, Jing",
+        "Wang, Jian",
+        "He, Mengyu",
+        "Wang, Ke",
+        "Huang, Yuli",
+        "Wang, Feng"
+      ],
+      "short_names": [
+        "Ye L",
+        "Ruan H",
+        "Chen Q",
+        "Chen Y",
+        "Wang R",
+        "Zhou J",
+        "Wang J",
+        "He M",
+        "Wang K",
+        "Huang Y",
+        "Wang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Medicine, Department of General Practice, GuangDong Engineering Technology Research Center of Biological Targeting Diagnosis, Therapy and Rehabilitation, The Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, Guangdong, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "Department of Endocrinology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "School of Nursing, Bengbu Medical University, Bengbu, China.",
+        "Department of Nursing, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "Department of Nursing, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "School of Nursing, Bengbu Medical University, Bengbu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Lili",
+        "short_name": "Ye L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Department of General Practice, GuangDong Engineering Technology Research Center of Biological Targeting Diagnosis, Therapy and Rehabilitation, The Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Huaiyu",
+        "short_name": "Ruan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qinyun",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yiming",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruiyan",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Nursing, Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jing",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jian",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "He, Mengyu",
+        "short_name": "He M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ke",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Nursing, Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuli",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine, metabolic & immune disorders drug targets"
+    ],
+    "journal_abbrev": [
+      "Endocr Metab Immune Disord Drug Targets"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/04 06:29",
+    "fetched_at": "2026-10-01 05:36:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41185499",
+      "41866576",
+      "41731716",
+      "42003657",
+      "40918403",
+      "40849369",
+      "41894294",
+      "42510787",
+      "40775242",
+      "39827515",
+      "39875572",
+      "39507054",
+      "39671358",
+      "39855613",
+      "42730994",
+      "42471019",
+      "39284931",
+      "42292364",
+      "41591671",
+      "40453984",
+      "40354856",
+      "42475469",
+      "39375405",
+      "41327383",
+      "42302029",
+      "41432483",
+      "40631874",
+      "41052072",
+      "41200172",
+      "41162503",
+      "42434863",
+      "39953608",
+      "41905994",
+      "41638276",
+      "41191606",
+      "40819095",
+      "40813744",
+      "40350654",
+      "41110296",
+      "41006883",
+      "38789967",
+      "42015036",
+      "39586719",
+      "39742022",
+      "39406802",
+      "41436831",
+      "40253457",
+      "41151411",
+      "38649912",
+      "38734758",
+      "26966275",
+      "41563994",
+      "42266688",
+      "38690269",
+      "40374840",
+      "42032608",
+      "42232759",
+      "41772215",
+      "39697326",
+      "41087615",
+      "40425742",
+      "38573982",
+      "39346628",
+      "40207230",
+      "40379803",
+      "40374866",
+      "40592741",
+      "41300841",
+      "41962331",
+      "42292668",
+      "42338983",
+      "41359645",
+      "38629070",
+      "39280014",
+      "39267738",
+      "39501130",
+      "41548489",
+      "40319218",
+      "41960145",
+      "39142001",
+      "41873862",
+      "41013556",
+      "42642681",
+      "41826854",
+      "40755754",
+      "40059128",
+      "39953122",
+      "41703488",
+      "40124544",
+      "40360670",
+      "38495888",
+      "41479901",
+      "38691241",
+      "40070840",
+      "39923360",
+      "41388523",
+      "40619516",
+      "40196107",
+      "42423160",
+      "42123445"
+    ],
+    "review": [
+      "41185499",
+      "41873862"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/coronaryarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Coronary Artery Disease"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-466",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/247145/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Technical and scientific evaluation of the reported expression, purification, and in silico characterization of M. smegmatis SigB; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors report optimized recombinant expression of M. smegmatis SigB in E. coli, purification via Ni-NTA affinity chromatography, confirmation by Western blotting, homology-based structural comparison with SigA, and protein-protein docking of SigB with core RNAP to infer interaction interfaces
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1-5 and Supplementary Figure 1; no actual figures, images, or numerical data provided in the supplied material
+- **Missing materials affecting confidence** All figures and supplementary materials are referenced but not included; raw gel images, purification chromatograms, Western blot images, Ramachandran plot data, docking scores, and model validation metrics are unavailable; sequence accession numbers for SigA and SigB are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a practical gap in recombinant production of a stress-responsive sigma factor from M. smegmatis. The experimental optimization strategy is reasonable and the reported yield of 2-2.2 mg/L is potentially useful. However, the in silico components are presented with insufficient methodological detail and quantitative support, and several claims in the discussion and conclusion extend beyond what the described experiments can establish. The core expression and purification claims are plausible but cannot be fully verified without the referenced figures and raw data.
+- **Who would be interested in the results, and why** Researchers studying mycobacterial transcription regulation, particularly sigma factor networks and stress responses; investigators needing recombinant sigma factors for biochemical or structural studies; groups working on protein expression optimization in E. coli for GC-rich mycobacterial genes
+- **Major strengths** Systematic optimization of expression parameters (host strain, IPTG concentration, temperature, time) is methodical and practical; the choice of CodonPlus (DE3) is well justified by codon bias considerations for GC-rich mycobacterial sequences; the reported soluble yield is meaningful for downstream applications; the work addresses a genuine gap in the literature regarding recombinant SigB production
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim maximum expression of recombinant His-SigB in CodonPlus (DE3) and optimal soluble yield at 25°C with 0.1 mM IPTG
+  - **Evidence pointer** Section 3.1-3.3, Figures 1-3 (not provided)
+  - **Concern** The central quantitative claims regarding expression levels, solubility fractions, and comparative host strain performance are entirely dependent on figures that are not included in the supplied material. Percentages such as "approximately 30% higher," "62% and 54%," and "31%, 55%, and 54%" are stated without raw densitometry data, replicate numbers, or statistical analysis. The semiquantitative analysis using Quantity One software is mentioned but no numerical outputs are reported.
+  - **Why it matters** The primary contribution of this manuscript is the optimized expression and purification protocol. Without access to the actual gel images and quantitative analysis, the reproducibility and validity of the optimization claims cannot be assessed. The reported yield of 2-2.2 mg/L is a key metric but is presented without experimental detail on how it was measured (e.g., Bradford assay, BCA, absorbance).
+  - **Resolution test** Provide the referenced figures with clear molecular weight markers, loading controls, and replicate data. Report densitometry values with standard deviations and statistical comparisons. Describe the protein quantification method and provide standard curve information.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that homology modeling and structural comparison demonstrate instability of SigB relative to SigA, and that the N-terminal extended domain of SigA provides stability
+  - **Evidence pointer** Section 3.5, Supplementary Figure 1 (not provided)
+  - **Concern** The structural characterization is described at a superficial level. Ramachandran plot statistics are given (98.1% and 98.7% in allowed regions) but no details on model quality metrics such as QMEAN, z-scores, or template coverage are provided. The claim that the N-terminal domain "provides stability" is presented as an observation from the models, but no molecular dynamics simulations, thermal stability measurements, or comparative stability analyses are described. The statement appears to be inferred from sequence/structural differences rather than demonstrated.
+  - **Why it matters** The structural instability claim is used to contextualize the short half-life of SigB, but the evidence presented does not support a mechanistic link between the modeled structures and protein stability. Overinterpretation of static homology models without experimental validation undermines the scientific rigor of the in silico component.
+  - **Resolution test** Provide model validation statistics, template information, and alignment coverage. Either remove the stability claim or support it with appropriate computational analyses (e.g., molecular dynamics, free energy calculations) or experimental data. Clarify what specific structural features correlate with the observed short half-life.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that protein-protein docking revealed SigB binds to RNAP with binding energy of -70.39, and that specific residues (Arg846, Leu408 of chain C; Arg67, Thr38, Lys64, Thr150, Arg345, Glu250, Glu275 of chain D) play major roles in the interaction
+  - **Evidence pointer** Section 3.6, Figure 5(c) and 5(d) (not provided)
+  - **Concern** The docking methodology is described only as using the MOE platform with Amber EHT 10 force field. No details are given on the docking algorithm, scoring function, number of poses generated, selection criteria for the best twenty complexes, or how the binding energy was calculated. The specific interacting residues are listed without supporting interaction maps, distance cutoffs, or energy contribution analysis. The claim that these interactions are "in contrast with the molecular interactions of SigA" is not substantiated with comparative docking data for SigA.
+  - **Why it matters** Protein-protein docking results are highly dependent on methodology and scoring. Without detailed parameters and validation, the reported binding energy and residue-level interactions cannot be evaluated for reliability. The comparison with SigA is essential to support the claim of differential interaction patterns but is not presented.
+  - **Resolution test** Provide complete docking parameters, scoring function details, and validation of the docking protocol (e.g., re-docking of known complexes). Show interaction maps or tables with distances and energy contributions. Include comparative docking results for SigA-RNAP to support the contrast claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the maximum expression of SigB was observed at 180 minutes post-induction
+  - **Evidence pointer** Section 3.4, Figure 4(a) (not provided)
+  - **Concern** The time course experiment is described as testing 0, 15, 30, 60, 120, and 180 minutes, but the claim of maximum expression at 180 minutes is presented without any indication of whether later time points were tested or whether expression plateaued. The choice of 180 minutes as the endpoint appears arbitrary without a rationale or data showing the expression kinetics.
+  - **Why it matters** For a protocol paper, the time course optimization is a key parameter. If expression continues to increase beyond 180 minutes, the reported optimal condition may be suboptimal. The lack of kinetic context limits the practical utility of the protocol.
+  - **Resolution test** Extend the time course to later time points (e.g., 240, 300, 360 minutes) or provide data showing that expression plateaus by 180 minutes. Justify the selection of the endpoint based on the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, primer design
+  - **Evidence pointer** Section 2.2
+  - **Issue** The forward and reverse primers are both named "SigB_2752_EcoRI" and both contain EcoRI restriction sites. This is unusual for a nondirectional cloning strategy, which typically uses two different restriction sites for orientation control. The use of the same restriction site for both ends may result in insert self-ligation or orientation issues.
+  - **Required correction** Clarify whether the cloning was truly nondirectional and whether the same restriction site was intentionally used. If so, explain how correct orientation was verified. If different sites were used, correct the primer names and sequences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.5, sequence retrieval
+  - **Evidence pointer** Section 2.5
+  - **Issue** The authors state that protein sequences were retrieved from NCBI but do not provide accession numbers for M. smegmatis SigA and SigB.
+  - **Required correction** Provide the NCBI accession numbers for both sequences to enable reproducibility and verification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 3.6, PDB ID
+  - **Evidence pointer** Section 3.6
+  - **Issue** The PDB ID is cited as 6EYD in the methods section and 6YED in the results section. These are inconsistent and likely refer to the same structure.
+  - **Required correction** Use the correct PDB ID consistently throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.6, binding energy
+  - **Evidence pointer** Section 3.6
+  - **Issue** The binding energy is reported as -70.39 without units. It is unclear whether this is in kcal/mol, kJ/mol, or another unit.
+  - **Required correction** Specify the units for the binding energy and clarify whether this value represents the average of the sixteen complexes or the best-scoring pose.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion states that "C41 (DE3), derived from BL21 (DE3), contains an uncharacterized mutation that prevents cell death due to the expression of many toxic recombinant proteins." This is a known characteristic of C41 (DE3), but the statement could be more precise regarding the nature of the mutation (in the lacUV5 promoter region affecting T7 lysozyme production).
+  - **Required correction** Refine the description of the C41 (DE3) mutation to be more accurate and cite the relevant literature.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4, purification
+  - **Evidence pointer** Section 2.4
+  - **Issue** The purification method is described as using Ni-NTA beads, but no information is provided on the column format, binding capacity, wash volumes, or elution fraction analysis. The purity of the final product is not quantified.
+  - **Required correction** Provide additional details on the purification procedure and report the purity of the eluted protein (e.g., by SDS-PAGE densitometry or a purity percentage).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative evidence for expression optimization claims), R1-M2 (unsupported structural stability claim), R1-M3 (insufficient docking methodology and validation)
+- **Assessment against Nature-style criteria** Originality: Moderate. The work addresses a practical need but does not present a conceptually novel approach or unexpected finding. Scientific importance: Limited to a specialized audience; the biological insights are incremental. Interdisciplinary readership: Low; the content is primarily of interest to molecular microbiologists and protein biochemists. Technical soundness: Currently insufficient due to missing data and methodological details in the in silico components. Readability for nonspecialists: The manuscript is generally readable but assumes familiarity with sigma factor biology and protein expression terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The expression and purification protocol appears potentially useful, but the manuscript requires substantial revision to provide complete quantitative data, detailed methods for the in silico analyses, and tempering of claims that exceed the evidence.
+
+## Risk / unsupported claims
+- The claim that SigB is structurally less stable than SigA based on homology models is unsupported without dynamic simulations or experimental stability measurements
+- The specific binding energy value of -70.39 for the SigB-RNAP interaction is presented without methodological context or validation
+- The claim that specific residues of RNAP chains C and D play major roles in SigB interaction is not substantiated with interaction maps or comparative data
+- The statement that the optimized conditions provide "high yield of soluble and proteolytically undergraded protein" is not quantitatively supported without purity assessment data
+- The assertion that the N-terminal domain of SigA "provides stability" is presented as fact but is speculative without experimental evidence
+- The reported yield of 2-2.2 mg/L lacks methodological detail on quantification and replicate variability

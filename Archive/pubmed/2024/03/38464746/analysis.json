@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38464746",
+  "title": "Unsupervised AI reveals insect species-specific genome signatures.",
+  "authors": "Sawada, Yui; Minei, Ryuhei; Tabata, Hiromasa; Ikemura, Toshimichi; Wada, Kennosuke; Wada, Yoshiko; Nagata, Hiroshi; Iwasaki, Yuki",
+  "journal": "PeerJ",
+  "published_date": "2024-03-11",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用无监督BLSOM分析昆虫基因组寡核苷酸组成特征，虽提及TFBS富集但与蛋白质-DNA互作建模无直接关联，方法为无监督聚类而非AI/物理模拟结合建模，相关性边缘。",
+  "abstract": "Insects are a highly diverse phylogeny and possess a wide variety of traits, including the presence or absence of wings and metamorphosis. These diverse traits are of great interest for studying genome evolution, and numerous comparative genomic studies have examined a wide phylogenetic range of insects. Here, we analyzed 22 insects belonging to a wide phylogenetic range (Endopterygota, Paraneoptera, Polyneoptera, Palaeoptera, and other insects) by using a batch-learning self-organizing map (BLSOM) for oligonucleotide compositions in their genomic fragments (100-kb or 1-Mb sequences), which is an unsupervised machine learning algorithm that can extract species-specific characteristics of the oligonucleotide compositions (genome signatures). The genome signature is of particular interest in terms of the mechanisms and biological significance that have caused the species-specific difference, and can be used as a powerful search needle to explore the various roles of genome sequences other than protein coding, and can be used to unveil mysteries hidden in the genome sequence. Since BLSOM is an unsupervised clustering method, the clustering of sequences was performed based on the oligonucleotide composition alone, without providing information about the species from which each fragment sequence was derived. Therefore, not only the interspecies separation, but also the intraspecies separation can be achieved. Here, we have revealed the specific genomic regions with oligonucleotide compositions distinct from the usual sequences of each insect genome, e.g., Mb-level structures found for a grasshopper Schistocerca americana. One aim of this study was to compare the genome characteristics of insects with those of vertebrates, especially humans, which are phylogenetically distant from insects. Recently, humans seem to be the \"model organism\" for which a large amount of information has been accumulated using a variety of cutting-edge and high-throughput technologies. Therefore, it is reasonable to use the abundant information from humans to study insect lineages. The specific regions of Mb length with distinct oligonucleotide compositions have also been previously observed in the human genome. These regions were enriched by transcription factor binding motifs (TFBSs) and hypothesized to be involved in the three-dimensional arrangement of chromosomal DNA in interphase nuclei. The present study characterized the species-specific oligonucleotide compositions (i.e., genome signatures) in insect genomes and identified specific genomic regions with distinct oligonucleotide compositions.",
+  "abstract_zh": "昆虫是一个高度多样化的系统发育群体，拥有多种性状，包括翅膀的有无和变态发育。这些多样的性状对于研究基因组进化具有重要意义，众多比较基因组学研究已涵盖了广泛的昆虫系统发育范围。在本研究中，我们利用批量学习自组织映射（BLSOM）对属于广泛系统发育范围（内生翅类、副翅类、多翅类、古翅类及其他昆虫）的22种昆虫的基因组片段（100-kb或1-Mb序列）中的寡核苷酸组成进行了分析，这是一种无监督机器学习算法，能够提取寡核苷酸组成的物种特异性特征（基因组签名）。基因组签名在机制和生物学意义方面特别引人关注，这些机制和意义导致了物种特异性差异，并且可以作为强大的搜索工具，探索蛋白质编码之外基因组序列的各种角色，以及揭示隐藏在基因组序列中的奥秘。由于BLSOM是一种无监督聚类方法，序列的聚类仅基于寡核苷酸组成进行，而不提供每个片段序列来源物种的信息。因此，不仅能实现种间分离，还能实现种内分离。在此，我们揭示了每个昆虫基因组中具有与常规序列不同的寡核苷酸组成的特定基因组区域，例如在美洲蝗虫 *Schistocerca americana* 中发现的Mb级结构。本研究的一个目的是将昆虫的基因组特征与脊椎动物，特别是与昆虫在系统发育上相距较远的人类进行比较。近年来，人类似乎是“模式生物”，通过多种前沿和高通量技术积累了大量信息。因此，利用人类丰富的资源来研究昆虫谱系是合理的。具有不同寡核苷酸组成的Mb长度特定区域此前也在人类基因组中被观察到。这些区域富含转录因子结合基序（TFBSs），并被假设参与间期核中染色体DNA的三维排列。本研究表征了昆虫基因组中的物种特异性寡核苷酸组成（即基因组签名），并识别了具有不同寡核苷酸组成的特定基因组区域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38464746/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38464746/",
+  "paper_page_path": "papers/pubmed/38464746/index.html"
+}

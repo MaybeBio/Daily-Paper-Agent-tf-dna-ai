@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.27.661905",
+  "title": "Quantum analysis of protein–ligand binding by integrating structural resolution, sequence homology, and ligand properties",
+  "authors": "Don Roosan; Samira Samrose; Rubayat Khan; Saif Nirzhor; Brian Provencher",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-30",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用经典与量子机器学习预测蛋白-配体结合亲和力，虽涉及蛋白-配体而非蛋白-DNA互作，且无TF-DNA结合建模，但量子增强方法对生物分子互作预测有潜在迁移价值。",
+  "abstract": "Predicting protein–ligand binding affinity is a fundamental challenge in computational biology and drug discovery, complicated by diverse factors including protein sequence variability, ligand chemical diversity, and structural resolution. Here, we present an integrative study that combines classical machine learning and quantum-enhanced modeling to investigate how crystal structure resolution, sequence similarity, and ligand properties jointly influence binding affinity. Using a curated “refined” dataset from PDBbind and an expanded general dataset, we first conduct correlation and regression analyses to quantify the relationships among binding affinity, ligand descriptors (e.g., molecular weight, logP), and protein structural metrics (resolution, R-factor). We observe moderate positive correlations between ligand size/hydrophobicity and affinity, and a slight negative correlation between resolution and affinity in the refined dataset that largely disappears in the general set. We then train multiple predictive models, including random forests, deep neural networks, and quantum-enhanced approaches—quantum kernel methods, variational quantum circuits, and a hybrid classical–quantum neural network. Experimental results show that quantum-enhanced models perform on par with classical methods in predicting binding affinities and, in some cases, offer modest improvements. Notably, a hybrid quantum–classical model achieves the highest accuracy (Pearson correlation R≈0.80R) on the refined dataset. These findings highlight the potential of quantum computing for capturing complex patterns in biomolecular data, laying groundwork for improved structure-based drug design. Our study underscores that while data quality and curation greatly influence observed trends, quantum machine learning despite current hardware limitations can already serve as a competitive and promising tool in computational structural biology. AUTHOR SUMMARY In our study, we confront a major bottleneck in the creation of new medicines: accurately predicting how strongly a potential drug will attach to its target protein in the body. Getting this right early in the process could save billions of dollars and years of research by preventing dead-ends. We investigated if quantum computing, a new technology that processes information in a fundamentally different way, could provide a better solution. We trained several computer models to predict these binding strengths, comparing standard artificial intelligence (AI) with new models enhanced by quantum machine learning. Our results showed that a hybrid model, which strategically combines classical AI with a quantum-powered component, delivered the most accurate predictions on high-quality, curated data. This work demonstrates that quantum computing is already a competitive tool for real-world biological problems, not just a future possibility. We believe that by further developing these quantum-enhanced approaches, we can create more reliable predictive tools to make the long and difficult search for new drugs faster and more successful.",
+  "abstract_zh": "预测蛋白质-配体结合亲和力是计算生物学和药物发现中的一个基本挑战，其复杂性源于多种因素，包括蛋白质序列变异性、配体化学多样性以及结构分辨率。在此，我们提出了一项整合研究，结合经典机器学习和量子增强建模，探讨晶体结构分辨率、序列相似性和配体性质如何共同影响结合亲和力。使用来自PDBbind的精选“精炼”数据集和扩展的通用数据集，我们首先进行相关性和回归分析，以量化结合亲和力、配体描述符（如分子量、logP）和蛋白质结构指标（分辨率、R因子）之间的关系。我们观察到配体大小/疏水性与亲和力之间存在中等正相关，而在精炼数据集中，分辨率与亲和力之间存在轻微负相关，这种负相关在通用数据集中基本消失。随后，我们训练了多种预测模型，包括随机森林、深度神经网络和量子增强方法——量子核方法、变分量子电路以及混合经典-量子神经网络。实验结果表明，量子增强模型在预测结合亲和力方面与经典方法表现相当，在某些情况下还提供了适度改进。值得注意的是，一个混合量子-经典模型在精炼数据集上达到了最高准确性（Pearson相关系数R≈0.80）。这些发现突显了量子计算在捕捉生物分子数据中复杂模式方面的潜力，为改进基于结构的药物设计奠定了基础。我们的研究强调，尽管数据质量和筛选对观察到的趋势有很大影响，但量子机器学习尽管受当前硬件限制，已经可以成为计算结构生物学中一个具有竞争力和前景的工具。作者总结 在我们的研究中，我们面临新药研发中的一个主要瓶颈：准确预测潜在药物在体内与其靶蛋白结合的强度。在过程早期做到这一点，可以通过避免死胡同来节省数十亿美元和多年的研究。我们调查了量子计算——一种以根本不同方式处理信息的新技术——是否能提供更好的解决方案。我们训练了多个计算机模型来预测这些结合强度，将标准人工智能（AI）与量子机器学习增强的新模型进行比较。我们的结果表明，一个战略性地结合经典AI与量子驱动组件的混合模型，在高质量、精选数据上提供了最准确的预测。这项工作证明，量子计算已经是解决现实世界生物学问题的竞争性工具，而不仅仅是未来的可能性。我们相信，通过进一步发展这些量子增强方法，我们可以创建更可靠的预测工具，使漫长而艰难的新药搜索更快、更成功。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661905",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661905",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.27.661905/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40861392",
+  "title": "Statistical relationships across epigenomes using large-scale hierarchical clustering.",
+  "authors": "Kim, Anastasiia; Lubbers, Nicholas; Steadman, Christina R; Sanbonmatsu, Karissa Y",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-08-27",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用层次聚类分析大规模表观基因组数据，虽涉及转录因子相关修饰因子聚类，但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "MOTIVATION: Recent advances in genomics and sequencing platforms have revolutionized our ability to create immense data sets, particularly for studying epigenetic regulation of gene expression. However, the avalanche of epigenomic data is difficult to parse for biological interpretation given nonlinear complex patterns and relationships. This attractive challenge in epigenomic data lends itself to machine learning for discerning infectivity and susceptibility. In this study, we explore over 3000 epigenomes of uninfected individuals and provide a framework to characterize the relationships among epigenetic modifiers, their modifiers, genetic loci, and specific immune cell types across all chromosomes using hierarchical clustering. RESULTS: Hierarchical clustering of epigenomic data revealed consistent epigenetic patterns across chromosomes, demonstrating that variation due to epigenetic modifiers is greater than variation between cell types. Gene Ontology and KEGG pathway analyses indicated significant enrichment of genes involved in chromatin remodeling, mRNA splicing, immune responses, and the regulation of microRNAs and snoRNAs. Epigenetic modifiers frequently formed biologically relevant clusters, including the cohesin complex, RNA Polymerase II transcription factors, and PRC2 complex members. These clustering behaviors remained consistent across all chromosomes, supported by entropy analysis and high Adjusted Rand Index scores, indicating robust cross-chromosomal similarity. Co-occurrence analysis further revealed specific sets of modifiers that consistently appeared together within clusters, reflecting shared biological functions and interactions. Validation using another dataset confirmed the reproducibility of these clustering patterns and modifier co-occurrence relationships, underscoring the reliability and generalizability of the methodology. AVAILABILITY AND IMPLEMENTATION: The analysis pipeline for this study is freely available online at the GitHub repository: https://github.com/lanl/epigen.",
+  "abstract_zh": "动机：基因组学和测序平台的最新进展彻底改变了我们创建海量数据集的能力，特别是用于研究基因表达的表观遗传调控。然而，表观基因组数据的激增因其非线性复杂模式和关系而难以解析以进行生物学解释。表观基因组数据中的这一吸引人的挑战适用于机器学习，以辨别感染性和易感性。在本研究中，我们探索了超过3000个未感染个体的表观基因组，并提供了一个框架，通过层次聚类来表征表观遗传修饰因子、其修饰因子、遗传位点以及所有染色体上特定免疫细胞类型之间的关系。结果：表观基因组数据的层次聚类揭示了跨染色体的一致表观遗传模式，表明由表观遗传修饰因子引起的变异大于细胞类型之间的变异。基因本体论和KEGG通路分析显示，涉及染色质重塑、mRNA剪接、免疫反应以及microRNA和snoRNA调控的基因显著富集。表观遗传修饰因子经常形成生物学相关的聚类，包括cohesin复合物、RNA聚合酶II转录因子和PRC2复合物成员。这些聚类行为在所有染色体上保持一致，并通过熵分析和高调整兰德指数得分得到支持，表明跨染色体相似性稳健。共现分析进一步揭示了特定修饰因子组在聚类中持续共同出现，反映了共享的生物学功能和相互作用。使用另一个数据集的验证确认了这些聚类模式和修饰因子共现关系的可重复性，强调了该方法的可靠性和泛化性。可用性和实现：本研究的分析流程可在GitHub仓库免费获取：https://github.com/lanl/epigen。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40861392/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40861392/",
+  "paper_page_path": "papers/pubmed/40861392/index.html"
+}

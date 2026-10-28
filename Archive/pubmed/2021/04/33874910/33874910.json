@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "33874910",
+    "doi": "10.1186/s12859-021-04126-3",
+    "title": "Modeling transcriptional regulation using gene regulatory networks based on multi-omics data sources."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcriptional regulation is complex, requiring multiple cis (local) and trans acting mechanisms working in concert to drive gene expression, with disruption of these processes linked to multiple diseases. Previous computational attempts to understand the influence of regulatory mechanisms on gene expression have used prediction models containing input features derived from cis regulatory factors. However, local chromatin looping and trans-acting mechanisms are known to also influence transcriptional regulation, and their inclusion may improve model accuracy and interpretation. In this study, we create a general model of transcription factor influence on gene expression by incorporating both cis and trans gene regulatory features. RESULTS: We describe a computational framework to model gene expression for GM12878 and K562 cell lines. This framework weights the impact of transcription factor-based regulatory data using multi-omics gene regulatory networks to account for both cis and trans acting mechanisms, and measures of the local chromatin context. These prediction models perform significantly better compared to models containing cis-regulatory features alone. Models that additionally integrate long distance chromatin interactions (or chromatin looping) between distal transcription factor binding regions and gene promoters also show improved accuracy. As a demonstration of their utility, effect estimates from these models were used to weight cis-regulatory rare variants for sequence kernel association test analyses of gene expression. CONCLUSIONS: Our models generate refined effect estimates for the influence of individual transcription factors on gene expression, allowing characterization of their roles across the genome. This work also provides a framework for integrating multiple data types into a single model of transcriptional regulation.",
+    "keywords": [
+      "Gene expression",
+      "Gene regulatory network",
+      "Machine learning",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "Chromatin/genetics",
+      "*Gene Expression Regulation",
+      "*Gene Regulatory Networks",
+      "Information Storage and Retrieval",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patel, Neel",
+        "Bush, William S"
+      ],
+      "short_names": [
+        "Patel N",
+        "Bush WS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nutrition, Case Western Reserve University, Cleveland, OH, USA.",
+        "Department of Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, OH, USA.",
+        "Department of Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, OH, USA. wsb36@case.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patel, Neel",
+        "short_name": "Patel N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition, Case Western Reserve University, Cleveland, OH, USA.",
+          "Department of Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Bush, William S",
+        "short_name": "Bush WS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population and Quantitative Health Sciences, Case Western Reserve University, Cleveland, OH, USA. wsb36@case.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2021 Apr 19",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/21 06:00",
+    "fetched_at": "2026-09-27 16:21:05"
+  },
+  "links": {
+    "cites": [
+      "40809490",
+      "36708003",
+      "35999505",
+      "35193937"
+    ],
+    "refs": [
+      "32500240",
+      "32048005",
+      "32029002",
+      "31114870",
+      "30922998",
+      "30804239",
+      "30792737",
+      "30630522",
+      "30476227",
+      "30258228",
+      "30054458",
+      "30013180",
+      "29425488",
+      "29219072",
+      "29202200",
+      "29126249",
+      "28473845",
+      "28454114",
+      "27899623",
+      "27610567",
+      "27587684",
+      "26493648",
+      "26307082",
+      "26301843",
+      "25568877",
+      "25364745",
+      "25338720",
+      "25231769",
+      "25161226",
+      "24670764",
+      "24614316",
+      "24092820",
+      "24068555",
+      "23741402",
+      "23715323",
+      "23498934",
+      "23193258",
+      "22820512",
+      "22652625",
+      "21926158",
+      "21737059",
+      "21330290",
+      "19995984",
+      "18852199",
+      "17320508"
+    ],
+    "similar": [
+      "33874910",
+      "33096239",
+      "29061983",
+      "22456606",
+      "28576882",
+      "21069662",
+      "38715516",
+      "20808951",
+      "19450688",
+      "32054475",
+      "39121214",
+      "12971721",
+      "34292930",
+      "34650237",
+      "28333240",
+      "37682480",
+      "38604126",
+      "32578841",
+      "38225662",
+      "25707768",
+      "25916854",
+      "16934159",
+      "27091612",
+      "34149720",
+      "38422958",
+      "30598101",
+      "35119910",
+      "22934649",
+      "36695505",
+      "38358392",
+      "19594885",
+      "18976224",
+      "25624274",
+      "16817975",
+      "19426448",
+      "33413550",
+      "31510655",
+      "26772747",
+      "25887857",
+      "35193937",
+      "21375730",
+      "19910494",
+      "23387820",
+      "33976139",
+      "33964211",
+      "30661741",
+      "26818008",
+      "31533978",
+      "25944915",
+      "30696696",
+      "34486522",
+      "39135102",
+      "26424082",
+      "24042128",
+      "26576632",
+      "28420341",
+      "26291518",
+      "29038942",
+      "25564104",
+      "22534400",
+      "24885560",
+      "26499213",
+      "11491305",
+      "24244184",
+      "31530573",
+      "31048460",
+      "31501517",
+      "25058159",
+      "20671200",
+      "17504165",
+      "22849367",
+      "36245002",
+      "36204155",
+      "19126674",
+      "16735158",
+      "33279858",
+      "23368633",
+      "30458000",
+      "33438713",
+      "27260304",
+      "28100260",
+      "35705328",
+      "15608156",
+      "31362726",
+      "32376693",
+      "20978140",
+      "37292820",
+      "22955984",
+      "18426580",
+      "31554806",
+      "24634209",
+      "36723605",
+      "33238122",
+      "36893484",
+      "35891778",
+      "21241896",
+      "33134611",
+      "39003726",
+      "35578363",
+      "36494035",
+      "19628860",
+      "37491077",
+      "39005360",
+      "38867109",
+      "38316783",
+      "35854350",
+      "23300434",
+      "31953380",
+      "31737053",
+      "35221113",
+      "35648859",
+      "38711859",
+      "34179082",
+      "34408773",
+      "27980619",
+      "30451991",
+      "38724715",
+      "34919934",
+      "30024089",
+      "18660846",
+      "39391717",
+      "37158788",
+      "36862689",
+      "37790381",
+      "30140277",
+      "39322282",
+      "30637352",
+      "26086470",
+      "37640939",
+      "37658185",
+      "38729949",
+      "30509787"
+    ],
+    "review": [
+      "33874910",
+      "21069662",
+      "38715516",
+      "12971721",
+      "34149720",
+      "35119910",
+      "22934649",
+      "36695505",
+      "25624274",
+      "26499213",
+      "31530573",
+      "17504165",
+      "16735158",
+      "36893484",
+      "19628860",
+      "38867109",
+      "34179082",
+      "38724715"
+    ],
+    "pmc": [
+      "8056605"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04126-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33874910/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33874910",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33874910",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

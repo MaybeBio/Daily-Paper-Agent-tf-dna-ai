@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodology, validation approach, and interpretation as presented in the supplied text
+- **Shared manuscript claim summary** The authors present DNA-Diffusion, a conditional diffusion model that generates 200 bp cell type-specific regulatory sequences. They claim these sequences (1) are novel and not memorized from training data, (2) recapitulate endogenous TF motif composition, (3) show cell type-specific chromatin accessibility and gene expression in silico, and (4) can be selected for high signal or high specificity.
+- **Visible evidence base** Main text figures referenced (Figs 1-6), supplementary figures and tables referenced, methods section
+- **Missing materials affecting confidence** Figures and supplementary materials not provided; exact numerical results for many comparisons not given; details of baseline/control sequences not fully specified; no experimental validation data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of diffusion models to regulatory element design. The core idea of using a conditional diffusion model to generate cell type-specific regulatory sequences is timely and potentially useful. However, the evidence provided is entirely in silico and relies on predictive models as oracles. The claims of "enhanced" activity and "cell type-specific" function rest on comparisons whose statistical rigor and appropriate baselines are not fully described in the text provided. The lack of any experimental validation, combined with incomplete methodological details for the oracle-based evaluations, means the central claims are currently not established beyond computational prediction.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, regulatory genomics, and generative model applications in biology. The approach could interest those working on designing synthetic promoters/enhancers for gene therapy or cell engineering, as well as computational biologists developing generative models for genomic sequences.
+- **Major strengths** The use of a single conditional diffusion model across multiple cell types is a clean design choice. The evaluation framework combining multiple predictive oracles (ChromBPNet, Enformer) is thoughtful. The tiling strategy for identifying optimal insertion sites is a practical contribution. The authors address the important issue of memorization directly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims DNA-Diffusion sequences "demonstrate cell specificity, accessibility and can activate cis genes in a cell type-specific manner in silico"
+  - **Evidence pointer** Results section "DNA-Diffusion generated sequences demonstrate cell specificity...", Figures 3, Supplementary Figures 3-4
+  - **Concern** The entire validation of functional activity rests on predictions from ChromBPNet and Enformer. These are powerful models, but they are not ground truth. The manuscript does not provide any experimental validation (e.g., MPRA, STARR-seq, or CRISPR-based assays) to confirm that the generated sequences actually function as predicted in cells. The claim of "activating genes" is particularly strong given it is based solely on in silico predictions.
+  - **Why it matters** Without experimental confirmation, the biological relevance of the generated sequences remains uncertain. Predictive models can have systematic biases, and the field has seen cases where in silico predictions do not translate to experimental reality. The title and abstract imply functional regulatory elements, which requires experimental support.
+  - **Resolution test** Provide experimental validation of at least a subset of generated sequences (e.g., MPRA or reporter assays) demonstrating cell type-specific activity. Alternatively, substantially temper the claims to reflect that these are computational predictions requiring experimental confirmation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims DNA-Diffusion sequences show "higher predicted accessibility values within their respective models" and "statistically significant" differences
+  - **Evidence pointer** Results section, Figure 3b-e, Supplementary Figures 3-4
+  - **Concern** The statistical comparisons are not fully described. For example, the comparison between DNA-Diffusion sequences and endogenous sequences uses t-tests, but it is unclear how many sequences were compared, whether the comparisons were paired or independent, and how multiple testing was handled. The claim of "slightly higher but significant activity (p < 0.01)" for K562 DNA-Diffusion sequences compared to endogenous baselines needs more context: what is the effect size, and is it biologically meaningful beyond statistical significance?
+  - **Why it matters** Without clear statistical methodology, the reader cannot assess the robustness of the claimed differences. Small but statistically significant differences may not be biologically relevant, especially when using predictive models as oracles.
+  - **Resolution test** Provide full statistical details: number of sequences per group, type of test, multiple testing correction, effect sizes with confidence intervals. Show that observed differences are not only significant but also meaningful in magnitude.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline appropriateness
+  - **Claim pointer** The manuscript compares DNA-Diffusion sequences to "endogenous sequences" and "randomly sampled" sequences
+  - **Evidence pointer** Results section, Figure 2, Methods
+  - **Concern** The choice of baseline sequences for comparison is not fully justified. For the motif analysis, the comparison is to endogenous training sequences. For the functional predictions, the comparison is to endogenous DHS sequences from other locations. It is unclear whether these are the most appropriate baselines. A more informative comparison might include sequences generated by simpler generative models (e.g., Markov chain or GAN) to demonstrate the specific advantage of the diffusion approach.
+  - **Why it matters** The claim that DNA-Diffusion produces sequences with "enhanced" properties depends critically on the baseline. If the baseline is weak, the improvement may not be meaningful. The manuscript would be stronger if it compared against alternative generative approaches.
+  - **Resolution test** Add comparisons against sequences generated by alternative methods (e.g., a simpler generative model or a previously published method) to demonstrate the specific benefits of the diffusion approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims the approach can be extended to "hundreds of cell types" and is a "foundation model" for regulatory element design
+  - **Evidence pointer** Discussion section
+  - **Concern** The model was trained and evaluated on only three cell types (GM12878, K562, HepG2). The claim of scalability to hundreds of cell types is speculative and not supported by the current data. Training a diffusion model on many cell types may present challenges not evident from this small-scale demonstration.
+  - **Why it matters** The broader impact and utility of the method depend on its scalability. Overclaiming scalability without evidence could mislead potential users.
+  - **Resolution test** Either temper the scalability claims or provide preliminary evidence (e.g., training on additional cell types) that the approach scales.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Data preprocessing
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the data filtering for cell type-specific peaks is somewhat unclear. The text mentions "prioritizing peaks that had limited occurrences in cell lines outside our replicates" and "emphasis on samples that had peaks in other replicates of the same cell," but the exact criteria and thresholds are not specified.
+  - **Required correction** Provide explicit criteria for peak selection, including any numerical thresholds used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Model training
+  - **Evidence pointer** Methods section
+  - **Issue** The training details are incomplete. The text mentions batch size, learning rate, and number of epochs, but does not specify the number of parameters in the model, the exact architecture details (e.g., number of layers, channels), or the computational resources required.
+  - **Required correction** Provide a complete description of the model architecture and training configuration to enable reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, Motif analysis
+  - **Evidence pointer** Figure 2, Results section
+  - **Issue** The interpretation of the motif analysis is somewhat one-sided. The authors note that DNA-Diffusion sequences have higher motif density for cell type-specific TFs, but do not discuss potential negative consequences of this enrichment (e.g., off-target effects, toxicity from overexpression of certain TFs).
+  - **Required correction** Add a brief discussion of potential trade-offs or limitations of increased motif density.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3f
+  - **Evidence pointer** Figure 3f
+  - **Issue** The example shown in Figure 3f is described in the text but the figure itself is not provided in the manuscript text. It is unclear what exactly is being shown.
+  - **Required correction** Ensure the figure is included and clearly labeled, with a legend explaining all panels.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, MPRA Predictor
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the MPRA data processing is incomplete. The text mentions "attention pooling" and "multi-task learning" but does not specify the exact implementation details, such as the attention mechanism used or the loss function.
+  - **Required correction** Provide sufficient detail on the MPRA predictor architecture and training to allow replication.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation), R1-M2 (incomplete statistical reporting), R1-M3 (baseline comparisons need strengthening)
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of diffusion models to regulatory element design is novel and timely. The conditional design across cell types is a reasonable contribution. However, the core idea of generative models for regulatory sequences is not entirely new, and the novelty lies mainly in the specific model choice.
+  - Scientific importance: If validated experimentally, the approach could have significant impact on synthetic biology and gene therapy. However, the current in silico-only evidence limits the immediate importance.
+  - Interdisciplinary readership: The work bridges generative AI and genomics, which could attract readers from both communities. The writing is generally accessible, though some parts of the methods are dense.
+  - Technical soundness: The computational approach appears sound, but the evaluation methodology has gaps as noted above. The reliance on predictive models without experimental confirmation is a significant limitation.
+  - Readability for nonspecialists: The abstract and introduction are clear. The results section is reasonably accessible, but the methods section assumes significant background in both deep learning and genomics.
+- **Recommendation posture** Currently not established from the provided evidence. The computational framework is promising, but the central claims of functional regulatory element generation require experimental validation. The manuscript would be suitable for a specialized computational biology journal in its current form, but for a high-impact general journal, experimental confirmation is essential.
+
+## Risk / unsupported claims
+- The claim that DNA-Diffusion sequences can "activate genes in a cell type-specific manner" is unsupported by direct experimental evidence; it is based solely on in silico predictions.
+- The claim of scalability to "hundreds of cell types" is speculative and not supported by the current three-cell-type demonstration.
+- The claim that DNA-Diffusion is a "foundation model" for regulatory element design is overstated given the limited scope of the current work.
+- The claim of "enhanced" activity compared to endogenous sequences requires more rigorous statistical and baseline comparisons to be fully supported.
+- The statement that DNA-Diffusion "paves the way for revolutionizing" synthetic biology and gene therapy is promotional and not supported by the evidence presented.

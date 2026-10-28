@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific soundness, methodological clarity, validity of claims, and reproducibility based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose LGC-DBP, a deep learning model combining LSTM, a gated inception convolution module (integrating GCN and dilated convolution), and an improved channel attention mechanism, for DNA-binding protein identification from PSSM features. They report superior performance over existing methods on the UniSwiss-Tst test set and demonstrate generalization across three additional training datasets.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1-2.4), Results (Sections 3.1-3.5), Discussion, Conclusion, Data availability statement
+- **Missing materials affecting confidence** No code, no hyperparameter details, no training configuration, no statistical significance tests, no confidence intervals, no detailed dataset construction protocol, no PSSM generation parameters, no computational resource details, no ethical or data access verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in bioinformatics and proposes a plausible architecture combining established components. However, the current presentation lacks critical experimental details, statistical rigor, and reproducibility elements necessary to substantiate the claimed improvements. The evidence provided is insufficient to establish that LGC-DBP outperforms existing methods beyond anecdotal comparison.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein function prediction, DNA-protein interactions, and deep learning applications to biological sequence data. The methodological combination of LSTM, gated inception convolution, and channel attention may interest those exploring hybrid architectures for sequence classification.
+- **Major strengths** The problem is well-motivated and biologically relevant. The proposed architecture integrates several established deep learning components in a novel combination. The authors evaluate on a benchmark dataset and compare with multiple existing methods. Ablation studies are included to assess component contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is described as a novel architecture with specific components, and results are reported on a benchmark dataset.
+  - **Evidence pointer** Section 2.3, Section 3.1, Table 1
+  - **Concern** The manuscript does not provide sufficient implementation details to reproduce the model. No information is given on hyperparameters (learning rate, batch size, number of epochs, optimizer settings), network dimensions (number of LSTM units, kernel sizes, dilation rates, number of layers), activation functions beyond ReLU, dropout rates, regularization strategies, or early stopping criteria. The dimensionality reduction step (PCA and ensemble-based feature selection) is mentioned but not specified in terms of retained variance or number of components.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without these details, other researchers cannot validate, replicate, or build upon the proposed method. The claim of a novel and effective architecture cannot be independently assessed.
+  - **Resolution test** Provide a complete specification of the model architecture, training procedure, and hyperparameters, or release the code with a configuration file that allows exact replication of the reported results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The manuscript claims that LGC-DBP outperforms existing methods, with accuracy of 88.26% and MCC of 0.701 on UniSwiss-Tst.
+  - **Evidence pointer** Section 3.1, Table 1, Figure 3
+  - **Concern** The performance comparison is presented as point estimates without any measure of variance. No cross-validation is reported, no standard deviation or confidence intervals are given, and no statistical significance tests (e.g., McNemar's test, paired bootstrap) are performed to support the claim of superiority over other methods. The reported differences may be within the range of random variation.
+  - **Why it matters** Without statistical rigor, the central claim of improved performance is not established. The differences between methods could be due to chance, particularly if the test set is small or the evaluation protocol is not robust.
+  - **Resolution test** Report results from multiple runs or cross-validation folds with standard deviations, and perform appropriate statistical significance tests against each compared method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation protocol
+  - **Claim pointer** The model is trained on UniSwiss-Tr and tested on UniSwiss-Tst, and generalization is assessed by training on PDB424, PDB1075, and PDB2104 and testing on UniSwiss-Tst.
+  - **Evidence pointer** Section 2.1, Section 3.2, Table 2
+  - **Concern** The evaluation protocol is unclear in several respects. First, the UniSwiss dataset construction is not described in detail, including how the 25% sequence identity threshold was applied and whether the training and test sets are truly independent. Second, for the generalization experiments, it is unclear whether the model architecture was re-tuned for each training dataset or whether the same hyperparameters were used. Third, the comparison methods are not described in terms of their training protocols, and it is unclear whether they were re-trained under the same conditions or whether their reported results were taken from original publications.
+  - **Why it matters** Inconsistent evaluation protocols can bias comparisons. If the model is tuned on the test set or if compared methods are not evaluated under identical conditions, the reported improvements may be artifactual.
+  - **Resolution test** Clearly describe the dataset construction, specify the evaluation protocol for all methods, and ensure that all models are trained and tested under identical conditions, or justify any deviations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological justification
+  - **Claim pointer** The gated inception convolution module combines GCN and dilated convolution, and the improved channel attention uses three inputs and three sigmoid functions.
+  - **Evidence pointer** Section 2.3.2, Section 2.3.3, Section 3.4, Figures 4 and 5
+  - **Concern** The manuscript does not provide a clear theoretical or empirical justification for the specific architectural choices. For example, why is GCN appropriate for PSSM data, which is a 2D matrix rather than a graph? How is the graph structure defined? The ablation study shows that removing components reduces performance, but it does not demonstrate that the specific design choices (e.g., three inputs versus one, gating mechanism versus simple addition) are optimal or necessary.
+  - **Why it matters** Without justification, the architecture appears as an ad hoc combination of components. The scientific contribution is weakened if the design choices are not motivated by clear reasoning or supported by systematic exploration of alternatives.
+  - **Resolution test** Provide a rationale for each architectural choice, describe how the graph is constructed for GCN, and include experiments comparing alternative designs (e.g., different numbers of inputs, different fusion methods).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 1
+  - **Evidence pointer** Section 2.3
+  - **Issue** The loss function is written as LOSS = -sum_{k=1}^{20} y_i log(y_hat_i), but the summation index and the variable names are inconsistent. The subscript k is used in the summation but i appears in the terms. Also, the sum over 20 classes is not explained in the context of a binary classification task.
+  - **Required correction** Clarify the notation and explain why the sum is over 20 classes when the task is binary classification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 1 and Section 3.1
+  - **Evidence pointer** Introduction, Table 1
+  - **Issue** The Introduction reports an accuracy of 88.01% and MCC of 0.738, while Section 3.1 reports 88.26% and 0.701. These discrepancies are not explained.
+  - **Required correction** Reconcile the numbers or clarify which results correspond to which experimental setting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.5, Table 4
+  - **Evidence pointer** Case study
+  - **Issue** The case study selects five random samples but does not provide details on how these samples were chosen, what their characteristics are, or why the compared methods failed on them. The discussion of the case study is largely qualitative and does not add quantitative insight.
+  - **Required correction** Provide more detail on the selected samples and a more rigorous analysis of why LGC-DBP succeeds where others fail.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 1
+  - **Evidence pointer** Introduction
+  - **Issue** Several citations are malformed or incomplete, such as "Kornberg (2000), Jones et al. (1987)" appearing without proper context, and "Liu et al. (2015a). Developed" with a period interrupting the sentence. Some references in the text do not appear in the reference list.
+  - **Required correction** Fix citation formatting and ensure all cited works are included in the reference list.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 2, 3, 4, 5
+  - **Evidence pointer** Section 2.3.2, Section 3.1, Section 3.4
+  - **Issue** The figures are referenced but not described in the text. Figure 2 is mentioned as a structure diagram but no description is given. Figures 3, 4, and 5 are referenced but their content is not explained in sufficient detail.
+  - **Required correction** Add descriptive text for each figure and ensure the figures are legible and informative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (reproducibility), R1-M2 (statistical validity), R1-M3 (evaluation protocol)
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of LSTM, gated inception convolution, and improved channel attention is somewhat novel, but each component is well-established. The originality is incremental rather than transformative.
+  - **Scientific importance** DNA-binding protein identification is a relevant problem, but the manuscript does not demonstrate a substantial advance over existing methods beyond marginal point estimate improvements.
+  - **Interdisciplinary readership** The work is primarily of interest to bioinformatics specialists. The presentation assumes familiarity with deep learning and protein sequence analysis, limiting broader appeal.
+  - **Technical soundness** The technical foundation is plausible but not rigorously validated. The lack of statistical analysis and incomplete experimental details undermine confidence in the reported results.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains jargon and lacks sufficient background for nonspecialists to fully appreciate the methodological contributions.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and proposes a reasonable architecture, but the lack of reproducibility details, statistical validation, and rigorous evaluation protocol prevents the claims from being substantiated. The authors should be encouraged to resubmit after addressing the major concerns.
+
+## Risk / unsupported claims
+- The claim that LGC-DBP "significantly" outperforms existing methods is unsupported without statistical significance testing.
+- The claim that the improved channel attention mechanism "substantially enhances" performance is not backed by systematic comparison with alternative designs.
+- The generalization claim based on training on three different datasets is weakened by the lack of detail on whether the model was re-tuned for each dataset.
+- The statement that the model "recognizes and interprets complex relationships within DBP features more accurately" is a qualitative assertion not directly supported by the presented metrics.
+- The case study claims of superiority over other models on specific samples are anecdotal and not quantitatively substantiated.

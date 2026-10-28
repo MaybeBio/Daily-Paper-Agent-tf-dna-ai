@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "34534646",
+    "doi": "10.1016/j.ygeno.2021.09.009",
+    "title": "Evaluation of deep learning approaches for modeling transcription factor sequence specificity."
+  },
+  "content": {
+    "abstract": "As a key component of gene regulation, transcription factors (TFs) play an important role in a number of biological processes. To fully understand the underlying mechanism of TF-mediated gene regulation, it is therefore critical to accurately identify TF binding sites and predict their affinities. Recently, deep learning (DL) algorithms have achieved promising results in the prediction of DNA-TF binding, however, various deep learning architectures have not been systematically compared, and the relative merit of each architecture remains unclear. To address this problem, we applied four different deep learning architectures to SELEX-seq and HT-SELEX data, covering three species and 35 families. We evaluated and compared the performance of different deep neural models using 10-fold cross-validation. Our results indicate that the hybrid CNN + DNN model shows the best performances. We expect that our study will be broadly applicable to modeling and predicting TF binding specificity when more high-throughput affinity data are available.",
+    "keywords": [
+      "Binding specificity",
+      "Convolutional neural network",
+      "Deep learning",
+      "Deep neural network",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "DNA/genetics",
+      "*Deep Learning",
+      "Humans",
+      "Neural Networks, Computer",
+      "*Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yonglin",
+        "Mo, Qi",
+        "Xue, Li",
+        "Luo, Jiesi"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Mo Q",
+        "Xue L",
+        "Luo J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou 646000, China.",
+        "School of Public Health, Southwest Medical University, Luzhou 646000, China.",
+        "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou 646000, China; Department of Pharmacy, The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Sichuan Key Medical Laboratory of New Drug Discovery and Druggability Evaluation, Luzhou Key Laboratory of Activity Screening and Druggability Evaluation for Chinese Materia Medica, Southwest Medical University, Luzhou 646000, China. Electronic address: ljs@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yonglin",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Qi",
+        "short_name": "Mo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Li",
+        "short_name": "Xue L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jiesi",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Southwest Medical University, Luzhou 646000, China; Department of Pharmacy, The Affiliated Hospital of Southwest Medical University, Luzhou 646000, China; Sichuan Key Medical Laboratory of New Drug Discovery and Druggability Evaluation, Luzhou Key Laboratory of Activity Screening and Druggability Evaluation for Chinese Materia Medica, Southwest Medical University, Luzhou 646000, China. Electronic address: ljs@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics"
+    ],
+    "journal_abbrev": [
+      "Genomics"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/18 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "42358515",
+      "36294937",
+      "36081985"
+    ],
+    "refs": [],
+    "similar": [
+      "34534646",
+      "25775564",
+      "29617928",
+      "38517697",
+      "33372147",
+      "32770026",
+      "38644393",
+      "31336830",
+      "31510640",
+      "32960766",
+      "34073774",
+      "39076052",
+      "30835229",
+      "33498086",
+      "38701417",
+      "27896980",
+      "30423078",
+      "34272562",
+      "35652477",
+      "34864886",
+      "36094959",
+      "36203144",
+      "30922998",
+      "35263332",
+      "33571101",
+      "37214836",
+      "34607350",
+      "34613923",
+      "31634140",
+      "33137083",
+      "34524404",
+      "33794507",
+      "28234893",
+      "35293310",
+      "34962264",
+      "33837387",
+      "31372637",
+      "38733561",
+      "38049725",
+      "34664074",
+      "29297288",
+      "31521253",
+      "37328639",
+      "37598467",
+      "31760248",
+      "31856220",
+      "36748992",
+      "35270913",
+      "31197306",
+      "31267468",
+      "39227799",
+      "33005921",
+      "28167566",
+      "31525737",
+      "35396274",
+      "24267147",
+      "39350338",
+      "37803123",
+      "31974574",
+      "32976105",
+      "30900927",
+      "27307608",
+      "32491928",
+      "26550823",
+      "37100167",
+      "29993783",
+      "35042722",
+      "33522898",
+      "36360189",
+      "38798191",
+      "36155619",
+      "36078053",
+      "33036220",
+      "31324140",
+      "30323198",
+      "33639834",
+      "35666736",
+      "28623580",
+      "30361936",
+      "34376121",
+      "25722376",
+      "32278897",
+      "35471887",
+      "21389103",
+      "25957350",
+      "34322702",
+      "37723425",
+      "19956545",
+      "26818008",
+      "37919990",
+      "34752400",
+      "34837786",
+      "33222315",
+      "28245811",
+      "20158869",
+      "24500199",
+      "31931701",
+      "31186519",
+      "31114870",
+      "35197482",
+      "33808317",
+      "33538038",
+      "32801191",
+      "38378741",
+      "33988925",
+      "32980530",
+      "33600435",
+      "35719916",
+      "38732207",
+      "31874640",
+      "31708215",
+      "35511108",
+      "32683130",
+      "32896633",
+      "30866734",
+      "30985027",
+      "33993816",
+      "33527980",
+      "30685762",
+      "33381817",
+      "31872477",
+      "35883552",
+      "39013383",
+      "37407859",
+      "31016442",
+      "38352411",
+      "38003312",
+      "35803516",
+      "37569400",
+      "36943132",
+      "36789431",
+      "32780735",
+      "35715734",
+      "36796796",
+      "35401453",
+      "33796819",
+      "35924336",
+      "36892770",
+      "36625555",
+      "39271116",
+      "38540688",
+      "35462009",
+      "37867600",
+      "36374878",
+      "36462664",
+      "37845681",
+      "37387183",
+      "35768759",
+      "35345310",
+      "38293094",
+      "29081688",
+      "35891778",
+      "35794723",
+      "38886381",
+      "35690313",
+      "38063012",
+      "38291225",
+      "36298316",
+      "32905524",
+      "37275146",
+      "35438096",
+      "38054331",
+      "35640981",
+      "36018808",
+      "37980358",
+      "36119976",
+      "37305295",
+      "38641811",
+      "35723526",
+      "37971967",
+      "30842277",
+      "36230685",
+      "32551184",
+      "38594933",
+      "36928993",
+      "36999047",
+      "38054334",
+      "35363755",
+      "37712405",
+      "38177595",
+      "37987009",
+      "38293168",
+      "37118136",
+      "36065645"
+    ],
+    "review": [
+      "34534646",
+      "35652477",
+      "21389103",
+      "33222315",
+      "33993816",
+      "29081688",
+      "36298316"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0888-7543(21)00351-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

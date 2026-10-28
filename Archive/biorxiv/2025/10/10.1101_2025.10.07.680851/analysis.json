@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.07.680851",
+  "title": "Improving the Accuracy of Distance-Based Protein–Ligand Binding Affinity Prediction Using Linear Regression and Artificial Neural Network <sup>1</sup>",
+  "authors": "Yong Xiao Yang; Bao Ting Zhu",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-08",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用线性回归和神经网络基于距离变量预测蛋白-配体结合亲和力，虽涉及结合建模和AI方法，但对象为蛋白-配体而非蛋白-DNA，且未聚焦TF-DNA互作，仅方法可部分借鉴。",
+  "abstract": "In the traditional scoring functions for protein–ligand binding affinity prediction, the energies of the electrostatic and van der Waals interactions were evaluated (or restricted) by the mathematical expressions of and , respectively. In comparison, the power exponents of distance-based variables as adopted in the present study are not restricted as those in traditional energy terms for atomic interactions. The distance-based variables were integrated using linear regression and artificial neural network to predict the protein–ligand binding affinity or binding energy. The training of the linear, neural network and mixed models was based on the newest data in PDBbind, i.e ., PDBbind (v.2024). Estimated according to Pearson’s correlation coefficient ( R ), the best performances of the linear models are 0.700 < R ≤ 0.800 with the high-quality affinity data, and those of the neural network-based mixed models are 0.800 ≤ R < 0.900 with the same data. The predictive powers of the best models developed in this study are superior to the sophisticated linear and machine learning-based scoring functions developed before. The results suggest that the distance-based variables with appropriate power exponents may have the ability to improve the prediction of protein–ligand binding affinity with high accuracy. GRAPHICAL ABSTRACT HIGHLIGHTS By using the newest data in PDBbind (v.2024) to train the linear, neural network and mixed models, the quantitative distance–energy relationships are further explored and improved to predict the binding affinity of protein–ligand complexes. The power exponents of distance in the traditional energy terms are expanded to characterize the distance–energy relationships accurately at atom level for protein–ligand interactions. The best models are superior to the sophisticated machine learning-based scoring functions developed before.",
+  "abstract_zh": "在传统的蛋白质-配体结合亲和力预测评分函数中，静电相互作用和范德华相互作用的能量分别通过 和 的数学表达式进行评估（或限制）。相比之下，本研究所采用的距离变量的幂指数不受传统原子相互作用能量项的限制。距离变量通过线性回归和人工神经网络进行整合，以预测蛋白质-配体结合亲和力或结合能。线性模型、神经网络模型及混合模型的训练基于PDBbind中的最新数据，即PDBbind (v.2024)。根据皮尔逊相关系数（R）评估，线性模型的最佳性能为0.700 < R ≤ 0.800，使用高质量亲和力数据；而基于神经网络的混合模型在同一数据上的最佳性能为0.800 ≤ R < 0.900。本研究所开发的最佳模型的预测能力优于先前开发的复杂线性和基于机器学习的评分函数。结果表明，具有适当幂指数的距离变量可能有助于提高蛋白质-配体结合亲和力预测的准确性。图形摘要亮点：通过使用PDBbind (v.2024)中的最新数据训练线性、神经网络及混合模型，进一步探索并改进了定量距离-能量关系，以预测蛋白质-配体复合物的结合亲和力。传统能量项中距离的幂指数被扩展，以在原子水平上准确表征蛋白质-配体相互作用的距离-能量关系。最佳模型优于先前开发的复杂基于机器学习的评分函数。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680851",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.07.680851/index.html"
+}

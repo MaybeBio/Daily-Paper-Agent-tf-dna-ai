@@ -1,0 +1,607 @@
+{
+  "identity": {
+    "pmid": "41026524",
+    "doi": "10.1172/JCI195267",
+    "title": "Altered immune and metabolic molecular pathways drive islet cell dysfunction in human type 1 diabetes."
+  },
+  "content": {
+    "abstract": "Type 1 diabetes (T1D) is characterized by the autoimmune destruction of most insulin-producing beta cells, along with dysregulated glucagon secretion from pancreatic alpha cells. We conducted an integrated analysis that combines electrophysiological and transcriptomic profiling, along with machine learning, of islet cells from T1D donors. The few surviving beta cells exhibit altered electrophysiological properties and transcriptomic signatures indicative of increased antigen presentation, metabolic reprogramming, and impaired protein translation. In alpha cells, we observed hyperresponsiveness and increased exocytosis, which are associated with upregulated immune signaling, disrupted transcription factor localization, and lysosome homeostasis, as well as dysregulation of mTORC1 complex signaling. Notably, key genetic risk signals for T1D were enriched in transcripts related to alpha cell dysfunction, including MHC class I, which were closely linked with alpha cell dysfunction. Our data provide what we believe are novel insights into the molecular underpinnings of islet cell dysfunction in T1D, highlighting pathways that may be leveraged to preserve residual beta cell function and modulate alpha cell activity. These findings underscore the complex interplay between immune signaling, metabolic stress, and cellular identity in shaping islet cell phenotypes in T1D.",
+    "keywords": [
+      "Autoimmunity",
+      "Cell biology",
+      "Diabetes",
+      "Endocrinology",
+      "Islet cells"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 1/immunology/pathology/metabolism/genetics",
+      "*Glucagon-Secreting Cells/immunology/pathology/metabolism",
+      "*Insulin-Secreting Cells/immunology/pathology/metabolism",
+      "*Signal Transduction/immunology",
+      "Female",
+      "Male",
+      "Mechanistic Target of Rapamycin Complex 1/immunology/metabolism/genetics",
+      "Adult",
+      "*Islets of Langerhans/immunology/pathology/metabolism",
+      "Transcriptome",
+      "Exocytosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dos Santos, Theodore",
+        "Dai, Xiao-Qing",
+        "Jones, Robert C",
+        "Spigelman, Aliya F",
+        "Mummey, Hannah M",
+        "Ewald, Jessica D",
+        "Ellis, Cara E",
+        "Lyon, James G",
+        "Smith, Nancy",
+        "Bautista, Austin",
+        "Manning Fox, Jocelyn E",
+        "Neff, Norma F",
+        "Detweiler, Angela M",
+        "Tan, Michelle",
+        "Arrojo E Drigo, Rafael",
+        "Xia, Jianguo",
+        "Camunas-Soler, Joan",
+        "Gaulton, Kyle J",
+        "Quake, Stephen R",
+        "MacDonald, Patrick E"
+      ],
+      "short_names": [
+        "Dos Santos T",
+        "Dai XQ",
+        "Jones RC",
+        "Spigelman AF",
+        "Mummey HM",
+        "Ewald JD",
+        "Ellis CE",
+        "Lyon JG",
+        "Smith N",
+        "Bautista A",
+        "Manning Fox JE",
+        "Neff NF",
+        "Detweiler AM",
+        "Tan M",
+        "Arrojo E Drigo R",
+        "Xia J",
+        "Camunas-Soler J",
+        "Gaulton KJ",
+        "Quake SR",
+        "MacDonald PE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Department of Bioengineering, Stanford University, Stanford, California, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+        "Department of Applied Physics, Stanford University, Stanford, California, USA.",
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Bioinformatics and Systems Biology Program, University of California San Diego, La Jolla, California, USA.",
+        "European Bioinformatics Institute (EMBL-EBI), European Molecular Biology Laboratory, Wellcome Genome Campus, Hinxton, United Kingdom.",
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+        "Department of Molecular Physiology and Biophysics and.",
+        "Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee, USA.",
+        "Department of Microbiology & Immunology, McGill University, Montreal, Quebec, Canada.",
+        "Department of Medical Biochemistry and Cell Biology, Institute of Biomedicine and.",
+        "Wallenberg Centre for Molecular and Translational Medicine, Sahlgrenska Academy, University of Gothenburg, Sweden.",
+        "Department of Pediatrics, Pediatric Diabetes Research Center, University of California San Diego, La Jolla, California, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, California, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+        "Department of Applied Physics, Stanford University, Stanford, California, USA.",
+        "Department of Pharmacology and.",
+        "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+        "Division of Metabolism, Endocrinology & Diabetes, University of Michigan, Ann Arbor, Michigan, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dos Santos, Theodore",
+        "short_name": "Dos Santos T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Dai, Xiao-Qing",
+        "short_name": "Dai XQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Jones, Robert C",
+        "short_name": "Jones RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, California, USA.",
+          "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+          "Department of Applied Physics, Stanford University, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "Spigelman, Aliya F",
+        "short_name": "Spigelman AF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Mummey, Hannah M",
+        "short_name": "Mummey HM",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Ewald, Jessica D",
+        "short_name": "Ewald JD",
+        "identifiers": [],
+        "affiliations": [
+          "European Bioinformatics Institute (EMBL-EBI), European Molecular Biology Laboratory, Wellcome Genome Campus, Hinxton, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ellis, Cara E",
+        "short_name": "Ellis CE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Lyon, James G",
+        "short_name": "Lyon JG",
+        "identifiers": [],
+        "affiliations": [
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Smith, Nancy",
+        "short_name": "Smith N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Bautista, Austin",
+        "short_name": "Bautista A",
+        "identifiers": [],
+        "affiliations": [
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Manning Fox, Jocelyn E",
+        "short_name": "Manning Fox JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada."
+        ]
+      },
+      {
+        "full_name": "Neff, Norma F",
+        "short_name": "Neff NF",
+        "identifiers": [],
+        "affiliations": [
+          "Chan Zuckerberg Biohub, San Francisco, California, USA."
+        ]
+      },
+      {
+        "full_name": "Detweiler, Angela M",
+        "short_name": "Detweiler AM",
+        "identifiers": [],
+        "affiliations": [
+          "Chan Zuckerberg Biohub, San Francisco, California, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Michelle",
+        "short_name": "Tan M",
+        "identifiers": [],
+        "affiliations": [
+          "Chan Zuckerberg Biohub, San Francisco, California, USA."
+        ]
+      },
+      {
+        "full_name": "Arrojo E Drigo, Rafael",
+        "short_name": "Arrojo E Drigo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology and Biophysics and.",
+          "Center for Computational Systems Biology, Vanderbilt University, Nashville, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Xia, Jianguo",
+        "short_name": "Xia J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology & Immunology, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Camunas-Soler, Joan",
+        "short_name": "Camunas-Soler J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Cell Biology, Institute of Biomedicine and.",
+          "Wallenberg Centre for Molecular and Translational Medicine, Sahlgrenska Academy, University of Gothenburg, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gaulton, Kyle J",
+        "short_name": "Gaulton KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Pediatric Diabetes Research Center, University of California San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Quake, Stephen R",
+        "short_name": "Quake SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, California, USA.",
+          "Chan Zuckerberg Biohub, San Francisco, California, USA.",
+          "Department of Applied Physics, Stanford University, Stanford, California, USA."
+        ]
+      },
+      {
+        "full_name": "MacDonald, Patrick E",
+        "short_name": "MacDonald PE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and.",
+          "Alberta Diabetes Institute, University of Alberta, Edmonton, Alberta, Canada.",
+          "Division of Metabolism, Endocrinology & Diabetes, University of Michigan, Ann Arbor, Michigan, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of clinical investigation"
+    ],
+    "journal_abbrev": [
+      "J Clin Invest"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/30 18:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42627374",
+      "42625306",
+      "42367774",
+      "42151185",
+      "42112402",
+      "42065736",
+      "41673026",
+      "41441015",
+      "41321312",
+      "40585213",
+      "40166299"
+    ],
+    "refs": [
+      "40875294",
+      "40457096",
+      "39512752",
+      "39505716",
+      "39357523",
+      "39313541",
+      "39009220",
+      "38979061",
+      "38850534",
+      "38808672",
+      "38737700",
+      "38700926",
+      "38677282",
+      "38409439",
+      "38040705",
+      "37779156",
+      "37734713",
+      "37561710",
+      "37556323",
+      "37523232",
+      "37494670",
+      "37480416",
+      "37478842",
+      "37379719",
+      "37231096",
+      "37072614",
+      "36639733",
+      "36516761",
+      "36445949",
+      "36151993",
+      "36134336",
+      "36097072",
+      "35977928",
+      "35957816",
+      "35642629",
+      "35421386",
+      "35268394",
+      "35228745",
+      "35108513",
+      "34882091",
+      "34659118",
+      "34097873",
+      "34012112",
+      "33724156",
+      "33706238",
+      "33582383",
+      "33495357",
+      "33303639",
+      "33224945",
+      "32999275",
+      "32618633",
+      "32402282",
+      "32324170",
+      "32302527",
+      "31923647",
+      "31785304",
+      "31500824",
+      "31237842",
+      "31127054",
+      "30953108",
+      "30944313",
+      "30599002",
+      "30224801",
+      "30089716",
+      "29844327",
+      "29656931",
+      "29514095",
+      "29378867",
+      "29275961",
+      "29224918",
+      "29158477",
+      "29106387",
+      "28797256",
+      "28710249",
+      "28529512",
+      "28275121",
+      "27422384",
+      "26852705",
+      "26620391",
+      "26137583",
+      "25971976",
+      "25677915",
+      "25260700",
+      "25053587",
+      "24907310",
+      "24696460",
+      "24121625",
+      "23770292",
+      "23584836",
+      "23104886",
+      "22727420",
+      "21952136",
+      "21173796",
+      "20963398",
+      "20699420",
+      "20424842",
+      "17261637",
+      "15133757",
+      "14747294",
+      "11345194",
+      "10834434",
+      "8477882"
+    ],
+    "similar": [
+      "41026524",
+      "39404844",
+      "38922355",
+      "41006055",
+      "40375390",
+      "41059747",
+      "39594662",
+      "39433176",
+      "40457096",
+      "40232951",
+      "29514095",
+      "29723228",
+      "25918235",
+      "36696598",
+      "22412385",
+      "33042009",
+      "26581594",
+      "40791590",
+      "31493350",
+      "39944686",
+      "40244115",
+      "32739450",
+      "37734713",
+      "41321312",
+      "34358764",
+      "40705030",
+      "25101835",
+      "29369915",
+      "35108513",
+      "33706238",
+      "40149868",
+      "32065829",
+      "40335415",
+      "39601887",
+      "38506753",
+      "29412832",
+      "30149101",
+      "23386639",
+      "23256897",
+      "28343791",
+      "40782630",
+      "33832648",
+      "26844283",
+      "40011232",
+      "28323930",
+      "28880471",
+      "40260914",
+      "27338624",
+      "41141358",
+      "19912253",
+      "26773144",
+      "41236207",
+      "41423547",
+      "30760930",
+      "21059644",
+      "42068012",
+      "38677282",
+      "39682744",
+      "40534855",
+      "38864887",
+      "33913203",
+      "41067947",
+      "20532863",
+      "36611907",
+      "23182678",
+      "40423527",
+      "28215845",
+      "21633185",
+      "23891763",
+      "40014407",
+      "24003923",
+      "39114661",
+      "40875294",
+      "33042023",
+      "40473678",
+      "35660116",
+      "26757816",
+      "30833470",
+      "22143342",
+      "31309537",
+      "29589071",
+      "40495021",
+      "39463434",
+      "26801316",
+      "32302527",
+      "25605478",
+      "42112402",
+      "33193102",
+      "41063994",
+      "33619103",
+      "34502413",
+      "38889047",
+      "35957810",
+      "40048557",
+      "24556398",
+      "42145066",
+      "26339637",
+      "37152965",
+      "39508880",
+      "24233663"
+    ],
+    "review": [
+      "41026524",
+      "40375390",
+      "39594662",
+      "40791590",
+      "40244115",
+      "37734713",
+      "29369915",
+      "40149868",
+      "29412832",
+      "30149101",
+      "33832648",
+      "28880471",
+      "39682744",
+      "40534855",
+      "41067947",
+      "23182678",
+      "40423527",
+      "24003923",
+      "33042023",
+      "31309537",
+      "42112402",
+      "33193102",
+      "34502413",
+      "24556398",
+      "42145066",
+      "26339637"
+    ],
+    "pmc": [
+      "12646676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1172/JCI195267",
+        "provider": "American Society for Clinical Investigation",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetestype1.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 1"
+      },
+      {
+        "url": "https://www.ovid.com/41026524.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41026524/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

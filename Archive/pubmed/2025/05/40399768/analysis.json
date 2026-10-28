@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40399768",
+  "title": "Prediction of B/T Subtype and ETV6-RUNX1 Translocation in Pediatric Acute Lymphoblastic Leukemia by Deep Learning Analysis of Giemsa-Stained Whole Slide Images of Bone Marrow Aspirates.",
+  "authors": "Piven, Arkadi; Shamai, Gil; Elitzur, Sarah; Berger, Galit Pinto; Binenbaum, Yoav; Kimmel, Ron; Elhasid, Ronit",
+  "journal": "Pediatric blood & cancer",
+  "published_date": "2025-05-22",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习分析骨髓涂片图像预测白血病亚型及ETV6-RUNX1易位，属纯图像分类诊断，无蛋白质-DNA互作体系或结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Accurate determination of B/T-cell lineage and the presence of the ETV6-RUNX1 translocation is critical for diagnosing acute lymphoblastic leukemia (ALL), as these factors influence treatment decisions and outcomes. However, these diagnostic processes often rely on advanced tools unavailable in low-resource settings, creating a need for alternative solutions. PROCEDURE: We developed a deep learning pipeline to analyze Giemsa-stained bone marrow (BM) aspirate smears. The models were trained to distinguish between ALL, acute myeloid leukemia (AML), and non-leukemic BM samples, predict B- and T-cell lineage in ALL, and detect the presence of the ETV6-RUNX1 translocation. The performance was evaluated using cross-validation (CV) and an external validation cohort. RESULTS: The models achieved a statistically significant area under the curve (AUC) of 0.99 in distinguishing ALL from AML and control samples. In cross-validation (CV), the models achieved a cross-validation AUC of 0.74 for predicting B/T subtypes. For predicting ETV6-RUNX1 translocation, the models achieved an AUC of 0.80. External cohort validation confirmed significant AUCs of 0.72 for B/T subtype classification and 0.69 for ETV6-RUNX1 translocation prediction. CONCLUSIONS: Convolutional neural networks (CNNs) demonstrate potential as a diagnostic tool for pediatric ALL, enabling the identification of B/T lineage and ETV6-RUNX1 translocation from Giemsa-stained smears. These results pave the way for future utilization of CNNs as a diagnostic modality for pediatric leukemia in low-resource settings, where access to advanced diagnostic techniques is limited.",
+  "abstract_zh": "背景：准确确定B/T细胞谱系及ETV6-RUNX1易位的存在对于诊断急性淋巴细胞白血病（ALL）至关重要，因为这些因素影响治疗决策和预后。然而，这些诊断过程通常依赖于在资源匮乏环境中无法获得的先进工具，因此需要替代解决方案。方法：我们开发了一个深度学习流程，用于分析吉姆萨染色的骨髓（BM）穿刺涂片。模型经过训练，能够区分ALL、急性髓系白血病（AML）和非白血病BM样本，预测ALL中的B细胞和T细胞谱系，并检测ETV6-RUNX1易位的存在。性能通过交叉验证（CV）和外部验证队列进行评估。结果：在区分ALL与AML及对照样本方面，模型实现了统计显著的曲线下面积（AUC）0.99。在交叉验证（CV）中，模型预测B/T亚型的交叉验证AUC为0.74。对于预测ETV6-RUNX1易位，模型实现了AUC 0.80。外部队列验证确认了B/T亚型分类的AUC为0.72，ETV6-RUNX1易位预测的AUC为0.69，均具有统计显著性。结论：卷积神经网络（CNNs）显示出作为儿童ALL诊断工具的潜力，能够从吉姆萨染色涂片中识别B/T谱系和ETV6-RUNX1易位。这些结果为未来在先进诊断技术获取受限的资源匮乏环境中，将CNNs用作儿童白血病诊断方式铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40399768/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40399768/",
+  "paper_page_path": "papers/pubmed/40399768/index.html"
+}

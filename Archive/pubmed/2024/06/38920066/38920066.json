@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "38920066",
+    "doi": "10.2174/0113862073296539240527064736",
+    "title": "Prospects for the Protective Mechanisms and Compounds of Bufei Huoxue Capsule against COVID-19 Convalescence: Evaluation of Integrating UHPLC-HRMS Analysis and Network Pharmacology Strategy."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Most COVID-19 survivors are troubled with chronic persistent symptoms, which have currently no definitive treatments. Bufei Huoxue (BFHX) capsule exerts clinical benefit, while the material basis and molecular mechanism remain unclear. AIM: The study aimed to elucidate the protective mechanisms of BFHX capsule against COVID-19 convalescence. METHODS: UHPLC-HRMS and various databases were employed to explore potential compounds and targets. PPI, MCODE, transcription factor (TF), and miRNA analyses were conducted to receive hub targets and corresponding upstream regulators. Molecular docking was applied to verify the binding activity of compound and target. Further, GO, KEGG, WIKI, and Reactome analyses were performed, and compound-target-symptom and gene-disease networks were constructed. RESULTS: A total of 127 compounds and 313 targets were acquired. A sum of 10 hub targets were screened and molecular docking results suggested that the top 3 compounds had good binding affinities with the top 3 target proteins. MLLT1, CBFB, and EZH2 were identified as key TFs, and hsamir- 146a-5p, hsa-mir-26b-5p, and hsa-mir-24-3p were predicted to be important miRNAs. BFHX capsule may alleviate the symptoms by targeting TNF, IL-6, IFNG, and TGF-beta1. Besides, BFHX capsule may exert a therapeutic effect on respiratory disease (especially pulmonary fibrosis and lung infection) and multi-system damage during COVID-19 convalescence by regulating cytokinecytokine receptor interaction, as well as TGF-beta, TNF, and Toll-like receptor signaling pathways. CONCLUSION: In summary, BFHX capsule may exert a therapeutic effect on multi-system damages during COVID-19 convalescence through multiple compounds (such as albiflorin, isopsoralen, and neobavaisoflavone), multiple targets (such as TNF, IL-6, and EGF) and multiple pathways (TGF-beta, TNF, and Toll-like receptor signaling pathways).",
+    "keywords": [
+      "Bufei Huoxue capsule",
+      "COVID-19 convalescence",
+      "UHPLC-HRMS",
+      "network pharmacology",
+      "protective mechanisms",
+      "sequelae."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*COVID-19 Drug Treatment",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry/therapeutic use",
+      "Network Pharmacology",
+      "COVID-19",
+      "Chromatography, High Pressure Liquid",
+      "SARS-CoV-2/drug effects",
+      "Capsules",
+      "Medicine, Chinese Traditional"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Yi-Zi",
+        "Xie, Yi",
+        "Liu, Cheng-Xin",
+        "Peng, Chen-Wen",
+        "Lin, Xue-Ying",
+        "Huang, Hui-Ting",
+        "Zhan, Shao-Feng",
+        "Liu, Xiao-Hong",
+        "Li, Hang",
+        "Huang, Xiu-Fang"
+      ],
+      "short_names": [
+        "Xie YZ",
+        "Xie Y",
+        "Liu CX",
+        "Peng CW",
+        "Lin XY",
+        "Huang HT",
+        "Zhan SF",
+        "Liu XH",
+        "Li H",
+        "Huang XF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Shenzhen Bao'an District Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen, China.",
+        "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Yi-Zi",
+        "short_name": "Xie YZ",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yi",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cheng-Xin",
+        "short_name": "Liu CX",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Chen-Wen",
+        "short_name": "Peng CW",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xue-Ying",
+        "short_name": "Lin XY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "The First Clinical Medical College of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hui-Ting",
+        "short_name": "Huang HT",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Shao-Feng",
+        "short_name": "Zhan SF",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiao-Hong",
+        "short_name": "Liu XH",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Bao'an District Traditional Chinese Medicine Hospital, Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiu-Fang",
+        "short_name": "Huang XF",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Lingnan Medical Research Center of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Combinatorial chemistry & high throughput screening"
+    ],
+    "journal_abbrev": [
+      "Comb Chem High Throughput Screen"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/26 06:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38248798",
+      "37881207",
+      "37556289",
+      "36951832",
+      "36085055",
+      "36002440",
+      "35299779",
+      "35279012",
+      "35192635",
+      "35185541",
+      "35123689",
+      "35049500",
+      "35046942",
+      "35023830",
+      "35008594",
+      "34970243",
+      "34964406",
+      "34957187",
+      "34944747",
+      "34911696",
+      "34910814",
+      "34889662",
+      "34881430",
+      "34835277",
+      "34763045",
+      "34759820",
+      "34737695",
+      "34710516",
+      "34655890",
+      "34601221",
+      "34590155",
+      "34575258",
+      "34548411",
+      "34536697",
+      "34535196",
+      "34509953",
+      "34496650",
+      "34319254",
+      "34260965",
+      "34198949",
+      "34153851",
+      "34127355",
+      "34098216",
+      "34024217",
+      "33932814",
+      "33857805",
+      "33839002",
+      "33613280",
+      "33561690",
+      "33523608",
+      "33428867",
+      "33239683",
+      "33237311",
+      "33181098",
+      "33151290",
+      "33135345",
+      "33068428",
+      "33006087",
+      "32884218",
+      "32644129",
+      "32573711",
+      "32475230",
+      "32464158",
+      "32422178",
+      "32402155",
+      "32358580",
+      "32357210",
+      "32337555",
+      "32047816",
+      "32028672",
+      "31934279",
+      "31649545",
+      "31647101",
+      "31571275",
+      "31536783",
+      "31066453",
+      "31009850",
+      "30931480",
+      "30365030",
+      "29991677",
+      "29126136",
+      "28397806",
+      "28337225",
+      "28093210",
+      "27924018",
+      "27794042",
+      "27698775",
+      "27670769",
+      "26660334",
+      "26590256",
+      "25960613",
+      "25313148",
+      "23193258",
+      "22955616",
+      "21540797",
+      "19499576"
+    ],
+    "similar": [
+      "38920066",
+      "39617709",
+      "34763045",
+      "37957903",
+      "33191068",
+      "39552028",
+      "32643448",
+      "33513419",
+      "33135607",
+      "34105049",
+      "38579905",
+      "34941025",
+      "38696100",
+      "38286154",
+      "39041127",
+      "37277082",
+      "34414237",
+      "35934629",
+      "33140889",
+      "39074420",
+      "39410900",
+      "39701742",
+      "35859316",
+      "39004032",
+      "35616676",
+      "39612422",
+      "40911004",
+      "35258759",
+      "39252243",
+      "33054436",
+      "35970314",
+      "37807411",
+      "34753385",
+      "40922365",
+      "32307268",
+      "34313585",
+      "37340752",
+      "38310567",
+      "37505183",
+      "38018195",
+      "37732603",
+      "36414217",
+      "37832514",
+      "35751193",
+      "39075002",
+      "40013962",
+      "34655890",
+      "38834599",
+      "38759074",
+      "35029877",
+      "39066538",
+      "39035784",
+      "39076092",
+      "38114126",
+      "40326257",
+      "40291435",
+      "35960090",
+      "40794954",
+      "34174759",
+      "35119030",
+      "33357725",
+      "38913698",
+      "37499457",
+      "39208658",
+      "39259129",
+      "33509749",
+      "41239709",
+      "35227068",
+      "37653800",
+      "37855353",
+      "40816715",
+      "39686413",
+      "39015338",
+      "37437794",
+      "36280016",
+      "34664825",
+      "36099655",
+      "39522841",
+      "33691446",
+      "34675488",
+      "35101570",
+      "39293970",
+      "40398242",
+      "40593998",
+      "35757478",
+      "40086050",
+      "41031039",
+      "39343107",
+      "33831468",
+      "38701256",
+      "37080367",
+      "39322020",
+      "39842747",
+      "33986661",
+      "33746604",
+      "39171596",
+      "34560213",
+      "38994616",
+      "40033508",
+      "37832105"
+    ],
+    "review": [
+      "38920066",
+      "35119030"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/230964/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

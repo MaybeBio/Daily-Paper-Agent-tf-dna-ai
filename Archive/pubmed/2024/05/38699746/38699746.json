@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "38699746",
+    "doi": "10.1016/j.heliyon.2024.e30086",
+    "title": "Identification of shared molecular mechanisms and diagnostic biomarkers between heart failure and idiopathic pulmonary fibrosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Heart failure (HF) and idiopathic pulmonary fibrosis (IPF) are global public health concerns. The relationship between HF and IPF is widely acknowledged. However, the interaction mechanisms between these two diseases remain unclear, and early diagnosis is particularly difficult. Through the integration of bioinformatics and machine learning, our work aims to investigate common gene features, putative molecular causes, and prospective diagnostic indicators of IPF and HF. METHODS: The Gene Expression Omnibus (GEO) database provided the RNA-seq datasets for HF and IPF. Utilizing a weighted gene co-expression network analysis (WGCNA), possible genes linked to HF and IPF were found. The Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) were then employed to analyze the genes that were shared by HF and IPF. Using the cytoHubba and iRegulon algorithms, a competitive endogenous RNA (ceRNA) network was built based on seven basic diagnostic indicators. Additionally, hub genes were identified using machine learning approaches. External datasets were used to validate the findings. Lastly, the association between the number of immune cells in tissues and the discovered genes was estimated using the CIBERSORT method. RESULTS: In total, 63 shared genes were identified between HF- and IPF-related modules using WGCNA. Extracellular matrix (ECM)/structure organization, ECM-receptor interactions, focal, and protein digestion and absorption, were shown to be the most enrichment categories in GO and KEGG enrichment analysis of common genes. Furthermore, a total of seven fundamental genes, including COL1A1, COL3A1, THBS2, CCND1, ASPN, FAP, and S100A12, were recognized as pivotal genes implicated in the shared pathophysiological pathways of HF and IPF, and TCF12 may be the most important regulatory transcription factor. Two characteristic molecules, CCND1 and NAP1L3, were selected as potential diagnostic markers for HF and IPF, respectively, using a support vector machine-recursive feature elimination (SVM-RFE) model. Furthermore, the development of diseases and diagnostic markers may be associated with immune cells at varying degrees. CONCLUSIONS: This study demonstrated that ECM/structure organisation, ECM-receptor interaction, focal adhesion, and protein digestion and absorption, are common pathogeneses of IPF and HF. Additionally, CCND1 and NAP1L3 were identified as potential diagnostic biomarkers for both HF and IPF. The results of our study contribute to the comprehension of the co-pathogenesis of HF and IPF at the genetic level and offer potential biological indicators for the early detection of both conditions.",
+    "keywords": [
+      "Bioinformatics",
+      "Diagnostic biomarkers",
+      "Heart failure",
+      "Idiopathic pulmonary fibrosis",
+      "SVM-RFE",
+      "WGCNA"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Peng",
+        "Geng, Lou",
+        "Zhang, Kandi",
+        "Liu, Dongsheng",
+        "Wei, Meng",
+        "Jiang, Zheyi",
+        "Lu, Yihua",
+        "Zhang, Tiantian",
+        "Chen, Jie",
+        "Zhang, Junfeng"
+      ],
+      "short_names": [
+        "Zhang P",
+        "Geng L",
+        "Zhang K",
+        "Liu D",
+        "Wei M",
+        "Jiang Z",
+        "Lu Y",
+        "Zhang T",
+        "Chen J",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Hematology, Institute of Hematology, Changhai Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Hematology, Institute of Hematology, Changhai Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Lou",
+        "short_name": "Geng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Institute of Hematology, Changhai Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kandi",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dongsheng",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Meng",
+        "short_name": "Wei M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Zheyi",
+        "short_name": "Jiang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yihua",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tiantian",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jie",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Institute of Hematology, Changhai Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junfeng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2024 Apr 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/03 06:43",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42185599",
+      "42113804",
+      "40148411",
+      "40001968"
+    ],
+    "refs": [
+      "37372424",
+      "36595867",
+      "36377508",
+      "35645616",
+      "35490318",
+      "35150240",
+      "34915125",
+      "34813355",
+      "34233665",
+      "33983838",
+      "33804108",
+      "33486554",
+      "33046850",
+      "32793672",
+      "32053308",
+      "31902369",
+      "31578211",
+      "31075413",
+      "30734283",
+      "30554332",
+      "30046127",
+      "29720723",
+      "29458139",
+      "29344893",
+      "29180230",
+      "29080693",
+      "29075197",
+      "29052582",
+      "28836616",
+      "27894980",
+      "27599614",
+      "26807756",
+      "26756631",
+      "25851596",
+      "25058159",
+      "24728497",
+      "23193258",
+      "22455463",
+      "20935110",
+      "19891795",
+      "19114008",
+      "16043429",
+      "15546794",
+      "10928937",
+      "10802651",
+      "2183601"
+    ],
+    "similar": [
+      "38699746",
+      "41158346",
+      "40406620",
+      "39351239",
+      "39142001",
+      "38355637",
+      "40857336",
+      "40665394",
+      "42074286",
+      "42358366",
+      "36704339",
+      "36532015",
+      "37559532",
+      "34476240",
+      "40617086",
+      "41146237",
+      "39351221",
+      "36685820",
+      "39263286",
+      "37334348",
+      "36871016",
+      "35367598",
+      "37928522",
+      "39991151",
+      "37143707",
+      "39944354",
+      "37008314",
+      "39165378",
+      "40273141",
+      "37783761",
+      "37426132",
+      "41415264",
+      "41764494",
+      "41164826",
+      "35958412",
+      "38774864",
+      "42708302",
+      "38912340",
+      "40670650",
+      "40630623",
+      "38371312",
+      "40967560",
+      "42397093",
+      "41815121",
+      "38260098",
+      "37924392",
+      "36507532",
+      "40312440",
+      "37907428",
+      "42024670",
+      "39713769",
+      "38784225",
+      "40374840",
+      "38571624",
+      "39509434",
+      "41386886",
+      "38951833",
+      "40187620",
+      "41388523",
+      "40570466",
+      "39507054",
+      "41192648",
+      "35128826",
+      "41044520",
+      "41703488",
+      "40766309",
+      "41654988",
+      "38703565",
+      "38571583",
+      "40355204",
+      "40421012",
+      "41583295",
+      "39170142",
+      "36386304",
+      "39289672",
+      "40095160",
+      "42313235",
+      "37686108",
+      "41548166",
+      "39364223",
+      "35713363",
+      "39754246",
+      "42400038",
+      "37359526",
+      "41562054",
+      "40153017",
+      "42107160",
+      "36923791",
+      "39805933",
+      "41325398",
+      "32782692",
+      "37985153",
+      "36860337",
+      "40093327",
+      "34872285",
+      "39609718",
+      "32943114",
+      "36819574",
+      "42327749",
+      "39340293"
+    ],
+    "review": [
+      "38699746",
+      "35367598"
+    ],
+    "pmc": [
+      "11063427"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(24)06117-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38699746/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38699746",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1186",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

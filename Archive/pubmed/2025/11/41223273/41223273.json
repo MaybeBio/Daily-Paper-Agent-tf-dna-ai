@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "41223273",
+    "doi": "10.1126/sciadv.ady9807",
+    "title": "Substrate recognition by human separase."
+  },
+  "content": {
+    "abstract": "The cohesin complex encircles sister chromatids in early mitosis. At anaphase onset, sister separation is triggered by the proteolytic cleavage of the cohesin subunit SCC1/RAD21 by separase. SCC1 contains two cleavage sites, where cleavage is stimulated by SCC1 phosphorylation. Substrate recognition and cleavage are only partly understood. Here, we determined structures of human separase in apo- or substrate-bound forms that, together with biochemical analysis, provide critical insights into separase cleavage regulation. We verify the first SCC1 cleavage site and reassign the second. We show that substrates, including separase autocleavage sites and the two SCC1 cleavage sites, interact with docking sites in separase, including five phosphate-binding sites. We also describe the interaction between the cohesin subunit SA1/SA2 and separase, which promotes cleavage at the second SCC1 site. Using cross-linking mass spectrometry and cryo-electron microscopy, we propose how cohesin is targeted by human separase. Our work provides an extensive functional and structural framework that explains a key event in cell division.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Separase/metabolism/chemistry",
+      "Substrate Specificity",
+      "*Cell Cycle Proteins/metabolism/chemistry",
+      "Chromosomal Proteins, Non-Histone/metabolism/chemistry",
+      "Cohesins",
+      "Protein Binding",
+      "Binding Sites",
+      "Models, Molecular",
+      "Phosphorylation",
+      "Nuclear Proteins/metabolism/chemistry",
+      "Cryoelectron Microscopy",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Jun",
+        "Schmidt, Sophia",
+        "Botto, Margherita",
+        "Lee, Kitaik",
+        "Ghent, Chloe M",
+        "Goodfried, Jonah M",
+        "Howe, Andrew",
+        "O'Reilly, Francis J",
+        "Morgan, David O",
+        "Boland, Andreas"
+      ],
+      "short_names": [
+        "Yu J",
+        "Schmidt S",
+        "Botto M",
+        "Lee K",
+        "Ghent CM",
+        "Goodfried JM",
+        "Howe A",
+        "O'Reilly FJ",
+        "Morgan DO",
+        "Boland A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5642-3991",
+        "ORCID: 0009-0004-3852-1431",
+        "ORCID: 0000-0002-7761-5586",
+        "ORCID: 0000-0001-5424-1174",
+        "ORCID: 0009-0002-4524-5805",
+        "ORCID: 0000-0003-2187-7672",
+        "ORCID: 0000-0001-9258-0150",
+        "ORCID: 0000-0001-8753-4416",
+        "ORCID: 0000-0003-1218-6714"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland.",
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland.",
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland.",
+        "Center for Structural Biology, Center for Cancer Research, National Cancer Institute (NCI), Frederick, MD 21702-1201, USA.",
+        "Department of Physiology, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Physiology, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Bioimaging Center, University of Geneva, Geneva, Switzerland.",
+        "Center for Structural Biology, Center for Cancer Research, National Cancer Institute (NCI), Frederick, MD 21702-1201, USA.",
+        "Department of Physiology, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Jun",
+        "short_name": "Yu J",
+        "identifiers": [
+          "0000-0001-5642-3991"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Sophia",
+        "short_name": "Schmidt S",
+        "identifiers": [
+          "0009-0004-3852-1431"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Botto, Margherita",
+        "short_name": "Botto M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Lee, Kitaik",
+        "short_name": "Lee K",
+        "identifiers": [
+          "0000-0002-7761-5586"
+        ],
+        "affiliations": [
+          "Center for Structural Biology, Center for Cancer Research, National Cancer Institute (NCI), Frederick, MD 21702-1201, USA."
+        ]
+      },
+      {
+        "full_name": "Ghent, Chloe M",
+        "short_name": "Ghent CM",
+        "identifiers": [
+          "0000-0001-5424-1174"
+        ],
+        "affiliations": [
+          "Department of Physiology, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Goodfried, Jonah M",
+        "short_name": "Goodfried JM",
+        "identifiers": [
+          "0009-0002-4524-5805"
+        ],
+        "affiliations": [
+          "Department of Physiology, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Howe, Andrew",
+        "short_name": "Howe A",
+        "identifiers": [
+          "0000-0003-2187-7672"
+        ],
+        "affiliations": [
+          "Bioimaging Center, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "O'Reilly, Francis J",
+        "short_name": "O'Reilly FJ",
+        "identifiers": [
+          "0000-0001-9258-0150"
+        ],
+        "affiliations": [
+          "Center for Structural Biology, Center for Cancer Research, National Cancer Institute (NCI), Frederick, MD 21702-1201, USA."
+        ]
+      },
+      {
+        "full_name": "Morgan, David O",
+        "short_name": "Morgan DO",
+        "identifiers": [
+          "0000-0001-8753-4416"
+        ],
+        "affiliations": [
+          "Department of Physiology, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Boland, Andreas",
+        "short_name": "Boland A",
+        "identifiers": [
+          "0000-0003-1218-6714"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/12 23:30",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [
+      "42132940",
+      "41959301",
+      "41223259"
+    ],
+    "refs": [
+      "38718835",
+      "38408488",
+      "37270635",
+      "37140261",
+      "36450246",
+      "36427149",
+      "35803173",
+      "35385691",
+      "34783343",
+      "34331869",
+      "34290405",
+      "34265844",
+      "32881101",
+      "31905366",
+      "31730249",
+      "31729382",
+      "31556486",
+      "29067766",
+      "28263324",
+      "28165473",
+      "28146474",
+      "27120157",
+      "27027290",
+      "26647647",
+      "25514926",
+      "25299182",
+      "25173175",
+      "24525869",
+      "24213166",
+      "23874961",
+      "20124702",
+      "19886810",
+      "19345191",
+      "19281235",
+      "18596691",
+      "17936939",
+      "17604273",
+      "16868023",
+      "16483313",
+      "15989971",
+      "15737063",
+      "15241476",
+      "14585836",
+      "12654244",
+      "12297314",
+      "12194817",
+      "11983169",
+      "11747808",
+      "11533655",
+      "11509732",
+      "11371343",
+      "11081627",
+      "11081625",
+      "10411507",
+      "10403247",
+      "9635435"
+    ],
+    "similar": [
+      "41223273",
+      "31729382",
+      "15737063",
+      "14585836",
+      "27027290",
+      "21876002",
+      "14587297",
+      "19345191",
+      "23874961",
+      "18003702",
+      "34290405",
+      "15241476",
+      "25173175",
+      "11509732",
+      "25414306",
+      "22814605",
+      "21743463",
+      "11415980",
+      "29735656",
+      "15329725",
+      "29100057",
+      "21327097",
+      "23178808",
+      "17604273",
+      "12654244",
+      "41223259",
+      "11371343",
+      "11533655",
+      "19948489",
+      "39110738",
+      "11875078",
+      "27325700",
+      "29561844",
+      "15737064",
+      "20230747",
+      "12194817",
+      "12101125",
+      "36902034",
+      "11309624",
+      "15383284",
+      "11747808",
+      "25101996",
+      "14749720",
+      "18239448",
+      "31905366",
+      "21699228",
+      "14614818",
+      "11276426",
+      "18554326",
+      "11081627",
+      "12297314",
+      "16868023",
+      "25921067",
+      "17102637",
+      "12050115",
+      "18256525",
+      "37140261",
+      "25919583",
+      "26923598",
+      "18267092",
+      "20818333",
+      "18430955",
+      "19716788",
+      "10403247",
+      "27791135",
+      "29175904",
+      "27549742",
+      "15952899",
+      "11081625",
+      "20404544",
+      "19625504",
+      "41786187",
+      "21209385",
+      "26895425",
+      "32322060",
+      "11728305",
+      "16861909",
+      "32066964",
+      "20832721",
+      "10827941",
+      "38714893",
+      "15031719",
+      "22814604",
+      "16357532",
+      "18368920",
+      "15640025",
+      "12573239",
+      "17081975",
+      "32312753",
+      "12231632",
+      "19075111",
+      "24324008",
+      "23555314",
+      "11076961",
+      "42360689",
+      "23361318",
+      "39271794",
+      "28263324",
+      "25299182",
+      "11740938"
+    ],
+    "review": [
+      "41223273",
+      "14587297",
+      "11415980",
+      "41223259",
+      "36902034",
+      "37140261",
+      "15952899",
+      "10827941",
+      "15640025"
+    ],
+    "pmc": [
+      "12609080"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.ady9807?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/41223273.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41223273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6kb69781",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34624074",
+  "title": "Dissecting and predicting different types of binding sites in nucleic acids based on structural information.",
+  "authors": "Jiang, Zheng; Xiao, Si-Rui; Liu, Rong",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-10-09",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文基于结构信息预测核酸（DNA/RNA）上不同类型结合位点（含蛋白结合位点），采用集成机器学习与模板方法，虽非聚焦TF-DNA特异性互作机制，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "The biological functions of DNA and RNA generally depend on their interactions with other molecules, such as small ligands, proteins and nucleic acids. However, our knowledge of the nucleic acid binding sites for different interaction partners is very limited, and identification of these critical binding regions is not a trivial work. Herein, we performed a comprehensive comparison between binding and nonbinding sites and among different categories of binding sites in these two nucleic acid classes. From the structural perspective, RNA may interact with ligands through forming binding pockets and contact proteins and nucleic acids using protruding surfaces, while DNA may adopt regions closer to the middle of the chain to make contacts with other molecules. Based on structural information, we established a feature-based ensemble learning classifier to identify the binding sites by fully using the interplay among different machine learning algorithms, feature spaces and sample spaces. Meanwhile, we designed a template-based classifier by exploiting structural conservation. The complementarity between the two classifiers motivated us to build an integrative framework for improving prediction performance. Moreover, we utilized a post-processing procedure based on the random walk algorithm to further correct the integrative predictions. Our unified prediction framework yielded promising results for different binding sites and outperformed existing methods.",
+  "abstract_zh": "DNA和RNA的生物学功能通常依赖于它们与其他分子（如小配体、蛋白质和核酸）的相互作用。然而，我们对不同相互作用伙伴的核酸结合位点的了解非常有限，识别这些关键结合区域并非易事。在此，我们对这两类核酸中的结合位点与非结合位点以及不同类别结合位点之间进行了全面比较。从结构角度来看，RNA可能通过形成结合口袋与配体相互作用，并利用突出表面接触蛋白质和核酸，而DNA可能采用更接近链中部的区域与其他分子接触。基于结构信息，我们建立了一个基于特征的集成学习分类器，通过充分利用不同机器学习算法、特征空间和样本空间之间的相互作用来识别结合位点。同时，我们利用结构保守性设计了一个基于模板的分类器。两个分类器之间的互补性促使我们构建了一个整合框架以提高预测性能。此外，我们利用基于随机游走算法的后处理程序进一步修正整合预测。我们的统一预测框架在不同结合位点上取得了有前景的结果，并优于现有方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34624074/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34624074/",
+  "paper_page_path": "papers/pubmed/34624074/index.html"
+}

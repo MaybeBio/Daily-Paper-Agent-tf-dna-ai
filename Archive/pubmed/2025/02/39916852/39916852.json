@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "39916852",
+    "doi": "10.1016/j.heliyon.2025.e41705",
+    "title": "Identification of tacrolimus-related genes in familial combined hyperlipidemia and development of a diagnostic model using bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Clinical observations have revealed that patients undergoing organ transplantation administered tacrolimus often experience abnormal lipid metabolism with serious consequences. Thus, the intricate interplay between tacrolimus and lipid metabolism must be addressed to develop targeted therapeutic interventions. Our ongoing research aims to develop precision medicine approaches that not only alleviate the immediate repercussions for organ transplant patients but also enhance their long-term outcomes. To this end, we investigated the potential genes associated with tacrolimus metabolism in familial combined hyperlipidemia (FCHL) to identify relevant biomarkers of FCHL, develop predictive diagnostic models for hyperlipidemia, and reveal potential therapeutic targets for FCHL. METHODS: Dataset GSE1010 containing information on patients diagnosed with FCHL was obtained from the Gene Expression Omnibus (GEO), and an ensemble of tacrolimus-related genes (TRGs) was retrieved from the GeneCards, STITCH, and Molecular Signatures Database databases. A thorough weighted gene co-expression network analysis was conducted, including a differential expression analysis of the GSE1010 and TRG datasets, to identify intricate patterns of gene co-expression and provide insights on the underlying molecular dynamics within the datasets. Key genes were screened, diagnostic models were constructed, and all genes associated with logFC values were assessed using gene set variation and enrichment analyses. Upregulated genes were identified by a positive logFC (>0) and P < 0.05, while downregulated genes were characterized by a negative logFC (<0) and P < 0.05. These criteria facilitated a more nuanced categorization of gene expression changes within the analyzed datasets. Given tacrolimus's immunosuppressive impact, the gene expression matrix data obtained from dataset GSE1010 was submitted to CIBERSORT to assess immune cell infiltration outcomes. Finally, we examined the regulatory network of screened key genes that interact with RNA-binding proteins, potential drugs, small-molecule compounds, and transcription factors. RESULTS: We screened 14 statistically significant key genes, built a reliable risk model, and grouped the dataset into categories at high and low risk for hyperlipidemia development. FCHL was linked to memory B and immature B immune cells. The gene set variation analysis revealed two pathways associated with cholesterol homeostasis and the complement system that were closely associated with the potential functions of FCHL and tacrolimus-related differentially expressed genes. CONCLUSIONS: Our research offers a better understanding of FCHL and the TRGs involved in lipid metabolism. Additionally, it provides research directions for identifying potential targets for clinical therapies.",
+    "keywords": [
+      "Co-expressed genes",
+      "Familial combined hyperlipidemia",
+      "Hypertriglyceridemia",
+      "Immune infiltration",
+      "Lipid metabolism",
+      "Tacrolimus"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Yuan",
+        "He, Hongfei",
+        "Li, Haiyang"
+      ],
+      "short_names": [
+        "Xu Y",
+        "He H",
+        "Li H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Organ Transplantation, Affiliated Hospital of Guizhou Medical University, China.",
+        "Guizhou Organ Transplant Centre, China.",
+        "Guizhou Organ Transplant Centre, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Yuan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Organ Transplantation, Affiliated Hospital of Guizhou Medical University, China."
+        ]
+      },
+      {
+        "full_name": "He, Hongfei",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Organ Transplant Centre, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haiyang",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Organ Transplant Centre, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2025 Feb 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/07 11:11",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39185417",
+      "39147242",
+      "38945796",
+      "38199560",
+      "37949368",
+      "37934560",
+      "37891182",
+      "37854700",
+      "37844410",
+      "37842086",
+      "37841581",
+      "37776770",
+      "37736845",
+      "37716543",
+      "37700227",
+      "37628646",
+      "37575056",
+      "37503333",
+      "37309040",
+      "36983001",
+      "36871237",
+      "36821372",
+      "36724882",
+      "36704037",
+      "36435217",
+      "36399495",
+      "36389803",
+      "36307392",
+      "35918332",
+      "35887846",
+      "35608825",
+      "34959891",
+      "34481731",
+      "33939983",
+      "33732042",
+      "33396964",
+      "33384961",
+      "33309175",
+      "33068428",
+      "32813947",
+      "32772002",
+      "32558385",
+      "32378517",
+      "32307148",
+      "32296037",
+      "32073914",
+      "31960380",
+      "31443682",
+      "31441337",
+      "31390500",
+      "31349735",
+      "30953600",
+      "30928441",
+      "30694319",
+      "30241973",
+      "30034909",
+      "29483903",
+      "27924033",
+      "27692470",
+      "27573737",
+      "27322403",
+      "26771021",
+      "26644205",
+      "26590256",
+      "25822800",
+      "25605792",
+      "24731657",
+      "24297251",
+      "24097068",
+      "23937229",
+      "23323831",
+      "23122768",
+      "22963171",
+      "22455463",
+      "22140067",
+      "20736804",
+      "20462637",
+      "20415903",
+      "20227758",
+      "20179076",
+      "19114008",
+      "18200807",
+      "17496320",
+      "17099226",
+      "16646834",
+      "16199517",
+      "11583721",
+      "10592173"
+    ],
+    "similar": [
+      "39916852",
+      "25625967",
+      "39341981",
+      "39507054",
+      "39586719",
+      "19750004",
+      "15388524",
+      "31271707",
+      "39636560",
+      "40078458",
+      "39697326",
+      "38384969",
+      "40245021",
+      "39834541",
+      "39741751",
+      "38691241",
+      "23877856",
+      "36321557",
+      "23333725",
+      "35990977",
+      "38863714",
+      "38899746",
+      "12370850",
+      "30307446",
+      "38771826",
+      "39983416",
+      "24811296",
+      "39375405",
+      "40289127",
+      "30556165",
+      "14991056",
+      "27919349",
+      "34906840",
+      "36532015",
+      "34478023",
+      "12847072",
+      "40093012",
+      "40253457",
+      "38802844",
+      "37259023",
+      "40055592",
+      "11592807",
+      "36506310",
+      "40332792",
+      "39713769",
+      "16828905",
+      "39265357",
+      "40313558",
+      "39780215",
+      "17291993",
+      "10559018",
+      "11979403",
+      "36699262",
+      "34455025",
+      "38291374",
+      "39559355",
+      "39541897",
+      "15687407",
+      "39341952",
+      "40110435",
+      "26342331",
+      "39975557",
+      "34823498",
+      "37359526",
+      "37346073",
+      "12204806",
+      "39544368",
+      "11336182",
+      "9690923",
+      "39348809",
+      "39268370",
+      "37415143",
+      "24899155",
+      "37582718",
+      "39766817",
+      "39671358",
+      "40225293",
+      "29190549",
+      "19402225",
+      "38370978",
+      "39722894",
+      "24103848",
+      "25176936",
+      "12032168",
+      "36311708",
+      "38912048",
+      "39793232",
+      "39735537",
+      "24222859",
+      "40216809",
+      "10417282",
+      "37480069",
+      "36699469",
+      "36186997",
+      "39991151",
+      "38690269",
+      "12468272",
+      "20388924",
+      "36157062",
+      "35433958"
+    ],
+    "review": [
+      "39916852",
+      "31271707",
+      "36321557",
+      "30307446",
+      "24811296",
+      "30556165",
+      "34478023"
+    ],
+    "pmc": [
+      "11800081"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(25)00085-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39916852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

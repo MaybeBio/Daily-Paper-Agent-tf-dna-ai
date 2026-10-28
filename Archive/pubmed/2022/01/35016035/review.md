@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report a proteome-scale screen to identify human proteins that activate transcription in a native chromatin context, delineate co-activator preferences using interaction proteomics and chemical inhibitors, identify potent transactivation domains, predict and validate interaction interfaces with BRD4 via AlphaFold2, and characterize a myofibroma-associated SRF-C3orf62 fusion as a p300-dependent activator. They claim the work provides a functional catalog of potent transactivators and a platform for genome-scale discovery of transcriptional regulators.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, all experimental details, statistical analyses, validation data, and any negative or control results; without these, the robustness and generalizability of the claims cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable and technically ambitious resource for the transcription field. The combination of unbiased screening, co-activator mapping, structural prediction, and disease-relevant fusion characterization is conceptually appealing. However, the abstract alone provides insufficient detail to evaluate the rigor of the screen, the specificity of the co-activator assignments, the validity of the AlphaFold2-based predictions, or the functional significance of the SRF-C3orf62 fusion. The claims are broad and would require substantial supporting evidence to be convincing.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, chromatin biology, and gene expression control would be the primary audience. The catalog of transactivators and the platform for genome-scale screening could be of interest to those working on transcription factor biology, co-activator complexes, and therapeutic targeting of transcriptional dependencies. The fusion oncogene characterization may also attract cancer biologists, particularly those focused on soft tissue tumors.
+- **Major strengths** The study addresses a fundamental gap in understanding how human proteins causally drive transcriptional activation. The proteome-scale approach is ambitious and could provide a systematic resource. The integration of multiple methodologies, including interaction proteomics, chemical inhibition, structural prediction, and functional validation, is a notable strength. The identification of disease-relevant fusions adds translational relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim an "unbiased proteome-scale screen" that "systematically uncover[s] human proteins that activate transcription in a natural chromatin context."  
+  - **Evidence pointer** Abstract only; methods not provided  
+  - **Concern** The abstract does not describe the screening strategy, the library used, the assay design, or the criteria for defining an "activator." Without these details, it is impossible to assess whether the screen is truly unbiased, whether it covers the full proteome, or whether the activation readout is specific and reproducible.  
+  - **Why it matters** The central claim of the paper rests on the validity and completeness of the screen. If the screen has technical biases, high false-positive rates, or limited coverage, the catalog of activators would be unreliable.  
+  - **Resolution test** Provide a detailed description of the screening method, including library construction, assay conditions, controls, hit selection thresholds, and validation rates. Show that the screen can recover known activators and that hits are reproducible across replicates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state they "delineate the preference of these transcriptional activators for specific co-activators, highlighting how even closely related TFs can function via distinct cofactors."  
+  - **Evidence pointer** Abstract only; no data on co-activator mapping provided  
+  - **Concern** The abstract does not specify how co-activator preference was determined, which co-activators were tested, or how specificity was distinguished from general binding. The use of chemical inhibitors is mentioned but not detailed, and it is unclear whether inhibitor effects were specific or whether off-target effects were controlled.  
+  - **Why it matters** The claim of distinct cofactor usage among closely related TFs is mechanistically important but requires rigorous evidence that the observed preferences are not artifacts of expression levels, affinities, or assay conditions.  
+  - **Resolution test** Provide experimental details on co-activator interaction assays, inhibitor concentrations and specificity controls, and statistical comparisons demonstrating that cofactor preferences are significant and reproducible.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim to "use AlphaFold2 to predict and experimentally validate interaction interfaces of two activation domains with BRD4."  
+  - **Evidence pointer** Abstract only; no structural or validation data provided  
+  - **Concern** AlphaFold2 predictions are computational and require experimental confirmation. The abstract does not describe the nature of the validation, the mutants used, or the functional assays performed. It is unclear whether the predicted interfaces are functionally relevant for transcriptional activation or merely structural.  
+  - **Why it matters** The interaction with BRD4 is a key mechanistic finding. If the validation is weak or the interfaces are not functionally required, the claim would be overstated.  
+  - **Resolution test** Provide details of the AlphaFold2 predictions, including confidence scores, and describe the experimental validation, such as mutagenesis, binding assays, and functional readouts showing that disrupting the predicted interface abrogates activation.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that "many novel activators are partners in fusion events in tumors" and functionally characterize a "myofibroma-associated fusion between SRF and C3orf62, a potent p300-dependent activator."  
+  - **Evidence pointer** Abstract only; no tumor data or fusion characterization provided  
+  - **Concern** The abstract does not specify how many fusions were identified, whether the association with tumors is statistically significant, or how the SRF-C3orf62 fusion was functionally characterized. The claim that C3orf62 is a "potent p300-dependent activator" is not supported by any data in the abstract.  
+  - **Why it matters** The translational relevance of the work depends on the robustness of the fusion analysis and the functional characterization. If the fusion is rare or the functional data are preliminary, the significance would be diminished.  
+  - **Resolution test** Provide details on the fusion analysis, including the number of fusions, the tumor types, and statistical enrichment. Describe the functional assays for SRF-C3orf62, including p300 dependence, and show that the fusion alters transcriptional activity in a relevant cellular context.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract clarity  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract uses terms such as "proteome-scale screen," "co-activators," and "transactivation domains" without defining them for a broader audience.  
+  - **Required correction** Briefly define these terms or provide context to make the abstract accessible to readers outside the transcription field.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Contextualization  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state how the findings compare to existing resources or methods for identifying transcriptional activators, such as previous screens or databases.  
+  - **Required correction** Add a sentence in the abstract or introduction that places the work in the context of prior efforts and highlights the novelty.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Statistical rigor  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not mention any statistical thresholds, false discovery rates, or replication criteria used in the screen or validation.  
+  - **Required correction** Include key statistical parameters in the abstract or refer to methods for these details.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to establish the validity of the screen, the specificity of co-activator preferences, the functional relevance of the BRD4 interactions, or the significance of the fusion characterization. All four major concerns must be resolved with detailed data before the claims can be considered supported.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of a proteome-scale functional screen for transcriptional activators in a native chromatin context is novel and potentially original. However, the abstract does not provide enough detail to confirm that the approach is distinct from prior methods.  
+  - **Scientific importance** The potential to provide a comprehensive catalog of transactivators and to link them to co-activator preferences and disease fusions is of high importance. The significance is currently plausible but not fully demonstrated.  
+  - **Interdisciplinary readership** The work could appeal to molecular biologists, biochemists, structural biologists, and cancer researchers. The abstract is somewhat technical but generally accessible.  
+  - **Technical soundness** The technical soundness cannot be evaluated from the abstract alone. The lack of methodological detail and validation data is a major limitation.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific jargon without explanation.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an ambitious and potentially impactful study, but the absence of methodological and validation details prevents a supportive recommendation. If the full manuscript provides rigorous evidence addressing the major concerns, the work could be considered for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim of an "unbiased proteome-scale screen" is unsupported without details on the screening method and coverage.
+- The claim of delineating co-activator preferences is unsupported without data on the assays and specificity controls.
+- The claim of predicting and validating interaction interfaces with BRD4 is unsupported without structural and functional validation data.
+- The claim that "many novel activators are partners in fusion events in tumors" is unsupported without statistical analysis of fusion frequencies.
+- The claim that SRF-C3orf62 is a "potent p300-dependent activator" is unsupported without functional characterization data.
+- The overall claim of providing a "functional catalog of potent transactivators" is not assessable from the abstract alone.

@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and evidence as presented in the provided text; no access to supplementary figures, tables, or code
+- **Shared manuscript claim summary** The authors present Qimai, a multi-agent framework combining a transformer-based DNA-protein interaction (DPI) prediction model with LLM-based reasoning over direct and indirect motif evidence. They claim consistent performance improvements over standalone deep learning models, particularly for unseen proteins, and attribute this to the LLM's context-aware integration of heterogeneous evidence.
+- **Visible evidence base** Main text, figures referenced (Figure 1, Figure 2), methods section, and selected supplementary references (Supplementary Notes, Tables, Figures as cited)
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S6, Tables 1-13), detailed hyperparameter settings, full benchmark results, code repository contents, and exact prompt templates; these are referenced but not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in genomics: generalization of DNA-protein interaction prediction to novel proteins. The proposed framework is conceptually interesting, combining deep learning with LLM-based reasoning over biological evidence. However, the evidence presented in the main text is insufficient to fully evaluate the robustness of the claims. Key methodological details, baseline comparisons, and statistical rigor are either missing or only partially described. The central claim of superior generalization on unseen proteins rests on a small number of held-out proteins and a single external dataset, and the ablation analyses are described qualitatively without full quantitative reporting. The work has potential, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, transcription factor binding prediction, and protein-DNA interaction modeling. Also researchers interested in applying LLM-based multi-agent frameworks to biological prediction tasks, and those developing interpretable AI for genomics. The framework's emphasis on explainability and integration of heterogeneous evidence may appeal to a broader AI-for-science audience.
+- **Major strengths**
+  - Addresses a real and recognized limitation in the field: poor generalization of DPI models to novel proteins.
+  - Proposes a novel architectural concept: separating evidence gathering from evidence synthesis via an LLM reasoning engine.
+  - The inclusion of indirect motif evidence from protein interactors is biologically motivated and represents a potentially important advance.
+  - The framework is modular and designed for interpretability, with a confidence score mechanism.
+  - The authors evaluate against multiple standalone models and include ablation studies.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Statistical rigor and evidence sufficiency
+    - **Claim pointer** "On a benchmark of 78 unseen proteins, Qimai consistently outperforms standalone deep learning models across all metrics, increasing the Area Under Curve of the Precision-Recall (AUC-PR), the Area Under Curve of the Receiver Operating Characteristic (AUC-ROC), and Matthews Correlation Coefficient (MCC) by 17.6%, 15.6%, and 244% respectively compared to the best standalone model."
+    - **Evidence pointer** Figure 2A; Supplementary Table 7; location not provided for per-protein breakdown
+    - **Concern** The headline performance claim is based on a single external dataset with 78 unseen proteins. No confidence intervals, statistical significance tests, or per-protein variability are reported in the main text. The 244% improvement in MCC is dramatic and warrants scrutiny; the absolute MCC values (0.308 vs 0.090) are low, and it is unclear whether such differences are meaningful in practical terms. The authors do not report whether the improvement is consistent across protein families or driven by a subset of easy cases.
+    - **Why it matters** Without statistical rigor, the central claim of consistent superiority cannot be assessed. A small number of proteins and a single dataset may not support generalizable conclusions.
+    - **Resolution test** Provide confidence intervals or bootstrapped estimates for all metrics on the 78-protein set. Report per-protein results and analyze performance stratified by protein family or sequence identity. Include a statistical test (e.g., paired bootstrap or Wilcoxon) comparing Qimai to the best baseline.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Baseline comparison fairness
+    - **Claim pointer** "Qimai significantly outperforms state-of-the-art models, including DeepSEA, Sei, and DNABERT, in both standard and zero-shot settings."
+    - **Evidence pointer** Figure 1C, Figure 1D, Figure 2A, Figure 2B; location not provided for full baseline details
+    - **Concern** The comparison to DeepSEA and Sei in the zero-shot setting is potentially unfair. The authors describe a strategy for predicting unseen proteins with these models that involves homology-based ensembling and family-based averaging. This is a modified version of the original models, and it is unclear whether this adaptation is optimal or whether the original models were designed for such use. The standalone DPI model is the authors' own, and its training setup may differ from the baselines. The main text does not specify whether all models were trained on the same data splits and with comparable hyperparameter tuning.
+    - **Why it matters** If baselines are not optimally configured or fairly compared, the claimed improvements may reflect suboptimal baselines rather than genuine superiority of the Qimai framework.
+    - **Resolution test** Clearly describe the training and adaptation protocol for each baseline. Ensure identical data splits and evaluation pipelines. Consider reporting results with the original, unmodified versions of DeepSEA and Sei as additional baselines. Provide a table of all hyperparameters used for each model.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Ablation study completeness
+    - **Claim pointer** "Ablation studies revealed that this gain of performance stems from Qimai's ability to integrate diverse evidence. While removing direct motif evidence causes the most significant drop in performance, the removal of indirect motif evidence also consistently degraded performance compared to the full system."
+    - **Evidence pointer** Figure 2D; Supplementary Table 9; location not provided for full ablation results
+    - **Concern** The ablation results are described qualitatively in the main text. The authors report that removing direct motif evidence causes the most significant drop, but do not provide the actual numbers for all ablation configurations in the main text. The claim that indirect evidence is "critical" is supported by a single comparison on 45 proteins. The negative control ("Qimai (w/o indirect)") has an MCC of 0.076, which is close to zero; the authors do not discuss whether this is statistically distinguishable from random performance.
+    - **Why it matters** Ablations are essential to support the claim that the LLM's integration of indirect evidence is a key contributor. Without full quantitative reporting, the mechanism of improvement remains unclear.
+    - **Resolution test** Provide a full table of ablation results in the main text or a clearly referenced supplementary table, including all metrics (F1, MCC, AUC-ROC, AUC-PR) for each configuration. Report statistical significance of differences between configurations.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** LLM evaluation methodology
+    - **Claim pointer** "We next investigated whether LLM outperformed ensemble classifier for integrating information. We compared the LLM Agent against a highly optimized LightGBM ensemble classifier on a challenging hold-out test set of 5,000 protein-DNA interactions."
+    - **Evidence pointer** Figure 2C; Supplementary Table 10; location not provided for feature list
+    - **Concern** The comparison between the LLM agent and LightGBM is described, but the feature set provided to LightGBM is only summarized in a supplementary table. The authors state that LightGBM was given "all the same structured evidence" as the LLM, but it is unclear whether the LLM had access to additional information (e.g., free-text biological knowledge) that LightGBM could not use. The "LLM-as-a-Judge" evaluation uses LLMs to assess LLM-generated explanations, which is a circular validation approach; the authors acknowledge this but do not provide an alternative, more objective evaluation of explanation quality.
+    - **Why it matters** The claim that LLM reasoning is superior to a fixed-weight classifier depends on the fairness of the comparison and the validity of the evaluation metric. Circular evaluation of explanations weakens the evidence for interpretability claims.
+    - **Resolution test** Provide the full feature list for LightGBM in the main text or a clearly referenced supplement. Consider human expert evaluation of a subset of explanations as an additional validation. Report inter-judge agreement statistics for the LLM-as-a-Judge evaluation.
+  - **R1-M5**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Reproducibility and resource availability
+    - **Claim pointer** "This framework is accessible via the Qimai web portal (https://qimai.wanglab.ucsd.edu/)."
+    - **Evidence pointer** Code availability section; location not provided
+    - **Concern** The manuscript states that source code is publicly available, but the provided text does not include a version number, commit hash, or detailed instructions for reproducing the main results. The web portal is mentioned but not described in terms of its functionality, data limits, or whether it provides access to the full framework or a limited demo. The dependence on external databases (CisBP, STRING) and specific API versions (e.g., Gemini-2.0-flash) may affect reproducibility as these resources evolve.
+    - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without clear versioning and detailed instructions, other groups cannot verify or build upon the results.
+    - **Resolution test** Provide a specific version or commit hash for the code repository. Describe the web portal's capabilities and limitations. Document all external database versions and access dates. Consider providing a Docker container or environment specification for reproducibility.
+
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity of terminology
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract; Introduction
+    - **Issue** The term "zero-shot" is used to describe prediction on unseen proteins, but the definition is not explicitly stated. It is unclear whether "zero-shot" refers to proteins with no sequence similarity to training data, no known motifs, or both. The distinction matters because the framework's performance may differ across these scenarios.
+    - **Required correction** Define "zero-shot" explicitly in the Introduction or Methods, and clarify which definition applies to each evaluation.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Figure accessibility
+    - **Affected element** Figure 1, Figure 2
+    - **Evidence pointer** Figure 1, Figure 2; location not provided
+    - **Issue** The main text references multiple panels in Figure 1 and Figure 2, but the figure legends are not included in the provided text. It is difficult to assess whether the figures clearly support the claims without seeing the legends and the actual data displayed.
+    - **Required correction** Ensure figure legends are complete and self-contained, describing all panels, axes, and statistical annotations.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Discussion of limitations
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion
+    - **Issue** The Discussion mentions limitations related to database completeness but does not address potential biases in the evaluation datasets, the computational cost of the framework, or the sensitivity of results to the choice of LLM.
+    - **Required correction** Add a paragraph explicitly discussing limitations, including dataset biases, computational requirements, and generalizability across LLM choices.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Statistical reporting
+    - **Affected element** Results sections
+    - **Evidence pointer** Figure 1D, Figure 2A, Figure 2B; location not provided
+    - **Issue** The text reports mean values for metrics but does not consistently report standard deviations or confidence intervals. For example, the internal cross-validation results are described as averages across five splits, but variability is not reported in the main text.
+    - **Required correction** Report standard deviations or confidence intervals for all key metrics, especially for the cross-validation and external validation results.
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Web portal description
+    - **Affected element** Abstract; Code availability
+    - **Evidence pointer** Abstract; Code availability
+    - **Issue** The web portal is mentioned as a key deliverable, but its functionality, input requirements, and output format are not described in the main text.
+    - **Required correction** Add a brief description of the web portal in the Methods or a dedicated section, including what users can input and what outputs they receive.
+
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical rigor in the central performance claim.
+  - R1-M2: Potential unfairness in baseline comparisons.
+  - R1-M3: Incomplete quantitative reporting of ablation studies.
+  - R1-M4: Circular evaluation of LLM-generated explanations.
+
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using an LLM as a reasoning engine to integrate deep learning predictions with biological evidence is novel in the context of DPI prediction. The modular multi-agent architecture is a creative departure from end-to-end black-box models. However, the individual components (transformer models, motif scanning, PPI databases) are established; the novelty lies in their integration.
+  - **Scientific importance** The problem of generalizing to novel proteins is of high importance in regulatory genomics. If the claims are robust, the framework could have broad applicability. However, the current evidence base is too limited to establish the importance of the specific contribution.
+  - **Interdisciplinary readership** The work sits at the intersection of machine learning, genomics, and protein biology. The framework's emphasis on interpretability and evidence integration could appeal to a broad audience, but the presentation assumes familiarity with both deep learning and genomics terminology.
+  - **Technical soundness** The technical approach is plausible, but the evidence presented is insufficient to fully assess soundness. Key details about baseline configurations, statistical testing, and ablation results are missing. The reliance on a single external dataset and a small number of novel proteins weakens the technical case.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the Results and Methods sections are dense and assume significant background. The framework's modular design is described clearly, but the evaluation sections would benefit from more explicit explanations of the metrics and their implications.
+
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and addresses a significant problem, but the current manuscript does not provide sufficient evidence to fully establish the claims. The authors should address the statistical rigor, baseline fairness, and ablation completeness concerns before the case is considered established.

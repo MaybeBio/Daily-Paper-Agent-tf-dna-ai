@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41822356",
+    "doi": "10.3389/fcell.2026.1720910",
+    "title": "Machine learning-derived AS and AIS scores leverage BCAA metabolism and IL4I1 activity for prognosis and tailored therapy in ccRCC."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: Renal cell carcinoma (RCC) is among the most prevalent malignant tumors globally, characterized by a poor prognosis. The 5-year survival rate for advanced clear cell renal cell carcinoma (ccRCC) is below 20%. MATERIALS AND METHODS: This study utilized single-cell data analysis to examine the differences in branched-chain amino acid metabolism among ccRCC patients. Ten machine learning algorithms were employed to develop Amino acid Signature Score (AS score), integrating data from TCGA and GEO cohorts. We compared and validated the clinical characteristics, molecular features, and drug sensitivity of patients with varying AS scores. To address patient heterogeneity, principal component analysis was applied to construct an Amino acid Individualized Signature Score (AIS score) aimed at guiding personalized treatment and assessing its performance in immunotherapy and targeted therapy. Additionally, we explored the interaction between IL4I1 and branched-chain amino acid metabolism, along with the underlying causes of abnormal expression, using spatial transcriptomics and single-cell multi-omics approaches. RESULTS: Branched-chain amino acid metabolism plays a crucial role in the progression and treatment of ccRCC. The AS score effectively distinguishes clinical characteristics and drug sensitivity across different patient subgroups. The AIS score confers a strategic advantage for second-line and immunotherapy when targeted therapy is ineffective. The elevated expression of IL4I1 enhances the degradation of branched-chain amino acids, promoting tumor growth and metastasis. Further analysis indicated that VHL mutations may elevate IL4I1 expression in tumors by modulating key transcription factors Hif-1a and SFMBT1, thus aggravating tumor progression. CONCLUSION: Branched-chain amino acid metabolism and IL4I1 are pivotal in the progression of ccRCC. AS classification and the AIS score present a robust framework for personalized treatment strategies, while IL4I1 shows potential as a novel therapeutic target to enhance treatment efficacy.",
+    "keywords": [
+      "IL4I1",
+      "amino acid metabolism",
+      "clear cell renal cell carcinoma",
+      "machine learning",
+      "prognostic score"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weng, Kang Qiang",
+        "Li, Xin",
+        "Chen, Xiao Bao",
+        "Lin, Jun Wei",
+        "Liu, Ling Jun",
+        "Yan, Le Ye",
+        "Xie, Ruo Yun"
+      ],
+      "short_names": [
+        "Weng KQ",
+        "Li X",
+        "Chen XB",
+        "Lin JW",
+        "Liu LJ",
+        "Yan LY",
+        "Xie RY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Interventional Radiology, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weng, Kang Qiang",
+        "short_name": "Weng KQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiao Bao",
+        "short_name": "Chen XB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jun Wei",
+        "short_name": "Lin JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ling Jun",
+        "short_name": "Liu LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Le Ye",
+        "short_name": "Yan LY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ruo Yun",
+        "short_name": "Xie RY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cell and developmental biology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Dev Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 06:52",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41260974",
+      "40112809",
+      "39802449",
+      "39470721",
+      "38938061",
+      "38664460",
+      "38442575",
+      "38315776",
+      "38039946",
+      "37724108",
+      "37221577",
+      "37196768",
+      "36866272",
+      "36806082",
+      "36549921",
+      "36192502",
+      "35594843",
+      "35096573",
+      "33711273",
+      "33711272",
+      "32818467",
+      "32807776",
+      "32782249",
+      "32049045",
+      "32023483",
+      "31208695",
+      "31088840",
+      "30329142",
+      "30243799",
+      "30173085",
+      "30097614",
+      "30076838",
+      "29176561",
+      "29033130",
+      "28961310",
+      "28761748",
+      "28644952",
+      "28514443",
+      "28276433",
+      "28235484",
+      "27609895",
+      "26935559",
+      "23665962",
+      "21575862",
+      "6090002"
+    ],
+    "similar": [
+      "41822356",
+      "38309289",
+      "42164390",
+      "40016772",
+      "41740344",
+      "39707545",
+      "28975890",
+      "42179463",
+      "40642093",
+      "37275552",
+      "42475469",
+      "39809381",
+      "41656832",
+      "42147811",
+      "38970690",
+      "40954501",
+      "39732954",
+      "40083932",
+      "41817785",
+      "39735553",
+      "41770477",
+      "39614426",
+      "38808948",
+      "40397318",
+      "42158467",
+      "36620592",
+      "37908350",
+      "41006685",
+      "37740762",
+      "40596969",
+      "41052233",
+      "42392347",
+      "41029063",
+      "40771801",
+      "37221577",
+      "40457349",
+      "41971124",
+      "36109798",
+      "36118874",
+      "42393336",
+      "42374231",
+      "42105179",
+      "41540415",
+      "35873479",
+      "40575014",
+      "40770761",
+      "37182129",
+      "42469699",
+      "41368248",
+      "41217528",
+      "40602220",
+      "40607252",
+      "40200221",
+      "42263482",
+      "36544704",
+      "42174479",
+      "39904282",
+      "36313638",
+      "42257998",
+      "42495647",
+      "41342434",
+      "39301023",
+      "40475762",
+      "37689589",
+      "41099090",
+      "42460535",
+      "40380175",
+      "39538070",
+      "40687644",
+      "37402968",
+      "37781030",
+      "41208987",
+      "38183155",
+      "42205867",
+      "41272569",
+      "42020680",
+      "38599101",
+      "41716413",
+      "40243888",
+      "41584585",
+      "41514260",
+      "37715154",
+      "40539074",
+      "40025304",
+      "41049291",
+      "34795663",
+      "40379825",
+      "42253970",
+      "41230161",
+      "38951896",
+      "41423668",
+      "39536695",
+      "39991096",
+      "34348693",
+      "39754071",
+      "37530800",
+      "38442575",
+      "41164195",
+      "42192326",
+      "37181235"
+    ],
+    "review": [
+      "41822356"
+    ],
+    "pmc": [
+      "12978018"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41822356/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcell.2026.1720910",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

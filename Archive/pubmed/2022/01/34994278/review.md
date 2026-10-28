@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report generation of a full-length 3D model of the Eg2DBDalpha.1 nuclear receptor from Echinococcus granulosus using ab initio and homology modeling, analysis of conserved structural features, molecular dynamics simulations, and docking of fatty acid and retinoic acid libraries, concluding that oleic and linoleic acids are suitable ligands and that the receptor is stabilized by hydrogen bonds and hydrophobic interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods section, model validation metrics, simulation parameters, docking scores, statistical analyses, and structural figures
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural biology study of a novel nuclear receptor subfamily with two DNA-binding domains, which is relevant to anthelmintic drug development. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the modeling, simulation, and docking approaches. The central claims regarding ligand suitability and complex stabilization are stated without quantitative support. The work may be of interest to parasitologists and structural biologists, but the evidence base is too limited to establish the case from the supplied material.
+- **Who would be interested in the results, and why** Parasitologists studying Echinococcus granulosus and related platyhelminths would be interested in the structural characterization of a novel receptor. Structural biologists working on nuclear receptor modeling and ligand docking would find the methodological approach relevant. Drug discovery researchers targeting anthelmintic development would be interested in the identification of potential ligands for a parasite-specific receptor absent in vertebrates.
+- **Major strengths** The study addresses a novel nuclear receptor subfamily with two DNA-binding domains, which is an underexplored area. The combination of ab initio and homology modeling approaches for a full-length receptor is ambitious. The focus on fatty acid and retinoic acid ligands is biologically plausible given known nuclear receptor ligand classes. The potential translational relevance to anthelmintic drug targets is a notable strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a full-length 3D structure of Eg2DBDalpha.1 was generated using ab initio and homology modeling methods.
+  - **Evidence pointer** Abstract, methods description not provided
+  - **Concern** The abstract does not provide any details on template selection, sequence identity, model quality metrics (e.g., Ramachandran plots, QMEAN, or PROCHECK scores), or validation of the full-length model. Without these, the reliability of the generated structure cannot be assessed.
+  - **Why it matters** A full-length nuclear receptor model, especially one involving ab initio methods, is prone to errors in domain orientation and loop regions. Unvalidated models undermine all downstream simulation and docking results.
+  - **Resolution test** Provide model validation statistics, template information, and a comparison of the modeled domains with known nuclear receptor structures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that molecular dynamics simulations were performed and that oleic and linoleic acids are suitable ligands based on docking results.
+  - **Evidence pointer** Abstract, simulation and docking details not provided
+  - **Concern** No simulation time, force field, equilibration protocol, or convergence criteria are reported. Docking results are presented without scores, binding affinities, or comparison to negative controls. The claim of ligand suitability is not quantitatively supported.
+  - **Why it matters** Molecular dynamics and docking outcomes are highly sensitive to methodological choices. Without these details, the conclusions about ligand binding cannot be reproduced or evaluated for statistical significance.
+  - **Resolution test** Report simulation parameters, docking scores, and a clear threshold for defining suitable ligands, including appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors imply that the absence of 2DBD nuclear receptors in vertebrates confers particular interest as targets for new anthelmintic drugs.
+  - **Evidence pointer** Abstract, discussion not provided
+  - **Concern** The abstract does not provide any functional or experimental evidence that Eg2DBDalpha.1 is druggable or that ligand binding translates to biological activity. The claim of therapeutic relevance is speculative without functional validation.
+  - **Why it matters** The translational significance is a key motivation for the study, but the abstract does not establish a link between structural findings and potential drug efficacy.
+  - **Resolution test** Include experimental validation of ligand binding or functional assays, or temper the claim to reflect the speculative nature of the therapeutic potential.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "2DBD" is used without a brief definition of the two DNA-binding domains in the context of the abstract, which may confuse readers unfamiliar with this receptor subfamily.
+  - **Required correction** Add a brief parenthetical explanation of 2DBD when first mentioned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Ligand selection
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that a conformational library of fatty acids and retinoic acids was docked, but the rationale for including these specific ligand classes is not explained.
+  - **Required correction** Provide a sentence justifying the ligand library selection based on known nuclear receptor biology or prior evidence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Structural novelty
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions a "particularly long and flexible hinge region" but does not discuss the functional implications of this feature.
+  - **Required correction** Add a brief statement on how the hinge flexibility might affect receptor function or ligand binding.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of model generation and ligand suitability are not supported by the provided evidence. Model validation and simulation/docking details are essential to establish technical soundness.
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel receptor subfamily, which is original in scope. Scientific importance: The potential anthelmintic target is relevant, but the importance is not fully established without functional evidence. Interdisciplinary readership: The work bridges parasitology and structural biology, which could appeal to a broad audience, but the abstract is too technical for nonspecialists. Technical soundness: Not assessable from the abstract due to missing methodological details. Readability for nonspecialists: The abstract is concise but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable study, but the lack of methodological detail and quantitative results prevents a supportive recommendation. The case would be strengthened by providing model validation, simulation parameters, and docking scores.
+
+## Risk / unsupported claims
+- The claim that oleic and linoleic acids are suitable ligands is unsupported without docking scores or binding affinity data.
+- The claim that the ligand-protein complex is stabilized mainly by hydrogen bonds and hydrophobic interactions is unsupported without interaction analysis details.
+- The claim of therapeutic relevance as anthelmintic drug targets is speculative and not supported by functional evidence.
+- The structural features of the ligand binding domain and hinge region are described but not verifiable without model figures or validation metrics.

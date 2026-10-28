@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, supporting information list)
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and evidence quality as presented in the supplied text. No code execution, no data verification, no supplementary figure/table inspection.
+- **Shared manuscript claim summary** The authors present FCNsignal, a fully convolutional neural network framework that predicts transcription factor (TF) DNA binding signals at base-resolution from DNA sequence. The framework is claimed to simultaneously perform four tasks: signal modeling, binding/non-binding classification, binding region localization, and motif prediction. Performance is evaluated on 53 ChIP-seq and 6 ATAC-seq datasets, with claims of superiority over existing methods. Additional claims include whole-chromosome scanning capability, arbitrary-length sequence input, and identification of causal disease-associated SNPs.
+- **Visible evidence base** Main text figures referenced (Fig 1A-C, 2A-B, 3A-B, 4A-D, 5A-C, 6A-B, 7A-B), supplementary figures (S2-S11), supplementary tables (S1-S3), and supplementary text (S1 Text). Actual figure contents, numerical values, and statistical test outputs are not visible in the supplied material.
+- **Missing materials affecting confidence** All figure panels, numerical results, statistical significance values, hyperparameter settings, model architecture details (beyond high-level description), dataset accession numbers, code repository contents, and the full supplementary information. The results section is largely descriptive without quantitative reporting in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics: predicting TF binding at base resolution using deep learning. The proposed framework integrates multiple related tasks into a single architecture, which is a reasonable and potentially useful contribution. However, the evidence as presented in the text is insufficient to fully evaluate the claims. Key quantitative results are not reported in the main text, statistical comparisons are described only qualitatively, and several methodological details are missing. The framework appears technically sound in its high-level design, but the case for superiority over existing methods is not established from the supplied material alone. The whole-chromosome and SNP prioritization applications are interesting but require more rigorous validation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on TF binding prediction, regulatory genomics, and deep learning applications to genomics. Researchers developing or using base-resolution binding prediction tools (e.g., BPNet users) would be interested in a framework that unifies multiple tasks. Those studying regulatory variant effects and disease-associated SNPs may also find the application relevant.
+- **Major strengths** The integration of four related tasks into a single framework is a practical contribution. The use of base-resolution signals rather than binary labels is methodologically appropriate for capturing binding patterns. The whole-chromosome scanning and arbitrary-length input capability is a useful feature. The application to causal SNP identification from LD groups addresses an important downstream use case.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that FCNsignal outperforms existing state-of-the-art methods across all four tasks.
+  - **Evidence pointer** Results sections "The overall performance of FCNsignal on ChIP-seq datasets" and "The overall performance of FCNsignal on ATAC-seq datasets"; Figures 2A-B, 3A-B, 5A-C
+  - **Concern** The text states that FCNsignal outperforms competing methods but provides no numerical values, effect sizes, or confidence intervals in the main text. For example, the MSE and Pearsonr comparisons with FCNA and BPNet are described only as "lower" and "higher" without reporting actual values. Similarly, AUC and PRAUC comparisons are described qualitatively. The only specific numbers appear for three cases where FCNsignal performs worse than LSGKM, which is acknowledged but not quantified in terms of overall impact. Without quantitative reporting, the performance advantage cannot be assessed.
+  - **Why it matters** The central claim of the paper is that FCNsignal is superior to existing methods. This claim cannot be evaluated without numerical results. The reader cannot determine whether the improvements are meaningful or marginal.
+  - **Resolution test** Report mean and standard deviation (or confidence intervals) for all metrics across all datasets in the main text or a summary table. Provide per-dataset results in supplementary material. Include statistical significance tests with effect sizes for pairwise comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The claim that FCNsignal can predict binding motifs and locate binding regions using maximum signal values.
+  - **Evidence pointer** Methods section "Sequences classification & TFBSs location & motifs prediction"; Figure 3A-B; S3 Table
+  - **Concern** The method for motif prediction relies on selecting sub-regions with the highest scores from the first convolutional layer, but the details of this selection process are not fully specified. How many sub-regions are selected per peak? How are they aligned? What is the length of the motifs extracted? The comparison with MEME, STREME, DanQ, DeepCNN, FCNA*, FCNA, and BPNet is described, but the evaluation protocol for motif prediction is not clear. The text mentions using -log2(p-value) from TOMTOM, but the threshold for significance and the number of motifs compared are not stated. Additionally, the claim that FCNA* performs better but is dependent on PCMs is used to contextualize FCNsignal's performance, but this comparison is not quantified.
+  - **Why it matters** Motif prediction is one of the four claimed tasks. Without a clear description of the motif discovery and evaluation protocol, the results cannot be reproduced or independently verified.
+  - **Resolution test** Provide a detailed step-by-step description of the motif prediction pipeline, including parameters, thresholds, and the number of motifs evaluated. Report the number of motifs correctly recovered per method and the statistical significance of the comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** The claim that FCNsignal can locate all potential TF-DNA binding regions on a whole chromosome.
+  - **Evidence pointer** Results section "FCNsignal can locate potential TF-DNA binding sites on the whole chromosome"; Figure 4A-C; S7 Fig
+  - **Concern** The whole-chromosome scanning experiment is described, but the evaluation criteria are not fully specified. The text reports that 81% of CTCF and 63% of YY1 predicted regions intersect with ReMap2020 peaks, but the definition of "intersection ratio over 50%" needs clarification. How were the thresholds for high-confidence regions determined? What is the false discovery rate? How does this compare to a random expectation or to other methods? The comparison with ReMap2020 is useful, but the analysis of H3K27ac signal distribution for supported versus unsupported regions is only described qualitatively.
+  - **Why it matters** Whole-chromosome scanning is a distinctive capability claimed by the authors. The validation needs to be rigorous to establish that the method can reliably identify binding regions genome-wide.
+  - **Resolution test** Provide precision-recall or ROC curves for the whole-chromosome prediction. Report the number of true positives, false positives, and false negatives. Compare against a baseline method or random expectation. Clarify the threshold selection procedure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that FCNsignal can identify causal SNPs from LD groups.
+  - **Evidence pointer** Results section "FCNsignal can identify causal SNPs from LD groups"; Figure 7A-B; S10 Fig
+  - **Concern** The SNP prioritization experiment uses four datasets, but the text only describes the outcome for two (myeloma and CLL) where both FCNsignal and DeltaSVM succeed, and one (pan-autoimmune) where FCNsignal succeeds and DeltaSVM fails. For breast cancer, the text reports a ratio of SNP scores (54 vs. 1.5) but does not state whether FCNsignal correctly identified the causal SNP. The evaluation is therefore incomplete. Additionally, the choice of DeltaSVM as the only competing method is limited, and the statistical significance of the SNP prioritization is not assessed.
+  - **Why it matters** The SNP prioritization application is a potentially valuable downstream use of the framework. The evidence presented is insufficient to determine whether FCNsignal reliably identifies causal SNPs.
+  - **Resolution test** Report the rank of the known causal SNP in each LD group for both FCNsignal and DeltaSVM. Provide a statistical test (e.g., permutation test) to assess whether the prioritization is better than random. Consider additional competing methods.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that FCNsignal can accept sequences of arbitrary length.
+  - **Evidence pointer** Results section "FCNsignal can locate potential TF-DNA binding sites on the whole chromosome"; Figure 4D; S8 Fig
+  - **Concern** The text states that FCNsignal can accept arbitrary-length sequences, but the architectural details that enable this are not described. The model includes global average pooling, which typically allows variable input sizes, but the interaction with the decoder and the upsampling layers needs clarification. How does the model handle sequences that are not multiples of the downsampling factor? What is the minimum and maximum sequence length supported?
+  - **Why it matters** Arbitrary-length input is a claimed capability that distinguishes FCNsignal from fixed-length models. The technical basis for this capability should be clearly explained.
+  - **Resolution test** Describe the architectural mechanisms that enable variable-length inputs. Provide examples of the range of sequence lengths tested and the performance as a function of length.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Methods section "The proposed framework"
+  - **Issue** The description of the encoder and decoder architectures is high-level and lacks specific details such as the number of filters, kernel sizes, stride, padding, and the exact configuration of the bi-directional GRU layer. The equations provided are generic and do not convey the specific architecture.
+  - **Required correction** Provide a table or detailed text describing the layer-by-layer architecture, including all hyperparameters. Reference the code repository for full details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data processing
+  - **Evidence pointer** Methods section "Data preparation"
+  - **Issue** The text states that peaks were expanded to 1000bp and negative sequences were taken from 3000bp upstream, but the criteria for selecting negative sequences are not fully described. Were negative sequences matched for GC content or other properties? How many negative sequences were generated per positive sequence?
+  - **Required correction** Provide a detailed description of the negative sequence generation process, including any matching criteria and the ratio of negative to positive samples.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance comparison
+  - **Evidence pointer** Results section "The overall performance of FCNsignal on ChIP-seq datasets"
+  - **Concern** The text mentions "low p-values (Wilson's test, paired)" for the classification comparison, but the specific p-values are not reported. The Wilson test is typically used for confidence intervals of proportions, not for paired comparisons. The statistical test used should be clarified.
+  - **Required correction** Report the actual p-values and clarify the statistical test used. If a paired test was used, specify which one (e.g., Wilcoxon signed-rank test).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** SNP prioritization
+  - **Evidence pointer** Results section "FCNsignal can identify causal SNPs from LD groups"
+  - **Issue** The text mentions that BPCA is also able to identify causal SNPs (S10 Fig), but the comparison between FCNsignal and BPCA is not discussed in the main text.
+  - **Required correction** Add a brief discussion of the BPCA comparison in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure references
+  - **Evidence pointer** Results sections throughout
+  - **Issue** Several figure references are ambiguous. For example, "Fig 1B and 1C (S2 Fig)" could mean that S2 Fig is a supplementary version of Fig 1B-C, or that S2 Fig contains additional examples. The relationship between main and supplementary figures should be clarified.
+  - **Required correction** Clarify the relationship between main and supplementary figures in the text or figure legends.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (incomplete motif prediction methodology), R1-M3 (insufficient whole-chromosome validation), R1-M4 (incomplete SNP prioritization evaluation)
+- **Assessment against Nature-style criteria** Originality: The integration of four tasks into a single framework is moderately original, though each individual task has been addressed previously. The base-resolution signal prediction approach is not new (BPNet), but the multi-task integration and whole-chromosome scanning offer some novelty. Scientific importance: TF binding prediction is an important problem, and a unified framework could be useful. However, the incremental improvement over existing methods is not clearly demonstrated. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The applications to disease-associated SNPs may attract broader interest, but the presentation is technical. Technical soundness: The high-level architecture is reasonable, but the lack of quantitative results and incomplete methodological details prevent a full assessment. Readability for nonspecialists: The manuscript is written for a specialized audience. The introduction and discussion are accessible, but the results section assumes familiarity with the methods and metrics.
+- **Recommendation posture** Currently not established from the provided evidence. The framework is plausible and the approach is reasonable, but the evidence presented in the text is insufficient to support the claims of superiority over existing methods. The authors must provide quantitative results, detailed methodology, and more rigorous validation before the case can be established.
+
+## Risk / unsupported claims
+- The claim that FCNsignal outperforms existing state-of-the-art methods on all four tasks is unsupported without quantitative results.
+- The claim that FCNsignal can locate all potential TF-DNA binding regions on a whole chromosome is not fully validated with precision-recall metrics or comparison to baselines.
+- The claim that FCNsignal can identify causal SNPs from LD groups is only partially demonstrated, with incomplete reporting for the breast cancer dataset.
+- The claim that FCNsignal can accept sequences of arbitrary length is not technically substantiated with architectural details.
+- The claim that motifs predicted by FCNsignal are accurate is not fully evaluated with a clear protocol and comparison to known motifs.
+- The statement that FCNA* "cannot distinguish positive sequences from negative sequences" is presented as a limitation but the experimental evidence is only in supplementary text (S1 Text, S6 Fig), which is not visible in the supplied material.

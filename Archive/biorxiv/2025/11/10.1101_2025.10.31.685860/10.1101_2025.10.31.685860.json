@@ -1,0 +1,221 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.31.685860",
+  "title": "Decode-gLM: Tools to Interpret, Audit, and Steer Genomic Language Models",
+  "doi": "10.1101/2025.10.31.685860",
+  "abstract": "While genomic language models are enabling the de novo design of entire genomes, they remain challenging to interpret, limiting their trustworthiness. Here, we show that sparse autoencoders (SAEs) trained on Nucleotide Transformer activations decompose hidden representations into interpretable biological features without supervision. Across layers and model sizes, SAEs identified over 60 diverse functional annotations encoded in the model’s activations. This included viral regulatory elements such as the CMV enhancer, despite viral genomes being excluded from training data. Tracing this signal revealed contamination in reference databases, demonstrating that interpretability methods can audit training data and identify hidden data leakage. We then show that Meta-SAEs, trained on the decoder weights of another SAE, can identify conceptual hierarchies encoded in the model, including a more abstract feature related to multiple HIV annotations. We confirmed that the features identified by our SAEs were learned during pretraining through probing a randomly initialised model. Finally, we demonstrate that our SAEs allow us to steer model predictions in biologically meaningful ways, showing that we can use an antibiotic-resistance SAE-feature to steer the model toward the A1408G aminoglycoside-resistance mutation in the ribosomal gene 16S rRNA. Together, these results establish SAEs as a method for both discovery and auditing, providing a toolkit for interpretable and trustworthy genomic foundation models. Readers can explore our findings at https://interpretglm.netlify.app/ .",
+  "authors": [
+    "Maiwald A",
+    "Jedryszek P",
+    "Draye F",
+    "Schölkopf B",
+    "Morris GM",
+    "Crook OM"
+  ],
+  "published_date": "2025-11-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685860",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685860.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1112548",
+    "raw_record": {
+      "id": "PPR1112548",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1112548"
+        ]
+      },
+      "doi": "10.1101/2025.10.31.685860",
+      "title": "Decode-gLM: Tools to Interpret, Audit, and Steer Genomic Language Models",
+      "authorString": "Maiwald A, Jedryszek P, Draye F, Schölkopf B, Morris GM, Crook OM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Maiwald A",
+            "lastName": "Maiwald",
+            "firstName": "Aaron",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Statistics,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jedryszek P",
+            "lastName": "Jedryszek",
+            "firstName": "Piotr",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Draye F",
+            "lastName": "Draye",
+            "firstName": "Florent",
+            "initials": "F"
+          },
+          {
+            "fullName": "Schölkopf B",
+            "lastName": "Schölkopf",
+            "firstName": "Bernhard",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1731-8405"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ELLIS Institute Tübingen"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morris GM",
+            "lastName": "Morris",
+            "firstName": "Garrett",
+            "initials": "GM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5669-8506"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Statistics,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crook OM",
+            "lastName": "Crook",
+            "firstName": "Oliver",
+            "initials": "OM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry & Kavli Institute for Nanoscience Discovery,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5669-8506"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8177-0925"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1731-8405"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "While genomic language models are enabling the  de novo design of entire genomes, they remain challenging to interpret, limiting their trustworthiness. Here, we show that sparse autoencoders (SAEs) trained on Nucleotide Transformer activations decompose hidden representations into interpretable biological features without supervision. Across layers and model sizes, SAEs identified over 60 diverse functional annotations encoded in the model’s activations. This included viral regulatory elements such as the CMV enhancer, despite viral genomes being excluded from training data. Tracing this signal revealed contamination in reference databases, demonstrating that interpretability methods can audit training data and identify hidden data leakage. We then show that Meta-SAEs, trained on the decoder weights of another SAE, can identify conceptual hierarchies encoded in the model, including a more abstract feature related to multiple HIV annotations. We confirmed that the features identified by our SAEs were learned during pretraining through probing a randomly initialised model. Finally, we demonstrate that our SAEs allow us to steer model predictions in biologically meaningful ways, showing that we can use an antibiotic-resistance SAE-feature to steer the model toward the A1408G aminoglycoside-resistance mutation in the ribosomal gene 16S rRNA. Together, these results establish SAEs as a method for both discovery and auditing, providing a toolkit for interpretable and trustworthy genomic foundation models. Readers can explore our findings at  https://interpretglm.netlify.app/ .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T008784/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.31.685860"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1112548"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1112548&type=FILE&fileName=EMS210326-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210326",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-11-04",
+      "firstPublicationDate": "2025-11-03",
+      "firstIndexDate": "2025-11-04",
+      "fullTextReceivedDate": "2026-02-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

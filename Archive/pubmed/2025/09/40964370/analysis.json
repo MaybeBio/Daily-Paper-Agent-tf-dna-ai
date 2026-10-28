@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40964370",
+  "title": "Illuminating the Druggable Human Proteome with an AI Protein Profiling Platform.",
+  "authors": "Dayhoff, Guy W 2nd; Kortzak, Daniel; Liu, Ruibin; Shen, Mingzhe; Zhang, Zhong-Yin; Shen, Jana",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-09-18",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AI蛋白质大模型预测人类蛋白质组中配体可结合位点，虽非TF-DNA互作体系，但涉及蛋白质结合位点建模与可迁移的AI方法，对TF-DNA互作研究有间接启发。",
+  "abstract": "Creating a ligandable atlas for the proteome would transform our understanding of protein functions and accelerate therapeutic discovery; however, proteomic approaches are constrained by insufficient proteome coverage and data heterogeneity, while existing machine learning (ML) models have limited oiwer due to structural dependencies and heterogeneous experimental labels. Here we developed AiPP, a multimodal AI platform that predicts and characterizes ligand interaction sites directly from protein sequence. AiPP is powered by the evolutionary-scale protein large language models (LLMs) and leverages two harmonized ML training sets derived from the new databases comprising cysteine ligandability from activity-based protein profiling (ABPP) studies and reversible binding evidenced from co-crystal structures. We developed a LLM representation based clustering framework to interrogate, reconcile, and augment experimental labels in both databases. Two complementary protocols were implemented to iteratively expand the training data while improving model performance. Although trained exclusively on ABPP data, AiPP recovers 80% (Top-1) of cysteine liganding events from co-crystal structures, with 84% AUPRC and 89% AUROC. AiPP recapitulates consistently and heterogeneously liganded cysteines across cancer cell lines and reliably identifies dynamic, ligandable pockets in \"undruggable\" transcription factors. Remarkably, AiPP accurately predicts active-site and allosteric cysteines in protein tyrosine phosphatases that were undetected by ABPP. Finally, we applied AiPP to the entire human proteome, identifying ligandable sites in proteins that were undetected or unliganded by ABPP, including an allosteric site in MC3R, which is a therapeutic target for treatment of eating disorder and obesity. This proteomewide covalent ligandability atlas (version 1.0) is anticipated to guide future development of chemical probes and pharmaceutical modulators, particularly for understudied proteins and currently undruggable targets. The LLM-based approach to interrogate large-scale heterogeneous data is broadly applicable to protein research and development of proteomics-derived ML models for diverse applications.",
+  "abstract_zh": "为蛋白质组创建配体可及性图谱将彻底改变我们对蛋白质功能的理解，并加速治疗发现；然而，蛋白质组学方法受限于蛋白质组覆盖不足和数据异质性，而现有的机器学习（ML）模型由于结构依赖性和异质性实验标签，其能力有限。在此，我们开发了AiPP，一个多模态AI平台，可直接从蛋白质序列预测和表征配体相互作用位点。AiPP由进化尺度蛋白质大语言模型（LLMs）驱动，并利用两个协调的ML训练集，这些训练集源自新数据库，包括基于活性蛋白质谱分析（ABPP）研究的半胱氨酸配体可及性数据以及共晶结构证实的可逆结合数据。我们开发了一种基于LLM表示的聚类框架，用于查询、协调和增强两个数据库中的实验标签。我们实施了两种互补协议，以迭代扩展训练数据并提升模型性能。尽管仅使用ABPP数据进行训练，AiPP仍能从共晶结构中恢复80%（Top-1）的半胱氨酸配体事件，AUPRC为84%，AUROC为89%。AiPP能一致且异质地重现癌细胞系中的半胱氨酸配体状态，并可靠识别“不可成药”转录因子中的动态、可配体口袋。值得注意的是，AiPP准确预测了蛋白酪氨酸磷酸酶中ABPP未检测到的活性位点和变构半胱氨酸。最后，我们将AiPP应用于整个人类蛋白质组，识别出ABPP未检测或未配体的蛋白质中的配体可及性位点，包括MC3R中的一个变构位点，该受体是治疗进食障碍和肥胖症的靶点。这一全蛋白质组共价配体可及性图谱（版本1.0）预计将指导未来化学探针和药物调节剂的开发，特别是针对研究不足的蛋白质和当前不可成药的靶点。基于LLM的方法用于查询大规模异质性数据，广泛适用于蛋白质研究及蛋白质组学衍生的ML模型开发，以满足多样化应用需求。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40964370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40964370/",
+  "paper_page_path": "papers/pubmed/40964370/index.html"
+}

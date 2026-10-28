@@ -1,0 +1,407 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.29.437573",
+  "title": "DISTEMA: distance map-based estimation of single protein model accuracy with attentive 2D convolutional neural network",
+  "doi": "10.1101/2021.03.29.437573",
+  "abstract": "Background Estimation of the accuracy (quality) of protein structural models is important for both prediction and use of protein structural models. Deep learning methods have been used to integrate protein structure features to predict the quality of protein models. Inter-residue distances are key information for predicting protein’s tertiary structures and therefore have good potentials to predict the quality of protein structural models. However, few methods have been developed to fully take advantage of predicted inter-residue distance maps to estimate the accuracy of a single protein structural model. Result We developed an attentive 2D convolutional neural network (CNN) with channel-wise attention to take only a raw difference map between the inter-residue distance map calculated from a single protein model and the distance map predicted from the protein sequence as input to predict the quality of the model. The network comprises multiple convolutional layers, batch normalization layers, dense layers, and Squeeze-and-Excitation blocks with attention to automatically extract features relevant to protein model quality from the raw input without using any expert-curated features. We evaluated DISTEMA’s capability of selecting the best models for CASP13 targets in terms of ranking loss of GDT-TS score. The ranking loss of DISTEMA is 0.079, lower than several state-of-the-art single-model quality assessment methods. The work demonstrates that using raw inter-residue distance information alone with deep learning can predict the quality of protein structural models reasonably well.",
+  "authors": [
+    "Xiao Chen",
+    "Jianling Cheng"
+  ],
+  "published_date": "2021-03-30",
+  "updated_date": "2021-03-30T20:55:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.29.437573",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.29.437573.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:30:30Z",
+        "timestamp": 1768494630868,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                30
+              ]
+            ],
+            "date-time": "2021-03-30T00:00:00Z",
+            "timestamp": 1617062400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Estimation of the accuracy (quality) of protein structural models is important for both prediction and use of protein structural models. Deep learning methods have been used to integrate protein structure features to predict the quality of protein models. Inter-residue distances are key information for predicting protein’s tertiary structures and therefore have good potentials to predict the quality of protein structural models. However, few methods have been developed to fully take advantage of predicted inter-residue distance maps to estimate the accuracy of a single protein structural model.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Result</jats:title>\n                  <jats:p>We developed an attentive 2D convolutional neural network (CNN) with channel-wise attention to take only a raw difference map between the inter-residue distance map calculated from a single protein model and the distance map predicted from the protein sequence as input to predict the quality of the model. The network comprises multiple convolutional layers, batch normalization layers, dense layers, and Squeeze-and-Excitation blocks with attention to automatically extract features relevant to protein model quality from the raw input without using any expert-curated features. We evaluated DISTEMA’s capability of selecting the best models for CASP13 targets in terms of ranking loss of GDT-TS score. The ranking loss of DISTEMA is 0.079, lower than several state-of-the-art single-model quality assessment methods. The work demonstrates that using raw inter-residue distance information alone with deep learning can predict the quality of protein structural models reasonably well.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.03.29.437573",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            30
+          ]
+        ],
+        "date-time": "2021-03-30T20:55:18Z",
+        "timestamp": 1617137718000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DISTEMA: distance map-based estimation of single protein model accuracy with attentive 2D convolutional neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1531-4833",
+          "authenticated-orcid": false,
+          "given": "Xiao",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0305-2853",
+          "authenticated-orcid": false,
+          "given": "Jianling",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "S8",
+          "key": "2024080517544028000_2021.03.29.437573v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1002/prot.21669",
+          "article-title": "Assessment of predictions in the model quality assessment category",
+          "volume": "69",
+          "year": "2007",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "W1",
+          "key": "2024080517544028000_2021.03.29.437573v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "368",
+          "DOI": "10.1093/nar/gkt294",
+          "article-title": "The modfold4 server for the quality assessment of 3d protein models",
+          "volume": "41",
+          "year": "2013",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "issue": "1",
+          "key": "2024080517544028000_2021.03.29.437573v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "495",
+          "DOI": "10.1186/s12859-016-1405-y",
+          "article-title": "Deepqa: improving the estimation of single protein model quality with deep belief networks",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "issue": "16",
+          "key": "2024080517544028000_2021.03.29.437573v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2801",
+          "DOI": "10.1093/bioinformatics/bty1037",
+          "article-title": "Smooth orientation-dependent scoring function for coarse-grained protein quality assessment",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2024080517544028000_2021.03.29.437573v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1165",
+          "DOI": "10.1002/prot.25697",
+          "article-title": "Protein tertiary structure modeling driven by deep learning and contact distance prediction in casp13",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, X. , Akhter, N. , Guo, Z. , Wu, T. , Hou, J. , Shehu, A. , Cheng, J. : Deep ranking in template-free protein structure prediction. In: Proceedings of the 11th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics, pp. 1–10 (2020)",
+          "DOI": "10.1145/3388440.3412469"
+        },
+        {
+          "issue": "3",
+          "key": "2024080517544028000_2021.03.29.437573v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "638",
+          "DOI": "10.1002/prot.22275",
+          "article-title": "Evaluating the absolute quality of a single protein model using structural features and support vector machines",
+          "volume": "75",
+          "year": "2009",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2024080517544028000_2021.03.29.437573v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1361",
+          "DOI": "10.1002/prot.25767",
+          "article-title": "Estimation of model accuracy in casp13",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2024080517544028000_2021.03.29.437573v1.9",
+          "first-page": "1",
+          "article-title": "Proq3: Improved model quality assessments using rosetta energy terms",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "issue": "10",
+          "key": "2024080517544028000_2021.03.29.437573v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1578",
+          "DOI": "10.1093/bioinformatics/btw819",
+          "article-title": "Proq3d: improved model quality assessments using deep learning",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.11",
+          "article-title": "Deep transfer learning in the assessment of the quality of protein models",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt473"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sanyal, S. , Anishchenko, I. , Dagar, A. , Baker, D. , Talukdar, P. : Proteingcn: Protein model quality assessment using graph convolutional networks. BioRxiv (2020)",
+          "DOI": "10.1101/2020.04.06.028266"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa714"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Igashov, I. , Olechnovic, K. , Kadukova, M. , Venclovas, C. , Grudinin, S. : Vorocnn: Deep convolutional neural network built on 3d voronoi tessellation of protein structures. bioRxiv (2020)",
+          "DOI": "10.1101/2020.04.27.063586"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jing, X. , Xu, J. : Improved protein model quality assessment by integrating sequential and pairwise features using deep learning. bioRxiv (2020)",
+          "DOI": "10.1101/2020.09.30.321661"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-21511-x"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-03960-9"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg571"
+        },
+        {
+          "issue": "4",
+          "key": "2024080517544028000_2021.03.29.437573v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "702",
+          "DOI": "10.1002/prot.20264",
+          "article-title": "Scoring function for automated assessment of protein structure template quality",
+          "volume": "57",
+          "year": "2004",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu, J. , Shen, L. , Sun, G. : Squeeze-and-excitation networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 7132–7141 (2018)",
+          "DOI": "10.1109/CVPR.2018.00745"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.22",
+          "unstructured": "Ren, S. , He, K. , Girshick, R. , Sun, J. : Faster r-cnn: Towards real-time object detection with region proposal networks. In: Advances in Neural Information Processing Systems, pp. 91–99 (2015)"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. , Zhang, X. , Ren, S. , Sun, J. : Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In: Proceedings of the IEEE International Conference on Computer Vision, pp. 1026–1034 (2015)",
+          "DOI": "10.1109/ICCV.2015.123"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.24",
+          "unstructured": "Paszke, A. , Gross, S. , Massa, F. , Lerer, A. , Bradbury, J. , Chanan, G. , Killeen, T. , Lin, Z. , Gimelshein, N. , Antiga, L. , et al.: Pytorch: An imperative style, high-performance deep learning library. In: Advances in Neural Information Processing Systems, pp. 8026–8037 (2019)"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.25",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-224"
+        },
+        {
+          "issue": "6",
+          "key": "2024080517544028000_2021.03.29.437573v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1131",
+          "DOI": "10.1002/prot.25278",
+          "article-title": "Voromqa: Assessment of protein structure quality using interatomic contact” areas",
+          "volume": "85",
+          "year": "2017",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa455"
+        },
+        {
+          "key": "2024080517544028000_2021.03.29.437573v1.29",
+          "article-title": "Wide residual networks",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.29.437573",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:30:37Z",
+        "timestamp": 1768440637000
+      },
+      "score": 80.18548,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.29.437573"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            30
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.1101/2021.03.29.437573",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

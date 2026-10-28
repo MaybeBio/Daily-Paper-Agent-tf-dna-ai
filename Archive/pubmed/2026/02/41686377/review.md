@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors characterize the DREB (A-6) group in potato via molecular modelling, protein-protein interaction prediction, and molecular docking, and report that overexpression of StDREB30 enhances thermotolerance in transgenic potato under heat and combined heat plus ABA treatments, with improvements in physiological, biochemical, and photosynthetic parameters, and increased tuberization.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or raw data are available
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical test details, sample sizes, replication numbers, transgenic line characterization, docking validation metrics, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting study on a poorly characterized DREB subgroup in potato, with a plausible link between StDREB30 overexpression and heat tolerance. However, the evidence as presented is largely descriptive and lacks the quantitative rigor, statistical validation, and mechanistic depth required to establish the stated conclusions. The molecular docking and modelling components appear disconnected from the physiological experiments, and the claim regarding ABA's role as a stress signal modulator is not directly supported by the data described.
+- **Who would be interested in the results, and why** Plant stress biologists, particularly those working on transcription factors and abiotic stress tolerance in crops; potato breeders interested in thermotolerance traits; and researchers studying ABA signaling in heat stress responses. The study addresses a gap in DREB (A-6) subgroup characterization, which could have translational relevance for heat-tolerant crop development.
+- **Major strengths** The study targets a poorly characterized DREB subgroup, which addresses a clear knowledge gap. The combination of in silico approaches (modelling, docking, PPI) with in planta experiments is a useful integrative strategy. The inclusion of multiple physiological and biochemical parameters (relative water content, malondialdehyde, anthocyanin, photosynthetic traits, antioxidant activities, ROS, cell death) provides a broad phenotypic assessment. The focus on combined heat and ABA treatment is a relevant and underexplored condition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that overexpression of StDREB30 enhanced tolerance in transgenic potato under combined heat and ABA treatment compared to wild type.
+  - **Evidence pointer** Abstract, physiological and biochemical results; location not provided
+  - **Concern** The abstract reports mean values for several parameters (e.g., relative water content 70% vs 59%, malondialdehyde 3.1 vs 3.9 nmol/g FW, maximum quantum yield 0.7 vs 0.6) but provides no indication of variability, replication, or statistical significance. Without error bars, p-values, or effect sizes, it is impossible to assess whether these differences are robust or within normal biological variation.
+  - **Why it matters** The central claim of enhanced thermotolerance rests entirely on these comparative measurements. If the differences are not statistically significant, the conclusion is unsupported. The absence of statistical reporting is a fundamental flaw in the evidence base.
+  - **Resolution test** Provide full statistical analysis including sample sizes, replication across independent transgenic lines, and appropriate tests (e.g., ANOVA with post-hoc comparisons) for all reported parameters. Show that differences between transgenic and wild type are significant under the relevant treatments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that RT-PCR analysis confirmed strong up-regulation of StDREB30 (5.8, 6.1, and 7.2-fold in leaves, shoots, and roots) under combined heat plus ABA treatment.
+  - **Evidence pointer** Abstract, RT-PCR results; location not provided
+  - **Concern** The fold-change values are presented without reference to the control condition, the reference genes used for normalization, the number of biological replicates, or statistical significance. It is unclear whether these values are relative to wild type under the same treatment, to transgenic plants under control conditions, or to some other baseline. The lack of normalization details and variability measures undermines the reliability of the expression data.
+  - **Why it matters** The upregulation of StDREB30 is a key mechanistic link between the transgene and the observed phenotype. If the expression data are not rigorously quantified, the causal relationship between overexpression and thermotolerance cannot be established.
+  - **Resolution test** Provide detailed RT-PCR methodology including reference gene validation, biological and technical replicates, statistical analysis of expression differences, and clear definition of the baseline used for fold-change calculation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that ABA primarily serves as a stress signal modulator without significantly influencing physiological, biochemical, and expression patterns under non-stressed conditions but significantly alleviates heat stress effects in combined treatment.
+  - **Evidence pointer** Abstract, concluding statement; location not provided
+  - **Concern** This conclusion is presented as a definitive proposal, but the abstract does not describe any experiments that directly test the role of ABA under non-stressed conditions. No data are shown comparing ABA treatment alone versus control in wild type or transgenic plants. The claim that ABA has no significant effect under non-stressed conditions is therefore unsupported by the visible evidence.
+  - **Why it matters** The proposed role of ABA is a central mechanistic interpretation of the study. Without direct evidence, this claim is speculative and could mislead readers about the nature of ABA's involvement.
+  - **Resolution test** Include data from ABA-only treatment under non-stressed conditions for all measured parameters, with statistical comparison to untreated controls, to support or refute the claim of no significant ABA effect.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors performed molecular modelling, PPI analysis, and molecular docking to characterize the DREB (A-6) group.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract mentions the use of SWISS-MODEL, STRING, and HDOCK but provides no results from these analyses. No docking scores, model quality metrics, or interaction partners are reported. The connection between the in silico work and the physiological experiments is not articulated.
+  - **Why it matters** The title emphasizes molecular docking, yet the abstract does not present any docking outcomes. This creates a disconnect between the stated focus and the reported findings, and the in silico component cannot be evaluated for validity or relevance.
+  - **Resolution test** Present key results from the modelling and docking analyses, including model quality assessments, docking scores, and predicted interaction partners, and explicitly relate these findings to the functional experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The abstract uses technical terms and abbreviations (e.g., DREB, ABA, PPI, SPAD) without defining them on first use. This may hinder readability for readers outside the immediate field.
+  - **Required correction** Define all abbreviations and technical terms at first mention, or provide a brief explanatory context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, experimental design
+  - **Evidence pointer** Abstract, treatment description; location not provided
+  - **Issue** The abstract states heat treatment at 42 degrees C and ABA at 50 microM but does not specify the duration of treatment, the growth stage of plants, or the number of independent transgenic lines used. These details are essential for reproducibility.
+  - **Required correction** Include treatment durations, plant developmental stage, and the number of independent transgenic lines evaluated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, tuberization claim
+  - **Evidence pointer** Abstract, final results sentence; location not provided
+  - **Concern** The claim that combined heat plus ABA treatment enhanced tuberization in transgenic plants is presented without any quantitative data or comparison to wild type under the same conditions.
+  - **Required correction** Provide quantitative tuberization data (e.g., tuber number, weight, or size) with statistical comparison between genotypes and treatments.
+
+## Risk / unsupported claims
+- The claim that ABA has no significant effect under non-stressed conditions is unsupported by any visible data.
+- The claim that combined heat plus ABA treatment enhanced tuberization is unsupported without quantitative data.
+- The claim of enhanced thermotolerance in transgenic plants is not statistically substantiated due to missing variability and significance testing.
+- The molecular docking and modelling results are not reported, making the title's emphasis on docking unverifiable.
+- The proposed mechanistic role of ABA as a stress signal modulator is speculative based on the abstract alone.

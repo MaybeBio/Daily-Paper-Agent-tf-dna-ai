@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full manuscript, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose that NF-κB exhibits a continuum of conformational states in free and DNA-bound forms, interconverting on subsecond to minute timescales, and that these dynamics directly control binding kinetics. They further claim that IκBα accelerates DNA dissociation by invading partially bound NF-κB states and locking the DNA-binding domains apart, while a loss-of-function IκBα mutant fails to induce this locked conformation.
+- **Visible evidence base** Single-molecule FRET measurements described in the abstract; no quantitative data, experimental details, or statistical analyses are provided
+- **Missing materials affecting confidence** Full text, methods, figures, tables, supplementary information, and any statistical or kinetic modeling details
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting model for transcription factor binding kinetics, linking conformational dynamics to association and dissociation. However, the evidence base is limited to a brief summary of single-molecule FRET observations, with no quantitative support, control experiments, or mechanistic validation. The central claims, particularly the continuum of binding modes and the IκBα-induced locked conformation, are plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, single-molecule biophysics, and protein-DNA interaction kinetics would find the proposed mechanism relevant. The work could also interest those studying allosteric regulation and inhibitor design, as it suggests a dynamic rather than static view of transcription factor binding.
+- **Major strengths** The abstract addresses a fundamental question in gene regulation with a technically advanced approach. The proposed continuum model is a novel departure from discrete binding-state descriptions. The link between conformational dynamics and in vivo binding timescales is a compelling conceptual bridge.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "structural dynamics directly control binding kinetics" based on observed conformational interconversion timescales comparable to in vivo binding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative comparison between conformational dynamics rates and binding kinetics, nor any perturbation experiments (e.g., mutations or altered conditions) that would establish causality rather than correlation.
+  - **Why it matters** Without direct evidence that changes in conformational dynamics lead to corresponding changes in binding kinetics, the claim of direct control remains speculative. Correlation of timescales is insufficient to establish mechanistic causation.
+  - **Resolution test** Provide quantitative rate constants for conformational transitions and binding/dissociation under multiple conditions, and show that perturbations altering one systematically alter the other in a predictive manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors claim that "IκBα induces a locked conformation where the DNA-binding domains of NF-κB are too far apart to bind DNA."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states this as a finding but provides no structural or functional validation. It is unclear whether the "locked conformation" is directly observed or inferred from FRET changes, and whether this state is proven to be non-DNA-binding.
+  - **Why it matters** This is a central mechanistic claim that distinguishes the proposed model from prior work. Without direct evidence (e.g., structural data, binding assays under the same conditions, or mutant controls), the claim is not established.
+  - **Resolution test** Show that the locked state is populated in the presence of IκBα, that it is incompatible with DNA binding in a direct assay, and that a mutant IκBα fails to induce this state with corresponding functional consequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors propose "a novel mechanism with a continuum of binding modes for controlling association and dissociation of transcription factors."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract only describes NF-κB and IκBα. The generalization to transcription factors broadly is unsupported by any comparative data or theoretical framework.
+  - **Why it matters** The title and conclusion imply broad relevance, but the evidence is limited to a single system. Overgeneralization without comparative analysis weakens the scientific case.
+  - **Resolution test** Provide evidence from at least one additional transcription factor system, or present a theoretical model that predicts general applicability with testable predictions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "partially bound"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "partially bound" is used without definition. It is unclear whether this refers to partial DNA contact, partial domain engagement, or a specific structural state.
+  - **Required correction** Define "partially bound" operationally in terms of FRET states or structural criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Timescales
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "subseconds to minutes" and "seconds" but provides no specific values or error ranges.
+  - **Required correction** Report actual timescale ranges with uncertainties and the number of molecules or events measured.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental controls
+  - **Affected element** IκBα mutant
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The loss-of-function mutant is mentioned but not described. It is unclear what mutation is used and how loss of function is defined.
+  - **Required correction** Specify the mutation and the functional assay used to define loss of function.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data, direct mechanistic validation, and comparative evidence. These are essential to support the central claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The continuum model is a novel conceptual contribution, but its novelty cannot be fully assessed without comparison to prior literature, which is not provided.
+  - Scientific importance: The work addresses a fundamental question in gene regulation, and the proposed mechanism could have broad implications if validated.
+  - Interdisciplinary readership: The topic bridges biophysics and molecular biology, and the abstract is written in a way that is accessible to both communities.
+  - Technical soundness: The single-molecule FRET approach is appropriate, but the abstract provides no evidence of technical rigor, such as controls, sample sizes, or data analysis methods.
+  - Readability for nonspecialists: The abstract is clear and concise, but terms like "continuum of binding modes" and "locked conformation" require more explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the claims are not supported by sufficient quantitative or mechanistic detail. A full manuscript with rigorous data would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that "structural dynamics directly control binding kinetics" is unsupported without causal evidence.
+- The claim that "IκBα induces a locked conformation" is unsupported without structural or functional validation.
+- The generalization to "transcription factors" broadly is unsupported by the single-system data.
+- The existence of a "continuum of binding modes" is asserted but not quantitatively defined or demonstrated.

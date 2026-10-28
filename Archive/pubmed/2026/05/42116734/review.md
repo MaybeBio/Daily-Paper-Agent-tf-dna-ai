@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that ligustilide (LIG) alleviates hepatic fibrosis by directly binding to MEOX1, inhibiting its transcriptional activation of TEAD2, and thereby suppressing Hippo pathway target genes and hepatic stellate cell activation.
+- **Visible evidence base** In vivo CCl4 mouse model with AAV9-pGFAP-sh-MEOX1 and LIG; in vitro LX-2 cell studies with siRNA, pcDNA, and LIG pretreatment; molecular docking, CETSA, site-specific mutation, SPR; promoter binding analysis of MEOX1 to TEAD2 promoter region -988 to -982 nt.
+- **Missing materials affecting confidence** Full methods, dose-response data, statistical details, raw binding data, specificity controls for MEOX1 inhibition, in vivo pharmacokinetic data, and histological quantification.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanism linking MEOX1 to TEAD2 in hepatic fibrosis and proposes LIG as a direct MEOX1 inhibitor. However, the evidence as summarized is insufficient to establish the central claims of direct binding, functional specificity, and therapeutic translatability. Several key controls and quantitative data are not described, and the leap from in vitro binding to in vivo efficacy requires more rigorous support.
+- **Who would be interested in the results, and why** Researchers in hepatic fibrosis biology, Hippo signalling, and natural product pharmacology. The proposed MEOX1-TEAD2 axis may interest those studying fibroblast activation mechanisms, while the LIG-MEOX1 interaction could appeal to drug discovery groups focused on protein-protein or protein-DNA interface inhibitors.
+- **Major strengths** The study combines in vivo and in vitro models with multiple orthogonal binding assays (docking, CETSA, SPR, mutation). The identification of a specific promoter region for MEOX1 binding adds mechanistic detail. The use of a clinically relevant natural product with established safety profiles enhances translational potential.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of MEOX1 targeting
+  - **Claim pointer** "LIG as a potential inhibitor of MEOX1" and "LIG can also bind to the HOX domain of MEOX1"
+  - **Evidence pointer** Methods described as molecular docking, CETSA, site-specific mutation, SPR; location not provided
+  - **Concern** The abstract does not report whether LIG binding to MEOX1 was tested against other HOX family members or unrelated transcription factors. The HOX domain is highly conserved across the homeobox protein family, and the claimed specificity of LIG for MEOX1 over closely related proteins is not demonstrated.
+  - **Why it matters** Without specificity data, the proposed mechanism could be confounded by off-target effects on other HOX proteins, undermining the conclusion that MEOX1 is the primary therapeutic target.
+  - **Resolution test** Provide SPR or CETSA data for LIG binding to at least two other HOX domain-containing proteins, and show that LIG does not inhibit their transcriptional activity in relevant cellular assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional causality of MEOX1-TEAD2 axis
+  - **Claim pointer** "MEOX1 promoted TEAD2 transcription, by binding to the -988 to -982 nt region of the TEAD2 promoter, which increased the transcription of Hippo signalling targets and stimulated HSC activation"
+  - **Evidence pointer** In vitro LX-2 cell studies; location not provided
+  - **Concern** The abstract does not show whether TEAD2 overexpression rescues the antifibrotic effect of MEOX1 knockdown or LIG treatment. Without a rescue experiment, the causal link between MEOX1 inhibition, reduced TEAD2, and downstream Hippo target suppression remains correlative.
+  - **Why it matters** The central mechanistic claim is that MEOX1 acts through TEAD2. If TEAD2 restoration does not reverse the phenotype, other MEOX1 targets may be responsible, and the proposed axis would be incomplete or incorrect.
+  - **Resolution test** Perform TEAD2 overexpression in MEOX1-knockdown or LIG-treated cells and assess whether HSC activation markers and proliferation are restored.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo target engagement
+  - **Claim pointer** "LIG exerted significant antifibrotic effects through MEOX1"
+  - **Evidence pointer** CCl4 mouse model; location not provided
+  - **Concern** The abstract does not report whether LIG treatment reduced MEOX1 protein levels or DNA-binding activity in vivo, nor whether MEOX1 knockdown and LIG showed additive or epistatic effects. Without in vivo target engagement data, the claim that LIG acts through MEOX1 in the whole animal is unsupported.
+  - **Why it matters** In vitro binding does not guarantee in vivo target engagement due to bioavailability, metabolism, and tissue distribution. The therapeutic mechanism could involve other pathways.
+  - **Resolution test** Measure MEOX1 occupancy or downstream TEAD2 expression in liver tissues from LIG-treated mice, and compare the effects of LIG in MEOX1-knockdown versus control animals to assess epistasis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative and statistical rigour
+  - **Claim pointer** "Knockdown of MEOX1 mitigated fibrosis, both in vivo and in vitro"
+  - **Evidence pointer** Not specified in abstract; location not provided
+  - **Concern** No effect sizes, sample sizes, or statistical significance values are reported for any of the fibrosis endpoints. The abstract does not indicate whether fibrosis was assessed histologically, biochemically, or by gene expression, nor whether the magnitude of reduction is clinically meaningful.
+  - **Why it matters** Without quantitative data, the reader cannot assess the robustness or magnitude of the antifibrotic effect, which is essential for evaluating therapeutic potential.
+  - **Resolution test** Include representative quantitative data for fibrosis area, hydroxyproline content, or collagen gene expression with appropriate statistical tests and effect sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental design
+  - **Affected element** In vivo model description
+  - **Evidence pointer** Abstract, Experimental Approach
+  - **Issue** The abstract states "AAV9-pGFAP-sh-MEOX1" was used but does not specify the route of administration, timing relative to CCl4 injury, or whether a scrambled shRNA control was used.
+  - **Required correction** Specify administration route, treatment schedule, and inclusion of a control vector.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dose justification
+  - **Affected element** LIG dosing
+  - **Evidence pointer** Abstract, Experimental Approach
+  - **Issue** The LIG dose is not stated, nor is any rationale for dose selection provided.
+  - **Required correction** Report the dose and route of LIG administration, and cite prior pharmacokinetic or efficacy studies justifying the dose.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Hippo signalling targets"
+  - **Evidence pointer** Abstract, Key Results
+  - **Issue** The abstract does not name which Hippo target genes were measured, nor whether they are canonical (e.g., CTGF, CYR61, ANKRD1) or non-canonical.
+  - **Required correction** List the specific target genes assessed and their direction of change.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clinical relevance framing
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, Conclusion and Implications
+  - **Issue** The claim that LIG is a "clinical antifibrotic agent" is premature given the absence of any pharmacokinetic, toxicity, or human data.
+  - **Required correction** Soften the claim to indicate potential for clinical development pending further preclinical validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (specificity of LIG for MEOX1), R1-M2 (lack of rescue experiment for TEAD2), R1-M3 (absence of in vivo target engagement data). These are required to establish the causal and specific nature of the proposed mechanism.
+- **Assessment against Nature-style criteria** Originality: Moderate. The MEOX1-TEAD2 link in hepatic fibrosis is novel, but the overall approach of targeting a transcription factor with a natural product is not unprecedented. Scientific importance: Potentially high if the mechanism is fully validated, as it could offer a new therapeutic axis. Interdisciplinary readership: The topic bridges hepatology, transcription factor biology, and natural product pharmacology, which may attract a broad audience. Technical soundness: Not fully assessable from the abstract; the binding assays are appropriate but specificity and causality controls are missing. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The proposed mechanism is plausible and the experimental strategy is sound, but the abstract lacks critical specificity, causality, and in vivo target engagement data. Supportive if the identified technical concerns are resolved with additional data.
+
+## Risk / unsupported claims
+- The claim that LIG is a specific inhibitor of MEOX1 is unsupported without data on binding to other HOX family members.
+- The claim that MEOX1 acts through TEAD2 to drive fibrosis is unsupported without a rescue experiment.
+- The claim that LIG exerts its in vivo antifibrotic effects through MEOX1 is unsupported without in vivo target engagement or epistasis data.
+- The claim that LIG is a "clinical antifibrotic agent" is unsupported and premature.
+- The magnitude and statistical significance of the antifibrotic effects are not assessable from the abstract.

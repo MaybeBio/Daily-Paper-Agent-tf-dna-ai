@@ -1,0 +1,152 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.08.487670",
+  "title": "Co-Component Signal Transduction Systems: fast-evolving virulence regulation cassettes discovered in enteric bacteria",
+  "doi": "10.1101/2022.04.08.487670",
+  "abstract": "Bacterial signal transduction systems sense changes in the environment and transmit these signals to control cellular responses. The simplest one-component signal transduction systems include an input sensor domain and an output response domain encoded in a single protein chain. Alternately, two-component signal transduction systems transmit signals by phosphorelay between input and output domains from separate proteins. The membrane tethered periplasmic bile acid sensor that activates the Vibrio parahaemolyticus type III secretion system adopts an obligate heterodimer of two proteins encoded by partially overlapping VtrA and VtrC genes. This co-component signal transduction system binds bile acid using a lipocalin-like domain in VtrC and transmits the signal through the membrane to a cytoplasmic DNA-binding transcription factor in VtrA. Using the domain and operon organization of VtrA/VtrC, we identify a fast-evolving superfamily of co-component systems in enteric bacteria. Accurate machine learning-based fold predictions for the candidate co-components support their homology in the twilight zone of rapidly evolving sequence and provide mechanistic hypotheses about previously unrecognized lipid-sensing functions. <h4>Significance statement</h4> Using the domain and operon organization of VtrA/VtrC, combined with fold predictions, we identify new co-component signal transduction systems in enteric bacteria that likely regulate virulence. We observe that the heterodimeric VtrA/VtrC periplasmic bile acid receptor controlling Vibrio parahaemolyticus T3SS2 is a distant homolog of the ToxR/ToxS master regulator of virulence and has evolved beyond confident sequence recognition. Exploiting the newly developed machine learning methods for structure prediction, we observe a VtrC-like lipocalin fold for both the ToxS periplasmic domain and for other detected periplasmic sensor components. This structure prediction supports the divergent evolution of VtrA/VtrC-like co-component signal transduction systems and suggests a role for lipid sensing in regulating virulence in enteric bacteria.",
+  "authors": [
+    "Kinch LN",
+    "Cong Q",
+    "Jaishankar J",
+    "Orth K"
+  ],
+  "published_date": "2022-04-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487670",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487670.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR479615",
+    "raw_record": {
+      "id": "PPR479615",
+      "source": "PPR",
+      "doi": "10.1101/2022.04.08.487670",
+      "title": "Co-Component Signal Transduction Systems: fast-evolving virulence regulation cassettes discovered in enteric bacteria",
+      "authorString": "Kinch LN, Cong Q, Jaishankar J, Orth K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kinch LN",
+            "lastName": "Kinch",
+            "firstName": "Lisa",
+            "initials": "LN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3041-2615"
+            }
+          },
+          {
+            "fullName": "Cong Q",
+            "lastName": "Cong",
+            "firstName": "Qian",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Jaishankar J",
+            "lastName": "Jaishankar",
+            "firstName": "Jananee",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6915-1144"
+            }
+          },
+          {
+            "fullName": "Orth K",
+            "lastName": "Orth",
+            "firstName": "Kim",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0678-7620"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0678-7620"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6915-1144"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3041-2615"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Bacterial signal transduction systems sense changes in the environment and transmit these signals to control cellular responses. The simplest one-component signal transduction systems include an input sensor domain and an output response domain encoded in a single protein chain. Alternately, two-component signal transduction systems transmit signals by phosphorelay between input and output domains from separate proteins. The membrane tethered periplasmic bile acid sensor that activates the  Vibrio parahaemolyticus type III secretion system adopts an obligate heterodimer of two proteins encoded by partially overlapping  VtrA and  VtrC genes. This co-component signal transduction system binds bile acid using a lipocalin-like domain in VtrC and transmits the signal through the membrane to a cytoplasmic DNA-binding transcription factor in VtrA. Using the domain and operon organization of VtrA/VtrC, we identify a fast-evolving superfamily of co-component systems in enteric bacteria. Accurate machine learning-based fold predictions for the candidate co-components support their homology in the twilight zone of rapidly evolving sequence and provide mechanistic hypotheses about previously unrecognized lipid-sensing functions.  <h4>Significance statement</h4>  Using the domain and operon organization of VtrA/VtrC, combined with fold predictions, we identify new co-component signal transduction systems in enteric bacteria that likely regulate virulence. We observe that the heterodimeric VtrA/VtrC periplasmic bile acid receptor controlling  Vibrio parahaemolyticus T3SS2 is a distant homolog of the ToxR/ToxS master regulator of virulence and has evolved beyond confident sequence recognition. Exploiting the newly developed machine learning methods for structure prediction, we observe a VtrC-like lipocalin fold for both the ToxS periplasmic domain and for other detected periplasmic sensor components. This structure prediction supports the divergent evolution of VtrA/VtrC-like co-component signal transduction systems and suggests a role for lipid sensing in regulating virulence in enteric bacteria.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/08/2022.04.08.487670.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.08.487670"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35648808",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2022 Jun;119(24):e2203176119",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-04-10",
+      "firstPublicationDate": "2022-04-08",
+      "firstIndexDate": "2022-04-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

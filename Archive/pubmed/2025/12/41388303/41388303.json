@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "41388303",
+    "doi": "10.1186/s12974-025-03623-z",
+    "title": "SIRT2 Inhibition promotes microglia LC3-associated phagocytosis via NRF2/CD36 after the experimental subarachnoid hemorrhage."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Subarachnoid hemorrhage (SAH) results in the accumulation of blood in the subarachnoid space, which can trigger inflammatory responses and oxidative damage, thereby exacerbating secondary brain injury. Microglia play a critical role in clearing hematomas and cellular debris during pathological recovery. This study aimed to investigate the regulatory role of SIRT2 in phagocytic function and its potential mechanisms. METHODS: The SAH model of endovascular perforation in Sprague-Dawley (SD) rats and in vitro model of primary microglia culture with Oxygenated hemoglobin (OxyHb) stimulation were used. Flow cytometry, Western blot, immunofluorescence, ELISA were used to detect the microglial phagocytic ability, expressions of SRIT2 and LC3-associated phagocytosis (LAP)-related proteins. Molecular docking, and immunoprecipitation were used to explore the underlying mechanism of the SIRT2/NRF2/CD36 signaling pathway. Behavioral experiments were conducted to evaluate changes in neurological function. RESULTS: Within 24 h after SAH, the expression of SIRT2 in brain and microglia was significantly increased, while the phagocytic ability and the expression of LAP-related proteins Rubicon, NOX2 were decreased. After inhibiting SIRT2, microglial LAP function was enhanced and the phagocytic index was increased. Mechanistically, SIRT2 inhibited NRF2 nuclear translocation by deacetylation, thereby downregulating CD36 expression and suppressing microglia LAP. ML385 reversed the enhancement of LAP and the improvement in neurological function induced by SIRT2 inhibition. CONCLUSION: SIRT2 suppresses microglial LAP by deacetylating NRF2, thereby impairing its nuclear translocation and reducing transcriptional expression of CD36 subsequently. Inhibiting SIRT2 may effectively enhance microglial LAP function via activating NRF2/CD36 pathway, promoting blood clearance and improving neurological prognosis after SAH.",
+    "keywords": [
+      "LAP",
+      "Microglia",
+      "Phagocytosis",
+      "SIRT2",
+      "Subarachnoid hemorrhage"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Sirtuin 2/antagonists & inhibitors/metabolism",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Microglia/metabolism/drug effects",
+      "*Phagocytosis/drug effects/physiology",
+      "*Subarachnoid Hemorrhage/metabolism/pathology",
+      "Rats, Sprague-Dawley",
+      "Rats",
+      "Male",
+      "*CD36 Antigens/metabolism",
+      "Disease Models, Animal",
+      "Cells, Cultured",
+      "Signal Transduction/drug effects/physiology",
+      "*Microtubule-Associated Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sheng, Bin",
+        "Chen, Xiangxin",
+        "Tao, Tao",
+        "Sun, Jiaqing",
+        "Li, Wei",
+        "Wu, Lingyun",
+        "Peng, Zheng",
+        "Li, Xiaojian",
+        "Zhou, Zhengxu",
+        "Yu, Qian",
+        "Ling, Yeping",
+        "Sherchan, Prativa",
+        "Flores, Jerry J",
+        "Tang, Jiping",
+        "Huang, Lei",
+        "Hang, Chunhua",
+        "Zhang, John H"
+      ],
+      "short_names": [
+        "Sheng B",
+        "Chen X",
+        "Tao T",
+        "Sun J",
+        "Li W",
+        "Wu L",
+        "Peng Z",
+        "Li X",
+        "Zhou Z",
+        "Yu Q",
+        "Ling Y",
+        "Sherchan P",
+        "Flores JJ",
+        "Tang J",
+        "Huang L",
+        "Hang C",
+        "Zhang JH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Wannan Medical College, (Yijishan Hospital of Wannan Medical College), The Translational Research Institute for Neurological Disorders of Wannan Medical College, Wuhu, China.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+        "Department of Neurosurgery, Loma Linda University School of Medicine, Loma Linda, CA, 92354, USA.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA. lhuang@llu.edu.",
+        "Department of Neurosurgery, Loma Linda University School of Medicine, Loma Linda, CA, 92354, USA. lhuang@llu.edu.",
+        "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China. hang_neurosurgery@163.com.",
+        "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA. johnzhang3910@yahoo.com.",
+        "Department of Neurosurgery, Loma Linda University School of Medicine, Loma Linda, CA, 92354, USA. johnzhang3910@yahoo.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sheng, Bin",
+        "short_name": "Sheng B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China.",
+          "Department of Neurosurgery, The First Affiliated Hospital of Wannan Medical College, (Yijishan Hospital of Wannan Medical College), The Translational Research Institute for Neurological Disorders of Wannan Medical College, Wuhu, China.",
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA.",
+          "Department of Neurosurgery, Loma Linda University School of Medicine, Loma Linda, CA, 92354, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiangxin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Tao",
+        "short_name": "Tao T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jiaqing",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingyun",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zheng",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaojian",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhengxu",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qian",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA."
+        ]
+      },
+      {
+        "full_name": "Ling, Yeping",
+        "short_name": "Ling Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA."
+        ]
+      },
+      {
+        "full_name": "Sherchan, Prativa",
+        "short_name": "Sherchan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA."
+        ]
+      },
+      {
+        "full_name": "Flores, Jerry J",
+        "short_name": "Flores JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Jiping",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Lei",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA. lhuang@llu.edu.",
+          "Department of Neurosurgery, Loma Linda University School of Medicine, Loma Linda, CA, 92354, USA. lhuang@llu.edu."
+        ]
+      },
+      {
+        "full_name": "Hang, Chunhua",
+        "short_name": "Hang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Neurosurgical Institute of Nanjing University, Nanjing, China. hang_neurosurgery@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, John H",
+        "short_name": "Zhang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Basic Sciences, School of Medicine, Loma Linda University, Loma Linda, CA, 92354, USA. johnzhang3910@yahoo.com.",
+          "Department of Neurosurgery, Loma Linda University School of Medicine, Loma Linda, CA, 92354, USA. johnzhang3910@yahoo.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neuroinflammation"
+    ],
+    "journal_abbrev": [
+      "J Neuroinflammation"
+    ],
+    "pub_date": "2025 Dec 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/13 06:29",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [
+      "42415072",
+      "41518430"
+    ],
+    "refs": [
+      "40668626",
+      "40656980",
+      "40639751",
+      "40620356",
+      "40499846",
+      "40373771",
+      "40215824",
+      "40108663",
+      "40020452",
+      "39741753",
+      "39444113",
+      "39357894",
+      "39129208",
+      "38661031",
+      "38652234",
+      "38525592",
+      "38418755",
+      "38324982",
+      "38320455",
+      "38014902",
+      "37480108",
+      "37395873",
+      "37248218",
+      "36652438",
+      "36465125",
+      "36373840",
+      "36288210",
+      "36280666",
+      "36108713",
+      "36084515",
+      "35900429",
+      "35624490",
+      "35443760",
+      "35192551",
+      "33376222",
+      "32783091",
+      "32718316",
+      "31575768",
+      "30870650",
+      "30523761",
+      "30296700",
+      "29654491"
+    ],
+    "similar": [
+      "41388303",
+      "39103659",
+      "37480108",
+      "30779914",
+      "30890112",
+      "40263235",
+      "37863400",
+      "42243462",
+      "35896045",
+      "41671619",
+      "37770901",
+      "42049118",
+      "39756058",
+      "39238115",
+      "32450897",
+      "42107476",
+      "39954002",
+      "30126439",
+      "32302649",
+      "32933418",
+      "42308799",
+      "41205412",
+      "37676391",
+      "25328080",
+      "31949876",
+      "36761756",
+      "39444113",
+      "37290684",
+      "34899720",
+      "38428144",
+      "40935310",
+      "29966698",
+      "37523836",
+      "35837771",
+      "42059866",
+      "41524992",
+      "29885663",
+      "31778579",
+      "42185062",
+      "27157545",
+      "30703614",
+      "38766766",
+      "41316923",
+      "25528957",
+      "39986195",
+      "34511434",
+      "42322761",
+      "39827816",
+      "42341848",
+      "28445772",
+      "26173397",
+      "42048733",
+      "39287134",
+      "39981761",
+      "29678169",
+      "29162556",
+      "35237277",
+      "39034417",
+      "39741753",
+      "39368518",
+      "42253952",
+      "39947392",
+      "26091790",
+      "27423593",
+      "29102603",
+      "42573439",
+      "30572907",
+      "39672459",
+      "41989498",
+      "39207623",
+      "41468154",
+      "37884185",
+      "33378955",
+      "40876750",
+      "31779639",
+      "28738820",
+      "41949581",
+      "33168786",
+      "31590996",
+      "27755950",
+      "29397536",
+      "35262869",
+      "41085724",
+      "32795323",
+      "38720657",
+      "26342279",
+      "41208875",
+      "36872850",
+      "41299803",
+      "40848997",
+      "41456951",
+      "41887379",
+      "39357894",
+      "32664984",
+      "30048156",
+      "21259333",
+      "40358968",
+      "37503724",
+      "32992175",
+      "38058079"
+    ],
+    "review": [
+      "41388303"
+    ],
+    "pmc": [
+      "12825238"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jneuroinflammation.biomedcentral.com/articles/10.1186/s12974-025-03623-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41388303/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LAP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1181",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

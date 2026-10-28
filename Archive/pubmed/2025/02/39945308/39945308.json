@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "39945308",
+    "doi": "10.1096/fj.202402264RR",
+    "title": "Characterization of the Swi6/HP1 binding motif in its partner protein reveals the basis for the functional divergence of the HP1 family proteins in fission yeast."
+  },
+  "content": {
+    "abstract": "The heterochromatin protein 1 (HP1) family recognizes lysine 9-methylated histone H3 (H3K9me) and recruits other transacting factors to establish higher order chromatin structures. In the fission yeast Schizosaccharomyces pombe (S. pombe), two HP1 family proteins, Swi6 and Chp2, play distinct roles in recruiting transacting factors: Swi6 primarily recruits Epe1, a Jumonji C domain-containing protein involved in histone H3K9 demethylation, whereas Chp2 recruits Mit1, a component of the Snf2/Hdac Repressive Complex. However, detailed mechanisms of how multiple HP1 family proteins and their respective interactors work cooperatively or exclusively to form higher order chromatin structures remain elusive. In this study, we investigated the interactions between Swi6 and Epe1. We found that Swi6 interacts with Epe1 through its chromoshadow domain, and identified a unique motif, named the FVI motif, in Epe1 involved in this interaction through detailed mapping of the region. Enhanced green fluorescent protein (EGFP) tethering assays showed that the FVI motif is sufficient to recruit ectopically expressed EGFP to heterochromatic regions, and mutational analyses revealed that conserved hydrophobic residues in this motif are essential for proper targeting. Structural simulations further supported the importance of these residues in Swi6 binding. Interestingly, Mit1 containing the Epe1 FVI motif was recruited to the heterochromatic regions by Swi6 but not by Chp2. Cells expressing mutant Mit1 maintained heterochromatic silencing even in chp2∆ cells, suggesting that Chp2 is not required for heterochromatin formation when Mit1 is recruited by Swi6. These findings highlight distinct HP1-binding motifs in interactors, contributing to functional divergence among HP1 family proteins.",
+    "keywords": [
+      "chromodomain",
+      "chromoshadow domain",
+      "fission yeast",
+      "heterochromatin",
+      "heterochromatin protein 1",
+      "histone methylation"
+    ],
+    "mesh_terms": [
+      "*Schizosaccharomyces pombe Proteins/metabolism/genetics/chemistry",
+      "*Schizosaccharomyces/metabolism/genetics",
+      "*Chromosomal Proteins, Non-Histone/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "Amino Acid Motifs",
+      "Heterochromatin/metabolism",
+      "Chromobox Protein Homolog 5",
+      "Nuclear Proteins",
+      "Repressor Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oya, Tomoyuki",
+        "Tanaka, Mayo",
+        "Hayashi, Aki",
+        "Yoshimura, Yuriko",
+        "Nakamura, Rinko",
+        "Arita, Kyohei",
+        "Murakami, Yota",
+        "Nakayama, Jun-Ichi"
+      ],
+      "short_names": [
+        "Oya T",
+        "Tanaka M",
+        "Hayashi A",
+        "Yoshimura Y",
+        "Nakamura R",
+        "Arita K",
+        "Murakami Y",
+        "Nakayama JI"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1953-1664",
+        "ORCID: 0000-0002-9762-8405",
+        "ORCID: 0000-0002-2023-1303",
+        "ORCID: 0000-0002-5597-8239"
+      ],
+      "affiliations": [
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+        "Basic Biology Program, Graduate Institute for Advanced Studies, SOKENDAI, Okazaki, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+        "Basic Biology Program, Graduate Institute for Advanced Studies, SOKENDAI, Okazaki, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, Yokohama, Kanagawa, Japan.",
+        "Laboratory of Bioorganic Chemistry, Department of Chemistry, Faculty of Science, Hokkaido University, Sapporo, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+        "Basic Biology Program, Graduate Institute for Advanced Studies, SOKENDAI, Okazaki, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oya, Tomoyuki",
+        "short_name": "Oya T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+          "Basic Biology Program, Graduate Institute for Advanced Studies, SOKENDAI, Okazaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Mayo",
+        "short_name": "Tanaka M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Aki",
+        "short_name": "Hayashi A",
+        "identifiers": [
+          "0000-0003-1953-1664"
+        ],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshimura, Yuriko",
+        "short_name": "Yoshimura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakamura, Rinko",
+        "short_name": "Nakamura R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+          "Basic Biology Program, Graduate Institute for Advanced Studies, SOKENDAI, Okazaki, Japan."
+        ]
+      },
+      {
+        "full_name": "Arita, Kyohei",
+        "short_name": "Arita K",
+        "identifiers": [
+          "0000-0002-9762-8405"
+        ],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, Yokohama, Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Murakami, Yota",
+        "short_name": "Murakami Y",
+        "identifiers": [
+          "0000-0002-2023-1303"
+        ],
+        "affiliations": [
+          "Laboratory of Bioorganic Chemistry, Department of Chemistry, Faculty of Science, Hokkaido University, Sapporo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakayama, Jun-Ichi",
+        "short_name": "Nakayama JI",
+        "identifiers": [
+          "0000-0002-5597-8239"
+        ],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki, Japan.",
+          "Basic Biology Program, Graduate Institute for Advanced Studies, SOKENDAI, Okazaki, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 12:26",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "41750274"
+    ],
+    "refs": [
+      "39054315",
+      "37400983",
+      "37207657",
+      "36951094",
+      "34265844",
+      "32195666",
+      "30808655",
+      "30110338",
+      "28223359",
+      "27105116",
+      "26134317",
+      "24848109",
+      "24825911",
+      "22737079",
+      "21472955",
+      "21385875",
+      "20421743",
+      "19443688",
+      "19170768",
+      "19111658",
+      "18809570",
+      "18716626",
+      "17948055",
+      "17449867",
+      "17289569",
+      "17224041",
+      "17173056",
+      "16905130",
+      "16762840",
+      "16261261",
+      "16103923",
+      "16061184",
+      "15905474",
+      "15372076",
+      "15071554",
+      "14765118",
+      "12907790",
+      "12805230",
+      "12773576",
+      "11909520",
+      "11893491",
+      "11882902",
+      "11566886",
+      "11283354",
+      "11242054",
+      "11242053",
+      "11129054",
+      "10949293",
+      "10931937",
+      "10835392",
+      "10835380",
+      "10801440",
+      "10747027",
+      "10660299",
+      "10655032",
+      "10388808",
+      "9717240",
+      "7667093",
+      "7664737",
+      "7660126",
+      "2005825",
+      "1898775",
+      "1708124"
+    ],
+    "similar": [
+      "39945308",
+      "28942089",
+      "32195666",
+      "19443688",
+      "30808655",
+      "19111658",
+      "18809570",
+      "30110338",
+      "21224386",
+      "16762840",
+      "19136623",
+      "37400983",
+      "40152110",
+      "26438724",
+      "22683269",
+      "23485968",
+      "16793539",
+      "20299449",
+      "31206516",
+      "19117951",
+      "17449867",
+      "30794054",
+      "31554660",
+      "25957277",
+      "31000521",
+      "16168376",
+      "40083061",
+      "21211723",
+      "39054315",
+      "19182789",
+      "37952152",
+      "11780129",
+      "18761674",
+      "15060140",
+      "39142658",
+      "22474355",
+      "21239883",
+      "21211724",
+      "31618757",
+      "19164572",
+      "15292231",
+      "15372076",
+      "14757838",
+      "38900638",
+      "38289024",
+      "11242054",
+      "35101096",
+      "16243027",
+      "14561399",
+      "33527595",
+      "17289569",
+      "22733737",
+      "18174443",
+      "34731638",
+      "21215368",
+      "12773576",
+      "20040595",
+      "21189291",
+      "12215653",
+      "34407404",
+      "23604080",
+      "16127433",
+      "16246721",
+      "23849629",
+      "16040243",
+      "30652128",
+      "21725325",
+      "24662054",
+      "12361567",
+      "15743828",
+      "24449894",
+      "33693625",
+      "32491985",
+      "32859127",
+      "18716626",
+      "29136238",
+      "8200530",
+      "38403935",
+      "16157682",
+      "30573453",
+      "33827924",
+      "28682306",
+      "39565210",
+      "12826664",
+      "38837646",
+      "21253571",
+      "11283354",
+      "12130537",
+      "27451393",
+      "17948055",
+      "23388053",
+      "16751098",
+      "31883795",
+      "36830746",
+      "20675407",
+      "37189341",
+      "29632066",
+      "19486527",
+      "20083904",
+      "7664737"
+    ],
+    "review": [
+      "39945308",
+      "16793539",
+      "35101096",
+      "36830746",
+      "37189341"
+    ],
+    "pmc": [
+      "11833287"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39945308/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202402264RR",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHP2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.pombase.org/reference/PMID:39945308",
+        "provider": "PomBase, University of Cambridge",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "41831316",
+    "doi": "10.1002/advs.202524392",
+    "title": "PAIR: Reconstructing Single-Cell Open-Chromatin Landscapes for Transcription Factor Regulome Mapping."
+  },
+  "content": {
+    "abstract": "Single-cell ATAC-seq (scATAC-seq) enables the interrogation of chromatin accessibility at cellular resolution, yet its practical utility is often constrained by limited sequencing depth, extreme sparsity, and pervasive technical missingness, which collectively hamper robust cell-state delineation and inference of transcription factor (TF) regulatory programs. We present PAIR, a probabilistic framework that restores scATAC-seq accessibility profiles by directly modeling the native cell-peak bipartite structure of chromatin accessibility. PAIR leverages a bipartite graph encoder to learn representations for both cells and peaks, and incorporates a variational latent layer to explicitly capture uncertainty arising from sparse and noisy measurements. To jointly recover discrete accessibility patterns and quantitative signal, PAIR integrates two complementary decoders: a qualitative decoder that reconstructs open/closed cell-peak incidences and a quantitative decoder that models accessibility counts under a Negative Binomial likelihood. Trained end-to-end with variational and embedding regularization, PAIR yields cell and peak embeddings and an imputed accessibility matrix that improves downstream analyses. Across simulated datasets with controlled sequencing depth, noise, and dropout, as well as multiple publicly available benchmarks, PAIR consistently improves clustering performance and increases sensitivity for differential accessibility. Beyond cell-level analyses, PAIR-derived peak embedding enables locus-centric regulatory interrogation: co-accessibility analysis around SOX10 reveals structured regulatory neighborhoods, and graph-based peak modules show selective activity across melanoma cell states and identify gene sets with clinically relevant survival associations. In a forebrain atlas, PAIR restores regulatory signals spanning both promoter-proximal and distal elements and uncovers biologically coherent enrichment patterns consistent with neuronal specialization.",
+    "keywords": [
+      "bipartite graph neural network",
+      "clustering",
+      "imputation",
+      "scATAC-seq"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "*Single-Cell Analysis/methods",
+      "*Chromatin/genetics",
+      "Humans",
+      "*Chromatin Immunoprecipitation Sequencing/methods",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Yanchi",
+        "Qi, Qi",
+        "Fan, Yi",
+        "Wang, Yubo",
+        "Hao, Gaoyang",
+        "Wong, Ka-Chun",
+        "Wang, Yunhe",
+        "Li, Xiangtao"
+      ],
+      "short_names": [
+        "Su Y",
+        "Qi Q",
+        "Fan Y",
+        "Wang Y",
+        "Hao G",
+        "Wong KC",
+        "Wang Y",
+        "Li X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8716-9823"
+      ],
+      "affiliations": [
+        "School of Information Science and Technology, Northeast Normal University, Jilin, China.",
+        "School of Artificial Intelligence, Jilin University, Jilin, China.",
+        "School of Artificial Intelligence, Jilin University, Jilin, China.",
+        "School of Artificial Intelligence, Jilin University, Jilin, China.",
+        "School of Artificial Intelligence, Jilin University, Jilin, China.",
+        "Department of Computer Science, City University of Hong Kong, Hong Kong SAR.",
+        "School of Artificial Intelligence, Hebei University of Technology, Tianjin, China.",
+        "School of Artificial Intelligence, Jilin University, Jilin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Yanchi",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Northeast Normal University, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Qi",
+        "short_name": "Qi Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yi",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yubo",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Gaoyang",
+        "short_name": "Hao G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Ka-Chun",
+        "short_name": "Wong KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, City University of Hong Kong, Hong Kong SAR."
+        ]
+      },
+      {
+        "full_name": "Wang, Yunhe",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Hebei University of Technology, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangtao",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0002-8716-9823"
+        ],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/15 05:36",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41193844",
+      "41028333",
+      "40917001",
+      "40245149",
+      "40179332",
+      "39508444",
+      "39471412",
+      "38493346",
+      "38380499",
+      "38191932",
+      "38049697",
+      "37779671",
+      "37773070",
+      "36394265",
+      "35984287",
+      "35648859",
+      "35475224",
+      "34949812",
+      "34725479",
+      "34616066",
+      "34099848",
+      "33633365",
+      "32428815",
+      "31740819",
+      "31739806",
+      "30962623",
+      "30707374",
+      "30626917",
+      "30573817",
+      "29706549",
+      "29229995",
+      "27896217",
+      "25765347",
+      "21799210",
+      "19898426"
+    ],
+    "similar": [
+      "41831316",
+      "36902216",
+      "39326643",
+      "42560939",
+      "41021262",
+      "39881144",
+      "32392348",
+      "41731605",
+      "42333095",
+      "41571655",
+      "35941239",
+      "40049167",
+      "38493346",
+      "34252968",
+      "38600256",
+      "42060707",
+      "40097444",
+      "39487131",
+      "41932342",
+      "31594952",
+      "35584295",
+      "33663563",
+      "38581422",
+      "38724693",
+      "35037783",
+      "42337558",
+      "41981652",
+      "39757254",
+      "26083756",
+      "40471991",
+      "39769196",
+      "37537502",
+      "41545440",
+      "36549922",
+      "41663439",
+      "39800872",
+      "40889281",
+      "42251185",
+      "35195064",
+      "34718405",
+      "31428792",
+      "41632825",
+      "35475224",
+      "41257571",
+      "40723810",
+      "41775921",
+      "41800139",
+      "32029221",
+      "37897340",
+      "42114111",
+      "41235466",
+      "39049508",
+      "36943152",
+      "38330939",
+      "33779599",
+      "35906531",
+      "33637727",
+      "42265104",
+      "35858748",
+      "34292930",
+      "41735542",
+      "42167226",
+      "39082647",
+      "39814021",
+      "38338756",
+      "41924246",
+      "34737275",
+      "39122670",
+      "42475469",
+      "32699019",
+      "39093856",
+      "41768797",
+      "38664790",
+      "35022082",
+      "39501301",
+      "33583425",
+      "39207727",
+      "40029523",
+      "40577680",
+      "33717140",
+      "33633365",
+      "41857511",
+      "33606259",
+      "41966687",
+      "39975126",
+      "34699533",
+      "32033573",
+      "41530870",
+      "41439990",
+      "38084919",
+      "41896196",
+      "34686316",
+      "39747019",
+      "39957720",
+      "31053165",
+      "42308421",
+      "35901457",
+      "22863112",
+      "41318386",
+      "42376279"
+    ],
+    "review": [
+      "41831316",
+      "36549922",
+      "38338756",
+      "39207727"
+    ],
+    "pmc": [
+      "13205863"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41831316/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

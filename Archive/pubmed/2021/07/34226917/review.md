@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose Enhancer-IF, an integrative machine learning framework for cell-specific enhancer identification in the human genome, using eight cell-type datasets, seven encodings, five classifiers, 35 baseline models, five meta-models, and ensemble integration, reporting superior performance over baseline models on training and independent datasets.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, dataset details, or validation procedures are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset construction details, performance tables, figures, code availability, and independent dataset specifications
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational framework for cell-specific enhancer prediction, addressing a relevant gap in existing tools. However, the claims of superiority and robustness are not substantiated by any quantitative evidence in the provided material. The methodological novelty is unclear, and the lack of performance numbers, statistical comparisons, and dataset descriptions prevents a rigorous evaluation. The work may be of interest to the bioinformatics community, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and machine learning applications in biology would be interested, as the framework targets cell-specific enhancer prediction, which is relevant for understanding gene regulation and disease mechanisms. Practitioners developing predictive tools for non-coding DNA elements may also find the integrative approach useful.
+- **Major strengths** The abstract identifies a clear limitation in existing methods, namely cell-specificity negligence and fixed sequence length, and proposes a systematic integration of multiple encodings and classifiers. The use of ensemble learning to combine meta-models is a reasonable strategy for improving robustness. The construction of new datasets for eight cell types is a potentially valuable contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "excellent prediction performance compared to the baseline models on both training and independent datasets in different cell types, thus highlighting the superiority of our approach."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative performance metrics, such as accuracy, sensitivity, specificity, area under the curve, or F1 score, are reported. The claim of superiority is made without any numerical comparison to baseline models or existing tools.
+  - **Why it matters** Without specific numbers and statistical tests, the reader cannot assess the magnitude of improvement or whether the difference is meaningful. The claim of "excellent" performance is subjective and unverifiable from the abstract.
+  - **Resolution test** Provide performance metrics for all cell types, including baseline and meta-model results, with confidence intervals or statistical significance tests, and compare against at least one existing enhancer prediction tool.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states "we constructed new datasets for eight different cell types" and "comprehensively explores a wide range of heterogeneous features."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe how the datasets were constructed, including the source of enhancer labels, the definition of negative samples, sequence length handling, or the genomic coordinates. The nature of the "heterogeneous features" is also unspecified.
+  - **Why it matters** Dataset construction and feature definition are critical for reproducibility and for assessing potential biases, such as class imbalance or sequence redundancy. Without this information, the validity of the training and evaluation is unclear.
+  - **Resolution test** Detail the dataset construction process, including positive and negative sample selection, sequence length normalization, and feature encoding types, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty
+  - **Claim pointer** The abstract implies the framework is novel by addressing "fixed length of sequences" and "cell-specificity negligence."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not clarify how the proposed approach differs from existing integrative or ensemble-based methods beyond the specific combination of encodings and classifiers. The novelty of the feature integration or the meta-learning strategy is not articulated.
+  - **Why it matters** For a methods paper, establishing novelty is essential. If similar frameworks exist, the contribution may be incremental, and the claim of addressing limitations may not be sufficient.
+  - **Resolution test** Explicitly state the novel components, such as new feature types, a unique integration scheme, or a new dataset resource, and compare with prior work in the introduction and discussion.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "sporadic distribution and similar fractions" is vague and could be misinterpreted. It likely refers to the sparse and similar sequence characteristics of enhancers, but the wording is unclear.
+  - **Required correction** Rephrase to specify that enhancers are distributed non-uniformly and share sequence features with other regulatory elements, making identification challenging.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Tool availability
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "Enhancer-IF will be a valuable tool" but does not mention whether the code, datasets, or a web server will be made publicly available.
+  - **Required correction** State the availability of the implementation, datasets, and any online platform in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Extremely randomized tree"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "extremely randomized tree" is non-standard; the common name is "extremely randomized trees" or "extra trees."
+  - **Required correction** Use the standard terminology "extremely randomized trees" for consistency with the literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks quantitative evidence and methodological detail, respectively. Without these, the core claims of superior performance and dataset validity cannot be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract suggests a new integrative framework, but the novelty is not clearly demonstrated relative to existing ensemble methods. The contribution may be incremental.
+  - Scientific importance: Cell-specific enhancer prediction is a relevant problem in regulatory genomics, and a robust tool could have broad utility. However, the importance is not quantified in terms of biological insights or practical impact.
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which could attract readers from both fields, but the abstract is written in a specialized manner that may limit accessibility.
+  - Technical soundness: The abstract outlines a systematic pipeline, but the lack of performance metrics and dataset details prevents assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without sufficient context, making it challenging for nonspecialists to grasp the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable framework, but the absence of quantitative results and methodological specifics means the claims cannot be verified. I would be supportive if the full manuscript provides the missing evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of "excellent prediction performance" is unsupported without numerical data.
+- The claim of "superiority" over baseline models is unverifiable without statistical comparisons.
+- The assertion that the framework "improved the model robustness" is not backed by any robustness analysis.
+- The statement that Enhancer-IF will be a "valuable tool" is speculative without evidence of usability or benchmarking.
+- The construction of "new datasets" is mentioned but not described, making the claim unassessable.

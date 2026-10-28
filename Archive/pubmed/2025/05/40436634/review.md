@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions
+- **Assessment boundary** Scientific validity, methodological rigor, and support of claims based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors report that H-NS binds with higher affinity to AT-rich (ApT) DNA compared to GC-rich (GpC) DNA, and that this binding induces sequence-specific structural adaptations in DNA, including undertwisting, minor groove widening, and a partial transition toward A-form-like conformations, as revealed by fluorescence spectroscopy, CD spectroscopy, and MD simulations with enhanced sampling
+- **Visible evidence base** Abstract, full methods section, results and discussion, conclusions, and references to supplementary figures (S1-S11)
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (S1-S11) are not provided; raw fluorescence titration data, CD spectra, and simulation trajectories are not accessible; no statistical analysis details for experimental replicates
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multi-technique investigation of sequence-dependent H-NS DNA binding, combining experimental spectroscopy with molecular simulation. The central claim that H-NS preferentially binds AT-rich DNA and induces local A-form-like structural transitions is plausible and consistent with prior literature. However, the evidence as presented has notable gaps. The fluorescence binding data rely on a single Trp residue and Hill fitting without clear justification of the model, and the reported dissociation constants differ by an order of magnitude between sequences, yet the error bars and replicate numbers are not stated. The MD simulations are extensive, but the link between simulated structural changes and experimental observables is indirect, and the CD data are described qualitatively without quantitative analysis. The metadynamics results are interesting but the connection to H-NS binding affinity is not fully developed. The manuscript would benefit from clearer presentation of raw data, statistical treatment, and a more direct comparison between simulation and experiment.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromatin organization, DNA-binding proteins, and nucleoid-associated proteins would find this work relevant. The study also speaks to the broader biophysics community interested in sequence-dependent DNA mechanics and conformational plasticity, as well as those developing and applying enhanced sampling methods for nucleic acid simulations. The combination of experimental and computational approaches may appeal to interdisciplinary groups working on protein-DNA recognition.
+- **Major strengths** The study combines multiple orthogonal techniques, which is commendable. The use of long microsecond-scale MD simulations with a modern force field is a strength. The metadynamics approach with the RBB-NA algorithm is innovative and well-suited to probe twist flexibility. The authors are transparent about force field limitations and discuss alternative interpretations. The connection to TBP-induced DNA deformation provides useful biological context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental reproducibility and statistical rigor
+  - **Claim pointer** The authors report dissociation constants of K_D = 1.57 ± 0.38 × 10^4 nM for ApT and K_D = 3.35 ± 1.62 × 10^5 nM for GpC, and Hill coefficients of n = 1.38 ± 0.10 and n = 2.27 ± 0.17, respectively.
+  - **Evidence pointer** Results section, Figure 1 (location not provided)
+  - **Concern** The number of independent experimental replicates is not stated, and the error bars are not defined (standard deviation, standard error, or confidence interval). The Hill equation is applied without justification for its suitability to this binding system, and the large difference in K_D values (over an order of magnitude) is not accompanied by a statistical test. The reported free energy difference of approximately 1.8 kcal/mol between sequences is derived from these K_D values, but the uncertainty propagation is not shown.
+  - **Why it matters** The quantitative claim of a 10-fold higher affinity for ApT is a central result. Without clear replicate numbers and statistical testing, the reader cannot assess whether this difference is robust or within experimental noise. This undermines the confidence in the primary experimental finding.
+  - **Resolution test** Provide the number of independent titrations, define error bars, perform a statistical comparison (e.g., t-test or ANOVA) between the two K_D values, and show the raw titration curves with fits overlaid.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation-experiment integration
+  - **Claim pointer** The authors state that MD simulations reveal "a local transition in the DNA backbone to an A-like conformation" in the ApT sequence upon H-NS binding, and that CD spectroscopy "confirmed these trends."
+  - **Evidence pointer** Results section, Figures 2 and 3 (location not provided)
+  - **Concern** The MD simulations show changes in sugar pucker and glycosidic torsion angles, but these are local backbone parameters. The claim of an "A-like conformation" is based on these parameters, yet the CD spectra are only described qualitatively ("decrease in intensities," "slight redshift"). No quantitative comparison is made between the simulated structural features and the CD signatures. For example, the authors do not calculate expected CD spectra from the simulations or correlate specific structural parameters with CD band intensities. The connection between the simulated local changes and the global conformational readout from CD remains circumstantial.
+  - **Why it matters** The central mechanistic claim is that H-NS induces a partial B-to-A transition specifically in AT-rich DNA. If the CD data are not quantitatively linked to the simulations, the experimental validation of the computational prediction is incomplete. This weakens the overall conclusion that the observed structural adaptation is real and sequence-specific.
+  - **Resolution test** Provide a quantitative analysis of the CD spectra, such as deconvolution or comparison of band intensities with statistical significance. Ideally, compute CD spectra from the MD trajectories or correlate specific structural parameters (e.g., sugar pucker populations) with CD changes across sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of fluorescence quenching mechanism
+  - **Claim pointer** The authors attribute the Trp-109 fluorescence quenching to "the negative charge of the DNA coming closer to Trp-109" and use this to infer binding affinity.
+  - **Evidence pointer** Results section, Figure 1 and Supporting Figures S4-S5 (location not provided)
+  - **Concern** The quenching mechanism is stated to be static (based on negligible change in fluorescence lifetime), but the authors do not rule out other quenching mechanisms such as photoinduced electron transfer, collisional quenching, or conformational changes in the protein that could alter Trp exposure. The MD simulations show Trp-109 contacts with the DNA backbone, but the correlation between contact number and fluorescence quenching is not quantified. The possibility that DNA binding induces a conformational change in the DBD that quenches Trp-109 independent of direct contact is not addressed.
+  - **Why it matters** The binding affinity is derived from fluorescence quenching, so the accuracy of the K_D values depends on the validity of the quenching model. If the quenching is not solely due to direct contact with DNA, the inferred affinities could be biased.
+  - **Resolution test** Perform control experiments with a Trp-109 mutant or use alternative methods (e.g., ITC or MST) to validate the binding affinities. Alternatively, provide a quantitative correlation between simulated Trp-DNA distances and experimental quenching efficiency.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Fluorescence titration procedure
+  - **Evidence pointer** Methods section, Steady State Spectroscopy (location not provided)
+  - **Issue** The titration procedure is not described in detail. It is unclear whether DNA was titrated into a fixed protein concentration or vice versa, what concentration ranges were used, and how the data were corrected for dilution.
+  - **Required correction** Specify the titration direction, concentration ranges, and dilution correction procedure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Hill coefficient interpretation
+  - **Evidence pointer** Results section, Figure 1 (location not provided)
+  - **Issue** The Hill coefficients of 1.38 and 2.27 are reported but not interpreted. A Hill coefficient greater than 1 could indicate positive cooperativity, but the authors do not discuss whether this reflects multiple binding sites or an artifact of the fitting model.
+  - **Required correction** Provide a brief interpretation of the Hill coefficients and discuss whether they are consistent with the proposed binding model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "A-like" and "B-to-A transition"
+  - **Evidence pointer** Results and Discussion, throughout (location not provided)
+  - **Issue** The terms "A-like," "A-form," and "B-to-A transition" are used somewhat interchangeably. The authors describe a "partial" transition but do not define what fraction of A-character constitutes a meaningful transition.
+  - **Required correction** Define operational criteria for A-like character (e.g., specific sugar pucker populations or CD spectral features) and use consistent terminology throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Discussion of allostery
+  - **Evidence pointer** Results and Discussion, Implications for H-NS Function (location not provided)
+  - **Issue** The discussion of DNA-mediated allostery cites related work in B. subtilis but does not reference recent studies on H-NS cooperative binding or DNA structural dynamics that could strengthen the context.
+  - **Required correction** Add relevant recent references on H-NS DNA binding cooperativity and DNA-mediated allostery.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The experimental binding data lack statistical rigor, and the simulation-experiment link for the structural claims is not quantitatively established. These must be resolved before the central conclusions can be considered robust.
+- **Assessment against Nature-style criteria** Originality: The work addresses a known question (H-NS sequence preference) with a combined approach, but the finding of A-like structural adaptation is not entirely novel given prior reports of A-form DNA in protein complexes. The use of RBB-NA metadynamics is a methodological contribution. Scientific importance: The results are relevant to bacterial gene regulation and DNA mechanics, but the advance over existing knowledge is incremental. Interdisciplinary readership: The study bridges spectroscopy, simulation, and structural biology, which could attract a broad readership. Technical soundness: The simulation methodology is sound, but the experimental reproducibility and quantitative analysis are insufficient. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some simulation details may be dense for experimental readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the combination of methods is valuable, but the experimental data need statistical strengthening and the simulation-experiment integration needs quantitative support.
+
+## Risk / unsupported claims
+- The claim of a 10-fold higher affinity for ApT over GpC is not statistically supported without replicate numbers and error analysis.
+- The assertion that CD spectroscopy "confirmed" the MD-predicted A-like transition is unsupported without quantitative CD analysis.
+- The speculation about DNA-mediated allosteric effects in H-NS is explicitly acknowledged as speculative, but the framing in the conclusions may overstate its support.
+- The statement that the force field "may have led to an underestimation" of A-like features is appropriately cautious, but the impact of this limitation on the conclusions is not fully assessed.

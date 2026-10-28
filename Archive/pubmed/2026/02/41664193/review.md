@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supplementary figure legends)
+- **Assessment boundary** Scientific content, methodological rigor, evidence consistency, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that a TEAD4-driven endothelial program, identified through integrative machine learning applied to single-cell and spatial transcriptomics, promotes microvascular invasion and shapes drug sensitivity in hepatocellular carcinoma. They further present a Hippo-YAP-based prognostic model that outperforms clinical variables and existing signatures.
+- **Visible evidence base** Single-cell RNA-seq (GSE24288912), spatial transcriptomics (HCC-2T, HCC-2P, HCC-2L), bulk transcriptomic cohorts (TCGA-LIHC, HCCDB18, GSE116174, and others), in vitro co-culture experiments with TEAD4 inhibitor MCP-GH1, immunofluorescence staining, and drug sensitivity predictions from CTRP and PRISM datasets.
+- **Missing materials affecting confidence** No figures or supplementary figures were provided. No code or detailed computational parameters were supplied. No raw data or statistical output tables were available. The manuscript text references figures and supplementary materials that could not be inspected.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question in HCC biology and presents a plausible conceptual advance by shifting focus from tumor-cell-intrinsic invasiveness to endothelial contributions in MVI. The integration of single-cell and spatial transcriptomics is appropriate and timely. However, the evidence as presented is insufficient to fully support the central claims. Key limitations include the absence of visible figures, incomplete methodological detail for the machine learning pipeline, a weak causal link between TEAD4 inhibition and the observed phenotypes, and overinterpretation of correlational drug sensitivity data. The prognostic model, while potentially useful, is not convincingly validated against clinical endpoints beyond transcriptomic cohorts. The manuscript would benefit from substantial revision and additional experimental validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in HCC biology, tumor microenvironment and angiogenesis, and translational oncology would find the endothelial-centric perspective on MVI of interest. The machine learning framework for prognostic modeling may appeal to computational biologists and clinicians seeking risk stratification tools. The proposed link between endothelial TEAD4 signaling and drug sensitivity could inform future therapeutic strategies, attracting interest from drug development and precision oncology communities.
+- **Major strengths** The study addresses an underexplored aspect of MVI by focusing on endothelial cells rather than tumor cells alone. The integration of multiple transcriptomic modalities (single-cell, spatial, bulk) is methodologically ambitious and appropriate for the research question. The use of multiple machine learning algorithms with cross-validation is a rigorous approach to model selection. The identification of TEAD4 as a potential driver of an angiogenic endothelial program is biologically plausible and clinically relevant. The inclusion of drug sensitivity predictions adds a translational dimension that could guide future therapeutic stratification.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence integrity
+  - **Claim pointer** The manuscript claims that TEAD4 inhibition reduces tube formation and limits tumor cell proliferation, supporting a causal role for TEAD4 in the endothelial program.
+  - **Evidence pointer** Results section, Figure 10, location not provided
+  - **Concern** The in vitro experiments are described only in text. No quantitative data, representative images, or statistical details are provided. The cell types used (whether primary endothelial cells, cell lines, or co-culture systems) are not clearly specified. The concentration and specificity of the TEAD4 inhibitor MCP-GH1 are not discussed. Without these details, the causal claim cannot be evaluated.
+  - **Why it matters** The causal role of TEAD4 is central to the manuscript's thesis. If the experimental evidence is weak or confounded, the entire conceptual framework is undermined.
+  - **Resolution test** Provide full experimental details, including cell types, inhibitor concentrations, replicate numbers, and representative images with quantification. Show that the inhibitor specifically targets TEAD4 and that the observed effects are not due to off-target toxicity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript claims that an integrative machine learning framework combining 10 algorithms and 101 combinations was used to construct a prognostic model that outperforms clinical variables and existing signatures.
+  - **Evidence pointer** Methods section, Prognostic model construction and validation, location not provided
+  - **Concern** The description of the machine learning pipeline is incomplete. The criteria for selecting the 17 key differential genes are not fully explained. The process of intersecting DEGs with Hippo-YAP pathway genes is described but the specific gene list is not provided. The validation strategy relies on C-index comparisons, but the statistical significance of differences between models is not reported. The comparison with "existing signatures" is mentioned but the specific signatures and their performance are not detailed.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full methodological transparency, the prognostic model cannot be independently validated or applied by other researchers.
+  - **Resolution test** Provide the full list of 17 genes, the exact parameters for each algorithm, the cross-validation scheme, and a statistical comparison of model performance against existing signatures. Make the code and data publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The manuscript claims that high-Hippo endothelial cells are enriched at the peritumoral invasive front and show stem-like features and marked angiogenic potential.
+  - **Evidence pointer** Results section, Figures 3 and 4, location not provided
+  - **Concern** The spatial localization claim relies on deconvolution algorithms (Spotlight, cell2location) and co-localization analysis (CARD). However, the resolution of spatial transcriptomics may not be sufficient to definitively assign cells to the "invasive front" versus other peritumoral regions. The pseudotime trajectory analysis is described but the robustness of the trajectory and the statistical support for the stem-like features are not presented. The claim that high-Hippo ECs are "positioned at the peritumoral invasive front" is stated as fact but the supporting spatial evidence is not shown.
+  - **Why it matters** The spatial context is critical for the proposed mechanism. If the localization claim is not robust, the functional interpretation of the endothelial program is weakened.
+  - **Resolution test** Show spatial maps with clear annotation of tumor boundaries and invasive fronts. Provide statistical tests for spatial enrichment. Demonstrate that the pseudotime trajectory is stable across different parameters and that stemness markers are significantly enriched in the high-Hippo EC population.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The manuscript claims that high-Hippo tumors exhibit selective vulnerability to microtubule-targeting agents, including paclitaxel, irinotecan, and ispinesib.
+  - **Evidence pointer** Results section, Figure 8, location not provided
+  - **Concern** Drug sensitivity predictions are based on computational correlations between gene expression and drug response in cell line databases (CTRP, PRISM). These predictions are not validated experimentally. The claim of "selective vulnerability" implies a mechanistic relationship that is not demonstrated. The clinical relevance of these cell-line-derived predictions for HCC patients is uncertain.
+  - **Why it matters** The translational implication of drug sensitivity is a major selling point of the manuscript. Overinterpretation of correlational data could mislead future clinical investigations.
+  - **Resolution test** Validate drug sensitivity predictions in relevant HCC cell lines or patient-derived models. Show that TEAD4 modulation directly affects drug response. Discuss the limitations of cell-line-based predictions for clinical translation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that high-Hippo endothelial cell proportion is significantly associated with poorer prognosis in TCGA and HCCDB18 cohorts.
+  - **Evidence pointer** Results section, Figure 3E, location not provided
+  - **Concern** The survival analysis relies on deconvolved cell proportions from bulk RNA-seq. The accuracy of the deconvolution is not validated against ground truth or independent methods. The optimal cutoff for stratifying high and low groups is not described. The multivariate analysis adjusting for clinical variables is not presented.
+  - **Why it matters** Prognostic claims require robust statistical methodology. If the deconvolution is inaccurate or the cutoff is arbitrary, the prognostic association may not be reproducible.
+  - **Resolution test** Validate deconvolution accuracy using independent methods or simulated data. Describe the cutoff selection process. Present multivariate Cox regression adjusting for stage, grade, and other clinical variables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Cell culture and co-culture assay
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The choice of ECDHCC-1 and Huh7 cell lines is not justified. The relevance of these lines to the endothelial program under study is unclear.
+  - **Required correction** Provide a rationale for cell line selection and clarify the experimental design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Figure 2
+  - **Evidence pointer** Results section, Figure 2, location not provided
+  - **Issue** The immunofluorescence images are described but not shown. The quantification of YAP-CD34 co-localization is not provided.
+  - **Required correction** Include representative images and quantitative co-localization analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, Figure 6
+  - **Evidence pointer** Results section, Figure 6, location not provided
+  - **Issue** The significance asterisks in the figure legend are inconsistent. The legend states "**P < 0.001" but the text elsewhere uses "**P < 0.01". This creates ambiguity.
+  - **Required correction** Standardize the significance notation throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The discussion speculates about mechanisms of resistance without direct evidence, such as the claim that the TEAD4-APLN axis enables "rapid vascular compensation under treatment pressure."
+  - **Required correction** Clearly distinguish speculation from evidence-based conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Spatial transcriptomics
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The parameters for cell2location and Spotlight are not specified. The preprocessing steps for spatial data are not described.
+  - **Required correction** Provide detailed parameters and preprocessing steps for reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal evidence for TEAD4), R1-M2 (machine learning transparency), R1-M3 (spatial localization robustness), R1-M4 (drug sensitivity validation), R1-M5 (prognostic model statistical rigor).
+- **Assessment against Nature-style criteria** Originality: The endothelial-centric perspective on MVI is a meaningful conceptual shift, though the Hippo-YAP pathway in cancer is well studied. The specific focus on TEAD4 in endothelial cells adds novelty. Scientific importance: The topic is clinically relevant, and the potential link between endothelial programs and drug sensitivity is significant. However, the importance is not fully realized due to insufficient validation. Interdisciplinary readership: The work bridges cancer biology, computational biology, and clinical oncology, which could attract a broad audience. Technical soundness: The computational approach is sophisticated but lacks transparency and validation. The experimental validation is minimal. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with multiple computational and biological concepts. The abstract and introduction are accessible, but the methods and results require specialized knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising, and the computational approach is appropriate. However, the current evidence does not fully establish the central claims. Substantial revision with additional experimental validation, methodological transparency, and statistical rigor is required before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that TEAD4 inhibition reduces tube formation and limits tumor cell proliferation is unsupported without visible experimental data.
+- The claim that high-Hippo endothelial cells are positioned at the peritumoral invasive front is not verifiable without spatial maps and statistical tests.
+- The claim of selective vulnerability to microtubule-targeting agents is based on computational predictions and is not experimentally validated.
+- The prognostic model's superiority over existing signatures is not statistically demonstrated.
+- The claim that the model captures "endothelial reprogramming linked to vascular invasion" rather than general angiogenesis is not fully supported by the gene selection process.
+- The mechanistic speculation about resistance mechanisms in the discussion is not directly supported by the data presented.

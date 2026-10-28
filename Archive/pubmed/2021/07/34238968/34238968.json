@@ -1,0 +1,464 @@
+{
+  "identity": {
+    "pmid": "34238968",
+    "doi": "10.1038/s41598-021-93592-z",
+    "title": "Early prediction of neoadjuvant chemotherapy response by exploiting a transfer learning approach on breast DCE-MRIs."
+  },
+  "content": {
+    "abstract": "The dynamic contrast-enhanced MR imaging plays a crucial role in evaluating the effectiveness of neoadjuvant chemotherapy (NAC) even since its early stage through the prediction of the final pathological complete response (pCR). In this study, we proposed a transfer learning approach to predict if a patient achieved pCR (pCR) or did not (non-pCR) by exploiting, separately or in combination, pre-treatment and early-treatment exams from I-SPY1 TRIAL public database. First, low-level features, i.e., related to local structure of the image, were automatically extracted by a pre-trained convolutional neural network (CNN) overcoming manual feature extraction. Next, an optimal set of most stable features was detected and then used to design an SVM classifier. A first subset of patients, called fine-tuning dataset (30 pCR; 78 non-pCR), was used to perform the optimal choice of features. A second subset not involved in the feature selection process was employed as an independent test (7 pCR; 19 non-pCR) to validate the model. By combining the optimal features extracted from both pre-treatment and early-treatment exams with some clinical features, i.e., ER, PgR, HER2 and molecular subtype, an accuracy of 91.4% and 92.3%, and an AUC value of 0.93 and 0.90, were returned on the fine-tuning dataset and the independent test, respectively. Overall, the low-level CNN features have an important role in the early evaluation of the NAC efficacy by predicting pCR. The proposed model represents a first effort towards the development of a clinical support tool for an early prediction of pCR to NAC.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Breast/*diagnostic imaging/drug effects/pathology",
+      "Breast Neoplasms/*diagnosis/diagnostic imaging/*drug therapy/genetics",
+      "Female",
+      "Humans",
+      "Machine Learning",
+      "*Magnetic Resonance Imaging",
+      "Middle Aged",
+      "Neoplasm Staging",
+      "Neural Networks, Computer",
+      "Radiography",
+      "Erb-b2 Receptor Tyrosine Kinases/genetics",
+      "Receptors, Estrogen/genetics",
+      "Receptors, Progesterone/genetics",
+      "Treatment Outcome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Comes, Maria Colomba",
+        "Fanizzi, Annarita",
+        "Bove, Samantha",
+        "Didonna, Vittorio",
+        "Diotaiuti, Sergio",
+        "La Forgia, Daniele",
+        "Latorre, Agnese",
+        "Martinelli, Eugenio",
+        "Mencattini, Arianna",
+        "Nardone, Annalisa",
+        "Paradiso, Angelo Virgilio",
+        "Ressa, Cosmo Maurizio",
+        "Tamborra, Pasquale",
+        "Lorusso, Vito",
+        "Massafra, Raffaella"
+      ],
+      "short_names": [
+        "Comes MC",
+        "Fanizzi A",
+        "Bove S",
+        "Didonna V",
+        "Diotaiuti S",
+        "La Forgia D",
+        "Latorre A",
+        "Martinelli E",
+        "Mencattini A",
+        "Nardone A",
+        "Paradiso AV",
+        "Ressa CM",
+        "Tamborra P",
+        "Lorusso V",
+        "Massafra R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy. a.fanizzi@oncologico.bari.it.",
+        "Dipartimento di Matematica, Universita Degli Studi di Bari, 70121, Bari, Italy.",
+        "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Struttura Semplice Dipartimentale di Chirurgia, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Struttura Semplice Dipartimentale di Radiologia Senologica, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Unita Operativa Complessa di Oncologia Medica, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Interdisciplinary Center for Advanced Studies on Lab-on-Chip and Organ-on-Chip Applications (ICLOC), University of Rome Tor Vergata, 00133, Rome, Italy.",
+        "Dipartimento di Ingegneria Elettronica, Universita di Roma Tor Vergata, Via del politecnico 1, 00133, Rome, Italy.",
+        "Interdisciplinary Center for Advanced Studies on Lab-on-Chip and Organ-on-Chip Applications (ICLOC), University of Rome Tor Vergata, 00133, Rome, Italy.",
+        "Dipartimento di Ingegneria Elettronica, Universita di Roma Tor Vergata, Via del politecnico 1, 00133, Rome, Italy.",
+        "Unita Opertiva Complessa di Radioterapia, IRCCS Istituto Tumori \"Giovanni Paolo II\", 70124, Bari, Italy.",
+        "Oncologia Sperimentale e Biobanca, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Unita Operativa Complessa di Chirurgica Plastica e Ricostruttiva, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Unita Operativa Complessa di Oncologia Medica, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy.",
+        "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Comes, Maria Colomba",
+        "short_name": "Comes MC",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Fanizzi, Annarita",
+        "short_name": "Fanizzi A",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy. a.fanizzi@oncologico.bari.it."
+        ]
+      },
+      {
+        "full_name": "Bove, Samantha",
+        "short_name": "Bove S",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Matematica, Università Degli Studi di Bari, 70121, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Didonna, Vittorio",
+        "short_name": "Didonna V",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Diotaiuti, Sergio",
+        "short_name": "Diotaiuti S",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Chirurgia, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "La Forgia, Daniele",
+        "short_name": "La Forgia D",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Radiologia Senologica, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Latorre, Agnese",
+        "short_name": "Latorre A",
+        "identifiers": [],
+        "affiliations": [
+          "Unità Operativa Complessa di Oncologia Medica, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Martinelli, Eugenio",
+        "short_name": "Martinelli E",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Advanced Studies on Lab-on-Chip and Organ-on-Chip Applications (ICLOC), University of Rome Tor Vergata, 00133, Rome, Italy.",
+          "Dipartimento di Ingegneria Elettronica, Università di Roma Tor Vergata, Via del politecnico 1, 00133, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Mencattini, Arianna",
+        "short_name": "Mencattini A",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Advanced Studies on Lab-on-Chip and Organ-on-Chip Applications (ICLOC), University of Rome Tor Vergata, 00133, Rome, Italy.",
+          "Dipartimento di Ingegneria Elettronica, Università di Roma Tor Vergata, Via del politecnico 1, 00133, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Nardone, Annalisa",
+        "short_name": "Nardone A",
+        "identifiers": [],
+        "affiliations": [
+          "Unita Opertiva Complessa di Radioterapia, IRCCS Istituto Tumori \"Giovanni Paolo II\", 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Paradiso, Angelo Virgilio",
+        "short_name": "Paradiso AV",
+        "identifiers": [],
+        "affiliations": [
+          "Oncologia Sperimentale e Biobanca, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Ressa, Cosmo Maurizio",
+        "short_name": "Ressa CM",
+        "identifiers": [],
+        "affiliations": [
+          "Unità Operativa Complessa di Chirurgica Plastica e Ricostruttiva, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Tamborra, Pasquale",
+        "short_name": "Tamborra P",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Lorusso, Vito",
+        "short_name": "Lorusso V",
+        "identifiers": [],
+        "affiliations": [
+          "Unità Operativa Complessa di Oncologia Medica, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Massafra, Raffaella",
+        "short_name": "Massafra R",
+        "identifiers": [],
+        "affiliations": [
+          "Struttura Semplice Dipartimentale di Fisica Sanitaria, I.R.C.C.S. Istituto Tumori \"Giovanni Paolo II\", Viale Orazio Flacco 65, 70124, Bari, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Jul 8",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/10 06:00",
+    "fetched_at": "2026-10-04 20:00:55"
+  },
+  "links": {
+    "cites": [
+      "42303564",
+      "42122140",
+      "41623716",
+      "40551237",
+      "40533825",
+      "40518301",
+      "40457214",
+      "40149299",
+      "40053513",
+      "39696014",
+      "39692281",
+      "39570983",
+      "39511143",
+      "39434042",
+      "39367159",
+      "39351354",
+      "39267101",
+      "38581127",
+      "37996651",
+      "37958461",
+      "37905688",
+      "37493391",
+      "37370730",
+      "37198373",
+      "37130116",
+      "36832186",
+      "36612562",
+      "36437296",
+      "36422213",
+      "36412691",
+      "36289645",
+      "36213659",
+      "36105425",
+      "36033449",
+      "35884576",
+      "35743737",
+      "35734603",
+      "35570962",
+      "35462754",
+      "35329985",
+      "35205629",
+      "34829433",
+      "34441419"
+    ],
+    "refs": [
+      "34324367",
+      "32889091",
+      "32556920",
+      "31786416",
+      "31769740",
+      "30625040",
+      "30361936",
+      "30358693",
+      "26624971",
+      "26017442",
+      "25360603",
+      "24115142",
+      "23884657",
+      "23787346",
+      "22863284",
+      "22623692",
+      "21220595",
+      "21127880",
+      "21061075",
+      "19097774",
+      "18384182",
+      "17058203",
+      "15405679",
+      "15026475"
+    ],
+    "similar": [
+      "34238968",
+      "34064923",
+      "30358693",
+      "28521821",
+      "32556920",
+      "30328048",
+      "36529908",
+      "28193205",
+      "28843513",
+      "19685074",
+      "32613608",
+      "28712700",
+      "33039708",
+      "30361936",
+      "25777181",
+      "26886725",
+      "35636571",
+      "32749986",
+      "38922986",
+      "32466777",
+      "28875243",
+      "29978368",
+      "36460972",
+      "22438441",
+      "29945816",
+      "21947592",
+      "36308849",
+      "29605029",
+      "33001309",
+      "38282158",
+      "31519449",
+      "38508058",
+      "24074777",
+      "36686755",
+      "26968141",
+      "29971625",
+      "34183038",
+      "27431459",
+      "30206035",
+      "26107211",
+      "27495815",
+      "23890870",
+      "36001984",
+      "35743737",
+      "36412691",
+      "23436342",
+      "27652977",
+      "24840393",
+      "34161883",
+      "28560596",
+      "35463368",
+      "21472434",
+      "26338270",
+      "32004189",
+      "31944571",
+      "35880977",
+      "29564743",
+      "26704052",
+      "32024483",
+      "22766518",
+      "34224056",
+      "31769740",
+      "34989844",
+      "29138067",
+      "30129697",
+      "36564734",
+      "32418044",
+      "16673249",
+      "34552163",
+      "31208353",
+      "27080586",
+      "32917430",
+      "28531188",
+      "31300338",
+      "25589151",
+      "26053183",
+      "34219704",
+      "32889091",
+      "23098527",
+      "31352016",
+      "32616912",
+      "30361874",
+      "31982990",
+      "28893303",
+      "29065702",
+      "32592992",
+      "31026118",
+      "26345461",
+      "34990895",
+      "31144151",
+      "31827586",
+      "34600805",
+      "28890184",
+      "24894013",
+      "20844986",
+      "29044896",
+      "22169574",
+      "26052094",
+      "31431633",
+      "34295877",
+      "38083773",
+      "36896856"
+    ],
+    "review": [
+      "34238968",
+      "36308849",
+      "24074777",
+      "36412691"
+    ],
+    "pmc": [
+      "8266861"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-93592-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34238968/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34238968",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

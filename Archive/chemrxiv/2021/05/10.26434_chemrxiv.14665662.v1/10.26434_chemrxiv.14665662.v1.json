@@ -1,0 +1,219 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.14665662.v1",
+  "title": "Expanded Ensemble Methods Can Be Used to Accurately Predict Protein-Ligand Relative Binding Free Energies",
+  "doi": "10.26434/chemrxiv.14665662.v1",
+  "abstract": "Alchemical free energy methods have become indispensable in computational drug discovery for their ability to calculate highly accurate estimates of protein-ligand affinities. Expanded ensemble (EE) methods, which involve single simulations visiting all of the alchemical intermediates, have some key advantages for alchemical free energy calculation. However, there have been relatively few examples published in the literature of using expanded ensemble simulations for free energies of protein-ligand binding. In this paper, as a test of expanded ensemble methods, we computed relative binding free energies using the Open Force Field Initiative force field (codename “Parsley”) for twenty-four pairs of Tyk2 inhibitors derived from a congeneric series of 16 compounds. The EE predictions agree well with the experimental values (RMSE of 0.94 ± 0.13 kcal mol −1 and MUE of 0.75 ± 0.12 kcal mol −1 ). We find that while increasing the number of alchemical intermediates can improve the phase space overlap, faster convergence can be obtained with fewer intermediates, as long as the acceptance rates are sufficient. We find that convergence can be improved using more aggressive updating of the biases, and that estimates can be improved by performing multiple independent EE calculations. This work demonstrates that EE is a viable option for alchemical free energy calculation. We discuss the implications of these findings for rational drug design, as well as future directions for improvement.",
+  "authors": [
+    "Si Zhang",
+    "David Hahn",
+    "Michael R. Shirts",
+    "Vincent Voelz"
+  ],
+  "published_date": "2021-05-26",
+  "updated_date": "2021-05-26T09:05:52Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.14665662.v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.14665662.v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:08:08Z",
+        "timestamp": 1778753288143,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            26
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                26
+              ]
+            ],
+            "date-time": "2021-05-26T00:00:00Z",
+            "timestamp": 1621987200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>\n                  Alchemical free energy methods have become indispensable in computational drug discovery for their ability to calculate highly accurate estimates of protein-ligand affinities. Expanded ensemble (EE) methods, which involve single simulations visiting all of the alchemical intermediates, have some key advantages for alchemical free energy calculation. However, there have been relatively few examples published in the literature of using expanded ensemble simulations for free energies of protein-ligand binding. In this paper, as a test of expanded ensemble methods, we computed relative binding free energies using the Open Force Field Initiative force field (codename “Parsley”) for twenty-four pairs of Tyk2 inhibitors derived from a congeneric series of 16 compounds. The EE predictions agree well with the experimental values (RMSE of 0.94 ± 0.13 kcal mol\n                  <jats:sup>−1</jats:sup>\n                  and MUE of 0.75 ± 0.12 kcal mol\n                  <jats:sup>−1</jats:sup>\n                  ). We find that while increasing the number of alchemical intermediates can improve the phase space overlap, faster convergence can be obtained with fewer intermediates, as long as the acceptance rates are sufficient. We find that convergence can be improved using more aggressive updating of the biases, and that estimates can be improved by performing multiple independent EE calculations. This work demonstrates that EE is a viable option for alchemical free energy calculation. We discuss the implications of these findings for rational drug design, as well as future directions for improvement.\n                </jats:p>",
+      "DOI": "10.26434/chemrxiv.14665662.v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2021-05-26T09:05:52Z",
+        "timestamp": 1622019952000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Expanded Ensemble Methods Can Be Used to Accurately Predict Protein-Ligand Relative Binding Free Energies"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1164-2020",
+          "authenticated-orcid": false,
+          "given": "Si",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Temple University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2830-6880",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Hahn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3249-1097",
+          "authenticated-orcid": false,
+          "given": "Michael R.",
+          "family": "Shirts",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vincent",
+          "family": "Voelz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.14665662.v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:09:12Z",
+        "timestamp": 1778749752000
+      },
+      "score": 93.99066,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.14665662.v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            26
+          ]
+        ]
+      },
+      "references-count": 0,
+      "aliases": [
+        "10.26434/chemrxiv.14665662"
+      ],
+      "URL": "https://doi.org/10.26434/chemrxiv.14665662.v1",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.1c00513",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

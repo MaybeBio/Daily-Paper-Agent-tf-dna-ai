@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "pmid": "35834447",
+    "doi": "10.1109/TCBB.2022.3190933",
+    "title": "Protein-DNA Binding Residues Prediction Using a Deep Learning Model With Hierarchical Feature Extraction."
+  },
+  "content": {
+    "abstract": "Biologically important effects occur when proteins bind to other substances, of which binding to DNA is a crucial one. Therefore, accurate identification of protein-DNA binding residues is important for further understanding of the protein-DNA interaction mechanism. Although wet-lab methods can accurately obtain the location of bound residues, it requires significant human, financial and time costs. There is thus an urgent need to develop efficient computational-based methods. Most current state-of-the-art methods are two-step approaches: the first step uses a sliding window technique to extract residue features; the second step uses each residue as an input to the model for prediction. This has a negative impact on the efficiency of prediction and ease of use. In this study, we propose a sequence-to-sequence (seq2seq) model that can input the entire protein sequence of variable length and use two modules, Transformer Encoder Block and Feature Extracting Block, for hierarchical feature extraction, where Transformer Encoder Block is used to extract global features, and then Feature Extracting Block is used to extract local features to further improve the recognition capability of the model. The comparison results on two benchmark datasets, namely PDNA-543 and PDNA-41, prove the effectiveness of our method in identifying protein-DNA binding residues.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guan, Shixuan",
+        "Zou, Quan",
+        "Wu, Hongjie",
+        "Ding, Yijie"
+      ],
+      "short_names": [
+        "Guan S",
+        "Zou Q",
+        "Wu H",
+        "Ding Y"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Guan, Shixuan",
+        "short_name": "Guan S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ding, Yijie",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2023 Sep-Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/15 06:00",
+    "fetched_at": "2026-09-28 10:54:38"
+  },
+  "links": {
+    "cites": [
+      "42598852",
+      "40359455",
+      "39833102",
+      "38349057"
+    ],
+    "refs": [],
+    "similar": [
+      "35834447",
+      "34714748",
+      "38303418",
+      "20377884",
+      "36094081",
+      "35808316",
+      "30598073",
+      "37780374",
+      "36188230",
+      "28851273",
+      "36652718",
+      "30808287",
+      "36899529",
+      "36403092",
+      "38460308",
+      "37243853",
+      "30040656",
+      "29848272",
+      "37699403",
+      "34000983",
+      "31208331",
+      "36860882",
+      "36708286",
+      "34796526",
+      "30832218",
+      "37549456",
+      "22574904",
+      "35709747",
+      "37780939",
+      "35625572",
+      "37343468",
+      "33615240",
+      "35039821",
+      "36411674",
+      "34418678",
+      "37372080",
+      "36010903",
+      "36094335",
+      "35633468",
+      "35455191",
+      "26478747",
+      "35093537",
+      "37176031",
+      "36561916",
+      "37662099",
+      "34571539",
+      "30957840",
+      "34871807",
+      "24093637",
+      "28952940",
+      "36609788",
+      "35753699",
+      "37548778",
+      "35963653",
+      "37015444",
+      "29182548",
+      "32091580",
+      "35378437",
+      "21846404",
+      "37289607",
+      "36580181",
+      "36528802",
+      "36053005",
+      "34965586",
+      "37230017",
+      "27730230",
+      "35404817",
+      "31619921",
+      "35885454",
+      "34850810",
+      "35947255",
+      "36719781",
+      "36310632",
+      "31714956",
+      "35231584",
+      "35325031",
+      "37703715",
+      "35754843",
+      "35844532",
+      "31734254",
+      "33971164",
+      "37687886",
+      "36804213",
+      "36958057",
+      "37370467",
+      "36540990",
+      "35416807",
+      "36516516",
+      "36736447",
+      "36084812",
+      "37328639"
+    ],
+    "review": [
+      "35834447",
+      "37780939"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2022.3190933",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2022.3190933",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35834447",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

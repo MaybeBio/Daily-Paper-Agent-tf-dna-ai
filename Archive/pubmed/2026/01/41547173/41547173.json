@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41547173",
+    "doi": "10.1016/j.bpc.2026.107579",
+    "title": "Structural and functional insights into Vitamin D receptor mutations: An in-silico investigation of polymorphism-induced resistance."
+  },
+  "content": {
+    "abstract": "Vitamin D is critical for calcium homeostasis, bone health, and immune regulation via the Vitamin D Receptor. Mutations in the ligand-binding domain and DNA-binding domain can disrupt ligand interactions, causing biologically active metabolite of vitamin D [1alpha,25-dihydroxyvitamin D3 (calcitriol)] resistance and clinical complications such as hereditary rickets and immune dysregulation. This study explored the structural and functional effects of VDR missense mutations using computational approaches. An AlphaFold-generated VDR model incorporated selected mutations from 503 reported variants, of which 62 were likely pathogenic. Ten LBD mutations were analyzed. Molecular docking assessed Vitamin D3 binding, while molecular dynamics simulations, Root Mean Square Deviation, Radius of Gyration, and Principal Component Analysis evaluated structural stability. CASTp analyses identified key residues in the binding pocket, and downstream non-genomic pathways were assessed to interpret functional effects. Mutations R --> H and R --> L at position 274, and H --> Q at position 305, exhibited minimal RMSD and Rg fluctuations, indicating stable protein conformations. Docking revealed reduced binding affinities (-8.9, -8.8, -9.0 kcal/mol) relative to wild-type (-9.9 kcal/mol), suggesting altered ligand-binding geometry. Other mutations showed greater structural deviations, indicating potential impairment of receptor function. Functional analysis suggested disruption of signaling essential for calcium homeostasis, bone mineralization, and immune regulation. These results demonstrate that missense mutations in the VDR LBD compromise Vitamin D3 binding and receptor stability, contributing to resistance and related skeletal and immune abnormalities. Computational modeling offers a framework to identify pathogenic variants and guide therapeutic strategies, including small molecules, peptide therapies, CRISPR-Cas9 editing, or Vitamin D analogs to restore receptor function and improve clinical outcomes.",
+    "keywords": [
+      "Docking",
+      "MD simulation",
+      "Mutation analysis",
+      "VDR",
+      "Vitamin D3"
+    ],
+    "mesh_terms": [
+      "*Receptors, Calcitriol/genetics/chemistry/metabolism",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "Polymorphism, Genetic",
+      "Mutation, Missense",
+      "Mutation",
+      "Calcitriol/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lohani, Mohtashim",
+        "Khamjan, Nizar Ahmad",
+        "Dar, Sajad Ahmad",
+        "Aqil, Farrukh",
+        "Khan, Saif",
+        "Jawed, Arshad",
+        "Beigh, Saba",
+        "Ahmad, Iffat Zareen"
+      ],
+      "short_names": [
+        "Lohani M",
+        "Khamjan NA",
+        "Dar SA",
+        "Aqil F",
+        "Khan S",
+        "Jawed A",
+        "Beigh S",
+        "Ahmad IZ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nursing, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia.",
+        "Department of Medical Laboratory Technologies, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia.",
+        "Department of Nursing, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia. Electronic address: sdar@jazanu.edu.sa.",
+        "Department of Medicine, Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA.",
+        "Department of Basic Dental and Medical Sciences, College of Dentistry, University of Ha'il, Ha'il 55473, Saudi Arabia.",
+        "Department of Nursing, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia.",
+        "Department of Public Health, Faculty of Applied Medical Sciences, Al-Baha University, Al-Baha 65431, Saudi Arabia.",
+        "Department of Bioengineering, Integral University, Lucknow 226 026, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lohani, Mohtashim",
+        "short_name": "Lohani M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khamjan, Nizar Ahmad",
+        "short_name": "Khamjan NA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Technologies, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Dar, Sajad Ahmad",
+        "short_name": "Dar SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia. Electronic address: sdar@jazanu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Aqil, Farrukh",
+        "short_name": "Aqil F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brown Cancer Center, University of Louisville, Louisville, KY 40202, USA."
+        ]
+      },
+      {
+        "full_name": "Khan, Saif",
+        "short_name": "Khan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Dental and Medical Sciences, College of Dentistry, University of Ha'il, Ha'il 55473, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Jawed, Arshad",
+        "short_name": "Jawed A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, College of Nursing and Health Sciences, Jazan University, Jazan 45142, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Beigh, Saba",
+        "short_name": "Beigh S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health, Faculty of Applied Medical Sciences, Al-Baha University, Al-Baha 65431, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Iffat Zareen",
+        "short_name": "Ahmad IZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Integral University, Lucknow 226 026, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/18 00:37",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [
+      "41683321"
+    ],
+    "refs": [],
+    "similar": [
+      "41547173",
+      "40117094",
+      "16753019",
+      "19815438",
+      "40790048",
+      "15308610",
+      "11015194",
+      "27500498",
+      "12403843",
+      "9379138",
+      "8675579",
+      "7828346",
+      "11386849",
+      "29476931",
+      "15326291",
+      "28698609",
+      "23944708",
+      "36396100",
+      "12211444",
+      "27154546",
+      "36077552",
+      "19921089",
+      "22322599",
+      "15190891",
+      "8392085",
+      "29127362",
+      "41533263",
+      "2555349",
+      "16059639",
+      "2557627",
+      "25537068",
+      "25505647",
+      "9005998",
+      "40285969",
+      "26827949",
+      "11179726",
+      "22112050",
+      "22145479",
+      "9495519",
+      "26515040",
+      "33397237",
+      "25741777",
+      "8961271",
+      "12761332",
+      "39164247",
+      "27864003",
+      "10828304",
+      "40183276",
+      "21884792",
+      "11075811",
+      "30484666",
+      "11369766",
+      "21872797",
+      "25708797",
+      "11425573",
+      "16055325",
+      "8106618",
+      "40568771",
+      "15671029",
+      "27535484",
+      "14665637",
+      "39775383",
+      "27454349",
+      "42011130",
+      "28636886",
+      "10678179",
+      "24246681",
+      "19801650",
+      "17310066",
+      "21812032",
+      "15225739",
+      "18758137",
+      "41307241",
+      "15065852",
+      "33418104",
+      "10418998",
+      "16848737",
+      "31904142",
+      "27107558",
+      "26593892",
+      "29663862",
+      "27786277",
+      "40114577",
+      "11094341",
+      "24185200",
+      "34093587",
+      "24139874",
+      "42196261",
+      "24818857",
+      "7700077",
+      "15862832",
+      "30268505",
+      "12089348",
+      "26343449",
+      "41418394",
+      "41828612",
+      "10677485",
+      "35869242",
+      "11455592",
+      "9360557"
+    ],
+    "review": [
+      "41547173",
+      "9379138",
+      "25537068",
+      "26827949",
+      "11179726",
+      "25741777",
+      "10828304",
+      "30484666",
+      "21872797",
+      "27454349",
+      "18758137",
+      "10418998",
+      "16848737",
+      "26593892",
+      "24139874"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(26)00012-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

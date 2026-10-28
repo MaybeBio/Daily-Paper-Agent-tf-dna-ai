@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, and materials and methods. No supplementary material or figures were provided beyond in-text descriptions.
+- **Assessment boundary** The scientific validity, methodological rigor, and interpretational soundness of the computational modeling and molecular dynamics analyses presented. No assessment of the underlying experimental EM data, as those are referenced to prior work.
+- **Shared manuscript claim summary** The authors claim that combinatorial refinement strategies (rigid body refinement, simulated annealing, energy minimization) applied to existing cryo-EM maps of wild type p53 monomer and dimer yield new, converged conformers with improved model statistics, and that molecular dynamics simulations corroborate these findings and identify flexible regions (NTD, CTD) versus a stable DNA-binding domain.
+- **Visible evidence base** In-text descriptions of Figures 1–11, Table 1 (model refinement and validation statistics), and methodological descriptions in Materials and methods. No actual figures, supplementary movies, or raw data files were available for inspection.
+- **Missing materials affecting confidence** All figures, supplementary movies (S1, S2), and the actual PDB/EMDB validation reports. The absence of these materials prevents independent verification of the claimed model quality, convergence, and the visual basis for the RMSD/RMSF interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward application of established computational tools (PHENIX real-space refinement, Desmond MD) to previously published cryo-EM maps of p53. The core finding, that refinement produces slightly different conformers with improved fit statistics, is plausible but modest in scope. The biological interpretation, particularly the claim that MD simulations "corroborate" the modeling results and identify functionally relevant flexible regions, is only weakly supported by the evidence presented. The work may be of interest to a niche audience in structural biology, but the novelty and scientific impact are limited given that the methods are standard and the conclusions largely recapitulate known features of p53 dynamics.
+- **Who would be interested in the results, and why** Researchers in structural biology and computational biophysics, particularly those working on flexible protein systems and cryo-EM model refinement. The work may also be of interest to cancer biologists studying p53 structure-function relationships, though the direct biological implications are not experimentally validated here.
+- **Major strengths** The manuscript is clearly written and the methodology is reproducible in principle. The use of multiple validation metrics (Q-score, CC_mask, CC_volume, MolProbity, clashscore) is appropriate. The comparison of new conformers to the deposited model using domain-specific RMSD is a reasonable approach. The acknowledgment of limitations, such as the heterogeneity of post-translational modifications, is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "structures for both states converged to yield new conformers, each revealing good stereochemistry and dynamic information about the protein."
+  - **Evidence pointer** Table 1, Figures 1–2, 8–9; location not provided for specific values
+  - **Concern** The manuscript does not provide a clear definition of "convergence" in the context of the refinement procedure. It is unclear how many independent refinement runs were performed, what the convergence criteria were, or how the two reported conformers were selected from the ensemble of possible outputs. The claim that two distinct conformers emerged is not supported by any systematic sampling or clustering analysis.
+  - **Why it matters** Without a defined convergence criterion and a demonstration that the refinement protocol reproducibly yields these two conformers, the central claim of discovering "hidden conformations" is not established. The two conformers may simply be artifacts of the refinement protocol or minor variations that do not represent meaningful conformational states.
+  - **Resolution test** The authors should provide a detailed description of the refinement protocol, including the number of independent runs, the convergence criteria (e.g., RMSD stability, energy minimization thresholds), and a systematic analysis of the ensemble of refined models. They should also demonstrate that the two conformers are reproducibly obtained across multiple runs and are not dependent on initial model placement or random seeds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "molecular dynamics simulations corroborated the modeling results and helped pinpoint the more flexible residues in wild type p53."
+  - **Evidence pointer** Figures 6–7, 11; location not provided
+  - **Concern** The MD simulations are presented as corroborating evidence, but the analysis is superficial. The RMSD and RMSF plots are described qualitatively, and no statistical analysis (e.g., standard deviations across replicate simulations, block averaging) is provided. The claim that "conformation 2 did not undergo drastic transitional changes" is based on visual inspection of a single trajectory, and the manuscript does not report whether the simulations were replicated or whether the observed differences between models are statistically significant.
+  - **Why it matters** The biological interpretation of the manuscript rests on the claim that the refined conformers represent distinct dynamic states. Without rigorous statistical analysis of the MD trajectories, the differences between the starting model and the new conformers could be within the noise of the simulation. The corroboration claim is therefore not quantitatively supported.
+  - **Resolution test** The authors should provide replicate simulations for each system, report mean and standard deviation of RMSD and RMSF values, and perform statistical tests (e.g., t-tests or ANOVA) to determine whether the differences between models are significant. They should also provide a more detailed analysis of the conformational transitions, such as principal component analysis or free-energy landscapes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "improved map-to-model agreement was achieved" for the new conformers.
+  - **Evidence pointer** Table 1; location not provided
+  - **Concern** The manuscript does not report the map-to-model agreement metrics for the starting model (PDB 8F2I and 8F2H) against which the improvements are claimed. Without a direct comparison of the starting model's Q-score, CC_mask, CC_volume, and MolProbity scores to those of the new conformers, the claim of "improved" agreement cannot be evaluated. The reported values in Table 1 are only for the new conformers.
+  - **Why it matters** The central methodological claim is that the refinement strategy improves the model. If the starting model already had comparable or better statistics, the entire premise of the manuscript is undermined. The lack of a baseline comparison is a critical omission.
+  - **Resolution test** The authors must provide the same set of validation metrics for the starting models (8F2I and 8F2H) computed under identical conditions, and demonstrate that the new conformers show statistically significant improvements.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors state that "the new computational methods may be used to shed light on other small protein features in a vast ensemble of structural data that cannot be easily delineated by other algorithms."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The methods used (rigid body refinement, simulated annealing, energy minimization, MD) are all standard, well-established tools. The manuscript does not introduce any new algorithmic development or a novel combination of methods that would constitute a methodological advance. The claim of "new computational methods" is overstated.
+  - **Why it matters** The novelty of the manuscript is a key criterion for publication. If the methods are entirely standard and the application is to a single well-studied protein, the contribution is incremental at best.
+  - **Resolution test** The authors should either clearly articulate what is novel about their approach compared to existing refinement and MD protocols, or temper the claims to reflect that this is an application of existing methods to a specific system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "combinatorial modeling approaches" and "combinatorial refinement strategies" without defining what is combinatorial about the approach. This may confuse readers unfamiliar with the specific refinement protocols.
+  - **Required correction** Briefly clarify in the abstract what the combinatorial aspect refers to (e.g., the combination of rigid body refinement, simulated annealing, and energy minimization).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, MD simulation section
+  - **Evidence pointer** Materials and methods; location not provided
+  - **Issue** The description of the MD simulation setup is incomplete. The manuscript states that "the system was simulated in the Berendsen NVT ensemble at a temperature of 10 K" but does not specify the duration of this equilibration step. Similarly, the total simulation time for the NPT equilibration is not stated.
+  - **Required correction** Provide the duration of each equilibration phase and the total production run time for each system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, p53 monomer section
+  - **Evidence pointer** Figure 1–2; location not provided
+  - **Issue** The manuscript reports Q-scores of 0.1280 and 0.1210 for the two monomer conformers. These values are quite low, and the manuscript does not discuss what these values mean in the context of model reliability. A Q-score below 0.2 is generally considered poor.
+  - **Required correction** Add a brief discussion of the Q-score values and their implications for the reliability of the refined models, or provide a benchmark comparison to other published models at similar resolutions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion mentions "post-translational modifications are prevalent in the p53 protein, which can blur map features" but does not elaborate on which specific modifications are expected or how they might affect the modeling. This is a missed opportunity to connect the structural findings to the broader cancer biology context.
+  - **Required correction** Briefly mention the known types of p53 post-translational modifications (e.g., phosphorylation, acetylation) and how they might influence the conformational ensemble.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of convergence definition), R1-M2 (lack of statistical rigor in MD analysis), R1-M3 (missing baseline comparison for model improvement claims).
+
+## Risk / unsupported claims
+- The claim that "new hidden conformations" were discovered is not supported, as the manuscript does not demonstrate that these conformers are distinct from the starting model in a functionally meaningful way or that they are reproducibly obtained.
+- The claim that MD simulations "corroborated" the modeling results is unsupported due to the lack of statistical analysis and replicate simulations.
+- The claim of "improved map-to-model agreement" is unverifiable without baseline metrics for the starting models.
+- The claim that the methods are "new" is overstated, as they are standard tools in the field.
+- The statement that "the new computational methods may be used to shed light on other small protein features" is speculative and not demonstrated by the results.

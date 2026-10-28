@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "pmid": "41764208",
+    "doi": "10.1038/s41467-026-69127-3",
+    "title": "SOD1 lactylation impair its enzymatic activity by conformational change to aggravate intervertebral disc degeneration."
+  },
+  "content": {
+    "abstract": "Lactate accumulation is a hallmark and contributing factor of intervertebral disc degeneration (IVDD), while the role of protein lactylation caused by lactate accumulation in IVDD remains unclear. Via metabolomics, single-cell RNA-sequencing analysis, and lactylation proteomics, we reveal the lactylome landscape in IVDD and identified superoxide dismutase 1 (SOD1) lactylation at lysine 123 (SOD1(K123la)) as crucial for IVDD aggravation. Using in vitro site-directed mutagenesis, in vivo generation of SOD1(K123R) mutant male rats, and in silico molecular dynamics simulations, we find that SOD1(K123la) alters SOD1 conformation and impairs its enzymatic activity, and induces oxidative damage, and activates p53 pathway in nucleus pulposus cells (NPCs). Notably, we identify a small molecule ZL-01 that inhibits SOD1(K123la). NPC-targeted delivery of ZL-01 via collagen type II-targeted peptide-modified extracellular vesicles alleviated IVDD in male rats. Together, these findings clarify the mechanism by which SOD1(K123la) promotes IVDD aggravation and provide a promising therapeutic strategy for IVDD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "*Intervertebral Disc Degeneration/metabolism/genetics/pathology/enzymology",
+      "*Superoxide Dismutase-1/metabolism/genetics/chemistry",
+      "Rats",
+      "Humans",
+      "Nucleus Pulposus/metabolism/pathology/cytology",
+      "Rats, Sprague-Dawley",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Oxidative Stress",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Mutagenesis, Site-Directed"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yuyao",
+        "Zhai, Yu",
+        "Liu, Chao",
+        "Chen, Minghang",
+        "Zhang, Yang",
+        "Bian, Zhiqun",
+        "Chang, Xian",
+        "Hu, Zhilei",
+        "Li, Jianmin",
+        "Zhang, Chao",
+        "Ni, Zhenhong",
+        "Xie, Yangli",
+        "Chen, Lin",
+        "Liu, Minghan",
+        "Li, Changqing"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Zhai Y",
+        "Liu C",
+        "Chen M",
+        "Zhang Y",
+        "Bian Z",
+        "Chang X",
+        "Hu Z",
+        "Li J",
+        "Zhang C",
+        "Ni Z",
+        "Xie Y",
+        "Chen L",
+        "Liu M",
+        "Li C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6584-0778",
+        "ORCID: 0000-0001-7764-9412",
+        "ORCID: 0000-0002-8572-7668"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China. zhaiyu9501@tmmu.edu.cn.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Orthopedics, Wulong District People's Hospital, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Rehabilitation Medicine, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Center of Bone Metabolism and Repair, Department of Rehabilitation Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Research Institute of Surgery, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+        "Department of Rehabilitation Medicine, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China. linchen70@tmmu.edu.cn.",
+        "Center of Bone Metabolism and Repair, Department of Rehabilitation Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Research Institute of Surgery, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China. linchen70@tmmu.edu.cn.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China. liuminghan@tmmu.edu.cn.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China. changqli@tmmu.edu.cn.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, Chongqing, China. changqli@tmmu.edu.cn.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopedic, Chongqing, China. changqli@tmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yuyao",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-6584-0778"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Yu",
+        "short_name": "Zhai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China. zhaiyu9501@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Chao",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Minghang",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Zhiqun",
+        "short_name": "Bian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Xian",
+        "short_name": "Chang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhilei",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianmin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China.",
+          "Department of Orthopedics, Wulong District People's Hospital, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chao",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Zhenhong",
+        "short_name": "Ni Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yangli",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Bone Metabolism and Repair, Department of Rehabilitation Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Research Institute of Surgery, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [
+          "0000-0001-7764-9412"
+        ],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China. linchen70@tmmu.edu.cn.",
+          "Center of Bone Metabolism and Repair, Department of Rehabilitation Medicine, State Key Laboratory of Trauma and Chemical Poisoning, Research Institute of Surgery, Daping Hospital, Third Military Medical University (Army Medical University), Chongqing, China. linchen70@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Minghan",
+        "short_name": "Liu M",
+        "identifiers": [
+          "0000-0002-8572-7668"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China. liuminghan@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Changqing",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), Chongqing, China. changqli@tmmu.edu.cn.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, Chongqing, China. changqli@tmmu.edu.cn.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopedic, Chongqing, China. changqli@tmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Feb 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/01 06:35",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42598138",
+      "42511686",
+      "42294469"
+    ],
+    "refs": [
+      "40845146",
+      "40113759",
+      "40060142",
+      "39856050",
+      "39636180",
+      "39609546",
+      "39577415",
+      "39561764",
+      "39427239",
+      "39030363",
+      "38711083",
+      "38653238",
+      "38512451",
+      "38499763",
+      "38486199",
+      "38412803",
+      "38283178",
+      "38212432",
+      "37903887",
+      "37851814",
+      "37723562",
+      "37697347",
+      "37688977",
+      "37443257",
+      "37400370",
+      "37348500",
+      "37339697",
+      "37273833",
+      "37239908",
+      "36593272",
+      "36374556",
+      "36203865",
+      "35761067",
+      "35512359",
+      "35310385",
+      "35128840",
+      "35044827",
+      "34983922",
+      "34788402",
+      "34702446",
+      "34619097",
+      "34590387",
+      "34337335",
+      "34115979",
+      "33096425",
+      "32917017",
+      "32860929",
+      "32802145",
+      "32268113",
+      "31747924",
+      "31733333",
+      "31692093",
+      "31645732",
+      "31344643",
+      "30560029",
+      "28739857",
+      "28066183",
+      "27846439",
+      "27769935",
+      "26761383",
+      "26196764",
+      "25398346",
+      "25108703",
+      "24384655",
+      "24140062",
+      "23708100",
+      "22370091",
+      "21944584",
+      "21041631",
+      "20953194",
+      "16947015",
+      "11568697",
+      "9460145",
+      "8066083",
+      "6646211",
+      "1353610"
+    ],
+    "similar": [
+      "41764208",
+      "41077076",
+      "41872751",
+      "41992220",
+      "38816771",
+      "41880862",
+      "40614011",
+      "40850532",
+      "40118349",
+      "42010638",
+      "40845438",
+      "41992290",
+      "38943627",
+      "41617992",
+      "40898415",
+      "39366471",
+      "41135274",
+      "40171826",
+      "42468716",
+      "40892370",
+      "38212432",
+      "38705495",
+      "40609385",
+      "40749910",
+      "33459443",
+      "39746276",
+      "39986487",
+      "40796734",
+      "41152705",
+      "38838859",
+      "40956550",
+      "33565085",
+      "41966032",
+      "40600527",
+      "38690917",
+      "40339956",
+      "40381974",
+      "37647678",
+      "34412587",
+      "40213661",
+      "40308201",
+      "39920738",
+      "38944256",
+      "39752759",
+      "41202942",
+      "42216522",
+      "40629421",
+      "38890795",
+      "42322764",
+      "41540645",
+      "40180005",
+      "42196230",
+      "41317810",
+      "40239332",
+      "40660286",
+      "34051015",
+      "41199365",
+      "40281518",
+      "40096894",
+      "38721892",
+      "33813275",
+      "39880103",
+      "40075068",
+      "37400370",
+      "40625233",
+      "30420619",
+      "34055990",
+      "40011941",
+      "42308800",
+      "42530249",
+      "40774008",
+      "38316670",
+      "40267724",
+      "36125665",
+      "38728878",
+      "38105759",
+      "31951975",
+      "41653251",
+      "41514293",
+      "40537840",
+      "39432156",
+      "40514727",
+      "41047442",
+      "40946976",
+      "42106856",
+      "41815012",
+      "31926268",
+      "38740166",
+      "33985571",
+      "42116708",
+      "34020031",
+      "41519276",
+      "38640717",
+      "37322517",
+      "32892384",
+      "39986601",
+      "41715076",
+      "41522494",
+      "37587825",
+      "35175176"
+    ],
+    "review": [
+      "41764208"
+    ],
+    "pmc": [
+      "13066621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-69127-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41764208/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3945",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41764208",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report synthesis of organosilicon compounds via acid-catalyzed intramolecular cyclization of a silyl-containing alkenol, demonstrate binding to the intrinsically disordered protein NUPR1 at its two hot-spots (around residues Ala33 and Thr68) using 2D ¹H-¹⁵N HSQC NMR, and propose a "loose clamp" binding mechanism from molecular simulations. Dissociation constants around 20 µM were measured by multiple biophysical techniques. However, in cellulo studies in PDAC cells showed no reduction in cell viability and no significant interference with NUPR1-G3BP interaction by proximity ligation assays, attributed to high hydrophobicity of the compounds. The authors conclude that moderate-to-high in vitro binding affinity (K(d) < 10 µM) and higher hydrophilicity are required for in cellulo efficacy, and that in vitro hot-spot binding is necessary but not sufficient for inhibiting IDP interactions in cellulo.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, simulation parameters, statistical analyses, or cell-based assay data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR spectra and assignments, simulation methodology and validation, biophysical measurement details, cell viability data, proximity ligation assay details, compound characterization data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent narrative with a clear negative result in cellulo, which is valuable for the IDP drug discovery field. The chemistry is plausible and the biophysical characterization appears multi-faceted. However, the abstract alone provides insufficient detail to evaluate the rigor of the NMR-based binding site determination, the quality of the molecular simulations, the accuracy of the K(d) measurements, or the validity of the in cellulo conclusions. The central mechanistic claim of a "loose clamp" is not substantiated from the abstract alone. The manuscript may be of interest to specialists in IDP biology and drug discovery, but the evidence base visible here is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins as drug targets, particularly those focused on NUPR1 and pancreatic cancer; medicinal chemists interested in organosilicon scaffolds; and structural biologists studying ligand-IDP interactions. The negative in cellulo result and the proposed necessary-but-not-sufficient principle for IDP drug design would be of conceptual interest to the broader drug discovery community.
+- **Major strengths** The study addresses a clinically relevant target (NUPR1 in PDAC) and an under-explored chemical space (organosilicon compounds). The use of multiple biophysical techniques to measure K(d) is commendable. The honest reporting of negative in cellulo results and the derived design principle is a strength, as such negative data are often underreported. The combination of NMR, simulations, and cellular assays provides a multi-level approach.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness of binding site determination  
+  - **Claim pointer** "Binding between the silyl compounds and NUPR1 involved the two hot-spots, as shown by 2D (1)H-(15)N HSQC NMR"  
+  - **Evidence pointer** Abstract only; no figure or residue-level data provided  
+  - **Concern** The abstract claims that both hot-spots are involved in binding based on HSQC NMR, but no information is given on the extent of chemical shift perturbations, the number of residues affected, or whether the assignments were transferred from previously published work. Without these details, it is impossible to assess whether the binding truly involves both hot-spots or whether the perturbations are non-specific.  
+  - **Why it matters** The hot-spot engagement is the central structural claim of the paper and underpins the "loose clamp" mechanism. If the NMR evidence is weak or ambiguous, the entire mechanistic interpretation collapses.  
+  - **Resolution test** Provide the HSQC spectra or a chemical shift perturbation plot with residue-level assignments, clearly showing that residues around Ala33 and Thr68 are significantly perturbed upon ligand addition, and that these perturbations are specific and saturable.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness of molecular simulations  
+  - **Claim pointer** "Molecular simulations clarified that the binding relies on a loose clamp mechanism of the ligands towards the hot-spots"  
+  - **Evidence pointer** Abstract only; no simulation details provided  
+  - **Concern** The "loose clamp" mechanism is presented as a clarified finding, but no information is given on the simulation method (molecular dynamics, docking, metadynamics), force field, simulation length, sampling convergence, or how the clamp mechanism was defined and quantified. The term "loose clamp" is not a standard biophysical descriptor and requires operational definition.  
+  - **Why it matters** The mechanism is a key conceptual contribution of the paper. Without methodological detail and validation, the claim is not falsifiable and cannot be evaluated by the reader.  
+  - **Resolution test** Provide simulation protocols, convergence metrics, and a clear definition of the clamp mechanism with quantitative descriptors (e.g., contact maps, distance distributions, binding free energy decomposition). Show that the mechanism is robust across multiple independent simulations.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Consistency of biophysical measurements  
+  - **Claim pointer** "The dissociation constants (K(d)) were around 20 muM, as measured by several biophysical techniques"  
+  - **Evidence pointer** Abstract only; no technique names or values per technique provided  
+  - **Concern** The abstract states K(d) values around 20 µM from several techniques, but does not specify which techniques were used, the spread of values, or whether the values were consistent across methods. The later statement that K(d) < 10 µM is necessary for in cellulo efficacy implies that 20 µM is insufficient, but the margin between 20 µM and the proposed threshold is not discussed.  
+  - **Why it matters** The K(d) values are the quantitative basis for the conclusion that higher affinity is needed. If the measurements are inconsistent or the error bars are large, the threshold claim is weakened.  
+  - **Resolution test** Provide a table of K(d) values from each technique with errors, and a statistical comparison showing that the values are consistent. Discuss the relationship between the measured 20 µM and the proposed 10 µM threshold.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretation of in cellulo negative results  
+  - **Claim pointer** "studies in cellulo with PDAC cells did not show a decrease of cell viability upon treatment with the compounds; furthermore, proximity ligation assays in cellulo with a natural partner protein of NUPR1, G3BP, did not show a significant level of interfering in such interaction when silyl compounds were present, probably due to the high hydrophobicity of the designed compounds"  
+  - **Evidence pointer** Abstract only; no cell line, concentration range, or assay details provided  
+  - **Concern** The negative in cellulo results are attributed to high hydrophobicity, but no data are shown on compound solubility, cellular uptake, or intracellular concentration. Alternative explanations, such as poor cell permeability, metabolic instability, or off-target effects, are not excluded. The proximity ligation assay result is described as "not significant" but no quantitative threshold or statistical test is mentioned.  
+  - **Why it matters** The conclusion that hydrophobicity is the cause of failure is a design principle for future compounds. If the cause is actually poor uptake or instability, the design principle would be misleading.  
+  - **Resolution test** Provide solubility measurements, cellular uptake data (e.g., by LC-MS), and a dose-response curve for the viability assay. Report the proximity ligation assay with appropriate statistical analysis and a positive control showing that the assay can detect interference.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** "loose clamp mechanism"  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "loose clamp" is not defined and may be confused with other binding modes such as "fuzzy" or "ensemble" binding.  
+  - **Required correction** Define the term operationally in the abstract or refer to a specific figure that illustrates the mechanism.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of compound characterization  
+  - **Affected element** "new organosilicon molecules"  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not state how many compounds were synthesized, their purity, or whether they were characterized by standard methods (NMR, MS, elemental analysis).  
+  - **Required correction** State the number of compounds and briefly mention characterization methods in the abstract or refer to the methods section.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability of the conclusion  
+  - **Affected element** "in vitro binding of ligands to the protein hot-spots is a necessary condition in the drug design targeting IDPs, but it is not enough to guarantee inhibition of their interactions in cellulo"  
+  - **Evidence pointer** Abstract  
+  - **Issue** This general conclusion is drawn from a single protein and a single chemical series. The abstract does not discuss whether this principle is expected to hold for other IDPs or other ligand classes.  
+  - **Required correction** Soften the claim to indicate that this is a hypothesis based on the present system, or provide a brief discussion of other IDP examples in the full text.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (NMR evidence for hot-spot binding), R1-M2 (simulation methodology and definition of clamp mechanism), R1-M3 (consistency and reporting of K(d) values), R1-M4 (alternative explanations for in cellulo failure)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The use of organosilicon compounds as ligands for an IDP is a novel chemical approach, and the negative in cellulo result with a derived design principle is a fresh contribution. However, the concept of hot-spot targeting in IDPs is not new.  
+  - **Scientific importance** The work addresses a clinically relevant target and provides a cautionary principle for IDP drug design. The importance is moderate; the negative result is informative but not transformative.  
+  - **Interdisciplinary readership** The topic bridges chemistry, biophysics, and cancer biology, and would appeal to a niche but active community. The abstract is written in a way that is accessible to nonspecialists in each field.  
+  - **Technical soundness** Cannot be fully assessed from the abstract. The NMR and simulation claims require full methodological detail. The multi-technique K(d) measurement is a positive sign, but consistency is unverified.  
+  - **Readability for nonspecialists** The abstract is clear and logically structured. The key terms (hot-spots, IDP, in cellulo) are used appropriately, though "loose clamp" would benefit from a brief explanation.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and honest study, but the central structural and mechanistic claims cannot be verified without full experimental details. I would be supportive if the technical concerns regarding NMR evidence, simulation methodology, and in cellulo interpretation are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that binding involves both hot-spots is unsupported without residue-level NMR data.
+- The "loose clamp" mechanism is unsupported without simulation details and a quantitative definition.
+- The attribution of in cellulo failure to high hydrophobicity is unsupported without solubility, uptake, or permeability data.
+- The general principle that in vitro hot-spot binding is necessary but not sufficient for in cellulo inhibition is a reasonable hypothesis but is overgeneralized from a single system.
+- The K(d) values around 20 µM are reported but not verifiable without per-technique data and error estimates.

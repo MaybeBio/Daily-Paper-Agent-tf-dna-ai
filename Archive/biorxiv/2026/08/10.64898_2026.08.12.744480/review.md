@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) without figures or supplementary data
+- **Assessment boundary** Scientific claims, experimental logic, and interpretation as presented in the text; figure content could not be independently verified
+- **Shared manuscript claim summary** The authors performed an alanine-scanning mutagenesis of the LasR DNA-binding domain (residues 177-230) in Pseudomonas aeruginosa and identified several variants that retain or alter function, including a subset that appear to activate the RhlR-regulated rhlA promoter. They report that these cross-activating variants confer a competitive fitness disadvantage, while most other variants behave like loss-of-function alleles and outcompete wild type.
+- **Visible evidence base** Text descriptions of results from reporter assays (P_rsaL-mScarlet, P_rhlA-mGreenLantern), Western blots, casein agar growth/protease assays, rhamnolipid and pyocyanin measurements, and competition assays; references to Figures 1-6 and Figure S1
+- **Missing materials affecting confidence** All figures and supplementary tables (strains, plasmids) were not provided; raw data, statistical details, and replicate numbers are not available; the full methods for the alanine-scanning library construction are only partially described
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant question in quorum sensing biology: whether mutations in the LasR DNA-binding domain can expand the regulon of this transcription factor. The experimental approach is systematic and the finding that certain LasR variants can partially activate a normally RhlR-specific promoter is potentially interesting. However, the evidence as presented in the text is incomplete in several important respects. The claim of "expanded promoter targets" rests largely on reporter assays whose specificity and quantitative behavior are not fully documented. The fitness experiments are described only briefly, and the mechanistic interpretation of the N207A variant, which is central to the paper, is speculative. The manuscript would benefit from additional biochemical or structural data to support the proposed mechanism, and from clearer presentation of the quantitative data underlying the key claims.
+- **Who would be interested in the results, and why** Researchers studying quorum sensing, LuxR-type transcription factors, bacterial gene regulation, and the evolution of regulatory networks. The work may also be of interest to those studying P. aeruginosa pathogenesis and the emergence of clinical QS variants, as the authors connect their findings to selective pressures observed during chronic infections.
+- **Major strengths** The systematic alanine-scanning approach is thorough and provides a useful map of functionally important residues in the LasR DBD. The inclusion of clinically observed variants adds translational relevance. The observation that some DBD mutations can alter promoter specificity, rather than simply abolish function, is conceptually interesting and could have implications for regulon evolution. The fitness experiments address an important ecological question about the costs and benefits of QS variants.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "we found that multiple variants as well as the WT LasR had some rhlA promoter activity above background in this strain that lack RhlR" and "all these variants, but not the control, displayed some rhlA expression, even without RhlR present in the genome"
+  - **Evidence pointer** Results section "LasR variant induction of rhlA correlates with a competitive disadvantage against the WT"; Figures 2 and 3
+  - **Concern** The claim that LasR variants can activate the rhlA promoter in the absence of RhlR is central to the paper, but the data supporting this are not shown in the text. The authors note that WT LasR also shows some rhlA activity above background, which raises the question of whether the effect is specific to the variants or an artifact of overexpression. The distinction between "some activity" and meaningful cross-regulation is not quantified. The authors also state that N207A "appeared to have increased rhlA promoter activity" but do not provide the magnitude of this effect or statistical support.
+  - **Why it matters** The central claim of the paper is that DBD mutations can expand the LasR regulon. If the effect is small or not reproducible, the conclusion is not supported. The observation that WT also shows activity complicates the interpretation and needs to be addressed explicitly.
+  - **Resolution test** Provide the actual reporter data (fluorescence values, fold-change over background, time courses) for all variants and WT in both the presence and absence of RhlR. Include statistical analysis showing that the variant effects are significant and larger than WT. Ideally, demonstrate that the effect is specific to the rhlA promoter and not a general increase in transcriptional activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "we speculate V226I has reduced regulon compared to WT" and "N207A might have a mechanism of regulation of the rhl regulon involving interaction with RhlR, including, potentially, heightened rhlR transcription"
+  - **Evidence pointer** Results section "Characterization of naturally-occurring LasR DBD variants"; Discussion
+  - **Concern** The mechanistic interpretations for the V226I and N207A variants are speculative and not supported by direct evidence. For V226I, the authors note that its phenotype does not match the rsaL reporter data, and they invoke a "reduced regulon" without testing this. For N207A, the suggestion of interaction with RhlR or heightened rhlR transcription is not tested. The Discussion acknowledges these are possibilities, but the manuscript would be stronger if at least one of these hypotheses were tested directly.
+  - **Why it matters** The paper aims to provide insight into how LuxR homologs might evolve to regulate different gene sets. Without mechanistic data, the findings remain descriptive. The V226I variant is particularly interesting because it is found in clinical isolates and appears to have a unique phenotype, but the lack of mechanistic follow-up limits the impact.
+  - **Resolution test** For V226I, perform transcriptomics or targeted reporter assays to determine which genes are affected. For N207A, test whether rhlR expression is altered, or whether the variant protein can bind the rhlA promoter directly (e.g., by EMSA or ChIP). Alternatively, test whether the N207A effect requires RhlR by introducing the variant into a ΔrhlR background and measuring rhlA expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "Ten variants (S179A, N202A, N207A, R217A, T222A, in both backgrounds) were able to develop measurable biomass on casein plates" and "all naturally-occurring variants outcompeted the WT, as did most of the alanine-substitution variants"
+  - **Evidence pointer** Results section "LasR variant induction of rhlA correlates with a competitive disadvantage against the WT"; Figure 6
+  - **Concern** The fitness data are described qualitatively. The authors state that some variants were outcompeted by WT and others outcompeted WT, but no quantitative fitness values (e.g., competitive index, selection coefficient) are provided. The casein plate assay is described as showing "measurable biomass" but the criteria for this are not defined.
+  - **Why it matters** The fitness results are used to support the conclusion that regulon expansion is costly. Without quantitative data, it is not possible to assess the magnitude of the effect or whether it is biologically meaningful.
+  - **Resolution test** Provide competitive index values with confidence intervals for each variant tested. Define the threshold for "measurable biomass" on casein plates. If possible, include growth curves in casein broth to show the dynamics of the competition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "A majority of alanine variants of LasR result in loss of function, but some retain function"
+  - **Evidence pointer** Figure 1
+  - **Issue** The authors state that 8 substitutions did not alter activity and 9 partially retained activity, but the criteria for these categories are not defined. It is unclear what fraction of WT activity constitutes "retained" versus "partial."
+  - **Required correction** Define the thresholds used to categorize variants as fully functional, partially functional, or non-functional. This could be done in the figure legend or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Characterization of naturally-occurring LasR DBD variants"
+  - **Evidence pointer** Figure 5
+  - **Issue** The authors state that the A231V variant was tested but do not describe its phenotype in detail. It is mentioned only in passing in the context of the casein plate assay.
+  - **Required correction** Provide a brief description of the A231V phenotype in the text, or state explicitly that it was included as a control.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors compare their results to the previous LuxR alanine-scanning study (reference 6) but do not discuss potential differences in experimental conditions or promoter architecture that might explain the different patterns of sensitivity.
+  - **Required correction** Add a brief discussion of how differences between the V. fischeri LuxR and P. aeruginosa LasR systems (e.g., promoter structure, cooperativity, ligand effects) might contribute to the observed differences in mutational sensitivity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, "Reporter activity assays"
+  - **Evidence pointer** Methods section
+  - **Issue** The arabinose concentration used for induction is stated as 0.05% in the reporter assays but 0.1% in the immunoblotting section. It is unclear whether this difference is intentional and whether it affects the interpretation of the results.
+  - **Required correction** Clarify why different arabinose concentrations were used and whether this affects the comparability of the results across assays.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All results sections
+  - **Evidence pointer** Figures 1-6
+  - **Issue** No statistical methods are described. It is unclear whether the reported differences are based on replicates, error bars, or statistical tests.
+  - **Required correction** Add a statistical analysis section describing the number of replicates, error bars, and tests used. If no statistical tests were performed, state this explicitly.
+
+## Risk / unsupported claims
+- The claim that LasR variants can activate the rhlA promoter in the absence of RhlR is not fully supported by the data presented in the text; the magnitude and specificity of the effect are not quantified.
+- The mechanistic interpretations for V226I and N207A (reduced regulon, interaction with RhlR) are speculative and not tested.
+- The fitness disadvantage of cross-activating variants is described qualitatively; no quantitative competitive index values are provided.
+- The comparison between the LasR and LuxR alanine-scanning results is made without direct sequence or structural alignment, and the functional significance of the differences is not established.
+- The statement that "most other LasR variants had a competitive advantage" is not supported by quantitative data in the text.

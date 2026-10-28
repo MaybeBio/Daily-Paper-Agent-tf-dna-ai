@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.09.540002",
+  "title": "Robust discovery of causal gene networks via measurement error estimation and correction",
+  "authors": "Biswas R; Brintha VP; Dumrewal A; Narayanan M",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-10",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出RCD方法，通过估计基因表达测量误差来稳健发现因果基因网络，虽涉及转录因子-靶基因关系，但核心是统计因果推断而非蛋白-DNA互作建模，且无AI或物理模拟方法。",
+  "abstract": "Discovering causal relations among genes from observational data is a fundamental problem in systems biology, especially in humans where direct gene interventions or perturbations are unethical/infeasible. Furthermore, causality is emerging as an integral factor for building interpretable and generalizable machine-learning models of complex phenotypes. Existing methods can discover causal relations from observed gene expression and matched genetic data using the well-established framework of Mendelian Randomization. But, the prevalence of expression measurement errors can mislead most existing methods into making wrong causal discoveries, especially among genes transcribed at low to moderate levels and using data with large sample size (say thousands as in modern genomic or GWAS studies). In this study, we propose a new framework for causal discovery that is robust against measurement noise by extending an established statistical approach CIT (Causal Inference Test). We specifically developed a two-stage approach called RCD (Robust Causal Discovery), wherein we first estimate measurement error from gene expression data and then incorporate it to get consistent parameter estimates that could be used with appropriately extended statistical tests of correlation or mediation done in the original CIT. By quantifying and accounting for noise in the data, our RCD method is able to significantly outperform the baseline method in recovering ground-truth causal relations among simulated noisy genes and transcription factor to target gene relations among noisy yeast genes using data on 1012 yeast segregants. Encouraged by these results, we applied our RCD to a human setting where perturbations are infeasible and identified several causal relations, including ones involving transcriptional regulators in the skeletal muscle tissue. <h4>Data and Code Availability</h4> The code that implements our two-stage RCD framework is available here: https://github.com/BIRDSgroup/RCD ; code for reproducing the figures/tables in this manuscript is also provided in this link.",
+  "abstract_zh": "从观测数据中发现基因之间的因果关系是系统生物学中的一个基本问题，尤其是在人类中，直接进行基因干预或扰动是不道德或不可行的。此外，因果关系正逐渐成为构建复杂表型的可解释且可泛化的机器学习模型的关键因素。现有方法可以利用成熟的孟德尔随机化框架，从观测到的基因表达和匹配的遗传数据中发现因果关系。然而，表达测量误差的普遍存在可能会误导大多数现有方法，导致错误的因果发现，尤其是在低至中等表达水平的基因中，以及使用大样本量（如现代基因组学或GWAS研究中的数千样本）的数据时。在本研究中，我们提出了一种新的因果发现框架，通过扩展既有的统计方法CIT（因果推断检验），使其对测量噪声具有鲁棒性。我们特别开发了一种称为RCD（鲁棒因果发现）的两阶段方法，其中我们首先从基因表达数据中估计测量误差，然后将其纳入以获得一致的参数估计，这些估计可与原始CIT中适当扩展的相关性或中介性统计检验结合使用。通过量化和考虑数据中的噪声，我们的RCD方法在恢复模拟噪声基因中的真实因果关系以及使用1012个酵母分离株数据恢复噪声酵母基因中转录因子到靶基因关系方面，显著优于基线方法。受这些结果的鼓舞，我们将RCD应用于人类场景，其中扰动不可行，并识别出若干因果关系，包括涉及骨骼肌组织中转录调控因子的关系。<h4>数据和代码可用性</h4> 实现我们两阶段RCD框架的代码可在此处获取：https://github.com/BIRDSgroup/RCD ；本手稿中用于重现图表/表格的代码也在此链接中提供。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.09.540002",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.09.540002",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.09.540002/index.html"
+}

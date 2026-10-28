@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38282038",
+  "title": "Optimized network based natural language processing approach to reveal disease comorbidities in COVID-19.",
+  "authors": "Duman, Emre Taylan; Tuna, Gizem; Ak, Enes; Avsar, Gulben; Pir, Pinar",
+  "journal": "Scientific reports",
+  "published_date": "2024-01-29",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习整合miRNA表达谱预测COVID-19共病，虽涉及转录因子靶点，但核心是疾病关联而非蛋白质-DNA互作建模，与本课题关系微弱。",
+  "abstract": "A novel virus emerged from Wuhan, China, at the end of 2019 and quickly evolved into a pandemic, significantly impacting various industries, especially healthcare. One critical lesson from COVID-19 is the importance of understanding and predicting underlying comorbidities to better prioritize care and pharmacological therapies. Factors like age, race, and comorbidity history are crucial in determining disease mortality. While clinical data from hospitals and cohorts have led to the identification of these comorbidities, traditional approaches often lack a mechanistic understanding of the connections between them. In response, we utilized a deep learning approach to integrate COVID-19 data with data from other diseases, aiming to detect comorbidities with mechanistic insights. Our modified algorithm in the mpDisNet package, based on word-embedding deep learning techniques, incorporates miRNA expression profiles from SARS-CoV-2 infected cell lines and their target transcription factors. This approach is aligned with the emerging field of network medicine, which seeks to define diseases based on distinct pathomechanisms rather than just phenotypes. The main aim is discovery of possible unknown comorbidities by connecting the diseases by their miRNA mediated regulatory interactions. The algorithm can predict the majority of COVID-19's known comorbidities, as well as several diseases that have yet to be discovered to be comorbid with COVID-19. These potentially comorbid diseases should be investigated further to raise awareness and prevention, as well as informing the comorbidity research for the next possible outbreak.",
+  "abstract_zh": "一种新型病毒于2019年底在中国武汉出现，并迅速演变为全球大流行，对各行各业尤其是医疗保健产生了重大影响。COVID-19带来的一个关键教训是，理解并预测潜在合并症对于优化护理和药物治疗至关重要。年龄、种族和合并症史等因素在决定疾病死亡率方面起着关键作用。尽管医院和队列的临床数据已识别出这些合并症，但传统方法往往缺乏对其之间联系的机制性理解。为此，我们利用深度学习方法整合COVID-19数据与其他疾病数据，旨在通过机制性见解检测合并症。我们在mpDisNet包中修改的算法基于词嵌入深度学习技术，整合了SARS-CoV-2感染细胞系的miRNA表达谱及其靶转录因子。这种方法与新兴的网络医学领域一致，该领域旨在基于不同的病理机制而非仅表型来定义疾病。主要目标是通过连接疾病间的miRNA介导调控相互作用，发现可能未知的合并症。该算法能预测COVID-19的大多数已知合并症，以及若干尚未被发现与COVID-19共病的疾病。这些潜在合并症疾病应进一步研究，以提高认识和预防，并为下一次可能爆发的合并症研究提供信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38282038/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38282038/",
+  "paper_page_path": "papers/pubmed/38282038/index.html"
+}

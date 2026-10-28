@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion) from bioRxiv preprint
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors developed an inverted MITOMI (iMITOMI) assay to characterize transcription factor binding to clusters of low-affinity binding sites in vitro, and demonstrated that such clusters can achieve high occupancy and drive gene expression in vivo in both synthetic and native yeast promoters.
+- **Visible evidence base** Abstract, Introduction, Results (narrative descriptions of Figures 1-7 and Supplementary Figures/Tables), Discussion
+- **Missing materials affecting confidence** Figures, Supplementary Figures, Supplementary Tables, experimental protocols, statistical details, strain/plasmid construction details, raw data, and model fitting parameters were not provided. These are essential for full evaluation.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in gene regulation: whether clusters of low-affinity transcription factor binding sites are functionally relevant. The authors present a novel adaptation of the MITOMI assay (iMITOMI) that enables quantitative measurement of TF binding to longer DNA targets containing multiple sites. The in vitro findings are potentially significant, particularly the observation that TFs can bind concurrently to overlapping sites and that low-affinity clusters can achieve occupancy comparable to single high-affinity sites at physiological concentrations. The in vivo validation in both synthetic and native promoter contexts strengthens the case for functional relevance. However, the manuscript as provided lacks the actual figures, data, and methodological details necessary to verify the claims. The narrative is compelling but the evidence base is incomplete in this submission. The threshold model for transcriptional activation based on mean occupancy is an interesting contribution, though its generality remains to be tested.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, quantitative biology, synthetic biology, and computational genomics would be interested. The work challenges assumptions about binding site exclusivity and provides quantitative frameworks for understanding how low-affinity clusters contribute to gene expression. It has implications for understanding regulatory evolution, predicting gene expression from sequence, and engineering synthetic promoters.
+- **Major strengths** 1) The development of iMITOMI represents a methodological advance that enables quantitative, high-throughput measurement of TF binding to multi-site DNA targets. 2) The systematic variation of cluster parameters (affinity, multiplicity, density, overlap) is a rigorous approach. 3) The combination of in vitro biochemistry with in vivo functional assays in both synthetic and native contexts is powerful. 4) The finding that occupancy, not affinity per se, predicts transcriptional output is conceptually important. 5) The observation of non-specific leakiness correlated with cluster size has practical implications for synthetic promoter design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that iMITOMI provides quantitative measurements of TF binding to clusters, and that binding is largely independent with mild steric effects at close distances.
+  - **Evidence pointer** Results section, Figures 1-4, Supplementary Figures 1-5
+  - **Concern** The actual data, figures, and detailed methods are not provided in this submission. The narrative describes results but the reader cannot assess data quality, fit quality, error bars, replicates, or the statistical basis for claims such as "R2 of 0.99" or "AIC/BIC decreased significantly."
+  - **Why it matters** The central claims of the paper rest on quantitative measurements and model fitting. Without access to the data and methods, the validity of the conclusions cannot be independently evaluated. This is a blocking issue for the current submission.
+  - **Resolution test** Provide all figures with appropriate statistical annotations, detailed methods for iMITOMI, model fitting procedures, and raw data or clear data availability statements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that "transcription factors can bind concurrently to overlapping sites, challenging the notion of binding exclusivity."
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The claim of concurrent binding to overlapping sites is based on mean occupancy exceeding 1. However, mean occupancy is an ensemble average and does not directly demonstrate simultaneous binding of two TFs to the same DNA molecule. Alternative explanations, such as a mixture of singly-bound states or dynamic exchange, could also produce mean occupancy >1.
+  - **Why it matters** This is a key conceptual claim of the paper. If not rigorously supported, the interpretation of the data could be fundamentally different.
+  - **Resolution test** Provide single-molecule measurements or other direct evidence of simultaneous binding, or temper the claim to reflect that the data are consistent with, but do not prove, concurrent binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims that "clusters of low-affinity binding sites can drive gene expression equivalently to clusters of consensus binding sites" and that this extends to a native regulatory system.
+  - **Evidence pointer** Results section, Figures 5-7
+  - **Concern** The in vivo validation is limited to two TFs (Zif268 in a synthetic system, Pho4 in a native system) and a single promoter context each. The generality of the findings across different TFs, promoter architectures, and cellular conditions is not established.
+  - **Why it matters** The authors draw broad conclusions about the functional relevance of low-affinity clusters. Without broader testing, the conclusions may be specific to the systems studied.
+  - **Resolution test** Acknowledge the limited scope or provide additional evidence from diverse TFs and promoter contexts.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validity
+  - **Claim pointer** The manuscript proposes a thresholded relationship between mean occupancy and transcriptional output, where expression is silent below ~1 TF bound and scales with occupancy above this threshold.
+  - **Evidence pointer** Results section, Figure 6
+  - **Concern** The threshold model is derived from a limited dataset and its predictive power is not tested against independent data. The model also does not account for potential cooperative interactions, chromatin state, or other regulatory inputs that may modulate the relationship.
+  - **Why it matters** The model is presented as a general principle of transcriptional regulation. If it is only descriptive of the specific systems studied, its broader relevance is unclear.
+  - **Resolution test** Validate the model on independent datasets or clearly state its scope as a descriptive framework for the systems studied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction cites examples of low-affinity cluster function but does not provide a clear definition of "low-affinity" in quantitative terms (e.g., KD range relative to consensus).
+  - **Required correction** Define the affinity ranges used in this study and relate them to prior definitions in the literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods (not provided)
+  - **Evidence pointer** Results section, iMITOMI Development
+  - **Issue** The description of the iMITOMI assay is high-level and lacks sufficient detail for reproduction. Key parameters such as surface chemistry, DNA concentration, protein concentration ranges, incubation times, and washing conditions are not specified.
+  - **Required correction** Provide a detailed methods section or reference to a prior publication with full protocols.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** In vivo experiments
+  - **Evidence pointer** Results section, Figures 5-7
+  - **Issue** The number of biological replicates and statistical tests used for the in vivo expression data are not described.
+  - **Required correction** Specify replicate numbers and statistical methods for all in vivo comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on evolution
+  - **Issue** The evolutionary implications are speculative and not directly supported by the data presented.
+  - **Required correction** Clearly distinguish speculation from data-driven conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence completeness) and R1-M2 (claim support for concurrent binding) are the most critical. Without the actual data and a more rigorous demonstration of simultaneous binding, the central claims cannot be fully evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The iMITOMI assay and the systematic study of low-affinity clusters are novel contributions.
+  - Scientific importance: High. The findings challenge existing assumptions and have implications for understanding gene regulation, evolution, and synthetic biology.
+  - Interdisciplinary readership: Moderate to high. The work bridges biochemistry, biophysics, and molecular biology, and would appeal to a broad readership.
+  - Technical soundness: Cannot be fully assessed from the provided text. The methodological approach is sound in principle, but the data and details are missing.
+  - Readability for nonspecialists: Good. The narrative is clear and accessible, though some sections assume familiarity with the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and methodological approach are promising, but the current submission lacks the evidence needed to fully establish the claims. The authors should provide complete data, figures, and methods, and address the concern about direct evidence for concurrent binding.
+
+## Risk / unsupported claims
+- The claim that TFs bind concurrently to overlapping sites is not fully supported by mean occupancy data alone.
+- The threshold model for transcriptional activation is presented as general but is derived from limited data.
+- The evolutionary implications discussed are speculative.
+- The claim that low-affinity clusters are "highly functional" in native contexts is based on a single promoter system (PHO5) and may not generalize.
+- The statement that "clusters of low-affinity binding sites can drive gene expression equivalently to clusters of consensus binding sites" is based on a limited set of comparisons and may not hold across all conditions.

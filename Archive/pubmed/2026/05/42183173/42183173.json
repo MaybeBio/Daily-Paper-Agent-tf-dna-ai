@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "42183173",
+    "doi": "10.1155/ijog/4119010",
+    "title": "Identification of Key Genes in Acute Liver Failure via Analysis of Programmed Cell Death Patterns."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Acute liver failure (ALF) is a severe condition with high mortality, where programmed cell death (PCD) plays a critical yet not fully understood role. This study aimed to identify key PCD-related genes and explore their potential as biomarkers and therapeutic targets in ALF. METHODS: Three HBV-ALF microarray datasets (GSE14668, GSE38941, GSE62029) from GEO were integrated and analyzed. Differential expression analysis, protein-protein interaction (PPI) network construction, and functional enrichment were performed. Machine learning algorithms (LASSO and random forest) were used to identify hub genes. Immune infiltration was assessed via CIBERSORT and ssGSEA. Regulatory networks involving miRNAs and transcription factors (TFs) were constructed. RESULTS: A total of 109 differentially expressed PCD genes were identified. TIMP1 and IL18 were consistently selected as hub genes by both CytoHubba and machine learning methods. These genes demonstrated high diagnostic accuracy and prognostic value in ALF. Immune infiltration analysis revealed significant associations with macrophage polarization. Functional enrichment linked TIMP1 and IL18 to immune and metabolic pathways. A miRNA-mRNA-TF regulatory network was constructed, with STAT3 identified as a key upstream regulator. CONCLUSION: TIMP1 and IL18 are potential diagnostic biomarkers and candidate therapeutic targets for ALF, closely associated with immune infiltration and PCD processes. These findings provide new insights into the molecular mechanisms of ALF and support the development of targeted therapies.",
+    "keywords": [
+      "HBV-ALF",
+      "bioinformatics",
+      "immune infiltration",
+      "machine learning",
+      "programmed cell death"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Guangli",
+        "Wu, Huili",
+        "Shi, Wenxiang",
+        "Qiu, Chenjie"
+      ],
+      "short_names": [
+        "Liu G",
+        "Wu H",
+        "Shi W",
+        "Qiu C"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-3497-2488",
+        "ORCID: 0009-0007-4897-3302",
+        "ORCID: 0000-0001-7433-1775",
+        "ORCID: 0000-0003-2632-7397"
+      ],
+      "affiliations": [
+        "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China, czzyy.com.",
+        "Department of Endodontics, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China, czzyy.com.",
+        "Department of Pediatric Cardiology, Xinhua Hospital, Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China, czzyy.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Guangli",
+        "short_name": "Liu G",
+        "identifiers": [
+          "0009-0008-3497-2488"
+        ],
+        "affiliations": [
+          "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China, czzyy.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Huili",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0009-0007-4897-3302"
+        ],
+        "affiliations": [
+          "Department of Endodontics, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China, czzyy.com."
+        ]
+      },
+      {
+        "full_name": "Shi, Wenxiang",
+        "short_name": "Shi W",
+        "identifiers": [
+          "0000-0001-7433-1775"
+        ],
+        "affiliations": [
+          "Department of Pediatric Cardiology, Xinhua Hospital, Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chenjie",
+        "short_name": "Qiu C",
+        "identifiers": [
+          "0000-0003-2632-7397"
+        ],
+        "affiliations": [
+          "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, China, czzyy.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of genomics"
+    ],
+    "journal_abbrev": [
+      "Int J Genomics"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/25 12:35",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38170006",
+      "38169587",
+      "38140739",
+      "38136586",
+      "38129372",
+      "38068503",
+      "37954583",
+      "37934488",
+      "37868825",
+      "37859699",
+      "37816833",
+      "37640752",
+      "37633063",
+      "37443080",
+      "37377263",
+      "37243773",
+      "36919480",
+      "36841748",
+      "36581048",
+      "36381100",
+      "36341760",
+      "36032938",
+      "36001996",
+      "35061511",
+      "35003085",
+      "31672340",
+      "31498101",
+      "30619308",
+      "29384847",
+      "28052254",
+      "26331854",
+      "25822800",
+      "25400741",
+      "25343108",
+      "24369077",
+      "23554142",
+      "23532086",
+      "23456624",
+      "23439263",
+      "23079896",
+      "22532075",
+      "22247279",
+      "20492514",
+      "20397256",
+      "20039781",
+      "16984598",
+      "15055025",
+      "14523674",
+      "12048356"
+    ],
+    "similar": [
+      "42183173",
+      "36246593",
+      "41087615",
+      "42715252",
+      "41006883",
+      "39744064",
+      "39285310",
+      "42292668",
+      "41158409",
+      "39375405",
+      "41049291",
+      "41145553",
+      "41044520",
+      "39839184",
+      "39697326",
+      "41826854",
+      "41393260",
+      "40635857",
+      "41432483",
+      "41743406",
+      "40406620",
+      "42363518",
+      "35965803",
+      "42432759",
+      "40860289",
+      "40297850",
+      "40973872",
+      "39512836",
+      "41858783",
+      "36531699",
+      "38863714",
+      "39609849",
+      "42642681",
+      "36704339",
+      "40205951",
+      "39139563",
+      "41630199",
+      "30591937",
+      "40274384",
+      "38800594",
+      "41013556",
+      "39991755",
+      "41388523",
+      "38245687",
+      "42164373",
+      "41479901",
+      "36699262",
+      "36777638",
+      "42348043",
+      "41136974",
+      "41190071",
+      "41288681",
+      "39713769",
+      "39586719",
+      "40374866",
+      "40500570",
+      "42302029",
+      "38044432",
+      "42327749",
+      "42083957",
+      "37205113",
+      "38020614",
+      "40093012",
+      "40969769",
+      "40672380",
+      "42247642",
+      "42471730",
+      "40842856",
+      "40574839",
+      "40078458",
+      "40830558",
+      "37378675",
+      "42313235",
+      "40781631",
+      "40108736",
+      "39142001",
+      "42584803",
+      "38851464",
+      "41781900",
+      "41291841",
+      "41255601",
+      "39341981",
+      "42292393",
+      "40977739",
+      "33100826",
+      "41878449",
+      "38601664",
+      "38319987",
+      "42477605",
+      "42338983",
+      "41146237",
+      "38371524",
+      "40532306",
+      "41902830",
+      "40895573",
+      "41316541",
+      "42449128",
+      "42274933",
+      "41066424",
+      "38867322"
+    ],
+    "review": [
+      "42183173"
+    ],
+    "pmc": [
+      "13191773"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42183173/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/ijog/4119010",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

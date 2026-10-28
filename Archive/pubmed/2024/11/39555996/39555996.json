@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "39555996",
+    "doi": "10.1002/jcla.25125",
+    "title": "Exploring the Molecular Interaction Between NR2E3 and NR1D1 in Retinitis Pigmentosa: A Docking and Molecular Dynamics Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Retinitis pigmentosa (RP) is a hereditary retinal disorder that gradually leads to vision loss due to photoreceptor cell degeneration. This study aims to investigate the clinical features and genetic underpinnings of RP within a large Iranian family. Our focus centered on mutations in the NR2E3 gene, which plays a critical role in the development and maintenance of the retina. METHODS: Twenty-five family members showed symptoms of RP, and fourteen of them underwent clinical examinations conducted by geneticists and ophthalmologists. The DNA samples of five individuals diagnosed with RP from the family were subjected to whole-exome sequencing (WES) as part of the study. The candidate variant identified through WES was subsequently confirmed using bidirectional sequencing in additional family members. Additionally, in silico analysis, including molecular modeling, protein-protein docking, and molecular dynamics simulation (MD), was employed to assess potential pathogenic effects associated with the candidate variants. RESULTS: Ophthalmic examination revealed night blindness, which is a common symptom among affected individuals. Genetic analysis identified a homozygous missense variant (c.934G>A/p.R311Q) in NR2E3 exon 6, which co-segregates with other affected family members. Furthermore, molecular docking analysis indicated potential disruption in the binding affinity between NR2E3 and NR1D1 proteins. In-depth, molecular dynamics analysis, considering parameters such as RMSD, RMSF, and hydrogen bonding, revealed notable differences between normal and mutant protein complexes. CONCLUSION: Exploring the molecular interaction between NR2E3 and NR1D1 provides new insights into the pathogenic mechanism of the p.R311Q mutation in RP.",
+    "keywords": [
+      "NR1D1",
+      "NR2E3",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "retinitis pigmentosa",
+      "whole-exome sequence"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Retinitis Pigmentosa/genetics/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Male",
+      "*Molecular Docking Simulation",
+      "*Pedigree",
+      "Female",
+      "*Orphan Nuclear Receptors/genetics/chemistry",
+      "Adult",
+      "Middle Aged",
+      "Mutation, Missense",
+      "Exome Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vafaeie, Farzane",
+        "Mohammadpour, Mojtaba",
+        "Etesam, Shokoofeh",
+        "Zarifi, Shahnaz",
+        "Yari, Abolfazl",
+        "Nikandish, Malihe",
+        "Hashemzadeh, Hassan",
+        "Hajiabadi, Mohammad Reza",
+        "Miri-Moghaddam, Ebrahim"
+      ],
+      "short_names": [
+        "Vafaeie F",
+        "Mohammadpour M",
+        "Etesam S",
+        "Zarifi S",
+        "Yari A",
+        "Nikandish M",
+        "Hashemzadeh H",
+        "Hajiabadi MR",
+        "Miri-Moghaddam E"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2277-1597",
+        "ORCID: 0000-0001-9435-2450"
+      ],
+      "affiliations": [
+        "Cardiovascular Diseases Research Center, Birjand University of Medical Sciences, Birjand, Iran.",
+        "Student Research Committee, Birjand University of Medical Sciences, Birjand, Iran.",
+        "Department of Optometry, School of Rehabilitation, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "Department of Biological Sciences, Technical and Vocational University (TVU), Tehran, Iran.",
+        "Prevention Development Affairs, Welfare Organization of South Khorasan, South Khorasan, Iran.",
+        "Department of Medical Genetics, Afzalipour Faculty of Medicine, Kerman University of Medical Sciences, Kerman, Iran.",
+        "Cellular and Molecular Research Center, Birjand University of Medical Sciences, Birjand, Iran.",
+        "Department of Ophthalmology, Razi Hospital, Birjand University of Medical Sciences, Birjand, Iran.",
+        "Department of Pharmaceutics and Pharmaceutical Nanotechnology. School of Pharmacy, Birjand University of Medical Sciences, Birjand, Iran.",
+        "Anesthesia and Medical Education Department Operating Room, Birjand University of Medical Sciences, Birjand, Iran.",
+        "Department of Molecular Medicine, Faculty of Medicine and Cardiovascular Diseases Research Center, Birjand University of Medical Sciences, Birjand, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vafaeie, Farzane",
+        "short_name": "Vafaeie F",
+        "identifiers": [
+          "0000-0003-2277-1597"
+        ],
+        "affiliations": [
+          "Cardiovascular Diseases Research Center, Birjand University of Medical Sciences, Birjand, Iran.",
+          "Student Research Committee, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Mohammadpour, Mojtaba",
+        "short_name": "Mohammadpour M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Optometry, School of Rehabilitation, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Etesam, Shokoofeh",
+        "short_name": "Etesam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Technical and Vocational University (TVU), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Zarifi, Shahnaz",
+        "short_name": "Zarifi S",
+        "identifiers": [],
+        "affiliations": [
+          "Prevention Development Affairs, Welfare Organization of South Khorasan, South Khorasan, Iran."
+        ]
+      },
+      {
+        "full_name": "Yari, Abolfazl",
+        "short_name": "Yari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, Afzalipour Faculty of Medicine, Kerman University of Medical Sciences, Kerman, Iran.",
+          "Cellular and Molecular Research Center, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Nikandish, Malihe",
+        "short_name": "Nikandish M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Razi Hospital, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Hashemzadeh, Hassan",
+        "short_name": "Hashemzadeh H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics and Pharmaceutical Nanotechnology. School of Pharmacy, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Hajiabadi, Mohammad Reza",
+        "short_name": "Hajiabadi MR",
+        "identifiers": [],
+        "affiliations": [
+          "Anesthesia and Medical Education Department Operating Room, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      },
+      {
+        "full_name": "Miri-Moghaddam, Ebrahim",
+        "short_name": "Miri-Moghaddam E",
+        "identifiers": [
+          "0000-0001-9435-2450"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Faculty of Medicine and Cardiovascular Diseases Research Center, Birjand University of Medical Sciences, Birjand, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of clinical laboratory analysis"
+    ],
+    "journal_abbrev": [
+      "J Clin Lab Anal"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/18 16:20",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38480634",
+      "38317096",
+      "38293907",
+      "37510230",
+      "36977391",
+      "35791102",
+      "35508617",
+      "35410501",
+      "34588515",
+      "33507216",
+      "33188265",
+      "32071294",
+      "32050993",
+      "31960602",
+      "31341231",
+      "30034950",
+      "29597005",
+      "28236242",
+      "27302685",
+      "25741868",
+      "25703721",
+      "23701314",
+      "21408158",
+      "20644199",
+      "19718767",
+      "17662965",
+      "16211538"
+    ],
+    "similar": [
+      "39555996",
+      "22605927",
+      "19933183",
+      "19718767",
+      "24498227",
+      "24697911",
+      "26910043",
+      "36959549",
+      "25703721",
+      "17564971",
+      "31083481",
+      "33807610",
+      "19006237",
+      "26720455",
+      "33007388",
+      "40317544",
+      "27893103",
+      "32277948",
+      "32319668",
+      "36650547",
+      "39988772",
+      "11773633",
+      "30804660",
+      "26216097",
+      "19823680",
+      "24891813",
+      "29034877",
+      "38273095",
+      "34070492",
+      "28419563",
+      "27082927",
+      "36036427",
+      "30120214",
+      "32705276",
+      "23900199",
+      "39361057",
+      "23281133",
+      "32454406",
+      "33633436",
+      "32817297",
+      "27122965",
+      "40029043",
+      "19933189",
+      "24938718",
+      "33633220",
+      "26321862",
+      "32970112",
+      "28462455",
+      "24618324",
+      "27842159",
+      "31322236",
+      "31833436",
+      "26321861",
+      "33907372",
+      "30593785",
+      "30085091",
+      "32123325",
+      "24227914",
+      "23946133",
+      "33138239",
+      "32587456",
+      "30932721",
+      "32100970",
+      "29892959",
+      "22128245",
+      "26787102",
+      "34399712",
+      "39983972",
+      "31944634",
+      "31239368",
+      "38078364",
+      "30460480",
+      "35814500",
+      "32367544",
+      "24595387",
+      "38604988",
+      "27440997",
+      "30416333",
+      "24084495",
+      "20806050",
+      "25783483",
+      "30466340",
+      "25366773",
+      "28805479",
+      "30451805",
+      "25999675",
+      "31319082",
+      "39674535",
+      "21835304",
+      "30360737",
+      "30513137",
+      "25859010",
+      "24520187",
+      "39019967",
+      "30656474",
+      "31012789",
+      "23882135",
+      "23834559",
+      "26197217",
+      "25477324"
+    ],
+    "review": [
+      "39555996",
+      "19718767"
+    ],
+    "pmc": [
+      "11632900"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39555996.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39555996/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jcla.25125",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

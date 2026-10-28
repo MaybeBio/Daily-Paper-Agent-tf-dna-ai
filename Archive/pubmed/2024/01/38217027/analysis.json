@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38217027",
+  "title": "ChIPr: accurate prediction of cohesin-mediated 3D genome organization from 2D chromatin features.",
+  "authors": "Abbas, Ahmed; Chandratre, Khyati; Gao, Yunpeng; Yuan, Jiapei; Zhang, Michael Q; Mani, Ram S",
+  "journal": "Genome biology",
+  "published_date": "2024-01-13",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测cohesin介导的3D染色质互作，虽涉及DNA结合蛋白但非TF-DNA特异性结合，且无三维互作建模与机制研究，方法可迁移性有限。",
+  "abstract": "The three-dimensional genome organization influences diverse nuclear processes. Here we present Chromatin Interaction Predictor (ChIPr), a suite of regression models based on deep neural networks, random forest, and gradient boosting to predict cohesin-mediated chromatin interaction strength between any two loci in the genome. The predictions of ChIPr correlate well with ChIA-PET data in four cell lines. The standard ChIPr model requires three experimental inputs: ChIP-Seq signals for RAD21, H3K27ac, and H3K27me3 but works well with just RAD21 signal. Integrative analysis reveals novel insights into the role of CTCF motif, its orientation, and CTCF binding on cohesin-mediated chromatin interactions.",
+  "abstract_zh": "三维基因组组织影响多种核内过程。在此，我们提出染色质相互作用预测器（ChIPr），这是一套基于深度神经网络、随机森林和梯度提升的回归模型套件，用于预测基因组中任意两个位点之间由cohesin介导的染色质相互作用强度。ChIPr的预测结果与四种细胞系中的ChIA-PET数据高度相关。标准ChIPr模型需要三种实验输入：RAD21、H3K27ac和H3K27me3的ChIP-Seq信号，但仅使用RAD21信号也能良好运行。整合分析揭示了CTCF基序、其方向性及CTCF结合在cohesin介导的染色质相互作用中的新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38217027/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38217027/",
+  "paper_page_path": "papers/pubmed/38217027/index.html"
+}

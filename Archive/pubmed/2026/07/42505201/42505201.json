@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "42505201",
+    "doi": "10.3390/curroncol33070399",
+    "title": "Assessing the Clinical Relevance of BRCA1 RING Domain Variants of Uncertain Significance."
+  },
+  "content": {
+    "abstract": "The BRCA1 protein serves an essential function in maintaining genomic integrity, to the extent that up to 80% of women carrying a pathogenic BRCA1 variant develop breast cancer (BC). Most of these carriers would benefit from prophylactic care, but genetic screens that uncover variants of uncertain significance (VUSs) do not provide insight on disease risk or clinical decision-making. In accordance with guidelines established by The American College of Molecular Genetics (ACMG) and Association for Molecular Pathology (AMP), this study produced computational and functional evidence to inform the reclassification of BRCA1 VUSs as pathogenic or benign, with a specific focus on the abundant subset of missense variants within the RING domain. A six-feature linear support vector machine (LSVM) specifically trained on BRCA1 RING variants performed well (84% accurate in predicting in vitro binding loss) and provided supporting classification evidence for 322 VUS. A mammalian cell co-immunoprecipitation (co-IP) assay that quantified the binding between variant BRCA RING constructs and endogenous BARD1 provided corroborating strong evidence for nine VUSs and correlated with a homology-directed repair (HDR) assay by Starita et al. (p = 0.04). The combined evidence warrants the reclassification of three VUSs as likely benign (N16S, A17D, and E100D) and one as likely pathogenic (H41P), and underscores the promise of domain-specific approaches for missense VUS reclassification.",
+    "keywords": [
+      "BRCA1",
+      "The American College of Molecular Genetics",
+      "functional assays",
+      "germline genetic testing",
+      "hereditary breast cancer",
+      "hereditary ovarian cancer",
+      "machine learning",
+      "variants of uncertain significance"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*BRCA1 Protein/genetics",
+      "Female",
+      "*Breast Neoplasms/genetics",
+      "*RING Finger Domains/genetics",
+      "Mutation, Missense",
+      "Genetic Testing",
+      "Clinical Relevance"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Martin, Matthew D",
+        "Torretto, Gabriella C",
+        "Islam, Kaamraan",
+        "Archer, Nicole E",
+        "Feilotter, Harriet E",
+        "Davey, Scott K"
+      ],
+      "short_names": [
+        "Martin MD",
+        "Torretto GC",
+        "Islam K",
+        "Archer NE",
+        "Feilotter HE",
+        "Davey SK"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-6365-4396",
+        "ORCID: 0000-0001-8909-8064"
+      ],
+      "affiliations": [
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Laboratory Medicine Program, University Health Network, Toronto, ON M5G 2C4, Canada.",
+        "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+        "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Martin, Matthew D",
+        "short_name": "Martin MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+          "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada."
+        ]
+      },
+      {
+        "full_name": "Torretto, Gabriella C",
+        "short_name": "Torretto GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+          "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada."
+        ]
+      },
+      {
+        "full_name": "Islam, Kaamraan",
+        "short_name": "Islam K",
+        "identifiers": [
+          "0009-0006-6365-4396"
+        ],
+        "affiliations": [
+          "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada."
+        ]
+      },
+      {
+        "full_name": "Archer, Nicole E",
+        "short_name": "Archer NE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+          "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada."
+        ]
+      },
+      {
+        "full_name": "Feilotter, Harriet E",
+        "short_name": "Feilotter HE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+          "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada.",
+          "Laboratory Medicine Program, University Health Network, Toronto, ON M5G 2C4, Canada."
+        ]
+      },
+      {
+        "full_name": "Davey, Scott K",
+        "short_name": "Davey SK",
+        "identifiers": [
+          "0000-0001-8909-8064"
+        ],
+        "affiliations": [
+          "Department of Pathology and Molecular Medicine, Queen's University, Kingston, ON K7L 3N6, Canada.",
+          "Division of Cancer Biology and Genetics, Sinclair Cancer Research Institute, Queen's University, Kingston, ON K7L 3N6, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current oncology (Toronto, Ont.)"
+    ],
+    "journal_abbrev": [
+      "Curr Oncol"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/27 12:36",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41950573",
+      "41916723",
+      "40480199",
+      "39568367",
+      "39491552",
+      "39489894",
+      "39261728",
+      "39004561",
+      "38811422",
+      "38709234",
+      "38573379",
+      "38368609",
+      "37733863",
+      "37692097",
+      "37587346",
+      "37172654",
+      "36902416",
+      "36716349",
+      "36493696",
+      "36413997",
+      "36231355",
+      "36041233",
+      "35772246",
+      "35659930",
+      "35650591",
+      "35487060",
+      "35436152",
+      "35300412",
+      "35247877",
+      "35242503",
+      "35165121",
+      "34591954",
+      "34523079",
+      "34518696",
+      "34503097",
+      "34321665",
+      "34142659",
+      "34140467",
+      "33589814",
+      "32862296",
+      "32801835",
+      "32726901",
+      "32722046",
+      "32719921",
+      "32322466",
+      "32139898",
+      "31861888",
+      "31651908",
+      "31432391",
+      "30925164",
+      "30219179",
+      "30209399",
+      "29686231",
+      "29601120",
+      "29439343",
+      "28870997",
+      "28664449",
+      "28239279",
+      "28030839",
+      "27473440",
+      "26822887",
+      "26350354",
+      "25975955",
+      "25833843",
+      "25823446",
+      "25741868",
+      "25642963",
+      "25599402",
+      "24950059",
+      "24675953",
+      "24278741",
+      "23818451",
+      "23323793",
+      "23056405",
+      "22833565",
+      "22752604",
+      "22737296",
+      "21922593",
+      "21119707",
+      "20634209",
+      "20233467",
+      "19887602",
+      "18089818",
+      "18042939",
+      "16998500",
+      "15811849",
+      "15782130",
+      "15240424",
+      "15166217",
+      "14981104",
+      "14872534",
+      "12732733",
+      "12677558",
+      "12496477",
+      "12496476",
+      "11779501",
+      "11761347",
+      "10991937",
+      "10783165",
+      "8944023"
+    ],
+    "similar": [
+      "42505201",
+      "31907386",
+      "30725392",
+      "42346254",
+      "42353852",
+      "36833189",
+      "41688965",
+      "38160042",
+      "30415210",
+      "35736817",
+      "30458859",
+      "38417439",
+      "33087888",
+      "41057936",
+      "23867111",
+      "41697532",
+      "37168384",
+      "33875706",
+      "19543972",
+      "35196514",
+      "32546644",
+      "38623660",
+      "37085799",
+      "37731132",
+      "39142283",
+      "30219179",
+      "34597585",
+      "32566972",
+      "42335889",
+      "22684231",
+      "33609447",
+      "35659930",
+      "39096911",
+      "28439188",
+      "31371347",
+      "36775216",
+      "28866612",
+      "37067535",
+      "32803532",
+      "37578980",
+      "31013702",
+      "41230741",
+      "35167739",
+      "30257991",
+      "38300310",
+      "38168194",
+      "37335020",
+      "34855882",
+      "31636395",
+      "21447777",
+      "25724305",
+      "25823446",
+      "31409081",
+      "25643705",
+      "36358902",
+      "35409408",
+      "30410870",
+      "31911673",
+      "41499258",
+      "39831988",
+      "37096751",
+      "29996917",
+      "26350354",
+      "30254663",
+      "37090572",
+      "35908255",
+      "32916545",
+      "24728577",
+      "33078592",
+      "39940038",
+      "39387837",
+      "37878314",
+      "34178674",
+      "29801090",
+      "38814507",
+      "40829598",
+      "26153499",
+      "27124784",
+      "39357517",
+      "42530926",
+      "26219241",
+      "42192302",
+      "40413188",
+      "34646395",
+      "41856558",
+      "24607278",
+      "34793697",
+      "30925164",
+      "41410715",
+      "31780696",
+      "41023008",
+      "31131967",
+      "30765603",
+      "39733403",
+      "32866190",
+      "41797047",
+      "25652403",
+      "17924331",
+      "40233743",
+      "33461583"
+    ],
+    "review": [
+      "42505201",
+      "28866612",
+      "31013702",
+      "31409081"
+    ],
+    "pmc": [
+      "13408275"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=curroncol33070399",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42505201/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

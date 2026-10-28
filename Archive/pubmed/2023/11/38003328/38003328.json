@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "38003328",
+    "doi": "10.3390/ijms242216136",
+    "title": "Host Genetic Background Effect on Body Weight Changes Influenced by Heterozygous Smad4 Knockout Using Collaborative Cross Mouse Population."
+  },
+  "content": {
+    "abstract": "Obesity and its attendant conditions have become major health problems worldwide, and obesity is currently ranked as the fifth most common cause of death globally. Complex environmental and genetic factors are causes of the current obesity epidemic. Diet, lifestyle, chemical exposure, and other confounding factors are difficult to manage in humans. The mice model is helpful in researching genetic BW gain because genetic and environmental risk factors can be controlled in mice. Studies in mouse strains with various genetic backgrounds and established genetic structures provide unparalleled opportunities to find and analyze trait-related genomic loci. In this study, we used the Collaborative Cross (CC), a large panel of recombinant inbred mouse strains, to present a predictive study using heterozygous Smad4 knockout profiles of CC mice to understand and effectively identify predispositions to body weight gain. Male C57Bl/6J Smad4+/- mice were mated with female mice from 10 different CC lines to create F1 mice (Smad4+/-x CC). Body weight (BW) was measured weekly until week 16 and then monthly until the end of the study (week 48). The heritability (H2) of the assessed traits was estimated and presented. Comparative analysis of various machine learning algorithms for predicting the BW changes and genotype of mice was conducted. Our data showed that the body weight records of F1 mice with different CC lines differed between wild-type and mutant Smad4 mice during the experiment. Genetic background affects weight gain and some lines gained more weight in the presence of heterozygous Smad4 knockout, while others gained less, but, in general, the mutation caused overweight mice, except for a few lines. In both control and mutant groups, female %BW had a higher heritability (H2) value than males. Additionally, both sexes with wild-type genotypes showed higher heritability values than the mutant group. Logistic regression provides the most accurate mouse genotype predictions using machine learning. We plan to validate the proposed method on more CC lines and mice per line to expand the literature on machine learning for BW prediction.",
+    "keywords": [
+      "Collaborative Cross (CC)",
+      "Smad4 knockout",
+      "body weight gain",
+      "genotyping",
+      "machine learning (ML)"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Humans",
+      "Male",
+      "Mice",
+      "Body Weight/genetics",
+      "*Collaborative Cross Mice",
+      "Mice, Inbred C57BL",
+      "Mice, Inbred Strains",
+      "Mice, Knockout",
+      "*Obesity/genetics",
+      "Smad4 Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qahaz, Nayrouz",
+        "Lone, Iqbal M",
+        "Khadija, Aya",
+        "Ghnaim, Aya",
+        "Zohud, Osayd",
+        "Nun, Nadav Ben",
+        "Nashef, Aysar",
+        "Abu El-Naaj, Imad",
+        "Iraqi, Fuad A"
+      ],
+      "short_names": [
+        "Qahaz N",
+        "Lone IM",
+        "Khadija A",
+        "Ghnaim A",
+        "Zohud O",
+        "Nun NB",
+        "Nashef A",
+        "Abu El-Naaj I",
+        "Iraqi FA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5292-6778",
+        "ORCID: 0000-0003-3530-1420",
+        "ORCID: 0000-0001-5525-206X"
+      ],
+      "affiliations": [
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Oral and Maxillofacial Surgery, Baruch Padeh Medical Center, Poriya 15208, Israel.",
+        "Department of Oral and Maxillofacial Surgery, Baruch Padeh Medical Center, Poriya 15208, Israel.",
+        "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qahaz, Nayrouz",
+        "short_name": "Qahaz N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Lone, Iqbal M",
+        "short_name": "Lone IM",
+        "identifiers": [
+          "0000-0001-5292-6778"
+        ],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Khadija, Aya",
+        "short_name": "Khadija A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Ghnaim, Aya",
+        "short_name": "Ghnaim A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Zohud, Osayd",
+        "short_name": "Zohud O",
+        "identifiers": [
+          "0000-0003-3530-1420"
+        ],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Nun, Nadav Ben",
+        "short_name": "Nun NB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Nashef, Aysar",
+        "short_name": "Nashef A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, Baruch Padeh Medical Center, Poriya 15208, Israel."
+        ]
+      },
+      {
+        "full_name": "Abu El-Naaj, Imad",
+        "short_name": "Abu El-Naaj I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Surgery, Baruch Padeh Medical Center, Poriya 15208, Israel."
+        ]
+      },
+      {
+        "full_name": "Iraqi, Fuad A",
+        "short_name": "Iraqi FA",
+        "identifiers": [
+          "0000-0001-5525-206X"
+        ],
+        "affiliations": [
+          "Department of Clinical Microbiology and Immunology, Sackler Faculty of Medicine, Tel-Aviv University, Tel Aviv 69978, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Nov 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/25 12:43",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42653258",
+      "42226435",
+      "39941462",
+      "39468690",
+      "39223280"
+    ],
+    "refs": [
+      "37888076",
+      "37568550",
+      "37176653",
+      "37175908",
+      "37026700",
+      "36915676",
+      "36768894",
+      "36757430",
+      "35113203",
+      "34426171",
+      "34155540",
+      "31916354",
+      "30459809",
+      "30202086",
+      "30143822",
+      "29954056",
+      "27918777",
+      "25291291",
+      "25291134",
+      "25273035",
+      "25129328",
+      "24607261",
+      "23529041",
+      "22832961",
+      "21921910",
+      "21723505",
+      "21493779",
+      "21406540",
+      "21270259",
+      "20012971",
+      "19755644",
+      "19619413",
+      "19079260",
+      "18716833",
+      "18182103",
+      "17369830",
+      "17349581",
+      "17246610",
+      "17114584",
+      "16849541",
+      "16767220",
+      "15514660",
+      "12540591",
+      "11406701",
+      "10907076",
+      "9753318",
+      "9506519",
+      "8553070",
+      "3923690"
+    ],
+    "similar": [
+      "38003328",
+      "37175908",
+      "34100468",
+      "33738434",
+      "36735601",
+      "30143822",
+      "37026700",
+      "35838135",
+      "26896154",
+      "32613174",
+      "26728312",
+      "26548763",
+      "33720343",
+      "33143653",
+      "33039581",
+      "21427413",
+      "22345608",
+      "32852103",
+      "28592495",
+      "36321557",
+      "31772048",
+      "32060626",
+      "23937452",
+      "9797472",
+      "19564876",
+      "24503698",
+      "12856282",
+      "26921172",
+      "28592496",
+      "36757430",
+      "27752753",
+      "37448168",
+      "24445421",
+      "38356021",
+      "32006557",
+      "25502579",
+      "24692188",
+      "11697792",
+      "26092713",
+      "24503641",
+      "22548652",
+      "27807798",
+      "36066328",
+      "15448104",
+      "36759760",
+      "33818129",
+      "12621514",
+      "25127133",
+      "35816602",
+      "31694939",
+      "32127447",
+      "26889940",
+      "31756057",
+      "37233614",
+      "30914424",
+      "36717164",
+      "17277741",
+      "24531913",
+      "22662224",
+      "28592645",
+      "31305969",
+      "26447010",
+      "12209194",
+      "18984673",
+      "30877080",
+      "8575666",
+      "25123127",
+      "33643372",
+      "27604858",
+      "30858237",
+      "27820152",
+      "12127777",
+      "21037592",
+      "9657845",
+      "35481286",
+      "29750602",
+      "12595920",
+      "16912068",
+      "25283706",
+      "30777014",
+      "28523955",
+      "25398139",
+      "19282822",
+      "28177346",
+      "30891567",
+      "21493779",
+      "17160105",
+      "12727230",
+      "21921961",
+      "27933544",
+      "19293329",
+      "29703142",
+      "12855751",
+      "23468633",
+      "15472465",
+      "31773089",
+      "30854227",
+      "36212994"
+    ],
+    "review": [
+      "38003328",
+      "30143822",
+      "36321557",
+      "25123127",
+      "12127777",
+      "21037592"
+    ],
+    "pmc": [
+      "10671513"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms242216136",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/obesity.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Obesity"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/38003328",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38003328/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38003328",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1268",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

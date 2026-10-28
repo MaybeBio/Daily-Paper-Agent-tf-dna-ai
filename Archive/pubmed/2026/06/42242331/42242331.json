@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42242331",
+    "doi": "10.1016/j.gene.2026.150259",
+    "title": "Single-cell-based analysis establishes C1QA-mediated promotion of high glucose-induced tubular epithelial injury via ERS in DN."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic nephropathy (DN) poses a growing worldwide health challenge as a leading cause of end-stage renal disease, a condition that arises from a complex, poorly defined pathophysiology. Endoplasmic reticulum stress (ERS) is recognized as a pivotal contributor to renal cell injury in DN. While complement component C1q A chain (C1QA) is integral to innate immunity, its specific role and mechanism in DN, particularly in relation to ERS, remain unexplored. METHODS: Differentially expressed genes (DEGs) were identified from GEO datasets (GSE30122 and GSE142025), and were intersected with an ERS-related gene set to screen potential ERS-associated hub genes in DN. Core genes were determined via protein-protein interaction (PPI) network analysis, machine learning (LASSO regression), and validation in independent datasets. Immune infiltration was analyzed using the CIBERSORT algorithm, and the cellular localization of C1QA was clarified by single-cell transcriptomic data (SCDS0000122). Finally, in high glucose (HG)-induced human renal tubular epithelial cells (HK-2), cell viability, proliferation, apoptosis, and the expression of key ERS proteins (CHOP, XBP1s, and ATF6) were evaluated using CCK-8, EdU, flow cytometry, and Western blot assays. RESULTS: Bioinformatics screening identified 79 ERS-related DEGs in DN, with C1QA emerging as a central hub gene. C1QA expression was consistently and significantly upregulated in renal tissues from multiple DN cohorts and demonstrated high diagnostic value (AUC: 0.832-0.930). Immune infiltration analysis revealed significant correlations between C1QA levels and specific immune subsets. Single-cell analysis confirmed predominant C1QA expression in renal tubular epithelial cells. In vitro, HG treatment robustly induced C1QA expression. Importantly, silencing C1QA attenuated HG-induced suppression of proliferation and reduced apoptosis, concurrently downregulating the expression of ERS effector proteins. CONCLUSION: C1QA is upregulated in renal tubular epithelial cells in DN and promotes HG-induced cellular injury by potentiating ERS. These findings nominate C1QA as a novel contributor to DN pathogenesis and a potential candidate for diagnostic and therapeutic targeting.",
+    "keywords": [
+      "Bioinformatics",
+      "Complement C1q A chain",
+      "Diabetic nephropathy",
+      "Endoplasmic reticulum stress",
+      "Epithelial cells",
+      "Renal tubular epithelial cell injury"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glucose/metabolism",
+      "*Diabetic Nephropathies/genetics/metabolism/pathology",
+      "Epithelial Cells/metabolism/pathology/drug effects",
+      "*Complement C1q/genetics/metabolism",
+      "Apoptosis",
+      "*Kidney Tubules/metabolism/pathology",
+      "*Endoplasmic Reticulum Stress/genetics",
+      "Cell Line",
+      "Single-Cell Analysis/methods",
+      "Cell Proliferation",
+      "Protein Interaction Maps",
+      "Transcription Factor CHOP/genetics/metabolism",
+      "X-Box Binding Protein 1/genetics/metabolism",
+      "Single-Cell Gene Expression Analysis",
+      "Cell Survival",
+      "Activating Transcription Factor 6"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaoying",
+        "Li, Lei",
+        "Zhang, Fengjiao",
+        "Zhu, Menglu",
+        "Kang, Zhiqiang",
+        "Mao, Yu"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Li L",
+        "Zhang F",
+        "Zhu M",
+        "Kang Z",
+        "Mao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China.",
+        "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China.",
+        "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China.",
+        "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China.",
+        "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China. Electronic address: zxy11693371@163.com.",
+        "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China. Electronic address: zzxy11693371@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaoying",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lei",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fengjiao",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Menglu",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Zhiqiang",
+        "short_name": "Kang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China. Electronic address: zxy11693371@163.com."
+        ]
+      },
+      {
+        "full_name": "Mao, Yu",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Zhengzhou University Affiliated Zhengzhou Central Hospital, Zhengzhou 450000, Henan, China. Electronic address: zzxy11693371@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gene"
+    ],
+    "journal_abbrev": [
+      "Gene"
+    ],
+    "pub_date": "2026 Oct 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 00:35",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42242331",
+      "41382249",
+      "38878099",
+      "40865719",
+      "41479901",
+      "31199999",
+      "39630345",
+      "29031207",
+      "35291991",
+      "39920798",
+      "36916341",
+      "42161877",
+      "41569454",
+      "34145485",
+      "40775242",
+      "29233968",
+      "39904045",
+      "34898373",
+      "32073611",
+      "34097717",
+      "34482798",
+      "42107160",
+      "39265357",
+      "32950473",
+      "38851464",
+      "40948769",
+      "40778749",
+      "35813614",
+      "41483360",
+      "39187837",
+      "32798559",
+      "34062006",
+      "40350915",
+      "30396095",
+      "38772213",
+      "30119185",
+      "40939011",
+      "38972889",
+      "41643264",
+      "37224754",
+      "40658167",
+      "41110296",
+      "41385947",
+      "33125105",
+      "27467277",
+      "30034224",
+      "18776125",
+      "40742465",
+      "41133730",
+      "38734758",
+      "41386389",
+      "41105249",
+      "39251943",
+      "38691241",
+      "39798073",
+      "33043405",
+      "42147815",
+      "40641111",
+      "34532814",
+      "38626544",
+      "29806072",
+      "39752106",
+      "39395579",
+      "40834279",
+      "25573030",
+      "40374840",
+      "41120011",
+      "39653091",
+      "40669859",
+      "37745718",
+      "35392987",
+      "25332219",
+      "29206200",
+      "35038704",
+      "41401562",
+      "41930872",
+      "37770579",
+      "32391974",
+      "33315506",
+      "26552447",
+      "31309931",
+      "39284931",
+      "34932275",
+      "36056793",
+      "35857174",
+      "32200292",
+      "38725104",
+      "29288897",
+      "40045860",
+      "32733443",
+      "36732854",
+      "32933345",
+      "35506187",
+      "38951833",
+      "40243723",
+      "39991769",
+      "40211809",
+      "41978270",
+      "40086061",
+      "34124269"
+    ],
+    "review": [
+      "42242331"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-1119(26)00269-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DDIT3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3638",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

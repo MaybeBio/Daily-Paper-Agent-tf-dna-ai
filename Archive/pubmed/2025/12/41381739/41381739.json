@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "41381739",
+    "doi": "10.1038/s41598-025-30462-y",
+    "title": "In silico functional, structural, and pathogenicity assessment of single nucleotide polymorphisms in the human SOX9 gene."
+  },
+  "content": {
+    "abstract": "Single-nucleotide polymorphisms (SNPs) play a crucial role in the genetic basis of various human diseases and have the potential to serve as valuable biomarkers for disease prediction and personalized treatment. SNPs alter the genetic sequence that produce muted gene and subsequently mutated gene encode altered amino acid residues that can produce the misfolded protein. The SRY-box transcription factor 9, also known as SOX9, is a key determinant for cell growth and has a significant impact on the development of breast cancer. The molecular mechanisms by which missense SNPs in SOX9 influence the Wnt/beta-catenin signalling pathway and contribute to tumour development in SOX9 members remain poorly understood and require further elucidation. Therefore, various computational methods based on sequence and structure were employed to investigate how mutations affect the SOX9 protein. We identified 5,029 SNPs in the SOX9 gene, of which 1,158 were missense (23.03%), 494 were synonymous (9.82%), and 3,377 were intronic (67.15%). SIFT analysis predicted that nine mutations were deleterious. Seven of these missense SNPs (D85H, F154L, A158T, H165Y, K173E, D441N, and G457D) were found to be damaging, potentially harmful, effective, disease-related, and highly deleterious. A high-risk mutation D85H located within the SOX9 DNA-binding HMG box domain PF00505 suggests a potential role in disease causation. Further, molecular dynamics (MD) simulation revealed variations in RMSD and RMSF values, with higher rGyr and hydrogen bond counts in the mutant protein compared to the wild-type, indicating that the mutation might alter protein structure and stability. Finally, PCA, DCCM, and FEL analyses of SOX9 apo protein and mutated D85H provided detailed insights into primary movements, internal motions, energy landscapes, and structural flexibility. Overall, these findings highlight pathways for further investigation into how missense SNPs in the SOX9 gene modify protein structure and function, potentially aiding in strategies to mitigate the negative consequences of these mutations in humans.",
+    "keywords": [
+      "And FEL",
+      "DCCM",
+      "Deleterious SNPs",
+      "MD simulation",
+      "PCA",
+      "Pathogenicity prediction"
+    ],
+    "mesh_terms": [
+      "*SOX9 Transcription Factor/genetics/chemistry/metabolism",
+      "Humans",
+      "*Polymorphism, Single Nucleotide",
+      "Mutation, Missense",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shadhin, Md Saklain Tanver",
+        "Mia, Md Sohel",
+        "Das Topu, Tomal Krishno",
+        "Tanmoy, Md Shahed Imam",
+        "Aktar, Shoab",
+        "Sultana, Jannat",
+        "Hossen, Faisul",
+        "Pranto, Abdur Rahman",
+        "Tahsin, Nowmee",
+        "Shahir, Nafis Fuad",
+        "Talukder, Md Enamul Kabir"
+      ],
+      "short_names": [
+        "Shadhin MST",
+        "Mia MS",
+        "Das Topu TK",
+        "Tanmoy MSI",
+        "Aktar S",
+        "Sultana J",
+        "Hossen F",
+        "Pranto AR",
+        "Tahsin N",
+        "Shahir NF",
+        "Talukder MEK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+        "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh. talukder.mek@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shadhin, Md Saklain Tanver",
+        "short_name": "Shadhin MST",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mia, Md Sohel",
+        "short_name": "Mia MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Das Topu, Tomal Krishno",
+        "short_name": "Das Topu TK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tanmoy, Md Shahed Imam",
+        "short_name": "Tanmoy MSI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Aktar, Shoab",
+        "short_name": "Aktar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sultana, Jannat",
+        "short_name": "Sultana J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossen, Faisul",
+        "short_name": "Hossen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Pranto, Abdur Rahman",
+        "short_name": "Pranto AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Tahsin, Nowmee",
+        "short_name": "Tahsin N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition and Food Technology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Shahir, Nafis Fuad",
+        "short_name": "Shahir NF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh.",
+          "Laboratory of Computational Biology, Biological Solution Centre (BioSol Centre), Jashore, 7408, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Talukder, Md Enamul Kabir",
+        "short_name": "Talukder MEK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh. talukder.mek@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/12 03:29",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [
+      "41796129",
+      "41746965",
+      "41735885"
+    ],
+    "refs": [
+      "40240356",
+      "40141294",
+      "40054022",
+      "39827212",
+      "39487761",
+      "38773180",
+      "38523677",
+      "37790109",
+      "37491298",
+      "36743039",
+      "36671447",
+      "36370105",
+      "36037214",
+      "35776277",
+      "35620275",
+      "35494115",
+      "35275927",
+      "35205666",
+      "34662260",
+      "34132772",
+      "33957202",
+      "33318478",
+      "32734663",
+      "32380234",
+      "32143568",
+      "31941916",
+      "31921809",
+      "31911091",
+      "31732751",
+      "31600529",
+      "31060551",
+      "30914279",
+      "30813897",
+      "30768902",
+      "30677042",
+      "29540703",
+      "29458047",
+      "29407503",
+      "28482034",
+      "28296894",
+      "28118628",
+      "27935949",
+      "27569216",
+      "27457505",
+      "27328324",
+      "27043282",
+      "26841357",
+      "25950237",
+      "25794154",
+      "25685828",
+      "25340806",
+      "23819482",
+      "23794635",
+      "23315928",
+      "23306204",
+      "22689647",
+      "21593128",
+      "20478830",
+      "20404928",
+      "20005972",
+      "19854293",
+      "19264523",
+      "19019766",
+      "17727703",
+      "17526529",
+      "17409199",
+      "17264118",
+      "15980478",
+      "12837698",
+      "12824316",
+      "12414734",
+      "10980415",
+      "10446171",
+      "9755172"
+    ],
+    "similar": [
+      "41381739",
+      "38773180",
+      "39854591",
+      "38858637",
+      "38062275",
+      "37173831",
+      "28770488",
+      "24817641",
+      "11323423",
+      "40375073",
+      "24578721",
+      "40892789",
+      "34380365",
+      "39715225",
+      "12920151",
+      "38656135",
+      "37286379",
+      "32867672",
+      "34971346",
+      "38994097",
+      "40949796",
+      "28388287",
+      "40571049",
+      "23561625",
+      "35776277",
+      "36764830",
+      "36139147",
+      "40149454",
+      "37921712",
+      "39819897",
+      "38646326",
+      "30802828",
+      "30884445",
+      "40892044",
+      "33066695",
+      "24378235",
+      "26880065",
+      "36813059",
+      "23056176",
+      "40576883",
+      "34793541",
+      "39856236",
+      "39979869",
+      "39854231",
+      "40847033",
+      "38283900",
+      "37552904",
+      "22028795",
+      "39589570",
+      "32519210",
+      "34917776",
+      "36056132",
+      "40370698",
+      "39562776",
+      "36812296",
+      "20625407",
+      "38191899",
+      "38623065",
+      "34827731",
+      "28072499",
+      "40612044",
+      "26800850",
+      "31625460",
+      "39078184",
+      "20484372",
+      "31054541",
+      "23741632",
+      "35261335",
+      "35260606",
+      "40826431",
+      "28587604",
+      "40562136",
+      "35655118",
+      "41401744",
+      "21412441",
+      "19429541",
+      "39797402",
+      "29048999",
+      "21849498",
+      "34234628",
+      "40074423",
+      "41028104",
+      "25054154",
+      "35944036",
+      "22866542",
+      "22684231",
+      "27152669",
+      "32787631",
+      "30067310",
+      "31272062",
+      "36995171",
+      "40493574",
+      "32819225",
+      "41277739",
+      "31237021",
+      "36544314",
+      "12810722",
+      "28272408",
+      "39041636",
+      "27532129"
+    ],
+    "review": [
+      "41381739",
+      "12920151"
+    ],
+    "pmc": [
+      "12783096"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-30462-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41381739/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

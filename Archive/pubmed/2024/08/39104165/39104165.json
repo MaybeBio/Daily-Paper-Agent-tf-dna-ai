@@ -1,0 +1,440 @@
+{
+  "identity": {
+    "pmid": "39104165",
+    "doi": "10.4103/NRR.NRR-D-24-00037",
+    "title": "Machine learning identifies key cells and therapeutic targets during ferroptosis after spinal cord injury."
+  },
+  "content": {
+    "abstract": "JOURNAL/nrgr/04.03/01300535-202606000-00064/figure1/v/2026-02-11T151048Z/r/image-tiff Ferroptosis, a type of cell death that mainly involves iron metabolism imbalance and lipid peroxidation, is strongly correlated with the phagocytic response caused by bleeding after spinal cord injury. Thus, in this study, bulk RNA sequencing data (GSE47681 and GSE5296) and single-cell RNA sequencing data (GSE162610) were acquired from gene expression databases. We then conducted differential analysis and immune infiltration analysis. Atf3 and Piezo1 were identified as key ferroptosis genes through random forest and least absolute shrinkage and selection operator algorithms. Further analysis of single-cell RNA sequencing data revealed a close relationship between ferroptosis and cell types such as macrophages/microglia and their intrinsic state transition processes. Differences in transcription factor regulation and intercellular communication networks were found in ferroptosis-related cells, confirming the high expression of Atf3 and Piezo1 in these cells. Molecular docking analysis confirmed that the proteins encoded by these genes can bind cycloheximide. In a mouse model of T8 spinal cord injury, low-dose cycloheximide treatment was found to improve neurological function, decrease levels of the pro-inflammatory cytokine inducible nitric oxide synthase, and increase levels of the anti-inflammatory cytokine arginase 1. Correspondingly, the expression of the ferroptosis-related gene Gpx4 increased in macrophages/microglia, while the expression of Acsl4 decreased. Our findings reveal the important role of ferroptosis in the treatment of spinal cord injury, identify the key cell types and genes involved in ferroptosis after spinal cord injury, and validate the efficacy of potential drug therapies, pointing to new directions in the treatment of spinal cord injury.",
+    "keywords": [
+      "RNA velocity analysis",
+      "bioinformatic analyses",
+      "bulk-RNA sequencing",
+      "cellular communication analysis",
+      "ferroptosis",
+      "machine learning analysis",
+      "neurological function",
+      "single-cell RNA sequencing",
+      "therapeutic drugs",
+      "transcription factor analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lv, Yigang",
+        "Li, Zhen",
+        "Shi, Lusen",
+        "Jian, Huan",
+        "Yang, Fan",
+        "Qiu, Jichuan",
+        "Li, Chao",
+        "Xiao, Peng",
+        "Ruan, Wendong",
+        "Li, Hao",
+        "Li, Xueying",
+        "Feng, Shiqing",
+        "Zhou, Hengxing"
+      ],
+      "short_names": [
+        "Lv Y",
+        "Li Z",
+        "Shi L",
+        "Jian H",
+        "Yang F",
+        "Qiu J",
+        "Li C",
+        "Xiao P",
+        "Ruan W",
+        "Li H",
+        "Li X",
+        "Feng S",
+        "Zhou H"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-7589-8499",
+        "ORCID: 0000-0001-9437-7674",
+        "ORCID: 0000-0003-0053-8970"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Key Laboratory Experimental Teratology of the Ministry of Education and Department of Physiology and Pathophysiology, School of Basic Medical Sciences, Shandong University, Jinan, Shandong Province, China.",
+        "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "State Key Laboratory of Crystal Materials, Shandong University, Jinan, Shandong Province, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Key Laboratory Experimental Teratology of the Ministry of Education, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Department of Orthopedics, The Second Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+        "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+        "Center for Reproductive Medicine, Shandong University, Jinan, Shandong Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lv, Yigang",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhen",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Lusen",
+        "short_name": "Shi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Huan",
+        "short_name": "Jian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fan",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory Experimental Teratology of the Ministry of Education and Department of Physiology and Pathophysiology, School of Basic Medical Sciences, Shandong University, Jinan, Shandong Province, China.",
+          "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Jichuan",
+        "short_name": "Qiu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crystal Materials, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Peng",
+        "short_name": "Xiao P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory Experimental Teratology of the Ministry of Education, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Wendong",
+        "short_name": "Ruan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xueying",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0008-7589-8499"
+        ],
+        "affiliations": [
+          "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Shiqing",
+        "short_name": "Feng S",
+        "identifiers": [
+          "0000-0001-9437-7674"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+          "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+          "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+          "Department of Orthopedics, The Second Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hengxing",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0003-0053-8970"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, International Science and Technology Cooperation Base of Spinal Cord Injury, Tianjin Key Laboratory of Spine and Spinal Cord, Tianjin, China.",
+          "Department of Orthopedics, Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+          "Shandong University Center for Orthopedics, Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, Shandong Province, China.",
+          "Center for Reproductive Medicine, Shandong University, Jinan, Shandong Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neural regeneration research"
+    ],
+    "journal_abbrev": [
+      "Neural Regen Res"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/06 06:43",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42519304",
+      "42466318",
+      "42092129",
+      "41789063",
+      "40725213",
+      "39841686"
+    ],
+    "refs": [
+      "38051901",
+      "37697399",
+      "37620352",
+      "37532969",
+      "36105219",
+      "35987429",
+      "35903552",
+      "35756929",
+      "35429990",
+      "35232960",
+      "35186185",
+      "34938604",
+      "34934331",
+      "34876174",
+      "34764492",
+      "34422826",
+      "34343528",
+      "34216539",
+      "34132743",
+      "34098867",
+      "33815881",
+      "33597522",
+      "33571427",
+      "33364059",
+      "33314758",
+      "32985488",
+      "32663219",
+      "32601262",
+      "32144268",
+      "31641008",
+      "31105042",
+      "31060306",
+      "30863316",
+      "30804258",
+      "30539824",
+      "30531185",
+      "30404000",
+      "29871522",
+      "29295871",
+      "28985560",
+      "28801314",
+      "28447605",
+      "28425480",
+      "28212525",
+      "27842070",
+      "27189756",
+      "25651887",
+      "23884949",
+      "22930834",
+      "22632970",
+      "22006324",
+      "20813920",
+      "20808728",
+      "17618967",
+      "16778395",
+      "16614525",
+      "16547004",
+      "11844532"
+    ],
+    "similar": [
+      "39104165",
+      "36742334",
+      "41975603",
+      "41425595",
+      "40145972",
+      "42464547",
+      "37726826",
+      "39799354",
+      "41673791",
+      "39218784",
+      "39101644",
+      "42320701",
+      "39586719",
+      "41508240",
+      "38595290",
+      "42072050",
+      "41436831",
+      "42519304",
+      "41205031",
+      "41550926",
+      "39610106",
+      "42435052",
+      "40948782",
+      "41000385",
+      "40166636",
+      "39735537",
+      "39722371",
+      "40687151",
+      "41659855",
+      "37282480",
+      "42530267",
+      "40162052",
+      "38885819",
+      "42236612",
+      "42099634",
+      "41908043",
+      "41312366",
+      "40967560",
+      "40362543",
+      "40124361",
+      "42004467",
+      "39923303",
+      "41151658",
+      "38993124",
+      "39929099",
+      "41246346",
+      "42565568",
+      "36204858",
+      "38227534",
+      "39959647",
+      "41975604",
+      "42166074",
+      "40326988",
+      "42391245",
+      "41810912",
+      "39793853",
+      "40830558",
+      "42361107",
+      "39217701",
+      "41388523",
+      "41046987",
+      "41444617",
+      "36937665",
+      "41591671",
+      "40859550",
+      "42025819",
+      "40682067",
+      "41891961",
+      "42199129",
+      "42471019",
+      "41299485",
+      "41619156",
+      "39814871",
+      "41902571",
+      "41186509",
+      "41006377",
+      "38827468",
+      "41782555",
+      "40832057",
+      "41106221",
+      "42120472",
+      "37752199",
+      "40745616",
+      "42580240",
+      "34783309",
+      "41257259",
+      "36483809",
+      "39995266",
+      "40914702",
+      "40421217",
+      "35843476",
+      "42469985",
+      "41733593",
+      "41107929",
+      "42292668",
+      "40612574",
+      "40663577",
+      "39888480",
+      "38650009",
+      "40913206"
+    ],
+    "review": [
+      "39104165"
+    ],
+    "pmc": [
+      "13211781"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39104165.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39104165/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ARG1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1755",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.4103/NRR.NRR-D-24-00037",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

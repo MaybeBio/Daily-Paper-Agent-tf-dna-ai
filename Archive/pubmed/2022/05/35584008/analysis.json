@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35584008",
+  "title": "RegulonDB 11.0: Comprehensive high-throughput datasets on transcriptional regulation in Escherichia coli K-12.",
+  "authors": "Tierrafria, Victor H; Rioualen, Claire; Salgado, Heladia; Lara, Paloma; Gama-Castro, Socorro; Lally, Patrick; Gomez-Romero, Laura; Pena-Loredo, Pablo; Lopez-Almazo, Andres G; Alarcon-Carranza, Gabriel; Betancourt-Figueroa, Felipe; Alquicira-Hernandez, Shirley; Polanco-Morelos, J Enrique; Garcia-Sotelo, Jair; Gaytan-Nunez, Estefani; Mendez-Cruz, Carlos-Francisco; Muniz, Luis J; Bonavides-Martinez, Cesar; Moreno-Hagelsieb, Gabriel; Galagan, James E; Wade, Joseph T; Collado-Vides, Julio",
+  "journal": "Microbial genomics",
+  "published_date": "2022-05-19",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍RegulonDB 11.0数据库，整合大肠杆菌转录调控的高通量数据集（ChIP-seq、gSELEX等），虽涉及TF-DNA结合数据但以数据资源为主，无AI/物理模拟建模方法，属广义蛋白-DNA互作资源，对本课题有数据参考价值。",
+  "abstract": "Genomics has set the basis for a variety of methodologies that produce high-throughput datasets identifying the different players that define gene regulation, particularly regulation of transcription initiation and operon organization. These datasets are available in public repositories, such as the Gene Expression Omnibus, or ArrayExpress. However, accessing and navigating such a wealth of data is not straightforward. No resource currently exists that offers all available high and low-throughput data on transcriptional regulation in Escherichia coli K-12 to easily use both as whole datasets, or as individual interactions and regulatory elements. RegulonDB (https://regulondb.ccg.unam.mx) began gathering high-throughput dataset collections in 2009, starting with transcription start sites, then adding ChIP-seq and gSELEX in 2012, with up to 99 different experimental high-throughput datasets available in 2019. In this paper we present a radical upgrade to more than 2000 high-throughput datasets, processed to facilitate their comparison, introducing up-to-date collections of transcription termination sites, transcription units, as well as transcription factor binding interactions derived from ChIP-seq, ChIP-exo, gSELEX and DAP-seq experiments, besides expression profiles derived from RNA-seq experiments. For ChIP-seq experiments we offer both the data as presented by the authors, as well as data uniformly processed in-house, enhancing their comparability, as well as the traceability of the methods and reproducibility of the results. Furthermore, we have expanded the tools available for browsing and visualization across and within datasets. We include comparisons against previously existing knowledge in RegulonDB from classic experiments, a nucleotide-resolution genome viewer, and an interface that enables users to browse datasets by querying their metadata. A particular effort was made to automatically extract detailed experimental growth conditions by implementing an assisted curation strategy applying Natural language processing and machine learning. We provide summaries with the total number of interactions found in each experiment, as well as tools to identify common results among different experiments. This is a long-awaited resource to make use of such wealth of knowledge and advance our understanding of the biology of the model bacterium E. coli K-12.",
+  "abstract_zh": "基因组学为多种方法奠定了基础，这些方法产生高通量数据集，用于识别定义基因调控（特别是转录起始调控和操纵子组织）的不同参与者。这些数据集可在公共存储库中获取，如基因表达综合库（Gene Expression Omnibus）或ArrayExpress。然而，访问和浏览如此丰富的数据并非易事。目前尚无资源能提供大肠杆菌K-12中所有可用的高和低通量转录调控数据，以便轻松地将它们作为整体数据集或作为单个相互作用和调控元件使用。RegulonDB（https://regulondb.ccg.unam.mx）自2009年开始收集高通量数据集，最初从转录起始位点开始，随后在2012年加入ChIP-seq和gSELEX，到2019年已拥有多达99个不同的实验性高通量数据集。在本文中，我们展示了一次彻底升级，涵盖超过2000个高通量数据集，这些数据经过处理以促进其比较，引入了最新的转录终止位点、转录单元集合，以及源自ChIP-seq、ChIP-exo、gSELEX和DAP-seq实验的转录因子结合相互作用，此外还有源自RNA-seq实验的表达谱。对于ChIP-seq实验，我们既提供作者呈现的原始数据，也提供内部统一处理的数据，以增强其可比性，以及方法的可追溯性和结果的可重复性。此外，我们扩展了用于数据集内部和跨数据集浏览及可视化的工具。我们包括与RegulonDB中先前经典实验知识的比较、一个核苷酸分辨率的基因组查看器，以及一个允许用户通过查询元数据来浏览数据集的界面。我们特别努力通过实施辅助策展策略，应用自然语言处理和机器学习，自动提取详细的实验生长条件。我们提供每个实验中发现的总相互作用数量的摘要，以及识别不同实验间共同结果的工具。这是一个期待已久的资源，旨在利用如此丰富的知识，并推进我们对模式细菌大肠杆菌K-12生物学的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35584008/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35584008/",
+  "paper_page_path": "papers/pubmed/35584008/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.06.487274",
+  "title": "Enhanced compound-protein binding affinity prediction by representing protein multimodal information via a coevolutionary strategy",
+  "authors": "Binjie Guo; Hanyu Zheng; Haohan Jiang; Xiaodan Li; Naiyu Guan; Yanming Zuo; Yicheng Zhang; Hengfu Yang; Xuhua Wang",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-08",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用共进化策略融合蛋白序列与结构信息预测化合物-蛋白结合亲和力，虽涉及蛋白结构建模与AI方法，但对象为小分子-蛋白而非蛋白质-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Due to the lack of a method to efficiently represent the multimodal information of a protein, including its structure and sequence information, predicting compound-protein binding affinity (CPA) still suffers from low accuracy when applying machine learning methods. To overcome this limitation, in a novel end-to-end architecture (named FeatNN), we develop a coevolutionary strategy to jointly represent the structure and sequence features of proteins and ultimately optimize the mathematical models for predicting CPA. Furthermore, from the perspective of data-driven approach, we proposed a rational method that can utilize both high- and low-quality databases to optimize the accuracy and generalization ability of FeatNN in CPA prediction tasks. Notably, we visually interpret the feature interaction process between sequence and structure in the rationally designed architecture. As a result, FeatNN considerably outperforms the state-of-the-art (SOTA) baseline in virtual drug screening tasks, indicating the feasibility of this approach for practical use. FeatNN provides an outstanding method for higher CPA prediction accuracy and better generalization ability by efficiently representing multimodal information of proteins via a coevolutionary strategy.",
+  "abstract_zh": "由于缺乏高效表示蛋白质多模态信息（包括其结构和序列信息）的方法，应用机器学习方法预测化合物-蛋白质结合亲和力（CPA）时仍面临准确率低的问题。为克服这一局限，我们提出了一种新颖的端到端架构（命名为FeatNN），开发了一种协同进化策略，以联合表示蛋白质的结构和序列特征，并最终优化用于预测CPA的数学模型。此外，从数据驱动方法的角度，我们提出了一种合理的方法，能够利用高质量和低质量数据库来优化FeatNN在CPA预测任务中的准确性和泛化能力。值得注意的是，我们通过可视化方式解释了合理设计架构中序列与结构之间的特征交互过程。结果表明，FeatNN在虚拟药物筛选任务中显著优于最先进的（SOTA）基线，表明该方法在实际应用中具有可行性。FeatNN通过协同进化策略高效表示蛋白质的多模态信息，为更高的CPA预测准确性和更好的泛化能力提供了一种卓越方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.06.487274",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.06.487274",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.06.487274/index.html"
+}

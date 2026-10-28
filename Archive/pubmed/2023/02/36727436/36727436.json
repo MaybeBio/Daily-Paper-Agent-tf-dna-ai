@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "36727436",
+    "doi": "10.1093/nar/gkad013",
+    "title": "Structural predictions of protein-DNA binding: MELD-DNA."
+  },
+  "content": {
+    "abstract": "Structural, regulatory and enzymatic proteins interact with DNA to maintain a healthy and functional genome. Yet, our structural understanding of how proteins interact with DNA is limited. We present MELD-DNA, a novel computational approach to predict the structures of protein-DNA complexes. The method combines molecular dynamics simulations with general knowledge or experimental information through Bayesian inference. The physical model is sensitive to sequence-dependent properties and conformational changes required for binding, while information accelerates sampling of bound conformations. MELD-DNA can: (i) sample multiple binding modes; (ii) identify the preferred binding mode from the ensembles; and (iii) provide qualitative binding preferences between DNA sequences. We first assess performance on a dataset of 15 protein-DNA complexes and compare it with state-of-the-art methodologies. Furthermore, for three selected complexes, we show sequence dependence effects of binding in MELD predictions. We expect that the results presented herein, together with the freely available software, will impact structural biology (by complementing DNA structural databases) and molecular recognition (by bringing new insights into aspects governing protein-DNA interactions).",
+    "keywords": [],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "Computational Biology/methods",
+      "*DNA/chemistry",
+      "Protein Binding",
+      "Protein Conformation",
+      "Proteins/chemistry",
+      "*Software",
+      "*DNA-Binding Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Esmaeeli, Reza",
+        "Bauza, Antonio",
+        "Perez, Alberto"
+      ],
+      "short_names": [
+        "Esmaeeli R",
+        "Bauza A",
+        "Perez A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8679-4267",
+        "ORCID: 0000-0002-5793-781X",
+        "ORCID: 0000-0002-5054-5338"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Quantum theory project, University of Florida, Gainesville, FL 32611, USA.",
+        "Department of Chemistry, Universitat de les Illes Balears, Palma de Mallorca (Baleares), 07122, Spain.",
+        "Department of Chemistry, Quantum theory project, University of Florida, Gainesville, FL 32611, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Esmaeeli, Reza",
+        "short_name": "Esmaeeli R",
+        "identifiers": [
+          "0000-0001-8679-4267"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Quantum theory project, University of Florida, Gainesville, FL 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Bauzá, Antonio",
+        "short_name": "Bauzá A",
+        "identifiers": [
+          "0000-0002-5793-781X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Universitat de les Illes Balears, Palma de Mallorca (Baleares), 07122, Spain."
+        ]
+      },
+      {
+        "full_name": "Perez, Alberto",
+        "short_name": "Perez A",
+        "identifiers": [
+          "0000-0002-5054-5338"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Quantum theory project, University of Florida, Gainesville, FL 32611, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Feb 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/03 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "42377576",
+      "41975608",
+      "41495882",
+      "41003729",
+      "40731031",
+      "40536257",
+      "40452401",
+      "40338866",
+      "40161705",
+      "39893583",
+      "39576589",
+      "39554421",
+      "39244557",
+      "39103447",
+      "38349057",
+      "38130056",
+      "38003510"
+    ],
+    "refs": [
+      "37996753",
+      "36018808",
+      "35978548",
+      "35930769",
+      "34395534",
+      "34265844",
+      "33163946",
+      "32910647",
+      "32738045",
+      "32734663",
+      "32599506",
+      "32543861",
+      "32324992",
+      "32088376",
+      "31992738",
+      "31713622",
+      "31632986",
+      "31612567",
+      "31441121",
+      "30962376",
+      "29547695",
+      "29472273",
+      "29425488",
+      "29125747",
+      "28973439",
+      "28961686",
+      "28471184",
+      "28167566",
+      "28042966",
+      "28042965",
+      "27288446",
+      "27171127",
+      "26575892",
+      "26574454",
+      "26574453",
+      "26569599",
+      "26432245",
+      "26410586",
+      "26370248",
+      "26351667",
+      "26038552",
+      "25788871",
+      "25625324",
+      "25502467",
+      "24996253",
+      "24185695",
+      "24128758",
+      "23316124",
+      "23264757",
+      "22955616",
+      "21835777",
+      "21737424",
+      "21534921",
+      "20466807",
+      "20338202",
+      "20334529",
+      "19865164",
+      "19045004",
+      "18583363",
+      "18237194",
+      "17351000",
+      "16981200",
+      "16940322",
+      "16236314",
+      "15520816",
+      "15264254",
+      "12784368",
+      "10952992",
+      "10906136",
+      "10669605",
+      "10592235",
+      "10217454",
+      "9705308",
+      "9665136",
+      "9515968",
+      "9303004",
+      "8643494",
+      "7500340",
+      "2038059",
+      "1865905",
+      "1473154"
+    ],
+    "similar": [
+      "36727436",
+      "21787304",
+      "19594872",
+      "18802470",
+      "23912807",
+      "34415020",
+      "30407805",
+      "22618872",
+      "29608705",
+      "31199455",
+      "16246914",
+      "38039424",
+      "15869395",
+      "23788679",
+      "26351667",
+      "15751119",
+      "17918726",
+      "26038552",
+      "16914055",
+      "30933978",
+      "27862345",
+      "21106075",
+      "30557358",
+      "19165315",
+      "22312425",
+      "15720719",
+      "36988562",
+      "17483510",
+      "28315749",
+      "23703214",
+      "23790211",
+      "19439068",
+      "21689482",
+      "29045407",
+      "24564893",
+      "26759067",
+      "29641249",
+      "22796087",
+      "38816696",
+      "18511466",
+      "38869513",
+      "19911048",
+      "17900341",
+      "16712732",
+      "21343182",
+      "27384774",
+      "32142788",
+      "33401765",
+      "29753757",
+      "27387657",
+      "24448651",
+      "29433424",
+      "27940377",
+      "28155662",
+      "25708928",
+      "22868682",
+      "29091991",
+      "31441121",
+      "18922190",
+      "17488838",
+      "39008528",
+      "28968719",
+      "27802576",
+      "11478868",
+      "16790841",
+      "27787828",
+      "21601080",
+      "27294484",
+      "15165850",
+      "16427316",
+      "32946833",
+      "17803215",
+      "32006279",
+      "15725347",
+      "19714207",
+      "34617336",
+      "31510679",
+      "24335080",
+      "19357098",
+      "15673715",
+      "33481784",
+      "19478996",
+      "15189570",
+      "10090291",
+      "38987464",
+      "15731390",
+      "19767616",
+      "31855059",
+      "28150242",
+      "15504402",
+      "29536446",
+      "16568445",
+      "28132027",
+      "31350773",
+      "19594868",
+      "27701777",
+      "29253082",
+      "31396910",
+      "37093848",
+      "19343221",
+      "34056803"
+    ],
+    "review": [
+      "36727436",
+      "15869395",
+      "28315749",
+      "23790211",
+      "22796087",
+      "27940377",
+      "29253082"
+    ],
+    "pmc": [
+      "9976882"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36727436/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36727436",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad013",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

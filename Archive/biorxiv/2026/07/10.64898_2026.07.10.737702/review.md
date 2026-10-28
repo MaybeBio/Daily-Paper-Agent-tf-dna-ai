@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, author contributions, competing interests)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors describe the computational design and experimental validation of mini-19, a de novo mini-protein that binds the CD81 large extracellular loop (LEL) with sub-nanomolar affinity, blocks hepatitis C virus (HCV) entry in cell culture, and acts as a structural clamp that restricts the conformational plasticity of CD81. The authors propose mini-19 as a prophylactic and therapeutic candidate against HCV reinfection and as a platform for targeting tetraspanin-enriched microdomains.
+- **Visible evidence base** Methods sections for computational design, protein expression, SPR, CD spectroscopy, MD simulations, flow cytometry, cell culture, EV isolation, and HCV infection assays. Results sections describing computational design outcomes, biophysical characterization, structural modeling, cellular binding, EV binding, super-resolution imaging, and antiviral efficacy. Figures referenced: EV1, EV2, EV3, EV4, EV5, EV6, EV7, EV8, EV9, EV10, Fig. 1A-C, Fig. 2A-E, Fig. 3A-D, Fig. 4, Fig. 5. Tables referenced: EV1, EV2.
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided. Raw data, structural coordinates, and simulation trajectories are stated to be available upon request but were not included. No information on the sequence of mini-19 or its structural model coordinates is provided. No negative control data for the HCV neutralization assay beyond mini-13 is described. No in vivo data are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a compelling and technically sophisticated approach to designing a CD81-targeting mini-protein as an HCV entry inhibitor. The computational design pipeline is rigorous, and the biophysical characterization is thorough. The key claims of sub-nanomolar affinity, high thermostability, specific cellular and EV binding, and potent HCV neutralization are supported by the described experimental data. However, the absence of the actual figures and tables, the lack of a high-resolution structure of the complex, and the limited functional validation in more physiologically relevant models temper the strength of the conclusions. The mechanistic claim of a "structural clamp" is inferred from MD simulations and requires further experimental support. Overall, this is a promising study with significant potential, but several technical and evidentiary gaps need to be addressed.
+- **Who would be interested in the results, and why** Virologists studying HCV entry and host-pathogen interactions would be directly interested. Researchers in the field of de novo protein design and computational biology would find the design pipeline and its successful application to a challenging membrane protein target of interest. Clinicians and public health researchers focused on HCV prevention, particularly in the context of liver transplantation and high-risk populations, would be interested in the prophylactic potential. Additionally, the broader community studying tetraspanins and extracellular vesicle biology would be interested in the demonstration of targeting CD81 on EVs.
+- **Major strengths** 1. The computational design strategy is state-of-the-art, combining RFdiffusion, ProteinMPNN, and AlphaFold2 with stringent filtering criteria. 2. The biophysical characterization is comprehensive, including SPR kinetics, thermostability, and oligomeric state analysis. 3. The functional validation is multi-layered, spanning biochemical binding, cellular assays, EV binding, and HCV neutralization. 4. The mechanistic hypothesis of a structural clamp is interesting and testable. 5. The potential for a high genetic barrier to resistance by targeting a host factor is a significant conceptual advantage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that mini-19 binds CD81-LEL with sub-nanomolar affinity (KD = 0.5 nM) and neutralizes HCVcc infection with an IC50 of 1.2 nM.
+  - **Evidence pointer** Fig. 1A, Fig. 4, Table EV2 (location not provided)
+  - **Concern** The primary data supporting the central claims of affinity and neutralization potency are not visible. The referenced figures and tables are not included in the provided material. Without the actual sensorgrams, dose-response curves, and statistical analysis, the validity of the reported KD and IC50 values cannot be independently assessed.
+  - **Why it matters** These quantitative parameters are the cornerstone of the manuscript's claims. If the data are not robust or the fits are poor, the entire premise of mini-19 as a high-affinity, potent inhibitor is undermined.
+  - **Resolution test** Provide the actual figures and tables, including raw SPR sensorgrams with fits, full dose-response curves with error bars and replicates, and the statistical parameters of the fits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural validation
+  - **Claim pointer** The manuscript claims that mini-19 acts as a "structural clamp" that restricts the fusogenic conformational plasticity of CD81, based on MD simulations.
+  - **Evidence pointer** Fig. 2D, Fig. 2E, Fig. EV4, Fig. EV5 (location not provided)
+  - **Concern** The "structural clamp" mechanism is a central and novel claim, but it is supported only by in silico MD simulations. No experimental evidence, such as a co-crystal structure, HDX-MS, or cross-linking studies, is provided to validate the predicted binding mode or the conformational restriction. The MD simulations are performed on a model of the complex, not an experimentally determined structure.
+  - **Why it matters** The claim of a novel mechanism of action (locking the receptor in a non-fusogenic state) is a key differentiator of this work. If the structural model is inaccurate or the conformational restriction is not experimentally verifiable, the mechanistic narrative is weakened.
+  - **Resolution test** Provide experimental structural or biophysical evidence supporting the binding interface and the conformational restriction, such as a high-resolution co-crystal structure of the CD81-LEL/mini-19 complex, or mutagenesis data coupled with a conformational probe.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional validation scope
+  - **Claim pointer** The manuscript claims that mini-19 provides a high genetic barrier to resistance and offers a prophylactic strategy against HCV.
+  - **Evidence pointer** Fig. 4, Fig. 5, Discussion (location not provided)
+  - **Concern** The claim of a "high genetic barrier to resistance" is not directly tested. While targeting a host factor is conceptually sound, no experimental data are presented to demonstrate that resistance does not emerge. Furthermore, the prophylactic claim is based solely on in vitro neutralization data. No in vivo efficacy data, such as in a mouse model, are presented.
+  - **Why it matters** These are significant translational claims. Without experimental evidence for a high barrier to resistance or in vivo efficacy, the clinical relevance of mini-19 remains speculative.
+  - **Resolution test** Perform resistance selection experiments in cell culture to assess the barrier to resistance. Provide in vivo proof-of-concept data in a relevant animal model, such as a humanized liver mouse model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** The manuscript claims that mini-19 specifically recognizes the native topology of CD81 on cells and EVs.
+  - **Evidence pointer** Fig. 3A-C, Fig. EV8 (location not provided)
+  - **Concern** The specificity of mini-19 is demonstrated against a negative control (mini-13) and in CD81 KO cells. However, the potential for off-target binding to other tetraspanins or unrelated cell surface proteins is not systematically addressed. The manuscript does not describe a proteomic or broad specificity screen.
+  - **Why it matters** For a therapeutic candidate, off-target binding could lead to toxicity or reduced efficacy. A more comprehensive specificity assessment would strengthen the claims.
+  - **Resolution test** Perform a proteomic screen (e.g., pull-down followed by mass spectrometry) or a broad binding panel against related tetraspanins and other membrane proteins to rule out off-target interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 1C
+  - **Evidence pointer** Fig. 1C (location not provided)
+  - **Issue** The CD spectroscopy data is described as confirming high thermostability, but the figure is not provided. It is unclear if the spectra show a clear alpha-helical signature and a cooperative melting transition.
+  - **Required correction** Provide the CD spectra and melting curves, and clarify the analysis method used to determine the melting temperature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Methods: Molecular dynamics (MD) simulations (location not provided)
+  - **Issue** The MD simulation methods lack critical details, such as the specific protonation states used for titratable residues at pH 4.0, the water model, the equilibration protocol, and the number of replicates. The method for assigning protonation states is not described.
+  - **Required correction** Provide a more detailed description of the MD simulation setup, including the software version, force field parameters, protonation assignment method, and analysis protocols.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** HCV neutralization assays
+  - **Evidence pointer** Methods: HCVcc infection and assessment of antiviral activity (location not provided)
+  - **Issue** The statistical analysis section states that data are presented as mean ± SD, but the number of independent experiments (n) for the HCV neutralization assays is not explicitly stated in the text. It is only mentioned that all conditions were tested in triplicate.
+  - **Required correction** Clearly state the number of independent biological replicates for each experiment in the figure legends or results text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion (location not provided)
+  - **Issue** The abstract and discussion state that mini-19 "provides a high genetic barrier to resistance" and "establishes a stable biologic platform." These are strong claims that are not fully supported by the data presented. The former is not experimentally tested, and the latter is a broad generalization.
+  - **Required correction** Soften these claims to be more consistent with the data, e.g., "may provide a high genetic barrier" and "represents a promising platform."
+- **Technical failings that need to be addressed before the case is established** 1. The absence of the actual figures and tables prevents verification of the primary data. 2. The lack of an experimentally determined structure of the CD81-LEL/mini-19 complex leaves the binding mode and the "structural clamp" mechanism as a model-based prediction. 3. The manuscript does not provide evidence for the claimed high genetic barrier to resistance. 4. The specificity of mini-19 is not comprehensively assessed against a panel of related proteins.
+- **Assessment against Nature-style criteria** **Originality:** The work is highly original, applying state-of-the-art deep learning-based design to a challenging host-pathogen interaction. The concept of a "structural clamp" is novel. **Scientific importance:** The study addresses a significant unmet medical need (HCV reinfection) and provides a new class of potential therapeutics. The findings could have broad implications for targeting other tetraspanin-dependent pathogens. **Interdisciplinary readership:** The work bridges computational biology, structural biology, virology, and drug development, making it of interest to a wide audience. **Technical soundness:** The computational pipeline is rigorous, and the biophysical methods are appropriate. However, the lack of experimental structural validation and the absence of primary data in the provided material are significant weaknesses. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, but the methods sections are dense and may be challenging for non-experts. The abstract is clear and compelling.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept and the described experimental approach are promising. However, the manuscript cannot be accepted in its current form due to the missing primary data, the lack of experimental structural validation for the key mechanistic claim, and the overstatement of some translational claims. The authors should be encouraged to provide the missing data and to temper their conclusions where appropriate.
+
+## Risk / unsupported claims
+- The claim that mini-19 "provides a high genetic barrier to resistance" is unsupported by direct experimental evidence.
+- The claim that mini-19 acts as a "structural clamp" is supported only by MD simulations and lacks experimental validation.
+- The claim that mini-19 "establishes a stable biologic platform for targeting tetraspanin-enriched microdomains" is a broad generalization not directly tested.
+- The quantitative values for KD (0.5 nM) and IC50 (1.2 nM) are unverifiable without the actual figures and tables.
+- The claim that mini-19 "specifically recognizes the native topology of CD81" is supported by cellular and EV data, but a comprehensive off-target analysis is not presented.

@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "34071676",
+    "doi": "10.3390/ijms22115807",
+    "title": "VirtualFlow Ants-Ultra-Large Virtual Screenings with Artificial Intelligence Driven Docking Algorithm Based on Ant Colony Optimization."
+  },
+  "content": {
+    "abstract": "The docking program PLANTS, which is based on ant colony optimization (ACO) algorithm, has many advanced features for molecular docking. Among them are multiple scoring functions, the possibility to model explicit displaceable water molecules, and the inclusion of experimental constraints. Here, we add support of PLANTS to VirtualFlow (VirtualFlow Ants), which adds a valuable method for primary virtual screenings and rescoring procedures. Furthermore, we have added support of ligand libraries in the MOL2 format, as well as on the fly conversion of ligand libraries which are in the PDBQT format to the MOL2 format to endow VirtualFlow Ants with an increased flexibility regarding the ligand libraries. The on the fly conversion is carried out with Open Babel and the program SPORES. We applied VirtualFlow Ants to a test system involving KEAP1 on the Google Cloud up to 128,000 CPUs, and the observed scaling behavior is approximately linear. Furthermore, we have adjusted several central docking parameters of PLANTS (such as the speed parameter or the number of ants) and screened 10 million compounds for each of the 10 resulting docking scenarios. We analyzed their docking scores and average docking times, which are key factors in virtual screenings. The possibility of carrying out ultra-large virtual screening with PLANTS via VirtualFlow Ants opens new avenues in computational drug discovery.",
+    "keywords": [
+      "CADD",
+      "KEAP1",
+      "artificial intelligence",
+      "computer aided drug design",
+      "drug discovery",
+      "molecular docking",
+      "structure based virtual screening",
+      "swarm intelligence"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "*Artificial Intelligence",
+      "Computational Biology/*methods",
+      "Kelch-Like ECH-Associated Protein 1/chemistry/metabolism",
+      "Ligands",
+      "*Molecular Docking Simulation",
+      "NF-E2-Related Factor 2/chemistry/metabolism",
+      "Protein Binding",
+      "Protein Conformation",
+      "Reproducibility of Results",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gorgulla, Christoph",
+        "Cinaroglu, Suleyman Selim",
+        "Fischer, Patrick D",
+        "Fackeldey, Konstantin",
+        "Wagner, Gerhard",
+        "Arthanari, Haribabu"
+      ],
+      "short_names": [
+        "Gorgulla C",
+        "Cinaroglu SS",
+        "Fischer PD",
+        "Fackeldey K",
+        "Wagner G",
+        "Arthanari H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6986-5270",
+        "ORCID: 0000-0001-7120-3540",
+        "ORCID: 0000-0003-4160-5295",
+        "ORCID: 0000-0002-4373-3672",
+        "ORCID: 0000-0002-2063-4401",
+        "ORCID: 0000-0002-7281-1289"
+      ],
+      "affiliations": [
+        "Department of Physics, Harvard University, Cambridge, MA 02138, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Cancer Biology, Dana Farber Cancer Institute, Boston, MA 02115, USA.",
+        "Department of Biochemistry, University of Oxford, South Parks Road, Oxford OX1 3QU, UK.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Cancer Biology, Dana Farber Cancer Institute, Boston, MA 02115, USA.",
+        "Department of Pharmacy, Pharmaceutical and Medicinal Chemistry, Saarland University, 66123 Saarbrucken, Germany.",
+        "Zuse Institute Berlin, 14195 Berlin, Germany.",
+        "Institute of Mathematics, Technical University Berlin, 10623 Berlin, Germany.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Cancer Biology, Dana Farber Cancer Institute, Boston, MA 02115, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gorgulla, Christoph",
+        "short_name": "Gorgulla C",
+        "identifiers": [
+          "0000-0001-6986-5270"
+        ],
+        "affiliations": [
+          "Department of Physics, Harvard University, Cambridge, MA 02138, USA.",
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+          "Department of Cancer Biology, Dana Farber Cancer Institute, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Çınaroğlu, Süleyman Selim",
+        "short_name": "Çınaroğlu SS",
+        "identifiers": [
+          "0000-0001-7120-3540"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, South Parks Road, Oxford OX1 3QU, UK."
+        ]
+      },
+      {
+        "full_name": "Fischer, Patrick D",
+        "short_name": "Fischer PD",
+        "identifiers": [
+          "0000-0003-4160-5295"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+          "Department of Cancer Biology, Dana Farber Cancer Institute, Boston, MA 02115, USA.",
+          "Department of Pharmacy, Pharmaceutical and Medicinal Chemistry, Saarland University, 66123 Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Fackeldey, Konstantin",
+        "short_name": "Fackeldey K",
+        "identifiers": [
+          "0000-0002-4373-3672"
+        ],
+        "affiliations": [
+          "Zuse Institute Berlin, 14195 Berlin, Germany.",
+          "Institute of Mathematics, Technical University Berlin, 10623 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Wagner, Gerhard",
+        "short_name": "Wagner G",
+        "identifiers": [
+          "0000-0002-2063-4401"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Arthanari, Haribabu",
+        "short_name": "Arthanari H",
+        "identifiers": [
+          "0000-0002-7281-1289"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA.",
+          "Department of Cancer Biology, Dana Farber Cancer Institute, Boston, MA 02115, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 May 28",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/03 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "41662351",
+      "39871890",
+      "38206771",
+      "38066301",
+      "38059302",
+      "37071086",
+      "36982893",
+      "35576813",
+      "35559261"
+    ],
+    "refs": [
+      "34693068",
+      "32707824",
+      "32152607",
+      "31460757",
+      "30610225",
+      "30044626",
+      "29750408",
+      "29711196",
+      "29160584",
+      "29133831",
+      "28790194",
+      "28001064",
+      "27311891",
+      "27311630",
+      "27195023",
+      "27171006",
+      "27031670",
+      "26744922",
+      "26682916",
+      "26629955",
+      "26226383",
+      "25717194",
+      "23647822",
+      "23379370",
+      "22213544",
+      "21982300",
+      "21839183",
+      "20882397",
+      "20486157",
+      "19499576",
+      "19453150",
+      "19125657",
+      "18703160",
+      "18680357",
+      "17034125",
+      "16190776",
+      "15929149",
+      "15099830",
+      "15027866",
+      "15027865",
+      "12910460",
+      "11394736",
+      "10508679",
+      "9834910",
+      "9385547",
+      "9126849",
+      "8780787",
+      "8234239"
+    ],
+    "similar": [
+      "34071676",
+      "32152607",
+      "34693068",
+      "35121854",
+      "31721705",
+      "33795749",
+      "28746889",
+      "31726716",
+      "26553204",
+      "23746735",
+      "17696866",
+      "28334282",
+      "15001363",
+      "20371409",
+      "27474998",
+      "25724101",
+      "31851823",
+      "23420703",
+      "25266271",
+      "31578656",
+      "30182836",
+      "28760952",
+      "23075003",
+      "29241118",
+      "17508934",
+      "39237523",
+      "18925937",
+      "25148595",
+      "32120017",
+      "35467270",
+      "26050878",
+      "35566391",
+      "29594770",
+      "33774182",
+      "29594772",
+      "28196116",
+      "36714919",
+      "27886114",
+      "34912117",
+      "33983518",
+      "31412289",
+      "25800162",
+      "35790469",
+      "28801166",
+      "12227995",
+      "35887220",
+      "19210777",
+      "35699524",
+      "22658682",
+      "24171431",
+      "30973731",
+      "28024463",
+      "24935106",
+      "33318542",
+      "27031670",
+      "23757576",
+      "30829435",
+      "18402678",
+      "33657798",
+      "25038507",
+      "27312421",
+      "24358939",
+      "37536095",
+      "25229694",
+      "37630254",
+      "12825621",
+      "29745220",
+      "36326112",
+      "25280064",
+      "28843611",
+      "37191131",
+      "25808539",
+      "17986206",
+      "32668381",
+      "27086966",
+      "33818106",
+      "37552222",
+      "29118094",
+      "18220766",
+      "29594781",
+      "34375285",
+      "31452104",
+      "29600755",
+      "36154119",
+      "36747041",
+      "23530568",
+      "28887659",
+      "32564647",
+      "37208644",
+      "17096427",
+      "27077332",
+      "24475049",
+      "29890081",
+      "33915968",
+      "32233486",
+      "33759125",
+      "38129992",
+      "32672401",
+      "24407312",
+      "27562018",
+      "16796558",
+      "18465849",
+      "20236947",
+      "38451773",
+      "37217655",
+      "38920405",
+      "18037925",
+      "37639635",
+      "38849719",
+      "35056120"
+    ],
+    "review": [
+      "34071676",
+      "35121854",
+      "17696866",
+      "30182836",
+      "17508934",
+      "32120017",
+      "33774182",
+      "36714919",
+      "28801166",
+      "25808539",
+      "32668381",
+      "29118094",
+      "18220766",
+      "32233486",
+      "38129992",
+      "16796558"
+    ],
+    "pmc": [
+      "8199267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22115807",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34071676/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34071676",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "37278873",
+    "doi": "10.1007/s10142-023-01092-2",
+    "title": "Exploration of the potential common pathogenic mechanisms in COVID-19 and silicosis by using bioinformatics and system biology."
+  },
+  "content": {
+    "abstract": "Silicosis is an occupational lung disease that is common worldwide. In recent years, coronavirus disease 2019 (COVID-19) has provided daunting challenges to public healthcare systems globally. Although multiple studies have shown a close link between COVID-19 and other respiratory diseases, the inter-relational mechanisms between COVID-19 and silicosis remain unclear. This study aimed to explore the shared molecular mechanisms and drug targets of COVID-19 and silicosis. Gene expression profiling identified four modules that were most closely associated with both diseases. Furthermore, we performed functional analysis and constructed a protein-protein interaction network. Seven hub genes (budding uninhibited by benzimidazoles 1 [BUB1], protein regulator of cytokinesis 1 [PRC1], kinesin family member C1 [KIFC1], ribonucleotide reductase regulatory subunit M2 [RRM2], cyclin-dependent kinase inhibitor 3 [CDKN3], Cyclin B2 [CCNB2], and minichromosome maintenance complex component 6 [MCM6]) were involved in the interaction between COVID-19 and silicosis. We investigated how diverse microRNAs and transcription factors regulate these seven genes. Subsequently, the correlation between the hub genes and infiltrating immune cells was explored. Further in-depth analyses were performed based on single-cell transcriptomic data from COVID-19, and the expression of hub-shared genes was characterized and located in multiple cell clusters. Finally, molecular docking results reveal small molecular compounds that may improve COVID-19 and silicosis. The current study reveals the common pathogenesis of COVID-19 and silicosis, which may provide a novel reference for further research.",
+    "keywords": [
+      "COVID-19",
+      "ScRNA-seq",
+      "Silicosis",
+      "Weighted correlation network analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps/genetics",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "*Silicosis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tian, Yunze",
+        "Yu, Beibei",
+        "Zhang, Yongfeng",
+        "Zhang, Sanpeng",
+        "Lv, Boqiang",
+        "Gong, Shouping",
+        "Li, Jianzhong"
+      ],
+      "short_names": [
+        "Tian Y",
+        "Yu B",
+        "Zhang Y",
+        "Zhang S",
+        "Lv B",
+        "Gong S",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China.",
+        "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China.",
+        "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China.",
+        "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China.",
+        "Operating room, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, 710004, Xi'an, China.",
+        "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China.",
+        "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China. shpingg@126.com.",
+        "Department of Thoracic Surgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China. jianzhong-0520@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tian, Yunze",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China.",
+          "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Beibei",
+        "short_name": "Yu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongfeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sanpeng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Operating room, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, 710004, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Boqiang",
+        "short_name": "Lv B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Shouping",
+        "short_name": "Gong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China. shpingg@126.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jianzhong",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, the Second Affiliated Hospital of Xi'an Jiao Tong University, Shaanxi Province, Xi'an, 710004, China. jianzhong-0520@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2023 Jun 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/06 13:09",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "41606700",
+      "39342428"
+    ],
+    "refs": [
+      "36499287",
+      "36139764",
+      "35991200",
+      "35844595",
+      "35581230",
+      "35520289",
+      "35240527",
+      "34981495",
+      "34580601",
+      "34577851",
+      "34452851",
+      "34335565",
+      "34028807",
+      "33572857",
+      "33495418",
+      "33466366",
+      "33417344",
+      "33355522",
+      "33248027",
+      "33096026",
+      "32781959",
+      "32574708",
+      "32564017",
+      "32510973",
+      "32422178",
+      "32310688",
+      "31749139",
+      "29843043",
+      "29435009",
+      "29387060",
+      "29165057",
+      "28727677",
+      "24327355",
+      "22534002",
+      "22431001",
+      "20888775"
+    ],
+    "similar": [
+      "37278873",
+      "39093763",
+      "35749386",
+      "31987036",
+      "36104591",
+      "37657050",
+      "37047484",
+      "33217867",
+      "36902271",
+      "36211429",
+      "33831468",
+      "36119022",
+      "37303632",
+      "36049413",
+      "31043166",
+      "33505422",
+      "35757636",
+      "35958619",
+      "38455049",
+      "29845250",
+      "36768914",
+      "31746405",
+      "36380355",
+      "34776447",
+      "33622336",
+      "35751199",
+      "36532040",
+      "35464423",
+      "35727093",
+      "37335738",
+      "34920753",
+      "29608426",
+      "33847347",
+      "28952134",
+      "29305979",
+      "32537007",
+      "35016690",
+      "37405258",
+      "34218797",
+      "32598336",
+      "33839760",
+      "32811479",
+      "34623759",
+      "35069542",
+      "34504502",
+      "32243390",
+      "37026010",
+      "35762549",
+      "36575422",
+      "37426642",
+      "36531995",
+      "34232175",
+      "37063926",
+      "33407587",
+      "36052061",
+      "32527185",
+      "36856850",
+      "33032291",
+      "34746302",
+      "32583000",
+      "31311829",
+      "32093976",
+      "36389792",
+      "34248836",
+      "32767929",
+      "32908877",
+      "32945445",
+      "32922202",
+      "34675265",
+      "34535131",
+      "32598242",
+      "36414950",
+      "36059456",
+      "32048869",
+      "34366321",
+      "33513419",
+      "33174045",
+      "34941025",
+      "32627011",
+      "32116234",
+      "35975032",
+      "34335565",
+      "34113405",
+      "36471356",
+      "35996248",
+      "34394108",
+      "37092838",
+      "34290221",
+      "34601390",
+      "38278931"
+    ],
+    "review": [
+      "37278873"
+    ],
+    "pmc": [
+      "10241611"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37278873/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-023-01092-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37278873",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MCM6-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-725",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

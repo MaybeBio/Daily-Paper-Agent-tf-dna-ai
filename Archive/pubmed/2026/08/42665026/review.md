@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose dihydroartemisinin (DHA) as a repurposed antiviral candidate against Epstein-Barr virus (EBV) reactivation and replication, based on computational screening, molecular docking, and in vitro experimental validation, with proposed targeting of the BZLF1 lytic protein.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, experimental protocols, statistical analyses, raw data, docking scores, simulation parameters, ChIP and IP details, cell lines, viral strains, and dose-response curves
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting drug repurposing strategy for EBV, with a clear rationale and a multi-step workflow from computational prediction to in vitro validation. However, the evidence as summarized is insufficient to establish the mechanistic claim that DHA directly targets BZLF1, and several quantitative and methodological details are missing. The work may be of interest to antiviral drug discovery and EBV biology communities, but the current abstract does not provide enough support for the central conclusions.
+- **Who would be interested in the results, and why** Researchers in antiviral drug repurposing, EBV biology, and viral reactivation mechanisms would be interested. The potential clinical relevance for EBV-associated malignancies and the use of an FDA-approved antimalarial drug may also attract translational researchers and clinicians seeking new therapeutic options.
+- **Major strengths** The study addresses an unmet medical need with no FDA-approved EBV drugs. The integration of AI/ML-based screening, transcriptomic analyses, and experimental validation is a comprehensive approach. The identification of a repurposing candidate with a reported high selectivity index is promising.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "Molecular docking, simulation, ChIP and IP studies demonstrated stable binding of DHA within the BZLF1 DNA-binding pocket, inhibiting the key residues involved in BZLF1 activation and DNA binding."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims direct binding of DHA to BZLF1 based on docking, simulation, ChIP, and IP, but no quantitative data are provided. Docking and simulation are predictive, and ChIP and IP are indirect for small-molecule binding. The evidence as summarized does not convincingly demonstrate a direct physical interaction between DHA and BZLF1 in cells.
+  - **Why it matters** The central mechanistic claim of the paper is that DHA targets BZLF1. Without robust binding data, the mechanism remains speculative, and the observed antiviral effects could be due to off-target or indirect effects.
+  - **Resolution test** Provide binding affinity measurements (e.g., ITC, SPR), mutagenesis of the proposed binding pocket with loss-of-function, and cellular thermal shift assays or similar to confirm target engagement in cells.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative antiviral efficacy
+  - **Claim pointer** "DHA showed the strongest inhibitory activity in vitro, with an IC(99) of 1 muM and an SI Index of 113.5. DHA reduced both EBV viral copy number and the expression of early and late lytic genes."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The IC(99) and selectivity index are reported without experimental context, such as cell type, viral strain, assay format, or comparison to controls. The abstract does not specify how IC(99) was derived or whether the SI is based on cytotoxicity in the same cell line.
+  - **Why it matters** Without these details, the potency and selectivity claims cannot be evaluated or compared to existing antivirals. The reported values may be misleading if assay conditions are not standard.
+  - **Resolution test** Provide full dose-response curves, cytotoxicity data, and statistical comparisons in the main text or supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** "FDA-approved compounds predicted using in-house AI/ML-based model (Anti-EBV) and miRNA-seq and RNA-seq analyses were selected for further evaluation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The AI/ML model and the transcriptomic analyses are described but not detailed. No information is given on the training data, model performance, or how the sequencing data were used to prioritize candidates.
+  - **Why it matters** The computational pipeline is a key part of the screening strategy. Without details, the reproducibility and validity of the screening approach cannot be assessed.
+  - **Resolution test** Provide model description, validation metrics, and accession numbers for sequencing data, along with a clear description of the prioritization criteria.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "IC(99)" is unusual; most studies report IC50 or IC90. The choice of IC99 should be justified.
+  - **Required correction** Clarify why IC99 was used and provide IC50 or IC90 values for comparability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "immunofluorescence analysis" but does not specify which viral proteins or cellular markers were assessed.
+  - **Required correction** Specify the antibodies and targets used in immunofluorescence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Data presentation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No statistical measures (e.g., p-values, confidence intervals, replicates) are reported for the in vitro results.
+  - **Required correction** Include statistical details in the abstract or refer to figures with statistical annotations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The direct binding claim and the quantitative efficacy data must be substantiated with full experimental details and appropriate controls.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. Drug repurposing for EBV is not novel, but the specific focus on DHA and BZLF1 may offer a new angle.  
+  - Scientific importance: Potentially high given the lack of EBV-targeted therapies, but the clinical relevance is not established from the abstract.  
+  - Interdisciplinary readership: The work bridges computational biology, virology, and pharmacology, which could attract a broad audience.  
+  - Technical soundness: Not fully assessable from the abstract; the computational and experimental methods are described only superficially.  
+  - Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and promising preliminary data, but the central mechanistic claim and quantitative efficacy require substantial additional evidence. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- Direct binding of DHA to BZLF1 is not supported by the abstract-level evidence.
+- The IC(99) and SI values are unverifiable without assay details.
+- The claim that DHA inhibits "key residues involved in BZLF1 activation" is not substantiated.
+- The predictive power and validity of the in-house AI/ML model are not assessable.
+- The relevance of the findings to in vivo or clinical settings is not addressed.

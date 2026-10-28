@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a HOX gene expression code framework that stratifies lineage-plastic cancer states across 23 cancer types, identify RUNX1T1 as a cross-lineage regulator of plasticity, demonstrate its functional requirement in prostate cancer models, establish NCOR/HDAC3 as a binding partner, show chromatin remodeling via reduced active enhancer marks, and report therapeutic vulnerability to HDAC3 inhibition or RUNX1T1 silencing.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, cohort descriptions, or methodological specifics are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, cohort compositions, single-cell data processing details, structural modeling parameters, CUT&RUN quality metrics, in vivo data, and lipid nanoparticle delivery efficacy data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting framework for cross-cancer lineage plasticity stratification and nominates RUNX1T1 as a mechanistic driver with therapeutic implications. However, the claims are broad and the evidence base is described at a level that prevents independent evaluation of robustness. The central premise, that HOX code divergence reliably identifies plastic states across diverse cancer types, requires substantial validation that cannot be assessed from the abstract alone. The mechanistic chain from HOX stratification to RUNX1T1 function to HDAC3 targeting is logically coherent but each step needs rigorous experimental support.
+- **Who would be interested in the results, and why** Researchers studying cancer cell plasticity, therapy resistance, and epigenetic regulation would find the HOX code stratification framework potentially useful for identifying plastic subtypes. Investigators working on transcriptional reprogramming and chromatin remodeling in oncology would be interested in the RUNX1T1-HDAC3 axis. Clinicians focused on prostate cancer, lung cancer, and AML treatment resistance might find the therapeutic angle relevant, particularly the lipid nanoparticle delivery approach.
+- **Major strengths** The cross-cancer scale of the analysis, spanning 80,000 samples across 23 cancer types, is ambitious and could provide a broadly applicable stratification tool. The integration of multiple orthogonal approaches, including transcriptomics, functional validation, structural modeling, chromatin profiling, and pharmacologic inhibition, suggests a comprehensive experimental strategy. The identification of a shared regulator across distinct cancer types is conceptually appealing and could unify disparate observations about lineage plasticity.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and validation
+  - **Claim pointer** The claim that HOX code expression robustly stratifies lineage-constrained and lineage-plastic states at a cross-cancer level
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract states that HOX code stratification was performed across 80,000 samples and 23 cancer types, but provides no information on the statistical methodology, validation approach, or performance metrics. It is unclear how lineage-plastic states were defined in each cancer type, whether the stratification was validated against known plastic subtypes, or how robust the classification is to batch effects and technical variation across datasets.
+  - **Why it matters** The entire framework rests on the reliability of HOX code-based stratification. If the classification is not rigorously validated, all downstream claims about RUNX1T1 as a cross-lineage regulator are built on an unstable foundation.
+  - **Resolution test** Provide details on the classification algorithm, cross-validation strategy, comparison to existing lineage plasticity markers, and demonstration that HOX code divergence is not confounded by tissue of origin or tumor purity.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The claim that RUNX1T1 is functionally required for lineage-plastic programs in prostate cancer models
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract states that RUNX1T1 is functionally required but does not describe the experimental approach, such as knockdown or knockout strategies, phenotypic assays used, or the extent of phenotypic rescue. It is unclear whether the requirement was demonstrated in vitro, in vivo, or both, and whether the effect is specific to lineage-plastic programs or reflects general growth impairment.
+  - **Why it matters** Functional requirement is a central claim that supports RUNX1T1 as a driver rather than a bystander. Without clear experimental details, the causal role cannot be evaluated.
+  - **Resolution test** Describe the loss-of-function approach, the specific plastic phenotypes measured, the magnitude of effects, and whether complementation with RUNX1T1 restores the plastic phenotype.
+  - R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The claim that RUNX1T1 remodels chromatin by globally reducing active enhancer marks, thereby repressing lineage-defining differentiation programs
+  - **Evidence pointer** Abstract, CUT&RUN profiling mentioned but no figure or section provided
+  - **Concern** The abstract reports CUT&RUN profiling showing global reduction of active enhancer marks, but provides no information on the number of replicates, the genomic regions analyzed, the magnitude of changes, or whether the enhancer mark reduction is specific to lineage-defining loci. The causal link between enhancer mark reduction and repression of differentiation programs is asserted but not demonstrated.
+  - **Why it matters** The chromatin remodeling mechanism is the proposed molecular basis for RUNX1T1 function. If the enhancer changes are not clearly linked to the transcriptional consequences, the mechanistic model remains speculative.
+  - **Resolution test** Show representative CUT&RUN tracks, quantify changes at lineage-defining enhancers versus genome-wide background, and demonstrate that enhancer mark loss precedes or correlates with transcriptional repression.
+  - R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Therapeutic claim
+  - **Claim pointer** The claim that selective pharmacologic inhibition of HDAC3 or targeted gene silencing via lipid nanoparticles suppressed the growth of lineage-plastic cancer cells
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract reports therapeutic efficacy but provides no details on the model systems used, the dosing regimen, the specificity of HDAC3 inhibition, the delivery efficiency of lipid nanoparticles, or the magnitude and duration of growth suppression. It is unclear whether the effect is on plastic cells specifically or on cancer cells generally.
+  - **Why it matters** The therapeutic vulnerability is a key translational claim. Without evidence of specificity and efficacy in relevant models, the clinical relevance cannot be assessed.
+  - **Resolution test** Provide dose-response data, demonstrate selectivity for plastic versus non-plastic cells, show delivery efficiency and target engagement in vivo, and report tumor growth curves and survival data.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** HOX code definition
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract refers to HOX codes but does not define how these codes are computed or what constitutes divergence between plastic and non-plastic states.
+  - **Required correction** Define the HOX code metric and the threshold for divergence in the methods or abstract.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Cohort description
+  - **Affected element** Sample composition
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions 80,000 RNA-seq samples across 23 cancer types but does not specify the balance of tumor types, normal samples, or treatment histories.
+  - **Required correction** Provide a breakdown of sample types and clinical annotations.
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Cross-cancer claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract claims cross-lineage regulation but functional validation is described only in prostate cancer models.
+  - **Required correction** Clarify whether RUNX1T1 function was tested in lung cancer and AML models or state that functional validation is limited to prostate cancer.
+  - R1-m4
+  - **Severity** Minor
+  - **Axis** Structural modeling
+  - **Affected element** AI-based structural modeling
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions AI-based structural modeling but does not specify the method or the confidence of the predicted interaction.
+  - **Required correction** Name the modeling approach and provide validation of the predicted interaction, such as mutagenesis or binding assays.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient methodological detail to assess the statistical robustness of the stratification, the functional evidence for RUNX1T1 requirement, the mechanistic link between chromatin remodeling and transcriptional repression, or the specificity and efficacy of the therapeutic approach.
+- **Assessment against Nature-style criteria** 
+  - Originality: The HOX code framework for cross-cancer plasticity stratification is conceptually novel and could offer a unifying approach. However, the abstract does not demonstrate how this framework advances beyond existing plasticity markers.
+  - Scientific importance: The identification of a shared regulator and therapeutic target for lineage plasticity is potentially important, but the evidence presented is insufficient to establish significance.
+  - Interdisciplinary readership: The topic bridges cancer biology, epigenetics, and therapeutics, which could attract broad interest. The abstract is written accessibly but lacks technical depth.
+  - Technical soundness: Cannot be assessed from the abstract. The described methods are plausible but unverifiable without data.
+  - Readability for nonspecialists: The abstract is generally clear, though terms like HOX codes and lineage plasticity may require prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a broad analytical framework, but the claims are not supported by sufficient detail to evaluate their validity. The manuscript may become compelling if the full data demonstrate rigorous stratification, robust functional evidence, and specific therapeutic effects.
+
+## Risk / unsupported claims
+- The claim that HOX code expression robustly stratifies lineage-plastic states across 23 cancer types is unsupported without statistical details and validation metrics.
+- The claim that RUNX1T1 is a consistent cross-lineage regulator is unsupported because functional validation is described only in prostate cancer models.
+- The claim that RUNX1T1 remodels chromatin by globally reducing active enhancer marks is unsupported without quantitative CUT&RUN data.
+- The claim that HDAC3 inhibition or RUNX1T1 silencing suppresses growth of lineage-plastic cells is unsupported without dose-response, specificity, and in vivo efficacy data.
+- The claim that the RUNX1T1-HDAC axis is a targetable mechanism is premature given the lack of demonstrated therapeutic window or selectivity.

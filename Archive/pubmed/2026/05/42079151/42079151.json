@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "42079151",
+    "doi": "10.64898/2026.04.20.719714",
+    "title": "Retracing and rewriting the evolutionary trajectories of mammalian developmental enhancers."
+  },
+  "content": {
+    "abstract": "Cis-regulatory elements (CREs) such as enhancers play a central role in orchestrating mammalian development, yet how they have gained, lost, maintained or changed function over the course of mammalian evolution remains poorly understood. To address this gap, we densely mapped the functional evolution of five mouse developmental enhancers by testing orthologous sequences from 480 extant and ancestrally reconstructed mammalian genomes (Zoonomia(1), Cactus(2)) with massively parallel reporter assays (MPRAs). This phylogenetic dissection revealed diverse modes of evolution, from lineage-restricted activity to deep functional conservation despite extensive sequence divergence. To pinpoint causal changes, we developed a model-driven reconstitution strategy that uses deep learning-based predictions of chromatin accessibility to re-introduce a succession of mutations into ancestral orthologs; this revealed critical transcription factor binding site (TFBS) changes and pervasive context-dependent epistasis, including instances where mutational effects were strongly contingent on the order of their introduction. When we extended this strategy to tune the activity of extant orthologs, we found that ablation of enhancer function required as few as one to seven mutations, whereas enhancement was constrained by element-specific activity ceilings-a striking asymmetry in the predictability of model-guided enhancer editing. Together, these results shed light on how the plasticity of mammalian enhancers intersects with their evolution, and advance a framework for reprogramming the activity of endogenous CREs at nucleotide resolution.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tony",
+        "Lalanne, Jean-Benoit",
+        "Kajiwara, Emma A N",
+        "Jain, Shruti",
+        "Li, Xiaoyi",
+        "Do, Tiffany V",
+        "Martin, Beth K",
+        "Regalado, Samuel G",
+        "Daza, Riza M",
+        "Shendure, Jay"
+      ],
+      "short_names": [
+        "Li T",
+        "Lalanne JB",
+        "Kajiwara EAN",
+        "Jain S",
+        "Li X",
+        "Do TV",
+        "Martin BK",
+        "Regalado SG",
+        "Daza RM",
+        "Shendure J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3546-123X",
+        "ORCID: 0000-0001-8753-0669",
+        "ORCID: 0009-0007-0047-7094",
+        "ORCID: 0000-0001-6433-5262",
+        "ORCID: 0000-0002-7793-8924",
+        "ORCID: 0000-0003-1635-8675",
+        "ORCID: 0000-0002-1516-1865"
+      ],
+      "affiliations": [
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry and Molecular Medicine & Courtois Institute for Biomedical Innovation, Universite de Montreal, Montreal, QC, Canada.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+        "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA.",
+        "Howard Hughes Medical Institute, Seattle, WA, USA.",
+        "Allen Discovery Center for Cell Lineage Tracing, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tony",
+        "short_name": "Li T",
+        "identifiers": [
+          "0000-0003-3546-123X"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lalanne, Jean-Benoît",
+        "short_name": "Lalanne JB",
+        "identifiers": [
+          "0000-0001-8753-0669"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Department of Biochemistry and Molecular Medicine & Courtois Institute for Biomedical Innovation, Université de Montréal, Montréal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Kajiwara, Emma A N",
+        "short_name": "Kajiwara EAN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Jain, Shruti",
+        "short_name": "Jain S",
+        "identifiers": [
+          "0009-0007-0047-7094"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoyi",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0001-6433-5262"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Do, Tiffany V",
+        "short_name": "Do TV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Beth K",
+        "short_name": "Martin BK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Regalado, Samuel G",
+        "short_name": "Regalado SG",
+        "identifiers": [
+          "0000-0002-7793-8924"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Daza, Riza M",
+        "short_name": "Daza RM",
+        "identifiers": [
+          "0000-0003-1635-8675"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Shendure, Jay",
+        "short_name": "Shendure J",
+        "identifiers": [
+          "0000-0002-1516-1865"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Seattle Hub for Synthetic Biology, Seattle, WA, USA.",
+          "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA.",
+          "Howard Hughes Medical Institute, Seattle, WA, USA.",
+          "Allen Discovery Center for Cell Lineage Tracing, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Apr 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 12:34",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41576918",
+      "41184593",
+      "39948460",
+      "39814889",
+      "39470740",
+      "39443793",
+      "39333241",
+      "39266441",
+      "39232149",
+      "39085231",
+      "38867905",
+      "38724692",
+      "38093018",
+      "38086419",
+      "37848026",
+      "36714378",
+      "36693380",
+      "35606422",
+      "33689769",
+      "33177664",
+      "33177663",
+      "32732264",
+      "32169219",
+      "31395865",
+      "30045748",
+      "29772251",
+      "29180706",
+      "28902834",
+      "28846090",
+      "28301769",
+      "27701403",
+      "26072433",
+      "25635462",
+      "25409825",
+      "24487276",
+      "24360275",
+      "24142950",
+      "22955617",
+      "22955616",
+      "22936215",
+      "22388286",
+      "22371081",
+      "21737276",
+      "20299548",
+      "20110278",
+      "19858363",
+      "19505943",
+      "18787134",
+      "18614008",
+      "17086198",
+      "17040121",
+      "16409378",
+      "16165126",
+      "15574820",
+      "14660545",
+      "12944426",
+      "12874137",
+      "12466850",
+      "12136088",
+      "9012826",
+      "4858519",
+      "1090005"
+    ],
+    "similar": [
+      "42079151",
+      "42475469",
+      "35410163",
+      "42079234",
+      "41993329",
+      "36043696",
+      "34486522",
+      "30045748",
+      "34605404",
+      "42478686",
+      "28792889",
+      "35082832",
+      "28985297",
+      "32819422",
+      "40425826",
+      "40543151",
+      "29187214",
+      "22215325",
+      "31114856",
+      "12944426",
+      "34913122",
+      "42642514",
+      "23512712",
+      "20494938",
+      "41247408",
+      "41862973",
+      "42234579",
+      "24360275",
+      "22371081",
+      "26673387",
+      "22412381",
+      "35866592",
+      "29420474",
+      "30200877",
+      "30661644",
+      "41146606",
+      "26576614",
+      "33782603",
+      "21821017",
+      "38187729",
+      "26072432",
+      "36192170",
+      "33973014",
+      "32043966",
+      "41185025",
+      "34898596",
+      "40131776",
+      "34187518",
+      "22075113",
+      "35770682",
+      "36626871",
+      "31307522",
+      "40672290",
+      "40816379",
+      "40472848",
+      "27114548",
+      "41030057",
+      "23650638",
+      "42449439",
+      "22085760",
+      "26079655",
+      "41890073",
+      "41562256",
+      "28961735",
+      "42216449",
+      "27768887",
+      "25018785",
+      "32176292",
+      "28137873",
+      "40205616",
+      "27965291",
+      "17201929",
+      "31808313",
+      "20107516",
+      "37387536",
+      "20333180",
+      "29532337",
+      "38352419",
+      "24967590",
+      "17559649",
+      "27831498",
+      "38604126",
+      "24097306",
+      "26377945",
+      "23904330",
+      "25956794",
+      "29335803",
+      "37425940",
+      "39302728",
+      "40270544",
+      "37609287",
+      "31100635",
+      "32603702",
+      "38712228",
+      "28204611",
+      "41497587",
+      "42267589",
+      "26072433",
+      "33044128",
+      "42079203"
+    ],
+    "review": [
+      "42079151",
+      "40543151",
+      "41862973",
+      "26673387",
+      "26072432",
+      "26079655",
+      "31808313",
+      "42267589"
+    ],
+    "pmc": [
+      "13131660"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42079151/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.20.719714",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

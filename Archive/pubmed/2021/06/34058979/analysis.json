@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34058979",
+  "title": "A sequence-based multiple kernel model for identifying DNA-binding proteins.",
+  "authors": "Qian, Yuqing; Jiang, Limin; Ding, Yijie; Tang, Jijun; Guo, Fei",
+  "journal": "BMC bioinformatics",
+  "published_date": "2021-06-02",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于序列特征与多核学习SVM预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但无三维结构建模或TF-DNA特异性结合机制研究，方法可迁移但深度有限。",
+  "abstract": "BACKGROUND: DNA-Binding Proteins (DBP) plays a pivotal role in biological system. A mounting number of researchers are studying the mechanism and detection methods. To detect DBP, the tradition experimental method is time-consuming and resource-consuming. In recent years, Machine Learning methods have been used to detect DBP. However, it is difficult to adequately describe the information of proteins in predicting DNA-binding proteins. In this study, we extract six features from protein sequence and use Multiple Kernel Learning-based on Centered Kernel Alignment to integrate these features. The integrated feature is fed into Support Vector Machine to build predictive model and detect new DBP. RESULTS: In our work, date sets of PDB1075 and PDB186 are employed to test our method. From the results, our model obtains better results (accuracy) than other existing methods on PDB1075 ([Formula: see text]) and PDB186 ([Formula: see text]), respectively. CONCLUSION: Multiple kernel learning could fuse the complementary information between different features. Compared with existing methods, our method achieves comparable and best results on benchmark data sets.",
+  "abstract_zh": "背景：DNA结合蛋白（DBP）在生物系统中扮演着关键角色。越来越多的研究者正在研究其机制和检测方法。为了检测DBP，传统实验方法耗时且资源消耗大。近年来，机器学习方法已被用于检测DBP。然而，在预测DNA结合蛋白时，充分描述蛋白质信息仍具挑战性。在本研究中，我们从蛋白质序列中提取六个特征，并采用基于中心核对齐的多核学习（Multiple Kernel Learning-based on Centered Kernel Alignment）来整合这些特征。整合后的特征被输入支持向量机（Support Vector Machine）以构建预测模型并检测新的DBP。结果：在我们的工作中，使用PDB1075和PDB186数据集来测试我们的方法。结果表明，我们的模型在PDB1075（[公式：见原文]）和PDB186（[公式：见原文]）上分别获得了优于其他现有方法的准确率。结论：多核学习能够融合不同特征之间的互补信息。与现有方法相比，我们的方法在基准数据集上取得了可比且最佳的结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34058979/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34058979/",
+  "paper_page_path": "papers/pubmed/34058979/index.html"
+}

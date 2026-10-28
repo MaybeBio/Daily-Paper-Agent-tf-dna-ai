@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "40949910",
+    "doi": "10.21037/tp-2025-247",
+    "title": "Identification of potential necroinflammation-associated necroptosis-related biomarkers in necrotizing enterocolitis based on bioinformatics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Necrotizing enterocolitis (NEC) stands as one of the most lethal conditions afflicting premature infants. There is a close relationship between necroptosis, necroinflammation, and the potential mechanisms of NEC. The purpose of this study was to investigate the mechanism of necroinflammation-associated necroptosis-related genes (NiNRGs) in NEC, identify NiNRGs-related diagnostic markers for NEC, and construct a diagnostic model for NEC through bioinformatics analysis and machine learning. METHODS: Differentially expressed NiNRGs (DE-NiNRGs) were identified through differential expression and correlation analysis, followed by gene set enrichment analysis (GSEA) and protein-protein interaction (PPI) network establishment. Three machine learning methods were used to find potential diagnostic biomarkers, evaluated through a receiver operating characteristic (ROC) curve and a nomogram model. Immune infiltration scores for 28 immune cell types in NEC were calculated, along with correlation coefficients for diagnostic marker genes. Various databases predicted interactions between these genes, small molecule drugs, microRNAs, and transcription factors. A single-gene GSEA (sgGSEA) identified significantly enriched signaling pathways associated with diagnostic marker genes in NEC. RESULTS: A total of 29 DE-NiNRGs were identified, linked to 17 pathways, including tumor necrosis factor (TNF), interleukin (IL)-17, and cytosolic DNA-sensing pathways. The PPI network showed close interactions among DE-NiNRGs. Three biomarkers, DAPK1, PARP1, and BIRC3, were selected using machine learning, showing area under the curve (AUC) values >/=0.8 in ROC analysis. The nomogram indicated significant diagnostic score differences between NEC and healthy controls. Type 2 T helper (Th2) cell infiltration differed significantly between NEC and controls, with DAPK1 and BIRC3 expression correlating with immune cells. Transcription factors, microRNAs, and small molecule drugs regulating these markers were identified, and sgGSEA revealed 198, 240, and 217 pathways for DAPK1, PARP1, and BIRC3, respectively. CONCLUSIONS: Necroinflammation-induced necroptosis significantly contributes to the progression of NEC. DAPK1, PARP1, and BIRC3 demonstrate substantial diagnostic potential for the condition. Employing bioinformatics to explore potential mechanisms aids in elucidating the genetic pathogenesis of NEC and offers valuable insights for future investigations.",
+    "keywords": [
+      "Necrotizing enterocolitis (NEC)",
+      "bioinformatics analysis",
+      "machine learning",
+      "necroinflammation",
+      "necroptosis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Jing",
+        "Qu, Xiaochen",
+        "Yang, Liu",
+        "Wang, Yuqian",
+        "Liu, Zhengjuan"
+      ],
+      "short_names": [
+        "Zhu J",
+        "Qu X",
+        "Yang L",
+        "Wang Y",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Orthopedics, First Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Jing",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Xiaochen",
+        "short_name": "Qu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Liu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuqian",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhengjuan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational pediatrics"
+    ],
+    "journal_abbrev": [
+      "Transl Pediatr"
+    ],
+    "pub_date": "2025 Aug 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/15 12:34",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40115463",
+      "39826099",
+      "39633114",
+      "39620924",
+      "39398415",
+      "39085218",
+      "38418993",
+      "38157451",
+      "37342533",
+      "37329710",
+      "37275548",
+      "36683790",
+      "36371157",
+      "36353724",
+      "36202969",
+      "35573972",
+      "35558966",
+      "35308855",
+      "35040888",
+      "34927607",
+      "34518686",
+      "33880370",
+      "33731807",
+      "33462187",
+      "33413657",
+      "33188850",
+      "32855507",
+      "32582165",
+      "32277510",
+      "31887080",
+      "31819111",
+      "31756560",
+      "31125264",
+      "27257938",
+      "26909656",
+      "26801768",
+      "26250718",
+      "25927016",
+      "24920296",
+      "23446353",
+      "23438821",
+      "21737776",
+      "21399558",
+      "19608731",
+      "18298426",
+      "16408008"
+    ],
+    "similar": [
+      "40949910",
+      "39948449",
+      "39145050",
+      "37275548",
+      "41325315",
+      "40115463",
+      "41113854",
+      "40202381",
+      "40362275",
+      "40629472",
+      "41291841",
+      "39270557",
+      "40833466",
+      "39072329",
+      "35894193",
+      "39822995",
+      "31383782",
+      "41479901",
+      "39743646",
+      "41006466",
+      "40360670",
+      "39403102",
+      "33880370",
+      "36341343",
+      "39396400",
+      "41145553",
+      "39509434",
+      "39754246",
+      "39855613",
+      "38987624",
+      "38571624",
+      "29605607",
+      "40093012",
+      "37091800",
+      "40253457",
+      "39375405",
+      "41146237",
+      "39263286",
+      "31390270",
+      "38512428",
+      "41200172",
+      "38260098",
+      "40842856",
+      "39139563",
+      "41255601",
+      "38690269",
+      "40376515",
+      "36823662",
+      "37667921",
+      "41006883",
+      "36532018",
+      "40303487",
+      "39188323",
+      "38499050",
+      "35480868",
+      "37745699",
+      "39875572",
+      "41432483",
+      "41249240",
+      "39717265",
+      "39512836",
+      "36553511",
+      "40229837",
+      "37822923",
+      "40809841",
+      "39697749",
+      "41164826",
+      "40997906",
+      "38587531",
+      "40965027",
+      "37653627",
+      "39062507",
+      "38726127",
+      "40901831",
+      "40340571",
+      "35177174",
+      "39697326",
+      "35865542",
+      "35337258",
+      "39975557",
+      "36806964",
+      "40860289",
+      "41044520",
+      "40726903",
+      "39142001",
+      "40087744",
+      "38554173",
+      "40332792",
+      "39346628",
+      "31756560",
+      "40596265",
+      "33731807",
+      "40078458",
+      "32934961",
+      "40374866",
+      "41324863",
+      "41276899",
+      "38867322",
+      "40625576",
+      "41350988"
+    ],
+    "review": [
+      "40949910"
+    ],
+    "pmc": [
+      "12433084"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40949910.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40949910/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tp-2025-247",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

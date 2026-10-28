@@ -1,0 +1,165 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.28.596078",
+  "title": "Transfer learning reveals sequence determinants of the quantitative response to transcription factor dosage",
+  "doi": "10.1101/2024.05.28.596078",
+  "abstract": "Deep learning approaches have made significant advances in predicting cell type-specific chromatin patterns from the identity and arrangement of transcription factor (TF) binding motifs. However, most models have been applied in unperturbed contexts, precluding a predictive understanding of how chromatin state responds to TF perturbation. Here, we used transfer learning to train and interpret deep learning models that use DNA sequence to predict, with accuracy approaching experimental reproducibility, how the concentration of two dosage-sensitive TFs (TWIST1, SOX9) affects regulatory element (RE) chromatin accessibility in facial progenitor cells. High-affinity motifs that allow for heterotypic TF co-binding and are concentrated at the center of REs buffer against quantitative changes in TF dosage and strongly predict unperturbed accessibility. In contrast, motifs with low-affinity or homotypic binding distributed throughout REs lead to sensitive responses with minimal contributions to unperturbed accessibility. Both buffering and sensitizing features show signatures of purifying selection. We validated these predictive sequence features using reporter assays and showed that a biophysical model of TF-nucleosome competition can explain the sensitizing effect of low-affinity motifs. Our approach of combining transfer learning and quantitative measurements of the chromatin response to TF dosage therefore represents a powerful method to reveal additional layers of the cis-regulatory code.",
+  "authors": [
+    "Naqvi S",
+    "Kim S",
+    "Tabatabaee S",
+    "Pampari A",
+    "Kundaje A",
+    "Pritchard JK",
+    "Wysocka J"
+  ],
+  "published_date": "2024-05-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.28.596078",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.28.596078.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR859107",
+    "raw_record": {
+      "id": "PPR859107",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.28.596078",
+      "title": "Transfer learning reveals sequence determinants of the quantitative response to transcription factor dosage",
+      "authorString": "Naqvi S, Kim S, Tabatabaee S, Pampari A, Kundaje A, Pritchard JK, Wysocka J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Naqvi S",
+            "lastName": "Naqvi",
+            "firstName": "Sahin",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kim S",
+            "lastName": "Kim",
+            "firstName": "Seungsoo",
+            "initials": "S"
+          },
+          {
+            "fullName": "Tabatabaee S",
+            "lastName": "Tabatabaee",
+            "firstName": "Saman",
+            "initials": "S"
+          },
+          {
+            "fullName": "Pampari A",
+            "lastName": "Pampari",
+            "firstName": "Anusri",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6579-4070"
+            }
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A"
+          },
+          {
+            "fullName": "Pritchard JK",
+            "lastName": "Pritchard",
+            "firstName": "Jonathan",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8828-5236"
+            }
+          },
+          {
+            "fullName": "Wysocka J",
+            "lastName": "Wysocka",
+            "firstName": "Joanna",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6579-4070"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8828-5236"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Deep learning approaches have made significant advances in predicting cell type-specific chromatin patterns from the identity and arrangement of transcription factor (TF) binding motifs. However, most models have been applied in unperturbed contexts, precluding a predictive understanding of how chromatin state responds to TF perturbation. Here, we used transfer learning to train and interpret deep learning models that use DNA sequence to predict, with accuracy approaching experimental reproducibility, how the concentration of two dosage-sensitive TFs (TWIST1, SOX9) affects regulatory element (RE) chromatin accessibility in facial progenitor cells. High-affinity motifs that allow for heterotypic TF co-binding and are concentrated at the center of REs buffer against quantitative changes in TF dosage and strongly predict unperturbed accessibility. In contrast, motifs with low-affinity or homotypic binding distributed throughout REs lead to sensitive responses with minimal contributions to unperturbed accessibility. Both buffering and sensitizing features show signatures of purifying selection. We validated these predictive sequence features using reporter assays and showed that a biophysical model of TF-nucleosome competition can explain the sensitizing effect of low-affinity motifs. Our approach of combining transfer learning and quantitative measurements of the chromatin response to TF dosage therefore represents a powerful method to reveal additional layers of the cis-regulatory code.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.28.596078"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.28.596078"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40020686",
+            "reference": "Cell genomics. 2025 Mar;5(3):100780",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-31",
+      "firstPublicationDate": "2024-05-29",
+      "firstIndexDate": "2024-05-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

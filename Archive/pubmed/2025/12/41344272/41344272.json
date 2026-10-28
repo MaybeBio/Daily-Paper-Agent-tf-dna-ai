@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41344272",
+    "doi": "10.1016/j.phymed.2025.157640",
+    "title": "Harmine inhibits non-small cell lung cancer growth by targeting phosphodiesterase4D and inducing ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Non-small cell lung cancer (NSCLC) is a major cause of cancer-related death, and resistance to conventional therapies underscores the urgent need for novel treatment strategies. Ferroptosis, an iron-dependent form of regulated cell death, offers a promising alternative to overcome apoptosis resistance. Harmine (HM), a natural beta-carboline alkaloid, exhibits antitumor activity in various cancers, but its potential in NSCLC and the underlying mechanisms remain unclear. PURPOSE: This study investigates the anti-NSCLC effects of harmine and aims to define its molecular target and mechanism, with a focus on ferroptosis induction. METHODS: The effects of harmine on NSCLC cells (A549, H1299) were assessed by CCK-8, colony formation, wound healing, Transwell, EdU, and flow cytometry. Ferroptosis was assessed by measuring ROS, iron accumulation, lipid peroxidation, and expression of key markers (GPX4, SLC7A11) via qPCR and Western blot; PI3K-Akt-Nrf2 signaling activity was evaluated by Western blot. Target identification integrated network pharmacology, molecular docking, and CETSA; the interaction between phosphodiesterase 4D (PDE4D) and PI3K was confirmed by co-immunoprecipitation. The role of PDE4D was further validated by overexpression, siRNA knockdown, and PDE4D-F332A rescue. In vivo efficacy and safety were tested in A549 xenograft models. RESULTS: Harmine suppressed NSCLC cell proliferation and migration, induced G0/G1 arrest, and promoted apoptosis. It triggered ferroptosis, as shown by Fe(2)(+) accumulation, lipid peroxidation, upregulation of PTGS2, ACSL4, and LPCAT3, and downregulation of GPX4, SLC7A11, and Nrf2. These phenotypes were reversed by Ferrostatin-1 in assays of cell viability, lipid peroxidation, and iron levels. Mechanistically, harmine bound PDE4D, disrupted its interaction with PI3K, and inhibited the PI3K-Akt-Nrf2 axis. PDE4D overexpression counteracted harmine's effects, whereas mutation of the harmine-binding residue Phe-332 (PDE4D-F332A) abrogated its antitumor activity. In vivo, harmine significantly inhibited tumor growth without evident systemic toxicity. CONCLUSION: Harmine exerts antitumor effects in NSCLC by inducing ferroptosis through direct targeting of PDE4D and suppression of the PI3K-Akt-Nrf2 pathway, highlighting PDE4D as a novel therapeutic target and harmine as a promising candidate for NSCLC treatment.",
+    "keywords": [
+      "Ferroptosis",
+      "Harmine",
+      "NSCLC",
+      "PDE4D",
+      "PI3K-Akt-Nrf2 pathway"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/pathology/metabolism",
+      "Humans",
+      "Animals",
+      "*Harmine/pharmacology",
+      "*Lung Neoplasms/drug therapy/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Mice",
+      "Mice, Nude",
+      "*Cyclic Nucleotide Phosphodiesterases, Type 4/metabolism",
+      "Xenograft Model Antitumor Assays",
+      "Cell Proliferation/drug effects",
+      "A549 Cells",
+      "Mice, Inbred BALB C",
+      "Signal Transduction/drug effects",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "NF-E2-Related Factor 2/metabolism",
+      "*Antineoplastic Agents, Phytogenic/pharmacology",
+      "Reactive Oxygen Species/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Molecular Docking Simulation",
+      "Apoptosis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Jinrong",
+        "Xiong, Qi",
+        "Qi, Yu",
+        "Peng, Caixia",
+        "Hu, Linling",
+        "Xia, Mingfeng",
+        "Zhu, Biqiang",
+        "Xu, Bo",
+        "Ding, Yu"
+      ],
+      "short_names": [
+        "He J",
+        "Xiong Q",
+        "Qi Y",
+        "Peng C",
+        "Hu L",
+        "Xia M",
+        "Zhu B",
+        "Xu B",
+        "Ding Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China; Department of Ophthalmology, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China; Hubei Shizhen Laboratory, Wuhan, China.",
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China.",
+        "Shouzheng Pharma Biotechnology Co., Ltd, Wuhan, China.",
+        "Department of Urology, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. Electronic address: dream_dc@live.cn.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China; Postdoctoral mobile workstation, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. Electronic address: dingyu.1987@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Jinrong",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Qi",
+        "short_name": "Xiong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China; Department of Ophthalmology, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yu",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China; Hubei Shizhen Laboratory, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Caixia",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Linling",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Mingfeng",
+        "short_name": "Xia M",
+        "identifiers": [],
+        "affiliations": [
+          "Shouzheng Pharma Biotechnology Co., Ltd, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Biqiang",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. Electronic address: dream_dc@live.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Bo",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Sciences, Beijing, China; Postdoctoral mobile workstation, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Yu",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. Electronic address: dingyu.1987@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/05 01:02",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41344272",
+      "40412057",
+      "39093464",
+      "40456202",
+      "33113504",
+      "29510387",
+      "40344847",
+      "40219018",
+      "41477979",
+      "40992442",
+      "40216870",
+      "40877163",
+      "41495322",
+      "41499386",
+      "41101075",
+      "41231318",
+      "39566405",
+      "41422727",
+      "40592077",
+      "41115641",
+      "38305308",
+      "41187650",
+      "38884168",
+      "40499802",
+      "40876907",
+      "39380001",
+      "38815788",
+      "29024631",
+      "41408403",
+      "40311718",
+      "40865655",
+      "34429133",
+      "31055884",
+      "39965807",
+      "28088493",
+      "40618168",
+      "29857117",
+      "40935272",
+      "40316156",
+      "30913062",
+      "41308710",
+      "39045884",
+      "37070571",
+      "39566811",
+      "39722125",
+      "39129291",
+      "40114527",
+      "38438754",
+      "40153970",
+      "38762212",
+      "40819642",
+      "28738500",
+      "41138574",
+      "40185258",
+      "33197518",
+      "38649803",
+      "36674871",
+      "30825187",
+      "37856990",
+      "40324967",
+      "40543691",
+      "38744789",
+      "40931041",
+      "38677269",
+      "41389617",
+      "39012393",
+      "39533773",
+      "38507850",
+      "38814975",
+      "39356318",
+      "39513605",
+      "40887997",
+      "38642004",
+      "28004121",
+      "38609654",
+      "41067204",
+      "40812220",
+      "41452395",
+      "40928458",
+      "40083086",
+      "40578959",
+      "39260134",
+      "40222690",
+      "41451920",
+      "38852643",
+      "40011884",
+      "41412234",
+      "30066933",
+      "39256509",
+      "41173313",
+      "39393329",
+      "38950838",
+      "28746938",
+      "41353880",
+      "40613296",
+      "38735135",
+      "38761775",
+      "39557107",
+      "39032284",
+      "29669316"
+    ],
+    "review": [
+      "41344272"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)01275-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification and in silico characterisation of a single Orc1/Cdc6 protein in *Entamoeba histolytica*, including physicochemical analysis, 3D structure prediction, protein-protein interaction studies, molecular docking, and simulation. They conclude that the pre-replication machinery in this parasite is less complex than in higher eukaryotes and closer to archaea, and propose this as groundwork for future studies on origin recognition and cell cycle anomalies.
+- **Visible evidence base** Abstract text only; no methodological details, sequence alignments, structural coordinates, docking scores, simulation parameters, or comparative data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, sequence accession numbers, validation metrics for structural models, docking and simulation protocols, and any comparative analyses with archaeal or eukaryotic orthologs
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding a simplified replication initiation machinery in a medically important parasite. However, the evidence base is limited to a summary of in silico results without sufficient methodological or quantitative detail to assess technical soundness. The central claim of functional significance is not established from the abstract alone, and several statements appear speculative relative to the described analyses.
+- **Who would be interested in the results, and why** Researchers studying DNA replication initiation in divergent eukaryotes, particularly parasitic protozoa, may find the identification of a single Orc1/Cdc6 protein of interest. The work could also appeal to those investigating evolutionary simplification of replication machinery and to structural biologists using computational approaches for understudied proteins. The potential link to cell cycle anomalies in *E. histolytica* may attract parasitologists focused on pathogenesis.
+- **Major strengths** The study addresses a clear gap in knowledge, as Orc components have not been previously characterised in this organism. The use of multiple complementary in silico approaches is appropriate for a first-pass characterisation. The evolutionary comparison to archaea provides a useful conceptual framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a "single functional Orc1/Cdc6 protein" and that structural and functional aspects have been highlighted through in silico analysis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any evidence that the identified protein is "functional." No experimental validation, functional assay, or even strong computational evidence such as conserved domain architecture with known functional residues is described. The term "functional" appears to be inferred from sequence or structural predictions, which is not sufficient to establish function.
+  - **Why it matters** The central claim of the paper rests on the functional relevance of this protein. Without evidence of function, the conclusion that *E. histolytica* carries simplified pre-replication machinery is premature. Overstating functional significance from in silico data alone could mislead readers and future research directions.
+  - **Resolution test** Provide evidence of conserved functional motifs, successful complementation assays, or at minimum a clear statement that "functional" refers to predicted functionality based on homology, with appropriate caveats. If experimental data exist in the full manuscript, they must be explicitly referenced in the abstract.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "structural and functional aspects have been highlighted by a detailed in silico analysis" including molecular docking and simulation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative results from docking or simulation are reported. There are no binding affinities, interaction energies, stability metrics such as RMSD or RMSF, or comparison to controls. Without these data, the reader cannot assess whether the docking and simulation results are meaningful or statistically robust.
+  - **Why it matters** Molecular docking and simulation are only informative when results are presented with appropriate metrics and compared to relevant baselines. The absence of any numerical data in the abstract prevents evaluation of the technical quality and significance of these analyses.
+  - **Resolution test** Include key quantitative outcomes in the abstract, such as docking scores, interaction residues, and simulation stability measures, or clearly state that these details are in the full manuscript with specific figure references.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that "E. histolytica carries pre-replication machinery that is less complex than higher eukaryotes and closer to archaea."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This evolutionary conclusion is presented without comparative data. The abstract does not describe any phylogenetic analysis, sequence comparison to archaeal or eukaryotic Orc1/Cdc6 proteins, or structural comparison that would support this claim. The statement appears to be an inference from the identification of a single protein, which is insufficient.
+  - **Why it matters** The evolutionary placement of this protein is a key conclusion that distinguishes this work from a simple characterisation study. Without explicit comparative evidence, the claim is unsupported and could be misleading about the evolutionary relationships of replication machinery in this parasite.
+  - **Resolution test** Provide phylogenetic analysis or sequence similarity comparisons to archaeal and eukaryotic orthologs, with statistical support, or temper the claim to reflect that the simplified composition is suggestive but not confirmed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract assumes familiarity with the pre-replication complex components without defining abbreviations beyond the first use. Terms such as "origin" and "pre-replication complex" are used without brief contextual explanation.
+  - **Required correction** Add a brief phrase explaining that the pre-replication complex is required for initiating DNA replication at specific genomic locations, to orient readers outside the DNA replication field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement that this work "lays the groundwork for future investigations into the methods of origin recognition, and anomalies of cell cycle" is vague and not directly supported by the described analyses. The link between a single Orc1/Cdc6 protein and cell cycle anomalies is not explained.
+  - **Required correction** Clarify the specific hypothesis connecting the simplified replication machinery to cell cycle regulation, or remove the reference to cell cycle anomalies if it is not addressed in the study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract methods description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "predictive 3D structure modelling" is imprecise. It is unclear whether this refers to homology modelling, ab initio prediction, or threading, which have different reliability levels.
+  - **Required correction** Specify the modelling method used, such as homology modelling based on a named template, to allow readers to gauge the expected accuracy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient evidence to support the central claims of functionality and the significance of the docking and simulation results. R1-M3 is non-blocking but requires additional comparative data to support the evolutionary conclusion.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a single Orc1/Cdc6 in *E. histolytica* is novel and addresses an understudied area. However, the abstract does not demonstrate how this finding extends beyond a routine homology-based identification.
+  - **Scientific importance** The potential simplification of replication machinery in a major human pathogen is of interest, but the importance is not fully established without functional or evolutionary evidence.
+  - **Interdisciplinary readership** The topic may appeal to parasitologists, molecular biologists, and evolutionary biologists, but the abstract is too specialised and lacks context for broader appeal.
+  - **Technical soundness** Not assessable from the abstract due to missing quantitative data and methodological details. The use of multiple in silico methods is appropriate, but the results are not presented in a verifiable form.
+  - **Readability for nonspecialists** The abstract is concise but assumes significant background knowledge. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of quantitative results and the overstatement of functional significance prevent a supportive recommendation. If the full manuscript provides robust docking and simulation data, comparative evolutionary analysis, and appropriately caveated functional claims, the work could be considered for publication in a specialised journal.
+
+## Risk / unsupported claims
+- The claim that the identified protein is "functional" is unsupported by the abstract evidence.
+- The claim that the pre-replication machinery is "less complex than higher eukaryotes and closer to archaea" is unsupported without comparative phylogenetic or structural data.
+- The statement that the work "lays the groundwork for future investigations into the methods of origin recognition, and anomalies of cell cycle" is speculative and not directly tied to the described analyses.
+- The overall significance of the docking and simulation results cannot be evaluated due to the absence of any quantitative metrics in the abstract.

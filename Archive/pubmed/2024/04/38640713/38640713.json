@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "38640713",
+    "doi": "10.1016/j.intimp.2024.112036",
+    "title": "Berberine alleviates neuroinflammation by downregulating NFkappaB/LCN2 pathway in sepsis-associated encephalopathy: network pharmacology, bioinformatics, and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis refers to a systemic inflammatory response caused by infection, involving multiple organs. Sepsis-associated encephalopathy (SAE), as one of the most common complications in patients with severe sepsis, refers to the diffuse brain dysfunction caused by sepsis without central nervous system infection. However, there is no clear diagnostic criteria and lack of specific diagnostic markers. METHODS: The main active ingredients of coptidis rhizoma(CR) were identified from TCMSP and SwissADME databases. SwissTargetPrediction and PharmMapper databases were used to obtain targets of CR. OMIM, DisGeNET and Genecards databases were used to explore targets of SAE. Limma differential analysis was used to identify the differential expressed genes(DEGs) in GSE167610 and GSE198861 datasets. WGCNA was used to identify feature module. GO and KEGG enrichment analysis were performed using Metascape, DAVID and STRING databases. The PPI network was constructed by STRING database and analyzed by Cytoscape software. AutoDock and PyMOL software were used for molecular docking and visualization. Cecal ligation and puncture(CLP) was used to construct a mouse model of SAE, and the core targets were verified in vivo experiments. RESULTS: 277 common targets were identified by taking the intersection of 4730 targets related to SAE and 509 targets of 9 main active ingredients of CR. 52 common DEGs were mined from GSE167610 and GSE198861 datasets. Among the 25,864 DEGs in GSE198861, LCN2 showed the most significant difference (logFC = 6.9). GO and KEGG enrichment analysis showed that these 52 DEGs were closely related to \"inflammatory response\" and \"innate immunity\". A network containing 38 genes was obtained by PPI analysis, among which LCN2 ranked the first in Degree value. Molecular docking results showed that berberine had a well binding affinity with LCN2. Animal experiments results showed that berberine could inhibit the high expression of LCN2,S100A9 and TGM2 induced by CLP in the hippocampus of mice, as well as the high expression of inflammatory factors (TNFalpha, IL-6 and IL-1beta). In addition, berberine might reduce inflammation and neuronal cell death by partially inhibiting NFkappaB/LCN2 pathway in the hippocampus of CLP models, thereby alleviating SAE. CONCLUSION: Overall, Berberine may exert anti-inflammatory effects through multi-ingredients, multi-targets and multi-pathways to partially rescue neuronal death and alleviate SAE.",
+    "keywords": [
+      "Bioinformatics",
+      "Coptidis Rhizoma",
+      "Lipocalin 2 (LCN2)",
+      "Molecular Docking",
+      "Network Pharmacology",
+      "Sepsis-Associated Encephalopathy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Male",
+      "Mice",
+      "Anti-Inflammatory Agents/therapeutic use/pharmacology",
+      "*Berberine/pharmacology/therapeutic use",
+      "*Computational Biology",
+      "Disease Models, Animal",
+      "Down-Regulation",
+      "Drugs, Chinese Herbal/therapeutic use/pharmacology/chemistry",
+      "*Lipocalin-2/genetics/metabolism",
+      "Mice, Inbred C57BL",
+      "Molecular Docking Simulation",
+      "*Network Pharmacology",
+      "Neuroinflammatory Diseases/drug therapy",
+      "*NF-kappa B/metabolism",
+      "Protein Interaction Maps",
+      "Sepsis/drug therapy",
+      "*Sepsis-Associated Encephalopathy/drug therapy/metabolism",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Hailong",
+        "Xia, Yun",
+        "Jing, Guoqing",
+        "Yuan, Min",
+        "Zhou, Huimin",
+        "Wu, Die",
+        "Zuo, Jing",
+        "Lei, Chuntian",
+        "Aidebaike, Delida",
+        "Wu, Xiaojing",
+        "Song, Xuemin"
+      ],
+      "short_names": [
+        "Gong H",
+        "Xia Y",
+        "Jing G",
+        "Yuan M",
+        "Zhou H",
+        "Wu D",
+        "Zuo J",
+        "Lei C",
+        "Aidebaike D",
+        "Wu X",
+        "Song X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China.",
+        "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China. Electronic address: rm000851@whu.edu.cn.",
+        "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China. Electronic address: xueminsong@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Hailong",
+        "short_name": "Gong H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yun",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Guoqing",
+        "short_name": "Jing G",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Min",
+        "short_name": "Yuan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huimin",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Die",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Jing",
+        "short_name": "Zuo J",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Chuntian",
+        "short_name": "Lei C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Aidebaike, Delida",
+        "short_name": "Aidebaike D",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaojing",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Renmin Hospital of Wuhan University, Wuhan, Hubei Province 430060, China. Electronic address: rm000851@whu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Xuemin",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Research Centre of Anesthesiology and Critical Care Medicine, Zhongnan Hospital of Wuhan University, Wuhan, Hubei Province 430071, China. Electronic address: xueminsong@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2024 May 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/20 00:43",
+    "fetched_at": "2026-09-29 18:46:07"
+  },
+  "links": {
+    "cites": [
+      "42422075",
+      "42266183",
+      "42111265",
+      "41981006",
+      "41882153",
+      "40869116",
+      "40653267",
+      "40611954",
+      "40218223",
+      "40025014",
+      "39825206",
+      "39430588",
+      "39212823",
+      "39151100"
+    ],
+    "refs": [],
+    "similar": [
+      "38640713",
+      "36452059",
+      "37499457",
+      "39205203",
+      "37287284",
+      "38759074",
+      "37818576",
+      "37807411",
+      "37833363",
+      "38619514",
+      "38704553",
+      "33444721",
+      "37563784",
+      "37382018",
+      "37190808",
+      "37340752",
+      "37879505",
+      "34746302",
+      "37832514",
+      "37454750",
+      "33634308",
+      "38910274",
+      "34414237",
+      "36471963",
+      "37938194",
+      "36472040",
+      "32315738",
+      "37802827",
+      "35851129",
+      "35851128",
+      "37478234",
+      "34873575",
+      "37317908",
+      "35616676",
+      "38781871",
+      "36604925",
+      "39041138",
+      "36471978",
+      "39311772",
+      "35249866",
+      "38952086",
+      "39006190",
+      "34675276",
+      "37748390",
+      "39094758",
+      "36280016",
+      "34560213",
+      "37718520",
+      "38050247",
+      "38115276",
+      "37859322",
+      "38588987",
+      "37843333",
+      "39095732",
+      "38997656",
+      "37824375",
+      "34353081",
+      "37812997",
+      "37799727",
+      "35249865",
+      "36164911",
+      "34492285",
+      "35837376",
+      "39280256",
+      "35097126",
+      "38990083",
+      "39354431",
+      "34997010",
+      "37282910",
+      "37817514",
+      "38114219",
+      "36472039",
+      "36372090",
+      "35303581",
+      "34711216",
+      "36660250",
+      "34149863",
+      "39125368",
+      "34746316",
+      "38704482",
+      "39333622",
+      "33645090",
+      "33513419",
+      "36872277",
+      "34753385",
+      "35430443",
+      "34660782",
+      "35103290",
+      "35578843",
+      "34785888",
+      "38812235",
+      "38428659",
+      "35367313",
+      "39346898",
+      "35178961",
+      "35988839",
+      "35873910",
+      "34692849",
+      "35097123",
+      "33866197",
+      "35850814",
+      "37883768",
+      "37080367",
+      "33496115",
+      "36472041",
+      "38007574",
+      "37474991",
+      "37852337",
+      "38310568",
+      "38905418",
+      "38645989",
+      "36872279",
+      "35151646",
+      "39046414",
+      "37138492",
+      "34159207",
+      "37282883",
+      "38992401",
+      "37814868",
+      "38914662",
+      "38735091",
+      "39135520",
+      "38801815",
+      "39216299",
+      "37211841",
+      "33574879",
+      "38761990",
+      "39106713",
+      "39051070",
+      "39364246",
+      "38858747",
+      "39289941",
+      "38976956",
+      "38824977",
+      "39236479",
+      "39059098",
+      "39041122",
+      "38850960",
+      "39115719",
+      "39236454",
+      "37906275",
+      "38517810",
+      "39400418",
+      "37878048",
+      "39066667",
+      "39367850",
+      "39276053",
+      "39183433",
+      "38499156",
+      "38837094",
+      "37486473",
+      "39312992",
+      "39423109",
+      "39081703",
+      "38941899",
+      "39092733",
+      "37747012",
+      "38242525",
+      "39190359",
+      "39009096",
+      "39318013",
+      "39044161",
+      "39098398",
+      "36337846",
+      "39068155",
+      "38178669",
+      "38964718",
+      "36532769",
+      "39329977",
+      "38423372",
+      "39429846",
+      "39029543",
+      "39217296",
+      "36922751",
+      "39151100",
+      "39408591",
+      "39238407",
+      "39137627",
+      "33174609",
+      "39421985",
+      "39236475",
+      "39253070",
+      "36671050",
+      "39281806",
+      "38988155",
+      "39340228",
+      "36483630",
+      "39053420",
+      "36506032",
+      "34764472",
+      "39085078",
+      "38954252",
+      "37008225",
+      "39248484",
+      "39379677",
+      "38490871",
+      "39067684",
+      "38110647",
+      "39405930",
+      "39027435",
+      "39315330",
+      "39111545",
+      "38759311"
+    ],
+    "review": [
+      "38640713",
+      "37478234",
+      "35303581",
+      "37747012",
+      "39329977",
+      "39029543",
+      "34764472",
+      "37008225",
+      "38110647",
+      "39027435"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(24)00554-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38640713.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3778",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

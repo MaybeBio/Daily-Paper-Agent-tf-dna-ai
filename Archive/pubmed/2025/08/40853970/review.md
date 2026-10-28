@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supporting information references.
+- **Assessment boundary** Scientific validity, methodological rigor, clarity of claims, and alignment of evidence with conclusions. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors combine single-molecule DNA flow-stretching experiments with Brownian dynamics simulations to show that PEG increases the end-to-end length of tethered λ-DNA in shear flow and reduces fluctuations of the free DNA end, and that this results from a dual role of PEG: increased buffer viscosity and an effective attractive interaction between DNA segments. They report quantitative agreement between simulations and experiments for suitable interaction parameters.
+- **Visible evidence base** Experimental measurements of buffer viscosity (Section 2.1, Table 1), single-molecule flow-stretching data for 0%, 3%, and 5% PEG (Section 4.2, Figs 4 and 5), Brownian dynamics simulation results (Section 4.3, Figs 6 and 7), and statistical analyses (Mann-Whitney tests).
+- **Missing materials affecting confidence** Full experimental protocols for DNA tethering and flow cell preparation are referenced but not fully detailed in the provided text. Raw data are stated to be in Supplementary S1 Data, but not available for review. Details of the simulation code and parameter choices are partially provided, but convergence and error analysis are not fully described. The discussion section is truncated, and no explicit limitations or alternative interpretations are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in single-molecule biophysics: how crowding agents such as PEG affect the behavior of tethered DNA in shear flow. The combination of experiments and simulations is appropriate and potentially powerful. However, the current presentation has several weaknesses that prevent full confidence in the conclusions. The central claim of quantitative agreement between simulations and experiments rests on a fitting procedure that is not fully transparent, and the statistical treatment of the experimental data is incomplete. The manuscript would benefit from clearer reporting of uncertainties, a more detailed description of the simulation methodology, and a more critical discussion of the assumptions underlying the model.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, polymer physics, and DNA-protein interaction studies would be interested. The work is relevant to those using flow-stretching assays to study DNA-binding proteins under crowded conditions, as it provides a framework for interpreting how PEG affects DNA conformation. The simulation approach may also be of interest to computational biophysicists studying polymer dynamics in flow.
+- **Major strengths** The study combines experimental and computational approaches, which is a strength. The use of quantum dot labeling to avoid intercalating dyes is a methodological improvement. The authors explicitly separate the effects of viscosity and PEG-DNA interactions, which is a clear conceptual framework. The statistical test (Mann-Whitney) is appropriate for non-normal data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim quantitative agreement between simulations and experiments for the mean chain extension and fluctuations of the free DNA end.
+  - **Evidence pointer** Section 4.3, Figs 6 and 7
+  - **Concern** The agreement between simulations and experiments is established by fitting the constant c' (and thus the Weissenberg number) to the zero-PEG condition, and then fitting α for each value of D to the 3% PEG data. The 5% PEG data are then compared without adjustable parameters. This procedure is reasonable, but the manuscript does not report the uncertainty in the fitted parameters, nor does it show how sensitive the agreement is to the choice of D. The claim of "quantitative agreement" is therefore not fully supported by the presented evidence.
+  - **Why it matters** The central conclusion of the paper rests on the validity of the simulation model and the fitting procedure. Without a clear statement of uncertainties and a sensitivity analysis, the reader cannot judge whether the agreement is meaningful or coincidental.
+  - **Resolution test** The authors should report the fitted values of c' and α with their uncertainties, and show how the simulated ξ and φ values change when D is varied within a reasonable range. They should also provide a quantitative measure of the agreement (e.g., chi-squared or root-mean-square deviation) between simulations and experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that the addition of 3% and 5% PEG increases the mean chain extension and reduces fluctuations in a statistically significant way (p < 0.0001).
+  - **Evidence pointer** Section 4.2, Figs 4 and 5, Table 1
+  - **Concern** The manuscript reports p-values from Mann-Whitney tests but does not describe how the data were aggregated across the 49 individual DNA molecules. It is unclear whether the test was performed on the per-molecule means, on the pooled time-averaged positions, or on some other quantity. The number of independent observations (N = 49) is stated, but the effective sample size for the statistical test is not clear. Additionally, the effect sizes are not reported, only the p-values.
+  - **Why it matters** The statistical significance of the experimental results is a key part of the evidence. Without a clear description of the statistical procedure, the reader cannot assess whether the reported p-values are valid.
+  - **Resolution test** The authors should describe exactly what quantity was used for the Mann-Whitney test (e.g., per-molecule mean extension), report the effect sizes (e.g., median difference with confidence intervals), and state whether the test was one-tailed or two-tailed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model assumptions
+  - **Claim pointer** The simulation model assumes a pairwise, attractive interaction between DNA segments that is proportional to [PEG] and decays exponentially with distance, with parameters α and D.
+  - **Evidence pointer** Section 3.1, Eq. (7)
+  - **Concern** The form of the interaction potential is introduced as a phenomenological assumption, guided by analogy to hydrophobic interactions. However, the manuscript does not discuss whether this form is physically justified for PEG-DNA interactions, nor does it compare the resulting interaction strength to any independent estimate. The choice of D values (a and a/2) is arbitrary, and the manuscript does not explain why these values were chosen.
+  - **Why it matters** The simulation results depend critically on the form of the interaction potential. If the potential is not a reasonable representation of the actual PEG-DNA interaction, the agreement with experiments may be fortuitous.
+  - **Resolution test** The authors should provide a more detailed justification for the form of the interaction potential, and ideally compare the fitted interaction parameters to independent measurements or estimates. They should also discuss the sensitivity of the results to the functional form of the potential.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, flow rate calculation
+  - **Evidence pointer** Section 2.4, Eq. (1)
+  - **Issue** The text states that the flow rate is Q = 0.833 μL/s, but the calculation of the average flow speed ux,avg = 3.856 mm/s is not shown. It would be helpful to show the calculation.
+  - **Required correction** Show the calculation of ux,avg from Q and the cross-sectional area.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2, 10% PEG experiments
+  - **Evidence pointer** Section 4.2
+  - **Issue** The authors state that 10% PEG led to nonspecific DNA binding and no reproducible results, but no data are shown. It would be useful to include a brief description of the observed behavior, even if not quantitative.
+  - **Required correction** Add a sentence describing the qualitative observation of nonspecific binding at 10% PEG.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.5, data analysis
+  - **Evidence pointer** Section 2.5
+  - **Issue** The manuscript states that custom MATLAB software was used for data analysis, but the code is not provided. The authors reference a previous publication for the code, but it would be helpful to provide the code or a link to it.
+  - **Required correction** Provide a link to the MATLAB code or state that it is available upon request.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3, Weissenberg number
+  - **Evidence pointer** Section 3.3, Eq. (22)
+  - **Issue** The definition of the Weissenberg number uses the longest relaxation time τR, but the manuscript does not state how τR was determined for the experimental system. It is stated that τR is proportional to viscosity, but the proportionality constant is not given.
+  - **Required correction** State how τR was determined for the experimental DNA, or clarify that it is only used as a fitting parameter.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Section 5
+  - **Issue** The discussion section is truncated and ends with "It would be interesting to extend this work in the following directions:" without listing the directions. This appears to be an incomplete sentence.
+  - **Required correction** Complete the sentence or remove it.
+
+## Risk / unsupported claims
+- The claim of "quantitative agreement" between simulations and experiments is not fully supported due to the lack of reported uncertainties in fitted parameters and the absence of a sensitivity analysis.
+- The statistical significance of the experimental results is not fully assessable without a clear description of the statistical procedure.
+- The physical justification for the form of the PEG-DNA interaction potential is not provided, making the simulation results potentially model-dependent.
+- The statement that 10% PEG led to nonspecific binding is not supported by any data.
+- The manuscript does not discuss potential limitations of the model, such as the neglect of hydrodynamic interactions or the assumption of a constant shear rate.

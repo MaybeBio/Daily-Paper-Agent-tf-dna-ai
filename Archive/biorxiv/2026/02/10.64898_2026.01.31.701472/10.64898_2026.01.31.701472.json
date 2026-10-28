@@ -1,0 +1,999 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.31.701472",
+  "title": "Polyploid cardiomyocytes define disease-specific transcriptional states in the mammalian heart",
+  "doi": "10.64898/2026.01.31.701472",
+  "abstract": "The adult mammalian heart has a limited regenerative capacity. Following injury, cardiomyocytes undergo a hypertrophic response accompanied by polyploidization, which has been described as a barrier to proliferation and regeneration of the heart 1,2 . However, the unique molecular programs of polyploidy, or genome multiplied cardiomyocytes, and their influence on the disease-related myocardial remodelling process remains unclear. Here, we integrate single-nuclei and high-resolution spatial multi-omics across human, rat, and mouse hearts to define novel cardiac cell states and their tissue niches in ischemic and non-ischemic heart disease. Computational analysis across scales allowed us to generate detailed networks of the cardiac tissue remodelling process as well as tissue and sub-cellular environments uniquely enriched in polyploid cardiomyocytes or their diploid origins. We identify a conserved, dichotomous transcriptional program distinguishing diploid from polyploid cardiomyocytes. Polyploid cardiomyocytes demonstrated rewired metabolic and chromatin-remodeling transcriptional programs and recapitulate the gene signature of immature human fetal cardiomyocytes. Notably, we observe that polyploid cardiomyocytes—rather than the general myocyte population—are the primary sites of enrichment for major heart-failure drug targets, including the mineralocorticoid, β1-adrenergic, and glucagon-like peptide-1 receptors. Based on our cross-species dataset we further identified TNIK, a Wnt-pathway regulator expressed in polyploid cardiomyocytes across species, as a potential therapeutic target and demonstrate that pharmacological TNIK inhibition improves cardiac function after myocardial infarction in rats. Together, this species-spanning, disease-resolved study redefines cardiomyocyte heterogeneity in heart disease and suggests a therapeutic path to heart failure treatment by targeting polyploid cardiomyocytes.",
+  "authors": [
+    "Kiessling P",
+    "Joodaki M",
+    "Pikulska D",
+    "Scheidereit E",
+    "Cesaro G",
+    "Ruiz M",
+    "Kühn D",
+    "Peng K",
+    "Goni O",
+    "Foecking S",
+    "Samiei S",
+    "Liao X",
+    "Li K",
+    "Feng Z",
+    "Wang D",
+    "Mavrommatis L",
+    "Vllaho A",
+    "Rombach M",
+    "Cucinella G",
+    "Cheng M",
+    "Lautenschläger T",
+    "Morales DR",
+    "Veltrop RJA",
+    "Schurgers LJ",
+    "von Scheidt M",
+    "Klinkhammer BM",
+    "Kahles F",
+    "Kranz J",
+    "Aguirre A",
+    "Loft A",
+    "Klümper N",
+    "Eckstein M",
+    "Seidel T",
+    "Forte G",
+    "Westland R",
+    "Zhang M",
+    "Zhao H",
+    "Ren F",
+    "Hayat S",
+    "Amrute J",
+    "Kopecky B",
+    "Schneider RK",
+    "Medyouf H",
+    "Tharaux P",
+    "Boor P",
+    "Kramann R",
+    "van Laake LW",
+    "Vos A",
+    "Bakker BSd",
+    "Hanemaaijer-van der Veer J",
+    "Lavine K",
+    "Marx N",
+    "Klingel K",
+    "Schaub MT",
+    "Dimmeler S",
+    "Zhavoronkov A",
+    "Milting H",
+    "Costa IG",
+    "Kuppe C"
+  ],
+  "published_date": "2026-02-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.31.701472",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.31.701472.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223769",
+    "raw_record": {
+      "id": "PPR1223769",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223769"
+        ]
+      },
+      "doi": "10.64898/2026.01.31.701472",
+      "title": "Polyploid cardiomyocytes define disease-specific transcriptional states in the mammalian heart",
+      "authorString": "Kiessling P, Joodaki M, Pikulska D, Scheidereit E, Cesaro G, Ruiz M, Kühn D, Peng K, Goni O, Foecking S, Samiei S, Liao X, Li K, Feng Z, Wang D, Mavrommatis L, Vllaho A, Rombach M, Cucinella G, Cheng M, Lautenschläger T, Morales DR, Veltrop RJA, Schurgers LJ, von Scheidt M, Klinkhammer BM, Kahles F, Kranz J, Aguirre A, Loft A, Klümper N, Eckstein M, Seidel T, Forte G, Westland R, Zhang M, Zhao H, Ren F, Hayat S, Amrute J, Kopecky B, Schneider RK, Medyouf H, Tharaux P, Boor P, Kramann R, van Laake LW, Vos A, Bakker BSd, Hanemaaijer-van der Veer J, Lavine K, Marx N, Klingel K, Schaub MT, Dimmeler S, Zhavoronkov A, Milting H, Costa IG, Kuppe C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kiessling P",
+            "lastName": "Kiessling",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9794-9532"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joodaki M",
+            "lastName": "Joodaki",
+            "firstName": "Mehdi",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Genomics, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pikulska D",
+            "lastName": "Pikulska",
+            "firstName": "Daryna",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scheidereit E",
+            "lastName": "Scheidereit",
+            "firstName": "Emilia",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cesaro G",
+            "lastName": "Cesaro",
+            "firstName": "Giulia",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7971-963X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Information Engineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruiz M",
+            "lastName": "Ruiz",
+            "firstName": "Mayra",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Genomics, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kühn D",
+            "lastName": "Kühn",
+            "firstName": "Damin",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Computational Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peng K",
+            "lastName": "Peng",
+            "firstName": "Kai",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Genomics, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goni O",
+            "lastName": "Goni",
+            "firstName": "Osman",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-9723-8930"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Foecking S",
+            "lastName": "Foecking",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Samiei S",
+            "lastName": "Samiei",
+            "firstName": "Samaneh",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liao X",
+            "lastName": "Liao",
+            "firstName": "Xian",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li K",
+            "lastName": "Li",
+            "firstName": "Kai",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feng Z",
+            "lastName": "Feng",
+            "firstName": "Zihao",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang D",
+            "lastName": "Wang",
+            "firstName": "Delin",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mavrommatis L",
+            "lastName": "Mavrommatis",
+            "firstName": "Lampros",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vllaho A",
+            "lastName": "Vllaho",
+            "firstName": "Anna-Maria",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rombach M",
+            "lastName": "Rombach",
+            "firstName": "Merwan",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cucinella G",
+            "lastName": "Cucinella",
+            "firstName": "Giulia",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cheng M",
+            "lastName": "Cheng",
+            "firstName": "Mingbo",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Genomics, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lautenschläger T",
+            "lastName": "Lautenschläger",
+            "firstName": "Till",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cardiovascular Regeneration, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morales DR",
+            "lastName": "Morales",
+            "firstName": "David Rodriguez",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cardiovascular Regeneration, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Veltrop RJA",
+            "lastName": "Veltrop",
+            "firstName": "Rogier",
+            "initials": "RJA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schurgers LJ",
+            "lastName": "Schurgers",
+            "firstName": "Leon",
+            "initials": "LJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Scheidt M",
+            "lastName": "von Scheidt",
+            "firstName": "Moritz",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cardiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klinkhammer BM",
+            "lastName": "Klinkhammer",
+            "firstName": "Barbara Mara",
+            "initials": "BM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kahles F",
+            "lastName": "Kahles",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Internal Medicine I-Cardiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kranz J",
+            "lastName": "Kranz",
+            "firstName": "Jennifer",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Urology and Pediatric Urology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aguirre A",
+            "lastName": "Aguirre",
+            "firstName": "Aitor",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Quantitative Health Science and Engineering, , , , ; Department of Biomedical Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loft A",
+            "lastName": "Loft",
+            "firstName": "Anne",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Functional Genomics and Tissue Plasticity (ATLAS), Department of Biochemistry and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klümper N",
+            "lastName": "Klümper",
+            "firstName": "Niklas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Urology and Pediatric Urology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eckstein M",
+            "lastName": "Eckstein",
+            "firstName": "Markus",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pathology, , , , ; , , ; Comprehensive Cancer Center Alliance WERA (CCC WERA), Erlangen, Germany; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seidel T",
+            "lastName": "Seidel",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cellular and Molecular Physiology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forte G",
+            "lastName": "Forte",
+            "firstName": "Giancarlo",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Westland R",
+            "lastName": "Westland",
+            "firstName": "Rik",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatric Nephrology, , , Meibergdreef 9 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang M",
+            "lastName": "Zhang",
+            "firstName": "Man",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Insilico Medicine Shanghai Ltd., Shanghai, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Heng",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Insilico Medicine Shanghai Ltd., Shanghai, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ren F",
+            "lastName": "Ren",
+            "firstName": "Feng",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Insilico Medicine Shanghai Ltd., Shanghai, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hayat S",
+            "lastName": "Hayat",
+            "firstName": "Sikander",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Amrute J",
+            "lastName": "Amrute",
+            "firstName": "Junedh",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6851-0168"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cardiovascular Research, Division of Cardiology, Department of Medicine, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kopecky B",
+            "lastName": "Kopecky",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Division of Cardiology, , , CO,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schneider RK",
+            "lastName": "Schneider",
+            "firstName": "Rebekka",
+            "initials": "RK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Developmental Biology ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Medyouf H",
+            "lastName": "Medyouf",
+            "firstName": "Hind",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology, Oncology, Hemostaseology, Stem Cell Transplantation, Medical Faculty, Center for Integrated Oncology (CIO), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tharaux P",
+            "lastName": "Tharaux",
+            "firstName": "Pierre-Louis",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boor P",
+            "lastName": "Boor",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kramann R",
+            "lastName": "Kramann",
+            "firstName": "Rafael",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Laake LW",
+            "lastName": "van Laake",
+            "firstName": "Linda",
+            "initials": "LW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cardiology, Division of Heart & Lungs, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vos A",
+            "lastName": "Vos",
+            "firstName": "Annelotte",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bakker BSd",
+            "lastName": "Bakker",
+            "firstName": "Bernadette de",
+            "initials": "BSd",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Dept. of Obstetrics and Gynecology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hanemaaijer-van der Veer J",
+            "lastName": "Hanemaaijer-van der Veer",
+            "firstName": "Jermo",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Dept. of Obstetrics and Gynecology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lavine K",
+            "lastName": "Lavine",
+            "firstName": "Kory",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cardiovascular Research, Division of Cardiology, Department of Medicine, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marx N",
+            "lastName": "Marx",
+            "firstName": "Nikolaus",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Internal Medicine I-Cardiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klingel K",
+            "lastName": "Klingel",
+            "firstName": "Karin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiopathology, Institute for Pathology and Neuropathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schaub MT",
+            "lastName": "Schaub",
+            "firstName": "Michael",
+            "initials": "MT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Computational Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dimmeler S",
+            "lastName": "Dimmeler",
+            "firstName": "Stefanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cardiovascular Regeneration, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhavoronkov A",
+            "lastName": "Zhavoronkov",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Insilico Medicine Shanghai Ltd., Shanghai, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milting H",
+            "lastName": "Milting",
+            "firstName": "Hendrik",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heart- and Diabetescenter NRW, Erich and Hanna Klessmann-Institute for Cardiovascular Research and Development, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Costa IG",
+            "lastName": "Costa",
+            "firstName": "Ivan",
+            "initials": "IG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Computational Genomics, , Medical Faculty, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuppe C",
+            "lastName": "Kuppe",
+            "firstName": "Christoph",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4597-9833"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Clinical Immunology, , Medical Faculty, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7971-963X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6851-0168"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9794-9532"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4597-9833"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-9723-8930"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The adult mammalian heart has a limited regenerative capacity. Following injury, cardiomyocytes undergo a hypertrophic response accompanied by polyploidization, which has been described as a barrier to proliferation and regeneration of the heart  1,2 . However, the unique molecular programs of polyploidy, or genome multiplied cardiomyocytes, and their influence on the disease-related myocardial remodelling process remains unclear. Here, we integrate single-nuclei and high-resolution spatial multi-omics across human, rat, and mouse hearts to define novel cardiac cell states and their tissue niches in ischemic and non-ischemic heart disease. Computational analysis across scales allowed us to generate detailed networks of the cardiac tissue remodelling process as well as tissue and sub-cellular environments uniquely enriched in polyploid cardiomyocytes or their diploid origins. We identify a conserved, dichotomous transcriptional program distinguishing diploid from polyploid cardiomyocytes. Polyploid cardiomyocytes demonstrated rewired metabolic and chromatin-remodeling transcriptional programs and recapitulate the gene signature of immature human fetal cardiomyocytes. Notably, we observe that polyploid cardiomyocytes—rather than the general myocyte population—are the primary sites of enrichment for major heart-failure drug targets, including the mineralocorticoid, β1-adrenergic, and glucagon-like peptide-1 receptors. Based on our cross-species dataset we further identified TNIK, a Wnt-pathway regulator expressed in polyploid cardiomyocytes across species, as a potential therapeutic target and demonstrate that pharmacological TNIK inhibition improves cardiac function after myocardial infarction in rats. Together, this species-spanning, disease-resolved study redefines cardiomyocyte heterogeneity in heart disease and suggests a therapeutic path to heart failure treatment by targeting polyploid cardiomyocytes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101001791",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101043403",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101040726",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.31.701472"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223769"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223769&type=FILE&fileName=EMS215683-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215683",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "igsr",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-03",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

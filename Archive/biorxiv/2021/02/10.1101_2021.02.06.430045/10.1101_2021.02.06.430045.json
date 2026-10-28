@@ -1,0 +1,718 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.06.430045",
+  "title": "Systems-wide analysis of the GATC-binding nucleoid-associated protein Gbn and its impact on <i>Streptomyces</i> development",
+  "doi": "10.1101/2021.02.06.430045",
+  "abstract": "Bacterial chromosome structure is organized by a diverse group of proteins collectively referred to as nucleoid-associated proteins (NAPs). Many NAPs have been well studied in Streptomyces, including Lsr2, HupA, HupS, and sIHF. Here, we show that SCO1839 represents a novel family of Actinobacteria NAPs and recognizes a consensus sequence consisting of GATC followed by (A/T)T. The protein was designated Gbn for G ATC- b inding N AP. Deletion of gbn led to alterations in development and antibiotic production in Streptomyces coelicolor . Chromatin immunoprecipitation sequencing (ChIP-Seq) detected more than 2800 binding regions, encompassing some 3600 GATCWT motifs, which comprise 55% of all such motifs in the S. coelicolor genome. DNA binding of Gbn in vitro increased DNA stiffness but not compaction, suggesting a role in regulation rather than chromosome organization. Transcriptomics analysis showed that Gbn binding generally leads to reduced gene expression. The DNA binding profiles were nearly identical between vegetative and aerial growth. Exceptions are SCO1311 and SCOt32, for a tRNA editing enzyme and a tRNA that recognises the rare leucine codon CUA, respectively, which nearly exclusively bound during vegetative growth. Taken together, our data show that Gbn is a highly pleiotropic NAP that impacts growth and development in streptomycetes. IMPORTANCE A large part of the chemical space of bioactive natural products is derived from Actinobacteria. Many of the biosynthetic gene clusters for these compounds are cryptic, in others words, they are expressed in nature but not in the laboratory. Understanding the global regulatory networks that control gene expression is key to the development of approaches to activate this biosynthetic potential. Chromosome structure has a major impact on the control of gene expression. In bacteria, the organization of chromosome structure is mediated by a diverse group of proteins referred to collectively as nucleoid-associated proteins (NAPs), which play an important role in the control of gene expression, nucleoid structure and DNA repair. We here present the discovery of a novel and extremely pleiotropic NAP, which we refer to as Gbn. Gbn is a sporulation-specific protein that occurs only in the Actinobacteria and binds to GATC sequences, with a subtle but broad effect on global gene expression. The discovery of Gbn is a new step towards better understanding of how gene expression and chromosome structure is governed in antibiotic-producing streptomycetes.",
+  "authors": [
+    "Chao Du",
+    "Joost Willemse",
+    "Amanda M. Erkelens",
+    "Victor J. Carrion",
+    "Remus T. Dame",
+    "Gilles P. van Wezel"
+  ],
+  "published_date": "2021-02-06",
+  "updated_date": "2021-02-06T21:35:13Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.06.430045",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.06.430045.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:30:13Z",
+        "timestamp": 1768494613966,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            6
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 92,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                2,
+                6
+              ]
+            ],
+            "date-time": "2021-02-06T00:00:00Z",
+            "timestamp": 1612569600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Bacterial chromosome structure is organized by a diverse group of proteins collectively referred to as nucleoid-associated proteins (NAPs). Many NAPs have been well studied in Streptomyces, including Lsr2, HupA, HupS, and sIHF. Here, we show that SCO1839 represents a novel family of Actinobacteria NAPs and recognizes a consensus sequence consisting of GATC followed by (A/T)T. The protein was designated Gbn for\n                  <jats:underline>G</jats:underline>\n                  ATC-\n                  <jats:underline>b</jats:underline>\n                  inding\n                  <jats:underline>N</jats:underline>\n                  AP. Deletion of\n                  <jats:italic>gbn</jats:italic>\n                  led to alterations in development and antibiotic production in\n                  <jats:italic>Streptomyces coelicolor</jats:italic>\n                  . Chromatin immunoprecipitation sequencing (ChIP-Seq) detected more than 2800 binding regions, encompassing some 3600 GATCWT motifs, which comprise 55% of all such motifs in the\n                  <jats:italic>S. coelicolor</jats:italic>\n                  genome. DNA binding of Gbn in vitro increased DNA stiffness but not compaction, suggesting a role in regulation rather than chromosome organization. Transcriptomics analysis showed that Gbn binding generally leads to reduced gene expression. The DNA binding profiles were nearly identical between vegetative and aerial growth. Exceptions are SCO1311 and SCOt32, for a tRNA editing enzyme and a tRNA that recognises the rare leucine codon CUA, respectively, which nearly exclusively bound during vegetative growth. Taken together, our data show that Gbn is a highly pleiotropic NAP that impacts growth and development in streptomycetes.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>IMPORTANCE</jats:title>\n                  <jats:p>A large part of the chemical space of bioactive natural products is derived from Actinobacteria. Many of the biosynthetic gene clusters for these compounds are cryptic, in others words, they are expressed in nature but not in the laboratory. Understanding the global regulatory networks that control gene expression is key to the development of approaches to activate this biosynthetic potential. Chromosome structure has a major impact on the control of gene expression. In bacteria, the organization of chromosome structure is mediated by a diverse group of proteins referred to collectively as nucleoid-associated proteins (NAPs), which play an important role in the control of gene expression, nucleoid structure and DNA repair. We here present the discovery of a novel and extremely pleiotropic NAP, which we refer to as Gbn. Gbn is a sporulation-specific protein that occurs only in the Actinobacteria and binds to GATC sequences, with a subtle but broad effect on global gene expression. The discovery of Gbn is a new step towards better understanding of how gene expression and chromosome structure is governed in antibiotic-producing streptomycetes.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.02.06.430045",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2021-02-06T21:35:13Z",
+        "timestamp": 1612647313000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Systems-wide analysis of the GATC-binding nucleoid-associated protein Gbn and its impact on\n                  <i>Streptomyces</i>\n                  development"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3447-5293",
+          "authenticated-orcid": false,
+          "given": "Chao",
+          "family": "Du",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Joost",
+          "family": "Willemse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amanda M.",
+          "family": "Erkelens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Victor J.",
+          "family": "Carrion",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9863-1692",
+          "authenticated-orcid": false,
+          "given": "Remus T.",
+          "family": "Dame",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0341-1561",
+          "authenticated-orcid": false,
+          "given": "Gilles P.",
+          "family": "van Wezel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.00019-15"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hopwood DA . 2007. Streptomyces in nature and medicine: the antibiotic makers. Oxford University Press.",
+          "DOI": "10.1093/oso/9780195150667.001.0001"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ja.2005.1"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.4",
+          "unstructured": "Chater KF , Losick R . 1997. Mycelial life style of Streptomyces coelicolor A3(2) and its relatives., p 149-182. In Shapiro JA , Dworkin M (ed), Bacteria as multicellular organisms. Oxford University Press, New York."
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro3178"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro1968"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mib.2005.02.016"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c8np00012c"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/417141a"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.13464"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-019-0185-4"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro2261"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2005.04598.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.47691"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00709-09"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10482-011-9657-z"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2003.12.003"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/18.19.5434"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jprot.2013.02.033"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mBio.02812-18"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mib.2020.01.019"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10482-015-0479-2"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2004.04186.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-1097(03)00481-6"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.25",
+          "unstructured": "Noens EE . 2007. Control of sporulation-specific cell division in Streptomyces coelicolor Leiden University, Leiden."
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2005.04883.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.600211"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0378-1119(92)90603-M"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.181.1.204-211.1999"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.30",
+          "unstructured": "Kieser T , Bibb MJ , Buttner MJ , Chater KF , Hopwood DA. 2000. Practical Streptomyces genetics. John Innes Foundation, Norwich, U.K."
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1159/000096460"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.171.11.5872-5881.1989"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-25782-1"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00253-008-1382-9"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gnj019"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/sb500351f"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0378-1119(95)00191-8"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.38",
+          "unstructured": "Sambrook J , Fritsch EF , Maniatis T . 1989. Molecular cloning: a laboratory manual. Cold spring harbor laboratory press, New York."
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky448"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.1239303"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr050155b"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-1097(03)00481-6"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr189"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr539"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471250953.bi1112s47"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kieser T , Hopwood DA . 1991. Genetic manipulation of Streptomyces: integrating vectors and gene replacement, p 430-458, Methods Enzymol, vol 204. Academic Press.",
+          "DOI": "10.1016/0076-6879(91)04023-H"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty560"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt656"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty895"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010234916745"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Henneman B , Heinsman J , Battjes J , Dame RT . 2018. Quantitation of DNA-binding affinity using tethered particle motion, p 257–275, Bacterial Chromatin. Springer.",
+          "DOI": "10.1007/978-1-4939-8675-0_14"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky995"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3213"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0168-9525(89)90054-1"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "768",
+          "DOI": "10.1128/jb.123.2.768-770.1975",
+          "article-title": "Analysis of bacteriophage deoxyribonucleic acid sequences methylated by host- and R-factor-controlled enzymes",
+          "volume": "123",
+          "year": "1975",
+          "journal-title": "J Bacteriol"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6968.1997.tb13882.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1001253"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6968.2009.01790.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van der Valk RA , Laurens N , Dame RT. 2017. Tethered particle motion analysis of the DNA binding properties of architectural proteins, p 127–143. In Espéli O (ed), The bacterial nucleoid: methods and protocols. Springer New York, New York, NY.",
+          "DOI": "10.1007/978-1-4939-7098-8_11"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1226"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.27369"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi500344j"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.6.2461"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1574-6968.2006.00494.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1.10.1305"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12275-007-0233-1"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.943401"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.1994.tb01027.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00438-002-0730-1"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.178.24.7276-7284.1996"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.06370-11"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.80",
+          "first-page": "551",
+          "article-title": "Application of redD, the transcriptional activator gene of the undecylprodigiosin biosynthetic pathway, as a reporter for transcriptional activity in Streptomyces coelicolor A3 (2) and Streptomyces lividans",
+          "volume": "2",
+          "year": "2000",
+          "journal-title": "J Mol Microbiol Biotechnol"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0378-1119(85)90220-3"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2958.2005.04817.x"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/084780"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-11-578"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-11-10"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00965-10"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.186.4.1029-1037.2004"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1203"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1099/13500872-141-10-2499"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2015.00450"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "214",
+          "DOI": "10.1016/j.bbabio.2015.12.004",
+          "article-title": "Assembly of the Escherichia coli NADH:ubiquinone oxidoreductase (respiratory complex I)",
+          "volume": "1857",
+          "year": "2016",
+          "journal-title": "Biochim Biophys Acta - Bioenerg"
+        },
+        {
+          "key": "2024080513304093000_2021.02.06.430045v3.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1193"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.06.430045",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:18:38Z",
+        "timestamp": 1768439918000
+      },
+      "score": 83.047325,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.02.06.430045"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            6
+          ]
+        ]
+      },
+      "references-count": 92,
+      "URL": "https://doi.org/10.1101/2021.02.06.430045",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

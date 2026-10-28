@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33834200",
+  "title": "Explainability in transformer models for functional genomics.",
+  "authors": "Clauwaert, Jim; Menschaert, Gerben; Waegeman, Willem",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-04-10",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Transformer模型的可解释性分析识别大肠杆菌转录因子结合位点与共有序列，虽聚焦原核体系且未做三维互作建模，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "The effectiveness of deep learning methods can be largely attributed to the automated extraction of relevant features from raw data. In the field of functional genomics, this generally concerns the automatic selection of relevant nucleotide motifs from DNA sequences. To benefit from automated learning methods, new strategies are required that unveil the decision-making process of trained models. In this paper, we present a new approach that has been successful in gathering insights on the transcription process in Escherichia coli. This work builds upon a transformer-based neural network framework designed for prokaryotic genome annotation purposes. We find that the majority of subunits (attention heads) of the model are specialized towards identifying transcription factors and are able to successfully characterize both their binding sites and consensus sequences, uncovering both well-known and potentially novel elements involved in the initiation of the transcription process. With the specialization of the attention heads occurring automatically, we believe transformer models to be of high interest towards the creation of explainable neural networks in this field.",
+  "abstract_zh": "深度学习方法的效果在很大程度上归功于从原始数据中自动提取相关特征。在功能基因组学领域，这通常涉及从DNA序列中自动选择相关的核苷酸基序。为了从自动学习方法中获益，需要新的策略来揭示训练模型的决策过程。在本文中，我们提出了一种新方法，该方法在收集大肠杆菌转录过程的见解方面取得了成功。这项工作基于一个为原核生物基因组注释设计的基于变换器的神经网络框架。我们发现，模型的大部分子单元（注意力头）专门用于识别转录因子，并能够成功表征其结合位点和共有序列，揭示了参与转录过程起始的已知及潜在新元件。由于注意力头的特化是自动发生的，我们认为变换器模型在该领域创建可解释神经网络方面具有高度价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33834200/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33834200/",
+  "paper_page_path": "papers/pubmed/33834200/index.html"
+}

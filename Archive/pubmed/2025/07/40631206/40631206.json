@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "40631206",
+    "doi": "10.1101/2025.06.30.662289",
+    "title": "Systematic DNA nicking reveals the structural logic of protein recognition."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) bind to specific genomic sites to regulate gene expression(1,2). These interactions almost universally require DNA deformation and the accumulation of local mechanical strain within the double helix. As a result, TF-DNA recognition is determined not only by the linear base sequence but also by the spatial alignment of bases and phosphates, as well as their ability to adopt and retain structural deformations(3). However, the sequence-centric focus of existing studies makes it challenging to directly probe DNA structural determinants and to decouple their impact from alterations in base sequences, limiting our ability to unravel the key factors influencing binding beyond the sequence identity and leaving significant gaps in our understanding of the principles governing TF-DNA recognition. Here, we introduce a high-throughput strategy to perturb TF binding sites without altering their base sequence, enabling systematic investigation of the structural features of DNA that govern TF binding. Our method, PIC-NIC, introduces single-strand breaks (SSBs) at every position within the binding site, selectively disrupting backbone continuity while preserving nucleotide identity, with the resulting effects on TF binding measured quantitatively. Applied to 15 human TFs spanning eight structural classes, and supported by seven high-resolution TF-DNA crystal structures and molecular dynamics simulations, PIC-NIC uncovers discrete backbone positions serving as structural anchor points where nicks can abolish binding, rewire sequence preferences, or even enhance affinity. By decoupling structural and chemical contributions, we demonstrate that DNA mechanics-encoded in backbone geometry and continuity-can independently shape binding specificity beyond the linear code of base identity. These findings shift the paradigm of TF-DNA recognition, establishing the backbone not as a passive scaffold, but as a functional determinant capable of directing regulatory mechanisms through its physical architecture.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yao, Yumi Minyi",
+        "O'Hagan, Michael P",
+        "Onoon, Karn",
+        "Givon, Lihee",
+        "Hamer-Rogotner, Shelly",
+        "Salinas, Raul",
+        "Kessler, Naama",
+        "Dym, Orly",
+        "Pipatpolkai, Tanadet",
+        "Schumacher, Maria A",
+        "Afek, Ariel"
+      ],
+      "short_names": [
+        "Yao YM",
+        "O'Hagan MP",
+        "Onoon K",
+        "Givon L",
+        "Hamer-Rogotner S",
+        "Salinas R",
+        "Kessler N",
+        "Dym O",
+        "Pipatpolkai T",
+        "Schumacher MA",
+        "Afek A"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-7762-9731",
+        "ORCID: 0000-0003-4180-3144",
+        "ORCID: 0000-0001-9011-683X",
+        "ORCID: 0000-0001-5396-4784",
+        "ORCID: 0000-0002-5264-1120",
+        "ORCID: 0000-0001-8584-9879"
+      ],
+      "affiliations": [
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Biology, Faculty of Science, Mahidol University, Bangkok 10400, Thailand.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "School of Physical and Mathematical Sciences, Nanyang Technological University, 637371 Singapore.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yao, Yumi Minyi",
+        "short_name": "Yao YM",
+        "identifiers": [
+          "0009-0002-7762-9731"
+        ],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "O'Hagan, Michael P",
+        "short_name": "O'Hagan MP",
+        "identifiers": [
+          "0000-0003-4180-3144"
+        ],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Onoon, Karn",
+        "short_name": "Onoon K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Mahidol University, Bangkok 10400, Thailand."
+        ]
+      },
+      {
+        "full_name": "Givon, Lihee",
+        "short_name": "Givon L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Hamer-Rogotner, Shelly",
+        "short_name": "Hamer-Rogotner S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Salinas, Raul",
+        "short_name": "Salinas R",
+        "identifiers": [
+          "0000-0001-9011-683X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710, USA."
+        ]
+      },
+      {
+        "full_name": "Kessler, Naama",
+        "short_name": "Kessler N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Dym, Orly",
+        "short_name": "Dym O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Pipatpolkai, Tanadet",
+        "short_name": "Pipatpolkai T",
+        "identifiers": [
+          "0000-0001-5396-4784"
+        ],
+        "affiliations": [
+          "School of Physical and Mathematical Sciences, Nanyang Technological University, 637371 Singapore."
+        ]
+      },
+      {
+        "full_name": "Schumacher, Maria A",
+        "short_name": "Schumacher MA",
+        "identifiers": [
+          "0000-0002-5264-1120"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710, USA."
+        ]
+      },
+      {
+        "full_name": "Afek, Ariel",
+        "short_name": "Afek A",
+        "identifiers": [
+          "0000-0001-8584-9879"
+        ],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/09 06:26",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39723478",
+      "39695228",
+      "39522437",
+      "39033307",
+      "38947213",
+      "37642402",
+      "37439339",
+      "36808133",
+      "36495920",
+      "36471057",
+      "35643889",
+      "35289750",
+      "34792150",
+      "34772949",
+      "34417209",
+      "33539885",
+      "33087930",
+      "32962386",
+      "32716185",
+      "31521504",
+      "31268220",
+      "30804513",
+      "29662229",
+      "29605182",
+      "28537575",
+      "27649880",
+      "27270080",
+      "27075101",
+      "26876046",
+      "25892221",
+      "25624100",
+      "22146299",
+      "21270796",
+      "20718505",
+      "20517297",
+      "20408171",
+      "20383002",
+      "20334529",
+      "20176964",
+      "20124702",
+      "20124692",
+      "20057044",
+      "19865164",
+      "19443739",
+      "19265799",
+      "18626472",
+      "17212484",
+      "16998473",
+      "16449200",
+      "12923055",
+      "12526788",
+      "11779502",
+      "11741530",
+      "11395412",
+      "10588707",
+      "8939742",
+      "8598195",
+      "8413605",
+      "7985026",
+      "2028256",
+      "1569404"
+    ],
+    "similar": [
+      "40631206",
+      "35978548",
+      "26550823",
+      "22189060",
+      "25775564",
+      "41159612",
+      "41405863",
+      "37990674",
+      "27567672",
+      "23812975",
+      "37214836",
+      "33340452",
+      "32043966",
+      "36123148",
+      "26285121",
+      "32101712",
+      "28167566",
+      "16267080",
+      "31689433",
+      "24214955",
+      "35261972",
+      "38496549",
+      "40598892",
+      "26291518",
+      "38966997",
+      "41371343",
+      "36322688",
+      "28359978",
+      "40287827",
+      "25720775",
+      "30395339",
+      "19956545",
+      "37889068",
+      "24039567",
+      "40205063",
+      "18021409",
+      "39896490",
+      "31639474",
+      "25762553",
+      "24353316",
+      "20838582",
+      "22863142",
+      "24086290",
+      "40848288",
+      "29326300",
+      "36888663",
+      "24078250",
+      "37090616",
+      "16873497",
+      "35659235",
+      "37546716",
+      "23766731",
+      "38867914",
+      "39463949",
+      "18725950",
+      "21557082",
+      "23847101",
+      "35799193",
+      "10090291",
+      "18922190",
+      "29588420",
+      "37805453",
+      "38352411",
+      "15165850",
+      "26160164",
+      "39033307",
+      "41247408",
+      "11800559",
+      "25129887",
+      "31283382",
+      "26245832",
+      "19088121",
+      "36043696",
+      "25313048",
+      "40903577",
+      "8087558",
+      "36943132",
+      "2544731",
+      "21335608",
+      "26413153",
+      "27803259",
+      "1324415",
+      "37752333",
+      "17397256",
+      "20704747",
+      "25010228",
+      "26130577",
+      "19158363",
+      "11048951",
+      "21124945",
+      "28137873",
+      "23236447",
+      "28763006",
+      "30359306",
+      "31742324",
+      "34502060",
+      "19958507",
+      "24603674",
+      "29987030",
+      "22607405"
+    ],
+    "review": [
+      "40631206",
+      "31689433",
+      "28359978",
+      "31639474",
+      "21557082",
+      "39033307",
+      "25129887",
+      "31283382",
+      "8087558",
+      "28763006",
+      "31742324"
+    ],
+    "pmc": [
+      "12236790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40631206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.06.30.662289",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

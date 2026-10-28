@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use computational modeling of Drosophila gap gene regulatory networks to investigate how variability in maternal inputs can disrupt wild-type (WT) segmentation patterns, identifying a common "peak-to-step" transition in pattern loss and discussing implications for evolvability of insect body plans.
+- **Visible evidence base** Abstract text only; no quantitative results, model details, or experimental comparisons provided
+- **Missing materials affecting confidence** Full manuscript, model equations, parameter values, simulation protocols, statistical analyses, figures, tables, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially valuable computational study addressing a fundamental question in evo-devo, namely the relationship between robustness and evolvability in gene regulatory networks. The conceptual framing is clear and the focus on Drosophila gap genes is well motivated. However, the abstract provides insufficient technical detail to evaluate the validity of the modeling approach, the robustness of the findings, or the strength of the evolutionary conclusions. The central claim of a common "peak-to-step" transition is stated without supporting quantitative evidence, and the link between simulation results and evolutionary implications remains speculative. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in evolutionary developmental biology, computational biology, and systems biology would be interested. Specifically, those studying gene regulatory network robustness, canalization, and evolvability, as well as those using mathematical models of developmental patterning, would find the results relevant. The work could also appeal to Drosophila developmental geneticists interested in experimental validation of model predictions.
+- **Major strengths** The abstract addresses a long-standing and important question in evolutionary biology, namely how robust developmental systems can evolve. The use of a well-characterized computational model of Drosophila gap gene regulation provides a concrete framework for exploring this question. The focus on identifying which regulatory pathways are most susceptible to perturbation and what alternative forms arise is a sensible and potentially informative approach. The discussion of experimental perturbations and mutations as tests of model predictions is a constructive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that manipulating maternal effects in several different pathways reveals a common gap "peak-to-step" pattern transition in the loss of WT.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states this finding without presenting any quantitative data, such as the number of simulations, the range of perturbation magnitudes tested, the criteria for defining "loss of WT," or the statistical significance of the observed transition. Without these details, it is impossible to assess whether the "peak-to-step" transition is a robust phenomenon or an artifact of specific parameter choices.
+  - **Why it matters** The central conclusion of the paper rests on this claim. If the transition is not robust across different perturbation types or model conditions, the evolutionary implications would be substantially weakened. The lack of quantitative evidence prevents evaluation of the reliability and generality of the finding.
+  - **Resolution test** Provide in the full manuscript a systematic characterization of the perturbation space, including the range of maternal input variability tested, the number of independent simulations, and quantitative measures of pattern change. Demonstrate that the "peak-to-step" transition occurs consistently across multiple perturbation pathways and is not dependent on a narrow parameter range.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that the results are discussed in terms of the evolvability of insect segmentation and that experimental perturbations and mutations could test the model predictions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify what specific experimental perturbations or mutations are proposed, nor does it explain how the model predictions could be distinguished from alternative hypotheses. The link between the computational findings and evolutionary evolvability is stated but not elaborated, leaving the reader without a clear sense of the testable predictions or the broader significance.
+  - **Why it matters** For a study to have impact beyond the specific computational system, it must generate concrete, falsifiable predictions that can be tested experimentally. The abstract currently lacks this specificity, making it difficult to judge whether the work advances the field or merely describes a modeling exercise.
+  - **Resolution test** In the full manuscript, clearly articulate at least one specific, testable prediction (e.g., a predicted change in gap gene expression under a particular maternal perturbation) and describe the experimental approach (e.g., genetic manipulation or quantitative imaging) that could test it. Explain how the results would discriminate between the proposed model and alternative explanations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that computational modeling of gap-gap regulatory interactions provides a mechanistic understanding for robustness to maternal variability in WT patterning.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the model structure, the nature of the regulatory interactions, or the validation against experimental data. Without this information, it is unclear whether the model is a realistic representation of the biological system or a simplified abstraction, and whether the robustness results are a property of the model or a reflection of the underlying biology.
+  - **Why it matters** The credibility of the evolutionary conclusions depends on the model being a faithful representation of the gap gene network. If the model has not been validated against quantitative expression data or if key regulatory interactions are omitted, the findings may not generalize to the real biological system.
+  - **Resolution test** In the full manuscript, provide a clear description of the model equations, parameters, and regulatory interactions, and include a comparison of model predictions with experimental data on gap gene expression patterns and their variability. Demonstrate that the model captures known features of the system, such as the precision of gap gene boundaries.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "peak-to-step" transition is introduced without definition or context. Nonspecialist readers may not understand what this pattern transition entails or why it is significant.
+  - **Required correction** Define the "peak-to-step" transition in the abstract, for example by briefly describing the change in gap gene expression profile, and explain its relevance to the loss of WT patterning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "prospects for using continuum models of pattern dynamics" but does not explain what these models are or how they differ from the current approach. This statement is vague and may confuse readers.
+  - **Required correction** Briefly clarify what is meant by continuum models in this context and how they could extend the current work, or remove the statement if it is not essential to the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "manipulating maternal effects in several different pathways" was performed, but does not specify which pathways or how the manipulations were implemented in the model.
+  - **Required correction** In the full manuscript, clearly list the maternal factors or pathways perturbed and describe the method of perturbation (e.g., changes in input concentration, spatial profile, or timing). In the abstract, a brief mention of the types of perturbations would improve clarity.
+
+## Risk / unsupported claims
+- The claim of a common "peak-to-step" pattern transition is unsupported by quantitative evidence in the abstract.
+- The claim that experimental perturbations and mutations could test model predictions is not substantiated with specific examples or protocols.
+- The claim that the model provides mechanistic understanding of robustness is not verifiable without model details and validation data.
+- The evolutionary implications for insect segmentation evolvability are stated but not supported with specific arguments or comparisons to empirical data.
+- The prospects for continuum models are mentioned without sufficient context or justification.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38342857",
+  "title": "Inference of Gene Regulatory Networks Based on Multi-view Hierarchical Hypergraphs.",
+  "authors": "Wu, Songyang; Jin, Kui; Tang, Mingjing; Xia, Yuelong; Gao, Wei",
+  "journal": "Interdisciplinary sciences, computational life sciences",
+  "published_date": "2024-02-12",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多视图层次超图神经网络推断基因调控网络，建模TF-靶基因的高阶调控关系，虽涉及TF-DNA互作但未聚焦三维结合机制，方法可迁移至TF-DNA互作建模。",
+  "abstract": "Since gene regulation is a complex process in which multiple genes act simultaneously, accurately inferring gene regulatory networks (GRNs) is a long-standing challenge in systems biology. Although graph neural networks can formally describe intricate gene expression mechanisms, current GRN inference methods based on graph learning regard only transcription factor (TF)-target gene interactions as pairwise relationships, and cannot model the many-to-many high-order regulatory patterns that prevail among genes. Moreover, these methods often rely on limited prior regulatory knowledge, ignoring the structural information of GRNs in gene expression profiles. Therefore, we propose a multi-view hierarchical hypergraphs GRN (MHHGRN) inference model. Specifically, multiple heterogeneous biological information is integrated to construct multi-view hierarchical hypergraphs of TFs and target genes, using hypergraph convolution networks to model higher order complex regulatory relationships. Meanwhile, the coupled information diffusion mechanism and the cross-domain messaging mechanism facilitate the information sharing between genes to optimise gene embedding representations. Finally, a unique channel attention mechanism is used to adaptively learn feature representations from multiple views for GRN inference. Experimental results show that MHHGRN achieves better results than the baseline methods on the E. coli and S. cerevisiae benchmark datasets of the DREAM5 challenge, and it has excellent cross-species generalization, achieving comparable or better performance on scRNA-seq datasets from five mouse and two human cell lines.",
+  "abstract_zh": "由于基因调控是一个多基因同时作用的复杂过程，准确推断基因调控网络（GRNs）一直是系统生物学中的长期挑战。尽管图神经网络能够形式化描述复杂的基因表达机制，但当前基于图学习的GRN推断方法仅将转录因子（TF）-靶基因相互作用视为成对关系，无法建模基因间普遍存在的多对多高阶调控模式。此外，这些方法往往依赖有限的先验调控知识，忽略了基因表达谱中GRN的结构信息。因此，我们提出了一种多视图层次超图GRN（MHHGRN）推断模型。具体而言，整合多种异质生物信息以构建TF和靶基因的多视图层次超图，利用超图卷积网络建模高阶复杂调控关系。同时，耦合信息扩散机制和跨域消息传递机制促进基因间的信息共享，以优化基因嵌入表示。最后，采用独特的通道注意力机制从多个视图自适应学习特征表示，用于GRN推断。实验结果表明，在DREAM5挑战的E. coli和S. cerevisiae基准数据集上，MHHGRN优于基线方法，并具有出色的跨物种泛化能力，在来自五种小鼠和两种人类细胞系的scRNA-seq数据集上达到相当或更优的性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38342857/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38342857/",
+  "paper_page_path": "papers/pubmed/38342857/index.html"
+}

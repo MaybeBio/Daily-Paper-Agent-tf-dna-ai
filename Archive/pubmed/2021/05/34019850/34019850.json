@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "34019850",
+    "doi": "10.1016/j.jtbi.2021.110765",
+    "title": "A model for the regulation of apoptosis intrinsic pathway: The potential role of the transcriptional regulator E2F in the point of no return."
+  },
+  "content": {
+    "abstract": "Apoptosis has been extensively characterized by both experimental approaches and model simulations. However, it is still not fully understood how the regulation occurs, especially in the intrinsic pathway, which can be activated by a great variety of signals. In addition, the conditions in which a point of no return could be reached remain elusive. In this work, we use differential equations models to approach these issues. Our starting point was the model for caspase activation of Legewie et al. (Legewie S, et al., PLoS Computational Biology 2006, 2(9): e120), which exhibits irreversible bistability. We added an activation module to this model, with the main events related to mitochondrial outer membrane permeabilization, which includes cytochrome C release by the mitochondria and its effects on caspase activation and respiratory chain disruption. This \"Extended Legewie Model\" (ELM) uses BAK as the apoptotic stimulus and active caspase 3 as a measure of apoptosis activation. Unexpectedly, in the extended model, BAK cannot trigger apoptosis activation using physiologically sound initial values of the variables, due to limitations in apoptosome concentration increase. Therefore, the next step was to find a regulatory mechanism, allowing apoptosis activation in the ELM, starting from physiological initial concentrations. For this aim, we performed a sensitivity analysis on the 61 parameters of the system, finding that those producing the most relevant changes in the qualitative behaviour were the rates of synthesis of caspase 3, caspase 9 and XIAP. Based on these results, the transcription factor E2F was included in the ELM because it directly regulates the rate of synthesis of caspase 3 and 9. Depending on the concentration of E2F, the ELM shows different qualitative behaviours. On one hand, for low E2F apoptosis is impossible and for high E2F apoptosis is inevitable. Therefore, if E2F is sufficiently increased, the point of no return is crossed. On the other hand, for intermediate values of E2F there is a bistable region where the fate of the system also depends on the concentration of BAK and other signalling species.",
+    "keywords": [
+      "Apoptosome",
+      "BAK",
+      "Bistability",
+      "Caspases"
+    ],
+    "mesh_terms": [
+      "*Apoptosis",
+      "*Caspases/metabolism",
+      "Cytochromes c/metabolism",
+      "Mitochondria",
+      "Mitochondrial Membranes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rojas Lopez, Alejandra",
+        "Monzon, Pablo",
+        "Acerenza, Luis"
+      ],
+      "short_names": [
+        "Rojas Lopez A",
+        "Monzon P",
+        "Acerenza L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biophysics and Systems Biology Section, Faculty of Sciences, Universidad de la Republica, Montevideo, Uruguay.",
+        "Systems and Control Department, Faculty of Engineering, Universidad de la Republica, Montevideo, Uruguay.",
+        "Biophysics and Systems Biology Section, Faculty of Sciences, Universidad de la Republica, Montevideo, Uruguay. Electronic address: aceren@fcien.edu.uy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rojas López, Alejandra",
+        "short_name": "Rojas López A",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics and Systems Biology Section, Faculty of Sciences, Universidad de la República, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Monzón, Pablo",
+        "short_name": "Monzón P",
+        "identifiers": [],
+        "affiliations": [
+          "Systems and Control Department, Faculty of Engineering, Universidad de la República, Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Acerenza, Luis",
+        "short_name": "Acerenza L",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics and Systems Biology Section, Faculty of Sciences, Universidad de la República, Montevideo, Uruguay. Electronic address: aceren@fcien.edu.uy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of theoretical biology"
+    ],
+    "journal_abbrev": [
+      "J Theor Biol"
+    ],
+    "pub_date": "2021 Sep 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/22 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "35052578"
+    ],
+    "refs": [],
+    "similar": [
+      "34019850",
+      "26134559",
+      "18927073",
+      "16678785",
+      "14993223",
+      "30536008",
+      "18314053",
+      "15640164",
+      "16617056",
+      "32341447",
+      "18437160",
+      "16676004",
+      "23070003",
+      "15703181",
+      "24957706",
+      "28405769",
+      "12670926",
+      "20209625",
+      "29940190",
+      "31324752",
+      "15159409",
+      "19147745",
+      "14622304",
+      "29472455",
+      "15755925",
+      "15753404",
+      "17665037",
+      "17540177",
+      "28573110",
+      "17899380",
+      "15861188",
+      "12149244",
+      "26232549",
+      "15655802",
+      "18439415",
+      "15153933",
+      "16172118",
+      "17400580",
+      "16978046",
+      "19112105",
+      "19264955",
+      "11230124",
+      "32032391",
+      "15037204",
+      "11709054",
+      "30485804",
+      "16893972",
+      "16966373",
+      "17079734",
+      "20346366",
+      "15900046",
+      "14560026",
+      "16093441",
+      "26254612",
+      "15642122",
+      "22491967",
+      "15528219",
+      "16116473",
+      "15514562",
+      "15210786",
+      "15452117",
+      "20577812",
+      "14684629",
+      "14985459",
+      "23475483",
+      "23608376",
+      "17239413",
+      "28876505",
+      "16007191",
+      "12506111",
+      "20564340",
+      "14745938",
+      "24333953",
+      "26699757",
+      "15184073"
+    ],
+    "review": [
+      "34019850",
+      "16678785",
+      "18314053",
+      "16676004",
+      "23070003",
+      "20209625",
+      "19147745",
+      "17665037",
+      "26232549",
+      "18439415",
+      "11709054",
+      "23475483"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-5193(21)00187-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34019850",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2411.02660v1",
+  "title": "Target search on networks-within-networks with applications to protein-DNA interactions",
+  "doi": "",
+  "abstract": "We present a novel framework for understanding node target search in systems organized as hierarchical networks-within-networks. Our work generalizes traditional search models on complex networks, where the mean-first passage time is typically inversely proportional to the node degree. However, real-world search processes often span multiple network layers, such as moving from an external environment into a local network, and then navigating several internal states. This multilayered complexity appears in scenarios such as international travel networks, tracking email spammers, and the dynamics of protein-DNA interactions in cells. Our theory addresses these complex systems by modeling them as a three-layer multiplex network: an external source layer, an intermediate spatial layer, and an internal state layer. We derive general closed-form solutions for the steady-state flux through a target node, which serves as a proxy for inverse mean-first passage time. Our results reveal a universal relationship between search efficiency and network-specific parameters. This work extends the current understanding of multiplex networks by focusing on systems with hierarchically connected layers. Our findings have broad implications for fields ranging from epidemiology to cellular biology and provide a more comprehensive understanding of search dynamics in complex, multilayered environments.",
+  "authors": [
+    "Lucas Hedström",
+    "Seong-Gyu Yang",
+    "Ludvig Lizana"
+  ],
+  "published_date": "2024-11-04T22:48:36Z",
+  "updated_date": "2024-11-04T22:48:36Z",
+  "journal": "",
+  "category": "physics.bio-ph, physics.soc-ph, q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2411.02660v1",
+  "pdf_url": "https://arxiv.org/pdf/2411.02660v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "physics.bio-ph",
+    "physics.soc-ph",
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2411.02660v1",
+    "raw_categories": [
+      "physics.bio-ph",
+      "physics.soc-ph",
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

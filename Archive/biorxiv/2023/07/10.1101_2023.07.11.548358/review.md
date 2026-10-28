@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, supplementary figure legends as referenced in text)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text. Figures and supplementary materials are referenced but not directly examined.
+- **Shared manuscript claim summary** The authors propose that EVI1 drives acute myeloid leukemia through a direct interaction with CTBP1/CTBP2 via a single PLDLS motif, and that a 4x PLDLS repeat construct can outcompete this interaction, inhibit proliferation of 3q26/MECOM-rearranged AML cells in vitro and in vivo, and thus represents a proof-of-concept for therapeutic targeting of this protein-protein interface.
+- **Visible evidence base** Text descriptions of: EVI1-IP/MS in MUTZ3 cells; reciprocal IP-WB; ChIP-seq for EVI1 and CTBP2 in MUTZ3 cells; AlphaFold structural predictions; MAPPIT assays with EVI1 mutants and CTBP2 mutants; colony-forming/replating assays in mouse bone marrow progenitors; in vitro competition assays in SB1690CB cells; two xenotransplant models (SB1690CB in NSG mice, MUTZ3 in NSG mice with human bone marrow scaffolds); RNA-seq in MUTZ3 cells with 4x PLDLS vs 4x PLASS.
+- **Missing materials affecting confidence** Figures and supplementary figures (Fig 1-5, Fig S1-S5) are not directly viewable; exact numerical data, statistical outputs, and quality metrics for ChIP-seq, RNA-seq, and mass spectrometry are not provided in the text; details of AlphaFold confidence scores and model validation are not provided; gating strategies and flow cytometry raw data are not shown; details of the 4x PLDLS construct design (linker sequences, expression levels) are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically important problem, namely the lack of targeted therapies for EVI1-driven AML. The identification of a single PLDLS motif as essential for EVI1-CTBP interaction and the demonstration that a peptide-based competitor can suppress leukemic growth are conceptually interesting and potentially impactful. However, the evidence as presented in the text has several gaps that prevent full confidence in the central claims. The reliance on a single cell line (MUTZ3) for the core IP-MS and ChIP-seq experiments, the lack of genetic loss-of-function validation (e.g., CRISPR knockout of CTBP1/2 or mutation of the PLDLS motif in an endogenous context), and the absence of quantitative data for key experiments (e.g., replating assays, xenotransplant engraftment) weaken the case. The specificity of the 4x PLDLS inhibitor is a major concern, as the authors acknowledge that CTBP2 interacts with other PLDLS-containing proteins, and the claim of a "therapeutic window" is not strongly supported by the data shown. The study is a promising proof-of-concept but requires additional validation and mechanistic depth.
+- **Who would be interested in the results, and why** Researchers in leukemia biology, particularly those studying transcription factor dependencies in AML and high-risk cytogenetic subgroups. The work is also relevant to the broader field of transcription factor targeting, as it provides a potential strategy for disrupting protein-protein interactions of "undruggable" transcription factors. Clinicians and drug developers interested in novel therapeutic approaches for 3q26/MECOM-rearranged AML and possibly other EVI1-expressing tumors would find this study of interest.
+- **Major strengths** 1. The study addresses a clinically urgent and unmet need, as EVI1-driven AML is refractory to current therapies. 2. The combination of computational prediction (AlphaFold) with experimental validation (IP-MS, MAPPIT) is a modern and potentially powerful approach. 3. The demonstration that a peptide competitor can phenocopy the effect of EVI1 knockdown on CTBP2 chromatin binding is a logical and compelling experimental design. 4. The inclusion of two different in vivo models (SB1690CB and MUTZ3) strengthens the translational relevance of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of the inhibitor
+  - **Claim pointer** The authors claim that the 4x PLDLS inhibitor specifically targets EVI1-CTBP interaction and that EVI1-expressing cells are uniquely sensitive, suggesting a therapeutic window.
+  - **Evidence pointer** Results section "The PLDLS competitor abolishes leukemic potential of EVI1-transformed mouse bone marrow cells" and "The PLDLS inhibitor blocks in vivo outgrowth of human EVI1-transformed AML cells"; Discussion section.
+  - **Concern** The 4x PLDLS construct is designed to bind to CTBP1/2, which are known to interact with many other transcription factors (e.g., ZEB2, E1A, AREB6, FOG). The authors show that 4x PLDLS affects the EVI1-CTBP2 interaction and also the ZEB2-CTBP2 interaction (Fig. S3C). The claim of specificity is therefore not established. The observation that EVI1-negative HL60 cells are less sensitive to 4x PLDLS is presented as evidence of a therapeutic window, but this is a single cell line and the mechanism of resistance is not explored. The global loss of CTBP2 chromatin binding upon 4x PLDLS expression (Fig. 3E, 3F) suggests a broad effect on all CTBP2-dependent transcription, not just EVI1-dependent transcription. This raises the possibility that the observed anti-leukemic effect is due to general CTBP2 inhibition, which could have significant on-target/off-tumor toxicity.
+  - **Why it matters** The central therapeutic claim of the manuscript rests on the specificity of the inhibitor for EVI1-driven leukemia. If the inhibitor acts by globally disrupting CTBP2 function, its therapeutic index may be too narrow, and the conclusions about EVI1-specific dependency would be overstated.
+  - **Resolution test** The authors should perform a more comprehensive specificity analysis, e.g., RNA-seq or ChIP-seq for CTBP2 in a non-EVI1-expressing cell line treated with 4x PLDLS to assess global transcriptional changes. They should also test the effect of 4x PLDLS on a panel of AML cell lines with and without EVI1 expression to establish a correlation between EVI1 dependency and sensitivity. Genetic rescue experiments (e.g., expressing a CTBP2 mutant that cannot bind PLDLS but retains other functions) would help dissect EVI1-specific vs. global CTBP2 effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic validation
+  - **Claim pointer** The authors claim that the interaction between EVI1 and CTBP2 via the PLDLS motif is "indispensable for leukemic transformation."
+  - **Evidence pointer** Results section "A single PLDLS domain in EVI1 is critical for CTBP2 binding" and "Overexpression of a PLDLS-competitor causes loss of EVI1 to CTBP2 interaction."
+  - **Concern** The evidence for the essentiality of the EVI1-CTBP2 interaction relies on overexpression of mutant EVI1 constructs (deletion or mutation of PLDLS) in mouse bone marrow progenitors and on the use of a peptide competitor. While these experiments are suggestive, they do not constitute definitive genetic proof. The authors do not show that endogenous EVI1 in a human AML cell line can be mutated to disrupt the PLDLS motif, nor do they perform a CRISPR-based knockout of CTBP1/2 to demonstrate that these are the critical effectors. The possibility remains that the PLDLS motif is important for binding to other proteins, or that the effects of the 4x PLDLS competitor are due to off-target effects.
+  - **Why it matters** The central mechanistic claim of the paper is that a specific protein-protein interaction is required for transformation. Without genetic loss-of-function data, the causal link is not firmly established. This is particularly important given the known redundancy and complexity of transcription factor networks in AML.
+  - **Resolution test** The authors should perform CRISPR/Cas9-mediated knockout of CTBP1 and CTBP2 in EVI1-driven AML cell lines (e.g., MUTZ3) and assess the effect on proliferation, differentiation, and colony formation. They should also attempt to introduce a PLDLS mutation into the endogenous EVI1 locus in a human AML cell line to confirm that this single motif is required for transformation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** The authors claim that 4x PLDLS "strongly reduced" in vitro colony formation and "blocked" in vivo outgrowth.
+  - **Evidence pointer** Results section "The PLDLS inhibitor blocks in vivo outgrowth of human EVI1-transformed AML cells"; Figure 5.
+  - **Concern** The text describes the results of colony formation and xenotransplant experiments but does not provide quantitative data, effect sizes, or statistical significance values. For example, the statement "strongly reduced" is vague. The in vivo experiments are described as showing "virtually only PLASS-containing cells were detectable" after 10 weeks, but the number of mice, the variability between mice, and the statistical test used are not reported. The MUTZ3 xenotransplant experiment (Fig. 5G, 5H) is described as showing "strongly reduced" outgrowth, but the quantitative readout (bioluminescence) and its statistical analysis are not provided in the text.
+  - **Why it matters** For a study with translational implications, the magnitude and reproducibility of the therapeutic effect are critical. Without quantitative data and statistical analysis, the reader cannot assess the robustness of the findings.
+  - **Resolution test** The authors should provide the numerical data for all colony formation and xenotransplant experiments, including the number of biological replicates, the mean and standard deviation/error, and the statistical test used (e.g., t-test, ANOVA) with the resulting p-values. For the in vivo experiments, they should report the number of mice per group, the engraftment efficiency, and the statistical comparison between PLDLS and PLASS groups.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the findings
+  - **Claim pointer** The authors state that the findings "may not be restricted to 3q26/MECOM-rearranged AMLs" and have "important implications for other tumour types with aberrant expression of EVI1."
+  - **Evidence pointer** Discussion section.
+  - **Concern** The experimental evidence is derived almost exclusively from MUTZ3 cells (a single cell line) and from mouse bone marrow progenitors transduced with EVI1. The authors do not test the EVI1-CTBP2 interaction or the effect of the 4x PLDLS inhibitor in other EVI1-expressing AML models, such as those with 11q23/MLL rearrangements, or in non-AML EVI1-expressing tumors. The claim of broad applicability is therefore speculative.
+  - **Why it matters** The clinical relevance of the findings depends on whether the EVI1-CTBP2 interaction is a common dependency across different EVI1-driven malignancies. Without testing additional models, the scope of the therapeutic potential remains unclear.
+  - **Resolution test** The authors should validate the EVI1-CTBP2 interaction and the efficacy of the 4x PLDLS inhibitor in at least one additional EVI1-expressing AML cell line (e.g., with an 11q23 rearrangement) and, if possible, in a non-AML EVI1-expressing cancer cell line.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of the MAPPIT assay description
+  - **Affected element** Methods section "MAPPIT assay"
+  - **Evidence pointer** Methods section.
+  - **Issue** The description of the MAPPIT assay is brief and lacks key details, such as the specific EVI1 and CTBP2 constructs used (full-length or fragments), the negative controls, and the number of independent experiments.
+  - **Required correction** Please provide a more detailed description of the MAPPIT assay, including the constructs, the transfection protocol, the positive and negative controls, and the statistical analysis of the luciferase data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** AlphaFold model validation
+  - **Affected element** Results section "A single PLDLS domain in EVI1 is critical for CTBP2 binding"
+  - **Evidence pointer** Figure 2.
+  - **Issue** The AlphaFold predictions are used to support the interaction interface, but the confidence of the models (e.g., pLDDT scores, predicted aligned error) is not reported. The text states that the interaction is "predicted" but does not provide the model quality metrics.
+  - **Required correction** Please include the AlphaFold confidence metrics (e.g., pLDDT scores) for the predicted EVI1-CTBP2 complex, and discuss the limitations of the prediction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability for ChIP-seq and RNA-seq
+  - **Affected element** Data availability section.
+  - **Evidence pointer** Data availability section.
+  - **Issue** The GEO accession number for ChIP-seq data is provided, but the RNA-seq data accession is not mentioned. The text states that RNA-seq was performed (Fig. S4C), but the data deposition is not described.
+  - **Required correction** Please provide the accession number for the RNA-seq data and ensure it is publicly available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical details for ChIP-seq correlation
+  - **Affected element** Results section "EVI1 is essential for CTBP2 recruitment to chromatin in inv(3) AML"
+  - **Evidence pointer** Figure 1D, Fig. S2A.
+  - **Issue** The correlation between EVI1 and CTBP2 binding sites is described as "strong," but the correlation coefficient (e.g., Pearson's r) and the method used to calculate it are not reported.
+  - **Required correction** Please report the correlation coefficient and the method used to calculate it, along with the number of binding sites analyzed.
+
+## Risk / unsupported claims
+- The claim that the 4x PLDLS inhibitor has a "therapeutic window" is not supported by the data presented, as only one EVI1-negative cell line (HL60) was tested and the mechanism of differential sensitivity is not explored.
+- The claim that the EVI1-CTBP2 interaction is "indispensable for leukemic transformation" is not fully supported without genetic loss-of-function experiments.
+- The claim that the findings have "important implications for other tumour types" is speculative and not supported by experimental evidence in this manuscript.
+- The statement that CTBP2 binding to chromatin is "globally lost" upon EVI1 knockdown or 4x PLDLS expression is based on ChIP-seq data, but the quantitative extent of this loss and its genome-wide significance are not fully described in the text.
+- The specificity of the 4x PLDLS inhibitor for EVI1-CTBP over other CTBP interactions is not established, and the potential for off-target effects is not adequately addressed.

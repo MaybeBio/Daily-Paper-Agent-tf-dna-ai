@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose RGTBind, a graph transformer for residue-level protein-DNA binding-site prediction. The model integrates multi-scale radial basis function (RBF) distance encoding and a learnable threshold-gating mechanism into spatially biased attention, using AlphaFold2-predicted structures and multiple sequence and structural features. The authors report state-of-the-art performance on Test_129 and Test_181 benchmarks in terms of F1, AUC, and MCC.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline details, or statistical analyses are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model architecture details, hyperparameter settings, baseline method descriptions, dataset composition and preprocessing specifics, cross-validation results, and any code or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and technically motivated approach to a relevant problem in structural bioinformatics. The combination of RBF distance encoding with a gating mechanism in a graph transformer is a reasonable innovation, and the reported benchmark results are encouraging. However, the evidence base is limited to the abstract, which prevents verification of the core claims. Key details on model design, training, evaluation, and comparison fairness are absent. The claim of state-of-the-art performance cannot be assessed without access to the full results and statistical context. The work has potential, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-nucleic acid interaction prediction, particularly those developing deep learning methods for structure-based function annotation. Researchers in graph neural networks applied to biomolecular problems may also find the architectural contributions of interest. The work could be relevant to those studying transcription factor binding, gene regulation, and protein function prediction.
+- **Major strengths** The problem is well motivated and practically important. The proposed architecture combines established components (RBF encoding, graph attention) with a novel gating mechanism, which is a reasonable design choice. The use of AlphaFold2-predicted structures and multiple feature sources (PSSM, HMM, DSSP) reflects current best practices. The evaluation on independent benchmarks is appropriate for the task.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "RGTBind achieved the best F1, AUC, and MCC among the compared methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that RGTBind achieved the best performance on both benchmarks, but no numerical results, baseline names, or statistical significance tests are provided. Without these, the claim cannot be evaluated.
+  - **Why it matters** The central claim of the work is the performance advantage over existing methods. If this is not substantiated with quantitative data and appropriate statistical analysis, the contribution is not established.
+  - **Resolution test** Provide a table with F1, AUC, and MCC values for RGTBind and all compared baselines on both Test_129 and Test_181, including standard deviations or confidence intervals and significance tests where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "Each protein was represented as a residue-level graph derived from AlphaFold2-predicted structures"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how graphs were constructed from AlphaFold2 structures, including node connectivity criteria, edge features, or any graph-level preprocessing. The threshold-gating mechanism is mentioned but not described in sufficient detail to understand its operation.
+  - **Why it matters** Reproducibility is a core requirement for computational method papers. Without architectural and preprocessing details, other researchers cannot implement or validate the method.
+  - **Resolution test** Provide a full methods section with graph construction rules, model architecture, gating mechanism formulation, and training details.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation rigor
+  - **Claim pointer** "evaluated on the Test_129 and Test_181 benchmark datasets"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the composition of these benchmarks, the nature of the prediction task (binary classification per residue), class balance, or how the compared methods were configured. It is unclear whether all methods used identical input features and data splits.
+  - **Why it matters** Fair comparison is essential for benchmarking claims. Differences in input features, training data, or evaluation protocols could confound the reported performance advantage.
+  - **Resolution test** Describe benchmark dataset sources, class distributions, and ensure all baselines are trained and evaluated under identical conditions. Provide details on any hyperparameter tuning for baselines.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The name "RGTBind" and the phrase "RBF-gate graph transformer" are introduced without explaining the acronym or the relationship between the name and the architecture.
+  - **Required correction** Define the acronym and briefly state how the name reflects the model design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Feature description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists multiple feature types (AlphaFold2 single representations, DSSP, PSSM, HMM) but does not indicate their relative contribution or whether any feature ablation was performed.
+  - **Required correction** Add a sentence on feature importance or ablation results if available, or state that such analysis is beyond the current scope.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention existing protein-DNA binding-site prediction methods or how RGTBind differs from them beyond the general architectural description.
+  - **Required correction** Include a brief comparison with prior methods in the introduction or discussion to position the contribution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance claim without data), R1-M2 (insufficient methodological detail), R1-M3 (evaluation fairness not verifiable)
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of RBF distance encoding with a learnable threshold gate in a graph transformer appears novel, but the abstract does not provide enough detail to assess the degree of innovation relative to existing graph-based predictors.
+  - Scientific importance: The problem is important for gene regulation and protein function annotation, and improved prediction methods would be valuable. However, the abstract does not demonstrate a substantial advance beyond current state of the art.
+  - Interdisciplinary readership: The work is likely to appeal to computational biologists and machine learning researchers, but the abstract is written in a specialized manner that may limit broader accessibility.
+  - Technical soundness: The approach is plausible, but the abstract lacks the detail needed to verify the soundness of the architecture, training, and evaluation.
+  - Readability for nonspecialists: The abstract is concise but uses technical jargon without sufficient explanation, which may hinder comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the problem is relevant, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript with complete results, methods, and evaluation details would be required to assess the contribution properly.
+
+## Risk / unsupported claims
+- The claim of achieving the best F1, AUC, and MCC on Test_129 and Test_181 is unsupported because no numerical results or baseline comparisons are provided.
+- The statement that the model "support[s] the value of distance-aware attention with structure-guided neighbor selection" is an interpretive claim that cannot be evaluated without ablation studies or comparative analyses.
+- The effectiveness of the "learnable threshold-gating mechanism" is asserted but not demonstrated with any specific evidence.
+- The use of AlphaFold2-predicted structures is mentioned, but the impact of prediction errors on performance is not addressed.
+- The generalizability of the method beyond the two benchmarks is not discussed.

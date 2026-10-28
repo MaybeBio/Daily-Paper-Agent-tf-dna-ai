@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "41209012",
+    "doi": "10.3389/fimmu.2025.1677713",
+    "title": "HOXA5-mediated spatial remodeling of tumor-immune interfaces across cancers promotes AML pathogenesis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: HOXA5 (homeobox A5) exhibits context-dependent roles in cancer, but its pan-cancer spatial immune regulatory functions and therapeutic potential remain poorly understood. METHODS: We integrated multi-omics data from 33 cancer types (TCGA, n=11,096; GTEx, n=7,469; TISCH2; spatial transcriptomics) to characterize HOXA5 expression, genomic alterations, and immune interactions. Functional validation was performed in AML cell lines (U937, KG-1; n=3 biological replicates per experiment). RESULTS: HOXA5 was significantly dysregulated across cancers, with elevated expression in AML and GBM, and reduced expression in BRCA and LUAD. In AML, high HOXA5 expression predicted poor overall survival (HR = 2.80, 95% CI: 1.60-4.89, p < 0.001) and was associated with FLT3/NPM1 mutations. Spatial transcriptomics revealed HOXA5+ malignant cells enhance fibroblast/endothelial crosstalk via IGFBP3-TMEM219. HOXA5 knockdown suppressed proliferation (p < 0.01) and induced G0/G1 arrest. Mechanistically, HOXA5 maintained AML through cholesterol biosynthesis and ECM remodeling. Mercaptopurine was identified as a potential therapeutic agent, and molecular docking predicted a potential stable interaction with HOXA5. CONCLUSIONS: HOXA5 plays a dual role in solid versus hematologic malignancies and serves as a key spatial immune regulator. It is a robust prognostic biomarker and therapeutic target in AML, with mercaptopurine representing a promising repurposing candidate.",
+    "keywords": [
+      "AML",
+      "biomarkers",
+      "cell cycle",
+      "cell proliferation",
+      "hoxa5"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Homeodomain Proteins/genetics/metabolism",
+      "*Leukemia, Myeloid, Acute/genetics/pathology/immunology/metabolism/etiology",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment/immunology",
+      "Cell Proliferation",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Changling",
+        "Wen, Ping",
+        "Zeng, Yan",
+        "Chen, Tao",
+        "Guo, Qulian",
+        "Liu, Chunyan",
+        "Zhong, Fangfang"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Wen P",
+        "Zeng Y",
+        "Chen T",
+        "Guo Q",
+        "Liu C",
+        "Zhong F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China.",
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China.",
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China.",
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China.",
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China.",
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China.",
+        "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+        "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Changling",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Ping",
+        "short_name": "Wen P",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yan",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tao",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Qulian",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chunyan",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Fangfang",
+        "short_name": "Zhong F",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Department of Urology and Immunology, Children's Medical Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, China.",
+          "Sichuan Clinical Research Center for Birth Defects, Luzhou, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/10 06:29",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39658265",
+      "39342535",
+      "39289562",
+      "38579725",
+      "38570491",
+      "38521405",
+      "38505042",
+      "38315776",
+      "38181123",
+      "37318402",
+      "36806082",
+      "36708811",
+      "36660797",
+      "36549921",
+      "36321662",
+      "36283023",
+      "36271576",
+      "35931863",
+      "35789380",
+      "35609983",
+      "35370463",
+      "35191375",
+      "34485110",
+      "34430923",
+      "34417225",
+      "33414417",
+      "32613204",
+      "32499530",
+      "32442275",
+      "32102694",
+      "31433971",
+      "31296229",
+      "30483748",
+      "30329142",
+      "30154154",
+      "29788355",
+      "29625051",
+      "29174371",
+      "28714863",
+      "27157614",
+      "27052693",
+      "25979369",
+      "24138885",
+      "24113773",
+      "23323831",
+      "22802077",
+      "22455463",
+      "20576703",
+      "19554572",
+      "18538349",
+      "15545268",
+      "14701762"
+    ],
+    "similar": [
+      "41209012",
+      "26397212",
+      "38387899",
+      "39393272",
+      "33223227",
+      "25549794",
+      "39872530",
+      "41324714",
+      "27052693",
+      "39614437",
+      "25585874",
+      "30267809",
+      "39833282",
+      "38966636",
+      "40275490",
+      "29461608",
+      "41080596",
+      "40844427",
+      "25987065",
+      "22227861",
+      "31234830",
+      "34369713",
+      "26846409",
+      "40681545",
+      "39342535",
+      "40672953",
+      "25875824",
+      "32499530",
+      "34362486",
+      "39400016",
+      "34615546",
+      "20890077",
+      "40890357",
+      "41139200",
+      "40277163",
+      "41394823",
+      "40229896",
+      "27960137",
+      "40386881",
+      "41383634",
+      "39993992",
+      "41224963",
+      "32077754",
+      "22876840",
+      "34027794",
+      "40961099",
+      "34502319",
+      "38994801",
+      "27756750",
+      "41504052",
+      "24273274",
+      "36701095",
+      "39333927",
+      "35370463",
+      "31452272",
+      "35280440",
+      "29412790",
+      "40973691",
+      "40625743",
+      "38693824",
+      "31159758",
+      "40317800",
+      "33891561",
+      "40696208",
+      "32320859",
+      "33136093",
+      "39704209",
+      "34006845",
+      "41296255",
+      "30483748",
+      "39920624",
+      "39615865",
+      "40889987",
+      "34587164",
+      "26678889",
+      "41275140",
+      "41029497",
+      "32880751",
+      "38686653",
+      "39033992",
+      "41265596",
+      "38664735",
+      "36167790",
+      "38165572",
+      "31168296",
+      "34098726",
+      "30015922",
+      "39243827",
+      "29463558",
+      "33931647",
+      "32373208",
+      "39689089",
+      "36271576",
+      "19554572",
+      "32103106",
+      "24582753",
+      "27157614",
+      "40034691",
+      "36536414",
+      "39762891"
+    ],
+    "review": [
+      "41209012",
+      "36271576"
+    ],
+    "pmc": [
+      "12589088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41209012/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2792",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1677713",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

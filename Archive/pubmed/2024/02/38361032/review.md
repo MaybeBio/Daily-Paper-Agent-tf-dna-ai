@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors challenge the prevailing models that Polycomb-mediated transcriptional repression is achieved through chromatin compaction or phase separation. Using Optical Reconstruction of Chromatin Architecture (ORCA) on the Hoxa gene cluster in thousands of single cells across multiple cell types, they report that Polycomb-bound chromatin frequently adopts decompact states and partially mixes with neighboring chromatin while remaining repressed. They propose an alternative mechanism, "spatial feedback," supported by polymer simulations, in which transient contacts propagate epigenetic memory without requiring globular organization.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for ORCA experiments and polymer simulations, statistical analyses, cell type descriptions, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important challenge to established models of Polycomb-mediated repression. The central claim, that repression can occur without compaction or phase separation, is provocative and would be of broad interest if rigorously supported. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the ORCA measurements, the robustness of the polymer simulations, or the strength of the evidence linking the observed chromatin conformations to the repression state. The conclusion that "spatial feedback" explains the data is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, gene regulation, and developmental biology would be interested. The work directly addresses ongoing debates about the physical mechanisms of Polycomb repression and the role of phase separation in genome organization, topics that have attracted substantial attention in the fields of chromatin structure and transcriptional control.
+- **Major strengths** The study addresses a central and contested question in the field with a high-resolution single-cell imaging approach. The use of ORCA to trace a canonical Polycomb target in thousands of cells is a methodological strength. The proposal of "spatial feedback" as an alternative to compaction-based models offers a conceptually distinct framework that could reconcile conflicting observations in the literature.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Polycomb-bound chromatin "frequently explores decompact states and partial mixing with neighboring chromatin, while remaining uniformly repressed," challenging repression-by-compaction or phase-separation models.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how repression was assayed in the same cells where chromatin conformation was measured. It is unclear whether transcriptional status was assessed at the single-cell level, whether the Hoxa genes were confirmed to be repressed in all imaged cells, or how "uniformly repressed" was defined and quantified.
+  - **Why it matters** The central conclusion depends on the correlation between chromatin state and repression status. If repression was not directly measured in the imaged cells, the claim that decompact conformations coexist with repression is not established.
+  - **Resolution test** Provide details on the repression assay, including whether it was performed in the same cells, the markers used, and the statistical relationship between chromatin conformation and transcriptional state.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that polymer simulations show the observed flexible ensembles can be explained by "spatial feedback" without inducing globular organization.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given about the polymer model, its parameters, the fitting procedure, or how the simulations were compared to the experimental data. Without this information, it is impossible to assess whether the simulations are predictive, overfitted, or simply consistent with the data in a trivial way.
+  - **Why it matters** The "spatial feedback" model is the proposed alternative mechanism. If the simulations are not rigorously constrained by the experimental data, the model remains speculative.
+  - **Resolution test** Provide a description of the polymer model, parameter choices, fitting criteria, and quantitative comparison between simulated and experimental distributions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors claim that observations were made "across multiple cell types."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which cell types were used, how many were examined, or whether the findings were consistent across all of them. It is unclear whether the decompact state is a general feature or specific to certain contexts.
+  - **Why it matters** The generality of the conclusion depends on the diversity and consistency of the cell types examined. If some cell types showed compaction, the claim would need to be qualified.
+  - **Resolution test** List the cell types, the number of cells per type, and the quantitative results for each, including any variability or exceptions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "spatial feedback"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "spatial feedback" is introduced but not defined. It is unclear how it differs from existing models of epigenetic memory or what specific molecular mechanism is proposed.
+  - **Required correction** Provide a clear definition of "spatial feedback" and explain how it mechanistically propagates the epigenetic state.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Generalization of findings
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses on the Hoxa cluster, a single locus. The claim that the findings challenge general models of Polycomb repression may be overstated without evidence from other Polycomb targets.
+  - **Required correction** Acknowledge the locus-specific nature of the study and discuss the extent to which the findings may generalize.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** ORCA resolution and limitations
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the spatial resolution of ORCA or its limitations in detecting transient or small-scale compaction events.
+  - **Required correction** Include a statement on the resolution limits and how they affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in proposing "spatial feedback" as an alternative to compaction-based repression models. The conceptual framing is novel.
+  - Scientific importance: The question addressed is of high importance to the fields of epigenetics and chromatin biology. If the claims are substantiated, the work would significantly revise current understanding of Polycomb function.
+  - Interdisciplinary readership: The topic bridges molecular biology, biophysics, and computational modeling, and would attract readers across these disciplines.
+  - Technical soundness: Cannot be fully assessed from the abstract. The ORCA method is established, but the specific application and the simulation approach require detailed evaluation.
+  - Readability for nonspecialists: The abstract is concise and accessible, though the term "spatial feedback" would benefit from clearer explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the technical details necessary to evaluate the central claims are not available. If the full manuscript provides rigorous evidence linking chromatin conformation to repression status, detailed simulation methods, and consistent results across cell types, the work could be supportive. At this stage, the case is not made.
+
+## Risk / unsupported claims
+- The claim that Polycomb-bound chromatin "frequently explores decompact states" is unsupported without quantitative data on the distribution of compaction states.
+- The claim that repression is "uniformly" maintained is unsupported without details on the repression assay.
+- The claim that the findings "challenge" compaction or phase-separation models is not established without direct comparison to predictions of those models.
+- The claim that "spatial feedback" explains the observed ensembles is not assessable without simulation details.
+- The generalization to "multiple cell types" is not assessable without specification of the cell types and results per type.

@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41644582",
+    "doi": "10.1038/s41598-026-36512-3",
+    "title": "Integrative analyses of metastatic cancer transcriptome reveal clinically distinct cellular States and ecosystems."
+  },
+  "content": {
+    "abstract": "Determining the diverse cellular states and their organization into cellular ecosystems that make up metastatic tumor is vital for elucidating the biological and prognostic diversity of cancer. However, large-scale studies profiling the clinical relevance of these cellular states and ecotypes are still lacking in metastatic cancers. In this study, we used EcoTyper, a machine learning framework, to comprehensively analyze transcriptomes from 2822 metastatic cancer patient samples covering 25 cancer types, enabling characterization of the fundamental cellular states and tumor ecosystems integral to metastatic cancer. We identified 45 distinct cellular states across 12 cell types and validated their robustness in validation cohorts. We observed that they differed in functional and prognostic associations. Survival analysis revealed that the clinically relevant cellular states, highlighting their promise as predictors of clinical outcomes. Functional enrichment analysis exhibited that the marker genes of cellular states were significantly enriched in cancer hallmark and immune-related pathways. In addition, our analysis identified five ecotypes associated with different clinical outcomes. Transcription factor enrichment analysis revealed key transcription factors (i.e. SPIB, SRF, and NR1D1) that were significantly associated with patient clinical outcomes. In conclusion, this study provided a high-resolution landscape of cellular states and ecosystems in metastatic tumors, offering new potential targets for the development of cancer treatment strategies and prognostic assessment.",
+    "keywords": [
+      "Cellular states",
+      "Clinical prognosis",
+      "Machine learning",
+      "Metastatic cancer",
+      "Transcriptional regulation",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcriptome",
+      "Neoplasm Metastasis",
+      "*Neoplasms/genetics/pathology/mortality",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Tumor Microenvironment/genetics",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Can",
+        "Li, Si",
+        "Yu, Yun",
+        "Chi, Meng",
+        "Yuan, Ziming",
+        "Wang, Kun"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Li S",
+        "Yu Y",
+        "Chi M",
+        "Yuan Z",
+        "Wang K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, People's Republic of China.",
+        "School of Interdisciplinary Medicine and Engineering, Harbin Medical University, Harbin, 150081, Heilongjiang, People's Republic of China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, People's Republic of China.",
+        "School of Interdisciplinary Medicine and Engineering, Harbin Medical University, Harbin, 150081, Heilongjiang, People's Republic of China.",
+        "School of Interdisciplinary Medicine and Engineering, Harbin Medical University, Harbin, 150081, Heilongjiang, People's Republic of China.",
+        "Department of Anesthesiology, Harbin Medical University Cancer Hospital, Harbin, 150081, China. chimeng1876@hrbmu.edu.cn.",
+        "Department of Colorectal Cancer Surgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150000, Heilongjiang, People's Republic of China. yuanziming@hrbmu.edu.cn.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, People's Republic of China. hydwangkun@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Can",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, People's Republic of China.",
+          "School of Interdisciplinary Medicine and Engineering, Harbin Medical University, Harbin, 150081, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Si",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, People's Republic of China.",
+          "School of Interdisciplinary Medicine and Engineering, Harbin Medical University, Harbin, 150081, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yun",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Medicine and Engineering, Harbin Medical University, Harbin, 150081, Heilongjiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chi, Meng",
+        "short_name": "Chi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Harbin Medical University Cancer Hospital, Harbin, 150081, China. chimeng1876@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yuan, Ziming",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Cancer Surgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150000, Heilongjiang, People's Republic of China. yuanziming@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Kun",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Harbin Medical University, Harbin, People's Republic of China. hydwangkun@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Feb 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/06 00:30",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40340848",
+      "40044952",
+      "39678138",
+      "39421736",
+      "39359072",
+      "39125689",
+      "39016636",
+      "38903506",
+      "38554705",
+      "38429415",
+      "37980528",
+      "37950670",
+      "37926835",
+      "37926346",
+      "37857854",
+      "37815800",
+      "37605453",
+      "37500893",
+      "37419119",
+      "37149684",
+      "37059065",
+      "36862804",
+      "36831659",
+      "36731467",
+      "36690975",
+      "36323190",
+      "35874717",
+      "35488236",
+      "35227285",
+      "35121966",
+      "35078507",
+      "35051532",
+      "35029289",
+      "34674757",
+      "34597589",
+      "34597583",
+      "34557778",
+      "34551701",
+      "34141615",
+      "33811127",
+      "33259885",
+      "33143224",
+      "32801887",
+      "32561888",
+      "32331421",
+      "32081859",
+      "31591235",
+      "31063755",
+      "31061481",
+      "30127393",
+      "29625050",
+      "29541226",
+      "29087512",
+      "28783718",
+      "27323859",
+      "26845449",
+      "26771021",
+      "26743193",
+      "26198319",
+      "26044095",
+      "25822800",
+      "25691825",
+      "24791905",
+      "24113773",
+      "23237552",
+      "23193258",
+      "22385965",
+      "22257669",
+      "21436443",
+      "14597658",
+      "10519415"
+    ],
+    "similar": [
+      "41644582",
+      "40340848",
+      "40025504",
+      "41436831",
+      "41246350",
+      "40496864",
+      "34597583",
+      "42079608",
+      "40438100",
+      "41208987",
+      "41286333",
+      "42140356",
+      "40438115",
+      "37500893",
+      "40034693",
+      "41656832",
+      "42589378",
+      "41425595",
+      "40640592",
+      "42317342",
+      "40496857",
+      "40764361",
+      "41740484",
+      "42477639",
+      "40362431",
+      "42292425",
+      "40746552",
+      "40068177",
+      "40681784",
+      "42010788",
+      "41485251",
+      "41798945",
+      "42067796",
+      "39075441",
+      "41207909",
+      "41998694",
+      "41836446",
+      "40761790",
+      "41000388",
+      "40607411",
+      "39507529",
+      "39870964",
+      "39703515",
+      "32988401",
+      "39516442",
+      "39431237",
+      "41840725",
+      "41685329",
+      "42093974",
+      "40473799",
+      "38429415",
+      "41993135",
+      "41878416",
+      "39835132",
+      "39904894",
+      "41716413",
+      "41601635",
+      "41436608",
+      "41151853",
+      "41235257",
+      "38994352",
+      "41006377",
+      "40909272",
+      "41342434",
+      "39380996",
+      "40200221",
+      "40898185",
+      "41202314",
+      "42135732",
+      "41472745",
+      "39712023",
+      "38840928",
+      "39603145",
+      "41689080",
+      "41293150",
+      "41693709",
+      "39896800",
+      "39300389",
+      "42510844",
+      "34470666",
+      "42510824",
+      "41710887",
+      "42047819",
+      "32807122",
+      "27871313",
+      "39565103",
+      "42107026",
+      "32754268",
+      "41498033",
+      "42475469",
+      "38700505",
+      "42035196",
+      "42327341",
+      "42220482",
+      "42100798",
+      "41685312",
+      "41208974",
+      "40362553",
+      "42469385",
+      "39695482"
+    ],
+    "review": [
+      "41644582"
+    ],
+    "pmc": [
+      "12923827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-36512-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41644582/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1727",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

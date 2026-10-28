@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "40723891",
+    "doi": "10.3390/biom15071019",
+    "title": "Targeting Sodium Transport Reveals CHP1 Downregulation as a Novel Molecular Feature of Malignant Progression in Clear Cell Renal Cell Carcinoma: Insights from Integrated Multi-Omics Analyses."
+  },
+  "content": {
+    "abstract": "Clear cell renal cell carcinoma (ccRCC), the most common RCC subtype, displays significant intratumoral heterogeneity driven by metabolic reprogramming, which complicates our understanding of disease progression and limits treatment efficacy. This study aimed to construct a comprehensive cellular and transcriptional landscape of ccRCC, with emphasis on gene expression dynamics during malignant progression. An integrated analysis of 90 scRNA-seq samples comprising 534,227 cells revealed a progressive downregulation of sodium ion transport-related genes, particularly CHP1 (calcineurin B homologous protein isoform 1), which is predominantly expressed in epithelial cells. Reduced CHP1 expression was confirmed at both mRNA and protein levels using bulk RNA-seq, CPTAC proteomics, immunohistochemistry, and ccRCC cell lines. Survival analysis showed that high CHP1 expression correlated with improved prognosis. Functional analyses, including pseudotime trajectory, Mfuzz clustering, and cell-cell communication modeling, indicated that CHP1(+) epithelial cells engage in immune interaction via PPIA-BSG signaling. Transcriptomic profiling and molecular docking suggested that CHP1 modulates amino acid transport through SLC38A1. ZNF460 was identified as a potential transcription factor of CHP1. Virtual screening identified arbutin and imatinib mesylate as candidate CHP1-targeting compounds. These findings establish CHP1 downregulation as a novel molecular feature of ccRCC progression and support its utility as a prognostic biomarker.",
+    "keywords": [
+      "calcineurin B homologous protein isoform 1",
+      "clear cell renal cell carcinoma",
+      "prognostic biomarker",
+      "single-cell RNA sequencing",
+      "sodium transport",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/genetics/metabolism/pathology/drug therapy",
+      "*Kidney Neoplasms/metabolism/genetics/pathology/drug therapy",
+      "Down-Regulation",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Disease Progression",
+      "Cell Line, Tumor",
+      "*Sodium/metabolism",
+      "Molecular Docking Simulation",
+      "Prognosis",
+      "Imatinib Mesylate/pharmacology",
+      "Proteomics",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Yun",
+        "Zhu, Ri-Ting",
+        "Chen, Jia-Ru",
+        "Liu, Xiao-Min",
+        "Huang, Guo-Liang",
+        "Zeng, Jin-Cheng",
+        "Yu, Hong-Bing",
+        "Liu, Xin",
+        "Han, Cui-Fang"
+      ],
+      "short_names": [
+        "Wu Y",
+        "Zhu RT",
+        "Chen JR",
+        "Liu XM",
+        "Huang GL",
+        "Zeng JC",
+        "Yu HB",
+        "Liu X",
+        "Han CF"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-5142-7449",
+        "ORCID: 0000-0001-6196-3917",
+        "ORCID: 0000-0002-6768-3585"
+      ],
+      "affiliations": [
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "School of Pharmacy, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "School of Pharmacy, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "School of Pharmacy, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "Dongguan Key Laboratory of Medical Bioactive Molecular Developmental and Translational Research, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+        "Dongguan Key Laboratory of Public Health Laboratory Science, School of Public Health, Guangdong Medical University, Dongguan 523808, China.",
+        "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Yun",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ri-Ting",
+        "short_name": "Zhu RT",
+        "identifiers": [
+          "0009-0008-5142-7449"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+          "School of Pharmacy, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jia-Ru",
+        "short_name": "Chen JR",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+          "School of Pharmacy, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiao-Min",
+        "short_name": "Liu XM",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+          "School of Pharmacy, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guo-Liang",
+        "short_name": "Huang GL",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jin-Cheng",
+        "short_name": "Zeng JC",
+        "identifiers": [
+          "0000-0001-6196-3917"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China.",
+          "Dongguan Key Laboratory of Medical Bioactive Molecular Developmental and Translational Research, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hong-Bing",
+        "short_name": "Yu HB",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Dongguan Key Laboratory of Public Health Laboratory Science, School of Public Health, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      },
+      {
+        "full_name": "Han, Cui-Fang",
+        "short_name": "Han CF",
+        "identifiers": [
+          "0000-0002-6768-3585"
+        ],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Medical Immunology and Molecular Diagnostics, Guangdong Medical University, Dongguan 523808, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:30",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39921142",
+      "39769162",
+      "39289562",
+      "39214095",
+      "39014460",
+      "38942917",
+      "38730618",
+      "38718835",
+      "38539542",
+      "38382691",
+      "38378000",
+      "38248854",
+      "38230766",
+      "38023152",
+      "38007580",
+      "37962376",
+      "37674210",
+      "37673823",
+      "37423640",
+      "37133722",
+      "37117846",
+      "36821107",
+      "36607615",
+      "36557918",
+      "36313180",
+      "36300619",
+      "36180422",
+      "36066402",
+      "35853783",
+      "35231421",
+      "35078134",
+      "34711971",
+      "34108458",
+      "33144689",
+      "32269383",
+      "32015543",
+      "31740819",
+      "31710740",
+      "30954476",
+      "30914743",
+      "30846317",
+      "30395287",
+      "30293904",
+      "30177408",
+      "30115975",
+      "30028216",
+      "29961886",
+      "29409532",
+      "29301960",
+      "28825705",
+      "28793269",
+      "28224429",
+      "27718450",
+      "26316781",
+      "25873628",
+      "25867923",
+      "24452105",
+      "23904602",
+      "23848995",
+      "22955987",
+      "22455463",
+      "22189947",
+      "18351591",
+      "18084642",
+      "16691470",
+      "15027865",
+      "14661968",
+      "12948658",
+      "12226101",
+      "11870247",
+      "11350981",
+      "11112438",
+      "10802651",
+      "10411090",
+      "2187598"
+    ],
+    "similar": [
+      "40723891",
+      "40642093",
+      "41135615",
+      "39684640",
+      "40539074",
+      "41863682",
+      "41601657",
+      "40243888",
+      "41568676",
+      "40770761",
+      "34795663",
+      "40265430",
+      "40607252",
+      "41403935",
+      "40802073",
+      "41716413",
+      "40730958",
+      "41050079",
+      "28349447",
+      "38944814",
+      "41230160",
+      "41673210",
+      "30428910",
+      "38970690",
+      "40016772",
+      "41135953",
+      "38361033",
+      "40821775",
+      "41290257",
+      "40602220",
+      "32567187",
+      "40220129",
+      "40954501",
+      "39799252",
+      "38994370",
+      "41593170",
+      "39348357",
+      "40522863",
+      "38953023",
+      "37264263",
+      "41663022",
+      "39818256",
+      "39107475",
+      "40382614",
+      "37608295",
+      "38773612",
+      "41357761",
+      "41057666",
+      "38980439",
+      "39814247",
+      "24802708",
+      "41286149",
+      "32236633",
+      "38600002",
+      "39633487",
+      "41357186",
+      "39230203",
+      "27128972",
+      "40056237",
+      "41799185",
+      "32319572",
+      "31703694",
+      "39301023",
+      "38659199",
+      "32282241",
+      "33178820",
+      "29239102",
+      "41077212",
+      "30772441",
+      "39614426",
+      "26831905",
+      "40093809",
+      "40504084",
+      "25970749",
+      "25120023",
+      "24878177",
+      "38488671",
+      "37977044",
+      "41188452",
+      "29209141",
+      "39039052",
+      "41082386",
+      "41112295",
+      "39789627",
+      "40883030",
+      "41376629",
+      "37240154",
+      "39614428",
+      "30616081",
+      "40588582",
+      "40375605",
+      "24094887",
+      "41266441",
+      "40461489",
+      "39993614",
+      "34329838",
+      "31400752",
+      "39575481",
+      "36646679",
+      "39714590"
+    ],
+    "review": [
+      "40723891"
+    ],
+    "pmc": [
+      "12292469"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15071019",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40723891/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://proteomics.cancer.gov/programs/cptac",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

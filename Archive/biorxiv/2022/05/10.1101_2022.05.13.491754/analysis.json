@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.13.491754",
+  "title": "Predictive Models of Genome-wide Aryl Hydrocarbon Receptor DNA Binding Reveal Tissue Specific Binding Determinants",
+  "authors": "David Filipovic; Wenjie Qi; Omar Kana; Daniel Marri; Edward L. LeCluyse; Melvin E. Andersen; Suresh Cuddapah; Sudin Bhattacharya",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-13",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用XGBoost预测AhR转录因子全基因组DNA结合状态，整合序列、染色质可及性、组蛋白修饰和TF共结合特征，虽非三维结构建模，但聚焦TF-DNA结合位点预测且方法可迁移至其他TF-DNA体系。",
+  "abstract": "Background The Aryl Hydrocarbon Receptor (AhR) is an inducible transcription factor (TF) whose ligands include the environmental contaminant 2,3,7,8-tetrachlorodibenzo- p -dioxin (TCDD). TCDD-mediated toxicity occurs through activation of AhR and its subsequent binding to the Dioxin Response Element (DRE), comprising the DNA motif 5’-GCGTG-3’. However, AhR binding in human tissues is highly dynamic and tissue specific. Approximately 50% of all experimentally verified AhR binding sites do not contain a DRE. Additionally, most accessible DREs are not bound by AhR. Identification of tissue specific AhR binding determinants is crucial for understanding downstream gene regulation and potential adverse outcomes of AhR activation. Results We applied XGBoost, a supervised machine learning architecture, to predict the genome wide AhR binding status of DREs in open chromatin as a function of DNA sequence flanking the DRE, chromatin accessibility, histone modifications (HM), TF binding, and proximity of the DRE to gene promoters. We trained and validated our models using 5-fold cross validation to predict the binding status of DREs in AhR-activated MCF-7 breast cancer cells, primary human hepatocytes, and lymphoblastoid GM17212 cells, as well as AhR non-activated HepG2 hepatocellular carcinoma cells. Our results demonstrate highly accurate and robust models of AhR binding; and identify patterns of transcription factor binding and histone modifications predictive of AhR binding. These patterns are consistent within tissues but highly variable across tissues, which is suggestive of tissue-specific mechanisms of AhR binding. Conclusions AhR binding is driven by a complex interplay of tissue-agnostic DNA sequence flanking its binding motif and tissue-specific local chromatin context.",
+  "abstract_zh": "背景 芳香烃受体（Aryl Hydrocarbon Receptor, AhR）是一种诱导型转录因子（transcription factor, TF），其配体包括环境污染物2,3,7,8-四氯二苯并对二噁英（2,3,7,8-tetrachlorodibenzo-p-dioxin, TCDD）。TCDD介导的毒性通过激活AhR及其随后与二噁英响应元件（Dioxin Response Element, DRE）结合而实现，该元件包含DNA基序5’-GCGTG-3’。然而，AhR在人体组织中的结合具有高度动态性和组织特异性。约50%的实验验证的AhR结合位点不含DRE。此外，大多数可及的DRE并未被AhR结合。识别组织特异性的AhR结合决定因素对于理解下游基因调控及AhR激活的潜在不良后果至关重要。结果 我们应用XGBoost（一种监督式机器学习架构）来预测开放染色质中DRE的全基因组AhR结合状态，其作为DRE侧翼DNA序列、染色质可及性、组蛋白修饰（histone modifications, HM）、TF结合以及DRE与基因启动子邻近性的函数。我们使用5折交叉验证训练并验证模型，以预测AhR激活的MCF-7乳腺癌细胞、原代人肝细胞和淋巴母细胞样GM17212细胞，以及AhR未激活的HepG2肝细胞癌细胞中DRE的结合状态。我们的结果表明，AhR结合模型具有高度准确性和稳健性；并识别出可预测AhR结合的转录因子结合和组蛋白修饰模式。这些模式在组织内一致，但在组织间差异显著，提示AhR结合存在组织特异性机制。结论 AhR结合由其结合基序侧翼的组织非特异性DNA序列与组织特异性局部染色质环境之间的复杂相互作用驱动。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.13.491754",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.13.491754",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.13.491754/index.html"
+}

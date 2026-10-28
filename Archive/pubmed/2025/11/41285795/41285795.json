@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "41285795",
+    "doi": "10.1038/s41467-025-65362-2",
+    "title": "Motif-based models accurately predict cell type-specific distal regulatory elements."
+  },
+  "content": {
+    "abstract": "Deciphering how DNA sequence specifies cell-type-specific regulatory activity is a central challenge in gene regulation. We present Bag-of-Motifs (BOM), a computational framework that represents distal cis-regulatory elements as unordered counts of transcription factor (TF) motifs. This minimalist representation, combined with gradient-boosted trees, enables the accurate prediction of cell-type-specific enhancers across mouse, human, zebrafish, and Arabidopsis datasets. Despite its simplicity, BOM outperforms more complex deep-learning models while using fewer parameters. We validate BOM's predictions experimentally by constructing synthetic enhancers from the most predictive motifs, demonstrating that these motif sets drive cell-type-specific expression. By providing direct interpretability and broad applicability, BOM reveals a highly predictive sequence code at distal regulatory regions and offers a scalable framework for dissecting cis-regulatory grammar across diverse species and conditions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Humans",
+      "Transcription Factors/metabolism/genetics",
+      "Zebrafish/genetics",
+      "Arabidopsis/genetics",
+      "*Nucleotide Motifs/genetics",
+      "*Enhancer Elements, Genetic/genetics",
+      "*Computational Biology/methods",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cornejo-Paramo, Paola",
+        "Zhang, Xuan",
+        "Louis, Lithin",
+        "Li, Zelun",
+        "Yang, Yihua",
+        "Wong, Emily S"
+      ],
+      "short_names": [
+        "Cornejo-Paramo P",
+        "Zhang X",
+        "Louis L",
+        "Li Z",
+        "Yang Y",
+        "Wong ES"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3089-9809",
+        "ORCID: 0000-0003-0315-2942"
+      ],
+      "affiliations": [
+        "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia.",
+        "School of Biotechnology and Biomolecular Sciences, UNSW Sydney, Sydney, NSW, Australia.",
+        "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia.",
+        "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia.",
+        "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia.",
+        "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia.",
+        "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia. e.wong@victorchang.edu.au.",
+        "School of Biotechnology and Biomolecular Sciences, UNSW Sydney, Sydney, NSW, Australia. e.wong@victorchang.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cornejo-Páramo, Paola",
+        "short_name": "Cornejo-Páramo P",
+        "identifiers": [],
+        "affiliations": [
+          "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia.",
+          "School of Biotechnology and Biomolecular Sciences, UNSW Sydney, Sydney, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuan",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0002-3089-9809"
+        ],
+        "affiliations": [
+          "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Louis, Lithin",
+        "short_name": "Louis L",
+        "identifiers": [],
+        "affiliations": [
+          "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Li, Zelun",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Yang, Yihua",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia."
+        ]
+      },
+      {
+        "full_name": "Wong, Emily S",
+        "short_name": "Wong ES",
+        "identifiers": [
+          "0000-0003-0315-2942"
+        ],
+        "affiliations": [
+          "Victor Chang Cardiac Research Institute, Darlinghurst, NSW, Australia. e.wong@victorchang.edu.au.",
+          "School of Biotechnology and Biomolecular Sciences, UNSW Sydney, Sydney, NSW, Australia. e.wong@victorchang.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Nov 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 00:27",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42557933",
+      "42079234"
+    ],
+    "refs": [],
+    "similar": [
+      "41285795",
+      "22534400",
+      "28716036",
+      "21821017",
+      "20363979",
+      "23620480",
+      "22011226",
+      "24714811",
+      "36043696",
+      "30709337",
+      "33137083",
+      "22683808",
+      "26912062",
+      "34486522",
+      "24391522",
+      "24440152",
+      "40472848",
+      "29363433",
+      "22167192",
+      "23148487",
+      "23512712",
+      "37582793",
+      "33154111",
+      "22744985",
+      "32732264",
+      "27490187",
+      "24565409",
+      "22456606",
+      "28359978",
+      "39420601",
+      "24156763",
+      "35551305",
+      "27567672",
+      "34244796",
+      "39322281",
+      "36520922",
+      "22759862",
+      "23867016",
+      "28137873",
+      "24234003",
+      "22763441",
+      "34755879",
+      "31372637",
+      "22852874",
+      "19850031",
+      "32728244",
+      "29233921",
+      "33044128",
+      "27557773",
+      "26160164",
+      "25361952",
+      "25035418",
+      "22955984",
+      "17953763",
+      "18455719",
+      "34570239",
+      "31318408",
+      "21435340",
+      "24985916",
+      "24896182",
+      "34292930",
+      "30555922",
+      "12097338",
+      "21036669",
+      "34187518",
+      "31786786",
+      "29187214",
+      "19895802",
+      "21248200",
+      "31311821",
+      "28607381",
+      "23685394",
+      "28865451",
+      "26540692",
+      "39819837",
+      "26291518",
+      "24021675",
+      "16113229",
+      "28239713",
+      "26739233",
+      "41288963",
+      "12362434",
+      "19357200",
+      "33581335",
+      "26721389",
+      "39695228",
+      "25788622",
+      "23972280",
+      "36941077",
+      "24218641",
+      "37539835",
+      "27104590",
+      "23272209",
+      "31006511",
+      "14659890",
+      "24204023",
+      "9847207",
+      "33603233",
+      "39922842",
+      "22058225"
+    ],
+    "review": [
+      "41285795",
+      "28359978"
+    ],
+    "pmc": [
+      "12644898"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-65362-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41285795/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

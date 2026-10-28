@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and data availability statements
+- **Assessment boundary** Scientific claims, methodological rigor, evidence quality, and internal consistency of the presented framework
+- **Shared manuscript claim summary** The authors propose that AI co-folding models (AlphaFold3, Protenix, Boltz-2, Chai-1, DynamicBind) systematically fail at predicting allosteric ligand binding due to fundamental biophysical properties of allosteric sites, specifically persistent neutral frustration and lack of ligand-induced frustration quenching, which they contrast with orthosteric sites that exhibit frustration quenching and steep energetic funnels
+- **Visible evidence base** Benchmarking results on orthosteric (2,275 complexes) and allosteric (1,966 complexes) datasets, local frustration analysis of apo and holo states, QS-score and RMSD distributions, representative structural mappings
+- **Missing materials affecting confidence** Figures 1-6 and Supplementary Figures S1-S8 are referenced but not provided; statistical test outputs (exact p-values, effect sizes) are not reported; dataset composition details and potential overlap between training and test sets are not fully verifiable; code repository contents not independently assessed
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question regarding the limitations of AI co-folding models for allosteric ligand binding prediction. The central hypothesis, that allosteric sites are intrinsically harder to predict due to their frustration landscape properties, is conceptually appealing and potentially impactful. However, the manuscript as presented has several significant issues that prevent full evaluation. The absence of all figures and supplementary materials makes it impossible to verify the quantitative claims. The statistical reporting is incomplete, and the causal link between frustration patterns and model performance, while plausible, is not rigorously established. The framing of the "allosteric paradox" and the proposed dual framework are interesting but the novelty relative to existing literature on allosteric site prediction challenges needs clearer articulation. The manuscript would benefit from a more critical examination of alternative explanations for the observed performance gap, including training data biases and benchmark construction artifacts.
+- **Who would be interested in the results, and why** Computational structural biologists, AI model developers working on protein-ligand interaction prediction, and researchers studying allostery and protein energy landscapes. The findings could inform the development of next-generation prediction tools and provide a biophysical framework for understanding model limitations. The frustration-based interpretation of model performance could also interest experimentalists studying allosteric regulation who seek computational tools for site identification.
+- **Major strengths** The manuscript addresses a significant and unresolved challenge in computational drug discovery. The dual framework combining benchmarking with energy landscape analysis is a sensible and potentially powerful approach. The use of multiple AI architectures provides evidence for the architecture-independent nature of the observed phenomenon. The concept of linking prediction outcomes to frustration landscapes is creative and could provide a mechanistic explanation for model behavior. The datasets appear reasonably large and diverse, spanning multiple protein families.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims systematic and architecture-independent performance collapse for allosteric ligand binding across all five AI models, with mean ligand pose RMSD increasing to 5.2-6.8 Å and success rates dropping to 25-35%
+  - **Evidence pointer** Figures 2A-D, Figure 3, location not provided for specific data points
+  - **Concern** All figures and supplementary materials are referenced but not included in the provided manuscript text. The quantitative claims about RMSD distributions, QS-scores, and success rates cannot be independently verified. The violin plots, scatter plots, and structural mappings described in the text are essential for evaluating the strength and consistency of the reported effects. Without these visualizations, it is impossible to assess whether the performance gap is as dramatic and uniform as claimed, or whether there are important outliers or model-specific patterns that might qualify the conclusions.
+  - **Why it matters** The central claim of an architecture-independent "allosteric blind spot" rests entirely on the benchmarking data. If the distributions show substantial overlap between orthosteric and allosteric performance for some models, or if the effect is driven by a subset of difficult complexes, the conclusion would need significant qualification. The reader cannot evaluate the robustness of the finding without seeing the underlying data distributions.
+  - **Resolution test** Provide all figures and supplementary materials. Include exact numerical values for mean, median, and interquartile ranges for all metrics across all models and datasets. Report per-complex results or at least summary statistics that allow assessment of distribution shapes and outliers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims statistically significant differences between orthosteric and allosteric prediction performance and between frustration patterns of the two site types
+  - **Evidence pointer** Methods section "Quantification and Statistical Analysis", location not provided for specific test results
+  - **Concern** The methods state that paired two-tailed t-tests with Benjamini-Hochberg correction were used, and Mann-Whitney U tests with Cliff's delta for frustration comparisons, but no actual test statistics, p-values, or effect sizes are reported anywhere in the text. The reader cannot assess whether the observed differences are statistically robust or potentially driven by a few influential complexes. The choice of paired t-tests for comparing models across datasets also requires justification, as the pairing structure is not clear.
+  - **Why it matters** The manuscript makes strong claims about the universality and significance of the performance gap. Without reported statistics, these claims are unverifiable. The comparison between orthosteric and allosteric datasets involves different complex sets, and the appropriate statistical framework for such comparisons needs careful consideration and transparent reporting.
+  - **Resolution test** Report exact p-values, test statistics, and effect sizes for all key comparisons. Justify the choice of statistical tests given the data structure. Consider reporting confidence intervals for the main performance metrics. Provide per-complex data or clear descriptions of the variance structure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The manuscript claims that the performance gap is caused by the frustration landscape properties of allosteric sites, specifically persistent neutral frustration and absence of ligand-induced frustration quenching
+  - **Evidence pointer** Figures 4-6, Supplementary Figures S5-S8, location not provided
+  - **Concern** The manuscript establishes a correlation between frustration patterns and model performance but does not rigorously demonstrate causation. Alternative explanations for the performance gap are not adequately explored. For instance, allosteric sites may be underrepresented in training data, may have different physicochemical properties (e.g., hydrophobicity, size, shape) that affect model performance independent of frustration, or may exhibit greater conformational heterogeneity that challenges the single-structure prediction paradigm. The manuscript does not control for these potential confounders or discuss them in sufficient depth.
+  - **Why it matters** The central thesis is that the allosteric blind spot reflects fundamental biophysical constraints rather than algorithmic or data limitations. If the performance gap can be explained by training data composition or other factors, the proposed framework loses its explanatory power. The causal claim requires either controlled experiments or at minimum a thorough discussion of alternative hypotheses and why they are insufficient.
+  - **Resolution test** Perform additional analyses controlling for potential confounders such as training data representation, pocket physicochemical properties, and conformational heterogeneity. Alternatively, provide a more nuanced discussion that acknowledges the correlational nature of the evidence and outlines what additional experiments would be needed to establish causation. Consider testing whether models trained with allosteric complexes included show improved performance, which would directly test the training data hypothesis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and framing
+  - **Claim pointer** The manuscript frames the "allosteric paradox" and the dual framework as a novel contribution, and claims that the findings "recast AI shortcomings as diagnostic indicators of fundamental biophysical constraints"
+  - **Evidence pointer** Abstract, Introduction, Discussion
+  - **Concern** The manuscript does not clearly articulate what is novel about the proposed framework relative to existing work on allosteric site prediction and AI model evaluation. The observation that AI models struggle with allosteric sites has been reported previously, and the frustration-based interpretation, while interesting, builds on established energy landscape theory. The specific contribution of this work, beyond confirming known limitations with a larger benchmark, needs clearer articulation. The "allosteric paradox" framing is not well-defined and the manuscript does not explain what paradox is being resolved.
+  - **Why it matters** For a high-impact venue, the novelty and conceptual advance must be clearly established. If the framework is primarily a combination of existing benchmarking and frustration analysis methods, the contribution may be incremental. The manuscript should position itself more precisely within the existing literature and identify what specific new insights or capabilities the framework provides.
+  - **Resolution test** Revise the introduction and discussion to clearly state what is new about the framework, what specific hypotheses are being tested, and how the findings advance beyond prior work. Consider whether the "paradox" framing is appropriate or whether a more precise formulation of the problem would strengthen the manuscript.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmark construction and validation
+  - **Claim pointer** The manuscript claims the benchmarks are "rigorously stratified" and that the allosteric dataset is "experimentally validated as authentic allosteric binders"
+  - **Evidence pointer** Methods section "Orthostatic Datasets" and "Allosteric Datasets", location not provided
+  - **Concern** The description of dataset construction is insufficient to assess potential biases. For the allosteric dataset, the criteria for "authentic allosteric binders" are not fully specified. The manuscript mentions KinCoRe classification and a curated set of 136 complexes, but does not describe how these were validated, whether structural evidence of allostery was required, or how potential false positives were excluded. For the orthosteric dataset, the exclusion criteria based on sequence identity to training data are described, but the same rigor is not evident for the allosteric set. The potential for overlap between training and test sets for the allosteric complexes is not addressed.
+  - **Why it matters** Benchmark quality is fundamental to the validity of the conclusions. If the allosteric dataset contains complexes that are not truly allosteric, or if there is training data leakage, the performance gap could be artificially inflated or deflated. The manuscript's claims about the universality of the blind spot depend on the quality and representativeness of the benchmarks.
+  - **Resolution test** Provide detailed descriptions of dataset construction, including validation criteria, exclusion rules, and potential limitations. Report the sequence identity distribution between test complexes and training data for both orthosteric and allosteric sets. Consider performing sensitivity analyses with different dataset subsets to ensure the conclusions are robust.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The phrase "allosteric paradox" is used without clear definition. The abstract states "a universal and architecture-independent collapse emerges" but does not specify the magnitude of the effect or provide any quantitative context. The term "landscape-guided interpretable AI framework" in the title is not clearly reflected in the described methodology.
+  - **Required correction** Define the "allosteric paradox" explicitly in the introduction. Include key quantitative results in the abstract. Ensure the title accurately reflects the methodology described in the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Methods section "AI Co-folding Architectures"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of model inference parameters is incomplete. The manuscript states "25 independent predictions were generated (10 recycling steps, 200 diffusion steps, 5 seeds, 5 diffusion samples per seed)" but does not specify whether these parameters apply to all models equally, and whether model-specific settings were optimized or used at defaults.
+  - **Required correction** Clarify whether the same inference protocol was used for all models, and whether any model-specific parameter tuning was performed. If defaults were used, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Evaluation Metrics and Alignment Pipeline"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The manuscript describes switching from LigRMSD, DockRMSD, and spyRMSD to the OpenStructure framework due to "heterogeneous and inconsistent" outputs, but does not provide details on how the final protocol was validated or whether results from different tools were compared for consistency.
+  - **Required correction** Provide validation details for the OpenStructure-based protocol, including any benchmarking against established tools on a subset of complexes. Report whether the choice of RMSD tool affects the main conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Contact Topology Recovery Decouples from Geometric Precision in Allosteric Complexes"
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The interpretation of QS-score decoupling as evidence for "correct interaction partners" being identified is somewhat speculative. Moderate QS-scores could also arise from partial overlap of interaction interfaces that are not functionally relevant.
+  - **Required correction** Acknowledge alternative interpretations of the QS-score results and consider additional analyses, such as comparing predicted interaction partners to known functional contacts or assessing whether the identified contacts are conserved across homologs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of related work is brief and primarily focuses on three recent preprints. The manuscript does not adequately situate the findings within the broader literature on allosteric site prediction, energy landscape theory, and AI model evaluation.
+  - **Required correction** Expand the discussion to include relevant prior work on allosteric site prediction challenges, computational methods for allosteric site identification, and previous evaluations of AI models on allosteric systems. This will help establish the novelty and significance of the contribution.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and supplementary materials is a critical failing that prevents evaluation of the core claims. The lack of reported statistical test results is a second major issue. The manuscript also does not adequately address potential confounders in the comparison between orthosteric and allosteric performance, and the causal interpretation of the frustration analysis results is not sufficiently supported.
+- **Assessment against Nature-style criteria** Originality: The concept of linking AI prediction failures to frustration landscape properties is creative and potentially original, though the individual components (benchmarking, frustration analysis) are established methods. Scientific importance: The question of why AI models fail on allosteric systems is important for both basic biology and drug discovery. If the claims are substantiated, the findings could influence model development and provide a framework for interpreting model limitations. Interdisciplinary readership: The manuscript bridges AI, structural biology, and biophysics, which could appeal to a broad audience. However, the presentation assumes significant expertise in all three areas. Technical soundness: The benchmarking methodology appears reasonable, but the lack of statistical reporting and figure access prevents full assessment. The frustration analysis methodology is established but its application to interpret AI model behavior requires more rigorous validation. Readability for nonspecialists: The manuscript is dense and uses specialized terminology without adequate explanation. The central concepts could be communicated more accessibly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially impactful, but the manuscript in its current form does not provide sufficient evidence to fully evaluate the claims. The authors should provide all figures and data, report complete statistical results, address alternative explanations, and clarify the novelty of their contribution.

@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "39909391",
+    "doi": "10.1016/j.ymeth.2025.01.020",
+    "title": "ZFP-CanPred: Predicting the effect of mutations in zinc-finger proteins in cancers using protein language models."
+  },
+  "content": {
+    "abstract": "Zinc-finger proteins (ZNFs) constitute the largest family of transcription factors and play crucial roles in various cellular processes. Missense mutations in ZNFs significantly alter protein-DNA interactions, potentially leading to the development of various types of cancers. This study presents ZFP-CanPred, a novel deep learning-based model for predicting cancer-associated driver mutations in ZNFs. The representations derived from protein language models (PLMs) from the structural neighbourhood of mutated sites were utilized to train ZFP-CanPred for differentiating between cancer-causing and neutral mutations. ZFP-CanPred, achieved a superior performance with an accuracy of 0.72, F1-score of 0.79, and area under the Receiver Operating Characteristics (ROC) Curve (AUC) of 0.74, on an independent test set. In a comparative analysis against 11 existing prediction tools using a curated dataset of 331 mutations, ZFP-CanPred demonstrated the highest AU-ROC of 0.74, outperforming both generic and cancer-specific methods. The model's balanced performance across specificity and sensitivity addresses a significant limitation of current methodologies. The source code and other related files are available on GitHub at https://github.com/amitphogat/ZFP-CanPred.git. We envisage that the present study contributes to understand the oncogenic processes and developing targeted therapeutic strategies.",
+    "keywords": [
+      "Cancer",
+      "Driver",
+      "Mutations",
+      "Neural network",
+      "Neutral",
+      "Protein language model",
+      "ZFP-CanPred",
+      "Zinc-fingers"
+    ],
+    "mesh_terms": [
+      "*Zinc Fingers/genetics",
+      "Humans",
+      "*Neoplasms/genetics",
+      "Deep Learning",
+      "Mutation",
+      "*Computational Biology/methods",
+      "Software",
+      "ROC Curve",
+      "Mutation, Missense",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phogat, Amit",
+        "Krishnan, Sowmya Ramaswamy",
+        "Pandey, Medha",
+        "Gromiha, M Michael"
+      ],
+      "short_names": [
+        "Phogat A",
+        "Krishnan SR",
+        "Pandey M",
+        "Gromiha MM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India; International Research Frontiers Initiative, School of Computing, Tokyo Institute of Technology, Yokohama 226-8501 Japan. Electronic address: gromiha@iitm.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phogat, Amit",
+        "short_name": "Phogat A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Sowmya Ramaswamy",
+        "short_name": "Krishnan SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India."
+        ]
+      },
+      {
+        "full_name": "Pandey, Medha",
+        "short_name": "Pandey M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India."
+        ]
+      },
+      {
+        "full_name": "Gromiha, M Michael",
+        "short_name": "Gromiha MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036 India; International Research Frontiers Initiative, School of Computing, Tokyo Institute of Technology, Yokohama 226-8501 Japan. Electronic address: gromiha@iitm.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/06 00:21",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "41772312",
+      "41386884"
+    ],
+    "refs": [],
+    "similar": [
+      "39909391",
+      "21044337",
+      "17186549",
+      "39253604",
+      "11329270",
+      "17171718",
+      "29953437",
+      "23819521",
+      "17526515",
+      "18366681",
+      "15830130",
+      "14695215",
+      "8660973",
+      "9585434",
+      "14514889",
+      "35483489",
+      "8810912",
+      "16172918",
+      "36416116",
+      "38904842",
+      "39528950",
+      "17637799",
+      "12097288",
+      "26692479",
+      "19737425",
+      "11154279",
+      "18586699",
+      "37100454",
+      "23471540",
+      "39214282",
+      "39761306",
+      "19654296",
+      "14985365",
+      "29788456",
+      "20680829",
+      "9772206",
+      "39334871",
+      "31059545",
+      "17223018",
+      "31821684",
+      "15477407",
+      "30155812",
+      "9535899",
+      "15070898",
+      "35378249",
+      "26455326",
+      "15932240",
+      "20691397",
+      "16899226",
+      "36357895",
+      "34350488",
+      "22304776",
+      "39153682",
+      "2249852",
+      "39596413",
+      "39276018",
+      "10672011",
+      "1614869",
+      "39276157",
+      "39610143",
+      "22520333",
+      "18835444",
+      "16753278",
+      "33034011",
+      "38429796",
+      "38224923",
+      "20680831",
+      "15210357",
+      "28765213",
+      "18693452",
+      "26435754",
+      "38724920",
+      "31776846",
+      "19701937",
+      "23263989",
+      "39653054",
+      "40147185",
+      "7559666",
+      "10471358",
+      "39701486",
+      "12446571",
+      "39038391",
+      "15491138",
+      "21455692",
+      "39092854",
+      "8464056",
+      "21902538",
+      "12665246",
+      "8120052",
+      "39447942",
+      "16845061",
+      "23062640",
+      "16731852",
+      "2574853",
+      "15113563",
+      "1284028",
+      "37714714",
+      "32479262",
+      "22828502",
+      "28155654"
+    ],
+    "review": [
+      "39909391",
+      "35483489",
+      "28765213",
+      "26435754"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(25)00029-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

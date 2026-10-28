@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "37841836",
+    "doi": "10.21203/rs.3.rs-3294408/v1",
+    "title": "Towards a comprehensive regulatory map of Mammalian Genomes."
+  },
+  "content": {
+    "abstract": "Genome mapping studies have generated a nearly complete collection of genes for the human genome, but we still lack an equivalently vetted inventory of human regulatory sequences. Cis-regulatory modules (CRMs) play important roles in controlling when, where, and how much a gene is expressed. We developed a training data-free CRM-prediction algorithm, the Mammalian Regulatory MOdule Detector (MrMOD) for accurate CRM prediction in mammalian genomes. MrMOD provides genome position-fixed CRM models similar to the fixed gene models for the mouse and human genomes using only genomic sequences as the inputs with one adjustable parameter - the significance p-value. Importantly, MrMOD predicts a comprehensive set of high-resolution CRMs in the mouse and human genomes including all types of regulatory modules not limited to any tissue, cell type, developmental stage, or condition. We computationally validated MrMOD predictions used a compendium of 21 orthogonal experimental data sets including thousands of experimentally defined CRMs and millions of putative regulatory elements derived from hundreds of different tissues, cell types, and stimulus conditions obtained from multiple databases. In ovo transgenic reporter assay demonstrates the power of our prediction in guiding experimental design. We analyzed CRMs located in the chromosome 17 using unsupervised machine learning and identified groups of CRMs with multiple lines of evidence supporting their functionality, linking CRMs with upstream binding transcription factors and downstream target genes. Our work provides a comprehensive base pair resolution annotation of the functional regulatory elements and non-functional regions in the mammalian genomes.",
+    "keywords": [
+      "Cis-regulatory modules",
+      "enhancers",
+      "epigenomics",
+      "machine learning",
+      "positive weight matrix",
+      "transcription factor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goncalves, Tassia Mangetti",
+        "Stewart, Casey L",
+        "Baxley, Samantha D",
+        "Xu, Jason",
+        "Li, Daofeng",
+        "Gabel, Harrison W",
+        "Wang, Ting",
+        "Avraham, Oshri",
+        "Zhao, Guoyan"
+      ],
+      "short_names": [
+        "Goncalves TM",
+        "Stewart CL",
+        "Baxley SD",
+        "Xu J",
+        "Li D",
+        "Gabel HW",
+        "Wang T",
+        "Avraham O",
+        "Zhao G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Washington University School of Medicine.",
+        "University of Georgia.",
+        "University of Georgia.",
+        "Missouri University of Science & Technology.",
+        "Washington University School of Medicine.",
+        "Washington University School of Medicine.",
+        "Washington University School of Medicine.",
+        "University of Georgia.",
+        "Washington University School of Medicine."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gonçalves, Tássia Mangetti",
+        "short_name": "Gonçalves TM",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Stewart, Casey L",
+        "short_name": "Stewart CL",
+        "identifiers": [],
+        "affiliations": [
+          "University of Georgia."
+        ]
+      },
+      {
+        "full_name": "Baxley, Samantha D",
+        "short_name": "Baxley SD",
+        "identifiers": [],
+        "affiliations": [
+          "University of Georgia."
+        ]
+      },
+      {
+        "full_name": "Xu, Jason",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Missouri University of Science & Technology."
+        ]
+      },
+      {
+        "full_name": "Li, Daofeng",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Gabel, Harrison W",
+        "short_name": "Gabel HW",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Wang, Ting",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University School of Medicine."
+        ]
+      },
+      {
+        "full_name": "Avraham, Oshri",
+        "short_name": "Avraham O",
+        "identifiers": [],
+        "affiliations": [
+          "University of Georgia."
+        ]
+      },
+      {
+        "full_name": "Zhao, Guoyan",
+        "short_name": "Zhao G",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University School of Medicine."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2023 Sep 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/16 06:48",
+    "fetched_at": "2026-09-29 08:57:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36166198",
+      "35456389",
+      "35126382",
+      "34774128",
+      "34751401",
+      "34616068",
+      "34549899",
+      "34420874",
+      "34159315",
+      "34136095",
+      "34062119",
+      "34012965",
+      "33046894",
+      "32728249",
+      "32573857",
+      "32322190",
+      "32103011",
+      "32014034",
+      "31988385",
+      "31981491",
+      "31740966",
+      "31221079",
+      "31181110",
+      "31110271",
+      "31067457",
+      "31053804",
+      "30646598",
+      "30553552",
+      "30462313",
+      "30442116",
+      "30413482",
+      "29679052",
+      "29499563",
+      "29228394",
+      "28973913",
+      "28204611",
+      "27968730",
+      "27734873",
+      "26941072",
+      "26780995",
+      "26634919",
+      "25765347",
+      "25704908",
+      "25559105",
+      "25486472",
+      "25261935",
+      "25252941",
+      "25215497",
+      "24688750",
+      "24058414",
+      "23818646",
+      "23605047",
+      "23524953",
+      "23328393",
+      "22955991",
+      "22955617",
+      "22815835",
+      "22763441",
+      "22705667",
+      "22593050",
+      "22540038",
+      "22455463",
+      "21392589",
+      "21048080",
+      "20877328",
+      "20110278",
+      "19545367",
+      "19026727",
+      "17291181",
+      "17130149",
+      "16801560",
+      "16301543",
+      "15378065",
+      "15131651",
+      "14668220",
+      "12520026",
+      "11997516",
+      "11252053",
+      "10600707",
+      "10487864",
+      "8594589",
+      "1524826"
+    ],
+    "similar": [
+      "37841836",
+      "22313678",
+      "25442502",
+      "36199141",
+      "38354497",
+      "25521507",
+      "21821659",
+      "32479656",
+      "25704908",
+      "19498042",
+      "19853570",
+      "34159315",
+      "24972496",
+      "36261804",
+      "16253142",
+      "16606704",
+      "25173756",
+      "29733395",
+      "35452518",
+      "17996093",
+      "27609510",
+      "19660565",
+      "33001599",
+      "17032682",
+      "30414115",
+      "24682824",
+      "14534164",
+      "31181110",
+      "30953451",
+      "18606616",
+      "28400425",
+      "35035784",
+      "35148987",
+      "20671200",
+      "21724599",
+      "15145800",
+      "17148480",
+      "21813571",
+      "17997594",
+      "35886794",
+      "18660850",
+      "18442418",
+      "20142491",
+      "36719476",
+      "22422836",
+      "19208131",
+      "36502693",
+      "17403687",
+      "21152003",
+      "18394174",
+      "22167192",
+      "18333759",
+      "25200088",
+      "22763441",
+      "12398796",
+      "22492356",
+      "19293946",
+      "34918159",
+      "36278857",
+      "24097306",
+      "29074739",
+      "14690551",
+      "34209769",
+      "26945717",
+      "31855461",
+      "22144875",
+      "28497059",
+      "26342140",
+      "27490187",
+      "21383317",
+      "18311145",
+      "23409927",
+      "18240562",
+      "26684323",
+      "22540038",
+      "17503375",
+      "18490265",
+      "20394065",
+      "15759656",
+      "19958507",
+      "23860795",
+      "17927813",
+      "18441229",
+      "21248200",
+      "29618048",
+      "15478601",
+      "18929653",
+      "26356333",
+      "28099870",
+      "30468713",
+      "11805330"
+    ],
+    "review": [
+      "37841836",
+      "32479656",
+      "25704908",
+      "19498042",
+      "19660565",
+      "35886794",
+      "17403687",
+      "34918159",
+      "34209769",
+      "18240562",
+      "20394065"
+    ],
+    "pmc": [
+      "10571623"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37841836/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37841836",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-3294408/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

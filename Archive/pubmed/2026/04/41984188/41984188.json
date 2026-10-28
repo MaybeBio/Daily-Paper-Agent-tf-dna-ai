@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "41984188",
+    "doi": "10.1007/s00210-026-05282-0",
+    "title": "Machine learning-based multi-omic analysis identifies CEP55, DLGAP5, and EZH2 as regulated cell death biomarkers linked to immunotherapy resistance in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC) often exhibits limited responsiveness to immune checkpoint inhibitors (ICIs), largely due to an immunosuppressive tumor microenvironment (TME). Regulated cell death (RCD) pathways, including ferroptosis, necroptosis, and pyroptosis, possess immunogenic properties that may influence tumor-immune interactions and therapeutic responses. However, the prognostic significance of RCD-related genes and their relationship with immune suppression and anti-PD-1 resistance remain insufficiently understood. Two bulk RNA-seq datasets (GSE181947 and GSE248516) representing immunologically distinct HCC subtypes were analyzed to identify differentially expressed genes (DEGs). These were intersected with curated ferroptosis-, necroptosis-, and pyroptosis-related gene sets, yielding 36 differentially expressed RCD-related genes (DE-RCDRGs). Functional enrichment, protein-protein interaction (STRING and CytoHubba), and survival analyses (Kaplan-Meier Plotter, TCGA-LIHC) were performed to prioritize hub genes. Clinical correlations and epigenetic regulation were assessed using UALCAN. Expression validation was conducted across 24 liver cancer cell lines using Human Protein Atlas (HPA) RNA-seq data. Additionally, deleterious non-synonymous SNPs (nsSNPs) in prioritized genes were structurally characterized using integrative in silico modeling. Ten hub genes were identified, with CEP55, DLGAP5, and EZH2 emerging as key prognostic markers. These genes were significantly overexpressed in tumors, associated with advanced stage and poor differentiation, and showed aberrant DNA methylation. Functional enrichment linked them to oxidative stress response, mitotic regulation, and epigenetic control. Cell-line analysis showed CEP55 and DLGAP5 enrichment in SNU-series models, while EZH2 was highly expressed in HuH-6, Hep3B, and Huh7. Structural analysis further identified deleterious nsSNPs affecting critical functional domains. CEP55, DLGAP5, and EZH2 are identified as RCD-associated biomarkers linked to immune suppression and immunotherapy resistance in HCC.",
+    "keywords": [
+      "Hepatocellular carcinoma",
+      "Immune landscape",
+      "Immunotherapy resistance",
+      "PKCalpha and TLR4",
+      "Precision oncology",
+      "Prognostic signature",
+      "Regulated cell death (RCD)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Enhancer of Zeste Homolog 2 Protein/genetics/metabolism",
+      "*Liver Neoplasms/genetics/therapy/immunology/pathology",
+      "*Carcinoma, Hepatocellular/genetics/therapy/immunology/pathology",
+      "*Machine Learning",
+      "Immunotherapy",
+      "*GTPase-Activating Proteins/genetics/metabolism",
+      "Biomarkers, Tumor/genetics",
+      "Cell Death",
+      "Drug Resistance, Neoplasm",
+      "*Nuclear Proteins/genetics",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azanbayeva, Dinara",
+        "Ali, Awais",
+        "Abdelkarem, Omneya",
+        "Touir, Gulnaz",
+        "Algazina, Togzhan"
+      ],
+      "short_names": [
+        "Azanbayeva D",
+        "Ali A",
+        "Abdelkarem O",
+        "Touir G",
+        "Algazina T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7992-4470",
+        "ORCID: 0000-0002-4514-9509",
+        "ORCID: 0000-0001-6756-997X",
+        "ORCID: 0000-0002-1178-5574"
+      ],
+      "affiliations": [
+        "Department of dermatovenereology and Dermatocosmetology- NJSC, Astana Medical University, Astana, Kazakhstan.",
+        "Department of Biochemistry, Abdul Wali Khan University Mardan, Mardan, 23200, Pakistan. awaisalibio@gmail.com.",
+        "Department of Chemical Pathology, Medical Research Institute, Alexandria University, Alexandria, Egypt.",
+        "Department of dermatovenereology and Dermatocosmetology- NJSC, Astana Medical University, Astana, Kazakhstan. gulnaza2014@gmail.com.",
+        "Department of dermatovenereology and Dermatocosmetology- NJSC, Astana Medical University, Astana, Kazakhstan. algazina.t@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azanbayeva, Dinara",
+        "short_name": "Azanbayeva D",
+        "identifiers": [
+          "0000-0002-7992-4470"
+        ],
+        "affiliations": [
+          "Department of dermatovenereology and Dermatocosmetology- NJSC, Astana Medical University, Astana, Kazakhstan."
+        ]
+      },
+      {
+        "full_name": "Ali, Awais",
+        "short_name": "Ali A",
+        "identifiers": [
+          "0000-0002-4514-9509"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Abdul Wali Khan University Mardan, Mardan, 23200, Pakistan. awaisalibio@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Abdelkarem, Omneya",
+        "short_name": "Abdelkarem O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Pathology, Medical Research Institute, Alexandria University, Alexandria, Egypt."
+        ]
+      },
+      {
+        "full_name": "Touir, Gulnaz",
+        "short_name": "Touir G",
+        "identifiers": [
+          "0000-0001-6756-997X"
+        ],
+        "affiliations": [
+          "Department of dermatovenereology and Dermatocosmetology- NJSC, Astana Medical University, Astana, Kazakhstan. gulnaza2014@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Algazina, Togzhan",
+        "short_name": "Algazina T",
+        "identifiers": [
+          "0000-0002-1178-5574"
+        ],
+        "affiliations": [
+          "Department of dermatovenereology and Dermatocosmetology- NJSC, Astana Medical University, Astana, Kazakhstan. algazina.t@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/15 13:54",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42405960",
+      "42331986",
+      "41984191",
+      "41968216",
+      "41874611",
+      "41828368",
+      "41251948",
+      "41100046",
+      "40704436",
+      "40639803",
+      "40464249",
+      "40345706",
+      "39960565",
+      "39850418",
+      "39720263",
+      "39702756",
+      "39666233",
+      "39536404",
+      "39515218",
+      "39477889",
+      "39282581",
+      "39247606",
+      "39117626",
+      "38757345",
+      "38672664",
+      "38638377",
+      "38572751",
+      "38514064",
+      "38417667",
+      "38332885",
+      "38278815",
+      "38223685",
+      "38195700",
+      "38183205",
+      "38169378",
+      "38090579",
+      "38079306",
+      "38038147",
+      "37966693",
+      "37953337",
+      "37844417",
+      "37612413",
+      "37328648",
+      "37153569",
+      "37139544",
+      "36939770",
+      "36747082",
+      "36707233",
+      "36406319",
+      "36396671",
+      "36369487",
+      "36305834",
+      "36289191",
+      "36229195",
+      "35812727",
+      "35804267",
+      "35747993",
+      "35648435",
+      "35349735",
+      "35300417",
+      "35271662",
+      "35078134",
+      "35062949",
+      "34977835",
+      "34764464",
+      "34761505",
+      "34710087",
+      "34440220",
+      "34238253",
+      "34215748",
+      "34150632",
+      "34040414",
+      "33917744",
+      "33467177",
+      "33219223",
+      "33197221",
+      "33180771",
+      "32881105",
+      "32774053",
+      "32492896",
+      "32411759",
+      "31850239",
+      "31710896",
+      "31350295",
+      "31207320",
+      "31020993",
+      "30948788",
+      "30476243",
+      "29650362",
+      "29351847",
+      "29131160",
+      "28940711",
+      "28732212",
+      "28653573",
+      "28621802",
+      "28482075",
+      "28335888",
+      "28101582",
+      "27597132",
+      "27477778",
+      "27404251",
+      "26676719",
+      "26328249",
+      "26318293",
+      "26274329",
+      "26256959",
+      "25915844",
+      "25838373",
+      "25613900",
+      "25605792",
+      "25446613",
+      "25002206",
+      "24937702",
+      "24439385",
+      "24139237",
+      "23743582",
+      "23209317",
+      "22467598",
+      "22234969",
+      "22179686",
+      "21724589",
+      "21149340",
+      "21123648",
+      "20689021",
+      "20458277",
+      "17912036",
+      "17082649",
+      "15586367",
+      "11819450",
+      "10362137",
+      "9931312"
+    ],
+    "similar": [
+      "41984188",
+      "41714375",
+      "42244292",
+      "42338358",
+      "41293954",
+      "41674779",
+      "40465746",
+      "41298718",
+      "41436831",
+      "41760269",
+      "40956482",
+      "42195052",
+      "41431005",
+      "41986494",
+      "41209556",
+      "40330470",
+      "41200185",
+      "38954354",
+      "40374855",
+      "38694506",
+      "39712016",
+      "39044829",
+      "40485623",
+      "40603761",
+      "40599775",
+      "33897701",
+      "40983050",
+      "39641162",
+      "41034982",
+      "41555384",
+      "38774870",
+      "41766871",
+      "41659855",
+      "37898914",
+      "40515542",
+      "41491166",
+      "40312525",
+      "40918134",
+      "39445019",
+      "33121524",
+      "38847172",
+      "34112092",
+      "39085893",
+      "40265593",
+      "41120498",
+      "41019083",
+      "39904830",
+      "35659256",
+      "41882633",
+      "35855852",
+      "39537209",
+      "41895243",
+      "39096658",
+      "40389832",
+      "41039793",
+      "36438201",
+      "34925377",
+      "38884870",
+      "41136937",
+      "40475760",
+      "39155614",
+      "38896142",
+      "41009979",
+      "40615535",
+      "40771801",
+      "39611512",
+      "40659697",
+      "40458412",
+      "41268553",
+      "31969776",
+      "41549178",
+      "35691273",
+      "41112257",
+      "42055628",
+      "40255404",
+      "34257537",
+      "41710887",
+      "38847249",
+      "41208987",
+      "39464883",
+      "41049291",
+      "41423668",
+      "40394340",
+      "40074769",
+      "41432972",
+      "35236323",
+      "41208969",
+      "38493408",
+      "30527357",
+      "41235234",
+      "37936457",
+      "32715976",
+      "41034947",
+      "42155390",
+      "39681799",
+      "40621461",
+      "41321947",
+      "40645977",
+      "41492111",
+      "39966861"
+    ],
+    "review": [
+      "41984188"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-026-05282-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1204",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

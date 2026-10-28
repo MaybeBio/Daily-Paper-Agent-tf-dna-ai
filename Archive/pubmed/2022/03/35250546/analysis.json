@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35250546",
+  "title": "Is Immune Suppression Involved in the Ischemic Stroke? A Study Based on Computational Biology.",
+  "authors": "Wang, Xin; Wang, Qian; Wang, Kun; Ni, Qingbin; Li, Hu; Su, Zhiqiang; Xu, Yuzhen",
+  "journal": "Frontiers in aging neuroscience",
+  "published_date": "2022-03-08",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用生物信息学与机器学习分析缺血性卒中免疫抑制相关基因，仅涉及转录因子作为调控网络节点，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: To identify the genetic mechanisms of immunosuppression-related genes implicated in ischemic stroke. BACKGROUND: A better understanding of immune-related genes (IGs) involved in the pathophysiology of ischemic stroke may help identify drug targets beneficial for immunomodulatory approaches and reducing stroke-induced immunosuppression complications. METHODS: Two datasets related to ischemic stroke were downloaded from the GEO database. Immunosuppression-associated genes were obtained from three databases (i.e., DisGeNET, HisgAtlas, and Drugbank). The CIBERSORT algorithm was used to calculate the mean proportions of 22 immune-infiltrating cells in the stroke samples. Differential gene expression analysis was performed to identify the differentially expressed genes (DEGs) involved in stroke. Immunosuppression-related crosstalk genes were identified as the overlapping genes between ischemic stroke-DEGs and IGs. Feature selection was performed using the Boruta algorithm and a classifier model was constructed to evaluate the prediction accuracy of the obtained immunosuppression-related crosstalk genes. Functional enrichment analysis, gene-transcriptional factor and gene-drug interaction networks were constructed. RESULTS: Twenty two immune cell subsets were identified in stroke, where resting CD4 T memory cells were significantly downregulated while M0 macrophages were significantly upregulated. By overlapping the 54 crosstalk genes obtained by feature selection with ischemic stroke-related genes obtained from the DisGenet database, 17 potentially most valuable immunosuppression-related crosstalk genes were obtained, ARG1, CD36, FCN1, GRN, IL7R, JAK2, MAFB, MMP9, PTEN, STAT3, STAT5A, THBS1, TLR2, TLR4, TLR7, TNFSF10, and VASP. Regulatory transcriptional factors targeting key immunosuppression-related crosstalk genes in stroke included STAT3, SPI1, CEPBD, SP1, TP53, NFIL3, STAT1, HIF1A, and JUN. In addition, signaling pathways enriched by the crosstalk genes, including PD-L1 expression and PD-1 checkpoint pathway, NF-kappa B signaling, IL-17 signaling, TNF signaling, and NOD-like receptor signaling, were also identified. CONCLUSION: Putative crosstalk genes that link immunosuppression and ischemic stroke were identified using bioinformatics analysis and machine learning approaches. These may be regarded as potential therapeutic targets for ischemic stroke.",
+  "abstract_zh": "目的：探讨与缺血性卒中相关的免疫抑制基因的遗传机制。背景：深入了解参与缺血性卒中病理生理过程的免疫相关基因（IGs），可能有助于识别有利于免疫调节策略的药物靶点，并减少卒中诱导的免疫抑制并发症。方法：从GEO数据库下载两个与缺血性卒中相关的数据集。免疫抑制相关基因来源于三个数据库（即DisGeNET、HisgAtlas和Drugbank）。采用CIBERSORT算法计算卒中样本中22种免疫浸润细胞的平均比例。进行差异基因表达分析以识别卒中相关的差异表达基因（DEGs）。免疫抑制相关串扰基因被确定为缺血性卒中DEGs与IGs之间的重叠基因。使用Boruta算法进行特征选择，并构建分类器模型以评估所得免疫抑制相关串扰基因的预测准确性。进行了功能富集分析，并构建了基因-转录因子和基因-药物相互作用网络。结果：在卒中中鉴定出22种免疫细胞亚群，其中静息CD4 T记忆细胞显著下调，而M0巨噬细胞显著上调。通过将特征选择获得的54个串扰基因与从DisGenet数据库获得的缺血性卒中相关基因重叠，获得了17个潜在最有价值的免疫抑制相关串扰基因，即ARG1、CD36、FCN1、GRN、IL7R、JAK2、MAFB、MMP9、PTEN、STAT3、STAT5A、THBS1、TLR2、TLR4、TLR7、TNFSF10和VASP。靶向卒中中关键免疫抑制相关串扰基因的调控转录因子包括STAT3、SPI1、CEPBD、SP1、TP53、NFIL3、STAT1、HIF1A和JUN。此外，还鉴定了由串扰基因富集的信号通路，包括PD-L1表达和PD-1检查点通路、NF-kappa B信号、IL-17信号、TNF信号和NOD样受体信号。结论：通过生物信息学分析和机器学习方法，鉴定了连接免疫抑制与缺血性卒中的推定串扰基因。这些基因可能被视为缺血性卒中的潜在治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35250546/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35250546/",
+  "paper_page_path": "papers/pubmed/35250546/index.html"
+}

@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "42133662",
+    "doi": "10.1080/21505594.2026.2673655",
+    "title": "Integrated transcriptomic, molecular docking, and mendelian randomization analysis reveal a microbial-propionate-JUN pathway in renal ischemia-reperfusion injury."
+  },
+  "content": {
+    "abstract": "Renal ischemia-reperfusion injury (IRI) is a major cause of acute kidney injury and is characterized by oxidative stress, immune cell infiltration, and inflammatory signaling activation. Although gut microbiota and their metabolites, especially short-chain fatty acids, are involved in systemic immune regulation, their role in renal IRI remains unclear. Here, we integrated transcriptomic analysis, gut-derived metabolite target prediction, molecular docking, and Mendelian randomization (MR) to explore potential microbiota-metabolite-host regulatory mechanisms in renal IRI. We identified 32 target genes of gut-derived metabolites using the gutMGene, Similarity Ensemble Approach, and SwissTargetPrediction databases. In two renal IRI datasets (GSE126805 and GSE90861), 263 and 641 differentially expressed genes were identified, respectively, and hub genes were mainly enriched in the TNF and IL-17 signaling pathways. Among them, JUN was identified as a key hub linking gut microbiota-associated metabolites to renal inflammatory signaling. MR analysis showed that Akkermansia muciniphila was positively associated with kidney injury susceptibility [p = 0.026, odds ratio (OR) = 1.219], whereas Ruminococcus bromii was negatively associated with kidney injury susceptibility (p = 0.011, OR = 0.740). Because propionate, rather than butyrate, was the shared metabolite associated with both taxa, subsequent analyses focused on the propionate-JUN interaction. Molecular docking and dynamics supported strong binding between propionate and JUN. Overall, these findings suggest a potential gut-kidney regulatory axis involving A. muciniphila/R. bromii-propionate-JUN-TNF/IL-17 signaling in renal IRI, providing new insight into microbiota-associated mechanisms of renal inflammatory injury.",
+    "keywords": [
+      "Renal ischemia-reperfusion injury",
+      "gut-kidney axis",
+      "mendelian randomization",
+      "molecular docking",
+      "short-chain fatty acids"
+    ],
+    "mesh_terms": [
+      "*Reperfusion Injury/microbiology/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Animals",
+      "*Gastrointestinal Microbiome",
+      "*Kidney",
+      "Signal Transduction",
+      "Gene Expression Profiling",
+      "Humans",
+      "Transcriptome",
+      "*Acute Kidney Injury/microbiology",
+      "*Proto-Oncogene Proteins c-jun/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jun",
+        "Huang, Ruizhen",
+        "Wang, Xing",
+        "Zhang, Yunfeng",
+        "Xu, Zuhuan",
+        "Zhang, Penglin",
+        "Hu, Honglin"
+      ],
+      "short_names": [
+        "Li J",
+        "Huang R",
+        "Wang X",
+        "Zhang Y",
+        "Xu Z",
+        "Zhang P",
+        "Hu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8560-9306",
+        "ORCID: 0000-0001-9885-7405"
+      ],
+      "affiliations": [
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jun",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0001-8560-9306"
+        ],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ruizhen",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xing",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunfeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zuhuan",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Penglin",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Honglin",
+        "short_name": "Hu H",
+        "identifiers": [
+          "0000-0001-9885-7405"
+        ],
+        "affiliations": [
+          "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virulence"
+    ],
+    "journal_abbrev": [
+      "Virulence"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/14 18:36",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40394806",
+      "40355382",
+      "40346495",
+      "40345303",
+      "40332186",
+      "40311598",
+      "40272761",
+      "40250123",
+      "40220406",
+      "40219029",
+      "40195063",
+      "40083050",
+      "40056427",
+      "40049531",
+      "40046294",
+      "39837430",
+      "39833898",
+      "39732390",
+      "39475181",
+      "39440960",
+      "39378615",
+      "39340991",
+      "39323973",
+      "39322831",
+      "39320081",
+      "39227518",
+      "39142634",
+      "38692170",
+      "38670049",
+      "38500966",
+      "38490028",
+      "38487013",
+      "37512528",
+      "37429230",
+      "36035373",
+      "35926357",
+      "35906780",
+      "35115690",
+      "35002530",
+      "34677127",
+      "34360008",
+      "33202877",
+      "32414595",
+      "30235279",
+      "30094915",
+      "30026697",
+      "25251900",
+      "24226773",
+      "16306447"
+    ],
+    "similar": [
+      "42133662",
+      "39442187",
+      "32044658",
+      "37033969",
+      "35658960",
+      "41656809",
+      "41535879",
+      "41905213",
+      "39600181",
+      "41961807",
+      "32863945",
+      "41205031",
+      "42406869",
+      "41361311",
+      "23166714",
+      "41038145",
+      "39324174",
+      "40147738",
+      "41241171",
+      "40251457",
+      "40877409",
+      "41482144",
+      "34360008",
+      "39627404",
+      "42158874",
+      "37704087",
+      "36246123",
+      "42305538",
+      "39010816",
+      "42332755",
+      "42530713",
+      "41454343",
+      "38972213",
+      "42473592",
+      "31699960",
+      "42473438",
+      "38266883",
+      "42576380",
+      "41015035",
+      "37279643",
+      "40783104",
+      "38608473",
+      "38495888",
+      "40146438",
+      "41491956",
+      "41078364",
+      "38395179",
+      "40330488",
+      "42181212",
+      "41534252",
+      "41186507",
+      "35546262",
+      "41722735",
+      "34557203",
+      "37511062",
+      "38428147",
+      "41534628",
+      "42283098",
+      "32977749",
+      "40703513",
+      "39308866",
+      "42311675",
+      "41048444",
+      "41666605",
+      "42064800",
+      "38794880",
+      "40519909",
+      "41865122",
+      "41208579",
+      "39876048",
+      "38453127",
+      "42153224",
+      "37083129",
+      "42200243",
+      "29275176",
+      "35202801",
+      "41953035",
+      "42053838",
+      "39357422",
+      "34545331",
+      "39626534",
+      "42569308",
+      "34091010",
+      "40416982",
+      "41298864",
+      "41468372",
+      "41303615",
+      "40306537",
+      "30566931",
+      "38697555",
+      "40682983",
+      "40068292",
+      "38246328",
+      "38587855",
+      "39961687",
+      "37056767",
+      "40785649",
+      "39383788",
+      "38709282",
+      "33602903"
+    ],
+    "review": [
+      "42133662",
+      "42311675"
+    ],
+    "pmc": [
+      "13179003"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/21505594.2026.2673655?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42133662/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/21505594.2026.2673655",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

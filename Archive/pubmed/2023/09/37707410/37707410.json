@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "37707410",
+    "doi": "10.1097/RCT.0000000000001480",
+    "title": "Prediction of MYCN Gene Amplification in Pediatric Neuroblastomas: Development of a Deep Learning-Based Tool for Automatic Tumor Segmentation and Comparative Analysis of Computed Tomography-Based Radiomics Features Harmonization."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: MYCN oncogene amplification is closely linked to high-grade neuroblastoma with poor prognosis. Accurate quantification is essential for risk assessment, which guides clinical decision making and disease management. This study proposes an end-to-end deep-learning framework for automatic tumor segmentation of pediatric neuroblastomas and radiomics features-based classification of MYCN gene amplification. METHODS: Data from pretreatment contrast-enhanced computed tomography scans and MYCN status from 47 cases of pediatric neuroblastomas treated at a tertiary children's hospital from 2009 to 2020 were reviewed. Automated tumor segmentation and grading pipeline includes (1) a modified U-Net for tumor segmentation; (2) extraction of radiomic textural features; (3) feature-based ComBat harmonization for removal of variabilities across scanners; (4) feature selection using 2 approaches, namely, ( a ) an ensemble approach and ( b ) stepwise forward-and-backward selection method using logistic regression classifier; and (5) radiomics features-based classification of MYCN gene amplification using machine learning classifiers. RESULTS: Median train/test Dice score for modified U-Net was 0.728/0.680. The top 3 features from the ensemble approach were neighborhood gray-tone difference matrix (NGTDM) busyness, NGTDM strength, and gray-level run-length matrix (GLRLM) low gray-level run emphasis, whereas those from the stepwise approach were GLRLM low gray-level run emphasis, GLRLM high gray-level run emphasis, and NGTDM coarseness. The top-performing tumor classification algorithm achieved a weighted F1 score of 97%, an area under the receiver operating characteristic curve of 96.9%, an accuracy of 96.97%, and a negative predictive value of 100%. Harmonization-based tumor classification improved the accuracy by 2% to 3% for all classifiers. CONCLUSION: The proposed end-to-end framework achieved high accuracy for MYCN gene amplification status classification.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Child",
+      "N-Myc Proto-Oncogene Protein/genetics",
+      "*Deep Learning",
+      "Gene Amplification",
+      "*Neuroblastoma/diagnostic imaging/genetics",
+      "Tomography, X-Ray Computed"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yeow, Ling Yun",
+        "Teh, Yu Xuan",
+        "Lu, Xinyu",
+        "Srinivasa, Arvind Channarayapatna",
+        "Tan, Eelin",
+        "Tan, Timothy Shao Ern",
+        "Tang, Phua Hwee",
+        "Kn, Bhanu Prakash"
+      ],
+      "short_names": [
+        "Yeow LY",
+        "Teh YX",
+        "Lu X",
+        "Srinivasa AC",
+        "Tan E",
+        "Tan TSE",
+        "Tang PH",
+        "Kn BP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "From the Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR).",
+        "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University.",
+        "Victoria Junior College.",
+        "From the Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR).",
+        "Department of Diagnostic & Interventional Imaging, KK Women's and Children's Hospital, Singapore, Singapore.",
+        "Department of Diagnostic & Interventional Imaging, KK Women's and Children's Hospital, Singapore, Singapore.",
+        "Department of Diagnostic & Interventional Imaging, KK Women's and Children's Hospital, Singapore, Singapore.",
+        "From the Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yeow, Ling Yun",
+        "short_name": "Yeow LY",
+        "identifiers": [],
+        "affiliations": [
+          "From the Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR)."
+        ]
+      },
+      {
+        "full_name": "Teh, Yu Xuan",
+        "short_name": "Teh YX",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University."
+        ]
+      },
+      {
+        "full_name": "Lu, Xinyu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Victoria Junior College."
+        ]
+      },
+      {
+        "full_name": "Srinivasa, Arvind Channarayapatna",
+        "short_name": "Srinivasa AC",
+        "identifiers": [],
+        "affiliations": [
+          "From the Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR)."
+        ]
+      },
+      {
+        "full_name": "Tan, Eelin",
+        "short_name": "Tan E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic & Interventional Imaging, KK Women's and Children's Hospital, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tan, Timothy Shao Ern",
+        "short_name": "Tan TSE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic & Interventional Imaging, KK Women's and Children's Hospital, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Tang, Phua Hwee",
+        "short_name": "Tang PH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic & Interventional Imaging, KK Women's and Children's Hospital, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kn, Bhanu Prakash",
+        "short_name": "Kn BP",
+        "identifiers": [],
+        "affiliations": [
+          "From the Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of computer assisted tomography"
+    ],
+    "journal_abbrev": [
+      "J Comput Assist Tomogr"
+    ],
+    "pub_date": "2023 Sep-Oct 01",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/14 12:42",
+    "fetched_at": "2026-09-29 06:57:14"
+  },
+  "links": {
+    "cites": [
+      "42169622",
+      "40619885",
+      "40070366",
+      "39812075",
+      "37945937"
+    ],
+    "refs": [],
+    "similar": [
+      "37707410",
+      "35460355",
+      "37178203",
+      "34003574",
+      "33118047",
+      "28891217",
+      "38046976",
+      "34008178",
+      "36086471",
+      "34109133",
+      "35437614",
+      "38436700",
+      "34751044",
+      "15549714",
+      "31695155",
+      "33909090",
+      "32185618",
+      "32492633",
+      "38545083",
+      "31685267",
+      "17336185",
+      "29284669",
+      "36897814",
+      "16258518",
+      "16954472",
+      "29784674",
+      "35420299",
+      "21288077",
+      "28696504",
+      "17020972",
+      "32593299",
+      "11745206",
+      "33739795",
+      "12670915",
+      "33596552",
+      "33763816",
+      "31115156",
+      "23091029",
+      "7674334",
+      "14694373",
+      "39198563",
+      "27465929",
+      "33777776",
+      "37500261",
+      "29797634",
+      "27510381",
+      "28376281",
+      "36719495",
+      "15668898",
+      "19012235",
+      "27224546",
+      "30850970",
+      "29091799",
+      "18281664",
+      "27599694",
+      "27876123",
+      "35372427",
+      "31685009",
+      "35414524",
+      "30584073",
+      "35117828",
+      "37401906",
+      "35820898",
+      "35864282",
+      "34110923",
+      "31712961",
+      "37460674",
+      "32896084",
+      "35515129",
+      "34116676",
+      "32417712",
+      "33850701",
+      "26482175",
+      "34940083",
+      "30483774",
+      "26815518",
+      "16051962",
+      "36517762",
+      "30691436",
+      "35210300",
+      "17189403",
+      "36690882",
+      "38011673",
+      "2250296",
+      "32945147",
+      "11857322",
+      "34088831",
+      "9815553",
+      "33543393",
+      "34821963",
+      "34485629",
+      "23320395",
+      "19047152",
+      "26868139",
+      "12097268",
+      "37841015",
+      "33798088",
+      "25860940",
+      "26709890",
+      "38365343",
+      "34972781",
+      "32411600",
+      "37592273",
+      "38715772",
+      "36332157",
+      "38464383",
+      "39227537",
+      "37945937",
+      "38420015",
+      "36341993",
+      "33178255",
+      "38534526",
+      "34219966",
+      "37674725"
+    ],
+    "review": [
+      "37707410",
+      "37945937"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://www.ovid.com/37707410.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/RCT.0000000000001480",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

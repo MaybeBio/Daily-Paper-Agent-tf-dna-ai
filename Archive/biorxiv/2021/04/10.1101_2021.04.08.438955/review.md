@@ -1,0 +1,65 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, supplementary text, materials and methods, and references as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of the claims presented in the manuscript. No assessment of formatting or editorial style.
+- **Shared manuscript claim summary** The authors derive a theoretical equation linking macroscopic association and dissociation rates for protein-DNA binding via a nonspecific testing step, and validate it using single-molecule measurements of LacI and reanalysis of dCas9 data. They conclude that sequence specificity arises from association (recognition) rather than dissociation.
+- **Visible evidence base** Single-molecule colocalization experiments with LacI at varying salt concentrations; reanalysis of published in vivo LacI data and high-throughput dCas9 binding data; stochastic simulations of the imaging analysis pipeline.
+- **Missing materials affecting confidence** Raw data files, full simulation code, and detailed fitting procedures for the dCas9 model are not provided. The manuscript states they are available upon request, but this limits independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially important theoretical result, supported by a well-designed single-molecule experimental approach. The derivation of the coupling equation is elegant, and the experimental validation with LacI is convincing. However, the generalizability of the conclusion, particularly the claim that dissociation rates are sequence-independent, rests on a limited set of data and a simplified model. The reanalysis of dCas9 data is suggestive but not fully convincing, and the lack of raw data and code reduces confidence in the robustness of the fits. The manuscript is well-written and accessible, but the strength of the conclusions should be tempered given the evidence provided.
+- **Who would be interested in the results, and why** Researchers in biophysics, molecular biology, and systems biology studying protein-DNA interactions, transcription factor kinetics, and gene regulation. The theoretical framework could be of broad interest to those modeling biomolecular association processes beyond DNA binding.
+- **Major strengths** The theoretical derivation is clear and provides a testable prediction. The single-molecule experiments are carefully performed, with controls for photobleaching and nonspecific binding. The use of both in vitro and in vivo data strengthens the claim. The application to dCas9 demonstrates the potential generality of the framework.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that "LacI dissociates from different target sequences with essentially identical microscopic dissociation rates" is central to the paper's conclusion.
+    - **Evidence pointer** Figure 1H and associated text; location not provided for specific data points.
+    - **Concern** The conclusion of identical k_off,mu for different operators is based on fits to a small number of salt titration experiments (n=2 per operator). The error bars in Figure 1H appear to overlap, but the statistical power to detect small differences is low. The manuscript does not report a formal statistical test comparing the k_off,mu values across operators.
+    - **Why it matters** If k_off,mu values are actually different, the central claim that specificity is determined solely by association would be weakened. The current evidence is insufficient to rule out modest sequence-dependent differences in dissociation.
+    - **Resolution test** Provide a statistical comparison (e.g., ANOVA or likelihood ratio test) of k_off,mu estimates across operators, including confidence intervals. If the data cannot support a claim of identical values, the conclusion should be revised to state that differences are small or not detectable.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The application of the framework to dCas9 data, concluding that the binding pathway can be obtained from macroscopic data.
+    - **Evidence pointer** Figure 3 and Supplementary Text; location not provided.
+    - **Concern** The dCas9 analysis relies on a model with 199 parameters fitted to 2586 data points. The manuscript does not provide details on the fitting procedure, parameter identifiability, or model selection. The claim that the model "captures the large-scale changes" is vague, and the poor prediction for triple mutants (as admitted in the text) raises questions about the model's validity.
+    - **Why it matters** The dCas9 example is used to demonstrate the general applicability of the framework. If the model is overparameterized or poorly constrained, the conclusions drawn from it are not reliable.
+    - **Resolution test** Provide a detailed description of the fitting procedure, including initial conditions, optimization algorithm, and uncertainty estimates for the fitted parameters. Show that the model is identifiable and that the conclusions are robust to alternative model specifications.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Equation 1 derivation
+    - **Evidence pointer** Supplementary Text; location not provided.
+    - **Issue** The derivation of Equation 1 in the Supplementary Text is concise but skips some algebraic steps. A reader may find it difficult to follow.
+    - **Required correction** Expand the derivation to show the intermediate steps, particularly the simplification from Equations 6 and 7 to Equation 8.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Data and code availability
+    - **Evidence pointer** Data and materials availability section.
+    - **Issue** The statement "All raw data and analysis codes will be made available upon request" is not in line with current best practices for reproducibility.
+    - **Required correction** Deposit the raw data and analysis code in a public repository (e.g., Zenodo, Figshare) and provide a DOI.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion of evolutionary implications
+    - **Evidence pointer** Concluding paragraph.
+    - **Issue** The statement that the behavior "may represent an evolutionary adaptation" is speculative and not directly supported by the data.
+    - **Required correction** Soften the language to indicate this is a hypothesis, or remove it if it is not essential to the main argument.
+- **Technical failings that need to be addressed before the case is established** The lack of a formal statistical test for the equality of k_off,mu across operators (R1-M1) and the insufficient detail on the dCas9 model fitting (R1-M2) are the primary technical issues. Both need to be resolved before the central claims can be fully accepted.
+- **Assessment against Nature-style criteria** 
+    - **Originality** High. The derived coupling between association and dissociation rates is a novel theoretical insight.
+    - **Scientific importance** High. If validated, the framework could change how researchers interpret kinetic measurements of protein-DNA interactions.
+    - **Interdisciplinary readership** Moderate. The topic is of interest to biophysicists and molecular biologists, but may be less accessible to a broader audience.
+    - **Technical soundness** Moderate. The experimental work is sound, but the statistical analysis and modeling need strengthening.
+    - **Readability for nonspecialists** Good. The abstract and main text are clearly written, with a helpful one-sentence summary.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the experimental data are suggestive, but the current evidence is not sufficient to fully establish the claim of sequence-independent dissociation. The authors should address the statistical and modeling issues before the manuscript is considered for publication.
+
+## Risk / unsupported claims
+- The claim that k_off,mu is "essentially identical" for different operators is not statistically supported.
+- The claim that the dCas9 binding pathway can be "obtained from macroscopic data" is not fully supported due to the lack of model validation details.
+- The statement that the framework is "very likely to be generally applicable to a wide range of kinetic systems" is speculative and not tested in this manuscript.

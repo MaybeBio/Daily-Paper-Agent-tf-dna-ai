@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "42360672",
+    "doi": "10.1007/s10930-026-10340-w",
+    "title": "Identification of Moonlighting Proteins from Published Literature Using Natural Language Processing and AI."
+  },
+  "content": {
+    "abstract": "Research publications on various aspects of functional genomics are constantly growing, providing an opportunity and challenge to mine for the information of interest, among them are the annotation of proteins into their specific functional class or the sheer degeneracy of their functions. While knowledge-driven approaches to functional annotations are based on mechanistic basis or data-driven predictive models based on deterministic features, they do not harness what is already reported in literature in different contexts. Natural language processing, combined with machine learning aims to bridge this gap. We have earlier developed a method to predict an intriguing protein functional property, called moonlighting in DNA-binding proteins using protein features with reasonable accuracy. However, the very development of training data and harnessing of available functional information from literature are the tasks, not addressed well so far for this problem. It may be noted that moonlighting being a problem of functional redundancy, literature mining may be a way to provide a cross-study perspective and hence a better prediction performance. Here we present an NLP-based model for literature mining and identifying moonlighting behaviour of proteins. A high-performing PubMed BERT model pre-trained on PubMed publications was further optimized through retraining on particular data sets, allowing accurate identification of moonlighting function in proteins. We show that this approach can identify moonlighting proteins with high accuracy and outperform first principle approaches reported earlier. The methods presented here are for moonlighting behaviour of proteins but are scalable to any literature-mining problem in biological domain. Data sets and codes used in this work are provided in GitHub repository https://github.com/Sciwhylab/moonlighting_nlp .",
+    "keywords": [
+      "DNA-bidning",
+      "Language models",
+      "Moonlighting proteins",
+      "Multifunctional proteins",
+      "NLP methods",
+      "Natural language processing"
+    ],
+    "mesh_terms": [
+      "*Natural Language Processing",
+      "*Data Mining/methods",
+      "Machine Learning",
+      "Humans",
+      "*Proteins/chemistry/genetics",
+      "*DNA-Binding Proteins/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Varghese, Dana Mary",
+        "Kukreti, Vishwas",
+        "Verma, Ajay Kumar",
+        "Chakraborti, Anirban",
+        "Ahmad, Shandar"
+      ],
+      "short_names": [
+        "Varghese DM",
+        "Kukreti V",
+        "Verma AK",
+        "Chakraborti A",
+        "Ahmad S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India. shandar@jnu.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Varghese, Dana Mary",
+        "short_name": "Varghese DM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India."
+        ]
+      },
+      {
+        "full_name": "Kukreti, Vishwas",
+        "short_name": "Kukreti V",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India."
+        ]
+      },
+      {
+        "full_name": "Verma, Ajay Kumar",
+        "short_name": "Verma AK",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India."
+        ]
+      },
+      {
+        "full_name": "Chakraborti, Anirban",
+        "short_name": "Chakraborti A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shandar",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Mehrauli Road, New Delhi, 110067, India. shandar@jnu.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The protein journal"
+    ],
+    "journal_abbrev": [
+      "Protein J"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/27 00:59",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36474806",
+      "35708267",
+      "33584695",
+      "33245761",
+      "30976107",
+      "30371819",
+      "29180758",
+      "29136215",
+      "28881966",
+      "26499805",
+      "25882031",
+      "17620146",
+      "12775220"
+    ],
+    "similar": [
+      "42360672",
+      "42475469",
+      "42491247",
+      "36321557",
+      "40461545",
+      "36721225",
+      "23912807",
+      "36474806",
+      "40824124",
+      "30260564",
+      "35713864",
+      "40706199",
+      "37164244",
+      "37673376",
+      "42430721",
+      "31501885",
+      "29506465",
+      "42085853",
+      "39747934",
+      "41233415",
+      "39526844",
+      "38622611",
+      "41780317",
+      "37625508",
+      "26423616",
+      "33986655",
+      "35319481",
+      "39419501",
+      "17620146",
+      "33167858",
+      "30217670",
+      "36347858",
+      "40662797",
+      "39475725",
+      "40027840",
+      "35863177",
+      "39631489",
+      "38917600",
+      "38340264",
+      "34643684",
+      "35382811",
+      "22285561",
+      "41291648",
+      "35962559",
+      "37792444",
+      "33944788",
+      "42119137",
+      "38875537",
+      "40939201",
+      "39775454",
+      "40152137",
+      "31845899",
+      "40338843",
+      "25451103",
+      "39693482",
+      "39192204",
+      "41093296",
+      "40638775",
+      "27706202",
+      "34862552",
+      "35379166",
+      "40601260",
+      "39264975",
+      "40730292",
+      "39321491",
+      "35615042",
+      "41023963",
+      "39441204",
+      "39421632",
+      "31847804",
+      "26042329",
+      "39998912",
+      "34030624",
+      "39001795",
+      "39029416",
+      "41310253",
+      "40298230",
+      "39500238",
+      "29063568",
+      "38749026",
+      "36940385",
+      "35582795",
+      "37295138",
+      "38608190",
+      "32229465",
+      "40153782",
+      "42563169",
+      "40547228",
+      "37505252",
+      "29538614",
+      "42331587",
+      "32702106",
+      "41561863",
+      "34827589",
+      "41534241",
+      "36197662",
+      "34986221",
+      "39780059",
+      "41842607",
+      "24393765"
+    ],
+    "review": [
+      "42360672",
+      "42491247",
+      "36321557",
+      "40706199",
+      "42430721",
+      "42085853",
+      "38917600",
+      "33944788",
+      "40939201",
+      "41093296",
+      "34862552",
+      "26042329",
+      "39998912",
+      "40298230",
+      "29063568",
+      "35582795",
+      "37295138",
+      "32229465",
+      "40153782"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10930-026-10340-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

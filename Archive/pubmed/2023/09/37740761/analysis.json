@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37740761",
+  "title": "Identifying possible hub genes and biological mechanisms shared between bladder cancer and inflammatory bowel disease using machine learning and integrated bioinformatics.",
+  "authors": "Liu, Jianyong; Wu, Pengjie; Lai, Shicong; Wang, Jianye; Wang, Jianlong; Zhang, Yaoguang",
+  "journal": "Journal of cancer research and clinical oncology",
+  "published_date": "2023-09-23",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用机器学习与生物信息学筛选膀胱癌与炎症性肠病共享枢纽基因，虽含TF-mRNA调控网络，但核心是疾病关联基因表达分析，无蛋白质-DNA互作建模或TF-DNA结合机制研究，与本课题关系微弱。",
+  "abstract": "BACKGROUND: Recent studies have shown that inflammatory bowel disease (IBD) is associated with bladder cancer (BC) incidence. But there is still a lack of understanding regarding its pathogenesis. Thus, this study aimed to identify potential hub genes and their important pathways and pathological mechanisms of interactions between IBD and BC using bioinformatics methods. METHODS: The data from Gene Expression Omnibus (GEO) and the cancer genome atlas (TCGA) were analyzed to screen common differentially expressed genes (DEGs) between IBD and BC. The \"clusterProfiler\" package was used to analyze GO term and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment in DEGs. After that, we conducted a weighted gene co-expression network analysis (WGCNA) on these DEGs to determine the vital modules and genes significantly related to BC. Protein-protein interaction (PPI) networks was used to identify hub genes. Further, the hub genes were used to develop a prognostic signature by Cox analysis. The validity of the ten hub DEGs was tested using three classification algorithms. Finally, we analyzed the microRNAs (miRNA)-mRNA, transcription factors (TFs)-mRNA regulatory network. RESULTS: Positive regulation of organelle fission, chromosomal region, tubulin binding, and cell cycle signaling pathway were the major enriched pathways for the common DEGs. PPI networks identified three hub proteins (AURKB, CDK1, and CCNA2) with high connectivity. Three machine-learning classification algorithms based on ten hub genes performed well for IBD and BC (accuracy > 0.80). The robust predictive model based on the ten hub genes could accurately classify BC cases with various clinical outcomes. Based on the gene-TFs and gene-miRNAs network construction, 9 TFs and 6 miRNAs were identified as potential critical TFs and miRNAs. There are 13 drugs that interact with the hub gene based on gene-drug interaction analysis. CONCLUSIONS: This study explored common gene signatures and the potential pathogenesis of IBD and BC. We revealed that an unbalanced immune response, cell cycle pathway, and neutrophil infiltration might be the common pathogenesis of IBD and BC. Molecular mechanisms for the treatment of IBD and CC still require further investigation.",
+  "abstract_zh": "背景：近期研究表明，炎症性肠病（IBD）与膀胱癌（BC）的发病率相关，但对其发病机制仍缺乏了解。因此，本研究旨在利用生物信息学方法，识别IBD与BC相互作用的潜在核心基因及其重要通路和病理机制。方法：分析来自基因表达综合数据库（GEO）和癌症基因组图谱（TCGA）的数据，筛选IBD与BC之间的常见差异表达基因（DEGs）。使用“clusterProfiler”包对DEGs进行GO术语和京都基因与基因组百科全书（KEGG）通路富集分析。随后，对这些DEGs进行加权基因共表达网络分析（WGCNA），以确定与BC显著相关的关键模块和基因。利用蛋白质-蛋白质相互作用（PPI）网络识别核心基因。进一步，通过Cox分析利用核心基因构建预后特征。使用三种分类算法测试十个核心DEGs的有效性。最后，分析microRNAs（miRNA）-mRNA、转录因子（TFs）-mRNA调控网络。结果：细胞器分裂的正向调控、染色体区域、微管蛋白结合和细胞周期信号通路是常见DEGs的主要富集通路。PPI网络识别出三个高连接度的核心蛋白（AURKB、CDK1和CCNA2）。基于十个核心基因的三种机器学习分类算法在IBD和BC中表现良好（准确度>0.80）。基于十个核心基因的稳健预测模型能准确分类具有不同临床结果的BC病例。基于基因-TFs和基因-miRNAs网络构建，识别出9个TFs和6个miRNAs作为潜在的关键TFs和miRNAs。基于基因-药物相互作用分析，有13种药物与核心基因相互作用。结论：本研究探讨了IBD和BC的常见基因特征及潜在发病机制。我们揭示，免疫反应失衡、细胞周期通路和中性粒细胞浸润可能是IBD和BC的共同发病机制。IBD和CC治疗的分子机制仍需进一步研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37740761/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37740761/",
+  "paper_page_path": "papers/pubmed/37740761/index.html"
+}

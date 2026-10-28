@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39350338",
+  "title": "MLSNet: a deep learning model for predicting transcription factor binding sites.",
+  "authors": "Zhang, Yuchuan; Wang, Zhikang; Ge, Fang; Wang, Xiaoyu; Zhang, Yiwen; Li, Shanshan; Guo, Yuming; Song, Jiangning; Yu, Dong-Jun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-10-01",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 8,
+  "one_liner_zh": "提出MLSNet深度学习模型，融合多尺寸卷积、LSTM与DNA形状特征预测转录因子结合位点，核心聚焦TF-DNA互作且方法为AI，高度匹配课题。",
+  "abstract": "Accurate prediction of transcription factor binding sites (TFBSs) is essential for understanding gene regulation mechanisms and the etiology of diseases. Despite numerous advances in deep learning for predicting TFBSs, their performance can still be enhanced. In this study, we propose MLSNet, a novel deep learning architecture designed specifically to predict TFBSs. MLSNet innovatively integrates multisize convolutional fusion with long short-term memory (LSTM) networks to effectively capture DNA-sparse higher-order sequence features. Further, MLSNet incorporates super token attention and Bi-LSTM to systematically extract and integrate higher-order DNA shape features. Experimental results on 165 ChIP-seq (chromatin immunoprecipitation followed by sequencing) datasets indicate that MLSNet consistently outperforms several state-of-the-art algorithms in the prediction of TFBSs. Specifically, MLSNet reports average metrics: 0.8306 for ACC, 0.8992 for AUROC, and 0.9035 for AUPRC, surpassing the second-best methods by 1.82%, 1.68%, and 1.54%, respectively. This research delineates the effectiveness of combining multi-size convolutional layers with LSTM and DNA shape-based features in enhancing predictive accuracy. Moreover, this study comprehensively assesses the variability in model performance across different cell lines and transcription factors. The source code of MLSNet is available at https://github.com/minghaidea/MLSNet.",
+  "abstract_zh": "转录因子结合位点（TFBSs）的准确预测对于理解基因调控机制和疾病病因至关重要。尽管深度学习在预测TFBSs方面取得了诸多进展，但其性能仍有提升空间。在本研究中，我们提出了MLSNet，一种专门用于预测TFBSs的新型深度学习架构。MLSNet创新性地将多尺寸卷积融合与长短期记忆（LSTM）网络相结合，以有效捕获DNA稀疏高阶序列特征。此外，MLSNet还整合了超级令牌注意力机制和双向LSTM（Bi-LSTM），系统性地提取并融合高阶DNA形状特征。在165个ChIP-seq（染色质免疫沉淀后测序）数据集上的实验结果表明，MLSNet在预测TFBSs方面持续优于多种最先进算法。具体而言，MLSNet报告的平均指标为：ACC为0.8306，AUROC为0.8992，AUPRC为0.9035，分别比次优方法高出1.82%、1.68%和1.54%。本研究阐明了将多尺寸卷积层与LSTM及基于DNA形状的特征相结合在提升预测准确性方面的有效性。此外，本研究还全面评估了不同细胞系和转录因子下模型性能的变异性。MLSNet的源代码可在https://github.com/minghaidea/MLSNet获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39350338/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39350338/",
+  "paper_page_path": "papers/pubmed/39350338/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.19.629354",
+  "title": "Prediction of Cell States and Key Transcription Factors of the Human Cornea through Integrated Single-Cell Omics Analyses",
+  "authors": "Arts JA; Fallo S; Florencio MS; Smits JG; Cunha DL; Roubroeks JA; Dickman M; LaPointe VL; Yu R; Zhou H",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文整合单细胞RNA-seq与染色质可及性数据，用机器学习预测角膜细胞状态并识别关键转录因子，但核心是细胞状态注释而非TF-DNA结合机制建模，方法上无AI/物理模拟的互作建模，仅部分涉及TF识别，与本课题关联较弱。",
+  "abstract": "The cornea, a transparent tissue composed of multiple layers, allows light to enter the eye. Several single-cell RNA-seq analyses have been performed to explore the cell states and to understand the cellular composition of the human cornea. However, the inconsistences in cell state annotations between these studies complicate the application of these findings in corneal studies. To address this, we integrated single-cell RNA-seq data from four published studies and created a human corneal cell state meta-atlas. This meta-atlas was subsequently evaluated in two applications. First, we developed a machine learning pipeline cPredictor, using the human corneal cell state meta-atlas as input, to annotate corneal cell states. We demonstrated the accuracy of cPredictor and its ability to identify novel marker genes and rare cell states in the human cornea. Furthermore, cPredictor revealed the differences of the cell states between pluripotent stem cell-derived corneal organoids and the human cornea. Second, we integrated the single-cell RNA-seq based cell state meta-atlas with chromatin accessibility data, conducting motif-focused and gene regulatory network analyses. These approaches identified distinct transcription factors driving cell states of the human cornea. The novel marker genes and transcription factors were validated by immunohistochemistry. Overall, this study offers a reliable and accessible reference for profiling corneal cell states, which facilitates future research in cornea development, disease and regeneration. <h4>Significance statement</h4> This study creates a human corneal cell state meta-atlas that provides a common nomenclature of cells in the human cornea, through integrating multiple single-cell RNA-seq analyses. Using this meta-atlas, we developed a machine learning pipeline, cPredictor, to accurately annotate cell states in corneal studies using single-cell RNA-seq. Additionally, we identified distinct transcription factors driving cell states through integrating the atlas with chromatin accessibility data. This meta-atlas and the computational tool cPredictor enable future research in cornea development, disease, and regeneration.",
+  "abstract_zh": "角膜是一种由多层组成的透明组织，允许光线进入眼睛。已有几项单细胞RNA测序（single-cell RNA-seq）分析被用于探索人类角膜的细胞状态并理解其细胞组成。然而，这些研究之间在细胞状态注释上的不一致性，使得这些发现在角膜研究中的应用变得复杂。为解决这一问题，我们整合了四项已发表研究中的单细胞RNA-seq数据，创建了一个人类角膜细胞状态元图谱（meta-atlas）。该元图谱随后在两个应用场景中进行了评估。首先，我们开发了一个机器学习流程cPredictor，以人类角膜细胞状态元图谱为输入，用于注释角膜细胞状态。我们证明了cPredictor的准确性及其在人类角膜中识别新型标记基因和稀有细胞状态的能力。此外，cPredictor揭示了多能干细胞来源的角膜类器官与人类角膜之间细胞状态的差异。其次，我们将基于单细胞RNA-seq的细胞状态元图谱与染色质可及性数据整合，进行了基序聚焦和基因调控网络分析。这些方法识别出驱动人类角膜细胞状态的独特转录因子。新型标记基因和转录因子通过免疫组织化学进行了验证。总体而言，本研究为描绘角膜细胞状态提供了一个可靠且易获取的参考，有助于未来在角膜发育、疾病和再生方面的研究。<h4>意义声明</h4> 本研究通过整合多项单细胞RNA-seq分析，创建了一个人类角膜细胞状态元图谱，为人类角膜中的细胞提供了通用命名法。利用该元图谱，我们开发了一个机器学习流程cPredictor，以准确注释角膜研究中的细胞状态。此外，我们通过将图谱与染色质可及性数据整合，识别出驱动细胞状态的独特转录因子。该元图谱及计算工具cPredictor将促进未来在角膜发育、疾病和再生方面的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629354",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629354",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.19.629354/index.html"
+}

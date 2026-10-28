@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "37730959",
+    "doi": "10.1002/jgm.3595",
+    "title": "Integrative analysis of an endoplasmic reticulum stress-related signature in multiple myeloma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Multiple myeloma (MM) is a malignancy in which plasma cells proliferate abnormally, and it remains incurable. The cells are characterized by high levels of endoplasmic reticulum stress (ERS) and depend on the ERS response for survival. Thus, we aim to find an ERS-related signature of MM and assess its diagnostic value. METHODS: We downloaded three datasets of MM from the Gene Expression Omnibus database. After identifying ERS-related differentially expressed genes (ERDEGs), we analyzed them using Gene Ontology enrichment analysis. A protein-protein interaction network, a transcription factor-mRNA network, a miRNA-mRNA network and a drug-mRNA network were constructed to explore the ERDEGs. The clinical application of these genes was identified by calculating the infiltration of immune cells and using receiver operating characteistic analyses. Finally, qPCR was performed to further confirm the roles of ERDEGs. RESULTS: We obtained nine ERDEGs of MM. Gene Ontology enrichment indicated that the ERDEGs played a role in the endoplasmic reticulum membrane. Additionally, the protein-protein interaction network showed interaction among the ERDEGs, and there were 20 proteins, 107 transcription factors, 42 drugs or molecular compounds and 51 miRNAs which were likely to interact with the nine genes. In addition, immune cell infiltration analyses showed that there was a strong correlation between the nine genes and immune cells, and these potential biomarkers exhibited good diagnostic values. Finally, the expression of ERDEGs in MM cells was different from that in healthy donor samples. CONCLUSION: The nine ERS-related genes, CR2, DHCR7, DNAJC3, KDELR2, LPL, OSBPL3, PINK1, VCAM1 and XBP1 are potential biomarkers of MM, and this supports further clinical development of the diagnosis and treatment of MM.",
+    "keywords": [
+      "PPI network",
+      "ROC curve",
+      "biomarker",
+      "endoplasmic reticulum stress",
+      "immune infiltration",
+      "regulatory network"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiple Myeloma/genetics",
+      "Endoplasmic Reticulum Stress/genetics",
+      "Gene Ontology",
+      "*MicroRNAs/genetics",
+      "Biomarkers",
+      "RNA, Messenger/genetics",
+      "Vesicular Transport Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Chengyu",
+        "Liu, Mei",
+        "Liu, Jia",
+        "Jia, Mingyuan",
+        "Zeng, Xinyi",
+        "Fu, Ze",
+        "Geng, Yanlai",
+        "He, Ziqi",
+        "Zhang, Xian",
+        "Yan, Hua"
+      ],
+      "short_names": [
+        "Wu C",
+        "Liu M",
+        "Liu J",
+        "Jia M",
+        "Zeng X",
+        "Fu Z",
+        "Geng Y",
+        "He Z",
+        "Zhang X",
+        "Yan H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of General Practice, Wuxi Branch of Ruijin Hospital, Jiangsu, China.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Hematology, Huadong Hospital Affiliated with Fudan University, Shanghai, China.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of General Practice, Wuxi Branch of Ruijin Hospital, Jiangsu, China.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of General Practice, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of General Practice, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Chengyu",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mei",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Wuxi Branch of Ruijin Hospital, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jia",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Mingyuan",
+        "short_name": "Jia M",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xinyi",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Huadong Hospital Affiliated with Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Ze",
+        "short_name": "Fu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Yanlai",
+        "short_name": "Geng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Wuxi Branch of Ruijin Hospital, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "He, Ziqi",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xian",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Hua",
+        "short_name": "Yan H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+          "Department of General Practice, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of gene medicine"
+    ],
+    "journal_abbrev": [
+      "J Gene Med"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/21 06:42",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [
+      "40563622"
+    ],
+    "refs": [],
+    "similar": [
+      "37730959",
+      "40371728",
+      "40171194",
+      "39284931",
+      "36060663",
+      "36894919",
+      "40918403",
+      "38549776",
+      "38734758",
+      "38274787",
+      "39146558",
+      "39953608",
+      "37287987",
+      "37189138",
+      "38604455",
+      "36353576",
+      "41731716",
+      "41277057",
+      "38162988",
+      "37259023",
+      "39671358",
+      "40775242",
+      "40849369",
+      "39341981",
+      "34536521",
+      "38862443",
+      "38104177",
+      "39789034",
+      "38404554",
+      "36203606",
+      "39582915",
+      "37980270",
+      "39920578",
+      "41188339",
+      "38789967",
+      "35465608",
+      "40074956",
+      "33997035",
+      "39136902",
+      "39340293",
+      "39923360",
+      "37353812",
+      "28316065",
+      "38066437",
+      "41544081",
+      "28467652",
+      "30602391",
+      "34966440",
+      "35464062",
+      "40413658",
+      "35620387",
+      "40043935",
+      "37821882",
+      "41110296",
+      "39010084",
+      "39076097",
+      "40216868",
+      "40153017",
+      "32349536",
+      "36967783",
+      "40779572",
+      "39043683",
+      "38955938",
+      "33204705",
+      "32456463",
+      "38303549",
+      "39907642",
+      "39849389",
+      "37525915",
+      "41342545",
+      "41548489",
+      "35571564",
+      "35909518",
+      "39462063",
+      "36969237",
+      "39636891",
+      "40354856",
+      "38863714",
+      "37907864",
+      "35783271",
+      "40923741",
+      "35687183",
+      "39650190",
+      "33553808",
+      "38725284",
+      "41044520",
+      "39875572",
+      "39556279",
+      "37995661",
+      "39553470",
+      "38811828",
+      "35757392",
+      "40178603",
+      "35150335",
+      "28302149",
+      "41087615",
+      "39586719",
+      "40914405",
+      "40619516",
+      "32481304"
+    ],
+    "review": [
+      "37730959",
+      "40914405"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://www.ovid.com/37730959.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jgm.3595",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3397",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

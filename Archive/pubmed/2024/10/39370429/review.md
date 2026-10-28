@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary information notice)
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and alignment with the stated scope of Scientific Reports
+- **Shared manuscript claim summary** The authors use molecular docking and all-atom molecular dynamics simulations to investigate how the zinc-finger domains Zn1 and Zn2 of PARP-1 cooperatively recognize a DNA single-strand break (SSB) modeled by a 45-nucleotide hairpin with a missing base. They report that the hairpin can spontaneously open and bend via thermal fluctuations, that Zn2 has higher affinity for the SSB ends than Zn1, that Zn1 plays a secondary role, and that the relative orientation of the Zn1/Zn2 pair with respect to the 3'/5' ends is critical for forming interaction-competent configurations. They also compare monomeric and dimeric PARP-1 arrangements and propose a sequential recognition model.
+- **Visible evidence base** Abstract, introduction, methods, results, discussion, figure captions (Figs. 1-7), supplementary figure references
+- **Missing materials affecting confidence** Supplementary figures (S1-S6) referenced but not provided; no explicit simulation parameters (e.g., force field version details, water model, ion concentration specifics, temperature coupling scheme, pressure coupling scheme, simulation convergence criteria); no error bars or statistical analysis of simulation replicates; no raw trajectory data or RMSD/RMSF plots for all simulations; no explicit free energy calculation methodology details; no validation of docking results against experimental structures beyond qualitative description
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of PARP-1 zinc-finger domain interactions with a DNA single-strand break model. The work addresses a relevant biological question and uses appropriate state-of-the-art simulation techniques. However, the manuscript has several significant weaknesses that prevent the conclusions from being fully supported by the presented evidence. The lack of quantitative validation, insufficient methodological detail, and absence of statistical analysis of simulation results undermine the strength of the claims. The study is potentially interesting to the computational biophysics community, but in its current form, the evidence does not fully establish the proposed cooperative recognition model.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying protein-DNA interactions, particularly those focused on DNA damage recognition and repair pathways. Researchers studying PARP-1 structure and function, and those interested in the dynamics of zinc-finger domains, would find the simulation results relevant. The work may also interest experimentalists seeking mechanistic hypotheses for PARP-1 SSB recognition that could be tested in vitro.
+- **Major strengths** The study addresses an important and timely biological question about the early steps of DNA damage recognition by PARP-1. The use of multiple simulation approaches (docking, MD, free energy calculations) is appropriate. The comparison between monomeric and dimeric PARP-1 arrangements is a valuable contribution. The authors make a reasonable effort to connect their simulation results to existing experimental data, particularly the NMR structure of the complex.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the experimental structure of the PARP-1-DNA complex can be retrieved from MD simulations starting from separate components, and that this validates the simulation protocol.
+  - **Evidence pointer** Results section "Retrieving the experimental structure", Figure 3
+  - **Concern** The validation of the simulation protocol is based on a single qualitative comparison of the final structure to the experimental NMR structure. The authors state that the average conformation is "rather close" to the experimental one, but no quantitative measure (e.g., RMSD to the experimental structure, contact map comparison, interaction energy comparison) is provided. The claim that the protocol is validated is therefore not supported by quantitative evidence.
+  - **Why it matters** The entire study relies on the reliability of the simulation protocol. Without quantitative validation, the reader cannot assess whether the subsequent results and conclusions are trustworthy. A single trajectory that happens to end near the experimental structure does not constitute robust validation, especially given the known limitations of docking and MD for protein-DNA complexes.
+  - **Resolution test** Provide quantitative comparison of the simulated complex to the experimental structure, including RMSD values for the protein, DNA, and interface, and a comparison of key intermolecular contacts. Ideally, multiple independent simulations should be performed to demonstrate reproducibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the DNA hairpin can spontaneously open up to extreme deformations, with bending angles as small as 90-100 degrees, and that this is a property of the hairpin construct.
+  - **Evidence pointer** Results section "Stability of the isolated DNA hairpin including a SSB", Figure 2
+  - **Concern** The claim of spontaneous extreme bending is based on a single 2-microsecond simulation of the hairpin. No replicate simulations are reported, and no statistical analysis of the bending angle distribution is provided. The observation of rare events in a single trajectory is not sufficient to establish that such events are characteristic of the system. Additionally, the comparison to the long DNA is qualitative, and the conclusion that the hairpin is more prone to bending than free DNA is not supported by quantitative comparison of the distributions.
+  - **Why it matters** The spontaneous opening of the hairpin is a central element of the proposed recognition model. If this claim is not robustly supported, the entire mechanistic interpretation is weakened. The lack of replicates and statistical analysis is a significant methodological concern for a study making quantitative claims about conformational dynamics.
+  - **Resolution test** Provide multiple independent simulations (at least 3-5 replicates) and show that the extreme bending events are reproducibly observed. Provide quantitative comparison of bending angle distributions between the hairpin and free DNA, including statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Zn2 has higher affinity for the SSB ends than Zn1, and that Zn1 plays a secondary role in the recognition process.
+  - **Evidence pointer** Results sections "Starting from the straight hairpin", "Dimeric PARP-1: the 'experimental' Zn2 orientation", "Dimeric PARP-1: the 180-degree-flipped Zn2 orientation", Figure 5, Figure 6, Figure 7
+  - **Concern** The claim about differential affinity is based on qualitative descriptions of contact patterns and free energy values that are not systematically presented. The free energy calculations are mentioned but not described in detail, and the numerical values are not provided in a comparative manner. The conclusion that Zn1 plays a secondary role is based on observations from a limited number of simulations with manually adjusted starting configurations, which introduces potential bias.
+  - **Why it matters** The relative roles of Zn1 and Zn2 are central to the proposed cooperative recognition model. Without quantitative comparison of binding affinities or interaction energies, the claim of Zn2 dominance is not established. The use of manually adjusted starting configurations for some simulations raises concerns about objectivity and reproducibility.
+  - **Resolution test** Provide a systematic comparison of binding free energies or interaction energies for Zn1 and Zn2 in various configurations, with error estimates. Clearly describe the free energy calculation methodology. Perform simulations from unbiased starting configurations where possible, and demonstrate that the conclusions are robust to initial conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings represent "an important step toward defining the detailed function of PARP-1 in the early stages of SSB recognition."
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The study is purely computational and uses a simplified model system (isolated Zn1/Zn2 domains, a short DNA hairpin). The authors do not discuss the limitations of this approach in sufficient depth, nor do they provide a clear path for how their predictions could be tested experimentally. The claim of importance is therefore overstated relative to what the study actually demonstrates.
+  - **Why it matters** For a study to be impactful, it must either provide new mechanistic insight that is robustly supported or generate testable predictions. While the study does generate hypotheses, the lack of robust support for the central claims and the absence of clear experimental predictions limit its significance.
+  - **Resolution test** Strengthen the discussion of limitations and provide specific, testable predictions that could be addressed by experimental approaches (e.g., mutagenesis, single-molecule FRET, or structural studies).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first three paragraphs
+  - **Issue** The introduction is dense and assumes significant background knowledge about PARP-1 structure and function. Nonspecialist readers may struggle to understand the significance of the zinc-finger domains and the specific questions being addressed.
+  - **Required correction** Provide a brief, accessible overview of PARP-1 domain architecture and the biological context of SSB recognition before diving into the specific details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section, MD simulation parameters
+  - **Issue** The methods section lacks specific details about the simulation setup, including the exact force field version, water model, ion concentration, temperature and pressure coupling schemes, and the length of equilibration. This makes it difficult to reproduce the simulations.
+  - **Required correction** Provide a complete description of the simulation parameters, either in the main text or in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Dimeric PARP-1: the 180-degree-flipped Zn2 orientation", Figure 7
+  - **Issue** The description of the "edge-to-face" or T-type interaction between Phe-44 and guanine is interesting but is not quantified. The angle distribution is described qualitatively, and no comparison to other aromatic interactions is provided.
+  - **Required correction** Provide quantitative analysis of the Phe-44-G1 interaction geometry, including the distribution of angles and comparison to known protein-DNA aromatic interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The discussion of future work on nucleosome contexts is brief and does not adequately explain why this is an important next step or how it would address the limitations of the current study.
+  - **Required correction** Expand the discussion of future directions, explaining the biological relevance of nucleosome contexts and how the current findings would translate to that setting.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative validation of simulation protocol), R1-M2 (lack of replicate simulations and statistical analysis for the spontaneous opening claim), R1-M3 (lack of quantitative comparison of Zn1 vs Zn2 binding affinities and insufficient methodological detail for free energy calculations)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The study applies established computational methods to a specific biological question. The idea of cooperative Zn1/Zn2 recognition is not entirely new, but the specific focus on the dynamics of the process and the comparison of monomeric vs. dimeric arrangements provides some novelty.
+  - **Scientific importance** Moderate. Understanding PARP-1 SSB recognition is biologically relevant, and the study generates hypotheses that could guide future experiments. However, the importance is limited by the simplified model system and the lack of robust support for the central claims.
+  - **Interdisciplinary readership** Limited. The study is primarily of interest to computational biophysicists and molecular modelers. The biological implications are discussed, but the technical nature of the work may limit its accessibility to a broader biological audience.
+  - **Technical soundness** The methods are appropriate in principle, but the lack of quantitative validation, replicate simulations, and statistical analysis significantly weakens the technical soundness of the study. The free energy calculations are not described in sufficient detail to assess their reliability.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes significant background knowledge. The introduction and discussion could be improved to make the work more accessible to a broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a relevant question and uses appropriate methods, but the central claims are not robustly supported due to the lack of quantitative validation, replicate simulations, and statistical analysis. The manuscript would require major revisions to address these concerns before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that the simulation protocol is validated by retrieving the experimental structure is unsupported due to lack of quantitative comparison.
+- The claim that the DNA hairpin spontaneously opens to extreme deformations is not robustly supported due to lack of replicate simulations and statistical analysis.
+- The claim that Zn2 has higher affinity than Zn1 is not quantitatively supported.
+- The claim that the proposed sequential recognition model represents "an important step" is overstated given the limitations of the study.
+- The free energy values mentioned in the results are not presented in a comparative or quantitative manner, making them unverifiable.
+- The biological relevance of the findings to in vivo SSB recognition is speculative and not adequately discussed in terms of limitations.

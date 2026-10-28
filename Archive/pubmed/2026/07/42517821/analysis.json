@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42517821",
+  "title": "scReGAT: Leveraging Knowledge of Regulatory Interactions to Predict Long-range Gene Regulation at Single-cell Resolution.",
+  "authors": "Wen, Baole; Dang, Yanan; Zhang, Yu; Long, Yi; Tian, Weidong",
+  "journal": "Genomics, proteomics & bioinformatics",
+  "published_date": "2026-07-28",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图注意力网络整合cRE-基因和TF-基因调控知识预测单细胞基因表达，虽涉及TF-DNA调控关系但未聚焦三维互作建模，方法可迁移至TF-DNA结合预测。",
+  "abstract": "Understanding gene regulation at single-cell resolution is crucial for unraveling development, disease, and cellular identity. We introduce single-cell regulatory graph attention network (scReGAT), a deep learning framework that integrates prior knowledge of cis-regulatory element (cRE)-gene and transcription factor-gene interactions to reconstruct cell-specific regulatory networks. Central to scReGAT is a knowledge-guided regulatory graph (kRG), which combines experimentally validated regulatory interactions with cell-resolved chromatin accessibility profiles. These graphs serve as the foundation for training a Graph Attention Network (GAT) to predict gene expression and quantify the contribution of specific regulatory interactions using an interpretable regulatory score for each edge. In benchmarking across five single-cell multi-omics datasets, scReGAT successfully recapitulates known cell-type-specific cRE-gene interactions. In both neuroblastoma and osteogenic differentiation systems, it uncovers dynamic regulatory rewiring that predicts transcriptional transitions. Furthermore, by integrating genome-wide association studies loci from Alzheimer's disease, multiple sclerosis, and schizophrenia, scReGAT identifies disease-associated cell types and uncovers candidate regulatory mechanisms underlying complex trait associations. These results position scReGAT as a robust and generalizable framework for decoding long-range gene regulation at single-cell resolution. The source code of scReGAT can be accessed at https://github.com/TianLab-Bioinfo/scReGAT/ and https://ngdc.cncb.ac.cn/biocode/tool/BT008081.",
+  "abstract_zh": "在单细胞分辨率下理解基因调控对于揭示发育、疾病和细胞身份至关重要。我们引入了单细胞调控图注意力网络（scReGAT），这是一个深度学习框架，整合了顺式调控元件（cRE）-基因和转录因子-基因相互作用的先验知识，以重建细胞特异性调控网络。scReGAT的核心是一个知识引导的调控图（kRG），它结合了实验验证的调控相互作用与细胞分辨的染色质可及性图谱。这些图作为训练图注意力网络（GAT）的基础，用于预测基因表达，并通过每条边的可解释调控评分来量化特定调控相互作用的贡献。在五个单细胞多组学数据集的基准测试中，scReGAT成功重现了已知的细胞类型特异性cRE-基因相互作用。在神经母细胞瘤和成骨分化系统中，它揭示了预测转录转变的动态调控重连。此外，通过整合来自阿尔茨海默病、多发性硬化症和精神分裂症的全基因组关联研究位点，scReGAT识别了与疾病相关的细胞类型，并揭示了复杂性状关联背后的候选调控机制。这些结果使scReGAT成为在单细胞分辨率下解码长程基因调控的稳健且可推广的框架。scReGAT的源代码可在https://github.com/TianLab-Bioinfo/scReGAT/和https://ngdc.cncb.ac.cn/biocode/tool/BT008081获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42517821/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42517821/",
+  "paper_page_path": "papers/pubmed/42517821/index.html"
+}

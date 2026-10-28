@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "42265116",
+    "doi": "10.1038/s41467-026-72863-1",
+    "title": "Structural insights into YheS-mediated release of SecM-arrested ribosome."
+  },
+  "content": {
+    "abstract": "ATP-binding cassette subfamily F (ABCF) proteins interact with the ribosome to resolve translation defects near the peptidyl transferase center (PTC). In Escherichia coli, four ABCF proteins (EttA, Uup, YbiT, and YheS) selectively promote translation of distinct problematic nascent peptide sequences, but their molecular mechanisms remain unclear. Here, we present a 2.8 A cryo-EM structure of the ribosome in complex with an ATPase-deficient mutant of YheS and investigate how it releases ribosomes arrested by the SecM nascent chain. YheS binds to the ribosomal E-site via the L1 stalk, and its P-site tRNA-interaction motif (PtIM) extends toward the PTC, displacing the CCA end of the P-site tRNA. Notably, the cryo-EM density corresponding to the SecM nascent chain within the exit tunnel is largely lost upon YheS binding. These observations suggest that YheS relieves peptide sequence-dependent stalling by perturbing nascent chain-tunnel interactions through P-site tRNA relocation. Steered molecular dynamics simulations provide qualitative support for this model. Together, our findings provide mechanistic insight into a mode of arrest release distinct from the translocon-mediated release mechanism.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ribosomes/metabolism/ultrastructure/chemistry",
+      "*Escherichia coli Proteins/metabolism/genetics/chemistry",
+      "*Escherichia coli/metabolism/genetics",
+      "Cryoelectron Microscopy",
+      "RNA, Transfer/metabolism",
+      "*ATP-Binding Cassette Transporters/metabolism/genetics/chemistry",
+      "Protein Biosynthesis",
+      "Protein Binding",
+      "Models, Molecular",
+      "Adenosine Triphosphatases/metabolism/genetics",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iso, Kaishi",
+        "Ikeda, Toma",
+        "Yamasaki, Kohei",
+        "Ando, Yushin",
+        "Sano, Fumiya K",
+        "Furuta, Tadaomi",
+        "Taguchi, Hideki",
+        "Nureki, Osamu",
+        "Chadani, Yuhei",
+        "Itoh, Yuzuru"
+      ],
+      "short_names": [
+        "Iso K",
+        "Ikeda T",
+        "Yamasaki K",
+        "Ando Y",
+        "Sano FK",
+        "Furuta T",
+        "Taguchi H",
+        "Nureki O",
+        "Chadani Y",
+        "Itoh Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0032-8537",
+        "ORCID: 0000-0002-8965-788X",
+        "ORCID: 0000-0003-4568-9043",
+        "ORCID: 0000-0002-6612-9339",
+        "ORCID: 0000-0003-1813-7008",
+        "ORCID: 0000-0003-0862-6676",
+        "ORCID: 0000-0001-7802-5572"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan.",
+        "School of Life Science and Technology, Institute of Science Tokyo, Yokohama, Japan.",
+        "Graduate School of Environmental, Life, Natural Science and Technology, Okayama University, Okayama, Japan.",
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan.",
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan.",
+        "School of Life Science and Technology, Institute of Science Tokyo, Yokohama, Japan.",
+        "School of Life Science and Technology, Institute of Science Tokyo, Yokohama, Japan. taguchi@bio.titech.ac.jp.",
+        "Cell Biology Center, Institute of Integrated Research, Institute of Science Tokyo, Yokohama, Japan. taguchi@bio.titech.ac.jp.",
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan. nureki@bs.s.u-tokyo.ac.jp.",
+        "Cell Biology Center, Institute of Integrated Research, Institute of Science Tokyo, Yokohama, Japan. nureki@bs.s.u-tokyo.ac.jp.",
+        "Faculty of Environmental, Life, Natural Science and Technology, Okayama University, Okayama, Japan. ychadani@okayama-u.ac.jp.",
+        "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan. yuzuru.itoh@bs.s.u-tokyo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iso, Kaishi",
+        "short_name": "Iso K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikeda, Toma",
+        "short_name": "Ikeda T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, Institute of Science Tokyo, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamasaki, Kohei",
+        "short_name": "Yamasaki K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Environmental, Life, Natural Science and Technology, Okayama University, Okayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Ando, Yushin",
+        "short_name": "Ando Y",
+        "identifiers": [
+          "0009-0005-0032-8537"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sano, Fumiya K",
+        "short_name": "Sano FK",
+        "identifiers": [
+          "0000-0002-8965-788X"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Furuta, Tadaomi",
+        "short_name": "Furuta T",
+        "identifiers": [
+          "0000-0003-4568-9043"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Institute of Science Tokyo, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Taguchi, Hideki",
+        "short_name": "Taguchi H",
+        "identifiers": [
+          "0000-0002-6612-9339"
+        ],
+        "affiliations": [
+          "School of Life Science and Technology, Institute of Science Tokyo, Yokohama, Japan. taguchi@bio.titech.ac.jp.",
+          "Cell Biology Center, Institute of Integrated Research, Institute of Science Tokyo, Yokohama, Japan. taguchi@bio.titech.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Nureki, Osamu",
+        "short_name": "Nureki O",
+        "identifiers": [
+          "0000-0003-1813-7008"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan. nureki@bs.s.u-tokyo.ac.jp.",
+          "Cell Biology Center, Institute of Integrated Research, Institute of Science Tokyo, Yokohama, Japan. nureki@bs.s.u-tokyo.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Chadani, Yuhei",
+        "short_name": "Chadani Y",
+        "identifiers": [
+          "0000-0003-0862-6676"
+        ],
+        "affiliations": [
+          "Faculty of Environmental, Life, Natural Science and Technology, Okayama University, Okayama, Japan. ychadani@okayama-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Itoh, Yuzuru",
+        "short_name": "Itoh Y",
+        "identifiers": [
+          "0000-0001-7802-5572"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Tokyo, Japan. yuzuru.itoh@bs.s.u-tokyo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/10 06:54",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40057501",
+      "39217469",
+      "39060293",
+      "38943426",
+      "38735477",
+      "38661232",
+      "38565864",
+      "38503753",
+      "38503735",
+      "38349882",
+      "38071619",
+      "37774136",
+      "37595554",
+      "36951104",
+      "36841832",
+      "36722132",
+      "36316410",
+      "35387982",
+      "35137182",
+      "35064151",
+      "35046576",
+      "34265844",
+      "34117249",
+      "33511411",
+      "33503266",
+      "33460557",
+      "33135152",
+      "33053345",
+      "31588918",
+      "30597160",
+      "30412051",
+      "30126986",
+      "30017566",
+      "29790986",
+      "29100053",
+      "29100052",
+      "29067766",
+      "28165473",
+      "26831095",
+      "26321634",
+      "25908824",
+      "24389466",
+      "24389465",
+      "23746254",
+      "23727016",
+      "23239624",
+      "23239623",
+      "21663746",
+      "21233347",
+      "20383002",
+      "19779460",
+      "19204001",
+      "18822297",
+      "16762832",
+      "16713584",
+      "16027170",
+      "15302932",
+      "15264254",
+      "15063851",
+      "14594848",
+      "12228716",
+      "11893334",
+      "11479568",
+      "11172723"
+    ],
+    "similar": [
+      "42265116",
+      "30597160",
+      "38661232",
+      "22853911",
+      "29100052",
+      "24389465",
+      "21267063",
+      "26670735",
+      "19933110",
+      "16968693",
+      "38503753",
+      "31189955",
+      "15494397",
+      "39217469",
+      "21971705",
+      "30126986",
+      "37398404",
+      "39332784",
+      "25908824",
+      "17889647",
+      "17293419",
+      "31513010",
+      "40057501",
+      "30753870",
+      "16713583",
+      "27906160",
+      "16713584",
+      "24836001",
+      "31913464",
+      "40401556",
+      "24967850",
+      "25310980",
+      "30563926",
+      "10756104",
+      "33761323",
+      "41099701",
+      "16762832",
+      "27279228",
+      "18158904",
+      "25806953",
+      "16495476",
+      "34815343",
+      "26804923",
+      "29100053",
+      "34994471",
+      "19394297",
+      "26458047",
+      "34504068",
+      "25000563",
+      "18288106",
+      "38735477",
+      "12511961",
+      "19329641",
+      "39716376",
+      "31299085",
+      "34403461",
+      "12473202",
+      "17889642",
+      "38349882",
+      "34389707",
+      "18369182",
+      "22751351",
+      "26879042",
+      "15302932",
+      "29712846",
+      "28556777",
+      "22857598",
+      "27320387",
+      "16179922",
+      "21121048",
+      "16505360",
+      "37028767",
+      "31409676",
+      "18391966",
+      "27906161",
+      "41184238",
+      "42225615",
+      "27818103",
+      "17293420",
+      "37728742",
+      "29415157",
+      "18586934",
+      "39922193",
+      "22995830",
+      "15068803",
+      "20691699",
+      "19840930",
+      "32138505",
+      "22735532",
+      "28588135",
+      "14985767",
+      "17350284",
+      "25306253",
+      "28077875",
+      "17643374",
+      "29903714",
+      "29456023",
+      "15315759",
+      "20932481",
+      "42151144"
+    ],
+    "review": [
+      "42265116",
+      "39716376",
+      "18369182",
+      "37728742"
+    ],
+    "pmc": [
+      "13249984"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-72863-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42265116/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

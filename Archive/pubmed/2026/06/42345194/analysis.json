@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42345194",
+  "title": "Caveat emptor: predicting and modeling protein-DNA recognition and binding via machine-learning computational approaches.",
+  "authors": "Esler, Morgan A; Werther, Rachel; Doyle, Lindsey A; Ubilla-Rodriguez, Natalia C; Schwensen, Jeanette S; Hallinan, Jazmine P; Lambert, Abigail R; Young, Juliana C; Silverstein, Miriam; Stoddard, Barry L",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-06-25",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述并评估了AI工具（如AlphaFold3）在蛋白质-DNA识别与结合预测中的表现，指出其局限并警示混合建模可能带来的错误循环，虽非直接提出新方法，但聚焦TF-DNA互作建模且方法学批判对本课题有重要参考价值。",
+  "abstract": "The recent development of AI-based predictive tools, such as AlphaFold3, for the prediction of the structures of biological molecules and their complexes has transformed modern molecular and cellular biology. While it displays exceptional accuracy in the modeling of folded protein domains and subunits, as well as larger protein-protein complexes and assemblages, AlphaFold3's performance in predicting the details of protein-DNA (or more broadly, protein-nucleic acid) contacts and complexes is less well established. Here we summarize the recent development and performance of tools intended to predict, model, and/or design protein:DNA recognition and contacts, and then demonstrate (using a well-defined system that offers a minimal \"degree of difficulty\") the issues that often surround the use of a resource such as AlphaFold3 for predicting protein:DNA interactions. Beyond providing a cautionary tale for casual users, we note that the incorporation of hybrid models of protein-DNA complexes (in which computationally predicted models are docked into low-resolution CryoEM density maps with little further refinement or quality control) into future training sets may lead to an ongoing and inappropriate learning cycle that further encourages such tools to generate new, equally inaccurate models of protein-DNA complexes.",
+  "abstract_zh": "基于人工智能的预测工具（如AlphaFold3）在生物分子及其复合物结构预测方面的最新发展，已彻底改变了现代分子与细胞生物学。尽管AlphaFold3在建模折叠蛋白结构域和亚基，以及较大的蛋白质-蛋白质复合物和组装体方面表现出卓越的准确性，但其在预测蛋白质-DNA（或更广泛地，蛋白质-核酸）接触和复合物细节方面的性能尚不明确。在此，我们总结了旨在预测、建模和/或设计蛋白质:DNA识别及接触的工具的最新进展和性能，并通过一个定义明确、提供最小“难度系数”的系统，展示了使用诸如AlphaFold3等资源预测蛋白质:DNA相互作用时常遇到的问题。除了为随意用户提供一个警示性案例外，我们指出，将蛋白质-DNA复合物的混合模型（其中计算预测模型被对接入低分辨率CryoEM密度图中，且几乎不进行进一步细化或质量控制）纳入未来训练集，可能导致持续且不恰当的学习循环，进一步促使此类工具生成新的、同样不准确的蛋白质-DNA复合物模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42345194/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42345194/",
+  "paper_page_path": "papers/pubmed/42345194/index.html"
+}

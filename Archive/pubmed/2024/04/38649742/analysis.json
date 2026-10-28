@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38649742",
+  "title": "Virtual reality-empowered deep-learning analysis of brain cells.",
+  "authors": "Kaltenecker, Doris; Al-Maskari, Rami; Negwer, Moritz; Hoeher, Luciano; Kofler, Florian; Zhao, Shan; Todorov, Mihail; Rong, Zhouyi; Paetzold, Johannes Christian; Wiestler, Benedikt; Piraud, Marie; Rueckert, Daniel; Geppert, Julia; Morigny, Pauline; Rohm, Maria; Menze, Bjoern H; Herzig, Stephan; Berriel Diaz, Mauricio; Erturk, Ali",
+  "journal": "Nature methods",
+  "published_date": "2024-04-23",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用虚拟现实辅助深度学习检测脑细胞，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "Automated detection of specific cells in three-dimensional datasets such as whole-brain light-sheet image stacks is challenging. Here, we present DELiVR, a virtual reality-trained deep-learning pipeline for detecting c-Fos(+) cells as markers for neuronal activity in cleared mouse brains. Virtual reality annotation substantially accelerated training data generation, enabling DELiVR to outperform state-of-the-art cell-segmenting approaches. Our pipeline is available in a user-friendly Docker container that runs with a standalone Fiji plugin. DELiVR features a comprehensive toolkit for data visualization and can be customized to other cell types of interest, as we did here for microglia somata, using Fiji for dataset-specific training. We applied DELiVR to investigate cancer-related brain activity, unveiling an activation pattern that distinguishes weight-stable cancer from cancers associated with weight loss. Overall, DELiVR is a robust deep-learning tool that does not require advanced coding skills to analyze whole-brain imaging data in health and disease.",
+  "abstract_zh": "在三维数据集（如全脑光片图像堆栈）中自动检测特定细胞具有挑战性。在此，我们提出DELiVR，一种基于虚拟现实训练的深度学习流程，用于检测清除后小鼠大脑中作为神经元活动标志的c-Fos(+)细胞。虚拟现实注释显著加速了训练数据的生成，使DELiVR能够超越最先进的细胞分割方法。我们的流程以用户友好的Docker容器形式提供，并附带独立的Fiji插件运行。DELiVR具备全面的数据可视化工具包，并可针对其他感兴趣的细胞类型进行定制，正如我们在此针对小胶质细胞胞体所做的那样，利用Fiji进行数据集特定训练。我们将DELiVR应用于研究癌症相关脑活动，揭示了一种区分体重稳定癌症与伴随体重减轻癌症的激活模式。总体而言，DELiVR是一种稳健的深度学习工具，无需高级编程技能即可分析健康和疾病状态下的全脑成像数据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38649742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38649742/",
+  "paper_page_path": "papers/pubmed/38649742/index.html"
+}

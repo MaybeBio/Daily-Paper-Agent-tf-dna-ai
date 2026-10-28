@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42173389",
+    "doi": "10.1016/j.cbi.2026.112153",
+    "title": "A combined in silico and in vitro new approach methodology for early detection of liver steatogenic chemicals."
+  },
+  "content": {
+    "abstract": "Fatty liver disease is the most prevalent hepatic pathology, with accumulating evidence suggesting that chemical exposure may contribute to its development and progression. Consequently, mechanistic understanding of perturbations leading to liver steatosis is essential for chemical safety assessment. This study introduces a new approach methodology (NAM), mechanistically anchored in an adverse outcome pathway network, which integrates in silico and in vitro approaches to enable early detection of steatogenic chemicals upon repeated dose exposure. For this purpose, 7 reference steatogenic chemicals, including 3 pharmaceuticals (sodium valproate, tetracycline hydrochloride and amiodarone hydrochloride), a pesticide (cyproconazole), and 3 plasticizers (tricresyl phosphate, perfluorohexanesulfonic acid and perfluorooctanoic acid) as well as 2 non-steatogenic chemicals (minocycline hydrochloride and tartaric acid) were evaluated at 3 concentrations to induce molecular initiating events and key events related to liver steatosis. Modulations in ligand-activated transcription factors were assessed using an in silico tiered workflow combining (Q)SAR, read-across and docking. Human HepaRG liver cells were subsequently used to quantify transcriptional and functional changes in downstream key events, including lipid accumulation, fatty acid uptake, mitochondrial beta-oxidation, lipid secretion, mitochondrial dysfunction, endoplasmic reticulum stress and oxidative stress. A steatogenic score was calculated for each chemical by integrating the biological relevance and the magnitude of responses across all assessed endpoints. These scores clearly distinguished steatogenic from non-steatogenic chemicals. Overall, the current study shows the potential of the NAM to identify the steatogenic properties of chemicals during early stages of hazard assessment.",
+    "keywords": [
+      "Adverse outcome pathway network",
+      "Hazard identification",
+      "In vitro toxicology",
+      "Liver steatosis",
+      "New approach methodology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Fatty Liver/chemically induced/pathology/metabolism",
+      "Computer Simulation",
+      "Valproic Acid/toxicity/chemistry",
+      "Amiodarone/toxicity/chemistry",
+      "Molecular Docking Simulation",
+      "Cell Line",
+      "Fluorocarbons/toxicity",
+      "Tartrates/toxicity",
+      "Caprylates"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verhoeven, Anouk",
+        "Gadaleta, Domenico",
+        "Isbaita, Nisreen H K",
+        "Jiang, Jian",
+        "Sanz-Serrano, Julen",
+        "Serrano-Candelas, Eva",
+        "Ortega-Vallbona, Rita",
+        "Vanhaecke, Tamara",
+        "Vinken, Mathieu"
+      ],
+      "short_names": [
+        "Verhoeven A",
+        "Gadaleta D",
+        "Isbaita NHK",
+        "Jiang J",
+        "Sanz-Serrano J",
+        "Serrano-Candelas E",
+        "Ortega-Vallbona R",
+        "Vanhaecke T",
+        "Vinken M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium.",
+        "Laboratory of Chemistry and Environmental Toxicology, Department of Environmental Health Sciences, Istituto di Ricerche Farmacologiche Mario Negri IRCCS, via Mario Negri 2, Milan, 20156, Italy.",
+        "Laboratory of Chemistry and Environmental Toxicology, Department of Environmental Health Sciences, Istituto di Ricerche Farmacologiche Mario Negri IRCCS, via Mario Negri 2, Milan, 20156, Italy.",
+        "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium.",
+        "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium.",
+        "ProtoQSAR S.L., Calle Nicolas Copernico 6, Parque Tecnologico de Valencia, Paterna, 46980, Spain.",
+        "ProtoQSAR S.L., Calle Nicolas Copernico 6, Parque Tecnologico de Valencia, Paterna, 46980, Spain.",
+        "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium.",
+        "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium. Electronic address: mathieu.vinken@vub.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Verhoeven, Anouk",
+        "short_name": "Verhoeven A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium."
+        ]
+      },
+      {
+        "full_name": "Gadaleta, Domenico",
+        "short_name": "Gadaleta D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemistry and Environmental Toxicology, Department of Environmental Health Sciences, Istituto di Ricerche Farmacologiche Mario Negri IRCCS, via Mario Negri 2, Milan, 20156, Italy."
+        ]
+      },
+      {
+        "full_name": "Isbaita, Nisreen H K",
+        "short_name": "Isbaita NHK",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemistry and Environmental Toxicology, Department of Environmental Health Sciences, Istituto di Ricerche Farmacologiche Mario Negri IRCCS, via Mario Negri 2, Milan, 20156, Italy."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jian",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sanz-Serrano, Julen",
+        "short_name": "Sanz-Serrano J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium."
+        ]
+      },
+      {
+        "full_name": "Serrano-Candelas, Eva",
+        "short_name": "Serrano-Candelas E",
+        "identifiers": [],
+        "affiliations": [
+          "ProtoQSAR S.L., Calle Nicolás Copérnico 6, Parque Tecnológico de Valencia, Paterna, 46980, Spain."
+        ]
+      },
+      {
+        "full_name": "Ortega-Vallbona, Rita",
+        "short_name": "Ortega-Vallbona R",
+        "identifiers": [],
+        "affiliations": [
+          "ProtoQSAR S.L., Calle Nicolás Copérnico 6, Parque Tecnológico de Valencia, Paterna, 46980, Spain."
+        ]
+      },
+      {
+        "full_name": "Vanhaecke, Tamara",
+        "short_name": "Vanhaecke T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vinken, Mathieu",
+        "short_name": "Vinken M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical and Pharmacological Sciences, Vrije Universiteit Brussel, Laarbeeklaan 103, Brussels, 1090, Belgium. Electronic address: mathieu.vinken@vub.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemico-biological interactions"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Interact"
+    ],
+    "pub_date": "2026 Jul 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/23 05:36",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42173389",
+      "40812532",
+      "38791241",
+      "24489787",
+      "41369776",
+      "31681434",
+      "28903485",
+      "32098797",
+      "25716160",
+      "37046073",
+      "29995386",
+      "34757180",
+      "34340181",
+      "39778647",
+      "37572494",
+      "26980302",
+      "38199259",
+      "40684875",
+      "29154799",
+      "28049043",
+      "24535564",
+      "21391224",
+      "41096986",
+      "30142454",
+      "27089845",
+      "39657491",
+      "18328408",
+      "41576773",
+      "12829995",
+      "40473197",
+      "34252478",
+      "32535746",
+      "38677583",
+      "26272159",
+      "37665028",
+      "39150724",
+      "37168981",
+      "41601051",
+      "34259586",
+      "29949360",
+      "38676573",
+      "40615099",
+      "38891072",
+      "31872748",
+      "40024558",
+      "28463417",
+      "38376873",
+      "40411533",
+      "17292431",
+      "39918919",
+      "40324734",
+      "40683423",
+      "27746372",
+      "36535450",
+      "36321557",
+      "31380833",
+      "34273450",
+      "32201337",
+      "41806388",
+      "23792031",
+      "40967502",
+      "41297488",
+      "37616165",
+      "39798918",
+      "40317014",
+      "41962267",
+      "30081561",
+      "17963808",
+      "22484034",
+      "41671881",
+      "28962527",
+      "40961596",
+      "39198274",
+      "8907574",
+      "35211661",
+      "26895641",
+      "39927675",
+      "34405124",
+      "21510823",
+      "26836498",
+      "41197816",
+      "39706014",
+      "39151607",
+      "33934018",
+      "39612745",
+      "20079722",
+      "41936854",
+      "38197913",
+      "3417225",
+      "35040482",
+      "38710495",
+      "16917069",
+      "28366540",
+      "40054833",
+      "38367426",
+      "27322340",
+      "41041829",
+      "30206377",
+      "32165129",
+      "35143881"
+    ],
+    "review": [
+      "42173389",
+      "38791241",
+      "41369776",
+      "26980302",
+      "18328408",
+      "39150724",
+      "37168981",
+      "36321557",
+      "39798918",
+      "21510823"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009-2797(26)00261-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3877",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

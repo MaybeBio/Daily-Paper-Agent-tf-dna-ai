@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "40787256",
+    "doi": "10.2147/JIR.S530446",
+    "title": "Unveiling the Temporal Dynamics and Molecular Regulation Profiles of Neutrophil Extracellular Traps Following Spinal Cord Injury."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Spinal cord injury (SCI) initiates secondary inflammatory processes that exacerbate tissue damage, with neutrophil extracellular traps (NETs) playing a significant role in amplifying these cascades. This study aimed to explore the temporal dynamics and key regulatory genes of NET formation in SCI to identify therapeutic targets. METHODS: We integrated two transcriptomic datasets from the GEO database to identify differentially expressed NETs-related genes (NRGs) in SCI. WGCNA identified SCI-related modules, while GSVA assessed NET formation dynamics. Publicly available single-cell RNA sequencing data from the GEO database determined cell-specific expression patterns of key NRGs. Findings were validated through immunofluorescence, Western blot, and qPCR in a mouse SCI model. Regulatory networks were constructed, and potential therapeutic compounds were predicted using DSigDB and molecular docking. RESULTS: We identified seven key NRGs (Casp1, Ccl3, Fcgr2b, Itgam, Itgb2, Tlr2, Tlr4) in SCI. GSVA revealed peak NET score at day 1 post-injury, with attenuation at days 3 and 7. Single-cell transcriptome analysis demonstrated predominant expression of these key genes in neutrophils during the acute phase, most prominently at 1 day post-injury, which coincides with the most pronounced neutrophil infiltration. Immunofluorescence and Western blot analyses confirmed significantly elevated NET formation at 1 day post-SCI. qPCR verified the expression of all key NRGs. Regulatory network analysis identified CHD1 as an important transcription factor governing NET formation, while miRNA-mRNA network construction revealed sophisticated post-transcriptional regulation mechanisms. Drug prediction analysis identified atorvastatin as a promising therapeutic candidate with strong binding affinity to multiple key NET-related proteins. CONCLUSION: Our study provides insights into the temporal dynamics and molecular mechanisms of NET formation after SCI, identifying potential therapeutic targets to mitigate neutrophil-mediated secondary injury and improve functional outcomes.",
+    "keywords": [
+      "atorvastatin",
+      "bioinformatics",
+      "neuroinflammation",
+      "neutrophil extracellular traps",
+      "regulatory network",
+      "single-cell RNA sequencing",
+      "spinal cord injury"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jinze",
+        "Chang, Chao",
+        "Li, Yanqiu",
+        "Cui, Shengyu",
+        "Bai, Jun",
+        "Zhang, Can",
+        "Wang, Xinyu",
+        "Li, Kang",
+        "Jian, Fengzeng"
+      ],
+      "short_names": [
+        "Li J",
+        "Chang C",
+        "Li Y",
+        "Cui S",
+        "Bai J",
+        "Zhang C",
+        "Wang X",
+        "Li K",
+        "Jian F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3451-2090",
+        "ORCID: 0000-0002-6248-9601",
+        "ORCID: 0000-0001-7860-278X"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+        "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+        "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Center for Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+        "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+        "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Neurosurgery, The First Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China.",
+        "Baylor College of Medicine, Houston, Tx, USA.",
+        "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+        "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+        "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+        "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jinze",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+          "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+          "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chang, Chao",
+        "short_name": "Chang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+          "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+          "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanqiu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Medicine, Beijing Ditan Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cui, Shengyu",
+        "short_name": "Cui S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+          "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+          "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Bai, Jun",
+        "short_name": "Bai J",
+        "identifiers": [
+          "0000-0003-3451-2090"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+          "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+          "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Can",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Hebei Medical University, Shijiazhuang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyu",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-6248-9601"
+        ],
+        "affiliations": [
+          "Baylor College of Medicine, Houston, Tx, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Kang",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+          "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+          "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jian, Fengzeng",
+        "short_name": "Jian F",
+        "identifiers": [
+          "0000-0001-7860-278X"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China.",
+          "Spine Center, China International Neuroscience Institute (CHINA-INI), Beijing, People's Republic of China.",
+          "Lab of Spinal Cord Injury and Functional Reconstruction, China International Neuroscience Institute (CHINA-INI), Xuanwu Hospital, Capital Medical University, Beijing, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/11 17:20",
+    "fetched_at": "2026-09-30 23:47:42"
+  },
+  "links": {
+    "cites": [
+      "41030576"
+    ],
+    "refs": [
+      "40507410",
+      "40268066",
+      "39951937",
+      "39603465",
+      "39394253",
+      "39324258",
+      "39221206",
+      "39199011",
+      "39190387",
+      "38941671",
+      "38745328",
+      "38704053",
+      "38397083",
+      "38087003",
+      "38066400",
+      "37863591",
+      "36873885",
+      "36778209",
+      "36739421",
+      "36716673",
+      "36537022",
+      "36532016",
+      "36466087",
+      "36336332",
+      "35609983",
+      "35406754",
+      "35396505",
+      "35289358",
+      "35028005",
+      "34876174",
+      "34514433",
+      "34456910",
+      "34248948",
+      "34132743",
+      "33546594",
+      "33498871",
+      "33246483",
+      "33066029",
+      "31870423",
+      "31478251",
+      "31416681",
+      "30643263",
+      "29871522",
+      "29642434",
+      "29608179",
+      "29545511",
+      "29466745",
+      "28990587",
+      "28567039",
+      "27482228",
+      "27432064",
+      "27002116",
+      "25786512",
+      "25348181",
+      "25163400",
+      "23163310",
+      "22432744",
+      "22270188",
+      "21295111",
+      "20348036",
+      "20211173",
+      "19932745",
+      "19413491",
+      "18675739",
+      "15605375",
+      "11844532"
+    ],
+    "similar": [
+      "40787256",
+      "41190071",
+      "38941671",
+      "38493695",
+      "39951937",
+      "38397083",
+      "34456910",
+      "39328405",
+      "38884700",
+      "36532016",
+      "39150631",
+      "39799354",
+      "33863336",
+      "39845946",
+      "40628837",
+      "39483475",
+      "39205658",
+      "40659785",
+      "41000384",
+      "40059047",
+      "40523519",
+      "38766319",
+      "41230176",
+      "41088461",
+      "40035034",
+      "38890348",
+      "41162682",
+      "40769386",
+      "41483356",
+      "38370470",
+      "40053030",
+      "41089678",
+      "41173315",
+      "40663577",
+      "41034905",
+      "37671131",
+      "38707272",
+      "36620592",
+      "41261408",
+      "33149108",
+      "39010173",
+      "40066454",
+      "38042503",
+      "37990533",
+      "40929847",
+      "40244055",
+      "34708039",
+      "41324863",
+      "40948644",
+      "40967029",
+      "38852219",
+      "39814871",
+      "36742334",
+      "38314821",
+      "41504039",
+      "38801616",
+      "36018187",
+      "39221206",
+      "41000385",
+      "38519735",
+      "33249350",
+      "40061945",
+      "38323113",
+      "41265218",
+      "39218784",
+      "41405788",
+      "35910787",
+      "38650155",
+      "32140464",
+      "39806436",
+      "39137629",
+      "37250717",
+      "31669638",
+      "40893312",
+      "39797951",
+      "35410505",
+      "40268066",
+      "34532385",
+      "31998075",
+      "40963908",
+      "37941896",
+      "40148973",
+      "33490194",
+      "39709510",
+      "36841940",
+      "37715643",
+      "39888480",
+      "40204883",
+      "40463031",
+      "37947073",
+      "34143440",
+      "37465687",
+      "37775760",
+      "37127629",
+      "41430351",
+      "40901493",
+      "41248570",
+      "40467009",
+      "37143669",
+      "40345018"
+    ],
+    "review": [
+      "40787256"
+    ],
+    "pmc": [
+      "12335842"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40787256/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ITGAM-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4042",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S530446",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "42509698",
+    "doi": "10.2174/0115672050463115260708111634",
+    "title": "Integrating Multi-Omics and Mendelian Randomization Reveals the Role of Epstein-Barr Virus Infection in Alzheimer's Disease and the Therapeutic Potential of Resveratrol."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: The pathogenesis of Alzheimer's disease (AD) is complex, with immune system dysregulation playing a critical role. However, the specific molecular mechanisms linking peripheral immune responses to central pathologies in AD remain unclear. This study aims to systematically screen for reliable plasma biomarkers of AD by integrating transcriptomics, Mendelian randomization (MR) of plasma proteomics, and bioinformatics analyses, and to explore their potential pathogenic mechanisms and therapeutic drugs. MATERIALS AND METHODS: Transcriptomic sequencing of plasma samples from three AD patients and three healthy controls was first performed to identify differentially expressed genes (DEGs) and perform functional enrichment analyses. The aim of this study is to provide a preliminary indication of gene expression changes based on real patient samples for subsequent MR and bioinformatics analyses, rather than serving as confirmatory evidence. Following this, two-sample MR was performed to explore the potential causal relationship between plasma proteins and AD in genetic prediction, and MR-positive results were intersected with transcriptome DEGs to identify highconfidence targets. After that, protein-protein interaction (PPI) analysis, functional enrichment (GO/KEGG), and transcription factor (TF) target network analysis were conducted. Based on the KEGG pathway analysis, the causal association between antibodies related to Epstein-Barr virus and AD in genetic prediction was further evaluated. In the end, the diagnostic power of core biomarkers was validated in the GEO dataset. Potential therapeutic drugs were screened in the CTD database, followed by verification through molecular docking and molecular dynamics simulation. RESULT: Our transcriptomic enrichment analysis of DEGs indicates that AD is significantly correlated with viral infection and immune and inflammatory pathways. According to the results of MR analyses, 36 plasma proteins have a causal effect on AD in genetic prediction. Among these 36 targets, two pathways are identified as enriched: \"EBV Infection\" and \"Efferocytosis\". Seven core targets are CR2, ICAM1, TAPBP, TNFAIP3, THBS1, SCARF1, and SIRPG. Also, the concentration of antibodies against EBV EBNA-1 and VCA p18 was confirmed by MR analyses to be risk factors for AD. According to drug predictions, molecular docking, and molecular dynamics simulations, resveratrol can stabilize CR2. DISCUSSION: This study systematically identifies major plasma immune biomarkers associated with AD and proposes a mechanism by which EBV infection regulates plasma proteins CR2, TNFAIP3, and THBS1, which may affect AD risk. Resveratrol is thought to have preventive and protective effects, as predicted computationally. CONCLUSION: This study systematically identified key plasma markers associated with AD. Resveratrol is likely to become a potentially effective preventive and protective drug in the prevention and treatment of AD, providing new ideas and targets for immune intervention of AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "EB virus",
+      "Mendelian randomization",
+      "biomarker",
+      "molecular docking.",
+      "resveratrol"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xu",
+        "Li, Jinjian",
+        "Wei, Zhen",
+        "Rong, Chunshu",
+        "Zhao, Dexi",
+        "Wang, Yue"
+      ],
+      "short_names": [
+        "Wang X",
+        "Li J",
+        "Wei Z",
+        "Rong C",
+        "Zhao D",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China.",
+        "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China.",
+        "Medical Intensive Care Unit, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+        "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China.",
+        "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China.",
+        "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+        "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jinjian",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Zhen",
+        "short_name": "Wei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Intensive Care Unit, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China."
+        ]
+      },
+      {
+        "full_name": "Rong, Chunshu",
+        "short_name": "Rong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dexi",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Encephalopathy, Hospital of Changchun University of Chinese Medicine, Changchun, Jilin, 130021, China.",
+          "College of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, Jilin, 130117, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current Alzheimer research"
+    ],
+    "journal_abbrev": [
+      "Curr Alzheimer Res"
+    ],
+    "pub_date": "2026 Jul 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42509698",
+      "41630303",
+      "40916281",
+      "40108295",
+      "42509710",
+      "42051535",
+      "40016549",
+      "41448363",
+      "40148470",
+      "39984542",
+      "41642425",
+      "39445158",
+      "41191606",
+      "40073855",
+      "41350740",
+      "41422660",
+      "39507054",
+      "41143248",
+      "36321557",
+      "39996839",
+      "42292469",
+      "41105597",
+      "40853611",
+      "42421348",
+      "41863595",
+      "41879435",
+      "41390089",
+      "41340073",
+      "40311696",
+      "41101222",
+      "40653482",
+      "42173079",
+      "41883400",
+      "42063729",
+      "41138838",
+      "40304766",
+      "42456406",
+      "41376480",
+      "39755304",
+      "41358199",
+      "39125368",
+      "41347325",
+      "40976895",
+      "40411685",
+      "41711838",
+      "40033250",
+      "34553293",
+      "42375348",
+      "40453984",
+      "40676786",
+      "35616676",
+      "36620771",
+      "38894850",
+      "39874886",
+      "39055656",
+      "40406126",
+      "40050982",
+      "39268072",
+      "40462656",
+      "40692979",
+      "40600553",
+      "42227395",
+      "40993834",
+      "41629825",
+      "40156905",
+      "38933282",
+      "40803495",
+      "41497980",
+      "40822862",
+      "40186323",
+      "41837520",
+      "41144108",
+      "41699549",
+      "41863461",
+      "39143741",
+      "41465087",
+      "40397384",
+      "39328512",
+      "41415264",
+      "42109914",
+      "42077926",
+      "41342434",
+      "41009659",
+      "41986576",
+      "42113191",
+      "41199372",
+      "39830273",
+      "41291841",
+      "41492010",
+      "42004723",
+      "40021385",
+      "41782887",
+      "41371106",
+      "39258145",
+      "39872525",
+      "39214372",
+      "38689297",
+      "40128726",
+      "41080564",
+      "41384025"
+    ],
+    "review": [
+      "42509698",
+      "36321557",
+      "41105597"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TAPBP-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

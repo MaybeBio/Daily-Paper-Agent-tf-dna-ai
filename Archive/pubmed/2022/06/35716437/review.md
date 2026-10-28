@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract reports that 8-methoxybutin, a compound identified as an MITF inhibitor, suppresses alpha-MSH-induced melanogenesis in B16F10 murine melanoma cells and reduces skin melanoma proliferation. The proposed mechanism involves direct binding of 8-methoxybutin to the DNA-binding domain of MITF, blocking its transactivation activity and preventing binding to E-box elements in target gene promoters such as tyrosinase. In vivo, 8-methoxybutin suppresses tumor growth in a xenograft mouse model. The authors conclude that 8-methoxybutin has therapeutic potential for hyperpigmentation disorders and skin cancer.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical methods, compound purity and synthesis details, cell viability data, in vivo study design, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a natural compound, 8-methoxybutin, may inhibit MITF activity and thereby suppress melanogenesis and melanoma growth. The proposed mechanism, involving direct binding to the MITF DNA-binding domain, is mechanistically plausible and could be of interest to researchers in pigmentation biology and melanoma therapeutics. However, the abstract alone provides insufficient evidence to evaluate the rigor of the experimental support. Key quantitative data, statistical analyses, and methodological details are absent. The claim of direct binding is supported only by in silico docking and pull-down assays, which are preliminary and require orthogonal validation. The in vivo efficacy data are mentioned but not described in any detail. The case for therapeutic potential is therefore not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying melanogenesis regulation, MITF biology, and melanoma therapeutics would find these results relevant. The identification of a natural compound that targets MITF transactivation could inform drug development for hyperpigmentation disorders and skin cancers. The mechanistic focus on DNA-binding domain inhibition may also interest structural biologists and medicinal chemists.
+- **Major strengths** The abstract identifies a clear and clinically relevant target, MITF, and proposes a specific mechanism of action. The use of both in vitro and in vivo models, as mentioned, suggests a breadth of experimental approach. The compound is a natural product, which may have translational appeal.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that 8-methoxybutin inhibits melanogenesis and melanoma proliferation by blocking MITF transactivation activity via direct binding to the DNA-binding domain.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as IC50 values, dose-response curves, or statistical comparisons, to support the claimed inhibitory effects on melanogenesis and proliferation. The extent of inhibition and the specificity for MITF over other transcription factors are not described.  
+  - **Why it matters** Without quantitative evidence, the magnitude and biological significance of the observed effects cannot be assessed. Specificity is critical because many compounds affect multiple pathways, and off-target effects could explain the observed phenotypes.  
+  - **Resolution test** Provide dose-response data for melanogenesis and proliferation assays, including statistical significance, and demonstrate that MITF knockdown or overexpression modulates the compound's effects.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic validation  
+  - **Claim pointer** The abstract claims that 8-methoxybutin binds to the DNA-binding domain of MITF and inhibits its binding to E-box elements.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The binding claim is based solely on in silico docking and pull-down assays. Docking predictions are computational and require experimental confirmation. Pull-down assays can indicate interaction but do not demonstrate functional inhibition of DNA binding. No data are shown for electrophoretic mobility shift assays, chromatin immunoprecipitation, or reporter assays that would directly test the effect on MITF binding to E-box promoters.  
+  - **Why it matters** The proposed mechanism is central to the paper's novelty. If the compound does not directly inhibit MITF-DNA binding, the mechanism would be different, and the therapeutic rationale would change.  
+  - **Resolution test** Include a direct DNA-binding assay, such as EMSA or a competitive binding assay, and a reporter assay using a tyrosinase promoter construct to show functional inhibition of MITF transactivation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** In vivo evidence  
+  - **Claim pointer** The abstract claims that 8-methoxybutin suppresses growth of skin melanoma in a xenograft mouse model.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The in vivo experiment is mentioned in a single sentence with no details on tumor model, dosing regimen, route of administration, number of animals, tumor growth kinetics, or statistical analysis. Without these details, the robustness and translational relevance of the finding cannot be evaluated.  
+  - **Why it matters** In vivo efficacy is a key claim for therapeutic potential. Poorly designed or underpowered animal studies can lead to misleading conclusions.  
+  - **Resolution test** Provide full experimental details for the xenograft study, including tumor volume measurements over time, survival data, and statistical comparisons, and discuss any toxicity or off-target effects observed.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Compound characterization  
+  - **Claim pointer** The abstract identifies 8-methoxybutin as the active compound.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not specify the source, purity, or synthesis of 8-methoxybutin. It is unclear whether the compound was isolated from a natural source or chemically synthesized, and what its purity was in the assays.  
+  - **Why it matters** Compound purity and identity are essential for reproducibility and for ruling out artifacts from impurities.  
+  - **Resolution test** Provide details on compound source, purity (e.g., HPLC), and structural confirmation (e.g., NMR, mass spectrometry).
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "inhibits alpha-MSH-induced melanogenesis" is used without specifying the concentration range or the time point of measurement.  
+  - **Required correction** Specify the concentration range and the assay conditions for melanogenesis measurement.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Cell line selection  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract uses only B16F10 murine melanoma cells. It is unclear whether the effects are also observed in human melanoma cell lines.  
+  - **Required correction** State whether human melanoma cell lines were tested, or acknowledge this as a limitation.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Transactivation activity"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The term "transactivation activity" is used but not defined in the context of MITF. It is unclear whether this refers to transcriptional activation of target genes or to the intrinsic activity of MITF as a transcription factor.  
+  - **Required correction** Clarify the definition of transactivation activity as used in the study.
+
+## Risk / unsupported claims
+- The claim that 8-methoxybutin binds to the DNA-binding domain of MITF is unsupported by the abstract evidence, as only in silico and pull-down data are mentioned.
+- The claim that 8-methoxybutin inhibits MITF binding to E-box elements is not directly demonstrated.
+- The claim of therapeutic potential for hyperpigmentation disorders and skin cancer is not supported by the abstract alone, as no clinical or translational data are provided.
+- The in vivo efficacy claim is not assessable due to lack of experimental detail.
+- The specificity of 8-methoxybutin for MITF over other transcription factors is not addressed.

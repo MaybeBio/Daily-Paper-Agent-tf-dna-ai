@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "38868781",
+    "doi": "10.3389/fimmu.2024.1377817",
+    "title": "Integrated multi-omics and artificial intelligence to explore new neutrophils clusters and potential biomarkers in sepsis with experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis, causing serious organ and tissue damage and even death, has not been fully elucidated. Therefore, understanding the key mechanisms underlying sepsis-associated immune responses would lead to more potential therapeutic strategies. METHODS: Single-cell RNA data of 4 sepsis patients and 2 healthy controls in the GSE167363 data set were studied. The pseudotemporal trajectory analyzed neutrophil clusters under sepsis. Using the hdWGCNA method, key gene modules of neutrophils were explored. Multiple machine learning methods were used to screen and validate hub genes for neutrophils. SCENIC was then used to explore transcription factors regulating hub genes. Finally, quantitative reverse transcription-polymerase chain reaction was to validate mRNA expression of hub genes in peripheral blood neutrophils of two mice sepsis models. RESULTS: We discovered two novel neutrophil subtypes with a significant increase under sepsis. These two neutrophil subtypes were enriched in the late state during neutrophils differentiation. The hdWGCNA analysis of neutrophils unveiled that 3 distinct modules (Turquoise, brown, and blue modules) were closely correlated with two neutrophil subtypes. 8 machine learning methods revealed 8 hub genes with high accuracy and robustness (ALPL, ACTB, CD177, GAPDH, SLC25A37, S100A8, S100A9, and STXBP2). The SCENIC analysis revealed that APLP, CD177, GAPDH, S100A9, and STXBP2 were significant associated with various transcriptional factors. Finally, ALPL, CD177, S100A8, S100A9, and STXBP2 significantly up regulated in peripheral blood neutrophils of CLP and LPS-induced sepsis mice models. CONCLUSIONS: Our research discovered new clusters of neutrophils in sepsis. These five hub genes provide novel biomarkers targeting neutrophils for the treatment of sepsis.",
+    "keywords": [
+      "hdWGCNA",
+      "machine learning",
+      "neutrophils",
+      "sepsis",
+      "single cell"
+    ],
+    "mesh_terms": [
+      "*Sepsis/immunology/genetics/blood/diagnosis",
+      "*Neutrophils/immunology/metabolism",
+      "Animals",
+      "Humans",
+      "*Biomarkers",
+      "Mice",
+      "Artificial Intelligence",
+      "Disease Models, Animal",
+      "Male",
+      "Machine Learning",
+      "Gene Expression Profiling",
+      "Mice, Inbred C57BL",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Transcriptome",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Peng",
+        "Tao, Zuo",
+        "Zhang, Cheng"
+      ],
+      "short_names": [
+        "Xu P",
+        "Tao Z",
+        "Zhang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, General Hospital of Northern Theater Command, Shenyang, Liaoning, China.",
+        "Department of General Surgery, General Hospital of Northern Theater Command, Shenyang, Liaoning, China.",
+        "Department of General Surgery, General Hospital of Northern Theater Command, Shenyang, Liaoning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Peng",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, General Hospital of Northern Theater Command, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Zuo",
+        "short_name": "Tao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, General Hospital of Northern Theater Command, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Cheng",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, General Hospital of Northern Theater Command, Shenyang, Liaoning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/13 06:43",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42615096",
+      "42292614",
+      "42268526",
+      "42073503",
+      "41804482",
+      "41329233",
+      "41204362",
+      "41112274",
+      "41104871",
+      "40977698",
+      "40792106",
+      "40158619",
+      "39712019"
+    ],
+    "refs": [
+      "38599461",
+      "38593502",
+      "38343537",
+      "37879386",
+      "37781404",
+      "37753069",
+      "37752077",
+      "37608794",
+      "37563334",
+      "37547329",
+      "37481013",
+      "37463445",
+      "37428249",
+      "37426759",
+      "37381594",
+      "37298316",
+      "37115484",
+      "37095375",
+      "37048076",
+      "36944334",
+      "36759691",
+      "36694330",
+      "36505503",
+      "36497202",
+      "36470828",
+      "36304125",
+      "35967457",
+      "35927154",
+      "35053354",
+      "34558746",
+      "34447377",
+      "33692779",
+      "33691144",
+      "33549126",
+      "33191482",
+      "32066974",
+      "31479679",
+      "30873175",
+      "30837522",
+      "30635296",
+      "28807980",
+      "27568821",
+      "27287680",
+      "25822800"
+    ],
+    "similar": [
+      "38868781",
+      "41740292",
+      "41013727",
+      "40362669",
+      "41112274",
+      "40830558",
+      "39763654",
+      "41333476",
+      "40216809",
+      "41542228",
+      "41789070",
+      "41214769",
+      "41009952",
+      "40909263",
+      "40591166",
+      "42266692",
+      "41254473",
+      "38873611",
+      "41616376",
+      "39845946",
+      "41611834",
+      "39108261",
+      "24612859",
+      "42123445",
+      "42158856",
+      "40196107",
+      "39481313",
+      "41246299",
+      "42250009",
+      "41570454",
+      "39238187",
+      "41107929",
+      "39430765",
+      "40821971",
+      "41472734",
+      "41109923",
+      "40129981",
+      "40589764",
+      "41527570",
+      "39026663",
+      "40792106",
+      "41307757",
+      "41716396",
+      "40165133",
+      "41964403",
+      "42148128",
+      "41756296",
+      "42081554",
+      "38690269",
+      "39384856",
+      "41806693",
+      "42064079",
+      "40425742",
+      "39904039",
+      "38994368",
+      "40007380",
+      "41570698",
+      "41665627",
+      "40821793",
+      "39669564",
+      "41948606",
+      "40973872",
+      "39993996",
+      "42051519",
+      "41624837",
+      "40028203",
+      "30086151",
+      "32280132",
+      "41221285",
+      "41080564",
+      "40325173",
+      "42096424",
+      "40406126",
+      "40296690",
+      "42291298",
+      "42092981",
+      "40783504",
+      "42023222",
+      "42247642",
+      "41869327",
+      "41902830",
+      "39069636",
+      "39735547",
+      "41057887",
+      "41097990",
+      "38863714",
+      "41089329",
+      "39586719",
+      "40916281",
+      "38852219",
+      "41326582",
+      "37115484",
+      "40244055",
+      "40685483",
+      "41242266",
+      "39789578",
+      "39512836",
+      "22381171",
+      "42257259",
+      "33692779"
+    ],
+    "review": [
+      "38868781",
+      "41665627"
+    ],
+    "pmc": [
+      "11167131"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38868781/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38868781",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GAPDH-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3778",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1377817",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

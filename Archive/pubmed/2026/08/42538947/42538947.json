@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "42538947",
+    "doi": "10.64898/2026.07.20.739670",
+    "title": "scLEMBAS: Context-Aware Modeling of Signaling Pathway Activity at Single-Cell Resolution."
+  },
+  "content": {
+    "abstract": "Cells sense and integrate extracellular cues through intracellular signaling networks that reshape transcription factor activity to dictate cellular responses. Signaling activity is difficult to decipher: it is non-linear, and it contains extensive feedback and crosstalk. Furthermore, the same perturbation can elicit markedly different responses depending on context (e.g., cell type, disease state, and tissue microenvironment) such that identical stimuli produce diverse responses in multicellular populations. Consequently, there is a vast combinatorial space of complex interactions and context-dependent responses that necessitate computational models. Computational models of single-cell perturbation responses are demonstrated to predict cellular responses, but are often limited in mechanistic insight. Prior knowledge networks offer a route to bridge predictive capability and interpretability. Here we present scLEMBAS, a context-aware, gray-box neural network that models signaling pathway activity at single-cell resolution while preserving mechanistic grounding. scLEMBAS encodes a prior-knowledge network of protein-protein interactions as a recurrent neural network whose learnable edge weights correspond to signaling interaction strengths. It also captures context and individual cell variance through compositional bias terms. An adversarial approach allows the model to answer a single-cell counterfactual - what a given cell's TF activity would be under a different perturbation or context - while involving mechanistic rather than simply relational information. Across two scRNA-seq datasets spanning single- and multi-perturbation settings, scLEMBAS accurately predicts out-of-distribution combinations of perturbation and context. Capturing population variance across individual cells enables the model to predict cell subtype specific perturbation responses, despite being agnostic to such labels. Beyond prediction, scLEMBAS' learned parameters are biologically interpretable: learned edge weights carry information beyond network topology and \"self-prune\" spurious interactions, while the categorical bias nominates proteins associated with cell-type-specific perturbation states. Overall, scLEMBAS enables quantitative dissection of how signaling pathway activity is reshaped by perturbation within specific cellular contexts.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baghdassarian, Hratch M",
+        "Meimetis, Nikolaos",
+        "Nordenstorm, Olof",
+        "Joughin, Brian A",
+        "Nilsson, Avlant",
+        "Lauffenburger, Douglas A"
+      ],
+      "short_names": [
+        "Baghdassarian HM",
+        "Meimetis N",
+        "Nordenstorm O",
+        "Joughin BA",
+        "Nilsson A",
+        "Lauffenburger DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2739-8613",
+        "ORCID: 0000-0003-1022-9450"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Baghdassarian, Hratch M",
+        "short_name": "Baghdassarian HM",
+        "identifiers": [
+          "0000-0003-2739-8613"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Meimetis, Nikolaos",
+        "short_name": "Meimetis N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nordenstorm, Olof",
+        "short_name": "Nordenstorm O",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Joughin, Brian A",
+        "short_name": "Joughin BA",
+        "identifiers": [
+          "0000-0003-1022-9450"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nilsson, Avlant",
+        "short_name": "Nilsson A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lauffenburger, Douglas A",
+        "short_name": "Lauffenburger DA",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/01 06:35",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42538947",
+      "42475469",
+      "42482180",
+      "36321557",
+      "34980200",
+      "42395478",
+      "22548703",
+      "42209442",
+      "42398561",
+      "41408299",
+      "26844322",
+      "17559646",
+      "41889931",
+      "38558987",
+      "26042329",
+      "23912807",
+      "41707849",
+      "41394575",
+      "42146410",
+      "37760098",
+      "37074583",
+      "39677694",
+      "42227003",
+      "5538822",
+      "33942036",
+      "41257571",
+      "32746932",
+      "35410287",
+      "39584702",
+      "21408212",
+      "41292874",
+      "41757003",
+      "40421418",
+      "30726003",
+      "21745399",
+      "42086551",
+      "42127893",
+      "42059479",
+      "23875784",
+      "37154091",
+      "42185831",
+      "34904892",
+      "34398763",
+      "40166200",
+      "22651900",
+      "41381899",
+      "37961332",
+      "33329028",
+      "27058315",
+      "37851522",
+      "40654959",
+      "41744270",
+      "41451540",
+      "42378449",
+      "41033661",
+      "33975634",
+      "23079107",
+      "39820437",
+      "31363220",
+      "41639087",
+      "15479714",
+      "30299656",
+      "40236137",
+      "39486785",
+      "23300433",
+      "41288963",
+      "25204825",
+      "41291726",
+      "42502984",
+      "42407392",
+      "42031950",
+      "40119464",
+      "15494071",
+      "38625746",
+      "41498638",
+      "42387342",
+      "23829771",
+      "41129969",
+      "26042330",
+      "42249421",
+      "40501829",
+      "41758996",
+      "40662824",
+      "41648399",
+      "31855381",
+      "30616626",
+      "42352956",
+      "41118206",
+      "41896196",
+      "39823522",
+      "42234579",
+      "41628222",
+      "40631127",
+      "40831507",
+      "42510856",
+      "38653489",
+      "41437636",
+      "42411821",
+      "41716413",
+      "36064320"
+    ],
+    "review": [
+      "42538947",
+      "36321557",
+      "26844322",
+      "26042329",
+      "27058315",
+      "30299656",
+      "26042330",
+      "41758996"
+    ],
+    "pmc": [
+      "13419454"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42538947/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.20.739670",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

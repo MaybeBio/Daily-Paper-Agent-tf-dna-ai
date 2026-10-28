@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that anionic lipid bicelles, unlike micelles, reproduce the anionic lipid requirement for membrane binding and induce a fold-unfold transition in the Engrailed 2 homeodomain (EnHD). Using NMR and coarse-grained molecular dynamics simulations, they propose that EnHD adopts shallow, parallel membrane insertion with maintained near-native backbone propensities and samples extended and U-shaped conformations stabilized by anionic lipid recruitment.
+- **Visible evidence base** Abstract text only; no figures, tables, or methods details provided
+- **Missing materials affecting confidence** Full methods, NMR spectral assignments, chemical shift tables, RDC and PRE data, simulation parameters and trajectories, statistical analyses, and any structural ensembles or validation metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting biophysical study on membrane interactions of a homeodomain, with a clear contrast between micelle and bicelle models. However, the abstract alone provides insufficient detail to evaluate the rigor of the NMR analyses, the robustness of the conformational conclusions, or the biological relevance of the proposed model. The central claim of a fold-unfold transition with retained near-native propensities is intriguing but requires careful scrutiny of the data.
+- **Who would be interested in the results, and why** Researchers studying membrane protein interactions, protein translocation mechanisms, homeodomain transcription factors, and biophysicists using NMR or simulations to characterize membrane-bound states. The work may also interest those investigating unconventional protein secretion and internalization pathways.
+- **Major strengths** The study addresses a relevant gap in understanding membrane-translocating events of homeoproteins. The use of bicelles as a more physiologically relevant membrane mimic than micelles is a thoughtful methodological advance. The combination of multiple NMR observables with coarse-grained simulations provides a potentially comprehensive view of the membrane-bound state.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that anionic lipids induce a fold-unfold transition in EnHD, with loss of native fold but maintained near-native backbone propensities.
+  - **Evidence pointer** Abstract text; specific figures or tables not provided
+  - **Concern** The abstract states that a "global unpacking" and "loss of the native fold" occur, yet also claims "near-native propensities" are maintained. These statements are not obviously consistent, and the abstract does not explain how these are reconciled. Without quantitative metrics (e.g., chemical shift deviations, secondary structure propensities, RDC-based order parameters), the nature and extent of the conformational transition remain unclear.
+  - **Why it matters** The central conclusion of the paper hinges on the precise structural characterization of the membrane-bound state. If the fold-unfold transition is partial or localized, the interpretation of the mechanism changes substantially. The abstract's ambiguity undermines confidence in the proposed model.
+  - **Resolution test** Provide quantitative measures of secondary structure content in the membrane-bound state, such as per-residue chemical shift index or secondary structure propensity scores, and explicitly show how "near-native propensities" coexist with "loss of native fold." Include representative structural ensembles or order parameters from RDCs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The abstract claims that NMR and coarse-grained simulations reveal shallow insertion with helices parallel to the membrane and sampling of extended and U-shaped conformations.
+  - **Evidence pointer** Abstract text; simulation and NMR details not provided
+  - **Concern** The abstract does not specify the force field, simulation length, or convergence criteria for the coarse-grained molecular dynamics. It also does not describe how the NMR data (e.g., PREs, RDCs) were used to restrain or validate the simulations. Without these details, the reliability of the proposed conformational ensemble cannot be assessed.
+  - **Why it matters** Coarse-grained simulations are approximate and can produce artifacts if not properly validated against experimental data. The claim of specific conformational states (extended, U-shaped) requires evidence that the simulations are converged and that the NMR data uniquely support these states over alternatives.
+  - **Resolution test** Describe simulation parameters, validation against NMR observables, and provide an assessment of ensemble convergence. Show that the proposed conformations are consistent with all experimental restraints and not merely one possible interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The abstract implies that the bicelle system adequately reproduces the anionic lipid requirement relevant to membrane-translocating events in homeoproteins.
+  - **Evidence pointer** Abstract text; no functional assays or cellular data provided
+  - **Concern** The abstract does not connect the observed conformational behavior to the functional properties of EnHD, such as internalization or secretion. The relevance of the fold-unfold transition to the biological mechanism is asserted but not demonstrated.
+  - **Why it matters** The paper's significance for a broad readership depends on linking biophysical observations to biological function. Without such a link, the study remains a descriptive biophysical characterization.
+  - **Resolution test** Add a discussion or preliminary data connecting the membrane-bound conformational states to known functional outcomes, or clearly state the limitations of the current study in establishing this link.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "fold-unfold transition" is used without defining the operational criteria for "fold" and "unfold" in this context.
+  - **Required correction** Define the criteria used to classify the state as folded, unfolded, or partially folded, and specify the observables that distinguish these states.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "coarse-grained molecular dynamics simulations" but does not specify the model (e.g., MARTINI) or the system setup.
+  - **Required correction** Include the simulation model and key parameters in the abstract or refer to methods for full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Lipid specificity
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that anionic lipids are required but does not specify which anionic lipids were tested or whether the effect is charge-specific or headgroup-specific.
+  - **Required correction** Clarify the lipid composition used and whether the effect is general to anionic lipids or specific to particular species.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative evidence to support the central conformational claims or the validity of the simulation-based model. R1-M3 is non-blocking but important for broader impact.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The use of bicelles and the combination of NMR with simulations is not entirely novel, but the specific application to a homeodomain and the proposed conformational ensemble may offer new insights.
+  - Scientific importance: Moderate. The study addresses a relevant question in membrane translocation, but the abstract does not establish a clear advance over prior work.
+  - Interdisciplinary readership: Limited. The abstract is highly technical and likely to appeal mainly to biophysicists and membrane biochemists.
+  - Technical soundness: Not assessable from the abstract alone. The NMR and simulation methods are described only superficially.
+  - Readability for nonspecialists: Poor. The abstract assumes familiarity with NMR techniques and membrane mimetics without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative detail needed to evaluate the rigor of the conclusions. Supportive if the full manuscript provides robust NMR data, simulation validation, and a clear reconciliation of the fold-unfold transition with retained near-native propensities.
+
+## Risk / unsupported claims
+- The claim that bicelles "adequately reproduce" the anionic lipid requirement is not supported by comparative data in the abstract.
+- The claim of "shallow insertion" and "parallel orientation" of helices is not supported by specific data in the abstract.
+- The claim that EnHD "explores extended conformations and closed U-shaped conformations" is not supported by ensemble statistics or validation metrics in the abstract.
+- The biological relevance of the observed conformational transition to internalization and secretion is asserted but not demonstrated.

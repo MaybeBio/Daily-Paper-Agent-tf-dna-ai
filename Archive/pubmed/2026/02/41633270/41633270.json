@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "41633270",
+    "doi": "10.1016/j.saa.2026.127522",
+    "title": "Raman and SERS analytical platform with machine learning for classifying wild type p53 and hotspot mutants R175H and R273H."
+  },
+  "content": {
+    "abstract": "The development of analytical approaches capable of detecting subtle protein conformational changes is of significant interest in biomedicine, particularly for disease diagnostics and biomolecular characterization. In this work, the tumor suppressor p53 protein was selected as a model system to evaluate an analytical platform based on Raman spectroscopy combined with surface-enhanced Raman spectroscopy (SERS) and supervised machine learning for the classification of closely related protein variants. Label-free Raman and SERS spectra of recombinant wild-type p53 and its hotspot mutants R175H and R273H were acquired on bare Al and Al coated with gold nanospheres, gold nanorods, and silver nanoparticles. Principal Component Analysis (PCA) revealed distinct spectral fingerprints among the p53 variants, with relevant contributions in the amide III and CH stretching regions, indicating subtle conformational differences. Supervised classification was performed using several machine learning algorithms under a nested, group-disjoint cross-validation protocol (holding out entire acquisition lines) to account for within-line spectral correlation. Among tested models, a linear Support Vector Machine (Linear-SVM) achieved the highest performance, reaching an accuracy of 92.9 +/- 6.9% on AuNS@Al substrates. These results demonstrate that the integration of optimized nanostructured SERS substrates, Raman spectroscopy, and machine learning constitutes a robust analytical platform for the structural classification of wild-type and mutant p53 proteins. The proposed approach provides a versatile framework for studying conformational changes in biomolecules of biomedical relevance and supports its potential application in cancer biomarker detection and protein misfolding studies.",
+    "keywords": [
+      "Analytical platform",
+      "Machine learning",
+      "Multivariate analysis",
+      "Surface-enhanced Raman spectroscopy",
+      "p53 mutants",
+      "p53 protein"
+    ],
+    "mesh_terms": [
+      "*Spectrum Analysis, Raman/methods",
+      "*Tumor Suppressor Protein p53/genetics/chemistry",
+      "*Machine Learning",
+      "Principal Component Analysis",
+      "Metal Nanoparticles/chemistry",
+      "*Mutation",
+      "Humans",
+      "Gold/chemistry",
+      "Silver/chemistry",
+      "Classification Algorithms",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hernandez-Vidales, Karen",
+        "Munoz Castillo, Juan A",
+        "Islas, Selene R",
+        "Rodriguez-Rodriguez, Andres",
+        "Olivares-Illana, Vanesa",
+        "Saniger, Jose M"
+      ],
+      "short_names": [
+        "Hernandez-Vidales K",
+        "Munoz Castillo JA",
+        "Islas SR",
+        "Rodriguez-Rodriguez A",
+        "Olivares-Illana V",
+        "Saniger JM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Instituto de Ciencias Aplicadas y Tecnologia, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico, Mexico. Electronic address: karen.vidales@icat.unam.mx.",
+        "Instituto de Ciencias Aplicadas y Tecnologia, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico, Mexico.",
+        "Instituto de Ciencias Aplicadas y Tecnologia, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico, Mexico.",
+        "Laboratorio de Interacciones Biomoleculares y Cancer, Instituto de Fisica, Universidad Autonoma de San Luis Potosi, San Luis Potosi, Mexico.",
+        "Laboratorio de Interacciones Biomoleculares y Cancer, Instituto de Fisica, Universidad Autonoma de San Luis Potosi, San Luis Potosi, Mexico.",
+        "Instituto de Ciencias Aplicadas y Tecnologia, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico, Mexico. Electronic address: jose.saniger@icat.unam.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hernández-Vidales, Karen",
+        "short_name": "Hernández-Vidales K",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciencias Aplicadas y Tecnología, Universidad Nacional Autónoma de México, Ciudad de México, Mexico. Electronic address: karen.vidales@icat.unam.mx."
+        ]
+      },
+      {
+        "full_name": "Muñoz Castillo, Juan A",
+        "short_name": "Muñoz Castillo JA",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciencias Aplicadas y Tecnología, Universidad Nacional Autónoma de México, Ciudad de México, Mexico."
+        ]
+      },
+      {
+        "full_name": "Islas, Selene R",
+        "short_name": "Islas SR",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciencias Aplicadas y Tecnología, Universidad Nacional Autónoma de México, Ciudad de México, Mexico."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-Rodríguez, Andrés",
+        "short_name": "Rodríguez-Rodríguez A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Interacciones Biomoleculares y Cáncer, Instituto de Física, Universidad Autónoma de San Luis Potosí, San Luis Potosí, Mexico."
+        ]
+      },
+      {
+        "full_name": "Olivares-Illana, Vanesa",
+        "short_name": "Olivares-Illana V",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratorio de Interacciones Biomoleculares y Cáncer, Instituto de Física, Universidad Autónoma de San Luis Potosí, San Luis Potosí, Mexico."
+        ]
+      },
+      {
+        "full_name": "Saniger, José M",
+        "short_name": "Saniger JM",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciencias Aplicadas y Tecnología, Universidad Nacional Autónoma de México, Ciudad de México, Mexico. Electronic address: jose.saniger@icat.unam.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy"
+    ],
+    "journal_abbrev": [
+      "Spectrochim Acta A Mol Biomol Spectrosc"
+    ],
+    "pub_date": "2026 May 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/04 05:06",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41633270",
+      "41544326",
+      "42150257",
+      "39793252",
+      "42086523",
+      "39194601",
+      "41475445",
+      "40756369",
+      "41702305",
+      "41765107",
+      "40945006",
+      "42376845",
+      "39742621",
+      "33210104",
+      "39849911",
+      "41436052",
+      "36781448",
+      "23389685",
+      "40700940",
+      "33327383",
+      "40155171",
+      "35605419",
+      "40446718",
+      "30059864",
+      "29907296",
+      "37004836",
+      "41442963",
+      "40715625",
+      "36702476",
+      "39282579",
+      "31909563",
+      "38684231",
+      "42164487",
+      "26438216",
+      "38815463",
+      "38847941",
+      "40887786",
+      "41081475",
+      "34531835",
+      "40548612",
+      "36152394",
+      "39907463",
+      "35033255",
+      "39264107",
+      "30029370",
+      "40451036",
+      "42290459",
+      "36772644",
+      "41297261",
+      "39589982",
+      "37220841",
+      "21976978",
+      "38759393",
+      "35878494",
+      "42236631",
+      "38843447",
+      "41689984",
+      "34343842",
+      "28388900",
+      "36963645",
+      "36646366",
+      "41546738",
+      "37699467",
+      "28905087",
+      "40812131",
+      "41131881",
+      "38700898",
+      "38879207",
+      "39480481",
+      "41986772",
+      "32280222",
+      "40088651",
+      "39488132",
+      "31239487",
+      "40714326",
+      "40139050",
+      "30666105",
+      "40006394",
+      "40806372",
+      "40813307",
+      "40654198",
+      "41108934",
+      "39383718",
+      "39892076",
+      "41176858",
+      "40024661",
+      "34455388",
+      "41183415",
+      "40810673",
+      "40773804",
+      "38907752",
+      "29981226",
+      "41578976",
+      "38719408",
+      "38131774",
+      "36874955",
+      "28783586",
+      "39420643",
+      "40669381",
+      "40974988"
+    ],
+    "review": [
+      "41633270",
+      "33327383"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1386-1425(26)00093-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}
